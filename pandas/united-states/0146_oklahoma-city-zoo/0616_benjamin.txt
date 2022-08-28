@@ -47,16 +47,16 @@ photo.6.author: rossifari
 photo.6.commitdate: 2021/4/2
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: portrait
-photo.7: https://www.codaworry.com/images/rpf/benjamin-14-capemay.jpg
-photo.7.author: aimless_amos
-photo.7.commitdate: 2021/9/10
-photo.7.link: https://www.instagram.com/aimless_amos/
-photo.7.tags: lunch time, paws, portrait, tail
-photo.8: ig://CX6BUzrrvQN/m
-photo.8.author: worldthathesees
-photo.8.commitdate: 2022/1/12
-photo.8.link: https://www.instagram.com/worldthathesees/
-photo.8.tags: smile
+photo.7: ig://CX6BUzrrvQN/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2022/1/12
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: smile
+photo.8: ig://ChR01cSsIky/m
+photo.8.author: rossifari
+photo.8.commitdate: 2022/8/28
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: paws, peek, portrait, sample, whiskers
 photo.9: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
 photo.9.author: aimless_amos
 photo.9.commitdate: 2021/6/25
@@ -87,10 +87,6 @@ photo.14.author: aimless_amos
 photo.14.commitdate: 2022/3/21
 photo.14.link: https://www.instagram.com/aimless_amos/
 photo.14.tags: close-up, nose, paws, portrait, whiskers
-photo.15: https://www.instagram.com/p/ChR01cSsIky/media/?size=m
-photo.15.author: rossifari
-photo.15.link: https://www.instagram.com/rossifari/
-photo.15.tags: paws, peek, portrait, sample, whiskers
 species: 1
 studbook.id: 1533
 zoo: 146

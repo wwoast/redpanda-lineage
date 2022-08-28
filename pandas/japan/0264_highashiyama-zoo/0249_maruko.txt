@@ -447,15 +447,16 @@ photo.86.author: daniele.tokyo
 photo.86.commitdate: 2022/5/27
 photo.86.link: https://www.instagram.com/daniele.tokyo/
 photo.86.tags: flowers, peek, sample, whiskers
-photo.87: ig://ChiQP-_htnf/m
+photo.87: ig://ChF9RbPBI6O/m
 photo.87.author: hamamatsu.chiita
-photo.87.commitdate: 2022/8/26
+photo.87.commitdate: 2022/8/28
 photo.87.link: https://www.instagram.com/hamamatsu.chiita/
-photo.87.tags: paws, portrait, sample, smile, whiskers
-photo.88: https://www.instagram.com/p/ChF9RbPBI6O/media/?size=m
+photo.87.tags: portrait, sample, smile, whiskers
+photo.88: ig://ChiQP-_htnf/m
 photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2022/8/26
 photo.88.link: https://www.instagram.com/hamamatsu.chiita/
-photo.88.tags: portrait, sample, smile, whiskers
+photo.88.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

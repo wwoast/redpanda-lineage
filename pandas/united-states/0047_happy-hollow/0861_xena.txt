@@ -336,8 +336,9 @@ photo.64.author: wumpwoast
 photo.64.commitdate: 2022/8/5
 photo.64.link: https://www.instagram.com/wumpwoast/
 photo.64.tags: bamboo, bite, laying down, portrait, sample, white face
-photo.65: https://www.instagram.com/p/Chz8tKEpX57/media/?size=m
+photo.65: ig://Chz8tKEpX57/m
 photo.65.author: wumpwoast
+photo.65.commitdate: 2022/8/28
 photo.65.link: https://www.instagram.com/wumpwoast/
 photo.65.tags: laying down, portrait, sample, tongue, tree
 species: 1

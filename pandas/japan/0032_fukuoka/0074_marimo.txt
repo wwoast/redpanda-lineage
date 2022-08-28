@@ -619,8 +619,9 @@ photo.122.author: re_ichimaru
 photo.122.commitdate: 2022/8/7
 photo.122.link: https://www.instagram.com/re_ichimaru/
 photo.122.tags: peek, standing, whiskers, window
-photo.123: https://www.instagram.com/p/ChJy7m5ubRc/media/?size=m
+photo.123: ig://ChJy7m5ubRc/m
 photo.123.author: yossi929
+photo.123.commitdate: 2022/8/28
 photo.123.link: https://www.instagram.com/yossi929/
 photo.123.tags: apple time, mofumofu, portrait, sample
 species: 2

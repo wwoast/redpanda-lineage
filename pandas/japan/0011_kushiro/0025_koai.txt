@@ -414,8 +414,9 @@ photo.81.author: sasapan34
 photo.81.commitdate: 2022/7/28
 photo.81.link: https://www.instagram.com/sasapan34/
 photo.81.tags: eye, paws, whiskers
-photo.82: https://www.instagram.com/p/ChOQdETP7WL/media/?size=m
+photo.82: ig://ChOQdETP7WL/m
 photo.82.author: mari_neko3
+photo.82.commitdate: 2022/8/28
 photo.82.link: https://www.instagram.com/mari_neko3/
 photo.82.tags: close-up, eye, paws, portrait, sample
 species: 2

@@ -1484,8 +1484,9 @@ photo.299.author: cattail.sapporo
 photo.299.commitdate: 2022/8/7
 photo.299.link: https://www.instagram.com/cattail.sapporo/
 photo.299.tags: nose, portrait, whiskers
-photo.300: https://www.instagram.com/p/ChO-_CqBDyp/media/?size=m
+photo.300: ig://ChO-_CqBDyp/m
 photo.300.author: leonard_redmof
+photo.300.commitdate: 2022/8/28
 photo.300.link: https://www.instagram.com/leonard_redmof/
 photo.300.tags: peek, portrait, sample, whiskers
 species: 2

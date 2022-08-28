@@ -967,10 +967,11 @@ photo.191.author: colette.jp
 photo.191.commitdate: 2022/8/8
 photo.191.link: https://www.instagram.com/colette.jp/
 photo.191.tags: paws, portrait, sample, standing, whiskers
-photo.192: https://www.instagram.com/p/ChUXKqthpWb/media/?size=m
+photo.192: ig://ChUXKqthpWb/m
 photo.192.author: colette.jp
+photo.192.commitdate: 2022/8/28
 photo.192.link: https://www.instagram.com/colette.jp/
-photo.192.tags: close-up, lips, mofumofu, paws, portrait, sample, whiskers 
+photo.192.tags: close-up, lips, mofumofu, paws, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 14
