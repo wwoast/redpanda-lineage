@@ -50,53 +50,61 @@ photo.7.author: lincolnchildrenszoo
 photo.7.commitdate: 2022/3/5
 photo.7.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.7.tags: close-up, portrait, whiskers
-photo.8: ig://Ca5EwF6JM0n/m
+photo.8: ig://Ca2Nq80tnu3/m
 photo.8.author: lincolnchildrenszoo
-photo.8.commitdate: 2022/3/18
-photo.8.link: https://www.instagram.com/carsontheredpanda/
+photo.8.commitdate: 2022/8/30
+photo.8.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.8.tags: paws, portrait, sample, smile, whiskers
-photo.9: ig://CctCxkTPW1b/m
+photo.9: ig://Ca5EwF6JM0n/m
 photo.9.author: lincolnchildrenszoo
-photo.9.commitdate: 2022/6/2
+photo.9.commitdate: 2022/3/18
 photo.9.link: https://www.instagram.com/carsontheredpanda/
 photo.9.tags: paws, portrait, sample, smile, whiskers
-photo.10: ig://Cc8LsdGLble/m
-photo.10.author: carsontheredpanda
-photo.10.commitdate: 2022/6/7
-photo.10.link: https://www.instagram.com/carsontheredpanda/
-photo.10.tags: peek, portrait, sample, tree
-photo.11: https://www.instagram.com/p/ChFkWurJvAm/media/?size=m
+photo.10: ig://CbU86XXOlaX/m
+photo.10.author: lincolnchildrenszoo
+photo.10.commitdate: 2022/8/30
+photo.10.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.10.tags: paws, peek, portrait, sample, whiskers
+photo.11: ig://Cbz59xnO-kF/m
 photo.11.author: lincolnchildrenszoo
-photo.11.link: https://www.instagram.com/carsontheredpanda/
-photo.11.tags: paws, sample, smile, whiskers
-photo.12: https://www.instagram.com/p/CfRWTb2pRiN/media/?size=m
+photo.11.commitdate: 2022/8/30
+photo.11.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.11.tags: portrait, profile, sample, whiskers
+photo.12: ig://CckxiqrOynv/m
 photo.12.author: lincolnchildrenszoo
+photo.12.commitdate: 2022/8/30
 photo.12.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.12.tags: portrait, sample, whiskers
-photo.13: https://www.instagram.com/p/CdioGQ-Ol99/media/?size=m
+photo.13: ig://CctCxkTPW1b/m
 photo.13.author: lincolnchildrenszoo
-photo.13.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.13.tags: portrait, sample, smile, whiskers
-photo.14: https://www.instagram.com/p/Cc8OAbYtt_A/media/?size=m
-photo.14.author: lincolnchildrenszoo
-photo.14.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.14.tags: portrait, sample, smile, tongue, whiskers
-photo.15: https://www.instagram.com/p/CckxiqrOynv/media/?size=m
+photo.13.commitdate: 2022/6/2
+photo.13.link: https://www.instagram.com/carsontheredpanda/
+photo.13.tags: paws, portrait, sample, smile, whiskers
+photo.14: ig://Cc8LsdGLble/m
+photo.14.author: carsontheredpanda
+photo.14.commitdate: 2022/6/7
+photo.14.link: https://www.instagram.com/carsontheredpanda/
+photo.14.tags: peek, portrait, sample, tree
+photo.15: ig://Cc8OAbYtt_A/m
 photo.15.author: lincolnchildrenszoo
+photo.15.commitdate: 2022/8/30
 photo.15.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.15.tags: portrait, sample, whiskers
-photo.16: https://www.instagram.com/p/Cbz59xnO-kF/media/?size=m
+photo.15.tags: portrait, sample, smile, tongue, whiskers
+photo.16: ig://CdioGQ-Ol99/m
 photo.16.author: lincolnchildrenszoo
+photo.16.commitdate: 2022/8/30
 photo.16.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.16.tags: portrait, profile, sample, whiskers
-photo.17: https://www.instagram.com/p/CbU86XXOlaX/media/?size=m
+photo.16.tags: portrait, sample, smile, whiskers
+photo.17: ig://CfRWTb2pRiN/m
 photo.17.author: lincolnchildrenszoo
+photo.17.commitdate: 2022/8/30
 photo.17.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.17.tags: paws, peek, portrait, sample, whiskers
-photo.18: https://www.instagram.com/p/Ca2Nq80tnu3/media/?size=m
+photo.17.tags: portrait, sample, whiskers
+photo.18: ig://ChFkWurJvAm/m
 photo.18.author: lincolnchildrenszoo
-photo.18.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.18.tags: paws, portrait, sample, smile, whiskers
+photo.18.commitdate: 2022/8/30
+photo.18.link: https://www.instagram.com/carsontheredpanda/
+photo.18.tags: paws, sample, smile, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 80

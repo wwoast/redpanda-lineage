@@ -200,19 +200,20 @@ photo.37.author: carsontheredpanda
 photo.37.commitdate: 2022/6/2
 photo.37.link: https://www.instagram.com/carsontheredpanda/
 photo.37.tags: bamboo, close-up, portrait, sample smile
-photo.38: ig://Cf9--IFsfQV/m
-photo.38.author: henryvilaszoo
-photo.38.commitdate: 2022/7/31
-photo.38.link: https://www.instagram.com/henryvilaszoo/
-photo.38.tags: paws, portrait, sample, smile, whiskers
-photo.39: ig://CgzVIuDL7CX/m
+photo.38: ig://CexOjghLf55/m
+photo.38.author: carsontheredpanda
+photo.38.commitdate: 2022/8/30
+photo.38.link: https://www.instagram.com/carsontheredpanda/
+photo.38.tags: paws, portrait, sample, standing, tree
+photo.39: ig://Cf9--IFsfQV/m
 photo.39.author: henryvilaszoo
-photo.39.commitdate: 2022/8/11
+photo.39.commitdate: 2022/7/31
 photo.39.link: https://www.instagram.com/henryvilaszoo/
-photo.39.tags: laying down, smile, tail, whiskers
-photo.40: https://www.instagram.com/p/CexOjghLf55/media/?size=m
-photo.40.author: carsontheredpanda
-photo.40.link: https://www.instagram.com/carsontheredpanda/
-photo.40.tags: paws, portrait, sample, standing, tree
+photo.39.tags: paws, portrait, sample, smile, whiskers
+photo.40: ig://CgzVIuDL7CX/m
+photo.40.author: henryvilaszoo
+photo.40.commitdate: 2022/8/11
+photo.40.link: https://www.instagram.com/henryvilaszoo/
+photo.40.tags: laying down, smile, tail, whiskers
 species: 2
 zoo: 77
