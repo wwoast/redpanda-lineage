@@ -4,9 +4,9 @@ birthday: 2016/6/2
 birthplace: 16
 children: none
 commitdate: 2018/6/28
-en.name: Holy
+en.name: Holly
 en.nicknames: none
-en.othernames: Holly, Hory
+en.othernames: Holy, Hory
 gender: f
 jp.name: ホーリー
 jp.nicknames: none
@@ -372,6 +372,10 @@ photo.72.author: minatomirai215
 photo.72.commitdate: 2022/8/8
 photo.72.link: https://www.instagram.com/minatomirai215/
 photo.72.tags: laying down, mofumofu, sample
+photo.73: https://www.instagram.com/p/ChtnN_oOwg_/media/?size=m
+photo.73.author: shigeko0531
+photo.73.link: https://www.instagram.com/shigeko0531/
+photo.73.tags: smile
 species: 2
 studbook.id: 1675
 zoo: 10
