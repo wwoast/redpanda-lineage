@@ -214,15 +214,16 @@ photo.40.author: mini_cochi
 photo.40.commitdate: 2022/4/4
 photo.40.link: https://www.instagram.com/mini_cochi/
 photo.40.tags: close-up, portrait, sample, whiskers
-photo.41: ig://CfPpUx4BEMA/m
+photo.41: ig://Cd8kx-_vai1/m
 photo.41.author: sasapan34
-photo.41.commitdate: 2022/7/9
+photo.41.commitdate: 2022/8/31
 photo.41.link: https://www.instagram.com/sasapan34/
-photo.41.tags: whiskers
-photo.42: https://www.instagram.com/p/Cd8kx-_vai1/media/?size=m
+photo.41.tags: sample, smile, tail, tree
+photo.42: ig://CfPpUx4BEMA/m
 photo.42.author: sasapan34
+photo.42.commitdate: 2022/7/9
 photo.42.link: https://www.instagram.com/sasapan34/
-photo.42.tags: sample, smile, tail, tree
+photo.42.tags: whiskers
 species: 2
 studbook.id: unknown
 zoo: 69

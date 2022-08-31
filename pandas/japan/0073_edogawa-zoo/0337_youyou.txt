@@ -395,35 +395,36 @@ photo.76.author: ssc6105
 photo.76.commitdate: 2022/6/21
 photo.76.link: https://www.instagram.com/ssc6105/
 photo.76.tags: blink, home, paws, sample, smile, techitechi
-photo.77: ig://ChcGl8YrbRC/m
-photo.77.author: ifumoto88
-photo.77.commitdate: 2022/8/19
-photo.77.link: https://www.instagram.com/ifumoto88/
-photo.77.tags: mofumofu, portrait, sample, tongue
-photo.78: ig://ChcRO9JvCWo/m
-photo.78.author: ssc6105
+photo.77: ig://Cf5yhz6Pgd6/m
+photo.77.author: edogawa.kankyozaidan
+photo.77.commitdate: 2022/8/31
+photo.77.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.77.tags: bamboo, close-up, home, mofumofu, paws
+photo.78: ig://ChcGl8YrbRC/m
+photo.78.author: ifumoto88
 photo.78.commitdate: 2022/8/19
-photo.78.link: https://www.instagram.com/ssc6105/
-photo.78.tags: home, paws, sample, smile, wink
-photo.79: ig://Chdr0JbPppX/m
-photo.79.author: ifumoto88
-photo.79.commitdate: 2022/8/28
-photo.79.link: https://www.instagram.com/ifumoto88/
-photo.79.tags: bridge, laying down, portrait, sample
-photo.80: ig://CheqGDMB7Px/m
-photo.80.author: na.mo.pan
-photo.80.commitdate: 2022/8/26
-photo.80.link: https://www.instagram.com/na.mo.pan/
-photo.80.tags: sample, whiskers
-photo.81: ig://CheyQv0hvY2/m
-photo.81.author: grskus_tk
+photo.78.link: https://www.instagram.com/ifumoto88/
+photo.78.tags: mofumofu, portrait, sample, tongue
+photo.79: ig://ChcRO9JvCWo/m
+photo.79.author: ssc6105
+photo.79.commitdate: 2022/8/19
+photo.79.link: https://www.instagram.com/ssc6105/
+photo.79.tags: home, paws, sample, smile, wink
+photo.80: ig://Chdr0JbPppX/m
+photo.80.author: ifumoto88
+photo.80.commitdate: 2022/8/28
+photo.80.link: https://www.instagram.com/ifumoto88/
+photo.80.tags: bridge, laying down, portrait, sample
+photo.81: ig://CheqGDMB7Px/m
+photo.81.author: na.mo.pan
 photo.81.commitdate: 2022/8/26
-photo.81.link: https://www.instagram.com/grskus_tk/
-photo.81.tags: door, home, smile
-photo.82: https://www.instagram.com/p/Cf5yhz6Pgd6/media/?size=m
-photo.82.author: edogawa.kankyozaidan
-photo.82.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.82.tags: bamboo, close-up, home, mofumofu, paws
+photo.81.link: https://www.instagram.com/na.mo.pan/
+photo.81.tags: sample, whiskers
+photo.82: ig://CheyQv0hvY2/m
+photo.82.author: grskus_tk
+photo.82.commitdate: 2022/8/26
+photo.82.link: https://www.instagram.com/grskus_tk/
+photo.82.tags: door, home, smile
 species: 2
 studbook.id: 0261
 zoo: 73

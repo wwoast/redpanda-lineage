@@ -763,8 +763,9 @@ photo.150.author: otenba_redpanda
 photo.150.commitdate: 2022/7/31
 photo.150.link: https://www.instagram.com/otenba_redpanda/
 photo.150.tags: close-up, portrait, sample, whiskers
-photo.151: https://www.instagram.com/p/Chsjlthhc_g/media/?size=m
+photo.151: ig://Chsjlthhc_g/m
 photo.151.author: hamamatsu.chiita
+photo.151.commitdate: 2022/8/31
 photo.151.link: https://www.instagram.com/hamamatsu.chiita/
 photo.151.tags: mofumofu, portrait, sample
 species: 2

@@ -595,34 +595,36 @@ photo.116.author: ifumoto88
 photo.116.commitdate: 2022/4/25
 photo.116.link: https://www.instagram.com/ifumoto88/
 photo.116.tags: itchy, laying down, paws, playing, portrait
-photo.117: ig://CgGzEkUhs1Q/m
+photo.117: ig://CdXsKNEvw13/m
 photo.117.author: edogawa.kankyozaidan
-photo.117.commitdate: 2022/7/25
+photo.117.commitdate: 2022/8/31
 photo.117.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.117.tags: bamboo, blink, laying down, tail
-photo.118: ig://CgHC4Kju72A/m
-photo.118.author: daniele.tokyo
-photo.118.commitdate: 2022/7/25
-photo.118.link: https://www.instagram.com/daniele.tokyo/
-photo.118.tags: door, home, laying down, paws, sample
-photo.119: ig://CgHIR6kBGIT/m
-photo.119.author: na.mo.pan
+photo.117.tags: close-up, home, mofumofu, whiskers
+photo.118: ig://CeNq1BePo4A/m
+photo.118.author: edogawa.kankyozaidan
+photo.118.commitdate: 2022/8/31
+photo.118.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.118.tags: bamboo, laying down, mofumofu, sleeping
+photo.119: ig://CgGzEkUhs1Q/m
+photo.119.author: edogawa.kankyozaidan
 photo.119.commitdate: 2022/7/25
-photo.119.link: https://www.instagram.com/na.mo.pan/
-photo.119.tags: grooming, home, laying down, paws, portrait, sample, tongue
-photo.120: ig://CgHNjkuB8Gg/m
-photo.120.author: ssc6105
+photo.119.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.119.tags: bamboo, blink, laying down, tail
+photo.120: ig://CgHC4Kju72A/m
+photo.120.author: daniele.tokyo
 photo.120.commitdate: 2022/7/25
-photo.120.link: https://www.instagram.com/ssc6105/
-photo.120.tags: blink, door, home, laying down, sample, tongue
-photo.121: https://www.instagram.com/p/CeNq1BePo4A/media/?size=m
-photo.121.author: edogawa.kankyozaidan
-photo.121.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.121.tags: bamboo, laying down, mofumofu, sleeping
-photo.122: https://www.instagram.com/p/CdXsKNEvw13/media/?size=m
-photo.122.author: edogawa.kankyozaidan
-photo.122.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.122.tags: close-up, home, mofumofu, whiskers
+photo.120.link: https://www.instagram.com/daniele.tokyo/
+photo.120.tags: door, home, laying down, paws, sample
+photo.121: ig://CgHIR6kBGIT/m
+photo.121.author: na.mo.pan
+photo.121.commitdate: 2022/7/25
+photo.121.link: https://www.instagram.com/na.mo.pan/
+photo.121.tags: grooming, home, laying down, paws, portrait, sample, tongue
+photo.122: ig://CgHNjkuB8Gg/m
+photo.122.author: ssc6105
+photo.122.commitdate: 2022/7/25
+photo.122.link: https://www.instagram.com/ssc6105/
+photo.122.tags: blink, door, home, laying down, sample, tongue
 species: 2
 studbook.id: 00102
 zoo: 73

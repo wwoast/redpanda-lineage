@@ -2253,14 +2253,16 @@ photo.449.author: yossi929
 photo.449.commitdate: 2022/8/18
 photo.449.link: https://www.instagram.com/yossi929/
 photo.449.tags: bridge, laying down, paws, sample, whiskers
-photo.450: https://www.instagram.com/p/ChsuOP-vIct/media/?size=m
-photo.450.author: yossi929
-photo.450.link: https://www.instagram.com/yossi929/
-photo.450.tags: sample, smile, whiskers
-photo.451: https://www.instagram.com/p/ChqwMq2vZ_i/media/?size=m
-photo.451.author: re_ichimaru
-photo.451.link: https://www.instagram.com/re_ichimaru/
-photo.451.tags: bridge, close-up, paws, sample, wave, whiskers
+photo.450: ig://ChqwMq2vZ_i/m
+photo.450.author: re_ichimaru
+photo.450.commitdate: 2022/8/31
+photo.450.link: https://www.instagram.com/re_ichimaru/
+photo.450.tags: bridge, close-up, paws, sample, wave, whiskers
+photo.451: ig://ChsuOP-vIct/m
+photo.451.author: yossi929
+photo.451.commitdate: 2022/8/31
+photo.451.link: https://www.instagram.com/yossi929/
+photo.451.tags: sample, smile, whiskers
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44
