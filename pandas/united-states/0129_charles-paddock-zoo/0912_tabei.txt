@@ -15,7 +15,7 @@ language.order: en, jp
 litter: 524
 location.1: 108, 2013/6/1
 location.2: 154, 2014/5/13
-location.3: 129, 2021/5/1
+location.3: 129, 2021/1/21
 photo.1: ig://CFKMEXgsjV-/m
 photo.1.author: syracusezoo
 photo.1.commitdate: 2020/9/16
@@ -71,6 +71,9 @@ photo.11.author: rossifari
 photo.11.commitdate: 2022/4/7
 photo.11.link: https://www.instagram.com/rossifari/
 photo.11.tags: portrait, sample, whiskers, white face
+photo.12: https://www.instagram.com/p/CeviJ80s84a/media/?size=m
+photo.12.author: rossifari
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: bamboo, close-up, portrait, sample
 species: 1
-uncertainty: location.3 exact month/day
 zoo: 129
