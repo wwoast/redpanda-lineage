@@ -520,8 +520,9 @@ photo.101.author: jas_forever_love
 photo.101.commitdate: 2022/8/18
 photo.101.link: https://www.instagram.com/jas_forever_love/
 photo.101.tags: peek, sample, smile, tree, whiskers
-photo.102: https://www.instagram.com/p/ChpZ39mhqkl/media/?size=m
+photo.102: ig://ChpZ39mhqkl/m
 photo.102.author: makimaru18
+photo.102.commitdate: 2022/8/30
 photo.102.link: https://www.instagram.com/makimaru18/
 photo.102.tags: climb, paws, portrait, tail, tree, wink
 species: 2

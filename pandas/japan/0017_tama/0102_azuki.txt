@@ -306,20 +306,21 @@ photo.59.author: otenba_redpanda
 photo.59.commitdate: 2022/6/21
 photo.59.link: https://www.instagram.com/otenba_redpanda/
 photo.59.tags: bamboo, close-up, muzzle, portrait, sample, whiskers
-photo.60: ig://Cgg953XLAdw/m
-photo.60.author: mini_cochi
-photo.60.commitdate: 2022/8/8
-photo.60.link: https://www.instagram.com/mini_cochi/
-photo.60.tags: door, paws, portrait, sample, whiskers
-photo.61: ig://CgiLEUXrx3d/m
-photo.61.author: otenba_redpanda
+photo.60: ig://CeyPKgVPuhr/m
+photo.60.author: kotata_513
+photo.60.commitdate: 2022/8/30
+photo.60.link: https://www.instagram.com/kotata_513/
+photo.60.tags: bamboo, portrait, sample, tongue
+photo.61: ig://Cgg953XLAdw/m
+photo.61.author: mini_cochi
 photo.61.commitdate: 2022/8/8
-photo.61.link: https://www.instagram.com/otenba_redpanda/
-photo.61.tags: bamboo, portrait, sample, whiskers
-photo.62: https://www.instagram.com/p/CeyPKgVPuhr/media/?size=m
-photo.62.author: kotata_513
-photo.62.link: https://www.instagram.com/kotata_513/
-photo.62.tags: bamboo, portrait, sample, tongue
+photo.61.link: https://www.instagram.com/mini_cochi/
+photo.61.tags: door, paws, portrait, sample, whiskers
+photo.62: ig://CgiLEUXrx3d/m
+photo.62.author: otenba_redpanda
+photo.62.commitdate: 2022/8/8
+photo.62.link: https://www.instagram.com/otenba_redpanda/
+photo.62.tags: bamboo, portrait, sample, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

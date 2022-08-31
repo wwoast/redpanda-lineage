@@ -614,24 +614,26 @@ photo.120.author: otenba_redpanda
 photo.120.commitdate: 2022/6/22
 photo.120.link: https://www.instagram.com/otenba_redpanda/
 photo.120.tags: apple time, paws, portrait, sample, standing, tail
-photo.121: ig://ChUabr_rgDf/m
-photo.121.author: _saaaaaaah_
-photo.121.commitdate: 2022/8/18
-photo.121.link: https://www.instagram.com/_saaaaaaah_/
-photo.121.tags: paws, sample, smile, tongue, whiskers
-photo.122: ig://ChauwmdLgKg/m
-photo.122.author: otenba_redpanda
-photo.122.commitdate: 2022/8/18
-photo.122.link: https://www.instagram.com/otenba_redpanda/
-photo.122.tags: apple time, bite, home, paws, sample, smile, standing
-photo.123: https://www.instagram.com/p/Ce1CvmyL5Dc/media/?size=m
-photo.123.author: mini_cochi
-photo.123.link: https://www.instagram.com/mini_cochi/
-photo.123.tags: apple time, close-up, portrait, sample
-photo.124: https://www.instagram.com/p/CetNec4r45R/media/?size=m
-photo.124.author: mini_cochi
-photo.124.link: https://www.instagram.com/mini_cochi/
-photo.124.tags: apple time, paws, sample, standing, whiskers
+photo.121: ig://CetNec4r45R/m
+photo.121.author: mini_cochi
+photo.121.commitdate: 2022/8/30
+photo.121.link: https://www.instagram.com/mini_cochi/
+photo.121.tags: apple time, paws, sample, standing, whiskers
+photo.122: ig://Ce1CvmyL5Dc/m
+photo.122.author: mini_cochi
+photo.122.commitdate: 2022/8/30
+photo.122.link: https://www.instagram.com/mini_cochi/
+photo.122.tags: apple time, close-up, portrait, sample
+photo.123: ig://ChUabr_rgDf/m
+photo.123.author: _saaaaaaah_
+photo.123.commitdate: 2022/8/18
+photo.123.link: https://www.instagram.com/_saaaaaaah_/
+photo.123.tags: paws, sample, smile, tongue, whiskers
+photo.124: ig://ChauwmdLgKg/m
+photo.124.author: otenba_redpanda
+photo.124.commitdate: 2022/8/18
+photo.124.link: https://www.instagram.com/otenba_redpanda/
+photo.124.tags: apple time, bite, home, paws, sample, smile, standing
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

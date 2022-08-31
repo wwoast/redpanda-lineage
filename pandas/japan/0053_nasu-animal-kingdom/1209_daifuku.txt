@@ -243,20 +243,21 @@ photo.46.author: panda.daisuki
 photo.46.commitdate: 2022/5/25
 photo.46.link: https://www.instagram.com/panda.daisuki/
 photo.46.tags: laying down, mofumofu, portrait, whiskers
-photo.47: ig://CfkeIEbvM1l/m
-photo.47.author: hamiiiii831_
-photo.47.commitdate: 2022/8/16
-photo.47.link: https://www.instagram.com/hamiiiii831_/
-photo.47.tags: mofumofu, paws, sample, smile, whiskers
-photo.48: ig://CgMEPYbB-vi/m
-photo.48.author: ssc6105
-photo.48.commitdate: 2022/7/28
-photo.48.link: https://www.instagram.com/ssc6105/
-photo.48.tags: portrait, sample, smile, whiskers
-photo.49: https://www.instagram.com/p/CeZmdoYhpu6/media/?size=m
+photo.47: ig://CeZmdoYhpu6/m
+photo.47.author: ssc6105
+photo.47.commitdate: 2022/8/30
+photo.47.link: https://www.instagram.com/ssc6105/
+photo.47.tags: portrait, sample, whiskers
+photo.48: ig://CfkeIEbvM1l/m
+photo.48.author: hamiiiii831_
+photo.48.commitdate: 2022/8/16
+photo.48.link: https://www.instagram.com/hamiiiii831_/
+photo.48.tags: mofumofu, paws, sample, smile, whiskers
+photo.49: ig://CgMEPYbB-vi/m
 photo.49.author: ssc6105
+photo.49.commitdate: 2022/7/28
 photo.49.link: https://www.instagram.com/ssc6105/
-photo.49.tags: portrait, sample, whiskers
+photo.49.tags: portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53

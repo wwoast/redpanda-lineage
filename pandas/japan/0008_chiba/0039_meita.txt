@@ -833,19 +833,21 @@ photo.164.author: panda.daisuki
 photo.164.commitdate: 2022/7/11
 photo.164.link: https://www.instagram.com/panda.daisuki/
 photo.164.tags: portrait, sample, smile, whiskers
-photo.165: ig://CfV7vauvM9d/m
-photo.165.author: eos1089
-photo.165.commitdate: 2022/7/31
-photo.165.link: https://www.instagram.com/eos1089/
-photo.165.tags: bamboo, paws, portrait, sample, whiskers
-photo.166: https://www.instagram.com/p/CebA378L3Eg/media/?size=m
+photo.165: ig://CeYgF2uF-G1/m
+photo.165.author: gloryeui
+photo.165.commitdate: 2022/8/30
+photo.165.link: https://www.instagram.com/gloryeui/
+photo.165.tags: laying down, paws, peek, portrait
+photo.166: ig://CebA378L3Eg/m
 photo.166.author: ifumoto88
+photo.166.commitdate: 2022/8/30
 photo.166.link: https://www.instagram.com/ifumoto88/
 photo.166.tags: portrait, sample, smile, whiskers
-photo.167: https://www.instagram.com/p/CeYgF2uF-G1/media/?size=m
-photo.167.author: gloryeui
-photo.167.link: https://www.instagram.com/gloryeui/
-photo.167.tags: laying down, paws, peek, portrait
+photo.167: ig://CfV7vauvM9d/m
+photo.167.author: eos1089
+photo.167.commitdate: 2022/7/31
+photo.167.link: https://www.instagram.com/eos1089/
+photo.167.tags: bamboo, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8

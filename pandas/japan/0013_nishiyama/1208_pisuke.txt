@@ -648,8 +648,9 @@ photo.127.author: craig_craig_craig
 photo.127.commitdate: 2022/8/18
 photo.127.link: https://www.instagram.com/craig_craig_craig/
 photo.127.tags: paws, peek, tail
-photo.128: https://www.instagram.com/p/ChpWTxzPttg/media/?size=m
+photo.128: ig://ChpWTxzPttg/m
 photo.128.author: tomo3700
+photo.128.commitdate: 2022/8/30
 photo.128.link: https://www.instagram.com/tomo3700/
 photo.128.tags: bridge, paws, peek, portrait, sample
 species: 2

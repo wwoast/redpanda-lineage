@@ -96,8 +96,9 @@ photo.16.author: yuredpanda
 photo.16.commitdate: 2022/8/8
 photo.16.link: https://www.instagram.com/yuredpanda/
 photo.16.tags: laying down, portrait, sample, whiskers
-photo.17: https://www.instagram.com/p/ChoYLYzvs1x/media/?size=m
+photo.17: ig://ChoYLYzvs1x/m
 photo.17.author: yuredpanda
+photo.17.commitdate: 2022/8/30
 photo.17.link: https://www.instagram.com/yuredpanda/
 photo.17.tags: portrait, sample, smile, whiskers
 species: 2

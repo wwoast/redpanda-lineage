@@ -393,8 +393,9 @@ photo.76.author: jas_forever_love
 photo.76.commitdate: 2022/7/31
 photo.76.link: https://www.instagram.com/jas_forever_love/
 photo.76.tags: portrait, sample, smile, tongue, whiskers, white face
-photo.77: https://www.instagram.com/p/Chop7nlOjIZ/media/?size=m
+photo.77: ig://Chop7nlOjIZ/m
 photo.77.author: gloryeui
+photo.77.commitdate: 2022/8/30
 photo.77.link: https://www.instagram.com/gloryeui/
 photo.77.tags: paws, portrait, sample, smile, whiskers
 species: 2

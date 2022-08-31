@@ -614,8 +614,9 @@ photo.120.author: gloryeui
 photo.120.commitdate: 2022/8/18
 photo.120.link: https://www.instagram.com/gloryeui/
 photo.120.tags: paws, peek, portrait, sample, smile, whiskers
-photo.121: https://www.instagram.com/p/Cho-IciBRnA/media/?size=m
+photo.121: ig://Cho-IciBRnA/m
 photo.121.author: jas_forever_love
+photo.121.commitdate: 2022/8/30
 photo.121.link: https://www.instagram.com/jas_forever_love/
 photo.121.tags: bamboo, portrait, sample, smile, tongue
 species: 2
