@@ -321,8 +321,9 @@ photo.62.author: otenba_redpanda
 photo.62.commitdate: 2022/8/8
 photo.62.link: https://www.instagram.com/otenba_redpanda/
 photo.62.tags: bamboo, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/ChgBkkwBr-K/media/?size=m
+photo.63: ig://ChgBkkwBr-K/m
 photo.63.author: alto0908
+photo.63.commitdate: 2022/8/31
 photo.63.link: https://www.instagram.com/alto0908/
 photo.63.tags: peek, portrait, sample, tail, whiskers
 species: 2

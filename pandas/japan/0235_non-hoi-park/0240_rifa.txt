@@ -1782,39 +1782,41 @@ photo.355.author: alto0908
 photo.355.commitdate: 2022/6/11
 photo.355.link: https://www.instagram.com/alto0908/
 photo.355.tags: peek, portrait, sample, tree, whiskers
-photo.356: ig://CeV6m8Prw2Q/m
-photo.356.author: osopanda551
-photo.356.commitdate: 2022/8/1
-photo.356.link: https://www.instagram.com/osopanda551/
-photo.356.tags: bamboo, paws, portrait, sample, tongue
-photo.357: ig://CgB5SZkPYip/m
-photo.357.author: daniele.tokyo
-photo.357.commitdate: 2022/8/16
-photo.357.link: https://www.instagram.com/daniele.tokyo/
-photo.357.tags: portrait, sample, wet
-photo.358: ig://CgV8wubvxxi/m
-photo.358.author: ayusuke56
-photo.358.commitdate: 2022/7/25
-photo.358.link: https://www.instagram.com/ayusuke56/
-photo.358.tags: paws, portrait, sample, smile, whiskers
-photo.359: ig://ChWlqnjPFUl/m
-photo.359.author: ssc6105
-photo.359.commitdate: 2022/8/18
-photo.359.link: https://www.instagram.com/ssc6105/
-photo.359.tags: paws, sample, smile, whiskers
-photo.360: ig://Che-0Vgh0l-/m
-photo.360.author: yakko____
-photo.360.commitdate: 2022/8/26
-photo.360.link: https://www.instagram.com/yakko____/
-photo.360.tags: laying down, mofumofu, paws, peek, portrait, sample, smile, whiskers
-photo.361: https://www.instagram.com/p/Chjxt2eBEvD/media/?size=m
-photo.361.author: ssc6105
-photo.361.link: https://www.instagram.com/ssc6105/
-photo.361.tags: paws, sample, smile, whiskers
-photo.362: https://www.instagram.com/p/Cd9VfsbLwV5/media/?size=m
-photo.362.author: otenba_redpanda
-photo.362.link: https://www.instagram.com/otenba_redpanda/
-photo.362.tags: apple time, close-up, paws, portrait, whiskers
+photo.356: ig://Cd9VfsbLwV5/m
+photo.356.author: otenba_redpanda
+photo.356.commitdate: 2022/8/31
+photo.356.link: https://www.instagram.com/otenba_redpanda/
+photo.356.tags: apple time, close-up, paws, portrait, whiskers
+photo.357: ig://CeV6m8Prw2Q/m
+photo.357.author: osopanda551
+photo.357.commitdate: 2022/8/1
+photo.357.link: https://www.instagram.com/osopanda551/
+photo.357.tags: bamboo, paws, portrait, sample, tongue
+photo.358: ig://CgB5SZkPYip/m
+photo.358.author: daniele.tokyo
+photo.358.commitdate: 2022/8/16
+photo.358.link: https://www.instagram.com/daniele.tokyo/
+photo.358.tags: portrait, sample, wet
+photo.359: ig://CgV8wubvxxi/m
+photo.359.author: ayusuke56
+photo.359.commitdate: 2022/7/25
+photo.359.link: https://www.instagram.com/ayusuke56/
+photo.359.tags: paws, portrait, sample, smile, whiskers
+photo.360: ig://ChWlqnjPFUl/m
+photo.360.author: ssc6105
+photo.360.commitdate: 2022/8/18
+photo.360.link: https://www.instagram.com/ssc6105/
+photo.360.tags: paws, sample, smile, whiskers
+photo.361: ig://Che-0Vgh0l-/m
+photo.361.author: yakko____
+photo.361.commitdate: 2022/8/26
+photo.361.link: https://www.instagram.com/yakko____/
+photo.361.tags: laying down, mofumofu, paws, peek, portrait, sample, smile, whiskers
+photo.362: ig://Chjxt2eBEvD/m
+photo.362.author: ssc6105
+photo.362.commitdate: 2022/8/31
+photo.362.link: https://www.instagram.com/ssc6105/
+photo.362.tags: paws, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235
