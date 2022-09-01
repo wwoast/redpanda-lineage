@@ -548,25 +548,26 @@ photo.107.author: tomo3700
 photo.107.commitdate: 2022/6/7
 photo.107.link: https://www.instagram.com/tomo3700/
 photo.107.tags: peek, portrait, sample, whiskers
-photo.108: ig://ChSKhmBLtcV/m
-photo.108.author: mini_cochi
-photo.108.commitdate: 2022/8/18
-photo.108.link: https://www.instagram.com/mini_cochi/
-photo.108.tags: apple time, eye, keeper, portrait, sample, whiskers
-photo.109: ig://ChSeyxYhun6/m
-photo.109.author: eos1089
+photo.108: ig://ChRd29rhMBQ/m
+photo.108.author: framereim
+photo.108.commitdate: 2022/8/31
+photo.108.link: https://www.instagram.com/framereim/
+photo.108.tags: portrait, sample, smile, whiskers
+photo.109: ig://ChSKhmBLtcV/m
+photo.109.author: mini_cochi
 photo.109.commitdate: 2022/8/18
-photo.109.link: https://www.instagram.com/eos1089/
-photo.109.tags: birthday, peek, tail
-photo.110: ig://ChhxVsSheHh/m
+photo.109.link: https://www.instagram.com/mini_cochi/
+photo.109.tags: apple time, eye, keeper, portrait, sample, whiskers
+photo.110: ig://ChSeyxYhun6/m
 photo.110.author: eos1089
-photo.110.commitdate: 2022/8/26
+photo.110.commitdate: 2022/8/18
 photo.110.link: https://www.instagram.com/eos1089/
-photo.110.tags: keeper, portrait, sample, standing, tail
-photo.111: https://www.instagram.com/p/ChRd29rhMBQ/media/?size=m
-photo.111.author: framereim
-photo.111.link: https://www.instagram.com/framereim/
-photo.111.tags: portrait, sample, smile, whiskers
+photo.110.tags: birthday, peek, tail
+photo.111: ig://ChhxVsSheHh/m
+photo.111.author: eos1089
+photo.111.commitdate: 2022/8/26
+photo.111.link: https://www.instagram.com/eos1089/
+photo.111.tags: keeper, portrait, sample, standing, tail
 species: 2
 studbook.id: 13170
 zoo: 69
