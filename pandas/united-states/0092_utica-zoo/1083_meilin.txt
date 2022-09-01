@@ -41,8 +41,9 @@ photo.5.author: worldthathesees
 photo.5.commitdate: 2022/1/15
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: carry, tail
-photo.6: https://www.instagram.com/p/ChsEE0jIEk_/media/?size=m
+photo.6: ig://ChsEE0jIEk_/m
 photo.6.author: uticazoo
+photo.6.commitdate: 2022/8/31
 photo.6.link: https://www.instagram.com/uticazoo/
 photo.6.tags: close-up, hammock, laying down, paws, whiskers
 species: 2
