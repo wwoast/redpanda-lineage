@@ -63,15 +63,16 @@ photo.9.author: nathalie.elliott
 photo.9.commitdate: 2022/8/22
 photo.9.link: https://www.instagram.com/nathalie.elliott/
 photo.9.tags: portrait, tongue, whiskers, yawn
-photo.10: ig://ChSWzvYtPq3/m
-photo.10.author: mirellad03
-photo.10.commitdate: 2022/8/31
-photo.10.link: https://www.instagram.com/mirellad03/
-photo.10.tags: laying down, peek, tree, whiskers
-photo.11: https://www.instagram.com/p/CRMFYkPBSYa/media/?size=m
-photo.11.author: nathalie.elliott
-photo.11.link: https://www.instagram.com/nathalie.elliott/
-photo.11.tags: bite, portrait, sample, tail, whiskers
+photo.10: ig://CRMFYkPBSYa/m
+photo.10.author: nathalie.elliott
+photo.10.commitdate: 2022/9/2
+photo.10.link: https://www.instagram.com/nathalie.elliott/
+photo.10.tags: bite, portrait, sample, tail, whiskers
+photo.11: ig://ChSWzvYtPq3/m
+photo.11.author: mirellad03
+photo.11.commitdate: 2022/8/31
+photo.11.link: https://www.instagram.com/mirellad03/
+photo.11.tags: laying down, peek, tree, whiskers
 species: 1
 uncertainty: location.2 month and year (wild guess)
 zoo: 72
