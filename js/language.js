@@ -286,6 +286,7 @@ Language.L.flags = {
    "Isle of Man": "🇮🇲",
          "Italy": "🇮🇹",
          "Japan": "🇯🇵",
+          "Laos": "🇱🇦",
         "Mexico": "🇲🇽",
          "Nepal": "🇳🇵",
    "Netherlands": "🇳🇱",
