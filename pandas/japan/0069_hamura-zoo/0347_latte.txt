@@ -563,14 +563,16 @@ photo.110.author: eos1089
 photo.110.commitdate: 2022/7/31
 photo.110.link: https://www.instagram.com/eos1089/
 photo.110.tags: bamboo, mofumofu, portrait, sample, smile
-photo.111: https://www.instagram.com/p/CiFl1RjBIyr/media/?size=m
-photo.111.author: fetorus_mami
-photo.111.link: https://www.instagram.com/fetorus_mami/
-photo.111.tags: apple time, close-up, lips, mofumofu, sample, smile
-photo.112: https://www.instagram.com/p/Ch4oTplr0vr/media/?size=m
-photo.112.author: ifumoto88
-photo.112.link: https://www.instagram.com/ifumoto88/
-photo.112.tags: mofumofu, peek, portrait, sample, toys
+photo.111: ig://Ch4oTplr0vr/m
+photo.111.author: ifumoto88
+photo.111.commitdate: 2022/9/4
+photo.111.link: https://www.instagram.com/ifumoto88/
+photo.111.tags: mofumofu, peek, portrait, sample, toys
+photo.112: ig://CiFl1RjBIyr/m
+photo.112.author: fetorus_mami
+photo.112.commitdate: 2022/9/4
+photo.112.link: https://www.instagram.com/fetorus_mami/
+photo.112.tags: apple time, close-up, lips, mofumofu, sample, smile
 species: 2
 studbook.id: 13140
 zoo: 69

@@ -57,8 +57,9 @@ photo.8.author: henryvilaszoo
 photo.8.commitdate: 2022/8/26
 photo.8.link: https://www.instagram.com/henryvilaszoo/
 photo.8.tags: paws, peek, sample, whiskers
-photo.9: https://www.instagram.com/p/CiBRs0DrZxw/media/?size=m
+photo.9: ig://CiBRs0DrZxw/m
 photo.9.author: henryvilaszoo
+photo.9.commitdate: 2022/9/4
 photo.9.link: https://www.instagram.com/henryvilaszoo/
 photo.9.tags: close-up, mofumofu, nose, portrait, sample, whiskers
 species: 2
