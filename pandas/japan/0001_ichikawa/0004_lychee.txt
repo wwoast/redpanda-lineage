@@ -363,10 +363,11 @@ photo.70.author: eos1089
 photo.70.commitdate: 2022/7/31
 photo.70.link: https://www.instagram.com/eos1089/
 photo.70.tags: portrait, sample, tongue, whiskers
-photo.71: https://www.instagram.com/p/CiFR4W_BCjI/media/?size=m
+photo.71: ig://CiFR4W_BCjI/m
 photo.71.author: craig_craig_craig
+photo.71.commitdate: 2022/9/7
 photo.71.link: https://www.instagram.com/craig_craig_craig/
-photo.71.tags: close-up, eye, mofumofu, sample 
+photo.71.tags: close-up, eye, mofumofu, sample
 species: 2
 studbook.id: 0558
 zoo: 1

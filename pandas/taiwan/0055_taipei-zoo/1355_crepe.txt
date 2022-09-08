@@ -71,8 +71,9 @@ photo.11.author: yuredpanda
 photo.11.commitdate: 2022/8/16
 photo.11.link: https://www.instagram.com/yuredpanda/
 photo.11.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.12: https://www.instagram.com/p/CiAeF-BhuxG/media/?size=m
+photo.12: ig://CiAeF-BhuxG/m
 photo.12.author: yuredpanda
+photo.12.commitdate: 2022/9/7
 photo.12.link: https://www.instagram.com/yuredpanda/
 photo.12.tags: laying down, mofumofu, portrait, sample, whiskers
 species: 2

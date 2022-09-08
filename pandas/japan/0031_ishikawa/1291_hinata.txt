@@ -168,8 +168,9 @@ photo.31.author: hamamatsu.chiita
 photo.31.commitdate: 2022/8/5
 photo.31.link: https://www.instagram.com/hamamatsu.chiita/
 photo.31.tags: close-up, portrait, sample, smile, whiskers
-photo.32: https://www.instagram.com/p/CiGRUjbhaBM/media/?size=m
+photo.32: ig://CiGRUjbhaBM/m
 photo.32.author: hamamatsu.chiita
+photo.32.commitdate: 2022/9/7
 photo.32.link: https://www.instagram.com/hamamatsu.chiita/
 photo.32.tags: close-up, peek, portrait, sample, whiskers
 species: 2

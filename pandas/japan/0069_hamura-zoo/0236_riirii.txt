@@ -224,14 +224,16 @@ photo.42.author: sasapan34
 photo.42.commitdate: 2022/7/9
 photo.42.link: https://www.instagram.com/sasapan34/
 photo.42.tags: whiskers
-photo.43: https://www.instagram.com/p/CiFnTmthIlz/media/?size=m
+photo.43: ig://CiFGroLBQUL/m
 photo.43.author: fetorus_mami
+photo.43.commitdate: 2022/9/7
 photo.43.link: https://www.instagram.com/fetorus_mami/
-photo.43.tags: paws, playing, toys
-photo.44: https://www.instagram.com/p/CiFGroLBQUL/media/?size=m
+photo.43.tags: bamboo, close-up, whiskers
+photo.44: ig://CiFnTmthIlz/m
 photo.44.author: fetorus_mami
+photo.44.commitdate: 2022/9/7
 photo.44.link: https://www.instagram.com/fetorus_mami/
-photo.44.tags: bamboo, close-up, whiskers
+photo.44.tags: paws, playing, toys
 species: 2
 studbook.id: unknown
 zoo: 69

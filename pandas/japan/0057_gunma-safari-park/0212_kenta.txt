@@ -524,14 +524,16 @@ photo.103.author: fetorus_mami
 photo.103.commitdate: 2022/7/31
 photo.103.link: https://www.instagram.com/fetorus_mami/
 photo.103.tags: bamboo, close-up, mofumofu, paws, sample, whiskers
-photo.104: https://www.instagram.com/p/Ch3uOHaPeLJ/media/?size=m
+photo.104: ig://Ch3uJxhv33Q/m
 photo.104.author: hamiiiii831_
+photo.104.commitdate: 2022/9/7
 photo.104.link: https://www.instagram.com/hamiiiii831_/
-photo.104.tags: close-up, jizo, sample, smile, tongue, whiskers
-photo.105: https://www.instagram.com/p/Ch3uJxhv33Q/media/?size=m
+photo.104.tags: apple time, close-up, sample, whiskers
+photo.105: ig://Ch3uOHaPeLJ/m
 photo.105.author: hamiiiii831_
+photo.105.commitdate: 2022/9/7
 photo.105.link: https://www.instagram.com/hamiiiii831_/
-photo.105.tags: apple time, close-up, sample, whiskers
+photo.105.tags: close-up, jizo, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

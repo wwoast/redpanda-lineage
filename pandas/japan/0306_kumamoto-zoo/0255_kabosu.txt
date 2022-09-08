@@ -222,15 +222,16 @@ photo.41.author: daniele.tokyo
 photo.41.commitdate: 2022/7/31
 photo.41.link: https://www.instagram.com/daniele.tokyo/
 photo.41.tags: laying down, mofumofu, paws, portrait, sample
-photo.42: ig://Cgy0Y9bBSfg/m
-photo.42.author: daniele.tokyo
-photo.42.commitdate: 2022/8/5
-photo.42.link: https://www.instagram.com/daniele.tokyo/
-photo.42.tags: laying down, paws, portrait, sample, sleeping, smile
-photo.43: https://www.instagram.com/p/CgbtGTGPUI6/media/?size=m
-photo.43.author: kumamoto_doushokubutsuen
-photo.43.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.43.tags: close-up, sample, whiskers
+photo.42: ig://CgbtGTGPUI6/m
+photo.42.author: kumamoto_doushokubutsuen
+photo.42.commitdate: 2022/9/7
+photo.42.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.42.tags: close-up, sample, whiskers
+photo.43: ig://Cgy0Y9bBSfg/m
+photo.43.author: daniele.tokyo
+photo.43.commitdate: 2022/8/5
+photo.43.link: https://www.instagram.com/daniele.tokyo/
+photo.43.tags: laying down, paws, portrait, sample, sleeping, smile
 species: 2
 studbook.id: unknown
 zoo: 306
