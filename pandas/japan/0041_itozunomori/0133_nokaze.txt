@@ -337,8 +337,9 @@ photo.65.author: yossi929
 photo.65.commitdate: 2022/7/14
 photo.65.link: https://www.instagram.com/yossi929/
 photo.65.tags: peek, sample, techitechi, whiskers
-photo.66: https://www.instagram.com/p/Ch9-8SsryDJ/media/?size=m
+photo.66: ig://Ch9-8SsryDJ/m
 photo.66.author: yossi929
+photo.66.commitdate: 2022/9/8
 photo.66.link: nose, portrait, sample, whiskers
 species: 2
 studbook.id: 0992

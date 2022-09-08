@@ -273,8 +273,9 @@ photo.52.author: minatomirai215
 photo.52.commitdate: 2022/9/4
 photo.52.link: https://www.instagram.com/minatomirai215/
 photo.52.tags: mofumofu, portrait, sample, whiskers
-photo.53: https://www.instagram.com/p/Ch5pRdgunDd/media/?size=m
+photo.53: ig://Ch5pRdgunDd/m
 photo.53.author: otenba_redpanda
+photo.53.commitdate: 2022/9/8
 photo.53.link: https://www.instagram.com/otenba_redpanda/
 photo.53.tags: laying down, mofumofu, portrait, sample, whiskers
 species: 2

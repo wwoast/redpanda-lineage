@@ -476,8 +476,9 @@ photo.92.author: otenba_redpanda
 photo.92.commitdate: 2022/8/16
 photo.92.link: https://www.instagram.com/otenba_redpanda/
 photo.92.tags: mofumofu, portrait, sample, tongue, whiskers
-photo.93: https://www.instagram.com/p/Ch3txkovvUN/media/?size=m
+photo.93: ig://Ch3txkovvUN/m
 photo.93.author: hamiiiii831_
+photo.93.commitdate: 2022/9/8
 photo.93.link: https://www.instagram.com/hamiiiii831_/
 photo.93.tags: itchy, mofumofu, paws, sample, wave
 species: 2

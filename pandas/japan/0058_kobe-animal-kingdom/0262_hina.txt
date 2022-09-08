@@ -398,8 +398,9 @@ photo.77.author: gloryeui
 photo.77.commitdate: 2022/8/30
 photo.77.link: https://www.instagram.com/gloryeui/
 photo.77.tags: paws, portrait, sample, smile, whiskers
-photo.78: https://www.instagram.com/p/Ch12pp9hTCt/media/?size=m
+photo.78: ig://Ch12pp9hTCt/m
 photo.78.author: jas_forever_love
+photo.78.commitdate: 2022/9/8
 photo.78.link: https://www.instagram.com/jas_forever_love/
 photo.78.tags: sample, smile, tongue, whiskers
 species: 2

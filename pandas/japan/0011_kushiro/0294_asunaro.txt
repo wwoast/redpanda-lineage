@@ -519,8 +519,9 @@ photo.101.author: minatomirai215
 photo.101.commitdate: 2022/8/28
 photo.101.link: https://www.instagram.com/minatomirai215/
 photo.101.tags: portrait, sample, whiskers
-photo.102: https://www.instagram.com/p/Ch9x0r-JPEu/media/?size=m
+photo.102: ig://Ch9x0r-JPEu/m
 photo.102.author: minatomirai215
+photo.102.commitdate: 2022/9/8
 photo.102.link: https://www.instagram.com/minatomirai215/
 photo.102.tags: portrait, sample, smile, whiskers
 species: 2

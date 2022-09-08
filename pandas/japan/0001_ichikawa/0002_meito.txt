@@ -579,8 +579,9 @@ photo.115.author: otenba_redpanda
 photo.115.commitdate: 2022/8/5
 photo.115.link: https://www.instagram.com/otenba_redpanda/
 photo.115.tags: close-up, portrait, sample, whiskers
-photo.116: https://www.instagram.com/p/Ch4j-YWvyDh/media/?size=m
+photo.116: ig://Ch4j-YWvyDh/m
 photo.116.author: na.mo.pan
+photo.116.commitdate: 2022/9/8
 photo.116.link: https://www.instagram.com/na.mo.pan/
 photo.116.tags: paws, sample, whiskers
 species: 2

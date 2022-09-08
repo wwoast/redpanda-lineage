@@ -258,8 +258,9 @@ photo.49.author: ssc6105
 photo.49.commitdate: 2022/7/28
 photo.49.link: https://www.instagram.com/ssc6105/
 photo.49.tags: portrait, sample, smile, whiskers
-photo.50: https://www.instagram.com/p/Ch8VK-ZhTBS/media/?size=m
+photo.50: ig://Ch8VK-ZhTBS/m
 photo.50.author: fetorus_mami
+photo.50.commitdate: 2022/9/8
 photo.50.link: https://www.instagram.com/fetorus_mami/
 photo.50.tags: mofumofu, sample
 species: 2

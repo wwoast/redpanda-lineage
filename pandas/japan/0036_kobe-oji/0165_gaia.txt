@@ -1053,15 +1053,16 @@ photo.210.author: falcon_tenor
 photo.210.commitdate: 2022/8/28
 photo.210.link: https://www.instagram.com/falcon_tenor/
 photo.210.tags: door, peek, portrait, sample, whiskers
-photo.211: ig://Ch_3LWaBdut/m
-photo.211.author: falcon_tenor
-photo.211.commitdate: 2022/9/7
-photo.211.link: https://www.instagram.com/falcon_tenor/
-photo.211.tags: home, paws, portrait, sample, smile
-photo.212: https://www.instagram.com/p/Ch4lpqrPD_M/media/?size=m
-photo.212.author: i.satosato
-photo.212.link: https://www.instagram.com/i.satosato/
-photo.212.tags: mofumofu, portrait, sample, tail
+photo.211: ig://Ch4lpqrPD_M/m
+photo.211.author: i.satosato
+photo.211.commitdate: 2022/9/8
+photo.211.link: https://www.instagram.com/i.satosato/
+photo.211.tags: mofumofu, portrait, sample, tail
+photo.212: ig://Ch_3LWaBdut/m
+photo.212.author: falcon_tenor
+photo.212.commitdate: 2022/9/7
+photo.212.link: https://www.instagram.com/falcon_tenor/
+photo.212.tags: home, paws, portrait, sample, smile
 species: 2
 studbook.id: 0457
 zoo: 36
