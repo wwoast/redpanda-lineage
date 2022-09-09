@@ -4,6 +4,7 @@ birthday: 1999/7/9
 birthplace: 15
 children: 136, 191, 608, 157, 192, 287, 67, 83, 105, 36, 74
 commitdate: 2018/6/23
+death: 2022/9/8
 en.name: Fan-Fan
 en.nicknames: none
 en.othernames: Fanfan
@@ -189,6 +190,45 @@ photo.35.author: otenba_redpanda
 photo.35.commitdate: 2021/11/21
 photo.35.link: https://www.instagram.com/otenba_redpanda/
 photo.35.tags: mofumofu, paws, portrait, tail, whiskers
+photo.36: https://www.instagram.com/p/CiSRStmri1s/media/?size=m
+photo.36.author: ifumoto88
+photo.36.link: https://www.instagram.com/ifumoto88/
+photo.36.tags: dish, mofumofu, portrait, sample
+photo.37: https://www.instagram.com/p/CIvhUVThWET/media/?size=m
+photo.37.author: mini_cochi
+photo.37.link: https://www.instagram.com/mini_cochi/
+photo.37.tags: bamboo, mofumofu, portrait, sample
+photo.38: https://www.instagram.com/p/CIO-MjoB4ma/media/?size=m
+photo.38.author: firefoxpanda88
+photo.38.link: https://www.instagram.com/firefoxpanda88/
+photo.38.tags: close-up, mofumofu, tongue, white face
+photo.39: https://www.instagram.com/p/CRJbRsshlK0/media/?size=m
+photo.39.author: mini_cochi
+photo.39.link: bamboo, mofumofu, portrait, sample
+photo.40: https://www.instagram.com/p/CUCSgKCBq7w/media/?size=m
+photo.40.author: na.mo.pan
+photo.40.link: https://www.instagram.com/na.mo.pan/
+photo.40.tags: mofumofu, paws, portrait, sample, whiskers
+photo.41: https://www.instagram.com/p/CFY4jFUhWrV/media/?size=m
+photo.41.author: kotata_513
+photo.41.link: https://www.instagram.com/kotata_513/
+photo.41.tags: bamboo, mofumofu, portrait, sample
+photo.42: https://www.instagram.com/p/CDNszNKBY2e/media/?size=m
+photo.42.author: kotata_513
+photo.42.link: https://www.instagram.com/kotata_513/
+photo.42.tags: close-up, mofumofu, whiskers
+photo.43: https://www.instagram.com/p/CDtdBV4Bvxy/media/?size=m
+photo.43.author: mini_cochi
+photo.43.link: https://www.instagram.com/mini_cochi/
+photo.43.tags: bamboo, mofumofu, portrait, sample
+photo.44: https://www.instagram.com/p/CD56cWlh137/media/?size=m
+photo.44.author: ck.chie
+photo.44.link: https://www.instagram.com/ck.chie/
+photo.44.tags: mofumofu, portrait, sample, smile
+photo.45: https://www.instagram.com/p/CEit5lkBlRy/media/?size=m
+photo.45.author: ssc6105
+photo.45.link: https://www.instagram.com/ssc6105/
+photo.45.tags: bamboo, mofumofu, paws, sample, techitechi, whiskers
 species: 2
 studbook.id: 9991
 video.1: https://youtu.be/AnjnjrW-9iw
