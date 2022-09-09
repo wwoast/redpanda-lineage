@@ -319,8 +319,9 @@ photo.61.author: eos1089
 photo.61.commitdate: 2022/7/31
 photo.61.link: https://www.instagram.com/eos1089/
 photo.61.tags: bridge, door, paws, peek, portrait, sample, smile, whiskers
-photo.62: https://www.instagram.com/p/Ch2_1rMh1El/media/?size=m
+photo.62: ig://Ch2_1rMh1El/m
 photo.62.author: ssc6105
+photo.62.commitdate: 2022/9/8
 photo.62.link: https://www.instagram.com/ssc6105/
 photo.62.tags: bamboo, laying down, paws, portrait, sample, whiskers
 species: 2
