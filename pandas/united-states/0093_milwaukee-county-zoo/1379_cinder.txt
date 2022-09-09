@@ -4,11 +4,11 @@ birthday: 2022/6/12
 birthplace: 93
 children: none
 commitdate: 2022/7/27
-en.name: Baby
+en.name: Cinder
 en.nicknames: none
 en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: f
+jp.name: シンダー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
@@ -23,5 +23,9 @@ photo.2.author: milwaukeecozoo
 photo.2.commitdate: 2022/8/7
 photo.2.link: https://www.instagram.com/milwaukeecozoo/
 photo.2.tags: baby, laying down, newborn, paws, portrait, sleeping
+photo.3: https://www.instagram.com/p/Ch4sAZEurny/media/?size=m
+photo.3.author: milwaukeecozoo
+photo.3.link: https://www.instagram.com/milwaukeecozoo/
+photo.3.tags: baby, close-up, mofumofu, portrait, profile, sample, whiskers 
 species: 2
 zoo: 93
