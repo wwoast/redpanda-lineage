@@ -18,17 +18,20 @@ photo.1.author: seaparadise_official
 photo.1.commitdate: 2022/9/4
 photo.1.link: https://www.instagram.com/seaparadise_official/
 photo.1.tags: baby, lips, newborn
-photo.2: https://www.instagram.com/p/CiPklGzhitm/media/?size=m
-photo.2.author: monmon_redpanda
-photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: baby, laying down, mofumofu, portrait, profile, sample
-photo.3: https://www.instagram.com/p/CiRFLmBhnCs/media/?size=m
-photo.3.author: alto0908
-photo.3.link: https://www.instagram.com/alto0908/
-photo.3.tags: baby, keeper, portrait, toys
-photo.4: https://www.instagram.com/p/CiM_na9Bnkc/media/?size=m
-photo.4.author: _sah_ax7
-photo.4.link: https://www.instagram.com/_sah_ax7/
-photo.4.tags: baby, laying down, mofumofu, toys
+photo.2: ig://CiM_na9Bnkc/m
+photo.2.author: _sah_ax7
+photo.2.commitdate: 2022/9/10
+photo.2.link: https://www.instagram.com/_sah_ax7/
+photo.2.tags: baby, laying down, mofumofu, toys
+photo.3: ig://CiPklGzhitm/m
+photo.3.author: monmon_redpanda
+photo.3.commitdate: 2022/9/10
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: baby, laying down, mofumofu, portrait, profile, sample
+photo.4: ig://CiRFLmBhnCs/m
+photo.4.author: alto0908
+photo.4.commitdate: 2022/9/10
+photo.4.link: https://www.instagram.com/alto0908/
+photo.4.tags: baby, keeper, portrait, toys
 species: 2
 zoo: 190

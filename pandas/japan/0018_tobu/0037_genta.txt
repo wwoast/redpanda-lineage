@@ -588,8 +588,9 @@ photo.115.author: hamamatsu.chiita
 photo.115.commitdate: 2022/8/5
 photo.115.link: https://www.instagram.com/hamamatsu.chiita/
 photo.115.tags: close-up, portrait, sample, whiskers
-photo.116: https://www.instagram.com/p/CiH0s3ThSeZ/media/?size=m
+photo.116: ig://CiH0s3ThSeZ/m
 photo.116.author: ssc6105
+photo.116.commitdate: 2022/9/10
 photo.116.link: https://www.instagram.com/ssc6105/
 photo.116.tags: paws, sample, whiskers
 species: 2

@@ -83,8 +83,9 @@ photo.14.author: miis_98
 photo.14.commitdate: 2022/8/26
 photo.14.link: https://www.instagram.com/miis_98/
 photo.14.tags: portrait, profile, smile
-photo.15: https://www.instagram.com/p/CiP5_UsrpfF/media/?size=m
+photo.15: ig://CiP5_UsrpfF/m
 photo.15.author: mini_cochi
+photo.15.commitdate: 2022/9/10
 photo.15.link: https://www.instagram.com/mini_cochi/
 photo.15.tags: bamboo, bite, portrait, sample
 species: 1
