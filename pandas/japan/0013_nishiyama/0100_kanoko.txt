@@ -454,58 +454,61 @@ photo.88.author: daniele.tokyo
 photo.88.commitdate: 2022/3/11
 photo.88.link: https://www.instagram.com/daniele.tokyo/
 photo.88.tags: flowers, laying down, portrait, tree, whiskers
-photo.89: ig://CY-EOqHPtH4/m
+photo.89: ig://CV6XnmXvwp_/m
 photo.89.author: tomo3700
-photo.89.commitdate: 2022/2/9
+photo.89.commitdate: 2022/9/10
 photo.89.link: https://www.instagram.com/tomo3700/
-photo.89.tags: peek, portrait, sample, tail
-photo.90: ig://CaMi9CvBk0r/m
-photo.90.author: jas_forever_love
-photo.90.commitdate: 2022/3/11
-photo.90.link: https://www.instagram.com/jas_forever_love/
-photo.90.tags: paws, portrait, sample, whiskers
-photo.91: ig://CaQe-z9B6Nn/m
-photo.91.author: miis_98
-photo.91.commitdate: 2022/3/11
-photo.91.link: https://www.instagram.com/miis_98/
-photo.91.tags: bamboo, peek, portrait, sample, whiskers
-photo.92: ig://CdJl_mBBY2z/m
-photo.92.author: hamamatsu.chiita
-photo.92.commitdate: 2022/6/7
-photo.92.link: https://www.instagram.com/hamamatsu.chiita/
-photo.92.tags: close-up, laying down, portrait
-photo.93: ig://CdQtkLsLgjl/m
-photo.93.author: gloryeui
-photo.93.commitdate: 2022/6/7
-photo.93.link: https://www.instagram.com/gloryeui/
-photo.93.tags: bamboo, portrait, sample, smile, whiskers
-photo.94: ig://CdxpeCPvoGq/m
-photo.94.author: hamiiiii831_
-photo.94.commitdate: 2022/7/3
-photo.94.link: https://www.instagram.com/hamiiiii831_/
-photo.94.tags: peek, whiskers
-photo.95: ig://Cg9LqrHB2fm/m
-photo.95.author: jas_forever_love
-photo.95.commitdate: 2022/8/11
-photo.95.link: https://www.instagram.com/jas_forever_love/
-photo.95.tags: bamboo, bite, mofumofu, sample
-photo.96: ig://ChHnu5zhEAq/m
-photo.96.author: kotata_513
-photo.96.commitdate: 2022/8/28
-photo.96.link: https://www.instagram.com/kotata_513/
-photo.96.tags: portrait, sample, whiskers
-photo.97: https://www.instagram.com/p/CV7qE_olrQ7/media/?size=m
-photo.97.author: gloryeui
-photo.97.link: https://www.instagram.com/gloryeui/
-photo.97.tags: bear worm, home, laying down, paws, portrait, sample
-photo.98: https://www.instagram.com/p/CV6XnmXvwp_/media/?size=m
-photo.98.author: tomo3700
-photo.98.link: https://www.instagram.com/tomo3700/
-photo.98.tags: apple time, paws, standing, toys
-photo.99: https://www.instagram.com/p/CV7pH-Qlz2X/media/?size=m
-photo.99.author: gloryeui
-photo.99.link: https://www.instagram.com/gloryeui/
-photo.99.tags: bear worm, home, laying down, paws, peek, portrait
+photo.89.tags: apple time, paws, standing, toys
+photo.90: ig://CV7pH-Qlz2X/m
+photo.90.author: gloryeui
+photo.90.commitdate: 2022/9/10
+photo.90.link: https://www.instagram.com/gloryeui/
+photo.90.tags: bear worm, home, laying down, paws, peek, portrait
+photo.91: ig://CV7qE_olrQ7/m
+photo.91.author: gloryeui
+photo.91.commitdate: 2022/9/10
+photo.91.link: https://www.instagram.com/gloryeui/
+photo.91.tags: bear worm, home, laying down, paws, portrait, sample
+photo.92: ig://CY-EOqHPtH4/m
+photo.92.author: tomo3700
+photo.92.commitdate: 2022/2/9
+photo.92.link: https://www.instagram.com/tomo3700/
+photo.92.tags: peek, portrait, sample, tail
+photo.93: ig://CaMi9CvBk0r/m
+photo.93.author: jas_forever_love
+photo.93.commitdate: 2022/3/11
+photo.93.link: https://www.instagram.com/jas_forever_love/
+photo.93.tags: paws, portrait, sample, whiskers
+photo.94: ig://CaQe-z9B6Nn/m
+photo.94.author: miis_98
+photo.94.commitdate: 2022/3/11
+photo.94.link: https://www.instagram.com/miis_98/
+photo.94.tags: bamboo, peek, portrait, sample, whiskers
+photo.95: ig://CdJl_mBBY2z/m
+photo.95.author: hamamatsu.chiita
+photo.95.commitdate: 2022/6/7
+photo.95.link: https://www.instagram.com/hamamatsu.chiita/
+photo.95.tags: close-up, laying down, portrait
+photo.96: ig://CdQtkLsLgjl/m
+photo.96.author: gloryeui
+photo.96.commitdate: 2022/6/7
+photo.96.link: https://www.instagram.com/gloryeui/
+photo.96.tags: bamboo, portrait, sample, smile, whiskers
+photo.97: ig://CdxpeCPvoGq/m
+photo.97.author: hamiiiii831_
+photo.97.commitdate: 2022/7/3
+photo.97.link: https://www.instagram.com/hamiiiii831_/
+photo.97.tags: peek, whiskers
+photo.98: ig://Cg9LqrHB2fm/m
+photo.98.author: jas_forever_love
+photo.98.commitdate: 2022/8/11
+photo.98.link: https://www.instagram.com/jas_forever_love/
+photo.98.tags: bamboo, bite, mofumofu, sample
+photo.99: ig://ChHnu5zhEAq/m
+photo.99.author: kotata_513
+photo.99.commitdate: 2022/8/28
+photo.99.link: https://www.instagram.com/kotata_513/
+photo.99.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 1684
 zoo: 13

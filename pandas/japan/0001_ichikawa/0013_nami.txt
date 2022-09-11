@@ -469,45 +469,46 @@ photo.92.author: ifumoto88
 photo.92.commitdate: 2021/11/15
 photo.92.link: https://www.instagram.com/ifumoto88/
 photo.92.tags: paws, portrait
-photo.93: ig://CWxaXYnhqIt/m
-photo.93.author: otenba_redpanda
-photo.93.commitdate: 2022/1/9
-photo.93.link: https://www.instagram.com/otenba_redpanda/
-photo.93.tags: close-up, lips, mofumofu, portrait, whiskers
-photo.94: ig://CXDnZrohv_X/m
-photo.94.author: jas_forever_love
+photo.93: ig://CV5MeNJBdOu/m
+photo.93.author: ifumoto88
+photo.93.commitdate: 2022/9/10
+photo.93.link: https://www.instagram.com/ifumoto88/
+photo.93.tags: bamboo, mofumofu, portrait, sample, tail
+photo.94: ig://CWxaXYnhqIt/m
+photo.94.author: otenba_redpanda
 photo.94.commitdate: 2022/1/9
-photo.94.link: https://www.instagram.com/jas_forever_love/
-photo.94.tags: dish, mofumofu, paws
-photo.95: ig://CbNnYO8vf6S/m
-photo.95.author: eos1089
-photo.95.commitdate: 2022/4/29
-photo.95.link: https://www.instagram.com/eos1089/
-photo.95.tags: door, mofumofu, peek, portrait, whiskers
-photo.96: ig://CbcpZcor3pk/m
-photo.96.author: ifumoto88
-photo.96.commitdate: 2022/4/26
-photo.96.link: https://www.instagram.com/ifumoto88/
-photo.96.tags: close-up, dish, mofumofu, portrait, sample
-photo.97: ig://CfETYkdrL4r/m
+photo.94.link: https://www.instagram.com/otenba_redpanda/
+photo.94.tags: close-up, lips, mofumofu, portrait, whiskers
+photo.95: ig://CXDnZrohv_X/m
+photo.95.author: jas_forever_love
+photo.95.commitdate: 2022/1/9
+photo.95.link: https://www.instagram.com/jas_forever_love/
+photo.95.tags: dish, mofumofu, paws
+photo.96: ig://CbNnYO8vf6S/m
+photo.96.author: eos1089
+photo.96.commitdate: 2022/4/29
+photo.96.link: https://www.instagram.com/eos1089/
+photo.96.tags: door, mofumofu, peek, portrait, whiskers
+photo.97: ig://CbcpZcor3pk/m
 photo.97.author: ifumoto88
-photo.97.commitdate: 2022/7/18
+photo.97.commitdate: 2022/4/26
 photo.97.link: https://www.instagram.com/ifumoto88/
-photo.97.tags: old, paws, portrait, sample, whiskers
-photo.98: ig://CgAiQoABY6Q/m
-photo.98.author: ssc6105
-photo.98.commitdate: 2022/7/31
-photo.98.link: https://www.instagram.com/ssc6105/
-photo.98.tags: mofumofu, paws, whiskers
-photo.99: ig://ChhV5AoL5m6/m
-photo.99.author: ifumoto88
-photo.99.commitdate: 2022/8/31
-photo.99.link: https://www.instagram.com/ifumoto88/
-photo.99.tags: paws, portrait, sample, whiskers
-photo.100: https://www.instagram.com/p/CV5MeNJBdOu/media/?size=m
+photo.97.tags: close-up, dish, mofumofu, portrait, sample
+photo.98: ig://CfETYkdrL4r/m
+photo.98.author: ifumoto88
+photo.98.commitdate: 2022/7/18
+photo.98.link: https://www.instagram.com/ifumoto88/
+photo.98.tags: old, paws, portrait, sample, whiskers
+photo.99: ig://CgAiQoABY6Q/m
+photo.99.author: ssc6105
+photo.99.commitdate: 2022/7/31
+photo.99.link: https://www.instagram.com/ssc6105/
+photo.99.tags: mofumofu, paws, whiskers
+photo.100: ig://ChhV5AoL5m6/m
 photo.100.author: ifumoto88
+photo.100.commitdate: 2022/8/31
 photo.100.link: https://www.instagram.com/ifumoto88/
-photo.100.tags: bamboo, mofumofu, portrait, sample, tail
+photo.100.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0280
 zoo: 1

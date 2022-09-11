@@ -79,20 +79,21 @@ photo.12.author: hemkerzoo
 photo.12.commitdate: 2020/5/17
 photo.12.link: https://www.instagram.com/hemkerzoo/
 photo.12.tags: portrait, snow
-photo.13: ig://CXTvqJILYGn/m
-photo.13.author: worldthathesees
-photo.13.commitdate: 2021/12/26
-photo.13.link: https://www.instagram.com/worldthathesees/
-photo.13.tags: laying down, whiskers, white face
-photo.14: ig://Ca7XQ--KlHS/m
-photo.14.author: blankparkzoo
-photo.14.commitdate: 2022/6/20
-photo.14.link: https://www.instagram.com/blankparkzoo/
-photo.14.tags: bite, close-up, lunch time, sample, whiskers
-photo.15: https://www.instagram.com/p/CVX6tl4Mpxw/media/?size=m
+photo.13: ig://CVX6tl4Mpxw/m
+photo.13.author: blankparkzoo
+photo.13.commitdate: 2022/9/10
+photo.13.link: https://www.instagram.com/blankparkzoo/
+photo.13.tags: paws, standing, whiskers
+photo.14: ig://CXTvqJILYGn/m
+photo.14.author: worldthathesees
+photo.14.commitdate: 2021/12/26
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: laying down, whiskers, white face
+photo.15: ig://Ca7XQ--KlHS/m
 photo.15.author: blankparkzoo
+photo.15.commitdate: 2022/6/20
 photo.15.link: https://www.instagram.com/blankparkzoo/
-photo.15.tags: paws, standing, whiskers
+photo.15.tags: bite, close-up, lunch time, sample, whiskers
 species: 1
 studbook.id: 1126
 zoo: 155

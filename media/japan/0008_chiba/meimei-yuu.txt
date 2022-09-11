@@ -37,8 +37,9 @@ photo.5.link: https://www.instagram.com/ssc6105/
 photo.5.tags: apple time, bamboo, home, mother's day, portrait
 photo.5.tags.36.location: 150, 240
 photo.5.tags.40.location: 510, 280
-photo.6: https://www.instagram.com/p/CVNMlXphk0z/media/?size=l
+photo.6: ig://CVNMlXphk0z/l
 photo.6.author: miis_98
+photo.6.commitdate: 2022/9/10
 photo.6.link: https://www.instagram.com/miis_98/
 photo.6.tags: laying down, mother's day, portrait, sleeping, tail
 photo.6.tags.36.location: 515, 445
