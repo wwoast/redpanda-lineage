@@ -44,9 +44,9 @@ photo.6.commitdate: 2019/6/9
 photo.6.link: https://www.instagram.com/fetorus_mami/
 photo.6.tags: pooping, portrait
 photo.7: ig://BycP8B-Br16/m
-photo.7.author: _saaaaaaah_
+photo.7.author: _sah_ax7
 photo.7.commitdate: 2019/6/9
-photo.7.link: https://www.instagram.com/_saaaaaaah_/
+photo.7.link: https://www.instagram.com/_sah_ax7/
 photo.7.tags: laying down, tree, yawn
 photo.8: ig://BygWCbehLcE/m
 photo.8.author: miis_98
@@ -64,9 +64,9 @@ photo.10.commitdate: 2020/8/15
 photo.10.link: https://www.instagram.com/miis_98/
 photo.10.tags: laying down, portrait
 photo.11: ig://CJXkqevh66y/m
-photo.11.author: _saaaaaaah_
+photo.11.author: _sah_ax7
 photo.11.commitdate: 2021/7/14
-photo.11.link: https://www.instagram.com/_saaaaaaah_/
+photo.11.link: https://www.instagram.com/_sah_ax7/
 photo.11.tags: peek
 photo.12: ig://CO6z6uQhEsD/m
 photo.12.author: miis_98
@@ -83,6 +83,10 @@ photo.14.author: miis_98
 photo.14.commitdate: 2022/8/26
 photo.14.link: https://www.instagram.com/miis_98/
 photo.14.tags: portrait, profile, smile
+photo.15: https://www.instagram.com/p/CiP5_UsrpfF/media/?size=m
+photo.15.author: mini_cochi
+photo.15.link: https://www.instagram.com/mini_cochi/
+photo.15.tags: bamboo, bite, portrait, sample
 species: 1
 studbook.id: unknown
 zoo: 59

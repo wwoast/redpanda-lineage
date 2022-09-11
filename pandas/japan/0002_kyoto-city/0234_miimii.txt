@@ -321,9 +321,9 @@ photo.61.commitdate: 2020/9/7
 photo.61.link: https://www.instagram.com/jas_forever_love/
 photo.61.tags: paws, standing, tail, window
 photo.62: ig://CDqlBWvhD6L/m
-photo.62.author: _saaaaaaah_
+photo.62.author: _sah_ax7
 photo.62.commitdate: 2020/11/8
-photo.62.link: https://www.instagram.com/_saaaaaaah_/
+photo.62.link: https://www.instagram.com/_sah_ax7/
 photo.62.tags: peek, tree
 photo.63: ig://CEOtfUiBRgS/m
 photo.63.author: jas_forever_love
@@ -421,9 +421,9 @@ photo.81.commitdate: 2020/12/20
 photo.81.link: https://www.instagram.com/jas_forever_love/
 photo.81.tags: apple time, paws, portrait, smile
 photo.82: ig://CIvN-2gBbSv/m
-photo.82.author: _saaaaaaah_
+photo.82.author: _sah_ax7
 photo.82.commitdate: 2021/1/15
-photo.82.link: https://www.instagram.com/_saaaaaaah_/
+photo.82.link: https://www.instagram.com/_sah_ax7/
 photo.83: ig://CJYQh19hzGp/m
 photo.83.author: jas_forever_love
 photo.83.commitdate: 2020/12/29
@@ -679,6 +679,10 @@ photo.133.author: jas_forever_love
 photo.133.commitdate: 2022/8/31
 photo.133.link: https://www.instagram.com/jas_forever_love/
 photo.133.tags: laying down, sample, smile, whiskers
+photo.134: https://www.instagram.com/p/CiMpsD3B447/media/?size=m
+photo.134.author: akiakiakiko18
+photo.134.link: https://www.instagram.com/akiakiakiko18/
+photo.134.tags: peek, portrait, sample, tongue, tree
 species: 2
 studbook.id: 1786
 zoo: 2
