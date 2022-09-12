@@ -7,11 +7,15 @@ commitdate: 2022/7/14
 en.name: Baby
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: m
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1373
+photo.1: https://www.instagram.com/p/Chxz6XVg9ky/media/?size=m
+photo.1.author: trevorzoomilbrook
+photo.1.link: https://www.instagram.com/trevorzoomillbrook/
+photo.1.tags: baby, mofumofu, portrait, profile, sample
 species: 1
 zoo: 117

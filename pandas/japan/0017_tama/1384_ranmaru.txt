@@ -1,17 +1,17 @@
 [panda]
-_id: 1383
+_id: 1384
 birthday: 2022/7/27
 birthplace: 17
 children: none
 commitdate: 2022/8/15
-en.name: Baby
+en.name: Ranmaru
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: 赤ちゃん
+gender: m
+jp.name: ランマル
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 1384
+litter: 1383
 species: 2
 zoo: 17
