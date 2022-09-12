@@ -563,8 +563,9 @@ photo.110.author: hamamatsu.chiita
 photo.110.commitdate: 2022/8/7
 photo.110.link: https://www.instagram.com/hamamatsu.chiita/
 photo.110.tags: close-up, portrait, sample, whiskers
-photo.111: https://www.instagram.com/p/CiHqvFwBf8W/media/?size=m
+photo.111: ig://CiHqvFwBf8W/m
 photo.111.author: makimaru18
+photo.111.commitdate: 2022/9/11
 photo.111.link: https://www.instagram.com/makimaru18/
 photo.111.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2

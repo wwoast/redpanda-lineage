@@ -579,15 +579,16 @@ photo.115.author: otenba_redpanda
 photo.115.commitdate: 2022/8/5
 photo.115.link: https://www.instagram.com/otenba_redpanda/
 photo.115.tags: close-up, portrait, sample, whiskers
-photo.116: ig://Ch4j-YWvyDh/m
-photo.116.author: na.mo.pan
-photo.116.commitdate: 2022/9/8
-photo.116.link: https://www.instagram.com/na.mo.pan/
-photo.116.tags: paws, sample, whiskers
-photo.117: https://www.instagram.com/p/ChzZMuBr45-/media/?size=m
-photo.117.author: ifumoto88
-photo.117.link: https://www.instagram.com/ifumoto88/
-photo.117.tags: laying down, mofumofu, portrait
+photo.116: ig://ChzZMuBr45-/m
+photo.116.author: ifumoto88
+photo.116.commitdate: 2022/9/11
+photo.116.link: https://www.instagram.com/ifumoto88/
+photo.116.tags: laying down, mofumofu, portrait
+photo.117: ig://Ch4j-YWvyDh/m
+photo.117.author: na.mo.pan
+photo.117.commitdate: 2022/9/8
+photo.117.link: https://www.instagram.com/na.mo.pan/
+photo.117.tags: paws, sample, whiskers
 species: 2
 studbook.id: 13145
 zoo: 1

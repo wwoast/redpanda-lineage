@@ -521,8 +521,9 @@ photo.102.author: hamamatsu.chiita
 photo.102.commitdate: 2022/8/8
 photo.102.link: https://www.instagram.com/hamamatsu.chiita/
 photo.102.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.103: https://www.instagram.com/p/CiOB2f4hkav/media/?size=m
+photo.103: ig://CiOB2f4hkav/m
 photo.103.author: hamamatsu.chiita
+photo.103.commitdate: 2022/9/11
 photo.103.link: https://www.instagram.com/hamamatsu.chiita/
 photo.103.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2

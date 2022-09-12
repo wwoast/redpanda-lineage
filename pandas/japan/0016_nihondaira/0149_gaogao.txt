@@ -418,19 +418,21 @@ photo.81.author: lesserpanda_shizuokacity_cp
 photo.81.commitdate: 2022/4/7
 photo.81.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.81.tags: peek
-photo.82: ig://Cgau5h4h_wX/m
+photo.82: ig://CgItVGdBXVi/m
 photo.82.author: lesserpanda_shizuokacity_cp
-photo.82.commitdate: 2022/8/8
+photo.82.commitdate: 2022/9/11
 photo.82.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.82.tags: whiskers
-photo.83: https://www.instagram.com/p/CiG_JLBhzS9/media/?size=m
+photo.82.tags: bamboo, tail
+photo.83: ig://Cgau5h4h_wX/m
 photo.83.author: lesserpanda_shizuokacity_cp
+photo.83.commitdate: 2022/8/8
 photo.83.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.83.tags: bamboo, paws, sample, whiskers
-photo.84: https://www.instagram.com/p/CgItVGdBXVi/media/?size=m
+photo.83.tags: whiskers
+photo.84: ig://CiG_JLBhzS9/m
 photo.84.author: lesserpanda_shizuokacity_cp
+photo.84.commitdate: 2022/9/11
 photo.84.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.84.tags: bamboo, tail
+photo.84.tags: bamboo, paws, sample, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16

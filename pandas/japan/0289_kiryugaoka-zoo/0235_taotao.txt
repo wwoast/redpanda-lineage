@@ -329,30 +329,31 @@ photo.63.author: kiryucity_gunma_kiritori
 photo.63.commitdate: 2022/5/27
 photo.63.link: https://www.instagram.com/kiryucity_gunma_kiritori/
 photo.63.tags: bridge, paws, peek, portrait, smile
-photo.64: ig://CeMMkmwvrDF/m
-photo.64.author: eos1089
-photo.64.commitdate: 2022/6/29
-photo.64.link: https://www.instagram.com/eos1089/
-photo.64.tags: bamboo, climb, peek, portrait, sample, whiskers
-photo.65: ig://Cfk-2Rav56F/m
-photo.65.author: miis_98
-photo.65.commitdate: 2022/8/16
-photo.65.link: https://www.instagram.com/miis_98/
-photo.65.tags: bridge, sample, smile, tongue, whiskers
-photo.66: ig://Cf3ZuXpvQzS/m
-photo.66.author: eos1089
-photo.66.commitdate: 2022/7/31
-photo.66.link: https://www.instagram.com/eos1089/
-photo.66.tags: bridge, door, paws, peek, portrait, sample, smile, whiskers
-photo.67: ig://Ch2_1rMh1El/m
-photo.67.author: ssc6105
-photo.67.commitdate: 2022/9/8
-photo.67.link: https://www.instagram.com/ssc6105/
-photo.67.tags: bamboo, laying down, paws, portrait, sample, whiskers
-photo.68: https://www.instagram.com/p/Cc-YG24Lkqt/media/?size=m
-photo.68.author: ifumoto88
-photo.68.link: https://www.instagram.com/ifumoto88/
-photo.68.tags: climb, keeper, peek
+photo.64: ig://Cc-YG24Lkqt/m
+photo.64.author: ifumoto88
+photo.64.commitdate: 2022/9/11
+photo.64.link: https://www.instagram.com/ifumoto88/
+photo.64.tags: climb, keeper, peek
+photo.65: ig://CeMMkmwvrDF/m
+photo.65.author: eos1089
+photo.65.commitdate: 2022/6/29
+photo.65.link: https://www.instagram.com/eos1089/
+photo.65.tags: bamboo, climb, peek, portrait, sample, whiskers
+photo.66: ig://Cfk-2Rav56F/m
+photo.66.author: miis_98
+photo.66.commitdate: 2022/8/16
+photo.66.link: https://www.instagram.com/miis_98/
+photo.66.tags: bridge, sample, smile, tongue, whiskers
+photo.67: ig://Cf3ZuXpvQzS/m
+photo.67.author: eos1089
+photo.67.commitdate: 2022/7/31
+photo.67.link: https://www.instagram.com/eos1089/
+photo.67.tags: bridge, door, paws, peek, portrait, sample, smile, whiskers
+photo.68: ig://Ch2_1rMh1El/m
+photo.68.author: ssc6105
+photo.68.commitdate: 2022/9/8
+photo.68.link: https://www.instagram.com/ssc6105/
+photo.68.tags: bamboo, laying down, paws, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 289

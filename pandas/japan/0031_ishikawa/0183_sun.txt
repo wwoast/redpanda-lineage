@@ -368,20 +368,21 @@ photo.71.author: miis_98
 photo.71.commitdate: 2022/6/3
 photo.71.link: https://www.instagram.com/miis_98/
 photo.71.tags: portrait, sample, smile, whiskers
-photo.72: ig://CgVGaMMBZUj/m
-photo.72.author: bee_san.13
-photo.72.commitdate: 2022/7/25
-photo.72.link: https://www.instagram.com/bee_san.13/
-photo.72.tags: close-up, laying down, paws, sample, whiskers, white face
-photo.73: ig://Chk1BPQBubf/m
-photo.73.author: hamamatsu.chiita
-photo.73.commitdate: 2022/8/26
-photo.73.link: https://www.instagram.com/hamamatsu.chiita/
-photo.73.tags: mofumofu, portrait, sample, techitechi, whiskers
-photo.74: https://www.instagram.com/p/CdB5KdHhyoV/media/?size=m
+photo.72: ig://CdB5KdHhyoV/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2022/9/11
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: mofumofu, portrait, sample, whiskers
+photo.73: ig://CgVGaMMBZUj/m
+photo.73.author: bee_san.13
+photo.73.commitdate: 2022/7/25
+photo.73.link: https://www.instagram.com/bee_san.13/
+photo.73.tags: close-up, laying down, paws, sample, whiskers, white face
+photo.74: ig://Chk1BPQBubf/m
 photo.74.author: hamamatsu.chiita
+photo.74.commitdate: 2022/8/26
 photo.74.link: https://www.instagram.com/hamamatsu.chiita/
-photo.74.tags: mofumofu, portrait, sample, whiskers
+photo.74.tags: mofumofu, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 15162
 zoo: 31

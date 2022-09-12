@@ -136,8 +136,9 @@ photo.25.author: hidehaya_biei
 photo.25.commitdate: 2022/8/31
 photo.25.link: https://www.instagram.com/hidehaya_biei/
 photo.25.tags: paws, sample
-photo.26: https://www.instagram.com/p/CiHyn7HhUrl/media/?size=m
+photo.26: ig://CiHyn7HhUrl/m
 photo.26.author: daniele.tokyo
+photo.26.commitdate: 2022/9/11
 photo.26.link: https://www.instagram.com/daniele.tokyo/
 photo.26.tags: door, paws, sample, wink
 species: 2

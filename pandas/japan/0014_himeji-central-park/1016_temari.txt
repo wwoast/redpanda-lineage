@@ -987,8 +987,9 @@ photo.195.author: colette.jp
 photo.195.commitdate: 2022/8/31
 photo.195.link: https://www.instagram.com/colette.jp/
 photo.195.tags: paws, portrait, sample, smile, tongue, whiskers
-photo.196: https://www.instagram.com/p/CiSFGLCP0wv/media/?size=m
+photo.196: ig://CiSFGLCP0wv/m
 photo.196.author: colette.jp
+photo.196.commitdate: 2022/9/11
 photo.196.link: https://www.instagram.com/colette.jp/
 photo.196.tags: paws, portrait, sample, smile
 species: 2

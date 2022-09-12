@@ -574,8 +574,9 @@ photo.112.author: jas_forever_love
 photo.112.commitdate: 2022/8/28
 photo.112.link: https://www.instagram.com/jas_forever_love/
 photo.112.tags: sample, smile, tongue, whiskers
-photo.113: https://www.instagram.com/p/CiPs3AShi_T/media/?size=m
+photo.113: ig://CiPs3AShi_T/m
 photo.113.author: makimaru18
+photo.113.commitdate: 2022/9/11
 photo.113.link: https://www.instagram.com/makimaru18/
 photo.113.tags: apple time, paws, portrait, sample, smile, whiskers
 species: 2

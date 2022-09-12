@@ -1288,8 +1288,9 @@ photo.255.author: na.mo.pan
 photo.255.commitdate: 2022/8/7
 photo.255.link: https://www.instagram.com/na.mo.pan/
 photo.255.tags: apple time, paws, sample, smile, whiskers
-photo.256: https://www.instagram.com/p/CiG2CV-JFQo/media/?size=m
+photo.256: ig://CiG2CV-JFQo/m
 photo.256.author: na.mo.pan
+photo.256.commitdate: 2022/9/11
 photo.256.link: https://www.instagram.com/na.mo.pan/
 photo.256.tags: apple time, bridge, paws, peek, smile
 species: 2
