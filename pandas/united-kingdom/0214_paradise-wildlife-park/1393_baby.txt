@@ -1,0 +1,29 @@
+[panda]
+_id: 1393
+birthday: 2022/6/1
+birthplace: 214
+children: none
+commitdate: 2022/9/14
+en.name: Baby
+en.nicknames: none
+en.othernames: Little Red
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/ChUEAUTIHGT/media/?size=m
+photo.1.author: paradisewildlifepark
+photo.1.link: https://www.instagram.com/paradisewildlifepark/
+photo.1.tags: baby, newborn, videolink
+photo.2: https://www.instagram.com/p/ChcnfnNrhQJ/media/?size=m
+photo.2.author: paradisewildlifepark
+photo.2.link: https://www.instagram.com/carsontheredpanda/
+photo.2.tags: baby, newborn, portrait, profile, tail
+photo.3: https://www.instagram.com/p/ChuGMemIK7j/media/?size=m
+photo.3.author: paradisewildlifepark
+photo.3.link: https://www.instagram.com/paradisewildlifepark/
+photo.3.tags: baby, close-up, mofumofu, newborn
+species: 1
+zoo: 214
