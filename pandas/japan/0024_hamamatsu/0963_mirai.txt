@@ -758,19 +758,20 @@ photo.149.author: taka__3428
 photo.149.commitdate: 2022/8/25
 photo.149.link: https://www.instagram.com/taka__3428/
 photo.149.tags: mofumofu, sample, whiskers
-photo.150: ig://Cfm7qbrrlJ8/m
+photo.150: ig://Cd_3NXoLIu7/m
 photo.150.author: otenba_redpanda
-photo.150.commitdate: 2022/7/31
+photo.150.commitdate: 2022/9/14
 photo.150.link: https://www.instagram.com/otenba_redpanda/
-photo.150.tags: close-up, portrait, sample, whiskers
-photo.151: ig://Chsjlthhc_g/m
-photo.151.author: hamamatsu.chiita
-photo.151.commitdate: 2022/8/31
-photo.151.link: https://www.instagram.com/hamamatsu.chiita/
-photo.151.tags: mofumofu, portrait, sample
-photo.152: https://www.instagram.com/p/Cd_3NXoLIu7/media/?size=m
-photo.152.author: otenba_redpanda
-photo.152.link: https://www.instagram.com/otenba_redpanda/
-photo.152.tags: portrait, sample, whiskers
+photo.150.tags: portrait, sample, whiskers
+photo.151: ig://Cfm7qbrrlJ8/m
+photo.151.author: otenba_redpanda
+photo.151.commitdate: 2022/7/31
+photo.151.link: https://www.instagram.com/otenba_redpanda/
+photo.151.tags: close-up, portrait, sample, whiskers
+photo.152: ig://Chsjlthhc_g/m
+photo.152.author: hamamatsu.chiita
+photo.152.commitdate: 2022/8/31
+photo.152.link: https://www.instagram.com/hamamatsu.chiita/
+photo.152.tags: mofumofu, portrait, sample
 species: 2
 zoo: 24
