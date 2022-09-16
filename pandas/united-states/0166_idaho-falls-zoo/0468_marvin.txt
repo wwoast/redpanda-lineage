@@ -16,7 +16,7 @@ language.order: en, jp
 litter: none
 location.1: 166, 2019/6/29
 location.2: 108, 2019/8/23
-location.3: 166, 2021/3/1
+location.3: 166, 2021/3/23
 photo.1: ig://B4yKRzWBJMU/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/3
@@ -179,5 +179,5 @@ photo.32.link: https://www.instagram.com/worldthathesees/
 photo.32.tags: peek
 species: 1
 studbook.id: 1933
-uncertainty: location.3 exact date, death exact day
+uncertainty: death exact day
 zoo: 166

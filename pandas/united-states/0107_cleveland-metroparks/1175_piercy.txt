@@ -13,10 +13,16 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1176, 1177
+location.1: 145, 2019/6/18
+location.2: 107, 2020/9/24
 photo.1: ig://CYMDMwFL7Zl/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2022/1/4
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: whiskers, white face
+photo.2: https://www.instagram.com/p/CGBShylgGLq/media/?size=m
+photo.2.author: pippin455
+photo.2.link: https://www.instagram.com/pippin455/
+photo.2.tags: laying down, portrait, profile, whiskers, white face
 species: 1
-zoo: 145
+zoo: 107
