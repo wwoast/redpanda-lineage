@@ -338,5 +338,9 @@ photo.65.author: otenba_redpanda
 photo.65.commitdate: 2022/8/11
 photo.65.link: https://www.instagram.com/otenba_redpanda/
 photo.65.tags: mofumofu, portrait, sample, whiskers
+photo.66: https://www.instagram.com/p/CYStLzVNszt/media/?size=m
+photo.66.author: otenba_redpanda
+photo.66.link: https://www.instagram.com/otenba_redpanda/
+photo.66.tags: close-up, whiskers
 species: 2
 zoo: 10
