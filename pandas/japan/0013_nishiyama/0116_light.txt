@@ -540,30 +540,31 @@ photo.106.author: hamamatsu.chiita
 photo.106.commitdate: 2022/3/13
 photo.106.link: https://www.instagram.com/hamamatsu.chiita/
 photo.106.tags: portrait, whiskers
-photo.107: ig://CdaxtqHLuRX/m
-photo.107.author: gloryeui
-photo.107.commitdate: 2022/6/2
-photo.107.link: https://www.instagram.com/gloryeui/
-photo.107.tags: climb, portrait, sample, smile, whiskers
-photo.108: ig://CdvTL4tvFFA/m
-photo.108.author: kotata_513
-photo.108.commitdate: 2022/6/6
-photo.108.link: https://www.instagram.com/kotata_513/
-photo.108.tags: paws, portrait, shake, whiskers
-photo.109: ig://CeZvwg1hrY1/m
-photo.109.author: rie_panda55
-photo.109.commitdate: 2022/8/1
-photo.109.link: https://www.instagram.com/rie_panda55/
-photo.109.tags: itchy, paws, portrait, sample
-photo.110: ig://Cg7ro8ThcKQ/m
-photo.110.author: hamamatsu.chiita
-photo.110.commitdate: 2022/8/11
-photo.110.link: https://www.instagram.com/hamamatsu.chiita/
-photo.110.tags: mofumofu, portrait, sample, whiskers
-photo.111: https://www.instagram.com/p/CctR0IoBkAi/media/?size=m
+photo.107: ig://CctR0IoBkAi/m
+photo.107.author: hamamatsu.chiita
+photo.107.commitdate: 2022/9/15
+photo.107.link: https://www.instagram.com/hamamatsu.chiita/
+photo.107.tags: paws, sample, whiskers
+photo.108: ig://CdaxtqHLuRX/m
+photo.108.author: gloryeui
+photo.108.commitdate: 2022/6/2
+photo.108.link: https://www.instagram.com/gloryeui/
+photo.108.tags: climb, portrait, sample, smile, whiskers
+photo.109: ig://CdvTL4tvFFA/m
+photo.109.author: kotata_513
+photo.109.commitdate: 2022/6/6
+photo.109.link: https://www.instagram.com/kotata_513/
+photo.109.tags: paws, portrait, shake, whiskers
+photo.110: ig://CeZvwg1hrY1/m
+photo.110.author: rie_panda55
+photo.110.commitdate: 2022/8/1
+photo.110.link: https://www.instagram.com/rie_panda55/
+photo.110.tags: itchy, paws, portrait, sample
+photo.111: ig://Cg7ro8ThcKQ/m
 photo.111.author: hamamatsu.chiita
+photo.111.commitdate: 2022/8/11
 photo.111.link: https://www.instagram.com/hamamatsu.chiita/
-photo.111.tags: paws, sample, whiskers
+photo.111.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 13167
 zoo: 13

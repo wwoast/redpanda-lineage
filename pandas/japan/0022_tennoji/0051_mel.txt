@@ -538,40 +538,41 @@ photo.105.author: bubbles_octi
 photo.105.commitdate: 2022/5/30
 photo.105.link: https://www.instagram.com/bubbles_octi/
 photo.105.tags: paws, portrait, sample, whiskers
-photo.106: ig://Cc0G_QfPkRq/m
-photo.106.author: sakikukeco
-photo.106.commitdate: 2022/5/27
-photo.106.link: https://www.instagram.com/sakikukeco/
-photo.106.tags: paws, portrait, standing, tail, tree
-photo.107: ig://CdJAg9Lvt2v/m
-photo.107.author: bubbles_octi
-photo.107.commitdate: 2022/6/11
-photo.107.link: https://www.instagram.com/bubbles_octi/
-photo.107.tags: mofumofu, paws, peek, sample, tree
-photo.108: ig://Ce8Wy_MJm1C/m
-photo.108.author: makimaru18
-photo.108.commitdate: 2022/8/11
-photo.108.link: https://www.instagram.com/makimaru18/
-photo.108.tags: bamboo, close-up, paws, portrait, sample, whiskers
-photo.109: ig://CfjP_J9v_lV/m
-photo.109.author: sakikukeco
-photo.109.commitdate: 2022/8/16
-photo.109.link: https://www.instagram.com/sakikukeco/
-photo.109.tags: close-up, portrait, whiskers
-photo.110: ig://CgnD0Q_BCzA/m
-photo.110.author: hamamatsu.chiita
-photo.110.commitdate: 2022/8/7
-photo.110.link: https://www.instagram.com/hamamatsu.chiita/
-photo.110.tags: close-up, portrait, sample, whiskers
-photo.111: ig://CiHqvFwBf8W/m
-photo.111.author: makimaru18
-photo.111.commitdate: 2022/9/11
-photo.111.link: https://www.instagram.com/makimaru18/
-photo.111.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.112: https://www.instagram.com/p/CcyXDxMhTKm/media/?size=m
-photo.112.author: hamamatsu.chiita
-photo.112.link: https://www.instagram.com/hamamatsu.chiita/
-photo.112.tags: mofumofu, portrait, sample, whiskers
+photo.106: ig://CcyXDxMhTKm/m
+photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2022/9/15
+photo.106.link: https://www.instagram.com/hamamatsu.chiita/
+photo.106.tags: mofumofu, portrait, sample, whiskers
+photo.107: ig://Cc0G_QfPkRq/m
+photo.107.author: sakikukeco
+photo.107.commitdate: 2022/5/27
+photo.107.link: https://www.instagram.com/sakikukeco/
+photo.107.tags: paws, portrait, standing, tail, tree
+photo.108: ig://CdJAg9Lvt2v/m
+photo.108.author: bubbles_octi
+photo.108.commitdate: 2022/6/11
+photo.108.link: https://www.instagram.com/bubbles_octi/
+photo.108.tags: mofumofu, paws, peek, sample, tree
+photo.109: ig://Ce8Wy_MJm1C/m
+photo.109.author: makimaru18
+photo.109.commitdate: 2022/8/11
+photo.109.link: https://www.instagram.com/makimaru18/
+photo.109.tags: bamboo, close-up, paws, portrait, sample, whiskers
+photo.110: ig://CfjP_J9v_lV/m
+photo.110.author: sakikukeco
+photo.110.commitdate: 2022/8/16
+photo.110.link: https://www.instagram.com/sakikukeco/
+photo.110.tags: close-up, portrait, whiskers
+photo.111: ig://CgnD0Q_BCzA/m
+photo.111.author: hamamatsu.chiita
+photo.111.commitdate: 2022/8/7
+photo.111.link: https://www.instagram.com/hamamatsu.chiita/
+photo.111.tags: close-up, portrait, sample, whiskers
+photo.112: ig://CiHqvFwBf8W/m
+photo.112.author: makimaru18
+photo.112.commitdate: 2022/9/11
+photo.112.link: https://www.instagram.com/makimaru18/
+photo.112.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

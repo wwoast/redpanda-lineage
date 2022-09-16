@@ -34,8 +34,9 @@ photo.3.author: potawatomizoo
 photo.3.commitdate: 2020/2/28
 photo.3.link: https://www.instagram.com/potawatomizoo/
 photo.3.tags: bamboo, portrait, tail
-photo.4: https://www.instagram.com/p/CYSAbFKJ5TZ/media/?size=m
+photo.4: ig://CYSAbFKJ5TZ/m
 photo.4.author: worldthathesees
+photo.4.commitdate: 2022/9/15
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: tongue
 species: 1

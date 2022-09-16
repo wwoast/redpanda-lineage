@@ -196,58 +196,61 @@ photo.36.author: westcoast_kathy
 photo.36.commitdate: 2021/12/23
 photo.36.link: https://www.instagram.com/westcoast_kathy/
 photo.36.tags: paws, whiskers
-photo.37: ig://CWmTLMQPuah/m
+photo.37: ig://CWPD5NbP2b6/m
 photo.37.author: westcoast_kathy
-photo.37.commitdate: 2021/11/27
+photo.37.commitdate: 2022/9/15
 photo.37.link: https://www.instagram.com/westcoast_kathy/
-photo.37.tags: bamboo, mofumofu, whiskers
-photo.38: ig://westcoast_kathy/CXe0ED8vsCM/m
+photo.37.tags: close-up, whiskers
+photo.38: ig://CWmTLMQPuah/m
 photo.38.author: westcoast_kathy
-photo.38.commitdate: 2021/12/23
+photo.38.commitdate: 2021/11/27
 photo.38.link: https://www.instagram.com/westcoast_kathy/
-photo.38.tags: paws, snow, whiskers
-photo.39: ig://CZaymnaL-nk/m
+photo.38.tags: bamboo, mofumofu, whiskers
+photo.39: ig://CWo75zTJspp/m
 photo.39.author: westcoast_kathy
-photo.39.commitdate: 2022/4/5
+photo.39.commitdate: 2022/9/15
 photo.39.link: https://www.instagram.com/westcoast_kathy/
-photo.39.tags: door, paws, peek, portrait, sample
-photo.40: ig://CaIyPXrvqPx/m
+photo.39.tags: close-up, peek, whiskers
+photo.40: ig://westcoast_kathy/CXe0ED8vsCM/m
 photo.40.author: westcoast_kathy
-photo.40.commitdate: 2022/4/7
+photo.40.commitdate: 2021/12/23
 photo.40.link: https://www.instagram.com/westcoast_kathy/
-photo.40.tags: close-up, paws, sample, smile
-photo.41: ig://Ca3S-3wJrWT/m
+photo.40.tags: paws, snow, whiskers
+photo.41: ig://CYKxEoCJk73/m
 photo.41.author: westcoast_kathy
-photo.41.commitdate: 2022/4/10
+photo.41.commitdate: 2022/9/15
 photo.41.link: https://www.instagram.com/westcoast_kathy/
-photo.41.tags: peek, portrait, sample, whiskers
-photo.42: ig://CbJesHzrpfx/m
+photo.41.tags: close-up, paws, sample, whiskers
+photo.42: ig://CZaymnaL-nk/m
 photo.42.author: westcoast_kathy
-photo.42.commitdate: 2022/4/10
+photo.42.commitdate: 2022/4/5
 photo.42.link: https://www.instagram.com/westcoast_kathy/
-photo.42.tags: paws, tongue
-photo.43: ig://CbtjuTdrJ7u/m
+photo.42.tags: door, paws, peek, portrait, sample
+photo.43: ig://CaIyPXrvqPx/m
 photo.43.author: westcoast_kathy
-photo.43.commitdate: 2022/6/11
+photo.43.commitdate: 2022/4/7
 photo.43.link: https://www.instagram.com/westcoast_kathy/
-photo.43.tags: bamboo, bite, close-up, peek, smile
-photo.44: ig://CgLdzCvLkhx/m
+photo.43.tags: close-up, paws, sample, smile
+photo.44: ig://Ca3S-3wJrWT/m
 photo.44.author: westcoast_kathy
-photo.44.commitdate: 2022/7/28
+photo.44.commitdate: 2022/4/10
 photo.44.link: https://www.instagram.com/westcoast_kathy/
-photo.44.tags: nose, whiskers
-photo.45: https://www.instagram.com/p/CWo75zTJspp/media/?size=m
+photo.44.tags: peek, portrait, sample, whiskers
+photo.45: ig://CbJesHzrpfx/m
 photo.45.author: westcoast_kathy
+photo.45.commitdate: 2022/4/10
 photo.45.link: https://www.instagram.com/westcoast_kathy/
-photo.45.tags: close-up, peek, whiskers
-photo.46: https://www.instagram.com/p/CWPD5NbP2b6/media/?size=m
+photo.45.tags: paws, tongue
+photo.46: ig://CbtjuTdrJ7u/m
 photo.46.author: westcoast_kathy
+photo.46.commitdate: 2022/6/11
 photo.46.link: https://www.instagram.com/westcoast_kathy/
-photo.46.tags: close-up, whiskers
-photo.47: https://www.instagram.com/p/CYKxEoCJk73/media/?size=m
+photo.46.tags: bamboo, bite, close-up, peek, smile
+photo.47: ig://CgLdzCvLkhx/m
 photo.47.author: westcoast_kathy
+photo.47.commitdate: 2022/7/28
 photo.47.link: https://www.instagram.com/westcoast_kathy/
-photo.47.tags: close-up, paws, sample, whiskers
+photo.47.tags: nose, whiskers
 species: 2
 studbook.id: 1348
 uncertainty: location.3 exact moving date

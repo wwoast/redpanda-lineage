@@ -488,59 +488,61 @@ photo.96.author: itsuak
 photo.96.commitdate: 2022/1/14
 photo.96.link: https://www.instagram.com/itsuak/
 photo.96.tags: portrait, smile, whiskers
-photo.97: ig://CYojULQPNO8/m
+photo.97: ig://CYYrbPkLOus/m
 photo.97.author: itsuak
-photo.97.commitdate: 2022/1/30
+photo.97.commitdate: 2022/9/15
 photo.97.link: https://www.instagram.com/itsuak/
-photo.97.tags: bamboo, paws, portrait, sample, smile
-photo.98: ig://Cbmi3kurejk/m
+photo.97.tags: bamboo, portrait, sample, tongue, whiskers
+photo.98: ig://CYojULQPNO8/m
 photo.98.author: itsuak
-photo.98.commitdate: 2022/5/30
+photo.98.commitdate: 2022/1/30
 photo.98.link: https://www.instagram.com/itsuak/
-photo.98.tags: paws, peek, portrait, standing
-photo.99: ig://CbsQLsPvWPm/m
+photo.98.tags: bamboo, paws, portrait, sample, smile
+photo.99: ig://Cbmi3kurejk/m
 photo.99.author: itsuak
 photo.99.commitdate: 2022/5/30
 photo.99.link: https://www.instagram.com/itsuak/
-photo.99.tags: bear worm, laying down, muzzle, nose, portrait, sample, whiskers
-photo.100: ig://CfoT8WnPigf/m
+photo.99.tags: paws, peek, portrait, standing
+photo.100: ig://CbsQLsPvWPm/m
 photo.100.author: itsuak
-photo.100.commitdate: 2022/8/18
+photo.100.commitdate: 2022/5/30
 photo.100.link: https://www.instagram.com/itsuak/
-photo.100.tags: laying down, paws, sample, smile, tongue, whiskers
-photo.101: ig://CgHiveWBLrC/m
+photo.100.tags: bear worm, laying down, muzzle, nose, portrait, sample, whiskers
+photo.101: ig://CfHDgMQPFKA/m
 photo.101.author: itsuak
-photo.101.commitdate: 2022/8/18
+photo.101.commitdate: 2022/9/15
 photo.101.link: https://www.instagram.com/itsuak/
-photo.101.tags: laying down, paws, portrait, sample, whiskers
-photo.102: ig://CgT9ebjvMJG/m
+photo.101.tags: peek, portrait, smile, whiskers
+photo.102: ig://CfoT8WnPigf/m
 photo.102.author: itsuak
 photo.102.commitdate: 2022/8/18
 photo.102.link: https://www.instagram.com/itsuak/
-photo.102.tags: close-up, laying down, mofumofu, portrait
-photo.103: ig://ChMwaZmBjTK/m
+photo.102.tags: laying down, paws, sample, smile, tongue, whiskers
+photo.103: ig://CgHiveWBLrC/m
 photo.103.author: itsuak
 photo.103.commitdate: 2022/8/18
 photo.103.link: https://www.instagram.com/itsuak/
-photo.103.tags: laying down, paws, portrait, sample, smile, whiskers
-photo.104: ig://Chr37cKv6wB/m
+photo.103.tags: laying down, paws, portrait, sample, whiskers
+photo.104: ig://CgT9ebjvMJG/m
 photo.104.author: itsuak
-photo.104.commitdate: 2022/8/28
+photo.104.commitdate: 2022/8/18
 photo.104.link: https://www.instagram.com/itsuak/
-photo.104.tags: laying down, peek, portrait, whiskers
-photo.105: ig://CiP1lWQv-jU/m
+photo.104.tags: close-up, laying down, mofumofu, portrait
+photo.105: ig://ChMwaZmBjTK/m
 photo.105.author: itsuak
-photo.105.commitdate: 2022/9/11
+photo.105.commitdate: 2022/8/18
 photo.105.link: https://www.instagram.com/itsuak/
-photo.105.tags: laying down, peek, portrait, sample
-photo.106: https://www.instagram.com/p/CfHDgMQPFKA/media/?size=m
+photo.105.tags: laying down, paws, portrait, sample, smile, whiskers
+photo.106: ig://Chr37cKv6wB/m
 photo.106.author: itsuak
+photo.106.commitdate: 2022/8/28
 photo.106.link: https://www.instagram.com/itsuak/
-photo.106.tags: peek, portrait, smile, whiskers
-photo.107: https://www.instagram.com/p/CYYrbPkLOus/media/?size=m
+photo.106.tags: laying down, peek, portrait, whiskers
+photo.107: ig://CiP1lWQv-jU/m
 photo.107.author: itsuak
+photo.107.commitdate: 2022/9/11
 photo.107.link: https://www.instagram.com/itsuak/
-photo.107.tags: bamboo, portrait, sample, tongue, whiskers
+photo.107.tags: laying down, peek, portrait, sample
 species: 2
 studbook.id: 15159
 zoo: 46

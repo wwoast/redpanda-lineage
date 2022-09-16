@@ -322,30 +322,31 @@ photo.62.author: yossi929
 photo.62.commitdate: 2021/11/11
 photo.62.link: https://www.instagram.com/yossi929/
 photo.62.tags: close-up, mofumofu, whiskers
-photo.63: ig://CY2QABPM4Nv/m
-photo.63.author: yossi929
-photo.63.commitdate: 2022/2/18
-photo.63.link: https://www.instagram.com/yossi929/
-photo.63.tags: close-up, mofumofu, nose, whiskers
-photo.64: ig://Cb57x4bvKxY/m
+photo.63: ig://CYV6_r3sdrh/m
+photo.63.author: grskus_tk
+photo.63.commitdate: 2022/9/15
+photo.63.link: https://www.instagram.com/grskus_tk/
+photo.63.tags: paws, whiskers
+photo.64: ig://CY2QABPM4Nv/m
 photo.64.author: yossi929
-photo.64.commitdate: 2022/5/13
+photo.64.commitdate: 2022/2/18
 photo.64.link: https://www.instagram.com/yossi929/
-photo.64.tags: bridge, paws, portrait, sample
-photo.65: ig://CfNF0vcvo8e/m
+photo.64.tags: close-up, mofumofu, nose, whiskers
+photo.65: ig://Cb57x4bvKxY/m
 photo.65.author: yossi929
-photo.65.commitdate: 2022/7/14
+photo.65.commitdate: 2022/5/13
 photo.65.link: https://www.instagram.com/yossi929/
-photo.65.tags: peek, sample, techitechi, whiskers
-photo.66: ig://Ch9-8SsryDJ/m
+photo.65.tags: bridge, paws, portrait, sample
+photo.66: ig://CfNF0vcvo8e/m
 photo.66.author: yossi929
-photo.66.commitdate: 2022/9/8
+photo.66.commitdate: 2022/7/14
 photo.66.link: https://www.instagram.com/yossi929/
-photo.66.tags: nose, portrait, sample, whiskers
-photo.67: https://www.instagram.com/p/CYV6_r3sdrh/media/?size=m
-photo.67.author: grskus_tk
-photo.67.link: https://www.instagram.com/grskus_tk/
-photo.67.tags: paws, whiskers
+photo.66.tags: peek, sample, techitechi, whiskers
+photo.67: ig://Ch9-8SsryDJ/m
+photo.67.author: yossi929
+photo.67.commitdate: 2022/9/8
+photo.67.link: https://www.instagram.com/yossi929/
+photo.67.tags: nose, portrait, sample, whiskers
 species: 2
 studbook.id: 0992
 zoo: 41
