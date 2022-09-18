@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1368
-photo.1: https://www.instagram.com/p/CikMpRJJtrQ/media/?size=m
+photo.1: ig://CikMpRJJtrQ/m
 photo.1.author: shunankeizai
+photo.1.commitdate: 2022/9/18
 photo.1.link: https://www.instagram.com/shunankeizai/
 photo.1.tags: baby, mofumofu, portrait, profile, sample
 species: 2

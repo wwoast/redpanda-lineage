@@ -209,8 +209,9 @@ photo.39.author: sandiegozoo
 photo.39.commitdate: 2022/8/28
 photo.39.link: https://www.instagram.com/sandiegozoo/
 photo.39.tags: close-up, mofumofu, sample, tongue, whiskers
-photo.40: https://www.instagram.com/p/CikaSL5O-KW/media/?size=m
+photo.40: ig://CikaSL5O-KW/m
 photo.40.author: rossifari
+photo.40.commitdate: 2022/9/18
 photo.40.link: https://www.instagram.com/rossifari/
 photo.40.tags: mofumofu, paws, portrait, tongue, whiskers
 species: 2

@@ -352,8 +352,9 @@ photo.68.author: hamamatsu.chiita
 photo.68.commitdate: 2022/8/1
 photo.68.link: https://www.instagram.com/hamamatsu.chiita/
 photo.68.tags: portrait, sample, whiskers
-photo.69: https://www.instagram.com/p/CiiIyrFvU0J/media/?size=m
+photo.69: ig://CiiIyrFvU0J/m
 photo.69.author: akiakiakiko18
+photo.69.commitdate: 2022/9/18
 photo.69.link: https://www.instagram.com/akiakiakiko18/
 photo.69.tags: laying down, portrait, sample, tree, whiskers
 species: 2

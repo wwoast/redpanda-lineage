@@ -500,19 +500,21 @@ photo.97.author: eos1089
 photo.97.commitdate: 2022/7/31
 photo.97.link: https://www.instagram.com/eos1089/
 photo.97.tags: eye, laying down, mofumofu, paws, portrait, tail
-photo.98: ig://Cg0JOiABOtn/m
-photo.98.author: ssc6105
-photo.98.commitdate: 2022/8/5
-photo.98.link: https://www.instagram.com/ssc6105/
-photo.98.tags: eye, sample, tail, whiskers
-photo.99: https://www.instagram.com/p/CiingghBxW5/media/?size=m
-photo.99.author: hamamatsu.chiita
-photo.99.link: https://www.instagram.com/hamamatsu.chiita/
-photo.99.tags: eye, paws, portrait, sample
-photo.100: https://www.instagram.com/p/Cguv1YXBFkO/media/?size=m
+photo.98: ig://Cguv1YXBFkO/m
+photo.98.author: hamamatsu.chiita
+photo.98.commitdate: 2022/9/18
+photo.98.link: https://www.instagram.com/hamamatsu.chiita/
+photo.98.tags: eye, portrait, sample
+photo.99: ig://Cg0JOiABOtn/m
+photo.99.author: ssc6105
+photo.99.commitdate: 2022/8/5
+photo.99.link: https://www.instagram.com/ssc6105/
+photo.99.tags: eye, sample, tail, whiskers
+photo.100: ig://CiingghBxW5/m
 photo.100.author: hamamatsu.chiita
+photo.100.commitdate: 2022/9/18
 photo.100.link: https://www.instagram.com/hamamatsu.chiita/
-photo.100.tags: eye, portrait, sample
+photo.100.tags: eye, paws, portrait, sample
 species: 2
 studbook.id: 0366
 zoo: 8

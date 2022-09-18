@@ -513,8 +513,9 @@ photo.100.author: kotata_513
 photo.100.commitdate: 2022/8/30
 photo.100.link: https://www.instagram.com/kotata_513/
 photo.100.tags: mofumofu, portrait, sample, tail
-photo.101: https://www.instagram.com/p/CilOX9qB5Ao/media/?size=m
+photo.101: ig://CilOX9qB5Ao/m
 photo.101.author: hamamatsu.chiita
+photo.101.commitdate: 2022/9/18
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
 photo.101.tags: portrait, sample, whiskers
 species: 2

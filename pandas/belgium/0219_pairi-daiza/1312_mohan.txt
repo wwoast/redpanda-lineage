@@ -66,8 +66,9 @@ photo.10.author: nathalie.elliott
 photo.10.commitdate: 2022/6/11
 photo.10.link: https://www.instagram.com/nathalie.elliott/
 photo.10.tags: bridge, peek, portrait, whiskers
-photo.11: https://www.instagram.com/p/CinDei9MMFV/media/?size=m
+photo.11: ig://CinDei9MMFV/m
 photo.11.author: nathalie.elliott
+photo.11.commitdate: 2022/9/18
 photo.11.link: https://www.instagram.com/nathalie.elliott/
 photo.11.tags: bamboo, mofumofu, portrait, sample, techitechi
 species: 1
