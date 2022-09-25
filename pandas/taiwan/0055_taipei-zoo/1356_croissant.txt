@@ -25,7 +25,7 @@ photo.2: ig://CbXPhI0v-5q/m
 photo.2.author: yuredpanda
 photo.2.commitdate: 2022/4/19
 photo.2.link: https://www.instagram.com/yuredpanda/
-photo.2.tags: paws, portrait, profile, smile, whiskers
+photo.2.tags: paws, portrait, smile, whiskers
 photo.3: ig://CcbDDa-h-Ze/m
 photo.3.author: yuredpanda
 photo.3.commitdate: 2022/4/19
@@ -61,5 +61,9 @@ photo.9.author: yuredpanda
 photo.9.commitdate: 2022/9/4
 photo.9.link: https://www.instagram.com/yuredpanda/
 photo.9.tags: mofumofu, portrait, sample, smile, wink
+photo.10: https://www.instagram.com/p/ChBwuQVPVwz/media/?size=m
+photo.10.author: yuredpanda
+photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.tags: portrait, profile, sample, whiskers
 species: 2
 zoo: 55
