@@ -630,45 +630,46 @@ photo.123.author: hamamatsu.chiita
 photo.123.commitdate: 2022/1/10
 photo.123.link: https://www.instagram.com/hamamatsu.chiita/
 photo.123.tags: portrait, sample, smile, whiskers
-photo.124: ig://CYcP_-YB9AT/m
-photo.124.author: hamamatsu.chiita
-photo.124.commitdate: 2022/1/19
-photo.124.link: https://www.instagram.com/hamamatsu.chiita/
-photo.124.tags: close-up, portrait, wet, whiskers
-photo.125: ig://CZ-bW2nB7AK/m
-photo.125.author: miis_98
-photo.125.commitdate: 2022/3/9
-photo.125.link: https://www.instagram.com/miis_98/
-photo.125.tags: close-up, portrait, sample, whiskers
-photo.126: ig://CbVw2SNhRf5/m
-photo.126.author: hamamatsu.chiita
-photo.126.commitdate: 2022/5/18
-photo.126.link: https://www.instagram.com/hamamatsu.chiita/
+photo.124: ig://CYG4WuzP5bM/m
+photo.124.author: mifko55
+photo.124.commitdate: 2022/9/24
+photo.124.link: https://www.instagram.com/mifko55/
+photo.124.tags: portrait, sample, whiskers
+photo.125: ig://CYcP_-YB9AT/m
+photo.125.author: hamamatsu.chiita
+photo.125.commitdate: 2022/1/19
+photo.125.link: https://www.instagram.com/hamamatsu.chiita/
+photo.125.tags: close-up, portrait, wet, whiskers
+photo.126: ig://CZ-bW2nB7AK/m
+photo.126.author: miis_98
+photo.126.commitdate: 2022/3/9
+photo.126.link: https://www.instagram.com/miis_98/
 photo.126.tags: close-up, portrait, sample, whiskers
-photo.127: ig://CdxqBbLPi5C/m
-photo.127.author: hamiiiii831_
-photo.127.commitdate: 2022/8/24
-photo.127.link: https://www.instagram.com/hamiiiii831_/
-photo.127.tags: paws, peek, sample, whiskers
-photo.128: ig://CegHurqBqDd/m
-photo.128.author: tomo3700
-photo.128.commitdate: 2022/7/11
-photo.128.link: https://www.instagram.com/tomo3700/
-photo.128.tags: close-up, peek, portrait, tree
-photo.129: ig://CfH1hxqBpjg/m
-photo.129.author: hamamatsu.chiita
-photo.129.commitdate: 2022/7/18
-photo.129.link: https://www.instagram.com/hamamatsu.chiita/
-photo.129.tags: portrait, sample, whiskers
-photo.130: ig://CgaZ9s0BrgS/m
-photo.130.author: tomo3700
-photo.130.commitdate: 2022/8/8
-photo.130.link: https://www.instagram.com/tomo3700/
-photo.130.tags: portrait, sample, tongue, whiskers
-photo.131: https://www.instagram.com/p/CYG4WuzP5bM/media/?size=m
-photo.131.author: mifko55
-photo.131.link: https://www.instagram.com/mifko55/
-photo.131.tags: portrait, sample, whiskers
+photo.127: ig://CbVw2SNhRf5/m
+photo.127.author: hamamatsu.chiita
+photo.127.commitdate: 2022/5/18
+photo.127.link: https://www.instagram.com/hamamatsu.chiita/
+photo.127.tags: close-up, portrait, sample, whiskers
+photo.128: ig://CdxqBbLPi5C/m
+photo.128.author: hamiiiii831_
+photo.128.commitdate: 2022/8/24
+photo.128.link: https://www.instagram.com/hamiiiii831_/
+photo.128.tags: paws, peek, sample, whiskers
+photo.129: ig://CegHurqBqDd/m
+photo.129.author: tomo3700
+photo.129.commitdate: 2022/7/11
+photo.129.link: https://www.instagram.com/tomo3700/
+photo.129.tags: close-up, peek, portrait, tree
+photo.130: ig://CfH1hxqBpjg/m
+photo.130.author: hamamatsu.chiita
+photo.130.commitdate: 2022/7/18
+photo.130.link: https://www.instagram.com/hamamatsu.chiita/
+photo.130.tags: portrait, sample, whiskers
+photo.131: ig://CgaZ9s0BrgS/m
+photo.131.author: tomo3700
+photo.131.commitdate: 2022/8/8
+photo.131.link: https://www.instagram.com/tomo3700/
+photo.131.tags: portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 0672
 zoo: 13

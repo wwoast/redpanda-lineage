@@ -1464,59 +1464,61 @@ photo.295.author: cattail.sapporo
 photo.295.commitdate: 2022/8/31
 photo.295.link: https://www.instagram.com/cattail.sapporo/
 photo.295.tags: close-up, mofumofu, portrait, sample
-photo.296: ig://CeDv5VMroOK/m
+photo.296: ig://Cd-l37jriiv/m
 photo.296.author: cattail.sapporo
-photo.296.commitdate: 2022/6/22
+photo.296.commitdate: 2022/9/24
 photo.296.link: https://www.instagram.com/cattail.sapporo/
-photo.296.tags: close-up, mofumofu, paws, portrait, whiskers
-photo.297: ig://CfMV6FpvRJo/m
-photo.297.author: minatomirai215
-photo.297.commitdate: 2022/7/14
-photo.297.link: https://www.instagram.com/minatomirai215/
-photo.297.tags: keeper, nose, portrait, snow
-photo.298: ig://CfOMvkEPl-L/m
-photo.298.author: leonard_redmof
-photo.298.commitdate: 2022/8/22
-photo.298.link: https://www.instagram.com/leonard_redmof/
-photo.298.tags: portrait, sample
-photo.299: ig://CfbRMeOr-IV/m
-photo.299.author: cattail.sapporo
-photo.299.commitdate: 2022/7/9
-photo.299.link: https://www.instagram.com/cattail.sapporo/
-photo.299.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.300: ig://Cfvlg5ZOOiA/m
-photo.300.author: cattail.sapporo
-photo.300.commitdate: 2022/7/31
-photo.300.link: https://www.instagram.com/cattail.sapporo/
-photo.300.tags: portrait, sample, whiskers, yawn
-photo.301: ig://Cf_A6QFuAPo/m
+photo.296.tags: mofumofu, portrait, sample, whiskers
+photo.297: ig://CeDv5VMroOK/m
+photo.297.author: cattail.sapporo
+photo.297.commitdate: 2022/6/22
+photo.297.link: https://www.instagram.com/cattail.sapporo/
+photo.297.tags: close-up, mofumofu, paws, portrait, whiskers
+photo.298: ig://CeTLJ5mL8t1/m
+photo.298.author: cattail.sapporo
+photo.298.commitdate: 2022/9/24
+photo.298.link: https://www.instagram.com/cattail.sapporo/
+photo.298.tags: close-up, mofumofu, peek, portrait
+photo.299: ig://CfMV6FpvRJo/m
+photo.299.author: minatomirai215
+photo.299.commitdate: 2022/7/14
+photo.299.link: https://www.instagram.com/minatomirai215/
+photo.299.tags: keeper, nose, portrait, snow
+photo.300: ig://CfOMvkEPl-L/m
+photo.300.author: leonard_redmof
+photo.300.commitdate: 2022/8/22
+photo.300.link: https://www.instagram.com/leonard_redmof/
+photo.300.tags: portrait, sample
+photo.301: ig://CfbRMeOr-IV/m
 photo.301.author: cattail.sapporo
-photo.301.commitdate: 2022/7/31
+photo.301.commitdate: 2022/7/9
 photo.301.link: https://www.instagram.com/cattail.sapporo/
-photo.301.tags: close-up, flowers, nose, portrait, sample, whiskers
-photo.302: ig://CgMliuzrTEo/m
+photo.301.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.302: ig://Cfvlg5ZOOiA/m
 photo.302.author: cattail.sapporo
-photo.302.commitdate: 2022/7/28
+photo.302.commitdate: 2022/7/31
 photo.302.link: https://www.instagram.com/cattail.sapporo/
-photo.302.tags: close-up, dish, keeper, mofumofu, portrait, sample
-photo.303: ig://Cgeoz3RrCxB/m
+photo.302.tags: portrait, sample, whiskers, yawn
+photo.303: ig://Cf_A6QFuAPo/m
 photo.303.author: cattail.sapporo
-photo.303.commitdate: 2022/8/7
+photo.303.commitdate: 2022/7/31
 photo.303.link: https://www.instagram.com/cattail.sapporo/
-photo.303.tags: nose, portrait, whiskers
-photo.304: ig://ChO-_CqBDyp/m
-photo.304.author: leonard_redmof
-photo.304.commitdate: 2022/8/28
-photo.304.link: https://www.instagram.com/leonard_redmof/
-photo.304.tags: peek, portrait, sample, whiskers
-photo.305: https://www.instagram.com/p/Cd-l37jriiv/media/?size=m
+photo.303.tags: close-up, flowers, nose, portrait, sample, whiskers
+photo.304: ig://CgMliuzrTEo/m
+photo.304.author: cattail.sapporo
+photo.304.commitdate: 2022/7/28
+photo.304.link: https://www.instagram.com/cattail.sapporo/
+photo.304.tags: close-up, dish, keeper, mofumofu, portrait, sample
+photo.305: ig://Cgeoz3RrCxB/m
 photo.305.author: cattail.sapporo
+photo.305.commitdate: 2022/8/7
 photo.305.link: https://www.instagram.com/cattail.sapporo/
-photo.305.tags: mofumofu, portrait, sample, whiskers
-photo.306: https://www.instagram.com/p/CeTLJ5mL8t1/media/?size=m
-photo.306.author: cattail.sapporo
-photo.306.link: https://www.instagram.com/cattail.sapporo/
-photo.306.tags: close-up, mofumofu, peek, portrait
+photo.305.tags: nose, portrait, whiskers
+photo.306: ig://ChO-_CqBDyp/m
+photo.306.author: leonard_redmof
+photo.306.commitdate: 2022/8/28
+photo.306.link: https://www.instagram.com/leonard_redmof/
+photo.306.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 0674
 zoo: 7

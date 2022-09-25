@@ -369,20 +369,21 @@ photo.71.author: tomo3700
 photo.71.commitdate: 2022/6/6
 photo.71.link: https://www.instagram.com/tomo3700/
 photo.71.tags: dish, paws, portrait, sample, whiskers
-photo.72: ig://CfSTHMQLx5O/m
-photo.72.author: otenba_redpanda
-photo.72.commitdate: 2022/7/9
-photo.72.link: https://www.instagram.com/otenba_redpanda/
-photo.72.tags: laying down, portrait, sample, smile
-photo.73: ig://ChnmYJZBqkY/m
+photo.72: ig://CeV_rCDpHiX/m
+photo.72.author: pantasanzoo1
+photo.72.commitdate: 2022/9/24
+photo.72.link: https://www.instagram.com/pantasanzoo1/
+photo.72.tags: close-up, sample, whiskers
+photo.73: ig://CfSTHMQLx5O/m
 photo.73.author: otenba_redpanda
-photo.73.commitdate: 2022/8/31
+photo.73.commitdate: 2022/7/9
 photo.73.link: https://www.instagram.com/otenba_redpanda/
-photo.73.tags: portrait, sample, smile, tongue
-photo.74: https://www.instagram.com/p/CeV_rCDpHiX/media/?size=m
-photo.74.author: pantasanzoo1
-photo.74.link: https://www.instagram.com/pantasanzoo1/
-photo.74.tags: close-up, sample, whiskers
+photo.73.tags: laying down, portrait, sample, smile
+photo.74: ig://ChnmYJZBqkY/m
+photo.74.author: otenba_redpanda
+photo.74.commitdate: 2022/8/31
+photo.74.link: https://www.instagram.com/otenba_redpanda/
+photo.74.tags: portrait, sample, smile, tongue
 species: 2
 studbook.id: 15139
 zoo: 143

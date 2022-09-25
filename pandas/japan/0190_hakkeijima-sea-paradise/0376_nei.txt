@@ -430,10 +430,11 @@ photo.83.author: minatomirai215
 photo.83.commitdate: 2022/7/28
 photo.83.link: https://www.instagram.com/minatomirai215/
 photo.83.tags: bridge, laying down, peek, portrait
-photo.84: https://www.instagram.com/p/ChCyfIjhdCS/media/?size=m
+photo.84: ig://ChCyfIjhdCS/m
 photo.84.author: minatomirai215
+photo.84.commitdate: 2022/9/24
 photo.84.link: https://www.instagram.com/minatomirai215/
-photo.84.tags: grooming, laying down, paws, portrait, sample 
+photo.84.tags: grooming, laying down, paws, portrait, sample
 species: 2
 studbook.id: unknown
 zoo: 190

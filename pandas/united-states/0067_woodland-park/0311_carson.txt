@@ -1050,34 +1050,36 @@ photo.207.author: carsontheredpanda
 photo.207.commitdate: 2022/6/29
 photo.207.link: https://www.instagram.com/carsontheredpanda/
 photo.207.tags: close-up, paws, portrait, sample, smile, tongue, whiskers
-photo.208: ig://CeRKuA4rtAF/m
+photo.208: ig://CeOnk01Fl4x/m
 photo.208.author: carsontheredpanda
-photo.208.commitdate: 2022/6/29
+photo.208.commitdate: 2022/9/24
 photo.208.link: https://www.instagram.com/carsontheredpanda/
-photo.208.tags: paws, portrait, sample, whiskers, white face
-photo.209: ig://CfU9vYEvdFS/m
-photo.209.author: wumpwoast
-photo.209.commitdate: 2022/7/22
-photo.209.link: https://www.instagram.com/wumpwoast/
-photo.209.tags: bamboo, bite, close-up, portrait, sample, whiskers, white face
-photo.210: ig://CffqAOlvFfr/m
-photo.210.author: happy_love2.15
-photo.210.commitdate: 2022/7/28
-photo.210.link: https://www.instagram.com/happy_love2.15/
-photo.210.tags: paws, portrait, sample, tongue, whiskers
-photo.211: ig://Cf-waulufmd/m
+photo.208.tags: laying down, portrait, sample, tongue, whiskers
+photo.209: ig://CeRKuA4rtAF/m
+photo.209.author: carsontheredpanda
+photo.209.commitdate: 2022/6/29
+photo.209.link: https://www.instagram.com/carsontheredpanda/
+photo.209.tags: paws, portrait, sample, whiskers, white face
+photo.210: ig://CeTtgb1rQ4h/m
+photo.210.author: carsontheredpanda
+photo.210.commitdate: 2022/9/24
+photo.210.link: https://www.instagram.com/carsontheredpanda/
+photo.210.tags: bamboo, bite, paws, portrait, sample, whiskers
+photo.211: ig://CfU9vYEvdFS/m
 photo.211.author: wumpwoast
-photo.211.commitdate: 2022/7/31
+photo.211.commitdate: 2022/7/22
 photo.211.link: https://www.instagram.com/wumpwoast/
-photo.211.tags: laying down, portrait, sleeping
-photo.212: https://www.instagram.com/p/CeTtgb1rQ4h/media/?size=m
-photo.212.author: carsontheredpanda
-photo.212.link: https://www.instagram.com/carsontheredpanda/
-photo.212.tags: bamboo, bite, paws, portrait, sample, whiskers
-photo.213: https://www.instagram.com/p/CeOnk01Fl4x/media/?size=m
-photo.213.author: carsontheredpanda
-photo.213.link: https://www.instagram.com/carsontheredpanda/
-photo.213.tags: laying down, portrait, sample, tongue, whiskers
+photo.211.tags: bamboo, bite, close-up, portrait, sample, whiskers, white face
+photo.212: ig://CffqAOlvFfr/m
+photo.212.author: happy_love2.15
+photo.212.commitdate: 2022/7/28
+photo.212.link: https://www.instagram.com/happy_love2.15/
+photo.212.tags: paws, portrait, sample, tongue, whiskers
+photo.213: ig://Cf-waulufmd/m
+photo.213.author: wumpwoast
+photo.213.commitdate: 2022/7/31
+photo.213.link: https://www.instagram.com/wumpwoast/
+photo.213.tags: laying down, portrait, sleeping
 species: 1
 studbook.id: 1440
 zoo: 67

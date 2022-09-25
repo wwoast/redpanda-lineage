@@ -1420,15 +1420,16 @@ photo.283.author: ifumoto88
 photo.283.commitdate: 2022/8/7
 photo.283.link: https://www.instagram.com/ifumoto88/
 photo.283.tags: mofumofu, portrait, sample
-photo.284: ig://ChZzMbTLnIx/m
-photo.284.author: ifumoto88
-photo.284.commitdate: 2022/8/18
-photo.284.link: https://www.instagram.com/ifumoto88/
-photo.284.tags: apple time, portrait, sample, tail
-photo.285: https://www.instagram.com/p/ChAI1MZr3uB/media/?size=m
-photo.285.author: miis_98
-photo.285.link: https://www.instagram.com/miis_98/
-photo.285.tags: laying down, portrait, sample, tongue
+photo.284: ig://ChAI1MZr3uB/m
+photo.284.author: miis_98
+photo.284.commitdate: 2022/9/24
+photo.284.link: https://www.instagram.com/miis_98/
+photo.284.tags: laying down, portrait, sample, tongue
+photo.285: ig://ChZzMbTLnIx/m
+photo.285.author: ifumoto88
+photo.285.commitdate: 2022/8/18
+photo.285.link: https://www.instagram.com/ifumoto88/
+photo.285.tags: apple time, portrait, sample, tail
 species: 2
 studbook.id: 15152
 zoo: 1

@@ -361,25 +361,26 @@ photo.69.author: hamamatsu.chiita
 photo.69.commitdate: 2022/1/23
 photo.69.link: https://www.instagram.com/hamamatsu.chiita/
 photo.69.tags: portrait, whiskers
-photo.70: ig://Cd4F5z5BlZJ/m
-photo.70.author: rie_panda55
-photo.70.commitdate: 2022/7/3
-photo.70.link: https://www.instagram.com/rie_panda55/
-photo.70.tags: bamboo, portrait, sample, whiskers
-photo.71: ig://Cgfh8TNBRl4/m
-photo.71.author: tomo3700
-photo.71.commitdate: 2022/8/8
-photo.71.link: https://www.instagram.com/tomo3700/
-photo.71.tags: paws, portrait, sample, standing, window
-photo.72: ig://Ch8mMWWJlGJ/m
-photo.72.author: hamiiiii831_
-photo.72.commitdate: 2022/9/8
-photo.72.link: https://www.instagram.com/hamiiiii831_/
-photo.72.tags: paws, sample, standing, whiskers, window
-photo.73: https://www.instagram.com/p/Cc0RpdAP_Pv/media/?size=m
-photo.73.author: mifko55
-photo.73.link: https://www.instagram.com/mifko55/
-photo.73.tags: bamboo, portrait, sample, smile, whiskers
+photo.70: ig://Cc0RpdAP_Pv/m
+photo.70.author: mifko55
+photo.70.commitdate: 2022/9/24
+photo.70.link: https://www.instagram.com/mifko55/
+photo.70.tags: bamboo, portrait, sample, smile, whiskers
+photo.71: ig://Cd4F5z5BlZJ/m
+photo.71.author: rie_panda55
+photo.71.commitdate: 2022/7/3
+photo.71.link: https://www.instagram.com/rie_panda55/
+photo.71.tags: bamboo, portrait, sample, whiskers
+photo.72: ig://Cgfh8TNBRl4/m
+photo.72.author: tomo3700
+photo.72.commitdate: 2022/8/8
+photo.72.link: https://www.instagram.com/tomo3700/
+photo.72.tags: paws, portrait, sample, standing, window
+photo.73: ig://Ch8mMWWJlGJ/m
+photo.73.author: hamiiiii831_
+photo.73.commitdate: 2022/9/8
+photo.73.link: https://www.instagram.com/hamiiiii831_/
+photo.73.tags: paws, sample, standing, whiskers, window
 species: 2
 studbook.id: 15148
 video.1: https://m.youtube.com/watch?v=KzNypEyJlkw
