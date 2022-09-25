@@ -4,6 +4,7 @@ birthday: 2017/6/25
 birthplace: 65
 children: none
 commitdate: 2019/3/19
+death: 2019/1/1
 en.name: Micu
 en.nicknames: none
 en.othernames: none
@@ -27,4 +28,5 @@ photo.2.link: https://www.instagram.com/cincinnatizoo/
 photo.2.tags: baby, portrait, profile, whiskers
 species: 2
 studbook.id: 1722
+uncertainty: death exact date
 zoo: 83

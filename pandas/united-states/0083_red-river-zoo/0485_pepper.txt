@@ -20,21 +20,16 @@ photo.1.author: edmontonvalleyzoo
 photo.1.commitdate: 2020/1/13
 photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.1.tags: baby, portrait
-photo.2: ig://Bvmggi0gCVx/m
-photo.2.author: sheenalgross
-photo.2.commitdate: 2020/2/7
-photo.2.link: https://www.instagram.com/sheenalgross/
-photo.2.tags: paws, portrait, whiskers
-photo.3: ig://B1OacpWDnbH/m
-photo.3.author: mitchellreineke
-photo.3.commitdate: 2020/1/2
-photo.3.link: https://www.instagram.com/mitchellreineke/
-photo.3.tags: peek, portrait, profile, tree
-photo.4: ig://CYCqEfVpgNx/m
-photo.4.author: worldthathesees
-photo.4.commitdate: 2022/1/6
-photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: home, tail
+photo.2: ig://B1OacpWDnbH/m
+photo.2.author: mitchellreineke
+photo.2.commitdate: 2020/1/2
+photo.2.link: https://www.instagram.com/mitchellreineke/
+photo.2.tags: peek, portrait, profile, tree
+photo.3: ig://CYCqEfVpgNx/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2022/1/6
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: home, tail
 species: 2
 studbook.id: 1730
 zoo: 83
