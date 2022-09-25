@@ -379,15 +379,16 @@ photo.73.author: otenba_redpanda
 photo.73.commitdate: 2022/7/9
 photo.73.link: https://www.instagram.com/otenba_redpanda/
 photo.73.tags: laying down, portrait, sample, smile
-photo.74: ig://ChnmYJZBqkY/m
-photo.74.author: otenba_redpanda
-photo.74.commitdate: 2022/8/31
-photo.74.link: https://www.instagram.com/otenba_redpanda/
-photo.74.tags: portrait, sample, smile, tongue
-photo.75: https://www.instagram.com/p/CgdcIuahDsl/media/?size=m
-photo.75.author: miis_98
-photo.75.link: https://www.instagram.com/miis_98/
-photo.75.tags: paws, portrait, sample
+photo.74: ig://CgdcIuahDsl/m
+photo.74.author: miis_98
+photo.74.commitdate: 2022/9/25
+photo.74.link: https://www.instagram.com/miis_98/
+photo.74.tags: paws, portrait, sample
+photo.75: ig://ChnmYJZBqkY/m
+photo.75.author: otenba_redpanda
+photo.75.commitdate: 2022/8/31
+photo.75.link: https://www.instagram.com/otenba_redpanda/
+photo.75.tags: portrait, sample, smile, tongue
 species: 2
 studbook.id: 15139
 zoo: 143

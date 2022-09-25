@@ -95,15 +95,16 @@ photo.16.author: rossifari
 photo.16.commitdate: 2022/6/22
 photo.16.link: https://www.instagram.com/rossifari/
 photo.16.tags: paws, portrait, standing, tail, whiskers
-photo.17: ig://CiH2qhguqUi/m
+photo.17: ig://Cgb9-DqAMnJ/m
 photo.17.author: rossifari
-photo.17.commitdate: 2022/9/11
+photo.17.commitdate: 2022/9/25
 photo.17.link: https://www.instagram.com/rossifari/
-photo.17.tags: close-up, portrait, sample, whiskers
-photo.18: https://www.instagram.com/p/Cgb9-DqAMnJ/media/?size=m
+photo.17.tags: close-up, whiskers
+photo.18: ig://CiH2qhguqUi/m
 photo.18.author: rossifari
+photo.18.commitdate: 2022/9/11
 photo.18.link: https://www.instagram.com/rossifari/
-photo.18.tags: close-up, whiskers
+photo.18.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 1701
 zoo: 96
