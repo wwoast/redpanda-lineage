@@ -4,6 +4,7 @@ birthday: 2004/6/29
 birthplace: 34
 children: none
 commitdate: 2018/10/18
+death: 2022/9/1
 en.name: Foa-Foa
 en.nicknames: none
 en.othernames: Foafoa, Fa-Fa
@@ -42,4 +43,5 @@ photo.5.link: https://www.instagram.com/redpanda_pstommy/
 photo.5.tags: portrait
 species: 2
 studbook.id: 0470
+uncertainty: death exact date in september 2022
 zoo: 78
