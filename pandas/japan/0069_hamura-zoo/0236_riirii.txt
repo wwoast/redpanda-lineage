@@ -234,40 +234,41 @@ photo.44.author: tokyo_hamura_city
 photo.44.commitdate: 2022/2/20
 photo.44.link: https://www.instagram.com/tokyo_hamura_city/
 photo.44.tags: bamboo, mofumofu, portrait, sample, smile
-photo.45: ig://Cb7tksgLc1Q/m
-photo.45.author: mini_cochi
-photo.45.commitdate: 2022/4/4
-photo.45.link: https://www.instagram.com/mini_cochi/
-photo.45.tags: close-up, portrait, sample, whiskers
-photo.46: ig://Cd8kx-_vai1/m
-photo.46.author: sasapan34
-photo.46.commitdate: 2022/8/31
-photo.46.link: https://www.instagram.com/sasapan34/
-photo.46.tags: sample, smile, tail, tree
-photo.47: ig://CfPpUx4BEMA/m
+photo.45: ig://Cb43n5ihbr-/m
+photo.45.author: sasapan34
+photo.45.commitdate: 2022/9/28
+photo.45.link: https://www.instagram.com/sasapan34/
+photo.45.tags: cherry blossoms, nose, whiskers
+photo.46: ig://Cb7tksgLc1Q/m
+photo.46.author: mini_cochi
+photo.46.commitdate: 2022/4/4
+photo.46.link: https://www.instagram.com/mini_cochi/
+photo.46.tags: close-up, portrait, sample, whiskers
+photo.47: ig://Cd8kx-_vai1/m
 photo.47.author: sasapan34
-photo.47.commitdate: 2022/7/9
+photo.47.commitdate: 2022/8/31
 photo.47.link: https://www.instagram.com/sasapan34/
-photo.47.tags: whiskers
-photo.48: ig://CiFGroLBQUL/m
-photo.48.author: fetorus_mami
-photo.48.commitdate: 2022/9/7
-photo.48.link: https://www.instagram.com/fetorus_mami/
-photo.48.tags: bamboo, close-up, whiskers
-photo.49: ig://CiFnTmthIlz/m
+photo.47.tags: sample, smile, tail, tree
+photo.48: ig://CfPpUx4BEMA/m
+photo.48.author: sasapan34
+photo.48.commitdate: 2022/7/9
+photo.48.link: https://www.instagram.com/sasapan34/
+photo.48.tags: whiskers
+photo.49: ig://CiFGroLBQUL/m
 photo.49.author: fetorus_mami
 photo.49.commitdate: 2022/9/7
 photo.49.link: https://www.instagram.com/fetorus_mami/
-photo.49.tags: paws, playing, toys
-photo.50: ig://CiIJLa-vyzr/m
-photo.50.author: mini_cochi
-photo.50.commitdate: 2022/9/10
-photo.50.link: https://www.instagram.com/mini_cochi/
-photo.50.tags: mofumofu, sample, whiskers
-photo.51: https://www.instagram.com/p/Cb43n5ihbr-/media/?size=m
-photo.51.author: sasapan34
-photo.51.link: https://www.instagram.com/sasapan34/
-photo.51.tags: cherry blossoms, nose, whiskers
+photo.49.tags: bamboo, close-up, whiskers
+photo.50: ig://CiFnTmthIlz/m
+photo.50.author: fetorus_mami
+photo.50.commitdate: 2022/9/7
+photo.50.link: https://www.instagram.com/fetorus_mami/
+photo.50.tags: paws, playing, toys
+photo.51: ig://CiIJLa-vyzr/m
+photo.51.author: mini_cochi
+photo.51.commitdate: 2022/9/10
+photo.51.link: https://www.instagram.com/mini_cochi/
+photo.51.tags: mofumofu, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 69

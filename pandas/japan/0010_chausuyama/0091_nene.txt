@@ -398,37 +398,41 @@ photo.77.author: jas_forever_love
 photo.77.commitdate: 2022/7/9
 photo.77.link: https://www.instagram.com/jas_forever_love/
 photo.77.tags: close-up, sample, whiskers
-photo.78: ig://CfEQjOlPsWb/m
-photo.78.author: fetorus_mami
-photo.78.commitdate: 2022/7/9
-photo.78.link: https://www.instagram.com/fetorus_mami/
-photo.78.tags: bamboo, close-up, paws, sample, white face
-photo.79: ig://CfEXpdtvUwg/m
-photo.79.author: colette.jp
+photo.78: ig://CfEPqRcv4iO/m
+photo.78.author: taka__3428
+photo.78.commitdate: 2022/9/28
+photo.78.link: https://www.instagram.com/taka__3428/
+photo.78.tags: flowers
+photo.79: ig://CfEQjOlPsWb/m
+photo.79.author: fetorus_mami
 photo.79.commitdate: 2022/7/9
-photo.79.link: https://www.instagram.com/colette.jp/
-photo.79.tags: portrait, sample, standing, tree
-photo.80: ig://CfOyVmUv32-/m
-photo.80.author: redpan22
-photo.80.commitdate: 2022/8/11
-photo.80.link: https://www.instagram.com/redpan22/
-photo.80.tags: apple time, dish, mofumofu, sample, snow
-photo.81: https://www.instagram.com/p/CfKp2E0hZzl/media/?size=m
-photo.81.author: fetorus_mami
-photo.81.link: https://www.instagram.com/fetorus_mami/
-photo.81.tags: bamboo, paws
-photo.82: https://www.instagram.com/p/CfIbNAqL7-N/media/?size=m
+photo.79.link: https://www.instagram.com/fetorus_mami/
+photo.79.tags: bamboo, close-up, paws, sample, white face
+photo.80: ig://CfESzvhvEww/m
+photo.80.author: fetorus_mami
+photo.80.commitdate: 2022/9/28
+photo.80.link: https://www.instagram.com/fetorus_mami/
+photo.80.tags: smile, white face
+photo.81: ig://CfEXpdtvUwg/m
+photo.81.author: colette.jp
+photo.81.commitdate: 2022/7/9
+photo.81.link: https://www.instagram.com/colette.jp/
+photo.81.tags: portrait, sample, standing, tree
+photo.82: ig://CfIbNAqL7-N/m
 photo.82.author: wumpwoast
+photo.82.commitdate: 2022/9/28
 photo.82.link: https://www.instagram.com/wumpwoast/
 photo.82.tags: mofumofu, portrait, tail
-photo.83: https://www.instagram.com/p/CfESzvhvEww/media/?size=m
+photo.83: ig://CfKp2E0hZzl/m
 photo.83.author: fetorus_mami
+photo.83.commitdate: 2022/9/28
 photo.83.link: https://www.instagram.com/fetorus_mami/
-photo.83.tags: smile, white face
-photo.84: https://www.instagram.com/p/CfEPqRcv4iO/media/?size=m
-photo.84.author: taka__3428
-photo.84.link: https://www.instagram.com/taka__3428/
-photo.84.tags: flowers
+photo.83.tags: bamboo, paws
+photo.84: ig://CfOyVmUv32-/m
+photo.84.author: redpan22
+photo.84.commitdate: 2022/8/11
+photo.84.link: https://www.instagram.com/redpan22/
+photo.84.tags: apple time, dish, mofumofu, sample, snow
 species: 2
 studbook.id: 12109
 zoo: 10

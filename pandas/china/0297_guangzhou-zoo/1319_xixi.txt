@@ -66,8 +66,9 @@ photo.10.author: manmanko2
 photo.10.commitdate: 2022/3/10
 photo.10.link: https://www.instagram.com/manmanko2/
 photo.10.tags: laying down, paws, portrait, smile, tail, tree
-photo.11: https://www.instagram.com/p/CcN6pBVMHJS/media/?size=m
+photo.11: ig://CcN6pBVMHJS/m
 photo.11.author: manmanko2
+photo.11.commitdate: 2022/9/28
 photo.11.link: https://www.instagram.com/manmanko2/
 photo.11.tags: apple time, dish, portrait, whiskers
 species: 2

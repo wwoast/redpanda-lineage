@@ -144,21 +144,21 @@ photo.25.author: aimless_amos
 photo.25.commitdate: 2022/7/9
 photo.25.link: https://www.instagram.com/capemaycountyzoo/
 photo.25.tags: close-up, nose, portrait, sample
-photo.26: ig://CfWwvVZlldW/m
+photo.26: ig://CfHXrOgpZ1D/m
 photo.26.author: aimless_amos
-photo.26.commitdate: 2022/7/9
+photo.26.commitdate: 2022/9/28
 photo.26.link: https://www.instagram.com/carsontheredpanda/
-photo.26.tags: portrait, sample, smile
-photo.27: ig://Chh9TVOJYYb/m
+photo.26.tags: close-up, old, paws, tail
+photo.27: ig://CfWwvVZlldW/m
 photo.27.author: aimless_amos
-photo.27.commitdate: 2022/8/26
-photo.27.link: https://www.instagram.com/aimless_amos/
-photo.27.tags: old, paws, sample, tail, white face
-photo.28: https://www.codaworry.com/images/rpf/luna-14-capemay.jpg
+photo.27.commitdate: 2022/7/9
+photo.27.link: https://www.instagram.com/carsontheredpanda/
+photo.27.tags: portrait, sample, smile
+photo.28: ig://Chh9TVOJYYb/m
 photo.28.author: aimless_amos
-photo.28.commitdate: 2021/6/25
+photo.28.commitdate: 2022/8/26
 photo.28.link: https://www.instagram.com/aimless_amos/
-photo.28.tags: paws, peek, portrait, tail
+photo.28.tags: old, paws, sample, tail, white face
 photo.29: https://www.codaworry.com/images/rpf/luna-15-capemay.jpg
 photo.29.author: aimless_amos
 photo.29.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/CfHXrOgpZ1D/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/carsontheredpanda/
-photo.63.tags: close-up, old, paws, tail
 species: 1
 studbook.id: 0105
 zoo: 186
