@@ -1586,14 +1586,16 @@ photo.315.author: ssc6105
 photo.315.commitdate: 2022/9/10
 photo.315.link: https://www.instagram.com/ssc6105/
 photo.315.tags: laying down, peek, portrait, window
-photo.316: https://www.instagram.com/p/Ci4PLRBPEoh/media/?size=m
-photo.316.author: ssc6105
-photo.316.link: https://www.instagram.com/ssc6105/
-photo.316.tags: bamboo, paws, sample, whiskers
-photo.317: https://www.instagram.com/p/CixP0mqLMyz/media/?size=m
-photo.317.author: mini_cochi
-photo.317.link: https://www.instagram.com/mini_cochi/
-photo.317.tags: home, portrait, sample, whiskers
+photo.316: ig://CixP0mqLMyz/m
+photo.316.author: mini_cochi
+photo.316.commitdate: 2022/10/1
+photo.316.link: https://www.instagram.com/mini_cochi/
+photo.316.tags: home, portrait, sample, whiskers
+photo.317: ig://Ci4PLRBPEoh/m
+photo.317.author: ssc6105
+photo.317.commitdate: 2022/10/1
+photo.317.link: https://www.instagram.com/ssc6105/
+photo.317.tags: bamboo, paws, sample, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

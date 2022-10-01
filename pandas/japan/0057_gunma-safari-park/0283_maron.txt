@@ -253,8 +253,9 @@ photo.48.author: hamiiiii831_
 photo.48.commitdate: 2022/9/8
 photo.48.link: https://www.instagram.com/hamiiiii831_/
 photo.48.tags: paws, sample, whiskers
-photo.49: https://www.instagram.com/p/CjKz2YgvW0g/media/?size=m
+photo.49: ig://CjKz2YgvW0g/m
 photo.49.author: ssc6105
+photo.49.commitdate: 2022/10/1
 photo.49.link: https://www.instagram.com/ssc6105/
 photo.49.tags: paws, sample, standing, tail, tongue, whiskers
 species: 2

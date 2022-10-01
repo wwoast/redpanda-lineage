@@ -325,8 +325,9 @@ photo.62.author: miis_98
 photo.62.commitdate: 2022/8/5
 photo.62.link: https://www.instagram.com/miis_98/
 photo.62.tags: portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/CjIG7vgP3Gz/media/?size=m
+photo.63: ig://CjIG7vgP3Gz/m
 photo.63.author: miis_98
+photo.63.commitdate: 2022/10/1
 photo.63.link: https://www.instagram.com/miis_98/
 photo.63.tags: bridge, paws, portrait, sample, whiskers
 species: 2

@@ -221,8 +221,9 @@ photo.42.author: eos1089
 photo.42.commitdate: 2022/7/31
 photo.42.link: https://www.instagram.com/eos1089/
 photo.42.tags: peek, portrait, sample, whiskers
-photo.43: https://www.instagram.com/p/Cisdqp7pN4j/media/?size=m
+photo.43: ig://Cisdqp7pN4j/m
 photo.43.author: miis_98
+photo.43.commitdate: 2022/10/1
 photo.43.link: https://www.instagram.com/miis_98/
 photo.43.tags: air tasting, portrait, sample, tongue, whiskers
 species: 2

@@ -33,13 +33,15 @@ photo.4.author: alto0908
 photo.4.commitdate: 2022/9/10
 photo.4.link: https://www.instagram.com/alto0908/
 photo.4.tags: baby, keeper, portrait, toys
-photo.5: https://www.instagram.com/p/CjIuRGNPlhI/media/?size=m
-photo.5.author: nakacchi_desu
-photo.5.link: https://www.instagram.com/nakacchi_desu/
-photo.5.tags: baby, close-up, paws, window
-photo.6: https://www.instagram.com/p/CiwFIIqPfJf/media/?size=m
-photo.6.author: minatomirai215
-photo.6.link: https://www.instagram.com/minatomirai215/
-photo.6.tags: baby, close-up, mofumofu, window
+photo.5: ig://CiwFIIqPfJf/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2022/10/1
+photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: baby, close-up, mofumofu, window
+photo.6: ig://CjIuRGNPlhI/m
+photo.6.author: nakacchi_desu
+photo.6.commitdate: 2022/10/1
+photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.tags: baby, close-up, paws, window
 species: 2
 zoo: 190

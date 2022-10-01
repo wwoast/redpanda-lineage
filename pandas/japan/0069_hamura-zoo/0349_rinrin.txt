@@ -69,14 +69,16 @@ photo.11.author: fetorus_mami
 photo.11.commitdate: 2022/9/4
 photo.11.link: https://www.instagram.com/fetorus_mami/
 photo.11.tags: door, tongue
-photo.12: https://www.instagram.com/p/Ci1br5XPqc6/media/?size=m
-photo.12.author: fetorus_mami
-photo.12.link: https://www.instagram.com/fetorus_mami/
-photo.12.tags: old, paws, sample, smile, tail
-photo.13: https://www.instagram.com/p/CisIwqYPY8G/media/?size=m
-photo.13.author: kaoru_a358
-photo.13.link: https://www.instagram.com/kaoru_a358/
-photo.13.tags: apple time, keeper
+photo.12: ig://CisIwqYPY8G/m
+photo.12.author: kaoru_a358
+photo.12.commitdate: 2022/10/1
+photo.12.link: https://www.instagram.com/kaoru_a358/
+photo.12.tags: apple time, keeper
+photo.13: ig://Ci1br5XPqc6/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2022/10/1
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: old, paws, sample, smile, tail
 species: 2
 studbook.id: 01115
 zoo: 69

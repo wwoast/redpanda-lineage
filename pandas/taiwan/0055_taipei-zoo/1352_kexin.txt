@@ -46,8 +46,9 @@ photo.6.author: yuredpanda
 photo.6.commitdate: 2022/6/7
 photo.6.link: https://www.instagram.com/yuredpanda/
 photo.6.tags: laying down, paws, portrait, sample, whiskers
-photo.7: https://www.instagram.com/p/CjE6RXKPR5A/media/?size=m
+photo.7: ig://CjE6RXKPR5A/m
 photo.7.author: yuredpanda
+photo.7.commitdate: 2022/10/1
 photo.7.link: https://www.instagram.com/yuredpanda/
 photo.7.tags: lips, portrait, sample, whiskers
 species: 2

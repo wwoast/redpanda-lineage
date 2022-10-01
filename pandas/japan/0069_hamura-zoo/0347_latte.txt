@@ -583,8 +583,9 @@ photo.114.author: mini_cochi
 photo.114.commitdate: 2022/9/11
 photo.114.link: https://www.instagram.com/mini_cochi/
 photo.114.tags: mofumofu, portrait, sample, tree, whiskers
-photo.115: https://www.instagram.com/p/Ci1ceH1PwDr/media/?size=m
+photo.115: ig://Ci1ceH1PwDr/m
 photo.115.author: fetorus_mami
+photo.115.commitdate: 2022/10/1
 photo.115.link: https://www.instagram.com/fetorus_mami/
 photo.115.tags: close-up, lips, paws, sample, teeth, whiskers
 species: 2

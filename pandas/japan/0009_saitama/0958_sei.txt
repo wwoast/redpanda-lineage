@@ -327,8 +327,9 @@ photo.63.author: otenba_redpanda
 photo.63.commitdate: 2022/9/11
 photo.63.link: https://www.instagram.com/otenba_redpanda/
 photo.63.tags: bamboo, paws, sample, standing
-photo.64: https://www.instagram.com/p/CixUhCqvqcj/media/?size=m
+photo.64: ig://CixUhCqvqcj/m
 photo.64.author: fetorus_mami
+photo.64.commitdate: 2022/10/1
 photo.64.link: https://www.instagram.com/fetorus_mami/
 photo.64.tags: close-up, sample, whiskers
 species: 2
