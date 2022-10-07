@@ -18,8 +18,9 @@ photo.1.author: shunankeizai
 photo.1.commitdate: 2022/9/18
 photo.1.link: https://www.instagram.com/shunankeizai/
 photo.1.tags: baby, mofumofu, portrait, profile, sample
-photo.2: https://www.instagram.com/p/CixLFFgPnr1/media/?size=m
+photo.2: ig://CixLFFgPnr1/m
 photo.2.author: kojikoji2011
+photo.2.commitdate: 2022/10/6
 photo.2.link: https://www.instagram.com/kojikoji2011/
 photo.2.tags: baby, mofumofu, portrait, sample, whiskers
 species: 2

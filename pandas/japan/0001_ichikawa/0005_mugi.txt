@@ -1440,10 +1440,11 @@ photo.287.author: na.mo.pan
 photo.287.commitdate: 2022/10/1
 photo.287.link: https://www.instagram.com/na.mo.pan/
 photo.287.tags: bamboo, close-up, mofumofu, sample, whiskers
-photo.288: https://www.instagram.com/p/Ci6h1B1PxMu/media/?size=m
+photo.288: ig://Ci6h1B1PxMu/m
 photo.288.author: na.mo.pan
+photo.288.commitdate: 2022/10/6
 photo.288.link: https://www.instagram.com/na.mo.pan/
-photo.288.tags: bite, paws, playing, toys 
+photo.288.tags: bite, paws, playing, toys
 species: 2
 studbook.id: 15152
 zoo: 1

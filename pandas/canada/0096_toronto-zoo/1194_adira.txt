@@ -203,8 +203,9 @@ photo.38.author: thetorontozoo
 photo.38.commitdate: 2022/7/31
 photo.38.link: https://www.instagram.com/thetorontozoo/
 photo.38.tags: paws, sample, whiskers
-photo.39: https://www.instagram.com/p/CjGsrEjsPoK/media/?size=m
+photo.39: ig://CjGsrEjsPoK/m
 photo.39.author: thetorontozoo
+photo.39.commitdate: 2022/10/6
 photo.39.link: https://www.instagram.com/thetorontozoo/
 photo.39.tags: peek, sample, tree, whiskers
 species: 2

@@ -1022,8 +1022,9 @@ photo.202.author: redpan22
 photo.202.commitdate: 2022/8/16
 photo.202.link: https://www.instagram.com/redpan22/
 photo.202.tags: paws, peek, sample, whiskers
-photo.203: https://www.instagram.com/p/Ciu9j14PMNz/media/?size=m
+photo.203: ig://Ciu9j14PMNz/m
 photo.203.author: nakacchi_desu
+photo.203.commitdate: 2022/10/6
 photo.203.link: https://www.instagram.com/nakacchi_desu/
 photo.203.tags: mofumofu, peek, sample, tail, tree
 species: 2
