@@ -47,8 +47,9 @@ photo.7.author: wumpwoast
 photo.7.commitdate: 2021/8/18
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.7.tags: paws, portrait
-photo.8: https://www.instagram.com/p/Cip2_jLJuZ9/media/?size=m
+photo.8: ig://Cip2_jLJuZ9/m
 photo.8.author: wumpwoast
+photo.8.commitdate: 2022/10/6
 photo.8.link: https://www.instagram.com/wumpwoast/
 photo.8.tags: portrait, sample, whiskers
 species: 2

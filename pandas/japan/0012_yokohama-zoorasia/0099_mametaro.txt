@@ -619,8 +619,9 @@ photo.121.author: kotata_513
 photo.121.commitdate: 2022/8/5
 photo.121.link: https://www.instagram.com/kotata_513/
 photo.121.tags: bamboo, bite, portrait, sample, wink
-photo.122: https://www.instagram.com/p/Ci1sTDJOPZq/media/?size=m
+photo.122: ig://Ci1sTDJOPZq/m
 photo.122.author: wumpwoast
+photo.122.commitdate: 2022/10/6
 photo.122.link: https://www.instagram.com/wumpwoast/
 photo.122.tags: close-up, portrait, whiskers
 species: 2
