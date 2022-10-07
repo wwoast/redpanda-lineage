@@ -4,6 +4,7 @@ birthday: 2007/7/4
 birthplace: 154
 children: 864, 580, 807, 808, 926
 commitdate: 2019/3/24
+death: 2022/1/1
 en.name: Jaya
 en.nicknames: none
 en.othernames: none
@@ -59,4 +60,5 @@ photo.8.link: https://www.instagram.com/philadelphiazoo/
 photo.8.tags: peek, snow, whiskers
 species: 1
 studbook.id: 0705
+uncertainty: death date in january 2022
 zoo: 81

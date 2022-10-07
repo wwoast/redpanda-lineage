@@ -17,6 +17,7 @@ location.1: 146, 2013/7/20
 location.2: 186, 2014/4/22
 location.3: 155, 2018/11/1
 location.4: 80, 2021/6/1
+location.5: 133, 2022/5/12
 photo.1: ig://BApZmDHk00d/m
 photo.1.author: capemaycountyzoo
 photo.1.commitdate: 2020/2/17
@@ -90,4 +91,4 @@ photo.14.tags: air tasting, home, portrait, tongue
 species: 1
 studbook.id: 1357
 uncertainty: location.4 exact month and day
-zoo: 80
+zoo: 133

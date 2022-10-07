@@ -4,6 +4,7 @@ birthday: 2002/7/1
 birthplace: 34
 children: none
 commitdate: 2018/7/26
+death: 2022/10/6
 en.name: Tashan
 en.nicknames: none
 en.othernames: Ta-Xiang, Ta-xiang, Taxiang, Taixiang, Tasyan, Tai-Syan, Daoguang
@@ -46,6 +47,10 @@ photo.7.author: wumpwoast
 photo.7.commitdate: 2021/8/18
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.7.tags: paws, portrait
+photo.8: https://www.instagram.com/p/Cip2_jLJuZ9/media/?size=m
+photo.8.author: wumpwoast
+photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0274
 zoo: 34
