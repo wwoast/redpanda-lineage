@@ -992,15 +992,16 @@ photo.196.author: colette.jp
 photo.196.commitdate: 2022/9/11
 photo.196.link: https://www.instagram.com/colette.jp/
 photo.196.tags: paws, portrait, sample, smile
-photo.197: ig://CjKvCyMPzEK/m
-photo.197.author: minatomirai215
-photo.197.commitdate: 2022/10/1
-photo.197.link: https://www.instagram.com/minatomirai215/
-photo.197.tags: paws, portrait, sample, smile, whiskers
-photo.198: https://www.instagram.com/p/CimuL32BxhL/media/?size=m
-photo.198.author: colette.jp
-photo.198.link: https://www.instagram.com/colette.jp/
-photo.198.tags: portrait, sample, smile, whiskers
+photo.197: ig://CimuL32BxhL/m
+photo.197.author: colette.jp
+photo.197.commitdate: 2022/10/7
+photo.197.link: https://www.instagram.com/colette.jp/
+photo.197.tags: portrait, sample, smile, whiskers
+photo.198: ig://CjKvCyMPzEK/m
+photo.198.author: minatomirai215
+photo.198.commitdate: 2022/10/1
+photo.198.link: https://www.instagram.com/minatomirai215/
+photo.198.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 14

@@ -124,15 +124,16 @@ photo.22.author: minatomirai215
 photo.22.commitdate: 2020/5/30
 photo.22.link: https://www.instagram.com/minatomirai215/
 photo.22.tags: apple time, paws, portrait
-photo.23: ig://CjK0b_NvWzU/m
-photo.23.author: kojikoji2011
-photo.23.commitdate: 2022/10/1
-photo.23.link: https://www.instagram.com/kojikoji2011/
-photo.23.tags: eye, paws, peek, portrait, sample
-photo.24: https://www.instagram.com/p/CjExV6jvXcA/media/?size=m
-photo.24.author: minatomirai215
-photo.24.link: https://www.instagram.com/minatomirai215/
-photo.24.tags: laying down, portrait, sample
+photo.23: ig://CjExV6jvXcA/m
+photo.23.author: minatomirai215
+photo.23.commitdate: 2022/10/7
+photo.23.link: https://www.instagram.com/minatomirai215/
+photo.23.tags: laying down, portrait, sample
+photo.24: ig://CjK0b_NvWzU/m
+photo.24.author: kojikoji2011
+photo.24.commitdate: 2022/10/1
+photo.24.link: https://www.instagram.com/kojikoji2011/
+photo.24.tags: eye, paws, peek, portrait, sample
 species: 2
 studbook.id: 0660
 zoo: 6

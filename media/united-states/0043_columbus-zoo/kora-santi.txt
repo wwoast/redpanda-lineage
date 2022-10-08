@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: baby, mother's day, paws, portrait, whiskers
 photo.2.tags.999.location: 470, 255
 photo.2.tags.1185.location: 200, 340
-photo.3: https://www.instagram.com/p/CiXRuW5OpCS/media/?size=l
+photo.3: ig://CiXRuW5OpCS/l
 photo.3.author: rossifari
+photo.3.commitdate: 2022/10/7
 photo.3.link: https://www.instagram.com/rossifari/
 photo.3.tags: portrait, sample, smile, whiskers
 photo.3.tags.999.location: 460, 180

@@ -603,8 +603,9 @@ photo.118.author: hamamatsu.chiita
 photo.118.commitdate: 2022/8/28
 photo.118.link: https://www.instagram.com/hamamatsu.chiita/
 photo.118.tags: close-up, portrait, sample, whiskers
-photo.119: https://www.instagram.com/p/CigBkBXB_ET/media/?size=m
+photo.119: ig://CigBkBXB_ET/m
 photo.119.author: hamamatsu.chiita
+photo.119.commitdate: 2022/10/7
 photo.119.link: https://www.instagram.com/hamamatsu.chiita/
 photo.119.tags: close-up, portrait, sample, whiskers
 species: 2

@@ -46,8 +46,9 @@ photo.6.author: manmanko2
 photo.6.commitdate: 2021/12/6
 photo.6.link: https://www.instagram.com/manmanko2/
 photo.6.tags: ice treat, lunch time, portrait, tongue
-photo.7: https://www.instagram.com/p/Ce8kjd_v_vk/media/?size=m
+photo.7: ig://Ce8kjd_v_vk/m
 photo.7.author: manmanko2
+photo.7.commitdate: 2022/10/7
 photo.7.link: https://www.instagram.com/manmanko2/
 photo.7.tags: portrait, sample, smile, whiskers
 species: 2

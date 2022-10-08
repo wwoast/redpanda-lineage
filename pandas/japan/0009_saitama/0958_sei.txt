@@ -327,14 +327,15 @@ photo.63.author: otenba_redpanda
 photo.63.commitdate: 2022/9/11
 photo.63.link: https://www.instagram.com/otenba_redpanda/
 photo.63.tags: bamboo, paws, sample, standing
-photo.64: ig://CixUhCqvqcj/m
+photo.64: ig://CimpVABL8jS/m
 photo.64.author: fetorus_mami
-photo.64.commitdate: 2022/10/1
+photo.64.commitdate: 2022/10/7
 photo.64.link: https://www.instagram.com/fetorus_mami/
-photo.64.tags: close-up, sample, whiskers
-photo.65: https://www.instagram.com/p/CimpVABL8jS/media/?size=m
+photo.64.tags: bamboo, sample, whiskers
+photo.65: ig://CixUhCqvqcj/m
 photo.65.author: fetorus_mami
+photo.65.commitdate: 2022/10/1
 photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: bamboo, sample, whiskers
+photo.65.tags: close-up, sample, whiskers
 species: 2
 zoo: 9

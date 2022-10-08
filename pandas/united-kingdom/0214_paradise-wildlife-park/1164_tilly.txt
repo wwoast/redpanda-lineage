@@ -50,8 +50,9 @@ photo.7.author: jobrownphotography
 photo.7.commitdate: 2020/10/27
 photo.7.link: https://www.instagram.com/jobrownphotography/
 photo.7.tags: paws, peek, portrait, tail
-photo.8: https://www.instagram.com/p/CiFRTlLo4eD/media/?size=m
+photo.8: ig://CiFRTlLo4eD/m
 photo.8.author: paradisewildlifepark
+photo.8.commitdate: 2022/10/7
 photo.8.link: https://www.instagram.com/paradisewildlifepark/
 photo.8.tags: close-up, tongue, whiskers
 species: 1

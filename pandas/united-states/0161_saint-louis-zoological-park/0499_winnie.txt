@@ -40,8 +40,9 @@ photo.5.author: stlzoo
 photo.5.commitdate: 2022/3/5
 photo.5.link: https://www.instagram.com/stlzoo/
 photo.5.tags: close-up, portrait, snow, whiskers
-photo.6: https://www.instagram.com/p/CinLKkQMCfM/media/?size=m
+photo.6: ig://CinLKkQMCfM/m
 photo.6.author: stlzoo
+photo.6.commitdate: 2022/10/7
 photo.6.link: https://www.instagram.com/stlzoo/
 photo.6.tags: paws, sample, tree, white face
 species: 1

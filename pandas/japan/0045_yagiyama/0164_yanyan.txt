@@ -675,8 +675,9 @@ photo.133.author: eos1089
 photo.133.commitdate: 2022/8/31
 photo.133.link: https://www.instagram.com/eos1089/
 photo.133.tags: door, paws, portrait, sample, whiskers
-photo.134: https://www.instagram.com/p/CimgWRXP2S-/media/?size=m
+photo.134: ig://CimgWRXP2S-/m
 photo.134.author: kotata_513
+photo.134.commitdate: 2022/10/7
 photo.134.link: https://www.instagram.com/kotata_513/
 photo.134.tags: paws, sample, whiskers
 species: 2
