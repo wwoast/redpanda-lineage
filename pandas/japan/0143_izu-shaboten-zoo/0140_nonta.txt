@@ -4,6 +4,7 @@ birthday: 2012/6/27
 birthplace: 6
 children: none
 commitdate: 2018/6/27
+death: 2022/10/10
 en.name: Nonta
 en.nicknames: none
 en.othernames: none
@@ -486,6 +487,18 @@ photo.94.author: hamiiiii831_
 photo.94.commitdate: 2022/9/8
 photo.94.link: https://www.instagram.com/hamiiiii831_/
 photo.94.tags: itchy, mofumofu, paws, sample, wave
+photo.95: https://www.instagram.com/p/CXKn3usBhJd/media/?size=m
+photo.95.author: otenba_redpanda
+photo.95.link: https://www.instagram.com/otenba_redpanda/
+photo.95.tags: blink, laying down, smile
+photo.96: https://www.instagram.com/p/Chib4yXsOqh/media/?size=m
+photo.96.author: otenba_redpanda
+photo.96.link: https://www.instagram.com/otenba_redpanda/
+photo.96.tags: grooming, mofumofu, tongue
+photo.97: https://www.instagram.com/p/Ch56UfOhlI-/media/?size=m
+photo.97.author: ruru_maki
+photo.97.link: https://www.instagram.com/ruru_maki/
+photo.97.tags: paws, portrait, sample, techitechi
 species: 2
 studbook.id: 12102
 zoo: 143
