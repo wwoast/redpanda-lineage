@@ -286,8 +286,9 @@ photo.55.author: eos1089
 photo.55.commitdate: 2022/7/31
 photo.55.link: https://www.instagram.com/eos1089/
 photo.55.tags: laying down, paws, portrait, sample, whiskers
-photo.56: https://www.instagram.com/p/CiXPZIIpqBS/media/?size=m
+photo.56: ig://CiXPZIIpqBS/m
 photo.56.author: daniele.tokyo
+photo.56.commitdate: 2022/10/11
 photo.56.link: https://www.instagram.com/daniele.tokyo/
 photo.56.tags: lips, peek, sample, techitechi, whiskers
 species: 2

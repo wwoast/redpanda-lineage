@@ -66,8 +66,9 @@ photo.10.author: rossifari
 photo.10.commitdate: 2022/5/27
 photo.10.link: https://www.instagram.com/rossifari/
 photo.10.tags: bamboo, close-up, sample, whiskers
-photo.11: https://www.instagram.com/p/CinY2uYjwCV/media/?size=m
+photo.11: ig://CinY2uYjwCV/m
 photo.11.author: sandiegozoo
+photo.11.commitdate: 2022/10/11
 photo.11.link: https://www.instagram.com/sandiegozoo/
 photo.11.tags: portrait, sample, whiskers
 species: 2

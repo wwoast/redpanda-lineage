@@ -25,8 +25,9 @@ photo.2.author: rossifari
 photo.2.commitdate: 2022/4/26
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: close-up, portrait, tail, whiskers
-photo.3: https://www.instagram.com/p/CinEZU0uFI0/media/?size=m
+photo.3: ig://CinEZU0uFI0/m
 photo.3.author: lincolnchildrenszoo
+photo.3.commitdate: 2022/10/11
 photo.3.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.3.tags: portrait, profile, sample, whiskers
 species: 2
