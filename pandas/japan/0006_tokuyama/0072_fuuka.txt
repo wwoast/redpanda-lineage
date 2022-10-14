@@ -286,15 +286,16 @@ photo.54.author: kojikoji2011
 photo.54.commitdate: 2022/8/26
 photo.54.link: https://www.instagram.com/kojikoji2011/
 photo.54.tags: laying down, portrait, yawn
-photo.55: ig://CikjDtDPa9B/m
-photo.55.author: kojikoji2011
-photo.55.commitdate: 2022/10/7
-photo.55.link: https://www.instagram.com/kojikoji2011/
-photo.55.tags: lips, mofumofu, portrait, sample, whiskers
-photo.56: https://www.instagram.com/p/CiYT2Z1By0J/media/?size=m
-photo.56.author: hamamatsu.chiita
-photo.56.link: https://www.instagram.com/hamamatsu.chiita/
-photo.56.tags: close-up, portrait, sample, whiskers
+photo.55: ig://CiYT2Z1By0J/m
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2022/10/13
+photo.55.link: https://www.instagram.com/hamamatsu.chiita/
+photo.55.tags: close-up, portrait, sample, whiskers
+photo.56: ig://CikjDtDPa9B/m
+photo.56.author: kojikoji2011
+photo.56.commitdate: 2022/10/7
+photo.56.link: https://www.instagram.com/kojikoji2011/
+photo.56.tags: lips, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0663
 zoo: 6

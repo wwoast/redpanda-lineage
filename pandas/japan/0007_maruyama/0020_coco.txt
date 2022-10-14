@@ -1519,15 +1519,16 @@ photo.306.author: leonard_redmof
 photo.306.commitdate: 2022/8/28
 photo.306.link: https://www.instagram.com/leonard_redmof/
 photo.306.tags: peek, portrait, sample, whiskers
-photo.307: ig://CiujJXOPWnH/m
-photo.307.author: komabazoophoto
-photo.307.commitdate: 2022/10/6
-photo.307.link: https://www.instagram.com/komabazoophoto/
-photo.307.tags: laying down, mofumofu, portrait, sample, sleeping
-photo.308: https://www.instagram.com/p/CiU8SlsJ1KR/media/?size=m
-photo.308.author: leonard_redmof
-photo.308.link: https://www.instagram.com/leonard_redmof/
-photo.308.tags: flowers, portrait, sample, whiskers
+photo.307: ig://CiU8SlsJ1KR/m
+photo.307.author: leonard_redmof
+photo.307.commitdate: 2022/10/13
+photo.307.link: https://www.instagram.com/leonard_redmof/
+photo.307.tags: flowers, portrait, sample, whiskers
+photo.308: ig://CiujJXOPWnH/m
+photo.308.author: komabazoophoto
+photo.308.commitdate: 2022/10/6
+photo.308.link: https://www.instagram.com/komabazoophoto/
+photo.308.tags: laying down, mofumofu, portrait, sample, sleeping
 species: 2
 studbook.id: 0674
 zoo: 7

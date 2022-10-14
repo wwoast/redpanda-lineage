@@ -305,19 +305,20 @@ photo.58.author: hamamatsu.chiita
 photo.58.commitdate: 2022/9/4
 photo.58.link: https://www.instagram.com/hamamatsu.chiita/
 photo.58.tags: portrait, sample, whiskers
-photo.59: ig://Cim0omnPUyl/m
-photo.59.author: hamamatsu.chiita
-photo.59.commitdate: 2022/10/7
-photo.59.link: https://www.instagram.com/hamamatsu.chiita/
-photo.59.tags: portrait, sample, tial, whiskers
-photo.60: ig://CiyFxzaBFzU/m
+photo.59: ig://CiUuam_v9wD/m
+photo.59.author: jas_forever_love
+photo.59.commitdate: 2022/10/13
+photo.59.link: https://www.instagram.com/jas_forever_love/
+photo.59.tags: laying down, paws, playing, tail, upside-down
+photo.60: ig://Cim0omnPUyl/m
 photo.60.author: hamamatsu.chiita
-photo.60.commitdate: 2022/10/1
+photo.60.commitdate: 2022/10/7
 photo.60.link: https://www.instagram.com/hamamatsu.chiita/
-photo.60.tags: close-up, sample, whiskers
-photo.61: https://www.instagram.com/p/CiUuam_v9wD/media/?size=m
-photo.61.author: jas_forever_love
-photo.61.link: https://www.instagram.com/jas_forever_love/
-photo.61.tags: laying down, paws, playing, tail, upside-down
+photo.60.tags: portrait, sample, tial, whiskers
+photo.61: ig://CiyFxzaBFzU/m
+photo.61.author: hamamatsu.chiita
+photo.61.commitdate: 2022/10/1
+photo.61.link: https://www.instagram.com/hamamatsu.chiita/
+photo.61.tags: close-up, sample, whiskers
 species: 2
 zoo: 264

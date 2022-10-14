@@ -293,8 +293,9 @@ photo.55.author: mifko55
 photo.55.commitdate: 2022/7/13
 photo.55.link: https://www.instagram.com/mifko55/
 photo.55.tags: home, portrait, sample
-photo.56: https://www.instagram.com/p/CiabWzgppoP/media/?size=m
+photo.56: ig://CiabWzgppoP/m
 photo.56.author: sakikukeco
+photo.56.commitdate: 2022/10/13
 photo.56.link: https://www.instagram.com/sakikukeco/
 photo.56.tags: close-up, portrait, sample, smile, whiskers
 species: 2

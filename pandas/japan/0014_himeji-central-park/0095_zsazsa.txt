@@ -399,8 +399,9 @@ photo.77.author: colette.jp
 photo.77.commitdate: 2022/9/10
 photo.77.link: https://www.instagram.com/colette.jp/
 photo.77.tags: paws, portrait, sample, smile, whiskers
-photo.78: https://www.instagram.com/p/CicdUlbvCc6/media/?size=m
+photo.78: ig://CicdUlbvCc6/m
 photo.78.author: colette.jp
+photo.78.commitdate: 2022/10/13
 photo.78.link: https://www.instagram.com/colette.jp/
 photo.78.tags: paws, portrait, sample, smile, whiskers
 species: 2

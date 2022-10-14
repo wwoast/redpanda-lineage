@@ -377,8 +377,9 @@ photo.73.author: shigeko0531
 photo.73.commitdate: 2022/8/31
 photo.73.link: https://www.instagram.com/shigeko0531/
 photo.73.tags: smile
-photo.74: https://www.instagram.com/p/CibKwo0pxIG/media/?size=m
+photo.74: ig://CibKwo0pxIG/m
 photo.74.author: otenba_redpanda
+photo.74.commitdate: 2022/10/13
 photo.74.link: https://www.instagram.com/otenba_redpanda/
 photo.74.tags: bamboo, paws, portrait, sample, whiskers
 species: 2

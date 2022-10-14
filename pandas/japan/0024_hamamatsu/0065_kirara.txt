@@ -802,8 +802,9 @@ photo.159.author: taka__3428
 photo.159.commitdate: 2022/9/11
 photo.159.link: https://www.instagram.com/taka__3428/
 photo.159.tags: apple time, portrait, sample, whiskers
-photo.160: https://www.instagram.com/p/CiXFqRPpIf8/media/?size=m
+photo.160: ig://CiXFqRPpIf8/m
 photo.160.author: taka__3428
+photo.160.commitdate: 2022/10/13
 photo.160.link: https://www.instagram.com/taka__3428/
 photo.160.tags: apple time, bite, close-up, sample, whiskers
 species: 2

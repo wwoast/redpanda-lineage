@@ -518,15 +518,16 @@ photo.101.author: osaka_tennoji_zoo
 photo.101.commitdate: 2022/10/7
 photo.101.link: https://www.instagram.com/osaka_tennoji_zoo/
 photo.101.tags: close-up, lunch time, paws
-photo.102: ig://CilOX9qB5Ao/m
-photo.102.author: hamamatsu.chiita
-photo.102.commitdate: 2022/9/18
-photo.102.link: https://www.instagram.com/hamamatsu.chiita/
-photo.102.tags: portrait, sample, whiskers
-photo.103: https://www.instagram.com/p/Cicj-E_pWxo/media/?size=m
-photo.103.author: makimaru18
-photo.103.link: https://www.instagram.com/makimaru18/
-photo.103.tags: keeper, mofumofu, portrait, sample
+photo.102: ig://Cicj-E_pWxo/m
+photo.102.author: makimaru18
+photo.102.commitdate: 2022/10/13
+photo.102.link: https://www.instagram.com/makimaru18/
+photo.102.tags: keeper, mofumofu, portrait, sample
+photo.103: ig://CilOX9qB5Ao/m
+photo.103.author: hamamatsu.chiita
+photo.103.commitdate: 2022/9/18
+photo.103.link: https://www.instagram.com/hamamatsu.chiita/
+photo.103.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo
