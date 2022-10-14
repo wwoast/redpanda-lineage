@@ -22,7 +22,7 @@ photo.2: ig://BM9MuzZAZhx/m
 photo.2.author: cincinnatizoo
 photo.2.commitdate: 2018/11/23
 photo.2.link: https://www.instagram.com/cincinnatizoo/
-photo.2.tags: profile, techitechi
+photo.2.tags: sample, techitechi, whiskers
 photo.3: ig://BUcQckHjXSc/m
 photo.3.author: carsontheredpanda
 photo.3.commitdate: 2019/5/30
@@ -93,6 +93,10 @@ photo.16.author: rossifari
 photo.16.commitdate: 2021/6/19
 photo.16.link: https://www.instagram.com/rossifari/
 photo.16.tags: peek, portrait, tongue, whiskers
+photo.17: https://www.instagram.com/p/Cir8qXzsLBT/media/?size=m
+photo.17.author: rossifari
+photo.17.link: https://www.instagram.com/rossifari/
+photo.17.tags: autumn, lips, portrait, profile, sample, whiskers
 species: 2
 studbook.id: 1319
 zoo: 65
