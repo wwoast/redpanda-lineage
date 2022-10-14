@@ -750,8 +750,9 @@ photo.150.author: tomo3700
 photo.150.commitdate: 2022/8/31
 photo.150.link: https://www.instagram.com/tomo3700/
 photo.150.tags: paws, portrait, standing, whiskers
-photo.151: https://www.instagram.com/p/CjKMpokPDj8/media/?size=m
+photo.151: ig://CjKMpokPDj8/m
 photo.151.author: akiakiakiko18
+photo.151.commitdate: 2022/10/13
 photo.151.link: https://www.instagram.com/akiakiakiko18/
 photo.151.tags: close-up, whiskers, window
 species: 2

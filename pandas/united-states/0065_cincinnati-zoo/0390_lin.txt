@@ -93,8 +93,9 @@ photo.16.author: rossifari
 photo.16.commitdate: 2021/6/19
 photo.16.link: https://www.instagram.com/rossifari/
 photo.16.tags: peek, portrait, tongue, whiskers
-photo.17: https://www.instagram.com/p/Cir8qXzsLBT/media/?size=m
+photo.17: ig://Cir8qXzsLBT/m
 photo.17.author: rossifari
+photo.17.commitdate: 2022/10/13
 photo.17.link: https://www.instagram.com/rossifari/
 photo.17.tags: autumn, lips, portrait, profile, sample, whiskers
 species: 2

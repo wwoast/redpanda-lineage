@@ -255,8 +255,9 @@ photo.48.author: miis_98
 photo.48.commitdate: 2022/6/2
 photo.48.link: https://www.instagram.com/miis_98/
 photo.48.tags: peek, sample, smile
-photo.49: https://www.instagram.com/p/CitL_0zPf5r/media/?size=m
+photo.49: ig://CitL_0zPf5r/m
 photo.49.author: yossi929
+photo.49.commitdate: 2022/10/13
 photo.49.link: https://www.instagram.com/yossi929/
 photo.49.tags: grooming, sample, smile, tongue, tree
 species: 2

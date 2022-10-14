@@ -1419,8 +1419,9 @@ photo.282.author: imagoto17
 photo.282.commitdate: 2022/10/6
 photo.282.link: https://www.instagram.com/imagoto17/
 photo.282.tags: sample, smile, whiskers
-photo.283: https://www.instagram.com/p/CjDIey8vRU-/media/?size=m
+photo.283: ig://CjDIey8vRU-/m
 photo.283.author: resapanlove
+photo.283.commitdate: 2022/10/13
 photo.283.link: https://www.instagram.com/resapanlove/
 photo.283.tags: keeper, paws, standing
 species: 2
