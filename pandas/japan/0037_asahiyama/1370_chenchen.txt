@@ -4,14 +4,14 @@ birthday: 2022/7/5
 birthplace: 37
 children: none
 commitdate: 2022/7/14
-en.name: Baby
+en.name: Chen-Chen
 en.nicknames: none
-en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+en.othernames: Chenchen
+gender: f
+jp.name: 茜茜
 jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+jp.othernames: チェンチェン
+language.order: jp, en
 litter: 1371
 species: 2
 zoo: 37

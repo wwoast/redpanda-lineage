@@ -62,7 +62,7 @@ photo.10: ig://BmCKt90Fxl2/m
 photo.10.author: re_ichimaru
 photo.10.commitdate: 2018/8/21
 photo.10.link: https://www.instagram.com/re_ichimaru/
-photo.10.tags: portrait, profile, smile
+photo.10.tags: close-up, portrait, smile
 photo.11: ig://BmjuPeqlKcS/m
 photo.11.author: _rifa_p
 photo.11.commitdate: 2018/8/21
@@ -226,6 +226,10 @@ photo.43.author: kojikoji2011
 photo.43.commitdate: 2022/3/29
 photo.43.link: https://www.instagram.com/kojikoji2011/
 photo.43.tags: paws, sample, tail, whiskers
+photo.44: https://www.instagram.com/p/CjdM_NZvDev/media/?size=m
+photo.44.author: kojikoji2011
+photo.44.link: https://www.instagram.com/kojikoji2011/
+photo.44.tags: portrait, profile, sample, whiskers
 species: 2
 studbook.id: 1783
 zoo: 42
