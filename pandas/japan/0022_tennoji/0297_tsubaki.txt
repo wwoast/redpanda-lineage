@@ -249,8 +249,9 @@ photo.47.author: chankunvv
 photo.47.commitdate: 2022/9/18
 photo.47.link: https://www.instagram.com/chankunvv/
 photo.47.tags: portrait, sample, smile, whiskers
-photo.48: https://www.instagram.com/p/CjnIiBZryUG/media/?size=m
+photo.48: ig://CjnIiBZryUG/m
 photo.48.author: mini_cochi
+photo.48.commitdate: 2022/10/14
 photo.48.link: https://www.instagram.com/mini_cochi/
 photo.48.tags: bamboo, portrait, sample, tongue, whiskers
 species: 2

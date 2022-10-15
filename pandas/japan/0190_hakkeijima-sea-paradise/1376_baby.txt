@@ -53,8 +53,9 @@ photo.8.author: fetorus_mami
 photo.8.commitdate: 2022/10/1
 photo.8.link: https://www.instagram.com/fetorus_mami/
 photo.8.tags: baby, keeper, mofumofu, whiskers
-photo.9: https://www.instagram.com/p/CjXnRJCrprl/media/?size=m
+photo.9: ig://CjXnRJCrprl/m
 photo.9.author: daniele.tokyo
+photo.9.commitdate: 2022/10/14
 photo.9.link: https://www.instagram.com/daniele.tokyo/
 photo.9.tags: baby, close-up, laying down
 species: 2

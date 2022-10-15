@@ -145,8 +145,9 @@ photo.27.author: daniele.tokyo
 photo.27.commitdate: 2022/8/5
 photo.27.link: https://www.instagram.com/daniele.tokyo/
 photo.27.tags: peek, sample, whiskers
-photo.28: https://www.instagram.com/p/CjnECVBLMGl/media/?size=m
+photo.28: ig://CjnECVBLMGl/m
 photo.28.author: daniele.tokyo
+photo.28.commitdate: 2022/10/14
 photo.28.link: https://www.instagram.com/daniele.tokyo/
 photo.28.tags: apple time, close-up, paws, whiskers
 species: 2

@@ -482,8 +482,9 @@ photo.93.author: ruru_maki
 photo.93.commitdate: 2022/10/11
 photo.93.link: https://www.instagram.com/ruru_maki/
 photo.93.tags: paws, portrait, sample, techitechi
-photo.94: https://www.instagram.com/p/CjnIWMoBp7J/media/?size=m
+photo.94: ig://CjnIWMoBp7J/m
 photo.94.author: colette.jp
+photo.94.commitdate: 2022/10/14
 photo.94.link: https://www.instagram.com/colette.jp/
 photo.94.tags: mofumofu, paws, portrait, sample, tongue, wave
 species: 2

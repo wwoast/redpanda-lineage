@@ -226,8 +226,9 @@ photo.43.author: kojikoji2011
 photo.43.commitdate: 2022/3/29
 photo.43.link: https://www.instagram.com/kojikoji2011/
 photo.43.tags: paws, sample, tail, whiskers
-photo.44: https://www.instagram.com/p/CjdM_NZvDev/media/?size=m
+photo.44: ig://CjdM_NZvDev/m
 photo.44.author: kojikoji2011
+photo.44.commitdate: 2022/10/14
 photo.44.link: https://www.instagram.com/kojikoji2011/
 photo.44.tags: portrait, profile, sample, whiskers
 species: 2

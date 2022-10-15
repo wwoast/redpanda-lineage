@@ -13,34 +13,41 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1394
-photo.1: https://www.instagram.com/p/Cjab34ovlKh/media/?size=m
+photo.1: ig://CjNV1zjPR1T/m
 photo.1.author: resapanlove
+photo.1.commitdate: 2022/10/14
 photo.1.link: https://www.instagram.com/resapanlove/
-photo.1.tags: baby, laying down, mofumofu, sample, tree, whiskers
-photo.2: https://www.instagram.com/p/CjahjvnruZN/media/?size=m
-photo.2.author: fetorus_mami
-photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: baby, keeper, mofumofu, paws, sample, tail
-photo.3: https://www.instagram.com/p/CjY9qdSBffI/media/?size=m
-photo.3.author: tomo3700
-photo.3.link: https://www.instagram.com/tomo3700/
-photo.3.tags: baby, bamboo, portrait, sample, tongue
-photo.4: https://www.instagram.com/p/CjWLLVYBtC2/media/?size=m
-photo.4.author: resapanlove
-photo.4.link: https://www.instagram.com/resapanlove/
-photo.4.tags: baby, keeper, mofumofu, sample, tail
-photo.5: https://www.instagram.com/p/CjiVDh9vFGT/media/?size=m
-photo.5.author: sakikukeco
-photo.5.link: https://www.instagram.com/sakikukeco/
-photo.5.tags: baby, paws, sample, tail, yawn
-photo.6: https://www.instagram.com/p/CjTwqIrPRci/media/?size=m
-photo.6.author: resapanlove
-photo.6.link: https://www.instagram.com/resapanlove/
-photo.6.tags: bamboo, mofumofu, sample, tail
-photo.7: https://www.instagram.com/p/CjNV1zjPR1T/media/?size=m
-photo.7.author: resapanlove
-photo.7.link: https://www.instagram.com/resapanlove/
-photo.7.tags: baby, climb, mofumofu, tail
+photo.1.tags: baby, climb, mofumofu, tail
+photo.2: ig://CjTwqIrPRci/m
+photo.2.author: resapanlove
+photo.2.commitdate: 2022/10/14
+photo.2.link: https://www.instagram.com/resapanlove/
+photo.2.tags: bamboo, mofumofu, sample, tail
+photo.3: ig://CjWLLVYBtC2/m
+photo.3.author: resapanlove
+photo.3.commitdate: 2022/10/14
+photo.3.link: https://www.instagram.com/resapanlove/
+photo.3.tags: baby, keeper, mofumofu, sample, tail
+photo.4: ig://CjY9qdSBffI/m
+photo.4.author: tomo3700
+photo.4.commitdate: 2022/10/14
+photo.4.link: https://www.instagram.com/tomo3700/
+photo.4.tags: baby, bamboo, portrait, sample, tongue
+photo.5: ig://Cjab34ovlKh/m
+photo.5.author: resapanlove
+photo.5.commitdate: 2022/10/14
+photo.5.link: https://www.instagram.com/resapanlove/
+photo.5.tags: baby, laying down, mofumofu, sample, tree, whiskers
+photo.6: ig://CjahjvnruZN/m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2022/10/14
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: baby, keeper, mofumofu, paws, sample, tail
+photo.7: ig://CjiVDh9vFGT/m
+photo.7.author: sakikukeco
+photo.7.commitdate: 2022/10/14
+photo.7.link: https://www.instagram.com/sakikukeco/
+photo.7.tags: baby, paws, sample, tail, yawn
 species: 2
 studbook.id: unknown
 zoo: 13

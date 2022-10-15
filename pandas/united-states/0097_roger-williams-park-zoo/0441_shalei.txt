@@ -47,8 +47,9 @@ photo.6.author: rwpzoo
 photo.6.commitdate: 2022/1/18
 photo.6.link: https://www.instagram.com/rwpzoo/
 photo.6.tags: close-up, peek, portrait, techitechi, whiskers
-photo.7: https://www.instagram.com/p/CjSxWEpNsdy/media/?size=m
+photo.7: ig://CjSxWEpNsdy/m
 photo.7.author: rwpzoo
+photo.7.commitdate: 2022/10/14
 photo.7.link: https://www.instagram.com/rwpzoo/
 photo.7.tags: bamboo, paws, portrait, sample
 species: 2
