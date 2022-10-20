@@ -198,8 +198,9 @@ photo.37.author: hamiiiii831_
 photo.37.commitdate: 2022/9/28
 photo.37.link: https://www.instagram.com/hamiiiii831_/
 photo.37.tags: close-up, sample, smile, whiskers
-photo.38: https://www.instagram.com/p/CjfcDvbv_sm/media/?size=m
+photo.38: ig://CjfcDvbv_sm/m
 photo.38.author: hamamatsu.chiita
+photo.38.commitdate: 2022/10/20
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
 photo.38.tags: portrait, sample, smile, whiskers, white face
 species: 2

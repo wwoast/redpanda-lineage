@@ -583,8 +583,9 @@ photo.114.author: jas_forever_love
 photo.114.commitdate: 2022/10/14
 photo.114.link: https://www.instagram.com/jas_forever_love/
 photo.114.tags: portrait, sample, whiskers, white face
-photo.115: https://www.instagram.com/p/CjXnvRlvM68/media/?size=m
+photo.115: ig://CjXnvRlvM68/m
 photo.115.author: resapanlove
+photo.115.commitdate: 2022/10/20
 photo.115.link: https://www.instagram.com/resapanlove/
 photo.115.tags: laying down, paws, sample, sleeping, white face
 species: 2

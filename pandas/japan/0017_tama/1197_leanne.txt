@@ -618,8 +618,9 @@ photo.121.author: alto0908
 photo.121.commitdate: 2022/10/14
 photo.121.link: https://www.instagram.com/alto0908/
 photo.121.tags: flowers, peek, tree
-photo.122: https://www.instagram.com/p/CjNSZ0qP-OM/media/?size=m
+photo.122: ig://CjNSZ0qP-OM/m
 photo.122.author: osopanda551
+photo.122.commitdate: 2022/10/20
 photo.122.link: https://www.instagram.com/osopanda551/
 photo.122.tags: portrait, sample, tail
 species: 2

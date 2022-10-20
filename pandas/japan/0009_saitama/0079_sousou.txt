@@ -146,7 +146,7 @@ photo.27: ig://BzqOzmDhYDg/m
 photo.27.author: resapanlove
 photo.27.commitdate: 2019/7/9
 photo.27.link: https://www.instagram.com/resapanlove/
-photo.27.tags: baby, keeper
+photo.27.tags: baby, bottle, keeper, paws, whiskers
 photo.28: ig://B0f2QPIBagi/m
 photo.28.author: ssc6105
 photo.28.commitdate: 2019/7/30
@@ -330,10 +330,6 @@ photo.64.author: fetorus_mami
 photo.64.commitdate: 2022/7/31
 photo.64.link: https://www.instagram.com/fetorus_mami/
 photo.64.tags: paws, peek, whiskers
-photo.65: https://www.instagram.com/p/BzqOzmDhYDg/media/?size=m
-photo.65.author: resapanlove
-photo.65.link: https://www.instagram.com/resapanlove/
-photo.65.tags: bottle, keeper, paws, whiskers
 species: 2
 studbook.id: 12112
 zoo: 9

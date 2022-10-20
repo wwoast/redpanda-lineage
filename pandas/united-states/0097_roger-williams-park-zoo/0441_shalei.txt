@@ -52,8 +52,9 @@ photo.7.author: rwpzoo
 photo.7.commitdate: 2022/10/14
 photo.7.link: https://www.instagram.com/rwpzoo/
 photo.7.tags: bamboo, paws, portrait, sample
-photo.8: https://www.instagram.com/p/CjaPkimgA3_/media/?size=m
+photo.8: ig://CjaPkimgA3_/m
 photo.8.author: rossifari
+photo.8.commitdate: 2022/10/20
 photo.8.link: https://www.instagram.com/rossifari/
 photo.8.tags: sample, smile, tongue
 species: 2

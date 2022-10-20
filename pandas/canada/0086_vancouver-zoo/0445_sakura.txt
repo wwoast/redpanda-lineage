@@ -251,8 +251,9 @@ photo.47.author: westcoast_kathy
 photo.47.commitdate: 2022/7/28
 photo.47.link: https://www.instagram.com/westcoast_kathy/
 photo.47.tags: nose, whiskers
-photo.48: https://www.instagram.com/p/Cjb__s3LAO9/media/?size=m
+photo.48: ig://Cjb__s3LAO9/m
 photo.48.author: westcoast_kathy
+photo.48.commitdate: 2022/10/20
 photo.48.link: https://www.instagram.com/westcoast_kathy/
 photo.48.tags: close-up, paws, peek, portrait, sample, whiskers
 species: 2

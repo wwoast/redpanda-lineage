@@ -150,8 +150,9 @@ photo.27.author: rossifari
 photo.27.commitdate: 2022/9/24
 photo.27.link: https://www.instagram.com/rossifari/
 photo.27.tags: portrait, sample, whiskers
-photo.28: https://www.instagram.com/p/CjiBXAtsqNG/media/?size=m
+photo.28: ig://CjiBXAtsqNG/m
 photo.28.author: rossifari
+photo.28.commitdate: 2022/10/20
 photo.28.link: https://www.instagram.com/rossifari/
 photo.28.tags: air tasting, portrait, sample, tongue, whiskers
 species: 1

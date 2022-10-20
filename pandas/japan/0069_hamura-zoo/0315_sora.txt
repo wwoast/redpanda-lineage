@@ -639,34 +639,36 @@ photo.125.author: otenba_redpanda
 photo.125.commitdate: 2022/8/18
 photo.125.link: https://www.instagram.com/otenba_redpanda/
 photo.125.tags: apple time, bite, home, paws, sample, smile, standing
-photo.126: ig://CiFowJkhLT_/m
-photo.126.author: fetorus_mami
-photo.126.commitdate: 2022/9/7
-photo.126.link: https://www.instagram.com/fetorus_mami/
-photo.126.tags: apple time, close-up, paws, standing, tongue
-photo.127: ig://CiQG2uQhcts/m
-photo.127.author: eos1089
-photo.127.commitdate: 2022/9/11
-photo.127.link: https://www.instagram.com/eos1089/
-photo.127.tags: close-up, peek, portrait, sample, toys
-photo.128: ig://CiQ61O5v6L-/m
-photo.128.author: miis_98
-photo.128.commitdate: 2022/9/11
-photo.128.link: https://www.instagram.com/miis_98/
-photo.128.tags: keeper, paws, sample, standing
-photo.129: ig://CjS4H_ArZoT/m
-photo.129.author: mini_cochi
-photo.129.commitdate: 2022/10/14
-photo.129.link: https://www.instagram.com/mini_cochi/
-photo.129.tags: bite, flowers, mofumofu, paws, portrait, sample, tongue, tree, whiskers
-photo.130: https://www.instagram.com/p/CiAbVVarG2c/media/?size=m
-photo.130.author: ifumoto88
-photo.130.link: https://www.instagram.com/ifumoto88/
-photo.130.tags: portrait, sample, smile, tail, tree
-photo.131: https://www.instagram.com/p/CiDNAx3Phwe/media/?size=m
-photo.131.author: miis_98
-photo.131.link: https://www.instagram.com/miis_98/
-photo.131.tags: apple time, portrait, sample, smile, toys
+photo.126: ig://CiAbVVarG2c/m
+photo.126.author: ifumoto88
+photo.126.commitdate: 2022/10/20
+photo.126.link: https://www.instagram.com/ifumoto88/
+photo.126.tags: portrait, sample, smile, tail, tree
+photo.127: ig://CiDNAx3Phwe/m
+photo.127.author: miis_98
+photo.127.commitdate: 2022/10/20
+photo.127.link: https://www.instagram.com/miis_98/
+photo.127.tags: apple time, portrait, sample, smile, toys
+photo.128: ig://CiFowJkhLT_/m
+photo.128.author: fetorus_mami
+photo.128.commitdate: 2022/9/7
+photo.128.link: https://www.instagram.com/fetorus_mami/
+photo.128.tags: apple time, close-up, paws, standing, tongue
+photo.129: ig://CiQG2uQhcts/m
+photo.129.author: eos1089
+photo.129.commitdate: 2022/9/11
+photo.129.link: https://www.instagram.com/eos1089/
+photo.129.tags: close-up, peek, portrait, sample, toys
+photo.130: ig://CiQ61O5v6L-/m
+photo.130.author: miis_98
+photo.130.commitdate: 2022/9/11
+photo.130.link: https://www.instagram.com/miis_98/
+photo.130.tags: keeper, paws, sample, standing
+photo.131: ig://CjS4H_ArZoT/m
+photo.131.author: mini_cochi
+photo.131.commitdate: 2022/10/14
+photo.131.link: https://www.instagram.com/mini_cochi/
+photo.131.tags: bite, flowers, mofumofu, paws, portrait, sample, tongue, tree, whiskers
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

@@ -663,23 +663,26 @@ photo.130.author: gloryeui
 photo.130.commitdate: 2022/10/6
 photo.130.link: https://www.instagram.com/gloryeui/
 photo.130.tags: portrait, sample, smile, whiskers
-photo.131: ig://CjSiF3RvDai/m
-photo.131.author: resapanlove
-photo.131.commitdate: 2022/10/14
-photo.131.link: https://www.instagram.com/resapanlove/
-photo.131.tags: laying down, portrait, sample, tongue
-photo.132: https://www.instagram.com/p/CjgDhuyPCZ9/media/?size=m
-photo.132.author: sakikukeco
-photo.132.link: https://www.instagram.com/sakikukeco/
-photo.132.tags: portrait, sample, smile, whiskers
-photo.133: https://www.instagram.com/p/CjOYGcZhadC/media/?size=m
-photo.133.author: hamamatsu.chiita
-photo.133.link: https://www.instagram.com/hamamatsu.chiita/
-photo.133.tags: grumpy, portrait, sample
-photo.134: https://www.instagram.com/p/CjVD5ZxvJuU/media/?size=m
-photo.134.author: _sah_ax7
-photo.134.link: https://www.instagram.com/_sah_ax7/
-photo.134.tags: peek, tail
+photo.131: ig://CjOYGcZhadC/m
+photo.131.author: hamamatsu.chiita
+photo.131.commitdate: 2022/10/20
+photo.131.link: https://www.instagram.com/hamamatsu.chiita/
+photo.131.tags: grumpy, portrait, sample
+photo.132: ig://CjSiF3RvDai/m
+photo.132.author: resapanlove
+photo.132.commitdate: 2022/10/14
+photo.132.link: https://www.instagram.com/resapanlove/
+photo.132.tags: laying down, portrait, sample, tongue
+photo.133: ig://CjVD5ZxvJuU/m
+photo.133.author: _sah_ax7
+photo.133.commitdate: 2022/10/20
+photo.133.link: https://www.instagram.com/_sah_ax7/
+photo.133.tags: peek, tail
+photo.134: ig://CjgDhuyPCZ9/m
+photo.134.author: sakikukeco
+photo.134.commitdate: 2022/10/20
+photo.134.link: https://www.instagram.com/sakikukeco/
+photo.134.tags: portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13

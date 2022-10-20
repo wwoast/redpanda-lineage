@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1387
-photo.1: https://www.instagram.com/p/CjaU9wHM_yO/media/?size=m
+photo.1: ig://CjaU9wHM_yO/m
 photo.1.author: nathalie.elliott
+photo.1.commitdate: 2022/10/20
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: baby, mofumofu, paws, portrait, whiskers
 species: 1

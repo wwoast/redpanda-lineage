@@ -544,8 +544,9 @@ photo.107.author: pink.b22
 photo.107.commitdate: 2022/10/6
 photo.107.link: https://www.instagram.com/pink.b22/
 photo.107.tags: old, paws, portrait, sample, smile, whiskers
-photo.108: https://www.instagram.com/p/Cjc3UF6rfip/media/?size=m
+photo.108: ig://Cjc3UF6rfip/m
 photo.108.author: ifumoto88
+photo.108.commitdate: 2022/10/20
 photo.108.link: https://www.instagram.com/ifumoto88/
 photo.108.tags: close-up, paws, sample, whiskers
 species: 2
