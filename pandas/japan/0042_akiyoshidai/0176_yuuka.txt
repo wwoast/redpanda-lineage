@@ -696,20 +696,21 @@ photo.137.author: kojikoji2011
 photo.137.commitdate: 2022/9/7
 photo.137.link: https://www.instagram.com/kojikoji2011/
 photo.137.tags: paws, portrait, sample, smile, tail
-photo.138: ig://CjRspdHPJUk/m
-photo.138.author: re_ichimaru
-photo.138.commitdate: 2022/10/14
-photo.138.link: https://www.instagram.com/re_ichimaru/
-photo.138.tags: curly, door, sample, standing, tail, upside-down
-photo.139: ig://Cjjvq4PBy45/m
+photo.138: ig://CjQAECIvcju/m
+photo.138.author: monmon_redpanda
+photo.138.commitdate: 2022/10/20
+photo.138.link: https://www.instagram.com/monmon_redpanda/
+photo.138.tags: apple time, curly, portrait, sample, tail, tongue, window
+photo.139: ig://CjRspdHPJUk/m
 photo.139.author: re_ichimaru
-photo.139.commitdate: 2022/10/20
+photo.139.commitdate: 2022/10/14
 photo.139.link: https://www.instagram.com/re_ichimaru/
-photo.139.tags: paws, sample, smile, tongue, whiskers
-photo.140: https://www.instagram.com/p/CjQAECIvcju/media/?size=m
-photo.140.author: monmon_redpanda
-photo.140.link: https://www.instagram.com/monmon_redpanda/
-photo.140.tags: apple time, curly, portrait, sample, tail, tongue, window
+photo.139.tags: curly, door, sample, standing, tail, upside-down
+photo.140: ig://Cjjvq4PBy45/m
+photo.140.author: re_ichimaru
+photo.140.commitdate: 2022/10/20
+photo.140.link: https://www.instagram.com/re_ichimaru/
+photo.140.tags: paws, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 1695
 zoo: 42

@@ -95,70 +95,71 @@ photo.16.author: wumpwoast
 photo.16.commitdate: 2018/7/26
 photo.16.link: https://www.instagram.com/wumpwoast/
 photo.16.tags: laying down
-photo.17: ig://BmUrNnyntyO/m
-photo.17.author: zookeeper_aj
-photo.17.commitdate: 2018/9/13
-photo.17.link: https://www.instagram.com/zookeeper_aj/
-photo.17.tags: profile
-photo.18: ig://Bm1fxbeHjgx/m
+photo.17: ig://BlPZuHnl982/m
+photo.17.author: wumpwoast
+photo.17.commitdate: 2022/10/20
+photo.17.link: https://www.instagram.com/wumpwoast/
+photo.17.tags: bamboo, dish, peek
+photo.18: ig://BmUrNnyntyO/m
 photo.18.author: zookeeper_aj
-photo.18.commitdate: 2020/4/1
+photo.18.commitdate: 2018/9/13
 photo.18.link: https://www.instagram.com/zookeeper_aj/
-photo.18.tags: paws, peek
-photo.19: ig://BnxSyIbHky1/m
+photo.18.tags: profile
+photo.19: ig://Bm1fxbeHjgx/m
 photo.19.author: zookeeper_aj
-photo.19.commitdate: 2018/9/16
+photo.19.commitdate: 2020/4/1
 photo.19.link: https://www.instagram.com/zookeeper_aj/
-photo.19.tags: paws
-photo.20: ig://BoLgH_RFljz/m
-photo.20.author: wumpwoast
-photo.20.commitdate: 2019/11/1
-photo.20.link: https://www.instagram.com/wumpwoast/
-photo.20.tags: laying down, portrait, sleeping
-photo.21: ig://BpfEjwxhnBn/m
-photo.21.author: alyss_or_rose
-photo.21.commitdate: 2020/5/25
-photo.21.link: https://www.instagram.com/alyss_or_rose/
-photo.21.tags: paws, pumpkin
-photo.22: ig://Bqd7qoHBLKx/m
-photo.22.author: zookeeper_aj
-photo.22.commitdate: 2018/11/21
-photo.22.link: https://www.instagram.com/zookeeper_aj/
-photo.22.tags: lunch time
-photo.23: ig://BsBx1kWhGqM/m
+photo.19.tags: paws, peek
+photo.20: ig://BnxSyIbHky1/m
+photo.20.author: zookeeper_aj
+photo.20.commitdate: 2018/9/16
+photo.20.link: https://www.instagram.com/zookeeper_aj/
+photo.20.tags: paws
+photo.21: ig://BoLgH_RFljz/m
+photo.21.author: wumpwoast
+photo.21.commitdate: 2019/11/1
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: laying down, portrait, sleeping
+photo.22: ig://BpfEjwxhnBn/m
+photo.22.author: alyss_or_rose
+photo.22.commitdate: 2020/5/25
+photo.22.link: https://www.instagram.com/alyss_or_rose/
+photo.22.tags: paws, pumpkin
+photo.23: ig://Bqd7qoHBLKx/m
 photo.23.author: zookeeper_aj
-photo.23.commitdate: 2020/4/1
+photo.23.commitdate: 2018/11/21
 photo.23.link: https://www.instagram.com/zookeeper_aj/
-photo.23.tags: laying down, peek
-photo.24: ig://BuWUmmigcw5/m
+photo.23.tags: lunch time
+photo.24: ig://BsBx1kWhGqM/m
 photo.24.author: zookeeper_aj
-photo.24.commitdate: 2019/3/9
+photo.24.commitdate: 2020/4/1
 photo.24.link: https://www.instagram.com/zookeeper_aj/
-photo.24.tags: bamboo
-photo.25: ig://BvFz66pAsdE/m
+photo.24.tags: laying down, peek
+photo.25: ig://BuWUmmigcw5/m
 photo.25.author: zookeeper_aj
-photo.25.commitdate: 2019/3/21
+photo.25.commitdate: 2019/3/9
 photo.25.link: https://www.instagram.com/zookeeper_aj/
-photo.25.tags: paws
-photo.26: ig://BxZLlhxFlut/m
-photo.26.author: wumpwoast
-photo.26.commitdate: 2020/6/18
-photo.26.link: https://www.instagram.com/wumpwoast/
-photo.26.tags: bamboo, lunch time, paws, portrait
-photo.27: ig://B2PgDJll_wa/m
-photo.27.author: hhpzoo
-photo.27.commitdate: 2019/9/14
-photo.27.link: https://www.instagram.com/hhpzoo/
-photo.27.tags: lunchtime, portrait, white face
-photo.28: ig://CgetQ9UL7iO/m
-photo.28.author: wumpwoast
-photo.28.commitdate: 2022/8/5
-photo.28.link: https://www.instagram.com/wumpwoast/
-photo.28.tags: close-up, door, paws, sample
-photo.29: https://www.instagram.com/p/BlPZuHnl982/media/?size=m
+photo.25.tags: bamboo
+photo.26: ig://BvFz66pAsdE/m
+photo.26.author: zookeeper_aj
+photo.26.commitdate: 2019/3/21
+photo.26.link: https://www.instagram.com/zookeeper_aj/
+photo.26.tags: paws
+photo.27: ig://BxZLlhxFlut/m
+photo.27.author: wumpwoast
+photo.27.commitdate: 2020/6/18
+photo.27.link: https://www.instagram.com/wumpwoast/
+photo.27.tags: bamboo, lunch time, paws, portrait
+photo.28: ig://B2PgDJll_wa/m
+photo.28.author: hhpzoo
+photo.28.commitdate: 2019/9/14
+photo.28.link: https://www.instagram.com/hhpzoo/
+photo.28.tags: lunchtime, portrait, white face
+photo.29: ig://CgetQ9UL7iO/m
 photo.29.author: wumpwoast
+photo.29.commitdate: 2022/8/5
 photo.29.link: https://www.instagram.com/wumpwoast/
-photo.29.tags: bamboo, dish, peek 
+photo.29.tags: close-up, door, paws, sample
 species: 1
 studbook.id: 1109
 zoo: 152

@@ -723,15 +723,16 @@ photo.143.author: ssc6105
 photo.143.commitdate: 2022/8/30
 photo.143.link: https://www.instagram.com/ssc6105/
 photo.143.tags: paws, peek, sample, spider
-photo.144: ig://CjfinRovMeo/m
-photo.144.author: panda.daisuki
+photo.144: ig://CjVVfZOrzJE/m
+photo.144.author: ifumoto88
 photo.144.commitdate: 2022/10/20
-photo.144.link: https://www.instagram.com/panda.daisuki/
-photo.144.tags: portrait, sample, whiskers
-photo.145: https://www.instagram.com/p/CjVVfZOrzJE/media/?size=m
-photo.145.author: ifumoto88
-photo.145.link: https://www.instagram.com/ifumoto88/
-photo.145.tags: peek, standing
+photo.144.link: https://www.instagram.com/ifumoto88/
+photo.144.tags: peek, standing
+photo.145: ig://CjfinRovMeo/m
+photo.145.author: panda.daisuki
+photo.145.commitdate: 2022/10/20
+photo.145.link: https://www.instagram.com/panda.daisuki/
+photo.145.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 13146
 zoo: 1

@@ -664,15 +664,16 @@ photo.130.author: miis_98
 photo.130.commitdate: 2022/9/11
 photo.130.link: https://www.instagram.com/miis_98/
 photo.130.tags: keeper, paws, sample, standing
-photo.131: ig://CjS4H_ArZoT/m
-photo.131.author: mini_cochi
-photo.131.commitdate: 2022/10/14
-photo.131.link: https://www.instagram.com/mini_cochi/
-photo.131.tags: bite, flowers, mofumofu, paws, portrait, sample, tongue, tree, whiskers
-photo.132: https://www.instagram.com/p/CjMQV-UvAbz/media/?size=m
-photo.132.author: redpan22
-photo.132.link: https://www.instagram.com/redpan22/
-photo.132.tags: ear, mofumofu, sample, tongue, tree, whiskers
+photo.131: ig://CjMQV-UvAbz/m
+photo.131.author: redpan22
+photo.131.commitdate: 2022/10/20
+photo.131.link: https://www.instagram.com/redpan22/
+photo.131.tags: ear, mofumofu, sample, tongue, tree, whiskers
+photo.132: ig://CjS4H_ArZoT/m
+photo.132.author: mini_cochi
+photo.132.commitdate: 2022/10/14
+photo.132.link: https://www.instagram.com/mini_cochi/
+photo.132.tags: bite, flowers, mofumofu, paws, portrait, sample, tongue, tree, whiskers
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI
