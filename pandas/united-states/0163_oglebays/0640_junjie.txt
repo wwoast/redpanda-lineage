@@ -31,8 +31,9 @@ photo.3.author: rossifari
 photo.3.commitdate: 2021/10/10
 photo.3.link: https://www.instagram.com/rossifari/
 photo.3.tags: home, laying down, portrait, whiskers
-photo.4: https://www.instagram.com/p/CV31YtMrIhB/media/?size=m
+photo.4: ig://CV31YtMrIhB/m
 photo.4.author: worldthathesees
+photo.4.commitdate: 2022/10/24
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: laying down, whiskers
 species: 1

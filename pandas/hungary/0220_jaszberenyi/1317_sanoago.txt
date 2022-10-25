@@ -39,8 +39,9 @@ photo.4.author: balathruin
 photo.4.commitdate: 2021/9/23
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: ear, eye, muzzle, nose
-photo.5: https://www.instagram.com/p/CW1DPKYMa0M/media/?size=m
+photo.5: ig://CW1DPKYMa0M/m
 photo.5.author: balathruin
+photo.5.commitdate: 2022/10/24
 photo.5.link: https://www.instagram.com/balathruin/
 photo.5.tags: baby, mofumofu, portrait, whiskers
 species: 1

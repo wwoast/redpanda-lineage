@@ -61,8 +61,9 @@ photo.8.author: nathalie.elliott
 photo.8.commitdate: 2021/9/7
 photo.8.link: https://www.instagram.com/nathalie.elliott/
 photo.8.tags: paws, portrait, tail
-photo.9: https://www.instagram.com/nathalie.elliott/p/CXrTq2YMd6K/media/?size=m
+photo.9: ig://nathalie.elliott/CXrTq2YMd6K/m
 photo.9.author: nathalie.elliott
+photo.9.commitdate: 2022/10/24
 photo.9.link: https://www.instagram.com/nathalie.elliott/
 photo.9.tags: paws, portrait, tail, tongue
 species: 1
