@@ -711,10 +711,11 @@ photo.140.author: re_ichimaru
 photo.140.commitdate: 2022/10/20
 photo.140.link: https://www.instagram.com/re_ichimaru/
 photo.140.tags: paws, sample, smile, tongue, whiskers
-photo.141: https://www.instagram.com/p/CkHy1ABhnxG/media/?size=m
+photo.141: ig://CkHy1ABhnxG/m
 photo.141.author: re_ichimaru
+photo.141.commitdate: 2022/10/24
 photo.141.link: https://www.instagram.com/re_ichimaru/
-photo.141.tags: curly, flowers, paws, tail, toys 
+photo.141.tags: curly, flowers, paws, tail, toys
 species: 2
 studbook.id: 1695
 zoo: 42
