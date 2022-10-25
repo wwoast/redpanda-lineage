@@ -23,12 +23,12 @@ photo.1: ig://CRquZEzhFf8/m
 photo.1.author: balathruin
 photo.1.commitdate: 2021/9/17
 photo.1.link: https://www.instagram.com/balathruin/
-photo.1.tags: siblings, home, ear, sleeping
+photo.1.tags: ear, home, siblings, sleeping
 photo.2: ig://CSeNvMuMT-m/m
 photo.2.author: balathruin
 photo.2.commitdate: 2021/9/17
 photo.2.link: https://www.instagram.com/balathruin/
-photo.2.tags: siblings, home, ear, eye
+photo.2.tags: ear, eye, home, siblings
 photo.3: ig://CUFdMbBMF7l/m
 photo.3.author: balathruin
 photo.3.commitdate: 2021/9/23
@@ -38,6 +38,10 @@ photo.4: ig://CUGlG4Do8H2/m
 photo.4.author: balathruin
 photo.4.commitdate: 2021/9/23
 photo.4.link: https://www.instagram.com/balathruin/
-photo.4.tags: ear, eye, nose, muzzle
+photo.4.tags: ear, eye, muzzle, nose
+photo.5: https://www.instagram.com/p/CW1DPKYMa0M/media/?size=m
+photo.5.author: balathruin
+photo.5.link: https://www.instagram.com/balathruin/
+photo.5.tags: baby, mofumofu, portrait, whiskers
 species: 1
 zoo: 220

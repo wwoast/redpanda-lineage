@@ -16,6 +16,10 @@ language.order: en, jp
 litter: 521
 location.1: 124, 2011/7/3
 location.2: 126, 2012/5/31
+photo.1: https://www.instagram.com/p/CXJ2IesJlKN/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: blink, tail, tree
 species: 1
 studbook.id: 1101
 zoo: 126
