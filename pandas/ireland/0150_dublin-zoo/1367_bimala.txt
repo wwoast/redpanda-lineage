@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 257, 2021/6/1
+location.2: 150, 2022/6/29
 photo.1: ig://CdyDpReMd9z/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/7/1
@@ -33,6 +35,18 @@ photo.4.author: seelviahhtaz
 photo.4.commitdate: 2022/7/1
 photo.4.link: https://www.instagram.com/seelviahhtaz/
 photo.4.tags: flowers, nose, whiskers
+photo.5: https://www.instagram.com/p/CiQnyjyMquX/media/?size=m
+photo.5.author: seelviahhtaz
+photo.5.link: https://www.instagram.com/seelviahhtaz/
+photo.5.tags: peek, whiskers
+photo.6: https://www.instagram.com/p/Ce8m3jpscAZ/media/?size=m
+photo.6.author: seelviahhtaz
+photo.6.link: https://www.instagram.com/seelviahhtaz/
+photo.6.tags: laying down, tree, whiskers, white face
+photo.7: https://www.instagram.com/p/CiBRR-NMNQT/media/?size=m
+photo.7.author: seelviahhtaz
+photo.7.link: https://www.instagram.com/seelviahhtaz/
+photo.7.tags: bamboo, mofumofu
 species: 1
-uncertainty: birthday
-zoo: 257
+uncertainty: birthday in june 2021
+zoo: 150
