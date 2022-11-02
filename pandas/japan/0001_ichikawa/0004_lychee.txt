@@ -358,20 +358,21 @@ photo.69.author: ifumoto88
 photo.69.commitdate: 2022/6/3
 photo.69.link: https://www.instagram.com/ifumoto88/
 photo.69.tags: bamboo, close-up, portrait, shoots, tongue, whiskers
-photo.70: ig://CfMcHrFvfzc/m
-photo.70.author: eos1089
-photo.70.commitdate: 2022/7/31
-photo.70.link: https://www.instagram.com/eos1089/
-photo.70.tags: portrait, sample, tongue, whiskers
-photo.71: ig://CiFR4W_BCjI/m
-photo.71.author: craig_craig_craig
-photo.71.commitdate: 2022/9/7
-photo.71.link: https://www.instagram.com/craig_craig_craig/
-photo.71.tags: close-up, eye, mofumofu, sample
-photo.72: https://www.instagram.com/p/CdmgnnpPvRQ/media/?size=m
-photo.72.author: na.mo.pan
-photo.72.link: https://www.instagram.com/na.mo.pan/
-photo.72.tags: eye, smile, whiskers
+photo.70: ig://CdmgnnpPvRQ/m
+photo.70.author: na.mo.pan
+photo.70.commitdate: 2022/11/2
+photo.70.link: https://www.instagram.com/na.mo.pan/
+photo.70.tags: eye, smile, whiskers
+photo.71: ig://CfMcHrFvfzc/m
+photo.71.author: eos1089
+photo.71.commitdate: 2022/7/31
+photo.71.link: https://www.instagram.com/eos1089/
+photo.71.tags: portrait, sample, tongue, whiskers
+photo.72: ig://CiFR4W_BCjI/m
+photo.72.author: craig_craig_craig
+photo.72.commitdate: 2022/9/7
+photo.72.link: https://www.instagram.com/craig_craig_craig/
+photo.72.tags: close-up, eye, mofumofu, sample
 species: 2
 studbook.id: 0558
 zoo: 1

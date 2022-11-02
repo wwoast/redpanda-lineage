@@ -569,15 +569,16 @@ photo.111.author: otenba_redpanda
 photo.111.commitdate: 2022/8/26
 photo.111.link: https://www.instagram.com/otenba_redpanda/
 photo.111.tags: portrait, sample, whiskers
-photo.112: ig://Ch7Qp7PrtPF/m
-photo.112.author: mini_cochi
-photo.112.commitdate: 2022/9/8
-photo.112.link: https://www.instagram.com/mini_cochi/
-photo.112.tags: mofumofu, portrait, sample
-photo.113: https://www.instagram.com/p/ChqQSlOsCiN/media/?size=m
-photo.113.author: otenba_redpanda
-photo.113.link: https://www.instagram.com/otenba_redpanda/
-photo.113.tags: close-up, mofumofu, paws, sample, whiskers
+photo.112: ig://ChqQSlOsCiN/m
+photo.112.author: otenba_redpanda
+photo.112.commitdate: 2022/11/2
+photo.112.link: https://www.instagram.com/otenba_redpanda/
+photo.112.tags: close-up, mofumofu, paws, sample, whiskers
+photo.113: ig://Ch7Qp7PrtPF/m
+photo.113.author: mini_cochi
+photo.113.commitdate: 2022/9/8
+photo.113.link: https://www.instagram.com/mini_cochi/
+photo.113.tags: mofumofu, portrait, sample
 species: 2
 studbook.id: 1775
 zoo: 143

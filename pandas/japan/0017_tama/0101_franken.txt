@@ -653,19 +653,21 @@ photo.128.author: ssc6105
 photo.128.commitdate: 2022/8/18
 photo.128.link: https://www.instagram.com/ssc6105/
 photo.128.tags: paws, smile, whiskers
-photo.129: ig://Ch4SqbtOo43/m
+photo.129: ig://ChkBXyAr5bI/m
 photo.129.author: mini_cochi
-photo.129.commitdate: 2022/9/8
+photo.129.commitdate: 2022/11/2
 photo.129.link: https://www.instagram.com/mini_cochi/
-photo.129.tags: laying down, paws, portrait, sample, smile, tail, tree, whiskers
-photo.130: https://www.instagram.com/p/ChkBXyAr5bI/media/?size=m
-photo.130.author: mini_cochi
-photo.130.link: https://www.instagram.com/mini_cochi/
-photo.130.tags: paws, portrait, sample, tree, whiskers
-photo.131: https://www.instagram.com/p/ChlD08xBh9w/media/?size=m
-photo.131.author: ck.chie
-photo.131.link: https://www.instagram.com/ck.chie/
-photo.131.tags: door, paws, sample, whiskers
+photo.129.tags: paws, portrait, sample, tree, whiskers
+photo.130: ig://ChlD08xBh9w/m
+photo.130.author: ck.chie
+photo.130.commitdate: 2022/11/2
+photo.130.link: https://www.instagram.com/ck.chie/
+photo.130.tags: door, paws, sample, whiskers
+photo.131: ig://Ch4SqbtOo43/m
+photo.131.author: mini_cochi
+photo.131.commitdate: 2022/9/8
+photo.131.link: https://www.instagram.com/mini_cochi/
+photo.131.tags: laying down, paws, portrait, sample, smile, tail, tree, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17
