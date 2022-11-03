@@ -16,6 +16,8 @@ jp.nicknames: none
 jp.othernames: まるみ
 language.order: jp, en
 litter: none
+location.1: 7, 2016/6/15
+location.2: 26, 2022/11/2
 photo.1: ig://BMg7xH-DkZT/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/30
@@ -2547,4 +2549,4 @@ photo.508.link: https://www.instagram.com/leonard_redmof/
 photo.508.tags: portrait, sample, smile, whiskers
 species: 2
 studbook.id: 1676
-zoo: 7
+zoo: 26
