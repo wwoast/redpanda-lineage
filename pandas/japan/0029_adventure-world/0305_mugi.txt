@@ -936,8 +936,9 @@ photo.185.author: chankunvv
 photo.185.commitdate: 2022/7/9
 photo.185.link: https://www.instagram.com/chankunvv/
 photo.185.tags: bridge, laying down, paws, peek, portrait
-photo.186: https://www.instagram.com/p/CkdRwKmPIy9/media/?size=m
+photo.186: ig://CkdRwKmPIy9/m
 photo.186.author: monmon_redpanda
+photo.186.commitdate: 2022/11/4
 photo.186.link: https://www.instagram.com/monmon_redpanda/
 photo.186.tags: dish, lunch time, nose, portrait, sample, smile, whiskers
 species: 2

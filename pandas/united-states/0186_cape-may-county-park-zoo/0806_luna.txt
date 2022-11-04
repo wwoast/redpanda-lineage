@@ -164,11 +164,11 @@ photo.29.author: carsontheredpanda
 photo.29.commitdate: 2022/10/11
 photo.29.link: https://www.instagram.com/carsontheredpanda/
 photo.29.tags: close-up, door, mofumofu, paws, portrait, sample, white face
-photo.30: https://www.codaworry.com/images/rpf/luna-16-capemay.jpg
-photo.30.author: aimless_amos
-photo.30.commitdate: 2021/6/25
-photo.30.link: https://www.instagram.com/aimless_amos/
-photo.30.tags: portrait, snow, tail
+photo.30: ig://Ckbkb1qyHnO/m
+photo.30.author: carsontheredpanda
+photo.30.commitdate: 2022/11/4
+photo.30.link: https://www.instagram.com/carsontheredpanda/
+photo.30.tags: lunch time, old, portrait, sample
 photo.31: https://www.codaworry.com/images/rpf/luna-17-capemay.jpg
 photo.31.author: aimless_amos
 photo.31.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/Ckbkb1qyHnO/media/?size=m
-photo.63.author: carsontheredpanda
-photo.63.link: https://www.instagram.com/carsontheredpanda/
-photo.63.tags: lunch time, old, portrait, sample
 species: 1
 studbook.id: 0105
 zoo: 186

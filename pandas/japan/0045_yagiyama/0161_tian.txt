@@ -399,8 +399,9 @@ photo.77.author: eos1089
 photo.77.commitdate: 2022/7/31
 photo.77.link: https://www.instagram.com/eos1089/
 photo.77.tags: door, peek, portrait, standing, tail
-photo.78: https://www.instagram.com/p/Cjy-Ol1rJQ1/media/?size=m
+photo.78: ig://Cjy-Ol1rJQ1/m
 photo.78.author: hidehaya_biei
+photo.78.commitdate: 2022/11/4
 photo.78.link: https://www.instagram.com/hidehaya_biei/
 photo.78.tags: bamboo, paws, sample, whiskers
 species: 2

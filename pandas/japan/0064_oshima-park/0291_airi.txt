@@ -75,8 +75,9 @@ photo.12.author: grskus_tk
 photo.12.commitdate: 2022/6/29
 photo.12.link: https://www.instagram.com/grskus_tk/
 photo.12.tags: peek
-photo.13: https://www.instagram.com/p/CjxO31aB6sm/media/?size=m
+photo.13: ig://CjxO31aB6sm/m
 photo.13.author: monmon_redpanda
+photo.13.commitdate: 2022/11/4
 photo.13.link: https://www.instagram.com/monmon_redpanda/
 photo.13.tags: close-up, portrait, sample, tongue
 species: 2
