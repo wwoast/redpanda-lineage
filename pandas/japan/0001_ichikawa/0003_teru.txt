@@ -722,8 +722,9 @@ photo.142.author: ifumoto88
 photo.142.commitdate: 2022/10/14
 photo.142.link: https://www.instagram.com/ifumoto88/
 photo.142.tags: apple time, dish, portrait, sample, whiskers
-photo.143: https://www.instagram.com/p/CkIuZvGryBG/media/?size=m
+photo.143: ig://CkIuZvGryBG/m
 photo.143.author: ifumoto88
+photo.143.commitdate: 2022/11/4
 photo.143.link: https://www.instagram.com/ifumoto88/
 photo.143.tags: apple time, dish, lips, mofumofu, portrait, sample
 species: 2

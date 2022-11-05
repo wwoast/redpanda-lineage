@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CiqLdMhOFi9/media/?size=m
+photo.1: ig://CiqLdMhOFi9/m
 photo.1.author: potterparkzoo
+photo.1.commitdate: 2022/11/4
 photo.1.link: https://www.instagram.com/potterparkzoo/
 photo.1.tags: baby, close-up, mofumofu, profile, whiskers
 species: 1

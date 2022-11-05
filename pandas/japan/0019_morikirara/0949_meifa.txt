@@ -979,8 +979,9 @@ photo.193.author: morikirara
 photo.193.commitdate: 2022/8/28
 photo.193.link: https://www.instagram.com/morikirara/
 photo.193.tags: close-up, nose, sample, whiskers
-photo.194: https://www.instagram.com/p/CkDDvLpBksK/media/?size=m
+photo.194: ig://CkDDvLpBksK/m
 photo.194.author: monmon_redpanda
+photo.194.commitdate: 2022/11/4
 photo.194.link: https://www.instagram.com/monmon_redpanda/
 photo.194.tags: paws, portrait, sample, tail, whiskers
 species: 2

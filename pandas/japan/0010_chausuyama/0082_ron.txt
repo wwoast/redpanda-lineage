@@ -732,8 +732,9 @@ photo.144.author: fetorus_mami
 photo.144.commitdate: 2022/3/29
 photo.144.link: https://www.instagram.com/fetorus_mami/
 photo.144.tags: close-up, keeper, paws, sample, whiskers
-photo.145: https://www.instagram.com/p/CkH8XRHucwW/media/?size=m
+photo.145: ig://CkH8XRHucwW/m
 photo.145.author: wumpwoast
+photo.145.commitdate: 2022/11/4
 photo.145.link: https://www.instagram.com/wumpwoast/
 photo.145.tags: portrait, sample, whiskers
 species: 2

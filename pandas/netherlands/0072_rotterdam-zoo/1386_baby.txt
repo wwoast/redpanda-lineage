@@ -18,8 +18,9 @@ photo.1.author: nathalie.elliott
 photo.1.commitdate: 2022/10/20
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: baby, mofumofu, paws, portrait, whiskers
-photo.2: https://www.instagram.com/p/Cj1HRtsoHiP/media/?size=m
+photo.2: ig://Cj1HRtsoHiP/m
 photo.2.author: nathalie.elliott
+photo.2.commitdate: 2022/11/4
 photo.2.link: https://www.instagram.com/nathalie.elliott/
 photo.2.tags: baby, mofumofu, peek, portrait, tree
 species: 1
