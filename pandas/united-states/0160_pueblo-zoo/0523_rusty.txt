@@ -22,7 +22,19 @@ photo.1: ig://Bonn_lzhNCx/m
 photo.1.author: rossifari
 photo.1.commitdate: 2019/3/3
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: home, profile, tail
+photo.1.tags: home, portrait, profile, tail
+photo.2: https://www.instagram.com/p/Cj3FEoIjDJ5/media/?size=m
+photo.2.author: pueblozoo
+photo.2.link: https://www.instagram.com/pueblozoo/
+photo.2.tags: bamboo, white face
+photo.3: https://www.instagram.com/p/CO9CNlVH_Gl/media/?size=m
+photo.3.author: keepermerlo
+photo.3.link: https://www.instagram.com/keepermerlo/
+photo.3.tags: close-up, portrait, sample
+photo.4: https://www.instagram.com/p/Cj5r9empvHJ/media/?size=m
+photo.4.author: keepermerlo
+photo.4.link: https://www.instagram.com/carsontheredpanda/
+photo.4.tags: dish, portrait, whiskers, white face
 species: 1
 studbook.id: 1235
 uncertainty: location.4 exact date

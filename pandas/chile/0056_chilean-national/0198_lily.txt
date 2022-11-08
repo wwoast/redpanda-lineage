@@ -40,53 +40,48 @@ photo.4.author: barbaraabarza
 photo.4.commitdate: 2018/12/26
 photo.4.link: https://www.instagram.com/barbaraabarza/
 photo.4.tags: bamboo, portrait, tongue
-photo.5: ig://1RhbqzBVo_/m
-photo.5.author: rootsandloyalty
-photo.5.commitdate: 2018/8/20
-photo.5.link: https://www.instagram.com/rootsandloyalty/
-photo.5.tags: portrait
-photo.6: ig://8I749lIXNe/m
-photo.6.author: buse_cnv
-photo.6.commitdate: 2018/12/26
-photo.6.link: https://www.instagram.com/buse_cnv/
-photo.7: ig://_1ihyaMTVq/m
-photo.7.author: alucena71
+photo.5: ig://8I749lIXNe/m
+photo.5.author: buse_cnv
+photo.5.commitdate: 2018/12/26
+photo.5.link: https://www.instagram.com/buse_cnv/
+photo.6: ig://_1ihyaMTVq/m
+photo.6.author: alucena71
+photo.6.commitdate: 2019/10/31
+photo.6.link: https://www.instagram.com/alucena71/
+photo.6.tags: laying down, portrait, whiskers
+photo.7: ig://BSuN4dmlWh2/m
+photo.7.author: pili_santelices
 photo.7.commitdate: 2019/10/31
-photo.7.link: https://www.instagram.com/alucena71/
-photo.7.tags: laying down, portrait, whiskers
-photo.8: ig://BSuN4dmlWh2/m
-photo.8.author: pili_santelices
-photo.8.commitdate: 2019/10/31
-photo.8.link: https://www.instagram.com/pili_santelices/
-photo.8.tags: portrait, tree
-photo.9: ig://BZxH8c5BJzQ/m
+photo.7.link: https://www.instagram.com/pili_santelices/
+photo.7.tags: portrait, tree
+photo.8: ig://BZxH8c5BJzQ/m
+photo.8.author: sophierockshots
+photo.8.commitdate: 2019/5/22
+photo.8.link: https://www.instagram.com/sophierockshots/
+photo.8.tags: sleeping, tail
+photo.9: ig://BZxILLXBdJS/m
 photo.9.author: sophierockshots
-photo.9.commitdate: 2019/5/22
+photo.9.commitdate: 2019/10/31
 photo.9.link: https://www.instagram.com/sophierockshots/
-photo.9.tags: sleeping, tail
-photo.10: ig://BZxILLXBdJS/m
+photo.10: ig://BZxIeFgByWE/m
 photo.10.author: sophierockshots
-photo.10.commitdate: 2019/10/31
+photo.10.commitdate: 2019/5/22
 photo.10.link: https://www.instagram.com/sophierockshots/
-photo.11: ig://BZxIeFgByWE/m
+photo.10.tags: blink, mofumofu, portrait, tail
+photo.11: ig://BaM4jSpBdiO/m
 photo.11.author: sophierockshots
 photo.11.commitdate: 2019/5/22
 photo.11.link: https://www.instagram.com/sophierockshots/
-photo.11.tags: blink, mofumofu, portrait, tail
-photo.12: ig://BaM4jSpBdiO/m
-photo.12.author: sophierockshots
-photo.12.commitdate: 2019/5/22
-photo.12.link: https://www.instagram.com/sophierockshots/
-photo.13: ig://BjLsL3mAfPQ/m
+photo.12: ig://BjLsL3mAfPQ/m
+photo.12.author: from_chile
+photo.12.commitdate: 2019/10/31
+photo.12.link: https://www.instagram.com/from_chile/
+photo.12.tags: paws, tail
+photo.13: ig://BjLsR8uAbO8/m
 photo.13.author: from_chile
 photo.13.commitdate: 2019/10/31
 photo.13.link: https://www.instagram.com/from_chile/
-photo.13.tags: paws, tail
-photo.14: ig://BjLsR8uAbO8/m
-photo.14.author: from_chile
-photo.14.commitdate: 2019/10/31
-photo.14.link: https://www.instagram.com/from_chile/
-photo.14.tags: mofumofu
+photo.13.tags: mofumofu
 species: 2
 studbook.id: 10110
 uncertainty: death date
