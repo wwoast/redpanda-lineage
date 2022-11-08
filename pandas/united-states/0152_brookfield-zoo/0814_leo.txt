@@ -68,8 +68,9 @@ photo.10.author: rossifari
 photo.10.commitdate: 2022/8/28
 photo.10.link: https://www.instagram.com/rossifari/
 photo.10.tags: portrait, sample, tail, whiskers
-photo.11: https://www.instagram.com/p/CkdaU04NYRS/media/?size=m
+photo.11: ig://CkdaU04NYRS/m
 photo.11.author: brookfieldzoo
+photo.11.commitdate: 2022/11/8
 photo.11.link: https://www.instagram.com/brookfieldzoo/
 photo.11.tags: bamboo, portrait, sample
 species: 1

@@ -23,16 +23,19 @@ photo.1.author: rossifari
 photo.1.commitdate: 2019/3/3
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: home, portrait, profile, tail
-photo.2: https://www.instagram.com/p/Cj3FEoIjDJ5/media/?size=m
-photo.2.author: pueblozoo
-photo.2.link: https://www.instagram.com/pueblozoo/
-photo.2.tags: bamboo, white face
-photo.3: https://www.instagram.com/p/CO9CNlVH_Gl/media/?size=m
-photo.3.author: keepermerlo
-photo.3.link: https://www.instagram.com/keepermerlo/
-photo.3.tags: close-up, portrait, sample
-photo.4: https://www.instagram.com/p/Cj5r9empvHJ/media/?size=m
+photo.2: ig://CO9CNlVH_Gl/m
+photo.2.author: keepermerlo
+photo.2.commitdate: 2022/11/8
+photo.2.link: https://www.instagram.com/keepermerlo/
+photo.2.tags: close-up, portrait, sample
+photo.3: ig://Cj3FEoIjDJ5/m
+photo.3.author: pueblozoo
+photo.3.commitdate: 2022/11/8
+photo.3.link: https://www.instagram.com/pueblozoo/
+photo.3.tags: bamboo, white face
+photo.4: ig://Cj5r9empvHJ/m
 photo.4.author: keepermerlo
+photo.4.commitdate: 2022/11/8
 photo.4.link: https://www.instagram.com/carsontheredpanda/
 photo.4.tags: dish, portrait, whiskers, white face
 species: 1

@@ -295,18 +295,21 @@ photo.57.author: miis_98
 photo.57.commitdate: 2022/10/14
 photo.57.link: https://www.instagram.com/miis_98/
 photo.57.tags: portrait, sample, whiskers
-photo.58: https://www.instagram.com/p/Cka-yMgLvBv/media/?size=m
-photo.58.author: mini_cochi
-photo.58.link: https://www.instagram.com/mini_cochi/
-photo.58.tags: bamboo, mofumofu, paws, portrait, sample, smile
-photo.59: https://www.instagram.com/p/CkcYvhWPhCp/media/?size=m
-photo.59.author: miis_98
-photo.59.link: https://www.instagram.com/miis_98/
-photo.59.tags: portrait, sample
-photo.60: https://www.instagram.com/p/CkavBnxvDss/media/?size=m
-photo.60.author: hidehaya_biei
-photo.60.link: https://www.instagram.com/hidehaya_biei/
-photo.60.tags: tongue
+photo.58: ig://CkavBnxvDss/m
+photo.58.author: hidehaya_biei
+photo.58.commitdate: 2022/11/8
+photo.58.link: https://www.instagram.com/hidehaya_biei/
+photo.58.tags: tongue
+photo.59: ig://Cka-yMgLvBv/m
+photo.59.author: mini_cochi
+photo.59.commitdate: 2022/11/8
+photo.59.link: https://www.instagram.com/mini_cochi/
+photo.59.tags: bamboo, mofumofu, paws, portrait, sample, smile
+photo.60: ig://CkcYvhWPhCp/m
+photo.60.author: miis_98
+photo.60.commitdate: 2022/11/8
+photo.60.link: https://www.instagram.com/miis_98/
+photo.60.tags: portrait, sample
 species: 2
 studbook.id: 13160
 zoo: 26

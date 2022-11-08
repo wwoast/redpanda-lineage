@@ -160,8 +160,9 @@ photo.29.author: kojikoji2011
 photo.29.commitdate: 2022/7/3
 photo.29.link: https://www.instagram.com/kojikoji2011/
 photo.29.tags: portrait, sample, whiskers
-photo.30: https://www.instagram.com/p/CkXS1QDpuTf/media/?size=m
+photo.30: ig://CkXS1QDpuTf/m
 photo.30.author: fetorus_mami
+photo.30.commitdate: 2022/11/8
 photo.30.link: https://www.instagram.com/fetorus_mami/
 photo.30.tags: bamboo, paws, sample, standing, toys
 species: 2

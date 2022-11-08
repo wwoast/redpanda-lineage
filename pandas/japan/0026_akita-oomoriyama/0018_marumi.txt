@@ -2547,23 +2547,26 @@ photo.508.author: leonard_redmof
 photo.508.commitdate: 2022/10/7
 photo.508.link: https://www.instagram.com/leonard_redmof/
 photo.508.tags: portrait, sample, smile, whiskers
-photo.509: ig://Ckc23xHBMx4/m
-photo.509.author: oomoriyamazoo
-photo.509.commitdate: 2022/11/4
-photo.509.link: https://www.instagram.com/omoriyamazoo/
-photo.509.tags: laying down, tail
-photo.510: https://www.instagram.com/p/CkZmokIhy2U/media/?size=m
+photo.509: ig://CkVhO_khR2r/m
+photo.509.author: leonard_redmof
+photo.509.commitdate: 2022/11/8
+photo.509.link: https://www.instagram.com/leonard_redmof/
+photo.509.tags: peek, whiskers
+photo.510: ig://CkZmokIhy2U/m
 photo.510.author: minatomirai215
+photo.510.commitdate: 2022/11/8
 photo.510.link: https://www.instagram.com/minatomirai215/
 photo.510.tags: peek, smile, whiskers
-photo.511: https://www.instagram.com/p/CkauFgUvlj1/media/?size=m
+photo.511: ig://CkauFgUvlj1/m
 photo.511.author: leonard_redmof
+photo.511.commitdate: 2022/11/8
 photo.511.link: https://www.instagram.com/leonard_redmof/
 photo.511.tags: dish, lunch time, smile, whiskers
-photo.512: https://www.instagram.com/p/CkVhO_khR2r/media/?size=m
-photo.512.author: leonard_redmof
-photo.512.link: https://www.instagram.com/leonard_redmof/
-photo.512.tags: peek, whiskers
+photo.512: ig://Ckc23xHBMx4/m
+photo.512.author: oomoriyamazoo
+photo.512.commitdate: 2022/11/4
+photo.512.link: https://www.instagram.com/omoriyamazoo/
+photo.512.tags: laying down, tail
 species: 2
 studbook.id: 1676
 zoo: 26

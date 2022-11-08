@@ -699,8 +699,9 @@ photo.138.author: panda.daisuki
 photo.138.commitdate: 2022/11/4
 photo.138.link: https://www.instagram.com/panda.daisuki/
 photo.138.tags: home, laying down, portrait, sample, whiskers
-photo.139: https://www.instagram.com/p/Ckaxd12rYCp/media/?size=m
+photo.139: ig://Ckaxd12rYCp/m
 photo.139.author: ifumoto88
+photo.139.commitdate: 2022/11/8
 photo.139.link: https://www.instagram.com/ifumoto88/
 photo.139.tags: close-up, tongue, whiskers
 species: 2
