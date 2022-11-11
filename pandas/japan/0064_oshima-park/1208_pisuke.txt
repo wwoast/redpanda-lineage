@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
+location.1: 13, 2020/6/27
+location.2: 64, 2022/11/10
 photo.1: ig://CFwSobSh-6g/m
 photo.1.author: minato.yokohama4416
 photo.1.commitdate: 2020/10/2
@@ -690,4 +692,4 @@ photo.135.link: https://www.instagram.com/daniele.tokyo/
 photo.135.tags: baby, climb, paws, whiskers
 species: 2
 studbook.id: unknown
-zoo: 13
+zoo: 64

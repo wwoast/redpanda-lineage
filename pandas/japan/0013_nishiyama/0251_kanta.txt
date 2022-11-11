@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 250
+location.1: 26, 2018/7/12
+location.2: 13, 2022/11/10
 photo.1: ig://BpMVPshF1Ml/m
 photo.1.author: daniele.tokyo
 photo.1.commitdate: 2018/11/15
@@ -384,4 +386,4 @@ photo.74.link: https://www.instagram.com/zoowfreedom299/
 photo.74.tags: apple time, bite, keeper, paws, sample, standing
 species: 2
 studbook.id: unknown
-zoo: 26
+zoo: 13
