@@ -2537,40 +2537,41 @@ photo.506.author: nishicotolo
 photo.506.commitdate: 2022/11/2
 photo.506.link: https://www.instagram.com/nishicotolo/
 photo.506.tags: portrait, tail
-photo.507: ig://Ch5FCaEBLT_/m
-photo.507.author: minatomirai215
-photo.507.commitdate: 2022/9/8
-photo.507.link: https://www.instagram.com/minatomirai215/
-photo.507.tags: close-up, door, home, laying down, portrait, tail
-photo.508: ig://CimphczpLm8/m
-photo.508.author: leonard_redmof
-photo.508.commitdate: 2022/10/7
-photo.508.link: https://www.instagram.com/leonard_redmof/
-photo.508.tags: portrait, sample, smile, whiskers
-photo.509: ig://CkVhO_khR2r/m
+photo.507: ig://Chwyc6ApWD1/m
+photo.507.author: leonard_redmof
+photo.507.commitdate: 2022/11/10
+photo.507.link: https://www.instagram.com/leonard_redmof/
+photo.507.tags: dish, lunch time, paws, portrait, sample, smile
+photo.508: ig://Ch5FCaEBLT_/m
+photo.508.author: minatomirai215
+photo.508.commitdate: 2022/9/8
+photo.508.link: https://www.instagram.com/minatomirai215/
+photo.508.tags: close-up, door, home, laying down, portrait, tail
+photo.509: ig://CimphczpLm8/m
 photo.509.author: leonard_redmof
-photo.509.commitdate: 2022/11/8
+photo.509.commitdate: 2022/10/7
 photo.509.link: https://www.instagram.com/leonard_redmof/
-photo.509.tags: peek, whiskers
-photo.510: ig://CkZmokIhy2U/m
-photo.510.author: minatomirai215
+photo.509.tags: portrait, sample, smile, whiskers
+photo.510: ig://CkVhO_khR2r/m
+photo.510.author: leonard_redmof
 photo.510.commitdate: 2022/11/8
-photo.510.link: https://www.instagram.com/minatomirai215/
-photo.510.tags: peek, smile, whiskers
-photo.511: ig://CkauFgUvlj1/m
-photo.511.author: leonard_redmof
+photo.510.link: https://www.instagram.com/leonard_redmof/
+photo.510.tags: peek, whiskers
+photo.511: ig://CkZmokIhy2U/m
+photo.511.author: minatomirai215
 photo.511.commitdate: 2022/11/8
-photo.511.link: https://www.instagram.com/leonard_redmof/
-photo.511.tags: dish, lunch time, smile, whiskers
-photo.512: ig://Ckc23xHBMx4/m
-photo.512.author: oomoriyamazoo
-photo.512.commitdate: 2022/11/4
-photo.512.link: https://www.instagram.com/omoriyamazoo/
-photo.512.tags: laying down, tail
-photo.513: https://www.instagram.com/p/Chwyc6ApWD1/media/?size=m
-photo.513.author: leonard_redmof
-photo.513.link: https://www.instagram.com/leonard_redmof/
-photo.513.tags: dish, lunch time, paws, portrait, sample, smile
+photo.511.link: https://www.instagram.com/minatomirai215/
+photo.511.tags: peek, smile, whiskers
+photo.512: ig://CkauFgUvlj1/m
+photo.512.author: leonard_redmof
+photo.512.commitdate: 2022/11/8
+photo.512.link: https://www.instagram.com/leonard_redmof/
+photo.512.tags: dish, lunch time, smile, whiskers
+photo.513: ig://Ckc23xHBMx4/m
+photo.513.author: oomoriyamazoo
+photo.513.commitdate: 2022/11/4
+photo.513.link: https://www.instagram.com/omoriyamazoo/
+photo.513.tags: laying down, tail
 species: 2
 studbook.id: 1676
 zoo: 26

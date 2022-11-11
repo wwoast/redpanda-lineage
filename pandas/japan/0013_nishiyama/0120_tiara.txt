@@ -376,20 +376,21 @@ photo.72.author: tomo3700
 photo.72.commitdate: 2022/8/8
 photo.72.link: https://www.instagram.com/tomo3700/
 photo.72.tags: paws, portrait, sample, standing, window
-photo.73: ig://Ch8mMWWJlGJ/m
-photo.73.author: hamiiiii831_
-photo.73.commitdate: 2022/9/8
-photo.73.link: https://www.instagram.com/hamiiiii831_/
-photo.73.tags: paws, sample, standing, whiskers, window
-photo.74: ig://CiURPBfvucp/m
-photo.74.author: minato.yokohama4416
-photo.74.commitdate: 2022/10/13
-photo.74.link: https://www.instagram.com/minato.yokohama4416/
-photo.74.tags: bamboo, laying down, paws, portrait, sample
-photo.75: https://www.instagram.com/p/ChyTfFEvDjD/media/?size=m
-photo.75.author: tomo3700
-photo.75.link: https://www.instagram.com/tomo3700/
-photo.75.tags: paws, standing, window
+photo.73: ig://ChyTfFEvDjD/m
+photo.73.author: tomo3700
+photo.73.commitdate: 2022/11/10
+photo.73.link: https://www.instagram.com/tomo3700/
+photo.73.tags: paws, standing, window
+photo.74: ig://Ch8mMWWJlGJ/m
+photo.74.author: hamiiiii831_
+photo.74.commitdate: 2022/9/8
+photo.74.link: https://www.instagram.com/hamiiiii831_/
+photo.74.tags: paws, sample, standing, whiskers, window
+photo.75: ig://CiURPBfvucp/m
+photo.75.author: minato.yokohama4416
+photo.75.commitdate: 2022/10/13
+photo.75.link: https://www.instagram.com/minato.yokohama4416/
+photo.75.tags: bamboo, laying down, paws, portrait, sample
 species: 2
 studbook.id: 15148
 video.1: https://m.youtube.com/watch?v=KzNypEyJlkw

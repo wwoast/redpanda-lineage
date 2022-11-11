@@ -1080,8 +1080,9 @@ photo.213.author: wumpwoast
 photo.213.commitdate: 2022/7/31
 photo.213.link: https://www.instagram.com/wumpwoast/
 photo.213.tags: laying down, portrait, sleeping
-photo.214: https://www.instagram.com/p/CimDszguLXw/media/?size=m
+photo.214: ig://CimDszguLXw/m
 photo.214.author: carsontheredpanda
+photo.214.commitdate: 2022/11/10
 photo.214.link: https://www.instagram.com/carsontheredpanda/
 photo.214.tags: laying down, sample, tongue, tree, whiskers, white face
 species: 1

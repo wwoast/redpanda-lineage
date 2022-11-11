@@ -618,19 +618,20 @@ photo.121.author: ck.chie
 photo.121.commitdate: 2022/10/13
 photo.121.link: https://www.instagram.com/ck.chie/
 photo.121.tags: paws, sample, smile, techitechi
-photo.122: ig://CjMM4oSBacI/m
-photo.122.author: alto0908
-photo.122.commitdate: 2022/10/14
-photo.122.link: https://www.instagram.com/alto0908/
-photo.122.tags: flowers, peek, tree
-photo.123: ig://CjNSZ0qP-OM/m
-photo.123.author: osopanda551
-photo.123.commitdate: 2022/10/20
-photo.123.link: https://www.instagram.com/osopanda551/
-photo.123.tags: portrait, sample, tail
-photo.124: https://www.instagram.com/p/CigU4tNh_XK/media/?size=m
-photo.124.author: ck.chie
-photo.124.link: https://www.instagram.com/ck.chie/
-photo.124.tags: door, smile
+photo.122: ig://CigU4tNh_XK/m
+photo.122.author: ck.chie
+photo.122.commitdate: 2022/11/10
+photo.122.link: https://www.instagram.com/ck.chie/
+photo.122.tags: door, smile
+photo.123: ig://CjMM4oSBacI/m
+photo.123.author: alto0908
+photo.123.commitdate: 2022/10/14
+photo.123.link: https://www.instagram.com/alto0908/
+photo.123.tags: flowers, peek, tree
+photo.124: ig://CjNSZ0qP-OM/m
+photo.124.author: osopanda551
+photo.124.commitdate: 2022/10/20
+photo.124.link: https://www.instagram.com/osopanda551/
+photo.124.tags: portrait, sample, tail
 species: 2
 zoo: 17

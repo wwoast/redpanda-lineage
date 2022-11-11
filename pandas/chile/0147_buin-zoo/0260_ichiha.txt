@@ -168,14 +168,16 @@ photo.31.author: buin_zoo
 photo.31.commitdate: 2021/10/31
 photo.31.link: https://www.instagram.com/buin_zoo/
 photo.31.tags: apple time, paws, peek, portrait, sample
-photo.32: https://www.instagram.com/p/Cgy-wzCMCFR/media/?size=m
+photo.32: ig://Cd8KS-2MFvf/m
 photo.32.author: buin_zoo
+photo.32.commitdate: 2022/11/10
 photo.32.link: https://www.instagram.com/buin_zoo/
-photo.32.tags: bamboo, portrait, whiskers
-photo.33: https://www.instagram.com/p/Cd8KS-2MFvf/media/?size=m
+photo.32.tags: bridge, tail
+photo.33: ig://Cgy-wzCMCFR/m
 photo.33.author: buin_zoo
+photo.33.commitdate: 2022/11/10
 photo.33.link: https://www.instagram.com/buin_zoo/
-photo.33.tags: bridge, tail
+photo.33.tags: bamboo, portrait, whiskers
 species: 2
 studbook.id: 14171
 zoo: 147

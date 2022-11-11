@@ -2268,8 +2268,9 @@ photo.452.author: yossi929
 photo.452.commitdate: 2022/8/31
 photo.452.link: https://www.instagram.com/yossi929/
 photo.452.tags: sample, smile, whiskers
-photo.453: https://www.instagram.com/p/CjiHU2XL2po/media/?size=m
+photo.453: ig://CjiHU2XL2po/m
 photo.453.author: yossi929
+photo.453.commitdate: 2022/11/10
 photo.453.link: https://www.instagram.com/yossi929/
 photo.453.tags: portrait, sample, whiskers
 species: 2

@@ -240,15 +240,16 @@ photo.45.author: ifumoto88
 photo.45.commitdate: 2022/9/9
 photo.45.link: https://www.instagram.com/ifumoto88/
 photo.45.tags: dish, mofumofu, portrait, sample
-photo.46: ig://CiZwjTWvCZr/m
-photo.46.author: mariten1119
-photo.46.commitdate: 2022/10/13
-photo.46.link: https://www.instagram.com/mariten1119/
-photo.46.tags: mofumofu, whiskers
-photo.47: https://www.instagram.com/p/CiSfRc4rR4E/media/?size=m
-photo.47.author: mini_cochi
-photo.47.link: https://www.instagram.com/mini_cochi/
-photo.47.tags: old, mofumofu, whiskers
+photo.46: ig://CiSfRc4rR4E/m
+photo.46.author: mini_cochi
+photo.46.commitdate: 2022/11/10
+photo.46.link: https://www.instagram.com/mini_cochi/
+photo.46.tags: old, mofumofu, whiskers
+photo.47: ig://CiZwjTWvCZr/m
+photo.47.author: mariten1119
+photo.47.commitdate: 2022/10/13
+photo.47.link: https://www.instagram.com/mariten1119/
+photo.47.tags: mofumofu, whiskers
 species: 2
 studbook.id: 9991
 video.1: https://youtu.be/AnjnjrW-9iw
