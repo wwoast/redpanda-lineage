@@ -116,8 +116,9 @@ photo.20.author: zoomontana
 photo.20.commitdate: 2022/6/6
 photo.20.link: https://www.instagram.com/zoomontana/
 photo.20.tags: bamboo, portrait, smile, whiskers
-photo.21: https://www.instagram.com/p/ChVZQNeJ2A7/media/?size=m
+photo.21: ig://ChVZQNeJ2A7/m
 photo.21.author: tulsazoo
+photo.21.commitdate: 2022/11/11
 photo.21.link: https://www.instagram.com/tulsazoo/
 photo.21.tags: paws, peek, sample, tail, whiskers
 species: 2

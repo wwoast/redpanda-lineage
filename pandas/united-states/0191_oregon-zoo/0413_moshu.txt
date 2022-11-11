@@ -120,20 +120,21 @@ photo.21.author: wumpwoast
 photo.21.commitdate: 2022/9/24
 photo.21.link: https://www.instagram.com/wumpwoast/
 photo.21.tags: laying down, portrait, sample, whiskers
-photo.22: ig://Ch-eKSvJjVk/m
-photo.22.author: oregonzoo
-photo.22.commitdate: 2022/9/8
-photo.22.link: https://www.instagram.com/oregonzoo/
-photo.22.tags: close-up, mofumofu, portrait, sample, tail
-photo.23: ig://CineSOOpUJ8/m
+photo.22: ig://ChQ3pT2rVY2/m
+photo.22.author: wumpwoast
+photo.22.commitdate: 2022/11/11
+photo.22.link: https://www.instagram.com/wumpwoast/
+photo.22.tags: close-up, mofumofu, whiskers
+photo.23: ig://Ch-eKSvJjVk/m
 photo.23.author: oregonzoo
-photo.23.commitdate: 2022/10/7
+photo.23.commitdate: 2022/9/8
 photo.23.link: https://www.instagram.com/oregonzoo/
-photo.23.tags: close-up, portrait, sample
-photo.24: https://www.instagram.com/p/ChQ3pT2rVY2/media/?size=m
-photo.24.author: wumpwoast
-photo.24.link: https://www.instagram.com/wumpwoast/
-photo.24.tags: close-up, mofumofu, whiskers
+photo.23.tags: close-up, mofumofu, portrait, sample, tail
+photo.24: ig://CineSOOpUJ8/m
+photo.24.author: oregonzoo
+photo.24.commitdate: 2022/10/7
+photo.24.link: https://www.instagram.com/oregonzoo/
+photo.24.tags: close-up, portrait, sample
 species: 2
 studbook.id: 1115
 zoo: 191

@@ -1802,25 +1802,26 @@ photo.359.author: ayusuke56
 photo.359.commitdate: 2022/7/25
 photo.359.link: https://www.instagram.com/ayusuke56/
 photo.359.tags: paws, portrait, sample, smile, whiskers
-photo.360: ig://ChWlqnjPFUl/m
-photo.360.author: ssc6105
-photo.360.commitdate: 2022/8/18
-photo.360.link: https://www.instagram.com/ssc6105/
-photo.360.tags: paws, sample, smile, whiskers
-photo.361: ig://Che-0Vgh0l-/m
-photo.361.author: yakko____
-photo.361.commitdate: 2022/8/26
-photo.361.link: https://www.instagram.com/yakko____/
-photo.361.tags: laying down, mofumofu, paws, peek, portrait, sample, smile, whiskers
-photo.362: ig://Chjxt2eBEvD/m
-photo.362.author: ssc6105
-photo.362.commitdate: 2022/8/31
-photo.362.link: https://www.instagram.com/ssc6105/
-photo.362.tags: paws, sample, smile, whiskers
-photo.363: https://www.instagram.com/p/Cg0Gac7JoqJ/media/?size=m
-photo.363.author: otenba_redpanda
-photo.363.link: https://www.instagram.com/otenba_redpanda/
-photo.363.tags: mofumofu, portrait, sample, whiskers
+photo.360: ig://Cg0Gac7JoqJ/m
+photo.360.author: otenba_redpanda
+photo.360.commitdate: 2022/11/11
+photo.360.link: https://www.instagram.com/otenba_redpanda/
+photo.360.tags: mofumofu, portrait, sample, whiskers
+photo.361: ig://ChWlqnjPFUl/m
+photo.361.author: ssc6105
+photo.361.commitdate: 2022/8/18
+photo.361.link: https://www.instagram.com/ssc6105/
+photo.361.tags: paws, sample, smile, whiskers
+photo.362: ig://Che-0Vgh0l-/m
+photo.362.author: yakko____
+photo.362.commitdate: 2022/8/26
+photo.362.link: https://www.instagram.com/yakko____/
+photo.362.tags: laying down, mofumofu, paws, peek, portrait, sample, smile, whiskers
+photo.363: ig://Chjxt2eBEvD/m
+photo.363.author: ssc6105
+photo.363.commitdate: 2022/8/31
+photo.363.link: https://www.instagram.com/ssc6105/
+photo.363.tags: paws, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

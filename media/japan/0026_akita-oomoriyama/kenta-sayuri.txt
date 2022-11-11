@@ -2,30 +2,31 @@
 _id: media.26.kenta-sayuri
 commitdate: 2019/9/21
 panda.tags: 212, 213
-photo.1: ig://BbLAZxsBSD8/m
-photo.1.author: miis_98
-photo.1.commitdate: 2020/4/15
-photo.1.link: https://www.instagram.com/miis_98/
-photo.1.tags: portrait, siblings, twins
-photo.1.tags.212.location: 60, 140
-photo.1.tags.213.location: 230, 135
-photo.2: ig://BeP7RG1hqGR/l
-photo.2.author: zoowfreedom299
-photo.2.commitdate: 2021/11/23
-photo.2.link: https://www.instagram.com/zoowfreedom299/
-photo.2.tags: apple time, siblings, twins
-photo.2.tags.212.location: 340, 200
-photo.2.tags.213.location: 300, 490
-photo.3: ig://B2ZPLxUB8rA/m
-photo.3.author: craig_craig_craig
-photo.3.commitdate: 2019/9/21
-photo.3.link: https://www.instagram.com/craig_craig_craig/
-photo.3.tags: laying down, siblings, twins
-photo.3.tags.212.location: 95, 95
-photo.3.tags.213.location: 190, 80
-photo.4: https://www.instagram.com/p/BU9LzEqBxiL/media/?size=l
-photo.4.author: zoowfreedom299
-photo.4.link: https://www.instagram.com/zoowfreedom299/
-photo.4.tags: apple time, bite, blink, portrait, siblings, twins, white face
-photo.4.tags.212.location: 200, 290
-photo.4.tags.213.location: 420, 310
+photo.1: ig://BU9LzEqBxiL/l
+photo.1.author: zoowfreedom299
+photo.1.commitdate: 2022/11/11
+photo.1.link: https://www.instagram.com/zoowfreedom299/
+photo.1.tags: apple time, bite, blink, portrait, siblings, twins, white face
+photo.1.tags.212.location: 200, 290
+photo.1.tags.213.location: 420, 310
+photo.2: ig://BbLAZxsBSD8/m
+photo.2.author: miis_98
+photo.2.commitdate: 2020/4/15
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: portrait, siblings, twins
+photo.2.tags.212.location: 60, 140
+photo.2.tags.213.location: 230, 135
+photo.3: ig://BeP7RG1hqGR/l
+photo.3.author: zoowfreedom299
+photo.3.commitdate: 2021/11/23
+photo.3.link: https://www.instagram.com/zoowfreedom299/
+photo.3.tags: apple time, siblings, twins
+photo.3.tags.212.location: 340, 200
+photo.3.tags.213.location: 300, 490
+photo.4: ig://B2ZPLxUB8rA/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2019/9/21
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: laying down, siblings, twins
+photo.4.tags.212.location: 95, 95
+photo.4.tags.213.location: 190, 80

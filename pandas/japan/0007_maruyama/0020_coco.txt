@@ -1524,60 +1524,61 @@ photo.307.author: cattail.sapporo
 photo.307.commitdate: 2022/9/24
 photo.307.link: https://www.instagram.com/cattail.sapporo/
 photo.307.tags: close-up, mofumofu, peek, portrait
-photo.308: ig://CfMV6FpvRJo/m
-photo.308.author: minatomirai215
-photo.308.commitdate: 2022/7/14
-photo.308.link: https://www.instagram.com/minatomirai215/
-photo.308.tags: keeper, nose, portrait, snow
-photo.309: ig://CfOMvkEPl-L/m
-photo.309.author: leonard_redmof
-photo.309.commitdate: 2022/8/22
-photo.309.link: https://www.instagram.com/leonard_redmof/
-photo.309.tags: portrait, sample
-photo.310: ig://CfbRMeOr-IV/m
-photo.310.author: cattail.sapporo
-photo.310.commitdate: 2022/7/9
-photo.310.link: https://www.instagram.com/cattail.sapporo/
-photo.310.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.311: ig://Cfvlg5ZOOiA/m
+photo.308: ig://CetAxipOaCD/m
+photo.308.author: cattail.sapporo
+photo.308.commitdate: 2022/11/11
+photo.308.link: https://www.instagram.com/cattail.sapporo/
+photo.308.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+photo.309: ig://CfMV6FpvRJo/m
+photo.309.author: minatomirai215
+photo.309.commitdate: 2022/7/14
+photo.309.link: https://www.instagram.com/minatomirai215/
+photo.309.tags: keeper, nose, portrait, snow
+photo.310: ig://CfOMvkEPl-L/m
+photo.310.author: leonard_redmof
+photo.310.commitdate: 2022/8/22
+photo.310.link: https://www.instagram.com/leonard_redmof/
+photo.310.tags: portrait, sample
+photo.311: ig://CfbRMeOr-IV/m
 photo.311.author: cattail.sapporo
-photo.311.commitdate: 2022/7/31
+photo.311.commitdate: 2022/7/9
 photo.311.link: https://www.instagram.com/cattail.sapporo/
-photo.311.tags: portrait, sample, whiskers, yawn
-photo.312: ig://Cf_A6QFuAPo/m
+photo.311.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.312: ig://Cfvlg5ZOOiA/m
 photo.312.author: cattail.sapporo
 photo.312.commitdate: 2022/7/31
 photo.312.link: https://www.instagram.com/cattail.sapporo/
-photo.312.tags: close-up, flowers, nose, portrait, sample, whiskers
-photo.313: ig://CgMliuzrTEo/m
+photo.312.tags: portrait, sample, whiskers, yawn
+photo.313: ig://Cf_A6QFuAPo/m
 photo.313.author: cattail.sapporo
-photo.313.commitdate: 2022/7/28
+photo.313.commitdate: 2022/7/31
 photo.313.link: https://www.instagram.com/cattail.sapporo/
-photo.313.tags: close-up, dish, keeper, mofumofu, portrait, sample
-photo.314: ig://Cgeoz3RrCxB/m
+photo.313.tags: close-up, flowers, nose, portrait, sample, whiskers
+photo.314: ig://CgMliuzrTEo/m
 photo.314.author: cattail.sapporo
-photo.314.commitdate: 2022/8/7
+photo.314.commitdate: 2022/7/28
 photo.314.link: https://www.instagram.com/cattail.sapporo/
-photo.314.tags: nose, portrait, whiskers
-photo.315: ig://ChO-_CqBDyp/m
-photo.315.author: leonard_redmof
-photo.315.commitdate: 2022/8/28
-photo.315.link: https://www.instagram.com/leonard_redmof/
-photo.315.tags: peek, portrait, sample, whiskers
-photo.316: ig://CiU8SlsJ1KR/m
+photo.314.tags: close-up, dish, keeper, mofumofu, portrait, sample
+photo.315: ig://Cgeoz3RrCxB/m
+photo.315.author: cattail.sapporo
+photo.315.commitdate: 2022/8/7
+photo.315.link: https://www.instagram.com/cattail.sapporo/
+photo.315.tags: nose, portrait, whiskers
+photo.316: ig://ChO-_CqBDyp/m
 photo.316.author: leonard_redmof
-photo.316.commitdate: 2022/10/13
+photo.316.commitdate: 2022/8/28
 photo.316.link: https://www.instagram.com/leonard_redmof/
-photo.316.tags: flowers, portrait, sample, whiskers
-photo.317: ig://CiujJXOPWnH/m
-photo.317.author: komabazoophoto
-photo.317.commitdate: 2022/10/6
-photo.317.link: https://www.instagram.com/komabazoophoto/
-photo.317.tags: laying down, mofumofu, portrait, sample, sleeping
-photo.318: https://www.instagram.com/p/CetAxipOaCD/media/?size=m
-photo.318.author: cattail.sapporo
-photo.318.link: https://www.instagram.com/cattail.sapporo/
-photo.318.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+photo.316.tags: peek, portrait, sample, whiskers
+photo.317: ig://CiU8SlsJ1KR/m
+photo.317.author: leonard_redmof
+photo.317.commitdate: 2022/10/13
+photo.317.link: https://www.instagram.com/leonard_redmof/
+photo.317.tags: flowers, portrait, sample, whiskers
+photo.318: ig://CiujJXOPWnH/m
+photo.318.author: komabazoophoto
+photo.318.commitdate: 2022/10/6
+photo.318.link: https://www.instagram.com/komabazoophoto/
+photo.318.tags: laying down, mofumofu, portrait, sample, sleeping
 species: 2
 studbook.id: 0674
 zoo: 7

@@ -1,4 +1,4 @@
-h[panda]
+[panda]
 _id: 1309
 birthday: 2021/7/31
 birthplace: 11
@@ -148,24 +148,25 @@ photo.27.author: komabazoophoto
 photo.27.commitdate: 2022/7/11
 photo.27.link: https://www.instagram.com/komabazoophoto/
 photo.27.tags: mofumofu, paws, peek, portrait, sample, snow
-photo.28: ig://CeglPgqPgIG/m
-photo.28.author: fetorus_mami
-photo.28.commitdate: 2022/6/22
-photo.28.link: https://www.instagram.com/fetorus_mami/
-photo.28.tags: mofumofu, peek, sample, tree
-photo.29: ig://CfeAmmsPGwR/m
-photo.29.author: komabazoophoto
-photo.29.commitdate: 2022/7/28
-photo.29.link: https://www.instagram.com/komabazoophoto/
-photo.29.tags: climb, paws, portrait, sample, tree
-photo.30: ig://Cfv5LlkvZKd/m
+photo.28: ig://Cea3u2DPXnW/m
+photo.28.author: komabazoophoto
+photo.28.commitdate: 2022/11/11
+photo.28.link: https://www.instagram.com/komabazoophoto/
+photo.28.tags: snow, techitechi
+photo.29: ig://CeglPgqPgIG/m
+photo.29.author: fetorus_mami
+photo.29.commitdate: 2022/6/22
+photo.29.link: https://www.instagram.com/fetorus_mami/
+photo.29.tags: mofumofu, peek, sample, tree
+photo.30: ig://CfeAmmsPGwR/m
 photo.30.author: komabazoophoto
-photo.30.commitdate: 2022/7/31
+photo.30.commitdate: 2022/7/28
 photo.30.link: https://www.instagram.com/komabazoophoto/
-photo.30.tags: portrait, sample, tree
-photo.31: https://www.instagram.com/p/Cea3u2DPXnW/media/?size=m
+photo.30.tags: climb, paws, portrait, sample, tree
+photo.31: ig://Cfv5LlkvZKd/m
 photo.31.author: komabazoophoto
+photo.31.commitdate: 2022/7/31
 photo.31.link: https://www.instagram.com/komabazoophoto/
-photo.31.tags: snow, techitechi
+photo.31.tags: portrait, sample, tree
 species: 2
 zoo: 11
