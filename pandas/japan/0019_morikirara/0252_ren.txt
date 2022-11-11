@@ -224,8 +224,9 @@ photo.42.author: daniele.tokyo
 photo.42.commitdate: 2022/6/29
 photo.42.link: https://www.instagram.com/daniele.tokyo/
 photo.42.tags: apple time, keeper, paws, standing, tail
-photo.43: https://www.instagram.com/p/Cf8vvrjOTtA/media/?size=m
+photo.43: ig://Cf8vvrjOTtA/m
 photo.43.author: daniele.tokyo
+photo.43.commitdate: 2022/11/11
 photo.43.link: https://www.instagram.com/daniele.tokyo/
 photo.43.tags: flowers, mofumofu, peek, portrait
 species: 2
