@@ -17,6 +17,7 @@ location.1: 84, 2015/7/1
 location.2: 90, 2016/5/27
 location.3: 191, 2019/5/10
 location.4: 128, 2021/3/7
+location.5: 102, 2022/8/1
 photo.1: ig://_mOTHFiBEg/m
 photo.1.author: mickmicknyc
 photo.1.commitdate: 2018/12/19
@@ -115,6 +116,11 @@ photo.20.author: zoomontana
 photo.20.commitdate: 2022/6/6
 photo.20.link: https://www.instagram.com/zoomontana/
 photo.20.tags: bamboo, portrait, smile, whiskers
+photo.21: https://www.instagram.com/p/ChVZQNeJ2A7/media/?size=m
+photo.21.author: tulsazoo
+photo.21.link: https://www.instagram.com/tulsazoo/
+photo.21.tags: paws, peek, sample, tail, whiskers
 species: 2
 studbook.id: 1536
-zoo: 128
+uncertainty: exact day location.5 (+/- 1wk)
+zoo: 102

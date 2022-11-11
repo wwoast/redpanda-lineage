@@ -1,4 +1,4 @@
-[panda]
+h[panda]
 _id: 1309
 birthday: 2021/7/31
 birthplace: 11
@@ -163,5 +163,9 @@ photo.30.author: komabazoophoto
 photo.30.commitdate: 2022/7/31
 photo.30.link: https://www.instagram.com/komabazoophoto/
 photo.30.tags: portrait, sample, tree
+photo.31: https://www.instagram.com/p/Cea3u2DPXnW/media/?size=m
+photo.31.author: komabazoophoto
+photo.31.link: https://www.instagram.com/komabazoophoto/
+photo.31.tags: snow, techitechi
 species: 2
 zoo: 11
