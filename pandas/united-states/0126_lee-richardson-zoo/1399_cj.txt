@@ -1,0 +1,17 @@
+[panda]
+_id: 1399
+birthday: 2020/8/17
+birthplace: 126
+children: none
+commitdate: 2022/11/13
+en.name: CJ
+en.nicknames: none
+en.othernames: Charlie Jr, Charles Jr, Charlie Jr., Charles Jr., Charlie Junior, Charles Junior
+gender: m
+jp.name: CJ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1400
+species: 1
+zoo: 126
