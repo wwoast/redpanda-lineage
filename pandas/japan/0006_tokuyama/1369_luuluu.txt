@@ -38,8 +38,9 @@ photo.5.author: kojikoji2011
 photo.5.commitdate: 2022/11/4
 photo.5.link: https://www.instagram.com/kojikoji2011/
 photo.5.tags: baby, paws, portrait, sample, whiskers
-photo.6: https://www.instagram.com/p/Cj8GLXBLvp3/media/?size=m
+photo.6: ig://Cj8GLXBLvp3/m
 photo.6.author: miis_98
+photo.6.commitdate: 2022/11/14
 photo.6.link: https://www.instagram.com/miis_98/
 photo.6.tags: baby, climb, paws, standing
 species: 2

@@ -202,15 +202,16 @@ photo.38.author: minato.yokohama4416
 photo.38.commitdate: 2022/11/10
 photo.38.link: https://www.instagram.com/minato.yokohama4416/
 photo.38.tags: bamboo, mofumofu, sample
-photo.39: ig://Cj67VsGhurG/m
-photo.39.author: fetorus_mami
-photo.39.commitdate: 2022/11/4
-photo.39.link: https://www.instagram.com/fetorus_mami/
-photo.39.tags: bamboo, close-up, mofumofu, sample, whiskers
-photo.40: https://www.instagram.com/p/CjsTPEahUbF/media/?size=m
-photo.40.author: jas_forever_love
-photo.40.link: https://www.instagram.com/jas_forever_love/
-photo.40.tags: bamboo, mofumofu, sample, whiskers
+photo.39: ig://CjsTPEahUbF/m
+photo.39.author: jas_forever_love
+photo.39.commitdate: 2022/11/14
+photo.39.link: https://www.instagram.com/jas_forever_love/
+photo.39.tags: bamboo, mofumofu, sample, whiskers
+photo.40: ig://Cj67VsGhurG/m
+photo.40.author: fetorus_mami
+photo.40.commitdate: 2022/11/4
+photo.40.link: https://www.instagram.com/fetorus_mami/
+photo.40.tags: bamboo, close-up, mofumofu, sample, whiskers
 species: 2
 studbook.id: 11102
 zoo: 13

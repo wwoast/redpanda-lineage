@@ -773,8 +773,9 @@ photo.152.author: hamamatsu.chiita
 photo.152.commitdate: 2022/8/31
 photo.152.link: https://www.instagram.com/hamamatsu.chiita/
 photo.152.tags: mofumofu, portrait, sample
-photo.153: https://www.instagram.com/p/Ck9HiKoBgij/media/?size=m
+photo.153: ig://Ck9HiKoBgij/m
 photo.153.author: hamamatsu.chiita
+photo.153.commitdate: 2022/11/14
 photo.153.link: https://www.instagram.com/hamamatsu.chiita/
 photo.153.tags: mofumofu, portrait, sample
 species: 2

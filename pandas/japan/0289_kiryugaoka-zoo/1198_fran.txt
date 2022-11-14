@@ -670,8 +670,9 @@ photo.131.author: ssc6105
 photo.131.commitdate: 2022/10/20
 photo.131.link: https://www.instagram.com/ssc6105/
 photo.131.tags: paws, peek, smile, whiskers
-photo.132: https://www.instagram.com/p/Cj7ijkNhNCU/media/?size=m
+photo.132: ig://Cj7ijkNhNCU/m
 photo.132.author: ssc6105
+photo.132.commitdate: 2022/11/14
 photo.132.link: https://www.instagram.com/ssc6105/
 photo.132.tags: keeper, paws, standing, whiskers
 species: 2

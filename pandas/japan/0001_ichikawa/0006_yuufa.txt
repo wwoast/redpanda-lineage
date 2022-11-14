@@ -32,7 +32,7 @@ photo.4: ig://BKb9WLEjrKa/m
 photo.4.author: masa_polarbear
 photo.4.commitdate: 2020/5/23
 photo.4.link: https://www.instagram.com/masa_polarbear/
-photo.4.tags: portrait
+photo.4.tags: portrait, sample, whiskers
 photo.5: ig://BLrx4H8jLE4/m
 photo.5.author: masa_polarbear
 photo.5.commitdate: 2020/5/23
@@ -733,10 +733,6 @@ photo.145.author: panda.daisuki
 photo.145.commitdate: 2022/10/20
 photo.145.link: https://www.instagram.com/panda.daisuki/
 photo.145.tags: portrait, sample, whiskers
-photo.146: https://www.instagram.com/p/BKb9WLEjrKa/media/?size=m
-photo.146.author: masa_polarbear
-photo.146.link: https://www.instagram.com/masa_polarbear/
-photo.146.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 13146
 zoo: 1
