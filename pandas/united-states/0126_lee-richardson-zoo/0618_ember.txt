@@ -36,6 +36,14 @@ photo.4.author: worldthathesees
 photo.4.commitdate: 2020/1/22
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: portrait
+photo.5: https://www.instagram.com/p/CQHDTwLNDwp/media/?size=m
+photo.5.author: leerichardsonzoo
+photo.5.link: https://www.instagram.com/leerichardsonzoo/
+photo.5.tags: sample, tongue, whiskers
+photo.6: https://www.instagram.com/p/CJtrK8rp_Q9/media/?size=m
+photo.6.author: leerichardsonzoo
+photo.6.link: https://www.instagram.com/leerichardsonzoo/
+photo.6.tags: close-up, sample, whiskers
 species: 1
 studbook.id: 1017
 zoo: 126
