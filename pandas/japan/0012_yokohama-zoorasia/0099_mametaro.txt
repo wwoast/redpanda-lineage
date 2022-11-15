@@ -639,8 +639,9 @@ photo.125.author: wumpwoast
 photo.125.commitdate: 2022/10/6
 photo.125.link: https://www.instagram.com/wumpwoast/
 photo.125.tags: close-up, portrait, whiskers
-photo.126: https://www.instagram.com/p/CjvCi79hBYc/media/?size=m
+photo.126: ig://CjvCi79hBYc/m
 photo.126.author: minatomirai215
+photo.126.commitdate: 2022/11/14
 photo.126.link: https://www.instagram.com/minatomirai215/
 photo.126.tags: apple time, bamboo, keeper, portrait, tail
 species: 2

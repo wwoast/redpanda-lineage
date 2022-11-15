@@ -543,8 +543,9 @@ photo.107.author: itsuak
 photo.107.commitdate: 2022/9/11
 photo.107.link: https://www.instagram.com/itsuak/
 photo.107.tags: laying down, peek, portrait, sample
-photo.108: https://www.instagram.com/p/CjlC2gEh6hO/media/?size=m
+photo.108: ig://CjlC2gEh6hO/m
 photo.108.author: itsuak
+photo.108.commitdate: 2022/11/14
 photo.108.link: https://www.instagram.com/itsuak/
 photo.108.tags: paws, sample, tongue, whiskers
 species: 2

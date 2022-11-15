@@ -43,20 +43,21 @@ photo.6.author: tomo3700
 photo.6.commitdate: 2022/10/14
 photo.6.link: https://www.instagram.com/tomo3700/
 photo.6.tags: baby, keeper, portrait, sample, tail
-photo.7: ig://CjwJE9rhXDX/m
-photo.7.author: minato.yokohama4416
-photo.7.commitdate: 2022/11/4
-photo.7.link: https://www.instagram.com/minato.yokohama4416/
-photo.7.tags: baby, climb, mofumofu, paws, portrait, sample
-photo.8: ig://Cj-aeI0vAT-/m
-photo.8.author: resapanlove
+photo.7: ig://CjtW-8Jh6d3/m
+photo.7.author: hamamatsu.chiita
+photo.7.commitdate: 2022/11/14
+photo.7.link: https://www.instagram.com/hamamatsu.chiita/
+photo.7.tags: baby, close-up, mofumofu, portrait, sample, whiskers
+photo.8: ig://CjwJE9rhXDX/m
+photo.8.author: minato.yokohama4416
 photo.8.commitdate: 2022/11/4
-photo.8.link: https://www.instagram.com/resapanlove/
-photo.8.tags: baby, mofumofu, portrait, sample, tail
-photo.9: https://www.instagram.com/p/CjtW-8Jh6d3/media/?size=m
-photo.9.author: hamamatsu.chiita
-photo.9.link: https://www.instagram.com/hamamatsu.chiita/
-photo.9.tags: baby, close-up, mofumofu, portrait, sample, whiskers
+photo.8.link: https://www.instagram.com/minato.yokohama4416/
+photo.8.tags: baby, climb, mofumofu, paws, portrait, sample
+photo.9: ig://Cj-aeI0vAT-/m
+photo.9.author: resapanlove
+photo.9.commitdate: 2022/11/4
+photo.9.link: https://www.instagram.com/resapanlove/
+photo.9.tags: baby, mofumofu, portrait, sample, tail
 species: 2
 studbook.id: unknown
 zoo: 13
