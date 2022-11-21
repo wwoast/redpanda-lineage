@@ -357,40 +357,41 @@ photo.69.author: alto0908
 photo.69.commitdate: 2021/8/10
 photo.69.link: https://www.instagram.com/alto0908/
 photo.69.tags: bamboo, bridge, paws, portrait
-photo.70: ig://CU45oePBkvD/m
-photo.70.author: happy_love2.15
-photo.70.commitdate: 2022/9/10
-photo.70.link: https://www.instagram.com/happy_love2.15/
-photo.70.tags: home, portrait, sample, tongue
-photo.71: ig://CXFIPAxBKBI/m
-photo.71.author: alto0908
-photo.71.commitdate: 2022/1/9
-photo.71.link: https://www.instagram.com/alto0908/
-photo.71.tags: home, laying down, peek, portrait, whiskers
-photo.72: ig://CdqffhPPmWB/m
-photo.72.author: fetorus_mami
-photo.72.commitdate: 2022/6/6
-photo.72.link: https://www.instagram.com/fetorus_mami/
-photo.72.tags: door, paws, whiskers
-photo.73: ig://CfopssZv3Ur/m
-photo.73.author: eos1089
-photo.73.commitdate: 2022/7/31
-photo.73.link: https://www.instagram.com/eos1089/
-photo.73.tags: portrait, sample, whiskers
-photo.74: ig://CgiOVfPhdcx/m
-photo.74.author: alto0908
-photo.74.commitdate: 2022/8/8
-photo.74.link: https://www.instagram.com/alto0908/
-photo.74.tags: door, portrait, sample, tongue
-photo.75: ig://CiUU19buTWo/m
-photo.75.author: hidehaya_biei
-photo.75.commitdate: 2022/10/13
-photo.75.link: https://www.instagram.com/hidehaya_biei/
-photo.75.tags: muzzle, peek, sample, whiskers
-photo.76: https://www.instagram.com/p/CTd19FRLr0f/media/?size=m
+photo.70: ig://CTd19FRLr0f/m
+photo.70.author: hidehaya_biei
+photo.70.commitdate: 2022/11/20
+photo.70.link: https://www.instagram.com/hidehaya_biei/
+photo.70.tags: sample, smile, whiskers
+photo.71: ig://CU45oePBkvD/m
+photo.71.author: happy_love2.15
+photo.71.commitdate: 2022/9/10
+photo.71.link: https://www.instagram.com/happy_love2.15/
+photo.71.tags: home, portrait, sample, tongue
+photo.72: ig://CXFIPAxBKBI/m
+photo.72.author: alto0908
+photo.72.commitdate: 2022/1/9
+photo.72.link: https://www.instagram.com/alto0908/
+photo.72.tags: home, laying down, peek, portrait, whiskers
+photo.73: ig://CdqffhPPmWB/m
+photo.73.author: fetorus_mami
+photo.73.commitdate: 2022/6/6
+photo.73.link: https://www.instagram.com/fetorus_mami/
+photo.73.tags: door, paws, whiskers
+photo.74: ig://CfopssZv3Ur/m
+photo.74.author: eos1089
+photo.74.commitdate: 2022/7/31
+photo.74.link: https://www.instagram.com/eos1089/
+photo.74.tags: portrait, sample, whiskers
+photo.75: ig://CgiOVfPhdcx/m
+photo.75.author: alto0908
+photo.75.commitdate: 2022/8/8
+photo.75.link: https://www.instagram.com/alto0908/
+photo.75.tags: door, portrait, sample, tongue
+photo.76: ig://CiUU19buTWo/m
 photo.76.author: hidehaya_biei
+photo.76.commitdate: 2022/10/13
 photo.76.link: https://www.instagram.com/hidehaya_biei/
-photo.76.tags: sample, smile, whiskers
+photo.76.tags: muzzle, peek, sample, whiskers
 species: 2
 studbook.id: 14155
 video.1: https://youtu.be/GxFrwnJH4s8

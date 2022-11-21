@@ -503,45 +503,46 @@ photo.98.author: makimaru18
 photo.98.commitdate: 2022/7/18
 photo.98.link: https://www.instagram.com/makimaru18/
 photo.98.tags: peek, portrait, sample, smile
-photo.99: ig://ChQzp4aBi9R/m
+photo.99: ig://Cf2-pFnP2JK/m
 photo.99.author: osaka_tennoji_zoo
-photo.99.commitdate: 2022/8/28
+photo.99.commitdate: 2022/11/20
 photo.99.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.99.tags: close-up, keeper, lips, paws, sample, standing, whiskers
-photo.100: ig://ChcWVVcvMSC/m
-photo.100.author: makimaru18
-photo.100.commitdate: 2022/8/30
-photo.100.link: https://www.instagram.com/makimaru18/
-photo.100.tags: keeper, mofumofu, paws, portrait, sample, smile, standing
-photo.101: ig://ChpDwGlL9lV/m
-photo.101.author: kotata_513
+photo.99.tags: close-up, paws, standing
+photo.100: ig://ChQzp4aBi9R/m
+photo.100.author: osaka_tennoji_zoo
+photo.100.commitdate: 2022/8/28
+photo.100.link: https://www.instagram.com/osaka_tennoji_zoo/
+photo.100.tags: close-up, keeper, lips, paws, sample, standing, whiskers
+photo.101: ig://ChcWVVcvMSC/m
+photo.101.author: makimaru18
 photo.101.commitdate: 2022/8/30
-photo.101.link: https://www.instagram.com/kotata_513/
-photo.101.tags: mofumofu, portrait, sample, tail
-photo.102: ig://ChyfKkcpMp7/m
-photo.102.author: osaka_tennoji_zoo
-photo.102.commitdate: 2022/10/7
-photo.102.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.102.tags: close-up, lunch time, paws
-photo.103: ig://Cicj-E_pWxo/m
-photo.103.author: makimaru18
-photo.103.commitdate: 2022/10/13
-photo.103.link: https://www.instagram.com/makimaru18/
-photo.103.tags: keeper, mofumofu, portrait, sample
-photo.104: ig://CifZ82tvh_d/m
-photo.104.author: sakikukeco
-photo.104.commitdate: 2022/10/24
-photo.104.link: https://www.instagram.com/sakikukeco/
-photo.104.tags: lips, mofumofu, paws, sample, standing, whiskers
-photo.105: ig://CilOX9qB5Ao/m
-photo.105.author: hamamatsu.chiita
-photo.105.commitdate: 2022/9/18
-photo.105.link: https://www.instagram.com/hamamatsu.chiita/
-photo.105.tags: portrait, sample, whiskers
-photo.106: https://www.instagram.com/p/Cf2-pFnP2JK/media/?size=m
-photo.106.author: osaka_tennoji_zoo
-photo.106.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.106.tags: close-up, paws, standing
+photo.101.link: https://www.instagram.com/makimaru18/
+photo.101.tags: keeper, mofumofu, paws, portrait, sample, smile, standing
+photo.102: ig://ChpDwGlL9lV/m
+photo.102.author: kotata_513
+photo.102.commitdate: 2022/8/30
+photo.102.link: https://www.instagram.com/kotata_513/
+photo.102.tags: mofumofu, portrait, sample, tail
+photo.103: ig://ChyfKkcpMp7/m
+photo.103.author: osaka_tennoji_zoo
+photo.103.commitdate: 2022/10/7
+photo.103.link: https://www.instagram.com/osaka_tennoji_zoo/
+photo.103.tags: close-up, lunch time, paws
+photo.104: ig://Cicj-E_pWxo/m
+photo.104.author: makimaru18
+photo.104.commitdate: 2022/10/13
+photo.104.link: https://www.instagram.com/makimaru18/
+photo.104.tags: keeper, mofumofu, portrait, sample
+photo.105: ig://CifZ82tvh_d/m
+photo.105.author: sakikukeco
+photo.105.commitdate: 2022/10/24
+photo.105.link: https://www.instagram.com/sakikukeco/
+photo.105.tags: lips, mofumofu, paws, sample, standing, whiskers
+photo.106: ig://CilOX9qB5Ao/m
+photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2022/9/18
+photo.106.link: https://www.instagram.com/hamamatsu.chiita/
+photo.106.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo

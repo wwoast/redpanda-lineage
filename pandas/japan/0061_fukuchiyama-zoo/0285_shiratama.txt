@@ -224,30 +224,31 @@ photo.43.author: jas_forever_love
 photo.43.commitdate: 2021/8/9
 photo.43.link: https://www.instagram.com/jas_forever_love/
 photo.43.tags: mofumofu, paws, portrait, smile, whiskers
-photo.44: ig://CWpAYmShOrB/m
+photo.44: ig://CU3Z373Bt9T/m
 photo.44.author: kisshan324
-photo.44.commitdate: 2021/12/6
+photo.44.commitdate: 2022/11/20
 photo.44.link: https://www.instagram.com/kisshan324/
-photo.44.tags: home, paws, portrait, smile
-photo.45: ig://CXDiozihvad/m
-photo.45.author: redpanda_nippon_takashi
-photo.45.commitdate: 2021/12/30
-photo.45.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.45.tags: bamboo, bite, paws, smile
-photo.46: ig://CXOVH_3saWH/m
-photo.46.author: apple_jasmine33
-photo.46.commitdate: 2021/12/26
-photo.46.link: https://www.instagram.com/apple_jasmine33/
-photo.46.tags: peek, whiskers
-photo.47: ig://CcO9E9XPOy4/m
-photo.47.author: kisshan324
-photo.47.commitdate: 2022/6/10
-photo.47.link: https://www.instagram.com/kisshan324/
-photo.47.tags: portrait, sample, smile, tongue, tree
-photo.48: https://www.instagram.com/p/CU3Z373Bt9T/media/?size=m
+photo.44.tags: paws, portrait, tail
+photo.45: ig://CWpAYmShOrB/m
+photo.45.author: kisshan324
+photo.45.commitdate: 2021/12/6
+photo.45.link: https://www.instagram.com/kisshan324/
+photo.45.tags: home, paws, portrait, smile
+photo.46: ig://CXDiozihvad/m
+photo.46.author: redpanda_nippon_takashi
+photo.46.commitdate: 2021/12/30
+photo.46.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.46.tags: bamboo, bite, paws, smile
+photo.47: ig://CXOVH_3saWH/m
+photo.47.author: apple_jasmine33
+photo.47.commitdate: 2021/12/26
+photo.47.link: https://www.instagram.com/apple_jasmine33/
+photo.47.tags: peek, whiskers
+photo.48: ig://CcO9E9XPOy4/m
 photo.48.author: kisshan324
+photo.48.commitdate: 2022/6/10
 photo.48.link: https://www.instagram.com/kisshan324/
-photo.48.tags: paws, portrait, tail
+photo.48.tags: portrait, sample, smile, tongue, tree
 species: 2
 studbook.id: 13158
 zoo: 61

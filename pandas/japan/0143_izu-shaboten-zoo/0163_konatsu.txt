@@ -961,34 +961,36 @@ photo.191.author: otenba_redpanda
 photo.191.commitdate: 2022/6/22
 photo.191.link: https://www.instagram.com/otenba_redpanda/
 photo.191.tags: mofumofu, portrait, sample, smile, whiskers
-photo.192: ig://Cft2GY3BtZJ/m
-photo.192.author: eos1089
-photo.192.commitdate: 2022/7/31
-photo.192.link: https://www.instagram.com/eos1089/
-photo.192.tags: bamboo, paws, portrait, sample, smile
-photo.193: ig://CfuppFhLyLc/m
-photo.193.author: otenba_redpanda
-photo.193.commitdate: 2022/8/16
-photo.193.link: https://www.instagram.com/otenba_redpanda/
-photo.193.tags: mofumofu, portrait, sample, whiskers
-photo.194: ig://CgOw1Plv_nw/m
-photo.194.author: miis_98
-photo.194.commitdate: 2022/7/28
-photo.194.link: https://www.instagram.com/miis_98/
-photo.194.tags: bridge, paws, portrait, sample, smile
-photo.195: ig://Chr4IZ4LaJq/m
-photo.195.author: mini_cochi
-photo.195.commitdate: 2022/8/31
-photo.195.link: https://www.instagram.com/mini_cochi/
-photo.195.tags: portrait, sample, tongue, whiskers
-photo.196: https://www.instagram.com/p/Cftx6djBDq9/media/?size=m
-photo.196.author: pink.b22
-photo.196.link: https://www.instagram.com/pink.b22/
-photo.196.tags: paws, portrait, sample, smile, tongue, whiskers
-photo.197: https://www.instagram.com/p/CfjM3tvvUKg/media/?size=m
-photo.197.author: pink.b22
-photo.197.link: https://www.instagram.com/pink.b22/
-photo.197.tags: bridge, laying down, paws, portrait, sleeping
+photo.192: ig://CfjM3tvvUKg/m
+photo.192.author: pink.b22
+photo.192.commitdate: 2022/11/20
+photo.192.link: https://www.instagram.com/pink.b22/
+photo.192.tags: bridge, laying down, paws, portrait, sleeping
+photo.193: ig://Cftx6djBDq9/m
+photo.193.author: pink.b22
+photo.193.commitdate: 2022/11/20
+photo.193.link: https://www.instagram.com/pink.b22/
+photo.193.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.194: ig://Cft2GY3BtZJ/m
+photo.194.author: eos1089
+photo.194.commitdate: 2022/7/31
+photo.194.link: https://www.instagram.com/eos1089/
+photo.194.tags: bamboo, paws, portrait, sample, smile
+photo.195: ig://CfuppFhLyLc/m
+photo.195.author: otenba_redpanda
+photo.195.commitdate: 2022/8/16
+photo.195.link: https://www.instagram.com/otenba_redpanda/
+photo.195.tags: mofumofu, portrait, sample, whiskers
+photo.196: ig://CgOw1Plv_nw/m
+photo.196.author: miis_98
+photo.196.commitdate: 2022/7/28
+photo.196.link: https://www.instagram.com/miis_98/
+photo.196.tags: bridge, paws, portrait, sample, smile
+photo.197: ig://Chr4IZ4LaJq/m
+photo.197.author: mini_cochi
+photo.197.commitdate: 2022/8/31
+photo.197.link: https://www.instagram.com/mini_cochi/
+photo.197.tags: portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 1691
 video.1: https://youtu.be/ma8fX2kWx_k

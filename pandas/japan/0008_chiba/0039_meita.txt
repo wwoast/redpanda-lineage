@@ -858,15 +858,16 @@ photo.169.author: eos1089
 photo.169.commitdate: 2022/7/31
 photo.169.link: https://www.instagram.com/eos1089/
 photo.169.tags: bamboo, paws, portrait, sample, whiskers
-photo.170: ig://CixIsQYLUxC/m
-photo.170.author: ifumoto88
-photo.170.commitdate: 2022/10/6
-photo.170.link: https://www.instagram.com/ifumoto88/
-photo.170.tags: paws, portrait, sample, smile, whiskers
-photo.171: https://www.instagram.com/p/CgP1FsyBR4i/media/?size=m
-photo.171.author: hamamatsu.chiita
-photo.171.link: https://www.instagram.com/hamamatsu.chiita/
-photo.171.tags: laying down, portrait, sample, smile, whiskers
+photo.170: ig://CgP1FsyBR4i/m
+photo.170.author: hamamatsu.chiita
+photo.170.commitdate: 2022/11/20
+photo.170.link: https://www.instagram.com/hamamatsu.chiita/
+photo.170.tags: laying down, portrait, sample, smile, whiskers
+photo.171: ig://CixIsQYLUxC/m
+photo.171.author: ifumoto88
+photo.171.commitdate: 2022/10/6
+photo.171.link: https://www.instagram.com/ifumoto88/
+photo.171.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8
