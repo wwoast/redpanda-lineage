@@ -288,20 +288,21 @@ photo.54.author: kisshan324
 photo.54.commitdate: 2021/4/28
 photo.54.link: https://www.instagram.com/kisshan324/
 photo.54.tags: portrait, tail, tree
-photo.55: ig://CT9HtDoBFUt/m
-photo.55.author: mifko55
-photo.55.commitdate: 2022/7/13
-photo.55.link: https://www.instagram.com/mifko55/
-photo.55.tags: home, portrait, sample
-photo.56: ig://CiabWzgppoP/m
-photo.56.author: sakikukeco
-photo.56.commitdate: 2022/10/13
-photo.56.link: https://www.instagram.com/sakikukeco/
-photo.56.tags: close-up, portrait, sample, smile, whiskers
-photo.57: https://www.instagram.com/p/CTuYcgWhD5a/media/?size=m
-photo.57.author: nakacchi_desu
-photo.57.link: https://www.instagram.com/nakacchi_desu/
-photo.57.tags: paws, tongue, whiskers
+photo.55: ig://CTuYcgWhD5a/m
+photo.55.author: nakacchi_desu
+photo.55.commitdate: 2022/11/24
+photo.55.link: https://www.instagram.com/nakacchi_desu/
+photo.55.tags: paws, tongue, whiskers
+photo.56: ig://CT9HtDoBFUt/m
+photo.56.author: mifko55
+photo.56.commitdate: 2022/7/13
+photo.56.link: https://www.instagram.com/mifko55/
+photo.56.tags: home, portrait, sample
+photo.57: ig://CiabWzgppoP/m
+photo.57.author: sakikukeco
+photo.57.commitdate: 2022/10/13
+photo.57.link: https://www.instagram.com/sakikukeco/
+photo.57.tags: close-up, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 13163
 uncertainty: location.3 move date (exhibit start is 2021/1/2)
