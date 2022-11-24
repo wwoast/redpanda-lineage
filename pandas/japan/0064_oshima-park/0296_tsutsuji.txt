@@ -61,7 +61,8 @@ photo.9.tags: portrait, tail, tree
 photo.10: ig://B74f1l1hDAi/m
 photo.10.author: grskus_tk
 photo.10.commitdate: 2022/11/24
-photo.10.link: apple time, portrait, sample, tail
+photo.10.link: https://www.instagram.com/grskus_tk/
+photo.10.tags: apple time, portrait, sample, tail
 photo.11: ig://B-SJT1fhiMx/m
 photo.11.author: craig_craig_craig
 photo.11.commitdate: 2020/3/28
