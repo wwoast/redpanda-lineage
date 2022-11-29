@@ -969,24 +969,25 @@ photo.191.author: daniele.tokyo
 photo.191.commitdate: 2022/7/22
 photo.191.link: https://www.instagram.com/daniele.tokyo/
 photo.191.tags: peek, tongue, tree
-photo.192: ig://Cgal1enJDP0/m
-photo.192.author: osopanda551
-photo.192.commitdate: 2022/8/8
-photo.192.link: https://www.instagram.com/osopanda551/
-photo.192.tags: portrait, sample, smile
-photo.193: ig://ChCdFxXpe3l/m
-photo.193.author: morikirara
-photo.193.commitdate: 2022/8/28
-photo.193.link: https://www.instagram.com/morikirara/
-photo.193.tags: close-up, nose, sample, whiskers
-photo.194: ig://CkDDvLpBksK/m
-photo.194.author: monmon_redpanda
-photo.194.commitdate: 2022/11/4
-photo.194.link: https://www.instagram.com/monmon_redpanda/
-photo.194.tags: paws, portrait, sample, tail, whiskers
-photo.195: https://www.instagram.com/p/Cfln_KkPGU8/media/?size=m
-photo.195.author: daniele.tokyo
-photo.195.link: https://www.instagram.com/daniele.tokyo/
-photo.195.tags: peek, wet, whiskers
+photo.192: ig://Cfln_KkPGU8/m
+photo.192.author: daniele.tokyo
+photo.192.commitdate: 2022/11/29
+photo.192.link: https://www.instagram.com/daniele.tokyo/
+photo.192.tags: peek, wet, whiskers
+photo.193: ig://Cgal1enJDP0/m
+photo.193.author: osopanda551
+photo.193.commitdate: 2022/8/8
+photo.193.link: https://www.instagram.com/osopanda551/
+photo.193.tags: portrait, sample, smile
+photo.194: ig://ChCdFxXpe3l/m
+photo.194.author: morikirara
+photo.194.commitdate: 2022/8/28
+photo.194.link: https://www.instagram.com/morikirara/
+photo.194.tags: close-up, nose, sample, whiskers
+photo.195: ig://CkDDvLpBksK/m
+photo.195.author: monmon_redpanda
+photo.195.commitdate: 2022/11/4
+photo.195.link: https://www.instagram.com/monmon_redpanda/
+photo.195.tags: paws, portrait, sample, tail, whiskers
 species: 2
 zoo: 19

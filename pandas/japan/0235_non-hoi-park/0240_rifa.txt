@@ -14,6 +14,7 @@ jp.othernames: リーファ
 language.order: jp, en
 location.1: 17, 2018/6/7
 location.2: 235, 2020/1/28
+phoot.364.link: https://www.instagram.com/otenba_redpanda/
 photo.1: ig://BnlA42LlYgl/m
 photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2018/9/24
@@ -1802,30 +1803,30 @@ photo.359.author: ayusuke56
 photo.359.commitdate: 2022/7/25
 photo.359.link: https://www.instagram.com/ayusuke56/
 photo.359.tags: paws, portrait, sample, smile, whiskers
-photo.360: ig://Cg0Gac7JoqJ/m
+photo.360: ig://CgX5BFzLMUv/m
 photo.360.author: otenba_redpanda
-photo.360.commitdate: 2022/11/11
-photo.360.link: https://www.instagram.com/otenba_redpanda/
-photo.360.tags: mofumofu, portrait, sample, whiskers
-photo.361: ig://ChWlqnjPFUl/m
-photo.361.author: ssc6105
-photo.361.commitdate: 2022/8/18
-photo.361.link: https://www.instagram.com/ssc6105/
-photo.361.tags: paws, sample, smile, whiskers
-photo.362: ig://Che-0Vgh0l-/m
-photo.362.author: yakko____
-photo.362.commitdate: 2022/8/26
-photo.362.link: https://www.instagram.com/yakko____/
-photo.362.tags: laying down, mofumofu, paws, peek, portrait, sample, smile, whiskers
-photo.363: ig://Chjxt2eBEvD/m
-photo.363.author: ssc6105
-photo.363.commitdate: 2022/8/31
-photo.363.link: https://www.instagram.com/ssc6105/
-photo.363.tags: paws, sample, smile, whiskers
-photo.364: https://www.instagram.com/p/CgX5BFzLMUv/media/?size=m
-photo.364.author: otenba_redpanda
-phoot.364.link: https://www.instagram.com/otenba_redpanda/
-photo.364.tags: bamboo, bite, portrait, sample
+photo.360.commitdate: 2022/11/29
+photo.360.tags: bamboo, bite, portrait, sample
+photo.361: ig://Cg0Gac7JoqJ/m
+photo.361.author: otenba_redpanda
+photo.361.commitdate: 2022/11/11
+photo.361.link: https://www.instagram.com/otenba_redpanda/
+photo.361.tags: mofumofu, portrait, sample, whiskers
+photo.362: ig://ChWlqnjPFUl/m
+photo.362.author: ssc6105
+photo.362.commitdate: 2022/8/18
+photo.362.link: https://www.instagram.com/ssc6105/
+photo.362.tags: paws, sample, smile, whiskers
+photo.363: ig://Che-0Vgh0l-/m
+photo.363.author: yakko____
+photo.363.commitdate: 2022/8/26
+photo.363.link: https://www.instagram.com/yakko____/
+photo.363.tags: laying down, mofumofu, paws, peek, portrait, sample, smile, whiskers
+photo.364: ig://Chjxt2eBEvD/m
+photo.364.author: ssc6105
+photo.364.commitdate: 2022/8/31
+photo.364.link: https://www.instagram.com/ssc6105/
+photo.364.tags: paws, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235
