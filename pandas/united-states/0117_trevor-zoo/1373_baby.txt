@@ -3,6 +3,7 @@ _id: 1373
 birthday: 2022/7/7
 birthplace: 117
 children: none
+death: 2022/8/1
 commitdate: 2022/7/14
 en.name: Baby
 en.nicknames: none
@@ -14,4 +15,5 @@ jp.othernames: none
 language.order: en, jp
 litter: 1372
 species: 1
+uncertainty: death date (july or august 2022)
 zoo: 117

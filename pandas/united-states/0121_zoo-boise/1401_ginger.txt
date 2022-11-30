@@ -1,0 +1,22 @@
+[panda]
+_id: 1401
+birthday: 2021/6/21 
+birthplace: 121
+children: none
+commitdate: 2022/11/29
+en.name: Ginger
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジンジャー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1402
+photo.1: https://www.instagram.com/p/Cj8aOCsJbDY/media/?size=m
+photo.1.author: zooboise
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: portrait, tail, whiskers
+species: 1
+uncertainty: location.2 starts oct 21, 2022 -- but where?
+zoo: 121
