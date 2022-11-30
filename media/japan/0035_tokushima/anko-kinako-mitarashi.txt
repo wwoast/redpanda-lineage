@@ -1,8 +1,10 @@
 [media]
 _id: media.35.anko-kinako-mitarashi
+commitdate: 2022/11/29
 panda.tags: 110, 141, 282
-photo.1: https://www.instagram.com/p/CbSWrQqPxLl/media/?size=l
+photo.1: ig://CbSWrQqPxLl/l
 photo.1.author: tomo3700
+photo.1.commitdate: 2022/11/29
 photo.1.link: https://www.instagram.com/tomo3700/
 photo.1.tags: siblings, sisters, twins
 photo.1.tags.110.location: 370, 135
