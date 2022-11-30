@@ -81,14 +81,15 @@ photo.13.author: rossifari
 photo.13.commitdate: 2022/11/29
 photo.13.link: https://www.instagram.com/rossifari/
 photo.13.tags: nose, peek, portrait, sample, whiskers
-photo.14: ig://Ci9-Of6sDvt/m
-photo.14.author: rossifari
-photo.14.commitdate: 2022/11/4
-photo.14.link: https://www.instagram.com/rossifari/
-photo.14.tags: bamboo, whiskers
-photo.15: https://www.instagram.com/p/Ciqmriyvro3/media/?size=m
-photo.15.author: charlespaddockzoo
-photo.15.link: https://www.instagram.com/charlespaddockzoo/
-photo.15.tags: sample, tail, white face
+photo.14: ig://Ciqmriyvro3/m
+photo.14.author: charlespaddockzoo
+photo.14.commitdate: 2022/11/29
+photo.14.link: https://www.instagram.com/charlespaddockzoo/
+photo.14.tags: sample, tail, white face
+photo.15: ig://Ci9-Of6sDvt/m
+photo.15.author: rossifari
+photo.15.commitdate: 2022/11/4
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: bamboo, whiskers
 species: 1
 zoo: 129

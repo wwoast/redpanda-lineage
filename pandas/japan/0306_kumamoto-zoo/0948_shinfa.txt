@@ -890,18 +890,20 @@ photo.175.author: kumamoto_doushokubutsuen
 photo.175.commitdate: 2022/9/7
 photo.175.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.175.tags: bridge, mofumofu, peek
-photo.176: ig://CitLq9-B3JX/m
-photo.176.author: redpan22
-photo.176.commitdate: 2022/10/13
-photo.176.link: https://www.instagram.com/redpan22/
-photo.176.tags: close-up, sample, smile, tongue, whiskers
-photo.177: https://www.instagram.com/p/Ciuob1Mv0FR/media/?size=m
-photo.177.author: kumamoto_doushokubutsuen
-photo.177.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.177.tags: hammock, peek, whiskers
-photo.178: https://www.instagram.com/p/Cilzcf1vMQ1/media/?size=m
+photo.176: ig://Cilzcf1vMQ1/m
+photo.176.author: kumamoto_doushokubutsuen
+photo.176.commitdate: 2022/11/29
+photo.176.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.176.tags: bite, lunch time, paws
+photo.177: ig://CitLq9-B3JX/m
+photo.177.author: redpan22
+photo.177.commitdate: 2022/10/13
+photo.177.link: https://www.instagram.com/redpan22/
+photo.177.tags: close-up, sample, smile, tongue, whiskers
+photo.178: ig://Ciuob1Mv0FR/m
 photo.178.author: kumamoto_doushokubutsuen
+photo.178.commitdate: 2022/11/29
 photo.178.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.178.tags: bite, lunch time, paws
+photo.178.tags: hammock, peek, whiskers
 species: 2
 zoo: 306

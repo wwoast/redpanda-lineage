@@ -2,16 +2,17 @@
 _id: media.37.reirei-yunyun
 commitdate: 2020/7/3
 panda.tags: 225, 226
-photo.1: ig://CB-mYYTBxkk/l
-photo.1.author: leonard_redmof
-photo.1.commitdate: 2020/7/3
-photo.1.link: https://www.instagram.com/leonard_redmof/
-photo.1.tags: siblings, snow, twins
-photo.1.tags.225.location: 510, 335
-photo.1.tags.226.location: 435, 440
-photo.2: https://www.instagram.com/p/BpnH7AdF00X/media/?size=l
-photo.2.author: wumpwoast
-photo.2.link: https://www.instagram.com/wumpwoast/
-photo.2.tags: portrait, siblings, tail, twins, wet
-photo.2.tags.225.location: 520, 100
-photo.2.tags.226.location: 250, 315
+photo.1: ig://BpnH7AdF00X/l
+photo.1.author: wumpwoast
+photo.1.commitdate: 2022/11/29
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: portrait, siblings, tail, twins, wet
+photo.1.tags.225.location: 520, 100
+photo.1.tags.226.location: 250, 315
+photo.2: ig://CB-mYYTBxkk/l
+photo.2.author: leonard_redmof
+photo.2.commitdate: 2020/7/3
+photo.2.link: https://www.instagram.com/leonard_redmof/
+photo.2.tags: siblings, snow, twins
+photo.2.tags.225.location: 510, 335
+photo.2.tags.226.location: 435, 440
