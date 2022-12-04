@@ -863,19 +863,21 @@ photo.170.author: hamamatsu.chiita
 photo.170.commitdate: 2022/11/20
 photo.170.link: https://www.instagram.com/hamamatsu.chiita/
 photo.170.tags: laying down, portrait, sample, smile, whiskers
-photo.171: ig://CixIsQYLUxC/m
-photo.171.author: ifumoto88
-photo.171.commitdate: 2022/10/6
-photo.171.link: https://www.instagram.com/ifumoto88/
-photo.171.tags: paws, portrait, sample, smile, whiskers
-photo.172: https://www.instagram.com/p/ChpB_YYreFE/media/?size=m
+photo.171: ig://ChpB_YYreFE/m
+photo.171.author: kiarino51
+photo.171.commitdate: 2022/12/3
+photo.171.link: https://www.instagram.com/kiarino51/
+photo.171.tags: close-up, peek, portrait, sample, smile, whiskers
+photo.172: ig://CikaU0QLD4_/m
 photo.172.author: kiarino51
+photo.172.commitdate: 2022/12/3
 photo.172.link: https://www.instagram.com/kiarino51/
-photo.172.tags: close-up, peek, portrait, sample, smile, whiskers
-photo.173: https://www.instagram.com/p/CikaU0QLD4_/media/?size=m
-photo.173.author: kiarino51
-photo.173.link: https://www.instagram.com/kiarino51/
-photo.173.tags: laying down, portrait, sample, smile, tongue, whiskers
+photo.172.tags: laying down, portrait, sample, smile, tongue, whiskers
+photo.173: ig://CixIsQYLUxC/m
+photo.173.author: ifumoto88
+photo.173.commitdate: 2022/10/6
+photo.173.link: https://www.instagram.com/ifumoto88/
+photo.173.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8
