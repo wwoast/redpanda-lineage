@@ -723,6 +723,18 @@ photo.142.author: otenba_redpanda
 photo.142.commitdate: 2022/8/7
 photo.142.link: https://www.instagram.com/otenba_redpanda/
 photo.142.tags: portrait, sample, tongue, whiskers
+photo.143: https://www.instagram.com/p/CYOvmnnFu3y/media/?size=m
+photo.143.author: kiarino51
+photo.143.link: https://www.instagram.com/kiarino51/
+photo.143.tags: portrait, sample, whiskers
+photo.144: https://www.instagram.com/p/CbTur4yLboB/media/?size=m
+photo.144.author: kiarino51
+photo.144.link: https://www.instagram.com/kiarino51/
+photo.144.tags: air tasting, portrait, sample, tongue, whiskers
+photo.145: https://www.instagram.com/p/CjF5hiIrI7h/media/?size=m
+photo.145.author: kiarino51
+photo.145.link: https://www.instagram.com/kiarino51/
+photo.145.tags: door, portrait, sample, tail
 species: 2
 studbook.id: 13155
 zoo: 8

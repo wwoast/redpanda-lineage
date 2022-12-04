@@ -37,7 +37,7 @@ photo.5: ig://BStG6VLFCFv/m
 photo.5.author: rdpnzoo
 photo.5.commitdate: 2022/9/25
 photo.5.link: https://www.instagram.com/rdpnzoo/
-photo.5.tags: baby, keeper, paws
+photo.5.tags: keeper, paws
 photo.6: ig://Bet_XZHB7ka/m
 photo.6.author: minatomirai215
 photo.6.commitdate: 2018/7/28
@@ -458,6 +458,14 @@ photo.89.author: panda.daisuki
 photo.89.commitdate: 2022/8/1
 photo.89.link: https://www.instagram.com/panda.daisuki/
 photo.89.tags: apple time, portrait, sample
+photo.90: https://www.instagram.com/p/ChgCsgSPtdu/media/?size=m
+photo.90.author: kiarino51
+photo.90.link: https://www.instagram.com/kiarino51/
+photo.90.tags: laying down, mofumofu, portrait, sample, tongue, whiskers
+photo.91: https://www.instagram.com/p/CAfdxkMhGeL/media/?size=m
+photo.91.author: kiarino51
+photo.91.link: https://www.instagram.com/kiarino51/
+photo.91.tags: baby, mofumofu, paws, peek, sample, whiskers
 species: 2
 studbook.id: 15141
 zoo: 8
