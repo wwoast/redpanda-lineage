@@ -460,8 +460,9 @@ photo.89.author: kiarino51
 photo.89.commitdate: 2022/12/3
 photo.89.link: https://www.instagram.com/kiarino51/
 photo.89.tags: bamboo, bite, paws, portrait, tongue
-photo.90: https://www.instagram.com/p/Cj-F527B1e3/media/?size=m
+photo.90: ig://Cj-F527B1e3/m
 photo.90.author: kiarino51
+photo.90.commitdate: 2022/12/4
 photo.90.link: https://www.instagram.com/kiarino51/
 photo.90.tags: lips, portrait, sample, smile, whiskers
 species: 2
