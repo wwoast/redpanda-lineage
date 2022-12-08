@@ -562,8 +562,9 @@ photo.110.author: colette.jp
 photo.110.commitdate: 2022/11/4
 photo.110.link: https://www.instagram.com/colette.jp/
 photo.110.tags: itchy, paws, portrait, sample, smile, tail
-photo.111: https://www.instagram.com/p/ClgJLLkPlig/media/?size=m
+photo.111: ig://ClgJLLkPlig/m
 photo.111.author: colette.jp
+photo.111.commitdate: 2022/12/7
 photo.111.link: https://www.instagram.com/colette.jp/
 photo.111.tags: autumn, portrait, sample, smile
 species: 2

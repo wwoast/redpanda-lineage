@@ -40,8 +40,9 @@ photo.5.author: monmon_redpanda
 photo.5.commitdate: 2019/5/9
 photo.5.link: https://www.instagram.com/monmon_redpanda/
 photo.5.tags: portrait, smile
-photo.6: https://www.instagram.com/p/Cen-pcXjHfL/media/?size=m
+photo.6: ig://Cen-pcXjHfL/m
 photo.6.author: zoonacionalchile
+photo.6.commitdate: 2022/12/7
 photo.6.link: https://www.instagram.com/zoonacionalchile/
 photo.6.tags: apple time
 species: 2

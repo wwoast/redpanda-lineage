@@ -199,8 +199,9 @@ photo.37.author: kojikoji2011
 photo.37.commitdate: 2022/10/7
 photo.37.link: https://www.instagram.com/kojikoji2011/
 photo.37.tags: sample, whiskers
-photo.38: https://www.instagram.com/p/CllKTFlPFtQ/media/?size=m
+photo.38: ig://CllKTFlPFtQ/m
 photo.38.author: kojikoji2011
+photo.38.commitdate: 2022/12/7
 photo.38.link: https://www.instagram.com/kojikoji2011/
 photo.38.tags: lips, portrait, sample, whiskers
 species: 2

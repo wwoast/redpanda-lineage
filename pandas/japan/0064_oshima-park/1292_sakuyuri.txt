@@ -133,8 +133,9 @@ photo.24.author: sakikukeco
 photo.24.commitdate: 2022/8/18
 photo.24.link: https://www.instagram.com/sakikukeco/
 photo.24.tags: mofumofu, portrait, sample, smile
-photo.25: https://www.instagram.com/p/Cikmgolhtux/media/?size=m
+photo.25: ig://Cikmgolhtux/m
 photo.25.author: oshimabranchoffice
+photo.25.commitdate: 2022/12/7
 photo.25.link: https://www.instagram.com/oshimabranchoffice/
 photo.25.tags: apple time, close-up, dish, portrait, sample
 species: 2

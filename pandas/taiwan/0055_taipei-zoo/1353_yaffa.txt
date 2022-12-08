@@ -101,8 +101,9 @@ photo.17.author: yuredpanda
 photo.17.commitdate: 2022/8/30
 photo.17.link: https://www.instagram.com/yuredpanda/
 photo.17.tags: portrait, sample, smile, whiskers
-photo.18: https://www.instagram.com/p/CllIA5SPUba/media/?size=m
+photo.18: ig://CllIA5SPUba/m
 photo.18.author: yuredpanda
+photo.18.commitdate: 2022/12/7
 photo.18.link: https://www.instagram.com/yuredpanda/
 photo.18.tags: portrait, smile, tongue, whiskers
 species: 2
