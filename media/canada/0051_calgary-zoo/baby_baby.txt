@@ -1,21 +1,25 @@
 [media]
 _id: media.51.baby-baby
+commitdate: 2022/12/8
 panda.tags: 1396, 1397
-photo.1: https://www.instagram.com/p/CkwuwqopL6r/media/?size=l
-photo.1.author: westcoast_kathy
-photo.1.link: https://www.instagram.com/westcoast_kathy/
-photo.1.tags: baby, mofumofu, portrait, siblings, snow, twins, whiskers
-photo.1.tags.1396.location: 250, 440
-photo.1.tags.1397.location: 390, 430
-photo.2: https://www.instagram.com/p/ClFR69Lvlrv/media/?size=l
+photo.1: ig://Cj8TiOYN_jJ/l
+photo.1.author: thecalgaryzoo
+photo.1.commitdate: 2022/12/8
+photo.1.link: https://www.instagram.com/thecalgaryzoo/
+photo.1.tags: baby, siblings, twins
+photo.1.tags.1396.location: 155, 160
+photo.1.tags.1397.location: 265, 235
+photo.2: ig://CkwuwqopL6r/l
 photo.2.author: westcoast_kathy
+photo.2.commitdate: 2022/12/8
 photo.2.link: https://www.instagram.com/westcoast_kathy/
-photo.2.tags: baby, mofumofu, siblings, snow, twins, whiskers
-photo.2.tags.1396.location: 255, 425
-photo.2.tags.1397.location: 470, 315
-photo.3: https://www.instagram.com/p/Cj8TiOYN_jJ/media/?size=l
-photo.3.author: thecalgaryzoo
-photo.3.link: https://www.instagram.com/thecalgaryzoo/
-photo.3.tags: baby, siblings, twins
-photo.3.tags.1396.location: 155, 160
-photo.3.tags.1397.location: 265, 235
+photo.2.tags: baby, mofumofu, portrait, siblings, snow, twins, whiskers
+photo.2.tags.1396.location: 250, 440
+photo.2.tags.1397.location: 390, 430
+photo.3: ig://ClFR69Lvlrv/l
+photo.3.author: westcoast_kathy
+photo.3.commitdate: 2022/12/8
+photo.3.link: https://www.instagram.com/westcoast_kathy/
+photo.3.tags: baby, mofumofu, siblings, snow, twins, whiskers
+photo.3.tags.1396.location: 255, 425
+photo.3.tags.1397.location: 470, 315
