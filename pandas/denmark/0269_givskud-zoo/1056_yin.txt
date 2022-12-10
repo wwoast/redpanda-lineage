@@ -16,6 +16,7 @@ language.order: en, jp
 litter: unknown
 location.1: 225, 2016/6/17
 location.2: 219, 2017/2/12
+location.3: 269, 2022/7/1
 photo.1: ig://BnWDp4Ynvtu/m
 photo.1.author: mirellad03
 photo.1.commitdate: 2021/7/30
@@ -184,6 +185,10 @@ photo.34.author: nathalie.elliott
 photo.34.commitdate: 2021/5/21
 photo.34.link: https://www.instagram.com/nathalie.elliott/
 photo.34.tags: portrait, whiskers
+photo.35: https://www.instagram.com/p/CR3MyjsqfIn/media/?size=m
+photo.35.author: givskudzoo
+photo.35.link: https://www.instagram.com/givskudzoo/
+photo.35.tags: portrait, sample, tongue, whiskers
 species: 1
-uncertainty: death exact day (feb is close)
+uncertainty: death exact day (feb is close), location.3 exact date
 zoo: 219

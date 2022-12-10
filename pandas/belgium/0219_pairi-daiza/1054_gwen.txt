@@ -4,6 +4,7 @@ birthday: 2005/6/24
 birthplace: 222
 children: unknown
 commitdate: 2019/11/23
+death: 2020/1/1
 en.name: Gwen
 en.nicknames: none
 en.othernames: none
@@ -57,4 +58,5 @@ photo.8.commitdate: 2019/12/9
 photo.8.link: https://www.instagram.com/nikosan59/
 photo.8.tags: paws, portrait, white face
 species: 1
+uncertainty: death exact date in winter 2019-2020
 zoo: 219

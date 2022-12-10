@@ -6,11 +6,11 @@ children: 1339, 1052, 1053
 cn.name: 天麦
 commitdate: 2020/11/26
 death: 2016/9/30
-en.name: Tienmai
+en.name: Tianmai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ティエンマイ
+jp.name: チアンマイ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -18,4 +18,5 @@ litter: unknown
 location.1: 270, 2012/7/12
 location.2: 219, 2013/10/16
 species: 1
+studbook.id: 1270
 zoo: 219
