@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1127, 1129
+location.1: 116, 2019/6/16
+location.2: 115, 2021/6/17
 np.name: काश्मीर
 np.nicknames: none
 np.othernames: none
@@ -27,4 +29,5 @@ photo.2.commitdate: 2022/1/4
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: peek, white face
 species: 1
-zoo: 116
+studbook.id: 1917
+zoo: 115

@@ -15,7 +15,6 @@ language.order: en, jp
 litter: 951
 location.1: 199, 2011/6/22
 location.2: 214, 2012/5/25
-phoot.18.link: https://www.instagram.com/paradisewildlifepark/
 photo.1: ig://6KF6XgytXU/m
 photo.1.author: paradisewildlifepark
 photo.1.commitdate: 2022/12/10
@@ -39,6 +38,7 @@ photo.4.tags: bridge, close-up, sample, whiskers
 photo.5: ig://BYyXdbpBQeq/m
 photo.5.author: paradisewildlifepark
 photo.5.commitdate: 2022/12/10
+photo.5.link: https://www.instagram.com/paradisewildlifepark/
 photo.5.tags: blink, laying down, tongue, tree, whiskers
 photo.6: ig://BcexySAB6v0/m
 photo.6.author: paradisewildlifepark
