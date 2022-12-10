@@ -14,8 +14,15 @@ jp.othernames: none
 language.order: en, jp
 litter: 1224
 location.1: 154, 2018/6/21
-location.2: 144, 2019/7/1
+location.2: 144, 2019/10/21
+photo.1: https://www.instagram.com/p/BumMr92ANb4/media/?size=m
+photo.1.author: raven__creative
+photo.1.link: https://www.instagram.com/raven__creative/
+photo.1.tags: mofumofu, peek, smile
+photo.2: https://www.instagram.com/p/Buv7h_MAcLt/media/?size=m
+photo.2.author: raven__creative
+photo.2.link: https://www.instagram.com/raven__creative/
+photo.2.tags: laying down, mofumofu, paws
 species: 1
 studbook.id: 1815
-uncertainty: location.2 date
 zoo: 144

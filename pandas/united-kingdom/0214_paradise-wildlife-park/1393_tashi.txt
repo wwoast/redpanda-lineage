@@ -1,14 +1,14 @@
 [panda]
 _id: 1393
-birthday: 2022/6/1
+birthday: 2022/7/16
 birthplace: 214
 children: none
 commitdate: 2022/9/14
-en.name: Baby
+en.name: Tashi
 en.nicknames: none
 en.othernames: Little Red
 gender: unknown
-jp.name: 赤ちゃん
+jp.name: タシ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
