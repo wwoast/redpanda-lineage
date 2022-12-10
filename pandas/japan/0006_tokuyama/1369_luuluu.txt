@@ -6,7 +6,7 @@ children: none
 commitdate: 2022/7/14
 en.name: Luu-Luu
 en.nicknames: none
-en.othernames: Luuluu, Ruuruu, Ruru, Lulu, Lu-Lu, Ru-Ru, 
+en.othernames: Luuluu, Ruuruu, Ruru, Lulu, Lu-Lu, Ru-Ru,
 gender: m
 jp.name: ルールー
 jp.nicknames: none
@@ -48,8 +48,9 @@ photo.7.author: miis_98
 photo.7.commitdate: 2022/11/14
 photo.7.link: https://www.instagram.com/miis_98/
 photo.7.tags: baby, climb, paws, standing
-photo.8: https://www.instagram.com/p/ClVFjJOvsUw/media/?size=m
+photo.8: ig://ClVFjJOvsUw/m
 photo.8.author: re_ichimaru
+photo.8.commitdate: 2022/12/10
 photo.8.link: https://www.instagram.com/re_ichimaru/
 photo.8.tags: baby, laying down, mofumofu, playing, portrait
 species: 2

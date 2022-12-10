@@ -154,20 +154,21 @@ photo.28.author: daniele.tokyo
 photo.28.commitdate: 2022/8/28
 photo.28.link: https://www.instagram.com/daniele.tokyo/
 photo.28.tags: laying down, paws, playing, sample, tail
-photo.29: ig://ChmJgAwBfus/m
-photo.29.author: _sah_ax7
-photo.29.commitdate: 2022/11/2
-photo.29.link: https://www.instagram.com/_sah_ax7/
-photo.29.tags: laying down, paws, peek
-photo.30: ig://CiZ-kdVJKqo/m
-photo.30.author: fetorus_mami
-photo.30.commitdate: 2022/10/13
-photo.30.link: https://www.instagram.com/fetorus_mami/
-photo.30.tags: paws, sample, tail, whiskers
-photo.31: https://www.instagram.com/p/ChGrryFPw9K/media/?size=m
-photo.31.author: hamiiiii831_
-photo.31.link: https://www.instagram.com/hamiiiii831_/
-photo.31.tags: laying down, paws, sample, tail, toys, upside-down
+photo.29: ig://ChGrryFPw9K/m
+photo.29.author: hamiiiii831_
+photo.29.commitdate: 2022/12/10
+photo.29.link: https://www.instagram.com/hamiiiii831_/
+photo.29.tags: laying down, paws, sample, tail, toys, upside-down
+photo.30: ig://ChmJgAwBfus/m
+photo.30.author: _sah_ax7
+photo.30.commitdate: 2022/11/2
+photo.30.link: https://www.instagram.com/_sah_ax7/
+photo.30.tags: laying down, paws, peek
+photo.31: ig://CiZ-kdVJKqo/m
+photo.31.author: fetorus_mami
+photo.31.commitdate: 2022/10/13
+photo.31.link: https://www.instagram.com/fetorus_mami/
+photo.31.tags: paws, sample, tail, whiskers
 species: 2
 studbook.id: 0469
 zoo: 79
