@@ -185,8 +185,9 @@ photo.34.author: nathalie.elliott
 photo.34.commitdate: 2021/5/21
 photo.34.link: https://www.instagram.com/nathalie.elliott/
 photo.34.tags: portrait, whiskers
-photo.35: https://www.instagram.com/p/CR3MyjsqfIn/media/?size=m
+photo.35: ig://CR3MyjsqfIn/m
 photo.35.author: givskudzoo
+photo.35.commitdate: 2022/12/10
 photo.35.link: https://www.instagram.com/givskudzoo/
 photo.35.tags: portrait, sample, tongue, whiskers
 species: 1

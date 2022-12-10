@@ -50,8 +50,9 @@ photo.7.author: seelviahhtaz
 photo.7.commitdate: 2022/5/22
 photo.7.link: https://www.instagram.com/seelviahhtaz/
 photo.7.tags: close-up, whiskers
-photo.8: https://www.instagram.com/p/CfOSii4M5Vs/media/?size=m
+photo.8: ig://CfOSii4M5Vs/m
 photo.8.author: seelviahhtaz
+photo.8.commitdate: 2022/12/10
 photo.8.link: https://www.instagram.com/seelviahhtaz/
 photo.8.tags: peek
 species: 1
