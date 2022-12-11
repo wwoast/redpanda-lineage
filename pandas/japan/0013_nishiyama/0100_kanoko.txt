@@ -514,8 +514,9 @@ photo.100.author: kotata_513
 photo.100.commitdate: 2022/8/28
 photo.100.link: https://www.instagram.com/kotata_513/
 photo.100.tags: portrait, sample, whiskers
-photo.101: https://www.instagram.com/p/Ckx5-eEr52d/media/?size=m
+photo.101: ig://Ckx5-eEr52d/m
 photo.101.author: leonard_redmof
+photo.101.commitdate: 2022/12/11
 photo.101.link: https://www.instagram.com/leonard_redmof/
 photo.101.tags: bamboo, paws, portrait, sample
 species: 2

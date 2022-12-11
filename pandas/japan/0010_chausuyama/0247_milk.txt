@@ -1417,8 +1417,9 @@ photo.281.author: otenba_redpanda
 photo.281.commitdate: 2022/7/9
 photo.281.link: https://www.instagram.com/otenba_redpanda/
 photo.281.tags: bamboo, paws, peek, portrait, sample, standing, tail
-photo.282: https://www.instagram.com/p/CkDIfw-hndr/media/?size=m
+photo.282: ig://CkDIfw-hndr/m
 photo.282.author: ck.chie
+photo.282.commitdate: 2022/12/11
 photo.282.link: https://www.instagram.com/ck.chie/
 photo.282.tags: sample, whiskers
 species: 2

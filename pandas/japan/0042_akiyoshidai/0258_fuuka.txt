@@ -108,8 +108,9 @@ photo.19.author: kojikoji2011
 photo.19.commitdate: 2022/7/25
 photo.19.link: https://www.instagram.com/kojikoji2011/
 photo.19.tags: nose, peek, portrait, sample, whiskers
-photo.20: https://www.instagram.com/p/CkyPdyoPMbi/media/?size=m
+photo.20: ig://CkyPdyoPMbi/m
 photo.20.author: kojikoji2011
+photo.20.commitdate: 2022/12/11
 photo.20.link: https://www.instagram.com/kojikoji2011/
 photo.20.tags: bamboo, portrait, sample, smile, whiskers
 species: 2

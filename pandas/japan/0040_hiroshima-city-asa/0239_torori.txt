@@ -162,14 +162,16 @@ photo.30.author: miis_98
 photo.30.commitdate: 2022/11/4
 photo.30.link: https://www.instagram.com/miis_98/
 photo.30.tags: mofumofu, paws, portrait, sample, smile, tail
-photo.31: https://www.instagram.com/p/Cl_siFYPDzg/media/?size=m
-photo.31.author: hamiiiii831_
-photo.31.link: https://www.instagram.com/hamiiiii831_/
-photo.31.tags: close-up, mofumofu, sample, smile, tongue
-photo.32: https://www.instagram.com/p/CkfpTjTvJua/media/?size=m
-photo.32.author: fetorus_mami
-photo.32.link: https://www.instagram.com/fetorus_mami/
-photo.32.tags: flowers, mofumofu, paws, smile
+photo.31: ig://CkfpTjTvJua/m
+photo.31.author: fetorus_mami
+photo.31.commitdate: 2022/12/11
+photo.31.link: https://www.instagram.com/fetorus_mami/
+photo.31.tags: flowers, mofumofu, paws, smile
+photo.32: ig://Cl_siFYPDzg/m
+photo.32.author: hamiiiii831_
+photo.32.commitdate: 2022/12/11
+photo.32.link: https://www.instagram.com/hamiiiii831_/
+photo.32.tags: close-up, mofumofu, sample, smile, tongue
 species: 2
 studbook.id: 11101
 video.1: https://youtu.be/Hup9mW7paUY
