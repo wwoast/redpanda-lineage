@@ -150,39 +150,44 @@ photo.27.author: worldthathesees
 photo.27.commitdate: 2022/12/10
 photo.27.link: https://www.instagram.com/worldthathesees/
 photo.27.tags: sample, whiskers, white face
-photo.28: ig://ChepeeVIZ17/m
-photo.28.author: paradisewildlifepark
-photo.28.commitdate: 2022/12/10
-photo.28.link: https://www.instagram.com/paradisewildlifepark/
-photo.28.tags: portrait, sample, tongue
-photo.29: ig://CiFRTlLo4eD/m
-photo.29.author: paradisewildlifepark
-photo.29.commitdate: 2022/10/7
-photo.29.link: https://www.instagram.com/paradisewildlifepark/
-photo.29.tags: close-up, tongue, whiskers
-photo.30: ig://ClJEquwo0E_/m
+photo.28: ig://CfHaauDKd6c/m
+photo.28.author: keeper_charlie_k
+photo.28.commitdate: 2022/12/11
+photo.28.link: https://www.instagram.com/keeper_charlie_k/
+photo.28.tags: bamboo, bite, close-up, tongue
+photo.29: ig://CfR-6cvKmd6/m
+photo.29.author: keeper_charlie_k
+photo.29.commitdate: 2022/12/11
+photo.29.link: https://www.instagram.com/keeper_charlie_k/
+photo.29.tags: close-up, nose, whiskers
+photo.30: ig://ChepeeVIZ17/m
 photo.30.author: paradisewildlifepark
 photo.30.commitdate: 2022/12/10
 photo.30.link: https://www.instagram.com/paradisewildlifepark/
-photo.30.tags: air tasting, close-up, laying down, mofumofu, portrait, sample, tongue, whiskers
-photo.31: https://www.instagram.com/p/CfHaauDKd6c/media/?size=m
-photo.31.author: keeper_charlie_k
-photo.31.link: https://www.instagram.com/keeper_charlie_k/
-photo.31.tags: bamboo, bite, close-up, tongue
-photo.32: https://www.instagram.com/p/CfR-6cvKmd6/media/?size=m
+photo.30.tags: portrait, sample, tongue
+photo.31: ig://CiFRTlLo4eD/m
+photo.31.author: paradisewildlifepark
+photo.31.commitdate: 2022/10/7
+photo.31.link: https://www.instagram.com/paradisewildlifepark/
+photo.31.tags: close-up, tongue, whiskers
+photo.32: ig://CinDgHoqEWL/m
 photo.32.author: keeper_charlie_k
+photo.32.commitdate: 2022/12/11
 photo.32.link: https://www.instagram.com/keeper_charlie_k/
-photo.32.tags: close-up, nose, whiskers
-photo.33: https://www.instagram.com/p/CinDgHoqEWL/media/?size=m
+photo.32.tags: bamboo, close-up, paws
+photo.33: ig://CjvqlAbKUiK/m
 photo.33.author: keeper_charlie_k
+photo.33.commitdate: 2022/12/11
 photo.33.link: https://www.instagram.com/keeper_charlie_k/
-photo.33.tags: bamboo, close-up, paws
-photo.34: https://www.instagram.com/p/CjvqlAbKUiK/media/?size=m
-photo.34.author: keeper_charlie_k
-photo.34.link: https://www.instagram.com/keeper_charlie_k/
-photo.34.tags: laying down
-photo.35: https://www.instagram.com/p/Clbu9_NK77D/media/?size=m
+photo.33.tags: laying down
+photo.34: ig://ClJEquwo0E_/m
+photo.34.author: paradisewildlifepark
+photo.34.commitdate: 2022/12/10
+photo.34.link: https://www.instagram.com/paradisewildlifepark/
+photo.34.tags: air tasting, close-up, laying down, mofumofu, portrait, sample, tongue, whiskers
+photo.35: ig://Clbu9_NK77D/m
 photo.35.author: keeper_charlie_k
+photo.35.commitdate: 2022/12/11
 photo.35.link: https://www.instagram.com/keeper_charlie_k/
 photo.35.tags: door, peek, sample, whiskers
 species: 1
