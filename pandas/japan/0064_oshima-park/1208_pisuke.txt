@@ -685,20 +685,21 @@ photo.134.author: sakikukeco
 photo.134.commitdate: 2022/10/20
 photo.134.link: https://www.instagram.com/sakikukeco/
 photo.134.tags: portrait, sample, smile, whiskers
-photo.135: ig://CkIieUKLNSw/m
-photo.135.author: daniele.tokyo
-photo.135.commitdate: 2022/11/8
-photo.135.link: https://www.instagram.com/daniele.tokyo/
-photo.135.tags: baby, climb, paws, whiskers
-photo.136: ig://Ckx0ADMvUSF/m
-photo.136.author: kotata_513
-photo.136.commitdate: 2022/12/11
-photo.136.link: https://www.instagram.com/kotata_513/
-photo.136.tags: paws, portrait, sample, whiskers
-photo.137: https://www.instagram.com/p/Cj5QMnxPiyS/media/?size=m
-photo.137.author: resapanlove
-photo.137.link: https://www.instagram.com/resapanlove/
-photo.137.tags: bridge, paws, peek, portrait, sample, sign, tail
+photo.135: ig://Cj5QMnxPiyS/m
+photo.135.author: resapanlove
+photo.135.commitdate: 2022/12/15
+photo.135.link: https://www.instagram.com/resapanlove/
+photo.135.tags: bridge, paws, peek, portrait, sample, sign, tail
+photo.136: ig://CkIieUKLNSw/m
+photo.136.author: daniele.tokyo
+photo.136.commitdate: 2022/11/8
+photo.136.link: https://www.instagram.com/daniele.tokyo/
+photo.136.tags: baby, climb, paws, whiskers
+photo.137: ig://Ckx0ADMvUSF/m
+photo.137.author: kotata_513
+photo.137.commitdate: 2022/12/11
+photo.137.link: https://www.instagram.com/kotata_513/
+photo.137.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 64

@@ -694,20 +694,21 @@ photo.137.author: ifumoto88
 photo.137.commitdate: 2022/9/11
 photo.137.link: https://www.instagram.com/ifumoto88/
 photo.137.tags: bamboo, paws
-photo.138: ig://CkCTQ7MBoBQ/m
-photo.138.author: panda.daisuki
-photo.138.commitdate: 2022/11/4
-photo.138.link: https://www.instagram.com/panda.daisuki/
-photo.138.tags: home, laying down, portrait, sample, whiskers
-photo.139: ig://Ckaxd12rYCp/m
-photo.139.author: ifumoto88
-photo.139.commitdate: 2022/11/8
-photo.139.link: https://www.instagram.com/ifumoto88/
-photo.139.tags: close-up, tongue, whiskers
-photo.140: https://www.instagram.com/p/Cj5MNGoBmVJ/media/?size=m
-photo.140.author: alto0908
-photo.140.link: https://www.instagram.com/alto0908/
-photo.140.tags: flowers, peek, whiskers
+photo.138: ig://Cj5MNGoBmVJ/m
+photo.138.author: alto0908
+photo.138.commitdate: 2022/12/15
+photo.138.link: https://www.instagram.com/alto0908/
+photo.138.tags: flowers, peek, whiskers
+photo.139: ig://CkCTQ7MBoBQ/m
+photo.139.author: panda.daisuki
+photo.139.commitdate: 2022/11/4
+photo.139.link: https://www.instagram.com/panda.daisuki/
+photo.139.tags: home, laying down, portrait, sample, whiskers
+photo.140: ig://Ckaxd12rYCp/m
+photo.140.author: ifumoto88
+photo.140.commitdate: 2022/11/8
+photo.140.link: https://www.instagram.com/ifumoto88/
+photo.140.tags: close-up, tongue, whiskers
 species: 2
 studbook.id: 13147
 zoo: 1

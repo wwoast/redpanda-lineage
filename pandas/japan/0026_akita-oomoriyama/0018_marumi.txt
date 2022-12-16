@@ -2577,15 +2577,16 @@ photo.514.author: oomoriyamazoo
 photo.514.commitdate: 2022/11/4
 photo.514.link: https://www.instagram.com/omoriyamazoo/
 photo.514.tags: laying down, tail
-photo.515: ig://ClVaYmYBkS0/m
-photo.515.author: oomoriyamazoo
-photo.515.commitdate: 2022/12/10
-photo.515.link: https://www.instagram.com/omoriyamazoo/
-photo.515.tags: apple time, dish, paws, portrait, sample, videolink
-photo.516: https://www.instagram.com/p/CkdxdC5P7pc/media/?size=m
-photo.516.author: minatomirai215
-photo.516.link: https://www.instagram.com/minatomirai215/
-photo.516.tags: paws, portrait, sample
+photo.515: ig://CkdxdC5P7pc/m
+photo.515.author: minatomirai215
+photo.515.commitdate: 2022/12/15
+photo.515.link: https://www.instagram.com/minatomirai215/
+photo.515.tags: paws, portrait, sample
+photo.516: ig://ClVaYmYBkS0/m
+photo.516.author: oomoriyamazoo
+photo.516.commitdate: 2022/12/10
+photo.516.link: https://www.instagram.com/omoriyamazoo/
+photo.516.tags: apple time, dish, paws, portrait, sample, videolink
 species: 2
 studbook.id: 1676
 zoo: 26

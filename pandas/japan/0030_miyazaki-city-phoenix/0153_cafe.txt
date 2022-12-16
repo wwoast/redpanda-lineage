@@ -100,64 +100,66 @@ photo.17.author: kisshan324
 photo.17.commitdate: 2019/9/13
 photo.17.link: https://www.instagram.com/kisshan324/
 photo.17.tags: portrait, smile, tree
-photo.18: ig://B6sxxU-B3HH/m
-photo.18.author: re_ichimaru
-photo.18.commitdate: 2019/12/31
-photo.18.link: https://www.instagram.com/re_ichimaru/
-photo.18.tags: bamboo, portrait
-photo.19: ig://B76LqnEhudg/m
-photo.19.author: kisshan324
-photo.19.commitdate: 2020/2/3
-photo.19.link: https://www.instagram.com/kisshan324/
-photo.19.tags: portrait, smile, tail, tongue, tree
-photo.20: ig://CG_svCohFkq/m
-photo.20.author: miis_98
-photo.20.commitdate: 2020/11/6
-photo.20.link: https://www.instagram.com/miis_98/
-photo.20.tags: paws, portrait, smile
-photo.21: ig://CHNCc1DB2_R/m
+photo.18: ig://B6XBaG8ha4S/m
+photo.18.author: kiarino51
+photo.18.commitdate: 2022/12/15
+photo.18.link: https://www.instagram.com/kiarino50/
+photo.18.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.19: ig://B6sxxU-B3HH/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2019/12/31
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: bamboo, portrait
+photo.20: ig://B76LqnEhudg/m
+photo.20.author: kisshan324
+photo.20.commitdate: 2020/2/3
+photo.20.link: https://www.instagram.com/kisshan324/
+photo.20.tags: portrait, smile, tail, tongue, tree
+photo.21: ig://CG_svCohFkq/m
 photo.21.author: miis_98
 photo.21.commitdate: 2020/11/6
 photo.21.link: https://www.instagram.com/miis_98/
-photo.21.tags: bamboo, bite, lips, paws, portrait, tree
-photo.22: ig://CHRFmOZBFuY/m
-photo.22.author: yossi929
-photo.22.commitdate: 2020/11/15
-photo.22.link: https://www.instagram.com/yossi929/
-photo.22.tags: paws, portrait, smile, tail
-photo.23: ig://CWS1JOyhxpa/m
-photo.23.author: phoenixzoo1971
-photo.23.commitdate: 2021/11/21
-photo.23.link: https://www.instagram.com/phoenixzoo1971/
-photo.23.tags: close-up, paws, tail, tree, whiskers
-photo.24: ig://CdaOO4CrOZX/m
+photo.21.tags: paws, portrait, smile
+photo.22: ig://CHNCc1DB2_R/m
+photo.22.author: miis_98
+photo.22.commitdate: 2020/11/6
+photo.22.link: https://www.instagram.com/miis_98/
+photo.22.tags: bamboo, bite, lips, paws, portrait, tree
+photo.23: ig://CHRFmOZBFuY/m
+photo.23.author: yossi929
+photo.23.commitdate: 2020/11/15
+photo.23.link: https://www.instagram.com/yossi929/
+photo.23.tags: paws, portrait, smile, tail
+photo.24: ig://CWS1JOyhxpa/m
 photo.24.author: phoenixzoo1971
-photo.24.commitdate: 2022/6/2
+photo.24.commitdate: 2021/11/21
 photo.24.link: https://www.instagram.com/phoenixzoo1971/
-photo.24.tags: bridge, close-up, paws, portrait, sample, whiskers
-photo.25: ig://Cd7_8--LOu6/m
-photo.25.author: daniele.tokyo
+photo.24.tags: close-up, paws, tail, tree, whiskers
+photo.25: ig://CdaOO4CrOZX/m
+photo.25.author: phoenixzoo1971
 photo.25.commitdate: 2022/6/2
-photo.25.link: https://www.instagram.com/daniele.tokyo/
-photo.25.tags: bamboo, lips, paws, sample, smile, whiskers
-photo.26: ig://CeqW7eIB7A8/m
-photo.26.author: kiarino51
-photo.26.commitdate: 2022/12/3
-photo.26.link: https://www.instagram.com/kiarino51/
-photo.26.tags: lips, portrait, sample, smile, whiskers
-photo.27: ig://Cl_QTjGLnjM/m
+photo.25.link: https://www.instagram.com/phoenixzoo1971/
+photo.25.tags: bridge, close-up, paws, portrait, sample, whiskers
+photo.26: ig://Cd7_8--LOu6/m
+photo.26.author: daniele.tokyo
+photo.26.commitdate: 2022/6/2
+photo.26.link: https://www.instagram.com/daniele.tokyo/
+photo.26.tags: bamboo, lips, paws, sample, smile, whiskers
+photo.27: ig://CeqW7eIB7A8/m
 photo.27.author: kiarino51
-photo.27.commitdate: 2022/12/11
+photo.27.commitdate: 2022/12/3
 photo.27.link: https://www.instagram.com/kiarino51/
-photo.27.tags: climb, paws, portrait, sample, smile, tail, tree, upside-down, whiskers
-photo.28: https://www.instagram.com/p/B6XBaG8ha4S/media/?size=m
-photo.28.author: kiarino51
-photo.28.link: https://www.instagram.com/kiarino50/
-photo.28.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.29: https://www.instagram.com/p/Cl3rfrNrgW7/media/?size=m
-photo.29.author: sasapan34
-photo.29.link: https://www.instagram.com/sasapan34/
-photo.29.tags: smile, tail, whiskers
+photo.27.tags: lips, portrait, sample, smile, whiskers
+photo.28: ig://Cl3rfrNrgW7/m
+photo.28.author: sasapan34
+photo.28.commitdate: 2022/12/15
+photo.28.link: https://www.instagram.com/sasapan34/
+photo.28.tags: smile, tail, whiskers
+photo.29: ig://Cl_QTjGLnjM/m
+photo.29.author: kiarino51
+photo.29.commitdate: 2022/12/11
+photo.29.link: https://www.instagram.com/kiarino51/
+photo.29.tags: climb, paws, portrait, sample, smile, tail, tree, upside-down, whiskers
 species: 2
 studbook.id: 13139
 zoo: 30

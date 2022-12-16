@@ -1083,10 +1083,11 @@ photo.216.author: i.satosato
 photo.216.commitdate: 2022/10/20
 photo.216.link: https://www.instagram.com/i.satosato/
 photo.216.tags: paws, portrait, sample, tail
-photo.217: https://www.instagram.com/p/Ckan-Eovjmx/media/?size=m
+photo.217: ig://Ckan-Eovjmx/m
 photo.217.author: i.satosato
+photo.217.commitdate: 2022/12/15
 photo.217.link: https://www.instagram.com/i.satosato/
-photo.217.tags: apple time, paws, peek, portrait, sample, tail 
+photo.217.tags: apple time, paws, peek, portrait, sample, tail
 species: 2
 studbook.id: 0457
 zoo: 36

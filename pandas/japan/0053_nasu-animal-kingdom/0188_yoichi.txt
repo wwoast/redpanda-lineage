@@ -305,8 +305,9 @@ photo.59.author: miis_98
 photo.59.commitdate: 2022/12/7
 photo.59.link: https://www.instagram.com/miis_98/
 photo.59.tags: mofumofu, paws, portrait, sample, smile, whiskers
-photo.60: https://www.instagram.com/p/Clr5qgYP3a8/media/?size=m
+photo.60: ig://Clr5qgYP3a8/m
 photo.60.author: panda.daisuki
+photo.60.commitdate: 2022/12/15
 photo.60.link: https://www.instagram.com/panda.daisuki/
 photo.60.tags: mofumofu, peek, sample, whiskers
 species: 2

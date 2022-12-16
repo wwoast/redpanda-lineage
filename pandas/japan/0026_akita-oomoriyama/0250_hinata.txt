@@ -427,15 +427,16 @@ photo.83.author: minatomirai215
 photo.83.commitdate: 2022/1/7
 photo.83.link: https://www.instagram.com/minatomirai215/
 photo.83.tags: mofumofu, peek, portrait
-photo.84: ig://CkYVlQ4LehK/m
-photo.84.author: mini_cochi
-photo.84.commitdate: 2022/11/8
-photo.84.link: https://www.instagram.com/mini_cochi/
-photo.84.tags: apple time, paws, portrait, sample, smile, wet
-photo.85: https://www.instagram.com/p/Cj37M8nhi2-/media/?size=m
-photo.85.author: miis_98
-photo.85.link: https://www.instagram.com/miis_98/
-photo.85.tags: laying down, mofumofu, portrait, sample, tail
+photo.84: ig://Cj37M8nhi2-/m
+photo.84.author: miis_98
+photo.84.commitdate: 2022/12/15
+photo.84.link: https://www.instagram.com/miis_98/
+photo.84.tags: laying down, mofumofu, portrait, sample, tail
+photo.85: ig://CkYVlQ4LehK/m
+photo.85.author: mini_cochi
+photo.85.commitdate: 2022/11/8
+photo.85.link: https://www.instagram.com/mini_cochi/
+photo.85.tags: apple time, paws, portrait, sample, smile, wet
 species: 2
 studbook.id: unknown
 zoo: 26
