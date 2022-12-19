@@ -614,7 +614,7 @@ photo.121: ig://CWfujiZBlIy/m
 photo.121.author: alto0908
 photo.121.commitdate: 2021/11/21
 photo.121.link: https://www.instagram.com/alto0908/
-photo.121.tags: bamboo, mofumofu, portrait
+photo.121.tags: bamboo, mofumofu, peek, portrait, sample
 photo.122: ig://CZEufMtPhyS/m
 photo.122.author: happy_love2.15
 photo.122.commitdate: 2022/2/20
@@ -685,10 +685,6 @@ photo.135.author: rie_panda55
 photo.135.commitdate: 2022/10/20
 photo.135.link: https://www.instagram.com/rie_panda55/
 photo.135.tags: bamboo, home, portrait, sample, smile, whiskers
-photo.136: https://www.instagram.com/p/CWfujiZBlIy/media/?size=m
-photo.136.author: alto0908
-photo.136.link: https://www.instagram.com/alto0908/
-photo.136.tags: bamboo, peek, portrait, sample
 species: 2
 studbook.id: 14142
 zoo: 45

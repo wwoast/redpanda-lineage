@@ -518,44 +518,45 @@ photo.101.author: rie_panda55
 photo.101.commitdate: 2021/11/7
 photo.101.link: https://www.instagram.com/rie_panda55/
 photo.101.tags: dish, lunch time, paws, portrait, smile
-photo.102: ig://CXEGq8kl_gS/m
-photo.102.author: fetorus_mami
-photo.102.commitdate: 2022/1/9
-photo.102.link: https://www.instagram.com/fetorus_mami/
-photo.102.tags: laying down, mofumofu, sleeping, tail, tree
-photo.103: ig://CZNdrpxMUiK/m
-photo.103.author: otenba_redpanda
-photo.103.commitdate: 2022/2/20
-photo.103.link: https://www.instagram.com/otenba_redpanda/
-photo.103.tags: close-up, portrait, sample, whiskers
-photo.104: ig://CZx15uFpp8s/m
-photo.104.author: fetorus_mami
-photo.104.commitdate: 2022/4/4
-photo.104.link: https://www.instagram.com/fetorus_mami/
-photo.104.tags: grooming, mofumofu, paws, whiskers
-photo.105: ig://CahBNlKLIv9/m
-photo.105.author: mini_cochi
-photo.105.commitdate: 2022/3/6
-photo.105.link: https://www.instagram.com/mini_cochi/
-photo.105.tags: mofumofu, portrait, sample, whiskers
-photo.106: ig://Ca2SWt2F5eS/m
-photo.106.author: miis_98
-photo.106.commitdate: 2022/4/5
-photo.106.link: https://www.instagram.com/miis_98/
-photo.106.tags: portrait, sample, smile, whiskers
-photo.107: ig://CcX036uPoGM/m
-photo.107.author: fetorus_mami
-photo.107.commitdate: 2022/5/25
-photo.107.link: https://www.instagram.com/fetorus_mami/
-photo.107.tags: portrait, sample, smile, tail, whiskers
-photo.108: ig://CdLZ-52PZ5F/m
-photo.108.author: craig_craig_craig
-photo.108.commitdate: 2022/8/25
-photo.108.link: https://www.instagram.com/craig_craig_craig/
-photo.109: https://www.instagram.com/p/CWSroVwl4kP/media/?size=m
-photo.109.author: mini_cochi
-photo.109.link: https://www.instagram.com/mini_cochi/
-photo.109.tags: bridge, portrait, sample, smile, tail
+photo.102: ig://CWSroVwl4kP/m
+photo.102.author: mini_cochi
+photo.102.commitdate: 2022/12/19
+photo.102.link: https://www.instagram.com/mini_cochi/
+photo.102.tags: bridge, portrait, sample, smile, tail
+photo.103: ig://CXEGq8kl_gS/m
+photo.103.author: fetorus_mami
+photo.103.commitdate: 2022/1/9
+photo.103.link: https://www.instagram.com/fetorus_mami/
+photo.103.tags: laying down, mofumofu, sleeping, tail, tree
+photo.104: ig://CZNdrpxMUiK/m
+photo.104.author: otenba_redpanda
+photo.104.commitdate: 2022/2/20
+photo.104.link: https://www.instagram.com/otenba_redpanda/
+photo.104.tags: close-up, portrait, sample, whiskers
+photo.105: ig://CZx15uFpp8s/m
+photo.105.author: fetorus_mami
+photo.105.commitdate: 2022/4/4
+photo.105.link: https://www.instagram.com/fetorus_mami/
+photo.105.tags: grooming, mofumofu, paws, whiskers
+photo.106: ig://CahBNlKLIv9/m
+photo.106.author: mini_cochi
+photo.106.commitdate: 2022/3/6
+photo.106.link: https://www.instagram.com/mini_cochi/
+photo.106.tags: mofumofu, portrait, sample, whiskers
+photo.107: ig://Ca2SWt2F5eS/m
+photo.107.author: miis_98
+photo.107.commitdate: 2022/4/5
+photo.107.link: https://www.instagram.com/miis_98/
+photo.107.tags: portrait, sample, smile, whiskers
+photo.108: ig://CcX036uPoGM/m
+photo.108.author: fetorus_mami
+photo.108.commitdate: 2022/5/25
+photo.108.link: https://www.instagram.com/fetorus_mami/
+photo.108.tags: portrait, sample, smile, tail, whiskers
+photo.109: ig://CdLZ-52PZ5F/m
+photo.109.author: craig_craig_craig
+photo.109.commitdate: 2022/8/25
+photo.109.link: https://www.instagram.com/craig_craig_craig/
 species: 2
 studbook.id: unknown
 zoo: 9

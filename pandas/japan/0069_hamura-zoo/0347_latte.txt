@@ -488,105 +488,106 @@ photo.95.author: eos1089
 photo.95.commitdate: 2021/11/21
 photo.95.link: https://www.instagram.com/eos1089/
 photo.95.tags: apple time, dish, mofumofu, paws, portrait, smile
-photo.96: ig://CYRDbiHLCx0/m
+photo.96: ig://CWf1K2Xl12L/m
 photo.96.author: mini_cochi
-photo.96.commitdate: 2022/1/7
+photo.96.commitdate: 2022/12/19
 photo.96.link: https://www.instagram.com/mini_cochi/
-photo.96.tags: bamboo, mofumofu, portrait, sample
-photo.97: ig://CYgAsicIoQ9/m
-photo.97.author: otenba_redpanda
-photo.97.commitdate: 2022/2/5
-photo.97.link: https://www.instagram.com/otenba_redpanda/
-photo.97.tags: close-up, portrait, sample, smile, whiskers
-photo.98: ig://CZEyRxvLrC3/m
-photo.98.author: mini_cochi
-photo.98.commitdate: 2022/4/5
-photo.98.link: https://www.instagram.com/mini_cochi/
-photo.98.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.99: ig://CZJ7xJDLn8j/m
+photo.96.tags: paws, portrait, sample, whiskers
+photo.97: ig://CYRDbiHLCx0/m
+photo.97.author: mini_cochi
+photo.97.commitdate: 2022/1/7
+photo.97.link: https://www.instagram.com/mini_cochi/
+photo.97.tags: bamboo, mofumofu, portrait, sample
+photo.98: ig://CYgAsicIoQ9/m
+photo.98.author: otenba_redpanda
+photo.98.commitdate: 2022/2/5
+photo.98.link: https://www.instagram.com/otenba_redpanda/
+photo.98.tags: close-up, portrait, sample, smile, whiskers
+photo.99: ig://CZEyRxvLrC3/m
 photo.99.author: mini_cochi
 photo.99.commitdate: 2022/4/5
 photo.99.link: https://www.instagram.com/mini_cochi/
-photo.99.tags: mofumofu, portrait, sample, whiskers
-photo.100: ig://CZazcWLs6Ah/m
-photo.100.author: otenba_redpanda
-photo.100.commitdate: 2022/3/17
-photo.100.link: https://www.instagram.com/otenba_redpanda/
-photo.100.tags: mofumofu, portrait, sample, smile
-photo.101: ig://CZjvXcpvB4J/m
-photo.101.author: redpan22
-photo.101.commitdate: 2022/2/20
-photo.101.link: https://www.instagram.com/redpan22/
-photo.101.tags: laying down, mofumofu, paws, portrait, sample
-photo.102: ig://CZ1q3EAFqsI/m
-photo.102.author: mini_cochi
-photo.102.commitdate: 2022/3/9
-photo.102.link: https://www.instagram.com/mini_cochi/
-photo.102.tags: apple time, bamboo, bite, mofumofu, paws, portrait, sample, whiskers
-photo.103: ig://CbfDy1uvduN/m
-photo.103.author: redpan22
-photo.103.commitdate: 2022/4/25
-photo.103.link: https://www.instagram.com/redpan22/
-photo.103.tags: bamboo, bite, mofumofu, sample, tongue
-photo.104: ig://Cb7h3_ULoAb/m
-photo.104.author: mini_cochi
-photo.104.commitdate: 2022/4/4
-photo.104.link: https://www.instagram.com/mini_cochi/
-photo.104.tags: cherry blossoms, portrait, sample
-photo.105: ig://CdBh7l-Pgw3/m
-photo.105.author: eos1089
-photo.105.commitdate: 2022/6/6
-photo.105.link: https://www.instagram.com/eos1089/
-photo.105.tags: curly, paws, portrait, sample, smile, tail
-photo.106: ig://CeUjJfZBB8e/m
-photo.106.author: miis_98
-photo.106.commitdate: 2022/6/22
-photo.106.link: https://www.instagram.com/miis_98/
-photo.106.tags: apple time, grumpy, mofumofu, portrait, sample, toys
-photo.107: ig://CeqUWDIvWEH/m
-photo.107.author: eos1089
-photo.107.commitdate: 2022/7/31
-photo.107.link: https://www.instagram.com/eos1089/
-photo.107.tags: bamboo, mofumofu, portrait, sample, smile
-photo.108: ig://Ch0S7C8B5HK/m
+photo.99.tags: apple time, paws, portrait, sample, smile, whiskers
+photo.100: ig://CZJ7xJDLn8j/m
+photo.100.author: mini_cochi
+photo.100.commitdate: 2022/4/5
+photo.100.link: https://www.instagram.com/mini_cochi/
+photo.100.tags: mofumofu, portrait, sample, whiskers
+photo.101: ig://CZazcWLs6Ah/m
+photo.101.author: otenba_redpanda
+photo.101.commitdate: 2022/3/17
+photo.101.link: https://www.instagram.com/otenba_redpanda/
+photo.101.tags: mofumofu, portrait, sample, smile
+photo.102: ig://CZjvXcpvB4J/m
+photo.102.author: redpan22
+photo.102.commitdate: 2022/2/20
+photo.102.link: https://www.instagram.com/redpan22/
+photo.102.tags: laying down, mofumofu, paws, portrait, sample
+photo.103: ig://CZ1q3EAFqsI/m
+photo.103.author: mini_cochi
+photo.103.commitdate: 2022/3/9
+photo.103.link: https://www.instagram.com/mini_cochi/
+photo.103.tags: apple time, bamboo, bite, mofumofu, paws, portrait, sample, whiskers
+photo.104: ig://CbfDy1uvduN/m
+photo.104.author: redpan22
+photo.104.commitdate: 2022/4/25
+photo.104.link: https://www.instagram.com/redpan22/
+photo.104.tags: bamboo, bite, mofumofu, sample, tongue
+photo.105: ig://Cb7h3_ULoAb/m
+photo.105.author: mini_cochi
+photo.105.commitdate: 2022/4/4
+photo.105.link: https://www.instagram.com/mini_cochi/
+photo.105.tags: cherry blossoms, portrait, sample
+photo.106: ig://CdBh7l-Pgw3/m
+photo.106.author: eos1089
+photo.106.commitdate: 2022/6/6
+photo.106.link: https://www.instagram.com/eos1089/
+photo.106.tags: curly, paws, portrait, sample, smile, tail
+photo.107: ig://CeUjJfZBB8e/m
+photo.107.author: miis_98
+photo.107.commitdate: 2022/6/22
+photo.107.link: https://www.instagram.com/miis_98/
+photo.107.tags: apple time, grumpy, mofumofu, portrait, sample, toys
+photo.108: ig://CeqUWDIvWEH/m
 photo.108.author: eos1089
-photo.108.commitdate: 2022/9/7
+photo.108.commitdate: 2022/7/31
 photo.108.link: https://www.instagram.com/eos1089/
-photo.108.tags: mofumofu, portrait, sample, smile, whiskers
-photo.109: ig://Ch4oTplr0vr/m
-photo.109.author: ifumoto88
-photo.109.commitdate: 2022/9/4
-photo.109.link: https://www.instagram.com/ifumoto88/
-photo.109.tags: mofumofu, peek, portrait, sample, toys
-photo.110: ig://CiFl1RjBIyr/m
-photo.110.author: fetorus_mami
+photo.108.tags: bamboo, mofumofu, portrait, sample, smile
+photo.109: ig://Ch0S7C8B5HK/m
+photo.109.author: eos1089
+photo.109.commitdate: 2022/9/7
+photo.109.link: https://www.instagram.com/eos1089/
+photo.109.tags: mofumofu, portrait, sample, smile, whiskers
+photo.110: ig://Ch4oTplr0vr/m
+photo.110.author: ifumoto88
 photo.110.commitdate: 2022/9/4
-photo.110.link: https://www.instagram.com/fetorus_mami/
-photo.110.tags: apple time, close-up, lips, mofumofu, sample, smile
-photo.111: ig://CiKuY8cPves/m
-photo.111.author: mini_cochi
-photo.111.commitdate: 2022/9/11
-photo.111.link: https://www.instagram.com/mini_cochi/
-photo.111.tags: mofumofu, portrait, sample, tree, whiskers
-photo.112: ig://CiUENJtvO79/m
-photo.112.author: miis_98
-photo.112.commitdate: 2022/10/13
-photo.112.link: https://www.instagram.com/miis_98/
-photo.112.tags: paws, portrait, sample, smile, toys
-photo.113: ig://Ci1ceH1PwDr/m
-photo.113.author: fetorus_mami
-photo.113.commitdate: 2022/10/1
-photo.113.link: https://www.instagram.com/fetorus_mami/
-photo.113.tags: close-up, lips, paws, sample, teeth, whiskers
-photo.114: ig://Cjbm8bFpg5d/m
-photo.114.author: mini_cochi
-photo.114.commitdate: 2022/10/20
-photo.114.link: https://www.instagram.com/mini_cochi/
-photo.114.tags: apple time, flowers, keeper, paws, portrait, sample, wave
-photo.115: https://www.instagram.com/p/CWf1K2Xl12L/media/?size=m
+photo.110.link: https://www.instagram.com/ifumoto88/
+photo.110.tags: mofumofu, peek, portrait, sample, toys
+photo.111: ig://CiFl1RjBIyr/m
+photo.111.author: fetorus_mami
+photo.111.commitdate: 2022/9/4
+photo.111.link: https://www.instagram.com/fetorus_mami/
+photo.111.tags: apple time, close-up, lips, mofumofu, sample, smile
+photo.112: ig://CiKuY8cPves/m
+photo.112.author: mini_cochi
+photo.112.commitdate: 2022/9/11
+photo.112.link: https://www.instagram.com/mini_cochi/
+photo.112.tags: mofumofu, portrait, sample, tree, whiskers
+photo.113: ig://CiUENJtvO79/m
+photo.113.author: miis_98
+photo.113.commitdate: 2022/10/13
+photo.113.link: https://www.instagram.com/miis_98/
+photo.113.tags: paws, portrait, sample, smile, toys
+photo.114: ig://Ci1ceH1PwDr/m
+photo.114.author: fetorus_mami
+photo.114.commitdate: 2022/10/1
+photo.114.link: https://www.instagram.com/fetorus_mami/
+photo.114.tags: close-up, lips, paws, sample, teeth, whiskers
+photo.115: ig://Cjbm8bFpg5d/m
 photo.115.author: mini_cochi
+photo.115.commitdate: 2022/10/20
 photo.115.link: https://www.instagram.com/mini_cochi/
-photo.115.tags: paws, portrait, sample, whiskers
+photo.115.tags: apple time, flowers, keeper, paws, portrait, sample, wave
 species: 2
 studbook.id: 13140
 zoo: 69

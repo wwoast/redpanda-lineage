@@ -58,8 +58,9 @@ photo.9.author: resapanlove
 photo.9.commitdate: 2022/11/14
 photo.9.link: https://www.instagram.com/resapanlove/
 photo.9.tags: baby, keeper, paws, sample, tail
-photo.10: https://www.instagram.com/p/ClOUw-Jvb7V/media/?size=m
+photo.10: ig://ClOUw-Jvb7V/m
 photo.10.author: resapanlove
+photo.10.commitdate: 2022/12/19
 photo.10.link: https://www.instagram.com/resapanlove/
 photo.10.tags: baby, laying down, mofumofu, tail, tree
 species: 2

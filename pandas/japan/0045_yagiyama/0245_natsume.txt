@@ -563,15 +563,16 @@ photo.110.author: rie_panda55
 photo.110.commitdate: 2022/10/6
 photo.110.link: https://www.instagram.com/rie_panda55/
 photo.110.tags: laying down, paws, portrait, sample, whiskers
-photo.111: ig://CmAtu42PbBF/m
-photo.111.author: ssc6105
-photo.111.commitdate: 2022/12/11
-photo.111.link: https://www.instagram.com/ssc6105/
-photo.111.tags: portrait, sample, whiskers
-photo.112: https://www.instagram.com/p/Ck8CRN2v6YD/media/?size=m
-photo.112.author: daniele.tokyo
-photo.112.link: https://www.instagram.com/daniele.tokyo/
-photo.112.tags: autumn, close-up, tongue, whiskers
+photo.111: ig://Ck8CRN2v6YD/m
+photo.111.author: daniele.tokyo
+photo.111.commitdate: 2022/12/19
+photo.111.link: https://www.instagram.com/daniele.tokyo/
+photo.111.tags: autumn, close-up, tongue, whiskers
+photo.112: ig://CmAtu42PbBF/m
+photo.112.author: ssc6105
+photo.112.commitdate: 2022/12/11
+photo.112.link: https://www.instagram.com/ssc6105/
+photo.112.tags: portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 45

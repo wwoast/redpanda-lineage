@@ -58,8 +58,9 @@ photo.9.author: resapanlove
 photo.9.commitdate: 2022/11/4
 photo.9.link: https://www.instagram.com/resapanlove/
 photo.9.tags: baby, mofumofu, portrait, sample, tail
-photo.10: https://www.instagram.com/p/Ck5HDQHPROk/media/?size=m
+photo.10: ig://Ck5HDQHPROk/m
 photo.10.author: leonard_redmof
+photo.10.commitdate: 2022/12/19
 photo.10.link: https://www.instagram.com/leonard_redmof/
 photo.10.tags: baby, mofumofu, portrait, tongue
 species: 2

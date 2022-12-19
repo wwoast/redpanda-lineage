@@ -209,8 +209,9 @@ photo.39.author: hidehaya_biei
 photo.39.commitdate: 2022/10/13
 photo.39.link: https://www.instagram.com/hidehaya_biei/
 photo.39.tags: close-up, sample, whiskers
-photo.40: https://www.instagram.com/p/ClIxFqsPWaC/media/?size=m
+photo.40: ig://ClIxFqsPWaC/m
 photo.40.author: alto0908
+photo.40.commitdate: 2022/12/19
 photo.40.link: https://www.instagram.com/alto0908/
 photo.40.tags: home, paws, sample, whiskers
 species: 2
