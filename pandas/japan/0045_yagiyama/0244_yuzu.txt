@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 245
+location.1: 45, 2018/6/27
+location.2: 60, 2022/12/19
 photo.1: ig://BpL6oiVlpxb/m
 photo.1.author: godosei
 photo.1.commitdate: 2018/10/21
@@ -443,4 +445,4 @@ photo.86.link: https://www.instagram.com/happy_love2.15/
 photo.86.tags: baby, bamboo, mofumofu, portrait, snow
 species: 2
 studbook.id: unknown
-zoo: 45
+zoo: 60

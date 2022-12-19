@@ -223,5 +223,13 @@ photo.42.author: alto0908
 photo.42.commitdate: 2022/8/5
 photo.42.link: https://www.instagram.com/alto0908/
 photo.42.tags: portrait, sample, smile, whiskers
+photo.43: https://www.instagram.com/p/Ck9beAchI-k/media/?size=m
+photo.43.author: nakacchi_desu
+photo.43.link: https://www.instagram.com/nakacchi_desu/
+photo.43.tags: paws, sample, standing, tail
+photo.44: https://www.instagram.com/p/ClPYVXKBacC/media/?size=m
+photo.44.author: alto0908
+photo.44.link: https://www.instagram.com/alto0908/
+photo.44.tags: paws, portrait, sample, smile, whiskers
 species: 2
 zoo: 45
