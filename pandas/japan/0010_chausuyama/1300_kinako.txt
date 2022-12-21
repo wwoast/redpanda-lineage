@@ -348,14 +348,15 @@ photo.67.author: otenba_redpanda
 photo.67.commitdate: 2022/8/11
 photo.67.link: https://www.instagram.com/otenba_redpanda/
 photo.67.tags: mofumofu, portrait, sample, whiskers
-photo.68: ig://Ck8L3EEPRJd/m
-photo.68.author: taka__3428
-photo.68.commitdate: 2022/12/19
-photo.68.link: https://www.instagram.com/taka__3428/
-photo.68.tags: laying down, mofumofu, portrait, sample
-photo.69: https://www.instagram.com/p/CkjqTIhBLga/media/?size=m
-photo.69.author: ck.chie
-photo.69.link: https://www.instagram.com/ck.chie/
-photo.69.tags: sample, smile, tree
+photo.68: ig://CkjqTIhBLga/m
+photo.68.author: ck.chie
+photo.68.commitdate: 2022/12/20
+photo.68.link: https://www.instagram.com/ck.chie/
+photo.68.tags: sample, smile, tree
+photo.69: ig://Ck8L3EEPRJd/m
+photo.69.author: taka__3428
+photo.69.commitdate: 2022/12/19
+photo.69.link: https://www.instagram.com/taka__3428/
+photo.69.tags: laying down, mofumofu, portrait, sample
 species: 2
 zoo: 10

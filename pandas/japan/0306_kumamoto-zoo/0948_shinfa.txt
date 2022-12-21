@@ -905,8 +905,9 @@ photo.178.author: kumamoto_doushokubutsuen
 photo.178.commitdate: 2022/11/29
 photo.178.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.178.tags: hammock, peek, whiskers
-photo.179: https://www.instagram.com/p/Ck-6ttDvrz5/media/?size=m
+photo.179: ig://Ck-6ttDvrz5/m
 photo.179.author: redpan22
+photo.179.commitdate: 2022/12/20
 photo.179.link: https://www.instagram.com/redpan22/
 photo.179.tags: peek, portrait, sample, whiskers
 species: 2

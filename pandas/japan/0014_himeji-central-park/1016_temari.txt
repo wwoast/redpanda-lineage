@@ -1017,8 +1017,9 @@ photo.201.author: minatomirai215
 photo.201.commitdate: 2022/10/1
 photo.201.link: https://www.instagram.com/minatomirai215/
 photo.201.tags: paws, portrait, sample, smile, whiskers
-photo.202: https://www.instagram.com/p/Ck2zLCVv-LQ/media/?size=m
+photo.202: ig://Ck2zLCVv-LQ/m
 photo.202.author: colette.jp
+photo.202.commitdate: 2022/12/20
 photo.202.link: https://www.instagram.com/colette.jp/
 photo.202.tags: apple time, lips, paws, portrait, sample, standing
 species: 2

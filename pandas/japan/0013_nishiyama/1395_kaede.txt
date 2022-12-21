@@ -58,15 +58,16 @@ photo.9.author: resapanlove
 photo.9.commitdate: 2022/11/14
 photo.9.link: https://www.instagram.com/resapanlove/
 photo.9.tags: baby, keeper, paws, sample, tail
-photo.10: ig://ClOUw-Jvb7V/m
-photo.10.author: resapanlove
-photo.10.commitdate: 2022/12/19
-photo.10.link: https://www.instagram.com/resapanlove/
-photo.10.tags: baby, laying down, mofumofu, tail, tree
-photo.11: https://www.instagram.com/p/Ck9VdsqBCHN/media/?size=m
-photo.11.author: tomo3700
-photo.11.link: https://www.instagram.com/tomo3700/
-photo.11.tags: baby, paws, portrait, sample
+photo.10: ig://Ck9VdsqBCHN/m
+photo.10.author: tomo3700
+photo.10.commitdate: 2022/12/20
+photo.10.link: https://www.instagram.com/tomo3700/
+photo.10.tags: baby, paws, portrait, sample
+photo.11: ig://ClOUw-Jvb7V/m
+photo.11.author: resapanlove
+photo.11.commitdate: 2022/12/19
+photo.11.link: https://www.instagram.com/resapanlove/
+photo.11.tags: baby, laying down, mofumofu, tail, tree
 species: 2
 studbook.id: unknown
 zoo: 13

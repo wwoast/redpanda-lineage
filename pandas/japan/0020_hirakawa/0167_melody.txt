@@ -1062,15 +1062,16 @@ photo.210.author: nakacchi_desu
 photo.210.commitdate: 2022/10/6
 photo.210.link: https://www.instagram.com/nakacchi_desu/
 photo.210.tags: mofumofu, peek, sample, tail, tree
-photo.211: ig://ClUspjTvfut/m
+photo.211: ig://CkzN9XPvuyK/m
 photo.211.author: yossi929
-photo.211.commitdate: 2022/12/10
+photo.211.commitdate: 2022/12/20
 photo.211.link: https://www.instagram.com/yossi929/
-photo.211.tags: bamboo, paws, portrait, sample, whiskers
-photo.212: https://www.instagram.com/p/CkzN9XPvuyK/media/?size=m
+photo.211.tags: door, sample, whiskers
+photo.212: ig://ClUspjTvfut/m
 photo.212.author: yossi929
+photo.212.commitdate: 2022/12/10
 photo.212.link: https://www.instagram.com/yossi929/
-photo.212.tags: door, sample, whiskers
+photo.212.tags: bamboo, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1779
 zoo: 20

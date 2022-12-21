@@ -409,12 +409,14 @@ photo.79.author: pink.b22
 photo.79.commitdate: 2022/12/15
 photo.79.link: https://www.instagram.com/pink.b22/
 photo.79.tags: bamboo, bite, paws, portrait, sample, whiskers
-photo.80: https://www.instagram.com/p/CkmRB_aPplu/media/?size=m
+photo.80: ig://CkmRB_aPplu/m
 photo.80.author: hidehaya_biei
+photo.80.commitdate: 2022/12/20
 photo.80.link: https://www.instagram.com/hidehaya_biei/
 photo.80.tags: paws, sample, whiskers
-photo.81: https://www.instagram.com/p/CknmsduPWsp/media/?size=m
+photo.81: ig://CknmsduPWsp/m
 photo.81.author: nakacchi_desu
+photo.81.commitdate: 2022/12/20
 photo.81.link: https://www.instagram.com/nakacchi_desu/
 photo.81.tags: bamboo, bite, sample, whiskers
 species: 2

@@ -1422,8 +1422,9 @@ photo.282.author: ck.chie
 photo.282.commitdate: 2022/12/11
 photo.282.link: https://www.instagram.com/ck.chie/
 photo.282.tags: sample, whiskers
-photo.283: https://www.instagram.com/p/ClGfp4gPHJg/media/?size=m
+photo.283: ig://ClGfp4gPHJg/m
 photo.283.author: taka__3428
+photo.283.commitdate: 2022/12/20
 photo.283.link: https://www.instagram.com/taka__3428/
 photo.283.tags: bamboo, close-up, muzzle, portrait, whiskers
 species: 2
