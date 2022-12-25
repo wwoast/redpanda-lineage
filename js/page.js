@@ -299,9 +299,9 @@ Page.home.render = function() {
     // var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
     // new_content.appendChild(kingin);
     // Current memorials
-    var memorial_ids = ["137"];
-    var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
-    new_content.appendChild(departed);
+    // var memorial_ids = ["137"];
+    // var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
+    // new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["59"], 3, Message.missing_you);
     // new_content.appendChild(memorial);
