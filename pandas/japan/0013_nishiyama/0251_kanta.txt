@@ -394,29 +394,31 @@ photo.76.author: zoowfreedom299
 photo.76.commitdate: 2022/8/7
 photo.76.link: https://www.instagram.com/zoowfreedom299/
 photo.76.tags: apple time, bite, keeper, paws, sample, standing
-photo.77: ig://CkvofnRrbgy/m
-photo.77.author: zoowfreedom299
-photo.77.commitdate: 2022/12/19
-photo.77.link: https://www.instagram.com/zoowfreedom299/
-photo.77.tags: apple time, keeper, paws, standing
-photo.78: ig://CltC4QOvryc/m
-photo.78.author: jas_forever_love
-photo.78.commitdate: 2022/12/15
-photo.78.link: https://www.instagram.com/jas_forever_love/
-photo.78.tags: bridge, peek, portrait
-photo.79: ig://CltVcKbv7KQ/m
-photo.79.author: fetorus_mami
-photo.79.commitdate: 2022/12/15
-photo.79.link: https://www.instagram.com/fetorus_mami/
-photo.79.tags: autumn, tail
-photo.80: https://www.instagram.com/p/CkufCIDrP0C/media/?size=m
-photo.80.author: hidehaya_biei
-photo.80.link: https://www.instagram.com/hidehaya_biei/
-photo.80.tags: paws, sample, standing, tail
-photo.81: https://www.instagram.com/p/CkviZI8r5c4/media/?size=m
-photo.81.author: mini_cochi
-photo.81.link: https://www.instagram.com/mini_cochi/
-photo.81.tags: bamboo, peek, portrait, sample
+photo.77: ig://CkufCIDrP0C/m
+photo.77.author: hidehaya_biei
+photo.77.commitdate: 2022/12/24
+photo.77.link: https://www.instagram.com/hidehaya_biei/
+photo.77.tags: paws, sample, standing, tail
+photo.78: ig://CkviZI8r5c4/m
+photo.78.author: mini_cochi
+photo.78.commitdate: 2022/12/24
+photo.78.link: https://www.instagram.com/mini_cochi/
+photo.78.tags: bamboo, peek, portrait, sample
+photo.79: ig://CkvofnRrbgy/m
+photo.79.author: zoowfreedom299
+photo.79.commitdate: 2022/12/19
+photo.79.link: https://www.instagram.com/zoowfreedom299/
+photo.79.tags: apple time, keeper, paws, standing
+photo.80: ig://CltC4QOvryc/m
+photo.80.author: jas_forever_love
+photo.80.commitdate: 2022/12/15
+photo.80.link: https://www.instagram.com/jas_forever_love/
+photo.80.tags: bridge, peek, portrait
+photo.81: ig://CltVcKbv7KQ/m
+photo.81.author: fetorus_mami
+photo.81.commitdate: 2022/12/15
+photo.81.link: https://www.instagram.com/fetorus_mami/
+photo.81.tags: autumn, tail
 species: 2
 studbook.id: unknown
 zoo: 13

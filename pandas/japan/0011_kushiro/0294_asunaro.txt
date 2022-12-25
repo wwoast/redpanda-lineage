@@ -524,8 +524,9 @@ photo.102.author: minatomirai215
 photo.102.commitdate: 2022/9/8
 photo.102.link: https://www.instagram.com/minatomirai215/
 photo.102.tags: portrait, sample, smile, whiskers
-photo.103: https://www.instagram.com/p/CkqqN_HvHnt/media/?size=m
+photo.103: ig://CkqqN_HvHnt/m
 photo.103.author: minatomirai215
+photo.103.commitdate: 2022/12/24
 photo.103.link: https://www.instagram.com/minatomirai215/
 photo.103.tags: autumn, peek, portrait, sample
 species: 2

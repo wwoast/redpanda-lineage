@@ -544,15 +544,16 @@ photo.107.author: ssc6105
 photo.107.commitdate: 2022/10/14
 photo.107.link: https://www.instagram.com/ssc6105/
 photo.107.tags: bamboo, close-up, sample, whiskers
-photo.108: ig://Ck9lA7ohu3Y/m
-photo.108.author: hamiiiii831_
-photo.108.commitdate: 2022/12/20
-photo.108.link: https://www.instagram.com/hamiiiii831_/
-photo.108.tags: autumn, bamboo, peek, whiskers
-photo.109: https://www.instagram.com/p/Ckp2MyHvmfF/media/?size=m
-photo.109.author: kaoru_a358
-photo.109.link: https://www.instagram.com/kaoru_a358/
-photo.109.tags: autumn, laying down, paws, peek, sample, whiskers
+photo.108: ig://Ckp2MyHvmfF/m
+photo.108.author: kaoru_a358
+photo.108.commitdate: 2022/12/24
+photo.108.link: https://www.instagram.com/kaoru_a358/
+photo.108.tags: autumn, laying down, paws, peek, sample, whiskers
+photo.109: ig://Ck9lA7ohu3Y/m
+photo.109.author: hamiiiii831_
+photo.109.commitdate: 2022/12/20
+photo.109.link: https://www.instagram.com/hamiiiii831_/
+photo.109.tags: autumn, bamboo, peek, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57
