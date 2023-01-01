@@ -347,8 +347,9 @@ photo.67.author: yossi929
 photo.67.commitdate: 2022/9/8
 photo.67.link: https://www.instagram.com/yossi929/
 photo.67.tags: nose, portrait, sample, whiskers
-photo.68: https://www.instagram.com/p/CkKZeo8hNTR/media/?size=m
+photo.68: ig://CkKZeo8hNTR/m
 photo.68.author: yossi929
+photo.68.commitdate: 2023/1/1
 photo.68.link: https://www.instagram.com/yossi929/
 photo.68.tags: sample, whiskers
 species: 2

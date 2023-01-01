@@ -524,19 +524,21 @@ photo.102.author: minatomirai215
 photo.102.commitdate: 2022/9/8
 photo.102.link: https://www.instagram.com/minatomirai215/
 photo.102.tags: portrait, sample, smile, whiskers
-photo.103: ig://CkqqN_HvHnt/m
+photo.103: ig://CkI27nPBOuj/m
 photo.103.author: minatomirai215
-photo.103.commitdate: 2022/12/24
+photo.103.commitdate: 2023/1/1
 photo.103.link: https://www.instagram.com/minatomirai215/
-photo.103.tags: autumn, peek, portrait, sample
-photo.104: https://www.instagram.com/p/CkNM1sur06D/media/?size=m
+photo.103.tags: autumn, peek, smile, tree
+photo.104: ig://CkNM1sur06D/m
 photo.104.author: kushirozoo
+photo.104.commitdate: 2023/1/1
 photo.104.link: https://www.instagram.com/kushirozoo/
 photo.104.tags: autumn, bamboo, home, portrait
-photo.105: https://www.instagram.com/p/CkI27nPBOuj/media/?size=m
+photo.105: ig://CkqqN_HvHnt/m
 photo.105.author: minatomirai215
+photo.105.commitdate: 2022/12/24
 photo.105.link: https://www.instagram.com/minatomirai215/
-photo.105.tags: autumn, peek, smile, tree
+photo.105.tags: autumn, peek, portrait, sample
 species: 2
 studbook.id: 1681
 zoo: 11

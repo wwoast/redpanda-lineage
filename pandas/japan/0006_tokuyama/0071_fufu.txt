@@ -375,20 +375,21 @@ photo.73.author: kojikoji2011
 photo.73.commitdate: 2022/9/11
 photo.73.link: https://www.instagram.com/kojikoji2011/
 photo.73.tags: home, itchy, paws, sample, surprise, tongue
-photo.74: ig://CktqzUsBc5Y/m
-photo.74.author: hamamatsu.chiita
-photo.74.commitdate: 2022/12/24
-photo.74.link: https://www.instagram.com/hamamatsu.chiita/
-photo.74.tags: bamboo, bite, close-up, portrait, sample, whiskers
-photo.75: ig://ClyhZgrPigM/m
-photo.75.author: kojikoji2011
-photo.75.commitdate: 2022/12/15
-photo.75.link: https://www.instagram.com/kojikoji2011/
-photo.75.tags: paws, portrait, sample, standing, tail
-photo.76: https://www.instagram.com/p/CkYbH2thWxZ/media/?size=m
+photo.74: ig://CkYbH2thWxZ/m
+photo.74.author: kojikoji2011
+photo.74.commitdate: 2023/1/1
+photo.74.link: https://www.instagram.com/kojikoji2011/
+photo.74.tags: bamboo, paws, sample, standing
+photo.75: ig://CktqzUsBc5Y/m
+photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2022/12/24
+photo.75.link: https://www.instagram.com/hamamatsu.chiita/
+photo.75.tags: bamboo, bite, close-up, portrait, sample, whiskers
+photo.76: ig://ClyhZgrPigM/m
 photo.76.author: kojikoji2011
+photo.76.commitdate: 2022/12/15
 photo.76.link: https://www.instagram.com/kojikoji2011/
-photo.76.tags: bamboo, paws, sample, standing
+photo.76.tags: paws, portrait, sample, standing, tail
 species: 2
 studbook.id: 14143
 zoo: 6

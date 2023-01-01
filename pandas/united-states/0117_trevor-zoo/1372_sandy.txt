@@ -23,8 +23,9 @@ photo.2.author: trevorzoomillbrook
 photo.2.commitdate: 2022/12/19
 photo.2.link: https://www.instagram.com/trevorzoomillbrook/
 photo.2.tags: baby, door, portrait, profile, sample, white face
-photo.3: https://www.instagram.com/p/Clj9vu4ts9o/media/?size=m
+photo.3: ig://Clj9vu4ts9o/m
 photo.3.author: trevorzoomillbrook
+photo.3.commitdate: 2023/1/1
 photo.3.link: https://www.instagram.com/trevorzoomillbrook/
 photo.3.tags: baby, mofumofu, portrait, sample
 species: 1

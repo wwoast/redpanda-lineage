@@ -629,15 +629,16 @@ photo.124.author: re_ichimaru
 photo.124.commitdate: 2022/9/8
 photo.124.link: https://www.instagram.com/re_ichimaru/
 photo.124.tags: paws, sample, tongue
-photo.125: ig://ClAF2tMv_sG/m
-photo.125.author: yossi929
-photo.125.commitdate: 2022/12/20
-photo.125.link: https://www.instagram.com/yossi929/
-photo.125.tags: portrait, sample, smile, window
-photo.126: https://www.instagram.com/p/CkKahMeBzqD/media/?size=m
-photo.126.author: re_ichimaru
-photo.126.link: https://www.instagram.com/re_ichimaru/
-photo.126.tags: portrait, sample, tail
+photo.125: ig://CkKahMeBzqD/m
+photo.125.author: re_ichimaru
+photo.125.commitdate: 2023/1/1
+photo.125.link: https://www.instagram.com/re_ichimaru/
+photo.125.tags: portrait, sample, tail
+photo.126: ig://ClAF2tMv_sG/m
+photo.126.author: yossi929
+photo.126.commitdate: 2022/12/20
+photo.126.link: https://www.instagram.com/yossi929/
+photo.126.tags: portrait, sample, smile, window
 species: 2
 studbook.id: 0862
 zoo: 32

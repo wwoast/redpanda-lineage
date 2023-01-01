@@ -2288,15 +2288,16 @@ photo.456.author: yossi929
 photo.456.commitdate: 2022/11/10
 photo.456.link: https://www.instagram.com/yossi929/
 photo.456.tags: portrait, sample, whiskers
-photo.457: ig://Ck6uXnBPUCZ/m
-photo.457.author: yossi929
-photo.457.commitdate: 2022/12/19
-photo.457.link: https://www.instagram.com/yossi929/
-photo.457.tags: bamboo, bite, sample, whiskers
-photo.458: https://www.instagram.com/p/Ckegq5Dhtqp/media/?size=m
-photo.458.author: re_ichimaru
-photo.458.link: https://www.instagram.com/re_ichimaru/
-photo.458.tags: portrait, sample, whiskers
+photo.457: ig://Ckegq5Dhtqp/m
+photo.457.author: re_ichimaru
+photo.457.commitdate: 2023/1/1
+photo.457.link: https://www.instagram.com/re_ichimaru/
+photo.457.tags: portrait, sample, whiskers
+photo.458: ig://Ck6uXnBPUCZ/m
+photo.458.author: yossi929
+photo.458.commitdate: 2022/12/19
+photo.458.link: https://www.instagram.com/yossi929/
+photo.458.tags: bamboo, bite, sample, whiskers
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44

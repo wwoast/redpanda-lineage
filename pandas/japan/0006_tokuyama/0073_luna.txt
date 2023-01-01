@@ -199,15 +199,16 @@ photo.37.author: kojikoji2011
 photo.37.commitdate: 2022/10/7
 photo.37.link: https://www.instagram.com/kojikoji2011/
 photo.37.tags: sample, whiskers
-photo.38: ig://CllKTFlPFtQ/m
-photo.38.author: kojikoji2011
-photo.38.commitdate: 2022/12/7
-photo.38.link: https://www.instagram.com/kojikoji2011/
-photo.38.tags: lips, portrait, sample, whiskers
-photo.39: https://www.instagram.com/p/CkMgMZkhVu2/media/?size=m
-photo.39.author: miis_98
-photo.39.link: https://www.instagram.com/miis_98/
-photo.39.tags: apple time, portrait, sample, whiskers
+photo.38: ig://CkMgMZkhVu2/m
+photo.38.author: miis_98
+photo.38.commitdate: 2023/1/1
+photo.38.link: https://www.instagram.com/miis_98/
+photo.38.tags: apple time, portrait, sample, whiskers
+photo.39: ig://CllKTFlPFtQ/m
+photo.39.author: kojikoji2011
+photo.39.commitdate: 2022/12/7
+photo.39.link: https://www.instagram.com/kojikoji2011/
+photo.39.tags: lips, portrait, sample, whiskers
 species: 2
 studbook.id: 15163
 zoo: 6

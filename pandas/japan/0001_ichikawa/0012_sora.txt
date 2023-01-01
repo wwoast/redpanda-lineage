@@ -945,20 +945,21 @@ photo.187.author: alto0908
 photo.187.commitdate: 2022/10/20
 photo.187.link: https://www.instagram.com/alto0908/
 photo.187.tags: air tasting, dish, paws, sample, tongue, whiskers
-photo.188: ig://CkrTHa5Blb8/m
-photo.188.author: alto0908
-photo.188.commitdate: 2022/12/24
-photo.188.link: https://www.instagram.com/alto0908/
-photo.188.tags: lips, peek, sample, whiskers
-photo.189: ig://ClBNzGJP0R9/m
-photo.189.author: pink.b22
-photo.189.commitdate: 2022/12/19
-photo.189.link: https://www.instagram.com/pink.b22/
-photo.189.tags: autumn, tongue, tree
-photo.190: https://www.instagram.com/p/CkQcfdrrtPT/media/?size=m
-photo.190.author: ifumoto88
-photo.190.link: https://www.instagram.com/ifumoto88/
-photo.190.tags: peek, tree
+photo.188: ig://CkQcfdrrtPT/m
+photo.188.author: ifumoto88
+photo.188.commitdate: 2023/1/1
+photo.188.link: https://www.instagram.com/ifumoto88/
+photo.188.tags: peek, tree
+photo.189: ig://CkrTHa5Blb8/m
+photo.189.author: alto0908
+photo.189.commitdate: 2022/12/24
+photo.189.link: https://www.instagram.com/alto0908/
+photo.189.tags: lips, peek, sample, whiskers
+photo.190: ig://ClBNzGJP0R9/m
+photo.190.author: pink.b22
+photo.190.commitdate: 2022/12/19
+photo.190.link: https://www.instagram.com/pink.b22/
+photo.190.tags: autumn, tongue, tree
 species: 2
 studbook.id: 0872
 zoo: 1
