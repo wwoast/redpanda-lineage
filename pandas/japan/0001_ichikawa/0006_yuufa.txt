@@ -741,7 +741,8 @@ photo.146.tags: portrait, sample, whiskers
 photo.147: ig://CkQcCGGLH8O/m
 photo.147.author: ifumoto88
 photo.147.commitdate: 2023/1/1
-photo.147.link: paws, portrait, toys, upside-down
+photo.147.link: https://www.instagram.com/ifumoto88/
+photo.147.tags: paws, portrait, toys, upside-down
 species: 2
 studbook.id: 13146
 zoo: 1
