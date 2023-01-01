@@ -15,44 +15,40 @@ language.order: en, jp
 litter: 971
 location.1: 201, 2015/1/1
 location.2: 206, 2019/3/1
-photo.1: ig://BpvOhlNAQFK/m
-photo.1.author: natmck75
-photo.1.commitdate: 2019/8/16
-photo.1.link: https://www.instagram.com/natmck75/
-photo.2: ig://BvGlPj6HS3i/m
+photo.1: ig://BvGlPj6HS3i/m
+photo.1.author: tasmania_zoo
+photo.1.commitdate: 2020/7/3
+photo.1.link: https://www.instagram.com/tasmania_zoo/
+photo.1.tags: ear, flowers, paws, portrait, profile, standing
+photo.2: ig://BwblqjmndMQ/m
 photo.2.author: tasmania_zoo
 photo.2.commitdate: 2020/7/3
 photo.2.link: https://www.instagram.com/tasmania_zoo/
-photo.2.tags: ear, flowers, paws, portrait, profile, standing
-photo.3: ig://BwblqjmndMQ/m
-photo.3.author: tasmania_zoo
+photo.2.tags: ear, long-tongue, portrait, tongue, whiskers
+photo.3: ig://Byuq6wOgLxz/m
+photo.3.author: nickmartinphotography
 photo.3.commitdate: 2020/7/3
-photo.3.link: https://www.instagram.com/tasmania_zoo/
-photo.3.tags: ear, long-tongue, portrait, tongue, whiskers
-photo.4: ig://Byuq6wOgLxz/m
-photo.4.author: nickmartinphotography
+photo.3.link: https://www.instagram.com/nickmartinphotography/
+photo.3.tags: ear, paws, portrait
+photo.4: ig://B2jAdDtHPMd/m
+photo.4.author: tasmania_zoo
 photo.4.commitdate: 2020/7/3
-photo.4.link: https://www.instagram.com/nickmartinphotography/
-photo.4.tags: ear, paws, portrait
-photo.5: ig://B2jAdDtHPMd/m
+photo.4.link: https://www.instagram.com/tasmania_zoo/
+photo.4.tags: art, paws, portrait, standing, tail
+photo.5: ig://B2qqz7bHEOC/m
 photo.5.author: tasmania_zoo
 photo.5.commitdate: 2020/7/3
 photo.5.link: https://www.instagram.com/tasmania_zoo/
-photo.5.tags: art, paws, portrait, standing, tail
-photo.6: ig://B2qqz7bHEOC/m
+photo.5.tags: close-up, paws, peek, tree
+photo.6: ig://B4joFJGHvnt/m
 photo.6.author: tasmania_zoo
 photo.6.commitdate: 2020/7/3
 photo.6.link: https://www.instagram.com/tasmania_zoo/
-photo.6.tags: close-up, paws, peek, tree
-photo.7: ig://B4joFJGHvnt/m
+photo.6.tags: close-up, techitechi, whiskers
+photo.7: ig://B9sXZX6n2x1/m
 photo.7.author: tasmania_zoo
 photo.7.commitdate: 2020/7/3
 photo.7.link: https://www.instagram.com/tasmania_zoo/
-photo.7.tags: close-up, techitechi, whiskers
-photo.8: ig://B9sXZX6n2x1/m
-photo.8.author: tasmania_zoo
-photo.8.commitdate: 2020/7/3
-photo.8.link: https://www.instagram.com/tasmania_zoo/
-photo.8.tags: laying down, paws, portrait, sleeping, tail
+photo.7.tags: laying down, paws, portrait, sleeping, tail
 species: 1
 zoo: 206
