@@ -367,14 +367,16 @@ photo.71.author: taka__3428
 photo.71.commitdate: 2022/12/19
 photo.71.link: https://www.instagram.com/taka__3428/
 photo.71.tags: close-up, mofumofu, whiskers
-photo.72: https://www.instagram.com/p/CnDbtHHhhg7/media/?size=m
-photo.72.author: ssc6105
-photo.72.link: https://www.instagram.com/ssc6105/
-photo.72.tags: laying down, mofumofu, paws, sample, tongue, tree
-photo.73: https://www.instagram.com/p/CmrMkxNvQqZ/media/?size=m
-photo.73.author: redpan22
-photo.73.link: https://www.instagram.com/redpan22/
-photo.73.tags: close-up, snow, tongue
+photo.72: ig://CmrMkxNvQqZ/m
+photo.72.author: redpan22
+photo.72.commitdate: 2023/1/6
+photo.72.link: https://www.instagram.com/redpan22/
+photo.72.tags: close-up, snow, tongue
+photo.73: ig://CnDbtHHhhg7/m
+photo.73.author: ssc6105
+photo.73.commitdate: 2023/1/6
+photo.73.link: https://www.instagram.com/ssc6105/
+photo.73.tags: laying down, mofumofu, paws, sample, tongue, tree
 species: 2
 studbook.id: 11100
 zoo: 10

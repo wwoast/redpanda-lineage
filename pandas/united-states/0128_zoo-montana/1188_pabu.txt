@@ -120,8 +120,9 @@ photo.21.author: zoomontana
 photo.21.commitdate: 2022/8/31
 photo.21.link: https://www.instagram.com/zoomontana/
 photo.21.tags: peek, portrait, tail
-photo.22: https://www.instagram.com/p/CmXLV4qr0ES/media/?size=m
+photo.22: ig://CmXLV4qr0ES/m
 photo.22.author: zoomontana
+photo.22.commitdate: 2023/1/6
 photo.22.link: https://www.instagram.com/zoomontana/
 photo.22.tags: bamboo, paws, portrait, sample, snow
 species: 2

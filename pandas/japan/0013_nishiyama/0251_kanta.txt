@@ -419,18 +419,21 @@ photo.81.author: fetorus_mami
 photo.81.commitdate: 2022/12/15
 photo.81.link: https://www.instagram.com/fetorus_mami/
 photo.81.tags: autumn, tail
-photo.82: https://www.instagram.com/p/CmV4YFxvs2j/media/?size=m
-photo.82.author: minato.yokohama4416
-photo.82.link: https://www.instagram.com/minato.yokohama4416/
-photo.82.tags: bamboo, mofumofu, portrait, sample
-photo.83: https://www.instagram.com/p/CmQt1PhvmTv/media/?size=m
-photo.83.author: tomo3700
-photo.83.link: https://www.instagram.com/tomo3700/
-photo.83.tags: portrait, sample, tree
-photo.84: https://www.instagram.com/p/CmSZPf0BFUK/media/?size=m
+photo.82: ig://CmQt1PhvmTv/m
+photo.82.author: tomo3700
+photo.82.commitdate: 2023/1/6
+photo.82.link: https://www.instagram.com/tomo3700/
+photo.82.tags: portrait, sample, tree
+photo.83: ig://CmSZPf0BFUK/m
+photo.83.author: minato.yokohama4416
+photo.83.commitdate: 2023/1/6
+photo.83.link: https://www.instagram.com/minato.yokohama4416/
+photo.83.tags: bamboo, paws, portrait, sample
+photo.84: ig://CmV4YFxvs2j/m
 photo.84.author: minato.yokohama4416
+photo.84.commitdate: 2023/1/6
 photo.84.link: https://www.instagram.com/minato.yokohama4416/
-photo.84.tags: bamboo, paws, portrait, sample
+photo.84.tags: bamboo, mofumofu, portrait, sample
 species: 2
 studbook.id: unknown
 zoo: 13
