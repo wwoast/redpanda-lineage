@@ -1,0 +1,19 @@
+[panda]
+_id: 1024
+birthday: 2011/12/18
+birthplace: 202
+children: unknown
+commitdate: 2019/11/9
+en.name: Makalu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マカル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 202, 2011/12/18
+location.2: 217, 2013/10/14
+species: 1
+zoo: 217

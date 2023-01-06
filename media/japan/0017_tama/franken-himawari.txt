@@ -1,0 +1,25 @@
+[media]
+_id: media.17.franken-himawari
+commitdate: 2020/3/6
+panda.tags: 8, 101
+photo.1: ig://B8tds8JBjlc/m
+photo.1.author: alto0908
+photo.1.commitdate: 2020/3/6
+photo.1.link: https://www.instagram.com/alto0908/
+photo.1.tags: bamboo, couple, tail
+photo.1.tags.8.location: 280, 60
+photo.1.tags.101.location: 35, 140
+photo.2: ig://B91QR2whtig/m
+photo.2.author: alto0908
+photo.2.commitdate: 2020/3/21
+photo.2.link: https://www.instagram.com/alto0908/
+photo.2.tags: apple time, couple
+photo.2.tags.8.location: 110, 145
+photo.2.tags.101.location: 205, 115
+photo.3: ig://B-A8nWEhIjV/m
+photo.3.author: alto0908
+photo.3.commitdate: 2020/3/25
+photo.3.link: https://www.instagram.com/alto0908/
+photo.3.tags: couple, paws, tongue
+photo.3.tags.8.location: 195, 185
+photo.3.tags.101.location: 110, 95

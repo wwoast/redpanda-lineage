@@ -1,0 +1,15 @@
+[zoo]
+_id: 259
+commitdate: 2020/8/5
+en.address: Beekse Bergen 1, 5081 NJ Hilvarenbeek, Netherlands
+en.location: Hilvarenbeek, Netherlands
+en.name: Beekse Bergen Safaripark
+flag: Netherlands
+language.order: nl, en
+latitude: 51.5292269
+longitude: 5.1045096
+map: https://goo.gl/maps/AXgsfF4tAARoszMT6
+nl.address: Beekse Bergen 1, 5081 NJ Hilvarenbeek, Netherlands
+nl.location: Hilvarenbeek, Netherlands
+nl.name: Safaripark Beekse Bergen
+website: https://www.beeksebergen.nl/

@@ -1,0 +1,44 @@
+[media]
+_id: media.40.kaka-pupu-yuuyuu
+commitdate: 2019/11/12
+panda.tags: 224, 994, 995
+photo.1: ig://B4kLgY4BLYt/l
+photo.1.author: nakacchi_desu
+photo.1.commitdate: 2019/11/12
+photo.1.link: https://www.instagram.com/nakacchi_desu/
+photo.1.tags: baby, counter-clockwise, family, siblings, train, twins
+photo.1.tags.224.location: 780, 475
+photo.1.tags.994.location: 700, 160
+photo.1.tags.995.location: 415, 240
+photo.2: ig://B5ZfRXpBT0t/m
+photo.2.author: re_ichimaru
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.2.tags: baby, family, playing, siblings, twins
+photo.2.tags.224.location: 205, 110
+photo.2.tags.994.location: 225, 175
+photo.2.tags.995.location: 85, 135
+photo.3: ig://B5Zz2d5Bj5N/m
+photo.3.author: kmasahon
+photo.3.commitdate: 2020/1/20
+photo.3.link: https://www.instagram.com/kmasahon/
+photo.3.tags: baby, family, siblings, twins
+photo.3.tags.224.location: 140, 75
+photo.3.tags.994.location: 55, 130
+photo.3.tags.995.location: 250, 145
+photo.4: ig://B7kU2IgBW6r/l
+photo.4.author: redpanda_nippon_takashi
+photo.4.commitdate: 2020/2/16
+photo.4.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.4.tags: bamboo, family
+photo.4.tags.224.location: 745, 465
+photo.4.tags.994.location: 575, 405
+photo.4.tags.995.location: 435, 220
+photo.5: ig://B7mUPeABQeD/l
+photo.5.author: redpanda_nippon_takashi
+photo.5.commitdate: 2020/5/9
+photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.5.tags: bamboo, family, siblings, twins
+photo.5.tags.224.location: 600, 300
+photo.5.tags.994.location: 920, 240
+photo.5.tags.995.location: 190, 445

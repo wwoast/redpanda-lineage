@@ -1,0 +1,15 @@
+[panda]
+_id: 1321
+birthday: 2021/7/3
+birthplace: 198
+children: none
+commitdate: 2021/12/4
+en.name: Millish
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+zoo: 198

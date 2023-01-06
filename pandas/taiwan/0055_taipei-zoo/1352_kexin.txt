@@ -1,0 +1,70 @@
+[panda]
+_id: 1352
+birthday: 2015/6/20
+birthplace: 55
+children: unknown
+cn.name: 可忻
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2022/4/20
+en.name: Kexin
+en.nicknames: none
+en.othernames: Keshin
+gender: m
+jp.name: ケシーン
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: 1351
+photo.1: ig://CVEqgkEB6wi/m
+photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/20
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: paws, portrait, whiskers
+photo.2: ig://CZ21S4Whqkz/m
+photo.2.author: yuredpanda
+photo.2.commitdate: 2022/4/20
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: muzzle, portrait, smile, whiskers
+photo.3: ig://CZ_qNa9BT1C/m
+photo.3.author: yuredpanda
+photo.3.commitdate: 2022/4/20
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: close-up, portrait, shake, whiskers
+photo.4: ig://CaQupc4v50A/m
+photo.4.author: yuredpanda
+photo.4.commitdate: 2022/4/20
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: portrait, whiskers
+photo.5: ig://CalGv3HhDiF/m
+photo.5.author: yuredpanda
+photo.5.commitdate: 2022/4/20
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: portrait, profile, tongue, whiskers
+photo.6: ig://CdUTYT3P4B4/m
+photo.6.author: yuredpanda
+photo.6.commitdate: 2022/6/7
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: laying down, paws, portrait, sample, whiskers
+photo.7: ig://CiMH3y7vnan/m
+photo.7.author: yuredpanda
+photo.7.commitdate: 2022/11/10
+photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.tags: laying down, peek, tree
+photo.8: ig://CjE6RXKPR5A/m
+photo.8.author: yuredpanda
+photo.8.commitdate: 2022/10/1
+photo.8.link: https://www.instagram.com/yuredpanda/
+photo.8.tags: lips, portrait, sample, whiskers
+photo.9: ig://CjPO0IiPnVR/m
+photo.9.author: yuredpanda
+photo.9.commitdate: 2022/10/14
+photo.9.link: https://www.instagram.com/yuredpanda/
+photo.9.tags: paws, portrait, sample, smile, tree, whiskers
+photo.10: ig://CkuVhPmPQcA/m
+photo.10.author: yuredpanda
+photo.10.commitdate: 2022/12/24
+photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.tags: portrait, sample, whiskers
+species: 2
+zoo: 55

@@ -1,0 +1,31 @@
+[zoo]
+_id: 246
+commitdate: 2020/5/5
+en.address: Kvarsebovägen, 618 92 Kolmården, Sweden
+en.location: Bråviken Bay, Norrköping, Sweden
+en.name: Kolmården Wildlife Park
+flag: Sweden
+language.order: se, en
+latitude: 58.6640632
+longitude: 16.4471131
+map: https://goo.gl/maps/JNjPxjqkqf1qzzUR9
+photo.1: ig://4eBeP0kG_4/m
+photo.1.author: kolmardensdjurpark
+photo.1.commitdate: 2020/5/6
+photo.1.link: https://www.instagram.com/kolmardensdjurpark/
+photo.2: ig://BkkWY4lgzCV/m
+photo.2.author: kolmardensdjurpark
+photo.2.commitdate: 2020/5/6
+photo.2.link: https://www.instagram.com/kolmardensdjurpark/
+photo.3: ig://BlmwlnfgY3H/m
+photo.3.author: kolmardensdjurpark
+photo.3.commitdate: 2020/5/6
+photo.3.link: https://www.instagram.com/kolmardensdjurpark/
+photo.4: ig://B4mNdypHMe9/m
+photo.4.author: kolmardensdjurpark
+photo.4.commitdate: 2020/5/6
+photo.4.link: https://www.instagram.com/kolmardensdjurpark/
+se.address: Kvarsebovägen, 618 92 Kolmården, Sweden
+se.location: Bråviken Bay, Norrköping, Sweden
+se.name: Kolmårdens Djurpark
+website: https://www.kolmarden.com/

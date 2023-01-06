@@ -1,0 +1,24 @@
+[zoo]
+_id: 18
+commitdate: 2018/6/18
+en.address: Japan, 〒345-0831 Saitama Prefecture, Minamisaitama District, Miyashiro, 須賀１１０
+en.location: Miyashiro, Minamisaitama, Saitama Prefecture, Japan
+en.name: Tobu Zoo
+flag: Japan
+jp.address: 〒345-0831 埼玉県南埼玉郡宮代町 須賀１１０
+jp.location: 宮代町 南埼玉郡 埼玉県
+jp.name: 東武動物公園
+language.order: jp, en
+latitude: 36.0196909
+longitude: 139.7174791
+map: https://goo.gl/maps/74vbDPHR5DK2
+photo.1: ig://Bioo8kVhp4i/m
+photo.1.author: yurika_0212
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/yurika_0212/
+photo.1.tags: profile
+photo.2: ig://BysNYKuFbjL/m
+photo.2.author: forest_jizo
+photo.2.commitdate: 2019/7/7
+photo.2.link: https://www.instagram.com/forest_jizo/
+website: http://www.tobuzoo.com/park/

@@ -1,0 +1,13 @@
+[media]
+_id: media.159.coco-louise-penny
+commitdate: 2020/11/11
+panda.tags: 1221, 1222, 1223
+photo.1: ig://CGDTf4IAc-4/l
+photo.1.author: akronzoo
+photo.1.commitdate: 2020/11/11
+photo.1.link: https://www.instagram.com/akronzoo/
+photo.1.tags: peek, siblings, sisters, triplets
+photo.1.tags.1221.location: 0, 0
+photo.1.tags.1222.location: 5, 5
+photo.1.tags.1223.location: 10, 10
+uncertainty: photo.1.tags.location (all)

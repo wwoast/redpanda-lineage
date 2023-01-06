@@ -1,0 +1,79 @@
+[panda]
+_id: 425
+birthday: 2016/6/14
+birthplace: 65
+children: none
+commitdate: 2018/11/23
+death: 2020/9/6
+en.name: Harriet
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ハリエット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 323
+photo.1: ig://BLoAUAEgxGK/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2018/11/23
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: baby, portrait
+photo.2: ig://Beat153hP_t/m
+photo.2.author: cincinnatizoo
+photo.2.commitdate: 2020/1/3
+photo.2.link: https://www.instagram.com/cincinnatizoo/
+photo.2.tags: baby, paws, smile
+photo.3: ig://Boy_rwAF2IQ/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2018/11/23
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait
+photo.4: ig://B1laNEQABLz/m
+photo.4.author: cincinnatizoo
+photo.4.commitdate: 2019/10/25
+photo.4.link: https://www.instagram.com/cincinnatizoo/
+photo.4.tags: whiskers
+photo.5: ig://B1wuRyjJuiL/m
+photo.5.author: rossifari
+photo.5.commitdate: 2019/10/13
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: portrait, profile
+photo.6: ig://B19qAbCpkBk/m
+photo.6.author: rossifari
+photo.6.commitdate: 2019/10/13
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: portrait
+photo.7: ig://B3fe7fzJmaa/m
+photo.7.author: rossifari
+photo.7.commitdate: 2019/10/17
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: smile, tail
+photo.8: ig://B4vs_YRn-e4/m
+photo.8.author: shaesavestheplanet
+photo.8.commitdate: 2020/2/29
+photo.8.link: https://www.instagram.com/shaesavestheplanet/
+photo.8.tags: close-up
+photo.9: ig://B5oYJdJBWbb/m
+photo.9.author: snapcrackleangela
+photo.9.commitdate: 2019/12/11
+photo.9.link: https://www.instagram.com/snapcrackleangela/
+photo.9.tags: portrait, whiskers
+photo.10: ig://B6stnkWB9Ay/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2019/12/31
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: paws, portrait, snow, techitechi
+photo.11: ig://B-ED9CVBAdR/m
+photo.11.author: carsontheredpanda
+photo.11.commitdate: 2020/3/24
+photo.11.link: https://www.instagram.com/carsontheredpanda/
+photo.11.tags: paws, standing
+photo.12: ig://CFEBP7SBzFd/m
+photo.12.author: carsontheredpanda
+photo.12.commitdate: 2020/9/15
+photo.12.link: https://www.instagram.com/carsontheredpanda/
+photo.12.tags: paws, portrait, smile, standing
+species: 2
+studbook.id: 1607
+zoo: 65

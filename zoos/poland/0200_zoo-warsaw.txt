@@ -1,0 +1,16 @@
+[zoo]
+_id: 200
+commitdate: 2019/7/22
+en.address: Ratuszowa 1/3, 03-461 Warszawa, Poland
+en.location: Warsaw, Poland
+en.name: Warsaw Zoo
+flag: Poland
+language.order: pl, en
+latitude: 52.2557975
+longitude: 21.0150525
+map: https://goo.gl/maps/UEbETRmjydyr2bk46
+pl.address: Ratuszowa 1/3, 03-461 Warszawa, Poland
+pl.location: Warszawa, Poland
+pl.name: Warszawskie Zoo
+pl.othernames: Miejski Ogród Zoologiczny Warsaw
+website: https://zoo.waw.pl/

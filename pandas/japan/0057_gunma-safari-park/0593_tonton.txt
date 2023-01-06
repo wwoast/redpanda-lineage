@@ -1,0 +1,21 @@
+[panda]
+_id: 593
+birthday: 1994/6/17
+birthplace: 10
+children: none
+commitdate: 2019/3/19
+death: 2007/12/16
+en.name: Ton-Ton
+en.nicknames: none
+en.othernames: Tonton
+gender: m
+jp.name: トントン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 592
+location.1: 10, 1994/6/17
+location.2: 57, 1998/1/28
+species: 2
+studbook.id: 9441
+zoo: 57

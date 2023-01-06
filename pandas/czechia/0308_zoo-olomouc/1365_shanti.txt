@@ -1,0 +1,60 @@
+[panda]
+_id: 1365
+birthday: 2021/6/1
+birthplace: 257
+children: none
+commitdate: 2022/6/1
+en.name: Shanti
+en.nicknames: none
+en.othernames: 
+gender: f
+jp.name: シャンティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1366
+location.1: 257, 2021/6/1
+location.2: 308, 2022/6/30
+photo.1: ig://CVzC17zqLiK/m
+photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/6/1
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: baby, close-up, mofumofu, white face
+photo.2: ig://CWGf1IdMKpC/m
+photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/6/1
+photo.2.link: https://www.instagram.com/seelviahhtaz/
+photo.2.tags: baby, close-up, mofumofu, portrait, sample, whiskers, white face
+photo.3: ig://CWtxKy-KIM3/m
+photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/6/1
+photo.3.link: https://www.instagram.com/seelviahhtaz/
+photo.3.tags: baby, bamboo, laying down, portrait, profile, sample
+photo.4: ig://CYuy3FdKTWv/m
+photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/6/1
+photo.4.link: https://www.instagram.com/seelviahhtaz/
+photo.4.tags: baby, bamboo, mofumofu, peek, portrait, sample
+photo.5: ig://CbpzVlms2px/m
+photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/6/1
+photo.5.link: https://www.instagram.com/seelviahhtaz/
+photo.5.tags: mofumofu, paws, portrait, sample, whiskers
+photo.6: ig://CcxPrFpNSxl/m
+photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/6/1
+photo.6.link: https://www.instagram.com/seelviahhtaz/
+photo.6.tags: mofumofu, peek, white face
+photo.7: ig://CdvRJ4RMwGE/m
+photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/6/1
+photo.7.link: https://www.instagram.com/seelviahhtaz/
+photo.7.tags: bamboo, peek, whiskers, white face
+photo.8: ig://CfZ4bzJtfZM/m
+photo.8.author: seelviahhtaz
+photo.8.commitdate: 2022/12/10
+photo.8.link: https://www.instagram.com/seelviahhtaz/
+photo.8.tags: bridge, white face
+species: 1
+uncertainty: birthday in june, location.2 exact date
+zoo: 308

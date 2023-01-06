@@ -1,0 +1,59 @@
+[panda]
+_id: 199
+birthday: 2010/7/2
+birthplace: 8
+children: 51, 284, 200
+commitdate: 2018/7/22
+death: 2017/8/21
+en.name: Kouta
+en.nicknames: none
+en.othernames: Kōta
+es.name: Kouta
+es.nicknames: none
+es.othernames: none
+gender: m
+jp.name: コウタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, es, en
+litter: 19
+location.1: 8, 2010/7/2
+location.2: 9, 2012/12/17
+location.3: 56, 2015/5/1
+photo.1: https://www.codaworry.com/images/rpf/kouta-1-santiago.jpg
+photo.1.author: gachon_kudo
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://gachon.exblog.jp/i12/
+photo.1.tags: profile, smile
+photo.2: https://www.codaworry.com/images/rpf/kouta-2-santiago.jpg
+photo.2.author: gachon_kudo
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://gachon.exblog.jp/i12/
+photo.2.tags: smile
+photo.3: ig://BGKzZBbDxAx/m
+photo.3.author: malufalco
+photo.3.commitdate: 2019/5/22
+photo.3.link: https://www.instagram.com/malufalco/
+photo.3.tags: flowers
+photo.4: ig://BBgfrBvjxAN/m
+photo.4.author: malufalco
+photo.4.commitdate: 2019/5/22
+photo.4.link: https://www.instagram.com/malufalco/
+photo.4.tags: bamboo
+photo.5: ig://BPdE285g4vt/m
+photo.5.author: photodme
+photo.5.commitdate: 2019/5/22
+photo.5.link: https://www.instagram.com/photodme/
+photo.6: ig://wkVfoSuuC_/m
+photo.6.author: androarkngel
+photo.6.commitdate: 2019/10/31
+photo.6.link: https://www.instagram.com/androarkngel/
+photo.6.tags: dish, lunch time, tail
+photo.7: ig://BJWdcp4gDl8/m
+photo.7.author: lovelyxia
+photo.7.commitdate: 2020/3/15
+photo.7.link: https://www.instagram.com/lovelyxia/
+photo.7.tags: whiskers
+species: 2
+studbook.id: 10107
+zoo: 56

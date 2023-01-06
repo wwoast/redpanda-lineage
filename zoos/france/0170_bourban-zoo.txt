@@ -1,0 +1,15 @@
+[zoo]
+_id: 170
+commitdate: 2019/3/19
+en.address: La Bourbansais, 35720 Pleugueneuc, France
+en.location: Pleugueneuc, Ille-et-Vilaine, France
+en.name: Zoo and Castle Bourbansais
+flag: France
+fr.address: La Bourbansais, 35720 Pleugueneuc, France
+fr.location: Pleugueneuc, Ille-et-Vilaine, France
+fr.name: Parc Zoologique & Château de la Bourbansais
+language.order: fr, en
+latitude: 48.4026651
+longitude: -1.9091127
+map: https://goo.gl/maps/i3TtodAtxVo
+website: https://www.labourbansais.com

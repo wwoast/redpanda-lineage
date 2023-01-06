@@ -1,0 +1,34 @@
+[panda]
+_id: 1204
+birthday: 2020/7/1
+birthplace: 259
+children: none
+commitdate: 2020/8/5
+en.name: Binti
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ビンティ
+jp.nicknames: none
+jp.othernames: none
+language.order: nl, en, jp
+litter: none
+location.1: 259, 2020/7/1
+location.2: 295, 2021/4/9
+nl.name: Binti
+nl.nicknames: none
+nl.othernames: none
+photo.1: ig://CCnXVK3ABBU/m
+photo.1.author: beeksebergen
+photo.1.commitdate: 2020/8/5
+photo.1.link: https://www.instagram.com/beeksebergen/
+photo.1.tags: baby, mofumofu, newborn, portrait, profile
+photo.2: ig://CJalVJAAcVp/m
+photo.2.author: nicolethiessen288
+photo.2.commitdate: 2021/8/27
+photo.2.link: https://www.instagram.com/nicolethiessen288/
+photo.2.tags: mofumofu, whiskers
+species: 1
+studbook.id: unknown
+uncertainty: location.2 exact date
+zoo: 295

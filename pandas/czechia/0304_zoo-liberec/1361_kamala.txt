@@ -1,0 +1,20 @@
+[panda]
+_id: 1361
+birthday: 2013/6/25
+birthplace: 263
+children: unknown
+commitdate: 2022/5/22
+en.name: Kamala
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カマラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1360
+location.1: 263, 2013/6/25
+location.2: 304, 2014/5/23
+species: 1
+studbook.id: 13130
+zoo: 304

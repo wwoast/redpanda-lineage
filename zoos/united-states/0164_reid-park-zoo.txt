@@ -1,0 +1,12 @@
+[zoo]
+_id: 164
+commitdate: 2019/3/19
+en.address: 3400 E Zoo Ct, Tucson, AZ 85716, USA
+en.location: Tucson, Arizona, USA
+en.name: Reid Park Zoo
+flag: USA
+language.order: en
+latitude: 32.2098547
+longitude: -110.922933
+map: https://goo.gl/maps/4ifa2Vic4k92
+website: https://reidparkzoo.org

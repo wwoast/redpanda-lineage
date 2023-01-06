@@ -1,0 +1,19 @@
+[panda]
+_id: 1342
+birthday: 1985/6/17
+birthplace: 290
+children: none
+commitdate: 2022/2/17
+death: 1988/3/21
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1343
+species: 2
+studbook.id: 8537
+zoo: 290

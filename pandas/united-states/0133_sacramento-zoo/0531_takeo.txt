@@ -1,0 +1,105 @@
+[panda]
+_id: 531
+birthday: 2008/6/29
+birthplace: 131
+children: 625, 697, 1228
+commitdate: 2019/2/24
+en.name: Takeo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タケオ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 530
+location.1: 131, 2008/6/29
+location.2: 122, 2009/4/30
+location.3: 133, 2012/2/8
+photo.1: https://www.codaworry.com/images/rpf/takeo-1-sacramento.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://www.instagram.com/worldthathesees
+photo.1.tags: mofumofu
+photo.2: https://www.codaworry.com/images/rpf/takeo-2-sacramento.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: http://www.instagram.com/worldthathesees
+photo.2.tags: laying down
+photo.3: https://www.codaworry.com/images/rpf/takeo-3-sacramento.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://www.instagram.com/worldthathesees
+photo.3.tags: sleeping
+photo.4: https://www.codaworry.com/images/rpf/takeo-4-sacramento.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://www.instagram.com/worldthathesees
+photo.5: ig://BLb7drPjlq_/m
+photo.5.author: sacramentozoo
+photo.5.commitdate: 2019/12/7
+photo.5.link: https://www.instagram.com/sacramentozoo/
+photo.5.tags: portrait, paws
+photo.6: ig://BZhOew7lDHG/m
+photo.6.author: sacramentozoo
+photo.6.commitdate: 2019/12/7
+photo.6.link: https://www.instagram.com/sacramentozoo/
+photo.6.tags: portrait
+photo.7: ig://BoXiofCl8JT/m
+photo.7.author: sacramentozoo
+photo.7.commitdate: 2019/6/16
+photo.7.link: https://www.instagram.com/sacramentozoo/
+photo.7.tags: art, smile, tongue
+photo.8: ig://B49EHLKgXx8/m
+photo.8.author: ohmygoat1
+photo.8.commitdate: 2019/11/26
+photo.8.link: https://www.instagram.com/ohmygoat1/
+photo.8.tags: bamboo, paws
+photo.9: ig://B5TRkC2g9nv/m
+photo.9.author: ohmygoat1
+photo.9.commitdate: 2019/11/26
+photo.9.link: https://www.instagram.com/ohmygoat1/
+photo.9.tags: bamboo, smile
+photo.10: ig://B842ktkgRTu/m
+photo.10.author: ohmygoat1
+photo.10.commitdate: 2020/3/18
+photo.10.link: https://www.instagram.com/ohmygoat1/
+photo.10.tags: bamboo, mofumofu
+photo.11: ig://B_NXk2lAJDR/m
+photo.11.author: sacramentozoo
+photo.11.commitdate: 2020/5/3
+photo.11.link: https://www.instagram.com/sacramentozoo/
+photo.11.tags: bamboo, tree
+photo.12: ig://B_wCZlQg_TP/m
+photo.12.author: ohmygoat1
+photo.12.commitdate: 2020/5/4
+photo.12.link: https://www.instagram.com/ohmygoat1/
+photo.12.tags: portrait, profile, whiskers
+photo.13: ig://CFYqLLZBxgo/m
+photo.13.author: carsontheredpanda
+photo.13.commitdate: 2020/9/24
+photo.13.link: https://www.instagram.com/carsontheredpanda/
+photo.13.tags: peek, white face
+photo.14: ig://CGptiUslKlb/m
+photo.14.author: sacramentozoo
+photo.14.commitdate: 2020/10/26
+photo.14.link: https://www.instagram.com/sacramentozoo/
+photo.14.tags: mofumofu, white face
+photo.15: ig://CHQ0AyOnkwJ/m
+photo.15.author: sacramentozoo
+photo.15.commitdate: 2021/3/18
+photo.15.link: https://www.instagram.com/sacramentozoo/
+photo.15.tags: whiskers
+photo.16: ig://CLPwaDLBewR/m
+photo.16.author: wumpwoast
+photo.16.commitdate: 2022/3/13
+photo.16.link: https://www.instagram.com/wumpwoast/
+photo.16.tags: peek, portrait, sample, white face, whiskers
+photo.17: ig://Caal9BFByBv/m
+photo.17.author: sacramentozoo
+photo.17.commitdate: 2022/3/10
+photo.17.link: https://www.instagram.com/redpandanetwork/
+photo.17.tags: mofumofu, portrait, sample, whiskers, white face
+species: 1
+studbook.id: 0805
+zoo: 133

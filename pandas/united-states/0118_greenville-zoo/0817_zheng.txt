@@ -1,0 +1,26 @@
+[panda]
+_id: 817
+birthday: 2008/6/28
+birthplace: 141
+children: 991, 992, 993
+commitdate: 2019/4/7
+en.name: Zheng
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 鄭
+jp.nicknames: none
+jp.othernames: てい
+language.order: en, jp
+litter: 863
+location.1: 141, 2008/6/28
+location.2: 159, 2009/5/14
+location.3: 118, 2016/12/6
+photo.1: ig://BTHPFPRAGrd/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile
+species: 1
+studbook.id: 0813
+zoo: 118

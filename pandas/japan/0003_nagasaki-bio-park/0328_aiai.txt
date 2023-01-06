@@ -1,0 +1,46 @@
+[panda]
+_id: 328
+birthday: 2002/7/17
+birthplace: 6
+children: 3
+commitdate: 2018/9/8
+death: 2022/1/4
+en.name: Aiai
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アイアイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 76
+location.1: 6, 2002/7/17
+location.2: 3, 2007/1/31
+photo.1: ig://BT6Yj2fFSqn/m
+photo.1.author: sbskyy
+photo.1.commitdate: 2018/12/26
+photo.1.link: https://www.instagram.com/sbskyy/
+photo.1.tags: laying down
+photo.2: ig://Bj53fZvAxyM/m
+photo.2.author: ngsbiopark
+photo.2.commitdate: 2018/12/26
+photo.2.link: https://www.instagram.com/ngsbiopark/
+photo.2.tags: portrait, smile
+photo.3: ig://BxZq0pUFfGS/m
+photo.3.author: daniele.tokyo
+photo.3.commitdate: 2019/5/16
+photo.3.link: https://www.instagram.com/daniele.tokyo/
+photo.3.tags: portrait, tongue, white face
+photo.4: ig://CYgAW4wvDz5/m
+photo.4.author: grskus_tk
+photo.4.commitdate: 2022/2/23
+photo.4.link: https://www.instagram.com/grskus_tk/
+photo.4.tags: laying down, paws
+photo.5: ig://CYgSp_jvK8H/m
+photo.5.author: grskus_tk
+photo.5.commitdate: 2022/2/5
+photo.5.link: https://www.instagram.com/grskus_tk/
+photo.5.tags: close-up, mofumofu, smile, whiskers
+species: 2
+studbook.id: 0294
+zoo: 3

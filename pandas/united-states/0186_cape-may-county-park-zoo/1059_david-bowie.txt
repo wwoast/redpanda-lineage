@@ -1,0 +1,102 @@
+[panda]
+_id: 1059
+birthday: 2018/6/30
+birthplace: 144
+children: 1192
+commitdate: 2019/11/27
+en.name: David Bowie
+en.nicknames: none
+en.othernames: Bowie, Young Chi, Young-Chi, Yung Chi, Yung-Chi, Yungchi
+gender: m
+jp.name: デビッド・ボウイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 144, 2018/6/30
+location.2: 133, 2019/5/1
+location.3: 186, 2021/11/16
+photo.1: ig://BxlAQE6npN5/m
+photo.1.author: sunsetzoomhk
+photo.1.commitdate: 2020/5/11
+photo.1.link: https://www.instagram.com/sunsetzoomhk/
+photo.1.tags: smile
+photo.2: ig://B42tRS7AeuK/m
+photo.2.author: ohmygoat1
+photo.2.commitdate: 2019/11/27
+photo.2.link: https://www.instagram.com/ohmygoat1/
+photo.2.tags: portrait
+photo.3: ig://CXolelNrvEE/m
+photo.3.author: capemaycountyzoo
+photo.3.commitdate: 2021/12/22
+photo.3.link: https://www.instagram.com/capemaycountyzoo/
+photo.3.tags: paws, portrait, smile, whiskers
+photo.4: ig://CXqeRa3MQ7h/m
+photo.4.author: rossifari
+photo.4.commitdate: 2022/1/8
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: portrait, profile
+photo.5: ig://CYEGxkIA5BJ/m
+photo.5.author: rossifari
+photo.5.commitdate: 2022/1/31
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: bamboo, paws, smile
+photo.6: ig://CYmWSXovqPi/m
+photo.6.author: aimless_amos
+photo.6.commitdate: 2022/1/23
+photo.6.link: https://www.instagram.com/carsontheredpanda/
+photo.6.tags: portrait, sample, snow, tongue, toys, whiskers
+photo.7: https://www.codaworry.com/images/rpf/david-bowie-1-capemay.jpg
+photo.7.author: aimless_amos
+photo.7.commitdate: 2022/3/21
+photo.7.link: https://www.instagram.com/aimless_amos/
+photo.7.tags: close-up, paws, portrait, standing
+photo.8: https://www.codaworry.com/images/rpf/david-bowie-2-capemay.jpg
+photo.8.author: aimless_amos
+photo.8.commitdate: 2022/3/21
+photo.8.link: https://www.instagram.com/aimless_amos/
+photo.8.tags: paws, portrait, standing, tail, whiskers
+photo.9: https://www.codaworry.com/images/rpf/david-bowie-3-capemay.jpg
+photo.9.author: aimless_amos
+photo.9.commitdate: 2022/3/21
+photo.9.link: https://www.instagram.com/aimless_amos/
+photo.9.tags: home, portrait, snow, whiskers
+photo.10: https://www.codaworry.com/images/rpf/david-bowie-4-capemay.jpg
+photo.10.author: aimless_amos
+photo.10.commitdate: 2022/3/21
+photo.10.link: https://www.instagram.com/aimless_amos/
+photo.10.tags: paws, portrait, sample, tail, whiskers
+photo.11: https://www.codaworry.com/images/rpf/david-bowie-5-capemay.jpg
+photo.11.author: aimless_amos
+photo.11.commitdate: 2022/3/21
+photo.11.link: https://www.instagram.com/aimless_amos/
+photo.11.tags: nose, paws, portrait, toys, whiskers
+photo.12: https://www.codaworry.com/images/rpf/david-bowie-6-capemay.jpg
+photo.12.author: aimless_amos
+photo.12.commitdate: 2022/3/21
+photo.12.link: https://www.instagram.com/aimless_amos/
+photo.12.tags: close-up, portrait, sample, whiskers
+photo.13: ig://CbaTb47LYku/m
+photo.13.author: aimless_amos
+photo.13.commitdate: 2022/4/26
+photo.13.link: https://www.instagram.com/aimless_amos/
+photo.13.tags: paws, portrait, sample, standing
+photo.14: ig://CfcBv3apX9H/m
+photo.14.author: aimless_amos
+photo.14.commitdate: 2022/7/9
+photo.14.link: https://www.instagram.com/carsontheredpanda/
+photo.14.tags: birthday, paws, portrait, sample, standing, whiskers
+photo.15: ig://Cgo54tFA8Zj/m
+photo.15.author: capemaycountyzoo
+photo.15.commitdate: 2022/8/5
+photo.15.link: https://www.instagram.com/capemaycountyzoo/
+photo.15.tags: ice treat, portrait, sample
+photo.16: ig://ChfH9sfrNoh/m
+photo.16.author: aimless_amos
+photo.16.commitdate: 2022/8/26
+photo.16.link: https://www.instagram.com/carsontheredpanda/
+photo.16.tags: close-up, portrait, sample, whiskers
+species: 1
+studbook.id: 1835
+uncertainty: location.2 date
+zoo: 186

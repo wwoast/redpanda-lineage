@@ -1,0 +1,18 @@
+[panda]
+_id: 1043
+birthday: 2007/8/5
+birthplace: 59
+children: 274
+commitdate: 2019/11/9
+death: 2016/1/11
+en.name: Sora
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: そら
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1044
+species: 1
+zoo: 59

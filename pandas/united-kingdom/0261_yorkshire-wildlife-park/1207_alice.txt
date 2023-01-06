@@ -1,0 +1,23 @@
+[panda]
+_id: 1207
+birthday: 2019/6/1
+birthplace: 259
+children: none
+commitdate: 2020/8/5
+en.name: Alice
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アリス
+jp.nicknames: none
+jp.othernames: none
+language.order: nl, en, jp
+litter: 1205, 1206
+location.1: 259, 2019/6/1
+location.2: 261, 2020/8/1
+nl.name: Alice
+nl.nicknames: none
+nl.othernames: none
+species: 1
+studbook.id: unknown
+zoo: 261

@@ -1,0 +1,90 @@
+[panda]
+_id: 560
+birthday: 2017/6/17
+birthplace: 114
+children: 1337, 1338
+commitdate: 2019/3/10
+en.name: Starlight
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 星明かり
+jp.nicknames: none
+jp.othernames: スターライト
+language.order: en, jp
+litter: none
+location.1: 114, 2017/6/17
+location.2: 127, 2018/3/15
+photo.1: ig://Bj5uvvTn5Jb/m
+photo.1.author: senecaparkzoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/senecaparkzoo/
+photo.1.tags: bamboo, tree
+photo.2: ig://BkIUqZhFTx1/m
+photo.2.author: senecaparkzoo
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/senecaparkzoo/
+photo.2.tags: bamboo
+photo.3: ig://Bk5F9RNgD9L/m
+photo.3.author: senecaparkzoo
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/senecaparkzoo/
+photo.3.tags: bamboo, paws
+photo.4: ig://Bnv53O0jr63/m
+photo.4.author: senecaparkzoo
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.instagram.com/senecaparkzoo/
+photo.4.tags: tree
+photo.5: ig://BuTukeXFTRe/m
+photo.5.author: senecaparkzoo
+photo.5.commitdate: 2019/5/7
+photo.5.link: https://www.instagram.com/senecaparkzoo/
+photo.5.tags: bamboo, smile, tree
+photo.6: ig://Bz0WFUagism/m
+photo.6.author: b_aimz94
+photo.6.commitdate: 2021/11/25
+photo.6.link: https://www.instagram.com/b_aimz94/
+photo.6.tags: portrait, profile, smile, whiskers
+photo.7: ig://B26mKElAc5G/m
+photo.7.author: senecaparkzoo
+photo.7.commitdate: 2020/3/15
+photo.7.link: https://www.instagram.com/senecaparkzoo/
+photo.7.tags: laying down, portrait
+photo.8: ig://B40MolkjnkK/m
+photo.8.author: senecaparkzoo
+photo.8.commitdate: 2020/3/15
+photo.8.link: https://www.instagram.com/senecaparkzoo/
+photo.8.tags: nose, snow
+photo.9: ig://B7I4seJABC5/m
+photo.9.author: b_aimz94
+photo.9.commitdate: 2020/3/18
+photo.9.link: https://www.instagram.com/b_aimz94/
+photo.9.tags: home, smile, tongue
+photo.10: ig://B9jeA13Jh-L/m
+photo.10.author: senecaparkzoo
+photo.10.commitdate: 2020/3/15
+photo.10.link: https://www.instagram.com/senecaparkzoo/
+photo.10.tags: apple time, portrait, smile, tongue
+photo.11: ig://CAvh5P5puue/m
+photo.11.author: redpandanetwork
+photo.11.commitdate: 2020/5/31
+photo.11.link: https://www.instagram.com/redpandanetwork/
+photo.11.tags: portrait
+photo.12: ig://CLZLl1egqe1/m
+photo.12.author: b_aimz94
+photo.12.commitdate: 2021/3/2
+photo.12.link: https://www.instagram.com/b_aimz94/
+photo.12.tags: bamboo, portrait
+photo.13: ig://CQOmqjxNHtW/m
+photo.13.author: senecaparkzoo
+photo.13.commitdate: 2021/7/29
+photo.13.link: https://www.instagram.com/senecaparkzoo/
+photo.13.tags: bamboo, paws, portrait
+photo.14: ig://Ce6pRwJN6Dg/m
+photo.14.author: senecaparkzoo
+photo.14.commitdate: 2022/8/12
+photo.14.link: https://www.instagram.com/senecaparkzoo/
+photo.14.tags: home, laying down, portrait, sample, whiskers
+species: 1
+studbook.id: 1713
+zoo: 127

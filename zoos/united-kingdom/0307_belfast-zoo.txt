@@ -1,0 +1,12 @@
+[zoo]
+_id: 307
+commitdate: 2022/6/1
+en.address: Antrim Rd, Belfast BT36 7PN, United Kingdom
+en.location: Belfast, Northern Ireland, UK
+en.name: Belfast Zoo
+flag: UK
+language.order: en
+latitude: 54.6545975
+longitude: -5.9426545
+map: https://goo.gl/maps/LeM1BdywdkxxBC7P6
+website: https://www.belfastzoo.co.uk

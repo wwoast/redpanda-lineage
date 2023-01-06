@@ -1,0 +1,13 @@
+[zoo]
+_id: 309
+commitdate: 2022/9/2
+en.address: unknown
+en.location: Luang Prabang, Laos
+en.name: Luang Prabang Wildlife Sanctuary
+flag: Laos
+language.order: en
+latitude: 19.8856109
+longitude: 102.1106252
+map: https://goo.gl/maps/WSyNu7HFhH42
+uncertainty: estimated lat/long, exact address
+website: https://www.freethebears.org

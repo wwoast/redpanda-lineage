@@ -1,0 +1,12 @@
+[zoo]
+_id: 232
+commitdate: 2019/12/31
+en.address: Station Rd, Shepreth, Royston SG8 6PZ, United Kingdom
+en.location: Shepreth, Royston, UK
+en.name: Shepreth Wildlife Park
+flag: UK
+language.order: en
+latitude: 52.1142951
+longitude: 0.0324387
+map: https://goo.gl/maps/SsrHBtgsXj5LxW4U7
+website: https://sheprethwildlifepark.co.uk/

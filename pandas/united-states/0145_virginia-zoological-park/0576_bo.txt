@@ -1,0 +1,30 @@
+[panda]
+_id: 576
+birthday: 2017/6/20
+birthplace: 105
+children: none
+commitdate: 2019/3/12
+en.name: Bo
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ボー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 105, 2017/6/20
+location.2: 145, 2018/5/9
+photo.1: ig://By8l5HDjfNi/m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/10/27
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: paws, portrait, profile, smile, tongue
+photo.2: ig://B6voeqElIKa/m
+photo.2.author: virginiazoo
+photo.2.commitdate: 2020/6/21
+photo.2.link: https://www.instagram.com/virginiazoo/
+photo.2.tags: tongue
+species: 1
+studbook.id: 1718
+zoo: 145

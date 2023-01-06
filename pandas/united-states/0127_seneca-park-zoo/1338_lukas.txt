@@ -1,0 +1,22 @@
+[panda]
+_id: 1338
+birthday: 2021/6/20
+birthplace: 127
+children: none
+commitdate: 2022/2/16
+en.name: Lukas
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ルカス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1337
+photo.1: ig://CWixppJLVdx/m
+photo.1.author: senecaparkzoo
+photo.1.commitdate: 2022/4/8
+photo.1.link: https://www.instagram.com/senecaparkzoo/
+photo.1.tags: baby, mofumofu, portrait, profile, sample, scale
+species: 1
+zoo: 127

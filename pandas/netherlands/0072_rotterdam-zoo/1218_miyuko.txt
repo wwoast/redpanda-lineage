@@ -1,0 +1,78 @@
+[panda]
+_id: 1218
+birthday: 2020/7/10
+birthplace: 219
+children: 1386, 1387
+commitdate: 2020/9/6
+en.name: Miyuko
+en.nicknames: none
+en.othernames: none
+fr.name: Miyuko
+fr.nicknames: none
+fr.othernames: none
+gender: m
+jp.name: ミユコ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, en, jp
+litter: 1217
+location.1: 219, 2020/7/10
+location.2: 72, 2022/1/1
+photo.1: ig://CF1vLXeg7YF/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2020/10/11
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: baby, door, peek, portrait
+photo.2: ig://CF1veFxA558/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2020/10/11
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: baby, door, portrait
+photo.3: ig://CGZWHadg1gx/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2021/3/29
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, door, home, paws, peek, portrait, whiskers
+photo.4: ig://CI1f4ekAPR6/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2021/9/1
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: baby, snow
+photo.5: ig://CLpQR3nnF_c/m
+photo.5.author: mirellad03
+photo.5.commitdate: 2021/7/30
+photo.5.link: https://www.instagram.com/mirellad03/
+photo.5.tags: bamboo, peek, portrait, profile, whiskers
+photo.6: ig://CMHS1CzAKM6/m
+photo.6.author: pairidaiza.pictures
+photo.6.commitdate: 2021/3/28
+photo.6.link: https://www.instagram.com/pairidaiza.pictures/
+photo.6.tags: baby, paws, portrait
+photo.7: ig://CM-qPciAdeF/m
+photo.7.author: nathalie.elliott
+photo.7.commitdate: 2022/2/28
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: bridge, portrait, stretch
+photo.8: ig://CNLZUbRgkL2/m
+photo.8.author: nathalie.elliott
+photo.8.commitdate: 2021/4/3
+photo.8.link: https://www.instagram.com/nathalie.elliott/
+photo.8.tags: portrait, whiskers
+photo.9: ig://CNUpbVTgNQv/m
+photo.9.author: nathalie.elliott
+photo.9.commitdate: 2022/8/22
+photo.9.link: https://www.instagram.com/nathalie.elliott/
+photo.9.tags: portrait, tongue, whiskers, yawn
+photo.10: ig://CRMFYkPBSYa/m
+photo.10.author: nathalie.elliott
+photo.10.commitdate: 2022/9/2
+photo.10.link: https://www.instagram.com/nathalie.elliott/
+photo.10.tags: bite, portrait, sample, tail, whiskers
+photo.11: ig://ChSWzvYtPq3/m
+photo.11.author: mirellad03
+photo.11.commitdate: 2022/8/31
+photo.11.link: https://www.instagram.com/mirellad03/
+photo.11.tags: laying down, peek, tree, whiskers
+species: 1
+uncertainty: location.2 month and year (wild guess)
+zoo: 72

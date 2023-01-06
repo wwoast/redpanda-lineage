@@ -1,0 +1,22 @@
+[zoo]
+_id: 39
+cn.address: 2368 虹桥路 长宁区 上海 中国
+cn.location: 长宁区 上海 中国
+cn.name: 上海動物園
+commitdate: 2018/6/26
+en.address: No. 2368 Hongqiao Road, Changning District, Shanghai, China
+en.location: Changning District, Shanghai, China
+en.name: Shanghai Zoo
+flag: China
+jp.address: No. 2368 Hongqiao Road, Changning District, Shanghai, China
+jp.location: Changning District, Shanghai, China
+jp.name: 上海動物園
+language.order: cn, jp, en
+latitude: 31.1902231
+longitude: 121.3590564
+map: https://goo.gl/maps/XGNrUzCRqB42
+photo.1: ig://BiV8tnsFkdj/m
+photo.1.author: c_yulu_x
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/c_yulu_x/
+website: http://www.shanghaizoo.cn/

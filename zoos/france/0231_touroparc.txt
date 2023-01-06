@@ -1,0 +1,15 @@
+[zoo]
+_id: 231
+commitdate: 2019/12/31
+en.address: 400 Boulevard du Parc, 71570 Romanèche-Thorins, France
+en.location: Romanèche-Thorins, France
+en.name: Touroparc Zoo
+flag: France
+fr.address: 400 Boulevard du Parc, 71570 Romanèche-Thorins, France
+fr.location: Romanèche-Thorins, France
+fr.name: Touroparc Zoo
+language.order: fr, en
+latitude: 46.1818265
+longitude: 4.7503286
+map: https://goo.gl/maps/PG4iu4QRqwpq7LWC9
+website: http://www.touroparc.com/

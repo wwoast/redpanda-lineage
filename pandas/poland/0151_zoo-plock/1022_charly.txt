@@ -1,0 +1,17 @@
+[panda]
+_id: 1022
+birthday: 2008/7/21
+birthplace: 72
+children: unknown
+commitdate: 2019/11/9
+death: 2017/1/18
+en.name: Charly
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: 1009
+location.1: 72, 2008/7/21
+location.2: 151, 2009/5/21
+species: 2
+zoo: 151

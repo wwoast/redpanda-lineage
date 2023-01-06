@@ -1,0 +1,31 @@
+[panda]
+_id: 338
+birthday: 1997/6/16
+birthplace: 34
+children: 89, 440, 53, 220, 374, 21, 31, 82
+commitdate: 2018/9/11
+death: 2007/4/6
+en.name: Liuxing
+en.nicknames: none
+en.othernames: Ryuusi, Ryuusii, Ryuusin
+gender: f
+jp.name: 流星
+jp.nicknames: none
+jp.othernames: リューシー, リューシン
+language.order: jp, en
+litter: none
+location.1: 34, 1997/6/16
+location.2: 10, 1998/12/28
+photo.1: https://www.codaworry.com/images/rpf/liuxing-1-chausuyama.jpg
+photo.1.author: gachon_kudo
+photo.1.commitdate: 2019/4/12
+photo.1.link: https://gachon.exblog.jp/3615551/
+photo.1.tags: profile, smile
+photo.2: https://www.codaworry.com/images/rpf/liuxing-2-chausuyama.jpg
+photo.2.author: gachon_kudo
+photo.2.commitdate: 2019/4/12
+photo.2.link: https://gachon.exblog.jp/3615551/
+photo.2.tags: dish, home
+species: 2
+studbook.id: 9787
+zoo: 10

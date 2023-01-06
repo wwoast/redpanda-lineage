@@ -1,0 +1,17 @@
+[zoo]
+_id: 179
+commitdate: 2019/3/25
+en.address: 5555 W Zoo Blvd, Wichita, KS 67212, USA
+en.location: Wichita, Kansas, USA
+en.name: Sedgwick County Zoo
+flag: USA
+language.order: en
+latitude: 37.7170341
+longitude: -97.4173157
+map: https://goo.gl/maps/Po7n3tMmfBx
+photo.1: ig://CD4JOwZMRlE/m
+photo.1.author: sedgwickcountyzoo
+photo.1.commitdate: 2020/8/25
+photo.1.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.1.tags: profile
+website: https://scz.org

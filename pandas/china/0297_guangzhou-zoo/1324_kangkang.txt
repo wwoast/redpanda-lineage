@@ -1,0 +1,40 @@
+[panda]
+_id: 1324
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 康康
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2021/12/8
+en.name: Kang-Kang
+en.nicknames: none
+en.othernames: Kangkang
+gender: m
+jp.name: カンカン
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: ig://CO-CVE-hTi7/m
+photo.1.author: manmanko2
+photo.1.commitdate: 2021/12/8
+photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.tags: bamboo, laying down, portrait, tail
+photo.2: ig://CPUn5Cwhh4z/m
+photo.2.author: manmanko2
+photo.2.commitdate: 2021/12/6
+photo.2.link: https://www.instagram.com/manmanko2/
+photo.2.tags: bite, ice treat, lunch time
+photo.3: ig://CXKxJ1kIubD/m
+photo.3.author: manmanko2
+photo.3.commitdate: 2021/12/8
+photo.3.link: https://www.instagram.com/manmanko2/
+photo.3.tags: profile, smile, whiskers
+photo.4: ig://manmanko2/CYOJB-FrqcK/m
+photo.4.author: manmanko2
+photo.4.commitdate: 2022/1/4
+photo.4.link: https://www.instagram.com/manmanko2/
+photo.4.tags: portrait, smile, surprise, tail
+species: 2
+zoo: 297

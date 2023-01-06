@@ -1,0 +1,80 @@
+[panda]
+_id: 501
+birthday: 2012/6/21
+birthplace: 48
+children: 821
+commitdate: 2019/2/23
+en.name: Lucille
+en.nicknames: none
+en.othernames: Lucy
+gender: f
+jp.name: ルシル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 502
+location.1: 48, 2012/6/21
+location.2: 109, 2012/9/14
+photo.1: ig://BxDDBqQBZff/m
+photo.1.author: memphiszoo
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/memphiszoo/
+photo.1.tags: toys
+photo.2: ig://B37aQcgF_1C/m
+photo.2.author: memphiszoo
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/memphiszoo/
+photo.2.tags: close-up, portrait, profile, whiskers
+photo.3: ig://B5aOb9NBPTZ/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/11/29
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: laying down, tree
+photo.4: ig://B5eA1LIhK0j/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/12/4
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: bridge, laying down, paws, portrait, smile, tail
+photo.5: ig://B5eA6fPBfWB/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/12/4
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: tail
+photo.6: ig://B9Wz9DhhrKC/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/3/10
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: laying down, paws
+photo.7: ig://CC1n_nxBy-i/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/9/12
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: laying down, paws, yawn
+photo.8: ig://CDx0UWRhLGk/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2020/9/12
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: bridge, laying down, paws, portrait, tail
+photo.9: ig://CFaAlYUAJ-j/m
+photo.9.author: memphiszoo
+photo.9.commitdate: 2020/9/26
+photo.9.link: https://www.instagram.com/memphiszoo/
+photo.9.tags: close-up, portrait, whiskers
+photo.10: ig://CFx6ytVBUM7/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2020/12/21
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: peek, tree
+photo.11: ig://CF0Xg6VBqEj/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2020/11/19
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: whiskers, white face
+photo.12: ig://CF3BG9uBlqg/m
+photo.12.author: worldthathesees
+photo.12.commitdate: 2020/10/9
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: whiskers
+species: 1
+studbook.id: 1215
+zoo: 109

@@ -1,0 +1,21 @@
+[zoo]
+_id: 50
+closed: 2020/3/31
+commitdate: 2018/7/13
+en.address: Tannowa, Misaki, Sennan District, Osaka Prefecture 599-0301, Japan
+en.location: Misaki Town, Osaka Prefecture, Japan
+en.name: Misaki Park
+flag: Japan
+jp.address: 〒599-0301 大阪府泉南郡岬町淡輪
+jp.location: 岬町 大阪府
+jp.name: みさき公園
+language.order: jp, en
+latitude: 34.3274484
+longitude: 135.1593043
+map: https://goo.gl/maps/13D4TFarwv12
+photo.1: ig://BnSiMGOFgDP/m
+photo.1.author: hirokoarikiyo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/hirokoarikiyo/
+photo.1.tags: profile
+website: http://www.nankai.co.jp/misaki/

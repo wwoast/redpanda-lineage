@@ -1,0 +1,31 @@
+[panda]
+_id: 1224
+birthday: 2018/6/21
+birthplace: 154
+children: none
+commitdate: 2020/9/16
+en.name: Doofah
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ドゥーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1225
+location.1: 154, 2018/6/21
+location.2: 113, 2019/7/1
+photo.1: ig://CHq3J1Znw6Z/m
+photo.1.author: potterparkzoo
+photo.1.commitdate: 2020/11/18
+photo.1.link: https://www.instagram.com/potterparkzoo/
+photo.1.tags: door, paws, peek
+photo.2: ig://CH_TMtQn1k4/m
+photo.2.author: potterparkzoo
+photo.2.commitdate: 2020/12/12
+photo.2.link: https://www.instagram.com/potterparkzoo/
+photo.2.tags: paws, portrait, profile, smile, whiskers
+species: 1
+studbook.id: 1816
+uncertainty: location.2 date
+zoo: 113

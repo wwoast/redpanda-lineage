@@ -1,0 +1,64 @@
+[panda]
+_id: 677
+birthday: 2007/7/4
+birthplace: 154
+children: 864, 580, 807, 808, 926
+commitdate: 2019/3/24
+death: 2022/1/1
+en.name: Jaya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジャヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 154, 2007/7/4
+location.2: 186, 2008/6/25
+location.3: 146, 2011/12/5
+location.4: 81, 2019/3/18
+photo.1: ig://ByPy-4CoNrm/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2020/1/23
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: tongue, whiskers
+photo.2: ig://B2pUSDkpuij/m
+photo.2.author: rossifari
+photo.2.commitdate: 2019/10/8
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: apple time, portrait, profile
+photo.3: ig://B5GHU68g3ZA/m
+photo.3.author: esdeemphoto
+photo.3.commitdate: 2020/3/3
+photo.3.link: https://www.instagram.com/esdeemphoto/
+photo.3.tags: paws, standing, tongue
+photo.4: ig://B7Y9vF6JRe7/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/1/19
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: portrait
+photo.5: ig://B94SX-xpmod/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/3/22
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: close-up, whiskers, white face
+photo.6: ig://CDGpMgbgEL5/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/8/9
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: close-up, portrait, smile, whiskers
+photo.7: ig://CGhfDLdgzKb/m
+photo.7.author: rossifari
+photo.7.commitdate: 2022/2/28
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: bamboo, portrait, tongue, whiskers
+photo.8: ig://CYhHWNyL0Bt/m
+photo.8.author: philadelphiazoo
+photo.8.commitdate: 2022/5/1
+photo.8.link: https://www.instagram.com/philadelphiazoo/
+photo.8.tags: peek, snow, whiskers
+species: 1
+studbook.id: 0705
+uncertainty: death date in january 2022
+zoo: 81

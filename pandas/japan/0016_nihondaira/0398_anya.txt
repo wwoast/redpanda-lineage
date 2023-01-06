@@ -1,0 +1,21 @@
+[panda]
+_id: 398
+birthday: 1998/7/3
+birthplace: 42
+children: none
+commitdate: 2018/11/22
+death: 2016/6/4
+en.name: A-nya
+en.nicknames: none
+en.othernames: Anya
+gender: f
+jp.name: アーンヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 397
+location.1: 42, 1998/7/3
+location.2: 16, 2012/12/12
+species: 2
+studbook.id: 98032
+zoo: 16

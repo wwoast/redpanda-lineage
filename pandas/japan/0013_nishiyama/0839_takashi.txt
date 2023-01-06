@@ -1,0 +1,19 @@
+[panda]
+_id: 839
+birthday: 1993/7/19
+birthplace: 13
+children: 128, 341, 168
+commitdate: 2019/4/12
+death: 2012/9/7
+en.name: Takashi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: たかし
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 840
+species: 2
+studbook.id: 93111
+zoo: 13

@@ -1,0 +1,822 @@
+[panda]
+_id: 65
+birthday: 2014/6/6
+birthplace: 29
+children: 962, 963
+commitdate: 2018/7/6
+en.name: Kirara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キララ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 62
+location.1: 29, 2014/6/6
+location.2: 24, 2018/2/1
+photo.1: ig://BjrRpSlgacH/m
+photo.1.author: taka__3428
+photo.1.commitdate: 2018/7/20
+photo.1.link: https://www.instagram.com/taka__3428/
+photo.1.tags: apple time, portrait, tongue
+photo.2: ig://Bjrsg3PAlqa/m
+photo.2.author: taka__3428
+photo.2.commitdate: 2018/7/20
+photo.2.link: https://www.instagram.com/taka__3428/
+photo.2.tags: laying down
+photo.3: ig://Bk2WWsMFdCj/m
+photo.3.author: taka__3428
+photo.3.commitdate: 2018/7/20
+photo.3.link: https://www.instagram.com/taka__3428/
+photo.3.tags: dish, lunch time
+photo.4: ig://BokdpEoFrp5/m
+photo.4.author: miis_98
+photo.4.commitdate: 2018/10/6
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: apple time, dish, portrait
+photo.5: ig://Bov-ty9FqaH/m
+photo.5.author: taka__3428
+photo.5.commitdate: 2018/10/11
+photo.5.link: https://www.instagram.com/taka__3428/
+photo.5.tags: long-tongue, tongue, wink
+photo.6: ig://BpM2dB9Ftgq/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2018/10/21
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: bamboo, portrait, tongue
+photo.7: ig://Bpt9FdlFEN4/m
+photo.7.author: taka__3428
+photo.7.commitdate: 2018/11/5
+photo.7.link: https://www.instagram.com/taka__3428/
+photo.7.tags: portrait
+photo.8: ig://BpvFcd7lVPN/m
+photo.8.author: taka__3428
+photo.8.commitdate: 2018/11/5
+photo.8.link: https://www.instagram.com/taka__3428/
+photo.8.tags: tongue
+photo.9: ig://BpwGTkRFEGP/m
+photo.9.author: taka__3428
+photo.9.commitdate: 2018/11/5
+photo.9.link: https://www.instagram.com/taka__3428/
+photo.9.tags: laying down
+photo.10: ig://BqmrcaCHT92/m
+photo.10.author: yakko____
+photo.10.commitdate: 2018/12/6
+photo.10.link: https://www.instagram.com/yakko____/
+photo.10.tags: portrait
+photo.11: ig://Bq2A_4WFDqu/m
+photo.11.author: taka__3428
+photo.11.commitdate: 2018/12/1
+photo.11.link: https://www.instagram.com/taka__3428/
+photo.11.tags: autumn
+photo.12: ig://Bq2BcZdldrZ/m
+photo.12.author: taka__3428
+photo.12.commitdate: 2018/12/1
+photo.12.link: https://www.instagram.com/taka__3428/
+photo.12.tags: laying down
+photo.13: ig://BrHxfNfFG4f/m
+photo.13.author: taka__3428
+photo.13.commitdate: 2018/12/9
+photo.13.link: https://www.instagram.com/taka__3428/
+photo.14: ig://BrLC8NfF0lm/m
+photo.14.author: gloryeui
+photo.14.commitdate: 2018/12/10
+photo.14.link: https://www.instagram.com/gloryeui/
+photo.14.tags: portrait
+photo.15: ig://BrP1JVwl2PI/m
+photo.15.author: taka__3428
+photo.15.commitdate: 2018/12/11
+photo.15.link: https://www.instagram.com/taka__3428/
+photo.15.tags: climb, portrait
+photo.16: ig://BraARjjlsty/m
+photo.16.author: taka__3428
+photo.16.commitdate: 2018/12/16
+photo.16.link: https://www.instagram.com/taka__3428/
+photo.17: ig://BrcyJApl8i3/m
+photo.17.author: taka__3428
+photo.17.commitdate: 2018/12/16
+photo.17.link: https://www.instagram.com/taka__3428/
+photo.17.tags: apple time, smile
+photo.18: ig://BrfFeM-F6Yk/m
+photo.18.author: gloryeui
+photo.18.commitdate: 2018/12/17
+photo.18.link: https://www.instagram.com/gloryeui/
+photo.18.tags: autumn
+photo.19: ig://BrlDE8-l6kh/m
+photo.19.author: taka__3428
+photo.19.commitdate: 2018/12/19
+photo.19.link: https://www.instagram.com/taka__3428/
+photo.19.tags: apple time
+photo.20: ig://Brr5qgEF9jO/m
+photo.20.author: gloryeui
+photo.20.commitdate: 2018/12/22
+photo.20.link: https://www.instagram.com/gloryeui/
+photo.20.tags: climb
+photo.21: ig://BrwU0CPlpwR/m
+photo.21.author: gloryeui
+photo.21.commitdate: 2018/12/25
+photo.21.link: https://www.instagram.com/gloryeui/
+photo.21.tags: apple time
+photo.22: ig://BsATeooFXwT/m
+photo.22.author: gloryeui
+photo.22.commitdate: 2018/12/30
+photo.22.link: https://www.instagram.com/gloryeui/
+photo.23: ig://BsDn6TmlvJC/m
+photo.23.author: gloryeui
+photo.23.commitdate: 2022/1/14
+photo.23.link: https://www.instagram.com/gloryeui/
+photo.23.tags: apple time, autumn, dish, peek, portrait, tail
+photo.24: ig://BsFz13xFvkd/m
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2019/1/3
+photo.24.link: https://www.instagram.com/fetorus_mami/
+photo.25: ig://BsME60LlRah/m
+photo.25.author: taka__3428
+photo.25.commitdate: 2019/1/4
+photo.25.link: https://www.instagram.com/taka__3428/
+photo.25.tags: apple time, paws, standing
+photo.26: ig://BsVYHbwFC7E/m
+photo.26.author: taka__3428
+photo.26.commitdate: 2019/1/9
+photo.26.link: https://www.instagram.com/taka__3428/
+photo.26.tags: standing
+photo.27: ig://BsaaliulWoq/m
+photo.27.author: taka__3428
+photo.27.commitdate: 2019/1/9
+photo.27.link: https://www.instagram.com/taka__3428/
+photo.27.tags: laying down
+photo.28: ig://Bsc56MSlhNy/m
+photo.28.author: taka__3428
+photo.28.commitdate: 2019/1/14
+photo.28.link: https://www.instagram.com/taka__3428/
+photo.29: ig://BsnTVwvFMNh/m
+photo.29.author: taka__3428
+photo.29.commitdate: 2019/1/18
+photo.29.link: https://www.instagram.com/taka__3428/
+photo.29.tags: bamboo, nose
+photo.30: ig://Bsp8XAOFHKV/m
+photo.30.author: taka__3428
+photo.30.commitdate: 2019/1/18
+photo.30.link: https://www.instagram.com/taka__3428/
+photo.30.tags: keeper, paws
+photo.31: ig://Bs0HW5ilJUI/m
+photo.31.author: taka__3428
+photo.31.commitdate: 2019/1/20
+photo.31.link: https://www.instagram.com/taka__3428/
+photo.31.tags: paws, tongue
+photo.32: ig://Bs2g-bhFf4R/m
+photo.32.author: taka__3428
+photo.32.commitdate: 2019/1/20
+photo.32.link: https://www.instagram.com/taka__3428/
+photo.32.tags: tongue, white face
+photo.33: ig://Bs5fGpglC4G/m
+photo.33.author: taka__3428
+photo.33.commitdate: 2019/1/26
+photo.33.link: https://www.instagram.com/taka__3428/
+photo.33.tags: peek, white face
+photo.34: ig://Bs739bEF7Tf/m
+photo.34.author: taka__3428
+photo.34.commitdate: 2019/1/26
+photo.34.link: https://www.instagram.com/taka__3428/
+photo.35: ig://Bs-f8ixF1tW/m
+photo.35.author: taka__3428
+photo.35.commitdate: 2019/1/26
+photo.35.link: https://www.instagram.com/taka__3428/
+photo.35.tags: home, white face
+photo.36: ig://BtGzFD3lPqS/m
+photo.36.author: taka__3428
+photo.36.commitdate: 2019/1/27
+photo.36.link: https://www.instagram.com/taka__3428/
+photo.36.tags: white face
+photo.37: ig://BtLZ6nclbgc/m
+photo.37.author: taka__3428
+photo.37.commitdate: 2019/1/30
+photo.37.link: https://www.instagram.com/taka__3428/
+photo.37.tags: home, paws, portrait, white face
+photo.38: ig://BtlGkyulHup/m
+photo.38.author: taka__3428
+photo.38.commitdate: 2019/2/18
+photo.38.link: https://www.instagram.com/taka__3428/
+photo.38.tags: paws, smile, white face
+photo.39: ig://Btnj588leXl/m
+photo.39.author: taka__3428
+photo.39.commitdate: 2019/2/18
+photo.39.link: https://www.instagram.com/taka__3428/
+photo.39.tags: home, white face
+photo.40: ig://BuCKIlGltxJ/m
+photo.40.author: taka__3428
+photo.40.commitdate: 2019/2/19
+photo.40.link: https://www.instagram.com/taka__3428/
+photo.40.tags: nose
+photo.41: ig://BuQ3HwRFdIp/m
+photo.41.author: taka__3428
+photo.41.commitdate: 2019/3/3
+photo.41.link: https://www.instagram.com/taka__3428/
+photo.41.tags: apple time, keeper, tongue
+photo.42: ig://BuWHwx_FTi0/m
+photo.42.author: taka__3428
+photo.42.commitdate: 2019/3/9
+photo.42.link: https://www.instagram.com/taka__3428/
+photo.42.tags: nose, tongue
+photo.43: ig://BuYhVQyleVp/m
+photo.43.author: taka__3428
+photo.43.commitdate: 2019/3/7
+photo.43.link: https://www.instagram.com/taka__3428/
+photo.43.tags: bamboo, portrait, smile, white face
+photo.44: ig://Bu3cYldlhWc/m
+photo.44.author: taka__3428
+photo.44.commitdate: 2019/3/17
+photo.44.link: https://www.instagram.com/taka__3428/
+photo.44.tags: toys
+photo.45: ig://BvEUpZdlxa0/m
+photo.45.author: taka__3428
+photo.45.commitdate: 2019/3/17
+photo.45.link: https://www.instagram.com/taka__3428/
+photo.45.tags: white face
+photo.46: ig://BvJe30GFkru/m
+photo.46.author: taka__3428
+photo.46.commitdate: 2019/3/21
+photo.46.link: https://www.instagram.com/taka__3428/
+photo.46.tags: apple time, standing, tongue
+photo.47: ig://BvPeSYAFHtM/m
+photo.47.author: taka__3428
+photo.47.commitdate: 2019/3/21
+photo.47.link: https://www.instagram.com/taka__3428/
+photo.47.tags: white face
+photo.48: ig://Bw-1gejlBN8/m
+photo.48.author: ayusuke56
+photo.48.commitdate: 2019/5/7
+photo.48.link: https://www.instagram.com/ayusuke56/
+photo.48.tags: bamboo, portrait, white face
+photo.49: ig://BxBK6HFlizX/m
+photo.49.author: ayusuke56
+photo.49.commitdate: 2019/5/7
+photo.49.link: https://www.instagram.com/ayusuke56/
+photo.49.tags: bamboo, portrait, white face
+photo.50: ig://BxXEbhDFAX7/m
+photo.50.author: taka__3428
+photo.50.commitdate: 2019/5/16
+photo.50.link: https://www.instagram.com/taka__3428/
+photo.50.tags: bamboo, smile
+photo.51: ig://BxZoZPxFagw/m
+photo.51.author: taka__3428
+photo.51.commitdate: 2019/5/16
+photo.51.link: https://www.instagram.com/taka__3428/
+photo.51.tags: bridge, laying down, paws
+photo.52: ig://Bxevw2elueh/m
+photo.52.author: taka__3428
+photo.52.commitdate: 2019/5/18
+photo.52.link: https://www.instagram.com/taka__3428/
+photo.52.tags: portrait, white face
+photo.53: ig://Bx68XnBBHFW/m
+photo.53.author: taka__3428
+photo.53.commitdate: 2019/5/31
+photo.53.link: https://www.instagram.com/taka__3428/
+photo.53.tags: bamboo, tongue, white face
+photo.54: ig://Bx987ShhP9y/m
+photo.54.author: taka__3428
+photo.54.commitdate: 2019/5/31
+photo.54.link: https://www.instagram.com/taka__3428/
+photo.54.tags: tongue, white face
+photo.55: ig://ByPw2kkBFbj/m
+photo.55.author: taka__3428
+photo.55.commitdate: 2019/6/3
+photo.55.link: https://www.instagram.com/taka__3428/
+photo.55.tags: portrait, white face
+photo.56: ig://ByUpBUWBvdY/m
+photo.56.author: taka__3428
+photo.56.commitdate: 2019/6/8
+photo.56.link: https://www.instagram.com/taka__3428/
+photo.56.tags: bamboo, white face
+photo.57: ig://ByXs3P5haHY/m
+photo.57.author: minatomirai215
+photo.57.commitdate: 2019/6/8
+photo.57.link: https://www.instagram.com/minatomirai215/
+photo.57.tags: bamboo, white face
+photo.58: ig://ByeTzRzBRs1/m
+photo.58.author: taka__3428
+photo.58.commitdate: 2019/6/9
+photo.58.link: https://www.instagram.com/taka__3428/
+photo.58.tags: white face
+photo.59: ig://ByxJrAMhf9c/m
+photo.59.author: taka__3428
+photo.59.commitdate: 2019/6/20
+photo.59.link: https://www.instagram.com/taka__3428/
+photo.59.tags: keeper, smile, white face
+photo.60: ig://By45oTzB2c-/m
+photo.60.author: taka__3428
+photo.60.commitdate: 2019/6/21
+photo.60.link: https://www.instagram.com/taka__3428/
+photo.60.tags: laying down, portrait, tongue
+photo.61: ig://BzArgIVBxhw/m
+photo.61.author: taka__3428
+photo.61.commitdate: 2019/6/23
+photo.61.link: https://www.instagram.com/taka__3428/
+photo.61.tags: tongue, white face
+photo.62: ig://BzXzMkVh_d3/m
+photo.62.author: taka__3428
+photo.62.commitdate: 2019/7/2
+photo.62.link: https://www.instagram.com/taka__3428/
+photo.62.tags: portrait, tongue, white face
+photo.63: ig://B0QKfpRl3sa/m
+photo.63.author: yakkooo24
+photo.63.commitdate: 2019/7/28
+photo.63.link: https://www.instagram.com/yakkooo24/
+photo.63.tags: apple time, portrait, smile, white face
+photo.64: ig://B0QRMs6hdSD/m
+photo.64.author: gloryeui
+photo.64.commitdate: 2019/7/28
+photo.64.link: https://www.instagram.com/gloryeui/
+photo.64.tags: apple time, dish, portrait, smile, white face
+photo.65: ig://B1BUBjahA1_/m
+photo.65.author: taka__3428
+photo.65.commitdate: 2019/8/14
+photo.65.link: https://www.instagram.com/taka__3428/
+photo.65.tags: climb, paws, portrait, white face
+photo.66: ig://B1LXztxhpWJ/m
+photo.66.author: taka__3428
+photo.66.commitdate: 2019/8/15
+photo.66.link: https://www.instagram.com/taka__3428/
+photo.66.tags: muzzle, nose
+photo.67: ig://B1bFS6Uhudp/m
+photo.67.author: taka__3428
+photo.67.commitdate: 2019/8/23
+photo.67.link: https://www.instagram.com/taka__3428/
+photo.67.tags: portrait, smile, window
+photo.68: ig://B1k891OBlMP/m
+photo.68.author: taka__3428
+photo.68.commitdate: 2019/8/29
+photo.68.link: https://www.instagram.com/taka__3428/
+photo.68.tags: paws, peek, portrait, tongue
+photo.69: ig://B1qfIowBee5/m
+photo.69.author: taka__3428
+photo.69.commitdate: 2019/8/29
+photo.69.link: https://www.instagram.com/taka__3428/
+photo.69.tags: nose
+photo.70: ig://B16II79hH7I/m
+photo.70.author: taka__3428
+photo.70.commitdate: 2019/9/3
+photo.70.link: https://www.instagram.com/taka__3428/
+photo.70.tags: blink, white face
+photo.71: ig://B1_TEwxBbfR/m
+photo.71.author: taka__3428
+photo.71.commitdate: 2019/9/5
+photo.71.link: https://www.instagram.com/taka__3428/
+photo.71.tags: apple time, dish, paws, white face
+photo.72: ig://B2MIzfqBpGA/m
+photo.72.author: taka__3428
+photo.72.commitdate: 2019/9/13
+photo.72.link: https://www.instagram.com/taka__3428/
+photo.72.tags: itchy, paws
+photo.73: ig://B2Tt3gAh5Lk/m
+photo.73.author: taka__3428
+photo.73.commitdate: 2019/9/13
+photo.73.link: https://www.instagram.com/taka__3428/
+photo.73.tags: grumpy, portrait, whiskers
+photo.74: ig://B2aCRwIB77F/m
+photo.74.author: taka__3428
+photo.74.commitdate: 2019/9/19
+photo.74.link: https://www.instagram.com/taka__3428/
+photo.74.tags: laying down, white face
+photo.75: ig://B3GAVqJhDWO/m
+photo.75.author: makimaru18
+photo.75.commitdate: 2019/10/12
+photo.75.link: https://www.instagram.com/makimaru18/
+photo.75.tags: nose, peek, portrait
+photo.76: ig://B3O9yUjBeD-/m
+photo.76.author: taka__3428
+photo.76.commitdate: 2019/10/12
+photo.76.link: https://www.instagram.com/taka__3428/
+photo.76.tags: white face
+photo.77: ig://B3ZOaZSBpnx/m
+photo.77.author: daniele.tokyo
+photo.77.commitdate: 2019/10/19
+photo.77.link: https://www.instagram.com/daniele.tokyo/
+photo.77.tags: bamboo, white face
+photo.78: ig://B3Zfeb9BJMw/m
+photo.78.author: taka__3428
+photo.78.commitdate: 2019/10/15
+photo.78.link: https://www.instagram.com/taka__3428/
+photo.78.tags: toys, window
+photo.79: ig://B3rY4SUhR-N/m
+photo.79.author: taka__3428
+photo.79.commitdate: 2019/10/18
+photo.79.link: https://www.instagram.com/taka__3428/
+photo.79.tags: paws, white face, window
+photo.80: ig://B3uDafbBd5-/m
+photo.80.author: leonard_redmof
+photo.80.commitdate: 2019/10/17
+photo.80.link: https://www.instagram.com/leonard_redmof/
+photo.80.tags: bridge, peek, white face
+photo.81: ig://B3zBjUvB601/m
+photo.81.author: taka__3428
+photo.81.commitdate: 2019/10/22
+photo.81.link: https://www.instagram.com/taka__3428/
+photo.81.tags: nose, portrait, smile
+photo.82: ig://B4FevRQBcAn/m
+photo.82.author: leonard_redmof
+photo.82.commitdate: 2019/10/28
+photo.82.link: https://www.instagram.com/leonard_redmof/
+photo.82.tags: portrait, smile, tongue
+photo.83: ig://B4M6VaEhMqa/m
+photo.83.author: leonard_redmof
+photo.83.commitdate: 2019/10/29
+photo.83.link: https://www.instagram.com/leonard_redmof/
+photo.83.tags: nose, portrait, toys
+photo.84: ig://B4OWQIRhWuY/m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2019/10/31
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: portrait, smile, white face, window
+photo.85: ig://B4hjo25hix4/m
+photo.85.author: taka__3428
+photo.85.commitdate: 2019/12/5
+photo.85.link: https://www.instagram.com/taka__3428/
+photo.85.tags: peek, whiskers
+photo.86: ig://B42MRVPBSfq/m
+photo.86.author: taka__3428
+photo.86.commitdate: 2019/11/27
+photo.86.link: https://www.instagram.com/taka__3428/
+photo.86.tags: muzzle, portrait, whiskers
+photo.87: ig://B5FbQfIBPKk/m
+photo.87.author: taka__3428
+photo.87.commitdate: 2019/12/5
+photo.87.link: https://www.instagram.com/taka__3428/
+photo.87.tags: apple time, paws, smile, window
+photo.88: ig://B5HjJoTBd28/m
+photo.88.author: yossi929
+photo.88.commitdate: 2019/12/5
+photo.88.link: https://www.instagram.com/yossi929/
+photo.88.tags: apple time, portrait, window
+photo.89: ig://B5Wag8IhQpw/m
+photo.89.author: minatomirai215
+photo.89.commitdate: 2019/11/28
+photo.89.link: https://www.instagram.com/minatomirai215/
+photo.89.tags: apple time, dish, portrait, smile, tongue, whiskers
+photo.90: ig://B5pnwilBdSa/m
+photo.90.author: taka__3428
+photo.90.commitdate: 2019/12/10
+photo.90.link: https://www.instagram.com/taka__3428/
+photo.90.tags: bamboo, portrait, white face
+photo.91: ig://B52aRJzhMrA/m
+photo.91.author: kipekaila
+photo.91.commitdate: 2019/12/28
+photo.91.link: https://www.instagram.com/kipekaila/
+photo.91.tags: whiskers, white face
+photo.92: ig://B6AwrUIhRsv/m
+photo.92.author: taka__3428
+photo.92.commitdate: 2020/1/25
+photo.92.link: https://www.instagram.com/taka__3428/
+photo.92.tags: blink, whiskers, white face
+photo.93: ig://B6iKad-hlNA/m
+photo.93.author: taka__3428
+photo.93.commitdate: 2019/12/30
+photo.93.link: https://www.instagram.com/taka__3428/
+photo.93.tags: bamboo, paws, smile
+photo.94: ig://B7MnBEuBccv/m
+photo.94.author: taka__3428
+photo.94.commitdate: 2020/1/25
+photo.94.link: https://www.instagram.com/taka__3428/
+photo.94.tags: climb, peek, standing
+photo.95: ig://B7SjthKhBc6/m
+photo.95.author: taka__3428
+photo.95.commitdate: 2020/1/25
+photo.95.link: https://www.instagram.com/taka__3428/
+photo.96: ig://B7ViqbUBj_t/m
+photo.96.author: taka__3428
+photo.96.commitdate: 2020/1/17
+photo.96.link: https://www.instagram.com/taka__3428/
+photo.96.tags: bamboo, paws, portrait, standing, tail
+photo.97: ig://B7ioGJeBUmp/m
+photo.97.author: taka__3428
+photo.97.commitdate: 2020/1/22
+photo.97.link: https://www.instagram.com/taka__3428/
+photo.97.tags: portrait, whiskers, white face
+photo.98: ig://B7qR1ayB0vb/m
+photo.98.author: taka__3428
+photo.98.commitdate: 2020/1/31
+photo.98.link: https://www.instagram.com/taka__3428/
+photo.98.tags: bamboo, paws, standing
+photo.99: ig://CBA096yhsL3/m
+photo.99.author: taka__3428
+photo.99.commitdate: 2020/6/20
+photo.99.link: https://www.instagram.com/taka__3428/
+photo.99.tags: laying down, paws, tail
+photo.100: ig://CBDyT-wBPHq/m
+photo.100.author: panda.daisuki
+photo.100.commitdate: 2020/6/20
+photo.100.link: https://www.instagram.com/panda.daisuki/
+photo.100.tags: portrait, whiskers
+photo.101: ig://CBImL6rBuSb/m
+photo.101.author: taka__3428
+photo.101.commitdate: 2020/6/20
+photo.101.link: https://www.instagram.com/taka__3428/
+photo.101.tags: bamboo, standing, tongue
+photo.102: ig://CBLGwErhuvY/m
+photo.102.author: taka__3428
+photo.102.commitdate: 2020/6/20
+photo.102.link: https://www.instagram.com/taka__3428/
+photo.102.tags: bamboo, paws, techitechi
+photo.103: ig://CCVaZ5NBxbU/m
+photo.103.author: gloryeui
+photo.103.commitdate: 2021/7/8
+photo.103.link: https://www.instagram.com/gloryeui/
+photo.103.tags: bamboo, close-up, portrait, smile, white face
+photo.104: ig://CDEMhI5hxUp/m
+photo.104.author: hamamatsu.chiita
+photo.104.commitdate: 2020/9/10
+photo.104.link: https://www.instagram.com/hamamatsu.chiita/
+photo.104.tags: white face
+photo.105: ig://CDHltOWB2BT/m
+photo.105.author: hamamatsu.chiita
+photo.105.commitdate: 2020/8/16
+photo.105.link: https://www.instagram.com/hamamatsu.chiita/
+photo.106: ig://CDUkdbaBCLJ/m
+photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2020/8/16
+photo.106.link: https://www.instagram.com/hamamatsu.chiita/
+photo.106.tags: mofumofu, portrait, profile, whiskers
+photo.107: ig://CDcNh6TB-UZ/m
+photo.107.author: hamamatsu.chiita
+photo.107.commitdate: 2020/8/16
+photo.107.link: https://www.instagram.com/hamamatsu.chiita/
+photo.107.tags: bamboo, bite, paws, portrait, tongue
+photo.108: ig://CFb9nfLhB6r/m
+photo.108.author: taka__3428
+photo.108.commitdate: 2020/9/24
+photo.108.link: https://www.instagram.com/taka__3428/
+photo.108.tags: portrait
+photo.109: ig://CFhDc6mB6eO/m
+photo.109.author: taka__3428
+photo.109.commitdate: 2020/9/24
+photo.109.link: https://www.instagram.com/taka__3428/
+photo.109.tags: portrait, white face
+photo.110: ig://CGcbb1ThAlV/m
+photo.110.author: taka__3428
+photo.110.commitdate: 2020/11/2
+photo.110.link: https://www.instagram.com/taka__3428/
+photo.110.tags: bamboo, peek, whiskers
+photo.111: ig://CHICGQlBdMG/m
+photo.111.author: taka__3428
+photo.111.commitdate: 2020/11/7
+photo.111.link: https://www.instagram.com/taka__3428/
+photo.111.tags: bamboo, paws, peek
+photo.112: ig://CHXq5pYhKb1/m
+photo.112.author: taka__3428
+photo.112.commitdate: 2022/5/17
+photo.112.link: https://www.instagram.com/taka__3428/
+photo.112.tags: bamboo, mofumofu, peek, sample, tongue
+photo.113: ig://CHkW7U_hgFc/m
+photo.113.author: hamamatsu.chiita
+photo.113.commitdate: 2020/11/18
+photo.113.link: https://www.instagram.com/hamamatsu.chiita/
+photo.113.tags: paws, whiskers
+photo.114: ig://CHnNv81BTMt/m
+photo.114.author: taka__3428
+photo.114.commitdate: 2022/5/17
+photo.114.link: https://www.instagram.com/taka__3428/
+photo.114.tags: toys
+photo.115: ig://CIOBkSnBS1l/m
+photo.115.author: taka__3428
+photo.115.commitdate: 2021/11/25
+photo.115.link: https://www.instagram.com/taka__3428/
+photo.115.tags: itchy, paws, tail, whiskers
+photo.116: ig://CIYuDhHBYls/m
+photo.116.author: minatomirai215
+photo.116.commitdate: 2022/5/17
+photo.116.link: https://www.instagram.com/minatomirai215/
+photo.116.tags: laying down, peek, portrait, tail, whiskers
+photo.117: ig://CInQXyBBRDV/m
+photo.117.author: taka__3428
+photo.117.commitdate: 2022/5/17
+photo.117.link: https://www.instagram.com/taka__3428/
+photo.117.tags: home, paws, peek, whiskers
+photo.118: ig://CJGanjih4Gx/m
+photo.118.author: taka__3428
+photo.118.commitdate: 2021/1/13
+photo.118.link: https://www.instagram.com/taka__3428/
+photo.118.tags: apple time, dish, paws, standing
+photo.119: ig://CJS7UBmh1z5/m
+photo.119.author: hamamatsu.chiita
+photo.119.commitdate: 2022/5/17
+photo.119.link: https://www.instagram.com/hamamatsu.chiita/
+photo.119.tags: bamboo, close-up, portrait, whiskers
+photo.120: ig://CJVjtdAhSfa/m
+photo.120.author: hamamatsu.chiita
+photo.120.commitdate: 2022/5/17
+photo.120.link: https://www.instagram.com/hamamatsu.chiita/
+photo.120.tags: portrait, whiskers
+photo.121: ig://CJf2b-Yhan3/m
+photo.121.author: hamamatsu.chiita
+photo.121.commitdate: 2021/1/8
+photo.121.link: https://www.instagram.com/hamamatsu.chiita/
+photo.121.tags: portrait, whiskers
+photo.122: ig://CJhPLbwBdXU/m
+photo.122.author: taka__3428
+photo.122.commitdate: 2021/1/8
+photo.122.link: https://www.instagram.com/taka__3428/
+photo.122.tags: bamboo, paws, standing, tongue
+photo.123: ig://CJqUazHh4zH/m
+photo.123.author: taka__3428
+photo.123.commitdate: 2022/5/17
+photo.123.link: https://www.instagram.com/taka__3428/
+photo.123.tags: climb, close-up, nose, paws
+photo.124: ig://CJ3QafjB93t/m
+photo.124.author: taka__3428
+photo.124.commitdate: 2022/6/20
+photo.124.link: https://www.instagram.com/taka__3428/
+photo.124.tags: bamboo, close-up, paws, sample, standing
+photo.125: ig://CLMRC6khcW7/m
+photo.125.author: taka__3428
+photo.125.commitdate: 2021/2/15
+photo.125.link: https://www.instagram.com/taka__3428/
+photo.125.tags: bamboo, close-up, portrait, whiskers
+photo.126: ig://CM68A6FhyIo/m
+photo.126.author: hamamatsu.chiita
+photo.126.commitdate: 2021/8/27
+photo.126.link: https://www.instagram.com/hamamatsu.chiita/
+photo.126.tags: close-up, peek, portrait, whiskers
+photo.127: ig://CNZ5TnehERC/m
+photo.127.author: taka__3428
+photo.127.commitdate: 2021/4/29
+photo.127.link: https://www.instagram.com/taka__3428/
+photo.127.tags: climb, paws, peek, portrait
+photo.128: ig://COKwAAGBEe6/m
+photo.128.author: hamamatsu.chiita
+photo.128.commitdate: 2021/5/31
+photo.128.link: https://www.instagram.com/hamamatsu.chiita/
+photo.128.tags: door, flowers, peek, portrait, white face
+photo.129: ig://COTlDqcBLYE/m
+photo.129.author: hamamatsu.chiita
+photo.129.commitdate: 2021/5/3
+photo.129.link: https://www.instagram.com/hamamatsu.chiita/
+photo.129.tags: close-up, mofumofu, portrait, techitechi, whiskers
+photo.130: ig://COm3tJQh2X-/m
+photo.130.author: hamamatsu.chiita
+photo.130.commitdate: 2021/6/28
+photo.130.link: https://www.instagram.com/hamamatsu.chiita/
+photo.130.tags: bridge, paws, portrait, whiskers, white face
+photo.131: ig://CO7uRupBtPY/m
+photo.131.author: taka__3428
+photo.131.commitdate: 2021/11/25
+photo.131.link: https://www.instagram.com/taka__3428/
+photo.131.tags: apple time, peek, tongue
+photo.132: ig://CPQVTT8BtyS/m
+photo.132.author: taka__3428
+photo.132.commitdate: 2021/7/21
+photo.132.link: https://www.instagram.com/taka__3428/
+photo.132.tags: close-up, mofumofu, whiskers
+photo.133: ig://CPajGHth2Vt/m
+photo.133.author: taka__3428
+photo.133.commitdate: 2021/10/4
+photo.133.link: https://www.instagram.com/taka__3428/
+photo.133.tags: paws, portrait
+photo.134: ig://CQD3tolhUSU/m
+photo.134.author: taka__3428
+photo.134.commitdate: 2021/9/6
+photo.134.link: https://www.instagram.com/taka__3428/
+photo.134.tags: bamboo, paws, standing, tongue
+photo.135: ig://CRTonrxh-gq/m
+photo.135.author: taka__3428
+photo.135.commitdate: 2021/7/14
+photo.135.link: https://www.instagram.com/taka__3428/
+photo.135.tags: apple time, keeper, mofumofu, portrait, whiskers
+photo.136: ig://CSWera0B5kY/m
+photo.136.author: hamamatsu.chiita
+photo.136.commitdate: 2021/8/14
+photo.136.link: https://www.instagram.com/hamamatsu.chiita/
+photo.136.tags: paws, portrait, whiskers
+photo.137: ig://CSXrCLoh_ho/m
+photo.137.author: taka__3428
+photo.137.commitdate: 2021/8/14
+photo.137.link: https://www.instagram.com/taka__3428/
+photo.137.tags: air tasting, peek, tail, tongue, whiskers
+photo.138: ig://CVpl7zLBKTN/m
+photo.138.author: hamamatsu.chiita
+photo.138.commitdate: 2021/11/7
+photo.138.link: https://www.instagram.com/hamamatsu.chiita/
+photo.138.tags: portrait, whiskers, white face
+photo.139: ig://CVyVJHRhNJ3/m
+photo.139.author: hamamatsu.chiita
+photo.139.commitdate: 2021/11/15
+photo.139.link: https://www.instagram.com/hamamatsu.chiita/
+photo.139.tags: close-up, portrait, whiskers, white face
+photo.140: ig://CWTGUD8JlBr/m
+photo.140.author: gloryeui
+photo.140.commitdate: 2021/12/17
+photo.140.link: https://www.instagram.com/gloryeui/
+photo.140.tags: portrait, sample, smile, tongue, whiskers
+photo.141: ig://CWqPZE2FWDH/m
+photo.141.author: gloryeui
+photo.141.commitdate: 2022/1/15
+photo.141.link: https://www.instagram.com/gloryeui/
+photo.141.tags: mofumofu, portrait, sample, smile, whiskers
+photo.142: ig://CWvSM65Fyu9/m
+photo.142.author: gloryeui
+photo.142.commitdate: 2022/1/9
+photo.142.link: https://www.instagram.com/gloryeui/
+photo.142.tags: lunch time, paws, peek, portrait
+photo.143: ig://CWx0kehB59d/m
+photo.143.author: hamamatsu.chiita
+photo.143.commitdate: 2022/1/9
+photo.143.link: https://www.instagram.com/hamamatsu.chiita/
+photo.143.tags: paws, portrait, whiskers
+photo.144: ig://CW3FC7KFjV8/m
+photo.144.author: gloryeui
+photo.144.commitdate: 2022/1/9
+photo.144.link: https://www.instagram.com/gloryeui/
+photo.144.tags: nose, portrait, sample, whiskers
+photo.145: ig://CXLrLfcFY2I/m
+photo.145.author: gloryeui
+photo.145.commitdate: 2021/12/30
+photo.145.link: https://www.instagram.com/gloryeui/
+photo.145.tags: bridge, paws, portrait, smile, tongue, whiskers
+photo.146: ig://hamamatsu.chiita/CYLvj_WPK0N/m
+photo.146.author: hamamatsu.chiita
+photo.146.commitdate: 2022/1/14
+photo.146.link: https://www.instagram.com/hamamatsu.chiita/
+photo.146.tags: grooming, paws, portrait, sample, smile, tail, tongue
+photo.147: ig://taka__3428/CYUn4Y_BLMJ/m
+photo.147.author: taka__3428
+photo.147.commitdate: 2022/1/6
+photo.147.link: https://www.instagram.com/taka__3428/
+photo.147.tags: close-up, whiskers
+photo.148: ig://CYyvSvpvhmD/m
+photo.148.author: taka__3428
+photo.148.commitdate: 2022/2/18
+photo.148.link: https://www.instagram.com/taka__3428/
+photo.148.tags: bamboo, close-up, paws, whiskers, white face
+photo.149: ig://CZmXoUXlV2B/m
+photo.149.author: miis_98
+photo.149.commitdate: 2022/2/12
+photo.149.link: https://www.instagram.com/miis_98/
+photo.149.tags: portrait, sample, smile, tongue, whiskers
+photo.150: ig://CZu_H6frtwX/m
+photo.150.author: otenba_redpanda
+photo.150.commitdate: 2022/4/4
+photo.150.link: https://www.instagram.com/otenba_redpanda/
+photo.150.tags: bamboo, portrait, sample, whiskers, white face
+photo.151: ig://CbFB0g1vZKD/m
+photo.151.author: taka__3428
+photo.151.commitdate: 2022/4/10
+photo.151.link: https://www.instagram.com/taka__3428/
+photo.151.tags: apple time, bite, close-up, whiskers
+photo.152: ig://CcSnYttP5-U/m
+photo.152.author: taka__3428
+photo.152.commitdate: 2022/6/6
+photo.152.link: https://www.instagram.com/taka__3428/
+photo.152.tags: flowers, peek, whiskers
+photo.153: ig://Cds1GGxPF95/m
+photo.153.author: taka__3428
+photo.153.commitdate: 2022/6/1
+photo.153.link: https://www.instagram.com/taka__3428/
+photo.153.tags: apple time, paws, sample, standing, whiskers
+photo.154: ig://Cd8LW45J8kb/m
+photo.154.author: taka__3428
+photo.154.commitdate: 2022/9/24
+photo.154.link: https://www.instagram.com/taka__3428/
+photo.154.tags: laying down, paws, whiskers
+photo.155: ig://CeYwiClPdJY/m
+photo.155.author: taka__3428
+photo.155.commitdate: 2022/8/1
+photo.155.link: https://www.instagram.com/taka__3428/
+photo.155.tags: flowers, peek, tree
+photo.156: ig://Ceb-zKShTGj/m
+photo.156.author: hamamatsu.chiita
+photo.156.commitdate: 2022/8/1
+photo.156.link: https://www.instagram.com/hamamatsu.chiita/
+photo.156.tags: portrait, sample, whiskers, white face
+photo.157: ig://Ced8NVWv53i/m
+photo.157.author: minatomirai215
+photo.157.commitdate: 2022/8/30
+photo.157.link: https://www.instagram.com/minatomirai215/
+photo.157.tags: mofumofu, portrait, sample, tongue, white face
+photo.158: ig://ChpC1jwhTOP/m
+photo.158.author: taka__3428
+photo.158.commitdate: 2022/8/30
+photo.158.link: https://www.instagram.com/taka__3428/
+photo.158.tags: laying down, paws, peek, sample, whiskers
+photo.159: ig://CiPvCzjpvgv/m
+photo.159.author: taka__3428
+photo.159.commitdate: 2022/9/11
+photo.159.link: https://www.instagram.com/taka__3428/
+photo.159.tags: apple time, portrait, sample, whiskers
+photo.160: ig://CiXFqRPpIf8/m
+photo.160.author: taka__3428
+photo.160.commitdate: 2022/10/13
+photo.160.link: https://www.instagram.com/taka__3428/
+photo.160.tags: apple time, bite, close-up, sample, whiskers
+photo.161: ig://CjbFBZVhvb6/m
+photo.161.author: minatomirai215
+photo.161.commitdate: 2022/10/20
+photo.161.link: https://www.instagram.com/minatomirai215/
+photo.161.tags: laying down, peek, portrait, sample
+photo.162: ig://CkqIznwv-z9/m
+photo.162.author: taka__3428
+photo.162.commitdate: 2022/12/24
+photo.162.link: https://www.instagram.com/taka__3428/
+photo.162.tags: grooming, paws, sample, whiskers
+species: 2
+studbook.id: 14135
+zoo: 24

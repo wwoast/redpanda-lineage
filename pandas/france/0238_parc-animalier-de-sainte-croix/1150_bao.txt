@@ -1,0 +1,100 @@
+[panda]
+_id: 1150
+birthday: 2014/6/21
+birthplace: unknown
+children: unknown
+cn.name: 宝
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/3/27
+en.name: Bao
+en.nicknames: none
+en.othernames: none
+fr.name: Bao
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: バオ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, cn, en, jp
+litter: unknown
+location.1: unknown, 2014/6/21
+location.2: 238, 2015/3/6
+photo.1: ig://5WWaAoDwRS/m
+photo.1.author: parcsaintecroix
+photo.1.commitdate: 2020/3/31
+photo.1.link: https://www.instagram.com/parcsaintecroix/
+photo.1.tags: laying down
+photo.2: ig://BDm3yH1DwZi/m
+photo.2.author: parcsaintecroix
+photo.2.commitdate: 2020/3/31
+photo.2.link: https://www.instagram.com/parcsaintecroix/
+photo.2.tags: paws, portrait, whiskers
+photo.3: ig://BEIXPZiDwQp/m
+photo.3.author: parcsaintecroix
+photo.3.commitdate: 2020/3/31
+photo.3.link: https://www.instagram.com/parcsaintecroix/
+photo.3.tags: portrait
+photo.4: ig://BSK6V7tAUPA/m
+photo.4.author: parcsaintecroix
+photo.4.commitdate: 2020/3/31
+photo.4.link: https://www.instagram.com/parcsaintecroix/
+photo.4.tags: bamboo, portrait
+photo.5: ig://BUgk9bKAm0W/m
+photo.5.author: parcsaintecroix
+photo.5.commitdate: 2020/3/31
+photo.5.link: https://www.instagram.com/parcsaintecroix/
+photo.5.tags: portrait, techitechi
+photo.6: ig://BZEdk7ZHcRg/m
+photo.6.author: parcsaintecroix
+photo.6.commitdate: 2020/3/31
+photo.6.link: https://www.instagram.com/parcsaintecroix/
+photo.6.tags: laying down, portrait, tail, tree
+photo.7: ig://Bazi-GOHRZr/m
+photo.7.author: parcsaintecroix
+photo.7.commitdate: 2020/3/31
+photo.7.link: https://www.instagram.com/parcsaintecroix/
+photo.7.tags: portrait, profile
+photo.8: ig://BbR2jwkHLed/m
+photo.8.author: parcsaintecroix
+photo.8.commitdate: 2020/3/31
+photo.8.link: https://www.instagram.com/parcsaintecroix/
+photo.8.tags: paws, tail, tree
+photo.9: ig://BeljU0_nCL7/m
+photo.9.author: parcsaintecroix
+photo.9.commitdate: 2020/3/31
+photo.9.link: https://www.instagram.com/parcsaintecroix/
+photo.9.tags: nose, paws, snow, whiskers
+photo.10: ig://BiG06YBBf0X/m
+photo.10.author: parcsaintecroix
+photo.10.commitdate: 2020/3/31
+photo.10.link: https://www.instagram.com/parcsaintecroix/
+photo.10.tags: paws
+photo.11: ig://BwYxuhNJaPV/m
+photo.11.author: parcsaintecroix
+photo.11.commitdate: 2020/3/31
+photo.11.link: https://www.instagram.com/parcsaintecroix/
+photo.11.tags: mofumofu, shake
+photo.12: ig://B07jHqbHZui/m
+photo.12.author: couple.voyageur
+photo.12.commitdate: 2020/3/27
+photo.12.link: https://www.instagram.com/couple.voyageur/
+photo.12.tags: laying down, portrait
+photo.13: ig://B2qv6hYCRMZ/m
+photo.13.author: parcsaintecroix
+photo.13.commitdate: 2020/3/31
+photo.13.link: https://www.instagram.com/parcsaintecroix/
+photo.13.tags: peek
+photo.14: ig://B8J8DOMiw0o/m
+photo.14.author: parcsaintecroix
+photo.14.commitdate: 2020/3/27
+photo.14.link: https://www.instagram.com/parcsaintecroix/
+photo.14.tags: bridge, portrait
+photo.15: ig://CFF4t0sg24f/m
+photo.15.author: nathalie.elliott
+photo.15.commitdate: 2020/9/26
+photo.15.link: https://www.instagram.com/nathalie.elliott/
+photo.15.tags: smile, whiskers, wink
+species: 1
+zoo: 238

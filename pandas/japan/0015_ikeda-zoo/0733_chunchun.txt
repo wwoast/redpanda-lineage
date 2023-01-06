@@ -1,0 +1,21 @@
+[panda]
+_id: 733
+birthday: 1992/6/22
+birthplace: 13
+children: 107, 364, 734, 735
+commitdate: 2019/3/27
+death: 2010/2/18
+en.name: Chun-Chun
+en.nicknames: none
+en.othernames: Chunchun
+gender: m
+jp.name: チュンチュン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 732
+location.1: 13, 1992/6/22
+location.2: 15, 1994/2/22
+species: 2
+studbook.id: 9258
+zoo: 15

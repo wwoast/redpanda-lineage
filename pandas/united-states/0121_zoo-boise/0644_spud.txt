@@ -1,0 +1,27 @@
+[panda]
+_id: 644
+birthday: 2010/6/27
+birthplace: 104
+children: 1138, 1139, 1401, 1402
+commitdate: 2019/3/19
+en.name: Spud
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スパッド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 642, 643
+location.1: 104, 2010/6/27
+location.2: 166, 2011/5/12
+location.3: 121, 2021/1/1
+photo.1: ig://CXJ1qzYpOgr/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2021/12/26
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: peek, white face
+species: 1
+studbook.id: 1024
+uncertainty: location.3 exact date and year
+zoo: 121

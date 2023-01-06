@@ -1,0 +1,87 @@
+[panda]
+_id: 135
+birthday: 2004/6/28
+birthplace: 46
+children: 32, 366, 257, 258, 302, 483, 195, 201, 259, 260
+commitdate: 2018/6/27
+death: 2022/1/18
+en.name: Luna
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ルナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 477
+location.1: 46, 2004/6/28
+location.2: 15, 2005/4/18
+location.3: 42, 2010/12/22
+photo.1: ig://BiPImdYFvI7/m
+photo.1.author: yossi929
+photo.1.commitdate: 2018/7/19
+photo.1.link: https://www.instagram.com/yossi929/
+photo.1.tags: portrait, profile
+photo.2: ig://BsrAE2-Fxem/m
+photo.2.author: craig_craig_craig
+photo.2.commitdate: 2019/6/23
+photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.2.tags: portrait, smile
+photo.3: ig://BzbssY2BNmF/m
+photo.3.author: re_ichimaru
+photo.3.commitdate: 2019/7/7
+photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.3.tags: mofumofu
+photo.4: ig://B5BjUUFBsaJ/m
+photo.4.author: resapanlove
+photo.4.commitdate: 2019/11/26
+photo.4.link: https://www.instagram.com/resapanlove/
+photo.4.tags: paws, portrait
+photo.5: ig://B5cgj12hKH6/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2019/12/31
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: paws
+photo.6: ig://B6MzkXYBUOV/m
+photo.6.author: re_ichimaru
+photo.6.commitdate: 2019/12/30
+photo.6.link: https://www.instagram.com/re_ichimaru/
+photo.6.tags: portrait, whiskers
+photo.7: ig://CGsfHsClBvd/m
+photo.7.author: kojikoji2011
+photo.7.commitdate: 2021/10/31
+photo.7.link: https://www.instagram.com/kojikoji2011/
+photo.7.tags: portrait, smile, tail
+photo.8: ig://CHSfZwhhPS0/m
+photo.8.author: kojikoji2011
+photo.8.commitdate: 2021/11/10
+photo.8.link: https://www.instagram.com/kojikoji2011/
+photo.8.tags: laying down, paws, portrait, smile
+photo.9: ig://CHko4BShoAm/m
+photo.9.author: re_ichimaru
+photo.9.commitdate: 2020/11/18
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: air tasting, blink, paws, portrait, tail, tongue
+photo.10: ig://CLoaNtAh6eX/m
+photo.10.author: kojikoji2011
+photo.10.commitdate: 2021/6/7
+photo.10.link: https://www.instagram.com/kojikoji2011/
+photo.10.tags: mofumofu, portrait, videolink
+photo.11: ig://CMmnDykhCmT/m
+photo.11.author: kojikoji2011
+photo.11.commitdate: 2021/6/7
+photo.11.link: https://www.instagram.com/kojikoji2011/
+photo.11.tags: eye, peek, techitechi
+photo.12: ig://COoXhjpBLPb/m
+photo.12.author: re_ichimaru
+photo.12.commitdate: 2021/6/4
+photo.12.link: https://www.instagram.com/re_ichimaru/
+photo.12.tags: eye, paws, portrait
+photo.13: ig://CY846eBPhbc/m
+photo.13.author: sasapan34
+photo.13.commitdate: 2022/2/21
+photo.13.link: https://www.instagram.com/sasapan34/
+photo.13.tags: eye, paws, sample, whiskers
+species: 2
+studbook.id: 0465
+zoo: 42

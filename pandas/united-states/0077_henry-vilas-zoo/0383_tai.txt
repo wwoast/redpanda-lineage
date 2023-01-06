@@ -1,0 +1,62 @@
+[panda]
+_id: 383
+birthday: 2008/5/26
+birthplace: 82
+children: none
+commitdate: 2018/11/13
+death: 2022/9/2
+en.name: Tai
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: タイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 443
+location.1: 82, 2008/5/26
+location.2: 97, 2009/6/11
+location.3: 77, 2012/12/19
+photo.1: ig://BAF8tTfSkA7/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, sample, techitechi
+photo.2: ig://B-NlWsiDm1k/m
+photo.2.author: henryvilaszoo
+photo.2.commitdate: 2020/9/4
+photo.2.link: https://www.instagram.com/henryvilaszoo/
+photo.2.tags: mofumofu
+photo.3: ig://CCYsAOkDM1x/m
+photo.3.author: henryvilaszoo
+photo.3.commitdate: 2020/9/4
+photo.3.link: https://www.instagram.com/henryvilaszoo/
+photo.3.tags: close-up, mofumofu, nose, portrait, sample, whiskers
+photo.4: ig://CN4523CDo0P/m
+photo.4.author: henryvilaszoo
+photo.4.commitdate: 2021/5/19
+photo.4.link: https://www.instagram.com/henryvilaszoo/
+photo.4.tags: paws, whiskers
+photo.5: ig://CT-pBSXLQQ5/m
+photo.5.author: henryvilaszoo
+photo.5.commitdate: 2022/7/31
+photo.5.link: https://www.instagram.com/henryvilaszoo/
+photo.5.tags: portrait, sample
+photo.6: ig://CcNlA_YhQkg/m
+photo.6.author: henryvilaszoo
+photo.6.commitdate: 2022/7/31
+photo.6.link: https://www.instagram.com/henryvilaszoo/
+photo.6.tags: mofumofu
+photo.7: ig://CeCLoRNvVFc/m
+photo.7.author: henryvilaszoo
+photo.7.commitdate: 2022/7/31
+photo.7.link: https://www.instagram.com/henryvilaszoo/
+photo.7.tags: birthday, portrait, whiskers
+photo.8: ig://ChmtK5PuZxP/m
+photo.8.author: henryvilaszoo
+photo.8.commitdate: 2022/8/26
+photo.8.link: https://www.instagram.com/henryvilaszoo/
+photo.8.tags: paws, peek, sample, whiskers
+species: 2
+studbook.id: 0821
+zoo: 77

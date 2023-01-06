@@ -1,0 +1,64 @@
+[panda]
+_id: 322
+birthday: 2007/6/14
+birthplace: 9
+children: none
+commitdate: 2018/8/24
+death: 2015/10/31
+en.name: Tekka
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: テッカ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 314
+location.1: 9, 2007/6/14
+location.2: 32, 2010/3/29
+photo.1: https://www.codaworry.com/images/rpf/tekka-1-fukuoka.jpg
+photo.1.author: gachon_kudo
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://gachon.exblog.jp/i51/2/
+photo.2: https://www.codaworry.com/images/rpf/tekka-2-fukuoka.jpg
+photo.2.author: gachon_kudo
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://gachon.exblog.jp/i51/2/
+photo.2.tags: tail
+photo.3: https://www.codaworry.com/images/rpf/tekka-3-fukuoka.jpg
+photo.3.author: fukuoka_zoo
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://zoo.city.fukuoka.lg.jp/news/detail/648
+photo.4: https://www.codaworry.com/images/rpf/tekka-4-fukuoka.jpg
+photo.4.author: fukuoka_zoo
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://zoo.city.fukuoka.lg.jp/news/detail/648
+photo.4.tags: bamboo, profile
+photo.5: https://www.codaworry.com/images/rpf/tekka-5-fukuoka.jpg
+photo.5.author: jilllucaさん
+photo.5.commitdate: 2019/4/9
+photo.5.link: https://4travel.jp/travelogue/10754321
+photo.5.tags: apple time, paws, smile, tongue
+photo.6: https://www.codaworry.com/images/rpf/tekka-6-fukuoka.jpg
+photo.6.author: jilllucaさん
+photo.6.commitdate: 2019/4/9
+photo.6.link: https://4travel.jp/travelogue/10754321
+photo.6.tags: apple time, paws, smile
+photo.7: https://www.codaworry.com/images/rpf/tekka-7-fukuoka.jpg
+photo.7.author: jilllucaさん
+photo.7.commitdate: 2019/4/9
+photo.7.link: https://4travel.jp/travelogue/10754321
+photo.7.tags: grumpy
+photo.8: https://www.codaworry.com/images/rpf/tekka-8-fukuoka.jpg
+photo.8.author: gachon_kudo
+photo.8.commitdate: 2019/4/11
+photo.8.link: https://gachon.exblog.jp/10906446/
+photo.8.tags: smile
+photo.9: https://www.codaworry.com/images/rpf/tekka-9-fukuoka.jpg
+photo.9.author: gachon_kudo
+photo.9.commitdate: 2019/4/11
+photo.9.link: https://gachon.exblog.jp/10906446/
+photo.9.tags: tail
+species: 2
+studbook.id: 0761
+zoo: 32

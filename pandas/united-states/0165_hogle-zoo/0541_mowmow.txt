@@ -1,0 +1,36 @@
+[panda]
+_id: 541
+birthday: 2014/6/11
+birthplace: 117
+children: 681, 576, 554
+commitdate: 2019/3/2
+en.name: Mow-Mow
+en.nicknames: none
+en.othernames: Mowmow
+gender: m
+jp.name: モウモウ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 680
+location.1: 117, 2014/6/11
+location.2: 105, 2015/11/10
+location.3: 165, 2021/6/12
+photo.1: ig://CSMq8COHolb/m
+photo.1.author: hoglezoo
+photo.1.commitdate: 2022/3/5
+photo.1.link: https://www.instagram.com/hoglezoo/
+photo.1.tags: paws, portrait, profile, whiskers
+photo.2: ig://CbgHH19PK-S/m
+photo.2.author: hoglezoo
+photo.2.commitdate: 2022/7/18
+photo.2.link: https://www.instagram.com/hoglezoo/
+photo.2.tags: close-up, lips, paws, whiskers
+photo.3: ig://CeHGKsBpNSN/m
+photo.3.author: hoglezoo
+photo.3.commitdate: 2022/6/29
+photo.3.link: https://www.instagram.com/hoglezoo/
+photo.3.tags: apple time, bamboo, portrait, sample, whiskers
+species: 1
+studbook.id: 1408
+zoo: 165

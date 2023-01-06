@@ -1,0 +1,399 @@
+[panda]
+_id: 169
+birthday: 2015/7/4
+birthplace: 48
+children: none
+commitdate: 2018/7/12
+en.name: Will Smith
+en.nicknames: Will-bear, Punk Butt, Prince William
+en.othernames: Willbear, Will
+gender: m
+jp.name: ウィル・スミス
+jp.nicknames: ウィル, ウィルスミス
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 48, 2015/7/4
+location.2: 47, 2016/4/27
+photo.1: ig://BLefdtwhQu_/m
+photo.1.author: hhpzoo
+photo.1.commitdate: 2020/4/1
+photo.1.link: https://www.instagram.com/hhpzoo/
+photo.1.tags: peek, whiskers
+photo.2: ig://BMrmltmBo33/m
+photo.2.author: zookeeper_aj
+photo.2.commitdate: 2020/4/1
+photo.2.link: https://www.instagram.com/hhpzoo/
+photo.2.tags: bamboo, laying down, peek
+photo.3: ig://BSv36ishZA7/m
+photo.3.author: zookeeper_aj
+photo.3.commitdate: 2020/4/1
+photo.3.link: https://www.instagram.com/zookeeper_aj/
+photo.3.tags: bridge, tail, white face
+photo.4: ig://BUMkwRPBTyu/m
+photo.4.author: zookeeper_aj
+photo.4.commitdate: 2018/7/26
+photo.4.link: https://www.instagram.com/zookeeper_aj/
+photo.5: ig://BZHbEajn-7N/m
+photo.5.author: zookeeper_aj
+photo.5.commitdate: 2020/4/1
+photo.5.link: https://www.instagram.com/zookeeper_aj/
+photo.6: ig://BbajfpxlOXV/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2018/7/26
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.7: ig://BfosEc0gvOj/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2018/7/26
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: in love, portrait, tail
+photo.8: ig://BgZtoFgAb9T/m
+photo.8.author: hhpzoo
+photo.8.commitdate: 2020/4/1
+photo.8.link: https://www.instagram.com/hhpzoo/
+photo.9: ig://BgaQnKznB0L/m
+photo.9.author: zookeeper_aj
+photo.9.commitdate: 2020/4/1
+photo.9.link: https://www.instagram.com/zookeeper_aj/
+photo.9.tags: techitechi, whiskers
+photo.10: ig://BhQPEj2ACCT/m
+photo.10.author: wumpwoast
+photo.10.commitdate: 2018/7/26
+photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.tags: bamboo, laying down
+photo.11: ig://BkGUMUOFgmd/m
+photo.11.author: wumpwoast
+photo.11.commitdate: 2018/7/26
+photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.tags: air tasting, paws, tongue
+photo.12: ig://BlrOyU7Hr0y/m
+photo.12.author: alyss_or_rose
+photo.12.commitdate: 2020/5/25
+photo.12.link: https://www.instagram.com/alyss_or_rose/
+photo.12.tags: mofumofu, tail, tree, white face
+photo.13: ig://BmWTuL7F3nk/m
+photo.13.author: wumpwoast
+photo.13.commitdate: 2020/4/1
+photo.13.link: https://www.instagram.com/wumpwoast/
+photo.13.tags: lunch time, paws, portrait
+photo.14: ig://Bm7LHiFnxAo/m
+photo.14.author: zookeeper_aj
+photo.14.commitdate: 2018/8/30
+photo.14.link: https://www.instagram.com/zookeeper_aj/
+photo.14.tags: dish, lunch time
+photo.15: ig://BoJsm2lhiRE/m
+photo.15.author: zookeeper_aj
+photo.15.commitdate: 2018/9/25
+photo.15.link: https://www.instagram.com/zookeeper_aj/
+photo.15.tags: profile, tongue
+photo.16: ig://BrGv8uQjOnf/m
+photo.16.author: hhpzoo
+photo.16.commitdate: 2019/4/8
+photo.16.link: https://www.instagram.com/hhpzoo/
+photo.16.tags: smile, white face
+photo.17: ig://BsN-WbqF55X/m
+photo.17.author: wumpwoast
+photo.17.commitdate: 2019/1/4
+photo.17.link: https://www.instagram.com/wumpwoast/
+photo.17.tags: bamboo
+photo.18: ig://Bs7EJSLl6LK/m
+photo.18.author: wumpwoast
+photo.18.commitdate: 2019/1/24
+photo.18.link: https://www.instagram.com/wumpwoast/
+photo.18.tags: smile, tail
+photo.19: ig://BuRET9-Fjsf/m
+photo.19.author: wumpwoast
+photo.19.commitdate: 2019/3/2
+photo.19.link: https://www.instagram.com/wumpwoast/
+photo.19.tags: peek
+photo.20: ig://BvI1utdFKYQ/m
+photo.20.author: wumpwoast
+photo.20.commitdate: 2019/3/21
+photo.20.link: https://www.instagram.com/wumpwoast/
+photo.20.tags: bamboo
+photo.21: ig://Bv930ztFznn/m
+photo.21.author: wumpwoast
+photo.21.commitdate: 2019/4/7
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: paws, pooping, smile
+photo.22: ig://BwV-LmaFkdA/m
+photo.22.author: wumpwoast
+photo.22.commitdate: 2020/4/1
+photo.22.link: https://www.instagram.com/wumpwoast/
+photo.22.tags: portrait, tail
+photo.23: ig://BxfY2jOleUn/m
+photo.23.author: wumpwoast
+photo.23.commitdate: 2019/5/16
+photo.23.link: https://www.instagram.com/wumpwoast/
+photo.23.tags: bamboo, dish, paws, standing
+photo.24: ig://ByE332lBhDh/m
+photo.24.author: wumpwoast
+photo.24.commitdate: 2019/6/13
+photo.24.link: https://www.instagram.com/wumpwoast/
+photo.24.tags: bamboo
+photo.25: ig://ByOQIZ-hKq_/m
+photo.25.author: wumpwoast
+photo.25.commitdate: 2019/6/13
+photo.25.link: https://www.instagram.com/wumpwoast/
+photo.25.tags: bamboo, tongue
+photo.26: ig://ByQA5lKh1EO/m
+photo.26.author: wumpwoast
+photo.26.commitdate: 2019/6/13
+photo.26.link: https://www.instagram.com/wumpwoast/
+photo.27: ig://ByiC8qlBISj/m
+photo.27.author: wumpwoast
+photo.27.commitdate: 2019/6/13
+photo.27.link: https://www.instagram.com/wumpwoast/
+photo.27.tags: door, lunch time
+photo.28: ig://B0D_RwJh2YV/m
+photo.28.author: wumpwoast
+photo.28.commitdate: 2019/7/18
+photo.28.link: https://www.instagram.com/wumpwoast/
+photo.28.tags: peek, portrait
+photo.29: ig://B1C_U6RBwNK/m
+photo.29.author: wumpwoast
+photo.29.commitdate: 2019/8/13
+photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.tags: bamboo, bite, wink
+photo.30: ig://B2SbO09B865/m
+photo.30.author: wumpwoast
+photo.30.commitdate: 2019/9/14
+photo.30.link: https://www.instagram.com/wumpwoast/
+photo.30.tags: door, laying down, peek, portrait
+photo.31: ig://B2axxuwgng8/m
+photo.31.author: zookeeper_aj
+photo.31.commitdate: 2019/9/21
+photo.31.link: https://www.instagram.com/zookeeper_aj/
+photo.31.tags: laying down, peek
+photo.32: ig://B2hEkakBBfn/m
+photo.32.author: wumpwoast
+photo.32.commitdate: 2019/9/18
+photo.32.link: https://www.instagram.com/wumpwoast/
+photo.32.tags: portrait
+photo.33: ig://B2riytHgOPb/m
+photo.33.author: zookeeper_aj
+photo.33.commitdate: 2019/9/26
+photo.33.link: https://www.instagram.com/zookeeper_aj/
+photo.33.tags: lunch time, paws
+photo.34: ig://B3SRN_ihjtM/m
+photo.34.author: wumpwoast
+photo.34.commitdate: 2021/6/19
+photo.34.link: https://www.instagram.com/wumpwoast/
+photo.34.tags: peek, portrait, tail
+photo.35: ig://B3iui9Ihff8/m
+photo.35.author: wumpwoast
+photo.35.commitdate: 2019/10/15
+photo.35.link: https://www.instagram.com/wumpwoast/
+photo.35.tags: portrait, smile, tail
+photo.36: ig://B3ojCeRhUP7/m
+photo.36.author: wumpwoast
+photo.36.commitdate: 2019/10/15
+photo.36.link: https://www.instagram.com/wumpwoast/
+photo.36.tags: bamboo, bridge
+photo.37: ig://B4SMkKgDQr-/m
+photo.37.author: hhpzoo
+photo.37.commitdate: 2019/11/1
+photo.37.link: https://www.instagram.com/hhpzoo/
+photo.37.tags: pumpkin, smile, tongue
+photo.38: ig://B4TxWDXhUJl/m
+photo.38.author: wumpwoast
+photo.38.commitdate: 2019/11/1
+photo.38.link: https://www.instagram.com/wumpwoast/
+photo.38.tags: portrait, whiskers
+photo.39: ig://B4t1CCQh6Ms/m
+photo.39.author: wumpwoast
+photo.39.commitdate: 2019/11/17
+photo.39.link: https://www.instagram.com/wumpwoast/
+photo.39.tags: portrait, techitechi
+photo.40: ig://B4x29vAAnys/m
+photo.40.author: zookeeper_aj
+photo.40.commitdate: 2019/11/17
+photo.40.link: https://www.instagram.com/zookeeper_aj/
+photo.40.tags: smile
+photo.41: ig://B46cmx6BeVZ/m
+photo.41.author: wumpwoast
+photo.41.commitdate: 2019/11/27
+photo.41.link: https://www.instagram.com/wumpwoast/
+photo.41.tags: laying down, portrait, tail
+photo.42: ig://B5bMmNfgxRi/m
+photo.42.author: zookeeper_aj
+photo.42.commitdate: 2019/11/29
+photo.42.link: https://www.instagram.com/zookeeper_aj/
+photo.43: ig://B5nj9UghzU_/m
+photo.43.author: wumpwoast
+photo.43.commitdate: 2019/12/7
+photo.43.link: https://www.instagram.com/wumpwoast/
+photo.43.tags: peek, portrait
+photo.44: ig://B5yPioSAzao/m
+photo.44.author: zookeeper_aj
+photo.44.commitdate: 2019/12/11
+photo.44.link: https://www.instagram.com/zookeeper_aj/
+photo.44.tags: bamboo, bite, paws
+photo.45: ig://B6BJAn5h4ke/m
+photo.45.author: wumpwoast
+photo.45.commitdate: 2021/6/19
+photo.45.link: https://www.instagram.com/wumpwoast/
+photo.45.tags: bamboo, portrait, tongue
+photo.46: ig://B7WLogxBejV/m
+photo.46.author: wumpwoast
+photo.46.commitdate: 2020/1/16
+photo.46.link: https://www.instagram.com/wumpwoast/
+photo.46.tags: bamboo, bite, portrait, whiskers, white face
+photo.47: ig://B8J0A1uBt_c/m
+photo.47.author: wumpwoast
+photo.47.commitdate: 2020/2/7
+photo.47.link: https://www.instagram.com/wumpwoast/
+photo.47.tags: bamboo, portrait, tongue
+photo.48: ig://B8VLMFtgZai/m
+photo.48.author: zookeeper_aj
+photo.48.commitdate: 2020/2/16
+photo.48.link: https://www.instagram.com/zookeeper_aj/
+photo.48.tags: bamboo
+photo.49: ig://B92Qch5hx1f/m
+photo.49.author: wumpwoast
+photo.49.commitdate: 2020/3/26
+photo.49.link: https://www.instagram.com/wumpwoast/
+photo.49.tags: portrait, whiskers
+photo.50: ig://B94X-XLnRC6/m
+photo.50.author: wumpwoast
+photo.50.commitdate: 2020/3/26
+photo.50.link: https://www.instagram.com/wumpwoast/
+photo.50.tags: blink, portrait
+photo.51: ig://CAtRkjHDs3g/m
+photo.51.author: hhpzoo
+photo.51.commitdate: 2020/9/3
+photo.51.link: https://www.instagram.com/hhpzoo/
+photo.51.tags: lunch time, paws, portrait, whiskers
+photo.52: ig://CEzQVlgF2uZ/m
+photo.52.author: hhpzoo
+photo.52.commitdate: 2020/9/14
+photo.52.link: https://www.instagram.com/hhpzoo/
+photo.52.tags: close-up, keeper, lunch time, whiskers
+photo.53: ig://CFTRlk7BdEw/m
+photo.53.author: wumpwoast
+photo.53.commitdate: 2021/6/6
+photo.53.link: https://www.instagram.com/wumpwoast/
+photo.53.tags: bamboo, bite, portrait
+photo.54: ig://CG2k5XZL5Ri/m
+photo.54.author: hhpzoo
+photo.54.commitdate: 2020/10/27
+photo.54.link: https://www.instagram.com/hhpzoo/
+photo.54.tags: bamboo, close-up, tongue
+photo.55: ig://CMfYM8An3aG/m
+photo.55.author: hhpzoo
+photo.55.commitdate: 2021/3/29
+photo.55.link: https://www.instagram.com/hhpzoo/
+photo.55.tags: close-up, mofumofu, portrait, whiskers
+photo.56: ig://CO8oQzogW46/m
+photo.56.author: bayareaaazk
+photo.56.commitdate: 2021/6/16
+photo.56.link: https://www.instagram.com/bayareaaazk/
+photo.56.tags: close-up, dish, white face
+photo.57: ig://CQFQMV6hGLi/m
+photo.57.author: wumpwoast
+photo.57.commitdate: 2021/6/16
+photo.57.link: https://www.instagram.com/wumpwoast/
+photo.57.tags: bamboo, paws, portrait, smile
+photo.58: ig://CQ6UZ3erLbs/m
+photo.58.author: hhpzoo
+photo.58.commitdate: 2021/7/4
+photo.58.link: https://www.instagram.com/hhpzoo/
+photo.58.tags: bamboo, paws, tongue
+photo.59: ig://CRJmJi0hQ47/m
+photo.59.author: wumpwoast
+photo.59.commitdate: 2021/7/19
+photo.59.link: https://www.instagram.com/wumpwoast/
+photo.59.tags: bamboo, portrait, smile
+photo.60: ig://CRKmOz2BAef/m
+photo.60.author: wumpwoast
+photo.60.commitdate: 2021/7/11
+photo.60.link: https://www.instagram.com/wumpwoast/
+photo.60.tags: close-up, dish, lunch time, smile, tail
+photo.61: ig://CSaecENFcVr/m
+photo.61.author: wumpwoast
+photo.61.commitdate: 2021/8/10
+photo.61.link: https://www.instagram.com/wumpwoast/
+photo.61.tags: bamboo, bite, paws, portrait
+photo.62: ig://CSdHJXWl8Zk/m
+photo.62.author: wumpwoast
+photo.62.commitdate: 2021/10/31
+photo.62.link: https://www.instagram.com/wumpwoast/
+photo.62.tags: dish, paws, portrait
+photo.63: ig://CU1nqtbr1rq/m
+photo.63.author: wumpwoast
+photo.63.commitdate: 2021/10/31
+photo.63.link: https://www.instagram.com/wumpwoast/
+photo.63.tags: laying down, peek, portrait
+photo.64: ig://CVEuNyCrpGJ/m
+photo.64.author: wumpwoast
+photo.64.commitdate: 2021/10/17
+photo.64.link: https://www.instagram.com/wumpwoast/
+photo.64.tags: close-up, lunch time, paws, portrait
+photo.65: ig://CV7LYlTr_XK/m
+photo.65.author: wumpwoast
+photo.65.commitdate: 2021/11/7
+photo.65.link: https://www.instagram.com/wumpwoast/
+photo.65.tags: portrait, whiskers
+photo.66: ig://CXNFLoJp47k/m
+photo.66.author: wumpwoast
+photo.66.commitdate: 2021/12/26
+photo.66.link: https://www.instagram.com/wumpwoast/
+photo.66.tags: peek, techitechi, whiskers
+photo.67: ig://CZxb6dfv-Fc/m
+photo.67.author: wumpwoast
+photo.67.commitdate: 2022/3/6
+photo.67.link: https://www.instagram.com/wumpwoast/
+photo.67.tags: bamboo, peek, portrait, sample, smile, whiskers
+photo.68: ig://Ca1C0SarUqd/m
+photo.68.author: wumpwoast
+photo.68.commitdate: 2022/4/10
+photo.68.link: https://www.instagram.com/wumpwoast/
+photo.68.tags: bamboo, portrait, whiskers
+photo.69: ig://CbhHk2-OAGC/m
+photo.69.author: wumpwoast
+photo.69.commitdate: 2022/4/25
+photo.69.link: https://www.instagram.com/wumpwoast/
+photo.69.tags: close-up, portrait, sample, white face
+photo.70: ig://Cco6qcnLUxk/m
+photo.70.author: wumpwoast
+photo.70.commitdate: 2022/5/27
+photo.70.link: https://www.instagram.com/wumpwoast/
+photo.70.tags: bamboo, mofumofu, paws, portrait, sample, smile, whiskers
+photo.71: ig://CcuMCHIuc_7/m
+photo.71.author: wumpwoast
+photo.71.commitdate: 2022/9/15
+photo.71.link: https://www.instagram.com/wumpwoast/
+photo.71.tags: bamboo, bite, portrait, sample, whiskers, white face
+photo.72: ig://Cdcly_2Ok0N/m
+photo.72.author: wumpwoast
+photo.72.commitdate: 2022/6/2
+photo.72.link: https://www.instagram.com/wumpwoast/
+photo.72.tags: dish, lunch time, portrait, sample, tail, tongue
+photo.73: ig://CeFeKw6roDG/m
+photo.73.author: wumpwoast
+photo.73.commitdate: 2022/6/29
+photo.73.link: https://www.instagram.com/wumpwoast/
+photo.73.tags: bamboo, paws, wink
+photo.74: ig://CfmZOBtpk4R/m
+photo.74.author: wumpwoast
+photo.74.commitdate: 2022/7/27
+photo.74.link: https://www.instagram.com/wumpwoast/
+photo.74.tags: paws, peek, portrait
+photo.75: ig://CfmePNWFdio/m
+photo.75.author: hhpzoo
+photo.75.commitdate: 2022/7/27
+photo.75.link: https://www.instagram.com/hhpzoo/
+photo.75.tags: close-up, nose, whiskers
+photo.76: ig://Cga11wdMhrk/m
+photo.76.author: wumpwoast
+photo.76.commitdate: 2022/8/7
+photo.76.link: https://www.instagram.com/wumpwoast/
+photo.76.tags: pooping, portrait, smile, tongue
+photo.77: ig://CiRe5cROBaW/m
+photo.77.author: wumpwoast
+photo.77.commitdate: 2022/9/10
+photo.77.link: https://www.instagram.com/wumpwoast/
+photo.77.tags: portrait, sample, tail, tongue, whiskers
+species: 1
+studbook.id: 1542
+zoo: 47

@@ -1,0 +1,20 @@
+[panda]
+_id: 1118
+birthday: 1994/6/24
+birthplace: 108
+children: none
+commitdate: 2020/3/8
+death: 2003/9/12
+en.name: Marley
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マーリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1117
+location.1: 108, 1994/6/24
+location.2: 154, 1995/5/25
+species: 1
+zoo: 154

@@ -1,0 +1,83 @@
+[panda]
+_id: 666
+birthday: 2010/6/27
+birthplace: 124
+children: none
+commitdate: 2019/3/22
+en.name: Berry
+en.nicknames: none
+en.othernames: Granberry, Cranberry
+gender: f
+jp.name: ベリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 124, 2010/6/27
+location.2: 155, 2011/2/24
+location.3: 117, 2014/12/4
+location.4: 194, 2021/1/4
+photo.1: ig://xxSQQhgkFi/m
+photo.1.author: trevorzoomillbrook
+photo.1.commitdate: 2019/3/22
+photo.1.link: https://www.instagram.com/trevorzoomillbrook/
+photo.1.tags: portrait, profile, white face
+photo.2: ig://BvNKwRvgGvO/m
+photo.2.author: trevorzoomillbrook
+photo.2.commitdate: 2019/4/1
+photo.2.link: https://www.instagram.com/trevorzoomillbrook/
+photo.2.tags: bamboo, portrait, tongue
+photo.3: ig://ByGXDu9gFOX/m
+photo.3.author: trevorzoomillbrook
+photo.3.commitdate: 2019/6/1
+photo.3.link: https://www.instagram.com/trevorzoomillbrook/
+photo.3.tags: portrait, whiskers, white face
+photo.4: ig://B2ppN_vAee3/m
+photo.4.author: trevorzoomillbrook
+photo.4.commitdate: 2021/2/28
+photo.4.link: https://www.instagram.com/trevorzoomillbrook/
+photo.4.tags: bamboo, bite, paws, portrait, white face
+photo.5: ig://B3F9v_hA32D/m
+photo.5.author: trevorzoomillbrook
+photo.5.commitdate: 2021/2/28
+photo.5.link: https://www.instagram.com/trevorzoomillbrook/
+photo.5.tags: bamboo, portrait, tongue
+photo.6: ig://B4S1W8Bgz94/m
+photo.6.author: trevorzoomillbrook
+photo.6.commitdate: 2021/2/28
+photo.6.link: https://www.instagram.com/trevorzoomillbrook/
+photo.6.tags: paws, pumpkin, smile, white face
+photo.7: ig://B5DmH2pghue/m
+photo.7.author: trevorzoomillbrook
+photo.7.commitdate: 2021/2/28
+photo.7.link: https://www.instagram.com/trevorzoomillbrook/
+photo.7.tags: portrait, whiskers, white face
+photo.8: ig://B9zyZ_1AcPj/m
+photo.8.author: trevorzoomillbrook
+photo.8.commitdate: 2020/3/20
+photo.8.link: https://www.instagram.com/trevorzoomillbrook/
+photo.8.tags: bamboo, portrait, tongue, white face
+photo.9: ig://CJZl6HGLeK_/m
+photo.9.author: trevorzoomillbrook
+photo.9.commitdate: 2021/2/28
+photo.9.link: https://www.instagram.com/trevorzoomillbrook/
+photo.9.tags: paws, white face
+photo.10: ig://CM2BKQHM-3a/m
+photo.10.author: ctbeardsleyzoo
+photo.10.commitdate: 2021/4/29
+photo.10.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.10.tags: close-up, portrait, techitechi, white face
+photo.11: ig://CNDIIFjsk5y/m
+photo.11.author: ctbeardsleyzoo
+photo.11.commitdate: 2021/4/29
+photo.11.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.11.tags: bamboo, peek, portrait
+photo.12: ig://CNLm0ITJeBu/m
+photo.12.author: trevorzoomillbrook
+photo.12.commitdate: 2021/5/28
+photo.12.link: https://www.instagram.com/trevorzoomillbrook/
+photo.12.tags: peek, portrait, toys
+species: 1
+studbook.id: 1011
+uncertainty: studbook has two birthplaces (likely Detroit), location.4 precise date
+zoo: 194

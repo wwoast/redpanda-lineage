@@ -1,0 +1,111 @@
+[panda]
+_id: 1353
+birthday: 2015/6/22
+birthplace: 55
+children: unknown
+cn.name: 奇奇
+cn.nicknames: none
+cn.othernames: 哥哥
+commitdate: 2022/4/19
+en.name: Yaffa
+en.nicknames: none
+en.othernames: Kiki, Chichi, Chi-Chi
+gender: m
+jp.name: ヤッファ
+jp.nicknames: none
+jp.othernames: キキ, チィチィ
+language.order: cn, en, jp
+litter: 1354
+photo.1: ig://B1iqfx3hphU/m
+photo.1.author: redpanda_tata
+photo.1.commitdate: 2022/4/18
+photo.1.link: https://www.instagram.com/redpanda_tata/
+photo.1.tags: portrait, smile, whiskers
+photo.2: ig://B18n1UChd7m/m
+photo.2.author: redpanda_tata
+photo.2.commitdate: 2022/4/18
+photo.2.link: https://www.instagram.com/redpanda_tata/
+photo.2.tags: portrait, tail, tongue, whiskers
+photo.3: ig://B3hEyMshD0O/m
+photo.3.author: redpanda_tata
+photo.3.commitdate: 2022/4/18
+photo.3.link: https://www.instagram.com/redpanda_tata/
+photo.3.tags: portrait, smile, tail, whiskers
+photo.4: ig://yuredpanda/CXXL8U6Bd0J/m
+photo.4.author: yuredpanda
+photo.4.commitdate: 2022/4/19
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: portrait, sample, tail, whiskers
+photo.5: ig://CYVUHTLvLPs/m
+photo.5.author: yuredpanda
+photo.5.commitdate: 2022/4/19
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: grooming, paws, portrait
+photo.6: ig://CZCdcZKvC_y/m
+photo.6.author: yuredpanda
+photo.6.commitdate: 2022/4/19
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: paws, portrait, smile, whiskers
+photo.7: ig://CZ38n_QP-K7/m
+photo.7.author: yuredpanda
+photo.7.commitdate: 2022/4/19
+photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.tags: bamboo, bite, portrait, profile, whiskers
+photo.8: ig://CaMtAYMvhul/m
+photo.8.author: yuredpanda
+photo.8.commitdate: 2022/4/19
+photo.8.link: https://www.instagram.com/yuredpanda/
+photo.8.tags: bamboo, bite, mofumofu, portrait, smile, whiskers
+photo.9: ig://Cag2Ql0PRUo/m
+photo.9.author: yuredpanda
+photo.9.commitdate: 2022/4/19
+photo.9.link: https://www.instagram.com/yuredpanda/
+photo.9.tags: close-up, mofumofu, portrait
+photo.10: ig://CbPFod4LwR8/m
+photo.10.author: yuredpanda
+photo.10.commitdate: 2022/4/19
+photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.tags: peek, whiskers
+photo.11: ig://CcKNNFTv0nz/m
+photo.11.author: yuredpanda
+photo.11.commitdate: 2022/4/19
+photo.11.link: https://www.instagram.com/yuredpanda/
+photo.11.tags: peek, tail, whiskers
+photo.12: ig://CdzuXJQLuJF/m
+photo.12.author: yuredpanda
+photo.12.commitdate: 2022/8/24
+photo.12.link: https://www.instagram.com/yuredpanda/
+photo.12.tags: portrait, sample, smile, tongue, whiskers
+photo.13: ig://CfGw3CiP03C/m
+photo.13.author: yuredpanda
+photo.13.commitdate: 2022/7/18
+photo.13.link: https://www.instagram.com/yuredpanda/
+photo.13.tags: lips, portrait, sample, tail, whiskers
+photo.14: ig://CfQ6xq8vU0R/m
+photo.14.author: yuredpanda
+photo.14.commitdate: 2022/7/18
+photo.14.link: https://www.instagram.com/yuredpanda/
+photo.14.tags: peek, portrait, sample, whiskers
+photo.15: ig://CgL932LBVdI/m
+photo.15.author: yuredpanda
+photo.15.commitdate: 2022/7/28
+photo.15.link: https://www.instagram.com/yuredpanda/
+photo.15.tags: peek, portrait, smile, tail, whiskers
+photo.16: ig://Cg596dWhHUv/m
+photo.16.author: yuredpanda
+photo.16.commitdate: 2022/8/8
+photo.16.link: https://www.instagram.com/yuredpanda/
+photo.16.tags: laying down, portrait, sample, whiskers
+photo.17: ig://ChoYLYzvs1x/m
+photo.17.author: yuredpanda
+photo.17.commitdate: 2022/8/30
+photo.17.link: https://www.instagram.com/yuredpanda/
+photo.17.tags: portrait, sample, smile, whiskers
+photo.18: ig://CllIA5SPUba/m
+photo.18.author: yuredpanda
+photo.18.commitdate: 2022/12/7
+photo.18.link: https://www.instagram.com/yuredpanda/
+photo.18.tags: portrait, smile, tongue, whiskers
+species: 2
+uncertainty: birthday (may have been 23rd)
+zoo: 55

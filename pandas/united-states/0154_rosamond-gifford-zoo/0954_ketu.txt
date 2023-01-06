@@ -1,0 +1,24 @@
+[panda]
+_id: 954
+birthday: 2011/12/9
+birthplace: 201
+children: 343, 617, 854, 855, 1224, 1225
+commitdate: 2019/8/10
+en.name: Ketu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ケツ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 201, 2011/12/9
+location.2: 154, 2013/11/19
+photo.1: ig://CFSk4afMgR9/m
+photo.1.author: syracusezoo
+photo.1.commitdate: 2020/10/11
+photo.1.link: https://www.instagram.com/syracusezoo/
+photo.1.tags: profile, tail, whiskers
+species: 1
+zoo: 154

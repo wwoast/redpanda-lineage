@@ -1,0 +1,52 @@
+[panda]
+_id: 382
+birthday: 2002/6/15
+birthplace: 12
+children: 381, 386, 387
+commitdate: 2018/11/13
+death: 2017/2/2
+en.name: JJ
+en.nicknames: none
+en.othernames: Tram, Porrin
+gender: f
+jp.name: トラム
+jp.nicknames: ポーリン
+jp.othernames: none
+language.order: jp, en
+litter: 310
+location.1: 12, 2002/6/15
+location.2: 65, 2004/4/27
+location.3: 87, 2011/11/7
+location.4: 81, 2014/1/23
+photo.1: ig://BBhDJB9Sf9D/m
+photo.1.author: sketchpoet
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/sketchpoet/
+photo.1.tags: profile, smile
+photo.2: https://www.codaworry.com/images/rpf/jj-1-philadelphia.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: laying down, tree
+photo.3: https://www.codaworry.com/images/rpf/jj-2-philadelphia.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tongue, tree
+photo.4: https://www.codaworry.com/images/rpf/jj-3-philadelphia.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.5: https://www.codaworry.com/images/rpf/jj-4-philadelphia.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/9
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: sleeping, tree
+photo.6: https://www.codaworry.com/images/rpf/jj-5-philadelphia.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/9
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: techitechi, tree
+species: 2
+studbook.id: 0257
+zoo: 81

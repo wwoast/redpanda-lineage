@@ -1,0 +1,25 @@
+[media]
+_id: media.41.ashitaba-couscous
+commitdate: 2019/7/28
+panda.tags: 131, 295
+photo.1: ig://BtiE79ylfPB/m
+photo.1.author: yossi929
+photo.1.commitdate: 2020/5/15
+photo.1.link: https://www.instagram.com/yossi929/
+photo.1.tags: couple, paws, portrait, scale, tail
+photo.1.tags.131.location: 135, 100
+photo.1.tags.295.location: 200, 95
+photo.2: ig://BxDqvfhFSJJ/m
+photo.2.author: yossi929
+photo.2.commitdate: 2020/5/15
+photo.2.link: https://www.instagram.com/yossi929/
+photo.2.tags: couple, lunch time
+photo.2.tags.131.location: 120, 160
+photo.2.tags.295.location: 230, 165
+photo.3: ig://B0VerpGBrTM/m
+photo.3.author: yossi929
+photo.3.commitdate: 2019/7/28
+photo.3.link: https://www.instagram.com/yossi929/
+photo.3.tags: apple time, couple
+photo.3.tags.131.location: 220, 145
+photo.3.tags.295.location: 100, 135

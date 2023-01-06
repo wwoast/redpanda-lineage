@@ -1,0 +1,21 @@
+[panda]
+_id: 1121
+birthday: 1998/6/15
+birthplace: 118
+children: none
+commitdate: 2020/3/8
+death: 2011/7/15
+en.name: Bamboo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: バンブー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1122
+location.1: 118, 1998/6/15
+location.2: 85, 2000/2/27
+location.3: 163, 2005/12/19
+species: 1
+zoo: 163

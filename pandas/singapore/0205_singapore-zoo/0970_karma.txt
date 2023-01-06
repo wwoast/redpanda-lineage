@@ -1,0 +1,49 @@
+[panda]
+_id: 970
+birthday: 2012/12/20
+birthplace: 201
+children: unknown
+commitdate: 2019/8/16
+en.name: Karma
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カルマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 968, 969
+location.1: 201, 2012/12/20
+location.2: 205, 2014/11/10
+photo.1: ig://CP9WkuyB53x/m
+photo.1.author: redpandasingapore
+photo.1.commitdate: 2021/9/6
+photo.1.link: https://www.instagram.com/redpandasingapore/
+photo.1.tags: portrait, profile, tree
+photo.2: ig://CQvdTpwB3VG/m
+photo.2.author: redpandasingapore
+photo.2.commitdate: 2021/12/21
+photo.2.link: https://www.instagram.com/redpandasingapore/
+photo.2.tags: keeper, portrait, videolink, tail
+photo.3: ig://CT9hn-rBYbf/m
+photo.3.author: redpandasingapore
+photo.3.commitdate: 2021/12/21
+photo.3.link: https://www.instagram.com/redpandasingapore/
+photo.3.tags: laying down, paws, tail
+photo.4: ig://CW2mLIkh8KY/m
+photo.4.author: redpandasingapore
+photo.4.commitdate: 2021/12/21
+photo.4.link: https://www.instagram.com/redpandasingapore/
+photo.4.tags: paws, portrait, whiskers
+photo.5: ig://CXsamr0pCuo/m
+photo.5.author: redpandasingapore
+photo.5.commitdate: 2022/1/4
+photo.5.link: https://www.instagram.com/redpandasingapore/
+photo.5.tags: apple time, paws, portrait, smile, tail
+photo.6: ig://CimcHZvp3V8/m
+photo.6.author: redpandasingapore
+photo.6.commitdate: 2022/9/18
+photo.6.link: https://www.instagram.com/redpandasingapore/
+photo.6.tags: portrait, sample, tree
+species: 1
+zoo: 205

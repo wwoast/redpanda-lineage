@@ -1,0 +1,33 @@
+[panda]
+_id: 790
+birthday: 2006/6/30
+birthplace: 116
+children: 555, 581, 833
+commitdate: 2019/4/3
+death: 2017/12/4
+en.name: Firecracker
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 爆竹
+jp.nicknames: none
+jp.othernames: ばくちく
+language.order: en, jp
+litter: 789
+location.1: 116, 2006/6/30
+location.2: 105, 2009/2/19
+location.3: 118, 2009/11/23
+location.4: 107, 2016/12/1
+photo.1: ig://B74AyxkDA1R/m
+photo.1.author: greenvillezoo
+photo.1.commitdate: 2021/4/29
+photo.1.link: https://www.instagram.com/greenvillezoo/
+photo.1.tags: whiskers
+photo.2: ig://CVtYEajLjPf/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2021/11/15
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: whiskers
+species: 1
+studbook.id: 0624
+zoo: 107

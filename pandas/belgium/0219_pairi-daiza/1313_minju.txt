@@ -1,0 +1,41 @@
+[panda]
+_id: 1313
+birthday: 2021/7/22
+birthplace: 219
+children: none
+commitdate: 2021/9/1
+death: 2021/12/17
+en.name: Minju
+en.nicknames: none
+en.othernames: none
+fr.name: Minju
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: ミンジュ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, en, jp
+litter: 1312
+photo.1: ig://CUFSMKes6PK/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2021/9/25
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: baby, mofumofu, white face
+photo.2: ig://CUNi8cvNCZP/m
+photo.2.author: mirellad03
+photo.2.commitdate: 2021/9/25
+photo.2.link: https://www.instagram.com/mirellad03/
+photo.2.tags: baby, mofumofu, white face
+photo.3: ig://CWy6JWJM5CF/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2021/12/21
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, bamboo, mofumofu, paws, portrait, tail
+photo.4: ig://CXA8B9aMGkX/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2021/12/21
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: baby, bamboo, bite, portrait, profile, white face
+species: 1
+zoo: 219

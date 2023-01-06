@@ -1,0 +1,42 @@
+[panda]
+_id: 1385
+birthday: 2022/6/4
+birthplace: 80
+children: none
+commitdate: 2022/8/18
+en.name: Betty
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ベティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://ChXerWNsKwR/m
+photo.1.author: lincolnchildrenszoo
+photo.1.commitdate: 2022/8/18
+photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.1.tags: baby, mofumofu, portrait, profile, sample
+photo.2: ig://Chhiz1csl4k/m
+photo.2.author: lincolnchildrenszoo
+photo.2.commitdate: 2022/8/26
+photo.2.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.2.tags: baby, mofumofu, portrait, sample, whiskers
+photo.3: ig://ChzkWFDM55k/m
+photo.3.author: lincolnchildrenszoo
+photo.3.commitdate: 2022/9/4
+photo.3.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.3.tags: baby, door, home, mofumofu, portrait, sample
+photo.4: ig://Cjkz3rxt2Q0/m
+photo.4.author: lincolnchildrenszoo
+photo.4.commitdate: 2022/10/14
+photo.4.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.4.tags: baby, bamboo, portrait, sample
+photo.5: ig://Cj1IADdvXkE/m
+photo.5.author: carsontheredpanda
+photo.5.commitdate: 2022/11/4
+photo.5.link: https://www.instagram.com/carsontheredpanda/
+photo.5.tags: baby, home, portrait, sample, toys, whiskers
+species: 2
+zoo: 80

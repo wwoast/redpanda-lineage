@@ -1,0 +1,32 @@
+[panda]
+_id: 303
+birthday: 2002/7/2
+birthplace: 17
+children: 11, 111, 265, 55, 56
+commitdate: 2018/8/12
+death: 2010/11/30
+en.name: Katsuo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カツオ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 309
+location.1: 17, 2002/7/2
+location.2: 1, 2003/6/18
+location.3: 4, 2009/1/26
+photo.1: https://www.codaworry.com/images/rpf/katsuo-1-ichikawa.jpg
+photo.1.author: simasima_sippo
+photo.1.commitdate: 2020/12/13
+photo.1.link: http://petitpan.blog.fc2.com/
+photo.1.tags: close-up, whiskers
+photo.2: https://www.codaworry.com/images/rpf/katsuo-1-yumemigasaki.jpg
+photo.2.author: simasima_sippo
+photo.2.commitdate: 2020/12/13
+photo.2.link: http://petitpan.blog.fc2.com/
+photo.2.tags: dish, paws
+species: 2
+studbook.id: 0276
+zoo: 4

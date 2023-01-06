@@ -1,0 +1,18 @@
+[media]
+_id: media.196.rourou-taishan
+commitdate: 2019/7/18
+panda.tags: 930, 931
+photo.1: ig://Bzk_snnHapm/m
+photo.1.author: redpanda_tata
+photo.1.commitdate: 2019/7/18
+photo.1.link: https://www.instagram.com/redpanda_tata/
+photo.1.tags: bridge, paws
+photo.1.tags.930.location: 225, 205
+photo.1.tags.931.location: 70, 75
+photo.2: ig://B62y6OVBWeI/m
+photo.2.author: redpanda_tata
+photo.2.commitdate: 2020/1/11
+photo.2.link: https://www.instagram.com/redpanda_tata/
+photo.2.tags: keeper, paws, whiskers
+photo.2.tags.930.location: 225, 145
+photo.2.tags.931.location: 95, 75

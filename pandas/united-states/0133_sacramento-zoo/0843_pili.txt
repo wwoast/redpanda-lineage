@@ -1,0 +1,65 @@
+[panda]
+_id: 843
+birthday: 2011/6/17
+birthplace: 49
+children: 697, 1228
+commitdate: 2019/4/15
+en.name: Pili
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ピリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 844
+location.1: 49, 2011/6/17
+location.2: 133, 2012/3/29
+photo.1: ig://B3lSYCRgeEP/m
+photo.1.author: mikezots
+photo.1.commitdate: 2019/11/1
+photo.1.link: https://www.instagram.com/mikezots/
+photo.1.tags: portrait, profile
+photo.2: ig://B4Q8sJzgj9I/m
+photo.2.author: edcaspersen
+photo.2.commitdate: 2019/11/1
+photo.2.link: https://www.instagram.com/edcaspersen/
+photo.2.tags: paws, portrait, tree, white face
+photo.3: ig://B80QX_yAeNH/m
+photo.3.author: ohmygoat1
+photo.3.commitdate: 2020/3/18
+photo.3.link: https://www.instagram.com/ohmygoat1/
+photo.3.tags: bridge, laying down, paws, tongue
+photo.4: ig://B-LnWbwghfR/m
+photo.4.author: ohmygoat1
+photo.4.commitdate: 2020/3/29
+photo.4.link: https://www.instagram.com/ohmygoat1/
+photo.4.tags: paws, portrait, tree, whiskers
+photo.5: ig://CHGducwFJme/m
+photo.5.author: sacramentozoo
+photo.5.commitdate: 2021/3/18
+photo.5.link: https://www.instagram.com/sacramentozoo/
+photo.5.tags: bridge, laying down, paws
+photo.6: ig://CJh1RqeAXIK/m
+photo.6.author: ohmygoat1
+photo.6.commitdate: 2021/1/8
+photo.6.link: https://www.instagram.com/ohmygoat1/
+photo.6.tags: mofumofu, tail, white face
+photo.7: ig://CLI3ev0BxbA/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2022/3/13
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: close-up, portrait, sample, whiskers, white face
+photo.8: ig://sacramentozoo/CSeync0DN4g/m
+photo.8.author: sacramentozoo
+photo.8.commitdate: 2022/2/18
+photo.8.link: https://www.instagram.com/sacramentozoo/
+photo.8.tags: laying down, paws, whiskers, white face
+photo.9: ig://CXRNQ75r7DP/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2022/4/8
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: tail, white face
+species: 1
+studbook.id: 1120
+zoo: 133

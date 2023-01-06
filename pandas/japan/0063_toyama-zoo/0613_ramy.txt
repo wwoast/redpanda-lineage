@@ -1,0 +1,27 @@
+[panda]
+_id: 613
+birthday: 2002/7/12
+birthplace: 63
+children: none
+commitdate: 2019/3/19
+death: 2016/11/1
+en.name: Ramy
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラミー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 63, 2002/7/12
+location.2: 74, 2004/3/1
+location.3: 63, 2010/2/12
+photo.1: ig://BLWVwKDjp9K/m
+photo.1.author: apple_jasmine33
+photo.1.commitdate: 2020/5/4
+photo.1.link: https://www.instagram.com/apple_jasmine33/
+photo.1.tags: bamboo, nose, portrait, profile
+species: 2
+studbook.id: 0278
+zoo: 63

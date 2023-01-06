@@ -1,0 +1,21 @@
+[panda]
+_id: 837
+birthday: 2007/6/23
+birthplace: 141
+children: none
+commitdate: 2019/4/8
+death: 2011/3/29
+en.name: Rocky
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ロッキー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 836
+location.1: 141, 2007/6/23
+location.2: 189, 2008/4/28
+species: 1
+studbook.id: 0704
+zoo: 189

@@ -1,0 +1,37 @@
+[zoo]
+_id: 219
+commitdate: 2019/11/13
+en.address: Domaine de Cambron, 7940 Brugelette, Belgium
+en.location: Cambron, Brugelette, Belgium
+en.name: Pairi Daiza
+flag: Belgium
+fr.address: Domaine de Cambron, 7940 Brugelette, Belgium
+fr.location: Cambron, Brugelette, Belgium
+fr.name: Jardin Des Mondes
+fr.othernames: Parc Paradisio SA
+language.order: fr, en
+latitude: 50.585112
+longitude: 3.8820805
+map: https://g.page/JardinDesMondes?share
+photo.1: ig://BvJ9eO0nzhX/m
+photo.1.author: pairidaizaofficial
+photo.1.commitdate: 2019/11/21
+photo.1.link: https://www.instagram.com/pairidaizaofficial/
+photo.2: ig://Bij7salDx1x/m
+photo.2.author: pairidaizaofficial
+photo.2.commitdate: 2019/11/21
+photo.2.link: https://www.instagram.com/pairidaizaofficial/
+photo.3: ig://BhbwdSegCSH/m
+photo.3.author: pairidaizaofficial
+photo.3.commitdate: 2019/11/21
+photo.3.link: https://www.instagram.com/pairidaizaofficial/
+photo.4: ig://BgbJ1F4FVsh/m
+photo.4.author: pairidaizaofficial
+photo.4.commitdate: 2019/11/21
+photo.4.link: https://www.instagram.com/pairidaizaofficial/
+photo.5: ig://BE8ixGmxCO3/m
+photo.5.author: pairidaizaofficial
+photo.5.commitdate: 2019/11/21
+photo.5.link: https://www.instagram.com/pairidaizaofficial/
+photo.5.tags: profile
+website: https://www.pairidaiza.eu/en

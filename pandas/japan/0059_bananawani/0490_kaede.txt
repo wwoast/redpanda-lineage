@@ -1,0 +1,24 @@
+[panda]
+_id: 490
+birthday: 2000/7/6
+birthplace: 59
+children: none
+commitdate: 2018/12/15
+death: 2017/12/22
+en.name: Kaede
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: かえで
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 611
+photo.1: ig://Bc_eQ81Bdyn/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2019/10/31
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: paws, tail, white face
+species: 1
+studbook.id: 0078
+zoo: 59

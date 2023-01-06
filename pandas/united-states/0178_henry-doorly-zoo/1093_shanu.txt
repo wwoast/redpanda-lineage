@@ -1,0 +1,30 @@
+[panda]
+_id: 1093
+birthday: 2019/7/17
+birthplace: 126
+children: none
+commitdate: 2020/1/20
+en.name: Shanu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シャヌ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1094
+location.1: 126, 2019/7/17
+location.2: 178, 2021/9/1
+photo.1: ig://B5qyuHtpMEZ/m
+photo.1.author: leerichardsonzoo
+photo.1.commitdate: 2020/1/20
+photo.1.link: https://www.instagram.com/leerichardsonzoo/
+photo.1.tags: baby, bamboo, portrait
+photo.2: ig://CVTacUQhtLZ/m
+photo.2.author: theomahazoo
+photo.2.commitdate: 2022/3/13
+photo.2.link: https://www.instagram.com/redpandanetwork/
+photo.2.tags: close-up, portrait, smile, tongue, whiskers
+species: 1
+uncertainty: location.2 arrival (9/20 was news release)
+zoo: 178

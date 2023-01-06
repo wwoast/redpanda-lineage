@@ -1,0 +1,16 @@
+[zoo]
+_id: 248
+commitdate: 2020/5/7
+de.address: An der Crivitzer Chaussee 1, 19061 Schwerin, Germany
+de.location: Schwerin, Germany
+de.name: Zoo Schwerin
+de.othernames: Zoologischer Garten Schwerin
+en.address: An der Crivitzer Chaussee 1, 19061 Schwerin, Germany
+en.location: Schwerin, Germany
+en.name: Schwerin Zoo
+flag: Germany
+language.order: de, en
+latitude: 53.6058013
+longitude: 11.437349
+map: https://goo.gl/maps/bnXANJXY5T2kfmJ87
+website: https://www.zoo-schwerin.de/

@@ -1,0 +1,108 @@
+[panda]
+_id: 795
+birthday: 2000/6/9
+birthplace: 108
+children: none
+commitdate: 2019/4/3
+death: 2013/5/14
+en.name: Shandy
+en.nicknames: none
+en.othernames: Shandi
+gender: f
+jp.name: シャンディ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 675, 794
+location.1: 108, 2000/6/9
+location.2: 185, 2001/3/30
+location.3: 113, 2005/12/29
+location.4: 85, 2008/10/23
+photo.1: https://www.codaworry.com/images/rpf/shandy-1-atlanta.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/13
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bamboo, white face
+photo.2: https://www.codaworry.com/images/rpf/shandy-2-atlanta.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/13
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo, home
+photo.3: https://www.codaworry.com/images/rpf/shandy-3-atlanta.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/13
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tail, tree
+photo.4: https://www.codaworry.com/images/rpf/shandy-4-atlanta.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/13
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: tail, tree
+photo.5: https://www.codaworry.com/images/rpf/shandy-5-atlanta.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/13
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: techitechi, white face
+photo.6: https://www.codaworry.com/images/rpf/shandy-6-atlanta.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/13
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: white face
+photo.7: https://www.codaworry.com/images/rpf/shandy-7-atlanta.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/13
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: home, white face
+photo.8: https://www.codaworry.com/images/rpf/shandy-8-atlanta.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/4/13
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: home, white face
+photo.9: https://www.codaworry.com/images/rpf/shandy-9-atlanta.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2019/4/13
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: home, white face
+photo.10: https://www.codaworry.com/images/rpf/shandy-10-atlanta.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2019/4/13
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: home, profile, white face
+photo.11: https://www.codaworry.com/images/rpf/shandy-11-atlanta.jpg
+photo.11.author: worldthathesees
+photo.11.commitdate: 2019/4/13
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: tree, white face
+photo.12: https://www.codaworry.com/images/rpf/shandy-12-atlanta.jpg
+photo.12.author: worldthathesees
+photo.12.commitdate: 2019/4/13
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: home, white face
+photo.13: https://www.codaworry.com/images/rpf/shandy-13-atlanta.jpg
+photo.13.author: worldthathesees
+photo.13.commitdate: 2019/4/13
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: bamboo, white face
+photo.14: https://www.codaworry.com/images/rpf/shandy-14-atlanta.jpg
+photo.14.author: worldthathesees
+photo.14.commitdate: 2019/4/13
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: sleeping, white face
+photo.15: https://www.codaworry.com/images/rpf/shandy-15-atlanta.jpg
+photo.15.author: worldthathesees
+photo.15.commitdate: 2019/4/13
+photo.15.link: https://www.instagram.com/worldthathesees/
+photo.15.tags: bamboo, laying down, white face
+photo.16: https://www.codaworry.com/images/rpf/shandy-16-atlanta.jpg
+photo.16.author: worldthathesees
+photo.16.commitdate: 2019/4/13
+photo.16.link: https://www.instagram.com/worldthathesees/
+photo.16.tags: smile, tree, white face
+photo.17: https://www.codaworry.com/images/rpf/shandy-17-atlanta.jpg
+photo.17.author: uncredited
+photo.17.commitdate: 2020/6/26
+photo.17.link: https://www.google.com
+photo.17.tags: laying down, tree, white face
+species: 1
+studbook.id: 0003
+zoo: 85

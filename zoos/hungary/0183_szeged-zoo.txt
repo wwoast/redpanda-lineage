@@ -1,0 +1,29 @@
+[zoo]
+_id: 183
+commitdate: 2019/3/25
+en.address: Szeged, Cserepes sor 47, 6725 Hungary
+en.location: Szeged, Hungary
+en.name: Szeged Zoo
+flag: Hungary
+hu.address: Szeged, Cserepes sor 47, 6725 Hungary
+hu.location: Szeged, Hungary
+hu.name: Szeged Zoo
+hu.othernames: Szegedi Állatkert Zoo
+language.order: hu, en
+latitude: 46.251715
+longitude: 20.1095553
+map: https://goo.gl/maps/C9wF2wMo39A2
+photo.1: ig://BlPwStMAj6D/m
+photo.1.author: esztellllllaaa
+photo.1.commitdate: 2019/11/7
+photo.1.link: https://www.instagram.com/esztellllllaaa/
+photo.2: ig://BpVBOuiiZNS/m
+photo.2.author: esutus
+photo.2.commitdate: 2019/11/7
+photo.2.link: https://www.instagram.com/esutus/
+photo.2.tags: profile
+photo.3: ig://BzLLRwiJIAo/m
+photo.3.author: szegedzoo
+photo.3.commitdate: 2019/11/7
+photo.3.link: https://www.instagram.com/szegedzoo/
+website: http://zooszeged.hu/

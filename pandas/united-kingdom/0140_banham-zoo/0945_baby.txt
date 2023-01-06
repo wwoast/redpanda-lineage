@@ -1,0 +1,27 @@
+[panda]
+_id: 945
+birthday: 2018/7/1
+birthplace: 140
+children: unknown
+commitdate: 2019/7/15
+en.name: (no-name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://Bn-p-d7AKCS/m
+photo.1.author: zseabanhamzoo
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/zseabanhamzoo/
+photo.1.tags: baby
+photo.2: ig://BptpShFgVi9/m
+photo.2.author: zseabanhamzoo
+photo.2.commitdate: 2019/7/15
+photo.2.link: https://www.instagram.com/zseabanhamzoo/
+photo.2.tags: bamboo, profile
+species: 1
+zoo: 140

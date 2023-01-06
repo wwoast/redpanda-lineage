@@ -1,0 +1,199 @@
+[panda]
+_id: 124
+birthday: 2011/7/17
+birthplace: 13
+children: 149, 225, 226, 233, 234, 235, 236
+commitdate: 2018/6/26
+death: 2021/8/22
+en.name: Charmin
+en.nicknames: none
+en.othernames: Cha-Min, Cha-min
+gender: m
+jp.name: チャーミン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 2011/7/17
+location.2: 37, 2014/2/3
+photo.1: ig://BYiy8n_A258/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/5/2
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: bridge, laying down, paws, sleeping
+photo.2: ig://Bb9GLedFJIS/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/12/23
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: bamboo, portrait, snow
+photo.3: ig://BgbGDOEFH93/m
+photo.3.author: mifko55
+photo.3.commitdate: 2018/8/20
+photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: portrait, profile, snow
+photo.4: ig://Bl0KFWwFAeL/m
+photo.4.author: leonard_redmof
+photo.4.commitdate: 2018/8/20
+photo.4.link: https://www.instagram.com/leonard_redmof/
+photo.4.tags: bamboo, portrait
+photo.5: ig://BoRAgQ8F6by/m
+photo.5.author: miis_98
+photo.5.commitdate: 2018/9/30
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: paws, portrait
+photo.6: ig://BobjBkel7WT/m
+photo.6.author: miis_98
+photo.6.commitdate: 2020/4/1
+photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: standing, tail, upside-down
+photo.7: ig://Bqeqxz5F_rD/m
+photo.7.author: fetorus_mami
+photo.7.commitdate: 2018/11/22
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: snow
+photo.8: ig://BqyH7TnlsC2/m
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2018/11/30
+photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.8.tags: laying down, paws, upside-down
+photo.9: ig://BrICINylwN2/m
+photo.9.author: fetorus_mami
+photo.9.commitdate: 2018/12/9
+photo.9.link: https://www.instagram.com/fetorus_mami/
+photo.9.tags: bamboo
+photo.10: ig://BtlOAGiln4b/m
+photo.10.author: asahiyamazoo1
+photo.10.commitdate: 2019/6/13
+photo.10.link: https://www.instagram.com/asahiyamazoo1/
+photo.10.tags: portrait, snow, standing
+photo.11: ig://B0BMBZTBfAA/m
+photo.11.author: leonard_redmof
+photo.11.commitdate: 2019/7/18
+photo.11.link: https://www.instagram.com/leonard_redmof/
+photo.11.tags: grooming, portrait, tail
+photo.12: ig://B22mLWMBGQe/m
+photo.12.author: sasapan34
+photo.12.commitdate: 2019/9/28
+photo.12.link: https://www.instagram.com/sasapan34/
+photo.12.tags: air tasting, bamboo, tongue
+photo.13: ig://B6ad4HlhI0u/m
+photo.13.author: komabazoophoto
+photo.13.commitdate: 2019/12/30
+photo.13.link: https://www.instagram.com/komabazoophoto/
+photo.13.tags: laying down, portrait, sleeping, tail
+photo.14: ig://B9LNakuB_QW/m
+photo.14.author: sasapan34
+photo.14.commitdate: 2020/3/6
+photo.14.link: https://www.instagram.com/sasapan34/
+photo.14.tags: paws, snow
+photo.15: ig://B_fZvdUn2G_/m
+photo.15.author: sasapan34
+photo.15.commitdate: 2020/5/7
+photo.15.link: https://www.instagram.com/sasapan34/
+photo.15.tags: bamboo, paws
+photo.16: ig://CCyJq8bBFYM/m
+photo.16.author: leonard_redmof
+photo.16.commitdate: 2020/7/24
+photo.16.link: https://www.instagram.com/leonard_redmof/
+photo.16.tags: apple time, paws, portrait, snow
+photo.17: ig://CJ2ct4KBtq8/m
+photo.17.author: asahiyamazoo1
+photo.17.commitdate: 2021/4/3
+photo.17.link: https://www.instagram.com/asahiyamazoo1/
+photo.17.tags: peek, snow, videolink
+photo.18: ig://CKlJ9WRhzAU/m
+photo.18.author: sasapan34
+photo.18.commitdate: 2021/4/22
+photo.18.link: https://www.instagram.com/sasapan34/
+photo.18.tags: lunch time, tongue
+photo.19: ig://CLMTeGYhA8I/m
+photo.19.author: sasapan34
+photo.19.commitdate: 2021/4/22
+photo.19.link: https://www.instagram.com/sasapan34/
+photo.19.tags: lunch time, mofumofu, snow
+photo.20: ig://COEjBE0Bi5u/m
+photo.20.author: sasapan34
+photo.20.commitdate: 2021/5/21
+photo.20.link: https://www.instagram.com/sasapan34/
+photo.20.tags: bamboo, smile
+photo.21: ig://CRZ6I-ZBXKA/m
+photo.21.author: sasapan34
+photo.21.commitdate: 2021/7/18
+photo.21.link: https://www.instagram.com/sasapan34/
+photo.21.tags: keeper, lunch time
+photo.22: ig://CRqYej-hMvL/m
+photo.22.author: sasapan34
+photo.22.commitdate: 2021/8/2
+photo.22.link: https://www.instagram.com/sasapan34/
+photo.22.tags: toys
+photo.23: ig://CR93dFfhX5J/m
+photo.23.author: sasapan34
+photo.23.commitdate: 2021/8/18
+photo.23.link: https://www.instagram.com/sasapan34/
+photo.23.tags: smile, tail
+photo.24: ig://CSspbtrhege/m
+photo.24.author: hamiiiii831_
+photo.24.commitdate: 2021/8/18
+photo.24.link: https://www.instagram.com/hamiiiii831_/
+photo.24.tags: paws, smile, standing, toys
+photo.25: ig://CS8eLNKht2r/m
+photo.25.author: asahiyamazoo1
+photo.25.commitdate: 2021/8/24
+photo.25.link: https://www.instagram.com/asahiyamazoo1/
+photo.25.tags: smile
+photo.26: ig://CS9Ia1hBLf2/m
+photo.26.author: framereim
+photo.26.commitdate: 2021/9/1
+photo.26.link: https://www.instagram.com/framereim/
+photo.26.tags: laying down, smile, tongue
+photo.27: ig://CS9YPuShaAJ/m
+photo.27.author: nakacchi_desu
+photo.27.commitdate: 2021/9/1
+photo.27.link: https://www.instagram.com/nakacchi_desu/
+photo.27.tags: paws, toys
+photo.28: ig://CS-WZABpAr6/m
+photo.28.author: sasapan34
+photo.28.commitdate: 2021/9/1
+photo.28.link: https://www.instagram.com/sasapan34/
+photo.28.tags: smile
+photo.29: ig://CTYQ-9AJUaX/m
+photo.29.author: wumpwoast
+photo.29.commitdate: 2021/9/7
+photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.tags: autumn, paws, portrait, tail
+photo.30: ig://CTdRbtepz6t/m
+photo.30.author: sasapan34
+photo.30.commitdate: 2021/9/7
+photo.30.link: https://www.instagram.com/sasapan34/
+photo.30.tags: bamboo
+photo.31: ig://CV9jL-1hfeH/m
+photo.31.author: sasapan34
+photo.31.commitdate: 2022/3/4
+photo.31.link: https://www.instagram.com/sasapan34/
+photo.31.tags: apple time, peek, snow
+photo.32: ig://CYJMNlLvheT/m
+photo.32.author: mifko55
+photo.32.commitdate: 2022/7/13
+photo.32.link: https://www.instagram.com/mifko55/
+photo.32.tags: paws, playing, portrait, smile, snow, standing
+photo.33: ig://CaWH_LnvTWg/m
+photo.33.author: sasapan34
+photo.33.commitdate: 2022/3/28
+photo.33.link: https://www.instagram.com/sasapan34/
+photo.33.tags: paws, standing, tail
+photo.34: ig://Cd3DqG5pkiv/m
+photo.34.author: sasapan34
+photo.34.commitdate: 2022/8/25
+photo.34.link: https://www.instagram.com/sasapan34/
+photo.34.tags: apple time, bite, blink, keeper
+photo.35: ig://ChjO3uouvce/m
+photo.35.author: sasapan34
+photo.35.commitdate: 2022/8/31
+photo.35.link: https://www.instagram.com/sasapan34/
+photo.35.tags: peek, sample
+species: 2
+studbook.id: 11108
+video.1: https://youtu.be/T0UIB96RKQI
+video.1.author: harry
+video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
+zoo: 37

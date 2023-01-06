@@ -1,0 +1,21 @@
+[panda]
+_id: 706
+birthday: 1995/7/2
+birthplace: 41
+children: none
+commitdate: 2019/3/27
+death: 2009/4/4
+en.name: Koro-Koro
+en.nicknames: none
+en.othernames: Korokoro
+gender: m
+jp.name: コロコロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 41, 1995/7/2
+location.2: 32, 1999/11/4
+species: 2
+studbook.id: 95102
+zoo: 32

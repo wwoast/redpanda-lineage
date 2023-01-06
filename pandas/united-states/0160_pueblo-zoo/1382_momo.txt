@@ -1,0 +1,18 @@
+[panda]
+_id: 1382
+birthday: 2021/6/18
+birthplace: 160
+children: none
+commitdate: 2022/8/1
+en.name: Momo
+en.nicknames: none
+en.othernames: 
+gender: f
+jp.name: モモ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1381
+species: 1
+uncertainty: birthday may be 6/19
+zoo: 160

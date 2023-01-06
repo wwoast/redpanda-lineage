@@ -1,0 +1,23 @@
+[panda]
+_id: 895
+birthday: 2010/6/14
+birthplace: 76
+children: none
+commitdate: 2019/6/23
+death: 2011/10/17
+en.name: Meris
+en.nicknames: none
+en.oldnames: Steele
+en.othernames: none
+gender: f
+jp.name: めりさ
+jp.nicknames: none
+jp.oldnames: スチール
+jp.othernames: none
+language.order: en, jp
+litter: 401
+location.1: 76, 2010/6/14
+location.2: 43, 2011/6/21
+species: 2
+studbook.id: 1007
+zoo: 43

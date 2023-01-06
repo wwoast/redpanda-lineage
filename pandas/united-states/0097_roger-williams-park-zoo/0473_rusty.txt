@@ -1,0 +1,31 @@
+[panda]
+_id: 473
+birthday: 2005/5/16
+birthplace: 76
+children: 413, 414, 415
+commitdate: 2018/12/4
+en.name: Rusty
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラスティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 590
+location.1: 76, 2005/5/16
+location.2: 83, 2006/10/31
+location.3: 97, 2014/12/11
+photo.1: ig://B6Lfd6NHnkL/m
+photo.1.author: rwpzoo
+photo.1.commitdate: 2020/1/18
+photo.1.link: https://www.instagram.com/rwpzoo/
+photo.1.tags: lunch time, mofumofu, smile, whiskers
+photo.2: ig://CBiYY76nQ7W/m
+photo.2.author: rwpzoo
+photo.2.commitdate: 2020/11/6
+photo.2.link: https://www.instagram.com/rwpzoo/
+photo.2.tags: close-up, lunch-time, smile, tail, whiskers
+species: 2
+studbook.id: 0500
+zoo: 97

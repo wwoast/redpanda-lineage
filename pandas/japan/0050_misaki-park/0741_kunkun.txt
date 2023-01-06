@@ -1,0 +1,22 @@
+[panda]
+_id: 741
+birthday: 1993/7/17
+birthplace: 40
+children: none
+commitdate: 2019/3/27
+death: 2001/4/21
+en.name: Kun-Kun
+en.nicknames: none
+en.othernames: Kunkun
+gender: m
+jp.name: くンくン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 742
+location.1: 40, 1993/7/17
+location.2: 19, 1994/11/14
+location.3: 50, 1999/10/16
+species: 2
+studbook.id: 93108
+zoo: 50

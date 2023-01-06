@@ -1,0 +1,25 @@
+[zoo]
+_id: 188
+commitdate: 2019/4/7
+en.address: 300 Parkside Ave, Buffalo, NY 14214
+en.location: Buffalo, New York, USA
+en.name: Buffalo Zoo
+flag: USA
+language.order: en
+latitude: 42.9353009
+longitude: -78.8619732
+map: https://goo.gl/maps/3pjPqJH5rJp
+photo.1: ig://BrpuvnLnY_Z/m
+photo.1.author: buffalo_zoo
+photo.1.commitdate: 2020/4/25
+photo.1.link: https://www.instagram.com/buffalo_zoo/
+photo.1.tags: profile
+photo.2: ig://Btd_k6zH5yO/m
+photo.2.author: buffalo_zoo
+photo.2.commitdate: 2020/4/25
+photo.2.link: https://www.instagram.com/buffalo_zoo/
+photo.3: ig://B9rfnlrngCv/m
+photo.3.author: buffalo_zoo
+photo.3.commitdate: 2020/4/25
+photo.3.link: https://www.instagram.com/buffalo_zoo/
+website: https://buffalozoo.org/

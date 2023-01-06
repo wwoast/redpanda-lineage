@@ -1,0 +1,29 @@
+[zoo]
+_id: 215
+commitdate: 2019/11/1
+en.address: College Rd, Bristol BS8 3HA, United Kingdom
+en.location: Bristol, UK
+en.name: Bristol Zoological Gardens
+flag: UK
+language.order: en
+latitude: 51.4637269
+longitude: -2.6241997
+map: https://goo.gl/maps/y4LPjAf61fM5z3CT6
+photo.1: ig://CQashKwgpdv/m
+photo.1.author: bristolzoo
+photo.1.commitdate: 2022/2/10
+photo.1.link: https://www.instagram.com/bristolzoo/
+photo.2: ig://COc7jD8nSb7/m
+photo.2.author: bristolzoo
+photo.2.commitdate: 2022/2/10
+photo.2.link: https://www.instagram.com/bristolzoo/
+photo.3: ig://B8_seQHA9Oe/m
+photo.3.author: bristolzoo
+photo.3.commitdate: 2022/2/10
+photo.3.link: https://www.instagram.com/bristolzoo/
+photo.4: ig://BmsvXGIH6mq/m
+photo.4.author: bristolzoo
+photo.4.commitdate: 2022/2/10
+photo.4.link: https://www.instagram.com/bristolzoo/
+photo.4.tags: profile
+website: https://www.bristolzoo.org.uk

@@ -1,0 +1,16 @@
+[zoo]
+_id: 108
+commitdate: 2018/12/27
+en.address: 3500 Knoxville Zoo Dr, Knoxville, TN 37914
+en.location: Knoxville, Tennessee, USA
+en.name: Zoo Knoxville
+flag: USA
+language.order: en
+latitude: 35.9984181
+longitude: -83.8940029
+map: https://goo.gl/maps/vnLPRS8bNrK2
+photo.1: ig://Bjr44gbHVT8/m
+photo.1.author: zooknoxville
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/zooknoxville/
+website: https://www.zooknoxville.org/

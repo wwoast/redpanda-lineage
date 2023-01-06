@@ -1,0 +1,25 @@
+[zoo]
+_id: 136
+commitdate: 2019/3/2
+en.address: Rusham Rd, Wingham, Canterbury CT3 1JL, UK
+en.location: Wingham, Canterbury, UK
+en.name: Wingham Wildlife Park
+flag: UK
+language.order: en
+latitude: 51.280525
+longitude: 1.212052
+map: https://goo.gl/maps/F4dJmeSXfZC2
+photo.1: ig://Bt_if9SgXdy/m
+photo.1.author: emmesswildlife
+photo.1.commitdate: 2019/7/8
+photo.1.link: https://www.instagram.com/emmesswildlife/
+photo.2: ig://Bp-utEjh7iO/m
+photo.2.author: cgwp99
+photo.2.commitdate: 2019/7/8
+photo.2.link: https://www.instagram.com/cgwp99/
+photo.3: ig://BiMqf0BgbWA/m
+photo.3.author: winghamwildlifepark
+photo.3.commitdate: 2019/7/8
+photo.3.link: https://www.instagram.com/winghamwildlifepark/
+photo.3.tags: profile
+website: http://winghamwildlifepark.co.uk/

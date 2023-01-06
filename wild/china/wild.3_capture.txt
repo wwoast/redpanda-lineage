@@ -1,0 +1,11 @@
+[wild]
+_id: wild.3
+commitdate: 2019/1/1
+en.address: unknown
+en.location: China
+en.name: Captured Wild Animal
+flag: China
+jp.address: unknown
+jp.location: 漢
+jp.name: 捕獲された野生動物
+language.order: en

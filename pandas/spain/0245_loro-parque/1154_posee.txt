@@ -1,0 +1,27 @@
+[panda]
+_id: 1154
+birthday: 2014/7/16
+birthplace: 214
+children: unknown
+commitdate: 2020/5/3
+en.name: Posee
+en.nicknames: none
+en.othernames: none
+es.name: Posee
+es.nicknames: none
+es.othernames: none
+gender: f
+jp.name: ポセイ
+jp.nicknames: none
+jp.othernames: none
+language.order: es, en, jp
+litter: 1153
+location.1: 214, 2014/7/16
+location.2: 245, 2015/10/8
+photo.1: ig://BnwRMheH-j-/m
+photo.1.author: loroparque
+photo.1.commitdate: 2020/5/4
+photo.1.link: https://www.instagram.com/loroparque/
+photo.1.tags: paws, portrait, profile, tree
+species: 1
+zoo: 245

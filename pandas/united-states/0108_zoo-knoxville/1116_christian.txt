@@ -1,0 +1,18 @@
+[panda]
+_id: 1116
+birthday: 1991/6/16
+birthplace: 108
+children: none
+commitdate: 2020/3/8
+death: 1992/12/15
+en.name: Christian
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クリスチャン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1115
+species: 1
+zoo: 108

@@ -1,0 +1,413 @@
+[panda]
+_id: 183
+birthday: 2015/8/23
+birthplace: 31
+children: 1291
+commitdate: 2018/7/24
+en.name: Sun
+en.nicknames: none
+en.othernames: San
+gender: f
+jp.name: サン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 73
+photo.1: ig://BS8mehtBeMC/m
+photo.1.author: perie1027vivi
+photo.1.commitdate: 2018/7/24
+photo.1.link: https://www.instagram.com/perie1027vivi/
+photo.1.tags: grooming, portrait
+photo.2: ig://Bb8YCUchSq2/m
+photo.2.author: 8a8i8
+photo.2.commitdate: 2018/7/24
+photo.2.link: https://www.instagram.com/8a8i8/
+photo.2.tags: portrait
+photo.3: ig://BkxSCJkFouZ/m
+photo.3.author: a.mikaami
+photo.3.commitdate: 2018/11/27
+photo.3.link: https://www.instagram.com/a.mikaami/
+photo.3.tags: portrait, sleeping, tongue
+photo.4: ig://BnlOJDoDUBi/m
+photo.4.author: bee_san.13
+photo.4.commitdate: 2018/11/18
+photo.4.link: https://www.instagram.com/bee_san.13/
+photo.4.tags: portrait, smile
+photo.5: ig://Bp64G7RFLow/m
+photo.5.author: bee_san.13
+photo.5.commitdate: 2018/11/27
+photo.5.link: https://www.instagram.com/bee_san.13/
+photo.5.tags: home, portrait, smile
+photo.6: ig://Bqr0NYolvfh/m
+photo.6.author: bee_san.13
+photo.6.commitdate: 2018/11/27
+photo.6.link: https://www.instagram.com/bee_san.13/
+photo.6.tags: tree
+photo.7: ig://BqzL6vqld4w/m
+photo.7.author: bee_san.13
+photo.7.commitdate: 2018/11/30
+photo.7.link: https://www.instagram.com/bee_san.13/
+photo.7.tags: bridge
+photo.8: ig://BrSfyJHllpy/m
+photo.8.author: bee_san.13
+photo.8.commitdate: 2018/12/12
+photo.8.link: https://www.instagram.com/bee_san.13/
+photo.8.tags: bamboo
+photo.9: ig://BvOhEMUl5zB/m
+photo.9.author: bee_san.13
+photo.9.commitdate: 2019/3/21
+photo.9.link: https://www.instagram.com/bee_san.13/
+photo.9.tags: grooming, laying down, mofumofu, portrait, tongue
+photo.10: ig://BwEfosblg_E/m
+photo.10.author: bee_san.13
+photo.10.commitdate: 2019/4/11
+photo.10.link: https://www.instagram.com/bee_san.13/
+photo.10.tags: portrait
+photo.11: ig://BxyKbdAlj_U/m
+photo.11.author: rie_panda55
+photo.11.commitdate: 2019/5/31
+photo.11.link: https://www.instagram.com/rie_panda55/
+photo.11.tags: bridge, portrait, tail
+photo.12: ig://ByP24TpB7ee/m
+photo.12.author: bee_san.13
+photo.12.commitdate: 2019/6/3
+photo.12.link: https://www.instagram.com/bee_san.13/
+photo.12.tags: apple time, mofumofu, portrait
+photo.13: ig://ByXCGIOhZLM/m
+photo.13.author: na.mo.pan
+photo.13.commitdate: 2019/6/6
+photo.13.link: https://www.instagram.com/na.mo.pan/
+photo.13.tags: bridge, smile
+photo.14: ig://BzLGhjwBUma/m
+photo.14.author: bee_san.13
+photo.14.commitdate: 2019/6/28
+photo.14.link: https://www.instagram.com/bee_san.13/
+photo.14.tags: portrait, smile, wink
+photo.15: ig://Bz5VuGbB9hs/m
+photo.15.author: bee_san.13
+photo.15.commitdate: 2019/7/14
+photo.15.link: https://www.instagram.com/bee_san.13/
+photo.15.tags: grooming, portrait, tree
+photo.16: ig://B2IzZnlh6FF/m
+photo.16.author: bee_san.13
+photo.16.commitdate: 2019/9/10
+photo.16.link: https://www.instagram.com/bee_san.13/
+photo.16.tags: portrait, standing, tail
+photo.17: ig://B2I0H8QBk9S/m
+photo.17.author: bee_san.13
+photo.17.commitdate: 2019/9/10
+photo.17.link: https://www.instagram.com/bee_san.13/
+photo.17.tags: door, portrait, smile, tongue
+photo.18: ig://B3B9VzhhLVy/m
+photo.18.author: bee_san.13
+photo.18.commitdate: 2019/10/10
+photo.18.link: https://www.instagram.com/bee_san.13/
+photo.18.tags: portrait, smile, tail
+photo.19: ig://B3EkqMIhrkP/m
+photo.19.author: bee_san.13
+photo.19.commitdate: 2019/10/10
+photo.19.link: https://www.instagram.com/bee_san.13/
+photo.19.tags: portrait, tree, upside-down
+photo.20: ig://B3cKBR9BGTN/m
+photo.20.author: bee_san.13
+photo.20.commitdate: 2019/10/14
+photo.20.link: https://www.instagram.com/bee_san.13/
+photo.20.tags: bamboo, smile
+photo.21: ig://B38Dm2fBXZs/m
+photo.21.author: re_ichimaru
+photo.21.commitdate: 2019/10/22
+photo.21.link: https://www.instagram.com/re_ichimaru/
+photo.21.tags: portrait, smile
+photo.22: ig://B6F-rfWB-Cy/m
+photo.22.author: bee_san.13
+photo.22.commitdate: 2019/12/29
+photo.22.link: https://www.instagram.com/bee_san.13/
+photo.22.tags: apple time, keeper, portrait, whiskers
+photo.23: ig://B75iqzihUGI/m
+photo.23.author: bee_san.13
+photo.23.commitdate: 2020/2/3
+photo.23.link: https://www.instagram.com/bee_san.13/
+photo.23.tags: portrait, smile
+photo.24: ig://B8GdaxGBbgY/m
+photo.24.author: bee_san.13
+photo.24.commitdate: 2020/2/3
+photo.24.link: https://www.instagram.com/bee_san.13/
+photo.24.tags: portrait, techitechi
+photo.25: ig://B8RPAswhL4f/m
+photo.25.author: sasapan34
+photo.25.commitdate: 2020/2/10
+photo.25.link: https://www.instagram.com/sasapan34/
+photo.25.tags: paws, smile
+photo.26: ig://B8SXXXbhgS2/m
+photo.26.author: bee_san.13
+photo.26.commitdate: 2020/2/16
+photo.26.link: https://www.instagram.com/bee_san.13/
+photo.26.tags: apple time, keeper, portrait, standing, tail
+photo.27: ig://B8YnhkBBRJH/m
+photo.27.author: mifko55
+photo.27.commitdate: 2020/2/18
+photo.27.link: https://www.instagram.com/mifko55/
+photo.27.tags: portrait, whiskers
+photo.28: ig://B9B6rzrhDd-/m
+photo.28.author: bee_san.13
+photo.28.commitdate: 2020/3/3
+photo.28.link: https://www.instagram.com/bee_san.13/
+photo.28.tags: paws, smile, toys
+photo.29: ig://B9g4wwcBrXk/m
+photo.29.author: hamiiiii831_
+photo.29.commitdate: 2020/3/17
+photo.29.link: https://www.instagram.com/hamiiiii831_/
+photo.29.tags: paws, portrait, whiskers
+photo.30: ig://B-HpEJRB74u/m
+photo.30.author: bee_san.13
+photo.30.commitdate: 2020/3/28
+photo.30.link: https://www.instagram.com/bee_san.13/
+photo.30.tags: climb, paws, portrait
+photo.31: ig://B-QkEayBUcU/m
+photo.31.author: bee_san.13
+photo.31.commitdate: 2020/3/28
+photo.31.link: https://www.instagram.com/bee_san.13/
+photo.31.tags: apple time, paws, portrait, smile, tongue, whiskers
+photo.32: ig://B_YbtxJHFQd/m
+photo.32.author: bee_san.13
+photo.32.commitdate: 2020/4/28
+photo.32.link: https://www.instagram.com/bee_san.13/
+photo.32.tags: paws, portrait, smile, tree
+photo.33: ig://CAJrowLhdeQ/m
+photo.33.author: eos1089
+photo.33.commitdate: 2020/6/7
+photo.33.link: https://www.instagram.com/eos1089/
+photo.33.tags: paws, portrait, tree
+photo.34: ig://CAP9CY-nBK_/m
+photo.34.author: bee_san.13
+photo.34.commitdate: 2020/5/17
+photo.34.link: https://www.instagram.com/bee_san.13/
+photo.34.tags: peek, portrait, tree
+photo.35: ig://CAd2tzOhaxG/m
+photo.35.author: bee_san.13
+photo.35.commitdate: 2020/6/30
+photo.35.link: https://www.instagram.com/bee_san.13/
+photo.35.tags: portrait, tail
+photo.36: ig://CAzDGD6hRBF/m
+photo.36.author: bee_san.13
+photo.36.commitdate: 2020/6/30
+photo.36.link: https://www.instagram.com/bee_san.13/
+photo.36.tags: laying down, paws, portrait
+photo.37: ig://CA-Th7NpEnZ/m
+photo.37.author: bee_san.13
+photo.37.commitdate: 2020/6/30
+photo.37.link: https://www.instagram.com/bee_san.13/
+photo.37.tags: paws, portrait, techitechi
+photo.38: ig://CBX5_0zBZ6u/m
+photo.38.author: bee_san.13
+photo.38.commitdate: 2020/6/30
+photo.38.link: https://www.instagram.com/bee_san.13/
+photo.38.tags: portrait
+photo.39: ig://CDxmuP1h8MO/m
+photo.39.author: bee_san.13
+photo.39.commitdate: 2020/8/14
+photo.39.link: https://www.instagram.com/bee_san.13/
+photo.39.tags: paws, portrait, smile
+photo.40: ig://CEMmHiehF4M/m
+photo.40.author: bee_san.13
+photo.40.commitdate: 2020/12/28
+photo.40.link: https://www.instagram.com/bee_san.13/
+photo.40.tags: close-up, portrait, profile, whiskers
+photo.41: ig://CENcgjfhl9Q/m
+photo.41.author: eos1089
+photo.41.commitdate: 2020/12/28
+photo.41.link: https://www.instagram.com/eos1089/
+photo.41.tags: air tasting, paws, portrait, tongue, tree
+photo.42: ig://CEd2aZyBZ5P/m
+photo.42.author: bee_san.13
+photo.42.commitdate: 2020/9/10
+photo.42.link: https://www.instagram.com/bee_san.13/
+photo.42.tags: portrait, smile, whiskers
+photo.43: ig://CElGOKLhniq/m
+photo.43.author: na.mo.pan
+photo.43.commitdate: 2020/9/7
+photo.43.link: https://www.instagram.com/na.mo.pan/
+photo.43.tags: flowers, nose
+photo.44: ig://CF4K1rYBPHW/m
+photo.44.author: bee_san.13
+photo.44.commitdate: 2020/10/8
+photo.44.link: https://www.instagram.com/bee_san.13/
+photo.44.tags: portrait, smile, whiskers
+photo.45: ig://CGwILIZBgJu/m
+photo.45.author: bee_san.13
+photo.45.commitdate: 2020/12/28
+photo.45.link: https://www.instagram.com/bee_san.13/
+photo.45.tags: paws, portrait, tongue
+photo.46: ig://CHU5_78h9wV/m
+photo.46.author: hamamatsu.chiita
+photo.46.commitdate: 2020/11/25
+photo.46.link: https://www.instagram.com/hamamatsu.chiita/
+photo.46.tags: paws, portrait, whiskers
+photo.47: ig://CHuy7_nhENX/m
+photo.47.author: bee_san.13
+photo.47.commitdate: 2020/11/22
+photo.47.link: https://www.instagram.com/bee_san.13/
+photo.47.tags: paws, portrait
+photo.48: ig://CHvwPjLBlbs/m
+photo.48.author: hamamatsu.chiita
+photo.48.commitdate: 2020/11/22
+photo.48.link: https://www.instagram.com/hamamatsu.chiita/
+photo.48.tags: portrait, whiskers
+photo.49: ig://CIl2LbMBEzp/m
+photo.49.author: hamamatsu.chiita
+photo.49.commitdate: 2020/12/28
+photo.49.link: https://www.instagram.com/hamamatsu.chiita/
+photo.49.tags: laying down, tongue
+photo.50: ig://CIvFULUBX0a/m
+photo.50.author: craig_craig_craig
+photo.50.commitdate: 2020/12/28
+photo.50.link: https://www.instagram.com/craig_craig_craig/
+photo.50.tags: paws, portrait, toys, whiskers
+photo.51: ig://CI6aY-2BqHy/m
+photo.51.author: hamamatsu.chiita
+photo.51.commitdate: 2020/12/30
+photo.51.link: https://www.instagram.com/hamamatsu.chiita/
+photo.51.tags: laying down, tail
+photo.52: ig://CJ5fkNXB2w_/m
+photo.52.author: craig_craig_craig
+photo.52.commitdate: 2021/8/6
+photo.52.link: https://www.instagram.com/craig_craig_craig/
+photo.52.tags: carry, portrait, surprise, tail
+photo.53: ig://CK88PLxBa3j/m
+photo.53.author: bee_san.13
+photo.53.commitdate: 2022/1/13
+photo.53.link: https://www.instagram.com/bee_san.13/
+photo.53.tags: mofumofu, peek, portrait
+photo.54: ig://CMEzaSuB5S5/m
+photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2021/3/28
+photo.54.link: https://www.instagram.com/hamamatsu.chiita/
+photo.54.tags: bamboo, portrait, tail
+photo.55: ig://CMVdi2sBIeH/m
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2021/4/11
+photo.55.link: https://www.instagram.com/hamamatsu.chiita/
+photo.55.tags: mofumofu, portrait, white face
+photo.56: ig://CNIDwAih8ul/m
+photo.56.author: bee_san.13
+photo.56.commitdate: 2021/4/7
+photo.56.link: https://www.instagram.com/bee_san.13/
+photo.56.tags: portrait, smile, tree
+photo.57: ig://CNU1R4AB15m/m
+photo.57.author: bee_san.13
+photo.57.commitdate: 2021/5/4
+photo.57.link: https://www.instagram.com/bee_san.13/
+photo.57.tags: paws, portrait, smile, whiskers
+photo.58: ig://CNtbZdLBcgG/m
+photo.58.author: makimaru18
+photo.58.commitdate: 2021/5/26
+photo.58.link: https://www.instagram.com/makimaru18/
+photo.58.tags: laying down, portrait, sleeping
+photo.59: ig://CQzFnHOBG5j/m
+photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2021/7/4
+photo.59.link: https://www.instagram.com/hamamatsu.chiita/
+photo.59.tags: mofumofu, portrait, whiskers
+photo.60: ig://CS6nUY1HA8C/m
+photo.60.author: bee_san.13
+photo.60.commitdate: 2021/8/24
+photo.60.link: https://www.instagram.com/bee_san.13/
+photo.60.tags: portrait, tree, whiskers
+photo.61: ig://CS6yVHHB3qg/m
+photo.61.author: eos1089
+photo.61.commitdate: 2021/8/24
+photo.61.link: https://www.instagram.com/eos1089/
+photo.61.tags: peek, portrait, whiskers
+photo.62: ig://CUAZfbolJ_5/m
+photo.62.author: bee_san.13
+photo.62.commitdate: 2021/10/9
+photo.62.link: https://www.instagram.com/bee_san.13/
+photo.62.tags: laying down, paws, portrait, smile, tongue
+photo.63: ig://CUVAozIFlxI/m
+photo.63.author: bee_san.13
+photo.63.commitdate: 2021/10/6
+photo.63.link: https://www.instagram.com/bee_san.13/
+photo.63.tags: night, portrait, smile, tongue
+photo.64: ig://CU-BcNYFEr0/m
+photo.64.author: bee_san.13
+photo.64.commitdate: 2022/3/11
+photo.64.link: https://www.instagram.com/bee_san.13/
+photo.64.tags: laying down, portrait, sample, whiskers
+photo.65: ig://CVAgGohlMF3/m
+photo.65.author: bee_san.13
+photo.65.commitdate: 2022/3/11
+photo.65.link: https://www.instagram.com/bee_san.13/
+photo.65.tags: close-up, paws, portrait, sample, whiskers
+photo.66: ig://CVNZzYmF5vW/m
+photo.66.author: bee_san.13
+photo.66.commitdate: 2021/11/14
+photo.66.link: https://www.instagram.com/bee_san.13/
+photo.66.tags: portrait, smile, tongue, whiskers
+photo.67: ig://CVq9OWxP3zU/m
+photo.67.author: bee_san.13
+photo.67.commitdate: 2022/3/11
+photo.67.link: https://www.instagram.com/bee_san.13/
+photo.67.tags: laying down, portrait, smile, tail, upside-down
+photo.68: ig://CWEl6HXPYRQ/m
+photo.68.author: bee_san.13
+photo.68.commitdate: 2022/3/11
+photo.68.link: https://www.instagram.com/bee_san.13/
+photo.68.tags: laying down, portrait, sample, sleeping, whiskers
+photo.69: ig://CWnb7t5hrJ5/m
+photo.69.author: makimaru18
+photo.69.commitdate: 2022/2/1
+photo.69.link: https://www.instagram.com/makimaru18/
+photo.69.tags: climb, portrait, smile, tail, upside-down
+photo.70: ig://CW3B5AhF0CR/m
+photo.70.author: bee_san.13
+photo.70.commitdate: 2022/10/24
+photo.70.link: https://www.instagram.com/bee_san.13/
+photo.70.tags: paws, playing, portrait, smile, standing
+photo.71: ig://Ca79VfwhVeN/m
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2022/3/20
+photo.71.link: https://www.instagram.com/hamamatsu.chiita/
+photo.71.tags: portrait, sample, whiskers
+photo.72: ig://Ccty2WbPJJt/m
+photo.72.author: miis_98
+photo.72.commitdate: 2022/6/3
+photo.72.link: https://www.instagram.com/miis_98/
+photo.72.tags: portrait, sample, smile, whiskers
+photo.73: ig://CdB5KdHhyoV/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2022/9/11
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: mofumofu, portrait, sample, whiskers
+photo.74: ig://Cd9uolWPPos/m
+photo.74.author: hamiiiii831_
+photo.74.commitdate: 2022/9/24
+photo.74.link: https://www.instagram.com/hamiiiii831_/
+photo.74.tags: close-up, sample, smile, whiskers
+photo.75: ig://CgVGaMMBZUj/m
+photo.75.author: bee_san.13
+photo.75.commitdate: 2022/7/25
+photo.75.link: https://www.instagram.com/bee_san.13/
+photo.75.tags: close-up, laying down, paws, sample, whiskers, white face
+photo.76: ig://Chk1BPQBubf/m
+photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2022/8/26
+photo.76.link: https://www.instagram.com/hamamatsu.chiita/
+photo.76.tags: mofumofu, portrait, sample, techitechi, whiskers
+photo.77: ig://CilVqR5h7xY/m
+photo.77.author: hamiiiii831_
+photo.77.commitdate: 2022/10/7
+photo.77.link: https://www.instagram.com/hamiiiii831_/
+photo.77.tags: laying down, paws, sample, whiskers
+photo.78: ig://CkLHKkxBzUV/m
+photo.78.author: daniele.tokyo
+photo.78.commitdate: 2023/1/1
+photo.78.link: https://www.instagram.com/daniele.tokyo/
+photo.78.tags: bite, paws, whiskers
+photo.79: ig://CkifJB5PINI/m
+photo.79.author: bee_san.13
+photo.79.commitdate: 2022/12/20
+photo.79.link: https://www.instagram.com/bee_san.13/
+photo.79.tags: sample, tree, whiskers
+species: 2
+studbook.id: 15162
+zoo: 31

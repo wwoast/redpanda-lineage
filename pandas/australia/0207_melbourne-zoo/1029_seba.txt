@@ -1,0 +1,19 @@
+[panda]
+_id: 1029
+birthday: 2010/12/6
+birthplace: 181
+children: 1161, 1162
+commitdate: 2019/11/9
+en.name: Seba
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: セバ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 181, 2010/12/6
+location.2: 207, 2014/7/16
+species: 1
+zoo: 207

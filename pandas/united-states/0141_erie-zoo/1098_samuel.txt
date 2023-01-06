@@ -1,0 +1,20 @@
+[panda]
+_id: 1098
+birthday: 2008/6/14
+birthplace: 108
+children: 1126
+commitdate: 2020/1/25
+death: 2011/11/15
+en.name: Samuel
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サミュエル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1097
+location.1: 108, 2008/6/14
+location.2: 141, 2009/6/23
+species: 1
+zoo: 141

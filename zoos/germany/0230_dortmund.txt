@@ -1,0 +1,15 @@
+[zoo]
+_id: 230
+commitdate: 2019/12/31
+de.address: Mergelteichstraße 80, 44225 Dortmund, Germany
+de.location: Dortmund, Germany
+de.name: Dortmunder Zoo
+en.address: Mergelteichstraße 80, 44225 Dortmund, Germany
+en.location: Dortmund, Germany
+en.name: Dortmund Zoo
+flag: Germany
+language.order: de, en
+latitude: 51.47366
+longitude: 7.4595653
+map: https://goo.gl/maps/zEg3Ajqj5pHTVP6c8
+website: https://zoo.dortmund.de/

@@ -1,0 +1,16 @@
+[zoo]
+_id: 84
+commitdate: 2018/11/13
+en.address: 450 Flatbush Ave, Brooklyn, NY 11225
+en.location: Brooklyn, NY, USA
+en.name: Prospect Park Zoo
+flag: USA
+language.order: en
+latitude: 40.676838
+longitude: -73.9870309
+map: https://goo.gl/maps/7JRYsikRmTz
+photo.1: ig://BqNk8Pbhhmg/m
+photo.1.author: alyssabeckmannyc
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/alyssabeckmannyc/
+website: https://prospectparkzoo.com/

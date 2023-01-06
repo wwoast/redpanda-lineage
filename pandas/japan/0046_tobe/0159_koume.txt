@@ -1,0 +1,338 @@
+[panda]
+_id: 159
+birthday: 2014/7/6
+birthplace: 45
+children: none
+commitdate: 2018/7/1
+en.name: Koume
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: コウメ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 162
+location.1: 45, 2014/7/6
+location.2: 46, 2016/2/29
+photo.1: ig://BityXSil6t3/m
+photo.1.author: nakacchi_desu
+photo.1.commitdate: 2018/7/26
+photo.1.link: https://www.instagram.com/nakacchi_desu/
+photo.1.tags: bamboo, tongue
+photo.2: ig://BjCSb3BFJWS/m
+photo.2.author: makimaru18
+photo.2.commitdate: 2018/7/26
+photo.2.link: https://www.instagram.com/makimaru18/
+photo.3: ig://BrSjQxvFeos/m
+photo.3.author: itsuak
+photo.3.commitdate: 2018/12/12
+photo.3.link: https://www.instagram.com/itsuak/
+photo.3.tags: bamboo, portrait
+photo.4: ig://Brh7sSoldmZ/m
+photo.4.author: itsuak
+photo.4.commitdate: 2018/12/19
+photo.4.link: https://www.instagram.com/itsuak/
+photo.4.tags: flowers
+photo.5: ig://BsApYb2lDRd/m
+photo.5.author: itsuak
+photo.5.commitdate: 2018/12/30
+photo.5.link: https://www.instagram.com/itsuak/
+photo.5.tags: bamboo, smile
+photo.6: ig://BsNeHvll9dj/m
+photo.6.author: itsuak
+photo.6.commitdate: 2019/1/4
+photo.6.link: https://www.instagram.com/itsuak/
+photo.6.tags: laying down, portrait
+photo.7: ig://BsPrr61FGGj/m
+photo.7.author: redpanda_nippon_takashi
+photo.7.commitdate: 2019/1/7
+photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.8: ig://Bsvb66lFU5P/m
+photo.8.author: itsuak
+photo.8.commitdate: 2019/1/19
+photo.8.link: https://www.instagram.com/itsuak/
+photo.8.tags: bamboo
+photo.9: ig://BsyDNUOFpBR/m
+photo.9.author: itsuak
+photo.9.commitdate: 2019/1/20
+photo.9.link: https://www.instagram.com/itsuak/
+photo.9.tags: bamboo, techitechi
+photo.10: ig://Bs-fYqHlXVi/m
+photo.10.author: itsuak
+photo.10.commitdate: 2019/1/24
+photo.10.link: https://www.instagram.com/itsuak/
+photo.10.tags: paws, portrait
+photo.11: ig://BtlHx9lFOTQ/m
+photo.11.author: itsuak
+photo.11.commitdate: 2019/2/18
+photo.11.link: https://www.instagram.com/itsuak/
+photo.11.tags: bamboo, paws
+photo.12: ig://Bu4EEQWl53u/m
+photo.12.author: itsuak
+photo.12.commitdate: 2019/3/15
+photo.12.link: https://www.instagram.com/itsuak/
+photo.12.tags: laying down, portrait
+photo.13: ig://BxPdXAiFt8D/m
+photo.13.author: itsuak
+photo.13.commitdate: 2019/5/9
+photo.13.link: https://www.instagram.com/itsuak/
+photo.13.tags: paws, tail
+photo.14: ig://Bx9xm6Php1r/m
+photo.14.author: itsuak
+photo.14.commitdate: 2019/5/31
+photo.14.link: https://www.instagram.com/itsuak/
+photo.14.tags: portrait
+photo.15: ig://ByC_Qqthe6h/m
+photo.15.author: itsuak
+photo.15.commitdate: 2019/5/31
+photo.15.link: https://www.instagram.com/itsuak/
+photo.15.tags: itchy, tail
+photo.16: ig://ByU9sL9hdsQ/m
+photo.16.author: itsuak
+photo.16.commitdate: 2019/6/5
+photo.16.link: https://www.instagram.com/itsuak/
+photo.16.tags: itchy, portrait, tail
+photo.17: ig://BybTbDuhFH2/m
+photo.17.author: yossi929
+photo.17.commitdate: 2019/6/8
+photo.17.link: https://www.instagram.com/yossi929/
+photo.17.tags: bamboo, portrait, smile
+photo.18: ig://B0TPhZuhE1k/m
+photo.18.author: itsuak
+photo.18.commitdate: 2019/7/28
+photo.18.link: https://www.instagram.com/itsuak/
+photo.18.tags: air tasting, tongue
+photo.19: ig://B07prh6hBwH/m
+photo.19.author: redpanda_nippon_takashi
+photo.19.commitdate: 2019/8/12
+photo.19.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.19.tags: tongue
+photo.20: ig://B1GdMjehsTH/m
+photo.20.author: itsuak
+photo.20.commitdate: 2019/8/15
+photo.20.link: https://www.instagram.com/itsuak/
+photo.20.tags: bamboo, portrait, smile
+photo.21: ig://B1OHA2zhitZ/m
+photo.21.author: itsuak
+photo.21.commitdate: 2019/8/21
+photo.21.link: https://www.instagram.com/itsuak/
+photo.21.tags: laying down, portrait
+photo.22: ig://B1ZL4zIBDhT/m
+photo.22.author: itsuak
+photo.22.commitdate: 2019/8/23
+photo.22.link: https://www.instagram.com/itsuak/
+photo.22.tags: laying down, portrait
+photo.23: ig://B1tURlWBJDo/m
+photo.23.author: itsuak
+photo.23.commitdate: 2019/8/29
+photo.23.link: https://www.instagram.com/itsuak/
+photo.23.tags: laying down, portrait
+photo.24: ig://B191fTHBea-/m
+photo.24.author: itsuak
+photo.24.commitdate: 2019/9/5
+photo.24.link: https://www.instagram.com/itsuak/
+photo.24.tags: bamboo, portrait
+photo.25: ig://B2RUxpWBc1Y/m
+photo.25.author: itsuak
+photo.25.commitdate: 2019/9/14
+photo.25.link: https://www.instagram.com/itsuak/
+photo.25.tags: bamboo, peek
+photo.26: ig://B2T8TXhhQFb/m
+photo.26.author: itsuak
+photo.26.commitdate: 2019/9/14
+photo.26.link: https://www.instagram.com/itsuak/
+photo.26.tags: laying down, portrait
+photo.27: ig://B2g2hoEho8h/m
+photo.27.author: itsuak
+photo.27.commitdate: 2019/9/19
+photo.27.link: https://www.instagram.com/itsuak/
+photo.27.tags: door, portrait, whiskers
+photo.28: ig://B3COsKvh3Iq/m
+photo.28.author: itsuak
+photo.28.commitdate: 2019/10/10
+photo.28.link: https://www.instagram.com/itsuak/
+photo.28.tags: itchy, portrait, tail
+photo.29: ig://B3E0gmnBi1l/m
+photo.29.author: itsuak
+photo.29.commitdate: 2019/10/10
+photo.29.link: https://www.instagram.com/itsuak/
+photo.29.tags: bamboo, portrait, tongue
+photo.30: ig://B3J5iaVBVAz/m
+photo.30.author: itsuak
+photo.30.commitdate: 2019/10/10
+photo.30.link: https://www.instagram.com/itsuak/
+photo.30.tags: paws, portrait, smile
+photo.31: ig://B34uAGNB8Qv/m
+photo.31.author: itsuak
+photo.31.commitdate: 2019/10/22
+photo.31.link: https://www.instagram.com/itsuak/
+photo.31.tags: peek, portrait, whiskers
+photo.32: ig://B5SeDX9B0va/m
+photo.32.author: itsuak
+photo.32.commitdate: 2019/11/29
+photo.32.link: https://www.instagram.com/itsuak/
+photo.32.tags: bamboo, paws, portrait, whiskers
+photo.33: ig://B5X1ER9BqoL/m
+photo.33.author: itsuak
+photo.33.commitdate: 2019/11/29
+photo.33.link: https://www.instagram.com/itsuak/
+photo.33.tags: bamboo, paws
+photo.34: ig://B6N0xcOBdOS/m
+photo.34.author: itsuak
+photo.34.commitdate: 2019/12/30
+photo.34.link: https://www.instagram.com/itsuak/
+photo.34.tags: laying down, portrait, whiskers
+photo.35: ig://B6gAQ6NhXc7/m
+photo.35.author: itsuak
+photo.35.commitdate: 2019/12/30
+photo.35.link: https://www.instagram.com/itsuak/
+photo.35.tags: bamboo, portrait, smile, tail, whiskers
+photo.36: ig://B6n3x0nhkBJ/m
+photo.36.author: itsuak
+photo.36.commitdate: 2019/12/30
+photo.36.link: https://www.instagram.com/itsuak/
+photo.36.tags: bamboo, paws
+photo.37: ig://B6sTayABCnB/m
+photo.37.author: itsuak
+photo.37.commitdate: 2019/12/31
+photo.37.link: https://www.instagram.com/itsuak/
+photo.37.tags: paws, portrait, whiskers
+photo.38: ig://B6u-3ZVh9bS/m
+photo.38.author: itsuak
+photo.38.commitdate: 2020/1/6
+photo.38.link: https://www.instagram.com/itsuak/
+photo.38.tags: smile, whiskers
+photo.39: ig://B8i2c11B49I/m
+photo.39.author: itsuak
+photo.39.commitdate: 2020/2/19
+photo.39.link: https://www.instagram.com/itsuak/
+photo.39.tags: paws, portrait
+photo.40: ig://B9CScYiB5_1/m
+photo.40.author: itsuak
+photo.40.commitdate: 2020/3/6
+photo.40.link: https://www.instagram.com/itsuak/
+photo.40.tags: laying down, nose
+photo.41: ig://B9zICeqlIKg/m
+photo.41.author: itsuak
+photo.41.commitdate: 2020/3/19
+photo.41.link: https://www.instagram.com/itsuak/
+photo.41.tags: paws, portrait, tail, whiskers
+photo.42: ig://CDtVvG6BhJF/m
+photo.42.author: itsuak
+photo.42.commitdate: 2020/9/12
+photo.42.link: https://www.instagram.com/itsuak/
+photo.42.tags: laying down, paws
+photo.43: ig://CEE0fjOg2TM/m
+photo.43.author: itsuak
+photo.43.commitdate: 2021/8/15
+photo.43.link: https://www.instagram.com/itsuak/
+photo.43.tags: peek, portrait, whiskers
+photo.44: ig://CHDJwt3h_1g/m
+photo.44.author: itsuak
+photo.44.commitdate: 2020/11/11
+photo.44.link: https://www.instagram.com/itsuak/
+photo.44.tags: laying down, tail
+photo.45: ig://CHvJ5spH33E/m
+photo.45.author: itsuak
+photo.45.commitdate: 2021/8/15
+photo.45.link: https://www.instagram.com/itsuak/
+photo.45.tags: bridge, close-up, laying down, peek, portrait
+photo.46: ig://CJvs1dAsWhT/m
+photo.46.author: itsuak
+photo.46.commitdate: 2021/3/2
+photo.46.link: https://www.instagram.com/itsuak/
+photo.46.tags: paws, portrait, whiskers
+photo.47: ig://CLZoxZzB3bj/m
+photo.47.author: itsuak
+photo.47.commitdate: 2021/2/20
+photo.47.link: https://www.instagram.com/itsuak/
+photo.47.tags: bamboo, bite, close-up, paws, portrait, profile
+photo.48: ig://CL62RhRB1fX/m
+photo.48.author: itsuak
+photo.48.commitdate: 2021/8/15
+photo.48.link: https://www.instagram.com/itsuak/
+photo.48.tags: close-up, laying down, portrait, sleeping, whiskers
+photo.49: ig://CPa1JBlBizI/m
+photo.49.author: itsuak
+photo.49.commitdate: 2021/8/15
+photo.49.link: https://www.instagram.com/itsuak/
+photo.49.tags: bamboo
+photo.50: ig://CQtK29NjQWw/m
+photo.50.author: itsuak
+photo.50.commitdate: 2021/8/15
+photo.50.link: https://www.instagram.com/itsuak/
+photo.50.tags: laying down, portrait, whiskers
+photo.51: ig://CRMPkUzDsQn/m
+photo.51.author: itsuak
+photo.51.commitdate: 2021/7/13
+photo.51.link: https://www.instagram.com/itsuak/
+photo.51.tags: close-up, mofumofu, portrait, whiskers
+photo.52: ig://CRoXiWmhJ5i/m
+photo.52.author: itsuak
+photo.52.commitdate: 2021/8/15
+photo.52.link: https://www.instagram.com/itsuak/
+photo.52.tags: paws, portrait
+photo.53: ig://CSCKAxqF45Y/m
+photo.53.author: itsuak
+photo.53.commitdate: 2021/8/15
+photo.53.link: https://www.instagram.com/itsuak/
+photo.53.tags: portrait, whiskers
+photo.54: ig://CSJyXdvl2kt/m
+photo.54.author: itsuak
+photo.54.commitdate: 2021/8/15
+photo.54.link: https://www.instagram.com/itsuak/
+photo.54.tags: portrait, smile, whiskers
+photo.55: ig://CSZJyZth4oH/m
+photo.55.author: itsuak
+photo.55.commitdate: 2021/8/15
+photo.55.link: https://www.instagram.com/itsuak/
+photo.55.tags: peek, portrait, whiskers
+photo.56: ig://CU5HXDlvkUi/m
+photo.56.author: itsuak
+photo.56.commitdate: 2022/5/5
+photo.56.link: https://www.instagram.com/itsuak/
+photo.56.tags: bamboo, whiskers
+photo.57: ig://CW-41aCv7LW/m
+photo.57.author: itsuak
+photo.57.commitdate: 2022/1/10
+photo.57.link: https://www.instagram.com/itsuak/
+photo.57.tags: paws, portrait, sample, whiskers
+photo.58: ig://CYDtFUPvrpx/m
+photo.58.author: itsuak
+photo.58.commitdate: 2022/1/4
+photo.58.link: https://www.instagram.com/itsuak/
+photo.58.tags: close-up, laying down, paws, portrait
+photo.59: ig://CYmG4S_PgsE/m
+photo.59.author: itsuak
+photo.59.commitdate: 2022/1/23
+photo.59.link: https://www.instagram.com/itsuak/
+photo.59.tags: bamboo, paws, portrait, smile, whiskers
+photo.60: ig://Ce8hBDKPZCY/m
+photo.60.author: itsuak
+photo.60.commitdate: 2022/8/18
+photo.60.link: https://www.instagram.com/itsuak/
+photo.60.tags: grooming, paws, portrait, whiskers
+photo.61: ig://CfWYzo3vmLl/m
+photo.61.author: itsuak
+photo.61.commitdate: 2022/8/18
+photo.61.link: https://www.instagram.com/itsuak/
+photo.61.tags: bamboo, bite, smile
+photo.62: ig://CgMtNL2PnTG/m
+photo.62.author: itsuak
+photo.62.commitdate: 2022/8/18
+photo.62.link: https://www.instagram.com/itsuak/
+photo.62.tags: close-up, laying down, portrait, sample, sleeping, whiskers
+photo.63: ig://ChR565TBvbs/m
+photo.63.author: itsuak
+photo.63.commitdate: 2022/8/18
+photo.63.link: https://www.instagram.com/itsuak/
+photo.63.tags: laying down, paws, portrait, sample, whiskers
+photo.64: ig://Cir-ENBPo8t/m
+photo.64.author: apple_jasmine33
+photo.64.commitdate: 2022/11/4
+photo.64.link: https://www.instagram.com/apple_jasmine33/
+photo.64.tags: door, mofumofu, sample, tail, whiskers
+species: 2
+studbook.id: 14154
+zoo: 46

@@ -1,0 +1,21 @@
+[zoo]
+_id: 124
+commitdate: 2019/2/24
+en.address: 8450 W 10 Mile Rd, Royal Oak, MI 48067, USA
+en.location: Royal Oak, Michigan, USA
+en.name: Detroit Zoological Society
+flag: USA
+language.order: en
+latitude: 42.4789751
+longitude: -83.1561748
+map: https://goo.gl/maps/TQARh1R38qP2
+photo.1: ig://BoaCRokgyB6/m
+photo.1.author: detroitzoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: profile
+photo.2: ig://Bq-v-rTAnhN/m
+photo.2.author: detroitzoo
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/detroitzoo/
+website: https://detroitzoo.org/

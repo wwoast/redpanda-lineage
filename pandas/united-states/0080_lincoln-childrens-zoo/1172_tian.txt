@@ -1,0 +1,100 @@
+[panda]
+_id: 1172
+birthday: 2020/5/25
+birthplace: 67
+children: 1385
+commitdate: 2020/6/14
+en.name: Tián
+en.nicknames: none
+en.othernames: Tian, Tyen, Thien
+gender: f
+jp.name: ティエン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1171
+location.1: 67, 2020/5/25
+location.2: 80, 2021/10/1
+photo.1: ig://CGDf5bTBUmh/m
+photo.1.author: woodlandparkzoo
+photo.1.commitdate: 2020/10/7
+photo.1.link: https://www.instagram.com/woodlandparkzoo/
+photo.1.tags: baby, portrait, tongue
+photo.2: ig://CLQMvZWh6W_/m
+photo.2.author: woodlandparkzoo
+photo.2.commitdate: 2021/2/15
+photo.2.link: https://www.instagram.com/woodlandparkzoo/
+photo.2.tags: portrait, snow
+photo.3: ig://CSuUBTpDzwN/m
+photo.3.author: carsontheredpanda
+photo.3.commitdate: 2021/8/25
+photo.3.link: https://www.instagram.com/redpandanetwork/
+photo.3.tags: laying down, paws, portrait, smile, tree
+photo.4: ig://CT84HB2s3l1/m
+photo.4.author: carsontheredpanda
+photo.4.commitdate: 2021/9/18
+photo.4.link: https://www.instagram.com/carsontheredpanda/
+photo.4.tags: paws, portrait, tongue, whiskers
+photo.5: ig://CUIj7hmPaub/m
+photo.5.author: carsontheredpanda
+photo.5.commitdate: 2021/10/6
+photo.5.link: https://www.instagram.com/carsontheredpanda/
+photo.5.tags: portrait, smile, techitechi, whiskers
+photo.6: ig://CYgwuHluTyi/m
+photo.6.author: lincolnchildrenszoo
+photo.6.commitdate: 2022/2/21
+photo.6.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.6.tags: laying down, paws, portrait, sample, whiskers
+photo.7: ig://CaH3aNeOIDx/m
+photo.7.author: lincolnchildrenszoo
+photo.7.commitdate: 2022/3/5
+photo.7.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.7.tags: close-up, portrait, whiskers
+photo.8: ig://Ca5EwF6JM0n/m
+photo.8.author: lincolnchildrenszoo
+photo.8.commitdate: 2022/3/18
+photo.8.link: https://www.instagram.com/carsontheredpanda/
+photo.8.tags: paws, portrait, sample, smile, whiskers
+photo.9: ig://CbU86XXOlaX/m
+photo.9.author: lincolnchildrenszoo
+photo.9.commitdate: 2022/8/30
+photo.9.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.9.tags: paws, peek, portrait, sample, whiskers
+photo.10: ig://Cbz59xnO-kF/m
+photo.10.author: lincolnchildrenszoo
+photo.10.commitdate: 2022/8/30
+photo.10.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.10.tags: portrait, profile, sample, whiskers
+photo.11: ig://CckxiqrOynv/m
+photo.11.author: lincolnchildrenszoo
+photo.11.commitdate: 2022/8/30
+photo.11.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.11.tags: portrait, sample, whiskers
+photo.12: ig://Cc8LsdGLble/m
+photo.12.author: carsontheredpanda
+photo.12.commitdate: 2022/6/7
+photo.12.link: https://www.instagram.com/carsontheredpanda/
+photo.12.tags: peek, portrait, sample, tree
+photo.13: ig://Cc8OAbYtt_A/m
+photo.13.author: lincolnchildrenszoo
+photo.13.commitdate: 2022/8/30
+photo.13.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.13.tags: portrait, sample, smile, tongue, whiskers
+photo.14: ig://CdioGQ-Ol99/m
+photo.14.author: lincolnchildrenszoo
+photo.14.commitdate: 2022/8/30
+photo.14.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.14.tags: portrait, sample, smile, whiskers
+photo.15: ig://CfRWTb2pRiN/m
+photo.15.author: lincolnchildrenszoo
+photo.15.commitdate: 2022/8/30
+photo.15.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.15.tags: portrait, sample, whiskers
+photo.16: ig://ChFkWurJvAm/m
+photo.16.author: lincolnchildrenszoo
+photo.16.commitdate: 2022/8/30
+photo.16.link: https://www.instagram.com/carsontheredpanda/
+photo.16.tags: paws, sample, smile, whiskers
+species: 2
+uncertainty: location.2 exact date
+zoo: 80

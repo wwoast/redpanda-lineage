@@ -1,0 +1,23 @@
+[zoo]
+_id: 36
+commitdate: 2018/6/25
+en.address: Japan, 〒657-0838 Hyōgo Prefecture, Kobe, Nada Ward, Ojicho, 3 Chome−１
+en.location: Nada Ward, Kobe, Japan
+en.name: Kobe Oji Zoo
+flag: Japan
+jp.address: 〒657-0838 兵庫県神戸市灘区王子町３丁目１
+jp.location: 灘区 神戸市
+jp.name: 神戸市立王子動物園
+language.order: jp, en
+latitude: 34.710002
+longitude: 135.2126901
+map: https://goo.gl/maps/8P5cFSjECns
+photo.1: ig://BYhQfxIFWau/m
+photo.1.author: nekochan_in_japan
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/nekochan_in_japan/
+photo.2: ig://BfDaHwUFTFR/m
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2019/5/16
+photo.2.link: https://www.instagram.com/fetorus_mami/
+website: http://www.kobe-ojizoo.jp/

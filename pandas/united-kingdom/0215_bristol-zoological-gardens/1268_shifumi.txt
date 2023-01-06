@@ -1,0 +1,89 @@
+[panda]
+_id: 1268
+birthday: 2019/6/9
+birthplace: 277
+children: none
+commitdate: 2021/4/10
+en.name: Shifumi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シフミ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 277, 2019/6/9
+location.2: 215, 2021/8/1
+photo.1: ig://By5KLZSoBoE/m
+photo.1.author: parcanimalierdauvergne
+photo.1.commitdate: 2021/8/10
+photo.1.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.1.tags: baby, newborn, portrait, videolink
+photo.2: ig://B0VYql5IimC/m
+photo.2.author: parcanimalierdauvergne
+photo.2.commitdate: 2021/8/10
+photo.2.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.2.tags: baby, portrait, smile, tongue, yawn
+photo.3: ig://B1IpIN7IAaQ/m
+photo.3.author: parcanimalierdauvergne
+photo.3.commitdate: 2021/8/10
+photo.3.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.3.tags: baby, close-up, portrait, whiskers
+photo.4: ig://B3eOsKnIxLt/m
+photo.4.author: parcanimalierdauvergne
+photo.4.commitdate: 2021/8/10
+photo.4.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.4.tags: baby, portrait, whiskers
+photo.5: ig://B_mfaZHJ-1q/m
+photo.5.author: parcanimalierdauvergne
+photo.5.commitdate: 2021/8/10
+photo.5.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.5.tags: portrait, whiskers
+photo.6: ig://CBODcwwJ0bT/m
+photo.6.author: parcanimalierdauvergne
+photo.6.commitdate: 2021/8/10
+photo.6.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.6.tags: baby, portrait, smile
+photo.7: ig://CC_y4a_qVQX/m
+photo.7.author: parcanimalierdauvergne
+photo.7.commitdate: 2021/8/14
+photo.7.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.7.tags: bamboo, close-up, portrait, whiskers
+photo.8: ig://CInFO82IgUh/m
+photo.8.author: parcanimalierdauvergne
+photo.8.commitdate: 2021/8/14
+photo.8.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.8.tags: bamboo, close-up, mofumofu, portrait, white face
+photo.9: ig://CKD55VPgPkm/m
+photo.9.author: bristolzoo
+photo.9.commitdate: 2022/2/10
+photo.9.link: https://www.instagram.com/bristolzoo/
+photo.9.tags: bamboo, laying down, peek, whiskers
+photo.10: ig://CRJdfkwjWLu/m
+photo.10.author: bristolzoo
+photo.10.commitdate: 2022/2/10
+photo.10.link: https://www.instagram.com/bristolzoo/
+photo.10.tags: laying down, paws, sample, tree, whiskers
+photo.11: ig://CSWXrNzoY87/m
+photo.11.author: bristolzoo
+photo.11.commitdate: 2022/2/10
+photo.11.link: https://www.instagram.com/bristolzoo/
+photo.11.tags: keeper, peek, portrait, toys
+photo.12: ig://CTT8IjpjLYb/m
+photo.12.author: bristolzoo
+photo.12.commitdate: 2022/2/10
+photo.12.link: https://www.instagram.com/bristolzoo/
+photo.12.tags: paws, sample, tree, wave, whiskers
+photo.13: ig://CT9Q3tOMsE3/m
+photo.13.author: bristolzoo
+photo.13.commitdate: 2022/2/10
+photo.13.link: https://www.instagram.com/bristolzoo/
+photo.13.tags: peek, smile, tree, whiskers
+photo.14: ig://CWsddYpM6G2/m
+photo.14.author: bristolzoo
+photo.14.commitdate: 2022/2/10
+photo.14.link: https://www.instagram.com/bristolzoo/
+photo.14.tags: paws, portrait, profile, sample, tree, whiskers
+species: 1
+uncertainty: location.2 exact date (july or august)
+zoo: 215

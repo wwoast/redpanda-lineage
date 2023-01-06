@@ -1,0 +1,42 @@
+[panda]
+_id: 1378
+birthday: 2022/6/20
+birthplace: 99
+children: none
+commitdate: 2022/7/27
+en.name: Ravi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラビ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://CfcGBhqln-G/m
+photo.1.author: greensborosciencecenter
+photo.1.commitdate: 2022/7/27
+photo.1.link: https://www.instagram.com/greensborosciencecenter/
+photo.1.tags: baby, newborn
+photo.2: ig://Cf9qIjVlHrV/m
+photo.2.author: greensborosciencecenter
+photo.2.commitdate: 2022/7/27
+photo.2.link: https://www.instagram.com/greensborosciencecenter/
+photo.2.tags: baby, keeper, newborn
+photo.3: ig://Cgez5ZFOPsH/m
+photo.3.author: greensborosciencecenter
+photo.3.commitdate: 2022/8/5
+photo.3.link: https://www.instagram.com/greensborosciencecenter/
+photo.3.tags: baby, blink, mofumofu, newborn, paws, yawn
+photo.4: ig://CgoydJEM1Ve/m
+photo.4.author: greensborosciencecenter
+photo.4.commitdate: 2022/8/5
+photo.4.link: https://www.instagram.com/greensborosciencecenter/
+photo.4.tags: baby, laying down, newborn, sleeping, toys
+photo.5: ig://Cg60AjeMD6R/m
+photo.5.author: greensborosciencecenter
+photo.5.commitdate: 2022/8/11
+photo.5.link: https://www.instagram.com/p/Cg60AjeMD6R/media/?size=m
+photo.5.tags: peek, toys
+species: 2
+zoo: 99

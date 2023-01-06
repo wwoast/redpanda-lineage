@@ -1,0 +1,18 @@
+[panda]
+_id: 557
+birthday: 2015/6/14
+birthplace: 114
+children: 560
+commitdate: 2019/3/10
+en.name: Tianeseng
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 天セン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 578
+species: 1
+studbook.id: 1513
+zoo: 114

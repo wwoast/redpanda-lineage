@@ -1,0 +1,30 @@
+[panda]
+_id: 1155
+birthday: 2014/6/15
+birthplace: 213
+children: unknown
+commitdate: 2020/5/4
+en.name: Annapurna
+en.nicknames: none
+en.othernames: Anna
+es.name: Annapurna
+es.nicknames: none
+es.othernames: Anna
+gender: f
+jp.name: アンナプルナ
+jp.nicknames: none
+jp.othernames: none
+language.order: es, en, np, jp
+litter: none
+location.1: 213, 2014/6/15
+location.2: 245, 2015/9/29
+np.name: अन्नपूर्णा
+np.nicknames: none
+np.othernames: none
+photo.1: ig://Bq7UL-sgzK0/m
+photo.1.author: loroparque
+photo.1.commitdate: 2020/5/4
+photo.1.link: https://www.instagram.com/loroparque/
+photo.1.tags: climb, peek, portrait, profile, tree
+species: 1
+zoo: 245

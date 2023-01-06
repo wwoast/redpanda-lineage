@@ -1,0 +1,22 @@
+[panda]
+_id: 1065
+birthday: 2017/6/12
+birthplace: 72
+children: unknown
+commitdate: 2019/11/29
+en.name: Ines
+en.nicknames: none
+en.othernames: none
+fr.name: Inés
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: イネス
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, en, jp
+litter: 1066
+location.1: 72, 2017/6/12
+location.2: 199, 2018/3/26
+species: 1
+zoo: 199

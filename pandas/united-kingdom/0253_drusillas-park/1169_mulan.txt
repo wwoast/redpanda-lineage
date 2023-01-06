@@ -1,0 +1,33 @@
+[panda]
+_id: 1169
+birthday: 2012/7/9
+birthplace: 139
+children: unknown
+commitdate: 2020/6/14
+en.name: Mulan
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ムーラン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 139, 2012/7/9
+location.2: 253, 2013/3/27
+photo.1: ig://B99zKuFlCJp/m
+photo.1.author: drusillaspark
+photo.1.commitdate: 2020/6/14
+photo.1.link: https://www.instagram.com/drusillaspark/
+photo.2: ig://CAYbytgnmvh/m
+photo.2.author: drusillaspark
+photo.2.commitdate: 2020/6/14
+photo.2.link: https://www.instagram.com/drusillaspark/
+photo.2.tags: bamboo, paws, portrait, profile
+photo.3: ig://CBOhEJXAufn/m
+photo.3.author: drusillaspark
+photo.3.commitdate: 2020/6/14
+photo.3.link: https://www.instagram.com/drusillaspark/
+photo.3.tags: close-up, portrait
+species: 1
+zoo: 253

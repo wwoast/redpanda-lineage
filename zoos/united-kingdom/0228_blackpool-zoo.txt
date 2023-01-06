@@ -1,0 +1,12 @@
+[zoo]
+_id: 228
+commitdate: 2019/11/29
+en.address: E Park Dr, Blackpool FY3 8PP, United Kingdom
+en.location: Blackpool, UK
+en.name: Blackpool Zoo
+flag: UK
+language.order: en
+latitude: 53.8153431
+longitude: -3.0163255
+map: https://goo.gl/maps/VE9DGBQJt4RUsYTb9
+website: https://www.blackpoolzoo.org.uk/

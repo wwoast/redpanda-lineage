@@ -1,0 +1,41 @@
+[panda]
+_id: 346
+birthday: 2012/6/18
+birthplace: 10
+children: 437, 438, 436, 1061, 1158
+commitdate: 2018/10/8
+en.name: Sachi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サチ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 215
+location.1: 10, 2012/6/18
+location.2: 17, 2013/12/16
+location.3: 76, 2014/7/15
+photo.1: ig://lPQ182OR5U/m
+photo.1.author: masa_polarbear
+photo.1.commitdate: 2020/4/25
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: mofumofu, portrait, tail
+photo.2: ig://BVuJ_3PlDE3/m
+photo.2.author: rdpnzoo
+photo.2.commitdate: 2018/12/14
+photo.2.link: https://www.instagram.com/rdpnzoo/
+photo.2.tags: apple time
+photo.3: ig://BY_RNhhnNOI/m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: laying down, portrait, profile, tree
+photo.4: ig://BnmKSEhHTsC/m
+photo.4.author: ryanmcgibbon
+photo.4.commitdate: 2018/12/14
+photo.4.link: https://www.instagram.com/ryanmcgibbon/
+photo.4.tags: lunch time, portrait
+species: 2
+studbook.id: 1299
+zoo: 76

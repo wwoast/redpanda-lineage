@@ -1,0 +1,32 @@
+[panda]
+_id: 1372
+birthday: 2022/7/7
+birthplace: 117
+children: none
+commitdate: 2022/7/14
+en.name: Sandy
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サンデー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1373
+photo.1: ig://Chxz6XVg9ky/m
+photo.1.author: trevorzoomillbrook
+photo.1.commitdate: 2022/9/11
+photo.1.link: https://www.instagram.com/trevorzoomillbrook/
+photo.1.tags: baby, mofumofu, portrait, sample
+photo.2: ig://Ck9LFsIvZKL/m
+photo.2.author: trevorzoomillbrook
+photo.2.commitdate: 2022/12/19
+photo.2.link: https://www.instagram.com/trevorzoomillbrook/
+photo.2.tags: baby, door, portrait, profile, sample, white face
+photo.3: ig://Clj9vu4ts9o/m
+photo.3.author: trevorzoomillbrook
+photo.3.commitdate: 2023/1/1
+photo.3.link: https://www.instagram.com/trevorzoomillbrook/
+photo.3.tags: baby, mofumofu, portrait, sample
+species: 1
+zoo: 117

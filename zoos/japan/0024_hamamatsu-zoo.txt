@@ -1,0 +1,37 @@
+[zoo]
+_id: 24
+commitdate: 2018/6/18
+en.address: Japan, 〒431-1209 Shizuoka Prefecture, 浜松市西区 舘山寺町１９９
+en.location: Hamamatsu, Shizuoka Prefecture, Japan
+en.name: Hamamatsu Municipal Zoo
+en.othernames: Hama Zoo
+flag: Japan
+jp.address: 〒431-1209 静岡県 浜松市西区 舘山寺町１９９
+jp.location: 浜松市 静岡県
+jp.name: 浜松市動物園
+language.order: jp, en
+latitude: 34.7658483
+longitude: 137.6301835
+map: https://goo.gl/maps/oXmmXnkH1h52
+photo.1: ig://BqwEIOgFBK4/m
+photo.1.author: polar_bear_t
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/polar_bear_t/
+photo.2: ig://BuDmeZ-lv7p/m
+photo.2.author: chiharu777724
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/chiharu777724/
+photo.3: ig://B0TISa6B0Tq/m
+photo.3.author: taka__3428
+photo.3.commitdate: 2019/7/28
+photo.3.link: https://www.instagram.com/taka__3428/
+photo.4: ig://B9yp9JYBRAt/m
+photo.4.author: taka__3428
+photo.4.commitdate: 2020/3/18
+photo.4.link: https://www.instagram.com/taka__3428/
+photo.5: ig://CEOkaF2Bmu6/m
+photo.5.author: hamamatsu.chiita
+photo.5.commitdate: 2020/8/28
+photo.5.link: https://www.instagram.com/hamamatsu.chiita/
+photo.5.tags: profile
+website: http://www.hamazoo.net/

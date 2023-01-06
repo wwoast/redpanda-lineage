@@ -1,0 +1,63 @@
+[panda]
+_id: 441
+birthday: 2009/6/13
+birthplace: 82
+children: none
+commitdate: 2018/11/24
+death: 2022/10/2
+en.name: Sha-Lei
+en.nicknames: none
+en.othernames: Shalei, Shaley
+gender: f
+jp.name: シェリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 82, 2009/6/13
+location.2: 77, 2010/12/1
+location.3: 97, 2013/1/15
+photo.1: ig://B3FmYaWnRoD/m
+photo.1.author: rwpzoo
+photo.1.commitdate: 2020/1/18
+photo.1.link: https://www.instagram.com/rwpzoo/
+photo.1.tags: pumpkin
+photo.2: ig://B4-xnX9HU5H/m
+photo.2.author: rwpzoo
+photo.2.commitdate: 2020/1/18
+photo.2.link: https://www.instagram.com/rwpzoo/
+photo.2.tags: portrait, whiskers
+photo.3: ig://B5kz_sfjSmQ/m
+photo.3.author: rwpzoo
+photo.3.commitdate: 2020/1/18
+photo.3.link: https://www.instagram.com/rwpzoo/
+photo.3.tags: bridge, laying down, paws
+photo.4: ig://B7Zq6e1HAFk/m
+photo.4.author: rwpzoo
+photo.4.commitdate: 2020/1/18
+photo.4.link: https://www.instagram.com/rwpzoo/
+photo.4.tags: portrait, profile
+photo.5: ig://CW7V24httQG/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2022/1/10
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: bamboo, close-up, whiskers
+photo.6: ig://rwpzoo/CYo8fLQFNAB/m
+photo.6.author: rwpzoo
+photo.6.commitdate: 2022/1/18
+photo.6.link: https://www.instagram.com/rwpzoo/
+photo.6.tags: close-up, peek, portrait, techitechi, whiskers
+photo.7: ig://CjSxWEpNsdy/m
+photo.7.author: rwpzoo
+photo.7.commitdate: 2022/10/14
+photo.7.link: https://www.instagram.com/rwpzoo/
+photo.7.tags: bamboo, paws, portrait, sample
+photo.8: ig://CjaPkimgA3_/m
+photo.8.author: rossifari
+photo.8.commitdate: 2022/10/20
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: sample, smile, tongue
+species: 2
+studbook.id: 0934
+uncertainy: exact date of passing first week of october 2022
+zoo: 97

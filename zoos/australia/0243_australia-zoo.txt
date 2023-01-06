@@ -1,0 +1,12 @@
+[zoo]
+_id: 243
+commitdate: 2020/4/18
+en.address: 1638 Steve Irwin Way, Beerwah QLD 4519, Australia
+en.location: Beerwah, Queensland, Australia
+en.name: Australia Zoo
+flag: Australia
+language.order: en
+latitude: -26.836393
+longitude: 152.9617824
+map: https://goo.gl/maps/WNyve1UJpWH7ArXV9
+website: https://www.australiazoo.com.au/

@@ -1,0 +1,24 @@
+[panda]
+_id: 1117
+birthday: 1994/6/24
+birthplace: 108
+children: none
+cn.name: 台北
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/3/8
+death: 2007/12/6
+en.name: Taipei
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 台北
+jp.nicknames: none
+jp.othernames: タイペイ
+language.order: en, jp
+litter: 1118
+location.1: 108, 1994/6/24
+location.2: 154, 1995/5/25
+location.3: 187, 2003/11/6
+species: 1
+zoo: 187

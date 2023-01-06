@@ -1,0 +1,92 @@
+[panda]
+_id: 543
+birthday: 2017/6/22
+birthplace: 81
+children: none
+commitdate: 2019/3/2
+en.name: Puck
+en.nicknames: none
+en.othernames: Yeren
+gender: m
+jp.name: パック
+jp.nicknames: none
+jp.othernames: イエレン
+language.order: en, jp
+litter: 544
+location.1: 81, 2017/6/22
+location.2: 129, 2019/1/1
+location.3: 303, 2021/5/14
+photo.1: ig://B9PFqrlBlBh/m
+photo.1.author: wumpwoast
+photo.1.commitdate: 2020/3/2
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: bamboo, portrait, profile
+photo.2: ig://B9UNYC1BK7j/m
+photo.2.author: wumpwoast
+photo.2.commitdate: 2020/3/8
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.tags: bamboo, portrait
+photo.3: ig://B_gbdEOntFN/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2020/5/1
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: bamboo, portrait
+photo.4: ig://CALYeo9hAnh/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2020/5/17
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: bamboo, portrait
+photo.5: ig://CAOL8RBBSPq/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2021/6/6
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: peek, whiskers
+photo.6: ig://CDOyCkohTlF/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2020/7/31
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: portrait, smile, tongue, whiskers
+photo.7: ig://CDgqn4yhjII/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2020/8/9
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: portrait, smile, tongue
+photo.8: ig://CD_ho3iFa3T/m
+photo.8.author: charlespaddockzoo
+photo.8.commitdate: 2020/8/23
+photo.8.link: https://www.instagram.com/charlespaddockzoo/
+photo.8.tags: laying down, paws, peek, smile
+photo.9: ig://timbavatiwildlifepark/CO8AcnqFNi7/m
+photo.9.author: timbavatiwildlifepark
+photo.9.commitdate: 2022/1/6
+photo.9.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.9.tags: laying down, peek, whiskers
+photo.10: ig://CQWQ_pXl1k8/m
+photo.10.author: timbavatiwildlifepark
+photo.10.commitdate: 2022/1/6
+photo.10.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.10.tags: paws, whiskers
+photo.11: ig://CRte-7tFZV-/m
+photo.11.author: timbavatiwildlifepark
+photo.11.commitdate: 2022/1/6
+photo.11.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.11.tags: mofumofu
+photo.12: ig://CT9qouIFOEF/m
+photo.12.author: timbavatiwildlifepark
+photo.12.commitdate: 2022/1/6
+photo.12.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.12.tags: mofumofu, whiskers
+photo.13: ig://CVYO8YzpTXD/m
+photo.13.author: wumpwoast
+photo.13.commitdate: 2022/3/13
+photo.13.link: https://www.instagram.com/wumpwoast/
+photo.13.tags: bamboo, paws, portrait, sample
+photo.14: ig://CWdos_vpYwr/m
+photo.14.author: wumpwoast
+photo.14.commitdate: 2021/11/21
+photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.tags: close-up, portrait, whiskers
+species: 1
+studbook.id: 1721
+uncertainty: location.2 move date mm/yy, location.3 exact move date
+zoo: 303

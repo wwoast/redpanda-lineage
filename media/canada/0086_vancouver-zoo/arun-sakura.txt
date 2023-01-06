@@ -1,0 +1,25 @@
+[media]
+_id: media.86.arun-sakura
+commitdate: 2021/4/3
+panda.tags: 432, 445
+photo.1: ig://CMSbpIRF1zQ/l
+photo.1.author: greatervancouverzoo
+photo.1.commitdate: 2021/4/3
+photo.1.link: https://www.instagram.com/greatervancouverzoo/
+photo.1.tags: couple
+photo.1.tags.432.location: 345, 280
+photo.1.tags.445.location: 435, 240
+photo.2: ig://CN6IjsXAG8h/l
+photo.2.author: westcoast_kathy
+photo.2.commitdate: 2021/5/19
+photo.2.link: https://www.instagram.com/westcoast_kathy/
+photo.2.tags: bamboo, couple, paws, portrait
+photo.2.tags.432.location: 520, 215
+photo.2.tags.445.location: 155, 250
+photo.3: ig://CTYJ0fYv1Bv/l
+photo.3.author: westcoast_kathy
+photo.3.commitdate: 2021/12/23
+photo.3.link: https://www.instagram.com/westcoast_kathy/
+photo.3.tags: couple, paws, portrait
+photo.3.tags.432.location: 470, 160
+photo.3.tags.445.location: 235, 205

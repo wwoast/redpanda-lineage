@@ -1,0 +1,12 @@
+[zoo]
+_id: 303
+commitdate: 2021/1/6
+en.address: 2220 Wisconsin Dells Pkwy, Wisconsin Dells, WI 53965
+en.location: Wisconsin Dells, WI, USA
+en.name: Timbavati Wildlife Park
+flag: USA
+language.order: en
+latitude: 43.621581
+longitude: -89.782283
+map: https://goo.gl/maps/d9YpQhJgNojNgLeAA
+website: https://www.timbavatiwildlifepark.com/

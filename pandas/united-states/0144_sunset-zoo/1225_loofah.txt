@@ -1,0 +1,30 @@
+[panda]
+_id: 1225
+birthday: 2018/6/21
+birthplace: 154
+children: none
+commitdate: 2020/9/16
+en.name: Loofah
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ルーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1224
+location.1: 154, 2018/6/21
+location.2: 144, 2019/10/21
+photo.1: ig://BumMr92ANb4/m
+photo.1.author: raven__creative
+photo.1.commitdate: 2022/12/10
+photo.1.link: https://www.instagram.com/raven__creative/
+photo.1.tags: mofumofu, peek, smile
+photo.2: ig://Buv7h_MAcLt/m
+photo.2.author: raven__creative
+photo.2.commitdate: 2022/12/10
+photo.2.link: https://www.instagram.com/raven__creative/
+photo.2.tags: laying down, mofumofu, paws
+species: 1
+studbook.id: 1815
+zoo: 144

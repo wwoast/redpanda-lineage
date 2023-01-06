@@ -1,0 +1,20 @@
+[panda]
+_id: 1363
+birthday: 2011/6/26
+birthplace: 247
+children: unknown
+commitdate: 2022/5/22
+en.name: Kara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キャラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1362
+location.1: 247, 2011/6/26
+location.2: 305, 2012/6/14
+species: 1
+studbook.id: 1163
+zoo: 305

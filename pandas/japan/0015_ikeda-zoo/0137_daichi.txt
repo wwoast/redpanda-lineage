@@ -1,0 +1,471 @@
+[panda]
+_id: 137
+birthday: 2009/6/20
+birthplace: 18
+children: 138, 117, 219
+commitdate: 2018/6/27
+death: 2022/12/6
+en.name: Daichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 大地
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 567
+location.1: 18, 2009/6/20
+location.2: 15, 2011/4/16
+photo.1: ig://BZQASnQhKG0/m
+photo.1.author: miis_98
+photo.1.commitdate: 2020/4/1
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: portrait, smile, tongue
+photo.2: ig://BmXzyTeFLWJ/m
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2019/6/1
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: blink, paws
+photo.3: ig://BnAvLzJFji3/m
+photo.3.author: kotata_513
+photo.3.commitdate: 2018/8/31
+photo.3.link: https://www.instagram.com/kotata_513/
+photo.3.tags: profile
+photo.4: ig://Bn1H3XJFfFu/m
+photo.4.author: makimaru18
+photo.4.commitdate: 2018/9/22
+photo.4.link: https://www.instagram.com/makimaru18/
+photo.4.tags: smile, tongue
+photo.5: ig://BoJiBFnhHkN/m
+photo.5.author: resapanlove
+photo.5.commitdate: 2018/9/25
+photo.5.link: https://www.instagram.com/resapanlove/
+photo.5.tags: smile
+photo.6: ig://BoOuzQJgmUH/m
+photo.6.author: nekodatamako
+photo.6.commitdate: 2019/6/1
+photo.6.link: https://www.instagram.com/nekodatamako/
+photo.6.tags: paws
+photo.7: ig://BouvwjgFT0y/m
+photo.7.author: kotata_513
+photo.7.commitdate: 2018/10/9
+photo.7.link: https://www.instagram.com/kotata_513/
+photo.7.tags: tongue
+photo.8: ig://Bo75OFNHaLn/m
+photo.8.author: chibitora_knit
+photo.8.commitdate: 2019/6/1
+photo.8.link: https://www.instagram.com/chibitora_knit/
+photo.8.tags: bamboo, laying down, sleeping
+photo.9: ig://Bq6o9czHkHo/m
+photo.9.author: joy93.87
+photo.9.commitdate: 2018/12/22
+photo.9.link: https://www.instagram.com/joy93.87/
+photo.9.tags: air tasting, smile, tongue
+photo.10: ig://Btpsm9lg5Z_/m
+photo.10.author: bicyclelifu
+photo.10.commitdate: 2019/6/1
+photo.10.link: https://www.instagram.com/bicyclelifu/
+photo.10.tags: bamboo, tongue
+photo.11: ig://BuFCUg9lgcj/m
+photo.11.author: goricr_z
+photo.11.commitdate: 2019/6/1
+photo.11.link: https://www.instagram.com/goricr_z/
+photo.11.tags: bamboo, wink
+photo.12: ig://Bzsw0MSBSUB/m
+photo.12.author: itsuak
+photo.12.commitdate: 2019/7/10
+photo.12.link: https://www.instagram.com/itsuak/
+photo.12.tags: laying down, paws, portrait, sleeping
+photo.13: ig://B1jC3EVh65v/m
+photo.13.author: itsuak
+photo.13.commitdate: 2019/8/24
+photo.13.link: https://www.instagram.com/itsuak/
+photo.13.tags: laying down, paws, portrait, sleeping
+photo.14: ig://B1oSqJ8hLxa/m
+photo.14.author: itsuak
+photo.14.commitdate: 2019/8/29
+photo.14.link: https://www.instagram.com/itsuak/
+photo.14.tags: portrait, tongue
+photo.15: ig://B2Out1bBuCY/m
+photo.15.author: apple_jasmine33
+photo.15.commitdate: 2019/9/14
+photo.15.link: https://www.instagram.com/apple_jasmine33/
+photo.15.tags: laying down, smile, tongue
+photo.16: ig://B2faNW3Fzwz/m
+photo.16.author: love_ikedazoo
+photo.16.commitdate: 2020/5/1
+photo.16.link: https://www.instagram.com/love_ikedazoo/
+photo.16.tags: smile, tongue
+photo.17: ig://B3cHXNoBSf0/m
+photo.17.author: itsuak
+photo.17.commitdate: 2019/10/14
+photo.17.link: https://www.instagram.com/itsuak/
+photo.17.tags: portrait, smile, tongue
+photo.18: ig://B4fXL-Yhp_O/m
+photo.18.author: itsuak
+photo.18.commitdate: 2019/11/6
+photo.18.link: https://www.instagram.com/itsuak/
+photo.18.tags: laying down, portrait, sleeping
+photo.19: ig://B_XQTz6gBYi/m
+photo.19.author: itsuak
+photo.19.commitdate: 2020/5/1
+photo.19.link: https://www.instagram.com/itsuak/
+photo.19.tags: blink, portrait, smile
+photo.20: ig://B_sD9Z2huGH/m
+photo.20.author: itsuak
+photo.20.commitdate: 2020/5/4
+photo.20.link: https://www.instagram.com/itsuak/
+photo.20.tags: laying down, paws, portrait, smile
+photo.21: ig://CBn65lchd4f/m
+photo.21.author: panda.daisuki
+photo.21.commitdate: 2020/6/24
+photo.21.link: https://www.instagram.com/panda.daisuki/
+photo.21.tags: mofumofu, portrait, tongue
+photo.22: ig://CDy0Z7UBdHO/m
+photo.22.author: kisshan324
+photo.22.commitdate: 2020/8/14
+photo.22.link: https://www.instagram.com/kisshan324/
+photo.22.tags: bamboo, mofumofu, portrait, smile
+photo.23: ig://CEWS82MhRym/m
+photo.23.author: grskus_tk
+photo.23.commitdate: 2020/9/7
+photo.23.link: https://www.instagram.com/grskus_tk/
+photo.23.tags: bamboo, smile, tail
+photo.24: ig://CEZFh_QgMPG/m
+photo.24.author: itsuak
+photo.24.commitdate: 2020/9/3
+photo.24.link: https://www.instagram.com/itsuak/
+photo.24.tags: mofumofu, portrait, smile, tongue
+photo.25: ig://CFR_GsZBJAJ/m
+photo.25.author: itsuak
+photo.25.commitdate: 2020/9/27
+photo.25.link: https://www.instagram.com/itsuak/
+photo.25.tags: mofumofu, whiskers
+photo.26: ig://CKGsMIFBaNs/m
+photo.26.author: itsuak
+photo.26.commitdate: 2021/2/28
+photo.26.link: https://www.instagram.com/itsuak/
+photo.26.tags: mofumofu, portrait
+photo.27: ig://CKeGvKvsl9C/m
+photo.27.author: itsuak
+photo.27.commitdate: 2021/2/2
+photo.27.link: https://www.instagram.com/itsuak/
+photo.27.tags: laying down, mofumofu, paws, portrait, sleeping
+photo.28: ig://CKl-wVLBPBF/m
+photo.28.author: itsuak
+photo.28.commitdate: 2021/1/28
+photo.28.link: https://www.instagram.com/itsuak/
+photo.28.tags: bamboo, mofumofu, portrait, smile
+photo.29: ig://CKoTF7_BByT/m
+photo.29.author: itsuak
+photo.29.commitdate: 2021/1/30
+photo.29.link: https://www.instagram.com/itsuak/
+photo.29.tags: itchy, paws
+photo.30: ig://CLE9sYAhZTg/m
+photo.30.author: itsuak
+photo.30.commitdate: 2021/2/16
+photo.30.link: https://www.instagram.com/itsuak/
+photo.30.tags: laying down, paws, playing, portrait
+photo.31: ig://CLUY6JoBO2W/m
+photo.31.author: itsuak
+photo.31.commitdate: 2021/8/27
+photo.31.link: https://www.instagram.com/itsuak/
+photo.31.tags: laying down, mofumofu, portrait, sleeping
+photo.32: ig://CLeErfshY-y/m
+photo.32.author: itsuak
+photo.32.commitdate: 2021/2/28
+photo.32.link: https://www.instagram.com/itsuak/
+photo.32.tags: ear, mofumofu, portrait
+photo.33: ig://CLg0g7gB-Zz/m
+photo.33.author: itsuak
+photo.33.commitdate: 2021/8/27
+photo.33.link: https://www.instagram.com/itsuak/
+photo.33.tags: laying down, portrait, tail
+photo.34: ig://CMrqiUZBONC/m
+photo.34.author: itsuak
+photo.34.commitdate: 2021/8/27
+photo.34.link: https://www.instagram.com/itsuak/
+photo.34.tags: bamboo, close-up, mofumofu, portrait
+photo.35: ig://CM98Vv7hb_c/m
+photo.35.author: itsuak
+photo.35.commitdate: 2021/8/27
+photo.35.link: https://www.instagram.com/itsuak/
+photo.35.tags: bamboo, paws, portrait, smile, tongue
+photo.36: ig://CNfPPdZLMbT/m
+photo.36.author: itsuak
+photo.36.commitdate: 2021/8/27
+photo.36.link: https://www.instagram.com/itsuak/
+photo.36.tags: laying down, paws, portrait, sleeping
+photo.37: ig://CNkhFQbBaE3/m
+photo.37.author: itsuak
+photo.37.commitdate: 2021/8/27
+photo.37.link: https://www.instagram.com/itsuak/
+photo.37.tags: mofumofu, peek, portrait, whiskers
+photo.38: ig://CNp3yVeBDNU/m
+photo.38.author: itsuak
+photo.38.commitdate: 2021/6/1
+photo.38.link: https://www.instagram.com/itsuak/
+photo.38.tags: blink, mofumofu, portrait
+photo.39: ig://CNsUNw-BOI4/m
+photo.39.author: itsuak
+photo.39.commitdate: 2021/6/1
+photo.39.link: https://www.instagram.com/itsuak/
+photo.39.tags: mofumofu, paws, portrait
+photo.40: ig://CNsUwQlBlNt/m
+photo.40.author: itsuak
+photo.40.commitdate: 2021/6/1
+photo.40.link: https://www.instagram.com/itsuak/
+photo.40.tags: close-up, grooming, paws
+photo.41: ig://COp5pY2LG_W/m
+photo.41.author: itsuak
+photo.41.commitdate: 2021/6/4
+photo.41.link: https://www.instagram.com/itsuak/
+photo.41.tags: bamboo, mofumofu, peek, portrait, smile
+photo.42: ig://COxxdXVrmgT/m
+photo.42.author: itsuak
+photo.42.commitdate: 2021/8/27
+photo.42.link: https://www.instagram.com/itsuak/
+photo.42.tags: laying down, portrait, sleeping
+photo.43: ig://CO0TeUSLXN_/m
+photo.43.author: itsuak
+photo.43.commitdate: 2021/6/6
+photo.43.link: https://www.instagram.com/itsuak/
+photo.43.tags: grooming, mofumofu, paws, portrait
+photo.44: ig://CPN-aq4LCVn/m
+photo.44.author: itsuak
+photo.44.commitdate: 2021/7/7
+photo.44.link: https://www.instagram.com/itsuak/
+photo.44.tags: laying down, sleeping
+photo.45: ig://CP8HC_fL6zG/m
+photo.45.author: itsuak
+photo.45.commitdate: 2021/8/27
+photo.45.link: https://www.instagram.com/itsuak/
+photo.45.tags: bamboo, laying down, paws, portrait, smile
+photo.46: ig://CQ0lP89hUUT/m
+photo.46.author: itsuak
+photo.46.commitdate: 2021/8/22
+photo.46.link: https://www.instagram.com/itsuak/
+photo.46.tags: portrait, smile, tongue
+photo.47: ig://CRY8AaCj88x/m
+photo.47.author: itsuak
+photo.47.commitdate: 2021/8/27
+photo.47.link: https://www.instagram.com/itsuak/
+photo.47.tags: mofumofu, peek, portrait, smile, tail, tongue
+photo.48: ig://CRgyqeYjFB2/m
+photo.48.author: itsuak
+photo.48.commitdate: 2021/8/27
+photo.48.link: https://www.instagram.com/itsuak/
+photo.48.tags: laying down, mofumofu, portrait, tongue
+photo.49: ig://CSwxRa6ByFW/m
+photo.49.author: itsuak
+photo.49.commitdate: 2021/8/27
+photo.49.link: https://www.instagram.com/itsuak/
+photo.49.tags: door, portrait
+photo.50: ig://CS0f0A7FZJz/m
+photo.50.author: itsuak
+photo.50.commitdate: 2021/8/27
+photo.50.link: https://www.instagram.com/itsuak/
+photo.50.tags: bamboo, itchy, portrait
+photo.51: ig://CTFInXKFPlL/m
+photo.51.author: itsuak
+photo.51.commitdate: 2021/10/10
+photo.51.link: https://www.instagram.com/itsuak/
+photo.51.tags: bamboo, smile, tail
+photo.52: ig://CTKXpN2vtuo/m
+photo.52.author: itsuak
+photo.52.commitdate: 2021/9/7
+photo.52.link: https://www.instagram.com/itsuak/
+photo.52.tags: bamboo, close-up, mofumofu, portrait, smile
+photo.53: ig://CTPUv1yv5DF/m
+photo.53.author: itsuak
+photo.53.commitdate: 2021/10/10
+photo.53.link: https://www.instagram.com/itsuak/
+photo.53.tags: smile, tail, tongue
+photo.54: ig://CTUI1zTh9jU/m
+photo.54.author: hamiiiii831_
+photo.54.commitdate: 2021/10/10
+photo.54.link: https://www.instagram.com/hamiiiii831_/
+photo.54.tags: mofumofu
+photo.55: ig://CTcUDoBPzPv/m
+photo.55.author: itsuak
+photo.55.commitdate: 2021/9/10
+photo.55.link: https://www.instagram.com/itsuak/
+photo.55.tags: laying down, sleeping
+photo.56: ig://CTw02WMv1b0/m
+photo.56.author: itsuak
+photo.56.commitdate: 2021/9/18
+photo.56.link: https://www.instagram.com/itsuak/
+photo.56.tags: grooming, paws, portrait
+photo.57: ig://CT19YHCP6gm/m
+photo.57.author: itsuak
+photo.57.commitdate: 2021/10/24
+photo.57.link: https://www.instagram.com/itsuak/
+photo.57.tags: portrait, smile, whiskers
+photo.58: ig://CUHxtxfFxik/m
+photo.58.author: itsuak
+photo.58.commitdate: 2021/10/6
+photo.58.link: https://www.instagram.com/itsuak/
+photo.58.tags: bamboo, portrait, smile, tail, tongue
+photo.59: ig://CUcnkHGP4W1/m
+photo.59.author: itsuak
+photo.59.commitdate: 2021/10/9
+photo.59.link: https://www.instagram.com/itsuak/
+photo.59.tags: paws, portrait, tail
+photo.60: ig://CUe6Cn4h-HY/m
+photo.60.author: itsuak
+photo.60.commitdate: 2021/10/9
+photo.60.link: https://www.instagram.com/itsuak/
+photo.60.tags: portrait, smile, tongue
+photo.61: ig://CUhyGwqBaXw/m
+photo.61.author: itsuak
+photo.61.commitdate: 2021/10/26
+photo.61.link: https://www.instagram.com/itsuak/
+photo.61.tags: portrait, smile, tongue
+photo.62: ig://CVDB3QpBB-j/m
+photo.62.author: itsuak
+photo.62.commitdate: 2021/10/17
+photo.62.link: https://www.instagram.com/itsuak/
+photo.62.tags: mofumofu, paws, portrait
+photo.63: ig://CVZ7K4qhV_X/m
+photo.63.author: itsuak
+photo.63.commitdate: 2022/9/10
+photo.63.link: https://www.instagram.com/itsuak/
+photo.63.tags: mofumofu, portrait, sample, tail
+photo.64: ig://CVr6tuHhpxC/m
+photo.64.author: itsuak
+photo.64.commitdate: 2021/11/15
+photo.64.link: https://www.instagram.com/itsuak/
+photo.64.tags: mofumofu, paws, portrait, smile, tongue
+photo.65: ig://CWkbda0hJoU/m
+photo.65.author: itsuak
+photo.65.commitdate: 2021/11/27
+photo.65.link: https://www.instagram.com/itsuak/
+photo.65.tags: laying down, mofumofu, portrait
+photo.66: ig://CX3blX_PNGJ/m
+photo.66.author: itsuak
+photo.66.commitdate: 2022/1/8
+photo.66.link: https://www.instagram.com/itsuak/
+photo.66.tags: close-up, mofumofu, portrait, sample
+photo.67: ig://CY3sMi0PrHr/m
+photo.67.author: itsuak
+photo.67.commitdate: 2022/2/9
+photo.67.link: https://www.instagram.com/itsuak/
+photo.67.tags: laying down, mofumofu, portrait, sleeping, tail
+photo.68: ig://itsuak/CZHkJ7_Psz1/m
+photo.68.author: itsuak
+photo.68.commitdate: 2022/2/20
+photo.68.link: https://www.instagram.com/itsuak/
+photo.68.tags: blink, grooming, laying down, mofumofu, paws, portrait
+photo.69: ig://CZMruYtv4ox/m
+photo.69.author: itsuak
+photo.69.commitdate: 2022/2/20
+photo.69.link: https://www.instagram.com/itsuak/
+photo.69.tags: mofumofu, portrait, sample
+photo.70: ig://CZW8ji3vxYM/m
+photo.70.author: itsuak
+photo.70.commitdate: 2022/3/17
+photo.70.link: https://www.instagram.com/itsuak/
+photo.70.tags: itchy, mofumofu, paws, portrait, sample
+photo.71: ig://CZhN9vev08w/m
+photo.71.author: itsuak
+photo.71.commitdate: 2022/2/20
+photo.71.link: https://www.instagram.com/itsuak/
+photo.71.tags: close-up, grooming, mofumofu, paws, portrait, sample
+photo.72: ig://CZ9Y4QTv4bM/m
+photo.72.author: itsuak
+photo.72.commitdate: 2022/3/9
+photo.72.link: https://www.instagram.com/itsuak/
+photo.72.tags: bamboo, mofumofu, portrait, smile
+photo.73: ig://CaKa8ImviHY/m
+photo.73.author: itsuak
+photo.73.commitdate: 2022/3/13
+photo.73.link: https://www.instagram.com/itsuak/
+photo.73.tags: bamboo, mofumofu, paws, portrait, sample
+photo.74: ig://CaZ5BZTvFcw/m
+photo.74.author: itsuak
+photo.74.commitdate: 2022/3/11
+photo.74.link: https://www.instagram.com/itsuak/
+photo.74.tags: mofumofu, paws, peek, portrait, toys
+photo.75: ig://CbhhKhGvFmh/m
+photo.75.author: itsuak
+photo.75.commitdate: 2022/4/25
+photo.75.link: https://www.instagram.com/itsuak/
+photo.75.tags: mofumofu, paws, portrait, tongue
+photo.76: ig://CciO4N5v5hg/m
+photo.76.author: itsuak
+photo.76.commitdate: 2022/6/6
+photo.76.link: https://www.instagram.com/itsuak/
+photo.76.tags: portrait, sample, tail
+photo.77: ig://CcnWhnUPau1/m
+photo.77.author: itsuak
+photo.77.commitdate: 2022/6/6
+photo.77.link: https://www.instagram.com/itsuak/
+photo.77.tags: bamboo, mofumofu, paws, portrait, sample, shoots
+photo.78: ig://CeVvmh9v-gA/m
+photo.78.author: itsuak
+photo.78.commitdate: 2022/8/1
+photo.78.link: https://www.instagram.com/itsuak/
+photo.78.tags: bridge, mofumofu, portrait, sample
+photo.79: ig://Ces1_EsOSH5/m
+photo.79.author: itsuak
+photo.79.commitdate: 2022/8/18
+photo.79.link: https://www.instagram.com/itsuak/
+photo.79.tags: bridge, mofumofu, peek, portrait, sample, tongue
+photo.80: ig://CfL1xV5Lg5s/m
+photo.80.author: itsuak
+photo.80.commitdate: 2022/8/18
+photo.80.link: https://www.instagram.com/itsuak/
+photo.80.tags: bridge, mofumofu, paws, peek, portrait, sample, tongue
+photo.81: ig://CfQw-FfPN5Z/m
+photo.81.author: itsuak
+photo.81.commitdate: 2022/8/18
+photo.81.link: https://www.instagram.com/itsuak/
+photo.81.tags: paws, portrait, sample, tongue, whiskers
+photo.82: ig://Cfd2IzsvKM0/m
+photo.82.author: itsuak
+photo.82.commitdate: 2022/8/18
+photo.82.link: https://www.instagram.com/itsuak/
+photo.82.tags: bridge, paws, peek, portrait
+photo.83: ig://Cfv41Q-L_V1/m
+photo.83.author: itsuak
+photo.83.commitdate: 2022/8/18
+photo.83.link: https://www.instagram.com/itsuak/
+photo.83.tags: mofumofu, paws, peek, portrait, sample, tongue
+photo.84: ig://CfxR_GrB-xK/m
+photo.84.author: miis_98
+photo.84.commitdate: 2022/7/31
+photo.84.link: https://www.instagram.com/miis_98/
+photo.84.tags: mofumofu, paws, portrait, sample, tongue
+photo.85: ig://Cf0-VtcOu3L/m
+photo.85.author: itsuak
+photo.85.commitdate: 2022/8/18
+photo.85.link: https://www.instagram.com/itsuak/
+photo.85.tags: mofumofu, paws, portrait, sample, tongue
+photo.86: ig://Cg4ANhTrdgb/m
+photo.86.author: itsuak
+photo.86.commitdate: 2022/8/18
+photo.86.link: https://www.instagram.com/itsuak/
+photo.86.tags: mofumofu, paws, portrait, sample, tongue, whiskers
+photo.87: ig://ChuHJ9srl3x/m
+photo.87.author: itsuak
+photo.87.commitdate: 2022/9/4
+photo.87.link: https://www.instagram.com/itsuak/
+photo.87.tags: itchy, mofumofu, paws, portrait, sample, whiskers, wink
+photo.88: ig://CiU21vYrSk8/m
+photo.88.author: itsuak
+photo.88.commitdate: 2022/9/18
+photo.88.link: https://www.instagram.com/itsuak/
+photo.88.tags: mofumofu, portrait, sample, tongue
+photo.89: ig://Ckh5SKHvno7/m
+photo.89.author: itsuak
+photo.89.commitdate: 2022/12/24
+photo.89.link: https://www.instagram.com/itsuak/
+photo.89.tags: bamboo, blink, mofumofu, portrait, smile
+photo.90: ig://CknUPY1vxmY/m
+photo.90.author: itsuak
+photo.90.commitdate: 2022/12/24
+photo.90.link: https://www.instagram.com/itsuak/
+photo.90.tags: mofumofu, peek, portrait, sample
+species: 2
+studbook.id: 0978
+zoo: 15

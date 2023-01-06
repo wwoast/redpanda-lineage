@@ -1,0 +1,104 @@
+[panda]
+_id: 48
+birthday: 2006/6/2
+birthplace: 8
+children: 214
+commitdate: 2018/6/19
+death: 2022/5/23
+en.name: Yuuta
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ユウタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 72
+location.1: 8, 2006/6/2
+location.2: 26, 2008/10/18
+photo.1: https://www.codaworry.com/images/rpf/yuuta-1-oomoriyama.jpg
+photo.1.author: oomoriyama_zoo
+photo.1.commitdate: 2018/8/16
+photo.1.link: http://www.city.akita.akita.jp/city/in/zoo/
+photo.1.tags: snow, standing
+photo.2: ig://Bf7aPuBBu2u/m
+photo.2.author: miis_98
+photo.2.commitdate: 2020/4/1
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: eye, portrait, profile
+photo.3: ig://Bpxqy2HF0cy/m
+photo.3.author: kipekaila
+photo.3.commitdate: 2018/11/5
+photo.3.link: https://www.instagram.com/kipekaila/
+photo.3.tags: eye, portrait
+photo.4: ig://BqQqbnzFauK/m
+photo.4.author: rie_panda55
+photo.4.commitdate: 2018/11/17
+photo.4.link: https://www.instagram.com/rie_panda55/
+photo.4.tags: eye, portrait
+photo.5: ig://Byc1DvzBbNF/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2019/6/16
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: mofumofu, portrait
+photo.6: ig://B2IrcpYB2_X/m
+photo.6.author: grskus_tk
+photo.6.commitdate: 2019/9/9
+photo.6.link: https://www.instagram.com/grskus_tk/
+photo.6.tags: grooming, portrait
+photo.7: ig://CJsVW-1B_Rw/m
+photo.7.author: zoowfreedom299
+photo.7.commitdate: 2021/1/30
+photo.7.link: https://www.instagram.com/zoowfreedom299/
+photo.7.tags: snow
+photo.8: ig://CJsgF0vBCdM/m
+photo.8.author: zoowfreedom299
+photo.8.commitdate: 2021/1/30
+photo.8.link: https://www.instagram.com/zoowfreedom299/
+photo.8.tags: paws, snow, standing
+photo.9: ig://CM5tFdqBhPe/m
+photo.9.author: zoowfreedom299
+photo.9.commitdate: 2022/1/6
+photo.9.link: https://www.instagram.com/zoowfreedom299/
+photo.9.tags: apple time, keeper, lips, paws, smile, whiskers
+photo.10: ig://CPz5Zy9s6OR/m
+photo.10.author: oomoriyama_zoo
+photo.10.commitdate: 2021/6/18
+photo.10.link: https://www.instagram.com/omoriyamazoo/
+photo.10.tags: apple time, close-up, smile
+photo.11: ig://CT9lZbpBF7Q/m
+photo.11.author: ifumoto88
+photo.11.commitdate: 2021/9/18
+photo.11.link: https://www.instagram.com/ifumoto88/
+photo.11.tags: apple time, keeper, portrait, smile
+photo.12: ig://CXBfw0bpvR1/m
+photo.12.author: mini_cochi
+photo.12.commitdate: 2021/12/19
+photo.12.link: https://www.instagram.com/mini_cochi/
+photo.12.tags: eye, portrait
+photo.13: ig://CXizyZ8hdMp/m
+photo.13.author: minatomirai215
+photo.13.commitdate: 2021/12/19
+photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: eye, portrait, tail
+photo.14: ig://CZdYkm2rNS_/m
+photo.14.author: zoowfreedom299
+photo.14.commitdate: 2022/7/25
+photo.14.link: https://www.instagram.com/zoowfreedom299/
+photo.14.tags: paws, smile, tongue
+photo.15: ig://CZdwcwHrok2/m
+photo.15.author: zoowfreedom299
+photo.15.commitdate: 2022/7/25
+photo.15.link: https://www.instagram.com/zoowfreedom299/
+photo.15.tags: apple time, eye, keeper, paws, window
+photo.16: ig://Cd-_dp7LyZS/m
+photo.16.author: mini_cochi
+photo.16.commitdate: 2022/6/29
+photo.16.link: https://www.instagram.com/mini_cochi/
+photo.16.tags: portrait, peek, sample
+species: 2
+studbook.id: 0662
+video.1: https://youtu.be/0-MpFDkPL2Y
+video.1.author: themamepanda
+video.1.link: https://www.youtube.com/channel/UC6u9J5Mz3dwD3-YXzQJ2KbA
+zoo: 26

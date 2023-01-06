@@ -1,0 +1,16 @@
+[zoo]
+_id: 237
+commitdate: 2020/3/8
+en.address: 500 Ninos Dr, Santa Barbara, CA 93103
+en.location: Santa Barbara, California, USA
+en.name: Santa Barbara Zoo
+flag: USA
+language.order: en
+latitude: 34.420408
+longitude: -119.6707314
+map: https://g.page/santa-barbara-zoo-santa-barbara
+photo.1: ig://B-Fi417lyQy/m
+photo.1.author: santabarbarazoo
+photo.1.commitdate: 2020/4/25
+photo.1.link: https://www.instagram.com/santabarbarazoo/
+website: https://www.sbzoo.org/

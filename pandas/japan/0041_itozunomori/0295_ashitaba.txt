@@ -1,0 +1,323 @@
+[panda]
+_id: 295
+birthday: 2016/6/22
+birthplace: 64
+children: none
+commitdate: 2018/10/19
+en.name: Ashitaba
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アシタバ
+jp.nicknames: none
+jp.othernames: 明日葉
+language.order: jp, en
+litter: 294
+location.1: 64, 2016/6/22
+location.2: 41, 2018/10/18
+photo.1: ig://BUxqC47h7Vk/m
+photo.1.author: miis_98
+photo.1.commitdate: 2020/4/1
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: paws, whiskers
+photo.2: ig://Bdugr1FlaIr/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/10/19
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: baby, portrait
+photo.3: ig://BdzioUGlBoD/m
+photo.3.author: hanamaru_redpanda
+photo.3.commitdate: 2018/10/19
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait
+photo.4: ig://BpJxiEnFRl8/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2018/10/20
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: portrait
+photo.5: ig://Bp2-k5jFHSE/m
+photo.5.author: yossi929
+photo.5.commitdate: 2018/11/6
+photo.5.link: https://www.instagram.com/yossi929/
+photo.5.tags: portrait
+photo.6: ig://BrppD7ilwEO/m
+photo.6.author: yossi929
+photo.6.commitdate: 2018/12/21
+photo.6.link: https://www.instagram.com/yossi929/
+photo.6.tags: portrait, profile
+photo.7: ig://Br2XxLiFRYm/m
+photo.7.author: yossi929
+photo.7.commitdate: 2018/12/26
+photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: apple time, nose, portrait
+photo.8: ig://Br6POBMFMZU/m
+photo.8.author: re_ichimaru
+photo.8.commitdate: 2018/12/27
+photo.8.link: https://www.instagram.com/re_ichimaru/
+photo.9: ig://BsdMnArlMTi/m
+photo.9.author: yossi929
+photo.9.commitdate: 2019/1/14
+photo.9.link: https://www.instagram.com/yossi929/
+photo.9.tags: portrait, tongue
+photo.10: ig://Bs5HNzTlUob/m
+photo.10.author: re_ichimaru
+photo.10.commitdate: 2019/1/24
+photo.10.link: https://www.instagram.com/re_ichimaru/
+photo.10.tags: bridge
+photo.11: ig://BtMhs6PFrQY/m
+photo.11.author: re_ichimaru
+photo.11.commitdate: 2019/1/30
+photo.11.link: https://www.instagram.com/re_ichimaru/
+photo.11.tags: portrait
+photo.12: ig://BuSCeD1Hupe/m
+photo.12.author: mochan8686
+photo.12.commitdate: 2019/4/1
+photo.12.link: https://www.instagram.com/mochan8686/
+photo.12.tags: portrait
+photo.13: ig://BwwoQIFFXXd/m
+photo.13.author: yossi929
+photo.13.commitdate: 2020/5/15
+photo.13.link: https://www.instagram.com/yossi929/
+photo.13.tags: tail
+photo.14: ig://Bw-h5P5lLkP/m
+photo.14.author: yossi929
+photo.14.commitdate: 2020/5/15
+photo.14.link: https://www.instagram.com/yossi929/
+photo.14.tags: long-tongue, portrait, tongue
+photo.15: ig://BxeEsJAF4wa/m
+photo.15.author: re_ichimaru
+photo.15.commitdate: 2019/5/19
+photo.15.link: https://www.instagram.com/re_ichimaru/
+photo.15.tags: sleeping, smile
+photo.16: ig://Bx2Mv3HFkzD/m
+photo.16.author: re_ichimaru
+photo.16.commitdate: 2019/5/30
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.16.tags: smile
+photo.17: ig://Bx_FbmshTz2/m
+photo.17.author: yossi929
+photo.17.commitdate: 2019/5/31
+photo.17.link: https://www.instagram.com/yossi929/
+photo.17.tags: bamboo, close-up, portrait, whiskers
+photo.18: ig://ByB-Xf1Bmyv/m
+photo.18.author: yossi929
+photo.18.commitdate: 2020/5/15
+photo.18.link: https://www.instagram.com/yossi929/
+photo.18.tags: apple time, keeper, nose, portrait
+photo.19: ig://By_VZ7dhV1O/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2019/6/23
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: smile
+photo.20: ig://By_lqnTlp19/m
+photo.20.author: yakkooo24
+photo.20.commitdate: 2019/6/22
+photo.20.link: https://www.instagram.com/yakkooo24/
+photo.20.tags: climb
+photo.21: ig://BzA3UGiBCNA/m
+photo.21.author: yossi929
+photo.21.commitdate: 2019/6/22
+photo.21.link: https://www.instagram.com/yossi929/
+photo.22: ig://BzDSAPCha35/m
+photo.22.author: jas_forever_love
+photo.22.commitdate: 2019/6/23
+photo.22.link: https://www.instagram.com/jas_forever_love/
+photo.22.tags: portrait
+photo.23: ig://B1zo68PBE4O/m
+photo.23.author: yossi929
+photo.23.commitdate: 2019/8/31
+photo.23.link: https://www.instagram.com/yossi929/
+photo.23.tags: apple time, portrait
+photo.24: ig://B2iJZEiB9Qd/m
+photo.24.author: yossi929
+photo.24.commitdate: 2019/9/18
+photo.24.link: https://www.instagram.com/yossi929/
+photo.24.tags: laying down, portrait
+photo.25: ig://B2jKwUwg_V4/m
+photo.25.author: miis_98
+photo.25.commitdate: 2019/9/21
+photo.25.link: https://www.instagram.com/miis_98/
+photo.25.tags: door, paws, portrait
+photo.26: ig://B2y3dPbB1Cy/m
+photo.26.author: panda.daisuki
+photo.26.commitdate: 2019/9/26
+photo.26.link: https://www.instagram.com/panda.daisuki/
+photo.26.tags: portrait
+photo.27: ig://B2zD2VphL5x/m
+photo.27.author: ifumoto88
+photo.27.commitdate: 2019/9/26
+photo.27.link: https://www.instagram.com/ifumoto88/
+photo.27.tags: apple time, keeper, long-tongue, portrait, tongue
+photo.28: ig://B3RTw5Ghq21/m
+photo.28.author: panda.daisuki
+photo.28.commitdate: 2019/10/14
+photo.28.link: https://www.instagram.com/panda.daisuki/
+photo.28.tags: peek, portrait, smile, tail, tongue, toys, white face
+photo.29: ig://B3q-mupB6mD/m
+photo.29.author: re_ichimaru
+photo.29.commitdate: 2019/10/17
+photo.29.link: https://www.instagram.com/re_ichimaru/
+photo.29.tags: laying down, portrait, sleeping
+photo.30: ig://B6-AMq9pV_S/m
+photo.30.author: itozu_zoo
+photo.30.commitdate: 2020/4/26
+photo.30.link: https://www.instagram.com/itozu_zoo/
+photo.30.tags: bamboo, standing, tail
+photo.31: ig://B7Tbtn8hJBq/m
+photo.31.author: yossi929
+photo.31.commitdate: 2020/1/16
+photo.31.link: https://www.instagram.com/yossi929/
+photo.31.tags: portrait, window
+photo.32: ig://B8VxUfZhpAv/m
+photo.32.author: mofu_pan
+photo.32.commitdate: 2020/2/16
+photo.32.link: https://www.instagram.com/mofu_pan/
+photo.32.tags: portrait
+photo.33: ig://B9lNye8pTJP/m
+photo.33.author: itozu_zoo
+photo.33.commitdate: 2020/4/26
+photo.33.link: https://www.instagram.com/itozu_zoo/
+photo.33.tags: laying down, paws, portrait, techitechi
+photo.34: ig://B_BMtcJhZo3/m
+photo.34.author: yossi929
+photo.34.commitdate: 2020/4/18
+photo.34.link: https://www.instagram.com/yossi929/
+photo.34.tags: bamboo, bite, portrait, techitechi
+photo.35: ig://B_TLCwYhdo1/m
+photo.35.author: yossi929
+photo.35.commitdate: 2020/4/26
+photo.35.link: https://www.instagram.com/yossi929/
+photo.35.tags: laying down, portrait
+photo.36: ig://B_yhmcbJdYX/m
+photo.36.author: yossi929
+photo.36.commitdate: 2020/5/5
+photo.36.link: https://www.instagram.com/yossi929/
+photo.36.tags: peek, portrait
+photo.37: ig://CAutW-EBKVT/m
+photo.37.author: jas_forever_love
+photo.37.commitdate: 2020/5/28
+photo.37.link: https://www.instagram.com/jas_forever_love/
+photo.37.tags: paws, portrait, tail
+photo.38: ig://CC3L5WXh-RV/m
+photo.38.author: re_ichimaru
+photo.38.commitdate: 2020/9/7
+photo.38.link: https://www.instagram.com/re_ichimaru/
+photo.38.tags: laying down, paws, portrait
+photo.39: ig://CD1Htm_hDFD/m
+photo.39.author: re_ichimaru
+photo.39.commitdate: 2020/9/12
+photo.39.link: https://www.instagram.com/re_ichimaru/
+photo.39.tags: hammock, paws, standing
+photo.40: ig://CD2LR7ahrKy/m
+photo.40.author: yossi929
+photo.40.commitdate: 2020/8/21
+photo.40.link: https://www.instagram.com/yossi929/
+photo.40.tags: apple time, praying, standing, wink
+photo.41: ig://CExc1pKhNwi/m
+photo.41.author: yossi929
+photo.41.commitdate: 2020/9/19
+photo.41.link: https://www.instagram.com/yossi929/
+photo.41.tags: bamboo, smile
+photo.42: ig://CFZhcyQhDDV/m
+photo.42.author: monmon_redpanda
+photo.42.commitdate: 2020/9/21
+photo.42.link: https://www.instagram.com/monmon_redpanda/
+photo.42.tags: apple time, peek, portrait, tree
+photo.43: ig://CFwj5FNhipj/m
+photo.43.author: monmon_redpanda
+photo.43.commitdate: 2020/10/1
+photo.43.link: https://www.instagram.com/monmon_redpanda/
+photo.43.tags: portrait
+photo.44: ig://CGPQgHDhO_5/m
+photo.44.author: yossi929
+photo.44.commitdate: 2020/10/13
+photo.44.link: https://www.instagram.com/yossi929/
+photo.44.tags: apple time, portrait, tree
+photo.45: ig://CHFr30GhJHT/m
+photo.45.author: re_ichimaru
+photo.45.commitdate: 2021/2/2
+photo.45.link: https://www.instagram.com/re_ichimaru/
+photo.45.tags: techitechi, window
+photo.46: ig://CJaVwUFBvPy/m
+photo.46.author: re_ichimaru
+photo.46.commitdate: 2020/12/30
+photo.46.link: https://www.instagram.com/re_ichimaru/
+photo.46.tags: portrait, tongue, whiskers
+photo.47: ig://CK2OQiuBN7H/m
+photo.47.author: yossi929
+photo.47.commitdate: 2021/5/30
+photo.47.link: https://www.instagram.com/yossi929/
+photo.47.tags: apple time, climb, whiskers
+photo.48: ig://CMzBow7hK7b/m
+photo.48.author: yossi929
+photo.48.commitdate: 2021/5/30
+photo.48.link: https://www.instagram.com/yossi929/
+photo.48.tags: close-up, laying down, portrait, sleeping
+photo.49: ig://COlunhXBsrf/m
+photo.49.author: yossi929
+photo.49.commitdate: 2021/6/4
+photo.49.link: https://www.instagram.com/yossi929/
+photo.49.tags: peek, portrait, whiskers
+photo.50: ig://CQaFg11hE6M/m
+photo.50.author: re_ichimaru
+photo.50.commitdate: 2021/6/23
+photo.50.link: https://www.instagram.com/re_ichimaru/
+photo.50.tags: autumn, portrait, whiskers
+photo.51: ig://CWMvEOFBEaI/m
+photo.51.author: yossi929
+photo.51.commitdate: 2021/11/21
+photo.51.link: https://www.instagram.com/yossi929/
+photo.51.tags: apple time, close-up, paws, whiskers
+photo.52: ig://CWxhhaaB1FM/m
+photo.52.author: makimaru18
+photo.52.commitdate: 2022/1/7
+photo.52.link: https://www.instagram.com/makimaru18/
+photo.52.tags: paws, portrait, toys, videolink
+photo.53: ig://CXBJRIAluCM/m
+photo.53.author: yossi929
+photo.53.commitdate: 2022/1/10
+photo.53.link: https://www.instagram.com/yossi929/
+photo.53.tags: laying down, mofumofu, peek, smile, tree
+photo.54: ig://CXnbIOlLhBq/m
+photo.54.author: itozu_zoo
+photo.54.commitdate: 2021/12/20
+photo.54.link: https://www.instagram.com/itozu_zoo/
+photo.54.tags: lunch time, paws, portrait, sample, standing, tail, whiskers
+photo.55: ig://CX7vWncLAEC/m
+photo.55.author: itozu_zoo
+photo.55.commitdate: 2022/1/8
+photo.55.link: https://www.instagram.com/itozu_zoo/
+photo.55.tags: laying down, paws, portrait, sleeping
+photo.56: ig://CYKv0vXB3OO/m
+photo.56.author: re_ichimaru
+photo.56.commitdate: 2022/1/13
+photo.56.link: https://www.instagram.com/re_ichimaru/
+photo.56.tags: apple time, peek, snow
+photo.57: ig://CYKx7CTJA3b/m
+photo.57.author: yossi929
+photo.57.commitdate: 2022/2/6
+photo.57.link: https://www.instagram.com/yossi929/
+photo.57.tags: peek, snow, whiskers
+photo.58: ig://CYRV50Alrtv/m
+photo.58.author: yossi929
+photo.58.commitdate: 2022/1/10
+photo.58.link: https://www.instagram.com/yossi929/
+photo.58.tags: apple time, nose, snow
+photo.59: ig://CYX9hZWM7mY/m
+photo.59.author: grskus_tk
+photo.59.commitdate: 2022/4/12
+photo.59.link: https://www.instagram.com/grskus_tk/
+photo.59.tags: bamboo
+photo.60: ig://CaYPvRfvFID/m
+photo.60.author: yossi929
+photo.60.commitdate: 2022/3/5
+photo.60.link: https://www.instagram.com/yossi929/
+photo.60.tags: portrait, sample, whiskers
+photo.61: ig://CfFa8k4vYvK/m
+photo.61.author: yossi929
+photo.61.commitdate: 2022/7/18
+photo.61.link: https://www.instagram.com/yossi929/
+photo.61.tags: paws, sample, tongue, whiskers
+species: 2
+studbook.id: 1682
+zoo: 41

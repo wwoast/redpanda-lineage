@@ -1,0 +1,60 @@
+[panda]
+_id: 1148
+birthday: 2014/6/13
+birthplace: 239
+children: unknown
+cn.name: 櫻桃
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/3/27
+en.name: Ying Tao
+en.nicknames: none
+en.othernames: Yingtao, Ying-Tao
+fr.name: Ying Tao
+fr.nicknames: none
+fr.othernames: Yingtao, Ying-Tao
+gender: f
+jp.name: インタオ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, cn, en, jp
+litter: 1149
+location.1: 239, 2014/6/13
+location.2: 238, 2015/3/6
+photo.1: ig://6ahkjzDwfF/m
+photo.1.author: parcsaintecroix
+photo.1.commitdate: 2020/3/31
+photo.1.link: https://www.instagram.com/parcsaintecroix/
+photo.1.tags: climb, portrait, tree
+photo.2: ig://73IYiqDwbU/m
+photo.2.author: parcsaintecroix
+photo.2.commitdate: 2020/3/31
+photo.2.link: https://www.instagram.com/parcsaintecroix/
+photo.2.tags: paws, portrait, tree
+photo.3: ig://BPYUUJFAQd4/m
+photo.3.author: parcsaintecroix
+photo.3.commitdate: 2020/3/31
+photo.3.link: https://www.instagram.com/parcsaintecroix/
+photo.3.tags: snow, tail, whiskers
+photo.4: ig://BaWQsxfntcq/m
+photo.4.author: parcsaintecroix
+photo.4.commitdate: 2020/3/31
+photo.4.link: https://www.instagram.com/parcsaintecroix/
+photo.4.tags: tail, tongue, tree
+photo.5: ig://Bp97IEDnDv8/m
+photo.5.author: parcsaintecroix
+photo.5.commitdate: 2020/3/31
+photo.5.link: https://www.instagram.com/parcsaintecroix/
+photo.5.tags: peek
+photo.6: ig://Bs0e6rtHEqL/m
+photo.6.author: parcsaintecroix
+photo.6.commitdate: 2020/3/31
+photo.6.link: https://www.instagram.com/parcsaintecroix/
+photo.6.tags: snow
+photo.7: ig://B97lj4_H0dn/m
+photo.7.author: nathalie.elliott
+photo.7.commitdate: 2020/3/27
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: mofumofu, paws, portrait
+species: 2
+zoo: 238

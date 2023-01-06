@@ -1,0 +1,21 @@
+[panda]
+_id: 1137
+birthday: 2006/6/15
+birthplace: 141
+children: 1135
+commitdate: 2020/3/20
+death: 2008/8/26
+en.name: Curry
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: カイエン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1136
+location.1: 141, 2006/6/15
+location.2: 186, 2007/4/18
+location.3: 124, 2007/12/14
+species: 1
+zoo: 124

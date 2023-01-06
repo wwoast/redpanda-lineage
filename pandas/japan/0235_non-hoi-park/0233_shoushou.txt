@@ -1,0 +1,716 @@
+[panda]
+_id: 233
+birthday: 2017/7/15
+birthplace: 37
+children: none
+commitdate: 2018/7/27
+en.name: Shou-Shou
+en.nicknames: none
+en.othernames: Shoushou, Sho-Sho, Syo-Syo, Syosyo, Shosho
+gender: m
+jp.name: 守守
+jp.nicknames: none
+jp.othernames: ショウショウ
+language.order: jp, en
+litter: 234
+location.1: 37, 2017/7/15
+location.2: 235, 2020/1/30
+photo.1: ig://BbyxsBvlak7/m
+photo.1.author: hanamaru_redpanda
+photo.1.commitdate: 2018/12/23
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: baby, portrait
+photo.2: ig://BcO79eMhcW7/m
+photo.2.author: mifko55
+photo.2.commitdate: 2020/4/13
+photo.2.link: https://www.instagram.com/mifko55/
+photo.2.tags: baby, portrait, snow
+photo.3: ig://BgVpffclxuG/m
+photo.3.author: mifko55
+photo.3.commitdate: 2020/4/13
+photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: baby, portrait, snow, tail
+photo.4: ig://Bll9kT7lEUE/m
+photo.4.author: framereim
+photo.4.commitdate: 2018/8/20
+photo.4.link: https://www.instagram.com/framereim/
+photo.4.tags: blink, bridge, portrait
+photo.5: ig://BlpnnT4lLoA/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2018/8/20
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: laying down, tail, tree
+photo.6: ig://BoOO0YQhN9t/m
+photo.6.author: miis_98
+photo.6.commitdate: 2018/9/30
+photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: portrait
+photo.7: ig://BpjFR1ll-d8/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2018/10/30
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: bamboo, tail
+photo.8: ig://BrIBbHeF0-z/m
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2018/12/9
+photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.8.tags: bamboo
+photo.9: ig://BsWPRY_lJVs/m
+photo.9.author: yoshiyokohama
+photo.9.commitdate: 2019/1/30
+photo.9.link: https://www.instagram.com/yoshiyokohama/
+photo.9.tags: nose, snow, tongue
+photo.10: ig://BsfGxDwljxY/m
+photo.10.author: yoshiyokohama
+photo.10.commitdate: 2019/1/30
+photo.10.link: https://www.instagram.com/yoshiyokohama/
+photo.10.tags: nose, snow
+photo.11: ig://Byb4K_EBMpf/m
+photo.11.author: asahiyamazoo1
+photo.11.commitdate: 2019/6/14
+photo.11.link: https://www.instagram.com/asahiyamazoo1/
+photo.11.tags: bridge, ear, laying down, portrait
+photo.12: ig://By7BbnvhrJn/m
+photo.12.author: komabazoophoto
+photo.12.commitdate: 2019/6/21
+photo.12.link: https://www.instagram.com/komabazoophoto/
+photo.12.tags: bamboo, ear, portrait, smile
+photo.13: ig://BzXvZ-eBi6W/m
+photo.13.author: komabazoophoto
+photo.13.commitdate: 2019/7/2
+photo.13.link: https://www.instagram.com/komabazoophoto/
+photo.13.tags: laying down, portrait, sleeping
+photo.14: ig://B7ny9pwh180/m
+photo.14.author: leonard_redmof
+photo.14.commitdate: 2020/1/25
+photo.14.link: https://www.instagram.com/leonard_redmof/
+photo.14.tags: baby, portrait, snow, tail
+photo.15: ig://B7vX0hfh4ua/m
+photo.15.author: komabazoophoto
+photo.15.commitdate: 2020/1/25
+photo.15.link: https://www.instagram.com/komabazoophoto/
+photo.15.tags: nose, portrait, snow, tongue
+photo.16: ig://B72LavZBZEF/m
+photo.16.author: asahiyamazoo1
+photo.16.commitdate: 2020/2/9
+photo.16.link: https://www.instagram.com/asahiyamazoo1/
+photo.16.tags: apple time, snow, tail
+photo.17: ig://B77V4Txh-SX/m
+photo.17.author: asahiyamazoo1
+photo.17.commitdate: 2020/2/9
+photo.17.link: https://www.instagram.com/asahiyamazoo1/
+photo.17.tags: bamboo, moving, peek
+photo.18: ig://B8Tm-E0BERY/m
+photo.18.author: taka__3428
+photo.18.commitdate: 2020/2/16
+photo.18.link: https://www.instagram.com/taka__3428/
+photo.18.tags: peek, portrait
+photo.19: ig://B8TtPs5hm4T/m
+photo.19.author: ayusuke56
+photo.19.commitdate: 2020/2/16
+photo.19.link: https://www.instagram.com/ayusuke56/
+photo.19.tags: apple time, portrait
+photo.20: ig://B8Tz1MbhlWq/m
+photo.20.author: taka__3428
+photo.20.commitdate: 2020/2/16
+photo.20.link: https://www.instagram.com/taka__3428/
+photo.20.tags: bamboo, laying down, portrait
+photo.21: ig://B8UWhlHBAlA/m
+photo.21.author: kisshan324
+photo.21.commitdate: 2020/2/16
+photo.21.link: https://www.instagram.com/kisshan324/
+photo.21.tags: bamboo, laying down, portrait
+photo.22: ig://B8WMhfFB5oX/m
+photo.22.author: ayusuke56
+photo.22.commitdate: 2020/2/16
+photo.22.link: https://www.instagram.com/ayusuke56/
+photo.22.tags: laying down, portrait
+photo.23: ig://B8Y1peBhODf/m
+photo.23.author: ayusuke56
+photo.23.commitdate: 2020/2/16
+photo.23.link: https://www.instagram.com/ayusuke56/
+photo.23.tags: bamboo, bite, portrait, smile
+photo.24: ig://B8bNBIThWmA/m
+photo.24.author: ayusuke56
+photo.24.commitdate: 2020/2/16
+photo.24.link: https://www.instagram.com/ayusuke56/
+photo.24.tags: bamboo, bite, paws, portrait
+photo.25: ig://B8d34ofheWE/m
+photo.25.author: ayusuke56
+photo.25.commitdate: 2020/2/16
+photo.25.link: https://www.instagram.com/ayusuke56/
+photo.25.tags: bamboo, laying down, portrait
+photo.26: ig://B8fKn6vhis9/m
+photo.26.author: sasapan34
+photo.26.commitdate: 2020/2/16
+photo.26.link: https://www.instagram.com/sasapan34/
+photo.26.tags: bamboo, paws, smile, tongue
+photo.27: ig://B8gcEUBBEOw/m
+photo.27.author: ayusuke56
+photo.27.commitdate: 2020/2/16
+photo.27.link: https://www.instagram.com/ayusuke56/
+photo.27.tags: bamboo, paws
+photo.28: ig://B8jGe_-higt/m
+photo.28.author: ayusuke56
+photo.28.commitdate: 2020/2/16
+photo.28.link: https://www.instagram.com/ayusuke56/
+photo.28.tags: bamboo, peek, portrait
+photo.29: ig://B8lnreWBkR5/m
+photo.29.author: ayusuke56
+photo.29.commitdate: 2020/4/13
+photo.29.link: https://www.instagram.com/ayusuke56/
+photo.29.tags: paws, portrait
+photo.30: ig://B8oPluIh-Gp/m
+photo.30.author: ayusuke56
+photo.30.commitdate: 2020/4/13
+photo.30.link: https://www.instagram.com/ayusuke56/
+photo.30.tags: paws, portrait
+photo.31: ig://B8qx4H6hP5n/m
+photo.31.author: ayusuke56
+photo.31.commitdate: 2020/4/13
+photo.31.link: https://www.instagram.com/ayusuke56/
+photo.31.tags: apple time, paws, smile
+photo.32: ig://B8tdFfzBSbR/m
+photo.32.author: ayusuke56
+photo.32.commitdate: 2020/4/13
+photo.32.link: https://www.instagram.com/ayusuke56/
+photo.32.tags: apple time, paws, portrait
+photo.33: ig://B8v_NQ7h5bU/m
+photo.33.author: ayusuke56
+photo.33.commitdate: 2020/4/13
+photo.33.link: https://www.instagram.com/ayusuke56/
+photo.33.tags: apple time, paws, portrait, smile
+photo.34: ig://B8yhEBmBmTO/m
+photo.34.author: ayusuke56
+photo.34.commitdate: 2020/4/13
+photo.34.link: https://www.instagram.com/ayusuke56/
+photo.34.tags: paws, peek, portrait
+photo.35: ig://B81KQ1JBbg_/m
+photo.35.author: ayusuke56
+photo.35.commitdate: 2020/4/13
+photo.35.link: https://www.instagram.com/ayusuke56/
+photo.35.tags: itchy, paws, portrait, tail
+photo.36: ig://B9GlAiah4m9/m
+photo.36.author: sasapan34
+photo.36.commitdate: 2020/4/13
+photo.36.link: https://www.instagram.com/sasapan34/
+photo.36.tags: peek
+photo.37: ig://B9bdR4kBBDI/m
+photo.37.author: firefoxpanda88
+photo.37.commitdate: 2020/4/13
+photo.37.link: https://www.instagram.com/firefoxpanda88/
+photo.37.tags: baby, portrait, snow
+photo.38: ig://B9wZYMkBv_e/m
+photo.38.author: ayusuke56
+photo.38.commitdate: 2020/4/13
+photo.38.link: https://www.instagram.com/ayusuke56/
+photo.38.tags: bamboo, portrait, tongue
+photo.39: ig://B9y9-BWBJxZ/m
+photo.39.author: ayusuke56
+photo.39.commitdate: 2020/4/13
+photo.39.link: https://www.instagram.com/ayusuke56/
+photo.39.tags: paws, portrait, tail, tongue
+photo.40: ig://B91V__shkE5/m
+photo.40.author: taka__3428
+photo.40.commitdate: 2020/4/13
+photo.40.link: https://www.instagram.com/taka__3428/
+photo.40.tags: laying down, paws, portrait, profile
+photo.41: ig://B91etOqhGxr/m
+photo.41.author: ayusuke56
+photo.41.commitdate: 2020/4/13
+photo.41.link: https://www.instagram.com/ayusuke56/
+photo.41.tags: bamboo, portrait, tongue
+photo.42: ig://B94Ek9cBP17/m
+photo.42.author: ayusuke56
+photo.42.commitdate: 2020/4/13
+photo.42.link: https://www.instagram.com/ayusuke56/
+photo.42.tags: bamboo, portrait, smile
+photo.43: ig://B96sCEBB1Eh/m
+photo.43.author: ayusuke56
+photo.43.commitdate: 2020/4/13
+photo.43.link: https://www.instagram.com/ayusuke56/
+photo.43.tags: bamboo, peek
+photo.44: ig://B99Rf7DBZ5N/m
+photo.44.author: ayusuke56
+photo.44.commitdate: 2020/4/13
+photo.44.link: https://www.instagram.com/ayusuke56/
+photo.44.tags: bamboo, peek, portrait
+photo.45: ig://B9_xTzUhX0v/m
+photo.45.author: ayusuke56
+photo.45.commitdate: 2020/4/13
+photo.45.link: https://www.instagram.com/ayusuke56/
+photo.45.tags: bamboo, paws, portrait
+photo.46: ig://B-CWIsIBxEo/m
+photo.46.author: ayusuke56
+photo.46.commitdate: 2020/4/13
+photo.46.link: https://www.instagram.com/ayusuke56/
+photo.46.tags: bridge, paws, portrait
+photo.47: ig://B-E_FFghE2O/m
+photo.47.author: ayusuke56
+photo.47.commitdate: 2020/4/13
+photo.47.link: https://www.instagram.com/ayusuke56/
+photo.47.tags: portrait
+photo.48: ig://CAzr8DCBVlM/m
+photo.48.author: hamamatsu.chiita
+photo.48.commitdate: 2020/8/16
+photo.48.link: https://www.instagram.com/hamamatsu.chiita/
+photo.48.tags: grumpy, paws, tail
+photo.49: ig://CA2NTH9hmRN/m
+photo.49.author: hamamatsu.chiita
+photo.49.commitdate: 2020/12/6
+photo.49.link: https://www.instagram.com/hamamatsu.chiita/
+photo.49.tags: bear worm, laying down, paws, portrait, sleeping
+photo.50: ig://CA7qCyOBiln/m
+photo.50.author: hamamatsu.chiita
+photo.50.commitdate: 2020/9/10
+photo.50.link: https://www.instagram.com/hamamatsu.chiita/
+photo.50.tags: home, itchy, portrait, tail
+photo.51: ig://CBK7ZVpBCnY/m
+photo.51.author: hamamatsu.chiita
+photo.51.commitdate: 2020/8/16
+photo.51.link: https://www.instagram.com/hamamatsu.chiita/
+photo.51.tags: ear, smile, whiskers
+photo.52: ig://CBVSF6aB7N6/m
+photo.52.author: hamamatsu.chiita
+photo.52.commitdate: 2020/8/16
+photo.52.link: https://www.instagram.com/hamamatsu.chiita/
+photo.52.tags: laying down, paws, portrait, smile, tongue
+photo.53: ig://CBbkrBVB0Rz/m
+photo.53.author: hamamatsu.chiita
+photo.53.commitdate: 2020/9/10
+photo.53.link: https://www.instagram.com/hamamatsu.chiita/
+photo.53.tags: ear, grumpy, mofumofu, portrait
+photo.54: ig://CBlvOIiJEMu/m
+photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2020/8/16
+photo.54.link: https://www.instagram.com/hamamatsu.chiita/
+photo.54.tags: laying down, paws
+photo.55: ig://CB0oUfThNbr/m
+photo.55.author: nakacchi_desu
+photo.55.commitdate: 2020/9/28
+photo.55.link: https://www.instagram.com/nakacchi_desu/
+photo.55.tags: nose, snow
+photo.56: ig://CCVnAghhQl8/m
+photo.56.author: hamamatsu.chiita
+photo.56.commitdate: 2020/9/28
+photo.56.link: https://www.instagram.com/hamamatsu.chiita/
+photo.56.tags: blink, portrait, smile
+photo.57: ig://CCZPlXqB6tA/m
+photo.57.author: hamamatsu.chiita
+photo.57.commitdate: 2020/8/16
+photo.57.link: https://www.instagram.com/hamamatsu.chiita/
+photo.57.tags: itchy, paws, smile, tail
+photo.58: ig://CCvkTR5Bf_e/m
+photo.58.author: taka__3428
+photo.58.commitdate: 2020/9/28
+photo.58.link: https://www.instagram.com/taka__3428/
+photo.58.tags: laying down, paws, smile
+photo.59: ig://CDWBxlnhI4V/m
+photo.59.author: ssc6105
+photo.59.commitdate: 2020/9/28
+photo.59.link: https://www.instagram.com/ssc6105/
+photo.59.tags: paws, peek
+photo.60: ig://CDvZJyjBV9j/m
+photo.60.author: hamamatsu.chiita
+photo.60.commitdate: 2020/8/16
+photo.60.link: https://www.instagram.com/hamamatsu.chiita/
+photo.60.tags: laying down, paws
+photo.61: ig://CDzjUSrBUb3/m
+photo.61.author: hamamatsu.chiita
+photo.61.commitdate: 2020/8/22
+photo.61.link: https://www.instagram.com/hamamatsu.chiita/
+photo.61.tags: laying down, mofumofu
+photo.62: ig://CD29S-bB7I8/m
+photo.62.author: hamamatsu.chiita
+photo.62.commitdate: 2020/8/25
+photo.62.link: https://www.instagram.com/hamamatsu.chiita/
+photo.62.tags: peek, portrait, smile
+photo.63: ig://CD7RBw2B12d/m
+photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2020/8/16
+photo.63.link: https://www.instagram.com/hamamatsu.chiita/
+photo.63.tags: close-up, smile
+photo.64: ig://CEK2pVghCqw/m
+photo.64.author: miis_98
+photo.64.commitdate: 2020/8/23
+photo.64.link: https://www.instagram.com/miis_98/
+photo.64.tags: bamboo, mofumofu, portrait, smile
+photo.65: ig://CEU2PiipbVZ/m
+photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2020/9/3
+photo.65.link: https://www.instagram.com/hamamatsu.chiita/
+photo.65.tags: bamboo, paws
+photo.66: ig://CEWYgQBBmXN/m
+photo.66.author: miis_98
+photo.66.commitdate: 2020/9/28
+photo.66.link: https://www.instagram.com/miis_98/
+photo.66.tags: portrait
+photo.67: ig://CFWysDTB3gA/m
+photo.67.author: jas_forever_love
+photo.67.commitdate: 2020/9/21
+photo.67.link: https://www.instagram.com/jas_forever_love/
+photo.67.tags: laying down, paws, portrait
+photo.68: ig://CGKHDItBNDC/m
+photo.68.author: taka__3428
+photo.68.commitdate: 2020/10/11
+photo.68.link: https://www.instagram.com/taka__3428/
+photo.68.tags: peek, whiskers
+photo.69: ig://CG-_HALh1lC/m
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2020/11/6
+photo.69.link: https://www.instagram.com/hamamatsu.chiita/
+photo.69.tags: smile
+photo.70: ig://CHChmY0BW1i/m
+photo.70.author: ayusuke56
+photo.70.commitdate: 2020/11/11
+photo.70.link: https://www.instagram.com/ayusuke56/
+photo.70.tags: bamboo, portrait, smile, tail
+photo.71: ig://CHJmksYhK32/m
+photo.71.author: ayusuke56
+photo.71.commitdate: 2020/11/5
+photo.71.link: https://www.instagram.com/ayusuke56/
+photo.71.tags: ear, portrait, smile
+photo.72: ig://CHP_l50htzK/m
+photo.72.author: ayusuke56
+photo.72.commitdate: 2021/1/4
+photo.72.link: https://www.instagram.com/ayusuke56/
+photo.72.tags: portrait
+photo.73: ig://CHWxdLyBam5/m
+photo.73.author: eos1089
+photo.73.commitdate: 2020/11/15
+photo.73.link: https://www.instagram.com/eos1089/
+photo.73.tags: portrait, swimming, tail, wet
+photo.74: ig://CHuqHMzjzCW/m
+photo.74.author: kijyo.zoo
+photo.74.commitdate: 2020/11/29
+photo.74.link: https://www.instagram.com/kijyo.zoo/
+photo.74.tags: paws, portrait, smile
+photo.75: ig://CI-YN-thnsY/m
+photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2021/1/4
+photo.75.link: https://www.instagram.com/hamamatsu.chiita/
+photo.75.tags: portrait
+photo.76: ig://CI-aq5AB6Qe/m
+photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2021/1/4
+photo.76.link: https://www.instagram.com/hamamatsu.chiita/
+photo.76.tags: paws, portrait, standing, tail
+photo.77: ig://CJCLEtsBO8S/m
+photo.77.author: hamamatsu.chiita
+photo.77.commitdate: 2021/1/4
+photo.77.link: https://www.instagram.com/hamamatsu.chiita/
+photo.78: ig://CJFyDSgBfhD/m
+photo.78.author: kisshan324
+photo.78.commitdate: 2021/1/4
+photo.78.link: https://www.instagram.com/kisshan324/
+photo.78.tags: dish, portrait, tail
+photo.79: ig://CJHQMMqh4mo/m
+photo.79.author: hamamatsu.chiita
+photo.79.commitdate: 2021/1/4
+photo.79.link: https://www.instagram.com/hamamatsu.chiita/
+photo.80: ig://CJax4MEBsA3/m
+photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2021/1/3
+photo.80.link: https://www.instagram.com/hamamatsu.chiita/
+photo.80.tags: portrait
+photo.81: ig://CJniQ0Shn1V/m
+photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2021/5/28
+photo.81.link: https://www.instagram.com/hamamatsu.chiita/
+photo.81.tags: apple time, paws, portrait, smile
+photo.82: ig://CJnjSeGBKHx/m
+photo.82.author: hamamatsu.chiita
+photo.82.commitdate: 2021/5/28
+photo.82.link: https://www.instagram.com/hamamatsu.chiita/
+photo.82.tags: peek, portrait
+photo.83: ig://CJqKiJDBWZx/m
+photo.83.author: hamamatsu.chiita
+photo.83.commitdate: 2021/5/28
+photo.83.link: https://www.instagram.com/hamamatsu.chiita/
+photo.83.tags: laying down, tree
+photo.84: ig://CJ1r4t8BXo6/m
+photo.84.author: hamamatsu.chiita
+photo.84.commitdate: 2021/8/27
+photo.84.link: https://www.instagram.com/accounts/activity/
+photo.84.tags: portrait
+photo.85: ig://CKGaszlht2E/m
+photo.85.author: hamamatsu.chiita
+photo.85.commitdate: 2021/3/2
+photo.85.link: https://www.instagram.com/hamamatsu.chiita/
+photo.85.tags: grumpy, portrait, whiskers
+photo.86: ig://CKMxjMbBnAN/m
+photo.86.author: hamamatsu.chiita
+photo.86.commitdate: 2021/3/2
+photo.86.link: https://www.instagram.com/hamamatsu.chiita/
+photo.86.tags: bamboo, portrait, whiskers
+photo.87: ig://CKYku3vBGnS/m
+photo.87.author: hamamatsu.chiita
+photo.87.commitdate: 2021/3/2
+photo.87.link: https://www.instagram.com/hamamatsu.chiita/
+photo.87.tags: close-up, portrait
+photo.88: ig://CKs3CpGBNqy/m
+photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2021/3/2
+photo.88.link: https://www.instagram.com/hamamatsu.chiita/
+photo.88.tags: portrait
+photo.89: ig://CKs4H6fBHFM/m
+photo.89.author: hamamatsu.chiita
+photo.89.commitdate: 2021/3/2
+photo.89.link: https://www.instagram.com/hamamatsu.chiita/
+photo.89.tags: apple time, keeper, portrait
+photo.90: ig://CK1-m-UB217/m
+photo.90.author: hamamatsu.chiita
+photo.90.commitdate: 2021/3/2
+photo.90.link: https://www.instagram.com/hamamatsu.chiita/
+photo.90.tags: portrait, tree
+photo.91: ig://CLC1hGXBRyU/m
+photo.91.author: hamamatsu.chiita
+photo.91.commitdate: 2021/3/2
+photo.91.link: https://www.instagram.com/hamamatsu.chiita/
+photo.91.tags: laying down, peek, tail
+photo.92: ig://CLi-spohXx5/m
+photo.92.author: hamamatsu.chiita
+photo.92.commitdate: 2021/5/29
+photo.92.link: https://www.instagram.com/hamamatsu.chiita/
+photo.92.tags: smile
+photo.93: ig://CLzvexnho9o/m
+photo.93.author: hamamatsu.chiita
+photo.93.commitdate: 2021/8/15
+photo.93.link: https://www.instagram.com/hamamatsu.chiita/
+photo.93.tags: close-up, mofumofu, portrait, smile, whiskers
+photo.94: ig://CMAntMRh7A2/m
+photo.94.author: hamamatsu.chiita
+photo.94.commitdate: 2022/1/13
+photo.94.link: https://www.instagram.com/hamamatsu.chiita/
+photo.94.tags: close-up, portrait, sample, whiskers
+photo.95: ig://CMV030Zh22a/m
+photo.95.author: tomo3700
+photo.95.commitdate: 2021/4/11
+photo.95.link: https://www.instagram.com/tomo3700/
+photo.95.tags: keeper, paws, portrait, smile, standing
+photo.96: ig://CMdAmupB21B/m
+photo.96.author: hamamatsu.chiita
+photo.96.commitdate: 2021/11/25
+photo.96.link: https://www.instagram.com/hamamatsu.chiita/
+photo.96.tags: peek, portrait, yawn
+photo.97: ig://CMvV5w2BvjS/m
+photo.97.author: miis_98
+photo.97.commitdate: 2021/11/25
+photo.97.link: https://www.instagram.com/miis_98/
+photo.97.tags: climb, close-up, keeper, portrait
+photo.98: ig://CM11Wt2h72P/m
+photo.98.author: kotata_513
+photo.98.commitdate: 2021/8/27
+photo.98.link: https://www.instagram.com/kotata_513/
+photo.98.tags: laying down, portrait, tree, yawn
+photo.99: ig://CNayl5zhsxC/m
+photo.99.author: hamamatsu.chiita
+photo.99.commitdate: 2021/5/28
+photo.99.link: https://www.instagram.com/hamamatsu.chiita/
+photo.99.tags: close-up, portrait, whiskers
+photo.100: ig://COoNRD3BHod/m
+photo.100.author: hamamatsu.chiita
+photo.100.commitdate: 2021/6/29
+photo.100.link: https://www.instagram.com/hamamatsu.chiita/
+photo.100.tags: mofumofu, portrait, smile
+photo.101: ig://COpHM5wB32A/m
+photo.101.author: hamamatsu.chiita
+photo.101.commitdate: 2021/6/29
+photo.101.link: https://www.instagram.com/hamamatsu.chiita/
+photo.101.tags: laying down, paws, portrait
+photo.102: ig://CO5Auj7BzR5/m
+photo.102.author: ayusuke56
+photo.102.commitdate: 2021/6/29
+photo.102.link: https://www.instagram.com/ayusuke56/
+photo.102.tags: paws, portrait, smile
+photo.103: ig://CPA8HRRBnGx/m
+photo.103.author: ayusuke56
+photo.103.commitdate: 2021/6/16
+photo.103.link: https://www.instagram.com/ayusuke56/
+photo.103.tags: bridge, laying down, portrait
+photo.104: ig://CPQVDRLhu31/m
+photo.104.author: ayusuke56
+photo.104.commitdate: 2021/6/29
+photo.104.link: https://www.instagram.com/ayusuke56/
+photo.104.tags: bamboo, paws, portrait
+photo.105: ig://CParCUHBhnp/m
+photo.105.author: ayusuke56
+photo.105.commitdate: 2021/6/29
+photo.105.link: https://www.instagram.com/ayusuke56/
+photo.105.tags: bamboo, bite, paws, portrait
+photo.106: ig://CPgsRVUBBT7/m
+photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2021/7/21
+photo.106.link: https://www.instagram.com/hamamatsu.chiita/
+photo.106.tags: close-up, laying down, paws, portrait, smile, tongue
+photo.107: ig://CPnhYk1B8E-/m
+photo.107.author: ayusuke56
+photo.107.commitdate: 2021/6/29
+photo.107.link: https://www.instagram.com/ayusuke56/
+photo.107.tags: bamboo, close-up, paws
+photo.108: ig://CPqCHlkBsYS/m
+photo.108.author: ayusuke56
+photo.108.commitdate: 2021/6/29
+photo.108.link: https://www.instagram.com/ayusuke56/
+photo.108.tags: portrait
+photo.109: ig://CPxgifVhnbK/m
+photo.109.author: hamamatsu.chiita
+photo.109.commitdate: 2021/10/6
+photo.109.link: https://www.instagram.com/hamamatsu.chiita/
+photo.109.tags: ear, portrait
+photo.110: ig://CQJ47rSBf6p/m
+photo.110.author: hamamatsu.chiita
+photo.110.commitdate: 2021/10/6
+photo.110.link: https://www.instagram.com/hamamatsu.chiita/
+photo.110.tags: close-up, grumpy, portrait
+photo.111: ig://CRkAU7hrKCq/m
+photo.111.author: hamamatsu.chiita
+photo.111.commitdate: 2021/10/6
+photo.111.link: https://www.instagram.com/hamamatsu.chiita/
+photo.111.tags: ear, laying down, paws, portrait
+photo.112: ig://CSS_W4EhXPt/m
+photo.112.author: grskus_tk
+photo.112.commitdate: 2021/8/14
+photo.112.link: https://www.instagram.com/grskus_tk/
+photo.112.tags: bridge, grooming, laying down, paws, tongue
+photo.113: ig://CSTCELaBiwy/m
+photo.113.author: grskus_tk
+photo.113.commitdate: 2021/8/14
+photo.113.link: https://www.instagram.com/grskus_tk/
+photo.113.tags: bamboo, peek
+photo.114: ig://CTDTBDXhFeb/m
+photo.114.author: hamamatsu.chiita
+photo.114.commitdate: 2022/1/13
+photo.114.link: https://www.instagram.com/hamamatsu.chiita/
+photo.114.tags: peek, portrait
+photo.115: ig://CTV5AaSBSkN/m
+photo.115.author: grskus_tk
+photo.115.commitdate: 2022/1/13
+photo.115.link: https://www.instagram.com/grskus_tk/
+photo.115.tags: itchy, tail
+photo.116: ig://CUjoOBmBkry/m
+photo.116.author: hamamatsu.chiita
+photo.116.commitdate: 2021/10/6
+photo.116.link: https://www.instagram.com/hamamatsu.chiita/
+photo.116.tags: close-up, portrait, smile, whiskers
+photo.117: ig://CVSVgNihGZ2/m
+photo.117.author: ssc6105
+photo.117.commitdate: 2021/12/18
+photo.117.link: https://www.instagram.com/ssc6105/
+photo.117.tags: laying down, paws, tongue, whiskers
+photo.118: ig://CVU_l3yFHQt/m
+photo.118.author: kijyo.zoo
+photo.118.commitdate: 2021/11/19
+photo.118.link: https://www.instagram.com/kijyo.zoo/
+photo.118.tags: apple time, home, pumpkin, videolink
+photo.119: ig://hamamatsu.chiita/CXPHsuuBNGZ/m
+photo.119.author: hamamatsu.chiita
+photo.119.commitdate: 2021/12/26
+photo.119.link: https://www.instagram.com/hamamatsu.chiita/
+photo.119.tags: portrait, smile, whiskers
+photo.120: ig://gloryeui/CXTcEyslP-C/m
+photo.120.author: gloryeui
+photo.120.commitdate: 2021/12/26
+photo.120.link: https://www.instagram.com/gloryeui/
+photo.120.tags: portrait, smile
+photo.121: ig://CXVa_m5LRc5/m
+photo.121.author: gloryeui
+photo.121.commitdate: 2022/2/18
+photo.121.link: https://www.instagram.com/gloryeui/
+photo.121.tags: apple time, keeper, peek, portrait
+photo.122: ig://CXVqf6zr0bg/m
+photo.122.author: gloryeui
+photo.122.commitdate: 2022/2/18
+photo.122.link: https://www.instagram.com/gloryeui/
+photo.122.tags: bamboo, paws, peek, portrait, sample
+photo.123: ig://hamamatsu.chiita/CZBxFUPPo-X/m
+photo.123.author: hamamatsu.chiita
+photo.123.commitdate: 2022/2/19
+photo.123.link: https://www.instagram.com/hamamatsu.chiita/
+photo.123.tags: portrait, sample, whiskers
+photo.124: ig://CZWZ-DqreL9/m
+photo.124.author: otenba_redpanda
+photo.124.commitdate: 2022/2/10
+photo.124.link: https://www.instagram.com/otenba_redpanda/
+photo.124.tags: bamboo, paws, portrait, tail, whiskers
+photo.125: ig://CZlv7BOF17I/m
+photo.125.author: otenba_redpanda
+photo.125.commitdate: 2022/2/10
+photo.125.link: https://www.instagram.com/otenba_redpanda/
+photo.125.tags: bamboo, itchy, paws, portrait, tail
+photo.126: ig://Cb11RuoLpUO/m
+photo.126.author: hamamatsu.chiita
+photo.126.commitdate: 2022/5/13
+photo.126.link: https://www.instagram.com/hamamatsu.chiita/
+photo.126.tags: bamboo, close-up, ear, grumpy, portrait, smile, whiskers
+photo.127: ig://CcY3PmyrU1i/m
+photo.127.author: otenba_redpanda
+photo.127.commitdate: 2022/5/25
+photo.127.link: https://www.instagram.com/otenba_redpanda/
+photo.127.tags: grumpy, paws, peek, portrait, whiskers
+photo.128: ig://CciG0azLY0J/m
+photo.128.author: mini_cochi
+photo.128.commitdate: 2022/6/3
+photo.128.link: https://www.instagram.com/mini_cochi/
+photo.128.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
+photo.129: ig://Ccq4ox0PUct/m
+photo.129.author: mini_cochi
+photo.129.commitdate: 2022/6/3
+photo.129.link: https://www.instagram.com/mini_cochi/
+photo.129.tags: keeper, peek, portrait, smile, tongue
+photo.130: ig://Cc3khSnhK_Z/m
+photo.130.author: hamamatsu.chiita
+photo.130.commitdate: 2022/6/6
+photo.130.link: https://www.instagram.com/hamamatsu.chiita/
+photo.130.tags: bamboo, mofumofu, portrait, sample, whiskers
+photo.131: ig://Cd2jLm-LWsx/m
+photo.131.author: hamamatsu.chiita
+photo.131.commitdate: 2022/7/3
+photo.131.link: https://www.instagram.com/hamamatsu.chiita/
+photo.131.tags: blink, close-up, mofumofu, portrait, whiskers
+photo.132: ig://Cd4LMrprSgy/m
+photo.132.author: otenba_redpanda
+photo.132.commitdate: 2022/7/1
+photo.132.link: https://www.instagram.com/otenba_redpanda/
+photo.132.tags: bamboo, portrait, sample, tongue
+photo.133: ig://CeZhM5EhRxM/m
+photo.133.author: hamamatsu.chiita
+photo.133.commitdate: 2022/8/1
+photo.133.link: https://www.instagram.com/hamamatsu.chiita/
+photo.133.tags: grumpy, laying down, portrait, sample
+photo.134: ig://CgAfm6YBhxa/m
+photo.134.author: hamamatsu.chiita
+photo.134.commitdate: 2022/7/31
+photo.134.link: https://www.instagram.com/hamamatsu.chiita/
+photo.134.tags: close-up, portrait, sample, whiskers
+photo.135: ig://Cgxnx86r6zn/m
+photo.135.author: otenba_redpanda
+photo.135.commitdate: 2022/8/8
+photo.135.link: https://www.instagram.com/otenba_redpanda/
+photo.135.tags: bamboo, paws, portrait, sample, tail
+photo.136: ig://ChWm2ieP2XZ/m
+photo.136.author: ssc6105
+photo.136.commitdate: 2022/8/18
+photo.136.link: https://www.instagram.com/ssc6105/
+photo.136.tags: bear worm, laying down, paws, portrait, sample, sleeping
+photo.137: ig://Che_1zVvBmf/m
+photo.137.author: yakko____
+photo.137.commitdate: 2022/8/26
+photo.137.link: https://www.instagram.com/yakko____/
+photo.137.tags: paws, portrait, sample, smile, tree
+photo.138: ig://CjLCalKPsoF/m
+photo.138.author: ayusuke56
+photo.138.commitdate: 2022/10/13
+photo.138.link: https://www.instagram.com/ayusuke56/
+photo.138.tags: laying down, paws, portrait, sample, whiskers
+photo.139: ig://CksyGRIvPi0/m
+photo.139.author: leonard_redmof
+photo.139.commitdate: 2022/12/24
+photo.139.link: https://www.instagram.com/leonard_redmof/
+photo.139.tags: bamboo, portrait, toys
+species: 2
+studbook.id: 1785
+video.1: https://youtu.be/T0UIB96RKQI
+video.1.author: harry
+video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
+zoo: 235

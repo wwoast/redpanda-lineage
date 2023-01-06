@@ -1,0 +1,19 @@
+[zoo]
+_id: 71
+commitdate: 2018/8/22
+en.address: De Groene Ster 2, 8926 XE Leeuwarden, Netherlands
+en.location: Leeuwarden, Friesland Province, Netherlands
+en.name: Aqua Zoo Friesland
+flag: Netherlands
+language.order: nl, en
+latitude: 53.2151734
+longitude: 5.8807795
+map: https://goo.gl/maps/ZzXQeezpAo52
+nl.address: De Groene Ster 2, 8926 XE Leeuwarden, Netherlands
+nl.location: Leeuwarden, Friesland Province, Netherlands
+nl.name: Aquazoo Friesland
+photo.1: ig://BU4b4vjjq98/m
+photo.1.author: aquazoofriesland
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/aquazoofriesland/
+website: https://www.aquazoo.nl/

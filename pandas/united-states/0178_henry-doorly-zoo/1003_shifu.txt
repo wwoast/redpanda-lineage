@@ -1,0 +1,30 @@
+[panda]
+_id: 1003
+birthday: 2009/6/29
+birthplace: 114
+children: 1006, 1007
+commitdate: 2019/10/27
+death: 2017/12/28
+en.name: Shifu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シフ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1004, 1005
+location.1: 114, 2009/6/29
+location.2: 187, 2010/4/22
+location.3: 178, 2017/11/20
+photo.1: ig://BT9ybNyFv-W/m
+photo.1.author: bhamzoo
+photo.1.commitdate: 2019/10/27
+photo.1.link: https://www.instagram.com/bhamzoo/
+photo.2: ig://2CAwS1Ctch/m
+photo.2.author: bhamzoo
+photo.2.commitdate: 2019/10/27
+photo.2.link: https://www.instagram.com/bhamzoo/
+photo.2.tags: portrait, profile, smile
+species: 1
+zoo: 178

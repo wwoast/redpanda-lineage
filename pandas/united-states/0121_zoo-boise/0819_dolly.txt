@@ -1,0 +1,35 @@
+[panda]
+_id: 819
+birthday: 2011/6/8
+birthplace: 108
+children: 519, 810, 811, 812, 813, 814, 815, 816, 1138, 1139, 1401, 1402
+commitdate: 2019/4/7
+en.name: Dolly
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ドリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1101
+location.1: 108, 2011/6/8
+location.2: 121, 2012/5/7
+photo.1: ig://CKCGOmyHi4g/m
+photo.1.author: zooboise
+photo.1.commitdate: 2022/1/15
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: close-up, lips, portrait, whiskers
+photo.2: ig://CTxPkjDjzL8/m
+photo.2.author: zooboise
+photo.2.commitdate: 2022/1/15
+photo.2.link: https://www.instagram.com/zooboise/
+photo.2.tags: home, mofumofu, portrait, profile, tail
+photo.3: ig://worldthathesees/CXSUYWStFM2/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2022/1/29
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: smile, whiskers
+species: 1
+studbook.id: 1122
+zoo: 121

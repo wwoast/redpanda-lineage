@@ -1,0 +1,27 @@
+[panda]
+_id: 1130
+birthday: 2019/12/18
+birthplace: 203
+children: none
+commitdate: 2020/3/20
+en.name: Dahla
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ダーラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://B95WAFuhgZa/m
+photo.1.author: aucklandzoo
+photo.1.commitdate: 2020/3/20
+photo.1.link: https://www.instagram.com/aucklandzoo/
+photo.1.tags: baby, door, home, portrait
+photo.2: ig://CBY4r3sFy77/m
+photo.2.author: aucklandzoo
+photo.2.commitdate: 2021/6/11
+photo.2.link: https://www.instagram.com/aucklandzoo/
+photo.2.tags: baby, laying down, upside-down
+species: 1
+zoo: 203

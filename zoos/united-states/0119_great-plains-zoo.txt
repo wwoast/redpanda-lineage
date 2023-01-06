@@ -1,0 +1,21 @@
+[zoo]
+_id: 119
+commitdate: 2019/2/23
+en.address: 805 S Kiwanis Ave, Sioux Falls, SD 57104, USA
+en.location: Sioux Falls, South Dakota, USA
+en.name: Great Plains Zoo
+flag: USA
+language.order: en
+latitude: 43.5443975
+longitude: -96.7804659
+map: https://goo.gl/maps/cDksLi3ecVF2
+photo.1: ig://BizgGNel5T6/m
+photo.1.author: greatplainszoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/greatplainszoo/
+photo.2: ig://BWaMqxnABhJ/m
+photo.2.author: greatplainszoo
+photo.2.commitdate: 2020/1/26
+photo.2.link: https://www.instagram.com/greatplainszoo/
+photo.2.tags: profile
+website: https://greatzoo.org/

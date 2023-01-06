@@ -1,0 +1,19 @@
+[panda]
+_id: 232
+birthday: 1996/8/9
+birthplace: 40
+children: 564, 565, 49, 336, 228, 332, 156, 369, 329, 330
+commitdate: 2018/7/27
+death: 2013/6/6
+en.name: Banana
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: バナナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 566
+species: 2
+studbook.id: 96109
+zoo: 40

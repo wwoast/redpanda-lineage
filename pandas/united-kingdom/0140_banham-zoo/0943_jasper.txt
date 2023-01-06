@@ -1,0 +1,30 @@
+[panda]
+_id: 943
+birthday: 2012/7/15
+birthplace: 197
+children: 945
+commitdate: 2019/7/15
+en.name: Jasper
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャスパー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 197, 2012/7/15
+location.2: 136, 2013/4/25
+location.3: 140, 2015/5/22
+photo.1: ig://BJIOQUeA1_p/m
+photo.1.author: teaching.ideas
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/teaching.ideas/
+photo.1.tags: paws, portrait, profile, tongue
+photo.2: ig://BbT-id-lZBg/m
+photo.2.author: zseabanhamzoo
+photo.2.commitdate: 2019/7/15
+photo.2.link: https://www.instagram.com/zseabanhamzoo/
+photo.2.tags: paws, techitechi
+species: 1
+zoo: 140

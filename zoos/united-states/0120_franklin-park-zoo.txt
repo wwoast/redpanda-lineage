@@ -1,0 +1,16 @@
+[zoo]
+_id: 120
+commitdate: 2019/2/23
+en.address: 1 Franklin Park Rd, Boston, MA 02121, USA
+en.location: Boston, Massachusetts, USA
+en.name: Zoo New England Franklin Park Zoo
+flag: USA
+language.order: en
+latitude: 42.3054665
+longitude: -71.1075389
+map: https://goo.gl/maps/ge1HYzEu1qS2
+photo.1: ig://8iq7F_Etmh/m
+photo.1.author: zoonewengland
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/zoonewengland/
+website: https://www.zoonewengland.org/franklin-park-zoo.aspx

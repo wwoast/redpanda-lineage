@@ -1,0 +1,36 @@
+[panda]
+_id: 518
+birthday: 2001/7/9
+birthplace: 118
+children: 803, 804, 805, 534, 623, 624, 642, 643, 644, 516
+commitdate: 2019/2/24
+en.name: Ty
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 667
+location.1: 118, 2001/7/9
+location.2: 122, 2002/3/13
+location.3: 104, 2002/11/20
+photo.1: ig://Bb0Avd4nT-D/m
+photo.1.author: potawatomizoo
+photo.1.commitdate: 2020/2/28
+photo.1.link: https://www.instagram.com/potawatomizoo/
+photo.1.tags: portrait, profile, white face
+photo.2: ig://BgztMwSAitc/m
+photo.2.author: potawatomizoo
+photo.2.commitdate: 2020/2/28
+photo.2.link: https://www.instagram.com/potawatomizoo/
+photo.2.tags: white face
+photo.3: ig://CKg-eEjjkRC/m
+photo.3.author: potawatomizoo
+photo.3.commitdate: 2021/1/31
+photo.3.link: https://www.instagram.com/potawatomizoo/
+photo.3.tags: portrait, snow, videolink
+species: 1
+studbook.id: 0112
+zoo: 104

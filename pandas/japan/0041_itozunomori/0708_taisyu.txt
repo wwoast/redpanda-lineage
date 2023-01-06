@@ -1,0 +1,21 @@
+[panda]
+_id: 708
+birthday: unknown
+birthplace: wild.3
+children: 710, 711, 712, 307, 707, 706, 713, 705
+commitdate: 2019/3/27
+death: 2001/11/16
+en.name: Taisyu
+en.nicknames: none
+en.othernames: Tai-Syu
+gender: m
+jp.name: 太守
+jp.nicknames: none
+jp.othernames: たいしゅ
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 41, 1989/10/11
+species: 2
+studbook.id: 8935
+zoo: 41

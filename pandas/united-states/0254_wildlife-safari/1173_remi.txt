@@ -1,0 +1,44 @@
+[panda]
+_id: 1173
+birthday: 2018/6/20
+birthplace: 145
+children: none
+commitdate: 2020/6/14
+en.name: Remi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: レミ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1174
+location.1: 145, 2018/6/20
+location.2: 254, 2020/6/10
+photo.1: ig://CK4FDiZLm6s/m
+photo.1.author: wildlife.safari
+photo.1.commitdate: 2022/6/6
+photo.1.link: https://www.instagram.com/wildlife.safari/
+photo.1.tags: peek, toys
+photo.2: ig://CYHBBtbLPz_/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2022/7/14
+photo.2.link: https://www.instagram.com/worldthathesees
+photo.2.tags: bamboo, tongue, whiskers
+photo.3: ig://CexBXA7pBsv/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2022/6/21
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: close-up, peek, portrait, sample
+photo.4: ig://CfBCW9su-sI/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2022/7/14
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: portrait, sample, wet, whiskers
+photo.5: ig://CicwPXFreki/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2022/10/24
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: close-up, laying down, mofumofu, peek, portrait, sample, whiskers
+species: 1
+zoo: 254

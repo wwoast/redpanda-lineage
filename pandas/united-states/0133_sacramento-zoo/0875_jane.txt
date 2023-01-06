@@ -1,0 +1,26 @@
+[panda]
+_id: 875
+birthday: 1997/6/15
+birthplace: 108
+children: 675, 794, 795, 796, 797
+commitdate: 2019/6/16
+death: 2016/8/31
+en.name: Jane
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジェーン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 923
+location.1: 108, 1997/6/15
+location.2: 133, 2001/3/30
+photo.1: ig://BGsVa0mDC--/m
+photo.1.author: sacramentozoo
+photo.1.commitdate: 2019/6/16
+photo.1.link: https://www.instagram.com/sacramentozoo/
+photo.1.tags: lunch time, profile
+species: 1
+studbook.id: 9706
+zoo: 133

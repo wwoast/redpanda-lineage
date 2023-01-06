@@ -1,0 +1,22 @@
+[panda]
+_id: 565
+birthday: 1999/7/11
+birthplace: 40
+children: 57, 368
+commitdate: 2019/3/10
+death: 2014/6/26
+en.name: Meron
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: メロン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 564
+location.1: 40, 1999/7/11
+location.2: 57, 2001/1/30
+location.3: 31, 2008/7/17
+species: 2
+studbook.id: 9994
+zoo: 31

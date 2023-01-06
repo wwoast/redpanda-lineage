@@ -1,0 +1,19 @@
+[zoo]
+_id: 12
+commitdate: 2018/6/14
+en.address: Japan, 〒241-0001 Kanagawa Prefecture, 横浜市旭区上白根町１１７５−１
+en.location: Yokohama, Kanagawa Prefecture, Japan
+en.name: Yokohama Zoo "Zoorasia"
+flag: Japan
+jp.address: 〒241-0001 神奈川県 横浜市旭区上白根町１１７５−１
+jp.location: 横浜 神奈川県
+jp.name: よこはま動物園ズーラシア
+language.order: jp, en
+latitude: 35.4948688
+longitude: 139.5243211
+map: https://goo.gl/maps/j23gm6VW4Zo
+photo.1: ig://BmlifKhB2rk/m
+photo.1.author: chicoto_3
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/chicoto_3/
+website: http://www.hama-midorinokyokai.or.jp/zoo/zoorasia/

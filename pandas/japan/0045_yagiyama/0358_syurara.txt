@@ -1,0 +1,21 @@
+[panda]
+_id: 358
+birthday: 2007/6/23
+birthplace: 13
+children: none
+commitdate: 2018/10/18
+death: 2016/10/1
+en.name: Syurara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シュララ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 2007/6/23
+location.2: 45, 2010/12/22
+species: 2
+studbook.id: 0767
+zoo: 45

@@ -1,0 +1,34 @@
+[panda]
+_id: 451
+birthday: 2017/7/7
+birthplace: 89
+children: none
+commitdate: 2018/11/25
+death: 2017/8/7
+en.name: Hope
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 希望
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 450
+photo.1: ig://BXHHostjQXG/m
+photo.1.author: rossparkzoo
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/rossparkzoo/
+photo.1.tags: baby, keeper
+photo.2: ig://BWuti9gj_3S/m
+photo.2.author: rossparkzoo
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/rossparkzoo/
+photo.2.tags: baby, keeper, profile
+photo.3: ig://BXfwAR7jajn/m
+photo.3.author: rossparkzoo
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/rossparkzoo/
+photo.3.tags: baby, mofumofu
+species: 2
+studbook.id: unknown
+zoo: 89

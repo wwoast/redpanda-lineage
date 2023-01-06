@@ -1,0 +1,48 @@
+[panda]
+_id: 1287
+birthday: 2019/7/2
+birthplace: 282
+children: 1367
+commitdate: 2021/4/11
+en.name: Tia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ティア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 282, 2019/7/2
+location.2: 257, 2020/8/31
+photo.1: ig://CdyX6znNMiq/m
+photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/7/3
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: bamboo, portrait, profile, tail
+photo.2: ig://CfhAAtvNOFk/m
+photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/7/28
+photo.2.link: https://www.instagram.com/seelviahhtaz/
+photo.2.tags: laying down
+photo.3: ig://Ch2MqFksdrM/m
+photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/10/27
+photo.3.link: https://www.instagram.com/seelviahhtaz/
+photo.3.tags: laying down, tail
+photo.4: ig://Ch2NCVxMTSO/m
+photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/10/27
+photo.4.link: https://www.instagram.com/seelviahhtaz/
+photo.4.tags: laying down, tail
+photo.5: ig://Ch2NVzzMj3F/m
+photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/10/27
+photo.5.link: https://www.instagram.com/seelviahhtaz/
+photo.5.tags: laying down, smile, whiskers
+photo.6: ig://CinGE6dsv4T/m
+photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/10/27
+photo.6.link: https://www.instagram.com/seelviahhtaz/
+photo.6.tags: bamboo, paws, whiskers
+species: 1
+zoo: 257

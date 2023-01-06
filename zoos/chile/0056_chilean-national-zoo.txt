@@ -1,0 +1,24 @@
+[zoo]
+_id: 56
+commitdate: 2018/7/22
+en.address: Providencia, Santiago Metropolitan Region, Chile
+en.location: Santiago, Chile
+en.name: Chilean National Zoo
+es.address: Providencia, Santiago Metropolitan Region, Chile
+es.location: Santiago, Chile
+es.name: Zoológico Nacional de Chile
+flag: Chile
+language.order: es, en
+latitude: -33.4298427
+longitude: -70.704131
+map: https://goo.gl/maps/CtRXBeoUgYF2
+photo.1: ig://BXVpLbHgdAl/m
+photo.1.author: cristobalosorio_olguin
+photo.1.commitdate: 2019/5/22
+photo.1.link: https://www.instagram.com/cristobalosorio_olguin/
+photo.1.tags: profile
+photo.2: ig://BVKpuxngoj9/m
+photo.2.author: cristobalosorio_olguin
+photo.2.commitdate: 2019/5/22
+photo.2.link: https://www.instagram.com/cristobalosorio_olguin/
+website: http://www.parquemet.cl/

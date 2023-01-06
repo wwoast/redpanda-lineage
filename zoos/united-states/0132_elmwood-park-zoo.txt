@@ -1,0 +1,17 @@
+[zoo]
+_id: 132
+commitdate: 2019/2/24
+en.address: 1661 Harding Blvd, Norristown, PA 19401
+en.location: Norristown, Pennsylvania, USA
+en.name: Elmwood Park Zoo
+flag: USA
+language.order: en
+latitude: 40.1328221
+longitude: -75.3452331
+map: https://goo.gl/maps/CknzKshwgbM2
+photo.1: ig://BLOkc5GDaem/m
+photo.1.author: elmwoodparkzoo
+photo.1.commitdate: 2019/6/16
+photo.1.link: https://www.instagram.com/elmwoodparkzoo/
+photo.1.tags: profile
+website: https://www.elmwoodparkzoo.org/

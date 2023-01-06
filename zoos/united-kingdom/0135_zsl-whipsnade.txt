@@ -1,0 +1,33 @@
+[zoo]
+_id: 135
+commitdate: 2019/3/2
+en.address: Whipsnade, Dunstable LU6 2LF, UK
+en.location: Dunstable LU6 2LF, UK
+en.name: ZSL Whipsnade Zoo
+flag: UK
+language.order: en
+latitude: 51.8450681
+longitude: -0.6132085
+map: https://goo.gl/maps/QxpjzNmSEoN2
+photo.1: ig://73koRCDLcU/m
+photo.1.author: cheryl_2303
+photo.1.commitdate: 2019/10/19
+photo.1.link: https://www.instagram.com/cheryl_2303/
+photo.2: ig://Br7mMnkAEVO/m
+photo.2.author: zslwhipsnadezoo
+photo.2.commitdate: 2019/6/19
+photo.2.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.2.tags: profile
+photo.3: ig://Bx7mZNKguXh/m
+photo.3.author: zslwhipsnadezoo
+photo.3.commitdate: 2019/6/19
+photo.3.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.4: ig://B9Em01Tjxl8/m
+photo.4.author: zslwhipsnadezoo
+photo.4.commitdate: 2020/9/3
+photo.4.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.5: ig://B9eWf7QjIOd/m
+photo.5.author: zslwhipsnadezoo
+photo.5.commitdate: 2020/9/3
+photo.5.link: https://www.instagram.com/zslwhipsnadezoo/
+website: https://www.zsl.org/zsl-whipsnade-zoo

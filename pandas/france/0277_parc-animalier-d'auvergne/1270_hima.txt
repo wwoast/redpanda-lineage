@@ -1,0 +1,17 @@
+[panda]
+_id: 1270
+birthday: 2020/6/19
+birthplace: 277
+children: none
+commitdate: 2021/4/10
+en.name: Hima
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヒマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1271
+species: 1
+zoo: 277

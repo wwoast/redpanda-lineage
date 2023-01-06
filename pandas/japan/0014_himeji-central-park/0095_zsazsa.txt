@@ -1,0 +1,419 @@
+[panda]
+_id: 95
+birthday: 2014/7/1
+birthplace: 10
+children: 1016
+commitdate: 2018/6/23
+en.name: Zsa-Zsa
+en.nicknames: none
+en.othernames: Jia-Jia, Ja-Ja, Jaja, Zsazsa
+gender: f
+jp.name: ジャジャ
+jp.nicknames: none
+jp.othernames: 佳佳
+language.order: jp, en
+litter: 94
+location.1: 10, 2014/7/1
+location.2: 14, 2016/5/19
+photo.1: ig://3RH1hbPamv/m
+photo.1.author: tama080707
+photo.1.commitdate: 2019/4/2
+photo.1.link: https://www.instagram.com/tama080707/
+photo.1.tags: portrait
+photo.2: ig://8NEG50NoTo/m
+photo.2.author: no_life_no_zoo
+photo.2.commitdate: 2018/7/20
+photo.2.link: https://www.instagram.com/no_life_no_zoo/
+photo.2.tags: smile
+photo.3: ig://BUrFbhYDmwv/m
+photo.3.author: colette.jp
+photo.3.commitdate: 2019/5/15
+photo.3.link: https://www.instagram.com/colette.jp/
+photo.3.tags: laying down
+photo.4: ig://BkpaKlOlLIi/m
+photo.4.author: i.satosato
+photo.4.commitdate: 2018/7/20
+photo.4.link: https://www.instagram.com/i.satosato/
+photo.4.tags: home, laying down, portrait
+photo.5: ig://Bkq0P_aFFzJ/m
+photo.5.author: _rifa_p
+photo.5.commitdate: 2019/11/2
+photo.5.link: https://www.instagram.com/_rifa_p/
+photo.5.tags: paws, portrait, whiskers
+photo.6: ig://BkryEPHFek3/m
+photo.6.author: tomo3700
+photo.6.commitdate: 2018/7/20
+photo.6.link: https://www.instagram.com/tomo3700/
+photo.6.tags: portrait, yawn
+photo.7: ig://Bkr4OsBlpVX/m
+photo.7.author: kmasahon
+photo.7.commitdate: 2018/7/20
+photo.7.link: https://www.instagram.com/kmasahon/
+photo.7.tags: smile
+photo.8: ig://Bk67W1clbYd/m
+photo.8.author: i.satosato
+photo.8.commitdate: 2018/7/20
+photo.8.link: https://www.instagram.com/i.satosato/
+photo.8.tags: bear worm, laying down
+photo.9: ig://Bm0udRcBRUX/m
+photo.9.author: resapanlove
+photo.9.commitdate: 2018/8/23
+photo.9.link: https://www.instagram.com/resapanlove/
+photo.10: ig://BoOXSaNFBgL/m
+photo.10.author: love__mitarashi
+photo.10.commitdate: 2018/9/27
+photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: portrait
+photo.11: ig://BpJStacFgtz/m
+photo.11.author: love__mitarashi
+photo.11.commitdate: 2018/10/20
+photo.11.link: https://www.instagram.com/love__mitarashi/
+photo.11.tags: nose
+photo.12: ig://BqKPbVSFtd6/m
+photo.12.author: colette.jp
+photo.12.commitdate: 2018/11/14
+photo.12.link: https://www.instagram.com/colette.jp/
+photo.12.tags: standing
+photo.13: ig://BqWXa-JFHH4/m
+photo.13.author: love__mitarashi
+photo.13.commitdate: 2018/11/19
+photo.13.link: https://www.instagram.com/love__mitarashi/
+photo.13.tags: nose
+photo.14: ig://Brh4Hw3ltpM/m
+photo.14.author: love__mitarashi
+photo.14.commitdate: 2018/12/19
+photo.14.link: https://www.instagram.com/love__mitarashi/
+photo.14.tags: portrait
+photo.15: ig://Br1wWRvFqnY/m
+photo.15.author: love__mitarashi
+photo.15.commitdate: 2018/12/26
+photo.15.link: https://www.instagram.com/love__mitarashi/
+photo.15.tags: bamboo, home
+photo.16: ig://Br4oHtUFk8j/m
+photo.16.author: love__mitarashi
+photo.16.commitdate: 2018/12/27
+photo.16.link: https://www.instagram.com/love__mitarashi/
+photo.16.tags: bamboo, home, tongue
+photo.17: ig://BsT68NqggoX/m
+photo.17.author: miis_98
+photo.17.commitdate: 2019/1/9
+photo.17.link: https://www.instagram.com/miis_98/
+photo.17.tags: bamboo, home, portrait, smile
+photo.18: ig://BuYfkM5Fww9/m
+photo.18.author: love__mitarashi
+photo.18.commitdate: 2019/3/9
+photo.18.link: https://www.instagram.com/love__mitarashi/
+photo.18.tags: nose, portrait
+photo.19: ig://BuqINt3Fs64/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2019/3/10
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: laying down, bamboo
+photo.20: ig://BvOp6OuFsg6/m
+photo.20.author: love__mitarashi
+photo.20.commitdate: 2019/3/21
+photo.20.link: https://www.instagram.com/love__mitarashi/
+photo.20.tags: bamboo, peek, portrait
+photo.21: ig://BvypipUlBhW/m
+photo.21.author: love__mitarashi
+photo.21.commitdate: 2019/4/5
+photo.21.link: https://www.instagram.com/love__mitarashi/
+photo.21.tags: bamboo, sleeping
+photo.22: ig://Bv82G4lgZYE/m
+photo.22.author: s24.star_load
+photo.22.commitdate: 2019/5/30
+photo.22.link: https://www.instagram.com/s24.star_load/
+photo.22.tags: home
+photo.23: ig://BwdEyCvFGGt/m
+photo.23.author: re_ichimaru
+photo.23.commitdate: 2019/11/2
+photo.23.link: https://www.instagram.com/re_ichimaru/
+photo.23.tags: home, laying down
+photo.24: ig://Bxe0muzlFAE/m
+photo.24.author: love__mitarashi
+photo.24.commitdate: 2019/5/18
+photo.24.link: https://www.instagram.com/love__mitarashi/
+photo.24.tags: portrait, smile
+photo.25: ig://Bx2JxnPFEhk/m
+photo.25.author: love__mitarashi
+photo.25.commitdate: 2019/5/30
+photo.25.link: https://www.instagram.com/love__mitarashi/
+photo.25.tags: tail
+photo.26: ig://ByIJDQ5hOTq/m
+photo.26.author: love__mitarashi
+photo.26.commitdate: 2019/6/2
+photo.26.link: https://www.instagram.com/love__mitarashi/
+photo.26.tags: tail, tongue
+photo.27: ig://BzYIQBnBQrO/m
+photo.27.author: resapanlove
+photo.27.commitdate: 2019/7/2
+photo.27.link: https://www.instagram.com/resapanlove/
+photo.27.tags: apple time, mofumofu, portrait, profile, smile
+photo.28: ig://Bz2Tsuph1so/m
+photo.28.author: love__mitarashi
+photo.28.commitdate: 2019/7/14
+photo.28.link: https://www.instagram.com/love__mitarashi/
+photo.28.tags: mofumofu, tail
+photo.29: ig://B1AWyFGB1Sv/m
+photo.29.author: love__mitarashi
+photo.29.commitdate: 2019/8/12
+photo.29.link: https://www.instagram.com/love__mitarashi/
+photo.29.tags: paws, portrait
+photo.30: ig://B1Cx-WXBAS0/m
+photo.30.author: love__mitarashi
+photo.30.commitdate: 2019/8/14
+photo.30.link: https://www.instagram.com/love__mitarashi/
+photo.30.tags: mofumofu, portrait, smile, tail
+photo.31: ig://B1SPTVDBKWF/m
+photo.31.author: love__mitarashi
+photo.31.commitdate: 2019/11/2
+photo.31.link: https://www.instagram.com/love__mitarashi/
+photo.31.tags: portrait, smile
+photo.32: ig://B1gbbGpB9Jd/m
+photo.32.author: love__mitarashi
+photo.32.commitdate: 2019/8/24
+photo.32.link: https://www.instagram.com/love__mitarashi/
+photo.32.tags: portrait
+photo.33: ig://B1lXBOrhjJ2/m
+photo.33.author: love__mitarashi
+photo.33.commitdate: 2019/8/29
+photo.33.link: https://www.instagram.com/love__mitarashi/
+photo.33.tags: bridge, climb, tail
+photo.34: ig://B1oDMHPBddY/m
+photo.34.author: love__mitarashi
+photo.34.commitdate: 2019/8/29
+photo.34.link: https://www.instagram.com/love__mitarashi/
+photo.34.tags: home, mofumofu
+photo.35: ig://B2q-YA4BIr3/m
+photo.35.author: kmasahon
+photo.35.commitdate: 2019/9/28
+photo.35.link: https://www.instagram.com/kmasahon/
+photo.35.tags: laying down, smile
+photo.36: ig://B4uLcDbBbk7/m
+photo.36.author: chankunvv
+photo.36.commitdate: 2019/11/15
+photo.36.link: https://www.instagram.com/chankunvv/
+photo.36.tags: portrait
+photo.37: ig://B4yLrn2BNb3/m
+photo.37.author: chankunvv
+photo.37.commitdate: 2019/11/17
+photo.37.link: https://www.instagram.com/chankunvv/
+photo.37.tags: door
+photo.38: ig://B48qYYJhVmm/m
+photo.38.author: panda.daisuki
+photo.38.commitdate: 2019/11/30
+photo.38.link: https://www.instagram.com/panda.daisuki/
+photo.38.tags: bridge, mofumofu, portrait, smile
+photo.39: ig://B49paR4hEDA/m
+photo.39.author: daniele.tokyo
+photo.39.commitdate: 2019/11/24
+photo.39.link: https://www.instagram.com/daniele.tokyo/
+photo.39.tags: portrait, whiskers
+photo.40: ig://B5nHYp8heOw/m
+photo.40.author: craig_craig_craig
+photo.40.commitdate: 2019/12/7
+photo.40.link: https://www.instagram.com/craig_craig_craig/
+photo.40.tags: portrait, smile
+photo.41: ig://B5n8d8EBaW0/m
+photo.41.author: rie_panda55
+photo.41.commitdate: 2019/12/7
+photo.41.link: https://www.instagram.com/rie_panda55/
+photo.41.tags: portrait, smile
+photo.42: ig://B5tRRQiBgTa/m
+photo.42.author: craig_craig_craig
+photo.42.commitdate: 2019/12/11
+photo.42.link: https://www.instagram.com/craig_craig_craig/
+photo.42.tags: paws, portrait, smile
+photo.43: ig://B6Dbt21BabL/m
+photo.43.author: yakko____
+photo.43.commitdate: 2019/12/29
+photo.43.link: https://www.instagram.com/yakko____/
+photo.43.tags: portrait, smile, whiskers
+photo.44: ig://B6RObzPB9pc/m
+photo.44.author: kipekaila
+photo.44.commitdate: 2020/1/1
+photo.44.link: https://www.instagram.com/kipekaila/
+photo.44.tags: portrait, smile, whiskers
+photo.45: ig://B7E5iTOnlP9/m
+photo.45.author: tomo3700
+photo.45.commitdate: 2020/1/23
+photo.45.link: https://www.instagram.com/tomo3700/
+photo.45.tags: portrait, whiskers
+photo.46: ig://B8GakqtBJoq/m
+photo.46.author: colette.jp
+photo.46.commitdate: 2020/2/10
+photo.46.link: https://www.instagram.com/colette.jp/
+photo.46.tags: paws, portrait, standing
+photo.47: ig://CEwB_udhKD1/m
+photo.47.author: love__mitarashi
+photo.47.commitdate: 2020/9/19
+photo.47.link: https://www.instagram.com/love__mitarashi/
+photo.47.tags: smile
+photo.48: ig://CFwoG7nhL4p/m
+photo.48.author: love__mitarashi
+photo.48.commitdate: 2021/8/17
+photo.48.link: https://www.instagram.com/love__mitarashi/
+photo.48.tags: home, laying down, paws
+photo.49: ig://CHm2zWmBg6s/m
+photo.49.author: colette.jp
+photo.49.commitdate: 2021/8/17
+photo.49.link: https://www.instagram.com/colette.jp/
+photo.49.tags: apple time, paws, portrait, standing, tail
+photo.50: ig://CHsDThyBbah/m
+photo.50.author: colette.jp
+photo.50.commitdate: 2020/12/8
+photo.50.link: https://www.instagram.com/colette.jp/
+photo.50.tags: paws, portrait, standing, tail
+photo.51: ig://CIfkQlOhCrs/m
+photo.51.author: daniele.tokyo
+photo.51.commitdate: 2020/12/20
+photo.51.link: https://www.instagram.com/daniele.tokyo/
+photo.51.tags: paws, smile, whiskers
+photo.52: ig://CMEy9rOBd19/m
+photo.52.author: colette.jp
+photo.52.commitdate: 2022/2/28
+photo.52.link: https://www.instagram.com/colette.jp/
+photo.52.tags: apple time, paws, portrait, standing
+photo.53: ig://CMzLC2RhvbW/m
+photo.53.author: colette.jp
+photo.53.commitdate: 2021/8/27
+photo.53.link: https://www.instagram.com/colette.jp/
+photo.53.tags: bamboo, home, paws, portrait, smile
+photo.54: ig://CNmjraPhccW/m
+photo.54.author: colette.jp
+photo.54.commitdate: 2021/6/1
+photo.54.link: https://www.instagram.com/colette.jp/
+photo.54.tags: apple time, keeper, portrait
+photo.55: ig://CONXIjjhPzO/m
+photo.55.author: love__mitarashi
+photo.55.commitdate: 2021/7/6
+photo.55.link: https://www.instagram.com/love__mitarashi/
+photo.55.tags: portrait
+photo.56: ig://COShEmaB205/m
+photo.56.author: love__mitarashi
+photo.56.commitdate: 2021/7/6
+photo.56.link: https://www.instagram.com/love__mitarashi/
+photo.56.tags: itchy, whiskers
+photo.57: ig://CRi4c44hdyf/m
+photo.57.author: colette.jp
+photo.57.commitdate: 2021/12/28
+photo.57.link: https://www.instagram.com/colette.jp/
+photo.57.tags: close-up, keeper, portrait, whiskers
+photo.58: ig://CSrMxG8H8ph/m
+photo.58.author: love__mitarashi
+photo.58.commitdate: 2021/12/28
+photo.58.link: https://www.instagram.com/love__mitarashi/
+photo.58.tags: paws, tail
+photo.59: ig://CS_o_x-BPn2/m
+photo.59.author: colette.jp
+photo.59.commitdate: 2021/9/1
+photo.59.link: https://www.instagram.com/colette.jp/
+photo.59.tags: keeper, paws, portrait, standing, tail
+photo.60: ig://CT1qvlfBBb3/m
+photo.60.author: colette.jp
+photo.60.commitdate: 2022/3/11
+photo.60.link: https://www.instagram.com/colette.jp/
+photo.60.tags: paws, portrait, sample, smile
+photo.61: ig://CV7ejkHBKHR/m
+photo.61.author: colette.jp
+photo.61.commitdate: 2021/11/10
+photo.61.link: https://www.instagram.com/colette.jp/
+photo.61.tags: paws, portrait, smile
+photo.62: ig://CWapnNSFS8D/m
+photo.62.author: love__mitarashi
+photo.62.commitdate: 2021/12/28
+photo.62.link: https://www.instagram.com/love__mitarashi/
+photo.62.tags: paws, tail
+photo.63: ig://CWiGajLhvme/m
+photo.63.author: colette.jp
+photo.63.commitdate: 2021/11/27
+photo.63.link: https://www.instagram.com/colette.jp/
+photo.63.tags: mofumofu, paws, peek, portrait
+photo.64: ig://CXdfaCuBFVg/m
+photo.64.author: colette.jp
+photo.64.commitdate: 2021/12/30
+photo.64.link: https://www.instagram.com/colette.jp/
+photo.64.tags: keeper, paws, portrait, standing
+photo.65: ig://CYLuaPyL4NQ/m
+photo.65.author: gloryeui
+photo.65.commitdate: 2022/1/14
+photo.65.link: https://www.instagram.com/gloryeui/
+photo.65.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.66: ig://CYRM2uYr4di/m
+photo.66.author: gloryeui
+photo.66.commitdate: 2022/1/14
+photo.66.link: https://www.instagram.com/gloryeui/
+photo.66.tags: home, laying down, portrait, sample
+photo.67: ig://CYTQKZfv6rj/m
+photo.67.author: grskus_tk
+photo.67.commitdate: 2022/1/14
+photo.67.link: https://www.instagram.com/grskus_tk/
+photo.67.tags: nose
+photo.68: ig://gloryeui/CYTqqvZLdgn/m
+photo.68.author: gloryeui
+photo.68.commitdate: 2022/1/14
+photo.68.link: https://www.instagram.com/gloryeui/
+photo.68.tags: bridge, portrait, sample, tail
+photo.69: ig://CYdC865LJVW/m
+photo.69.author: gloryeui
+photo.69.commitdate: 2022/4/12
+photo.69.link: https://www.instagram.com/gloryeui/
+photo.69.tags: mofumofu, peek, portrait, sample, whiskers
+photo.70: ig://CYh8TLmpAKL/m
+photo.70.author: gloryeui
+photo.70.commitdate: 2022/1/23
+photo.70.link: https://www.instagram.com/gloryeui/
+photo.70.tags: peek, portrait, sample, whiskers
+photo.71: ig://CZJodWuPUxm/m
+photo.71.author: colette.jp
+photo.71.commitdate: 2022/4/5
+photo.71.link: https://www.instagram.com/colette.jp/
+photo.71.tags: paws, portrait, sample
+photo.72: ig://CZZQeaQlLSr/m
+photo.72.author: love__mitarashi
+photo.72.commitdate: 2022/4/5
+photo.72.link: https://www.instagram.com/love__mitarashi/
+photo.72.tags: peek, portrait, sample
+photo.73: ig://CciZG3LvbAE/m
+photo.73.author: _rifa_p
+photo.73.commitdate: 2022/6/6
+photo.73.link: https://www.instagram.com/_rifa_p/
+photo.73.tags: close-up, paws, portrait, sample, whiskers
+photo.74: ig://Cdxqa3WvjjK/m
+photo.74.author: colette.jp
+photo.74.commitdate: 2022/7/3
+photo.74.link: https://www.instagram.com/colette.jp/
+photo.74.tags: paws, portrait, sample, smile, tail
+photo.75: ig://Cg9A9oZhKYb/m
+photo.75.author: colette.jp
+photo.75.commitdate: 2022/8/11
+photo.75.link: https://www.instagram.com/colette.jp/
+photo.75.tags: bamboo, home, laying down, mofumofu, portrait, sample
+photo.76: ig://Ch11Ge7BHzX/m
+photo.76.author: colette.jp
+photo.76.commitdate: 2022/9/7
+photo.76.link: https://www.instagram.com/colette.jp/
+photo.76.tags: paws, portrait, sample, smile
+photo.77: ig://CiHx6MLBa3K/m
+photo.77.author: colette.jp
+photo.77.commitdate: 2022/9/10
+photo.77.link: https://www.instagram.com/colette.jp/
+photo.77.tags: paws, portrait, sample, smile, whiskers
+photo.78: ig://CicdUlbvCc6/m
+photo.78.author: colette.jp
+photo.78.commitdate: 2022/10/13
+photo.78.link: https://www.instagram.com/colette.jp/
+photo.78.tags: paws, portrait, sample, smile, whiskers
+photo.79: ig://CjIZiggvUNe/m
+photo.79.author: colette.jp
+photo.79.commitdate: 2022/10/13
+photo.79.link: https://www.instagram.com/colette.jp/
+photo.79.tags: paws, peek, portrait, sample, standing, tail
+photo.80: ig://Ck0Tboivkz0/m
+photo.80.author: colette.jp
+photo.80.commitdate: 2022/12/24
+photo.80.link: https://www.instagram.com/colette.jp/
+photo.80.tags: apple time, laying down, paws, portrait, sample, tongue, whiskers
+species: 2
+studbook.id: 14151
+zoo: 14

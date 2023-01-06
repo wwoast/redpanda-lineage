@@ -1,0 +1,28 @@
+[zoo]
+_id: 42
+commitdate: 2018/6/27
+en.address: 1212 Mitōchōaka, Mine-shi, Yamaguchi-ken 754-0302, Japan
+en.location: Mine, Yamaguchi Prefecture, Japan
+en.name: Akiyoshidai Safari Land
+flag: Japan
+jp.address: 〒754-0302 山口県美祢市美東町赤１２１２
+jp.location: 美祢市 山口県
+jp.name: 秋吉台自然動物公園サファリランド
+language.order: jp, en
+latitude: 34.2683467
+longitude: 131.3007106
+map: https://goo.gl/maps/UT1Be9m6ukw
+photo.1: ig://BqlStDKA1JS/m
+photo.1.author: toys_gear
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/toys_gear/
+photo.1.tags: profile
+photo.2: ig://BxZXcJ0lr03/m
+photo.2.author: kipekaila
+photo.2.commitdate: 2019/5/15
+photo.2.link: https://www.instagram.com/kipekaila/
+photo.3: ig://B5_tIHbJiIZ/m
+photo.3.author: tomopi_v6
+photo.3.commitdate: 2020/1/20
+photo.3.link: https://www.instagram.com/tomopi_v6/
+website: http://www.safariland.jp/

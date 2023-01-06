@@ -1,0 +1,87 @@
+[panda]
+_id: 932
+birthday: unknown
+birthplace: 195
+children: unknown
+cn.name: 聰聰
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/7/10
+en.name: Cong-Cong
+en.nicknames: none
+en.othernames: Congcong, Chong-Chong, Chongchong
+gender: m
+jp.name: コンコン
+jp.nicknames: none
+jp.othernames: 聰聰
+language.order: cn, en, jp
+litter: unknown
+location.1: 195, unknown
+location.2: 196, 2009/3/22
+photo.1: ig://Bze0JKzDnyW/m
+photo.1.author: redpanda_tata
+photo.1.commitdate: 2019/7/10
+photo.1.link: https://www.instagram.com/redpanda_tata/
+photo.1.tags: grooming, paws, portrait
+photo.2: ig://BzaTIPfHrDN/m
+photo.2.author: redpanda_tata
+photo.2.commitdate: 2019/7/10
+photo.2.link: https://www.instagram.com/redpanda_tata/
+photo.2.tags: bamboo, portrait, profile, tail
+photo.3: ig://ByZ3UNwBveI/m
+photo.3.author: hkoceanpark
+photo.3.commitdate: 2019/7/11
+photo.3.link: https://www.instagram.com/hkoceanpark/
+photo.3.tags: lunch time, paws, portrait, tongue
+photo.4: ig://BzxSsD7jFrx/m
+photo.4.author: redpanda_tata
+photo.4.commitdate: 2019/7/11
+photo.4.link: https://www.instagram.com/redpanda_tata/
+photo.4.tags: peek, portrait, tail
+photo.5: ig://BuOXRL3A9Es/m
+photo.5.author: instahine
+photo.5.commitdate: 2019/7/15
+photo.5.link: https://www.instagram.com/instathine/
+photo.5.tags: bamboo, paws
+photo.6: ig://B0A3KY1BWAr/m
+photo.6.author: redpanda_tata
+photo.6.commitdate: 2019/7/18
+photo.6.link: https://www.instagram.com/redpanda_tata/
+photo.6.tags: nose, peek, portrait
+photo.7: ig://B0kuMDaBbAH/m
+photo.7.author: redpanda_tata
+photo.7.commitdate: 2019/8/2
+photo.7.link: https://www.instagram.com/redpanda_tata/
+photo.7.tags: grooming, laying down, paws, portrait
+photo.8: ig://B2eaHgSBOpS/m
+photo.8.author: redpanda_tata
+photo.8.commitdate: 2019/9/16
+photo.8.link: https://www.instagram.com/redpanda_tata/
+photo.8.tags: apple time, keeper
+photo.9: ig://B3fA8UXhoSq/m
+photo.9.author: redpanda_tata
+photo.9.commitdate: 2019/10/17
+photo.9.link: https://www.instagram.com/redpanda_tata/
+photo.9.tags: paws, standing
+photo.10: ig://B3cVCrXBs7b/m
+photo.10.author: redpanda_tata
+photo.10.commitdate: 2019/10/19
+photo.10.link: https://www.instagram.com/redpanda_tata/
+photo.10.tags: portrait, smile
+photo.11: ig://B52xcKdhRMC/m
+photo.11.author: redpanda_tata
+photo.11.commitdate: 2019/12/27
+photo.11.link: https://www.instagram.com/redpanda_tata/
+photo.11.tags: bamboo, portrait, smile, wink
+photo.12: ig://B6UtqM2BiB9/m
+photo.12.author: redpanda_tata
+photo.12.commitdate: 2020/2/16
+photo.12.link: https://www.instagram.com/redpanda_tata/
+photo.12.tags: keeper, portrait, smile
+photo.13: ig://B9PKb1khN14/m
+photo.13.author: redpanda_tata
+photo.13.commitdate: 2020/3/3
+photo.13.link: https://www.instagram.com/redpanda_tata/
+photo.13.tags: bite, keeper, lunch time, portrait
+species: 2
+zoo: 196

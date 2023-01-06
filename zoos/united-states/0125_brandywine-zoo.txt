@@ -1,0 +1,21 @@
+[zoo]
+_id: 125
+commitdate: 2019/2/24
+en.address: 1001 N Park Dr, Wilmington, DE 19802, USA
+en.location: Wilmington, Delaware, USA
+en.name: Brandywine Zoo
+flag: USA
+language.order: en
+latitude: 39.7582466
+longitude: -75.5517247
+map: https://goo.gl/maps/BbYuTcVJmVL2
+photo.1: ig://Brh7cdKFqcc/m
+photo.1.author: brandywinezoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/brandywinezoo/
+photo.1.tags: profile
+photo.2: ig://CDrBU2HFmfU/m
+photo.2.author: brandywinezoo
+photo.2.commitdate: 2020/8/17
+photo.2.link: https://www.instagram.com/brandywinezoo/
+website: https://brandywinezoo.org/

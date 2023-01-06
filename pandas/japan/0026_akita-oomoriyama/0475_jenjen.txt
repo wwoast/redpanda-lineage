@@ -1,0 +1,21 @@
+[panda]
+_id: 475
+birthday: 1995/7/6
+birthplace: 6
+children: 238, 340
+commitdate: 2018/12/4
+death: 2005/12/25
+en.name: Jen-Jen
+en.nicknames: none
+en.othernames: Jenjen
+gender: m
+jp.name: ジェンジェン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 595
+location.1: 6, 1995/7/6
+location.2: 26, 1997/4/8
+species: 2
+studbook.id: 95107
+zoo: 26

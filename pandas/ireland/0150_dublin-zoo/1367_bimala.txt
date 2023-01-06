@@ -1,0 +1,55 @@
+[panda]
+_id: 1367
+birthday: 2021/6/1
+birthplace: 257
+children: none
+commitdate: 2022/7/1
+en.name: Bimala
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ビマラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 257, 2021/6/1
+location.2: 150, 2022/6/29
+photo.1: ig://CdyDpReMd9z/m
+photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/7/1
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: laying down, peek, tree, whiskers
+photo.2: ig://CdyKDL1NjVI/m
+photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/7/1
+photo.2.link: https://www.instagram.com/seelviahhtaz/
+photo.2.tags: portrait, profile, sample, whiskers, white face
+photo.3: ig://CetQ2ChtoXg/m
+photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/7/1
+photo.3.link: https://www.instagram.com/seelviahhtaz/
+photo.3.tags: laying down, portrait, sample, tree, white face
+photo.4: ig://Ce8m3jpscAZ/m
+photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/10/27
+photo.4.link: https://www.instagram.com/seelviahhtaz/
+photo.4.tags: laying down, tree, whiskers, white face
+photo.5: ig://CfZ2kMrNTIY/m
+photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/7/1
+photo.5.link: https://www.instagram.com/seelviahhtaz/
+photo.5.tags: flowers, nose, whiskers
+photo.6: ig://CiBRR-NMNQT/m
+photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/10/27
+photo.6.link: https://www.instagram.com/seelviahhtaz/
+photo.6.tags: bamboo, mofumofu
+photo.7: ig://CiQnyjyMquX/m
+photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/10/27
+photo.7.link: https://www.instagram.com/seelviahhtaz/
+photo.7.tags: peek, whiskers
+species: 1
+uncertainty: birthday in june 2021
+zoo: 150

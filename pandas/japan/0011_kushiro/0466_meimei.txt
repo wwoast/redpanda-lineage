@@ -1,0 +1,22 @@
+[panda]
+_id: 466
+birthday: 1999/6/27
+birthplace: 37
+children: none
+commitdate: 2018/11/28
+death: 2017/1/4
+en.name: Mei-Mei
+en.nicknames: none
+en.othernames: Meimei
+gender: m
+jp.name: 美美
+jp.nicknames: none
+jp.othernames: メイメイ
+language.order: jp, en
+litter: 588
+location.1: 37, 1999/6/27
+location.2: 69, 2004/3/3
+location.3: 11, 2012/3/4
+species: 2
+studbook.id: 9979
+zoo: 11

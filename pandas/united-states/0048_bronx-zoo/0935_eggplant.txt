@@ -1,0 +1,18 @@
+[panda]
+_id: 935
+birthday: 1997/6/26
+birthplace: 48
+children: none
+commitdate: 2019/7/14
+death: 1999/11/26
+en.name: Eggplant
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 茄子
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 934
+species: 1
+zoo: 48

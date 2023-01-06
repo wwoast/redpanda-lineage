@@ -1,0 +1,22 @@
+[panda]
+_id: 984
+birthday: 2018/12/7
+birthplace: 181
+children: none
+commitdate: 2019/8/24
+en.name: Ishwar
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イシュワール
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 982, 983
+photo.1: ig://CBaa2ergQfL/m
+photo.1.author: ellepatrice
+photo.1.commitdate: 2021/8/29
+photo.1.link: https://www.instagram.com/ellepatrice/
+photo.1.tags: mofumofu, paws, peek, profile, whiskers
+species: 1
+zoo: 181

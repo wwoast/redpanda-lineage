@@ -1,0 +1,15 @@
+[panda]
+_id: 1320
+birthday: 2021/7/3
+birthplace: 198
+children: none
+commitdate: 2021/12/4
+en.name: Jinshar
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+zoo: 198

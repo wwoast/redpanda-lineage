@@ -1,0 +1,16 @@
+[zoo]
+_id: 85
+commitdate: 2018/11/13
+en.address: 800 Cherokee Avenue SE, Atlanta, GA 30315
+en.location: Atlanta, GA, USA
+en.name: Zoo Atlanta
+flag: USA
+language.order: en
+latitude: 33.7337421
+longitude: -84.3873637
+map: https://goo.gl/maps/bD7ZfqdL6D22
+photo.1: ig://BrNNOCxHzYl/m
+photo.1.author: jeteyepadawan
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/jeteyepadawan/
+website: https://zooatlanta.org/

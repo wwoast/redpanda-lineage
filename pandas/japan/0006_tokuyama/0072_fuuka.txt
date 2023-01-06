@@ -1,0 +1,331 @@
+[panda]
+_id: 72
+birthday: 2006/6/2
+birthplace: 8
+children: 377, 180, 144, 130, 69
+commitdate: 2018/6/22
+en.name: Fuuka
+en.nicknames: none
+en.othernames: Fuka, Fūka
+gender: f
+jp.name: 風花
+jp.nicknames: none
+jp.othernames: フウカ
+language.order: jp, en
+litter: 48
+location.1: 8, 2006/6/2
+location.2: 6, 2008/6/30
+location.3: 41, 2014/4/9
+location.4: 6, 2015/11/17
+photo.1: ig://Bi_r9TilMax/m
+photo.1.author: re_ichimaru
+photo.1.commitdate: 2018/7/19
+photo.1.link: https://www.instagram.com/re_ichimaru/
+photo.2: ig://BoKHRavllc5/m
+photo.2.author: animal_love_us
+photo.2.commitdate: 2018/10/1
+photo.2.link: https://www.instagram.com/animal_love_us/
+photo.2.tags: bear worm, portrait, sleeping
+photo.3: ig://BpSAERXFii9/m
+photo.3.author: makimaru18
+photo.3.commitdate: 2018/10/23
+photo.3.link: https://www.instagram.com/makimaru18/
+photo.3.tags: portrait
+photo.4: ig://Bq_aO4GlJoD/m
+photo.4.author: perie1027vivi
+photo.4.commitdate: 2018/12/6
+photo.4.link: https://www.instagram.com/perie1027vivi/
+photo.4.tags: climb, paws, portrait
+photo.5: ig://BtSOlGYltPN/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2019/10/14
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: bamboo, close-up, smile
+photo.6: ig://Bu7wOdIF3-e/m
+photo.6.author: nakacchi_desu
+photo.6.commitdate: 2019/10/14
+photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.tags: peek
+photo.7: ig://Bu_nfYPlRXo/m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2020/2/3
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: grooming, paws, portrait, tongue
+photo.8: ig://BwLPifAFjjg/m
+photo.8.author: animal_love_us
+photo.8.commitdate: 2020/2/3
+photo.8.link: https://www.instagram.com/animal_love_us/
+photo.8.tags: blink, nose, portrait, whiskers
+photo.9: ig://Bxk-soyFyx8/m
+photo.9.author: kipekaila
+photo.9.commitdate: 2019/5/20
+photo.9.link: https://www.instagram.com/kipekaila/
+photo.9.tags: mofumofu, portrait
+photo.10: ig://B2uzs0lhq_i/m
+photo.10.author: rie_panda55
+photo.10.commitdate: 2019/9/26
+photo.10.link: https://www.instagram.com/rie_panda55/
+photo.10.tags: laying down, portrait, smile
+photo.11: ig://B5m1Ln6B5mZ/m
+photo.11.author: craig_craig_craig
+photo.11.commitdate: 2019/12/7
+photo.11.link: https://www.instagram.com/craig_craig_craig/
+photo.11.tags: apple time, window
+photo.12: ig://B61xl-plmoo/m
+photo.12.author: kojikoji2011
+photo.12.commitdate: 2022/8/26
+photo.12.link: https://www.instagram.com/kojikoji2011/
+photo.12.tags: portrait
+photo.13: ig://B7WMzr3FJQm/m
+photo.13.author: kojikoji2011
+photo.13.commitdate: 2022/8/26
+photo.13.link: https://www.instagram.com/kojikoji2011/
+photo.13.tags: laying down, portrait, sample, window
+photo.14: ig://B76BKP3F7gZ/m
+photo.14.author: kojikoji2011
+photo.14.commitdate: 2022/8/26
+photo.14.link: https://www.instagram.com/kojikoji2011/
+photo.14.tags: laying down
+photo.15: ig://CA74nRHh8LZ/m
+photo.15.author: minatomirai215
+photo.15.commitdate: 2020/6/3
+photo.15.link: https://www.instagram.com/minatomirai215/
+photo.15.tags: bamboo, paws, portrait, smile, tail
+photo.16: ig://CCbSnCelBpB/m
+photo.16.author: kojikoji2011
+photo.16.commitdate: 2021/6/7
+photo.16.link: https://www.instagram.com/kojikoji2011/
+photo.16.tags: laying down, sleeping
+photo.17: ig://CEowqlcl70M/m
+photo.17.author: kojikoji2011
+photo.17.commitdate: 2022/8/26
+photo.17.link: https://www.instagram.com/kojikoji2011/
+photo.17.tags: layging down, paws
+photo.18: ig://CGShSQeF9A6/m
+photo.18.author: kojikoji2011
+photo.18.commitdate: 2022/8/26
+photo.18.link: https://www.instagram.com/kojikoji2011/
+photo.18.tags: bamboo, close-up, peek, portrait, sample
+photo.19: ig://CGlmxULFNdv/m
+photo.19.author: kojikoji2011
+photo.19.commitdate: 2022/8/26
+photo.19.link: https://www.instagram.com/kojikoji2011/
+photo.19.tags: blink, mofumofu, portrait, sample, tongue
+photo.20: ig://CG96I4eBRej/m
+photo.20.author: kojikoji2011
+photo.20.commitdate: 2022/8/26
+photo.20.link: https://www.instagram.com/kojikoji2011/
+photo.20.tags: laying down
+photo.21: ig://CHvKHCfHkae/m
+photo.21.author: kojikoji2011
+photo.21.commitdate: 2022/8/26
+photo.21.link: https://www.instagram.com/kojikoji2011/
+photo.21.tags: laying down, mofumofu
+photo.22: ig://CIA-MOHhtFn/m
+photo.22.author: kojikoji2011
+photo.22.commitdate: 2022/8/26
+photo.22.link: https://www.instagram.com/kojikoji2011/
+photo.22.tags: apple time, dish, keeper, portrait, window
+photo.23: ig://kojikoji2011/CIaqoeUhbTl/m
+photo.23.author: kojikoji2011
+photo.23.commitdate: 2022/1/9
+photo.23.link: https://www.instagram.com/kojikoji2011/
+photo.23.tags: paws, portrait
+photo.24: ig://CIgM9qRhLgA/m
+photo.24.author: kojikoji2011
+photo.24.commitdate: 2022/8/26
+photo.24.link: https://www.instagram.com/kojikoji2011/
+photo.24.tags: mofumofu, paws, portrait, sample
+photo.25: ig://CJP5CYMh28F/m
+photo.25.author: kojikoji2011
+photo.25.commitdate: 2021/6/7
+photo.25.link: https://www.instagram.com/kojikoji2011/
+photo.25.tags: apple time, paws, portrait, smile, tail, tongue
+photo.26: ig://CK4BGYGhlzp/m
+photo.26.author: kojikoji2011
+photo.26.commitdate: 2021/6/7
+photo.26.link: https://www.instagram.com/kojikoji2011/
+photo.26.tags: portrait
+photo.27: ig://CNMrhU3hawe/m
+photo.27.author: kojikoji2011
+photo.27.commitdate: 2021/6/7
+photo.27.link: https://www.instagram.com/kojikoji2011/
+photo.27.tags: bamboo, smile
+photo.28: ig://COpxuVMhN3Y/m
+photo.28.author: kojikoji2011
+photo.28.commitdate: 2021/6/7
+photo.28.link: https://www.instagram.com/kojikoji2011/
+photo.28.tags: peek, paws, tail
+photo.29: ig://CPYWNR5Biiu/m
+photo.29.author: kojikoji2011
+photo.29.commitdate: 2021/6/7
+photo.29.link: https://www.instagram.com/kojikoji2011/
+photo.29.tags: bear worm, home, laying down, paws, portrait, sleeping
+photo.30: ig://CPneCR7hblo/m
+photo.30.author: kojikoji2011
+photo.30.commitdate: 2021/6/7
+photo.30.link: https://www.instagram.com/kojikoji2011/
+photo.30.tags: bamboo, mofumofu, portrait, profile
+photo.31: ig://CQgIk0ChLXg/m
+photo.31.author: kojikoji2011
+photo.31.commitdate: 2021/7/3
+photo.31.link: https://www.instagram.com/kojikoji2011/
+photo.31.tags: mofumofu, portrait
+photo.32: ig://CRJgL33hj10/m
+photo.32.author: kojikoji2011
+photo.32.commitdate: 2021/7/19
+photo.32.link: https://www.instagram.com/kojikoji2011/
+photo.32.tags: paws, portrait
+photo.33: ig://CR_YvFDBnbX/m
+photo.33.author: kojikoji2011
+photo.33.commitdate: 2021/8/18
+photo.33.link: https://www.instagram.com/kojikoji2011/
+photo.33.tags: bamboo, laying down, mofumofu, sleeping
+photo.34: ig://CSd6io_Bk4H/m
+photo.34.author: kojikoji2011
+photo.34.commitdate: 2021/8/18
+photo.34.link: https://www.instagram.com/kojikoji2011/
+photo.34.tags: climb, paws, portrait, smile
+photo.35: ig://CSl8_Oihg_j/m
+photo.35.author: kojikoji2011
+photo.35.commitdate: 2021/8/18
+photo.35.link: https://www.instagram.com/kojikoji2011/
+photo.35.tags: mofumofu, paws, portrait
+photo.36: ig://CS1hW5VBZZ2/m
+photo.36.author: kojikoji2011
+photo.36.commitdate: 2021/8/24
+photo.36.link: https://www.instagram.com/kojikoji2011/
+photo.36.tags: night, portrait, tail
+photo.37: ig://CTHiNuKBjic/m
+photo.37.author: kojikoji2011
+photo.37.commitdate: 2021/9/7
+photo.37.link: https://www.instagram.com/kojikoji2011/
+photo.37.tags: close-up, laying down, paws
+photo.38: ig://CTj1GvhBBO4/m
+photo.38.author: kojikoji2011
+photo.38.commitdate: 2021/9/25
+photo.38.link: https://www.instagram.com/kojikoji2011/
+photo.38.tags: home, laying down, paws, portrait, smile
+photo.39: ig://CU9KS8cB5w6/m
+photo.39.author: kojikoji2011
+photo.39.commitdate: 2022/2/9
+photo.39.link: https://www.instagram.com/kojikoji2011/
+photo.39.tags: peek, portrait, sample, smile, whiskers
+photo.40: ig://CWQmqOZhoy6/m
+photo.40.author: kojikoji2011
+photo.40.commitdate: 2021/11/21
+photo.40.link: https://www.instagram.com/kojikoji2011/
+photo.40.tags: portrait
+photo.41: ig://CXI3BRyvKso/m
+photo.41.author: kojikoji2011
+photo.41.commitdate: 2022/1/10
+photo.41.link: https://www.instagram.com/kojikoji2011/
+photo.41.tags: bridge, portrait, tail
+photo.42: ig://CXled9rhahw/m
+photo.42.author: kojikoji2011
+photo.42.commitdate: 2021/12/22
+photo.42.link: https://www.instagram.com/kojikoji2011/
+photo.42.tags: bamboo, mofumofu, portrait, tongue
+photo.43: ig://CX0sqTYPNSV/m
+photo.43.author: kojikoji2011
+photo.43.commitdate: 2022/2/9
+photo.43.link: https://www.instagram.com/kojikoji2011/
+photo.43.tags: paws, peek
+photo.44: ig://CYP_iG_Pw60/m
+photo.44.author: kojikoji2011
+photo.44.commitdate: 2022/1/10
+photo.44.link: https://www.instagram.com/kojikoji2011/
+photo.44.tags: apple time, climb, close-up, mofumofu, paws, portrait
+photo.45: ig://Ca2BisSPriQ/m
+photo.45.author: kojikoji2011
+photo.45.commitdate: 2022/3/18
+photo.45.link: https://www.instagram.com/kojikoji2011/
+photo.45.tags: blink, close-up, portrait, whiskers
+photo.46: ig://CcInNqJvFOs/m
+photo.46.author: kojikoji2011
+photo.46.commitdate: 2022/4/13
+photo.46.link: https://www.instagram.com/kojikoji2011/
+photo.46.tags: blink, grooming, paws, portrait, sample, window
+photo.47: ig://Cc-chxyPfLo/m
+photo.47.author: kojikoji2011
+photo.47.commitdate: 2022/9/11
+photo.47.link: https://www.instagram.com/kojikoji2011/
+photo.47.tags: laying down, paws, sleeping
+photo.48: ig://CeESO7VP48L/m
+photo.48.author: kojikoji2011
+photo.48.commitdate: 2022/6/29
+photo.48.link: https://www.instagram.com/kojikoji2011/
+photo.48.tags: home, laying down, paws, portrait, sample, sleeping
+photo.49: ig://CeTsDzGPn8h/m
+photo.49.author: minatomirai215
+photo.49.commitdate: 2022/6/22
+photo.49.link: https://www.instagram.com/minatomirai215/
+photo.49.tags: bamboo, laying down, mofumofu, paws, portrait, sample, smile
+photo.50: ig://CfRAJWovM4-/m
+photo.50.author: kojikoji2011
+photo.50.commitdate: 2022/7/9
+photo.50.link: https://www.instagram.com/kojikoji2011/
+photo.50.tags: bear worm, home, laying down, paws, portrait, sleeping
+photo.51: ig://Cf91Rljh4Qp/m
+photo.51.author: hamamatsu.chiita
+photo.51.commitdate: 2022/7/31
+photo.51.link: https://www.instagram.com/hamamatsu.chiita/
+photo.51.tags: grooming, mofumofu, paws, sample
+photo.52: ig://CghHAQqPXnR/m
+photo.52.author: kojikoji2011
+photo.52.commitdate: 2022/8/8
+photo.52.link: https://www.instagram.com/kojikoji2011/
+photo.52.tags: marking, peek, portrait, tail
+photo.53: ig://ChHx0oJBPI0/m
+photo.53.author: kojikoji2011
+photo.53.commitdate: 2022/8/26
+photo.53.link: https://www.instagram.com/kojikoji2011/
+photo.53.tags: laying down, mofumofu, night, paws, portrait, sample
+photo.54: ig://Chei3XphJnF/m
+photo.54.author: kojikoji2011
+photo.54.commitdate: 2022/8/26
+photo.54.link: https://www.instagram.com/kojikoji2011/
+photo.54.tags: laying down, portrait, yawn
+photo.55: ig://CiYT2Z1By0J/m
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2022/10/13
+photo.55.link: https://www.instagram.com/hamamatsu.chiita/
+photo.55.tags: close-up, portrait, sample, whiskers
+photo.56: ig://CikjDtDPa9B/m
+photo.56.author: kojikoji2011
+photo.56.commitdate: 2022/10/7
+photo.56.link: https://www.instagram.com/kojikoji2011/
+photo.56.tags: lips, mofumofu, portrait, sample, whiskers
+photo.57: ig://Ci5BxnnvAIN/m
+photo.57.author: kojikoji2011
+photo.57.commitdate: 2022/10/13
+photo.57.link: https://www.instagram.com/kojikoji2011/
+photo.57.tags: apple time, close-up, lips, portrait, sample
+photo.58: ig://CkCJL9AhyJN/m
+photo.58.author: miis_98
+photo.58.commitdate: 2023/1/1
+photo.58.link: https://www.instagram.com/miis_98/
+photo.58.tags: mofumofu, paws, portrait, sample
+photo.59: ig://Ck_qGWJhg69/m
+photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2022/12/19
+photo.59.link: https://www.instagram.com/hamamatsu.chiita/
+photo.59.tags: lips, mofumofu, portrait, sample
+photo.60: ig://ClEUTRPP5LC/m
+photo.60.author: kojikoji2011
+photo.60.commitdate: 2022/12/20
+photo.60.link: https://www.instagram.com/kojikoji2011/
+photo.60.tags: grooming, itchy, mofumofu, paws, portrait, sample
+photo.61: ig://ClQm90bvfUd/m
+photo.61.author: hamiiiii831_
+photo.61.commitdate: 2022/12/7
+photo.61.link: https://www.instagram.com/hamiiiii831_/
+photo.61.tags: laying down, paws, peek, sample, tail
+photo.62: ig://ClhTl-ihulS/m
+photo.62.author: hamamatsu.chiita
+photo.62.commitdate: 2022/12/7
+photo.62.link: https://www.instagram.com/hamamatsu.chiita/
+photo.62.tags: mofumofu, portrait, sample, whiskers
+species: 2
+studbook.id: 0663
+zoo: 6

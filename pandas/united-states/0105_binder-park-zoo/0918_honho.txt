@@ -1,0 +1,18 @@
+[panda]
+_id: 918
+birthday: 1998/7/11
+birthplace: 105
+children: none
+commitdate: 2019/7/2
+death: 1998/8/25
+en.name: Hon-Ho
+en.nicknames: none
+en.othernames: Honho
+gender: m
+jp.name: ホンホ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+zoo: 105

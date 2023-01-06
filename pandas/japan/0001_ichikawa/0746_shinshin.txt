@@ -1,0 +1,21 @@
+[panda]
+_id: 746
+birthday: unknown
+birthplace: wild.3
+children: 748, 749, 657, 658, 752, 753, 702
+commitdate: 2019/3/29
+death: 1994/11/1
+en.name: Shin-Shin
+en.nicknames: none
+en.othernames: Shinshin
+gender: m
+jp.name: 真真
+jp.nicknames: none
+jp.othernames: シンシン
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 1, 1986/11/1
+species: 2
+studbook.id: 8639
+zoo: 1

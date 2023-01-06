@@ -1,0 +1,76 @@
+[panda]
+_id: 486
+birthday: 2017/7/23
+birthplace: 82
+children: 1380
+commitdate: 2018/12/8
+en.name: Paprika
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: パプリカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 485
+location.1: 82, 2017/7/23
+location.2: 96, 2021/11/16
+photo.1: ig://BzvvnZhhjsi/m
+photo.1.author: autumnridgebacksmom
+photo.1.commitdate: 2021/7/23
+photo.1.link: https://www.instagram.com/autumnridgebacksmom/
+photo.1.tags: paws, smile, whiskers
+photo.2: ig://B0RSdcIg0A5/m
+photo.2.author: edmontonvalleyzoo
+photo.2.commitdate: 2020/1/13
+photo.2.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.2.tags: smile
+photo.3: ig://B8j97IvgG8B/m
+photo.3.author: edmontonvalleyzoo
+photo.3.commitdate: 2020/5/17
+photo.3.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.3.tags: bamboo, portrait
+photo.4: ig://CWL0175v84A/m
+photo.4.author: edmontonvalleyzoo
+photo.4.commitdate: 2021/11/21
+photo.4.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.4.tags: mofumofu, paws
+photo.5: ig://CWdiHeeMmhq/m
+photo.5.author: thetorontozoo
+photo.5.commitdate: 2022/1/4
+photo.5.link: https://www.instagram.com/thetorontozoo/
+photo.5.tags: apple time, portrait, profile, smile, whiskers
+photo.6: ig://CWtIu-nrYct/m
+photo.6.author: thetorontozoo
+photo.6.commitdate: 2022/1/4
+photo.6.link: https://www.instagram.com/thetorontozoo/
+photo.6.tags: close-up, tail, whiskers
+photo.7: ig://CXb7qN7PUYM/m
+photo.7.author: thetorontozoo
+photo.7.commitdate: 2022/1/4
+photo.7.link: https://www.instagram.com/thetorontozoo/
+photo.7.tags: laying down, whiskers
+photo.8: ig://thetorontozoo/CXd05CArDD-/m
+photo.8.author: thetorontozoo
+photo.8.commitdate: 2021/12/23
+photo.8.link: https://www.instagram.com/thetorontozoo/
+photo.8.tags: mofumofu, whiskers
+photo.9: ig://CYRiBGdLNOp/m
+photo.9.author: thetorontozoo
+photo.9.commitdate: 2022/3/9
+photo.9.link: https://www.instagram.com/thetorontozoo/
+photo.9.tags: close-up, techitechi, whiskers
+photo.10: ig://CgX2PuEr6Bo/m
+photo.10.author: thetorontozoo
+photo.10.commitdate: 2022/7/28
+photo.10.link: https://www.instagram.com/thetorontozoo/
+photo.10.tags: bamboo, paws, sample
+photo.11: ig://CmXKqHSsvtt/m
+photo.11.author: thetorontozoo
+photo.11.commitdate: 2023/1/6
+photo.11.link: https://www.instagram.com/thetorontozoo/
+photo.11.tags: apple time, portrait, toys
+species: 2
+studbook.id: 1731
+uncertainty: location.2 exact day of week
+zoo: 96

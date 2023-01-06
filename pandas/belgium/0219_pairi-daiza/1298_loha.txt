@@ -1,0 +1,71 @@
+[panda]
+_id: 1298
+birthday: 2020/6/6
+birthplace: 251
+children: none
+commitdate: 2021/7/6
+de.name: Loha
+de.nicknames: none
+de.othernames: none
+en.name: Loha
+en.nicknames: none
+en.othernames: none
+fr.name: Loha
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: ロハ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, de, en, jp
+litter: unknown
+location.1: 251, 2020/6/6
+location.2: 219, 2021/3/1
+photo.1: ig://CPd_t9Eg_c5/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2021/9/1
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: peek, tail
+photo.2: ig://CPyownchKPe/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2021/7/6
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: flowers, mofumofu, peek, portrait, profile
+photo.3: ig://CQ9VgadhWjO/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2021/7/8
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: dish, home, portrait, tail
+photo.4: ig://CR3_VfwMllJ/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2021/9/1
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: portrait
+photo.5: ig://CSph_OZs-7a/m
+photo.5.author: nathalie.elliott
+photo.5.commitdate: 2021/8/18
+photo.5.link: https://www.instagram.com/nathalie.elliott/
+photo.5.tags: bamboo, portrait
+photo.6: ig://CTWcZ4XMvZU/m
+photo.6.author: nathalie.elliott
+photo.6.commitdate: 2021/9/10
+photo.6.link: https://www.instagram.com/nathalie.elliott/
+photo.6.tags: home, lunch time, portrait
+photo.7: ig://CXeYiMaoxDb/m
+photo.7.author: nathalie.elliott
+photo.7.commitdate: 2022/6/10
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: bamboo, peek, portrait, sample, whiskers
+photo.8: ig://CY058Njsss3/m
+photo.8.author: nathalie.elliott
+photo.8.commitdate: 2022/6/10
+photo.8.link: https://www.instagram.com/nathalie.elliott/
+photo.8.tags: peek, portrait, sample, whiskers
+photo.9: ig://CdFhei7smML/m
+photo.9.author: nathalie.elliott
+photo.9.commitdate: 2022/6/11
+photo.9.link: https://www.instagram.com/nathalie.elliott/
+photo.9.tags: portrait, sample, tree, whiskers
+species: 1
+uncertainty: location.2 moving date
+zoo: 219

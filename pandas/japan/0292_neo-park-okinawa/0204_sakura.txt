@@ -1,0 +1,245 @@
+[panda]
+_id: 204
+birthday: 2015/6/27
+birthplace: 35
+children: none
+commitdate: 2018/7/25
+en.name: Sakura
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: さくら
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 203
+location.1: 35, 2015/6/27
+location.2: 292, 2021/7/16
+photo.1: ig://Bdcih30g3Yr/m
+photo.1.author: peek_a_boo00
+photo.1.commitdate: 2020/5/9
+photo.1.link: https://www.instagram.com/peek_a_boo00/
+photo.1.tags: bamboo, portrait, smile, tongue
+photo.2: ig://BfFMsdbA-dT/m
+photo.2.author: peek_a_boo00
+photo.2.commitdate: 2020/5/9
+photo.2.link: https://www.instagram.com/peek_a_boo00/
+photo.2.tags: peek, portrait
+photo.3: ig://Bgr_hbWAmxW/m
+photo.3.author: peek_a_boo00
+photo.3.commitdate: 2020/5/9
+photo.3.link: https://www.instagram.com/peek_a_boo00/
+photo.3.tags: paws, portrait, smile, tail
+photo.4: ig://BhBs9Xbhwbh/m
+photo.4.author: love__mitarashi
+photo.4.commitdate: 2018/7/25
+photo.4.link: https://www.instagram.com/love__mitarashi/
+photo.4.tags: bamboo, home, portrait
+photo.5: ig://BhN60xzhOwq/m
+photo.5.author: love__mitarashi
+photo.5.commitdate: 2018/7/25
+photo.5.link: https://www.instagram.com/love__mitarashi/
+photo.5.tags: home, portrait
+photo.6: ig://Bhgp6y8lpZ8/m
+photo.6.author: peek_a_boo00
+photo.6.commitdate: 2020/5/9
+photo.6.link: https://www.instagram.com/peek_a_boo00/
+photo.6.tags: bamboo, portrait
+photo.7: ig://BjCdO0wFKg_/m
+photo.7.author: love__mitarashi
+photo.7.commitdate: 2018/7/25
+photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: home
+photo.8: ig://BkhqBuvlbds/m
+photo.8.author: peek_a_boo00
+photo.8.commitdate: 2020/5/9
+photo.8.link: https://www.instagram.com/peek_a_boo00/
+photo.8.tags: bamboo, home, portrait
+photo.9: ig://Bk1nFlKlgis/m
+photo.9.author: love__mitarashi
+photo.9.commitdate: 2018/7/25
+photo.9.link: https://www.instagram.com/love__mitarashi/
+photo.9.tags: bamboo, portrait, smile
+photo.10: ig://BlA384NlAXH/m
+photo.10.author: peek_a_boo00
+photo.10.commitdate: 2020/5/9
+photo.10.link: https://www.instagram.com/peek_a_boo00/
+photo.10.tags: home, peek, portrait
+photo.11: ig://BoDnMK4lscV/m
+photo.11.author: peek_a_boo00
+photo.11.commitdate: 2018/9/24
+photo.11.link: https://www.instagram.com/peek_a_boo00/
+photo.11.tags: home, portrait, smile
+photo.12: ig://BpQ8EwvFjaA/m
+photo.12.author: love__mitarashi
+photo.12.commitdate: 2018/10/23
+photo.12.link: https://www.instagram.com/love__mitarashi/
+photo.12.tags: smile
+photo.13: ig://Bq7HM2ul9N3/m
+photo.13.author: love__mitarashi
+photo.13.commitdate: 2018/12/4
+photo.13.link: https://www.instagram.com/love__mitarashi/
+photo.13.tags: home, portrait
+photo.14: ig://BrPzQ-WFgrE/m
+photo.14.author: love__mitarashi
+photo.14.commitdate: 2018/12/12
+photo.14.link: https://www.instagram.com/love__mitarashi/
+photo.14.tags: laying down
+photo.15: ig://Br1uFjOFHzR/m
+photo.15.author: cabbage_biyori
+photo.15.commitdate: 2018/12/27
+photo.15.link: https://www.instagram.com/cabbage_biyori/
+photo.15.tags: standing
+photo.16: ig://BtIDkTOFXS8/m
+photo.16.author: cabbage_biyori
+photo.16.commitdate: 2019/1/27
+photo.16.link: https://www.instagram.com/cabbage_biyori/
+photo.16.tags: tail
+photo.17: ig://ByKaqYhht3J/m
+photo.17.author: love__mitarashi
+photo.17.commitdate: 2019/6/2
+photo.17.link: https://www.instagram.com/love__mitarashi/
+photo.17.tags: home, portrait
+photo.18: ig://ByaBRgthMvu/m
+photo.18.author: love__mitarashi
+photo.18.commitdate: 2019/6/8
+photo.18.link: https://www.instagram.com/love__mitarashi/
+photo.18.tags: laying down, portrait, tail
+photo.19: ig://BzalPhzB5ka/m
+photo.19.author: love__mitarashi
+photo.19.commitdate: 2019/7/7
+photo.19.link: https://www.instagram.com/love__mitarashi/
+photo.19.tags: close-up, laying down, peek, portrait
+photo.20: ig://B10ZnX_hxZl/m
+photo.20.author: love__mitarashi
+photo.20.commitdate: 2019/9/3
+photo.20.link: https://www.instagram.com/love__mitarashi/
+photo.20.tags: paws, portrait, standing, tail
+photo.21: ig://B2RQCx1Bjam/m
+photo.21.author: love__mitarashi
+photo.21.commitdate: 2019/9/14
+photo.21.link: https://www.instagram.com/love__mitarashi/
+photo.21.tags: home, laying down, portrait, tongue
+photo.22: ig://B2TKe5Ahp1b/m
+photo.22.author: love__mitarashi
+photo.22.commitdate: 2019/9/14
+photo.22.link: https://www.instagram.com/love__mitarashi/
+photo.22.tags: bamboo, bite, smile
+photo.23: ig://B35mrgkhDlx/m
+photo.23.author: love__mitarashi
+photo.23.commitdate: 2019/10/22
+photo.23.link: https://www.instagram.com/love__mitarashi/
+photo.23.tags: home
+photo.24: ig://B51q-Swh8M0/m
+photo.24.author: love__mitarashi
+photo.24.commitdate: 2019/12/16
+photo.24.link: https://www.instagram.com/love__mitarashi/
+photo.24.tags: home, standing, tail
+photo.25: ig://B6Avy38h50y/m
+photo.25.author: love__mitarashi
+photo.25.commitdate: 2019/12/29
+photo.25.link: https://www.instagram.com/love__mitarashi/
+photo.25.tags: home, laying down, portrait, tail
+photo.26: ig://B7kjnj1BnjK/m
+photo.26.author: love__mitarashi
+photo.26.commitdate: 2020/1/23
+photo.26.link: https://www.instagram.com/love__mitarashi/
+photo.26.tags: home, laying down, tail
+photo.27: ig://B8YoiZaBm4q/m
+photo.27.author: love__mitarashi
+photo.27.commitdate: 2020/2/18
+photo.27.link: https://www.instagram.com/love__mitarashi/
+photo.27.tags: portrait, tail
+photo.28: ig://B8v0wyThKzR/m
+photo.28.author: love__mitarashi
+photo.28.commitdate: 2020/2/27
+photo.28.link: https://www.instagram.com/love__mitarashi/
+photo.28.tags: bamboo, portrait
+photo.29: ig://B9xbBXuBID5/m
+photo.29.author: miis_98
+photo.29.commitdate: 2020/3/18
+photo.29.link: https://www.instagram.com/miis_98/
+photo.29.tags: home, paws, portrait, tail, techitechi
+photo.30: ig://B91TUTUhJmM/m
+photo.30.author: love__mitarashi
+photo.30.commitdate: 2020/3/18
+photo.30.link: https://www.instagram.com/love__mitarashi/
+photo.30.tags: portrait, whiskers
+photo.31: ig://B_PZ_B2nbEm/m
+photo.31.author: love__mitarashi
+photo.31.commitdate: 2020/5/9
+photo.31.link: https://www.instagram.com/love__mitarashi/
+photo.31.tags: bamboo, home
+photo.32: ig://B__JZYahmXV/m
+photo.32.author: love__mitarashi
+photo.32.commitdate: 2020/5/11
+photo.32.link: https://www.instagram.com/love__mitarashi/
+photo.32.tags: laying down, tail, sleeping
+photo.33: ig://CEB4EDKB9B6/m
+photo.33.author: love__mitarashi
+photo.33.commitdate: 2020/8/23
+photo.33.link: https://www.instagram.com/love__mitarashi/
+photo.33.tags: close-up, portrait, profile, smile
+photo.34: ig://CEK2DcnhAwX/m
+photo.34.author: love__mitarashi
+photo.34.commitdate: 2020/8/23
+photo.34.link: https://www.instagram.com/love__mitarashi/
+photo.34.tags: bamboo, portrait, smile
+photo.35: ig://CET4PCBhPWe/m
+photo.35.author: love__mitarashi
+photo.35.commitdate: 2020/8/28
+photo.35.link: https://www.instagram.com/love__mitarashi/
+photo.35.tags: laying down, peek
+photo.36: ig://CQ6ElRmBopv/m
+photo.36.author: love__mitarashi
+photo.36.commitdate: 2021/7/13
+photo.36.link: https://www.instagram.com/love__mitarashi/
+photo.36.tags: bridge, laying down, portrait, smile
+photo.37: ig://CRgphFshGpx/m
+photo.37.author: nakacchi_desu
+photo.37.commitdate: 2021/8/2
+photo.37.link: https://www.instagram.com/nakacchi_desu/
+photo.37.tags: home, laying down, peek
+photo.38: ig://CRpXAyJhwsc/m
+photo.38.author: love__mitarashi
+photo.38.commitdate: 2021/8/2
+photo.38.link: https://www.instagram.com/love__mitarashi/
+photo.38.tags: laying down, tongue
+photo.39: ig://CSdUNzOrG7z/m
+photo.39.author: neoparkokinawa
+photo.39.commitdate: 2021/11/22
+photo.39.link: https://www.instagram.com/neoparkokinawa/
+photo.39.tags: laying down, portrait, sleeping, tail
+photo.40: ig://CS5o_RSLt4s/m
+photo.40.author: neoparkokinawa
+photo.40.commitdate: 2021/11/22
+photo.40.link: https://www.instagram.com/neoparkokinawa/
+photo.40.tags: bamboo, paws, portrait, standing, videolink
+photo.41: ig://CTZSmF9LYDa/m
+photo.41.author: neoparkokinawa
+photo.41.commitdate: 2021/11/22
+photo.41.link: https://www.instagram.com/neoparkokinawa/
+photo.41.tags: paws, portrait, smile, tail, tongue
+photo.42: ig://CUtgxeEtAdL/m
+photo.42.author: neoparkokinawa
+photo.42.commitdate: 2021/11/22
+photo.42.link: https://www.instagram.com/neoparkokinawa/
+photo.42.tags: keeper, paws, portrait, scale, tail
+photo.43: ig://CU_iRzHNYnr/m
+photo.43.author: neoparkokinawa
+photo.43.commitdate: 2021/11/22
+photo.43.link: https://www.instagram.com/neoparkokinawa/
+photo.43.tags: laying down, paws, portrait, sleeping, tail
+photo.44: ig://CVpfJXINh3U/m
+photo.44.author: neoparkokinawa
+photo.44.commitdate: 2021/11/22
+photo.44.link: https://www.instagram.com/neoparkokinawa/
+photo.44.tags: laying down, paws, portrait, tongue
+photo.45: ig://CWMyNiiNtmf/m
+photo.45.author: neoparkokinawa
+photo.45.commitdate: 2021/11/22
+photo.45.link: https://www.instagram.com/neoparkokinawa/
+photo.45.tags: blink, laying down, mofumofu, paws, portrait
+species: 2
+studbook.id: 15140
+zoo: 292

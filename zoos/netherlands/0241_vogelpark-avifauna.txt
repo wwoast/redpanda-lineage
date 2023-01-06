@@ -1,0 +1,15 @@
+[zoo]
+_id: 241
+commitdate: 2020/3/27
+en.address: Hoorn 59, 2404 HG Alphen aan den Rijn, Netherlands
+en.location: Alphen aan den Rijn, Netherlands
+en.name: Vogelpark Avifauna
+flag: Netherlands
+language.order: nl, en
+latitude: 52.1418161
+longitude: 4.641286
+map: https://g.page/vogelpark-avifauna-240?share
+nl.address: Hoorn 59, 2404 HG Alphen aan den Rijn, Netherlands
+nl.location: Alphen aan den Rijn, Netherlands
+nl.name: Vogelpark Avifauna
+website: https://www.avifauna.nl/home/

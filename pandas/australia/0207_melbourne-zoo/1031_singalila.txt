@@ -1,0 +1,20 @@
+[panda]
+_id: 1031
+birthday: 1996/12/4
+birthplace: 181
+children: unknown
+commitdate: 2019/11/9
+death: 2007/7/25
+en.name: Singalila
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シンダリラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1030
+location.1: 181, 1996/12/4
+location.2: 207, 1997/7/22
+species: 1
+zoo: 207

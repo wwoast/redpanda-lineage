@@ -1,0 +1,140 @@
+[panda]
+_id: 340
+birthday: 2005/7/7
+birthplace: 26
+children: none
+commitdate: 2018/10/18
+death: 2017/11/28
+en.name: An-An
+en.nicknames: none
+en.othernames: An-an, Anan
+gender: f
+jp.name: 杏杏
+jp.nicknames: none
+jp.othernames: アンアン
+language.order: jp, en
+litter: 238
+location.1: 26, 2005/7/7
+location.2: 54, 2007/11/13
+photo.1: ig://nfsPAMOR_1/m
+photo.1.author: masa_polarbear
+photo.1.commitdate: 2020/4/26
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: portrait, profile
+photo.2: ig://oifc-DuRwC/m
+photo.2.author: masa_polarbear
+photo.2.commitdate: 2020/4/26
+photo.2.link: https://www.instagram.com/masa_polarbear/
+photo.2.tags: laying down, portrait, tongue, tree
+photo.3: ig://qgnuAYuR7F/m
+photo.3.author: masa_polarbear
+photo.3.commitdate: 2020/4/26
+photo.3.link: https://www.instagram.com/masa_polarbear/
+photo.3.tags: laying down, paws, portrait, smile, tongue, tree
+photo.4: ig://rEpWA8uR1t/m
+photo.4.author: masa_polarbear
+photo.4.commitdate: 2020/4/26
+photo.4.link: https://www.instagram.com/masa_polarbear/
+photo.4.tags: portrait, smile, tongue, tree
+photo.5: ig://0z-BwWOR0o/m
+photo.5.author: masa_polarbear
+photo.5.commitdate: 2020/4/26
+photo.5.link: https://www.instagram.com/masa_polarbear/
+photo.5.tags: blink, dish, lunch time, portrait, smile
+photo.6: ig://70KV2zuRxf/m
+photo.6.author: masa_polarbear
+photo.6.commitdate: 2020/4/26
+photo.6.link: https://www.instagram.com/masa_polarbear/
+photo.6.tags: dish, paws, lunch time, portrait, smile, tongue
+photo.7: ig://9GdYWWuR2M/m
+photo.7.author: masa_polarbear
+photo.7.commitdate: 2020/4/26
+photo.7.link: https://www.instagram.com/masa_polarbear/
+photo.7.tags: portrait, tree
+photo.8: ig://BA2MUqGPizZ/m
+photo.8.author: panda.daisuki
+photo.8.commitdate: 2018/11/5
+photo.8.link: https://www.instagram.com/panda.daisuki/
+photo.8.tags: portrait
+photo.9: ig://BBC59pvPi6H/m
+photo.9.author: panda.daisuki
+photo.9.commitdate: 2018/11/5
+photo.9.link: https://www.instagram.com/panda.daisuki/
+photo.9.tags: tree
+photo.10: ig://BDFb9bqQZ3q/m
+photo.10.author: rio_minron
+photo.10.commitdate: 2018/10/20
+photo.10.link: https://www.instagram.com/rio_minron/
+photo.10.tags: smile, tongue
+photo.11: ig://BHily-ejQTC/m
+photo.11.author: masa_polarbear
+photo.11.commitdate: 2020/4/26
+photo.11.link: https://www.instagram.com/masa_polarbear/
+photo.11.tags: paws, upside-down
+photo.12: ig://BHir_-0DEN2/m
+photo.12.author: minatomirai215
+photo.12.commitdate: 2020/4/26
+photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: portrait, tongue
+photo.13: ig://BSOLvG7FmVG/m
+photo.13.author: rdpnzoo
+photo.13.commitdate: 2018/10/20
+photo.13.link: https://www.instagram.com/rdpnzoo/
+photo.13.tags: bamboo
+photo.14: ig://BSqWWNblkzk/m
+photo.14.author: rdpnzoo
+photo.14.commitdate: 2018/10/20
+photo.14.link: https://www.instagram.com/rdpnzoo/
+photo.14.tags: smile
+photo.15: ig://BcKPxJphDYG/m
+photo.15.author: mifko55
+photo.15.commitdate: 2020/4/15
+photo.15.link: https://www.instagram.com/mifko55/
+photo.15.tags: portrait, smile, tongue
+photo.16: ig://BcMi9RbnK_V/m
+photo.16.author: rdpnzoo
+photo.16.commitdate: 2018/10/20
+photo.16.link: https://www.instagram.com/rdpnzoo/
+photo.16.tags: smile
+photo.17: ig://BcQqtDbBjiQ/m
+photo.17.author: miis_98
+photo.17.commitdate: 2020/4/17
+photo.17.link: https://www.instagram.com/miis_98/
+photo.17.tags: portrait, smile, tree
+photo.18: ig://BcmyAVjHL1T/m
+photo.18.author: rdpnzoo
+photo.18.commitdate: 2018/10/20
+photo.18.link: https://www.instagram.com/rdpnzoo/
+photo.18.tags: bamboo
+photo.19: ig://BcpSsAVHCia/m
+photo.19.author: rdpnzoo
+photo.19.commitdate: 2018/10/20
+photo.19.link: https://www.instagram.com/rdpnzoo/
+photo.19.tags: paws, tree, upside-down
+photo.20: ig://BdcnkqvH5MK/m
+photo.20.author: rdpnzoo
+photo.20.commitdate: 2018/10/20
+photo.20.link: https://www.instagram.com/rdpnzoo/
+photo.20.tags: climb, peek
+photo.21: ig://BeDXoPHn6T4/m
+photo.21.author: rdpnzoo
+photo.21.commitdate: 2018/10/20
+photo.21.link: https://www.instagram.com/rdpnzoo/
+photo.21.tags: bamboo
+photo.22: ig://BexoLGGnEp-/m
+photo.22.author: rdpnzoo
+photo.22.commitdate: 2018/10/20
+photo.22.link: https://www.instagram.com/rdpnzoo/
+photo.22.tags: sleeping, tongue
+photo.23: ig://BkSRxmdFNVJ/m
+photo.23.author: rdpnzoo
+photo.23.commitdate: 2018/10/20
+photo.23.link: https://www.instagram.com/rdpnzoo/
+photo.24: ig://BpuTKi7A3PW/m
+photo.24.author: happy_love2.15
+photo.24.commitdate: 2019/3/17
+photo.24.link: https://www.instagram.com/happy_love2.15/
+photo.24.tags: smile, tongue, tree
+species: 2
+studbook.id: 0570
+zoo: 54

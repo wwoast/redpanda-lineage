@@ -1,0 +1,91 @@
+[panda]
+_id: 1191
+birthday: 2020/6/23
+birthplace: 65
+children: none
+commitdate: 2020/7/14
+en.name: Lucas
+en.nicknames: none
+en.oldnames: Phoebe
+en.othernames: none
+gender: m
+jp.name: ルーカス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2020/6/23
+location.2: 95, 2021/7/1
+photo.1: ig://CC4oleBDLlq/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2020/9/7
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: baby, newborn, portrait, tail
+photo.2: ig://CGrzHUoHkid/m
+photo.2.author: cincinnatizoo
+photo.2.commitdate: 2020/10/27
+photo.2.link: https://www.instagram.com/cincinnatizoo/
+photo.2.tags: baby, portrait, smile, tail, tree
+photo.3: ig://CG1AVCggbxc/m
+photo.3.author: cincinnatizoo
+photo.3.commitdate: 2021/6/30
+photo.3.link: https://www.instagram.com/cincinnatizoo/
+photo.3.tags: autumn, baby, tail
+photo.4: ig://CHQcRBYjH3W/m
+photo.4.author: cincinnatizoo
+photo.4.commitdate: 2020/11/15
+photo.4.link: https://www.instagram.com/cincinnatizoo/
+photo.4.tags: baby, bamboo, dish, paws, portrait, smile
+photo.5: ig://CHw2CtFglHG/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/11/20
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: baby, mofumofu, standing
+photo.6: ig://CI0YGVXjYg6/m
+photo.6.author: cincinnatizoo
+photo.6.commitdate: 2020/12/21
+photo.6.link: https://www.instagram.com/cincinnatizoo/
+photo.6.tags: baby, standing, tongue
+photo.7: ig://CKv_rW0sWqu/m
+photo.7.author: cincinnatizoo
+photo.7.commitdate: 2021/2/19
+photo.7.link: https://www.instagram.com/cincinnatizoo/
+photo.7.tags: paws, portrait, snow, tail
+photo.8: ig://CL4BZdvgv3f/m
+photo.8.author: rossifari
+photo.8.commitdate: 2021/7/21
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: paws, portrait, standing, tail
+photo.9: ig://CNj32x4g6VE/m
+photo.9.author: rossifari
+photo.9.commitdate: 2021/4/20
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: paws, portrait, profile, standing, tail
+photo.10: ig://CWTzM2ihP8G/m
+photo.10.author: carsontheredpanda
+photo.10.commitdate: 2021/11/21
+photo.10.link: https://www.instagram.com/carsontheredpanda/
+photo.10.tags: portrait, smile, whiskers
+photo.11: ig://CZZP4MJMUt3/m
+photo.11.author: rossifari
+photo.11.commitdate: 2022/3/17
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: peek, portrait, sample, whiskers
+photo.12: ig://CaXJ0ycMAJK/m
+photo.12.author: rossifari
+photo.12.commitdate: 2022/4/25
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: dish, keeper, peek
+photo.13: ig://CcnuCr-pKGd/m
+photo.13.author: carsontheredpanda
+photo.13.commitdate: 2022/5/27
+photo.13.link: https://www.instagram.com/carsontheredpanda/
+photo.13.tags: laying down, sample, whiskers
+photo.14: ig://CfMopuGpPwJ/m
+photo.14.author: carsontheredpanda
+photo.14.commitdate: 2022/7/14
+photo.14.link: https://www.instagram.com/carsontheredpanda/
+photo.14.tags: portrait, sample, smile, whiskers
+species: 2
+uncertainty: location.2 exact date in summer 2021
+zoo: 95

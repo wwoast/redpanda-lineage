@@ -1,0 +1,34 @@
+[zoo]
+_id: 289
+commitdate: 2022/2/10
+en.address: 3 Chome-8-13 Miyamotocho, Kiryu, Gunma 376-0056, Japan
+en.location: Kiryu, Gunma Prefecture, Japan
+en.name: Kiryugaoka Zoo
+en.othernames: Miraihehadatake Yamada Manufacturing Kiryugaoka Zoo
+flag: Japan
+jp.address: 〒376-0056 群馬県桐生市宮本町３丁目８−13
+jp.location: 桐生市 群馬県
+jp.name: 桐生が岡動物園
+jp.othernames: 未来へはばたけ 山田製作所 桐生が岡動物園
+language.order: jp, en
+latitude: 36.4198651
+longitude: 139.3324586
+map: https://goo.gl/maps/vd74wUJnUA7cyL7x7
+photo.1: ig://Bhvltg3lPsC/m
+photo.1.author: kiryucity_gunma_kiritori
+photo.1.commitdate: 2022/2/10
+photo.1.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.2: ig://BzJ_ZolnwcS/m
+photo.2.author: kiryucity_gunma_kiritori
+photo.2.commitdate: 2022/2/10
+photo.2.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.3: ig://B3MGan7n_w9/m
+photo.3.author: kiryucity_gunma_kiritori
+photo.3.commitdate: 2022/2/10
+photo.3.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.3.tags: profile
+photo.4: ig://CAeuP7THrgU/m
+photo.4.author: kiryucity_gunma_kiritori
+photo.4.commitdate: 2022/2/10
+photo.4.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+website: https://www.city.kiryu.lg.jp/zoo/

@@ -1,0 +1,71 @@
+[panda]
+_id: 394
+birthday: 2013/6/22
+birthplace: 84
+children: 1185, 1186
+commitdate: 2018/11/20
+en.name: Gen Tso
+en.nicknames: none
+en.othernames: General Tso, General T'so
+gender: m
+jp.name: 将軍ズオ
+jp.nicknames: none
+jp.othernames: しょうぐんズオ
+language.order: en, jp
+litter: 493
+location.1: 84, 2013/6/22
+location.2: 43, 2014/6/5
+location.3: 44, 2021/1/1
+photo.1: ig://BG84DY2ykEx/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: smile, tongue
+photo.2: ig://BnCCbdxDvnr/m
+photo.2.author: columbuszoo
+photo.2.commitdate: 2018/11/20
+photo.2.link: https://www.instagram.com/columbuszoo/
+photo.2.tags: profile
+photo.3: ig://B1Mzk-tp1GD/m
+photo.3.author: rossifari
+photo.3.commitdate: 2019/12/5
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: portrait, tree, upside-down
+photo.4: ig://CE1WO3YD-lS/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/9/15
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: mofumofu, portrait, whiskers
+photo.5: ig://CG9xjNOLta8/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/11/6
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: close-up, tongue, whiskers
+photo.6: ig://CJJTizaA9Vo/m
+photo.6.author: lipscer
+photo.6.commitdate: 2021/9/18
+photo.6.link: https://www.instagram.com/lipscer/
+photo.6.tags: tail
+photo.7: ig://CJRTgPuAIpS/m
+photo.7.author: lipscer
+photo.7.commitdate: 2021/9/18
+photo.7.link: https://www.instagram.com/lipscer/
+photo.7.tags: whiskers
+photo.8: ig://CKBk1cGLJhZ/m
+photo.8.author: rossifari
+photo.8.commitdate: 2021/5/8
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: portrait, smile, standing, tail, whiskers
+photo.9: ig://CKUIrT7Fa4L/m
+photo.9.author: columbuszoo
+photo.9.commitdate: 2021/6/13
+photo.9.link: https://www.instagram.com/columbuszoo/
+photo.9.tags: close-up, portrait, snow, window
+photo.10: ig://CgtxIc6MZGQ/m
+photo.10.author: rossifari
+photo.10.commitdate: 2022/8/5
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: paws, portrait, sample, whiskers
+species: 2
+studbook.id: 1338
+zoo: 44

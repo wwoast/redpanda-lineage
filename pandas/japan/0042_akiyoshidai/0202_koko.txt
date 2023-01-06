@@ -1,0 +1,167 @@
+[panda]
+_id: 202
+birthday: 2003/7/15
+birthplace: 6
+children: 257, 258, 302, 483, 195, 201, 259, 260
+commitdate: 2018/7/22
+en.name: Kō-Kō
+en.nicknames: none
+en.othernames: Kou-Kou, Ko-Ko, Koko, Koukou
+gender: m
+jp.name: 航航
+jp.nicknames: none
+jp.othernames: コウコウ
+language.order: jp, en
+litter: 452, 801
+location.1: 6, 2003/7/15
+location.2: 42, 2009/1/19
+photo.1: ig://BX2vkxTB8tS/m
+photo.1.author: apple_jasmine33
+photo.1.commitdate: 2020/5/7
+photo.1.link: https://www.instagram.com/apple_jasmine33/
+photo.1.tags: portrait
+photo.2: ig://BZNbXWQhAkD/m
+photo.2.author: miis_98
+photo.2.commitdate: 2019/6/23
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: portrait
+photo.3: ig://BZqo1A_BIpO/m
+photo.3.author: apple_jasmine33
+photo.3.commitdate: 2020/5/7
+photo.3.link: https://www.instagram.com/apple_jasmine33/
+photo.3.tags: portrait
+photo.4: ig://BcUOLo5FQTW/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2018/12/23
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: portrait
+photo.5: ig://Bg4-IX7Bv5w/m
+photo.5.author: kotata_513
+photo.5.commitdate: 2019/6/23
+photo.5.link: https://www.instagram.com/kotata_513/
+photo.5.tags: paws, portrait
+photo.6: ig://BqmjNjjnv2n/m
+photo.6.author: yakko____
+photo.6.commitdate: 2018/12/6
+photo.6.link: https://www.instagram.com/yakko____/
+photo.6.tags: bamboo
+photo.7: ig://Br3huFhldHt/m
+photo.7.author: re_ichimaru
+photo.7.commitdate: 2018/12/26
+photo.7.link: https://www.instagram.com/re_ichimaru/
+photo.8: ig://BsVd-BBlIxG/m
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2019/1/9
+photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.9: ig://Btuv5B2lsEy/m
+photo.9.author: re_ichimaru
+photo.9.commitdate: 2019/6/23
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: paws
+photo.10: ig://BtvdlWGF2lS/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2019/6/23
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: portrait
+photo.11: ig://ByEl0N9hQC7/m
+photo.11.author: kipekaila
+photo.11.commitdate: 2019/6/1
+photo.11.link: https://www.instagram.com/kipekaila/
+photo.11.tags: itchy, wink
+photo.12: ig://B2eZtrQB_7p/m
+photo.12.author: mifko55
+photo.12.commitdate: 2019/9/18
+photo.12.link: https://www.instagram.com/mifko55/
+photo.12.tags: itchy, paws, portrait
+photo.13: ig://B5Jc7qohLdb/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/11/21
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: apple time, dish, eye, paws, tongue
+photo.14: ig://CE5NMyvBz45/m
+photo.14.author: grskus_tk
+photo.14.commitdate: 2020/9/24
+photo.14.link: https://www.instagram.com/grskus_tk/
+photo.15: ig://CHxuCg3BfkR/m
+photo.15.author: kojikoji2011
+photo.15.commitdate: 2022/8/28
+photo.15.link: https://www.instagram.com/kojikoji2011/
+photo.15.tags: laying down, paws, portrait, sleeping
+photo.16: ig://CJYu8pxhPGZ/m
+photo.16.author: kojikoji2011
+photo.16.commitdate: 2021/6/7
+photo.16.link: https://www.instagram.com/kojikoji2011/
+photo.16.tags: eye, grooming, paws, portrait, tail
+photo.17: ig://CKI2F4xhRI_/m
+photo.17.author: kojikoji2011
+photo.17.commitdate: 2021/6/7
+photo.17.link: https://www.instagram.com/kojikoji2011/
+photo.17.tags: eye, paws
+photo.18: ig://CLNn7dqhmTm/m
+photo.18.author: kojikoji2011
+photo.18.commitdate: 2021/6/7
+photo.18.link: https://www.instagram.com/kojikoji2011/
+photo.18.tags: eye, laying down, paws, peek, portrait
+photo.19: ig://CNulDlzBoKi/m
+photo.19.author: kojikoji2011
+photo.19.commitdate: 2021/6/7
+photo.19.link: https://www.instagram.com/kojikoji2011/
+photo.19.tags: eye, paws, portrait, tail, tongue
+photo.20: ig://COKtPTlBPkZ/m
+photo.20.author: kojikoji2011
+photo.20.commitdate: 2021/6/7
+photo.20.link: https://www.instagram.com/kojikoji2011/
+photo.20.tags: laying down, tail
+photo.21: ig://CQLxZMirzup/m
+photo.21.author: kojikoji2011
+photo.21.commitdate: 2021/9/6
+photo.21.link: https://www.instagram.com/kojikoji2011/
+photo.21.tags: laying down, tail
+photo.22: ig://CT_8q0WhROq/m
+photo.22.author: kojikoji2011
+photo.22.commitdate: 2022/3/13
+photo.22.link: https://www.instagram.com/kojikoji2011/
+photo.22.tags: eye, itchy, paws, portrait
+photo.23: ig://CWfZ9GYBKX9/m
+photo.23.author: kojikoji2011
+photo.23.commitdate: 2022/9/15
+photo.23.link: https://www.instagram.com/kojikoji2011/
+photo.23.tags: eye, sample
+photo.24: ig://CYG4a5aPPto/m
+photo.24.author: kojikoji2011
+photo.24.commitdate: 2022/1/6
+photo.24.link: https://www.instagram.com/kojikoji2011/
+photo.24.tags: apple time, dish, eye, portrait, whiskers
+photo.25: ig://CZw2Lx4hTw0/m
+photo.25.author: kojikoji2011
+photo.25.commitdate: 2022/3/13
+photo.25.link: https://www.instagram.com/kojikoji2011/
+photo.25.tags: eye, portrait, sample, tongue
+photo.26: ig://CacNpFZP-TT/m
+photo.26.author: kojikoji2011
+photo.26.commitdate: 2022/3/10
+photo.26.link: https://www.instagram.com/kojikoji2011/
+photo.26.tags: paws, portrait, profile, whiskers
+photo.27: ig://Cbm1hP4JjOQ/m
+photo.27.author: sasapan34
+photo.27.commitdate: 2022/4/25
+photo.27.link: https://www.instagram.com/sasapan34/
+photo.27.tags: paws, smile
+photo.28: ig://CeTcZJXvIms/m
+photo.28.author: kojikoji2011
+photo.28.commitdate: 2022/9/24
+photo.28.link: https://www.instagram.com/kojikoji2011/
+photo.28.tags: eye, portrait, sample, smile, whiskers
+photo.29: ig://CjX5US3vjVM/m
+photo.29.author: kojikoji2011
+photo.29.commitdate: 2022/10/20
+photo.29.link: https://www.instagram.com/kojikoji2011/
+photo.29.tags: eye, portrait, sample, whiskers
+photo.30: ig://Ck01JkaP1Sw/m
+photo.30.author: kojikoji2011
+photo.30.commitdate: 2022/12/20
+photo.30.link: https://www.instagram.com/kojikoji2011/
+photo.30.tags: laying down, paws, portrait, sample, smile, whiskers
+species: 2
+studbook.id: 0370
+zoo: 42

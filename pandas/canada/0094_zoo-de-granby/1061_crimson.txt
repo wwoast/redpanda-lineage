@@ -1,0 +1,45 @@
+[panda]
+_id: 1061
+birthday: 2019/6/16
+birthplace: 76
+children: none
+commitdate: 2019/11/29
+en.name: Crimson
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: クリムゾン
+jp.nicknames: 真紅
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 76, 2019/6/16
+location.2: 94, 2020/12/1
+photo.1: ig://B2FReGAjQBe/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: baby
+photo.2: ig://B2ZWGxZDvam/m
+photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2.tags: baby, laying down, paws, portrait
+photo.3: ig://B5JJQ_FD_mo/m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2019/11/29
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: baby, snow, tail
+photo.4: ig://CV8IIPWNME_/m
+photo.4.author: zoodegranbyofficiel
+photo.4.commitdate: 2021/12/23
+photo.4.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.4.tags: grooming, mofumofu, paws, portrait, tree
+photo.5: ig://CIdlRTtjbUD/m
+photo.5.author: assiniboineparkzoo
+photo.5.commitdate: 2021/4/4
+photo.5.link: https://www.instagram.com/assiniboineparkzoo/
+photo.5.tags: lunch time, paws, smile, white face
+species: 2
+uncertainty: locaion.2 exact date (sometime near 12/2020)
+zoo: 94

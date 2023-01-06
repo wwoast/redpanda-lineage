@@ -1,0 +1,192 @@
+[panda]
+_id: 32
+birthday: 2009/7/8
+birthplace: 15
+children: none
+commitdate: 2018/6/18
+en.name: Hinata
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ひなた
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 366
+location.1: 15, 2009/7/8
+location.2: 70, 2010/6/16
+photo.1: ig://BQXlHbygbz2/m
+photo.1.author: peek_a_boo00
+photo.1.commitdate: 2018/7/29
+photo.1.link: https://www.instagram.com/peek_a_boo00/
+photo.1.tags: dish, paws, tongue
+photo.2: ig://BTymE0Xlwdr/m
+photo.2.author: shrimpieaqua
+photo.2.commitdate: 2018/7/29
+photo.2.link: https://www.instagram.com/shrimpieaqua/
+photo.2.tags: grooming, paws, tongue
+photo.3: ig://BYmkQDzBHFY/m
+photo.3.author: miis_98
+photo.3.commitdate: 2018/7/29
+photo.3.link: https://www.instagram.com/miis_98/
+photo.4: ig://BZfChOjhYJg/m
+photo.4.author: miis_98
+photo.4.commitdate: 2018/7/29
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: profile
+photo.5: ig://BfStUyQFe9r/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2020/3/12
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: peek, portrait, whiskers
+photo.6: ig://Bjhg-PKFwLW/m
+photo.6.author: miis_98
+photo.6.commitdate: 2018/7/20
+photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: laying down, tongue
+photo.7: ig://Bk78hVhl6AQ/m
+photo.7.author: love__mitarashi
+photo.7.commitdate: 2018/7/20
+photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.8: ig://ByqCkKphAwP/m
+photo.8.author: akiakiakiko18
+photo.8.commitdate: 2019/6/16
+photo.8.link: https://www.instagram.com/akiakiakiko18/
+photo.9: ig://BzxpbIBB07n/m
+photo.9.author: polarbear_zoo
+photo.9.commitdate: 2020/5/27
+photo.9.link: https://www.instagram.com/polarbear_zoo/
+photo.9.tags: laying down, mofumofu, portrait
+photo.10: ig://B28jy6JhZtf/m
+photo.10.author: love__mitarashi
+photo.10.commitdate: 2019/10/8
+photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: bamboo, tongue
+photo.11: ig://B2_IiPCB-LZ/m
+photo.11.author: love__mitarashi
+photo.11.commitdate: 2019/10/8
+photo.11.link: https://www.instagram.com/love__mitarashi/
+photo.11.tags: laying down, portrait, smile
+photo.12: ig://B4rouXWBG8k/m
+photo.12.author: chankunvv
+photo.12.commitdate: 2019/11/12
+photo.12.link: https://www.instagram.com/chankunvv/
+photo.12.tags: portrait
+photo.13: ig://B4vhvPlBKYg/m
+photo.13.author: motohin
+photo.13.commitdate: 2019/11/15
+photo.13.link: https://www.instagram.com/motohin/
+photo.13.tags: laying down, portrait, smile
+photo.14: ig://B585dMTh_zi/m
+photo.14.author: yossi929
+photo.14.commitdate: 2020/1/25
+photo.14.link: https://www.instagram.com/yossi929/
+photo.14.tags: portrait
+photo.15: ig://CCNeQErB3I2/m
+photo.15.author: kisshan324
+photo.15.commitdate: 2020/7/14
+photo.15.link: https://www.instagram.com/kisshan324/
+photo.15.tags: paws, portrait
+photo.16: ig://CCYTvD4hXki/m
+photo.16.author: love__mitarashi
+photo.16.commitdate: 2021/7/12
+photo.16.link: https://www.instagram.com/love__mitarashi/
+photo.16.tags: bamboo, portrait
+photo.17: ig://CE_ricNhMD1/m
+photo.17.author: love__mitarashi
+photo.17.commitdate: 2020/9/28
+photo.17.link: https://www.instagram.com/love__mitarashi/
+photo.17.tags: peek, videolink
+photo.18: ig://CFD-FFZBick/m
+photo.18.author: love__mitarashi
+photo.18.commitdate: 2022/1/7
+photo.18.link: https://www.instagram.com/love__mitarashi/
+photo.18.tags: laying down, portrait, tongue, videolink
+photo.19: ig://CIYE9VgBqm9/m
+photo.19.author: fetorus_mami
+photo.19.commitdate: 2020/12/20
+photo.19.link: https://www.instagram.com/fetorus_mami/
+photo.19.tags: close-up, smile, tongue
+photo.20: ig://CIYH23zhD6L/m
+photo.20.author: fetorus_mami
+photo.20.commitdate: 2020/12/20
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: keeper, lunch time, paws, techitechi
+photo.21: ig://CPhbJU_h8cV/m
+photo.21.author: kisshan324
+photo.21.commitdate: 2021/6/27
+photo.21.link: https://www.instagram.com/kisshan324/
+photo.21.tags: portrait
+photo.22: ig://CPnFQbphNnE/m
+photo.22.author: kisshan324
+photo.22.commitdate: 2022/1/7
+photo.22.link: https://www.instagram.com/kisshan324/
+photo.22.tags: paws, portrait, smile
+photo.23: ig://CPsPUlNBJ3n/m
+photo.23.author: kisshan324
+photo.23.commitdate: 2022/1/7
+photo.23.link: https://www.instagram.com/kisshan324/
+photo.23.tags: paws, portrait, smile, standing, tail
+photo.24: ig://CQ3Z-gzhzWa/m
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2021/7/4
+photo.24.link: https://www.instagram.com/fetorus_mami/
+photo.24.tags: close-up, whiskers
+photo.25: ig://CRdnJWIh3Lg/m
+photo.25.author: colette.jp
+photo.25.commitdate: 2021/8/2
+photo.25.link: https://www.instagram.com/colette.jp/
+photo.25.tags: close-up, portrait, smile, tongue
+photo.26: ig://CSMkirjr8vV/m
+photo.26.author: love__mitarashi
+photo.26.commitdate: 2021/11/4
+photo.26.link: https://www.instagram.com/love__mitarashi/
+photo.26.tags: peek, videolink
+photo.27: ig://CUFO3pihJkD/m
+photo.27.author: colette.jp
+photo.27.commitdate: 2021/9/25
+photo.27.link: https://www.instagram.com/colette.jp/
+photo.27.tags: laying down, mofumofu, portrait, sleeping
+photo.28: ig://CWCF5-IMlZN/m
+photo.28.author: miis_98
+photo.28.commitdate: 2021/11/11
+photo.28.link: https://www.instagram.com/miis_98/
+photo.28.tags: close-up, peek, whiskers
+photo.29: ig://CYRXdEJPb_D/m
+photo.29.author: grskus_tk
+photo.29.commitdate: 2022/1/6
+photo.29.link: https://www.instagram.com/grskus_tk/
+photo.29.tags: paws, smile, tongue, whiskers
+photo.30: ig://CYRYrbMvU_u/m
+photo.30.author: grskus_tk
+photo.30.commitdate: 2022/1/6
+photo.30.link: https://www.instagram.com/grskus_tk/
+photo.30.tags: keeper, paws, peek
+photo.31: ig://grskus_tk/CYq5VNFP6yd/m
+photo.31.author: grskus_tk
+photo.31.commitdate: 2022/1/23
+photo.31.link: https://www.instagram.com/grskus_tk/
+photo.31.tags: peek, tail
+photo.32: ig://CaGwli5PRXy/m
+photo.32.author: sasapan34
+photo.32.commitdate: 2022/4/7
+photo.32.link: https://www.instagram.com/sasapan34/
+photo.32.tags: mofumofu, smile
+photo.33: ig://CfwPihwLCEE/m
+photo.33.author: love__mitarashi
+photo.33.commitdate: 2022/7/28
+photo.33.link: https://www.instagram.com/love__mitarashi/
+photo.33.tags: laying down, paws
+photo.34: ig://CgMZEMtrttL/m
+photo.34.author: love__mitarashi
+photo.34.commitdate: 2022/7/28
+photo.34.link: https://www.instagram.com/love__mitarashi/
+photo.34.tags: laying down, peek, tail
+photo.35: ig://ClLheJzPvxY/m
+photo.35.author: colette.jp
+photo.35.commitdate: 2022/12/19
+photo.35.link: https://www.instagram.com/colette.jp/
+photo.35.tags: close-up, portrait, smile
+species: 2
+studbook.id: 0993
+zoo: 70

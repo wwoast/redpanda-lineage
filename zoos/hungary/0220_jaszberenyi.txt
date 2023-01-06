@@ -1,0 +1,39 @@
+[zoo]
+_id: 220
+commitdate: 2020/11/24
+en.address: Jászberény, Fémnyomó u. 3, 5100 Hungary
+en.location: Jászberény, Hungary
+en.name: Jászberény Zoo
+flag: Hungary
+hu.address: Jászberény, Fémnyomó u. 3, 5100 Hungary
+hu.location: Jászberény, Hungary
+hu.name: Jászberényi Állat- és Növénykert
+language.order: hu, en
+latitude: 47.493309
+longitude: 19.8662863
+map: https://goo.gl/maps/bmY8bmrZ8uFLq83p7
+photo.1: ig://BYQXR30HBTk/m
+photo.1.author: simply_csucsok
+photo.1.commitdate: 2020/11/24
+photo.1.link: https://www.instagram.com/simply_csucsok/
+photo.2: ig://BnLFnf8Dztb/m
+photo.2.author: eszescsilla
+photo.2.commitdate: 2020/11/24
+photo.2.link: https://www.instagram.com/eszescsilla/
+photo.3: ig://B0jER-VgvoP/m
+photo.3.author: szabogaborphoto
+photo.3.commitdate: 2020/11/24
+photo.3.link: https://www.instagram.com/szabogaborphoto/
+photo.4: ig://B1ySpZPhz3I/m
+photo.4.author: braun.barbii
+photo.4.commitdate: 2020/11/24
+photo.4.link: https://www.instagram.com/braun.barbii/
+photo.5: ig://B5sW9z1hbtK/m
+photo.5.author: szkattus
+photo.5.commitdate: 2020/11/24
+photo.5.link: https://www.instagram.com/szkattus/
+photo.6: ig://B9tq95rHRPl/m
+photo.6.author: alohavibes29
+photo.6.commitdate: 2020/11/24
+photo.6.link: https://www.instagram.com/alohavibes29/
+website: hhttps://jaszberenyzoo.hu/

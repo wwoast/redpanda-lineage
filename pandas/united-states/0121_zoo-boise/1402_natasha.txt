@@ -1,0 +1,38 @@
+[panda]
+_id: 1402
+birthday: 2021/6/21
+birthplace: 121
+children: none
+commitdate: 2022/11/29
+en.name: Natasha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナターシャ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1401
+photo.1: ig://CXrUHK-voV1/m
+photo.1.author: zooboise
+photo.1.commitdate: 2022/11/29
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: mofumofu, portrait, profile, sample
+photo.2: ig://CY4Nddbpf0t/m
+photo.2.author: zooboise
+photo.2.commitdate: 2022/11/29
+photo.2.link: https://www.instagram.com/zooboise/
+photo.2.tags: close-up, grumpy, mofumofu, portrait, sample, white face
+photo.3: ig://CZAFxNIo6aK/m
+photo.3.author: zooboise
+photo.3.commitdate: 2022/11/29
+photo.3.link: https://www.instagram.com/zooboise/
+photo.3.tags: mofumofu, portrait, sample, tail, whiskers, white face
+photo.4: ig://Ce3-ZGjpmfM/m
+photo.4.author: zooboise
+photo.4.commitdate: 2022/11/29
+photo.4.link: https://www.instagram.com/zooboise/
+photo.4.tags: bamboo, mofumofu, paws, portrait, white face
+species: 1
+uncertainty: exact date moved to virginia zoo
+zoo: 121

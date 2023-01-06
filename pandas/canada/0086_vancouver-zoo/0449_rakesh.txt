@@ -1,0 +1,20 @@
+[panda]
+_id: 449
+birthday: 2014/6/28
+birthplace: 76
+children: none
+commitdate: 2018/11/25
+death: 2015/8/17
+en.name: Rakesh
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラケシ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 432
+location.1: 76, 2014/6/28
+location.2: 86, 2015/5/28
+species: 2
+zoo: 86

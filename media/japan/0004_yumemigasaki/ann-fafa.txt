@@ -1,0 +1,32 @@
+[media]
+_id: media.4.ann-fafa
+commitdate: 2019/9/3
+panda.tags: 26, 27
+photo.1: ig://_20fTbtG7r/m
+photo.1.author: mariten1119
+photo.1.commitdate: 2019/9/3
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: couple
+photo.1.tags.26.location: 265, 65
+photo.1.tags.27.location: 135, 150
+photo.2: ig://B7LnzTah8vH/m
+photo.2.author: grskus_tk
+photo.2.commitdate: 2020/1/14
+photo.2.link: https://www.instagram.com/grskus_tk/
+photo.2.tags: couple
+photo.2.tags.26.location: 100, 130
+photo.2.tags.27.location: 85, 170
+photo.3: ig://CWk1I_9huvQ/l
+photo.3.author: eos1089
+photo.3.commitdate: 2021/11/25
+photo.3.link: https://www.instagram.com/eos1089/
+photo.3.tags: couple, portrait, tail
+photo.3.tags.26.location: 400, 230
+photo.3.tags.27.location: 280, 280
+photo.4: ig://CZre_bGFKVJ/l
+photo.4.author: miis_98
+photo.4.commitdate: 2022/2/10
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: couple, paws, peek, portrait, tongue, white face
+photo.4.tags.26.location: 95, 270
+photo.4.tags.27.location: 345, 165

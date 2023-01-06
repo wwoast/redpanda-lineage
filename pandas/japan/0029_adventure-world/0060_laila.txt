@@ -1,0 +1,226 @@
+[panda]
+_id: 60
+birthday: 2010/7/10
+birthplace: 7
+children: 62, 65, 64, 63, 305
+commitdate: 2018/6/22
+death: 2021/7/2
+en.name: Laila
+en.nicknames: none
+en.othernames: Lila, Lyra, Lyla, Raira, Rira
+gender: f
+jp.name: ライラ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 198
+location.1: 7, 2010/7/10
+location.2: 29, 2013/2/28
+photo.1: ig://BR5VHTTg5MN/m
+photo.1.author: framereim
+photo.1.commitdate: 2018/7/22
+photo.1.link: https://www.instagram.com/framereim/
+photo.1.tags: itchy
+photo.2: ig://BXvEUT0AIUk/m
+photo.2.author: mifko55
+photo.2.commitdate: 2020/4/15
+photo.2.link: https://www.instagram.com/mifko55/
+photo.2.tags: peek, portrait
+photo.3: ig://BZDKcDMFhJW/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/7/22
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: tongue
+photo.4: ig://BZJSF-3Fft1/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2018/7/22
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: nose
+photo.5: ig://Bc8wHftFCpI/m
+photo.5.author: nakacchi_desu
+photo.5.commitdate: 2018/7/22
+photo.5.link: https://www.instagram.com/nakacchi_desu/
+photo.5.tags: whiskers
+photo.6: ig://BglUuVpFM7K/m
+photo.6.author: mifko55
+photo.6.commitdate: 2020/4/15
+photo.6.link: https://www.instagram.com/mifko55/
+photo.6.tags: peek, portrait
+photo.7: ig://BqmuCwdntMX/m
+photo.7.author: yakko____
+photo.7.commitdate: 2018/12/6
+photo.7.link: https://www.instagram.com/yakko____/
+photo.7.tags: bridge, smile
+photo.8: ig://Br6I68NFLll/m
+photo.8.author: kipekaila
+photo.8.commitdate: 2018/12/27
+photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: laying down, paws
+photo.9: ig://BuZyLOploLz/m
+photo.9.author: kipekaila
+photo.9.commitdate: 2019/3/7
+photo.9.link: https://www.instagram.com/kipekaila/
+photo.9.tags: dish, home
+photo.10: ig://BztwTthlSTN/m
+photo.10.author: yakkooo24
+photo.10.commitdate: 2019/7/10
+photo.10.link: https://www.instagram.com/yakkooo24/
+photo.10.tags: bridge, smile
+photo.11: ig://Bz2vOoMBNR4/m
+photo.11.author: nishicotolo
+photo.11.commitdate: 2019/7/14
+photo.11.link: https://www.instagram.com/nishicotolo/
+photo.11.tags: smile
+photo.12: ig://B0CMMlrBLaA/m
+photo.12.author: s24.star_load
+photo.12.commitdate: 2019/8/20
+photo.12.link: https://www.instagram.com/s24.star_load/
+photo.12.tags: dish, portrait, smile
+photo.13: ig://B2aPrfqBn_p/m
+photo.13.author: chankunvv
+photo.13.commitdate: 2019/10/28
+photo.13.link: https://www.instagram.com/chankunvv/
+photo.13.tags: bamboo, muzzle, nose, portrait
+photo.14: ig://B2d_jCnBivX/m
+photo.14.author: chankunvv
+photo.14.commitdate: 2019/10/28
+photo.14.link: https://www.instagram.com/chankunvv/
+photo.14.tags: bridge, itchy, portrait, smile
+photo.15: ig://B2rCLlvh_JI/m
+photo.15.author: resapanlove
+photo.15.commitdate: 2019/9/27
+photo.15.link: https://www.instagram.com/resapanlove/
+photo.15.tags: bridge, itchy, smile
+photo.16: ig://B4NGKhKBZsW/m
+photo.16.author: mifko55
+photo.16.commitdate: 2019/10/29
+photo.16.link: https://www.instagram.com/mifko55/
+photo.16.tags: nose, portrait
+photo.17: ig://B4TSgqkB3IQ/m
+photo.17.author: fetorus_mami
+photo.17.commitdate: 2019/11/2
+photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.tags: paws, standing, tail, techitechi
+photo.18: ig://B5m4_yEhk9P/m
+photo.18.author: nishicotolo
+photo.18.commitdate: 2019/12/7
+photo.18.link: https://www.instagram.com/nishicotolo/
+photo.18.tags: smile, tongue
+photo.19: ig://B51Nn1fBPb_/m
+photo.19.author: chankunvv
+photo.19.commitdate: 2019/12/27
+photo.19.link: https://www.instagram.com/chankunvv/
+photo.19.tags: portrait, tail
+photo.20: ig://B6rHv9EBptz/m
+photo.20.author: kipekaila
+photo.20.commitdate: 2019/12/31
+photo.20.link: https://www.instagram.com/kipekaila/
+photo.20.tags: portrait, whiskers
+photo.21: ig://B7dOIKMBIjo/m
+photo.21.author: chankunvv
+photo.21.commitdate: 2020/1/21
+photo.21.link: https://www.instagram.com/chankunvv/
+photo.21.tags: bridge, laying down, mofumofu, peek, portrait
+photo.22: ig://B7mkgIxh9xx/m
+photo.22.author: sasapan34
+photo.22.commitdate: 2020/1/26
+photo.22.link: https://www.instagram.com/sasapan34/
+photo.22.tags: bridge, laying down, tail
+photo.23: ig://B8ce-n8hsY_/m
+photo.23.author: miis_98
+photo.23.commitdate: 2020/2/18
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: dish, lunch time, nose, portrait, tongue
+photo.24: ig://B89EH7vhh_F/m
+photo.24.author: miis_98
+photo.24.commitdate: 2020/3/2
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: bridge, laying down, muzzle, portrait, profile, tail, whiskers
+photo.25: ig://B9KA3X5hJUk/m
+photo.25.author: craig_craig_craig
+photo.25.commitdate: 2020/3/21
+photo.25.link: https://www.instagram.com/craig_craig_craig/
+photo.25.tags: dish, lunch time, portrait, smile
+photo.26: ig://B-DUzYHBI_B/m
+photo.26.author: craig_craig_craig
+photo.26.commitdate: 2020/3/24
+photo.26.link: https://www.instagram.com/craig_craig_craig/
+photo.26.tags: bridge, grooming, laying down, paws, portrait
+photo.27: ig://B-EwPT_Bcl7/m
+photo.27.author: nishicotolo
+photo.27.commitdate: 2020/3/24
+photo.27.link: https://www.instagram.com/nishicotolo/
+photo.27.tags: laying down, peek, whiskers
+photo.28: ig://B-HWXdtBqGm/m
+photo.28.author: nishicotolo
+photo.28.commitdate: 2020/3/29
+photo.28.link: https://www.instagram.com/nishicotolo/
+photo.28.tags: peek
+photo.29: ig://B_q8QN7n66m/m
+photo.29.author: mifko55
+photo.29.commitdate: 2020/5/4
+photo.29.link: https://www.instagram.com/mifko55/
+photo.29.tags: nose, portrait, smile, whiskers
+photo.30: ig://CCI7v9gBT7d/m
+photo.30.author: hamiiiii831_
+photo.30.commitdate: 2020/9/13
+photo.30.link: https://www.instagram.com/hamiiiii831_/
+photo.30.tags: close-up, paws, whiskers
+photo.31: ig://CC-7mmVB3Zx/m
+photo.31.author: chankunvv
+photo.31.commitdate: 2020/9/10
+photo.31.link: https://www.instagram.com/chankunvv/
+photo.31.tags: mofumofu, portrait
+photo.32: ig://CERIIvdhg30/m
+photo.32.author: chankunvv
+photo.32.commitdate: 2021/6/14
+photo.32.link: https://www.instagram.com/chankunvv/
+photo.32.tags: paws, portrait, whiskers
+photo.33: ig://CGb2QfoB85_/m
+photo.33.author: chankunvv
+photo.33.commitdate: 2020/11/2
+photo.33.link: https://www.instagram.com/chankunvv/
+photo.33.tags: paws, portrait, smile
+photo.34: ig://CJi3jVvBLPs/m
+photo.34.author: craig_craig_craig
+photo.34.commitdate: 2021/1/3
+photo.34.link: https://www.instagram.com/craig_craig_craig/
+photo.34.tags: dish, lunch time, portrait, videolink
+photo.35: ig://CL4haoSBqoq/m
+photo.35.author: craig_craig_craig
+photo.35.commitdate: 2021/3/7
+photo.35.link: https://www.instagram.com/craig_craig_craig/
+photo.35.tags: dish, lunch time, portrait, videolink
+photo.36: ig://CNgu7MFhKo1/m
+photo.36.author: chankunvv
+photo.36.commitdate: 2021/4/17
+photo.36.link: https://www.instagram.com/chankunvv/
+photo.36.tags: dish, nose, portrait
+photo.37: ig://CP278yIhF44/m
+photo.37.author: craig_craig_craig
+photo.37.commitdate: 2021/7/5
+photo.37.link: https://www.instagram.com/craig_craig_craig/
+photo.37.tags: dish, lunch, nose, portrait, videolink
+photo.38: ig://CQ8bvmeBLH5/m
+photo.38.author: craig_craig_craig
+photo.38.commitdate: 2021/7/5
+photo.38.link: https://www.instagram.com/craig_craig_craig/
+photo.38.tags: dish, nose, portrait, videolink
+photo.39: ig://CQ8xqJqB8bV/m
+photo.39.author: craig_craig_craig
+photo.39.commitdate: 2021/7/8
+photo.39.link: https://www.instagram.com/craig_craig_craig/
+photo.39.tags: close-up, mofumofu, nose, portrait, whiskers
+photo.40: ig://CRDA9FKBSVW/m
+photo.40.author: sasapan34
+photo.40.commitdate: 2021/7/8
+photo.40.link: https://www.instagram.com/sasapan34/
+photo.40.tags: paws, smile
+photo.41: ig://CRJixDhBW-V/m
+photo.41.author: mifko55
+photo.41.commitdate: 2021/7/19
+photo.41.link: https://www.instagram.com/mifko55/
+photo.41.tags: portrait, whiskers
+species: 2
+studbook.id: 10111
+zoo: 29

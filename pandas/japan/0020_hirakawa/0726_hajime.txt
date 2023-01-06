@@ -1,0 +1,21 @@
+[panda]
+_id: 726
+birthday: 1991/7/27
+birthplace: 11
+children: none
+commitdate: 2019/3/27
+death: 2011/4/23
+en.name: Hajime
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: はじめ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 727
+location.1: 11, 1991/7/27
+location.2: 20, 1994/1/10
+species: 2
+studbook.id: 9191
+zoo: 20

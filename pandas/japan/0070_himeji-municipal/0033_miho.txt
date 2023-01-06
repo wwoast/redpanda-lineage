@@ -1,0 +1,144 @@
+[panda]
+_id: 33
+birthday: 2013/7/9
+birthplace: 16
+children: none
+commitdate: 2018/6/18
+en.name: Miho
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ミホ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 16, 2013/7/9
+location.2: 70, 2015/3/9
+photo.1: ig://BPCka2-g8--/m
+photo.1.author: motohin
+photo.1.commitdate: 2023/1/1
+photo.1.link: https://www.instagram.com/motohin/
+photo.1.tags: keeper, portrait, scale
+photo.2: ig://BQXgxQxA701/m
+photo.2.author: peek_a_boo00
+photo.2.commitdate: 2018/7/29
+photo.2.link: https://www.instagram.com/peek_a_boo00/
+photo.3: ig://BWSEh8_jsxD/m
+photo.3.author: _rifa_p
+photo.3.commitdate: 2020/5/27
+photo.3.link: https://www.instagram.com/_rifa_p/
+photo.3.tags: bamboo, portrait
+photo.4: ig://BYM7nQmAe8a/m
+photo.4.author: polarbear_zoo
+photo.4.commitdate: 2018/12/11
+photo.4.link: https://www.instagram.com/polarbear_zoo/
+photo.4.tags: laying down, portrait
+photo.5: ig://BZiF8scBqZa/m
+photo.5.author: miis_98
+photo.5.commitdate: 2018/7/29
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: bamboo, hammock, paws, portrait
+photo.6: ig://BfVV6J8FThl/m
+photo.6.author: hanamaru_redpanda
+photo.6.commitdate: 2020/3/12
+photo.6.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6.tags: portrait, smile
+photo.7: ig://BkXTkr_lY2U/m
+photo.7.author: rdpnzoo
+photo.7.commitdate: 2018/7/20
+photo.7.link: https://www.instagram.com/rdpnzoo/
+photo.7.tags: apple time, bamboo, tongue
+photo.8: ig://Bk-bfJCFeF7/m
+photo.8.author: love__mitarashi
+photo.8.commitdate: 2018/7/20
+photo.8.link: https://www.instagram.com/love__mitarashi/
+photo.8.tags: itchy
+photo.9: ig://BvUGbXhFEze/m
+photo.9.author: love__mitarashi
+photo.9.commitdate: 2019/4/1
+photo.9.link: https://www.instagram.com/love__mitarashi/
+photo.9.tags: bamboo, paws
+photo.10: ig://By1D7eoBXoj/m
+photo.10.author: akiakiakiko18
+photo.10.commitdate: 2019/6/19
+photo.10.link: https://www.instagram.com/akiakiakiko18/
+photo.10.tags: laying down, paws, tongue
+photo.11: ig://B6SGhkphz-T/m
+photo.11.author: love__mitarashi
+photo.11.commitdate: 2020/5/27
+photo.11.link: https://www.instagram.com/love__mitarashi/
+photo.11.tags: paws, portrait, tail
+photo.12: ig://B7cQgInBJ_W/m
+photo.12.author: redpanda_nippon_takashi
+photo.12.commitdate: 2020/1/18
+photo.12.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.12.tags: portrait, whiskers
+photo.13: ig://B7inXathRJa/m
+photo.13.author: apple_jasmine33
+photo.13.commitdate: 2020/1/22
+photo.13.link: https://www.instagram.com/apple_jasmine33/
+photo.13.tags: peek
+photo.14: ig://CCalYr7hSOH/m
+photo.14.author: love__mitarashi
+photo.14.commitdate: 2020/7/13
+photo.14.link: https://www.instagram.com/love__mitarashi/
+photo.14.tags: portrait, videolink
+photo.15: ig://CFBmd_5BfG9/m
+photo.15.author: love__mitarashi
+photo.15.commitdate: 2020/9/15
+photo.15.link: https://www.instagram.com/love__mitarashi/
+photo.15.tags: laying down, portrait, smile
+photo.16: ig://CIYF4CpBe6Z/m
+photo.16.author: miis_98
+photo.16.commitdate: 2020/12/20
+photo.16.link: https://www.instagram.com/fetorus_mami/
+photo.16.tags: air tasting, paws, portrait, tongue
+photo.17: ig://COFQUE1BiO4/m
+photo.17.author: gloryeui
+photo.17.commitdate: 2021/5/28
+photo.17.link: https://www.instagram.com/gloryeui/
+photo.17.tags: bamboo, bite, portrait, videolink
+photo.18: ig://COa1l0JB8fY/m
+photo.18.author: gloryeui
+photo.18.commitdate: 2021/6/19
+photo.18.link: https://www.instagram.com/gloryeui/
+photo.18.tags: bamboo, blink, close-up, portrait
+photo.19: ig://CPuBON0hkHd/m
+photo.19.author: kisshan324
+photo.19.commitdate: 2021/6/18
+photo.19.link: https://www.instagram.com/kisshan324/
+photo.19.tags: bamboo, paws, portrait
+photo.20: ig://CQ3am_6hN4q/m
+photo.20.author: fetorus_mami
+photo.20.commitdate: 2021/7/4
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: close-up, mofumofu
+photo.21: ig://CTWvgpvB5BS/m
+photo.21.author: hamiiiii831_
+photo.21.commitdate: 2021/9/10
+photo.21.link: https://www.instagram.com/hamiiiii831_/
+photo.21.tags: mofumofu, peek, videolink
+photo.22: ig://CWEtfHHhN9y/m
+photo.22.author: miis_98
+photo.22.commitdate: 2021/11/11
+photo.22.link: https://www.instagram.com/miis_98/
+photo.22.tags: portrait, profile
+photo.23: ig://CX99HRRPZ-N/m
+photo.23.author: sasapan34
+photo.23.commitdate: 2022/1/6
+photo.23.link: https://www.instagram.com/sasapan34/
+photo.23.tags: sample, whiskers
+photo.24: ig://CYRcU32vaE5/m
+photo.24.author: grskus_tk
+photo.24.commitdate: 2022/1/6
+photo.24.link: https://www.instagram.com/grskus_tk/
+photo.24.tags: peek, sample, whiskers
+photo.25: ig://grskus_tk/CYq6q59Pl5p/m
+photo.25.author: grskus_tk
+photo.25.commitdate: 2022/1/23
+photo.25.link: https://www.instagram.com/grskus_tk/
+photo.25.tags: paws, tail
+species: 2
+studbook.id: 13164
+zoo: 70

@@ -1,0 +1,25 @@
+[panda]
+_id: 1099
+birthday: 2002/12/24
+birthplace: 204
+children: 1097, 1098, 546, 618, 809
+commitdate: 2020/1/25
+death: 2017/5/28
+en.name: Akkali
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アッカリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1100
+location.1: 204, 2002/12/24
+location.2: 108, 2007/7/18
+photo.1: https://www.codaworry.com/images/rpf/akkali-1-knoxville.jpg
+photo.1.author: uncredited
+photo.1.commitdate: 2020/6/21
+photo.1.link: https://www.google.com
+photo.1.tags: autumn, tail
+species: 1
+zoo: 108

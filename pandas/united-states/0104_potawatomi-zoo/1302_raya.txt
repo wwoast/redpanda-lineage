@@ -1,0 +1,47 @@
+[panda]
+_id: 1302
+birthday: 2021/6/17
+birthplace: 104
+children: none
+commitdate: 2021/7/29
+en.name: Raya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ラヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1303
+photo.1: ig://CUslh4GLSMN/m
+photo.1.author: potawatomizoo
+photo.1.commitdate: 2022/3/11
+photo.1.link: https://www.instagram.com/potawatomizoo/
+photo.1.tags: baby, laying down, toys, videolink, white face
+photo.2: ig://CWqcG8qgb8u/m
+photo.2.author: potawatomizoo
+photo.2.commitdate: 2022/2/19
+photo.2.link: https://www.instagram.com/potawatomizoo/
+photo.2.tags: baby, bamboo, mofumofu, paws, portrait, white face
+photo.3: ig://redpandanetwork/CXRoM3YhQcO/m
+photo.3.author: redpandanetwork
+photo.3.commitdate: 2022/2/19
+photo.3.link: https://www.instagram.com/redpandanetwork/
+photo.3.tags: baby, laying down, mofumofu, newborn
+photo.4: ig://CXeDJO0rFke/m
+photo.4.author: potawatomizoo
+photo.4.commitdate: 2022/4/8
+photo.4.link: https://www.instagram.com/potawatomizoo/
+photo.4.tags: baby, mofumofu, paws, smile, tail, whiskers, white face
+photo.5: ig://CZUoE_UJ0hC/m
+photo.5.author: juliapartenope
+photo.5.commitdate: 2022/2/28
+photo.5.link: https://www.instagram.com/carsontheredpanda/
+photo.5.tags: paws, portrait, sample, tail, whiskers, white face
+photo.6: ig://CZe1l_tL7uF/m
+photo.6.author: potawatomizoo
+photo.6.commitdate: 2022/2/19
+photo.6.link: https://www.instagram.com/potawatomizoo/
+photo.6.tags: bamboo, home, paws, portrait, white face
+species: 1
+zoo: 104

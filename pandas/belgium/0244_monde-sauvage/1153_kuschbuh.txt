@@ -1,0 +1,42 @@
+[panda]
+_id: 1153
+birthday: 2014/7/16
+birthplace: 214
+children: unknown
+commitdate: 2020/5/3
+en.name: Kuschbuh
+en.nicknames: none
+en.othernames: Kushbu
+fr.name: Kuschbuh
+fr.nicknames: none
+fr.othernames: Kushbu
+gender: f
+jp.name: クシュブ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, en, jp
+litter: 1154
+location.1: 214, 2014/7/16
+location.2: 244, 2015/10/2
+photo.1: ig://B9FNJhKHscK/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2020/5/3
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: portrait, shake, snow
+photo.2: ig://B9INsy6HvJg/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2020/5/3
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: bamboo, paws, portrait, snow, standing
+photo.3: ig://B-HIYTdH9_6/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2020/5/3
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: blink, paws, portrait, snow
+photo.4: ig://B_frk_mH-xS/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2020/5/3
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: portrait, profile, snow
+species: 1
+zoo: 244

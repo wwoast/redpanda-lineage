@@ -1,0 +1,61 @@
+[panda]
+_id: 229
+birthday: 2002/7/15
+birthplace: 17
+children: 132, 190, 224
+commitdate: 2018/7/27
+death: 2017/5/8
+en.name: Nono
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ノノ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 13
+location.1: 17, 2002/7/15
+location.2: 37, 2004/2/13
+photo.1: https://www.codaworry.com/images/rpf/nono-1-asahiyama.jpg
+photo.1.author: asahiyamazoo1
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://www.city.asahikawa.hokkaido.jp/asahiyamazoo/news-blog/breeding-news/d0590092.html
+photo.1.tags: bridge
+photo.2: https://www.codaworry.com/images/rpf/nono-2-asahiyama.jpg
+photo.2.author: shin-lachitina
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://shinlachi.exblog.jp/22599695/
+photo.2.tags: bamboo, blink, grumpy
+photo.3: https://www.codaworry.com/images/rpf/nono-3-asahiyama.jpg
+photo.3.author: animalparadisedxv
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.3.tags: smile, snow, tongue
+photo.4: https://www.codaworry.com/images/rpf/nono-4-asahiyama.jpg
+photo.4.author: animalparadisedxv
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.4.tags: smile
+photo.5: https://www.codaworry.com/images/rpf/nono-5-asahiyama.jpg
+photo.5.author: animalparadisedxv
+photo.5.commitdate: 2019/4/9
+photo.5.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.5.tags: snow
+photo.6: https://www.codaworry.com/images/rpf/nono-6-asahiyama.jpg
+photo.6.author: animalparadisedxv
+photo.6.commitdate: 2019/4/9
+photo.6.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.6.tags: bamboo, snow
+photo.7: https://www.codaworry.com/images/rpf/nono-7-asahiyama.jpg
+photo.7.author: animalparadisedxv
+photo.7.commitdate: 2019/4/9
+photo.7.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.7.tags: bamboo, profile, smile
+photo.8: https://www.codaworry.com/images/rpf/nono-8-asahiyama.jpg
+photo.8.author: animalparadisedxv
+photo.8.commitdate: 2019/4/9
+photo.8.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.8.tags: bamboo, smile
+species: 2
+studbook.id: 0279
+zoo: 37

@@ -1,0 +1,32 @@
+[panda]
+_id: 266
+birthday: 2011/6/27
+birthplace: 1
+children: none
+commitdate: 2018/7/28
+death: 2016/2/2
+en.name: Fran
+en.nicknames: none
+en.othernames: Furan
+gender: m
+jp.name: フラン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+photo.1: ig://BCZui-wwZ_9/m
+photo.1.author: rio_minron
+photo.1.commitdate: 2018/7/29
+photo.1.link: https://www.instagram.com/rio_minron/
+photo.1.tags: profile
+photo.2: ig://BBhmygoQZ2k/m
+photo.2.author: rio_minron
+photo.2.commitdate: 2018/7/29
+photo.2.link: https://www.instagram.com/rio_minron/
+photo.2.tags: standing
+species: 2
+studbook.id: 1199
+video.1: https://youtu.be/vq8fxKQBMGA
+video.1.author: ガメ
+video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
+zoo: 1

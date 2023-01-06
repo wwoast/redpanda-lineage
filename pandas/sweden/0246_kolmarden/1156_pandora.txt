@@ -1,0 +1,38 @@
+[panda]
+_id: 1156
+birthday: 2010/6/19
+birthplace: 199
+children: 1160
+commitdate: 2020/5/6
+death: 2016/10/25
+en.name: Pandora
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: パンドラ
+jp.nicknames: none
+jp.othernames: none
+language.order: se, en, jp
+litter: unknown
+location.1: 199, 2010/6/19
+location.2: 246, 2011/4/27
+photo.1: ig://6HuyxyEG5O/m
+photo.1.author: kolmardensdjurpark
+photo.1.commitdate: 2020/5/6
+photo.1.link: https://www.instagram.com/kolmardensdjurpark/
+photo.1.tags: grooming, paws, portrait, profile, tree
+photo.2: ig://BEYr2DUEG9E/m
+photo.2.author: kolmardensdjurpark
+photo.2.commitdate: 2020/5/6
+photo.2.link: https://www.instagram.com/kolmardensdjurpark/
+photo.2.tags: lunch time, paws, whiskers
+photo.3: ig://BK5HTXuAu2J/m
+photo.3.author: kolmardensdjurpark
+photo.3.commitdate: 2020/5/6
+photo.3.link: https://www.instagram.com/kolmardensdjurpark/
+photo.3.tags: bamboo, paws
+se.name: Pandora
+se.nicknames: none
+se.othernames: none
+species: 1
+zoo: 246

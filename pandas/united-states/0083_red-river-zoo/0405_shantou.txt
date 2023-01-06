@@ -1,0 +1,33 @@
+[panda]
+_id: 405
+birthday: 2005/5/10
+birthplace: 34
+children: 404, 406, 399, 402, 403, 461, 410
+commitdate: 2018/11/23
+death: 2015/11/12
+en.name: Shan-Tou
+en.nicknames: none
+en.oldnames: Rifa
+en.othernames: Shantou, Shan Tou, Rifa, Li-hua, Ri-fa, Riifa
+gender: f
+jp.name: シャントゥ
+jp.nicknames: none
+jp.oldnames: リーファ
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 34, 2005/5/10
+location.2: 83, 2007/2/21
+photo.1: ig://0RBgt5qd_I/m
+photo.1.author: sasjoberg
+photo.1.commitdate: 2020/2/3
+photo.1.link: https://www.instagram.com/sasjoberg/
+photo.1.tags: portrait
+photo.2: ig://BEEkA_iqn20/m
+photo.2.author: kardtrik
+photo.2.commitdate: 2020/2/3
+photo.2.link: https://www.instagram.com/kardtrik/
+photo.2.tags: portrait, profile
+species: 2
+studbook.id: 0547
+zoo: 83

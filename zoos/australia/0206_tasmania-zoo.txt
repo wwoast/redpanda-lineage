@@ -1,0 +1,33 @@
+[zoo]
+_id: 206
+commitdate: 2019/8/16
+en.address: 1166 Ecclestone Rd, Riverside TAS 7250, Australia
+en.location: Riverside, Tasmania, Australia
+en.name: Tasmania Zoo
+flag: Australia
+language.order: en
+latitude: -41.4300651
+longitude: 146.9745986
+map: https://goo.gl/maps/nGVHHp5mSbbMjXJq6
+photo.1: ig://s1_G0Xn5Cv/m
+photo.1.author: tasmania_zoo
+photo.1.commitdate: 2020/7/3
+photo.1.link: https://www.instagram.com/tasmania_zoo/
+photo.2: ig://BkbyHXknTDa/m
+photo.2.author: oznaturepix
+photo.2.commitdate: 2020/7/3
+photo.2.link: https://www.instagram.com/oznaturepix/
+photo.3: ig://BmanlMRAOiY/m
+photo.3.author: gm.williams
+photo.3.commitdate: 2020/7/3
+photo.3.link: https://www.instagram.com/gm.williams/
+photo.3.tags: profile
+photo.4: ig://BxZb6GfA0W6/m
+photo.4.author: mel77rob
+photo.4.commitdate: 2020/7/3
+photo.4.link: https://www.instagram.com/mel77rob/
+photo.5: ig://ByguLe5n0mZ/m
+photo.5.author: tasmania_zoo
+photo.5.commitdate: 2020/7/3
+photo.5.link: https://www.instagram.com/tasmania_zoo/
+website: https://www.tasmaniazoo.com.au/

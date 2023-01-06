@@ -1,0 +1,412 @@
+[panda]
+_id: 117
+birthday: 2013/6/15
+birthplace: 15
+children: 1208
+commitdate: 2018/6/25
+en.name: Taiyo
+en.nicknames: none
+en.othernames: Taiyou
+gender: m
+jp.name: たいよう
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 219
+location.1: 15, 2013/6/15
+location.2: 13, 2015/2/13
+photo.1: ig://BnI4EhAFuc7/m
+photo.1.author: minato.yokohama4416
+photo.1.commitdate: 2018/9/2
+photo.1.link: https://www.instagram.com/minato.yokohama4416/
+photo.2: ig://BoL092tlA6k/m
+photo.2.author: minato.yokohama4416
+photo.2.commitdate: 2018/9/27
+photo.2.link: https://www.instagram.com/minato.yokohama4416/
+photo.2.tags: portrait
+photo.3: ig://BpjWnRCF-rZ/m
+photo.3.author: framereim
+photo.3.commitdate: 2018/10/30
+photo.3.link: https://www.instagram.com/framereim/
+photo.3.tags: tree
+photo.4: ig://BpqdhkzFhwN/m
+photo.4.author: framereim
+photo.4.commitdate: 2018/11/2
+photo.4.link: https://www.instagram.com/framereim/
+photo.4.tags: tongue
+photo.5: ig://BqPg4gcl01j/m
+photo.5.author: minato.yokohama4416
+photo.5.commitdate: 2018/11/16
+photo.5.link: https://www.instagram.com/minato.yokohama4416/
+photo.5.tags: standing
+photo.6: ig://Bqe6ZFCFlpF/m
+photo.6.author: minato.yokohama4416
+photo.6.commitdate: 2018/11/22
+photo.6.link: https://www.instagram.com/minato.yokohama4416/
+photo.6.tags: portrait
+photo.7: ig://BqpBYHgFKgC/m
+photo.7.author: minato.yokohama4416
+photo.7.commitdate: 2018/11/26
+photo.7.link: https://www.instagram.com/minato.yokohama4416/
+photo.8: ig://Bq39FBGH0al/m
+photo.8.author: yakko____
+photo.8.commitdate: 2018/12/6
+photo.8.link: https://www.instagram.com/yakko____/
+photo.8.tags: laying down, tree
+photo.9: ig://BrU0C-XlJjg/m
+photo.9.author: minato.yokohama4416
+photo.9.commitdate: 2018/12/14
+photo.9.link: https://www.instagram.com/minato.yokohama4416/
+photo.10: ig://BrupY20FmEG/m
+photo.10.author: minato.yokohama4416
+photo.10.commitdate: 2018/12/23
+photo.10.link: https://www.instagram.com/minato.yokohama4416/
+photo.10.tags: portrait
+photo.11: ig://BsSrqjFlP5A/m
+photo.11.author: minato.yokohama4416
+photo.11.commitdate: 2019/1/9
+photo.11.link: https://www.instagram.com/minato.yokohama4416/
+photo.11.tags: portrait
+photo.12: ig://BtNBQYcFczv/m
+photo.12.author: resapanlove
+photo.12.commitdate: 2019/1/30
+photo.12.link: https://www.instagram.com/resapanlove/
+photo.12.tags: snow
+photo.13: ig://BuGmkj7lRek/m
+photo.13.author: gloryeui
+photo.13.commitdate: 2019/3/2
+photo.13.link: https://www.instagram.com/gloryeui/
+photo.13.tags: laying down, smile
+photo.14: ig://BvJUv-Slha-/m
+photo.14.author: minato.yokohama4416
+photo.14.commitdate: 2019/3/21
+photo.14.link: https://www.instagram.com/minato.yokohama4416/
+photo.14.tags: laying down, smile
+photo.15: ig://BvYlNJQFMoR/m
+photo.15.author: yakkooo24
+photo.15.commitdate: 2019/6/9
+photo.15.link: https://www.instagram.com/yakkooo24/
+photo.15.tags: tail, tree
+photo.16: ig://BvrCfJilaDG/m
+photo.16.author: minato.yokohama4416
+photo.16.commitdate: 2019/4/2
+photo.16.link: https://www.instagram.com/minato.yokohama4416/
+photo.16.tags: paws
+photo.17: ig://BwMCL-WlseS/m
+photo.17.author: minato.yokohama4416
+photo.17.commitdate: 2019/4/17
+photo.17.link: https://www.instagram.com/minato.yokohama4416/
+photo.17.tags: paws, portrait, tail
+photo.18: ig://BwSJHz7FHPR/m
+photo.18.author: akiakiakiko18
+photo.18.commitdate: 2019/4/17
+photo.18.link: https://www.instagram.com/akiakiakiko18/
+photo.18.tags: portrait, profile
+photo.19: ig://ByhlIcYhTSu/m
+photo.19.author: minato.yokohama4416
+photo.19.commitdate: 2019/6/10
+photo.19.link: https://www.instagram.com/minato.yokohama4416/
+photo.19.tags: bridge, paws, portrait
+photo.20: ig://BykUk-qB-LL/m
+photo.20.author: minato.yokohama4416
+photo.20.commitdate: 2019/6/13
+photo.20.link: https://www.instagram.com/minato.yokohama4416/
+photo.20.tags: home, paws
+photo.21: ig://BytjRtvFxXQ/m
+photo.21.author: yakkooo24
+photo.21.commitdate: 2019/6/16
+photo.21.link: https://www.instagram.com/yakkooo24/
+photo.21.tags: portrait
+photo.22: ig://B16NWkWh20f/m
+photo.22.author: kisshan324
+photo.22.commitdate: 2019/9/3
+photo.22.link: https://www.instagram.com/kisshan324/
+photo.22.tags: laying down, paws
+photo.23: ig://B3Zxp5xlh-d/m
+photo.23.author: kipekaila
+photo.23.commitdate: 2019/10/14
+photo.23.link: https://www.instagram.com/kipekaila/
+photo.23.tags: nose, portrait
+photo.24: ig://B3aBa6NB2JD/m
+photo.24.author: gloryeui
+photo.24.commitdate: 2019/10/14
+photo.24.link: https://www.instagram.com/gloryeui/
+photo.24.tags: portrait, smile
+photo.25: ig://B3jSCyAlgD4/m
+photo.25.author: yakkooo24
+photo.25.commitdate: 2019/10/16
+photo.25.link: https://www.instagram.com/yakkooo24/
+photo.25.tags: keeper, portrait
+photo.26: ig://B4PUBh3hds1/m
+photo.26.author: jas_forever_love
+photo.26.commitdate: 2019/10/31
+photo.26.link: https://www.instagram.com/jas_forever_love/
+photo.26.tags: itchy, smile
+photo.27: ig://B4wuqN_B3A_/m
+photo.27.author: craig_craig_craig
+photo.27.commitdate: 2019/12/5
+photo.27.link: https://www.instagram.com/craig_craig_craig/
+photo.27.tags: portrait, smile
+photo.28: ig://B5GuumNBVIU/m
+photo.28.author: tomo3700
+photo.28.commitdate: 2019/12/5
+photo.28.link: https://www.instagram.com/tomo3700/
+photo.28.tags: autumn, paws, portrait
+photo.29: ig://B5Pq_DhBGKi/m
+photo.29.author: daniele.tokyo
+photo.29.commitdate: 2019/12/29
+photo.29.link: https://www.instagram.com/daniele.tokyo/
+photo.29.tags: whiskers
+photo.30: ig://B5R4PZXB2IM/m
+photo.30.author: gloryeui
+photo.30.commitdate: 2020/8/22
+photo.30.link: https://www.instagram.com/gloryeui/
+photo.30.tags: paws, portrait, smile
+photo.31: ig://B5Z923rBEgA/m
+photo.31.author: motohin
+photo.31.commitdate: 2019/11/29
+photo.31.link: https://www.instagram.com/motohin/
+photo.31.tags: autumn, portrait
+photo.32: ig://B5nEZEzhDKQ/m
+photo.32.author: minato.yokohama4416
+photo.32.commitdate: 2019/12/7
+photo.32.link: https://www.instagram.com/minato.yokohama4416/
+photo.32.tags: paws, portrait, whiskers
+photo.33: ig://B5uesL-hr1d/m
+photo.33.author: fetorus_mami
+photo.33.commitdate: 2019/12/11
+photo.33.link: https://www.instagram.com/fetorus_mami/
+photo.33.tags: autumn, paws
+photo.34: ig://B5_azAqhyC9/m
+photo.34.author: tetusara.ki_
+photo.34.commitdate: 2019/12/30
+photo.34.link: https://www.instagram.com/tetusara.ki_/
+photo.34.tags: itchy, portrait, whiskers
+photo.35: ig://B6Ff6kUBeAx/m
+photo.35.author: minato.yokohama4416
+photo.35.commitdate: 2019/12/30
+photo.35.link: https://www.instagram.com/minato.yokohama4416/
+photo.35.tags: paws, portrait
+photo.36: ig://CClAlnghPkN/m
+photo.36.author: hamamatsu.chiita
+photo.36.commitdate: 2020/8/16
+photo.36.link: https://www.instagram.com/hamamatsu.chiita/
+photo.36.tags: close-up, portrait, whiskers
+photo.37: ig://CETfi1Ch32j/m
+photo.37.author: minato.yokohama4416
+photo.37.commitdate: 2020/8/28
+photo.37.link: https://www.instagram.com/minato.yokohama4416/
+photo.37.tags: mofumofu, portrait, smile
+photo.38: ig://CEtyAj9h1uq/m
+photo.38.author: minato.yokohama4416
+photo.38.commitdate: 2021/3/4
+photo.38.link: https://www.instagram.com/minato.yokohama4416/
+photo.38.tags: portrait, smile, videolink
+photo.39: ig://CFWcg9hhTfC/m
+photo.39.author: hamamatsu.chiita
+photo.39.commitdate: 2020/9/24
+photo.39.link: https://www.instagram.com/hamamatsu.chiita/
+photo.39.tags: smile
+photo.40: ig://CHYiyt3hvk5/m
+photo.40.author: hamamatsu.chiita
+photo.40.commitdate: 2020/11/25
+photo.40.link: https://www.instagram.com/hamamatsu.chiita/
+photo.40.tags: bamboo, close-up, portrait
+photo.41: ig://CKV9SnDht6q/m
+photo.41.author: minato.yokohama4416
+photo.41.commitdate: 2021/3/4
+photo.41.link: https://www.instagram.com/minato.yokohama4416/
+photo.41.tags: paws, portrait, standing, tail
+photo.42: ig://CMDUSQQB15t/m
+photo.42.author: hamamatsu.chiita
+photo.42.commitdate: 2021/3/28
+photo.42.link: https://www.instagram.com/hamamatsu.chiita/
+photo.42.tags: portrait, whiskers
+photo.43: ig://CMkpnJ1BMHF/m
+photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2021/3/29
+photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.tags: close-up, whiskers
+photo.44: ig://CNHoN7_BPtj/m
+photo.44.author: minato.yokohama4416
+photo.44.commitdate: 2021/4/7
+photo.44.link: https://www.instagram.com/minato.yokohama4416/
+photo.44.tags: laying down, paws, portrait, sleeping, tree
+photo.45: ig://CNgJfmXBNOu/m
+photo.45.author: hamamatsu.chiita
+photo.45.commitdate: 2021/4/29
+photo.45.link: https://www.instagram.com/hamamatsu.chiita/
+photo.45.tags: close-up, mofumofu, portrait, whiskers
+photo.46: ig://COgUnLChszo/m
+photo.46.author: hamamatsu.chiita
+photo.46.commitdate: 2021/6/28
+photo.46.link: https://www.instagram.com/hamamatsu.chiita/
+photo.46.tags: portrait, whiskers
+photo.47: ig://CPF7Ep2hbGR/m
+photo.47.author: jas_forever_love
+photo.47.commitdate: 2021/6/8
+photo.47.link: https://www.instagram.com/jas_forever_love/
+photo.47.tags: portrait, whiskers
+photo.48: ig://CPS3iJeBJ6S/m
+photo.48.author: kotata_513
+photo.48.commitdate: 2021/6/8
+photo.48.link: https://www.instagram.com/kotata_513/
+photo.48.tags: laying down, paws, sleeping, tree
+photo.49: ig://CPTzOZbBd2J/m
+photo.49.author: hamamatsu.chiita
+photo.49.commitdate: 2021/7/21
+photo.49.link: https://www.instagram.com/hamamatsu.chiita/
+photo.49.tags: home, peek, tail
+photo.50: ig://CQEwUzdBoJc/m
+photo.50.author: hamamatsu.chiita
+photo.50.commitdate: 2021/6/19
+photo.50.link: https://www.instagram.com/hamamatsu.chiita/
+photo.50.tags: portrait, whiskers
+photo.51: ig://CQI2hc3hD1N/m
+photo.51.author: hamamatsu.chiita
+photo.51.commitdate: 2021/9/6
+photo.51.link: https://www.instagram.com/hamamatsu.chiita/
+photo.51.tags: portrait, videolink, wet
+photo.52: ig://CQvUS3qhCDy/m
+photo.52.author: minato.yokohama4416
+photo.52.commitdate: 2021/7/9
+photo.52.link: https://www.instagram.com/minato.yokohama4416/
+photo.52.tags: portrait, tree, videolink
+photo.53: ig://CRQkNrqhRHp/m
+photo.53.author: minato.yokohama4416
+photo.53.commitdate: 2021/7/14
+photo.53.link: https://www.instagram.com/minato.yokohama4416/
+photo.53.tags: laying down, paws, peek, portrait, tree
+photo.54: ig://CRuV4bMhp0q/m
+photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2021/9/6
+photo.54.link: https://www.instagram.com/hamamatsu.chiita/
+photo.54.tags: close-up, portrait, smile, whiskers
+photo.55: ig://CRvZiNKBywL/m
+photo.55.author: grskus_tk
+photo.55.commitdate: 2021/9/6
+photo.55.link: https://www.instagram.com/grskus_tk/
+photo.55.tags: paws, smile, whiskers
+photo.56: ig://CSFl8N9hqGu/m
+photo.56.author: hamamatsu.chiita
+photo.56.commitdate: 2021/9/6
+photo.56.link: https://www.instagram.com/hamamatsu.chiita/
+photo.56.tags: portrait, smile
+photo.57: ig://CSS-WRrBWxs/m
+photo.57.author: grskus_tk
+photo.57.commitdate: 2021/8/14
+photo.57.link: https://www.instagram.com/grskus_tk/
+photo.57.tags: smile, whiskers
+photo.58: ig://CSVzmUfB9tI/m
+photo.58.author: grskus_tk
+photo.58.commitdate: 2021/8/14
+photo.58.link: https://www.instagram.com/grskus_tk/
+photo.58.tags: peek
+photo.59: ig://CTcBhG2hu44/m
+photo.59.author: kotata_513
+photo.59.commitdate: 2021/9/10
+photo.59.link: https://www.instagram.com/kotata_513/
+photo.59.tags: close-up, grooming, laying down, paws, portrait, tree, whiskers
+photo.60: ig://CVSp3KJhe83/m
+photo.60.author: makimaru18
+photo.60.commitdate: 2022/3/4
+photo.60.link: https://www.instagram.com/makimaru18/
+photo.60.tags: paws, portrait, sample, sign, whiskers
+photo.61: ig://CVoLUjch2RY/m
+photo.61.author: hamamatsu.chiita
+photo.61.commitdate: 2021/11/7
+photo.61.link: https://www.instagram.com/hamamatsu.chiita/
+photo.61.tags: close-up, portrait, whiskers
+photo.62: ig://CWks6vEhYp8/m
+photo.62.author: minato.yokohama4416
+photo.62.commitdate: 2021/11/27
+photo.62.link: https://www.instagram.com/minato.yokohama4416/
+photo.62.tags: autumn, paws, portrait, whiskers
+photo.63: ig://CWmXPfshW-k/m
+photo.63.author: sakikukeco
+photo.63.commitdate: 2021/11/27
+photo.63.link: https://www.instagram.com/sakikukeco/
+photo.63.tags: autumn, portrait, whiskers
+photo.64: ig://CWm4SFlh00R/m
+photo.64.author: minato.yokohama4416
+photo.64.commitdate: 2021/11/27
+photo.64.link: https://www.instagram.com/minato.yokohama4416/
+photo.64.tags: autumn, portrait, tree
+photo.65: ig://CXrY51LszDy/m
+photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2022/1/4
+photo.65.link: https://www.instagram.com/hamamatsu.chiita/
+photo.65.tags: close-up, mofumofu, portrait, whiskers
+photo.66: ig://CX79NL0PO9h/m
+photo.66.author: minato.yokohama4416
+photo.66.commitdate: 2021/12/26
+photo.66.link: https://www.instagram.com/minato.yokohama4416/
+photo.66.tags: paws, portrait, standing, tail
+photo.67: ig://CX-58IDPIDE/m
+photo.67.author: minato.yokohama4416
+photo.67.commitdate: 2022/1/8
+photo.67.link: https://www.instagram.com/minato.yokohama4416/
+photo.67.tags: paws, portrait, sample, whiskers
+photo.68: ig://CYKl75MBCMp/m
+photo.68.author: minato.yokohama4416
+photo.68.commitdate: 2022/1/4
+photo.68.link: https://www.instagram.com/minato.yokohama4416/
+photo.68.tags: paws, portrait, tail, whiskers
+photo.69: ig://CYe97wNhTY8/m
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2022/1/31
+photo.69.link: https://www.instagram.com/hamamatsu.chiita/
+photo.69.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.70: ig://CZAazeHB6-e/m
+photo.70.author: hamamatsu.chiita
+photo.70.commitdate: 2022/2/21
+photo.70.link: https://www.instagram.com/hamamatsu.chiita/
+photo.70.tags: portrait, sample, whiskers
+photo.71: ig://minato.yokohama4416/CZBPkgjvzlB/m
+photo.71.author: minato.yokohama4416
+photo.71.commitdate: 2022/2/18
+photo.71.link: https://www.instagram.com/minato.yokohama4416/
+photo.71.tags: bamboo, paws, portrait, sample, whiskers
+photo.72: ig://CZcsgbAhG1P/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2022/2/20
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.73: ig://CaAvwuaB_Y4/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2022/3/29
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: bamboo, close-up, portrait, sample, whiskers
+photo.74: ig://Cc_dB2_hcT4/m
+photo.74.author: hamamatsu.chiita
+photo.74.commitdate: 2022/6/7
+photo.74.link: https://www.instagram.com/hamamatsu.chiita/
+photo.74.tags: close-up, portrait, sample, whiskers
+photo.75: ig://CdFkCi7viYi/m
+photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2022/6/7
+photo.75.link: https://www.instagram.com/hamamatsu.chiita/
+photo.75.tags: bamboo, close-up, portrait, sample, whiskers
+photo.76: ig://Cgh4pERBc9I/m
+photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2022/8/8
+photo.76.link: https://www.instagram.com/hamamatsu.chiita/
+photo.76.tags: laying down, paws, portrait, sample, tree
+photo.77: ig://Ch4N9uMvWla/m
+photo.77.author: hamiiiii831_
+photo.77.commitdate: 2022/9/4
+photo.77.link: https://www.instagram.com/hamiiiii831_/
+photo.77.tags: paws, sample, smile, whiskers
+photo.78: ig://Ckk0JoKvuP2/m
+photo.78.author: hamiiiii831_
+photo.78.commitdate: 2022/12/20
+photo.78.link: https://www.instagram.com/hamiiiii831_/
+photo.78.tags: paws, sample, standing, tail
+photo.79: ig://Ck0kldxvv_3/m
+photo.79.author: imagoto17
+photo.79.commitdate: 2022/12/20
+photo.79.link: https://www.instagram.com/imagoto17/
+photo.79.tags: portrait, sample, tail, whiskers
+species: 2
+studbook.id: 13143
+zoo: 13

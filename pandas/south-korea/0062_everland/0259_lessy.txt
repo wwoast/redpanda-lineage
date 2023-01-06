@@ -1,0 +1,45 @@
+[panda]
+_id: 259
+birthday: 2014/8/18
+birthplace: 42
+children: none
+commitdate: 2018/7/28
+en.name: Lessy
+en.nicknames: none
+en.oldnames: Tōya, Toya, Touya
+en.othernames: Lessie, Lessi, Ressy, Resey
+gender: m
+jp.name: とうや
+jp.nicknames: none
+jp.othernames: none
+kr.name: 레시
+kr.nicknames: none
+kr.oldnames: 토야
+kr.othernames: none
+language.order: jp, en
+litter: 260
+location.1: 42, 2014/8/18
+location.2: 62, 2016/3/31
+photo.1: ig://BnhgHY_l3XW/m
+photo.1.author: monmon_redpanda
+photo.1.commitdate: 2019/6/23
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: lunch time, keeper, portrait, sample
+photo.2: ig://BnlfqE6lJ-s/m
+photo.2.author: monmon_redpanda
+photo.2.commitdate: 2018/10/24
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: apple time, portrait, profile, sample
+photo.3: ig://B3zpgFdhDiR/m
+photo.3.author: redpandamuseum
+photo.3.commitdate: 2022/8/22
+photo.3.link: https://www.instagram.com/redpandamuseum/
+photo.3.tags: paws, portrait, sample, whiskers
+photo.4: ig://ChZABM0BANX/m
+photo.4.author: witheverland
+photo.4.commitdate: 2022/8/18
+photo.4.link: https://www.instagram.com/witheverland/
+photo.4.tags: bamboo, birthday, ice treat, portrait, sample, smile
+species: 2
+studbook.id: 14170
+zoo: 62

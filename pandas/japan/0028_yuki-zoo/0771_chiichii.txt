@@ -1,0 +1,21 @@
+[panda]
+_id: 771
+birthday: 1989/6/30
+birthplace: 13
+children: none
+commitdate: 2019/3/31
+death: 1995/12/15
+en.name: Chii-Chii
+en.nicknames: none
+en.othernames: Chiichii
+gender: m
+jp.name: チイチイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 1989/6/30
+location.2: 28, 1990/11/2
+species: 2
+studbook.id: 8917
+zoo: 28

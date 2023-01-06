@@ -1,0 +1,45 @@
+[panda]
+_id: 1168
+birthday: 2004/7/8
+birthplace: 198
+children: unknown
+commitdate: 2020/5/18
+death: 2015/11/30
+en.name: Pichu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ピチュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 198, 2004/7/8
+location.2: 250, 2006/1/24
+photo.1: ig://PWzKv4pz00/m
+photo.1.author: pinkpebs
+photo.1.commitdate: 2020/5/18
+photo.1.link: https://www.instagram.com/pinkpebs/
+photo.1.tags: bamboo, portrait, smile, tail, white face
+photo.2: ig://9rm8w0DB-Q/m
+photo.2.author: rich_lumb73
+photo.2.commitdate: 2020/5/18
+photo.2.link: https://www.instagram.com/rich_lumb73/
+photo.2.tags: portrait, tail, tongue, white face
+photo.3: ig://9rnCdFjB-W/m
+photo.3.author: rich_lumb73
+photo.3.commitdate: 2020/5/18
+photo.3.link: https://www.instagram.com/rich_lumb73/
+photo.3.tags: portrait, profile, smile, white face
+photo.4: ig://9rnZbLDB-5/m
+photo.4.author: rich_lumb73
+photo.4.commitdate: 2020/5/18
+photo.4.link: https://www.instagram.com/rich_lumb73/
+photo.4.tags: portrait, smile, tongue, white face
+photo.5: ig://-BPr4nl8f6/m
+photo.5.author: heather_mary_ann
+photo.5.commitdate: 2020/5/18
+photo.5.link: https://www.instagram.com/heather_mary_ann/
+photo.5.tags: bamboo, white face
+species: 1
+zoo: 250

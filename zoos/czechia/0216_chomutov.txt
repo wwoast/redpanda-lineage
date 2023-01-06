@@ -1,0 +1,36 @@
+[zoo]
+_id: 216
+commitdate: 2019/11/7
+cz.address: Přemyslova 259, 430 01 Chomutov, Czechia
+cz.location: Chomutov, Czechia
+cz.name: Zoopark Chomutov
+en.address: Přemyslova 259, 430 01 Chomutov, Czechia
+en.location: Chomutov, Czechia
+en.name: Chomutov Zoo
+flag: Czechia
+language.order: cz, en
+latitude: 50.4735253
+longitude: 13.4180898
+map: https://goo.gl/maps/bWdg8R2K2iGDbv48A
+photo.1: ig://BhN2cKAFucF/m
+photo.1.author: chomutov.cz
+photo.1.commitdate: 2019/11/7
+photo.1.link: https://www.instagram.com/chomutov.cz/
+photo.2: ig://BVMVglSDuFK/m
+photo.2.author: everyday_reporter
+photo.2.commitdate: 2019/11/7
+photo.2.link: https://www.instagram.com/everyday_reporter/
+photo.3: ig://B1O98TDIgo9/m
+photo.3.author: zooparkchomutov
+photo.3.commitdate: 2019/11/10
+photo.3.link: https://www.instagram.com/zooparkchomutov/
+photo.3.tags: profile
+photo.4: ig://B1OpRQwovb8/m
+photo.4.author: chomutov.cz
+photo.4.commitdate: 2019/11/10
+photo.4.link: https://www.instagram.com/chomutov.cz/
+photo.5: ig://BStsoetFmZo/m
+photo.5.author: chomutov.cz
+photo.5.commitdate: 2019/11/10
+photo.5.link: https://www.instagram.com/chomutov.cz/
+website: https://zoopark.cz/

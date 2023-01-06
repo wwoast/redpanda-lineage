@@ -1,0 +1,60 @@
+[panda]
+_id: 1360
+birthday: 2013/6/25
+birthplace: 263
+children: 1367
+commitdate: 2022/5/22
+en.name: Nyi'ma
+en.nicknames: none
+en.othernames: Nyima, Nyi-ma, Nyi-Ma
+gender: m
+jp.name: ニマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1361
+location.1: 263, 2013/6/25
+location.2: 257, 2014/5/23
+photo.1: ig://CUA9GsxKlzI/m
+photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/5/22
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: paws, portrait, profile, sample, whiskers
+photo.2: ig://CUKpY0cJePb/m
+photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/5/22
+photo.2.link: https://www.instagram.com/seelviahhtaz/
+photo.2.tags: peek
+photo.3: ig://CU1D63LKI-x/m
+photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/5/22
+photo.3.link: https://www.instagram.com/seelviahhtaz/
+photo.3.tags: close-up, whiskers
+photo.4: ig://CVGEC25KcdA/m
+photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/5/22
+photo.4.link: https://www.instagram.com/seelviahhtaz/
+photo.4.tags: bamboo
+photo.5: ig://CVa2Lzjq1g_/ma
+photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/5/22
+photo.5.link: https://www.instagram.com/seelviahhtaz/
+photo.5.tags: close-up, peek, sample, whiskers
+photo.6: ig://CZuRzYFNplL/m
+photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/5/22
+photo.6.link: https://www.instagram.com/seelviahhtaz/
+photo.6.tags: peek, sample, whiskers
+photo.7: ig://CdySeZkNXXz/ma
+photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/5/22
+photo.7.link: https://www.instagram.com/seelviahhtaz/
+photo.7.tags: close-up, whiskers
+photo.8: ig://CfOSii4M5Vs/m
+photo.8.author: seelviahhtaz
+photo.8.commitdate: 2022/12/10
+photo.8.link: https://www.instagram.com/seelviahhtaz/
+photo.8.tags: peek
+species: 1
+studbook.id: 13131
+zoo: 257

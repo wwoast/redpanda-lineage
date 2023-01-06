@@ -1,0 +1,22 @@
+[panda]
+_id: 702
+birthday: 1993/7/1
+birthplace: 1
+children: none
+commitdate: 2019/3/26
+death: 2011/12/29
+en.name: Yuu-Yuu
+en.nicknames: none
+en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuu-Yuu, You-You
+gender: m
+jp.name: 雄雄
+jp.nicknames: none
+jp.othernames: ユーユー, 友友
+language.order: jp, en
+litter: none
+location.1: 1, 1993/7/1
+location.2: 4, 1999/12/18
+location.3: 1, 2009/1/26
+species: 2
+studbook.id: 93147
+zoo: 1

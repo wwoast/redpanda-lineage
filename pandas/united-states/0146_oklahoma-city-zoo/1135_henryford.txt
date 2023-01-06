@@ -1,0 +1,23 @@
+[panda]
+_id: 1135
+birthday: 2008/6/16
+birthplace: 124
+children: none
+commitdate: 2020/3/20
+death: 2015/1/30
+en.name: Henry Ford
+en.nicknames: none
+en.othernames: Henry
+gender: m
+jp.name: ヘンリー・フォード
+jp.nicknames: none
+jp.othernames: ヘンリーフォード
+language.order: en, jp
+litter: none
+location.1: 124, 2008/6/16
+location.2: 108, 2008/7/9
+location.3: 103, 2009/6/23
+location.4: 163, 2012/1/12
+location.5: 146, 2014/4/2
+species: 1
+zoo: 146

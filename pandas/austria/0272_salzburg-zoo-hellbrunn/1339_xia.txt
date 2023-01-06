@@ -1,0 +1,28 @@
+[panda]
+_id: 1339
+birthday: 2015/6/11
+birthplace: 219
+children: unknown
+commitdate: 2022/2/16
+en.name: Xia
+en.nicknames: none
+en.othernames: none
+fr.name: Xia
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: キア
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, en, jp
+litter: none
+location.1: 219, 2015/6/11
+location.2: 272, 2016/3/20
+photo.1: ig://BoJ8kpsAYpi/m
+photo.1.author: zoosalzburg
+photo.1.commitdate: 2022/3/5
+photo.1.link: https://www.instagram.com/zoosalzburg/
+photo.1.tags: portrait, profile, sample, tree
+species: 1
+uncertainty: location.2 exact date
+zoo: 272

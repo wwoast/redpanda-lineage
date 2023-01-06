@@ -1,0 +1,38 @@
+[panda]
+_id: 1057
+birthday: 2015/6/26
+birthplace: unknown
+children: 1058
+commitdate: 2019/11/23
+death: 2019/10/21
+en.name: Mojo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: モジョ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+photo.1: ig://BwLC407nNys/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2019/11/24
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: air tasting, portrait, profile, tongue
+photo.2: ig://BzKrgSuITIb/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2019/11/24
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: bridge, portrait, tail
+photo.3: ig://B0eLPnwIuo-/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2019/11/24
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: bridge, portrait, wet
+photo.4: ig://B0iGrYsnZNM/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2019/11/24
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: bamboo, portrait, wet
+species: 1
+zoo: 219

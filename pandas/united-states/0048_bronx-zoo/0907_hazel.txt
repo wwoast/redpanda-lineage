@@ -1,0 +1,20 @@
+[panda]
+_id: 907
+birthday: 2004/7/18
+birthplace: 108
+children: 504
+commitdate: 2019/7/2
+death: 2006/11/9
+en.name: Hazel
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ヘーゼル
+jp.nicknames: none
+jp.othernames: 榛
+language.order: en, jp
+litter: 572
+location.1: 108, 2004/7/18
+location.2: 48, 2005/6/14
+species: 1
+zoo: 48

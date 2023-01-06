@@ -1,0 +1,95 @@
+[panda]
+_id: 912
+birthday: 2013/6/1
+birthplace: 108
+children: 343, 617, 854, 855, 1224, 1225
+commitdate: 2019/7/2
+en.name: Tabei
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: たべい
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 524
+location.1: 108, 2013/6/1
+location.2: 154, 2014/5/13
+location.3: 129, 2021/1/21
+photo.1: ig://CFKMEXgsjV-/m
+photo.1.author: syracusezoo
+photo.1.commitdate: 2020/9/16
+photo.1.link: https://www.instagram.com/syracusezoo/
+photo.1.tags: white face
+photo.2: ig://CFMuBxDhn1c/m
+photo.2.author: syracusezoo
+photo.2.commitdate: 2020/9/16
+photo.2.link: https://www.instagram.com/syracusezoo/
+photo.2.tags: paws, tree, white face
+photo.3: ig://CK1ksU9s_XZ/m
+photo.3.author: syracusezoo
+photo.3.commitdate: 2021/5/30
+photo.3.link: https://www.instagram.com/syracusezoo/
+photo.3.tags: portrait, profile, smile, whiskers, white face
+photo.4: ig://CT0tt5dF3xG/m
+photo.4.author: charlespaddockzoo
+photo.4.commitdate: 2021/10/22
+photo.4.link: https://www.instagram.com/charlespaddockzoo/
+photo.4.tags: mofumofu, portrait, tail, white face
+photo.5: ig://CXcMonRLZaC/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2022/2/9
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: baby
+photo.6: ig://CY4nfdOvq7_/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2022/1/18
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: paws, portrait, tail, tree, whiskers
+photo.7: ig://CY61wjUFaad/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2022/2/18
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: close-up, peek, sample, whiskers
+photo.8: ig://CY8YIH3rX3u/m
+photo.8.author: wumpwoast
+photo.8.commitdate: 2022/2/18
+photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.tags: laying down, portrait, sleeping, whiskers, white face
+photo.9: ig://wumpwoast/CY-pNSNL3th/m
+photo.9.author: wumpwoast
+photo.9.commitdate: 2022/2/21
+photo.9.link: https://www.instagram.com/wumpwoast/
+photo.9.tags: laying down, portrait, sample, whiskers, white face
+photo.10: ig://CZ9Z4AqMTwT/m
+photo.10.author: rossifari
+photo.10.commitdate: 2022/3/8
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: bamboo, close-up, portrait, smile, white face
+photo.11: ig://CbFZRICsEh9/m
+photo.11.author: rossifari
+photo.11.commitdate: 2022/4/7
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: portrait, sample, whiskers, white face
+photo.12: ig://CeviJ80s84a/m
+photo.12.author: rossifari
+photo.12.commitdate: 2022/8/30
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: bamboo, close-up, mofumofu, portrait, sample
+photo.13: ig://Cflu96DgsRu/m
+photo.13.author: rossifari
+photo.13.commitdate: 2022/11/29
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: nose, peek, portrait, sample, whiskers
+photo.14: ig://Ciqmriyvro3/m
+photo.14.author: charlespaddockzoo
+photo.14.commitdate: 2022/11/29
+photo.14.link: https://www.instagram.com/charlespaddockzoo/
+photo.14.tags: sample, tail, white face
+photo.15: ig://Ci9-Of6sDvt/m
+photo.15.author: rossifari
+photo.15.commitdate: 2022/11/4
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: bamboo, whiskers
+species: 1
+zoo: 129

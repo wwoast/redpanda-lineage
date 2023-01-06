@@ -1,0 +1,21 @@
+[zoo]
+_id: 150
+commitdate: 2019/3/15
+en.address: Phoenix Park, Dublin 8, Ireland
+en.location: Dublin, Ireland
+en.name: Dublin Zoo
+flag: Ireland
+language.order: en
+latitude: 53.3546178
+longitude: -6.3055473
+map: https://goo.gl/maps/GVkUXsqUBVw
+photo.1: ig://BdPtGmhDQMV/m
+photo.1.author: dublinzoo_official
+photo.1.commitdate: 2019/11/1
+photo.1.link: https://www.instagram.com/dublinzoo_official/
+photo.2: ig://BsISU5elnYs/m
+photo.2.author: dublinzoo_official
+photo.2.commitdate: 2019/11/1
+photo.2.link: https://www.instagram.com/dublinzoo_official/
+photo.2.tags: profile
+website: https://www.dublinzoo.ie/

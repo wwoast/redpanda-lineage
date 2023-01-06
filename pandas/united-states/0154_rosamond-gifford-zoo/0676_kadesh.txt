@@ -1,0 +1,19 @@
+[panda]
+_id: 676
+birthday: 2004/7/2
+birthplace: 154
+children: none
+commitdate: 2019/3/24
+death: 2018/3/18
+en.name: Kadesh
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カデシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+studbook.id: 0429
+zoo: 154

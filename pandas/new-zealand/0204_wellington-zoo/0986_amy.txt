@@ -1,0 +1,25 @@
+[panda]
+_id: 986
+birthday: 1999/12/6
+birthplace: 207
+children: 987
+commitdate: 2019/8/24
+death: 2015/3/9
+en.name: Amy
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: エイミー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 207, 1999/12/6
+location.2: 204, 2006/6/10
+photo.1: ig://61VrI2hKCS/m
+photo.1.author: vvoodsia
+photo.1.commitdate: 2019/8/24
+photo.1.link: https://www.instagram.com/vvoodsia/
+photo.1.tags: portrait, profile, tail, white face
+species: 1
+zoo: 204

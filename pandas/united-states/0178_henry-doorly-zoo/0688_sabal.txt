@@ -1,0 +1,20 @@
+[panda]
+_id: 688
+birthday: 2017/8/27
+birthplace: 131
+children: none
+commitdate: 2019/3/25
+en.name: Sabal
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サバル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 689
+location.1: 131, 2017/8/27
+location.2: 178, 2018/5/17
+species: 1
+studbook.id: 1737
+zoo: 178

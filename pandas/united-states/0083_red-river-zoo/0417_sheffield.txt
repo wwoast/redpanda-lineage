@@ -1,0 +1,69 @@
+[panda]
+_id: 417
+birthday: 2016/6/24
+birthplace: 87
+children: none
+commitdate: 2018/11/23
+en.name: Sheffield
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シェフィールド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 416
+location.1: 87, 2016/6/24
+location.2: 83, 2018/8/1
+photo.1: ig://BIYDwW3gJOZ/m
+photo.1.author: lincolnparkzoo
+photo.1.commitdate: 2019/5/19
+photo.1.link: https://www.instagram.com/lincolnparkzoo/
+photo.1.tags: baby, keeper
+photo.2: https://www.codaworry.com/images/rpf/sheffield-1-redriver.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/5/17
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby
+photo.3: https://www.codaworry.com/images/rpf/sheffield-2-redriver.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/5/17
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: baby
+photo.4: https://www.codaworry.com/images/rpf/sheffield-3-redriver.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/5/17
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: baby, bamboo
+photo.5: https://www.codaworry.com/images/rpf/sheffield-4-redriver.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/5/17
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.6: https://www.codaworry.com/images/rpf/sheffield-5-redriver.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/5/17
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: home, nose
+photo.7: https://www.codaworry.com/images/rpf/sheffield-6-redriver.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/5/17
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: profile
+photo.8: https://www.codaworry.com/images/rpf/sheffield-7-redriver.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/5/17
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: air tasting, dish, tongue
+photo.9: ig://BpH67XjnfJx/m
+photo.9.author: gummysquee
+photo.9.commitdate: 2020/2/3
+photo.9.link: https://www.instagram.com/gummysquee/
+photo.9.tags: portrait, tail, tree
+photo.10: ig://BkjaZG3AlmZ/m
+photo.10.author: do_it_meow_
+photo.10.commitdate: 2020/2/3
+photo.10.link: https://www.instagram.com/do_it_meow_/
+photo.10.tags: portrait, smile, tree, whiskers
+species: 2
+studbook.id: 1630
+zoo: 83

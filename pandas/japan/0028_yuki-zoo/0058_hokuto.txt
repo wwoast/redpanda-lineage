@@ -1,0 +1,1001 @@
+[panda]
+_id: 58
+birthday: 2014/7/11
+birthplace: 7
+children: none
+commitdate: 2018/6/22
+death: 2021/4/2
+en.name: Hokuto
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ホクト
+jp.nicknames: none
+jp.othernames: 北斗
+language.order: jp, en
+litter: none
+location.1: 7, 2014/7/11
+location.2: 28, 2018/3/19
+photo.1: ig://BG4sgSqqoEM/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/4/18
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: flowers, itchy, portrait, sample, smile
+photo.2: ig://BIxIDt4jOAJ/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: bridge, peek, sample
+photo.3: ig://BI3_mmrjtxx/m
+photo.3.author: minatomirai215
+photo.3.commitdate: 2020/4/18
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: portrait, sample, smile, tongue, whiskers
+photo.4: ig://BJVPmmyj1yW/m
+photo.4.author: minatomirai215
+photo.4.commitdate: 2020/4/18
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: sample
+photo.5: ig://BKNqXR_AzQ9/m
+photo.5.author: mari_neko3
+photo.5.commitdate: 2019/5/15
+photo.5.link: https://www.instagram.com/mari_neko3/
+photo.5.tags: bamboo, laying down, yawn
+photo.6: ig://BKSyKxDjgR3/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2020/4/18
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: mofumofu, peek, sample
+photo.7: ig://BKkIcS4jn1E/m
+photo.7.author: minatomirai215
+photo.7.commitdate: 2020/4/18
+photo.7.link: https://www.instagram.com/minatomirai215/
+photo.7.tags: peek, sample, smile
+photo.8: ig://BMiBtcSjRr8/m
+photo.8.author: minatomirai215
+photo.8.commitdate: 2020/4/18
+photo.8.link: https://www.instagram.com/minatomirai215/
+photo.8.tags: portrait, sample
+photo.9: ig://BM7gbCxjMp5/m
+photo.9.author: cattail.sapporo
+photo.9.commitdate: 2019/5/15
+photo.9.link: https://www.instagram.com/cattail.sapporo/
+photo.9.tags: baby, flowers, portrait
+photo.10: ig://BQH4tXFB0WK/m
+photo.10.author: cattail.sapporo
+photo.10.commitdate: 2018/7/17
+photo.10.link: https://www.instagram.com/cattail.sapporo/
+photo.10.tags: bamboo, portrait, sample, snow
+photo.11: ig://BSX96vMDWk5/m
+photo.11.author: cattail.sapporo
+photo.11.commitdate: 2018/7/17
+photo.11.link: https://www.instagram.com/cattail.sapporo/
+photo.11.tags: bamboo, blink, portrait, sample, snow
+photo.12: ig://BTNXi-Hge95/m
+photo.12.author: mari_neko3
+photo.12.commitdate: 2018/12/22
+photo.12.link: https://www.instagram.com/mari_neko3/
+photo.12.tags: portrait, sample
+photo.13: ig://BVFFHIugBsR/m
+photo.13.author: mifko55
+photo.13.commitdate: 2020/4/17
+photo.13.link: https://www.instagram.com/mifko55/
+photo.13.tags: bamboo, close-up, portrait, sample, smile, whiskers
+photo.14: ig://BVo9ci0gM8g/m
+photo.14.author: mifko55
+photo.14.commitdate: 2020/4/17
+photo.14.link: https://www.instagram.com/mifko55/
+photo.14.tags: blink, portrait, smile
+photo.15: ig://BYaojRHjzuf/m
+photo.15.author: leonard_redmof
+photo.15.commitdate: 2021/3/21
+photo.15.link: https://www.instagram.com/leonard_redmof/
+photo.15.tags: baby, mofumofu
+photo.16: ig://BZbF4RcB3gL/m
+photo.16.author: leonard_redmof
+photo.16.commitdate: 2021/3/21
+photo.16.link: https://www.instagram.com/leonard_redmof/
+photo.16.tags: bridge, laying down, peek, portrait
+photo.17: ig://BZ6OWROBlkW/m
+photo.17.author: leonard_redmof
+photo.17.commitdate: 2021/3/21
+photo.17.link: https://www.instagram.com/leonard_redmof/
+photo.17.tags: bridge, close-up, portrait, sample, sleeping
+photo.18: ig://BZ__oGFA5wC/m
+photo.18.author: wumpwoast
+photo.18.commitdate: 2020/4/6
+photo.18.link: https://www.instagram.com/wumpwoast/
+photo.18.tags: bridge, portrait, sample, smile
+photo.19: ig://BaaA_IxAjPk/m
+photo.19.author: wumpwoast
+photo.19.commitdate: 2020/4/6
+photo.19.link: https://www.instagram.com/wumpwoast/
+photo.19.tags: bridge, portrait, tail
+photo.20: ig://BcgF2icBiMJ/m
+photo.20.author: minatomirai215
+photo.20.commitdate: 2020/4/18
+photo.20.link: https://www.instagram.com/minatomirai215/
+photo.20.tags: sample, snow
+photo.21: ig://Bf-4ESOBpir/m
+photo.21.author: leonard_redmof
+photo.21.commitdate: 2021/3/21
+photo.21.link: https://www.instagram.com/leonard_redmof/
+photo.21.tags: grooming, portrait, tail, snow
+photo.22: ig://BgFk8_7lzGK/m
+photo.22.author: mifko55
+photo.22.commitdate: 2020/4/13
+photo.22.link: https://www.instagram.com/mifko55/
+photo.22.tags: portrait, sample, smile, whiskers
+photo.23: ig://BgbL3BrFr7L/m
+photo.23.author: leonard_redmof
+photo.23.commitdate: 2021/3/21
+photo.23.link: https://www.instagram.com/leonard_redmof/
+photo.23.tags: bamboo, paws, portrait, sample, smile, wink
+photo.24: ig://Bgdwd0MlVdI/m
+photo.24.author: leonard_redmof
+photo.24.commitdate: 2021/3/21
+photo.24.link: https://www.instagram.com/leonard_redmof/
+photo.24.tags: apple time, keeper, portrait
+photo.25: ig://BgkEq1XF8uk/m
+photo.25.author: leonard_redmof
+photo.25.commitdate: 2021/3/21
+photo.25.link: https://www.instagram.com/leonard_redmof/
+photo.25.tags: bridge, close-up, laying down, portrait, sample, tongue
+photo.26: ig://BgprzY-BXZ5/m
+photo.26.author: leonard_redmof
+photo.26.commitdate: 2021/3/21
+photo.26.link: https://www.instagram.com/leonard_redmof/
+photo.26.tags: bridge, portrait, sample, smile, tail
+photo.27: ig://BhYtxZGlTyq/m
+photo.27.author: hanamaru_redpanda
+photo.27.commitdate: 2018/7/17
+photo.27.link: https://www.instagram.com/hanamaru_redpanda/
+photo.27.tags: portrait, sample, tree
+photo.28: ig://BirQJqOFu6P/m
+photo.28.author: izu_108
+photo.28.commitdate: 2018/7/22
+photo.28.link: https://www.instagram.com/izu_108/
+photo.28.tags: bridge, portrait, sample, sleeping
+photo.29: ig://BlCST5HFjUD/m
+photo.29.author: wumpwoast
+photo.29.commitdate: 2022/10/20
+photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.tags: portrait, sample, tail
+photo.30: ig://BoWHeylBAxA/m
+photo.30.author: minatomirai215
+photo.30.commitdate: 2018/9/30
+photo.30.link: https://www.instagram.com/minatomirai215/
+photo.30.tags: apple time, dish
+photo.31: ig://BoZDhXEhyfI/m
+photo.31.author: minatomirai215
+photo.31.commitdate: 2018/10/2
+photo.31.link: https://www.instagram.com/minatomirai215/
+photo.31.tags: standing
+photo.32: ig://Bobq2w2lq0W/m
+photo.32.author: leonard_redmof
+photo.32.commitdate: 2021/3/21
+photo.32.link: https://www.instagram.com/leonard_redmof/
+photo.32.tags: baby, climb, mofumofu, portrait, smile, snow, tail
+photo.33: ig://BonFFcEHyqD/m
+photo.33.author: cattail.sapporo
+photo.33.commitdate: 2018/10/7
+photo.33.link: https://www.instagram.com/cattail.sapporo/
+photo.33.tags: apple time, blink, lips, portrait, sample, techitechi
+photo.34: ig://BpB-k2Vlk_v/m
+photo.34.author: shisan916
+photo.34.commitdate: 2019/3/17
+photo.34.link: https://www.instagram.com/shisan916/
+photo.34.tags: laying down, smile, tongue
+photo.35: ig://BpaGPXuHu81/m
+photo.35.author: cattail.sapporo
+photo.35.commitdate: 2018/10/27
+photo.35.link: https://www.instagram.com/cattail.sapporo/
+photo.35.tags: autumn, portrait, techitechi
+photo.36: ig://BpdgEO4l2-q/m
+photo.36.author: minatomirai215
+photo.36.commitdate: 2018/10/28
+photo.36.link: https://www.instagram.com/minatomirai215/
+photo.36.tags: sample, smile
+photo.37: ig://BpjKH_olATy/m
+photo.37.author: minatomirai215
+photo.37.commitdate: 2018/10/30
+photo.37.link: https://www.instagram.com/minatomirai215/
+photo.37.tags: apple time, portrait, sample
+photo.38: ig://Bpqj9LiFsXL/m
+photo.38.author: minatomirai215
+photo.38.commitdate: 2018/11/2
+photo.38.link: https://www.instagram.com/minatomirai215/
+photo.38.tags: sample, smile, tail
+photo.39: ig://BpvSLNfFGDc/m
+photo.39.author: rie_panda55
+photo.39.commitdate: 2018/11/5
+photo.39.link: https://www.instagram.com/rie_panda55/
+photo.39.tags: tree
+photo.40: ig://Bp5oVC2lGK7/m
+photo.40.author: minatomirai215
+photo.40.commitdate: 2018/11/8
+photo.40.link: https://www.instagram.com/minatomirai215/
+photo.40.tags: apple time, keeper, standing
+photo.41: ig://Bp8pmualGGx/m
+photo.41.author: minatomirai215
+photo.41.commitdate: 2020/11/15
+photo.41.link: https://www.instagram.com/minatomirai215/
+photo.41.tags: peek, sample, smile, tree
+photo.42: ig://BqBuddhFAS3/m
+photo.42.author: minatomirai215
+photo.42.commitdate: 2018/11/11
+photo.42.link: https://www.instagram.com/minatomirai215/
+photo.42.tags: keeper, lunch time, portrait, sample
+photo.43: ig://BqcZFRPFZLA/m
+photo.43.author: leonard_redmof
+photo.43.commitdate: 2021/3/21
+photo.43.link: https://www.instagram.com/leonard_redmof/
+photo.43.tags: paws, portrait, sample, standing
+photo.44: ig://Bq08TDWldXf/m
+photo.44.author: minatomirai215
+photo.44.commitdate: 2018/11/30
+photo.44.link: https://www.instagram.com/minatomirai215/
+photo.44.tags: portrait, sample, smile
+photo.45: ig://Bq9askjncJt/m
+photo.45.author: yakko____
+photo.45.commitdate: 2018/12/6
+photo.45.link: https://www.instagram.com/yakko____/
+photo.45.tags: paws, portrait
+photo.46: ig://BrNI1DUFy-V/m
+photo.46.author: nishicotolo
+photo.46.commitdate: 2018/12/10
+photo.46.link: https://www.instagram.com/nishicotolo/
+photo.47: ig://BrNQt9UlV5a/m
+photo.47.author: leonard_redmof
+photo.47.commitdate: 2018/12/10
+photo.47.link: https://www.instagram.com/leonard_redmof/
+photo.47.tags: laying down, portrait, sample, smile, tree
+photo.48: ig://BrUpg14Fbwh/m
+photo.48.author: nishicotolo
+photo.48.commitdate: 2018/12/14
+photo.48.link: https://www.instagram.com/nishicotolo/
+photo.48.tags: sample
+photo.49: ig://BrhnfVQFZqh/m
+photo.49.author: nishicotolo
+photo.49.commitdate: 2018/12/19
+photo.49.link: https://www.instagram.com/nishicotolo/
+photo.49.tags: sample, smile
+photo.50: ig://BrpVMgDlW_Y/m
+photo.50.author: nishicotolo
+photo.50.commitdate: 2018/12/22
+photo.50.link: https://www.instagram.com/nishicotolo/
+photo.51: ig://BrztJ30lqNn/m
+photo.51.author: nishicotolo
+photo.51.commitdate: 2018/12/25
+photo.51.link: https://www.instagram.com/nishicotolo/
+photo.51.tags: sample, smile
+photo.52: ig://Br7eoVIl0Dy/m
+photo.52.author: nishicotolo
+photo.52.commitdate: 2018/12/28
+photo.52.link: https://www.instagram.com/nishicotolo/
+photo.52.tags: sample
+photo.53: ig://Br94riUFoHK/m
+photo.53.author: nishicotolo
+photo.53.commitdate: 2018/12/30
+photo.53.link: https://www.instagram.com/nishicotolo/
+photo.53.tags: sample, techitechi, tree
+photo.54: ig://BtBiyjLlsyJ/m
+photo.54.author: minatomirai215
+photo.54.commitdate: 2019/1/27
+photo.54.link: https://www.instagram.com/minatomirai215/
+photo.54.tags: smile
+photo.55: ig://BuxQp45Foe_/m
+photo.55.author: mari_neko3
+photo.55.commitdate: 2019/3/10
+photo.55.link: https://www.instagram.com/mari_neko3/
+photo.55.tags: laying down, portrait, sample, smile, tongue, tree
+photo.56: ig://BvJywQAF5Om/m
+photo.56.author: minatomirai215
+photo.56.commitdate: 2020/3/18
+photo.56.link: https://www.instagram.com/minatomirai215/
+photo.56.tags: portrait, sample, smile, snow, tail
+photo.57: ig://Bvbh4OWF4e9/m
+photo.57.author: minatomirai215
+photo.57.commitdate: 2020/3/28
+photo.57.link: https://www.instagram.com/minatomirai215/
+photo.57.tags: peek, portrait, sample, tail, tree
+photo.58: ig://Bv5Y3RRlX5f/m
+photo.58.author: mari_neko3
+photo.58.commitdate: 2019/4/5
+photo.58.link: https://www.instagram.com/mari_neko3/
+photo.58.tags: door, portrait, sample, smile
+photo.59: ig://BwBbdQ6l_ZU/m
+photo.59.author: mari_neko3
+photo.59.commitdate: 2019/4/11
+photo.59.link: https://www.instagram.com/mari_neko3/
+photo.59.tags: bamboo, portrait, sample, tree
+photo.60: ig://BwTguBcl6Tf/m
+photo.60.author: mari_neko3
+photo.60.commitdate: 2019/4/17
+photo.60.link: https://www.instagram.com/mari_neko3/
+photo.60.tags: air tasting, tongue, tree
+photo.61: ig://BwgBrwalL93/m
+photo.61.author: mofu_pan
+photo.61.commitdate: 2019/4/23
+photo.61.link: https://www.instagram.com/mofu_pan/
+photo.61.tags: portrait, sample, smile
+photo.62: ig://BwjsFI1l-QZ/m
+photo.62.author: sb23megumi
+photo.62.commitdate: 2019/5/15
+photo.62.link: https://www.instagram.com/sb23megumi/
+photo.62.tags: portrait, sample, smile
+photo.63: ig://Bw-viK6Fnsg/m
+photo.63.author: kipekaila
+photo.63.commitdate: 2019/5/5
+photo.63.link: https://www.instagram.com/kipekaila/
+photo.63.tags: portrait, sample, smile
+photo.64: ig://Bw-vwttl20L/m
+photo.64.author: kipekaila
+photo.64.commitdate: 2019/5/5
+photo.64.link: https://www.instagram.com/kipekaila/
+photo.64.tags: portrait, sample, smile
+photo.65: ig://BxFGBtygiNq/m
+photo.65.author: miis_98
+photo.65.commitdate: 2019/5/5
+photo.65.link: https://www.instagram.com/miis_98/
+photo.65.tags: laying down, portrait, sample, tree
+photo.66: ig://BxWmPrcFM4I/m
+photo.66.author: miis_98
+photo.66.commitdate: 2019/5/15
+photo.66.link: https://www.instagram.com/miis_98/
+photo.66.tags: apple time, keeper, portrait, sample, tree
+photo.67: ig://BxkOe7RlnJM/m
+photo.67.author: minatomirai215
+photo.67.commitdate: 2019/5/18
+photo.67.link: https://www.instagram.com/minatomirai215/
+photo.67.tags: bamboo, portrait, sample
+photo.68: ig://BzXHCG8Bg-S/m
+photo.68.author: minatomirai215
+photo.68.commitdate: 2019/7/2
+photo.68.link: https://www.instagram.com/minatomirai215/
+photo.68.tags: door, portrait, sample, smile
+photo.69: ig://BzefEPvBYVo/m
+photo.69.author: minatomirai215
+photo.69.commitdate: 2019/7/7
+photo.69.link: https://www.instagram.com/minatomirai215/
+photo.69.tags: apple time, portrait, sample
+photo.70: ig://BznicHnhAXF/m
+photo.70.author: minatomirai215
+photo.70.commitdate: 2019/7/9
+photo.70.link: https://www.instagram.com/minatomirai215/
+photo.70.tags: dish, lunch time, portrait, sample, smile, tongue
+photo.71: ig://BzsZ78ShIhW/m
+photo.71.author: minatomirai215
+photo.71.commitdate: 2019/7/10
+photo.71.link: https://www.instagram.com/minatomirai215/
+photo.71.tags: climb, portrait, sample, smile
+photo.72: ig://Bzwd9hIA5bO/m
+photo.72.author: cattail.sapporo
+photo.72.commitdate: 2019/7/11
+photo.72.link: https://www.instagram.com/cattail.sapporo/
+photo.72.tags: portrait, sample, smile
+photo.73: ig://Bzxhr5shIaw/m
+photo.73.author: nishicotolo
+photo.73.commitdate: 2019/7/11
+photo.73.link: https://www.instagram.com/nishicotolo/
+photo.73.tags: sample, smile
+photo.74: ig://BzxlmnCB28e/m
+photo.74.author: minatomirai215
+photo.74.commitdate: 2019/7/11
+photo.74.link: https://www.instagram.com/minatomirai215/
+photo.74.tags: portrait, sample, smile, tongue
+photo.75: ig://B0iXfkHgACh/m
+photo.75.author: cattail.sapporo
+photo.75.commitdate: 2019/7/30
+photo.75.link: https://www.instagram.com/cattail.sapporo/
+photo.75.tags: baby, snow
+photo.76: ig://B0zzoATBS0B/m
+photo.76.author: minatomirai215
+photo.76.commitdate: 2019/8/11
+photo.76.link: https://www.instagram.com/minatomirai215/
+photo.76.tags: paws, portrait, sample, whiskers
+photo.77: ig://B036hzChiEb/m
+photo.77.author: minatomirai215
+photo.77.commitdate: 2020/8/13
+photo.77.link: https://www.instagram.com/minatomirai215/
+photo.77.tags: door, laying down, portrait, whiskers
+photo.78: ig://B1i4KtBhKBs/m
+photo.78.author: minatomirai215
+photo.78.commitdate: 2019/8/24
+photo.78.link: https://www.instagram.com/minatomirai215/
+photo.78.tags: keeper, portrait
+photo.79: ig://B2yjoRBB1FT/m
+photo.79.author: craig_craig_craig
+photo.79.commitdate: 2019/9/26
+photo.79.link: https://www.instagram.com/craig_craig_craig/
+photo.79.tags: paws, sample, smile
+photo.80: ig://B24HbqRhKdr/m
+photo.80.author: craig_craig_craig
+photo.80.commitdate: 2019/10/9
+photo.80.link: https://www.instagram.com/craig_craig_craig/
+photo.80.tags: paws, portrait, sample, smile, tail, tree
+photo.81: ig://B3DTw7nhQ71/m
+photo.81.author: craig_craig_craig
+photo.81.commitdate: 2019/10/9
+photo.81.link: https://www.instagram.com/craig_craig_craig/
+photo.81.tags: paws, portrait, sample, smile, tail
+photo.82: ig://B3gMJuKhc0b/m
+photo.82.author: craig_craig_craig
+photo.82.commitdate: 2019/10/15
+photo.82.link: https://www.instagram.com/craig_craig_craig/
+photo.82.tags: sample, whiskers
+photo.83: ig://B3owrklhgJ-/m
+photo.83.author: minatomirai215
+photo.83.commitdate: 2019/10/17
+photo.83.link: https://www.instagram.com/minatomirai215/
+photo.83.tags: door, portrait, sample
+photo.84: ig://B31ecFMhm3m/m
+photo.84.author: wumpwoast
+photo.84.commitdate: 2019/10/22
+photo.84.link: https://www.instagram.com/wumpwoast/
+photo.84.tags: bridge, portrait, smile, tongue
+photo.85: ig://B4pnA3RBSB6/m
+photo.85.author: minatomirai215
+photo.85.commitdate: 2019/11/12
+photo.85.link: https://www.instagram.com/minatomirai215/
+photo.85.tags: sample, smile
+photo.86: ig://B4r-JSCBzb9/m
+photo.86.author: mini_cochi
+photo.86.commitdate: 2020/1/30
+photo.86.link: https://www.instagram.com/mini_cochi/
+photo.86.tags: paws, portrait, sample, smile, tree
+photo.87: ig://B409T8wB6nQ/m
+photo.87.author: minatomirai215
+photo.87.commitdate: 2019/11/17
+photo.87.link: https://www.instagram.com/minatomirai215/
+photo.87.tags: peek, portrait
+photo.88: ig://B46xLnChZw3/m
+photo.88.author: sasapan34
+photo.88.commitdate: 2019/11/22
+photo.88.link: https://www.instagram.com/sasapan34/
+photo.88.tags: sample, smile, techitechi, tongue
+photo.89: ig://B5B6gesB5aV/m
+photo.89.author: sasapan34
+photo.89.commitdate: 2019/11/22
+photo.89.link: https://www.instagram.com/sasapan34/
+photo.89.tags: apple time, tongue
+photo.90: ig://B5CA46Vhj2m/m
+photo.90.author: sasapan34
+photo.90.commitdate: 2019/11/22
+photo.90.link: https://www.instagram.com/sasapan34/
+photo.90.tags: mofumofu
+photo.91: ig://B5GOf_pBnIS/m
+photo.91.author: minatomirai215
+photo.91.commitdate: 2019/11/22
+photo.91.link: https://www.instagram.com/minatomirai215/
+photo.91.tags: laying down, sleeping
+photo.92: ig://B5NMQIuBE9-/m
+photo.92.author: kaoru_a358
+photo.92.commitdate: 2019/11/25
+photo.92.link: https://www.instagram.com/kaoru_a358/
+photo.92.tags: apple time, sample, smile
+photo.93: ig://B5RoHaIBelP/m
+photo.93.author: minatomirai215
+photo.93.commitdate: 2020/4/18
+photo.93.link: https://www.instagram.com/minatomirai215/
+photo.93.tags: paws, portrait, sample, smile
+photo.94: ig://B55CfsDh0nK/m
+photo.94.author: minatomirai215
+photo.94.commitdate: 2019/12/27
+photo.94.link: https://www.instagram.com/minatomirai215/
+photo.94.tags: peek, portrait, tail
+photo.95: ig://B6IRpXkBqd3/m
+photo.95.author: nishicotolo
+photo.95.commitdate: 2019/12/30
+photo.95.link: https://www.instagram.com/nishicotolo/
+photo.95.tags: portrait, whiskers
+photo.96: ig://B6NetcOhPql/m
+photo.96.author: nishicotolo
+photo.96.commitdate: 2019/12/30
+photo.96.link: https://www.instagram.com/nishicotolo/
+photo.96.tags: smile
+photo.97: ig://B62bDnahV-l/m
+photo.97.author: nishicotolo
+photo.97.commitdate: 2020/1/9
+photo.97.link: https://www.instagram.com/nishicotolo/
+photo.97.tags: whiskers
+photo.98: ig://B7TGv6uBxXP/m
+photo.98.author: nishicotolo
+photo.98.commitdate: 2020/1/16
+photo.98.link: https://www.instagram.com/nishicotolo/
+photo.98.tags: paws
+photo.99: ig://B73KuzFB9oe/m
+photo.99.author: nishicotolo
+photo.99.commitdate: 2020/1/28
+photo.99.link: https://www.instagram.com/nishicotolo/
+photo.99.tags: sample, smile
+photo.100: ig://B8Vy6D1hfWo/m
+photo.100.author: monmon_redpanda
+photo.100.commitdate: 2020/2/16
+photo.100.link: https://www.instagram.com/monmon_redpanda/
+photo.100.tags: portrait, sample, smile, tongue, tree
+photo.101: ig://B8yYJCqBmzQ/m
+photo.101.author: nishicotolo
+photo.101.commitdate: 2020/2/27
+photo.101.link: https://www.instagram.com/nishicotolo/
+photo.101.tags: apple time, blink, sample, tongue
+photo.102: ig://B86DkZ3hk7B/m
+photo.102.author: nishicotolo
+photo.102.commitdate: 2020/2/27
+photo.102.link: https://www.instagram.com/nishicotolo/
+photo.102.tags: smile, tail
+photo.103: ig://B86dG5BBsl_/m
+photo.103.author: mini_cochi
+photo.103.commitdate: 2020/2/27
+photo.103.link: https://www.instagram.com/mini_cochi/
+photo.103.tags: peek, portrait, sample
+photo.104: ig://B9MW6elhduL/m
+photo.104.author: minatomirai215
+photo.104.commitdate: 2020/4/18
+photo.104.link: https://www.instagram.com/minatomirai215/
+photo.104.tags: portrait, sample, smile, tail, tongue
+photo.105: ig://B9N-GNihCMK/m
+photo.105.author: minatomirai215
+photo.105.commitdate: 2020/3/10
+photo.105.link: https://www.instagram.com/minatomirai215/
+photo.105.tags: paws, portrait
+photo.106: ig://B9YW8MlBN0V/m
+photo.106.author: minatomirai215
+photo.106.commitdate: 2020/3/8
+photo.106.link: https://www.instagram.com/minatomirai215/
+photo.106.tags: apple time, portrait, sample, smile, tongue
+photo.107: ig://B9imc6hBXJe/m
+photo.107.author: minatomirai215
+photo.107.commitdate: 2020/3/13
+photo.107.link: https://www.instagram.com/minatomirai215/
+photo.107.tags: bamboo, portrait, sample, smile
+photo.108: ig://B9p-YukB4M-/m
+photo.108.author: minatomirai215
+photo.108.commitdate: 2020/3/15
+photo.108.link: https://www.instagram.com/minatomirai215/
+photo.108.tags: paws, portrait, sample, smile, whiskers
+photo.109: ig://B9rVeFHBd9e/m
+photo.109.author: mari_neko3
+photo.109.commitdate: 2020/3/15
+photo.109.link: https://www.instagram.com/mari_neko3/
+photo.109.tags: bridge, peek, portrait, sample, smile
+photo.110: ig://B98VoGHBBKV/m
+photo.110.author: fetorus_mami
+photo.110.commitdate: 2020/3/20
+photo.110.link: https://www.instagram.com/fetorus_mami/
+photo.110.tags: apple time, paws, sample, smile
+photo.111: ig://B99DUWzh9m-/m
+photo.111.author: nishicotolo
+photo.111.commitdate: 2020/3/20
+photo.111.link: https://www.instagram.com/nishicotolo/
+photo.111.tags: sample, smile
+photo.112: ig://B-YcehYhOoN/m
+photo.112.author: wumpwoast
+photo.112.commitdate: 2022/3/13
+photo.112.link: https://www.instagram.com/wumpwoast/
+photo.112.tags: bridge, door, paws, portrait, smile
+photo.113: ig://B-1dBBrhii6/m
+photo.113.author: eos1089
+photo.113.commitdate: 2020/6/7
+photo.113.link: https://www.instagram.com/eos1089/
+photo.113.tags: paws, portrait, sample, smile, whiskers
+photo.114: ig://B_TIFuNBgt8/m
+photo.114.author: kipekaila
+photo.114.commitdate: 2020/5/11
+photo.114.link: https://www.instagram.com/kipekaila/
+photo.114.tags: paws, smile
+photo.115: ig://B_XK7ywnKuG/m
+photo.115.author: nishicotolo
+photo.115.commitdate: 2020/5/11
+photo.115.link: https://www.instagram.com/nishicotolo/
+photo.115.tags: paws, peek, sample
+photo.116: ig://B_mVgD2nEGP/m
+photo.116.author: minatomirai215
+photo.116.commitdate: 2020/5/1
+photo.116.link: https://www.instagram.com/minatomirai215/
+photo.116.tags: apple time, keeper, portrait
+photo.117: ig://CAcz449hWr4/m
+photo.117.author: minatomirai215
+photo.117.commitdate: 2020/5/27
+photo.117.link: https://www.instagram.com/minatomirai215/
+photo.117.tags: apple time, paws, portrait, sample, smile
+photo.118: ig://CCTAzKYhrNS/m
+photo.118.author: izu_108
+photo.118.commitdate: 2020/7/10
+photo.118.link: https://www.instagram.com/izu_108/
+photo.118.tags: apple time, keeper, portrait, sample, smile
+photo.119: ig://CCbOqwZh5MX/m
+photo.119.author: mini_cochi
+photo.119.commitdate: 2020/7/10
+photo.119.link: https://www.instagram.com/mini_cochi/
+photo.119.tags: laying down, paws, portrait, sample, smile, tail, tree
+photo.120: ig://CCbhSVThvqW/m
+photo.120.author: eos1089
+photo.120.commitdate: 2020/7/10
+photo.120.link: https://www.instagram.com/eos1089/
+photo.120.tags: paws, portrait, sample, smile, whiskers
+photo.121: ig://CCez5DfhSjM/m
+photo.121.author: leonard_redmof
+photo.121.commitdate: 2020/7/10
+photo.121.link: https://www.instagram.com/leonard_redmof/
+photo.121.tags: apple time, paws, portrait, sample, smile
+photo.122: ig://CCgKehrBQl4/m
+photo.122.author: kaoru_a358
+photo.122.commitdate: 2020/7/16
+photo.122.link: https://www.instagram.com/kaoru_a358/
+photo.122.tags: close-up, portrait, sample, tree, whiskers
+photo.123: ig://CCgLG8EBqdD/m
+photo.123.author: minatomirai215
+photo.123.commitdate: 2020/7/16
+photo.123.link: https://www.instagram.com/minatomirai215/
+photo.123.tags: apple time, paws, sample
+photo.124: ig://CCuCBSFBJ6b/m
+photo.124.author: craig_craig_craig
+photo.124.commitdate: 2020/7/24
+photo.124.link: https://www.instagram.com/craig_craig_craig/
+photo.124.tags: laying down, sample, smile, tail, tree
+photo.125: ig://CDM8jpAB5oB/m
+photo.125.author: kotume4935
+photo.125.commitdate: 2021/2/20
+photo.125.link: https://www.instagram.com/kotume4935/
+photo.125.tags: close-up, portrait, whiskers
+photo.126: ig://CDcwWOTB1Pp/m
+photo.126.author: minatomirai215
+photo.126.commitdate: 2022/11/11
+photo.126.link: https://www.instagram.com/minatomirai215/
+photo.126.tags: door, paws, standing, tail
+photo.127: ig://CDvyRrjB9QP/m
+photo.127.author: minatomirai215
+photo.127.commitdate: 2020/8/22
+photo.127.link: https://www.instagram.com/minatomirai215/
+photo.127.tags: paws, portrait, sample
+photo.128: ig://CEKVbsHhazA/m
+photo.128.author: minatomirai215
+photo.128.commitdate: 2020/8/23
+photo.128.link: https://www.instagram.com/minatomirai215/
+photo.128.tags: peek, portrait
+photo.129: ig://CFQc_lBBDmp/m
+photo.129.author: wumpwoast
+photo.129.commitdate: 2020/9/20
+photo.129.link: https://www.instagram.com/wumpwoast/
+photo.129.tags: climb, paws, portrait, sample, smile
+photo.130: ig://CFWbs7Khv2u/m
+photo.130.author: ssc6105
+photo.130.commitdate: 2020/9/21
+photo.130.link: https://www.instagram.com/ssc6105/
+photo.130.tags: mofumofu, portrait, sample, tail
+photo.131: ig://CFaWkCBBBZQ/m
+photo.131.author: ssc6105
+photo.131.commitdate: 2020/9/21
+photo.131.link: https://www.instagram.com/ssc6105/
+photo.131.tags: paws, portrait, sample, tail
+photo.132: ig://CFg03vVBaJO/m
+photo.132.author: ssc6105
+photo.132.commitdate: 2020/9/24
+photo.132.link: https://www.instagram.com/ssc6105/
+photo.132.tags: peek, tree
+photo.133: ig://CFkhD7fhoFq/m
+photo.133.author: eos1089
+photo.133.commitdate: 2020/11/19
+photo.133.link: https://www.instagram.com/eos1089/
+photo.133.tags: portrait, sample, tail, tree
+photo.134: ig://CFk-u_sh_Qd/m
+photo.134.author: ssc6105
+photo.134.commitdate: 2020/11/19
+photo.134.link: https://www.instagram.com/ssc6105/
+photo.134.tags: paws, peek, sample, smile, tree
+photo.135: ig://CFy5n0QhuW-/m
+photo.135.author: ssc6105
+photo.135.commitdate: 2020/10/1
+photo.135.link: https://www.instagram.com/ssc6105/
+photo.135.tags: peek, portrait, sample, tree
+photo.136: ig://CGKPO9BhikB/m
+photo.136.author: hamiiiii831_
+photo.136.commitdate: 2020/10/11
+photo.136.link: https://www.instagram.com/hamiiiii831_/
+photo.136.tags: paws, sample, smile
+photo.137: ig://CGNSDn-hu1p/m
+photo.137.author: mini_cochi
+photo.137.commitdate: 2020/10/11
+photo.137.link: https://www.instagram.com/mini_cochi/
+photo.137.tags: portrait, sample, smile, tree
+photo.138: ig://CGbbfxJBp5P/m
+photo.138.author: izu_108
+photo.138.commitdate: 2021/4/2
+photo.138.link: https://www.instagram.com/izu_108/
+photo.138.tags: bamboo, bite, blink, portrait, snow
+photo.139: ig://CG9kVufBcY8/m
+photo.139.author: pink.b22
+photo.139.commitdate: 2020/11/6
+photo.139.link: https://www.instagram.com/pink.b22/
+photo.139.tags: paws, sample, standing
+photo.140: ig://CHBrt8DBQsH/m
+photo.140.author: pink.b22
+photo.140.commitdate: 2020/11/6
+photo.140.link: https://www.instagram.com/pink.b22/
+photo.140.tags: paws, portrait, sample, smile, tail
+photo.141: ig://CHnLeLZh-Ox/m
+photo.141.author: fetorus_mami
+photo.141.commitdate: 2020/11/18
+photo.141.link: https://www.instagram.com/fetorus_mami/
+photo.141.tags: paws, portrait, sample, smile, tree
+photo.142: ig://CH47qqJgFJt/m
+photo.142.author: cattail.sapporo
+photo.142.commitdate: 2020/11/28
+photo.142.link: https://www.instagram.com/cattail.sapporo/
+photo.142.tags: close-up, lips, nose, portrait, sample, whiskers
+photo.143: ig://CIndrGqhKtu/m
+photo.143.author: leonard_redmof
+photo.143.commitdate: 2020/12/21
+photo.143.link: https://www.instagram.com/leonard_redmof/
+photo.143.tags: bridge, peek, portrait, sample
+photo.144: ig://CIwYmGsBq6v/m
+photo.144.author: ck.chie
+photo.144.commitdate: 2020/12/21
+photo.144.link: https://www.instagram.com/ck.chie/
+photo.144.tags: paws, portrait, profile, sample, smile
+photo.145: ig://CI5JkhkhSct/m
+photo.145.author: ck.chie
+photo.145.commitdate: 2020/12/29
+photo.145.link: https://www.instagram.com/ck.chie/
+photo.145.tags: apple time, paws, sample, smile, techitechi
+photo.146: ig://CJjFsQBhbT_/m
+photo.146.author: mini_cochi
+photo.146.commitdate: 2021/1/3
+photo.146.link: https://www.instagram.com/mini_cochi/
+photo.146.tags: peek, portrait, sample, smile, tree
+photo.147: ig://CJj7LRbhnTT/m
+photo.147.author: wumpwoast
+photo.147.commitdate: 2021/1/3
+photo.147.link: https://www.instagram.com/wumpwoast/
+photo.147.tags: dish, itchy, portrait, tail
+photo.148: ig://CJpAP7YB2wY/m
+photo.148.author: ck.chie
+photo.148.commitdate: 2021/1/13
+photo.148.link: https://www.instagram.com/ck.chie/
+photo.148.tags: laying down, peek, sample
+photo.149: ig://CJsgfufhxVt/m
+photo.149.author: ssc6105
+photo.149.commitdate: 2021/1/19
+photo.149.link: https://www.instagram.com/ssc6105/
+photo.149.tags: peek, sample, tail, tree
+photo.150: ig://CJ8cU6zBOy8/m
+photo.150.author: minatomirai215
+photo.150.commitdate: 2021/1/16
+photo.150.link: https://www.instagram.com/minatomirai215/
+photo.150.tags: paws, portrait, sample
+photo.151: ig://CKQ15BaBSlj/m
+photo.151.author: ssc6105
+photo.151.commitdate: 2021/3/2
+photo.151.link: https://www.instagram.com/ssc6105/
+photo.151.tags: blink, paws, sample
+photo.152: ig://CK2UoloBa6K/m
+photo.152.author: ck.chie
+photo.152.commitdate: 2021/2/20
+photo.152.link: https://www.instagram.com/ck.chie/
+photo.152.tags: paws, portrait, sample
+photo.153: ig://CLUaiVMhsfi/m
+photo.153.author: fetorus_mami
+photo.153.commitdate: 2021/2/15
+photo.153.link: https://www.instagram.com/fetorus_mami/
+photo.153.tags: close-up, sample, whiskers
+photo.154: ig://CLUqEeKhY4U/m
+photo.154.author: eos1089
+photo.154.commitdate: 2021/2/28
+photo.154.link: https://www.instagram.com/eos1089/
+photo.154.tags: portrait, sample, smile, whiskers
+photo.155: ig://CLon8H7hdK0/m
+photo.155.author: fetorus_mami
+photo.155.commitdate: 2021/3/21
+photo.155.link: https://www.instagram.com/fetorus_mami/
+photo.155.tags: portrait, sample, smile, tree, whiskers
+photo.156: ig://CLrXCG9BMx9/m
+photo.156.author: mini_cochi
+photo.156.commitdate: 2021/3/21
+photo.156.link: https://www.instagram.com/mini_cochi/
+photo.156.tags: peek, portrait, sample
+photo.157: ig://CL7j2TSA9nA/m
+photo.157.author: cattail.sapporo
+photo.157.commitdate: 2021/3/7
+photo.157.link: https://www.instagram.com/cattail.sapporo/
+photo.157.tags: peek, portrait, sample
+photo.158: ig://CMNRWYjhGoW/m
+photo.158.author: minatomirai215
+photo.158.commitdate: 2022/4/5
+photo.158.link: https://www.instagram.com/minatomirai215/
+photo.158.tags: door, tail
+photo.159: ig://CMZ7pAwhMmj/m
+photo.159.author: minatomirai215
+photo.159.commitdate: 2021/4/2
+photo.159.link: https://www.instagram.com/minatomirai215/
+photo.159.tags: laying down, sample, sleeping, tail, tree
+photo.160: ig://CMjHmUqA3VZ/m
+photo.160.author: cattail.sapporo
+photo.160.commitdate: 2021/3/29
+photo.160.link: https://www.instagram.com/cattail.sapporo/
+photo.160.tags: paws, playing, portrait, snow
+photo.161: ig://CNHnrsrBtGB/m
+photo.161.author: _sah_ax7
+photo.161.commitdate: 2021/4/2
+photo.161.link: https://www.instagram.com/_sah_ax7/
+photo.161.tags: cherry blossoms, window
+photo.162: ig://CNHqyphgHbC/m
+photo.162.author: cattail.sapporo
+photo.162.commitdate: 2021/4/2
+photo.162.link: https://www.instagram.com/cattail.sapporo/
+photo.162.tags: blink, laying down, portrait, sample, smile
+photo.163: ig://CNKN8pWhceJ/m
+photo.163.author: izu_108
+photo.163.commitdate: 2021/4/3
+photo.163.link: https://www.instagram.com/izu_108/
+photo.163.tags: sample, smile, tongue, whiskers
+photo.164: ig://CNKS4eIACkl/m
+photo.164.author: cattail.sapporo
+photo.164.commitdate: 2021/4/3
+photo.164.link: https://www.instagram.com/cattail.sapporo/
+photo.164.tags: close-up, portrait, sample, smile, whiskers
+photo.165: ig://CNKS9RMAwfy/m
+photo.165.author: cattail.sapporo
+photo.165.commitdate: 2021/4/3
+photo.165.link: https://www.instagram.com/cattail.sapporo/
+photo.165.tags: nose, portrait, snow
+photo.166: ig://CNKTBK0gq1u/m
+photo.166.author: cattail.sapporo
+photo.166.commitdate: 2021/4/3
+photo.166.link: https://www.instagram.com/cattail.sapporo/
+photo.166.tags: paws, playing, portrait, snow
+photo.167: ig://CNKj4UYpASJ/m
+photo.167.author: craig_craig_craig
+photo.167.commitdate: 2021/4/3
+photo.167.link: https://www.instagram.com/craig_craig_craig/
+photo.167.tags: portrait, whiskers
+photo.168: ig://CNKkLhuhd5V/m
+photo.168.author: ssc6105
+photo.168.commitdate: 2021/4/2
+photo.168.link: https://www.instagram.com/ssc6105/
+photo.168.tags: portrait, sample
+photo.169: ig://CNKsS6-hnMp/m
+photo.169.author: mini_cochi
+photo.169.commitdate: 2021/4/3
+photo.169.link: https://www.instagram.com/mini_cochi/
+photo.169.tags: portrait, sample, whiskers
+photo.170: ig://CNKxZ1shv7d/M
+photo.170.author: wumpwoast
+photo.170.commitdate: 2021/4/2
+photo.170.link: https://www.instagram.com/wumpwoast/
+photo.170.tags: peek, portrait, tail
+photo.171: ig://CNLbXBmBZNn/m
+photo.171.author: pink.b22
+photo.171.commitdate: 2021/4/3
+photo.171.link: https://www.instagram.com/pink.b22/
+photo.171.tags: paws, portrait, sample, smile, tree
+photo.172: ig://CNLiM2qBK0I/m
+photo.172.author: kotume4935
+photo.172.commitdate: 2021/4/4
+photo.172.link: https://www.instagram.com/kotume4935/
+photo.172.tags: paws, peek, portrait, sample, tree
+photo.173: ig://CNLtTkGhvId/m
+photo.173.author: ho0oipo
+photo.173.commitdate: 2021/4/3
+photo.173.link: https://www.instagram.com/ho0oipo/
+photo.173.tags: peek, sample, smile
+photo.174: ig://CNL_GmmhXrp/m
+photo.174.author: _rifa_p
+photo.174.commitdate: 2021/4/3
+photo.174.link: https://www.instagram.com/_rifa_p/
+photo.174.tags: apple time, paws, standing, tail
+photo.175: ig://CNMweE_BkAv/m
+photo.175.author: nishicotolo
+photo.175.commitdate: 2021/4/3
+photo.175.link: https://www.instagram.com/nishicotolo/
+photo.175.tags: sample, smile, tail
+photo.176: ig://CNNDakihxN7/m
+photo.176.author: craig_craig_craig
+photo.176.commitdate: 2021/4/3
+photo.176.link: https://www.instagram.com/craig_craig_craig/
+photo.176.tags: laying down, portrait, sleeping, tail, tree
+photo.177: ig://CNNNDAdpxty/m
+photo.177.author: chiyo_redpanda
+photo.177.commitdate: 2022/1/15
+photo.177.link: https://www.instagram.com/chiyo_redpanda/
+photo.177.tags: nose, portrait, techitechi
+photo.178: ig://CNQ3OByhPX8/m
+photo.178.author: motohin
+photo.178.commitdate: 2021/4/28
+photo.178.link: https://www.instagram.com/motohin/
+photo.178.tags: bamboo, portrait, sample, snow
+photo.179: ig://CNSENv7BpL7/m
+photo.179.author: nishicotolo
+photo.179.commitdate: 2021/4/28
+photo.179.link: https://www.instagram.com/nishicotolo/
+photo.179.tags: close-up
+photo.180: ig://CN6UCDyBZyr/m
+photo.180.author: wumpwoast
+photo.180.commitdate: 2021/5/19
+photo.180.link: https://www.instagram.com/wumpwoast/
+photo.180.tags: portrait
+photo.181: ig://COi3cocBIjl/m
+photo.181.author: wumpwoast
+photo.181.commitdate: 2021/6/15
+photo.181.link: https://www.instagram.com/wumpwoast/
+photo.181.tags: portrait, sample, smile, snow
+photo.182: ig://CRHn3LZBxl0/m
+photo.182.author: eos1089
+photo.182.commitdate: 2021/7/11
+photo.182.link: https://www.instagram.com/eos1089/
+photo.182.tags: laying down, portrait, sample, whiskers
+photo.183: ig://CRL21WWBE4s/m
+photo.183.author: nishicotolo
+photo.183.commitdate: 2021/7/13
+photo.183.link: https://www.instagram.com/nishicotolo/
+photo.183.tags: bamboo, peek, portrait, sample
+photo.184: ig://CRMMX4OhKqu/m
+photo.184.author: minatomirai215
+photo.184.commitdate: 2021/7/11
+photo.184.link: https://www.instagram.com/minatomirai215/
+photo.184.tags: close-up, portrait, sample, whiskers, window
+photo.185: ig://CS9EzYIPlqZ/m
+photo.185.author: cattail.sapporo
+photo.185.commitdate: 2021/9/11
+photo.185.link: https://www.instagram.com/cattail.sapporo/
+photo.185.tags: laying down, paws, playing, portrait, tail
+photo.186: ig://CUHxhmZlpBj/m
+photo.186.author: cattail.sapporo
+photo.186.commitdate: 2021/9/25
+photo.186.link: https://www.instagram.com/cattail.sapporo/
+photo.186.tags: blink, paws, portrait, tree, wet
+photo.187: ig://CWkxTEWFLj4/m
+photo.187.author: cattail.sapporo
+photo.187.commitdate: 2021/11/27
+photo.187.link: https://www.instagram.com/cattail.sapporo/
+photo.187.tags: baby, close-up, mofumofu, paws, playing, portrait, smile, snow
+photo.188: ig://CW7VmJxLiqP/m
+photo.188.author: wumpwoast
+photo.188.commitdate: 2022/3/13
+photo.188.link: https://www.instagram.com/wumpwoast/
+photo.188.tags: portrait, smile, whiskers
+photo.189: ig://cattail.sapporo/CYd0ZPxLef4/m
+photo.189.author: cattail.sapporo
+photo.189.commitdate: 2022/2/21
+photo.189.link: https://www.instagram.com/cattail.sapporo/
+photo.189.tags: paws, portrait, sample, smile, snow, tail
+photo.190: ig://CZWa8ZBr1AR/m
+photo.190.author: cattail.sapporo
+photo.190.commitdate: 2022/3/17
+photo.190.link: https://www.instagram.com/cattail.sapporo/
+photo.190.tags: bridge, mofumofu, peek, portrait, sample, smile, whiskers
+photo.191: ig://CaTqNG8Lx0h/m
+photo.191.author: wumpwoast
+photo.191.commitdate: 2022/3/13
+photo.191.link: https://www.instagram.com/wumpwoast/
+photo.191.tags: autumn, portrait, sample, tail
+photo.192: ig://CbSGrf-LI-C/m
+photo.192.author: cattail.sapporo
+photo.192.commitdate: 2022/4/29
+photo.192.link: https://www.instagram.com/cattail.sapporo/
+photo.192.tags: close-up, flowers, portrait, sample
+photo.193: ig://Cf1hXKVv1cQ/m
+photo.193.author: eos1089
+photo.193.commitdate: 2022/7/31
+photo.193.link: https://www.instagram.com/eos1089/
+photo.193.tags: door, paws, sample, standing, tail
+photo.194: ig://Cf3gKiDPwZI/m
+photo.194.author: minatomirai215
+photo.194.commitdate: 2022/7/31
+photo.194.link: https://www.instagram.com/minatomirai215/
+photo.194.tags: peek, portrait, sample, tree, whiskers
+photo.195: ig://Cf5pdc6u-NL/m
+photo.195.author: wumpwoast
+photo.195.commitdate: 2022/7/31
+photo.195.link: https://www.instagram.com/wumpwoast/
+photo.195.tags: portrait, smile
+species: 2
+studbook.id: 14161
+uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
+video.1: https://youtu.be/t1SITm45Rc8
+video.1.author: mmovies21
+video.1.link: https://www.youtube.com/user/Mmovies21
+video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
+video.2.author: cattail.sapporo
+video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
+zoo: 28

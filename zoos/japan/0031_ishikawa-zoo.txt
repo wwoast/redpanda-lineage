@@ -1,0 +1,19 @@
+[zoo]
+_id: 31
+commitdate: 2018/6/22
+en.address: 600 Tokusanmachi, Nomi, Ishikawa Prefecture 923-1222, Japan
+en.location: Nomi, Ishikawa, Japan
+en.name: Ishikawa Zoo
+flag: Japan
+jp.address: 〒923-1222 石川県能美市徳山町600
+jp.location: 能美市 石川県
+jp.name: いしかわ動物園
+language.order: jp, en
+latitude: 36.4337633
+longitude: 136.5435233
+map: https://goo.gl/maps/45d7ga53bG62
+photo.1: ig://BYkaGr-gbEo/m
+photo.1.author: 2009fxdl
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/2009fxdl/
+website: http://www.ishikawazoo.jp/

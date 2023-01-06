@@ -1,0 +1,50 @@
+[panda]
+_id: 1085
+birthday: 2013/7/3
+birthplace: 231
+children: none
+commitdate: 2019/12/31
+en.name: Ember
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 烬
+jp.nicknames: none
+jp.othernames: ジン
+language.order: en, jp
+litter: unknown
+location.1: 231, 2013/7/3
+location.2: 232, 2014/7/21
+location.3: 139, 2019/5/7
+photo.1: ig://ByAQm60n9Nw/m
+photo.1.author: paigntonzoo
+photo.1.commitdate: 2019/12/31
+photo.1.link: https://www.instagram.com/paigntonzoo/
+photo.1.tags: bamboo, portrait
+photo.2: ig://ByDpq1DHsNY/m
+photo.2.author: paigntonzoo
+photo.2.commitdate: 2019/12/31
+photo.2.link: https://www.instagram.com/paigntonzoo/
+photo.2.tags: bamboo, portrait
+photo.3: ig://Bzc73L1nmA6/m
+photo.3.author: paigntonzoo
+photo.3.commitdate: 2019/12/31
+photo.3.link: https://www.instagram.com/paigntonzoo/
+photo.3.tags: bamboo, paws, portrait
+photo.4: ig://B0Yav7PHYFO/m
+photo.4.author: paigntonzoo
+photo.4.commitdate: 2019/12/31
+photo.4.link: https://www.instagram.com/paigntonzoo/
+photo.4.tags: bamboo, paws, portrait
+photo.5: ig://B1Qe80bHKfE/m
+photo.5.author: paigntonzoo
+photo.5.commitdate: 2019/12/31
+photo.5.link: https://www.instagram.com/paigntonzoo/
+photo.5.tags: paws, portrait, profile
+photo.6: ig://B4ISRkzJv5z/m
+photo.6.author: paigntonzoo
+photo.6.commitdate: 2019/12/31
+photo.6.link: https://www.instagram.com/paigntonzoo/
+photo.6.tags: bamboo, portrait, pumpkin
+species: 1
+zoo: 139

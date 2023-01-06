@@ -1,0 +1,334 @@
+[panda]
+_id: 806
+birthday: 2001/6/22
+birthplace: 108
+children: 803, 804, 805, 534, 623, 624
+commitdate: 2019/4/6
+en.name: Luna
+en.nicknames: none
+en.othernames: Runa
+gender: f
+jp.name: ルナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 108, 2001/6/22
+location.2: 48, 2002/5/29
+location.3: 75, 2002/7/2
+location.4: 104, 2003/1/9
+location.5: 154, 2007/4/12
+location.6: 186, 2011/11/23
+photo.1: ig://BEhA8TAE09j/m
+photo.1.author: capemaycountyzoo
+photo.1.commitdate: 2020/2/17
+photo.1.link: https://www.instagram.com/capemaycountyzoo/
+photo.1.tags: bamboo, portrait, whiskers, white face
+photo.2: ig://BHcUcdGDt_O/m
+photo.2.author: capemaycountyzoo
+photo.2.commitdate: 2020/3/19
+photo.2.link: https://www.instagram.com/capemaycountyzoo/
+photo.2.tags: paws, portrait, tail, tongue, white face
+photo.3: ig://BH_FvzfjfPq/m
+photo.3.author: capemaycountyzoo
+photo.3.commitdate: 2020/2/17
+photo.3.link: https://www.instagram.com/capemaycountyzoo/
+photo.3.tags: bridge, paws, portrait, white face
+photo.4: ig://BVpQS0EnUI5/m
+photo.4.author: aimless_amos
+photo.4.commitdate: 2020/2/17
+photo.4.link: https://www.instagram.com/aimless_amos/
+photo.4.tags: bamboo, paws, portrait, whiskers, white face
+photo.5: ig://BemOm3UHbZR/m
+photo.5.author: capemaycountyzoo
+photo.5.commitdate: 2020/2/17
+photo.5.link: https://www.instagram.com/capemaycountyzoo/
+photo.5.tags: portrait, whiskers, white face
+photo.6: ig://Bfa-Lo0H2-5/m
+photo.6.author: capemaycountyzoo
+photo.6.commitdate: 2020/2/17
+photo.6.link: https://www.instagram.com/capemaycountyzoo/
+photo.6.tags: keeper, paws, smile, white face
+photo.7: ig://BhrAMF0B0Yj/m
+photo.7.author: capemaycountyzoo
+photo.7.commitdate: 2020/2/17
+photo.7.link: https://www.instagram.com/capemaycountyzoo/
+photo.7.tags: bridge, paws, portrait, whiskers, white face
+photo.8: ig://BlCBawah7gi/m
+photo.8.author: capemaycountyzoo
+photo.8.commitdate: 2020/5/29
+photo.8.link: https://www.instagram.com/capemaycountyzoo/
+photo.8.tags: apple time, paws, portrait, videolink
+photo.9: ig://BzBtL3VgtOO/m
+photo.9.author: capemaycountyzoo
+photo.9.commitdate: 2020/3/19
+photo.9.link: https://www.instagram.com/capemaycountyzoo/
+photo.9.tags: bamboo, dish, lunch time
+photo.10: https://www.codaworry.com/images/rpf/luna-1-capemay.jpg
+photo.10.author: aimless_amos
+photo.10.commitdate: 2020/5/27
+photo.10.link: https://www.instagram.com/aimless_amos/
+photo.10.tags: bamboo, portrait
+photo.11: https://www.codaworry.com/images/rpf/luna-2-capemay.jpg
+photo.11.author: aimless_amos
+photo.11.commitdate: 2020/5/27
+photo.11.link: https://www.instagram.com/aimless_amos/
+photo.11.tags: bamboo, portrait, smile, tongue
+photo.12: https://www.codaworry.com/images/rpf/luna-3-capemay.jpg
+photo.12.author: aimless_amos
+photo.12.commitdate: 2020/5/27
+photo.12.link: https://www.instagram.com/aimless_amos/
+photo.12.tags: lunch time, paws, portrait
+photo.13: ig://B3xmh9-gn5Y/m
+photo.13.author: capemaycountyzoo
+photo.13.commitdate: 2020/2/17
+photo.13.link: https://www.instagram.com/capemaycountyzoo/
+photo.13.tags: paws, portrait, white face
+photo.14: ig://CBwnBS1JFqA/m
+photo.14.author: capemaycountyzoo
+photo.14.commitdate: 2020/6/27
+photo.14.link: https://www.instagram.com/capemaycountyzoo/
+photo.14.tags: portrait, white face
+photo.15: ig://CD_S0kpAUMi/m
+photo.15.author: capemaycountyzoo
+photo.15.commitdate: 2020/8/23
+photo.15.link: https://www.instagram.com/capemaycountyzoo/
+photo.15.tags: lunch time, paws, portrait
+photo.16: ig://CMd4uOcBLYd/m
+photo.16.author: aimless_amos
+photo.16.commitdate: 2021/6/25
+photo.16.link: https://www.instagram.com/aimless_amos/
+photo.16.tags: flowers, nose, portrait
+photo.17: ig://CNmxTlXLIpz/m
+photo.17.author: capemaycountyzoo
+photo.17.commitdate: 2021/5/26
+photo.17.link: https://www.instagram.com/capemaycountyzoo/
+photo.17.tags: paws, tongue, whiskers, white face
+photo.18: ig://CN17JTmA-CW/m
+photo.18.author: rossifari
+photo.18.commitdate: 2021/5/3
+photo.18.link: https://www.instagram.com/rossifari/
+photo.18.tags: paws, portrait, white face
+photo.19: ig://CQco_aDBxQ5/m
+photo.19.author: aimless_amos
+photo.19.commitdate: 2021/6/25
+photo.19.link: https://www.instagram.com/aimless_amos/
+photo.19.tags: bamboo, dish, mofumofu, portrait, tail, white face
+photo.20: ig://CXyipzDg36W/m
+photo.20.author: capemaycountyzoo
+photo.20.commitdate: 2021/12/22
+photo.20.link: https://www.instagram.com/capemaycountyzoo/
+photo.20.tags: portrait, scale, smile, tongue
+photo.21: ig://Cbp-JsQJLtT/m
+photo.21.author: aimless_amos
+photo.21.commitdate: 2022/5/13
+photo.21.link: https://www.instagram.com/carsontheredpanda/
+photo.21.tags: bamboo, portrait, sample, smile
+photo.22: ig://Cdqdg-WrbMy/m
+photo.22.author: aimless_amos
+photo.22.commitdate: 2022/6/6
+photo.22.link: https://www.instagram.com/carsontheredpanda/
+photo.22.tags: laying down, portrait, sample, tail
+photo.23: ig://Cdx4REtOKap/m
+photo.23.author: aimless_amos
+photo.23.commitdate: 2022/8/24
+photo.23.link: https://www.instagram.com/capemaycountyzoo/
+photo.23.tags: bamboo, muzzle, paws, sample, smile
+photo.24: ig://CeBcM1nL2FI/m
+photo.24.author: aimless_amos
+photo.24.commitdate: 2022/6/29
+photo.24.link: https://www.instagram.com/carsontheredpanda/
+photo.24.tags: bamboo, laying down, portrait, sample
+photo.25: ig://CfG2ZLBgsGv/m
+photo.25.author: aimless_amos
+photo.25.commitdate: 2022/7/9
+photo.25.link: https://www.instagram.com/capemaycountyzoo/
+photo.25.tags: close-up, nose, portrait, sample
+photo.26: ig://CfHXrOgpZ1D/m
+photo.26.author: aimless_amos
+photo.26.commitdate: 2022/9/28
+photo.26.link: https://www.instagram.com/carsontheredpanda/
+photo.26.tags: close-up, old, paws, tail
+photo.27: ig://CfWwvVZlldW/m
+photo.27.author: aimless_amos
+photo.27.commitdate: 2022/7/9
+photo.27.link: https://www.instagram.com/carsontheredpanda/
+photo.27.tags: portrait, sample, smile
+photo.28: ig://Chh9TVOJYYb/m
+photo.28.author: aimless_amos
+photo.28.commitdate: 2022/8/26
+photo.28.link: https://www.instagram.com/aimless_amos/
+photo.28.tags: old, paws, sample, tail, white face
+photo.29: ig://CiYCI5hJoEj/m
+photo.29.author: carsontheredpanda
+photo.29.commitdate: 2022/10/11
+photo.29.link: https://www.instagram.com/carsontheredpanda/
+photo.29.tags: close-up, door, mofumofu, paws, portrait, sample, white face
+photo.30: ig://Ckbkb1qyHnO/m
+photo.30.author: carsontheredpanda
+photo.30.commitdate: 2022/11/4
+photo.30.link: https://www.instagram.com/carsontheredpanda/
+photo.30.tags: lunch time, old, portrait, sample
+photo.31: ig://Clg6KODvSYi/m
+photo.31.author: rossifari
+photo.31.commitdate: 2022/12/7
+photo.31.link: https://www.instagram.com/rossifari/
+photo.31.tags: portrait, sample, white face
+photo.32: https://www.codaworry.com/images/rpf/luna-18-capemay.jpg
+photo.32.author: aimless_amos
+photo.32.commitdate: 2021/6/25
+photo.32.link: https://www.instagram.com/aimless_amos/
+photo.32.tags: lunch time, paws, portrait, white face
+photo.33: https://www.codaworry.com/images/rpf/luna-19-capemay.jpg
+photo.33.author: aimless_amos
+photo.33.commitdate: 2021/6/25
+photo.33.link: https://www.instagram.com/aimless_amos/
+photo.33.tags: bamboo, portrait, whiskers, white face, wink
+photo.34: https://www.codaworry.com/images/rpf/luna-20-capemay.jpg
+photo.34.author: aimless_amos
+photo.34.commitdate: 2021/6/25
+photo.34.link: https://www.instagram.com/aimless_amos/
+photo.34.tags: dish, portrait, white face
+photo.35: https://www.codaworry.com/images/rpf/luna-21-capemay.jpg
+photo.35.author: aimless_amos
+photo.35.commitdate: 2021/6/25
+photo.35.link: https://www.instagram.com/aimless_amos/
+photo.35.tags: paws, portrait, tail, white face
+photo.36: https://www.codaworry.com/images/rpf/luna-22-capemay.jpg
+photo.36.author: aimless_amos
+photo.36.commitdate: 2021/6/25
+photo.36.link: https://www.instagram.com/aimless_amos/
+photo.36.tags: close-up, portrait, profile, whiskers, white face
+photo.37: https://www.codaworry.com/images/rpf/luna-23-capemay.jpg
+photo.37.author: aimless_amos
+photo.37.commitdate: 2021/6/25
+photo.37.link: https://www.instagram.com/aimless_amos/
+photo.37.tags: paws, portrait, tail, tongue
+photo.38: https://www.codaworry.com/images/rpf/luna-24-capemay.jpg
+photo.38.author: aimless_amos
+photo.38.commitdate: 2021/6/25
+photo.38.link: https://www.instagram.com/aimless_amos/
+photo.38.tags: paws, portrait, tail, white face
+photo.39: https://www.codaworry.com/images/rpf/luna-25-capemay.jpg
+photo.39.author: aimless_amos
+photo.39.commitdate: 2021/6/25
+photo.39.link: https://www.instagram.com/aimless_amos/
+photo.39.tags: portrait
+photo.40: https://www.codaworry.com/images/rpf/luna-26-capemay.jpg
+photo.40.author: aimless_amos
+photo.40.commitdate: 2021/6/25
+photo.40.link: https://www.instagram.com/aimless_amos/
+photo.40.tags: close-up, paws, portrait, whiskers, white face
+photo.41: https://www.codaworry.com/images/rpf/luna-27-capemay.jpg
+photo.41.author: aimless_amos
+photo.41.commitdate: 2021/6/25
+photo.41.link: https://www.instagram.com/aimless_amos/
+photo.41.tags: paws, portrait, tail, white face
+photo.42: https://www.codaworry.com/images/rpf/luna-28-capemay.jpg
+photo.42.author: aimless_amos
+photo.42.commitdate: 2021/6/25
+photo.42.link: https://www.instagram.com/aimless_amos/
+photo.42.tags: portrait, tail, white face
+photo.43: https://www.codaworry.com/images/rpf/luna-29-capemay.jpg
+photo.43.author: aimless_amos
+photo.43.commitdate: 2022/3/21
+photo.43.link: https://www.instagram.com/aimless_amos/
+photo.43.tags: paws, portrait, sample, tail
+photo.44: https://www.codaworry.com/images/rpf/luna-30-capemay.jpg
+photo.44.author: aimless_amos
+photo.44.commitdate: 2022/3/21
+photo.44.link: https://www.instagram.com/aimless_amos/
+photo.44.tags: mofumofu, old, portrait, sample, tail, whiskers
+photo.45: https://www.codaworry.com/images/rpf/luna-31-capemay.jpg
+photo.45.author: aimless_amos
+photo.45.commitdate: 2022/3/21
+photo.45.link: https://www.instagram.com/aimless_amos/
+photo.45.tags: mofumofu, old, paws, portrait, sample, whiskers
+photo.46: https://www.codaworry.com/images/rpf/luna-32-capemay.jpg
+photo.46.author: aimless_amos
+photo.46.commitdate: 2022/3/21
+photo.46.link: https://www.instagram.com/aimless_amos/
+photo.46.tags: door, laying down, paws, portrait, sample, smile
+photo.47: https://www.codaworry.com/images/rpf/luna-33-capemay.jpg
+photo.47.author: aimless_amos
+photo.47.commitdate: 2022/3/21
+photo.47.link: https://www.instagram.com/aimless_amos/
+photo.47.tags: close-up, nose, portrait, whiskers
+photo.48: https://www.codaworry.com/images/rpf/luna-34-capemay.jpg
+photo.48.author: aimless_amos
+photo.48.commitdate: 2022/3/21
+photo.48.link: https://www.instagram.com/aimless_amos/
+photo.48.tags: old, paws, portrait, sample, smile, whiskers
+photo.49: https://www.codaworry.com/images/rpf/luna-35-capemay.jpg
+photo.49.author: aimless_amos
+photo.49.commitdate: 2022/3/21
+photo.49.link: https://www.instagram.com/aimless_amos/
+photo.49.tags: bamboo, door, paws, portrait, smile
+photo.50: https://www.codaworry.com/images/rpf/luna-36-capemay.jpg
+photo.50.author: aimless_amos
+photo.50.commitdate: 2022/3/21
+photo.50.link: https://www.instagram.com/aimless_amos/
+photo.50.tags: old, paws, portrait, sample, tail, whiskers
+photo.51: https://www.codaworry.com/images/rpf/luna-37-capemay.jpg
+photo.51.author: aimless_amos
+photo.51.commitdate: 2022/3/21
+photo.51.link: https://www.instagram.com/aimless_amos/
+photo.51.tags: paws, portrait, sample, tail, whiskers
+photo.52: https://www.codaworry.com/images/rpf/luna-38-capemay.jpg
+photo.52.author: aimless_amos
+photo.52.commitdate: 2022/3/21
+photo.52.link: https://www.instagram.com/aimless_amos/
+photo.52.tags: close-up, old, paws, portrait, sample, whiskers
+photo.53: https://www.codaworry.com/images/rpf/luna-39-capemay.jpg
+photo.53.author: aimless_amos
+photo.53.commitdate: 2022/3/21
+photo.53.link: https://www.instagram.com/aimless_amos/
+photo.53.tags: paws, peek, portrait
+photo.54: https://www.codaworry.com/images/rpf/luna-40-capemay.jpg
+photo.54.author: aimless_amos
+photo.54.commitdate: 2022/3/21
+photo.54.link: https://www.instagram.com/aimless_amos/
+photo.54.tags: paws, portrait, sample, tail, tongue, whiskers
+photo.55: https://www.codaworry.com/images/rpf/luna-41-capemay.jpg
+photo.55.author: aimless_amos
+photo.55.commitdate: 2022/3/21
+photo.55.link: https://www.instagram.com/aimless_amos/
+photo.55.tags: portrait, sample, tail, whiskers
+photo.56: https://www.codaworry.com/images/rpf/luna-42-capemay.jpg
+photo.56.author: aimless_amos
+photo.56.commitdate: 2022/3/21
+photo.56.link: https://www.instagram.com/aimless_amos/
+photo.56.tags: paws, peek, portrait, sample, snow, tail, whiskers
+photo.57: https://www.codaworry.com/images/rpf/luna-43-capemay.jpg
+photo.57.author: aimless_amos
+photo.57.commitdate: 2022/3/21
+photo.57.link: https://www.instagram.com/aimless_amos/
+photo.57.tags: bamboo, paws, portrait, sample, smile, whiskers
+photo.58: https://www.codaworry.com/images/rpf/luna-44-capemay.jpg
+photo.58.author: aimless_amos
+photo.58.commitdate: 2022/3/21
+photo.58.link: https://www.instagram.com/aimless_amos/
+photo.58.tags: keeper, nose, paws, peek, whiskers
+photo.59: https://www.codaworry.com/images/rpf/luna-45-capemay.jpg
+photo.59.author: aimless_amos
+photo.59.commitdate: 2022/3/21
+photo.59.link: https://www.instagram.com/aimless_amos/
+photo.59.tags: close-up, paws, portrait, sample, smile, tail
+photo.60: https://www.codaworry.com/images/rpf/luna-47-capemay.jpg
+photo.60.author: aimless_amos
+photo.60.commitdate: 2022/3/21
+photo.60.link: https://www.instagram.com/aimless_amos/
+photo.60.tags: bamboo, paws, portrait, sample, smile, tail, whiskers
+photo.61: https://www.codaworry.com/images/rpf/luna-48-capemay.jpg
+photo.61.author: aimless_amos
+photo.61.commitdate: 2022/3/21
+photo.61.link: https://www.instagram.com/aimless_amos/
+photo.61.tags: bamboo, close-up, mofumofu, muzzle, nose, portrait, sample, whiskers
+photo.62: https://www.codaworry.com/images/rpf/luna-49-capemay.jpg
+photo.62.author: aimless_amos
+photo.62.commitdate: 2022/3/21
+photo.62.link: https://www.instagram.com/aimless_amos/
+photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
+species: 1
+studbook.id: 0105
+zoo: 186

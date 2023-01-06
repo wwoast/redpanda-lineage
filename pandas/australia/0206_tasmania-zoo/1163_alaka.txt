@@ -1,0 +1,37 @@
+[panda]
+_id: 1163
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2020/5/11
+en.name: Alaka
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アラカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: ig://BdMueVQlNJv/m
+photo.1.author: laura.edwardphotography
+photo.1.commitdate: 2020/7/3
+photo.1.link: https://www.instagram.com/laura.edwardphotography/
+photo.1.tags: paws, portrait, smile, white face
+photo.2: ig://BhOo777nJLG/m
+photo.2.author: laura.edwardphotography
+photo.2.commitdate: 2020/7/3
+photo.2.link: https://www.instagram.com/laura.edwardphotography/
+photo.2.tags: portrait, whiskers, white face
+photo.3: ig://BjKL6G5njm6/m
+photo.3.author: laura.edwardphotography
+photo.3.commitdate: 2020/7/3
+photo.3.link: https://www.instagram.com/laura.edwardphotography/
+photo.3.tags: paws, portrait, white face
+photo.4: ig://Bs4C_XeHOY3/m
+photo.4.author: tasmania_zoo
+photo.4.commitdate: 2020/7/3
+photo.4.link: https://www.instagram.com/tasmania_zoo/
+photo.4.tags: white face
+species: 1
+zoo: 206

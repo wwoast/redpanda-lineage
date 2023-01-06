@@ -1,0 +1,32 @@
+[panda]
+_id: 1079
+birthday: 2019/6/28
+birthplace: 84
+children: none
+commitdate: 2019/12/29
+en.name: Qi
+en.nicknames: none
+en.othernames: Chi
+gender: m
+jp.name: クィ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1080
+photo.1: ig://B45vxDfgYmb/m
+photo.1.author: nycparks
+photo.1.commitdate: 2021/11/18
+photo.1.link: https://www.instagram.com/nycparks/
+photo.1.tags: close-up, portrait, videolink
+photo.2: ig://CHvyWyfLb-r/m
+photo.2.author: prospectparkzoo
+photo.2.commitdate: 2021/6/9
+photo.2.link: https://www.instagram.com/prospectparkzoo/
+photo.2.tags: mofumofu, portrait, tongue, whiskers
+photo.3: ig://COdLuMFjRaB/m
+photo.3.author: prospectparkzoo
+photo.3.commitdate: 2021/6/9
+photo.3.link: https://www.instagram.com/prospectparkzoo/
+photo.3.tags: paws, portrait, profile, whiskers
+species: 2
+zoo: 84

@@ -1,0 +1,17 @@
+[panda]
+_id: 1023
+birthday: 2007/12/8
+birthplace: 202
+children: 1024, 1025, 1026
+commitdate: 2019/11/9
+en.name: Eilish
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: エイリシ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 964
+species: 1
+zoo: 202

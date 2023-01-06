@@ -1,0 +1,1691 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    overflow-x: hidden;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background: #366938;
+}
+
+body.profile {
+    background: #693638;
+}
+
+div.topMenu, div.bottomMenu {
+    display: table;
+    text-align: center;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #366938;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    vertical-align: middle;
+    border-bottom: 2px solid yellowgreen;
+}
+
+div.languageMenu {
+    display: none;   /* table, for display */
+    text-align: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #366938;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    vertical-align: middle;
+    border-bottom: 2px dotted yellowgreen;
+}
+
+div.bottomMenu {
+    margin-bottom: 0.5ex;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+div.topMenu.profile, div.bottomMenu.profile {
+    background-color: #693638;
+    border-bottom: 2px solid burlywood;
+}
+
+div.languageMenu.profile {
+    background-color: #693638;
+    border-bottom: 2px dotted burlywood;
+}
+
+@keyframes activateMenuButton {
+    from { background-color: #366938; }
+    to { background-color: #699C6A; }
+}
+
+@keyframes activateProfileMenuButton {
+    from { background-color: #693638; }
+    to { background-color: #9C696A; }
+}
+
+@keyframes sectionButtonHover {
+    from { background-color: yellowgreen; }
+    to { background-color: whitesmoke; }
+}
+
+@keyframes sectionButtonActivated {
+    from { background-color: whitesmoke; }
+    to { background-color: plum; }
+}
+
+@keyframes sectionButtonActivatedHover {
+    from { background-color: plum; }
+    to { background-color: whitesmoke; }
+}
+
+button.logo {
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+    float: left;
+}
+
+button.logo.profile {
+    background-color: #693638;
+}
+
+button.menu {
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+    width: 142px;  /* Fixed width keeps them looking consistent across languages */
+}
+
+button.menu.flag {
+    /* Flag buttons swap the display language after the language button is clicked */
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+    width: 64px;
+}
+
+button.menu.flag > div.buttonContent > div.buttonIcon {
+    padding-right: 0px;   /* No padding on the flag menu icons, since no text */
+}
+
+button.menu.disabled {
+    /* TODO: Needs to grayscale all button contents */
+    background-color: #696969
+}
+
+button.menu.hidden {
+    display: none;
+}
+
+button.menu.profile, button.menu.flag.profile {
+    background-color: #693638;
+}
+
+button.menu.message {
+    width: 260px;   /* Longer button for message text */
+}
+
+button.menu:hover, button.menu.flag:hover, button.logo:hover  {
+    animation: activateMenuButton;
+    animation-duration: 0.3s;
+    background-color: #699C6A;
+}
+
+button.menu.profile:hover, button.menu.flag.profile:hover, button.logo.profile:hover {
+    animation: activateProfileMenuButton;
+    animation-duration: 0.3s;
+    background-color: #9C696A;
+}
+
+button.menu:active, button.menu.flag:active, button.logo:active {
+    animation: activateMenuButton;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+}
+
+button.menu.profile:active, button.menu.flag.profile:active, button.logo.profile:active {
+    animation: activateProfileMenuButton;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+}
+
+div.buttonContent {
+    display: table;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* Need to kill text highlighting so long-press events work */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+div.buttonIcon {
+    display: table-cell;
+    font-size: 24pt;
+    padding-right: 8px;
+    text-align: left;
+    /* Need to kill text highlighting so long-press events work */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+div.buttonText {
+    display: table-cell;
+    text-align: left;
+    /* Need to kill text highlighting so long-press events work */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+div.buttonText.condensed {
+    letter-spacing: -3.7px;
+    font-size: 13.5pt;
+}
+
+button.sectionButton:hover {
+    animation: sectionButtonHover;
+    animation-duration: 0.3s;
+    background-color: whitesmoke;
+}
+
+button.sectionButton:active {
+    animation: sectionButtonHover;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+}
+
+button.sectionButton {
+    display: inline-block;
+    border: 1px solid #002200;
+    line-height: 1.4;
+    font-size: 12pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: yellowgreen;
+    height: 5ex;   /* One lines of 12pt text */
+    color: black;
+}
+
+button.sectionButton.selected {
+    background-color: plum;
+}
+
+button.sectionButton.selected:hover {
+    animation: sectionButtonActivatedHover;
+    animation-duration: 0.6s;
+    background-color: whitesmoke;
+}
+
+button.sectionButton.selected:active  {
+    animation: sectionButtonActivated;
+    animation-duration: 0.6s;
+    background-color: plum;
+}
+
+button.sectionButton.two {
+    width: calc(90% / 2);
+}
+
+button.sectionButton.three {
+    width: calc(90% / 3);
+}
+
+button.sectionButton.four {
+    width: calc(90% / 4);
+}
+
+button.sectionButton.two:nth-child(2n) {
+    border-right: none;
+}
+
+div.topSearch, div.bottomSearch {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    height: 64px;
+    background-color: white;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+div.bottomSearch {
+    display: none;
+}
+
+div.shrinker {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 868px;
+}
+
+form {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+input.search {
+    font-family: sans-serif;
+    border-radius: 0;  /* Disable rounding on iOS */
+    -webkit-appearance: none;  /* Guarantees styles work on Desktop Safari */
+    font-size: 50px;
+    width: 100%;
+    border: 0px solid;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 64px;
+}
+
+input[type='text'] {
+    font-family: sans-serif;
+    vertical-align: middle;
+    border-radius: 0;  /* Disable rounding on iOS */
+}
+
+input.search[disabled] {
+    font-family: sans-serif;
+    background-color: white;
+    color: white;
+}
+
+input.search[disabled]::placeholder {
+    font-family: sans-serif;
+    background-color: white;
+    color: lightgray;
+}
+
+input#searchSubmit {
+    display: none;
+}
+
+input.search::placeholder {
+    color: #E4A880; /* The light green, but with RR and GG byte switched */
+}
+
+div.profile.nameBar {
+    font-family: sans-serif;
+    font-size: 38pt;
+    width: 100%;
+    border: 0px solid;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #FFDECE;
+    text-align: center;
+}
+
+div.profileDossier ul {
+    margin-bottom: 0.5ex;
+}
+
+img.fullFrame {
+    height: calc(100% - 130px);
+    width: 100%;
+    object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
+    opacity: 0.4;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div#contentFrame {
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div#hiddenContentFrame {
+    display: none;
+    z-index: -1;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div#contentFrame.mothersDay, div#contentFrame.birthdayPandas, div.mediaFrame {
+    text-align: center;
+}
+
+/* Class to add to hidden sections on about/links page */
+div.hidden, img.hidden {
+    display: none;
+}
+
+div.pandaResult, div.zooResult, div.profileFrame {
+    display: table;
+    clear: both;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+    background-color: #EEE8AA;
+    text-align: left;   /* In case gallery styles make contentFrame centered */
+}
+
+div.profileFrame.zoos {
+    background-color: rgba(0,0,0,0);
+    border: 0px solid;
+}
+
+div.qrcodeFrame {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 180px;
+    text-align: center;
+}
+
+span.qrcodeText {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+div.qrcodeFrame img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    background-color: white;
+    /* Indicate the copy event that occurs here */
+    cursor: pointer;
+}
+
+div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a, div.zooHistory a {
+    text-decoration: none !important;
+    color: black;
+}
+
+p.furigana {
+    display: inline;
+    font-size: 80%;
+    margin-left: 1ex;
+}
+
+div.emptyResult {
+    display: table;
+    position: relative;
+    clear: both;
+    height: 65vh;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+    vertical-align: middle;
+}
+
+div.emptyResult img {
+    height: 65vh;
+    max-width: 100%;
+    max-height: 600px;
+}
+
+div.emptyResult div.overlay {
+    position: absolute;
+    font-size: 22pt;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+div.pandaPhoto, div.zooPhoto {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: black;
+    position: relative;
+    /* Prevents errant drags of these photos */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+div.pandaPhoto img, div.zooPhoto img {
+    width: auto;
+    height: auto;
+    max-width: 340px;
+    max-height: 340px;
+    z-index: 1;
+}
+
+a.navigatorLink {
+    display: none;
+}
+
+span.navigator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 32pt;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 22pt;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom-right-radius: 0.8ex;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 36px;
+}
+
+span.navigator.threeDigits {
+    font-size: 18pt;
+    line-height: 1.7;
+    padding-left: 0px;
+    padding-right: 10px;
+    letter-spacing: -1px;
+}
+
+/* Copy toasts or other on-element toasts */
+span.notifier {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 32pt;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 22pt;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom-right-radius: 0.8ex;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+img.preload {
+    display: none;
+}
+
+img.aboutFocus.replace,
+img.twinFocus.replace {
+    /* JS needs to replace the src before displaying these */
+    display: none;
+}
+
+div.pandaDossier, div.zooDossier, div.profileDossier {
+    display: table-cell;
+    vertical-align: top;
+    background-color: #EDC1D7; /* Pink Lady Apples */
+    border-left: 1px solid #033605; /* Bamboo Green */
+}
+
+div.profileDossier {
+    width: 100%;
+    background-color: #EEE8AA;
+    padding-bottom: 0.5ex;
+}
+
+div.pandaTitle, div.zooTitle {
+    display: block;
+    text-align: left;
+    min-width: 300px;
+    min-height: 32pt;
+    background-color: yellowgreen;
+    padding-left: 18px;
+}
+
+div.profileLocation {
+    min-width: 300px;
+    min-height: 32pt;
+}
+
+div.pandaName, div.zooName, div.gender {
+    display: inline-block;
+    font-size: 22pt;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+div.pandaName.profile {
+    font-size: 34pt;
+    font-family: "Jun 201", sans-serif;
+}
+
+div.gender {
+    margin-right: 0.5ex;
+}
+
+div.gender.center {
+    margin-left: 0.5ex;
+    margin-right: 0.5ex;
+}
+
+div.gender img {
+    height: 18pt;
+}
+
+div.gender.profile img {
+    height: 30pt;
+}
+
+div.gender.caption {
+    margin-right: 0.2ex;
+    margin-left: 0px;
+    padding: 0 0 0 0;
+}
+
+div.gender.caption img {
+    height: 10pt;
+}
+
+div.pandaDetails, div.zooDetails {
+    display: block;
+    min-width: 300px;
+    background-color: #9771A7; /* Grapes */
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+div.pandaDetails p, div.zooDetails p {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding-top: 0ex;
+    padding-bottom: 0ex;
+}
+
+ul.zooCounts {
+    background-color: #EDC1D7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1ex;
+    padding-bottom: 0.5ex;
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.zooCounts > li {
+    margin-left: 14px;
+    padding-bottom: 0.5ex;
+}
+
+h3, h4 {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 1ex;
+    margin-bottom: 0ex;
+    padding: 0 0 0 0;
+    text-decoration: underline;
+}
+
+h3.cn, h4.cn, h3.jp, h4.jp {
+    /* Family headers kanji w/underlines doesn't look right */
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 2px solid black;
+}
+
+div.species h4 {
+    text-decoration: none;
+    margin-left: 14px;
+}
+
+div.profileFrame > div.profileDossier > ul.pandaList li {
+    margin-left: 4px;
+}
+
+div.family {
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+div.family.vertical, div.family.vertical.onlyDesktop {
+    display: flex;
+    flex-direction: column;
+}
+
+div.family.vertical.onlyDesktop {
+    align-content: start;   /* Makes lists swing left */
+}
+
+div.family.vertical.onlyDesktop > div {
+    width: 30%;
+}
+
+div.family.vertical.onlyDesktop > div.double, div.family.vertical.onlyDesktop > div.triple {
+    width: 60%;
+}
+
+div.family.vertical.onlyMobile {
+    display: flex;
+    flex-direction: row;
+}
+
+div.parents, div.litter, div.siblings, div.children, div.names {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
+}
+
+div.zooHistory, div.profilePhotos {
+    display: inline-block;
+    vertical-align: top;
+    flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
+    text-align: center;
+    width: 100%;
+}
+
+ul.zooList {
+    border: 1px solid black;
+    background-color:  #EDC1D7;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+ul.zooList li {
+    text-align: center;
+    padding-left: 2ex;
+    padding-right: 2ex;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+/* Add these after an element to guarantee that its display will force a new flex line.
+   On Firefox, CSS "page-break-after" works for this, but on Chrome it does not. */
+hr.divider {
+    display: block;
+    width: 100%;
+    border: 0px solid;
+    margin: 0 0 0 0;
+}
+
+hr.divider.onlyMobile {
+    display: none;
+}
+
+div.zooDivider {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+ul.pandaList, ul.linkList, ul.nicknameList {
+    text-align: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding: 0 0 0 0;
+}
+
+ul.tagList {
+    text-align: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding: 0 0 0 0;
+}
+
+ul.tagList li {
+    text-align: center;
+    line-height: 1.7;
+}
+
+div.nicknameContainer, div.othernamesContainer {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+div.nicknameContainer h4, div.othernamesContainer h4 {
+    margin-left: 0px;
+}
+
+ul.nicknameList {
+    font-size: 12pt;
+    margin-left: 0px;
+}
+
+ul.nicknameList li {
+    padding-bottom: 0.2ex;
+}
+
+ul.zooList {
+    text-align: left;
+    list-style: none;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding: 0 0 0 0;
+    display: inline-block;
+}
+
+ul.pandaList.double {
+    column-count: 2;
+    column-gap: 1.5em;
+}
+
+ul.pandaList.triple {
+    column-count: 3;
+    column-gap: 1.5em;
+}
+
+ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
+    column-count: 1;
+}
+
+ul.pandaList li, ul.linkList li, ul.nicknameList li, ul.tagList li {
+    /* white-space: nowrap; */   /* !!! Turning this on makes an overflow bug on iOS */
+}
+
+/* By applying list padding inside the list items, this ensures that multicolumn
+   lists don't send their padding across to the next column. */
+ul.pandaList li > a, ul.linkList li > a, ul.tagList li > a {
+    display: inline-block;
+    padding-bottom: 0.75ex;
+}
+
+ul.pandaList li a.passedAway {
+    color: gray;
+}
+
+ul.pandaList.cn > li > a > span.condensed,
+ul.pandaList.en > li > a > span.condensed,
+ul.pandaList.es > li > a > span.condensed,
+ul.pandaList.np > li > a > span.condensed,
+ul.pandaList.pt > li > a > span.condensed {
+    font-size: 12.5pt;
+}
+
+ul.pandaList.cn > li > a > span.ultraCondensed,
+ul.pandaList.en > li > a > span.ultraCondensed,
+ul.pandaList.es > li > a > span.ultraCondensed,
+ul.pandaList.np > li > a > span.ultraCondensed,
+ul.pandaList.pt > li > a > span.ultraCondensed {
+    font-size: 10pt;
+}
+
+ul.pandaList.jp > li > a > span.condensed {
+    letter-spacing: -1px;
+    font-size: 12.5pt;
+}
+
+ul.pandaList.jp > li > a > span.ultraCondensed {
+    letter-spacing: -3px;
+    font-size: 11.5pt;
+}
+
+ul.pandaList > li > a > span.condensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 12.5pt;
+}
+
+ul.pandaList > li > a > span.ultraCondensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 10pt;
+}
+
+h5.birthdayMessage > span.condensed,
+h5.groupMediaAuthor > span.condensed,
+h5.halloweenMessage > span.condensed,
+h5.memorialMessage > span.condensed,
+h5.updateAuthor > span.condensed {
+    letter-spacing: -1px;
+}
+
+h5.birthdayMessage > span.ultraCondensed,
+h5.groupMediaAuthor > span.ultraCondensed,
+h5.halloweenMessage > span.ultraCondensed,
+h5.memorialMessage > span.ultraCondensed,
+h5.updateAuthor > span.ultraCondensed {
+    letter-spacing: -2px;
+    font-size: 11pt;
+}
+
+h5.birthdayMessage > span.condensed.adjusted,
+h5.halloweenMessage > span.condensed.adjusted,
+h5.memorialMessage > span.condensed.adjusted {
+    letter-spacing: 0px;
+}
+
+h5.birthdayMessage > span.ultraCondensed.adjusted,
+h5.halloweenMessage > span.ultraCondensed.adjusted,
+h5.memorialMessage > span.ultraCondensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 11pt;
+}
+
+h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
+    padding-bottom: 0.25ex;
+}
+
+div.footer {
+    display: table;
+    width: 100%;
+    text-align: left;
+    font-size: 10pt;
+    background-color: #366938;
+    color: white;
+    bottom: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+div.footer.profile {
+    background-color: #693638;
+}
+
+div.footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
+div.footer a {
+    color: white;
+}
+
+a.emojiLink {
+    text-decoration: none !important;   /* iPhone seems to require the !important */
+}
+
+div.hiddenSlug, div.vitamins {
+    /* A slug of characters to make webfonts load all necessary glyphs.
+       Otherwise Typesquare, the Morisawa foundry service, won't properly load
+       all the glyphs one of the search result pages might need. */
+    display: none;
+}
+
+div.sectionMenu {
+    margin: 1ex;
+    text-align: center;
+}
+
+div.sectionMenuItem {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+}
+
+div.pandaAbout, div.pandaLinks {
+    color: white;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
+div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
+    display: none;
+}
+
+div.aboutTags {
+    /* Roughly centered multicolumn contents */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.pandaLinks ul.bamboo li:before {
+    content: "🎍";
+    margin-right: 8px;
+}
+
+div.pandaLinks ul.heart li:before {
+    content: "❤️";
+    margin-right: 8px;
+}
+
+div.pandaLinks ul.panda li:before {
+    content: "🐼";
+    margin-right: 8px;
+}
+
+div.pandaAbout h5.caption > a, div.pandaLinks > ul > li > a {
+    color: white;
+    text-decoration: none !important;
+}
+
+div.pandaAbout > p > a, div.pandaLinks > p > a, div.pandaAbout > ul > li > a, div.pandaLinks > ul > li > a {
+    color: white;  /* Links in About page body text keep underlines */
+}
+
+div.pandaAbout > ul.tagList > li > a {
+    text-decoration: none !important;
+}
+
+div.pandaAbout h4 {
+    color: white;
+    text-decoration: none !important;
+    margin-top: 0.1ex;  /* Mobile, underneath About-page heading */
+}
+
+div.pandaAbout h4 > a {
+    color: white;
+    font-style: italic;
+    text-decoration: none !important;
+}
+
+div.pandaAbout h4.privacy {
+    color: white;
+    margin-left: 0px;
+    padding-bottom: 1em;
+}
+
+div.pandaAbout h4.privacy > a {
+    color: white;
+    font-style: normal;
+    text-decoration: underline !important;
+}
+
+div.photoSample a {
+    color: black;
+    text-decoration: none !important;
+}
+
+h5.caption {
+    text-align: center;
+    margin-top: 0.7ex;
+    margin-bottom: 1ex;
+    margin-left: 8px;
+    margin-right: 8px;
+    line-height: 2.3ex;   /* Even height regardless of font size */
+}
+
+h5.birthdayMessage {
+    line-height: 2.3ex;
+}
+
+div.detailsNameTitle {
+    display: block;
+    text-align: center;
+    background-color: #bcbcbc;
+}
+
+div.detailsName {
+    display: block;
+    text-align: center;
+    background-color: #dedede;
+    border-left: 1px solid #033605; /* Bamboo Green */
+    border-right: 1px solid #033605; /* Bamboo Green */
+    border-top: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsLocation {
+    display: block;
+    text-align: center;
+    min-width: 300px;
+    background-color: whitesmoke;
+    margin-bottom: 1ex;
+}
+
+span.detail {
+    display: block;
+font-size: 10pt;
+}
+
+div.detailsVideo {
+    background-color: #366938; /* Match the menu background */
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+div#contentFrame.about, div#contentFrame.links {
+    background: radial-gradient(ellipse at top, #366938, #002200); /* Light to dark, top to bottom */
+}
+
+/* C28660 is Goldenrod, E4A880 is Sunflower */
+div#contentFrame.profile {
+    background: radial-gradient(ellipse at top, #C28660, #693638); /* Light to dark, top to bottom */
+}
+
+div#contentFrame.about div.shrinker, div#contentFrame.links div.shrinker {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 680px;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 1ex;
+    margin-bottom: 0ex;
+}
+
+/* Making youtube center and scale with the viewport requires hacks */
+div.youtube {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 53%;
+}
+
+div.youtube iframe {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+img.aboutFocus {
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+img.twinFocus {
+    display: inline;
+    width: 49%;
+    text-align: center;
+}
+
+img.footerRpnLogo {
+    width: 40px;
+    float: left;
+    margin-right: 4pt;
+    margin-top: 3pt;
+}
+
+ul.linkList.multiColumn {
+    column-count: 2;
+}
+
+ul.tagList.multiColumn {
+    column-count: 3;
+}
+
+div.arrivalsHeader,
+div.birthdaySummary,
+div.creditSummary,
+div.departuresHeader,
+div.frontPageSummary,
+div.halloweenSummary,
+div.memorialSummary,
+div.profileSummary,
+div.residentsHeader,
+div.tagSummary {
+    text-align: center;
+}
+
+div.arrivalsHeader p,
+div.birthdaySummary p,
+div.creditSummary p,
+div.departuresHeader p,
+div.frontPageSummary p,
+div.halloweenSummary p,
+div.memorialSummary p,
+div.profileSummary p,
+div.residentsHeader p,
+div.tagSummary p {
+    display: inline-block;
+    background-color: #9771A7; /* Grapes */
+    color: black;   /* default to black text, even if inside an anchor tag */
+    border: 1px solid #002200;
+    padding: 1ex;
+    margin: 1ex;
+}
+
+div.arrivalsHeader p,
+div.departuresHeader p,
+div.residentsHeader p {
+    background-color: lightsalmon;
+    min-width: 226px;   /* 2/3 of the mobile min viewport width */
+}
+
+div.halloweenSummary p {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+div.birthdaySummary p.summaryEmphasis {
+    background-image: radial-gradient(#9771A7 0%, #693638 150%);   /* Rich Grapes */
+    margin-top: 0.7ex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0ex;
+    padding: 1ex;
+}
+
+div.frontPageSummary p.summaryEmphasis {
+    background-image: radial-gradient(gold 0%, #693638 150%);   /* Panda Gold */
+    font-size: 19.5pt;
+    margin-top: 0.5ex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0ex;
+    padding: 1ex;
+}
+
+p.summaryEmphasis > a {
+    color: black;
+    text-decoration: none !important;
+}
+
+div.profileSummary {
+    margin-top: 1em;
+}
+
+div.photoSample {
+    display: inline-block;
+    width: 160px;
+    margin-bottom: 10px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+div.photoSample.quarterPage {
+    width: 25%;
+}
+
+div.photoSample.halfPage {
+    width: 35%;
+}
+
+div.photoSample.fullPage {
+    width: 60%;
+}
+
+div.photoSample > img,
+div.photoSample > a > img {
+    border: 1px solid #002200;
+    width: 100%;
+}
+
+div.photoSample h5 {
+    background-color: yellowgreen;
+    border: 1px solid #002200;
+    padding: 0 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+div.photoSample h5.updateName.halloweenMessage {
+    background-color: orangered;
+}
+
+div.photoSample h5.updateAuthor.halloweenMessage {
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+
+div.photoSample h5.caption.familyName,
+div.photoSample h5.caption.groupMediaName, 
+div.photoSample h5.caption.updateName {
+    margin-bottom: 0px;
+    border-bottom: 0px solid;
+    line-height: 2.3ex;
+}
+
+div.photoSample h5.caption.familyTitle, 
+div.photoSample h5.caption.groupMediaAuthor, 
+div.photoSample h5.caption.updateAuthor {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    border-top: 0px solid;
+    line-height: 2.3ex;
+}
+
+div.photoSample h5.caption.groupMediaAuthor,
+div.photoSample h5.caption.groupMediaName,
+div.photoSample h5.caption.updateName, 
+div.photoSample h5.caption.updateAuthor {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+div.photoSample h5.caption.newContributor {
+    background-color: #EDC1D7; /* Pink Lady Apples */
+}
+
+div.photoSample h5.caption.zoo.one {
+    background-color: cornflowerblue;
+}
+
+div.photoSample h5.caption.zoo.two {
+    background-color: burlywood;
+}
+
+div.photoSample h5.caption.zoo.three {
+    background-color: orchid;
+}
+
+div.photoSample h5.caption.zoo.four {
+    background-color: lightgreen;
+}
+
+div.photoSample h5.caption.shortMessage {
+    margin-bottom: 0px;
+    border-bottom: 0px solid;
+    line-height: 2.3ex;
+}
+
+div.photoSample h5.caption.birthdayMessage, 
+div.photoSample h5.caption.halloweenMessage,
+div.photoSample h5.caption.memorialMessage {
+    overflow-x: hidden;
+}
+
+div.photoSample h5.caption.authorCredit {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    border-top: 0px solid;
+    word-break: break-all;
+    line-height: 2.3ex;
+}
+
+div.photoSample h5.caption.familyTitle > span.condensed {
+    /* Font changes break container size */
+    letter-spacing: -1.5px;
+}
+
+div.photoSample h5.caption.familyTitle > span.ultraCondensed {
+    letter-spacing: -2.5px;
+}
+
+/* Portrait mode, default for iPhones and for frames that are in a 
+   similar layout / resolution. Shorten the padding details, and turn
+   the two-column results layout into a single-column layout. */
+@media screen and (max-width: 670px) {
+    button.logo {
+        display: none;
+    }
+    
+    button.menu {
+        width: 80px;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    button.menu.message {
+        width: 160px;   /* 2x a normal button size, for message text */
+    }
+
+    button.menu.flag {
+        /* Divide 320px by number of buttons you expect to have per-row */
+        /* For more than 5 buttons, use wide buttons to split across two rows */
+        width: 80px;
+    }
+
+    div.buttonIcon {
+        display: table-row;
+        font-size: 24pt;
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+    div.buttonText {
+        display: table-row;
+        font-size: 10pt;
+        padding: 0 0 0 0;
+        text-align: center;
+        word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
+    }
+
+    div.buttonText.message {
+        /* Message buttons always have text to right of icon */
+        display: table-cell;
+        text-align: left;
+    }
+
+    div.buttonText.condensed, div.buttonText.message.condensed {
+        font-size: 10pt;
+        letter-spacing: -1px;
+    }
+
+    button.sectionButton {
+        font-size: 10pt;
+        padding: 0 0 0 0;
+        height: 7.6ex;   /* Two lines of 10pt text */
+    }
+
+    button.sectionButton:active {
+        padding: 0 0 0 0;
+    }
+
+    button.sectionButton.two {
+        width: calc(98% / 2);
+    }
+    
+    button.sectionButton.three {
+        width: calc(98% / 3);
+    }
+    
+    button.sectionButton.four {
+        width: calc(98% / 4);
+    }    
+
+    div#contentFrame {
+        padding-top: 0.1ex;
+        padding-bottom: 0.1ex;
+    }
+
+    p.updatePhotosMessage {
+        letter-spacing: -1px;
+    }    
+
+    div.pandaAbout, div.pandaLinks {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    div.aboutTags {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    input.search {
+        padding-left: 4px;
+        padding-bottom: 0vh;
+        margin: 0 0 0 0;
+    }
+
+    div.pandaResult, div.zooResult, div.profileFrame {
+        padding-bottom: 0ex;
+        margin-top: 0.7ex;
+        margin-bottom: 0.7ex;
+        border: 0px solid;
+    }
+
+    div.profileDossier {
+        display: block;
+    }
+
+    div.qrcodeFrame {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    div.qrcodeFrame img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.emptyResult {
+        display: none;
+    }
+
+    div.pandaPhoto, div.zooPhoto {
+        display: block;
+        text-align: center;
+        padding-bottom: 0ex;
+    }
+
+    div.pandaPhoto img, div.zooPhoto img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    div.pandaTitle, div.zooTitle {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+    div.gender {
+	    margin-left: 0.5ex;
+    }
+
+    div.pandaName {
+        margin-right: 0.5ex;
+    }
+
+    div.zooName {
+        margin-left: 0.5ex;
+        margin-right: 0.5ex;
+    }
+
+    div.pandaDossier, div.zooDossier, div.profileFrame, div.profileDossier {
+        display: block;
+        border: 0px solid;
+    }
+
+    div.family {
+        flex-direction: row;
+    }
+
+    div.family.vertical.onlyDesktop {
+        flex-direction: row;
+    }
+
+    div.family.vertical.onlyMobile {
+        /* This requires JS to set a height for the flow to work */
+        flex-direction: column;
+    }
+
+    div.family.vertical > div {
+        width: 50%;
+    }
+
+    div.family.vertical > hr.divider {
+        page-break-after: always;
+    }
+
+    div.profileFrame > div.profileDossier > ul.pandaList > li {
+        margin-left: 4px;
+    }
+
+    div.parents, div.litter, div.siblings, div.children, div.names {
+        text-align: left;
+        flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
+        padding-left: 0px;
+    }
+
+    div.zooHistory, div.profilePhotos {
+        flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
+        padding-left: 0px;
+    }
+
+    hr.divider.onlyDesktop {
+        display: none;
+    }
+
+    hr.divider.onlyMobile {
+        display: block;
+    }
+
+    div.pandaDetails p, div.zooDetails p {
+        margin-left: 14px;
+    }
+
+    h2 {
+        margin-left: 14px;
+        margin-right: 8px;
+    }
+
+    h3, h4 {
+        margin-left: 4px;    /* Panda family headings */
+    }
+
+    div.pandaAbout h4,
+    div.pandaAbout h4.privacy {
+        margin-left: 14px;   /* Author/about headings */
+    }
+
+    div.species h4 {
+        text-decoration: none !important;
+        margin-left: 8px;
+    }
+
+    ul.pandaList, ul.linkList, ul.nicknameList, ul.tagList, ul.zooList {
+        list-style: none;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    h2.linksHeader {
+        display: none;
+    }
+
+    ul.pandaList, ul.pandaList.double, ul.pandaList.triple {
+        margin-left: 0px;   /* Get a little more space on mobile */
+    }
+    
+    ul.linkList {
+        margin-left: 14px;
+    }
+
+    ul.tagList {
+        font-size: 13pt;   /* Assume tags might run long */
+        letter-spacing: -1px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    ul.zooList {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    ul.zooList li {
+        padding-left: 1ex;
+        padding-right: 1ex;
+    }
+
+    div.nicknameContainer, div.othernamesContainer {
+        margin-left: 8px;
+    }
+    
+    ul.pandaList.double, ul.pandaList.triple {
+        column-gap: 0.7em;
+    }
+
+    ul.pandaList.double.onlyMobile {
+        column-count: 2;
+        column-gap: 0.7em;
+    }
+
+    /* On small screens, not enough room */
+    ul.pandaList.triple, ul.pandaList.triple.onlyMobile {
+        column-count: 2;
+        column-gap: 0.7em;
+    }
+
+    div.profileSummary {
+        margin-top: 0px;   /* Vertical rhythm things unnecessary on mobile */
+    }
+
+    div.frontPageSummary p.summaryEmphasis {
+        padding-left: 0.6ex;
+        padding-right: 0.6ex;
+    }
+
+    div.profile#contentFrame hr {
+        display: none;   /* Vertical rhythm things unnecessary on mobile */
+    }
+
+    div.footer {
+        text-align: left;
+    }
+
+    div.footer p {
+        margin-left: 8px;
+    }
+
+    div.pandaAbout p, div.pandaLinks p {
+        margin-left: 14px;
+        margin-right: 8px;
+    }
+
+    ul.linkList.multiColumn {
+        column-count: 1;
+    }
+
+    ul.tagList.multiColumn {
+        column-count: 2;
+    }
+
+    div.photoSample {
+        display: inline-block;
+        width: 140px;
+        margin-bottom: 10px;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+    /* Don't want too small on mobile */
+    div.photoSample.quarterPage {
+        width: 45%;
+    }
+
+    /* Make the half-page items full-size on mobile */
+    div.photoSample.halfPage,
+    div.photoSample.fullPage {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    div.photoSample.halfPage > img,
+    div.photoSample.halfPage > a > img,
+    div.photoSample.fullPage > img,
+    div.photoSample.fullPage > a > img {
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+    div.photoSample h5.caption.shortMessage {
+        width: 100%;
+    }
+
+    div.photoSample h5.caption.birthdayMessage, 
+    div.photoSample h5.caption.halloweenMessage,
+    div.photoSample h5.caption.memorialMessage {
+        width: 100%;
+    }
+    
+    div.photoSample h5.caption.authorCredit {
+        width: 100%;
+    }
+
+    div.photoSample.halfPage h5.caption,
+    div.photoSample.fullPage h5.caption {
+        width: 95%;
+    }
+}

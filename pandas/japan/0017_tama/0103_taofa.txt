@@ -1,0 +1,918 @@
+[panda]
+_id: 103
+birthday: 2015/6/14
+birthplace: 34
+children: 240, 948, 949
+commitdate: 2018/6/23
+en.name: Taofa
+en.nicknames: Forehead-chan, Mama Forehead, Forehead
+en.othernames: Tao-fa, Tao-Fa
+gender: f
+jp.name: タオファ
+jp.nicknames: none
+jp.othernames: 桃花
+language.order: jp, en
+litter: none
+location.1: 34, 2015/6/14
+location.2: 17, 2017/3/27
+photo.1: ig://BJJvARgA6cw/m
+photo.1.author: mariten1119
+photo.1.commitdate: 2018/11/19
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.2: ig://BeMBa8aj66I/m
+photo.2.author: s.okano521
+photo.2.commitdate: 2018/10/7
+photo.2.link: https://www.instagram.com/s.okano521/
+photo.2.tags: tongue
+photo.3: ig://BeZAZtgDUpp/m
+photo.3.author: kotata_513
+photo.3.commitdate: 2021/1/31
+photo.3.link: https://www.instagram.com/kotata_513/
+photo.3.tags: peek, portrait, snow
+photo.4: ig://Be1adQihyzG/m
+photo.4.author: _rifa_p
+photo.4.commitdate: 2018/7/21
+photo.4.link: https://www.instagram.com/_rifa_p/
+photo.4.tags: bamboo
+photo.5: ig://Be7cwEqHSvP/m
+photo.5.author: kotata_513
+photo.5.commitdate: 2018/7/21
+photo.5.link: https://www.instagram.com/kotata_513/
+photo.5.tags: bamboo, grumpy, portrait
+photo.6: ig://Bf5b3XmlgHd/m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2018/7/21
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: bamboo
+photo.7: ig://BgTiS-9lE4p/m
+photo.7.author: fetorus_mami
+photo.7.commitdate: 2018/7/21
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: grumpy, portrait, profile
+photo.8: ig://BiOoKKpFT-g/m
+photo.8.author: itsuak
+photo.8.commitdate: 2018/7/21
+photo.8.link: https://www.instagram.com/itsuak/
+photo.8.tags: smile, standing, tree
+photo.9: ig://BpgEspalZzI/m
+photo.9.author: ck.chie
+photo.9.commitdate: 2018/10/29
+photo.9.link: https://www.instagram.com/ck.chie/
+photo.10: ig://BpwDoaPleqF/m
+photo.10.author: roko_mm
+photo.10.commitdate: 2018/11/5
+photo.10.link: https://www.instagram.com/roko_mm/
+photo.10.tags: portrait
+photo.11: ig://Bp3PydHlKpa/m
+photo.11.author: ck.chie
+photo.11.commitdate: 2018/11/6
+photo.11.link: https://www.instagram.com/ck.chie/
+photo.11.tags: bamboo, portrait
+photo.12: ig://Bq3frJpltwK/m
+photo.12.author: minatomirai215
+photo.12.commitdate: 2018/12/4
+photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: portrait
+photo.13: ig://BrN6QNDFGKG/m
+photo.13.author: minatomirai215
+photo.13.commitdate: 2018/12/10
+photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: tree
+photo.14: ig://BrjZQ9glcHm/m
+photo.14.author: ck.chie
+photo.14.commitdate: 2018/12/19
+photo.14.link: https://www.instagram.com/ck.chie/
+photo.14.tags: bamboo
+photo.15: ig://BsNSxKPlsYu/m
+photo.15.author: mofu_pan
+photo.15.commitdate: 2019/1/4
+photo.15.link: https://www.instagram.com/mofu_pan/
+photo.15.tags: smile, tail
+photo.16: ig://BsN177YF1pp/m
+photo.16.author: ifumoto88
+photo.16.commitdate: 2019/1/4
+photo.16.link: https://www.instagram.com/ifumoto88/
+photo.16.tags: portrait
+photo.17: ig://BsZFumoFS3Z/m
+photo.17.author: kotata_513
+photo.17.commitdate: 2019/1/9
+photo.17.link: https://www.instagram.com/kotata_513/
+photo.17.tags: apple time, bamboo
+photo.18: ig://BsiCAODFmEY/m
+photo.18.author: panda.daisuki
+photo.18.commitdate: 2019/1/18
+photo.18.link: https://www.instagram.com/panda.daisuki/
+photo.18.tags: bamboo, smile
+photo.19: ig://Bso6sASFuQ6/m
+photo.19.author: ck.chie
+photo.19.commitdate: 2019/1/18
+photo.19.link: https://www.instagram.com/ck.chie/
+photo.19.tags: bamboo, portrait
+photo.20: ig://BsuviQVlrqy/m
+photo.20.author: miis_98
+photo.20.commitdate: 2019/1/19
+photo.20.link: https://www.instagram.com/miis_98/
+photo.20.tags: portrait
+photo.21: ig://BtCqp2FFt5V/m
+photo.21.author: ck.chie
+photo.21.commitdate: 2019/1/27
+photo.21.link: https://www.instagram.com/ck.chie/
+photo.21.tags: bamboo, portrait
+photo.22: ig://BtkI-LnFQ0e/m
+photo.22.author: ck.chie
+photo.22.commitdate: 2019/2/18
+photo.22.link: https://www.instagram.com/ck.chie/
+photo.22.tags: paws, tongue
+photo.23: ig://BuDCgNHFLyl/m
+photo.23.author: ck.chie
+photo.23.commitdate: 2019/2/19
+photo.23.link: https://www.instagram.com/ck.chie/
+photo.23.tags: bamboo, smile
+photo.24: ig://Buzv-X8FbAw/m
+photo.24.author: panda.daisuki
+photo.24.commitdate: 2022/3/18
+photo.24.link: https://www.instagram.com/panda.daisuki/
+photo.24.tags: portrait, sample, tail
+photo.25: ig://Bu_UFZYFT-Q/m
+photo.25.author: ifumoto88
+photo.25.commitdate: 2019/3/17
+photo.25.link: https://www.instagram.com/ifumoto88/
+photo.25.tags: bamboo, paws, smile, standing
+photo.26: ig://BvFsZ-ulVgJ/m
+photo.26.author: mariten1119
+photo.26.commitdate: 2019/3/17
+photo.26.link: https://www.instagram.com/mariten1119/
+photo.26.tags: bamboo, smile
+photo.27: ig://BveVmW_lZ6S/m
+photo.27.author: mofu_pan
+photo.27.commitdate: 2019/4/5
+photo.27.link: https://www.instagram.com/mofu_pan/
+photo.27.tags: tail
+photo.28: ig://BvzBPKyFRoT/m
+photo.28.author: ifumoto88
+photo.28.commitdate: 2019/4/5
+photo.28.link: https://www.instagram.com/ifumoto88/
+photo.28.tags: portrait
+photo.29: ig://Bv84vyEl4qk/m
+photo.29.author: 218_yu
+photo.29.commitdate: 2019/4/7
+photo.29.link: https://www.instagram.com/218_yu/
+photo.29.tags: bamboo, tongue
+photo.30: ig://BwGae6-lMiD/m
+photo.30.author: 218_yu
+photo.30.commitdate: 2019/4/12
+photo.30.link: https://www.instagram.com/218_yu/
+photo.30.tags: bamboo, tongue
+photo.31: ig://BxQrtnLFem6/m
+photo.31.author: fetorus_mami
+photo.31.commitdate: 2019/5/10
+photo.31.link: https://www.instagram.com/fetorus_mami/
+photo.31.tags: paws, portrait
+photo.32: ig://Bx9tG5FhetE/m
+photo.32.author: mofu_pan
+photo.32.commitdate: 2019/5/31
+photo.32.link: https://www.instagram.com/mofu_pan/
+photo.32.tags: bamboo, tail, tongue
+photo.33: ig://ByrezKUhBDJ/m
+photo.33.author: kotata_513
+photo.33.commitdate: 2019/6/16
+photo.33.link: https://www.instagram.com/kotata_513/
+photo.33.tags: peek
+photo.34: ig://BzNZsTMhfW3/m
+photo.34.author: kotata_513
+photo.34.commitdate: 2019/7/1
+photo.34.link: https://www.instagram.com/kotata_513/
+photo.34.tags: grumpy, mofumofu, portrait
+photo.35: ig://B3W75o9By0e/m
+photo.35.author: ifumoto88
+photo.35.commitdate: 2019/10/17
+photo.35.link: https://www.instagram.com/ifumoto88/
+photo.35.tags: portrait, smile
+photo.36: ig://B5AECr_BQsH/m
+photo.36.author: ck.chie
+photo.36.commitdate: 2019/11/24
+photo.36.link: https://www.instagram.com/ck.chie/
+photo.36.tags: apple time, keeper, portrait, smile, whiskers
+photo.37: ig://B50NbeUhuTk/m
+photo.37.author: minatomirai215
+photo.37.commitdate: 2019/12/16
+photo.37.link: https://www.instagram.com/minatomirai215/
+photo.37.tags: portrait
+photo.38: ig://B74PR-7B48s/m
+photo.38.author: ssc6105
+photo.38.commitdate: 2020/2/3
+photo.38.link: https://www.instagram.com/ssc6105/
+photo.38.tags: whiskers
+photo.39: ig://B78LdNwhvfO/m
+photo.39.author: roko_mm
+photo.39.commitdate: 2020/2/16
+photo.39.link: https://www.instagram.com/roko_mm/
+photo.39.tags: bamboo, portrait, tongue
+photo.40: ig://B8UkGrkhGwZ/m
+photo.40.author: run.swim.shingo
+photo.40.commitdate: 2020/2/16
+photo.40.link: https://www.instagram.com/run.swim.shingo/
+photo.40.tags: bamboo, portrait, standing, tail
+photo.41: ig://B8tDpM8hEm-/m
+photo.41.author: pink.b22
+photo.41.commitdate: 2020/2/29
+photo.41.link: https://www.instagram.com/pink.b22/
+photo.41.tags: laying down, paws, portrait, tail, upside-down
+photo.42: ig://B8-2VT4B7YD/m
+photo.42.author: ssc6105
+photo.42.commitdate: 2020/2/29
+photo.42.link: https://www.instagram.com/ssc6105/
+photo.42.tags: peek, tail
+photo.43: ig://B9AN3RyhtSp/m
+photo.43.author: run.swim.shingo
+photo.43.commitdate: 2020/3/10
+photo.43.link: https://www.instagram.com/run.swim.shingo/
+photo.43.tags: bamboo, paws, tongue
+photo.44: ig://B9NYwX_BgHa/m
+photo.44.author: firefoxpanda88
+photo.44.commitdate: 2020/3/10
+photo.44.link: https://www.instagram.com/firefoxpanda88/
+photo.44.tags: paws, portrait, tail, tongue
+photo.45: ig://B9OmFlTBpPr/m
+photo.45.author: kotata_513
+photo.45.commitdate: 2020/3/10
+photo.45.link: https://www.instagram.com/kotata_513/
+photo.45.tags: blink
+photo.46: ig://B9SkJWXBner/m
+photo.46.author: miis_98
+photo.46.commitdate: 2020/3/10
+photo.46.link: https://www.instagram.com/miis_98/
+photo.46.tags: portrait, tail
+photo.47: ig://B_Zst9FHBHL/m
+photo.47.author: kotata_513
+photo.47.commitdate: 2021/5/31
+photo.47.link: https://www.instagram.com/kotata_513/
+photo.47.tags: bamboo, bite, paws
+photo.48: ig://CARAiwJnZds/m
+photo.48.author: run.swim.shingo
+photo.48.commitdate: 2020/6/6
+photo.48.link: https://www.instagram.com/run.swim.shingo/
+photo.48.tags: itchy, smile, tail
+photo.49: ig://CBDBPzJhvEP/m
+photo.49.author: osopanda551
+photo.49.commitdate: 2020/6/30
+photo.49.link: https://www.instagram.com/osopanda551/
+photo.49.tags: bridge, laying down, paws, portrait, smile, tongue
+photo.50: ig://CBGLdn8hvtt/m
+photo.50.author: sb23megumi
+photo.50.commitdate: 2020/6/30
+photo.50.link: https://www.instagram.com/sb23megumi/
+photo.50.tags: butterfly, door, paws, portrait, smile
+photo.51: ig://CCmWTBbhAop/m
+photo.51.author: otenba_redpanda
+photo.51.commitdate: 2021/10/3
+photo.51.link: https://www.instagram.com/otenba_redpanda/
+photo.51.tags: close-up, portrait, smile, tongue, whiskers
+photo.52: ig://CC9-H9DhROT/m
+photo.52.author: otenba_redpanda
+photo.52.commitdate: 2021/10/2
+photo.52.link: https://www.instagram.com/otenba_redpanda/
+photo.52.tags: portrait, smile, tongue, whiskers
+photo.53: ig://CDEADi2Bzmp/m
+photo.53.author: osopanda551
+photo.53.commitdate: 2020/7/28
+photo.53.link: https://www.instagram.com/osopanda551/
+photo.53.tags: paws, portrait, smile, tongue, tree
+photo.54: ig://CDH1b5ahKPe/m
+photo.54.author: otenba_redpanda
+photo.54.commitdate: 2021/10/3
+photo.54.link: https://www.instagram.com/otenba_redpanda/
+photo.54.tags: close-up, mofumofu, portrait, smile, whiskers
+photo.55: ig://CDMB1UgBMLP/m
+photo.55.author: otenba_redpanda
+photo.55.commitdate: 2021/10/3
+photo.55.link: https://www.instagram.com/otenba_redpanda/
+photo.55.tags: grooming, mofumofu, paws, portrait, smile, tail
+photo.56: ig://CDofTVehaOj/m
+photo.56.author: otenba_redpanda
+photo.56.commitdate: 2021/10/3
+photo.56.link: https://www.instagram.com/otenba_redpanda/
+photo.56.tags: portrait, smile, tongue, tree, whiskers
+photo.57: ig://CDpG0s_BYnx/m
+photo.57.author: run.swim.shingo
+photo.57.commitdate: 2020/9/12
+photo.57.link: https://www.instagram.com/run.swim.shingo/
+photo.57.tags: bridge, laying down, paws, smile, tail
+photo.58: ig://CD-AauKBRMe/m
+photo.58.author: otenba_redpanda
+photo.58.commitdate: 2021/10/3
+photo.58.link: https://www.instagram.com/otenba_redpanda/
+photo.58.tags: close-up, portrait, smile, whiskers
+photo.59: ig://CEB8pQthPdC/m
+photo.59.author: sb23megumi
+photo.59.commitdate: 2020/8/28
+photo.59.link: https://www.instagram.com/sb23megumi/
+photo.59.tags: paws, portrait, stretching, wave
+photo.60: ig://CEOW4NNhppm/m
+photo.60.author: panda.daisuki
+photo.60.commitdate: 2021/8/24
+photo.60.link: https://www.instagram.com/panda.daisuki/
+photo.60.tags: bridge, laying down, portrait, smile, tail, tongue
+photo.61: ig://CEVkySThwSd/m
+photo.61.author: otenba_redpanda
+photo.61.commitdate: 2021/10/2
+photo.61.link: https://www.instagram.com/otenba_redpanda/
+photo.61.tags: close-up, laying down, portrait, sleeping, whiskers
+photo.62: ig://CEd_cZFh6zE/m
+photo.62.author: otenba_redpanda
+photo.62.commitdate: 2021/10/3
+photo.62.link: https://www.instagram.com/otenba_redpanda/
+photo.62.tags: paws, portrait, standing, tail
+photo.63: ig://CEiFOXYhIFd/m
+photo.63.author: otenba_redpanda
+photo.63.commitdate: 2021/10/3
+photo.63.link: https://www.instagram.com/otenba_redpanda/
+photo.63.tags: paws, portrait, smile, tongue
+photo.64: ig://CEtkZ9ahf-V/m
+photo.64.author: osopanda551
+photo.64.commitdate: 2020/9/16
+photo.64.link: https://www.instagram.com/osopanda551/
+photo.64.tags: paws, portrait, smile, tongue
+photo.65: ig://CE0j89mBDtC/m
+photo.65.author: ck.chie
+photo.65.commitdate: 2020/11/10
+photo.65.link: https://www.instagram.com/ck.chie/
+photo.65.tags: close-up, mofumofu, paws, portrait, tree, whiskers
+photo.66: ig://CFIoUmGBXPA/m
+photo.66.author: otenba_redpanda
+photo.66.commitdate: 2021/10/3
+photo.66.link: https://www.instagram.com/otenba_redpanda/
+photo.66.tags: portrait, smile, whiskers
+photo.67: ig://CFdO-WPh9x3/m
+photo.67.author: otenba_redpanda
+photo.67.commitdate: 2021/10/3
+photo.67.link: https://www.instagram.com/otenba_redpanda/
+photo.67.tags: bridge, laying down, paws, portrait, smile, tongue, whiskers
+photo.68: ig://CFkun0VgR9v/m
+photo.68.author: run.swim.shingo
+photo.68.commitdate: 2020/9/26
+photo.68.link: https://www.instagram.com/run.swim.shingo/
+photo.68.tags: smile, whiskers
+photo.69: ig://CFx0tL_Bgcs/m
+photo.69.author: ck.chie
+photo.69.commitdate: 2020/10/2
+photo.69.link: https://www.instagram.com/ck.chie/
+photo.69.tags: door, mofumofu, portrait, smile, whiskers
+photo.70: ig://CGQuC-IhM_Z/m
+photo.70.author: ck.chie
+photo.70.commitdate: 2020/10/13
+photo.70.link: https://www.instagram.com/ck.chie/
+photo.70.tags: portrait, smile
+photo.71: ig://CGn57rKhn4E/m
+photo.71.author: ck.chie
+photo.71.commitdate: 2021/6/30
+photo.71.link: https://www.instagram.com/ck.chie/
+photo.71.tags: door, portrait, smile, whiskers
+photo.72: ig://CHb152bBtmv/m
+photo.72.author: otenba_redpanda
+photo.72.commitdate: 2021/10/3
+photo.72.link: https://www.instagram.com/otenba_redpanda/
+photo.72.tags: paws, portrait, smile, wink
+photo.73: ig://CHkg1y2h7gI/m
+photo.73.author: otenba_redpanda
+photo.73.commitdate: 2021/10/1
+photo.73.link: https://www.instagram.com/otenba_redpanda/
+photo.73.tags: portrait, whiskers
+photo.74: ig://CHupJ2hhpLa/m
+photo.74.author: daniele.tokyo
+photo.74.commitdate: 2021/8/14
+photo.74.link: https://www.instagram.com/daniele.tokyo/
+photo.74.tags: paws, standing, tongue, tree
+photo.75: ig://CHv0CNDhJCL/m
+photo.75.author: alto0908
+photo.75.commitdate: 2021/8/14
+photo.75.link: https://www.instagram.com/alto0908/
+photo.75.tags: bamboo, portrait, tail
+photo.76: ig://CHz65QwhKpL/m
+photo.76.author: otenba_redpanda
+photo.76.commitdate: 2021/10/1
+photo.76.link: https://www.instagram.com/otenba_redpanda/
+photo.76.tags: bamboo, paws, portrait, standing, tail
+photo.77: ig://CIZXb8NhN4j/m
+photo.77.author: otenba_redpanda
+photo.77.commitdate: 2021/10/3
+photo.77.link: https://www.instagram.com/otenba_redpanda/
+photo.77.tags: portrait, smile, tongue, tree, whiskers
+photo.78: ig://CInXUnwh720/m
+photo.78.author: ssc6105
+photo.78.commitdate: 2021/1/13
+photo.78.link: https://www.instagram.com/ssc6105/
+photo.78.tags: bamboo, smile
+photo.79: ig://CIql0eVhNWL/m
+photo.79.author: minatomirai215
+photo.79.commitdate: 2021/8/14
+photo.79.link: https://www.instagram.com/minatomirai215/
+photo.79.tags: paws, portrait, whiskers
+photo.80: ig://CIvi44QBzVx/m
+photo.80.author: mini_cochi
+photo.80.commitdate: 2021/8/14
+photo.80.link: https://www.instagram.com/mini_cochi/
+photo.80.tags: paws, portrait, whiskers
+photo.81: ig://CJBediPh2rl/m
+photo.81.author: mini_cochi
+photo.81.commitdate: 2021/6/30
+photo.81.link: https://www.instagram.com/mini_cochi/
+photo.81.tags: autumn, laying down, mofumofu, paws, playing, portrait, tail
+photo.82: ig://CJC_a_ABpCD/m
+photo.82.author: ssc6105
+photo.82.commitdate: 2021/6/30
+photo.82.link: https://www.instagram.com/ssc6105/
+photo.82.tags: grooming, paws, portrait, tail
+photo.83: ig://CJD0DMDhspD/m
+photo.83.author: otenba_redpanda
+photo.83.commitdate: 2021/10/3
+photo.83.link: https://www.instagram.com/otenba_redpanda/
+photo.83.tags: portrait, smile, tongue, whiskers
+photo.84: ig://CJE-JgSh4v0/m
+photo.84.author: ck.chie
+photo.84.commitdate: 2021/6/30
+photo.84.link: https://www.instagram.com/ck.chie/
+photo.84.tags: autumn, tongue
+photo.85: ig://CJM2immBi_A/m
+photo.85.author: sunnylettuce_2022
+photo.85.commitdate: 2021/6/30
+photo.85.link: https://www.instagram.com/sunnylettuce_2022/
+photo.85.tags: laying down, peek, whiskers
+photo.86: ig://CJdlF-ohKq7/m
+photo.86.author: sb23megumi
+photo.86.commitdate: 2021/5/31
+photo.86.link: https://www.instagram.com/sb23megumi/
+photo.86.tags: climb, paws, portrait, tree
+photo.87: ig://CJiV9HEh1hU/m
+photo.87.author: redpan22
+photo.87.commitdate: 2021/6/30
+photo.87.link: https://www.instagram.com/redpan22/
+photo.87.tags: bamboo, paws, standing, tail
+photo.88: ig://CJkNWX5BX8Z/m
+photo.88.author: otenba_redpanda
+photo.88.commitdate: 2021/10/3
+photo.88.link: https://www.instagram.com/otenba_redpanda/
+photo.88.tags: paws, peek, portrait, standing, tail
+photo.89: ig://CKEPjJbhnZr/m
+photo.89.author: redpan22
+photo.89.commitdate: 2021/6/30
+photo.89.link: https://www.instagram.com/redpan22/
+photo.89.tags: autumn, paws, whiskers
+photo.90: ig://CKNDYOCBxVk/m
+photo.90.author: ck.chie
+photo.90.commitdate: 2021/5/30
+photo.90.link: https://www.instagram.com/ck.chie/
+photo.90.tags: portrait, smile, whiskers
+photo.91: ig://CKOLKQJhmqr/m
+photo.91.author: sb23megumi
+photo.91.commitdate: 2021/5/31
+photo.91.link: https://www.instagram.com/sb23megumi/
+photo.91.tags: paws, portrait, smile
+photo.92: ig://CKOuNCjBeT3/m
+photo.92.author: miis_98
+photo.92.commitdate: 2021/5/30
+photo.92.link: https://www.instagram.com/miis_98/
+photo.92.tags: grumpy, paws, portrait, tail, whiskers
+photo.93: ig://CKbNEHUBXTu/m
+photo.93.author: redpan22
+photo.93.commitdate: 2021/1/31
+photo.93.link: https://www.instagram.com/redpan22/
+photo.93.tags: autumn, portrait, whiskers
+photo.94: ig://CKi9JLEBXRY/m
+photo.94.author: ck.chie
+photo.94.commitdate: 2021/6/30
+photo.94.link: https://www.instagram.com/ck.chie/
+photo.94.tags: bridge, laying down, portrait, smile, tongue
+photo.95: ig://CKsrEK2BDtJ/m
+photo.95.author: panda.daisuki
+photo.95.commitdate: 2021/6/29
+photo.95.link: https://www.instagram.com/panda.daisuki/
+photo.95.tags: portrait, snow, tail
+photo.96: ig://CKxlbEjhLgb/m
+photo.96.author: ck.chie
+photo.96.commitdate: 2021/6/30
+photo.96.link: https://www.instagram.com/ck.chie/
+photo.96.tags: door, portrait, smile
+photo.97: ig://CK_ErffBHXJ/m
+photo.97.author: _rifa_p
+photo.97.commitdate: 2021/6/30
+photo.97.link: https://www.instagram.com/_rifa_p/
+photo.97.tags: bamboo, paws, standing, tree
+photo.98: ig://CLOwmH6BQPf/m
+photo.98.author: osopanda551
+photo.98.commitdate: 2021/6/30
+photo.98.link: https://www.instagram.com/osopanda551/
+photo.98.tags: portrait, whiskers
+photo.99: ig://CLXQIc9BQH4/m
+photo.99.author: eos1089
+photo.99.commitdate: 2021/6/30
+photo.99.link: https://www.instagram.com/eos1089/
+photo.99.tags: autumn, paws, portrait, whiskers
+photo.100: ig://CMUeT3uBHOe/m
+photo.100.author: redpan22
+photo.100.commitdate: 2021/4/11
+photo.100.link: https://www.instagram.com/redpan22/
+photo.100.tags: laying down, mofumofu, paws, portrait, smile, tongue
+photo.101: ig://CMXCq2Whfgs/m
+photo.101.author: sb23megumi
+photo.101.commitdate: 2021/6/30
+photo.101.link: https://www.instagram.com/sb23megumi/
+photo.101.tags: paws, portrait, smile, tongue, tree
+photo.102: ig://CMrnk58hXF8/m
+photo.102.author: redpan22
+photo.102.commitdate: 2021/6/30
+photo.102.link: https://www.instagram.com/redpan22/
+photo.102.tags: grooming, paws, portrait, tail, whiskers
+photo.103: ig://CMtrTlrBI07/m
+photo.103.author: ck.chie
+photo.103.commitdate: 2021/6/30
+photo.103.link: https://www.instagram.com/ck.chie/
+photo.103.tags: bamboo, nose, portrait, smile, whiskers
+photo.104: ig://COANXSsBocM/m
+photo.104.author: osopanda551
+photo.104.commitdate: 2021/5/31
+photo.104.link: https://www.instagram.com/osopanda551/
+photo.104.tags: bamboo, portrait, tongue
+photo.105: ig://COJdJVLB8oV/m
+photo.105.author: ck.chie
+photo.105.commitdate: 2021/5/31
+photo.105.link: https://www.instagram.com/ck.chie/
+photo.105.tags: smile, tongue, wink
+photo.106: ig://CPIbahJhDS9/m
+photo.106.author: daniele.tokyo
+photo.106.commitdate: 2021/8/14
+photo.106.link: https://www.instagram.com/daniele.tokyo/
+photo.106.tags: laying down, portrait, tail
+photo.107: ig://CPaq02Shvb9/m
+photo.107.author: redpan22
+photo.107.commitdate: 2021/8/14
+photo.107.link: https://www.instagram.com/redpan22/
+photo.107.tags: grooming, paws, tail
+photo.108: ig://CPfmkzNBO6K/m
+photo.108.author: daniele.tokyo
+photo.108.commitdate: 2021/7/21
+photo.108.link: https://www.instagram.com/daniele.tokyo/
+photo.108.tags: bamboo, peek, tongue
+photo.109: ig://CP6tNhNhA9U/m
+photo.109.author: ck.chie
+photo.109.commitdate: 2021/7/3
+photo.109.link: https://www.instagram.com/ck.chie/
+photo.109.tags: paws, portrait, smile, whiskers
+photo.110: ig://CP7yhuAhKR5/m
+photo.110.author: pink.b22
+photo.110.commitdate: 2021/7/3
+photo.110.link: https://www.instagram.com/pink.b22/
+photo.110.tags: laying down, paws, portrait, smile, tail, tongue
+photo.111: ig://CP8HXOgBOvv/m
+photo.111.author: hamiiiii831_
+photo.111.commitdate: 2021/7/3
+photo.111.link: https://www.instagram.com/hamiiiii831_/
+photo.111.tags: paws, smile, whiskers
+photo.112: ig://CQAtRRzhTL7/m
+photo.112.author: alto0908
+photo.112.commitdate: 2021/7/25
+photo.112.link: https://www.instagram.com/alto0908/
+photo.112.tags: bridge, paws, peek, smile, tongue, whiskers
+photo.113: ig://CQBe3dFBd1W/m
+photo.113.author: mini_cochi
+photo.113.commitdate: 2021/7/25
+photo.113.link: https://www.instagram.com/mini_cochi/
+photo.113.tags: apple time, portrait, smile, whiskers
+photo.114: ig://CQESJtuhar-/m
+photo.114.author: eos1089
+photo.114.commitdate: 2021/7/25
+photo.114.link: https://www.instagram.com/eos1089/
+photo.114.tags: laying down, paws, portrait, smile, tongue, tree
+photo.115: ig://CQio1Rnh2Um/m
+photo.115.author: fetorus_mami
+photo.115.commitdate: 2021/7/3
+photo.115.link: https://www.instagram.com/fetorus_mami/
+photo.115.tags: portrait, smile, whiskers
+photo.116: ig://CQuNkZCh_Lf/m
+photo.116.author: ck.chie
+photo.116.commitdate: 2021/10/7
+photo.116.link: https://www.instagram.com/ck.chie/
+photo.116.tags: door, paws, portrait, smile, whiskers
+photo.117: ig://CRJltMtBPMX/m
+photo.117.author: mini_cochi
+photo.117.commitdate: 2021/7/11
+photo.117.link: https://www.instagram.com/mini_cochi/
+photo.117.tags: bear worm, laying down, mofumofu, paws, portrait, sample, smile, tail, whiskers
+photo.118: ig://CRKhHCGhy2v/m
+photo.118.author: alto0908
+photo.118.commitdate: 2021/7/11
+photo.118.link: https://www.instagram.com/alto0908/
+photo.118.tags: bridge, laying down, portrait, smile, tail, tree
+photo.119: ig://CRMPbeQh77c/m
+photo.119.author: mini_cochi
+photo.119.commitdate: 2021/7/11
+photo.119.link: https://www.instagram.com/mini_cochi/
+photo.119.tags: jizo, paws, portrait, smile, tail, tongue
+photo.120: ig://CRRI814h-dG/m
+photo.120.author: redpan22
+photo.120.commitdate: 2021/7/14
+photo.120.link: https://www.instagram.com/redpan22/
+photo.120.tags: bridge, laying down, paws, tongue
+photo.121: ig://CRkPSY4Bfqa/m
+photo.121.author: ck.chie
+photo.121.commitdate: 2021/8/2
+photo.121.link: https://www.instagram.com/ck.chie/
+photo.121.tags: paws, portrait, smile, tongue, whiskers
+photo.122: ig://CR1AXH8hgDI/m
+photo.122.author: alto0908
+photo.122.commitdate: 2021/10/6
+photo.122.link: https://www.instagram.com/alto0908/
+photo.122.tags: bamboo, bite, close-up, portrait, whiskers
+photo.123: ig://CR7gNjCBEUv/m
+photo.123.author: ck.chie
+photo.123.commitdate: 2021/8/18
+photo.123.link: https://www.instagram.com/ck.chie/
+photo.123.tags: paws, peek, portrait, smile, tail, tongue
+photo.124: ig://CR_fw4whAhk/m
+photo.124.author: redpan22
+photo.124.commitdate: 2021/9/6
+photo.124.link: https://www.instagram.com/redpan22/
+photo.124.tags: laying down, paws, smile, tree
+photo.125: ig://CSAbY7Jhrtp/m
+photo.125.author: run.swim.shingo
+photo.125.commitdate: 2021/9/6
+photo.125.link: https://www.instagram.com/run.swim.shingo/
+photo.125.tags: laying down, paws, smile, tree
+photo.126: ig://CSOs2mcn49u/m
+photo.126.author: fetorus_mami
+photo.126.commitdate: 2021/8/14
+photo.126.link: https://www.instagram.com/fetorus_mami/
+photo.126.tags: paws, peek, standing, tree, whiskers
+photo.127: ig://CTGUgyQBsWn/m
+photo.127.author: otenba_redpanda
+photo.127.commitdate: 2021/10/3
+photo.127.link: https://www.instagram.com/otenba_redpanda/
+photo.127.tags: paws, peek, portrait, techitechi, whiskers
+photo.128: ig://CTHybGJnFMT/m
+photo.128.author: mini_cochi
+photo.128.commitdate: 2021/10/10
+photo.128.link: https://www.instagram.com/mini_cochi/
+photo.128.tags: flowers, portrait, smile, whiskers
+photo.129: ig://CTO9q8upq0i/m
+photo.129.author: otenba_redpanda
+photo.129.commitdate: 2021/10/3
+photo.129.link: https://www.instagram.com/otenba_redpanda/
+photo.129.tags: laying down, portrait, tail, whiskers, yawn
+photo.130: ig://CTYNWktBYOP/m
+photo.130.author: otenba_redpanda
+photo.130.commitdate: 2021/10/3
+photo.130.link: https://www.instagram.com/otenba_redpanda/
+photo.130.tags: laying down, paws, portrait, smile, whiskers
+photo.131: ig://CT5ZAdIhIA0/m
+photo.131.author: otenba_redpanda
+photo.131.commitdate: 2021/10/3
+photo.131.link: https://www.instagram.com/otenba_redpanda/
+photo.131.tags: bamboo, bite, paws, portrait, smile
+photo.132: ig://CVU1n0oB5I-/m
+photo.132.author: otenba_redpanda
+photo.132.commitdate: 2021/11/3
+photo.132.link: https://www.instagram.com/otenba_redpanda/
+photo.132.tags: mofumofu, paws, portrait, tree, whiskers
+photo.133: ig://CVhDPieh0k4/m
+photo.133.author: otenba_redpanda
+photo.133.commitdate: 2021/11/3
+photo.133.link: https://www.instagram.com/otenba_redpanda/
+photo.133.tags: portrait, whiskers
+photo.134: ig://CV26Q5qhf2A/m
+photo.134.author: redpan22
+photo.134.commitdate: 2021/11/15
+photo.134.link: https://www.instagram.com/redpan22/
+photo.134.tags: paws, wave, whiskers
+photo.135: ig://CWNuZk3PB3e/m
+photo.135.author: ssc6105
+photo.135.commitdate: 2021/11/23
+photo.135.link: https://www.instagram.com/ssc6105/
+photo.135.tags: paws, standing, tail
+photo.136: ig://CWN_kbOFRJB/m
+photo.136.author: mini_cochi
+photo.136.commitdate: 2022/12/20
+photo.136.link: https://www.instagram.com/mini_cochi/
+photo.136.tags: bite, climb, paws, portrait, sample, tail, whiskers
+photo.137: ig://CWqawpzBpnS/m
+photo.137.author: redpan22
+photo.137.commitdate: 2021/12/6
+photo.137.link: https://www.instagram.com/redpan22/
+photo.137.tags: autumn, close-up, smile, whiskers
+photo.138: ig://CXR6UvDBomq/m
+photo.138.author: redpan22
+photo.138.commitdate: 2021/12/29
+photo.138.link: https://www.instagram.com/redpan22/
+photo.138.tags: paws, smile, tongue, tree
+photo.139: ig://CXR9cE3v2d6/m
+photo.139.author: mini_cochi
+photo.139.commitdate: 2022/1/15
+photo.139.link: https://www.instagram.com/mini_cochi/
+photo.139.tags: peek, portrait, sample, whiskers
+photo.140: ig://alto0908/CXSDUm7hv4Q/m
+photo.140.author: alto0908
+photo.140.commitdate: 2022/1/15
+photo.140.link: https://www.instagram.com/alto0908/
+photo.140.tags: bamboo, door, smile, whiskers
+photo.141: ig://CXnyAI_PPvW/m
+photo.141.author: miis_98
+photo.141.commitdate: 2021/12/19
+photo.141.link: https://www.instagram.com/miis_98/
+photo.141.tags: paws, sample, smile, whiskers
+photo.142: ig://CYFboQdBfEA/m
+photo.142.author: otenba_redpanda
+photo.142.commitdate: 2022/1/6
+photo.142.link: https://www.instagram.com/otenba_redpanda/
+photo.142.tags: autumn, laying down, paws, playing, portrait, tail, upside-down
+photo.143: ig://kotata_513/CYbcMZDPgNy/m
+photo.143.author: kotata_513
+photo.143.commitdate: 2022/2/6
+photo.143.link: https://www.instagram.com/kotata_513/
+photo.143.tags: paws, playing, portrait, sample, snow, tail, upside-down
+photo.144: ig://CYbhHhSvcri/m
+photo.144.author: redpan22
+photo.144.commitdate: 2022/2/6
+photo.144.link: https://www.instagram.com/redpan22/
+photo.144.tags: laying down, paws, peek, tree
+photo.145: ig://CYhgwMsMkC5/m
+photo.145.author: otenba_redpanda
+photo.145.commitdate: 2022/1/30
+photo.145.link: https://www.instagram.com/otenba_redpanda/
+photo.145.tags: bamboo, bite, mofumofu, portrait, techitechi, whiskers
+photo.146: ig://CYhne7jB_zO/m
+photo.146.author: alto0908
+photo.146.commitdate: 2022/4/12
+photo.146.link: https://www.instagram.com/alto0908/
+photo.146.tags: bamboo, paws, portrait, sample, smile, snow, whiskers
+photo.147: ig://CYiQkesvJWr/m
+photo.147.author: ssc6105
+photo.147.commitdate: 2022/2/5
+photo.147.link: https://www.instagram.com/ssc6105/
+photo.147.tags: climb, paws, tree, whiskers
+photo.148: ig://CYjHf97vPve/m
+photo.148.author: redpan22
+photo.148.commitdate: 2022/1/30
+photo.148.link: https://www.instagram.com/redpan22/
+photo.148.tags: bamboo, nose, sample, whiskers
+photo.149: ig://CZMTFQOPEYs/m
+photo.149.author: redpan22
+photo.149.commitdate: 2022/4/10
+photo.149.link: https://www.instagram.com/redpan22/
+photo.149.tags: climb, paws, sample, tree, whiskers
+photo.150: ig://CZQgWeGr460/m
+photo.150.author: otenba_redpanda
+photo.150.commitdate: 2022/3/19
+photo.150.link: https://www.instagram.com/otenba_redpanda/
+photo.150.tags: close-up, portrait, sample, smile, whiskers
+photo.151: ig://CZeXOAxPhdM/m
+photo.151.author: kotata_513
+photo.151.commitdate: 2022/2/12
+photo.151.link: https://www.instagram.com/kotata_513/
+photo.151.tags: bamboo, bite, portrait, sample, snow
+photo.152: ig://CZxpEPAPkRb/m
+photo.152.author: mini_cochi
+photo.152.commitdate: 2022/4/4
+photo.152.link: https://www.instagram.com/mini_cochi/
+photo.152.tags: paws, peek, portrait, sample, tree
+photo.153: ig://CZy7eePvSKx/m
+photo.153.author: otenba_redpanda
+photo.153.commitdate: 2022/4/4
+photo.153.link: https://www.instagram.com/otenba_redpanda/
+photo.153.tags: paws, peek, portrait, sample, whiskers
+photo.154: ig://CaZgdX1PgG6/m
+photo.154.author: ssc6105
+photo.154.commitdate: 2022/3/11
+photo.154.link: https://www.instagram.com/ssc6105/
+photo.154.tags: bite, paws, standing, tree
+photo.155: ig://Ca40APwr7PV/m
+photo.155.author: mini_cochi
+photo.155.commitdate: 2022/4/5
+photo.155.link: https://www.instagram.com/mini_cochi/
+photo.155.tags: bamboo, nose, paws, portrait, sample
+photo.156: ig://CbOazVNPZ2a/m
+photo.156.author: ssc6105
+photo.156.commitdate: 2022/3/20
+photo.156.link: https://www.instagram.com/ssc6105/
+photo.156.tags: autumn, paws, sample, tail, whiskers
+photo.157: ig://Cbhwf1VvadR/m
+photo.157.author: redpan22
+photo.157.commitdate: 2022/4/26
+photo.157.link: https://www.instagram.com/redpan22/
+photo.157.tags: paws, peek, sample, tree, whiskers
+photo.158: ig://Cb47bjfpeN1/m
+photo.158.author: redpan22
+photo.158.commitdate: 2022/5/13
+photo.158.link: https://www.instagram.com/redpan22/
+photo.158.tags: bamboo, bite, flowers, sample, tongue, whiskers
+photo.159: ig://Cb-jia8vQzW/m
+photo.159.author: eos1089
+photo.159.commitdate: 2022/5/30
+photo.159.link: https://www.instagram.com/eos1089/
+photo.159.tags: bamboo, paws, portrait, sample, standing, whiskers
+photo.160: ig://CcJuvJPvk61/m
+photo.160.author: alto0908
+photo.160.commitdate: 2022/6/10
+photo.160.link: https://www.instagram.com/alto0908/
+photo.160.tags: close-up, nose, portrait, sample, tongue
+photo.161: ig://CcLFCMerNGu/m
+photo.161.author: mini_cochi
+photo.161.commitdate: 2022/6/6
+photo.161.link: https://www.instagram.com/mini_cochi/
+photo.161.tags: flowers, tail
+photo.162: ig://CcQJhaePqMT/m
+photo.162.author: sb23megumi
+photo.162.commitdate: 2022/6/10
+photo.162.link: https://www.instagram.com/sb23megumi/
+photo.162.tags: climb, grumpy, lips, paws, peek, portrait, whiskers
+photo.163: ig://CdVd7RgP1fX/m
+photo.163.author: ck.chie
+photo.163.commitdate: 2022/6/6
+photo.163.link: https://www.instagram.com/ck.chie/
+photo.163.tags: bamboo, flowers, nose, paws, portrait, shoots
+photo.164: ig://CdYL43nPtkd/m
+photo.164.author: sb23megumi
+photo.164.commitdate: 2022/6/6
+photo.164.link: https://www.instagram.com/sb23megumi/
+photo.164.tags: bamboo, blink, portrait, shoots, smile, whiskers
+photo.165: ig://CeE-0WsLNXj/m
+photo.165.author: otenba_redpanda
+photo.165.commitdate: 2022/6/29
+photo.165.link: https://www.instagram.com/otenba_redpanda/
+photo.165.tags: peek, portrait, sample, smile, tongue, whiskers
+photo.166: ig://Cen65s_tVV8/m
+photo.166.author: otenba_redpanda
+photo.166.commitdate: 2022/11/20
+photo.166.link: https://www.instagram.com/otenba_redpanda/
+photo.166.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
+photo.167: ig://CewKgxGP17q/m
+photo.167.author: eos1089
+photo.167.commitdate: 2022/7/31
+photo.167.link: https://www.instagram.com/eos1089/
+photo.167.tags: autumn, close-up, paws, playing, portrait, sample, whiskers
+photo.168: ig://CeyRakWvOKy/m
+photo.168.author: kotata_513
+photo.168.commitdate: 2022/8/30
+photo.168.link: https://www.instagram.com/kotata_513/
+photo.168.tags: bamboo, close-up, paws, portrait, sample
+photo.169: ig://CeyX_HkvGUz/m
+photo.169.author: redpan22
+photo.169.commitdate: 2022/8/30
+photo.169.link: https://www.instagram.com/redpan22/
+photo.169.tags: laying down, paws, sample, tail, tongue
+photo.170: ig://CeyfOoPLXg4/m
+photo.170.author: mini_cochi
+photo.170.commitdate: 2022/8/30
+photo.170.link: https://www.instagram.com/mini_cochi/
+photo.170.tags: bamboo, bite, portrait, sample
+photo.171: ig://CfAVBYRBS5F/m
+photo.171.author: miis_98
+photo.171.commitdate: 2022/7/23
+photo.171.link: https://www.instagram.com/miis_98/
+photo.171.tags: portrait, sample, tongue, tree, whiskers
+photo.172: ig://CfOqeToLDUF/m
+photo.172.author: mini_cochi
+photo.172.commitdate: 2022/8/22
+photo.172.link: https://www.instagram.com/mini_cochi/
+photo.172.tags: paws, portrait, sample, tree
+photo.173: ig://Cf1ILB2PXRC/m
+photo.173.author: sb23megumi
+photo.173.commitdate: 2022/8/16
+photo.173.link: https://www.instagram.com/sb23megumi/
+photo.173.tags: portrait, sample, smile, tail, tongue, whiskers
+photo.174: ig://CgW5Y2kr3Sf/m
+photo.174.author: mini_cochi
+photo.174.commitdate: 2022/7/25
+photo.174.link: https://www.instagram.com/mini_cochi/
+photo.174.tags: portrait, smile, tree, whiskers
+photo.175: ig://Cgc7uFQO3Bz/m
+photo.175.author: otenba_redpanda
+photo.175.commitdate: 2022/9/25
+photo.175.link: https://www.instagram.com/otenba_redpanda/
+photo.175.tags: bamboo, portrait, sample, smile, whiskers
+photo.176: ig://Cgrav_PL3-v/m
+photo.176.author: mini_cochi
+photo.176.commitdate: 2022/8/5
+photo.176.link: https://www.instagram.com/mini_cochi/
+photo.176.tags: peek, portrait, sample, smile, tongue, whiskers
+photo.177: ig://ChDm_YRh8TQ/m
+photo.177.author: ssc6105
+photo.177.commitdate: 2022/9/24
+photo.177.link: https://www.instagram.com/ssc6105/
+photo.177.tags: portrait, sample, whiskers
+photo.178: ig://ChgvZ_9OSNw/m
+photo.178.author: mini_cochi
+photo.178.commitdate: 2022/8/26
+photo.178.link: https://www.instagram.com/mini_cochi/
+photo.178.tags: marking, portrait, sample, smile, tail, whiskers
+photo.179: ig://Cho5Zn4hzqB/m
+photo.179.author: na.mo.pan
+photo.179.commitdate: 2022/8/30
+photo.179.link: https://www.instagram.com/na.mo.pan/
+photo.179.tags: sample, whiskers
+photo.180: ig://CjVbV-xLiZS/m
+photo.180.author: osopanda551
+photo.180.commitdate: 2022/10/20
+photo.180.link: https://www.instagram.com/osopanda551/
+photo.180.tags: bamboo, paws, portrait, sample, whiskers
+species: 2
+studbook.id: 15127
+zoo: 17

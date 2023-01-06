@@ -1,0 +1,21 @@
+[panda]
+_id: 1230
+birthday: 1991/7/3
+birthplace: 122
+children: unknown
+commitdate: 2020/9/25
+death: 2009/4/7
+en.name: Sparkler
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スパークラー
+jp.nicknames: none
+jp.othernames: 線香花火
+language.order: en, jp
+litter: 1229
+location.1: 122, 1991/7/3
+location.2: 81, 1992/4/2
+species: 1
+studbook.id: 9146
+zoo: 81

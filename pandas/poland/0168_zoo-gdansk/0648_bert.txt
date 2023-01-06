@@ -1,0 +1,30 @@
+[panda]
+_id: 648
+birthday: 2015/6/29
+birthplace: 135
+children: none
+commitdate: 2019/3/19
+en.name: Bert
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: バート
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 647
+location.1: 135, 2015/6/29
+location.2: 168, 2016/8/31
+photo.1: ig://BDlY7IOiQ26/m
+photo.1.author: zslwhipsnadezoo
+photo.1.commitdate: 2019/10/17
+photo.1.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.1.tags: paws, tree, white face
+photo.2: ig://9QtJRciQyR/m
+photo.2.author: zslwhipsnadezoo
+photo.2.commitdate: 2019/10/17
+photo.2.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.2.tags: baby, tree, white face
+species: 2
+studbook.id: 1577
+zoo: 168

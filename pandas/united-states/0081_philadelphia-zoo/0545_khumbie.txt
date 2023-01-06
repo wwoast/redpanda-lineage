@@ -1,0 +1,127 @@
+[panda]
+_id: 545
+birthday: 2014/6/14
+birthplace: 141
+children: 543, 544
+commitdate: 2019/3/2
+en.name: Khumbie
+en.nicknames: none
+en.othernames: Khumbi
+gender: m
+jp.name: クンビー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 641
+location.1: 141, 2014/6/14
+location.2: 81, 2015/11/23
+photo.1: ig://BYYbKs4lWnc/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2019/4/6
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: bamboo, paws, portrait, tail
+photo.2: ig://BeZEpbxA74R/m
+photo.2.author: philadelphiazoo
+photo.2.commitdate: 2019/4/6
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+photo.3: ig://Bru2chdjwbx/m
+photo.3.author: philadelphiazoo
+photo.3.commitdate: 2020/1/22
+photo.3.link: https://www.instagram.com/philadelphiazoo/
+photo.3.tags: bamboo, portrait, smile
+photo.4: ig://BsDXfXqFqhv/m
+photo.4.author: philadelphiazoo
+photo.4.commitdate: 2019/4/6
+photo.4.link: https://www.instagram.com/philadelphiazoo/
+photo.5: ig://BtDwbZWFSHM/m
+photo.5.author: philadelphiazoo
+photo.5.commitdate: 2019/4/6
+photo.5.link: https://www.instagram.com/philadelphiazoo/
+photo.5.tags: portrait, snow, whiskers
+photo.6: ig://Btj6NfZhIJS/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/8/9
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: portrait, whiskers
+photo.7: ig://BuFiLMhhSnG/m
+photo.7.author: rossifari
+photo.7.commitdate: 2020/8/9
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: air tasting, bamboo, portrait, tongue
+photo.8: ig://BusBQMmBIDb/m
+photo.8.author: rossifari
+photo.8.commitdate: 2019/3/10
+photo.8.link: https://www.instagram.com/rossifari/
+photo.9: ig://BwDPT2WBnXs/m
+photo.9.author: rossifari
+photo.9.commitdate: 2020/8/9
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: apple time, paws, portrait
+photo.10: ig://BxvU2D5jPNO/m
+photo.10.author: rossifari
+photo.10.commitdate: 2019/5/22
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: sleeping
+photo.11: ig://ByulqZfoVXT/m
+photo.11.author: philadelphiazoo
+photo.11.commitdate: 2020/1/22
+photo.11.link: https://www.instagram.com/philadelphiazoo/
+photo.11.tags: portrait, whiskers
+photo.12: ig://Byvp6BvJbbn/m
+photo.12.author: rossifari
+photo.12.commitdate: 2019/10/8
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: white face
+photo.13: ig://B8txkz4JYln/m
+photo.13.author: rossifari
+photo.13.commitdate: 2020/8/9
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: white face
+photo.14: ig://B_Xbn1fjKVn/m
+photo.14.author: rossifari
+photo.14.commitdate: 2020/8/9
+photo.14.link: https://www.instagram.com/rossifari/
+photo.14.tags: climb, close-up, portrait, white face
+photo.15: ig://CDbPj1KgxG1/m
+photo.15.author: rossifari
+photo.15.commitdate: 2020/8/5
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: portrait, whiskers
+photo.16: ig://CM7i-7MlLal/m
+photo.16.author: philadelphiazoo
+photo.16.commitdate: 2021/11/3
+photo.16.link: https://www.instagram.com/philadelphiazoo/
+photo.16.tags: paws, toys, whiskers
+photo.17: ig://CQJV1eaDFXP/m
+photo.17.author: philadelphiazoo
+photo.17.commitdate: 2021/11/3
+photo.17.link: https://www.instagram.com/philadelphiazoo/
+photo.17.tags: lips, paws, smile, whiskers, white face
+photo.18: ig://CRhfb7YDbYd/m
+photo.18.author: philadelphiazoo
+photo.18.commitdate: 2021/11/3
+photo.18.link: https://www.instagram.com/philadelphiazoo/
+photo.18.tags: close-up, mofumofu, portrait, tree, whiskers, white face
+photo.19: ig://CT-QSXqtMzx/m
+photo.19.author: philadelphiazoo
+photo.19.commitdate: 2021/11/3
+photo.19.link: https://www.instagram.com/philadelphiazoo/
+photo.19.tags: close-up, portrait, profile, whiskers, white face
+photo.20: ig://CZUhjq6MHru/m
+photo.20.author: philadelphiazoo
+photo.20.commitdate: 2022/5/5
+photo.20.link: https://www.instagram.com/philadelphiazoo/
+photo.20.tags: snow, videolink
+photo.21: ig://CasHiAbsSLk/m
+photo.21.author: philadelphiazoo
+photo.21.commitdate: 2022/4/10
+photo.21.link: https://www.instagram.com/philadelphiazoo/
+photo.21.tags: bamboo, videolink, white face
+photo.22: ig://CdVYDP3MlLd/m
+photo.22.author: rossifari
+photo.22.commitdate: 2022/7/27
+photo.22.link: https://www.instagram.com/rossifari/
+photo.22.tags: bamboo, bite, close-up, mofumofu, portrait, tongue
+species: 1
+studbook.id: 1415
+zoo: 81

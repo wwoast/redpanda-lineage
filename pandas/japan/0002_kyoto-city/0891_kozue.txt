@@ -1,0 +1,21 @@
+[panda]
+_id: 891
+birthday: 1991/7/4
+birthplace: 13
+children: none
+commitdate: 2019/6/23
+death: 2009/4/16
+en.name: Kozue
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 梢
+jp.nicknames: none
+jp.othernames: こずえ
+language.order: jp, en
+litter: none
+location.1: 13, 1991/7/4
+location.2: 2, 1993/3/18
+species: 2
+studbook.id: 9183
+zoo: 2

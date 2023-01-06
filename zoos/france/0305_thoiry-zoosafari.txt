@@ -1,0 +1,15 @@
+[zoo]
+_id: 305
+commitdate: 2022/5/30
+en.address: Rue du Pavillon de Montreuil, 78770 Thoiry, France
+en.location: Thoiry, Yvelines, France
+en.name: Thoiry ZooSafari
+flag: France
+fr.address: Rue du Pavillon de Montreuil, 78770 Thoiry, France
+fr.location: Thoiry, Yvelines, France
+fr.name: Thoiry ZooSafari
+language.order: fr, en
+latitude: 48.8639799
+longitude: 1.7968256
+map: https://goo.gl/maps/sydjYJBwdMMA5nRQA
+website: https://www.thoiry.net/

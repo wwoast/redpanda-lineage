@@ -1,0 +1,30 @@
+[panda]
+_id: 940
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 大白
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/7/15
+en.name: Da-Bai
+en.nicknames: none
+en.othernames: Dabai
+gender: unknown
+jp.name: 大白
+jp.nicknames: none
+jp.othernames: だばい
+language.order: cn, en, jp
+litter: unknown
+photo.1: ig://Bi5WIFjFeUt/m
+photo.1.author: c_yulu_x
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/c_yulu_x/
+photo.1.tags: profile, white face
+photo.2: ig://BjGXYmFF5F0/m
+photo.2.author: c_yulu_x
+photo.2.commitdate: 2019/7/15
+photo.2.link: https://www.instagram.com/c_yulu_x/
+photo.2.tags: paws, tree
+species: 2
+zoo: 39

@@ -1,0 +1,23 @@
+[zoo]
+_id: 38
+commitdate: 2018/6/26
+en.address: 63-10 Oimatsucho, Nishi Ward, Yokohama, Kanagawa Prefecture 220-0032, Japan
+en.location: Nishi Ward, Yokohama, Japan
+en.name: Nogeyama Zoo
+flag: Japan
+jp.address: 〒220-0032 神奈川県横浜市西区老松町63-10
+jp.location: 西区 横浜
+jp.name: 横浜市立野毛山動物園
+language.order: jp, en
+latitude: 35.4472864
+longitude: 139.6205233
+map: https://goo.gl/maps/TbqkYpePr5P2
+photo.1: ig://BJphz90B8rd/m
+photo.1.author: aqua_vanilla
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/aqua_vanilla/
+photo.2: ig://B64qT3gBWMe/m
+photo.2.author: kipekaila
+photo.2.commitdate: 2020/1/11
+photo.2.link: https://www.instagram.com/kipekaila/
+website: http://www.hama-midorinokyokai.or.jp/zoo/nogeyama/

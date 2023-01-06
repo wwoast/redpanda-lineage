@@ -1,0 +1,754 @@
+[panda]
+_id: 432
+birthday: 2014/6/28
+birthplace: 76
+children: none
+commitdate: 2018/11/23
+en.name: Arun
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: アルン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 449
+location.1: 76, 2014/6/28
+location.2: 86, 2015/5/28
+photo.1: ig://BZScXrIlzIC/m
+photo.1.author: westcoast_kathy
+photo.1.commitdate: 2020/9/21
+photo.1.link: https://www.instagram.com/westcoast_kathy/
+photo.1.tags: bridge, climb, tail
+photo.2: ig://BkOezgoHCkF/m
+photo.2.author: westcoast_kathy
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/westcoast_kathy/
+photo.2.tags: air tasting, tongue, tree
+photo.3: ig://BlMurvEHIVW/m
+photo.3.author: westcoast_kathy
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/westcoast_kathy/
+photo.3.tags: tree
+photo.4: ig://Bll78HoHsd0/m
+photo.4.author: westcoast_kathy
+photo.4.commitdate: 2018/11/25
+photo.4.link: https://www.instagram.com/westcoast_kathy/
+photo.4.tags: laying down, portrait, smile, tongue
+photo.5: ig://BlwYOFcHqbE/m
+photo.5.author: westcoast_kathy
+photo.5.commitdate: 2018/11/25
+photo.5.link: https://www.instagram.com/westcoast_kathy/
+photo.5.tags: flowers
+photo.6: ig://Bl3-lHQnQz0/m
+photo.6.author: westcoast_kathy
+photo.6.commitdate: 2018/11/25
+photo.6.link: https://www.instagram.com/westcoast_kathy/
+photo.6.tags: bamboo, portrait, smile
+photo.7: ig://Bl82akMFtZK/m
+photo.7.author: westcoast_kathy
+photo.7.commitdate: 2018/11/25
+photo.7.link: https://www.instagram.com/westcoast_kathy/
+photo.7.tags: flowers, portrait, smile
+photo.8: ig://BmCRAcYnRCz/m
+photo.8.author: westcoast_kathy
+photo.8.commitdate: 2018/11/25
+photo.8.link: https://www.instagram.com/westcoast_kathy/
+photo.8.tags: bamboo
+photo.9: ig://BmUhK0VnFrb/m
+photo.9.author: westcoast_kathy
+photo.9.commitdate: 2018/11/25
+photo.9.link: https://www.instagram.com/westcoast_kathy/
+photo.9.tags: portrait
+photo.10: ig://BmcgpRoHA4V/m
+photo.10.author: westcoast_kathy
+photo.10.commitdate: 2018/11/25
+photo.10.link: https://www.instagram.com/westcoast_kathy/
+photo.10.tags: itchy, paws, portrait, smile
+photo.11: ig://BmgXAKFn1J9/m
+photo.11.author: westcoast_kathy
+photo.11.commitdate: 2018/11/25
+photo.11.link: https://www.instagram.com/westcoast_kathy/
+photo.11.tags: laying down, portrait, tree
+photo.12: ig://Bmmn_ZRHwp-/m
+photo.12.author: westcoast_kathy
+photo.12.commitdate: 2018/11/25
+photo.12.link: https://www.instagram.com/westcoast_kathy/
+photo.12.tags: bamboo
+photo.13: ig://BmoJ9tMn-QK/m
+photo.13.author: westcoast_kathy
+photo.13.commitdate: 2018/11/25
+photo.13.link: https://www.instagram.com/westcoast_kathy/
+photo.13.tags: paws, portrait, tree
+photo.14: ig://BnhwonxnqJu/m
+photo.14.author: westcoast_kathy
+photo.14.commitdate: 2018/11/25
+photo.14.link: https://www.instagram.com/westcoast_kathy/
+photo.14.tags: tree, upside-down
+photo.15: ig://BnkVj9EHt8D/m
+photo.15.author: westcoast_kathy
+photo.15.commitdate: 2018/11/25
+photo.15.link: https://www.instagram.com/westcoast_kathy/
+photo.15.tags: paws, portrait
+photo.16: ig://BnvJMUjnANh/m
+photo.16.author: westcoast_kathy
+photo.16.commitdate: 2018/11/25
+photo.16.link: https://www.instagram.com/westcoast_kathy/
+photo.16.tags: flowers
+photo.17: ig://BnwMGlRHm37/m
+photo.17.author: westcoast_kathy
+photo.17.commitdate: 2018/11/25
+photo.17.link: https://www.instagram.com/westcoast_kathy/
+photo.17.tags: flowers, portrait
+photo.18: ig://Bn-Wy-vnsZp/m
+photo.18.author: westcoast_kathy
+photo.18.commitdate: 2018/11/25
+photo.18.link: https://www.instagram.com/westcoast_kathy/
+photo.18.tags: tail
+photo.19: ig://BoAscMeneiD/m
+photo.19.author: westcoast_kathy
+photo.19.commitdate: 2018/11/25
+photo.19.link: https://www.instagram.com/westcoast_kathy/
+photo.19.tags: portrait, tail
+photo.20: ig://BoSer3IF59R/m
+photo.20.author: westcoast_kathy
+photo.20.commitdate: 2018/11/25
+photo.20.link: https://www.instagram.com/westcoast_kathy/
+photo.20.tags: tree, upside-down
+photo.21: ig://BovOHeSHiMG/m
+photo.21.author: westcoast_kathy
+photo.21.commitdate: 2018/11/25
+photo.21.link: https://www.instagram.com/westcoast_kathy/
+photo.21.tags: laying down, tail
+photo.22: ig://BpVS5Hen1bD/m
+photo.22.author: westcoast_kathy
+photo.22.commitdate: 2018/11/25
+photo.22.link: https://www.instagram.com/westcoast_kathy/
+photo.23: ig://Bpde7qEhDp0/m
+photo.23.author: westcoast_kathy
+photo.23.commitdate: 2018/11/25
+photo.23.link: https://www.instagram.com/westcoast_kathy/
+photo.23.tags: portrait, sleeping, tree
+photo.24: ig://Bpf56vmhpLE/m
+photo.24.author: westcoast_kathy
+photo.24.commitdate: 2018/11/25
+photo.24.link: https://www.instagram.com/westcoast_kathy/
+photo.24.tags: bamboo
+photo.25: ig://BpvZ4DphyWK/m
+photo.25.author: westcoast_kathy
+photo.25.commitdate: 2018/11/25
+photo.25.link: https://www.instagram.com/westcoast_kathy/
+photo.25.tags: bamboo, smile
+photo.26: ig://BqJTzJQhJc0/m
+photo.26.author: westcoast_kathy
+photo.26.commitdate: 2018/11/25
+photo.26.link: https://www.instagram.com/westcoast_kathy/
+photo.26.tags: smile, tongue
+photo.27: ig://BqWBde3hyT7/m
+photo.27.author: westcoast_kathy
+photo.27.commitdate: 2018/11/25
+photo.27.link: https://www.instagram.com/westcoast_kathy/
+photo.27.tags: smile, surprise, tail, tongue
+photo.28: ig://Bqi57-LhauJ/m
+photo.28.author: westcoast_kathy
+photo.28.commitdate: 2018/11/25
+photo.28.link: https://www.instagram.com/westcoast_kathy/
+photo.29: ig://BqoRbXzhkRH/m
+photo.29.author: westcoast_kathy
+photo.29.commitdate: 2018/11/26
+photo.29.link: https://www.instagram.com/westcoast_kathy/
+photo.29.tags: bamboo
+photo.30: ig://BrofWNGhZQQ/m
+photo.30.author: westcoast_kathy
+photo.30.commitdate: 2018/12/23
+photo.30.link: https://www.instagram.com/westcoast_kathy/
+photo.30.tags: tail
+photo.31: ig://Br_vjkEhF5V/m
+photo.31.author: westcoast_kathy
+photo.31.commitdate: 2018/12/30
+photo.31.link: https://www.instagram.com/westcoast_kathy/
+photo.31.tags: nose
+photo.32: ig://Bse4BLyhn_p/m
+photo.32.author: westcoast_kathy
+photo.32.commitdate: 2019/1/18
+photo.32.link: https://www.instagram.com/westcoast_kathy/
+photo.32.tags: paws, smile, toys
+photo.33: ig://Bs7RZNVBqRi/m
+photo.33.author: westcoast_kathy
+photo.33.commitdate: 2019/1/24
+photo.33.link: https://www.instagram.com/westcoast_kathy/
+photo.34: ig://Bs9LfekBTg2/m
+photo.34.author: westcoast_kathy
+photo.34.commitdate: 2019/1/26
+photo.34.link: https://www.instagram.com/westcoast_kathy/
+photo.34.tags: tree
+photo.35: ig://BtARdXBB-PZ/m
+photo.35.author: westcoast_kathy
+photo.35.commitdate: 2019/1/26
+photo.35.link: https://www.instagram.com/westcoast_kathy/
+photo.35.tags: portrait, tree, upside-down
+photo.36: ig://BtC6DZChJqT/m
+photo.36.author: westcoast_kathy
+photo.36.commitdate: 2019/1/27
+photo.36.link: https://www.instagram.com/westcoast_kathy/
+photo.36.tags: bamboo, smile
+photo.37: ig://Bte-RgGAjuU/m
+photo.37.author: westcoast_kathy
+photo.37.commitdate: 2022/2/20
+photo.37.link: https://www.instagram.com/westcoast_kathy/
+photo.37.tags: peek, sample, snow, whiskers
+photo.38: ig://BtkZr53g4_g/m
+photo.38.author: westcoast_kathy
+photo.38.commitdate: 2019/2/19
+photo.38.link: https://www.instagram.com/westcoast_kathy/
+photo.38.tags: bamboo, paws, snow
+photo.39: ig://BvItk7rhEtY/m
+photo.39.author: westcoast_kathy
+photo.39.commitdate: 2019/3/21
+photo.39.link: https://www.instagram.com/westcoast_kathy/
+photo.39.tags: bamboo, tail, tongue
+photo.40: ig://BvNmC7OAtsf/m
+photo.40.author: westcoast_kathy
+photo.40.commitdate: 2019/3/22
+photo.40.link: https://www.instagram.com/westcoast_kathy/
+photo.40.tags: paws, portrait, tongue
+photo.41: ig://BvQRbUxgrhR/m
+photo.41.author: westcoast_kathy
+photo.41.commitdate: 2019/3/22
+photo.41.link: https://www.instagram.com/westcoast_kathy/
+photo.42: ig://BvS7756AfZF/m
+photo.42.author: westcoast_kathy
+photo.42.commitdate: 2019/3/22
+photo.42.link: https://www.instagram.com/westcoast_kathy/
+photo.42.tags: climb, tail, tree, upside down
+photo.43: ig://BvVbLtJA33A/m
+photo.43.author: westcoast_kathy
+photo.43.commitdate: 2019/4/1
+photo.43.link: https://www.instagram.com/westcoast_kathy/
+photo.44: ig://BwBU__SBuLc/m
+photo.44.author: westcoast_kathy
+photo.44.commitdate: 2019/4/9
+photo.44.link: https://www.instagram.com/westcoast_kathy/
+photo.44.tags: grooming, portrait, tail
+photo.45: ig://BxL6yJEgTEk/m
+photo.45.author: westcoast_kathy
+photo.45.commitdate: 2019/5/7
+photo.45.link: https://www.instagram.com/westcoast_kathy/
+photo.45.tags: portrait, smile, tongue
+photo.46: ig://BxOhNvvlLM-/m
+photo.46.author: westcoast_kathy
+photo.46.commitdate: 2019/5/9
+photo.46.link: https://www.instagram.com/westcoast_kathy/
+photo.46.tags: tree
+photo.47: ig://BxlTeSDAiB1/m
+photo.47.author: westcoast_kathy
+photo.47.commitdate: 2019/5/20
+photo.47.link: https://www.instagram.com/westcoast_kathy/
+photo.47.tags: paws, portrait, smile
+photo.48: ig://Bxv17A4gpB8/m
+photo.48.author: westcoast_kathy
+photo.48.commitdate: 2019/5/29
+photo.48.link: https://www.instagram.com/westcoast_kathy/
+photo.48.tags: climb
+photo.49: ig://BygLN5KAYos/m
+photo.49.author: westcoast_kathy
+photo.49.commitdate: 2019/6/9
+photo.49.link: https://www.instagram.com/westcoast_kathy/
+photo.49.tags: portrait, smile, tongue
+photo.50: ig://BzE9_nrgypi/m
+photo.50.author: westcoast_kathy
+photo.50.commitdate: 2019/6/28
+photo.50.link: https://www.instagram.com/westcoast_kathy/
+photo.50.tags: bamboo, paws, portrait
+photo.51: ig://Bze433hAar6/m
+photo.51.author: westcoast_kathy
+photo.51.commitdate: 2019/7/9
+photo.51.link: https://www.instagram.com/westcoast_kathy/
+photo.51.tags: portrait, smile, tongue
+photo.52: ig://BzooQlzgiYY/m
+photo.52.author: westcoast_kathy
+photo.52.commitdate: 2019/7/10
+photo.52.link: https://www.instagram.com/westcoast_kathy/
+photo.52.tags: whiskers
+photo.53: ig://Bz4Lpw7AtQp/m
+photo.53.author: westcoast_kathy
+photo.53.commitdate: 2019/7/14
+photo.53.link: https://www.instagram.com/westcoast_kathy/
+photo.53.tags: bamboo, paws, smile
+photo.54: ig://Bz9n7SlA1X5/m
+photo.54.author: westcoast_kathy
+photo.54.commitdate: 2019/7/18
+photo.54.link: https://www.instagram.com/westcoast_kathy/
+photo.54.tags: bamboo, portrait
+photo.55: ig://B0ICdGGgQ_E/m
+photo.55.author: westcoast_kathy
+photo.55.commitdate: 2019/7/20
+photo.55.link: https://www.instagram.com/westcoast_kathy/
+photo.55.tags: air tasting, tongue
+photo.56: ig://B0PnqVIgx_0/m
+photo.56.author: westcoast_kathy
+photo.56.commitdate: 2019/7/28
+photo.56.link: https://www.instagram.com/westcoast_kathy/
+photo.56.tags: portrait
+photo.57: ig://B0SD4eZgTcV/m
+photo.57.author: westcoast_kathy
+photo.57.commitdate: 2019/7/28
+photo.57.link: https://www.instagram.com/westcoast_kathy/
+photo.57.tags: laying down, paws
+photo.58: ig://B096uQDgt2I/m
+photo.58.author: westcoast_kathy
+photo.58.commitdate: 2019/8/13
+photo.58.link: https://www.instagram.com/westcoast_kathy/
+photo.58.tags: mofumofu, portrait, smile, tongue
+photo.59: ig://B1K_evQAlpm/m
+photo.59.author: westcoast_kathy
+photo.59.commitdate: 2019/8/15
+photo.59.link: https://www.instagram.com/westcoast_kathy/
+photo.59.tags: bridge, paws, standing, tail
+photo.60: ig://B1NWT7QAT_5/m
+photo.60.author: westcoast_kathy
+photo.60.commitdate: 2019/8/20
+photo.60.link: https://www.instagram.com/westcoast_kathy/
+photo.60.tags: bamboo, paws
+photo.61: ig://B1cvdxBgwHI/m
+photo.61.author: westcoast_kathy
+photo.61.commitdate: 2019/8/23
+photo.61.link: https://www.instagram.com/westcoast_kathy/
+photo.61.tags: portrait
+photo.62: ig://B2K7_RygVgm/m
+photo.62.author: westcoast_kathy
+photo.62.commitdate: 2019/9/11
+photo.62.link: https://www.instagram.com/westcoast_kathy/
+photo.62.tags: bamboo, portrait, smile
+photo.63: ig://B2VjS5egxvM/m
+photo.63.author: westcoast_kathy
+photo.63.commitdate: 2019/9/14
+photo.63.link: https://www.instagram.com/westcoast_kathy/
+photo.63.tags: laying down, tongue
+photo.64: ig://B2YHsfhgroJ/m
+photo.64.author: westcoast_kathy
+photo.64.commitdate: 2019/9/18
+photo.64.link: https://www.instagram.com/westcoast_kathy/
+photo.64.tags: mofumofu, portrait, smile
+photo.65: ig://B2ifKfIjSgy/m
+photo.65.author: westcoast_kathy
+photo.65.commitdate: 2019/9/19
+photo.65.link: https://www.instagram.com/westcoast_kathy/
+photo.65.tags: flowers, portrait, tongue
+photo.66: ig://B2sWqJPAAEt/m
+photo.66.author: westcoast_kathy
+photo.66.commitdate: 2019/10/2
+photo.66.link: https://www.instagram.com/westcoast_kathy/
+photo.66.tags: climb, smile, tongue
+photo.67: ig://B3BKZOIA8ru/m
+photo.67.author: westcoast_kathy
+photo.67.commitdate: 2019/10/12
+photo.67.link: https://www.instagram.com/westcoast_kathy/
+photo.67.tags: portrait
+photo.68: ig://B3EIdF9g44d/m
+photo.68.author: westcoast_kathy
+photo.68.commitdate: 2019/10/12
+photo.68.link: https://www.instagram.com/westcoast_kathy/
+photo.68.tags: mofumofu, paws
+photo.69: ig://B3GV0asgztp/m
+photo.69.author: westcoast_kathy
+photo.69.commitdate: 2019/10/12
+photo.69.link: https://www.instagram.com/westcoast_kathy/
+photo.69.tags: bamboo, paws, tongue
+photo.70: ig://B3JFQ0BAmLq/m
+photo.70.author: westcoast_kathy
+photo.70.commitdate: 2019/10/12
+photo.70.link: https://www.instagram.com/westcoast_kathy/
+photo.70.tags: whiskers
+photo.71: ig://B3qeAPADGeg/m
+photo.71.author: westcoast_kathy
+photo.71.commitdate: 2019/10/19
+photo.71.link: https://www.instagram.com/westcoast_kathy/
+photo.71.tags: nose, portrait, tongue
+photo.72: ig://B3yKd0rg1F5/m
+photo.72.author: westcoast_kathy
+photo.72.commitdate: 2019/10/22
+photo.72.link: https://www.instagram.com/westcoast_kathy/
+photo.72.tags: bamboo, smile, tongue, whiskers
+photo.73: ig://B302H9tgfnA/m
+photo.73.author: westcoast_kathy
+photo.73.commitdate: 2019/10/22
+photo.73.link: https://www.instagram.com/westcoast_kathy/
+photo.73.tags: bamboo, portrait, standing
+photo.74: ig://B33a_kKg0Ze/m
+photo.74.author: westcoast_kathy
+photo.74.commitdate: 2019/10/22
+photo.74.link: https://www.instagram.com/westcoast_kathy/
+photo.74.tags: portrait
+photo.75: ig://B4JNw5IAmNR/m
+photo.75.author: westcoast_kathy
+photo.75.commitdate: 2019/10/28
+photo.75.link: https://www.instagram.com/westcoast_kathy/
+photo.75.tags: paws, whiskers
+photo.76: ig://B4MGbfsA-xg/m
+photo.76.author: westcoast_kathy
+photo.76.commitdate: 2019/10/29
+photo.76.link: https://www.instagram.com/westcoast_kathy/
+photo.76.tags: bamboo, paws, smile
+photo.77: ig://B4a7GFKArWi/m
+photo.77.author: westcoast_kathy
+photo.77.commitdate: 2019/11/5
+photo.77.link: https://www.instagram.com/westcoast_kathy/
+photo.77.tags: paws, portrait, smile, tongue
+photo.78: ig://B4d-2jjA1Gi/m
+photo.78.author: westcoast_kathy
+photo.78.commitdate: 2019/11/6
+photo.78.link: https://www.instagram.com/westcoast_kathy/
+photo.78.tags: smile, whiskers
+photo.79: ig://B4qy0CYgWVt/m
+photo.79.author: westcoast_kathy
+photo.79.commitdate: 2019/11/12
+photo.79.link: https://www.instagram.com/westcoast_kathy/
+photo.79.tags: paws, portrait, tail
+photo.80: ig://B4ytZi2AidO/m
+photo.80.author: westcoast_kathy
+photo.80.commitdate: 2019/12/5
+photo.80.link: https://www.instagram.com/westcoast_kathy/
+photo.80.tags: bamboo, portrait, tongue
+photo.81: ig://B46GPBzgtUa/m
+photo.81.author: westcoast_kathy
+photo.81.commitdate: 2019/11/28
+photo.81.link: https://www.instagram.com/westcoast_kathy/
+photo.81.tags: mofumofu, portrait, tail
+photo.82: ig://B5B_802Ao3Q/m
+photo.82.author: westcoast_kathy
+photo.82.commitdate: 2019/12/1
+photo.82.link: https://www.instagram.com/westcoast_kathy/
+photo.82.tags: bamboo, portrait, smile
+photo.83: ig://B5wayW3ADUN/m
+photo.83.author: westcoast_kathy
+photo.83.commitdate: 2019/12/11
+photo.83.link: https://www.instagram.com/westcoast_kathy/
+photo.83.tags: whiskers
+photo.84: ig://B5zCk69gkw2/m
+photo.84.author: westcoast_kathy
+photo.84.commitdate: 2019/12/23
+photo.84.link: https://www.instagram.com/westcoast_kathy/
+photo.85: ig://B6Ef12UgYGO/m
+photo.85.author: westcoast_kathy
+photo.85.commitdate: 2019/12/30
+photo.85.link: https://www.instagram.com/westcoast_kathy/
+photo.85.tags: whiskers
+photo.86: ig://B6HHlDQghoK/m
+photo.86.author: westcoast_kathy
+photo.86.commitdate: 2020/1/1
+photo.86.link: https://www.instagram.com/westcoast_kathy/
+photo.86.tags: laying down, whiskers
+photo.87: ig://B6PaEYogUSh/m
+photo.87.author: westcoast_kathy
+photo.87.commitdate: 2020/2/22
+photo.87.link: https://www.instagram.com/westcoast_kathy/
+photo.87.tags: bamboo, paws, portrait
+photo.88: ig://B6uVlP3DsqP/m
+photo.88.author: westcoast_kathy
+photo.88.commitdate: 2020/1/6
+photo.88.link: https://www.instagram.com/westcoast_kathy/
+photo.88.tags: portrait, profile, whiskers
+photo.89: ig://B62AmJ5g-JS/m
+photo.89.author: westcoast_kathy
+photo.89.commitdate: 2020/1/11
+photo.89.link: https://www.instagram.com/westcoast_kathy/
+photo.89.tags: bamboo, bite, paws
+photo.90: ig://B67QyW5A7Sx/m
+photo.90.author: westcoast_kathy
+photo.90.commitdate: 2020/3/2
+photo.90.link: https://www.instagram.com/westcoast_kathy/
+photo.90.tags: peek, portrait
+photo.91: ig://B7AfR0ZgVmf/m
+photo.91.author: westcoast_kathy
+photo.91.commitdate: 2020/3/2
+photo.91.link: https://www.instagram.com/westcoast_kathy/
+photo.91.tags: peek, smile
+photo.92: ig://B7C24MvATHg/m
+photo.92.author: westcoast_kathy
+photo.92.commitdate: 2020/3/2
+photo.92.link: https://www.instagram.com/westcoast_kathy/
+photo.92.tags: blink, portrait
+photo.93: ig://B7FdnDXAVWI/m
+photo.93.author: westcoast_kathy
+photo.93.commitdate: 2020/3/2
+photo.93.link: https://www.instagram.com/westcoast_kathy/
+photo.93.tags: portrait, whiskers
+photo.94: ig://B7Krbztgm7v/m
+photo.94.author: westcoast_kathy
+photo.94.commitdate: 2020/1/14
+photo.94.link: https://www.instagram.com/westcoast_kathy/
+photo.94.tags: bamboo, paws
+photo.95: ig://B7zvptXgEZk/m
+photo.95.author: westcoast_kathy
+photo.95.commitdate: 2020/3/2
+photo.95.link: https://www.instagram.com/westcoast_kathy/
+photo.95.tags: portrait, snow, whiskers
+photo.96: ig://B77mKrdA77q/m
+photo.96.author: westcoast_kathy
+photo.96.commitdate: 2020/3/2
+photo.96.link: https://www.instagram.com/westcoast_kathy/
+photo.96.tags: whiskers
+photo.97: ig://B8F0xJNA0Rv/m
+photo.97.author: westcoast_kathy
+photo.97.commitdate: 2020/3/2
+photo.97.link: https://www.instagram.com/westcoast_kathy/
+photo.97.tags: portrait
+photo.98: ig://B8kXJ0-ABTM/m
+photo.98.author: westcoast_kathy
+photo.98.commitdate: 2020/3/2
+photo.98.link: https://www.instagram.com/westcoast_kathy/
+photo.98.tags: peek
+photo.99: ig://B8pcOcMAJDZ/m
+photo.99.author: westcoast_kathy
+photo.99.commitdate: 2020/3/2
+photo.99.link: https://www.instagram.com/westcoast_kathy/
+photo.99.tags: paws, portrait
+photo.100: ig://B8r78UvgqsY/m
+photo.100.author: westcoast_kathy
+photo.100.commitdate: 2020/3/2
+photo.100.link: https://www.instagram.com/westcoast_kathy/
+photo.100.tags: bamboo, portrait, tongue
+photo.101: ig://B8vIzAhgpNN/m
+photo.101.author: westcoast_kathy
+photo.101.commitdate: 2020/3/2
+photo.101.link: https://www.instagram.com/westcoast_kathy/
+photo.101.tags: bamboo, portrait, tongue
+photo.102: ig://B929h7eArDg/m
+photo.102.author: westcoast_kathy
+photo.102.commitdate: 2020/3/20
+photo.102.link: https://www.instagram.com/westcoast_kathy/
+photo.102.tags: bamboo, paws, whiskers
+photo.103: ig://B-s-PIJDG6S/m
+photo.103.author: westcoast_kathy
+photo.103.commitdate: 2020/5/9
+photo.103.link: https://www.instagram.com/westcoast_kathy/
+photo.103.tags: bamboo, paws, smile
+photo.104: ig://B-8EjMgAWWg/m
+photo.104.author: westcoast_kathy
+photo.104.commitdate: 2020/5/3
+photo.104.link: https://www.instagram.com/westcoast_kathy/
+photo.104.tags: portrait
+photo.105: ig://CBWxVNxDRyM/m
+photo.105.author: westcoast_kathy
+photo.105.commitdate: 2020/6/30
+photo.105.link: https://www.instagram.com/westcoast_kathy/
+photo.105.tags: bamboo, paws, portrait, whiskers
+photo.106: ig://CDriQVagp8s/m
+photo.106.author: westcoast_kathy
+photo.106.commitdate: 2020/8/22
+photo.106.link: https://www.instagram.com/westcoast_kathy/
+photo.106.tags: paws, portrait, smile, whiskers
+photo.107: ig://CDue3iJgZbc/m
+photo.107.author: westcoast_kathy
+photo.107.commitdate: 2020/8/22
+photo.107.link: https://www.instagram.com/westcoast_kathy/
+photo.107.tags: paws, portrait, tree
+photo.108: ig://CEUmXGkF0q9/m
+photo.108.author: greatervancouverzoo
+photo.108.commitdate: 2021/4/3
+photo.108.link: https://www.instagram.com/greatervancouverzoo/
+photo.108.tags: peek, smile, whiskers
+photo.109: ig://CFNITiHFaj6/m
+photo.109.author: greatervancouverzoo
+photo.109.commitdate: 2021/4/3
+photo.109.link: https://www.instagram.com/greatervancouverzoo/
+photo.109.tags: bamboo, portrait, whiskers
+photo.110: ig://CFQHyyxg1jd/m
+photo.110.author: westcoast_kathy
+photo.110.commitdate: 2020/9/27
+photo.110.link: https://www.instagram.com/westcoast_kathy/
+photo.110.tags: bamboo, close-up, smile, whiskers
+photo.111: ig://CFWEkH0g4tA/m
+photo.111.author: westcoast_kathy
+photo.111.commitdate: 2020/9/27
+photo.111.link: https://www.instagram.com/westcoast_kathy/
+photo.111.tags: bamboo, close-up, paws, smile
+photo.112: ig://CIWLhtyFkdo/m
+photo.112.author: greatervancouverzoo
+photo.112.commitdate: 2021/4/3
+photo.112.link: https://www.instagram.com/greatervancouverzoo/
+photo.112.tags: friends, peek
+photo.113: ig://CLVLdBFAajt/m
+photo.113.author: westcoast_kathy
+photo.113.commitdate: 2021/2/28
+photo.113.link: https://www.instagram.com/westcoast_kathy/
+photo.113.tags: paws, portrait, snow, tail
+photo.114: ig://CLk7BhlgLgQ/m
+photo.114.author: westcoast_kathy
+photo.114.commitdate: 2021/5/29
+photo.114.link: https://www.instagram.com/westcoast_kathy/
+photo.114.tags: bamboo, portrait, smile, whiskers
+photo.115: ig://CMQlSemAVzJ/m
+photo.115.author: westcoast_kathy
+photo.115.commitdate: 2021/4/3
+photo.115.link: https://www.instagram.com/westcoast_kathy/
+photo.115.tags: whiskers
+photo.116: ig://CMTce4NAzRb/m
+photo.116.author: westcoast_kathy
+photo.116.commitdate: 2021/4/3
+photo.116.link: https://www.instagram.com/westcoast_kathy/
+photo.116.tags: paws, playing, portrait, smile, snow, whiskers
+photo.117: ig://CN8v1z1A6le/m
+photo.117.author: westcoast_kathy
+photo.117.commitdate: 2021/5/19
+photo.117.link: https://www.instagram.com/westcoast_kathy/
+photo.117.tags: portrait, smile, whiskers
+photo.118: ig://CRkfOSnA_-Y/m
+photo.118.author: westcoast_kathy
+photo.118.commitdate: 2022/9/10
+photo.118.link: https://www.instagram.com/westcoast_kathy/
+photo.118.tags: bamboo, bite, portrait, sample, whiskers
+photo.119: ig://CRnUbluAUv9/m
+photo.119.author: westcoast_kathy
+photo.119.commitdate: 2022/9/10
+photo.119.link: https://www.instagram.com/westcoast_kathy/
+photo.119.tags: bamboo, bite, ice treat, shoots
+photo.120: ig://CSVEH8Hh_CK/m
+photo.120.author: westcoast_kathy
+photo.120.commitdate: 2022/9/10
+photo.120.link: https://www.instagram.com/westcoast_kathy/
+photo.120.tags: mofumofu, portrait, wet
+photo.121: ig://CSqHuKYFdTY/m
+photo.121.author: westcoast_kathy
+photo.121.commitdate: 2022/9/10
+photo.121.link: https://www.instagram.com/westcoast_kathy/
+photo.121.tags: bamboo, paws, sample, standing, whiskers
+photo.122: ig://CS5AP4zPWXU/m
+photo.122.author: westcoast_kathy
+photo.122.commitdate: 2022/9/10
+photo.122.link: https://www.instagram.com/westcoast_kathy/
+photo.122.tags: paws, peek
+photo.123: ig://CTDws8ml884/m
+photo.123.author: westcoast_kathy
+photo.123.commitdate: 2021/8/27
+photo.123.link: https://www.instagram.com/westcoast_kathy/
+photo.123.tags: mofumofu, tail, whiskers
+photo.124: ig://CTTOtieFhlI/m
+photo.124.author: westcoast_kathy
+photo.124.commitdate: 2022/9/10
+photo.124.link: https://www.instagram.com/westcoast_kathy/
+photo.124.tags: close-up, portrait, sample, tongue, whiskers
+photo.125: ig://CT3NUnXJ9vR/m
+photo.125.author: westcoast_kathy
+photo.125.commitdate: 2022/9/10
+photo.125.link: https://www.instagram.com/westcoast_kathy/
+photo.125.tags: sample, whiskers
+photo.126: ig://CUtYo7BldgO/m
+photo.126.author: westcoast_kathy
+photo.126.commitdate: 2022/9/10
+photo.126.link: https://www.instagram.com/westcoast_kathy/
+photo.126.tags: climb, paws, peek
+photo.127: ig://CV31sj8P0ry/m
+photo.127.author: westcoast_kathy
+photo.127.commitdate: 2021/11/15
+photo.127.link: https://www.instagram.com/westcoast_kathy/
+photo.127.tags: close-up, paws, whiskers
+photo.128: ig://CV6hrlfvoxD/m
+photo.128.author: westcoast_kathy
+photo.128.commitdate: 2021/11/10
+photo.128.link: https://www.instagram.com/westcoast_kathy/
+photo.128.tags: close-up, paws, smile, standing
+photo.129: ig://CWRjpzTPwzd/m
+photo.129.author: westcoast_kathy
+photo.129.commitdate: 2021/12/17
+photo.129.link: https://www.instagram.com/westcoast_kathy/
+photo.129.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.130: ig://CWURsR8PqW6/m
+photo.130.author: westcoast_kathy
+photo.130.commitdate: 2021/12/17
+photo.130.link: https://www.instagram.com/westcoast_kathy/
+photo.130.tags: close-up, mofumofu, paws, sample, whiskers
+photo.131: ig://CWjnaW4PwDw/m
+photo.131.author: westcoast_kathy
+photo.131.commitdate: 2022/9/15
+photo.131.link: https://www.instagram.com/westcoast_kathy/
+photo.131.tags: bamboo, peek, shoots, tail
+photo.132: ig://CXE4bjmP1bR/m
+photo.132.author: westcoast_kathy
+photo.132.commitdate: 2022/1/9
+photo.132.link: https://www.instagram.com/westcoast_kathy/
+photo.132.tags: peek, portrait, snow
+photo.133: ig://CXHoyYYPQ6g/m
+photo.133.author: westcoast_kathy
+photo.133.commitdate: 2022/1/9
+photo.133.link: https://www.instagram.com/westcoast_kathy/
+photo.133.tags: paws, snow, standing, whiskers
+photo.134: ig://westcoast_kathy/CXP-LtQL1pb/m
+photo.134.author: westcoast_kathy
+photo.134.commitdate: 2021/12/30
+photo.134.link: https://www.instagram.com/westcoast_kathy/
+photo.134.tags: snow, tongue, whiskers
+photo.135: ig://CYNKv_GPtSZ/m
+photo.135.author: westcoast_kathy
+photo.135.commitdate: 2022/1/14
+photo.135.link: https://www.instagram.com/westcoast_kathy/
+photo.135.tags: paws, standing
+photo.136: ig://CYPtNIfPhOt/m
+photo.136.author: westcoast_kathy
+photo.136.commitdate: 2022/1/14
+photo.136.link: https://www.instagram.com/westcoast_kathy/
+photo.136.tags: nose, peek, snow
+photo.137: ig://CYSMWSHvzXn/m
+photo.137.author: westcoast_kathy
+photo.137.commitdate: 2022/1/15
+photo.137.link: https://www.instagram.com/westcoast_kathy/
+photo.137.tags: portrait, sample, whiskers
+photo.138: ig://CZFxNsGvO23/m
+photo.138.author: westcoast_kathy
+photo.138.commitdate: 2022/4/5
+photo.138.link: https://www.instagram.com/westcoast_kathy/
+photo.138.tags: whiskers
+photo.139: ig://CZQMJZYP-d_/m
+photo.139.author: westcoast_kathy
+photo.139.commitdate: 2022/4/10
+photo.139.link: https://www.instagram.com/westcoast_kathy/
+photo.139.tags: close-up, laying down, sleeping
+photo.140: ig://CZvOUSaJvIS/m
+photo.140.author: westcoast_kathy
+photo.140.commitdate: 2022/2/11
+photo.140.link: https://www.instagram.com/westcoast_kathy/
+photo.140.tags: peek, portrait, sample, smile, whiskers
+photo.141: ig://CaD6z7IlMNA/m
+photo.141.author: westcoast_kathy
+photo.141.commitdate: 2022/3/29
+photo.141.link: https://www.instagram.com/westcoast_kathy/
+photo.141.tags: blink, portrait, tongue, whiskers
+photo.142: ig://CaP1OVAJ9ag/m
+photo.142.author: westcoast_kathy
+photo.142.commitdate: 2022/3/11
+photo.142.link: https://www.instagram.com/westcoast_kathy/
+photo.142.tags: bamboo, peek, portrait, tongue, whiskers
+photo.143: ig://CabWMTOr9m-/m
+photo.143.author: westcoast_kathy
+photo.143.commitdate: 2022/3/10
+photo.143.link: https://www.instagram.com/westcoast_kathy/
+photo.143.tags: laying down, mofumofu, paws, peek, portrait, whiskers
+photo.144: ig://Ca6KEEXrF64/m
+photo.144.author: westcoast_kathy
+photo.144.commitdate: 2022/4/5
+photo.144.link: https://www.instagram.com/westcoast_kathy/
+photo.144.tags: paws, peek, sample, whiskers
+photo.145: ig://CbBh2CFpfoE/m
+photo.145.author: westcoast_kathy
+photo.145.commitdate: 2022/3/20
+photo.145.link: https://www.instagram.com/westcoast_kathy/
+photo.145.tags: blink, nose, whiskers
+photo.146: ig://CbOwL7quyTS/m
+photo.146.author: westcoast_kathy
+photo.146.commitdate: 2022/3/20
+photo.146.link: https://www.instagram.com/westcoast_kathy/
+photo.146.tags: bamboo, close-up, paws, whiskers
+photo.147: ig://CdE4r48pmCt/m
+photo.147.author: westcoast_kathy
+photo.147.commitdate: 2022/8/25
+photo.147.link: https://www.instagram.com/westcoast_kathy/
+photo.147.tags: bamboo, peek, sample
+photo.148: ig://Chlb9OFrdj_/m
+photo.148.author: westcoast_kathy
+photo.148.commitdate: 2022/8/26
+photo.148.link: https://www.instagram.com/westcoast_kathy/
+photo.148.tags: paws, sample, whiskers
+species: 2
+studbook.id: 1444
+zoo: 86

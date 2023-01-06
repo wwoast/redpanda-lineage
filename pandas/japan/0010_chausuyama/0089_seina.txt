@@ -1,0 +1,37 @@
+[panda]
+_id: 89
+birthday: 2000/6/25
+birthplace: 10
+children: 1245, 1242, 1243, 1244, 54, 291, 487, 104, 108, 86, 87, 186, 1246, 88
+commitdate: 2018/6/23
+death: 2017/2/17
+en.name: Seina
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 星奈
+jp.nicknames: none
+jp.othernames: セイナ
+language.order: jp, en
+litter: 440
+photo.1: ig://BO8BNSOjBoO/m
+photo.1.author: no_life_no_zoo
+photo.1.commitdate: 2018/7/19
+photo.1.link: https://www.instagram.com/no_life_no_zoo/
+photo.2: ig://BPgSCJGD-Oh/m
+photo.2.author: takashi_8310iyo
+photo.2.commitdate: 2018/7/19
+photo.2.link: https://www.instagram.com/takashi_8310iyo/
+photo.2.tags: bamboo, profile, tongue, techitechi
+photo.3: ig://BQh1KAtDeme/m
+photo.3.author: rdpnzoo
+photo.3.commitdate: 2018/7/19
+photo.3.link: https://www.instagram.com/rdpnzoo/
+photo.4: ig://BQnXU3wF2iC/m
+photo.4.author: rdpnzoo
+photo.4.commitdate: 2019/6/19
+photo.4.link: https://www.instagram.com/rdpnzoo/
+photo.4.tags: grumpy
+species: 2
+studbook.id: 0086
+zoo: 10

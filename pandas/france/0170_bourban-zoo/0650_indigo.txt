@@ -1,0 +1,30 @@
+[panda]
+_id: 650
+birthday: 2014/6/15
+birthplace: 135
+children: none
+commitdate: 2019/3/19
+en.name: Indigo
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 藍
+jp.nicknames: none
+jp.othernames: インジゴ
+language.order: en, jp
+litter: none
+location.1: 135, 2014/6/15
+location.2: 170, 2015/6/16
+photo.1: ig://s967_RCQ9C/m
+photo.1.author: zslwhipsnadezoo
+photo.1.commitdate: 2019/10/17
+photo.1.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.1.tags: baby, portrait, profile, white face
+photo.2: ig://t74RVAiQ2R/m
+photo.2.author: zslwhipsnadezoo
+photo.2.commitdate: 2019/10/17
+photo.2.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.2.tags: baby, home, portrait, techitechi
+species: 2
+studbook.id: 14102
+zoo: 170

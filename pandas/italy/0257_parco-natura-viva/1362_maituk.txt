@@ -1,0 +1,70 @@
+[panda]
+_id: 1362
+birthday: 2011/6/26
+birthplace: 247
+children: 1365, 1366
+commitdate: 2022/5/22
+en.name: Maitük
+en.nicknames: none
+en.othernames: Maituk
+gender: m
+jp.name: マイトゥク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1363
+location.1: 247, 2011/6/26
+location.2: 257, 2012/6/20
+photo.1: ig://CVSqx4As76p/m
+photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/5/30
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: laying down, portrait, profile, sample, tree
+photo.2: ig://CXawCzwqcOt/m
+photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/5/30
+photo.2.link: https://www.instagram.com/seelviahhtaz/
+photo.2.tags: bridge, laying down, tree, whiskers
+photo.3: ig://CXe-FFYqirF/m
+photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/5/30
+photo.3.link: https://www.instagram.com/seelviahhtaz/
+photo.3.tags: close-up
+photo.4: ig://CYbtNKSqttz/m
+photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/5/30
+photo.4.link: https://www.instagram.com/seelviahhtaz/
+photo.4.tags: tree, whiskers
+photo.5: ig://CZ0GneVspDV/m
+photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/5/30
+photo.5.link: https://www.instagram.com/seelviahhtaz/
+photo.5.tags: close-up, sample, whiskers
+photo.6: ig://CdyPLwDt3zy/m
+photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/5/30
+photo.6.link: https://www.instagram.com/seelviahhtaz/
+photo.6.tags: peek, whiskers
+photo.7: ig://CehyQ0UIw6H/m
+photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/12/10
+photo.7.link: https://www.instagram.com/seelviahhtaz/
+photo.7.tags: mofumofu, peek, whiskers
+photo.8: ig://CeyRRKdMnnQ/m
+photo.8.author: seelviahhtaz
+photo.8.commitdate: 2022/12/10
+photo.8.link: https://www.instagram.com/seelviahhtaz/
+photo.8.tags: bamboo, close-up, sample, whiskers
+photo.9: ig://CfRT0DFtmi7/m
+photo.9.author: seelviahhtaz
+photo.9.commitdate: 2022/12/10
+photo.9.link: https://www.instagram.com/seelviahhtaz/
+photo.9.tags: mofumofu, peek, tree
+photo.10: ig://Chaz0TrNVjy/m
+photo.10.author: seelviahhtaz
+photo.10.commitdate: 2022/8/18
+photo.10.link: https://www.instagram.com/seelviahhtaz/
+photo.10.tags: laying down, sample, tree
+species: 1
+studbook.id: 1162
+zoo: 257

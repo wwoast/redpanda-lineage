@@ -1,0 +1,21 @@
+[zoo]
+_id: 77
+commitdate: 2018/10/18
+en.address: 702 S Randall Ave, Madison, WI 53715
+en.location: Madison, Wisconsin, USA
+en.name: Henry Vilas Zoo
+en.othernames: Henry Vilas
+flag: USA
+language.order: en
+latitude: 43.0606143
+longitude: -89.4122236
+map: https://goo.gl/maps/eNq2cY1kKNu
+photo.1: ig://B4XD5jpjZ3s/m
+photo.1.author: henryvilaszoo
+photo.1.commitdate: 2020/9/4
+photo.1.link: https://www.instagram.com/henryvilaszoo/
+photo.2: ig://B4w-2mBDAD8/m
+photo.2.author: henryvilaszoo
+photo.2.commitdate: 2020/9/4
+photo.2.link: https://www.instagram.com/henryvilaszoo/
+website: http://www.vilaszoo.org/

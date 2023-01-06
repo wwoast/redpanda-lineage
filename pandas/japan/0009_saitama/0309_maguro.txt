@@ -1,0 +1,41 @@
+[panda]
+_id: 309
+birthday: 2002/7/2
+birthplace: 17
+children: 129, 30, 20, 77, 313, 321, 314, 322
+commitdate: 2018/8/19
+death: 2007/8/5
+en.name: Maguro
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マグロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 303
+location.1: 17, 2002/7/2
+location.2: 9, 2003/11/17
+photo.1: https://www.codaworry.com/images/rpf/maguro-1-saitama.jpg
+photo.1.author: redpandamaniax
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://redpandamaniax.blog59.fc2.com/blog-entry-269.html
+photo.1.tags: bamboo
+photo.2: https://www.codaworry.com/images/rpf/maguro-2-saitama.jpg
+photo.2.author: gachon_kudo
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://gachon.exblog.jp/i12/
+photo.2.tags: flowers, smile, tongue
+photo.3: https://www.codaworry.com/images/rpf/maguro-3-saitama.jpg
+photo.3.author: redpandamaniax
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://redpandamaniax.blog59.fc2.com/blog-entry-269.html
+photo.3.tags: climb, tree
+photo.4: https://www.codaworry.com/images/rpf/maguro-4-saitama.jpg
+photo.4.author: redpandamaniax
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://redpandamaniax.blog59.fc2.com/blog-entry-269.html
+photo.4.tags: bamboo, profile
+species: 2
+studbook.id: 0277
+zoo: 9

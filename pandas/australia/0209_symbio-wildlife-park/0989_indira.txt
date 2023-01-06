@@ -1,0 +1,50 @@
+[panda]
+_id: 989
+birthday: 2005/12/15
+birthplace: 207
+children: unknown
+commitdate: 2019/8/29
+en.name: Indira
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: インディラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 207, 2005/12/15
+location.2: 210, 2008/6/4
+location.3: 209, 2012/6/19
+photo.1: ig://-LivDAFhff/m
+photo.1.author: symbiowildlifepark
+photo.1.commitdate: 2019/8/29
+photo.1.link: https://www.instagram.com/symbiowildlifepark/
+photo.1.tags: peek, tree
+photo.2: ig://-XSxBnFhdP/m
+photo.2.author: symbiowildlifepark
+photo.2.commitdate: 2019/8/29
+photo.2.link: https://www.instagram.com/symbiowildlifepark/
+photo.2.tags: portrait, whiskers, white face
+photo.3: ig://-8QdAtlhUN/m
+photo.3.author: symbiowildlifepark
+photo.3.commitdate: 2019/8/29
+photo.3.link: https://www.instagram.com/symbiowildlifepark/
+photo.3.tags: peek, portrait, white face
+photo.4: ig://BCOSQ84lhVj/m
+photo.4.author: symbiowildlifepark
+photo.4.commitdate: 2019/8/29
+photo.4.link: https://www.instagram.com/symbiowildlifepark/
+photo.4.tags: lunch time, portrait
+photo.5: ig://BCpEWk1FhWa/m
+photo.5.author: symbiowildlifepark
+photo.5.commitdate: 2019/8/29
+photo.5.link: https://www.instagram.com/symbiowildlifepark/
+photo.5.tags: portrait, profile, smile
+photo.6: ig://BC9YzevlhZW/m
+photo.6.author: symbiowildlifepark
+photo.6.commitdate: 2019/8/29
+photo.6.link: https://www.instagram.com/symbiowildlifepark/
+photo.6.tags: lunch time, portrait
+species: 1
+zoo: 209

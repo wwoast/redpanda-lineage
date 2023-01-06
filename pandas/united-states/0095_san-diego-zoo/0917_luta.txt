@@ -1,0 +1,21 @@
+[panda]
+_id: 917
+birthday: 1994/6/23
+birthplace: 115
+children: none
+commitdate: 2019/7/2
+death: 2008/12/1
+en.name: Luta
+en.nicknames: none
+en.othernames: Luda
+gender: f
+jp.name: ルダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 916
+location.1: 115, 1994/6/23
+location.2: 161, 1995/3/24
+location.3: 95, 1997/2/6
+species: 1
+zoo: 95

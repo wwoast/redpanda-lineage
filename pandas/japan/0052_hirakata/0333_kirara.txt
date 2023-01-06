@@ -1,0 +1,21 @@
+[panda]
+_id: 333
+birthday: 2002/6/29
+birthplace: 13
+children: none
+commitdate: 2018/9/8
+death: 2013/4/23
+en.name: Kirara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キララ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 2002/6/29
+location.2: 52, 2004/6/4
+species: 2
+studbook.id: 0270
+zoo: 52

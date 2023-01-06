@@ -1,0 +1,36 @@
+[panda]
+_id: 652
+birthday: 2013/7/20
+birthplace: 126
+children: 579, 687, 688, 689
+commitdate: 2019/3/19
+en.name: Hamlet
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ハムレット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 525
+location.1: 126, 2013/7/20
+location.2: 131, 2015/2/14
+location.3: 163, 2018/5/3
+photo.1: ig://zK8pi3ykI7/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, white face
+photo.2: ig://BvaOYm6hUVY/m
+photo.2.author: deerjerk
+photo.2.commitdate: 2019/7/15
+photo.2.link: https://www.instagram.com/deerjerk/
+photo.2.tags: apple time
+photo.3: ig://zK8w4uykJK/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2020/1/22
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait, white face
+species: 1
+studbook.id: 1354
+zoo: 163

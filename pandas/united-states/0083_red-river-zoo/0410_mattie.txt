@@ -1,0 +1,39 @@
+[panda]
+_id: 410
+birthday: 2013/6/14
+birthplace: 83
+children: none
+commitdate: 2018/11/23
+death: 2018/2/7
+en.name: Mattie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マッティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://cw4O97Hs1I/m
+photo.1.author: zooborns
+photo.1.commitdate: 2020/2/7
+photo.1.link: https://www.instagram.com/zooborns/
+photo.1.tags: baby, portrait
+photo.2: ig://goNCtzPsDI/m
+photo.2.author: rrzoogal
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/rrzoogal/
+photo.2.tags: baby
+photo.3: ig://5ZhX9OykFi/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: profile, smile
+photo.4: ig://BY6lcrWgmmR/m
+photo.4.author: michael.boom
+photo.4.commitdate: 2020/2/3
+photo.4.link: https://www.instagram.com/michael.boom/
+photo.4.tags: bamboo, portrait, tail
+species: 2
+studbook.id: 1329
+zoo: 83

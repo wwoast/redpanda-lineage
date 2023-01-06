@@ -1,0 +1,29 @@
+[zoo]
+_id: 98
+closed: 2016/6/23
+commitdate: 2018/11/26
+en.address: República de la India, C1425 CABA, Argentina
+en.location: Buenos Aires, Argentina
+en.name: Buenos Aires Eco-Park
+es.address: República de la India, C1425 CABA, Argentina
+es.location: Buenos Aires, Argentina
+es.name: Ecoparque Interactivo de Buenos Aires
+flag: Argentina
+language.order: es, en, jp
+latitude: -34.5781333
+longitude: -58.4853221
+map: https://goo.gl/maps/LtEhMY2XMbJ2
+photo.1: ig://Br35fPCHyrH/m
+photo.1.author: mibaquerido
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/mibaquerido/
+photo.1.tags: profile
+photo.2: ig://BtMlZYXFbO7/m
+photo.2.author: ph.acubrito
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/ph.acubrito/
+photo.3: ig://Bwj7ErfHqZ6/m
+photo.3.author: friquiqui
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/friquiqui/
+website: http://www.buenosaires.gob.ar/ecoparque

@@ -1,0 +1,57 @@
+[panda]
+_id: 575
+birthday: 2009/7/7
+birthplace: 124
+children: 1127, 1128, 1129
+commitdate: 2019/3/12
+death: 2020/9/1
+en.name: Ernie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: アーニー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 124, 2009/7/7
+location.2: 116, 2010/4/15
+photo.1: ig://BPdksKnDkWc/m
+photo.1.author: millerparkzoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/millerparkzoo/
+photo.1.tags: bamboo, portrait
+photo.2: ig://BPxd9fajiKV/m
+photo.2.author: millerparkzoo
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/millerparkzoo/
+photo.2.tags: portrait, tail
+photo.3: ig://BZGpsarBmIV/m
+photo.3.author: millerparkzoo
+photo.3.commitdate: 2019/3/12
+photo.3.link: https://www.instagram.com/millerparkzoo/
+photo.3.tags: laying down, portrait
+photo.4: ig://BqH9L7oBg7V/m
+photo.4.author: millerparkzoo
+photo.4.commitdate: 2019/12/5
+photo.4.link: https://www.instagram.com/millerparkzoo/
+photo.4.tags: dish, lunch time, portrait, smile, snow
+photo.5: ig://Bul-2HchYoz/m
+photo.5.author: millerparkzoo
+photo.5.commitdate: 2019/3/12
+photo.5.link: https://www.instagram.com/millerparkzoo/
+photo.5.tags: bamboo, paws, portrait
+photo.6: ig://BydPx2wFQ0Q/m
+photo.6.author: millerparkzoo
+photo.6.commitdate: 2020/3/20
+photo.6.link: https://www.instagram.com/millerparkzoo/
+photo.6.tags: close-up, portrait, profile, whiskers
+photo.7: ig://CDePjR8FKRg/m
+photo.7.author: millerparkzoo
+photo.7.commitdate: 2020/9/6
+photo.7.link: https://www.instagram.com/millerparkzoo/
+photo.7.tags: climb, paws, portrait
+species: 1
+studbook.id: 0913
+uncertainty: death exact date (google form info from 9/28/20)
+zoo: 116

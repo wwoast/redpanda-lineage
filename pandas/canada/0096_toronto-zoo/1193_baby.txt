@@ -1,0 +1,18 @@
+[panda]
+_id: 1193
+birthday: 2020/7/14
+birthplace: 96
+children: none
+commitdate: 2020/7/17
+death: 2020/7/22
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1194
+species: 2
+zoo: 96

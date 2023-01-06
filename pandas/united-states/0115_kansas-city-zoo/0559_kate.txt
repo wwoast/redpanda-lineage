@@ -1,0 +1,45 @@
+[panda]
+_id: 559
+birthday: 2015/6/7
+birthplace: 114
+children: 1221, 1222, 1223
+commitdate: 2019/3/10
+en.name: Kate
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケイト
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 577
+location.1: 114, 2015/6/7
+location.2: 115, 2016/4/13
+photo.1: ig://BU-MXojFxm-/m
+photo.1.author: kansascityzoo
+photo.1.commitdate: 2019/12/5
+photo.1.link: https://www.instagram.com/kansascityzoo/
+photo.1.tags: portrait, white face
+photo.2: ig://BqAHGiYB2QS/m
+photo.2.author: kansascityzooaazk
+photo.2.commitdate: 2020/9/19
+photo.2.link: https://www.instagram.com/kansascityzooaazk/
+photo.2.tags: bamboo, tongue, videolink
+photo.3: ig://BzoIb5ohML6/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/7/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait, profile, white face
+photo.4: ig://B3AVx1cBImG/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/10/12
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: laying down, paws
+photo.5: ig://B5bYZ7uBV1p/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/11/29
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: dish, lunch time, portrait
+species: 1
+studbook.id: 1507
+zoo: 115

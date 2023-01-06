@@ -1,0 +1,22 @@
+[panda]
+_id: 1166
+birthday: 2013/7/2
+birthplace: 214
+children: unknown
+commitdate: 2020/5/18
+en.name: Pabu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: パブ
+jp.nicknames: none
+jp.othernames: none
+language.order: pl, en, jp
+litter: 1167
+location.1: 214, 2013/7/2
+location.2: 200, 2014/9/5
+pl.name: Pabu
+pl.nicknames: none
+pl.othernames: none
+species: 1
+zoo: 200

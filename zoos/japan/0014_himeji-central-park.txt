@@ -1,0 +1,36 @@
+[zoo]
+_id: 14
+commitdate: 2018/6/15
+en.address: １４３４ Toyotomicho Kodani, Himeji, Hyōgo Prefecture 679-2121, Japan
+en.location: Himeji, Hyōgo Prefecture, Japan
+en.name: Himeji Central Park
+flag: Japan
+jp.address: 〒679-2121 兵庫県姫路市豊富町神谷１４３４
+jp.location: 姫路市 兵庫県
+jp.name: 姫路セントラルパーク
+language.order: jp, en
+latitude: 34.8710334
+longitude: 134.7621733
+map: https://goo.gl/maps/QLH8LsUtgm42
+photo.1: ig://B4D7esaAs7O/m
+photo.1.author: s24.star_load
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/s24.star_load/
+photo.2: ig://B2GxWmdBQO_/m
+photo.2.author: hcpsafari
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/hcpsafari/
+photo.3: ig://B2lX87VBN54/m
+photo.3.author: hcpsafari
+photo.3.commitdate: 2019/11/2
+photo.3.link: https://www.instagram.com/hcpsafari/
+photo.3.tags: profile
+photo.4: ig://B2nHGiRhlRI/m
+photo.4.author: jetcoasterotoko
+photo.4.commitdate: 2019/11/2
+photo.4.link: https://www.instagram.com/jetcoasterotoko/
+photo.5: ig://B5NiDGEBznc/m
+photo.5.author: kipekaila
+photo.5.commitdate: 2019/11/24
+photo.5.link: https://www.instagram.com/kipekaila/
+website: http://www.central-park.co.jp/

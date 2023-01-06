@@ -1,0 +1,40 @@
+[panda]
+_id: 863
+birthday: 2008/6/28
+birthplace: 141
+children: 865
+commitdate: 2019/6/9
+death: 2016/8/23
+en.name: Clay
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クレー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 817
+location.1: 141, 2008/6/28
+location.2: 177, 2009/5/3
+photo.1: ig://BKk2CZ_hCDy/m
+photo.1.author: picturedecatur
+photo.1.commitdate: 2019/6/9
+photo.1.link: https://www.instagram.com/picturedecatur/
+photo.1.tags: laying down
+photo.2: ig://BHsteTPgPhB/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/6/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: laying down
+photo.3: ig://abNXj_pI4U/m
+photo.3.author: hughmsullivan
+photo.3.commitdate: 2019/6/9
+photo.3.link: https://www.instagram.com/hughmsullivan/
+photo.3.tags: profile
+photo.4: ig://BKl0BgHgYrl/m
+photo.4.author: hughmsullivan
+photo.4.commitdate: 2019/11/7
+photo.4.link: https://www.instagram.com/hughmsullivan/
+species: 1
+studbook.id: 0812
+zoo: 177

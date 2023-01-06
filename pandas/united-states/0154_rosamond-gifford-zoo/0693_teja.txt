@@ -1,0 +1,21 @@
+[panda]
+_id: 693
+birthday: 2012/6/17
+birthplace: 179
+children: unknown
+commitdate: 2019/3/25
+death: 2015/10/28
+en.name: Teja
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: テジャ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 694
+location.1: 179, 2012/6/17
+location.2: 154, 2013/5/1
+species: 1
+studbook.id: 1208
+zoo: 154

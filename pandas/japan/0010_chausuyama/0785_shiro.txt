@@ -1,0 +1,19 @@
+[panda]
+_id: 785
+birthday: 1992/7/1
+birthplace: 10
+children: none
+commitdate: 2019/4/3
+death: 2006/1/20
+en.name: Shiro
+en.nicknames: none
+en.othernames: Siro
+gender: m
+jp.name: シロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 786, 787
+species: 2
+studbook.id: 9266
+zoo: 10

@@ -1,0 +1,19 @@
+[zoo]
+_id: 27
+commitdate: 2018/6/20
+en.address: 19-３ Ichibancho, Mishima, Shizuoka Prefecture 411-0036, Japan
+en.location: Mishima, Shizuoka Prefecture, Japan
+en.name: Mishima Rakujuen Park
+flag: Japan
+jp.address: 〒411-0036 静岡県三島市一番町１９−３
+jp.location: 三島市 静岡県
+jp.name: 三島市立公園 楽寿園
+language.order: jp, en
+latitude: 35.1248786
+longitude: 138.9087188
+map: https://goo.gl/maps/y26QhbPcexm
+photo.1: ig://BkfNFtWDa1u/m
+photo.1.author: y_pierrot
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/y_pierrot/
+website: https://www.city.mishima.shizuoka.jp/rakujyu/

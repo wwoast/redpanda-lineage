@@ -1,0 +1,61 @@
+[panda]
+_id: 1236
+birthday: 2011/6/24
+birthplace: 267
+children: 1240
+cn.name: 凯
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/11/26
+death: 2017/7/12
+en.name: Ambrus
+en.nicknames: none
+en.othernames: Kai, Ambruus
+gender: m
+hu.name: Ambrus
+hu.nicknames: none
+hu.othernames: none
+jp.name: アンブルス
+jp.nicknames: none
+jp.othernames: カイ
+language.order: hu, en, cn
+litter: unknown
+location.1: 267, 2011/6/24
+location.2: 265, 2012/11/7
+photo.1: ig://CEmf1BkJVlq/m
+photo.1.author: balathruin
+photo.1.commitdate: 2020/11/26
+photo.1.link: https://www.instagram.com/balathruin/
+photo.1.tags: ear, nose, eye, tree
+photo.2: ig://CEovf9hJ0oK/m
+photo.2.author: balathruin
+photo.2.commitdate: 2020/11/26
+photo.2.link: https://www.instagram.com/balathruin/
+photo.2.tags: ear, nose, eye, bamboo, muzzle
+photo.3: ig://CEpLQgKpK-_/m
+photo.3.author: balathruin
+photo.3.commitdate: 2020/11/26
+photo.3.link: https://www.instagram.com/balathruin/
+photo.3.tags: ear, tree, climb
+photo.4: ig://CEsOhLcJMzL/m
+photo.4.author: balathruin
+photo.4.commitdate: 2020/11/26
+photo.4.link: https://www.instagram.com/balathruin/
+photo.4.tags: ear, nose, tail
+photo.5: ig://CExQpjLJOmn/m
+photo.5.author: balathruin
+photo.5.commitdate: 2020/11/26
+photo.5.link: https://www.instagram.com/balathruin/
+photo.5.tags: ear, nose, eye, tree
+photo.6: ig://CE1vfNZBQa0/m
+photo.6.author: balathruin
+photo.6.commitdate: 2020/11/26
+photo.6.link: https://www.instagram.com/balathruin/
+photo.6.tags: ear, nose, eye, bamboo, muzzle, bite
+photo.7: ig://CHVPlcDhvj2/m
+photo.7.author: balathruin
+photo.7.commitdate: 2020/11/26
+photo.7.link: https://www.instagram.com/balathruin/
+photo.7.tags: ear, nose, tail
+species: 1
+zoo: 265

@@ -1,0 +1,18 @@
+[panda]
+_id: 1180
+birthday: 2005/7/4
+birthplace: 33
+children: 464 1/2, 1183 1/2
+commitdate: 2020/6/18
+death: 2011/2/24
+en.name: Ringo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: リンゴ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1181
+species: 2
+zoo: 33

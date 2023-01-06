@@ -1,0 +1,31 @@
+[panda]
+_id: 448
+birthday: 2011/6/13
+birthplace: 76
+children: none
+commitdate: 2018/11/24
+en.name: Phoenix
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フェニックス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 400
+location.1: 76, 2011/6/13
+location.2: 106, 2013/11/18
+location.3: 68, 2017/10/1
+photo.1: ig://BZRIHGflqkj/m
+photo.1.author: safariniagra
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/safariniagara/
+photo.1.tags: bamboo
+photo.2: ig://BRTXnpcDGPF/m
+photo.2.author: derek.elvin
+photo.2.commitdate: 2018/11/24
+photo.2.link: https://www.instagram.com/derek.elvin/
+photo.2.tags: bamboo, profile
+species: 2
+studbook.id: 1131
+zoo: 68

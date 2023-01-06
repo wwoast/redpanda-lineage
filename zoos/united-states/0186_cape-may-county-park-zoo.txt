@@ -1,0 +1,24 @@
+[zoo]
+_id: 186
+commitdate: 2019/4/6
+en.address: 707 U.S. 9, Cape May Court House, NJ 08210
+en.location: Middle Township, New Jersey, USA
+en.name: Cape May County Park & Zoo
+flag: USA
+language.order: en
+latitude: 39.101968
+longitude: -74.8134187
+map: https://goo.gl/maps/vGHLYKq7jrK2
+photo.1: ig://B1XXxB7gjU4/m
+photo.1.author: micokeeper
+photo.1.commitdate: 2020/2/16
+photo.1.link: https://www.instagram.com/micokeeper/
+photo.2: ig://B104acwA3q5/m
+photo.2.author: micokeeper
+photo.2.commitdate: 2020/2/17
+photo.2.link: https://www.instagram.com/micokeeper/
+photo.3: ig://B2dVI5spUDW/m
+photo.3.author: i_4photography
+photo.3.commitdate: 2020/2/17
+photo.3.link: https://www.instagram.com/i_4photography/
+website: https://www.capemaycountynj.gov/1008/Park-Zoo

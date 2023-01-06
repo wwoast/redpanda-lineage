@@ -1,0 +1,12 @@
+[zoo]
+_id: 162
+commitdate: 2019/3/19
+en.address: 2918 W Capitol St, Jackson, MS 39209, USA
+en.location: Jackson, Mississippi, USA
+en.name: Jackson Zoological Park
+flag: USA
+language.order: en
+latitude: 32.3200276
+longitude: -90.2267222
+map: https://goo.gl/maps/WfAcCW6qSpx
+website: https://jacksonzoo.org/

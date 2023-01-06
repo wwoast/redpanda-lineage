@@ -1,0 +1,25 @@
+[panda]
+_id: 1071
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 橘
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/12/2
+en.name: Orange
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 橘
+jp.nicknames: none
+jp.othernames: タチバナ
+language.order: cn, en, jp
+litter: unknown
+photo.1: ig://B8ZRjf7BdGS/m
+photo.1.author: mkr0369
+photo.1.commitdate: 2020/2/17
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: bamboo, profile, smile
+species: 2
+zoo: 236

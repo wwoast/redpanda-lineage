@@ -1,0 +1,61 @@
+[panda]
+_id: 424
+birthday: 2008/5/25
+birthplace: 76
+children: 423
+commitdate: 2018/11/23
+en.name: Ralphie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラルフィー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 76, 2008/5/25
+location.2: 82, 2009/12/9
+location.3: 96, 2012/11/14
+location.4: 229, 2019/6/1
+photo.1: ig://BWoV1vtAt5F/m
+photo.1.author: sketchpoet
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/sketchpoet/
+photo.2: ig://Bnu5vHEhaau/m
+photo.2.author: rossifari
+photo.2.commitdate: 2018/11/23
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: profile, smile
+photo.3: ig://Bpr52iJHcgF/m
+photo.3.author: dr_wildlife
+photo.3.commitdate: 2018/12/14
+photo.3.link: https://www.instagram.com/dr_wildlife/
+photo.3.tags: tree
+photo.4: ig://BqvCOI9FBmR/m
+photo.4.author: markbernards3
+photo.4.commitdate: 2018/12/17
+photo.4.link: https://www.instagram.com/markbernards3/
+photo.4.tags: bamboo
+photo.5: https://www.codaworry.com/images/rpf/ralphie-1-saint-felicien.jpg
+photo.5.author: Gimmy Desbiens
+photo.5.commitdate: 2019/12/31
+photo.5.link: https://www.lequotidien.com/actualites/le-pere-noel-visite-le-zoo-sauvage-de-saint-felicien-e846a1b32e5636482a5317643a7a26fb
+photo.5.tags: apple time, snow
+photo.6: ig://B_e-kCMjvMv/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/5/4
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: apple time, paws, portrait
+photo.7: ig://CC6rHtHHUG-/m
+photo.7.author: zoosauvageofficiel
+photo.7.commitdate: 2021/5/3
+photo.7.link: https://www.instagram.com/zoosauvageofficiel/
+photo.7.tags: bridge, portrait, whiskers
+photo.8: ig://CFaZfXoHwq1/m
+photo.8.author: zoosauvageofficiel
+photo.8.commitdate: 2021/5/3
+photo.8.link: https://www.instagram.com/zoosauvageofficiel/
+photo.8.tags: portrait, whiskers
+species: 2
+studbook.id: 0826
+zoo: 229

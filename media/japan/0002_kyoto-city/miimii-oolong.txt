@@ -1,0 +1,25 @@
+[media]
+_id: media.2.miimii-oolong
+commitdate: 2021/6/29
+panda.tags: 15, 234
+photo.1: ig://CK44NbdhEqU/l
+photo.1.author: akiakiakiko18
+photo.1.commitdate: 2021/6/29
+photo.1.link: https://www.instagram.com/akiakiakiko18/
+photo.1.tags: bamboo, couple
+photo.1.tags.15.location: 125, 200
+photo.1.tags.234.location: 390, 180
+photo.2: ig://CLJyjHRBbOP/l
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2021/6/29
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: bamboo, couple
+photo.2.tags.15.location: 80, 205
+photo.2.tags.234.location: 380, 180
+photo.3: ig://CLeLTe8hUwh/l
+photo.3.author: jas_forever_love
+photo.3.commitdate: 2021/6/29
+photo.3.link: https://www.instagram.com/jas_forever_love/
+photo.3.tags: couple, home
+photo.3.tags.15.location: 140, 330
+photo.3.tags.234.location: 255, 140

@@ -1,0 +1,12 @@
+[zoo]
+_id: 272
+commitdate: 2021/1/4
+en.address: Hellbrunnerstraße 60, 5081 Anif, Austria
+en.location: Salzburg, Austria
+en.name: Salzburg Zoo Hellbrunn
+flag: Austria
+language.order: en
+latitude: 47.7568245
+longitude: 13.0641711
+map: https://g.page/ZooSalzburgHellbrunn?share
+website: https://www.salzburg-zoo.at/

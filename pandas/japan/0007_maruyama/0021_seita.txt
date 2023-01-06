@@ -1,0 +1,1295 @@
+[panda]
+_id: 21
+birthday: 2005/6/23
+birthplace: 10
+children: 60, 198, 17, 22, 58
+commitdate: 2018/6/10
+en.name: Seita
+en.nicknames: Crafty
+en.othernames: none
+gender: m
+jp.name: セイタ
+jp.nicknames: none
+jp.othernames: 星太
+language.order: jp, en
+litter: 31, 82
+location.1: 10, 2005/6/23
+location.2: 7, 2008/6/28
+photo.1: ig://BSqlu-rgwJc/m
+photo.1.author: mari_neko3
+photo.1.commitdate: 2018/12/22
+photo.1.link: https://www.instagram.com/mari_neko3/
+photo.1.tags: portrait, smile, techitechi
+photo.2: ig://BTgq8-XAprb/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/6/19
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: apple time, dish, tail
+photo.3: ig://BT856kJAvZe/m
+photo.3.author: mifko55
+photo.3.commitdate: 2020/6/19
+photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: blink, portrait, smile
+photo.4: ig://BbD4AuwnbIl/m
+photo.4.author: cattail.sapporo
+photo.4.commitdate: 2018/7/17
+photo.4.link: https://www.instagram.com/cattail.sapporo/
+photo.4.tags: apple time, keeper, portrait
+photo.5: ig://Bbn3iMpnz4C/m
+photo.5.author: cattail.sapporo
+photo.5.commitdate: 2018/7/28
+photo.5.link: https://www.instagram.com/cattail.sapporo/
+photo.5.tags: bamboo, portrait
+photo.6: ig://BculPPMF3C3/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2020/6/19
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: climb, portrait
+photo.7: ig://BhXd7jTnJC5/m
+photo.7.author: cattail.sapporo
+photo.7.commitdate: 2018/7/28
+photo.7.link: https://www.instagram.com/cattail.sapporo/
+photo.7.tags: paws, portrait
+photo.8: ig://BjIpgeUgbsc/m
+photo.8.author: cattail.sapporo
+photo.8.commitdate: 2018/7/17
+photo.8.link: https://www.instagram.com/cattail.sapporo/
+photo.8.tags: portrait, sleeping
+photo.9: ig://BlxiDnwH5Jq/m
+photo.9.author: cattail.sapporo
+photo.9.commitdate: 2018/7/28
+photo.9.link: https://www.instagram.com/cattail.sapporo/
+photo.9.tags: dish, portrait
+photo.10: ig://BnqmyflFgR1/m
+photo.10.author: leonard_redmof
+photo.10.commitdate: 2021/5/29
+photo.10.link: https://www.instagram.com/leonard_redmof/
+photo.10.tags: apple time, bridge, keeper, portrait
+photo.11: ig://BoiUY9vn1Cb/m
+photo.11.author: cattail.sapporo
+photo.11.commitdate: 2018/10/6
+photo.11.link: https://www.instagram.com/cattail.sapporo/
+photo.11.tags: pull-up, snow
+photo.12: ig://Bo1NYBSF4yW/m
+photo.12.author: nishicotolo
+photo.12.commitdate: 2018/10/12
+photo.12.link: https://www.instagram.com/nishicotolo/
+photo.13: ig://Bo37rKQFkVH/m
+photo.13.author: mofu_pan
+photo.13.commitdate: 2018/10/13
+photo.13.link: https://www.instagram.com/mofu_pan/
+photo.13.tags: laying down
+photo.14: ig://BpEpW7fFD0P/m
+photo.14.author: mofu_pan
+photo.14.commitdate: 2018/10/18
+photo.14.link: https://www.instagram.com/mofu_pan/
+photo.14.tags: grooming
+photo.15: ig://BpJNvfPF6kX/m
+photo.15.author: ho0oipo
+photo.15.commitdate: 2018/10/20
+photo.15.link: https://www.instagram.com/ho0oipo/
+photo.15.tags: laying down
+photo.16: ig://BqKLpkJlBYK/m
+photo.16.author: nishicotolo
+photo.16.commitdate: 2018/11/14
+photo.16.link: https://www.instagram.com/nishicotolo/
+photo.17: ig://BqRnhmbFFrx/m
+photo.17.author: nishicotolo
+photo.17.commitdate: 2018/11/17
+photo.17.link: https://www.instagram.com/nishicotolo/
+photo.18: ig://BqTYlUAH7rE/m
+photo.18.author: cattail.sapporo
+photo.18.commitdate: 2018/11/17
+photo.18.link: https://www.instagram.com/cattail.sapporo/
+photo.18.tags: apple time, paws, portrait
+photo.19: ig://Bqe7McLFpk2/m
+photo.19.author: mifko55
+photo.19.commitdate: 2018/11/22
+photo.19.link: https://www.instagram.com/mifko55/
+photo.19.tags: paws, tail
+photo.20: ig://BqpIS83FI7B/m
+photo.20.author: fetorus_mami
+photo.20.commitdate: 2018/11/26
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: bridge, portrait
+photo.21: ig://Bq6gmnKnF5Y/m
+photo.21.author: cattail.sapporo
+photo.21.commitdate: 2018/12/4
+photo.21.link: https://www.instagram.com/cattail.sapporo/
+photo.21.tags: laying down, portrait
+photo.22: ig://BraChDEnSqJ/m
+photo.22.author: cattail.sapporo
+photo.22.commitdate: 2018/12/17
+photo.22.link: https://www.instagram.com/cattail.sapporo/
+photo.22.tags: dish, portrait
+photo.23: ig://BrduofbH2U1/m
+photo.23.author: cattail.sapporo
+photo.23.commitdate: 2018/12/17
+photo.23.link: https://www.instagram.com/cattail.sapporo/
+photo.23.tags: bridge, portrait, yawn
+photo.24: ig://BrkUVY8FlvW/m
+photo.24.author: minatomirai215
+photo.24.commitdate: 2018/12/19
+photo.24.link: https://www.instagram.com/minatomirai215/
+photo.24.tags: snow
+photo.25: ig://BrxOVR9FnUy/m
+photo.25.author: mifko55
+photo.25.commitdate: 2018/12/25
+photo.25.link: https://www.instagram.com/mifko55/
+photo.25.tags: portrait, snow
+photo.26: ig://BryK1wSnOBc/m
+photo.26.author: cattail.sapporo
+photo.26.commitdate: 2018/12/25
+photo.26.link: https://www.instagram.com/cattail.sapporo/
+photo.26.tags: tongue
+photo.27: ig://BsNUThgnJQi/m
+photo.27.author: cattail.sapporo
+photo.27.commitdate: 2019/1/6
+photo.27.link: https://www.instagram.com/cattail.sapporo/
+photo.27.tags: portrait, snow, tail
+photo.28: ig://BsVLfpelrkJ/m
+photo.28.author: nishicotolo
+photo.28.commitdate: 2019/1/9
+photo.28.link: https://www.instagram.com/nishicotolo/
+photo.29: ig://BsqATyungjK/m
+photo.29.author: cattail.sapporo
+photo.29.commitdate: 2019/1/18
+photo.29.link: https://www.instagram.com/cattail.sapporo/
+photo.29.tags: portrait, snow, tail
+photo.30: ig://BsuknAUHc9K/m
+photo.30.author: cattail.sapporo
+photo.30.commitdate: 2019/1/19
+photo.30.link: https://www.instagram.com/cattail.sapporo/
+photo.30.tags: portrait
+photo.31: ig://Bs9xgpknVcv/m
+photo.31.author: cattail.sapporo
+photo.31.commitdate: 2019/1/26
+photo.31.link: https://www.instagram.com/cattail.sapporo/
+photo.31.tags: paws, portrait, snow, tail
+photo.32: ig://Bt1XUFJgGeL/m
+photo.32.author: cattail.sapporo
+photo.32.commitdate: 2019/2/19
+photo.32.link: https://www.instagram.com/cattail.sapporo/
+photo.32.tags: bite, snow, tail
+photo.33: ig://BuCP9MfHfdU/m
+photo.33.author: cattail.sapporo
+photo.33.commitdate: 2019/2/19
+photo.33.link: https://www.instagram.com/cattail.sapporo/
+photo.33.tags: paws, tail, upside-down
+photo.34: ig://BuLn4c0HQKC/m
+photo.34.author: cattail.sapporo
+photo.34.commitdate: 2019/3/2
+photo.34.link: https://www.instagram.com/cattail.sapporo/
+photo.34.tags: paws
+photo.35: ig://BuRz5dgnL53/m
+photo.35.author: cattail.sapporo
+photo.35.commitdate: 2019/3/3
+photo.35.link: https://www.instagram.com/cattail.sapporo/
+photo.35.tags: paws
+photo.36: ig://BuiLwKSl7_0/m
+photo.36.author: mari_neko3
+photo.36.commitdate: 2019/3/10
+photo.36.link: https://www.instagram.com/mari_neko3/
+photo.36.tags: bridge, portrait, smile
+photo.37: ig://BulWKqwly7m/m
+photo.37.author: mari_neko3
+photo.37.commitdate: 2019/3/10
+photo.37.link: https://www.instagram.com/mari_neko3/
+photo.37.tags: apple time, dish, portrait, smile
+photo.38: ig://ButIcSTlZ5f/m
+photo.38.author: mari_neko3
+photo.38.commitdate: 2019/3/10
+photo.38.link: https://www.instagram.com/mari_neko3/
+photo.38.tags: bridge, portrait, smile
+photo.39: ig://BvCKy1rldoU/m
+photo.39.author: minatomirai215
+photo.39.commitdate: 2020/6/19
+photo.39.link: https://www.instagram.com/minatomirai215/
+photo.39.tags: climb, paws
+photo.40: ig://BvIUN1sFF9t/m
+photo.40.author: mari_neko3
+photo.40.commitdate: 2019/3/21
+photo.40.link: https://www.instagram.com/mari_neko3/
+photo.40.tags: blink, portrait, smile, yawn
+photo.41: ig://BvOyuJvFXPV/m
+photo.41.author: izu_108
+photo.41.commitdate: 2019/3/22
+photo.41.link: https://www.instagram.com/izu_108/
+photo.41.tags: climb, paws
+photo.42: ig://Bv7hQQenDRB/m
+photo.42.author: cattail.sapporo
+photo.42.commitdate: 2019/4/6
+photo.42.link: https://www.instagram.com/cattail.sapporo/
+photo.42.tags: portrait, smile
+photo.43: ig://Bv89us8l3MI/m
+photo.43.author: mari_neko3
+photo.43.commitdate: 2019/4/7
+photo.43.link: https://www.instagram.com/mari_neko3/
+photo.43.tags: smile
+photo.44: ig://BwCDtFlH34d/m
+photo.44.author: cattail.sapporo
+photo.44.commitdate: 2019/4/15
+photo.44.link: https://www.instagram.com/cattail.sapporo/
+photo.44.tags: bridge, laying down, portrait
+photo.45: ig://BwShXUOAONc/m
+photo.45.author: cattail.sapporo
+photo.45.commitdate: 2019/4/22
+photo.45.link: https://www.instagram.com/cattail.sapporo/
+photo.45.tags: dish, tongue
+photo.46: ig://BwmhAh8gm3h/m
+photo.46.author: cattail.sapporo
+photo.46.commitdate: 2019/4/30
+photo.46.link: https://www.instagram.com/cattail.sapporo/
+photo.46.tags: portrait, smile, snow
+photo.47: ig://BwtE-48lhS0/m
+photo.47.author: kipekaila
+photo.47.commitdate: 2019/4/30
+photo.47.link: https://www.instagram.com/kipekaila/
+photo.47.tags: bridge, laying down
+photo.48: ig://BxDcZWLA-hs/m
+photo.48.author: cattail.sapporo
+photo.48.commitdate: 2019/10/27
+photo.48.link: https://www.instagram.com/cattail.sapporo/
+photo.48.tags: bridge, laying down, portrait
+photo.49: ig://BxYBATNAEAS/m
+photo.49.author: cattail.sapporo
+photo.49.commitdate: 2019/5/15
+photo.49.link: https://www.instagram.com/cattail.sapporo/
+photo.49.tags: paws, snow, tongue
+photo.50: ig://Bx4eHMbBsQS/m
+photo.50.author: komabazoophoto
+photo.50.commitdate: 2019/5/31
+photo.50.link: https://www.instagram.com/komabazoophoto/
+photo.50.tags: apple time, dish
+photo.51: ig://ByIHvCHBNuK/m
+photo.51.author: mifko55
+photo.51.commitdate: 2019/6/2
+photo.51.link: https://www.instagram.com/mifko55/
+photo.51.tags: home, laying down
+photo.52: ig://ByU682Phrc4/m
+photo.52.author: komabazoophoto
+photo.52.commitdate: 2019/6/5
+photo.52.link: https://www.instagram.com/komabazoophoto/
+photo.52.tags: bridge, laying down, portrait
+photo.53: ig://BykTSHhhJeq/m
+photo.53.author: komabazoophoto
+photo.53.commitdate: 2019/6/13
+photo.53.link: https://www.instagram.com/komabazoophoto/
+photo.53.tags: home, laying down, tail
+photo.54: ig://Byqd7OIg4u8/m
+photo.54.author: cattail.sapporo
+photo.54.commitdate: 2019/6/16
+photo.54.link: https://www.instagram.com/cattail.sapporo/
+photo.54.tags: grooming, portrait, tongue
+photo.55: ig://By0y-fZAi43/m
+photo.55.author: cattail.sapporo
+photo.55.commitdate: 2019/6/20
+photo.55.link: https://www.instagram.com/cattail.sapporo/
+photo.55.tags: bridge, itchy, paws, portrait
+photo.56: ig://By7i-gxhT6P/m
+photo.56.author: nishicotolo
+photo.56.commitdate: 2019/6/21
+photo.56.link: https://www.instagram.com/nishicotolo/
+photo.56.tags: bridge, laying down, sleeping
+photo.57: ig://BzCWZAlB24E/m
+photo.57.author: minatomirai215
+photo.57.commitdate: 2019/6/23
+photo.57.link: https://www.instagram.com/minatomirai215/
+photo.58: ig://BzCcqdLBNGV/m
+photo.58.author: mari_neko3
+photo.58.commitdate: 2019/6/23
+photo.58.link: https://www.instagram.com/mari_neko3/
+photo.58.tags: portrait
+photo.59: ig://BzDk6PlhmWo/m
+photo.59.author: kotata_513
+photo.59.commitdate: 2019/6/23
+photo.59.link: https://www.instagram.com/kotata_513/
+photo.59.tags: flowers
+photo.60: ig://BzkoH74gwE1/m
+photo.60.author: cattail.sapporo
+photo.60.commitdate: 2019/7/10
+photo.60.link: https://www.instagram.com/cattail.sapporo/
+photo.60.tags: mofumofu, paws, portrait
+photo.61: ig://Bz5PCh3hlkr/m
+photo.61.author: komabazoophoto
+photo.61.commitdate: 2019/7/14
+photo.61.link: https://www.instagram.com/komabazoophoto/
+photo.61.tags: bamboo, laying down, portrait, tail
+photo.62: ig://Bz5Q7rcg5qn/m
+photo.62.author: cattail.sapporo
+photo.62.commitdate: 2019/7/15
+photo.62.link: https://www.instagram.com/cattail.sapporo/
+photo.62.tags: portrait, whiskers
+photo.63: ig://Bz7wWU2B2wf/m
+photo.63.author: komabazoophoto
+photo.63.commitdate: 2019/7/15
+photo.63.link: https://www.instagram.com/komabazoophoto/
+photo.63.tags: apple time, climb, paws
+photo.64: ig://B0HKziuA0U_/m
+photo.64.author: cattail.sapporo
+photo.64.commitdate: 2019/7/20
+photo.64.link: https://www.instagram.com/cattail.sapporo/
+photo.64.tags: bridge, paws, portrait, smile
+photo.65: ig://B0IxI52hzAP/m
+photo.65.author: komabazoophoto
+photo.65.commitdate: 2019/7/22
+photo.65.link: https://www.instagram.com/komabazoophoto/
+photo.65.tags: portrait
+photo.66: ig://B0K9G7YBN40/m
+photo.66.author: izu_108
+photo.66.commitdate: 2019/7/22
+photo.66.link: https://www.instagram.com/izu_108/
+photo.66.tags: laying down, portrait, tongue
+photo.67: ig://B0N4DH0BnkR/m
+photo.67.author: komabazoophoto
+photo.67.commitdate: 2019/7/28
+photo.67.link: https://www.instagram.com/komabazoophoto/
+photo.67.tags: climb, paws, portrait
+photo.68: ig://B0N4M1WheNJ/m
+photo.68.author: komabazoophoto
+photo.68.commitdate: 2019/7/28
+photo.68.link: https://www.instagram.com/komabazoophoto/
+photo.68.tags: bridge, portrait, tail
+photo.69: ig://B0SAtdJh-D5/m
+photo.69.author: minatomirai215
+photo.69.commitdate: 2019/7/28
+photo.69.link: https://www.instagram.com/minatomirai215/
+photo.69.tags: paws, portrait
+photo.70: ig://B0UEijdAVeF/m
+photo.70.author: cattail.sapporo
+photo.70.commitdate: 2019/7/28
+photo.70.link: https://www.instagram.com/cattail.sapporo/
+photo.70.tags: portrait, smile
+photo.71: ig://B0lGvCfB31_/m
+photo.71.author: izu_108
+photo.71.commitdate: 2019/8/2
+photo.71.link: https://www.instagram.com/izu_108/
+photo.71.tags: laying down, sleeping
+photo.72: ig://B0qmx4CAT45/m
+photo.72.author: cattail.sapporo
+photo.72.commitdate: 2019/8/11
+photo.72.link: https://www.instagram.com/cattail.sapporo/
+photo.72.tags: paws, portrait, snow, surprise
+photo.73: ig://B1V8vA5BFBO/m
+photo.73.author: komabazoophoto
+photo.73.commitdate: 2019/8/24
+photo.73.link: https://www.instagram.com/komabazoophoto/
+photo.73.tags: bamboo, climb, portrait, tail
+photo.74: ig://B1XPZOlgKcd/m
+photo.74.author: cattail.sapporo
+photo.74.commitdate: 2019/8/24
+photo.74.link: https://www.instagram.com/cattail.sapporo/
+photo.74.tags: portrait, smile
+photo.75: ig://B1YjS_HhqUx/m
+photo.75.author: komabazoophoto
+photo.75.commitdate: 2019/8/24
+photo.75.link: https://www.instagram.com/komabazoophoto/
+photo.75.tags: bridge, laying down, portrait, tail
+photo.76: ig://B1oE7Q7Bkps/m
+photo.76.author: komabazoophoto
+photo.76.commitdate: 2019/8/29
+photo.76.link: https://www.instagram.com/komabazoophoto/
+photo.76.tags: bridge, laying down, portrait
+photo.77: ig://B1qhGeLAvXj/m
+photo.77.author: cattail.sapporo
+photo.77.commitdate: 2019/8/31
+photo.77.link: https://www.instagram.com/cattail.sapporo/
+photo.77.tags: mofumofu, portrait, smile
+photo.78: ig://B1qkxZABQIT/m
+photo.78.author: komabazoophoto
+photo.78.commitdate: 2019/8/31
+photo.78.link: https://www.instagram.com/komabazoophoto/
+photo.78.tags: bridge, laying down, portrait
+photo.79: ig://B1qp4kNhYgY/m
+photo.79.author: leonard_redmof
+photo.79.commitdate: 2019/8/31
+photo.79.link: https://www.instagram.com/leonard_redmof/
+photo.79.tags: paws, portrait
+photo.80: ig://B1qte3EBfuc/m
+photo.80.author: mifko55
+photo.80.commitdate: 2019/8/31
+photo.80.link: https://www.instagram.com/mifko55/
+photo.80.tags: bridge, paws, portrait
+photo.81: ig://B1159zWAjbi/m
+photo.81.author: cattail.sapporo
+photo.81.commitdate: 2019/9/3
+photo.81.link: https://www.instagram.com/cattail.sapporo/
+photo.81.tags: paws, portrait
+photo.82: ig://B2OII1phn98/m
+photo.82.author: mari_neko3
+photo.82.commitdate: 2019/9/14
+photo.82.link: https://www.instagram.com/mari_neko3/
+photo.82.tags: portrait, techitechi
+photo.83: ig://B2SUV5-Ax7E/m
+photo.83.author: cattail.sapporo
+photo.83.commitdate: 2019/9/16
+photo.83.link: https://www.instagram.com/cattail.sapporo/
+photo.83.tags: laying down, nose, portrait, sleeping
+photo.84: ig://B2g3RazhSA2/m
+photo.84.author: leonard_redmof
+photo.84.commitdate: 2019/9/18
+photo.84.link: https://www.instagram.com/leonard_redmof/
+photo.84.tags: portrait
+photo.85: ig://B2okrpFhkEG/m
+photo.85.author: komabazoophoto
+photo.85.commitdate: 2019/9/22
+photo.85.link: https://www.instagram.com/komabazoophoto/
+photo.85.tags: portrait, white face
+photo.86: ig://B2rDLoOBB6Y/m
+photo.86.author: sasapan34
+photo.86.commitdate: 2019/9/22
+photo.86.link: https://www.instagram.com/sasapan34/
+photo.86.tags: mofumofu
+photo.87: ig://B2tKpDtAkjo/m
+photo.87.author: cattail.sapporo
+photo.87.commitdate: 2019/10/2
+photo.87.link: https://www.instagram.com/cattail.sapporo/
+photo.87.tags: bridge, laying down, portrait
+photo.88: ig://B2tafhwBFoZ/m
+photo.88.author: nishicotolo
+photo.88.commitdate: 2019/10/2
+photo.88.link: https://www.instagram.com/nishicotolo/
+photo.88.tags: smile
+photo.89: ig://B21msGFh6iB/m
+photo.89.author: mifko55
+photo.89.commitdate: 2019/10/2
+photo.89.link: https://www.instagram.com/mifko55/
+photo.89.tags: bridge, laying down, portrait
+photo.90: ig://B3FBu4pAFfe/m
+photo.90.author: cattail.sapporo
+photo.90.commitdate: 2019/10/12
+photo.90.link: https://www.instagram.com/cattail.sapporo/
+photo.90.tags: portrait, tail
+photo.91: ig://B3MxaWKhgDh/m
+photo.91.author: akiakiakiko18
+photo.91.commitdate: 2019/10/12
+photo.91.link: https://www.instagram.com/akiakiakiko18/
+photo.91.tags: peek, portrait
+photo.92: ig://B3Ri57RBl59/m
+photo.92.author: komabazoophoto
+photo.92.commitdate: 2019/10/12
+photo.92.link: https://www.instagram.com/komabazoophoto/
+photo.92.tags: flowers, portrait
+photo.93: ig://B3gSoz8haIa/m
+photo.93.author: sasapan34
+photo.93.commitdate: 2019/10/17
+photo.93.link: https://www.instagram.com/sasapan34/
+photo.93.tags: peek
+photo.94: ig://B3t2GdJBNUy/m
+photo.94.author: izu_108
+photo.94.commitdate: 2019/10/17
+photo.94.link: https://www.instagram.com/izu_108/
+photo.94.tags: portrait, whiskers
+photo.95: ig://B3u-3ETg_DD/m
+photo.95.author: cattail.sapporo
+photo.95.commitdate: 2019/10/17
+photo.95.link: https://www.instagram.com/cattail.sapporo/
+photo.95.tags: apple time, paws, portrait, window
+photo.96: ig://B3y8Yvuhcwk/m
+photo.96.author: komabazoophoto
+photo.96.commitdate: 2019/10/22
+photo.96.link: https://www.instagram.com/komabazoophoto/
+photo.96.tags: bridge, portrait
+photo.97: ig://B4XcZW-ABWx/m
+photo.97.author: cattail.sapporo
+photo.97.commitdate: 2019/11/2
+photo.97.link: https://www.instagram.com/cattail.sapporo/
+photo.97.tags: laying down, portrait
+photo.98: ig://B5C1JqaBLlV/m
+photo.98.author: izu_108
+photo.98.commitdate: 2019/12/5
+photo.98.link: https://www.instagram.com/izu_108/
+photo.98.tags: laying down, portrait, sleeping, tail
+photo.99: ig://B5F1diHh6Bg/m
+photo.99.author: ho0oipo
+photo.99.commitdate: 2019/12/5
+photo.99.link: https://www.instagram.com/ho0oipo/
+photo.99.tags: laying down, paws, snow, upside-down
+photo.100: ig://B5G5qnjAVVo/m
+photo.100.author: cattail.sapporo
+photo.100.commitdate: 2019/12/5
+photo.100.link: https://www.instagram.com/cattail.sapporo/
+photo.100.tags: paws, portrait, smile
+photo.101: ig://B5PFRGDhhi6/m
+photo.101.author: leonard_redmof
+photo.101.commitdate: 2019/11/24
+photo.101.link: https://www.instagram.com/leonard_redmof/
+photo.101.tags: portrait
+photo.102: ig://B5p3c2jg3er/m
+photo.102.author: cattail.sapporo
+photo.102.commitdate: 2019/12/7
+photo.102.link: https://www.instagram.com/cattail.sapporo/
+photo.102.tags: paws, portrait, snow
+photo.103: ig://B5vpXgZgr0H/m
+photo.103.author: cattail.sapporo
+photo.103.commitdate: 2019/12/11
+photo.103.link: https://www.instagram.com/cattail.sapporo/
+photo.103.tags: dish, portrait, tail
+photo.104: ig://B52XcBRh4lt/m
+photo.104.author: izu_108
+photo.104.commitdate: 2019/12/28
+photo.104.link: https://www.instagram.com/izu_108/
+photo.104.tags: grooming, portrait
+photo.105: ig://B5-h6yNgYsH/m
+photo.105.author: cattail.sapporo
+photo.105.commitdate: 2019/12/30
+photo.105.link: https://www.instagram.com/cattail.sapporo/
+photo.105.tags: portrait, snow, tail
+photo.106: ig://B6agVeXhtut/m
+photo.106.author: leonard_redmof
+photo.106.commitdate: 2019/12/31
+photo.106.link: https://www.instagram.com/leonard_redmof/
+photo.106.tags: portrait, snow
+photo.107: ig://B6vA6rWAqPC/m
+photo.107.author: cattail.sapporo
+photo.107.commitdate: 2020/1/6
+photo.107.link: https://www.instagram.com/cattail.sapporo/
+photo.107.tags: apple time, bamboo, bridge, portrait, standing
+photo.108: ig://B63vOGpgSS0/m
+photo.108.author: cattail.sapporo
+photo.108.commitdate: 2020/1/11
+photo.108.link: https://www.instagram.com/cattail.sapporo/
+photo.108.tags: portrait, snow
+photo.109: ig://B7UHf2zpCk0/m
+photo.109.author: cattail.sapporo
+photo.109.commitdate: 2020/1/16
+photo.109.link: https://www.instagram.com/cattail.sapporo/
+photo.109.tags: paws, portrait
+photo.110: ig://B7bJiJWpHr8/m
+photo.110.author: cattail.sapporo
+photo.110.commitdate: 2020/1/19
+photo.110.link: https://www.instagram.com/cattail.sapporo/
+photo.110.tags: climb, portrait, tail
+photo.111: ig://B7kad9qAaN5/m
+photo.111.author: cattail.sapporo
+photo.111.commitdate: 2020/1/27
+photo.111.link: https://www.instagram.com/cattail.sapporo/
+photo.111.tags: bridge, paws, portrait, tongue
+photo.112: ig://B7vWO55JxGz/m
+photo.112.author: cattail.sapporo
+photo.112.commitdate: 2020/2/23
+photo.112.link: https://www.instagram.com/cattail.sapporo/
+photo.112.tags: bamboo, blink, portrait, smile, snow, tail
+photo.113: ig://B71lNq9J76U/m
+photo.113.author: cattail.sapporo
+photo.113.commitdate: 2020/2/23
+photo.113.link: https://www.instagram.com/cattail.sapporo/
+photo.113.tags: bridge, laying down, portrait, tongue
+photo.114: ig://B79bRguJotI/m
+photo.114.author: cattail.sapporo
+photo.114.commitdate: 2020/2/23
+photo.114.link: https://www.instagram.com/cattail.sapporo/
+photo.114.tags: laying down, paws, playing, portrait, snow, upside-down
+photo.115: ig://B8HvKIgpCG8/m
+photo.115.author: cattail.sapporo
+photo.115.commitdate: 2020/2/7
+photo.115.link: https://www.instagram.com/cattail.sapporo/
+photo.115.tags: paws, portrait, standing, tail
+photo.116: ig://B8RzRoZpll8/m
+photo.116.author: cattail.sapporo
+photo.116.commitdate: 2020/2/11
+photo.116.link: https://www.instagram.com/cattail.sapporo/
+photo.116.tags: paws, standing
+photo.117: ig://B8cKVGwphu3/m
+photo.117.author: cattail.sapporo
+photo.117.commitdate: 2020/2/23
+photo.117.link: https://www.instagram.com/cattail.sapporo/
+photo.117.tags: laying down, paws, playing, portrait, snow, upside-down
+photo.118: ig://B8pKJWOpx86/m
+photo.118.author: cattail.sapporo
+photo.118.commitdate: 2020/3/9
+photo.118.link: https://www.instagram.com/cattail.sapporo/
+photo.118.tags: playing, portrait, smile, snow, tail
+photo.119: ig://B8tJR7NB5fJ/m
+photo.119.author: redpan22
+photo.119.commitdate: 2020/3/9
+photo.119.link: https://www.instagram.com/redpan22/
+photo.119.tags: lunch time, portrait, smile, wink
+photo.120: ig://B8vIJeDJDFE/m
+photo.120.author: cattail.sapporo
+photo.120.commitdate: 2020/3/9
+photo.120.link: https://www.instagram.com/cattail.sapporo/
+photo.120.tags: climb, portrait, tail
+photo.121: ig://B83CFl4JkDT/m
+photo.121.author: cattail.sapporo
+photo.121.commitdate: 2020/3/9
+photo.121.link: https://www.instagram.com/cattail.sapporo/
+photo.121.tags: laying down, paws, portrait, snow, tail, upside-down
+photo.122: ig://B85wmYSBvPM/m
+photo.122.author: izu_108
+photo.122.commitdate: 2020/3/9
+photo.122.link: https://www.instagram.com/izu_108/
+photo.122.tags: bridge, mofumofu, peek, portrait, whiskers
+photo.123: ig://B88kDxVhugG/m
+photo.123.author: nishicotolo
+photo.123.commitdate: 2020/3/9
+photo.123.link: https://www.instagram.com/nishicotolo/
+photo.123.tags: bridge, yawn
+photo.124: ig://B8_JIWVgIMs/m
+photo.124.author: cattail.sapporo
+photo.124.commitdate: 2020/3/9
+photo.124.link: https://www.instagram.com/cattail.sapporo/
+photo.124.tags: paws, peek, portrait
+photo.125: ig://B9FXTpWAOb_/m
+photo.125.author: cattail.sapporo
+photo.125.commitdate: 2020/3/9
+photo.125.link: https://www.instagram.com/cattail.sapporo/
+photo.125.tags: dish, paws, portrait, tongue
+photo.126: ig://B9GwVu5hfzx/m
+photo.126.author: sasapan34
+photo.126.commitdate: 2020/3/9
+photo.126.link: https://www.instagram.com/sasapan34/
+photo.126.tags: peek, whiskers
+photo.127: ig://B9JQH5Nh6XL/m
+photo.127.author: nishicotolo
+photo.127.commitdate: 2020/3/9
+photo.127.link: https://www.instagram.com/nishicotolo/
+photo.127.tags: bridge, laying down, sleeping
+photo.128: ig://B9KoMVRAJ1-/m
+photo.128.author: cattail.sapporo
+photo.128.commitdate: 2020/3/9
+photo.128.link: https://www.instagram.com/cattail.sapporo/
+photo.128.tags: paws, playing, portrait, snow, tail
+photo.129: ig://B9O6Bheh3ZI/m
+photo.129.author: leonard_redmof
+photo.129.commitdate: 2020/3/9
+photo.129.link: https://www.instagram.com/leonard_redmof/
+photo.129.tags: climb, portrait, whiskers
+photo.130: ig://B9RZzAGBWD8/m
+photo.130.author: leonard_redmof
+photo.130.commitdate: 2020/3/9
+photo.130.link: https://www.instagram.com/leonard_redmof/
+photo.130.tags: keeper, lunch time, portrait, smile
+photo.131: ig://B9WS7nahrbS/m
+photo.131.author: izu_108
+photo.131.commitdate: 2020/3/9
+photo.131.link: https://www.instagram.com/izu_108/
+photo.131.tags: whiskers
+photo.132: ig://B9Y-I_0ht6K/m
+photo.132.author: komabazoophoto
+photo.132.commitdate: 2020/3/9
+photo.132.link: https://www.instagram.com/komabazoophoto/
+photo.132.tags: paws, portrait
+photo.133: ig://B9ZGwniBEvW/m
+photo.133.author: izu_108
+photo.133.commitdate: 2020/3/9
+photo.133.link: https://www.instagram.com/izu_108/
+photo.133.tags: peek, portrait, whiskers
+photo.134: ig://B9crylSgLON/m
+photo.134.author: cattail.sapporo
+photo.134.commitdate: 2020/3/18
+photo.134.link: https://www.instagram.com/cattail.sapporo/
+photo.134.tags: paws, portrait
+photo.135: ig://B9eBEyzBFth/m
+photo.135.author: kipekaila
+photo.135.commitdate: 2020/3/9
+photo.135.link: https://www.instagram.com/kipekaila/
+photo.135.tags: bridge, portrait, tongue
+photo.136: ig://B9kyS1Mhs9h/m
+photo.136.author: izu_108
+photo.136.commitdate: 2020/3/18
+photo.136.link: https://www.instagram.com/izu_108/
+photo.136.tags: bridge, mofumofu, portrait, whiskers
+photo.137: ig://B9pcoWgA6HS/m
+photo.137.author: cattail.sapporo
+photo.137.commitdate: 2020/3/18
+photo.137.link: https://www.instagram.com/cattail.sapporo/
+photo.137.tags: apple time, bite, portrait
+photo.138: ig://B92V8u7AyFL/m
+photo.138.author: cattail.sapporo
+photo.138.commitdate: 2020/6/19
+photo.138.link: https://www.instagram.com/cattail.sapporo/
+photo.138.tags: portrait, tongue, videolink
+photo.139: ig://B96eOguhfoV/m
+photo.139.author: komabazoophoto
+photo.139.commitdate: 2020/6/19
+photo.139.link: https://www.instagram.com/komabazoophoto/
+photo.139.tags: paws, portrait
+photo.140: ig://B9_iWHeg-ep/m
+photo.140.author: cattail.sapporo
+photo.140.commitdate: 2020/6/19
+photo.140.link: https://www.instagram.com/cattail.sapporo/
+photo.140.tags: laying down, paws, playing, portrait, smile, snow, tail, upside-down
+photo.141: ig://B9_m5XfBx-J/m
+photo.141.author: komabazoophoto
+photo.141.commitdate: 2020/6/19
+photo.141.link: https://www.instagram.com/komabazoophoto/
+photo.141.tags: bridge
+photo.142: ig://B9_nLoyBEga/m
+photo.142.author: komabazoophoto
+photo.142.commitdate: 2020/6/19
+photo.142.link: https://www.instagram.com/komabazoophoto/
+photo.142.tags: bridge, peek, portrait
+photo.143: ig://B-FxcdXA9k9/m
+photo.143.author: cattail.sapporo
+photo.143.commitdate: 2020/6/19
+photo.143.link: https://www.instagram.com/cattail.sapporo/
+photo.143.tags: portrait, tail, videolink
+photo.144: ig://B-QKM2nAw4g/m
+photo.144.author: cattail.sapporo
+photo.144.commitdate: 2020/6/19
+photo.144.link: https://www.instagram.com/cattail.sapporo/
+photo.144.tags: portrait, videolink
+photo.145: ig://B-Xz7TtAMTZ/m
+photo.145.author: cattail.sapporo
+photo.145.commitdate: 2020/6/19
+photo.145.link: https://www.instagram.com/cattail.sapporo/
+photo.145.tags: close-up, mofumofu, portrait, whiskers
+photo.146: ig://B-eblEbgJZA/m
+photo.146.author: cattail.sapporo
+photo.146.commitdate: 2020/6/19
+photo.146.link: https://www.instagram.com/cattail.sapporo/
+photo.146.tags: laying down, portrait, videolink
+photo.147: ig://B-xwxl4BBQk/m
+photo.147.author: izu_108
+photo.147.commitdate: 2020/6/19
+photo.147.link: https://www.instagram.com/izu_108/
+photo.147.tags: bridge, laying down, portrait, techitechi
+photo.148: ig://B-05x6fJEty/m
+photo.148.author: cattail.sapporo
+photo.148.commitdate: 2020/6/19
+photo.148.link: https://www.instagram.com/cattail.sapporo/
+photo.148.tags: climb, paws, portrait, tongue
+photo.149: ig://B-6uunkJV1L/m
+photo.149.author: cattail.sapporo
+photo.149.commitdate: 2020/6/19
+photo.149.link: https://www.instagram.com/cattail.sapporo/
+photo.149.tags: paws, portrait, tongue, window
+photo.150: ig://B-673KdB_zb/m
+photo.150.author: leonard_redmof
+photo.150.commitdate: 2020/6/19
+photo.150.link: https://www.instagram.com/leonard_redmof/
+photo.150.tags: bridge, laying down, peek, portrait
+photo.151: ig://B_DlKtZpPyt/m
+photo.151.author: cattail.sapporo
+photo.151.commitdate: 2020/6/19
+photo.151.link: https://www.instagram.com/cattail.sapporo/
+photo.151.tags: laying down, mofumofu, portrait
+photo.152: ig://B_I3xQKhNO6/m
+photo.152.author: kipekaila
+photo.152.commitdate: 2020/6/19
+photo.152.link: https://www.instagram.com/kipekaila/
+photo.152.tags: portrait
+photo.153: ig://B_MdB_ipQs2/m
+photo.153.author: cattail.sapporo
+photo.153.commitdate: 2020/6/19
+photo.153.link: https://www.instagram.com/cattail.sapporo/
+photo.153.tags: bamboo, paws, portrait, smile, standing, tail
+photo.154: ig://B_Pc9ONnMSz/m
+photo.154.author: nishicotolo
+photo.154.commitdate: 2020/6/19
+photo.154.link: https://www.instagram.com/nishicotolo/
+photo.154.tags: peek
+photo.155: ig://B__8XfAhO2i/m
+photo.155.author: izu_108
+photo.155.commitdate: 2020/6/19
+photo.155.link: https://www.instagram.com/izu_108/
+photo.155.tags: mofumofu, portrait, techitechi
+photo.156: ig://CA7i-j0hlib/m
+photo.156.author: nishicotolo
+photo.156.commitdate: 2020/6/19
+photo.156.link: https://www.instagram.com/nishicotolo/
+photo.156.tags: bridge
+photo.157: ig://CBIbF14hevJ/m
+photo.157.author: nishicotolo
+photo.157.commitdate: 2020/6/19
+photo.157.link: https://www.instagram.com/nishicotolo/
+photo.157.tags: whiskers
+photo.158: ig://CBNbcUohQXn/m
+photo.158.author: leonard_redmof
+photo.158.commitdate: 2020/6/19
+photo.158.link: https://www.instagram.com/leonard_redmof/
+photo.158.tags: portrait
+photo.159: ig://CEdu466AJPy/m
+photo.159.author: cattail.sapporo
+photo.159.commitdate: 2020/9/4
+photo.159.link: https://www.instagram.com/cattail.sapporo/
+photo.159.tags: paws, playing, portrait
+photo.160: ig://CF2r4ivgs5A/m
+photo.160.author: cattail.sapporo
+photo.160.commitdate: 2020/10/9
+photo.160.link: https://www.instagram.com/cattail.sapporo/
+photo.160.tags: apple time, paws, portrait, smile, tongue, window
+photo.161: ig://CGBxCzlgl4r/m
+photo.161.author: cattail.sapporo
+photo.161.commitdate: 2021/9/11
+photo.161.link: https://www.instagram.com/cattail.sapporo/
+photo.161.tags: apple time, bite, close-up, portrait, window
+photo.162: ig://CGOuR5cAjEr/m
+photo.162.author: cattail.sapporo
+photo.162.commitdate: 2021/9/11
+photo.162.link: https://www.instagram.com/cattail.sapporo/
+photo.162.tags: laying down, portrait, videolink, whiskers
+photo.163: ig://CGR5aFDAU_s/m
+photo.163.author: cattail.sapporo
+photo.163.commitdate: 2021/9/11
+photo.163.link: https://www.instagram.com/cattail.sapporo/
+photo.163.tags: apple time, close-up, portrait, window
+photo.164: ig://CGVAgo4Ap_X/m
+photo.164.author: cattail.sapporo
+photo.164.commitdate: 2020/11/8
+photo.164.link: https://www.instagram.com/cattail.sapporo/
+photo.164.tags: bamboo, paws, portrait, videolink
+photo.165: ig://CGaIOjwAY1F/m
+photo.165.author: cattail.sapporo
+photo.165.commitdate: 2020/10/29
+photo.165.link: https://www.instagram.com/cattail.sapporo/
+photo.165.tags: bamboo, portrait, tongue, videolink
+photo.166: ig://CGcROSZhEGD/m
+photo.166.author: leonard_redmof
+photo.166.commitdate: 2021/9/11
+photo.166.link: https://www.instagram.com/leonard_redmof/
+photo.166.tags: peek, portrait
+photo.167: ig://CGld0CLBPnW/m
+photo.167.author: izu_108
+photo.167.commitdate: 2020/11/8
+photo.167.link: https://www.instagram.com/izu_108/
+photo.167.tags: close-up, laying down, portrait, sleeping, whiskers
+photo.168: ig://CG2bF_tgJeL/m
+photo.168.author: cattail.sapporo
+photo.168.commitdate: 2020/11/8
+photo.168.link: https://www.instagram.com/cattail.sapporo/
+photo.168.tags: apple time, close-up, portrait, whiskers, window
+photo.169: ig://CG7mW8YgR8H/m
+photo.169.author: cattail.sapporo
+photo.169.commitdate: 2020/11/8
+photo.169.link: https://www.instagram.com/cattail.sapporo/
+photo.169.tags: close-up, laying down, mofumofu, portrait
+photo.170: ig://CHAIMCnBdBf/m
+photo.170.author: leonard_redmof
+photo.170.commitdate: 2020/11/11
+photo.170.link: https://www.instagram.com/leonard_redmof/
+photo.170.tags: portrait, tail
+photo.171: https://instagram.com/p/CL-FJlsgHy6/media/?size=m
+photo.171.author: cattail.sapporo
+photo.171.commitdate: 2021/3/7
+photo.171.link: https://www.instagram.com/cattail.sapporo/
+photo.171.tags: flowers, portrait
+photo.172: ig://CHMZJhmA_ng/m
+photo.172.author: cattail.sapporo
+photo.172.commitdate: 2020/11/11
+photo.172.link: https://www.instagram.com/cattail.sapporo/
+photo.172.tags: close-up, portrait, smile
+photo.173: ig://CHU-j_uhkBF/m
+photo.173.author: jas_forever_love
+photo.173.commitdate: 2020/11/25
+photo.173.link: https://www.instagram.com/jas_forever_love/
+photo.173.tags: dish, portrait, smile
+photo.174: ig://CHoASvSA5Mo/m
+photo.174.author: cattail.sapporo
+photo.174.commitdate: 2020/11/22
+photo.174.link: https://www.instagram.com/cattail.sapporo/
+photo.174.tags: portrait
+photo.175: ig://CIIPrSYBeX6/m
+photo.175.author: ho0oipo
+photo.175.commitdate: 2020/12/3
+photo.175.link: https://www.instagram.com/ho0oipo/
+photo.175.tags: climb, portrait, snow
+photo.176: ig://CIOwT0hAiHp/m
+photo.176.author: cattail.sapporo
+photo.176.commitdate: 2020/12/3
+photo.176.link: https://www.instagram.com/cattail.sapporo/
+photo.176.tags: bamboo, portrait, tongue
+photo.177: ig://CKBqUYEhMso/m
+photo.177.author: leonard_redmof
+photo.177.commitdate: 2021/4/28
+photo.177.link: https://www.instagram.com/leonard_redmof/
+photo.177.tags: bamboo, portrait, smile, snow
+photo.178: ig://CKWPtg3hiVh/m
+photo.178.author: leonard_redmof
+photo.178.commitdate: 2021/3/7
+photo.178.link: https://www.instagram.com/leonard_redmof/
+photo.178.tags: climb, paws, portrait, snow, tail, tree
+photo.179: ig://CKkMw-LBBQX/m
+photo.179.author: izu_108
+photo.179.commitdate: 2021/3/7
+photo.179.link: https://www.instagram.com/izu_108/
+photo.179.tags: bamboo, mofumofu, portrait, tongue
+photo.180: ig://CLImmbOhLYQ/m
+photo.180.author: izu_108
+photo.180.commitdate: 2021/3/7
+photo.180.link: https://www.instagram.com/izu_108/
+photo.180.tags: bamboo, bite, close-up, mofumofu
+photo.181: ig://CL4Umc5ge_a/m
+photo.181.author: cattail.sapporo
+photo.181.commitdate: 2021/3/7
+photo.181.link: https://www.instagram.com/cattail.sapporo/
+photo.181.tags: bamboo, mofumofu, portrait, tongue
+photo.182: ig://CL61ZszgvEA/m
+photo.182.author: cattail.sapporo
+photo.182.commitdate: 2021/3/7
+photo.182.link: https://www.instagram.com/cattail.sapporo/
+photo.182.tags: bamboo, paws, portrait, snow
+photo.183: ig://CMLKjSAAWHL/m
+photo.183.author: cattail.sapporo
+photo.183.commitdate: 2021/4/10
+photo.183.link: https://www.instagram.com/cattail.sapporo/
+photo.183.tags: close-up, laying down, portrait, sleeping, white face
+photo.184: ig://CMUlwxTA0o-/m
+photo.184.author: cattail.sapporo
+photo.184.commitdate: 2021/4/11
+photo.184.link: https://www.instagram.com/cattail.sapporo/
+photo.184.tags: paws, portrait, white face
+photo.185: ig://CMYiCLJALji/m
+photo.185.author: cattail.sapporo
+photo.185.commitdate: 2021/4/11
+photo.185.link: https://www.instagram.com/cattail.sapporo/
+photo.185.tags: close-up, laying down, portrait, sleeping
+photo.186: ig://CMl7HOMguXn/m
+photo.186.author: cattail.sapporo
+photo.186.commitdate: 2021/3/29
+photo.186.link: https://www.instagram.com/cattail.sapporo/
+photo.186.tags: apple time, paws, portrait, snow, standing, tail
+photo.187: ig://CM1a4KbAvtX/m
+photo.187.author: cattail.sapporo
+photo.187.commitdate: 2021/8/6
+photo.187.link: https://www.instagram.com/cattail.sapporo/
+photo.187.tags: apple time, paws, portrait, standing, tail
+photo.188: ig://CM3m7dyAFo4/m
+photo.188.author: cattail.sapporo
+photo.188.commitdate: 2021/8/6
+photo.188.link: https://www.instagram.com/cattail.sapporo/
+photo.188.tags: apple time, close-up, dish, paws, portrait, smile, tongue
+photo.189: ig://CNFGPdkAAtZ/m
+photo.189.author: cattail.sapporo
+photo.189.commitdate: 2021/4/10
+photo.189.link: https://www.instagram.com/cattail.sapporo/
+photo.189.tags: paws, portrait, tail
+photo.190: ig://CNhUWvLh15-/m
+photo.190.author: minatomirai215
+photo.190.commitdate: 2021/9/6
+photo.190.link: https://www.instagram.com/minatomirai215/
+photo.190.tags: bamboo, portrait
+photo.191: ig://COU2uW9hNZ_/m
+photo.191.author: leonard_redmof
+photo.191.commitdate: 2021/5/4
+photo.191.link: https://www.instagram.com/leonard_redmof/
+photo.191.tags: apple time, portrait, standing, tail, toys
+photo.192: ig://COxPj80gX0U/m
+photo.192.author: cattail.sapporo
+photo.192.commitdate: 2021/6/15
+photo.192.link: https://www.instagram.com/cattail.sapporo/
+photo.192.tags: apple time, mofumofu, pwas, portrait, smile, tongue, whiskers
+photo.193: ig://CQcJNqnAkn-/m
+photo.193.author: cattail.sapporo
+photo.193.commitdate: 2021/7/22
+photo.193.link: https://www.instagram.com/cattail.sapporo/
+photo.193.tags: apple time, climb, paws, portrait, tail
+photo.194: ig://CRQ-UnSh0Vi/m
+photo.194.author: komabazoophoto
+photo.194.commitdate: 2021/7/14
+photo.194.link: https://www.instagram.com/komabazoophoto/
+photo.194.tags: close-up, mofumofu, portrait, sleeping
+photo.195: ig://CRWB06gAIfF/m
+photo.195.author: cattail.sapporo
+photo.195.commitdate: 2021/7/19
+photo.195.link: https://www.instagram.com/cattail.sapporo/
+photo.195.tags: bamboo, climb, paws, portrait, tail
+photo.196: ig://CUPh7BoFgyZ/m
+photo.196.author: cattail.sapporo
+photo.196.commitdate: 2021/10/16
+photo.196.link: https://www.instagram.com/cattail.sapporo/
+photo.196.tags: apple time, dish, lunch time, portrait, smile
+photo.197: ig://CUUq99LB0kT/m
+photo.197.author: komabazoophoto
+photo.197.commitdate: 2021/11/3
+photo.197.link: https://www.instagram.com/komabazoophoto/
+photo.197.tags: portrait, tail
+photo.198: ig://CUfT8fOlnYt/m
+photo.198.author: cattail.sapporo
+photo.198.commitdate: 2021/10/16
+photo.198.link: https://www.instagram.com/cattail.sapporo/
+photo.198.tags: mofumofu, portrait
+photo.199: ig://CUsLE7TlSaO/m
+photo.199.author: cattail.sapporo
+photo.199.commitdate: 2021/10/16
+photo.199.link: https://www.instagram.com/cattail.sapporo/
+photo.199.tags: laying down, mofumofu, portrait, tail
+photo.200: ig://CUxUHHKlkpD/m
+photo.200.author: cattail.sapporo
+photo.200.commitdate: 2021/10/17
+photo.200.link: https://www.instagram.com/cattail.sapporo/
+photo.200.tags: peek, portrait, tongue
+photo.201: ig://CVDXhz-lVXs/m
+photo.201.author: cattail.sapporo
+photo.201.commitdate: 2022/11/20
+photo.201.link: https://www.instagram.com/cattail.sapporo/
+photo.201.tags: close-up, mofumofu, portrait, sample, tongue, whiskers
+photo.202: ig://CVM8ML6rOZ_/m
+photo.202.author: cattail.sapporo
+photo.202.commitdate: 2021/11/19
+photo.202.link: https://www.instagram.com/cattail.sapporo/
+photo.202.tags: mofumofu, paws, playing, portrait, upside-down
+photo.203: ig://CVXzKJbhcG_/m
+photo.203.author: leonard_redmof
+photo.203.commitdate: 2021/11/19
+photo.203.link: https://www.instagram.com/leonard_redmof/
+photo.203.tags: paws, portrait
+photo.204: ig://CVdIERBFK8t/m
+photo.204.author: cattail.sapporo
+photo.204.commitdate: 2021/10/27
+photo.204.link: https://www.instagram.com/cattail.sapporo/
+photo.204.tags: close-up, laying down, mofumofu, portrait, sleeping
+photo.205: ig://CVjGodaP-qH/m
+photo.205.author: cattail.sapporo
+photo.205.commitdate: 2021/11/20
+photo.205.link: https://www.instagram.com/cattail.sapporo/
+photo.205.tags: close-up, keeper, portrait, whiskers
+photo.206: ig://CV23Tw1pHi7/m
+photo.206.author: cattail.sapporo
+photo.206.commitdate: 2021/11/15
+photo.206.link: https://www.instagram.com/cattail.sapporo/
+photo.206.tags: dish, lunch time, portrait, smile, whiskers
+photo.207: ig://CWbfo_qh_zu/m
+photo.207.author: mari_neko3
+photo.207.commitdate: 2021/11/29
+photo.207.link: https://www.instagram.com/mari_neko3/
+photo.207.tags: mofumofu, portrait, whiskers
+photo.208: ig://CWrOopSBlnf/m
+photo.208.author: sasapan34
+photo.208.commitdate: 2022/10/24
+photo.208.link: https://www.instagram.com/sasapan34/
+photo.208.tags: tail
+photo.209: ig://CW5b83eFPsV/m
+photo.209.author: cattail.sapporo
+photo.209.commitdate: 2022/10/24
+photo.209.link: https://www.instagram.com/cattail.sapporo/
+photo.209.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
+photo.210: ig://CW-iAfchbGC/m
+photo.210.author: cattail.sapporo
+photo.210.commitdate: 2022/1/10
+photo.210.link: https://www.instagram.com/cattail.sapporo/
+photo.210.tags: laying down, portrait, tongue, whiskers
+photo.211: ig://CXJRxsilwEJ/m
+photo.211.author: cattail.sapporo
+photo.211.commitdate: 2022/10/24
+photo.211.link: https://www.instagram.com/cattail.sapporo/
+photo.211.tags: paws, portrait, sample, whiskers
+photo.212: ig://CXPM-S0PaRf/m
+photo.212.author: cattail.sapporo
+photo.212.commitdate: 2021/12/30
+photo.212.link: https://www.instagram.com/cattail.sapporo/
+photo.212.tags: paws, portrait, sample
+photo.213: ig://CXYW2_oFjSn/m
+photo.213.author: cattail.sapporo
+photo.213.commitdate: 2021/12/29
+photo.213.link: https://www.instagram.com/cattail.sapporo/
+photo.213.tags: bite, mofumofu, paws, portrait
+photo.214: ig://CXb9l9nPMZP/m
+photo.214.author: cattail.sapporo
+photo.214.commitdate: 2021/12/29
+photo.214.link: https://www.instagram.com/cattail.sapporo/
+photo.214.tags: bamboo, portrait, smile
+photo.215: ig://CXntAkKvWI6/m
+photo.215.author: hamamatsu.chiita
+photo.215.commitdate: 2021/12/19
+photo.215.link: https://www.instagram.com/hamamatsu.chiita/
+photo.215.tags: mofumofu, portrait, sample, whiskers
+photo.216: ig://CXra0jDPGmq/m
+photo.216.author: cattail.sapporo
+photo.216.commitdate: 2022/10/24
+photo.216.link: https://www.instagram.com/cattail.sapporo/
+photo.216.tags: portrait, sample, snow, tail
+photo.217: ig://cattail.sapporo/CX0UqGyrRjs/m
+photo.217.author: cattail.sapporo
+photo.217.commitdate: 2022/1/8
+photo.217.link: https://www.instagram.com/cattail.sapporo/
+photo.217.tags: dish, mofumofu, portrait, smile, whiskers
+photo.218: ig://CYLgRaDLfHB/m
+photo.218.author: cattail.sapporo
+photo.218.commitdate: 2022/10/24
+photo.218.link: https://www.instagram.com/cattail.sapporo/
+photo.218.tags: close-up, portrait, whiskers
+photo.219: ig://CYQ73A9L5uF/m
+photo.219.author: cattail.sapporo
+photo.219.commitdate: 2022/1/15
+photo.219.link: https://www.instagram.com/cattail.sapporo/
+photo.219.tags: bamboo, portrait, sample, smile, snow
+photo.220: ig://cattail.sapporo/CYT9lYFlorQ/m
+photo.220.author: cattail.sapporo
+photo.220.commitdate: 2022/1/15
+photo.220.link: https://www.instagram.com/cattail.sapporo/
+photo.220.tags: bamboo, blink, paws, portrait, snow, tongue, whiskers
+photo.221: ig://CYaiZDGLxc-/m
+photo.221.author: cattail.sapporo
+photo.221.commitdate: 2022/2/6
+photo.221.link: https://www.instagram.com/cattail.sapporo/
+photo.221.tags: dish, portrait, whiskers
+photo.222: ig://cattail.sapporo/CYlO9pCr8e9/m
+photo.222.author: cattail.sapporo
+photo.222.commitdate: 2022/1/23
+photo.222.link: https://www.instagram.com/cattail.sapporo/
+photo.222.tags: paws, peek, portrait, snow, whiskers
+photo.223: ig://CYv2ErarhVA/m
+photo.223.author: cattail.sapporo
+photo.223.commitdate: 2022/2/21
+photo.223.link: https://www.instagram.com/cattail.sapporo/
+photo.223.tags: paws, portrait, sample, snow
+photo.224: ig://CZEbVvaLxzQ/m
+photo.224.author: cattail.sapporo
+photo.224.commitdate: 2022/2/20
+photo.224.link: https://www.instagram.com/cattail.sapporo/
+photo.224.tags: bamboo, blink, close-up, portrait, whiskers
+photo.225: ig://CZHbuz2lZmB/m
+photo.225.author: cattail.sapporo
+photo.225.commitdate: 2022/2/18
+photo.225.link: https://www.instagram.com/cattail.sapporo/
+photo.225.tags: bamboo, bite, blink, paws, portrait, smile, tongue
+photo.226: ig://CZUEJIVLtO1/m
+photo.226.author: leonard_redmof
+photo.226.commitdate: 2022/4/5
+photo.226.link: https://www.instagram.com/leonard_redmof/
+photo.226.tags: mofumofu, portrait, sample, whiskers
+photo.227: ig://CZjV3m7r4LW/m
+photo.227.author: cattail.sapporo
+photo.227.commitdate: 2022/2/12
+photo.227.link: https://www.instagram.com/cattail.sapporo/
+photo.227.tags: portrait, sample, tail, whiskers
+photo.228: ig://CZ1dwZFLHe8/m
+photo.228.author: cattail.sapporo
+photo.228.commitdate: 2022/3/13
+photo.228.link: https://www.instagram.com/cattail.sapporo/
+photo.228.tags: climb, paws, portrait, tail, whiskers
+photo.229: ig://CZ_q4Y0r5Qk/m
+photo.229.author: cattail.sapporo
+photo.229.commitdate: 2022/4/5
+photo.229.link: https://www.instagram.com/cattail.sapporo/
+photo.229.tags: paws, portrait, snow, tongue
+photo.230: ig://CaPGKryrn-I/m
+photo.230.author: cattail.sapporo
+photo.230.commitdate: 2022/3/11
+photo.230.link: https://www.instagram.com/cattail.sapporo/
+photo.230.tags: portrait, sample, snow, whiskers
+photo.231: ig://Caj0YM1rzxm/m
+photo.231.author: cattail.sapporo
+photo.231.commitdate: 2022/3/6
+photo.231.link: https://www.instagram.com/cattail.sapporo/
+photo.231.tags: laying down, mofumofu, portrait, sample, tail
+photo.232: ig://Ca4WBUyL9LS/m
+photo.232.author: cattail.sapporo
+photo.232.commitdate: 2022/3/18
+photo.232.link: https://www.instagram.com/cattail.sapporo/
+photo.232.tags: portrait, sample, shake, snow
+photo.233: ig://CbPjcm0rM2I/m
+photo.233.author: cattail.sapporo
+photo.233.commitdate: 2022/4/8
+photo.233.link: https://www.instagram.com/cattail.sapporo/
+photo.233.tags: mofumofu, portrait, whiskers
+photo.234: ig://CbaI70UL-vl/m
+photo.234.author: cattail.sapporo
+photo.234.commitdate: 2022/6/11
+photo.234.link: https://www.instagram.com/cattail.sapporo/
+photo.234.tags: blink, paws, portrait, sample, snow, tongue, whiskers
+photo.235: ig://Cbm62tJJQFU/m
+photo.235.author: minatomirai215
+photo.235.commitdate: 2022/4/25
+photo.235.link: https://www.instagram.com/minatomirai215/
+photo.235.tags: hammock, peek, portrait
+photo.236: ig://Cbpb3DargO8/m
+photo.236.author: cattail.sapporo
+photo.236.commitdate: 2022/4/26
+photo.236.link: https://www.instagram.com/cattail.sapporo/
+photo.236.tags: close-up, laying down, mofumofu, portrait, whiskers
+photo.237: ig://CbzEOsvu7X-/m
+photo.237.author: cattail.sapporo
+photo.237.commitdate: 2022/6/11
+photo.237.link: https://www.instagram.com/cattail.sapporo/
+photo.237.tags: home, laying down, mofumofu, portrait, sample, tail
+photo.238: ig://Cb4rn-7reLL/m
+photo.238.author: cattail.sapporo
+photo.238.commitdate: 2022/5/13
+photo.238.link: https://www.instagram.com/cattail.sapporo/
+photo.238.tags: bridge, laying down, portrait, sample, tongue, whiskers
+photo.239: ig://Cccu_cuLIVV/m
+photo.239.author: cattail.sapporo
+photo.239.commitdate: 2022/5/25
+photo.239.link: https://www.instagram.com/cattail.sapporo/
+photo.239.tags: apple time, close-up, paws, portrait, sample, standing, whiskers, window
+photo.240: ig://Cczfhv9uvHH/m
+photo.240.author: cattail.sapporo
+photo.240.commitdate: 2022/10/24
+photo.240.link: https://www.instagram.com/cattail.sapporo/
+photo.240.tags: close-up, paws, portrait, sample, whiskers
+photo.241: ig://CdIkPGrLFLA/m
+photo.241.author: cattail.sapporo
+photo.241.commitdate: 2022/6/7
+photo.241.link: https://www.instagram.com/cattail.sapporo/
+photo.241.tags: close-up, paws, peek, portrait
+photo.242: ig://CdU8EvMulPq/m
+photo.242.author: cattail.sapporo
+photo.242.commitdate: 2022/6/2
+photo.242.link: https://www.instagram.com/cattail.sapporo/
+photo.242.tags: bridge, home, paws, portrait, sample, tail
+photo.243: ig://CddJJl2LA_n/m
+photo.243.author: cattail.sapporo
+photo.243.commitdate: 2022/11/2
+photo.243.link: https://www.instagram.com/cattail.sapporo/
+photo.243.tags: bridge, paws, portrait, sample
+photo.244: ig://CdgHUT4rmvO/m
+photo.244.author: cattail.sapporo
+photo.244.commitdate: 2022/11/2
+photo.244.link: https://www.instagram.com/cattail.sapporo/
+photo.244.tags: portrait, sample, tail, whiskers
+photo.245: ig://Cdshz81L2mb/m
+photo.245.author: cattail.sapporo
+photo.245.commitdate: 2022/11/2
+photo.245.link: https://www.instagram.com/cattail.sapporo/
+photo.245.tags: close-up, laying down, mofumofu, portrait, sample, sleeping
+photo.246: ig://Cd0QSeqLz66/m
+photo.246.author: cattail.sapporo
+photo.246.commitdate: 2022/8/24
+photo.246.link: https://www.instagram.com/cattail.sapporo/
+photo.246.tags: dish, lunch time, portrait, sample, whiskers
+photo.247: ig://CeEIP0FrJ7_/m
+photo.247.author: cattail.sapporo
+photo.247.commitdate: 2022/6/22
+photo.247.link: https://www.instagram.com/cattail.sapporo/
+photo.247.tags: home, mofumofu, paws, portrait, tail
+photo.248: ig://CeTi0GdruJp/m
+photo.248.author: cattail.sapporo
+photo.248.commitdate: 2022/9/24
+photo.248.link: https://www.instagram.com/cattail.sapporo/
+photo.248.tags: peek, portrait, sample
+photo.249: ig://CfEJLxILyOo/m
+photo.249.author: cattail.sapporo
+photo.249.commitdate: 2022/7/23
+photo.249.link: https://www.instagram.com/cattail.sapporo/
+photo.249.tags: paws, portrait, sample, smile, whiskers
+photo.250: ig://CfJPzJerTVf/m
+photo.250.author: daniele.tokyo
+photo.250.commitdate: 2022/7/23
+photo.250.link: https://www.instagram.com/daniele.tokyo/
+photo.250.tags: close-up, paws, whiskers
+photo.251: ig://CfJav9UPu_K/m
+photo.251.author: minatomirai215
+photo.251.commitdate: 2022/7/23
+photo.251.link: https://www.instagram.com/minatomirai215/
+photo.251.tags: bamboo, bite, portrait, sample, snow
+photo.252: ig://Cfd13JSLFnw/m
+photo.252.author: cattail.sapporo
+photo.252.commitdate: 2022/8/16
+photo.252.link: https://www.instagram.com/cattail.sapporo/
+photo.252.tags: portrait, sample, tongue, whiskers
+photo.253: ig://CfojyrjrIQ7/m
+photo.253.author: cattail.sapporo
+photo.253.commitdate: 2022/7/31
+photo.253.link: https://www.instagram.com/cattail.sapporo/
+photo.253.tags: home, paws, portrait, sample, tail, whiskers
+photo.254: ig://Cfv4fl9LE-m/m
+photo.254.author: cattail.sapporo
+photo.254.commitdate: 2022/7/31
+photo.254.link: https://www.instagram.com/cattail.sapporo/
+photo.254.tags: close-up, grooming, paws, portrait, sample, tongue, whiskers
+photo.255: ig://Cf6MplALNQi/m
+photo.255.author: cattail.sapporo
+photo.255.commitdate: 2022/11/20
+photo.255.link: https://www.instagram.com/cattail.sapporo/
+photo.255.tags: dish, mofumofu, portrait, sample
+photo.256: ig://CgWpXeFPACy/m
+photo.256.author: leonard_redmof
+photo.256.commitdate: 2022/7/25
+photo.256.link: https://www.instagram.com/leonard_redmof/
+photo.256.tags: portrait, sample, whiskers
+species: 2
+studbook.id: 0554
+zoo: 7

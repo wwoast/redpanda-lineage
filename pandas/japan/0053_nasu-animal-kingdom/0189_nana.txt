@@ -1,0 +1,32 @@
+[panda]
+_id: 189
+birthday: 2013/6/12
+birthplace: 53
+children: none
+commitdate: 2018/7/14
+death: 2016/1/25
+en.name: Nana
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 那々
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 188
+photo.1: https://www.codaworry.com/images/rpf/nana-nasu-1.jpg
+photo.1.author: miis_98
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://mihorinh.exblog.jp/
+photo.1.tags: profile
+photo.2: https://www.codaworry.com/images/rpf/nana-nasu-2.jpg
+photo.2.author: miis_98
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://mihorinh.exblog.jp/
+photo.2.tags: laying down
+species: 2
+studbook.id: 13142
+video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
+video.1.author: 963293 ride
+video.1.link: https://www.youtube.com/channel/UCZL5yR-wkotXFOlM-jS-Zwg
+zoo: 53

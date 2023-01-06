@@ -1,0 +1,24 @@
+[zoo]
+_id: 100
+commitdate: 2018/11/27
+en.address: 235 หมู่ที่ 7 Tambon Bang Phra, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand
+en.location: Si Racha, Chon Buri, Thailand
+en.name: Khao Kheow Open Zoo
+flag: Thailand
+language.order: th, en
+latitude: 13.2148627
+longitude: 100.9866786
+map: https://goo.gl/maps/QRi8XP3ynNU2
+photo.1: ig://BRAUtHuBncB/m
+photo.1.author: nataly_sav
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/nataly_sav/
+photo.2: ig://B_lndaRHjNl/m
+photo.2.author: khaokheow.zoo
+photo.2.commitdate: 2020/5/27
+photo.2.link: https://www.instagram.com/khaokheow.zoo/
+photo.2.tags: profile
+th.address: 235 หมู่ที่ 7 ตำบล บางพระ อำเภอ ศรีราชา ชลบุรี 20110
+th.location: เทศบาลเมืองชลบุรี
+th.name: สวนสัตว์เปิดเขาเขียว
+website: http://www.khaokheow.zoothailand.org/

@@ -1,0 +1,21 @@
+[zoo]
+_id: 167
+commitdate: 2019/3/19
+en.address: 201 County St, Attleboro, MA 02703, USA
+en.location: Attleboro, Massachusetts, USA
+en.name: Capron Park Zoo
+flag: USA
+language.order: en
+latitude: 41.9376231
+longitude: -71.3014633
+map: https://goo.gl/maps/HkkkTA9xbaH2
+photo.1: ig://B6GSVupBa8w/m
+photo.1.author: capronparkzoo
+photo.1.commitdate: 2019/12/31
+photo.1.link: https://www.instagram.com/capronparkzoo/
+photo.2: ig://B37q0aahfxu/m
+photo.2.author: capronparkzoo
+photo.2.commitdate: 2019/12/31
+photo.2.link: https://www.instagram.com/capronparkzoo/
+photo.2.tags: profile
+website: https://capronparkzoo.com

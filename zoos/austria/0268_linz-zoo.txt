@@ -1,0 +1,12 @@
+[zoo]
+_id: 268
+commitdate: 2020/11/26
+en.address: Windflachweg 1, 4040 Linz, Austria
+en.location: Linz, Austria
+en.name: Linz Zoo
+flag: Austria
+language.order: en
+latitude: 48.31056
+longitude: 14.2611153
+map: https://g.page/zoolinz
+website: https://www.zoo-linz.at/

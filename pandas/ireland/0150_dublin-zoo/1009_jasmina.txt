@@ -1,0 +1,57 @@
+[panda]
+_id: 1009
+birthday: 2008/7/21
+birthplace: 72
+children: unknown
+commitdate: 2019/11/1
+en.name: Jasmina
+en.nicknames: none
+en.othernames: Rene
+gender: f
+language.order: en
+litter: 1022
+location.1: 72, 2008/7/21
+location.2: 215, 2009/7/13
+location.3: 150, 2015/8/13
+photo.1: ig://B14S8pJFpe5/m
+photo.1.author: s.ofiaanna
+photo.1.commitdate: 2019/11/1
+photo.1.link: https://www.instagram.com/s.ofiaanna/
+photo.1.tags: paws, tree
+photo.2: ig://B1s5pwRo4hl/m
+photo.2.author: dublinzoo_official
+photo.2.commitdate: 2019/11/1
+photo.2.link: https://www.instagram.com/dublinzoo_official/
+photo.2.tags: paws, smile, wink
+photo.3: ig://BzP3WUZIKjj/m
+photo.3.author: dublinzoo_official
+photo.3.commitdate: 2019/11/1
+photo.3.link: https://www.instagram.com/dublinzoo_official/
+photo.3.tags: tail
+photo.4: ig://BzILOlxoW7W/m
+photo.4.author: dublinzoo_official
+photo.4.commitdate: 2019/11/1
+photo.4.link: https://www.instagram.com/dublinzoo_official/
+photo.4.tags: portrait, toys
+photo.5: ig://BmanPtLF_mq/m
+photo.5.author: dublinzoo_official
+photo.5.commitdate: 2019/11/1
+photo.5.link: https://www.instagram.com/dublinzoo_official/
+photo.5.tags: blink, laying down, portrait, yawn
+photo.6: ig://Bkui5TGFy4H/m
+photo.6.author: dublinzoo_official
+photo.6.commitdate: 2019/11/1
+photo.6.link: https://www.instagram.com/dublinzoo_official/
+photo.6.tags: ice treat, portrait, profile, tongue
+photo.7: ig://Bf0cII8jzyA/m
+photo.7.author: dublinzoo_official
+photo.7.commitdate: 2019/11/1
+photo.7.link: https://www.instagram.com/dublinzoo_official/
+photo.7.tags: laying down, snow, tail, tree
+photo.8: ig://BaZQRJjjXwx/m
+photo.8.author: dublinzoo_official
+photo.8.commitdate: 2019/11/1
+photo.8.link: https://www.instagram.com/dublinzoo_official/
+photo.8.tags: portrait, tree
+species: 2
+zoo: 150

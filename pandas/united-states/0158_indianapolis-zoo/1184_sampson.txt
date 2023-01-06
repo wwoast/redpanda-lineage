@@ -1,0 +1,90 @@
+[panda]
+_id: 1184
+birthday: 2014/7/11
+birthplace: 75
+children: none
+commitdate: 2020/6/28
+en.name: Sampson
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サンプソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 75, 2014/7/11
+location.2: 122, 2014/11/8
+location.3: 158, 2015/11/6
+photo.1: ig://BLy3X7Rl6xN/m
+photo.1.author: indianapoliszoo
+photo.1.commitdate: 2020/7/1
+photo.1.link: https://www.instagram.com/indianapoliszoo/
+photo.1.tags: apple time, paws
+photo.2: ig://BWsMvS-jWv5/m
+photo.2.author: indianapoliszoo
+photo.2.commitdate: 2020/7/1
+photo.2.link: https://www.instagram.com/indianapoliszoo/
+photo.2.tags: apple time, paws, standing, videolink
+photo.3: ig://Bo11eJFHciU/m
+photo.3.author: indianapoliszoo
+photo.3.commitdate: 2020/7/1
+photo.3.link: https://www.instagram.com/indianapoliszoo/
+photo.3.tags: portrait, profile, smile, standing
+photo.4: ig://BsI71FkHeWn/m
+photo.4.author: indianapoliszoo
+photo.4.commitdate: 2020/7/1
+photo.4.link: https://www.instagram.com/indianapoliszoo/
+photo.4.tags: bamboo, videolink
+photo.5: ig://By0x9ezFt9i/m
+photo.5.author: indianapoliszoo
+photo.5.commitdate: 2020/7/1
+photo.5.link: https://www.instagram.com/indianapoliszoo/
+photo.5.tags: keeper, paws
+photo.6: https://www.codaworry.com/images/rpf/sampson-1-indianapolis.jpg
+photo.6.author: rossifari
+photo.6.commitdate: 2022/2/8
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: peek, sample, whiskers
+photo.7: https://www.codaworry.com/images/rpf/sampson-2-indianapolis.jpg
+photo.7.author: rossifari
+photo.7.commitdate: 2022/2/8
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: mofumofu, sample, whiskers
+photo.8: https://www.codaworry.com/images/rpf/sampson-3-indianapolis.jpg
+photo.8.author: rossifari
+photo.8.commitdate: 2022/2/8
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: peek, whiskers
+photo.9: https://www.codaworry.com/images/rpf/sampson-4-indianapolis.jpg
+photo.9.author: rossifari
+photo.9.commitdate: 2022/2/8
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: bamboo, paws, peek, sample, tail, whiskers
+photo.10: https://www.codaworry.com/images/rpf/sampson-5-indianapolis.jpg
+photo.10.author: rossifari
+photo.10.commitdate: 2022/2/8
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: bamboo, paws, peek, sample, tail, whiskers
+photo.11: https://www.codaworry.com/images/rpf/sampson-6-indianapolis.jpg
+photo.11.author: rossifari
+photo.11.commitdate: 2022/2/8
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: close-up, mofumofu, paws, peek, portrait, sample, whiskers
+photo.12: https://www.codaworry.com/images/rpf/sampson-7-indianapolis.jpg
+photo.12.author: rossifari
+photo.12.commitdate: 2022/2/8
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: close-up, nose, paws, sample, whiskers
+photo.13: https://www.codaworry.com/images/rpf/sampson-8-indianapolis.jpg
+photo.13.author: rossifari
+photo.13.commitdate: 2022/2/8
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: close-up, nose, whiskers
+photo.14: ig://CXtOfD3r7r5/m
+photo.14.author: worldthathesees
+photo.14.commitdate: 2022/2/9
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: peek, whiskers
+species: 1
+zoo: 158

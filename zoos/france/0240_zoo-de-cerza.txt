@@ -1,0 +1,16 @@
+[zoo]
+_id: 240
+commitdate: 2020/3/27
+en.address: D143, 14100 Hermival-les-Vaux, France
+en.location: Hermival-les-Vaux, Calvados, France
+en.name: Zoo de Cerza
+flag: France
+fr.address: D143, 14100 Hermival-les-Vaux, France
+fr.location: Hermival-les-Vaux, Calvados, France
+fr.name: Zoo de Cerza
+fr.othernames: Cerza Centre D'Etude Et De Recherche Zpp
+language.order: fr, en
+latitude: 49.1832323
+longitude: 0.3082373
+map: https://goo.gl/maps/AHJFzXdy4cXo9BMH6
+website: https://www.cerza.com/

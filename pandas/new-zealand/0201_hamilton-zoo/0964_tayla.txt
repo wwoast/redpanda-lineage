@@ -1,0 +1,24 @@
+[panda]
+_id: 964
+birthday: 2007/12/8
+birthplace: 202
+children: 954, 968, 969, 970, 965, 966, 971, 972
+commitdate: 2019/8/16
+en.name: Tayla
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: テイラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1023
+location.1: 202, 2007/12/8
+location.2: 201, 2010/10/27
+photo.1: ig://BVvqsy-ghzm/m
+photo.1.author: shelleyedhouse
+photo.1.commitdate: 2019/8/16
+photo.1.link: https://www.instagram.com/shelleyedhouse/
+photo.1.tags: portrait, profile
+species: 1
+zoo: 201

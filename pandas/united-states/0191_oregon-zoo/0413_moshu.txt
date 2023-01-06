@@ -1,0 +1,140 @@
+[panda]
+_id: 413
+birthday: 2011/6/20
+birthplace: 83
+children: 412, 488, 489, 1188
+commitdate: 2018/11/23
+en.name: Moshu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: モシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 414, 415
+location.1: 83, 2011/6/20
+location.2: 90, 2012/5/14
+location.3: 191, 2019/11/17
+photo.1: ig://BgMlUomBkEN/m
+photo.1.author: nashvillezoo
+photo.1.commitdate: 2018/12/12
+photo.1.link: https://www.instagram.com/nashvillezoo/
+photo.2: ig://BkP3hdAFo2A/m
+photo.2.author: nashvillezoo
+photo.2.commitdate: 2018/11/30
+photo.2.link: https://www.instagram.com/nashvillezoo/
+photo.2.tags: smile
+photo.3: ig://B5Bh94tnsgi/m
+photo.3.author: oregonzoo
+photo.3.commitdate: 2019/11/22
+photo.3.link: https://www.instagram.com/oregonzoo/
+photo.3.tags: bamboo, portrait, profile
+photo.4: ig://B5aPXjYhNMn/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/11/29
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: bamboo, portrait
+photo.5: ig://CAYD1vqnH2g/m
+photo.5.author: oregonzoo
+photo.5.commitdate: 2020/6/9
+photo.5.link: https://www.instagram.com/oregonzoo/
+photo.5.tags: keeper, portrait, videolink
+photo.6: ig://CBLm8wOHbUA/m
+photo.6.author: oregonzoo
+photo.6.commitdate: 2020/6/13
+photo.6.link: https://www.instagram.com/oregonzoo/
+photo.6.tags: paws, portrait, smile, tongue
+photo.7: ig://CH1eOz7FYa2/m
+photo.7.author: oregonzoo
+photo.7.commitdate: 2020/11/28
+photo.7.link: https://www.instagram.com/oregonzoo/
+photo.7.tags: bamboo, portrait, tongue
+photo.8: ig://CKm0K7TM_Rh/m
+photo.8.author: redpandanetwork
+photo.8.commitdate: 2021/9/23
+photo.8.link: https://www.instagram.com/redpandanetwork/
+photo.8.tags: paws, whiskers
+photo.9: ig://CMknksBh6G5/m
+photo.9.author: oregonzoo
+photo.9.commitdate: 2021/6/23
+photo.9.link: https://www.instagram.com/oregonzoo/
+photo.9.tags: close-up, portrait, whiskers
+photo.10: ig://CPZL6hKN3Ds/m
+photo.10.author: oregonzoo
+photo.10.commitdate: 2021/9/18
+photo.10.link: https://www.instagram.com/accounts/activity/
+photo.10.tags: close-up, portrait, whiskers
+photo.11: ig://CQMfpSqB48W/m
+photo.11.author: oregonzoo
+photo.11.commitdate: 2021/9/23
+photo.11.link: https://www.instagram.com/oregonzoo/
+photo.11.tags: close-up, portrait, tongue, whiskers
+photo.12: ig://CR9fLpqLy3Z/m
+photo.12.author: oregonzoo
+photo.12.commitdate: 2021/8/18
+photo.12.link: https://www.instagram.com/oregonzoo/
+photo.12.tags: close-up, lips, portrait, whiskers
+photo.13: ig://CXQaOJqOwg8/m
+photo.13.author: worldthathesees
+photo.13.commitdate: 2021/12/30
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: bamboo, whiskers
+photo.14: ig://CZkeO7JvI1O/m
+photo.14.author: oregonzoo
+photo.14.commitdate: 2022/2/20
+photo.14.link: https://www.instagram.com/oregonzoo/
+photo.14.tags: bite, blink, mofumofu, paws, portrait, sample, smile, whiskers
+photo.15: ig://CZ90URHpoo0/m
+photo.15.author: oregonzoo
+photo.15.commitdate: 2022/3/8
+photo.15.link: https://www.instagram.com/oregonzoo/
+photo.15.tags: flowers, nose, whiskers
+photo.16: ig://CbIjJ1ypqq2/m
+photo.16.author: oregonzoo
+photo.16.commitdate: 2022/4/10
+photo.16.link: https://www.instagram.com/oregonzoo/
+photo.16.tags: close-up, lips, portrait, whiskers
+photo.17: ig://CbdjRXjPY2z/m
+photo.17.author: oregonzoo
+photo.17.commitdate: 2022/4/26
+photo.17.link: https://www.instagram.com/oregonzoo/
+photo.17.tags: close-up, portrait, tongue, whiskers
+photo.18: ig://Cb0kZT0veJZ/m
+photo.18.author: oregonzoo
+photo.18.commitdate: 2022/5/13
+photo.18.link: https://www.instagram.com/oregonzoo/
+photo.18.tags: bamboo, mofumofu, paws, portrait, tongue, whiskers
+photo.19: ig://CcGc-sZPhaK/m
+photo.19.author: oregonzoo
+photo.19.commitdate: 2022/4/13
+photo.19.link: https://www.instagram.com/oregonzoo/
+photo.19.tags: apple time, dish, portrait, sample, tongue, whiskers
+photo.20: ig://Cg-Lhhtv3Ht/m
+photo.20.author: wumpwoast
+photo.20.commitdate: 2022/8/11
+photo.20.link: https://www.instagram.com/wumpwoast/
+photo.20.tags: portrait, sample, tongue
+photo.21: ig://ChAb-7YJNVh/m
+photo.21.author: wumpwoast
+photo.21.commitdate: 2022/9/24
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: laying down, portrait, sample, whiskers
+photo.22: ig://ChQ3pT2rVY2/m
+photo.22.author: wumpwoast
+photo.22.commitdate: 2022/11/11
+photo.22.link: https://www.instagram.com/wumpwoast/
+photo.22.tags: close-up, mofumofu, whiskers
+photo.23: ig://Ch-eKSvJjVk/m
+photo.23.author: oregonzoo
+photo.23.commitdate: 2022/9/8
+photo.23.link: https://www.instagram.com/oregonzoo/
+photo.23.tags: close-up, mofumofu, portrait, sample, tail
+photo.24: ig://CineSOOpUJ8/m
+photo.24.author: oregonzoo
+photo.24.commitdate: 2022/10/7
+photo.24.link: https://www.instagram.com/oregonzoo/
+photo.24.tags: close-up, portrait, sample
+species: 2
+studbook.id: 1115
+zoo: 191

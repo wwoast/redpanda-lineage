@@ -1,0 +1,12 @@
+[zoo]
+_id: 255
+commitdate: 2020/6/15
+en.address: 4061 Ararat-Halls Gap Rd, Halls Gap VIC 3381, Australia
+en.location: Halls Gap, Victoria, Australia
+en.name: Halls Gap Zoo
+flag: Australia
+language.order: en
+latitude: -37.1443729
+longitude: 142.5603087
+map: https://g.page/hallsgapzoo?share
+website: https://hallsgapzoo.com.au/

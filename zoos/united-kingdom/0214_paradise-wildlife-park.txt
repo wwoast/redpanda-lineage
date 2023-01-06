@@ -1,0 +1,29 @@
+[zoo]
+_id: 214
+commitdate: 2019/11/1
+en.address: White Stubbs Ln, Broxbourne EN10 7QA, United Kingdom
+en.location: Broxbourne EN10 7QA, UK
+en.name: Paradise Wildlife Park
+flag: UK
+language.order: en
+latitude: 51.744107
+longitude: -0.062245
+map: https://goo.gl/maps/yWTa37REWi5tVfFj9
+photo.1: ig://BumG_9mgNVN/m
+photo.1.author: paradisewildlifepark
+photo.1.commitdate: 2020/5/17
+photo.1.link: https://www.instagram.com/paradisewildlifepark/
+photo.2: ig://B32Lv7IgPve/m
+photo.2.author: paradisewildlifepark
+photo.2.commitdate: 2020/5/15
+photo.2.link: https://www.instagram.com/paradisewildlifepark/
+photo.3: ig://B5QToCGgcC-/m
+photo.3.author: paradisewildlifepark
+photo.3.commitdate: 2020/5/4
+photo.3.link: https://www.instagram.com/paradisewildlifepark/
+photo.3.tags: profile
+photo.4: ig://B5XkkLUg4fg/m
+photo.4.author: paradisewildlifepark
+photo.4.commitdate: 2020/5/4
+photo.4.link: https://www.instagram.com/paradisewildlifepark/
+website: https://www.pwpark.com/

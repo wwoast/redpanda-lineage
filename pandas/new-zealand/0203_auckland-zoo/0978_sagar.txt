@@ -1,0 +1,26 @@
+[panda]
+_id: 978
+birthday: 2000/6/26
+birthplace: 208
+children: 981, 979, 980, 975, 976, 977
+commitdate: 2019/8/24
+death: 2015/12/17
+en.name: Sagar
+en.nicknames: none
+en.oldnames: Durga
+en.othernames: none
+gender: m
+in.name: सागर
+in.nicknames: none
+in.oldnames: दुर्गा
+in.othernames: none
+jp.name: サガット
+jp.nicknames: none
+jp.oldnames: ドゥルガー
+jp.othernames: none
+language.order: en, in, jp
+litter: unknown
+location.1: 208, 2000/6/26
+location.2: 203, 2010/11/3
+species: 1
+zoo: 203

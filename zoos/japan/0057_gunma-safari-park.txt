@@ -1,0 +1,19 @@
+[zoo]
+_id: 57
+commitdate: 2018/7/26
+en.address: Japan, 〒370-2321 Gunma Prefecture, 富岡市岡本１
+en.location: Gunma Prefecture, Japan
+en.name: Gunma Safari Park
+flag: Japan
+jp.address: 〒370-2321 群馬県 富岡市岡本１
+jp.location: 群馬県
+jp.name: 群馬サファリパーク
+language.order: jp, en
+latitude: 36.227195
+longitude: 138.8849445
+map: https://goo.gl/maps/at8sz15RscJ2
+photo.1: ig://wDsin_Enj_/m
+photo.1.author: omisadooguro
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/omisadooguro/
+website: http://www.safari.co.jp/

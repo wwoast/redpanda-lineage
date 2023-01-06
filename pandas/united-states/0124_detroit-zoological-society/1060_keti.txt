@@ -1,0 +1,57 @@
+[panda]
+_id: 1060
+birthday: 2019/7/6
+birthplace: 124
+children: none
+commitdate: 2019/11/29
+en.name: Keti
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケティ
+jp.nicknames: none
+jp.othernames: 
+language.order: en, jp
+litter: none
+photo.1: ig://B4z1Sr1A5lC/m
+photo.1.author: detroitzoo
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: baby, laying down
+photo.2: ig://B5EnGaQBN-o/m
+photo.2.author: detroitzoo
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/detroitzoo/
+photo.2.tags: baby, laying down, portrait
+photo.3: ig://B9cDhssFLes/m
+photo.3.author: detroitzoo
+photo.3.commitdate: 2020/12/5
+photo.3.link: https://www.instagram.com/detroitzoo/
+photo.3.tags: paws, tree
+photo.4: ig://B94N1aEA3vU/m
+photo.4.author: detroitzoo
+photo.4.commitdate: 2020/12/5
+photo.4.link: https://www.instagram.com/detroitzoo/
+photo.4.tags: smile
+photo.5: ig://B-W8K_HAub_/m
+photo.5.author: detroitzoo
+photo.5.commitdate: 2020/12/5
+photo.5.link: https://www.instagram.com/detroitzoo/
+photo.5.tags: close-up, nose
+photo.6: ig://B_UvOUigiUJ/m
+photo.6.author: detroitzoo
+photo.6.commitdate: 2020/12/5
+photo.6.link: https://www.instagram.com/detroitzoo/
+photo.6.tags: bamboo, portrait, profile, white face
+photo.7: ig://B_fF51tHsaG/m
+photo.7.author: detroitzoo
+photo.7.commitdate: 2020/12/5
+photo.7.link: https://www.instagram.com/detroitzoo/
+photo.7.tags: laying down, tail
+photo.8: ig://CCTaS3bFrAz/m
+photo.8.author: detroitzoo
+photo.8.commitdate: 2020/12/5
+photo.8.link: https://www.instagram.com/detroitzoo/
+photo.8.tags: smile, tail
+species: 1
+zoo: 124

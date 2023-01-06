@@ -1,0 +1,32 @@
+[panda]
+_id: 1303
+birthday: 2021/6/17
+birthplace: 104
+children: none
+commitdate: 2021/7/29
+en.name: Sisu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1302
+photo.1: ig://CR87UGsApbc/m
+photo.1.author: potawatomizoo
+photo.1.commitdate: 2022/2/19
+photo.1.link: https://www.instagram.com/potawatomizoo/
+photo.1.tags: baby, keeper, tail
+photo.2: ig://CShWNJcM7c-/m
+photo.2.author: potawatomizoo
+photo.2.commitdate: 2022/2/19
+photo.2.link: https://www.instagram.com/potawatomizoo/
+photo.2.tags: baby, keeper
+photo.3: ig://CXWH4FGrPe3/m
+photo.3.author: potawatomizoo
+photo.3.commitdate: 2022/3/5
+photo.3.link: https://www.instagram.com/potawatomizoo/
+photo.3.tags: autumn, paws, peek, portrait, profile, whiskers, white face
+species: 1
+zoo: 104

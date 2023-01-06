@@ -1,0 +1,34 @@
+[panda]
+_id: 357
+birthday: 2008/7/14
+birthplace: 33
+children: 465, 586
+commitdate: 2018/10/18
+death: 2016/12/12
+en.name: Potato
+en.nicknames: none
+en.othernames: Poteto
+gender: m
+jp.name: ポテト
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+photo.1: ig://qN12Z7w0cc/m
+photo.1.author: singer_syk_saya
+photo.1.commitdate: 2020/3/11
+photo.1.link: https://www.instagram.com/singer_syk_saya/
+photo.1.tags: close-up, portrait
+photo.2: ig://zYXQm-jaQQ/m
+photo.2.author: juckymasa
+photo.2.commitdate: 2020/3/11
+photo.2.link: https://www.instagram.com/juckymasa/
+photo.2.tags: portrait, standing, tail
+photo.3: ig://0fQ1dJyUgS/m
+photo.3.author: lovericky19
+photo.3.commitdate: 2020/3/11
+photo.3.link: https://www.instagram.com/lovericky19/
+photo.3.tags: portrait, standing, tail
+species: 2
+studbook.id: 0881
+zoo: 33

@@ -1,0 +1,20 @@
+[panda]
+_id: 924
+birthday: 2002/7/2
+birthplace: 154
+children: none
+commitdate: 2019/7/2
+death: 2004/7/28
+en.name: Banshi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ばんし
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 154, 2002/7/2
+location.2: 124, 2003/11/18
+species: 1
+zoo: 124

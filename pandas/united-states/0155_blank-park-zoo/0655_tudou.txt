@@ -1,0 +1,44 @@
+[panda]
+_id: 655
+birthday: 2016/8/20
+birthplace: 126
+children: none
+commitdate: 2019/3/19
+en.name: Tudou
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 集う
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 126, 2016/8/20
+location.2: 155, 2017/5/9
+photo.1: ig://Bk2twGJlQtq/m
+photo.1.author: blankparkzoo
+photo.1.commitdate: 2020/5/29
+photo.1.link: https://www.instagram.com/blankparkzoo/
+photo.1.tags: tongue
+photo.2: ig://BlD_hjElx5O/m
+photo.2.author: blankparkzoo
+photo.2.commitdate: 2020/5/29
+photo.2.link: https://www.instagram.com/blankparkzoo/
+photo.3: ig://BwZ-ROJFwb6/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/23
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: laying down, portrait, profile
+photo.4: ig://B5aO6N6hFyv/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/11/29
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: smile, tongue, whiskers
+photo.5: ig://CCJXe5Vl_am/m
+photo.5.author: blankparkzoo
+photo.5.commitdate: 2020/9/6
+photo.5.link: https://www.instagram.com/blankparkzoo/
+photo.5.tags: bamboo, paws, portrait, whiskers
+species: 1
+studbook.id: 1669
+zoo: 155

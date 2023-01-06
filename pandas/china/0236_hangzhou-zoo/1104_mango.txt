@@ -1,0 +1,40 @@
+[panda]
+_id: 1104
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 芒果
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/2/5
+en.name: Mango
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 芒果
+jp.nicknames: none
+jp.othernames: マンゴ
+language.order: cn, en, jp
+litter: unknown
+photo.1: ig://B7f60eMAXfp/m
+photo.1.author: mkr0369
+photo.1.commitdate: 2020/2/5
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: ear, portrait, techitechi, tongue
+photo.2: ig://B59mEdDDA7G/m
+photo.2.author: mkr0369
+photo.2.commitdate: 2020/2/5
+photo.2.link: https://www.instagram.com/mkr0369/
+photo.2.tags: bridge, ear, paws, smile, tongue
+photo.3: ig://B8qy-MZByzQ/m
+photo.3.author: mkr0369
+photo.3.commitdate: 2020/2/28
+photo.3.link: https://www.instagram.com/mkr0369/
+photo.3.tags: portrait, profile, smile, standing, tail
+photo.4: ig://B93rTszhXEi/m
+photo.4.author: mkr0369
+photo.4.commitdate: 2020/3/18
+photo.4.link: https://www.instagram.com/mkr0369/
+photo.4.tags: bridge, paws, smile
+species: 2
+zoo: 236

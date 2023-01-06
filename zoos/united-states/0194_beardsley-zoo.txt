@@ -1,0 +1,25 @@
+[zoo]
+_id: 194
+commitdate: 2019/7/2
+en.address: 1875 Noble Ave, Bridgeport, CT 06610, USA
+en.location: Bridgeport, Connecticut, USA
+en.name: Connecticut's Beardsley Zoo
+flag: USA
+language.order: en
+latitude: 41.2134138
+longitude: -73.1854623
+map: https://goo.gl/maps/3HuKmw5RFecxBZQVA
+photo.1: ig://B7vposOpYMs/m
+photo.1.author: ctbeardsleyzoo
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.1.tags: profile
+photo.2: ig://B39UJZLJW_Q/m
+photo.2.author: ctbeardsleyzoo
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.3: ig://Bz_k1Ilp4iE/m
+photo.3.author: ctbeardsleyzoo
+photo.3.commitdate: 2020/3/3
+photo.3.link: https://www.instagram.com/ctbeardsleyzoo/
+website: https://www.beardsleyzoo.org/

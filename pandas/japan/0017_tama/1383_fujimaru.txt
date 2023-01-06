@@ -1,0 +1,27 @@
+[panda]
+_id: 1383
+birthday: 2022/7/27
+birthplace: 17
+children: none
+commitdate: 2022/8/15
+en.name: Fujimaru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フジマル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1384
+photo.1: ig://Ck3P_iHrZGm/m
+photo.1.author: mini_cochi
+photo.1.commitdate: 2022/12/19
+photo.1.link: https://www.instagram.com/mini_cochi/
+photo.1.tags: baby, bamboo, paws, portrait, whiskers
+photo.2: ig://Ck3TAT-rDoV/m
+photo.2.author: mini_cochi
+photo.2.commitdate: 2022/12/11
+photo.2.link: https://www.instagram.com/mini_cochi/
+photo.2.tags: apple time, baby, mofumofu, peek, portrait
+species: 2
+zoo: 17

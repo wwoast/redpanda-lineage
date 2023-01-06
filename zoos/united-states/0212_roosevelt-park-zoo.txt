@@ -1,0 +1,21 @@
+[zoo]
+_id: 212
+commitdate: 2019/10/27
+en.address: 1219 E Burdick Expy, Minot, ND 58701
+en.location: Minot, North Dakota, USA
+en.name: Roosevelt Park Zoo
+flag: USA
+language.order: en
+latitude: 48.2336684
+longitude: -101.2785031
+map: https://goo.gl/maps/mSz13fbcxkmQsY7m6
+photo.1: ig://BkGNfd8leeo/m
+photo.1.author: zookreeper
+photo.1.commitdate: 2019/10/28
+photo.1.link: https://www.instagram.com/zookreeper/
+photo.2: ig://BiqPFJtF_ET/m
+photo.2.author: zookreeper
+photo.2.commitdate: 2019/10/28
+photo.2.link: https://www.instagram.com/zookreeper/
+photo.2.tags: profile
+website: http://rpzoo.com/

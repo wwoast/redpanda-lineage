@@ -1,0 +1,47 @@
+[panda]
+_id: 393
+birthday: 2012/6/30
+birthplace: 76
+children: 384, 411, 422
+commitdate: 2018/11/20
+en.name: Kiah
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キアイヤ
+jp.nicknames: none
+jp.oldnames: キア
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 76, 2012/6/30
+location.2: 43, 2013/6/28
+location.3: 130, 2017/11/30
+photo.1: ig://BCGiQwTykH-/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: home, portrait, tongue
+photo.2: ig://BHR7omtAJry/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2018/11/24
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, profile, smile, tongue
+photo.3: ig://BwXV2EgFDXt/m
+photo.3.author: thetoledozoo
+photo.3.commitdate: 2019/12/1
+photo.3.link: https://www.instagram.com/thetoledozoo/
+photo.3.tags: whiskers
+photo.4: ig://B2ZoWvFgOo6/m
+photo.4.author: thetoledozoo
+photo.4.commitdate: 2019/12/1
+photo.4.link: https://www.instagram.com/thetoledozoo/
+photo.4.tags: paws
+photo.5: ig://B2kSFcfpEYJ/m
+photo.5.author: thetoledozoo
+photo.5.commitdate: 2019/12/1
+photo.5.link: https://www.instagram.com/thetoledozoo/
+photo.5.tags: tongue
+species: 2
+studbook.id: 1231
+zoo: 130

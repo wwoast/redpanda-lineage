@@ -1,0 +1,247 @@
+[panda]
+_id: 255
+birthday: 2018/6/28
+birthplace: 19
+children: none
+commitdate: 2019/3/18
+en.name: Kabosu
+en.nicknames: none
+en.oldnames: Komikan
+en.othernames: none
+gender: m
+jp.name: 臭橙
+jp.nicknames: none
+jp.oldnames: こみかん
+jp.othernames: かぼす
+language.order: jp, en
+litter: none
+location.1: 19, 2018/6/28
+location.2: 306, 2022/3/13
+photo.1: ig://BogDVgwlBm0/m
+photo.1.author: yossi929
+photo.1.commitdate: 2018/10/4
+photo.1.link: https://www.instagram.com/yossi929/
+photo.1.tags: baby, bamboo
+photo.2: ig://Bo3i9iMFwe1/m
+photo.2.author: monmon_redpanda
+photo.2.commitdate: 2018/10/13
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: baby
+photo.3: ig://Bo3j1uPFK6G/m
+photo.3.author: monmon_redpanda
+photo.3.commitdate: 2018/10/13
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: baby, paws, tongue, upside-down
+photo.4: ig://Bo55imQlbwO/m
+photo.4.author: monmon_redpanda
+photo.4.commitdate: 2018/10/14
+photo.4.link: https://www.instagram.com/monmon_redpanda/
+photo.4.tags: baby, bamboo, portrait
+photo.5: ig://Bp4lsKbgc79/m
+photo.5.author: tk_ani_photo
+photo.5.commitdate: 2018/12/27
+photo.5.link: https://www.instagram.com/tk_ani_photo/
+photo.5.tags: baby, portrait
+photo.6: ig://BrZeK_UlKx2/m
+photo.6.author: ifumoto88
+photo.6.commitdate: 2018/12/16
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: portrait, tree
+photo.7: ig://BraWPqul1_q/m
+photo.7.author: ifumoto88
+photo.7.commitdate: 2018/12/16
+photo.7.link: https://www.instagram.com/ifumoto88/
+photo.7.tags: portrait
+photo.8: ig://BraW2xKFbMH/m
+photo.8.author: ifumoto88
+photo.8.commitdate: 2018/12/16
+photo.8.link: https://www.instagram.com/ifumoto88/
+photo.8.tags: keeper
+photo.9: ig://BrhugX_lzl4/m
+photo.9.author: panda.daisuki
+photo.9.commitdate: 2018/12/19
+photo.9.link: https://www.instagram.com/panda.daisuki/
+photo.9.tags: portrait, tree
+photo.10: ig://BrmniizAb57/m
+photo.10.author: morikirara
+photo.10.commitdate: 2020/4/18
+photo.10.link: https://www.instagram.com/morikirara/
+photo.10.tags: nose, portrait, whiskers
+photo.11: ig://BrnSX4rlXGW/m
+photo.11.author: yossi929
+photo.11.commitdate: 2018/12/21
+photo.11.link: https://www.instagram.com/yossi929/
+photo.11.tags: bamboo, portrait
+photo.12: ig://Brr3SdXF-Uz/m
+photo.12.author: panda.daisuki
+photo.12.commitdate: 2018/12/23
+photo.12.link: https://www.instagram.com/panda.daisuki/
+photo.12.tags: portrait
+photo.13: ig://BsvbEHsl7q0/m
+photo.13.author: panda.daisuki
+photo.13.commitdate: 2019/6/28
+photo.13.link: https://www.instagram.com/panda.daisuki/
+photo.13.tags: mofumofu, paws, portrait
+photo.14: ig://BtPJnTilmEd/m
+photo.14.author: miis_98
+photo.14.commitdate: 2019/2/4
+photo.14.link: https://www.instagram.com/miis_98/
+photo.14.tags: paws, portrait
+photo.15: ig://BvJedJsF_yL/m
+photo.15.author: yossi929
+photo.15.commitdate: 2019/3/18
+photo.15.link: https://www.instagram.com/yossi929/
+photo.15.tags: tree, upside-down
+photo.16: ig://BvP6sKXF017/m
+photo.16.author: re_ichimaru
+photo.16.commitdate: 2019/3/22
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.16.tags: techitechi
+photo.17: ig://BvRIBRHlAal/m
+photo.17.author: miis_98
+photo.17.commitdate: 2019/3/21
+photo.17.link: https://www.instagram.com/miis_98/
+photo.17.tags: portrait, tree
+photo.18: ig://Bv_hdrulErB/m
+photo.18.author: re_ichimaru
+photo.18.commitdate: 2019/4/8
+photo.18.link: https://www.instagram.com/re_ichimaru/
+photo.18.tags: yawn
+photo.19: ig://Bw25V9Ul6TR/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2019/6/28
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: mofumofu, wet
+photo.20: ig://BxcPn54Fn1D/m
+photo.20.author: daniele.tokyo
+photo.20.commitdate: 2019/5/16
+photo.20.link: https://www.instagram.com/daniele.tokyo/
+photo.20.tags: bridge, smile, wet
+photo.21: ig://B0iuFGfBiuZ/m
+photo.21.author: re_ichimaru
+photo.21.commitdate: 2019/7/30
+photo.21.link: https://www.instagram.com/re_ichimaru/
+photo.21.tags: bamboo, portrait, smile
+photo.22: ig://B1hvnM-hvav/m
+photo.22.author: yossi929
+photo.22.commitdate: 2019/8/24
+photo.22.link: https://www.instagram.com/yossi929/
+photo.22.tags: apple time, paws, techitechi
+photo.23: ig://B1pTfRSBkjO/m
+photo.23.author: re_ichimaru
+photo.23.commitdate: 2019/8/29
+photo.23.link: https://www.instagram.com/re_ichimaru/
+photo.23.tags: apple time, paws, portrait, standing
+photo.24: ig://B1qQ-71hmjc/m
+photo.24.author: yossi929
+photo.24.commitdate: 2019/8/29
+photo.24.link: https://www.instagram.com/yossi929/
+photo.24.tags: portrait, profile
+photo.25: ig://B2DZiuvhiwR/m
+photo.25.author: yossi929
+photo.25.commitdate: 2019/9/5
+photo.25.link: https://www.instagram.com/yossi929/
+photo.25.tags: laying down, portrait, smile
+photo.26: ig://B3EBGdYBcB6/m
+photo.26.author: re_ichimaru
+photo.26.commitdate: 2019/10/12
+photo.26.link: https://www.instagram.com/re_ichimaru/
+photo.26.tags: portrait, smile, tongue
+photo.27: ig://CB-h-z-hZHF/m
+photo.27.author: panda.daisuki
+photo.27.commitdate: 2020/7/2
+photo.27.link: https://www.instagram.com/panda.daisuki/
+photo.27.tags: mofumofu, paws, portrait, tree
+photo.28: ig://CC7jpUoBNgO/m
+photo.28.author: re_ichimaru
+photo.28.commitdate: 2020/7/23
+photo.28.link: https://www.instagram.com/re_ichimaru/
+photo.28.tags: bamboo, portrait, smile
+photo.29: ig://CGe-265pNUY/m
+photo.29.author: morikirara
+photo.29.commitdate: 2020/11/20
+photo.29.link: https://www.instagram.com/morikirara/
+photo.29.tags: peek, whiskers
+photo.30: ig://CHl9HdjBp1l/m
+photo.30.author: firefoxpanda88
+photo.30.commitdate: 2020/11/21
+photo.30.link: https://www.instagram.com/firefoxpanda88/
+photo.30.tags: smile, whiskers
+photo.31: ig://CP7L86CBujA/m
+photo.31.author: re_ichimaru
+photo.31.commitdate: 2021/6/18
+photo.31.link: https://www.instagram.com/re_ichimaru/
+photo.31.tags: portrait, whiskers
+photo.32: ig://CQpfkOZBk7n/m
+photo.32.author: re_ichimaru
+photo.32.commitdate: 2021/6/28
+photo.32.link: https://www.instagram.com/re_ichimaru/
+photo.32.tags: portrait, whiskers
+photo.33: ig://grskus_tk/CYaYzyBPLv6/m
+photo.33.author: grskus_tk
+photo.33.commitdate: 2022/1/19
+photo.33.link: https://www.instagram.com/grskus_tk/
+photo.33.tags: bamboo, peek
+photo.34: ig://CbB6H9Mprr8/m
+photo.34.author: morikirara
+photo.34.commitdate: 2022/6/2
+photo.34.link: https://www.instagram.com/morikirara/
+photo.34.tags: bamboo, smile, wink
+photo.35: ig://CbB7tkbOi4f/m
+photo.35.author: kumamoto_doushokubutsuen
+photo.35.commitdate: 2022/3/19
+photo.35.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.35.tags: bamboo, portrait, sample, smile, tail, whiskers
+photo.36: ig://CbCnS6DPKzX/m
+photo.36.author: re_ichimaru
+photo.36.commitdate: 2022/3/19
+photo.36.link: https://www.instagram.com/re_ichimaru/
+photo.36.tags: portrait, sample, tail, whiskers
+photo.37: ig://CbyNTXuP3YQ/m
+photo.37.author: yossi929
+photo.37.commitdate: 2022/5/30
+photo.37.link: https://www.instagram.com/yossi929/
+photo.37.tags: bamboo, paws, portrait, sample, tongue, whiskers
+photo.38: ig://CdA-zkQrk9M/m
+photo.38.author: miis_98
+photo.38.commitdate: 2022/6/7
+photo.38.link: https://www.instagram.com/miis_98/
+photo.38.tags: portrait, sample, smile, tongue, whiskers
+photo.39: ig://CdK0wrhupY6/m
+photo.39.author: yossi929
+photo.39.commitdate: 2022/6/6
+photo.39.link: https://www.instagram.com/yossi929/
+photo.39.tags: close-up, portrait, sample, smile, whiskers
+photo.40: ig://CdvH_QhvD29/m
+photo.40.author: daniele.tokyo
+photo.40.commitdate: 2022/6/1
+photo.40.link: https://www.instagram.com/daniele.tokyo/
+photo.40.tags: bamboo, laying down, mofumofu, paws, portrait, sample, tongue, whiskers
+photo.41: ig://Cf3mPCnulzT/m
+photo.41.author: daniele.tokyo
+photo.41.commitdate: 2022/7/31
+photo.41.link: https://www.instagram.com/daniele.tokyo/
+photo.41.tags: laying down, mofumofu, paws, portrait, sample
+photo.42: ig://CgbtGTGPUI6/m
+photo.42.author: kumamoto_doushokubutsuen
+photo.42.commitdate: 2022/9/7
+photo.42.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.42.tags: close-up, sample, whiskers
+photo.43: ig://Cgy0Y9bBSfg/m
+photo.43.author: daniele.tokyo
+photo.43.commitdate: 2022/8/5
+photo.43.link: https://www.instagram.com/daniele.tokyo/
+photo.43.tags: laying down, paws, portrait, sample, sleeping, smile
+photo.44: ig://Cihil6CvN2k/m
+photo.44.author: daniele.tokyo
+photo.44.commitdate: 2022/10/24
+photo.44.link: https://www.instagram.com/daniele.tokyo/
+photo.44.tags: mofumofu, paws, portrait, sample, tongue
+photo.45: ig://CmOvEZdrV8O/m
+photo.45.author: mini_cochi
+photo.45.commitdate: 2023/1/6
+photo.45.link: https://www.instagram.com/mini_cochi/
+photo.45.tags: portrait, sample, whiskers
+species: 2
+studbook.id: unknown
+zoo: 306

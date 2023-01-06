@@ -1,0 +1,32 @@
+[zoo]
+_id: 67
+commitdate: 2018/8/19
+en.address: 5500 Phinney Ave N, Seattle, WA 98103
+en.location: Seattle, WA, USA
+en.name: Woodland Park Zoo
+flag: USA
+jp.address: 5500 Phinney Ave N, Seattle, WA 98103
+jp.location: シアトル ワシントン
+jp.name: 森林公園動物園
+language.order: en, jp
+latitude: 47.6681079
+longitude: -122.3526429
+map: https://goo.gl/maps/4WtXGc1ZGnp
+photo.1: ig://BhVdwVDl3kO/m
+photo.1.author: liabrouillard
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/liabrouillard/
+photo.2: ig://CW6nCjJlWjs/m
+photo.2.author: woodlandparkzoo
+photo.2.commitdate: 2022/3/9
+photo.2.link: https://www.instagram.com/woodlandparkzoo/
+photo.3: ig://CW_CCDDsXax/m
+photo.3.author: woodlandparkzoo
+photo.3.commitdate: 2022/3/9
+photo.3.link: https://www.instagram.com/woodlandparkzoo/
+photo.4: ig://CYNa_jblcFU/m
+photo.4.author: woodlandparkzoo
+photo.4.commitdate: 2022/3/9
+photo.4.link: https://www.instagram.com/woodlandparkzoo/
+photo.4.tags: profile
+website: https://www.zoo.org/

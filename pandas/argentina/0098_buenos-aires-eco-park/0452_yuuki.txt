@@ -1,0 +1,52 @@
+[panda]
+_id: 452
+birthday: 2003/7/15
+birthplace: 6
+children: none
+commitdate: 2018/11/26
+death: 2019/7/1
+en.name: Yuuki
+en.nicknames: none
+en.othernames: none
+es.name: Yuuki
+es.nicknames: none
+es.othernames: Juky
+gender: m
+jp.name: ユーキ
+jp.nicknames: none
+jp.othernames: 優貴
+language.order: es, en, jp
+litter: 202, 801
+location.1: 6, 2003/7/15
+location.2: 98, 2005/7/8
+photo.1: https://www.codaworry.com/images/rpf/yuuki-1-buenos-aires.jpg
+photo.1.author: Tomás Francisco Cuesta
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.forestanimalrescue.org/red-pandas/
+photo.1.tags: profile
+photo.2: https://www.codaworry.com/images/rpf/yuuki-2-buenos-aires.jpg
+photo.2.author: Tomás Francisco Cuesta
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.forestanimalrescue.org/red-pandas/
+photo.2.tags: paws
+photo.3: https://www.codaworry.com/images/rpf/yuuki-3-buenos-aires.jpg
+photo.3.author: Tomás Francisco Cuesta
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.forestanimalrescue.org/red-pandas/
+photo.3.tags: bridge
+photo.4: https://www.codaworry.com/images/rpf/yuuki-4-buenos-aires.jpg
+photo.4.author: Tomás Francisco Cuesta
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.forestanimalrescue.org/red-pandas/
+photo.4.tags: old, paws, tail
+photo.5: https://www.codaworry.com/images/rpf/yuuki-5-buenos-aires.jpg
+photo.5.author: Tomás Francisco Cuesta
+photo.5.commitdate: 2019/5/7
+photo.5.link: https://www.forestanimalrescue.org/red-pandas/
+photo.5.tags: paws, standing, tail
+species: 2
+studbook.id: 0371
+video.1: https://vimeo.com/1569721
+video.1.author: Sebastian Alvarez
+video.1.link: https://vimeo.com/sebalv
+zoo: 98

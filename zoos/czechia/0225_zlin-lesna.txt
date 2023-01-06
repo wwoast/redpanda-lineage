@@ -1,0 +1,16 @@
+[zoo]
+_id: 225
+commitdate: 2019/11/24
+cz.address: Lukovská 112, 763 14 Zlín, Czechia
+cz.location: Zlín, Czechia
+cz.name: Zoo Zlín
+cz.othernames: Zoo and Chateau Zlin-Lesna, Zoo a zámek Zlín-Lešná
+en.address: Lukovská 112, 763 14 Zlín, Czechia
+en.location: Zlin, Czechia
+en.name: Zlin Zoo
+flag: Czechia
+language.order: cz, en
+latitude: 49.271604
+longitude: 17.7125923
+map: https://g.page/zoozamekzlin?share
+website: https://www.zoozlin.eu/

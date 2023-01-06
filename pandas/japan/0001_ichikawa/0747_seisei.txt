@@ -1,0 +1,21 @@
+[panda]
+_id: 747
+birthday: unknown
+birthplace: wild.3
+children: 748, 749, 657, 658, 752, 753, 702
+commitdate: 2019/3/29
+death: 2000/9/7
+en.name: Sei-Sei
+en.nicknames: none
+en.othernames: Seisei
+gender: f
+jp.name: 誠誠
+jp.nicknames: none
+jp.othernames: セイセイ
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 1, 1986/11/1
+species: 2
+studbook.id: 8640
+zoo: 1

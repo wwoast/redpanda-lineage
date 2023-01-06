@@ -1,0 +1,17 @@
+[zoo]
+_id: 126
+commitdate: 2019/2/24
+en.address: 312 E Finnup Dr, Garden City, KS 67846, USA
+en.location: Garden City, Kansas, USA
+en.name: Lee Richardson Zoo
+flag: USA
+language.order: en
+latitude: 37.9609497
+longitude: -100.8766584
+map: https://goo.gl/maps/xcMi2rcWTLR2
+photo.1: ig://BxIdHYGAdl0/m
+photo.1.author: leerichardsonzoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/leerichardsonzoo/
+photo.1.tags: profile
+website: http://leerichardsonzoo.org/

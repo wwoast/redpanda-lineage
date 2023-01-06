@@ -1,0 +1,23 @@
+[panda]
+_id: 961
+birthday: 1996/6/27
+birthplace: 17
+children: unknown
+commitdate: 2019/8/14
+death: 2012/9/30
+en.name: Kiki
+en.nicknames: none
+en.othernames: none
+es.name: Kiki
+es.nicknames: none
+es.othernames: none
+gender: f
+jp.name: キキ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, es, en
+litter: none
+location.1: 17, 1996/6/27
+location.2: 142, 1999/2/25
+species: 2
+zoo: 142

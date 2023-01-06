@@ -1,0 +1,28 @@
+[zoo]
+_id: 29
+commitdate: 2018/6/22
+en.address: ２３９９ Katata, Shirahama, Nishimuro District, Wakayama Prefecture 649-2201, Japan
+en.location: Shirahama, Wakayama Prefecture, Japan
+en.name: Adventure World
+en.othernames: Wakayama Adventure World
+flag: Japan
+jp.address: 〒649-2201 和歌山県西牟婁郡白浜町堅田２３９９
+jp.location: 白浜町 和歌山県
+jp.name: アドベンチャーワールド
+language.order: jp, en
+latitude: 33.6678459
+longitude: 135.3738168
+map: https://goo.gl/maps/Z2vDjBgTPAG2
+photo.1: ig://BqQ4Nf8gJh4/m
+photo.1.author: doubakahanshidemenbaka
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/doubakahanshidemenbaka/
+photo.2: ig://B5P-Lv_jJKE/m
+photo.2.author: hiroko.8125
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/hiroko.8125/
+photo.3: ig://B7I0mIThaDk/m
+photo.3.author: framereim
+photo.3.commitdate: 2020/1/14
+photo.3.link: https://www.instagram.com/framereim/
+website: http://www.aws-s.com/

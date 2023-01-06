@@ -1,0 +1,21 @@
+[zoo]
+_id: 121
+commitdate: 2019/2/23
+en.address: 355 Julia Davis Dr, Boise, ID 83702, USA
+en.location: Boise, Idaho, USA
+en.name: Zoo Boise
+flag: USA
+language.order: en
+latitude: 43.6078719
+longitude: -116.2116549
+map: https://goo.gl/maps/etM24t7HdKG2
+photo.1: ig://Bb77go0hvax/m
+photo.1.author: chispaazul
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/chispaazul/
+photo.1.tags: profile
+photo.2: ig://BmRMxsygN8o/m
+photo.2.author: goforhunter
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/goforhunter/
+website: http://www.zooboise.org/

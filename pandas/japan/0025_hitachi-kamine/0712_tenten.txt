@@ -1,0 +1,22 @@
+[panda]
+_id: 712
+birthday: 1992/6/26
+birthplace: 41
+children: 713
+commitdate: 2019/3/27
+death: 2003/3/11
+en.name: Ten-Ten
+en.nicknames: none
+en.othernames: Tenten
+gender: f
+jp.name: 天天
+jp.nicknames: none
+jp.othernames: テンテン
+language.order: jp, en
+litter: none
+location.1: 41, 1992/6/26
+location.2: 30, 1995/3/27
+location.3: 25, 1996/5/18
+species: 2
+studbook.id: 9261
+zoo: 25

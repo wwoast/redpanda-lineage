@@ -1,0 +1,28 @@
+[panda]
+_id: 1159
+birthday: 2009/7/3
+birthplace: 247
+children: 1160
+commitdate: 2020/5/6
+death: 2018/12/1
+en.name: Maiko
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マイコ
+jp.nicknames: none
+jp.othernames: none
+language.order: se, en, jp
+litter: unknown
+location.1: 247, 2009/7/3
+location.2: 246, 2011/4/27
+photo.1: ig://72HQBOkGzK/m
+photo.1.author: kolmardensjurpark
+photo.1.commitdate: 2020/5/6
+photo.1.link: https://www.instagram.com/kolmardensdjurpark/
+photo.1.tags: laying down, portrait, profile
+se.name: Maiko
+se.nicknames: none
+se.othernames: none
+species: 1
+zoo: 246

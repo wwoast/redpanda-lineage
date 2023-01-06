@@ -1,0 +1,49 @@
+[panda]
+_id: 992
+birthday: 2018/6/12
+birthplace: 118
+children: 1187
+commitdate: 2019/10/12
+en.name: Marie
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 991, 993
+location.1: 118, 2018/6/12
+location.2: 148, 2019/5/1
+photo.1: ig://Byh9KIOBpXx/m
+photo.1.author: buttonwoodparkzoo
+photo.1.commitdate: 2019/10/12
+photo.1.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.1.tags: portrait, profile
+photo.2: ig://By76f5UBicV/m
+photo.2.author: buttonwoodparkzoo
+photo.2.commitdate: 2019/10/12
+photo.2.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.2.tags: portrait, white face
+photo.3: ig://BzIZPPuhR0c/m
+photo.3.author: buttonwoodparkzoo
+photo.3.commitdate: 2019/10/12
+photo.3.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.3.tags: portrait, tongue, white face
+photo.4: ig://B0YaMGQBZVB/m
+photo.4.author: buttonwoodparkzoo
+photo.4.commitdate: 2019/10/12
+photo.4.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.4.tags: portrait, white face
+photo.5: ig://CKq_zamBvbd/m
+photo.5.author: buttonwoodparkzoo
+photo.5.commitdate: 2021/4/10
+photo.5.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.5.tags: portrait, whiskers
+photo.6: ig://CXbaosuhSyv/m
+photo.6.author: buttonwoodparkzoo
+photo.6.commitdate: 2022/1/7
+photo.6.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.6.tags: paws, portrait
+species: 1
+zoo: 148

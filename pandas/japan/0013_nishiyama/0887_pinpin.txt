@@ -1,0 +1,21 @@
+[panda]
+_id: 887
+birthday: 1989/6/28
+birthplace: 6
+children: 891, 822, 885, 892, 893, 839, 840, 894
+commitdate: 2019/6/23
+death: 2008/1/5
+en.name: Pin-Pin
+en.nicknames: none
+en.othernames: Pinpin
+gender: m
+jp.name: ピンピン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 6, 1989/6/28
+location.2: 13, 1990/11/29
+species: 2
+studbook.id: 8924
+zoo: 13

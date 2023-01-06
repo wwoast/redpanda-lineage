@@ -1,0 +1,71 @@
+[panda]
+_id: 799
+birthday: 2009/7/9
+birthplace: 131
+children: 927, 928, 929
+commitdate: 2019/4/3
+death: 2017/6/18
+en.name: Shifu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シフ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 532, 533, 798
+location.1: 131, 2009/7/9
+location.2: 134, 2010/5/18
+location.3: 124, 2012/12/4
+location.4: 177, 2017/5/2
+photo.1: https://www.codaworry.com/images/rpf/shifu-1-scovill.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/13
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: tail, tree
+photo.2: https://www.codaworry.com/images/rpf/shifu-2-scovill.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/13
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: standing, techitechi, tree
+photo.3: https://www.codaworry.com/images/rpf/shifu-3-scovill.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/13
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tail, tree
+photo.4: https://www.codaworry.com/images/rpf/shifu-4-scovill.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/13
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: paws, smile, tree
+photo.5: https://www.codaworry.com/images/rpf/shifu-5-scovill.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/13
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: tail, tree
+photo.6: https://www.codaworry.com/images/rpf/shifu-6-scovill.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/13
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: tail, tree
+photo.7: https://www.codaworry.com/images/rpf/shifu-7-scovill.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/13
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: tree
+photo.8: https://www.codaworry.com/images/rpf/shifu-8-scovill.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/4/13
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.9: https://www.codaworry.com/images/rpf/shifu-9-scovill.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2019/4/13
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.10: https://www.codaworry.com/images/rpf/shifu-10-scovill.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2019/4/13
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: profile
+species: 1
+studbook.id: 0911
+zoo: 177

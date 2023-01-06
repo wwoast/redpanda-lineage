@@ -1,0 +1,22 @@
+[panda]
+_id: 1129
+birthday: 2019/6/16
+birthplace: 116
+children: none
+commitdate: 2020/3/13
+en.name: Burma
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ビルマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1127, 1128
+photo.1: ig://CYKQ3Q8Jmr4/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2022/1/4
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: peek, white face
+species: 1
+zoo: 116

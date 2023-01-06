@@ -1,0 +1,17 @@
+[panda]
+_id: 1025
+birthday: 2013/12/14
+birthplace: 202
+children: unknown
+commitdate: 2019/11/9
+en.name: Ari
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: アリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1026
+species: 1
+zoo: 202

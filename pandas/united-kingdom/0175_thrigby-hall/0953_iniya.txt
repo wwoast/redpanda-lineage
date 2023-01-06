@@ -1,0 +1,39 @@
+[panda]
+_id: 953
+birthday: 2018/6/14
+birthplace: 137
+children: none
+commitdate: 2019/7/22
+en.name: Iniya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: イニヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 137, 2018/6/14
+location.2: 175, 2019/4/20
+photo.1: ig://Bnva727FkeC/m
+photo.1.author: colchester_zoo
+photo.1.commitdate: 2019/7/22
+photo.1.link: https://www.instagram.com/colchester_zoo/
+photo.1.tags: home, smile
+photo.2: ig://BotzxtxAWlk/m
+photo.2.author: colchester_zoo
+photo.2.commitdate: 2019/7/22
+photo.2.link: https://www.instagram.com/colchester_zoo/
+photo.2.tags: portrait, profile
+photo.3: ig://BqSSyvelMWS/m
+photo.3.author: colchester_zoo
+photo.3.commitdate: 2019/7/22
+photo.3.link: https://www.instagram.com/colchester_zoo/
+photo.3.tags: portrait, smile
+photo.4: ig://BrkKte0F36g/m
+photo.4.author: colchester_zoo
+photo.4.commitdate: 2019/7/22
+photo.4.link: https://www.instagram.com/colchester_zoo/
+photo.4.tags: portrait, tail, toys
+species: 1
+zoo: 175

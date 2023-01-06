@@ -1,0 +1,11 @@
+[wild]
+_id: wild.1
+commitdate: 2019/1/1
+en.address: unknown
+en.location: unknown
+en.name: Captured Wild Animal
+flag: Default
+jp.address: unknown
+jp.location: 未詳
+jp.name: 捕獲された野生動物
+language.order: en

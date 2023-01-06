@@ -1,0 +1,15 @@
+[zoo]
+_id: 223
+commitdate: 2019/11/23
+en.address: 1 Rue du Tigre, 57360 Amnéville, France
+en.location: Amneville, France
+en.name: Amneville Zoo
+flag: France
+fr.address: 1 Rue du Tigre, 57360 Amnéville, France
+fr.location: Amnéville, France
+fr.name: Zoo d'Amnéville
+language.order: fr, en
+latitude: 49.2464279
+longitude: 6.1317702
+map: https://goo.gl/maps/tDwVC1zUrzhUcDFw7
+website: https://www.zoo-amneville.com/

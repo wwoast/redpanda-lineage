@@ -1,0 +1,21 @@
+[panda]
+_id: 1030
+birthday: 1996/12/4
+birthplace: 181
+children: 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 270, 609, 269, 1042, 1043
+commitdate: 2019/11/9
+death: 2009/1/26
+en.name: Sallyana
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サリーアナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1031
+location.1: 181, 1996/12/4
+location.2: 207, 1997/7/22
+location.3: 59, 1998/11/20
+species: 1
+zoo: 59

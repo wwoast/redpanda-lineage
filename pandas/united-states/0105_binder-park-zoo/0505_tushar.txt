@@ -1,0 +1,110 @@
+[panda]
+_id: 505
+birthday: 2008/6/19
+birthplace: 114
+children: 170, 507, 508
+commitdate: 2019/2/23
+en.name: Tushar
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トシャール
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 640
+location.1: 114, 2008/6/19
+location.2: 105, 2011/11/17
+photo.1: ig://BnvzMQnn4YT/m
+photo.1.author: olivia_fontana_photography
+photo.1.commitdate: 2019/3/9
+photo.1.link: https://www.instagram.com/olivia_fontana_photography/
+photo.1.tags: laying down, tail
+photo.2: ig://BVChQhel06b/m
+photo.2.author: binderparkzoo
+photo.2.commitdate: 2019/3/9
+photo.2.link: https://www.instagram.com/binderparkzoo/
+photo.2.tags: portrait, tail, tongue
+photo.3: ig://BnT9N6nnKnE/m
+photo.3.author: olivia_fontana_photography
+photo.3.commitdate: 2019/3/9
+photo.3.link: https://www.instagram.com/olivia_fontana_photography/
+photo.3.tags: laying down, paws
+photo.4: ig://Bm6m0FdgGrd/m
+photo.4.author: shell_os
+photo.4.commitdate: 2019/3/9
+photo.4.link: https://www.instagram.com/shell_os/
+photo.4.tags: long-tongue, tongue
+photo.5: ig://BLYlmmpDvXi/m
+photo.5.author: binderparkzoo
+photo.5.commitdate: 2019/3/9
+photo.5.link: https://www.instagram.com/binderparkzoo/
+photo.5.tags: muzzle, portrait, smile, tongue
+photo.6: ig://5IVlrhCH-e/m
+photo.6.author: binderparkzoo
+photo.6.commitdate: 2019/3/9
+photo.6.link: https://www.instagram.com/binderparkzoo/
+photo.6.tags: laying down, portrait, tail, tree
+photo.7: ig://9v9PD4iH0R/m
+photo.7.author: binderparkzoo
+photo.7.commitdate: 2019/3/9
+photo.7.link: https://www.instagram.com/binderparkzoo/
+photo.7.tags: mofumofu, tail
+photo.8: ig://BCiWTVKCHyw/m
+photo.8.author: binderparkzoo
+photo.8.commitdate: 2019/3/9
+photo.8.link: https://www.instagram.com/binderparkzoo/
+photo.8.tags: portrait, snow, tail
+photo.9: ig://BFRLuLOCHzI/m
+photo.9.author: binderparkzoo
+photo.9.commitdate: 2019/3/9
+photo.9.link: https://www.instagram.com/binderparkzoo/
+photo.9.tags: portrait, profile, tongue
+photo.10: ig://BOAnOHkjOZL/m
+photo.10.author: binderparkzoo
+photo.10.commitdate: 2019/3/9
+photo.10.link: https://www.instagram.com/binderparkzoo/
+photo.10.tags: portrait, snow
+photo.11: ig://BO7xVr0DlNP/m
+photo.11.author: binderparkzoo
+photo.11.commitdate: 2019/3/9
+photo.11.link: https://www.instagram.com/binderparkzoo/
+photo.11.tags: bamboo, portrait, snow
+photo.12: ig://BV9-aLTFoJi/m
+photo.12.author: binderparkzoo
+photo.12.commitdate: 2019/3/9
+photo.12.link: https://www.instagram.com/binderparkzoo/
+photo.12.tags: portrait, smile
+photo.13: ig://BYrC4peH_tH/m
+photo.13.author: binderparkzoo
+photo.13.commitdate: 2019/3/9
+photo.13.link: https://www.instagram.com/binderparkzoo/
+photo.13.tags: laying down, paws, sleeping
+photo.14: ig://Bc8FXQTHS_-/m
+photo.14.author: binderparkzoo
+photo.14.commitdate: 2019/3/9
+photo.14.link: https://www.instagram.com/binderparkzoo/
+photo.14.tags: portrait, snow
+photo.15: ig://BjGCZOqBwXN/m
+photo.15.author: binderparkzoo
+photo.15.commitdate: 2019/3/9
+photo.15.link: https://www.instagram.com/binderparkzoo/
+photo.15.tags: portrait, tail, tongue
+photo.16: ig://BzaznklgmcV/m
+photo.16.author: binderparkzoo
+photo.16.commitdate: 2019/7/18
+photo.16.link: https://www.instagram.com/binderparkzoo/
+photo.16.tags: paws, portrait, whiskers, wink
+photo.17: ig://BmwOF2mBr-Y/m
+photo.17.author: binderparkzoo
+photo.17.commitdate: 2019/7/18
+photo.17.link: https://www.instagram.com/binderparkzoo/
+photo.17.tags: laying down, paws, tail, tree
+photo.18: ig://B6bC69LH7Pt/m
+photo.18.author: binderparkzoo
+photo.18.commitdate: 2020/1/22
+photo.18.link: https://www.instagram.com/binderparkzoo/
+photo.18.tags: portrait, tail
+species: 1
+studbook.id: 0820
+zoo: 105

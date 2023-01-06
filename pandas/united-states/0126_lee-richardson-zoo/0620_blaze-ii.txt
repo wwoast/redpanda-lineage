@@ -1,0 +1,18 @@
+[panda]
+_id: 620
+birthday: 2017/8/12
+birthplace: 126
+children: none
+commitdate: 2019/3/19
+en.name: Blaze II
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 炎二
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 619
+species: 1
+studbook.id: 1733
+zoo: 126

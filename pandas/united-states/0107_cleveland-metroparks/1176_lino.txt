@@ -1,0 +1,34 @@
+[panda]
+_id: 1176
+birthday: 2019/6/18
+birthplace: 145
+children: none
+commitdate: 2020/6/14
+en.name: Lino
+en.nicknames: none
+en.othernames: Leeno
+gender: m
+jp.name: リーノ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1175, 1177
+location.1: 145, 2019/6/18
+location.2: 107, 2020/9/24
+photo.1: ig://CGBStxvgZVQ/m
+photo.1.author: pippin455
+photo.1.commitdate: 2022/9/15
+photo.1.link: https://www.instagram.com/pippin455/
+photo.1.tags: laying down, paws, portrait, profile, tail
+photo.2: ig://CJHhXwIALag/m
+photo.2.author: pippin455
+photo.2.commitdate: 2022/9/15
+photo.2.link: https://www.instagram.com/pippin455/
+photo.2.tags: bamboo, tongue, whiskers
+photo.3: ig://worldthathesees/CYMDUeoLS22/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2022/1/4
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: whiskers, white face
+species: 1
+zoo: 107

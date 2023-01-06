@@ -1,0 +1,18 @@
+[panda]
+_id: 901
+birthday: 2017/6/14
+birthplace: 114
+children: none
+commitdate: 2019/7/2
+death: 2017/10/4
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 867
+species: 1
+zoo: 114

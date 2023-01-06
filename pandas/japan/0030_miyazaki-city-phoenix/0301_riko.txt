@@ -1,0 +1,480 @@
+[panda]
+_id: 301
+birthday: 2013/6/25
+birthplace: 6
+children: none
+commitdate: 2018/8/3
+en.name: Riko
+en.nicknames: none
+en.othernames: Rico
+gender: f
+jp.name: リコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 6, 2013/6/25
+location.2: 30, 2015/1/15
+photo.1: ig://BTDwxn5gi70/m
+photo.1.author: monmon_redpanda
+photo.1.commitdate: 2018/8/23
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: bamboo, muzzle, techitechi, tongue
+photo.2: ig://BsG-en1F72s/m
+photo.2.author: monmon_redpanda
+photo.2.commitdate: 2019/1/3
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: bamboo, smile
+photo.3: ig://BsKVDQgF305/m
+photo.3.author: re_ichimaru
+photo.3.commitdate: 2019/1/3
+photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.3.tags: smile, techitechi
+photo.4: ig://BvX5arelqaQ/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2019/4/5
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: bamboo, tongue
+photo.5: ig://BvaJltDlUXl/m
+photo.5.author: craig_craig_craig
+photo.5.commitdate: 2019/4/5
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: laying down, lips
+photo.6: ig://Bw_64kal2be/m
+photo.6.author: daniele.tokyo
+photo.6.commitdate: 2019/5/5
+photo.6.link: https://www.instagram.com/daniele.tokyo/
+photo.6.tags: bamboo, tongue
+photo.7: ig://Bxj3JvXlj8J/m
+photo.7.author: daniele.tokyo
+photo.7.commitdate: 2019/5/18
+photo.7.link: https://www.instagram.com/daniele.tokyo/
+photo.7.tags: bamboo, paws
+photo.8: ig://ByWK0yIhxQj/m
+photo.8.author: re_ichimaru
+photo.8.commitdate: 2019/6/6
+photo.8.link: https://www.instagram.com/re_ichimaru/
+photo.8.tags: lips
+photo.9: ig://B06DYJkhnh_/m
+photo.9.author: mishimarugo
+photo.9.commitdate: 2019/8/27
+photo.9.link: https://www.instagram.com/mishimarugo/
+photo.9.tags: mofumofu, portrait
+photo.10: ig://B2ZLo4MhH9h/m
+photo.10.author: miis_98
+photo.10.commitdate: 2019/9/16
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: apple time, dish, portrait, smile
+photo.11: ig://B5xr6byBIwE/m
+photo.11.author: kiarino51
+photo.11.commitdate: 2022/12/3
+photo.11.link: https://www.instagram.com/kiarino50/
+photo.11.tags: portrait, sample, techitechi, whiskers
+photo.12: ig://B52pVe4Bs0I/m
+photo.12.author: kiarino51
+photo.12.commitdate: 2022/12/3
+photo.12.link: https://www.instagram.com/kiarino50/
+photo.12.tags: apple time, keeper, paws, portrait, sample, teeth, tongue
+photo.13: ig://B55JaqRhDS4/m
+photo.13.author: kiarino51
+photo.13.commitdate: 2022/12/3
+photo.13.link: https://www.instagram.com/kiarino50/
+photo.13.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.14: ig://B57fpkyBW_7/m
+photo.14.author: kiarino51
+photo.14.commitdate: 2022/12/3
+photo.14.link: https://www.instagram.com/kiarino50/
+photo.14.tags: bamboo, bite, mofumofu, paws, portrait, sample, whiskers
+photo.15: ig://B6AxOSMhcY7/m
+photo.15.author: kiarino51
+photo.15.commitdate: 2022/12/3
+photo.15.link: https://www.instagram.com/kiarino50/
+photo.15.tags: bamboo, portrait, sample, smile
+photo.16: ig://B6DoFJgBR9J/m
+photo.16.author: kiarino51
+photo.16.commitdate: 2022/12/3
+photo.16.link: https://www.instagram.com/kiarino50/
+photo.16.tags: apple time, close-up, keeper, portrait, whiskers
+photo.17: ig://B6IoccUhDVO/m
+photo.17.author: kiarino51
+photo.17.commitdate: 2022/12/3
+photo.17.link: https://www.instagram.com/kiarino50/
+photo.17.tags: bamboo, bite, paws, portrait, sample, smile
+photo.18: ig://B6QLWCkhROw/m
+photo.18.author: kiarino51
+photo.18.commitdate: 2022/12/3
+photo.18.link: https://www.instagram.com/kiarino50/
+photo.18.tags: lips, portrait, sample, whiskers
+photo.19: ig://B6z7Oc-BBlE/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2020/1/9
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: bamboo, muzzle, portrait, smile
+photo.20: ig://B7I98ErBGcC/m
+photo.20.author: kiarino51
+photo.20.commitdate: 2022/12/3
+photo.20.link: https://www.instagram.com/kiarino50/
+photo.20.tags: lips, portrait, sample, whiskers
+photo.21: ig://B-d5ggABdHT/m
+photo.21.author: craig_craig_craig
+photo.21.commitdate: 2020/4/3
+photo.21.link: https://www.instagram.com/craig_craig_craig/
+photo.21.tags: portrait, whiskers
+photo.22: ig://B-i1zDghqkD/m
+photo.22.author: kiarino51
+photo.22.commitdate: 2022/12/3
+photo.22.link: https://www.instagram.com/kiarino50/
+photo.22.tags: portrait, sample, techitechi, whiskers
+photo.23: ig://B_ALIEvpj6C/m
+photo.23.author: kiarino51
+photo.23.commitdate: 2022/12/3
+photo.23.link: https://www.instagram.com/kiarino50/
+photo.23.tags: bamboo, mofumofu, portrait, sample, whiskers
+photo.24: ig://B_CuPWaBcyx/m
+photo.24.author: kiarino51
+photo.24.commitdate: 2022/12/3
+photo.24.link: https://www.instagram.com/kiarino50/
+photo.24.tags: mofumofu, peek, portrait, sample, whiskers
+photo.25: ig://B_HTMyJhA_N/m
+photo.25.author: kiarino51
+photo.25.commitdate: 2022/12/3
+photo.25.link: https://www.instagram.com/kiarino50/
+photo.25.tags: door, portrait, sample, whiskers
+photo.26: ig://CAxY3XTBUdZ/m
+photo.26.author: kiarino51
+photo.26.commitdate: 2022/12/3
+photo.26.link: https://www.instagram.com/kiarino50/
+photo.26.tags: mofumofu, portrait, sample, whiskers
+photo.27: ig://CBk1F8VBxQq/m
+photo.27.author: kiarino51
+photo.27.commitdate: 2022/12/3
+photo.27.link: https://www.instagram.com/kiarino50/
+photo.27.tags: bamboo, paws, portrait, sample, smile
+photo.28: ig://CBnVEBkhd8h/m
+photo.28.author: kiarino51
+photo.28.commitdate: 2022/12/3
+photo.28.link: https://www.instagram.com/kiarino50/
+photo.28.tags: blink, portrait, tail
+photo.29: ig://CBp_bgCB5Vb/m
+photo.29.author: kiarino51
+photo.29.commitdate: 2022/12/3
+photo.29.link: https://www.instagram.com/kiarino50/
+photo.29.tags: apple time, mofumofu, paws, portrait, sample, whiskers
+photo.30: ig://CBsbC6zBZmM/m
+photo.30.author: kiarino51
+photo.30.commitdate: 2022/12/3
+photo.30.link: https://www.instagram.com/kiarino50/
+photo.30.tags: bamboo, mofumofu, paws, portrait, sample, whiskers
+photo.31: ig://CBvZybpBSKT/m
+photo.31.author: kiarino51
+photo.31.commitdate: 2022/12/3
+photo.31.link: https://www.instagram.com/kiarino50/
+photo.31.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers
+photo.32: ig://CBxqu08hy2J/m
+photo.32.author: kiarino51
+photo.32.commitdate: 2022/12/3
+photo.32.link: https://www.instagram.com/kiarino50/
+photo.32.tags: portrait, sample, whiskers
+photo.33: ig://CB0VUQ2Bi7x/m
+photo.33.author: kiarino51
+photo.33.commitdate: 2022/12/3
+photo.33.link: https://www.instagram.com/kiarino50/
+photo.33.tags: bamboo, close-up, mofumofu, portrait, sample, smile
+photo.34: ig://CHF8tIZh1_w/m
+photo.34.author: miis_98
+photo.34.commitdate: 2020/11/5
+photo.34.link: https://www.instagram.com/miis_98/
+photo.34.tags: air tasting, portrait, tongue
+photo.35: ig://CHPJZJrhsfa/m
+photo.35.author: miis_98
+photo.35.commitdate: 2020/11/15
+photo.35.link: https://www.instagram.com/miis_98/
+photo.35.tags: door, portrait, smile
+photo.36: ig://CHSjuCMBrvs/m
+photo.36.author: yossi929
+photo.36.commitdate: 2020/11/15
+photo.36.link: https://www.instagram.com/yossi929/
+photo.36.tags: paws, portrait, tree
+photo.37: ig://CHnJ2IXBA4u/m
+photo.37.author: kiarino51
+photo.37.commitdate: 2022/12/3
+photo.37.link: https://www.instagram.com/kiarino50/
+photo.37.tags: door, flowers, lips, portrait, sample, techitechi, whiskers
+photo.38: ig://CHor-cphHWT/m
+photo.38.author: kiarino51
+photo.38.commitdate: 2022/12/3
+photo.38.link: https://www.instagram.com/kiarino50/
+photo.38.tags: close-up, lips, mofumofu, portrait, sample, techitechi, whiskers
+photo.39: ig://CHsQhg9BDkx/m
+photo.39.author: kiarino51
+photo.39.commitdate: 2022/12/3
+photo.39.link: https://www.instagram.com/kiarino50/
+photo.39.tags: apple time, keeper, paws, standing
+photo.40: ig://CHur0tPBWlc/m
+photo.40.author: kiarino51
+photo.40.commitdate: 2022/12/3
+photo.40.link: https://www.instagram.com/kiarino50/
+photo.40.tags: bamboo, portrait, sample, videolink
+photo.41: ig://CHz57NOBM7F/m
+photo.41.author: kiarino51
+photo.41.commitdate: 2022/12/3
+photo.41.link: https://www.instagram.com/kiarino50/
+photo.41.tags: mofumofu, peek
+photo.42: ig://CH2aGRchoHs/m
+photo.42.author: kiarino51
+photo.42.commitdate: 2022/12/3
+photo.42.link: https://www.instagram.com/kiarino50/
+photo.42.tags: bamboo, bite, mofumofu, portrait, sample, tongue
+photo.43: ig://CH7mcvRBK79/m
+photo.43.author: kiarino51
+photo.43.commitdate: 2022/12/3
+photo.43.link: https://www.instagram.com/kiarino50/
+photo.43.tags: apple time, paws, portrait, sample, standing, whiskers
+photo.44: ig://CIA7uWVhprs/m
+photo.44.author: kiarino51
+photo.44.commitdate: 2022/12/3
+photo.44.link: https://www.instagram.com/kiarino50/
+photo.44.tags: close-up, lips, mofumofu, peek, portrait, sample, whiskers
+photo.45: ig://CIsOGEOBu4z/m
+photo.45.author: kiarino51
+photo.45.commitdate: 2022/12/3
+photo.45.link: https://www.instagram.com/kiarino50/
+photo.45.tags: laying down, lips, paws, whiskers
+photo.46: ig://CI-075zBweI/m
+photo.46.author: kiarino51
+photo.46.commitdate: 2022/12/3
+photo.46.link: https://www.instagram.com/kiarino50/
+photo.46.tags: lips, portrait, sample, techitechi, whiskers
+photo.47: ig://CJEAU0uhuIJ/m
+photo.47.author: kiarino51
+photo.47.commitdate: 2022/12/3
+photo.47.link: https://www.instagram.com/kiarino50/
+photo.47.tags: close-up, laying down, lips, mofumofu, portrait, sample, sleeping
+photo.48: ig://CJd5OZ0Bk6g/m
+photo.48.author: kiarino51
+photo.48.commitdate: 2022/12/3
+photo.48.link: https://www.instagram.com/kiarino50/
+photo.48.tags: lips, portrait, sample, whiskers
+photo.49: ig://CJnx25ZhvZF/m
+photo.49.author: kiarino51
+photo.49.commitdate: 2022/12/3
+photo.49.link: https://www.instagram.com/kiarino50/
+photo.49.tags: paws, portrait, sample, techitechi, whiskers
+photo.50: ig://CJ8qpYRBFeQ/m
+photo.50.author: kiarino51
+photo.50.commitdate: 2022/12/3
+photo.50.link: https://www.instagram.com/kiarino50/
+photo.50.tags: lips, mofumofu, portrait, sample, smile, tail, whiskers
+photo.51: ig://CKEY8FkhuJH/m
+photo.51.author: kiarino51
+photo.51.commitdate: 2022/12/3
+photo.51.link: https://www.instagram.com/kiarino50/
+photo.51.tags: close-up, lips, portrait, sample, tongue, whiskers
+photo.52: ig://CKjFnG_Bc_-/m
+photo.52.author: kiarino51
+photo.52.commitdate: 2022/12/3
+photo.52.link: https://www.instagram.com/kiarino50/
+photo.52.tags: lips, portrait, sample, videolink, wink
+photo.53: ig://CLZOutbB-w1/m
+photo.53.author: kiarino51
+photo.53.commitdate: 2022/12/3
+photo.53.link: https://www.instagram.com/kiarino50/
+photo.53.tags: portrait, sample, whiskers, window
+photo.54: ig://CLgheAkBxgv/m
+photo.54.author: kiarino51
+photo.54.commitdate: 2022/12/3
+photo.54.link: https://www.instagram.com/kiarino50/
+photo.54.tags: bamboo, mofumofu, peek, portrait, sample, techitechi, whiskers
+photo.55: ig://CVkoJ2nhZjS/m
+photo.55.author: hamiiiii831_
+photo.55.commitdate: 2021/11/20
+photo.55.link: https://www.instagram.com/hamiiiii831_/
+photo.55.tags: mofumofu, peek
+photo.56: ig://CVumfobhDFR/m
+photo.56.author: hamiiiii831_
+photo.56.commitdate: 2021/11/15
+photo.56.link: https://www.instagram.com/hamiiiii831_/
+photo.56.tags: home, techitechi, white face
+photo.57: ig://CVum1K8Bmrq/m
+photo.57.author: hamiiiii831_
+photo.57.commitdate: 2021/11/15
+photo.57.link: https://www.instagram.com/hamiiiii831_/
+photo.57.tags: mofumofu, techitechi
+photo.58: ig://CV6NP3Kh5cZ/m
+photo.58.author: phoenixzoo1971
+photo.58.commitdate: 2021/11/21
+photo.58.link: https://www.instagram.com/phoenixzoo1971/
+photo.58.tags: close-up, portrait, profile, techitechi
+photo.59: ig://CWS0YjhBpCc/m
+photo.59.author: phoenixzoo1971
+photo.59.commitdate: 2021/11/21
+photo.59.link: https://www.instagram.com/phoenixzoo1971/
+photo.59.tags: bamboo, close-up, mofumofu, paws, whiskers
+photo.60: ig://CXqQ2ArLIL3/m
+photo.60.author: kiarino51
+photo.60.commitdate: 2022/12/3
+photo.60.link: https://www.instagram.com/kiarino51/
+photo.60.tags: laying down, lips, mofumofu, portrait, sample, whiskers
+photo.61: ig://kiarino51/CXqTFEMr2ua/m
+photo.61.author: kiarino51
+photo.61.commitdate: 2022/12/3
+photo.61.link: https://www.instagram.com/kiarino51/
+photo.61.tags: paws, portrait, sample, techitechi, tree, whiskers
+photo.62: ig://CXtEICeFvtl/m
+photo.62.author: kiarino51
+photo.62.commitdate: 2022/12/3
+photo.62.link: https://www.instagram.com/kiarino51/
+photo.62.tags: mofumofu, portrait, sample, whiskers
+photo.63: ig://CXvZhAgPKJS/m
+photo.63.author: phoenixzoo1971
+photo.63.commitdate: 2022/1/6
+photo.63.link: https://www.instagram.com/phoenixzoo1971/
+photo.63.tags: close-up, lips, whiskers
+photo.64: ig://CXv7i5KlYlQ/m
+photo.64.author: kiarino51
+photo.64.commitdate: 2022/12/3
+photo.64.link: https://www.instagram.com/kiarino51/
+photo.64.tags: lips, peek, sample, techitechi, whiskers
+photo.65: ig://CXyOcvwlr31/m
+photo.65.author: kiarino51
+photo.65.commitdate: 2022/12/3
+photo.65.link: https://www.instagram.com/kiarino51/
+photo.65.tags: bamboo, bite, paws, peek, portrait, sample, whiskers
+photo.66: ig://CYByLiZpYR4/m
+photo.66.author: phoenixzoo1971
+photo.66.commitdate: 2022/1/8
+photo.66.link: https://www.instagram.com/phoenixzoo1971/
+photo.66.tags: birthday, nose
+photo.67: ig://kiarino51/CYDERGbvcv7/m
+photo.67.author: kiarino51
+photo.67.commitdate: 2022/12/3
+photo.67.link: https://www.instagram.com/kiarino51/
+photo.67.tags: paws, portrait, sample, whiskers
+photo.68: ig://CYFr6cFFVzL/m
+photo.68.author: kiarino51
+photo.68.commitdate: 2022/12/3
+photo.68.link: https://www.instagram.com/kiarino51/
+photo.68.tags: close-up, lips, portrait, sample, techitechi, whiskers, window
+photo.69: ig://kiarino51/CYIabSRP2gG/m
+photo.69.author: kiarino51
+photo.69.commitdate: 2022/12/3
+photo.69.link: https://www.instagram.com/kiarino51/
+photo.69.tags: blink, grooming, mofumofu, portrait, sample, tail
+photo.70: ig://CYJsa-IrkHs/m
+photo.70.author: kiarino51
+photo.70.commitdate: 2022/12/3
+photo.70.link: https://www.instagram.com/kiarino51/
+photo.70.tags: peek, portrait, sample, techitechi, tree
+photo.71: ig://CYjT2STrnHh/m
+photo.71.author: kiarino51
+photo.71.commitdate: 2022/12/3
+photo.71.link: https://www.instagram.com/kiarino51/
+photo.71.tags: bamboo, paws, portrait, sample, smile, whiskers
+photo.72: ig://kiarino51/CY6bhjFLZLV/m
+photo.72.author: kiarino51
+photo.72.commitdate: 2022/12/3
+photo.72.link: https://www.instagram.com/kiarino51/
+photo.72.tags: lips, peek, portrait, sample, techitechi, whiskers
+photo.73: ig://CZEX7ZHLqJA/m
+photo.73.author: kiarino51
+photo.73.commitdate: 2022/12/3
+photo.73.link: https://www.instagram.com/kiarino51/
+photo.73.tags: close-up, portrait, sample, whiskers
+photo.74: ig://CZJ6otErznx/m
+photo.74.author: kiarino51
+photo.74.commitdate: 2022/12/3
+photo.74.link: https://www.instagram.com/kiarino51/
+photo.74.tags: paws, portrait, standing
+photo.75: ig://CZb1Spwll18/m
+photo.75.author: kiarino51
+photo.75.commitdate: 2022/12/3
+photo.75.link: https://www.instagram.com/kiarino51/
+photo.75.tags: apple time, bite, close-up, paws, portrait, sample, techitechi, teeth, window
+photo.76: ig://CZlVz4ZP-M-/m
+photo.76.author: kiarino51
+photo.76.commitdate: 2022/12/3
+photo.76.link: https://www.instagram.com/kiarino51/
+photo.76.tags: bamboo, close-up, lips, portrait, sample, techitechi, whiskers
+photo.77: ig://CZrfCv_FMtR/m
+photo.77.author: kiarino51
+photo.77.commitdate: 2022/12/3
+photo.77.link: https://www.instagram.com/kiarino51/
+photo.77.tags: lips, peek, portrait, sample, techitechi, whiskers
+photo.78: ig://CbILMjMrnDd/m
+photo.78.author: kiarino51
+photo.78.commitdate: 2022/12/3
+photo.78.link: https://www.instagram.com/kiarino51/
+photo.78.tags: bamboo, portrait, sample
+photo.79: ig://CbKeSf5riHK/m
+photo.79.author: kiarino51
+photo.79.commitdate: 2022/12/3
+photo.79.link: https://www.instagram.com/kiarino51/
+photo.79.tags: lips, portrait, sample, whiskers
+photo.80: ig://Cb1hetlrUcK/m
+photo.80.author: kiarino51
+photo.80.commitdate: 2022/12/3
+photo.80.link: https://www.instagram.com/kiarino51/
+photo.80.tags: paws, portrait, sample, techitechi, whiskers
+photo.81: ig://CcNUPu5rIqi/m
+photo.81.author: kiarino51
+photo.81.commitdate: 2022/12/3
+photo.81.link: https://www.instagram.com/kiarino51/
+photo.81.tags: apple time, dish, paws, portrait, sample, tongue
+photo.82: ig://CcsFhUpvFBB/m
+photo.82.author: kiarino51
+photo.82.commitdate: 2022/12/3
+photo.82.link: https://www.instagram.com/kiarino51/
+photo.82.tags: mofumofu, peek, portrait, whiskers
+photo.83: ig://CdIgDkcvPyn/m
+photo.83.author: daniele.tokyo
+photo.83.commitdate: 2022/6/7
+photo.83.link: https://www.instagram.com/daniele.tokyo/
+photo.83.tags: mofumofu, paws, tree
+photo.84: ig://CeBJiszPS-i/m
+photo.84.author: daniele.tokyo
+photo.84.commitdate: 2022/6/29
+photo.84.link: https://www.instagram.com/daniele.tokyo/
+photo.84.tags: bamboo, paws, portrait, sample, whiskers
+photo.85: ig://CfMGKgELWe_/m
+photo.85.author: kiarino51
+photo.85.commitdate: 2022/12/3
+photo.85.link: https://www.instagram.com/kiarino51/
+photo.85.tags: apple time, keeper, paws, portrait, sample, standing
+photo.86: ig://CfOjmuTvmeJ/m
+photo.86.author: _sah_ax7
+photo.86.commitdate: 2022/7/9
+photo.86.link: https://www.instagram.com/_sah_ax7/
+photo.86.tags: apple time
+photo.87: ig://Cg8Z4PLODWT/m
+photo.87.author: kiarino51
+photo.87.commitdate: 2022/12/3
+photo.87.link: https://www.instagram.com/kiarino51/
+photo.87.tags: bamboo, paws, portrait, sample, techitechi
+photo.88: ig://Cg_zKYaLXoF/m
+photo.88.author: kiarino51
+photo.88.commitdate: 2022/12/3
+photo.88.link: https://www.instagram.com/kiarino51/
+photo.88.tags: paws, portrait, sample, techitechi, whiskers
+photo.89: ig://ChE4wKUrFfO/m
+photo.89.author: kiarino51
+photo.89.commitdate: 2022/12/3
+photo.89.link: https://www.instagram.com/kiarino51/
+photo.89.tags: bamboo, bite, paws, portrait, tongue
+photo.90: ig://Cj-F527B1e3/m
+photo.90.author: kiarino51
+photo.90.commitdate: 2022/12/4
+photo.90.link: https://www.instagram.com/kiarino51/
+photo.90.tags: lips, portrait, sample, smile, whiskers
+photo.91: ig://CkgBqVdrcuc/m
+photo.91.author: kiarino51
+photo.91.commitdate: 2023/1/6
+photo.91.link: https://www.instagram.com/kiarino51/
+photo.91.tags: apple time, close-up, keeper, mofumofu, portrait, whiskers
+photo.92: ig://CllVGsQrTCW/m
+photo.92.author: kiarino51
+photo.92.commitdate: 2022/12/7
+photo.92.link: https://www.instagram.com/kiarino51/
+photo.92.tags: lips, paws, portrait, sample, smile, tail, techitechi
+species: 2
+studbook.id: 13157
+zoo: 30

@@ -1,0 +1,160 @@
+[panda]
+_id: 871
+birthday: 2014/6/26
+birthplace: 114
+children: none
+commitdate: 2019/6/16
+en.name: Slash
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スラッシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 872, 873
+location.1: 114, 2014/6/26
+location.2: 132, 2015/5/14
+photo.1: ig://BRLiVPygdpB/m
+photo.1.author: elmwoodparkzoo
+photo.1.commitdate: 2019/6/16
+photo.1.link: https://www.instagram.com/elmwoodparkzoo/
+photo.1.tags: bamboo, paws
+photo.2: ig://BVznJgMAEjR/m
+photo.2.author: elmwoodparkzoo
+photo.2.commitdate: 2019/6/16
+photo.2.link: https://www.instagram.com/elmwoodparkzoo/
+photo.2.tags: home
+photo.3: ig://Bc9_T7FgPs2/m
+photo.3.author: elmwoodparkzoo
+photo.3.commitdate: 2019/6/16
+photo.3.link: https://www.instagram.com/elmwoodparkzoo/
+photo.3.tags: peek
+photo.4: ig://Bd2sc3RAdbg/m
+photo.4.author: elmwoodparkzoo
+photo.4.commitdate: 2019/6/16
+photo.4.link: https://www.instagram.com/elmwoodparkzoo/
+photo.4.tags: bamboo, snow
+photo.5: ig://Bfi2ipFATZe/m
+photo.5.author: elmwoodparkzoo
+photo.5.commitdate: 2019/6/16
+photo.5.link: https://www.instagram.com/elmwoodparkzoo/
+photo.5.tags: profile, smile, tongue
+photo.6: ig://Bp8iVAPBTk0/m
+photo.6.author: rossifari
+photo.6.commitdate: 2019/11/17
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: portrait, smile, whiskers
+photo.7: ig://Bs187oihYwR/m
+photo.7.author: rossifari
+photo.7.commitdate: 2020/8/11
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: portrait, smile, tongue
+photo.8: ig://BvFqQGBhZMa/m
+photo.8.author: rossifari
+photo.8.commitdate: 2020/8/11
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: paws, portrait, smile, tongue, whiskers
+photo.9: ig://BxQVm-6hDe5/m
+photo.9.author: rossifari
+photo.9.commitdate: 2019/11/17
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: laying down, whiskers
+photo.10: ig://BzOpp7ip120/m
+photo.10.author: rossifari
+photo.10.commitdate: 2019/10/27
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: laying down
+photo.11: ig://B2htZgIJzTC/m
+photo.11.author: rossifari
+photo.11.commitdate: 2019/10/13
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: grooming, paws, portrait
+photo.12: ig://B4As4zHpCn9/m
+photo.12.author: rossifari
+photo.12.commitdate: 2019/10/27
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: laying down, whiskers
+photo.13: ig://B71Y4wFJob0/m
+photo.13.author: rossifari
+photo.13.commitdate: 2020/2/3
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: white face
+photo.14: ig://B8MQAJEpLwB/m
+photo.14.author: rossifari
+photo.14.commitdate: 2020/8/11
+photo.14.link: https://www.instagram.com/rossifari/
+photo.14.tags: laying down, paws, portrait, sleeping, tail
+photo.15: ig://B9PIAr7plHt/m
+photo.15.author: rossifari
+photo.15.commitdate: 2020/8/11
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: dish, paws, tail
+photo.16: ig://B9z38hzlE4D/m
+photo.16.author: elmwoodparkzoo
+photo.16.commitdate: 2020/3/20
+photo.16.link: https://www.instagram.com/elmwoodparkzoo/
+photo.16.tags: bamboo, tongue
+photo.17: ig://B-PcP7gDOtM/m
+photo.17.author: rossifari
+photo.17.commitdate: 2020/8/11
+photo.17.link: https://www.instagram.com/rossifari/
+photo.17.tags: paws, portrait, whiskers
+photo.18: ig://B_FZ6GPDS1I/m
+photo.18.author: rossifari
+photo.18.commitdate: 2020/8/11
+photo.18.link: https://www.instagram.com/rossifari/
+photo.18.tags: close-up, paws, portrait
+photo.19: ig://CAc9ZKNJCYh/m
+photo.19.author: elmwoodparkzoo
+photo.19.commitdate: 2020/8/11
+photo.19.link: https://www.instagram.com/elmwoodparkzoo/
+photo.19.tags: close-up, keeper, lunch time, mofumofu, whiskers
+photo.20: ig://CBQx6UmH4oR/m
+photo.20.author: elmwoodparkzoo
+photo.20.commitdate: 2020/8/11
+photo.20.link: https://www.instagram.com/elmwoodparkzoo/
+photo.20.tags: close-up, laying down, paws, portrait, sleeping
+photo.21: ig://CCD9MRhg5tg/m
+photo.21.author: elmwoodparkzoo
+photo.21.commitdate: 2020/8/11
+photo.21.link: https://www.instagram.com/elmwoodparkzoo/
+photo.21.tags: laying down, paws, portrait, tail, sleeping
+photo.22: ig://CDtRH_IApww/m
+photo.22.author: rossifari
+photo.22.commitdate: 2020/9/7
+photo.22.link: https://www.instagram.com/rossifari/
+photo.22.tags: paws, whiskers
+photo.23: ig://CINtEdOANYK/m
+photo.23.author: rossifari
+photo.23.commitdate: 2021/9/23
+photo.23.link: https://www.instagram.com/rossifari/
+photo.23.tags: close-up, portrait, whiskers
+photo.24: ig://CLJdWCrrDfF/m
+photo.24.author: rossifari
+photo.24.commitdate: 2021/6/29
+photo.24.link: https://www.instagram.com/rossifari/
+photo.24.tags: bamboo, paws, portrait, snow
+photo.25: ig://CNR4ArXgSeo/m
+photo.25.author: rossifari
+photo.25.commitdate: 2021/4/29
+photo.25.link: https://www.instagram.com/rossifari/
+photo.25.tags: portrait, whiskers, white face
+photo.26: ig://CfRIHFqOB-g/m
+photo.26.author: rossifari
+photo.26.commitdate: 2022/7/9
+photo.26.link: https://www.instagram.com/rossifari/
+photo.26.tags: close-up, mofumofu, paws, sample, whiskers
+photo.27: ig://Cg_zSUUMagZ/m
+photo.27.author: rossifari
+photo.27.commitdate: 2022/9/24
+photo.27.link: https://www.instagram.com/rossifari/
+photo.27.tags: portrait, sample, whiskers
+photo.28: ig://CjiBXAtsqNG/m
+photo.28.author: rossifari
+photo.28.commitdate: 2022/10/20
+photo.28.link: https://www.instagram.com/rossifari/
+photo.28.tags: air tasting, portrait, sample, tongue, whiskers
+species: 1
+studbook.id: 1435
+zoo: 132

@@ -1,0 +1,25 @@
+[panda]
+_id: 911
+birthday: 2012/6/11
+birthplace: 119
+children: 921, 1072, 1073
+commitdate: 2019/7/2
+en.name: Carys
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: カリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 818
+location.1: 119, 2012/6/11
+location.2: 120, 2013/3/15
+location.3: 153, 2018/5/22
+photo.1: ig://B5cxM96Bcee/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: door, home, peek, portrait
+species: 1
+zoo: 153

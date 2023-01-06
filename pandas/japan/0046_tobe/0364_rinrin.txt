@@ -1,0 +1,19 @@
+[panda]
+_id: 364
+birthday: 1999/7/9
+birthplace: 15
+children: 208, 135, 477, 331
+commitdate: 2018/10/26
+death: 2014/11/4
+en.name: Rin-Rin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 怜怜
+jp.nicknames: none
+jp.othernames: れいれい
+language.order: jp, en
+litter: 107
+species: 2
+studbook.id: 9992
+zoo: 46

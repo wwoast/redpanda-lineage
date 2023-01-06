@@ -1,0 +1,22 @@
+[panda]
+_id: 506
+birthday: 2005/6/10
+birthplace: 114
+children: 170, 507, 510, 511, 512, 513
+commitdate: 2019/2/23
+death: 2015/6/2
+en.name: Leo Mei
+en.nicknames: none
+en.othernames: Leomei, Leo-Mei
+gender: f
+jp.name: レオメイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 900
+location.1: 114, 2005/6/10
+location.2: 49, 2005/10/2
+location.3: 114, 2007/12/11
+species: 1
+studbook.id: 0521
+zoo: 114

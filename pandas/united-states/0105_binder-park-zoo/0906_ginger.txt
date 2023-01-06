@@ -1,0 +1,20 @@
+[panda]
+_id: 906
+birthday: 2014/6/19
+birthplace: 145
+children: none
+commitdate: 2019/7/2
+death: 2015/9/8
+en.name: Ginger
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ギンガ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 542
+location.1: 145, 2014/6/19
+location.2: 105, 2015/1/6
+species: 1
+zoo: 105

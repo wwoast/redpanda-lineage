@@ -1,0 +1,43 @@
+[panda]
+_id: 1252
+birthday: 2019/5/17
+birthplace: 76
+children: none
+commitdate: 2021/4/4
+en.name: Rose
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ローズ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1253
+photo.1: ig://CJJ6oZjFITd/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2021/4/4
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: smile, snow, toys
+photo.2: ig://CJ1IU0hgxq7/m
+photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2021/4/4
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2.tags: paws, peek, portrait, snow, whiskers
+photo.3: ig://CSkUQ-LHcHe/m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2021/12/23
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: portrait, techitechi, whiskers
+photo.4: ig://CU0fSeLvs61/m
+photo.4.author: assiniboineparkzoo
+photo.4.commitdate: 2021/12/23
+photo.4.link: https://www.instagram.com/assiniboineparkzoo/
+photo.4.tags: paws, smile, whiskers
+photo.5: ig://CWWXoMBPWcQ/m
+photo.5.author: assiniboineparkzoo
+photo.5.commitdate: 2021/12/23
+photo.5.link: https://www.instagram.com/assiniboineparkzoo/
+photo.5.tags: paws, snow, tree
+species: 2
+studbook.id: unknown
+zoo: 76

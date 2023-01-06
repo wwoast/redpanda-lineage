@@ -1,0 +1,12 @@
+[zoo]
+_id: 273
+commitdate: 2021/4/7
+en.address: 134 Corstorphine Road EH12 6TS, Edinburgh, United Kingdom
+en.location: Edinburgh, United Kingdom
+en.name: Edinburgh Zoo
+flag: UK
+language.order: en
+latitude: 55.9423649
+longitude: -3.2707825
+map: https://g.page/RZSSEdinburghZoo
+website: https://www.edinburghzoo.org.uk/

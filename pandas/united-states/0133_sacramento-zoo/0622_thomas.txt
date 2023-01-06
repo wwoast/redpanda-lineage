@@ -1,0 +1,117 @@
+[panda]
+_id: 622
+birthday: 2013/6/20
+birthplace: 145
+children: 877, 878
+commitdate: 2019/3/19
+en.name: Thomas
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トーマス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 621
+location.1: 145, 2013/6/20
+location.2: 146, 2017/12/12
+location.3: 133, 2021/11/10
+photo.1: ig://Bf8udB6lKfS/m
+photo.1.author: esdeemphoto
+photo.1.commitdate: 2022/2/18
+photo.1.link: https://www.instagram.com/esdeemphoto/
+photo.1.tags: peek, portrait, sample, smile, tongue, whiskers
+photo.2: ig://BggluwMg8cO/m
+photo.2.author: esdeemphoto
+photo.2.commitdate: 2022/2/18
+photo.2.link: https://www.instagram.com/esdeemphoto/
+photo.2.tags: portrait, sample, smile, whiskers
+photo.3: ig://Bi5TRJunB-U/m
+photo.3.author: esdeemphoto
+photo.3.commitdate: 2022/2/18
+photo.3.link: https://www.instagram.com/esdeemphoto/
+photo.3.tags: bamboo, paws, smile
+photo.4: ig://ByQwlfsnLzm/m
+photo.4.author: okczoo
+photo.4.commitdate: 2019/10/15
+photo.4.link: https://www.instagram.com/okczoo/
+photo.4.tags: portrait, profile
+photo.5: ig://B2APpgcnKO2/m
+photo.5.author: okczoo
+photo.5.commitdate: 2019/10/15
+photo.5.link: https://www.instagram.com/okczoo/
+photo.5.tags: bamboo, paws
+photo.6: ig://B2qTf_mAmB4/m
+photo.6.author: okczoo
+photo.6.commitdate: 2019/10/15
+photo.6.link: https://www.instagram.com/okczoo/
+photo.6.tags: bamboo
+photo.7: ig://B4D3EQFg3Sr/m
+photo.7.author: esdeemphoto
+photo.7.commitdate: 2020/3/3
+photo.7.link: https://www.instagram.com/esdeemphoto/
+photo.7.tags: portrait
+photo.8: ig://B5Y3mYYBOEV/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/11/29
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: portrait, smile, tongue
+photo.9: ig://B9Pc038A1X0/m
+photo.9.author: mandalaybay22
+photo.9.commitdate: 2020/5/23
+photo.9.link: https://www.instagram.com/mandalaybay22/
+photo.9.tags: bamboo, portrait, smile
+photo.10: ig://B_D0GT_Bf7y/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2022/2/18
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: paws, portrait, sample, smile, whiskers
+photo.11: ig://B_GQJ4oBfpi/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2022/2/18
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: portrait, sample, smile, whiskers
+photo.12: ig://B_JCqriBeWx/m
+photo.12.author: worldthathesees
+photo.12.commitdate: 2020/5/23
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: portrait, tail
+photo.13: ig://CGpjqfuH7a6/m
+photo.13.author: okczoo
+photo.13.commitdate: 2021/8/14
+photo.13.link: https://www.instagram.com/okczoo/
+photo.13.tags: close-up, whiskers
+photo.14: ig://CIwCVehH7Xu/m
+photo.14.author: okczoo
+photo.14.commitdate: 2021/7/21
+photo.14.link: https://www.instagram.com/okczoo/
+photo.14.tags: paws, smile, snow, standing
+photo.15: ig://CIymCewhhRL/m
+photo.15.author: okczoo
+photo.15.commitdate: 2022/2/18
+photo.15.link: https://www.instagram.com/carsontheredpanda/
+photo.15.tags: paws, smile, snow, standing
+photo.16: ig://CJjh8YuFn6_/m
+photo.16.author: okczoo
+photo.16.commitdate: 2021/7/21
+photo.16.link: https://www.instagram.com/okczoo/
+photo.16.tags: peek, whiskers
+photo.17: ig://CLahQ8CnhFB/m
+photo.17.author: okczoo
+photo.17.commitdate: 2022/1/13
+photo.17.link: https://www.instagram.com/okczoo/
+photo.17.tags: paws, peek, snow
+photo.18: ig://CT9sri0NjQr/m
+photo.18.author: okczoo
+photo.18.commitdate: 2022/2/18
+photo.18.link: https://www.instagram.com/okczoo/
+photo.18.tags: close-up, standing, whiskers
+photo.19: ig://CakWZvms2oN/m
+photo.19.author: okczoo
+photo.19.commitdate: 2022/3/6
+photo.19.link: https://www.instagram.com/okczoo/
+photo.19.tags: paws, peek, sample, whiskers
+species: 1
+studbook.id: 1332
+uncertainty: location.3 is a best guess based on benjamin's move-in date
+zoo: 133

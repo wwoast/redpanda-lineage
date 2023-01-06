@@ -1,0 +1,35 @@
+[links]
+_id: links.zoos
+icon: panda
+link.1: http://www.chausuyama.com/
+link.1.en.name: Chausuyama Zoo
+link.1.jp.name: 茶臼山動物園
+link.1.language.order: jp
+link.2: http://www.city.ichikawa.lg.jp/zoo/index.html
+link.2.en.name: Ichikawa Zoo
+link.2.jp.name: 市川市動植物園
+link.2.language.order: jp
+link.3: https://www.city.sabae.fukui.jp/nishiyama_zoo/
+link.3.en.name: Nishiyama Zoo
+link.3.jp.name: 鯖江市西山動物園
+link.3.language.order: jp
+link.4: http://www.tokyo-zoo.net/zoo/tama/
+link.4.en.name: Tama Zoo
+link.4.jp.name: 多摩動物公園
+link.4.language.order: jp
+link.5: http://www.nhdzoo.jp/
+link.5.en.name: Nihondaira Zoo
+link.5.jp.name: 静岡市立日本平動物園
+link.5.language.order: jp
+link.6: http://tohoku-safaripark.co.jp/
+link.6.en.name: Tohoku Safari Park
+link.6.jp.name: 東北サファリパーク
+link.6.language.order: jp
+link.7: https://www.city.chiba.jp/zoo/
+link.7.en.name: Chiba Zoological Park
+link.7.jp.name: 千葉市動物公園
+link.7.language.order: jp
+link.8: http://www.city.sapporo.jp/zoo/index.html
+link.8.en.name: Sapporo Maruyama Zoo
+link.8.jp.name: 札幌市円山動物園
+link.8.language.order: jp

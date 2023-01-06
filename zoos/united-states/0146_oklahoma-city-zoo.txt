@@ -1,0 +1,17 @@
+[zoo]
+_id: 146
+commitdate: 2019/3/12
+en.address: 2101 NE 50th St, Oklahoma City, OK 73111
+en.location: Oklahoma City, Oklahoma, USA
+en.name: Oklahoma City Zoo
+flag: USA
+language.order: en
+latitude: 35.5216262
+longitude: -97.4705582
+map: https://goo.gl/maps/C9iJrLceqQs
+photo.1: ig://B3mzINTHBk4/m
+photo.1.author: okczoo
+photo.1.commitdate: 2019/10/15
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: profile
+website: https://www.okczoo.org/

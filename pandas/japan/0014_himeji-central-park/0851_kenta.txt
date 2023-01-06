@@ -1,0 +1,19 @@
+[panda]
+_id: 851
+birthday: 1998/6/29
+birthplace: 14
+children: none
+commitdate: 2019/5/7
+death: 2010/10/28
+en.name: Kenta
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ケンタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+species: 2
+studbook.id: 98026
+zoo: 14

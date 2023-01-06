@@ -1,0 +1,326 @@
+[panda]
+_id: 96
+birthday: 2015/6/25
+birthplace: 2
+children: 1189, 1190, 1370, 1371
+commitdate: 2018/6/23
+en.name: Pu'erh
+en.nicknames: none
+en.othernames: Puerh, Pu-erh, Puer
+gender: m
+jp.name: プーアル
+jp.nicknames: none
+jp.othernames: 普洱
+language.order: jp, en
+litter: 288
+location.1: 2, 2015/6/25
+location.2: 10, 2016/9/6
+location.3: 37, 2020/2/18
+photo.1: ig://BHFd7FojIsy/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/5/17
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: lunch time, paws
+photo.2: ig://BHHd512hdUv/m
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2020/5/4
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: dish, lunch time, portrait
+photo.3: ig://BHrqqGhhpGi/m
+photo.3.author: apple_jasmine33
+photo.3.commitdate: 2020/5/4
+photo.3.link: https://www.instagram.com/apple_jasmine33/
+photo.3.tags: apple time, dish, paws, portrait, smile, tail
+photo.4: ig://BJAtB-Nhp3_/m
+photo.4.author: apple_jasmine33
+photo.4.commitdate: 2020/5/4
+photo.4.link: https://www.instagram.com/apple_jasmine33/
+photo.4.tags: bamboo, portrait
+photo.5: ig://BJvGYHph7oq/m
+photo.5.author: apple_jasmine33
+photo.5.commitdate: 2020/5/4
+photo.5.link: https://www.instagram.com/apple_jasmine33/
+photo.5.tags: apple time, dish, paws, portrait
+photo.6: ig://BJwOULuDWU5/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2020/4/18
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: flowers, tail
+photo.7: ig://BJ_vMQID7sk/m
+photo.7.author: minatomirai215
+photo.7.commitdate: 2020/4/18
+photo.7.link: https://www.instagram.com/minatomirai215/
+photo.7.tags: flowers, smile
+photo.8: ig://BKRZ_PTAk9y/m
+photo.8.author: toshi1213_f1
+photo.8.commitdate: 2018/7/29
+photo.8.link: https://www.instagram.com/toshi1213_f1/
+photo.8.tags: laying down
+photo.9: ig://BMjYLD4gWyW/m
+photo.9.author: perie1027vivi
+photo.9.commitdate: 2018/7/19
+photo.9.link: https://www.instagram.com/perie1027vivi/
+photo.10: ig://BOXC4XoA3Mz/m
+photo.10.author: perie1027vivi
+photo.10.commitdate: 2018/7/19
+photo.10.link: https://www.instagram.com/perie1027vivi/
+photo.11: ig://Bh7evSpFCny/m
+photo.11.author: panda.daisuki
+photo.11.commitdate: 2018/7/29
+photo.11.link: https://www.instagram.com/panda.daisuki/
+photo.12: ig://Bkal0MalDix/m
+photo.12.author: perie1027vivi
+photo.12.commitdate: 2018/7/19
+photo.12.link: https://www.instagram.com/perie1027vivi/
+photo.13: ig://Br1acdDFhVj/m
+photo.13.author: apple_jasmine33
+photo.13.commitdate: 2018/12/26
+photo.13.link: https://www.instagram.com/apple_jasmine33/
+photo.13.tags: profile
+photo.14: ig://B3GkK6Ih2Yi/m
+photo.14.author: hamiiiii831_
+photo.14.commitdate: 2019/10/9
+photo.14.link: https://www.instagram.com/hamiiiii831_/
+photo.14.tags: paws, standing
+photo.15: ig://B5Cx_g8hi6v/m
+photo.15.author: shigeko0531
+photo.15.commitdate: 2019/12/5
+photo.15.link: https://www.instagram.com/shigeko0531/
+photo.15.tags: paws, peek
+photo.16: ig://B6FyHQOhzLl/m
+photo.16.author: shigeko0531
+photo.16.commitdate: 2019/12/29
+photo.16.link: https://www.instagram.com/shigeko0531/
+photo.16.tags: standing, tail
+photo.17: ig://B6XqoUTB3wP/m
+photo.17.author: apple_jasmine33
+photo.17.commitdate: 2019/12/29
+photo.17.link: https://www.instagram.com/apple_jasmine33/
+photo.17.tags: paws, portrait
+photo.18: ig://B6cHjLuhQjs/m
+photo.18.author: alto0908
+photo.18.commitdate: 2020/1/19
+photo.18.link: https://www.instagram.com/alto0908/
+photo.18.tags: autumn, portrait, tree
+photo.19: ig://B6fwGIFhXM_/m
+photo.19.author: apple_jasmine33
+photo.19.commitdate: 2019/12/30
+photo.19.link: https://www.instagram.com/apple_jasmine33/
+photo.19.tags: paws, standing
+photo.20: ig://B6kwancjWPZ/m
+photo.20.author: apple_jasmine33
+photo.20.commitdate: 2019/12/30
+photo.20.link: https://www.instagram.com/apple_jasmine33/
+photo.20.tags: portrait
+photo.21: ig://B6od7EchpDv/m
+photo.21.author: shigeko0531
+photo.21.commitdate: 2019/12/31
+photo.21.link: https://www.instagram.com/shigeko0531/
+photo.21.tags: portrait, snow, tail, tree
+photo.22: ig://B6otg9Dh0DY/m
+photo.22.author: sasapan34
+photo.22.commitdate: 2019/12/31
+photo.22.link: https://www.instagram.com/sasapan34/
+photo.22.tags: peek, tree
+photo.23: ig://B7YHKeFBRp3/m
+photo.23.author: hamiiiii831_
+photo.23.commitdate: 2020/1/18
+photo.23.link: https://www.instagram.com/hamiiiii831_/
+photo.23.tags: grooming, paws, portrait
+photo.24: ig://B7xGxrQBYOA/m
+photo.24.author: alto0908
+photo.24.commitdate: 2020/1/28
+photo.24.link: https://www.instagram.com/alto0908/
+photo.24.tags: bamboo, portrait, standing
+photo.25: ig://B8GhgJwh4y9/m
+photo.25.author: jas_forever_love
+photo.25.commitdate: 2020/2/7
+photo.25.link: https://www.instagram.com/jas_forever_love/
+photo.25.tags: paws, standing
+photo.26: ig://B8LuGKJhTPp/m
+photo.26.author: _sah_ax7
+photo.26.commitdate: 2020/2/9
+photo.26.link: https://www.instagram.com/_sah_ax7/
+photo.26.tags: bamboo, wink
+photo.27: ig://B8V3_BDBDvr/m
+photo.27.author: minatomirai215
+photo.27.commitdate: 2020/2/16
+photo.27.link: https://www.instagram.com/minatomirai215/
+photo.27.tags: bamboo, mofumofu, portrait, smile, snow
+photo.28: ig://B8fznaFhis9/m
+photo.28.author: sasapan34
+photo.28.commitdate: 2020/2/16
+photo.28.link: https://www.instagram.com/sasapan34/
+photo.28.tags: snow, surprise, tail
+photo.29: ig://B8mm-jVhijl/m
+photo.29.author: sasapan34
+photo.29.commitdate: 2020/2/26
+photo.29.link: https://www.instagram.com/sasapan34/
+photo.29.tags: laying down, paws, smile, snow
+photo.30: ig://B8oA5rfhzqi/m
+photo.30.author: jas_forever_love
+photo.30.commitdate: 2020/2/26
+photo.30.link: https://www.instagram.com/jas_forever_love/
+photo.30.tags: bamboo, portrait, whiskers
+photo.31: ig://B8ol-m2h9yH/m
+photo.31.author: nakacchi_desu
+photo.31.commitdate: 2020/2/26
+photo.31.link: https://www.instagram.com/nakacchi_desu/
+photo.31.tags: whiskers
+photo.32: ig://B8pKtjxBKit/m
+photo.32.author: sasapan34
+photo.32.commitdate: 2020/2/26
+photo.32.link: https://www.instagram.com/sasapan34/
+photo.32.tags: laying down, tail, tree
+photo.33: ig://B8pK2TohGbe/m
+photo.33.author: sasapan34
+photo.33.commitdate: 2020/2/26
+photo.33.link: https://www.instagram.com/sasapan34/
+photo.33.tags: apple time, dish, snow
+photo.34: ig://B8pVkZiBy6_/m
+photo.34.author: apple_jasmine33
+photo.34.commitdate: 2020/3/9
+photo.34.link: https://www.instagram.com/apple_jasmine33/
+photo.34.tags: portrait, whiskers
+photo.35: ig://B8sMiQuBK9b/m
+photo.35.author: minatomirai215
+photo.35.commitdate: 2020/2/26
+photo.35.link: https://www.instagram.com/minatomirai215/
+photo.35.tags: apple time, dish, snow, tail
+photo.36: ig://B8u-289Bnn5/m
+photo.36.author: asahiyamazoo1
+photo.36.commitdate: 2020/3/5
+photo.36.link: https://www.instagram.com/asahiyamazoo1/
+photo.36.tags: peek, whiskers
+photo.37: ig://B81Ey1ZBwSI/m
+photo.37.author: rie_panda55
+photo.37.commitdate: 2020/3/9
+photo.37.link: https://www.instagram.com/rie_panda55/
+photo.37.tags: portrait, snow, tail
+photo.38: ig://B9bhmuuh8a6/m
+photo.38.author: jas_forever_love
+photo.38.commitdate: 2020/3/9
+photo.38.link: https://www.instagram.com/jas_forever_love/
+photo.38.tags: paws, standing
+photo.39: ig://B-4c7Jzhzlj/m
+photo.39.author: mifko55
+photo.39.commitdate: 2020/4/15
+photo.39.link: https://www.instagram.com/mifko55/
+photo.39.tags: bamboo, laying down, portrait
+photo.40: ig://B_fU9Mbn6nH/m
+photo.40.author: sasapan34
+photo.40.commitdate: 2020/5/4
+photo.40.link: https://www.instagram.com/sasapan34/
+photo.40.tags: bridge, snow
+photo.41: ig://B_1-h0AnLkU/m
+photo.41.author: jas_forever_love
+photo.41.commitdate: 2020/5/17
+photo.41.link: https://www.instagram.com/jas_forever_love/
+photo.41.tags: bamboo, paws, portrait
+photo.42: ig://B_97Mr1Hr_c/m
+photo.42.author: sasapan34
+photo.42.commitdate: 2020/5/17
+photo.42.link: https://www.instagram.com/sasapan34/
+photo.42.tags: paws, snow
+photo.43: ig://CFlJYK6BvoU/m
+photo.43.author: an920000
+photo.43.commitdate: 2020/11/19
+photo.43.link: https://www.instagram.com/an920000/
+photo.43.tags: smile, whiskers
+photo.44: ig://CGl0PQeh4lq/m
+photo.44.author: leonard_redmof
+photo.44.commitdate: 2020/10/29
+photo.44.link: https://www.instagram.com/leonard_redmof/
+photo.44.tags: baby, mofumofu, portrait
+photo.45: ig://CHC79eqhVOZ/m
+photo.45.author: jas_forever_love
+photo.45.commitdate: 2020/11/6
+photo.45.link: https://www.instagram.com/jas_forever_love/
+photo.45.tags: autumn, paws, portrait, tail
+photo.46: ig://CHufxSHhigK/m
+photo.46.author: redpanda_nippon_takashi
+photo.46.commitdate: 2020/11/18
+photo.46.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.46.tags: portrait, whiskers
+photo.47: ig://CHvAkXoHlnN/m
+photo.47.author: apple_jasmine33
+photo.47.commitdate: 2020/11/18
+photo.47.link: https://www.instagram.com/apple_jasmine33/
+photo.47.tags: portrait, tail
+photo.48: ig://CIg8nnxB3Sc/m
+photo.48.author: kipekaila
+photo.48.commitdate: 2021/1/30
+photo.48.link: https://www.instagram.com/kipekaila/
+photo.48.tags: snow, whiskers
+photo.49: ig://CMVlrixhPNf/m
+photo.49.author: nakacchi_desu
+photo.49.commitdate: 2021/11/25
+photo.49.link: https://www.instagram.com/nakacchi_desu/
+photo.49.tags: mofumofu, snow, whiskers
+photo.50: ig://CMsw6nVBP93/m
+photo.50.author: sasapan34
+photo.50.commitdate: 2021/11/25
+photo.50.link: https://www.instagram.com/sasapan34/
+photo.50.tags: bamboo
+photo.51: ig://CNH3dhlhPR4/m
+photo.51.author: leonard_redmof
+photo.51.commitdate: 2021/4/7
+photo.51.link: https://www.instagram.com/leonard_redmof/
+photo.51.tags: apple time, mofumofu, portrait, snow, tail
+photo.52: ig://CRhmbuhBCKx/m
+photo.52.author: sasapan34
+photo.52.commitdate: 2021/9/13
+photo.52.link: https://www.instagram.com/sasapan34/
+photo.52.tags: smile
+photo.53: ig://CR8sCsvn-7W/m
+photo.53.author: sasapan34
+photo.53.commitdate: 2021/8/18
+photo.53.link: https://www.instagram.com/sasapan34/
+photo.53.tags: whiskers
+photo.54: ig://CSdJJGXFPCn/m
+photo.54.author: sasapan34
+photo.54.commitdate: 2022/9/25
+photo.54.link: https://www.instagram.com/sasapan34/
+photo.54.tags: sample, smile
+photo.55: ig://CUQn52RBQuL/m
+photo.55.author: sasapan34
+photo.55.commitdate: 2022/2/1
+photo.55.link: https://www.instagram.com/sasapan34/
+photo.55.tags: smile
+photo.56: ig://CU7YbD1hEoU/m
+photo.56.author: leonard_redmof
+photo.56.commitdate: 2021/10/24
+photo.56.link: https://www.instagram.com/leonard_redmof/
+photo.56.tags: apple time, paws, standing, toys
+photo.57: ig://CWJ2NzrsnK8/m
+photo.57.author: sasapan34
+photo.57.commitdate: 2021/11/23
+photo.57.link: https://www.instagram.com/sasapan34/
+photo.57.tags: bamboo, bite
+photo.58: ig://Cfjs823vDwL/m
+photo.58.author: fetorus_mami
+photo.58.commitdate: 2022/7/31
+photo.58.link: https://www.instagram.com/fetorus_mami/
+photo.58.tags: nose, portrait, sample, tongue, whiskers
+photo.59: ig://Cf5FKFVBZGz/m
+photo.59.author: fetorus_mami
+photo.59.commitdate: 2022/7/31
+photo.59.link: https://www.instagram.com/fetorus_mami/
+photo.59.tags: paws, standing, upside-down
+photo.60: ig://CgN2fi3vj-b/m
+photo.60.author: sasapan34
+photo.60.commitdate: 2022/9/25
+photo.60.link: https://www.instagram.com/sasapan34/
+photo.61: ig://CgvbJtsP3cS/m
+photo.61.author: sasapan34
+photo.61.commitdate: 2022/9/25
+photo.61.link: https://www.instagram.com/sasapan34/
+photo.61.tags: close-up, whiskers
+photo.62: ig://CiE6VhxBWUX/m
+photo.62.author: yakkooo24
+photo.62.commitdate: 2022/9/4
+photo.62.link: https://www.instagram.com/yakkooo24/
+photo.62.tags: mofumofu, portrait, sample, whiskers
+species: 2
+studbook.id: 15134
+zoo: 37

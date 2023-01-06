@@ -1,0 +1,23 @@
+[panda]
+_id: 168
+birthday: 2002/6/25
+birthplace: 13
+children: 26, 109, 124, 79, 114
+commitdate: 2018/7/6
+death: 2014/12/18
+en.name: Chata
+en.nicknames: none
+en.othernames: Cyata
+gender: m
+jp.name: チャタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.codaworry.com/images/rpf/chata-1-nishiyama.jpg
+photo.1.author: shin
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://shinshin.cocolog-nifty.com/redpanda
+photo.1.tags: profile
+species: 2
+studbook.id: 0265
+zoo: 13

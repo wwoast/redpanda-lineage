@@ -1,0 +1,52 @@
+[panda]
+_id: 842
+birthday: 2010/6/12
+birthplace: 105
+children: 1006, 1007
+commitdate: 2019/4/15
+death: 2020/12/3
+en.name: Sorrel
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 栗色
+jp.nicknames: none
+jp.othernames: くりいろ
+language.order: en, jp
+litter: 841
+location.1: 105, 2010/6/12
+location.2: 187, 2011/4/28
+photo.1: ig://wrqNjDitXC/m
+photo.1.author: bhamzoo
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/bhamzoo/
+photo.1.tags: portrait, profile
+photo.2: ig://BRlsI9BByko/m
+photo.2.author: bhamzoo
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/bhamzoo/
+photo.2.tags: laying down
+photo.3: ig://Bd0LK1DFy-Z/m
+photo.3.author: bhamzoo
+photo.3.commitdate: 2019/11/2
+photo.3.link: https://www.instagram.com/bhamzoo/
+photo.3.tags: art, keeper, portrait
+photo.4: ig://Bm7T9wTlFu1/m
+photo.4.author: bhamzoo
+photo.4.commitdate: 2019/6/5
+photo.4.link: https://www.instagram.com/bhamzoo/
+photo.4.tags: art
+photo.5: ig://BytImJOAjy5/m
+photo.5.author: bhamzoo
+photo.5.commitdate: 2019/11/2
+photo.5.link: https://www.instagram.com/bhamzoo/
+photo.5.tags: whiskers
+photo.6: ig://CIWHX4VgNR4/m
+photo.6.author: bhamzoo
+photo.6.commitdate: 2020/12/20
+photo.6.link: https://www.instagram.com/bhamzoo/
+photo.6.tags: flowers
+species: 1
+studbook.id: 1009
+uncertainty: death exact date
+zoo: 187

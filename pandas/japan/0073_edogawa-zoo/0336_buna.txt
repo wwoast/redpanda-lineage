@@ -1,0 +1,645 @@
+[panda]
+_id: 336
+birthday: 2000/7/17
+birthplace: 40
+children: 290, 155
+commitdate: 2018/9/8
+en.name: Buna
+en.nicknames: none
+en.othernames: Beech
+gender: m
+jp.name: ブナ
+jp.nicknames: none
+jp.othernames: 橅
+language.order: jp, en
+litter: 49
+location.1: 40, 2000/7/17
+location.2: 73, 2001/11/9
+photo.1: ig://3UtZZuPi0D/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2020/4/15
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: ear, portrait, whiskers
+photo.2: ig://3nOw8WPi4J/m
+photo.2.author: panda.daisuki
+photo.2.commitdate: 2019/7/16
+photo.2.link: https://www.instagram.com/panda.daisuki/
+photo.2.tags: ear, old, portrait, smile, whiskers
+photo.3: ig://49Q6AuOR8K/m
+photo.3.author: masa_polarbear
+photo.3.commitdate: 2020/4/26
+photo.3.link: https://www.instagram.com/masa_polarbear/
+photo.3.tags: laying down, paws, portrait
+photo.4: ig://7R74U0vi9X/m
+photo.4.author: panda.daisuki
+photo.4.commitdate: 2020/4/15
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: paws, portrait, smile
+photo.5: ig://BRxu7emFuXd/m
+photo.5.author: rdpnzoo
+photo.5.commitdate: 2019/6/20
+photo.5.link: https://www.instagram.com/rdpnzoo/
+photo.5.tags: mofumofu, tree
+photo.6: ig://Baz_U7jlNG_/m
+photo.6.author: hanamaru_redpanda
+photo.6.commitdate: 2020/3/11
+photo.6.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6.tags: paws, portrait, tail, tree
+photo.7: ig://BjEChhmlP_S/m
+photo.7.author: na.mo.pan
+photo.7.commitdate: 2018/9/8
+photo.7.link: https://www.instagram.com/na.mo.pan/
+photo.7.tags: portrait
+photo.8: ig://BlURyiFlF5w/m
+photo.8.author: ck.chie
+photo.8.commitdate: 2018/9/8
+photo.8.link: https://www.instagram.com/ck.chie/
+photo.8.tags: old, portrait, smile
+photo.9: ig://Bmx1CzKFPDp/m
+photo.9.author: monmon_redpanda
+photo.9.commitdate: 2018/9/8
+photo.9.link: https://www.instagram.com/monmon_redpanda/
+photo.9.tags: laying down, old, portrait
+photo.10: ig://BnB0HlNFpuk/m
+photo.10.author: craig_craig_craig
+photo.10.commitdate: 2018/9/8
+photo.10.link: https://www.instagram.com/craig_craig_craig/
+photo.10.tags: old
+photo.11: ig://BnOAiPBlb3W/m
+photo.11.author: ifumoto88
+photo.11.commitdate: 2018/9/8
+photo.11.link: https://www.instagram.com/ifumoto88/
+photo.11.tags: laying down, old, portrait, smile, tail
+photo.12: ig://BnfzBzpFWjM/m
+photo.12.author: panda.daisuki
+photo.12.commitdate: 2018/9/10
+photo.12.link: https://www.instagram.com/panda.daisuki/
+photo.12.tags: door, home, old, portrait, smile, tongue
+photo.13: ig://BpedJ1GFiBB/m
+photo.13.author: ifumoto88
+photo.13.commitdate: 2018/10/28
+photo.13.link: https://www.instagram.com/ifumoto88/
+photo.13.tags: old, portrait, tree
+photo.14: ig://BqCiKDlFOMs/m
+photo.14.author: ifumoto88
+photo.14.commitdate: 2018/11/12
+photo.14.link: https://www.instagram.com/ifumoto88/
+photo.14.tags: climb, old, paws, smile, tree
+photo.15: ig://BsXfWvVFLr1/m
+photo.15.author: na.mo.pan
+photo.15.commitdate: 2019/1/9
+photo.15.link: https://www.instagram.com/na.mo.pan/
+photo.15.tags: climb, old, portrait, tree
+photo.16: ig://Bs8XvgMFKQM/m
+photo.16.author: nakacchi_desu
+photo.16.commitdate: 2019/1/26
+photo.16.link: https://www.instagram.com/nakacchi_desu/
+photo.16.tags: paws
+photo.17: ig://Bv1WO5vFBGU/m
+photo.17.author: firefoxpanda88
+photo.17.commitdate: 2019/4/5
+photo.17.link: https://www.instagram.com/firefoxpanda88/
+photo.17.tags: old, flowers
+photo.18: ig://BxCQyOXFlPm/m
+photo.18.author: ck.chie
+photo.18.commitdate: 2019/5/5
+photo.18.link: https://www.instagram.com/ck.chie/
+photo.18.tags: laying down, portrait, yawn
+photo.19: ig://Byb0D-7hBmM/m
+photo.19.author: framereim
+photo.19.commitdate: 2019/6/8
+photo.19.link: https://www.instagram.com/framereim/
+photo.19.tags: climb, paws, tongue
+photo.20: ig://ByovoBZBuqp/m
+photo.20.author: grskus_tk
+photo.20.commitdate: 2019/6/20
+photo.20.link: https://www.instagram.com/grskus_tk/
+photo.20.tags: paws, portrait
+photo.21: ig://ByuKi1yhFOC/m
+photo.21.author: grskus_tk
+photo.21.commitdate: 2019/6/20
+photo.21.link: https://www.instagram.com/grskus_tk/
+photo.21.tags: portrait, smile, tree
+photo.22: ig://By_nMzHBDFf/m
+photo.22.author: ifumoto88
+photo.22.commitdate: 2019/6/22
+photo.22.link: https://www.instagram.com/ifumoto88/
+photo.22.tags: laying down, paws, portrait, smile
+photo.23: ig://By_nhvhh9g0/m
+photo.23.author: ifumoto88
+photo.23.commitdate: 2019/6/22
+photo.23.link: https://www.instagram.com/ifumoto88/
+photo.23.tags: itchy, paws, smile
+photo.24: ig://BzdExqShrpY/m
+photo.24.author: ifumoto88
+photo.24.commitdate: 2019/7/9
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: paws, portrait, smile, tongue
+photo.25: ig://B0AT38rhjDw/m
+photo.25.author: ifumoto88
+photo.25.commitdate: 2019/7/18
+photo.25.link: https://www.instagram.com/ifumoto88/
+photo.25.tags: door, home, portrait, smile
+photo.26: ig://B0AtYRPhU_V/m
+photo.26.author: grskus_tk
+photo.26.commitdate: 2019/7/18
+photo.26.link: https://www.instagram.com/grskus_tk/
+photo.26.tags: door, home, laying down, portrait
+photo.27: ig://B1Pe2n8BS0f/m
+photo.27.author: firefoxpanda88
+photo.27.commitdate: 2019/8/20
+photo.27.link: https://www.instagram.com/firefoxpanda88/
+photo.27.tags: grooming, home, laying down, paws, portrait
+photo.28: ig://B1QnKqvB5ZI/m
+photo.28.author: ssc6105
+photo.28.commitdate: 2019/8/19
+photo.28.link: https://www.instagram.com/ssc6105/
+photo.28.tags: mofumofu, paws, portrait
+photo.29: ig://B11KBD9BCkI/m
+photo.29.author: firefoxpanda88
+photo.29.commitdate: 2019/8/31
+photo.29.link: https://www.instagram.com/firefoxpanda88/
+photo.29.tags: lips, profile, smile
+photo.30: ig://B2_Y7-EBrRu/m
+photo.30.author: ifumoto88
+photo.30.commitdate: 2019/10/8
+photo.30.link: https://www.instagram.com/ifumoto88/
+photo.30.tags: nose, portrait, smile, tongue
+photo.31: ig://B3jV4YzBwwB/m
+photo.31.author: ifumoto88
+photo.31.commitdate: 2019/10/17
+photo.31.link: https://www.instagram.com/ifumoto88/
+photo.31.tags: door, home, laying down, nose, portrait
+photo.32: ig://B4Um7iuhDxL/m
+photo.32.author: na.mo.pan
+photo.32.commitdate: 2019/11/4
+photo.32.link: https://www.instagram.com/na.mo.pan/
+photo.32.tags: home, smile, tongue
+photo.33: ig://B6rOrBYBBSM/m
+photo.33.author: sasapan34
+photo.33.commitdate: 2019/12/31
+photo.33.link: https://www.instagram.com/sasapan34/
+photo.33.tags: whiskers
+photo.34: ig://B6x7V09huYE/m
+photo.34.author: sasapan34
+photo.34.commitdate: 2020/1/3
+photo.34.link: https://www.instagram.com/sasapan34/
+photo.34.tags: laying down, paws
+photo.35: ig://B60AhoEhsk5/m
+photo.35.author: grskus_tk
+photo.35.commitdate: 2020/1/3
+photo.35.link: https://www.instagram.com/grskus_tk/
+photo.35.tags: old, paws, portrait, smile
+photo.36: ig://B60Q--KhTok/m
+photo.36.author: grskus_tk
+photo.36.commitdate: 2020/1/6
+photo.36.link: https://www.instagram.com/grskus_tk/
+photo.36.tags: air tasting, door, laying down, paws, portrait, tongue
+photo.37: ig://B7P6DW6BbU9/m
+photo.37.author: ssc6105
+photo.37.commitdate: 2020/1/14
+photo.37.link: https://www.instagram.com/ssc6105/
+photo.37.tags: door, home, itchy, old, paws, tail
+photo.38: ig://B7QhPA5heeh/m
+photo.38.author: firefoxpanda88
+photo.38.commitdate: 2020/1/16
+photo.38.link: https://www.instagram.com/firefoxpanda88/
+photo.38.tags: door, paws, portrait, smile, tail
+photo.39: ig://B8gpfskhF8s/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2020/2/17
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: old, portrait
+photo.40: ig://B8jQlUMBkwv/m
+photo.40.author: ifumoto88
+photo.40.commitdate: 2020/2/16
+photo.40.link: https://www.instagram.com/ifumoto88/
+photo.40.tags: old, paws, portrait
+photo.41: ig://B88cu4aBAV-/m
+photo.41.author: ck.chie
+photo.41.commitdate: 2020/3/2
+photo.41.link: https://www.instagram.com/ck.chie/
+photo.41.tags: paws, portrait, tail
+photo.42: ig://B9HPs6XBTSx/m
+photo.42.author: ifumoto88
+photo.42.commitdate: 2020/3/9
+photo.42.link: https://www.instagram.com/ifumoto88/
+photo.42.tags: old, mofumofu, paws, portrait, tail
+photo.43: ig://B-3u9HwBKk2/m
+photo.43.author: ifumoto88
+photo.43.commitdate: 2020/4/15
+photo.43.link: https://www.instagram.com/ifumoto88/
+photo.43.tags: portrait, smile, whiskers
+photo.44: ig://B-_STSwB2iD/m
+photo.44.author: grskus_tk
+photo.44.commitdate: 2020/4/28
+photo.44.link: https://www.instagram.com/grskus_tk/
+photo.44.tags: laying down, nose, paws, portrait
+photo.45: ig://CApalEznXzW/m
+photo.45.author: sasapan34
+photo.45.commitdate: 2020/5/27
+photo.45.link: https://www.instagram.com/sasapan34/
+photo.45.tags: home, laying down
+photo.46: ig://CAq7Jc2h5Yz/m
+photo.46.author: panda.daisuki
+photo.46.commitdate: 2020/5/27
+photo.46.link: https://www.instagram.com/panda.daisuki/
+photo.46.tags: paws, peek, portrait, tree
+photo.47: ig://CAuYd2SD0WO/m
+photo.47.author: gomasio_zoophoto
+photo.47.commitdate: 2022/1/7
+photo.47.link: https://www.instagram.com/gomasio_zoophoto/
+photo.47.tags: laying down, paws, portrait
+photo.48: ig://CAw0eccjP_T/m
+photo.48.author: gomasio_zoophoto
+photo.48.commitdate: 2022/1/7
+photo.48.link: https://www.instagram.com/gomasio_zoophoto/
+photo.48.tags: home, laying down, nose, paws, portrait
+photo.49: ig://CAzM3-VhR6A/m
+photo.49.author: na.mo.pan
+photo.49.commitdate: 2020/5/30
+photo.49.link: https://www.instagram.com/na.mo.pan/
+photo.49.tags: portrait, tongue
+photo.50: ig://CAzXODJBI6q/m
+photo.50.author: _sah_ax7
+photo.50.commitdate: 2020/6/13
+photo.50.link: https://www.instagram.com/_sah_ax7/
+photo.50.tags: home, laying down, old, tongue
+photo.51: ig://CA1WJv2hF4s/m
+photo.51.author: ck.chie
+photo.51.commitdate: 2020/6/13
+photo.51.link: https://www.instagram.com/ck.chie/
+photo.51.tags: home, laying down, old
+photo.52: ig://CA4V-CYhGlb/m
+photo.52.author: _sah_ax7
+photo.52.commitdate: 2020/6/13
+photo.52.link: https://www.instagram.com/_sah_ax7/
+photo.52.tags: home, laying down, old, yawn
+photo.53: ig://CA9akaVBQxF/m
+photo.53.author: _sah_ax7
+photo.53.commitdate: 2020/6/13
+photo.53.link: https://www.instagram.com/_sah_ax7/
+photo.53.tags: home, laying down, old, sleeping
+photo.54: ig://CBJuD4ShRdP/m
+photo.54.author: ck.chie
+photo.54.commitdate: 2020/6/13
+photo.54.link: https://www.instagram.com/ck.chie/
+photo.54.tags: home, laying down, old, smile
+photo.55: ig://CBMwmLYBARy/m
+photo.55.author: ck.chie
+photo.55.commitdate: 2020/6/13
+photo.55.link: https://www.instagram.com/ck.chie/
+photo.55.tags: home, laying down, old
+photo.56: ig://CBhdudzp6lR/m
+photo.56.author: gomasio_zoophoto
+photo.56.commitdate: 2022/1/7
+photo.56.link: https://www.instagram.com/gomasio_zoophoto/
+photo.56.tags: bear worm, laying down, paws, portrait, tongue
+photo.57: ig://CBnPUMNBFNz/m
+photo.57.author: ssc6105
+photo.57.commitdate: 2020/6/28
+photo.57.link: https://www.instagram.com/ssc6105/
+photo.57.tags: blink, home, laying down, paws, portrait, tongue
+photo.58: ig://CCFE9yqhxd4/m
+photo.58.author: ssc6105
+photo.58.commitdate: 2020/7/1
+photo.58.link: https://www.instagram.com/ssc6105/
+photo.58.tags: laying down, paws, tongue
+photo.59: ig://CCkQFu4JJR0/m
+photo.59.author: gomasio_zoophoto
+photo.59.commitdate: 2022/1/7
+photo.59.link: https://www.instagram.com/gomasio_zoophoto/
+photo.59.tags: bamboo, smile, tongue
+photo.60: ig://CCvmCzRBhUy/m
+photo.60.author: ssc6105
+photo.60.commitdate: 2020/7/24
+photo.60.link: https://www.instagram.com/ssc6105/
+photo.60.tags: door, home, paws, portrait
+photo.61: ig://CDNzicfJP5j/m
+photo.61.author: gomasio_zoophoto
+photo.61.commitdate: 2022/1/7
+photo.61.link: https://www.instagram.com/gomasio_zoophoto/
+photo.61.tags: peek, smile
+photo.62: ig://CEvwPNfskbP/m
+photo.62.author: gomasio_zoophoto
+photo.62.commitdate: 2022/1/7
+photo.62.link: https://www.instagram.com/gomasio_zoophoto/
+photo.62.tags: paws, portrait, tail
+photo.63: ig://CFD8R0XsG5f/m
+photo.63.author: gomasio_zoophoto
+photo.63.commitdate: 2022/1/7
+photo.63.link: https://www.instagram.com/gomasio_zoophoto/
+photo.63.tags: lips, mofumofu, portrait
+photo.64: ig://CFHOrXzhNsA/m
+photo.64.author: ssc6105
+photo.64.commitdate: 2020/9/19
+photo.64.link: https://www.instagram.com/ssc6105/
+photo.64.tags: door, nose, old
+photo.65: ig://CFTZA9dsvqw/m
+photo.65.author: gomasio_zoophoto
+photo.65.commitdate: 2022/1/7
+photo.65.link: https://www.instagram.com/gomasio_zoophoto/
+photo.65.tags: laying down, paws, portrait, smile, tail
+photo.66: ig://CFVWrUKhgrw/m
+photo.66.author: ssc6105
+photo.66.commitdate: 2020/9/20
+photo.66.link: https://www.instagram.com/ssc6105/
+photo.66.tags: door, nose, yawn
+photo.67: ig://CF4cT43B57-/m
+photo.67.author: grskus_tk
+photo.67.commitdate: 2020/10/9
+photo.67.link: https://www.instagram.com/grskus_tk/
+photo.67.tags: tail, tongue
+photo.68: ig://CGGzk_Zs4ec/m
+photo.68.author: gomasio_zoophoto
+photo.68.commitdate: 2022/1/7
+photo.68.link: https://www.instagram.com/gomasio_zoophoto/
+photo.68.tags: home, paws, portrait, techitechi, whiskers
+photo.69: ig://CGe3hONBVjV/m
+photo.69.author: na.mo.pan
+photo.69.commitdate: 2020/11/2
+photo.69.link: https://www.instagram.com/na.mo.pan/
+photo.69.tags: dig, tail
+photo.70: ig://CHPZabgB6SW/m
+photo.70.author: gomasio_zoophoto
+photo.70.commitdate: 2021/11/24
+photo.70.link: https://www.instagram.com/gomasio_zoophoto/
+photo.70.tags: apple time, door, keeper, portrait, whiskers
+photo.71: ig://CHZ6Cj0BdOX/m
+photo.71.author: pink.b22
+photo.71.commitdate: 2020/11/21
+photo.71.link: https://www.instagram.com/pink.b22/
+photo.71.tags: air tasting, home, old, paws, portrait, tongue
+photo.72: ig://CHpYIZ8hkZt/m
+photo.72.author: pink.b22
+photo.72.commitdate: 2020/11/20
+photo.72.link: https://www.instagram.com/pink.b22/
+photo.72.tags: home, laying down, old, smile
+photo.73: ig://CIxat6UB6C_/m
+photo.73.author: ssc6105
+photo.73.commitdate: 2020/12/21
+photo.73.link: https://www.instagram.com/ssc6105/
+photo.73.tags: laying down, nose
+photo.74: ig://CJbEvANhou8/m
+photo.74.author: na.mo.pan
+photo.74.commitdate: 2021/1/3
+photo.74.link: https://www.instagram.com/na.mo.pan/
+photo.74.tags: home, laying down, nose, portrait
+photo.75: ig://CKG4IVWhjjD/m
+photo.75.author: gomasio_zoophoto
+photo.75.commitdate: 2021/11/24
+photo.75.link: https://www.instagram.com/gomasio_zoophoto/
+photo.75.tags: mofumofu, portrait, tail, tongue
+photo.76: ig://CKH3DSihfrs/m
+photo.76.author: pink.b22
+photo.76.commitdate: 2021/2/15
+photo.76.link: https://www.instagram.com/pink.b22/
+photo.76.tags: door, home, laying down, mofumofu, portrait
+photo.77: ig://CKJEtN8B9rH/m
+photo.77.author: edogawa.kankyozaidan
+photo.77.commitdate: 2021/7/18
+photo.77.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.77.tags: home, paws, videolink
+photo.78: ig://CKU0vEMhtBg/m
+photo.78.author: edogawa.kankyozaidan
+photo.78.commitdate: 2021/7/18
+photo.78.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.78.tags: grooming, paws, portrait, tail, videolink
+photo.79: ig://CLK7QuyBO90/m
+photo.79.author: ssc6105
+photo.79.commitdate: 2021/2/15
+photo.79.link: https://www.instagram.com/ssc6105/
+photo.79.tags: door, laying down, paws
+photo.80: ig://CM9GZuOBi7h/m
+photo.80.author: ssc6105
+photo.80.commitdate: 2021/4/2
+photo.80.link: https://www.instagram.com/ssc6105/
+photo.80.tags: door, home, laying down, sleeping
+photo.81: ig://CM_xewthLJq/m
+photo.81.author: ssc6105
+photo.81.commitdate: 2021/4/2
+photo.81.link: https://www.instagram.com/ssc6105/
+photo.81.tags: keeper
+photo.82: ig://CNRzQobBkHR/m
+photo.82.author: na.mo.pan
+photo.82.commitdate: 2021/4/29
+photo.82.link: https://www.instagram.com/na.mo.pan/
+photo.82.tags: home, grooming, laying down, paws, tongue
+photo.83: ig://CNSIcCuhbCy/m
+photo.83.author: craig_craig_craig
+photo.83.commitdate: 2021/4/29
+photo.83.link: https://www.instagram.com/craig_craig_craig/
+photo.83.tags: home, laying down, paws, portrait, stretching
+photo.84: ig://CNSYXJAhgXT/m
+photo.84.author: craig_craig_craig
+photo.84.commitdate: 2021/4/29
+photo.84.link: https://www.instagram.com/craig_craig_craig/
+photo.84.tags: air tasting, home, laying down, mofumofu, old, tongue
+photo.85: ig://CNUwUW1BR01/m
+photo.85.author: craig_craig_craig
+photo.85.commitdate: 2021/4/29
+photo.85.link: https://www.instagram.com/craig_craig_craig/
+photo.85.tags: home, grooming, laying down, mofumofu, paws, tongue
+photo.86: ig://CNZvv6EhG9U/m
+photo.86.author: gomasio_zoophoto
+photo.86.commitdate: 2021/11/24
+photo.86.link: https://www.instagram.com/gomasio_zoophoto/
+photo.86.tags: mofumofu, old, whiskers
+photo.87: ig://CNZ1vLZBapl/m
+photo.87.author: ifumoto88
+photo.87.commitdate: 2021/4/29
+photo.87.link: https://www.instagram.com/ifumoto88/
+photo.87.tags: home, laying down, old, paws, portrait
+photo.88: ig://CNZ62OcBKQF/m
+photo.88.author: craig_craig_craig
+photo.88.commitdate: 2021/4/29
+photo.88.link: https://www.instagram.com/craig_craig_craig/
+photo.88.tags: home, laying down, nose, old, paws, portrait, sleeping
+photo.89: ig://CNn2F0NhNeB/m
+photo.89.author: craig_craig_craig
+photo.89.commitdate: 2021/4/20
+photo.89.link: https://www.instagram.com/craig_craig_craig/
+photo.89.tags: home, old, paws, portrait, smile
+photo.90: ig://CN1CNwdBR5i/m
+photo.90.author: grskus_tk
+photo.90.commitdate: 2021/7/18
+photo.90.link: https://www.instagram.com/grskus_tk/
+photo.90.tags: paws
+photo.91: ig://CN9hiV5hjRB/m
+photo.91.author: gomasio_zoophoto
+photo.91.commitdate: 2021/11/24
+photo.91.link: https://www.instagram.com/gomasio_zoophoto/
+photo.91.tags: blink, door, home, laying down, mofumofu, paws, portrait, stretching
+photo.92: ig://CO6TzKMhSXO/m
+photo.92.author: edogawa.kankyozaidan
+photo.92.commitdate: 2021/7/18
+photo.92.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.92.tags: grooming, paws, portrait, videolink
+photo.93: ig://CPuDqeABrQC/m
+photo.93.author: gomasio_zoophoto
+photo.93.commitdate: 2021/11/24
+photo.93.link: https://www.instagram.com/gomasio_zoophoto/
+photo.93.tags: door, home, laying down, portrait
+photo.94: ig://CPu1oyuBwj6/m
+photo.94.author: ssc6105
+photo.94.commitdate: 2021/7/18
+photo.94.link: https://www.instagram.com/ssc6105/
+photo.94.tags: door, home, laying down, portrait, tongue, yawn
+photo.95: ig://CQGOf0JBdDH/m
+photo.95.author: daniele.tokyo
+photo.95.commitdate: 2021/6/18
+photo.95.link: https://www.instagram.com/daniele.tokyo/
+photo.95.tags: home, laying down, nose, paws, portrait, sleeping
+photo.96: ig://CQf02ETBWtg/m
+photo.96.author: firefoxpanda88
+photo.96.commitdate: 2021/7/18
+photo.96.link: https://www.instagram.com/firefoxpanda88/
+photo.96.tags: door, paws
+photo.97: ig://CQf-ceUBGk_/m
+photo.97.author: daniele.tokyo
+photo.97.commitdate: 2021/7/18
+photo.97.link: https://www.instagram.com/daniele.tokyo/
+photo.97.tags: close-up, door, laying down, mofumofu, paws, portrait
+photo.98: ig://CRZ37x2BgBb/m
+photo.98.author: gomasio_zoophoto
+photo.98.commitdate: 2021/11/24
+photo.98.link: https://www.instagram.com/gomasio_zoophoto/
+photo.98.tags: blink, door, home, laying down, portrait, yawn
+photo.99: ig://CRdxhmBhFR9/m
+photo.99.author: daniele.tokyo
+photo.99.commitdate: 2021/7/30
+photo.99.link: https://www.instagram.com/daniele.tokyo/
+photo.99.tags: mofumofu, old, smile, whiskers
+photo.100: ig://CS3Za81BtV2/m
+photo.100.author: ssc6105
+photo.100.commitdate: 2021/11/24
+photo.100.link: https://www.instagram.com/ssc6105/
+photo.100.tags: door, home, laying down, portrait, videolink
+photo.101: ig://CS8-edBBiID/m
+photo.101.author: ssc6105
+photo.101.commitdate: 2021/11/24
+photo.101.link: https://www.instagram.com/ssc6105/
+photo.101.tags: door, home, laying down, paws, portrait
+photo.102: ig://CS_A0b5h_FP/m
+photo.102.author: gomasio_zoophoto
+photo.102.commitdate: 2021/11/24
+photo.102.link: https://www.instagram.com/gomasio_zoophoto/
+photo.102.tags: portrait, smile
+photo.103: ig://CTb4GMdhkWC/m
+photo.103.author: pink.b22
+photo.103.commitdate: 2021/9/10
+photo.103.link: https://www.instagram.com/pink.b22/
+photo.103.tags: home, portrait
+photo.104: ig://CTmslIfhIOR/m
+photo.104.author: na.mo.pan
+photo.104.commitdate: 2021/9/18
+photo.104.link: https://www.instagram.com/na.mo.pan/
+photo.104.tags: old, peek
+photo.105: ig://CTrNwF6BTj4/m
+photo.105.author: _sah_ax7
+photo.105.commitdate: 2021/11/24
+photo.105.link: https://www.instagram.com/_sah_ax7/
+photo.105.tags: door, home, laying down, smile
+photo.106: ig://CTtHetVB4js/m
+photo.106.author: minatomirai215
+photo.106.commitdate: 2021/11/24
+photo.106.link: https://www.instagram.com/minatomirai215/
+photo.106.tags: door, home, laying down, nose, portrait
+photo.107: ig://CT8LiEQBd5s/m
+photo.107.author: pink.b22
+photo.107.commitdate: 2021/9/18
+photo.107.link: https://www.instagram.com/pink.b22/
+photo.107.tags: blink, home, paws, portrait
+photo.108: ig://CT8a6oRBzm-/m
+photo.108.author: gomasio_zoophoto
+photo.108.commitdate: 2021/11/24
+photo.108.link: https://www.instagram.com/gomasio_zoophoto/
+photo.108.tags: home, laying down, mofumofu, portrait
+photo.109: ig://CT8dXEUhIX0/m
+photo.109.author: rie_panda55
+photo.109.commitdate: 2021/10/16
+photo.109.link: https://www.instagram.com/rie_panda55/
+photo.109.tags: door, home, laying down, paws, portrait
+photo.110: ig://CUC1Oj5BY7Z/m
+photo.110.author: minatomirai215
+photo.110.commitdate: 2021/9/29
+photo.110.link: https://www.instagram.com/minatomirai215/
+photo.110.tags: door, mofumofu, old, portrait
+photo.111: ig://CU7Bk29BRiC/m
+photo.111.author: gomasio_zoophoto
+photo.111.commitdate: 2021/11/24
+photo.111.link: https://www.instagram.com/gomasio_zoophoto/
+photo.111.tags: door, home, old, laying down, mofumofu
+photo.112: ig://CVhE6RjhQzL/m
+photo.112.author: gomasio_zoophoto
+photo.112.commitdate: 2021/11/24
+photo.112.link: https://www.instagram.com/gomasio_zoophoto/
+photo.112.tags: laying down, portrait, sleeping, tail
+photo.113: ig://CWlMAnHB5GM/m
+photo.113.author: na.mo.pan
+photo.113.commitdate: 2021/11/24
+photo.113.link: https://www.instagram.com/na.mo.pan/
+photo.113.tags: paws
+photo.114: ig://ifumoto88/CYBUumfrkpx/m
+photo.114.author: ifumoto88
+photo.114.commitdate: 2022/1/8
+photo.114.link: https://www.instagram.com/ifumoto88/
+photo.114.tags: laying down, paws, portrait, tail
+photo.115: ig://CYENJWDl84n/m
+photo.115.author: ifumoto88
+photo.115.commitdate: 2022/1/6
+photo.115.link: https://www.instagram.com/ifumoto88/
+photo.115.tags: itchy, mofumofu, old, paws, portrait
+photo.116: ig://CbhsgnlrDBp/m
+photo.116.author: ifumoto88
+photo.116.commitdate: 2022/4/25
+photo.116.link: https://www.instagram.com/ifumoto88/
+photo.116.tags: itchy, laying down, paws, playing, portrait
+photo.117: ig://CdXsKNEvw13/m
+photo.117.author: edogawa.kankyozaidan
+photo.117.commitdate: 2022/8/31
+photo.117.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.117.tags: close-up, home, mofumofu, whiskers
+photo.118: ig://CeNq1BePo4A/m
+photo.118.author: edogawa.kankyozaidan
+photo.118.commitdate: 2022/8/31
+photo.118.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.118.tags: bamboo, laying down, mofumofu, sleeping
+photo.119: ig://CgGzEkUhs1Q/m
+photo.119.author: edogawa.kankyozaidan
+photo.119.commitdate: 2022/7/25
+photo.119.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.119.tags: bamboo, blink, laying down, tail
+photo.120: ig://CgHC4Kju72A/m
+photo.120.author: daniele.tokyo
+photo.120.commitdate: 2022/7/25
+photo.120.link: https://www.instagram.com/daniele.tokyo/
+photo.120.tags: door, home, laying down, paws, sample
+photo.121: ig://CgHIR6kBGIT/m
+photo.121.author: na.mo.pan
+photo.121.commitdate: 2022/7/25
+photo.121.link: https://www.instagram.com/na.mo.pan/
+photo.121.tags: grooming, home, laying down, paws, portrait, sample, tongue
+photo.122: ig://CgHNjkuB8Gg/m
+photo.122.author: ssc6105
+photo.122.commitdate: 2022/7/25
+photo.122.link: https://www.instagram.com/ssc6105/
+photo.122.tags: blink, door, home, laying down, sample, tongue
+photo.123: ig://Cg84oiFhmQ6/m
+photo.123.author: edogawa.kankyozaidan
+photo.123.commitdate: 2022/10/24
+photo.123.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.123.tags: grooming, laying down, mofumofu, old, paws, upside-down
+photo.124: ig://CjxYj8LBHQ-/m
+photo.124.author: na.mo.pan
+photo.124.commitdate: 2022/11/4
+photo.124.link: https://www.instagram.com/na.mo.pan/
+photo.124.tags: eye, laying down, paws, portrait, sample, smile, upside-down
+photo.125: ig://Cl3AJrbvVkM/m
+photo.125.author: edogawa.kankyozaidan
+photo.125.commitdate: 2022/12/15
+photo.125.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.125.tags: bamboo, door, laying down, paws, tail
+species: 2
+studbook.id: 00102
+zoo: 73

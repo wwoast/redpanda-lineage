@@ -1,0 +1,24 @@
+[zoo]
+_id: 11
+commitdate: 2018/6/14
+en.address: Japan, 〒085-0201 Hokkaido, Kushiro, 阿寒町下仁々志別11
+en.location: Kushiro, Kushiro Subprefecture, Hokkaido, Japan
+en.name: Kushiro City Zoo
+flag: Japan
+jp.address: 〒085-0201 北海道釧路市阿寒町下仁々志別11
+jp.location: 釧路市 釧路総合振興局
+jp.name: 釧路市動物園
+language.order: jp, en
+latitude: 43.0812619
+longitude: 144.2343677
+map: https://goo.gl/maps/8JVH1ftPJHm
+photo.1: ig://Bm3DLdVHrlq/m
+photo.1.author: kumaiss
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/kumaiss/
+photo.2: ig://B1WEfC5Bpui/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: profile
+website: http://www.city.kushiro.lg.jp/zoo/

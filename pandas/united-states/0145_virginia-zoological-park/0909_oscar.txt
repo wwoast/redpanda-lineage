@@ -1,0 +1,18 @@
+[panda]
+_id: 909
+birthday: 2008/6/28
+birthplace: 107
+children: 621, 622, 542, 906
+commitdate: 2019/7/2
+death: 2015/5/15
+en.name: Oscar
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: オスカー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+zoo: 145

@@ -1,0 +1,18 @@
+[panda]
+_id: 1046
+birthday: 2008/6/20
+birthplace: 59
+children: 1048, 1049, 1050, 1051
+commitdate: 2019/11/13
+death: 2013/8/20
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1047
+species: 1
+zoo: 59

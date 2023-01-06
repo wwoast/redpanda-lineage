@@ -1,0 +1,65 @@
+[panda]
+_id: 921
+birthday: 2014/6/19
+birthplace: 120
+children: none
+commitdate: 2019/7/2
+death: 2022/2/17
+en.name: Rochan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ロカン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 120, 2014/6/19
+location.2: 194, 2015/10/20
+photo.1: ig://tnda0ZEtt7/m
+photo.1.author: zoonewengland
+photo.1.commitdate: 2019/7/14
+photo.1.link: https://www.instagram.com/zoonewengland/
+photo.1.tags: baby, portrait, tail
+photo.2: ig://BsJ1nEGB1Vs/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait, whiskers
+photo.3: ig://B2mhvuHp5cl/m
+photo.3.author: ctbeardsleyzoo
+photo.3.commitdate: 2020/3/3
+photo.3.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.3.tags: peek, portrait, tail
+photo.4: ig://CKg4Cr6sLUz/m
+photo.4.author: ctbeardsleyzoo
+photo.4.commitdate: 2021/4/29
+photo.4.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.4.tags: peek, portrait, tail, whiskers
+photo.5: ig://CLPGZJrscZL/m
+photo.5.author: ctbeardsleyzoo
+photo.5.commitdate: 2021/4/29
+photo.5.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.5.tags: laying down, mofumofu, portrait, whiskers, white face
+photo.6: ig://CMU4DHvMU3G/m
+photo.6.author: ctbeardsleyzoo
+photo.6.commitdate: 2021/4/29
+photo.6.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.6.tags: mofumofu, portrait, whiskers
+photo.7: ig://CXmO2g6JiVt/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2022/2/26
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: laying down, peek, whiskers
+photo.8: ig://CXvkbB_g8P7/m
+photo.8.author: rossifari
+photo.8.commitdate: 2022/2/26
+photo.8.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.8.tags: portrait, profile
+photo.9: ig://CaZ3eh3rtKR/m
+photo.9.author: ctbeardsleyzoo
+photo.9.commitdate: 2022/2/26
+photo.9.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.9.tags: bridge, close-up, peek, whiskers
+species: 1
+zoo: 194

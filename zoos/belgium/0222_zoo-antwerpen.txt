@@ -1,0 +1,15 @@
+[zoo]
+_id: 222
+commitdate: 2019/11/23
+en.address: Koningin Astridplein 20-26, 2018 Antwerpen, Belgium
+en.location: Antwerp, Belgium
+en.name: Antwerp Zoo
+flag: Belgium
+language.order: nl, en
+latitude: 51.2163428
+longitude: 4.4213527
+map: https://goo.gl/maps/VAJRpqr7HqLnVnhcA
+nl.address: Koningin Astridplein 20-26, 2018 Antwerpen, Belgium
+nl.location: Antwerp, Belgium
+nl.name: Zoo Antwerpen
+website: https://www.zooantwerpen.be/

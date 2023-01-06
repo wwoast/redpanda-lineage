@@ -1,0 +1,549 @@
+[panda]
+_id: 294
+birthday: 2016/6/22
+birthplace: 64
+children: 1308, 1309
+commitdate: 2018/8/3
+en.name: Asunaro
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アスナロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 295
+location.1: 64, 2016/6/22
+location.2: 11, 2019/6/5
+photo.1: ig://BUxpSAtB-wD/m
+photo.1.author: miis_98
+photo.1.commitdate: 2020/4/1
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: ear, whiskers
+photo.2: ig://Bd2LvXYlGKn/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/10/19
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: portrait
+photo.3: ig://BkhmOZslTvq/m
+photo.3.author: hanamaru_redpanda
+photo.3.commitdate: 2018/8/23
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait, smile
+photo.4: ig://Bw6B4GdlCEJ/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2019/5/10
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: bamboo
+photo.5: ig://BzMHN43Hfpu/m
+photo.5.author: an920000
+photo.5.commitdate: 2019/7/7
+photo.5.link: https://www.instagram.com/an920000/
+photo.5.tags: bamboo, home
+photo.6: ig://BzftOYpBAMZ/m
+photo.6.author: takahisakaneuchi
+photo.6.commitdate: 2019/7/7
+photo.6.link: https://www.instagram.com/takahisakaneuchi/
+photo.6.tags: paws, portrait
+photo.7: ig://Bz6dNvhBDGY/m
+photo.7.author: sasapan34
+photo.7.commitdate: 2019/7/15
+photo.7.link: https://www.instagram.com/sasapan34/
+photo.7.tags: standing, tree
+photo.8: ig://B0YIfKvBH1O/m
+photo.8.author: komabazoophoto
+photo.8.commitdate: 2019/7/28
+photo.8.link: https://www.instagram.com/komabazoophoto/
+photo.8.tags: portrait, tree, yawn
+photo.9: ig://B0YJLhYhEOW/m
+photo.9.author: komabazoophoto
+photo.9.commitdate: 2019/7/28
+photo.9.link: https://www.instagram.com/komabazoophoto/
+photo.9.tags: smile
+photo.10: ig://B0dWaYjhaBc/m
+photo.10.author: komabazoophoto
+photo.10.commitdate: 2019/7/28
+photo.10.link: https://www.instagram.com/komabazoophoto/
+photo.10.tags: bamboo, house, portrait, standing
+photo.11: ig://B0dWtqzBXzO/m
+photo.11.author: komabazoophoto
+photo.11.commitdate: 2019/7/28
+photo.11.link: https://www.instagram.com/komabazoophoto/
+photo.11.tags: surprise, tail
+photo.12: ig://B0dW7vPhVH9/m
+photo.12.author: komabazoophoto
+photo.12.commitdate: 2019/7/28
+photo.12.link: https://www.instagram.com/komabazoophoto/
+photo.12.tags: climb, portrait, smile
+photo.13: ig://B0vaTohBlbT/m
+photo.13.author: komabazoophoto
+photo.13.commitdate: 2019/8/10
+photo.13.link: https://www.instagram.com/komabazoophoto/
+photo.13.tags: portrait, smile
+photo.14: ig://B0va0XEBmWY/m
+photo.14.author: komabazoophoto
+photo.14.commitdate: 2019/8/10
+photo.14.link: https://www.instagram.com/komabazoophoto/
+photo.14.tags: surprise
+photo.15: ig://B0vboWPhQTg/m
+photo.15.author: komabazoophoto
+photo.15.commitdate: 2019/8/10
+photo.15.link: https://www.instagram.com/komabazoophoto/
+photo.15.tags: standing, tail
+photo.16: ig://B02Xdx3BIv-/m
+photo.16.author: komabazoophoto
+photo.16.commitdate: 2019/8/12
+photo.16.link: https://www.instagram.com/komabazoophoto/
+photo.16.tags: surprise
+photo.17: ig://B1BWkGihs7i/m
+photo.17.author: komabazoophoto
+photo.17.commitdate: 2019/8/12
+photo.17.link: https://www.instagram.com/komabazoophoto/
+photo.17.tags: surprise
+photo.18: ig://B1BWxsXBBBn/m
+photo.18.author: komabazoophoto
+photo.18.commitdate: 2019/8/12
+photo.18.link: https://www.instagram.com/komabazoophoto/
+photo.18.tags: portrait
+photo.19: ig://B1D5uEqBYdF/m
+photo.19.author: komabazoophoto
+photo.19.commitdate: 2019/8/13
+photo.19.link: https://www.instagram.com/komabazoophoto/
+photo.19.tags: paws, portrait, standing, tail
+photo.20: ig://B1D6XD0hk8G/m
+photo.20.author: komabazoophoto
+photo.20.commitdate: 2019/8/13
+photo.20.link: https://www.instagram.com/komabazoophoto/
+photo.20.tags: bridge, paws, portrait
+photo.21: ig://B1Gelkyh8yJ/m
+photo.21.author: komabazoophoto
+photo.21.commitdate: 2019/8/15
+photo.21.link: https://www.instagram.com/komabazoophoto/
+photo.21.tags: bridge, peek, portrait
+photo.22: ig://B1ONylbhFub/m
+photo.22.author: komabazoophoto
+photo.22.commitdate: 2019/8/20
+photo.22.link: https://www.instagram.com/komabazoophoto/
+photo.22.tags: portrait
+photo.23: ig://B1OkZx7Bbqh/m
+photo.23.author: minatomirai215
+photo.23.commitdate: 2020/4/18
+photo.23.link: https://www.instagram.com/minatomirai215/
+photo.23.tags: mofumofu, portrait, tree
+photo.24: ig://B1WyNm-BjsN/m
+photo.24.author: minatomirai215
+photo.24.commitdate: 2019/8/21
+photo.24.link: https://www.instagram.com/minatomirai215/
+photo.24.tags: bridge,  portrait, smile
+photo.25: ig://B1ZCXFABGRR/m
+photo.25.author: minatomirai215
+photo.25.commitdate: 2019/8/22
+photo.25.link: https://www.instagram.com/minatomirai215/
+photo.25.tags: lips, tree
+photo.26: ig://B1gUk9LhPk5/m
+photo.26.author: minatomirai215
+photo.26.commitdate: 2019/8/23
+photo.26.link: https://www.instagram.com/minatomirai215/
+photo.26.tags: portrait
+photo.27: ig://B2jow4-B8YF/m
+photo.27.author: minatomirai215
+photo.27.commitdate: 2020/4/18
+photo.27.link: https://www.instagram.com/minatomirai215/
+photo.27.tags: paws, portrait, techitechi, tree
+photo.28: ig://B2nghNgh8FB/m
+photo.28.author: leonard_redmof
+photo.28.commitdate: 2019/9/21
+photo.28.link: https://www.instagram.com/leonard_redmof/
+photo.28.tags: apple time, home, paws, portrait, standing
+photo.29: ig://B2oFxlSByKO/m
+photo.29.author: leonard_redmof
+photo.29.commitdate: 2019/9/21
+photo.29.link: https://www.instagram.com/leonard_redmof/
+photo.29.tags: home, portrait
+photo.30: ig://B21NSsoh2q8/m
+photo.30.author: zoowfreedom299
+photo.30.commitdate: 2020/9/24
+photo.30.link: https://www.instagram.com/zoowfreedom299/
+photo.30.tags: peek, smile, whiskers
+photo.31: ig://B3J_jtFhcdH/m
+photo.31.author: leonard_redmof
+photo.31.commitdate: 2019/10/8
+photo.31.link: https://www.instagram.com/leonard_redmof/
+photo.31.tags: bridge, mofumofu, portrait, tail
+photo.32: ig://B3Rf2yeh_8E/m
+photo.32.author: an920000
+photo.32.commitdate: 2019/10/15
+photo.32.link: https://www.instagram.com/an920000/
+photo.32.tags: portrait, tree
+photo.33: ig://B3Y7_6wBWUC/m
+photo.33.author: monmon_redpanda
+photo.33.commitdate: 2019/10/15
+photo.33.link: https://www.instagram.com/monmon_redpanda/
+photo.33.tags: autumn, portrait, tree
+photo.34: ig://B3diLZnhiiO/m
+photo.34.author: zoowfreedom299
+photo.34.commitdate: 2019/10/15
+photo.34.link: https://www.instagram.com/zoowfreedom299/
+photo.34.tags: tree, smile
+photo.35: ig://B34hpYQBduD/m
+photo.35.author: craig_craig_craig
+photo.35.commitdate: 2019/10/22
+photo.35.link: https://www.instagram.com/craig_craig_craig/
+photo.35.tags: autumn, bridge, portrait
+photo.36: ig://B38GZHMBlWO/m
+photo.36.author: nakacchi_desu
+photo.36.commitdate: 2019/10/22
+photo.36.link: https://www.instagram.com/nakacchi_desu/
+photo.36.tags: autumn, peek, tree
+photo.37: ig://B39URpGB5tD/m
+photo.37.author: komabazoophoto
+photo.37.commitdate: 2019/10/23
+photo.37.link: https://www.instagram.com/komabazoophoto/
+photo.37.tags: autumn, portrait, smile, tree
+photo.38: ig://B39UlWDBOE8/m
+photo.38.author: komabazoophoto
+photo.38.commitdate: 2019/10/23
+photo.38.link: https://www.instagram.com/komabazoophoto/
+photo.38.tags: autumn, portrait, tree
+photo.39: ig://B4ALPeVgKP4/m
+photo.39.author: cattail.sapporo
+photo.39.commitdate: 2019/10/25
+photo.39.link: https://www.instagram.com/cattail.sapporo/
+photo.39.tags: autumn, portrait, smile, tongue
+photo.40: ig://B4CqAavBY2u/m
+photo.40.author: framereim
+photo.40.commitdate: 2019/10/25
+photo.40.link: https://www.instagram.com/framereim/
+photo.40.tags: autumn, bridge, portrait, smile
+photo.41: ig://B4DgkXvAXPs/m
+photo.41.author: cattail.sapporo
+photo.41.commitdate: 2019/10/26
+photo.41.link: https://www.instagram.com/cattail.sapporo/
+photo.41.tags: autumn, bamboo, home, paws, portrait, standing
+photo.42: ig://B4Hl8hzhumD/m
+photo.42.author: komabazoophoto
+photo.42.commitdate: 2019/10/27
+photo.42.link: https://www.instagram.com/komabazoophoto/
+photo.42.tags: autumn, portrait, smile, tree
+photo.43: ig://B4HmV3HB2e8/m
+photo.43.author: komabazoophoto
+photo.43.commitdate: 2019/10/27
+photo.43.link: https://www.instagram.com/komabazoophoto/
+photo.43.tags: autumn, bridge, portrait
+photo.44: ig://B4KSSWghQeK/m
+photo.44.author: komabazoophoto
+photo.44.commitdate: 2019/10/28
+photo.44.link: https://www.instagram.com/komabazoophoto/
+photo.44.tags: portrait, tail
+photo.45: ig://B4M0XdKBLDI/m
+photo.45.author: komabazoophoto
+photo.45.commitdate: 2019/10/31
+photo.45.link: https://www.instagram.com/komabazoophoto/
+photo.45.tags: autumn, portrait, tree
+photo.46: ig://B4M09lGBAfe/m
+photo.46.author: komabazoophoto
+photo.46.commitdate: 2019/10/31
+photo.46.link: https://www.instagram.com/komabazoophoto/
+photo.46.tags: autumn, bridge, carry, portrait
+photo.47: ig://B4M1Q7JBMcZ/m
+photo.47.author: komabazoophoto
+photo.47.commitdate: 2019/10/31
+photo.47.link: https://www.instagram.com/komabazoophoto/
+photo.47.tags: autumn, bridge, portrait
+photo.48: ig://B4N9yT9Br9w/m
+photo.48.author: craig_craig_craig
+photo.48.commitdate: 2019/10/31
+photo.48.link: https://www.instagram.com/craig_craig_craig/
+photo.48.tags: autumn, bridge, portrait
+photo.49: ig://B4PZJ3VBU43/m
+photo.49.author: komabazoophoto
+photo.49.commitdate: 2019/10/31
+photo.49.link: https://www.instagram.com/komabazoophoto/
+photo.49.tags: apple time, bamboo, home, paws, portrait, standing
+photo.50: ig://B4XJyYvha0P/m
+photo.50.author: komabazoophoto
+photo.50.commitdate: 2019/11/4
+photo.50.link: https://www.instagram.com/komabazoophoto/
+photo.50.tags: tail
+photo.51: ig://B4XKBbAhcHT/m
+photo.51.author: komabazoophoto
+photo.51.commitdate: 2019/11/4
+photo.51.link: https://www.instagram.com/komabazoophoto/
+photo.51.tags: autumn, carry, portrait, tree
+photo.52: ig://B4cVu6HhlCm/m
+photo.52.author: komabazoophoto
+photo.52.commitdate: 2019/11/4
+photo.52.link: https://www.instagram.com/komabazoophoto/
+photo.52.tags: autumn, portrait, surprise, tail
+photo.53: ig://B4cWKofBjiE/m
+photo.53.author: komabazoophoto
+photo.53.commitdate: 2019/11/4
+photo.53.link: https://www.instagram.com/komabazoophoto/
+photo.53.tags: autumn, portrait, smile
+photo.54: ig://B4kJnfWBeqg/m
+photo.54.author: an920000
+photo.54.commitdate: 2019/11/8
+photo.54.link: https://www.instagram.com/an920000/
+photo.54.tags: laying down, portrait, sleeping, tree
+photo.55: ig://B5K0cZAB-ya/m
+photo.55.author: leonard_redmof
+photo.55.commitdate: 2019/11/24
+photo.55.link: https://www.instagram.com/leonard_redmof/
+photo.55.tags: portrait, smile, whiskers
+photo.56: ig://B5loRwXBykE/m
+photo.56.author: an920000
+photo.56.commitdate: 2019/12/10
+photo.56.link: https://www.instagram.com/an920000/
+photo.56.tags: peek, portrait
+photo.57: ig://B6K-zrlBKpB/m
+photo.57.author: an920000
+photo.57.commitdate: 2019/12/29
+photo.57.link: https://www.instagram.com/an920000/
+photo.57.tags: bamboo, home, portrait
+photo.58: ig://B6LNHldBQyC/m
+photo.58.author: an920000
+photo.58.commitdate: 2019/12/29
+photo.58.link: https://www.instagram.com/an920000/
+photo.58.tags: portrait
+photo.59: ig://B6mzfNZBIrQ/m
+photo.59.author: an920000
+photo.59.commitdate: 2019/12/29
+photo.59.link: https://www.instagram.com/an920000/
+photo.60: ig://B7IkFv6hXhb/m
+photo.60.author: an920000
+photo.60.commitdate: 2020/1/14
+photo.60.link: https://www.instagram.com/an920000/
+photo.60.tags: portrait, tree
+photo.61: ig://B7JFfwnh554/m
+photo.61.author: an920000
+photo.61.commitdate: 2020/1/14
+photo.61.link: https://www.instagram.com/an920000/
+photo.61.tags: home, ice treat, portrait, snow
+photo.62: ig://B71vpDdBD5y/m
+photo.62.author: an920000
+photo.62.commitdate: 2020/1/28
+photo.62.link: https://www.instagram.com/an920000/
+photo.62.tags: bamboo, nose, paws, portrait
+photo.63: ig://B7-opkyhTv0/m
+photo.63.author: komabazoophoto
+photo.63.commitdate: 2020/2/21
+photo.63.link: https://www.instagram.com/komabazoophoto/
+photo.63.tags: paws, portrait, snow, tail
+photo.64: ig://B804PTSBEmi/m
+photo.64.author: komabazoophoto
+photo.64.commitdate: 2020/2/29
+photo.64.link: https://www.instagram.com/komabazoophoto/
+photo.64.tags: paws, portrait, tail
+photo.65: ig://B88qdFQhdaa/m
+photo.65.author: komabazoophoto
+photo.65.commitdate: 2020/3/2
+photo.65.link: https://www.instagram.com/komabazoophoto/
+photo.65.tags: portrait, tail, tree
+photo.66: ig://B88rieoBct9/m
+photo.66.author: komabazoophoto
+photo.66.commitdate: 2020/2/29
+photo.66.link: https://www.instagram.com/komabazoophoto/
+photo.66.tags: portrait, smile, tongue, whiskers, wink
+photo.67: ig://B88r4xIB2C9/m
+photo.67.author: komabazoophoto
+photo.67.commitdate: 2020/2/29
+photo.67.link: https://www.instagram.com/komabazoophoto/
+photo.67.tags: portrait, snow, tail
+photo.68: ig://B8_aZanB4BH/m
+photo.68.author: komabazoophoto
+photo.68.commitdate: 2020/2/29
+photo.68.link: https://www.instagram.com/komabazoophoto/
+photo.68.tags: portrait, snow, standing, tail
+photo.69: ig://B_cT8PknBT9/m
+photo.69.author: takahisakaneuchi
+photo.69.commitdate: 2020/5/1
+photo.69.link: https://www.instagram.com/takahisakaneuchi/
+photo.69.tags: blink, paws, portrait
+photo.70: ig://CAjlqyRH767/m
+photo.70.author: leonard_redmof
+photo.70.commitdate: 2020/5/26
+photo.70.link: https://www.instagram.com/leonard_redmof/
+photo.70.tags: laying down, paws, playing, portrait, tail, upside-down
+photo.71: ig://CAurlF-Bu99/m
+photo.71.author: minatomirai215
+photo.71.commitdate: 2020/5/28
+photo.71.link: https://www.instagram.com/minatomirai215/
+photo.71.tags: bridge, itchy, paws, portrait, smile, tail
+photo.72: ig://CBAuF0qB3zq/m
+photo.72.author: minatomirai215
+photo.72.commitdate: 2020/6/10
+photo.72.link: https://www.instagram.com/minatomirai215/
+photo.72.tags: portrait, whiskers
+photo.73: ig://CBu4AHpB33f/m
+photo.73.author: leonard_redmof
+photo.73.commitdate: 2020/6/27
+photo.73.link: https://www.instagram.com/leonard_redmof/
+photo.73.tags: bamboo, home, portrait
+photo.74: ig://CDz-0xEhmTT/m
+photo.74.author: mari_neko3
+photo.74.commitdate: 2020/8/14
+photo.74.link: https://www.instagram.com/mari_neko3/
+photo.74.tags: laying down, paws, portrait, sleeping
+photo.75: ig://CD0SQRvBgE-/m
+photo.75.author: mari_neko3
+photo.75.commitdate: 2020/8/14
+photo.75.link: https://www.instagram.com/mari_neko3/
+photo.75.tags: laying down, portrait, smile
+photo.76: ig://CD-rMRJhyc1/m
+photo.76.author: mari_neko3
+photo.76.commitdate: 2020/9/6
+photo.76.link: https://www.instagram.com/mari_neko3/
+photo.76.tags: laying down, smile
+photo.77: ig://CFl2O2YBQiL/m
+photo.77.author: leonard_redmof
+photo.77.commitdate: 2020/11/19
+photo.77.link: https://www.instagram.com/leonard_redmof/
+photo.77.tags: itchy, portrait, tree
+photo.78: ig://CFpLCfQB0_X/m
+photo.78.author: an920000
+photo.78.commitdate: 2020/9/27
+photo.78.link: https://www.instagram.com/an920000/
+photo.78.tags: portrait, whiskers
+photo.79: ig://CFySr8gB-Ga/m
+photo.79.author: an920000
+photo.79.commitdate: 2020/10/1
+photo.79.link: https://www.instagram.com/an920000/
+photo.79.tags: bridge, portrait
+photo.80: ig://CGws4XXhLLB/m
+photo.80.author: minatomirai215
+photo.80.commitdate: 2020/10/25
+photo.80.link: https://www.instagram.com/minatomirai215/
+photo.80.tags: autumn, portrait, smile
+photo.81: ig://CG7ehK8h3jp/m
+photo.81.author: an920000
+photo.81.commitdate: 2020/11/1
+photo.81.link: https://www.instagram.com/an920000/
+photo.81.tags: autumn, bridge, peek, tail
+photo.82: ig://CG7jVZqB9oO/m
+photo.82.author: nakacchi_desu
+photo.82.commitdate: 2020/11/1
+photo.82.link: https://www.instagram.com/nakacchi_desu/
+photo.82.tags: autumn, peek, tail, tree
+photo.83: ig://CG9_QuBB5FU/m
+photo.83.author: an920000
+photo.83.commitdate: 2020/12/30
+photo.83.link: https://www.instagram.com/an920000/
+photo.83.tags: autumn, laying down, portrait, sleeping, tail, tree
+photo.84: ig://CHXrrtJhbyf/m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2020/11/15
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: autumn, peek, portrait, tail
+photo.85: ig://CJbGYPNhdiv/m
+photo.85.author: minatomirai215
+photo.85.commitdate: 2020/12/30
+photo.85.link: https://www.instagram.com/minatomirai215/
+photo.85.tags: autumn, portrait, whiskers
+photo.86: ig://CK_RFvehHz4/m
+photo.86.author: an920000
+photo.86.commitdate: 2021/3/7
+photo.86.link: https://www.instagram.com/an920000/
+photo.86.tags: paws, portrait, snow
+photo.87: ig://CLB5vPOhs_J/m
+photo.87.author: an920000
+photo.87.commitdate: 2021/3/7
+photo.87.link: https://www.instagram.com/an920000/
+photo.87.tags: close-up, portrait, snow, whiskers
+photo.88: ig://CLCEEsjhzph/m
+photo.88.author: an920000
+photo.88.commitdate: 2021/3/7
+photo.88.link: https://www.instagram.com/an920000/
+photo.88.tags: grooming, portrait, snow, tail, tree
+photo.89: ig://CLIOxKmhZx_/m
+photo.89.author: an920000
+photo.89.commitdate: 2021/2/20
+photo.89.link: https://www.instagram.com/an920000/
+photo.89.tags: blink, peek, portrait, snow, tail, tree
+photo.90: ig://CO83qbrBoTP/m
+photo.90.author: an920000
+photo.90.commitdate: 2021/6/16
+photo.90.link: https://www.instagram.com/an920000/
+photo.90.tags: laying down, paws
+photo.91: ig://CPb6jSjBZdy/m
+photo.91.author: an920000
+photo.91.commitdate: 2021/6/29
+photo.91.link: https://www.instagram.com/an920000/
+photo.91.tags: laying down, paws, peek, portrait
+photo.92: ig://CPb7RV6hvlu/m
+photo.92.author: an920000
+photo.92.commitdate: 2021/6/29
+photo.92.link: https://www.instagram.com/an920000/
+photo.92.tags: mofumofu, portrait, tail, tree
+photo.93: ig://CQjaxV1Be7S/m
+photo.93.author: minatomirai215
+photo.93.commitdate: 2021/7/3
+photo.93.link: https://www.instagram.com/minatomirai215/
+photo.93.tags: autumn, portrait, tree, whiskers
+photo.94: ig://CTMslPDhbSp/m
+photo.94.author: craig_craig_craig
+photo.94.commitdate: 2021/9/7
+photo.94.link: https://www.instagram.com/craig_craig_craig/
+photo.94.tags: home, paws, portrait, tail, videolink
+photo.95: ig://CXAGHslpndp/m
+photo.95.author: sasapan34
+photo.95.commitdate: 2021/12/22
+photo.95.link: https://www.instagram.com/sasapan34/
+photo.95.tags: sample, tail, whiskers
+photo.96: ig://CY8dHH6LGvF/m
+photo.96.author: leonard_redmof
+photo.96.commitdate: 2022/2/9
+photo.96.link: https://www.instagram.com/leonard_redmof/
+photo.96.tags: bridge, peek, portrait, sample, tail
+photo.97: ig://CeReKGkB92A/m
+photo.97.author: mari_neko3
+photo.97.commitdate: 2022/6/22
+photo.97.link: https://www.instagram.com/mari_neko3/
+photo.97.tags: portrait, sample, smile, tree, whiskers
+photo.98: ig://CfHJElhPXA8/m
+photo.98.author: minatomirai215
+photo.98.commitdate: 2022/7/9
+photo.98.link: https://www.instagram.com/minatomirai215/
+photo.98.tags: bridge, portrait, sample, whiskers
+photo.99: ig://CfbaiXxp5Nc/m
+photo.99.author: komabazoophoto
+photo.99.commitdate: 2022/7/9
+photo.99.link: https://www.instagram.com/komabazoophoto/
+photo.99.tags: close-up, paws, portrait, sample
+photo.100: ig://ChPHZmlh-V5/m
+photo.100.author: mari_neko3
+photo.100.commitdate: 2022/8/28
+photo.100.link: https://www.instagram.com/mari_neko3/
+photo.100.tags: portrait, profile, sample, whiskers
+photo.101: ig://ChciLBBPZun/m
+photo.101.author: minatomirai215
+photo.101.commitdate: 2022/8/28
+photo.101.link: https://www.instagram.com/minatomirai215/
+photo.101.tags: portrait, sample, whiskers
+photo.102: ig://Ch9x0r-JPEu/m
+photo.102.author: minatomirai215
+photo.102.commitdate: 2022/9/8
+photo.102.link: https://www.instagram.com/minatomirai215/
+photo.102.tags: portrait, sample, smile, whiskers
+photo.103: ig://CkI27nPBOuj/m
+photo.103.author: minatomirai215
+photo.103.commitdate: 2023/1/1
+photo.103.link: https://www.instagram.com/minatomirai215/
+photo.103.tags: autumn, peek, smile, tree
+photo.104: ig://CkNM1sur06D/m
+photo.104.author: kushirozoo
+photo.104.commitdate: 2023/1/1
+photo.104.link: https://www.instagram.com/kushirozoo/
+photo.104.tags: autumn, bamboo, home, portrait
+photo.105: ig://CkqqN_HvHnt/m
+photo.105.author: minatomirai215
+photo.105.commitdate: 2022/12/24
+photo.105.link: https://www.instagram.com/minatomirai215/
+photo.105.tags: autumn, peek, portrait, sample
+photo.106: ig://CmtFEAfrA8U/m
+photo.106.author: kushirozoo
+photo.106.commitdate: 2023/1/6
+photo.106.link: https://www.instagram.com/kushirozoo/
+photo.106.tags: bamboo, home, portrait, sample, smile
+species: 2
+studbook.id: 1681
+zoo: 11

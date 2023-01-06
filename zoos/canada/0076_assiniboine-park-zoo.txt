@@ -1,0 +1,25 @@
+[zoo]
+_id: 76
+commitdate: 2018/10/8
+en.address: 2595 Roblin Blvd, Winnipeg, MB R3R 2N7, Canada
+en.location: Winnipeg, Manitoba, Canada
+en.name: Assiniboine Park Zoo
+flag: Canada
+language.order: en
+latitude: 49.8683326
+longitude: -97.3106535
+map: https://goo.gl/maps/yA6s5Fk3SZx
+photo.1: ig://B0JK30Rjk-d/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2019/11/26
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2: ig://B0gnd6YjaaK/m
+photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2019/11/26
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3: ig://B3xHDiTDO17/m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2019/11/26
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: profile
+website: http://www.assiniboineparkzoo.ca/

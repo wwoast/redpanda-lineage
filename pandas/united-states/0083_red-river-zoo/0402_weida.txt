@@ -1,0 +1,24 @@
+[panda]
+_id: 402
+birthday: 2009/6/11
+birthplace: 83
+children: 413, 414, 415
+commitdate: 2018/11/23
+death: 2017/1/16
+en.name: Wei-Da
+en.nicknames: none
+en.othernames: Weida
+gender: f
+jp.name: ウィーダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 399, 403
+photo.1: ig://eOvbFQq0wP/m
+photo.1.author: apothecarydan
+photo.1.commitdate: 2020/2/7
+photo.1.link: https://www.instagram.com/apothecarydan/
+photo.1.tags: paws, portrait, profile, tree
+species: 2
+studbook.id: 0932
+zoo: 83

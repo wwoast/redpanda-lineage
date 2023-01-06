@@ -1,0 +1,27 @@
+[panda]
+_id: 218
+birthday: 2003/7/3
+birthplace: 60
+children: 61
+commitdate: 2018/7/26
+death: 2017/3/4
+en.name: Taiyo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 太陽
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 60, 2003/7/3
+location.2: 29, 2006/12/14
+location.3: 57, 2009/2/20
+photo.1: ig://BORhKosj9eI/m
+photo.1.author: rdpnzoo
+photo.1.commitdate: 2018/10/20
+photo.1.link: https://www.instagram.com/rdpnzoo/
+photo.1.tags: profile
+species: 2
+studbook.id: 0386
+zoo: 57

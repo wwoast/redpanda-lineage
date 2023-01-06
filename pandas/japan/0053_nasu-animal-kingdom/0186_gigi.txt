@@ -1,0 +1,363 @@
+[panda]
+_id: 186
+birthday: 2009/6/19
+birthplace: 10
+children: 188, 189, 261, 262, 263
+commitdate: 2018/7/14
+en.name: Gigi
+en.nicknames: none
+en.othernames: Jiji
+gender: m
+jp.name: ジジ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 86, 87
+location.1: 10, 2009/6/19
+location.2: 53, 2011/11/26
+photo.1: ig://BKTW8uMA1t8/m
+photo.1.author: rnrirhrh
+photo.1.commitdate: 2019/10/20
+photo.1.link: https://www.instagram.com/rnrirhrh/
+photo.1.tags: paws, portrait
+photo.2: ig://BX7lbtVF7h5/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/12/23
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: portrait, sleeping
+photo.3: ig://Bh0i0tIFSDL/m
+photo.3.author: nasu_animal_kingdom
+photo.3.commitdate: 2018/8/22
+photo.3.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.3.tags: tail, yawn
+photo.4: ig://Bil6oqBFDZ2/m
+photo.4.author: daniele.tokyo
+photo.4.commitdate: 2018/8/22
+photo.4.link: https://www.instagram.com/daniele.tokyo/
+photo.4.tags: tail
+photo.5: ig://BjjM1XKHwjT/m
+photo.5.author: sp879408
+photo.5.commitdate: 2018/8/22
+photo.5.link: https://www.instagram.com/sp879408/
+photo.6: ig://Bkknn0GlBKH/m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2018/8/22
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: bamboo
+photo.7: ig://Bk6KJUEFqSl/m
+photo.7.author: rie_panda55
+photo.7.commitdate: 2018/8/22
+photo.7.link: https://www.instagram.com/rie_panda55/
+photo.7.tags: portrait, smile
+photo.8: ig://BougyHfF1PE/m
+photo.8.author: kipekaila
+photo.8.commitdate: 2018/10/9
+photo.8.link: https://www.instagram.com/kipekaila/
+photo.9: ig://BpWqXEIlNxM/m
+photo.9.author: fetorus_mami
+photo.9.commitdate: 2018/10/26
+photo.9.link: https://www.instagram.com/fetorus_mami/
+photo.9.tags: tongue
+photo.10: ig://BqpT78EnjX0/m
+photo.10.author: yakko____
+photo.10.commitdate: 2018/12/6
+photo.10.link: https://www.instagram.com/yakko____/
+photo.10.tags: portrait
+photo.11: ig://BwdW-eTFPok/m
+photo.11.author: yakkooo24
+photo.11.commitdate: 2020/1/19
+photo.11.link: https://www.instagram.com/yakkooo24/
+photo.11.tags: whiskers
+photo.12: ig://BxMD9xdlinE/m
+photo.12.author: re_ichimaru
+photo.12.commitdate: 2019/5/10
+photo.12.link: https://www.instagram.com/re_ichimaru/
+photo.12.tags: itchy, techitechi
+photo.13: ig://By3qLkMlRUH/m
+photo.13.author: yakkooo24
+photo.13.commitdate: 2019/6/18
+photo.13.link: https://www.instagram.com/yakkooo24/
+photo.13.tags: bridge, laying down, portrait, profile
+photo.14: ig://BzsxTwdBBFv/m
+photo.14.author: craig_craig_craig
+photo.14.commitdate: 2019/7/11
+photo.14.link: https://www.instagram.com/craig_craig_craig/
+photo.14.tags: portrait, white face
+photo.15: ig://Bz9Q-e-BFqM/m
+photo.15.author: grskus_tk
+photo.15.commitdate: 2019/7/16
+photo.15.link: https://www.instagram.com/grskus_tk/
+photo.15.tags: portrait, white face
+photo.16: ig://B0ICGOph-_E/m
+photo.16.author: ifumoto88
+photo.16.commitdate: 2019/7/20
+photo.16.link: https://www.instagram.com/ifumoto88/
+photo.16.tags: laying down
+photo.17: ig://B0KkVR_BpZL/m
+photo.17.author: panda.daisuki
+photo.17.commitdate: 2019/7/22
+photo.17.link: https://www.instagram.com/panda.daisuki/
+photo.17.tags: laying down, portrait
+photo.18: ig://B0ef3fhh0jk/m
+photo.18.author: craig_craig_craig
+photo.18.commitdate: 2019/7/31
+photo.18.link: https://www.instagram.com/craig_craig_craig/
+photo.18.tags: bamboo, bite, portrait
+photo.19: ig://B12avrKB5iU/m
+photo.19.author: panda.daisuki
+photo.19.commitdate: 2019/9/2
+photo.19.link: https://www.instagram.com/panda.daisuki/
+photo.19.tags: portrait, smile
+photo.20: ig://B2P_ZqnhIVG/m
+photo.20.author: panda.daisuki
+photo.20.commitdate: 2019/9/14
+photo.20.link: https://www.instagram.com/panda.daisuki/
+photo.20.tags: portrait, smile
+photo.21: ig://B3gg1LehI_l/m
+photo.21.author: panda.daisuki
+photo.21.commitdate: 2019/10/16
+photo.21.link: https://www.instagram.com/panda.daisuki/
+photo.21.tags: portrait, white face
+photo.22: ig://B5FR2Uxhutp/m
+photo.22.author: ssc6105
+photo.22.commitdate: 2019/11/22
+photo.22.link: https://www.instagram.com/ssc6105/
+photo.22.tags: portrait, techitechi, whiskers
+photo.23: ig://B5Jm27vB-8Q/m
+photo.23.author: sasapan34
+photo.23.commitdate: 2019/11/22
+photo.23.link: https://www.instagram.com/sasapan34/
+photo.23.tags: whiskers
+photo.24: ig://B5NLRIABboG/m
+photo.24.author: panda.daisuki
+photo.24.commitdate: 2019/11/24
+photo.24.link: https://www.instagram.com/panda.daisuki/
+photo.24.tags: portrait, whiskers
+photo.25: ig://B6P8cPpBssZ/m
+photo.25.author: hamiiiii831_
+photo.25.commitdate: 2019/12/30
+photo.25.link: https://www.instagram.com/hamiiiii831_/
+photo.25.tags: portrait, whiskers
+photo.26: ig://B6ZPCNIBRxV/m
+photo.26.author: panda.daisuki
+photo.26.commitdate: 2021/1/2
+photo.26.link: https://www.instagram.com/panda.daisuki/
+photo.26.tags: paws, portrait, whiskers
+photo.27: ig://B6rhWcqhHeO/m
+photo.27.author: ifumoto88
+photo.27.commitdate: 2019/12/31
+photo.27.link: https://www.instagram.com/ifumoto88/
+photo.27.tags: laying down, portrait, sleeping
+photo.28: ig://B6473DQhlY7/m
+photo.28.author: panda.daisuki
+photo.28.commitdate: 2020/1/11
+photo.28.link: https://www.instagram.com/panda.daisuki/
+photo.28.tags: paws, portrait
+photo.29: ig://B7mdA_jh-JV/m
+photo.29.author: panda.daisuki
+photo.29.commitdate: 2020/1/25
+photo.29.link: https://www.instagram.com/panda.daisuki/
+photo.29.tags: paws, portrait
+photo.30: ig://B74f7ETBWV2/m
+photo.30.author: panda.daisuki
+photo.30.commitdate: 2020/2/3
+photo.30.link: https://www.instagram.com/panda.daisuki/
+photo.30.tags: portrait, smile, techitechi
+photo.31: ig://B8KgSWIhIp4/m
+photo.31.author: panda.daisuki
+photo.31.commitdate: 2020/2/9
+photo.31.link: https://www.instagram.com/panda.daisuki/
+photo.31.tags: apple time, paws, portrait
+photo.32: ig://B8aBu9cB9w2/m
+photo.32.author: alto0908
+photo.32.commitdate: 2020/3/21
+photo.32.link: https://www.instagram.com/alto0908/
+photo.32.tags: portrait, whiskers
+photo.33: ig://B8fEymnBZfD/m
+photo.33.author: alto0908
+photo.33.commitdate: 2020/2/27
+photo.33.link: https://www.instagram.com/alto0908/
+photo.33.tags: nose, portrait, snow
+photo.34: ig://B8hr8nJBjAt/m
+photo.34.author: panda.daisuki
+photo.34.commitdate: 2020/2/21
+photo.34.link: https://www.instagram.com/panda.daisuki/
+photo.34.tags: paws, portrait, tail
+photo.35: ig://B8kQX4zhs2h/m
+photo.35.author: alto0908
+photo.35.commitdate: 2020/2/22
+photo.35.link: https://www.instagram.com/alto0908/
+photo.35.tags: paws, portrait, standing, tree
+photo.36: ig://B85QxfVh8jl/m
+photo.36.author: panda.daisuki
+photo.36.commitdate: 2020/3/21
+photo.36.link: https://www.instagram.com/panda.daisuki/
+photo.36.tags: paws, portrait, techitechi, tongue
+photo.37: ig://B9jDa7wBIoC/m
+photo.37.author: ssc6105
+photo.37.commitdate: 2020/3/21
+photo.37.link: https://www.instagram.com/ssc6105/
+photo.37.tags: peek
+photo.38: ig://B_pdD6AnCf0/m
+photo.38.author: fetorus_mami
+photo.38.commitdate: 2020/5/26
+photo.38.link: https://www.instagram.com/fetorus_mami/
+photo.38.tags: portrait, smile, techitechi
+photo.39: ig://CG5A0bpBTJb/m
+photo.39.author: kisshan324
+photo.39.commitdate: 2020/11/1
+photo.39.link: https://www.instagram.com/kisshan324/
+photo.39.tags: portrait, whiskers
+photo.40: ig://CHYz-CrB3HN/m
+photo.40.author: kipekaila
+photo.40.commitdate: 2022/5/17
+photo.40.link: https://www.instagram.com/kipekaila/
+photo.40.tags: whiskers
+photo.41: ig://CHjd9Qrhqku/m
+photo.41.author: alto0908
+photo.41.commitdate: 2022/5/17
+photo.41.link: https://www.instagram.com/alto0908/
+photo.41.tags: close-up, mofumofu, portrait, whiskers
+photo.42: ig://CH7Js9qhy87/m
+photo.42.author: ssc6105
+photo.42.commitdate: 2021/11/15
+photo.42.link: https://www.instagram.com/ssc6105/
+photo.42.tags: apple time, paws, whiskers
+photo.43: ig://CH7WTD2hb7O/m
+photo.43.author: kipekaila
+photo.43.commitdate: 2021/11/15
+photo.43.link: https://www.instagram.com/kipekaila/
+photo.43.tags: apple time, laying down, portrait, whiskers
+photo.44: ig://CH8CenuBViF/m
+photo.44.author: kipekaila
+photo.44.commitdate: 2021/1/9
+photo.44.link: https://www.instagram.com/kipekaila/
+photo.44.tags: itchy, portrait, white face
+photo.45: ig://CIX2jtEhe7-/m
+photo.45.author: ssc6105
+photo.45.commitdate: 2022/5/17
+photo.45.link: https://www.instagram.com/ssc6105/
+photo.45.tags: paws, peek, whiskers
+photo.46: ig://CLUITcph93S/m
+photo.46.author: hamiiiii831_
+photo.46.commitdate: 2022/5/17
+photo.46.link: https://www.instagram.com/hamiiiii831_/
+photo.46.tags: peek, portrait, tail, whiskers
+photo.47: ig://CLWWqfVBDav/m
+photo.47.author: hamiiiii831_
+photo.47.commitdate: 2022/5/17
+photo.47.link: https://www.instagram.com/hamiiiii831_/
+photo.47.tags: peek, videolink
+photo.48: ig://CNyiVtChuUe/m
+photo.48.author: alto0908
+photo.48.commitdate: 2021/5/3
+photo.48.link: https://www.instagram.com/alto0908/
+photo.48.tags: portrait, whiskers
+photo.49: ig://COAoGIoBqq1/m
+photo.49.author: hamiiiii831_
+photo.49.commitdate: 2021/5/19
+photo.49.link: https://www.instagram.com/hamiiiii831_/
+photo.49.tags: paws, whiskers
+photo.50: ig://COx9U2UBhEK/m
+photo.50.author: hamiiiii831_
+photo.50.commitdate: 2022/1/7
+photo.50.link: https://www.instagram.com/hamiiiii831_/
+photo.50.tags: peek, videolink
+photo.51: ig://CPO29ORBv1X/m
+photo.51.author: hamiiiii831_
+photo.51.commitdate: 2021/7/7
+photo.51.link: https://www.instagram.com/hamiiiii831_/
+photo.51.tags: flowers, tongue, whiskers
+photo.52: ig://CQRUW8UhDOu/m
+photo.52.author: eos1089
+photo.52.commitdate: 2021/6/23
+photo.52.link: https://www.instagram.com/eos1089/
+photo.52.tags: close-up, laying down, paws, portrait, whiskers
+photo.53: ig://CSmdnLRhVzE/m
+photo.53.author: alto0908
+photo.53.commitdate: 2021/8/18
+photo.53.link: https://www.instagram.com/alto0908/
+photo.53.tags: close-up, portrait, techitechi, whiskers
+photo.54: ig://CS9Q5evBWyd/m
+photo.54.author: hamiiiii831_
+photo.54.commitdate: 2022/2/1
+photo.54.link: https://www.instagram.com/hamiiiii831_/
+photo.54.tags: mofumofu, paws, sample, smile
+photo.55: ig://CTPm2dihROS/m
+photo.55.author: panda.daisuki
+photo.55.commitdate: 2022/2/28
+photo.55.link: https://www.instagram.com/panda.daisuki/
+photo.55.tags: laying down, portrait, videolink
+photo.56: ig://CTRfBnkhr6R/m
+photo.56.author: nasu_animal_kingdom
+photo.56.commitdate: 2022/2/28
+photo.56.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.56.tags: close-up, lunch time, videolink
+photo.57: ig://CT8kgiJBLER/m
+photo.57.author: nasu_animal_kingdom
+photo.57.commitdate: 2022/11/24
+photo.57.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.57.tags: close-up, paws, portrait, snow, standing
+photo.58: ig://CWwCVrqvEt7/m
+photo.58.author: hidehaya_biei
+photo.58.commitdate: 2022/1/9
+photo.58.link: https://www.instagram.com/hidehaya_biei/
+photo.58.tags: peek, whiskers
+photo.59: ig://CdDLX-oFvu5/m
+photo.59.author: ssc6105
+photo.59.commitdate: 2022/8/25
+photo.59.link: https://www.instagram.com/ssc6105/
+photo.59.tags: apple time, bite, keeper, paws, whiskers
+photo.60: ig://CdDeSdEPKbl/m
+photo.60.author: panda.daisuki
+photo.60.commitdate: 2022/9/11
+photo.60.link: https://www.instagram.com/panda.daisuki/
+photo.60.tags: laying down, mofumofu, portrait, sleeping, tail
+photo.61: ig://CeXMLjUrelF/m
+photo.61.author: otenba_redpanda
+photo.61.commitdate: 2022/9/24
+photo.61.link: https://www.instagram.com/otenba_redpanda/
+photo.61.tags: portrait, sample, tongue, whiskers
+photo.62: ig://Ce--Kcup-CN/m
+photo.62.author: hamiiiii831_
+photo.62.commitdate: 2022/8/11
+photo.62.link: https://www.instagram.com/hamiiiii831_/
+photo.62.tags: paws, sample, whiskers
+photo.63: ig://CfJclp6r__G/m
+photo.63.author: miis_98
+photo.63.commitdate: 2022/7/18
+photo.63.link: https://www.instagram.com/miis_98/
+photo.63.tags: apple time, portrait, sample, whiskers
+photo.64: ig://CfZ-FKTBuEl/m
+photo.64.author: hamiiiii831_
+photo.64.commitdate: 2022/7/9
+photo.64.link: https://www.instagram.com/hamiiiii831_/
+photo.64.tags: bamboo, paws, portrait, sample, whiskers
+photo.65: ig://Cfbt6J0rgtL/m
+photo.65.author: miis_98
+photo.65.commitdate: 2022/7/9
+photo.65.link: https://www.instagram.com/miis_98/
+photo.65.tags: portrait, sample, whiskers
+photo.66: ig://Cgp9tJThIfN/m
+photo.66.author: panda.daisuki
+photo.66.commitdate: 2022/8/7
+photo.66.link: https://www.instagram.com/panda.daisuki/
+photo.66.tags: apple time, mofumofu, portrait, sample, whiskers
+photo.67: ig://ChjFRaaOAQE/m
+photo.67.author: hidehaya_biei
+photo.67.commitdate: 2022/8/31
+photo.67.link: https://www.instagram.com/hidehaya_biei/
+photo.67.tags: close-up, sample, whiskers, white face
+photo.68: ig://ChuekEuvl-P/m
+photo.68.author: hamiiiii831_
+photo.68.commitdate: 2022/8/31
+photo.68.link: https://www.instagram.com/hamiiiii831_/
+photo.68.tags: paws, sample, smile, whiskers
+photo.69: ig://CkuB6AghUeB/m
+photo.69.author: panda.daisuki
+photo.69.commitdate: 2022/12/24
+photo.69.link: https://www.instagram.com/panda.daisuki/
+photo.69.tags: apple time, bite, paws, portrait, sample, whiskers
+species: 2
+studbook.id: 0986
+zoo: 53

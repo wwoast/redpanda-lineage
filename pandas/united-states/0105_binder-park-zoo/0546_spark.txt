@@ -1,0 +1,39 @@
+[panda]
+_id: 546
+birthday: 2010/6/14
+birthplace: 108
+children: 515, 342, 616, 543, 544
+commitdate: 2019/3/2
+death: 2021/8/3
+en.name: Spark
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スパーク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 618
+location.1: 108, 2010/6/14
+location.2: 107, 2011/8/5
+location.3: 81, 2013/12/5
+location.4: 105, 2018/10/1
+photo.1: ig://BN6wRckjqz3/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: bamboo, portrait
+photo.2: ig://BsDXfXqFqhv/m
+photo.2.author: philadelphiazoo
+photo.2.commitdate: 2019/4/6
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+photo.2.tags: white face
+photo.3: ig://CF9e3xxglQz/m
+photo.3.author: pippin455
+photo.3.commitdate: 2021/1/30
+photo.3.link: https://www.instagram.com/pippin455/
+photo.3.tags: peek, portrait
+species: 1
+studbook.id: 1016
+uncertainty: death in 2020 sometime
+zoo: 105

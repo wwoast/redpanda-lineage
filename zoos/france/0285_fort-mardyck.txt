@@ -1,0 +1,15 @@
+[zoo]
+_id: 285
+commitdate: 2021/7/1
+en.address: Rue des Droits de l'Homme, 59430, Dunkerque, France
+en.location: Dunkerque, France
+en.name: Parc Zoologique de Fort-Mardyck
+flag: France
+fr.address: Rue des Droits de l'Homme, 59430, Dunkerque, France
+fr.location: Dunkerque, France
+fr.name: Parc Zoologique de Fort-Mardyck
+language.order: fr, en
+latitude: 51.0304141
+longitude: 2.3073733
+map: https://g.page/zoo-fort-mardyck
+website: https://www.parc-zoologique.fr/

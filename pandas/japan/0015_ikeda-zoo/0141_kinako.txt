@@ -1,0 +1,305 @@
+[panda]
+_id: 141
+birthday: 2014/6/26
+birthplace: 35
+children: none
+commitdate: 2018/6/27
+en.name: Kinako
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: きなこ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 110
+location.1: 35, 2014/6/26
+location.2: 15, 2017/5/29
+photo.1: ig://BZylo8FAQKZ/m
+photo.1.author: peek_a_boo00
+photo.1.commitdate: 2020/4/15
+photo.1.link: https://www.instagram.com/peek_a_boo00/
+photo.1.tags: laying down, portrait, tongue
+photo.2: ig://BjXKptVFwc6/m
+photo.2.author: peek_a_boo00
+photo.2.commitdate: 2020/4/19
+photo.2.link: https://www.instagram.com/peek_a_boo00/
+photo.2.tags: laying down, paws, portrait, tongue
+photo.3: ig://Blxqi2rla1R/m
+photo.3.author: itsuak
+photo.3.commitdate: 2019/6/1
+photo.3.link: https://www.instagram.com/itsuak/
+photo.3.tags: portrait, profile, smile, tongue
+photo.4: ig://BqgjZXclPYI/m
+photo.4.author: ifumoto88
+photo.4.commitdate: 2018/11/23
+photo.4.link: https://www.instagram.com/ifumoto88/
+photo.4.tags: laying down, portrait
+photo.5: ig://BqjG3tblG_V/m
+photo.5.author: ifumoto88
+photo.5.commitdate: 2018/11/24
+photo.5.link: https://www.instagram.com/ifumoto88/
+photo.5.tags: bridge, portrait
+photo.6: ig://BqjW9ppFbdO/m
+photo.6.author: panda.daisuki
+photo.6.commitdate: 2018/11/24
+photo.6.link: https://www.instagram.com/panda.daisuki/
+photo.6.tags: bridge, laying down, portrait
+photo.7: ig://BqlxURxlESj/m
+photo.7.author: ifumoto88
+photo.7.commitdate: 2018/11/25
+photo.7.link: https://www.instagram.com/ifumoto88/
+photo.7.tags: nose, portrait
+photo.8: ig://BvrZX51FLbq/m
+photo.8.author: itsuak
+photo.8.commitdate: 2019/4/2
+photo.8.link: https://www.instagram.com/itsuak/
+photo.8.tags: laying down, paws
+photo.9: ig://BwWyyfDlxGJ/m
+photo.9.author: itsuak
+photo.9.commitdate: 2019/4/22
+photo.9.link: https://www.instagram.com/itsuak/
+photo.9.tags: air tasting, portrait, tongue
+photo.10: ig://BwrdkBrF_4D/m
+photo.10.author: itsuak
+photo.10.commitdate: 2019/5/5
+photo.10.link: https://www.instagram.com/itsuak/
+photo.10.tags: portrait
+photo.11: ig://Bw0lkAHFQb9/m
+photo.11.author: sakikukeco
+photo.11.commitdate: 2019/6/1
+photo.11.link: https://www.instagram.com/sakikukeco/
+photo.11.tags: portrait
+photo.12: ig://Bw6aaTohhRB/m
+photo.12.author: yuta_record
+photo.12.commitdate: 2019/6/1
+photo.12.link: https://www.instagram.com/yuta_record/
+photo.12.tags: bamboo, paws, portrait
+photo.13: ig://BxfLeWhF50s/m
+photo.13.author: itsuak
+photo.13.commitdate: 2019/5/18
+photo.13.link: https://www.instagram.com/itsuak/
+photo.13.tags: laying down, smile, tongue
+photo.14: ig://BxsIjCqlVdc/m
+photo.14.author: itsuak
+photo.14.commitdate: 2019/6/1
+photo.14.link: https://www.instagram.com/itsuak/
+photo.14.tags: bridge, portrait, smile, tongue
+photo.15: ig://BzqDkGGB68F/m
+photo.15.author: itsuak
+photo.15.commitdate: 2019/7/9
+photo.15.link: https://www.instagram.com/itsuak/
+photo.15.tags: laying down, portrait, tongue
+photo.16: ig://Bzu-hbBB3B-/m
+photo.16.author: itsuak
+photo.16.commitdate: 2019/7/10
+photo.16.link: https://www.instagram.com/itsuak/
+photo.16.tags: air tasting, bridge, laying down, tongue
+photo.17: ig://B3W3muXhGfQ/m
+photo.17.author: itsuak
+photo.17.commitdate: 2019/10/14
+photo.17.link: https://www.instagram.com/itsuak/
+photo.17.tags: laying down, paws, portrait, smile, tongue
+photo.18: ig://B4P4G2rB-kY/m
+photo.18.author: itsuak
+photo.18.commitdate: 2019/10/31
+photo.18.link: https://www.instagram.com/itsuak/
+photo.18.tags: portrait, smile, tongue
+photo.19: ig://B55dZtYh-9Y/m
+photo.19.author: itsuak
+photo.19.commitdate: 2019/12/16
+photo.19.link: https://www.instagram.com/itsuak/
+photo.19.tags: portrait, tail
+photo.20: ig://B5-WkkeBSs9/m
+photo.20.author: itsuak
+photo.20.commitdate: 2019/12/28
+photo.20.link: https://www.instagram.com/itsuak/
+photo.20.tags: blink, itchy, portrait
+photo.21: ig://B-JMddNBjDD/m
+photo.21.author: miis_98
+photo.21.commitdate: 2020/3/28
+photo.21.link: https://www.instagram.com/miis_98/
+photo.21.tags: peek, portrait
+photo.22: ig://B_htNtkgQjj/m
+photo.22.author: itsuak
+photo.22.commitdate: 2020/5/1
+photo.22.link: https://www.instagram.com/itsuak/
+photo.22.tags: laying down, portrait
+photo.23: ig://CALFW0xAoaa/m
+photo.23.author: itsuak
+photo.23.commitdate: 2020/5/30
+photo.23.link: https://www.instagram.com/itsuak/
+photo.23.tags: home, portrait, smile, tail
+photo.24: ig://CB4AoTuhiDv/m
+photo.24.author: panda.daisuki
+photo.24.commitdate: 2020/6/27
+photo.24.link: https://www.instagram.com/panda.daisuki/
+photo.24.tags: close-up, laying down, mofumofu, portrait
+photo.25: ig://CFMwllSBirT/m
+photo.25.author: itsuak
+photo.25.commitdate: 2020/9/24
+photo.25.link: https://www.instagram.com/itsuak/
+photo.25.tags: laying down, portrait, smile
+photo.26: ig://CGZ3BW-BlIp/m
+photo.26.author: itsuak
+photo.26.commitdate: 2020/10/16
+photo.26.link: https://www.instagram.com/itsuak/
+photo.26.tags: laying down, paws, portrait
+photo.27: ig://CKY_wushROp/m
+photo.27.author: itsuak
+photo.27.commitdate: 2021/2/2
+photo.27.link: https://www.instagram.com/itsuak/
+photo.27.tags: portrait, smile, tongue, whiskers
+photo.28: ig://CKg8HaPBo2M/m
+photo.28.author: itsuak
+photo.28.commitdate: 2021/1/30
+photo.28.link: https://www.instagram.com/itsuak/
+photo.28.tags: laying down, paws, portrait, sleeping, tongue
+photo.29: ig://CKjbvqFAMkT/m
+photo.29.author: itsuak
+photo.29.commitdate: 2021/2/2
+photo.29.link: https://www.instagram.com/itsuak/
+photo.29.tags: laying down, paws, portrait, sleeping
+photo.30: ig://CKwVDW3rNgZ/m
+photo.30.author: itsuak
+photo.30.commitdate: 2021/10/24
+photo.30.link: https://www.instagram.com/itsuak/
+photo.30.tags: laying down, paws, portrait, sleeping
+photo.31: ig://CK_bCjvLkdn/m
+photo.31.author: itsuak
+photo.31.commitdate: 2021/3/7
+photo.31.link: https://www.instagram.com/itsuak/
+photo.31.tags: bamboo, bite, close-up, mofumofu, portrait, smile
+photo.32: ig://CMPj2aSHPvr/m
+photo.32.author: itsuak
+photo.32.commitdate: 2021/4/3
+photo.32.link: https://www.instagram.com/itsuak/
+photo.32.tags: laying down
+photo.33: ig://CMSLKsZhCXK/m
+photo.33.author: itsuak
+photo.33.commitdate: 2021/4/3
+photo.33.link: https://www.instagram.com/itsuak/
+photo.33.tags: laying down, nose, paws, portrait, sleeping
+photo.34: ig://CNFk6t1B_5X/m
+photo.34.author: itsuak
+photo.34.commitdate: 2021/4/3
+photo.34.link: https://www.instagram.com/itsuak/
+photo.34.tags: laying down, paws, portrait, smile, tongue
+photo.35: ig://CN2kscjrkp-/m
+photo.35.author: itsuak
+photo.35.commitdate: 2021/5/3
+photo.35.link: https://www.instagram.com/itsuak/
+photo.35.tags: laying down, paws, portrait
+photo.36: ig://CN-W-wir6dJ/m
+photo.36.author: itsuak
+photo.36.commitdate: 2021/5/3
+photo.36.link: https://www.instagram.com/itsuak/
+photo.36.tags: portrait, tail
+photo.37: ig://CO-qx1UBo4Q/m
+photo.37.author: itsuak
+photo.37.commitdate: 2021/6/16
+photo.37.link: https://www.instagram.com/itsuak/
+photo.37.tags: itchy, paws, portrait, tail
+photo.38: ig://CPGJ8NxrOvk/m
+photo.38.author: itsuak
+photo.38.commitdate: 2021/6/8
+photo.38.link: https://www.instagram.com/itsuak/
+photo.38.tags: laying down, paws, portrait, sleeping
+photo.39: ig://CS3B5_LlS65/m
+photo.39.author: itsuak
+photo.39.commitdate: 2021/10/10
+photo.39.link: https://www.instagram.com/itsuak/
+photo.39.tags: laying down, smile
+photo.40: ig://CVVFlsOBfdL/m
+photo.40.author: itsuak
+photo.40.commitdate: 2021/10/31
+photo.40.link: https://www.instagram.com/itsuak/
+photo.40.tags: laying down, paws, portrait, sleeping
+photo.41: ig://CVpsStMBaH9/m
+photo.41.author: itsuak
+photo.41.commitdate: 2021/11/7
+photo.41.link: https://www.instagram.com/itsuak/
+photo.41.tags: home, paws, portrait, whiskers
+photo.42: ig://CWNyQYjPMe2/m
+photo.42.author: itsuak
+photo.42.commitdate: 2021/11/21
+photo.42.link: https://www.instagram.com/itsuak/
+photo.42.tags: home, peek, portrait, tree
+photo.43: ig://CWTOU0MB-A5/m
+photo.43.author: itsuak
+photo.43.commitdate: 2021/11/21
+photo.43.link: https://www.instagram.com/makimaru18/
+photo.43.tags: bamboo, paws, portrait, tongue
+photo.44: ig://CWawK0tvQyZ/m
+photo.44.author: itsuak
+photo.44.commitdate: 2021/11/21
+photo.44.link: https://www.instagram.com/itsuak/
+photo.44.tags: close-up, mofumofu, portrait
+photo.45: ig://CWgAs3rh6Qb/m
+photo.45.author: itsuak
+photo.45.commitdate: 2021/11/28
+photo.45.link: https://www.instagram.com/itsuak/
+photo.45.tags: laying down, lips, portrait, smile
+photo.46: ig://CXbcHT3vaWO/m
+photo.46.author: itsuak
+photo.46.commitdate: 2021/12/22
+photo.46.link: https://www.instagram.com/itsuak/
+photo.46.tags: paws, portrait, sample
+photo.47: ig://CXqHZCiPKzT/m
+photo.47.author: itsuak
+photo.47.commitdate: 2021/12/22
+photo.47.link: https://www.instagram.com/itsuak/
+photo.47.tags: portrait, sample, toys
+photo.48: ig://itsuak/CYWny2rvSbp/m
+photo.48.author: itsuak
+photo.48.commitdate: 2022/1/6
+photo.48.link: https://www.instagram.com/itsuak/
+photo.48.tags: lips, mofumofu, peek, portrait, sample
+photo.49: ig://CYm17HKvqFJ/m
+photo.49.author: tomo3700
+photo.49.commitdate: 2022/1/30
+photo.49.link: https://www.instagram.com/tomo3700/
+photo.49.tags: portrait, sample, smile, whiskers
+photo.50: ig://itsuak/CY_kcJ6PxuA/m
+photo.50.author: itsuak
+photo.50.commitdate: 2022/2/9
+photo.50.link: https://www.instagram.com/itsuak/
+photo.50.tags: climb, paws, peek, portrait, whiskers
+photo.51: ig://CZCWyQWvni9/m
+photo.51.author: itsuak
+photo.51.commitdate: 2022/2/9
+photo.51.link: https://www.instagram.com/itsuak/
+photo.51.tags: laying down, paws, portrait, sample
+photo.52: ig://CZzHZokvmlM/m
+photo.52.author: itsuak
+photo.52.commitdate: 2022/3/20
+photo.52.link: https://www.instagram.com/itsuak/
+photo.52.tags: close-up, laying down, portrait, sleeping
+photo.53: ig://CaFYyk-PPQ7/m
+photo.53.author: itsuak
+photo.53.commitdate: 2022/3/5
+photo.53.link: https://www.instagram.com/itsuak/
+photo.53.tags: mofumofu, peek, portrait, sample, whiskers
+photo.54: ig://Ca7CfKLvnOr/m
+photo.54.author: itsuak
+photo.54.commitdate: 2022/3/20
+photo.54.link: https://www.instagram.com/itsuak/
+photo.54.tags: bear worm, laying down, paws, portrait, sleeping, smile, whiskers
+photo.55: ig://CbNQdLnhz_C/m
+photo.55.author: makimaru18
+photo.55.commitdate: 2022/3/20
+photo.55.link: https://www.instagram.com/makimaru18/
+photo.55.tags: close-up, peek, portrait, sample, whiskers
+photo.56: ig://CcndtbAvOrl/m
+photo.56.author: itsuak
+photo.56.commitdate: 2022/6/6
+photo.56.link: https://www.instagram.com/itsuak/
+photo.56.tags: laying down, lips, portrait, sample
+photo.57: ig://CeXj0k9L4YV/m
+photo.57.author: itsuak
+photo.57.commitdate: 2022/7/11
+photo.57.link: https://www.instagram.com/itsuak/
+photo.57.tags: bridge, mofumofu, peek, portrait, sample
+species: 2
+studbook.id: 14147
+zoo: 15

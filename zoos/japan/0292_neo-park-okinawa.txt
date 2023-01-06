@@ -1,0 +1,28 @@
+[zoo]
+_id: 292
+commitdate: 2021/7/18
+en.address: 4607-41 Nago, Okinawa 905-0012, Japan
+en.location: Nago, Okinawa, Japan
+en.name: Neo Park Okinawa
+flag: Japan
+jp.address: 〒905-0012 沖縄県名護市名護4607-41
+jp.location: 名護市 沖縄県 日本
+jp.name: ネオパークオキナワ
+language.order: jp, en
+latitude: 26.3518089
+longitude: 127.5471944
+map: https://goo.gl/maps/kc4f8PN3xCefmg936
+photo.1: ig://COHgbEwNZwp/m
+photo.1.author: neoparkokinawa
+photo.1.commitdate: 2021/7/18
+photo.1.link: https://www.instagram.com/neoparkokinawa/
+photo.1.tags: profile
+photo.2: ig://CQFZY_jBf5p/m
+photo.2.author: neoparkokinawa
+photo.2.commitdate: 2021/7/18
+photo.2.link: https://www.instagram.com/neoparkokinawa/
+photo.3: ig://CRIWBLDhu0X/m
+photo.3.author: neoparkokinawa
+photo.3.commitdate: 2021/7/18
+photo.3.link: https://www.instagram.com/neoparkokinawa/
+website: https://www.neopark.co.jp/

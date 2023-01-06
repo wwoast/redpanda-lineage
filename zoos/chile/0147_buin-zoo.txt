@@ -1,0 +1,24 @@
+[zoo]
+_id: 147
+commitdate: 2019/3/12
+en.address: Route 5, Buin, Región Metropolitana, Chile
+en.location: Buin, Región Metropolitana, Chile
+en.name: Buin Zoo
+es.address: Ruta 5, Buin, Región Metropolitana, Chile
+es.location: Buin, Región Metropolitana, Chile
+es.name: Buin Zoo
+flag: Chile
+language.order: es, en
+latitude: -33.710983
+longitude: -70.7264079
+map: https://goo.gl/maps/ha3XcnX29eA2
+photo.1: ig://COAfnUbBhQk/m
+photo.1.author: buin_zoo
+photo.1.commitdate: 2021/6/23
+photo.1.link: https://www.instagram.com/buin_zoo/
+photo.2: ig://CO70qTJrH1c/m
+photo.2.author: buin_zoo
+photo.2.commitdate: 2021/6/23
+photo.2.link: https://www.instagram.com/buin_zoo/
+photo.2.tags: profile
+website: https://www.buinzoo.cl/

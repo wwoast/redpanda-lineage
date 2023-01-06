@@ -1,0 +1,21 @@
+[panda]
+_id: 858
+birthday: 2002/6/20
+birthplace: 34
+children: none
+commitdate: 2019/5/22
+death: 2008/12/31
+en.name: Shaoen
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 小燕
+jp.nicknames: none
+jp.othernames: シャオエン
+language.order: jp, en
+litter: 353
+location.1: 34, 2002/6/20
+location.2: 78, 2008/9/23
+species: 2
+studbook.id: 0258
+zoo: 78

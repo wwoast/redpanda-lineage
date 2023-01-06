@@ -1,0 +1,19 @@
+[zoo]
+_id: 41
+commitdate: 2018/6/27
+en.address: 4 Chome-1-8 Kamiitozu, Kokurakita Ward, Kitakyushu, Fukuoka Prefecture 803-0845, Japan
+en.location: Kitakyushu, Fukuoka Prefecture, Japan
+en.name: Itozu no Mori Zoological Park
+flag: Japan
+jp.address: 〒803-0845 福岡県北九州市小倉北区上到津４丁目１−8
+jp.location: 北九州市 福岡県
+jp.name: 到津の森公園
+language.order: jp, en
+latitude: 33.8738674
+longitude: 130.8444053
+map: https://goo.gl/maps/a4z75hLhZ692
+photo.1: ig://BqzBnzWlREb/m
+photo.1.author: kipekaila
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/kipekaila/
+website: http://www.itozu-zoo.jp/

@@ -1,0 +1,19 @@
+[panda]
+_id: 587
+birthday: 2014/7/6
+birthplace: 33
+children: none
+commitdate: 2019/3/19
+death: 2014/7/11
+en.name: Ichiko
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 一湖
+jp.nicknames: none
+jp.othernames: イチコ
+language.order: jp, en
+litter: 300
+species: 2
+studbook.id: 14157
+zoo: 33

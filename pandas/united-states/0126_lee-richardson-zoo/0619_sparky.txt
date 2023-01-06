@@ -1,0 +1,18 @@
+[panda]
+_id: 619
+birthday: 2017/8/12
+birthplace: 126
+children: none
+commitdate: 2019/3/19
+en.name: Sparky
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スパーキー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 620
+species: 1
+studbook.id: 1734
+zoo: 126

@@ -1,0 +1,29 @@
+[panda]
+_id: 436
+birthday: 2018/7/6
+birthplace: 76
+children: none
+commitdate: 2018/11/23
+death: 2019/3/1
+en.name: Mambo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マンボ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://Bo7ie4yAEFp/m
+photo.1.author: sketchpoet
+photo.1.commitdate: 2018/11/30
+photo.1.link: https://www.instagram.com/sketchpoet/
+photo.1.tags: baby, grumpy, profile
+photo.2: ig://Bo3-AVynPZr/m
+photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2018/11/30
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2.tags: baby, grumpy
+species: 2
+studbook.id: 1832
+zoo: 76

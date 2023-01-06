@@ -1,0 +1,23 @@
+[panda]
+_id: 916
+birthday: 1994/6/23
+birthplace: 115
+children: 918, 919, 518, 667, 920, 691, 692
+commitdate: 2019/7/2
+death: 2007/6/15
+en.name: Sian
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シアン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 917
+location.1: 115, 1994/6/23
+location.2: 108, 1995/3/24
+location.3: 105, 1997/11/14
+location.4: 118, 2001/1/16
+location.5: 108, 2003/12/18
+species: 1
+zoo: 108

@@ -1,0 +1,16 @@
+[zoo]
+_id: 111
+commitdate: 2019/2/23
+en.address: 1300 Fulton W, Grand Rapids, MI 49504, USA
+en.location: Grand Rapids, Michigan, USA
+en.name: John Ball Zoo
+flag: USA
+language.order: en
+latitude: 42.9616041
+longitude: -85.7209277
+map: https://goo.gl/maps/3gKq7TKsyQT2
+photo.1: ig://BokAn1kHTgC/m
+photo.1.author: johnballzoogr
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/johnballzoogr/
+website: https://www.jbzoo.org/

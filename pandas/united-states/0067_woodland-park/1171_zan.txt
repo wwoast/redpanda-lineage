@@ -1,0 +1,67 @@
+[panda]
+_id: 1171
+birthday: 2020/5/25
+birthplace: 67
+children: none
+commitdate: 2020/6/14
+en.name: Zan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ザン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1172
+photo.1: ig://CGDgFV-hliK/m
+photo.1.author: woodlandparkzoo
+photo.1.commitdate: 2020/10/7
+photo.1.link: https://www.instagram.com/woodlandparkzoo/
+photo.1.tags: baby, portrait, white face
+photo.2: ig://CGDgT1kh2wf/m
+photo.2.author: woodlandparkzoo
+photo.2.commitdate: 2020/10/7
+photo.2.link: https://www.instagram.com/woodlandparkzoo/
+photo.2.tags: baby, portrait, pumpkin, smile, white face
+photo.3: ig://CGEQM62hfWu/m
+photo.3.author: woodlandparkzoo
+photo.3.commitdate: 2020/10/9
+photo.3.link: https://www.instagram.com/woodlandparkzoo/
+photo.3.tags: portrait, pumpkin, white face
+photo.4: ig://CMTejTpB2sK/m
+photo.4.author: woodlandparkzoo
+photo.4.commitdate: 2021/4/3
+photo.4.link: https://www.instagram.com/woodlandparkzoo/
+photo.4.tags: baby, portrait, tree, videolink, white face
+photo.5: ig://COhLCT4Bizl/m
+photo.5.author: woodlandparkzoo
+photo.5.commitdate: 2021/6/9
+photo.5.link: https://www.instagram.com/carsontheredpanda/
+photo.5.tags: apple time, close-up, paws, smile
+photo.6: ig://CT5EkBDPyR8/m
+photo.6.author: jessesershon
+photo.6.commitdate: 2022/3/11
+photo.6.link: https://www.instagram.com/jessesershon/
+photo.6.tags: portrait, sample, smile, tree, whiskers
+photo.7: ig://CUXz8REpfsx/m
+photo.7.author: carsontheredpanda
+photo.7.commitdate: 2021/10/6
+photo.7.link: https://www.instagram.com/carsontheredpanda/
+photo.7.tags: portrait, profile, smile
+photo.8: ig://CVRSjp8ND1e/m
+photo.8.author: woodlandparkzoo
+photo.8.commitdate: 2021/10/31
+photo.8.link: https://www.instagram.com/woodlandparkzoo/
+photo.8.tags: bridge, tail
+photo.9: ig://CVTGQWgPEVh/m
+photo.9.author: carsontheredpanda
+photo.9.commitdate: 2021/10/30
+photo.9.link: https://www.instagram.com/carsontheredpanda/
+photo.9.tags: portrait, smile
+photo.10: ig://ChoQcfvuKBy/m
+photo.10.author: wumpwoast
+photo.10.commitdate: 2022/8/30
+photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.tags: portrait, smile, tongue, whiskers
+species: 2
+zoo: 67

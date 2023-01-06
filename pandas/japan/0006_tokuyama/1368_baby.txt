@@ -1,0 +1,19 @@
+[panda]
+_id: 1368
+birthday: 2022/6/17
+birthplace: 6
+children: none
+commitdate: 2022/7/14
+death: 2022/6/30
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1369
+species: 2
+uncertainty: death exact date
+zoo: 6

@@ -1,0 +1,16 @@
+[zoo]
+_id: 91
+commitdate: 2018/11/23
+en.address: 7370 Baker St, Pittsburgh, PA 15206
+en.location: Pittsburgh, Pennsylvania, USA
+en.name: Pittsburgh Zoo and PPG Aquarium
+flag: USA
+language.order: en
+latitude: 40.4878388
+longitude: -79.9294974
+map: https://goo.gl/maps/wKD5UXtTWh42
+photo.1: ig://BkQLIdzgwTy/m
+photo.1.author: pghzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/pghzoo/
+website: https://www.pittsburghzoo.org/

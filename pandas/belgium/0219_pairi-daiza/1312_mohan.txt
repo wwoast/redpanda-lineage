@@ -1,0 +1,75 @@
+[panda]
+_id: 1312
+birthday: 2021/7/22
+birthplace: 219
+children: none
+commitdate: 2021/9/1
+en.name: Mohan
+en.nicknames: none
+en.othernames: none
+fr.name: Mohan
+fr.nicknames: none
+fr.othernames: none
+gender: m
+jp.name: モハン
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, en, jp
+litter: 1313
+photo.1: ig://CTrG81FsBts/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2021/10/22
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: baby, mofumofu, portrait, sample, smile, whiskers
+photo.2: ig://CT9NoATMV51/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2021/9/25
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: baby, mofumofu, sample
+photo.3: ig://CUFSvwhMRH3/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2021/9/25
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, mofumofu, portrait, sample
+photo.4: ig://CUNjKyrtEss/m
+photo.4.author: mirellad03
+photo.4.commitdate: 2021/9/25
+photo.4.link: https://www.instagram.com/mirellad03/
+photo.4.tags: baby, mofumofu
+photo.5: ig://CUmZWh8oc40/m
+photo.5.author: nathalie.elliott
+photo.5.commitdate: 2021/12/21
+photo.5.link: https://www.instagram.com/nathalie.elliott/
+photo.5.tags: baby, mofumofu, portrait, sample, tail
+photo.6: ig://CYVxetxsid_/m
+photo.6.author: nathalie.elliott
+photo.6.commitdate: 2022/6/10
+photo.6.link: https://www.instagram.com/nathalie.elliott/
+photo.6.tags: baby, mofumofu, portrait, profile, sample
+photo.7: ig://CY_QFWYMC_h/m
+photo.7.author: nathalie.elliott
+photo.7.commitdate: 2022/6/10
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: baby, peek, portrait, sample, tree
+photo.8: ig://CZNXSubMD36/m
+photo.8.author: nathalie.elliott
+photo.8.commitdate: 2022/6/10
+photo.8.link: https://www.instagram.com/nathalie.elliott/
+photo.8.tags: baby, portrait, sample, whiskers
+photo.9: ig://CaO3_QSsvwy/m
+photo.9.author: nathalie.elliott
+photo.9.commitdate: 2022/3/11
+photo.9.link: https://www.instagram.com/nathalie.elliott/
+photo.9.tags: baby, climb, peek, portrait, smile
+photo.10: ig://CbaIs3Bst29/m
+photo.10.author: nathalie.elliott
+photo.10.commitdate: 2022/6/11
+photo.10.link: https://www.instagram.com/nathalie.elliott/
+photo.10.tags: bridge, peek, portrait, whiskers
+photo.11: ig://CinDei9MMFV/m
+photo.11.author: nathalie.elliott
+photo.11.commitdate: 2022/9/18
+photo.11.link: https://www.instagram.com/nathalie.elliott/
+photo.11.tags: bamboo, mofumofu, portrait, sample, techitechi
+species: 1
+zoo: 219

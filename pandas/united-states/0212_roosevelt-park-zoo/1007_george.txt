@@ -1,0 +1,39 @@
+[panda]
+_id: 1007
+birthday: 2013/5/30
+birthplace: 187
+children: none
+commitdate: 2019/10/27
+en.name: George
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジョージ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1006
+location.1: 187, 2013/5/30
+location.2: 212, 2014/10/14
+photo.1: ig://Bx8GkyKh2xi/m
+photo.1.author: rpzoominot
+photo.1.commitdate: 2019/10/28
+photo.1.link: https://www.instagram.com/rpzoominot/
+photo.1.tags: bamboo, portrait, white face
+photo.2: ig://ByAjzkSBFd-/m
+photo.2.author: rpzoominot
+photo.2.commitdate: 2019/10/28
+photo.2.link: https://www.instagram.com/rpzoominot/
+photo.2.tags: hammock, portrait
+photo.3: ig://B3R04XdBEMg/m
+photo.3.author: rpzoominot
+photo.3.commitdate: 2019/10/28
+photo.3.link: https://www.instagram.com/rpzoominot/
+photo.3.tags: laying down, portrait, profile
+photo.4: ig://B3uZtyGhdFi/m
+photo.4.author: rpzoominot
+photo.4.commitdate: 2019/10/28
+photo.4.link: https://www.instagram.com/rpzoominot/
+photo.4.tags: bamboo, portrait, smile
+species: 1
+zoo: 212

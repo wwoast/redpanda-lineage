@@ -1,0 +1,21 @@
+[panda]
+_id: 631
+birthday: 2009/6/18
+birthplace: 146
+children: none
+commitdate: 2019/3/19
+death: 2010/11/24
+en.name: Nori
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: のり
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 630
+location.1: 146, 2009/6/18
+location.2: 157, 2010/4/26
+species: 1
+studbook.id: 0924
+zoo: 158

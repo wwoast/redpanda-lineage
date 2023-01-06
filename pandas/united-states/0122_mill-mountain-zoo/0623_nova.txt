@@ -1,0 +1,45 @@
+[panda]
+_id: 623
+birthday: 2006/6/27
+birthplace: 104
+children: 625, 626, 627, 628
+commitdate: 2019/3/19
+en.name: Nova
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ノバ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 624
+location.1: 104, 2006/6/27
+location.2: 122, 2007/3/5
+photo.1: ig://BrkzZytlEVu/m
+photo.1.author: millmountainzoo
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/millmountainzoo/
+photo.1.tags: white face
+photo.2: ig://BsYaySklw1u/m
+photo.2.author: millmountainzoo
+photo.2.commitdate: 2019/4/7
+photo.2.link: https://www.instagram.com/millmountainzoo/
+photo.2.tags: tongue, white face
+photo.3: ig://BtOWd8BBYuZ/m
+photo.3.author: millmountainzoo
+photo.3.commitdate: 2019/4/7
+photo.3.link: https://www.instagram.com/millmountainzoo/
+photo.3.tags: tongue, white face
+photo.4: ig://BvjkTXaB9Cs/m
+photo.4.author: millmountainzoo
+photo.4.commitdate: 2019/4/7
+photo.4.link: https://www.instagram.com/millmountainzoo/
+photo.4.tags: bamboo, portrait, profile, white face
+photo.5: ig://CHS5yyzBqfz/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2020/12/12
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: peek, white face
+species: 1
+studbook.id: 0617
+zoo: 122

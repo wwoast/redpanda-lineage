@@ -1,0 +1,23 @@
+[panda]
+_id: 684
+birthday: 2009/6/6
+birthplace: 138
+children: unknown
+commitdate: 2019/3/24
+death: 2018/8/10
+en.name: Pete
+en.nicknames: none
+en.oldnames: Dundup
+en.othernames: none
+gender: m
+jp.name: ピート
+jp.nicknames: none
+jp.oldnames: ドンダップ
+jp.othernames: none
+language.order: en, jp
+litter: 538
+location.1: 138, 2009/6/6
+location.2: 174, 2010/10/20
+species: 2
+studbook.id: 0940
+zoo: 174

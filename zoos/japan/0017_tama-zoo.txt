@@ -1,0 +1,19 @@
+[zoo]
+_id: 17
+commitdate: 2018/6/18
+en.address: 7 Chome-1-1 Hodokubo, Hino, Tokyo 191-0041, Japan
+en.location: Hino, Tokyo, Japan
+en.name: Tama Zoological Park
+flag: Japan
+jp.address: 〒191-0041 東京都日野市程久保７丁目１−1
+jp.location: 日野市 東京都
+jp.name: 多摩動物公園
+language.order: jp, en
+latitude: 35.6495222
+longitude: 139.4000674
+map: https://goo.gl/maps/Emr9wdQYAm22
+photo.1: ig://BlA5hY9l2Qk/m
+photo.1.author: hiro_v36
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/hiro_v36/
+website: http://www.tokyo-zoo.net/zoo/tama/

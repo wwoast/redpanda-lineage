@@ -1,0 +1,21 @@
+[panda]
+_id: 724
+birthday: 1994/6/24
+birthplace: 6
+children: 826, 827, 828, 471, 612
+commitdate: 2019/3/27
+death: 2011/9/6
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: Ronron
+gender: m
+jp.name: ロンロン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 6, 1994/6/24
+location.2: 29, 1995/7/12
+species: 2
+studbook.id: 9449
+zoo: 29

@@ -1,0 +1,18 @@
+[zoo]
+_id: 189
+commitdate: 2019/4/8
+en.address: 903 10th St SW, Albuquerque, NM 87102g
+en.location: Albequerque, New Mexico, USA
+en.name: ABQ BioPark - Zoo
+en.othernames: Rio Grande Zoo
+flag: USA
+language.order: en
+latitude: 35.0788346
+longitude: -106.6660283
+map: https://goo.gl/maps/kQFjvE72NVS2
+photo.1: ig://B-S5NbRpdp3/m
+photo.1.author: abqbiopark
+photo.1.commitdate: 2020/4/27
+photo.1.link: https://www.instagram.com/abqbiopark/
+photo.1.tags: profile
+website: http://www.cabq.gov/culturalservices/biopark

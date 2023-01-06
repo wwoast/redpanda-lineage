@@ -1,0 +1,340 @@
+[panda]
+_id: 302
+birthday: 2012/8/2
+birthplace: 42
+children: none
+commitdate: 2018/8/3
+en.name: Kota
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: コタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 483
+location.1: 42, 2012/8/2
+location.2: 30, 2015/1/15
+location.3: 23, 2019/11/19
+photo.1: ig://BTDZEnyASXv/m
+photo.1.author: monmon_redpanda
+photo.1.commitdate: 2018/8/23
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: portrait, smile
+photo.2: ig://BsPo5r1Fyjj/m
+photo.2.author: re_ichimaru
+photo.2.commitdate: 2019/1/6
+photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.3: ig://BstaSIvFDAk/m
+photo.3.author: run.swim.shingo
+photo.3.commitdate: 2020/9/7
+photo.3.link: https://www.instagram.com/run.swim.shingo/
+photo.3.tags: portrait, tongue
+photo.4: ig://BvWm4GkF32x/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2019/4/5
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: door, paws, portrait
+photo.5: ig://BvsKJiRAA09/m
+photo.5.author: craig_craig_craig
+photo.5.commitdate: 2019/4/5
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: bamboo, portrait
+photo.6: ig://Bx8YnHhBtTl/m
+photo.6.author: re_ichimaru
+photo.6.commitdate: 2020/5/19
+photo.6.link: https://www.instagram.com/re_ichimaru/
+photo.6.tags: bamboo, paws
+photo.7: ig://B2k6AVggf7e/m
+photo.7.author: miis_98
+photo.7.commitdate: 2019/9/21
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: mofumofu, portrait, smile
+photo.8: ig://B3MW7b_hRn6/m
+photo.8.author: miis_98
+photo.8.commitdate: 2019/10/8
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: bamboo, portrait, tongue
+photo.9: ig://B8Gi9RThbR-/m
+photo.9.author: fuji_safari
+photo.9.commitdate: 2020/5/19
+photo.9.link: https://www.instagram.com/fuji_safari/
+photo.9.tags: climb, home, portrait
+photo.10: ig://B9LLUqpBVj-/m
+photo.10.author: kisshan324
+photo.10.commitdate: 2020/3/6
+photo.10.link: https://www.instagram.com/kisshan324/
+photo.10.tags: pooping, portrait, tail
+photo.11: ig://B9OTOXphd8i/m
+photo.11.author: fuji_safari
+photo.11.commitdate: 2020/5/19
+photo.11.link: https://www.instagram.com/fuji_safari/
+photo.11.tags: portrait, sample
+photo.12: ig://B9Y2w6dB85H/m
+photo.12.author: fuji_safari
+photo.12.commitdate: 2020/5/19
+photo.12.link: https://www.instagram.com/fuji_safari/
+photo.12.tags: portrait, tree
+photo.13: ig://B9-LmkThXKa/m
+photo.13.author: ssc6105
+photo.13.commitdate: 2020/3/20
+photo.13.link: https://www.instagram.com/ssc6105/
+photo.13.tags: dish, paws, standing, tail, techitechi
+photo.14: ig://B-B4TjNBcGv/m
+photo.14.author: fuji_safari
+photo.14.commitdate: 2020/5/19
+photo.14.link: https://www.instagram.com/fuji_safari/
+photo.14.tags: peek, portrait, tree
+photo.15: ig://B-DdhEJAGHj/m
+photo.15.author: miis_98
+photo.15.commitdate: 2020/3/24
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: paws, portrait, snow, tail
+photo.16: ig://B-IZLS3Bvqw/m
+photo.16.author: ssc6105
+photo.16.commitdate: 2020/3/29
+photo.16.link: https://www.instagram.com/ssc6105/
+photo.16.tags: dish, paws, standing
+photo.17: ig://B-MVFYXBJln/m
+photo.17.author: miis_98
+photo.17.commitdate: 2020/3/29
+photo.17.link: https://www.instagram.com/miis_98/
+photo.17.tags: standing, tail
+photo.18: ig://B-uOD2LBBQB/m
+photo.18.author: miis_98
+photo.18.commitdate: 2020/4/14
+photo.18.link: https://www.instagram.com/miis_98/
+photo.18.tags: portrait, smile, tongue
+photo.19: ig://B_ipw48ndyz/m
+photo.19.author: kotume4935
+photo.19.commitdate: 2021/2/28
+photo.19.link: https://www.instagram.com/kotume4935/
+photo.19.tags: bamboo, portrait, tongue
+photo.20: ig://B_jwshJnMRe/m
+photo.20.author: fuji_safari
+photo.20.commitdate: 2020/5/19
+photo.20.link: https://www.instagram.com/fuji_safari/
+photo.20.tags: portrait, tail
+photo.21: ig://B_yvYeup8O-/m
+photo.21.author: fuji_safari
+photo.21.commitdate: 2020/5/19
+photo.21.link: https://www.instagram.com/fuji_safari/
+photo.21.tags: bamboo, paws, videolink
+photo.22: ig://CAhR32PlT3x/m
+photo.22.author: ssc6105
+photo.22.commitdate: 2020/5/23
+photo.22.link: https://www.instagram.com/ssc6105/
+photo.22.tags: climb, home, smile, tail, tongue
+photo.23: ig://CBoufCJBQv3/m
+photo.23.author: fuji_safari
+photo.23.commitdate: 2020/8/3
+photo.23.link: https://www.instagram.com/fuji_safari/
+photo.23.tags: bamboo, paws, portrait
+photo.24: ig://CDLC9JABmS5/m
+photo.24.author: miis_98
+photo.24.commitdate: 2020/7/28
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: portrait, smile, tongue
+photo.25: ig://CDWjd7jhVG6/m
+photo.25.author: miis_98
+photo.25.commitdate: 2020/8/5
+photo.25.link: https://www.instagram.com/miis_98/
+photo.25.tags: portrait, smile, tail
+photo.26: ig://CD8YGZehCa_/m
+photo.26.author: fuji_safari
+photo.26.commitdate: 2020/9/24
+photo.26.link: https://www.instagram.com/fuji_safari/
+photo.26.tags: paws, portrait, smile, tail
+photo.27: ig://CEU1-BEgkDx/m
+photo.27.author: run.swim.shingo
+photo.27.commitdate: 2020/9/3
+photo.27.link: https://www.instagram.com/run.swim.shingo/
+photo.27.tags: smile, tongue, whiskers
+photo.28: ig://CGgH5lqBE0D/m
+photo.28.author: craig_craig_craig
+photo.28.commitdate: 2020/12/8
+photo.28.link: https://www.instagram.com/craig_craig_craig/
+photo.28.tags: portrait, tree, videolink
+photo.29: ig://CG3WyUGhA3M/m
+photo.29.author: miis_98
+photo.29.commitdate: 2020/10/27
+photo.29.link: https://www.instagram.com/miis_98/
+photo.29.tags: dish, peek, tail
+photo.30: ig://CG7QS4JBJQd/m
+photo.30.author: miis_98
+photo.30.commitdate: 2020/11/1
+photo.30.link: https://www.instagram.com/miis_98/
+photo.30.tags: bamboo, portrait, smile, standing, tongue
+photo.31: ig://CHK9EvXhpOy/m
+photo.31.author: craig_craig_craig
+photo.31.commitdate: 2020/11/5
+photo.31.link: https://www.instagram.com/craig_craig_craig/
+photo.31.tags: portrait, smile, tree, whiskers
+photo.32: ig://CJlc1m1B4-E/m
+photo.32.author: miis_98
+photo.32.commitdate: 2021/1/8
+photo.32.link: https://www.instagram.com/miis_98/
+photo.32.tags: portrait, tree
+photo.33: ig://CKMR2glh-T0/m
+photo.33.author: miis_98
+photo.33.commitdate: 2021/1/28
+photo.33.link: https://www.instagram.com/miis_98/
+photo.33.tags: paws, tongue, whiskers
+photo.34: ig://CLIaBL3hXbn/m
+photo.34.author: fuji_safari
+photo.34.commitdate: 2021/6/29
+photo.34.link: https://www.instagram.com/fuji_safari/
+photo.34.tags: bamboo, paws, peek, portrait
+photo.35: ig://CL1AoYBh3Sc/m
+photo.35.author: miis_98
+photo.35.commitdate: 2021/3/4
+photo.35.link: https://www.instagram.com/miis_98/
+photo.35.tags: paws, standing
+photo.36: ig://COVZURHhnFr/m
+photo.36.author: miis_98
+photo.36.commitdate: 2021/5/8
+photo.36.link: https://www.instagram.com/miis_98/
+photo.36.tags: air tasting, bamboo, portrait, tail, tongue
+photo.37: ig://COfWnCRhlQe/m
+photo.37.author: miis_98
+photo.37.commitdate: 2021/6/9
+photo.37.link: https://www.instagram.com/miis_98/
+photo.37.tags: portrait, tree
+photo.38: ig://CPf0jcoBVVn/m
+photo.38.author: miis_98
+photo.38.commitdate: 2021/6/27
+photo.38.link: https://www.instagram.com/miis_98/
+photo.38.tags: laying down, portrait, tree
+photo.39: ig://CPjjgqGh4lg/m
+photo.39.author: miis_98
+photo.39.commitdate: 2021/6/20
+photo.39.link: https://www.instagram.com/miis_98/
+photo.39.tags: bamboo, paws, portrait, tongue
+photo.40: ig://CRT6reNBOGN/m
+photo.40.author: miis_98
+photo.40.commitdate: 2021/7/14
+photo.40.link: https://www.instagram.com/miis_98/
+photo.40.tags: apple time, peek, portrait, smile, tail, tongue
+photo.41: ig://CRqf62kh2W3/m
+photo.41.author: pink.b22
+photo.41.commitdate: 2021/8/2
+photo.41.link: https://www.instagram.com/pink.b22/
+photo.41.tags: portrait
+photo.42: ig://CR41OVKJGuX/m
+photo.42.author: kotume4935
+photo.42.commitdate: 2021/7/29
+photo.42.link: https://www.instagram.com/kotume4935/
+photo.42.tags: paws, portrait, surprise
+photo.43: ig://CR52_CrhRDP/m
+photo.43.author: pink.b22
+photo.43.commitdate: 2021/7/29
+photo.43.link: https://www.instagram.com/pink.b22/
+photo.43.tags: apple time, portrait, tail, tongue, whiskers
+photo.44: ig://CSESKraLYBL/m
+photo.44.author: miis_98
+photo.44.commitdate: 2021/8/26
+photo.44.link: https://www.instagram.com/miis_98/
+photo.44.tags: portrait, smile, tree
+photo.45: ig://CSSjgM4B__5/m
+photo.45.author: kotume4935
+photo.45.commitdate: 2021/8/10
+photo.45.link: https://www.instagram.com/kotume4935/
+photo.45.tags: close-up, portrait, whiskers
+photo.46: ig://CSVPax6BsH5/m
+photo.46.author: miis_98
+photo.46.commitdate: 2021/8/10
+photo.46.link: https://www.instagram.com/miis_98/
+photo.46.tags: paws, portrait, smile, tail, whiskers
+photo.47: ig://CSmQHCYhMg9/m
+photo.47.author: pink.b22
+photo.47.commitdate: 2021/8/18
+photo.47.link: https://www.instagram.com/pink.b22/
+photo.47.tags: laying down, paws, tail
+photo.48: ig://CTDYRMLBKTp/m
+photo.48.author: pink.b22
+photo.48.commitdate: 2021/9/1
+photo.48.link: https://www.instagram.com/pink.b22/
+photo.48.tags: bamboo, home, portrait
+photo.49: ig://CUKuisFl7GX/m
+photo.49.author: miis_98
+photo.49.commitdate: 2021/9/28
+photo.49.link: https://www.instagram.com/miis_98/
+photo.49.tags: paws, portrait, whiskers
+photo.50: ig://CUYjqZpBPRu/m
+photo.50.author: miis_98
+photo.50.commitdate: 2021/10/6
+photo.50.link: https://www.instagram.com/miis_98/
+photo.50.tags: dish, portrait, tail
+photo.51: ig://CUZmq45B3OX/m
+photo.51.author: hamiiiii831_
+photo.51.commitdate: 2021/10/9
+photo.51.link: https://www.instagram.com/hamiiiii831_/
+photo.51.tags: videolink
+photo.52: ig://CV-rSTspyK-/m
+photo.52.author: miis_98
+photo.52.commitdate: 2021/11/7
+photo.52.link: https://www.instagram.com/miis_98/
+photo.52.tags: paws, portrait, tree
+photo.53: ig://CWdfqH6JMv3/m
+photo.53.author: miis_98
+photo.53.commitdate: 2021/11/21
+photo.53.link: https://www.instagram.com/miis_98/
+photo.53.tags: bamboo, paws, portrait, tongue, whiskers
+photo.54: ig://CYHIxhklVDp/m
+photo.54.author: miis_98
+photo.54.commitdate: 2022/1/6
+photo.54.link: https://www.instagram.com/miis_98/
+photo.54.tags: portrait, tail, whiskers
+photo.55: ig://miis_98/CYm5fuChrLv/m
+photo.55.author: miis_98
+photo.55.commitdate: 2022/1/30
+photo.55.link: https://www.instagram.com/miis_98/
+photo.55.tags: peek, portrait, profile, sample, tree
+photo.56: ig://CaMMLvgv8C_/m
+photo.56.author: fuji_safari
+photo.56.commitdate: 2022/3/20
+photo.56.link: https://www.instagram.com/fuji_safari/
+photo.56.tags: portrait, sample, smile, whiskers
+photo.57: ig://Ca_d3UmrC4O/m
+photo.57.author: miis_98
+photo.57.commitdate: 2022/4/10
+photo.57.link: https://www.instagram.com/miis_98/
+photo.57.tags: portrait, sample, whiskers
+photo.58: ig://CbNSN7shaFM/m
+photo.58.author: miis_98
+photo.58.commitdate: 2022/3/20
+photo.58.link: https://www.instagram.com/miis_98/
+photo.58.tags: marking, paws, portrait, sample, tail
+photo.59: ig://CcXss6eP763/m
+photo.59.author: miis_98
+photo.59.commitdate: 2022/5/25
+photo.59.link: https://www.instagram.com/miis_98/
+photo.59.tags: close-up, dish, mofumofu, portrait, sample, smile, tongue
+photo.60: ig://CcnRFMVLEMZ/m
+photo.60.author: miis_98
+photo.60.commitdate: 2022/5/27
+photo.60.link: https://www.instagram.com/miis_98/
+photo.60.tags: apple time, paws, portrait, sample, smile, tail
+photo.61: ig://CgJCRiHPgLf/m
+photo.61.author: miis_98
+photo.61.commitdate: 2022/7/28
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: sample, tail, whiskers
+photo.62: ig://CguRPndLQtJ/m
+photo.62.author: miis_98
+photo.62.commitdate: 2022/8/5
+photo.62.link: https://www.instagram.com/miis_98/
+photo.62.tags: portrait, sample, whiskers
+photo.63: ig://CjIG7vgP3Gz/m
+photo.63.author: miis_98
+photo.63.commitdate: 2022/10/1
+photo.63.link: https://www.instagram.com/miis_98/
+photo.63.tags: bridge, paws, portrait, sample, whiskers
+photo.64: ig://ClFImPNhAKO/m
+photo.64.author: miis_98
+photo.64.commitdate: 2022/12/20
+photo.64.link: https://www.instagram.com/miis_98/
+photo.64.tags: portrait, sample, tail, whiskers
+species: 2
+studbook.id: 12119
+zoo: 23

@@ -1,0 +1,25 @@
+[media]
+_id: media.43.kora-santi
+commitdate: 2021/7/22
+panda.tags: 999, 1185
+photo.1: ig://CQYHgIigHAi/l
+photo.1.author: rossifari
+photo.1.commitdate: 2021/7/22
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: home, mother's day, portrait
+photo.1.tags.999.location: 490, 165
+photo.1.tags.1185.location: 320, 480
+photo.2: ig://CUuPEo7sc2f/l
+photo.2.author: rossifari
+photo.2.commitdate: 2022/3/11
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: baby, mother's day, paws, portrait, whiskers
+photo.2.tags.999.location: 470, 255
+photo.2.tags.1185.location: 200, 340
+photo.3: ig://CiXRuW5OpCS/l
+photo.3.author: rossifari
+photo.3.commitdate: 2022/10/7
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: portrait, sample, smile, whiskers
+photo.3.tags.999.location: 460, 180
+photo.3.tags.1185.location: 300, 290

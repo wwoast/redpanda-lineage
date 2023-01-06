@@ -1,0 +1,37 @@
+[panda]
+_id: 1350
+birthday: 2007/7/3
+birthplace: 291
+children: 1351, 1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359
+cn.name: 歡歡
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2022/4/18
+en.name: Huanhuan
+en.nicknames: none
+en.othernames: Huan-Huan
+gender: m
+jp.name: ファンファン
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+location.1: 291, 2007/7/3
+location.2: 55, 2014/6/6
+photo.1: ig://CVMUl-ghuwu/m
+photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/18
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: bamboo, lips, mofumofu, paws, portrait, profile, smile, whiskers
+photo.2: ig://CVy-MLYBcCw/m
+photo.2.author: yuredpanda
+photo.2.commitdate: 2022/4/18
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: peek, portrait, tail
+photo.3: ig://CfhRHboPS5k/m
+photo.3.author: yuredpanda
+photo.3.commitdate: 2022/7/28
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: portrait, whiskers
+species: 2
+zoo: 55

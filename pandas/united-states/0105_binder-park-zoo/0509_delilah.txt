@@ -1,0 +1,22 @@
+[panda]
+_id: 509
+birthday: 2006/6/6
+birthplace: 118
+children: 841, 842, 629, 508
+commitdate: 2019/2/23
+death: 2014/1/28
+en.name: Delilah
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: デリラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 898, 899
+location.1: 118, 2006/6/6
+location.2: 112, 2006/12/22
+location.3: 105, 2008/3/24
+species: 1
+studbook.id: 0601
+zoo: 105

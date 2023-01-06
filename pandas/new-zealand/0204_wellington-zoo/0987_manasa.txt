@@ -1,0 +1,32 @@
+[panda]
+_id: 987
+birthday: 2009/12/25
+birthplace: 204
+children: unknown
+commitdate: 2019/8/24
+en.name: Manasa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マナサ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://BY4sB6pHS3L/m
+photo.1.author: ikenlee
+photo.1.commitdate: 2019/8/24
+photo.1.link: https://www.instagram.com/ikenlee/
+photo.1.tags: bamboo
+photo.2: ig://BpaMNpLgpuW/m
+photo.2.author: finnbettjeman
+photo.2.commitdate: 2019/8/25
+photo.2.link: https://www.instagram.com/finnbettjeman/
+photo.2.tags: profile, portrait
+photo.3: ig://Bz7Zvo_J1uZ/m
+photo.3.author: whaiatekikorangi
+photo.3.commitdate: 2019/8/25
+photo.3.link: https://www.instagram.com/whaiatekikorangi/
+photo.3.tags: muzzle, sleeping, tree
+species: 1
+zoo: 204

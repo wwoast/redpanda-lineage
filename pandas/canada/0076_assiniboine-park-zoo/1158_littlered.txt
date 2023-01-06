@@ -1,0 +1,43 @@
+[panda]
+_id: 1158
+birthday: 2020/7/8
+birthplace: 76
+children: none
+commitdate: 2020/8/6
+death: 2020/8/23
+en.name: Little Red
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 少し赤
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://CDPM_CijcmJ/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2020/8/6
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: baby, keeper, newborn, paws, portrait
+photo.2: ig://CDW-hSwD3qR/m
+photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2020/8/6
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2.tags: baby, keeper, newborn
+photo.3: ig://CDhAq0QFYov/m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2020/8/6
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: laying down, newborn, sleeping
+photo.4: ig://CDwVrUwhoZN/m
+photo.4.author: assiniboineparkzoo
+photo.4.commitdate: 2020/8/22
+photo.4.link: https://www.instagram.com/assiniboineparkzoo/
+photo.4.tags: baby, keeper, newborn, paws, portrait
+photo.5: ig://CEKlqBGgQfu/m
+photo.5.author: assiniboineparkzoo
+photo.5.commitdate: 2020/8/23
+photo.5.link: https://www.instagram.com/assiniboineparkzoo/
+photo.5.tags: baby, newborn, toys
+species: 2
+zoo: 76

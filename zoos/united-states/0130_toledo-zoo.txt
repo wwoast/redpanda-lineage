@@ -1,0 +1,25 @@
+[zoo]
+_id: 130
+commitdate: 2019/2/24
+en.address: 2 Hippo Way, Toledo, OH 43609
+en.location: Toledo, Ohio, USA
+en.name: Toledo Zoological Gardens
+flag: USA
+language.order: en
+latitude: 41.6274497
+longitude: -83.591941
+map: https://goo.gl/maps/q4ssNRdiSNP2
+photo.1: ig://BzMNbvwHj9U/m
+photo.1.author: ace_of_skates
+photo.1.commitdate: 2019/7/8
+photo.1.link: https://www.instagram.com/ace_of_skates/
+photo.1.tags: profile
+photo.2: ig://B3sNcVElzlx/m
+photo.2.author: sethgeib
+photo.2.commitdate: 2019/12/7
+photo.2.link: https://www.instagram.com/sethgeib/
+photo.3: ig://B3lLXJ3FmH8/m
+photo.3.author: sethgeib
+photo.3.commitdate: 2019/12/7
+photo.3.link: https://www.instagram.com/sethgeib/
+website: https://www.toledozoo.org/

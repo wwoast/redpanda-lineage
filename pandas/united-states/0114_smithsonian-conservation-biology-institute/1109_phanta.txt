@@ -1,0 +1,20 @@
+[panda]
+_id: 1109
+birthday: 1995/7/14
+birthplace: 96
+children: 1096, 505, 640, 1003, 1004, 1005
+commitdate: 2020/2/29
+death: 2011/8/15
+en.name: Phanta
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ファンタ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1110
+location.1: 96, 1995/7/14
+location.2: 114, 2006/1/21
+species: 1
+zoo: 114

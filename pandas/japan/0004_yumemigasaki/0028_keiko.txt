@@ -1,0 +1,493 @@
+[panda]
+_id: 28
+birthday: 2015/6/16
+birthplace: 4
+children: none
+commitdate: 2018/6/15
+en.name: Keiko
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケイコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 29
+photo.1: ig://BAV0JM5vi8l/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2019/9/3
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: baby, paws, window
+photo.2: ig://BCJQsbTTHpT/m
+photo.2.author: rdpnzoo
+photo.2.commitdate: 2019/9/3
+photo.2.link: https://www.instagram.com/rdpnzoo/
+photo.2.tags: baby, bamboo, smile, tongue
+photo.3: ig://BUi-XyJjLKn/m
+photo.3.author: mariten1119
+photo.3.commitdate: 2019/9/3
+photo.3.link: https://www.instagram.com/mariten1119/
+photo.3.tags: tongue
+photo.4: ig://BdlpOlyD5yf/m
+photo.4.author: _rifa_p
+photo.4.commitdate: 2019/6/16
+photo.4.link: https://www.instagram.com/_rifa_p/
+photo.4.tags: paws, portrait, standing, tongue
+photo.5: ig://BeHjaCYhtyA/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2022/2/9
+photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: bamboo, paws, smile
+photo.6: ig://Bgxg_BehuP0/m
+photo.6.author: miis_98
+photo.6.commitdate: 2018/7/28
+photo.6.link: https://www.instagram.com/miis_98/
+photo.7: ig://BhXwn2Zl-nz/m
+photo.7.author: minatomirai215
+photo.7.commitdate: 2018/7/28
+photo.7.link: https://www.instagram.com/minatomirai215/
+photo.8: ig://Bh1Yuxil15m/m
+photo.8.author: minatomirai215
+photo.8.commitdate: 2019/6/16
+photo.8.link: https://www.instagram.com/minatomirai215/
+photo.8.tags: toys, tail
+photo.9: ig://BiUg3wulWsp/m
+photo.9.author: minatomirai215
+photo.9.commitdate: 2019/6/16
+photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: bamboo, standing
+photo.10: ig://BjGQhjglWCd/m
+photo.10.author: miis_98
+photo.10.commitdate: 2019/6/16
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: bamboo, portrait, tongue
+photo.11: ig://BjUOOcUFDpB/m
+photo.11.author: hanamaru_redpanda
+photo.11.commitdate: 2018/7/16
+photo.11.link: https://www.instagram.com/hanamaru_redpanda
+photo.11.tags: bamboo, tongue
+photo.12: ig://BkEpPRqF81K/m
+photo.12.author: miis_98
+photo.12.commitdate: 2018/7/16
+photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: profile
+photo.13: ig://BlT4W-2BSHH/m
+photo.13.author: miis_98
+photo.13.commitdate: 2018/7/28
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: bamboo, smile
+photo.14: ig://BnyWSwGFpzs/m
+photo.14.author: perie1027vivi
+photo.14.commitdate: 2018/9/16
+photo.14.link: https://www.instagram.com/perie1027vivi/
+photo.15: ig://BoYQ2sxFuPm/m
+photo.15.author: craig_craig_craig
+photo.15.commitdate: 2018/10/1
+photo.15.link: https://www.instagram.com/craig_craig_craig/
+photo.16: ig://Bp0SGgLl5cp/m
+photo.16.author: miis_98
+photo.16.commitdate: 2018/11/6
+photo.16.link: https://www.instagram.com/miis_98/
+photo.17: ig://Bp375fMlcRR/m
+photo.17.author: rie_panda55
+photo.17.commitdate: 2018/11/7
+photo.17.link: https://www.instagram.com/rie_panda55/
+photo.17.tags: sleeping, tree
+photo.18: ig://BqnzY__ljeW/m
+photo.18.author: _rifa_p
+photo.18.commitdate: 2018/11/25
+photo.18.link: https://www.instagram.com/_rifa_p/
+photo.18.tags: standing, tail
+photo.19: ig://BsDPyKsFPMZ/m
+photo.19.author: minatomirai215
+photo.19.commitdate: 2019/1/3
+photo.19.link: https://www.instagram.com/minatomirai215/
+photo.19.tags: tree
+photo.20: ig://BsJDrVrF-aI/m
+photo.20.author: minatomirai215
+photo.20.commitdate: 2019/1/3
+photo.20.link: https://www.instagram.com/minatomirai215/
+photo.20.tags: tree, upside-down
+photo.21: ig://Bs5QyxSl8AM/m
+photo.21.author: minatomirai215
+photo.21.commitdate: 2019/1/24
+photo.21.link: https://www.instagram.com/minatomirai215/
+photo.21.tags: tongue, tree
+photo.22: ig://BuL8zvsFVGX/m
+photo.22.author: na.mo.pan
+photo.22.commitdate: 2019/3/3
+photo.22.link: https://www.instagram.com/na.mo.pan/
+photo.22.tags: dish, paws
+photo.23: ig://Bv-0aXvFCU6/m
+photo.23.author: miis_98
+photo.23.commitdate: 2019/4/8
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: paws, smile
+photo.24: ig://BwvMVUilgiN/m
+photo.24.author: miis_98
+photo.24.commitdate: 2019/4/30
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: mofumofu
+photo.25: ig://BzlhYqBBUmK/m
+photo.25.author: ssc6105
+photo.25.commitdate: 2019/9/3
+photo.25.link: https://www.instagram.com/ssc6105/
+photo.25.tags: spider
+photo.26: ig://Bz9KD1lhFP1/m
+photo.26.author: miis_98
+photo.26.commitdate: 2019/7/15
+photo.26.link: https://www.instagram.com/miis_98/
+photo.26.tags: mofumofu, spider
+photo.27: ig://B0A7bSqB7EO/m
+photo.27.author: miis_98
+photo.27.commitdate: 2019/7/18
+photo.27.link: https://www.instagram.com/miis_98/
+photo.27.tags: bamboo, bite, paws, portrait, smile
+photo.28: ig://B0LkYb-BY74/m
+photo.28.author: grskus_tk
+photo.28.commitdate: 2019/7/22
+photo.28.link: https://www.instagram.com/grskus_tk/
+photo.28.tags: air tasting, portrait, tongue, tree
+photo.29: ig://B0PrePGhSfB/m
+photo.29.author: miis_98
+photo.29.commitdate: 2019/8/27
+photo.29.link: https://www.instagram.com/miis_98/
+photo.29.tags: paws, spider, tail
+photo.30: ig://B1L20UfB5NM/m
+photo.30.author: miis_98
+photo.30.commitdate: 2019/8/20
+photo.30.link: https://www.instagram.com/miis_98/
+photo.30.tags: portrait, toys
+photo.31: ig://B2tRp4KhMBp/m
+photo.31.author: pantasanzoo1
+photo.31.commitdate: 2019/9/28
+photo.31.link: https://www.instagram.com/pantasanzoo1/
+photo.31.tags: bamboo, tail
+photo.32: ig://B2te3UeBOX3/m
+photo.32.author: minatomirai215
+photo.32.commitdate: 2019/9/28
+photo.32.link: https://www.instagram.com/minatomirai215/
+photo.32.tags: climb, portrait, smile
+photo.33: ig://B2xSoqchbew/m
+photo.33.author: ssc6105
+photo.33.commitdate: 2019/9/28
+photo.33.link: https://www.instagram.com/ssc6105/
+photo.33.tags: laying down, sleeping
+photo.34: ig://B22xyTuhSaD/m
+photo.34.author: minatomirai215
+photo.34.commitdate: 2019/9/28
+photo.34.link: https://www.instagram.com/minatomirai215/
+photo.34.tags: laying down, paws, portrait, smile, tree
+photo.35: ig://B3D-rRShzvJ/m
+photo.35.author: miis_98
+photo.35.commitdate: 2019/10/13
+photo.35.link: https://www.instagram.com/miis_98/
+photo.35.tags: portrait, smile, tail
+photo.36: ig://B3FAHCPBXaj/m
+photo.36.author: pantasanzoo1
+photo.36.commitdate: 2019/10/13
+photo.36.link: https://www.instagram.com/pantasanzoo1/
+photo.36.tags: grooming, mofumofu
+photo.37: ig://B3PQ_irBr6u/m
+photo.37.author: mini_cochi
+photo.37.commitdate: 2020/2/11
+photo.37.link: https://www.instagram.com/mini_cochi/
+photo.37.tags: portrait, smile, tongue
+photo.38: ig://B3Vk-HrB-fa/m
+photo.38.author: mariten1119
+photo.38.commitdate: 2019/10/16
+photo.38.link: https://www.instagram.com/mariten1119/
+photo.38.tags: bamboo, paws
+photo.39: ig://B3gXHMEBbSu/m
+photo.39.author: minatomirai215
+photo.39.commitdate: 2019/10/16
+photo.39.link: https://www.instagram.com/minatomirai215/
+photo.39.tags: climb, paws, portrait, tongue
+photo.40: ig://B3weIwiB_kH/m
+photo.40.author: minatomirai215
+photo.40.commitdate: 2019/10/21
+photo.40.link: https://www.instagram.com/minatomirai215/
+photo.40.tags: climb, paws, smile
+photo.41: ig://B5hQg6ghER9/m
+photo.41.author: ssc6105
+photo.41.commitdate: 2019/12/5
+photo.41.link: https://www.instagram.com/ssc6105/
+photo.41.tags: portrait, spider, tail
+photo.42: ig://B5rxCrhhI3C/m
+photo.42.author: miis_98
+photo.42.commitdate: 2019/12/11
+photo.42.link: https://www.instagram.com/miis_98/
+photo.42.tags: portrait, whiskers
+photo.43: ig://B5umZZihrDz/m
+photo.43.author: ssc6105
+photo.43.commitdate: 2019/12/11
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.43.tags: paws, tree
+photo.44: ig://B6u9JZihNLR/m
+photo.44.author: minatomirai215
+photo.44.commitdate: 2020/1/3
+photo.44.link: https://www.instagram.com/minatomirai215/
+photo.44.tags: paws, portrait, smile
+photo.45: ig://B66kGUoBbdD/m
+photo.45.author: miis_98
+photo.45.commitdate: 2020/1/9
+photo.45.link: https://www.instagram.com/miis_98/
+photo.45.tags: portrait
+photo.46: ig://B7Ll_fzBnBR/m
+photo.46.author: grskus_tk
+photo.46.commitdate: 2020/1/14
+photo.46.link: https://www.instagram.com/grskus_tk/
+photo.46.tags: paws, portrait, toys
+photo.47: ig://B7NmRL2BMWx/m
+photo.47.author: grskus_tk
+photo.47.commitdate: 2020/1/25
+photo.47.link: https://www.instagram.com/grskus_tk/
+photo.47.tags: paws, portrait, toys
+photo.48: ig://B8KQ5QwBII0/m
+photo.48.author: ssc6105
+photo.48.commitdate: 2020/2/13
+photo.48.link: https://www.instagram.com/ssc6105/
+photo.48.tags: bamboo, bite, tongue
+photo.49: ig://B8iRu7wBT-6/m
+photo.49.author: ssc6105
+photo.49.commitdate: 2020/2/19
+photo.49.link: https://www.instagram.com/ssc6105/
+photo.49.tags: laying down, sleeping, tail
+photo.50: ig://B8p0L9tBTLs/m
+photo.50.author: kipekaila
+photo.50.commitdate: 2020/3/19
+photo.50.link: https://www.instagram.com/kipekaila/
+photo.50.tags: bamboo, paws, portrait, smile
+photo.51: ig://B9S_TQXBtHa/m
+photo.51.author: ssc6105
+photo.51.commitdate: 2020/3/9
+photo.51.link: https://www.instagram.com/ssc6105/
+photo.51.tags: bamboo, paws, peek
+photo.52: ig://B-CBUOuh0v6/m
+photo.52.author: _sah_ax7
+photo.52.commitdate: 2020/3/22
+photo.52.link: https://www.instagram.com/_sah_ax7/
+photo.52.tags: apple time, paws, mofumofu
+photo.53: ig://B_O0x62n3-h/m
+photo.53.author: eos1089
+photo.53.commitdate: 2020/6/25
+photo.53.link: https://www.instagram.com/eos1089/
+photo.53.tags: paws, tongue, tree
+photo.54: ig://CAsZghxhbwy/m
+photo.54.author: miis_98
+photo.54.commitdate: 2020/6/25
+photo.54.link: https://www.instagram.com/miis_98/
+photo.54.tags: paws, portrait, whiskers
+photo.55: ig://CA-ZPNYp1NN/m
+photo.55.author: miis_98
+photo.55.commitdate: 2020/6/25
+photo.55.link: https://www.instagram.com/miis_98/
+photo.55.tags: laying down, paws, tree, yawn
+photo.56: ig://CBLYppFABs8/m
+photo.56.author: miis_98
+photo.56.commitdate: 2020/6/25
+photo.56.link: https://www.instagram.com/miis_98/
+photo.56.tags: laying down, portrait, techitechi, tree, videolink
+photo.57: ig://CBM5OZnhLOP/m
+photo.57.author: minatomirai215
+photo.57.commitdate: 2020/6/25
+photo.57.link: https://www.instagram.com/minatomirai215/
+photo.57.tags: paws, portrait, spider, tail
+photo.58: ig://CBeJ86whl8k/m
+photo.58.author: ssc6105
+photo.58.commitdate: 2020/6/25
+photo.58.link: https://www.instagram.com/ssc6105/
+photo.58.tags: laying down, mofumofu
+photo.59: ig://CBfN2yMhBRz/m
+photo.59.author: eos1089
+photo.59.commitdate: 2020/6/25
+photo.59.link: https://www.instagram.com/eos1089/
+photo.59.tags: mofumofu, paws, portrait, tree
+photo.60: ig://CBgApeVhZ-f/m
+photo.60.author: minatomirai215
+photo.60.commitdate: 2020/6/25
+photo.60.link: https://www.instagram.com/minatomirai215/
+photo.60.tags: paws, portrait, smile, tree
+photo.61: ig://CBwPFW1hxn2/m
+photo.61.author: miis_98
+photo.61.commitdate: 2020/8/11
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: mofumofu, portrait, spider, tail
+photo.62: ig://CDV0n45hrEv/m
+photo.62.author: pink.b22
+photo.62.commitdate: 2020/8/11
+photo.62.link: https://www.instagram.com/pink.b22/
+photo.62.tags: bamboo, mofumofu, paws, portrait, smile, wink
+photo.63: ig://CDZBqcBhl5u/m
+photo.63.author: miis_98
+photo.63.commitdate: 2020/8/6
+photo.63.link: https://www.instagram.com/miis_98/
+photo.63.tags: bamboo, mofumofu, portrait, tongue, wet
+photo.64: ig://CDddowzBJ4-/m
+photo.64.author: pink.b22
+photo.64.commitdate: 2020/8/6
+photo.64.link: https://www.instagram.com/pink.b22/
+photo.64.tags: grooming, mofumofu, paws
+photo.65: ig://CDgrzPbhLFx/m
+photo.65.author: miis_98
+photo.65.commitdate: 2020/8/11
+photo.65.link: https://www.instagram.com/miis_98/
+photo.65.tags: mofumofu, laying down, portrait, tail
+photo.66: ig://CDqYPPlhkrC/m
+photo.66.author: pink.b22
+photo.66.commitdate: 2020/8/22
+photo.66.link: https://www.instagram.com/pink.b22/
+photo.66.tags: bamboo, mofumofu, paws, portrait
+photo.67: ig://CFWy1cmh6lp/m
+photo.67.author: miis_98
+photo.67.commitdate: 2020/9/28
+photo.67.link: https://www.instagram.com/miis_98/
+photo.67.tags: bamboo, door, portrait
+photo.68: ig://CFYp5EwhdBf/m
+photo.68.author: kiarino51
+photo.68.commitdate: 2022/12/3
+photo.68.link: https://www.instagram.com/kiarino50/
+photo.68.tags: climb, close-up, mofumofu, paws, portrait, sample, smile, techitechi, tree
+photo.69: ig://CFeYIaJBhYm/m
+photo.69.author: ssc6105
+photo.69.commitdate: 2020/9/28
+photo.69.link: https://www.instagram.com/ssc6105/
+photo.69.tags: mofumofu, paws, playing
+photo.70: ig://CFrzx5TBeTN/m
+photo.70.author: miis_98
+photo.70.commitdate: 2020/10/2
+photo.70.link: https://www.instagram.com/miis_98/
+photo.70.tags: climb, paws, smile
+photo.71: ig://CGD2KiyhsaU/m
+photo.71.author: ck.chie
+photo.71.commitdate: 2021/8/30
+photo.71.link: https://www.instagram.com/ck.chie/
+photo.71.tags: mofumofu, portrait, whiskers
+photo.72: ig://CGmgum3BCrR/m
+photo.72.author: ssc6105
+photo.72.commitdate: 2021/8/14
+photo.72.link: https://www.instagram.com/ssc6105/
+photo.72.tags: bamboo, smile, whiskers
+photo.73: ig://CG1jNRMB57U/m
+photo.73.author: grskus_tk
+photo.73.commitdate: 2021/8/14
+photo.73.link: https://www.instagram.com/grskus_tk/
+photo.73.tags: blink, itchy, paws, tail
+photo.74: ig://CHbV1p3hGeu/m
+photo.74.author: kotume4935
+photo.74.commitdate: 2021/2/28
+photo.74.link: https://www.instagram.com/kotume4935/
+photo.74.tags: laying down, portrait, sleeping, tail
+photo.75: ig://CHbW8CMh426/m
+photo.75.author: pink.b22
+photo.75.commitdate: 2020/11/21
+photo.75.link: https://www.instagram.com/pink.b22/
+photo.75.tags: laying down, sleeping, tail
+photo.76: ig://CJ_9W18h64k/m
+photo.76.author: ssc6105
+photo.76.commitdate: 2021/1/16
+photo.76.link: https://www.instagram.com/ssc6105/
+photo.76.tags: mofumofu, paws, tail
+photo.77: ig://CKlkCDTBFoN/m
+photo.77.author: miis_98
+photo.77.commitdate: 2021/1/28
+photo.77.link: https://www.instagram.com/miis_98/
+photo.77.tags: mofumofu, paws, portrait, whiskers
+photo.78: ig://CKxZqwph7vd/m
+photo.78.author: minatomirai215
+photo.78.commitdate: 2022/2/20
+photo.78.link: https://www.instagram.com/minatomirai215/
+photo.78.tags: climb, paws, sample, standing
+photo.79: ig://CLvhtfsBDTT/m
+photo.79.author: pantasanzoo1
+photo.79.commitdate: 2021/6/29
+photo.79.link: https://www.instagram.com/pantasanzoo1/
+photo.79.tags: mofumofu, paws, peek, spider
+photo.80: ig://COtWAgThgv5/m
+photo.80.author: miis_98
+photo.80.commitdate: 2021/6/15
+photo.80.link: https://www.instagram.com/miis_98/
+photo.80.tags: lips, paws, portrait
+photo.81: ig://CPLQrbCh1hP/m
+photo.81.author: minatomirai215
+photo.81.commitdate: 2021/6/19
+photo.81.link: https://www.instagram.com/minatomirai215/
+photo.81.tags: mofumofu, portrait, techitechi
+photo.82: ig://CPuduRmhV1F/m
+photo.82.author: miis_98
+photo.82.commitdate: 2021/6/20
+photo.82.link: https://www.instagram.com/miis_98/
+photo.82.tags: mofumofu, paws, portrait
+photo.83: ig://CP4sb0ghnPy/m
+photo.83.author: miis_98
+photo.83.commitdate: 2021/6/19
+photo.83.link: https://www.instagram.com/miis_98/
+photo.83.tags: mofumofu, paws, portrait, spider, tail
+photo.84: ig://CQLnPQShK_q/m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2021/6/18
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: lips, mofumofu, portrait
+photo.85: ig://CRdoS2JBi58/m
+photo.85.author: ssc6105
+photo.85.commitdate: 2021/8/2
+photo.85.link: https://www.instagram.com/ssc6105/
+photo.85.tags: paws, standing, toys
+photo.86: ig://CUvAcDdhozv/m
+photo.86.author: eos1089
+photo.86.commitdate: 2021/10/17
+photo.86.link: https://www.instagram.com/eos1089/
+photo.86.tags: portrait, spider
+photo.87: ig://CW7arjIBYsJ/m
+photo.87.author: miis_98
+photo.87.commitdate: 2022/1/9
+photo.87.link: https://www.instagram.com/miis_98/
+photo.87.tags: bamboo, mofumofu, portrait, smile, tongue, whiskers
+photo.88: ig://CYETwnSLAtz/m
+photo.88.author: mini_cochi
+photo.88.commitdate: 2022/1/6
+photo.88.link: https://www.instagram.com/mini_cochi/
+photo.88.tags: bamboo, portrait, tongue
+photo.89: ig://CYO2RiXPR9z/m
+photo.89.author: minatomirai215
+photo.89.commitdate: 2022/1/14
+photo.89.link: https://www.instagram.com/minatomirai215/
+photo.89.tags: portrait, surprise, whiskers
+photo.90: ig://CZtlBjlvyfG/m
+photo.90.author: miis_98
+photo.90.commitdate: 2022/2/10
+photo.90.link: https://www.instagram.com/miis_98/
+photo.90.tags: bamboo, bite, peek, portrait, sample, smile, whiskers
+photo.91: ig://CaeFOQ1vxlH/m
+photo.91.author: pantasanzoo1
+photo.91.commitdate: 2022/6/11
+photo.91.link: https://www.instagram.com/pantasanzoo1/
+photo.91.tags: climb, paws, spider, tail
+photo.92: ig://CeVy0uHPwsB/m
+photo.92.author: ssc6105
+photo.92.commitdate: 2022/7/11
+photo.92.link: https://www.instagram.com/ssc6105/
+photo.92.tags: laying down, mofumofu, portrait, sample, sleeping
+photo.93: ig://Ce1S0o_vCvg/m
+photo.93.author: eos1089
+photo.93.commitdate: 2022/7/31
+photo.93.link: https://www.instagram.com/eos1089/
+photo.93.tags: bamboo, paws, portrait, sample, techitechi, whiskers
+photo.94: ig://Ce3fahLPQtZ/m
+photo.94.author: minatomirai215
+photo.94.commitdate: 2022/8/30
+photo.94.link: https://www.instagram.com/minatomirai215/
+photo.94.tags: mofumofu, portrait, sample, whiskers
+photo.95: ig://Cf-FA7kBJk6/m
+photo.95.author: miis_98
+photo.95.commitdate: 2022/7/31
+photo.95.link: https://www.instagram.com/miis_98/
+photo.95.tags: bamboo, mofumofu, portrait, sample, tongue
+photo.96: ig://CgAwOgshlLR/m
+photo.96.author: miis_98
+photo.96.commitdate: 2022/7/31
+photo.96.link: https://www.instagram.com/miis_98/
+photo.96.tags: climb, lips, paws, sample, whiskers
+species: 2
+studbook.id: 15128
+zoo: 4

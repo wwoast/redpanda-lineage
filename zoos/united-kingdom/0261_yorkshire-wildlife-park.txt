@@ -1,0 +1,17 @@
+[zoo]
+_id: 261
+commitdate: 2020/8/13
+en.address: Yorkshire Wildlife Park, Branton, Doncaster DN4 6TB, United Kingdom
+en.location: Doncaster, United Kingdom
+en.name: Yorkshire Wildlife Park
+flag: UK
+language.order: en
+latitude: 53.5042338
+longitude: -1.0442081
+map: https://goo.gl/maps/XVyyk2M33zTvxApK7
+photo.1: ig://CDrD5YrFmBS/m
+photo.1.author: yorkshirewildlifepark
+photo.1.commitdate: 2020/8/13
+photo.1.link: https://www.instagram.com/yorkshirewildlifepark/
+photo.1.tags: profile
+website: https://www.yorkshirewildlifepark.com/

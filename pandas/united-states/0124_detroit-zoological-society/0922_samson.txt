@@ -1,0 +1,18 @@
+[panda]
+_id: 922
+birthday: 2012/6/22
+birthplace: 124
+children: none
+commitdate: 2019/7/2
+death: 2012/8/26
+en.name: Samson
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サムソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 522
+species: 1
+zoo: 124

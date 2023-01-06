@@ -1,0 +1,19 @@
+[zoo]
+_id: 8
+commitdate: 2018/6/10
+en.address: 280番地 Minamotocho, Wakaba Ward, Chiba, Chiba Prefecture 264-0037, Japan
+en.location: Chiba Prefecture, Japan
+en.name: Chiba Zoological Park
+flag: Japan
+jp.address: 〒264-0037 千葉県千葉市若葉区源町280番地
+jp.location: 千葉県 関東地方
+jp.name: 千葉市動物公園
+language.order: jp, en
+latitude: 35.6449037
+longitude: 140.1250899
+map: https://goo.gl/maps/14c7BwdSTkr
+photo.1: ig://Bmi34XCBmdw/m
+photo.1.author: miinzel
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/miinzel/
+website: https://www.city.chiba.jp/zoo/

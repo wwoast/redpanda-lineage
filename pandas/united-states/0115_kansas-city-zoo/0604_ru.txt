@@ -1,0 +1,19 @@
+[panda]
+_id: 604
+birthday: 2013/6/26
+birthplace: 115
+children: none
+commitdate: 2019/3/19
+death: 2014/1/12
+en.name: Ru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 638
+species: 1
+studbook.id: 1345
+zoo: 115

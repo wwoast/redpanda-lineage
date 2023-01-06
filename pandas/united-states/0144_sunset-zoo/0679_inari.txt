@@ -1,0 +1,21 @@
+[panda]
+_id: 679
+birthday: 2009/6/13
+birthplace: 154
+children: none
+commitdate: 2019/3/24
+death: 2012/2/17
+en.name: Inari
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: イナリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 678
+location.1: 154, 2009/6/13
+location.2: 144, 2010/10/27
+species: 1
+studbook.id: 0926
+zoo: 144

@@ -1,0 +1,53 @@
+[panda]
+_id: 925
+birthday: 2003/6/24
+birthplace: 154
+children: 695, 696, 789, 790
+commitdate: 2019/7/2
+death: 2019/6/9
+en.name: Amberfire
+en.nicknames: none
+en.othernames: Amber
+gender: f
+jp.name: アンバーファイヤー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 154, 2003/6/24
+location.2: 109, 2004/11/12
+location.3: 116, 2006/4/5
+location.4: 123, 2007/3/5
+location.5: 163, 2009/9/18
+photo.1: ig://Bisk7LfHFUQ/m
+photo.1.author: emmalemma19
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/emmalemma19/
+photo.1.tags: tail
+photo.2: ig://Bnvs6kNnImq/m
+photo.2.author: mauravarisco
+photo.2.commitdate: 2019/7/15
+photo.2.link: https://www.instagram.com/mauravarisco/
+photo.2.tags: smile, tongue
+photo.3: ig://BqIszQfluMP/m
+photo.3.author: yanliang_24
+photo.3.commitdate: 2022/10/24
+photo.3.link: https://www.instagram.com/yanliang_24/
+photo.3.tags: apple time, close-up, keeper, portrait, whiskers
+photo.4: ig://ByjZf7aB44G/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/7/7
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: profile
+photo.5: ig://CGzeXmrgmaN/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/11/6
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: tail, white face
+photo.6: ig://CipX23Mso5d/m
+photo.6.author: rossifari
+photo.6.commitdate: 2022/10/24
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: apple time, portrait, sample, white face
+species: 1
+zoo: 163

@@ -1,0 +1,36 @@
+[panda]
+_id: 396
+birthday: 1994/7/11
+birthplace: 15
+children: 569, 571, 397, 398, 339, 570
+commitdate: 2018/11/22
+death: 2018/1/2
+en.name: Bau-Bau
+en.nicknames: none
+en.othernames: Bao-Bao
+gender: m
+jp.name: 宝宝
+jp.nicknames: none
+jp.othernames: バウバウ
+language.order: jp, en
+litter: unknown
+location.1: 15, 1994/7/11
+location.2: 42, 1995/9/27
+photo.1: https://www.codaworry.com/images/rpf/akiyoshidai-bau-bau.jpg
+photo.1.author: akiyoshidaisafariland
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/akiyoshidaisafariland/
+photo.1.tags: old, profile
+photo.2: ig://BdLrNurHwCs/m
+photo.2.author: kotata_513
+photo.2.commitdate: 2019/6/23
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: laying down, mofumofu
+photo.3: ig://BZGntFIALR9/m
+photo.3.author: mifko55
+photo.3.commitdate: 2020/4/12
+photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: muzzle, old, paws, portrait
+species: 2
+studbook.id: 9493
+zoo: 42

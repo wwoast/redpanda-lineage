@@ -1,0 +1,22 @@
+[panda]
+_id: 350
+birthday: 2002/6/14
+birthplace: 59
+children: none
+commitdate: 2018/10/14
+death: 2018/1/1
+en.name: Salt
+en.nicknames: none
+en.othernames: Soruto
+gender: m
+jp.name: ソルト
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 610
+species: 1
+studbook.id: 0298
+video.1: https://youtu.be/O-KOC60WYOw
+video.1.author: ガメ
+video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
+zoo: 59

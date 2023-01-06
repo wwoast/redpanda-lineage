@@ -1,0 +1,21 @@
+[zoo]
+_id: 134
+commitdate: 2019/2/24
+en.address: 3414 W St, Eureka, CA 95503
+en.location: Eureka, California, USA
+en.name: Sequoia Park Zoo
+flag: USA
+language.order: en
+latitude: 40.7776108
+longitude: -124.184071
+map: https://goo.gl/maps/ryf6GPWAwL12
+photo.1: ig://8YprTfuW2z/m
+photo.1.author: sequoiaparkzoo
+photo.1.commitdate: 2019/6/19
+photo.1.link: https://www.instagram.com/sequoiaparkzoo/
+photo.2: ig://-hkdfFOW0h/m
+photo.2.author: sequoiaparkzoo
+photo.2.commitdate: 2019/6/19
+photo.2.link: https://www.instagram.com/sequoiaparkzoo/
+photo.2.tags: profile
+website: http://www.sequoiaparkzoo.net/

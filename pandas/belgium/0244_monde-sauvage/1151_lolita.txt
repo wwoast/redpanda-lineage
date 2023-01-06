@@ -1,0 +1,50 @@
+[panda]
+_id: 1151
+birthday: 2010/6/21
+birthplace: 230
+children: unknown
+commitdate: 2020/5/3
+de.name: Lolita
+de.nicknames: none
+de.othernames: none
+en.name: Lolita
+en.nicknames: none
+en.othernames: none
+fr.name: Lolita
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: ロリータ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, de, en, jp
+litter: 1152
+location.1: 230, 2010/6/21
+location.2: 234, 2011/10/12
+location.3: 244, 2015/3/20
+photo.1: ig://B4s3viynMvA/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2020/5/3
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: portrait, profile, whiskers
+photo.2: ig://B9NFv5NnajS/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2020/5/3
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: peek, snow, tail
+photo.3: ig://B-l-sH_H5q2/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2020/5/3
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.4: ig://CAi16qZAVGa/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2020/5/23
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: muzzle, portrait, smile
+photo.5: ig://CETWA-fgcez/m
+photo.5.author: nathalie.elliott
+photo.5.commitdate: 2020/9/7
+photo.5.link: https://www.instagram.com/nathalie.elliott/
+photo.5.tags: snow
+species: 1
+zoo: 244

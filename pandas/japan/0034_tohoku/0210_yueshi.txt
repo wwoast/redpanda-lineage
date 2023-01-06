@@ -1,0 +1,19 @@
+[panda]
+_id: 210
+birthday: 1999/7/8
+birthplace: 34
+children: 354, 209, 355, 356, 206
+commitdate: 2018/7/26
+death: 2014/8/27
+en.name: Yueshi
+en.nicknames: none
+en.othernames: Yeosy, Yoshi
+gender: f
+jp.name: 月食
+jp.nicknames: none
+jp.othernames: ユエシー
+language.order: jp, en
+litter: 365
+species: 2
+studbook.id: 9989
+zoo: 34

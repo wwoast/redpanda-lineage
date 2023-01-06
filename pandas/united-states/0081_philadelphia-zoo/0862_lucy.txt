@@ -1,0 +1,48 @@
+[panda]
+_id: 862
+birthday: 2018/6/25
+birthplace: 177
+children: none
+commitdate: 2019/6/9
+en.name: Lucy
+en.nicknames: none
+en.oldnames: Roji, Rosie
+en.othernames: none
+gender: f
+jp.name: ルシー
+jp.nicknames: none
+jp.oldnames: ロジ
+jp.othernames: none
+language.order: en, jp
+litter: 861
+location.1: 177, 2018/6/25
+location.2: 81, 2021/8/1
+photo.1: ig://CTFOnhYsCLp/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2022/5/5
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: close-up, videolink
+photo.2: ig://CW1fnAuswuE/m
+photo.2.author: philadelphiazoo
+photo.2.commitdate: 2022/5/1
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+photo.2.tags: bamboo, close-up, videolink, whiskers
+photo.3: ig://CYH0Aqvp0IG/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2022/1/6
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: laying down, white face
+photo.4: ig://CbXqnsVMfGl/m
+photo.4.author: philadelphiazoo
+photo.4.commitdate: 2022/5/1
+photo.4.link: https://www.instagram.com/philadelphiazoo/
+photo.4.tags: bamboo, paws, smile, whiskers, white face
+photo.5: ig://Cc8KUuCMTPh/m
+photo.5.author: philadelphiazoo
+photo.5.commitdate: 2022/5/1
+photo.5.link: https://www.instagram.com/philadelphiazoo/
+photo.5.tags: close-up, videolink, whiskers
+species: 1
+studbook.id: 1820
+uncertainty: location.2 exact date (first photo is august)
+zoo: 81

@@ -1,0 +1,30 @@
+[panda]
+_id: 489
+birthday: 2017/6/16
+birthplace: 90
+children: none
+commitdate: 2018/12/12
+en.name: Kiaria
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キアリア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 488
+location.1: 90, 2017/6/16
+location.2: 130, 2018/7/19
+photo.1: ig://B2r7F4HpkrI/m
+photo.1.author: thetoledozoo
+photo.1.commitdate: 2019/12/1
+photo.1.link: https://www.instagram.com/thetoledozoo/
+photo.1.tags: upside-down
+photo.2: ig://B4F1Ofllhos/m
+photo.2.author: sethgeib
+photo.2.commitdate: 2019/12/23
+photo.2.link: https://www.instagram.com/sethgeib/
+photo.2.tags: paws, portrait, smile, tail
+species: 2
+studbook.id: 1711
+zoo: 130

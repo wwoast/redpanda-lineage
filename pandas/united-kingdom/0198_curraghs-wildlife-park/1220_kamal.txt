@@ -1,0 +1,18 @@
+[panda]
+_id: 1220
+birthday: 2020/7/1
+birthplace: 198
+children: none
+commitdate: 2020/9/7
+death: 2020/11/06
+en.name: Kamal
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カマル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1219
+species: 1
+zoo: 198

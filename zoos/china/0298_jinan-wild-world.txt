@@ -1,0 +1,19 @@
+[zoo]
+_id: 298
+cn.address: 山东省济南市章丘区
+cn.location: 济南市山东省中国
+cn.name: 济南跑马岭野生动物世界
+commitdate: 2021/12/2
+en.address: JF85+4XC, Zhangqiu District, Jinan, Shandong, China
+en.location: Jinan, Shangdong, China
+en.name: Jinan Wild World
+flag: China
+jp.address: 山东省济南市章丘区
+jp.location: 济南市山东省中国
+jp.name: Jinan Wild World
+language.order: cn, jp, en
+latitude: 36.5301511
+longitude: 117.191337
+map: https://goo.gl/maps/cotZm595MgTzTAK59
+uncertainty: exact location (google maps)
+website: unknown

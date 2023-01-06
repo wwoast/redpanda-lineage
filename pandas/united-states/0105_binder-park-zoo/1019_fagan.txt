@@ -1,0 +1,23 @@
+[panda]
+_id: 1019
+birthday: 2002/6/20
+birthplace: 95
+children: 637, 874, 913, 1020, 841, 842, 629
+commitdate: 2019/11/6
+death: 2011/5/11
+en.name: Fagan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ファガン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 95, 2002/6/20
+location.2: 154, 2002/10/24
+location.3: unknown, 2003/12/9
+location.4: 114, 2006/1/19
+location.5: 105, 2008/12/9
+species: 1
+zoo: 105

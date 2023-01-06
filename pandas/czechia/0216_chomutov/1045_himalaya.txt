@@ -1,0 +1,104 @@
+[panda]
+_id: 1045
+birthday: 2013/6/27
+birthplace: 176
+children: unknown
+commitdate: 2019/11/10
+en.name: Himalaya
+en.nicknames: none
+en.othernames: Himalay
+gender: f
+jp.name: ヒマラヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 176, 2013/6/27
+location.2: 216, 2014/9/17
+photo.1: ig://BSVayPtBV-k/m
+photo.1.author: helena.sotis
+photo.1.commitdate: 2019/11/10
+photo.1.link: https://www.instagram.com/helena.sotis/
+photo.1.tags: bamboo, tree
+photo.2: ig://BUxS5boh10q/m
+photo.2.author: dagasam
+photo.2.commitdate: 2019/11/10
+photo.2.link: https://www.instagram.com/dagasam/
+photo.2.tags: lips, techitechi, tree
+photo.3: ig://BbC3rpwBv8H/m
+photo.3.author: tomas_photographer
+photo.3.commitdate: 2019/11/10
+photo.3.link: https://www.instagram.com/tomas_photographer/
+photo.3.tags: mofumofu, tail, tree
+photo.4: ig://Blp0ecRloI3/m
+photo.4.author: chomutov.cz
+photo.4.commitdate: 2019/11/10
+photo.4.link: https://www.instagram.com/chomutov.cz/
+photo.4.tags: mofumofu, paws, tree
+photo.5: ig://BngiySEhTmU/m
+photo.5.author: destination.czech
+photo.5.commitdate: 2019/11/10
+photo.5.link: https://www.instagram.com/destination.czech/
+photo.5.tags: bamboo, dish, tree
+photo.6: ig://BoofO3YFkFN/m
+photo.6.author: chomutov.cz
+photo.6.commitdate: 2019/11/10
+photo.6.link: https://www.instagram.com/chomutov.cz/
+photo.6.tags: mofumofu, portrait, profile, tree
+photo.7: ig://BvoP4kNAkTm/m
+photo.7.author: chomutov.cz
+photo.7.commitdate: 2019/11/10
+photo.7.link: https://www.instagram.com/zooparkchomutov/
+photo.7.tags: bamboo, paws, portrait, tree
+photo.8: ig://BwZ3igrholM/m
+photo.8.author: robert_cerny_photographer
+photo.8.commitdate: 2019/11/10
+photo.8.link: https://www.instagram.com/robert_cerny_photographer/
+photo.8.tags: bamboo, lips, paws, portrait, tongue, white face
+photo.9: ig://BwpR-VUhUhV/m
+photo.9.author: robert_cerny_photographer
+photo.9.commitdate: 2019/11/10
+photo.9.link: https://www.instagram.com/robert_cerny_photographer/
+photo.9.tags: bamboo, smile, tongue, white face
+photo.10: ig://Byc_jDIAUtA/m
+photo.10.author: robert_cerny_photographer
+photo.10.commitdate: 2019/11/10
+photo.10.link: https://www.instagram.com/robert_cerny_photographer/
+photo.10.tags: bridge, tree
+photo.11: ig://Byv2-ooll3E/m
+photo.11.author: jelikas3
+photo.11.commitdate: 2019/11/10
+photo.11.link: https://www.instagram.com/jelikas3/
+photo.11.tags: paws, smile
+photo.12: ig://Byv2ajbFcm5/m
+photo.12.author: jelikas3
+photo.12.commitdate: 2019/11/10
+photo.12.link: https://www.instagram.com/jelikas3/
+photo.12.tags: white face
+photo.13: ig://B0sKdmEF1m9/m
+photo.13.author: _michaelad_
+photo.13.commitdate: 2019/11/10
+photo.13.link: https://www.instagram.com/_michaelad_/
+photo.13.tags: bamboo, laying down
+photo.14: ig://B06XGwrgIhS/m
+photo.14.author: zooparkchomutov
+photo.14.commitdate: 2019/11/10
+photo.14.link: https://www.instagram.com/zooparkchomutov/
+photo.14.tags: bamboo, lips, tree, white face
+photo.15: ig://B11i-TUl2Dn/m
+photo.15.author: jindrich_pavelka
+photo.15.commitdate: 2019/11/10
+photo.15.link: https://www.instagram.com/jindrich_pavelka/
+photo.15.tags: ear, lips, smile
+photo.16: ig://B2mLLyVjPfE/m
+photo.16.author: zooparkchomutov
+photo.16.commitdate: 2019/11/10
+photo.16.link: https://www.instagram.com/zooparkchomutov/
+photo.16.tags: peek
+photo.17: ig://B2qnsT4Dru8/m
+photo.17.author: zooparkchomutov
+photo.17.commitdate: 2019/11/10
+photo.17.link: https://www.instagram.com/zooparkchomutov/
+photo.17.tags: bridge, tree
+species: 1
+zoo: 216

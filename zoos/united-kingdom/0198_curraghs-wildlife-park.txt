@@ -1,0 +1,29 @@
+[zoo]
+_id: 198
+commitdate: 2019/7/15
+en.address: Main Road, Ballaugh IM7 5EA, Isle of Man
+en.location: Isle of Man, UK
+en.name: Curraghs Wildlife Park
+flag: Isle of Man
+language.order: en
+latitude: 54.3549219
+longitude: -4.5140135
+map: https://goo.gl/maps/PBz1vYfhq8yFiuu4A
+photo.1: ig://BJ84sDAhXWC/m
+photo.1.author: happyplanner13
+photo.1.commitdate: 2020/1/14
+photo.1.link: https://www.instagram.com/happyplanner13/
+photo.2: ig://BlaTXFLBuOJ/m
+photo.2.author: curraghswildlifepark
+photo.2.commitdate: 2020/1/14
+photo.2.link: https://www.instagram.com/curraghswildlifepark/
+photo.2.tags: profile
+photo.3: ig://B6bZrl5JZ5S/m
+photo.3.author: mark_warwicker
+photo.3.commitdate: 2020/1/14
+photo.3.link: https://www.instagram.com/mark_warwicker/
+photo.4: ig://B-CvIAbJ52V/m
+photo.4.author: curraghswildlifepark
+photo.4.commitdate: 2020/9/7
+photo.4.link: https://www.instagram.com/curraghswildlifepark/
+website: http://www.curraghswildlifepark.im/

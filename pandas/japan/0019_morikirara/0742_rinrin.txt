@@ -1,0 +1,21 @@
+[panda]
+_id: 742
+birthday: 1993/7/17
+birthplace: 40
+children: none
+commitdate: 2019/3/27
+death: 2012/10/23
+en.name: Rin-Rin
+en.nicknames: none
+en.othernames: Rinrin
+gender: f
+jp.name: リンリン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 741
+location.1: 40, 1993/7/17
+location.2: 19, 1994/11/17
+species: 2
+studbook.id: 93109
+zoo: 19

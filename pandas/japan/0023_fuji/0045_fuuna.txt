@@ -1,0 +1,362 @@
+[panda]
+_id: 45
+birthday: 2012/7/3
+birthplace: 8
+children: none
+commitdate: 2018/8/12
+en.name: Fuuna
+en.nicknames: Greens
+en.othernames: Fūna
+gender: f
+jp.name: 風菜
+jp.nicknames: none
+jp.othernames: フウナ
+language.order: jp, en
+litter: 37
+location.1: 8, 2012/7/3
+location.2: 23, 2014/6/3
+photo.1: ig://BA0gZJasvzJ/m
+photo.1.author: fuji_safari
+photo.1.commitdate: 2020/1/18
+photo.1.link: https://www.instagram.com/fuji_safari/
+photo.1.tags: paws, portrait, snow
+photo.2: ig://BBPEzcSMvyQ/m
+photo.2.author: fuji_safari
+photo.2.commitdate: 2020/1/18
+photo.2.link: https://www.instagram.com/fuji_safari/
+photo.2.tags: laying down, portrait, sleeping, tree
+photo.3: ig://BDLFcnGMv-k/m
+photo.3.author: fuji_safari
+photo.3.commitdate: 2020/1/18
+photo.3.link: https://www.instagram.com/fuji_safari/
+photo.3.tags: portrait, tree
+photo.4: ig://BKdfCIdA170/m
+photo.4.author: fuji_safari
+photo.4.commitdate: 2020/1/18
+photo.4.link: https://www.instagram.com/fuji_safari/
+photo.4.tags: peek, portrait, tail, tree
+photo.5: ig://BKw1nJGgm8N/m
+photo.5.author: fuji_safari
+photo.5.commitdate: 2020/1/18
+photo.5.link: https://www.instagram.com/fuji_safari/
+photo.5.tags: portrait
+photo.6: ig://BNtZIyFguA2/m
+photo.6.author: fuji_safari
+photo.6.commitdate: 2020/1/18
+photo.6.link: https://www.instagram.com/fuji_safari/
+photo.6.tags: portrait, tree, whiskers
+photo.7: ig://BOCibU4gHiP/m
+photo.7.author: fuji_safari
+photo.7.commitdate: 2020/1/18
+photo.7.link: https://www.instagram.com/fuji_safari/
+photo.7.tags: portrait, tree, whiskers
+photo.8: ig://BPyjwkpglOD/m
+photo.8.author: fuji_safari
+photo.8.commitdate: 2020/1/18
+photo.8.link: https://www.instagram.com/fuji_safari/
+photo.8.tags: home, portrait, tree
+photo.9: ig://BQ6wTGPgtR9/m
+photo.9.author: fuji_safari
+photo.9.commitdate: 2020/1/18
+photo.9.link: https://www.instagram.com/fuji_safari/
+photo.9.tags: portrait
+photo.10: ig://BT2wLK0AOVK/m
+photo.10.author: fuji_safari
+photo.10.commitdate: 2020/1/18
+photo.10.link: https://www.instagram.com/fuji_safari/
+photo.10.tags: bamboo, bite, paws, portrait, standing
+photo.11: ig://BV4Fa1-HV6O/m
+photo.11.author: fuji_safari
+photo.11.commitdate: 2020/1/18
+photo.11.link: https://www.instagram.com/fuji_safari/
+photo.11.tags: portrait, whiskers
+photo.12: ig://BXEgZZ7HqsK/m
+photo.12.author: fuji_safari
+photo.12.commitdate: 2020/1/18
+photo.12.link: https://www.instagram.com/fuji_safari/
+photo.12.tags: portrait, smile, whiskers
+photo.13: ig://BYIdE9dF8gZ/m
+photo.13.author: hanamaru_redpanda
+photo.13.commitdate: 2018/12/23
+photo.13.link: https://www.instagram.com/hanamaru_redpanda/
+photo.13.tags: profile, tree
+photo.14: ig://BZ4m8teBqpp/m
+photo.14.author: miis_98
+photo.14.commitdate: 2020/5/1
+photo.14.link: https://www.instagram.com/miis_98/
+photo.14.tags: portrait
+photo.15: ig://BatICQ_nAiZ/m
+photo.15.author: fuji_safari
+photo.15.commitdate: 2020/1/18
+photo.15.link: https://www.instagram.com/fuji_safari/
+photo.15.tags: air tasting, portrait, tongue, tree
+photo.16: ig://BbdgFmoDOcq/m
+photo.16.author: s.okano521
+photo.16.commitdate: 2018/10/7
+photo.16.link: https://www.instagram.com/s.okano521/
+photo.17: ig://BeH2NkDnPWt/m
+photo.17.author: fuji_safari
+photo.17.commitdate: 2020/1/18
+photo.17.link: https://www.instagram.com/fuji_safari/
+photo.17.tags: portrait, tree
+photo.18: ig://BeSzSi1Hemo/m
+photo.18.author: fuji_safari
+photo.18.commitdate: 2020/1/18
+photo.18.link: https://www.instagram.com/fuji_safari/
+photo.18.tags: laying down, paws, portrait, snow, tongue, upside-down
+photo.19: ig://Ber_r6-nlhX/m
+photo.19.author: fuji_safari
+photo.19.commitdate: 2018/10/14
+photo.19.link: https://www.instagram.com/fuji_safari/
+photo.19.tags: snow
+photo.20: ig://Be_nzNVhhss/m
+photo.20.author: miis_98
+photo.20.commitdate: 2020/5/1
+photo.20.link: https://www.instagram.com/miis_98/
+photo.20.tags: laying down, peek, portrait, tree
+photo.21: ig://BfEy7Q8BZpB/m
+photo.21.author: miis_98
+photo.21.commitdate: 2020/5/1
+photo.21.link: https://www.instagram.com/miis_98/
+photo.21.tags: itchy, paws, portrait
+photo.22: ig://Bft-03RBjg8/m
+photo.22.author: _rifa_p
+photo.22.commitdate: 2018/8/12
+photo.22.link: https://www.instagram.com/_rifa_p/
+photo.22.tags: apple time
+photo.23: ig://BfwlHmeBNuW/m
+photo.23.author: _rifa_p
+photo.23.commitdate: 2018/8/12
+photo.23.link: https://www.instagram.com/_rifa_p/
+photo.24: ig://Bf630QkBeBu/m
+photo.24.author: _rifa_p
+photo.24.commitdate: 2018/8/12
+photo.24.link: https://www.instagram.com/_rifa_p/
+photo.24.tags: tail
+photo.25: ig://BgAAojLhaYU/m
+photo.25.author: _rifa_p
+photo.25.commitdate: 2019/5/15
+photo.25.link: https://www.instagram.com/_rifa_p/
+photo.25.tags: home, paws
+photo.26: ig://BkZcXsolG_3/m
+photo.26.author: fuji_safari
+photo.26.commitdate: 2020/1/18
+photo.26.link: https://www.instagram.com/fuji_safari/
+photo.26.tags: portrait, tree
+photo.27: ig://Bkv4mX7lbow/m
+photo.27.author: _rifa_p
+photo.27.commitdate: 2018/7/22
+photo.27.link: https://www.instagram.com/_rifa_p/
+photo.27.tags: apple time, standing
+photo.28: ig://BmsZZ9KlpjL/m
+photo.28.author: fuji_safari
+photo.28.commitdate: 2018/10/14
+photo.28.link: https://www.instagram.com/fuji_safari/
+photo.28.tags: home, tree
+photo.29: ig://BnBGg3MF09v/m
+photo.29.author: fuji_safari
+photo.29.commitdate: 2018/10/14
+photo.29.link: https://www.instagram.com/fuji_safari/
+photo.29.tags: laying down
+photo.30: ig://BnvYJgklPmb/m
+photo.30.author: fuji_safari
+photo.30.commitdate: 2020/1/18
+photo.30.link: https://www.instagram.com/fuji_safari/
+photo.30.tags: portrait
+photo.31: ig://BoJKjjxggin/m
+photo.31.author: s.okano521
+photo.31.commitdate: 2018/10/7
+photo.31.link: https://www.instagram.com/s.okano521/
+photo.31.tags: bite
+photo.32: ig://Bqb-uxQF4uw/m
+photo.32.author: fuji_safari
+photo.32.commitdate: 2020/1/18
+photo.32.link: https://www.instagram.com/fuji_safari/
+photo.32.tags: peek, portrait, tree
+photo.33: ig://BrE9bCYF3pA/m
+photo.33.author: fuji_safari
+photo.33.commitdate: 2020/1/18
+photo.33.link: https://www.instagram.com/fuji_safari/
+photo.33.tags: portrait, tree
+photo.34: ig://BrUftBnlMAE/m
+photo.34.author: fuji_safari
+photo.34.commitdate: 2020/1/18
+photo.34.link: https://www.instagram.com/fuji_safari/
+photo.34.tags: bamboo, paws, portrait, smile
+photo.35: ig://BrlkpgClAe8/m
+photo.35.author: miis_98
+photo.35.commitdate: 2018/12/19
+photo.35.link: https://www.instagram.com/miis_98/
+photo.36: ig://Br7U1TTgniu/m
+photo.36.author: miis_98
+photo.36.commitdate: 2018/12/28
+photo.36.link: https://www.instagram.com/miis_98/
+photo.36.tags: portrait, standing
+photo.37: ig://BsCDd3eFSie/m
+photo.37.author: kipekaila
+photo.37.commitdate: 2018/12/30
+photo.37.link: https://www.instagram.com/kipekaila/
+photo.37.tags: portrait, tree
+photo.38: ig://BvTg0b3FaGz/m
+photo.38.author: fuji_safari
+photo.38.commitdate: 2020/1/18
+photo.38.link: https://www.instagram.com/fuji_safari/
+photo.38.tags: home, portrait, tree
+photo.39: ig://B30Voi5BChm/m
+photo.39.author: sasapan34
+photo.39.commitdate: 2019/10/20
+photo.39.link: https://www.instagram.com/sasapan34/
+photo.39.tags: smile, tongue
+photo.40: ig://B460etchTRy/m
+photo.40.author: fuji_safari
+photo.40.commitdate: 2020/1/14
+photo.40.link: https://www.instagram.com/fuji_safari/
+photo.40.tags: autumn, portrait, whiskers
+photo.41: ig://B5kAQDohxkP/m
+photo.41.author: fuji_safari
+photo.41.commitdate: 2020/1/14
+photo.41.link: https://www.instagram.com/fuji_safari/
+photo.41.tags: itchy, paws, portrait
+photo.42: ig://B54pLwEBfac/m
+photo.42.author: fuji_safari
+photo.42.commitdate: 2020/1/14
+photo.42.link: https://www.instagram.com/fuji_safari/
+photo.42.tags: portrait, tree
+photo.43: ig://B6PzBO-Bh91/m
+photo.43.author: fuji_safari
+photo.43.commitdate: 2020/1/19
+photo.43.link: https://www.instagram.com/fuji_safari/
+photo.43.tags: itchy, portrait, smile, tongue
+photo.44: ig://B6xKleVhjp3/m
+photo.44.author: fuji_safari
+photo.44.commitdate: 2020/1/14
+photo.44.link: https://www.instagram.com/fuji_safari/
+photo.44.tags: portrait, whiskers
+photo.45: ig://B-pCyEsh0O1/m
+photo.45.author: ssc6105
+photo.45.commitdate: 2020/4/6
+photo.45.link: https://www.instagram.com/ssc6105/
+photo.45.tags: paws, peek, tree
+photo.46: ig://B-tqvuYBPSu/m
+photo.46.author: fuji_safari
+photo.46.commitdate: 2020/5/19
+photo.46.link: https://www.instagram.com/fuji_safari/
+photo.46.tags: bamboo, portrait, tongue
+photo.47: ig://CANNZhlH6aW/m
+photo.47.author: kaoru_a358
+photo.47.commitdate: 2020/5/17
+photo.47.link: https://www.instagram.com/kaoru_a358/
+photo.47.tags: whiskers
+photo.48: ig://CBO5OJxB0Aw/m
+photo.48.author: _rifa_p
+photo.48.commitdate: 2020/6/13
+photo.48.link: https://www.instagram.com/_rifa_p/
+photo.48.tags: paws, praying, standing, tail
+photo.49: ig://CBz1SsJh1RC/m
+photo.49.author: fuji_safari
+photo.49.commitdate: 2020/8/3
+photo.49.link: https://www.instagram.com/fuji_safari/
+photo.49.tags: laying down, paws, portrait, tree
+photo.50: ig://CCLbUd5h711/m
+photo.50.author: ssc6105
+photo.50.commitdate: 2020/7/10
+photo.50.link: https://www.instagram.com/ssc6105/
+photo.50.tags: paws, tail, tree
+photo.51: ig://CFE8bWfh-YI/m
+photo.51.author: fetorus_mami
+photo.51.commitdate: 2020/12/12
+photo.51.link: https://www.instagram.com/fetorus_mami/
+photo.51.tags: grooming, laying down, paws, tail
+photo.52: ig://CGpFDtQhL0I/m
+photo.52.author: miis_98
+photo.52.commitdate: 2020/10/26
+photo.52.link: https://www.instagram.com/miis_98/
+photo.52.tags: grooming, paws, portrait, tail, tongue
+photo.53: ig://CG51MBChF6M/m
+photo.53.author: craig_craig_craig
+photo.53.commitdate: 2020/11/1
+photo.53.link: https://www.instagram.com/craig_craig_craig/
+photo.53.tags: peek, whiskers
+photo.54: ig://CKlX_jFhicZ/m
+photo.54.author: fetorus_mami
+photo.54.commitdate: 2021/9/23
+photo.54.link: https://www.instagram.com/fetorus_mami/
+photo.54.tags: tail
+photo.55: ig://CKyjxFXB5wJ/m
+photo.55.author: fetorus_mami
+photo.55.commitdate: 2021/3/10
+photo.55.link: https://www.instagram.com/fetorus_mami/
+photo.55.tags: grooming, laying down, paws, tail, upside-down
+photo.56: ig://CLsXwOKBojd/m
+photo.56.author: _rifa_p
+photo.56.commitdate: 2021/8/22
+photo.56.link: https://www.instagram.com/_rifa_p/
+photo.56.tags: peek, portrait
+photo.57: ig://COYBWd2hXFr/m
+photo.57.author: miis_98
+photo.57.commitdate: 2021/5/3
+photo.57.link: https://www.instagram.com/miis_98/
+photo.57.tags: peek, portrait, tree, whiskers
+photo.58: ig://COh9Uq-hrdl/m
+photo.58.author: miis_98
+photo.58.commitdate: 2021/6/9
+photo.58.link: https://www.instagram.com/miis_98/
+photo.58.tags: paws, portrait, standing, tail
+photo.59: ig://CPQqPsHBGiW/m
+photo.59.author: miis_98
+photo.59.commitdate: 2021/6/8
+photo.59.link: https://www.instagram.com/miis_98/
+photo.59.tags: apple time, paws, peek, portrait, whiskers
+photo.60: ig://CRdZ9uthZeR/m
+photo.60.author: miis_98
+photo.60.commitdate: 2021/8/2
+photo.60.link: https://www.instagram.com/miis_98/
+photo.60.tags: bamboo, home, portrait
+photo.61: ig://CUST95SlNLx/m
+photo.61.author: miis_98
+photo.61.commitdate: 2021/12/22
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: bridge, paws, standing, tongue
+photo.62: ig://CV5mLTtptiq/m
+photo.62.author: miis_98
+photo.62.commitdate: 2021/11/7
+photo.62.link: https://www.instagram.com/miis_98/
+photo.62.tags: paws, portrait, tongue, whiskers
+photo.63: ig://CajYvqhv34i/m
+photo.63.author: fuji_safari
+photo.63.commitdate: 2022/3/20
+photo.63.link: https://www.instagram.com/fuji_safari/
+photo.63.tags: close-up, grooming, paws, portrait
+photo.64: ig://Ca1fUs4POf1/m
+photo.64.author: fuji_safari
+photo.64.commitdate: 2022/3/20
+photo.64.link: https://www.instagram.com/fuji_safari/
+photo.64.tags: close-up, portrait, sample, whiskers
+photo.65: ig://CbDEvRkLfgm/m
+photo.65.author: miis_98
+photo.65.commitdate: 2022/4/5
+photo.65.link: https://www.instagram.com/miis_98/
+photo.65.tags: close-up, portrait, sample, whiskers
+photo.66: ig://CbHb6CbrteN/m
+photo.66.author: fuji_safari
+photo.66.commitdate: 2022/3/20
+photo.66.link: https://www.instagram.com/fuji_safari/
+photo.66.tags: laying down, paws, portrait, sample, smile, tongue
+photo.67: ig://CcdK-aeLEpj/m
+photo.67.author: miis_98
+photo.67.commitdate: 2022/5/25
+photo.67.link: https://www.instagram.com/miis_98/
+photo.67.tags: itchy, paws, portrait, sample, tail
+photo.68: ig://CeYaTp8vyjt/m
+photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2022/8/1
+photo.68.link: https://www.instagram.com/hamamatsu.chiita/
+photo.68.tags: portrait, sample, whiskers
+photo.69: ig://CiiIyrFvU0J/m
+photo.69.author: akiakiakiko18
+photo.69.commitdate: 2022/9/18
+photo.69.link: https://www.instagram.com/akiakiakiko18/
+photo.69.tags: laying down, portrait, sample, tree, whiskers
+species: 2
+studbook.id: 12106
+zoo: 23

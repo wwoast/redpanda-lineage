@@ -1,0 +1,16 @@
+[zoo]
+_id: 103
+commitdate: 2018/12/27
+en.address: 614 Broadway, Staten Island, NY 10310
+en.location: Staten Island, NY, USA
+en.name: Staten Island Zoo
+flag: USA
+language.order: en
+latitude: 40.6233661
+longitude: -74.1232649
+map: https://goo.gl/maps/1C5zcVNgMV72
+photo.1: ig://Bl8e0mzgITc/m
+photo.1.author: statenislandzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/statenislandzoo/
+website: http://www.statenislandzoo.org/

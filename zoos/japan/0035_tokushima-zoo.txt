@@ -1,0 +1,19 @@
+[zoo]
+_id: 35
+commitdate: 2018/6/24
+en.address: Nyudo-２２−１ Shibunocho, Tokushima, Tokushima Prefecture 771-4267, Japan
+en.location: Tokushima City, Tokushima Prefecture, Japan
+en.name: Tokushima Zoo
+flag: Japan
+jp.address: 〒771-4267 徳島県徳島市渋野町入道２２−１
+jp.location: 徳島市 徳島県
+jp.name: とくしま動物園
+language.order: jp, en
+latitude: 34.0137524
+longitude: 134.5191863
+map: https://goo.gl/maps/d7LpHftgkFq
+photo.1: ig://BY5TZ6EgTjA/m
+photo.1.author: polarbear_zoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/polarbear_zoo/
+website: http://www.city.tokushima.tokushima.jp/zoo/

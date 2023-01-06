@@ -1,0 +1,319 @@
+[panda]
+_id: 78
+birthday: 2011/7/9
+birthplace: 9
+children: 80, 242, 957, 958
+commitdate: 2018/6/23
+en.name: Hanabi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ハナビ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+photo.1: ig://BWVEPsXAMjy/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2019/7/9
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: bamboo, portrait, smile, tongue
+photo.2: ig://BfLSh9hhwqC/m
+photo.2.author: mifko55
+photo.2.commitdate: 2020/4/15
+photo.2.link: https://www.instagram.com/mifko55/
+photo.2.tags: portrait
+photo.3: ig://BhB7bzwF_xx/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/7/19
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: portrait
+photo.4: ig://BhKvQqmFPff/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2018/7/19
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: portrait, tree
+photo.5: ig://BiOAMwFl38I/m
+photo.5.author: ck.chie
+photo.5.commitdate: 2018/7/28
+photo.5.link: https://www.instagram.com/ck.chie/
+photo.5.tags: portrait, tongue
+photo.6: ig://BigdJAnldrx/m
+photo.6.author: redpanda_nippon_takashi
+photo.6.commitdate: 2018/7/28
+photo.6.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.6.tags: portrait
+photo.7: ig://BjH6K94luPv/m
+photo.7.author: fetorus_mami
+photo.7.commitdate: 2018/7/28
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.8: ig://Bknh8HIHwVr/m
+photo.8.author: ruru_maki
+photo.8.commitdate: 2019/3/17
+photo.8.link: https://www.instagram.com/ruru_maki/
+photo.8.tags: portrait, tongue, tree
+photo.9: ig://Bk7bAUjFZX0/m
+photo.9.author: fetorus_mami
+photo.9.commitdate: 2018/7/19
+photo.9.link: https://www.instagram.com/fetorus_mami/
+photo.10: ig://BnENCZWl7OT/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2018/8/31
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: bamboo
+photo.11: ig://Brh38iVFPi2/m
+photo.11.author: fetorus_mami
+photo.11.commitdate: 2018/12/19
+photo.11.link: https://www.instagram.com/fetorus_mami/
+photo.11.tags: keeper
+photo.12: ig://Brki8fjlZyV/m
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2018/12/19
+photo.12.link: https://www.instagram.com/fetorus_mami/
+photo.12.tags: tree
+photo.13: ig://BsnI_yjF4eg/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/1/18
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: bamboo, standing, tongue
+photo.14: ig://BsqCwe7FBVo/m
+photo.14.author: fetorus_mami
+photo.14.commitdate: 2019/1/18
+photo.14.link: https://www.instagram.com/fetorus_mami/
+photo.14.tags: autumn, portrait
+photo.15: ig://BssSRB6l6aO/m
+photo.15.author: fetorus_mami
+photo.15.commitdate: 2019/1/18
+photo.15.link: https://www.instagram.com/fetorus_mami/
+photo.15.tags: climb, tail
+photo.16: ig://BvDgfBdFdeY/m
+photo.16.author: fetorus_mami
+photo.16.commitdate: 2019/3/17
+photo.16.link: https://www.instagram.com/fetorus_mami/
+photo.16.tags: bamboo, standing
+photo.17: ig://BvDhCQEl4It/m
+photo.17.author: fetorus_mami
+photo.17.commitdate: 2019/3/17
+photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.tags: sleeping
+photo.18: ig://Bv3vze4lzy3/m
+photo.18.author: fetorus_mami
+photo.18.commitdate: 2019/4/6
+photo.18.link: https://www.instagram.com/fetorus_mami/
+photo.18.tags: portrait, smile
+photo.19: ig://Bv5NsaMFKot/m
+photo.19.author: saitamazoo
+photo.19.commitdate: 2020/6/13
+photo.19.link: https://www.instagram.com/saitamazoo/
+photo.19.tags: apple time, laying down, portrait
+photo.20: ig://BxXbzY2F6SL/m
+photo.20.author: sasapan34
+photo.20.commitdate: 2019/5/15
+photo.20.link: https://www.instagram.com/sasapan34/
+photo.20.tags: bamboo, smile
+photo.21: ig://Bxvmxj7FQc6/m
+photo.21.author: fetorus_mami
+photo.21.commitdate: 2019/5/30
+photo.21.link: https://www.instagram.com/fetorus_mami/
+photo.21.tags: portrait, smile
+photo.22: ig://BzuGuANBLB5/m
+photo.22.author: fetorus_mami
+photo.22.commitdate: 2019/7/10
+photo.22.link: https://www.instagram.com/fetorus_mami/
+photo.22.tags: door, portrait
+photo.23: ig://B0YJUCPhKG3/m
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2019/7/28
+photo.23.link: https://www.instagram.com/fetorus_mami/
+photo.23.tags: dish
+photo.24: ig://B1bAhbHhM9H/m
+photo.24.author: ssc6105
+photo.24.commitdate: 2019/8/23
+photo.24.link: https://www.instagram.com/ssc6105/
+photo.24.tags: laying down, portrait
+photo.25: ig://B4BKS1-hvoG/m
+photo.25.author: yakko____
+photo.25.commitdate: 2019/10/25
+photo.25.link: https://www.instagram.com/yakko____/
+photo.25.tags: portrait
+photo.26: ig://B4huzFwh6Wh/m
+photo.26.author: ifumoto88
+photo.26.commitdate: 2019/11/18
+photo.26.link: https://www.instagram.com/ifumoto88/
+photo.26.tags: portrait
+photo.27: ig://B6FQEG-BdYP/m
+photo.27.author: ssc6105
+photo.27.commitdate: 2019/12/29
+photo.27.link: https://www.instagram.com/ssc6105/
+photo.27.tags: portrait, tail
+photo.28: ig://B6OpBGEBipi/m
+photo.28.author: ssc6105
+photo.28.commitdate: 2019/12/30
+photo.28.link: https://www.instagram.com/ssc6105/
+photo.28.tags: laying down, portrait, tail
+photo.29: ig://B7SpA8zhuJ3/m
+photo.29.author: wumpwoast
+photo.29.commitdate: 2020/1/16
+photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.tags: portrait, tail
+photo.30: ig://B7slouZhUcs/m
+photo.30.author: ssc6105
+photo.30.commitdate: 2020/1/26
+photo.30.link: https://www.instagram.com/ssc6105/
+photo.30.tags: bamboo, paws
+photo.31: ig://CBEdQ1BBk1d/m
+photo.31.author: ssc6105
+photo.31.commitdate: 2020/6/13
+photo.31.link: https://www.instagram.com/ssc6105/
+photo.31.tags: bamboo, paws, portrait
+photo.32: ig://CBs4xQ2BVbV/m
+photo.32.author: ruru_maki
+photo.32.commitdate: 2020/12/2
+photo.32.link: https://www.instagram.com/ruru_maki/
+photo.33: ig://CCa1BFTh69d/m
+photo.33.author: ssc6105
+photo.33.commitdate: 2020/7/19
+photo.33.link: https://www.instagram.com/ssc6105/
+photo.33.tags: laying down, portrait, tail
+photo.34: ig://CCbPFIFhiAX/m
+photo.34.author: panda.daisuki
+photo.34.commitdate: 2020/7/19
+photo.34.link: https://www.instagram.com/panda.daisuki/
+photo.34.tags: close-up, laying down, portrait, tail
+photo.35: ig://CCdhVw5BTKZ/m
+photo.35.author: fetorus_mami
+photo.35.commitdate: 2020/7/19
+photo.35.link: https://www.instagram.com/fetorus_mami/
+photo.35.tags: bamboo, paws, smile
+photo.36: ig://CCdhmDJBaM0/m
+photo.36.author: fetorus_mami
+photo.36.commitdate: 2020/7/19
+photo.36.link: https://www.instagram.com/fetorus_mami/
+photo.36.tags: close-up, tail
+photo.37: ig://CDDsIgDBYb4/m
+photo.37.author: alto0908
+photo.37.commitdate: 2020/8/21
+photo.37.link: https://www.instagram.com/alto0908/
+photo.37.tags: paws, portrait
+photo.38: ig://CDHyNUTh0LI/m
+photo.38.author: ssc6105
+photo.38.commitdate: 2020/8/21
+photo.38.link: https://www.instagram.com/ssc6105/
+photo.38.tags: peek
+photo.39: ig://CEojWMAHG9W/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2020/9/7
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: laying down, portrait
+photo.40: ig://CFUO9HaB7HJ/m
+photo.40.author: fetorus_mami
+photo.40.commitdate: 2020/9/27
+photo.40.link: https://www.instagram.com/fetorus_mami/
+photo.40.tags: door, portrait
+photo.41: ig://CF6CucgBdTi/m
+photo.41.author: fetorus_mami
+photo.41.commitdate: 2020/10/8
+photo.41.link: https://www.instagram.com/fetorus_mami/
+photo.41.tags: portrait, profile
+photo.42: ig://CHH6YAHhS7k/m
+photo.42.author: ssc6105
+photo.42.commitdate: 2020/11/7
+photo.42.link: https://www.instagram.com/ssc6105/
+photo.42.tags: bamboo, paws, smile, standing
+photo.43: ig://CHP2UpthROn/m
+photo.43.author: ssc6105
+photo.43.commitdate: 2020/11/21
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.44: ig://CH426buhCib/m
+photo.44.author: fetorus_mami
+photo.44.commitdate: 2020/11/29
+photo.44.link: https://www.instagram.com/fetorus_mami/
+photo.44.tags: portrait, whiskers
+photo.45: ig://CJ9siVYhMe9/m
+photo.45.author: rie_panda55
+photo.45.commitdate: 2021/1/16
+photo.45.link: https://www.instagram.com/rie_panda55/
+photo.45.tags: bridge, portrait, tail
+photo.46: ig://CKBXF4pBDWE/m
+photo.46.author: ssc6105
+photo.46.commitdate: 2021/1/16
+photo.46.link: https://www.instagram.com/ssc6105/
+photo.46.tags: paws, smile, tongue, tree
+photo.47: ig://CKJTHPTBe6h/m
+photo.47.author: ssc6105
+photo.47.commitdate: 2021/5/30
+photo.47.link: https://www.instagram.com/ssc6105/
+photo.47.tags: close-up, whiskers
+photo.48: ig://CKqaNahBK8h/m
+photo.48.author: fetorus_mami
+photo.48.commitdate: 2021/1/30
+photo.48.link: https://www.instagram.com/fetorus_mami/
+photo.48.tags: portrait, tail
+photo.49: ig://CLEOaEFB0D2/m
+photo.49.author: ssc6105
+photo.49.commitdate: 2021/7/21
+photo.49.link: https://www.instagram.com/ssc6105/
+photo.49.tags: bridge, peek, tail
+photo.50: ig://CMDiiMRBTd_/m
+photo.50.author: mifko55
+photo.50.commitdate: 2021/3/28
+photo.50.link: https://www.instagram.com/mifko55/
+photo.50.tags: laying down, mofumofu, portrait, tree
+photo.51: ig://COF1pDTB3ju/m
+photo.51.author: redpan22
+photo.51.commitdate: 2021/5/31
+photo.51.link: https://www.instagram.com/redpan22/
+photo.51.tags: flowers, mofumofu, peek
+photo.52: ig://CONWPZyB_79/m
+photo.52.author: redpan22
+photo.52.commitdate: 2021/5/31
+photo.52.link: https://www.instagram.com/redpan22/
+photo.52.tags: bamboo, bite, close-up, shoots, whiskers
+photo.53: ig://CWDlmnshmU1/m
+photo.53.author: ifumoto88
+photo.53.commitdate: 2022/1/13
+photo.53.link: https://www.instagram.com/ifumoto88/
+photo.53.tags: peek, portrait, tail, tree
+photo.54: ig://ssc6105/CXvZX6qv6Mz/m
+photo.54.author: ssc6105
+photo.54.commitdate: 2022/1/6
+photo.54.link: https://www.instagram.com/ssc6105/
+photo.54.tags: portrait, whiskers
+photo.55: ig://CXyg3oIFs6S/m
+photo.55.author: mini_cochi
+photo.55.commitdate: 2022/1/4
+photo.55.link: https://www.instagram.com/mini_cochi/
+photo.55.tags: mofumofu, portrait, sample, whiskers
+photo.56: ig://CYOeQVMP2UO/m
+photo.56.author: fetorus_mami
+photo.56.commitdate: 2022/1/4
+photo.56.link: https://www.instagram.com/fetorus_mami/
+photo.56.tags: bamboo, bite, close-up, mofumofu, tongue
+photo.57: ig://CYSauQZP1aN/m
+photo.57.author: sasapan34
+photo.57.commitdate: 2022/6/2
+photo.57.link: https://www.instagram.com/sasapan34/
+photo.57.tags: bamboo, paws
+photo.58: ig://CZFzRvXhUH3/m
+photo.58.author: otenba_redpanda
+photo.58.commitdate: 2022/2/20
+photo.58.link: https://www.instagram.com/otenba_redpanda/
+photo.58.tags: bamboo, paws, portrait, sample, whiskers
+photo.59: ig://CdbBP6rPTM0/m
+photo.59.author: na.mo.pan
+photo.59.commitdate: 2022/6/2
+photo.59.link: https://www.instagram.com/na.mo.pan/
+photo.59.tags: laying down, sleeping, whiskers
+photo.60: ig://Cd2ZKFPJH1S/m
+photo.60.author: ssc6105
+photo.60.commitdate: 2022/8/28
+photo.60.link: https://www.instagram.com/ssc6105/
+photo.60.tags: blink, mofumofu, tree
+photo.61: ig://Cf6oxecvM__/m
+photo.61.author: fetorus_mami
+photo.61.commitdate: 2022/7/31
+photo.61.link: https://www.instagram.com/fetorus_mami/
+photo.61.tags: bamboo, mofumofu, paws, tongue
+species: 2
+studbook.id: 11105
+zoo: 9

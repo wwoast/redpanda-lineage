@@ -1,0 +1,19 @@
+[panda]
+_id: 969
+birthday: 2012/12/20
+birthplace: 201
+children: unknown
+commitdate: 2019/8/16
+en.name: Dawa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ダワ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 968, 970
+location.1: 201, 2012/12/20
+location.2: 202, 2015/3/13
+species: 1
+zoo: 202

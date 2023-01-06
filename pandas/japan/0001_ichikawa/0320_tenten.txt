@@ -1,0 +1,34 @@
+[panda]
+_id: 320
+birthday: 1998/7/7
+birthplace: 1
+children: 4, 264, 12, 281, 179
+commitdate: 2018/8/23
+death: 2014/8/2
+en.name: Ten-Ten
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 天天
+jp.nicknames: none
+jp.othernames: テンテン
+language.order: jp, en
+litter: none
+photo.1: https://pds.exblog.jp/pds/1/201308/10/02/a0306502_22525443.jpg
+photo.1.author: miis_98
+photo.1.commitdate: 2018/8/30
+photo.1.link: https://mihorinh.exblog.jp/
+photo.1.tags: air tasting, profile, tongue
+photo.2: http://www.city.ichikawa.chiba.jp/shisetsu/dobutsu/20ann/image/07001.jpg
+photo.2.author: ichikawa_zoo
+photo.2.commitdate: 2018/8/30
+photo.2.link: http://www.city.ichikawa.lg.jp/zoo/index.html
+photo.2.tags: air tasting, tongue
+photo.3: https://minesan.c.blog.so-net.ne.jp/blog/_images/blog/_712/minesan/6137437.jpg
+photo.3.author: みねさん
+photo.3.commitdate: 2018/9/1
+photo.3.link: https://minesan.blog.so-net.ne.jp/
+photo.3.tags: smile
+species: 2
+studbook.id: 98035
+zoo: 1

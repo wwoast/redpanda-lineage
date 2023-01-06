@@ -1,0 +1,20 @@
+[zoo]
+_id: 196
+cn.address: 香港仔 中華人民共和國香港特別行政區
+cn.location: 香港仔 中華人民共和國香港特別行政區
+cn.name: 香港海洋公園
+commitdate: 2019/7/10
+en.address: Aberdeen, Hong Kong
+en.location: Aberdeen, Hong Kong, China
+en.name: Ocean Park Hong Kong
+flag: Hong Kong
+language.order: cn, en
+latitude: 22.2466457
+longitude: 114.1056835
+map: https://goo.gl/maps/cyhJE1HGhYUayvBv7
+photo.1: ig://ByAMx3UnQbt/m
+photo.1.author: hkoceanpark
+photo.1.commitdate: 2019/7/10
+photo.1.link: https://www.instagram.com/hkoceanpark/
+photo.1.tags: profile
+website: https://www.oceanpark.com.hk/tc

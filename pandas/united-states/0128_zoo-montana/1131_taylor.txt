@@ -1,0 +1,26 @@
+[panda]
+_id: 1131
+birthday: 1998/6/7
+birthplace: 114
+children: none
+commitdate: 2020/3/20
+death: 2020/3/5
+en.name: Taylor
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: テイラー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1132
+location.1: 114, 1998/6/7
+location.2: 141, 2000/4/26
+location.3: 128, 2000/11/20
+photo.1: ig://B96yTGfBkaQ/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/3/20
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, tail
+species: 1
+zoo: 128

@@ -1,0 +1,23 @@
+[panda]
+_id: 1119
+birthday: 1996/6/14
+birthplace: 118
+children: 1125, 514
+commitdate: 2020/3/8
+death: 2011/9/15
+en.name: Tiki
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ティキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1120
+location.1: 118, 1996/6/14
+location.2: 85, 1997/2/20
+location.3: 185, 2000/2/29
+location.4: 192, 2001/3/30
+location.5: 121, 2003/10/10
+species: 1
+zoo: 121

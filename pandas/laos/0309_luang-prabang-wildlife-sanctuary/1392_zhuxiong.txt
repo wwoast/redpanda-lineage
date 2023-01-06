@@ -1,0 +1,26 @@
+[panda]
+_id: 1392
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2022/9/2
+en.name: Zhuxiong
+en.nicknames: none
+en.othernames: Zhu-Xiong, Jujong, Ju-Jong
+gender: f
+jp.name: サンテファープ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: unknown
+location.2: 309, 1/12/2018
+photo.1: https://www.codaworry.com/images/rpf/zhuxiong-1-laos.jpg
+photo.1.author: freethebears
+photo.1.commitdate: 2022/9/2
+photo.1.link: https://www.instagram.com/freethebears/
+photo.1.tags: bridge, paws, portrait, profile, sample, smile, tongue, whiskers
+species: unknown
+studbook.id: unknown
+uncertainty: tracking id, species, wild capture location
+zoo: 309

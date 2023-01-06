@@ -1,0 +1,41 @@
+[panda]
+_id: 1214
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2020/8/19
+en.name: Ying
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イン
+jp.nicknames: none
+jp.othernames: none
+language.order: nl, en, jp
+litter: unknown
+nl.name: Ying
+nl.nicknames: none
+nl.othernames: none
+photo.1: ig://ByVhWr0IpuD/m
+photo.1.author: dierenparkamersfoort
+photo.1.commitdate: 2020/8/19
+photo.1.link: https://www.instagram.com/dierenparkamersfoort/
+photo.1.tags: mofumofu, portrait, profile, whiskers
+photo.2: ig://BzV1lxxoVKu/m
+photo.2.author: nicolethiessen288
+photo.2.commitdate: 2020/8/19
+photo.2.link: https://www.instagram.com/nicolethiessen288/
+photo.2.tags: paws, portrait, white face
+photo.3: ig://B5k5k4En2F0/m
+photo.3.author: dierenparkamersfoort
+photo.3.commitdate: 2020/8/19
+photo.3.link: https://www.instagram.com/dierenparkamersfoort/
+photo.3.tags: paws, whiskers
+photo.4: ig://CAFXpGuH1bu/m
+photo.4.author: dierenparkamersfoort
+photo.4.commitdate: 2020/8/19
+photo.4.link: https://www.instagram.com/dierenparkamersfoort/
+photo.4.tags: mofumofu, portrait, smile
+species: 1
+studbook.id: unknown
+zoo: 262

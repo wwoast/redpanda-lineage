@@ -1,0 +1,44 @@
+[panda]
+_id: 523
+birthday: 2012/7/11
+birthplace: 80
+children: 871, 872, 873
+commitdate: 2019/2/24
+death: 2022/10/19
+en.name: Rusty
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラスティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 497
+location.1: 80, 2012/7/11
+location.2: 49, 2013/4/29
+location.3: 114, 2014/1/29
+location.4: 160, 2020/10/1
+photo.1: ig://Bonn_lzhNCx/m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/3/3
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: home, portrait, profile, tail
+photo.2: ig://CO9CNlVH_Gl/m
+photo.2.author: keepermerlo
+photo.2.commitdate: 2022/11/8
+photo.2.link: https://www.instagram.com/keepermerlo/
+photo.2.tags: close-up, portrait, sample
+photo.3: ig://Cj3FEoIjDJ5/m
+photo.3.author: pueblozoo
+photo.3.commitdate: 2022/11/8
+photo.3.link: https://www.instagram.com/pueblozoo/
+photo.3.tags: bamboo, white face
+photo.4: ig://Cj5r9empvHJ/m
+photo.4.author: keepermerlo
+photo.4.commitdate: 2022/11/8
+photo.4.link: https://www.instagram.com/carsontheredpanda/
+photo.4.tags: dish, portrait, whiskers, white face
+species: 1
+studbook.id: 1235
+uncertainty: location.4 exact date
+zoo: 160

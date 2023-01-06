@@ -1,0 +1,22 @@
+[panda]
+_id: 759
+birthday: 1991/6/24
+birthplace: 13
+children: none
+commitdate: 2019/3/29
+death: 2015/7/15
+en.name: Kusu
+en.nicknames: none
+en.othernames: Cous
+gender: m
+jp.name: クス
+jp.nicknames: none
+jp.othernames: 笑, くす
+language.order: jp, en
+litter: none
+location.1: 13, 1991/6/24
+location.2: 40, 1993/2/16
+location.3: 41, 1998/2/23
+species: 2
+studbook.id: 9177
+zoo: 41

@@ -1,0 +1,17 @@
+[panda]
+_id: 1337
+birthday: 2021/6/20
+birthplace: 127
+children: none
+commitdate: 2022/2/16
+en.name: Micah
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ミカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1338
+species: 1
+zoo: 127

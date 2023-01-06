@@ -1,0 +1,16 @@
+[zoo]
+_id: 249
+commitdate: 2020/5/7
+en.address: Boulevard de Cazaux, 33260 La Teste-de-Buch, France
+en.location: La Teste-de-Buch, France
+en.name: Zoo Arcachon Basin
+flag: France
+fr.address: Boulevard de Cazaux, 33260 La Teste-de-Buch, France
+fr.location: La Teste-de-Buch, France
+fr.name: Zoo du Bassin d'Arcachon
+fr.othernames: Zooland Park
+language.order: fr, en
+latitude: 44.5890404
+longitude: -1.1381659
+map: https://goo.gl/maps/Ui2zkKEFvjqBL58o7
+website: https://zoodubassindarcachon.com/

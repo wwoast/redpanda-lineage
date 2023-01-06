@@ -1,0 +1,20 @@
+[zoo]
+_id: 116
+commitdate: 2019/2/23
+en.address: 1020 S Morris Ave, Bloomington, IL 61701, USA
+en.location: Bloomington, Illinois, USA
+en.name: Miller Park Zoo
+flag: USA
+language.order: en
+latitude: 40.4696537
+longitude: -89.0115789
+map: https://goo.gl/maps/k6zARq4schp
+photo.1: ig://BLE33KTgYIT/m
+photo.1.author: eilshermer
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/elishermer/
+photo.2: ig://BgNNzvSgcli/m
+photo.2.author: kdesmet_photography
+photo.2.commitdate: 2020/3/15
+photo.2.link: https://www.instagram.com/kdesmet_photography/
+website: http://www.bloomingtonparks.org/facilities/miller-park-zoo

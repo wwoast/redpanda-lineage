@@ -1,0 +1,16 @@
+[zoo]
+_id: 105
+commitdate: 2018/12/27
+en.address: 7400 Division Dr, Battle Creek, MI 49014
+en.location: Battle Creek, Michigan, USA
+en.name: Binder Park Zoo
+flag: USA
+language.order: en
+latitude: 42.2903965
+longitude: -85.1575119
+map: https://goo.gl/maps/KNY2H8TL7a52
+photo.1: ig://BaSLKVFh39Y/m
+photo.1.author: don__arturo_campos
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/don__arturo_campos/
+website: https://binderparkzoo.org/

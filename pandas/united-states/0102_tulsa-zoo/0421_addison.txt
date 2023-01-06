@@ -1,0 +1,70 @@
+[panda]
+_id: 421
+birthday: 2015/6/26
+birthplace: 87
+children: none
+commitdate: 2018/11/23
+en.name: Addison
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アディソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 420
+location.1: 87, 2015/6/26
+location.2: 44, 2016/3/17
+location.3: 102, 2019/11/9
+photo.1: ig://BcPqAUogukf/m
+photo.1.author: newzoogb
+photo.1.commitdate: 2018/11/30
+photo.1.link: https://www.instagram.com/newzoogb/
+photo.1.tags: laying down
+photo.2: ig://BdXwfVHAv7J/m
+photo.2.author: newzoogb
+photo.2.commitdate: 2018/11/30
+photo.2.link: https://www.instagram.com/newzoogb/
+photo.2.tags: portrait, tongue
+photo.3: ig://BmBqom_gItw/m
+photo.3.author: newzoogb
+photo.3.commitdate: 2018/11/30
+photo.3.link: https://www.instagram.com/newzoogb/
+photo.4: ig://BwQMGwCHKvM/m
+photo.4.author: newzoogb
+photo.4.commitdate: 2019/12/7
+photo.4.link: https://www.instagram.com/newzoogb/
+photo.4.tags: portrait, whiskers
+photo.5: ig://BxfFqJ3DMcB/m
+photo.5.author: newzoogb
+photo.5.commitdate: 2021/6/11
+photo.5.link: https://www.instagram.com/newzoogb/
+photo.5.tags: doctor, videolink
+photo.6: ig://B44_i0elEhA/m
+photo.6.author: tulsazoo
+photo.6.commitdate: 2019/12/29
+photo.6.link: https://www.instagram.com/tulsazoo/
+photo.6.tags: tail
+photo.7: ig://B5LD_UiA0TN/m
+photo.7.author: tulsazoo
+photo.7.commitdate: 2019/12/29
+photo.7.link: https://www.instagram.com/tulsazoo/
+photo.7.tags: laying down, portrait, whiskers
+photo.8: ig://B5nQlhjlW-J/m
+photo.8.author: tulsazoo
+photo.8.commitdate: 2019/12/29
+photo.8.link: https://www.instagram.com/tulsazoo/
+photo.8.tags: bamboo, portrait, tongue
+photo.9: ig://B6LTuMyhoji/m
+photo.9.author: tulsazoo
+photo.9.commitdate: 2019/12/29
+photo.9.link: https://www.instagram.com/tulsazoo/
+photo.9.tags: smile, whiskers
+photo.10: ig://CLcJtd2gILb/m
+photo.10.author: tulsazoo
+photo.10.commitdate: 2021/2/19
+photo.10.link: https://www.instagram.com/tulsazoo/
+photo.10.tags: bamboo, portrait, profile, snow
+species: 2
+studbook.id: 1535
+zoo: 102

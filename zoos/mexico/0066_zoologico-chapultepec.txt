@@ -1,0 +1,15 @@
+[zoo]
+_id: 66
+commitdate: 2018/8/18
+en.address: Col. San Miguel Chapultepec, 11850 Delegación Miguel Hidalgo, CDMX, Mexico
+en.location: Mexico City, Mexico
+en.name: Chapultepec Zoo
+es.address: Col. San Miguel Chapultepec, Bosque de Chapultepec I Secc, 11850 Delegación Miguel Hidalgo, CDMX, Mexico
+es.location: Ciudad de México
+es.name: Zoologico De Chapultepec
+flag: Mexico
+language.order: es, en
+latitude: 19.4232135
+longitude: -99.1917143
+map: https://goo.gl/maps/FcdpEYXAYB12
+website: http://data.sedema.cdmx.gob.mx/zoo_chapultepec/

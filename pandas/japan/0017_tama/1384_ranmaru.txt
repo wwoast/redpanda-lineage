@@ -1,0 +1,32 @@
+[panda]
+_id: 1384
+birthday: 2022/7/27
+birthplace: 17
+children: none
+commitdate: 2022/8/15
+en.name: Ranmaru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ランマル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1383
+photo.1: ig://CkxwVLYLc3U/m
+photo.1.author: osopanda551
+photo.1.commitdate: 2022/12/11
+photo.1.link: https://www.instagram.com/osopanda551/
+photo.1.tags: baby, hammock, mofumofu, portrait, sample
+photo.2: ig://Ck3JajEv4lf/m
+photo.2.author: redpan22
+photo.2.commitdate: 2022/12/19
+photo.2.link: https://www.instagram.com/redpan22/
+photo.2.tags: baby, portrait, sample
+photo.3: ig://CmAkdmkp5CA/m
+photo.3.author: mini_cochi
+photo.3.commitdate: 2022/12/11
+photo.3.link: https://www.instagram.com/mini_cochi/
+photo.3.tags: baby, hammock, peek, portrait, tail
+species: 2
+zoo: 17

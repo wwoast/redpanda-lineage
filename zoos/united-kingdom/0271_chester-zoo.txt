@@ -1,0 +1,25 @@
+[zoo]
+_id: 271
+commitdate: 2020/12/29
+en.address: Chester CH2 1EU, United Kingdom
+en.location: Chester, United Kingdom
+en.name: Chester Zoo
+flag: UK
+language.order: en
+latitude: 53.227269
+longitude: -2.8866001
+map: https://goo.gl/maps/xaELJdQWK23LXbyS8
+photo.1: ig://B-AWeTsnfFW/m
+photo.1.author: chesterzoo
+photo.1.commitdate: 2020/12/29
+photo.1.link: https://www.instagram.com/chesterzoo/
+photo.2: ig://CAhu4ctnzhU/m
+photo.2.author: chesterzoo
+photo.2.commitdate: 2020/12/29
+photo.2.link: https://www.instagram.com/chesterzoo/
+photo.3: ig://CEEfGB_s0QV/m
+photo.3.author: chesterzoo
+photo.3.commitdate: 2020/12/29
+photo.3.link: https://www.instagram.com/chesterzoo/
+photo.3.tags: profile
+website: http://www.chesterzoo.org/

@@ -1,0 +1,12 @@
+[zoo]
+_id: 275
+commitdate: 2021/4/7
+en.address: Pershore Road B5 7RL, Birmingham, United Kingdom
+en.location: Birmingham, United Kingdom
+en.name: Birmingham Wildlife Conservation Park
+flag: UK
+language.order: en
+latitude: 52.4504402
+longitude: -1.9124947
+map: https://goo.gl/maps/qDs1qEEWhU6E3Pbq5
+website: https://www.birmingham.gov.uk/conservationpark

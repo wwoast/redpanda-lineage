@@ -1,0 +1,46 @@
+[panda]
+_id: 427
+birthday: 2015/6/22
+birthplace: 76
+children: none
+commitdate: 2018/11/23
+death: 2020/9/14
+en.name: Xing
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 428, 429
+location.1: 76, 2015/6/22
+location.2: 109, 2017/11/8
+photo.1: ig://B9eaIYiBfYd/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/3/12
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: dish, smile, tail
+photo.2: ig://B9hCMHUhM1F/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2020/3/12
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: peek, portrait, profile
+photo.3: ig://B_uqswWg39f/m
+photo.3.author: memphiszoo
+photo.3.commitdate: 2020/9/26
+photo.3.link: https://www.instagram.com/memphiszoo/
+photo.3.tags: home, peek, portrait
+photo.4: ig://CC6xTrRh28L/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/8/2
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: peek, portrait, tree
+photo.5: ig://CFK7Gv2gJna/m
+photo.5.author: memphiszoo
+photo.5.commitdate: 2020/9/16
+photo.5.link: https://www.instagram.com/memphiszoo/
+photo.5.tags: home, laying down, smile, tongue
+species: 2
+studbook.id: 1521
+zoo: 109

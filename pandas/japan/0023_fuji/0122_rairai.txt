@@ -1,0 +1,191 @@
+[panda]
+_id: 122
+birthday: 2008/7/1
+birthplace: 13
+children: none
+commitdate: 2018/6/26
+death: 2022/2/13
+en.name: Rai-Rai
+en.nicknames: none
+en.othernames: Lai-Lai, Rairai, Lailai
+gender: m
+jp.name: ライライ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 2008/7/1
+location.2: 18, 2011/6/3
+location.3: 23, 2017/7/5
+photo.1: ig://wyn3bcuR_L/m
+photo.1.author: masa_polarbear
+photo.1.commitdate: 2020/5/2
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: bamboo, portrait
+photo.2: ig://BKD8k27BMHJ/m
+photo.2.author: rnrirhrh
+photo.2.commitdate: 2019/10/28
+photo.2.link: https://www.instagram.com/rnrirhrh/
+photo.2.tags: paws, portrait, smile
+photo.3: ig://BKLPtsBAc4w/m
+photo.3.author: rnrirhrh
+photo.3.commitdate: 2019/10/28
+photo.3.link: https://www.instagram.com/rnrirhrh/
+photo.3.tags: itchy, portrait, tail
+photo.4: ig://BKsBhIVgcw6/m
+photo.4.author: rnrirhrh
+photo.4.commitdate: 2019/10/28
+photo.4.link: https://www.instagram.com/rnrirhrh/
+photo.4.tags: portrait, smile, tail
+photo.5: ig://BQXJdyrjTsr/m
+photo.5.author: s.okano521
+photo.5.commitdate: 2018/8/22
+photo.5.link: https://www.instagram.com/s.okano521/
+photo.6: ig://BQbaUQoj5Qs/m
+photo.6.author: s.okano521
+photo.6.commitdate: 2018/8/22
+photo.6.link: https://www.instagram.com/s.okano521/
+photo.6.tags: dish, tongue
+photo.7: ig://BRS4aNwDMPf/m
+photo.7.author: s.okano521
+photo.7.commitdate: 2018/8/22
+photo.7.link: https://www.instagram.com/s.okano521/
+photo.8: ig://BUthMxLjT4m/m
+photo.8.author: s.okano521
+photo.8.commitdate: 2018/8/22
+photo.8.link: https://www.instagram.com/s.okano521/
+photo.8.tags: apple time, tongue
+photo.9: ig://BVKEqTRjc_2/m
+photo.9.author: s.okano521
+photo.9.commitdate: 2018/8/22
+photo.9.link: https://www.instagram.com/s.okano521/
+photo.9.tags: apple time
+photo.10: ig://BWPo_RuD-3-/m
+photo.10.author: s.okano521
+photo.10.commitdate: 2018/10/7
+photo.10.link: https://www.instagram.com/s.okano521/
+photo.10.tags: bamboo, lips
+photo.11: ig://BZ99nDqBbAO/m
+photo.11.author: miis_98
+photo.11.commitdate: 2020/4/6
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: paws, smile
+photo.12: ig://BbEaeoSFnNx/m
+photo.12.author: hanamaru_redpanda
+photo.12.commitdate: 2020/3/11
+photo.12.link: https://www.instagram.com/hanamaru_redpanda/
+photo.12.tags: bamboo, portrait, profile
+photo.13: ig://Bkzot-1lZxv/m
+photo.13.author: hanamaru_redpanda
+photo.13.commitdate: 2018/10/6
+photo.13.link: https://www.instagram.com/hanamaru_redpanda/
+photo.13.tags: bamboo
+photo.14: ig://BqosFnGlsuF/m
+photo.14.author: fuji_safari
+photo.14.commitdate: 2020/1/19
+photo.14.link: https://www.instagram.com/fuji_safari/
+photo.14.tags: bamboo, bite, portrait
+photo.15: ig://Br451n9FB7B/m
+photo.15.author: miis_98
+photo.15.commitdate: 2018/12/27
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: bamboo, lips
+photo.16: ig://Bvlh2pplWcR/m
+photo.16.author: fuji_safari
+photo.16.commitdate: 2020/1/18
+photo.16.link: https://www.instagram.com/fuji_safari/
+photo.16.tags: bamboo, peek
+photo.17: ig://B-elDw-h38V/m
+photo.17.author: miis_98
+photo.17.commitdate: 2020/4/6
+photo.17.link: https://www.instagram.com/miis_98/
+photo.17.tags: paws, portrait, snow
+photo.18: ig://B-rxXYjhDYq/m
+photo.18.author: miis_98
+photo.18.commitdate: 2020/5/2
+photo.18.link: https://www.instagram.com/miis_98/
+photo.18.tags: apple time, peek, portrait, tree
+photo.19: ig://B-0rLnMhvjR/m
+photo.19.author: ssc6105
+photo.19.commitdate: 2020/4/14
+photo.19.link: https://www.instagram.com/ssc6105/
+photo.19.tags: mofumofu, paws
+photo.20: ig://B_4RZAwBwfw/m
+photo.20.author: fuji_safari
+photo.20.commitdate: 2020/5/19
+photo.20.link: https://www.instagram.com/fuji_safari/
+photo.20.tags: bamboo, blink, home, portrait
+photo.21: ig://CA3XmAzhsdQ/m
+photo.21.author: ssc6105
+photo.21.commitdate: 2020/6/1
+photo.21.link: https://www.instagram.com/ssc6105/
+photo.21.tags: portrait, tail
+photo.22: ig://CDPcL61hxKT/m
+photo.22.author: miis_98
+photo.22.commitdate: 2020/7/31
+photo.22.link: https://www.instagram.com/miis_98/
+photo.22.tags: apple time, paws, portrait, tail
+photo.23: ig://CDSXwxnhkyN/m
+photo.23.author: fuji_safari
+photo.23.commitdate: 2020/7/31
+photo.23.link: https://www.instagram.com/fuji_safari/
+photo.23.tags: home, laying down, lips, paws, portrait
+photo.24: ig://CDUu0XwByFz/m
+photo.24.author: miis_98
+photo.24.commitdate: 2020/7/31
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: home, lips, portrait, tail
+photo.25: ig://CD8Uz-oBtqR/m
+photo.25.author: mini_cochi
+photo.25.commitdate: 2020/8/17
+photo.25.link: https://www.instagram.com/mini_cochi/
+photo.25.tags: peek, portrait
+photo.26: ig://CGxLhq4B_wq/m
+photo.26.author: miis_98
+photo.26.commitdate: 2020/10/25
+photo.26.link: https://www.instagram.com/miis_98/
+photo.26.tags: bamboo, home, paws, smile
+photo.27: ig://CKbiPAKhOQG/m
+photo.27.author: miis_98
+photo.27.commitdate: 2021/1/28
+photo.27.link: https://www.instagram.com/miis_98/
+photo.27.tags: bamboo, paws, smile, tail
+photo.28: ig://CK1YFIzBQuk/m
+photo.28.author: fetorus_mami
+photo.28.commitdate: 2021/3/10
+photo.28.link: https://www.instagram.com/fetorus_mami/
+photo.28.tags: bamboo
+photo.29: ig://COaCmsZBvDP/m
+photo.29.author: miis_98
+photo.29.commitdate: 2021/6/4
+photo.29.link: https://www.instagram.com/miis_98/
+photo.29.tags: bamboo, portrait, tongue
+photo.30: ig://CPa9Ye0hNk6/m
+photo.30.author: miis_98
+photo.30.commitdate: 2021/6/18
+photo.30.link: https://www.instagram.com/miis_98/
+photo.30.tags: bamboo, home, paws, portrait
+photo.31: ig://CRZB7x2Bbgl/m
+photo.31.author: miis_98
+photo.31.commitdate: 2021/7/18
+photo.31.link: https://www.instagram.com/miis_98/
+photo.31.tags: laying down, mofumofu, paws, portrait, tail
+photo.32: ig://CUO2B5HhRk1/m
+photo.32.author: miis_98
+photo.32.commitdate: 2021/9/28
+photo.32.link: https://www.instagram.com/miis_98/
+photo.32.tags: paws, tail
+photo.33: ig://CYUCRNpFVnG/m
+photo.33.author: miis_98
+photo.33.commitdate: 2022/1/6
+photo.33.link: https://www.instagram.com/miis_98/
+photo.33.tags: bamboo, lips, portrait, smile
+photo.34: ig://CazJ8zSLfj_/m
+photo.34.author: daniele.tokyo
+photo.34.commitdate: 2022/4/10
+photo.34.link: https://www.instagram.com/daniele.tokyo/
+photo.34.tags: close-up, paws, snow, whiskers
+species: 2
+studbook.id: 0867
+uncertainty: death exact date in 2022 (jan or feb)
+zoo: 23

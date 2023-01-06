@@ -1,0 +1,280 @@
+[panda]
+_id: 999
+birthday: 2018/6/23
+birthplace: 65
+children: 1185, 1186
+commitdate: 2019/10/24
+en.name: Kora
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: コラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1000
+location.1: 65, 2018/6/23
+location.2: 43, 2020/1/1
+photo.1: ig://BzNYYOKApU6/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2019/7/2
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: smile, tree
+photo.2: ig://B1oidNZnNl5/m
+photo.2.author: shaesavestheplanet
+photo.2.commitdate: 2020/2/27
+photo.2.link: https://www.instagram.com/shaesavestheplanet/
+photo.2.tags: smile, whiskers
+photo.3: ig://B7PksWIAtVK/m
+photo.3.author: kyle_kaptures_photography
+photo.3.commitdate: 2020/7/23
+photo.3.link: https://www.instagram.com/kyle_kaptures_photography/
+photo.3.tags: bamboo, portrait, tongue
+photo.4: ig://B7PnaXuAybj/m
+photo.4.author: kyle_kaptures_photography
+photo.4.commitdate: 2020/7/23
+photo.4.link: https://www.instagram.com/kyle_kaptures_photography/
+photo.4.tags: bamboo, paws, portrait, standing, tongue
+photo.5: ig://B7PqkBhgKME/m
+photo.5.author: kyle_kaptures_photography
+photo.5.commitdate: 2020/7/23
+photo.5.link: https://www.instagram.com/kyle_kaptures_photography/
+photo.5.tags: bamboo, laying down, paws, portrait, tongue
+photo.6: ig://B7Pq4tEga4P/m
+photo.6.author: kyle_kaptures_photography
+photo.6.commitdate: 2020/7/23
+photo.6.link: https://www.instagram.com/kyle_kaptures_photography/
+photo.6.tags: bamboo, laying down, portrait, tongue
+photo.7: ig://B7_YNz0FxtF/m
+photo.7.author: columbuszoo
+photo.7.commitdate: 2020/2/3
+photo.7.link: https://www.instagram.com/columbuszoo/
+photo.7.tags: tail, whiskers
+photo.8: ig://B8runaIF7Id/m
+photo.8.author: jiayue_2015
+photo.8.commitdate: 2020/7/23
+photo.8.link: https://www.instagram.com/jiayue_2015/
+photo.8.tags: grumpy, mofumofu, portrait
+photo.9: ig://B8rvgA7hUbT/m
+photo.9.author: yanliang_24
+photo.9.commitdate: 2020/7/23
+photo.9.link: https://www.instagram.com/yanliang_24/
+photo.9.tags: bamboo, portrait, tongue
+photo.10: ig://B8sSaBlhv0v/m
+photo.10.author: yanliang_24
+photo.10.commitdate: 2020/7/23
+photo.10.link: https://www.instagram.com/yanliang_24/
+photo.10.tags: portrait, whiskers
+photo.11: ig://B9BxvsJFjlt/m
+photo.11.author: daufdencamp
+photo.11.commitdate: 2020/7/23
+photo.11.link: https://www.instagram.com/daufdencamp/
+photo.11.tags: bamboo, bridge, tail, whiskers
+photo.12: ig://B9R3PIBl_gM/m
+photo.12.author: columbuszoo
+photo.12.commitdate: 2020/3/8
+photo.12.link: https://www.instagram.com/columbuszoo/
+photo.12.tags: paws, tree
+photo.13: ig://B9z18KyBUUy/m
+photo.13.author: columbuszoo
+photo.13.commitdate: 2020/4/28
+photo.13.link: https://www.instagram.com/columbuszoo/
+photo.13.tags: portrait, toys
+photo.14: ig://B-IXSmiFLCw/m
+photo.14.author: columbuszoo
+photo.14.commitdate: 2020/4/28
+photo.14.link: https://www.instagram.com/columbuszoo/
+photo.14.tags: bamboo, paws, tail, tongue
+photo.15: ig://CDAyhLxBCrx/m
+photo.15.author: columbuszoo
+photo.15.commitdate: 2020/7/31
+photo.15.link: https://www.instagram.com/columbuszoo/
+photo.15.tags: paws, portrait, profile, smile, tongue, tree
+photo.16: ig://CDWznychRcv/m
+photo.16.author: yanliang_24
+photo.16.commitdate: 2022/1/29
+photo.16.link: https://www.instagram.com/yanliang_24/
+photo.16.tags: close-up, laying down, portrait, whiskers
+photo.17: ig://CD_RihvAzRJ/m
+photo.17.author: rossifari
+photo.17.commitdate: 2020/9/14
+photo.17.link: https://www.instagram.com/rossifari/
+photo.17.tags: portrait, tongue, whiskers
+photo.18: ig://CEbmScYHR2g/m
+photo.18.author: rossifari
+photo.18.commitdate: 2020/9/14
+photo.18.link: https://www.instagram.com/rossifari/
+photo.18.tags: close-up, paws, standing, tail, tongue, whiskers
+photo.19: ig://CE9EDJ_HPJA/m
+photo.19.author: rossifari
+photo.19.commitdate: 2020/9/15
+photo.19.link: https://www.instagram.com/rossifari/
+photo.19.tags: close-up, nose, paws
+photo.20: ig://CF9b66ggB8D/m
+photo.20.author: rossifari
+photo.20.commitdate: 2020/10/11
+photo.20.link: https://www.instagram.com/rossifari/
+photo.20.tags: close-up, portrait, whiskers
+photo.21: ig://CGHvrAKAKwB/m
+photo.21.author: rossifari
+photo.21.commitdate: 2020/10/11
+photo.21.link: https://www.instagram.com/rossifari/
+photo.21.tags: portrait, smile, whiskers
+photo.22: ig://CHrbvwpA_m2/m
+photo.22.author: lipscer
+photo.22.commitdate: 2021/9/18
+photo.22.link: https://www.instagram.com/lipscer/
+photo.22.tags: portrait, tree, whiskers
+photo.23: ig://CHstTdDgzhs/m
+photo.23.author: lipscer
+photo.23.commitdate: 2021/9/18
+photo.23.link: https://www.instagram.com/lipscer/
+photo.23.tags: mofumofu, paws, tail, tree
+photo.24: ig://CH7-9GhATL0/m
+photo.24.author: lipscer
+photo.24.commitdate: 2021/9/18
+photo.24.link: https://www.instagram.com/lipscer/
+photo.24.tags: bamboo, portrait
+photo.25: ig://CJyhOCrAYY6/m
+photo.25.author: lipscer
+photo.25.commitdate: 2021/9/18
+photo.25.link: https://www.instagram.com/lipscer/
+photo.25.tags: portrait, whiskers
+photo.26: ig://CKHLdeKg3Jh/m
+photo.26.author: lipscer
+photo.26.commitdate: 2021/9/18
+photo.26.link: https://www.instagram.com/lipscer/
+photo.26.tags: laying down
+photo.27: ig://CKHnzt4A16S/m
+photo.27.author: lipscer
+photo.27.commitdate: 2021/9/18
+photo.27.link: https://www.instagram.com/lipscer/
+photo.27.tags: peek, whiskers
+photo.28: ig://CLFRjWdnqN-/m
+photo.28.author: columbuszoo
+photo.28.commitdate: 2021/2/16
+photo.28.link: https://www.instagram.com/columbuszoo/
+photo.28.tags: apple time, paws, snow, standing
+photo.29: ig://CLl_2xdATFC/m
+photo.29.author: rossifari
+photo.29.commitdate: 2021/3/21
+photo.29.link: https://www.instagram.com/rossifari/
+photo.29.tags: climb, portrait
+photo.30: ig://CMKC--9LiXk/m
+photo.30.author: rossifari
+photo.30.commitdate: 2021/3/28
+photo.30.link: https://www.instagram.com/rossifari/
+photo.30.tags: air tasting, portrait, tongue, whiskers
+photo.31: ig://CMb9qBirUqr/m
+photo.31.author: rossifari
+photo.31.commitdate: 2021/6/13
+photo.31.link: https://www.instagram.com/rossifari/
+photo.31.tags: lips, peek, portrait, smile, tail, techitechi, whiskers
+photo.32: ig://COhTG34A3wG/m
+photo.32.author: Kim Pruim
+photo.32.commitdate: 2022/4/15
+photo.32.link: https://www.instagram.com/zoogirl22/
+photo.32.tags: close-up, laying down, sleeping
+photo.33: ig://CO4QKSggZJZ/m
+photo.33.author: Kim Pruim
+photo.33.commitdate: 2022/4/15
+photo.33.link: https://www.instagram.com/zoogirl22/
+photo.33.tags: paws, tail, whiskers
+photo.34: ig://CSprlgjN_JH/m
+photo.34.author: columbuszoo
+photo.34.commitdate: 2021/9/8
+photo.34.link: https://www.instagram.com/columbuszoo/
+photo.34.tags: smile
+photo.35: ig://CSvbaL2Lw9m/m
+photo.35.author: carsontheredpanda
+photo.35.commitdate: 2021/9/28
+photo.35.link: https://www.instagram.com/carsontheredpanda/
+photo.35.tags: close-up, door, laying down, portrait, smile, whiskers
+photo.36: ig://CTHzDgUrYuP/m
+photo.36.author: rossifari
+photo.36.commitdate: 2021/9/8
+photo.36.link: https://www.instagram.com/rossifari/
+photo.36.tags: whiskers
+photo.37: ig://CTPzb0eJrzc/m
+photo.37.author: carsontheredpanda
+photo.37.commitdate: 2021/9/8
+photo.37.link: https://www.instagram.com/carsontheredpanda/
+photo.37.tags: smile, whiskers
+photo.38: ig://CT_4wjhsjeH/m
+photo.38.author: rossifari
+photo.38.commitdate: 2021/9/29
+photo.38.link: https://www.instagram.com/rossifari/
+photo.38.tags: portrait, smile, whiskers
+photo.39: ig://CUDNKVRLT6q/m
+photo.39.author: lipscer
+photo.39.commitdate: 2021/9/29
+photo.39.link: https://www.instagram.com/lipscer/
+photo.39.tags: door, peek
+photo.40: ig://CUMcPdyLdKe/m
+photo.40.author: wumpwoast
+photo.40.commitdate: 2021/9/28
+photo.40.link: https://www.instagram.com/wumpwoast/
+photo.40.tags: portrait, tail, tongue
+photo.41: ig://CUNfa5GpmCy/m
+photo.41.author: wumpwoast
+photo.41.commitdate: 2021/9/28
+photo.41.link: https://www.instagram.com/wumpwoast/
+photo.41.tags: close-up, smile, whiskers
+photo.42: ig://CUODkLaLBUS/m
+photo.42.author: lipscer
+photo.42.commitdate: 2021/9/28
+photo.42.link: https://www.instagram.com/lipscer/
+photo.42.tags: whiskers
+photo.43: ig://CUSbsMPg4Ue/m
+photo.43.author: lipscer
+photo.43.commitdate: 2021/10/31
+photo.43.link: https://www.instagram.com/lipscer/
+photo.43.tags: laying down, smile, tail, tree
+photo.44: ig://CUS1vFjraGh/m
+photo.44.author: lipscer
+photo.44.commitdate: 2021/10/31
+photo.44.link: https://www.instagram.com/lipscer/
+photo.44.tags: paws, peek, tree, whiskers
+photo.45: ig://CUVunJTrCSa/m
+photo.45.author: rossifari
+photo.45.commitdate: 2021/10/31
+photo.45.link: https://www.instagram.com/rossifari/
+photo.45.tags: close-up, mofumofu, portrait, whiskers
+photo.46: ig://CUX_AzgrpIM/m
+photo.46.author: lipscer
+photo.46.commitdate: 2021/11/20
+photo.46.link: https://www.instagram.com/lipscer/
+photo.46.tags: portrait, whiskers
+photo.47: ig://CUiaDmqrmTB/m
+photo.47.author: lipscer
+photo.47.commitdate: 2021/10/31
+photo.47.link: https://www.instagram.com/lipscer/
+photo.47.tags: paws, portrait, smile, tail, whiskers
+photo.48: ig://CU0TH3QrqIT/m
+photo.48.author: lipscer
+photo.48.commitdate: 2021/11/12
+photo.48.link: https://www.instagram.com/lipscer/
+photo.48.tags: door, laying down, mofumofu, smile, whiskers
+photo.49: ig://CWR5rz8JtB3/m
+photo.49.author: wumpwoast
+photo.49.commitdate: 2022/3/13
+photo.49.link: https://www.instagram.com/wumpwoast/
+photo.49.tags: close-up, portrait, whiskers
+photo.50: ig://CY4TDYqp2wp/m
+photo.50.author: carsontheredpanda
+photo.50.commitdate: 2022/2/9
+photo.50.link: https://www.instagram.com/carsontheredpanda/
+photo.50.tags: home, laying down, portrait, whiskers
+photo.51: ig://Cd5bLUUs43Z/m
+photo.51.author: rossifari
+photo.51.commitdate: 2022/7/27
+photo.51.link: https://www.instagram.com/rossifari/
+photo.51.tags: lunch time, portrait, sample, smile, tongue, whiskers
+photo.52: ig://ChcEAL8MTia/m
+photo.52.author: rossifari
+photo.52.commitdate: 2022/8/19
+photo.52.link: https://www.instagram.com/rossifari/
+photo.52.tags: portrait, sample, smile, whiskers
+species: 2
+uncertainty: location.2 exact date (announced 1/31/20)
+zoo: 43

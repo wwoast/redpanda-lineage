@@ -1,0 +1,21 @@
+[panda]
+_id: 592
+birthday: 1994/6/17
+birthplace: 10
+children: 591
+commitdate: 2019/3/19
+death: 2014/1/31
+en.name: Pan-Pan
+en.nicknames: none
+en.othernames: Panpan
+gender: f
+jp.name: パンパン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 593
+location.1: 10, 1994/6/17
+location.2: 22, 1996/12/13
+species: 2
+studbook.id: 9442
+zoo: 22

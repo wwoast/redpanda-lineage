@@ -1,0 +1,71 @@
+[panda]
+_id: 1165
+birthday: 2002/6/29
+birthplace: 226
+children: 1166, 1167, 1153, 1154
+commitdate: 2020/5/17
+death: 2017/12/12
+en.name: Teajmunn
+en.nicknames: none
+en.othernames: Teaj
+gender: m
+jp.name: ティージャムン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 226, 2002/6/29
+location.2: 197, 2003/5/8
+location.3: 214, 2008/3/14
+photo.1: ig://BE_EW_xStd1/m
+photo.1.author: paradisewildlifepark
+photo.1.commitdate: 2020/5/17
+photo.1.link: https://www.instagram.com/paradisewildlifepark/
+photo.1.tags: bamboo, bite, techitechi
+photo.2: ig://BIcZ46Cj2oe/m
+photo.2.author: paradisewildlifepark
+photo.2.commitdate: 2020/5/17
+photo.2.link: https://www.instagram.com/paradisewildlifepark/
+photo.2.tags: lunch time, paws, portrait, whiskers
+photo.3: ig://BJDBxk_jILw/m
+photo.3.author: paradisewildlifepark
+photo.3.commitdate: 2020/5/17
+photo.3.link: https://www.instagram.com/paradisewildlifepark/
+photo.3.tags: dish, lunch time, paws, smile, tongue
+photo.4: ig://BKDaPQXDQ1e/m
+photo.4.author: paradisewildlifepark
+photo.4.commitdate: 2020/5/17
+photo.4.link: https://www.instagram.com/paradisewildlifepark/
+photo.4.tags: paws, whiskers
+photo.5: ig://BNm2lq9F893/m
+photo.5.author: paradisewildlifepark
+photo.5.commitdate: 2020/5/17
+photo.5.link: https://www.instagram.com/paradisewildlifepark/
+photo.5.tags: peek
+photo.6: ig://BS6mEUFhJTp/m
+photo.6.author: paradisewildlifepark
+photo.6.commitdate: 2020/5/17
+photo.6.link: https://www.instagram.com/paradisewildlifepark/
+photo.6.tags: blink, lunch time, paws, portrait, smile
+photo.7: ig://BUjdQcjhRIH/m
+photo.7.author: paradisewildlifepark
+photo.7.commitdate: 2020/5/17
+photo.7.link: https://www.instagram.com/paradisewildlifepark/
+photo.7.tags: close-up, paws, whiskers
+photo.8: ig://BVZiVkMhFjW/m
+photo.8.author: paradisewildlifepark
+photo.8.commitdate: 2020/5/17
+photo.8.link: https://www.instagram.com/paradisewildlifepark/
+photo.8.tags: lunch time, paws, tongue
+photo.9: ig://BV9ksm8haXh/m
+photo.9.author: paradisewildlifepark
+photo.9.commitdate: 2020/5/17
+photo.9.link: https://www.instagram.com/paradisewildlifepark/
+photo.9.tags: lunch time, paws, whiskers
+photo.10: ig://BZHDFIch7WW/m
+photo.10.author: paradisewildlifepark
+photo.10.commitdate: 2020/5/17
+photo.10.link: https://www.instagram.com/paradisewildlifepark/
+photo.10.tags: bamboo, smile, tongue
+species: 1
+zoo: 214

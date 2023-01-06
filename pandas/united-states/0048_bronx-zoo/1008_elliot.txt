@@ -1,0 +1,21 @@
+[panda]
+_id: 1008
+birthday: 2006/6/27
+birthplace: 80
+children: 584, 698
+commitdate: 2019/10/28
+death: 2013/7/9
+en.name: Elliot
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: エリオット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 80, 2006/6/27
+location.2: 161, 2007/6/19
+location.3: 48, 2011/11/16
+species: 1
+zoo: 48

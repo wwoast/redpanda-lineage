@@ -1,0 +1,20 @@
+[panda]
+_id: 1222
+birthday: 2019/7/11
+birthplace: 115
+children: none
+commitdate: 2020/9/13
+en.name: Penny
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ペニー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1221, 1223
+location.1: 115, 2019/7/11
+location.2: 159, 2020/10/1
+species: 1
+uncertainty: location.2 date
+zoo: 159

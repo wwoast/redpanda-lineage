@@ -1,0 +1,21 @@
+[panda]
+_id: 568
+birthday: 1995/7/9
+birthplace: 52
+children: none
+commitdate: 2019/3/11
+death: 2014/1/11
+en.name: You-You
+en.nicknames: none
+en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuu-Yuu, Youyou
+gender: m
+jp.name: ヨウヨウ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 370
+location.1: 52, 1995/7/9
+location.2: 50, 2003/3/5
+species: 2
+studbook.id: 95113
+zoo: 50

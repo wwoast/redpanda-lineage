@@ -1,0 +1,19 @@
+[zoo]
+_id: 3
+commitdate: 2018/6/10
+en.address: 2291-1 Seihicho Nakayamago, Saikai, Nagasaki Prefecture 851-3302, Japan
+en.location: Nagasaki Prefecture, Japan
+en.name: Nagasaki Bio Park
+flag: Japan
+jp.address: 〒851-3302 長崎県西海市西彼町中山郷2291-1
+jp.location: 長崎県西海市西彼町中山郷
+jp.name: 長崎バイオパーク
+language.order: jp, en
+latitude: 32.9884125
+longitude: 129.7810003
+map: https://goo.gl/maps/L1wXjRmYYeo
+photo.1: ig://BnIz3TRl7au/m
+photo.1.author: susumuriku
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/susumuriku/
+website: http://www.biopark.co.jp

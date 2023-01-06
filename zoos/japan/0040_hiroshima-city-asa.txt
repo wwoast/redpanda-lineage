@@ -1,0 +1,28 @@
+[zoo]
+_id: 40
+commitdate: 2018/6/26
+en.address: Asacho Oaza Dobutsuen, Asakita Ward, Hiroshima, Hiroshima Prefecture 731-3355, Japan
+en.location: Hiroshima Prefecture, Japan
+en.name: Hiroshima City Asa Zoological Park
+flag: Japan
+jp.address: 〒731-3355 広島県広島市安佐北区安佐町大字動物園
+jp.location: 広島市 広島県
+jp.name: 広島市安佐動物公園
+language.order: jp, en
+latitude: 34.4982738
+longitude: 132.4386406
+map: https://goo.gl/maps/6RKGqYpdxew
+photo.1: ig://BnRCDpAFQsw/m
+photo.1.author: kaba34
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/kaba34/
+photo.2: ig://B5En871BwCa/m
+photo.2.author: leonard_redmof
+photo.2.commitdate: 2019/11/24
+photo.2.link: https://www.instagram.com/leonard_redmof/
+photo.2.tags: profile
+photo.3: ig://B7xhhKuhEy6/m
+photo.3.author: kipekaila
+photo.3.commitdate: 2020/2/16
+photo.3.link: https://www.instagram.com/kipekaila/
+website: http://www.asazoo.jp/
