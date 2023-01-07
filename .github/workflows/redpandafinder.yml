@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 60
       - name: Build export/redpanda.json
         run: |
           pip install -r requirements.txt
