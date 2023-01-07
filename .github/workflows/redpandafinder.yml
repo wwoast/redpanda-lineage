@@ -11,8 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - name: Build export/redpanda.json
+        uses: actions/checkout@v3
         run: |
           pip install -r requirements.txt
           python ./build.py publish
@@ -20,8 +20,8 @@ jobs:
   publish:
     needs: build
     steps: 
-      - uses: actions/upload-pages-artifact@v1.0.7
       - name: Publish artifact for github pages
+        uses: actions/upload-pages-artifact@v1.0.7
         with:
           name: github-pages
           path: ${{ github.workspace }}
@@ -35,8 +35,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v1.2.3
       - name: Deploy github pages
+        uses: actions/deploy-pages@v1.2.3
         with:
           timeout: 600000
           error_count: 10
