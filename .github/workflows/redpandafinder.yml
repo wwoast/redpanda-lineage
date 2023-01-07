@@ -1,0 +1,31 @@
+name: deploy-redpandafinder-with-actions
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build export/redpanda.json
+        run: |
+          python ./build.py publish
+          rm .gitignore
+      - name: Publish artifact for github pages
+        uses: actions/upload-pages-artifact@1.0.7
+        with:
+          name: github-pages
+          path: /
+          retention-days: 1
+      - name: Deploy github pages
+        uses: actions/deploy-pages@v1.2.3
+        with:
+          emit_telemetry: false
+          timeout: 600000
+          error_count: 10
+          artifact_name: github-pages
