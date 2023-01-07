@@ -34,7 +34,7 @@ gender: <m|f|unknown>
 jp.name: ハルマキ
 jp.nicknames: <utf8-strings with comma separator|none>
 # first name in jp.othernames list used as furigana, or alternate kanji spelling
-jp.othernames: <utf8-strings with comma separator, first string is furigana|none>
+jp.othernames: <utf8-strings plus comma separator, first string is furigana|none>
 language.order: <list-of-language-prefixes-most-meaningful-for-this-entity>
 litter: <ids-for-panda-siblings-born-in-same-litter>
 location.1: <zoo-id-number>, <date-arrived-at-zoo>
