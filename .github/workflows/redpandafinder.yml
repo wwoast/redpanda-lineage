@@ -17,7 +17,7 @@ jobs:
           python ./build.py publish
           rm .gitignore
       - name: Publish artifact for github pages
-        uses: actions/upload-pages-artifact@1.0.7
+        uses: actions/upload-pages-artifact@v1.0.7
         with:
           name: github-pages
           path: /
