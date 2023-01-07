@@ -24,7 +24,7 @@ jobs:
           path: ${{ github.workspace }}
           retention-days: 1
   deploy:
-    needs: publish
+    needs: build
     runs-on: ubuntu-latest
     permissions: 
       pages: write
