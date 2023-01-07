@@ -19,6 +19,7 @@ jobs:
           rm .gitignore
   publish:
     needs: build
+    runs-on: ubuntu-latest
     steps: 
       - name: Publish artifact for github pages
         uses: actions/upload-pages-artifact@v1.0.7
@@ -28,6 +29,7 @@ jobs:
           retention-days: 1
   deploy:
     needs: publish
+    runs-on: ubuntu-latest
     permissions: 
       pages: write
       id-token: write
