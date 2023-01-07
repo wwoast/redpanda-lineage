@@ -7,11 +7,15 @@ commitdate: 2022/7/27
 en.name: Baby
 en.nicknames: none
 en.othernames: Aka-chan
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1374
+photo.1: https://www.instagram.com/p/CmbfeZbPDeW/media/?size=m
+photo.1.author: pantasanzoo1
+photo.1.link: https://www.instagram.com/pantasanzoo1/
+photo.1.tags: baby, mofumofu, whiskers
 species: 2
 zoo: 12
