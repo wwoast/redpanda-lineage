@@ -1,4 +1,4 @@
-name: deploy-redpandafinder-with-actions
+name: publish-redpandafinder
 on:
   push:
     branches:
