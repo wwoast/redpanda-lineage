@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1.0.7
         with:
           name: github-pages
-          path: /
+          path: $GITHUB_WORKSPACE/
           retention-days: 1
       - name: Deploy github pages
         uses: actions/deploy-pages@v1.2.3
