@@ -15,7 +15,7 @@ jobs:
       - name: Build export/redpanda.json
         run: |
           pip install -r requirements.txt
-          python ./build.py publish
+          python ./build.py --publish
           rm .gitignore
       - name: Publish artifact for github pages
         uses: actions/upload-pages-artifact@v1.0.7
@@ -24,7 +24,7 @@ jobs:
           path: ${{ github.workspace }}
           retention-days: 1
   deploy:
-    needs: build
+    needs: build  
     runs-on: ubuntu-latest
     permissions: 
       pages: write
