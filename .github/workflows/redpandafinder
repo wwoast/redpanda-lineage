@@ -1,4 +1,4 @@
-name: CI
+name: deploy-redpandafinder-with-actions
 on:
   push:
     branches: [ "master" ]
