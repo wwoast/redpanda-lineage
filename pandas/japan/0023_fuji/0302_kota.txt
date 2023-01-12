@@ -335,8 +335,9 @@ photo.64.author: miis_98
 photo.64.commitdate: 2022/12/20
 photo.64.link: https://www.instagram.com/miis_98/
 photo.64.tags: portrait, sample, tail, whiskers
-photo.65: https://www.instagram.com/p/Cm0GWldvvor/media/?size=m
+photo.65: ig://Cm0GWldvvor/m
 photo.65.author: nakacchi_desu
+photo.65.commitdate: 2023/1/12
 photo.65.link: https://www.instagram.com/nakacchi_desu/
 photo.65.tags: paws, sample, standing, tail, tree
 species: 2

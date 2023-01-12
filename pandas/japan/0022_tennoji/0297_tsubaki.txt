@@ -254,8 +254,9 @@ photo.48.author: mini_cochi
 photo.48.commitdate: 2022/10/14
 photo.48.link: https://www.instagram.com/mini_cochi/
 photo.48.tags: bamboo, portrait, sample, tongue, whiskers
-photo.49: https://www.instagram.com/p/CmyQJ49PPhY/media/?size=m
+photo.49: ig://CmyQJ49PPhY/m
 photo.49.author: makimaru18
+photo.49.commitdate: 2023/1/12
 photo.49.link: https://www.instagram.com/makimaru18/
 photo.49.tags: air tasting, portrait, sample, tongue, whiskers
 species: 2

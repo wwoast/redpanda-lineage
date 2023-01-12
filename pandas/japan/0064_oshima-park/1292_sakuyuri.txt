@@ -138,8 +138,9 @@ photo.25.author: oshimabranchoffice
 photo.25.commitdate: 2022/12/7
 photo.25.link: https://www.instagram.com/oshimabranchoffice/
 photo.25.tags: apple time, close-up, dish, portrait, sample
-photo.26: https://www.instagram.com/p/Cm0DiFjPi81/media/?size=m
+photo.26: ig://Cm0DiFjPi81/m
 photo.26.author: grskus_tk
+photo.26.commitdate: 2023/1/12
 photo.26.link: https://www.instagram.com/grskus_tk/
 photo.26.tags: laying down, peek, tail
 species: 2
