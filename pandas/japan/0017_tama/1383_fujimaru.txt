@@ -13,41 +13,45 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1384
-photo.1: ig://Ck3P_iHrZGm/m
-photo.1.author: mini_cochi
-photo.1.commitdate: 2022/12/19
-photo.1.link: https://www.instagram.com/mini_cochi/
-photo.1.tags: baby, bamboo, paws, portrait, sample, whiskers
-photo.2: ig://Ck3TAT-rDoV/m
+photo.1: ig://CkxotEyPSwZ/m
+photo.1.author: tamazoowalking
+photo.1.commitdate: 2023/1/11
+photo.1.link: https://www.instagram.com/tamazoowalking/
+photo.1.tags: baby, close-up, peek, portrait, whiskers
+photo.2: ig://Ck3P_iHrZGm/m
 photo.2.author: mini_cochi
-photo.2.commitdate: 2022/12/11
+photo.2.commitdate: 2022/12/19
 photo.2.link: https://www.instagram.com/mini_cochi/
-photo.2.tags: apple time, baby, mofumofu, peek, portrait, sample
-photo.3: ig://ClQ52VDPHk4/m
-photo.3.author: tamazoowalking
-photo.3.commitdate: 2023/1/11
-photo.3.link: https://www.instagram.com/tamazoowalking/
-photo.3.tags: baby, hammock, mofumofu, paws, portrait, sample, whiskers
-photo.4: ig://CmY3FmMPwp6/m
-photo.4.author: alto0908
+photo.2.tags: baby, bamboo, paws, portrait, sample, whiskers
+photo.3: ig://Ck3TAT-rDoV/m
+photo.3.author: mini_cochi
+photo.3.commitdate: 2022/12/11
+photo.3.link: https://www.instagram.com/mini_cochi/
+photo.3.tags: apple time, baby, mofumofu, peek, portrait, sample
+photo.4: ig://Ck-x272vB6_/m
+photo.4.author: tamazoowalking
 photo.4.commitdate: 2023/1/11
-photo.4.link: https://www.instagram.com/alto0908/
-photo.4.tags: baby, bamboo, portrait, sample
-photo.5: https://www.instagram.com/p/CmY2xVePNpK/media/?size=m
+photo.4.link: https://www.instagram.com/tamazoowalking/
+photo.4.tags: baby, climb, paws, tail, yawn
+photo.5: ig://Ck-6KVUPpXJ/m
 photo.5.author: tamazoowalking
+photo.5.commitdate: 2023/1/11
 photo.5.link: https://www.instagram.com/tamazoowalking/
-photo.5.tags: bamboo, portrait, sample, window
-photo.6: https://www.instagram.com/p/Ck-x272vB6_/media/?size=m
+photo.5.tags: baby, hammock, portrait, tail
+photo.6: ig://ClQ52VDPHk4/m
 photo.6.author: tamazoowalking
+photo.6.commitdate: 2023/1/11
 photo.6.link: https://www.instagram.com/tamazoowalking/
-photo.6.tags: baby, climb, paws, tail, yawn
-photo.7: https://www.instagram.com/p/Ck-6KVUPpXJ/media/?size=m
+photo.6.tags: baby, hammock, mofumofu, paws, portrait, sample, whiskers
+photo.7: ig://CmY2xVePNpK/m
 photo.7.author: tamazoowalking
+photo.7.commitdate: 2023/1/11
 photo.7.link: https://www.instagram.com/tamazoowalking/
-photo.7.tags: baby, hammock, portrait, tail
-photo.8: https://www.instagram.com/p/CkxotEyPSwZ/media/?size=m
-photo.8.author: tamazoowalking
-photo.8.link: https://www.instagram.com/tamazoowalking/
-photo.8.tags: baby, close-up, peek, portrait, whiskers
+photo.7.tags: bamboo, portrait, sample, window
+photo.8: ig://CmY3FmMPwp6/m
+photo.8.author: alto0908
+photo.8.commitdate: 2023/1/11
+photo.8.link: https://www.instagram.com/alto0908/
+photo.8.tags: baby, bamboo, portrait, sample
 species: 2
 zoo: 17

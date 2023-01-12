@@ -238,8 +238,9 @@ photo.45.author: alto0908
 photo.45.commitdate: 2023/1/11
 photo.45.link: https://www.instagram.com/alto0908/
 photo.45.tags: bamboo, portrait, sample, whiskers
-photo.46: https://www.instagram.com/p/CmxUteOBeET/media/?size=m
+photo.46: ig://CmxUteOBeET/m
 photo.46.author: alto0908
+photo.46.commitdate: 2023/1/11
 photo.46.link: https://www.instagram.com/alto0908/
 photo.46.tags: portrait, sample, whiskers
 species: 2

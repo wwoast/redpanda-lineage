@@ -67,25 +67,26 @@ photo.11.author: ssc6105
 photo.11.commitdate: 2020/11/10
 photo.11.link: https://www.instagram.com/ssc6105/
 photo.11.tags: blink, dish, portrait
-photo.12: ig://CUCs5NtMypC/m
-photo.12.author: otenba_redpanda
-photo.12.commitdate: 2021/10/1
-photo.12.link: https://www.instagram.com/otenba_redpanda/
-photo.12.tags: laying down, sleeping, tail, tree
-photo.13: ig://CdDzDUxr58E/m
-photo.13.author: mini_cochi
-photo.13.commitdate: 2022/6/6
-photo.13.link: https://www.instagram.com/mini_cochi/
-photo.13.tags: apple time, bite, keeper, portrait, sample
-photo.14: ig://Cf7qq9sPsBR/m
-photo.14.author: pantasanzoo1
-photo.14.commitdate: 2022/7/31
-photo.14.link: https://www.instagram.com/pantasanzoo1/
-photo.14.tags: paws, sample, tongue, tree
-photo.15: https://www.instagram.com/p/CFeDlS-hjtY/media/?size=m
-photo.15.author: tamazoowalking
-photo.15.link: https://www.instagram.com/tamazoowalking/
-photo.15.tags: paws, portrait, sample, whiskers
+photo.12: ig://CFeDlS-hjtY/m
+photo.12.author: tamazoowalking
+photo.12.commitdate: 2023/1/11
+photo.12.link: https://www.instagram.com/tamazoowalking/
+photo.12.tags: paws, portrait, sample, whiskers
+photo.13: ig://CUCs5NtMypC/m
+photo.13.author: otenba_redpanda
+photo.13.commitdate: 2021/10/1
+photo.13.link: https://www.instagram.com/otenba_redpanda/
+photo.13.tags: laying down, sleeping, tail, tree
+photo.14: ig://CdDzDUxr58E/m
+photo.14.author: mini_cochi
+photo.14.commitdate: 2022/6/6
+photo.14.link: https://www.instagram.com/mini_cochi/
+photo.14.tags: apple time, bite, keeper, portrait, sample
+photo.15: ig://Cf7qq9sPsBR/m
+photo.15.author: pantasanzoo1
+photo.15.commitdate: 2022/7/31
+photo.15.link: https://www.instagram.com/pantasanzoo1/
+photo.15.tags: paws, sample, tongue, tree
 species: 1
 studbook.id: 0999
 zoo: 59

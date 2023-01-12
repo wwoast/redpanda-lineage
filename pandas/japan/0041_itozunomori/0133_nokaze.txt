@@ -352,8 +352,9 @@ photo.68.author: yossi929
 photo.68.commitdate: 2023/1/1
 photo.68.link: https://www.instagram.com/yossi929/
 photo.68.tags: sample, whiskers
-photo.69: https://www.instagram.com/p/CmY2Tw4PKZS/media/?size=m
+photo.69: ig://CmY2Tw4PKZS/m
 photo.69.author: yossi929
+photo.69.commitdate: 2023/1/11
 photo.69.link: https://www.instagram.com/yossi929/
 photo.69.tags: paws, portrait, sample, whiskers
 species: 2

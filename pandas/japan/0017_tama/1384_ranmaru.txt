@@ -13,32 +13,34 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1383
-photo.1: ig://CkxwVLYLc3U/m
-photo.1.author: osopanda551
-photo.1.commitdate: 2022/12/11
-photo.1.link: https://www.instagram.com/osopanda551/
-photo.1.tags: baby, hammock, mofumofu, portrait, sample
-photo.2: ig://Ck3JajEv4lf/m
-photo.2.author: redpan22
-photo.2.commitdate: 2022/12/19
-photo.2.link: https://www.instagram.com/redpan22/
-photo.2.tags: baby, portrait, sample
-photo.3: ig://Cl0XeJiv8qP/m
-photo.3.author: tamazoowalking
-photo.3.commitdate: 2023/1/11
-photo.3.link: https://www.instagram.com/tamazoowalking/
-photo.3.tags: baby, mofumofu, paws, portrait, sample
-photo.4: ig://CmAkdmkp5CA/m
-photo.4.author: mini_cochi
-photo.4.commitdate: 2022/12/11
-photo.4.link: https://www.instagram.com/mini_cochi/
-photo.4.tags: baby, hammock, peek, portrait, tail
-photo.5: https://www.instagram.com/p/Ckxpdz9vvjm/media/?size=m
-photo.5.author: tamazoowalking
-photo.5.link: https://www.instagram.com/tamazoowalking/
-photo.5.tags: baby, close-up, portrait, sample, window
-photo.6: https://www.instagram.com/p/CmY3Xb-PBO0/media/?size=m
+photo.1: ig://Ckxpdz9vvjm/m
+photo.1.author: tamazoowalking
+photo.1.commitdate: 2023/1/11
+photo.1.link: https://www.instagram.com/tamazoowalking/
+photo.1.tags: baby, close-up, portrait, sample, window
+photo.2: ig://CkxwVLYLc3U/m
+photo.2.author: osopanda551
+photo.2.commitdate: 2022/12/11
+photo.2.link: https://www.instagram.com/osopanda551/
+photo.2.tags: baby, hammock, mofumofu, portrait, sample
+photo.3: ig://Ck3JajEv4lf/m
+photo.3.author: redpan22
+photo.3.commitdate: 2022/12/19
+photo.3.link: https://www.instagram.com/redpan22/
+photo.3.tags: baby, portrait, sample
+photo.4: ig://Cl0XeJiv8qP/m
+photo.4.author: tamazoowalking
+photo.4.commitdate: 2023/1/11
+photo.4.link: https://www.instagram.com/tamazoowalking/
+photo.4.tags: baby, mofumofu, paws, portrait, sample
+photo.5: ig://CmAkdmkp5CA/m
+photo.5.author: mini_cochi
+photo.5.commitdate: 2022/12/11
+photo.5.link: https://www.instagram.com/mini_cochi/
+photo.5.tags: baby, hammock, peek, portrait, tail
+photo.6: ig://CmY3Xb-PBO0/m
 photo.6.author: tamazoowalking
+photo.6.commitdate: 2023/1/11
 photo.6.link: https://www.instagram.com/tamazoowalking/
 photo.6.tags: baby, peek, portrait, sample
 species: 2

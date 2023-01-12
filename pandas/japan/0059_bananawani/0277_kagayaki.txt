@@ -158,30 +158,31 @@ photo.30.author: tetusara.ki_
 photo.30.commitdate: 2020/9/15
 photo.30.link: https://www.instagram.com/tetusara.ki_/
 photo.30.tags: laying down, mofumofu, portrait
-photo.31: ig://CdmbrkaPWo4/m
-photo.31.author: sasapan34
-photo.31.commitdate: 2022/6/6
-photo.31.link: https://www.instagram.com/sasapan34/
-photo.31.tags: paws, sample, whiskers
-photo.32: ig://CexcpjbP-ZO/m
-photo.32.author: miis_98
-photo.32.commitdate: 2022/6/21
-photo.32.link: https://www.instagram.com/miis_98/
-photo.32.tags: close-up, paws, portrait, sample, whiskers
-photo.33: ig://Cf6cWQKPOc-/m
-photo.33.author: pantasanzoo1
-photo.33.commitdate: 2022/7/31
-photo.33.link: https://www.instagram.com/pantasanzoo1/
-photo.33.tags: bamboo, peek
-photo.34: ig://ChmnR81r3rF/m
-photo.34.author: miis_98
-photo.34.commitdate: 2022/8/26
-photo.34.link: https://www.instagram.com/miis_98/
-photo.34.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.35: https://www.instagram.com/p/CFbO3UrB4-E/media/?size=m
-photo.35.author: tamazoowalking
-photo.35.link: https://www.instagram.com/tamazoowalking/
-photo.35.tags: portrait, sample, whiskers
+photo.31: ig://CFbO3UrB4-E/m
+photo.31.author: tamazoowalking
+photo.31.commitdate: 2023/1/11
+photo.31.link: https://www.instagram.com/tamazoowalking/
+photo.31.tags: portrait, sample, whiskers
+photo.32: ig://CdmbrkaPWo4/m
+photo.32.author: sasapan34
+photo.32.commitdate: 2022/6/6
+photo.32.link: https://www.instagram.com/sasapan34/
+photo.32.tags: paws, sample, whiskers
+photo.33: ig://CexcpjbP-ZO/m
+photo.33.author: miis_98
+photo.33.commitdate: 2022/6/21
+photo.33.link: https://www.instagram.com/miis_98/
+photo.33.tags: close-up, paws, portrait, sample, whiskers
+photo.34: ig://Cf6cWQKPOc-/m
+photo.34.author: pantasanzoo1
+photo.34.commitdate: 2022/7/31
+photo.34.link: https://www.instagram.com/pantasanzoo1/
+photo.34.tags: bamboo, peek
+photo.35: ig://ChmnR81r3rF/m
+photo.35.author: miis_98
+photo.35.commitdate: 2022/8/26
+photo.35.link: https://www.instagram.com/miis_98/
+photo.35.tags: laying down, mofumofu, portrait, sample, whiskers
 species: 1
 studbook.id: 1791
 zoo: 59

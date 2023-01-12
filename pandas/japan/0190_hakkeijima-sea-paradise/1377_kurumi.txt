@@ -63,46 +63,50 @@ photo.10.author: minatomirai215
 photo.10.commitdate: 2022/10/1
 photo.10.link: https://www.instagram.com/minatomirai215/
 photo.10.tags: baby, close-up, mofumofu, window
-photo.11: ig://CjIuRGNPlhI/m
-photo.11.author: nakacchi_desu
-photo.11.commitdate: 2022/10/1
-photo.11.link: https://www.instagram.com/nakacchi_desu/
-photo.11.tags: baby, close-up, paws, window
-photo.12: ig://CjJqjH_P4Zd/m
-photo.12.author: alto0908
-photo.12.commitdate: 2022/10/13
-photo.12.link: https://www.instagram.com/alto0908/
-photo.12.tags: close-up, laying down, mofumofu, paws, portrait, sample, tongue
-photo.13: ig://CjaYBJprvYa/m
+photo.11: ig://CjFdh_pP3AT/m
+photo.11.author: tamazoowalking
+photo.11.commitdate: 2023/1/11
+photo.11.link: https://www.instagram.com/tamazoowalking/
+photo.11.tags: baby, laying down, portrait, toys, upside-down
+photo.12: ig://CjG2idzBTyP/m
+photo.12.author: tamazoowalking
+photo.12.commitdate: 2023/1/11
+photo.12.link: https://www.instagram.com/tamazoowalking/
+photo.12.tags: baby, bite, keeper, paws
+photo.13: ig://CjIuRGNPlhI/m
 photo.13.author: nakacchi_desu
-photo.13.commitdate: 2022/10/20
+photo.13.commitdate: 2022/10/1
 photo.13.link: https://www.instagram.com/nakacchi_desu/
-photo.13.tags: laying down, toys
-photo.14: ig://CkQ0xgkBnAV/m
-photo.14.author: minatomirai215
-photo.14.commitdate: 2023/1/1
-photo.14.link: https://www.instagram.com/minatomirai215/
-photo.14.tags: baby, laying down, mofumofu, tail
-photo.15: ig://Ckn2s7Yvx74/m
-photo.15.author: pantasanzoo1
-photo.15.commitdate: 2022/12/24
-photo.15.link: https://www.instagram.com/pantasanzoo1/
-photo.15.tags: baby, whiskers, window
-photo.16: https://www.instagram.com/p/CjK_K_5vuGB/media/?size=m
+photo.13.tags: baby, close-up, paws, window
+photo.14: ig://CjJqjH_P4Zd/m
+photo.14.author: alto0908
+photo.14.commitdate: 2022/10/13
+photo.14.link: https://www.instagram.com/alto0908/
+photo.14.tags: close-up, laying down, mofumofu, paws, portrait, sample, tongue
+photo.15: ig://CjKY1CUPu6A/m
+photo.15.author: tamazoowalking
+photo.15.commitdate: 2023/1/11
+photo.15.link: https://www.instagram.com/tamazoowalking/
+photo.15.tags: baby, bottle, keeper, mofumofu, portrait
+photo.16: ig://CjK_K_5vuGB/m
 photo.16.author: tamazoowalking
+photo.16.commitdate: 2023/1/11
 photo.16.link: https://www.instagram.com/tamazoowalking/
 photo.16.tags: baby, laying down, mofumofu, toys
-photo.17: https://www.instagram.com/p/CjFdh_pP3AT/media/?size=m
-photo.17.author: tamazoowalking
-photo.17.link: https://www.instagram.com/tamazoowalking/
-photo.17.tags: baby, laying down, portrait, toys, upside-down
-photo.18: https://www.instagram.com/p/CjG2idzBTyP/media/?size=m
-photo.18.author: tamazoowalking
-photo.18.link: https://www.instagram.com/tamazoowalking/
-photo.18.tags: baby, bite, keeper, paws
-photo.19: https://www.instagram.com/p/CjKY1CUPu6A/media/?size=m
-photo.19.author: tamazoowalking
-photo.19.link: https://www.instagram.com/tamazoowalking/
-photo.19.tags: baby, bottle, keeper, mofumofu, portrait
+photo.17: ig://CjaYBJprvYa/m
+photo.17.author: nakacchi_desu
+photo.17.commitdate: 2022/10/20
+photo.17.link: https://www.instagram.com/nakacchi_desu/
+photo.17.tags: laying down, toys
+photo.18: ig://CkQ0xgkBnAV/m
+photo.18.author: minatomirai215
+photo.18.commitdate: 2023/1/1
+photo.18.link: https://www.instagram.com/minatomirai215/
+photo.18.tags: baby, laying down, mofumofu, tail
+photo.19: ig://Ckn2s7Yvx74/m
+photo.19.author: pantasanzoo1
+photo.19.commitdate: 2022/12/24
+photo.19.link: https://www.instagram.com/pantasanzoo1/
+photo.19.tags: baby, whiskers, window
 species: 2
 zoo: 190
