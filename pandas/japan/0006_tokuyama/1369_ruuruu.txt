@@ -4,9 +4,9 @@ birthday: 2022/6/17
 birthplace: 6
 children: none
 commitdate: 2022/7/14
-en.name: Luu-Luu
+en.name: Ruu-Ruu
 en.nicknames: none
-en.othernames: Luuluu, Ruuruu, Ruru, Lulu, Lu-Lu, Ru-Ru,
+en.othernames: Luu-Luu, Luuluu, Ruuruu, Ruru, Lulu, Lu-Lu, Ru-Ru,
 gender: m
 jp.name: ルールー
 jp.nicknames: none
@@ -83,5 +83,9 @@ photo.14.author: re_ichimaru
 photo.14.commitdate: 2022/12/10
 photo.14.link: https://www.instagram.com/re_ichimaru/
 photo.14.tags: baby, laying down, mofumofu, playing, portrait
+photo.15: https://www.instagram.com/p/CmeRqs1Px01/media/?size=m
+photo.15.author: kojikoji2011
+photo.15.link: https://www.instagram.com/kojikoji2011/
+photo.15.tags: baby, close-up, mofumofu, portrait, wet, whiskers
 species: 2
 zoo: 6
