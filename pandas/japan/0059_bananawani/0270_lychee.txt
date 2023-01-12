@@ -141,20 +141,21 @@ photo.26.author: fetorus_mami
 photo.26.commitdate: 2020/11/6
 photo.26.link: https://www.instagram.com/fetorus_mami/
 photo.26.tags: old, mofumofu, smile
-photo.27: ig://CHSwkJ2BrYC/m
-photo.27.author: firefoxpanda88
-photo.27.commitdate: 2020/11/15
-photo.27.link: https://www.instagram.com/firefoxpanda88/
-photo.27.tags: portrait
-photo.28: ig://Ck2OzsEuXA2/m
-photo.28.author: wumpwoast
-photo.28.commitdate: 2022/12/20
-photo.28.link: https://www.instagram.com/wumpwoast/
-photo.28.tags: paws, portrait, sample
-photo.29: https://www.instagram.com/p/CFbSneBB7D-/media/?size=m
-photo.29.author: tamazoowalking
-photo.29.link: https://www.instagram.com/tamazoowalking/
-photo.29.tags: laying down, portrait, sample
+photo.27: ig://CFbSneBB7D-/m
+photo.27.author: tamazoowalking
+photo.27.commitdate: 2023/1/11
+photo.27.link: https://www.instagram.com/tamazoowalking/
+photo.27.tags: laying down, portrait, sample
+photo.28: ig://CHSwkJ2BrYC/m
+photo.28.author: firefoxpanda88
+photo.28.commitdate: 2020/11/15
+photo.28.link: https://www.instagram.com/firefoxpanda88/
+photo.28.tags: portrait
+photo.29: ig://Ck2OzsEuXA2/m
+photo.29.author: wumpwoast
+photo.29.commitdate: 2022/12/20
+photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.tags: paws, portrait, sample
 species: 1
 studbook.id: 0577
 uncertainty: death month/day
