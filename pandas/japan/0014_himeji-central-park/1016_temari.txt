@@ -1027,8 +1027,9 @@ photo.203.author: colette.jp
 photo.203.commitdate: 2022/12/20
 photo.203.link: https://www.instagram.com/colette.jp/
 photo.203.tags: apple time, lips, paws, portrait, sample, standing
-photo.204: https://www.instagram.com/p/Cmd51SUvw0U/media/?size=m
+photo.204: ig://Cmd51SUvw0U/m
 photo.204.author: colette.jp
+photo.204.commitdate: 2023/1/11
 photo.204.link: https://www.instagram.com/colette.jp/
 photo.204.tags: climb, paws, peek, portrait, sample, whiskers, white face
 species: 2

@@ -23,8 +23,9 @@ photo.2.author: mini_cochi
 photo.2.commitdate: 2022/12/11
 photo.2.link: https://www.instagram.com/mini_cochi/
 photo.2.tags: apple time, baby, mofumofu, peek, portrait, sample
-photo.3: https://www.instagram.com/p/CmY3FmMPwp6/media/?size=m
+photo.3: ig://CmY3FmMPwp6/m
 photo.3.author: alto0908
+photo.3.commitdate: 2023/1/11
 photo.3.link: https://www.instagram.com/alto0908/
 photo.3.tags: baby, bamboo, portrait, sample
 species: 2

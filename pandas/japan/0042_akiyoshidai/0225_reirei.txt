@@ -214,8 +214,9 @@ photo.40.author: kojikoji2011
 photo.40.commitdate: 2022/10/14
 photo.40.link: https://www.instagram.com/kojikoji2011/
 photo.40.tags: apple time, keeper, paws, sample, whiskers
-photo.41: https://www.instagram.com/p/CmZSVu8vp6O/media/?size=m
+photo.41: ig://CmZSVu8vp6O/m
 photo.41.author: kojikoji2011
+photo.41.commitdate: 2023/1/11
 photo.41.link: https://www.instagram.com/kojikoji2011/
 photo.41.tags: portrait, sample, whiskers
 species: 2

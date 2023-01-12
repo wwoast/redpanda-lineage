@@ -729,12 +729,14 @@ photo.143.author: daniele.tokyo
 photo.143.commitdate: 2022/12/19
 photo.143.link: https://www.instagram.com/daniele.tokyo/
 photo.143.tags: autumn, bridge, climb, sample, tail, tree
-photo.144: https://www.instagram.com/p/CmY3i_BP_uM/media/?size=m
+photo.144: ig://CmY3i_BP_uM/m
 photo.144.author: minatomirai215
+photo.144.commitdate: 2023/1/11
 photo.144.link: https://www.instagram.com/minatomirai215/
 photo.144.tags: paws, portrait, sample, whiskers
-photo.145: https://www.instagram.com/p/Cmc_1a3vV2F/media/?size=m
+photo.145: ig://Cmc_1a3vV2F/m
 photo.145.author: framereim
+photo.145.commitdate: 2023/1/11
 photo.145.link: https://www.instagram.com/framereim/
 photo.145.tags: laying down, mofumofu, peek, portrait, tail, whiskers
 species: 2

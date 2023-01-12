@@ -480,8 +480,9 @@ photo.93.author: kiarino51
 photo.93.commitdate: 2023/1/6
 photo.93.link: https://www.instagram.com/kiarino51/
 photo.93.tags: bamboo, mofumofu, portrait, sample
-photo.94: https://www.instagram.com/p/CmgzYKOP8yr/media/?size=m
+photo.94: ig://CmgzYKOP8yr/m
 photo.94.author: kiarino51
+photo.94.commitdate: 2023/1/11
 photo.94.link: https://www.instagram.com/kiarino51/
 photo.94.tags: close-up, keeper, lunch time, portrait, sample
 species: 2

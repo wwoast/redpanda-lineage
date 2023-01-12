@@ -326,8 +326,9 @@ photo.63.author: alto0908
 photo.63.commitdate: 2022/8/31
 photo.63.link: https://www.instagram.com/alto0908/
 photo.63.tags: peek, portrait, sample, tail, whiskers
-photo.64: https://www.instagram.com/p/CmeIVSmvqgZ/media/?size=m
+photo.64: ig://CmeIVSmvqgZ/m
 photo.64.author: mini_cochi
+photo.64.commitdate: 2023/1/11
 photo.64.link: https://www.instagram.com/mini_cochi/
 photo.64.tags: paws, portrait, whiskers
 species: 2
