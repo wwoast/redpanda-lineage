@@ -9,3 +9,15 @@ photo.1.link: https://www.instagram.com/mini_cochi/
 photo.1.tags: bamboo, bite, relatives
 photo.1.tags.102.location: 150, 85
 photo.1.tags.240.location: 215, 190
+photo.2: https://www.instagram.com/tamazoowalking/p/CZEemlwMzpb/media/?size=l
+photo.2.author: tamazoowalking
+photo.2.link: https://www.instagram.com/tamazoowalking/
+photo.2.tags: relatives
+photo.2.tags.102.location: 355, 240
+photo.2.tags.240.location: 190, 150
+photo.3: https://www.instagram.com/p/CZCMuT3P8OY/media/?size=l
+photo.3.author: tamazoowalking
+photo.3.link: https://www.instagram.com/tamazoowalking/
+photo.3.tags: bamboo, climb, relatives, tail
+photo.3.tags.102.location: 280, 490
+photo.3.tags.240.location: 450, 70
