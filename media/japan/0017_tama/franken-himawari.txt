@@ -23,8 +23,9 @@ photo.3.link: https://www.instagram.com/alto0908/
 photo.3.tags: couple, paws, tongue
 photo.3.tags.8.location: 195, 185
 photo.3.tags.101.location: 110, 95
-photo.4: https://www.instagram.com/p/B_ZbMcuHUTE/media/?size=l
+photo.4: ig://B_ZbMcuHUTE/l
 photo.4.author: tamazoowalking
+photo.4.commitdate: 2023/1/13
 photo.4.link: https://www.instagram.com/tamazoowalking/
 photo.4.tags: couple, portrait, whiskers
 photo.4.tags.8.location: 545, 470

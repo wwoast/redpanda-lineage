@@ -61,40 +61,41 @@ photo.9.author: shrimpieaqua
 photo.9.commitdate: 2020/2/3
 photo.9.link: https://www.instagram.com/shrimpieaqua/
 photo.9.tags: bamboo, paws, portrait
-photo.10: ig://CNM192PhHNF/m
-photo.10.author: _sah_ax7
-photo.10.commitdate: 2021/6/20
-photo.10.link: https://www.instagram.com/_sah_ax7/
-photo.10.tags: apple time, paws
-photo.11: ig://CO10QeGBYxf/m
-photo.11.author: miis_98
-photo.11.commitdate: 2021/6/6
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: portrait, whiskers
-photo.12: ig://CReynTQBG0b/m
-photo.12.author: fetorus_mami
-photo.12.commitdate: 2021/8/2
-photo.12.link: https://www.instagram.com/fetorus_mami/
-photo.12.tags: close-up, techitechi, whiskers
-photo.13: ig://CRvzc34hr6J/m
-photo.13.author: _sah_ax7
-photo.13.commitdate: 2021/8/7
-photo.13.link: https://www.instagram.com/_sah_ax7/
-photo.13.tags: laying down, sleeping, whiskers
-photo.14: ig://CSmBIDjnUbU/m
-photo.14.author: mini_cochi
-photo.14.commitdate: 2021/8/18
-photo.14.link: https://www.instagram.com/mini_cochi/
-photo.14.tags: apple time, close-up, portrait, tongue, whiskers
-photo.15: ig://CfqirRSP67F/m
-photo.15.author: pantasanzoo1
-photo.15.commitdate: 2022/7/31
-photo.15.link: https://www.instagram.com/pantasanzoo1/
-photo.15.tags: bamboo, paws, sample, standing
-photo.16: https://www.instagram.com/p/CFauRJehIEG/media/?size=m
-photo.16.author: tamazoowalking
-photo.16.link: https://www.instagram.com/tamazoowalking/
-photo.16.tags: portrait, sample, tail, whiskers
+photo.10: ig://CFauRJehIEG/m
+photo.10.author: tamazoowalking
+photo.10.commitdate: 2023/1/13
+photo.10.link: https://www.instagram.com/tamazoowalking/
+photo.10.tags: portrait, sample, tail, whiskers
+photo.11: ig://CNM192PhHNF/m
+photo.11.author: _sah_ax7
+photo.11.commitdate: 2021/6/20
+photo.11.link: https://www.instagram.com/_sah_ax7/
+photo.11.tags: apple time, paws
+photo.12: ig://CO10QeGBYxf/m
+photo.12.author: miis_98
+photo.12.commitdate: 2021/6/6
+photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: portrait, whiskers
+photo.13: ig://CReynTQBG0b/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2021/8/2
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: close-up, techitechi, whiskers
+photo.14: ig://CRvzc34hr6J/m
+photo.14.author: _sah_ax7
+photo.14.commitdate: 2021/8/7
+photo.14.link: https://www.instagram.com/_sah_ax7/
+photo.14.tags: laying down, sleeping, whiskers
+photo.15: ig://CSmBIDjnUbU/m
+photo.15.author: mini_cochi
+photo.15.commitdate: 2021/8/18
+photo.15.link: https://www.instagram.com/mini_cochi/
+photo.15.tags: apple time, close-up, portrait, tongue, whiskers
+photo.16: ig://CfqirRSP67F/m
+photo.16.author: pantasanzoo1
+photo.16.commitdate: 2022/7/31
+photo.16.link: https://www.instagram.com/pantasanzoo1/
+photo.16.tags: bamboo, paws, sample, standing
 species: 1
 studbook.id: 1173
 zoo: 59
