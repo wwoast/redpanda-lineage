@@ -95,15 +95,16 @@ photo.16.author: lincolnchildrenszoo
 photo.16.commitdate: 2022/8/30
 photo.16.link: https://www.instagram.com/carsontheredpanda/
 photo.16.tags: paws, sample, smile, whiskers
-photo.17: ig://CmZfP2-p9C7/m
+photo.17: ig://CmU_b1xOE4P/m
 photo.17.author: worldthathesees
-photo.17.commitdate: 2023/1/11
-photo.17.link: https://www.instagram.com/carsontheredpanda/
-photo.17.tags: portrait, smile, tongue, whiskers
-photo.18: https://www.instagram.com/p/CmU_b1xOE4P/media/?size=m
+photo.17.commitdate: 2023/1/14
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: dish, lips, lunch time, smile
+photo.18: ig://CmZfP2-p9C7/m
 photo.18.author: worldthathesees
-photo.18.link: https://www.instagram.com/worldthathesees/
-photo.18.tags: dish, lips, lunch time, smile
+photo.18.commitdate: 2023/1/11
+photo.18.link: https://www.instagram.com/carsontheredpanda/
+photo.18.tags: portrait, smile, tongue, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 80
