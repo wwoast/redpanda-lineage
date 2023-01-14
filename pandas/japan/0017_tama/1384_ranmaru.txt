@@ -38,14 +38,15 @@ photo.5.author: mini_cochi
 photo.5.commitdate: 2022/12/11
 photo.5.link: https://www.instagram.com/mini_cochi/
 photo.5.tags: baby, hammock, peek, portrait, tail
-photo.6: ig://CmY3Xb-PBO0/m
-photo.6.author: tamazoowalking
-photo.6.commitdate: 2023/1/11
-photo.6.link: https://www.instagram.com/tamazoowalking/
-photo.6.tags: baby, peek, portrait, sample
-photo.7: https://www.instagram.com/p/CmENJcwrQ0i/media/?size=m
-photo.7.author: mini_cochi
-photo.7.link: https://www.instagram.com/mini_cochi/
-photo.7.tags: portrait, sample
+photo.6: ig://CmENJcwrQ0i/m
+photo.6.author: mini_cochi
+photo.6.commitdate: 2023/1/14
+photo.6.link: https://www.instagram.com/mini_cochi/
+photo.6.tags: portrait, sample
+photo.7: ig://CmY3Xb-PBO0/m
+photo.7.author: tamazoowalking
+photo.7.commitdate: 2023/1/11
+photo.7.link: https://www.instagram.com/tamazoowalking/
+photo.7.tags: baby, peek, portrait, sample
 species: 2
 zoo: 17

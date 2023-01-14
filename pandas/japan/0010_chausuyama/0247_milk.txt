@@ -1427,10 +1427,11 @@ photo.283.author: taka__3428
 photo.283.commitdate: 2022/12/20
 photo.283.link: https://www.instagram.com/taka__3428/
 photo.283.tags: bamboo, close-up, muzzle, portrait, whiskers
-photo.284: https://www.instagram.com/p/CmwD-s4vNpn/media/?size=m
+photo.284: ig://CmwD-s4vNpn/m
 photo.284.author: redpan22
+photo.284.commitdate: 2023/1/14
 photo.284.link: https://www.instagram.com/redpan22/
-photo.284.tags: laying down, paws, playing, sample, snow, tail, upside-down 
+photo.284.tags: laying down, paws, playing, sample, snow, tail, upside-down
 species: 2
 studbook.id: unknown
 zoo: 10

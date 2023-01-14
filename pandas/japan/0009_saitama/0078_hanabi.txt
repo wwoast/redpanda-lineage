@@ -274,50 +274,51 @@ photo.53.author: ifumoto88
 photo.53.commitdate: 2022/1/13
 photo.53.link: https://www.instagram.com/ifumoto88/
 photo.53.tags: peek, portrait, tail, tree
-photo.54: ig://ssc6105/CXvZX6qv6Mz/m
-photo.54.author: ssc6105
-photo.54.commitdate: 2022/1/6
-photo.54.link: https://www.instagram.com/ssc6105/
-photo.54.tags: portrait, whiskers
-photo.55: ig://CXyg3oIFs6S/m
-photo.55.author: mini_cochi
-photo.55.commitdate: 2022/1/4
-photo.55.link: https://www.instagram.com/mini_cochi/
-photo.55.tags: mofumofu, portrait, sample, whiskers
-photo.56: ig://CYOeQVMP2UO/m
-photo.56.author: fetorus_mami
+photo.54: ig://CXbK2XlFsiM/m
+photo.54.author: mini_cochi
+photo.54.commitdate: 2023/1/14
+photo.54.link: https://www.instagram.com/mini_cochi/
+photo.54.tags: bamboo, portrait, sample, standing
+photo.55: ig://ssc6105/CXvZX6qv6Mz/m
+photo.55.author: ssc6105
+photo.55.commitdate: 2022/1/6
+photo.55.link: https://www.instagram.com/ssc6105/
+photo.55.tags: portrait, whiskers
+photo.56: ig://CXyg3oIFs6S/m
+photo.56.author: mini_cochi
 photo.56.commitdate: 2022/1/4
-photo.56.link: https://www.instagram.com/fetorus_mami/
-photo.56.tags: bamboo, bite, close-up, mofumofu, tongue
-photo.57: ig://CYSauQZP1aN/m
-photo.57.author: sasapan34
-photo.57.commitdate: 2022/6/2
-photo.57.link: https://www.instagram.com/sasapan34/
-photo.57.tags: bamboo, paws
-photo.58: ig://CZFzRvXhUH3/m
-photo.58.author: otenba_redpanda
-photo.58.commitdate: 2022/2/20
-photo.58.link: https://www.instagram.com/otenba_redpanda/
-photo.58.tags: bamboo, paws, portrait, sample, whiskers
-photo.59: ig://CdbBP6rPTM0/m
-photo.59.author: na.mo.pan
-photo.59.commitdate: 2022/6/2
-photo.59.link: https://www.instagram.com/na.mo.pan/
-photo.59.tags: laying down, sleeping, whiskers
-photo.60: ig://Cd2ZKFPJH1S/m
-photo.60.author: ssc6105
-photo.60.commitdate: 2022/8/28
-photo.60.link: https://www.instagram.com/ssc6105/
-photo.60.tags: blink, mofumofu, tree
-photo.61: ig://Cf6oxecvM__/m
-photo.61.author: fetorus_mami
-photo.61.commitdate: 2022/7/31
-photo.61.link: https://www.instagram.com/fetorus_mami/
-photo.61.tags: bamboo, mofumofu, paws, tongue
-photo.62: https://www.instagram.com/p/CXbK2XlFsiM/media/?size=m
-photo.62.author: mini_cochi
-photo.62.link: https://www.instagram.com/mini_cochi/
-photo.62.tags: bamboo, portrait, sample, standing
+photo.56.link: https://www.instagram.com/mini_cochi/
+photo.56.tags: mofumofu, portrait, sample, whiskers
+photo.57: ig://CYOeQVMP2UO/m
+photo.57.author: fetorus_mami
+photo.57.commitdate: 2022/1/4
+photo.57.link: https://www.instagram.com/fetorus_mami/
+photo.57.tags: bamboo, bite, close-up, mofumofu, tongue
+photo.58: ig://CYSauQZP1aN/m
+photo.58.author: sasapan34
+photo.58.commitdate: 2022/6/2
+photo.58.link: https://www.instagram.com/sasapan34/
+photo.58.tags: bamboo, paws
+photo.59: ig://CZFzRvXhUH3/m
+photo.59.author: otenba_redpanda
+photo.59.commitdate: 2022/2/20
+photo.59.link: https://www.instagram.com/otenba_redpanda/
+photo.59.tags: bamboo, paws, portrait, sample, whiskers
+photo.60: ig://CdbBP6rPTM0/m
+photo.60.author: na.mo.pan
+photo.60.commitdate: 2022/6/2
+photo.60.link: https://www.instagram.com/na.mo.pan/
+photo.60.tags: laying down, sleeping, whiskers
+photo.61: ig://Cd2ZKFPJH1S/m
+photo.61.author: ssc6105
+photo.61.commitdate: 2022/8/28
+photo.61.link: https://www.instagram.com/ssc6105/
+photo.61.tags: blink, mofumofu, tree
+photo.62: ig://Cf6oxecvM__/m
+photo.62.author: fetorus_mami
+photo.62.commitdate: 2022/7/31
+photo.62.link: https://www.instagram.com/fetorus_mami/
+photo.62.tags: bamboo, mofumofu, paws, tongue
 species: 2
 studbook.id: 11105
 zoo: 9

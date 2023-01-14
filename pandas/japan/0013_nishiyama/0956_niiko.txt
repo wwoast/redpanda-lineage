@@ -443,8 +443,9 @@ photo.86.author: jas_forever_love
 photo.86.commitdate: 2022/12/24
 photo.86.link: https://www.instagram.com/jas_forever_love/
 photo.86.tags: peek, portrait, sample, whiskers
-photo.87: https://www.instagram.com/p/CmwexRjv1eW/media/?size=m
+photo.87: ig://CmwexRjv1eW/m
 photo.87.author: gloryeui
+photo.87.commitdate: 2023/1/14
 photo.87.link: https://www.instagram.com/gloryeui/
 photo.87.tags: bamboo, mofumofu, portrait
 species: 2

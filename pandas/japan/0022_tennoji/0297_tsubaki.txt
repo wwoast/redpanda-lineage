@@ -254,17 +254,19 @@ photo.48.author: mini_cochi
 photo.48.commitdate: 2022/10/14
 photo.48.link: https://www.instagram.com/mini_cochi/
 photo.48.tags: bamboo, portrait, sample, tongue, whiskers
-photo.49: ig://CmyQJ49PPhY/m
-photo.49.author: makimaru18
-photo.49.commitdate: 2023/1/12
-photo.49.link: https://www.instagram.com/makimaru18/
-photo.49.tags: air tasting, portrait, sample, tongue, whiskers
-photo.50: https://www.instagram.com/p/Cmvm6hfLJWh/media/?size=m
-photo.50.author: minatomirai215
-photo.50.link: https://www.instagram.com/minatomirai215/
-photo.50.tags: portrait, sample, whiskers
-photo.51: https://www.instagram.com/p/CnB8a8NPmls/media/?size=m
+photo.49: ig://Cmvm6hfLJWh/m
+photo.49.author: minatomirai215
+photo.49.commitdate: 2023/1/14
+photo.49.link: https://www.instagram.com/minatomirai215/
+photo.49.tags: portrait, sample, whiskers
+photo.50: ig://CmyQJ49PPhY/m
+photo.50.author: makimaru18
+photo.50.commitdate: 2023/1/12
+photo.50.link: https://www.instagram.com/makimaru18/
+photo.50.tags: air tasting, portrait, sample, tongue, whiskers
+photo.51: ig://CnB8a8NPmls/m
 photo.51.author: tomo3700
+photo.51.commitdate: 2023/1/14
 photo.51.link: https://www.instagram.com/tomo3700/
 photo.51.tags: keeper, paws, portrait, sample, tongue
 species: 2

@@ -288,8 +288,9 @@ photo.55.author: shigeko0531
 photo.55.commitdate: 2022/10/13
 photo.55.link: https://www.instagram.com/shigeko0531/
 photo.55.tags: dish, mofumofu, paws, sample
-photo.56: https://www.instagram.com/p/CmWBP4nPBqK/media/?size=m
+photo.56: ig://CmWBP4nPBqK/m
 photo.56.author: shigeko0531
+photo.56.commitdate: 2023/1/14
 photo.56.link: https://www.instagram.com/shigeko0531/
 photo.56.tags: dish, snow
 species: 2

@@ -553,14 +553,16 @@ photo.109.author: itsuak
 photo.109.commitdate: 2022/12/24
 photo.109.link: https://www.instagram.com/itsuak/
 photo.109.tags: bamboo, laying down, portrait, sample, smile, whiskers
-photo.110: https://www.instagram.com/p/ClmZfGfBimM/media/?size=m
+photo.110: ig://ClZ12loh0cy/m
 photo.110.author: redpanda_nippon_takashi
+photo.110.commitdate: 2023/1/14
 photo.110.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.110.tags: close-up, smile, whiskers
-photo.111: https://www.instagram.com/p/ClZ12loh0cy/media/?size=m
+photo.110.tags: bamboo, laying down, portrait, sample, whiskers
+photo.111: ig://ClmZfGfBimM/m
 photo.111.author: redpanda_nippon_takashi
+photo.111.commitdate: 2023/1/14
 photo.111.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.111.tags: bamboo, laying down, portrait, sample, whiskers
+photo.111.tags: close-up, smile, whiskers
 species: 2
 studbook.id: 15159
 zoo: 46

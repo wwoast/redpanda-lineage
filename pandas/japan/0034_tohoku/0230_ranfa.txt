@@ -1118,8 +1118,9 @@ photo.222.author: hidehaya_biei
 photo.222.commitdate: 2023/1/1
 photo.222.link: https://www.instagram.com/hidehaya_biei/
 photo.222.tags: peek, sample, whiskers
-photo.223: https://www.instagram.com/p/CnB7mf9PhSh/media/?size=m
+photo.223: ig://CnB7mf9PhSh/m
 photo.223.author: daniele.tokyo
+photo.223.commitdate: 2023/1/14
 photo.223.link: https://www.instagram.com/daniele.tokyo/
 photo.223.tags: paws, sample, smile, whiskers
 species: 2
