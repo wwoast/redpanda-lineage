@@ -6,7 +6,7 @@ children: none
 commitdate: 2019/8/14
 en.name: Niiko
 en.nicknames: none
-en.othernames: none
+en.othernames: Nieco
 gender: f
 jp.name: ニーコ
 jp.nicknames: none
@@ -443,5 +443,9 @@ photo.86.author: jas_forever_love
 photo.86.commitdate: 2022/12/24
 photo.86.link: https://www.instagram.com/jas_forever_love/
 photo.86.tags: peek, portrait, sample, whiskers
+photo.87: https://www.instagram.com/p/CmwexRjv1eW/media/?size=m
+photo.87.author: gloryeui
+photo.87.link: https://www.instagram.com/gloryeui/
+photo.87.tags: bamboo, mofumofu, portrait
 species: 2
 zoo: 13
