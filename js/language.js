@@ -354,7 +354,7 @@ Language.L.gui = {
     "cn": "复制二维码链接",
     "en": "Copied QR code link",
     "es": "Enlace copiado",
-    "jp": "コピーしたQRコードのリンク",
+    "jp": "QRリンクをコピ",
     "np": "QR कोड लिङ्क प्रतिलिपि गरियो",
     "pt": "Link copiado"
   },
