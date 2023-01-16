@@ -351,12 +351,12 @@ Language.L.gui = {
     "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
   },
   "copied": {
-    "cn": "复制",
-    "en": "Copied",
-    "es": "Copiado",
-    "jp": "写す",
-    "np": "अनुकरण गनु",
-    "pt": "Copiado"
+    "cn": "复制二维码链接",
+    "en": "Copied link from QR code",
+    "es": "Enlace copiado del código QR",
+    "jp": "QRコードからコピーしたリンク",
+    "np": "QR कोडबाट लिंक प्रतिलिपि गरियो",
+    "pt": "Link copiado do código QR"
   },
   "fall": {
     "cn": "秋",   // Convenience duplicate of autumn
