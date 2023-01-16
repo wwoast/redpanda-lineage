@@ -352,11 +352,11 @@ Language.L.gui = {
   },
   "copied": {
     "cn": "复制二维码链接",
-    "en": "Copied link from QR code",
-    "es": "Enlace copiado del código QR",
-    "jp": "QRコードからコピーしたリンク",
-    "np": "QR कोडबाट लिंक प्रतिलिपि गरियो",
-    "pt": "Link copiado do código QR"
+    "en": "Copied QR code link",
+    "es": "Enlace copiado",
+    "jp": "コピーしたQRコードのリンク",
+    "np": "QR कोड लिङ्क प्रतिलिपि गरियो",
+    "pt": "Link copiado"
   },
   "fall": {
     "cn": "秋",   // Convenience duplicate of autumn
