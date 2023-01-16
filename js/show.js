@@ -565,7 +565,7 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   }
   qrcode.appendChild(qrHashLink);
   var copy_notice = document.createElement('span');
-  copy_notice.className = "notifier";
+  copy_notice.className = "notifier condensed";
   copy_notice.id = "copyToast";
   copy_notice.innerText = L.gui.copied[L.display];
   qrcode.appendChild(copy_notice);
