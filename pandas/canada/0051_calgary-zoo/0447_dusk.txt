@@ -4,6 +4,7 @@ birthday: 2004/6/2
 birthplace: 76
 children: 418, 460, 458, 459, 462, 1081
 commitdate: 2018/11/24
+death: 2023/1/10
 en.name: Dusk
 en.nicknames: none
 en.othernames: none
@@ -67,6 +68,11 @@ photo.10.author: garseeyaink
 photo.10.commitdate: 2021/8/27
 photo.10.link: https://www.instagram.com/garseeyaink/
 photo.10.tags: ear, portrait, whiskers
+photo.11: https://www.instagram.com/p/CnfRpnhNVI5/media/?size=m
+photo.11.author: thecalgaryzoo
+photo.11.link: https://www.instagram.com/thecalgaryzoo/
+photo.11.tags: ear, laying down, portrait, sample, whiskers
 species: 2
 studbook.id: 0437
+uncertainty: death exact day of week
 zoo: 51
