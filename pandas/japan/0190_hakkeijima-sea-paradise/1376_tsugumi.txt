@@ -133,13 +133,15 @@ photo.24.author: redpan22
 photo.24.commitdate: 2022/12/19
 photo.24.link: https://www.instagram.com/redpan22/
 photo.24.tags: baby, mofumofu, paws, tail, whiskers
-photo.25: https://www.instagram.com/p/CmTSDU-P2-E/media/?size=m
-photo.25.author: gloryeui
-photo.25.link: https://www.instagram.com/gloryeui/
-photo.25.tags: keeper, peek, portrait, sample, whiskers
-photo.26: https://www.instagram.com/p/Cle6m1mBi0i/media/?size=m
-photo.26.author: ssc6105
-photo.26.link: https://www.instagram.com/ssc6105/
-photo.26.tags: keeper, portrait, sample, whiskers
+photo.25: ig://Cle6m1mBi0i/m
+photo.25.author: ssc6105
+photo.25.commitdate: 2023/1/20
+photo.25.link: https://www.instagram.com/ssc6105/
+photo.25.tags: keeper, portrait, sample, whiskers
+photo.26: ig://CmTSDU-P2-E/m
+photo.26.author: gloryeui
+photo.26.commitdate: 2023/1/20
+photo.26.link: https://www.instagram.com/gloryeui/
+photo.26.tags: keeper, peek, portrait, sample, whiskers
 species: 2
 zoo: 190

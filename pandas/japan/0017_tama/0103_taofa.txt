@@ -913,8 +913,9 @@ photo.180.author: osopanda551
 photo.180.commitdate: 2022/10/20
 photo.180.link: https://www.instagram.com/osopanda551/
 photo.180.tags: bamboo, paws, portrait, sample, whiskers
-photo.181: https://www.instagram.com/p/CmU28DCBcPB/media/?size=m
+photo.181: ig://CmU28DCBcPB/m
 photo.181.author: ssc6105
+photo.181.commitdate: 2023/1/20
 photo.181.link: https://www.instagram.com/ssc6105/
 photo.181.tags: paws, sample, tree
 species: 2

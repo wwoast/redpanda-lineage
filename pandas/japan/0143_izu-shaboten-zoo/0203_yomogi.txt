@@ -404,8 +404,9 @@ photo.78.author: otenba_redpanda
 photo.78.commitdate: 2022/8/31
 photo.78.link: https://www.instagram.com/otenba_redpanda/
 photo.78.tags: portrait, sample, smile, tongue
-photo.79: https://www.instagram.com/p/CmUIboWvLmR/media/?size=m
+photo.79: ig://CmUIboWvLmR/m
 photo.79.author: fetorus_mami
+photo.79.commitdate: 2023/1/20
 photo.79.link: https://www.instagram.com/fetorus_mami/
 photo.79.tags: paws, sample, whiskers
 species: 2

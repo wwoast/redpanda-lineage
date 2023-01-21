@@ -318,8 +318,9 @@ photo.61.author: yossi929
 photo.61.commitdate: 2022/7/18
 photo.61.link: https://www.instagram.com/yossi929/
 photo.61.tags: paws, sample, tongue, whiskers
-photo.62: https://www.instagram.com/p/ClanDCSv23C/media/?size=m
+photo.62: ig://ClanDCSv23C/m
 photo.62.author: re_ichimaru
+photo.62.commitdate: 2023/1/20
 photo.62.link: https://www.instagram.com/re_ichimaru/
 photo.62.tags: climb, peek, sample, whiskers
 species: 2

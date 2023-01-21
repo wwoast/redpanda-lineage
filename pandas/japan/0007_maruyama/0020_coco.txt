@@ -1614,8 +1614,9 @@ photo.325.author: komabazoophoto
 photo.325.commitdate: 2023/1/14
 photo.325.link: https://www.instagram.com/komabazoophoto/
 photo.325.tags: portrait, sample, whiskers
-photo.326: https://www.instagram.com/p/CmSS54rhhDd/media/?size=m
+photo.326: ig://CmSS54rhhDd/m
 photo.326.author: hamamatsu.chiita
+photo.326.commitdate: 2023/1/20
 photo.326.link: https://www.instagram.com/hamamatsu.chiita/
 photo.326.tags: door, home, portrait
 species: 2

@@ -488,8 +488,9 @@ photo.96.author: miis_98
 photo.96.commitdate: 2022/7/31
 photo.96.link: https://www.instagram.com/miis_98/
 photo.96.tags: climb, lips, paws, sample, whiskers
-photo.97: https://www.instagram.com/p/CndpZMDPRsN/media/?size=m
+photo.97: ig://CndpZMDPRsN/m
 photo.97.author: miis_98
+photo.97.commitdate: 2023/1/20
 photo.97.link: https://www.instagram.com/miis_98/
 photo.97.tags: paws, peek, portrait, sample, spider
 species: 2

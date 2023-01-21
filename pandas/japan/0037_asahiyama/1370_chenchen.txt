@@ -18,13 +18,15 @@ photo.1.author: redpan22
 photo.1.commitdate: 2022/11/10
 photo.1.link: https://www.instagram.com/redpan22/
 photo.1.tags: baby, mofumofu, paws, portrait, profile, sample
-photo.2: https://www.instagram.com/p/CmWKF6LvzlE/media/?size=m
-photo.2.author: daniele.tokyo
-photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: baby, climb, paws, sample, snow
-photo.3: https://www.instagram.com/p/Cldf8idPfT6/media/?size=m
-photo.3.author: komabazoophoto
-photo.3.link: https://www.instagram.com/komabazoophoto/
-photo.3.tags: baby, climb, peek, portrait
+photo.2: ig://Cldf8idPfT6/m
+photo.2.author: komabazoophoto
+photo.2.commitdate: 2023/1/20
+photo.2.link: https://www.instagram.com/komabazoophoto/
+photo.2.tags: baby, climb, peek, portrait
+photo.3: ig://CmWKF6LvzlE/m
+photo.3.author: daniele.tokyo
+photo.3.commitdate: 2023/1/20
+photo.3.link: https://www.instagram.com/daniele.tokyo/
+photo.3.tags: baby, climb, paws, sample, snow
 species: 2
 zoo: 37

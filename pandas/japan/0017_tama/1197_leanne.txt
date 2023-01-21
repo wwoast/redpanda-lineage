@@ -648,19 +648,20 @@ photo.127.author: osopanda551
 photo.127.commitdate: 2022/10/20
 photo.127.link: https://www.instagram.com/osopanda551/
 photo.127.tags: portrait, sample, tail
-photo.128: ig://CmbUtd5vakM/m
-photo.128.author: osopanda551
-photo.128.commitdate: 2023/1/11
-photo.128.link: https://www.instagram.com/osopanda551/
-photo.128.tags: laying down, peek, portrait, sample, tail, tree
-photo.129: ig://CmwIK7evXl2/m
+photo.128: ig://CmOMxgivoPF/m
+photo.128.author: tamazoowalking
+photo.128.commitdate: 2023/1/20
+photo.128.link: https://www.instagram.com/tamazoowalking/
+photo.128.tags: autumn, paws, standing, tail
+photo.129: ig://CmbUtd5vakM/m
 photo.129.author: osopanda551
 photo.129.commitdate: 2023/1/11
 photo.129.link: https://www.instagram.com/osopanda551/
-photo.129.tags: bamboo, paws, portrait, sample, standing
-photo.130: https://www.instagram.com/p/CmOMxgivoPF/media/?size=m
-photo.130.author: tamazoowalking
-photo.130.link: https://www.instagram.com/tamazoowalking/
-photo.130.tags: autumn, paws, standing, tail
+photo.129.tags: laying down, peek, portrait, sample, tail, tree
+photo.130: ig://CmwIK7evXl2/m
+photo.130.author: osopanda551
+photo.130.commitdate: 2023/1/11
+photo.130.link: https://www.instagram.com/osopanda551/
+photo.130.tags: bamboo, paws, portrait, sample, standing
 species: 2
 zoo: 17

@@ -1495,14 +1495,16 @@ photo.298.author: ssc6105
 photo.298.commitdate: 2022/12/24
 photo.298.link: https://www.instagram.com/ssc6105/
 photo.298.tags: bite, paws, playing, sample, whiskers
-photo.299: https://www.instagram.com/p/CmTnTOvLqPK/media/?size=m
-photo.299.author: ifumoto88
-photo.299.link: https://www.instagram.com/ifumoto88/
-photo.299.tags: blink, close-up, laying down, paws, portrait, sample, whiskers, yawn
-photo.300: https://www.instagram.com/p/ClfPWOYPxbO/media/?size=m
-photo.300.author: na.mo.pan
-photo.300.link: https://www.instagram.com/na.mo.pan/
-photo.300.tags: dish, sample, whiskers
+photo.299: ig://ClfPWOYPxbO/m
+photo.299.author: na.mo.pan
+photo.299.commitdate: 2023/1/20
+photo.299.link: https://www.instagram.com/na.mo.pan/
+photo.299.tags: dish, sample, whiskers
+photo.300: ig://CmTnTOvLqPK/m
+photo.300.author: ifumoto88
+photo.300.commitdate: 2023/1/20
+photo.300.link: https://www.instagram.com/ifumoto88/
+photo.300.tags: blink, close-up, laying down, paws, portrait, sample, whiskers, yawn
 species: 2
 studbook.id: 15152
 zoo: 1

@@ -38,14 +38,15 @@ photo.5.author: sasapan34
 photo.5.commitdate: 2022/11/4
 photo.5.link: https://www.instagram.com/sasapan34/
 photo.5.tags: peek
-photo.6: ig://Cmd4eRpPbyX/m
-photo.6.author: daniele.tokyo
-photo.6.commitdate: 2023/1/11
-photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: apple time, bridge, climb, paws, snow, tail
-photo.7: https://www.instagram.com/p/Cln5Lm-vm1O/media/?size=m
-photo.7.author: komabazoophoto
-photo.7.link: https://www.instagram.com/komabazoophoto/
-photo.7.tags: baby, portrait, whiskers
+photo.6: ig://Cln5Lm-vm1O/m
+photo.6.author: komabazoophoto
+photo.6.commitdate: 2023/1/20
+photo.6.link: https://www.instagram.com/komabazoophoto/
+photo.6.tags: baby, portrait, whiskers
+photo.7: ig://Cmd4eRpPbyX/m
+photo.7.author: daniele.tokyo
+photo.7.commitdate: 2023/1/11
+photo.7.link: https://www.instagram.com/daniele.tokyo/
+photo.7.tags: apple time, bridge, climb, paws, snow, tail
 species: 2
 zoo: 37
