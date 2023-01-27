@@ -872,15 +872,16 @@ photo.172.author: ifumoto88
 photo.172.commitdate: 2022/11/4
 photo.172.link: https://www.instagram.com/ifumoto88/
 photo.172.tags: apple time, dish, lips, mofumofu, portrait, sample
-photo.173: ig://Cmbg9X3LdeY/m
-photo.173.author: ifumoto88
-photo.173.commitdate: 2023/1/11
-photo.173.link: https://www.instagram.com/ifumoto88/
-photo.173.tags: mofumofu, portrait, sample, whiskers
-photo.174: https://www.instagram.com/p/ClQw1DkP8PQ/media/?size=m
-photo.174.author: ssc6105
-photo.174.link: https://www.instagram.com/ssc6105/
-photo.174.tags: laying down, mofumofu, tongue, whiskers
+photo.173: ig://ClQw1DkP8PQ/m
+photo.173.author: ssc6105
+photo.173.commitdate: 2023/1/26
+photo.173.link: https://www.instagram.com/ssc6105/
+photo.173.tags: laying down, mofumofu, tongue, whiskers
+photo.174: ig://Cmbg9X3LdeY/m
+photo.174.author: ifumoto88
+photo.174.commitdate: 2023/1/11
+photo.174.link: https://www.instagram.com/ifumoto88/
+photo.174.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 10112
 zoo: 1

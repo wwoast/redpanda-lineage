@@ -270,8 +270,9 @@ photo.52.author: yossi929
 photo.52.commitdate: 2022/11/14
 photo.52.link: https://www.instagram.com/yossi929/
 photo.52.tags: mofumofu, paws, portrait, sample
-photo.53: https://www.instagram.com/p/CllGi-DPLVH/media/?size=m
+photo.53: ig://CllGi-DPLVH/m
 photo.53.author: re_ichimaru
+photo.53.commitdate: 2023/1/26
 photo.53.link: https://www.instagram.com/re_ichimaru/
 photo.53.tags: keeper, paws, standing
 species: 2

@@ -19,10 +19,6 @@ photo.1: ig://Cj8aOCsJbDY/m
 photo.1.author: zooboise
 photo.1.commitdate: 2022/11/29
 photo.1.link: https://www.instagram.com/zooboise/
-photo.1.tags: portrait, tail, whiskers
-photo.2: https://www.instagram.com/p/Cj8aOCsJbDY/media/?size=m
-photo.2.author: zooboise
-photo.2.link: https://www.instagram.com/zooboise/
-photo.2.tags: portrait, sample, whiskers
+photo.1.tags: portrait, sample, tail, whiskers
 species: 1
 zoo: 124

@@ -165,8 +165,9 @@ photo.30.author: happy_love2.15
 photo.30.commitdate: 2022/6/22
 photo.30.link: https://www.instagram.com/happy_love2.15/
 photo.30.tags: paws, portrait, sample, smile, tongue, whiskers
-photo.31: https://www.instagram.com/p/CljDQpyPA41/media/?size=m
+photo.31: ig://CljDQpyPA41/m
 photo.31.author: nakacchi_desu
+photo.31.commitdate: 2023/1/26
 photo.31.link: https://www.instagram.com/nakacchi_desu/
 photo.31.tags: sample, smile, tongue
 species: 2

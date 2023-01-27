@@ -806,24 +806,26 @@ photo.158.author: pantasanzoo1
 photo.158.commitdate: 2022/12/20
 photo.158.link: https://www.instagram.com/pantasanzoo1/
 photo.158.tags: bamboo, close-up, sample, whiskers
-photo.159: ig://CmaH-DshxQp/m
-photo.159.author: pantasanzoo1
-photo.159.commitdate: 2023/1/11
-photo.159.link: https://www.instagram.com/pantasanzoo1/
-photo.159.tags: peek, sample, whiskers
-photo.160: ig://CnCEPCkPcW-/m
-photo.160.author: pantasanzoo1
-photo.160.commitdate: 2023/1/14
-photo.160.link: https://www.instagram.com/pantasanzoo1/
-photo.160.tags: blink, laying down, whiskers, yawn
-photo.161: https://www.instagram.com/p/CljVO05Pnam/media/?size=m
-photo.161.author: minatomirai215
-photo.161.link: https://www.instagram.com/minatomirai215/
-photo.161.tags: home, peek, portrait, sample, tongue, tree, whiskers
-photo.162: https://www.instagram.com/p/Cld0a6jPq18/media/?size=m
-photo.162.author: minatomirai215
-photo.162.link: https://www.instagram.com/minatomirai215/
-photo.162.tags: bridge, flowers, portrait, sample, whiskers
+photo.159: ig://Cld0a6jPq18/m
+photo.159.author: minatomirai215
+photo.159.commitdate: 2023/1/26
+photo.159.link: https://www.instagram.com/minatomirai215/
+photo.159.tags: bridge, flowers, portrait, sample, whiskers
+photo.160: ig://CljVO05Pnam/m
+photo.160.author: minatomirai215
+photo.160.commitdate: 2023/1/26
+photo.160.link: https://www.instagram.com/minatomirai215/
+photo.160.tags: home, peek, portrait, sample, tongue, tree, whiskers
+photo.161: ig://CmaH-DshxQp/m
+photo.161.author: pantasanzoo1
+photo.161.commitdate: 2023/1/11
+photo.161.link: https://www.instagram.com/pantasanzoo1/
+photo.161.tags: peek, sample, whiskers
+photo.162: ig://CnCEPCkPcW-/m
+photo.162.author: pantasanzoo1
+photo.162.commitdate: 2023/1/14
+photo.162.link: https://www.instagram.com/pantasanzoo1/
+photo.162.tags: blink, laying down, whiskers, yawn
 species: 2
 studbook.id: 12117
 zoo: 38

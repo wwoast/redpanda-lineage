@@ -690,24 +690,26 @@ photo.136.author: alto0908
 photo.136.commitdate: 2022/12/20
 photo.136.link: https://www.instagram.com/alto0908/
 photo.136.tags: autumn, paws, sample, smile, whiskers
-photo.137: ig://CmPysXmhwPn/m
-photo.137.author: alto0908
-photo.137.commitdate: 2023/1/20
-photo.137.link: https://www.instagram.com/alto0908/
-photo.137.tags: portrait, sample, whiskers
-photo.138: ig://CnAn77tBkg9/m
+photo.137: ig://ClgVo4xLaiS/m
+photo.137.author: mini_cochi
+photo.137.commitdate: 2023/1/26
+photo.137.link: https://www.instagram.com/mini_cochi/
+photo.137.tags: home, peek, sample
+photo.138: ig://Clhdz4_hcc_/m
 photo.138.author: alto0908
-photo.138.commitdate: 2023/1/14
+photo.138.commitdate: 2023/1/26
 photo.138.link: https://www.instagram.com/alto0908/
-photo.138.tags: portrait, sample, whiskers
-photo.139: https://www.instagram.com/p/ClgVo4xLaiS/media/?size=m
-photo.139.author: mini_cochi
-photo.139.link: https://www.instagram.com/mini_cochi/
-photo.139.tags: home, peek, sample
-photo.140: https://www.instagram.com/p/Clhdz4_hcc_/media/?size=m
+photo.138.tags: home, peek, portrait, sample, whiskers
+photo.139: ig://CmPysXmhwPn/m
+photo.139.author: alto0908
+photo.139.commitdate: 2023/1/20
+photo.139.link: https://www.instagram.com/alto0908/
+photo.139.tags: portrait, sample, whiskers
+photo.140: ig://CnAn77tBkg9/m
 photo.140.author: alto0908
+photo.140.commitdate: 2023/1/14
 photo.140.link: https://www.instagram.com/alto0908/
-photo.140.tags: home, peek, portrait, sample, whiskers
+photo.140.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 14142
 zoo: 45

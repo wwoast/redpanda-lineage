@@ -635,24 +635,26 @@ photo.124.author: na.mo.pan
 photo.124.commitdate: 2022/11/4
 photo.124.link: https://www.instagram.com/na.mo.pan/
 photo.124.tags: eye, laying down, paws, portrait, sample, smile, upside-down
-photo.125: ig://Cl3AJrbvVkM/m
+photo.125: ig://ClaJFAsPIYd/m
 photo.125.author: edogawa.kankyozaidan
-photo.125.commitdate: 2022/12/15
+photo.125.commitdate: 2023/1/26
 photo.125.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.125.tags: bamboo, door, laying down, paws, tail
-photo.126: ig://CmvrIVqPLaf/m
-photo.126.author: edogawa.kankyozaidan
-photo.126.commitdate: 2023/1/14
-photo.126.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.126.tags: bamboo, laying down, paws, sleeping
-photo.127: https://www.instagram.com/p/ClaJFAsPIYd/media/?size=m
+photo.125.tags: blink, home, peek
+photo.126: ig://CldZy1uOmXm/m
+photo.126.author: _sah_ax7
+photo.126.commitdate: 2023/1/26
+photo.126.link: https://www.instagram.com/_sah_ax7/
+photo.126.tags: door, old, peek
+photo.127: ig://Cl3AJrbvVkM/m
 photo.127.author: edogawa.kankyozaidan
+photo.127.commitdate: 2022/12/15
 photo.127.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.127.tags: blink, home, peek
-photo.128: https://www.instagram.com/p/CldZy1uOmXm/media/?size=m
-photo.128.author: _sah_ax7
-photo.128.link: https://www.instagram.com/_sah_ax7/
-photo.128.tags: door, old, peek
+photo.127.tags: bamboo, door, laying down, paws, tail
+photo.128: ig://CmvrIVqPLaf/m
+photo.128.author: edogawa.kankyozaidan
+photo.128.commitdate: 2023/1/14
+photo.128.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.128.tags: bamboo, laying down, paws, sleeping
 species: 2
 studbook.id: 00102
 zoo: 73

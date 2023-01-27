@@ -1072,8 +1072,9 @@ photo.212.author: yossi929
 photo.212.commitdate: 2022/12/10
 photo.212.link: https://www.instagram.com/yossi929/
 photo.212.tags: bamboo, paws, portrait, sample, whiskers
-photo.213: https://www.instagram.com/p/ClkiMsLrYwn/media/?size=m
+photo.213: ig://ClkiMsLrYwn/m
 photo.213.author: yossi929
+photo.213.commitdate: 2023/1/26
 photo.213.link: https://www.instagram.com/yossi929/
 photo.213.tags: sample, smile, whiskers
 species: 2

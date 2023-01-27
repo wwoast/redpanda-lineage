@@ -108,14 +108,15 @@ photo.19.author: pantasanzoo1
 photo.19.commitdate: 2022/12/24
 photo.19.link: https://www.instagram.com/pantasanzoo1/
 photo.19.tags: baby, whiskers, window
-photo.20: ig://CmTSUHjPbKw/m
-photo.20.author: gloryeui
-photo.20.commitdate: 2023/1/20
-photo.20.link: https://www.instagram.com/gloryeui/
-photo.20.tags: door, keeper, peek, tail
-photo.21: https://www.instagram.com/p/Clf9Q-0PjE7/media/?size=m
-photo.21.author: ssc6105
-photo.21.link: https://www.instagram.com/ssc6105/
-photo.21.tags: dish, mofumofu, portrait, sample
+photo.20: ig://Clf9Q-0PjE7/m
+photo.20.author: ssc6105
+photo.20.commitdate: 2023/1/26
+photo.20.link: https://www.instagram.com/ssc6105/
+photo.20.tags: dish, mofumofu, portrait, sample
+photo.21: ig://CmTSUHjPbKw/m
+photo.21.author: gloryeui
+photo.21.commitdate: 2023/1/20
+photo.21.link: https://www.instagram.com/gloryeui/
+photo.21.tags: door, keeper, peek, tail
 species: 2
 zoo: 190
