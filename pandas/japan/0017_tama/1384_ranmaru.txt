@@ -28,29 +28,30 @@ photo.3.author: redpan22
 photo.3.commitdate: 2022/12/19
 photo.3.link: https://www.instagram.com/redpan22/
 photo.3.tags: baby, portrait, sample
-photo.4: ig://Cl0XeJiv8qP/m
-photo.4.author: tamazoowalking
-photo.4.commitdate: 2023/1/11
-photo.4.link: https://www.instagram.com/tamazoowalking/
-photo.4.tags: baby, mofumofu, paws, portrait, sample
-photo.5: ig://CmAkdmkp5CA/m
-photo.5.author: mini_cochi
-photo.5.commitdate: 2022/12/11
-photo.5.link: https://www.instagram.com/mini_cochi/
-photo.5.tags: baby, hammock, peek, portrait, tail
-photo.6: ig://CmENJcwrQ0i/m
+photo.4: ig://ClD3-Etrmkx/m
+photo.4.author: ifumoto88
+photo.4.commitdate: 2023/1/27
+photo.4.link: https://www.instagram.com/ifumoto88/
+photo.4.tags: baby, peek, portrait, upside-down
+photo.5: ig://Cl0XeJiv8qP/m
+photo.5.author: tamazoowalking
+photo.5.commitdate: 2023/1/11
+photo.5.link: https://www.instagram.com/tamazoowalking/
+photo.5.tags: baby, mofumofu, paws, portrait, sample
+photo.6: ig://CmAkdmkp5CA/m
 photo.6.author: mini_cochi
-photo.6.commitdate: 2023/1/14
+photo.6.commitdate: 2022/12/11
 photo.6.link: https://www.instagram.com/mini_cochi/
-photo.6.tags: portrait, sample
-photo.7: ig://CmY3Xb-PBO0/m
-photo.7.author: tamazoowalking
-photo.7.commitdate: 2023/1/11
-photo.7.link: https://www.instagram.com/tamazoowalking/
-photo.7.tags: baby, peek, portrait, sample
-photo.8: https://www.instagram.com/p/ClD3-Etrmkx/media/?size=m
-photo.8.author: ifumoto88
-photo.8.link: https://www.instagram.com/ifumoto88/
-photo.8.tags: baby, peek, portrait, upside-down
+photo.6.tags: baby, hammock, peek, portrait, tail
+photo.7: ig://CmENJcwrQ0i/m
+photo.7.author: mini_cochi
+photo.7.commitdate: 2023/1/14
+photo.7.link: https://www.instagram.com/mini_cochi/
+photo.7.tags: portrait, sample
+photo.8: ig://CmY3Xb-PBO0/m
+photo.8.author: tamazoowalking
+photo.8.commitdate: 2023/1/11
+photo.8.link: https://www.instagram.com/tamazoowalking/
+photo.8.tags: baby, peek, portrait, sample
 species: 2
 zoo: 17

@@ -288,14 +288,15 @@ photo.55.author: shigeko0531
 photo.55.commitdate: 2022/10/13
 photo.55.link: https://www.instagram.com/shigeko0531/
 photo.55.tags: dish, mofumofu, paws, sample
-photo.56: ig://CmWBP4nPBqK/m
-photo.56.author: shigeko0531
-photo.56.commitdate: 2023/1/14
-photo.56.link: https://www.instagram.com/shigeko0531/
-photo.56.tags: dish, snow
-photo.57: https://www.instagram.com/p/ClBsqoRPUW5/media/?size=m
-photo.57.author: _rifa_p
-photo.57.link: https://www.instagram.com/_rifa_p/
-photo.57.tags: home, peek, tree
+photo.56: ig://ClBsqoRPUW5/m
+photo.56.author: _rifa_p
+photo.56.commitdate: 2023/1/27
+photo.56.link: https://www.instagram.com/_rifa_p/
+photo.56.tags: home, peek, tree
+photo.57: ig://CmWBP4nPBqK/m
+photo.57.author: shigeko0531
+photo.57.commitdate: 2023/1/14
+photo.57.link: https://www.instagram.com/shigeko0531/
+photo.57.tags: dish, snow
 species: 2
 zoo: 10

@@ -43,119 +43,120 @@ photo.6.author: daniele.tokyo
 photo.6.commitdate: 2021/11/11
 photo.6.link: https://www.instagram.com/daniele.tokyo/
 photo.6.tags: baby, laying down, mofumofu, portrait, tail
-photo.7: ig://CWQMHp6BC1L/m
-photo.7.author: daniele.tokyo
-photo.7.commitdate: 2021/11/21
-photo.7.link: https://www.instagram.com/daniele.tokyo/
-photo.7.tags: baby, laying down, mofumofu, paws, sample, tail
-photo.8: ig://CWQTnEaBoZ1/m
-photo.8.author: _sah_ax7
+photo.7: ig://CWI4YneJJ1F/m
+photo.7.author: mini_cochi
+photo.7.commitdate: 2023/1/27
+photo.7.link: https://www.instagram.com/mini_cochi/
+photo.7.tags: laying down, mofumofu
+photo.8: ig://CWQMHp6BC1L/m
+photo.8.author: daniele.tokyo
 photo.8.commitdate: 2021/11/21
-photo.8.link: https://www.instagram.com/_sah_ax7/
-photo.8.tags: baby, laying down, paws, tongue
-photo.9: ig://CWQXcENFg42/m
-photo.9.author: fetorus_mami
-photo.9.commitdate: 2022/1/19
-photo.9.link: https://www.instagram.com/fetorus_mami/
-photo.9.tags: baby, bamboo, mofumofu, tail
-photo.10: ig://CWSw7QIBIXI/m
-photo.10.author: daniele.tokyo
-photo.10.commitdate: 2021/12/17
-photo.10.link: https://www.instagram.com/daniele.tokyo/
-photo.10.tags: baby, mofumofu, peek, sample, whiskers
-photo.11: ig://CWlGfejFTvb/m
-photo.11.author: miis_98
-photo.11.commitdate: 2021/11/27
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: baby, laying down, mofumofu, paws, portrait, sample, tail
-photo.12: ig://CWy43yUh0Tq/m
-photo.12.author: taka__3428
-photo.12.commitdate: 2022/1/7
-photo.12.link: https://www.instagram.com/taka__3428/
-photo.12.tags: baby, videolink, window
-photo.13: ig://CW6s23rhvO7/m
-photo.13.author: otenba_redpanda
-photo.13.commitdate: 2021/12/19
-photo.13.link: https://www.instagram.com/otenba_redpanda/
-photo.13.tags: apple time, baby, mofumofu, portrait, sample
-photo.14: ig://CXSX0W2Fp9D/m
-photo.14.author: lesserpanda_shizuokacity_cp
-photo.14.commitdate: 2021/12/22
-photo.14.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.14.tags: baby, close-up
-photo.15: ig://CXm09L8Pot-/m
-photo.15.author: pantasanzoo1
-photo.15.commitdate: 2021/12/19
-photo.15.link: https://www.instagram.com/pantasanzoo1/
-photo.15.tags: baby, tail
-photo.16: ig://sasapan34/CYNIwfuhCQ0/m
-photo.16.author: sasapan34
-photo.16.commitdate: 2022/1/13
-photo.16.link: https://www.instagram.com/sasapan34/
-photo.16.tags: baby, mofumofu, paws, tail
-photo.17: ig://CYjHDQivw9V/m
-photo.17.author: taka__3428
-photo.17.commitdate: 2022/1/30
-photo.17.link: https://www.instagram.com/taka__3428/
-photo.17.tags: baby, laying down, paws
-photo.18: ig://CYyX9Lrv-jY/m
+photo.8.link: https://www.instagram.com/daniele.tokyo/
+photo.8.tags: baby, laying down, mofumofu, paws, sample, tail
+photo.9: ig://CWQTnEaBoZ1/m
+photo.9.author: _sah_ax7
+photo.9.commitdate: 2021/11/21
+photo.9.link: https://www.instagram.com/_sah_ax7/
+photo.9.tags: baby, laying down, paws, tongue
+photo.10: ig://CWQXcENFg42/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2022/1/19
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: baby, bamboo, mofumofu, tail
+photo.11: ig://CWSw7QIBIXI/m
+photo.11.author: daniele.tokyo
+photo.11.commitdate: 2021/12/17
+photo.11.link: https://www.instagram.com/daniele.tokyo/
+photo.11.tags: baby, mofumofu, peek, sample, whiskers
+photo.12: ig://CWlGfejFTvb/m
+photo.12.author: miis_98
+photo.12.commitdate: 2021/11/27
+photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: baby, laying down, mofumofu, paws, portrait, sample, tail
+photo.13: ig://CWy43yUh0Tq/m
+photo.13.author: taka__3428
+photo.13.commitdate: 2022/1/7
+photo.13.link: https://www.instagram.com/taka__3428/
+photo.13.tags: baby, videolink, window
+photo.14: ig://CW6s23rhvO7/m
+photo.14.author: otenba_redpanda
+photo.14.commitdate: 2021/12/19
+photo.14.link: https://www.instagram.com/otenba_redpanda/
+photo.14.tags: apple time, baby, mofumofu, portrait, sample
+photo.15: ig://CXSX0W2Fp9D/m
+photo.15.author: lesserpanda_shizuokacity_cp
+photo.15.commitdate: 2021/12/22
+photo.15.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.15.tags: baby, close-up
+photo.16: ig://CXm09L8Pot-/m
+photo.16.author: pantasanzoo1
+photo.16.commitdate: 2021/12/19
+photo.16.link: https://www.instagram.com/pantasanzoo1/
+photo.16.tags: baby, tail
+photo.17: ig://sasapan34/CYNIwfuhCQ0/m
+photo.17.author: sasapan34
+photo.17.commitdate: 2022/1/13
+photo.17.link: https://www.instagram.com/sasapan34/
+photo.17.tags: baby, mofumofu, paws, tail
+photo.18: ig://CYjHDQivw9V/m
 photo.18.author: taka__3428
-photo.18.commitdate: 2022/2/9
+photo.18.commitdate: 2022/1/30
 photo.18.link: https://www.instagram.com/taka__3428/
-photo.18.tags: laying down, paws, smile, tongue
-photo.19: ig://CY6JM_2Bu-B/m
+photo.18.tags: baby, laying down, paws
+photo.19: ig://CYyX9Lrv-jY/m
 photo.19.author: taka__3428
-photo.19.commitdate: 2022/2/21
+photo.19.commitdate: 2022/2/9
 photo.19.link: https://www.instagram.com/taka__3428/
-photo.19.tags: baby, bamboo, bite, close-up
-photo.20: ig://CZJlRNrvfhI/m
-photo.20.author: hamamatsu.chiita
-photo.20.commitdate: 2022/2/20
-photo.20.link: https://www.instagram.com/hamamatsu.chiita/
-photo.20.tags: baby, close-up, mofumofu, portrait, sample, whiskers
-photo.21: ig://CZK5QLpr4ue/m
-photo.21.author: otenba_redpanda
+photo.19.tags: laying down, paws, smile, tongue
+photo.20: ig://CY6JM_2Bu-B/m
+photo.20.author: taka__3428
+photo.20.commitdate: 2022/2/21
+photo.20.link: https://www.instagram.com/taka__3428/
+photo.20.tags: baby, bamboo, bite, close-up
+photo.21: ig://CZJlRNrvfhI/m
+photo.21.author: hamamatsu.chiita
 photo.21.commitdate: 2022/2/20
-photo.21.link: https://www.instagram.com/otenba_redpanda/
-photo.21.tags: baby, peek, portrait, whiskers
-photo.22: ig://CcMhOCfP_h5/m
-photo.22.author: grskus_tk
-photo.22.commitdate: 2022/7/1
-photo.22.link: https://www.instagram.com/grskus_tk/
-photo.22.tags: peek
-photo.23: ig://CcNe0Dhvo7z/m
-photo.23.author: taka__3428
-photo.23.commitdate: 2022/5/30
-photo.23.link: https://www.instagram.com/taka__3428/
-photo.23.tags: keeper, tongue
-photo.24: ig://CcVNAWwvU2W/m
+photo.21.link: https://www.instagram.com/hamamatsu.chiita/
+photo.21.tags: baby, close-up, mofumofu, portrait, sample, whiskers
+photo.22: ig://CZK5QLpr4ue/m
+photo.22.author: otenba_redpanda
+photo.22.commitdate: 2022/2/20
+photo.22.link: https://www.instagram.com/otenba_redpanda/
+photo.22.tags: baby, peek, portrait, whiskers
+photo.23: ig://CcMhOCfP_h5/m
+photo.23.author: grskus_tk
+photo.23.commitdate: 2022/7/1
+photo.23.link: https://www.instagram.com/grskus_tk/
+photo.23.tags: peek
+photo.24: ig://CcNe0Dhvo7z/m
 photo.24.author: taka__3428
-photo.24.commitdate: 2022/6/2
+photo.24.commitdate: 2022/5/30
 photo.24.link: https://www.instagram.com/taka__3428/
-photo.24.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
-photo.25: ig://CdKRXklLzrZ/m
-photo.25.author: lesserpanda_shizuokacity_cp
-photo.25.commitdate: 2022/6/11
-photo.25.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.25.tags: baby, bamboo, close-up, mofumofu, nose, sample
-photo.26: ig://CfIAi8kLlFV/m
-photo.26.author: otenba_redpanda
-photo.26.commitdate: 2022/7/28
-photo.26.link: https://www.instagram.com/otenba_redpanda/
-photo.26.tags: bamboo, mofumofu, portrait, profile, sample
-photo.27: ig://Cg0ltgRA1iH/m
-photo.27.author: lesserpanda_shizuokacity_cp
-photo.27.commitdate: 2022/8/5
-photo.27.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.27.tags: smile, whiskers
-photo.28: ig://CjaC7yAr374/m
-photo.28.author: nakacchi_desu
-photo.28.commitdate: 2022/10/20
-photo.28.link: https://www.instagram.com/nakacchi_desu/
-photo.28.tags: laying down, paws, tail, toys
-photo.29: https://www.instagram.com/p/CWI4YneJJ1F/media/?size=m
-photo.29.author: mini_cochi
-photo.29.link: https://www.instagram.com/mini_cochi/
-photo.29.tags: laying down, mofumofu
+photo.24.tags: keeper, tongue
+photo.25: ig://CcVNAWwvU2W/m
+photo.25.author: taka__3428
+photo.25.commitdate: 2022/6/2
+photo.25.link: https://www.instagram.com/taka__3428/
+photo.25.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
+photo.26: ig://CdKRXklLzrZ/m
+photo.26.author: lesserpanda_shizuokacity_cp
+photo.26.commitdate: 2022/6/11
+photo.26.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.26.tags: baby, bamboo, close-up, mofumofu, nose, sample
+photo.27: ig://CfIAi8kLlFV/m
+photo.27.author: otenba_redpanda
+photo.27.commitdate: 2022/7/28
+photo.27.link: https://www.instagram.com/otenba_redpanda/
+photo.27.tags: bamboo, mofumofu, portrait, profile, sample
+photo.28: ig://Cg0ltgRA1iH/m
+photo.28.author: lesserpanda_shizuokacity_cp
+photo.28.commitdate: 2022/8/5
+photo.28.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.28.tags: smile, whiskers
+photo.29: ig://CjaC7yAr374/m
+photo.29.author: nakacchi_desu
+photo.29.commitdate: 2022/10/20
+photo.29.link: https://www.instagram.com/nakacchi_desu/
+photo.29.tags: laying down, paws, tail, toys
 species: 2
 zoo: 16

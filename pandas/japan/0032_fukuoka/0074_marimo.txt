@@ -639,8 +639,9 @@ photo.126.author: yossi929
 photo.126.commitdate: 2022/12/20
 photo.126.link: https://www.instagram.com/yossi929/
 photo.126.tags: portrait, sample, smile, window
-photo.127: https://www.instagram.com/p/ClD6gi5PkkJ/media/?size=m
+photo.127: ig://ClD6gi5PkkJ/m
 photo.127.author: re_ichimaru
+photo.127.commitdate: 2023/1/27
 photo.127.link: https://www.instagram.com/re_ichimaru/
 photo.127.tags: grooming, laying down, paws, portrait, sample
 species: 2

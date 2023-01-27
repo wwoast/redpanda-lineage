@@ -1339,30 +1339,36 @@ photo.265.author: resapanlove
 photo.265.commitdate: 2022/11/16
 photo.265.link: https://www.instagram.com/resapanlove/
 photo.265.tags: mofumofu, portrait, sample
-photo.266: https://www.instagram.com/p/ClBS6X0rh2b/media/?size=m
-photo.266.author: yossi929
-photo.266.link: https://www.instagram.com/yossi929/
-photo.266.tags: laying down, mofumofu, portrait, sample, tree
-photo.267: https://www.instagram.com/p/ClCf2TShy0c/media/?size=m
-photo.267.author: tomo3700
-photo.267.link: https://www.instagram.com/tomo3700/
-photo.267.tags: apple time, dish, mofumofu, portrait, sample, whiskers
-photo.268: https://www.instagram.com/p/ClBcR7EvKTh/media/?size=m
-photo.268.author: colette.jp
-photo.268.link: https://www.instagram.com/colette.jp/
-photo.268.tags: paws, sample, smile, tree, whiskers
-photo.269: https://www.instagram.com/p/ClBOtkfvJuT/media/?size=m
-photo.269.author: jas_forever_love
-photo.269.link: https://www.instagram.com/jas_forever_love/
-photo.269.tags: close-up, sample, tongue, whiskers
-photo.270: https://www.instagram.com/p/ClBVMZMvFqs/media/?size=m
-photo.270.author: apple_jasmine33
-photo.270.link: https://www.instagram.com/apple_jasmine33/
-photo.270.tags: flowers, whiskers
-photo.271: https://www.instagram.com/p/ClBkHhKPbWC/media/?size=m
-photo.271.author: resapanlove
-photo.271.link: https://www.instagram.com/resapanlove/
-photo.271.tags: autumn, portrait, smile, whiskers
+photo.266: ig://ClBOtkfvJuT/m
+photo.266.author: jas_forever_love
+photo.266.commitdate: 2023/1/27
+photo.266.link: https://www.instagram.com/jas_forever_love/
+photo.266.tags: close-up, sample, tongue, whiskers
+photo.267: ig://ClBS6X0rh2b/m
+photo.267.author: yossi929
+photo.267.commitdate: 2023/1/27
+photo.267.link: https://www.instagram.com/yossi929/
+photo.267.tags: laying down, mofumofu, portrait, sample, tree
+photo.268: ig://ClBVMZMvFqs/m
+photo.268.author: apple_jasmine33
+photo.268.commitdate: 2023/1/27
+photo.268.link: https://www.instagram.com/apple_jasmine33/
+photo.268.tags: flowers, whiskers
+photo.269: ig://ClBcR7EvKTh/m
+photo.269.author: colette.jp
+photo.269.commitdate: 2023/1/27
+photo.269.link: https://www.instagram.com/colette.jp/
+photo.269.tags: paws, sample, smile, tree, whiskers
+photo.270: ig://ClBkHhKPbWC/m
+photo.270.author: resapanlove
+photo.270.commitdate: 2023/1/27
+photo.270.link: https://www.instagram.com/resapanlove/
+photo.270.tags: autumn, portrait, smile, whiskers
+photo.271: ig://ClCf2TShy0c/m
+photo.271.author: tomo3700
+photo.271.commitdate: 2023/1/27
+photo.271.link: https://www.instagram.com/tomo3700/
+photo.271.tags: apple time, dish, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0997
 zoo: 2
