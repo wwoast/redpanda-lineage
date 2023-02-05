@@ -1609,20 +1609,21 @@ photo.324.author: komabazoophoto
 photo.324.commitdate: 2022/10/6
 photo.324.link: https://www.instagram.com/komabazoophoto/
 photo.324.tags: laying down, mofumofu, portrait, sample, sleeping
-photo.325: ig://CmEKVb-vdWz/m
-photo.325.author: komabazoophoto
-photo.325.commitdate: 2023/1/14
-photo.325.link: https://www.instagram.com/komabazoophoto/
-photo.325.tags: portrait, sample, whiskers
-photo.326: ig://CmSS54rhhDd/m
-photo.326.author: hamamatsu.chiita
-photo.326.commitdate: 2023/1/20
-photo.326.link: https://www.instagram.com/hamamatsu.chiita/
-photo.326.tags: door, home, portrait
-photo.327: https://www.instagram.com/p/Clo5J5NBWty/media/?size=m
+photo.325: ig://Clo5J5NBWty/m
+photo.325.author: hamamatsu.chiita
+photo.325.commitdate: 2023/2/4
+photo.325.link: https://www.instagram.com/hamamatsu.chiita/
+photo.325.tags: close-up, portrait, sample, whiskers
+photo.326: ig://CmEKVb-vdWz/m
+photo.326.author: komabazoophoto
+photo.326.commitdate: 2023/1/14
+photo.326.link: https://www.instagram.com/komabazoophoto/
+photo.326.tags: portrait, sample, whiskers
+photo.327: ig://CmSS54rhhDd/m
 photo.327.author: hamamatsu.chiita
+photo.327.commitdate: 2023/1/20
 photo.327.link: https://www.instagram.com/hamamatsu.chiita/
-photo.327.tags: close-up, portrait, sample, whiskers
+photo.327.tags: door, home, portrait
 species: 2
 studbook.id: 0674
 zoo: 7

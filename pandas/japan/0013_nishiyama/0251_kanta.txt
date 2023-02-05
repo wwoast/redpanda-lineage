@@ -429,29 +429,31 @@ photo.83.author: fetorus_mami
 photo.83.commitdate: 2022/12/15
 photo.83.link: https://www.instagram.com/fetorus_mami/
 photo.83.tags: autumn, tail
-photo.84: ig://CmQt1PhvmTv/m
-photo.84.author: tomo3700
-photo.84.commitdate: 2023/1/6
-photo.84.link: https://www.instagram.com/tomo3700/
-photo.84.tags: portrait, sample, tree
-photo.85: ig://CmSZPf0BFUK/m
-photo.85.author: minato.yokohama4416
-photo.85.commitdate: 2023/1/6
-photo.85.link: https://www.instagram.com/minato.yokohama4416/
-photo.85.tags: bamboo, paws, portrait, sample
-photo.86: ig://CmV4YFxvs2j/m
-photo.86.author: minato.yokohama4416
+photo.84: ig://CltYN4nv2Mr/m
+photo.84.author: fetorus_mami
+photo.84.commitdate: 2023/2/4
+photo.84.link: https://www.instagram.com/fetorus_mami/
+photo.84.tags: close-up, lunch time, sample, whiskers
+photo.85: ig://Cluib34PCh2/m
+photo.85.author: resapanlove
+photo.85.commitdate: 2023/2/4
+photo.85.link: https://www.instagram.com/resapanlove/
+photo.85.tags: autumn, portrait, tail
+photo.86: ig://CmQt1PhvmTv/m
+photo.86.author: tomo3700
 photo.86.commitdate: 2023/1/6
-photo.86.link: https://www.instagram.com/minato.yokohama4416/
-photo.86.tags: bamboo, mofumofu, portrait, sample
-photo.87: https://www.instagram.com/p/Cluib34PCh2/media/?size=m
-photo.87.author: resapanlove
-photo.87.link: https://www.instagram.com/resapanlove/
-photo.87.tags: autumn, portrait, tail
-photo.88: https://www.instagram.com/p/CltYN4nv2Mr/media/?size=m
-photo.88.author: fetorus_mami
-photo.88.link: https://www.instagram.com/fetorus_mami/
-photo.88.tags: close-up, lunch time, sample, whiskers
+photo.86.link: https://www.instagram.com/tomo3700/
+photo.86.tags: portrait, sample, tree
+photo.87: ig://CmSZPf0BFUK/m
+photo.87.author: minato.yokohama4416
+photo.87.commitdate: 2023/1/6
+photo.87.link: https://www.instagram.com/minato.yokohama4416/
+photo.87.tags: bamboo, paws, portrait, sample
+photo.88: ig://CmV4YFxvs2j/m
+photo.88.author: minato.yokohama4416
+photo.88.commitdate: 2023/1/6
+photo.88.link: https://www.instagram.com/minato.yokohama4416/
+photo.88.tags: bamboo, mofumofu, portrait, sample
 species: 2
 studbook.id: unknown
 zoo: 13

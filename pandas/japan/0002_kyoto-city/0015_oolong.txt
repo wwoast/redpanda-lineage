@@ -1138,15 +1138,16 @@ photo.226.author: apple_jasmine33
 photo.226.commitdate: 2022/9/18
 photo.226.link: https://www.instagram.com/apple_jasmine33/
 photo.226.tags: apple time, paws, sample, smile, whiskers
-photo.227: ig://CmeFOAVvI3k/m
-photo.227.author: minatomirai215
-photo.227.commitdate: 2023/1/11
-photo.227.link: https://www.instagram.com/minatomirai215/
-photo.227.tags: bridge, portrait
-photo.228: https://www.instagram.com/p/ClDCVhnPrNl/media/?size=m
-photo.228.author: motohin
-photo.228.link: https://www.instagram.com/motohin/
-photo.228.tags: grooming, paws, portrait, tail
+photo.227: ig://ClDCVhnPrNl/m
+photo.227.author: motohin
+photo.227.commitdate: 2023/2/4
+photo.227.link: https://www.instagram.com/motohin/
+photo.227.tags: grooming, paws, portrait, tail
+photo.228: ig://CmeFOAVvI3k/m
+photo.228.author: minatomirai215
+photo.228.commitdate: 2023/1/11
+photo.228.link: https://www.instagram.com/minatomirai215/
+photo.228.tags: bridge, portrait
 species: 2
 studbook.id: 11131
 zoo: 2

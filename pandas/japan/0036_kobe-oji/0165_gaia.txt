@@ -1093,20 +1093,21 @@ photo.218.author: i.satosato
 photo.218.commitdate: 2022/12/20
 photo.218.link: https://www.instagram.com/i.satosato/
 photo.218.tags: paws, portrait, sample, whiskers
-photo.219: ig://CmT3Z0tPP_n/m
+photo.219: ig://ClTE8L6vwkK/m
 photo.219.author: i.satosato
-photo.219.commitdate: 2023/1/20
+photo.219.commitdate: 2023/2/4
 photo.219.link: https://www.instagram.com/i.satosato/
-photo.219.tags: door, paws, sample, tail
-photo.220: ig://CmaC4LFhdnx/m
-photo.220.author: tomo3700
-photo.220.commitdate: 2023/1/11
-photo.220.link: https://www.instagram.com/tomo3700/
-photo.220.tags: apple time, bite, keeper, portrait
-photo.221: https://www.instagram.com/p/ClTE8L6vwkK/media/?size=m
-photo.221.author: i.satosato
-photo.221.link: https://www.instagram.com/i.satosato/
-photo.221.tags: paws, tail, whiskers
+photo.219.tags: paws, tail, whiskers
+photo.220: ig://CmT3Z0tPP_n/m
+photo.220.author: i.satosato
+photo.220.commitdate: 2023/1/20
+photo.220.link: https://www.instagram.com/i.satosato/
+photo.220.tags: door, paws, sample, tail
+photo.221: ig://CmaC4LFhdnx/m
+photo.221.author: tomo3700
+photo.221.commitdate: 2023/1/11
+photo.221.link: https://www.instagram.com/tomo3700/
+photo.221.tags: apple time, bite, keeper, portrait
 species: 2
 studbook.id: 0457
 zoo: 36

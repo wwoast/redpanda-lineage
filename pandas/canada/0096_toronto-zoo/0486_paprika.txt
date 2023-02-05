@@ -65,15 +65,16 @@ photo.10.author: thetorontozoo
 photo.10.commitdate: 2022/7/28
 photo.10.link: https://www.instagram.com/thetorontozoo/
 photo.10.tags: bamboo, paws, sample
-photo.11: ig://CmXKqHSsvtt/m
+photo.11: ig://CllsTVDsNvO/m
 photo.11.author: thetorontozoo
-photo.11.commitdate: 2023/1/6
+photo.11.commitdate: 2023/2/4
 photo.11.link: https://www.instagram.com/thetorontozoo/
-photo.11.tags: apple time, portrait, toys
-photo.12: https://www.instagram.com/p/CllsTVDsNvO/media/?size=m
+photo.11.tags: close-up, sample, whiskers
+photo.12: ig://CmXKqHSsvtt/m
 photo.12.author: thetorontozoo
+photo.12.commitdate: 2023/1/6
 photo.12.link: https://www.instagram.com/thetorontozoo/
-photo.12.tags: close-up, sample, whiskers
+photo.12.tags: apple time, portrait, toys
 species: 2
 studbook.id: 1731
 uncertainty: location.2 exact day of week

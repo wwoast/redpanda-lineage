@@ -1364,17 +1364,19 @@ photo.270.author: resapanlove
 photo.270.commitdate: 2023/1/27
 photo.270.link: https://www.instagram.com/resapanlove/
 photo.270.tags: autumn, portrait, smile, whiskers
-photo.271: ig://ClCf2TShy0c/m
-photo.271.author: tomo3700
-photo.271.commitdate: 2023/1/27
-photo.271.link: https://www.instagram.com/tomo3700/
-photo.271.tags: apple time, dish, mofumofu, portrait, sample, whiskers
-photo.272: https://www.instagram.com/p/ClCaDwGyGa9/media/?size=m
-photo.272.author: wumpwoast
-photo.272.link: https://www.instagram.com/wumpwoast/
-photo.272.tags: portrait, tail
-photo.273: https://www.instagram.com/p/Clqmj2APujB/media/?size=m
+photo.271: ig://ClCaDwGyGa9/m
+photo.271.author: wumpwoast
+photo.271.commitdate: 2023/2/4
+photo.271.link: https://www.instagram.com/wumpwoast/
+photo.271.tags: portrait, tail
+photo.272: ig://ClCf2TShy0c/m
+photo.272.author: tomo3700
+photo.272.commitdate: 2023/1/27
+photo.272.link: https://www.instagram.com/tomo3700/
+photo.272.tags: apple time, dish, mofumofu, portrait, sample, whiskers
+photo.273: ig://Clqmj2APujB/m
 photo.273.author: makimaru18
+photo.273.commitdate: 2023/2/4
 photo.273.link: https://www.instagram.com/makimaru18/
 photo.273.tags: close-up, portrait, sample, whiskers
 species: 2
