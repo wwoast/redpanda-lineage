@@ -366,35 +366,36 @@ photo.70.author: mifko55
 photo.70.commitdate: 2022/9/24
 photo.70.link: https://www.instagram.com/mifko55/
 photo.70.tags: bamboo, portrait, sample, smile, whiskers
-photo.71: ig://Cd4F5z5BlZJ/m
-photo.71.author: rie_panda55
-photo.71.commitdate: 2022/7/3
-photo.71.link: https://www.instagram.com/rie_panda55/
-photo.71.tags: bamboo, portrait, sample, whiskers
-photo.72: ig://Cgfh8TNBRl4/m
-photo.72.author: tomo3700
-photo.72.commitdate: 2022/8/8
-photo.72.link: https://www.instagram.com/tomo3700/
-photo.72.tags: paws, portrait, sample, standing, window
-photo.73: ig://ChyTfFEvDjD/m
+photo.71: ig://Cc8p7jBBR3E/m
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2023/2/10
+photo.71.link: https://www.instagram.com/hamamatsu.chiita/
+photo.71.tags: portrait, sample, whiskers
+photo.72: ig://Cd4F5z5BlZJ/m
+photo.72.author: rie_panda55
+photo.72.commitdate: 2022/7/3
+photo.72.link: https://www.instagram.com/rie_panda55/
+photo.72.tags: bamboo, portrait, sample, whiskers
+photo.73: ig://Cgfh8TNBRl4/m
 photo.73.author: tomo3700
-photo.73.commitdate: 2022/11/10
+photo.73.commitdate: 2022/8/8
 photo.73.link: https://www.instagram.com/tomo3700/
-photo.73.tags: paws, standing, window
-photo.74: ig://Ch8mMWWJlGJ/m
-photo.74.author: hamiiiii831_
-photo.74.commitdate: 2022/9/8
-photo.74.link: https://www.instagram.com/hamiiiii831_/
-photo.74.tags: paws, sample, standing, whiskers, window
-photo.75: ig://CiURPBfvucp/m
-photo.75.author: minato.yokohama4416
-photo.75.commitdate: 2022/10/13
-photo.75.link: https://www.instagram.com/minato.yokohama4416/
-photo.75.tags: bamboo, laying down, paws, portrait, sample
-photo.76: https://www.instagram.com/p/Cc8p7jBBR3E/media/?size=m
-photo.76.author: hamamatsu.chiita
-photo.76.link: https://www.instagram.com/hamamatsu.chiita/
-photo.76.tags: portrait, sample, whiskers
+photo.73.tags: paws, portrait, sample, standing, window
+photo.74: ig://ChyTfFEvDjD/m
+photo.74.author: tomo3700
+photo.74.commitdate: 2022/11/10
+photo.74.link: https://www.instagram.com/tomo3700/
+photo.74.tags: paws, standing, window
+photo.75: ig://Ch8mMWWJlGJ/m
+photo.75.author: hamiiiii831_
+photo.75.commitdate: 2022/9/8
+photo.75.link: https://www.instagram.com/hamiiiii831_/
+photo.75.tags: paws, sample, standing, whiskers, window
+photo.76: ig://CiURPBfvucp/m
+photo.76.author: minato.yokohama4416
+photo.76.commitdate: 2022/10/13
+photo.76.link: https://www.instagram.com/minato.yokohama4416/
+photo.76.tags: bamboo, laying down, paws, portrait, sample
 species: 2
 studbook.id: 15148
 video.1: https://m.youtube.com/watch?v=KzNypEyJlkw
