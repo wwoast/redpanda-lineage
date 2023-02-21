@@ -26,11 +26,11 @@ photo.3.tags: family, home, laying down, portrait, smile, siblings, tail, twins
 photo.3.tags.160.location: 200, 290
 photo.3.tags.244.location: 380, 300
 photo.3.tags.245.location: 110, 270
-photo.4: https://www.instagram.com/p/CfRmv3XPcFp/media/?size=l
+photo.4: ig://CfRmv3XPcFp/l
 photo.4.author: eos1089
+photo.4.commitdate: 2023/2/21
 photo.4.link: https://www.instagram.com/eos1089/
 photo.4.tags: family, home, mother's day, paws, portrait, siblings, twins
 photo.4.tags.160.location: 470, 240
 photo.4.tags.244.location: 365, 490
 photo.4.tags.245.location: 165, 385
-

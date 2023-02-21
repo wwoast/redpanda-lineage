@@ -412,25 +412,26 @@ photo.82.author: otenba_redpanda
 photo.82.commitdate: 2022/7/28
 photo.82.link: https://www.instagram.com/otenba_redpanda/
 photo.82.tags: peek, portrait, smile, tree
-photo.83: ig://ChZbJObOPZA/m
-photo.83.author: _sah_ax7
-photo.83.commitdate: 2022/8/18
-photo.83.link: https://www.instagram.com/_sah_ax7/
-photo.83.tags: laying down, paws, sample, sleeping, whiskers
-photo.84: ig://ChsvtAdO-Zo/m
-photo.84.author: otenba_redpanda
-photo.84.commitdate: 2022/8/31
-photo.84.link: https://www.instagram.com/otenba_redpanda/
-photo.84.tags: mofumofu, portrait, sample, whiskers
-photo.85: ig://Ciozh--uKqX/m
-photo.85.author: shigeko0531
-photo.85.commitdate: 2022/10/11
-photo.85.link: https://www.instagram.com/shigeko0531/
-photo.85.tags: laying down, portrait, sample, whiskers
-photo.86: https://www.instagram.com/p/CgLqMVcufcm/media/?size=m
+photo.83: ig://CgLqMVcufcm/m
+photo.83.author: shigeko0531
+photo.83.commitdate: 2023/2/21
+photo.83.link: https://www.instagram.com/shigeko0531/
+photo.83.tags: whiskers
+photo.84: ig://ChZbJObOPZA/m
+photo.84.author: _sah_ax7
+photo.84.commitdate: 2022/8/18
+photo.84.link: https://www.instagram.com/_sah_ax7/
+photo.84.tags: laying down, paws, sample, sleeping, whiskers
+photo.85: ig://ChsvtAdO-Zo/m
+photo.85.author: otenba_redpanda
+photo.85.commitdate: 2022/8/31
+photo.85.link: https://www.instagram.com/otenba_redpanda/
+photo.85.tags: mofumofu, portrait, sample, whiskers
+photo.86: ig://Ciozh--uKqX/m
 photo.86.author: shigeko0531
+photo.86.commitdate: 2022/10/11
 photo.86.link: https://www.instagram.com/shigeko0531/
-photo.86.tags: whiskers
+photo.86.tags: laying down, portrait, sample, whiskers
 species: 2
 studbook.id: 15156
 zoo: 10

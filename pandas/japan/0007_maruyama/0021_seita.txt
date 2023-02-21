@@ -1290,15 +1290,16 @@ photo.256.author: cattail.sapporo
 photo.256.commitdate: 2022/11/20
 photo.256.link: https://www.instagram.com/cattail.sapporo/
 photo.256.tags: dish, mofumofu, portrait, sample
-photo.257: ig://CgWpXeFPACy/m
-photo.257.author: leonard_redmof
-photo.257.commitdate: 2022/7/25
-photo.257.link: https://www.instagram.com/leonard_redmof/
-photo.257.tags: portrait, sample, whiskers
-photo.258: https://www.instagram.com/p/CgLt5Ubu4LF/media/?size=m
-photo.258.author: cattail.sapporo
-photo.258.link: https://www.instagram.com/cattail.sapporo/
-photo.258.tags: peek, portrait, whiskers
+photo.257: ig://CgLt5Ubu4LF/m
+photo.257.author: cattail.sapporo
+photo.257.commitdate: 2023/2/21
+photo.257.link: https://www.instagram.com/cattail.sapporo/
+photo.257.tags: peek, portrait, whiskers
+photo.258: ig://CgWpXeFPACy/m
+photo.258.author: leonard_redmof
+photo.258.commitdate: 2022/7/25
+photo.258.link: https://www.instagram.com/leonard_redmof/
+photo.258.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0554
 zoo: 7

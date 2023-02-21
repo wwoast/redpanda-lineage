@@ -648,30 +648,31 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2022/8/11
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: paws, portrait, sample, tail
-photo.128: ig://ChW-RBOvn-7/m
-photo.128.author: ssc6105
-photo.128.commitdate: 2022/8/18
-photo.128.link: https://www.instagram.com/ssc6105/
-photo.128.tags: paws, smile, whiskers
-photo.129: ig://ChkBXyAr5bI/m
-photo.129.author: mini_cochi
-photo.129.commitdate: 2022/11/2
-photo.129.link: https://www.instagram.com/mini_cochi/
-photo.129.tags: paws, portrait, sample, tree, whiskers
-photo.130: ig://ChlD08xBh9w/m
-photo.130.author: ck.chie
+photo.128: ig://CgRTA8HvRxB/m
+photo.128.author: ck.chie
+photo.128.commitdate: 2023/2/21
+photo.128.link: https://www.instagram.com/ck.chie/
+photo.128.tags: paws, sample, whiskers
+photo.129: ig://ChW-RBOvn-7/m
+photo.129.author: ssc6105
+photo.129.commitdate: 2022/8/18
+photo.129.link: https://www.instagram.com/ssc6105/
+photo.129.tags: paws, smile, whiskers
+photo.130: ig://ChkBXyAr5bI/m
+photo.130.author: mini_cochi
 photo.130.commitdate: 2022/11/2
-photo.130.link: https://www.instagram.com/ck.chie/
-photo.130.tags: door, paws, sample, whiskers
-photo.131: ig://Ch4SqbtOo43/m
-photo.131.author: mini_cochi
-photo.131.commitdate: 2022/9/8
-photo.131.link: https://www.instagram.com/mini_cochi/
-photo.131.tags: laying down, paws, portrait, sample, smile, tail, tree, whiskers
-photo.132: https://www.instagram.com/p/CgRTA8HvRxB/media/?size=m
-photo.132.author: ck.chie
-photo.132.link: https://www.instagram.com/ck.chie/
-photo.132.tags: paws, sample, whiskers
+photo.130.link: https://www.instagram.com/mini_cochi/
+photo.130.tags: paws, portrait, sample, tree, whiskers
+photo.131: ig://ChlD08xBh9w/m
+photo.131.author: ck.chie
+photo.131.commitdate: 2022/11/2
+photo.131.link: https://www.instagram.com/ck.chie/
+photo.131.tags: door, paws, sample, whiskers
+photo.132: ig://Ch4SqbtOo43/m
+photo.132.author: mini_cochi
+photo.132.commitdate: 2022/9/8
+photo.132.link: https://www.instagram.com/mini_cochi/
+photo.132.tags: laying down, paws, portrait, sample, smile, tail, tree, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17
