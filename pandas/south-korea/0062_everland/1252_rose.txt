@@ -1,0 +1,26 @@
+[panda]
+_id: 1252
+birthday: 2019/5/17
+birthplace: 76
+children: none
+commitdate: 2021/4/4
+en.name: Rose
+en.nicknames: none
+en.othernames: Leah, Lea
+gender: f
+jp.name: ローズ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1253
+location.1: 76, 2019/5/17
+location.2: 62, 2022/12/1
+photo.1: ig://CMP5GQtjj5a/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2021/12/23
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: close-up, lunch time, videolink
+species: 2
+studbook.id: unknown
+uncertainty: location.2 exact date
+zoo: 62
