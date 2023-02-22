@@ -1,0 +1,25 @@
+[panda]
+_id: 1403
+birthday: 2006/6/7
+birthplace: 65
+children: unknown
+commitdate: 2023/2/22
+death: 2014/5/25
+en.name: Big George
+en.nicknames: none
+en.othernames: Nong-Ren, Nong Ren, Big-George
+gender: m
+jp.name: ノンレン
+jp.nicknames: ビッグジョージ
+jp.othernames: none
+language.order: en, jp
+litter: 387
+location.1: 65, 2006/6/7
+location.2: 159, 2007/6/28
+location.3: 96, 2008/11/12
+location.4: 82, 2012/11/21
+location.5: 76, 2013/9/11
+location.6: 82, 2014/5/25
+species: 2
+studbook.id: 0604
+zoo: 85
