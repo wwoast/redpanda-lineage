@@ -12,8 +12,8 @@ en.name: Big George
 en.nicknames: none
 en.othernames: Nong-Ren, Nong Ren, Big-George
 gender: m
-jp.name: ノンレン
-jp.nicknames: ビッグジョージ
+jp.name: ビッグジョージ
+jp.nicknames: ノンレン
 jp.othernames: none
 language.order: en, jp
 litter: 387
