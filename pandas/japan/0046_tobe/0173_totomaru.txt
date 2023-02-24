@@ -563,8 +563,9 @@ photo.111.author: redpanda_nippon_takashi
 photo.111.commitdate: 2023/1/14
 photo.111.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.111.tags: close-up, smile, whiskers
-photo.112: https://www.instagram.com/p/CopdsW0vP6m/media/?size=m
+photo.112: ig://CopdsW0vP6m/m
 photo.112.author: itsuak
+photo.112.commitdate: 2023/2/24
 photo.112.link: https://www.instagram.com/itsuak/
 photo.112.tags: portrait, sample
 species: 2

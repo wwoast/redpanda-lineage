@@ -325,18 +325,21 @@ photo.62.author: tomo3700
 photo.62.commitdate: 2022/12/20
 photo.62.link: https://www.instagram.com/tomo3700/
 photo.62.tags: dish, portrait, sample, tail, whiskers
-photo.63: https://www.instagram.com/p/CoqOd44BkOt/media/?size=m
-photo.63.author: yossi929
-photo.63.link: https://www.instagram.com/yossi929/
-photo.63.tags: close-up, sample, whiskers
-photo.64: https://www.instagram.com/p/CopZTdMPJqX/media/?size=m
+photo.63: ig://Coo8AE4vqVC/m
+photo.63.author: jas_forever_love
+photo.63.commitdate: 2023/2/24
+photo.63.link: https://www.instagram.com/jas_forever_love/
+photo.63.tags: ear, sample, whiskers
+photo.64: ig://CopZTdMPJqX/m
 photo.64.author: fetorus_mami
+photo.64.commitdate: 2023/2/24
 photo.64.link: https://www.instagram.com/fetorus_mami/
 photo.64.tags: bamboo, dish, paws, standing
-photo.65: https://www.instagram.com/p/Coo8AE4vqVC/media/?size=m
-photo.65.author: jas_forever_love
-photo.65.link: https://www.instagram.com/jas_forever_love/
-photo.65.tags: ear, sample, whiskers
+photo.65: ig://CoqOd44BkOt/m
+photo.65.author: yossi929
+photo.65.commitdate: 2023/2/24
+photo.65.link: https://www.instagram.com/yossi929/
+photo.65.tags: close-up, sample, whiskers
 species: 2
 studbook.id: 13165
 zoo: 61
