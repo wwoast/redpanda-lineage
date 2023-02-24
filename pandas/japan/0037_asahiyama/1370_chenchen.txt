@@ -28,8 +28,9 @@ photo.3.author: daniele.tokyo
 photo.3.commitdate: 2023/1/20
 photo.3.link: https://www.instagram.com/daniele.tokyo/
 photo.3.tags: baby, climb, paws, sample, snow
-photo.4: https://www.instagram.com/p/CoeoOKTPCQ7/media/?size=m
+photo.4: ig://CoeoOKTPCQ7/m
 photo.4.author: daniele.tokyo
+photo.4.commitdate: 2023/2/24
 photo.4.link: https://www.instagram.com/daniele.tokyo/
 photo.4.tags: baby, paws, sample, standing, tail
 species: 2

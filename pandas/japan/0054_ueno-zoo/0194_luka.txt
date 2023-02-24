@@ -920,14 +920,16 @@ photo.181.author: eos1089
 photo.181.commitdate: 2022/12/19
 photo.181.link: https://www.instagram.com/eos1089/
 photo.181.tags: apple time, paws, portrait, sample, tongue, whiskers
-photo.182: https://www.instagram.com/p/Coeil2IvF4Z/media/?size=m
-photo.182.author: yuredpanda
-photo.182.link: https://www.instagram.com/yuredpanda/
-photo.182.tags: bamboo, paws, portrait, tail
-photo.183: https://www.instagram.com/p/CocsaFTv4tS/media/?size=m
-photo.183.author: eos1089
-photo.183.link: https://www.instagram.com/eos1089/
-photo.183.tags: paws, portrait, sample, standing, tail
+photo.182: ig://CocsaFTv4tS/m
+photo.182.author: eos1089
+photo.182.commitdate: 2023/2/24
+photo.182.link: https://www.instagram.com/eos1089/
+photo.182.tags: paws, portrait, sample, standing, tail
+photo.183: ig://Coeil2IvF4Z/m
+photo.183.author: yuredpanda
+photo.183.commitdate: 2023/2/24
+photo.183.link: https://www.instagram.com/yuredpanda/
+photo.183.tags: bamboo, paws, portrait, tail
 species: 2
 studbook.id: 1677
 zoo: 54

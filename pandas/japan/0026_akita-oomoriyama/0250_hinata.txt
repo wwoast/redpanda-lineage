@@ -447,14 +447,16 @@ photo.87.author: redpan22
 photo.87.commitdate: 2023/2/4
 photo.87.link: https://www.instagram.com/redpan22/
 photo.87.tags: apple time, paws, standing
-photo.88: https://www.instagram.com/p/Cow_neDvLOU/media/?size=m
+photo.88: ig://CouTQ1-P2_M/m
 photo.88.author: mini_cochi
+photo.88.commitdate: 2023/2/24
 photo.88.link: https://www.instagram.com/mini_cochi/
-photo.88.tags: bamboo, portrait, sample, smile, whiskers
-photo.89: https://www.instagram.com/p/CouTQ1-P2_M/media/?size=m
+photo.88.tags: close-up, nose
+photo.89: ig://Cow_neDvLOU/m
 photo.89.author: mini_cochi
+photo.89.commitdate: 2023/2/24
 photo.89.link: https://www.instagram.com/mini_cochi/
-photo.89.tags: close-up, nose
+photo.89.tags: bamboo, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 26

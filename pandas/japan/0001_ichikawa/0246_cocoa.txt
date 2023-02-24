@@ -1328,10 +1328,11 @@ photo.263.author: miis_98
 photo.263.commitdate: 2023/1/11
 photo.263.link: https://www.instagram.com/miis_98/
 photo.263.tags: portrait, sample, smile, tail, whiskers
-photo.264: https://www.instagram.com/p/Coj7UXorhQx/media/?size=m
+photo.264: ig://Coj7UXorhQx/m
 photo.264.author: ifumoto88
+photo.264.commitdate: 2023/2/24
 photo.264.link: https://www.instagram.com/ifumoto88/
-photo.264.tags: home, paws, portrait, sample, standing 
+photo.264.tags: home, paws, portrait, sample, standing
 species: 2
 studbook.id: unknown
 zoo: 1

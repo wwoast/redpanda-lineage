@@ -943,8 +943,9 @@ photo.186.author: ssc6105
 photo.186.commitdate: 2023/1/20
 photo.186.link: https://www.instagram.com/ssc6105/
 photo.186.tags: paws, sample, tree
-photo.187: https://www.instagram.com/p/CojwOonv16r/media/?size=m
+photo.187: ig://CojwOonv16r/m
 photo.187.author: ssc6105
+photo.187.commitdate: 2023/2/24
 photo.187.link: https://www.instagram.com/ssc6105/
 photo.187.tags: paws, playing, sample, snow, standing, tail
 species: 2

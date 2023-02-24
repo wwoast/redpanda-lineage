@@ -1077,8 +1077,9 @@ photo.213.author: yossi929
 photo.213.commitdate: 2023/1/26
 photo.213.link: https://www.instagram.com/yossi929/
 photo.213.tags: sample, smile, whiskers
-photo.214: https://www.instagram.com/p/CouOXxSPeXt/media/?size=m
+photo.214: ig://CouOXxSPeXt/m
 photo.214.author: yossi929
+photo.214.commitdate: 2023/2/24
 photo.214.link: https://www.instagram.com/yossi929/
 photo.214.tags: peek, sample, tail, tree
 species: 2

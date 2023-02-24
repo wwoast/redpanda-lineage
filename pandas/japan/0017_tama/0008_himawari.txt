@@ -2155,8 +2155,9 @@ photo.429.author: otenba_redpanda
 photo.429.commitdate: 2022/9/8
 photo.429.link: https://www.instagram.com/otenba_redpanda/
 photo.429.tags: portrait, sample, whiskers
-photo.430: https://www.instagram.com/p/CohjtoaPRcO/media/?size=m
+photo.430: ig://CohjtoaPRcO/m
 photo.430.author: redpan22
+photo.430.commitdate: 2023/2/24
 photo.430.link: https://www.instagram.com/redpan22/
 photo.430.tags: climb, sample, snow, whiskers
 species: 2

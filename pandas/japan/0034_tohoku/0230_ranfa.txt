@@ -1128,8 +1128,9 @@ photo.224.author: daniele.tokyo
 photo.224.commitdate: 2023/1/14
 photo.224.link: https://www.instagram.com/daniele.tokyo/
 photo.224.tags: paws, sample, smile, whiskers
-photo.225: https://www.instagram.com/p/CowpyPUP4G2/media/?size=m
+photo.225: ig://CowpyPUP4G2/m
 photo.225.author: daniele.tokyo
+photo.225.commitdate: 2023/2/24
 photo.225.link: https://www.instagram.com/daniele.tokyo/
 photo.225.tags: apple time, sample, tongue, whiskers
 species: 2

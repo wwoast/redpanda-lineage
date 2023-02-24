@@ -1,8 +1,10 @@
 [media]
 _id: media.190.kurumi-nei-tsugumi
+commitdate: 2023/2/24
 panda.tags: 376, 1376, 1377
-photo.1: https://www.instagram.com/p/CoxC_TyvYgS/media/?size=l
+photo.1: ig://CoxC_TyvYgS/l
 photo.1.author: rie_panda55
+photo.1.commitdate: 2023/2/24
 photo.1.link: https://www.instagram.com/rie_panda55/
 photo.1.tags: family, keeper, portrait
 photo.1.tags.376.location: 375, 260

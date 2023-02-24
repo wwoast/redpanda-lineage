@@ -628,8 +628,9 @@ photo.123.author: kaoru_a358
 photo.123.commitdate: 2022/12/20
 photo.123.link: https://www.instagram.com/kaoru_a358/
 photo.123.tags: peek, portrait, sample
-photo.124: https://www.instagram.com/p/CohdBqyPERo/media/?size=m
+photo.124: ig://CohdBqyPERo/m
 photo.124.author: kaoru_a358
+photo.124.commitdate: 2023/2/24
 photo.124.link: https://www.instagram.com/kaoru_a358/
 photo.124.tags: bridge, sample, snow, tail
 species: 2

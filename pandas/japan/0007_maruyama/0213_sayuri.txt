@@ -401,8 +401,9 @@ photo.78.author: hamamatsu.chiita
 photo.78.commitdate: 2023/1/14
 photo.78.link: https://www.instagram.com/hamamatsu.chiita/
 photo.78.tags: peek, portrait, sample, snow, tail, whiskers
-photo.79: https://www.instagram.com/p/Cohak8cPT6L/media/?size=m
+photo.79: ig://Cohak8cPT6L/m
 photo.79.author: leonard_redmof
+photo.79.commitdate: 2023/2/24
 photo.79.link: https://www.instagram.com/leonard_redmof/
 photo.79.tags: keeper, paws, portrait, snow, standing, tongue
 species: 2
