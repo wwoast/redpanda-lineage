@@ -401,8 +401,10 @@ div.qrcodeFrame {
 }
 
 span.qrcodeText {
-    font-weight: bold;
+    color: black;
+    font-family: "Jun 201", sans-serif;
     font-size: 10pt;
+    font-weight: bold;
     text-decoration: underline;
 }
 
