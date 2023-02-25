@@ -778,8 +778,9 @@ photo.153.author: hamamatsu.chiita
 photo.153.commitdate: 2022/11/14
 photo.153.link: https://www.instagram.com/hamamatsu.chiita/
 photo.153.tags: mofumofu, portrait, sample
-photo.154: https://www.instagram.com/p/CojxJa3PyJX/media/?size=m
+photo.154: ig://CojxJa3PyJX/m
 photo.154.author: taka__3428
+photo.154.commitdate: 2023/2/24
 photo.154.link: https://www.instagram.com/taka__3428/
 photo.154.tags: close-up, peek
 species: 2

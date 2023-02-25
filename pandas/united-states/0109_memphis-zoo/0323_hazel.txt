@@ -145,8 +145,9 @@ photo.26.author: carsontheredpanda
 photo.26.commitdate: 2022/8/30
 photo.26.link: https://www.instagram.com/carsontheredpanda/
 photo.26.tags: portrait, sample, smile, tongue, whiskers
-photo.27: https://www.instagram.com/p/CoIYsx4vSTX/media/?size=m
+photo.27: ig://CoIYsx4vSTX/m
 photo.27.author: memphiszoo
+photo.27.commitdate: 2023/2/24
 photo.27.link: https://www.instagram.com/carsontheredpanda/
 photo.27.tags: close-up, lips, portrait, sample, whiskers
 species: 2

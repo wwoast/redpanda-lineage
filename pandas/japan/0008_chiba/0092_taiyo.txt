@@ -534,8 +534,9 @@ photo.104.author: ifumoto88
 photo.104.commitdate: 2022/11/8
 photo.104.link: https://www.instagram.com/ifumoto88/
 photo.104.tags: grumpy, laying down, paws, portrait, sample, whiskers
-photo.105: https://www.instagram.com/p/CoHiMyGvnh3/media/?size=m
+photo.105: ig://CoHiMyGvnh3/m
 photo.105.author: kiarino51
+photo.105.commitdate: 2023/2/24
 photo.105.link: https://www.instagram.com/kiarino51/
 photo.105.tags: laying down, portrait, sample, white face
 species: 2

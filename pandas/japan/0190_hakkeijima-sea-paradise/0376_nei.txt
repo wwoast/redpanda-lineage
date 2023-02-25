@@ -460,8 +460,9 @@ photo.89.author: gloryeui
 photo.89.commitdate: 2022/10/14
 photo.89.link: https://www.instagram.com/gloryeui/
 photo.89.tags: bite, bridge, close-up, portrait, whiskers
-photo.90: https://www.instagram.com/p/Com9WCfPcBa/media/?size=m
+photo.90: ig://Com9WCfPcBa/m
 photo.90.author: minatomirai215
+photo.90.commitdate: 2023/2/24
 photo.90.link: https://www.instagram.com/minatomirai215/
 photo.90.tags: portrait, sample, whiskers
 species: 2

@@ -352,8 +352,9 @@ photo.68.author: pantasanzoo1
 photo.68.commitdate: 2023/1/26
 photo.68.link: https://www.instagram.com/pantasanzoo1/
 photo.68.tags: sample, whiskers
-photo.69: https://www.instagram.com/p/CoHh95wPUET/media/?size=m
+photo.69: ig://CoHh95wPUET/m
 photo.69.author: mini_cochi
+photo.69.commitdate: 2023/2/24
 photo.69.link: https://www.instagram.com/mini_cochi/
 photo.69.tags: close-up, mofumofu, portrait, sample
 species: 2

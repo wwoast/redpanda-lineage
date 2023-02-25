@@ -345,15 +345,16 @@ photo.66.author: sakikukeco
 photo.66.commitdate: 2023/2/24
 photo.66.link: https://www.instagram.com/sakikukeco/
 photo.66.tags: paws, portrait, sample, whiskers
-photo.67: ig://CoqOd44BkOt/m
-photo.67.author: yossi929
+photo.67: ig://CopcEiOP9-h/m
+photo.67.author: makimaru18
 photo.67.commitdate: 2023/2/24
-photo.67.link: https://www.instagram.com/yossi929/
-photo.67.tags: close-up, sample, whiskers
-photo.68: https://www.instagram.com/p/CopcEiOP9-h/media/?size=m
-photo.68.author: makimaru18
-photo.68.link: https://www.instagram.com/makimaru18/
-photo.68.tags: portrait, sample, whiskers
+photo.67.link: https://www.instagram.com/makimaru18/
+photo.67.tags: portrait, sample, whiskers
+photo.68: ig://CoqOd44BkOt/m
+photo.68.author: yossi929
+photo.68.commitdate: 2023/2/24
+photo.68.link: https://www.instagram.com/yossi929/
+photo.68.tags: close-up, sample, whiskers
 species: 2
 studbook.id: 13165
 zoo: 61

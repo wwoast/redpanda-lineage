@@ -53,8 +53,9 @@ photo.8.author: tamazoowalking
 photo.8.commitdate: 2023/1/11
 photo.8.link: https://www.instagram.com/tamazoowalking/
 photo.8.tags: baby, peek, portrait, sample
-photo.9: https://www.instagram.com/p/CoJ9I1-Ppjn/media/?size=m
+photo.9: ig://CoJ9I1-Ppjn/m
 photo.9.author: tamazoowalking
+photo.9.commitdate: 2023/2/24
 photo.9.link: https://www.instagram.com/tamazoowalking/
 photo.9.tags: baby, paws, sample, standing
 species: 2
