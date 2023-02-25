@@ -409,8 +409,7 @@ div.qrcodeFrame img {
     display: block;
     width: 180px;
     height: 180px;
-    border: 1px solid black;
-    background-color: white;
+    background-color: rgb(240,240,240);
     /* Indicate the copy event that occurs here */
     cursor: pointer;
 }
