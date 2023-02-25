@@ -535,16 +535,18 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
+  var button = document.createElement('button');
   var tld = document.createElement('span');
   tld.className = "qrcodeText";
   tld.innerText = "https://" + window.location.host + "/";
-  qrcode.appendChild(tld);
+  button.appendChild(tld);
   qrimg = document.createElement('img');
   qrimg.id = "qrcodeUri";
   qrimg.src = img.src;
-  qrcode.appendChild(qrimg);
+  button.appendChild(qrimg);
+  qrcode.appendChild(button);
   // Click qrcode and copy its url
-  qrimg.addEventListener("click", function(event) {
+  button.addEventListener("click", function(event) {
     event.preventDefault();
     const text_class = "qrcodeText";
     // Join the text blocks above and below the QR Code image
@@ -563,7 +565,7 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   } else {
     qrHashLink.innerText = "#profile/" + animal_index + "/photo/" + photo_index;
   }
-  qrcode.appendChild(qrHashLink);
+  button.appendChild(qrHashLink);
   var copy_notice = document.createElement('span');
   copy_notice.className = "notifier condensed";
   copy_notice.id = "copyToast";
