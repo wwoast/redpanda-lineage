@@ -363,8 +363,9 @@ photo.70.author: fetorus_mami
 photo.70.commitdate: 2023/1/26
 photo.70.link: https://www.instagram.com/fetorus_mami/
 photo.70.tags: close-up, sample, smile, whiskers
-photo.71: https://www.instagram.com/p/Cn588MuP1vs/media/?size=m
+photo.71: ig://Cn588MuP1vs/m
 photo.71.author: nasu_animal_kingdom
+photo.71.commitdate: 2023/2/25
 photo.71.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.71.tags: close-up, paws, sample, snow, standing, whiskers
 species: 2

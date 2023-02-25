@@ -362,8 +362,9 @@ photo.70.author: yossi929
 photo.70.commitdate: 2023/1/11
 photo.70.link: https://www.instagram.com/yossi929/
 photo.70.tags: paws, portrait, sample, whiskers
-photo.71: https://www.instagram.com/p/Cn8adXqvIet/media/?size=m
+photo.71: ig://Cn8adXqvIet/m
 photo.71.author: re_ichimaru
+photo.71.commitdate: 2023/2/25
 photo.71.link: https://www.instagram.com/re_ichimaru/
 photo.71.tags: mofumofu, portrait, sample, whiskers
 species: 2

@@ -628,15 +628,16 @@ photo.123.author: kaoru_a358
 photo.123.commitdate: 2022/12/20
 photo.123.link: https://www.instagram.com/kaoru_a358/
 photo.123.tags: peek, portrait, sample
-photo.124: ig://CohdBqyPERo/m
-photo.124.author: kaoru_a358
-photo.124.commitdate: 2023/2/24
-photo.124.link: https://www.instagram.com/kaoru_a358/
-photo.124.tags: bridge, sample, snow, tail
-photo.125: https://www.instagram.com/p/Cn7KlIuvudf/media/?size=m
-photo.125.author: miis_98
-photo.125.link: https://www.instagram.com/miis_98/
-photo.125.tags: portrait, profile, sample, tree, whiskers
+photo.124: ig://Cn7KlIuvudf/m
+photo.124.author: miis_98
+photo.124.commitdate: 2023/2/25
+photo.124.link: https://www.instagram.com/miis_98/
+photo.124.tags: portrait, profile, sample, tree, whiskers
+photo.125: ig://CohdBqyPERo/m
+photo.125.author: kaoru_a358
+photo.125.commitdate: 2023/2/24
+photo.125.link: https://www.instagram.com/kaoru_a358/
+photo.125.tags: bridge, sample, snow, tail
 species: 2
 studbook.id: 13170
 zoo: 69

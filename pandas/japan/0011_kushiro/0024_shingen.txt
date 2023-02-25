@@ -608,8 +608,9 @@ photo.119.author: wumpwoast
 photo.119.commitdate: 2022/10/6
 photo.119.link: https://www.instagram.com/wumpwoast/
 photo.119.tags: home, paws, poop, portrait, sample
-photo.120: https://www.instagram.com/p/Cn1he0zPW1N/media/?size=m
+photo.120: ig://Cn1he0zPW1N/m
 photo.120.author: gloryeui
+photo.120.commitdate: 2023/2/25
 photo.120.link: https://www.instagram.com/gloryeui/
 photo.120.tags: bridge, peek, portrait, sample
 species: 2

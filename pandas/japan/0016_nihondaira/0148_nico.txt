@@ -782,8 +782,9 @@ photo.155.author: mini_cochi
 photo.155.commitdate: 2022/8/5
 photo.155.link: https://www.instagram.com/mini_cochi/
 photo.155.tags: itchy, paws, portrait, sample, smile, whiskers
-photo.156: https://www.instagram.com/p/Cn0PPy2ho0G/media/?size=m
+photo.156: ig://Cn0PPy2ho0G/m
 photo.156.author: yuredpanda
+photo.156.commitdate: 2023/2/25
 photo.156.link: https://www.instagram.com/yuredpanda/
 photo.156.tags: grooming, portrait, tail
 species: 2

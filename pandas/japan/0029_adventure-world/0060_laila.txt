@@ -221,8 +221,9 @@ photo.41.author: mifko55
 photo.41.commitdate: 2021/7/19
 photo.41.link: https://www.instagram.com/mifko55/
 photo.41.tags: portrait, whiskers
-photo.42: https://www.instagram.com/p/CnuCTERPC_m/media/?size=m
+photo.42: ig://CnuCTERPC_m/m
 photo.42.author: fetorus_mami
+photo.42.commitdate: 2023/2/25
 photo.42.link: https://www.instagram.com/fetorus_mami/
 photo.42.tags: dish, mofumofu, portrait, sample, whiskers
 species: 2

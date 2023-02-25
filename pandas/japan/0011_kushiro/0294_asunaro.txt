@@ -554,8 +554,9 @@ photo.108.author: kushirozoo
 photo.108.commitdate: 2023/1/6
 photo.108.link: https://www.instagram.com/kushirozoo/
 photo.108.tags: bamboo, home, portrait, sample, smile
-photo.109: https://www.instagram.com/p/Cn8bvpKPe_r/media/?size=m
+photo.109: ig://Cn8bvpKPe_r/m
 photo.109.author: gloryeui
+photo.109.commitdate: 2023/2/25
 photo.109.link: https://www.instagram.com/gloryeui/
 photo.109.tags: peek, portrait, sample, whiskers
 species: 2

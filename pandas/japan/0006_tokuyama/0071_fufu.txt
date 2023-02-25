@@ -400,8 +400,9 @@ photo.78.author: kojikoji2011
 photo.78.commitdate: 2022/12/15
 photo.78.link: https://www.instagram.com/kojikoji2011/
 photo.78.tags: paws, portrait, sample, standing, tail
-photo.79: https://www.instagram.com/p/Cn4XJgtPf8T/media/?size=m
+photo.79: ig://Cn4XJgtPf8T/m
 photo.79.author: kojikoji2011
+photo.79.commitdate: 2023/2/25
 photo.79.link: https://www.instagram.com/kojikoji2011/
 photo.79.tags: peek, portrait, sample, tail
 species: 2

@@ -771,8 +771,9 @@ photo.152.author: redpanda_nippon_takashi
 photo.152.commitdate: 2023/1/14
 photo.152.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.152.tags: dish, sample, tongue, whiskers
-photo.153: https://www.instagram.com/p/Cn4OrwGPwoo/media/?size=m
+photo.153: ig://Cn4OrwGPwoo/m
 photo.153.author: apple_jasmine33
+photo.153.commitdate: 2023/2/25
 photo.153.link: https://www.instagram.com/apple_jasmine33/
 photo.153.tags: close-up, dish, mofumofu, sample, whiskers
 species: 2

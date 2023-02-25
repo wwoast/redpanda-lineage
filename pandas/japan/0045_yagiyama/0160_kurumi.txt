@@ -214,8 +214,9 @@ photo.40.author: alto0908
 photo.40.commitdate: 2022/12/19
 photo.40.link: https://www.instagram.com/alto0908/
 photo.40.tags: home, paws, sample, whiskers
-photo.41: https://www.instagram.com/p/Cn5XwDKhK6f/media/?size=m
+photo.41: ig://Cn5XwDKhK6f/m
 photo.41.author: alto0908
+photo.41.commitdate: 2023/2/25
 photo.41.link: https://www.instagram.com/alto0908/
 photo.41.tags: portrait, sample, snow, whiskers
 species: 2

@@ -941,26 +941,31 @@ photo.186.author: monmon_redpanda
 photo.186.commitdate: 2022/11/4
 photo.186.link: https://www.instagram.com/monmon_redpanda/
 photo.186.tags: dish, lunch time, nose, portrait, sample, smile, whiskers
-photo.187: https://www.instagram.com/p/CnuEJO3PEoc/media/?size=m
+photo.187: ig://CnuAk8bPfqx/m
 photo.187.author: fetorus_mami
+photo.187.commitdate: 2023/2/25
 photo.187.link: https://www.instagram.com/fetorus_mami/
-photo.187.tags: air tasting, dish, paws, portrait, sample, tongue, whiskers
-photo.188: https://www.instagram.com/p/CnuFGN-vy0M/media/?size=m
+photo.187.tags: peek, poop, sample
+photo.188: ig://CnuBeM4PpC-/m
 photo.188.author: fetorus_mami
+photo.188.commitdate: 2023/2/25
 photo.188.link: https://www.instagram.com/fetorus_mami/
-photo.188.tags: air tasting, paws, sample, standing, tongue
-photo.189: https://www.instagram.com/p/CnuDU4BvnUm/media/?size=m
+photo.188.tags: apple time, lips, peek, sample, whiskers
+photo.189: ig://CnuDU4BvnUm/m
 photo.189.author: fetorus_mami
+photo.189.commitdate: 2023/2/25
 photo.189.link: https://www.instagram.com/fetorus_mami/
 photo.189.tags: paws, sample, smile, tail
-photo.190: https://www.instagram.com/p/CnuBeM4PpC-/media/?size=m
+photo.190: ig://CnuEJO3PEoc/m
 photo.190.author: fetorus_mami
+photo.190.commitdate: 2023/2/25
 photo.190.link: https://www.instagram.com/fetorus_mami/
-photo.190.tags: apple time, lips, peek, sample, whiskers
-photo.191: https://www.instagram.com/p/CnuAk8bPfqx/media/?size=m
+photo.190.tags: air tasting, dish, paws, portrait, sample, tongue, whiskers
+photo.191: ig://CnuFGN-vy0M/m
 photo.191.author: fetorus_mami
+photo.191.commitdate: 2023/2/25
 photo.191.link: https://www.instagram.com/fetorus_mami/
-photo.191.tags: peek, poop, sample
+photo.191.tags: air tasting, paws, sample, standing, tongue
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/rYd6QptEbU0

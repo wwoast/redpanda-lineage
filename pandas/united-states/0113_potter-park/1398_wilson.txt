@@ -18,8 +18,9 @@ photo.1.author: potterparkzoo
 photo.1.commitdate: 2022/11/4
 photo.1.link: https://www.instagram.com/potterparkzoo/
 photo.1.tags: baby, close-up, mofumofu, profile, whiskers
-photo.2: https://www.instagram.com/p/Cnt-d4DOqvo/media/?size=m
+photo.2: ig://Cnt-d4DOqvo/m
 photo.2.author: potterparkzoo
+photo.2.commitdate: 2023/2/25
 photo.2.link: https://www.instagram.com/potterparkzoo/
 photo.2.tags: baby, bamboo
 species: 1

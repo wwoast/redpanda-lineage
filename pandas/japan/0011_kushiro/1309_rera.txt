@@ -178,8 +178,9 @@ photo.33.author: nakacchi_desu
 photo.33.commitdate: 2022/12/24
 photo.33.link: https://www.instagram.com/nakacchi_desu/
 photo.33.tags: climb, paws, tail, upside-down
-photo.34: https://www.instagram.com/p/Cn_tK9zvXRs/media/?size=m
+photo.34: ig://Cn_tK9zvXRs/m
 photo.34.author: gloryeui
+photo.34.commitdate: 2023/2/25
 photo.34.link: https://www.instagram.com/gloryeui/
 photo.34.tags: peek, tail, whiskers
 species: 2

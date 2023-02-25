@@ -468,8 +468,9 @@ photo.91.author: otenba_redpanda
 photo.91.commitdate: 2022/8/16
 photo.91.link: https://www.instagram.com/otenba_redpanda/
 photo.91.tags: mofumofu, portrait, sample, whiskers
-photo.92: https://www.instagram.com/p/Cn9f3_gvaND/media/?size=m
+photo.92: ig://Cn9f3_gvaND/m
 photo.92.author: mariten1119
+photo.92.commitdate: 2023/2/25
 photo.92.link: https://www.instagram.com/mariten1119/
 photo.92.tags: bamboo, mofumofu, paws, standing
 species: 2

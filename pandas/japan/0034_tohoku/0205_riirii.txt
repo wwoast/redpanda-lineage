@@ -143,12 +143,14 @@ photo.26.author: hidehaya_biei
 photo.26.commitdate: 2022/8/18
 photo.26.link: https://www.instagram.com/hidehaya_biei/
 photo.26.tags: sample, smile, whiskers
-photo.27: https://www.instagram.com/p/Cn1bgMWPyK9/media/?size=m
+photo.27: ig://Cn1bgMWPyK9/m
 photo.27.author: daniele.tokyo
+photo.27.commitdate: 2023/2/25
 photo.27.link: https://www.instagram.com/daniele.tokyo/
 photo.27.tags: paws, standing, toys
-photo.28: https://www.instagram.com/p/Cn2z_VvBEOF/media/?size=m
+photo.28: ig://Cn2z_VvBEOF/m
 photo.28.author: yuredpanda
+photo.28.commitdate: 2023/2/25
 photo.28.link: https://www.instagram.com/yuredpanda/
 photo.28.tags: grooming, paws, sample, tail, tongue
 species: 2

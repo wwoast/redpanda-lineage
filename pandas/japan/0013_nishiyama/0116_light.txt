@@ -580,8 +580,9 @@ photo.114.author: roko_mm
 photo.114.commitdate: 2023/1/20
 photo.114.link: https://www.instagram.com/roko_mm/
 photo.114.tags: portrait, sample, whiskers
-photo.115: https://www.instagram.com/p/Cn2guztBsQp/media/?size=m
+photo.115: ig://Cn2guztBsQp/m
 photo.115.author: hamamatsu.chiita
+photo.115.commitdate: 2023/2/25
 photo.115.link: https://www.instagram.com/hamamatsu.chiita/
 photo.115.tags: close-up, lips, mofumofu, portrait, sample, whiskers
 species: 2
