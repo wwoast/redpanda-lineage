@@ -405,15 +405,15 @@ span.qrcodeText {
     font-family: "Jun 201", sans-serif;
     font-size: 10pt;
     font-weight: bold;
-    line-height: 1.0;
+    line-height: 1.5;
     text-decoration: underline;
 }
 
 div.qrcodeFrame button {
     width: 260px;
     background-color: rgb(240, 240, 240);
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 1.5ex;
+    padding-top: 1.5ex;
     border-radius: 1em;
     border: 1px solid black;
     cursor: pointer;
