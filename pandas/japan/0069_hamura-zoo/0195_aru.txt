@@ -192,7 +192,7 @@ photo.36: ig://B1K1ph1HUfs/m
 photo.36.author: mochan8686
 photo.36.commitdate: 2019/10/1
 photo.36.link: https://www.instagram.com/mochan8686/
-photo.36.tags: portrait, profile
+photo.36.tags: portrait, sample
 photo.37: ig://B1jM-0AhaU7/m
 photo.37.author: redpanda_nippon_takashi
 photo.37.commitdate: 2019/8/26
@@ -633,6 +633,10 @@ photo.124.author: kaoru_a358
 photo.124.commitdate: 2023/2/24
 photo.124.link: https://www.instagram.com/kaoru_a358/
 photo.124.tags: bridge, sample, snow, tail
+photo.125: https://www.instagram.com/p/Cn7KlIuvudf/media/?size=m
+photo.125.author: miis_98
+photo.125.link: https://www.instagram.com/miis_98/
+photo.125.tags: portrait, profile, sample, tree, whiskers
 species: 2
 studbook.id: 13170
 zoo: 69
