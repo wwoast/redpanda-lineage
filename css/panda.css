@@ -405,6 +405,7 @@ span.qrcodeText {
     font-family: "Jun 201", sans-serif;
     font-size: 10pt;
     font-weight: bold;
+    line-height: 1.0;
     text-decoration: underline;
 }
 
