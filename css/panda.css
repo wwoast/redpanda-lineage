@@ -403,6 +403,7 @@ div.qrcodeFrame {
 span.qrcodeText {
     font-weight: bold;
     font-size: 10pt;
+    text-decoration: underline;
 }
 
 div.qrcodeFrame button {
@@ -420,8 +421,8 @@ div.qrcodeFrame > button > img {
     width: 180px;
     height: 180px;
     background-color: rgb(240,240,240);
-    /* Indicate the copy event that occurs here */
-    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a, div.zooHistory a {
@@ -1450,11 +1451,6 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     div.qrcodeFrame {
         width: 100%;
         margin-left: 0px;
-    }
-
-    div.qrcodeFrame img {
-        margin-left: auto;
-        margin-right: auto;
     }
 
     div.emptyResult {
