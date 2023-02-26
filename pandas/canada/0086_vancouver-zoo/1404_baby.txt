@@ -1,0 +1,43 @@
+[panda]
+_id: 1404
+birthday: 2022/6/1
+birthplace: 86
+children: none
+commitdate: 2023/2/26
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1405
+photo.1: https://www.instagram.com/p/CiTvtmsL2O0/media/?size=m
+photo.1.author: westcoast_kathy
+photo.1.link: https://www.instagram.com/westcoast_kathy/
+photo.1.tags: baby, bamboo, mofumofu, portrait, sample
+photo.2: https://www.instagram.com/p/Cjgk9Qqvl2i/media/?size=m
+photo.2.author: westcoast_kathy
+photo.2.link: https://www.instagram.com/westcoast_kathy/
+photo.2.tags: baby, mofumofu, portrait, sample, tail
+photo.3: https://www.instagram.com/p/Cjl-_YKJwAv/media/?size=m
+photo.3.author: westcoast_kathy
+photo.3.link: https://www.instagram.com/westcoast_kathy/
+photo.3.tags: baby, bamboo, close-up, mofumofu, portrait
+photo.4: https://www.instagram.com/p/CiWZ25ZrsLE/media/?size=m
+photo.4.author: westcoast_kathy
+photo.4.link: https://www.instagram.com/westcoast_kathy/
+photo.4.tags: baby, peek, portrait, sample, tree
+photo.5: https://www.instagram.com/p/CigjFLCpz5r/media/?size=m
+photo.5.author: westcoast_kathy
+photo.5.link: https://www.instagram.com/westcoast_kathy/
+photo.5.tags: baby, mofumofu, portrait, sample, whiskers
+photo.6: https://www.instagram.com/p/CiRTFFFrehq/media/?size=m
+photo.6.author: westcoast_kathy
+photo.6.link: https://www.instagram.com/westcoast_kathy/
+photo.6.tags: baby, mofumofu, mother's day, tail 
+species: 2
+studbook.id: unknown
+uncertainty: exact birthday in June
+zoo: 86

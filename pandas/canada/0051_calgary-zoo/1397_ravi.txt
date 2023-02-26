@@ -19,11 +19,15 @@ photo.1: ig://CkuPxEiJllg/m
 photo.1.author: westcoast_kathy
 photo.1.commitdate: 2022/12/8
 photo.1.link: https://www.instagram.com/westcoast_kathy/
-photo.1.tags: baby, bamboo, paws, portrait, snow, whiskers
+photo.1.tags: baby, bamboo, paws, portrait, profile, snow, whiskers
 photo.2: ig://ClC9XfgrlnG/m
 photo.2.author: westcoast_kathy
 photo.2.commitdate: 2022/12/8
 photo.2.link: https://www.instagram.com/westcoast_kathy/
 photo.2.tags: paws, peek, snow
+photo.3: https://www.instagram.com/p/Cl2mGsgrULR/media/?size=m
+photo.3.author: westcoast_kathy
+photo.3.link: https://www.instagram.com/westcoast_kathy/
+photo.3.tags: baby, mofumofu, peek, sample, snow
 species: 2
 zoo: 51

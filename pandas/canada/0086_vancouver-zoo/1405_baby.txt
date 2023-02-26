@@ -1,0 +1,35 @@
+[panda]
+_id: 1405
+birthday: 2022/6/1
+birthplace: 86
+children: none
+commitdate: 2023/2/26
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1404
+photo.1: https://www.instagram.com/p/Clpk8H6raSl/media/?size=m
+photo.1.author: westcoast_kathy
+photo.1.link: https://www.instagram.com/westcoast_kathy/
+photo.1.tags: baby, bamboo, portrait, sample, snow
+photo.2: https://www.instagram.com/p/CnInDe8PMA4/media/?size=m
+photo.2.author: westcoast_kathy
+photo.2.link: https://www.instagram.com/westcoast_kathy/
+photo.2.tags: baby, close-up, sample, whiskers
+photo.3: https://www.instagram.com/p/Cid-ipmJ8GH/media/?size=m
+photo.3.author: westcoast_kathy
+photo.3.link: https://www.instagram.com/westcoast_kathy/
+photo.3.tags: baby, paws, portrait, sample, whiskers
+photo.4: https://www.instagram.com/p/Coqsv3OLH3R/media/?size=m
+photo.4.author: westcoast_kathy
+photo.4.link: https://www.instagram.com/westcoast_kathy/
+photo.4.tags: baby, bamboo, mofumofu, paws, sample, standing, tail, whiskers
+species: 2
+studbook.id: unknown
+uncertainty: exact birthday in June
+zoo: 86
