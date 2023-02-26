@@ -541,25 +541,26 @@ photo.106.author: minato.yokohama4416
 photo.106.commitdate: 2022/10/6
 photo.106.link: https://www.instagram.com/minato.yokohama4416/
 photo.106.tags: bear worm, blink, laying down, paws, smile, whiskers
-photo.107: ig://CjVCOelpYg-/m
-photo.107.author: jas_forever_love
-photo.107.commitdate: 2022/10/20
-photo.107.link: https://www.instagram.com/jas_forever_love/
-photo.107.tags: smile, whiskers
-photo.108: ig://Ck1sEZKhbmy/m
-photo.108.author: tomo3700
-photo.108.commitdate: 2022/12/20
-photo.108.link: https://www.instagram.com/tomo3700/
-photo.108.tags: apple time, keeper, paws, portrait, sample, standing, tail
-photo.109: ig://ClAwiMVPoKr/m
-photo.109.author: minato.yokohama4416
-photo.109.commitdate: 2023/1/27
-photo.109.link: https://www.instagram.com/minato.yokohama4416/
-photo.109.tags: mofumofu, portrait, sample, whiskers
-photo.110: https://www.instagram.com/p/CjFHrwTvukD/media/?size=m
+photo.107: ig://CjFHrwTvukD/m
+photo.107.author: minato.yokohama4416
+photo.107.commitdate: 2023/2/26
+photo.107.link: https://www.instagram.com/minato.yokohama4416/
+photo.107.tags: bear worm, laying down, paws, portrait, sample
+photo.108: ig://CjVCOelpYg-/m
+photo.108.author: jas_forever_love
+photo.108.commitdate: 2022/10/20
+photo.108.link: https://www.instagram.com/jas_forever_love/
+photo.108.tags: smile, whiskers
+photo.109: ig://Ck1sEZKhbmy/m
+photo.109.author: tomo3700
+photo.109.commitdate: 2022/12/20
+photo.109.link: https://www.instagram.com/tomo3700/
+photo.109.tags: apple time, keeper, paws, portrait, sample, standing, tail
+photo.110: ig://ClAwiMVPoKr/m
 photo.110.author: minato.yokohama4416
+photo.110.commitdate: 2023/1/27
 photo.110.link: https://www.instagram.com/minato.yokohama4416/
-photo.110.tags: bear worm, laying down, paws, portrait, sample
+photo.110.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 15132
 zoo: 13

@@ -539,42 +539,46 @@ photo.105.author: kushirozoo
 photo.105.commitdate: 2023/1/1
 photo.105.link: https://www.instagram.com/kushirozoo/
 photo.105.tags: autumn, bamboo, home, portrait
-photo.106: ig://CkqqN_HvHnt/m
-photo.106.author: minatomirai215
-photo.106.commitdate: 2022/12/24
-photo.106.link: https://www.instagram.com/minatomirai215/
-photo.106.tags: autumn, peek, portrait, sample
-photo.107: ig://ClTQ09rPXtn/m
+photo.106: ig://CkS139OB1sf/m
+photo.106.author: komabazoophoto
+photo.106.commitdate: 2023/2/26
+photo.106.link: https://www.instagram.com/komabazoophoto/
+photo.106.tags: autumn, whiskers
+photo.107: ig://CkVZklBhIDM/m
 photo.107.author: komabazoophoto
-photo.107.commitdate: 2023/1/20
+photo.107.commitdate: 2023/2/26
 photo.107.link: https://www.instagram.com/komabazoophoto/
-photo.107.tags: autumn, climb, paws, peek, portrait, sample, whiskers
-photo.108: ig://CmtFEAfrA8U/m
-photo.108.author: kushirozoo
-photo.108.commitdate: 2023/1/6
-photo.108.link: https://www.instagram.com/kushirozoo/
-photo.108.tags: bamboo, home, portrait, sample, smile
-photo.109: ig://Cn8bvpKPe_r/m
-photo.109.author: gloryeui
-photo.109.commitdate: 2023/2/25
-photo.109.link: https://www.instagram.com/gloryeui/
-photo.109.tags: peek, portrait, sample, whiskers
-photo.110: https://www.instagram.com/p/CkanvbFv2x6/media/?size=m
-photo.110.author: komabazoophoto
-photo.110.link: https://www.instagram.com/komabazoophoto/
-photo.110.tags: autumn, peek, portrait, sample, whiskers
-photo.111: https://www.instagram.com/p/CklGGWMS2vh/media/?size=m
+photo.107.tags: autumn
+photo.108: ig://CkanvbFv2x6/m
+photo.108.author: komabazoophoto
+photo.108.commitdate: 2023/2/26
+photo.108.link: https://www.instagram.com/komabazoophoto/
+photo.108.tags: autumn, peek, portrait, sample, whiskers
+photo.109: ig://CklGGWMS2vh/m
+photo.109.author: komabazoophoto
+photo.109.commitdate: 2023/2/26
+photo.109.link: https://www.instagram.com/komabazoophoto/
+photo.109.tags: autumn, peek, portrait, sample, tree
+photo.110: ig://CkqqN_HvHnt/m
+photo.110.author: minatomirai215
+photo.110.commitdate: 2022/12/24
+photo.110.link: https://www.instagram.com/minatomirai215/
+photo.110.tags: autumn, peek, portrait, sample
+photo.111: ig://ClTQ09rPXtn/m
 photo.111.author: komabazoophoto
+photo.111.commitdate: 2023/1/20
 photo.111.link: https://www.instagram.com/komabazoophoto/
-photo.111.tags: autumn, peek, portrait, sample, tree
-photo.112: https://www.instagram.com/p/CkS139OB1sf/media/?size=m
-photo.112.author: komabazoophoto
-photo.112.link: https://www.instagram.com/komabazoophoto/
-photo.112.tags: autumn, whiskers
-photo.113: https://www.instagram.com/p/CkVZklBhIDM/media/?size=m
-photo.113.author: komabazoophoto
-photo.113.link: https://www.instagram.com/komabazoophoto/
-photo.113.tags: autumn
+photo.111.tags: autumn, climb, paws, peek, portrait, sample, whiskers
+photo.112: ig://CmtFEAfrA8U/m
+photo.112.author: kushirozoo
+photo.112.commitdate: 2023/1/6
+photo.112.link: https://www.instagram.com/kushirozoo/
+photo.112.tags: bamboo, home, portrait, sample, smile
+photo.113: ig://Cn8bvpKPe_r/m
+photo.113.author: gloryeui
+photo.113.commitdate: 2023/2/25
+photo.113.link: https://www.instagram.com/gloryeui/
+photo.113.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 1681
 zoo: 11

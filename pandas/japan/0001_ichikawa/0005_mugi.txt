@@ -1515,8 +1515,9 @@ photo.302.author: ifumoto88
 photo.302.commitdate: 2023/1/20
 photo.302.link: https://www.instagram.com/ifumoto88/
 photo.302.tags: blink, close-up, laying down, paws, portrait, sample, whiskers, yawn
-photo.303: https://www.instagram.com/p/CnWwxybL06O/media/?size=m
+photo.303: ig://CnWwxybL06O/m
 photo.303.author: ifumoto88
+photo.303.commitdate: 2023/2/26
 photo.303.link: https://www.instagram.com/ifumoto88/
 photo.303.tags: apple time, paws, sample, whiskers
 species: 2

@@ -133,19 +133,20 @@ photo.24.author: resapanlove
 photo.24.commitdate: 2023/1/14
 photo.24.link: https://www.instagram.com/resapanlove/
 photo.24.tags: baby, bamboo, mofumofu, paws, sample
-photo.25: ig://CoCd6DBL_tN/m
-photo.25.author: tomo3700
-photo.25.commitdate: 2023/2/25
-photo.25.link: https://www.instagram.com/tomo3700/
-photo.25.tags: laying down, mofumofu, portrait, sample, tail
-photo.26: ig://ComiNK6vKRV/m
-photo.26.author: resapanlove
-photo.26.commitdate: 2023/2/24
-photo.26.link: https://www.instagram.com/resapanlove/
-photo.26.tags: blink, close-up, portrait, yawn
-photo.27: https://www.instagram.com/p/CnP5DIxBB3O/media/?size=m
-photo.27.author: hamamatsu.chiita
-photo.27.link: https://www.instagram.com/hamamatsu.chiita/
-photo.27.tags: baby, laying down, mofumofu, portrait, sample
+photo.25: ig://CnP5DIxBB3O/m
+photo.25.author: hamamatsu.chiita
+photo.25.commitdate: 2023/2/26
+photo.25.link: https://www.instagram.com/hamamatsu.chiita/
+photo.25.tags: baby, laying down, mofumofu, portrait, sample
+photo.26: ig://CoCd6DBL_tN/m
+photo.26.author: tomo3700
+photo.26.commitdate: 2023/2/25
+photo.26.link: https://www.instagram.com/tomo3700/
+photo.26.tags: laying down, mofumofu, portrait, sample, tail
+photo.27: ig://ComiNK6vKRV/m
+photo.27.author: resapanlove
+photo.27.commitdate: 2023/2/24
+photo.27.link: https://www.instagram.com/resapanlove/
+photo.27.tags: blink, close-up, portrait, yawn
 species: 2
 zoo: 6
