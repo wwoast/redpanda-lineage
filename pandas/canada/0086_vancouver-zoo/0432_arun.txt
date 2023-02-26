@@ -2,7 +2,7 @@
 _id: 432
 birthday: 2014/6/28
 birthplace: 76
-children: none
+children: 1404, 1405
 commitdate: 2018/11/23
 en.name: Arun
 en.nicknames: none
@@ -754,6 +754,14 @@ photo.149.author: westcoast_kathy
 photo.149.commitdate: 2023/2/26
 photo.149.link: https://www.instagram.com/westcoast_kathy/
 photo.149.tags: peek, sample, whiskers
+photo.150: https://www.instagram.com/p/Ca06XJkLBXq/media/?size=m
+photo.150.author: westcoast_kathy
+photo.150.link: https://www.instagram.com/westcoast_kathy/
+photo.150.tags: close-up, sample, whiskers
+photo.151: https://www.instagram.com/p/CWzcEOXFBI3/media/?size=m
+photo.151.author: westcoast_kathy
+photo.151.link: https://www.instagram.com/westcoast_kathy/
+photo.151.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 1444
 zoo: 86
