@@ -215,8 +215,9 @@ photo.40.author: yossi929
 photo.40.commitdate: 2023/2/24
 photo.40.link: https://www.instagram.com/yossi929/
 photo.40.tags: bamboo, peek, smile, tongue
-photo.41: https://www.instagram.com/p/Co0d_j_h8HR/media/?size=m
+photo.41: ig://Co0d_j_h8HR/m
 photo.41.author: fetorus_mami
+photo.41.commitdate: 2023/2/26
 photo.41.link: https://www.instagram.com/fetorus_mami/
 photo.41.tags: keeper, sample, toothbrush
 species: 2

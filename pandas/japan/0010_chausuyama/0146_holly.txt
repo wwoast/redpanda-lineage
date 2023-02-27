@@ -387,8 +387,9 @@ photo.75.author: otenba_redpanda
 photo.75.commitdate: 2022/10/13
 photo.75.link: https://www.instagram.com/otenba_redpanda/
 photo.75.tags: bamboo, paws, portrait, sample, whiskers
-photo.76: https://www.instagram.com/p/Co1dOSTP9kc/media/?size=m
+photo.76: ig://Co1dOSTP9kc/m
 photo.76.author: shigeko0531
+photo.76.commitdate: 2023/2/26
 photo.76.link: https://www.instagram.com/shigeko0531/
 photo.76.tags: close-up, mofumofu, sample
 species: 2

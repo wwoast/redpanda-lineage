@@ -787,14 +787,16 @@ photo.156.author: yuredpanda
 photo.156.commitdate: 2023/2/25
 photo.156.link: https://www.instagram.com/yuredpanda/
 photo.156.tags: grooming, portrait, tail
-photo.157: https://www.instagram.com/p/Co7UNunP_yX/media/?size=m
-photo.157.author: mini_cochi
-photo.157.link: https://www.instagram.com/mini_cochi/
-photo.157.tags: bamboo, portrait, sample, whiskers
-photo.158: https://www.instagram.com/p/Co5w0QghPQ-/media/?size=m
-photo.158.author: ck.chie
-photo.158.link: https://www.instagram.com/ck.chie/
-photo.158.tags: paws, portrait, sample, snow, whiskers
+photo.157: ig://Co5w0QghPQ-/m
+photo.157.author: ck.chie
+photo.157.commitdate: 2023/2/26
+photo.157.link: https://www.instagram.com/ck.chie/
+photo.157.tags: paws, portrait, sample, snow, whiskers
+photo.158: ig://Co7UNunP_yX/m
+photo.158.author: mini_cochi
+photo.158.commitdate: 2023/2/26
+photo.158.link: https://www.instagram.com/mini_cochi/
+photo.158.tags: bamboo, portrait, sample, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16

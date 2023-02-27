@@ -285,8 +285,9 @@ photo.54.author: itsuak
 photo.54.commitdate: 2023/2/24
 photo.54.link: https://www.instagram.com/itsuak/
 photo.54.tags: close-up, mofumofu, sample
-photo.55: https://www.instagram.com/p/Co8w9V5vTyj/media/?size=m
+photo.55: ig://Co8w9V5vTyj/m
 photo.55.author: itsuak
+photo.55.commitdate: 2023/2/26
 photo.55.link: https://www.instagram.com/itsuak/
 photo.55.tags: apple time, close-up, bite, mofumofu, sample
 species: 2
