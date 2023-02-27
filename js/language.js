@@ -1083,7 +1083,7 @@ Language.L.messages = {
            "族谱数据归属于",
            "<INSERTLINK_RPF>",
            "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©2022 Justin Fairchild"],
+           "布局与设计©2023 Justin Fairchild"],
     "en": ["If you love red pandas, please support ",
            "<INSERTLINK_RPN>",
            " as well as your local zoos. Lineage data courtesy of the ",
@@ -1091,7 +1091,7 @@ Language.L.messages = {
            " project, but linked media remains property of its creators. ",
            "Layout and design ©" +
            "\xa0" +
-           "2022 Justin Fairchild."],
+           "2023 Justin Fairchild."],
     "es": ["Si te encantan los pandas rojos, apoya a ",
            "<INSERTLINK_RPN>",
            " y a los zoológicos locales. Los datos sobre el linaje son cortesía del proyecto ",
@@ -1099,19 +1099,19 @@ Language.L.messages = {
            " pero los medios vinculados siguen siendo propiedad de sus creadores. ",
            " Maquetación y diseño ©" +
            "\xa0" + 
-           "2022 Justin Fairchild."],
+           "2023 Justin Fairchild."],
     "jp": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
            "<INSERTLINK_RPN>",
            "もサポートしてください。系統データは",
            "<INSERTLINK_RPF>",
            "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
-           "設計©2022 Justin Fairchild"],
+           "設計©2023 Justin Fairchild"],
     "np": ["यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया ",
            "<INSERTLINK_RPN>",
            " साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। ",
            "<INSERTLINK_RPF>",
            " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
-           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२२ Justin Fairchild द्वारा।"],
+           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२३ Justin Fairchild द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
            " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
@@ -1119,7 +1119,7 @@ Language.L.messages = {
            ", mas as mídias linkadas seguem sendo propriedade de seus criadores. ",
            "Layout e design ©" +
            "\xa0" +
-           "2022 Justin Fairchild."]
+           "2023 Justin Fairchild."]
   },
   "found_animal": {
     "cn": [Language.L.emoji.flower, " ",
