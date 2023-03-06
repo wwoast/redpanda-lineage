@@ -2155,15 +2155,16 @@ photo.429.author: otenba_redpanda
 photo.429.commitdate: 2022/9/8
 photo.429.link: https://www.instagram.com/otenba_redpanda/
 photo.429.tags: portrait, sample, whiskers
-photo.430: ig://CohjtoaPRcO/m
-photo.430.author: redpan22
-photo.430.commitdate: 2023/2/24
-photo.430.link: https://www.instagram.com/redpan22/
-photo.430.tags: climb, sample, snow, whiskers
-photo.431: https://www.instagram.com/p/CoUeWIOvMzB/media/?size=m
-photo.431.author: ck.chie
-photo.431.link: https://www.instagram.com/ck.chie/
-photo.431.tags: sample, whiskers
+photo.430: ig://CoUeWIOvMzB/m
+photo.430.author: ck.chie
+photo.430.commitdate: 2023/3/6
+photo.430.link: https://www.instagram.com/ck.chie/
+photo.430.tags: sample, whiskers
+photo.431: ig://CohjtoaPRcO/m
+photo.431.author: redpan22
+photo.431.commitdate: 2023/2/24
+photo.431.link: https://www.instagram.com/redpan22/
+photo.431.tags: climb, sample, snow, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

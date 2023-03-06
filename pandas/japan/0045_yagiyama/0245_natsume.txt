@@ -583,8 +583,9 @@ photo.114.author: ssc6105
 photo.114.commitdate: 2022/12/11
 photo.114.link: https://www.instagram.com/ssc6105/
 photo.114.tags: portrait, sample, whiskers
-photo.115: https://www.instagram.com/p/Cn7Bo-VPfHg/media/?size=m
+photo.115: ig://Cn7Bo-VPfHg/m
 photo.115.author: yuredpanda
+photo.115.commitdate: 2023/3/6
 photo.115.link: https://www.instagram.com/yuredpanda/
 photo.115.tags: close-up, paws, portrait, sample, smile, whiskers
 species: 2

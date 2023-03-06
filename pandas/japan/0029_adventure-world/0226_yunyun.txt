@@ -344,8 +344,9 @@ photo.66.author: chankunvv
 photo.66.commitdate: 2022/10/7
 photo.66.link: https://www.instagram.com/chankunvv/
 photo.66.tags: portrait, tail, upside-down
-photo.67: https://www.instagram.com/p/Cn04VkbPnh4/media/?size=m
+photo.67: ig://Cn04VkbPnh4/m
 photo.67.author: adventureworld_official
+photo.67.commitdate: 2023/3/6
 photo.67.link: https://www.instagram.com/adventureworld_official/
 photo.67.tags: paws, portrait, sample, snow
 species: 2

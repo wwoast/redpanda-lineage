@@ -82,8 +82,9 @@ photo.14.author: kojikoji2011
 photo.14.commitdate: 2023/1/14
 photo.14.link: https://www.instagram.com/kojikoji2011/
 photo.14.tags: bamboo, paws, portrait, sample
-photo.15: https://www.instagram.com/p/CoL7rYlvXej/media/?size=m
+photo.15: ig://CoL7rYlvXej/m
 photo.15.author: re_ichimaru
+photo.15.commitdate: 2023/3/6
 photo.15.link: https://www.instagram.com/re_ichimaru/
 photo.15.tags: climb, paws, peek, portrait, sample, white face
 species: 2

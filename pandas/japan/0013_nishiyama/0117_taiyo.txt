@@ -412,8 +412,9 @@ photo.80.author: gloryeui
 photo.80.commitdate: 2023/2/4
 photo.80.link: https://www.instagram.com/gloryeui/
 photo.80.tags: laying down, paws, portrait, sample, whiskers
-photo.81: https://www.instagram.com/p/CoLIRT-BaYL/media/?size=m
+photo.81: ig://CoLIRT-BaYL/m
 photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2023/3/6
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
 photo.81.tags: close-up, mofumofu, portrait, whiskers
 species: 2

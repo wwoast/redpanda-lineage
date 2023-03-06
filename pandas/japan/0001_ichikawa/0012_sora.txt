@@ -970,8 +970,9 @@ photo.192.author: ifumoto88
 photo.192.commitdate: 2023/1/20
 photo.192.link: https://www.instagram.com/ifumoto88/
 photo.192.tags: paws, peek, sample, tail, tree
-photo.193: https://www.instagram.com/p/CoLMrrbB4WD/media/?size=m
+photo.193: ig://CoLMrrbB4WD/m
 photo.193.author: alto0908
+photo.193.commitdate: 2023/3/6
 photo.193.link: https://www.instagram.com/alto0908/
 photo.193.tags: mofumofu, paws, sample
 species: 2
