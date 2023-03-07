@@ -941,47 +941,51 @@ photo.186.author: monmon_redpanda
 photo.186.commitdate: 2022/11/4
 photo.186.link: https://www.instagram.com/monmon_redpanda/
 photo.186.tags: dish, lunch time, nose, portrait, sample, smile, whiskers
-photo.187: ig://CnuAk8bPfqx/m
+photo.187: ig://Cnn5MlsvR54/m
 photo.187.author: fetorus_mami
-photo.187.commitdate: 2023/2/25
+photo.187.commitdate: 2023/3/6
 photo.187.link: https://www.instagram.com/fetorus_mami/
-photo.187.tags: peek, poop, sample
-photo.188: ig://CnuBeM4PpC-/m
+photo.187.tags: laying down
+photo.188: ig://CnotMDwv0_7/m
 photo.188.author: fetorus_mami
-photo.188.commitdate: 2023/2/25
+photo.188.commitdate: 2023/3/6
 photo.188.link: https://www.instagram.com/fetorus_mami/
-photo.188.tags: apple time, lips, peek, sample, whiskers
-photo.189: ig://CnuDU4BvnUm/m
+photo.188.tags: paws, standing, whiskers, window
+photo.189: ig://CnrDOGSPiM-/m
 photo.189.author: fetorus_mami
-photo.189.commitdate: 2023/2/25
+photo.189.commitdate: 2023/3/6
 photo.189.link: https://www.instagram.com/fetorus_mami/
-photo.189.tags: paws, sample, smile, tail
-photo.190: ig://CnuEJO3PEoc/m
+photo.189.tags: close-up, laying down, sample, whiskers
+photo.190: ig://CnrMrY4PPtY/m
 photo.190.author: fetorus_mami
-photo.190.commitdate: 2023/2/25
+photo.190.commitdate: 2023/3/6
 photo.190.link: https://www.instagram.com/fetorus_mami/
-photo.190.tags: air tasting, dish, paws, portrait, sample, tongue, whiskers
-photo.191: ig://CnuFGN-vy0M/m
+photo.190.tags: dish, sample, smile
+photo.191: ig://CnuAk8bPfqx/m
 photo.191.author: fetorus_mami
 photo.191.commitdate: 2023/2/25
 photo.191.link: https://www.instagram.com/fetorus_mami/
-photo.191.tags: air tasting, paws, sample, standing, tongue
-photo.192: https://www.instagram.com/p/CnrMrY4PPtY/media/?size=m
+photo.191.tags: peek, poop, sample
+photo.192: ig://CnuBeM4PpC-/m
 photo.192.author: fetorus_mami
+photo.192.commitdate: 2023/2/25
 photo.192.link: https://www.instagram.com/fetorus_mami/
-photo.192.tags: dish, sample, smile
-photo.193: https://www.instagram.com/p/CnrDOGSPiM-/media/?size=m
+photo.192.tags: apple time, lips, peek, sample, whiskers
+photo.193: ig://CnuDU4BvnUm/m
 photo.193.author: fetorus_mami
+photo.193.commitdate: 2023/2/25
 photo.193.link: https://www.instagram.com/fetorus_mami/
-photo.193.tags: close-up, laying down, sample, whiskers
-photo.194: https://www.instagram.com/p/Cnn5MlsvR54/media/?size=m
+photo.193.tags: paws, sample, smile, tail
+photo.194: ig://CnuEJO3PEoc/m
 photo.194.author: fetorus_mami
+photo.194.commitdate: 2023/2/25
 photo.194.link: https://www.instagram.com/fetorus_mami/
-photo.194.tags: laying down
-photo.195: https://www.instagram.com/p/CnotMDwv0_7/media/?size=m
+photo.194.tags: air tasting, dish, paws, portrait, sample, tongue, whiskers
+photo.195: ig://CnuFGN-vy0M/m
 photo.195.author: fetorus_mami
+photo.195.commitdate: 2023/2/25
 photo.195.link: https://www.instagram.com/fetorus_mami/
-photo.195.tags: paws, standing, whiskers, window
+photo.195.tags: air tasting, paws, sample, standing, tongue
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/rYd6QptEbU0

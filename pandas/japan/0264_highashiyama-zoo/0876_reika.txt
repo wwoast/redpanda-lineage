@@ -623,8 +623,9 @@ photo.122.author: hamamatsu.chiita
 photo.122.commitdate: 2022/12/11
 photo.122.link: https://www.instagram.com/hamamatsu.chiita/
 photo.122.tags: bamboo, close-up, portrait, sample, whiskers
-photo.123: https://www.instagram.com/p/CnlTNYBv7ub/media/?size=m
+photo.123: ig://CnlTNYBv7ub/m
 photo.123.author: fetorus_mami
+photo.123.commitdate: 2023/3/6
 photo.123.link: https://www.instagram.com/fetorus_mami/
 photo.123.tags: apple time, paws, sample, smile, tree, whiskers
 species: 2

@@ -264,15 +264,16 @@ photo.50.author: itsuak
 photo.50.commitdate: 2022/8/18
 photo.50.link: https://www.instagram.com/itsuak/
 photo.50.tags: laying down, portrait, whiskers, window
-photo.51: ig://Cnw4aVZvgY8/m
-photo.51.author: itsuak
+photo.51: ig://CnrUC38vnlO/m
+photo.51.author: kotata_513
 photo.51.commitdate: 2023/3/6
-photo.51.link: https://www.instagram.com/itsuak/
-photo.51.tags: portrait, sample, whiskers
-photo.52: https://www.instagram.com/p/CnrUC38vnlO/media/?size=m
-photo.52.author: kotata_513
-photo.52.link: https://www.instagram.com/kotata_513/
-photo.52.tags: laying down, portrait, sample, tree, whiskers
+photo.51.link: https://www.instagram.com/kotata_513/
+photo.51.tags: laying down, portrait, sample, tree, whiskers
+photo.52: ig://Cnw4aVZvgY8/m
+photo.52.author: itsuak
+photo.52.commitdate: 2023/3/6
+photo.52.link: https://www.instagram.com/itsuak/
+photo.52.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0768
 zoo: 46

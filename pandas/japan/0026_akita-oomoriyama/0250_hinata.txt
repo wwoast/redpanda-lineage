@@ -447,25 +447,26 @@ photo.87.author: redpan22
 photo.87.commitdate: 2023/2/4
 photo.87.link: https://www.instagram.com/redpan22/
 photo.87.tags: apple time, paws, standing
-photo.88: ig://ComOs8AvPh3/m
-photo.88.author: mini_cochi
-photo.88.commitdate: 2023/2/24
-photo.88.link: https://www.instagram.com/mini_cochi/
-photo.88.tags: sample, snow, tail
-photo.89: ig://CouTQ1-P2_M/m
+photo.88: ig://CnOBtjKhT8x/m
+photo.88.author: oomoriyamazoo
+photo.88.commitdate: 2023/3/6
+photo.88.link: https://www.instagram.com/omoriyamazoo/
+photo.88.tags: apple time, bite, bridge, laying down, portrait, sample
+photo.89: ig://ComOs8AvPh3/m
 photo.89.author: mini_cochi
 photo.89.commitdate: 2023/2/24
 photo.89.link: https://www.instagram.com/mini_cochi/
-photo.89.tags: close-up, nose
-photo.90: ig://Cow_neDvLOU/m
+photo.89.tags: sample, snow, tail
+photo.90: ig://CouTQ1-P2_M/m
 photo.90.author: mini_cochi
 photo.90.commitdate: 2023/2/24
 photo.90.link: https://www.instagram.com/mini_cochi/
-photo.90.tags: bamboo, portrait, sample, smile, whiskers
-photo.91: https://www.instagram.com/p/CnOBtjKhT8x/media/?size=m
-photo.91.author: oomoriyamazoo
-photo.91.link: https://www.instagram.com/omoriyamazoo/
-photo.91.tags: apple time, bite, bridge, laying down, portrait, sample
+photo.90.tags: close-up, nose
+photo.91: ig://Cow_neDvLOU/m
+photo.91.author: mini_cochi
+photo.91.commitdate: 2023/2/24
+photo.91.link: https://www.instagram.com/mini_cochi/
+photo.91.tags: bamboo, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 26
