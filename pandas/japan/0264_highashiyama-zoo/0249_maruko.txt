@@ -482,19 +482,21 @@ photo.93.author: minatomirai215
 photo.93.commitdate: 2022/10/20
 photo.93.link: https://www.instagram.com/minatomirai215/
 photo.93.tags: mofumofu, portrait, sample, whiskers
-photo.94: ig://Co1vcHAvPNM/m
-photo.94.author: hamamatsu.chiita
-photo.94.commitdate: 2023/2/26
-photo.94.link: https://www.instagram.com/hamamatsu.chiita/
-photo.94.tags: sample, whiskers
-photo.95: https://www.instagram.com/p/CmizP9lv_Qk/media/?size=m
-photo.95.author: fetorus_mami
-photo.95.link: https://www.instagram.com/fetorus_mami/
-photo.95.tags: apple time, paws, sample, standing, tail
-photo.96: https://www.instagram.com/p/Cmm96RGhyrI/media/?size=m
-photo.96.author: alto0908
-photo.96.link: https://www.instagram.com/alto0908/
-photo.96.tags: paws, peek, sample, whiskers
+photo.94: ig://CmizP9lv_Qk/m
+photo.94.author: fetorus_mami
+photo.94.commitdate: 2023/3/9
+photo.94.link: https://www.instagram.com/fetorus_mami/
+photo.94.tags: apple time, paws, sample, standing, tail
+photo.95: ig://Cmm96RGhyrI/m
+photo.95.author: alto0908
+photo.95.commitdate: 2023/3/9
+photo.95.link: https://www.instagram.com/alto0908/
+photo.95.tags: paws, peek, sample, whiskers
+photo.96: ig://Co1vcHAvPNM/m
+photo.96.author: hamamatsu.chiita
+photo.96.commitdate: 2023/2/26
+photo.96.link: https://www.instagram.com/hamamatsu.chiita/
+photo.96.tags: sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

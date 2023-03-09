@@ -396,29 +396,31 @@ photo.77.author: leonard_redmof
 photo.77.commitdate: 2023/2/4
 photo.77.link: https://www.instagram.com/leonard_redmof/
 photo.77.tags: portrait, sample, tail
-photo.78: ig://CmPm2VTBr31/m
+photo.78: ig://CmOaOjFP_-Q/m
 photo.78.author: hamamatsu.chiita
-photo.78.commitdate: 2023/1/14
+photo.78.commitdate: 2023/3/9
 photo.78.link: https://www.instagram.com/hamamatsu.chiita/
-photo.78.tags: peek, portrait, sample, snow, tail, whiskers
-photo.79: ig://Cnb744LraOL/m
-photo.79.author: gloryeui
-photo.79.commitdate: 2023/2/25
-photo.79.link: https://www.instagram.com/gloryeui/
-photo.79.tags: bamboo, paws, portrait, sample, standing
-photo.80: ig://Cohak8cPT6L/m
-photo.80.author: leonard_redmof
-photo.80.commitdate: 2023/2/24
-photo.80.link: https://www.instagram.com/leonard_redmof/
-photo.80.tags: keeper, paws, portrait, snow, standing, tongue
-photo.81: https://www.instagram.com/p/CmkQ_A2BSay/media/?size=m
-photo.81.author: hamamatsu.chiita
-photo.81.link: https://www.instagram.com/hamamatsu.chiita/
-photo.81.tags: mofumofu, portrait, sample, snow
-photo.82: https://www.instagram.com/p/CmOaOjFP_-Q/media/?size=m
-photo.82.author: hamamatsu.chiita
-photo.82.link: https://www.instagram.com/hamamatsu.chiita/
-photo.82.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
+photo.78.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
+photo.79: ig://CmPm2VTBr31/m
+photo.79.author: hamamatsu.chiita
+photo.79.commitdate: 2023/1/14
+photo.79.link: https://www.instagram.com/hamamatsu.chiita/
+photo.79.tags: peek, portrait, sample, snow, tail, whiskers
+photo.80: ig://CmkQ_A2BSay/m
+photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2023/3/9
+photo.80.link: https://www.instagram.com/hamamatsu.chiita/
+photo.80.tags: mofumofu, portrait, sample, snow
+photo.81: ig://Cnb744LraOL/m
+photo.81.author: gloryeui
+photo.81.commitdate: 2023/2/25
+photo.81.link: https://www.instagram.com/gloryeui/
+photo.81.tags: bamboo, paws, portrait, sample, standing
+photo.82: ig://Cohak8cPT6L/m
+photo.82.author: leonard_redmof
+photo.82.commitdate: 2023/2/24
+photo.82.link: https://www.instagram.com/leonard_redmof/
+photo.82.tags: keeper, paws, portrait, snow, standing, tongue
 species: 2
 studbook.id: 1694
 zoo: 7

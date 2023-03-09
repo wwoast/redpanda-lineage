@@ -543,15 +543,16 @@ photo.106.author: hamamatsu.chiita
 photo.106.commitdate: 2022/9/18
 photo.106.link: https://www.instagram.com/hamamatsu.chiita/
 photo.106.tags: portrait, sample, whiskers
-photo.107: ig://CogMFRsP2JV/m
-photo.107.author: minatomirai215
-photo.107.commitdate: 2023/2/24
-photo.107.link: https://www.instagram.com/minatomirai215/
-photo.107.tags: portrait, sample, whiskers
-photo.108: https://www.instagram.com/p/CmqqthnvVBl/media/?size=m
-photo.108.author: makimaru18
-photo.108.link: https://www.instagram.com/makimaru18/
-photo.108.tags: mofumofu, nose, portrait, sample
+photo.107: ig://CmqqthnvVBl/m
+photo.107.author: makimaru18
+photo.107.commitdate: 2023/3/9
+photo.107.link: https://www.instagram.com/makimaru18/
+photo.107.tags: mofumofu, nose, portrait, sample
+photo.108: ig://CogMFRsP2JV/m
+photo.108.author: minatomirai215
+photo.108.commitdate: 2023/2/24
+photo.108.link: https://www.instagram.com/minatomirai215/
+photo.108.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo

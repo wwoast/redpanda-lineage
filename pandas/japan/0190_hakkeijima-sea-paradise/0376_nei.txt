@@ -460,19 +460,21 @@ photo.89.author: gloryeui
 photo.89.commitdate: 2022/10/14
 photo.89.link: https://www.instagram.com/gloryeui/
 photo.89.tags: bite, bridge, close-up, portrait, whiskers
-photo.90: ig://Com9WCfPcBa/m
-photo.90.author: minatomirai215
-photo.90.commitdate: 2023/2/24
-photo.90.link: https://www.instagram.com/minatomirai215/
-photo.90.tags: portrait, sample, whiskers
-photo.91: https://www.instagram.com/p/Cmqi8Lnv7mq/media/?size=m
+photo.90: ig://CmixmtpPMui/m
+photo.90.author: gloryeui
+photo.90.commitdate: 2023/3/9
+photo.90.link: https://www.instagram.com/gloryeui/
+photo.90.tags: apple time, dish, portrait, whiskers
+photo.91: ig://Cmqi8Lnv7mq/m
 photo.91.author: gloryeui
+photo.91.commitdate: 2023/3/9
 photo.91.link: https://www.instagram.com/gloryeui/
 photo.91.tags: paws, portrait, sample, whiskers
-photo.92: https://www.instagram.com/p/CmixmtpPMui/media/?size=m
-photo.92.author: gloryeui
-photo.92.link: https://www.instagram.com/gloryeui/
-photo.92.tags: apple time, dish, portrait, whiskers
+photo.92: ig://Com9WCfPcBa/m
+photo.92.author: minatomirai215
+photo.92.commitdate: 2023/2/24
+photo.92.link: https://www.instagram.com/minatomirai215/
+photo.92.tags: portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 190

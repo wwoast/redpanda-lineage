@@ -1,8 +1,10 @@
 [media]
 _id: media.41.ashitaba-rinrin
+commitdate: 2023/3/9
 panda.tags: 132, 295
-photo.1: https://www.instagram.com/p/CphW8s_PKxb/media/?size=l
+photo.1: ig://CphW8s_PKxb/l
 photo.1.author: itozu_zoo
+photo.1.commitdate: 2023/3/9
 photo.1.link: https://www.instagram.com/itozu_zoo/
 photo.1.tags: couple, laying down, portrait, sample
 photo.1.tags.132.location: 245, 80

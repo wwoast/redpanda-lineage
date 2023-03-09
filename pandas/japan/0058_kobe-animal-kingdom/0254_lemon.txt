@@ -624,8 +624,9 @@ photo.122.author: gloryeui
 photo.122.commitdate: 2022/9/4
 photo.122.link: https://www.instagram.com/gloryeui/
 photo.122.tags: peek, portrait, sample, smile
-photo.123: https://www.instagram.com/p/Cmqx406vOBz/media/?size=m
+photo.123: ig://Cmqx406vOBz/m
 photo.123.author: jas_forever_love
+photo.123.commitdate: 2023/3/9
 photo.123.link: https://www.instagram.com/jas_forever_love/
 photo.123.tags: sample, smile, whiskers
 species: 2

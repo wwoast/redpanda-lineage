@@ -2632,24 +2632,26 @@ photo.525.author: komabazoophoto
 photo.525.commitdate: 2023/1/11
 photo.525.link: https://www.instagram.com/komabazoophoto/
 photo.525.tags: air tasting, portrait, sample, tongue, whiskers
-photo.526: ig://CouUDk9vVyJ/m
-photo.526.author: mini_cochi
-photo.526.commitdate: 2023/2/24
-photo.526.link: https://www.instagram.com/mini_cochi/
-photo.526.tags: close-up, laying down, portrait, sample, whiskers
-photo.527: ig://Co4tzjWvzEQ/m
-photo.527.author: minatomirai215
-photo.527.commitdate: 2023/2/26
-photo.527.link: https://www.instagram.com/minatomirai215/
-photo.527.tags: home, portrait, sample, snow
-photo.528: https://www.instagram.com/p/CmjA2n_Pewa/media/?size=m
-photo.528.author: komabazoophoto
-photo.528.link: https://www.instagram.com/komabazoophoto/
-photo.528.tags: blink, portrait, sample, snow, whiskers
-photo.529: https://www.instagram.com/p/CmghHkzPy-4/media/?size=m
-photo.529.author: komabazoophoto
-photo.529.link: https://www.instagram.com/komabazoophoto/
-photo.529.tags: portrait, sample, smile, whiskers
+photo.526: ig://CmghHkzPy-4/m
+photo.526.author: komabazoophoto
+photo.526.commitdate: 2023/3/9
+photo.526.link: https://www.instagram.com/komabazoophoto/
+photo.526.tags: portrait, sample, smile, whiskers
+photo.527: ig://CmjA2n_Pewa/m
+photo.527.author: komabazoophoto
+photo.527.commitdate: 2023/3/9
+photo.527.link: https://www.instagram.com/komabazoophoto/
+photo.527.tags: blink, portrait, sample, snow, whiskers
+photo.528: ig://CouUDk9vVyJ/m
+photo.528.author: mini_cochi
+photo.528.commitdate: 2023/2/24
+photo.528.link: https://www.instagram.com/mini_cochi/
+photo.528.tags: close-up, laying down, portrait, sample, whiskers
+photo.529: ig://Co4tzjWvzEQ/m
+photo.529.author: minatomirai215
+photo.529.commitdate: 2023/2/26
+photo.529.link: https://www.instagram.com/minatomirai215/
+photo.529.tags: home, portrait, sample, snow
 species: 2
 studbook.id: 1676
 zoo: 26

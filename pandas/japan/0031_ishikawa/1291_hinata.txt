@@ -203,14 +203,15 @@ photo.38.author: hamamatsu.chiita
 photo.38.commitdate: 2022/10/20
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
 photo.38.tags: portrait, sample, smile, whiskers, white face
-photo.39: ig://CoR1LH1PecI/m
+photo.39: ig://CmHzAjsyFw4/m
 photo.39.author: hamamatsu.chiita
-photo.39.commitdate: 2023/2/24
+photo.39.commitdate: 2023/3/9
 photo.39.link: https://www.instagram.com/hamamatsu.chiita/
-photo.39.tags: portrait, sample, smile, whiskers
-photo.40: https://www.instagram.com/p/CmHzAjsyFw4/media/?size=m
+photo.39.tags: portrait, sample, smile, tongue, whiskers
+photo.40: ig://CoR1LH1PecI/m
 photo.40.author: hamamatsu.chiita
+photo.40.commitdate: 2023/2/24
 photo.40.link: https://www.instagram.com/hamamatsu.chiita/
-photo.40.tags: portrait, sample, smile, tongue, whiskers
+photo.40.tags: portrait, sample, smile, whiskers
 species: 2
 zoo: 31

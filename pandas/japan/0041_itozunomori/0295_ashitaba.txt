@@ -323,8 +323,9 @@ photo.62.author: re_ichimaru
 photo.62.commitdate: 2023/1/20
 photo.62.link: https://www.instagram.com/re_ichimaru/
 photo.62.tags: climb, peek, sample, whiskers
-photo.63: https://www.instagram.com/p/CmfSq-0heN4/media/?size=m
+photo.63: ig://CmfSq-0heN4/m
 photo.63.author: yossi929
+photo.63.commitdate: 2023/3/9
 photo.63.link: https://www.instagram.com/yossi929/
 photo.63.tags: bridge, sample, whiskers
 species: 2
