@@ -1,8 +1,10 @@
 [media]
 _id: media.37.chenchen-jinjin-yuuyuu
+commitdate: 2023/3/9
 panda.tags: 227, 1370, 1371
-photo.1: https://www.instagram.com/p/CnzTvAdvkWt/media/?size=l
+photo.1: ig://CnzTvAdvkWt/l
 photo.1.author: rie_panda55
+photo.1.commitdate: 2023/3/9
 photo.1.link: https://www.instagram.com/rie_panda55/
 photo.1.tags: family, portrait, siblings, snow, twins
 photo.1.tags.227.location: 420, 210

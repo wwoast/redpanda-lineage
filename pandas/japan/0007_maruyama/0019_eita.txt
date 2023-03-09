@@ -1900,15 +1900,16 @@ photo.379.author: hamamatsu.chiita
 photo.379.commitdate: 2023/3/6
 photo.379.link: https://www.instagram.com/hamamatsu.chiita/
 photo.379.tags: close-up, nose, portrait, sample, whiskers
-photo.380: ig://CntV7LJL3Qo/m
-photo.380.author: leonard_redmof
-photo.380.commitdate: 2023/2/25
-photo.380.link: https://www.instagram.com/leonard_redmof/
-photo.380.tags: nose, portrait, sample, snow
-photo.381: https://www.instagram.com/p/Cnrdr7-P5My/media/?size=m
-photo.381.author: gloryeui
-photo.381.link: https://www.instagram.com/gloryeui/
-photo.381.tags: peek, playing, snow, tail
+photo.380: ig://Cnrdr7-P5My/m
+photo.380.author: gloryeui
+photo.380.commitdate: 2023/3/9
+photo.380.link: https://www.instagram.com/gloryeui/
+photo.380.tags: peek, playing, snow, tail
+photo.381: ig://CntV7LJL3Qo/m
+photo.381.author: leonard_redmof
+photo.381.commitdate: 2023/2/25
+photo.381.link: https://www.instagram.com/leonard_redmof/
+photo.381.tags: nose, portrait, sample, snow
 species: 2
 studbook.id: 10108
 zoo: 7

@@ -412,8 +412,9 @@ photo.80.author: alto0908
 photo.80.commitdate: 2023/1/11
 photo.80.link: https://www.instagram.com/alto0908/
 photo.80.tags: portrait, sample, smile, whiskers
-photo.81: https://www.instagram.com/p/Cn0JGckh6qQ/media/?size=m
+photo.81: ig://Cn0JGckh6qQ/m
 photo.81.author: alto0908
+photo.81.commitdate: 2023/3/9
 photo.81.link: https://www.instagram.com/alto0908/
 photo.81.tags: bamboo, paws, snow
 species: 2

@@ -1142,15 +1142,16 @@ photo.228.author: falcon_tenor
 photo.228.commitdate: 2023/1/6
 photo.228.link: https://www.instagram.com/falcon_tenor/
 photo.228.tags: bamboo, blink, portrait, smile, tongue
-photo.229: ig://Cn5Tazrhl3r/m
-photo.229.author: tomo3700
-photo.229.commitdate: 2023/2/25
-photo.229.link: https://www.instagram.com/tomo3700/
-photo.229.tags: portrait, sample, standing, whiskers
-photo.230: https://www.instagram.com/p/CnvwZIBPYU9/media/?size=m
-photo.230.author: miis_98
-photo.230.link: https://www.instagram.com/miis_98/
-photo.230.tags: paws, portrait, sample, whiskers
+photo.229: ig://CnvwZIBPYU9/m
+photo.229.author: miis_98
+photo.229.commitdate: 2023/3/9
+photo.229.link: https://www.instagram.com/miis_98/
+photo.229.tags: paws, portrait, sample, whiskers
+photo.230: ig://Cn5Tazrhl3r/m
+photo.230.author: tomo3700
+photo.230.commitdate: 2023/2/25
+photo.230.link: https://www.instagram.com/tomo3700/
+photo.230.tags: portrait, sample, standing, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

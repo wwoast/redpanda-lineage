@@ -536,8 +536,9 @@ photo.104.author: framereim
 photo.104.commitdate: 2022/8/7
 photo.104.link: https://www.instagram.com/framereim/
 photo.104.tags: mofumofu, paws, portrait, sample, smile, tail
-photo.105: https://www.instagram.com/p/CnnGmMFBrIF/media/?size=m
+photo.105: ig://CnnGmMFBrIF/m
 photo.105.author: eos1089
+photo.105.commitdate: 2023/3/9
 photo.105.link: https://www.instagram.com/eos1089/
 photo.105.tags: blink, portrait, sample
 species: 2

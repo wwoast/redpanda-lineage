@@ -534,15 +534,16 @@ photo.104.author: ifumoto88
 photo.104.commitdate: 2022/11/8
 photo.104.link: https://www.instagram.com/ifumoto88/
 photo.104.tags: grumpy, laying down, paws, portrait, sample, whiskers
-photo.105: ig://CoHiMyGvnh3/m
-photo.105.author: kiarino51
-photo.105.commitdate: 2023/2/24
-photo.105.link: https://www.instagram.com/kiarino51/
-photo.105.tags: laying down, portrait, sample, white face
-photo.106: https://www.instagram.com/p/CnkqJ87BAYJ/media/?size=m
-photo.106.author: alto0908
-photo.106.link: https://www.instagram.com/alto0908/
-photo.106.tags: apple time, sample, standing, techitechi, tongue
+photo.105: ig://CnkqJ87BAYJ/m
+photo.105.author: alto0908
+photo.105.commitdate: 2023/3/9
+photo.105.link: https://www.instagram.com/alto0908/
+photo.105.tags: apple time, sample, standing, techitechi, tongue
+photo.106: ig://CoHiMyGvnh3/m
+photo.106.author: kiarino51
+photo.106.commitdate: 2023/2/24
+photo.106.link: https://www.instagram.com/kiarino51/
+photo.106.tags: laying down, portrait, sample, white face
 species: 2
 studbook.id: 13150
 zoo: 8

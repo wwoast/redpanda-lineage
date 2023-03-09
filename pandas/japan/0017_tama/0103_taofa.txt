@@ -943,30 +943,31 @@ photo.186.author: ssc6105
 photo.186.commitdate: 2023/1/20
 photo.186.link: https://www.instagram.com/ssc6105/
 photo.186.tags: paws, sample, tree
-photo.187: ig://Cnwbiwev8vL/m
-photo.187.author: ck.chie
-photo.187.commitdate: 2023/2/25
-photo.187.link: https://www.instagram.com/ck.chie/
-photo.187.tags: bamboo, paws, peek, sample
-photo.188: ig://CoMxcvEPL-H/m
-photo.188.author: kotata_513
-photo.188.commitdate: 2023/3/6
-photo.188.link: https://www.instagram.com/kotata_513/
-photo.188.tags: bamboo, bridge, paws, portrait, sample
-photo.189: ig://CojwOonv16r/m
-photo.189.author: ssc6105
-photo.189.commitdate: 2023/2/24
-photo.189.link: https://www.instagram.com/ssc6105/
-photo.189.tags: paws, playing, sample, snow, standing, tail
-photo.190: ig://Comh3CxvpVJ/m
-photo.190.author: redpan22
+photo.187: ig://Cngt6jsvGHa/m
+photo.187.author: tamazoowalking
+photo.187.commitdate: 2023/3/9
+photo.187.link: https://www.instagram.com/tamazoowalking/
+photo.187.tags: bamboo, portrait, sample, tongue
+photo.188: ig://Cnwbiwev8vL/m
+photo.188.author: ck.chie
+photo.188.commitdate: 2023/2/25
+photo.188.link: https://www.instagram.com/ck.chie/
+photo.188.tags: bamboo, paws, peek, sample
+photo.189: ig://CoMxcvEPL-H/m
+photo.189.author: kotata_513
+photo.189.commitdate: 2023/3/6
+photo.189.link: https://www.instagram.com/kotata_513/
+photo.189.tags: bamboo, bridge, paws, portrait, sample
+photo.190: ig://CojwOonv16r/m
+photo.190.author: ssc6105
 photo.190.commitdate: 2023/2/24
-photo.190.link: https://www.instagram.com/redpan22/
-photo.190.tags: playing, snow
-photo.191: https://www.instagram.com/p/Cngt6jsvGHa/media/?size=m
-photo.191.author: tamazoowalking
-photo.191.link: https://www.instagram.com/tamazoowalking/
-photo.191.tags: bamboo, portrait, sample, tongue
+photo.190.link: https://www.instagram.com/ssc6105/
+photo.190.tags: paws, playing, sample, snow, standing, tail
+photo.191: ig://Comh3CxvpVJ/m
+photo.191.author: redpan22
+photo.191.commitdate: 2023/2/24
+photo.191.link: https://www.instagram.com/redpan22/
+photo.191.tags: playing, snow
 species: 2
 studbook.id: 15127
 zoo: 17

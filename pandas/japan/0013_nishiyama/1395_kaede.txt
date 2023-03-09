@@ -78,15 +78,16 @@ photo.13.author: hamamatsu.chiita
 photo.13.commitdate: 2023/1/6
 photo.13.link: https://www.instagram.com/hamamatsu.chiita/
 photo.13.tags: baby, mofumofu, portrait, sample
-photo.14: ig://Cok3ievhuZt/m
+photo.14: ig://CnfVuMvhOJY/m
 photo.14.author: hamamatsu.chiita
-photo.14.commitdate: 2023/2/24
+photo.14.commitdate: 2023/3/9
 photo.14.link: https://www.instagram.com/hamamatsu.chiita/
-photo.14.tags: baby, mofumofu, peek, sample
-photo.15: https://www.instagram.com/p/CnfVuMvhOJY/media/?size=m
+photo.14.tags: portrait, sample, whiskers
+photo.15: ig://Cok3ievhuZt/m
 photo.15.author: hamamatsu.chiita
+photo.15.commitdate: 2023/2/24
 photo.15.link: https://www.instagram.com/hamamatsu.chiita/
-photo.15.tags: portrait, sample, whiskers
+photo.15.tags: baby, mofumofu, peek, sample
 species: 2
 studbook.id: unknown
 zoo: 13

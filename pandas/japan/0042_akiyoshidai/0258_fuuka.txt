@@ -118,15 +118,16 @@ photo.21.author: miis_98
 photo.21.commitdate: 2022/12/19
 photo.21.link: https://www.instagram.com/miis_98/
 photo.21.tags: mofumofu, peek, portrait, sample, tail
-photo.22: ig://Cn6w4abPtJV/m
-photo.22.author: sasapan34
-photo.22.commitdate: 2023/2/25
-photo.22.link: https://www.instagram.com/sasapan34/
-photo.22.tags: whiskers
-photo.23: https://www.instagram.com/p/Cny8q5EP_wu/media/?size=m
-photo.23.author: apple_jasmine33
-photo.23.link: https://www.instagram.com/apple_jasmine33/
-photo.23.tags: peek, sample, tail
+photo.22: ig://Cny8q5EP_wu/m
+photo.22.author: apple_jasmine33
+photo.22.commitdate: 2023/3/9
+photo.22.link: https://www.instagram.com/apple_jasmine33/
+photo.22.tags: peek, sample, tail
+photo.23: ig://Cn6w4abPtJV/m
+photo.23.author: sasapan34
+photo.23.commitdate: 2023/2/25
+photo.23.link: https://www.instagram.com/sasapan34/
+photo.23.tags: whiskers
 species: 2
 studbook.id: 1198
 zoo: 42

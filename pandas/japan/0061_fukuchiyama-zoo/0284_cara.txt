@@ -325,40 +325,41 @@ photo.62.author: tomo3700
 photo.62.commitdate: 2022/12/20
 photo.62.link: https://www.instagram.com/tomo3700/
 photo.62.tags: dish, portrait, sample, tail, whiskers
-photo.63: ig://Coo8AE4vqVC/m
-photo.63.author: jas_forever_love
-photo.63.commitdate: 2023/2/24
-photo.63.link: https://www.instagram.com/jas_forever_love/
-photo.63.tags: ear, sample, whiskers
-photo.64: ig://CopYN3Zvrew/m
-photo.64.author: fetorus_mami
+photo.63: ig://Cnh7BS7BOwx/m
+photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2023/3/9
+photo.63.link: https://www.instagram.com/hamamatsu.chiita/
+photo.63.tags: portrait, sample, tail
+photo.64: ig://Coo8AE4vqVC/m
+photo.64.author: jas_forever_love
 photo.64.commitdate: 2023/2/24
-photo.64.link: https://www.instagram.com/fetorus_mami/
-photo.64.tags: bamboo, laying down, paws, sample, tail
-photo.65: ig://CopZTdMPJqX/m
+photo.64.link: https://www.instagram.com/jas_forever_love/
+photo.64.tags: ear, sample, whiskers
+photo.65: ig://CopYN3Zvrew/m
 photo.65.author: fetorus_mami
 photo.65.commitdate: 2023/2/24
 photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: bamboo, dish, paws, standing
-photo.66: ig://CopbkcqvyT4/m
-photo.66.author: sakikukeco
+photo.65.tags: bamboo, laying down, paws, sample, tail
+photo.66: ig://CopZTdMPJqX/m
+photo.66.author: fetorus_mami
 photo.66.commitdate: 2023/2/24
-photo.66.link: https://www.instagram.com/sakikukeco/
-photo.66.tags: paws, portrait, sample, whiskers
-photo.67: ig://CopcEiOP9-h/m
-photo.67.author: makimaru18
+photo.66.link: https://www.instagram.com/fetorus_mami/
+photo.66.tags: bamboo, dish, paws, standing
+photo.67: ig://CopbkcqvyT4/m
+photo.67.author: sakikukeco
 photo.67.commitdate: 2023/2/24
-photo.67.link: https://www.instagram.com/makimaru18/
-photo.67.tags: portrait, sample, whiskers
-photo.68: ig://CoqOd44BkOt/m
-photo.68.author: yossi929
+photo.67.link: https://www.instagram.com/sakikukeco/
+photo.67.tags: paws, portrait, sample, whiskers
+photo.68: ig://CopcEiOP9-h/m
+photo.68.author: makimaru18
 photo.68.commitdate: 2023/2/24
-photo.68.link: https://www.instagram.com/yossi929/
-photo.68.tags: close-up, sample, whiskers
-photo.69: https://www.instagram.com/p/Cnh7BS7BOwx/media/?size=m
-photo.69.author: hamamatsu.chiita
-photo.69.link: https://www.instagram.com/hamamatsu.chiita/
-photo.69.tags: portrait, sample, tail
+photo.68.link: https://www.instagram.com/makimaru18/
+photo.68.tags: portrait, sample, whiskers
+photo.69: ig://CoqOd44BkOt/m
+photo.69.author: yossi929
+photo.69.commitdate: 2023/2/24
+photo.69.link: https://www.instagram.com/yossi929/
+photo.69.tags: close-up, sample, whiskers
 species: 2
 studbook.id: 13165
 zoo: 61

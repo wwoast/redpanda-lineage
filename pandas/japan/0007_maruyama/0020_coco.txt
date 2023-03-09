@@ -1629,15 +1629,16 @@ photo.328.author: hamamatsu.chiita
 photo.328.commitdate: 2023/1/20
 photo.328.link: https://www.instagram.com/hamamatsu.chiita/
 photo.328.tags: door, home, portrait
-photo.329: ig://Cot2QQePPtX/m
-photo.329.author: mari_neko3
-photo.329.commitdate: 2023/2/24
-photo.329.link: https://www.instagram.com/mari_neko3/
-photo.329.tags: laying down, portrait, sample, snow
-photo.330: https://www.instagram.com/p/CnbqUVmPkLA/media/?size=m
-photo.330.author: komabazoophoto
-photo.330.link: https://www.instagram.com/komabazoophoto/
-photo.330.tags: close-up, portrait, sample, snow, tongue
+photo.329: ig://CnbqUVmPkLA/m
+photo.329.author: komabazoophoto
+photo.329.commitdate: 2023/3/9
+photo.329.link: https://www.instagram.com/komabazoophoto/
+photo.329.tags: close-up, portrait, sample, snow, tongue
+photo.330: ig://Cot2QQePPtX/m
+photo.330.author: mari_neko3
+photo.330.commitdate: 2023/2/24
+photo.330.link: https://www.instagram.com/mari_neko3/
+photo.330.tags: laying down, portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7
