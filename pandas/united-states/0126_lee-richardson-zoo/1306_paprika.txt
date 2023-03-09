@@ -1,0 +1,32 @@
+[panda]
+_id: 1306
+birthday: 2021/7/1
+birthplace: 166
+children: none
+commitdate: 2021/8/18
+en.name: Paprika
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: パプリカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 166, 2021/7/1
+location.2: 126, 2022/9/23
+litter: 1307
+photo.1: ig://CScIx56laLp/m
+photo.1.author: idahofallszoo
+photo.1.commitdate: 2021/8/18
+photo.1.link: https://www.instagram.com/idahofallszoo/
+photo.1.tags: baby, blink, keeper, newborn, portrait
+photo.2: https://www.instagram.com/p/Cnw21U6u6zb/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo, bite, portrait, profile, sample, techitechi, white face
+photo.3: https://www.instagram.com/p/Ci2wocgJqSf/media/?size=m
+photo.3.author: idahofallszoo
+photo.3.link: https://www.instagram.com/idahofallszoo/
+photo.3.tags: whiskers, white face
+species: 1
+zoo: 126
