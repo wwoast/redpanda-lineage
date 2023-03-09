@@ -1520,14 +1520,16 @@ photo.303.author: ifumoto88
 photo.303.commitdate: 2023/2/26
 photo.303.link: https://www.instagram.com/ifumoto88/
 photo.303.tags: apple time, paws, sample, whiskers
-photo.304: https://www.instagram.com/p/CnhXq4cvytv/media/?size=m
-photo.304.author: fetorus_mami
-photo.304.link: https://www.instagram.com/fetorus_mami/
-photo.304.tags: mofumofu, sample, whiskers
-photo.305: https://www.instagram.com/p/CnhCgOpLEDB/media/?size=m
-photo.305.author: ifumoto88
-photo.305.link: https://www.instagram.com/ifumoto88/
-photo.305.tags: paws, portrait, sample, whiskers
+photo.304: ig://CnhCgOpLEDB/m
+photo.304.author: ifumoto88
+photo.304.commitdate: 2023/3/9
+photo.304.link: https://www.instagram.com/ifumoto88/
+photo.304.tags: paws, portrait, sample, whiskers
+photo.305: ig://CnhXq4cvytv/m
+photo.305.author: fetorus_mami
+photo.305.commitdate: 2023/3/9
+photo.305.link: https://www.instagram.com/fetorus_mami/
+photo.305.tags: mofumofu, sample, whiskers
 species: 2
 studbook.id: 15152
 zoo: 1

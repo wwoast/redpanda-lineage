@@ -554,15 +554,16 @@ photo.109.author: rie_panda55
 photo.109.commitdate: 2022/12/10
 photo.109.link: https://www.instagram.com/rie_panda55/
 photo.109.tags: dish, laying down, paws, portrait, sample
-photo.110: ig://Co9xlAEr_yE/m
-photo.110.author: ifumoto88
-photo.110.commitdate: 2023/2/26
-photo.110.link: https://www.instagram.com/ifumoto88/
-photo.110.tags: blink, old, paws, portrait, sample
-photo.111: https://www.instagram.com/p/CnhWnrTPsVM/media/?size=m
-photo.111.author: fetorus_mami
-photo.111.link: https://www.instagram.com/fetorus_mami/
-photo.111.tags: apple time, dish, lunch time, mofumofu, old, portrait, sample
+photo.110: ig://CnhWnrTPsVM/m
+photo.110.author: fetorus_mami
+photo.110.commitdate: 2023/3/9
+photo.110.link: https://www.instagram.com/fetorus_mami/
+photo.110.tags: apple time, dish, lunch time, mofumofu, old, portrait, sample
+photo.111: ig://Co9xlAEr_yE/m
+photo.111.author: ifumoto88
+photo.111.commitdate: 2023/2/26
+photo.111.link: https://www.instagram.com/ifumoto88/
+photo.111.tags: blink, old, paws, portrait, sample
 species: 2
 studbook.id: 0280
 zoo: 1

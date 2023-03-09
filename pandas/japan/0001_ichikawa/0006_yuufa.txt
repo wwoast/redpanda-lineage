@@ -743,15 +743,16 @@ photo.147.author: ifumoto88
 photo.147.commitdate: 2023/1/1
 photo.147.link: https://www.instagram.com/ifumoto88/
 photo.147.tags: paws, portrait, toys, upside-down
-photo.148: ig://CoL11-6P-ZC/m
-photo.148.author: fetorus_mami
-photo.148.commitdate: 2023/3/6
-photo.148.link: https://www.instagram.com/fetorus_mami/
-photo.148.tags: bamboo, close-up
-photo.149: https://www.instagram.com/p/CnhCsOyrRwC/media/?size=m
-photo.149.author: ifumoto88
-photo.149.link: https://www.instagram.com/ifumoto88/
-photo.149.tags: paws, portrait, sample, whiskers
+photo.148: ig://CnhCsOyrRwC/m
+photo.148.author: ifumoto88
+photo.148.commitdate: 2023/3/9
+photo.148.link: https://www.instagram.com/ifumoto88/
+photo.148.tags: paws, portrait, sample, whiskers
+photo.149: ig://CoL11-6P-ZC/m
+photo.149.author: fetorus_mami
+photo.149.commitdate: 2023/3/6
+photo.149.link: https://www.instagram.com/fetorus_mami/
+photo.149.tags: bamboo, close-up
 species: 2
 studbook.id: 13146
 zoo: 1

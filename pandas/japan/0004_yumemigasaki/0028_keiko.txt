@@ -498,15 +498,16 @@ photo.98.author: miis_98
 photo.98.commitdate: 2023/1/20
 photo.98.link: https://www.instagram.com/miis_98/
 photo.98.tags: paws, peek, portrait, sample, spider
-photo.99: ig://CnnqhAzvteu/m
-photo.99.author: pantasanzoo1
-photo.99.commitdate: 2023/3/6
-photo.99.link: https://www.instagram.com/pantasanzoo1/
-photo.99.tags: climb, paws, spider, tail, tongue
-photo.100: https://www.instagram.com/p/Cnf4gUWPVze/media/?size=m
-photo.100.author: minatomirai215
-photo.100.link: https://www.instagram.com/minatomirai215/
-photo.100.tags: bamboo, laying down, paws, portrait, sample, tail
+photo.99: ig://Cnf4gUWPVze/m
+photo.99.author: minatomirai215
+photo.99.commitdate: 2023/3/9
+photo.99.link: https://www.instagram.com/minatomirai215/
+photo.99.tags: bamboo, laying down, paws, portrait, sample, tail
+photo.100: ig://CnnqhAzvteu/m
+photo.100.author: pantasanzoo1
+photo.100.commitdate: 2023/3/6
+photo.100.link: https://www.instagram.com/pantasanzoo1/
+photo.100.tags: climb, paws, spider, tail, tongue
 species: 2
 studbook.id: 15128
 zoo: 4

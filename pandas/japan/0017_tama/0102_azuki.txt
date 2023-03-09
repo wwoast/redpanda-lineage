@@ -331,20 +331,21 @@ photo.64.author: mini_cochi
 photo.64.commitdate: 2023/1/11
 photo.64.link: https://www.instagram.com/mini_cochi/
 photo.64.tags: paws, portrait, whiskers
-photo.65: ig://CnzB7rlPHd8/m
-photo.65.author: mini_cochi
+photo.65: ig://CndsmjkPNXf/m
+photo.65.author: ck.chie
 photo.65.commitdate: 2023/3/9
-photo.65.link: https://www.instagram.com/mini_cochi/
-photo.65.tags: paws, portrait, sample, whiskers
-photo.66: ig://CoWjaihvjdM/m
-photo.66.author: tamazoowalking
-photo.66.commitdate: 2023/2/24
-photo.66.link: https://www.instagram.com/tamazoowalking/
-photo.66.tags: close-up, portrait, sample, whiskers
-photo.67: https://www.instagram.com/p/CndsmjkPNXf/media/?size=m
-photo.67.author: ck.chie
-photo.67.link: https://www.instagram.com/ck.chie/
-photo.67.tags: hammock
+photo.65.link: https://www.instagram.com/ck.chie/
+photo.65.tags: hammock
+photo.66: ig://CnzB7rlPHd8/m
+photo.66.author: mini_cochi
+photo.66.commitdate: 2023/3/9
+photo.66.link: https://www.instagram.com/mini_cochi/
+photo.66.tags: paws, portrait, sample, whiskers
+photo.67: ig://CoWjaihvjdM/m
+photo.67.author: tamazoowalking
+photo.67.commitdate: 2023/2/24
+photo.67.link: https://www.instagram.com/tamazoowalking/
+photo.67.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

@@ -278,8 +278,9 @@ photo.53.author: colette.jp
 photo.53.commitdate: 2022/11/14
 photo.53.link: https://www.instagram.com/colette.jp/
 photo.53.tags: paws, portrait, sample, spider, whiskers
-photo.54: https://www.instagram.com/p/Cnb9XLVvLPd/media/?size=m
+photo.54: ig://Cnb9XLVvLPd/m
 photo.54.author: chankunvv
+photo.54.commitdate: 2023/3/9
 photo.54.link: https://www.instagram.com/chankunvv/
 photo.54.tags: laying down, portrait, sample, whiskers
 species: 2
