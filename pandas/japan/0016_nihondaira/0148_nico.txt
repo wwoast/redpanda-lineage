@@ -782,29 +782,31 @@ photo.155.author: mini_cochi
 photo.155.commitdate: 2022/8/5
 photo.155.link: https://www.instagram.com/mini_cochi/
 photo.155.tags: itchy, paws, portrait, sample, smile, whiskers
-photo.156: ig://Cn0PPy2ho0G/m
-photo.156.author: yuredpanda
-photo.156.commitdate: 2023/2/25
-photo.156.link: https://www.instagram.com/yuredpanda/
-photo.156.tags: grooming, portrait, tail
-photo.157: ig://Co5w0QghPQ-/m
-photo.157.author: ck.chie
-photo.157.commitdate: 2023/2/26
-photo.157.link: https://www.instagram.com/ck.chie/
-photo.157.tags: paws, portrait, sample, snow, whiskers
-photo.158: ig://Co7UNunP_yX/m
-photo.158.author: mini_cochi
-photo.158.commitdate: 2023/2/26
-photo.158.link: https://www.instagram.com/mini_cochi/
-photo.158.tags: bamboo, portrait, sample, whiskers
-photo.159: https://www.instagram.com/p/CmG4aOmv1b5/media/?size=m
-photo.159.author: taka__3428
-photo.159.link: https://www.instagram.com/taka__3428/
-photo.159.tags: bamboo, close-up, wink
-photo.160: https://www.instagram.com/p/CmCCMajvjdO/media/?size=m
-photo.160.author: taka__3428
-photo.160.link: https://www.instagram.com/taka__3428/
-photo.160.tags: bamboo, paws, sample, tail
+photo.156: ig://CmCCMajvjdO/m
+photo.156.author: taka__3428
+photo.156.commitdate: 2023/3/11
+photo.156.link: https://www.instagram.com/taka__3428/
+photo.156.tags: bamboo, paws, sample, tail
+photo.157: ig://CmG4aOmv1b5/m
+photo.157.author: taka__3428
+photo.157.commitdate: 2023/3/11
+photo.157.link: https://www.instagram.com/taka__3428/
+photo.157.tags: bamboo, close-up, wink
+photo.158: ig://Cn0PPy2ho0G/m
+photo.158.author: yuredpanda
+photo.158.commitdate: 2023/2/25
+photo.158.link: https://www.instagram.com/yuredpanda/
+photo.158.tags: grooming, portrait, tail
+photo.159: ig://Co5w0QghPQ-/m
+photo.159.author: ck.chie
+photo.159.commitdate: 2023/2/26
+photo.159.link: https://www.instagram.com/ck.chie/
+photo.159.tags: paws, portrait, sample, snow, whiskers
+photo.160: ig://Co7UNunP_yX/m
+photo.160.author: mini_cochi
+photo.160.commitdate: 2023/2/26
+photo.160.link: https://www.instagram.com/mini_cochi/
+photo.160.tags: bamboo, portrait, sample, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16

@@ -1027,15 +1027,16 @@ photo.203.author: colette.jp
 photo.203.commitdate: 2022/12/20
 photo.203.link: https://www.instagram.com/colette.jp/
 photo.203.tags: apple time, lips, paws, portrait, sample, standing
-photo.204: ig://Cmd51SUvw0U/m
+photo.204: ig://CmG7NMwvGeu/m
 photo.204.author: colette.jp
-photo.204.commitdate: 2023/1/11
+photo.204.commitdate: 2023/3/11
 photo.204.link: https://www.instagram.com/colette.jp/
-photo.204.tags: climb, paws, peek, portrait, sample, whiskers, white face
-photo.205: https://www.instagram.com/p/CmG7NMwvGeu/media/?size=m
+photo.204.tags: paws, peek, portrait, sample, whiskers
+photo.205: ig://Cmd51SUvw0U/m
 photo.205.author: colette.jp
+photo.205.commitdate: 2023/1/11
 photo.205.link: https://www.instagram.com/colette.jp/
-photo.205.tags: paws, peek, portrait, sample, whiskers
+photo.205.tags: climb, paws, peek, portrait, sample, whiskers, white face
 species: 2
 studbook.id: unknown
 zoo: 14

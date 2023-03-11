@@ -619,8 +619,9 @@ photo.123.author: ifumoto88
 photo.123.commitdate: 2023/1/26
 photo.123.link: https://www.instagram.com/ifumoto88/
 photo.123.tags: laying down, yawn
-photo.124: https://www.instagram.com/p/CmG7RpOrZhH/media/?size=m
+photo.124: ig://CmG7RpOrZhH/m
 photo.124.author: ifumoto88
+photo.124.commitdate: 2023/3/11
 photo.124.link: https://www.instagram.com/ifumoto88/
 photo.124.tags: close-up, sample, whiskers
 species: 2

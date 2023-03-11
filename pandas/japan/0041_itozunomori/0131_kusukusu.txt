@@ -424,8 +424,9 @@ photo.84.author: yossi929
 photo.84.commitdate: 2023/1/11
 photo.84.link: https://www.instagram.com/yossi929/
 photo.84.tags: portrait, snow, standing, tongue, whiskers
-photo.85: https://www.instagram.com/p/CnE7LoUvA4R/media/?size=m
+photo.85: ig://CnE7LoUvA4R/m
 photo.85.author: nakacchi_desu
+photo.85.commitdate: 2023/3/11
 photo.85.link: https://www.instagram.com/nakacchi_desu/
 photo.85.tags: apple time, paws, sample, standing
 species: 2

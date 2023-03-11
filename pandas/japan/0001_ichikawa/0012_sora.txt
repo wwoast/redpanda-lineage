@@ -965,29 +965,31 @@ photo.191.author: ifumoto88
 photo.191.commitdate: 2023/2/4
 photo.191.link: https://www.instagram.com/ifumoto88/
 photo.191.tags: laying down, peek, portrait, sample
-photo.192: ig://CmT16P7rXGj/m
-photo.192.author: ifumoto88
-photo.192.commitdate: 2023/1/20
-photo.192.link: https://www.instagram.com/ifumoto88/
-photo.192.tags: paws, peek, sample, tail, tree
-photo.193: ig://CntdBNtPj6c/m
-photo.193.author: ssc6105
-photo.193.commitdate: 2023/3/9
-photo.193.link: https://www.instagram.com/ssc6105/
-photo.193.tags: sample
-photo.194: ig://CoLMrrbB4WD/m
-photo.194.author: alto0908
-photo.194.commitdate: 2023/3/6
-photo.194.link: https://www.instagram.com/alto0908/
-photo.194.tags: mofumofu, paws, sample
-photo.195: https://www.instagram.com/p/CmP0H0hhTVp/media/?size=m
-photo.195.author: miis_98
-photo.195.link: https://www.instagram.com/miis_98/
-photo.195.tags: portrait, sample, tail, tree
-photo.196: https://www.instagram.com/p/CmHmF5-yrhO/media/?size=m
-photo.196.author: eos1089
-photo.196.link: https://www.instagram.com/eos1089/
-photo.196.tags: apple time, autumn, portrait
+photo.192: ig://CmHmF5-yrhO/m
+photo.192.author: eos1089
+photo.192.commitdate: 2023/3/11
+photo.192.link: https://www.instagram.com/eos1089/
+photo.192.tags: apple time, autumn, portrait
+photo.193: ig://CmP0H0hhTVp/m
+photo.193.author: miis_98
+photo.193.commitdate: 2023/3/11
+photo.193.link: https://www.instagram.com/miis_98/
+photo.193.tags: portrait, sample, tail, tree
+photo.194: ig://CmT16P7rXGj/m
+photo.194.author: ifumoto88
+photo.194.commitdate: 2023/1/20
+photo.194.link: https://www.instagram.com/ifumoto88/
+photo.194.tags: paws, peek, sample, tail, tree
+photo.195: ig://CntdBNtPj6c/m
+photo.195.author: ssc6105
+photo.195.commitdate: 2023/3/9
+photo.195.link: https://www.instagram.com/ssc6105/
+photo.195.tags: sample
+photo.196: ig://CoLMrrbB4WD/m
+photo.196.author: alto0908
+photo.196.commitdate: 2023/3/6
+photo.196.link: https://www.instagram.com/alto0908/
+photo.196.tags: mofumofu, paws, sample
 species: 2
 studbook.id: 0872
 zoo: 1

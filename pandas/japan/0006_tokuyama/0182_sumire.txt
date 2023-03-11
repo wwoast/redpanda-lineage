@@ -164,15 +164,16 @@ photo.30.author: daniele.tokyo
 photo.30.commitdate: 2023/1/20
 photo.30.link: https://www.instagram.com/daniele.tokyo/
 photo.30.tags: sample, tree, whiskers
-photo.31: ig://Cmok02bPrkk/m
-photo.31.author: kojikoji2011
-photo.31.commitdate: 2023/3/9
-photo.31.link: https://www.instagram.com/kojikoji2011/
-photo.31.tags: lips, portrait, sample, tree
-photo.32: https://www.instagram.com/p/CmBq8PVvx_T/media/?size=m
-photo.32.author: re_ichimaru
-photo.32.link: https://www.instagram.com/re_ichimaru/
-photo.32.tags: portrait, sample, smile
+photo.31: ig://CmBq8PVvx_T/m
+photo.31.author: re_ichimaru
+photo.31.commitdate: 2023/3/11
+photo.31.link: https://www.instagram.com/re_ichimaru/
+photo.31.tags: portrait, sample, smile
+photo.32: ig://Cmok02bPrkk/m
+photo.32.author: kojikoji2011
+photo.32.commitdate: 2023/3/9
+photo.32.link: https://www.instagram.com/kojikoji2011/
+photo.32.tags: lips, portrait, sample, tree
 species: 2
 studbook.id: 14163
 zoo: 6

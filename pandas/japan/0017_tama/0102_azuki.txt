@@ -326,30 +326,31 @@ photo.63.author: alto0908
 photo.63.commitdate: 2022/8/31
 photo.63.link: https://www.instagram.com/alto0908/
 photo.63.tags: peek, portrait, sample, tail, whiskers
-photo.64: ig://CmeIVSmvqgZ/m
-photo.64.author: mini_cochi
-photo.64.commitdate: 2023/1/11
-photo.64.link: https://www.instagram.com/mini_cochi/
-photo.64.tags: paws, portrait, whiskers
-photo.65: ig://CndsmjkPNXf/m
-photo.65.author: ck.chie
-photo.65.commitdate: 2023/3/9
-photo.65.link: https://www.instagram.com/ck.chie/
-photo.65.tags: hammock
-photo.66: ig://CnzB7rlPHd8/m
-photo.66.author: mini_cochi
+photo.64: ig://Cl3TgdlPXFA/m
+photo.64.author: ssc6105
+photo.64.commitdate: 2023/3/11
+photo.64.link: https://www.instagram.com/ssc6105/
+photo.64.tags: sample, tongue, whiskers
+photo.65: ig://CmeIVSmvqgZ/m
+photo.65.author: mini_cochi
+photo.65.commitdate: 2023/1/11
+photo.65.link: https://www.instagram.com/mini_cochi/
+photo.65.tags: paws, portrait, whiskers
+photo.66: ig://CndsmjkPNXf/m
+photo.66.author: ck.chie
 photo.66.commitdate: 2023/3/9
-photo.66.link: https://www.instagram.com/mini_cochi/
-photo.66.tags: paws, portrait, sample, whiskers
-photo.67: ig://CoWjaihvjdM/m
-photo.67.author: tamazoowalking
-photo.67.commitdate: 2023/2/24
-photo.67.link: https://www.instagram.com/tamazoowalking/
-photo.67.tags: close-up, portrait, sample, whiskers
-photo.68: https://www.instagram.com/p/Cl3TgdlPXFA/media/?size=m
-photo.68.author: ssc6105
-photo.68.link: https://www.instagram.com/ssc6105/
-photo.68.tags: sample, tongue, whiskers
+photo.66.link: https://www.instagram.com/ck.chie/
+photo.66.tags: hammock
+photo.67: ig://CnzB7rlPHd8/m
+photo.67.author: mini_cochi
+photo.67.commitdate: 2023/3/9
+photo.67.link: https://www.instagram.com/mini_cochi/
+photo.67.tags: paws, portrait, sample, whiskers
+photo.68: ig://CoWjaihvjdM/m
+photo.68.author: tamazoowalking
+photo.68.commitdate: 2023/2/24
+photo.68.link: https://www.instagram.com/tamazoowalking/
+photo.68.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

@@ -744,20 +744,21 @@ photo.146.author: framereim
 photo.146.commitdate: 2023/1/11
 photo.146.link: https://www.instagram.com/framereim/
 photo.146.tags: laying down, mofumofu, peek, portrait, tail, whiskers
-photo.147: ig://CnqGZtPhwUW/m
-photo.147.author: makimaru18
-photo.147.commitdate: 2023/3/9
-photo.147.link: https://www.instagram.com/makimaru18/
-photo.147.tags: apple time, paws, portrait, sample, standing, toys
-photo.148: ig://Cn_zSFyvMeN/m
-photo.148.author: jas_forever_love
-photo.148.commitdate: 2023/2/25
-photo.148.link: https://www.instagram.com/jas_forever_love/
-photo.148.tags: snow
-photo.149: https://www.instagram.com/p/CnE0cOtPYjW/media/?size=m
-photo.149.author: resapanlove
-photo.149.link: https://www.instagram.com/resapanlove/
-photo.149.tags: close-up, portrait, sample, smile
+photo.147: ig://CnE0cOtPYjW/m
+photo.147.author: resapanlove
+photo.147.commitdate: 2023/3/11
+photo.147.link: https://www.instagram.com/resapanlove/
+photo.147.tags: close-up, portrait, sample, smile
+photo.148: ig://CnqGZtPhwUW/m
+photo.148.author: makimaru18
+photo.148.commitdate: 2023/3/9
+photo.148.link: https://www.instagram.com/makimaru18/
+photo.148.tags: apple time, paws, portrait, sample, standing, toys
+photo.149: ig://Cn_zSFyvMeN/m
+photo.149.author: jas_forever_love
+photo.149.commitdate: 2023/2/25
+photo.149.link: https://www.instagram.com/jas_forever_love/
+photo.149.tags: snow
 species: 2
 studbook.id: 1786
 zoo: 2

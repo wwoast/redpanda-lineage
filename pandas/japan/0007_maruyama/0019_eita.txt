@@ -1885,35 +1885,36 @@ photo.376.author: hamamatsu.chiita
 photo.376.commitdate: 2022/12/7
 photo.376.link: https://www.instagram.com/hamamatsu.chiita/
 photo.376.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.377: ig://CmTp5edPsEf/m
+photo.377: ig://CmL5DXzv5k5/m
 photo.377.author: hamamatsu.chiita
-photo.377.commitdate: 2023/1/20
+photo.377.commitdate: 2023/3/11
 photo.377.link: https://www.instagram.com/hamamatsu.chiita/
-photo.377.tags: dish, portrait, snow
-photo.378: ig://CmZx8iNh6vd/m
+photo.377.tags: portrait, sample, snow
+photo.378: ig://CmTp5edPsEf/m
 photo.378.author: hamamatsu.chiita
-photo.378.commitdate: 2023/1/11
+photo.378.commitdate: 2023/1/20
 photo.378.link: https://www.instagram.com/hamamatsu.chiita/
-photo.378.tags: close-up, portrait, sample, whiskers
-photo.379: ig://CnkfpHJBV43/m
+photo.378.tags: dish, portrait, snow
+photo.379: ig://CmZx8iNh6vd/m
 photo.379.author: hamamatsu.chiita
-photo.379.commitdate: 2023/3/6
+photo.379.commitdate: 2023/1/11
 photo.379.link: https://www.instagram.com/hamamatsu.chiita/
-photo.379.tags: close-up, nose, portrait, sample, whiskers
-photo.380: ig://Cnrdr7-P5My/m
-photo.380.author: gloryeui
-photo.380.commitdate: 2023/3/9
-photo.380.link: https://www.instagram.com/gloryeui/
-photo.380.tags: peek, playing, snow, tail
-photo.381: ig://CntV7LJL3Qo/m
-photo.381.author: leonard_redmof
-photo.381.commitdate: 2023/2/25
-photo.381.link: https://www.instagram.com/leonard_redmof/
-photo.381.tags: nose, portrait, sample, snow
-photo.382: https://www.instagram.com/p/CmL5DXzv5k5/media/?size=m
-photo.382.author: hamamatsu.chiita
-photo.382.link: https://www.instagram.com/hamamatsu.chiita/
-photo.382.tags: portrait, sample, snow
+photo.379.tags: close-up, portrait, sample, whiskers
+photo.380: ig://CnkfpHJBV43/m
+photo.380.author: hamamatsu.chiita
+photo.380.commitdate: 2023/3/6
+photo.380.link: https://www.instagram.com/hamamatsu.chiita/
+photo.380.tags: close-up, nose, portrait, sample, whiskers
+photo.381: ig://Cnrdr7-P5My/m
+photo.381.author: gloryeui
+photo.381.commitdate: 2023/3/9
+photo.381.link: https://www.instagram.com/gloryeui/
+photo.381.tags: peek, playing, snow, tail
+photo.382: ig://CntV7LJL3Qo/m
+photo.382.author: leonard_redmof
+photo.382.commitdate: 2023/2/25
+photo.382.link: https://www.instagram.com/leonard_redmof/
+photo.382.tags: nose, portrait, sample, snow
 species: 2
 studbook.id: 10108
 zoo: 7

@@ -70,15 +70,16 @@ photo.11.author: thetorontozoo
 photo.11.commitdate: 2023/2/4
 photo.11.link: https://www.instagram.com/thetorontozoo/
 photo.11.tags: close-up, sample, whiskers
-photo.12: ig://CmXKqHSsvtt/m
+photo.12: ig://CmMhDJULcXL/m
 photo.12.author: thetorontozoo
-photo.12.commitdate: 2023/1/6
+photo.12.commitdate: 2023/3/11
 photo.12.link: https://www.instagram.com/thetorontozoo/
-photo.12.tags: apple time, portrait, toys
-photo.13: https://www.instagram.com/p/CmMhDJULcXL/media/?size=m
+photo.12.tags: snow, wink
+photo.13: ig://CmXKqHSsvtt/m
 photo.13.author: thetorontozoo
+photo.13.commitdate: 2023/1/6
 photo.13.link: https://www.instagram.com/thetorontozoo/
-photo.13.tags: snow, wink
+photo.13.tags: apple time, portrait, toys
 species: 2
 studbook.id: 1731
 uncertainty: location.2 exact day of week

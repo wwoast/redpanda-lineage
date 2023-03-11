@@ -352,19 +352,21 @@ photo.68.author: pantasanzoo1
 photo.68.commitdate: 2023/1/26
 photo.68.link: https://www.instagram.com/pantasanzoo1/
 photo.68.tags: sample, whiskers
-photo.69: ig://CoHh95wPUET/m
-photo.69.author: mini_cochi
-photo.69.commitdate: 2023/2/24
-photo.69.link: https://www.instagram.com/mini_cochi/
-photo.69.tags: close-up, mofumofu, portrait, sample
-photo.70: https://www.instagram.com/p/CmK_dXzPYDk/media/?size=m
-photo.70.author: minatomirai215
-photo.70.link: https://www.instagram.com/minatomirai215/
-photo.70.tags: mofumofu, portrait, sample
-photo.71: https://www.instagram.com/p/Cm-OK-ihehY/media/?size=m
-photo.71.author: grskus_tk
-photo.71.link: https://www.instagram.com/grskus_tk/
-photo.71.tags: paws, sample
+photo.69: ig://CmK_dXzPYDk/m
+photo.69.author: minatomirai215
+photo.69.commitdate: 2023/3/11
+photo.69.link: https://www.instagram.com/minatomirai215/
+photo.69.tags: mofumofu, portrait, sample
+photo.70: ig://Cm-OK-ihehY/m
+photo.70.author: grskus_tk
+photo.70.commitdate: 2023/3/11
+photo.70.link: https://www.instagram.com/grskus_tk/
+photo.70.tags: paws, sample
+photo.71: ig://CoHh95wPUET/m
+photo.71.author: mini_cochi
+photo.71.commitdate: 2023/2/24
+photo.71.link: https://www.instagram.com/mini_cochi/
+photo.71.tags: close-up, mofumofu, portrait, sample
 species: 2
 studbook.id: 0468
 video.1: https://youtu.be/Mnfw3xe6c6Y

@@ -568,15 +568,16 @@ photo.112.author: redpanda_nippon_takashi
 photo.112.commitdate: 2023/1/14
 photo.112.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.112.tags: close-up, smile, whiskers
-photo.113: ig://CopdsW0vP6m/m
-photo.113.author: itsuak
-photo.113.commitdate: 2023/2/24
-photo.113.link: https://www.instagram.com/itsuak/
-photo.113.tags: portrait, sample
-photo.114: https://www.instagram.com/p/CmES8NkP8wH/media/?size=m
-photo.114.author: kotata_513
-photo.114.link: https://www.instagram.com/kotata_513/
-photo.114.tags: paws, peek, portrait, sample, whiskers
+photo.113: ig://CmES8NkP8wH/m
+photo.113.author: kotata_513
+photo.113.commitdate: 2023/3/11
+photo.113.link: https://www.instagram.com/kotata_513/
+photo.113.tags: paws, peek, portrait, sample, whiskers
+photo.114: ig://CopdsW0vP6m/m
+photo.114.author: itsuak
+photo.114.commitdate: 2023/2/24
+photo.114.link: https://www.instagram.com/itsuak/
+photo.114.tags: portrait, sample
 species: 2
 studbook.id: 15159
 zoo: 46

@@ -1149,24 +1149,25 @@ photo.228.author: taka__3428
 photo.228.commitdate: 2023/2/4
 photo.228.link: https://www.instagram.com/hamamatsu.chiita/
 photo.228.tags: paws, sample, whiskers
-photo.229: ig://Cmv8ssVvm4F/m
-photo.229.author: taka__3428
-photo.229.commitdate: 2023/1/12
-photo.229.link: https://www.instagram.com/taka__3428/
-photo.229.tags: portrait, tongue, window
-photo.230: ig://Cm-Aqg2BOG9/m
-photo.230.author: hamamatsu.chiita
-photo.230.commitdate: 2023/1/14
-photo.230.link: https://www.instagram.com/hamamatsu.chiita/
-photo.230.tags: laying down, mofumofu, portrait, sample
-photo.231: ig://Cnz71CvBh5K/m
+photo.229: ig://CmKWljOhTgu/m
+photo.229.author: hamamatsu.chiita
+photo.229.commitdate: 2023/3/11
+photo.229.link: climb, paws, portrait, sample, whiskers
+photo.230: ig://Cmv8ssVvm4F/m
+photo.230.author: taka__3428
+photo.230.commitdate: 2023/1/12
+photo.230.link: https://www.instagram.com/taka__3428/
+photo.230.tags: portrait, tongue, window
+photo.231: ig://Cm-Aqg2BOG9/m
 photo.231.author: hamamatsu.chiita
-photo.231.commitdate: 2023/2/25
+photo.231.commitdate: 2023/1/14
 photo.231.link: https://www.instagram.com/hamamatsu.chiita/
-photo.231.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.232: https://www.instagram.com/p/CmKWljOhTgu/media/?size=m
+photo.231.tags: laying down, mofumofu, portrait, sample
+photo.232: ig://Cnz71CvBh5K/m
 photo.232.author: hamamatsu.chiita
-photo.232.link: climb, paws, portrait, sample, whiskers
+photo.232.commitdate: 2023/2/25
+photo.232.link: https://www.instagram.com/hamamatsu.chiita/
+photo.232.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0869
 video.1: https://youtu.be/-WMjIqoEK1U

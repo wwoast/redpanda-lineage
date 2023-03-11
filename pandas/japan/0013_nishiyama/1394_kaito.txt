@@ -68,15 +68,16 @@ photo.11.author: kotata_513
 photo.11.commitdate: 2022/12/20
 photo.11.link: https://www.instagram.com/kotata_513/
 photo.11.tags: baby, peek, sample
-photo.12: ig://CnblBNiv3_t/m
-photo.12.author: yuredpanda
-photo.12.commitdate: 2023/3/9
-photo.12.link: https://www.instagram.com/yuredpanda/
-photo.12.tags: baby, portrait, sample, tree
-photo.13: https://www.instagram.com/p/CmQWE4hv6jt/media/?size=m
-photo.13.author: hamiiiii831_
-photo.13.link: https://www.instagram.com/hamiiiii831_/
-photo.13.tags: baby, bamboo, sample, smile
+photo.12: ig://CmQWE4hv6jt/m
+photo.12.author: hamiiiii831_
+photo.12.commitdate: 2023/3/11
+photo.12.link: https://www.instagram.com/hamiiiii831_/
+photo.12.tags: baby, bamboo, sample, smile
+photo.13: ig://CnblBNiv3_t/m
+photo.13.author: yuredpanda
+photo.13.commitdate: 2023/3/9
+photo.13.link: https://www.instagram.com/yuredpanda/
+photo.13.tags: baby, portrait, sample, tree
 species: 2
 studbook.id: unknown
 zoo: 13
