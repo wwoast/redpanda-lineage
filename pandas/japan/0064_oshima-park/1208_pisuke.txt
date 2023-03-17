@@ -725,8 +725,9 @@ photo.142.author: tomo3700
 photo.142.commitdate: 2022/12/20
 photo.142.link: https://www.instagram.com/tomo3700/
 photo.142.tags: apple time, portrait, toys
-photo.143: https://www.instagram.com/p/CmyLcKOP_dk/media/?size=m
+photo.143: ig://CmyLcKOP_dk/m
 photo.143.author: grskus_tk
+photo.143.commitdate: 2023/3/17
 photo.143.link: https://www.instagram.com/grskus_tk/
 photo.143.tags: peek, portrait
 species: 2

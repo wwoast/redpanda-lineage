@@ -353,48 +353,50 @@ photo.68.author: otenba_redpanda
 photo.68.commitdate: 2022/8/11
 photo.68.link: https://www.instagram.com/otenba_redpanda/
 photo.68.tags: mofumofu, portrait, sample, whiskers
-photo.69: ig://CkJ9pYthjwe/m
+photo.69: ig://CkBSAmfpsET/m
 photo.69.author: alto0908
-photo.69.commitdate: 2023/1/1
+photo.69.commitdate: 2023/3/17
 photo.69.link: https://www.instagram.com/alto0908/
-photo.69.tags: peek, sample, smile, tree, whiskers
-photo.70: ig://CkjqTIhBLga/m
-photo.70.author: ck.chie
-photo.70.commitdate: 2022/12/20
-photo.70.link: https://www.instagram.com/ck.chie/
-photo.70.tags: sample, smile, tree
-photo.71: ig://Ck8L3EEPRJd/m
-photo.71.author: taka__3428
-photo.71.commitdate: 2022/12/19
-photo.71.link: https://www.instagram.com/taka__3428/
-photo.71.tags: laying down, mofumofu, portrait, sample
-photo.72: ig://CmVnhzxvV8H/m
-photo.72.author: hamiiiii831_
-photo.72.commitdate: 2023/1/20
-photo.72.link: https://www.instagram.com/hamiiiii831_/
-photo.72.tags: sample, tongue, whiskers
-photo.73: ig://CmVnknuvD3k/m
+photo.69.tags: laying down, mofumofu, sample, tree, whiskers
+photo.70: ig://CkJ9pYthjwe/m
+photo.70.author: alto0908
+photo.70.commitdate: 2023/1/1
+photo.70.link: https://www.instagram.com/alto0908/
+photo.70.tags: peek, sample, smile, tree, whiskers
+photo.71: ig://CkjqTIhBLga/m
+photo.71.author: ck.chie
+photo.71.commitdate: 2022/12/20
+photo.71.link: https://www.instagram.com/ck.chie/
+photo.71.tags: sample, smile, tree
+photo.72: ig://Ck8L3EEPRJd/m
+photo.72.author: taka__3428
+photo.72.commitdate: 2022/12/19
+photo.72.link: https://www.instagram.com/taka__3428/
+photo.72.tags: laying down, mofumofu, portrait, sample
+photo.73: ig://CmVnhzxvV8H/m
 photo.73.author: hamiiiii831_
-photo.73.commitdate: 2023/1/14
+photo.73.commitdate: 2023/1/20
 photo.73.link: https://www.instagram.com/hamiiiii831_/
-photo.73.tags: mofumofu, sample, smile, tail
-photo.74: ig://CngzNyvvU62/m
-photo.74.author: shigeko0531
-photo.74.commitdate: 2023/3/9
-photo.74.link: https://www.instagram.com/shigeko0531/
-photo.74.tags: climb, door, paws, tail
-photo.75: ig://CoooaCBP2R1/m
-photo.75.author: shigeko0531
-photo.75.commitdate: 2023/2/24
-photo.75.link: https://www.instagram.com/shigeko0531/
-photo.75.tags: bamboo, dish, panda bowl, sample
-photo.76: https://www.instagram.com/p/CkBSAmfpsET/media/?size=m
-photo.76.author: alto0908
-photo.76.link: https://www.instagram.com/alto0908/
-photo.76.tags: laying down, mofumofu, sample, tree, whiskers
-photo.77: https://www.instagram.com/p/Cm6FgMWvoau/media/?size=m
-photo.77.author: ssc6105
-photo.77.link: https://www.instagram.com/ssc6105/
-photo.77.tags: bamboo, peek, sample, whiskers
+photo.73.tags: sample, tongue, whiskers
+photo.74: ig://CmVnknuvD3k/m
+photo.74.author: hamiiiii831_
+photo.74.commitdate: 2023/1/14
+photo.74.link: https://www.instagram.com/hamiiiii831_/
+photo.74.tags: mofumofu, sample, smile, tail
+photo.75: ig://Cm6FgMWvoau/m
+photo.75.author: ssc6105
+photo.75.commitdate: 2023/3/17
+photo.75.link: https://www.instagram.com/ssc6105/
+photo.75.tags: bamboo, peek, sample, whiskers
+photo.76: ig://CngzNyvvU62/m
+photo.76.author: shigeko0531
+photo.76.commitdate: 2023/3/9
+photo.76.link: https://www.instagram.com/shigeko0531/
+photo.76.tags: climb, door, paws, tail
+photo.77: ig://CoooaCBP2R1/m
+photo.77.author: shigeko0531
+photo.77.commitdate: 2023/2/24
+photo.77.link: https://www.instagram.com/shigeko0531/
+photo.77.tags: bamboo, dish, panda bowl, sample
 species: 2
 zoo: 10

@@ -80,16 +80,19 @@ photo.13.author: monmon_redpanda
 photo.13.commitdate: 2022/11/4
 photo.13.link: https://www.instagram.com/monmon_redpanda/
 photo.13.tags: close-up, portrait, sample, tongue
-photo.14: https://www.instagram.com/p/CmyvIXbPGAt/media/?size=m
+photo.14: ig://Cmx81kbvxvB/m
 photo.14.author: grskus_tk
+photo.14.commitdate: 2023/3/17
 photo.14.link: https://www.instagram.com/grskus_tk/
-photo.14.tags: bamboo, peek, portrait, tail
-photo.15: https://www.instagram.com/p/Cmx81kbvxvB/media/?size=m
+photo.14.tags: apple time, dish
+photo.15: ig://CmyvIXbPGAt/m
 photo.15.author: grskus_tk
+photo.15.commitdate: 2023/3/17
 photo.15.link: https://www.instagram.com/grskus_tk/
-photo.15.tags: apple time, dish
-photo.16: https://www.instagram.com/p/Cm5f34Xv86m/media/?size=m
+photo.15.tags: bamboo, peek, portrait, tail
+photo.16: ig://Cm5f34Xv86m/m
 photo.16.author: grskus_tk
+photo.16.commitdate: 2023/3/17
 photo.16.link: https://www.instagram.com/grskus_tk/
 photo.16.tags: paws, peek, sample
 species: 2

@@ -1085,25 +1085,26 @@ photo.214.author: carsontheredpanda
 photo.214.commitdate: 2022/11/10
 photo.214.link: https://www.instagram.com/carsontheredpanda/
 photo.214.tags: laying down, sample, tongue, tree, whiskers, white face
-photo.215: ig://ClAiZFhL-Kf/m
+photo.215: ig://CkZPe0TvNLc/m
 photo.215.author: westcoast_kathy
-photo.215.commitdate: 2023/2/4
+photo.215.commitdate: 2023/3/17
 photo.215.link: https://www.instagram.com/westcoast_kathy/
-photo.215.tags: bamboo, portrait, sample, whiskers, white face
-photo.216: ig://CnieCKJpv-C/m
-photo.216.author: woodlandparkzoo
-photo.216.commitdate: 2023/3/9
-photo.216.link: https://www.instagram.com/woodlandparkzoo/
-photo.216.tags: bamboo, bite, sample, whiskers, white face
-photo.217: ig://CoCxJC-LAjc/m
+photo.215.tags: portrait, pumpkin, sample, whiskers
+photo.216: ig://ClAiZFhL-Kf/m
+photo.216.author: westcoast_kathy
+photo.216.commitdate: 2023/2/4
+photo.216.link: https://www.instagram.com/westcoast_kathy/
+photo.216.tags: bamboo, portrait, sample, whiskers, white face
+photo.217: ig://CnieCKJpv-C/m
 photo.217.author: woodlandparkzoo
-photo.217.commitdate: 2023/3/6
+photo.217.commitdate: 2023/3/9
 photo.217.link: https://www.instagram.com/woodlandparkzoo/
-photo.217.tags: flowers, sample, whiskers
-photo.218: https://www.instagram.com/p/CkZPe0TvNLc/media/?size=m
-photo.218.author: westcoast_kathy
-photo.218.link: https://www.instagram.com/westcoast_kathy/
-photo.218.tags: portrait, pumpkin, sample, whiskers
+photo.217.tags: bamboo, bite, sample, whiskers, white face
+photo.218: ig://CoCxJC-LAjc/m
+photo.218.author: woodlandparkzoo
+photo.218.commitdate: 2023/3/6
+photo.218.link: https://www.instagram.com/woodlandparkzoo/
+photo.218.tags: flowers, sample, whiskers
 species: 1
 studbook.id: 1440
 zoo: 67

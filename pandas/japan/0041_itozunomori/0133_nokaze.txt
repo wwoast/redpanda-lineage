@@ -347,30 +347,31 @@ photo.67.author: yossi929
 photo.67.commitdate: 2022/9/8
 photo.67.link: https://www.instagram.com/yossi929/
 photo.67.tags: nose, portrait, sample, whiskers
-photo.68: ig://CkKZeo8hNTR/m
+photo.68: ig://Cj3CGU9riD8/m
 photo.68.author: yossi929
-photo.68.commitdate: 2023/1/1
+photo.68.commitdate: 2023/3/17
 photo.68.link: https://www.instagram.com/yossi929/
-photo.68.tags: sample, whiskers
-photo.69: ig://ClpwpYiPBsp/m
-photo.69.author: re_ichimaru
-photo.69.commitdate: 2023/2/4
-photo.69.link: https://www.instagram.com/re_ichimaru/
-photo.69.tags: nose, sample, whiskers
-photo.70: ig://CmY2Tw4PKZS/m
-photo.70.author: yossi929
-photo.70.commitdate: 2023/1/11
-photo.70.link: https://www.instagram.com/yossi929/
-photo.70.tags: paws, portrait, sample, whiskers
-photo.71: ig://Cn8adXqvIet/m
-photo.71.author: re_ichimaru
-photo.71.commitdate: 2023/2/25
-photo.71.link: https://www.instagram.com/re_ichimaru/
-photo.71.tags: mofumofu, portrait, sample, whiskers
-photo.72: https://www.instagram.com/p/Cj3CGU9riD8/media/?size=m
-photo.72.author: yossi929
-photo.72.link: https://www.instagram.com/yossi929/
-photo.72.tags: laying down, portrait, sample, whiskers
+photo.68.tags: laying down, portrait, sample, whiskers
+photo.69: ig://CkKZeo8hNTR/m
+photo.69.author: yossi929
+photo.69.commitdate: 2023/1/1
+photo.69.link: https://www.instagram.com/yossi929/
+photo.69.tags: sample, whiskers
+photo.70: ig://ClpwpYiPBsp/m
+photo.70.author: re_ichimaru
+photo.70.commitdate: 2023/2/4
+photo.70.link: https://www.instagram.com/re_ichimaru/
+photo.70.tags: nose, sample, whiskers
+photo.71: ig://CmY2Tw4PKZS/m
+photo.71.author: yossi929
+photo.71.commitdate: 2023/1/11
+photo.71.link: https://www.instagram.com/yossi929/
+photo.71.tags: paws, portrait, sample, whiskers
+photo.72: ig://Cn8adXqvIet/m
+photo.72.author: re_ichimaru
+photo.72.commitdate: 2023/2/25
+photo.72.link: https://www.instagram.com/re_ichimaru/
+photo.72.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0992
 zoo: 41

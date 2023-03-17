@@ -700,19 +700,21 @@ photo.137.author: eos1089
 photo.137.commitdate: 2022/12/24
 photo.137.link: https://www.instagram.com/eos1089/
 photo.137.tags: door, home, laying down, portrait, sample
-photo.138: ig://Collw2_Py15/m
-photo.138.author: ssc6105
-photo.138.commitdate: 2023/2/24
-photo.138.link: https://www.instagram.com/ssc6105/
-photo.138.tags: air tasting, bamboo, paws, sample, tongue, whiskers
-photo.139: https://www.instagram.com/p/Cly1-QcBF7-/media/?size=m
-photo.139.author: eos1089
-photo.139.link: https://www.instagram.com/eos1089/
-photo.139.tags: keeper, paws, portrait, sample, standing
-photo.140: https://www.instagram.com/p/CnWaXWLvB9u/media/?size=m
+photo.138: ig://Cly1-QcBF7-/m
+photo.138.author: eos1089
+photo.138.commitdate: 2023/3/17
+photo.138.link: https://www.instagram.com/eos1089/
+photo.138.tags: keeper, paws, portrait, sample, standing
+photo.139: ig://CnWaXWLvB9u/m
+photo.139.author: ssc6105
+photo.139.commitdate: 2023/3/17
+photo.139.link: https://www.instagram.com/ssc6105/
+photo.139.tags: bridge, sample, techitechi, whiskers
+photo.140: ig://Collw2_Py15/m
 photo.140.author: ssc6105
+photo.140.commitdate: 2023/2/24
 photo.140.link: https://www.instagram.com/ssc6105/
-photo.140.tags: bridge, sample, techitechi, whiskers
+photo.140.tags: air tasting, bamboo, paws, sample, tongue, whiskers
 species: 2
 studbook.id: 14165
 zoo: 289

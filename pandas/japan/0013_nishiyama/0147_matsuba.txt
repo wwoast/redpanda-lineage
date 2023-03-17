@@ -288,15 +288,16 @@ photo.55.author: craig_craig_craig
 photo.55.commitdate: 2022/8/5
 photo.55.link: https://www.instagram.com/craig_craig_craig/
 photo.55.tags: laying down, muzzle, portrait, sample
-photo.56: ig://Ck8b5vdPnx1/m
-photo.56.author: rie_panda55
-photo.56.commitdate: 2022/12/19
-photo.56.link: https://www.instagram.com/rie_panda55/
-photo.56.tags: laying down, paws, portrait, sample, tail, upside-down
-photo.57: https://www.instagram.com/p/Cj4XTKNByOd/media/?size=m
-photo.57.author: fetorus_mami
-photo.57.link: https://www.instagram.com/fetorus_mami/
-photo.57.tags: dish, keeper, paws, portrait, standing, tongue
+photo.56: ig://Cj4XTKNByOd/m
+photo.56.author: fetorus_mami
+photo.56.commitdate: 2023/3/17
+photo.56.link: https://www.instagram.com/fetorus_mami/
+photo.56.tags: dish, keeper, paws, portrait, standing, tongue
+photo.57: ig://Ck8b5vdPnx1/m
+photo.57.author: rie_panda55
+photo.57.commitdate: 2022/12/19
+photo.57.link: https://www.instagram.com/rie_panda55/
+photo.57.tags: laying down, paws, portrait, sample, tail, upside-down
 species: 2
 studbook.id: 14166
 zoo: 13

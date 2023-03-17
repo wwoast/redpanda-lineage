@@ -1701,15 +1701,16 @@ photo.338.author: minatomirai215
 photo.338.commitdate: 2023/3/9
 photo.338.link: https://www.instagram.com/minatomirai215/
 photo.338.tags: apple time, portrait, sample, window
-photo.339: ig://CoRulqHPxWt/m
-photo.339.author: gloryeui
-photo.339.commitdate: 2023/2/24
-photo.339.link: https://www.instagram.com/gloryeui/
-photo.339.tags: portrait, sample, whiskers
-photo.340: https://www.instagram.com/p/Cm6_S2ahtQc/media/?size=m
-photo.340.author: minatomirai215
-photo.340.link: https://www.instagram.com/minatomirai215/
-photo.340.tags: bamboo, portrait, sample
+photo.339: ig://Cm6_S2ahtQc/m
+photo.339.author: minatomirai215
+photo.339.commitdate: 2023/3/17
+photo.339.link: https://www.instagram.com/minatomirai215/
+photo.339.tags: bamboo, portrait, sample
+photo.340: ig://CoRulqHPxWt/m
+photo.340.author: gloryeui
+photo.340.commitdate: 2023/2/24
+photo.340.link: https://www.instagram.com/gloryeui/
+photo.340.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

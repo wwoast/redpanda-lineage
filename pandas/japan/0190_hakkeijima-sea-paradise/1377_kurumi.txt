@@ -108,34 +108,35 @@ photo.19.author: nakacchi_desu
 photo.19.commitdate: 2022/10/20
 photo.19.link: https://www.instagram.com/nakacchi_desu/
 photo.19.tags: laying down, toys
-photo.20: ig://CkQ0xgkBnAV/m
-photo.20.author: minatomirai215
-photo.20.commitdate: 2023/1/1
-photo.20.link: https://www.instagram.com/minatomirai215/
-photo.20.tags: baby, laying down, mofumofu, tail
-photo.21: ig://Ckn2s7Yvx74/m
-photo.21.author: pantasanzoo1
-photo.21.commitdate: 2022/12/24
-photo.21.link: https://www.instagram.com/pantasanzoo1/
-photo.21.tags: baby, whiskers, window
-photo.22: ig://Clf9Q-0PjE7/m
-photo.22.author: ssc6105
-photo.22.commitdate: 2023/1/26
-photo.22.link: https://www.instagram.com/ssc6105/
-photo.22.tags: dish, mofumofu, portrait, sample
-photo.23: ig://CmGZM6Fvjtu/m
-photo.23.author: pantasanzoo1
-photo.23.commitdate: 2023/3/11
-photo.23.link: https://www.instagram.com/pantasanzoo1/
-photo.23.tags: baby, dish, lunch time, sample, smile, whiskers
-photo.24: ig://CmTSUHjPbKw/m
-photo.24.author: gloryeui
-photo.24.commitdate: 2023/1/20
-photo.24.link: https://www.instagram.com/gloryeui/
-photo.24.tags: door, keeper, peek, tail
-photo.25: https://www.instagram.com/p/CjxlkUQBnsQ/media/?size=m
-photo.25.author: fetorus_mami
-photo.25.link: https://www.instagram.com/fetorus_mami/
-photo.25.tags: baby, keeper, mofumofu
+photo.20: ig://CjxlkUQBnsQ/m
+photo.20.author: fetorus_mami
+photo.20.commitdate: 2023/3/17
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: baby, keeper, mofumofu
+photo.21: ig://CkQ0xgkBnAV/m
+photo.21.author: minatomirai215
+photo.21.commitdate: 2023/1/1
+photo.21.link: https://www.instagram.com/minatomirai215/
+photo.21.tags: baby, laying down, mofumofu, tail
+photo.22: ig://Ckn2s7Yvx74/m
+photo.22.author: pantasanzoo1
+photo.22.commitdate: 2022/12/24
+photo.22.link: https://www.instagram.com/pantasanzoo1/
+photo.22.tags: baby, whiskers, window
+photo.23: ig://Clf9Q-0PjE7/m
+photo.23.author: ssc6105
+photo.23.commitdate: 2023/1/26
+photo.23.link: https://www.instagram.com/ssc6105/
+photo.23.tags: dish, mofumofu, portrait, sample
+photo.24: ig://CmGZM6Fvjtu/m
+photo.24.author: pantasanzoo1
+photo.24.commitdate: 2023/3/11
+photo.24.link: https://www.instagram.com/pantasanzoo1/
+photo.24.tags: baby, dish, lunch time, sample, smile, whiskers
+photo.25: ig://CmTSUHjPbKw/m
+photo.25.author: gloryeui
+photo.25.commitdate: 2023/1/20
+photo.25.link: https://www.instagram.com/gloryeui/
+photo.25.tags: door, keeper, peek, tail
 species: 2
 zoo: 190

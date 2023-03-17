@@ -218,25 +218,26 @@ photo.41.author: hidehaya_biei
 photo.41.commitdate: 2022/11/11
 photo.41.link: https://www.instagram.com/hidehaya_biei/
 photo.41.tags: close-up, sample, smile, tongue, whiskers
-photo.42: ig://CkbvL7Sh4pw/m
-photo.42.author: ssc6105
-photo.42.commitdate: 2022/12/15
-photo.42.link: https://www.instagram.com/ssc6105/
-photo.42.tags: bear worm, laying down, mofumofu, paws, portrait, sample
-photo.43: ig://ClREpXoPcyB/m
-photo.43.author: fetorus_mami
-photo.43.commitdate: 2023/2/4
-photo.43.link: https://www.instagram.com/fetorus_mami/
-photo.43.tags: apple time, close-up, mofumofu, sample, whiskers
-photo.44: ig://ClYwMPYLAR7/m
-photo.44.author: miis_98
-photo.44.commitdate: 2023/1/27
-photo.44.link: https://www.instagram.com/miis_98/
-photo.44.tags: mofumofu, laying down, paws, portrait, sample, smile
-photo.45: https://www.instagram.com/p/Cj5q0hlhgpz/media/?size=m
-photo.45.author: panda.daisuki
-photo.45.link: https://www.instagram.com/panda.daisuki/
-photo.45.tags: apple time, mofumofu, portrait, sample, whiskers
+photo.42: ig://Cj5q0hlhgpz/m
+photo.42.author: panda.daisuki
+photo.42.commitdate: 2023/3/17
+photo.42.link: https://www.instagram.com/panda.daisuki/
+photo.42.tags: apple time, mofumofu, portrait, sample, whiskers
+photo.43: ig://CkbvL7Sh4pw/m
+photo.43.author: ssc6105
+photo.43.commitdate: 2022/12/15
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.43.tags: bear worm, laying down, mofumofu, paws, portrait, sample
+photo.44: ig://ClREpXoPcyB/m
+photo.44.author: fetorus_mami
+photo.44.commitdate: 2023/2/4
+photo.44.link: https://www.instagram.com/fetorus_mami/
+photo.44.tags: apple time, close-up, mofumofu, sample, whiskers
+photo.45: ig://ClYwMPYLAR7/m
+photo.45.author: miis_98
+photo.45.commitdate: 2023/1/27
+photo.45.link: https://www.instagram.com/miis_98/
+photo.45.tags: mofumofu, laying down, paws, portrait, sample, smile
 species: 2
 studbook.id: unknown
 zoo: 53

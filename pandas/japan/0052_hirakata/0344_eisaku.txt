@@ -599,15 +599,16 @@ photo.117.author: hidehaya_biei
 photo.117.commitdate: 2023/1/27
 photo.117.link: https://www.instagram.com/hidehaya_biei/
 photo.117.tags: sample, smile, tongue, whiskers
-photo.118: ig://Co15TRKPsgN/m
-photo.118.author: hamiiiii831_
-photo.118.commitdate: 2023/2/26
-photo.118.link: https://www.instagram.com/hamiiiii831_/
-photo.118.tags: door, portrait
-photo.119: https://www.instagram.com/p/Cm6eboxv5-C/media/?size=m
-photo.119.author: sakikukeco
-photo.119.link: https://www.instagram.com/sakikukeco/
-photo.119.tags: paws, portrait, sample, whiskers
+photo.118: ig://Cm6eboxv5-C/m
+photo.118.author: sakikukeco
+photo.118.commitdate: 2023/3/17
+photo.118.link: https://www.instagram.com/sakikukeco/
+photo.118.tags: paws, portrait, sample, whiskers
+photo.119: ig://Co15TRKPsgN/m
+photo.119.author: hamiiiii831_
+photo.119.commitdate: 2023/2/26
+photo.119.link: https://www.instagram.com/hamiiiii831_/
+photo.119.tags: door, portrait
 species: 2
 studbook.id: unknown
 zoo: 52
