@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/8/22
 en.name: Perry
 en.nicknames: none
-en.othernames: none
+en.othernames: Perri
 gender: m
 jp.name: ペリー
 jp.nicknames: none
@@ -101,6 +101,10 @@ photo.17.author: mini_cochi
 photo.17.commitdate: 2023/1/14
 photo.17.link: https://www.instagram.com/mini_cochi/
 photo.17.tags: paws, portrait, sample, whiskers
+photo.18: https://www.instagram.com/p/CjvGQ6hhoxb/media/?size=m
+photo.18.author: takahisakaneuchi
+photo.18.link: https://www.instagram.com/takahisakaneuchi/
+photo.18.tags: portrait, sample, whiskers
 species: 1
 studbook.id: 1173
 zoo: 59
