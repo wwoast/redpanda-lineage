@@ -588,20 +588,21 @@ photo.115.author: ssc6105
 photo.115.commitdate: 2023/3/11
 photo.115.link: https://www.instagram.com/ssc6105/
 photo.115.tags: home, laying down, sample, yawn
-photo.116: ig://CnxhPWWBSSY/m
-photo.116.author: alto0908
-photo.116.commitdate: 2023/3/9
-photo.116.link: https://www.instagram.com/alto0908/
-photo.116.tags: bamboo, bite, peek, sample
-photo.117: ig://Cn7Bo-VPfHg/m
-photo.117.author: yuredpanda
-photo.117.commitdate: 2023/3/6
-photo.117.link: https://www.instagram.com/yuredpanda/
-photo.117.tags: close-up, paws, portrait, sample, smile, whiskers
-photo.118: https://www.instagram.com/p/CnVM56uBBgF/media/?size=m
-photo.118.author: ssc6105
-photo.118.link: https://www.instagram.com/ssc6105/
-photo.118.tags: bamboo, bite, home, paws, sample, tongue, whiskers 
+photo.116: ig://CnVM56uBBgF/m
+photo.116.author: ssc6105
+photo.116.commitdate: 2023/3/23
+photo.116.link: https://www.instagram.com/ssc6105/
+photo.116.tags: bamboo, bite, home, paws, sample, tongue, whiskers
+photo.117: ig://CnxhPWWBSSY/m
+photo.117.author: alto0908
+photo.117.commitdate: 2023/3/9
+photo.117.link: https://www.instagram.com/alto0908/
+photo.117.tags: bamboo, bite, peek, sample
+photo.118: ig://Cn7Bo-VPfHg/m
+photo.118.author: yuredpanda
+photo.118.commitdate: 2023/3/6
+photo.118.link: https://www.instagram.com/yuredpanda/
+photo.118.tags: close-up, paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 45

@@ -296,20 +296,21 @@ photo.57.author: mini_cochi
 photo.57.commitdate: 2023/1/14
 photo.57.link: https://www.instagram.com/mini_cochi/
 photo.57.tags: close-up, portrait, sample, whiskers
-photo.58: ig://Cnln2oZP_q1/m
+photo.58: ig://CnLVUf5v1fG/m
 photo.58.author: tamazoowalking
-photo.58.commitdate: 2023/3/6
+photo.58.commitdate: 2023/3/23
 photo.58.link: https://www.instagram.com/tamazoowalking/
 photo.58.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
-photo.59: ig://CooRkn-PKOH/m
+photo.59: ig://Cnln2oZP_q1/m
 photo.59.author: tamazoowalking
-photo.59.commitdate: 2023/2/24
+photo.59.commitdate: 2023/3/6
 photo.59.link: https://www.instagram.com/tamazoowalking/
-photo.59.tags: paws, portrait, sample
-photo.60: https://www.instagram.com/p/CnLVUf5v1fG/media/?size=m
+photo.59.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
+photo.60: ig://CooRkn-PKOH/m
 photo.60.author: tamazoowalking
+photo.60.commitdate: 2023/2/24
 photo.60.link: https://www.instagram.com/tamazoowalking/
-photo.60.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
+photo.60.tags: paws, portrait, sample
 species: 2
 studbook.id: 0770
 zoo: 17

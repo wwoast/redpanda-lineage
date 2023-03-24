@@ -273,60 +273,61 @@ photo.52.author: hidehaya_biei
 photo.52.commitdate: 2022/1/10
 photo.52.link: https://www.instagram.com/hidehaya_biei/
 photo.52.tags: close-up, paws, sample, whiskers
-photo.53: ig://CbEuaP3LMwx/m
+photo.53: ig://CYwJfg8P5i8/m
 photo.53.author: panda.daisuki
-photo.53.commitdate: 2022/3/20
+photo.53.commitdate: 2023/3/23
 photo.53.link: https://www.instagram.com/panda.daisuki/
-photo.53.tags: bamboo, close-up, mofumofu, portrait
-photo.54: ig://CbJLFTmJJMH/m
-photo.54.author: hidehaya_biei
-photo.54.commitdate: 2022/4/8
-photo.54.link: https://www.instagram.com/hidehaya_biei/
-photo.54.tags: close-up, laying down, whiskers
-photo.55: ig://CbSb2GCvmD2/m
-photo.55.author: panda.daisuki
-photo.55.commitdate: 2022/4/29
-photo.55.link: https://www.instagram.com/panda.daisuki/
-photo.55.tags: laying down, mofumofu, portrait, sample, smile, whiskers
-photo.56: ig://Cbg3jObunuW/m
-photo.56.author: hidehaya_biei
-photo.56.commitdate: 2022/4/25
-photo.56.link: https://www.instagram.com/hidehaya_biei/
-photo.56.tags: mofumofu, peek, smile
-photo.57: ig://CcVMqNmPO0t/m
-photo.57.author: panda.daisuki
-photo.57.commitdate: 2022/5/25
-photo.57.link: https://www.instagram.com/panda.daisuki/
-photo.57.tags: laying down, mofumofu, portrait, whiskers
-photo.58: ig://CeZmdoYhpu6/m
-photo.58.author: ssc6105
-photo.58.commitdate: 2022/8/30
-photo.58.link: https://www.instagram.com/ssc6105/
-photo.58.tags: portrait, sample, whiskers
-photo.59: ig://CfkeIEbvM1l/m
-photo.59.author: hamiiiii831_
-photo.59.commitdate: 2022/8/16
-photo.59.link: https://www.instagram.com/hamiiiii831_/
-photo.59.tags: mofumofu, paws, sample, smile, whiskers
-photo.60: ig://CgMEPYbB-vi/m
-photo.60.author: ssc6105
-photo.60.commitdate: 2022/7/28
-photo.60.link: https://www.instagram.com/ssc6105/
-photo.60.tags: portrait, sample, smile, whiskers
-photo.61: ig://Ch8VK-ZhTBS/m
-photo.61.author: fetorus_mami
-photo.61.commitdate: 2022/9/8
-photo.61.link: https://www.instagram.com/fetorus_mami/
-photo.61.tags: mofumofu, sample
-photo.62: ig://ClREL-iv0M9/m
+photo.53.tags: bamboo, laying down, portrait, sample
+photo.54: ig://CbEuaP3LMwx/m
+photo.54.author: panda.daisuki
+photo.54.commitdate: 2022/3/20
+photo.54.link: https://www.instagram.com/panda.daisuki/
+photo.54.tags: bamboo, close-up, mofumofu, portrait
+photo.55: ig://CbJLFTmJJMH/m
+photo.55.author: hidehaya_biei
+photo.55.commitdate: 2022/4/8
+photo.55.link: https://www.instagram.com/hidehaya_biei/
+photo.55.tags: close-up, laying down, whiskers
+photo.56: ig://CbSb2GCvmD2/m
+photo.56.author: panda.daisuki
+photo.56.commitdate: 2022/4/29
+photo.56.link: https://www.instagram.com/panda.daisuki/
+photo.56.tags: laying down, mofumofu, portrait, sample, smile, whiskers
+photo.57: ig://Cbg3jObunuW/m
+photo.57.author: hidehaya_biei
+photo.57.commitdate: 2022/4/25
+photo.57.link: https://www.instagram.com/hidehaya_biei/
+photo.57.tags: mofumofu, peek, smile
+photo.58: ig://CcVMqNmPO0t/m
+photo.58.author: panda.daisuki
+photo.58.commitdate: 2022/5/25
+photo.58.link: https://www.instagram.com/panda.daisuki/
+photo.58.tags: laying down, mofumofu, portrait, whiskers
+photo.59: ig://CeZmdoYhpu6/m
+photo.59.author: ssc6105
+photo.59.commitdate: 2022/8/30
+photo.59.link: https://www.instagram.com/ssc6105/
+photo.59.tags: portrait, sample, whiskers
+photo.60: ig://CfkeIEbvM1l/m
+photo.60.author: hamiiiii831_
+photo.60.commitdate: 2022/8/16
+photo.60.link: https://www.instagram.com/hamiiiii831_/
+photo.60.tags: mofumofu, paws, sample, smile, whiskers
+photo.61: ig://CgMEPYbB-vi/m
+photo.61.author: ssc6105
+photo.61.commitdate: 2022/7/28
+photo.61.link: https://www.instagram.com/ssc6105/
+photo.61.tags: portrait, sample, smile, whiskers
+photo.62: ig://Ch8VK-ZhTBS/m
 photo.62.author: fetorus_mami
-photo.62.commitdate: 2023/2/4
+photo.62.commitdate: 2022/9/8
 photo.62.link: https://www.instagram.com/fetorus_mami/
-photo.62.tags: apple time, close-up, sample, techitechi, whiskers
-photo.63: https://www.instagram.com/p/CYwJfg8P5i8/media/?size=m
-photo.63.author: panda.daisuki
-photo.63.link: https://www.instagram.com/panda.daisuki/
-photo.63.tags: bamboo, laying down, portrait, sample 
+photo.62.tags: mofumofu, sample
+photo.63: ig://ClREL-iv0M9/m
+photo.63.author: fetorus_mami
+photo.63.commitdate: 2023/2/4
+photo.63.link: https://www.instagram.com/fetorus_mami/
+photo.63.tags: apple time, close-up, sample, techitechi, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53

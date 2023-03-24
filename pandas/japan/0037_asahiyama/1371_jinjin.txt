@@ -53,19 +53,20 @@ photo.8.author: daniele.tokyo
 photo.8.commitdate: 2023/1/11
 photo.8.link: https://www.instagram.com/daniele.tokyo/
 photo.8.tags: apple time, bridge, climb, paws, snow, tail
-photo.9: ig://Cnb6L77vWNr/m
-photo.9.author: redpan22
-photo.9.commitdate: 2023/3/9
-photo.9.link: https://www.instagram.com/redpan22/
-photo.9.tags: baby, close-up, sample, snow, whiskers
-photo.10: ig://Cn6lF7kPjz2/m
-photo.10.author: daniele.tokyo
-photo.10.commitdate: 2023/2/25
-photo.10.link: https://www.instagram.com/daniele.tokyo/
-photo.10.tags: baby, climb, paws, sample, snow
-photo.11: https://www.instagram.com/p/CnUAmd0vy4H/media/?size=m
+photo.9: ig://CnUAmd0vy4H/m
+photo.9.author: daniele.tokyo
+photo.9.commitdate: 2023/3/23
+photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.tags: baby, climb, keeper, paws, snow
+photo.10: ig://Cnb6L77vWNr/m
+photo.10.author: redpan22
+photo.10.commitdate: 2023/3/9
+photo.10.link: https://www.instagram.com/redpan22/
+photo.10.tags: baby, close-up, sample, snow, whiskers
+photo.11: ig://Cn6lF7kPjz2/m
 photo.11.author: daniele.tokyo
+photo.11.commitdate: 2023/2/25
 photo.11.link: https://www.instagram.com/daniele.tokyo/
-photo.11.tags: baby, climb, keeper, paws, snow
+photo.11.tags: baby, climb, paws, sample, snow
 species: 2
 zoo: 37

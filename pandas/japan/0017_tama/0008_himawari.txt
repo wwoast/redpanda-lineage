@@ -2160,20 +2160,21 @@ photo.430.author: otenba_redpanda
 photo.430.commitdate: 2022/9/8
 photo.430.link: https://www.instagram.com/otenba_redpanda/
 photo.430.tags: portrait, sample, whiskers
-photo.431: ig://CoUeWIOvMzB/m
-photo.431.author: ck.chie
-photo.431.commitdate: 2023/3/6
-photo.431.link: https://www.instagram.com/ck.chie/
-photo.431.tags: sample, whiskers
-photo.432: ig://CohjtoaPRcO/m
-photo.432.author: redpan22
-photo.432.commitdate: 2023/2/24
-photo.432.link: https://www.instagram.com/redpan22/
-photo.432.tags: climb, sample, snow, whiskers
-photo.433: https://www.instagram.com/p/CnOebrvvCbn/media/?size=m
-photo.433.author: tamazoowalking
-photo.433.link: https://www.instagram.com/tamazoowalking/
-photo.433.tags: bamboo, close-up, portrait
+photo.431: ig://CnOebrvvCbn/m
+photo.431.author: tamazoowalking
+photo.431.commitdate: 2023/3/23
+photo.431.link: https://www.instagram.com/tamazoowalking/
+photo.431.tags: bamboo, close-up, portrait
+photo.432: ig://CoUeWIOvMzB/m
+photo.432.author: ck.chie
+photo.432.commitdate: 2023/3/6
+photo.432.link: https://www.instagram.com/ck.chie/
+photo.432.tags: sample, whiskers
+photo.433: ig://CohjtoaPRcO/m
+photo.433.author: redpan22
+photo.433.commitdate: 2023/2/24
+photo.433.link: https://www.instagram.com/redpan22/
+photo.433.tags: climb, sample, snow, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

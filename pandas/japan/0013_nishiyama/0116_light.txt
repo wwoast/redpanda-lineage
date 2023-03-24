@@ -590,20 +590,21 @@ photo.116.author: jas_forever_love
 photo.116.commitdate: 2023/3/17
 photo.116.link: https://www.instagram.com/jas_forever_love/
 photo.116.tags: laying down, portrait, sample, tree, whiskers
-photo.117: ig://CnesaZCvvDd/m
-photo.117.author: yuredpanda
-photo.117.commitdate: 2023/3/9
-photo.117.link: https://www.instagram.com/yuredpanda/
-photo.117.tags: paws, portrait, sample
-photo.118: ig://Cn2guztBsQp/m
-photo.118.author: hamamatsu.chiita
-photo.118.commitdate: 2023/2/25
-photo.118.link: https://www.instagram.com/hamamatsu.chiita/
-photo.118.tags: close-up, lips, mofumofu, portrait, sample, whiskers
-photo.119: https://www.instagram.com/p/CnW1Z0APgYU/media/?size=m
-photo.119.author: resapanlove
-photo.119.link: https://www.instagram.com/resapanlove/
-photo.119.tags: paws, portrait, sample, smile, whiskers
+photo.117: ig://CnW1Z0APgYU/m
+photo.117.author: resapanlove
+photo.117.commitdate: 2023/3/23
+photo.117.link: https://www.instagram.com/resapanlove/
+photo.117.tags: paws, portrait, sample, smile, whiskers
+photo.118: ig://CnesaZCvvDd/m
+photo.118.author: yuredpanda
+photo.118.commitdate: 2023/3/9
+photo.118.link: https://www.instagram.com/yuredpanda/
+photo.118.tags: paws, portrait, sample
+photo.119: ig://Cn2guztBsQp/m
+photo.119.author: hamamatsu.chiita
+photo.119.commitdate: 2023/2/25
+photo.119.link: https://www.instagram.com/hamamatsu.chiita/
+photo.119.tags: close-up, lips, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 13167
 zoo: 13

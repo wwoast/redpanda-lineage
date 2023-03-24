@@ -459,15 +459,16 @@ photo.89.author: minato.yokohama4416
 photo.89.commitdate: 2023/1/6
 photo.89.link: https://www.instagram.com/minato.yokohama4416/
 photo.89.tags: bamboo, mofumofu, portrait, sample
-photo.90: ig://CntzXKfvUNN/m
-photo.90.author: tomo3700
-photo.90.commitdate: 2023/2/25
-photo.90.link: https://www.instagram.com/tomo3700/
-photo.90.tags: paws, portrait, sample, standing, tail
-photo.91: https://www.instagram.com/p/CnVzBfUPskf/media/?size=m
-photo.91.author: fetorus_mami
-photo.91.link: https://www.instagram.com/fetorus_mami/
-photo.91.tags: close-up, lunch time, mofumofu, sample, whiskers 
+photo.90: ig://CnVzBfUPskf/m
+photo.90.author: fetorus_mami
+photo.90.commitdate: 2023/3/23
+photo.90.link: https://www.instagram.com/fetorus_mami/
+photo.90.tags: close-up, lunch time, mofumofu, sample, whiskers
+photo.91: ig://CntzXKfvUNN/m
+photo.91.author: tomo3700
+photo.91.commitdate: 2023/2/25
+photo.91.link: https://www.instagram.com/tomo3700/
+photo.91.tags: paws, portrait, sample, standing, tail
 species: 2
 studbook.id: unknown
 zoo: 13

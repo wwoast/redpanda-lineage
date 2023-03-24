@@ -224,15 +224,16 @@ photo.42.author: kojikoji2011
 photo.42.commitdate: 2023/1/11
 photo.42.link: https://www.instagram.com/kojikoji2011/
 photo.42.tags: portrait, sample, whiskers
-photo.43: ig://CoGyAIOPy3Z/m
-photo.43.author: re_ichimaru
-photo.43.commitdate: 2023/2/24
-photo.43.link: https://www.instagram.com/re_ichimaru/
-photo.43.tags: dish, portrait, sample, whiskers
-photo.44: https://www.instagram.com/p/CnGgWN0Pw9C/media/?size=m
-photo.44.author: apple_jasmine33
-photo.44.link: https://www.instagram.com/apple_jasmine33/
-photo.44.tags: apple time, paws, sample, whiskers
+photo.43: ig://CnGgWN0Pw9C/m
+photo.43.author: apple_jasmine33
+photo.43.commitdate: 2023/3/23
+photo.43.link: https://www.instagram.com/apple_jasmine33/
+photo.43.tags: apple time, paws, sample, whiskers
+photo.44: ig://CoGyAIOPy3Z/m
+photo.44.author: re_ichimaru
+photo.44.commitdate: 2023/2/24
+photo.44.link: https://www.instagram.com/re_ichimaru/
+photo.44.tags: dish, portrait, sample, whiskers
 species: 2
 studbook.id: 1686
 zoo: 42

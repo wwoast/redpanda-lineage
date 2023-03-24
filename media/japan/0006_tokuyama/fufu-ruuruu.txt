@@ -1,8 +1,10 @@
 [media]
 _id: media.6.fufu-ruuruu
+commitdate: 2023/3/23
 panda.tags: 71, 1369
-photo.1: https://www.instagram.com/p/CnS7oYmhV5y/media/?size=l
+photo.1: ig://CnS7oYmhV5y/l
 photo.1.author: redpanda_nippon_takashi
+photo.1.commitdate: 2023/3/23
 photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.1.tags: baby, bamboo, father's day, laying down, mofumofu, paws, playing, portrait, sample, tongue
 photo.1.tags.71.location: 290, 355

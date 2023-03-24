@@ -68,53 +68,55 @@ photo.11.author: tamazoowalking
 photo.11.commitdate: 2023/1/14
 photo.11.link: https://www.instagram.com/tamazoowalking/
 photo.11.tags: baby, laying down, mofumofu, paws, playing, portrait, upside-down, whiskers
-photo.12: ig://Cng1ODivox0/m
+photo.12: ig://CnOe0zgPdpq/m
 photo.12.author: tamazoowalking
-photo.12.commitdate: 2023/3/9
+photo.12.commitdate: 2023/3/23
 photo.12.link: https://www.instagram.com/tamazoowalking/
-photo.12.tags: close-up, portrait, sample, whiskers, window
-photo.13: ig://Cng1wGZPAXj/m
-photo.13.author: tamazoowalking
-photo.13.commitdate: 2023/3/9
-photo.13.link: https://www.instagram.com/tamazoowalking/
-photo.13.tags: close-up, portrait, sample, window
-photo.14: ig://Cng3R2hvTwB/m
+photo.12.tags: baby, close-up, portrait, sample, whiskers
+photo.13: ig://CnQKrdRhXwg/m
+photo.13.author: alto0908
+photo.13.commitdate: 2023/3/23
+photo.13.link: https://www.instagram.com/alto0908/
+photo.13.tags: baby, bamboo, paws, portrait, sample, whiskers
+photo.14: ig://Cng1ODivox0/m
 photo.14.author: tamazoowalking
 photo.14.commitdate: 2023/3/9
 photo.14.link: https://www.instagram.com/tamazoowalking/
-photo.14.tags: bamboo, laying down, paws
-photo.15: ig://Cn4JuBTv2qJ/m
+photo.14.tags: close-up, portrait, sample, whiskers, window
+photo.15: ig://Cng1wGZPAXj/m
 photo.15.author: tamazoowalking
-photo.15.commitdate: 2023/2/25
+photo.15.commitdate: 2023/3/9
 photo.15.link: https://www.instagram.com/tamazoowalking/
-photo.15.tags: baby, laying down, mofumofu, portrait, techitechi
-photo.16: ig://CoKCsdyPVDV/m
+photo.15.tags: close-up, portrait, sample, window
+photo.16: ig://Cng3R2hvTwB/m
 photo.16.author: tamazoowalking
-photo.16.commitdate: 2023/3/6
+photo.16.commitdate: 2023/3/9
 photo.16.link: https://www.instagram.com/tamazoowalking/
-photo.16.tags: baby, sample, whiskers
-photo.17: ig://CoW7ovRPgOH/m
-photo.17.author: ck.chie
-photo.17.commitdate: 2023/2/24
-photo.17.link: https://www.instagram.com/ck.chie/
-photo.17.tags: baby, paws, sample, smile, standing, tail
-photo.18: ig://CoisPD0BGlK/m
-photo.18.author: alto0908
-photo.18.commitdate: 2023/2/24
-photo.18.link: https://www.instagram.com/alto0908/
-photo.18.tags: baby, portrait, sample, snow
-photo.19: ig://ColoUkov003/m
-photo.19.author: ssc6105
+photo.16.tags: bamboo, laying down, paws
+photo.17: ig://Cn4JuBTv2qJ/m
+photo.17.author: tamazoowalking
+photo.17.commitdate: 2023/2/25
+photo.17.link: https://www.instagram.com/tamazoowalking/
+photo.17.tags: baby, laying down, mofumofu, portrait, techitechi
+photo.18: ig://CoKCsdyPVDV/m
+photo.18.author: tamazoowalking
+photo.18.commitdate: 2023/3/6
+photo.18.link: https://www.instagram.com/tamazoowalking/
+photo.18.tags: baby, sample, whiskers
+photo.19: ig://CoW7ovRPgOH/m
+photo.19.author: ck.chie
 photo.19.commitdate: 2023/2/24
-photo.19.link: https://www.instagram.com/ssc6105/
-photo.19.tags: baby, bamboo, paws, snow
-photo.20: https://www.instagram.com/p/CnQKrdRhXwg/media/?size=m
+photo.19.link: https://www.instagram.com/ck.chie/
+photo.19.tags: baby, paws, sample, smile, standing, tail
+photo.20: ig://CoisPD0BGlK/m
 photo.20.author: alto0908
+photo.20.commitdate: 2023/2/24
 photo.20.link: https://www.instagram.com/alto0908/
-photo.20.tags: baby, bamboo, paws, portrait, sample, whiskers
-photo.21: https://www.instagram.com/p/CnOe0zgPdpq/media/?size=m
-photo.21.author: tamazoowalking
-photo.21.link: https://www.instagram.com/tamazoowalking/
-photo.21.tags: baby, close-up, portrait, sample, whiskers
+photo.20.tags: baby, portrait, sample, snow
+photo.21: ig://ColoUkov003/m
+photo.21.author: ssc6105
+photo.21.commitdate: 2023/2/24
+photo.21.link: https://www.instagram.com/ssc6105/
+photo.21.tags: baby, bamboo, paws, snow
 species: 2
 zoo: 17

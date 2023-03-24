@@ -13,33 +13,34 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: ig://Bnrs9q8lXnd/m
+photo.1: ig://BfNDe0DAZ8S/m
 photo.1.author: wellington.zoo
 photo.1.commitdate: 2019/8/24
 photo.1.link: https://www.instagram.com/wellington.zoo/
-photo.1.tags: baby, portrait
-photo.2: ig://BfNDe0DAZ8S/m
+photo.1.tags: baby, portrait, scale
+photo.2: ig://BgSuWkNHCzO/m
 photo.2.author: wellington.zoo
 photo.2.commitdate: 2019/8/24
 photo.2.link: https://www.instagram.com/wellington.zoo/
-photo.2.tags: baby, portrait, scale
-photo.3: ig://BgSuWkNHCzO/m
+photo.2.tags: baby, keeper, portrait
+photo.3: ig://BlcLMXihzIZ/m
 photo.3.author: wellington.zoo
 photo.3.commitdate: 2019/8/24
 photo.3.link: https://www.instagram.com/wellington.zoo/
-photo.3.tags: baby, keeper, portrait
-photo.4: ig://BlcLMXihzIZ/m
+photo.3.tags: portrait, profile
+photo.4: ig://Bnrs9q8lXnd/m
 photo.4.author: wellington.zoo
 photo.4.commitdate: 2019/8/24
 photo.4.link: https://www.instagram.com/wellington.zoo/
-photo.4.tags: portrait, profile
+photo.4.tags: baby, portrait
 photo.5: ig://BrnwVaqn1Wu/m
 photo.5.author: jdhphd
 photo.5.commitdate: 2019/8/25
 photo.5.link: https://www.instagram.com/jdhphd/
 photo.5.tags: portrait, smile, tree
-photo.6: https://www.instagram.com/p/CnQk7a9B8m8/media/?size=m
+photo.6: ig://CnQk7a9B8m8/m
 photo.6.author: wellington.zoo
+photo.6.commitdate: 2023/3/23
 photo.6.link: https://www.instagram.com/wellington.zoo/
 photo.6.tags: baby, keeper
 species: 1
