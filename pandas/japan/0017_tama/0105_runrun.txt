@@ -281,40 +281,41 @@ photo.54.author: kotata_513
 photo.54.commitdate: 2022/9/28
 photo.54.link: https://www.instagram.com/kotata_513/
 photo.54.tags: flowers, nose, tail
-photo.55: ig://CfVaYPjPWsu/m
-photo.55.author: eos1089
-photo.55.commitdate: 2022/7/31
-photo.55.link: https://www.instagram.com/eos1089/
-photo.55.tags: laying down, paws, portrait, sample, whiskers
-photo.56: ig://CiXPZIIpqBS/m
-photo.56.author: daniele.tokyo
-photo.56.commitdate: 2022/10/11
-photo.56.link: https://www.instagram.com/daniele.tokyo/
-photo.56.tags: lips, peek, sample, techitechi, whiskers
-photo.57: ig://CmWfySxPNRf/m
-photo.57.author: mini_cochi
-photo.57.commitdate: 2023/1/14
-photo.57.link: https://www.instagram.com/mini_cochi/
-photo.57.tags: close-up, portrait, sample, whiskers
-photo.58: ig://CnLVUf5v1fG/m
-photo.58.author: tamazoowalking
-photo.58.commitdate: 2023/3/23
-photo.58.link: https://www.instagram.com/tamazoowalking/
-photo.58.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
-photo.59: ig://Cnln2oZP_q1/m
+photo.55: ig://CeNephXByQP/m
+photo.55.author: tamazoowalking
+photo.55.commitdate: 2023/3/26
+photo.55.link: https://www.instagram.com/tamazoowalking/
+photo.55.tags: portrait, whiskers
+photo.56: ig://CfVaYPjPWsu/m
+photo.56.author: eos1089
+photo.56.commitdate: 2022/7/31
+photo.56.link: https://www.instagram.com/eos1089/
+photo.56.tags: laying down, paws, portrait, sample, whiskers
+photo.57: ig://CiXPZIIpqBS/m
+photo.57.author: daniele.tokyo
+photo.57.commitdate: 2022/10/11
+photo.57.link: https://www.instagram.com/daniele.tokyo/
+photo.57.tags: lips, peek, sample, techitechi, whiskers
+photo.58: ig://CmWfySxPNRf/m
+photo.58.author: mini_cochi
+photo.58.commitdate: 2023/1/14
+photo.58.link: https://www.instagram.com/mini_cochi/
+photo.58.tags: close-up, portrait, sample, whiskers
+photo.59: ig://CnLVUf5v1fG/m
 photo.59.author: tamazoowalking
-photo.59.commitdate: 2023/3/6
+photo.59.commitdate: 2023/3/23
 photo.59.link: https://www.instagram.com/tamazoowalking/
 photo.59.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
-photo.60: ig://CooRkn-PKOH/m
+photo.60: ig://Cnln2oZP_q1/m
 photo.60.author: tamazoowalking
-photo.60.commitdate: 2023/2/24
+photo.60.commitdate: 2023/3/6
 photo.60.link: https://www.instagram.com/tamazoowalking/
-photo.60.tags: paws, portrait, sample
-photo.61: https://www.instagram.com/p/CeNephXByQP/media/?size=m
+photo.60.tags: bamboo, close-up, mofumofu, portrait, sample, whiskers
+photo.61: ig://CooRkn-PKOH/m
 photo.61.author: tamazoowalking
+photo.61.commitdate: 2023/2/24
 photo.61.link: https://www.instagram.com/tamazoowalking/
-photo.61.tags: portrait, whiskers
+photo.61.tags: paws, portrait, sample
 species: 2
 studbook.id: 0770
 zoo: 17

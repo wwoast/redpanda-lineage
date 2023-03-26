@@ -248,84 +248,85 @@ photo.47.author: alto0908
 photo.47.commitdate: 2022/6/29
 photo.47.link: https://www.instagram.com/alto0908/
 photo.47.tags: laying down, mofumofu, portrait, upside-down
-photo.48: ig://CfdCtM4rnaV/m
-photo.48.author: otenba_redpanda
-photo.48.commitdate: 2022/7/22
-photo.48.link: https://www.instagram.com/otenba_redpanda/
-photo.48.tags: bridge, mofumofu, peek, portrait, sample, techitechi
-photo.49: ig://CfdQsPyPSIn/m
-photo.49.author: alto0908
+photo.48: ig://CeTl6Qtr3RN/m
+photo.48.author: mini_cochi
+photo.48.commitdate: 2023/3/26
+photo.48.link: https://www.instagram.com/mini_cochi/
+photo.48.tags: air tasting, mofumofu, portrait, sample, tongue, whiskers
+photo.49: ig://CfdCtM4rnaV/m
+photo.49.author: otenba_redpanda
 photo.49.commitdate: 2022/7/22
-photo.49.link: https://www.instagram.com/alto0908/
-photo.49.tags: baby, bamboo, mofumofu, portrait, sample, smile
-photo.50: ig://CgQDtsyrSIi/m
-photo.50.author: otenba_redpanda
-photo.50.commitdate: 2022/7/25
-photo.50.link: https://www.instagram.com/otenba_redpanda/
-photo.50.tags: mofumofu, portrait, sample
-photo.51: ig://ChqJUPZvApH/m
-photo.51.author: shigeko0531
-photo.51.commitdate: 2022/8/28
-photo.51.link: https://www.instagram.com/shigeko0531/
-photo.51.tags: laying down, peek, sample
-photo.52: ig://Ch2LgijhRmH/m
-photo.52.author: minatomirai215
-photo.52.commitdate: 2022/9/4
-photo.52.link: https://www.instagram.com/minatomirai215/
-photo.52.tags: mofumofu, portrait, sample, whiskers
-photo.53: ig://Ch5pRdgunDd/m
-photo.53.author: otenba_redpanda
-photo.53.commitdate: 2022/9/8
-photo.53.link: https://www.instagram.com/otenba_redpanda/
-photo.53.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.54: ig://CiQ2buYB331/m
-photo.54.author: alto0908
-photo.54.commitdate: 2022/9/11
-photo.54.link: https://www.instagram.com/alto0908/
-photo.54.tags: baby, mofumofu, portrait, sample, snow
-photo.55: ig://CjKuKxput_F/m
-photo.55.author: shigeko0531
-photo.55.commitdate: 2022/10/13
-photo.55.link: https://www.instagram.com/shigeko0531/
-photo.55.tags: dish, mofumofu, paws, sample
-photo.56: ig://ClBsqoRPUW5/m
-photo.56.author: _rifa_p
-photo.56.commitdate: 2023/1/27
-photo.56.link: https://www.instagram.com/_rifa_p/
-photo.56.tags: home, peek, tree
-photo.57: ig://ClyAI11uyQ4/m
-photo.57.author: chankunvv
-photo.57.commitdate: 2023/2/4
-photo.57.link: https://www.instagram.com/chankunvv/
-photo.57.tags: peek, portrait
-photo.58: ig://Cl_QB-kLtP5/m
-photo.58.author: shigeko0531
-photo.58.commitdate: 2023/3/17
-photo.58.link: https://www.instagram.com/shigeko0531/
-photo.58.tags: mofumofu, peek, sample, whiskers
-photo.59: ig://CmWBP4nPBqK/m
+photo.49.link: https://www.instagram.com/otenba_redpanda/
+photo.49.tags: bridge, mofumofu, peek, portrait, sample, techitechi
+photo.50: ig://CfdQsPyPSIn/m
+photo.50.author: alto0908
+photo.50.commitdate: 2022/7/22
+photo.50.link: https://www.instagram.com/alto0908/
+photo.50.tags: baby, bamboo, mofumofu, portrait, sample, smile
+photo.51: ig://CgQDtsyrSIi/m
+photo.51.author: otenba_redpanda
+photo.51.commitdate: 2022/7/25
+photo.51.link: https://www.instagram.com/otenba_redpanda/
+photo.51.tags: mofumofu, portrait, sample
+photo.52: ig://ChqJUPZvApH/m
+photo.52.author: shigeko0531
+photo.52.commitdate: 2022/8/28
+photo.52.link: https://www.instagram.com/shigeko0531/
+photo.52.tags: laying down, peek, sample
+photo.53: ig://Ch2LgijhRmH/m
+photo.53.author: minatomirai215
+photo.53.commitdate: 2022/9/4
+photo.53.link: https://www.instagram.com/minatomirai215/
+photo.53.tags: mofumofu, portrait, sample, whiskers
+photo.54: ig://Ch5pRdgunDd/m
+photo.54.author: otenba_redpanda
+photo.54.commitdate: 2022/9/8
+photo.54.link: https://www.instagram.com/otenba_redpanda/
+photo.54.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.55: ig://CiQ2buYB331/m
+photo.55.author: alto0908
+photo.55.commitdate: 2022/9/11
+photo.55.link: https://www.instagram.com/alto0908/
+photo.55.tags: baby, mofumofu, portrait, sample, snow
+photo.56: ig://CjKuKxput_F/m
+photo.56.author: shigeko0531
+photo.56.commitdate: 2022/10/13
+photo.56.link: https://www.instagram.com/shigeko0531/
+photo.56.tags: dish, mofumofu, paws, sample
+photo.57: ig://ClBsqoRPUW5/m
+photo.57.author: _rifa_p
+photo.57.commitdate: 2023/1/27
+photo.57.link: https://www.instagram.com/_rifa_p/
+photo.57.tags: home, peek, tree
+photo.58: ig://ClyAI11uyQ4/m
+photo.58.author: chankunvv
+photo.58.commitdate: 2023/2/4
+photo.58.link: https://www.instagram.com/chankunvv/
+photo.58.tags: peek, portrait
+photo.59: ig://Cl_QB-kLtP5/m
 photo.59.author: shigeko0531
-photo.59.commitdate: 2023/1/14
+photo.59.commitdate: 2023/3/17
 photo.59.link: https://www.instagram.com/shigeko0531/
-photo.59.tags: dish, snow
-photo.60: ig://Cmr-ItdhZSs/m
+photo.59.tags: mofumofu, peek, sample, whiskers
+photo.60: ig://CmWBP4nPBqK/m
 photo.60.author: shigeko0531
-photo.60.commitdate: 2023/3/9
+photo.60.commitdate: 2023/1/14
 photo.60.link: https://www.instagram.com/shigeko0531/
-photo.60.tags: peek, portrait, sample, snow
-photo.61: ig://Cnk5Hl2BPp6/m
+photo.60.tags: dish, snow
+photo.61: ig://Cmr-ItdhZSs/m
 photo.61.author: shigeko0531
-photo.61.commitdate: 2023/3/6
+photo.61.commitdate: 2023/3/9
 photo.61.link: https://www.instagram.com/shigeko0531/
-photo.61.tags: bamboo, paws, sample, tail, tongue
-photo.62: ig://CntrVLpv_Ns/m
+photo.61.tags: peek, portrait, sample, snow
+photo.62: ig://Cnk5Hl2BPp6/m
 photo.62.author: shigeko0531
-photo.62.commitdate: 2023/3/9
+photo.62.commitdate: 2023/3/6
 photo.62.link: https://www.instagram.com/shigeko0531/
-photo.62.tags: peek, snow
-photo.63: https://www.instagram.com/p/CeTl6Qtr3RN/media/?size=m
-photo.63.author: mini_cochi
-photo.63.link: https://www.instagram.com/mini_cochi/
-photo.63.tags: air tasting, mofumofu, portrait, sample, tongue, whiskers
+photo.62.tags: bamboo, paws, sample, tail, tongue
+photo.63: ig://CntrVLpv_Ns/m
+photo.63.author: shigeko0531
+photo.63.commitdate: 2023/3/9
+photo.63.link: https://www.instagram.com/shigeko0531/
+photo.63.tags: peek, snow
 species: 2
 zoo: 10

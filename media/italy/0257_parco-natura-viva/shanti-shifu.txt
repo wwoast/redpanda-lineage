@@ -1,8 +1,10 @@
 [media]
 _id: media.257.shanti-shifu
+commitdate: 2023/3/26
 panda.tags: 1365, 1366
-photo.1: https://www.instagram.com/p/CUd0LE8tMLS/media/?size=l
+photo.1: ig://CUd0LE8tMLS/l
 photo.1.author: redpandanetwork
+photo.1.commitdate: 2023/3/26
 photo.1.link: https://www.instagram.com/redpandanetwork/
 photo.1.tags: baby, peek, portrait, sample, tree
 photo.1.tags.1365.location: 270, 230

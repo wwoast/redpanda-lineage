@@ -443,35 +443,36 @@ photo.86.author: kotume4935
 photo.86.commitdate: 2022/9/28
 photo.86.link: https://www.instagram.com/kotume4935/
 photo.86.tags: bridge, peek, whiskers
-photo.87: ig://Cd9xRGTLS2-/m
-photo.87.author: lesserpanda_shizuokacity_cp
-photo.87.commitdate: 2022/9/24
-photo.87.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.87.tags: bamboo, laying down, portrait, sample, tail
-photo.88: ig://CfkqM4XNRAd/m
+photo.87: ig://CchB6PxvUoa/m
+photo.87.author: grskus_tk
+photo.87.commitdate: 2023/3/26
+photo.87.link: https://www.instagram.com/grskus_tk/
+photo.87.tags: grooming, tail
+photo.88: ig://Cd9xRGTLS2-/m
 photo.88.author: lesserpanda_shizuokacity_cp
-photo.88.commitdate: 2022/11/29
+photo.88.commitdate: 2022/9/24
 photo.88.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.88.tags: paws, whiskers
-photo.89: ig://CgItVGdBXVi/m
+photo.88.tags: bamboo, laying down, portrait, sample, tail
+photo.89: ig://CfkqM4XNRAd/m
 photo.89.author: lesserpanda_shizuokacity_cp
-photo.89.commitdate: 2022/9/11
+photo.89.commitdate: 2022/11/29
 photo.89.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.89.tags: bamboo, tail
-photo.90: ig://Cgau5h4h_wX/m
+photo.89.tags: paws, whiskers
+photo.90: ig://CgItVGdBXVi/m
 photo.90.author: lesserpanda_shizuokacity_cp
-photo.90.commitdate: 2022/8/8
+photo.90.commitdate: 2022/9/11
 photo.90.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.90.tags: whiskers
-photo.91: ig://CiG_JLBhzS9/m
+photo.90.tags: bamboo, tail
+photo.91: ig://Cgau5h4h_wX/m
 photo.91.author: lesserpanda_shizuokacity_cp
-photo.91.commitdate: 2022/9/11
+photo.91.commitdate: 2022/8/8
 photo.91.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.91.tags: bamboo, paws, sample, whiskers
-photo.92: https://www.instagram.com/p/CchB6PxvUoa/media/?size=m
-photo.92.author: grskus_tk
-photo.92.link: https://www.instagram.com/grskus_tk/
-photo.92.tags: grooming, tail
+photo.91.tags: whiskers
+photo.92: ig://CiG_JLBhzS9/m
+photo.92.author: lesserpanda_shizuokacity_cp
+photo.92.commitdate: 2022/9/11
+photo.92.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.92.tags: bamboo, paws, sample, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16
