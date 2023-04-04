@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 451
 location.1: 89, 2017/7/7
 location.2: 90, 2019/5/7
+location.3: 80, 2023/3/2
 photo.1: ig://BaM4RR1nwID/m
 photo.1.author: rossparkzoo
 photo.1.commitdate: 2018/11/25
@@ -75,4 +76,5 @@ photo.12.commitdate: 2021/6/23
 photo.12.link: https://www.instagram.com/rossifari/
 photo.12.tags: lunch time, portrait, tongue
 species: 2
-zoo: 90
+uncertainty: location.3 exact date (may be a month earlier)
+zoo: 80

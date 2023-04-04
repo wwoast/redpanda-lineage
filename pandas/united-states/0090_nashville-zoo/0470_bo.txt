@@ -16,6 +16,7 @@ litter: 469
 location.1: 84, 2015/7/1
 location.2: 102, 2017/5/1
 location.3: 83, 2020/12/22
+location.4: 90, 2023/3/2
 photo.1: ig://BhzMMTznq4M/m
 photo.1.author: tulsazoo
 photo.1.commitdate: 2018/12/12
@@ -78,4 +79,5 @@ photo.12.link: https://www.instagram.com/florianschwarz83/
 photo.12.tags: close-up, portrait
 species: 2
 studbook.id: 1537
-zoo: 83
+uncertainty: location.4 exact date (maybe a month earlier)
+zoo: 90
