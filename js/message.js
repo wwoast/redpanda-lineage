@@ -365,14 +365,14 @@ Message.lunch_time = function(language) {
     var msg = document.createTextNode(field);
     p.appendChild(msg);
   }
+  link.appendChild(p)
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "tagSummary";
   message.appendChild(shrinker);
-  link.appendChild(message);
-  return link;
+  return message;
 }
 Message.memorial = function(name, animal_id, birth, death, language) {
   var link = document.createElement('a');
