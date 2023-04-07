@@ -150,6 +150,7 @@ button.menu:hover, button.menu.flag:hover, button.logo:hover  {
     animation: activateMenuButton;
     animation-duration: 0.3s;
     background-color: #699C6A;
+    cursor: pointer;
 }
 
 button.menu.profile:hover, button.menu.flag.profile:hover, button.logo.profile:hover {
@@ -213,6 +214,7 @@ button.sectionButton:hover {
     animation: sectionButtonHover;
     animation-duration: 0.3s;
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 button.sectionButton:active {
