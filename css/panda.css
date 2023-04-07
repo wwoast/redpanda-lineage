@@ -69,6 +69,11 @@ div.languageMenu.profile {
     to { background-color: #9C696A; }
 }
 
+@keyframes pandaTitleHover {
+    from { background-color: yellowgreen; }
+    to { background-color: #9AED32; }   /* Brighter Yellowgreen */
+}
+
 @keyframes sectionButtonHover {
     from { background-color: yellowgreen; }
     to { background-color: whitesmoke; }
@@ -579,7 +584,7 @@ div.pandaTitle, div.zooTitle {
 }
 
 div.pandaTitle:hover {
-    background-color: #9AED32;   /* Brighter Yellowgreen */
+    animation: pandaTitleHover;
 }
 
 div.profileLocation {
