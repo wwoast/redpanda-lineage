@@ -576,6 +576,10 @@ div.pandaTitle, div.zooTitle {
     padding-left: 18px;
 }
 
+div.pandaTitle:hover {
+    background-color: #9AED32;   /* Brighter Yellowgreen */
+}
+
 div.profileLocation {
     min-width: 300px;
     min-height: 32pt;
