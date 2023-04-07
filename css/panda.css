@@ -1049,6 +1049,14 @@ div.photoSample a {
     text-decoration: none !important;
 }
 
+/* Hack to make some buttons have an animation highlight even when hovering
+   over the outer link of the button. */
+div.photoSample a:hover > h5.caption {
+    animation: pandaTitleHover;
+    animation-duration: 0.3s;
+    background-color: #9AED32;   /* Brighter Yellowgreen */
+}
+
 h5.caption {
     text-align: center;
     margin-top: 0.7ex;
