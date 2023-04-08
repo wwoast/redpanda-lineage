@@ -1073,6 +1073,7 @@ div.photoSample a:hover > h5.caption.zooName {
 }
 
 /* For when the author is a separate link, give it a separate hover style */
+div.photoSample a:hover > h5.caption.groupMediaAuthor,
 div.photoSample a:hover > h5.caption.updateAuthor {
     animation: authorTitleHover;
     animation-duration: 0.3s;
