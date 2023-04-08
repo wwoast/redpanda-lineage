@@ -441,8 +441,13 @@ div.qrcodeFrame button {
     padding-bottom: 1.5ex;
     padding-top: 1.5ex;
     border-radius: 1em;
-    border: 1px solid black;
+    border: 0.5ex solid olive;
     cursor: pointer;
+}
+
+/* QR codes can't be made as opaque PNGs so I animate the border instead */
+div.qrcodeFrame button:hover {
+    border: 0.5ex solid gold;
 }
 
 div.qrcodeFrame > button > img {
