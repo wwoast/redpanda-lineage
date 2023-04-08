@@ -1419,7 +1419,7 @@ Gallery.special.taglist = function(language, photo_count=5, taglist, message_fun
     var name_caption_link = document.createElement('a');
     name_caption_link.href = "#panda/" + photo.id + "/photo/" + photo["photo.index"];
     var name_caption = document.createElement('h5');
-    name_caption.className = "caption updateTagName";
+    name_caption.className = "caption updateName";
     var name_caption_span = document.createElement('span');
     var animal = Pandas.searchPandaId(photo.id)[0];
     var updateName = undefined;
