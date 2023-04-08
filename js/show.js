@@ -646,7 +646,7 @@ Show.zooTitle = function(info) {
   // No furigana for zoo names
   name_div.innerText = info.name;
   var title_div = document.createElement('div');
-  title_div.className = "pandaTitle";
+  title_div.className = "zooTitle";
   title_div.appendChild(name_div);
   return title_div;
 }
