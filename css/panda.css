@@ -1090,8 +1090,7 @@ div.photoSample a:hover > h5.caption.updateAuthor {
 
 /* Animate the Local Zoos button too */
 div.frontPageSummary a:hover > p.summaryEmphasis {
-    animation: localZoosHover;
-    animation-duration: 0.6s;
+    animation: localZoosHover 0.6s linear;
     background: radial-gradient(gold 0%, #693638 200%);   /* Panda Gold */
 }
 
