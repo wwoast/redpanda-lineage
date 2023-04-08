@@ -431,12 +431,14 @@ photo.84.author: leonard_redmof
 photo.84.commitdate: 2023/2/24
 photo.84.link: https://www.instagram.com/leonard_redmof/
 photo.84.tags: keeper, paws, portrait, snow, standing, tongue
-photo.85: https://www.instagram.com/p/CotYtprPUgF/media/?size=m
+photo.85: ig://CotYtprPUgF/m
 photo.85.author: mari_neko3
+photo.85.commitdate: 2023/4/8
 photo.85.link: https://www.instagram.com/mari_neko3/
 photo.85.tags: bamboo, portrait, sample
-photo.86: https://www.instagram.com/p/Cots7HoPCJD/media/?size=m
+photo.86: ig://Cots7HoPCJD/m
 photo.86.author: mari_neko3
+photo.86.commitdate: 2023/4/8
 photo.86.link: https://www.instagram.com/mari_neko3/
 photo.86.tags: bamboo, close-up, mofumofu, portrait
 species: 2

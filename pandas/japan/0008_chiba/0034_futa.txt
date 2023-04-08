@@ -535,14 +535,16 @@ photo.104.author: ifumoto88
 photo.104.commitdate: 2023/2/4
 photo.104.link: https://www.instagram.com/ifumoto88/
 photo.104.tags: eye, paws, portrait, sample, whiskers
-photo.105: https://www.instagram.com/p/CnQGCayBBnV/media/?size=m
+photo.105: ig://CnPYYPKvS_T/m
 photo.105.author: craig_craig_craig
+photo.105.commitdate: 2023/4/8
 photo.105.link: https://www.instagram.com/craig_craig_craig/
-photo.105.tags: eye, home, paws, portrait, sample, tail
-photo.106: https://www.instagram.com/p/CnPYYPKvS_T/media/?size=m
+photo.105.tags: apple time, bite, sample
+photo.106: ig://CnQGCayBBnV/m
 photo.106.author: craig_craig_craig
+photo.106.commitdate: 2023/4/8
 photo.106.link: https://www.instagram.com/craig_craig_craig/
-photo.106.tags: apple time, bite, sample
+photo.106.tags: eye, home, paws, portrait, sample, tail
 species: 2
 studbook.id: 0366
 zoo: 8

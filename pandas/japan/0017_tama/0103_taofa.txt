@@ -968,8 +968,9 @@ photo.191.author: redpan22
 photo.191.commitdate: 2023/2/24
 photo.191.link: https://www.instagram.com/redpan22/
 photo.191.tags: playing, snow
-photo.192: https://www.instagram.com/p/Co7Y5jTPKs6/media/?size=m
+photo.192: ig://Co7Y5jTPKs6/m
 photo.192.author: redpan22
+photo.192.commitdate: 2023/4/8
 photo.192.link: https://www.instagram.com/redpan22/
 photo.192.tags: peek, sample, snow, tongue, whiskers
 species: 2

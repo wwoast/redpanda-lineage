@@ -283,13 +283,15 @@ photo.54.author: chankunvv
 photo.54.commitdate: 2023/3/9
 photo.54.link: https://www.instagram.com/chankunvv/
 photo.54.tags: laying down, portrait, sample, whiskers
-photo.55: https://www.instagram.com/p/Co1AtWQPrxd/media/?size=m
-photo.55.author: makimaru18
-photo.55.link: https://www.instagram.com/makimaru18/
-photo.55.tags: bamboo, paws, portrait, sample
-photo.56: https://www.instagram.com/p/CoMqJ1rP3WZ/media/?size=m
-photo.56.author: itsuak
-photo.56.link: https://www.instagram.com/itsuak/
-photo.56.tags: paws, portrait, praying, standing, whiskers
+photo.55: ig://CoMqJ1rP3WZ/m
+photo.55.author: itsuak
+photo.55.commitdate: 2023/4/8
+photo.55.link: https://www.instagram.com/itsuak/
+photo.55.tags: paws, portrait, praying, standing, whiskers
+photo.56: ig://Co1AtWQPrxd/m
+photo.56.author: makimaru18
+photo.56.commitdate: 2023/4/8
+photo.56.link: https://www.instagram.com/makimaru18/
+photo.56.tags: bamboo, paws, portrait, sample
 species: 2
 zoo: 15

@@ -572,8 +572,9 @@ photo.112.author: colette.jp
 photo.112.commitdate: 2023/1/12
 photo.112.link: https://www.instagram.com/colette.jp/
 photo.112.tags: carry, portrait, sample, smile, tail
-photo.113: https://www.instagram.com/p/Co7HUvPPZ_N/media/?size=m
+photo.113: ig://Co7HUvPPZ_N/m
 photo.113.author: colette.jp
+photo.113.commitdate: 2023/4/8
 photo.113.link: https://www.instagram.com/colette.jp/
 photo.113.tags: portrait, sample
 species: 2

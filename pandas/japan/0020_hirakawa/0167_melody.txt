@@ -1077,25 +1077,26 @@ photo.213.author: yossi929
 photo.213.commitdate: 2023/1/26
 photo.213.link: https://www.instagram.com/yossi929/
 photo.213.tags: sample, smile, whiskers
-photo.214: ig://CouOXxSPeXt/m
+photo.214: ig://CoszftnBkcT/m
 photo.214.author: yossi929
-photo.214.commitdate: 2023/2/24
+photo.214.commitdate: 2023/4/8
 photo.214.link: https://www.instagram.com/yossi929/
-photo.214.tags: peek, sample, tail, tree
-photo.215: ig://Co7dziOvthf/m
-photo.215.author: fetorus_mami
-photo.215.commitdate: 2023/2/26
-photo.215.link: https://www.instagram.com/fetorus_mami/
-photo.215.tags: flowers, peek, portrait
-photo.216: ig://Co7ekkFPqx_/m
+photo.214.tags: portrait, sample, tail, tree
+photo.215: ig://CouOXxSPeXt/m
+photo.215.author: yossi929
+photo.215.commitdate: 2023/2/24
+photo.215.link: https://www.instagram.com/yossi929/
+photo.215.tags: peek, sample, tail, tree
+photo.216: ig://Co7dziOvthf/m
 photo.216.author: fetorus_mami
 photo.216.commitdate: 2023/2/26
 photo.216.link: https://www.instagram.com/fetorus_mami/
-photo.216.tags: bamboo, paws, portrait, sample, techitechi
-photo.217: https://www.instagram.com/p/CoszftnBkcT/media/?size=m
-photo.217.author: yossi929
-photo.217.link: https://www.instagram.com/yossi929/
-photo.217.tags: portrait, sample, tail, tree
+photo.216.tags: flowers, peek, portrait
+photo.217: ig://Co7ekkFPqx_/m
+photo.217.author: fetorus_mami
+photo.217.commitdate: 2023/2/26
+photo.217.link: https://www.instagram.com/fetorus_mami/
+photo.217.tags: bamboo, paws, portrait, sample, techitechi
 species: 2
 studbook.id: 1779
 zoo: 20

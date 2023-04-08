@@ -467,8 +467,9 @@ photo.91.author: mini_cochi
 photo.91.commitdate: 2023/2/24
 photo.91.link: https://www.instagram.com/mini_cochi/
 photo.91.tags: bamboo, portrait, sample, smile, whiskers
-photo.92: https://www.instagram.com/p/Co-DO1ovHay/media/?size=m
+photo.92: ig://Co-DO1ovHay/m
 photo.92.author: minatomirai215
+photo.92.commitdate: 2023/4/8
 photo.92.link: https://www.instagram.com/minatomirai215/
 photo.92.tags: apple time, bridge, portrait, sample, snow
 species: 2

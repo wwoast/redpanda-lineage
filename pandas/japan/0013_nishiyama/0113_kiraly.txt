@@ -222,8 +222,9 @@ photo.42.author: rie_panda55
 photo.42.commitdate: 2023/3/9
 photo.42.link: https://www.instagram.com/rie_panda55/
 photo.42.tags: apple time, dish, paws, portrait, sample
-photo.43: https://www.instagram.com/p/Co2HElRvF_p/media/?size=m
+photo.43: ig://Co2HElRvF_p/m
 photo.43.author: tomo3700
+photo.43.commitdate: 2023/4/8
 photo.43.link: https://www.instagram.com/tomo3700/
 photo.43.tags: tail, toys
 species: 2

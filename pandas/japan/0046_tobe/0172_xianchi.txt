@@ -274,8 +274,9 @@ photo.52.author: itsuak
 photo.52.commitdate: 2023/3/6
 photo.52.link: https://www.instagram.com/itsuak/
 photo.52.tags: portrait, sample, whiskers
-photo.53: https://www.instagram.com/p/CoKI5bNP8OB/media/?size=m
+photo.53: ig://CoKI5bNP8OB/m
 photo.53.author: itsuak
+photo.53.commitdate: 2023/4/8
 photo.53.link: https://www.instagram.com/itsuak/
 photo.53.tags: bamboo, mofumofu, portrait, sample, whiskers
 species: 2
