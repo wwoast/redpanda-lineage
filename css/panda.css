@@ -1223,9 +1223,9 @@ div.tagSummary p {
     margin: 1ex;
 }
 
-div.birthdaySummary p:hover,
-div.memorialSummary p:hover,
-div.tagSummary p:hover {
+div.birthdaySummary a:hover > p,
+div.memorialSummary a:hover > p,
+div.tagSummary a:hover > p {
    animation: summaryLinkHover;
    animation-duration: 0.3s;
    background-color: #C7A1E7;   /* Ligher grape */
