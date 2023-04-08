@@ -182,7 +182,12 @@ Layout.shrinkNames = function() {
     // Still apply the condenser style to author nodes, so the updates page
     // doesn't have super long names in the author boxes
     var author_nodes = document.getElementsByClassName("caption updateAuthor");
+    var more_author_nodes = document.getElementsByClassName("caption updateAuthorCredit");
     for (let caption of author_nodes) {
+      // shrinker(caption, 0, "inner", caption.clientWidth - 10, caption.clientWidth);
+      shrinker(caption, 0, "inner", 160, 170);
+    }
+    for (let caption of more_author_nodes) {
       // shrinker(caption, 0, "inner", caption.clientWidth - 10, caption.clientWidth);
       shrinker(caption, 0, "inner", 160, 170);
     }
@@ -197,6 +202,7 @@ Layout.shrinkNames = function() {
   var birthday_nodes = document.getElementsByClassName("caption birthdayMessage");
   var memorial_nodes = document.getElementsByClassName("caption memorialMessage");
   var author_nodes = document.getElementsByClassName("caption updateAuthor");
+  var more_author_nodes = document.getElementsByClassName("caption updateAuthorCredit");
   var media_author_nodes = document.getElementsByClassName("caption groupMediaAuthor");
   for (let link of link_nodes) {
     shrinker(link, 1, "outer", 125);
@@ -208,6 +214,9 @@ Layout.shrinkNames = function() {
     action(caption, 0, "inner", 130);
   }
   for (let caption of author_nodes) {
+    action(caption, 0, "inner", 130);
+  }
+  for (let caption of more_author_nodes) {
     action(caption, 0, "inner", 130);
   }
   for (let caption of media_author_nodes) {
