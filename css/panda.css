@@ -69,6 +69,11 @@ div.languageMenu.profile {
     to { background-color: #9C696A; }
 }
 
+@keyframes authorTitleHover {
+    from { background-color: whitesmoke; }
+    to { background-color: gainsboro; }
+}
+
 @keyframes pandaTitleHover {
     from { background-color: yellowgreen; }
     to { background-color: #9AED32; }
@@ -587,6 +592,12 @@ div.pandaTitle:hover {
     animation: pandaTitleHover;
     animation-duration: 0.3s;
     background-color: #9AED32;   /* Brighter Yellowgreen */
+}
+
+div.updateAuthor:hover {
+    animation: authorTitleHover;
+    animation-duration: 0.3s;
+    background-color: gainsboro;
 }
 
 div.profileLocation {
