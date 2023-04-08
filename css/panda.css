@@ -76,6 +76,7 @@ div.languageMenu.profile {
 
 @keyframes localZoosHover {
     0% { background: radial-gradient(gold 0%, #693638 150%); }
+    50% { background: radial-gradient(gold 0%, #693638 175%); }
     100% { background: radial-gradient(gold 0%, #693638 200%); }
 }
 
