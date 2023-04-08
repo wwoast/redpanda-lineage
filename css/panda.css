@@ -94,6 +94,11 @@ div.languageMenu.profile {
     to { background-color: whitesmoke; }
 }
 
+@keyframes summaryLinkHover {
+    from { background-color: #9771A7; }
+    to { background-color: #C7A1E7; }
+}
+
 button.logo {
     display: inline-block;
     border: none;
@@ -1216,6 +1221,14 @@ div.tagSummary p {
     border: 1px solid #002200;
     padding: 1ex;
     margin: 1ex;
+}
+
+div.birthdaySummary p:hover,
+div.memorialSummary p:hover,
+div.tagSummary p:hover {
+   animation: summaryLinkHover;
+   animation-duration: 0.3s;
+   background-color: #C7A1E7;   /* Ligher grape */
 }
 
 div.arrivalsHeader p,
