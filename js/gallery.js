@@ -800,7 +800,7 @@ Gallery.pandaPhotoCreditSingle = function(item) {
     caption_link.href = "#panda/" + id + "/photo/" + index;
   }
   var caption = document.createElement('h5');
-  caption.className = "caption";
+  caption.className = "caption pandaName";
   // TODO: handling of names of group pandas
   if (id.indexOf("media.") == 0) {
     var entity = Pandas.searchPandaId(id)[0];
@@ -1331,7 +1331,7 @@ Gallery.zooPhotoCreditSingle = function(item) {
   var caption_link = document.createElement('a');
   caption_link.href = "#zoo/" + id + "/photo/" + index;
   var caption = document.createElement('h5');
-  caption.className = "caption";
+  caption.className = "caption zooName";
   caption.innerText = info.name;
   caption_link.appendChild(caption);
   var container = document.createElement('div');
