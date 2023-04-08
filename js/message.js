@@ -58,14 +58,14 @@ Message.autumn = function(language) {
     var msg = document.createTextNode(field);
     p.appendChild(msg);
   }
+  link.appendChild(p);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "tagSummary";
   message.appendChild(shrinker);
-  link.appendChild(message);
-  return link;
+  return message;
 }
 Message.baby_photos = function(language) {
   var link = document.createElement('a')
@@ -76,14 +76,14 @@ Message.baby_photos = function(language) {
     var msg = document.createTextNode(field);
     p.appendChild(msg);
   }
+  link.appendChild(p);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "tagSummary";
   message.appendChild(shrinker);
-  link.appendChild(message);
-  return link;
+  return message;
 }
 Message.birthday = function(name, animal_id, years, language) {
   var link = document.createElement('a');
@@ -710,14 +710,14 @@ Message.shovel_pandas = function(language) {
     var msg = document.createTextNode(field);
     p.appendChild(msg);
   }
+  link.appendChild(p);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "tagSummary";
   message.appendChild(shrinker);
-  link.appendChild(message);
-  return link;
+  return message;
 }
 Message.tag_combo = function(num, emojis, language) {
   var p = document.createElement('p');
@@ -815,12 +815,12 @@ Message.trick_or_treat = function(language) {
     var msg = document.createTextNode(field);
     p.appendChild(msg);
   }
+  link.appendChild(p);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "halloweenSummary";
   message.appendChild(shrinker);
-  link.appendChild(message);
-  return link;
+  return message;
 }
