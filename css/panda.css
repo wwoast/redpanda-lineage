@@ -71,7 +71,7 @@ div.languageMenu.profile {
 
 @keyframes authorTitleHover {
     from { background-color: whitesmoke; }
-    to { background-color: gainsboro; }
+    to { background-color: lightgray; }
 }
 
 @keyframes pandaTitleHover {
@@ -1076,7 +1076,7 @@ div.photoSample a:hover > h5.caption.zooName {
 div.photoSample a:hover > h5.caption.updateAuthor {
     animation: authorTitleHover;
     animation-duration: 0.3s;
-    background-color: gainsboro;
+    background-color: lightgray;
 }
 
 h5.caption {
