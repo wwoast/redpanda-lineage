@@ -1066,6 +1066,7 @@ div.photoSample a:hover > h5.caption.groupMediaName,
 div.photoSample a:hover > h5.caption.memorialMessage,
 div.photoSample a:hover > h5.caption.pandaName,
 div.photoSample a:hover > h5.caption.updateName,
+div.photoSample a:hover > h5.caption.updateTagName,
 div.photoSample a:hover > h5.caption.zooName {
     animation: pandaTitleHover;
     animation-duration: 0.3s;
@@ -1336,7 +1337,7 @@ div.photoSample h5.caption.updateAuthor {
 
 div.photoSample h5.caption.groupMediaAuthor,
 div.photoSample h5.caption.groupMediaName,
-div.photoSample h5.caption.updateName, 
+div.photoSample h5.caption.updateName,
 div.photoSample h5.caption.updateAuthor {
     width: 100%;
     overflow-x: hidden;

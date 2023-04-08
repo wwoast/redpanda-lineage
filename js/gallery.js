@@ -931,7 +931,7 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
     caption_link.href = "#panda/" + animal._id + "/photo/" + result["photo.index"];
   }
   var caption = document.createElement('h5');
-  caption.className = "caption updateName";
+  caption.className = "caption updateTagName";
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
