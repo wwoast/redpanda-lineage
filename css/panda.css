@@ -75,11 +75,11 @@ div.languageMenu.profile {
 }
 
 @keyframes localZoosHover {
-    0% { background: radial-gradient(gold 0%, #693638 150%); }
-    25% { background: radial-gradient(gold 0%, #693638 162.5%); }
-    50% { background: radial-gradient(gold 0%, #693638 175%); }
-    75% { background: radial-gradient(gold 0%, #693638 187.5%); }
-    100% { background: radial-gradient(gold 0%, #693638 200%); }
+    0% { background: radial-gradient(gold 0%, #693638 130%); }
+    25% { background: radial-gradient(gold 0%, #693638 142.5%); }
+    50% { background: radial-gradient(gold 0%, #693638 155%); }
+    75% { background: radial-gradient(gold 0%, #693638 167.5%); }
+    100% { background: radial-gradient(gold 0%, #693638 180%); }
 }
 
 @keyframes pandaTitleHover {
@@ -1094,7 +1094,7 @@ div.photoSample a:hover > h5.caption.updateAuthor {
 /* Animate the Local Zoos button too */
 div.frontPageSummary a:hover > p.summaryEmphasis {
     animation: localZoosHover 0.3s linear;
-    background: radial-gradient(gold 0%, #693638 200%);   /* Panda Gold */
+    background: radial-gradient(gold 0%, #693638 180%);   /* Panda Gold */
 }
 
 h5.caption {
@@ -1272,7 +1272,7 @@ div.birthdaySummary p.summaryEmphasis {
 }
 
 div.frontPageSummary p.summaryEmphasis {
-    background-image: radial-gradient(gold 0%, #693638 150%);   /* Panda Gold */
+    background-image: radial-gradient(gold 0%, #693638 130%);   /* Panda Gold */
     font-size: 19.5pt;
     margin-top: 0.5ex;
     margin-left: 10px;
