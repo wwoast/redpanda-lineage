@@ -931,7 +931,7 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
     caption_link.href = "#panda/" + animal._id + "/photo/" + result["photo.index"];
   }
   var caption = document.createElement('h5');
-  caption.className = "caption";
+  caption.className = "caption updateName";
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
@@ -1005,7 +1005,8 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=7) {
     }
     caption.innerText = updateName;
     var author = document.createElement('h5');
-    author.className = "caption updateAuthor";
+    // Not separate links like the front page header credits
+    author.className = "caption updateAuthorCredit";
     var author_span = document.createElement('span');
     if ("credit_icon" in item) {
       author_span.innerText = item.credit_icon + "\xa0" + item.credit;
