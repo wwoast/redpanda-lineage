@@ -594,12 +594,6 @@ div.pandaTitle:hover {
     background-color: #9AED32;   /* Brighter Yellowgreen */
 }
 
-div.updateAuthor:hover {
-    animation: authorTitleHover;
-    animation-duration: 0.3s;
-    background-color: gainsboro;
-}
-
 div.profileLocation {
     min-width: 300px;
     min-height: 32pt;
@@ -1071,6 +1065,13 @@ div.photoSample a:hover > h5.caption.zooName {
     animation: pandaTitleHover;
     animation-duration: 0.3s;
     background-color: #9AED32;   /* Brighter Yellowgreen */
+}
+
+/* For when the author is a separate link, give it a separate hover style */
+div.photoSample a:hover > h5.caption.updateAuthor {
+    animation: authorTitleHover;
+    animation-duration: 0.3s;
+    background-color: gainsboro;
 }
 
 h5.caption {
