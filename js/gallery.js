@@ -312,9 +312,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     }
     var emoji_text = document.createTextNode(emojis);
     relation_text.appendChild(emoji_text);
-    animal_relation.appendChild(relation_text);
-    animal_relation.addEventListener("click", Show.button.top.action);
-    container.appendChild(animal_relation);  
+    animal_name.appendChild(relation_text);
   }
   return container;
 }
