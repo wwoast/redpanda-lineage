@@ -76,10 +76,11 @@ div.languageMenu.profile {
 
 @keyframes localZoosHover {
     0% { background: radial-gradient(gold 0%, #693638 130%); }
-    25% { background: radial-gradient(gold 0%, #693638 142.5%); }
-    50% { background: radial-gradient(gold 0%, #693638 155%); }
-    75% { background: radial-gradient(gold 0%, #693638 167.5%); }
-    100% { background: radial-gradient(gold 0%, #693638 180%); }
+    20% { background: radial-gradient(gold 0%, #693638 142.5%); }
+    40% { background: radial-gradient(gold 0%, #693638 155%); }
+    60% { background: radial-gradient(gold 0%, #693638 167.5%); }
+    80% { background: radial-gradient(gold 0%, #693638 180%); }
+    100% { background: radial-gradient(gold 0%, #693638 192.5%); }
 }
 
 @keyframes pandaTitleHover {
