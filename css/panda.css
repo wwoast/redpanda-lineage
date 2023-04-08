@@ -74,6 +74,11 @@ div.languageMenu.profile {
     to { background-color: lightgray; }
 }
 
+@keyframes localZoosHover {
+    from { background-color: radial-gradient(gold 0%, #693638 150%); }
+    to { background-color: radial-gradient(gold 0%, #693638 250%); }
+}
+
 @keyframes pandaTitleHover {
     from { background-color: yellowgreen; }
     to { background-color: #9AED32; }
@@ -1081,6 +1086,13 @@ div.photoSample a:hover > h5.caption.updateAuthor {
     animation: authorTitleHover;
     animation-duration: 0.3s;
     background-color: lightgray;
+}
+
+/* Animate the Local Zoos button too */
+div.frontPageSummary a:hover > p.summaryEmphasis {
+    animation: localZoosHover;
+    animation-duration: 0.6s;
+    background-color: radial-gradient(gold 0%, #693638 250%);   /* Panda Gold */
 }
 
 h5.caption {
