@@ -1342,7 +1342,8 @@ div.photoSample h5.caption.groupMediaAuthor,
 div.photoSample h5.caption.groupMediaName,
 div.photoSample h5.caption.updateName,
 div.photoSample h5.caption.updateAuthor,
-div.photoSapmle h5.caption.updateAuthorCredit {
+div.photoSample h5.caption.updateAuthorCredit,
+div.photoSample h5.caption.updateTagName {
     width: 100%;
     overflow-x: hidden;
 }
