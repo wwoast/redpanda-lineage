@@ -103,24 +103,25 @@ photo.18.author: tamazoowalking
 photo.18.commitdate: 2023/3/6
 photo.18.link: https://www.instagram.com/tamazoowalking/
 photo.18.tags: baby, sample, whiskers
-photo.19: ig://CoW7ovRPgOH/m
-photo.19.author: ck.chie
-photo.19.commitdate: 2023/2/24
-photo.19.link: https://www.instagram.com/ck.chie/
-photo.19.tags: baby, paws, sample, smile, standing, tail
-photo.20: ig://CoisPD0BGlK/m
-photo.20.author: alto0908
+photo.19: ig://CoQkXROB75T/m
+photo.19.author: alto0908
+photo.19.commitdate: 2023/4/9
+photo.19.link: https://www.instagram.com/alto0908/
+photo.19.tags: baby, paws, portrait, sample, whiskers
+photo.20: ig://CoW7ovRPgOH/m
+photo.20.author: ck.chie
 photo.20.commitdate: 2023/2/24
-photo.20.link: https://www.instagram.com/alto0908/
-photo.20.tags: baby, portrait, sample, snow
-photo.21: ig://ColoUkov003/m
-photo.21.author: ssc6105
+photo.20.link: https://www.instagram.com/ck.chie/
+photo.20.tags: baby, paws, sample, smile, standing, tail
+photo.21: ig://CoisPD0BGlK/m
+photo.21.author: alto0908
 photo.21.commitdate: 2023/2/24
-photo.21.link: https://www.instagram.com/ssc6105/
-photo.21.tags: baby, bamboo, paws, snow
-photo.22: https://www.instagram.com/p/CoQkXROB75T/media/?size=m
-photo.22.author: alto0908
-photo.22.link: https://www.instagram.com/alto0908/
-photo.22.tags: baby, paws, portrait, sample, whiskers
+photo.21.link: https://www.instagram.com/alto0908/
+photo.21.tags: baby, portrait, sample, snow
+photo.22: ig://ColoUkov003/m
+photo.22.author: ssc6105
+photo.22.commitdate: 2023/2/24
+photo.22.link: https://www.instagram.com/ssc6105/
+photo.22.tags: baby, bamboo, paws, snow
 species: 2
 zoo: 17

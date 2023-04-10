@@ -470,19 +470,21 @@ photo.91.author: gloryeui
 photo.91.commitdate: 2023/3/9
 photo.91.link: https://www.instagram.com/gloryeui/
 photo.91.tags: paws, portrait, sample, whiskers
-photo.92: ig://Com9WCfPcBa/m
-photo.92.author: minatomirai215
-photo.92.commitdate: 2023/2/24
-photo.92.link: https://www.instagram.com/minatomirai215/
-photo.92.tags: portrait, sample, whiskers
-photo.93: https://www.instagram.com/p/Coeru6kvrq8/media/?size=m
-photo.93.author: gloryeui
-photo.93.link: https://www.instagram.com/gloryeui/
-photo.93.tags: close-up, peek, portrait, whiskers
-photo.94: https://www.instagram.com/p/CoevkO5PPx-/media/?size=m
-photo.94.author: hamiiiii831_
-photo.94.link: https://www.instagram.com/hamiiiii831_/
-photo.94.tags: paws, sample, standing, whiskers
+photo.92: ig://Coeru6kvrq8/m
+photo.92.author: gloryeui
+photo.92.commitdate: 2023/4/9
+photo.92.link: https://www.instagram.com/gloryeui/
+photo.92.tags: close-up, peek, portrait, whiskers
+photo.93: ig://CoevkO5PPx-/m
+photo.93.author: hamiiiii831_
+photo.93.commitdate: 2023/4/9
+photo.93.link: https://www.instagram.com/hamiiiii831_/
+photo.93.tags: paws, sample, standing, whiskers
+photo.94: ig://Com9WCfPcBa/m
+photo.94.author: minatomirai215
+photo.94.commitdate: 2023/2/24
+photo.94.link: https://www.instagram.com/minatomirai215/
+photo.94.tags: portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 190
