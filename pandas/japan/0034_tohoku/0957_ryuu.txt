@@ -13,6 +13,8 @@ jp.nicknames: 歌舞伎
 jp.othernames: none
 language.order: jp, en
 litter: 958
+location.1: 9, 2019/7/2
+location.2: 34, 2023/4/10
 photo.1: ig://BlrQLTXlJqN/m
 photo.1.author: saitamazoo
 photo.1.commitdate: 2019/10/21
@@ -584,4 +586,4 @@ photo.114.link: https://www.instagram.com/kaoru_a358/
 photo.114.tags: whiskers
 species: 2
 studbook.id: unknown
-zoo: 9
+zoo: 34
