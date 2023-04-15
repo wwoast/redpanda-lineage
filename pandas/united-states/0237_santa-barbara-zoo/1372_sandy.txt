@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1373
+location.1: 117, 2022/7/7
+location.2: 237, 2023/4/12
 photo.1: ig://Chxz6XVg9ky/m
 photo.1.author: trevorzoomillbrook
 photo.1.commitdate: 2022/9/11
@@ -34,4 +36,4 @@ photo.4.commitdate: 2023/2/24
 photo.4.link: https://www.instagram.com/trevorzoomillbrook/
 photo.4.tags: close-up, portrait, sample, whiskers
 species: 1
-zoo: 117
+zoo: 237
