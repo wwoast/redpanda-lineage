@@ -16,12 +16,14 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1407
-photo.1: https://www.instagram.com/p/ChpTib2gG9S/media/?size=m
+photo.1: ig://ChpTib2gG9S/m
 photo.1.author: kansascityzoo
+photo.1.commitdate: 2023/4/14
 photo.1.link: https://www.instagram.com/kansascityzoo/
 photo.1.tags: baby, mofumofu, paws, portrait
-photo.2: https://www.instagram.com/p/Cmv7UmYuHDP/media/?size=m
+photo.2: ig://Cmv7UmYuHDP/m
 photo.2.author: worldthathesees
+photo.2.commitdate: 2023/4/14
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: baby, dish
 species: 1
