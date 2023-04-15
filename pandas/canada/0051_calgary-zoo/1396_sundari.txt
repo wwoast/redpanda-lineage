@@ -25,13 +25,15 @@ photo.2.author: westcoast_kathy
 photo.2.commitdate: 2022/12/8
 photo.2.link: https://www.instagram.com/westcoast_kathy/
 photo.2.tags: baby, mofumofu, smile, snow, tail
-photo.3: https://www.instagram.com/p/Cm6zBs6Kvvo/media/?size=m
+photo.3: ig://Cm6zBs6Kvvo/m
 photo.3.author: thecalgaryzoo
+photo.3.commitdate: 2023/4/14
 photo.3.link: https://www.instagram.com/thecalgaryzoo/
 photo.3.tags: baby, mofumofu, snow, tail
-photo.4: https://www.instagram.com/p/CooOCqPLl8a/media/?size=m
+photo.4: ig://CooOCqPLl8a/m
 photo.4.author: westcoast_kathy
+photo.4.commitdate: 2023/4/14
 photo.4.link: https://www.instagram.com/westcoast_kathy/
-photo.4.tags: close-up, mofumofu, sample, whiskers 
+photo.4.tags: close-up, mofumofu, sample, whiskers
 species: 2
 zoo: 51

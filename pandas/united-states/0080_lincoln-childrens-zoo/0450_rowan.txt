@@ -75,15 +75,16 @@ photo.12.author: rossifari
 photo.12.commitdate: 2021/6/23
 photo.12.link: https://www.instagram.com/rossifari/
 photo.12.tags: lunch time, portrait, tongue
-photo.13: ig://ConpLaQt8dQ/m
-photo.13.author: lincolnchildrenszoo
-photo.13.commitdate: 2023/4/3
-photo.13.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.13.tags: apple time, paws, portrait, sample, whiskers
-photo.14: https://www.instagram.com/p/CYBss5lLFsC/media/?size=m
-photo.14.author: worldthathesees
-photo.14.link: https://www.instagram.com/worldthathesees/
-photo.14.tags: paws, tree
+photo.13: ig://CYBss5lLFsC/m
+photo.13.author: worldthathesees
+photo.13.commitdate: 2023/4/14
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: paws, tree
+photo.14: ig://ConpLaQt8dQ/m
+photo.14.author: lincolnchildrenszoo
+photo.14.commitdate: 2023/4/3
+photo.14.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.14.tags: apple time, paws, portrait, sample, whiskers
 species: 2
 uncertainty: location.3 exact date (may be a month earlier)
 zoo: 80
