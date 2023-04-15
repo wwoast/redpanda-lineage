@@ -88,6 +88,11 @@ div.languageMenu.profile {
     to { background-color: #9AED32; }
 }
 
+@keyframes pandaLoveTitleHover {
+    from { background-color: #ECD1D7; }
+    to { background-color: #FFD1D7; }
+}
+
 @keyframes sectionButtonHover {
     from { background-color: yellowgreen; }
     to { background-color: whitesmoke; }
@@ -1089,6 +1094,12 @@ div.photoSample a:hover > h5.caption.zooName {
     background-color: #9AED32;   /* Brighter Yellowgreen */
 }
 
+div.photoSample a:hover > h5.caption.updateName.newContributor {
+    animation: pandaLoveTitleHover;
+    animation-duration: 0.3s;
+    background-color: #FFD1D7;
+}
+
 /* For when the author is a separate link, give it a separate hover style */
 div.photoSample a:hover > h5.caption.groupMediaAuthor,
 div.photoSample a:hover > h5.caption.updateAuthor {
@@ -1100,7 +1111,7 @@ div.photoSample a:hover > h5.caption.updateAuthor {
 /* Animate the Local Zoos button too */
 div.frontPageSummary a:hover > p.summaryEmphasis {
     animation: localZoosHover 0.3s linear;
-    background: radial-gradient(gold 0%, #693638 180%);   /* Panda Gold */
+    background: radial-gradient(gold 0%, #693638 192.5%);   /* Panda Gold */
 }
 
 h5.caption {
