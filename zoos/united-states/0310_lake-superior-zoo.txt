@@ -1,0 +1,12 @@
+[zoo]
+_id: 310
+commitdate: 2023/4/14
+en.address: 7210 Fremont St, Duluth, MN 55807
+en.location: Duluth, Minnesota, USA
+en.name: Lake Superior Zoo
+flag: USA
+language.order: en
+latitude: 46.725798
+longitude: -92.190494
+map: https://goo.gl/maps/4ZtDkGmBokoPHsob6
+website: https://lszooduluth.org/

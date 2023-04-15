@@ -16,6 +16,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1407
+location.1: 115, 2022/5/23
+location.2: 310, 2023/4/14
 photo.1: ig://ChpTib2gG9S/m
 photo.1.author: kansascityzoo
 photo.1.commitdate: 2023/4/14
@@ -27,4 +29,5 @@ photo.2.commitdate: 2023/4/14
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: baby, dish
 species: 1
-zoo: 115
+uncertainty: location.2 exact move date
+zoo: 310
