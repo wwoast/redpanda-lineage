@@ -1,8 +1,10 @@
 [media]
 _id: media.37.riirii-yuuyuu
+commitdate: 2023/4/14
 panda.tags: 227, 236
-photo.1: https://www.instagram.com/p/BzXvreBhSAb/media/?size=l
+photo.1: ig://BzXvreBhSAb/l
 photo.1.author: komabazoophoto
+photo.1.commitdate: 2023/4/14
 photo.1.link: https://www.instagram.com/komabazoophoto/
 photo.1.tags: bridge, mother's day, peek, sleeping, tail
 photo.1.tags.227.location: 175, 195
