@@ -588,8 +588,9 @@ photo.115.author: jas_forever_love
 photo.115.commitdate: 2023/2/26
 photo.115.link: https://www.instagram.com/jas_forever_love/
 photo.115.tags: peek, sample, whiskers
-photo.116: https://www.instagram.com/p/CqVGr6IP514/media/?size=m
+photo.116: ig://CqVGr6IP514/m
 photo.116.author: jas_forever_love
+photo.116.commitdate: 2023/4/21
 photo.116.link: https://www.instagram.com/jas_forever_love/
 photo.116.tags: portrait, sample, whiskers
 species: 2

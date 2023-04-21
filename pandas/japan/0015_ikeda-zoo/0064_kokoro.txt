@@ -293,8 +293,9 @@ photo.56.author: makimaru18
 photo.56.commitdate: 2023/4/8
 photo.56.link: https://www.instagram.com/makimaru18/
 photo.56.tags: bamboo, paws, portrait, sample
-photo.57: https://www.instagram.com/p/CqHUHeePOSY/media/?size=m
+photo.57: ig://CqHUHeePOSY/m
 photo.57.author: makimaru18
+photo.57.commitdate: 2023/4/21
 photo.57.link: https://www.instagram.com/makimaru18/
 photo.57.tags: bridge, paws, peek, portrait, sample, smile, tongue, whiskers
 species: 2

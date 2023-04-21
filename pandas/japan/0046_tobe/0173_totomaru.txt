@@ -578,8 +578,9 @@ photo.114.author: itsuak
 photo.114.commitdate: 2023/2/24
 photo.114.link: https://www.instagram.com/itsuak/
 photo.114.tags: portrait, sample
-photo.115: https://www.instagram.com/p/CqAsvojPkXs/media/?size=m
+photo.115: ig://CqAsvojPkXs/m
 photo.115.author: itsuak
+photo.115.commitdate: 2023/4/21
 photo.115.link: https://www.instagram.com/itsuak/
 photo.115.tags: bamboo, paws, portrait, sample, standing, whiskers
 species: 2

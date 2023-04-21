@@ -761,8 +761,9 @@ photo.150.author: fetorus_mami
 photo.150.commitdate: 2023/2/25
 photo.150.link: https://www.instagram.com/fetorus_mami/
 photo.150.tags: bamboo, sample, techitechi
-photo.151: https://www.instagram.com/p/CqNzsNVvbLG/media/?size=m
+photo.151: ig://CqNzsNVvbLG/m
 photo.151.author: fetorus_mami
+photo.151.commitdate: 2023/4/21
 photo.151.link: https://www.instagram.com/fetorus_mami/
 photo.151.tags: paws, peek, sample, whiskers
 species: 2

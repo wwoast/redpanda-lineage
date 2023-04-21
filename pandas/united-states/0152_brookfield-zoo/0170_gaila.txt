@@ -160,8 +160,9 @@ photo.29.author: wumpwoast
 photo.29.commitdate: 2022/8/5
 photo.29.link: https://www.instagram.com/wumpwoast/
 photo.29.tags: close-up, door, paws, sample
-photo.30: https://www.instagram.com/p/CqTpZ5UvgKk/media/?size=m
+photo.30: ig://CqTpZ5UvgKk/m
 photo.30.author: wumpwoast
+photo.30.commitdate: 2023/4/21
 photo.30.link: https://www.instagram.com/wumpwoast/
 photo.30.tags: paws, peek, portrait, sample
 species: 1

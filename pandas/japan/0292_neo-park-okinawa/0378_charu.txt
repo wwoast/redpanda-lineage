@@ -170,8 +170,9 @@ photo.31.author: nakacchi_desu
 photo.31.commitdate: 2023/1/26
 photo.31.link: https://www.instagram.com/nakacchi_desu/
 photo.31.tags: sample, smile, tongue
-photo.32: https://www.instagram.com/p/CqQDh4LP-S7/media/?size=m
+photo.32: ig://CqQDh4LP-S7/m
 photo.32.author: ck.chie
+photo.32.commitdate: 2023/4/21
 photo.32.link: https://www.instagram.com/ck.chie/
 photo.32.tags: laying down, paws, sample, tongue
 species: 2

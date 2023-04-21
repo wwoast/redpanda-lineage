@@ -628,8 +628,9 @@ photo.123.author: fetorus_mami
 photo.123.commitdate: 2023/3/6
 photo.123.link: https://www.instagram.com/fetorus_mami/
 photo.123.tags: apple time, paws, sample, smile, tree, whiskers
-photo.124: https://www.instagram.com/p/CqJSwSmhO6o/media/?size=m
+photo.124: ig://CqJSwSmhO6o/m
 photo.124.author: hamamatsu.chiita
+photo.124.commitdate: 2023/4/21
 photo.124.link: https://www.instagram.com/hamamatsu.chiita/
 photo.124.tags: close-up, portrait, sample, whiskers
 species: 2

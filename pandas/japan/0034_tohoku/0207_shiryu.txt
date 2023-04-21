@@ -151,8 +151,9 @@ photo.28.author: yuredpanda
 photo.28.commitdate: 2023/2/25
 photo.28.link: https://www.instagram.com/yuredpanda/
 photo.28.tags: close-up, portrait, sample
-photo.29: https://www.instagram.com/p/CrLJe2QvwQ6/media/?size=m
+photo.29: ig://CrLJe2QvwQ6/m
 photo.29.author: daniele.tokyo
+photo.29.commitdate: 2023/4/21
 photo.29.link: https://www.instagram.com/daniele.tokyo/
 photo.29.tags: bamboo, sample, whiskers
 species: 2

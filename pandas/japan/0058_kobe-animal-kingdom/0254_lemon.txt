@@ -629,8 +629,9 @@ photo.123.author: jas_forever_love
 photo.123.commitdate: 2023/3/9
 photo.123.link: https://www.instagram.com/jas_forever_love/
 photo.123.tags: sample, smile, whiskers
-photo.124: https://www.instagram.com/p/CqNymEKPzIc/media/?size=m
+photo.124: ig://CqNymEKPzIc/m
 photo.124.author: fetorus_mami
+photo.124.commitdate: 2023/4/21
 photo.124.link: https://www.instagram.com/fetorus_mami/
 photo.124.tags: paws, sample, whiskers
 species: 2
