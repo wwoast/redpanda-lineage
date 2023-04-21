@@ -1,4 +1,4 @@
-[panda]
+h[panda]
 _id: 336
 birthday: 2000/7/17
 birthplace: 40
@@ -655,6 +655,10 @@ photo.128.author: edogawa.kankyozaidan
 photo.128.commitdate: 2023/1/14
 photo.128.link: https://www.instagram.com/edogawa.kankyozaidan/
 photo.128.tags: bamboo, laying down, paws, sleeping
+photo.129: https://www.instagram.com/p/CqSX-YCvuvT/media/?size=m
+photo.129.author: ssc6105
+photo.129.link: https://www.instagram.com/ssc6105/
+photo.129.tags: door, portrait, sample, tail
 species: 2
 studbook.id: 00102
 zoo: 73
