@@ -584,15 +584,16 @@ photo.114.author: kaoru_a358
 photo.114.commitdate: 2023/1/6
 photo.114.link: https://www.instagram.com/kaoru_a358/
 photo.114.tags: whiskers
-photo.115: ig://CrKcIn2PYht/m
-photo.115.author: tohokusafaripark
-photo.115.commitdate: 2023/4/21
-photo.115.link: https://www.instagram.com/tohokusafaripark/
-photo.115.tags: laying down, sample, tail, tongue
-photo.116: https://www.instagram.com/p/CrBGz7Fv7cw/media/?size=m
-photo.116.author: fetorus_mami
-photo.116.link: https://www.instagram.com/fetorus_mami/
-photo.116.tags: bamboo, portrait, sample, smile
+photo.115: ig://CrBGz7Fv7cw/m
+photo.115.author: fetorus_mami
+photo.115.commitdate: 2023/4/22
+photo.115.link: https://www.instagram.com/fetorus_mami/
+photo.115.tags: bamboo, portrait, sample, smile
+photo.116: ig://CrKcIn2PYht/m
+photo.116.author: tohokusafaripark
+photo.116.commitdate: 2023/4/21
+photo.116.link: https://www.instagram.com/tohokusafaripark/
+photo.116.tags: laying down, sample, tail, tongue
 species: 2
 studbook.id: unknown
 zoo: 34

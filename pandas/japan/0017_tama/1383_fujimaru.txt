@@ -123,13 +123,15 @@ photo.22.author: ssc6105
 photo.22.commitdate: 2023/2/24
 photo.22.link: https://www.instagram.com/ssc6105/
 photo.22.tags: baby, bamboo, paws, snow
-photo.23: https://www.instagram.com/p/CrIQW5IPw1u/media/?size=m
-photo.23.author: tamazoowalking
-photo.23.link: https://www.instagram.com/tamazoowalking/
-photo.23.tags: bridge, laying down, paws, peek, tail
-photo.24: https://www.instagram.com/p/CrAqODYPhyK/media/?size=m
-photo.24.author: osopanda551
-photo.24.link: https://www.instagram.com/osopanda551/
-photo.24.tags: climb, paws, portrait, sample
+photo.23: ig://CrAqODYPhyK/m
+photo.23.author: osopanda551
+photo.23.commitdate: 2023/4/22
+photo.23.link: https://www.instagram.com/osopanda551/
+photo.23.tags: climb, paws, portrait, sample
+photo.24: ig://CrIQW5IPw1u/m
+photo.24.author: tamazoowalking
+photo.24.commitdate: 2023/4/22
+photo.24.link: https://www.instagram.com/tamazoowalking/
+photo.24.tags: bridge, laying down, paws, peek, tail
 species: 2
 zoo: 17

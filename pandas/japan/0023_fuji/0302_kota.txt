@@ -340,14 +340,16 @@ photo.65.author: nakacchi_desu
 photo.65.commitdate: 2023/1/12
 photo.65.link: https://www.instagram.com/nakacchi_desu/
 photo.65.tags: paws, sample, standing, tail, tree
-photo.66: https://www.instagram.com/p/CqSq-WRPX-B/media/?size=m
+photo.66: ig://CqOtHjvB8dP/m
 photo.66.author: ayusuke56
+photo.66.commitdate: 2023/4/22
 photo.66.link: https://www.instagram.com/ayusuke56/
-photo.66.tags: bamboo, portrait, sample
-photo.67: https://www.instagram.com/p/CqOtHjvB8dP/media/?size=m
+photo.66.tags: bamboo, paws, portrait, sample
+photo.67: ig://CqSq-WRPX-B/m
 photo.67.author: ayusuke56
+photo.67.commitdate: 2023/4/22
 photo.67.link: https://www.instagram.com/ayusuke56/
-photo.67.tags: bamboo, paws, portrait, sample
+photo.67.tags: bamboo, portrait, sample
 species: 2
 studbook.id: 12119
 zoo: 23

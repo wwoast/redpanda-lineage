@@ -143,8 +143,9 @@ photo.26.author: miis_98
 photo.26.commitdate: 2022/9/7
 photo.26.link: https://www.instagram.com/miis_98/
 photo.26.tags: portrait, sample, tongue, whiskers
-photo.27: https://www.instagram.com/p/Cq_nSo7hZ5A/media/?size=m
+photo.27: ig://Cq_nSo7hZ5A/m
 photo.27.author: leonard_redmof
+photo.27.commitdate: 2023/4/22
 photo.27.link: https://www.instagram.com/leonard_redmof/
 photo.27.tags: bamboo, paws, portrait, sample, smile
 species: 1

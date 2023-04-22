@@ -724,8 +724,9 @@ photo.143.author: na.mo.pan
 photo.143.commitdate: 2023/1/26
 photo.143.link: https://www.instagram.com/na.mo.pan/
 photo.143.tags: apple time, whiskers
-photo.144: https://www.instagram.com/p/Cq5Y9Ukrumg/media/?size=m
+photo.144: ig://Cq5Y9Ukrumg/m
 photo.144.author: ifumoto88
+photo.144.commitdate: 2023/4/22
 photo.144.link: https://www.instagram.com/ifumoto88/
 photo.144.tags: close-up, sample, whiskers
 species: 2

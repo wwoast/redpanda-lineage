@@ -441,15 +441,16 @@ photo.86.author: mari_neko3
 photo.86.commitdate: 2023/4/8
 photo.86.link: https://www.instagram.com/mari_neko3/
 photo.86.tags: bamboo, close-up, mofumofu, portrait
-photo.87: ig://CqboAW1B3Ga/m
-photo.87.author: miis_98
-photo.87.commitdate: 2023/4/21
-photo.87.link: https://www.instagram.com/miis_98/
-photo.87.tags: apple time, bite, paws, sample, standing, whiskers
-photo.88: https://www.instagram.com/p/CqNgrPZPz5-/media/?size=m
-photo.88.author: leonard_redmof
-photo.88.link: https://www.instagram.com/leonard_redmof/
-photo.88.tags: paws, portrait, sample
+photo.87: ig://CqNgrPZPz5-/m
+photo.87.author: leonard_redmof
+photo.87.commitdate: 2023/4/22
+photo.87.link: https://www.instagram.com/leonard_redmof/
+photo.87.tags: paws, portrait, sample
+photo.88: ig://CqboAW1B3Ga/m
+photo.88.author: miis_98
+photo.88.commitdate: 2023/4/21
+photo.88.link: https://www.instagram.com/miis_98/
+photo.88.tags: apple time, bite, paws, sample, standing, whiskers
 species: 2
 studbook.id: 1694
 zoo: 7
