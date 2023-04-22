@@ -15,7 +15,6 @@ language.order: jp, en
 litter: 947
 location.1: 63, 2019/7/1
 location.2: 264, 2020/12/7
-phoot.66.tags: apple time, paws, sample, standing, tail, toys
 photo.1: ig://B3rVeA_h3wc/m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2019/10/17
@@ -345,5 +344,10 @@ photo.66: ig://CmKfXOrSQQG/m
 photo.66.author: alto0908
 photo.66.commitdate: 2023/3/11
 photo.66.link: https://www.instagram.com/alto0908/
+photo.66.tags: apple time, paws, sample, standing, tail, toys
+photo.67: https://www.instagram.com/p/Cq9IoV6hU9O/media/?size=m
+photo.67.author: miis_98
+photo.67.link: https://www.instagram.com/miis_98/
+photo.67.tags: apple time, flowers, paws, portrait, sample, smile, whiskers
 species: 2
 zoo: 264
