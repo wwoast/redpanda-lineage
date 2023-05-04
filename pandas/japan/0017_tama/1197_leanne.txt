@@ -758,13 +758,15 @@ photo.149.author: ifumoto88
 photo.149.commitdate: 2023/2/24
 photo.149.link: https://www.instagram.com/ifumoto88/
 photo.149.tags: climb, paws, portrait, sample, smile, snow, tail, tree, upside-down
-photo.150: https://www.instagram.com/p/CrSD4R1vkw3/media/?size=m
-photo.150.author: tamazoowalking
-photo.150.link: https://www.instagram.com/tamazoowalking/
-photo.150.tags: bamboo, mofumofu, paws, sample, whiskers
-photo.151: https://www.instagram.com/p/CrO9CFyhys_/media/?size=m
-photo.151.author: alto0908
-photo.151.link: https://www.instagram.com/alto0908/
-photo.151.tags: peek, sample, tail, tree
+photo.150: ig://CrO9CFyhys_/m
+photo.150.author: alto0908
+photo.150.commitdate: 2023/5/4
+photo.150.link: https://www.instagram.com/alto0908/
+photo.150.tags: peek, sample, tail, tree
+photo.151: ig://CrSD4R1vkw3/m
+photo.151.author: tamazoowalking
+photo.151.commitdate: 2023/5/4
+photo.151.link: https://www.instagram.com/tamazoowalking/
+photo.151.tags: bamboo, mofumofu, paws, sample, whiskers
 species: 2
 zoo: 17

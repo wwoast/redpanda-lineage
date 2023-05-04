@@ -1148,8 +1148,9 @@ photo.228.author: daniele.tokyo
 photo.228.commitdate: 2023/4/8
 photo.228.link: https://www.instagram.com/daniele.tokyo/
 photo.228.tags: paws, sample, snow, tail, whiskers
-photo.229: https://www.instagram.com/p/CrVd78MPZAu/media/?size=m
+photo.229: ig://CrVd78MPZAu/m
 photo.229.author: hidehaya_biei
+photo.229.commitdate: 2023/5/4
 photo.229.link: https://www.instagram.com/hidehaya_biei/
 photo.229.tags: sample, white face
 species: 2
