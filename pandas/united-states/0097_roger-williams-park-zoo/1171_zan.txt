@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1172
+location.1: 67, 2020/5/25
+location.2: 97, 2023/4/1
 photo.1: ig://CGDgFV-hliK/m
 photo.1.author: woodlandparkzoo
 photo.1.commitdate: 2020/10/7
@@ -64,4 +66,5 @@ photo.10.commitdate: 2022/8/30
 photo.10.link: https://www.instagram.com/wumpwoast/
 photo.10.tags: portrait, smile, tongue, whiskers
 species: 2
-zoo: 67
+uncertainty: location.2 exact move date
+zoo: 97
