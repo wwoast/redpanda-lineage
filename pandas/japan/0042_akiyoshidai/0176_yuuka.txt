@@ -801,8 +801,9 @@ photo.158.author: apple_jasmine33
 photo.158.commitdate: 2023/2/25
 photo.158.link: https://www.instagram.com/apple_jasmine33/
 photo.158.tags: close-up, dish, mofumofu, sample, whiskers
-photo.159: https://www.instagram.com/p/Crudbfmv4b6/media/?size=m
+photo.159: ig://Crudbfmv4b6/m
 photo.159.author: re_ichimaru
+photo.159.commitdate: 2023/5/3
 photo.159.link: https://www.instagram.com/re_ichimaru/
 photo.159.tags: paws, portrait, sample, tail
 species: 2

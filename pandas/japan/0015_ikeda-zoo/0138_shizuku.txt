@@ -271,14 +271,16 @@ photo.52.author: itsuak
 photo.52.commitdate: 2023/2/26
 photo.52.link: https://www.instagram.com/itsuak/
 photo.52.tags: apple time, keeper, portrait, sample, window
-photo.53: https://www.instagram.com/p/CrrIGWIBHLb/media/?size=m
-photo.53.author: hamamatsu.chiita
-photo.53.link: https://www.instagram.com/hamamatsu.chiita/
-photo.53.tags: mofumofu, sample, wink
-photo.54: https://www.instagram.com/p/CrgJ1uaPemI/media/?size=m
-photo.54.author: makimaru18
-photo.54.link: https://www.instagram.com/makimaru18/
-photo.54.tags: paws, portrait, sample, whiskers
+photo.53: ig://CrgJ1uaPemI/m
+photo.53.author: makimaru18
+photo.53.commitdate: 2023/5/3
+photo.53.link: https://www.instagram.com/makimaru18/
+photo.53.tags: paws, portrait, sample, whiskers
+photo.54: ig://CrrIGWIBHLb/m
+photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2023/5/3
+photo.54.link: https://www.instagram.com/hamamatsu.chiita/
+photo.54.tags: mofumofu, sample, wink
 species: 2
 studbook.id: 12100
 zoo: 15

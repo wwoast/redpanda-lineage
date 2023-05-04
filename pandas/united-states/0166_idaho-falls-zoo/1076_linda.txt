@@ -87,8 +87,9 @@ photo.14.author: worldthathesees
 photo.14.commitdate: 2020/11/16
 photo.14.link: https://www.instagram.com/worldthathesees/
 photo.14.tags: white face
-photo.15: https://www.instagram.com/p/CryXgjorqS1/media/?size=m
+photo.15: ig://CryXgjorqS1/m
 photo.15.author: worldthathesees
+photo.15.commitdate: 2023/5/3
 photo.15.link: https://www.instagram.com/worldthathesees/
 photo.15.tags: portrait, sample, white face
 species: 1

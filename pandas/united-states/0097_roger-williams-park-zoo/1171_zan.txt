@@ -65,8 +65,9 @@ photo.10.author: wumpwoast
 photo.10.commitdate: 2022/8/30
 photo.10.link: https://www.instagram.com/wumpwoast/
 photo.10.tags: portrait, smile, tongue, whiskers
-photo.11: https://www.instagram.com/p/CrzCzQhvfOA/media/?size=m
+photo.11: ig://CrzCzQhvfOA/m
 photo.11.author: rwpzoo
+photo.11.commitdate: 2023/5/3
 photo.11.link: https://www.instagram.com/rwpzoo/
 photo.11.tags: laying down, mofumofu, sample, tail
 species: 2

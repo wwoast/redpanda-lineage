@@ -301,60 +301,61 @@ photo.57.author: wumpwoast
 photo.57.commitdate: 2021/12/22
 photo.57.link: https://www.instagram.com/wumpwoast/
 photo.57.tags: peek, portrait
-photo.58: ig://CZ_CnJqrztr/m
+photo.58: ig://CZvUSoZF1Gl/m
 photo.58.author: wumpwoast
-photo.58.commitdate: 2022/3/5
+photo.58.commitdate: 2023/5/3
 photo.58.link: https://www.instagram.com/wumpwoast/
-photo.58.tags: mofumofu, portrait, whiskers
-photo.59: ig://Cas2bCrPfHB/m
+photo.58.tags: peek, portrait, white face
+photo.59: ig://CZ_CnJqrztr/m
 photo.59.author: wumpwoast
-photo.59.commitdate: 2022/3/10
+photo.59.commitdate: 2022/3/5
 photo.59.link: https://www.instagram.com/wumpwoast/
-photo.59.tags: close-up, mofumofu, portrait, whiskers, white face
-photo.60: ig://Cc3oWIxv3H_/m
+photo.59.tags: mofumofu, portrait, whiskers
+photo.60: ig://Cas2bCrPfHB/m
 photo.60.author: wumpwoast
-photo.60.commitdate: 2022/6/6
+photo.60.commitdate: 2022/3/10
 photo.60.link: https://www.instagram.com/wumpwoast/
-photo.60.tags: laying down, paws, portrait, whiskers, white face
-photo.61: ig://CdAHuBGL8Eu/m
+photo.60.tags: close-up, mofumofu, portrait, whiskers, white face
+photo.61: ig://Cc3oWIxv3H_/m
 photo.61.author: wumpwoast
-photo.61.commitdate: 2022/6/7
+photo.61.commitdate: 2022/6/6
 photo.61.link: https://www.instagram.com/wumpwoast/
-photo.61.tags: bamboo, paws, portrait, sample
-photo.62: ig://CeDcDzgLaJW/m
+photo.61.tags: laying down, paws, portrait, whiskers, white face
+photo.62: ig://CdAHuBGL8Eu/m
 photo.62.author: wumpwoast
-photo.62.commitdate: 2022/6/29
+photo.62.commitdate: 2022/6/7
 photo.62.link: https://www.instagram.com/wumpwoast/
-photo.62.tags: peek, portrait
-photo.63: ig://CfPcPfGsaDT/m
-photo.63.author: hhpzoo
-photo.63.commitdate: 2022/7/9
-photo.63.link: https://www.instagram.com/hhpzoo/
-photo.63.tags: birthday, paws, portrait, sample, whiskers
-photo.64: ig://CfP-HA0JaoR/m
-photo.64.author: wumpwoast
+photo.62.tags: bamboo, paws, portrait, sample
+photo.63: ig://CeDcDzgLaJW/m
+photo.63.author: wumpwoast
+photo.63.commitdate: 2022/6/29
+photo.63.link: https://www.instagram.com/wumpwoast/
+photo.63.tags: peek, portrait
+photo.64: ig://CfPcPfGsaDT/m
+photo.64.author: hhpzoo
 photo.64.commitdate: 2022/7/9
-photo.64.link: https://www.instagram.com/wumpwoast/
-photo.64.tags: bamboo, portrait, whiskers
-photo.65: ig://Cgcipe9OT0V/m
+photo.64.link: https://www.instagram.com/hhpzoo/
+photo.64.tags: birthday, paws, portrait, sample, whiskers
+photo.65: ig://CfP-HA0JaoR/m
 photo.65.author: wumpwoast
-photo.65.commitdate: 2022/8/5
+photo.65.commitdate: 2022/7/9
 photo.65.link: https://www.instagram.com/wumpwoast/
-photo.65.tags: bamboo, bite, laying down, portrait, sample, white face
-photo.66: ig://Chz8tKEpX57/m
+photo.65.tags: bamboo, portrait, whiskers
+photo.66: ig://Cgcipe9OT0V/m
 photo.66.author: wumpwoast
-photo.66.commitdate: 2022/8/28
+photo.66.commitdate: 2022/8/5
 photo.66.link: https://www.instagram.com/wumpwoast/
-photo.66.tags: laying down, portrait, sample, tongue, tree
-photo.67: ig://CiJyCZeP7g-/m
+photo.66.tags: bamboo, bite, laying down, portrait, sample, white face
+photo.67: ig://Chz8tKEpX57/m
 photo.67.author: wumpwoast
-photo.67.commitdate: 2022/9/10
+photo.67.commitdate: 2022/8/28
 photo.67.link: https://www.instagram.com/wumpwoast/
-photo.67.tags: portrait, toys
-photo.68: https://www.instagram.com/p/CZvUSoZF1Gl/media/?size=m
+photo.67.tags: laying down, portrait, sample, tongue, tree
+photo.68: ig://CiJyCZeP7g-/m
 photo.68.author: wumpwoast
+photo.68.commitdate: 2022/9/10
 photo.68.link: https://www.instagram.com/wumpwoast/
-photo.68.tags: peek, portrait, white face
+photo.68.tags: portrait, toys
 species: 1
 studbook.id: 1821
 zoo: 47

@@ -83,8 +83,9 @@ photo.14.author: ck.chie
 photo.14.commitdate: 2023/4/8
 photo.14.link: https://www.instagram.com/ck.chie/
 photo.14.tags: baby, portrait, sample, tail, upside-down
-photo.15: https://www.instagram.com/p/Crki3ATvnQ1/media/?size=m
+photo.15: ig://Crki3ATvnQ1/m
 photo.15.author: tamazoowalking
+photo.15.commitdate: 2023/5/3
 photo.15.link: https://www.instagram.com/tamazoowalking/
 photo.15.tags: paws, portrait, sample, slobber, whiskers
 species: 2
