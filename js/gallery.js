@@ -1245,7 +1245,7 @@ Gallery.url.instagram = function(image, input_uri) {
     if (ig_author != undefined) {
       ig_target = encodeURIComponent(`https://www.instagram.com/${ig_author}/p/${ig_locator}`);
     }
-    var ig_template = `https://graph.facebook.com/v11.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
+    var ig_template = `https://graph.facebook.com/v16.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
     var ig_request = new XMLHttpRequest();
     ig_request.open('GET', ig_template, true);
     ig_request.responseType = 'json';
