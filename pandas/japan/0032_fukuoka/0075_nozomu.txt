@@ -916,8 +916,9 @@ photo.181.author: yossi929
 photo.181.commitdate: 2022/10/13
 photo.181.link: https://www.instagram.com/yossi929/
 photo.181.tags: close-up, portrait, tongue, whiskers
-photo.182: https://www.instagram.com/p/CrHQBWRhxLT/media/?size=m
+photo.182: ig://CrHQBWRhxLT/m
 photo.182.author: yossi929
+photo.182.commitdate: 2023/5/13
 photo.182.link: https://www.instagram.com/yossi929/
 photo.182.tags: sample, whiskers
 species: 2
