@@ -183,8 +183,9 @@ photo.34.author: yakko____
 photo.34.commitdate: 2022/10/11
 photo.34.link: https://www.instagram.com/yakko____/
 photo.34.tags: bridge, peek, portrait, sample, techitechi
-photo.35: https://www.instagram.com/p/CqprJf9PLIH/media/?size=m
+photo.35: ig://CqprJf9PLIH/m
 photo.35.author: daniele.tokyo
+photo.35.commitdate: 2023/5/16
 photo.35.link: https://www.instagram.com/daniele.tokyo/
 photo.35.tags: bridge, mofumofu, peek, sample, snow, techitechi
 species: 2

@@ -258,19 +258,20 @@ photo.49.author: ssc6105
 photo.49.commitdate: 2023/2/26
 photo.49.link: https://www.instagram.com/ssc6105/
 photo.49.tags: peek, sample, tail, whiskers
-photo.50: ig://CrDpwlcvAuL/m
-photo.50.author: alto0908
-photo.50.commitdate: 2023/5/13
-photo.50.link: https://www.instagram.com/alto0908/
-photo.50.tags: paws, portrait, smile, tongue, whiskers
-photo.51: ig://CrS-SWuvMZj/m
-photo.51.author: happy_love2.15
-photo.51.commitdate: 2023/5/4
-photo.51.link: https://www.instagram.com/happy_love2.15/
-photo.51.tags: bamboo, paws, portrait, sample
-photo.52: https://www.instagram.com/p/Cqr9V-HPA3t/media/?size=m
-photo.52.author: ssc6105
-photo.52.link: https://www.instagram.com/ssc6105/
-photo.52.tags: sample, whiskers
+photo.50: ig://Cqr9V-HPA3t/m
+photo.50.author: ssc6105
+photo.50.commitdate: 2023/5/16
+photo.50.link: https://www.instagram.com/ssc6105/
+photo.50.tags: sample, whiskers
+photo.51: ig://CrDpwlcvAuL/m
+photo.51.author: alto0908
+photo.51.commitdate: 2023/5/13
+photo.51.link: https://www.instagram.com/alto0908/
+photo.51.tags: paws, portrait, smile, tongue, whiskers
+photo.52: ig://CrS-SWuvMZj/m
+photo.52.author: happy_love2.15
+photo.52.commitdate: 2023/5/4
+photo.52.link: https://www.instagram.com/happy_love2.15/
+photo.52.tags: bamboo, paws, portrait, sample
 species: 2
 zoo: 45

@@ -128,8 +128,9 @@ photo.23.author: sasapan34
 photo.23.commitdate: 2023/2/25
 photo.23.link: https://www.instagram.com/sasapan34/
 photo.23.tags: whiskers
-photo.24: https://www.instagram.com/p/CqqHwoWvNKY/media/?size=m
+photo.24: ig://CqqHwoWvNKY/m
 photo.24.author: kojikoji2011
+photo.24.commitdate: 2023/5/16
 photo.24.link: https://www.instagram.com/kojikoji2011/
 photo.24.tags: paws, portrait, sample, whiskers
 species: 2
