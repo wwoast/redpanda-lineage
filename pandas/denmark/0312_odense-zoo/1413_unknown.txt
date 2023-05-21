@@ -1,0 +1,16 @@
+[panda]
+_id: 1413
+birthday: 2017/07/08
+birthplace: 312
+death: 2017/11/20
+children: none
+commitdate: 2023/05/21
+en.name: unknown
+en.nicknames: unknown
+en.othernames: unknown
+gender: unknown
+language.order: en
+litter: 1411, 1412
+location.1: 312, 2017/07/08
+species: 1
+zoo: 312

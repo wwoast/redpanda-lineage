@@ -2,17 +2,15 @@
 _id: 1410
 birthday: 2001/07/16
 birthplace: 257
-children: unknown
+children: 1411, 1412, 1413, 1414
 commitdate: 2023/05/21
 en.name: Jang
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: none
-jp.nicknames: none
-jp.othernames: none
-language.order: dk, en
+language.order: en
 litter: unknown
 location.1: 257, 2001/07/16
 location.2: 312, 2005/09/07
+species: 1
 zoo: 312

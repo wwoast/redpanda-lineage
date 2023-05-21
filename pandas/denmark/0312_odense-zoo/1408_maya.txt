@@ -2,17 +2,17 @@
 _id: 1408
 birthday: 2015/06/29
 birthplace: 311
-children: unknown
+children: 1414
 commitdate: 2023/05/21
 en.name: Maya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: none
-jp.nicknames: none
-jp.othernames: none
-language.order: dk, en
+language.order: en
 litter: 1409
 location.1: 311, 2015/06/29
 location.2: 312, 2016/12/21
+location.3: unknown, 2023/03/26
+species: 1
 zoo: 312
+uncertainty: location.3 location (somewhere in France) and move date (around March 2023, before March 26)

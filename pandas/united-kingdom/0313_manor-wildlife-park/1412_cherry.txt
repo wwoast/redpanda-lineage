@@ -1,0 +1,16 @@
+[panda]
+_id: 1412
+birthday: 2017/07/08
+birthplace: 312
+children: none
+commitdate: 2023/05/21
+en.name: Cherry
+en.nicknames: none
+en.othernames: none
+gender: f
+language.order: en
+litter: 1411, 1413
+location.1: 312, 2017/07/08
+location.2: 313, 2018/07/04
+species: 1
+zoo: 313
