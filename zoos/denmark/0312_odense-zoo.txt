@@ -1,0 +1,15 @@
+[zoo]
+_id: 312
+commitdate: 2023/05/21
+dk.address: Søndre Blvd. 306, 5000 Odense C, Denmark
+dk.location: Odense, Denmark
+dk.name: Odense Zoo
+en.address: Søndre Blvd. 306, 5000 Odense C, Denmark
+en.location: Odense, Denmark
+en.name: Odense Zoo
+flag: Denmark
+language.order: dk, en
+latitude: 55.3779965
+longitude: 10.3731553
+map: https://goo.gl/maps/W126X6i9h1rbWM9H7
+website: https://www.odensezoo.dk/
