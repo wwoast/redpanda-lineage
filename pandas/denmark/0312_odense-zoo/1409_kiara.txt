@@ -1,0 +1,18 @@
+[panda]
+_id: 1409
+birthday: 2015/06/29
+birthplace: 311
+children: unknown
+commitdate: 2023/05/21
+en.name: Kiara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: none
+jp.nicknames: none
+jp.othernames: none
+language.order: dk, en
+litter: 1408
+location.1: 311, 2015/06/29
+location.2: 312, 2016/12/21
+zoo: 312

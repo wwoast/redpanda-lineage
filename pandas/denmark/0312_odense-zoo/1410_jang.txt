@@ -1,0 +1,18 @@
+[panda]
+_id: 1410
+birthday: 2001/07/16
+birthplace: 257
+children: unknown
+commitdate: 2023/05/21
+en.name: Jang
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: none
+jp.nicknames: none
+jp.othernames: none
+language.order: dk, en
+litter: unknown
+location.1: 257, 2001/07/16
+location.2: 312, 2005/09/07
+zoo: 312
