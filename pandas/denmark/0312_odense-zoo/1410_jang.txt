@@ -1,16 +1,16 @@
 [panda]
 _id: 1410
-birthday: 2001/07/16
+birthday: 2001/7/16
 birthplace: 257
 children: 1411, 1412, 1413, 1414
-commitdate: 2023/05/21
+commitdate: 2023/5/21
 en.name: Jang
 en.nicknames: none
 en.othernames: none
 gender: m
 language.order: en
 litter: unknown
-location.1: 257, 2001/07/16
-location.2: 312, 2005/09/07
+location.1: 257, 2001/7/16
+location.2: 312, 2005/9/7
 species: 1
 zoo: 312
