@@ -1,0 +1,15 @@
+[zoo]
+_id: 314
+commitdate: 2023/05/21
+en.address: Via Giorgio Scerbanenco, 19, 33054 Lignano Sabbiadoro UD, Italy
+en.location: Ligano Sabbiadoro, Italy
+en.name: Parco Zoo Punta Verde
+it.address: Via Giorgio Scerbanenco, 19, 33054 Lignano Sabbiadoro UD, Italy
+it.location: Ligano Sabbiadoro, Italy
+it.name: Parco Zoo Punta Verde
+flag: Italy
+language.order: it, en
+latitude: 45.6599460
+longitude: 13.0661159
+map: https://goo.gl/maps/9buq6uDL25xoEPAG6
+website: https://www.parcozoopuntaverde.it/

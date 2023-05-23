@@ -1,0 +1,15 @@
+[zoo]
+_id: 311
+commitdate: 2023/05/21
+en.address: La Butte Jurques, 14260 Dialan sur Chaîne, France
+en.location: Dialan sur Chaîne, France
+en.name: Jurques Zoo
+flag: France
+fr.address: La Butte Jurques, 14260 Dialan sur Chaîne, France
+fr.location: Dialan sur Chaîne, France
+fr.name: Zoo de Jurques
+language.order: fr, en
+latitude: 49.0037365
+longitude: -0.7533139
+map: https://goo.gl/maps/johcwm293jsUPERM8
+website: https://www.zoodejurques.fr/
