@@ -14,5 +14,5 @@ location.1: 311, 2015/6/29
 location.2: 312, 2016/12/21
 location.3: unknown, 2023/3/26
 species: 1
-zoo: 312
 uncertainty: location.3 location (somewhere in France) and move date (around March 2023, before March 26)
+zoo: 312

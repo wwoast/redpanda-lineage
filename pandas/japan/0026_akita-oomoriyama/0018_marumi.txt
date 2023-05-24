@@ -2687,25 +2687,26 @@ photo.536.author: minatomirai215
 photo.536.commitdate: 2023/2/26
 photo.536.link: https://www.instagram.com/minatomirai215/
 photo.536.tags: home, portrait, sample, snow
-photo.537: ig://CrPpTaXPixF/m
-photo.537.author: mari_neko3
-photo.537.commitdate: 2023/5/4
-photo.537.link: https://www.instagram.com/mari_neko3/
-photo.537.tags: bamboo, portrait, sample, whiskers
-photo.538: ig://CrPvmKjPc3G/m
+photo.537: ig://CpfGYnLviym/m
+photo.537.author: minatomirai215
+photo.537.commitdate: 2023/5/23
+photo.537.link: https://www.instagram.com/minatomirai215/
+photo.537.tags: close-up, paws, whiskers
+photo.538: ig://CrPpTaXPixF/m
 photo.538.author: mari_neko3
 photo.538.commitdate: 2023/5/4
 photo.538.link: https://www.instagram.com/mari_neko3/
-photo.538.tags: bridge, laying down, peek, portrait, tree
-photo.539: ig://CruevKJvN-_/m
-photo.539.author: hidehaya_biei
-photo.539.commitdate: 2023/5/3
-photo.539.link: https://www.instagram.com/hidehaya_biei/
-photo.539.tags: laying down, whiskers
-photo.540: https://www.instagram.com/p/CpfGYnLviym/media/?size=m
-photo.540.author: minatomirai215
-photo.540.link: https://www.instagram.com/minatomirai215/
-photo.540.tags: close-up, paws, whiskers
+photo.538.tags: bamboo, portrait, sample, whiskers
+photo.539: ig://CrPvmKjPc3G/m
+photo.539.author: mari_neko3
+photo.539.commitdate: 2023/5/4
+photo.539.link: https://www.instagram.com/mari_neko3/
+photo.539.tags: bridge, laying down, peek, portrait, tree
+photo.540: ig://CruevKJvN-_/m
+photo.540.author: hidehaya_biei
+photo.540.commitdate: 2023/5/3
+photo.540.link: https://www.instagram.com/hidehaya_biei/
+photo.540.tags: laying down, whiskers
 species: 2
 studbook.id: 1676
 zoo: 26
