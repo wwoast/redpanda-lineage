@@ -89,8 +89,9 @@ photo.15.author: kaoru_a358
 photo.15.commitdate: 2022/10/14
 photo.15.link: https://www.instagram.com/kaoru_a358/
 photo.15.tags: close-up, eye, old, nose, sample, tongue
-photo.16: https://www.instagram.com/p/CpYo-U6h_Rg/media/?size=m
+photo.16: ig://CpYo-U6h_Rg/m
 photo.16.author: kaoru_a358
+photo.16.commitdate: 2023/5/29
 photo.16.link: https://www.instagram.com/kaoru_a358/
 photo.16.tags: close-up, old, paws, sample
 species: 2

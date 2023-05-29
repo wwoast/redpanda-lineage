@@ -209,29 +209,31 @@ photo.39.author: fetorus_mami
 photo.39.commitdate: 2023/2/26
 photo.39.link: https://www.instagram.com/fetorus_mami/
 photo.39.tags: mofumofu, paws, peek, sample
-photo.40: ig://CqtVN_4B-z0/m
-photo.40.author: hamamatsu.chiita
-photo.40.commitdate: 2023/5/16
-photo.40.link: https://www.instagram.com/hamamatsu.chiita/
-photo.40.tags: portrait, sample, smile
-photo.41: ig://Cq_TmFTBHXK/m
-photo.41.author: hamamatsu.chiita
-photo.41.commitdate: 2023/4/22
-photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: grumpy, mofumofu, portrait, sample
-photo.42: ig://CrRY2NsBt2M/m
+photo.40: ig://CpULnrvvK52/m
+photo.40.author: hamiiiii831_
+photo.40.commitdate: 2023/5/29
+photo.40.link: https://www.instagram.com/hamiiiii831_/
+photo.40.tags: keeper, sample
+photo.41: ig://CpULtX5vlF9/m
+photo.41.author: hamiiiii831_
+photo.41.commitdate: 2023/5/29
+photo.41.link: https://www.instagram.com/hamiiiii831_/
+photo.41.tags: paws, sample, standing, tail, whiskers
+photo.42: ig://CqtVN_4B-z0/m
 photo.42.author: hamamatsu.chiita
-photo.42.commitdate: 2023/5/4
+photo.42.commitdate: 2023/5/16
 photo.42.link: https://www.instagram.com/hamamatsu.chiita/
-photo.42.tags: close-up, laying down, mofumofu, paws, portrait, sample
-photo.43: https://www.instagram.com/p/CpULnrvvK52/media/?size=m
-photo.43.author: hamiiiii831_
-photo.43.link: https://www.instagram.com/hamiiiii831_/
-photo.43.tags: keeper, sample
-photo.44: https://www.instagram.com/p/CpULtX5vlF9/media/?size=m
-photo.44.author: hamiiiii831_
-photo.44.link: https://www.instagram.com/hamiiiii831_/
-photo.44.tags: paws, sample, standing, tail, whiskers
+photo.42.tags: portrait, sample, smile
+photo.43: ig://Cq_TmFTBHXK/m
+photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2023/4/22
+photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.tags: grumpy, mofumofu, portrait, sample
+photo.44: ig://CrRY2NsBt2M/m
+photo.44.author: hamamatsu.chiita
+photo.44.commitdate: 2023/5/4
+photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.tags: close-up, laying down, mofumofu, paws, portrait, sample
 species: 2
 studbook.id: 0774
 zoo: 20

@@ -1113,8 +1113,9 @@ photo.222.author: miis_98
 photo.222.commitdate: 2023/3/9
 photo.222.link: https://www.instagram.com/miis_98/
 photo.222.tags: paws, portrait, sample, whiskers
-photo.223: https://www.instagram.com/p/CpkW97avxaY/media/?size=m
+photo.223: ig://CpkW97avxaY/m
 photo.223.author: i.satosato
+photo.223.commitdate: 2023/5/29
 photo.223.link: https://www.instagram.com/i.satosato/
 photo.223.tags: mofumofu, portrait, sample
 species: 2

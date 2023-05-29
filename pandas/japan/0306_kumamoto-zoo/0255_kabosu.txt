@@ -252,8 +252,9 @@ photo.47.author: re_ichimaru
 photo.47.commitdate: 2023/2/24
 photo.47.link: https://www.instagram.com/re_ichimaru/
 photo.47.tags: air tasting, mofumofu, portrait, sample, tongue
-photo.48: https://www.instagram.com/p/CpeMpujv21Y/media/?size=m
+photo.48: ig://CpeMpujv21Y/m
 photo.48.author: yuredpanda
+photo.48.commitdate: 2023/5/29
 photo.48.link: https://www.instagram.com/yuredpanda/
 photo.48.tags: peek, portrait, sample, whiskers
 species: 2

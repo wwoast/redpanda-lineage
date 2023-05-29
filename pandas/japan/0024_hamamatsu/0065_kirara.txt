@@ -847,8 +847,9 @@ photo.168.author: miis_98
 photo.168.commitdate: 2023/2/24
 photo.168.link: https://www.instagram.com/miis_98/
 photo.168.tags: apple time, close-up, sample, whiskers
-photo.169: https://www.instagram.com/p/CphtdEqPJQ0/media/?size=m
+photo.169: ig://CphtdEqPJQ0/m
 photo.169.author: taka__3428
+photo.169.commitdate: 2023/5/29
 photo.169.link: https://www.instagram.com/taka__3428/
 photo.169.tags: bamboo, paws, sample, standing
 species: 2
