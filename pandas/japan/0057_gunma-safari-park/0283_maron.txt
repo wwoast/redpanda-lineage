@@ -289,8 +289,9 @@ photo.55.author: mini_cochi
 photo.55.commitdate: 2023/5/16
 photo.55.link: https://www.instagram.com/mini_cochi/
 photo.55.tags: mofumofu, paws, portrait, sample, whiskers
-photo.56: https://www.instagram.com/p/CsGXw4VPuLy/media/?size=m
+photo.56: ig://CsGXw4VPuLy/m
 photo.56.author: daniele.tokyo
+photo.56.commitdate: 2023/6/9
 photo.56.link: https://www.instagram.com/daniele.tokyo/
 photo.56.tags: sample, whiskers
 species: 2

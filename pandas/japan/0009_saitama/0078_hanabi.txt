@@ -324,8 +324,9 @@ photo.63.author: fetorus_mami
 photo.63.commitdate: 2023/5/23
 photo.63.link: https://www.instagram.com/fetorus_mami/
 photo.63.tags: bamboo, sample, smile
-photo.64: https://www.instagram.com/p/CqlptlVhjLs/media/?size=m
+photo.64: ig://CqlptlVhjLs/m
 photo.64.author: ssc6105
+photo.64.commitdate: 2023/6/9
 photo.64.link: https://www.instagram.com/ssc6105/
 photo.64.tags: peek, sample, tail, tree
 species: 2

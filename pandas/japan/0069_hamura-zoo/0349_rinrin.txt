@@ -94,8 +94,9 @@ photo.16.author: kaoru_a358
 photo.16.commitdate: 2023/5/29
 photo.16.link: https://www.instagram.com/kaoru_a358/
 photo.16.tags: close-up, old, paws, sample
-photo.17: https://www.instagram.com/p/CqiPWH0PDfO/media/?size=m
+photo.17: ig://CqiPWH0PDfO/m
 photo.17.author: mini_cochi
+photo.17.commitdate: 2023/6/9
 photo.17.link: eye, itchy, old, portrait, sample, smile, tongue
 species: 2
 studbook.id: 01115

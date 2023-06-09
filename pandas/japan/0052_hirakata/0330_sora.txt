@@ -135,15 +135,16 @@ photo.24.author: makimaru18
 photo.24.commitdate: 2022/8/5
 photo.24.link: https://www.instagram.com/makimaru18/
 photo.24.tags: apple time, bamboo, birthday, ice treat, portrait
-photo.25: ig://Cq_m1Ksh7Sy/m
-photo.25.author: hamiiiii831_
-photo.25.commitdate: 2023/4/22
-photo.25.link: https://www.instagram.com/hamiiiii831_/
-photo.25.tags: paws, sample, smile
-photo.26: https://www.instagram.com/p/CqbOEpfhwf5/media/?size=m
-photo.26.author: nakacchi_desu
-photo.26.link: https://www.instagram.com/nakacchi_desu/
-photo.26.tags: apple time, bamboo, cherry blossoms
+photo.25: ig://CqbOEpfhwf5/m
+photo.25.author: nakacchi_desu
+photo.25.commitdate: 2023/6/9
+photo.25.link: https://www.instagram.com/nakacchi_desu/
+photo.25.tags: apple time, bamboo, cherry blossoms
+photo.26: ig://Cq_m1Ksh7Sy/m
+photo.26.author: hamiiiii831_
+photo.26.commitdate: 2023/4/22
+photo.26.link: https://www.instagram.com/hamiiiii831_/
+photo.26.tags: paws, sample, smile
 species: 2
 studbook.id: 0685
 zoo: 52

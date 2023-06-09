@@ -1097,15 +1097,16 @@ photo.217.author: fetorus_mami
 photo.217.commitdate: 2023/2/26
 photo.217.link: https://www.instagram.com/fetorus_mami/
 photo.217.tags: bamboo, paws, portrait, sample, techitechi
-photo.218: ig://CrOL89xPAxK/m
-photo.218.author: tomo3700
-photo.218.commitdate: 2023/5/4
-photo.218.link: https://www.instagram.com/tomo3700/
-photo.218.tags: keeper, paws, portrait, standing, tail
-photo.219: https://www.instagram.com/p/CqjU2XChKRL/media/?size=m
-photo.219.author: yossi929
-photo.219.link: https://www.instagram.com/yossi929/
-photo.219.tags: bamboo, peek, portrait, sample
+photo.218: ig://CqjU2XChKRL/m
+photo.218.author: yossi929
+photo.218.commitdate: 2023/6/9
+photo.218.link: https://www.instagram.com/yossi929/
+photo.218.tags: bamboo, peek, portrait, sample
+photo.219: ig://CrOL89xPAxK/m
+photo.219.author: tomo3700
+photo.219.commitdate: 2023/5/4
+photo.219.link: https://www.instagram.com/tomo3700/
+photo.219.tags: keeper, paws, portrait, standing, tail
 species: 2
 studbook.id: 1779
 zoo: 20

@@ -382,8 +382,9 @@ photo.74.author: fetorus_mami
 photo.74.commitdate: 2022/10/24
 photo.74.link: https://www.instagram.com/fetorus_mami/
 photo.74.tags: climb, paws, whiskers
-photo.75: https://www.instagram.com/p/CqlxCR7hUqL/media/?size=m
+photo.75: ig://CqlxCR7hUqL/m
 photo.75.author: ssc6105
+photo.75.commitdate: 2023/6/9
 photo.75.link: https://www.instagram.com/ssc6105/
 photo.75.tags: close-up, sample, whiskers
 species: 2

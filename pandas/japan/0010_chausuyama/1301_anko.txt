@@ -333,14 +333,15 @@ photo.64.author: nakacchi_desu
 photo.64.commitdate: 2023/5/23
 photo.64.link: https://www.instagram.com/nakacchi_desu/
 photo.64.tags: bamboo, paws, sample, window
-photo.65: ig://Cq-hxghvJ6c/m
+photo.65: ig://CqYHvcovhqr/m
 photo.65.author: redpan22
-photo.65.commitdate: 2023/4/22
+photo.65.commitdate: 2023/6/9
 photo.65.link: https://www.instagram.com/redpan22/
-photo.65.tags: mofumofu, sample
-photo.66: https://www.instagram.com/p/CqYHvcovhqr/media/?size=m
+photo.65.tags: mofumofu, peek, sample, tree
+photo.66: ig://Cq-hxghvJ6c/m
 photo.66.author: redpan22
+photo.66.commitdate: 2023/4/22
 photo.66.link: https://www.instagram.com/redpan22/
-photo.66.tags: mofumofu, peek, sample, tree
+photo.66.tags: mofumofu, sample
 species: 2
 zoo: 10
