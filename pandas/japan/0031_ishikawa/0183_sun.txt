@@ -408,8 +408,9 @@ photo.79.author: bee_san.13
 photo.79.commitdate: 2022/12/20
 photo.79.link: https://www.instagram.com/bee_san.13/
 photo.79.tags: sample, tree, whiskers
-photo.80: https://www.instagram.com/p/CtJRA2iPQUd/media/?size=m
+photo.80: ig://CtJRA2iPQUd/m
 photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2023/6/10
 photo.80.link: https://www.instagram.com/hamamatsu.chiita/
 photo.80.tags: close-up, sample, smile, whiskers
 species: 2

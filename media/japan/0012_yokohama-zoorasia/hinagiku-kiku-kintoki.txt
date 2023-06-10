@@ -1,0 +1,18 @@
+[media]
+_id: media.12.hinagiku-kiku-kintoki
+commitdate: 2023/6/10
+panda.tags: 127, 1374, 1375
+photo.1: https://www.instagram.com/p/CtEP4VwvyuD/media/?size=l
+photo.1.author: minatomirai215
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: family, portrait, siblings, twins
+photo.1.tags.127.location: 115, 345
+photo.1.tags.1374.location: 370, 280
+photo.1.tags.1375.location: 235, 320
+photo.2: https://www.instagram.com/p/CsjCCDdvEKb/media/?size=l
+photo.2.author: minatomirai215
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: family, portrait, sample, siblings, twins
+photo.2.tags.127.location: 125, 245
+photo.2.tags.1374.location: 205, 280
+photo.2.tags.1375.location: 330, 145

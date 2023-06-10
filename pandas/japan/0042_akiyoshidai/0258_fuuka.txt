@@ -133,14 +133,16 @@ photo.24.author: kojikoji2011
 photo.24.commitdate: 2023/5/16
 photo.24.link: https://www.instagram.com/kojikoji2011/
 photo.24.tags: paws, portrait, sample, whiskers
-photo.25: https://www.instagram.com/p/CtRTqS1PDJ9/media/?size=m
+photo.25: ig://Cs_Ue3ovVgW/m
 photo.25.author: kojikoji2011
+photo.25.commitdate: 2023/6/10
 photo.25.link: https://www.instagram.com/kojikoji2011/
-photo.25.tags: peek, portrait, sample
-photo.26: https://www.instagram.com/p/Cs_Ue3ovVgW/media/?size=m
+photo.25.tags: flowers, portrait, sample
+photo.26: ig://CtRTqS1PDJ9/m
 photo.26.author: kojikoji2011
+photo.26.commitdate: 2023/6/10
 photo.26.link: https://www.instagram.com/kojikoji2011/
-photo.26.tags: flowers, portrait, sample
+photo.26.tags: peek, portrait, sample
 species: 2
 studbook.id: 1198
 zoo: 42
