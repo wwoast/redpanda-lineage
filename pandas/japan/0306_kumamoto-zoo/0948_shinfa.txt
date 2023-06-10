@@ -2,7 +2,7 @@
 _id: 948
 birthday: 2019/6/19
 birthplace: 17
-children: none
+children: 1415
 commitdate: 2019/7/18
 en.name: Shin-Fa
 en.nicknames: none
@@ -935,5 +935,9 @@ photo.184.author: redpan22
 photo.184.commitdate: 2022/12/20
 photo.184.link: https://www.instagram.com/redpan22/
 photo.184.tags: peek, portrait, sample, whiskers
+photo.185: https://www.instagram.com/p/CtGNWO7vjNM/media/?size=m
+photo.185.author: kumamoto_doushokubutsuen
+photo.185.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.185.tags: close-up, sample, whiskers
 species: 2
 zoo: 306
