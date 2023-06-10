@@ -113,8 +113,9 @@ photo.20.author: hamamatsu.chiita
 photo.20.commitdate: 2023/2/24
 photo.20.link: https://www.instagram.com/hamamatsu.chiita/
 photo.20.tags: baby, mofumofu, peek, sample
-photo.21: https://www.instagram.com/p/CtBt5rKvCNd/media/?size=m
+photo.21: ig://CtBt5rKvCNd/m
 photo.21.author: hamamatsu.chiita
+photo.21.commitdate: 2023/6/10
 photo.21.link: https://www.instagram.com/hamamatsu.chiita/
 photo.21.tags: close-up, lips, portrait, sample, smile, whiskers
 species: 2

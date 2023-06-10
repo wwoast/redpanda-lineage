@@ -305,8 +305,9 @@ photo.58.author: colette.jp
 photo.58.commitdate: 2023/5/3
 photo.58.link: https://www.instagram.com/colette.jp/
 photo.58.tags: lips, mofumofu, portrait, sample
-photo.59: https://www.instagram.com/p/CtHEtZLv3my/media/?size=m
+photo.59: ig://CtHEtZLv3my/m
 photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2023/6/10
 photo.59.link: https://www.instagram.com/hamamatsu.chiita/
 photo.59.tags: ear, mofumofu, portrait, sample, whiskers
 species: 2

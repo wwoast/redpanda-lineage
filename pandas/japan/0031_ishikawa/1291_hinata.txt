@@ -222,8 +222,9 @@ photo.42.author: bee_san.13
 photo.42.commitdate: 2023/5/4
 photo.42.link: https://www.instagram.com/bee_san.13/
 photo.42.tags: laying down, tongue
-photo.43: https://www.instagram.com/p/CtENXA-P4FM/media/?size=m
+photo.43: ig://CtENXA-P4FM/m
 photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2023/6/10
 photo.43.link: https://www.instagram.com/hamamatsu.chiita/
 photo.43.tags: laying down, portrait, sample
 species: 2

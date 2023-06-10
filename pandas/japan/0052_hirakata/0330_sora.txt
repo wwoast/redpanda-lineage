@@ -145,8 +145,9 @@ photo.26.author: hamiiiii831_
 photo.26.commitdate: 2023/4/22
 photo.26.link: https://www.instagram.com/hamiiiii831_/
 photo.26.tags: paws, sample, smile
-photo.27: https://www.instagram.com/p/CslOPxlPaqc/media/?size=m
+photo.27: ig://CslOPxlPaqc/m
 photo.27.author: makimaru18
+photo.27.commitdate: 2023/6/10
 photo.27.link: https://www.instagram.com/makimaru18/
 photo.27.tags: portrait, sample, smile, tail
 species: 2
