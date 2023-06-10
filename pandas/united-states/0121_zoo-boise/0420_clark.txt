@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 421
 location.1: 87, 2015/6/26
 location.2: 95, 2016/3/9
+location.3: 121, 2023/5/29
 photo.1: ig://BXQ5qhOj5Za/m
 photo.1.author: sandiegozoo
 photo.1.commitdate: 2019/10/26
@@ -216,4 +217,4 @@ photo.40.link: https://www.instagram.com/rossifari/
 photo.40.tags: mofumofu, paws, portrait, tongue, whiskers
 species: 2
 studbook.id: 1534
-zoo: 95
+zoo: 121
