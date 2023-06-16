@@ -25,8 +25,9 @@ photo.2.author: eriezoo
 photo.2.commitdate: 2021/1/5
 photo.2.link: https://www.instagram.com/eriezoo/
 photo.2.tags: baby, close-up, lunch time, portrait, whiskers
-photo.3: https://www.instagram.com/p/CqSuIQGOaz3/media/?size=m
+photo.3: ig://CqSuIQGOaz3/m
 photo.3.author: rossifari
+photo.3.commitdate: 2023/6/16
 photo.3.link: https://www.instagram.com/rossifari/
 photo.3.tags: profile, sample, white face
 species: 1
