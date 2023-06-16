@@ -20,14 +20,16 @@ photo.1.author: greenvilleaazk
 photo.1.commitdate: 2019/10/20
 photo.1.link: https://www.instagram.com/greenvilleaazk/
 photo.1.tags: peek, portrait, profile, white face
-photo.2: https://www.instagram.com/p/Cmb8Z9gu_28/media/?size=m
-photo.2.author: millmountainzoo
-photo.2.link: https://www.instagram.com/millmountainzoo/
-photo.2.tags: close-up, mofumofu, whiskers, white face
-photo.3: https://www.instagram.com/p/CYFR1pEL_TL/media/?size=m
-photo.3.author: worldthathesees
-photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: baby, whiskers, white face
+photo.2: ig://CYFR1pEL_TL/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2023/6/16
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby, whiskers, white face
+photo.3: ig://Cmb8Z9gu_28/m
+photo.3.author: millmountainzoo
+photo.3.commitdate: 2023/6/16
+photo.3.link: https://www.instagram.com/millmountainzoo/
+photo.3.tags: close-up, mofumofu, whiskers, white face
 species: 1
 uncertainty: location.2 is press release
 zoo: 122
