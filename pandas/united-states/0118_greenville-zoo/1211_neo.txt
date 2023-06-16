@@ -19,12 +19,16 @@ photo.1: ig://CHc5NTyASs8/m
 photo.1.author: pippin455
 photo.1.commitdate: 2021/1/5
 photo.1.link: https://www.instagram.com/pippin455/
-photo.1.tags: baby, portrait, profile, smile
+photo.1.tags: baby, portrait, smile
 photo.2: ig://CI1E_SihckZ/m
 photo.2.author: eriezoo
 photo.2.commitdate: 2021/1/5
 photo.2.link: https://www.instagram.com/eriezoo/
 photo.2.tags: baby, close-up, lunch time, portrait, whiskers
+photo.3: https://www.instagram.com/p/CqSuIQGOaz3/media/?size=m
+photo.3.author: rossifari
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: profile, sample, white face
 species: 1
 uncertainty: move date in 2022
 zoo: 118
