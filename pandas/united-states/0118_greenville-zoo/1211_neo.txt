@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1212
+location.1: 141, 2020/7/8
+location.2: 118, 2022/1/1
 photo.1: ig://CHc5NTyASs8/m
 photo.1.author: pippin455
 photo.1.commitdate: 2021/1/5
@@ -24,4 +26,5 @@ photo.2.commitdate: 2021/1/5
 photo.2.link: https://www.instagram.com/eriezoo/
 photo.2.tags: baby, close-up, lunch time, portrait, whiskers
 species: 1
-zoo: 141
+uncertainty: move date in 2022
+zoo: 118
