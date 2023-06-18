@@ -502,15 +502,16 @@ photo.97.author: hamamatsu.chiita
 photo.97.commitdate: 2023/2/26
 photo.97.link: https://www.instagram.com/hamamatsu.chiita/
 photo.97.tags: sample, whiskers
-photo.98: ig://CrCP2rVBXvO/m
-photo.98.author: miis_98
-photo.98.commitdate: 2023/4/22
-photo.98.link: https://www.instagram.com/miis_98/
-photo.98.tags: apple time, close-up, keeper, portrait, sample, whiskers
-photo.99: https://www.instagram.com/p/CqRpwJTvYFj/media/?size=m
-photo.99.author: hamiiiii831_
-photo.99.link: https://www.instagram.com/hamiiiii831_/
-photo.99.tags: sample, whiskers
+photo.98: ig://CqRpwJTvYFj/m
+photo.98.author: hamiiiii831_
+photo.98.commitdate: 2023/6/18
+photo.98.link: https://www.instagram.com/hamiiiii831_/
+photo.98.tags: sample, whiskers
+photo.99: ig://CrCP2rVBXvO/m
+photo.99.author: miis_98
+photo.99.commitdate: 2023/4/22
+photo.99.link: https://www.instagram.com/miis_98/
+photo.99.tags: apple time, close-up, keeper, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

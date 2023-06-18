@@ -1674,15 +1674,16 @@ photo.337.author: mari_neko3
 photo.337.commitdate: 2023/2/24
 photo.337.link: https://www.instagram.com/mari_neko3/
 photo.337.tags: laying down, portrait, sample, snow
-photo.338: ig://CqhGhdWpSbN/m
-photo.338.author: komabazoophoto
-photo.338.commitdate: 2023/6/9
-photo.338.link: https://www.instagram.com/komabazoophoto/
-photo.338.tags: portrait, sample, snow
-photo.339: https://www.instagram.com/p/CqM4cXYPVu4/media/?size=m
-photo.339.author: minatomirai215
-photo.339.link: https://www.instagram.com/minatomirai215/
-photo.339.tags: home, portrait, sample, snow
+photo.338: ig://CqM4cXYPVu4/m
+photo.338.author: minatomirai215
+photo.338.commitdate: 2023/6/18
+photo.338.link: https://www.instagram.com/minatomirai215/
+photo.338.tags: home, portrait, sample, snow
+photo.339: ig://CqhGhdWpSbN/m
+photo.339.author: komabazoophoto
+photo.339.commitdate: 2023/6/9
+photo.339.link: https://www.instagram.com/komabazoophoto/
+photo.339.tags: portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7

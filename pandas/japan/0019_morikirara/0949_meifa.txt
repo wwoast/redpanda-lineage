@@ -1019,8 +1019,9 @@ photo.201.author: morikirara
 photo.201.commitdate: 2023/1/20
 photo.201.link: https://www.instagram.com/morikirara/
 photo.201.tags: close-up, sample, whiskers
-photo.202: https://www.instagram.com/p/CqK0RPkPu9g/media/?size=m
+photo.202: ig://CqK0RPkPu9g/m
 photo.202.author: re_ichimaru
+photo.202.commitdate: 2023/6/18
 photo.202.link: https://www.instagram.com/re_ichimaru/
 photo.202.tags: bamboo, portrait, sample, tongue
 species: 2

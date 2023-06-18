@@ -414,8 +414,9 @@ photo.81.author: chankunvv
 photo.81.commitdate: 2023/2/4
 photo.81.link: https://www.instagram.com/chankunvv/
 photo.81.tags: paws, portrait, sample, whiskers
-photo.82: https://www.instagram.com/p/CqEwVnGPvXZ/media/?size=m
+photo.82: ig://CqEwVnGPvXZ/m
 photo.82.author: shigeko0531
+photo.82.commitdate: 2023/6/18
 photo.82.link: https://www.instagram.com/shigeko0531/
 photo.82.tags: blink, dish, sample, smile, tail
 species: 2

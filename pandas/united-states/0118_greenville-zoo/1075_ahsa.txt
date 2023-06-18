@@ -69,8 +69,9 @@ photo.10.author: worldthathesees
 photo.10.commitdate: 2020/11/16
 photo.10.link: https://www.instagram.com/worldthathesees/
 photo.10.tags: close-up, tongue, white face, window
-photo.11: https://www.instagram.com/p/CoPqaYFs6Iz/media/?size=m
+photo.11: ig://CoPqaYFs6Iz/m
 photo.11.author: greenvillezoo
+photo.11.commitdate: 2023/6/18
 photo.11.link: https://www.instagram.com/greenvillezoo/
 photo.11.tags: sample, whiskers
 species: 1
