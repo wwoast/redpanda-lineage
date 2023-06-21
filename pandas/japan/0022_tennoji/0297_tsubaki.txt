@@ -294,15 +294,16 @@ photo.56.author: makimaru18
 photo.56.commitdate: 2023/2/25
 photo.56.link: https://www.instagram.com/makimaru18/
 photo.56.tags: apple time, mofumofu, paws, portrait, sample, tail
-photo.57: ig://CrPhF23v788/m
-photo.57.author: gloryeui
-photo.57.commitdate: 2023/5/4
-photo.57.link: https://www.instagram.com/gloryeui/
-photo.57.tags: apple time, paws, portrait, sample, whiskers
-photo.58: https://www.instagram.com/p/CqaSmUhPzW1/media/?size=m
-photo.58.author: makimaru18
-photo.58.link: https://www.instagram.com/makimaru18/
-photo.58.tags: portrait, sample, whiskers
+photo.57: ig://CqaSmUhPzW1/m
+photo.57.author: makimaru18
+photo.57.commitdate: 2023/6/20
+photo.57.link: https://www.instagram.com/makimaru18/
+photo.57.tags: portrait, sample, whiskers
+photo.58: ig://CrPhF23v788/m
+photo.58.author: gloryeui
+photo.58.commitdate: 2023/5/4
+photo.58.link: https://www.instagram.com/gloryeui/
+photo.58.tags: apple time, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1780
 zoo: 22

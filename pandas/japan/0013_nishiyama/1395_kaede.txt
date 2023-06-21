@@ -113,15 +113,16 @@ photo.20.author: hamamatsu.chiita
 photo.20.commitdate: 2023/2/24
 photo.20.link: https://www.instagram.com/hamamatsu.chiita/
 photo.20.tags: baby, mofumofu, peek, sample
-photo.21: ig://CtBt5rKvCNd/m
-photo.21.author: hamamatsu.chiita
-photo.21.commitdate: 2023/6/10
-photo.21.link: https://www.instagram.com/hamamatsu.chiita/
-photo.21.tags: close-up, lips, portrait, sample, smile, whiskers
-photo.22: https://www.instagram.com/p/CqNa-9CvwWJ/media/?size=m
-photo.22.author: kotata_513
-photo.22.link: https://www.instagram.com/kotata_513/
-photo.22.tags: climb, paws, portrait
+photo.21: ig://CqNa-9CvwWJ/m
+photo.21.author: kotata_513
+photo.21.commitdate: 2023/6/20
+photo.21.link: https://www.instagram.com/kotata_513/
+photo.21.tags: climb, paws, portrait
+photo.22: ig://CtBt5rKvCNd/m
+photo.22.author: hamamatsu.chiita
+photo.22.commitdate: 2023/6/10
+photo.22.link: https://www.instagram.com/hamamatsu.chiita/
+photo.22.tags: close-up, lips, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13
