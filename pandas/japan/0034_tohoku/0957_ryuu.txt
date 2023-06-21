@@ -599,26 +599,26 @@ photo.117.author: tohokusafaripark
 photo.117.commitdate: 2023/4/21
 photo.117.link: https://www.instagram.com/tohokusafaripark/
 photo.117.tags: laying down, sample, tail, tongue
-photo.118: https://www.instagram.com/p/CqkdauHPymD/media/?size=m
-photo.118.author: ssc6105
-photo.118.link: https://www.instagram.com/ssc6105/
-photo.118.tags: laying down, sample
-photo.119: https://www.instagram.com/p/CsgHtuBvEEr/media/?size=m
-photo.119.author: daniele.tokyo
-photo.119.link: https://www.instagram.com/daniele.tokyo/
-photo.119.tags: paws, portrait, sample
-photo.120: https://www.instagram.com/p/CsWRfT5vsuj/media/?size=m
-photo.120.author: mini_cochi
-photo.120.link: https://www.instagram.com/mini_cochi/
-photo.120.tags: bamboo, bite, peek, portrait, sample
-photo.121: https://www.instagram.com/p/CsQuYKRPmHq/media/?size=m
+photo.118: ig://CsQuYKRPmHq/m
+photo.118.author: daniele.tokyo
+photo.118.commitdate: 2023/6/20
+photo.118.link: https://www.instagram.com/daniele.tokyo/
+photo.118.tags: close-up, nose, sample, whiskers
+photo.119: ig://CsWRfT5vsuj/m
+photo.119.author: mini_cochi
+photo.119.commitdate: 2023/6/20
+photo.119.link: https://www.instagram.com/mini_cochi/
+photo.119.tags: bamboo, bite, peek, portrait, sample
+photo.120: ig://CsgHtuBvEEr/m
+photo.120.author: daniele.tokyo
+photo.120.commitdate: 2023/6/20
+photo.120.link: https://www.instagram.com/daniele.tokyo/
+photo.120.tags: paws, portrait, sample
+photo.121: ig://CtGvsFnvyCm/m
 photo.121.author: daniele.tokyo
+photo.121.commitdate: 2023/6/20
 photo.121.link: https://www.instagram.com/daniele.tokyo/
-photo.121.tags: close-up, nose, sample, whiskers
-photo.122: https://www.instagram.com/p/CtGvsFnvyCm/media/?size=m
-photo.122.author: daniele.tokyo
-photo.122.link: https://www.instagram.com/daniele.tokyo/
-photo.122.tags: paws, sample, tongue, whiskers
+photo.121.tags: paws, sample, tongue, whiskers
 species: 2
 studbook.id: unknown
 zoo: 34

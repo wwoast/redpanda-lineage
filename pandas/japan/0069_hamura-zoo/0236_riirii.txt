@@ -294,12 +294,14 @@ photo.56.author: ssc6105
 photo.56.commitdate: 2023/3/23
 photo.56.link: https://www.instagram.com/ssc6105/
 photo.56.tags: apple time, paws, sample, toys, whiskers
-photo.57: https://www.instagram.com/p/Cs1Epjwv7iH/media/?size=m
+photo.57: ig://Cs1Epjwv7iH/m
 photo.57.author: gloryeui
+photo.57.commitdate: 2023/6/20
 photo.57.link: https://www.instagram.com/gloryeui/
 photo.57.tags: portrait, sample, whiskers
-photo.58: https://www.instagram.com/p/Cs8nzMVPVkl/media/?size=m
+photo.58: ig://Cs8nzMVPVkl/m
 photo.58.author: tamazoowalking
+photo.58.commitdate: 2023/6/20
 photo.58.link: https://www.instagram.com/tamazoowalking/
 photo.58.tags: sample, tail, whiskers
 species: 2

@@ -598,8 +598,9 @@ photo.118.author: itsuak
 photo.118.commitdate: 2023/5/4
 photo.118.link: https://www.instagram.com/itsuak/
 photo.118.tags: door, home, portrait, sample, smile
-photo.119: https://www.instagram.com/p/CsdLtTtPgr0/media/?size=m
+photo.119: ig://CsdLtTtPgr0/m
 photo.119.author: itsuak
+photo.119.commitdate: 2023/6/20
 photo.119.link: https://www.instagram.com/itsuak/
 photo.119.tags: bear worm, laying down, paws, sample
 species: 2

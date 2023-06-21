@@ -238,8 +238,9 @@ photo.45.author: miis_98
 photo.45.commitdate: 2023/1/27
 photo.45.link: https://www.instagram.com/miis_98/
 photo.45.tags: mofumofu, laying down, paws, portrait, sample, smile
-photo.46: https://www.instagram.com/p/CtF-ajXPM0B/media/?size=m
+photo.46: ig://CtF-ajXPM0B/m
 photo.46.author: nasu_animal_kingdom
+photo.46.commitdate: 2023/6/20
 photo.46.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.46.tags: apple time, mofumofu, sample, whiskers
 species: 2

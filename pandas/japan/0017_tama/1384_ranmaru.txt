@@ -98,13 +98,15 @@ photo.17.author: tamazoowalking
 photo.17.commitdate: 2023/5/3
 photo.17.link: https://www.instagram.com/tamazoowalking/
 photo.17.tags: paws, portrait, sample, slobber, whiskers
-photo.18: https://www.instagram.com/p/Cs3PL3dvrTH/media/?size=m
-photo.18.author: osopanda551
-photo.18.link: https://www.instagram.com/osopanda551/
-photo.18.tags: bamboo, paws, portrait, sample
-photo.19: https://www.instagram.com/p/Cs3L_Rmv1Gw/media/?size=m
-photo.19.author: tamazoowalking
-photo.19.link: https://www.instagram.com/tamazoowalking/
-photo.19.tags: bamboo, close-up, peek, sample
+photo.18: ig://Cs3L_Rmv1Gw/m
+photo.18.author: tamazoowalking
+photo.18.commitdate: 2023/6/20
+photo.18.link: https://www.instagram.com/tamazoowalking/
+photo.18.tags: bamboo, close-up, peek, sample
+photo.19: ig://Cs3PL3dvrTH/m
+photo.19.author: osopanda551
+photo.19.commitdate: 2023/6/20
+photo.19.link: https://www.instagram.com/osopanda551/
+photo.19.tags: bamboo, paws, portrait, sample
 species: 2
 zoo: 17

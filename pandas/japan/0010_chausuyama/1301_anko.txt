@@ -343,8 +343,9 @@ photo.66.author: redpan22
 photo.66.commitdate: 2023/4/22
 photo.66.link: https://www.instagram.com/redpan22/
 photo.66.tags: mofumofu, sample
-photo.67: https://www.instagram.com/p/Cs8gYZ8vfG4/media/?size=m
+photo.67: ig://Cs8gYZ8vfG4/m
 photo.67.author: shigeko0531
+photo.67.commitdate: 2023/6/20
 photo.67.link: https://www.instagram.com/shigeko0531/
 photo.67.tags: close-up, flowers, peek, sample, whiskers
 species: 2

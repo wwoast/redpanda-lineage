@@ -301,70 +301,71 @@ photo.58.author: otenba_redpanda
 photo.58.commitdate: 2022/5/27
 photo.58.link: https://www.instagram.com/otenba_redpanda/
 photo.58.tags: paws, portrait, sample, whiskers
-photo.59: ig://Cex3CbzLq9e/m
-photo.59.author: otenba_redpanda
-photo.59.commitdate: 2022/6/21
-photo.59.link: https://www.instagram.com/otenba_redpanda/
-photo.59.tags: bamboo, close-up, muzzle, portrait, sample, whiskers
-photo.60: ig://CeyPKgVPuhr/m
-photo.60.author: kotata_513
-photo.60.commitdate: 2022/8/30
-photo.60.link: https://www.instagram.com/kotata_513/
-photo.60.tags: bamboo, portrait, sample, tongue
-photo.61: ig://Cgg953XLAdw/m
-photo.61.author: mini_cochi
-photo.61.commitdate: 2022/8/8
-photo.61.link: https://www.instagram.com/mini_cochi/
-photo.61.tags: door, paws, portrait, sample, whiskers
-photo.62: ig://CgiLEUXrx3d/m
-photo.62.author: otenba_redpanda
+photo.59: ig://CdVvklEL9tp/m
+photo.59.author: mini_cochi
+photo.59.commitdate: 2023/6/20
+photo.59.link: https://www.instagram.com/mini_cochi/
+photo.59.tags: portrait, sample, tree
+photo.60: ig://Cex3CbzLq9e/m
+photo.60.author: otenba_redpanda
+photo.60.commitdate: 2022/6/21
+photo.60.link: https://www.instagram.com/otenba_redpanda/
+photo.60.tags: bamboo, close-up, muzzle, portrait, sample, whiskers
+photo.61: ig://CeyPKgVPuhr/m
+photo.61.author: kotata_513
+photo.61.commitdate: 2022/8/30
+photo.61.link: https://www.instagram.com/kotata_513/
+photo.61.tags: bamboo, portrait, sample, tongue
+photo.62: ig://Cgg953XLAdw/m
+photo.62.author: mini_cochi
 photo.62.commitdate: 2022/8/8
-photo.62.link: https://www.instagram.com/otenba_redpanda/
-photo.62.tags: bamboo, portrait, sample, whiskers
-photo.63: ig://ChgBkkwBr-K/m
-photo.63.author: alto0908
-photo.63.commitdate: 2022/8/31
-photo.63.link: https://www.instagram.com/alto0908/
-photo.63.tags: peek, portrait, sample, tail, whiskers
-photo.64: ig://Cl3TgdlPXFA/m
-photo.64.author: ssc6105
-photo.64.commitdate: 2023/3/11
-photo.64.link: https://www.instagram.com/ssc6105/
-photo.64.tags: sample, tongue, whiskers
-photo.65: ig://CmeIVSmvqgZ/m
-photo.65.author: mini_cochi
-photo.65.commitdate: 2023/1/11
-photo.65.link: https://www.instagram.com/mini_cochi/
-photo.65.tags: paws, portrait, whiskers
-photo.66: ig://CndsmjkPNXf/m
-photo.66.author: ck.chie
-photo.66.commitdate: 2023/3/9
-photo.66.link: https://www.instagram.com/ck.chie/
-photo.66.tags: hammock
-photo.67: ig://CnzB7rlPHd8/m
-photo.67.author: mini_cochi
+photo.62.link: https://www.instagram.com/mini_cochi/
+photo.62.tags: door, paws, portrait, sample, whiskers
+photo.63: ig://CgiLEUXrx3d/m
+photo.63.author: otenba_redpanda
+photo.63.commitdate: 2022/8/8
+photo.63.link: https://www.instagram.com/otenba_redpanda/
+photo.63.tags: bamboo, portrait, sample, whiskers
+photo.64: ig://ChgBkkwBr-K/m
+photo.64.author: alto0908
+photo.64.commitdate: 2022/8/31
+photo.64.link: https://www.instagram.com/alto0908/
+photo.64.tags: peek, portrait, sample, tail, whiskers
+photo.65: ig://Cl3TgdlPXFA/m
+photo.65.author: ssc6105
+photo.65.commitdate: 2023/3/11
+photo.65.link: https://www.instagram.com/ssc6105/
+photo.65.tags: sample, tongue, whiskers
+photo.66: ig://CmeIVSmvqgZ/m
+photo.66.author: mini_cochi
+photo.66.commitdate: 2023/1/11
+photo.66.link: https://www.instagram.com/mini_cochi/
+photo.66.tags: paws, portrait, whiskers
+photo.67: ig://CndsmjkPNXf/m
+photo.67.author: ck.chie
 photo.67.commitdate: 2023/3/9
-photo.67.link: https://www.instagram.com/mini_cochi/
-photo.67.tags: paws, portrait, sample, whiskers
-photo.68: ig://CoWjaihvjdM/m
-photo.68.author: tamazoowalking
-photo.68.commitdate: 2023/2/24
-photo.68.link: https://www.instagram.com/tamazoowalking/
-photo.68.tags: close-up, portrait, sample, whiskers
-photo.69: ig://CrR7RZDveKj/m
+photo.67.link: https://www.instagram.com/ck.chie/
+photo.67.tags: hammock
+photo.68: ig://CnzB7rlPHd8/m
+photo.68.author: mini_cochi
+photo.68.commitdate: 2023/3/9
+photo.68.link: https://www.instagram.com/mini_cochi/
+photo.68.tags: paws, portrait, sample, whiskers
+photo.69: ig://CoWjaihvjdM/m
 photo.69.author: tamazoowalking
-photo.69.commitdate: 2023/5/4
+photo.69.commitdate: 2023/2/24
 photo.69.link: https://www.instagram.com/tamazoowalking/
-photo.69.tags: hammock, mofumofu, sample, tail, whiskers
-photo.70: ig://Crr5EwBv-Ty/m
-photo.70.author: ck.chie
-photo.70.commitdate: 2023/5/3
-photo.70.link: https://www.instagram.com/ck.chie/
-photo.70.tags: mofumofu, portrait, sample, tail, whiskers
-photo.71: https://www.instagram.com/p/CdVvklEL9tp/media/?size=m
-photo.71.author: mini_cochi
-photo.71.link: https://www.instagram.com/mini_cochi/
-photo.71.tags: portrait, sample, tree
+photo.69.tags: close-up, portrait, sample, whiskers
+photo.70: ig://CrR7RZDveKj/m
+photo.70.author: tamazoowalking
+photo.70.commitdate: 2023/5/4
+photo.70.link: https://www.instagram.com/tamazoowalking/
+photo.70.tags: hammock, mofumofu, sample, tail, whiskers
+photo.71: ig://Crr5EwBv-Ty/m
+photo.71.author: ck.chie
+photo.71.commitdate: 2023/5/3
+photo.71.link: https://www.instagram.com/ck.chie/
+photo.71.tags: mofumofu, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

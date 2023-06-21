@@ -399,8 +399,9 @@ photo.78.author: wumpwoast
 photo.78.commitdate: 2023/4/9
 photo.78.link: https://www.instagram.com/wumpwoast/
 photo.78.tags: close-up, dish, lunch time, peek, portrait, sample
-photo.79: https://www.instagram.com/p/CsY9fNyrNM9/media/?size=m
+photo.79: ig://CsY9fNyrNM9/m
 photo.79.author: djjohnbeaver
+photo.79.commitdate: 2023/6/20
 photo.79.link: https://www.instagram.com/djjohnbeaver/
 photo.79.tags: bamboo, close-up, sample, whiskers
 species: 1
