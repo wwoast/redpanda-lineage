@@ -1118,8 +1118,9 @@ photo.223.author: i.satosato
 photo.223.commitdate: 2023/5/29
 photo.223.link: https://www.instagram.com/i.satosato/
 photo.223.tags: mofumofu, portrait, sample
-photo.224: https://www.instagram.com/p/CppGpXLPueI/media/?size=m
+photo.224: ig://CppGpXLPueI/m
 photo.224.author: falcon_tenor
+photo.224.commitdate: 2023/6/25
 photo.224.link: https://www.instagram.com/falcon_tenor/
 photo.224.tags: paws, portrait, sample, whiskers
 species: 2

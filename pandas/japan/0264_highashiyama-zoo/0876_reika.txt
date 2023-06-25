@@ -628,15 +628,16 @@ photo.123.author: fetorus_mami
 photo.123.commitdate: 2023/3/6
 photo.123.link: https://www.instagram.com/fetorus_mami/
 photo.123.tags: apple time, paws, sample, smile, tree, whiskers
-photo.124: ig://CqJSwSmhO6o/m
-photo.124.author: hamamatsu.chiita
-photo.124.commitdate: 2023/4/21
-photo.124.link: https://www.instagram.com/hamamatsu.chiita/
-photo.124.tags: close-up, portrait, sample, whiskers
-photo.125: https://www.instagram.com/p/CppbpgJvb-z/media/?size=m
-photo.125.author: gloryeui
-photo.125.link: https://www.instagram.com/gloryeui/
-photo.125.tags: portrait, sample, whiskers
+photo.124: ig://CppbpgJvb-z/m
+photo.124.author: gloryeui
+photo.124.commitdate: 2023/6/25
+photo.124.link: https://www.instagram.com/gloryeui/
+photo.124.tags: portrait, sample, whiskers
+photo.125: ig://CqJSwSmhO6o/m
+photo.125.author: hamamatsu.chiita
+photo.125.commitdate: 2023/4/21
+photo.125.link: https://www.instagram.com/hamamatsu.chiita/
+photo.125.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

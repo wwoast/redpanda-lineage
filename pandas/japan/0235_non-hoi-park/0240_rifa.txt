@@ -1858,15 +1858,16 @@ photo.370.author: gloryeui
 photo.370.commitdate: 2023/5/29
 photo.370.link: https://www.instagram.com/gloryeui/
 photo.370.tags: bamboo, bite, paws, portrait
-photo.371: ig://CrmSd0mhZfp/m
-photo.371.author: miis_98
-photo.371.commitdate: 2023/5/3
-photo.371.link: https://www.instagram.com/miis_98/
-photo.371.tags: laying down, peek, tree, wet, whiskers
-photo.372: https://www.instagram.com/p/CppWxG9vTr6/media/?size=m
-photo.372.author: kotata_513
-photo.372.link: https://www.instagram.com/kotata_513/
-photo.372.tags: paws, portrait, sample, whiskers
+photo.371: ig://CppWxG9vTr6/m
+photo.371.author: kotata_513
+photo.371.commitdate: 2023/6/25
+photo.371.link: https://www.instagram.com/kotata_513/
+photo.371.tags: paws, portrait, sample, whiskers
+photo.372: ig://CrmSd0mhZfp/m
+photo.372.author: miis_98
+photo.372.commitdate: 2023/5/3
+photo.372.link: https://www.instagram.com/miis_98/
+photo.372.tags: laying down, peek, tree, wet, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235
