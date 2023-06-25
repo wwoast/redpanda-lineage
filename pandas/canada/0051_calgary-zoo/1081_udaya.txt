@@ -1,6 +1,6 @@
 [panda]
 _id: 1081
-birthday: 2019/6/30
+birthday: 2019/6/20
 birthplace: 51
 children: 1396, 1397
 commitdate: 2019/12/29
@@ -190,4 +190,5 @@ photo.34.commitdate: 2022/4/12
 photo.34.link: https://www.instagram.com/westcoast_kathy/
 photo.34.tags: peek, snow, whiskers
 species: 2
+studbook.id: 1928
 zoo: 51
