@@ -1,0 +1,18 @@
+[panda]
+_id: 1416
+birthday: 2019/7/1
+birthplace: 105
+children: none
+commitdate: 2023/6/23
+en.name: Binsa
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ビンサ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 1
+studbook.id: 1937
+zoo: 105
