@@ -16,6 +16,8 @@ litter: 698
 location.1: 48, 2013/6/17
 location.2: 107, 2014/3/27
 location.3: 80, 2016/11/29
+location.4: 105, 2022/6/1
 species: 1
 studbook.id: 1324
-zoo: 80
+uncertinty: location.4 move date
+zoo: 105
