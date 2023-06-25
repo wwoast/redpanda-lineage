@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 1225
 location.1: 154, 2018/6/21
 location.2: 113, 2019/7/1
+location.3: 108, 2021/1/1
 photo.1: ig://CHq3J1Znw6Z/m
 photo.1.author: potterparkzoo
 photo.1.commitdate: 2020/11/18
@@ -32,5 +33,5 @@ photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: flowers, paws, smile, whiskers
 species: 1
 studbook.id: 1816
-uncertainty: location.2 date
+uncertainty: location.2 date, location.3 date (swap w id 629?)
 zoo: 113
