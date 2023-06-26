@@ -19,12 +19,16 @@ photo.1: ig://CHsOuddLKpU/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/11/18
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: close-up, portrait, profile, whiskers, white face
+photo.1.tags: close-up, portrait, whiskers, white face
 photo.2: ig://CXbgRMnLGRB/m
 photo.2.author: Kim Pruim
 photo.2.commitdate: 2022/6/6
 photo.2.link: https://www.instagram.com/zoogirl22/
 photo.2.tags: dish, lunch time, peek, white face
+photo.3: https://www.instagram.com/p/CtuZi6_vZFk/media/?size=m
+photo.3.author: indianapoliszoo
+photo.3.link: https://www.instagram.com/indianapoliszoo/
+photo.3.tags: portrait, sample, profile, smile, white face
 species: 1
 studbook.id: 0418
 zoo: 158
