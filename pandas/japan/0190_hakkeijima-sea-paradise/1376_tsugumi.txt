@@ -193,8 +193,9 @@ photo.36.author: miis_98
 photo.36.commitdate: 2023/6/20
 photo.36.link: https://www.instagram.com/miis_98/
 photo.36.tags: close-up, laying down, portrait, sample, upside-down
-photo.37: https://www.instagram.com/p/CthH-7fPM5a/media/?size=m
+photo.37: ig://CthH-7fPM5a/m
 photo.37.author: miis_98
+photo.37.commitdate: 2023/6/25
 photo.37.link: https://www.instagram.com/miis_98/
 photo.37.tags: home, portrait, sample
 species: 2

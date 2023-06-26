@@ -42,8 +42,9 @@ photo.6.author: panda.daisuki
 photo.6.commitdate: 2020/6/24
 photo.6.link: https://www.instagram.com/panda.daisuki/
 photo.6.tags: paws, portrait, smile, tail, tongue, tree
-photo.7: https://www.instagram.com/p/CtfyFjYv4Wq/media/?size=m
+photo.7: ig://CtfyFjYv4Wq/m
 photo.7.author: chausuyamazoo
+photo.7.commitdate: 2023/6/25
 photo.7.link: https://www.instagram.com/chausuyamazoo/
 photo.7.tags: itchy, laying down, paws, tail
 species: 2

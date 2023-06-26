@@ -25,8 +25,9 @@ photo.2.author: Kim Pruim
 photo.2.commitdate: 2022/6/6
 photo.2.link: https://www.instagram.com/zoogirl22/
 photo.2.tags: dish, lunch time, peek, white face
-photo.3: https://www.instagram.com/p/CtuZi6_vZFk/media/?size=m
+photo.3: ig://CtuZi6_vZFk/m
 photo.3.author: indianapoliszoo
+photo.3.commitdate: 2023/6/25
 photo.3.link: https://www.instagram.com/indianapoliszoo/
 photo.3.tags: portrait, sample, profile, smile, white face
 species: 1
