@@ -238,15 +238,16 @@ photo.45.author: miis_98
 photo.45.commitdate: 2023/1/27
 photo.45.link: https://www.instagram.com/miis_98/
 photo.45.tags: mofumofu, laying down, paws, portrait, sample, smile
-photo.46: ig://CtF-ajXPM0B/m
-photo.46.author: nasu_animal_kingdom
-photo.46.commitdate: 2023/6/20
-photo.46.link: https://www.instagram.com/nasu_animal_kingdom/
-photo.46.tags: apple time, mofumofu, sample, whiskers
-photo.47: https://www.instagram.com/p/CrLcQyrvoKo/media/?size=m
-photo.47.author: panda.daisuki
-photo.47.link: https://www.instagram.com/panda.daisuki/
-photo.47.tags: apple time, paws, portrait, sample, whiskers
+photo.46: ig://CrLcQyrvoKo/m
+photo.46.author: panda.daisuki
+photo.46.commitdate: 2023/6/30
+photo.46.link: https://www.instagram.com/panda.daisuki/
+photo.46.tags: apple time, paws, portrait, sample, whiskers
+photo.47: ig://CtF-ajXPM0B/m
+photo.47.author: nasu_animal_kingdom
+photo.47.commitdate: 2023/6/20
+photo.47.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.47.tags: apple time, mofumofu, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53

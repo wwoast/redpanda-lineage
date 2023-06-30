@@ -276,24 +276,25 @@ photo.53.author: itsuak
 photo.53.commitdate: 2023/5/29
 photo.53.link: https://www.instagram.com/itsuak/
 photo.53.tags: portrait, sample, whiskers
-photo.54: ig://CrgJ1uaPemI/m
-photo.54.author: makimaru18
-photo.54.commitdate: 2023/5/3
-photo.54.link: https://www.instagram.com/makimaru18/
-photo.54.tags: paws, portrait, sample, whiskers
-photo.55: ig://CrrIGWIBHLb/m
-photo.55.author: hamamatsu.chiita
+photo.54: ig://CrC-QB7vM7f/m
+photo.54.author: itsuak
+photo.54.commitdate: 2023/6/30
+photo.54.link: https://www.instagram.com/itsuak/
+photo.54.tags: mofumofu, portrait, sample, whiskers
+photo.55: ig://CrgJ1uaPemI/m
+photo.55.author: makimaru18
 photo.55.commitdate: 2023/5/3
-photo.55.link: https://www.instagram.com/hamamatsu.chiita/
-photo.55.tags: mofumofu, sample, wink
-photo.56: ig://CtpUQHBBw2g/m
+photo.55.link: https://www.instagram.com/makimaru18/
+photo.55.tags: paws, portrait, sample, whiskers
+photo.56: ig://CrrIGWIBHLb/m
 photo.56.author: hamamatsu.chiita
-photo.56.commitdate: 2023/6/25
+photo.56.commitdate: 2023/5/3
 photo.56.link: https://www.instagram.com/hamamatsu.chiita/
-photo.56.tags: mofumofu, portrait, sample, whiskers
-photo.57: https://www.instagram.com/p/CrC-QB7vM7f/media/?size=m
-photo.57.author: itsuak
-photo.57.link: https://www.instagram.com/itsuak/
+photo.56.tags: mofumofu, sample, wink
+photo.57: ig://CtpUQHBBw2g/m
+photo.57.author: hamamatsu.chiita
+photo.57.commitdate: 2023/6/25
+photo.57.link: https://www.instagram.com/hamamatsu.chiita/
 photo.57.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 12100

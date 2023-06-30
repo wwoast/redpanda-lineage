@@ -456,8 +456,9 @@ photo.89.author: miis_98
 photo.89.commitdate: 2023/4/21
 photo.89.link: https://www.instagram.com/miis_98/
 photo.89.tags: apple time, bite, paws, sample, standing, whiskers
-photo.90: https://www.instagram.com/p/Cr5t5ewP4Fq/media/?size=m
+photo.90: ig://Cr5t5ewP4Fq/m
 photo.90.author: mari_neko3
+photo.90.commitdate: 2023/6/30
 photo.90.link: https://www.instagram.com/mari_neko3/
 photo.90.tags: close-up, portrait, sample, whiskers
 species: 2
