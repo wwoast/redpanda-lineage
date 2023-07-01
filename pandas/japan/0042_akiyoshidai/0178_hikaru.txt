@@ -306,15 +306,16 @@ photo.59.author: redpanda_nippon_takashi
 photo.59.commitdate: 2023/3/23
 photo.59.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.59.tags: bamboo, peek, portrait, sample, whiskers
-photo.60: ig://CtGHHBPvneU/m
-photo.60.author: re_ichimaru
-photo.60.commitdate: 2023/6/10
-photo.60.link: https://www.instagram.com/re_ichimaru/
-photo.60.tags: paws, sample, smile, whiskers
-photo.61: https://www.instagram.com/p/Cr58JmUPKad/media/?size=m
-photo.61.author: kojikoji2011
-photo.61.link: https://www.instagram.com/kojikoji2011/
-photo.61.tags: portrait, sample, whiskers
+photo.60: ig://Cr58JmUPKad/m
+photo.60.author: kojikoji2011
+photo.60.commitdate: 2023/6/30
+photo.60.link: https://www.instagram.com/kojikoji2011/
+photo.60.tags: portrait, sample, whiskers
+photo.61: ig://CtGHHBPvneU/m
+photo.61.author: re_ichimaru
+photo.61.commitdate: 2023/6/10
+photo.61.link: https://www.instagram.com/re_ichimaru/
+photo.61.tags: paws, sample, smile, whiskers
 species: 2
 studbook.id: 1784
 zoo: 42

@@ -768,8 +768,9 @@ photo.151.author: tamazoowalking
 photo.151.commitdate: 2023/5/4
 photo.151.link: https://www.instagram.com/tamazoowalking/
 photo.151.tags: bamboo, mofumofu, paws, sample, whiskers
-photo.152: https://www.instagram.com/p/Cr8Gmyfv-2J/media/?size=m
+photo.152: ig://Cr8Gmyfv-2J/m
 photo.152.author: mini_cochi
+photo.152.commitdate: 2023/6/30
 photo.152.link: https://www.instagram.com/mini_cochi/
 photo.152.tags: bamboo, portrait, sample, shoots
 species: 2

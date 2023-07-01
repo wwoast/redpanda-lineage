@@ -598,15 +598,16 @@ photo.118.author: itsuak
 photo.118.commitdate: 2023/5/4
 photo.118.link: https://www.instagram.com/itsuak/
 photo.118.tags: door, home, portrait, sample, smile
-photo.119: ig://CsdLtTtPgr0/m
-photo.119.author: itsuak
-photo.119.commitdate: 2023/6/20
-photo.119.link: https://www.instagram.com/itsuak/
-photo.119.tags: bear worm, laying down, paws, sample
-photo.120: https://www.instagram.com/p/Cr0XSLFPque/media/?size=m
-photo.120.author: colette.jp
-photo.120.link: https://www.instagram.com/colette.jp/
-photo.120.tags: ear, home, laying down, portrait, sample
+photo.119: ig://Cr0XSLFPque/m
+photo.119.author: colette.jp
+photo.119.commitdate: 2023/6/30
+photo.119.link: https://www.instagram.com/colette.jp/
+photo.119.tags: ear, home, laying down, portrait, sample
+photo.120: ig://CsdLtTtPgr0/m
+photo.120.author: itsuak
+photo.120.commitdate: 2023/6/20
+photo.120.link: https://www.instagram.com/itsuak/
+photo.120.tags: bear worm, laying down, paws, sample
 species: 2
 studbook.id: 15159
 zoo: 46
