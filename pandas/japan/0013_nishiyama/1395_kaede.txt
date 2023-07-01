@@ -118,15 +118,16 @@ photo.21.author: kotata_513
 photo.21.commitdate: 2023/6/20
 photo.21.link: https://www.instagram.com/kotata_513/
 photo.21.tags: climb, paws, portrait
-photo.22: ig://CtBt5rKvCNd/m
-photo.22.author: hamamatsu.chiita
-photo.22.commitdate: 2023/6/10
-photo.22.link: https://www.instagram.com/hamamatsu.chiita/
-photo.22.tags: close-up, lips, portrait, sample, smile, whiskers
-photo.23: https://www.instagram.com/p/Cr4QoN1BZ9U/media/?size=m
-photo.23.author: tomo3700
-photo.23.link: https://www.instagram.com/tomo3700/
-photo.23.tags: flowers, mofumofu, portrait, sample
+photo.22: ig://Cr4QoN1BZ9U/m
+photo.22.author: tomo3700
+photo.22.commitdate: 2023/6/30
+photo.22.link: https://www.instagram.com/tomo3700/
+photo.22.tags: flowers, mofumofu, portrait, sample
+photo.23: ig://CtBt5rKvCNd/m
+photo.23.author: hamamatsu.chiita
+photo.23.commitdate: 2023/6/10
+photo.23.link: https://www.instagram.com/hamamatsu.chiita/
+photo.23.tags: close-up, lips, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13

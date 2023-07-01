@@ -315,8 +315,9 @@ photo.60.author: makimaru18
 photo.60.commitdate: 2023/6/18
 photo.60.link: https://www.instagram.com/makimaru18/
 photo.60.tags: mofumofu, portrait, sample, tongue
-photo.61: https://www.instagram.com/p/Cr4BZClhcyQ/media/?size=m
+photo.61: ig://Cr4BZClhcyQ/m
 photo.61.author: hamamatsu.chiita
+photo.61.commitdate: 2023/6/30
 photo.61.link: https://www.instagram.com/hamamatsu.chiita/
 photo.61.tags: close-up, mofumfu, portrait, sample
 species: 2
