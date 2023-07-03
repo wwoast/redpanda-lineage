@@ -2,6 +2,7 @@
 _id: media.61.mitsu-reimei
 commitdate: 2020/6/28
 panda.tags: 286, 959
+phoot.9.tags.286.location: 160, 230
 photo.1: ig://CBvENb0BwtB/l
 photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2020/6/28
@@ -58,9 +59,9 @@ photo.8.link: https://www.instagram.com/kisshan324/
 photo.8.tags: brothers, playing, surprise, siblings
 photo.8.tags.286.location: 205, 110
 photo.8.tags.959.location: 115, 270
-photo.9: https://www.instagram.com/p/Cr5imdtPrf9/media/?size=l
+photo.9: ig://Cr5imdtPrf9/l
 photo.9.author: jas_forever_love
+photo.9.commitdate: 2023/7/3
 photo.9.link: https://www.instagram.com/jas_forever_love/
 photo.9.tags: brothers, nose, siblings, twins
-phoot.9.tags.286.location: 160, 230
 photo.9.tags.959.location: 320, 230

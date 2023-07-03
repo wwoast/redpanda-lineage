@@ -768,14 +768,15 @@ photo.151.author: tamazoowalking
 photo.151.commitdate: 2023/5/4
 photo.151.link: https://www.instagram.com/tamazoowalking/
 photo.151.tags: bamboo, mofumofu, paws, sample, whiskers
-photo.152: ig://Cr8Gmyfv-2J/m
-photo.152.author: mini_cochi
-photo.152.commitdate: 2023/6/30
-photo.152.link: https://www.instagram.com/mini_cochi/
-photo.152.tags: bamboo, portrait, sample, shoots
-photo.153: https://www.instagram.com/p/Cr6y9EdhZko/media/?size=m
-photo.153.author: alto0908
-photo.153.link: https://www.instagram.com/alto0908/
-photo.153.tags: bamboo, paws, portrait, shoots
+photo.152: ig://Cr6y9EdhZko/m
+photo.152.author: alto0908
+photo.152.commitdate: 2023/7/3
+photo.152.link: https://www.instagram.com/alto0908/
+photo.152.tags: bamboo, paws, portrait, shoots
+photo.153: ig://Cr8Gmyfv-2J/m
+photo.153.author: mini_cochi
+photo.153.commitdate: 2023/6/30
+photo.153.link: https://www.instagram.com/mini_cochi/
+photo.153.tags: bamboo, portrait, sample, shoots
 species: 2
 zoo: 17

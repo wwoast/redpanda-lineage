@@ -191,8 +191,9 @@ photo.35.author: yuredpanda
 photo.35.commitdate: 2023/5/29
 photo.35.link: https://www.instagram.com/yuredpanda/
 photo.35.tags: paws, portrait, sample, smile
-photo.36: https://www.instagram.com/p/CrPxrQMviuK/media/?size=m
+photo.36: ig://CrPxrQMviuK/m
 photo.36.author: yuredpanda
+photo.36.commitdate: 2023/7/3
 photo.36.link: https://www.instagram.com/yuredpanda/
 photo.36.tags: bamboo, portrait, sample, techitechi
 species: 2

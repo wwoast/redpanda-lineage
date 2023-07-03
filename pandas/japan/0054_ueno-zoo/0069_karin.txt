@@ -551,15 +551,16 @@ photo.107.author: alto0908
 photo.107.commitdate: 2023/5/23
 photo.107.link: https://www.instagram.com/alto0908/
 photo.107.tags: door, home, layin down, mofumofu, portrait, sample, sleeping
-photo.108: ig://CrOXa_wPlqo/m
-photo.108.author: eos1089
-photo.108.commitdate: 2023/5/4
-photo.108.link: https://www.instagram.com/eos1089/
-photo.108.tags: paws, portrait, sample, standing, tail
-photo.109: https://www.instagram.com/p/Cqmhpntvwrk/media/?size=m
-photo.109.author: tamazoowalking
-photo.109.link: https://www.instagram.com/tamazoowalking/
-photo.109.tags: portrait, sample, tail, whiskers
+photo.108: ig://Cqmhpntvwrk/m
+photo.108.author: tamazoowalking
+photo.108.commitdate: 2023/7/3
+photo.108.link: https://www.instagram.com/tamazoowalking/
+photo.108.tags: portrait, sample, tail, whiskers
+photo.109: ig://CrOXa_wPlqo/m
+photo.109.author: eos1089
+photo.109.commitdate: 2023/5/4
+photo.109.link: https://www.instagram.com/eos1089/
+photo.109.tags: paws, portrait, sample, standing, tail
 species: 2
 studbook.id: 12118
 zoo: 54

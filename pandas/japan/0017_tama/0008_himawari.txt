@@ -2175,15 +2175,16 @@ photo.433.author: redpan22
 photo.433.commitdate: 2023/2/24
 photo.433.link: https://www.instagram.com/redpan22/
 photo.433.tags: climb, sample, snow, whiskers
-photo.434: ig://CrYUvQCPD6g/m
-photo.434.author: mari_neko3
-photo.434.commitdate: 2023/5/3
-photo.434.link: https://www.instagram.com/mari_neko3/
-photo.434.tags: portrait, tail, whiskers
-photo.435: https://www.instagram.com/p/CrTEFQSPyXe/media/?size=m
-photo.435.author: tamazoowalking
-photo.435.link: https://www.instagram.com/tamazoowalking/
-photo.435.tags: bridge, laying down, paws, tail
+photo.434: ig://CrTEFQSPyXe/m
+photo.434.author: tamazoowalking
+photo.434.commitdate: 2023/7/3
+photo.434.link: https://www.instagram.com/tamazoowalking/
+photo.434.tags: bridge, laying down, paws, tail
+photo.435: ig://CrYUvQCPD6g/m
+photo.435.author: mari_neko3
+photo.435.commitdate: 2023/5/3
+photo.435.link: https://www.instagram.com/mari_neko3/
+photo.435.tags: portrait, tail, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17
