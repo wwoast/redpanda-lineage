@@ -12,6 +12,8 @@ jp.name: アディラ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 96, 2020/7/14
+location.2: 95, 2022/10/3
 litter: 1193
 photo.1: ig://CDRQNviAfgr/m
 photo.1.author: thetorontozoo
@@ -209,4 +211,5 @@ photo.39.commitdate: 2022/10/6
 photo.39.link: https://www.instagram.com/thetorontozoo/
 photo.39.tags: peek, sample, tree, whiskers
 species: 2
-zoo: 96
+uncertainty: location.2 (estimated date)
+zoo: 95
