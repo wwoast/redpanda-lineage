@@ -4,13 +4,17 @@ birthday: 2017/7/1
 birthplace: 312
 children: unknown
 commitdate: 2023/5/21
-en.name: unknown
+en.name: Bansa
 en.nicknames: unknown
 en.othernames: unknown
-gender: unknown
+gender: f
 language.order: en
 litter: none
 location.1: 312, 2017/7/1
 location.2: 314, 2018/3/23
+photo.1: ig://BhiyYQvnURp/m
+photo.1.author: parcozoopuntaverde
+photo.1.commitdate: 2023/7/4
+photo.1.link: https://www.instagram.com/parcozoopuntaverde/
 species: 1
 zoo: 314
