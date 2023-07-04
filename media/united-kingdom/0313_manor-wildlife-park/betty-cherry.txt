@@ -1,0 +1,12 @@
+[media]
+# panda names in alphabetical order
+_id: media.313.betty-cherry
+# panda ids in numerical order
+panda.tags: 1411, 1412
+photo.1: ig://CYJhX19D-8j/m
+photo.1.author: manorwildlifepark
+photo.1.commitdate: 2023/7/4
+photo.1.link: https://www.instagram.com/manorwildlifepark/
+photo.1.tags: siblings, sisters
+photo.1.tags.1411.location: 500, 335
+photo.1.tags.1412.location: 200, 265
