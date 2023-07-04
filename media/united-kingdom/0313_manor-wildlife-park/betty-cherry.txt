@@ -1,7 +1,6 @@
 [media]
-# panda names in alphabetical order
 _id: media.313.betty-cherry
-# panda ids in numerical order
+commitdate: 2023/7/4
 panda.tags: 1411, 1412
 photo.1: ig://CYJhX19D-8j/m
 photo.1.author: manorwildlifepark
