@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: だいじ
 language.order: jp, en
 litter: 1209
+location.1: 53, 2020/7/18
+location.2: 14, 2023/7/5
 photo.1: ig://CGKFQfQBs86/m
 photo.1.author: ssc6105
 photo.1.commitdate: 2020/10/11
@@ -250,4 +252,4 @@ photo.47.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.47.tags: apple time, mofumofu, sample, whiskers
 species: 2
 studbook.id: unknown
-zoo: 53
+zoo: 14
