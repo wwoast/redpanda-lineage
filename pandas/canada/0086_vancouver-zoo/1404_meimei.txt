@@ -1,48 +1,48 @@
 [panda]
-_id: 1405
+_id: 1404
 birthday: 2022/6/1
 birthplace: 86
 children: none
 commitdate: 2023/2/26
-en.name: Baby
+en.name: Mei-Mei
 en.nicknames: none
-en.othernames: none
-gender: m
-jp.name: 赤ちゃん
+en.othernames: Mei Mei, Meimei, Mini Sakura
+gender: f
+jp.name: メイメイ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 1404
-photo.1: ig://Clpk8H6raSl/m
+litter: 1405
+photo.1: ig://CiTvtmsL2O0/m
 photo.1.author: westcoast_kathy
 photo.1.commitdate: 2023/2/26
 photo.1.link: https://www.instagram.com/westcoast_kathy/
-photo.1.tags: baby, bamboo, portrait, sample, snow
-photo.2: ig://CnInDe8PMA4/m
+photo.1.tags: baby, bamboo, mofumofu, portrait, sample
+photo.2: ig://CiWZ25ZrsLE/m
 photo.2.author: westcoast_kathy
 photo.2.commitdate: 2023/2/26
 photo.2.link: https://www.instagram.com/westcoast_kathy/
-photo.2.tags: baby, close-up, sample, whiskers
-photo.3: ig://Coqsv3OLH3R/m
+photo.2.tags: baby, peek, portrait, sample, tree
+photo.3: ig://Cid-ipmJ8GH/m
 photo.3.author: westcoast_kathy
 photo.3.commitdate: 2023/2/26
 photo.3.link: https://www.instagram.com/westcoast_kathy/
-photo.3.tags: baby, bamboo, mofumofu, paws, sample, standing, tail, whiskers
-photo.4: ig://CiRTFFFrehq/m
+photo.3.tags: baby, paws, portrait, sample, whiskers
+photo.4: ig://Cjgk9Qqvl2i/m
 photo.4.author: westcoast_kathy
 photo.4.commitdate: 2023/2/26
 photo.4.link: https://www.instagram.com/westcoast_kathy/
-photo.4.tags: baby, mofumofu, mother's day, tail
-photo.5: ig://CigjFLCpz5r/m
+photo.4.tags: baby, mofumofu, portrait, sample, tail
+photo.5: ig://CnDrRaxrjVC/m
 photo.5.author: westcoast_kathy
-photo.5.commitdate: 2023/2/26
+photo.5.commitdate: 2023/3/11
 photo.5.link: https://www.instagram.com/westcoast_kathy/
-photo.5.tags: baby, mofumofu, portrait, sample, whiskers
-photo.6: ig://Cjl-_YKJwAv/m
+photo.5.tags: baby, close-up, lips, mofumofu
+photo.6: ig://CqJ3WsPrgyR/m
 photo.6.author: westcoast_kathy
-photo.6.commitdate: 2023/2/26
+photo.6.commitdate: 2023/6/20
 photo.6.link: https://www.instagram.com/westcoast_kathy/
-photo.6.tags: baby, bamboo, close-up, mofumofu, portrait
+photo.6.tags: baby, flowers
 species: 2
 studbook.id: unknown
 uncertainty: exact birthday in June
