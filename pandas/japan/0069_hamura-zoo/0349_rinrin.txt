@@ -15,7 +15,6 @@ language.order: jp, en
 litter: 615
 location.1: 31, 2001/6/19
 location.2: 69, 2005/2/23
-phot.19.tags: laying down, old, sleeping
 photo.1: ig://BdjDGpgDoGO/m
 photo.1.author: _rifa_p
 photo.1.commitdate: 2018/10/9
@@ -109,6 +108,15 @@ photo.19: ig://Cs8fbLLvcyk/m
 photo.19.author: tamazoowalking
 photo.19.commitdate: 2023/6/20
 photo.19.link: https://www.instagram.com/tamazoowalking/
+photo.19.tags: laying down, old, sleeping
+photo.20: https://www.instagram.com/p/CtrHcx2ve7V/media/?size=m
+photo.20.author: mini_cochi
+photo.20.link: https://www.instagram.com/mini_cochi/
+photo.20.tags: apple time, birthday, dish, eye, mofumofu, old, portrait, sample
+photo.21: https://www.instagram.com/p/CtskU6uvucB/media/?size=m
+photo.21.author: tamazoowalking
+photo.21.link: https://www.instagram.com/tamazoowalking/
+photo.21.tags: dish, old, mofumofu, portrait, sample
 species: 2
 studbook.id: 01115
 zoo: 69
