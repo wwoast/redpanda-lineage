@@ -140,20 +140,21 @@ photo.25.author: nakacchi_desu
 photo.25.commitdate: 2023/6/9
 photo.25.link: https://www.instagram.com/nakacchi_desu/
 photo.25.tags: apple time, bamboo, cherry blossoms
-photo.26: ig://Cq_m1Ksh7Sy/m
-photo.26.author: hamiiiii831_
-photo.26.commitdate: 2023/4/22
-photo.26.link: https://www.instagram.com/hamiiiii831_/
-photo.26.tags: paws, sample, smile
-photo.27: ig://CslOPxlPaqc/m
-photo.27.author: makimaru18
-photo.27.commitdate: 2023/6/10
-photo.27.link: https://www.instagram.com/makimaru18/
-photo.27.tags: portrait, sample, smile, tail
-photo.28: https://www.instagram.com/p/CqzZzAUPg-t/media/?size=m
-photo.28.author: sakikukeco
-photo.28.link: https://www.instagram.com/sakikukeco/
-photo.28.tags: door, paws, portrait, sample
+photo.26: ig://CqzZzAUPg-t/m
+photo.26.author: sakikukeco
+photo.26.commitdate: 2023/7/14
+photo.26.link: https://www.instagram.com/sakikukeco/
+photo.26.tags: door, paws, portrait, sample
+photo.27: ig://Cq_m1Ksh7Sy/m
+photo.27.author: hamiiiii831_
+photo.27.commitdate: 2023/4/22
+photo.27.link: https://www.instagram.com/hamiiiii831_/
+photo.27.tags: paws, sample, smile
+photo.28: ig://CslOPxlPaqc/m
+photo.28.author: makimaru18
+photo.28.commitdate: 2023/6/10
+photo.28.link: https://www.instagram.com/makimaru18/
+photo.28.tags: portrait, sample, smile, tail
 species: 2
 studbook.id: 0685
 zoo: 52

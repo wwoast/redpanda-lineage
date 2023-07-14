@@ -801,25 +801,26 @@ photo.158.author: apple_jasmine33
 photo.158.commitdate: 2023/2/25
 photo.158.link: https://www.instagram.com/apple_jasmine33/
 photo.158.tags: close-up, dish, mofumofu, sample, whiskers
-photo.159: ig://Crudbfmv4b6/m
-photo.159.author: re_ichimaru
-photo.159.commitdate: 2023/5/3
-photo.159.link: https://www.instagram.com/re_ichimaru/
-photo.159.tags: paws, portrait, sample, tail
-photo.160: ig://Cr75gBcLVBE/m
-photo.160.author: kojikoji2011
-photo.160.commitdate: 2023/7/3
-photo.160.link: https://www.instagram.com/kojikoji2011/
-photo.160.tags: close-up, portrait, sample, smile
-photo.161: ig://CsAfoXEPKV1/m
-photo.161.author: re_ichimaru
+photo.159: ig://Cqxsg9bPb7m/m
+photo.159.author: kojikoji2011
+photo.159.commitdate: 2023/7/14
+photo.159.link: https://www.instagram.com/kojikoji2011/
+photo.159.tags: paws, portrait, sample, tongue, whiskers
+photo.160: ig://Crudbfmv4b6/m
+photo.160.author: re_ichimaru
+photo.160.commitdate: 2023/5/3
+photo.160.link: https://www.instagram.com/re_ichimaru/
+photo.160.tags: paws, portrait, sample, tail
+photo.161: ig://Cr75gBcLVBE/m
+photo.161.author: kojikoji2011
 photo.161.commitdate: 2023/7/3
-photo.161.link: https://www.instagram.com/re_ichimaru/
-photo.161.tags: appke time, sample, whiskers
-photo.162: https://www.instagram.com/p/Cqxsg9bPb7m/media/?size=m
-photo.162.author: kojikoji2011
-photo.162.link: https://www.instagram.com/kojikoji2011/
-photo.162.tags: paws, portrait, sample, tongue, whiskers
+photo.161.link: https://www.instagram.com/kojikoji2011/
+photo.161.tags: close-up, portrait, sample, smile
+photo.162: ig://CsAfoXEPKV1/m
+photo.162.author: re_ichimaru
+photo.162.commitdate: 2023/7/3
+photo.162.link: https://www.instagram.com/re_ichimaru/
+photo.162.tags: appke time, sample, whiskers
 species: 2
 studbook.id: 1695
 zoo: 42
