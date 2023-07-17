@@ -1,0 +1,18 @@
+[panda]
+_id: 1417
+birthday: 2023/6/9
+birthplace: 95
+children: none
+commitdate: 2023/7/16
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 95, 2023/6/9
+species: 2
+uncertainty: name (none given yet)
+zoo: 95
