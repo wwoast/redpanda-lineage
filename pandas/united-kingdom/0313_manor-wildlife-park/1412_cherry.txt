@@ -12,5 +12,40 @@ language.order: en
 litter: 1411, 1413
 location.1: 312, 2017/7/8
 location.2: 313, 2018/7/4
+photo.1: ig://BmYGu-hjkOZ/m
+photo.1.author: manorwildlifepark
+photo.1.commitdate: 2023/7/4
+photo.1.tags: tree, bite
+photo.1.link: https://www.instagram.com/manorwildlifepark/
+photo.2: ig://B8Jx0-ljis6/m
+photo.2.author: manorwildlifepark
+photo.2.commitdate: 2023/7/4
+photo.2.link: https://www.instagram.com/manorwildlifepark/
+photo.2.tags: dish, tongue
+photo.3: ig://B_K4cZXjb5x/m
+photo.3.author: manorwildlifepark
+photo.3.commitdate: 2023/7/4
+photo.3.link: https://www.instagram.com/manorwildlifepark/
+photo.3.tags: tree, flower
+photo.4: ig://CS9voz_gBp0/m
+photo.4.author: manorwildlifepark
+photo.4.commitdate: 2023/7/4
+photo.4.link: https://www.instagram.com/manorwildlifepark/
+photo.4.tags: close-up, nose
+photo.5: ig://CeA71uHshub/m
+photo.5.author: manorwildlifepark
+photo.5.commitdate: 2023/7/4
+photo.5.link: https://www.instagram.com/manorwildlifepark/
+photo.5.tags: tongue, close-up
+photo.6: ig://Ce0q3g0sAj8/m
+photo.6.author: manorwildlifepark
+photo.6.commitdate: 2023/7/4
+photo.6.link: https://www.instagram.com/manorwildlifepark/
+photo.6.tags: scale
+photo.7: ig://CimeBvuuk1a/m
+photo.7.author: manorwildlifepark
+photo.7.commitdate: 2023/7/4
+photo.7.link: https://www.instagram.com/manorwildlifepark/
+photo.7.tags: tree
 species: 1
 zoo: 313

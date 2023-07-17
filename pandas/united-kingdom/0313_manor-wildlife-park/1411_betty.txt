@@ -12,5 +12,19 @@ language.order: en
 litter: 1412, 1413
 location.1: 312, 2017/7/8
 location.2: 313, 2018/7/4
+photo.1: ig://Bm8y5e-DVR5/m
+photo.1.author: manorwildlifepark
+photo.1.commitdate: 2023/7/4
+photo.1.link: https://www.instagram.com/manorwildlifepark/
+photo.1.tags: tree
+photo.2: ig://BpMCgHoF2gK/m
+photo.2.author: manorwildlifepark
+photo.2.commitdate: 2023/7/4
+photo.2.link: https://www.instagram.com/manorwildlifepark/
+photo.3: ig://BtDIdealiE-/m
+photo.3.author: manorwildlifepark
+photo.3.commitdate: 2023/7/4
+photo.3.link: https://www.instagram.com/manorwildlifepark/
+photo.3.tags: close-up
 species: 1
 zoo: 313
