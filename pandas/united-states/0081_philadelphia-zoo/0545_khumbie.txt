@@ -117,15 +117,16 @@ photo.21.author: philadelphiazoo
 photo.21.commitdate: 2022/4/10
 photo.21.link: https://www.instagram.com/philadelphiazoo/
 photo.21.tags: bamboo, videolink, white face
-photo.22: ig://CdVYDP3MlLd/m
-photo.22.author: rossifari
-photo.22.commitdate: 2022/7/27
-photo.22.link: https://www.instagram.com/rossifari/
-photo.22.tags: bamboo, bite, close-up, mofumofu, portrait, tongue
-photo.23: https://www.instagram.com/p/Cc9WZVDNowE/media/?size=m
-photo.23.author: worldthathesees
-photo.23.link: https://www.instagram.com/worldthathesees/
-photo.23.tags: bear worm, laying down, paws, whiskers
+photo.22: ig://Cc9WZVDNowE/m
+photo.22.author: worldthathesees
+photo.22.commitdate: 2023/7/19
+photo.22.link: https://www.instagram.com/worldthathesees/
+photo.22.tags: bear worm, laying down, paws, whiskers
+photo.23: ig://CdVYDP3MlLd/m
+photo.23.author: rossifari
+photo.23.commitdate: 2022/7/27
+photo.23.link: https://www.instagram.com/rossifari/
+photo.23.tags: bamboo, bite, close-up, mofumofu, portrait, tongue
 species: 1
 studbook.id: 1415
 zoo: 81

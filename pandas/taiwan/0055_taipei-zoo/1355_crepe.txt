@@ -61,34 +61,35 @@ photo.9.author: yuredpanda
 photo.9.commitdate: 2022/6/6
 photo.9.link: https://www.instagram.com/yuredpanda/
 photo.9.tags: portrait, whiskers, white face
-photo.10: ig://CeSNNfxvKE4/m
+photo.10: ig://Cd44QCpFBB8/m
 photo.10.author: yuredpanda
-photo.10.commitdate: 2022/9/24
+photo.10.commitdate: 2023/7/19
 photo.10.link: https://www.instagram.com/yuredpanda/
-photo.10.tags: bamboo, peek, portrait, sample
-photo.11: ig://CeptobTvDH2/m
+photo.10.tags: whiskers, white face
+photo.11: ig://CeSNNfxvKE4/m
 photo.11.author: yuredpanda
-photo.11.commitdate: 2022/8/30
+photo.11.commitdate: 2022/9/24
 photo.11.link: https://www.instagram.com/yuredpanda/
-photo.11.tags: mofumofu, peek, portrait, sample, whiskers
-photo.12: ig://CgDkgjivOdc/m
+photo.11.tags: bamboo, peek, portrait, sample
+photo.12: ig://CeptobTvDH2/m
 photo.12.author: yuredpanda
-photo.12.commitdate: 2022/8/16
+photo.12.commitdate: 2022/8/30
 photo.12.link: https://www.instagram.com/yuredpanda/
-photo.12.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.13: ig://CiAeF-BhuxG/m
+photo.12.tags: mofumofu, peek, portrait, sample, whiskers
+photo.13: ig://CgDkgjivOdc/m
 photo.13.author: yuredpanda
-photo.13.commitdate: 2022/9/7
+photo.13.commitdate: 2022/8/16
 photo.13.link: https://www.instagram.com/yuredpanda/
-photo.13.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.14: ig://CjekMeRPxd8/m
+photo.13.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.14: ig://CiAeF-BhuxG/m
 photo.14.author: yuredpanda
-photo.14.commitdate: 2022/10/20
+photo.14.commitdate: 2022/9/7
 photo.14.link: https://www.instagram.com/yuredpanda/
-photo.14.tags: portrait, sample, smile, whiskers
-photo.15: https://www.instagram.com/p/Cd44QCpFBB8/media/?size=m
+photo.14.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.15: ig://CjekMeRPxd8/m
 photo.15.author: yuredpanda
+photo.15.commitdate: 2022/10/20
 photo.15.link: https://www.instagram.com/yuredpanda/
-photo.15.tags: whiskers, white face
+photo.15.tags: portrait, sample, smile, whiskers
 species: 2
 zoo: 55

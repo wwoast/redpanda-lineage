@@ -507,27 +507,31 @@ photo.98.author: kiarino51
 photo.98.commitdate: 2022/12/3
 photo.98.link: https://www.instagram.com/kiarino51/
 photo.98.tags: paws, portrait, sample, tongue
-photo.99: ig://CjnIWMoBp7J/m
-photo.99.author: colette.jp
-photo.99.commitdate: 2022/10/14
-photo.99.link: https://www.instagram.com/colette.jp/
-photo.99.tags: mofumofu, paws, portrait, sample, tongue, wave
-photo.100: https://www.instagram.com/p/CjoYZE5ha73/media/?size=m
-photo.100.author: fetorus_mami
-photo.100.link: https://www.instagram.com/fetorus_mami/
-photo.100.tags: apple time, sample, smile, tongue, whiskers
-photo.101: https://www.instagram.com/p/CjoYGZ_h5VM/media/?size=m
-photo.101.author: fetorus_mami
-photo.101.link: https://www.instagram.com/fetorus_mami/
-photo.101.tags: bamboo, mofumofu, sample, tongue
-photo.102: https://www.instagram.com/p/CjmzJnbBOqh/media/?size=m
-photo.102.author: kotume4935
-photo.102.link: https://www.instagram.com/kotume4935/
-photo.102.tags: paws, peek
-photo.103: https://www.instagram.com/p/CjnLFryhbS2/media/?size=m
-photo.103.author: apple_jasmine33
-photo.103.link: https://www.instagram.com/apple_jasmine33/
-photo.103.tags: apple time, whiskers
+photo.99: ig://CjmzJnbBOqh/m
+photo.99.author: kotume4935
+photo.99.commitdate: 2023/7/19
+photo.99.link: https://www.instagram.com/kotume4935/
+photo.99.tags: paws, peek
+photo.100: ig://CjnIWMoBp7J/m
+photo.100.author: colette.jp
+photo.100.commitdate: 2022/10/14
+photo.100.link: https://www.instagram.com/colette.jp/
+photo.100.tags: mofumofu, paws, portrait, sample, tongue, wave
+photo.101: ig://CjnLFryhbS2/m
+photo.101.author: apple_jasmine33
+photo.101.commitdate: 2023/7/19
+photo.101.link: https://www.instagram.com/apple_jasmine33/
+photo.101.tags: apple time, whiskers
+photo.102: ig://CjoYGZ_h5VM/m
+photo.102.author: fetorus_mami
+photo.102.commitdate: 2023/7/19
+photo.102.link: https://www.instagram.com/fetorus_mami/
+photo.102.tags: bamboo, mofumofu, sample, tongue
+photo.103: ig://CjoYZE5ha73/m
+photo.103.author: fetorus_mami
+photo.103.commitdate: 2023/7/19
+photo.103.link: https://www.instagram.com/fetorus_mami/
+photo.103.tags: apple time, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 12102
 zoo: 143

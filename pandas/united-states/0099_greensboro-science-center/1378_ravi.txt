@@ -38,8 +38,9 @@ photo.5.author: greensborosciencecenter
 photo.5.commitdate: 2022/8/11
 photo.5.link: https://www.instagram.com/greensborosciencecenter/
 photo.5.tags: peek, toys
-photo.6: https://www.instagram.com/p/CkLtGDnrlQ7/media/?size=m
+photo.6: ig://CkLtGDnrlQ7/m
 photo.6.author: greensborosciencecenter
+photo.6.commitdate: 2023/7/19
 photo.6.link: https://www.instagram.com/greensborosciencecenter/
 photo.6.tags: door, sample
 species: 2
