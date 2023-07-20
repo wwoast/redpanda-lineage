@@ -7,9 +7,10 @@ cn.name: 可麗露
 cn.nicknames: Lulu
 cn.othernames: none
 commitdate: 2022/4/20
+death: 2023/6/22
 en.name: Canele
-en.nicknames: Lulu
-en.othernames: Canelé, Kelilu
+en.nicknames: none
+en.othernames: Canelé, Kelilu, Lulu
 gender: m
 jp.name: カヌレ
 jp.nicknames: none
@@ -196,5 +197,65 @@ photo.36.author: yuredpanda
 photo.36.commitdate: 2023/7/3
 photo.36.link: https://www.instagram.com/yuredpanda/
 photo.36.tags: bamboo, portrait, sample, techitechi
+photo.37: https://www.instagram.com/p/CleBbeuP68C/media/?size=m
+photo.37.author: yuredpanda
+photo.37.link: https://www.instagram.com/yuredpanda/
+photo.37.tags: paws, portrait, sample, whiskers
+photo.38: https://www.instagram.com/p/Cm_XgLnvMk_/media/?size=m
+photo.38.author: yuredpanda
+photo.38.link: https://www.instagram.com/yuredpanda/
+photo.38.tags: blink, tail
+photo.39: https://www.instagram.com/p/Cp7CAg0v-6E/media/?size=m
+photo.39.author: yuredpanda
+photo.39.link: https://www.instagram.com/yuredpanda/
+photo.39.tags: close-up, portrait, sample, whiskers
+photo.40: https://www.instagram.com/p/CqqESeGvASZ/media/?size=m
+photo.40.author: yuredpanda
+photo.40.link: https://www.instagram.com/yuredpanda/
+photo.40.tags: bamboo, bite, paws, portrait, sample
+photo.41: https://www.instagram.com/p/Cpt_7JMvW__/media/?size=m
+photo.41.author: yuredpanda
+photo.41.link: https://www.instagram.com/yuredpanda/
+photo.41.tags: laying down, paws, portrait
+photo.42: https://www.instagram.com/p/CpjVKcyvFV6/media/?size=m
+photo.42.author: yuredpanda
+photo.42.link: https://www.instagram.com/yuredpanda/
+photo.42.tags: climb, mofumofu, paws, portrait, sample, tail, upside-down
+photo.43: https://www.instagram.com/p/Cpb-vLXPnNo/media/?size=m
+photo.43.author: yuredpanda
+photo.43.link: https://www.instagram.com/yuredpanda/
+photo.43.tags: bamboo, close-up, paws, portrait
+photo.44: https://www.instagram.com/p/CpP5HTivoQC/media/?size=m
+photo.44.author: yuredpanda
+photo.44.link: https://www.instagram.com/yuredpanda/
+photo.44.tags: bamboo, standing, tail
+photo.45: https://www.instagram.com/p/CpVBoJIvJfQ/media/?size=m
+photo.45.author: yuredpanda
+photo.45.link: https://www.instagram.com/yuredpanda/
+photo.45.tags: bamboo, bite, peek, portrait, sample, tongue
+photo.46: https://www.instagram.com/p/CpJYkjLvSWG/media/?size=m
+photo.46.author: yuredpanda
+photo.46.link: https://www.instagram.com/yuredpanda/
+photo.46.tags: bamboo, portrait, sample
+photo.47: https://www.instagram.com/p/CpL54q1vXCk/media/?size=m
+photo.47.author: yuredpanda
+photo.47.link: https://www.instagram.com/yuredpanda/
+photo.47.tags: blink, portrait, tail
+photo.48: https://www.instagram.com/p/Coh_zcqPKPb/media/?size=m
+photo.48.author: yuredpanda
+photo.48.link: https://www.instagram.com/yuredpanda/
+photo.48.tags: portrait, sample
+photo.49: https://www.instagram.com/p/Cna4v5cv0Ea/media/?size=m
+photo.49.author: yuredpanda
+photo.49.link: https://www.instagram.com/yuredpanda/
+photo.49.tags: bamboo, bite, paws, portrait, sample
+photo.50: https://www.instagram.com/p/CnJPRzdL6Cx/media/?size=m
+photo.50.author: yuredpanda
+photo.50.link: https://www.instagram.com/yuredpanda/
+photo.50.tags: close-up, portrait, upside-down
+photo.51: https://www.instagram.com/p/Ci-jBdwhvUI/media/?size=m
+photo.51.author: yuredpanda
+photo.51.link: https://www.instagram.com/yuredpanda/
+photo.51.tags: paws, portrait, standing, tail
 species: 2
 zoo: 55
