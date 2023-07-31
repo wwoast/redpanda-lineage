@@ -346,8 +346,9 @@ photo.66.author: eos1089
 photo.66.commitdate: 2022/8/31
 photo.66.link: https://www.instagram.com/eos1089/
 photo.66.tags: apple time, paws, portrait, sample, window
-photo.67: https://www.instagram.com/p/CnCQRbTvxpS/media/?size=m
+photo.67: ig://CnCQRbTvxpS/m
 photo.67.author: bee_san.13
+photo.67.commitdate: 2023/7/31
 photo.67.link: https://www.instagram.com/bee_san.13/
 photo.67.tags: lips
 species: 2
