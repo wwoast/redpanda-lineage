@@ -4,6 +4,7 @@ birthday: 2019/7/2
 birthplace: 282
 children: 1367
 commitdate: 2021/4/11
+death: 2023/7/19
 en.name: Tia
 en.nicknames: none
 en.othernames: none
@@ -44,5 +45,9 @@ photo.6.author: seelviahhtaz
 photo.6.commitdate: 2022/10/27
 photo.6.link: https://www.instagram.com/seelviahhtaz/
 photo.6.tags: bamboo, paws, whiskers
+photo.7: https://www.instagram.com/p/CvJCdDwo_lS/media/?size=m
+photo.7.author: seelviahhtaz
+photo.7.link: https://www.instagram.com/seelviahhtaz/
+photo.7.tags: mofumofu, peek, portrait, sample, whiskers
 species: 1
 zoo: 257

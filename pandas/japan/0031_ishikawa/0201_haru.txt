@@ -4,6 +4,7 @@ birthday: 2013/8/15
 birthplace: 42
 children: 1291
 commitdate: 2018/7/22
+death: 2023/7/29
 en.name: Haru
 en.nicknames: none
 en.othernames: none
@@ -345,6 +346,10 @@ photo.66.author: eos1089
 photo.66.commitdate: 2022/8/31
 photo.66.link: https://www.instagram.com/eos1089/
 photo.66.tags: apple time, paws, portrait, sample, window
+photo.67: https://www.instagram.com/p/CnCQRbTvxpS/media/?size=m
+photo.67.author: bee_san.13
+photo.67.link: https://www.instagram.com/bee_san.13/
+photo.67.tags: lips
 species: 2
 studbook.id: 13171
 zoo: 31
