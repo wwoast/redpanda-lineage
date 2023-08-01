@@ -512,8 +512,9 @@ photo.99.author: miis_98
 photo.99.commitdate: 2023/4/22
 photo.99.link: https://www.instagram.com/miis_98/
 photo.99.tags: apple time, close-up, keeper, portrait, sample, whiskers
-photo.100: https://www.instagram.com/p/CvLI6XRhph1/media/?size=m
+photo.100: ig://CvLI6XRhph1/m
 photo.100.author: hamamatsu.chiita
+photo.100.commitdate: 2023/7/31
 photo.100.link: https://www.instagram.com/hamamatsu.chiita/
 photo.100.tags: portrait, sample, whiskers
 species: 2

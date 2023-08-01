@@ -57,8 +57,9 @@ photo.9.author: miis_98
 photo.9.commitdate: 2023/6/25
 photo.9.link: https://www.instagram.com/miis_98/
 photo.9.tags: keeper, paws, sample, standing, tongue
-photo.10: https://www.instagram.com/p/CvIy7jrhUOr/media/?size=m
+photo.10: ig://CvIy7jrhUOr/m
 photo.10.author: alto0908
+photo.10.commitdate: 2023/7/31
 photo.10.link: https://www.instagram.com/alto0908/
 photo.10.tags: portrait, sample, smile, tongue
 species: 2

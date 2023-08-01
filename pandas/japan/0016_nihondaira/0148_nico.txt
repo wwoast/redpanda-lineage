@@ -807,8 +807,9 @@ photo.160.author: mini_cochi
 photo.160.commitdate: 2023/2/26
 photo.160.link: https://www.instagram.com/mini_cochi/
 photo.160.tags: bamboo, portrait, sample, whiskers
-photo.161: https://www.instagram.com/p/CvJQsz-hxek/media/?size=m
+photo.161: ig://CvJQsz-hxek/m
 photo.161.author: lesserpanda_shizuokacity_cp
+photo.161.commitdate: 2023/7/31
 photo.161.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.161.tags: bridge
 species: 2

@@ -116,8 +116,9 @@ photo.20.author: yuredpanda
 photo.20.commitdate: 2023/7/31
 photo.20.link: https://www.instagram.com/yuredpanda/
 photo.20.tags: close-up, portrait, sample, smile, whiskers
-photo.21: https://www.instagram.com/p/CvG8lR9P8g9/media/?size=m
+photo.21: ig://CvG8lR9P8g9/m
 photo.21.author: yuredpanda
+photo.21.commitdate: 2023/7/31
 photo.21.link: https://www.instagram.com/yuredpanda/
 photo.21.tags: paws, portrait, sample, smile, tail, tongue, whiskers
 species: 2

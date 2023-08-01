@@ -101,8 +101,9 @@ photo.17.author: aimless_amos
 photo.17.commitdate: 2023/3/23
 photo.17.link: https://www.instagram.com/capemaycountyzoo/
 photo.17.tags: keeper, portrait, standing, tail, whiskers
-photo.18: https://www.instagram.com/p/CvK7PJhvzPR/media/?size=m
+photo.18: ig://CvK7PJhvzPR/m
 photo.18.author: aimless_amos
+photo.18.commitdate: 2023/7/31
 photo.18.link: https://www.instagram.com/aimless_amos/
 photo.18.tags: close-up, paws, sample, standing, tail
 species: 1
