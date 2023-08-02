@@ -15,56 +15,60 @@ jp.othernames: none
 language.order: en, jp
 location.1: 282, 2019/7/2
 location.2: 257, 2020/8/31
-photo.1: ig://CdyX6znNMiq/m
+photo.1: ig://CUhQdTNqx_k/m
 photo.1.author: seelviahhtaz
-photo.1.commitdate: 2022/7/3
+photo.1.commitdate: 2023/8/1
 photo.1.link: https://www.instagram.com/seelviahhtaz/
-photo.1.tags: bamboo, portrait, profile, tail
-photo.2: ig://CfhAAtvNOFk/m
+photo.1.tags: bamboo, portrait, sample, tongue
+photo.2: ig://CUwtsZgKICy/m
 photo.2.author: seelviahhtaz
-photo.2.commitdate: 2022/7/28
+photo.2.commitdate: 2023/8/1
 photo.2.link: https://www.instagram.com/seelviahhtaz/
-photo.2.tags: laying down
-photo.3: ig://Ch2MqFksdrM/m
+photo.2.tags: peek, tail
+photo.3: ig://CaNPwP3Mbq8/m
 photo.3.author: seelviahhtaz
-photo.3.commitdate: 2022/10/27
+photo.3.commitdate: 2023/8/1
 photo.3.link: https://www.instagram.com/seelviahhtaz/
-photo.3.tags: laying down, tail
-photo.4: ig://Ch2NCVxMTSO/m
+photo.3.tags: laying down, smile, whiskers
+photo.4: ig://CdyX6znNMiq/m
 photo.4.author: seelviahhtaz
-photo.4.commitdate: 2022/10/27
+photo.4.commitdate: 2022/7/3
 photo.4.link: https://www.instagram.com/seelviahhtaz/
-photo.4.tags: laying down, tail
-photo.5: ig://Ch2NVzzMj3F/m
+photo.4.tags: bamboo, portrait, profile, tail
+photo.5: ig://CfhAAtvNOFk/m
 photo.5.author: seelviahhtaz
-photo.5.commitdate: 2022/10/27
+photo.5.commitdate: 2022/7/28
 photo.5.link: https://www.instagram.com/seelviahhtaz/
-photo.5.tags: laying down, smile, whiskers
-photo.6: ig://CinGE6dsv4T/m
+photo.5.tags: laying down
+photo.6: ig://Ch2MqFksdrM/m
 photo.6.author: seelviahhtaz
 photo.6.commitdate: 2022/10/27
 photo.6.link: https://www.instagram.com/seelviahhtaz/
-photo.6.tags: bamboo, paws, whiskers
-photo.7: ig://CvJCdDwo_lS/m
+photo.6.tags: laying down, tail
+photo.7: ig://Ch2NCVxMTSO/m
 photo.7.author: seelviahhtaz
-photo.7.commitdate: 2023/7/31
+photo.7.commitdate: 2022/10/27
 photo.7.link: https://www.instagram.com/seelviahhtaz/
-photo.7.tags: mofumofu, peek, portrait, sample, whiskers
-photo.8: https://www.instagram.com/p/CuGEnI2txA5/media/?size=m
+photo.7.tags: laying down, tail
+photo.8: ig://Ch2NVzzMj3F/m
 photo.8.author: seelviahhtaz
+photo.8.commitdate: 2022/10/27
 photo.8.link: https://www.instagram.com/seelviahhtaz/
-photo.8.tags: close-up
-photo.9: https://www.instagram.com/p/CUhQdTNqx_k/media/?size=m
+photo.8.tags: laying down, smile, whiskers
+photo.9: ig://CinGE6dsv4T/m
 photo.9.author: seelviahhtaz
+photo.9.commitdate: 2022/10/27
 photo.9.link: https://www.instagram.com/seelviahhtaz/
-photo.9.tags: bamboo, portrait, sample, tongue
-photo.10: https://www.instagram.com/p/CUwtsZgKICy/media/?size=m
+photo.9.tags: bamboo, paws, whiskers
+photo.10: ig://CuGEnI2txA5/m
 photo.10.author: seelviahhtaz
+photo.10.commitdate: 2023/8/1
 photo.10.link: https://www.instagram.com/seelviahhtaz/
-photo.10.tags: peek, tail
-photo.11: https://www.instagram.com/p/CaNPwP3Mbq8/media/?size=m
+photo.10.tags: close-up
+photo.11: ig://CvJCdDwo_lS/m
 photo.11.author: seelviahhtaz
+photo.11.commitdate: 2023/7/31
 photo.11.link: https://www.instagram.com/seelviahhtaz/
-photo.11.tags: laying down, smile, whiskers
+photo.11.tags: mofumofu, peek, portrait, sample, whiskers
 species: 1
 zoo: 257
