@@ -1,4 +1,4 @@
-[panda]
+b[panda]
 _id: 345
 birthday: 2018/7/15
 birthplace: 53
@@ -565,6 +565,10 @@ photo.110.author: hamiiiii831_
 photo.110.commitdate: 2023/4/8
 photo.110.link: https://www.instagram.com/hamiiiii831_/
 photo.110.tags: paws, sample
+photo.111: https://www.instagram.com/p/CNqkrgQBWyP/media/?size=m
+photo.111.author: hidehaya_biei
+photo.111.link: https://www.instagram.com/hidehaya_biei/
+photo.111.tags: paws, wave
 species: 2
 studbook.id: unknown
 zoo: 52
