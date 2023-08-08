@@ -766,8 +766,9 @@ photo.151.author: fetorus_mami
 photo.151.commitdate: 2023/4/21
 photo.151.link: https://www.instagram.com/fetorus_mami/
 photo.151.tags: paws, peek, sample, whiskers
-photo.152: https://www.instagram.com/p/Ct6p79mPPYy/media/?size=m
+photo.152: ig://Ct6p79mPPYy/m
 photo.152.author: fetorus_mami
+photo.152.commitdate: 2023/8/8
 photo.152.link: https://www.instagram.com/fetorus_mami/
 photo.152.tags: peek, tree
 species: 2

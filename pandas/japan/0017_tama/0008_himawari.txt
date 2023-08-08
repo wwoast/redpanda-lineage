@@ -2185,14 +2185,16 @@ photo.435.author: mari_neko3
 photo.435.commitdate: 2023/5/3
 photo.435.link: https://www.instagram.com/mari_neko3/
 photo.435.tags: portrait, tail, whiskers
-photo.436: https://www.instagram.com/p/CtjNFjyvJz6/media/?size=m
+photo.436: ig://CtitlGJvqZL/m
 photo.436.author: tamazoowalking
+photo.436.commitdate: 2023/8/8
 photo.436.link: https://www.instagram.com/tamazoowalking/
-photo.436.tags: portrait, sample, tree, whiskers
-photo.437: https://www.instagram.com/p/CtitlGJvqZL/media/?size=m
+photo.436.tags: laying down, paws, portrait, sample, tree
+photo.437: ig://CtjNFjyvJz6/m
 photo.437.author: tamazoowalking
+photo.437.commitdate: 2023/8/8
 photo.437.link: https://www.instagram.com/tamazoowalking/
-photo.437.tags: laying down, paws, portrait, sample, tree
+photo.437.tags: portrait, sample, tree, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

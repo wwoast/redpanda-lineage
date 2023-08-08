@@ -555,14 +555,16 @@ photo.108.author: phoenixzoo1971
 photo.108.commitdate: 2023/7/3
 photo.108.link: https://www.instagram.com/phoenixzoo1971/
 photo.108.tags: apple time, mofumofu, paws, portrait, sample
-photo.109: https://www.instagram.com/p/Ctn3cImvy4y/media/?size=m
+photo.109: ig://CtjWuGSvs0z/m
 photo.109.author: kiarino51
+photo.109.commitdate: 2023/8/8
 photo.109.link: https://www.instagram.com/kiarino51/
-photo.109.tags: mofumofu, portrait, sample
-photo.110: https://www.instagram.com/p/CtjWuGSvs0z/media/?size=m
+photo.109.tags: bamboo, portrait, sample, smile
+photo.110: ig://Ctn3cImvy4y/m
 photo.110.author: kiarino51
+photo.110.commitdate: 2023/8/8
 photo.110.link: https://www.instagram.com/kiarino51/
-photo.110.tags: bamboo, portrait, sample, smile
+photo.110.tags: mofumofu, portrait, sample
 species: 2
 studbook.id: 13157
 zoo: 30

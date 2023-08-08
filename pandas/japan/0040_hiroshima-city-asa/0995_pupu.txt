@@ -127,7 +127,7 @@ photo.23: ig://Ce6V8MWvKtb/m
 photo.23.author: kojikoji2011
 photo.23.commitdate: 2022/6/21
 photo.23.link: https://www.instagram.com/kojikoji2011/
-photo.23.tags: blink, portrait, whiskers, yawn
+photo.23.tags: blink, portrait, sample, whiskers, yawn
 photo.24: ig://CiFFkavBhJK/m
 photo.24.author: kojikoji2011
 photo.24.commitdate: 2022/9/4
@@ -138,9 +138,5 @@ photo.25.author: hamiiiii831_
 photo.25.commitdate: 2022/12/11
 photo.25.link: https://www.instagram.com/hamiiiii831_/
 photo.25.tags: sample, smile, whiskers
-photo.26: https://www.instagram.com/p/Ce6V8MWvKtb/media/?size=m
-photo.26.author: kojikoji2011
-photo.26.link: https://www.instagram.com/kojikoji2011/
-photo.26.tags: portrait, sample, whiskers, yawn
 species: 2
 zoo: 40

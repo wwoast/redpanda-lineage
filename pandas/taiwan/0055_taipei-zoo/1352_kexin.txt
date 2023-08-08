@@ -81,8 +81,9 @@ photo.13.author: yuredpanda
 photo.13.commitdate: 2023/7/19
 photo.13.link: https://www.instagram.com/yuredpanda/
 photo.13.tags: paws, portrait, sample, whiskers
-photo.14: https://www.instagram.com/p/CtrKa3ovHSN/media/?size=m
+photo.14: ig://CtrKa3ovHSN/m
 photo.14.author: yuredpanda
+photo.14.commitdate: 2023/8/8
 photo.14.link: https://www.instagram.com/yuredpanda/
 photo.14.tags: bridge, tail, whiskers
 species: 2

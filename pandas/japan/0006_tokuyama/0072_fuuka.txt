@@ -366,8 +366,9 @@ photo.70.author: hamamatsu.chiita
 photo.70.commitdate: 2023/5/4
 photo.70.link: https://www.instagram.com/hamamatsu.chiita/
 photo.70.tags: bite, lips, mofumofu, portrait, sample
-photo.71: https://www.instagram.com/p/Cttvf2PPNgR/media/?size=m
+photo.71: ig://Cttvf2PPNgR/m
 photo.71.author: kojikoji2011
+photo.71.commitdate: 2023/8/8
 photo.71.link: https://www.instagram.com/kojikoji2011/
 photo.71.tags: close-up, paws, portrait, sample
 species: 2

@@ -150,8 +150,9 @@ photo.27.author: memphiszoo
 photo.27.commitdate: 2023/2/24
 photo.27.link: https://www.instagram.com/carsontheredpanda/
 photo.27.tags: close-up, lips, portrait, sample, whiskers
-photo.28: https://www.instagram.com/p/Cty8vMRuUJA/media/?size=m
+photo.28: ig://Cty8vMRuUJA/m
 photo.28.author: worldthathesees
+photo.28.commitdate: 2023/8/8
 photo.28.link: https://www.instagram.com/worldthathesees/
 photo.28.tags: peek, portrait, sample, whiskers
 species: 2
