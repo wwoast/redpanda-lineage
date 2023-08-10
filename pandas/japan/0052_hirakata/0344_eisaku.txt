@@ -614,8 +614,9 @@ photo.120.author: colette.jp
 photo.120.commitdate: 2023/7/3
 photo.120.link: https://www.instagram.com/colette.jp/
 photo.120.tags: paws, portrait, sample, whiskers
-photo.121: https://www.instagram.com/p/CrUYzvQPB06/media/?size=m
+photo.121: ig://CrUYzvQPB06/m
 photo.121.author: hamiiiii831_
+photo.121.commitdate: 2023/8/10
 photo.121.link: https://www.instagram.com/hamiiiii831_/
 photo.121.tags: sample, smile, whiskers
 species: 2

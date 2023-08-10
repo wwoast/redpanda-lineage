@@ -588,12 +588,14 @@ photo.115.author: mini_cochi
 photo.115.commitdate: 2022/10/20
 photo.115.link: https://www.instagram.com/mini_cochi/
 photo.115.tags: apple time, flowers, keeper, paws, portrait, sample, wave
-photo.116: https://www.instagram.com/p/CtvWGQ6vv0q/media/?size=m
+photo.116: ig://CtvWGQ6vv0q/m
 photo.116.author: tamazoowalking
+photo.116.commitdate: 2023/8/10
 photo.116.link: https://www.instagram.com/tamazoowalking/
 photo.116.tags: mofumofu, paws, portrait, sample, smile, tail
-photo.117: https://www.instagram.com/p/CtvWSWcv4lD/media/?size=m
+photo.117: ig://CtvWSWcv4lD/m
 photo.117.author: tamazoowalking
+photo.117.commitdate: 2023/8/10
 photo.117.link: https://www.instagram.com/tamazoowalking/
 photo.117.tags: paws, portrait, sample, tongue
 species: 2

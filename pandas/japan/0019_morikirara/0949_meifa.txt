@@ -1024,8 +1024,9 @@ photo.202.author: re_ichimaru
 photo.202.commitdate: 2023/6/18
 photo.202.link: https://www.instagram.com/re_ichimaru/
 photo.202.tags: bamboo, portrait, sample, tongue
-photo.203: https://www.instagram.com/p/CtrAllnvA06/media/?size=m
+photo.203: ig://CtrAllnvA06/m
 photo.203.author: kotata_513
+photo.203.commitdate: 2023/8/10
 photo.203.link: https://www.instagram.com/kotata_513/
 photo.203.tags: bamboo, paws, portrait, sample, whiskers
 species: 2

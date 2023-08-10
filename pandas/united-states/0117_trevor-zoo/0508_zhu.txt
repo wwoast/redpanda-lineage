@@ -68,8 +68,9 @@ photo.10.author: rossifari
 photo.10.commitdate: 2022/5/13
 photo.10.link: https://www.instagram.com/rossifari/
 photo.10.tags: keeper, portrait, whiskers
-photo.11: https://www.instagram.com/p/Ctt6uTtxUDc/media/?size=m
+photo.11: ig://Ctt6uTtxUDc/m
 photo.11.author: worldthathesees
+photo.11.commitdate: 2023/8/10
 photo.11.link: https://www.instagram.com/carsontheredpanda/
 photo.11.tags: bamboo, close-up
 species: 1

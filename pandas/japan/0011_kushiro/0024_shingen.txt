@@ -618,8 +618,9 @@ photo.121.author: gloryeui
 photo.121.commitdate: 2023/2/25
 photo.121.link: https://www.instagram.com/gloryeui/
 photo.121.tags: bridge, peek, portrait, sample
-photo.122: https://www.instagram.com/p/Ctos1bUvsX2/media/?size=m
+photo.122: ig://Ctos1bUvsX2/m
 photo.122.author: minatomirai215
+photo.122.commitdate: 2023/8/10
 photo.122.link: https://www.instagram.com/minatomirai215/
 photo.122.tags: autumn, portrait, tail, whiskers
 species: 2

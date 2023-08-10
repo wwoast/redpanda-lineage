@@ -392,8 +392,9 @@ photo.76.author: ssc6105
 photo.76.commitdate: 2023/6/30
 photo.76.link: https://www.instagram.com/ssc6105/
 photo.76.tags: paws, playing, tail, upside-down
-photo.77: https://www.instagram.com/p/CtrPqHMPJB4/media/?size=m
+photo.77: ig://CtrPqHMPJB4/m
 photo.77.author: fetorus_mami
+photo.77.commitdate: 2023/8/10
 photo.77.link: https://www.instagram.com/fetorus_mami/
 photo.77.tags: apple time, keeper, portrait, sample, whiskers
 species: 2
