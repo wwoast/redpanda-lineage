@@ -249,45 +249,46 @@ photo.47.author: roko_mm
 photo.47.commitdate: 2019/9/9
 photo.47.link: https://www.instagram.com/roko_mm/
 photo.47.tags: portrait, smile, tongue
-photo.48: ig://B2Gg3DLglhL/m
-photo.48.author: nakacchi_desu
-photo.48.commitdate: 2019/9/9
-photo.48.link: https://www.instagram.com/nakacchi_desu/
-photo.48.tags: portrait, profile
-photo.49: ig://B2JPvwmBIUq/m
-photo.49.author: roko_mm
+photo.48: ig://B2GNl9HBJhj/m
+photo.48.author: wumpwoast
+photo.48.commitdate: 2023/8/10
+photo.48.link: https://www.instagram.com/wumpwoast/
+photo.48.tags: sample, smile, tail
+photo.49: ig://B2Gg3DLglhL/m
+photo.49.author: nakacchi_desu
 photo.49.commitdate: 2019/9/9
-photo.49.link: https://www.instagram.com/roko_mm/
-photo.49.tags: portrait
-photo.50: ig://B2M1UDThdZW/m
-photo.50.author: take_421
+photo.49.link: https://www.instagram.com/nakacchi_desu/
+photo.49.tags: portrait, profile
+photo.50: ig://B2JPvwmBIUq/m
+photo.50.author: roko_mm
 photo.50.commitdate: 2019/9/9
-photo.50.link: https://www.instagram.com/take_421/
-photo.50.tags: bridge
-photo.51: ig://B2RqCFbhVzo/m
-photo.51.author: minatomirai215
-photo.51.commitdate: 2019/9/14
-photo.51.link: https://www.instagram.com/minatomirai215/
-photo.51.tags: bamboo, portrait, smile
-photo.52: ig://B2754pJhlLX/m
-photo.52.author: wumpwoast
-photo.52.commitdate: 2019/10/1
-photo.52.link: https://www.instagram.com/wumpwoast/
-photo.52.tags: portrait, tongue
-photo.53: ig://CEtxTO7hKGp/m
-photo.53.author: minatomirai215
-photo.53.commitdate: 2020/9/14
-photo.53.link: https://www.instagram.com/minatomirai215/
-photo.53.tags: paws, portrait, smile
-photo.54: ig://CEt1GxKBx97/m
+photo.50.link: https://www.instagram.com/roko_mm/
+photo.50.tags: portrait
+photo.51: ig://B2M1UDThdZW/m
+photo.51.author: take_421
+photo.51.commitdate: 2019/9/9
+photo.51.link: https://www.instagram.com/take_421/
+photo.51.tags: bridge
+photo.52: ig://B2RqCFbhVzo/m
+photo.52.author: minatomirai215
+photo.52.commitdate: 2019/9/14
+photo.52.link: https://www.instagram.com/minatomirai215/
+photo.52.tags: bamboo, portrait, smile
+photo.53: ig://B2754pJhlLX/m
+photo.53.author: wumpwoast
+photo.53.commitdate: 2019/10/1
+photo.53.link: https://www.instagram.com/wumpwoast/
+photo.53.tags: portrait, tongue
+photo.54: ig://CEtxTO7hKGp/m
 photo.54.author: minatomirai215
 photo.54.commitdate: 2020/9/14
 photo.54.link: https://www.instagram.com/minatomirai215/
-photo.54.tags: apple time, portrait, toys
-photo.55: https://www.instagram.com/p/B2GNl9HBJhj/media/?size=m
-photo.55.author: wumpwoast
-photo.55.link: https://www.instagram.com/wumpwoast/
-photo.55.tags: sample, smile, tail
+photo.54.tags: paws, portrait, smile
+photo.55: ig://CEt1GxKBx97/m
+photo.55.author: minatomirai215
+photo.55.commitdate: 2020/9/14
+photo.55.link: https://www.instagram.com/minatomirai215/
+photo.55.tags: apple time, portrait, toys
 species: 2
 studbook.id: 15143
 zoo: 190

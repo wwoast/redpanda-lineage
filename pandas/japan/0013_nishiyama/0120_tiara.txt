@@ -406,8 +406,9 @@ photo.78.author: minato.yokohama4416
 photo.78.commitdate: 2023/3/6
 photo.78.link: https://www.instagram.com/minato.yokohama4416/
 photo.78.tags: portrait, sample, whiskers
-photo.79: https://www.instagram.com/p/CrWltevBjPa/media/?size=m
+photo.79: ig://CrWltevBjPa/m
 photo.79.author: hamamatsu.chiita
+photo.79.commitdate: 2023/8/10
 photo.79.link: https://www.instagram.com/hamamatsu.chiita/
 photo.79.tags: portrait, sample, whiskers
 species: 2

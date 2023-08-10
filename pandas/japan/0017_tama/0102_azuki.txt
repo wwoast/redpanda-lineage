@@ -361,15 +361,16 @@ photo.70.author: tamazoowalking
 photo.70.commitdate: 2023/5/4
 photo.70.link: https://www.instagram.com/tamazoowalking/
 photo.70.tags: hammock, mofumofu, sample, tail, whiskers
-photo.71: ig://Crr5EwBv-Ty/m
-photo.71.author: ck.chie
-photo.71.commitdate: 2023/5/3
-photo.71.link: https://www.instagram.com/ck.chie/
-photo.71.tags: mofumofu, portrait, sample, tail, whiskers
-photo.72: https://www.instagram.com/p/CrWtzMJh48_/media/?size=m
-photo.72.author: alto0908
-photo.72.link: https://www.instagram.com/alto0908/
-photo.72.tags: hammock, laying down, sample, tongue, tail
+photo.71: ig://CrWtzMJh48_/m
+photo.71.author: alto0908
+photo.71.commitdate: 2023/8/10
+photo.71.link: https://www.instagram.com/alto0908/
+photo.71.tags: hammock, laying down, sample, tongue, tail
+photo.72: ig://Crr5EwBv-Ty/m
+photo.72.author: ck.chie
+photo.72.commitdate: 2023/5/3
+photo.72.link: https://www.instagram.com/ck.chie/
+photo.72.tags: mofumofu, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

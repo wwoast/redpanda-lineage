@@ -2180,25 +2180,26 @@ photo.434.author: tamazoowalking
 photo.434.commitdate: 2023/7/3
 photo.434.link: https://www.instagram.com/tamazoowalking/
 photo.434.tags: bridge, laying down, paws, tail
-photo.435: ig://CrYUvQCPD6g/m
-photo.435.author: mari_neko3
-photo.435.commitdate: 2023/5/3
-photo.435.link: https://www.instagram.com/mari_neko3/
-photo.435.tags: portrait, tail, whiskers
-photo.436: ig://CtitlGJvqZL/m
-photo.436.author: tamazoowalking
-photo.436.commitdate: 2023/8/8
-photo.436.link: https://www.instagram.com/tamazoowalking/
-photo.436.tags: laying down, paws, portrait, sample, tree
-photo.437: ig://CtjNFjyvJz6/m
+photo.435: ig://CrTEoJtPsaK/m
+photo.435.author: tamazoowalking
+photo.435.commitdate: 2023/8/10
+photo.435.link: https://www.instagram.com/tamazoowalking/
+photo.435.tags: paws, portrait, sample, smile, whiskers
+photo.436: ig://CrYUvQCPD6g/m
+photo.436.author: mari_neko3
+photo.436.commitdate: 2023/5/3
+photo.436.link: https://www.instagram.com/mari_neko3/
+photo.436.tags: portrait, tail, whiskers
+photo.437: ig://CtitlGJvqZL/m
 photo.437.author: tamazoowalking
 photo.437.commitdate: 2023/8/8
 photo.437.link: https://www.instagram.com/tamazoowalking/
-photo.437.tags: portrait, sample, tree, whiskers
-photo.438: https://www.instagram.com/p/CrTEoJtPsaK/media/?size=m
+photo.437.tags: laying down, paws, portrait, sample, tree
+photo.438: ig://CtjNFjyvJz6/m
 photo.438.author: tamazoowalking
+photo.438.commitdate: 2023/8/8
 photo.438.link: https://www.instagram.com/tamazoowalking/
-photo.438.tags: paws, portrait, sample, smile, whiskers
+photo.438.tags: portrait, sample, tree, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

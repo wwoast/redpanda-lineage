@@ -199,8 +199,9 @@ photo.37.author: sasapan34
 photo.37.commitdate: 2023/2/26
 photo.37.link: https://www.instagram.com/sasapan34/
 photo.37.tags: sample
-photo.38: https://www.instagram.com/p/CrT-0lVhgEw/media/?size=m
+photo.38: ig://CrT-0lVhgEw/m
 photo.38.author: hamamatsu.chiita
+photo.38.commitdate: 2023/8/10
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
 photo.38.tags: portrait, sample, whiskers
 species: 2

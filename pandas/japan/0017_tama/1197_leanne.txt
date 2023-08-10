@@ -773,29 +773,30 @@ photo.152.author: tamazoowalking
 photo.152.commitdate: 2023/5/4
 photo.152.link: https://www.instagram.com/tamazoowalking/
 photo.152.tags: bamboo, mofumofu, paws, sample, whiskers
-photo.153: ig://Cr6y9EdhZko/m
-photo.153.author: alto0908
-photo.153.commitdate: 2023/7/3
-photo.153.link: https://www.instagram.com/alto0908/
-photo.153.tags: bamboo, paws, portrait, shoots
-photo.154: ig://Cr8Gmyfv-2J/m
-photo.154.author: mini_cochi
-photo.154.commitdate: 2023/6/30
-photo.154.link: https://www.instagram.com/mini_cochi/
-photo.154.tags: bamboo, portrait, sample, shoots
-photo.155: ig://CtjPRhDPMQ-/m
-photo.155.author: tamazoowalking
-photo.155.commitdate: 2023/8/8
-photo.155.link: https://www.instagram.com/tamazoowalking/
-photo.155.tags: close-up, mofumofu, sample
-photo.156: ig://CtjWndzva6H/m
+photo.153: ig://CrWwFVYhzlA/m
+photo.153.author: mini_cochi
+photo.153.commitdate: 2023/8/10
+photo.153.link: https://www.instagram.com/mini_cochi/
+photo.153.tags: laying down, portrait, sample, tail, tree
+photo.154: ig://Cr6y9EdhZko/m
+photo.154.author: alto0908
+photo.154.commitdate: 2023/7/3
+photo.154.link: https://www.instagram.com/alto0908/
+photo.154.tags: bamboo, paws, portrait, shoots
+photo.155: ig://Cr8Gmyfv-2J/m
+photo.155.author: mini_cochi
+photo.155.commitdate: 2023/6/30
+photo.155.link: https://www.instagram.com/mini_cochi/
+photo.155.tags: bamboo, portrait, sample, shoots
+photo.156: ig://CtjPRhDPMQ-/m
 photo.156.author: tamazoowalking
 photo.156.commitdate: 2023/8/8
 photo.156.link: https://www.instagram.com/tamazoowalking/
-photo.156.tags: close-up, laying down, portrait, sample
-photo.157: https://www.instagram.com/p/CrWwFVYhzlA/media/?size=m
-photo.157.author: mini_cochi
-photo.157.link: https://www.instagram.com/mini_cochi/
-photo.157.tags: laying down, portrait, sample, tail, tree
+photo.156.tags: close-up, mofumofu, sample
+photo.157: ig://CtjWndzva6H/m
+photo.157.author: tamazoowalking
+photo.157.commitdate: 2023/8/8
+photo.157.link: https://www.instagram.com/tamazoowalking/
+photo.157.tags: close-up, laying down, portrait, sample
 species: 2
 zoo: 17
