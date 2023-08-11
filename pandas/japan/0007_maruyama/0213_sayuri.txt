@@ -456,19 +456,21 @@ photo.89.author: miis_98
 photo.89.commitdate: 2023/4/21
 photo.89.link: https://www.instagram.com/miis_98/
 photo.89.tags: apple time, bite, paws, sample, standing, whiskers
-photo.90: ig://Cr5t5ewP4Fq/m
-photo.90.author: mari_neko3
-photo.90.commitdate: 2023/6/30
-photo.90.link: https://www.instagram.com/mari_neko3/
-photo.90.tags: close-up, portrait, sample, whiskers
-photo.91: https://www.instagram.com/p/CrVkVJevZmH/media/?size=m
-photo.91.author: nishicotolo
-photo.91.link: https://www.instagram.com/nishicotolo/
-photo.91.tags: whiskers
-photo.92: https://www.instagram.com/p/CrVrFzqPiwd/media/?size=m
-photo.92.author: leonard_redmof
-photo.92.link: https://www.instagram.com/leonard_redmof/
-photo.92.tags: laying down, mofumofu, sample
+photo.90: ig://CrVkVJevZmH/m
+photo.90.author: nishicotolo
+photo.90.commitdate: 2023/8/11
+photo.90.link: https://www.instagram.com/nishicotolo/
+photo.90.tags: whiskers
+photo.91: ig://CrVrFzqPiwd/m
+photo.91.author: leonard_redmof
+photo.91.commitdate: 2023/8/11
+photo.91.link: https://www.instagram.com/leonard_redmof/
+photo.91.tags: laying down, mofumofu, sample
+photo.92: ig://Cr5t5ewP4Fq/m
+photo.92.author: mari_neko3
+photo.92.commitdate: 2023/6/30
+photo.92.link: https://www.instagram.com/mari_neko3/
+photo.92.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 1694
 zoo: 7

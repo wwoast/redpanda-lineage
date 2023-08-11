@@ -1123,8 +1123,9 @@ photo.224.author: falcon_tenor
 photo.224.commitdate: 2023/6/25
 photo.224.link: https://www.instagram.com/falcon_tenor/
 photo.224.tags: paws, portrait, sample, whiskers
-photo.225: https://www.instagram.com/p/CrX7HPovYS8/media/?size=m
+photo.225: ig://CrX7HPovYS8/m
 photo.225.author: i.satosato
+photo.225.commitdate: 2023/8/11
 photo.225.link: https://www.instagram.com/i.satosato/
 photo.225.tags: laying down, paws, sample, tail, whiskers
 species: 2

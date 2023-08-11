@@ -157,8 +157,9 @@ photo.29.author: grskus_tk
 photo.29.commitdate: 2023/3/17
 photo.29.link: https://www.instagram.com/grskus_tk/
 photo.29.tags: peek, portrait, sample, whiskers
-photo.30: https://www.instagram.com/p/Cuj17kcP7qy/media/?size=m
+photo.30: ig://Cuj17kcP7qy/m
 photo.30.author: yuredpanda
+photo.30.commitdate: 2023/8/11
 photo.30.link: https://www.instagram.com/yuredpanda/
 photo.30.tags: portrait, sample, whiskers
 species: 2

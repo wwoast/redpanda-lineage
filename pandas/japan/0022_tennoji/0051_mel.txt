@@ -608,8 +608,9 @@ photo.119.author: makimaru18
 photo.119.commitdate: 2023/3/6
 photo.119.link: https://www.instagram.com/makimaru18/
 photo.119.tags: bite, carry, portrait, sample
-photo.120: https://www.instagram.com/p/CrVpjozPSto/media/?size=m
+photo.120: ig://CrVpjozPSto/m
 photo.120.author: chankunvv
+photo.120.commitdate: 2023/8/11
 photo.120.link: https://www.instagram.com/chankunvv/
 photo.120.tags: paws, whiskers
 species: 2

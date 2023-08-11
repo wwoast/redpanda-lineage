@@ -908,23 +908,26 @@ photo.179.author: kiarino51
 photo.179.commitdate: 2023/3/6
 photo.179.link: https://www.instagram.com/kiarino51/
 photo.179.tags: mofumofu, paws, portrait, sample
-photo.180: ig://CrYWgjRr0VC/m
-photo.180.author: ifumoto88
-photo.180.commitdate: 2023/8/10
-photo.180.link: https://www.instagram.com/ifumoto88/
-photo.180.tags: paws, sample, smile, standing
-photo.181: https://www.instagram.com/p/CrZmFyEv8eq/media/?size=m
+photo.180: ig://CrYVU5mv5Yc/m
+photo.180.author: mari_neko3
+photo.180.commitdate: 2023/8/11
+photo.180.link: https://www.instagram.com/mari_neko3/
+photo.180.tags: portrait, sample, tail, whiskers
+photo.181: ig://CrYWgjRr0VC/m
 photo.181.author: ifumoto88
+photo.181.commitdate: 2023/8/10
 photo.181.link: https://www.instagram.com/ifumoto88/
-photo.181.tags: sample, smile, whiskers
-photo.182: https://www.instagram.com/p/CrfcQSqPl-f/media/?size=m
-photo.182.author: mari_neko3
-photo.182.link: https://www.instagram.com/mari_neko3/
-photo.182.tags: paws, portrait, sample, smile, whiskers
-photo.183: https://www.instagram.com/p/CrYVU5mv5Yc/media/?size=m
+photo.181.tags: paws, sample, smile, standing
+photo.182: ig://CrZmFyEv8eq/m
+photo.182.author: ifumoto88
+photo.182.commitdate: 2023/8/11
+photo.182.link: https://www.instagram.com/ifumoto88/
+photo.182.tags: sample, smile, whiskers
+photo.183: ig://CrfcQSqPl-f/m
 photo.183.author: mari_neko3
+photo.183.commitdate: 2023/8/11
 photo.183.link: https://www.instagram.com/mari_neko3/
-photo.183.tags: portrait, sample, tail, whiskers
+photo.183.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8

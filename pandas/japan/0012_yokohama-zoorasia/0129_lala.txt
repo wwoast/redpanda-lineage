@@ -367,8 +367,9 @@ photo.71.author: mini_cochi
 photo.71.commitdate: 2023/2/24
 photo.71.link: https://www.instagram.com/mini_cochi/
 photo.71.tags: close-up, mofumofu, portrait, sample
-photo.72: https://www.instagram.com/p/Cray8x3PCgE/media/?size=m
+photo.72: ig://Cray8x3PCgE/m
 photo.72.author: minatomirai215
+photo.72.commitdate: 2023/8/11
 photo.72.link: https://www.instagram.com/minatomirai215/
 photo.72.tags: door, mofumofu, portrait, sample, whiskers
 species: 2

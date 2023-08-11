@@ -448,64 +448,66 @@ photo.87.author: mini_cochi
 photo.87.commitdate: 2022/4/7
 photo.87.link: https://www.instagram.com/mini_cochi/
 photo.87.tags: bamboo, mofumofu, peek, portrait
-photo.88: ig://CdXBe1nPkVm/m
-photo.88.author: ifumoto88
-photo.88.commitdate: 2022/6/6
-photo.88.link: https://www.instagram.com/ifumoto88/
-photo.88.tags: bamboo, portrait, sample, smile
-photo.89: ig://CeYgOt5lWNv/m
-photo.89.author: gloryeui
-photo.89.commitdate: 2022/8/30
-photo.89.link: https://www.instagram.com/gloryeui/
-photo.89.tags: bamboo, paws, portrait, sample, tongue
-photo.90: ig://CeZyJa1Piom/m
-photo.90.author: panda.daisuki
-photo.90.commitdate: 2022/8/1
-photo.90.link: https://www.instagram.com/panda.daisuki/
-photo.90.tags: apple time, portrait, sample
-photo.91: ig://ChgCsgSPtdu/m
-photo.91.author: kiarino51
-photo.91.commitdate: 2022/12/3
-photo.91.link: https://www.instagram.com/kiarino51/
-photo.91.tags: laying down, mofumofu, portrait, sample, tongue, whiskers
-photo.92: ig://CksZuaRP_O6/m
-photo.92.author: pink.b22
-photo.92.commitdate: 2023/1/27
-photo.92.link: https://www.instagram.com/pink.b22/
-photo.92.tags: bamboo, mofumofu, portrait, sample
-photo.93: ig://ClGcDAFLe6E/m
-photo.93.author: gloryeui
-photo.93.commitdate: 2022/12/20
-photo.93.link: https://www.instagram.com/gloryeui/
-photo.93.tags: air tasting, close-up, laying down, portrait, sample, tongue
-photo.94: ig://ClPKItgB1Fa/m
-photo.94.author: eos1089
-photo.94.commitdate: 2023/2/4
-photo.94.link: https://www.instagram.com/eos1089/
-photo.94.tags: door, paws, portrait
-photo.95: ig://Cn9SZOPvS_8/m
-photo.95.author: kiarino51
-photo.95.commitdate: 2023/2/25
-photo.95.link: https://www.instagram.com/kiarino51/
-photo.95.tags: mofumofu, paws, peek, sample, whiskers
-photo.96: ig://Coo4oGSvJA_/m
-photo.96.author: ssc6105
-photo.96.commitdate: 2023/2/24
-photo.96.link: https://www.instagram.com/ssc6105/
-photo.96.tags: air tasting, bamboo, home, paws, sample, tongue, whiskers
-photo.97: ig://CvPt9KQv-ni/m
-photo.97.author: alto0908
-photo.97.commitdate: 2023/7/31
-photo.97.link: https://www.instagram.com/alto0908/
-photo.97.tags: close-up, laying down, portrait, sample, whiskers
-photo.98: https://www.instagram.com/p/Cc0DH8sPmc_/media/?size=m
-photo.98.author: alto0908
-photo.98.link: https://www.instagram.com/alto0908/
-photo.98.tags: paws, portrait, sample
-photo.99: https://www.instagram.com/p/CrdBXSnP8N2/media/?size=m
-photo.99.author: hamiiiii831_
-photo.99.link: https://www.instagram.com/hamiiiii831_/
-photo.99.tags: bamboo, sample, standing, tongue
+photo.88: ig://Cc0DH8sPmc_/m
+photo.88.author: alto0908
+photo.88.commitdate: 2023/8/11
+photo.88.link: https://www.instagram.com/alto0908/
+photo.88.tags: paws, portrait, sample
+photo.89: ig://CdXBe1nPkVm/m
+photo.89.author: ifumoto88
+photo.89.commitdate: 2022/6/6
+photo.89.link: https://www.instagram.com/ifumoto88/
+photo.89.tags: bamboo, portrait, sample, smile
+photo.90: ig://CeYgOt5lWNv/m
+photo.90.author: gloryeui
+photo.90.commitdate: 2022/8/30
+photo.90.link: https://www.instagram.com/gloryeui/
+photo.90.tags: bamboo, paws, portrait, sample, tongue
+photo.91: ig://CeZyJa1Piom/m
+photo.91.author: panda.daisuki
+photo.91.commitdate: 2022/8/1
+photo.91.link: https://www.instagram.com/panda.daisuki/
+photo.91.tags: apple time, portrait, sample
+photo.92: ig://ChgCsgSPtdu/m
+photo.92.author: kiarino51
+photo.92.commitdate: 2022/12/3
+photo.92.link: https://www.instagram.com/kiarino51/
+photo.92.tags: laying down, mofumofu, portrait, sample, tongue, whiskers
+photo.93: ig://CksZuaRP_O6/m
+photo.93.author: pink.b22
+photo.93.commitdate: 2023/1/27
+photo.93.link: https://www.instagram.com/pink.b22/
+photo.93.tags: bamboo, mofumofu, portrait, sample
+photo.94: ig://ClGcDAFLe6E/m
+photo.94.author: gloryeui
+photo.94.commitdate: 2022/12/20
+photo.94.link: https://www.instagram.com/gloryeui/
+photo.94.tags: air tasting, close-up, laying down, portrait, sample, tongue
+photo.95: ig://ClPKItgB1Fa/m
+photo.95.author: eos1089
+photo.95.commitdate: 2023/2/4
+photo.95.link: https://www.instagram.com/eos1089/
+photo.95.tags: door, paws, portrait
+photo.96: ig://Cn9SZOPvS_8/m
+photo.96.author: kiarino51
+photo.96.commitdate: 2023/2/25
+photo.96.link: https://www.instagram.com/kiarino51/
+photo.96.tags: mofumofu, paws, peek, sample, whiskers
+photo.97: ig://Coo4oGSvJA_/m
+photo.97.author: ssc6105
+photo.97.commitdate: 2023/2/24
+photo.97.link: https://www.instagram.com/ssc6105/
+photo.97.tags: air tasting, bamboo, home, paws, sample, tongue, whiskers
+photo.98: ig://CrdBXSnP8N2/m
+photo.98.author: hamiiiii831_
+photo.98.commitdate: 2023/8/11
+photo.98.link: https://www.instagram.com/hamiiiii831_/
+photo.98.tags: bamboo, sample, standing, tongue
+photo.99: ig://CvPt9KQv-ni/m
+photo.99.author: alto0908
+photo.99.commitdate: 2023/7/31
+photo.99.link: https://www.instagram.com/alto0908/
+photo.99.tags: close-up, laying down, portrait, sample, whiskers
 species: 2
 studbook.id: 15141
 zoo: 8

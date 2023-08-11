@@ -570,8 +570,9 @@ photo.111.author: hamiiiii831_
 photo.111.commitdate: 2023/4/8
 photo.111.link: https://www.instagram.com/hamiiiii831_/
 photo.111.tags: paws, sample
-photo.112: https://www.instagram.com/p/CrUYn23vLa7/media/?size=m
+photo.112: ig://CrUYn23vLa7/m
 photo.112.author: hamiiiii831_
+photo.112.commitdate: 2023/8/11
 photo.112.link: https://www.instagram.com/hamiiiii831_/
 photo.112.tags: mofumofu, paws, sample, standing, whiskers
 species: 2
