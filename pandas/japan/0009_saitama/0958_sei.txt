@@ -397,8 +397,9 @@ photo.77.author: fetorus_mami
 photo.77.commitdate: 2023/8/10
 photo.77.link: https://www.instagram.com/fetorus_mami/
 photo.77.tags: apple time, keeper, portrait, sample, whiskers
-photo.78: https://www.instagram.com/p/CuCVJniv1Un/media/?size=m
+photo.78: ig://CuCVJniv1Un/m
 photo.78.author: mini_cochi
+photo.78.commitdate: 2023/8/11
 photo.78.link: https://www.instagram.com/mini_cochi/
 photo.78.tags: laying down, mofumofu, tail
 species: 2

@@ -404,8 +404,9 @@ photo.79.author: djjohnbeaver
 photo.79.commitdate: 2023/6/20
 photo.79.link: https://www.instagram.com/djjohnbeaver/
 photo.79.tags: bamboo, close-up, sample, whiskers
-photo.80: https://www.instagram.com/p/CuSxlFxs_Ft/media/?size=m
+photo.80: ig://CuSxlFxs_Ft/m
 photo.80.author: hhpzoo
+photo.80.commitdate: 2023/8/11
 photo.80.link: https://www.instagram.com/hhpzoo/
 photo.80.tags: close-up, mofumofu, whiskers
 species: 1

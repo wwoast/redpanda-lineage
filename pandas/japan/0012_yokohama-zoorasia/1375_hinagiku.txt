@@ -57,14 +57,15 @@ photo.9.author: miis_98
 photo.9.commitdate: 2023/6/25
 photo.9.link: https://www.instagram.com/miis_98/
 photo.9.tags: keeper, paws, sample, standing, tongue
-photo.10: ig://CvIy7jrhUOr/m
-photo.10.author: alto0908
-photo.10.commitdate: 2023/7/31
-photo.10.link: https://www.instagram.com/alto0908/
-photo.10.tags: portrait, sample, smile, tongue
-photo.11: https://www.instagram.com/p/CuCC_snvnkl/media/?size=m
-photo.11.author: ck.chie
-photo.11.link: https://www.instagram.com/ck.chie/
-photo.11.tags: keeper, paws, portrait, sample, smile
+photo.10: ig://CuCC_snvnkl/m
+photo.10.author: ck.chie
+photo.10.commitdate: 2023/8/11
+photo.10.link: https://www.instagram.com/ck.chie/
+photo.10.tags: keeper, paws, portrait, sample, smile
+photo.11: ig://CvIy7jrhUOr/m
+photo.11.author: alto0908
+photo.11.commitdate: 2023/7/31
+photo.11.link: https://www.instagram.com/alto0908/
+photo.11.tags: portrait, sample, smile, tongue
 species: 2
 zoo: 12

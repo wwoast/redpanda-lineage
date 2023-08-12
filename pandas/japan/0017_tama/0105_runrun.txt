@@ -316,15 +316,16 @@ photo.61.author: tamazoowalking
 photo.61.commitdate: 2023/2/24
 photo.61.link: https://www.instagram.com/tamazoowalking/
 photo.61.tags: paws, portrait, sample
-photo.62: ig://CvB2FAMvMNX/m
-photo.62.author: tamazoowalking
-photo.62.commitdate: 2023/7/31
-photo.62.link: https://www.instagram.com/tamazoowalking/
-photo.62.tags: paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/CuCJMPCP9K3/media/?size=m
-photo.63.author: kotata_513
-photo.63.link: https://www.instagram.com/kotata_513/
-photo.63.tags: peek, sample, tail, whiskers
+photo.62: ig://CuCJMPCP9K3/m
+photo.62.author: kotata_513
+photo.62.commitdate: 2023/8/11
+photo.62.link: https://www.instagram.com/kotata_513/
+photo.62.tags: peek, sample, tail, whiskers
+photo.63: ig://CvB2FAMvMNX/m
+photo.63.author: tamazoowalking
+photo.63.commitdate: 2023/7/31
+photo.63.link: https://www.instagram.com/tamazoowalking/
+photo.63.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0770
 zoo: 17

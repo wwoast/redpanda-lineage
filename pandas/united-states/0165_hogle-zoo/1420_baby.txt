@@ -13,12 +13,14 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/Ct-qXCIM3dF/media/?size=m
+photo.1: ig://Ct-qXCIM3dF/m
 photo.1.author: hoglezoo
+photo.1.commitdate: 2023/8/11
 photo.1.link: https://www.instagram.com/hoglezoo/
 photo.1.tags: baby, newborn, portrait
-photo.2: https://www.instagram.com/p/CvgEBQ5MVyW/media/?size=m
+photo.2: ig://CvgEBQ5MVyW/m
 photo.2.author: hoglezoo
+photo.2.commitdate: 2023/8/11
 photo.2.link: https://www.instagram.com/hoglezoo/
 photo.2.tags: baby, mofumofu, videolink
 species: 1

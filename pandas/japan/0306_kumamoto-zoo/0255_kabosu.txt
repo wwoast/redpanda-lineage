@@ -262,8 +262,9 @@ photo.49.author: kumamoto_doushokubutsuen
 photo.49.commitdate: 2023/6/25
 photo.49.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.49.tags: apple time, bamboo, sample, tongue
-photo.50: https://www.instagram.com/p/CuBxuYZv9wH/media/?size=m
+photo.50: ig://CuBxuYZv9wH/m
 photo.50.author: yuredpanda
+photo.50.commitdate: 2023/8/11
 photo.50.link: https://www.instagram.com/yuredpanda/
 photo.50.tags: portrait, sample, whiskers
 species: 2

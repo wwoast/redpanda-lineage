@@ -350,14 +350,15 @@ photo.67.author: miis_98
 photo.67.commitdate: 2023/4/22
 photo.67.link: https://www.instagram.com/miis_98/
 photo.67.tags: apple time, flowers, paws, portrait, sample, smile, whiskers
-photo.68: ig://CvT8z5GLXcj/m
-photo.68.author: gloryeui
-photo.68.commitdate: 2023/7/31
-photo.68.link: https://www.instagram.com/gloryeui/
-photo.68.tags: bamboo, peek, portrait, sample
-photo.69: https://www.instagram.com/p/CuIRFFpBsKb/media/?size=m
-photo.69.author: hamamatsu.chiita
-photo.69.link: https://www.instagram.com/hamamatsu.chiita/
-photo.69.tags: close-up, portrait, sample, whiskers
+photo.68: ig://CuIRFFpBsKb/m
+photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2023/8/11
+photo.68.link: https://www.instagram.com/hamamatsu.chiita/
+photo.68.tags: close-up, portrait, sample, whiskers
+photo.69: ig://CvT8z5GLXcj/m
+photo.69.author: gloryeui
+photo.69.commitdate: 2023/7/31
+photo.69.link: https://www.instagram.com/gloryeui/
+photo.69.tags: bamboo, peek, portrait, sample
 species: 2
 zoo: 264

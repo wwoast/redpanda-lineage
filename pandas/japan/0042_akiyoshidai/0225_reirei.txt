@@ -234,8 +234,9 @@ photo.44.author: re_ichimaru
 photo.44.commitdate: 2023/2/24
 photo.44.link: https://www.instagram.com/re_ichimaru/
 photo.44.tags: dish, portrait, sample, whiskers
-photo.45: https://www.instagram.com/p/CuCUsfvPIZT/media/?size=m
+photo.45: ig://CuCUsfvPIZT/m
 photo.45.author: re_ichimaru
+photo.45.commitdate: 2023/8/11
 photo.45.link: https://www.instagram.com/re_ichimaru/
 photo.45.tags: flowers, portrait, sample, whiskers
 species: 2

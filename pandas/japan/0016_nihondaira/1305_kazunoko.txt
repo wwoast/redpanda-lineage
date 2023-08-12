@@ -168,8 +168,9 @@ photo.31.author: lesserpanda_shizuokacity_cp
 photo.31.commitdate: 2023/6/30
 photo.31.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.31.tags: bridge, sample
-photo.32: https://www.instagram.com/p/CuGUCQHoByQ/media/?size=m
+photo.32: ig://CuGUCQHoByQ/m
 photo.32.author: lesserpanda_shizuokacity_cp
+photo.32.commitdate: 2023/8/11
 photo.32.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.32.tags: bridge, peek
 species: 2
