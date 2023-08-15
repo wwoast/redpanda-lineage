@@ -1,0 +1,24 @@
+[panda]
+_id: 1423
+birthday: 2023/6/10
+birthplace: 114
+children: none
+commitdate: 2023/8/15
+en.name: Miso
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ミソ
+jp.nicknames: none
+jp.othernames: 味噌
+language.order: en, jp
+litter: none
+location.1: 114, 2023/6/10
+location.2: 99, 2023/8/11
+photo.1: https://www.instagram.com/p/Cv0PvRkOcfr/media/?size=m
+photo.1.author: greensborosciencecenter
+photo.1.link: https://www.instagram.com/greensborosciencecenter/
+photo.1.tags: baby, close-up, sample, whiskers
+species: 1
+studbook.id: unknown
+zoo: 99

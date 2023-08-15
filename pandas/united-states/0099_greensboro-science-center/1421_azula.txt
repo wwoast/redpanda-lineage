@@ -1,0 +1,22 @@
+[panda]
+_id: 1421
+birthday: 2023/5/26
+birthplace: 99
+children: none
+commitdate: 2023/8/15
+en.name: Azula
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アズラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1422
+photo.1: https://www.instagram.com/p/Cv7GdZ8utOF/media/?size=m
+photo.1.author: rossifari
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: baby, close-up, keeper, whiskers
+species: 2
+studbook.id: unknown
+zoo: 99

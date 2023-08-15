@@ -4,6 +4,7 @@ birthday: 2016/6/6
 birthplace: 131
 children: 861, 862
 commitdate: 2019/3/25
+death: 2023/8/12
 en.name: Lali
 en.nicknames: none
 en.othernames: none
@@ -22,4 +23,5 @@ photo.1.link: https://www.instagram.com/campergirl98/
 photo.1.tags: paws, peek, profile
 species: 1
 studbook.id: 1606
+uncertainty: death exact date
 zoo: 177

@@ -4,12 +4,13 @@ birthday: 2015/12/25
 birthplace: 56
 children: none
 commitdate: 2018/7/22
-en.name: Kelu
+death: 2023/8/15
+en.name: Kelú
 en.nicknames: none
-en.othernames: none
-es.name: Kelu
+en.othernames: Kelu
+es.name: Kelú
 es.nicknames: none
-es.othernames: none
+es.othernames: Kelu
 gender: m
 jp.name: ケルー
 jp.nicknames: none
@@ -47,4 +48,5 @@ photo.6.link: https://www.instagram.com/zoonacionalchile/
 photo.6.tags: apple time
 species: 2
 studbook.id: 15169
+uncertainty: death exact day
 zoo: 56
