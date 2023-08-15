@@ -13,14 +13,16 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1421
-photo.1: https://www.instagram.com/p/Cu4oewnuTCD/media/?size=m
-photo.1.author: greensborosciencecenter
-photo.1.link: https://www.instagram.com/greensborosciencecenter/
-photo.1.tags: baby, close-up, mofumofu, toys
-photo.2: https://www.instagram.com/p/CuhZqJlgeW3/media/?size=m
-photo.2.author: rossifari
-photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: baby, close-up, keeper
+photo.1: ig://CuhZqJlgeW3/m
+photo.1.author: rossifari
+photo.1.commitdate: 2023/8/15
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: baby, close-up, keeper
+photo.2: ig://Cu4oewnuTCD/m
+photo.2.author: greensborosciencecenter
+photo.2.commitdate: 2023/8/15
+photo.2.link: https://www.instagram.com/greensborosciencecenter/
+photo.2.tags: baby, close-up, mofumofu, toys
 species: 2
 studbook.id: unknown
 zoo: 99

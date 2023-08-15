@@ -15,8 +15,9 @@ language.order: en, jp
 litter: none
 location.1: 114, 2023/6/10
 location.2: 99, 2023/8/11
-photo.1: https://www.instagram.com/p/Cv0PvRkOcfr/media/?size=m
+photo.1: ig://Cv0PvRkOcfr/m
 photo.1.author: greensborosciencecenter
+photo.1.commitdate: 2023/8/15
 photo.1.link: https://www.instagram.com/greensborosciencecenter/
 photo.1.tags: baby, close-up, sample, whiskers
 species: 1

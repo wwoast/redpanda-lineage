@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1422
-photo.1: https://www.instagram.com/p/Cv7GdZ8utOF/media/?size=m
+photo.1: ig://Cv7GdZ8utOF/m
 photo.1.author: rossifari
+photo.1.commitdate: 2023/8/15
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: baby, close-up, keeper, whiskers
 species: 2

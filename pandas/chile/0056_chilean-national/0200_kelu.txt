@@ -21,31 +21,35 @@ photo.1.author: parquemet.cl
 photo.1.commitdate: 2022/1/10
 photo.1.link: https://www.instagram.com/parquemet.cl/
 photo.1.tags: nose
-photo.2: ig://Bl9VsnPnrDJ/m
-photo.2.author: alexisbanares.cl
-photo.2.commitdate: 2018/12/26
-photo.2.link: https://www.instagram.com/alexisbanares.cl/
-photo.2.tags: bamboo, tail
-photo.3: ig://BugX4IvDD1m/m
-photo.3.author: josmeca
-photo.3.commitdate: 2019/10/31
-photo.3.link: https://www.instagram.com/josmeca/
-photo.3.tags: laying down
-photo.4: ig://BxFm7vKBYob/m
-photo.4.author: parquemetminvu
-photo.4.commitdate: 2021/1/5
-photo.4.link: https://www.instagram.com/parquemetminvu/
-photo.4.tags: hammock, portrait, tail
-photo.5: ig://BxPV3PVlRmH/m
-photo.5.author: monmon_redpanda
-photo.5.commitdate: 2019/5/9
-photo.5.link: https://www.instagram.com/monmon_redpanda/
-photo.5.tags: portrait, smile
-photo.6: ig://Cen-pcXjHfL/m
-photo.6.author: zoonacionalchile
-photo.6.commitdate: 2022/12/7
-photo.6.link: https://www.instagram.com/zoonacionalchile/
-photo.6.tags: apple time
+photo.2: ig://BSpLlmPFqB_/m
+photo.2.author: jascdesing
+photo.2.link: https://www.instagram.com/jascdesing/
+photo.2.tags: laying down, portrait, sleeping, whiskers
+photo.3: ig://Bl9VsnPnrDJ/m
+photo.3.author: alexisbanares.cl
+photo.3.commitdate: 2018/12/26
+photo.3.link: https://www.instagram.com/alexisbanares.cl/
+photo.3.tags: bamboo, tail
+photo.4: ig://BugX4IvDD1m/m
+photo.4.author: josmeca
+photo.4.commitdate: 2019/10/31
+photo.4.link: https://www.instagram.com/josmeca/
+photo.4.tags: laying down
+photo.5: ig://BxFm7vKBYob/m
+photo.5.author: parquemetminvu
+photo.5.commitdate: 2021/1/5
+photo.5.link: https://www.instagram.com/parquemetminvu/
+photo.5.tags: hammock, portrait, tail
+photo.6: ig://BxPV3PVlRmH/m
+photo.6.author: monmon_redpanda
+photo.6.commitdate: 2019/5/9
+photo.6.link: https://www.instagram.com/monmon_redpanda/
+photo.6.tags: portrait, smile
+photo.7: ig://Cen-pcXjHfL/m
+photo.7.author: zoonacionalchile
+photo.7.commitdate: 2022/12/7
+photo.7.link: https://www.instagram.com/zoonacionalchile/
+photo.7.tags: apple time
 species: 2
 studbook.id: 15169
 uncertainty: death exact day
