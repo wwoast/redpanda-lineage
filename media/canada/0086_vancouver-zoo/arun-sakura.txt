@@ -23,8 +23,9 @@ photo.3.link: https://www.instagram.com/westcoast_kathy/
 photo.3.tags: couple, paws, portrait
 photo.3.tags.432.location: 470, 160
 photo.3.tags.445.location: 235, 205
-photo.4: https://www.instagram.com/p/CY5FFFYvG82/media/?size=l
+photo.4: ig://CY5FFFYvG82/l
 photo.4.author: westcoast_kathy
+photo.4.commitdate: 2023/8/21
 photo.4.link: https://www.instagram.com/westcoast_kathy/
 photo.4.tags: couple, paws, portrait, sample
 photo.4.tags.432.location: 325, 370

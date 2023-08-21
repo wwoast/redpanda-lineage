@@ -21,8 +21,9 @@ photo.1.author: rossifari
 photo.1.commitdate: 2020/8/17
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: portrait, profile, whiskers, white face
-photo.2: https://www.instagram.com/p/CaBJ0KjtNlu/media/?size=m
+photo.2: ig://CaBJ0KjtNlu/m
 photo.2.author: brandywinezoo
+photo.2.commitdate: 2023/8/21
 photo.2.link: https://www.instagram.com/brandywinezoo/
 photo.2.tags: bamboo, paws, tail
 species: 1

@@ -40,20 +40,21 @@ photo.5.author: lincolnchildrenszoo
 photo.5.commitdate: 2020/3/8
 photo.5.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.5.tags: bridge, laying down, paws, portrait
-photo.6: ig://CQQ2UXLN_5R/m
+photo.6: ig://CNpiYbxjuv-/m
 photo.6.author: lincolnchildrenszoo
-photo.6.commitdate: 2021/6/22
+photo.6.commitdate: 2023/8/21
 photo.6.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.6.tags: paws, portrait
-photo.7: ig://CT9sIHDtCKo/m
+photo.6.tags: portrait, sample, tail, whiskers
+photo.7: ig://CQQ2UXLN_5R/m
 photo.7.author: lincolnchildrenszoo
-photo.7.commitdate: 2021/11/28
+photo.7.commitdate: 2021/6/22
 photo.7.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.7.tags: portrait, tail
-photo.8: https://www.instagram.com/p/CNpiYbxjuv-/media/?size=m
+photo.7.tags: paws, portrait
+photo.8: ig://CT9sIHDtCKo/m
 photo.8.author: lincolnchildrenszoo
+photo.8.commitdate: 2021/11/28
 photo.8.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.8.tags: portrait, sample, tail, whiskers
+photo.8.tags: portrait, tail
 species: 1
 studbook.id: 1421
 zoo: 80
