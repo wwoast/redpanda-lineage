@@ -65,15 +65,16 @@ photo.10.author: tulsazoo
 photo.10.commitdate: 2021/2/19
 photo.10.link: https://www.instagram.com/tulsazoo/
 photo.10.tags: bamboo, portrait, profile, snow
-photo.11: ig://Cn2laYdOINd/m
-photo.11.author: worldthathesees
-photo.11.commitdate: 2023/2/25
-photo.11.link: https://www.instagram.com/worldthathesees/
-photo.11.tags: mofumofu, portrait, sample, tail
-photo.12: https://www.instagram.com/rossifari/p/CY9adrNJwWK/media/?size=m
-photo.12.author: rossifari
-photo.12.link: https://www.instagram.com/rossifari/
-photo.12.tags: close-up, laying down, portrait, sample
+photo.11: ig://rossifari/CY9adrNJwWK/m
+photo.11.author: rossifari
+photo.11.commitdate: 2023/8/21
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: close-up, laying down, portrait, sample
+photo.12: ig://Cn2laYdOINd/m
+photo.12.author: worldthathesees
+photo.12.commitdate: 2023/2/25
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: mofumofu, portrait, sample, tail
 species: 2
 studbook.id: 1535
 zoo: 102

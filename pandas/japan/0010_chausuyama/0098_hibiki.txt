@@ -56,7 +56,7 @@ photo.10: ig://BqRY9WTlzS5/m
 photo.10.author: wumpwoast
 photo.10.commitdate: 2022/11/29
 photo.10.link: https://www.instagram.com/wumpwoast/
-photo.10.tags: mofumofu, portrait, sample, tail
+photo.10.tags: mofumofu, paws, portrait, sample, tail
 photo.11: ig://BqqXMasng-z/m
 photo.11.author: yakko____
 photo.11.commitdate: 2018/12/6
@@ -442,10 +442,6 @@ photo.88.author: daniele.tokyo
 photo.88.commitdate: 2023/4/21
 photo.88.link: https://www.instagram.com/daniele.tokyo/
 photo.88.tags: mofumofu, tail, whiskers
-photo.89: https://www.instagram.com/p/BqRY9WTlzS5/media/?size=m
-photo.89.author: wumpwoast
-photo.89.link: https://www.instagram.com/wumpwoast/
-photo.89.tags: paws, portrait, sample, tail
 species: 2
 studbook.id: 15156
 zoo: 10
