@@ -24,7 +24,7 @@ photo.1: https://www.codaworry.com/images/rpf/kouta-1-santiago.jpg
 photo.1.author: gachon_kudo
 photo.1.commitdate: 2019/4/9
 photo.1.link: https://gachon.exblog.jp/i12/
-photo.1.tags: profile, smile
+photo.1.tags: smile
 photo.2: https://www.codaworry.com/images/rpf/kouta-2-santiago.jpg
 photo.2.author: gachon_kudo
 photo.2.commitdate: 2019/4/9
@@ -54,6 +54,11 @@ photo.7.author: lovelyxia
 photo.7.commitdate: 2020/3/15
 photo.7.link: https://www.instagram.com/lovelyxia/
 photo.7.tags: whiskers
+photo.8: https://www.codaworry.com/images/rpf/kouta-3-santiago.jpg
+photo.8.author: rootsandloyalty
+photo.8.commitdate: 2023/8/20
+photo.8.link: https://www.instagram.com/rootsandloyalty/
+photo.8.tags: portrait, profile, sample
 species: 2
 studbook.id: 10107
 zoo: 56
