@@ -831,30 +831,31 @@ photo.163.author: pantasanzoo1
 photo.163.commitdate: 2023/1/14
 photo.163.link: https://www.instagram.com/pantasanzoo1/
 photo.163.tags: blink, laying down, whiskers, yawn
-photo.164: ig://CnRpQAbvxRX/m
-photo.164.author: miis_98
-photo.164.commitdate: 2023/3/23
-photo.164.link: https://www.instagram.com/miis_98/
-photo.164.tags: paws, portrait, sample, whiskers
-photo.165: ig://Cna0V5nvFTO/m
-photo.165.author: pantasanzoo1
-photo.165.commitdate: 2023/3/9
-photo.165.link: https://www.instagram.com/pantasanzoo1/
-photo.165.tags: climb, paws, sample, yawn
-photo.166: ig://Cn3pSHYPCun/m
+photo.164: ig://CnI7QIovbCH/m
+photo.164.author: minatomirai215
+photo.164.commitdate: 2023/8/22
+photo.164.link: https://www.instagram.com/minatomirai215/
+photo.164.tags: bamboo, paws, peek, portrait, sample, whiskers
+photo.165: ig://CnRpQAbvxRX/m
+photo.165.author: miis_98
+photo.165.commitdate: 2023/3/23
+photo.165.link: https://www.instagram.com/miis_98/
+photo.165.tags: paws, portrait, sample, whiskers
+photo.166: ig://Cna0V5nvFTO/m
 photo.166.author: pantasanzoo1
-photo.166.commitdate: 2023/2/25
+photo.166.commitdate: 2023/3/9
 photo.166.link: https://www.instagram.com/pantasanzoo1/
-photo.166.tags: sample, whiskers
-photo.167: ig://CopPApBPrY_/m
+photo.166.tags: climb, paws, sample, yawn
+photo.167: ig://Cn3pSHYPCun/m
 photo.167.author: pantasanzoo1
-photo.167.commitdate: 2023/2/24
+photo.167.commitdate: 2023/2/25
 photo.167.link: https://www.instagram.com/pantasanzoo1/
-photo.167.tags: apple time, paws, smile, standing, whiskers
-photo.168: https://www.instagram.com/p/CnI7QIovbCH/media/?size=m
-photo.168.author: minatomirai215
-photo.168.link: https://www.instagram.com/minatomirai215/
-photo.168.tags: bamboo, paws, peek, portrait, sample, whiskers
+photo.167.tags: sample, whiskers
+photo.168: ig://CopPApBPrY_/m
+photo.168.author: pantasanzoo1
+photo.168.commitdate: 2023/2/24
+photo.168.link: https://www.instagram.com/pantasanzoo1/
+photo.168.tags: apple time, paws, smile, standing, whiskers
 species: 2
 studbook.id: 12117
 zoo: 38

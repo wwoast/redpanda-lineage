@@ -214,30 +214,31 @@ photo.40.author: kojikoji2011
 photo.40.commitdate: 2022/12/7
 photo.40.link: https://www.instagram.com/kojikoji2011/
 photo.40.tags: lips, portrait, sample, whiskers
-photo.41: ig://CoKjlv6v91Z/m
-photo.41.author: kojikoji2011
-photo.41.commitdate: 2023/3/6
-photo.41.link: https://www.instagram.com/kojikoji2011/
-photo.41.tags: portrait, sample
-photo.42: ig://CqkpmbtvJQw/m
-photo.42.author: gloryeui
-photo.42.commitdate: 2023/6/9
-photo.42.link: https://www.instagram.com/gloryeui/
-photo.42.tags: bamboo, bite, paws, portrait
-photo.43: ig://CrEiumThOZM/m
-photo.43.author: hamamatsu.chiita
-photo.43.commitdate: 2023/6/30
-photo.43.link: https://www.instagram.com/hamamatsu.chiita/
-photo.43.tags: close-up, laying down, mofumofu, portrait, sample, sleeping
-photo.44: ig://CrMSh_UyKyw/m
-photo.44.author: resapanlove
-photo.44.commitdate: 2023/5/4
-photo.44.link: https://www.instagram.com/resapanlove/
-photo.44.tags: home, laying down, portrait, sample, tongue, yawn
-photo.45: https://www.instagram.com/p/CnOEoXnPnxF/media/?size=m
-photo.45.author: yuredpanda
+photo.41: ig://CnOEoXnPnxF/m
+photo.41.author: yuredpanda
+photo.41.commitdate: 2023/8/22
+photo.41.link: https://www.instagram.com/resapanlove/
+photo.41.tags: laying down, paws, portrait, sample
+photo.42: ig://CoKjlv6v91Z/m
+photo.42.author: kojikoji2011
+photo.42.commitdate: 2023/3/6
+photo.42.link: https://www.instagram.com/kojikoji2011/
+photo.42.tags: portrait, sample
+photo.43: ig://CqkpmbtvJQw/m
+photo.43.author: gloryeui
+photo.43.commitdate: 2023/6/9
+photo.43.link: https://www.instagram.com/gloryeui/
+photo.43.tags: bamboo, bite, paws, portrait
+photo.44: ig://CrEiumThOZM/m
+photo.44.author: hamamatsu.chiita
+photo.44.commitdate: 2023/6/30
+photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.tags: close-up, laying down, mofumofu, portrait, sample, sleeping
+photo.45: ig://CrMSh_UyKyw/m
+photo.45.author: resapanlove
+photo.45.commitdate: 2023/5/4
 photo.45.link: https://www.instagram.com/resapanlove/
-photo.45.tags: laying down, paws, portrait, sample
+photo.45.tags: home, laying down, portrait, sample, tongue, yawn
 species: 2
 studbook.id: 15163
 zoo: 6

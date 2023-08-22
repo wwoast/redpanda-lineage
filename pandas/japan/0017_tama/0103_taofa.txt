@@ -963,54 +963,56 @@ photo.190.author: daniele.tokyo
 photo.190.commitdate: 2023/8/22
 photo.190.link: https://www.instagram.com/daniele.tokyo/
 photo.190.tags: paws, sample, tail, whiskers
-photo.191: ig://Cngt6jsvGHa/m
-photo.191.author: tamazoowalking
-photo.191.commitdate: 2023/3/9
-photo.191.link: https://www.instagram.com/tamazoowalking/
-photo.191.tags: bamboo, portrait, sample, tongue
-photo.192: ig://Cnwbiwev8vL/m
-photo.192.author: ck.chie
-photo.192.commitdate: 2023/2/25
-photo.192.link: https://www.instagram.com/ck.chie/
-photo.192.tags: bamboo, paws, peek, sample
-photo.193: ig://CoMxcvEPL-H/m
-photo.193.author: kotata_513
-photo.193.commitdate: 2023/3/6
-photo.193.link: https://www.instagram.com/kotata_513/
-photo.193.tags: bamboo, bridge, paws, portrait, sample
-photo.194: ig://CojwOonv16r/m
-photo.194.author: ssc6105
-photo.194.commitdate: 2023/2/24
-photo.194.link: https://www.instagram.com/ssc6105/
-photo.194.tags: paws, playing, sample, snow, standing, tail
-photo.195: ig://Comh3CxvpVJ/m
-photo.195.author: redpan22
-photo.195.commitdate: 2023/2/24
-photo.195.link: https://www.instagram.com/redpan22/
-photo.195.tags: playing, snow
-photo.196: ig://Co7Y5jTPKs6/m
-photo.196.author: redpan22
-photo.196.commitdate: 2023/4/8
-photo.196.link: https://www.instagram.com/redpan22/
-photo.196.tags: peek, sample, snow, tongue, whiskers
-photo.197: ig://Cpmx365vcmi/m
-photo.197.author: alto0908
-photo.197.commitdate: 2023/5/29
-photo.197.link: https://www.instagram.com/alto0908/
-photo.197.tags: bamboo, bite, portrait, sample, whiskers
-photo.198: ig://CvSEnEtPC_2/m
-photo.198.author: mini_cochi
-photo.198.commitdate: 2023/7/31
-photo.198.link: https://www.instagram.com/mini_cochi/
-photo.198.tags: flowers, portrait, smile, tree, whiskers
-photo.199: https://www.instagram.com/p/CnPB636Pj9D/media/?size=m
-photo.199.author: mini_cochi
-photo.199.link: https://www.instagram.com/mini_cochi/
-photo.199.tags: apple time, paws, sample
-photo.200: https://www.instagram.com/p/Cn6oki-rqvB/media/?size=m
-photo.200.author: ck.chie
-photo.200.link: https://www.instagram.com/ck.chie/
-photo.200.tags: bridge, laying down, sample
+photo.191: ig://CnPB636Pj9D/m
+photo.191.author: mini_cochi
+photo.191.commitdate: 2023/8/22
+photo.191.link: https://www.instagram.com/mini_cochi/
+photo.191.tags: apple time, paws, sample
+photo.192: ig://Cngt6jsvGHa/m
+photo.192.author: tamazoowalking
+photo.192.commitdate: 2023/3/9
+photo.192.link: https://www.instagram.com/tamazoowalking/
+photo.192.tags: bamboo, portrait, sample, tongue
+photo.193: ig://Cnwbiwev8vL/m
+photo.193.author: ck.chie
+photo.193.commitdate: 2023/2/25
+photo.193.link: https://www.instagram.com/ck.chie/
+photo.193.tags: bamboo, paws, peek, sample
+photo.194: ig://Cn6oki-rqvB/m
+photo.194.author: ck.chie
+photo.194.commitdate: 2023/8/22
+photo.194.link: https://www.instagram.com/ck.chie/
+photo.194.tags: bridge, laying down, sample
+photo.195: ig://CoMxcvEPL-H/m
+photo.195.author: kotata_513
+photo.195.commitdate: 2023/3/6
+photo.195.link: https://www.instagram.com/kotata_513/
+photo.195.tags: bamboo, bridge, paws, portrait, sample
+photo.196: ig://CojwOonv16r/m
+photo.196.author: ssc6105
+photo.196.commitdate: 2023/2/24
+photo.196.link: https://www.instagram.com/ssc6105/
+photo.196.tags: paws, playing, sample, snow, standing, tail
+photo.197: ig://Comh3CxvpVJ/m
+photo.197.author: redpan22
+photo.197.commitdate: 2023/2/24
+photo.197.link: https://www.instagram.com/redpan22/
+photo.197.tags: playing, snow
+photo.198: ig://Co7Y5jTPKs6/m
+photo.198.author: redpan22
+photo.198.commitdate: 2023/4/8
+photo.198.link: https://www.instagram.com/redpan22/
+photo.198.tags: peek, sample, snow, tongue, whiskers
+photo.199: ig://Cpmx365vcmi/m
+photo.199.author: alto0908
+photo.199.commitdate: 2023/5/29
+photo.199.link: https://www.instagram.com/alto0908/
+photo.199.tags: bamboo, bite, portrait, sample, whiskers
+photo.200: ig://CvSEnEtPC_2/m
+photo.200.author: mini_cochi
+photo.200.commitdate: 2023/7/31
+photo.200.link: https://www.instagram.com/mini_cochi/
+photo.200.tags: flowers, portrait, smile, tree, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17

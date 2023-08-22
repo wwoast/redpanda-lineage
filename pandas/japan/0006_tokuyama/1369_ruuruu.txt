@@ -138,67 +138,70 @@ photo.25.author: resapanlove
 photo.25.commitdate: 2023/1/14
 photo.25.link: https://www.instagram.com/resapanlove/
 photo.25.tags: baby, bamboo, mofumofu, paws, sample
-photo.26: ig://CnP5DIxBB3O/m
-photo.26.author: hamamatsu.chiita
-photo.26.commitdate: 2023/2/26
-photo.26.link: https://www.instagram.com/hamamatsu.chiita/
-photo.26.tags: baby, laying down, mofumofu, portrait, sample
-photo.27: ig://CnbrjcLv0Zc/m
-photo.27.author: daniele.tokyo
-photo.27.commitdate: 2023/3/9
-photo.27.link: https://www.instagram.com/daniele.tokyo/
-photo.27.tags: laying down, mofumofu, portrait, sample, smile, whiskers
-photo.28: ig://CneRwoRPMqx/m
-photo.28.author: jas_forever_love
-photo.28.commitdate: 2023/3/9
-photo.28.link: https://www.instagram.com/jas_forever_love/
-photo.28.tags: apple time, keeper, paws
-photo.29: ig://Cnojh7FraG3/m
-photo.29.author: daniele.tokyo
-photo.29.commitdate: 2023/3/6
-photo.29.link: https://www.instagram.com/daniele.tokyo/
-photo.29.tags: bridge, laying down, mofumofu, sample
-photo.30: ig://CnzL2rFv9_D/m
-photo.30.author: kojikoji2011
+photo.26: ig://CnOvK-8Pq7F/m
+photo.26.author: yossi929
+photo.26.commitdate: 2023/8/22
+photo.26.link: https://www.instagram.com/yossi929/
+photo.26.tags: bamboo, mofumofu, paws, portrait, sample
+photo.27: ig://CnO3tPCPasa/m
+photo.27.author: yuredpanda
+photo.27.commitdate: 2023/8/22
+photo.27.link: https://www.instagram.com/yuredpanda/
+photo.27.tags: baby, mofumofu, paws, portrait, sample
+photo.28: ig://CnPE5btvsBg/m
+photo.28.author: redpanda_nippon_takashi
+photo.28.commitdate: 2023/8/22
+photo.28.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.28.tags: apple time, baby, bite, mofumofu, peek
+photo.29: ig://CnP5DIxBB3O/m
+photo.29.author: hamamatsu.chiita
+photo.29.commitdate: 2023/2/26
+photo.29.link: https://www.instagram.com/hamamatsu.chiita/
+photo.29.tags: baby, laying down, mofumofu, portrait, sample
+photo.30: ig://CnbrjcLv0Zc/m
+photo.30.author: daniele.tokyo
 photo.30.commitdate: 2023/3/9
-photo.30.link: https://www.instagram.com/kojikoji2011/
-photo.30.tags: bridge, paws, peek, portrait, sample
-photo.31: ig://CoCd6DBL_tN/m
-photo.31.author: tomo3700
-photo.31.commitdate: 2023/2/25
-photo.31.link: https://www.instagram.com/tomo3700/
-photo.31.tags: laying down, mofumofu, portrait, sample, tail
-photo.32: ig://ComiNK6vKRV/m
-photo.32.author: resapanlove
-photo.32.commitdate: 2023/2/24
-photo.32.link: https://www.instagram.com/resapanlove/
-photo.32.tags: blink, close-up, portrait, yawn
-photo.33: ig://CpfAGFpPyav/m
-photo.33.author: daniele.tokyo
-photo.33.commitdate: 2023/5/23
-photo.33.link: https://www.instagram.com/daniele.tokyo/
-photo.33.tags: baby, laying down, paws, playing, tail
-photo.34: ig://CqLCQYCvLs0/m
-photo.34.author: gloryeui
-photo.34.commitdate: 2023/6/20
-photo.34.link: https://www.instagram.com/gloryeui/
-photo.34.tags: bamboo, mofumofu, peek, portrait, sample
-photo.35: ig://CqMNKMgBnYT/m
-photo.35.author: tomo3700
-photo.35.commitdate: 2023/6/20
-photo.35.link: https://www.instagram.com/tomo3700/
-photo.35.tags: baby, mofumofu, paws, peek, portrait
-photo.36: https://www.instagram.com/p/CnO3tPCPasa/media/?size=m
-photo.36.author: yuredpanda
-photo.36.link: https://www.instagram.com/yuredpanda/
-photo.36.tags: baby, mofumofu, paws, portrait, sample
-photo.37: https://www.instagram.com/p/CnPE5btvsBg/media/?size=m
-photo.37.author: redpanda_nippon_takashi
-photo.37.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.37.tags: apple time, baby, bite, mofumofu, peek
-photo.38: https://www.instagram.com/p/CnOvK-8Pq7F/media/?size=m
-photo.38.author: yossi929
-photo.38.link: https://www.instagram.com/yossi929/
-photo.38.tags: bamboo, mofumofu, paws, portrait, sample
+photo.30.link: https://www.instagram.com/daniele.tokyo/
+photo.30.tags: laying down, mofumofu, portrait, sample, smile, whiskers
+photo.31: ig://CneRwoRPMqx/m
+photo.31.author: jas_forever_love
+photo.31.commitdate: 2023/3/9
+photo.31.link: https://www.instagram.com/jas_forever_love/
+photo.31.tags: apple time, keeper, paws
+photo.32: ig://Cnojh7FraG3/m
+photo.32.author: daniele.tokyo
+photo.32.commitdate: 2023/3/6
+photo.32.link: https://www.instagram.com/daniele.tokyo/
+photo.32.tags: bridge, laying down, mofumofu, sample
+photo.33: ig://CnzL2rFv9_D/m
+photo.33.author: kojikoji2011
+photo.33.commitdate: 2023/3/9
+photo.33.link: https://www.instagram.com/kojikoji2011/
+photo.33.tags: bridge, paws, peek, portrait, sample
+photo.34: ig://CoCd6DBL_tN/m
+photo.34.author: tomo3700
+photo.34.commitdate: 2023/2/25
+photo.34.link: https://www.instagram.com/tomo3700/
+photo.34.tags: laying down, mofumofu, portrait, sample, tail
+photo.35: ig://ComiNK6vKRV/m
+photo.35.author: resapanlove
+photo.35.commitdate: 2023/2/24
+photo.35.link: https://www.instagram.com/resapanlove/
+photo.35.tags: blink, close-up, portrait, yawn
+photo.36: ig://CpfAGFpPyav/m
+photo.36.author: daniele.tokyo
+photo.36.commitdate: 2023/5/23
+photo.36.link: https://www.instagram.com/daniele.tokyo/
+photo.36.tags: baby, laying down, paws, playing, tail
+photo.37: ig://CqLCQYCvLs0/m
+photo.37.author: gloryeui
+photo.37.commitdate: 2023/6/20
+photo.37.link: https://www.instagram.com/gloryeui/
+photo.37.tags: bamboo, mofumofu, peek, portrait, sample
+photo.38: ig://CqMNKMgBnYT/m
+photo.38.author: tomo3700
+photo.38.commitdate: 2023/6/20
+photo.38.link: https://www.instagram.com/tomo3700/
+photo.38.tags: baby, mofumofu, paws, peek, portrait
 species: 2
 zoo: 6

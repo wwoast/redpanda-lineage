@@ -453,14 +453,15 @@ photo.88.author: gloryeui
 photo.88.commitdate: 2023/1/14
 photo.88.link: https://www.instagram.com/gloryeui/
 photo.88.tags: bamboo, mofumofu, portrait
-photo.89: ig://Cs1y5r_hgDV/m
-photo.89.author: hamamatsu.chiita
-photo.89.commitdate: 2023/6/20
-photo.89.link: https://www.instagram.com/hamamatsu.chiita/
-photo.89.tags: close-up, mofumofu, portrait, sample, tongue
-photo.90: https://www.instagram.com/p/CnL0vA8PFyu/media/?size=m
-photo.90.author: minato.yokohama4416
-photo.90.link: https://www.instagram.com/minato.yokohama4416/
-photo.90.tags: peek, portrait, sample, tree
+photo.89: ig://CnL0vA8PFyu/m
+photo.89.author: minato.yokohama4416
+photo.89.commitdate: 2023/8/22
+photo.89.link: https://www.instagram.com/minato.yokohama4416/
+photo.89.tags: peek, portrait, sample, tree
+photo.90: ig://Cs1y5r_hgDV/m
+photo.90.author: hamamatsu.chiita
+photo.90.commitdate: 2023/6/20
+photo.90.link: https://www.instagram.com/hamamatsu.chiita/
+photo.90.tags: close-up, mofumofu, portrait, sample, tongue
 species: 2
 zoo: 13
