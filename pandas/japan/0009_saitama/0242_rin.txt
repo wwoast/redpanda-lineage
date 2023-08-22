@@ -763,39 +763,41 @@ photo.150.author: fetorus_mami
 photo.150.commitdate: 2022/10/24
 photo.150.link: https://www.instagram.com/fetorus_mami/
 photo.150.tags: paws, white face
-photo.151: ig://Cn_hpIBPD9x/m
-photo.151.author: ssc6105
-photo.151.commitdate: 2023/3/6
-photo.151.link: https://www.instagram.com/ssc6105/
-photo.151.tags: bamboo, sample, tongue
-photo.152: ig://CoDlvVmBp_Z/m
-photo.152.author: ssc6105
-photo.152.commitdate: 2023/3/6
-photo.152.link: https://www.instagram.com/ssc6105/
-photo.152.tags: peek, sample, white face
-photo.153: ig://Cpphvg8PGFz/m
-photo.153.author: fetorus_mami
-photo.153.commitdate: 2023/6/25
-photo.153.link: https://www.instagram.com/fetorus_mami/
-photo.153.tags: bamboo, sample, smile, standing
-photo.154: ig://CqA-oVnvfBL/m
-photo.154.author: mini_cochi
-photo.154.commitdate: 2023/4/21
-photo.154.link: https://www.instagram.com/mini_cochi/
-photo.154.tags: close-up, portrait, sample, white face
-photo.155: ig://CsBM1G0Pkok/m
-photo.155.author: ssc6105
-photo.155.commitdate: 2023/6/20
-photo.155.link: https://www.instagram.com/ssc6105/
-photo.155.tags: bamboo, long-tongue, paws, standing, tongue, white face
-photo.156: https://www.instagram.com/p/CnKCbQxv3kD/media/?size=m
+photo.151: ig://CnKCbQxv3kD/m
+photo.151.author: mini_cochi
+photo.151.commitdate: 2023/8/22
+photo.151.link: https://www.instagram.com/mini_cochi/
+photo.151.tags: bamboo, night, paws, portrait, sample, white face
+photo.152: ig://CnKLFv1Pe_L/m
+photo.152.author: fetorus_mami
+photo.152.commitdate: 2023/8/22
+photo.152.link: https://www.instagram.com/fetorus_mami/
+photo.152.tags: bamboo, sample, smile, standing
+photo.153: ig://Cn_hpIBPD9x/m
+photo.153.author: ssc6105
+photo.153.commitdate: 2023/3/6
+photo.153.link: https://www.instagram.com/ssc6105/
+photo.153.tags: bamboo, sample, tongue
+photo.154: ig://CoDlvVmBp_Z/m
+photo.154.author: ssc6105
+photo.154.commitdate: 2023/3/6
+photo.154.link: https://www.instagram.com/ssc6105/
+photo.154.tags: peek, sample, white face
+photo.155: ig://Cpphvg8PGFz/m
+photo.155.author: fetorus_mami
+photo.155.commitdate: 2023/6/25
+photo.155.link: https://www.instagram.com/fetorus_mami/
+photo.155.tags: bamboo, sample, smile, standing
+photo.156: ig://CqA-oVnvfBL/m
 photo.156.author: mini_cochi
+photo.156.commitdate: 2023/4/21
 photo.156.link: https://www.instagram.com/mini_cochi/
-photo.156.tags: bamboo, night, paws, portrait, sample, white face
-photo.157: https://www.instagram.com/p/CnKLFv1Pe_L/media/?size=m
-photo.157.author: fetorus_mami
-photo.157.link: https://www.instagram.com/fetorus_mami/
-photo.157.tags: bamboo, sample, smile, standing 
+photo.156.tags: close-up, portrait, sample, white face
+photo.157: ig://CsBM1G0Pkok/m
+photo.157.author: ssc6105
+photo.157.commitdate: 2023/6/20
+photo.157.link: https://www.instagram.com/ssc6105/
+photo.157.tags: bamboo, long-tongue, paws, standing, tongue, white face
 species: 2
 studbook.id: unknown
 zoo: 9

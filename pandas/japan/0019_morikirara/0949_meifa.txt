@@ -1,4 +1,4 @@
-b[panda]
+[panda]
 _id: 949
 birthday: 2019/6/19
 birthplace: 17
@@ -959,79 +959,80 @@ photo.189.author: sasapan34
 photo.189.commitdate: 2022/4/25
 photo.189.link: https://www.instagram.com/sasapan34/
 photo.189.tags: tail, whiskers
-photo.190: ig://Cdav5LQJgZ6/m
-photo.190.author: morikirara
-photo.190.commitdate: 2022/6/2
-photo.190.link: https://www.instagram.com/morikirara/
-photo.190.tags: peek, tree, whiskers
-photo.191: ig://CdsjLv6vr7Q/m
-photo.191.author: daniele.tokyo
-photo.191.commitdate: 2022/6/6
-photo.191.link: https://www.instagram.com/daniele.tokyo/
-photo.191.tags: paws, peek, sample, smile, tree, whiskers
-photo.192: ig://CeQm8sOpgr8/m
-photo.192.author: morikirara
-photo.192.commitdate: 2022/9/24
-photo.192.link: https://www.instagram.com/morikirara/
-photo.192.tags: bamboo, paws, sample, whiskers
-photo.193: ig://CeVv6EaJ4z_/m
-photo.193.author: daniele.tokyo
-photo.193.commitdate: 2022/6/22
-photo.193.link: https://www.instagram.com/daniele.tokyo/
-photo.193.tags: mofumofu, peek, sample, smile, tree
-photo.194: ig://CecKA02vlCl/m
-photo.194.author: yossi929
-photo.194.commitdate: 2022/8/1
-photo.194.link: https://www.instagram.com/yossi929/
-photo.194.tags: door, portrait, sample, whiskers
-photo.195: ig://CfbRXXtLLk2/m
-photo.195.author: daniele.tokyo
-photo.195.commitdate: 2022/7/22
-photo.195.link: https://www.instagram.com/daniele.tokyo/
-photo.195.tags: peek, tongue, tree
-photo.196: ig://Cfln_KkPGU8/m
+photo.190: ig://CcFSPnMrD5o/m
+photo.190.author: otenba_redpanda
+photo.190.commitdate: 2023/8/22
+photo.190.link: https://www.instagram.com/otenba_redpanda/
+photo.190.tags: laying down, portrait, sample, tail
+photo.191: ig://Cdav5LQJgZ6/m
+photo.191.author: morikirara
+photo.191.commitdate: 2022/6/2
+photo.191.link: https://www.instagram.com/morikirara/
+photo.191.tags: peek, tree, whiskers
+photo.192: ig://CdsjLv6vr7Q/m
+photo.192.author: daniele.tokyo
+photo.192.commitdate: 2022/6/6
+photo.192.link: https://www.instagram.com/daniele.tokyo/
+photo.192.tags: paws, peek, sample, smile, tree, whiskers
+photo.193: ig://CeQm8sOpgr8/m
+photo.193.author: morikirara
+photo.193.commitdate: 2022/9/24
+photo.193.link: https://www.instagram.com/morikirara/
+photo.193.tags: bamboo, paws, sample, whiskers
+photo.194: ig://CeVv6EaJ4z_/m
+photo.194.author: daniele.tokyo
+photo.194.commitdate: 2022/6/22
+photo.194.link: https://www.instagram.com/daniele.tokyo/
+photo.194.tags: mofumofu, peek, sample, smile, tree
+photo.195: ig://CecKA02vlCl/m
+photo.195.author: yossi929
+photo.195.commitdate: 2022/8/1
+photo.195.link: https://www.instagram.com/yossi929/
+photo.195.tags: door, portrait, sample, whiskers
+photo.196: ig://CfbRXXtLLk2/m
 photo.196.author: daniele.tokyo
-photo.196.commitdate: 2022/11/29
+photo.196.commitdate: 2022/7/22
 photo.196.link: https://www.instagram.com/daniele.tokyo/
-photo.196.tags: peek, wet, whiskers
-photo.197: ig://Cgal1enJDP0/m
-photo.197.author: osopanda551
-photo.197.commitdate: 2022/8/8
-photo.197.link: https://www.instagram.com/osopanda551/
-photo.197.tags: portrait, sample, smile
-photo.198: ig://ChCdFxXpe3l/m
-photo.198.author: morikirara
-photo.198.commitdate: 2022/8/28
-photo.198.link: https://www.instagram.com/morikirara/
-photo.198.tags: close-up, nose, sample, whiskers
-photo.199: ig://CkDDvLpBksK/m
-photo.199.author: monmon_redpanda
-photo.199.commitdate: 2022/11/4
-photo.199.link: https://www.instagram.com/monmon_redpanda/
-photo.199.tags: paws, portrait, sample, tail, whiskers
-photo.200: ig://Cl3jNvZrN_o/m
-photo.200.author: mini_cochi
-photo.200.commitdate: 2022/12/15
-photo.200.link: https://www.instagram.com/mini_cochi/
-photo.200.tags: peek, portrait, profile, sample, whiskers
-photo.201: ig://CmTnrAgJy6j/m
-photo.201.author: morikirara
-photo.201.commitdate: 2023/1/20
-photo.201.link: https://www.instagram.com/morikirara/
-photo.201.tags: close-up, sample, whiskers
-photo.202: ig://CqK0RPkPu9g/m
-photo.202.author: re_ichimaru
-photo.202.commitdate: 2023/6/18
-photo.202.link: https://www.instagram.com/re_ichimaru/
-photo.202.tags: bamboo, portrait, sample, tongue
-photo.203: ig://CtrAllnvA06/m
-photo.203.author: kotata_513
-photo.203.commitdate: 2023/8/10
-photo.203.link: https://www.instagram.com/kotata_513/
-photo.203.tags: bamboo, paws, portrait, sample, whiskers
-photo.204: https://www.instagram.com/p/CcFSPnMrD5o/media/?size=m
-photo.204.author: otenba_redpanda
-photo.204.link: https://www.instagram.com/otenba_redpanda/
-photo.204.tags: laying down, portrait, sample, tail
+photo.196.tags: peek, tongue, tree
+photo.197: ig://Cfln_KkPGU8/m
+photo.197.author: daniele.tokyo
+photo.197.commitdate: 2022/11/29
+photo.197.link: https://www.instagram.com/daniele.tokyo/
+photo.197.tags: peek, wet, whiskers
+photo.198: ig://Cgal1enJDP0/m
+photo.198.author: osopanda551
+photo.198.commitdate: 2022/8/8
+photo.198.link: https://www.instagram.com/osopanda551/
+photo.198.tags: portrait, sample, smile
+photo.199: ig://ChCdFxXpe3l/m
+photo.199.author: morikirara
+photo.199.commitdate: 2022/8/28
+photo.199.link: https://www.instagram.com/morikirara/
+photo.199.tags: close-up, nose, sample, whiskers
+photo.200: ig://CkDDvLpBksK/m
+photo.200.author: monmon_redpanda
+photo.200.commitdate: 2022/11/4
+photo.200.link: https://www.instagram.com/monmon_redpanda/
+photo.200.tags: paws, portrait, sample, tail, whiskers
+photo.201: ig://Cl3jNvZrN_o/m
+photo.201.author: mini_cochi
+photo.201.commitdate: 2022/12/15
+photo.201.link: https://www.instagram.com/mini_cochi/
+photo.201.tags: peek, portrait, profile, sample, whiskers
+photo.202: ig://CmTnrAgJy6j/m
+photo.202.author: morikirara
+photo.202.commitdate: 2023/1/20
+photo.202.link: https://www.instagram.com/morikirara/
+photo.202.tags: close-up, sample, whiskers
+photo.203: ig://CqK0RPkPu9g/m
+photo.203.author: re_ichimaru
+photo.203.commitdate: 2023/6/18
+photo.203.link: https://www.instagram.com/re_ichimaru/
+photo.203.tags: bamboo, portrait, sample, tongue
+photo.204: ig://CtrAllnvA06/m
+photo.204.author: kotata_513
+photo.204.commitdate: 2023/8/10
+photo.204.link: https://www.instagram.com/kotata_513/
+photo.204.tags: bamboo, paws, portrait, sample, whiskers
 species: 2
 zoo: 19

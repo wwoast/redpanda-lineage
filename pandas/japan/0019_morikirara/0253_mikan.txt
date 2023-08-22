@@ -108,15 +108,16 @@ photo.19.author: morikirara
 photo.19.commitdate: 2022/11/10
 photo.19.link: https://www.instagram.com/morikirara/
 photo.19.tags: apple time, birthday, close-up, paws, whiskers
-photo.20: ig://CnHQ0pgPZys/m
+photo.20: ig://CnHBp9rPXHk/m
 photo.20.author: yuredpanda
-photo.20.commitdate: 2023/3/23
+photo.20.commitdate: 2023/8/22
 photo.20.link: https://www.instagram.com/yuredpanda/
-photo.20.tags: portrait, sample, whiskers
-photo.21: https://www.instagram.com/p/CnHBp9rPXHk/media/?size=m
+photo.20.tags: portrait, sample, tail
+photo.21: ig://CnHQ0pgPZys/m
 photo.21.author: yuredpanda
+photo.21.commitdate: 2023/3/23
 photo.21.link: https://www.instagram.com/yuredpanda/
-photo.21.tags: portrait, sample, tail
+photo.21.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 11111
 zoo: 19

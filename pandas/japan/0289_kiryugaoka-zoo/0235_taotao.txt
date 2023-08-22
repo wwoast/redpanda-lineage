@@ -309,65 +309,66 @@ photo.59.author: ssc6105
 photo.59.commitdate: 2022/5/13
 photo.59.link: https://www.instagram.com/ssc6105/
 photo.59.tags: grooming, mofumofu, paws, sample, tail, tongue
-photo.60: ig://CcOo6tGB1Pf/m
-photo.60.author: ck.chie
-photo.60.commitdate: 2022/9/28
-photo.60.link: https://www.instagram.com/ck.chie/
-photo.60.tags: bridge, ear, smile, whiskers
-photo.61: ig://CcXk8rDvCJU/m
-photo.61.author: daniele.tokyo
-photo.61.commitdate: 2022/5/25
-photo.61.link: https://www.instagram.com/daniele.tokyo/
-photo.61.tags: bridge, sample, smile, tongue, whiskers
-photo.62: ig://CcpqQtorCGs/m
-photo.62.author: ifumoto88
-photo.62.commitdate: 2022/5/27
-photo.62.link: https://www.instagram.com/ifumoto88/
-photo.62.tags: ear, keeper, paws, portrait
-photo.63: ig://CcsXcaJL-P9/m
+photo.60: ig://Cb97VH5v-n7/m
+photo.60.author: sasapan34
+photo.60.commitdate: 2023/8/22
+photo.60.link: https://www.instagram.com/sasapan34/
+photo.60.tags: bamboo, sample, tongue
+photo.61: ig://CcOo6tGB1Pf/m
+photo.61.author: ck.chie
+photo.61.commitdate: 2022/9/28
+photo.61.link: https://www.instagram.com/ck.chie/
+photo.61.tags: bridge, ear, smile, whiskers
+photo.62: ig://CcXk8rDvCJU/m
+photo.62.author: daniele.tokyo
+photo.62.commitdate: 2022/5/25
+photo.62.link: https://www.instagram.com/daniele.tokyo/
+photo.62.tags: bridge, sample, smile, tongue, whiskers
+photo.63: ig://CcpqQtorCGs/m
 photo.63.author: ifumoto88
-photo.63.commitdate: 2022/6/3
+photo.63.commitdate: 2022/5/27
 photo.63.link: https://www.instagram.com/ifumoto88/
-photo.63.tags: bridge, door, paws, portrait, sample, standing
-photo.64: ig://CcxFPb9Pk7q/m
-photo.64.author: kiryucity_gunma_kiritori
-photo.64.commitdate: 2022/5/27
-photo.64.link: https://www.instagram.com/kiryucity_gunma_kiritori/
-photo.64.tags: bridge, paws, peek, portrait, smile
-photo.65: ig://Cc-YG24Lkqt/m
-photo.65.author: ifumoto88
-photo.65.commitdate: 2022/9/11
-photo.65.link: https://www.instagram.com/ifumoto88/
-photo.65.tags: climb, keeper, peek
-photo.66: ig://CeMMkmwvrDF/m
-photo.66.author: eos1089
-photo.66.commitdate: 2022/6/29
-photo.66.link: https://www.instagram.com/eos1089/
-photo.66.tags: bamboo, climb, peek, portrait, sample, whiskers
-photo.67: ig://Cfk-2Rav56F/m
-photo.67.author: miis_98
-photo.67.commitdate: 2022/8/16
-photo.67.link: https://www.instagram.com/miis_98/
-photo.67.tags: bridge, sample, smile, tongue, whiskers
-photo.68: ig://Cf3ZuXpvQzS/m
-photo.68.author: eos1089
-photo.68.commitdate: 2022/7/31
-photo.68.link: https://www.instagram.com/eos1089/
-photo.68.tags: bridge, door, paws, peek, portrait, sample, smile, whiskers
-photo.69: ig://Ch2_1rMh1El/m
-photo.69.author: ssc6105
-photo.69.commitdate: 2022/9/8
-photo.69.link: https://www.instagram.com/ssc6105/
-photo.69.tags: bamboo, laying down, paws, portrait, sample, whiskers
-photo.70: ig://CksyNPcv7uM/m
-photo.70.author: eos1089
-photo.70.commitdate: 2023/3/17
-photo.70.link: https://www.instagram.com/eos1089/
-photo.70.tags: apple time, keeper, paws, portrait, tail
-photo.71: https://www.instagram.com/p/Cb97VH5v-n7/media/?size=m
-photo.71.author: sasapan34
-photo.71.link: https://www.instagram.com/sasapan34/
-photo.71.tags: bamboo, sample, tongue
+photo.63.tags: ear, keeper, paws, portrait
+photo.64: ig://CcsXcaJL-P9/m
+photo.64.author: ifumoto88
+photo.64.commitdate: 2022/6/3
+photo.64.link: https://www.instagram.com/ifumoto88/
+photo.64.tags: bridge, door, paws, portrait, sample, standing
+photo.65: ig://CcxFPb9Pk7q/m
+photo.65.author: kiryucity_gunma_kiritori
+photo.65.commitdate: 2022/5/27
+photo.65.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.65.tags: bridge, paws, peek, portrait, smile
+photo.66: ig://Cc-YG24Lkqt/m
+photo.66.author: ifumoto88
+photo.66.commitdate: 2022/9/11
+photo.66.link: https://www.instagram.com/ifumoto88/
+photo.66.tags: climb, keeper, peek
+photo.67: ig://CeMMkmwvrDF/m
+photo.67.author: eos1089
+photo.67.commitdate: 2022/6/29
+photo.67.link: https://www.instagram.com/eos1089/
+photo.67.tags: bamboo, climb, peek, portrait, sample, whiskers
+photo.68: ig://Cfk-2Rav56F/m
+photo.68.author: miis_98
+photo.68.commitdate: 2022/8/16
+photo.68.link: https://www.instagram.com/miis_98/
+photo.68.tags: bridge, sample, smile, tongue, whiskers
+photo.69: ig://Cf3ZuXpvQzS/m
+photo.69.author: eos1089
+photo.69.commitdate: 2022/7/31
+photo.69.link: https://www.instagram.com/eos1089/
+photo.69.tags: bridge, door, paws, peek, portrait, sample, smile, whiskers
+photo.70: ig://Ch2_1rMh1El/m
+photo.70.author: ssc6105
+photo.70.commitdate: 2022/9/8
+photo.70.link: https://www.instagram.com/ssc6105/
+photo.70.tags: bamboo, laying down, paws, portrait, sample, whiskers
+photo.71: ig://CksyNPcv7uM/m
+photo.71.author: eos1089
+photo.71.commitdate: 2023/3/17
+photo.71.link: https://www.instagram.com/eos1089/
+photo.71.tags: apple time, keeper, paws, portrait, tail
 species: 2
 studbook.id: unknown
 zoo: 289

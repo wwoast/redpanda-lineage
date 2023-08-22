@@ -240,20 +240,21 @@ photo.45.author: zoowfreedom299
 photo.45.commitdate: 2022/7/28
 photo.45.link: https://www.instagram.com/zoowfreedom299/
 photo.45.tags: muzzle, whiskers
-photo.46: ig://Cllmq61rQyf/m
-photo.46.author: mini_cochi
-photo.46.commitdate: 2022/12/7
-photo.46.link: https://www.instagram.com/mini_cochi/
-photo.46.tags: close-up, mofumofu, muzzle, portrait, sample, whiskers
-photo.47: ig://CslQrOcPU5y/m
-photo.47.author: hamiiiii831_
-photo.47.commitdate: 2023/6/10
-photo.47.link: https://www.instagram.com/hamiiiii831_/
-photo.47.tags: muzzle, paws, sample
-photo.48: https://www.instagram.com/p/CkLf_u_pPui/media/?size=m
-photo.48.author: zoowfreedom299
-photo.48.link: https://www.instagram.com/zoowfreedom299/
-photo.48.tags: dish, muzzle, sample, smile
+photo.46: ig://CkLf_u_pPui/m
+photo.46.author: zoowfreedom299
+photo.46.commitdate: 2023/8/22
+photo.46.link: https://www.instagram.com/zoowfreedom299/
+photo.46.tags: dish, muzzle, sample, smile
+photo.47: ig://Cllmq61rQyf/m
+photo.47.author: mini_cochi
+photo.47.commitdate: 2022/12/7
+photo.47.link: https://www.instagram.com/mini_cochi/
+photo.47.tags: close-up, mofumofu, muzzle, portrait, sample, whiskers
+photo.48: ig://CslQrOcPU5y/m
+photo.48.author: hamiiiii831_
+photo.48.commitdate: 2023/6/10
+photo.48.link: https://www.instagram.com/hamiiiii831_/
+photo.48.tags: muzzle, paws, sample
 species: 2
 studbook.id: 1298
 zoo: 26
