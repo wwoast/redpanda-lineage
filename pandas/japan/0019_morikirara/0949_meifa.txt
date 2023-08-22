@@ -1,4 +1,4 @@
-[panda]
+b[panda]
 _id: 949
 birthday: 2019/6/19
 birthplace: 17
@@ -1029,5 +1029,9 @@ photo.203.author: kotata_513
 photo.203.commitdate: 2023/8/10
 photo.203.link: https://www.instagram.com/kotata_513/
 photo.203.tags: bamboo, paws, portrait, sample, whiskers
+photo.204: https://www.instagram.com/p/CcFSPnMrD5o/media/?size=m
+photo.204.author: otenba_redpanda
+photo.204.link: https://www.instagram.com/otenba_redpanda/
+photo.204.tags: laying down, portrait, sample, tail
 species: 2
 zoo: 19
