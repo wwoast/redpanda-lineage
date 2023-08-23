@@ -174,26 +174,26 @@ photo.31.author: rossifari
 photo.31.commitdate: 2022/12/7
 photo.31.link: https://www.instagram.com/rossifari/
 photo.31.tags: portrait, sample, white face
-photo.32: ig://CqYdMYuJcyX/m
+photo.32: ig://CoP4HY0tGhD/m
 photo.32.author: aimless_amos
-photo.32.commitdate: 2023/4/21
-photo.32.link: https://www.instagram.com/carsontheredpanda/
-photo.32.tags: bamboo, laying down, portrait, sample
-photo.33: ig://CtNUJI7NNGH/m
+photo.32.commitdate: 2023/8/23
+photo.32.link: https://www.instagram.com/capemaycountyzooaazk/
+photo.32.tags: mofumofu, portrait, sample
+photo.33: ig://CqYdMYuJcyX/m
 photo.33.author: aimless_amos
-photo.33.commitdate: 2023/6/20
-photo.33.link: https://www.instagram.com/capemaycountyzooaazk/
-photo.33.tags: home, portrait
-photo.34: ig://CvQHliUPcCG/m
+photo.33.commitdate: 2023/4/21
+photo.33.link: https://www.instagram.com/carsontheredpanda/
+photo.33.tags: bamboo, laying down, portrait, sample
+photo.34: ig://CtNUJI7NNGH/m
 photo.34.author: aimless_amos
-photo.34.commitdate: 2023/7/31
-photo.34.link: https://www.instagram.com/carsontheredpanda/
-photo.34.tags: old, sample, tail, tongue
-photo.35: https://www.codaworry.com/images/rpf/luna-21-capemay.jpg
+photo.34.commitdate: 2023/6/20
+photo.34.link: https://www.instagram.com/capemaycountyzooaazk/
+photo.34.tags: home, portrait
+photo.35: ig://CvQHliUPcCG/m
 photo.35.author: aimless_amos
-photo.35.commitdate: 2021/6/25
-photo.35.link: https://www.instagram.com/aimless_amos/
-photo.35.tags: paws, portrait, tail, white face
+photo.35.commitdate: 2023/7/31
+photo.35.link: https://www.instagram.com/carsontheredpanda/
+photo.35.tags: old, sample, tail, tongue
 photo.36: https://www.codaworry.com/images/rpf/luna-22-capemay.jpg
 photo.36.author: aimless_amos
 photo.36.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/CoP4HY0tGhD/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/capemaycountyzooaazk/
-photo.63.tags: mofumofu, portrait, sample
 species: 1
 studbook.id: 0105
 zoo: 186

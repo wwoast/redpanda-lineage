@@ -1310,8 +1310,9 @@ photo.260.author: leonard_redmof
 photo.260.commitdate: 2022/7/25
 photo.260.link: https://www.instagram.com/leonard_redmof/
 photo.260.tags: portrait, sample, whiskers
-photo.261: https://www.instagram.com/p/CoPKvTzPSTv/media/?size=m
+photo.261: ig://CoPKvTzPSTv/m
 photo.261.author: leonard_redmof
+photo.261.commitdate: 2023/8/23
 photo.261.link: https://www.instagram.com/leonard_redmof/
 photo.261.tags: paws, portrait, sample, snow
 species: 2

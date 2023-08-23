@@ -618,15 +618,16 @@ photo.121.author: gloryeui
 photo.121.commitdate: 2023/2/25
 photo.121.link: https://www.instagram.com/gloryeui/
 photo.121.tags: bridge, peek, portrait, sample
-photo.122: ig://Ctos1bUvsX2/m
-photo.122.author: minatomirai215
-photo.122.commitdate: 2023/8/10
-photo.122.link: https://www.instagram.com/minatomirai215/
-photo.122.tags: autumn, portrait, tail, whiskers
-photo.123: https://www.instagram.com/p/CoRPzMaP8xX/media/?size=m
-photo.123.author: gloryeui
-photo.123.link: https://www.instagram.com/gloryeui/
-photo.123.tags: bamboo, mofumofu, paws, portrait, tongue
+photo.122: ig://CoRPzMaP8xX/m
+photo.122.author: gloryeui
+photo.122.commitdate: 2023/8/23
+photo.122.link: https://www.instagram.com/gloryeui/
+photo.122.tags: bamboo, mofumofu, paws, portrait, tongue
+photo.123: ig://Ctos1bUvsX2/m
+photo.123.author: minatomirai215
+photo.123.commitdate: 2023/8/10
+photo.123.link: https://www.instagram.com/minatomirai215/
+photo.123.tags: autumn, portrait, tail, whiskers
 species: 2
 studbook.id: 1195
 zoo: 11

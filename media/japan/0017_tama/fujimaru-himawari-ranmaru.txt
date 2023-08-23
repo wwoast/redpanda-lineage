@@ -1,8 +1,10 @@
 [media]
 _id: media.17.fujimaru-himawari-ranmaru
+commitdate: 2023/8/23
 panda.tags: 8, 1383, 1384
-photo.1: https://www.instagram.com/p/CoWxteFvAZZ/media/?size=l
+photo.1: ig://CoWxteFvAZZ/l
 photo.1.author: tamazoowalking
+photo.1.commitdate: 2023/8/23
 photo.1.link: https://www.instagram.com/tamazoowalking/
 photo.1.tags: brothers, family, grooming, mother's day, siblings, twins
 photo.1.tags.8.location: 220, 265

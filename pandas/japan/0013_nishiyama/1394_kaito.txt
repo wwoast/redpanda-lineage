@@ -88,25 +88,26 @@ photo.15.author: yuredpanda
 photo.15.commitdate: 2023/3/9
 photo.15.link: https://www.instagram.com/yuredpanda/
 photo.15.tags: baby, portrait, sample, tree
-photo.16: ig://CqaSRZ7PgRs/m
-photo.16.author: kotata_513
-photo.16.commitdate: 2023/6/20
-photo.16.link: https://www.instagram.com/kotata_513/
-photo.16.tags: laying down, paws, portrait, sample, tree
-photo.17: ig://CrvgVRxPpY2/m
-photo.17.author: resapanlove
-photo.17.commitdate: 2023/5/3
-photo.17.link: https://www.instagram.com/resapanlove/
-photo.17.tags: laying down, portrait, sample, white face
-photo.18: ig://Cs2BYj8BQX4/m
-photo.18.author: tomo3700
-photo.18.commitdate: 2023/6/10
-photo.18.link: https://www.instagram.com/tomo3700/
-photo.18.tags: bamboo, portrait, sample, shoots
-photo.19: https://www.instagram.com/p/CoavSq-hila/media/?size=m
+photo.16: ig://CoavSq-hila/m
+photo.16.author: tomo3700
+photo.16.commitdate: 2023/8/23
+photo.16.link: https://www.instagram.com/tomo3700/
+photo.16.tags: baby, paws, portrait, sample, sign
+photo.17: ig://CqaSRZ7PgRs/m
+photo.17.author: kotata_513
+photo.17.commitdate: 2023/6/20
+photo.17.link: https://www.instagram.com/kotata_513/
+photo.17.tags: laying down, paws, portrait, sample, tree
+photo.18: ig://CrvgVRxPpY2/m
+photo.18.author: resapanlove
+photo.18.commitdate: 2023/5/3
+photo.18.link: https://www.instagram.com/resapanlove/
+photo.18.tags: laying down, portrait, sample, white face
+photo.19: ig://Cs2BYj8BQX4/m
 photo.19.author: tomo3700
+photo.19.commitdate: 2023/6/10
 photo.19.link: https://www.instagram.com/tomo3700/
-photo.19.tags: baby, paws, portrait, sample, sign
+photo.19.tags: bamboo, portrait, sample, shoots
 species: 2
 studbook.id: unknown
 zoo: 13

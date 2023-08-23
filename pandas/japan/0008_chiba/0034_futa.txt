@@ -545,15 +545,16 @@ photo.106.author: craig_craig_craig
 photo.106.commitdate: 2023/4/8
 photo.106.link: https://www.instagram.com/craig_craig_craig/
 photo.106.tags: eye, home, paws, portrait, sample, tail
-photo.107: ig://Cpn_3DRBfzd/m
-photo.107.author: ck.chie
-photo.107.commitdate: 2023/5/29
-photo.107.link: https://www.instagram.com/ck.chie/
-photo.107.tags: blink, door, paws, smile, whiskers
-photo.108: https://www.instagram.com/p/CoQjVvphs_O/media/?size=m
-photo.108.author: ssc6105
-photo.108.link: https://www.instagram.com/ssc6105/
-photo.108.tags: eye, grooming, laying down, mofumofu, sample, tongue
+photo.107: ig://CoQjVvphs_O/m
+photo.107.author: ssc6105
+photo.107.commitdate: 2023/8/23
+photo.107.link: https://www.instagram.com/ssc6105/
+photo.107.tags: eye, grooming, laying down, mofumofu, sample, tongue
+photo.108: ig://Cpn_3DRBfzd/m
+photo.108.author: ck.chie
+photo.108.commitdate: 2023/5/29
+photo.108.link: https://www.instagram.com/ck.chie/
+photo.108.tags: blink, door, paws, smile, whiskers
 species: 2
 studbook.id: 0366
 zoo: 8
