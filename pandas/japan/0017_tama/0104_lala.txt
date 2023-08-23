@@ -483,15 +483,16 @@ photo.94.author: osopanda551
 photo.94.commitdate: 2023/3/11
 photo.94.link: https://www.instagram.com/osopanda551/
 photo.94.tags: portrait, sample
-photo.95: ig://Cn9f3_gvaND/m
-photo.95.author: mariten1119
-photo.95.commitdate: 2023/2/25
-photo.95.link: https://www.instagram.com/mariten1119/
-photo.95.tags: bamboo, mofumofu, paws, standing
-photo.96: https://www.instagram.com/p/CnwHOSjv6Z1/media/?size=m
-photo.96.author: tamazoowalking
-photo.96.link: https://www.instagram.com/tamazoowalking/
-photo.96.tags: bamboo, paws, sample, smile
+photo.95: ig://CnwHOSjv6Z1/m
+photo.95.author: tamazoowalking
+photo.95.commitdate: 2023/8/22
+photo.95.link: https://www.instagram.com/tamazoowalking/
+photo.95.tags: bamboo, paws, sample, smile
+photo.96: ig://Cn9f3_gvaND/m
+photo.96.author: mariten1119
+photo.96.commitdate: 2023/2/25
+photo.96.link: https://www.instagram.com/mariten1119/
+photo.96.tags: bamboo, mofumofu, paws, standing
 species: 2
 studbook.id: 0864
 zoo: 17

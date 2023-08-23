@@ -1520,44 +1520,46 @@ photo.303.author: ifumoto88
 photo.303.commitdate: 2023/1/20
 photo.303.link: https://www.instagram.com/ifumoto88/
 photo.303.tags: blink, close-up, laying down, paws, portrait, sample, whiskers, yawn
-photo.304: ig://CnWwxybL06O/m
-photo.304.author: ifumoto88
-photo.304.commitdate: 2023/2/26
-photo.304.link: https://www.instagram.com/ifumoto88/
-photo.304.tags: apple time, paws, sample, whiskers
-photo.305: ig://CnhCgOpLEDB/m
+photo.304: ig://CnEzXCvvlWb/m
+photo.304.author: panda.daisuki
+photo.304.commitdate: 2023/8/22
+photo.304.link: https://www.instagram.com/panda.daisuki/
+photo.304.tags: close-up, mofumofu, sample, whiskers
+photo.305: ig://CnRlWwHrieP/m
 photo.305.author: ifumoto88
-photo.305.commitdate: 2023/3/9
+photo.305.commitdate: 2023/8/22
 photo.305.link: https://www.instagram.com/ifumoto88/
-photo.305.tags: paws, portrait, sample, whiskers
-photo.306: ig://CnhXq4cvytv/m
-photo.306.author: fetorus_mami
-photo.306.commitdate: 2023/3/9
-photo.306.link: https://www.instagram.com/fetorus_mami/
-photo.306.tags: mofumofu, sample, whiskers
-photo.307: ig://CoGvpbvPcCI/m
-photo.307.author: eos1089
-photo.307.commitdate: 2023/4/9
-photo.307.link: https://www.instagram.com/eos1089/
-photo.307.tags: paws, portrait, sample, tail, whiskers
-photo.308: ig://Coj3Vb8Lav5/m
-photo.308.author: ifumoto88
-photo.308.commitdate: 2023/4/9
-photo.308.link: https://www.instagram.com/ifumoto88/
-photo.308.tags: paws, playing, surprise, whiskers
-photo.309: ig://CpfTToMrZYl/m
-photo.309.author: ifumoto88
-photo.309.commitdate: 2023/5/23
-photo.309.link: https://www.instagram.com/ifumoto88/
-photo.309.tags: bamboo, paws, portrait, sample, wink
-photo.310: https://www.instagram.com/p/CnRlWwHrieP/media/?size=m
+photo.305.tags: paws, peek, portrait, sample, tree
+photo.306: ig://CnWwxybL06O/m
+photo.306.author: ifumoto88
+photo.306.commitdate: 2023/2/26
+photo.306.link: https://www.instagram.com/ifumoto88/
+photo.306.tags: apple time, paws, sample, whiskers
+photo.307: ig://CnhCgOpLEDB/m
+photo.307.author: ifumoto88
+photo.307.commitdate: 2023/3/9
+photo.307.link: https://www.instagram.com/ifumoto88/
+photo.307.tags: paws, portrait, sample, whiskers
+photo.308: ig://CnhXq4cvytv/m
+photo.308.author: fetorus_mami
+photo.308.commitdate: 2023/3/9
+photo.308.link: https://www.instagram.com/fetorus_mami/
+photo.308.tags: mofumofu, sample, whiskers
+photo.309: ig://CoGvpbvPcCI/m
+photo.309.author: eos1089
+photo.309.commitdate: 2023/4/9
+photo.309.link: https://www.instagram.com/eos1089/
+photo.309.tags: paws, portrait, sample, tail, whiskers
+photo.310: ig://Coj3Vb8Lav5/m
 photo.310.author: ifumoto88
+photo.310.commitdate: 2023/4/9
 photo.310.link: https://www.instagram.com/ifumoto88/
-photo.310.tags: paws, peek, portrait, sample, tree
-photo.311: https://www.instagram.com/p/CnEzXCvvlWb/media/?size=m
-photo.311.author: panda.daisuki
-photo.311.link: https://www.instagram.com/panda.daisuki/
-photo.311.tags: close-up, mofumofu, sample, whiskers
+photo.310.tags: paws, playing, surprise, whiskers
+photo.311: ig://CpfTToMrZYl/m
+photo.311.author: ifumoto88
+photo.311.commitdate: 2023/5/23
+photo.311.link: https://www.instagram.com/ifumoto88/
+photo.311.tags: bamboo, paws, portrait, sample, wink
 species: 2
 studbook.id: 15152
 zoo: 1

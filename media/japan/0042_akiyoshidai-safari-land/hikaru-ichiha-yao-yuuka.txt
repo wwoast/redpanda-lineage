@@ -1,8 +1,10 @@
 [media]
 _id: media.42.hikaru-ichiha-yao-yuuka
+commitdate: 2023/8/22
 panda.tags: 176, 177, 178, 260
-photo.1: https://www.instagram.com/p/CnOH7KNPHAQ/media/?size=L
+photo.1: ig://CnOH7KNPHAQ/L
 photo.1.author: fetorus_mami
+photo.1.commitdate: 2023/8/22
 photo.1.link: https://www.instagram.com/fetorus_mami/
 photo.1.tags: apple time, party, peek
 photo.1.tags.176.location: 420, 145

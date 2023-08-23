@@ -566,8 +566,9 @@ photo.111.author: apple_jasmine33
 photo.111.commitdate: 2023/6/25
 photo.111.link: https://www.instagram.com/apple_jasmine33/
 photo.111.tags: mofumofu, sample, whiskers
-photo.112: https://www.instagram.com/p/CnxohOXBYI9/media/?size=m
+photo.112: ig://CnxohOXBYI9/m
 photo.112.author: rie_panda55
+photo.112.commitdate: 2023/8/22
 photo.112.link: https://www.instagram.com/rie_panda55/
 photo.112.tags: mofumofu, peek, portrait, sample
 species: 2

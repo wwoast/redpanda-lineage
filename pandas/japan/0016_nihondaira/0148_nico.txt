@@ -792,30 +792,31 @@ photo.157.author: taka__3428
 photo.157.commitdate: 2023/3/11
 photo.157.link: https://www.instagram.com/taka__3428/
 photo.157.tags: bamboo, close-up, wink
-photo.158: ig://Cn0PPy2ho0G/m
-photo.158.author: yuredpanda
-photo.158.commitdate: 2023/2/25
-photo.158.link: https://www.instagram.com/yuredpanda/
-photo.158.tags: grooming, portrait, tail
-photo.159: ig://Co5w0QghPQ-/m
-photo.159.author: ck.chie
-photo.159.commitdate: 2023/2/26
-photo.159.link: https://www.instagram.com/ck.chie/
-photo.159.tags: paws, portrait, sample, snow, whiskers
-photo.160: ig://Co7UNunP_yX/m
-photo.160.author: mini_cochi
+photo.158: ig://CnvebpJMTdB/m
+photo.158.author: lesserpanda_shizuokacity_cp
+photo.158.commitdate: 2023/8/22
+photo.158.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.158.tags: bamboo, paws
+photo.159: ig://Cn0PPy2ho0G/m
+photo.159.author: yuredpanda
+photo.159.commitdate: 2023/2/25
+photo.159.link: https://www.instagram.com/yuredpanda/
+photo.159.tags: grooming, portrait, tail
+photo.160: ig://Co5w0QghPQ-/m
+photo.160.author: ck.chie
 photo.160.commitdate: 2023/2/26
-photo.160.link: https://www.instagram.com/mini_cochi/
-photo.160.tags: bamboo, portrait, sample, whiskers
-photo.161: ig://CvJQsz-hxek/m
-photo.161.author: lesserpanda_shizuokacity_cp
-photo.161.commitdate: 2023/7/31
-photo.161.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.161.tags: bridge
-photo.162: https://www.instagram.com/p/CnvebpJMTdB/media/?size=m
+photo.160.link: https://www.instagram.com/ck.chie/
+photo.160.tags: paws, portrait, sample, snow, whiskers
+photo.161: ig://Co7UNunP_yX/m
+photo.161.author: mini_cochi
+photo.161.commitdate: 2023/2/26
+photo.161.link: https://www.instagram.com/mini_cochi/
+photo.161.tags: bamboo, portrait, sample, whiskers
+photo.162: ig://CvJQsz-hxek/m
 photo.162.author: lesserpanda_shizuokacity_cp
+photo.162.commitdate: 2023/7/31
 photo.162.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.162.tags: bamboo, paws
+photo.162.tags: bridge
 species: 2
 studbook.id: 1771
 zoo: 16

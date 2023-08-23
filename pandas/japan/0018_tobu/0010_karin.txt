@@ -1095,25 +1095,26 @@ photo.216.author: eos1089
 photo.216.commitdate: 2023/3/9
 photo.216.link: https://www.instagram.com/eos1089/
 photo.216.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.217: ig://CpqbKlMhf5q/m
+photo.217: ig://CnMCwbBPHyo/m
 photo.217.author: ssc6105
-photo.217.commitdate: 2023/6/25
+photo.217.commitdate: 2023/8/22
 photo.217.link: https://www.instagram.com/ssc6105/
-photo.217.tags: laying down, portrait, sample, yawn
-photo.218: ig://CrsC5zHPsGU/m
-photo.218.author: na.mo.pan
-photo.218.commitdate: 2023/5/3
-photo.218.link: https://www.instagram.com/na.mo.pan/
-photo.218.tags: flowers, sample, smile, whiskers
-photo.219: ig://CtPp6tnBGZM/m
-photo.219.author: ssc6105
-photo.219.commitdate: 2023/6/10
-photo.219.link: https://www.instagram.com/ssc6105/
-photo.219.tags: bear worm, laying down, mofumofu, portrait, sample, sleeping
-photo.220: https://www.instagram.com/p/CnMCwbBPHyo/media/?size=m
+photo.217.tags: bear worm, laying down, paws, portrait, sample, sleeping
+photo.218: ig://CpqbKlMhf5q/m
+photo.218.author: ssc6105
+photo.218.commitdate: 2023/6/25
+photo.218.link: https://www.instagram.com/ssc6105/
+photo.218.tags: laying down, portrait, sample, yawn
+photo.219: ig://CrsC5zHPsGU/m
+photo.219.author: na.mo.pan
+photo.219.commitdate: 2023/5/3
+photo.219.link: https://www.instagram.com/na.mo.pan/
+photo.219.tags: flowers, sample, smile, whiskers
+photo.220: ig://CtPp6tnBGZM/m
 photo.220.author: ssc6105
+photo.220.commitdate: 2023/6/10
 photo.220.link: https://www.instagram.com/ssc6105/
-photo.220.tags: bear worm, laying down, paws, portrait, sample, sleeping
+photo.220.tags: bear worm, laying down, mofumofu, portrait, sample, sleeping
 species: 2
 studbook.id: 1295
 zoo: 18

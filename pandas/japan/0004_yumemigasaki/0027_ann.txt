@@ -299,15 +299,16 @@ photo.57.author: miis_98
 photo.57.commitdate: 2023/3/17
 photo.57.link: https://www.instagram.com/miis_98/
 photo.57.tags: dish, mofumofu, portrait, sample, white face
-photo.58: ig://CoJIAHGPImZ/m
-photo.58.author: minatomirai215
-photo.58.commitdate: 2023/2/24
-photo.58.link: https://www.instagram.com/minatomirai215/
-photo.58.tags: paws, portrait, sample, standing
-photo.59: https://www.instagram.com/p/Cno2cI-PiR-/media/?size=m
-photo.59.author: pantasanzoo1
-photo.59.link: https://www.instagram.com/pantasanzoo1/
-photo.59.tags: mofumofu, peek, white face
+photo.58: ig://Cno2cI-PiR-/m
+photo.58.author: pantasanzoo1
+photo.58.commitdate: 2023/8/22
+photo.58.link: https://www.instagram.com/pantasanzoo1/
+photo.58.tags: mofumofu, peek, white face
+photo.59: ig://CoJIAHGPImZ/m
+photo.59.author: minatomirai215
+photo.59.commitdate: 2023/2/24
+photo.59.link: https://www.instagram.com/minatomirai215/
+photo.59.tags: paws, portrait, sample, standing
 species: 2
 studbook.id: 1094
 zoo: 4

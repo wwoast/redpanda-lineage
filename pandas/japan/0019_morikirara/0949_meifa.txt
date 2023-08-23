@@ -1024,31 +1024,35 @@ photo.202.author: morikirara
 photo.202.commitdate: 2023/1/20
 photo.202.link: https://www.instagram.com/morikirara/
 photo.202.tags: close-up, sample, whiskers
-photo.203: ig://CqK0RPkPu9g/m
-photo.203.author: re_ichimaru
-photo.203.commitdate: 2023/6/18
-photo.203.link: https://www.instagram.com/re_ichimaru/
-photo.203.tags: bamboo, portrait, sample, tongue
-photo.204: ig://CtrAllnvA06/m
-photo.204.author: kotata_513
-photo.204.commitdate: 2023/8/10
-photo.204.link: https://www.instagram.com/kotata_513/
-photo.204.tags: bamboo, paws, portrait, sample, whiskers
-photo.205: https://www.instagram.com/p/CnHKeImvjk5/media/?size=m
+photo.203: ig://CnHEfNYvq8n/m
+photo.203.author: yuredpanda
+photo.203.commitdate: 2023/8/22
+photo.203.link: https://www.instagram.com/yuredpanda/
+photo.203.tags: portrait, sample, tongue, whiskers
+photo.204: ig://CnHJSBhPzG0/m
+photo.204.author: yuredpanda
+photo.204.commitdate: 2023/8/22
+photo.204.link: https://www.instagram.com/yuredpanda/
+photo.204.tags: peek, portrait, sample, whiskers
+photo.205: ig://CnHKeImvjk5/m
 photo.205.author: yuredpanda
+photo.205.commitdate: 2023/8/22
 photo.205.link: https://www.instagram.com/yuredpanda/
 photo.205.tags: close-up, portrait, sample, techitechi, whiskers
-photo.206: https://www.instagram.com/p/CnHJSBhPzG0/media/?size=m
+photo.206: ig://CnHPndSvzjM/m
 photo.206.author: yuredpanda
+photo.206.commitdate: 2023/8/22
 photo.206.link: https://www.instagram.com/yuredpanda/
-photo.206.tags: peek, portrait, sample, whiskers
-photo.207: https://www.instagram.com/p/CnHPndSvzjM/media/?size=m
-photo.207.author: yuredpanda
-photo.207.link: https://www.instagram.com/yuredpanda/
-photo.207.tags: laying down, paws, portrait, sample, tree
-photo.208: https://www.instagram.com/p/CnHEfNYvq8n/media/?size=m
-photo.208.author: yuredpanda
-photo.208.link: https://www.instagram.com/yuredpanda/
-photo.208.tags: portrait, sample, tongue, whiskers
+photo.206.tags: laying down, paws, portrait, sample, tree
+photo.207: ig://CqK0RPkPu9g/m
+photo.207.author: re_ichimaru
+photo.207.commitdate: 2023/6/18
+photo.207.link: https://www.instagram.com/re_ichimaru/
+photo.207.tags: bamboo, portrait, sample, tongue
+photo.208: ig://CtrAllnvA06/m
+photo.208.author: kotata_513
+photo.208.commitdate: 2023/8/10
+photo.208.link: https://www.instagram.com/kotata_513/
+photo.208.tags: bamboo, paws, portrait, sample, whiskers
 species: 2
 zoo: 19

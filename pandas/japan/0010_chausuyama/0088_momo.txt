@@ -397,20 +397,21 @@ photo.77.author: ssc6105
 photo.77.commitdate: 2023/1/6
 photo.77.link: https://www.instagram.com/ssc6105/
 photo.77.tags: laying down, mofumofu, paws, sample, tongue, tree
-photo.78: ig://Corhu6EvFuq/m
-photo.78.author: shigeko0531
-photo.78.commitdate: 2023/4/9
-photo.78.link: https://www.instagram.com/shigeko0531/
-photo.78.tags: bamboo, dish, paws, snow, standing, tongue
-photo.79: ig://Cq0I9pcvLqb/m
-photo.79.author: hamiiiii831_
-photo.79.commitdate: 2023/4/22
-photo.79.link: https://www.instagram.com/hamiiiii831_/
-photo.79.tags: sample, whiskers
-photo.80: https://www.instagram.com/p/CnwcA3MvXXf/media/?size=m
-photo.80.author: redpan22
-photo.80.link: https://www.instagram.com/redpan22/
-photo.80.tags: paws, portrait, snow, upside-down, whiskers
+photo.78: ig://CnwcA3MvXXf/m
+photo.78.author: redpan22
+photo.78.commitdate: 2023/8/22
+photo.78.link: https://www.instagram.com/redpan22/
+photo.78.tags: paws, portrait, snow, upside-down, whiskers
+photo.79: ig://Corhu6EvFuq/m
+photo.79.author: shigeko0531
+photo.79.commitdate: 2023/4/9
+photo.79.link: https://www.instagram.com/shigeko0531/
+photo.79.tags: bamboo, dish, paws, snow, standing, tongue
+photo.80: ig://Cq0I9pcvLqb/m
+photo.80.author: hamiiiii831_
+photo.80.commitdate: 2023/4/22
+photo.80.link: https://www.instagram.com/hamiiiii831_/
+photo.80.tags: sample, whiskers
 species: 2
 studbook.id: 11100
 zoo: 10
