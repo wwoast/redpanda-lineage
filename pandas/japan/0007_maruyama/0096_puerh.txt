@@ -16,6 +16,7 @@ litter: 288
 location.1: 2, 2015/6/25
 location.2: 10, 2016/9/6
 location.3: 37, 2020/2/18
+location.4: 7, 2023/8/24
 photo.1: ig://BHFd7FojIsy/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/17
@@ -328,4 +329,4 @@ photo.63.link: https://www.instagram.com/rie_panda55/
 photo.63.tags: bamboo, portrait, sample, snow
 species: 2
 studbook.id: 15134
-zoo: 37
+zoo: 7
