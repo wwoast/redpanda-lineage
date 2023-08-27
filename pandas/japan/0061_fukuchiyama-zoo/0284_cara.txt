@@ -365,15 +365,16 @@ photo.70.author: yossi929
 photo.70.commitdate: 2023/2/24
 photo.70.link: https://www.instagram.com/yossi929/
 photo.70.tags: close-up, sample, whiskers
-photo.71: ig://Cqwx931v3MF/m
-photo.71.author: fetorus_mami
-photo.71.commitdate: 2023/7/14
-photo.71.link: https://www.instagram.com/fetorus_mami/
-photo.71.tags: bamboo, mofumofu, paws, sample, tongue, wink
-photo.72: https://www.instagram.com/p/CotuTmRPUXI/media/?size=m
-photo.72.author: kisshan324
-photo.72.link: https://www.instagram.com/kisshan324/
-photo.72.tags: bear worm, laying down, portrait, sample
+photo.71: ig://CotuTmRPUXI/m
+photo.71.author: kisshan324
+photo.71.commitdate: 2023/8/27
+photo.71.link: https://www.instagram.com/kisshan324/
+photo.71.tags: bear worm, laying down, portrait, sample
+photo.72: ig://Cqwx931v3MF/m
+photo.72.author: fetorus_mami
+photo.72.commitdate: 2023/7/14
+photo.72.link: https://www.instagram.com/fetorus_mami/
+photo.72.tags: bamboo, mofumofu, paws, sample, tongue, wink
 species: 2
 studbook.id: 13165
 zoo: 61

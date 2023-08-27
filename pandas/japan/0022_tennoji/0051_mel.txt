@@ -613,15 +613,16 @@ photo.120.author: makimaru18
 photo.120.commitdate: 2023/3/6
 photo.120.link: https://www.instagram.com/makimaru18/
 photo.120.tags: bite, carry, portrait, sample
-photo.121: ig://CrVpjozPSto/m
-photo.121.author: chankunvv
-photo.121.commitdate: 2023/8/11
-photo.121.link: https://www.instagram.com/chankunvv/
-photo.121.tags: paws, whiskers
-photo.122: https://www.instagram.com/p/CpAmsjzPlld/media/?size=m
-photo.122.author: sakikukeco
-photo.122.link: https://www.instagram.com/sakikukeco/
-photo.122.tags: apple time, bite, sample, whiskers
+photo.121: ig://CpAmsjzPlld/m
+photo.121.author: sakikukeco
+photo.121.commitdate: 2023/8/27
+photo.121.link: https://www.instagram.com/sakikukeco/
+photo.121.tags: apple time, bite, sample, whiskers
+photo.122: ig://CrVpjozPSto/m
+photo.122.author: chankunvv
+photo.122.commitdate: 2023/8/11
+photo.122.link: https://www.instagram.com/chankunvv/
+photo.122.tags: paws, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

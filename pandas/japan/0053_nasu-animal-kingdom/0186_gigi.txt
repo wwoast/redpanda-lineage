@@ -378,15 +378,16 @@ photo.73.author: nasu_animal_kingdom
 photo.73.commitdate: 2023/2/25
 photo.73.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.73.tags: close-up, paws, sample, snow, standing, whiskers
-photo.74: ig://CrVopjaPbRK/m
-photo.74.author: ssc6105
-photo.74.commitdate: 2023/8/10
-photo.74.link: https://www.instagram.com/ssc6105/
-photo.74.tags: paws, sample, yawn
-photo.75: https://www.instagram.com/p/Co_gz2mPUKb/media/?size=m
-photo.75.author: hidehaya_biei
-photo.75.link: https://www.instagram.com/hidehaya_biei/
-photo.75.tags: itchy, paws, sample, tail
+photo.74: ig://Co_gz2mPUKb/m
+photo.74.author: hidehaya_biei
+photo.74.commitdate: 2023/8/27
+photo.74.link: https://www.instagram.com/hidehaya_biei/
+photo.74.tags: itchy, paws, sample, tail
+photo.75: ig://CrVopjaPbRK/m
+photo.75.author: ssc6105
+photo.75.commitdate: 2023/8/10
+photo.75.link: https://www.instagram.com/ssc6105/
+photo.75.tags: paws, sample, yawn
 species: 2
 studbook.id: 0986
 zoo: 53

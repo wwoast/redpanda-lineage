@@ -170,20 +170,21 @@ photo.32.author: miis_98
 photo.32.commitdate: 2022/8/1
 photo.32.link: https://www.instagram.com/miis_98/
 photo.32.tags: apple time, keeper, paws, portrait, sample, whiskers
-photo.33: ig://Ch6QKSuJ9vv/m
-photo.33.author: miis_98
-photo.33.commitdate: 2022/9/4
-photo.33.link: https://www.instagram.com/miis_98/
-photo.33.tags: bamboo, mofumofu, portrait, sample, white face
-photo.34: ig://Cr0qGWxvM1X/m
-photo.34.author: minatomirai215
-photo.34.commitdate: 2023/6/30
-photo.34.link: https://www.instagram.com/minatomirai215/
-photo.34.tags: paws, portrait, sample
-photo.35: https://www.instagram.com/p/CfNtkf4h-iU/media/?size=m
-photo.35.author: bananawani_official
-photo.35.link: https://www.instagram.com/bananawani_official/
-photo.35.tags: paws, peek, portrait, sample
+photo.33: ig://CfNtkf4h-iU/m
+photo.33.author: bananawani_official
+photo.33.commitdate: 2023/8/27
+photo.33.link: https://www.instagram.com/bananawani_official/
+photo.33.tags: paws, peek, portrait, sample
+photo.34: ig://Ch6QKSuJ9vv/m
+photo.34.author: miis_98
+photo.34.commitdate: 2022/9/4
+photo.34.link: https://www.instagram.com/miis_98/
+photo.34.tags: bamboo, mofumofu, portrait, sample, white face
+photo.35: ig://Cr0qGWxvM1X/m
+photo.35.author: minatomirai215
+photo.35.commitdate: 2023/6/30
+photo.35.link: https://www.instagram.com/minatomirai215/
+photo.35.tags: paws, portrait, sample
 species: 1
 studbook.id: 16100
 zoo: 59

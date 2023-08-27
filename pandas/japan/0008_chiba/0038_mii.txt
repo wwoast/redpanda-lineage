@@ -783,20 +783,21 @@ photo.154.author: craig_craig_craig
 photo.154.commitdate: 2023/4/8
 photo.154.link: https://www.instagram.com/craig_craig_craig/
 photo.154.tags: paws, portrait, sample, standing, tail
-photo.155: ig://CrYKrJhrmr7/m
-photo.155.author: ifumoto88
-photo.155.commitdate: 2023/8/11
-photo.155.link: https://www.instagram.com/ifumoto88/
-photo.155.tags: apple time, lips, paws, peek, portrait, sample
-photo.156: ig://CrYXda2vqMu/m
-photo.156.author: mari_neko3
+photo.155: ig://CocW4TqPMrJ/m
+photo.155.author: kiarino51
+photo.155.commitdate: 2023/8/27
+photo.155.link: https://www.instagram.com/kiarino51/
+photo.155.tags: apple time, mofumofu, portrait, sample, tongue
+photo.156: ig://CrYKrJhrmr7/m
+photo.156.author: ifumoto88
 photo.156.commitdate: 2023/8/11
-photo.156.link: https://www.instagram.com/mari_neko3/
-photo.156.tags: apple time, portrait, sample, tongue
-photo.157: https://www.instagram.com/p/CocW4TqPMrJ/media/?size=m
-photo.157.author: kiarino51
-photo.157.link: https://www.instagram.com/kiarino51/
-photo.157.tags: apple time, mofumofu, portrait, sample, tongue
+photo.156.link: https://www.instagram.com/ifumoto88/
+photo.156.tags: apple time, lips, paws, peek, portrait, sample
+photo.157: ig://CrYXda2vqMu/m
+photo.157.author: mari_neko3
+photo.157.commitdate: 2023/8/11
+photo.157.link: https://www.instagram.com/mari_neko3/
+photo.157.tags: apple time, portrait, sample, tongue
 species: 2
 studbook.id: 13155
 zoo: 8

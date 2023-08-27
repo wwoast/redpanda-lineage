@@ -174,19 +174,21 @@ photo.32.author: kojikoji2011
 photo.32.commitdate: 2023/3/9
 photo.32.link: https://www.instagram.com/kojikoji2011/
 photo.32.tags: lips, portrait, sample, tree
-photo.33: ig://Cr9Zo7MS0vS/m
-photo.33.author: resapanlove
-photo.33.commitdate: 2023/6/30
-photo.33.link: https://www.instagram.com/resapanlove/
-photo.33.tags: close-up, portrait, sample, whiskers
-photo.34: https://www.instagram.com/p/Cof3e75B3sj/media/?size=m
-photo.34.author: hamamatsu.chiita
-photo.34.link: https://www.instagram.com/hamamatsu.chiita/
-photo.34.tags: mofumofu, portrait, sample
-photo.35: https://www.instagram.com/p/Coue0Xjvyjc/media/?size=m
-photo.35.author: kojikoji2011
-photo.35.link: https://www.instagram.com/kojikoji2011/
-photo.35.tags: portrait, sample, tree
+photo.33: ig://Cof3e75B3sj/m
+photo.33.author: hamamatsu.chiita
+photo.33.commitdate: 2023/8/27
+photo.33.link: https://www.instagram.com/hamamatsu.chiita/
+photo.33.tags: mofumofu, portrait, sample
+photo.34: ig://Coue0Xjvyjc/m
+photo.34.author: kojikoji2011
+photo.34.commitdate: 2023/8/27
+photo.34.link: https://www.instagram.com/kojikoji2011/
+photo.34.tags: portrait, sample, tree
+photo.35: ig://Cr9Zo7MS0vS/m
+photo.35.author: resapanlove
+photo.35.commitdate: 2023/6/30
+photo.35.link: https://www.instagram.com/resapanlove/
+photo.35.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 14163
 zoo: 6

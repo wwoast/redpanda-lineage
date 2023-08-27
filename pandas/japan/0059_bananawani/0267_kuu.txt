@@ -128,34 +128,36 @@ photo.23.author: miis_98
 photo.23.commitdate: 2021/6/8
 photo.23.link: https://www.instagram.com/miis_98/
 photo.23.tags: portrait, smile, whiskers
-photo.24: ig://Cggy2U3hL1M/m
-photo.24.author: _sah_ax7
-photo.24.commitdate: 2022/8/8
-photo.24.link: https://www.instagram.com/_sah_ax7/
-photo.24.tags: close-up, laying down, sleeping, techitechi
-photo.25: ig://CgqNyB6PlqT/m
-photo.25.author: pantasanzoo1
+photo.24: ig://CfYQZ24vGrs/m
+photo.24.author: bananawani_official
+photo.24.commitdate: 2023/8/27
+photo.24.link: https://www.instagram.com/bananawani_official/
+photo.24.tags: laying down
+photo.25: ig://Cggy2U3hL1M/m
+photo.25.author: _sah_ax7
 photo.25.commitdate: 2022/8/8
-photo.25.link: https://www.instagram.com/pantasanzoo1/
-photo.25.tags: paws, sample, whiskers
-photo.26: ig://Ch0wDFrvNav/m
-photo.26.author: miis_98
-photo.26.commitdate: 2022/9/7
-photo.26.link: https://www.instagram.com/miis_98/
-photo.26.tags: portrait, sample, tongue, whiskers
-photo.27: ig://Cq_nSo7hZ5A/m
-photo.27.author: leonard_redmof
-photo.27.commitdate: 2023/4/22
-photo.27.link: https://www.instagram.com/leonard_redmof/
-photo.27.tags: bamboo, paws, portrait, sample, smile
-photo.28: https://www.instagram.com/p/CfYQZ24vGrs/media/?size=m
+photo.25.link: https://www.instagram.com/_sah_ax7/
+photo.25.tags: close-up, laying down, sleeping, techitechi
+photo.26: ig://CgqNyB6PlqT/m
+photo.26.author: pantasanzoo1
+photo.26.commitdate: 2022/8/8
+photo.26.link: https://www.instagram.com/pantasanzoo1/
+photo.26.tags: paws, sample, whiskers
+photo.27: ig://Ch0wDFrvNav/m
+photo.27.author: miis_98
+photo.27.commitdate: 2022/9/7
+photo.27.link: https://www.instagram.com/miis_98/
+photo.27.tags: portrait, sample, tongue, whiskers
+photo.28: ig://Coowv3Bvx3Q/m
 photo.28.author: bananawani_official
+photo.28.commitdate: 2023/8/27
 photo.28.link: https://www.instagram.com/bananawani_official/
-photo.28.tags: laying down
-photo.29: https://www.instagram.com/p/Coowv3Bvx3Q/media/?size=m
-photo.29.author: bananawani_official
-photo.29.link: https://www.instagram.com/bananawani_official/
-photo.29.tags: apple time, keeper, laying down, whiskers
+photo.28.tags: apple time, keeper, laying down, whiskers
+photo.29: ig://Cq_nSo7hZ5A/m
+photo.29.author: leonard_redmof
+photo.29.commitdate: 2023/4/22
+photo.29.link: https://www.instagram.com/leonard_redmof/
+photo.29.tags: bamboo, paws, portrait, sample, smile
 species: 1
 studbook.id: 14172
 zoo: 59

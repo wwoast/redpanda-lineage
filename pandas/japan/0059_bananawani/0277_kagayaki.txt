@@ -163,39 +163,41 @@ photo.31.author: tamazoowalking
 photo.31.commitdate: 2023/1/11
 photo.31.link: https://www.instagram.com/tamazoowalking/
 photo.31.tags: portrait, sample, whiskers
-photo.32: ig://CdmbrkaPWo4/m
-photo.32.author: sasapan34
-photo.32.commitdate: 2022/6/6
-photo.32.link: https://www.instagram.com/sasapan34/
-photo.32.tags: paws, sample, whiskers
-photo.33: ig://CexcpjbP-ZO/m
-photo.33.author: miis_98
-photo.33.commitdate: 2022/6/21
-photo.33.link: https://www.instagram.com/miis_98/
-photo.33.tags: close-up, paws, portrait, sample, whiskers
-photo.34: ig://Cf6cWQKPOc-/m
-photo.34.author: pantasanzoo1
-photo.34.commitdate: 2022/7/31
-photo.34.link: https://www.instagram.com/pantasanzoo1/
-photo.34.tags: bamboo, peek
-photo.35: ig://ChmnR81r3rF/m
-photo.35.author: miis_98
-photo.35.commitdate: 2022/8/26
-photo.35.link: https://www.instagram.com/miis_98/
-photo.35.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.36: ig://Cr8JZeSPbPp/m
-photo.36.author: minatomirai215
-photo.36.commitdate: 2023/7/3
-photo.36.link: https://www.instagram.com/minatomirai215/
-photo.36.tags: home, laying down, sleeping, tail
-photo.37: https://www.instagram.com/p/CaYaICZpgh3/media/?size=m
-photo.37.author: bananawani_official
-photo.37.link: https://www.instagram.com/bananawani_official/
-photo.37.tags: apple time, mofumofu, paws, portrait, sample, tail, whiskers
-photo.38: https://www.instagram.com/p/CfvAxmpLBwr/media/?size=m
-photo.38.author: bananawani_official
-photo.38.link: https://www.instagram.com/bananawani_official/
-photo.38.tags: portrait, sample, whiskers
+photo.32: ig://CaYaICZpgh3/m
+photo.32.author: bananawani_official
+photo.32.commitdate: 2023/8/27
+photo.32.link: https://www.instagram.com/bananawani_official/
+photo.32.tags: apple time, mofumofu, paws, portrait, sample, tail, whiskers
+photo.33: ig://CdmbrkaPWo4/m
+photo.33.author: sasapan34
+photo.33.commitdate: 2022/6/6
+photo.33.link: https://www.instagram.com/sasapan34/
+photo.33.tags: paws, sample, whiskers
+photo.34: ig://CexcpjbP-ZO/m
+photo.34.author: miis_98
+photo.34.commitdate: 2022/6/21
+photo.34.link: https://www.instagram.com/miis_98/
+photo.34.tags: close-up, paws, portrait, sample, whiskers
+photo.35: ig://CfvAxmpLBwr/m
+photo.35.author: bananawani_official
+photo.35.commitdate: 2023/8/27
+photo.35.link: https://www.instagram.com/bananawani_official/
+photo.35.tags: portrait, sample, whiskers
+photo.36: ig://Cf6cWQKPOc-/m
+photo.36.author: pantasanzoo1
+photo.36.commitdate: 2022/7/31
+photo.36.link: https://www.instagram.com/pantasanzoo1/
+photo.36.tags: bamboo, peek
+photo.37: ig://ChmnR81r3rF/m
+photo.37.author: miis_98
+photo.37.commitdate: 2022/8/26
+photo.37.link: https://www.instagram.com/miis_98/
+photo.37.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.38: ig://Cr8JZeSPbPp/m
+photo.38.author: minatomirai215
+photo.38.commitdate: 2023/7/3
+photo.38.link: https://www.instagram.com/minatomirai215/
+photo.38.tags: home, laying down, sleeping, tail
 species: 1
 studbook.id: 1791
 zoo: 59
