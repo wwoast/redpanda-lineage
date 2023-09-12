@@ -560,71 +560,86 @@ photo.110.author: fetorus_mami
 photo.110.commitdate: 2023/3/9
 photo.110.link: https://www.instagram.com/fetorus_mami/
 photo.110.tags: apple time, dish, lunch time, mofumofu, old, portrait, sample
-photo.111: ig://Co9xlAEr_yE/m
-photo.111.author: ifumoto88
-photo.111.commitdate: 2023/2/26
-photo.111.link: https://www.instagram.com/ifumoto88/
-photo.111.tags: blink, old, paws, portrait, sample
-photo.112: https://www.instagram.com/p/Cut6ihULtFM/media/?size=m
+photo.111: ig://CoL1n37vdF8/m
+photo.111.author: fetorus_mami
+photo.111.commitdate: 2023/9/12
+photo.111.link: https://www.instagram.com/fetorus_mami/
+photo.111.tags: door, peek
+photo.112: ig://Co9xlAEr_yE/m
 photo.112.author: ifumoto88
+photo.112.commitdate: 2023/2/26
 photo.112.link: https://www.instagram.com/ifumoto88/
-photo.112.tags: lips, mofumofu, portrait, sample, whiskers
-photo.113: https://www.instagram.com/p/CusbbvRBkb6/media/?size=m
-photo.113.author: yuredpanda
-photo.113.link: https://www.instagram.com/yuredpanda/
-photo.113.tags: portrait, sample, whiskers
-photo.114: https://www.instagram.com/p/CuuNRzzvMIg/media/?size=m
-photo.114.author: na.mo.pan
-photo.114.link: https://www.instagram.com/na.mo.pan/
-photo.114.tags: close-up, door, paws, whiskers
-photo.115: https://www.instagram.com/p/Cp4dzKZP0zg/media/?size=m
-photo.115.author: na.mo.pan
-photo.115.link: https://www.instagram.com/na.mo.pan/
-photo.115.tags: paws, peek
-photo.116: https://www.instagram.com/p/CoL1n37vdF8/media/?size=m
-photo.116.author: fetorus_mami
-photo.116.link: https://www.instagram.com/fetorus_mami/
-photo.116.tags: door, peek
-photo.117: https://www.instagram.com/p/Cw24AZCPC0o/media/?size=m
-photo.117.author: ruru_maki
-photo.117.link: https://www.instagram.com/ruru_maki/
-photo.117.tags: peek, sample, whiskers
-photo.118: https://www.instagram.com/p/Cw4yXB9PRCB/media/?size=m
-photo.118.author: daniele.tokyo
-photo.118.link: https://www.instagram.com/daniele.tokyo/
-photo.118.tags: old, paws, sample, whiskers
-photo.119: https://www.instagram.com/p/Cw4mRzWPq1F/media/?size=m
-photo.119.author: fetorus_mami
-photo.119.link: https://www.instagram.com/fetorus_mami/
-photo.119.tags: paws, whiskers
-photo.120: https://www.instagram.com/p/Cw44mDIPGIz/media/?size=m
-photo.120.author: na.mo.pan
-photo.120.link: https://www.instagram.com/na.mo.pan/
-photo.120.tags: apple time, keeper
-photo.121: https://www.instagram.com/p/Cw2jGiwvMd-/media/?size=m
-photo.121.author: ck.chie
-photo.121.link: https://www.instagram.com/ck.chie/
-photo.121.tags: mofumofu, old, sample, tongue
-photo.122: https://www.instagram.com/p/CxDXfprv4fZ/media/?size=m
-photo.122.author: firefoxpanda88
-photo.122.link: https://www.instagram.com/firefoxpanda88/
-photo.122.tags: home, mofumofu
-photo.123: https://www.instagram.com/p/Cw95V_TvOmJ/media/?size=m
-photo.123.author: rie_panda55
-photo.123.link: https://www.instagram.com/rie_panda55/
-photo.123.tags: home, portrait, sample, tail, tongue
-photo.124: https://www.instagram.com/p/Cw4G2yFvpny/media/?size=m
-photo.124.author: minatomirai215
-photo.124.link: https://www.instagram.com/minatomirai215/
-photo.124.tags: home, portrait, sample, whiskers
-photo.125: https://www.instagram.com/p/Cw6tefzrWxy/media/?size=m
-photo.125.author: mariten1119
-photo.125.link: https://www.instagram.com/mariten1119/
-photo.125.tags: paws, whiskers
-photo.126: https://www.instagram.com/p/Cw2Q_3_PPRf/media/?size=m
-photo.126.author: daniele.tokyo
-photo.126.link: https://www.instagram.com/daniele.tokyo/
-photo.126.tags: close-up, mofumofu, sample, whiskers
+photo.112.tags: blink, old, paws, portrait, sample
+photo.113: ig://Cp4dzKZP0zg/m
+photo.113.author: na.mo.pan
+photo.113.commitdate: 2023/9/12
+photo.113.link: https://www.instagram.com/na.mo.pan/
+photo.113.tags: paws, peek
+photo.114: ig://CusbbvRBkb6/m
+photo.114.author: yuredpanda
+photo.114.commitdate: 2023/9/12
+photo.114.link: https://www.instagram.com/yuredpanda/
+photo.114.tags: portrait, sample, whiskers
+photo.115: ig://Cut6ihULtFM/m
+photo.115.author: ifumoto88
+photo.115.commitdate: 2023/9/12
+photo.115.link: https://www.instagram.com/ifumoto88/
+photo.115.tags: lips, mofumofu, portrait, sample, whiskers
+photo.116: ig://CuuNRzzvMIg/m
+photo.116.author: na.mo.pan
+photo.116.commitdate: 2023/9/12
+photo.116.link: https://www.instagram.com/na.mo.pan/
+photo.116.tags: close-up, door, paws, whiskers
+photo.117: ig://Cw2Q_3_PPRf/m
+photo.117.author: daniele.tokyo
+photo.117.commitdate: 2023/9/12
+photo.117.link: https://www.instagram.com/daniele.tokyo/
+photo.117.tags: close-up, mofumofu, sample, whiskers
+photo.118: ig://Cw2jGiwvMd-/m
+photo.118.author: ck.chie
+photo.118.commitdate: 2023/9/12
+photo.118.link: https://www.instagram.com/ck.chie/
+photo.118.tags: mofumofu, old, sample, tongue
+photo.119: ig://Cw24AZCPC0o/m
+photo.119.author: ruru_maki
+photo.119.commitdate: 2023/9/12
+photo.119.link: https://www.instagram.com/ruru_maki/
+photo.119.tags: peek, sample, whiskers
+photo.120: ig://Cw4G2yFvpny/m
+photo.120.author: minatomirai215
+photo.120.commitdate: 2023/9/12
+photo.120.link: https://www.instagram.com/minatomirai215/
+photo.120.tags: home, portrait, sample, whiskers
+photo.121: ig://Cw4mRzWPq1F/m
+photo.121.author: fetorus_mami
+photo.121.commitdate: 2023/9/12
+photo.121.link: https://www.instagram.com/fetorus_mami/
+photo.121.tags: paws, whiskers
+photo.122: ig://Cw4yXB9PRCB/m
+photo.122.author: daniele.tokyo
+photo.122.commitdate: 2023/9/12
+photo.122.link: https://www.instagram.com/daniele.tokyo/
+photo.122.tags: old, paws, sample, whiskers
+photo.123: ig://Cw44mDIPGIz/m
+photo.123.author: na.mo.pan
+photo.123.commitdate: 2023/9/12
+photo.123.link: https://www.instagram.com/na.mo.pan/
+photo.123.tags: apple time, keeper
+photo.124: ig://Cw6tefzrWxy/m
+photo.124.author: mariten1119
+photo.124.commitdate: 2023/9/12
+photo.124.link: https://www.instagram.com/mariten1119/
+photo.124.tags: paws, whiskers
+photo.125: ig://Cw95V_TvOmJ/m
+photo.125.author: rie_panda55
+photo.125.commitdate: 2023/9/12
+photo.125.link: https://www.instagram.com/rie_panda55/
+photo.125.tags: home, portrait, sample, tail, tongue
+photo.126: ig://CxDXfprv4fZ/m
+photo.126.author: firefoxpanda88
+photo.126.commitdate: 2023/9/12
+photo.126.link: https://www.instagram.com/firefoxpanda88/
+photo.126.tags: home, mofumofu
 species: 2
 studbook.id: 0280
 zoo: 1

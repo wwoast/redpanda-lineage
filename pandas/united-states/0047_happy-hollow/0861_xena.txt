@@ -366,8 +366,9 @@ photo.70.author: wumpwoast
 photo.70.commitdate: 2023/6/9
 photo.70.link: https://www.instagram.com/wumpwoast/
 photo.70.tags: laying down, mofumofu, sample, tail
-photo.71: https://www.instagram.com/p/CxGFE7lrUjR/media/?size=m
+photo.71: ig://CxGFE7lrUjR/m
 photo.71.author: wumpwoast
+photo.71.commitdate: 2023/9/12
 photo.71.link: https://www.instagram.com/wumpwoast/
 photo.71.tags: bamboo, peek, portrait, white face
 species: 1

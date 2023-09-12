@@ -120,8 +120,9 @@ photo.21.author: eos1089
 photo.21.commitdate: 2023/8/8
 photo.21.link: https://www.instagram.com/eos1089/
 photo.21.tags: portrait, sample, whiskers
-photo.22: https://www.instagram.com/p/CxFndKIP6Zf/media/?size=m
+photo.22: ig://CxFndKIP6Zf/m
 photo.22.author: fetorus_mami
+photo.22.commitdate: 2023/9/12
 photo.22.link: https://www.instagram.com/fetorus_mami/
 photo.22.tags: peek, portrait, sample
 species: 2

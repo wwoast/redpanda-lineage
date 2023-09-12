@@ -245,8 +245,9 @@ photo.46.author: otenba_redpanda
 photo.46.commitdate: 2022/2/12
 photo.46.link: https://www.instagram.com/otenba_redpanda/
 photo.46.tags: close-up, portrait, whiskers
-photo.47: https://www.instagram.com/p/Cw2AxPxvnM3/media/?size=m
+photo.47: ig://Cw2AxPxvnM3/m
 photo.47.author: chausuyamazoo
+photo.47.commitdate: 2023/9/12
 photo.47.link: https://www.instagram.com/chausuyamazoo/
 photo.47.tags: bamboo, paws, standing
 species: 2

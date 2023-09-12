@@ -255,8 +255,9 @@ photo.48.author: westcoast_kathy
 photo.48.commitdate: 2022/12/20
 photo.48.link: https://www.instagram.com/westcoast_kathy/
 photo.48.tags: peek, sample, snow, whiskers
-photo.49: https://www.instagram.com/p/CwsZT2dNbj4/media/?size=m
+photo.49: ig://CwsZT2dNbj4/m
 photo.49.author: thecalgaryzoo
+photo.49.commitdate: 2023/9/12
 photo.49.link: https://www.instagram.com/thecalgaryzoo/
 photo.49.tags: close-up, portrait, sample, whiskers
 species: 2
