@@ -355,14 +355,15 @@ photo.68.author: hamamatsu.chiita
 photo.68.commitdate: 2023/8/11
 photo.68.link: https://www.instagram.com/hamamatsu.chiita/
 photo.68.tags: close-up, portrait, sample, whiskers
-photo.69: ig://CvT8z5GLXcj/m
-photo.69.author: gloryeui
-photo.69.commitdate: 2023/7/31
-photo.69.link: https://www.instagram.com/gloryeui/
-photo.69.tags: bamboo, peek, portrait, sample
-photo.70: https://www.instagram.com/p/Cu_sgjGv6-B/media/?size=m
-photo.70.author: hamamatsu.chiita
-photo.70.link: https://www.instagram.com/hamamatsu.chiita/
-photo.70.tags: portrait, sample, tail
+photo.69: ig://Cu_sgjGv6-B/m
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2023/9/16
+photo.69.link: https://www.instagram.com/hamamatsu.chiita/
+photo.69.tags: portrait, sample, tail
+photo.70: ig://CvT8z5GLXcj/m
+photo.70.author: gloryeui
+photo.70.commitdate: 2023/7/31
+photo.70.link: https://www.instagram.com/gloryeui/
+photo.70.tags: bamboo, peek, portrait, sample
 species: 2
 zoo: 264

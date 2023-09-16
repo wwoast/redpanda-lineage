@@ -203,8 +203,9 @@ photo.38.author: miis_98
 photo.38.commitdate: 2023/6/25
 photo.38.link: https://www.instagram.com/miis_98/
 photo.38.tags: home, portrait, sample
-photo.39: https://www.instagram.com/p/CvFSWgeP48a/media/?size=m
+photo.39: ig://CvFSWgeP48a/m
 photo.39.author: minatomirai215
+photo.39.commitdate: 2023/9/16
 photo.39.link: https://www.instagram.com/minatomirai215/
 photo.39.tags: portrait, sample, smile
 species: 2

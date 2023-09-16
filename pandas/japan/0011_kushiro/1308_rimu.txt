@@ -197,8 +197,9 @@ photo.37.author: gloryeui
 photo.37.commitdate: 2023/2/25
 photo.37.link: https://www.instagram.com/gloryeui/
 photo.37.tags: portrait, sample, whiskers, white face
-photo.38: https://www.instagram.com/p/CwNvyLZvnbm/media/?size=m
+photo.38: ig://CwNvyLZvnbm/m
 photo.38.author: minatomirai215
+photo.38.commitdate: 2023/9/16
 photo.38.link: https://www.instagram.com/minatomirai215/
 photo.38.tags: mofumofu, peek, portrait
 species: 2
