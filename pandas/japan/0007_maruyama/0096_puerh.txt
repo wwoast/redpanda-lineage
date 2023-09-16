@@ -327,16 +327,21 @@ photo.63.author: rie_panda55
 photo.63.commitdate: 2023/2/24
 photo.63.link: https://www.instagram.com/rie_panda55/
 photo.63.tags: bamboo, portrait, sample, snow
-photo.64: ig://Cw4aAzzrydl/m
-photo.64.author: mari_neko3
-photo.64.commitdate: 2023/9/15
-photo.64.link: https://www.instagram.com/mari_neko3/
-photo.64.tags: peek, whiskers
-photo.65: ig://Cw4fPKNvyHs/m
+photo.64: ig://CwSYMCNv4-Y/m
+photo.64.author: apple_jasmine33
+photo.64.commitdate: 2023/9/16
+photo.64.link: https://www.instagram.com/apple_jasmine33/
+photo.64.tags: mofumofu, paws, whiskers
+photo.65: ig://Cw4aAzzrydl/m
 photo.65.author: mari_neko3
 photo.65.commitdate: 2023/9/15
 photo.65.link: https://www.instagram.com/mari_neko3/
-photo.65.tags: paws, portrait, sample, whiskers
+photo.65.tags: peek, whiskers
+photo.66: ig://Cw4fPKNvyHs/m
+photo.66.author: mari_neko3
+photo.66.commitdate: 2023/9/15
+photo.66.link: https://www.instagram.com/mari_neko3/
+photo.66.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 15134
 zoo: 7
