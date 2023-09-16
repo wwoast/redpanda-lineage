@@ -148,21 +148,25 @@ photo.27.author: tamazoowalking
 photo.27.commitdate: 2023/8/23
 photo.27.link: https://www.instagram.com/tamazoowalking/
 photo.27.tags: portrait, sample
-photo.28: https://www.instagram.com/p/CwxCWdIPi7X/media/?size=m
+photo.28: ig://CwxCWdIPi7X/m
 photo.28.author: osopanda551
+photo.28.commitdate: 2023/9/15
 photo.28.link: https://www.instagram.com/osopanda551/
 photo.28.tags: bamboo, flowers, peek, portrait, sample
-photo.29: https://www.instagram.com/p/Cw95jIbvpk6/media/?size=m
+photo.29: ig://Cw4BY4Hvmz7/m
 photo.29.author: tamazoowalking
+photo.29.commitdate: 2023/9/15
 photo.29.link: https://www.instagram.com/tamazoowalking/
-photo.29.tags: door, peek, portrait, sample, tail
-photo.30: https://www.instagram.com/p/Cw4BY4Hvmz7/media/?size=m
+photo.29.tags: paws, portrait, sample, smile, tree, whiskers
+photo.30: ig://Cw7X1KLvBTq/m
 photo.30.author: tamazoowalking
+photo.30.commitdate: 2023/9/15
 photo.30.link: https://www.instagram.com/tamazoowalking/
-photo.30.tags: paws, portrait, sample, smile, tree, whiskers
-photo.31: https://www.instagram.com/p/Cw7X1KLvBTq/media/?size=m
+photo.30.tags: paws, portrait, sample, smile, whiskers
+photo.31: ig://Cw95jIbvpk6/m
 photo.31.author: tamazoowalking
+photo.31.commitdate: 2023/9/15
 photo.31.link: https://www.instagram.com/tamazoowalking/
-photo.31.tags: paws, portrait, sample, smile, whiskers
+photo.31.tags: door, peek, portrait, sample, tail
 species: 2
 zoo: 17

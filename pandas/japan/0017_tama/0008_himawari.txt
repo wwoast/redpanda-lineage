@@ -2200,19 +2200,21 @@ photo.438.author: tamazoowalking
 photo.438.commitdate: 2023/8/8
 photo.438.link: https://www.instagram.com/tamazoowalking/
 photo.438.tags: portrait, sample, tree, whiskers
-photo.439: ig://CvrwWFJxEVV/m
-photo.439.author: tamazoowalking
-photo.439.commitdate: 2023/8/23
-photo.439.link: https://www.instagram.com/tamazoowalking/
-photo.439.tags: peek, portrait, sample, whiskers
-photo.440: https://www.instagram.com/p/Cw-ZMytPdxG/media/?size=m
-photo.440.author: mini_cochi
-photo.440.link: https://www.instagram.com/mini_cochi/
-photo.440.tags: flowers, portrait, sample, tree, whiskers
-photo.441: https://www.instagram.com/p/Ct3lqRovyBi/media/?size=m
-photo.441.author: osopanda551
-photo.441.link: https://www.instagram.com/osopanda551/
-photo.441.tags: door, laying down, portrait, sample, whiskers
+photo.439: ig://Ct3lqRovyBi/m
+photo.439.author: osopanda551
+photo.439.commitdate: 2023/9/15
+photo.439.link: https://www.instagram.com/osopanda551/
+photo.439.tags: door, laying down, portrait, sample, whiskers
+photo.440: ig://CvrwWFJxEVV/m
+photo.440.author: tamazoowalking
+photo.440.commitdate: 2023/8/23
+photo.440.link: https://www.instagram.com/tamazoowalking/
+photo.440.tags: peek, portrait, sample, whiskers
+photo.441: ig://Cw-ZMytPdxG/m
+photo.441.author: mini_cochi
+photo.441.commitdate: 2023/9/15
+photo.441.link: https://www.instagram.com/mini_cochi/
+photo.441.tags: flowers, portrait, sample, tree, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

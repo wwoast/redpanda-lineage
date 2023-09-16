@@ -133,8 +133,9 @@ photo.24.author: hamamatsu.chiita
 photo.24.commitdate: 2023/6/10
 photo.24.link: https://www.instagram.com/hamamatsu.chiita/
 photo.24.tags: close-up, lips, portrait, sample, smile, whiskers
-photo.25: https://www.instagram.com/p/CwyXLCPhkBI/media/?size=m
+photo.25: ig://CwyXLCPhkBI/m
 photo.25.author: tomo3700
+photo.25.commitdate: 2023/9/15
 photo.25.link: https://www.instagram.com/tomo3700/
 photo.25.tags: apple time, keeper, lips, portrait, sample, whiskers
 species: 2

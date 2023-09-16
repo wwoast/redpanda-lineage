@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1419
-photo.1: https://www.instagram.com/p/CwpNlovOJzX/media/?size=m
+photo.1: ig://CwpNlovOJzX/m
 photo.1.author: worldthathesees
+photo.1.commitdate: 2023/9/15
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: baby, portrait, sample
 species: 2

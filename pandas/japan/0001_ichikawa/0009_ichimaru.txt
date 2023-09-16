@@ -360,8 +360,9 @@ photo.70.author: na.mo.pan
 photo.70.commitdate: 2023/8/11
 photo.70.link: https://www.instagram.com/na.mo.pan/
 photo.70.tags: paws, sample, tail, whiskers
-photo.71: https://www.instagram.com/p/CwhRr8jvQ7b/media/?size=m
+photo.71: ig://CwhRr8jvQ7b/m
 photo.71.author: eos1089
+photo.71.commitdate: 2023/9/15
 photo.71.link: https://www.instagram.com/eos1089/
 photo.71.tags: laying down, paws, portrait, sample, whiskers
 species: 2
