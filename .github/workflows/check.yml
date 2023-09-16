@@ -1,0 +1,24 @@
+name: check-redpandafinder
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 60
+      - name: Build export/redpanda.json
+        run: |
+          pip install -r requirements.txt
+          python ./build.py --publish
+          rm .gitignore
+      - name: Publish artifact for github pages
+        uses: actions/upload-pages-artifact@v1.0.7
+        with:
+          name: github-pages
+          path: ${{ github.workspace }}
+          retention-days: 1
