@@ -1,17 +1,17 @@
 [panda]
-_id: 1418
+_id: 1419
 birthday: 2023/6/13
 birthplace: 109
 children: none
 commitdate: 2023/8/8
-en.name: Baby
+en.name: Debree
 en.nicknames: none
 en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: f
+jp.name: デブリー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 1419
+litter: 1418
 species: 2
 zoo: 109
