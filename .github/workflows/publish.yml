@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
   workflow_dispatch:
 jobs:
   build:
@@ -26,12 +23,12 @@ jobs:
           path: ${{ github.workspace }}
           retention-days: 1
   deploy:
-    needs: build  
+    needs: build
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       pages: write
       id-token: write
-    environment: 
+    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
