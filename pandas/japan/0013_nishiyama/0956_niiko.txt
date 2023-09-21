@@ -463,8 +463,9 @@ photo.90.author: hamamatsu.chiita
 photo.90.commitdate: 2023/6/20
 photo.90.link: https://www.instagram.com/hamamatsu.chiita/
 photo.90.tags: close-up, mofumofu, portrait, sample, tongue
-photo.91: https://www.instagram.com/p/CulPu9rP5e4/media/?size=m
+photo.91: ig://CulPu9rP5e4/m
 photo.91.author: yuredpanda
+photo.91.commitdate: 2023/9/21
 photo.91.link: https://www.instagram.com/yuredpanda/
 photo.91.tags: blink, close-up, laying down, mofumofu, sleeping, tree, techitechi
 species: 2

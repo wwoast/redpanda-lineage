@@ -1741,24 +1741,26 @@ photo.346.author: wumpwoast
 photo.346.commitdate: 2023/9/12
 photo.346.link: https://www.instagram.com/wumpwoast/
 photo.346.tags: panda bowl, paws, portrait, tongue
-photo.347: ig://CvSD5cuPEVQ/m
-photo.347.author: fetorus_mami
-photo.347.commitdate: 2023/7/31
-photo.347.link: https://www.instagram.com/fetorus_mami/
-photo.347.tags: keeper, whiskers
-photo.348: ig://Cwg8pWxv1lw/m
-photo.348.author: fetorus_mami
-photo.348.commitdate: 2023/9/15
-photo.348.link: https://www.instagram.com/fetorus_mami/
-photo.348.tags: close-up, paws, whiskers
-photo.349: https://www.instagram.com/p/CutuyHmvzmS/media/?size=m
-photo.349.author: gloryeui
-photo.349.link: https://www.instagram.com/gloryeui/
-photo.349.tags: paws, portrait, sample, tail
-photo.350: https://www.instagram.com/p/CurRxJ-vyPm/media/?size=m
-photo.350.author: gloryeui
-photo.350.link: https://www.instagram.com/gloryeui/
-photo.350.tags: peek, portrait, sample, whiskers
+photo.347: ig://CurRxJ-vyPm/m
+photo.347.author: gloryeui
+photo.347.commitdate: 2023/9/21
+photo.347.link: https://www.instagram.com/gloryeui/
+photo.347.tags: peek, portrait, sample, whiskers
+photo.348: ig://CutuyHmvzmS/m
+photo.348.author: gloryeui
+photo.348.commitdate: 2023/9/21
+photo.348.link: https://www.instagram.com/gloryeui/
+photo.348.tags: paws, portrait, sample, tail
+photo.349: ig://CvSD5cuPEVQ/m
+photo.349.author: fetorus_mami
+photo.349.commitdate: 2023/7/31
+photo.349.link: https://www.instagram.com/fetorus_mami/
+photo.349.tags: keeper, whiskers
+photo.350: ig://Cwg8pWxv1lw/m
+photo.350.author: fetorus_mami
+photo.350.commitdate: 2023/9/15
+photo.350.link: https://www.instagram.com/fetorus_mami/
+photo.350.tags: close-up, paws, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

@@ -18,25 +18,30 @@ photo.1.author: kumamoto_doushokubutsuen
 photo.1.commitdate: 2023/6/25
 photo.1.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.1.tags: baby, blink, mofumofu, newborn
-photo.2: https://www.instagram.com/p/CurXTPkRY4B/media/?size=m
+photo.2: ig://Ct_XynvRqYl/m
 photo.2.author: kumamoto_doushokubutsuen
+photo.2.commitdate: 2023/9/21
 photo.2.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.2.tags: baby, keeper, paws, sample
-photo.3: https://www.instagram.com/p/Cw-T8N9PRgq/media/?size=m
-photo.3.author: yossi929
-photo.3.link: https://www.instagram.com/yossi929/
-photo.3.tags: baby, bridge, hammock, portrait, sample, smile
-photo.4: https://www.instagram.com/p/Cubx-ScxcKa/media/?size=m
+photo.2.tags: baby, close-up, paws
+photo.3: ig://Cubx-ScxcKa/m
+photo.3.author: kumamoto_doushokubutsuen
+photo.3.commitdate: 2023/9/21
+photo.3.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.3.tags: baby, keeper, paws, surprise
+photo.4: ig://CurXTPkRY4B/m
 photo.4.author: kumamoto_doushokubutsuen
+photo.4.commitdate: 2023/9/21
 photo.4.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.4.tags: baby, keeper, paws, surprise
-photo.5: https://www.instagram.com/p/Ct_XynvRqYl/media/?size=m
+photo.4.tags: baby, keeper, paws, sample
+photo.5: ig://CwcWysrxC-W/m
 photo.5.author: kumamoto_doushokubutsuen
+photo.5.commitdate: 2023/9/21
 photo.5.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.5.tags: baby, close-up, paws
-photo.6: https://www.instagram.com/p/CwcWysrxC-W/media/?size=m
-photo.6.author: kumamoto_doushokubutsuen
-photo.6.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.6.tags: baby, bamboo, hammock, portrait, sample, tail
+photo.5.tags: baby, bamboo, hammock, portrait, sample, tail
+photo.6: ig://Cw-T8N9PRgq/m
+photo.6.author: yossi929
+photo.6.commitdate: 2023/9/21
+photo.6.link: https://www.instagram.com/yossi929/
+photo.6.tags: baby, bridge, hammock, portrait, sample, smile
 species: 2
 zoo: 306
