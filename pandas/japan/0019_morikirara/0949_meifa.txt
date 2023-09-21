@@ -1049,13 +1049,15 @@ photo.207.author: kotata_513
 photo.207.commitdate: 2023/8/10
 photo.207.link: https://www.instagram.com/kotata_513/
 photo.207.tags: bamboo, paws, portrait, sample, whiskers
-photo.208: https://www.instagram.com/p/Cw36NHIvCUl/media/?size=m
-photo.208.author: yuredpanda
-photo.208.link: https://www.instagram.com/yuredpanda/
-photo.208.tags: bamboo, paws, portrait, sample, techitechi
-photo.209: https://www.instagram.com/p/Cw2KOkBp_3e/media/?size=m
-photo.209.author: morikirara
-photo.209.link: https://www.instagram.com/morikirara/
-photo.209.tags: close-up, mofumofu, portrait, sample, tongue
+photo.208: ig://Cw2KOkBp_3e/m
+photo.208.author: morikirara
+photo.208.commitdate: 2023/9/21
+photo.208.link: https://www.instagram.com/morikirara/
+photo.208.tags: close-up, mofumofu, portrait, sample, tongue
+photo.209: ig://Cw36NHIvCUl/m
+photo.209.author: yuredpanda
+photo.209.commitdate: 2023/9/21
+photo.209.link: https://www.instagram.com/yuredpanda/
+photo.209.tags: bamboo, paws, portrait, sample, techitechi
 species: 2
 zoo: 19

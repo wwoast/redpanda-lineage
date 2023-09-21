@@ -163,8 +163,9 @@ photo.30.author: miis_98
 photo.30.commitdate: 2023/6/25
 photo.30.link: https://www.instagram.com/miis_98/
 photo.30.tags: bamboo, bite, portrait, sample, white face
-photo.31: https://www.instagram.com/p/Cw7Sw3iv5An/media/?size=m
+photo.31: ig://Cw7Sw3iv5An/m
 photo.31.author: fetorus_mami
+photo.31.commitdate: 2023/9/21
 photo.31.link: https://www.instagram.com/fetorus_mami/
 photo.31.tags: hammock, sample, tail
 species: 2

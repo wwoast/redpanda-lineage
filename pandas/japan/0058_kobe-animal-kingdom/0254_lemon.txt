@@ -649,8 +649,9 @@ photo.127.author: fetorus_mami
 photo.127.commitdate: 2023/9/16
 photo.127.link: https://www.instagram.com/fetorus_mami/
 photo.127.tags: close-up, sample, smile, whiskers
-photo.128: https://www.instagram.com/p/Cw90U-YOHXU/media/?size=m
+photo.128: ig://Cw90U-YOHXU/m
 photo.128.author: kobe_animalkingdom
+photo.128.commitdate: 2023/9/21
 photo.128.link: https://www.instagram.com/kobe_animalkingdom/
 photo.128.tags: paws, portrait, sample, smile, whiskers
 species: 2

@@ -434,8 +434,9 @@ photo.86.author: hamiiiii831_
 photo.86.commitdate: 2023/4/21
 photo.86.link: https://www.instagram.com/hamiiiii831_/
 photo.86.tags: door, paws, peek, sample, whiskers
-photo.87: https://www.instagram.com/p/CwE18O1rBk0/media/?size=m
+photo.87: ig://CwE18O1rBk0/m
 photo.87.author: itozu_zoo
+photo.87.commitdate: 2023/9/21
 photo.87.link: https://www.instagram.com/itozu_zoo/
 photo.87.tags: bridge, paws, whiskers
 species: 2

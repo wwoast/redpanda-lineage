@@ -371,8 +371,9 @@ photo.72.author: ck.chie
 photo.72.commitdate: 2023/5/3
 photo.72.link: https://www.instagram.com/ck.chie/
 photo.72.tags: mofumofu, portrait, sample, tail, whiskers
-photo.73: https://www.instagram.com/p/Cw32POVv7A_/media/?size=m
+photo.73: ig://Cw32POVv7A_/m
 photo.73.author: tamazoowalking
+photo.73.commitdate: 2023/9/21
 photo.73.link: https://www.instagram.com/tamazoowalking/
 photo.73.tags: hammock, mofumofu, paws, portrait, sample
 species: 2

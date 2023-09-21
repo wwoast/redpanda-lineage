@@ -594,33 +594,36 @@ photo.116.author: tamazoowalking
 photo.116.commitdate: 2023/8/10
 photo.116.link: https://www.instagram.com/tamazoowalking/
 photo.116.tags: paws, portrait, sample, tongue
-photo.117: ig://CwmMWu8rit6/m
-photo.117.author: sasapan34
-photo.117.commitdate: 2023/9/15
-photo.117.link: https://www.instagram.com/sasapan34/
-photo.117.tags: bamboo, paws, peek
-photo.118: ig://CwnLIbLPPB1/m
-photo.118.author: fetorus_mami
-photo.118.commitdate: 2023/9/15
-photo.118.link: https://www.instagram.com/fetorus_mami/
-photo.118.tags: apple time, bamboo, blink, mofumofu, paws, tongue
-photo.119: ig://CwpmzVVvsJs/m
-photo.119.author: mini_cochi
-photo.119.commitdate: 2023/9/15
-photo.119.link: https://www.instagram.com/mini_cochi/
-photo.119.tags: peek, portrait, sample, tree
-photo.120: https://www.instagram.com/p/CwkkXtQv9ax/media/?size=m
-photo.120.author: mini_cochi
-photo.120.link: https://www.instagram.com/mini_cochi/
-photo.120.tags: flowers, peek, tree
-photo.121: https://www.instagram.com/p/Cwk5dZXPUg7/media/?size=m
-photo.121.author: eos1089
-photo.121.link: https://www.instagram.com/eos1089/
-photo.121.tags: flowers, portrait, sample, tree
-photo.122: https://www.instagram.com/p/CwlaYUuho7T/media/?size=m
-photo.122.author: ssc6105
-photo.122.link: https://www.instagram.com/ssc6105/
-photo.122.tags: dish, sample, smile
+photo.117: ig://CwkkXtQv9ax/m
+photo.117.author: mini_cochi
+photo.117.commitdate: 2023/9/21
+photo.117.link: https://www.instagram.com/mini_cochi/
+photo.117.tags: flowers, peek, tree
+photo.118: ig://Cwk5dZXPUg7/m
+photo.118.author: eos1089
+photo.118.commitdate: 2023/9/21
+photo.118.link: https://www.instagram.com/eos1089/
+photo.118.tags: flowers, portrait, sample, tree
+photo.119: ig://CwlaYUuho7T/m
+photo.119.author: ssc6105
+photo.119.commitdate: 2023/9/21
+photo.119.link: https://www.instagram.com/ssc6105/
+photo.119.tags: dish, sample, smile
+photo.120: ig://CwmMWu8rit6/m
+photo.120.author: sasapan34
+photo.120.commitdate: 2023/9/15
+photo.120.link: https://www.instagram.com/sasapan34/
+photo.120.tags: bamboo, paws, peek
+photo.121: ig://CwnLIbLPPB1/m
+photo.121.author: fetorus_mami
+photo.121.commitdate: 2023/9/15
+photo.121.link: https://www.instagram.com/fetorus_mami/
+photo.121.tags: apple time, bamboo, blink, mofumofu, paws, tongue
+photo.122: ig://CwpmzVVvsJs/m
+photo.122.author: mini_cochi
+photo.122.commitdate: 2023/9/15
+photo.122.link: https://www.instagram.com/mini_cochi/
+photo.122.tags: peek, portrait, sample, tree
 species: 2
 studbook.id: 13140
 zoo: 69

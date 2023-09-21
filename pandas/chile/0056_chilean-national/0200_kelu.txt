@@ -126,8 +126,9 @@ photo.22.author: rootsandloyalty
 photo.22.commitdate: 2023/8/20
 photo.22.link: https://www.instagram.com/rootsandloyalty/
 photo.22.tags: bridge, sample, tail, whiskers
-photo.23: https://www.instagram.com/p/Cv7skWKuggY/media/?size=m
+photo.23: ig://Cv7skWKuggY/m
 photo.23.author: zoonacionalchile
+photo.23.commitdate: 2023/9/21
 photo.23.link: https://www.instagram.com/zoonacionalchile/
 photo.23.tags: apple time
 species: 2
