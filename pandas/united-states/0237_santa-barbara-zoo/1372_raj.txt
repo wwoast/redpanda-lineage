@@ -52,12 +52,14 @@ photo.7.author: santabarbarazoo
 photo.7.commitdate: 2023/9/21
 photo.7.link: https://www.instagram.com/santabarbarazoo/
 photo.7.tags: peek, portrait, sample, tree
-photo.8: https://www.instagram.com/p/Cw-XyhnLZn8/media/?size=m
+photo.8: ig://Cw-XyhnLZn8/m
 photo.8.author: greekgal.esm
+photo.8.commitdate: 2023/9/24
 photo.8.link: https://www.instagram.com/greekgal.esm
 photo.8.tags: portrait, profile, sample, smile, whiskers
-photo.9: https://www.instagram.com/p/Cxb8KS_RrCN/media/?size=m
+photo.9: ig://Cxb8KS_RrCN/m
 photo.9.author: greekgal.esm
+photo.9.commitdate: 2023/9/24
 photo.9.link: https://www.instagram.com/greekgal.esm
 photo.9.tags: bamboo, portrait, sample, whiskers
 species: 1

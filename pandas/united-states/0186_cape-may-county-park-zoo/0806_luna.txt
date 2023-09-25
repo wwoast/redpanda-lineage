@@ -194,11 +194,11 @@ photo.35.author: aimless_amos
 photo.35.commitdate: 2023/7/31
 photo.35.link: https://www.instagram.com/carsontheredpanda/
 photo.35.tags: old, sample, tail, tongue
-photo.36: https://www.codaworry.com/images/rpf/luna-22-capemay.jpg
+photo.36: ig://Cw-seRUuu-S/m
 photo.36.author: aimless_amos
-photo.36.commitdate: 2021/6/25
-photo.36.link: https://www.instagram.com/aimless_amos/
-photo.36.tags: close-up, portrait, profile, whiskers, white face
+photo.36.commitdate: 2023/9/24
+photo.36.link: https://www.instagram.com/carsontheredpanda/
+photo.36.tags: keeper, old, paws, portrait, sample, whiskers
 photo.37: https://www.codaworry.com/images/rpf/luna-23-capemay.jpg
 photo.37.author: aimless_amos
 photo.37.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/Cw-seRUuu-S/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/carsontheredpanda/
-photo.63.tags: keeper, old, paws, portrait, sample, whiskers
 species: 1
 studbook.id: 0105
 zoo: 186

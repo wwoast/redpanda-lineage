@@ -471,8 +471,9 @@ photo.92.author: mari_neko3
 photo.92.commitdate: 2023/6/30
 photo.92.link: https://www.instagram.com/mari_neko3/
 photo.92.tags: close-up, portrait, sample, whiskers
-photo.93: https://www.instagram.com/p/Cw4dAcsrQ1B/media/?size=m
+photo.93: ig://Cw4dAcsrQ1B/m
 photo.93.author: mari_neko3
+photo.93.commitdate: 2023/9/24
 photo.93.link: https://www.instagram.com/mari_neko3/
 photo.93.tags: peek, portrait, sample
 species: 2
