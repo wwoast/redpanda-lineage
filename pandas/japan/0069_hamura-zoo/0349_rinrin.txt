@@ -4,6 +4,7 @@ birthday: 2001/6/19
 birthplace: 31
 children: none
 commitdate: 2018/10/9
+death: 2023/9/22
 en.name: Rin-Rin
 en.nicknames: none
 en.othernames: Rinrin
@@ -119,6 +120,10 @@ photo.21.author: tamazoowalking
 photo.21.commitdate: 2023/7/6
 photo.21.link: https://www.instagram.com/tamazoowalking/
 photo.21.tags: dish, old, mofumofu, portrait, sample
+photo.22: https://www.instagram.com/p/CwfZNSXvijv/media/?size=m
+photo.22.author: mini_cochi
+photo.22.link: https://www.instagram.com/mini_cochi/
+photo.22.tags: eye, old, portrait, sample, tail
 species: 2
 studbook.id: 01115
 zoo: 69
