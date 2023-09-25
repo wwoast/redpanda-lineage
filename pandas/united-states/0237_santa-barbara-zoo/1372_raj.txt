@@ -31,7 +31,7 @@ photo.3: ig://Ck9LFsIvZKL/m
 photo.3.author: trevorzoomillbrook
 photo.3.commitdate: 2022/12/19
 photo.3.link: https://www.instagram.com/trevorzoomillbrook/
-photo.3.tags: baby, door, portrait, profile, sample, white face
+photo.3.tags: baby, door, portrait, sample, white face
 photo.4: ig://Clj9vu4ts9o/m
 photo.4.author: trevorzoomillbrook
 photo.4.commitdate: 2023/1/1
@@ -52,5 +52,13 @@ photo.7.author: santabarbarazoo
 photo.7.commitdate: 2023/9/21
 photo.7.link: https://www.instagram.com/santabarbarazoo/
 photo.7.tags: peek, portrait, sample, tree
+photo.8: https://www.instagram.com/p/Cw-XyhnLZn8/media/?size=m
+photo.8.author: greekgal.esm
+photo.8.link: https://www.instagram.com/greekgal.esm
+photo.8.tags: portrait, profile, sample, smile, whiskers
+photo.9: https://www.instagram.com/p/Cxb8KS_RrCN/media/?size=m
+photo.9.author: greekgal.esm
+photo.9.link: https://www.instagram.com/greekgal.esm
+photo.9.tags: bamboo, portrait, sample, whiskers
 species: 1
 zoo: 237

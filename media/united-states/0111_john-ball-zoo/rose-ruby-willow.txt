@@ -1,0 +1,19 @@
+[media]
+_id: media.111.rose-ruby-willow
+commitdate: 2020/8/5
+panda.tags: 1199, 1200, 1201
+photo.1: ig://CCYmzg_DMh5/l
+photo.1.author: johnballzoogr
+photo.1.commitdate: 2020/8/5
+photo.1.link: https://www.instagram.com/johnballzoogr/
+photo.1.tags: baby, newborn, siblings, sisters, triplets
+photo.1.tags.1199.location: 0, 0
+photo.1.tags.1200.location: 0, 0
+photo.1.tags.1201.location: 0, 0
+photo.2: https://www.instagram.com/p/CRrY4zLr9Td/media/?size=l
+photo.2.author: johnballzoogr
+photo.2.link: https://www.instagram.com/johnballzoogr/
+photo.2.tags: bridge, laying down, portrait, siblings, sisters, triplets, white face
+photo.2.tags.1199.location: 485, 370
+photo.2.tags.1200.location: 210, 390
+photo.2.tags.1201.location: 110, 380
