@@ -419,8 +419,9 @@ photo.81.author: nakacchi_desu
 photo.81.commitdate: 2022/12/20
 photo.81.link: https://www.instagram.com/nakacchi_desu/
 photo.81.tags: bamboo, bite, sample, whiskers
-photo.82: https://www.instagram.com/p/Cmh1J9eBDhT/media/?size=m
+photo.82: ig://Cmh1J9eBDhT/m
 photo.82.author: alto0908
+photo.82.commitdate: 2023/9/25
 photo.82.link: https://www.instagram.com/alto0908/
 photo.82.tags: apple time, portrait, sample, tongue, tail, whiskers
 species: 2

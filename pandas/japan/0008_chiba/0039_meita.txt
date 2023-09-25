@@ -1,5 +1,3 @@
-https://www.instagram.com/p/CmIHHibS6kr/media/?size=m
-https://www.instagram.com/p/CmIHHibS6kr/media/?size=m
 [panda]
 _id: 39
 birthday: 2014/6/28
@@ -905,40 +903,41 @@ photo.178.author: pink.b22
 photo.178.commitdate: 2023/1/20
 photo.178.link: https://www.instagram.com/pink.b22/
 photo.178.tags: paws, portrait, sample, smile, whiskers
-photo.179: ig://CoMuzNrP1S-/m
-photo.179.author: kiarino51
-photo.179.commitdate: 2023/3/6
-photo.179.link: https://www.instagram.com/kiarino51/
-photo.179.tags: mofumofu, paws, portrait, sample
-photo.180: ig://CoRRb4dvEUF/m
-photo.180.author: ssc6105
-photo.180.commitdate: 2023/8/23
-photo.180.link: https://www.instagram.com/ssc6105/
-photo.180.tags: apple time, paws, sample, standing, whiskers
-photo.181: ig://CrYVU5mv5Yc/m
-photo.181.author: mari_neko3
-photo.181.commitdate: 2023/8/11
-photo.181.link: https://www.instagram.com/mari_neko3/
-photo.181.tags: portrait, sample, tail, whiskers
-photo.182: ig://CrYWgjRr0VC/m
-photo.182.author: ifumoto88
-photo.182.commitdate: 2023/8/10
-photo.182.link: https://www.instagram.com/ifumoto88/
-photo.182.tags: paws, sample, smile, standing
-photo.183: ig://CrZmFyEv8eq/m
+photo.179: ig://CmIHHibS6kr/m
+photo.179.author: panda.daisuki
+photo.179.commitdate: 2023/9/25
+photo.179.link: https://www.instagram.com/panda.daisuki/?e=867c43af-19ca-478f-b9dc-01e23b37b1fd&g=5
+photo.179.tags: apple time, paws, sample, standing, tail
+photo.180: ig://CoMuzNrP1S-/m
+photo.180.author: kiarino51
+photo.180.commitdate: 2023/3/6
+photo.180.link: https://www.instagram.com/kiarino51/
+photo.180.tags: mofumofu, paws, portrait, sample
+photo.181: ig://CoRRb4dvEUF/m
+photo.181.author: ssc6105
+photo.181.commitdate: 2023/8/23
+photo.181.link: https://www.instagram.com/ssc6105/
+photo.181.tags: apple time, paws, sample, standing, whiskers
+photo.182: ig://CrYVU5mv5Yc/m
+photo.182.author: mari_neko3
+photo.182.commitdate: 2023/8/11
+photo.182.link: https://www.instagram.com/mari_neko3/
+photo.182.tags: portrait, sample, tail, whiskers
+photo.183: ig://CrYWgjRr0VC/m
 photo.183.author: ifumoto88
-photo.183.commitdate: 2023/8/11
+photo.183.commitdate: 2023/8/10
 photo.183.link: https://www.instagram.com/ifumoto88/
-photo.183.tags: sample, smile, whiskers
-photo.184: ig://CrfcQSqPl-f/m
-photo.184.author: mari_neko3
+photo.183.tags: paws, sample, smile, standing
+photo.184: ig://CrZmFyEv8eq/m
+photo.184.author: ifumoto88
 photo.184.commitdate: 2023/8/11
-photo.184.link: https://www.instagram.com/mari_neko3/
-photo.184.tags: paws, portrait, sample, smile, whiskers
-photo.185: https://www.instagram.com/p/CmIHHibS6kr/media/?size=m
-photo.185.author: panda.daisuki
-photo.185.link: https://www.instagram.com/panda.daisuki/?e=867c43af-19ca-478f-b9dc-01e23b37b1fd&g=5
-photo.185.tags: apple time, paws, sample, standing, tail
+photo.184.link: https://www.instagram.com/ifumoto88/
+photo.184.tags: sample, smile, whiskers
+photo.185: ig://CrfcQSqPl-f/m
+photo.185.author: mari_neko3
+photo.185.commitdate: 2023/8/11
+photo.185.link: https://www.instagram.com/mari_neko3/
+photo.185.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8

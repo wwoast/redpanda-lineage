@@ -341,49 +341,51 @@ photo.66.author: mini_cochi
 photo.66.commitdate: 2023/1/11
 photo.66.link: https://www.instagram.com/mini_cochi/
 photo.66.tags: paws, portrait, whiskers
-photo.67: ig://CndsmjkPNXf/m
-photo.67.author: ck.chie
-photo.67.commitdate: 2023/3/9
-photo.67.link: https://www.instagram.com/ck.chie/
-photo.67.tags: hammock
-photo.68: ig://CnzB7rlPHd8/m
-photo.68.author: mini_cochi
-photo.68.commitdate: 2023/3/9
-photo.68.link: https://www.instagram.com/mini_cochi/
-photo.68.tags: paws, portrait, sample, whiskers
-photo.69: ig://CoWjaihvjdM/m
-photo.69.author: tamazoowalking
-photo.69.commitdate: 2023/2/24
-photo.69.link: https://www.instagram.com/tamazoowalking/
-photo.69.tags: close-up, portrait, sample, whiskers
-photo.70: ig://CrR7RZDveKj/m
-photo.70.author: tamazoowalking
-photo.70.commitdate: 2023/5/4
-photo.70.link: https://www.instagram.com/tamazoowalking/
-photo.70.tags: hammock, mofumofu, sample, tail, whiskers
-photo.71: ig://CrWtzMJh48_/m
-photo.71.author: alto0908
-photo.71.commitdate: 2023/8/10
-photo.71.link: https://www.instagram.com/alto0908/
-photo.71.tags: hammock, laying down, sample, tongue, tail
-photo.72: ig://Crr5EwBv-Ty/m
-photo.72.author: ck.chie
-photo.72.commitdate: 2023/5/3
-photo.72.link: https://www.instagram.com/ck.chie/
-photo.72.tags: mofumofu, portrait, sample, tail, whiskers
-photo.73: ig://Cw32POVv7A_/m
-photo.73.author: tamazoowalking
-photo.73.commitdate: 2023/9/21
-photo.73.link: https://www.instagram.com/tamazoowalking/
-photo.73.tags: hammock, mofumofu, paws, portrait, sample
-photo.74: https://www.instagram.com/p/CmlQoVKvYUE/media/?size=m
-photo.74.author: tamazoowalking
-photo.74.link: https://www.instagram.com/tamazoowalking/
-photo.74.tags: door, paws, portrait, sample, whiskers
-photo.75: https://www.instagram.com/p/CmlQ6YYvqeg/media/?size=m
+photo.67: ig://CmlQoVKvYUE/m
+photo.67.author: tamazoowalking
+photo.67.commitdate: 2023/9/25
+photo.67.link: https://www.instagram.com/tamazoowalking/
+photo.67.tags: door, paws, portrait, sample, whiskers
+photo.68: ig://CmlQ6YYvqeg/m
+photo.68.author: tamazoowalking
+photo.68.commitdate: 2023/9/25
+photo.68.link: https://www.instagram.com/tamazoowalking/
+photo.68.tags: autumn, close-up, paws, portrait, sample, tongue, whiskers
+photo.69: ig://CndsmjkPNXf/m
+photo.69.author: ck.chie
+photo.69.commitdate: 2023/3/9
+photo.69.link: https://www.instagram.com/ck.chie/
+photo.69.tags: hammock
+photo.70: ig://CnzB7rlPHd8/m
+photo.70.author: mini_cochi
+photo.70.commitdate: 2023/3/9
+photo.70.link: https://www.instagram.com/mini_cochi/
+photo.70.tags: paws, portrait, sample, whiskers
+photo.71: ig://CoWjaihvjdM/m
+photo.71.author: tamazoowalking
+photo.71.commitdate: 2023/2/24
+photo.71.link: https://www.instagram.com/tamazoowalking/
+photo.71.tags: close-up, portrait, sample, whiskers
+photo.72: ig://CrR7RZDveKj/m
+photo.72.author: tamazoowalking
+photo.72.commitdate: 2023/5/4
+photo.72.link: https://www.instagram.com/tamazoowalking/
+photo.72.tags: hammock, mofumofu, sample, tail, whiskers
+photo.73: ig://CrWtzMJh48_/m
+photo.73.author: alto0908
+photo.73.commitdate: 2023/8/10
+photo.73.link: https://www.instagram.com/alto0908/
+photo.73.tags: hammock, laying down, sample, tongue, tail
+photo.74: ig://Crr5EwBv-Ty/m
+photo.74.author: ck.chie
+photo.74.commitdate: 2023/5/3
+photo.74.link: https://www.instagram.com/ck.chie/
+photo.74.tags: mofumofu, portrait, sample, tail, whiskers
+photo.75: ig://Cw32POVv7A_/m
 photo.75.author: tamazoowalking
+photo.75.commitdate: 2023/9/21
 photo.75.link: https://www.instagram.com/tamazoowalking/
-photo.75.tags: autumn, close-up, paws, portrait, sample, tongue, whiskers
+photo.75.tags: hammock, mofumofu, paws, portrait, sample
 species: 2
 studbook.id: 1091
 zoo: 17

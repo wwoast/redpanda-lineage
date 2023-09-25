@@ -325,60 +325,61 @@ photo.62.author: tomo3700
 photo.62.commitdate: 2022/12/20
 photo.62.link: https://www.instagram.com/tomo3700/
 photo.62.tags: dish, portrait, sample, tail, whiskers
-photo.63: ig://Cnh7BS7BOwx/m
+photo.63: ig://CmhlZxGhU7B/m
 photo.63.author: hamamatsu.chiita
-photo.63.commitdate: 2023/3/9
+photo.63.commitdate: 2023/9/25
 photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: portrait, sample, tail
-photo.64: ig://Coo8AE4vqVC/m
-photo.64.author: jas_forever_love
-photo.64.commitdate: 2023/2/24
-photo.64.link: https://www.instagram.com/jas_forever_love/
-photo.64.tags: ear, sample, whiskers
-photo.65: ig://CopYN3Zvrew/m
-photo.65.author: fetorus_mami
+photo.63.tags: close-up, ear, portrait, sample, whiskers
+photo.64: ig://Cnh7BS7BOwx/m
+photo.64.author: hamamatsu.chiita
+photo.64.commitdate: 2023/3/9
+photo.64.link: https://www.instagram.com/hamamatsu.chiita/
+photo.64.tags: portrait, sample, tail
+photo.65: ig://Coo8AE4vqVC/m
+photo.65.author: jas_forever_love
 photo.65.commitdate: 2023/2/24
-photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: bamboo, laying down, paws, sample, tail
-photo.66: ig://CopZTdMPJqX/m
+photo.65.link: https://www.instagram.com/jas_forever_love/
+photo.65.tags: ear, sample, whiskers
+photo.66: ig://CopYN3Zvrew/m
 photo.66.author: fetorus_mami
 photo.66.commitdate: 2023/2/24
 photo.66.link: https://www.instagram.com/fetorus_mami/
-photo.66.tags: bamboo, dish, paws, standing
-photo.67: ig://Copa6L7PRqH/m
+photo.66.tags: bamboo, laying down, paws, sample, tail
+photo.67: ig://CopZTdMPJqX/m
 photo.67.author: fetorus_mami
-photo.67.commitdate: 2023/4/9
+photo.67.commitdate: 2023/2/24
 photo.67.link: https://www.instagram.com/fetorus_mami/
-photo.67.tags: door, paws
-photo.68: ig://CopbkcqvyT4/m
-photo.68.author: sakikukeco
-photo.68.commitdate: 2023/2/24
-photo.68.link: https://www.instagram.com/sakikukeco/
-photo.68.tags: paws, portrait, sample, whiskers
-photo.69: ig://CopcEiOP9-h/m
-photo.69.author: makimaru18
+photo.67.tags: bamboo, dish, paws, standing
+photo.68: ig://Copa6L7PRqH/m
+photo.68.author: fetorus_mami
+photo.68.commitdate: 2023/4/9
+photo.68.link: https://www.instagram.com/fetorus_mami/
+photo.68.tags: door, paws
+photo.69: ig://CopbkcqvyT4/m
+photo.69.author: sakikukeco
 photo.69.commitdate: 2023/2/24
-photo.69.link: https://www.instagram.com/makimaru18/
-photo.69.tags: portrait, sample, whiskers
-photo.70: ig://CoqOd44BkOt/m
-photo.70.author: yossi929
+photo.69.link: https://www.instagram.com/sakikukeco/
+photo.69.tags: paws, portrait, sample, whiskers
+photo.70: ig://CopcEiOP9-h/m
+photo.70.author: makimaru18
 photo.70.commitdate: 2023/2/24
-photo.70.link: https://www.instagram.com/yossi929/
-photo.70.tags: close-up, sample, whiskers
-photo.71: ig://CotuTmRPUXI/m
-photo.71.author: kisshan324
-photo.71.commitdate: 2023/8/27
-photo.71.link: https://www.instagram.com/kisshan324/
-photo.71.tags: bear worm, laying down, portrait, sample
-photo.72: ig://Cqwx931v3MF/m
-photo.72.author: fetorus_mami
-photo.72.commitdate: 2023/7/14
-photo.72.link: https://www.instagram.com/fetorus_mami/
-photo.72.tags: bamboo, mofumofu, paws, sample, tongue, wink
-photo.73: https://www.instagram.com/p/CmhlZxGhU7B/media/?size=m
-photo.73.author: hamamatsu.chiita
-photo.73.link: https://www.instagram.com/hamamatsu.chiita/
-photo.73.tags: close-up, ear, portrait, sample, whiskers
+photo.70.link: https://www.instagram.com/makimaru18/
+photo.70.tags: portrait, sample, whiskers
+photo.71: ig://CoqOd44BkOt/m
+photo.71.author: yossi929
+photo.71.commitdate: 2023/2/24
+photo.71.link: https://www.instagram.com/yossi929/
+photo.71.tags: close-up, sample, whiskers
+photo.72: ig://CotuTmRPUXI/m
+photo.72.author: kisshan324
+photo.72.commitdate: 2023/8/27
+photo.72.link: https://www.instagram.com/kisshan324/
+photo.72.tags: bear worm, laying down, portrait, sample
+photo.73: ig://Cqwx931v3MF/m
+photo.73.author: fetorus_mami
+photo.73.commitdate: 2023/7/14
+photo.73.link: https://www.instagram.com/fetorus_mami/
+photo.73.tags: bamboo, mofumofu, paws, sample, tongue, wink
 species: 2
 studbook.id: 13165
 zoo: 61

@@ -338,15 +338,16 @@ photo.65.author: fetorus_mami
 photo.65.commitdate: 2023/2/4
 photo.65.link: https://www.instagram.com/fetorus_mami/
 photo.65.tags: apple time, close-up, sample, techitechi, whiskers
-photo.66: ig://CvBYahdP5Gf/m
-photo.66.author: panda.daisuki
-photo.66.commitdate: 2023/7/31
-photo.66.link: https://www.instagram.com/panda.daisuki/
-photo.66.tags: laying down, paws, portrait, whiskers
-photo.67: https://www.instagram.com/p/CmiV6s0Pl5L/media/?size=m
-photo.67.author: hamiiiii831_
-photo.67.link: https://www.instagram.com/hamiiiii831_/
-photo.67.tags: apple time, paws, sample, whiskers
+photo.66: ig://CmiV6s0Pl5L/m
+photo.66.author: hamiiiii831_
+photo.66.commitdate: 2023/9/25
+photo.66.link: https://www.instagram.com/hamiiiii831_/
+photo.66.tags: apple time, paws, sample, whiskers
+photo.67: ig://CvBYahdP5Gf/m
+photo.67.author: panda.daisuki
+photo.67.commitdate: 2023/7/31
+photo.67.link: https://www.instagram.com/panda.daisuki/
+photo.67.tags: laying down, paws, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53
