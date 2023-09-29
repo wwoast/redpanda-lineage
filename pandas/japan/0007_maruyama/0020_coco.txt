@@ -1674,43 +1674,46 @@ photo.337.author: komabazoophoto
 photo.337.commitdate: 2023/1/14
 photo.337.link: https://www.instagram.com/komabazoophoto/
 photo.337.tags: portrait, sample, whiskers
-photo.338: ig://CmSS54rhhDd/m
-photo.338.author: hamamatsu.chiita
-photo.338.commitdate: 2023/1/20
-photo.338.link: https://www.instagram.com/hamamatsu.chiita/
-photo.338.tags: door, home, portrait
-photo.339: ig://CnbqUVmPkLA/m
-photo.339.author: komabazoophoto
-photo.339.commitdate: 2023/3/9
-photo.339.link: https://www.instagram.com/komabazoophoto/
-photo.339.tags: close-up, portrait, sample, snow, tongue
-photo.340: ig://Cot2QQePPtX/m
-photo.340.author: mari_neko3
-photo.340.commitdate: 2023/2/24
-photo.340.link: https://www.instagram.com/mari_neko3/
-photo.340.tags: laying down, portrait, sample, snow
-photo.341: ig://CqM4cXYPVu4/m
-photo.341.author: minatomirai215
-photo.341.commitdate: 2023/6/18
-photo.341.link: https://www.instagram.com/minatomirai215/
-photo.341.tags: home, portrait, sample, snow
-photo.342: ig://CqhGhdWpSbN/m
+photo.338: ig://CmL6wLFPsdi/m
+photo.338.author: komabazoophoto
+photo.338.commitdate: 2023/9/28
+photo.338.link: https://www.instagram.com/komabazoophoto/
+photo.338.tags: autumn, peek, portrait, sample
+photo.339: ig://CmNDtpGhPsL/m
+photo.339.author: hamamatsu.chiita
+photo.339.commitdate: 2023/9/28
+photo.339.link: https://www.instagram.com/hamamatsu.chiita/
+photo.339.tags: close-up, home, paws, portrait, sample, whiskers
+photo.340: ig://CmOdxwIv2SD/m
+photo.340.author: komabazoophoto
+photo.340.commitdate: 2023/9/28
+photo.340.link: https://www.instagram.com/komabazoophoto/
+photo.340.tags: portrait, sample, tongue, whiskers
+photo.341: ig://CmSS54rhhDd/m
+photo.341.author: hamamatsu.chiita
+photo.341.commitdate: 2023/1/20
+photo.341.link: https://www.instagram.com/hamamatsu.chiita/
+photo.341.tags: door, home, portrait
+photo.342: ig://CnbqUVmPkLA/m
 photo.342.author: komabazoophoto
-photo.342.commitdate: 2023/6/9
+photo.342.commitdate: 2023/3/9
 photo.342.link: https://www.instagram.com/komabazoophoto/
-photo.342.tags: portrait, sample, snow
-photo.343: https://www.instagram.com/p/CmNDtpGhPsL/media/?size=m
-photo.343.author: hamamatsu.chiita
-photo.343.link: https://www.instagram.com/hamamatsu.chiita/
-photo.343.tags: close-up, home, paws, portrait, sample, whiskers
-photo.344: https://www.instagram.com/p/CmL6wLFPsdi/media/?size=m
-photo.344.author: komabazoophoto
-photo.344.link: https://www.instagram.com/komabazoophoto/
-photo.344.tags: autumn, peek, portrait, sample
-photo.345: https://www.instagram.com/p/CmOdxwIv2SD/media/?size=m
+photo.342.tags: close-up, portrait, sample, snow, tongue
+photo.343: ig://Cot2QQePPtX/m
+photo.343.author: mari_neko3
+photo.343.commitdate: 2023/2/24
+photo.343.link: https://www.instagram.com/mari_neko3/
+photo.343.tags: laying down, portrait, sample, snow
+photo.344: ig://CqM4cXYPVu4/m
+photo.344.author: minatomirai215
+photo.344.commitdate: 2023/6/18
+photo.344.link: https://www.instagram.com/minatomirai215/
+photo.344.tags: home, portrait, sample, snow
+photo.345: ig://CqhGhdWpSbN/m
 photo.345.author: komabazoophoto
+photo.345.commitdate: 2023/6/9
 photo.345.link: https://www.instagram.com/komabazoophoto/
-photo.345.tags: portrait, sample, tongue, whiskers
+photo.345.tags: portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7

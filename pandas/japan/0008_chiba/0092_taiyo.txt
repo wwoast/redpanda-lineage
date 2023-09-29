@@ -539,25 +539,26 @@ photo.105.author: panda.daisuki
 photo.105.commitdate: 2023/3/11
 photo.105.link: https://www.instagram.com/panda.daisuki/
 photo.105.tags: apple time, paws, peek, sample
-photo.106: ig://CnkqJ87BAYJ/m
-photo.106.author: alto0908
-photo.106.commitdate: 2023/3/9
-photo.106.link: https://www.instagram.com/alto0908/
-photo.106.tags: apple time, sample, standing, techitechi, tongue
-photo.107: ig://CoHiMyGvnh3/m
-photo.107.author: kiarino51
-photo.107.commitdate: 2023/2/24
-photo.107.link: https://www.instagram.com/kiarino51/
-photo.107.tags: laying down, portrait, sample, white face
-photo.108: ig://CorYZeSvrpO/m
-photo.108.author: hamiiiii831_
-photo.108.commitdate: 2023/8/27
-photo.108.link: https://www.instagram.com/hamiiiii831_/
-photo.108.tags: peek, sample, whiskers
-photo.109: https://www.instagram.com/p/CmSP-IaB7iA/media/?size=m
-photo.109.author: panda.daisuki
-photo.109.link: https://www.instagram.com/panda.daisuki/
-photo.109.tags: lips, portrait, sample, whiskers 
+photo.106: ig://CmSP-IaB7iA/m
+photo.106.author: panda.daisuki
+photo.106.commitdate: 2023/9/28
+photo.106.link: https://www.instagram.com/panda.daisuki/
+photo.106.tags: lips, portrait, sample, whiskers
+photo.107: ig://CnkqJ87BAYJ/m
+photo.107.author: alto0908
+photo.107.commitdate: 2023/3/9
+photo.107.link: https://www.instagram.com/alto0908/
+photo.107.tags: apple time, sample, standing, techitechi, tongue
+photo.108: ig://CoHiMyGvnh3/m
+photo.108.author: kiarino51
+photo.108.commitdate: 2023/2/24
+photo.108.link: https://www.instagram.com/kiarino51/
+photo.108.tags: laying down, portrait, sample, white face
+photo.109: ig://CorYZeSvrpO/m
+photo.109.author: hamiiiii831_
+photo.109.commitdate: 2023/8/27
+photo.109.link: https://www.instagram.com/hamiiiii831_/
+photo.109.tags: peek, sample, whiskers
 species: 2
 studbook.id: 13150
 zoo: 8
