@@ -443,30 +443,31 @@ photo.86.author: ssc6105
 photo.86.commitdate: 2023/3/11
 photo.86.link: https://www.instagram.com/ssc6105/
 photo.86.tags: peek, sample, tree, whiskers
-photo.87: ig://CmU2n9tBb6y/m
+photo.87: ig://CmSV1AxB0ls/m
 photo.87.author: alto0908
-photo.87.commitdate: 2023/1/14
+photo.87.commitdate: 2023/9/30
 photo.87.link: https://www.instagram.com/alto0908/
-photo.87.tags: apple time, sample, tehcitechi, whiskers
-photo.88: ig://CmWG-mrpC0m/m
-photo.88.author: noichizoo.1
+photo.87.tags: close-up, mofumofu, sample, whiskers
+photo.88: ig://CmU2n9tBb6y/m
+photo.88.author: alto0908
 photo.88.commitdate: 2023/1/14
-photo.88.link: https://www.instagram.com/noichizoo.1/
-photo.88.tags: bamboo, smile, tongue, whiskers
-photo.89: ig://CmXbVDfB6wN/m
-photo.89.author: alto0908
-photo.89.commitdate: 2023/1/6
-photo.89.link: https://www.instagram.com/alto0908/
-photo.89.tags: sample, whiskers
-photo.90: ig://CmYGCdcPy0l/m
-photo.90.author: hidehaya_biei
+photo.88.link: https://www.instagram.com/alto0908/
+photo.88.tags: apple time, sample, tehcitechi, whiskers
+photo.89: ig://CmWG-mrpC0m/m
+photo.89.author: noichizoo.1
+photo.89.commitdate: 2023/1/14
+photo.89.link: https://www.instagram.com/noichizoo.1/
+photo.89.tags: bamboo, smile, tongue, whiskers
+photo.90: ig://CmXbVDfB6wN/m
+photo.90.author: alto0908
 photo.90.commitdate: 2023/1/6
-photo.90.link: https://www.instagram.com/hidehaya_biei/
-photo.90.tags: sample, smile, whiskers
-photo.91: https://www.instagram.com/p/CmSV1AxB0ls/media/?size=m
-photo.91.author: alto0908
-photo.91.link: https://www.instagram.com/alto0908/
-photo.91.tags: close-up, mofumofu, sample, whiskers
+photo.90.link: https://www.instagram.com/alto0908/
+photo.90.tags: sample, whiskers
+photo.91: ig://CmYGCdcPy0l/m
+photo.91.author: hidehaya_biei
+photo.91.commitdate: 2023/1/6
+photo.91.link: https://www.instagram.com/hidehaya_biei/
+photo.91.tags: sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 60

@@ -1915,60 +1915,61 @@ photo.382.author: hamamatsu.chiita
 photo.382.commitdate: 2023/3/11
 photo.382.link: https://www.instagram.com/hamamatsu.chiita/
 photo.382.tags: portrait, sample, snow
-photo.383: ig://CmTp5edPsEf/m
+photo.383: ig://CmQ7ouxvSgr/m
 photo.383.author: hamamatsu.chiita
-photo.383.commitdate: 2023/1/20
+photo.383.commitdate: 2023/9/30
 photo.383.link: https://www.instagram.com/hamamatsu.chiita/
-photo.383.tags: dish, portrait, snow
-photo.384: ig://CmZx8iNh6vd/m
+photo.383.tags: paws, portrait, sample, snow, tail, whiskers
+photo.384: ig://CmTp5edPsEf/m
 photo.384.author: hamamatsu.chiita
-photo.384.commitdate: 2023/1/11
+photo.384.commitdate: 2023/1/20
 photo.384.link: https://www.instagram.com/hamamatsu.chiita/
-photo.384.tags: close-up, portrait, sample, whiskers
-photo.385: ig://CnJsTeAP5XN/m
-photo.385.author: gloryeui
-photo.385.commitdate: 2023/8/22
-photo.385.link: https://www.instagram.com/gloryeui/
-photo.385.tags: dish, lunch time, paws, portrait, sample, snow, tail, tongue
-photo.386: ig://CnJzlffvraz/m
-photo.386.author: leonard_redmof
+photo.384.tags: dish, portrait, snow
+photo.385: ig://CmZx8iNh6vd/m
+photo.385.author: hamamatsu.chiita
+photo.385.commitdate: 2023/1/11
+photo.385.link: https://www.instagram.com/hamamatsu.chiita/
+photo.385.tags: close-up, portrait, sample, whiskers
+photo.386: ig://CnJsTeAP5XN/m
+photo.386.author: gloryeui
 photo.386.commitdate: 2023/8/22
-photo.386.link: https://www.instagram.com/leonard_redmof/
-photo.386.tags: bridge, paws, portrait, sample, whiskers
-photo.387: ig://CnkfpHJBV43/m
-photo.387.author: hamamatsu.chiita
-photo.387.commitdate: 2023/3/6
-photo.387.link: https://www.instagram.com/hamamatsu.chiita/
-photo.387.tags: close-up, nose, portrait, sample, whiskers
-photo.388: ig://Cnrdr7-P5My/m
-photo.388.author: gloryeui
-photo.388.commitdate: 2023/3/9
-photo.388.link: https://www.instagram.com/gloryeui/
-photo.388.tags: peek, playing, snow, tail
-photo.389: ig://CntV7LJL3Qo/m
-photo.389.author: leonard_redmof
-photo.389.commitdate: 2023/2/25
-photo.389.link: https://www.instagram.com/leonard_redmof/
-photo.389.tags: nose, portrait, sample, snow
-photo.390: ig://Cnwbfi_Py9J/m
-photo.390.author: nishicotolo
-photo.390.commitdate: 2023/8/22
-photo.390.link: https://www.instagram.com/nishicotolo/
-photo.390.tags: door, paws, sample, snow, whiskers
-photo.391: ig://CohZZZTvSs6/m
-photo.391.author: leonard_redmof
-photo.391.commitdate: 2023/4/9
-photo.391.link: https://www.instagram.com/leonard_redmof/
-photo.391.tags: blink, dish, lunch time, paws, portrait, sample, snow, tongue, whiskers
-photo.392: ig://Cu_R_nCPYuK/m
-photo.392.author: mari_neko3
-photo.392.commitdate: 2023/7/31
-photo.392.link: https://www.instagram.com/mari_neko3/
-photo.392.tags: bridge, portrait, sample, smile, tongue
-photo.393: https://www.instagram.com/p/CmQ7ouxvSgr/media/?size=m
-photo.393.author: hamamatsu.chiita
-photo.393.link: https://www.instagram.com/hamamatsu.chiita/
-photo.393.tags: paws, portrait, sample, snow, tail, whiskers
+photo.386.link: https://www.instagram.com/gloryeui/
+photo.386.tags: dish, lunch time, paws, portrait, sample, snow, tail, tongue
+photo.387: ig://CnJzlffvraz/m
+photo.387.author: leonard_redmof
+photo.387.commitdate: 2023/8/22
+photo.387.link: https://www.instagram.com/leonard_redmof/
+photo.387.tags: bridge, paws, portrait, sample, whiskers
+photo.388: ig://CnkfpHJBV43/m
+photo.388.author: hamamatsu.chiita
+photo.388.commitdate: 2023/3/6
+photo.388.link: https://www.instagram.com/hamamatsu.chiita/
+photo.388.tags: close-up, nose, portrait, sample, whiskers
+photo.389: ig://Cnrdr7-P5My/m
+photo.389.author: gloryeui
+photo.389.commitdate: 2023/3/9
+photo.389.link: https://www.instagram.com/gloryeui/
+photo.389.tags: peek, playing, snow, tail
+photo.390: ig://CntV7LJL3Qo/m
+photo.390.author: leonard_redmof
+photo.390.commitdate: 2023/2/25
+photo.390.link: https://www.instagram.com/leonard_redmof/
+photo.390.tags: nose, portrait, sample, snow
+photo.391: ig://Cnwbfi_Py9J/m
+photo.391.author: nishicotolo
+photo.391.commitdate: 2023/8/22
+photo.391.link: https://www.instagram.com/nishicotolo/
+photo.391.tags: door, paws, sample, snow, whiskers
+photo.392: ig://CohZZZTvSs6/m
+photo.392.author: leonard_redmof
+photo.392.commitdate: 2023/4/9
+photo.392.link: https://www.instagram.com/leonard_redmof/
+photo.392.tags: blink, dish, lunch time, paws, portrait, sample, snow, tongue, whiskers
+photo.393: ig://Cu_R_nCPYuK/m
+photo.393.author: mari_neko3
+photo.393.commitdate: 2023/7/31
+photo.393.link: https://www.instagram.com/mari_neko3/
+photo.393.tags: bridge, portrait, sample, smile, tongue
 species: 2
 studbook.id: 10108
 zoo: 7
