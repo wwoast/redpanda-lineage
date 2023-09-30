@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 994
+location.1: 40, 2019/6/29
+location.2: 3, 2023/6/13
 photo.1: ig://B39FedbhqYn/m
 photo.1.author: kmasahon
 photo.1.commitdate: 2019/10/23
@@ -138,5 +140,9 @@ photo.25.author: hamiiiii831_
 photo.25.commitdate: 2022/12/11
 photo.25.link: https://www.instagram.com/hamiiiii831_/
 photo.25.tags: sample, smile, whiskers
+photo.26: https://www.instagram.com/p/CkWvLvLhkKR/media/?size=m
+photo.26.author: miis_98
+photo.26.link: https://www.instagram.com/miis_98/
+photo.26.tags: portrait, sample, smile, whiskers
 species: 2
-zoo: 40
+zoo: 3
