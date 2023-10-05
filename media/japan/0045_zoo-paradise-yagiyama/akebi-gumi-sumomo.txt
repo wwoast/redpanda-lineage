@@ -50,8 +50,9 @@ photo.6.tags: bridge, home, mother's day, paws, portrait, siblings, sisters, twi
 photo.6.tags.162.location: 200, 250
 photo.6.tags.1195.location: 480, 145
 photo.6.tags.1196.location: 330, 165
-photo.7: https://www.instagram.com/p/CqtnkqVB_K3/media/?size=l
+photo.7: ig://CqtnkqVB_K3/l
 photo.7.author: alto0908
+photo.7.commitdate: 2023/10/4
 photo.7.link: https://www.instagram.com/alto0908/
 photo.7.tags: bamboo, bridge, family, sample, siblings, twins
 photo.7.tags.162.location: 85, 65

@@ -157,15 +157,16 @@ photo.29.author: grskus_tk
 photo.29.commitdate: 2023/3/17
 photo.29.link: https://www.instagram.com/grskus_tk/
 photo.29.tags: peek, portrait, sample, whiskers
-photo.30: ig://Cuj17kcP7qy/m
-photo.30.author: yuredpanda
-photo.30.commitdate: 2023/8/11
-photo.30.link: https://www.instagram.com/yuredpanda/
-photo.30.tags: portrait, sample, whiskers
-photo.31: https://www.instagram.com/p/CqCdXvYv7An/media/?size=m
-photo.31.author: pantasanzoo1
-photo.31.link: https://www.instagram.com/pantasanzoo1/
-photo.31.tags: mofumofu, paws, sample, whiskers
+photo.30: ig://CqCdXvYv7An/m
+photo.30.author: pantasanzoo1
+photo.30.commitdate: 2023/10/4
+photo.30.link: https://www.instagram.com/pantasanzoo1/
+photo.30.tags: mofumofu, paws, sample, whiskers
+photo.31: ig://Cuj17kcP7qy/m
+photo.31.author: yuredpanda
+photo.31.commitdate: 2023/8/11
+photo.31.link: https://www.instagram.com/yuredpanda/
+photo.31.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 1781
 zoo: 64

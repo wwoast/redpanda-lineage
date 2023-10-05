@@ -87,15 +87,16 @@ photo.15.author: re_ichimaru
 photo.15.commitdate: 2023/3/6
 photo.15.link: https://www.instagram.com/re_ichimaru/
 photo.15.tags: climb, paws, peek, portrait, sample, white face
-photo.16: ig://CuCVxypvRsQ/m
+photo.16: ig://CqslcB6vmdV/m
 photo.16.author: kojikoji2011
-photo.16.commitdate: 2023/8/11
+photo.16.commitdate: 2023/10/4
 photo.16.link: https://www.instagram.com/kojikoji2011/
-photo.16.tags: laying down, portrait, sample, sleeping, tail
-photo.17: https://www.instagram.com/p/CqslcB6vmdV/media/?size=m
+photo.16.tags: laying down, paws, portrait, sample, white face
+photo.17: ig://CuCVxypvRsQ/m
 photo.17.author: kojikoji2011
+photo.17.commitdate: 2023/8/11
 photo.17.link: https://www.instagram.com/kojikoji2011/
-photo.17.tags: laying down, paws, portrait, sample, white face
+photo.17.tags: laying down, portrait, sample, sleeping, tail
 species: 2
 studbook.id: 1197
 zoo: 42

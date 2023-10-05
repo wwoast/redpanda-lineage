@@ -446,45 +446,46 @@ photo.87.author: mari_neko3
 photo.87.commitdate: 2023/4/8
 photo.87.link: https://www.instagram.com/mari_neko3/
 photo.87.tags: bamboo, close-up, mofumofu, portrait
-photo.88: ig://CqNgA1_vBcC/m
-photo.88.author: leonard_redmof
-photo.88.commitdate: 2023/6/20
-photo.88.link: https://www.instagram.com/leonard_redmof/
-photo.88.tags: home, portrait, tail
-photo.89: ig://CqNgrPZPz5-/m
+photo.88: ig://CqDm6DtvWh1/m
+photo.88.author: minatomirai215
+photo.88.commitdate: 2023/10/4
+photo.88.link: https://www.instagram.com/minatomirai215/
+photo.88.tags: close-up, peek, portrait, sample, whiskers
+photo.89: ig://CqNgA1_vBcC/m
 photo.89.author: leonard_redmof
-photo.89.commitdate: 2023/4/22
+photo.89.commitdate: 2023/6/20
 photo.89.link: https://www.instagram.com/leonard_redmof/
-photo.89.tags: paws, portrait, sample
-photo.90: ig://CqboAW1B3Ga/m
-photo.90.author: miis_98
-photo.90.commitdate: 2023/4/21
-photo.90.link: https://www.instagram.com/miis_98/
-photo.90.tags: apple time, bite, paws, sample, standing, whiskers
-photo.91: ig://CrVkVJevZmH/m
-photo.91.author: nishicotolo
-photo.91.commitdate: 2023/8/11
-photo.91.link: https://www.instagram.com/nishicotolo/
-photo.91.tags: whiskers
-photo.92: ig://CrVrFzqPiwd/m
-photo.92.author: leonard_redmof
+photo.89.tags: home, portrait, tail
+photo.90: ig://CqNgrPZPz5-/m
+photo.90.author: leonard_redmof
+photo.90.commitdate: 2023/4/22
+photo.90.link: https://www.instagram.com/leonard_redmof/
+photo.90.tags: paws, portrait, sample
+photo.91: ig://CqboAW1B3Ga/m
+photo.91.author: miis_98
+photo.91.commitdate: 2023/4/21
+photo.91.link: https://www.instagram.com/miis_98/
+photo.91.tags: apple time, bite, paws, sample, standing, whiskers
+photo.92: ig://CrVkVJevZmH/m
+photo.92.author: nishicotolo
 photo.92.commitdate: 2023/8/11
-photo.92.link: https://www.instagram.com/leonard_redmof/
-photo.92.tags: laying down, mofumofu, sample
-photo.93: ig://Cr5t5ewP4Fq/m
-photo.93.author: mari_neko3
-photo.93.commitdate: 2023/6/30
-photo.93.link: https://www.instagram.com/mari_neko3/
-photo.93.tags: close-up, portrait, sample, whiskers
-photo.94: ig://Cw4dAcsrQ1B/m
+photo.92.link: https://www.instagram.com/nishicotolo/
+photo.92.tags: whiskers
+photo.93: ig://CrVrFzqPiwd/m
+photo.93.author: leonard_redmof
+photo.93.commitdate: 2023/8/11
+photo.93.link: https://www.instagram.com/leonard_redmof/
+photo.93.tags: laying down, mofumofu, sample
+photo.94: ig://Cr5t5ewP4Fq/m
 photo.94.author: mari_neko3
-photo.94.commitdate: 2023/9/24
+photo.94.commitdate: 2023/6/30
 photo.94.link: https://www.instagram.com/mari_neko3/
-photo.94.tags: peek, portrait, sample
-photo.95: https://www.instagram.com/p/CqDm6DtvWh1/media/?size=m
-photo.95.author: minatomirai215
-photo.95.link: https://www.instagram.com/minatomirai215/
-photo.95.tags: close-up, peek, portrait, sample, whiskers
+photo.94.tags: close-up, portrait, sample, whiskers
+photo.95: ig://Cw4dAcsrQ1B/m
+photo.95.author: mari_neko3
+photo.95.commitdate: 2023/9/24
+photo.95.link: https://www.instagram.com/mari_neko3/
+photo.95.tags: peek, portrait, sample
 species: 2
 studbook.id: 1694
 zoo: 7

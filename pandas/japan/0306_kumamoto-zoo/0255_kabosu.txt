@@ -272,20 +272,21 @@ photo.51.author: yuredpanda
 photo.51.commitdate: 2023/5/29
 photo.51.link: https://www.instagram.com/yuredpanda/
 photo.51.tags: peek, portrait, sample, whiskers
-photo.52: ig://Ct5-wM9RPID/m
-photo.52.author: kumamoto_doushokubutsuen
-photo.52.commitdate: 2023/6/25
-photo.52.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.52.tags: apple time, bamboo, sample, tongue
-photo.53: ig://CuBxuYZv9wH/m
-photo.53.author: yuredpanda
-photo.53.commitdate: 2023/8/11
-photo.53.link: https://www.instagram.com/yuredpanda/
-photo.53.tags: portrait, sample, whiskers
-photo.54: https://www.instagram.com/p/CqDDOVlPeE-/media/?size=m
-photo.54.author: daniele.tokyo
-photo.54.link: https://www.instagram.com/daniele.tokyo/
-photo.54.tags: close-up, paws, sample, whiskers
+photo.52: ig://CqDDOVlPeE-/m
+photo.52.author: daniele.tokyo
+photo.52.commitdate: 2023/10/4
+photo.52.link: https://www.instagram.com/daniele.tokyo/
+photo.52.tags: close-up, paws, sample, whiskers
+photo.53: ig://Ct5-wM9RPID/m
+photo.53.author: kumamoto_doushokubutsuen
+photo.53.commitdate: 2023/6/25
+photo.53.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.53.tags: apple time, bamboo, sample, tongue
+photo.54: ig://CuBxuYZv9wH/m
+photo.54.author: yuredpanda
+photo.54.commitdate: 2023/8/11
+photo.54.link: https://www.instagram.com/yuredpanda/
+photo.54.tags: portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 306

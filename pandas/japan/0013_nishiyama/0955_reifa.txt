@@ -598,19 +598,20 @@ photo.117.author: gloryeui
 photo.117.commitdate: 2023/1/11
 photo.117.link: https://www.instagram.com/gloryeui/
 photo.117.tags: peek, portrait, sample, tree
-photo.118: ig://CqEvBMgveEK/m
-photo.118.author: joy93.87
-photo.118.commitdate: 2023/4/21
-photo.118.link: https://www.instagram.com/joy93.87/
-photo.118.tags: portrait, sample, tree
-photo.119: ig://CrW44RBhDDM/m
-photo.119.author: minato.yokohama4416
-photo.119.commitdate: 2023/5/4
-photo.119.link: https://www.instagram.com/minato.yokohama4416/
-photo.119.tags: portrait, sample, whiskers, white face
-photo.120: https://www.instagram.com/p/Cp8r2i7hD0e/media/?size=m
+photo.118: ig://Cp8r2i7hD0e/m
+photo.118.author: minato.yokohama4416
+photo.118.commitdate: 2023/10/4
+photo.118.link: https://www.instagram.com/minato.yokohama4416/
+photo.118.tags: peek, sample, tree, whiskers, white face
+photo.119: ig://CqEvBMgveEK/m
+photo.119.author: joy93.87
+photo.119.commitdate: 2023/4/21
+photo.119.link: https://www.instagram.com/joy93.87/
+photo.119.tags: portrait, sample, tree
+photo.120: ig://CrW44RBhDDM/m
 photo.120.author: minato.yokohama4416
+photo.120.commitdate: 2023/5/4
 photo.120.link: https://www.instagram.com/minato.yokohama4416/
-photo.120.tags: peek, sample, tree, whiskers, white face
+photo.120.tags: portrait, sample, whiskers, white face
 species: 2
 zoo: 13

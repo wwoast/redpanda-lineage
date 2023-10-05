@@ -1,7 +1,10 @@
 [media]
 _id: media.254.freddie-remi
-photo.1: https://www.instagram.com/p/Co-LRXnvYuU/media/?size=l
+commitdate: 2023/10/4
+panda.tags: 1173, 1174
+photo.1: ig://Co-LRXnvYuU/l
 photo.1.author: wildlife.safari
+photo.1.commitdate: 2023/10/4
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: apple time, bridge, brothers, siblings, snow, twins
 photo.1.tags.1173.location: 285, 205

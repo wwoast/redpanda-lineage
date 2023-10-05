@@ -355,20 +355,21 @@ photo.69.author: ifumoto88
 photo.69.commitdate: 2023/3/17
 photo.69.link: https://www.instagram.com/ifumoto88/
 photo.69.tags: lips, portrait
-photo.70: ig://CuRi9QMvZPY/m
-photo.70.author: na.mo.pan
-photo.70.commitdate: 2023/8/11
-photo.70.link: https://www.instagram.com/na.mo.pan/
-photo.70.tags: paws, sample, tail, whiskers
-photo.71: ig://CwhRr8jvQ7b/m
-photo.71.author: eos1089
-photo.71.commitdate: 2023/9/15
-photo.71.link: https://www.instagram.com/eos1089/
-photo.71.tags: laying down, paws, portrait, sample, whiskers
-photo.72: https://www.instagram.com/p/CpU-BNTLCJL/media/?size=m
-photo.72.author: ifumoto88
-photo.72.link: https://www.instagram.com/ifumoto88/
-photo.72.tags: bridge, paws, sample
+photo.70: ig://CpU-BNTLCJL/m
+photo.70.author: ifumoto88
+photo.70.commitdate: 2023/10/4
+photo.70.link: https://www.instagram.com/ifumoto88/
+photo.70.tags: bridge, paws, sample
+photo.71: ig://CuRi9QMvZPY/m
+photo.71.author: na.mo.pan
+photo.71.commitdate: 2023/8/11
+photo.71.link: https://www.instagram.com/na.mo.pan/
+photo.71.tags: paws, sample, tail, whiskers
+photo.72: ig://CwhRr8jvQ7b/m
+photo.72.author: eos1089
+photo.72.commitdate: 2023/9/15
+photo.72.link: https://www.instagram.com/eos1089/
+photo.72.tags: laying down, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0980
 zoo: 1

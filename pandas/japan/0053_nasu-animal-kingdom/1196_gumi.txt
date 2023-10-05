@@ -265,42 +265,45 @@ photo.50.author: ssc6105
 photo.50.commitdate: 2023/2/26
 photo.50.link: https://www.instagram.com/ssc6105/
 photo.50.tags: peek, sample, tail, whiskers
-photo.51: ig://Cqr9V-HPA3t/m
-photo.51.author: ssc6105
-photo.51.commitdate: 2023/5/16
-photo.51.link: https://www.instagram.com/ssc6105/
-photo.51.tags: sample, whiskers
-photo.52: ig://CrDpwlcvAuL/m
-photo.52.author: alto0908
-photo.52.commitdate: 2023/5/13
-photo.52.link: https://www.instagram.com/alto0908/
-photo.52.tags: paws, portrait, smile, tongue, whiskers
-photo.53: ig://CrS-SWuvMZj/m
-photo.53.author: happy_love2.15
-photo.53.commitdate: 2023/5/4
-photo.53.link: https://www.instagram.com/happy_love2.15/
-photo.53.tags: bamboo, paws, portrait, sample
-photo.54: ig://CuDW3KIhHoH/m
+photo.51: ig://CqIj8bmvs9x/m
+photo.51.author: alto0908
+photo.51.commitdate: 2023/10/4
+photo.51.link: https://www.instagram.com/alto0908/
+photo.51.tags: autumn, bamboo, bridge, home, peek, tail
+photo.52: ig://Cqr9V-HPA3t/m
+photo.52.author: ssc6105
+photo.52.commitdate: 2023/5/16
+photo.52.link: https://www.instagram.com/ssc6105/
+photo.52.tags: sample, whiskers
+photo.53: ig://CquLs5XrWGo/m
+photo.53.author: hidehaya_biei
+photo.53.commitdate: 2023/10/4
+photo.53.link: https://www.instagram.com/hidehaya_biei/
+photo.53.tags: baby, whiskers
+photo.54: ig://Cq7euVNv4Ef/m
 photo.54.author: nasu_animal_kingdom
-photo.54.commitdate: 2023/8/11
+photo.54.commitdate: 2023/10/4
 photo.54.link: https://www.instagram.com/nasu_animal_kingdom/
-photo.54.tags: portrait, sample
-photo.55: ig://CwuIZxaPELe/m
-photo.55.author: sakikukeco
-photo.55.commitdate: 2023/9/12
-photo.55.link: https://www.instagram.com/sakikukeco/
-photo.55.tags: air tasting, portrait, sample, tongue, whiskers
-photo.56: https://www.instagram.com/p/Cq7euVNv4Ef/media/?size=m
-photo.56.author: nasu_animal_kingdom
-photo.56.link: https://www.instagram.com/nasu_animal_kingdom/
-photo.56.tags: bamboo, sample, tail, whiskers
-photo.57: https://www.instagram.com/p/CquLs5XrWGo/media/?size=m
-photo.57.author: hidehaya_biei
-photo.57.link: https://www.instagram.com/hidehaya_biei/
-photo.57.tags: baby, whiskers
-photo.58: https://www.instagram.com/p/CqIj8bmvs9x/media/?size=m
-photo.58.author: alto0908
-photo.58.link: https://www.instagram.com/alto0908/
-photo.58.tags: autumn, bamboo, bridge, home, peek, tail
+photo.54.tags: bamboo, sample, tail, whiskers
+photo.55: ig://CrDpwlcvAuL/m
+photo.55.author: alto0908
+photo.55.commitdate: 2023/5/13
+photo.55.link: https://www.instagram.com/alto0908/
+photo.55.tags: paws, portrait, smile, tongue, whiskers
+photo.56: ig://CrS-SWuvMZj/m
+photo.56.author: happy_love2.15
+photo.56.commitdate: 2023/5/4
+photo.56.link: https://www.instagram.com/happy_love2.15/
+photo.56.tags: bamboo, paws, portrait, sample
+photo.57: ig://CuDW3KIhHoH/m
+photo.57.author: nasu_animal_kingdom
+photo.57.commitdate: 2023/8/11
+photo.57.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.57.tags: portrait, sample
+photo.58: ig://CwuIZxaPELe/m
+photo.58.author: sakikukeco
+photo.58.commitdate: 2023/9/12
+photo.58.link: https://www.instagram.com/sakikukeco/
+photo.58.tags: air tasting, portrait, sample, tongue, whiskers
 species: 2
 zoo: 53
