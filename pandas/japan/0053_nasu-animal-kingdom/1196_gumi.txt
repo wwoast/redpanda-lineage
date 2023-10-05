@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1195
+location.1: 45, 2020/6/29
+location.2: 53, 2023/4/12
 photo.1: ig://CG1VJq2hIXM/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/11/1
@@ -288,5 +290,17 @@ photo.55.author: sakikukeco
 photo.55.commitdate: 2023/9/12
 photo.55.link: https://www.instagram.com/sakikukeco/
 photo.55.tags: air tasting, portrait, sample, tongue, whiskers
+photo.56: https://www.instagram.com/p/Cq7euVNv4Ef/media/?size=m
+photo.56.author: nasu_animal_kingdom
+photo.56.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.56.tags: bamboo, sample, tail, whiskers
+photo.57: https://www.instagram.com/p/CquLs5XrWGo/media/?size=m
+photo.57.author: hidehaya_biei
+photo.57.link: https://www.instagram.com/hidehaya_biei/
+photo.57.tags: baby, whiskers
+photo.58: https://www.instagram.com/p/CqIj8bmvs9x/media/?size=m
+photo.58.author: alto0908
+photo.58.link: https://www.instagram.com/alto0908/
+photo.58.tags: autumn, bamboo, bridge, home, peek, tail
 species: 2
-zoo: 45
+zoo: 53
