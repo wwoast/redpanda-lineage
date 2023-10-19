@@ -432,20 +432,21 @@ photo.86.author: shigeko0531
 photo.86.commitdate: 2022/10/11
 photo.86.link: https://www.instagram.com/shigeko0531/
 photo.86.tags: laying down, portrait, sample, whiskers
-photo.87: ig://CqROEwwh0mN/m
-photo.87.author: alto0908
-photo.87.commitdate: 2023/6/18
-photo.87.link: https://www.instagram.com/alto0908/
-photo.87.tags: close-up, mofumofu, sample, techitechi
-photo.88: ig://CqSf_uuP6Kq/m
-photo.88.author: daniele.tokyo
-photo.88.commitdate: 2023/4/21
-photo.88.link: https://www.instagram.com/daniele.tokyo/
-photo.88.tags: mofumofu, tail, whiskers
-photo.89: https://www.instagram.com/p/Cp62FZqPGDa/media/?size=m
-photo.89.author: _sah_ax7
-photo.89.link: https://www.instagram.com/_sah_ax7/
-photo.89.tags: laying down, mofumofu
+photo.87: ig://Cp62FZqPGDa/m
+photo.87.author: _sah_ax7
+photo.87.commitdate: 2023/10/18
+photo.87.link: https://www.instagram.com/_sah_ax7/
+photo.87.tags: laying down, mofumofu
+photo.88: ig://CqROEwwh0mN/m
+photo.88.author: alto0908
+photo.88.commitdate: 2023/6/18
+photo.88.link: https://www.instagram.com/alto0908/
+photo.88.tags: close-up, mofumofu, sample, techitechi
+photo.89: ig://CqSf_uuP6Kq/m
+photo.89.author: daniele.tokyo
+photo.89.commitdate: 2023/4/21
+photo.89.link: https://www.instagram.com/daniele.tokyo/
+photo.89.tags: mofumofu, tail, whiskers
 species: 2
 studbook.id: 15156
 zoo: 10

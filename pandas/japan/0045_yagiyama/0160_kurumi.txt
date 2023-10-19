@@ -219,20 +219,21 @@ photo.41.author: alto0908
 photo.41.commitdate: 2023/2/25
 photo.41.link: https://www.instagram.com/alto0908/
 photo.41.tags: portrait, sample, snow, whiskers
-photo.42: ig://CrJRgUFvwyR/m
-photo.42.author: minatomirai215
-photo.42.commitdate: 2023/4/22
-photo.42.link: https://www.instagram.com/minatomirai215/
-photo.42.tags: bamboo, bridge, cherry blossoms, peek, portrait
-photo.43: ig://CrTGksDPZc6/m
-photo.43.author: nakacchi_desu
-photo.43.commitdate: 2023/5/4
-photo.43.link: https://www.instagram.com/nakacchi_desu/
-photo.43.tags: paws, tongue, whiskers
-photo.44: https://www.instagram.com/p/Cp_MqO2hvJw/media/?size=m
-photo.44.author: alto0908
-photo.44.link: https://www.instagram.com/alto0908/
-photo.44.tags: home, mofumofu, portrait, sample, tail, techitechi, whiskers
+photo.42: ig://Cp_MqO2hvJw/m
+photo.42.author: alto0908
+photo.42.commitdate: 2023/10/18
+photo.42.link: https://www.instagram.com/alto0908/
+photo.42.tags: home, mofumofu, portrait, sample, tail, techitechi, whiskers
+photo.43: ig://CrJRgUFvwyR/m
+photo.43.author: minatomirai215
+photo.43.commitdate: 2023/4/22
+photo.43.link: https://www.instagram.com/minatomirai215/
+photo.43.tags: bamboo, bridge, cherry blossoms, peek, portrait
+photo.44: ig://CrTGksDPZc6/m
+photo.44.author: nakacchi_desu
+photo.44.commitdate: 2023/5/4
+photo.44.link: https://www.instagram.com/nakacchi_desu/
+photo.44.tags: paws, tongue, whiskers
 species: 2
 studbook.id: 11112
 video.1: https://youtu.be/ma8fX2kWx_k

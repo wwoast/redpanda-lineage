@@ -1173,8 +1173,9 @@ photo.233.author: makimaru18
 photo.233.commitdate: 2023/8/23
 photo.233.link: https://www.instagram.com/makimaru18/
 photo.233.tags: paws, portrait, sample, smile, whiskers
-photo.234: https://www.instagram.com/p/Cp98Mkzv_L2/media/?size=m
+photo.234: ig://Cp98Mkzv_L2/m
 photo.234.author: gloryeui
+photo.234.commitdate: 2023/10/18
 photo.234.link: https://www.instagram.com/gloryeui/
 photo.234.tags: peek, portrait, sample, tree
 species: 2

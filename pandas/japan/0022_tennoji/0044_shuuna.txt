@@ -558,20 +558,21 @@ photo.109.author: makimaru18
 photo.109.commitdate: 2023/5/29
 photo.109.link: https://www.instagram.com/makimaru18/
 photo.109.tags: mofumofu, portrait, sample, toys
-photo.110: ig://CrUMS-7BJSi/m
-photo.110.author: makimaru18
-photo.110.commitdate: 2023/8/10
-photo.110.link: https://www.instagram.com/makimaru18/
-photo.110.tags: paws, portrait, sample, smile
-photo.111: ig://Cwu_bhHPv8D/m
-photo.111.author: sakikukeco
-photo.111.commitdate: 2023/9/12
-photo.111.link: https://www.instagram.com/sakikukeco/
-photo.111.tags: mofumofu, portrait, sample, whiskers
-photo.112: https://www.instagram.com/p/Cp5WFmOvAE7/media/?size=m
-photo.112.author: hamiiiii831_
-photo.112.link: https://www.instagram.com/hamiiiii831_/
-photo.112.tags: paws, sample, standing, toys
+photo.110: ig://Cp5WFmOvAE7/m
+photo.110.author: hamiiiii831_
+photo.110.commitdate: 2023/10/18
+photo.110.link: https://www.instagram.com/hamiiiii831_/
+photo.110.tags: paws, sample, standing, toys
+photo.111: ig://CrUMS-7BJSi/m
+photo.111.author: makimaru18
+photo.111.commitdate: 2023/8/10
+photo.111.link: https://www.instagram.com/makimaru18/
+photo.111.tags: paws, portrait, sample, smile
+photo.112: ig://Cwu_bhHPv8D/m
+photo.112.author: sakikukeco
+photo.112.commitdate: 2023/9/12
+photo.112.link: https://www.instagram.com/sakikukeco/
+photo.112.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo

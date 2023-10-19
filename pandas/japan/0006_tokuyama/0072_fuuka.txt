@@ -366,34 +366,36 @@ photo.70.author: hamamatsu.chiita
 photo.70.commitdate: 2023/5/23
 photo.70.link: https://www.instagram.com/hamamatsu.chiita/
 photo.70.tags: close-up, portrait, sample, whiskers
-photo.71: ig://CrMN7XfBCnG/m
+photo.71: ig://CpyG2sHBteW/m
 photo.71.author: hamamatsu.chiita
-photo.71.commitdate: 2023/5/4
+photo.71.commitdate: 2023/10/18
 photo.71.link: https://www.instagram.com/hamamatsu.chiita/
-photo.71.tags: bite, lips, mofumofu, portrait, sample
-photo.72: ig://CrUIKzCBOW-/m
-photo.72.author: joy93.87
-photo.72.commitdate: 2023/8/11
-photo.72.link: https://www.instagram.com/joy93.87/
-photo.72.tags: bear worm, laying down, paws, sleeping
-photo.73: ig://CrVjGb3veMS/m
-photo.73.author: kotata_513
-photo.73.commitdate: 2023/8/11
-photo.73.link: https://www.instagram.com/kotata_513/
-photo.73.tags: apple time, bite, keeper, sample
-photo.74: ig://Cttvf2PPNgR/m
-photo.74.author: kojikoji2011
-photo.74.commitdate: 2023/8/8
-photo.74.link: https://www.instagram.com/kojikoji2011/
-photo.74.tags: close-up, paws, portrait, sample
-photo.75: https://www.instagram.com/p/CqEJYMyh9dz/media/?size=m
-photo.75.author: hamamatsu.chiita
-photo.75.link: https://www.instagram.com/hamamatsu.chiita/
-photo.75.tags: laying down, mofumofu, portrait, sample, sleeping
-photo.76: https://www.instagram.com/p/CpyG2sHBteW/media/?size=m
-photo.76.author: hamamatsu.chiita
-photo.76.link: https://www.instagram.com/hamamatsu.chiita/
-photo.76.tags: close-up, lips, portrait, sample, whiskers
+photo.71.tags: close-up, lips, portrait, sample, whiskers
+photo.72: ig://CqEJYMyh9dz/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2023/10/18
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: laying down, mofumofu, portrait, sample, sleeping
+photo.73: ig://CrMN7XfBCnG/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2023/5/4
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: bite, lips, mofumofu, portrait, sample
+photo.74: ig://CrUIKzCBOW-/m
+photo.74.author: joy93.87
+photo.74.commitdate: 2023/8/11
+photo.74.link: https://www.instagram.com/joy93.87/
+photo.74.tags: bear worm, laying down, paws, sleeping
+photo.75: ig://CrVjGb3veMS/m
+photo.75.author: kotata_513
+photo.75.commitdate: 2023/8/11
+photo.75.link: https://www.instagram.com/kotata_513/
+photo.75.tags: apple time, bite, keeper, sample
+photo.76: ig://Cttvf2PPNgR/m
+photo.76.author: kojikoji2011
+photo.76.commitdate: 2023/8/8
+photo.76.link: https://www.instagram.com/kojikoji2011/
+photo.76.tags: close-up, paws, portrait, sample
 species: 2
 studbook.id: 0663
 zoo: 6

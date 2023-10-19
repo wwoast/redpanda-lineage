@@ -93,30 +93,31 @@ photo.16.author: tomo3700
 photo.16.commitdate: 2023/8/23
 photo.16.link: https://www.instagram.com/tomo3700/
 photo.16.tags: baby, paws, portrait, sample, sign
-photo.17: ig://CqaSRZ7PgRs/m
-photo.17.author: kotata_513
-photo.17.commitdate: 2023/6/20
-photo.17.link: https://www.instagram.com/kotata_513/
-photo.17.tags: laying down, paws, portrait, sample, tree
-photo.18: ig://CrvgVRxPpY2/m
-photo.18.author: resapanlove
-photo.18.commitdate: 2023/5/3
-photo.18.link: https://www.instagram.com/resapanlove/
-photo.18.tags: laying down, portrait, sample, white face
-photo.19: ig://Cs2BYj8BQX4/m
-photo.19.author: tomo3700
-photo.19.commitdate: 2023/6/10
-photo.19.link: https://www.instagram.com/tomo3700/
-photo.19.tags: bamboo, portrait, sample, shoots
-photo.20: ig://Cw435sSPnwP/m
-photo.20.author: jas_forever_love
-photo.20.commitdate: 2023/9/24
-photo.20.link: https://www.instagram.com/jas_forever_love/
-photo.20.tags: paws, sample, whiskers
-photo.21: https://www.instagram.com/p/Cp-Af-Pvnh0/media/?size=m
-photo.21.author: daniele.tokyo
-photo.21.link: https://www.instagram.com/daniele.tokyo/
-photo.21.tags: baby, sample, tree, whiskers
+photo.17: ig://Cp-Af-Pvnh0/m
+photo.17.author: daniele.tokyo
+photo.17.commitdate: 2023/10/18
+photo.17.link: https://www.instagram.com/daniele.tokyo/
+photo.17.tags: baby, sample, tree, whiskers
+photo.18: ig://CqaSRZ7PgRs/m
+photo.18.author: kotata_513
+photo.18.commitdate: 2023/6/20
+photo.18.link: https://www.instagram.com/kotata_513/
+photo.18.tags: laying down, paws, portrait, sample, tree
+photo.19: ig://CrvgVRxPpY2/m
+photo.19.author: resapanlove
+photo.19.commitdate: 2023/5/3
+photo.19.link: https://www.instagram.com/resapanlove/
+photo.19.tags: laying down, portrait, sample, white face
+photo.20: ig://Cs2BYj8BQX4/m
+photo.20.author: tomo3700
+photo.20.commitdate: 2023/6/10
+photo.20.link: https://www.instagram.com/tomo3700/
+photo.20.tags: bamboo, portrait, sample, shoots
+photo.21: ig://Cw435sSPnwP/m
+photo.21.author: jas_forever_love
+photo.21.commitdate: 2023/9/24
+photo.21.link: https://www.instagram.com/jas_forever_love/
+photo.21.tags: paws, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13

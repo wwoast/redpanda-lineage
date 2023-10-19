@@ -418,15 +418,16 @@ photo.81.author: mini_cochi
 photo.81.commitdate: 2023/6/25
 photo.81.link: https://www.instagram.com/mini_cochi/
 photo.81.tags: apple time, bite, keeper, portrait
-photo.82: ig://Cq_oWayBUW8/m
-photo.82.author: leonard_redmof
-photo.82.commitdate: 2023/4/22
-photo.82.link: https://www.instagram.com/leonard_redmof/
-photo.82.tags: home, tail
-photo.83: https://www.instagram.com/p/CpxOsQAP7vq/media/?size=m
-photo.83.author: mini_cochi
-photo.83.link: https://www.instagram.com/mini_cochi/
-photo.83.tags: bridge, paws, portrait, sample
+photo.82: ig://CpxOsQAP7vq/m
+photo.82.author: mini_cochi
+photo.82.commitdate: 2023/10/18
+photo.82.link: https://www.instagram.com/mini_cochi/
+photo.82.tags: bridge, paws, portrait, sample
+photo.83: ig://Cq_oWayBUW8/m
+photo.83.author: leonard_redmof
+photo.83.commitdate: 2023/4/22
+photo.83.link: https://www.instagram.com/leonard_redmof/
+photo.83.tags: home, tail
 species: 2
 studbook.id: 0874
 zoo: 27

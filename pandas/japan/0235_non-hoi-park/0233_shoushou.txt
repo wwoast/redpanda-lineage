@@ -718,20 +718,21 @@ photo.141.author: leonard_redmof
 photo.141.commitdate: 2022/12/24
 photo.141.link: https://www.instagram.com/leonard_redmof/
 photo.141.tags: bamboo, portrait, toys
-photo.142: ig://CrLjGSoPVmA/m
-photo.142.author: ayusuke56
-photo.142.commitdate: 2023/6/30
-photo.142.link: https://www.instagram.com/ayusuke56/
-photo.142.tags: grooming, paws, portrait, tail, tree
-photo.143: ig://Crxm5TbvHaQ/m
-photo.143.author: hamamatsu.chiita
-photo.143.commitdate: 2023/5/3
-photo.143.link: https://www.instagram.com/hamamatsu.chiita/
-photo.143.tags: close-up, lips, portrait, sample, whiskers
-photo.144: https://www.instagram.com/p/CqDHP6ePln-/media/?size=m
-photo.144.author: kotata_513
-photo.144.link: https://www.instagram.com/kotata_513/
-photo.144.tags: close-up, laying down, portrait, sample, sleeping
+photo.142: ig://CqDHP6ePln-/m
+photo.142.author: kotata_513
+photo.142.commitdate: 2023/10/18
+photo.142.link: https://www.instagram.com/kotata_513/
+photo.142.tags: close-up, laying down, portrait, sample, sleeping
+photo.143: ig://CrLjGSoPVmA/m
+photo.143.author: ayusuke56
+photo.143.commitdate: 2023/6/30
+photo.143.link: https://www.instagram.com/ayusuke56/
+photo.143.tags: grooming, paws, portrait, tail, tree
+photo.144: ig://Crxm5TbvHaQ/m
+photo.144.author: hamamatsu.chiita
+photo.144.commitdate: 2023/5/3
+photo.144.link: https://www.instagram.com/hamamatsu.chiita/
+photo.144.tags: close-up, lips, portrait, sample, whiskers
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI

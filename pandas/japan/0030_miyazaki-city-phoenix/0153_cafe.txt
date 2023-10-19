@@ -195,15 +195,16 @@ photo.36.author: fetorus_mami
 photo.36.commitdate: 2023/2/26
 photo.36.link: https://www.instagram.com/fetorus_mami/
 photo.36.tags: apple time, keeper, paws, sample, tail
-photo.37: ig://CrNBzkKvYMu/m
-photo.37.author: fetorus_mami
-photo.37.commitdate: 2023/5/4
-photo.37.link: https://www.instagram.com/fetorus_mami/
-photo.37.tags: apple time, paws, sample, standing
-photo.38: https://www.instagram.com/p/Cpw5UCLPi9E/media/?size=m
-photo.38.author: hamiiiii831_
-photo.38.link: https://www.instagram.com/hamiiiii831_/
-photo.38.tags: climb, dish, keeper, paws 
+photo.37: ig://Cpw5UCLPi9E/m
+photo.37.author: hamiiiii831_
+photo.37.commitdate: 2023/10/18
+photo.37.link: https://www.instagram.com/hamiiiii831_/
+photo.37.tags: climb, dish, keeper, paws
+photo.38: ig://CrNBzkKvYMu/m
+photo.38.author: fetorus_mami
+photo.38.commitdate: 2023/5/4
+photo.38.link: https://www.instagram.com/fetorus_mami/
+photo.38.tags: apple time, paws, sample, standing
 species: 2
 studbook.id: 13139
 zoo: 30

@@ -1,4 +1,4 @@
-b[panda]
+[panda]
 _id: 1306
 birthday: 2021/7/1
 birthplace: 166
@@ -30,8 +30,9 @@ photo.3.author: worldthathesees
 photo.3.commitdate: 2023/3/9
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: bamboo, bite, portrait, profile, sample, techitechi, white face
-photo.4: https://www.instagram.com/p/Cp8lLPxu_u0/media/?size=m
+photo.4: ig://Cp8lLPxu_u0/m
 photo.4.author: worldthathesees
+photo.4.commitdate: 2023/10/18
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: snow, white face
 species: 1

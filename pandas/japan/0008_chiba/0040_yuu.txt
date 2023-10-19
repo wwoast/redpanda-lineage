@@ -508,20 +508,21 @@ photo.99.author: ssc6105
 photo.99.commitdate: 2023/2/24
 photo.99.link: https://www.instagram.com/ssc6105/
 photo.99.tags: air tasting, bamboo, home, paws, sample, tongue, whiskers
-photo.100: ig://CrdBXSnP8N2/m
-photo.100.author: hamiiiii831_
-photo.100.commitdate: 2023/8/11
-photo.100.link: https://www.instagram.com/hamiiiii831_/
-photo.100.tags: bamboo, sample, standing, tongue
-photo.101: ig://CvPt9KQv-ni/m
-photo.101.author: alto0908
-photo.101.commitdate: 2023/7/31
-photo.101.link: https://www.instagram.com/alto0908/
-photo.101.tags: close-up, laying down, portrait, sample, whiskers
-photo.102: https://www.instagram.com/p/Cp2x6g-P7sr/media/?size=m
-photo.102.author: eos1089
-photo.102.link: https://www.instagram.com/eos1089/
-photo.102.tags: peek, portrait, tree
+photo.100: ig://Cp2x6g-P7sr/m
+photo.100.author: eos1089
+photo.100.commitdate: 2023/10/18
+photo.100.link: https://www.instagram.com/eos1089/
+photo.100.tags: peek, portrait, tree
+photo.101: ig://CrdBXSnP8N2/m
+photo.101.author: hamiiiii831_
+photo.101.commitdate: 2023/8/11
+photo.101.link: https://www.instagram.com/hamiiiii831_/
+photo.101.tags: bamboo, sample, standing, tongue
+photo.102: ig://CvPt9KQv-ni/m
+photo.102.author: alto0908
+photo.102.commitdate: 2023/7/31
+photo.102.link: https://www.instagram.com/alto0908/
+photo.102.tags: close-up, laying down, portrait, sample, whiskers
 species: 2
 studbook.id: 15141
 zoo: 8

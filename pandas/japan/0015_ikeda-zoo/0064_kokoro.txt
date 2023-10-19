@@ -293,29 +293,30 @@ photo.56.author: makimaru18
 photo.56.commitdate: 2023/4/8
 photo.56.link: https://www.instagram.com/makimaru18/
 photo.56.tags: bamboo, paws, portrait, sample
-photo.57: ig://CqHUHeePOSY/m
-photo.57.author: makimaru18
-photo.57.commitdate: 2023/4/21
-photo.57.link: https://www.instagram.com/makimaru18/
-photo.57.tags: bridge, paws, peek, portrait, sample, smile, tongue, whiskers
-photo.58: ig://Ctpy3oJP3qW/m
+photo.57: ig://Cp954OEPpcy/m
+photo.57.author: chankunvv
+photo.57.commitdate: 2023/10/18
+photo.57.link: https://www.instagram.com/chankunvv/
+photo.57.tags: bridge, portrait, tail
+photo.58: ig://CqHUHeePOSY/m
 photo.58.author: makimaru18
-photo.58.commitdate: 2023/7/6
+photo.58.commitdate: 2023/4/21
 photo.58.link: https://www.instagram.com/makimaru18/
-photo.58.tags: bamboo, portrait, sample, whiskers
-photo.59: ig://Ct45y7zhBHI/m
-photo.59.author: hamamatsu.chiita
-photo.59.commitdate: 2023/8/8
-photo.59.link: https://www.instagram.com/hamamatsu.chiita/
-photo.59.tags: close-up, portrait, sample
-photo.60: ig://Cu5GnblBV_H/m
+photo.58.tags: bridge, paws, peek, portrait, sample, smile, tongue, whiskers
+photo.59: ig://Ctpy3oJP3qW/m
+photo.59.author: makimaru18
+photo.59.commitdate: 2023/7/6
+photo.59.link: https://www.instagram.com/makimaru18/
+photo.59.tags: bamboo, portrait, sample, whiskers
+photo.60: ig://Ct45y7zhBHI/m
 photo.60.author: hamamatsu.chiita
-photo.60.commitdate: 2023/9/16
+photo.60.commitdate: 2023/8/8
 photo.60.link: https://www.instagram.com/hamamatsu.chiita/
-photo.60.tags: portrait, sample, whiskers
-photo.61: https://www.instagram.com/p/Cp954OEPpcy/media/?size=m
-photo.61.author: chankunvv
-photo.61.link: https://www.instagram.com/chankunvv/
-photo.61.tags: bridge, portrait, tail
+photo.60.tags: close-up, portrait, sample
+photo.61: ig://Cu5GnblBV_H/m
+photo.61.author: hamamatsu.chiita
+photo.61.commitdate: 2023/9/16
+photo.61.link: https://www.instagram.com/hamamatsu.chiita/
+photo.61.tags: portrait, sample, whiskers
 species: 2
 zoo: 15

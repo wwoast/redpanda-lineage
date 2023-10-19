@@ -1704,20 +1704,21 @@ photo.343.author: mari_neko3
 photo.343.commitdate: 2023/2/24
 photo.343.link: https://www.instagram.com/mari_neko3/
 photo.343.tags: laying down, portrait, sample, snow
-photo.344: ig://CqM4cXYPVu4/m
-photo.344.author: minatomirai215
-photo.344.commitdate: 2023/6/18
-photo.344.link: https://www.instagram.com/minatomirai215/
-photo.344.tags: home, portrait, sample, snow
-photo.345: ig://CqhGhdWpSbN/m
-photo.345.author: komabazoophoto
-photo.345.commitdate: 2023/6/9
-photo.345.link: https://www.instagram.com/komabazoophoto/
-photo.345.tags: portrait, sample, snow
-photo.346: https://www.instagram.com/p/Cp7QjsZPMVp/media/?size=m
-photo.346.author: leonard_redmof
-photo.346.link: https://www.instagram.com/leonard_redmof/
-photo.346.tags: paws, portrait, sample, snow, whiskers
+photo.344: ig://Cp7QjsZPMVp/m
+photo.344.author: leonard_redmof
+photo.344.commitdate: 2023/10/18
+photo.344.link: https://www.instagram.com/leonard_redmof/
+photo.344.tags: paws, portrait, sample, snow, whiskers
+photo.345: ig://CqM4cXYPVu4/m
+photo.345.author: minatomirai215
+photo.345.commitdate: 2023/6/18
+photo.345.link: https://www.instagram.com/minatomirai215/
+photo.345.tags: home, portrait, sample, snow
+photo.346: ig://CqhGhdWpSbN/m
+photo.346.author: komabazoophoto
+photo.346.commitdate: 2023/6/9
+photo.346.link: https://www.instagram.com/komabazoophoto/
+photo.346.tags: portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7

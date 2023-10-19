@@ -163,24 +163,25 @@ photo.30.author: mini_cochi
 photo.30.commitdate: 2023/2/26
 photo.30.link: https://www.instagram.com/mini_cochi/
 photo.30.tags: apple time, keeper, portrait, sample, whiskers
-photo.31: ig://Cr2HhBcuYEv/m
+photo.31: ig://Cp38kYINVRW/m
 photo.31.author: lesserpanda_shizuokacity_cp
-photo.31.commitdate: 2023/6/30
+photo.31.commitdate: 2023/10/18
 photo.31.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.31.tags: bridge, sample
-photo.32: ig://CuGUCQHoByQ/m
+photo.31.tags: bamboo, sample
+photo.32: ig://Cr2HhBcuYEv/m
 photo.32.author: lesserpanda_shizuokacity_cp
-photo.32.commitdate: 2023/8/11
+photo.32.commitdate: 2023/6/30
 photo.32.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.32.tags: bridge, peek
-photo.33: ig://CwWgi55hHYX/m
+photo.32.tags: bridge, sample
+photo.33: ig://CuGUCQHoByQ/m
 photo.33.author: lesserpanda_shizuokacity_cp
-photo.33.commitdate: 2023/9/15
+photo.33.commitdate: 2023/8/11
 photo.33.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.33.tags: peek, sample
-photo.34: https://www.instagram.com/p/Cp38kYINVRW/media/?size=m
+photo.33.tags: bridge, peek
+photo.34: ig://CwWgi55hHYX/m
 photo.34.author: lesserpanda_shizuokacity_cp
+photo.34.commitdate: 2023/9/15
 photo.34.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.34.tags: bamboo, sample
+photo.34.tags: peek, sample
 species: 2
 zoo: 16

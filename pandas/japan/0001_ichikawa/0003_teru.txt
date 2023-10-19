@@ -922,44 +922,46 @@ photo.182.author: ssc6105
 photo.182.commitdate: 2023/5/29
 photo.182.link: https://www.instagram.com/ssc6105/
 photo.182.tags: apple time, keeper, mofumofu, sample
-photo.183: ig://CqKw_blPJY-/m
-photo.183.author: ssc6105
-photo.183.commitdate: 2023/6/18
-photo.183.link: https://www.instagram.com/ssc6105/
-photo.183.tags: laying down, mofumofu, paws, portrait, sample, whiskers
-photo.184: ig://CqYCIg4PrX9/m
+photo.183: ig://Cp-FN0RrlJa/m
+photo.183.author: ifumoto88
+photo.183.commitdate: 2023/10/18
+photo.183.link: https://www.instagram.com/ifumoto88/
+photo.183.tags: air tasting, bamboo, mofumofu, portrait, sample, tongue
+photo.184: ig://Cp-M15_r1b0/m
 photo.184.author: ifumoto88
-photo.184.commitdate: 2023/4/21
+photo.184.commitdate: 2023/10/18
 photo.184.link: https://www.instagram.com/ifumoto88/
-photo.184.tags: bamboo, paws, sample, techitechi, tongue
-photo.185: ig://CrVszQxLnPZ/m
-photo.185.author: ifumoto88
-photo.185.commitdate: 2023/8/11
-photo.185.link: https://www.instagram.com/ifumoto88/
-photo.185.tags: mofumofu, peek, portrait
-photo.186: ig://Cr7SjS9LF4t/m
+photo.184.tags: bamboo, mofumofu, peek, sample
+photo.185: ig://CqKw_blPJY-/m
+photo.185.author: ssc6105
+photo.185.commitdate: 2023/6/18
+photo.185.link: https://www.instagram.com/ssc6105/
+photo.185.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+photo.186: ig://CqYCIg4PrX9/m
 photo.186.author: ifumoto88
-photo.186.commitdate: 2023/6/30
+photo.186.commitdate: 2023/4/21
 photo.186.link: https://www.instagram.com/ifumoto88/
-photo.186.tags: bamboo, peek, portrait, sample, tongue
-photo.187: ig://Cr7ucxHvlQz/m
-photo.187.author: na.mo.pan
-photo.187.commitdate: 2023/6/30
-photo.187.link: https://www.instagram.com/na.mo.pan/
-photo.187.tags: bamboo, sample, tail
-photo.188: ig://CwcghL6LKMe/m
+photo.186.tags: bamboo, paws, sample, techitechi, tongue
+photo.187: ig://CrVszQxLnPZ/m
+photo.187.author: ifumoto88
+photo.187.commitdate: 2023/8/11
+photo.187.link: https://www.instagram.com/ifumoto88/
+photo.187.tags: mofumofu, peek, portrait
+photo.188: ig://Cr7SjS9LF4t/m
 photo.188.author: ifumoto88
-photo.188.commitdate: 2023/9/21
+photo.188.commitdate: 2023/6/30
 photo.188.link: https://www.instagram.com/ifumoto88/
-photo.188.tags: paws, portrait, sample, smile, tail
-photo.189: https://www.instagram.com/p/Cp-FN0RrlJa/media/?size=m
-photo.189.author: ifumoto88
-photo.189.link: https://www.instagram.com/ifumoto88/
-photo.189.tags: air tasting, bamboo, mofumofu, portrait, sample, tongue
-photo.190: https://www.instagram.com/p/Cp-M15_r1b0/media/?size=m
+photo.188.tags: bamboo, peek, portrait, sample, tongue
+photo.189: ig://Cr7ucxHvlQz/m
+photo.189.author: na.mo.pan
+photo.189.commitdate: 2023/6/30
+photo.189.link: https://www.instagram.com/na.mo.pan/
+photo.189.tags: bamboo, sample, tail
+photo.190: ig://CwcghL6LKMe/m
 photo.190.author: ifumoto88
+photo.190.commitdate: 2023/9/21
 photo.190.link: https://www.instagram.com/ifumoto88/
-photo.190.tags: bamboo, mofumofu, peek, sample
+photo.190.tags: paws, portrait, sample, smile, tail
 species: 2
 studbook.id: 10112
 zoo: 1

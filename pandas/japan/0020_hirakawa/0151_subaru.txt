@@ -230,20 +230,21 @@ photo.43.author: hamiiiii831_
 photo.43.commitdate: 2023/5/29
 photo.43.link: https://www.instagram.com/hamiiiii831_/
 photo.43.tags: blink, laying down, paws, sample, tongue, tree
-photo.44: ig://CqbU3eHBnWe/m
-photo.44.author: hamamatsu.chiita
-photo.44.commitdate: 2023/4/21
-photo.44.link: https://www.instagram.com/hamamatsu.chiita/
-photo.44.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.45: ig://CrJpEb5BOuJ/m
+photo.44: ig://CpySWs9hjB1/m
+photo.44.author: yossi929
+photo.44.commitdate: 2023/10/18
+photo.44.link: https://www.instagram.com/yossi929/
+photo.44.tags: bamboo, lips, portrait, sample, white face
+photo.45: ig://CqbU3eHBnWe/m
 photo.45.author: hamamatsu.chiita
-photo.45.commitdate: 2023/4/22
+photo.45.commitdate: 2023/4/21
 photo.45.link: https://www.instagram.com/hamamatsu.chiita/
-photo.45.tags: paws, portrait, sample, tongue, whiskers
-photo.46: https://www.instagram.com/p/CpySWs9hjB1/media/?size=m
-photo.46.author: yossi929
-photo.46.link: https://www.instagram.com/yossi929/
-photo.46.tags: bamboo, lips, portrait, sample, white face
+photo.45.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.46: ig://CrJpEb5BOuJ/m
+photo.46.author: hamamatsu.chiita
+photo.46.commitdate: 2023/4/22
+photo.46.link: https://www.instagram.com/hamamatsu.chiita/
+photo.46.tags: paws, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 10101
 zoo: 20

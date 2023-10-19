@@ -618,15 +618,16 @@ photo.121.author: sakikukeco
 photo.121.commitdate: 2023/8/27
 photo.121.link: https://www.instagram.com/sakikukeco/
 photo.121.tags: apple time, bite, sample, whiskers
-photo.122: ig://CrVpjozPSto/m
-photo.122.author: chankunvv
-photo.122.commitdate: 2023/8/11
-photo.122.link: https://www.instagram.com/chankunvv/
-photo.122.tags: paws, whiskers
-photo.123: https://www.instagram.com/p/Cp9Ok_MvV5l/media/?size=m
-photo.123.author: sakikukeco
-photo.123.link: https://www.instagram.com/sakikukeco/
-photo.123.tags: paws, sample, standing
+photo.122: ig://Cp9Ok_MvV5l/m
+photo.122.author: sakikukeco
+photo.122.commitdate: 2023/10/18
+photo.122.link: https://www.instagram.com/sakikukeco/
+photo.122.tags: paws, sample, standing
+photo.123: ig://CrVpjozPSto/m
+photo.123.author: chankunvv
+photo.123.commitdate: 2023/8/11
+photo.123.link: https://www.instagram.com/chankunvv/
+photo.123.tags: paws, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

@@ -643,15 +643,16 @@ photo.126.author: gloryeui
 photo.126.commitdate: 2023/6/25
 photo.126.link: https://www.instagram.com/gloryeui/
 photo.126.tags: portrait, sample, whiskers
-photo.127: ig://CqJSwSmhO6o/m
-photo.127.author: hamamatsu.chiita
-photo.127.commitdate: 2023/4/21
-photo.127.link: https://www.instagram.com/hamamatsu.chiita/
-photo.127.tags: close-up, portrait, sample, whiskers
-photo.128: https://www.instagram.com/p/Cp7dWEVvoIp/media/?size=m
-photo.128.author: gloryeui
-photo.128.link: https://www.instagram.com/gloryeui/
-photo.128.tags: apple time, keeper, paws, portrait, whiskers
+photo.127: ig://Cp7dWEVvoIp/m
+photo.127.author: gloryeui
+photo.127.commitdate: 2023/10/18
+photo.127.link: https://www.instagram.com/gloryeui/
+photo.127.tags: apple time, keeper, paws, portrait, whiskers
+photo.128: ig://CqJSwSmhO6o/m
+photo.128.author: hamamatsu.chiita
+photo.128.commitdate: 2023/4/21
+photo.128.link: https://www.instagram.com/hamamatsu.chiita/
+photo.128.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

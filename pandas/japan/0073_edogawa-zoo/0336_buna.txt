@@ -665,35 +665,36 @@ photo.130.author: edogawa.kankyozaidan
 photo.130.commitdate: 2023/1/14
 photo.130.link: https://www.instagram.com/edogawa.kankyozaidan/
 photo.130.tags: bamboo, laying down, paws, sleeping
-photo.131: ig://CqSX-YCvuvT/m
-photo.131.author: ssc6105
-photo.131.commitdate: 2023/4/21
-photo.131.link: https://www.instagram.com/ssc6105/
-photo.131.tags: door, portrait, sample, tail
-photo.132: ig://CuxwaFNBLji/m
-photo.132.author: edogawa.kankyozaidan
-photo.132.commitdate: 2023/9/21
-photo.132.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.132.tags: close-up, lunch time, old
-photo.133: ig://Cuy0lm2v-al/m
-photo.133.author: ck.chie
+photo.131: ig://CqDh0KWve2P/m
+photo.131.author: na.mo.pan
+photo.131.commitdate: 2023/10/18
+photo.131.link: https://www.instagram.com/na.mo.pan/
+photo.131.tags: eye, old, tail
+photo.132: ig://CqSX-YCvuvT/m
+photo.132.author: ssc6105
+photo.132.commitdate: 2023/4/21
+photo.132.link: https://www.instagram.com/ssc6105/
+photo.132.tags: door, portrait, sample, tail
+photo.133: ig://CuxwaFNBLji/m
+photo.133.author: edogawa.kankyozaidan
 photo.133.commitdate: 2023/9/21
-photo.133.link: https://www.instagram.com/ck.chie/
-photo.133.tags: door, peek
-photo.134: ig://CuzMbzdP3JS/m
-photo.134.author: na.mo.pan
+photo.133.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.133.tags: close-up, lunch time, old
+photo.134: ig://Cuy0lm2v-al/m
+photo.134.author: ck.chie
 photo.134.commitdate: 2023/9/21
-photo.134.link: https://www.instagram.com/na.mo.pan/
-photo.134.tags: grooming, laying down, paws
-photo.135: ig://Cu0JM1lhqJo/m
-photo.135.author: ssc6105
+photo.134.link: https://www.instagram.com/ck.chie/
+photo.134.tags: door, peek
+photo.135: ig://CuzMbzdP3JS/m
+photo.135.author: na.mo.pan
 photo.135.commitdate: 2023/9/21
-photo.135.link: https://www.instagram.com/ssc6105/
-photo.135.tags: eye, portrait, sample, tail
-photo.136: https://www.instagram.com/p/CqDh0KWve2P/media/?size=m
-photo.136.author: na.mo.pan
-photo.136.link: https://www.instagram.com/na.mo.pan/
-photo.136.tags: eye, old, tail
+photo.135.link: https://www.instagram.com/na.mo.pan/
+photo.135.tags: grooming, laying down, paws
+photo.136: ig://Cu0JM1lhqJo/m
+photo.136.author: ssc6105
+photo.136.commitdate: 2023/9/21
+photo.136.link: https://www.instagram.com/ssc6105/
+photo.136.tags: eye, portrait, sample, tail
 species: 2
 studbook.id: 00102
 zoo: 73

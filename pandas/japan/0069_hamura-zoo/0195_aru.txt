@@ -648,8 +648,9 @@ photo.127.author: kaoru_a358
 photo.127.commitdate: 2023/2/24
 photo.127.link: https://www.instagram.com/kaoru_a358/
 photo.127.tags: bridge, sample, snow, tail
-photo.128: https://www.instagram.com/p/Cp39rspPsuK/media/?size=m
+photo.128: ig://Cp39rspPsuK/m
 photo.128.author: miis_98
+photo.128.commitdate: 2023/10/18
 photo.128.link: https://www.instagram.com/miis_98/
 photo.128.tags: portrait, sample, tail, whiskers
 species: 2

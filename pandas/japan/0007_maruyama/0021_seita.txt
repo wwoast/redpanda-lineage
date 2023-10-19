@@ -1315,8 +1315,9 @@ photo.261.author: leonard_redmof
 photo.261.commitdate: 2023/8/23
 photo.261.link: https://www.instagram.com/leonard_redmof/
 photo.261.tags: paws, portrait, sample, snow
-photo.262: https://www.instagram.com/p/Cp7P_mpPgvZ/media/?size=m
+photo.262: ig://Cp7P_mpPgvZ/m
 photo.262.author: leonard_redmof
+photo.262.commitdate: 2023/10/18
 photo.262.link: https://www.instagram.com/leonard_redmof/
 photo.262.tags: dish, tail, toys
 species: 2
