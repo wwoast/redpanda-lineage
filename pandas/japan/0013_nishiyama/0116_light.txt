@@ -610,15 +610,16 @@ photo.120.author: hamamatsu.chiita
 photo.120.commitdate: 2023/4/8
 photo.120.link: https://www.instagram.com/hamamatsu.chiita/
 photo.120.tags: mofumofu, portrait, sample, whiskers
-photo.121: ig://CqC93xOPIzU/m
-photo.121.author: tomo3700
+photo.121: ig://Cp4wCz3vuJg/m
+photo.121.author: daniele.tokyo
 photo.121.commitdate: 2023/10/18
-photo.121.link: https://www.instagram.com/tomo3700/
-photo.121.tags: mofumofu, paws, portrait, sample, tongue, whiskers, window
-photo.122: https://www.instagram.com/p/Cp4wCz3vuJg/media/?size=m
-photo.122.author: daniele.tokyo
-photo.122.link: https://www.instagram.com/daniele.tokyo/
-photo.122.tags: sample, tree, whiskers
+photo.121.link: https://www.instagram.com/daniele.tokyo/
+photo.121.tags: sample, tree, whiskers
+photo.122: ig://CqC93xOPIzU/m
+photo.122.author: tomo3700
+photo.122.commitdate: 2023/10/18
+photo.122.link: https://www.instagram.com/tomo3700/
+photo.122.tags: mofumofu, paws, portrait, sample, tongue, whiskers, window
 species: 2
 studbook.id: 13167
 zoo: 13

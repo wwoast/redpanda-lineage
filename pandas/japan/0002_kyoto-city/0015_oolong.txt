@@ -1178,8 +1178,9 @@ photo.234.author: gloryeui
 photo.234.commitdate: 2023/10/18
 photo.234.link: https://www.instagram.com/gloryeui/
 photo.234.tags: peek, portrait, sample, tree
-photo.235: https://www.instagram.com/p/CqFsXVWvuX-/media/?size=m
+photo.235: ig://CqFsXVWvuX-/m
 photo.235.author: jas_forever_love
+photo.235.commitdate: 2023/10/18
 photo.235.link: https://www.instagram.com/jas_forever_love/
 photo.235.tags: apple time, portrait, toys
 species: 2

@@ -289,24 +289,26 @@ photo.55.author: miis_98
 photo.55.commitdate: 2023/8/22
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: portrait, sample, whiskers
-photo.56: ig://CqulAe7vdai/m
-photo.56.author: mini_cochi
-photo.56.commitdate: 2023/5/16
-photo.56.link: https://www.instagram.com/mini_cochi/
-photo.56.tags: mofumofu, paws, portrait, sample, whiskers
-photo.57: ig://CsGXw4VPuLy/m
-photo.57.author: daniele.tokyo
-photo.57.commitdate: 2023/6/9
-photo.57.link: https://www.instagram.com/daniele.tokyo/
-photo.57.tags: sample, whiskers
-photo.58: https://www.instagram.com/p/Cp1PejfvGlI/media/?size=m
-photo.58.author: miis_98
-photo.58.link: https://www.instagram.com/miis_98/
-photo.58.tags: portrait, sample
-photo.59: https://www.instagram.com/p/CqAmZ91PqlM/media/?size=m
-photo.59.author: kaoru_a358
-photo.59.link: https://www.instagram.com/kaoru_a358/
-photo.59.tags: sample, tongue, whiskers
+photo.56: ig://Cp1PejfvGlI/m
+photo.56.author: miis_98
+photo.56.commitdate: 2023/10/18
+photo.56.link: https://www.instagram.com/miis_98/
+photo.56.tags: portrait, sample
+photo.57: ig://CqAmZ91PqlM/m
+photo.57.author: kaoru_a358
+photo.57.commitdate: 2023/10/18
+photo.57.link: https://www.instagram.com/kaoru_a358/
+photo.57.tags: sample, tongue, whiskers
+photo.58: ig://CqulAe7vdai/m
+photo.58.author: mini_cochi
+photo.58.commitdate: 2023/5/16
+photo.58.link: https://www.instagram.com/mini_cochi/
+photo.58.tags: mofumofu, paws, portrait, sample, whiskers
+photo.59: ig://CsGXw4VPuLy/m
+photo.59.author: daniele.tokyo
+photo.59.commitdate: 2023/6/9
+photo.59.link: https://www.instagram.com/daniele.tokyo/
+photo.59.tags: sample, whiskers
 species: 2
 studbook.id: 1787
 zoo: 57

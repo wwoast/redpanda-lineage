@@ -234,29 +234,31 @@ photo.44.author: re_ichimaru
 photo.44.commitdate: 2023/2/24
 photo.44.link: https://www.instagram.com/re_ichimaru/
 photo.44.tags: dish, portrait, sample, whiskers
-photo.45: ig://Cp2rjP3vFWl/m
+photo.45: ig://CpsGRmev64f/m
 photo.45.author: kojikoji2011
-photo.45.commitdate: 2023/10/4
+photo.45.commitdate: 2023/10/18
 photo.45.link: https://www.instagram.com/kojikoji2011/
-photo.45.tags: paws, portrait, sample, smile, whiskers
-photo.46: ig://CqFnkCGPRHs/m
-photo.46.author: sasapan34
-photo.46.commitdate: 2023/10/4
-photo.46.link: https://www.instagram.com/sasapan34/
-photo.46.tags: apple time, paws, sample, smile
-photo.47: ig://CuCUsfvPIZT/m
-photo.47.author: re_ichimaru
-photo.47.commitdate: 2023/8/11
-photo.47.link: https://www.instagram.com/re_ichimaru/
-photo.47.tags: flowers, portrait, sample, whiskers
-photo.48: https://www.instagram.com/p/Cptt1FPPZEZ/media/?size=m
-photo.48.author: re_ichimaru
-photo.48.link: https://www.instagram.com/re_ichimaru/
-photo.48.tags: hammock, home, paws, portrait, sample, smile
-photo.49: https://www.instagram.com/p/CpsGRmev64f/media/?size=m
-photo.49.author: kojikoji2011
-photo.49.link: https://www.instagram.com/kojikoji2011/
-photo.49.tags: apple time, bite, paws, portrait, sample
+photo.45.tags: apple time, bite, paws, portrait, sample
+photo.46: ig://Cptt1FPPZEZ/m
+photo.46.author: re_ichimaru
+photo.46.commitdate: 2023/10/18
+photo.46.link: https://www.instagram.com/re_ichimaru/
+photo.46.tags: hammock, home, paws, portrait, sample, smile
+photo.47: ig://Cp2rjP3vFWl/m
+photo.47.author: kojikoji2011
+photo.47.commitdate: 2023/10/4
+photo.47.link: https://www.instagram.com/kojikoji2011/
+photo.47.tags: paws, portrait, sample, smile, whiskers
+photo.48: ig://CqFnkCGPRHs/m
+photo.48.author: sasapan34
+photo.48.commitdate: 2023/10/4
+photo.48.link: https://www.instagram.com/sasapan34/
+photo.48.tags: apple time, paws, sample, smile
+photo.49: ig://CuCUsfvPIZT/m
+photo.49.author: re_ichimaru
+photo.49.commitdate: 2023/8/11
+photo.49.link: https://www.instagram.com/re_ichimaru/
+photo.49.tags: flowers, portrait, sample, whiskers
 species: 2
 studbook.id: 1686
 zoo: 42

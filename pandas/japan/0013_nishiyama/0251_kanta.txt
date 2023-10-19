@@ -474,19 +474,21 @@ photo.92.author: tomo3700
 photo.92.commitdate: 2023/2/25
 photo.92.link: https://www.instagram.com/tomo3700/
 photo.92.tags: paws, portrait, sample, standing, tail
-photo.93: ig://CrOz24OB79z/m
-photo.93.author: hamamatsu.chiita
-photo.93.commitdate: 2023/5/4
-photo.93.link: https://www.instagram.com/hamamatsu.chiita/
-photo.93.tags: paws, portrait, sample
-photo.94: https://www.instagram.com/p/CpyaWfoBP7S/media/?size=m
-photo.94.author: miis_98
-photo.94.link: https://www.instagram.com/miis_98/
-photo.94.tags: paws, portrait, sample, whiskers
-photo.95: https://www.instagram.com/p/Cp7hi_gP76i/media/?size=m
-photo.95.author: apple_jasmine33
-photo.95.link: https://www.instagram.com/apple_jasmine33/
-photo.95.tags: whiskers
+photo.93: ig://CpyaWfoBP7S/m
+photo.93.author: miis_98
+photo.93.commitdate: 2023/10/18
+photo.93.link: https://www.instagram.com/miis_98/
+photo.93.tags: paws, portrait, sample, whiskers
+photo.94: ig://Cp7hi_gP76i/m
+photo.94.author: apple_jasmine33
+photo.94.commitdate: 2023/10/18
+photo.94.link: https://www.instagram.com/apple_jasmine33/
+photo.94.tags: whiskers
+photo.95: ig://CrOz24OB79z/m
+photo.95.author: hamamatsu.chiita
+photo.95.commitdate: 2023/5/4
+photo.95.link: https://www.instagram.com/hamamatsu.chiita/
+photo.95.tags: paws, portrait, sample
 species: 2
 studbook.id: unknown
 zoo: 13

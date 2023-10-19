@@ -1128,20 +1128,21 @@ photo.225.author: falcon_tenor
 photo.225.commitdate: 2023/6/25
 photo.225.link: https://www.instagram.com/falcon_tenor/
 photo.225.tags: paws, portrait, sample, whiskers
-photo.226: ig://CrX7HPovYS8/m
-photo.226.author: i.satosato
-photo.226.commitdate: 2023/8/11
-photo.226.link: https://www.instagram.com/i.satosato/
-photo.226.tags: laying down, paws, sample, tail, whiskers
-photo.227: ig://CsBQ0Ptv0Uj/m
+photo.226: ig://CqL2y9EBy0u/m
+photo.226.author: fetorus_mami
+photo.226.commitdate: 2023/10/18
+photo.226.link: https://www.instagram.com/fetorus_mami/
+photo.226.tags: apple time, close-up, sample, whiskers, window
+photo.227: ig://CrX7HPovYS8/m
 photo.227.author: i.satosato
-photo.227.commitdate: 2023/9/30
+photo.227.commitdate: 2023/8/11
 photo.227.link: https://www.instagram.com/i.satosato/
-photo.227.tags: laying down, paws, portrait, sample, whiskers
-photo.228: https://www.instagram.com/p/CqL2y9EBy0u/media/?size=m
-photo.228.author: fetorus_mami
-photo.228.link: https://www.instagram.com/fetorus_mami/
-photo.228.tags: apple time, close-up, sample, whiskers, window
+photo.227.tags: laying down, paws, sample, tail, whiskers
+photo.228: ig://CsBQ0Ptv0Uj/m
+photo.228.author: i.satosato
+photo.228.commitdate: 2023/9/30
+photo.228.link: https://www.instagram.com/i.satosato/
+photo.228.tags: laying down, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

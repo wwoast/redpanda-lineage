@@ -48,20 +48,21 @@ photo.7.author: westcoast_kathy
 photo.7.commitdate: 2023/2/26
 photo.7.link: https://www.instagram.com/westcoast_kathy/
 photo.7.tags: baby, bamboo, mofumofu, paws, sample, standing, tail, whiskers
-photo.8: ig://CqEo5mwpUgB/m
+photo.8: ig://CpwM2acLGhA/m
 photo.8.author: westcoast_kathy
-photo.8.commitdate: 2023/10/4
+photo.8.commitdate: 2023/10/18
 photo.8.link: https://www.instagram.com/westcoast_kathy/
-photo.8.tags: paws, sample, techitechi, whiskers
-photo.9: ig://CtnG1YuvStW/m
+photo.8.tags: portrait, sample, snow, whiskers
+photo.9: ig://CqEo5mwpUgB/m
 photo.9.author: westcoast_kathy
-photo.9.commitdate: 2023/8/10
+photo.9.commitdate: 2023/10/4
 photo.9.link: https://www.instagram.com/westcoast_kathy/
-photo.9.tags: mofumofu, portrait, sample, whiskers
-photo.10: https://www.instagram.com/p/CpwM2acLGhA/media/?size=m
+photo.9.tags: paws, sample, techitechi, whiskers
+photo.10: ig://CtnG1YuvStW/m
 photo.10.author: westcoast_kathy
+photo.10.commitdate: 2023/8/10
 photo.10.link: https://www.instagram.com/westcoast_kathy/
-photo.10.tags: portrait, sample, snow, whiskers
+photo.10.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 uncertainty: exact birthday in June

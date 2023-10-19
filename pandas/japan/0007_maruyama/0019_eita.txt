@@ -1970,15 +1970,16 @@ photo.393.author: hamamatsu.chiita
 photo.393.commitdate: 2023/10/18
 photo.393.link: https://www.instagram.com/hamamatsu.chiita/
 photo.393.tags: mofumofu, peek, portrait, sample, whiskers
-photo.394: ig://Cu_R_nCPYuK/m
-photo.394.author: mari_neko3
-photo.394.commitdate: 2023/7/31
-photo.394.link: https://www.instagram.com/mari_neko3/
-photo.394.tags: bridge, portrait, sample, smile, tongue
-photo.395: https://www.instagram.com/p/CqITuMrPGfS/media/?size=m
-photo.395.author: minatomirai215
-photo.395.link: https://www.instagram.com/minatomirai215/
-photo.395.tags: mofumofu, portrait, sample
+photo.394: ig://CqITuMrPGfS/m
+photo.394.author: minatomirai215
+photo.394.commitdate: 2023/10/18
+photo.394.link: https://www.instagram.com/minatomirai215/
+photo.394.tags: mofumofu, portrait, sample
+photo.395: ig://Cu_R_nCPYuK/m
+photo.395.author: mari_neko3
+photo.395.commitdate: 2023/7/31
+photo.395.link: https://www.instagram.com/mari_neko3/
+photo.395.tags: bridge, portrait, sample, smile, tongue
 species: 2
 studbook.id: 10108
 zoo: 7

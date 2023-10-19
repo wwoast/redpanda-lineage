@@ -788,20 +788,21 @@ photo.155.author: kiarino51
 photo.155.commitdate: 2023/8/27
 photo.155.link: https://www.instagram.com/kiarino51/
 photo.155.tags: apple time, mofumofu, portrait, sample, tongue
-photo.156: ig://CrYKrJhrmr7/m
-photo.156.author: ifumoto88
-photo.156.commitdate: 2023/8/11
-photo.156.link: https://www.instagram.com/ifumoto88/
-photo.156.tags: apple time, lips, paws, peek, portrait, sample
-photo.157: ig://CrYXda2vqMu/m
-photo.157.author: mari_neko3
+photo.156: ig://Cp43Sk8PA-B/m
+photo.156.author: kiarino51
+photo.156.commitdate: 2023/10/18
+photo.156.link: https://www.instagram.com/kiarino51/
+photo.156.tags: mofumofu, portrait, sample, whiskers
+photo.157: ig://CrYKrJhrmr7/m
+photo.157.author: ifumoto88
 photo.157.commitdate: 2023/8/11
-photo.157.link: https://www.instagram.com/mari_neko3/
-photo.157.tags: apple time, portrait, sample, tongue
-photo.158: https://www.instagram.com/p/Cp43Sk8PA-B/media/?size=m
-photo.158.author: kiarino51
-photo.158.link: https://www.instagram.com/kiarino51/
-photo.158.tags: mofumofu, portrait, sample, whiskers
+photo.157.link: https://www.instagram.com/ifumoto88/
+photo.157.tags: apple time, lips, paws, peek, portrait, sample
+photo.158: ig://CrYXda2vqMu/m
+photo.158.author: mari_neko3
+photo.158.commitdate: 2023/8/11
+photo.158.link: https://www.instagram.com/mari_neko3/
+photo.158.tags: apple time, portrait, sample, tongue
 species: 2
 studbook.id: 13155
 zoo: 8

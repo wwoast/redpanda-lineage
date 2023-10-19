@@ -764,8 +764,9 @@ photo.151.author: westcoast_kathy
 photo.151.commitdate: 2023/2/26
 photo.151.link: https://www.instagram.com/westcoast_kathy/
 photo.151.tags: peek, sample, whiskers
-photo.152: https://www.instagram.com/p/CpteSEhJD0_/media/?size=m
+photo.152: ig://CpteSEhJD0_/m
 photo.152.author: westcoast_kathy
+photo.152.commitdate: 2023/10/18
 photo.152.link: https://www.instagram.com/westcoast_kathy/
 photo.152.tags: bamboo, sample, snow, whiskers
 species: 2

@@ -555,55 +555,61 @@ photo.108.author: fetorus_mami
 photo.108.commitdate: 2023/4/9
 photo.108.link: https://www.instagram.com/fetorus_mami/
 photo.108.tags: bamboo, bite, sample, techitechi
-photo.109: ig://CrI4F0Uv5gY/m
-photo.109.author: kiarino51
-photo.109.commitdate: 2023/5/13
-photo.109.link: https://www.instagram.com/kiarino51/
-photo.109.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
-photo.110: ig://CrzitpXJa-U/m
-photo.110.author: phoenixzoo1971
-photo.110.commitdate: 2023/7/3
-photo.110.link: https://www.instagram.com/phoenixzoo1971/
-photo.110.tags: apple time, mofumofu, paws, portrait, sample
-photo.111: ig://CtjWuGSvs0z/m
-photo.111.author: kiarino51
-photo.111.commitdate: 2023/8/8
-photo.111.link: https://www.instagram.com/kiarino51/
-photo.111.tags: bamboo, portrait, sample, smile
-photo.112: ig://Ctn3cImvy4y/m
-photo.112.author: kiarino51
-photo.112.commitdate: 2023/8/8
-photo.112.link: https://www.instagram.com/kiarino51/
-photo.112.tags: mofumofu, portrait, sample
-photo.113: ig://CttinrEPI9c/m
-photo.113.author: kiarino51
-photo.113.commitdate: 2023/8/10
-photo.113.link: https://www.instagram.com/kiarino51/
-photo.113.tags: apple time, bite, keeper
-photo.114: https://www.instagram.com/p/CpuObvDvxZE/media/?size=m
-photo.114.author: hamiiiii831_
-photo.114.link: https://www.instagram.com/hamiiiii831_/
-photo.114.tags: paws, sample, techitechi, tree, whiskers
-photo.115: https://www.instagram.com/p/CpuOuErv8qI/media/?size=m
-photo.115.author: hamiiiii831_
-photo.115.link: https://www.instagram.com/hamiiiii831_/
-photo.115.tags: bamboo, paws, sample, smile, whiskers
-photo.116: https://www.instagram.com/p/CpmO8GmPTmn/media/?size=m
-photo.116.author: hamiiiii831_
-photo.116.link: https://www.instagram.com/hamiiiii831_/
-photo.116.tags: mofumofu, paws, sample
-photo.117: https://www.instagram.com/p/CprjFCZPi9F/media/?size=m
-photo.117.author: hamiiiii831_
-photo.117.link: https://www.instagram.com/hamiiiii831_/
-photo.117.tags: air tasting, sample, tongue, whiskers
-photo.118: https://www.instagram.com/p/CprjNg9Pn0N/media/?size=m
-photo.118.author: hamiiiii831_
-photo.118.link: https://www.instagram.com/hamiiiii831_/
-photo.118.tags: paws, sample, techitechi, whiskers
-photo.119: https://www.instagram.com/p/CqA1QPNPkgx/media/?size=m
+photo.109: ig://CpmO8GmPTmn/m
+photo.109.author: hamiiiii831_
+photo.109.commitdate: 2023/10/18
+photo.109.link: https://www.instagram.com/hamiiiii831_/
+photo.109.tags: mofumofu, paws, sample
+photo.110: ig://CprjFCZPi9F/m
+photo.110.author: hamiiiii831_
+photo.110.commitdate: 2023/10/18
+photo.110.link: https://www.instagram.com/hamiiiii831_/
+photo.110.tags: air tasting, sample, tongue, whiskers
+photo.111: ig://CprjNg9Pn0N/m
+photo.111.author: hamiiiii831_
+photo.111.commitdate: 2023/10/18
+photo.111.link: https://www.instagram.com/hamiiiii831_/
+photo.111.tags: paws, sample, techitechi, whiskers
+photo.112: ig://CpuObvDvxZE/m
+photo.112.author: hamiiiii831_
+photo.112.commitdate: 2023/10/18
+photo.112.link: https://www.instagram.com/hamiiiii831_/
+photo.112.tags: paws, sample, techitechi, tree, whiskers
+photo.113: ig://CpuOuErv8qI/m
+photo.113.author: hamiiiii831_
+photo.113.commitdate: 2023/10/18
+photo.113.link: https://www.instagram.com/hamiiiii831_/
+photo.113.tags: bamboo, paws, sample, smile, whiskers
+photo.114: ig://CqA1QPNPkgx/m
+photo.114.author: kiarino51
+photo.114.commitdate: 2023/10/18
+photo.114.link: https://www.instagram.com/kiarino51/
+photo.114.tags: lips, mofumofu, portrait, sample, whiskers
+photo.115: ig://CrI4F0Uv5gY/m
+photo.115.author: kiarino51
+photo.115.commitdate: 2023/5/13
+photo.115.link: https://www.instagram.com/kiarino51/
+photo.115.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
+photo.116: ig://CrzitpXJa-U/m
+photo.116.author: phoenixzoo1971
+photo.116.commitdate: 2023/7/3
+photo.116.link: https://www.instagram.com/phoenixzoo1971/
+photo.116.tags: apple time, mofumofu, paws, portrait, sample
+photo.117: ig://CtjWuGSvs0z/m
+photo.117.author: kiarino51
+photo.117.commitdate: 2023/8/8
+photo.117.link: https://www.instagram.com/kiarino51/
+photo.117.tags: bamboo, portrait, sample, smile
+photo.118: ig://Ctn3cImvy4y/m
+photo.118.author: kiarino51
+photo.118.commitdate: 2023/8/8
+photo.118.link: https://www.instagram.com/kiarino51/
+photo.118.tags: mofumofu, portrait, sample
+photo.119: ig://CttinrEPI9c/m
 photo.119.author: kiarino51
+photo.119.commitdate: 2023/8/10
 photo.119.link: https://www.instagram.com/kiarino51/
-photo.119.tags: lips, mofumofu, portrait, sample, whiskers
+photo.119.tags: apple time, bite, keeper
 species: 2
 studbook.id: 13157
 zoo: 30
