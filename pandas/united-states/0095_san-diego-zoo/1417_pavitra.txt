@@ -18,8 +18,9 @@ photo.1.author: sandiegozoo
 photo.1.commitdate: 2023/9/16
 photo.1.link: https://www.instagram.com/sandiegozoo/
 photo.1.tags: baby, close-up, sample, whiskers
-photo.2: https://www.instagram.com/p/CyMJpdnxNnU/media/?size=m
+photo.2: ig://CyMJpdnxNnU/m
 photo.2.author: sandiegozoo
+photo.2.commitdate: 2023/10/24
 photo.2.link: https://www.instagram.com/sandiegozoo/
 photo.2.tags: baby, close-up, paws, portrait, sample, tree
 species: 2

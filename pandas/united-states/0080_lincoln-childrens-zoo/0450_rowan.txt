@@ -85,8 +85,9 @@ photo.14.author: lincolnchildrenszoo
 photo.14.commitdate: 2023/4/3
 photo.14.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.14.tags: apple time, paws, portrait, sample, whiskers
-photo.15: https://www.instagram.com/p/CyTSSBMNyad/media/?size=m
+photo.15: ig://CyTSSBMNyad/m
 photo.15.author: lincolnchildrenszoo
+photo.15.commitdate: 2023/10/24
 photo.15.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.15.tags: peek, portrait, sample, whiskers
 species: 2

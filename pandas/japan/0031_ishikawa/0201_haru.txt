@@ -341,15 +341,16 @@ photo.65.author: bee_san.13
 photo.65.commitdate: 2023/7/31
 photo.65.link: https://www.instagram.com/bee_san.13/
 photo.65.tags: lips
-photo.66: ig://CvXnx97Bbvt/m
-photo.66.author: eos1089
-photo.66.commitdate: 2023/9/21
-photo.66.link: https://www.instagram.com/eos1089/
-photo.66.tags: portrait, sample, whiskers
-photo.67: https://www.instagram.com/p/CvXBXySvNnl/media/?size=m
-photo.67.author: hamamatsu.chiita
-photo.67.link: https://www.instagram.com/hamamatsu.chiita/
-photo.67.tags: sample, whiskers
+photo.66: ig://CvXBXySvNnl/m
+photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2023/10/24
+photo.66.link: https://www.instagram.com/hamamatsu.chiita/
+photo.66.tags: sample, whiskers
+photo.67: ig://CvXnx97Bbvt/m
+photo.67.author: eos1089
+photo.67.commitdate: 2023/9/21
+photo.67.link: https://www.instagram.com/eos1089/
+photo.67.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 13171
 zoo: 31

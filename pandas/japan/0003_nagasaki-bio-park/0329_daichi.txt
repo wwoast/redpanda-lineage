@@ -79,8 +79,9 @@ photo.13.author: monmon_redpanda
 photo.13.commitdate: 2023/9/21
 photo.13.link: https://www.instagram.com/monmon_redpanda/
 photo.13.tags: apple time, paws, portrait, sample, whiskers
-photo.14: https://www.instagram.com/p/CydwaZPPA4B/media/?size=m
+photo.14: ig://CydwaZPPA4B/m
 photo.14.author: miis_98
+photo.14.commitdate: 2023/10/24
 photo.14.link: https://www.instagram.com/miis_98/
 photo.14.tags: laying down, paws, portrait, sample, whiskers
 species: 2

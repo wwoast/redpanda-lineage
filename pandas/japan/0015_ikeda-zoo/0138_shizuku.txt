@@ -296,8 +296,9 @@ photo.57.author: hamamatsu.chiita
 photo.57.commitdate: 2023/6/25
 photo.57.link: https://www.instagram.com/hamamatsu.chiita/
 photo.57.tags: mofumofu, portrait, sample, whiskers
-photo.58: https://www.instagram.com/p/Cx0Oy4cPVjn/media/?size=m
+photo.58: ig://Cx0Oy4cPVjn/m
 photo.58.author: makimaru18
+photo.58.commitdate: 2023/10/24
 photo.58.link: https://www.instagram.com/makimaru18/
 photo.58.tags: blink, close-up, portrait, tongue
 species: 2

@@ -216,8 +216,9 @@ photo.41.author: hamamatsu.chiita
 photo.41.commitdate: 2023/6/25
 photo.41.link: https://www.instagram.com/hamamatsu.chiita/
 photo.41.tags: mofumofu, portrait, sample
-photo.42: https://www.instagram.com/p/CxyiQ_khLo5/media/?size=m
+photo.42: ig://CxyiQ_khLo5/m
 photo.42.author: hamamatsu.chiita
+photo.42.commitdate: 2023/10/24
 photo.42.link: https://www.instagram.com/hamamatsu.chiita/
 photo.42.tags: bridge, portrait, tail, tree
 species: 2

@@ -144,8 +144,9 @@ photo.26.author: sasapan34
 photo.26.commitdate: 2023/6/24
 photo.26.link: https://www.instagram.com/sasapan34/
 photo.26.tags: sample
-photo.27: https://www.instagram.com/p/CycNMFdPRca/media/?size=m
+photo.27: ig://CycNMFdPRca/m
 photo.27.author: chankunvv
+photo.27.commitdate: 2023/10/24
 photo.27.link: https://www.instagram.com/chankunvv/
 photo.27.tags: mofumofu, portrait, sample, whiskers
 species: 2

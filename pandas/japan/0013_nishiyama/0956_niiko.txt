@@ -468,8 +468,9 @@ photo.91.author: yuredpanda
 photo.91.commitdate: 2023/9/21
 photo.91.link: https://www.instagram.com/yuredpanda/
 photo.91.tags: blink, close-up, laying down, mofumofu, sleeping, tree, techitechi
-photo.92: https://www.instagram.com/p/CyolkRKhRKV/media/?size=m
+photo.92: ig://CyolkRKhRKV/m
 photo.92.author: hamamatsu.chiita
+photo.92.commitdate: 2023/10/24
 photo.92.link: https://www.instagram.com/hamamatsu.chiita/
 photo.92.tags: laying down, portrait, sample, whiskers
 species: 2

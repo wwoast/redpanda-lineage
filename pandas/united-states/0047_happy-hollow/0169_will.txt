@@ -409,12 +409,14 @@ photo.80.author: hhpzoo
 photo.80.commitdate: 2023/8/11
 photo.80.link: https://www.instagram.com/hhpzoo/
 photo.80.tags: close-up, mofumofu, whiskers
-photo.81: https://www.instagram.com/p/CyOxRcwSg3o/media/?size=m
+photo.81: ig://CyOxRcwSg3o/m
 photo.81.author: wumpwoast
+photo.81.commitdate: 2023/10/24
 photo.81.link: https://www.instagram.com/wumpwoast/
 photo.81.tags: door, paws, portrait, sample
-photo.82: https://www.instagram.com/p/CyWrwjJSMGW/media/?size=m
+photo.82: ig://CyWrwjJSMGW/m
 photo.82.author: wumpwoast
+photo.82.commitdate: 2023/10/24
 photo.82.link: https://www.instagram.com/wumpwoast/
 photo.82.tags: dish, door, lunch time, portrait, sample, whiskers
 species: 1

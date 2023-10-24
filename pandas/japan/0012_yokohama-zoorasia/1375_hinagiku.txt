@@ -77,8 +77,9 @@ photo.13.author: minatomirai215
 photo.13.commitdate: 2023/9/15
 photo.13.link: https://www.instagram.com/minatomirai215/
 photo.13.tags: portrait, sample, smile
-photo.14: https://www.instagram.com/p/CyggGEQPsXV/media/?size=m
+photo.14: ig://CyggGEQPsXV/m
 photo.14.author: minatomirai215
+photo.14.commitdate: 2023/10/24
 photo.14.link: https://www.instagram.com/minatomirai215/
 photo.14.tags: portrait, sample, tail
 species: 2

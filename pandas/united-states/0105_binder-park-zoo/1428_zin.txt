@@ -13,14 +13,16 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/Cwu3TAFo7lB/media/?size=m
+photo.1: ig://CwXqzRSNTlj/m
 photo.1.author: binderparkzoo
+photo.1.commitdate: 2023/10/24
 photo.1.link: https://www.instagram.com/binderparkzoo/
-photo.1.tags: baby, bamboo, mofumofu, sample
-photo.2: https://www.instagram.com/p/CwXqzRSNTlj/media/?size=m
+photo.1.tags: baby, laying down, paws, playing, tongue
+photo.2: ig://Cwu3TAFo7lB/m
 photo.2.author: binderparkzoo
+photo.2.commitdate: 2023/10/24
 photo.2.link: https://www.instagram.com/binderparkzoo/
-photo.2.tags: baby, laying down, paws, playing, tongue
+photo.2.tags: baby, bamboo, mofumofu, sample
 species: 1
 studbook.id: unknown
 zoo: 105

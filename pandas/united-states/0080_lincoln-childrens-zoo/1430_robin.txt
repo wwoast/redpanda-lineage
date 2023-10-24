@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1429
-photo.1: https://www.instagram.com/p/CwSpio4sUgx/media/?size=m
+photo.1: ig://CwSpio4sUgx/m
 photo.1.author: lincolnchildrenszoo
+photo.1.commitdate: 2023/10/24
 photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.1.tags: baby, sample
 species: 2
