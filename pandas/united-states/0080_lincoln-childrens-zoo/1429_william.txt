@@ -1,0 +1,17 @@
+[panda]
+_id: 1429
+birthday: 2023/6/25
+birthplace: 80
+children: none
+commitdate: 2023/10/24
+en.name: William
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウィリアム
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1430
+species: 2
+zoo: 80

@@ -1,0 +1,26 @@
+[panda]
+_id: 1428
+birthday: 2023/6/24
+birthplace: 105
+children: none
+commitdate: 2023/10/24
+en.name: Zin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/Cwu3TAFo7lB/media/?size=m
+photo.1.author: binderparkzoo
+photo.1.link: https://www.instagram.com/binderparkzoo/
+photo.1.tags: baby, bamboo, mofumofu, sample
+photo.2: https://www.instagram.com/p/CwXqzRSNTlj/media/?size=m
+photo.2.author: binderparkzoo
+photo.2.link: https://www.instagram.com/binderparkzoo/
+photo.2.tags: baby, laying down, paws, playing, tongue
+species: 1
+studbook.id: unknown
+zoo: 105

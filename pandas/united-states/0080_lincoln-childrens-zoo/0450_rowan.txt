@@ -2,7 +2,7 @@
 _id: 450
 birthday: 2017/7/7
 birthplace: 89
-children: none
+children: 1429, 1430
 commitdate: 2018/11/25
 en.name: Rowan
 en.nicknames: none
@@ -85,6 +85,10 @@ photo.14.author: lincolnchildrenszoo
 photo.14.commitdate: 2023/4/3
 photo.14.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.14.tags: apple time, paws, portrait, sample, whiskers
+photo.15: https://www.instagram.com/p/CyTSSBMNyad/media/?size=m
+photo.15.author: lincolnchildrenszoo
+photo.15.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.15.tags: peek, portrait, sample, whiskers
 species: 2
 uncertainty: location.3 exact date (may be a month earlier)
 zoo: 80

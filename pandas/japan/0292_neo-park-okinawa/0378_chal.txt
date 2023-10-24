@@ -4,9 +4,9 @@ birthday: 2018/7/18
 birthplace: 6
 children: none
 commitdate: 2018/10/28
-en.name: Charu
+en.name: Chal
 en.nicknames: none
-en.othernames: Chal, Char
+en.othernames: Charu, Char
 gender: m
 jp.name: チャル
 jp.nicknames: none
@@ -180,6 +180,14 @@ photo.33.author: ck.chie
 photo.33.commitdate: 2023/4/21
 photo.33.link: https://www.instagram.com/ck.chie/
 photo.33.tags: laying down, paws, sample, tongue
+photo.34: https://www.instagram.com/p/Cx5Nr5MvuAJ/media/?size=m
+photo.34.author: neoparkokinawa
+photo.34.link: https://www.instagram.com/neoparkokinawa/
+photo.34.tags: bamboo, portrait, sample, tail, tongue
+photo.35: https://www.instagram.com/p/Cxpw8bWvmHd/media/?size=m
+photo.35.author: neoparkokinawa
+photo.35.link: https://www.instagram.com/neoparkokinawa/
+photo.35.tags: portrait, tongue
 species: 2
 studbook.id: unknown
 zoo: 292
