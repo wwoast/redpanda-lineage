@@ -14,8 +14,8 @@ jp.othernames: ピンジン
 language.order: en, jp
 litter: 543
 location.1: 81, 2017/6/22
-location.2: 129, 2019/1/1
-location.3: 303, 2021/5/14
+location.2: 129, 2018/5/30
+location.3: 303, 2021/5/13
 photo.1: ig://B9QktPrBo6G/m
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/3/2
@@ -78,5 +78,4 @@ photo.12.link: https://www.instagram.com/wumpwoast/
 photo.12.tags: bamboo, portrait, sample, tail
 species: 1
 studbook.id: 1727
-uncertainty: location.2 move date mm/yy, location.3 exact move date
 zoo: 303

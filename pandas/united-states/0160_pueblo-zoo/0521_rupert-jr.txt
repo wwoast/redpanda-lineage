@@ -16,7 +16,7 @@ litter: 651
 location.1: 124, 2011/7/3
 location.2: 101, 2012/5/23
 location.3: 113, 2014/11/14
-location.4: 160, 2019/7/1
+location.4: 160, 2019/6/6
 photo.1: ig://Bf88z3UHJO6/m
 photo.1.author: potterparkzoo
 photo.1.commitdate: 2019/3/12
@@ -73,5 +73,4 @@ photo.11.link: https://www.instagram.com/pueblozoo/
 photo.11.tags: bridge, close-up, nose, paws, peek, whiskers
 species: 1
 studbook.id: 1102
-uncertainty: location.4 date
 zoo: 160

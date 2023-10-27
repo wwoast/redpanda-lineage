@@ -4,7 +4,7 @@ birthday: 2010/6/12
 birthplace: 105
 children: 1006, 1007
 commitdate: 2019/4/15
-death: 2020/12/3
+death: 2020/11/25
 en.name: Sorrel
 en.nicknames: none
 en.othernames: none
@@ -48,5 +48,4 @@ photo.6.link: https://www.instagram.com/bhamzoo/
 photo.6.tags: flowers
 species: 1
 studbook.id: 1009
-uncertainty: death exact date
 zoo: 187

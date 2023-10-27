@@ -16,7 +16,7 @@ jp.othernames: none
 language.order: en, jp
 litter: none
 location.1: 108, 2019/6/14
-location.2: 166, 2021/3/1
+location.2: 166, 2021/3/23
 photo.1: ig://B0waQJEAvul/m
 photo.1.author: tennesseetrailsphotography
 photo.1.commitdate: 2019/12/5
@@ -94,5 +94,4 @@ photo.15.link: https://www.instagram.com/worldthathesees/
 photo.15.tags: portrait, sample, white face
 species: 1
 studbook.id: 1913
-uncertainty: location.2 exact date
 zoo: 166

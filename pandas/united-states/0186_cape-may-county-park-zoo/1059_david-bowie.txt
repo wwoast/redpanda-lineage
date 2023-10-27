@@ -12,10 +12,10 @@ jp.name: デビッド・ボウイ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 144, 2018/6/30
-location.2: 133, 2019/5/1
-location.3: 186, 2021/11/16
+location.2: 133, 2019/10/16
+location.3: 186, 2021/11/17
 photo.1: ig://BxlAQE6npN5/m
 photo.1.author: sunsetzoomhk
 photo.1.commitdate: 2020/5/11
@@ -108,5 +108,4 @@ photo.18.link: https://www.instagram.com/aimless_amos/
 photo.18.tags: close-up, paws, sample, standing, tail
 species: 1
 studbook.id: 1835
-uncertainty: location.2 date
 zoo: 186
