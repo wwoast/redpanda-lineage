@@ -1157,25 +1157,26 @@ photo.231.author: tomo3700
 photo.231.commitdate: 2023/2/25
 photo.231.link: https://www.instagram.com/tomo3700/
 photo.231.tags: portrait, sample, standing, whiskers
-photo.232: ig://CqARQjQPt7n/m
-photo.232.author: resapanlove
-photo.232.commitdate: 2023/10/18
-photo.232.link: https://www.instagram.com/resapanlove/
-photo.232.tags: apple time, paws, smile, standing, tail
-photo.233: ig://CqAlRJgrJYG/m
-photo.233.author: i.satosato
+photo.232: ig://CpRsjjpvDN2/m
+photo.232.author: falcon_tenor
+photo.232.commitdate: 2023/10/27
+photo.232.link: https://www.instagram.com/falcon_tenor/
+photo.232.tags: portrait, sample, smile, whiskers
+photo.233: ig://CqARQjQPt7n/m
+photo.233.author: resapanlove
 photo.233.commitdate: 2023/10/18
-photo.233.link: https://www.instagram.com/i.satosato/
-photo.233.tags: climb, paws, portrait, sample, tail, whiskers
-photo.234: ig://CrNh60FPr7a/m
-photo.234.author: imagoto17
-photo.234.commitdate: 2023/6/30
-photo.234.link: https://www.instagram.com/imagoto17/
-photo.234.tags: blink, paws, yawn
-photo.235: https://www.instagram.com/p/CpRsjjpvDN2/media/?size=m
-photo.235.author: falcon_tenor
-photo.235.link: https://www.instagram.com/falcon_tenor/
-photo.235.tags: portrait, sample, smile, whiskers
+photo.233.link: https://www.instagram.com/resapanlove/
+photo.233.tags: apple time, paws, smile, standing, tail
+photo.234: ig://CqAlRJgrJYG/m
+photo.234.author: i.satosato
+photo.234.commitdate: 2023/10/18
+photo.234.link: https://www.instagram.com/i.satosato/
+photo.234.tags: climb, paws, portrait, sample, tail, whiskers
+photo.235: ig://CrNh60FPr7a/m
+photo.235.author: imagoto17
+photo.235.commitdate: 2023/6/30
+photo.235.link: https://www.instagram.com/imagoto17/
+photo.235.tags: blink, paws, yawn
 species: 2
 studbook.id: 1789
 zoo: 36

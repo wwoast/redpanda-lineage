@@ -224,30 +224,31 @@ photo.42.author: kojikoji2011
 photo.42.commitdate: 2023/3/6
 photo.42.link: https://www.instagram.com/kojikoji2011/
 photo.42.tags: portrait, sample
-photo.43: ig://Cp-TvZUvd8i/m
-photo.43.author: kojikoji2011
-photo.43.commitdate: 2023/10/18
-photo.43.link: https://www.instagram.com/kojikoji2011/
-photo.43.tags: bamboo, bite, close-up, portrait, sample
-photo.44: ig://CqkpmbtvJQw/m
-photo.44.author: gloryeui
-photo.44.commitdate: 2023/6/9
-photo.44.link: https://www.instagram.com/gloryeui/
-photo.44.tags: bamboo, bite, paws, portrait
-photo.45: ig://CrEiumThOZM/m
-photo.45.author: hamamatsu.chiita
-photo.45.commitdate: 2023/6/30
-photo.45.link: https://www.instagram.com/hamamatsu.chiita/
-photo.45.tags: close-up, laying down, mofumofu, portrait, sample, sleeping
-photo.46: ig://CrMSh_UyKyw/m
-photo.46.author: resapanlove
-photo.46.commitdate: 2023/5/4
-photo.46.link: https://www.instagram.com/resapanlove/
-photo.46.tags: home, laying down, portrait, sample, tongue, yawn
-photo.47: https://www.instagram.com/p/CpV1uNHhJ-R/media/?size=m
-photo.47.author: hamamatsu.chiita
-photo.47.link: https://www.instagram.com/hamamatsu.chiita/
-photo.47.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.43: ig://CpV1uNHhJ-R/m
+photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2023/10/27
+photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.44: ig://Cp-TvZUvd8i/m
+photo.44.author: kojikoji2011
+photo.44.commitdate: 2023/10/18
+photo.44.link: https://www.instagram.com/kojikoji2011/
+photo.44.tags: bamboo, bite, close-up, portrait, sample
+photo.45: ig://CqkpmbtvJQw/m
+photo.45.author: gloryeui
+photo.45.commitdate: 2023/6/9
+photo.45.link: https://www.instagram.com/gloryeui/
+photo.45.tags: bamboo, bite, paws, portrait
+photo.46: ig://CrEiumThOZM/m
+photo.46.author: hamamatsu.chiita
+photo.46.commitdate: 2023/6/30
+photo.46.link: https://www.instagram.com/hamamatsu.chiita/
+photo.46.tags: close-up, laying down, mofumofu, portrait, sample, sleeping
+photo.47: ig://CrMSh_UyKyw/m
+photo.47.author: resapanlove
+photo.47.commitdate: 2023/5/4
+photo.47.link: https://www.instagram.com/resapanlove/
+photo.47.tags: home, laying down, portrait, sample, tongue, yawn
 species: 2
 studbook.id: 15163
 zoo: 6

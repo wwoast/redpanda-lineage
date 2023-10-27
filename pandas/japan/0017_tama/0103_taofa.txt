@@ -1013,40 +1013,41 @@ photo.200.author: redpan22
 photo.200.commitdate: 2023/4/8
 photo.200.link: https://www.instagram.com/redpan22/
 photo.200.tags: peek, sample, snow, tongue, whiskers
-photo.201: ig://Cpl7YuwvlVy/m
-photo.201.author: mini_cochi
-photo.201.commitdate: 2023/10/18
-photo.201.link: https://www.instagram.com/mini_cochi/
-photo.201.tags: laying down, paws, portrait, sample, tail
-photo.202: ig://Cpmp-i7P-OH/m
-photo.202.author: ck.chie
+photo.201: ig://CpVBWMKvveO/m
+photo.201.author: redpan22
+photo.201.commitdate: 2023/10/27
+photo.201.link: https://www.instagram.com/redpan22/
+photo.201.tags: playing, portrait, sample, snow
+photo.202: ig://Cpl7YuwvlVy/m
+photo.202.author: mini_cochi
 photo.202.commitdate: 2023/10/18
-photo.202.link: https://www.instagram.com/ck.chie/
-photo.202.tags: bamboo, portrait, sample, whiskers
-photo.203: ig://Cpmx365vcmi/m
-photo.203.author: alto0908
-photo.203.commitdate: 2023/5/29
-photo.203.link: https://www.instagram.com/alto0908/
-photo.203.tags: bamboo, bite, portrait, sample, whiskers
-photo.204: ig://Cp4o5CaPQhV/m
-photo.204.author: ck.chie
-photo.204.commitdate: 2023/10/18
-photo.204.link: https://www.instagram.com/ck.chie/
-photo.204.tags: bamboo, paws, sample
-photo.205: ig://CvSEnEtPC_2/m
-photo.205.author: mini_cochi
-photo.205.commitdate: 2023/7/31
-photo.205.link: https://www.instagram.com/mini_cochi/
-photo.205.tags: flowers, portrait, smile, tree, whiskers
-photo.206: ig://CyAUeojvFC8/m
-photo.206.author: na.mo.pan
-photo.206.commitdate: 2023/10/24
-photo.206.link: https://www.instagram.com/na.mo.pan/
-photo.206.tags: paws, portrait, sample, tree, whiskers
-photo.207: https://www.instagram.com/p/CpVBWMKvveO/media/?size=m
-photo.207.author: redpan22
-photo.207.link: https://www.instagram.com/redpan22/
-photo.207.tags: playing, portrait, sample, snow
+photo.202.link: https://www.instagram.com/mini_cochi/
+photo.202.tags: laying down, paws, portrait, sample, tail
+photo.203: ig://Cpmp-i7P-OH/m
+photo.203.author: ck.chie
+photo.203.commitdate: 2023/10/18
+photo.203.link: https://www.instagram.com/ck.chie/
+photo.203.tags: bamboo, portrait, sample, whiskers
+photo.204: ig://Cpmx365vcmi/m
+photo.204.author: alto0908
+photo.204.commitdate: 2023/5/29
+photo.204.link: https://www.instagram.com/alto0908/
+photo.204.tags: bamboo, bite, portrait, sample, whiskers
+photo.205: ig://Cp4o5CaPQhV/m
+photo.205.author: ck.chie
+photo.205.commitdate: 2023/10/18
+photo.205.link: https://www.instagram.com/ck.chie/
+photo.205.tags: bamboo, paws, sample
+photo.206: ig://CvSEnEtPC_2/m
+photo.206.author: mini_cochi
+photo.206.commitdate: 2023/7/31
+photo.206.link: https://www.instagram.com/mini_cochi/
+photo.206.tags: flowers, portrait, smile, tree, whiskers
+photo.207: ig://CyAUeojvFC8/m
+photo.207.author: na.mo.pan
+photo.207.commitdate: 2023/10/24
+photo.207.link: https://www.instagram.com/na.mo.pan/
+photo.207.tags: paws, portrait, sample, tree, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17

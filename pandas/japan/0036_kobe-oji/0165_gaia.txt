@@ -1118,35 +1118,36 @@ photo.223.author: miis_98
 photo.223.commitdate: 2023/3/9
 photo.223.link: https://www.instagram.com/miis_98/
 photo.223.tags: paws, portrait, sample, whiskers
-photo.224: ig://CpkW97avxaY/m
-photo.224.author: i.satosato
-photo.224.commitdate: 2023/5/29
-photo.224.link: https://www.instagram.com/i.satosato/
-photo.224.tags: mofumofu, portrait, sample
-photo.225: ig://CppGpXLPueI/m
-photo.225.author: falcon_tenor
-photo.225.commitdate: 2023/6/25
-photo.225.link: https://www.instagram.com/falcon_tenor/
-photo.225.tags: paws, portrait, sample, whiskers
-photo.226: ig://CqL2y9EBy0u/m
-photo.226.author: fetorus_mami
-photo.226.commitdate: 2023/10/18
-photo.226.link: https://www.instagram.com/fetorus_mami/
-photo.226.tags: apple time, close-up, sample, whiskers, window
-photo.227: ig://CrX7HPovYS8/m
-photo.227.author: i.satosato
-photo.227.commitdate: 2023/8/11
-photo.227.link: https://www.instagram.com/i.satosato/
-photo.227.tags: laying down, paws, sample, tail, whiskers
-photo.228: ig://CsBQ0Ptv0Uj/m
+photo.224: ig://CpR8EFDPL5J/m
+photo.224.author: imagoto17
+photo.224.commitdate: 2023/10/27
+photo.224.link: https://www.instagram.com/imagoto17/
+photo.224.tags: apple time, close-up, keeper, paws, sample
+photo.225: ig://CpkW97avxaY/m
+photo.225.author: i.satosato
+photo.225.commitdate: 2023/5/29
+photo.225.link: https://www.instagram.com/i.satosato/
+photo.225.tags: mofumofu, portrait, sample
+photo.226: ig://CppGpXLPueI/m
+photo.226.author: falcon_tenor
+photo.226.commitdate: 2023/6/25
+photo.226.link: https://www.instagram.com/falcon_tenor/
+photo.226.tags: paws, portrait, sample, whiskers
+photo.227: ig://CqL2y9EBy0u/m
+photo.227.author: fetorus_mami
+photo.227.commitdate: 2023/10/18
+photo.227.link: https://www.instagram.com/fetorus_mami/
+photo.227.tags: apple time, close-up, sample, whiskers, window
+photo.228: ig://CrX7HPovYS8/m
 photo.228.author: i.satosato
-photo.228.commitdate: 2023/9/30
+photo.228.commitdate: 2023/8/11
 photo.228.link: https://www.instagram.com/i.satosato/
-photo.228.tags: laying down, paws, portrait, sample, whiskers
-photo.229: https://www.instagram.com/p/CpR8EFDPL5J/media/?size=m
-photo.229.author: imagoto17
-photo.229.link: https://www.instagram.com/imagoto17/
-photo.229.tags: apple time, close-up, keeper, paws, sample
+photo.228.tags: laying down, paws, sample, tail, whiskers
+photo.229: ig://CsBQ0Ptv0Uj/m
+photo.229.author: i.satosato
+photo.229.commitdate: 2023/9/30
+photo.229.link: https://www.instagram.com/i.satosato/
+photo.229.tags: laying down, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

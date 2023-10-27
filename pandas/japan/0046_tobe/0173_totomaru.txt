@@ -583,40 +583,41 @@ photo.115.author: itsuak
 photo.115.commitdate: 2023/2/24
 photo.115.link: https://www.instagram.com/itsuak/
 photo.115.tags: portrait, sample
-photo.116: ig://CqAsvojPkXs/m
+photo.116: ig://CpP-0GHviYe/m
 photo.116.author: itsuak
-photo.116.commitdate: 2023/4/21
+photo.116.commitdate: 2023/10/27
 photo.116.link: https://www.instagram.com/itsuak/
-photo.116.tags: bamboo, paws, portrait, sample, standing, whiskers
-photo.117: ig://Cqp7lTXvc87/m
+photo.116.tags: bridge, portrait, sample, whiskers
+photo.117: ig://CqAsvojPkXs/m
 photo.117.author: itsuak
-photo.117.commitdate: 2023/5/16
+photo.117.commitdate: 2023/4/21
 photo.117.link: https://www.instagram.com/itsuak/
-photo.117.tags: laying down, portrait, sample
-photo.118: ig://Cq0XOkOvZHu/m
+photo.117.tags: bamboo, paws, portrait, sample, standing, whiskers
+photo.118: ig://Cqp7lTXvc87/m
 photo.118.author: itsuak
-photo.118.commitdate: 2023/5/4
+photo.118.commitdate: 2023/5/16
 photo.118.link: https://www.instagram.com/itsuak/
-photo.118.tags: bamboo, peek, portrait
-photo.119: ig://CrNsc08vvUw/m
+photo.118.tags: laying down, portrait, sample
+photo.119: ig://Cq0XOkOvZHu/m
 photo.119.author: itsuak
 photo.119.commitdate: 2023/5/4
 photo.119.link: https://www.instagram.com/itsuak/
-photo.119.tags: door, home, portrait, sample, smile
-photo.120: ig://Cr0XSLFPque/m
-photo.120.author: colette.jp
-photo.120.commitdate: 2023/6/30
-photo.120.link: https://www.instagram.com/colette.jp/
-photo.120.tags: ear, home, laying down, portrait, sample
-photo.121: ig://CsdLtTtPgr0/m
-photo.121.author: itsuak
-photo.121.commitdate: 2023/6/20
-photo.121.link: https://www.instagram.com/itsuak/
-photo.121.tags: bear worm, laying down, paws, sample
-photo.122: https://www.instagram.com/p/CpP-0GHviYe/media/?size=m
+photo.119.tags: bamboo, peek, portrait
+photo.120: ig://CrNsc08vvUw/m
+photo.120.author: itsuak
+photo.120.commitdate: 2023/5/4
+photo.120.link: https://www.instagram.com/itsuak/
+photo.120.tags: door, home, portrait, sample, smile
+photo.121: ig://Cr0XSLFPque/m
+photo.121.author: colette.jp
+photo.121.commitdate: 2023/6/30
+photo.121.link: https://www.instagram.com/colette.jp/
+photo.121.tags: ear, home, laying down, portrait, sample
+photo.122: ig://CsdLtTtPgr0/m
 photo.122.author: itsuak
+photo.122.commitdate: 2023/6/20
 photo.122.link: https://www.instagram.com/itsuak/
-photo.122.tags: bridge, portrait, sample, whiskers
+photo.122.tags: bear worm, laying down, paws, sample
 species: 2
 studbook.id: 15159
 zoo: 46

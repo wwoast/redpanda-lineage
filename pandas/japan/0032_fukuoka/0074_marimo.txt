@@ -664,20 +664,21 @@ photo.131.author: re_ichimaru
 photo.131.commitdate: 2023/3/11
 photo.131.link: https://www.instagram.com/re_ichimaru/
 photo.131.tags: air tasting, keeper, sample, scale, tongue
-photo.132: ig://Cp6t0EiP7N1/m
-photo.132.author: yossi929
-photo.132.commitdate: 2023/10/18
-photo.132.link: https://www.instagram.com/yossi929/
-photo.132.tags: keeper, paws, sample, standing
-photo.133: ig://CqXDX-Jv2r5/m
-photo.133.author: re_ichimaru
-photo.133.commitdate: 2023/4/21
-photo.133.link: https://www.instagram.com/re_ichimaru/
-photo.133.tags: peek, portrait, sample
-photo.134: https://www.instagram.com/p/CpRaTOfvvzV/media/?size=m
+photo.132: ig://CpRaTOfvvzV/m
+photo.132.author: re_ichimaru
+photo.132.commitdate: 2023/10/27
+photo.132.link: https://www.instagram.com/re_ichimaru/
+photo.132.tags: peek, sample
+photo.133: ig://Cp6t0EiP7N1/m
+photo.133.author: yossi929
+photo.133.commitdate: 2023/10/18
+photo.133.link: https://www.instagram.com/yossi929/
+photo.133.tags: keeper, paws, sample, standing
+photo.134: ig://CqXDX-Jv2r5/m
 photo.134.author: re_ichimaru
+photo.134.commitdate: 2023/4/21
 photo.134.link: https://www.instagram.com/re_ichimaru/
-photo.134.tags: peek, sample
+photo.134.tags: peek, portrait, sample
 species: 2
 studbook.id: 0862
 zoo: 32

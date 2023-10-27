@@ -53,8 +53,9 @@ photo.8.author: daniele.tokyo
 photo.8.commitdate: 2023/2/24
 photo.8.link: https://www.instagram.com/daniele.tokyo/
 photo.8.tags: baby, paws, sample, standing, tail
-photo.9: https://www.instagram.com/p/CpP06MXP55b/media/?size=m
+photo.9: ig://CpP06MXP55b/m
 photo.9.author: redpan22
+photo.9.commitdate: 2023/10/27
 photo.9.link: https://www.instagram.com/redpan22/
 photo.9.tags: baby, paws, sample, snow, tail
 species: 2
