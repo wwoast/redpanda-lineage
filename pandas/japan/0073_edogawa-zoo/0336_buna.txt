@@ -4,6 +4,7 @@ birthday: 2000/7/17
 birthplace: 40
 children: 290, 155
 commitdate: 2018/9/8
+death: 2023/10/27
 en.name: Buna
 en.nicknames: none
 en.othernames: Beech
@@ -695,6 +696,30 @@ photo.136.author: ssc6105
 photo.136.commitdate: 2023/9/21
 photo.136.link: https://www.instagram.com/ssc6105/
 photo.136.tags: eye, portrait, sample, tail
+photo.137: https://www.instagram.com/p/CkGB2fohUeH/media/?size=m
+photo.137.author: ssc6105
+photo.137.link: https://www.instagram.com/ssc6105/
+photo.137.tags: laying down, old, portrait, sample, tail
+photo.138: https://www.instagram.com/p/CqzS6lbvVV0/media/?size=m
+photo.138.author: edogawa.kankyozaidan
+photo.138.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.138.tags: close-up, dish, old, lunch time
+photo.139: https://www.instagram.com/p/CuJV7w_vEYY/media/?size=m
+photo.139.author: ck.chie
+photo.139.link: https://www.instagram.com/ck.chie/
+photo.139.tags: bamboo, door, tail
+photo.140: https://www.instagram.com/p/CgHKNnBrmdU/media/?size=m
+photo.140.author: ifumoto88
+photo.140.link: https://www.instagram.com/ifumoto88/
+photo.140.tags: peek, portrait
+photo.141: https://www.instagram.com/p/CvBzEQRPU1U/media/?size=m
+photo.141.author: edogawa.kankyozaidan
+photo.141.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.141.tags: bamboo, laying down, old, paws, sleeping
+photo.142: https://www.instagram.com/p/CuxwaFNBLji/media/?size=m
+photo.142.author: edogawa.kankyozaidan
+photo.142.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.142.tags: close-up, dish, lunch time, old
 species: 2
 studbook.id: 00102
 zoo: 73
