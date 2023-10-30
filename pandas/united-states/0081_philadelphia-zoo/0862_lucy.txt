@@ -16,7 +16,7 @@ jp.othernames: none
 language.order: en, jp
 litter: 861
 location.1: 177, 2018/6/25
-location.2: 81, 2021/8/1
+location.2: 81, 2021/6/4
 photo.1: ig://CTFOnhYsCLp/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2022/5/5
@@ -44,5 +44,4 @@ photo.5.link: https://www.instagram.com/philadelphiazoo/
 photo.5.tags: close-up, videolink, whiskers
 species: 1
 studbook.id: 1820
-uncertainty: location.2 exact date (first photo is august)
 zoo: 81
