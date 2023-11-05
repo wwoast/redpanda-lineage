@@ -639,15 +639,16 @@ photo.125.author: daniele.tokyo
 photo.125.commitdate: 2023/7/31
 photo.125.link: https://www.instagram.com/daniele.tokyo/
 photo.125.tags: laying down, paws
-photo.126: ig://Cwwo7PyPlHT/m
-photo.126.author: hamiiiii831_
-photo.126.commitdate: 2023/9/12
-photo.126.link: https://www.instagram.com/hamiiiii831_/
-photo.126.tags: paws, sample, smile, tongue
-photo.127: https://www.instagram.com/p/CvY410PPoqM/media/?size=m
-photo.127.author: hidehaya_biei
-photo.127.link: https://www.instagram.com/hidehaya_biei/
-photo.127.tags: sample
+photo.126: ig://CvY410PPoqM/m
+photo.126.author: hidehaya_biei
+photo.126.commitdate: 2023/11/5
+photo.126.link: https://www.instagram.com/hidehaya_biei/
+photo.126.tags: sample
+photo.127: ig://Cwwo7PyPlHT/m
+photo.127.author: hamiiiii831_
+photo.127.commitdate: 2023/9/12
+photo.127.link: https://www.instagram.com/hamiiiii831_/
+photo.127.tags: paws, sample, smile, tongue
 species: 2
 studbook.id: unknown
 zoo: 34
