@@ -688,8 +688,9 @@ photo.135.author: miis_98
 photo.135.commitdate: 2023/7/3
 photo.135.link: https://www.instagram.com/miis_98/
 photo.135.tags: flowers, paws, portrait, sample
-photo.136: https://www.instagram.com/p/CvWLGIGPg1-/media/?size=m
+photo.136: ig://CvWLGIGPg1-/m
 photo.136.author: tamazoowalking
+photo.136.commitdate: 2023/11/5
 photo.136.link: https://www.instagram.com/tamazoowalking/
 photo.136.tags: door, paws, portrait, sample, smile, tail
 species: 2

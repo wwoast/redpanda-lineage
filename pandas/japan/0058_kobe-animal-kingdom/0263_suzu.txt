@@ -369,15 +369,16 @@ photo.71.author: resapanlove
 photo.71.commitdate: 2023/4/21
 photo.71.link: https://www.instagram.com/resapanlove/
 photo.71.tags: mofumofu, paws, sample, smile
-photo.72: ig://Cw7SNw5J7-F/m
-photo.72.author: kobe_animalkingdom
-photo.72.commitdate: 2023/9/21
-photo.72.link: https://www.instagram.com/kobe_animalkingdom/
-photo.72.tags: portrait, sample, whiskers
-photo.73: https://www.instagram.com/p/CvcL3hxvbkE/media/?size=m
-photo.73.author: jas_forever_love
-photo.73.link: https://www.instagram.com/jas_forever_love/
-photo.73.tags: sample, whiskers
+photo.72: ig://CvcL3hxvbkE/m
+photo.72.author: jas_forever_love
+photo.72.commitdate: 2023/11/5
+photo.72.link: https://www.instagram.com/jas_forever_love/
+photo.72.tags: sample, whiskers
+photo.73: ig://Cw7SNw5J7-F/m
+photo.73.author: kobe_animalkingdom
+photo.73.commitdate: 2023/9/21
+photo.73.link: https://www.instagram.com/kobe_animalkingdom/
+photo.73.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 15144
 zoo: 58

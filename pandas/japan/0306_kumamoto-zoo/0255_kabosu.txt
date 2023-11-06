@@ -292,8 +292,9 @@ photo.55.author: yuredpanda
 photo.55.commitdate: 2023/8/11
 photo.55.link: https://www.instagram.com/yuredpanda/
 photo.55.tags: portrait, sample, whiskers
-photo.56: https://www.instagram.com/p/CvYygSbxZl5/media/?size=m
+photo.56: ig://CvYygSbxZl5/m
 photo.56.author: kumamoto_doushokubutsuen
+photo.56.commitdate: 2023/11/5
 photo.56.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.56.tags: hammock, peek
 species: 2

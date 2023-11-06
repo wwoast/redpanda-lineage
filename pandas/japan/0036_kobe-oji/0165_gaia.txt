@@ -1148,8 +1148,9 @@ photo.229.author: i.satosato
 photo.229.commitdate: 2023/9/30
 photo.229.link: https://www.instagram.com/i.satosato/
 photo.229.tags: laying down, paws, portrait, sample, whiskers
-photo.230: https://www.instagram.com/p/CvRnyn3hrVl/media/?size=m
+photo.230: ig://CvRnyn3hrVl/m
 photo.230.author: i.satosato
+photo.230.commitdate: 2023/11/5
 photo.230.link: https://www.instagram.com/i.satosato/
 photo.230.tags: bamboo, home, laying down, paws, tail
 species: 2

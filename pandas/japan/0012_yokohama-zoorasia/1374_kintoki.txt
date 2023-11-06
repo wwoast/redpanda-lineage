@@ -63,17 +63,20 @@ photo.10.author: kotata_513
 photo.10.commitdate: 2023/9/16
 photo.10.link: https://www.instagram.com/kotata_513/
 photo.10.tags: ear, laying down, portrait, sample
-photo.11: https://www.instagram.com/p/CyGfZQovKoZ/media/?size=m
-photo.11.author: mini_cochi
-photo.11.link: https://www.instagram.com/mini_cochi/
-photo.11.tags: ear, portrait, sample, smile, whiskers
-photo.12: https://www.instagram.com/p/CyI9q-5BKTC/media/?size=m
-photo.12.author: minatomirai215
-photo.12.link: https://www.instagram.com/minatomirai215/
-photo.12.tags: ear, paws, portrait, sample, smile, tree, whiskers
-photo.13: https://www.instagram.com/p/CxoiIwZyeAw/media/?size=m
-photo.13.author: miis_98
-photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: ear, paws, portrait, sample, smile, tail
+photo.11: ig://CxoiIwZyeAw/m
+photo.11.author: miis_98
+photo.11.commitdate: 2023/11/5
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: ear, paws, portrait, sample, smile, tail
+photo.12: ig://CyGfZQovKoZ/m
+photo.12.author: mini_cochi
+photo.12.commitdate: 2023/11/5
+photo.12.link: https://www.instagram.com/mini_cochi/
+photo.12.tags: ear, portrait, sample, smile, whiskers
+photo.13: ig://CyI9q-5BKTC/m
+photo.13.author: minatomirai215
+photo.13.commitdate: 2023/11/5
+photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: ear, paws, portrait, sample, smile, tree, whiskers
 species: 2
 zoo: 12

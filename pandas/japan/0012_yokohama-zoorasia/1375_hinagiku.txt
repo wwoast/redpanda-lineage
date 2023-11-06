@@ -62,48 +62,54 @@ photo.10.author: ck.chie
 photo.10.commitdate: 2023/8/11
 photo.10.link: https://www.instagram.com/ck.chie/
 photo.10.tags: keeper, paws, portrait, sample, smile
-photo.11: ig://Cu1XXd3PfvI/m
-photo.11.author: ssc6105
-photo.11.commitdate: 2023/9/21
-photo.11.link: https://www.instagram.com/ssc6105/
-photo.11.tags: air tasting, blink, laying down, portrait, sample, tongue
-photo.12: ig://CvIy7jrhUOr/m
-photo.12.author: alto0908
-photo.12.commitdate: 2023/7/31
-photo.12.link: https://www.instagram.com/alto0908/
-photo.12.tags: portrait, sample, smile, tongue
-photo.13: ig://CwguTvsPg1B/m
-photo.13.author: minatomirai215
-photo.13.commitdate: 2023/9/15
-photo.13.link: https://www.instagram.com/minatomirai215/
-photo.13.tags: portrait, sample, smile
-photo.14: ig://CyggGEQPsXV/m
-photo.14.author: minatomirai215
-photo.14.commitdate: 2023/10/24
-photo.14.link: https://www.instagram.com/minatomirai215/
-photo.14.tags: portrait, sample, tail
-photo.15: https://www.instagram.com/p/Cxk8ZOrPM15/media/?size=m
-photo.15.author: miis_98
-photo.15.link: https://www.instagram.com/miis_98/
-photo.15.tags: laying down, paws, playing, sample, smile, tail
-photo.16: https://www.instagram.com/p/CvcHL14PRib/media/?size=m
-photo.16.author: minatomirai215
-photo.16.link: https://www.instagram.com/minatomirai215/
-photo.16.tags: bamboo, home, peek, portrait, sample
-photo.17: https://www.instagram.com/p/CvcIRBtvuce/media/?size=m
-photo.17.author: ck.chie
-photo.17.link: https://www.instagram.com/ck.chie/
-photo.17.tags: home, sample, smile
-photo.18: https://www.instagram.com/p/CuHWShfPYNM/media/?size=m
-photo.18.author: ck.chie
-photo.18.link: https://www.instagram.com/ck.chie/
-photo.18.tags: sample, smile, tail
-photo.19: https://www.instagram.com/p/CumEow1vKDm/media/?size=m
-photo.19.author: ck.chie
-photo.19.link: https://www.instagram.com/ck.chie/
-photo.19.tags: family, paws, portrait, sample
-photo.20: https://www.instagram.com/p/CylhDnWPk4l/media/?size=m
+photo.11: ig://CuHWShfPYNM/m
+photo.11.author: ck.chie
+photo.11.commitdate: 2023/11/5
+photo.11.link: https://www.instagram.com/ck.chie/
+photo.11.tags: sample, smile, tail
+photo.12: ig://CumEow1vKDm/m
+photo.12.author: ck.chie
+photo.12.commitdate: 2023/11/5
+photo.12.link: https://www.instagram.com/ck.chie/
+photo.12.tags: family, paws, portrait, sample
+photo.13: ig://Cu1XXd3PfvI/m
+photo.13.author: ssc6105
+photo.13.commitdate: 2023/9/21
+photo.13.link: https://www.instagram.com/ssc6105/
+photo.13.tags: air tasting, blink, laying down, portrait, sample, tongue
+photo.14: ig://CvIy7jrhUOr/m
+photo.14.author: alto0908
+photo.14.commitdate: 2023/7/31
+photo.14.link: https://www.instagram.com/alto0908/
+photo.14.tags: portrait, sample, smile, tongue
+photo.15: ig://CvcHL14PRib/m
+photo.15.author: minatomirai215
+photo.15.commitdate: 2023/11/5
+photo.15.link: https://www.instagram.com/minatomirai215/
+photo.15.tags: bamboo, home, peek, portrait, sample
+photo.16: ig://CvcIRBtvuce/m
+photo.16.author: ck.chie
+photo.16.commitdate: 2023/11/5
+photo.16.link: https://www.instagram.com/ck.chie/
+photo.16.tags: home, sample, smile
+photo.17: ig://CwguTvsPg1B/m
+photo.17.author: minatomirai215
+photo.17.commitdate: 2023/9/15
+photo.17.link: https://www.instagram.com/minatomirai215/
+photo.17.tags: portrait, sample, smile
+photo.18: ig://Cxk8ZOrPM15/m
+photo.18.author: miis_98
+photo.18.commitdate: 2023/11/5
+photo.18.link: https://www.instagram.com/miis_98/
+photo.18.tags: laying down, paws, playing, sample, smile, tail
+photo.19: ig://CyggGEQPsXV/m
+photo.19.author: minatomirai215
+photo.19.commitdate: 2023/10/24
+photo.19.link: https://www.instagram.com/minatomirai215/
+photo.19.tags: portrait, sample, tail
+photo.20: ig://CylhDnWPk4l/m
 photo.20.author: eos1089
+photo.20.commitdate: 2023/11/5
 photo.20.link: https://www.instagram.com/eos1089/
 photo.20.tags: peek, portrait
 species: 2

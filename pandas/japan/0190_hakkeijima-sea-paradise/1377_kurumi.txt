@@ -133,58 +133,60 @@ photo.24.author: minatomirai215
 photo.24.commitdate: 2023/1/1
 photo.24.link: https://www.instagram.com/minatomirai215/
 photo.24.tags: baby, laying down, mofumofu, tail
-photo.25: ig://Ckn2s7Yvx74/m
-photo.25.author: pantasanzoo1
-photo.25.commitdate: 2022/12/24
-photo.25.link: https://www.instagram.com/pantasanzoo1/
-photo.25.tags: baby, whiskers, window
-photo.26: ig://Clf9Q-0PjE7/m
-photo.26.author: ssc6105
-photo.26.commitdate: 2023/1/26
-photo.26.link: https://www.instagram.com/ssc6105/
-photo.26.tags: dish, mofumofu, portrait, sample
-photo.27: ig://CmGZM6Fvjtu/m
+photo.25: ig://CkbNTeXP9Eu/m
+photo.25.author: alto0908
+photo.25.commitdate: 2023/11/5
+photo.25.link: https://www.instagram.com/alto0908/
+photo.25.tags: baby, mofumofu, paws, tail, whiskers
+photo.26: ig://Ckc73PZuFsD/m
+photo.26.author: gloryeui
+photo.26.commitdate: 2023/11/5
+photo.26.link: https://www.instagram.com/gloryeui/
+photo.26.tags: baby, close-up, mofumofu, playing, portrait
+photo.27: ig://Ckn2s7Yvx74/m
 photo.27.author: pantasanzoo1
-photo.27.commitdate: 2023/3/11
+photo.27.commitdate: 2022/12/24
 photo.27.link: https://www.instagram.com/pantasanzoo1/
-photo.27.tags: baby, dish, lunch time, sample, smile, whiskers
-photo.28: ig://CmTSUHjPbKw/m
-photo.28.author: gloryeui
-photo.28.commitdate: 2023/1/20
-photo.28.link: https://www.instagram.com/gloryeui/
-photo.28.tags: door, keeper, peek, tail
-photo.29: ig://CtGAb4Evkk0/m
-photo.29.author: gloryeui
-photo.29.commitdate: 2023/6/10
-photo.29.link: https://www.instagram.com/gloryeui/
-photo.29.tags: bear worm, laying down, portrait, upside-down
-photo.30: ig://Cth5T1gBM_z/m
-photo.30.author: miis_98
-photo.30.commitdate: 2023/6/25
-photo.30.link: https://www.instagram.com/miis_98/
-photo.30.tags: bamboo, bite, portrait, sample, white face
-photo.31: ig://Cw7Sw3iv5An/m
-photo.31.author: fetorus_mami
-photo.31.commitdate: 2023/9/21
-photo.31.link: https://www.instagram.com/fetorus_mami/
-photo.31.tags: hammock, sample, tail
-photo.32: ig://Cx2wvvsvRfE/m
-photo.32.author: minatomirai215
-photo.32.commitdate: 2023/10/24
-photo.32.link: https://www.instagram.com/minatomirai215/
-photo.32.tags: mofumofu, peek, portrait, sample, whiskers
-photo.33: ig://CyI5tQCBfBZ/m
-photo.33.author: gloryeui
-photo.33.commitdate: 2023/10/24
-photo.33.link: https://www.instagram.com/gloryeui/
-photo.33.tags: bamboo, mofumofu, peek, portrait, sample
-photo.34: https://www.instagram.com/p/Ckc73PZuFsD/media/?size=m
-photo.34.author: gloryeui
-photo.34.link: https://www.instagram.com/gloryeui/
-photo.34.tags: baby, close-up, mofumofu, playing, portrait
-photo.35: https://www.instagram.com/p/CkbNTeXP9Eu/media/?size=m
-photo.35.author: alto0908
-photo.35.link: https://www.instagram.com/alto0908/
-photo.35.tags: baby, mofumofu, paws, tail, whiskers
+photo.27.tags: baby, whiskers, window
+photo.28: ig://Clf9Q-0PjE7/m
+photo.28.author: ssc6105
+photo.28.commitdate: 2023/1/26
+photo.28.link: https://www.instagram.com/ssc6105/
+photo.28.tags: dish, mofumofu, portrait, sample
+photo.29: ig://CmGZM6Fvjtu/m
+photo.29.author: pantasanzoo1
+photo.29.commitdate: 2023/3/11
+photo.29.link: https://www.instagram.com/pantasanzoo1/
+photo.29.tags: baby, dish, lunch time, sample, smile, whiskers
+photo.30: ig://CmTSUHjPbKw/m
+photo.30.author: gloryeui
+photo.30.commitdate: 2023/1/20
+photo.30.link: https://www.instagram.com/gloryeui/
+photo.30.tags: door, keeper, peek, tail
+photo.31: ig://CtGAb4Evkk0/m
+photo.31.author: gloryeui
+photo.31.commitdate: 2023/6/10
+photo.31.link: https://www.instagram.com/gloryeui/
+photo.31.tags: bear worm, laying down, portrait, upside-down
+photo.32: ig://Cth5T1gBM_z/m
+photo.32.author: miis_98
+photo.32.commitdate: 2023/6/25
+photo.32.link: https://www.instagram.com/miis_98/
+photo.32.tags: bamboo, bite, portrait, sample, white face
+photo.33: ig://Cw7Sw3iv5An/m
+photo.33.author: fetorus_mami
+photo.33.commitdate: 2023/9/21
+photo.33.link: https://www.instagram.com/fetorus_mami/
+photo.33.tags: hammock, sample, tail
+photo.34: ig://Cx2wvvsvRfE/m
+photo.34.author: minatomirai215
+photo.34.commitdate: 2023/10/24
+photo.34.link: https://www.instagram.com/minatomirai215/
+photo.34.tags: mofumofu, peek, portrait, sample, whiskers
+photo.35: ig://CyI5tQCBfBZ/m
+photo.35.author: gloryeui
+photo.35.commitdate: 2023/10/24
+photo.35.link: https://www.instagram.com/gloryeui/
+photo.35.tags: bamboo, mofumofu, peek, portrait, sample
 species: 2
 zoo: 190

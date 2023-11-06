@@ -487,8 +487,9 @@ photo.95.author: nakacchi_desu
 photo.95.commitdate: 2023/5/4
 photo.95.link: https://www.instagram.com/nakacchi_desu/
 photo.95.tags: apple time, paws, teeth, window
-photo.96: https://www.instagram.com/p/CvWx02NB89K/media/?size=m
+photo.96: ig://CvWx02NB89K/m
 photo.96.author: oomoriyamazoo
+photo.96.commitdate: 2023/11/5
 photo.96.link: https://www.instagram.com/omoriyamazoo/
 photo.96.tags: peek, sample, tree, whiskers
 species: 2
