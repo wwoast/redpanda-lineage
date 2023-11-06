@@ -14,7 +14,7 @@ jp.othernames: none
 language.order: en, jp
 litter: 1000
 location.1: 65, 2018/6/23
-location.2: 43, 2020/1/1
+location.2: 43, 2019/10/21
 photo.1: ig://BzNYYOKApU6/m
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2019/7/2
@@ -280,6 +280,10 @@ photo.53.author: rossifari
 photo.53.commitdate: 2023/10/24
 photo.53.link: https://www.instagram.com/rossifari/
 photo.53.tags: sample, whiskers
+photo.54: https://www.instagram.com/p/CjOFfwIOqtA/media/?size=m
+photo.54.author: lipscer
+photo.54.link: https://www.instagram.com/lipscer/
+photo.54.tags: peek, tail, whiskers
 species: 2
-uncertainty: location.2 exact date (announced 1/31/20)
+studbook.id: 1818
 zoo: 43
