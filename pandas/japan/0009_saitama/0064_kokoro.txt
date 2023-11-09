@@ -15,6 +15,7 @@ language.order: jp, en
 litter: none
 location.1: 29, 2015/6/19
 location.2: 15, 2019/6/22
+location.3: 9, 2023/11/8
 photo.1: ig://BY2HeifhzmR/m
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/7
@@ -319,4 +320,4 @@ photo.61.commitdate: 2023/9/16
 photo.61.link: https://www.instagram.com/hamamatsu.chiita/
 photo.61.tags: portrait, sample, whiskers
 species: 2
-zoo: 15
+zoo: 9
