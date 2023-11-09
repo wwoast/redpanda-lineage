@@ -13,25 +13,30 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1425
-photo.1: https://www.instagram.com/p/CxcDJ9Ehe5K/media/?size=m
-photo.1.author: lesserpanda_shizuokacity_cp
-photo.1.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.1.tags: baby, newborn, scale
-photo.2: https://www.instagram.com/p/CxPDxOAvp9O/media/?size=m
-photo.2.author: nihondairazoo_szga
-photo.2.link: https://www.instagram.com/nihondairazoo_szga/
-photo.2.tags: baby, keeper, newborn, portrait, sample
-photo.3: https://www.instagram.com/p/CzPMI8phOyp/media/?size=m
-photo.3.author: monmon_redpanda
-photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: baby, portrait, profile, sample
-photo.4: https://www.instagram.com/p/CzLxrdiP7SA/media/?size=m
+photo.1: ig://CxPDxOAvp9O/m
+photo.1.author: nihondairazoo_szga
+photo.1.commitdate: 2023/11/8
+photo.1.link: https://www.instagram.com/nihondairazoo_szga/
+photo.1.tags: baby, keeper, newborn, portrait, sample
+photo.2: ig://CxcDJ9Ehe5K/m
+photo.2.author: lesserpanda_shizuokacity_cp
+photo.2.commitdate: 2023/11/8
+photo.2.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.2.tags: baby, newborn, scale
+photo.3: ig://CzLxrdiP7SA/m
+photo.3.author: tamazoowalking
+photo.3.commitdate: 2023/11/8
+photo.3.link: https://www.instagram.com/tamazoowalking/
+photo.3.tags: peek, portrait, sample
+photo.4: ig://CzLx901vtGT/m
 photo.4.author: tamazoowalking
+photo.4.commitdate: 2023/11/8
 photo.4.link: https://www.instagram.com/tamazoowalking/
-photo.4.tags: peek, portrait, sample
-photo.5: https://www.instagram.com/p/CzLx901vtGT/media/?size=m
-photo.5.author: tamazoowalking
-photo.5.link: https://www.instagram.com/tamazoowalking/
-photo.5.tags: baby, bamboo, mofumofu, portrait, sample, tail
+photo.4.tags: baby, bamboo, mofumofu, portrait, sample, tail
+photo.5: ig://CzPMI8phOyp/m
+photo.5.author: monmon_redpanda
+photo.5.commitdate: 2023/11/8
+photo.5.link: https://www.instagram.com/monmon_redpanda/
+photo.5.tags: baby, portrait, profile, sample
 species: 2
 zoo: 16

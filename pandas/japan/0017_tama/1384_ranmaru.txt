@@ -178,8 +178,9 @@ photo.33.author: tamazoowalking
 photo.33.commitdate: 2023/9/15
 photo.33.link: https://www.instagram.com/tamazoowalking/
 photo.33.tags: door, peek, portrait, sample, tail
-photo.34: https://www.instagram.com/p/CzIqlJaPvwf/media/?size=m
+photo.34: ig://CzIqlJaPvwf/m
 photo.34.author: tamazoowalking
+photo.34.commitdate: 2023/11/8
 photo.34.link: https://www.instagram.com/tamazoowalking/
 photo.34.tags: portrait, sample, whiskers
 species: 2

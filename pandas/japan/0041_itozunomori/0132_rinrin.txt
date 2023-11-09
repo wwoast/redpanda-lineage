@@ -285,8 +285,9 @@ photo.55.author: hamiiiii831_
 photo.55.commitdate: 2023/4/21
 photo.55.link: https://www.instagram.com/hamiiiii831_/
 photo.55.tags: paws, sample, standing
-photo.56: https://www.instagram.com/p/CzL0iJfv4h4/media/?size=m
+photo.56: ig://CzL0iJfv4h4/m
 photo.56.author: kojikoji2011
+photo.56.commitdate: 2023/11/8
 photo.56.link: https://www.instagram.com/kojikoji2011/
 photo.56.tags: portrait, sample, whiskers
 species: 2

@@ -505,8 +505,9 @@ photo.98.author: fetorus_mami
 photo.98.commitdate: 2023/7/31
 photo.98.link: https://www.instagram.com/fetorus_mami/
 photo.98.tags: keeper, laying down, paws, tail, upside-down
-photo.99: https://www.instagram.com/p/CzIaCPoPZAk/media/?size=m
+photo.99: ig://CzIaCPoPZAk/m
 photo.99.author: miis_98
+photo.99.commitdate: 2023/11/8
 photo.99.link: https://www.instagram.com/miis_98/
 photo.99.tags: sample, whiskers
 species: 2

@@ -319,8 +319,9 @@ photo.61.author: hamamatsu.chiita
 photo.61.commitdate: 2023/9/16
 photo.61.link: https://www.instagram.com/hamamatsu.chiita/
 photo.61.tags: portrait, sample, whiskers
-photo.62: https://www.instagram.com/p/CzOcqpPP5fG/media/?size=m
+photo.62: ig://CzOcqpPP5fG/m
 photo.62.author: makimaru18
+photo.62.commitdate: 2023/11/8
 photo.62.link: https://www.instagram.com/makimaru18/
 photo.62.tags: paws, portrait, sample, whiskers
 species: 2

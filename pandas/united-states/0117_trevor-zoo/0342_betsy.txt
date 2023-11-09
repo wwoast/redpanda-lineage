@@ -46,8 +46,9 @@ photo.6.author: rossifari
 photo.6.commitdate: 2022/7/28
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: bamboo, bite
-photo.7: https://www.instagram.com/p/CyZcTdJtjGh/media/?size=m
+photo.7: ig://CyZcTdJtjGh/m
 photo.7.author: trevorzoomillbrook
+photo.7.commitdate: 2023/11/8
 photo.7.link: https://www.instagram.com/trevorzoomillbrook/
 photo.7.tags: portrait, sample
 species: 1
