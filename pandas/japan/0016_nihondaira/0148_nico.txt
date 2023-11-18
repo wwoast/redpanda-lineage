@@ -817,19 +817,21 @@ photo.162.author: mini_cochi
 photo.162.commitdate: 2023/2/26
 photo.162.link: https://www.instagram.com/mini_cochi/
 photo.162.tags: bamboo, portrait, sample, whiskers
-photo.163: ig://CvJQsz-hxek/m
-photo.163.author: lesserpanda_shizuokacity_cp
-photo.163.commitdate: 2023/7/31
-photo.163.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.163.tags: bridge
-photo.164: https://www.instagram.com/p/CrDh6fSvTWs/media/?size=m
+photo.163: ig://CrDh6fSvTWs/m
+photo.163.author: taka__3428
+photo.163.commitdate: 2023/11/18
+photo.163.link: https://www.instagram.com/taka__3428/
+photo.163.tags: bamboo, close-up, paws, sample, tongue
+photo.164: ig://CrIw7lDvS-f/m
 photo.164.author: taka__3428
+photo.164.commitdate: 2023/11/18
 photo.164.link: https://www.instagram.com/taka__3428/
-photo.164.tags: bamboo, close-up, paws, sample, tongue
-photo.165: https://www.instagram.com/p/CrIw7lDvS-f/media/?size=m
-photo.165.author: taka__3428
-photo.165.link: https://www.instagram.com/taka__3428/
-photo.165.tags: bamboo, sample, smile, teeth
+photo.164.tags: bamboo, sample, smile, teeth
+photo.165: ig://CvJQsz-hxek/m
+photo.165.author: lesserpanda_shizuokacity_cp
+photo.165.commitdate: 2023/7/31
+photo.165.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.165.tags: bridge
 species: 2
 studbook.id: 1771
 zoo: 16

@@ -316,33 +316,36 @@ photo.61.author: tamazoowalking
 photo.61.commitdate: 2023/2/24
 photo.61.link: https://www.instagram.com/tamazoowalking/
 photo.61.tags: paws, portrait, sample
-photo.62: ig://CuCJMPCP9K3/m
-photo.62.author: kotata_513
-photo.62.commitdate: 2023/8/11
-photo.62.link: https://www.instagram.com/kotata_513/
-photo.62.tags: peek, sample, tail, whiskers
-photo.63: ig://CvB2FAMvMNX/m
+photo.62: ig://Cq2RNUrvf3b/m
+photo.62.author: tamazoowalking
+photo.62.commitdate: 2023/11/18
+photo.62.link: https://www.instagram.com/tamazoowalking/
+photo.62.tags: bamboo, portrait, sample, tongue, whiskers
+photo.63: ig://CrAjQVSPWnT/m
 photo.63.author: tamazoowalking
-photo.63.commitdate: 2023/7/31
+photo.63.commitdate: 2023/11/18
 photo.63.link: https://www.instagram.com/tamazoowalking/
-photo.63.tags: paws, portrait, sample, whiskers
-photo.64: ig://Cvrystcx8Gk/m
+photo.63.tags: blink, lips, portrait, sample, whiskers
+photo.64: ig://CrAjeutPag2/m
 photo.64.author: tamazoowalking
-photo.64.commitdate: 2023/8/23
+photo.64.commitdate: 2023/11/18
 photo.64.link: https://www.instagram.com/tamazoowalking/
-photo.64.tags: grumpy, peek, portrait, sample, techitechi, whiskers
-photo.65: https://www.instagram.com/p/Cq2RNUrvf3b/media/?size=m
-photo.65.author: tamazoowalking
-photo.65.link: https://www.instagram.com/tamazoowalking/
-photo.65.tags: bamboo, portrait, sample, tongue, whiskers
-photo.66: https://www.instagram.com/p/CrAjeutPag2/media/?size=m
+photo.64.tags: portrait, sample, whiskers
+photo.65: ig://CuCJMPCP9K3/m
+photo.65.author: kotata_513
+photo.65.commitdate: 2023/8/11
+photo.65.link: https://www.instagram.com/kotata_513/
+photo.65.tags: peek, sample, tail, whiskers
+photo.66: ig://CvB2FAMvMNX/m
 photo.66.author: tamazoowalking
+photo.66.commitdate: 2023/7/31
 photo.66.link: https://www.instagram.com/tamazoowalking/
-photo.66.tags: portrait, sample, whiskers
-photo.67: https://www.instagram.com/p/CrAjQVSPWnT/media/?size=m
+photo.66.tags: paws, portrait, sample, whiskers
+photo.67: ig://Cvrystcx8Gk/m
 photo.67.author: tamazoowalking
+photo.67.commitdate: 2023/8/23
 photo.67.link: https://www.instagram.com/tamazoowalking/
-photo.67.tags: blink, lips, portrait, sample, whiskers
+photo.67.tags: grumpy, peek, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 0770
 zoo: 17

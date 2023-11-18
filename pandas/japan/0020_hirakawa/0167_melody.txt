@@ -1112,20 +1112,21 @@ photo.220.author: yossi929
 photo.220.commitdate: 2023/6/9
 photo.220.link: https://www.instagram.com/yossi929/
 photo.220.tags: bamboo, peek, portrait, sample
-photo.221: ig://CrOL89xPAxK/m
+photo.221: ig://CrGckARvF4a/m
 photo.221.author: tomo3700
-photo.221.commitdate: 2023/5/4
+photo.221.commitdate: 2023/11/18
 photo.221.link: https://www.instagram.com/tomo3700/
-photo.221.tags: keeper, paws, portrait, standing, tail
-photo.222: ig://CvF-kcvBXWK/m
-photo.222.author: hamamatsu.chiita
-photo.222.commitdate: 2023/7/31
-photo.222.link: https://www.instagram.com/hamamatsu.chiita/
-photo.222.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
-photo.223: https://www.instagram.com/p/CrGckARvF4a/media/?size=m
-photo.223.author: tomo3700
-photo.223.link: https://www.instagram.com/tomo3700/
-photo.223.tags: autumn, portrait, sample, tail, tongue
+photo.221.tags: autumn, portrait, sample, tail, tongue
+photo.222: ig://CrOL89xPAxK/m
+photo.222.author: tomo3700
+photo.222.commitdate: 2023/5/4
+photo.222.link: https://www.instagram.com/tomo3700/
+photo.222.tags: keeper, paws, portrait, standing, tail
+photo.223: ig://CvF-kcvBXWK/m
+photo.223.author: hamamatsu.chiita
+photo.223.commitdate: 2023/7/31
+photo.223.link: https://www.instagram.com/hamamatsu.chiita/
+photo.223.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 1779
 zoo: 20

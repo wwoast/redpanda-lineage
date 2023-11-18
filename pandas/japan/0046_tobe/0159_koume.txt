@@ -343,8 +343,9 @@ photo.66.author: itsuak
 photo.66.commitdate: 2023/3/9
 photo.66.link: https://www.instagram.com/itsuak/
 photo.66.tags: bamboo, close-up, mofumofu, whiskers
-photo.67: https://www.instagram.com/p/CrGF79jvEdd/media/?size=m
+photo.67: ig://CrGF79jvEdd/m
 photo.67.author: itsuak
+photo.67.commitdate: 2023/11/18
 photo.67.link: https://www.instagram.com/itsuak/
 photo.67.tags: laying down, peek, portrait, sample, whiskers
 species: 2

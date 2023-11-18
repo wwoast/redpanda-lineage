@@ -980,32 +980,36 @@ photo.194.author: ifumoto88
 photo.194.commitdate: 2023/1/20
 photo.194.link: https://www.instagram.com/ifumoto88/
 photo.194.tags: paws, peek, sample, tail, tree
-photo.195: ig://CntdBNtPj6c/m
-photo.195.author: ssc6105
-photo.195.commitdate: 2023/3/9
-photo.195.link: https://www.instagram.com/ssc6105/
-photo.195.tags: sample
-photo.196: ig://CoLMrrbB4WD/m
-photo.196.author: alto0908
-photo.196.commitdate: 2023/3/6
-photo.196.link: https://www.instagram.com/alto0908/
-photo.196.tags: mofumofu, paws, sample
-photo.197: https://www.instagram.com/p/Cr1mDbrBJma/media/?size=m
-photo.197.author: alto0908
-photo.197.link: https://www.instagram.com/alto0908/
-photo.197.tags: bridge, lips, paws, sample, whiskers
-photo.198: https://www.instagram.com/p/CpCrWdRvpEb/media/?size=m
-photo.198.author: daniele.tokyo
-photo.198.link: https://www.instagram.com/daniele.tokyo/
-photo.198.tags: autumn, mofumofu, sample, tongue
-photo.199: https://www.instagram.com/p/Cn4C1VKLZ03/media/?size=m
-photo.199.author: ifumoto88
-photo.199.link: https://www.instagram.com/ifumoto88/
-photo.199.tags: keeper, paws, peek, sample
-photo.200: https://www.instagram.com/p/CnhVayPPwXy/media/?size=m
-photo.200.author: fetorus_mami
-photo.200.link: https://www.instagram.com/fetorus_mami/
-photo.200.tags: dish, tongue
+photo.195: ig://CnhVayPPwXy/m
+photo.195.author: fetorus_mami
+photo.195.commitdate: 2023/11/18
+photo.195.link: https://www.instagram.com/fetorus_mami/
+photo.195.tags: dish, tongue
+photo.196: ig://CntdBNtPj6c/m
+photo.196.author: ssc6105
+photo.196.commitdate: 2023/3/9
+photo.196.link: https://www.instagram.com/ssc6105/
+photo.196.tags: sample
+photo.197: ig://Cn4C1VKLZ03/m
+photo.197.author: ifumoto88
+photo.197.commitdate: 2023/11/18
+photo.197.link: https://www.instagram.com/ifumoto88/
+photo.197.tags: keeper, paws, peek, sample
+photo.198: ig://CoLMrrbB4WD/m
+photo.198.author: alto0908
+photo.198.commitdate: 2023/3/6
+photo.198.link: https://www.instagram.com/alto0908/
+photo.198.tags: mofumofu, paws, sample
+photo.199: ig://CpCrWdRvpEb/m
+photo.199.author: daniele.tokyo
+photo.199.commitdate: 2023/11/18
+photo.199.link: https://www.instagram.com/daniele.tokyo/
+photo.199.tags: autumn, mofumofu, sample, tongue
+photo.200: ig://Cr1mDbrBJma/m
+photo.200.author: alto0908
+photo.200.commitdate: 2023/11/18
+photo.200.link: https://www.instagram.com/alto0908/
+photo.200.tags: bridge, lips, paws, sample, whiskers
 species: 2
 studbook.id: 0872
 zoo: 1

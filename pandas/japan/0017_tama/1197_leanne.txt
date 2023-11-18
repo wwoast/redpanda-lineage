@@ -803,57 +803,60 @@ photo.158.author: ifumoto88
 photo.158.commitdate: 2023/2/24
 photo.158.link: https://www.instagram.com/ifumoto88/
 photo.158.tags: climb, paws, portrait, sample, smile, snow, tail, tree, upside-down
-photo.159: ig://CrO9CFyhys_/m
-photo.159.author: alto0908
-photo.159.commitdate: 2023/5/4
-photo.159.link: https://www.instagram.com/alto0908/
-photo.159.tags: peek, sample, tail, tree
-photo.160: ig://CrSD4R1vkw3/m
+photo.159: ig://CrDuLzrvaBv/m
+photo.159.author: mini_cochi
+photo.159.commitdate: 2023/11/18
+photo.159.link: https://www.instagram.com/mini_cochi/
+photo.159.tags: door, portrait, sample
+photo.160: ig://CrIOMrFvqM5/m
 photo.160.author: tamazoowalking
-photo.160.commitdate: 2023/5/4
+photo.160.commitdate: 2023/11/18
 photo.160.link: https://www.instagram.com/tamazoowalking/
-photo.160.tags: bamboo, mofumofu, paws, sample, whiskers
-photo.161: ig://CrWwFVYhzlA/m
-photo.161.author: mini_cochi
-photo.161.commitdate: 2023/8/10
-photo.161.link: https://www.instagram.com/mini_cochi/
-photo.161.tags: laying down, portrait, sample, tail, tree
-photo.162: ig://Cr6y9EdhZko/m
-photo.162.author: alto0908
-photo.162.commitdate: 2023/7/3
-photo.162.link: https://www.instagram.com/alto0908/
-photo.162.tags: bamboo, paws, portrait, shoots
-photo.163: ig://Cr8Gmyfv-2J/m
+photo.160.tags: close-up, portrait, sample, whiskers
+photo.161: ig://CrO9CFyhys_/m
+photo.161.author: alto0908
+photo.161.commitdate: 2023/5/4
+photo.161.link: https://www.instagram.com/alto0908/
+photo.161.tags: peek, sample, tail, tree
+photo.162: ig://CrSD4R1vkw3/m
+photo.162.author: tamazoowalking
+photo.162.commitdate: 2023/5/4
+photo.162.link: https://www.instagram.com/tamazoowalking/
+photo.162.tags: bamboo, mofumofu, paws, sample, whiskers
+photo.163: ig://CrWwFVYhzlA/m
 photo.163.author: mini_cochi
-photo.163.commitdate: 2023/6/30
+photo.163.commitdate: 2023/8/10
 photo.163.link: https://www.instagram.com/mini_cochi/
-photo.163.tags: bamboo, portrait, sample, shoots
-photo.164: ig://CtjPRhDPMQ-/m
-photo.164.author: tamazoowalking
-photo.164.commitdate: 2023/8/8
-photo.164.link: https://www.instagram.com/tamazoowalking/
-photo.164.tags: close-up, mofumofu, sample
-photo.165: ig://CtjWndzva6H/m
-photo.165.author: tamazoowalking
-photo.165.commitdate: 2023/8/8
-photo.165.link: https://www.instagram.com/tamazoowalking/
-photo.165.tags: close-up, laying down, portrait, sample
-photo.166: ig://Ct8DlK0PalZ/m
-photo.166.author: tamazoowalking
-photo.166.commitdate: 2023/8/11
-photo.166.link: https://www.instagram.com/tamazoowalking/
-photo.166.tags: paws, sample, standing, whiskers
-photo.167: https://www.instagram.com/p/Cr0Y80APvvU/media/?size=m
-photo.167.author: ck.chie
-photo.167.link: https://www.instagram.com/ck.chie/
-photo.167.tags: bamboo, paws, standing
-photo.168: https://www.instagram.com/p/CrIOMrFvqM5/media/?size=m
+photo.163.tags: laying down, portrait, sample, tail, tree
+photo.164: ig://Cr0Y80APvvU/m
+photo.164.author: ck.chie
+photo.164.commitdate: 2023/11/18
+photo.164.link: https://www.instagram.com/ck.chie/
+photo.164.tags: bamboo, paws, standing
+photo.165: ig://Cr6y9EdhZko/m
+photo.165.author: alto0908
+photo.165.commitdate: 2023/7/3
+photo.165.link: https://www.instagram.com/alto0908/
+photo.165.tags: bamboo, paws, portrait, shoots
+photo.166: ig://Cr8Gmyfv-2J/m
+photo.166.author: mini_cochi
+photo.166.commitdate: 2023/6/30
+photo.166.link: https://www.instagram.com/mini_cochi/
+photo.166.tags: bamboo, portrait, sample, shoots
+photo.167: ig://CtjPRhDPMQ-/m
+photo.167.author: tamazoowalking
+photo.167.commitdate: 2023/8/8
+photo.167.link: https://www.instagram.com/tamazoowalking/
+photo.167.tags: close-up, mofumofu, sample
+photo.168: ig://CtjWndzva6H/m
 photo.168.author: tamazoowalking
+photo.168.commitdate: 2023/8/8
 photo.168.link: https://www.instagram.com/tamazoowalking/
-photo.168.tags: close-up, portrait, sample, whiskers
-photo.169: https://www.instagram.com/p/CrDuLzrvaBv/media/?size=m
-photo.169.author: mini_cochi
-photo.169.link: https://www.instagram.com/mini_cochi/
-photo.169.tags: door, portrait, sample
+photo.168.tags: close-up, laying down, portrait, sample
+photo.169: ig://Ct8DlK0PalZ/m
+photo.169.author: tamazoowalking
+photo.169.commitdate: 2023/8/11
+photo.169.link: https://www.instagram.com/tamazoowalking/
+photo.169.tags: paws, sample, standing, whiskers
 species: 2
 zoo: 17

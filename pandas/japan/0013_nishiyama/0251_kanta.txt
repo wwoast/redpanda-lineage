@@ -484,15 +484,16 @@ photo.94.author: apple_jasmine33
 photo.94.commitdate: 2023/10/18
 photo.94.link: https://www.instagram.com/apple_jasmine33/
 photo.94.tags: whiskers
-photo.95: ig://CrOz24OB79z/m
-photo.95.author: hamamatsu.chiita
-photo.95.commitdate: 2023/5/4
-photo.95.link: https://www.instagram.com/hamamatsu.chiita/
-photo.95.tags: paws, portrait, sample
-photo.96: https://www.instagram.com/p/CrIJojrvKyy/media/?size=m
-photo.96.author: minato.yokohama4416
-photo.96.link: https://www.instagram.com/minato.yokohama4416/
-photo.96.tags: portrait, sample, whiskers
+photo.95: ig://CrIJojrvKyy/m
+photo.95.author: minato.yokohama4416
+photo.95.commitdate: 2023/11/18
+photo.95.link: https://www.instagram.com/minato.yokohama4416/
+photo.95.tags: portrait, sample, whiskers
+photo.96: ig://CrOz24OB79z/m
+photo.96.author: hamamatsu.chiita
+photo.96.commitdate: 2023/5/4
+photo.96.link: https://www.instagram.com/hamamatsu.chiita/
+photo.96.tags: paws, portrait, sample
 species: 2
 studbook.id: unknown
 zoo: 13

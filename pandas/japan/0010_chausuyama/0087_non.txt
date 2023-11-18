@@ -424,15 +424,16 @@ photo.83.author: shigeko0531
 photo.83.commitdate: 2023/6/18
 photo.83.link: https://www.instagram.com/shigeko0531/
 photo.83.tags: blink, dish, sample, smile, tail
-photo.84: ig://Ctq3_fePPJ5/m
-photo.84.author: shigeko0531
-photo.84.commitdate: 2023/8/8
-photo.84.link: https://www.instagram.com/shigeko0531/
-photo.84.tags: sample, tongue, whiskers
-photo.85: https://www.instagram.com/p/Cq0I5puPi8h/media/?size=m
-photo.85.author: hamiiiii831_
-photo.85.link: https://www.instagram.com/hamiiiii831_/
-photo.85.tags: sample, whiskers
+photo.84: ig://Cq0I5puPi8h/m
+photo.84.author: hamiiiii831_
+photo.84.commitdate: 2023/11/18
+photo.84.link: https://www.instagram.com/hamiiiii831_/
+photo.84.tags: sample, whiskers
+photo.85: ig://Ctq3_fePPJ5/m
+photo.85.author: shigeko0531
+photo.85.commitdate: 2023/8/8
+photo.85.link: https://www.instagram.com/shigeko0531/
+photo.85.tags: sample, tongue, whiskers
 species: 2
 studbook.id: 0988
 zoo: 10
