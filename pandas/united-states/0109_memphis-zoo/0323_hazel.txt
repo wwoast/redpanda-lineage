@@ -155,8 +155,9 @@ photo.28.author: worldthathesees
 photo.28.commitdate: 2023/8/8
 photo.28.link: https://www.instagram.com/worldthathesees/
 photo.28.tags: peek, portrait, sample, whiskers
-photo.29: https://www.instagram.com/p/CwpNqfmuXHH/media/?size=m
+photo.29: ig://CwpNqfmuXHH/m
 photo.29.author: worldthathesees
+photo.29.commitdate: 2023/11/18
 photo.29.link: https://www.instagram.com/worldthathesees/
 photo.29.tags: ear, whiskers
 species: 2

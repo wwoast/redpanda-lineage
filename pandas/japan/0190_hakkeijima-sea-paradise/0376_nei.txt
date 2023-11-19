@@ -505,15 +505,16 @@ photo.98.author: fetorus_mami
 photo.98.commitdate: 2023/7/31
 photo.98.link: https://www.instagram.com/fetorus_mami/
 photo.98.tags: keeper, laying down, paws, tail, upside-down
-photo.99: ig://CzIaCPoPZAk/m
-photo.99.author: miis_98
-photo.99.commitdate: 2023/11/8
-photo.99.link: https://www.instagram.com/miis_98/
-photo.99.tags: sample, whiskers
-photo.100: https://www.instagram.com/p/Cwg64u_PeK9/media/?size=m
-photo.100.author: fetorus_mami
-photo.100.link: https://www.instagram.com/fetorus_mami/
-photo.100.tags: paws, sample, standing, window
+photo.99: ig://Cwg64u_PeK9/m
+photo.99.author: fetorus_mami
+photo.99.commitdate: 2023/11/18
+photo.99.link: https://www.instagram.com/fetorus_mami/
+photo.99.tags: paws, sample, standing, window
+photo.100: ig://CzIaCPoPZAk/m
+photo.100.author: miis_98
+photo.100.commitdate: 2023/11/8
+photo.100.link: https://www.instagram.com/miis_98/
+photo.100.tags: sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 190

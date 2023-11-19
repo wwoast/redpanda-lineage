@@ -86,26 +86,31 @@ photo.14.author: wumpwoast
 photo.14.commitdate: 2021/11/21
 photo.14.link: https://www.instagram.com/wumpwoast/
 photo.14.tags: close-up, portrait, whiskers
-photo.14: https://www.instagram.com/p/Cjaj1YoO_fD/media/?size=m
-photo.14.author: timbavatiwildlifepark
-photo.14.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.14.tags: paws, peek
-photo.15: https://www.instagram.com/p/CkRFWyiO9PS/media/?size=m
+photo.15: ig://Cjaj1YoO_fD/m
 photo.15.author: timbavatiwildlifepark
+photo.15.commitdate: 2023/11/18
 photo.15.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.15.tags: lips, paws, sample, standing, whiskers
-photo.16: https://www.instagram.com/p/Cra4x75OJ5H/media/?size=m
+photo.15.tags: paws, peek
+photo.16: ig://CkRFWyiO9PS/m
 photo.16.author: timbavatiwildlifepark
+photo.16.commitdate: 2023/11/18
 photo.16.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.16.tags: peek, sample
-photo.17: https://www.instagram.com/p/CrDsRQKOSCv/media/?size=m
+photo.16.tags: lips, paws, sample, standing, whiskers
+photo.17: ig://CnRy4J3OEd9/m
 photo.17.author: timbavatiwildlifepark
+photo.17.commitdate: 2023/11/18
 photo.17.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.17.tags: paws, whiskers
-photo.18: https://www.instagram.com/p/CnRy4J3OEd9/media/?size=m
+photo.17.tags: close-up, whiskers
+photo.18: ig://CrDsRQKOSCv/m
 photo.18.author: timbavatiwildlifepark
+photo.18.commitdate: 2023/11/18
 photo.18.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.18.tags: close-up, whiskers
+photo.18.tags: paws, whiskers
+photo.19: ig://Cra4x75OJ5H/m
+photo.19.author: timbavatiwildlifepark
+photo.19.commitdate: 2023/11/18
+photo.19.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.19.tags: peek, sample
 species: 1
 studbook.id: 1721
 zoo: 303

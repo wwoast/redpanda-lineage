@@ -92,15 +92,16 @@ photo.16.author: kojikoji2011
 photo.16.commitdate: 2023/10/4
 photo.16.link: https://www.instagram.com/kojikoji2011/
 photo.16.tags: laying down, paws, portrait, sample, white face
-photo.17: ig://CuCVxypvRsQ/m
-photo.17.author: kojikoji2011
-photo.17.commitdate: 2023/8/11
-photo.17.link: https://www.instagram.com/kojikoji2011/
-photo.17.tags: laying down, portrait, sample, sleeping, tail
-photo.18: https://www.instagram.com/p/Ct6Isx1PJla/media/?size=m
-photo.18.author: joy93.87
-photo.18.link: https://www.instagram.com/joy93.87/
-photo.18.tags: laying down, sample, tongue, whiskers
+photo.17: ig://Ct6Isx1PJla/m
+photo.17.author: joy93.87
+photo.17.commitdate: 2023/11/18
+photo.17.link: https://www.instagram.com/joy93.87/
+photo.17.tags: laying down, sample, tongue, whiskers
+photo.18: ig://CuCVxypvRsQ/m
+photo.18.author: kojikoji2011
+photo.18.commitdate: 2023/8/11
+photo.18.link: https://www.instagram.com/kojikoji2011/
+photo.18.tags: laying down, portrait, sample, sleeping, tail
 species: 2
 studbook.id: 1197
 zoo: 42

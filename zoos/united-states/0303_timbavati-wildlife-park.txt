@@ -9,7 +9,8 @@ language.order: en
 latitude: 43.621581
 longitude: -89.782283
 map: https://goo.gl/maps/d9YpQhJgNojNgLeAA
-photo.1: https://www.instagram.com/p/CvXHniWPwth/media/?size=m
+photo.1: ig://CvXHniWPwth/m
 photo.1.author: timbavatiwildlifepark
+photo.1.commitdate: 2023/11/18
 photo.1.link: https://www.instagram.com/timbavatiwildlifepark/
 website: https://www.timbavatiwildlifepark.com/

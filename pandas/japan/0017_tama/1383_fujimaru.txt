@@ -253,27 +253,30 @@ photo.48.author: alto0908
 photo.48.commitdate: 2023/8/11
 photo.48.link: https://www.instagram.com/alto0908/
 photo.48.tags: friend, mofumofu, portrait, sample, whiskers
-photo.49: ig://Cwm6Yabvhmq/m
+photo.49: ig://CwUYVr2PSNe/m
 photo.49.author: tamazoowalking
-photo.49.commitdate: 2023/9/15
+photo.49.commitdate: 2023/11/18
 photo.49.link: https://www.instagram.com/tamazoowalking/
-photo.49.tags: mofumofu, paws, sample, surprise, tail
-photo.50: ig://CzINX0PvklP/m
-photo.50.author: tamazoowalking
-photo.50.commitdate: 2023/11/8
-photo.50.link: https://www.instagram.com/tamazoowalking/
-photo.50.tags: bridge, peek, portrait, sample, whiskers
-photo.51: https://www.instagram.com/p/CwUYVr2PSNe/media/?size=m
-photo.51.author: tamazoowalking
-photo.51.link: https://www.instagram.com/tamazoowalking/
-photo.51.tags: close-up, flowers, portrait, sample
-photo.52: https://www.instagram.com/p/CwXi4i5vcmp/media/?size=m
-photo.52.author: mini_cochi
-photo.52.link: https://www.instagram.com/mini_cochi/
-photo.52.tags: bite, laying down, paws, portrait, sample, surprise, whiskers
-photo.53: https://www.instagram.com/p/CwgYHzDBzrq/media/?size=m
-photo.53.author: ck.chie
-photo.53.link: https://www.instagram.com/ck.chie/
-photo.53.tags: paws, sample, smile, whiskers
+photo.49.tags: close-up, flowers, portrait, sample
+photo.50: ig://CwXi4i5vcmp/m
+photo.50.author: mini_cochi
+photo.50.commitdate: 2023/11/18
+photo.50.link: https://www.instagram.com/mini_cochi/
+photo.50.tags: bite, laying down, paws, portrait, sample, surprise, whiskers
+photo.51: ig://CwgYHzDBzrq/m
+photo.51.author: ck.chie
+photo.51.commitdate: 2023/11/18
+photo.51.link: https://www.instagram.com/ck.chie/
+photo.51.tags: paws, sample, smile, whiskers
+photo.52: ig://Cwm6Yabvhmq/m
+photo.52.author: tamazoowalking
+photo.52.commitdate: 2023/9/15
+photo.52.link: https://www.instagram.com/tamazoowalking/
+photo.52.tags: mofumofu, paws, sample, surprise, tail
+photo.53: ig://CzINX0PvklP/m
+photo.53.author: tamazoowalking
+photo.53.commitdate: 2023/11/8
+photo.53.link: https://www.instagram.com/tamazoowalking/
+photo.53.tags: bridge, peek, portrait, sample, whiskers
 species: 2
 zoo: 17

@@ -76,8 +76,9 @@ photo.12.author: wumpwoast
 photo.12.commitdate: 2022/1/7
 photo.12.link: https://www.instagram.com/wumpwoast/
 photo.12.tags: bamboo, portrait, sample, tail
-photo.13: https://www.instagram.com/p/CwfP98DOxeB/media/?size=m
+photo.13: ig://CwfP98DOxeB/m
 photo.13.author: timbavatiwildlifepark
+photo.13.commitdate: 2023/11/18
 photo.13.link: https://www.instagram.com/timbavatiwildlifepark/
 photo.13.tags: flowers, portrait, tail
 species: 1

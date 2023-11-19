@@ -254,15 +254,16 @@ photo.48.author: sasapan34
 photo.48.commitdate: 2023/10/4
 photo.48.link: https://www.instagram.com/sasapan34/
 photo.48.tags: apple time, paws, sample, smile
-photo.49: ig://CuCUsfvPIZT/m
-photo.49.author: re_ichimaru
-photo.49.commitdate: 2023/8/11
-photo.49.link: https://www.instagram.com/re_ichimaru/
-photo.49.tags: flowers, portrait, sample, whiskers
-photo.50: https://www.instagram.com/p/Ct6EYG3PY8E/media/?size=m
-photo.50.author: joy93.87
-photo.50.link: https://www.instagram.com/joy93.87/
-photo.50.tags: paws, sample, tail
+photo.49: ig://Ct6EYG3PY8E/m
+photo.49.author: joy93.87
+photo.49.commitdate: 2023/11/18
+photo.49.link: https://www.instagram.com/joy93.87/
+photo.49.tags: paws, sample, tail
+photo.50: ig://CuCUsfvPIZT/m
+photo.50.author: re_ichimaru
+photo.50.commitdate: 2023/8/11
+photo.50.link: https://www.instagram.com/re_ichimaru/
+photo.50.tags: flowers, portrait, sample, whiskers
 species: 2
 studbook.id: 1686
 zoo: 42

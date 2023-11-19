@@ -522,8 +522,9 @@ photo.101.author: hamamatsu.chiita
 photo.101.commitdate: 2023/7/31
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
 photo.101.tags: portrait, sample, whiskers
-photo.102: https://www.instagram.com/p/CwYc4CYBRbQ/media/?size=m
+photo.102: ig://CwYc4CYBRbQ/m
 photo.102.author: hamamatsu.chiita
+photo.102.commitdate: 2023/11/18
 photo.102.link: https://www.instagram.com/hamamatsu.chiita/
 photo.102.tags: lips, portrait, sample, whiskers
 species: 2

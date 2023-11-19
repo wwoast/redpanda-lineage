@@ -300,26 +300,30 @@ photo.57.author: nasu_animal_kingdom
 photo.57.commitdate: 2023/8/11
 photo.57.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.57.tags: portrait, sample
-photo.58: ig://CwuIZxaPELe/m
-photo.58.author: sakikukeco
-photo.58.commitdate: 2023/9/12
-photo.58.link: https://www.instagram.com/sakikukeco/
-photo.58.tags: air tasting, portrait, sample, tongue, whiskers
-photo.59: https://www.instagram.com/p/CyV4z8gPdZo/media/?size=m
-photo.59.author: panda.daisuki
-photo.59.link: https://www.instagram.com/panda.daisuki/
-photo.59.tags: peek, sample, whiskers
-photo.60: https://www.instagram.com/p/CykUokuPwbH/media/?size=m
-photo.60.author: nasu_animal_kingdom
-photo.60.link: https://www.instagram.com/nasu_animal_kingdom/
-photo.60.tags: air tasting, tongue, whiskers
-photo.61: https://www.instagram.com/p/CvyiFxRPDdv/media/?size=m
-photo.61.author: hamiiiii831_
-photo.61.link: https://www.instagram.com/hamiiiii831_/
-photo.61.tags: peek, sample, tongue, whiskers
-photo.62: https://www.instagram.com/p/Cw080AgBKAa/media/?size=m
-photo.62.author: panda.daisuki
-photo.62.link: https://www.instagram.com/panda.daisuki/
-photo.62.tags: laying down, paws, sample, tongue
+photo.58: ig://CvyiFxRPDdv/m
+photo.58.author: hamiiiii831_
+photo.58.commitdate: 2023/11/18
+photo.58.link: https://www.instagram.com/hamiiiii831_/
+photo.58.tags: peek, sample, tongue, whiskers
+photo.59: ig://CwuIZxaPELe/m
+photo.59.author: sakikukeco
+photo.59.commitdate: 2023/9/12
+photo.59.link: https://www.instagram.com/sakikukeco/
+photo.59.tags: air tasting, portrait, sample, tongue, whiskers
+photo.60: ig://Cw080AgBKAa/m
+photo.60.author: panda.daisuki
+photo.60.commitdate: 2023/11/18
+photo.60.link: https://www.instagram.com/panda.daisuki/
+photo.60.tags: laying down, paws, sample, tongue
+photo.61: ig://CyV4z8gPdZo/m
+photo.61.author: panda.daisuki
+photo.61.commitdate: 2023/11/18
+photo.61.link: https://www.instagram.com/panda.daisuki/
+photo.61.tags: peek, sample, whiskers
+photo.62: ig://CykUokuPwbH/m
+photo.62.author: nasu_animal_kingdom
+photo.62.commitdate: 2023/11/18
+photo.62.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.62.tags: air tasting, tongue, whiskers
 species: 2
 zoo: 53
