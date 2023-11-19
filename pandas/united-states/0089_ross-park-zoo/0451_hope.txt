@@ -1,10 +1,10 @@
 [panda]
 _id: 451
-birthday: 2017/7/7
+birthday: 2017/6/11
 birthplace: 89
 children: none
 commitdate: 2018/11/25
-death: 2017/8/7
+death: 2017/8/5
 en.name: Hope
 en.nicknames: none
 en.othernames: none
@@ -30,5 +30,5 @@ photo.3.commitdate: 2018/11/25
 photo.3.link: https://www.instagram.com/rossparkzoo/
 photo.3.tags: baby, mofumofu
 species: 2
-studbook.id: unknown
+studbook.id: 1710
 zoo: 89

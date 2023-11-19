@@ -1,6 +1,6 @@
 [panda]
 _id: 450
-birthday: 2017/7/7
+birthday: 2017/6/11
 birthplace: 89
 children: 1429, 1430
 commitdate: 2018/11/25
@@ -13,7 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 451
-location.1: 89, 2017/7/7
+location.1: 89, 2017/6/11
 location.2: 90, 2019/5/7
 location.3: 80, 2023/3/2
 photo.1: ig://BaM4RR1nwID/m
@@ -91,5 +91,6 @@ photo.15.commitdate: 2023/10/24
 photo.15.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.15.tags: peek, portrait, sample, whiskers
 species: 2
+studbook.id: 1709
 uncertainty: location.3 exact date (may be a month earlier)
 zoo: 80
