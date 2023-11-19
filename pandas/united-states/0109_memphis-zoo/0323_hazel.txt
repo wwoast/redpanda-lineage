@@ -14,8 +14,8 @@ jp.othernames: 榛
 language.order: en, jp
 litter: 425
 location.1: 65, 2016/6/14
-location.2: 67, 2017/3/1
-location.3: 109, 2021/4/13
+location.2: 67, 2017/3/21
+location.3: 109, 2021/3/30
 photo.1: ig://Bek-hwZB3eS/m
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2018/12/11
@@ -155,7 +155,10 @@ photo.28.author: worldthathesees
 photo.28.commitdate: 2023/8/8
 photo.28.link: https://www.instagram.com/worldthathesees/
 photo.28.tags: peek, portrait, sample, whiskers
+photo.29: https://www.instagram.com/p/CwpNqfmuXHH/media/?size=m
+photo.29.author: worldthathesees
+photo.29.link: https://www.instagram.com/worldthathesees/
+photo.29.tags: ear, whiskers
 species: 2
 studbook.id: 1608
-uncertainty: location.2 exact date, location.3 exact date
 zoo: 109

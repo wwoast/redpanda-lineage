@@ -28,6 +28,18 @@ photo.3.author: potterparkzoo
 photo.3.commitdate: 2023/6/20
 photo.3.link: https://www.instagram.com/potterparkzoo/
 photo.3.tags: baby, peek
+photo.4: https://www.instagram.com/p/CwgrjyxLtDQ/media/?size=m
+photo.4.author: wumpwoast
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: peek, portrait
+photo.5: https://www.instagram.com/p/CwiEPsDLytZ/media/?size=m
+photo.5.author: wumpwoast
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: bamboo, peek, portrait
+photo.6: https://www.instagram.com/p/CwVAYjnMy1w/media/?size=m
+photo.6.author: potterparkzoo
+photo.6.link: https://www.instagram.com/potterparkzoo/
+photo.6.tags: smile, whiskers
 species: 1
 studbook.id: unknown
 zoo: 113
