@@ -2,7 +2,6 @@
 _id: media.61.mitsu-reimei
 commitdate: 2020/6/28
 panda.tags: 286, 959
-phoot.9.tags.286.location: 160, 230
 photo.1: ig://CBvENb0BwtB/l
 photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2020/6/28
@@ -64,4 +63,5 @@ photo.9.author: jas_forever_love
 photo.9.commitdate: 2023/7/3
 photo.9.link: https://www.instagram.com/jas_forever_love/
 photo.9.tags: brothers, nose, siblings, twins
+photo.9.tags.286.location: 160, 230
 photo.9.tags.959.location: 320, 230

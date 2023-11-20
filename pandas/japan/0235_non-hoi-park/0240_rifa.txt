@@ -14,7 +14,6 @@ jp.othernames: リーファ
 language.order: jp, en
 location.1: 17, 2018/6/7
 location.2: 235, 2020/1/28
-phoot.364.link: https://www.instagram.com/otenba_redpanda/
 photo.1: ig://BnlA42LlYgl/m
 photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2018/9/24
@@ -1888,6 +1887,10 @@ photo.376.author: apple_jasmine33
 photo.376.commitdate: 2023/6/30
 photo.376.link: https://www.instagram.com/apple_jasmine33/
 photo.376.tags: bamboo, paws, sample, whiskers
+photo.377: https://www.instagram.com/p/CpdxjQNPdZp/media/?size=m
+photo.377.author: ck.chie
+photo.377.link: https://www.instagram.com/ck.chie/
+photo.377.tags: paws, sample, smile, tree, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235
