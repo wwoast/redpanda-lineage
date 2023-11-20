@@ -546,30 +546,31 @@ photo.106.author: eos1089
 photo.106.commitdate: 2023/3/9
 photo.106.link: https://www.instagram.com/eos1089/
 photo.106.tags: blink, portrait, sample
-photo.107: ig://CpfQqaevHFv/m
+photo.107: ig://CpdrzcQBou2/m
 photo.107.author: alto0908
-photo.107.commitdate: 2023/5/23
+photo.107.commitdate: 2023/11/19
 photo.107.link: https://www.instagram.com/alto0908/
-photo.107.tags: door, home, layin down, mofumofu, portrait, sample, sleeping
-photo.108: ig://Cqmhpntvwrk/m
-photo.108.author: tamazoowalking
-photo.108.commitdate: 2023/7/3
-photo.108.link: https://www.instagram.com/tamazoowalking/
-photo.108.tags: portrait, sample, tail, whiskers
-photo.109: ig://CrJWEuyPTK6/m
-photo.109.author: eos1089
-photo.109.commitdate: 2023/11/18
-photo.109.link: https://www.instagram.com/eos1089/
-photo.109.tags: laying down, paws, portrait, sample
-photo.110: ig://CrOXa_wPlqo/m
+photo.107.tags: apple time, portrait, window
+photo.108: ig://CpfQqaevHFv/m
+photo.108.author: alto0908
+photo.108.commitdate: 2023/5/23
+photo.108.link: https://www.instagram.com/alto0908/
+photo.108.tags: door, home, layin down, mofumofu, portrait, sample, sleeping
+photo.109: ig://Cqmhpntvwrk/m
+photo.109.author: tamazoowalking
+photo.109.commitdate: 2023/7/3
+photo.109.link: https://www.instagram.com/tamazoowalking/
+photo.109.tags: portrait, sample, tail, whiskers
+photo.110: ig://CrJWEuyPTK6/m
 photo.110.author: eos1089
-photo.110.commitdate: 2023/5/4
+photo.110.commitdate: 2023/11/18
 photo.110.link: https://www.instagram.com/eos1089/
-photo.110.tags: paws, portrait, sample, standing, tail
-photo.111: https://www.instagram.com/p/CpdrzcQBou2/media/?size=m
-photo.111.author: alto0908
-photo.111.link: https://www.instagram.com/alto0908/
-photo.111.tags: apple time, portrait, window
+photo.110.tags: laying down, paws, portrait, sample
+photo.111: ig://CrOXa_wPlqo/m
+photo.111.author: eos1089
+photo.111.commitdate: 2023/5/4
+photo.111.link: https://www.instagram.com/eos1089/
+photo.111.tags: paws, portrait, sample, standing, tail
 species: 2
 studbook.id: 12118
 zoo: 54

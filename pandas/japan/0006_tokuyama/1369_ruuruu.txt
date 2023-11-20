@@ -188,29 +188,30 @@ photo.35.author: resapanlove
 photo.35.commitdate: 2023/2/24
 photo.35.link: https://www.instagram.com/resapanlove/
 photo.35.tags: blink, close-up, portrait, yawn
-photo.36: ig://CpfAGFpPyav/m
+photo.36: ig://CpZ2gIXP9TN/m
 photo.36.author: daniele.tokyo
-photo.36.commitdate: 2023/5/23
+photo.36.commitdate: 2023/11/19
 photo.36.link: https://www.instagram.com/daniele.tokyo/
-photo.36.tags: baby, laying down, paws, playing, tail
-photo.37: ig://CqLCQYCvLs0/m
-photo.37.author: gloryeui
-photo.37.commitdate: 2023/6/20
-photo.37.link: https://www.instagram.com/gloryeui/
-photo.37.tags: bamboo, mofumofu, peek, portrait, sample
-photo.38: ig://CqMNKMgBnYT/m
-photo.38.author: tomo3700
+photo.36.tags: baby, bite, mofumofu, sample
+photo.37: ig://CpfAGFpPyav/m
+photo.37.author: daniele.tokyo
+photo.37.commitdate: 2023/5/23
+photo.37.link: https://www.instagram.com/daniele.tokyo/
+photo.37.tags: baby, laying down, paws, playing, tail
+photo.38: ig://CqLCQYCvLs0/m
+photo.38.author: gloryeui
 photo.38.commitdate: 2023/6/20
-photo.38.link: https://www.instagram.com/tomo3700/
-photo.38.tags: baby, mofumofu, paws, peek, portrait
-photo.39: ig://CrA2TwFv0d-/m
-photo.39.author: daniele.tokyo
-photo.39.commitdate: 2023/11/18
-photo.39.link: https://www.instagram.com/daniele.tokyo/
-photo.39.tags: laying down, sample
-photo.40: https://www.instagram.com/p/CpZ2gIXP9TN/media/?size=m
+photo.38.link: https://www.instagram.com/gloryeui/
+photo.38.tags: bamboo, mofumofu, peek, portrait, sample
+photo.39: ig://CqMNKMgBnYT/m
+photo.39.author: tomo3700
+photo.39.commitdate: 2023/6/20
+photo.39.link: https://www.instagram.com/tomo3700/
+photo.39.tags: baby, mofumofu, paws, peek, portrait
+photo.40: ig://CrA2TwFv0d-/m
 photo.40.author: daniele.tokyo
+photo.40.commitdate: 2023/11/18
 photo.40.link: https://www.instagram.com/daniele.tokyo/
-photo.40.tags: baby, bite, mofumofu, sample
+photo.40.tags: laying down, sample
 species: 2
 zoo: 6

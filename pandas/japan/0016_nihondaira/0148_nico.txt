@@ -817,29 +817,31 @@ photo.162.author: mini_cochi
 photo.162.commitdate: 2023/2/26
 photo.162.link: https://www.instagram.com/mini_cochi/
 photo.162.tags: bamboo, portrait, sample, whiskers
-photo.163: ig://CrDh6fSvTWs/m
+photo.163: ig://CpZ0ogtPjzp/m
 photo.163.author: taka__3428
-photo.163.commitdate: 2023/11/18
+photo.163.commitdate: 2023/11/19
 photo.163.link: https://www.instagram.com/taka__3428/
-photo.163.tags: bamboo, close-up, paws, sample, tongue
-photo.164: ig://CrIw7lDvS-f/m
+photo.163.tags: bamboo, paws, sample, standing
+photo.164: ig://CpcqO0TvaBz/m
 photo.164.author: taka__3428
-photo.164.commitdate: 2023/11/18
+photo.164.commitdate: 2023/11/19
 photo.164.link: https://www.instagram.com/taka__3428/
-photo.164.tags: bamboo, sample, smile, teeth
-photo.165: ig://CvJQsz-hxek/m
-photo.165.author: lesserpanda_shizuokacity_cp
-photo.165.commitdate: 2023/7/31
-photo.165.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.165.tags: bridge
-photo.166: https://www.instagram.com/p/CpcqO0TvaBz/media/?size=m
+photo.164.tags: bamboo, close-up, paws
+photo.165: ig://CrDh6fSvTWs/m
+photo.165.author: taka__3428
+photo.165.commitdate: 2023/11/18
+photo.165.link: https://www.instagram.com/taka__3428/
+photo.165.tags: bamboo, close-up, paws, sample, tongue
+photo.166: ig://CrIw7lDvS-f/m
 photo.166.author: taka__3428
+photo.166.commitdate: 2023/11/18
 photo.166.link: https://www.instagram.com/taka__3428/
-photo.166.tags: bamboo, close-up, paws
-photo.167: https://www.instagram.com/p/CpZ0ogtPjzp/media/?size=m
-photo.167.author: taka__3428
-photo.167.link: https://www.instagram.com/taka__3428/
-photo.167.tags: bamboo, paws, sample, standing
+photo.166.tags: bamboo, sample, smile, teeth
+photo.167: ig://CvJQsz-hxek/m
+photo.167.author: lesserpanda_shizuokacity_cp
+photo.167.commitdate: 2023/7/31
+photo.167.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.167.tags: bridge
 species: 2
 studbook.id: 1771
 zoo: 16

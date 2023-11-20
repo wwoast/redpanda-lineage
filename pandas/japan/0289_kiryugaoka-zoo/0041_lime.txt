@@ -715,20 +715,21 @@ photo.140.author: ssc6105
 photo.140.commitdate: 2023/2/24
 photo.140.link: https://www.instagram.com/ssc6105/
 photo.140.tags: air tasting, bamboo, paws, sample, tongue, whiskers
-photo.141: ig://CvKyeLPPOUk/m
-photo.141.author: alto0908
-photo.141.commitdate: 2023/7/31
-photo.141.link: https://www.instagram.com/alto0908/
-photo.141.tags: portrait, sample, smile, whiskers
-photo.142: ig://CwPJtQ3vpAu/m
-photo.142.author: hamiiiii831_
-photo.142.commitdate: 2023/9/16
-photo.142.link: https://www.instagram.com/hamiiiii831_/
-photo.142.tags: sample, smile, whiskers
-photo.143: https://www.instagram.com/p/Cpcf9Y8vXfu/media/?size=m
-photo.143.author: ck.chie
-photo.143.link: https://www.instagram.com/ck.chie/
-photo.143.tags: lips, sample, tongue, whiskers
+photo.141: ig://Cpcf9Y8vXfu/m
+photo.141.author: ck.chie
+photo.141.commitdate: 2023/11/19
+photo.141.link: https://www.instagram.com/ck.chie/
+photo.141.tags: lips, sample, tongue, whiskers
+photo.142: ig://CvKyeLPPOUk/m
+photo.142.author: alto0908
+photo.142.commitdate: 2023/7/31
+photo.142.link: https://www.instagram.com/alto0908/
+photo.142.tags: portrait, sample, smile, whiskers
+photo.143: ig://CwPJtQ3vpAu/m
+photo.143.author: hamiiiii831_
+photo.143.commitdate: 2023/9/16
+photo.143.link: https://www.instagram.com/hamiiiii831_/
+photo.143.tags: sample, smile, whiskers
 species: 2
 studbook.id: 14165
 zoo: 289

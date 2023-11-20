@@ -294,30 +294,31 @@ photo.56.author: ssc6105
 photo.56.commitdate: 2023/3/23
 photo.56.link: https://www.instagram.com/ssc6105/
 photo.56.tags: apple time, paws, sample, toys, whiskers
-photo.57: ig://Cr6QpPcP_wu/m
-photo.57.author: eos1089
-photo.57.commitdate: 2023/7/3
-photo.57.link: https://www.instagram.com/eos1089/
-photo.57.tags: peek, portrait, toys
-photo.58: ig://Cs1Epjwv7iH/m
-photo.58.author: gloryeui
-photo.58.commitdate: 2023/6/20
-photo.58.link: https://www.instagram.com/gloryeui/
-photo.58.tags: portrait, sample, whiskers
-photo.59: ig://Cs8nzMVPVkl/m
-photo.59.author: tamazoowalking
+photo.57: ig://CpaMmNlvIhW/m
+photo.57.author: mini_cochi
+photo.57.commitdate: 2023/11/19
+photo.57.link: https://www.instagram.com/mini_cochi/
+photo.57.tags: bamboo, paws, portrait, sample
+photo.58: ig://Cr6QpPcP_wu/m
+photo.58.author: eos1089
+photo.58.commitdate: 2023/7/3
+photo.58.link: https://www.instagram.com/eos1089/
+photo.58.tags: peek, portrait, toys
+photo.59: ig://Cs1Epjwv7iH/m
+photo.59.author: gloryeui
 photo.59.commitdate: 2023/6/20
-photo.59.link: https://www.instagram.com/tamazoowalking/
-photo.59.tags: sample, tail, whiskers
-photo.60: ig://Cx2sztwvJbd/m
-photo.60.author: mini_cochi
-photo.60.commitdate: 2023/10/24
-photo.60.link: https://www.instagram.com/mini_cochi/
-photo.60.tags: flowers, portrait, tree
-photo.61: https://www.instagram.com/p/CpaMmNlvIhW/media/?size=m
+photo.59.link: https://www.instagram.com/gloryeui/
+photo.59.tags: portrait, sample, whiskers
+photo.60: ig://Cs8nzMVPVkl/m
+photo.60.author: tamazoowalking
+photo.60.commitdate: 2023/6/20
+photo.60.link: https://www.instagram.com/tamazoowalking/
+photo.60.tags: sample, tail, whiskers
+photo.61: ig://Cx2sztwvJbd/m
 photo.61.author: mini_cochi
+photo.61.commitdate: 2023/10/24
 photo.61.link: https://www.instagram.com/mini_cochi/
-photo.61.tags: bamboo, paws, portrait, sample
+photo.61.tags: flowers, portrait, tree
 species: 2
 studbook.id: unknown
 zoo: 69

@@ -760,33 +760,35 @@ photo.149.author: ssc6105
 photo.149.commitdate: 2023/2/24
 photo.149.link: https://www.instagram.com/ssc6105/
 photo.149.tags: keeper, paws, standing, tail
-photo.150: ig://CplfaIhBcmZ/m
-photo.150.author: ck.chie
-photo.150.commitdate: 2023/5/23
-photo.150.link: https://www.instagram.com/ck.chie/
-photo.150.tags: smile, whiskers
-photo.151: ig://Crvfi1pvbWs/m
-photo.151.author: mini_cochi
-photo.151.commitdate: 2023/5/3
-photo.151.link: https://www.instagram.com/mini_cochi/
-photo.151.tags: bamboo, portrait, sample
-photo.152: ig://CwPK0pWvr2c/m
-photo.152.author: hamiiiii831_
-photo.152.commitdate: 2023/9/16
-photo.152.link: https://www.instagram.com/hamiiiii831_/
-photo.152.tags: bamboo, paws, sample, standing
-photo.153: ig://CwPLP_TPZ-5/m
-photo.153.author: hamiiiii831_
-photo.153.commitdate: 2023/9/16
-photo.153.link: https://www.instagram.com/hamiiiii831_/
-photo.153.tags: bridge, laying down, paws, playing, sample
-photo.154: https://www.instagram.com/p/CpYrGRrBTcg/media/?size=m
-photo.154.author: alto0908
-photo.154.link: https://www.instagram.com/alto0908/
-photo.154.tags: bridge, portrait, sample, whiskers
-photo.155: https://www.instagram.com/p/CpYes9eB86l/media/?size=m
-photo.155.author: alto0908
-photo.155.link: https://www.instagram.com/alto0908/
-photo.155.tags: air tasting, close-up, laying down, sample, tongue, whiskers
+photo.150: ig://CpYes9eB86l/m
+photo.150.author: alto0908
+photo.150.commitdate: 2023/11/19
+photo.150.link: https://www.instagram.com/alto0908/
+photo.150.tags: air tasting, close-up, laying down, sample, tongue, whiskers
+photo.151: ig://CpYrGRrBTcg/m
+photo.151.author: alto0908
+photo.151.commitdate: 2023/11/19
+photo.151.link: https://www.instagram.com/alto0908/
+photo.151.tags: bridge, portrait, sample, whiskers
+photo.152: ig://CplfaIhBcmZ/m
+photo.152.author: ck.chie
+photo.152.commitdate: 2023/5/23
+photo.152.link: https://www.instagram.com/ck.chie/
+photo.152.tags: smile, whiskers
+photo.153: ig://Crvfi1pvbWs/m
+photo.153.author: mini_cochi
+photo.153.commitdate: 2023/5/3
+photo.153.link: https://www.instagram.com/mini_cochi/
+photo.153.tags: bamboo, portrait, sample
+photo.154: ig://CwPK0pWvr2c/m
+photo.154.author: hamiiiii831_
+photo.154.commitdate: 2023/9/16
+photo.154.link: https://www.instagram.com/hamiiiii831_/
+photo.154.tags: bamboo, paws, sample, standing
+photo.155: ig://CwPLP_TPZ-5/m
+photo.155.author: hamiiiii831_
+photo.155.commitdate: 2023/9/16
+photo.155.link: https://www.instagram.com/hamiiiii831_/
+photo.155.tags: bridge, laying down, paws, playing, sample
 species: 2
 zoo: 289

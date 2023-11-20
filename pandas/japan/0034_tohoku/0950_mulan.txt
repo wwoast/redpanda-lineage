@@ -582,19 +582,20 @@ photo.114.author: daniele.tokyo
 photo.114.commitdate: 2023/3/9
 photo.114.link: https://www.instagram.com/daniele.tokyo/
 photo.114.tags: paws, sample, snow, standing
-photo.115: ig://Cphk41AvMRd/m
-photo.115.author: daniele.tokyo
-photo.115.commitdate: 2023/5/29
-photo.115.link: https://www.instagram.com/daniele.tokyo/
-photo.115.tags: grooming, laying down, portrait, sample, tail
-photo.116: ig://Cr26_zMvtax/m
+photo.115: ig://CpeVPlmPqUs/m
+photo.115.author: hidehaya_biei
+photo.115.commitdate: 2023/11/19
+photo.115.link: https://www.instagram.com/hidehaya_biei/
+photo.115.tags: sample, whiskers
+photo.116: ig://Cphk41AvMRd/m
 photo.116.author: daniele.tokyo
-photo.116.commitdate: 2023/11/18
+photo.116.commitdate: 2023/5/29
 photo.116.link: https://www.instagram.com/daniele.tokyo/
-photo.116.tags: bridge, laying down, paws, peek, sample
-photo.117: https://www.instagram.com/p/CpeVPlmPqUs/media/?size=m
-photo.117.author: hidehaya_biei
-photo.117.link: https://www.instagram.com/hidehaya_biei/
-photo.117.tags: sample, whiskers
+photo.116.tags: grooming, laying down, portrait, sample, tail
+photo.117: ig://Cr26_zMvtax/m
+photo.117.author: daniele.tokyo
+photo.117.commitdate: 2023/11/18
+photo.117.link: https://www.instagram.com/daniele.tokyo/
+photo.117.tags: bridge, laying down, paws, peek, sample
 species: 2
 zoo: 34

@@ -1102,51 +1102,56 @@ photo.218.author: fetorus_mami
 photo.218.commitdate: 2023/2/26
 photo.218.link: https://www.instagram.com/fetorus_mami/
 photo.218.tags: bamboo, paws, portrait, sample, techitechi
-photo.219: ig://CpvvhjqP3Lx/m
-photo.219.author: yossi929
-photo.219.commitdate: 2023/10/18
-photo.219.link: https://www.instagram.com/yossi929/
-photo.219.tags: peek, sample
-photo.220: ig://CqjU2XChKRL/m
-photo.220.author: yossi929
-photo.220.commitdate: 2023/6/9
-photo.220.link: https://www.instagram.com/yossi929/
-photo.220.tags: bamboo, peek, portrait, sample
-photo.221: ig://CrGckARvF4a/m
-photo.221.author: tomo3700
-photo.221.commitdate: 2023/11/18
-photo.221.link: https://www.instagram.com/tomo3700/
-photo.221.tags: autumn, portrait, sample, tail, tongue
-photo.222: ig://CrOL89xPAxK/m
-photo.222.author: tomo3700
-photo.222.commitdate: 2023/5/4
-photo.222.link: https://www.instagram.com/tomo3700/
-photo.222.tags: keeper, paws, portrait, standing, tail
-photo.223: ig://CvF-kcvBXWK/m
-photo.223.author: hamamatsu.chiita
-photo.223.commitdate: 2023/7/31
-photo.223.link: https://www.instagram.com/hamamatsu.chiita/
-photo.223.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
-photo.224: https://www.instagram.com/p/CpcKnbmPnB2/media/?size=m
-photo.224.author: hamiiiii831_
-photo.224.link: https://www.instagram.com/hamiiiii831_/
-photo.224.tags: sample, tree, wet, whiskers
-photo.225: https://www.instagram.com/p/CpcKb7mPv9J/media/?size=m
-photo.225.author: hamiiiii831_
-photo.225.link: https://www.instagram.com/hamiiiii831_/
-photo.225.tags: paws, sample, whiskers
-photo.226: https://www.instagram.com/p/CpcJ3bSPRVN/media/?size=m
-photo.226.author: hamiiiii831_
-photo.226.link: https://www.instagram.com/hamiiiii831_/
-photo.226.tags: mofumofu, sample, tail, whiskers
-photo.227: https://www.instagram.com/p/CpcKFCFPyoD/media/?size=m
-photo.227.author: hamiiiii831_
-photo.227.link: https://www.instagram.com/hamiiiii831_/
-photo.227.tags: keeper, paws, sample, scale, standing
-photo.228: https://www.instagram.com/p/CpcKTvavq4R/media/?size=m
-photo.228.author: hamiiiii831_
-photo.228.link: https://www.instagram.com/hamiiiii831_/
-photo.228.tags: laying down, mofumofu, sample, whiskers
+photo.219: ig://CpcJ3bSPRVN/m
+photo.219.author: hamiiiii831_
+photo.219.commitdate: 2023/11/19
+photo.219.link: https://www.instagram.com/hamiiiii831_/
+photo.219.tags: mofumofu, sample, tail, whiskers
+photo.220: ig://CpcKFCFPyoD/m
+photo.220.author: hamiiiii831_
+photo.220.commitdate: 2023/11/19
+photo.220.link: https://www.instagram.com/hamiiiii831_/
+photo.220.tags: keeper, paws, sample, scale, standing
+photo.221: ig://CpcKTvavq4R/m
+photo.221.author: hamiiiii831_
+photo.221.commitdate: 2023/11/19
+photo.221.link: https://www.instagram.com/hamiiiii831_/
+photo.221.tags: laying down, mofumofu, sample, whiskers
+photo.222: ig://CpcKb7mPv9J/m
+photo.222.author: hamiiiii831_
+photo.222.commitdate: 2023/11/19
+photo.222.link: https://www.instagram.com/hamiiiii831_/
+photo.222.tags: paws, sample, whiskers
+photo.223: ig://CpcKnbmPnB2/m
+photo.223.author: hamiiiii831_
+photo.223.commitdate: 2023/11/19
+photo.223.link: https://www.instagram.com/hamiiiii831_/
+photo.223.tags: sample, tree, wet, whiskers
+photo.224: ig://CpvvhjqP3Lx/m
+photo.224.author: yossi929
+photo.224.commitdate: 2023/10/18
+photo.224.link: https://www.instagram.com/yossi929/
+photo.224.tags: peek, sample
+photo.225: ig://CqjU2XChKRL/m
+photo.225.author: yossi929
+photo.225.commitdate: 2023/6/9
+photo.225.link: https://www.instagram.com/yossi929/
+photo.225.tags: bamboo, peek, portrait, sample
+photo.226: ig://CrGckARvF4a/m
+photo.226.author: tomo3700
+photo.226.commitdate: 2023/11/18
+photo.226.link: https://www.instagram.com/tomo3700/
+photo.226.tags: autumn, portrait, sample, tail, tongue
+photo.227: ig://CrOL89xPAxK/m
+photo.227.author: tomo3700
+photo.227.commitdate: 2023/5/4
+photo.227.link: https://www.instagram.com/tomo3700/
+photo.227.tags: keeper, paws, portrait, standing, tail
+photo.228: ig://CvF-kcvBXWK/m
+photo.228.author: hamamatsu.chiita
+photo.228.commitdate: 2023/7/31
+photo.228.link: https://www.instagram.com/hamamatsu.chiita/
+photo.228.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 1779
 zoo: 20

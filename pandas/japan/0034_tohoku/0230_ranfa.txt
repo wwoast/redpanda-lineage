@@ -1163,20 +1163,21 @@ photo.231.author: daniele.tokyo
 photo.231.commitdate: 2023/4/8
 photo.231.link: https://www.instagram.com/daniele.tokyo/
 photo.231.tags: paws, sample, snow, tail, whiskers
-photo.232: ig://CqAebU-vgo3/m
-photo.232.author: daniele.tokyo
-photo.232.commitdate: 2023/10/18
-photo.232.link: https://www.instagram.com/daniele.tokyo/
-photo.232.tags: grooming, mofumofu, portrait, sample, tail
-photo.233: ig://CrVd78MPZAu/m
-photo.233.author: hidehaya_biei
-photo.233.commitdate: 2023/5/4
-photo.233.link: https://www.instagram.com/hidehaya_biei/
-photo.233.tags: sample, white face
-photo.234: https://www.instagram.com/p/Cpd1uxzBmS0/media/?size=m
+photo.232: ig://Cpd1uxzBmS0/m
+photo.232.author: hidehaya_biei
+photo.232.commitdate: 2023/11/19
+photo.232.link: https://www.instagram.com/hidehaya_biei/
+photo.232.tags: portrait
+photo.233: ig://CqAebU-vgo3/m
+photo.233.author: daniele.tokyo
+photo.233.commitdate: 2023/10/18
+photo.233.link: https://www.instagram.com/daniele.tokyo/
+photo.233.tags: grooming, mofumofu, portrait, sample, tail
+photo.234: ig://CrVd78MPZAu/m
 photo.234.author: hidehaya_biei
+photo.234.commitdate: 2023/5/4
 photo.234.link: https://www.instagram.com/hidehaya_biei/
-photo.234.tags: portrait
+photo.234.tags: sample, white face
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

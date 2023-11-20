@@ -1862,35 +1862,36 @@ photo.371.author: ck.chie
 photo.371.commitdate: 2023/10/27
 photo.371.link: https://www.instagram.com/ck.chie/
 photo.371.tags: paws, sample, tree
-photo.372: ig://CpgzjvzPyWd/m
-photo.372.author: gloryeui
-photo.372.commitdate: 2023/5/29
-photo.372.link: https://www.instagram.com/gloryeui/
-photo.372.tags: bamboo, bite, paws, portrait
-photo.373: ig://CppWxG9vTr6/m
-photo.373.author: kotata_513
-photo.373.commitdate: 2023/6/25
-photo.373.link: https://www.instagram.com/kotata_513/
-photo.373.tags: paws, portrait, sample, whiskers
-photo.374: ig://CrUHSJoBKz2/m
-photo.374.author: alto0908
-photo.374.commitdate: 2023/8/11
-photo.374.link: https://www.instagram.com/alto0908/
-photo.374.tags: bamboo, sample
-photo.375: ig://CrmSd0mhZfp/m
-photo.375.author: miis_98
-photo.375.commitdate: 2023/5/3
-photo.375.link: https://www.instagram.com/miis_98/
-photo.375.tags: laying down, peek, tree, wet, whiskers
-photo.376: ig://Cr5upmxP2tt/m
-photo.376.author: apple_jasmine33
-photo.376.commitdate: 2023/6/30
-photo.376.link: https://www.instagram.com/apple_jasmine33/
-photo.376.tags: bamboo, paws, sample, whiskers
-photo.377: https://www.instagram.com/p/CpdxjQNPdZp/media/?size=m
-photo.377.author: ck.chie
-photo.377.link: https://www.instagram.com/ck.chie/
-photo.377.tags: paws, sample, smile, tree, whiskers
+photo.372: ig://CpdxjQNPdZp/m
+photo.372.author: ck.chie
+photo.372.commitdate: 2023/11/19
+photo.372.link: https://www.instagram.com/ck.chie/
+photo.372.tags: paws, sample, smile, tree, whiskers
+photo.373: ig://CpgzjvzPyWd/m
+photo.373.author: gloryeui
+photo.373.commitdate: 2023/5/29
+photo.373.link: https://www.instagram.com/gloryeui/
+photo.373.tags: bamboo, bite, paws, portrait
+photo.374: ig://CppWxG9vTr6/m
+photo.374.author: kotata_513
+photo.374.commitdate: 2023/6/25
+photo.374.link: https://www.instagram.com/kotata_513/
+photo.374.tags: paws, portrait, sample, whiskers
+photo.375: ig://CrUHSJoBKz2/m
+photo.375.author: alto0908
+photo.375.commitdate: 2023/8/11
+photo.375.link: https://www.instagram.com/alto0908/
+photo.375.tags: bamboo, sample
+photo.376: ig://CrmSd0mhZfp/m
+photo.376.author: miis_98
+photo.376.commitdate: 2023/5/3
+photo.376.link: https://www.instagram.com/miis_98/
+photo.376.tags: laying down, peek, tree, wet, whiskers
+photo.377: ig://Cr5upmxP2tt/m
+photo.377.author: apple_jasmine33
+photo.377.commitdate: 2023/6/30
+photo.377.link: https://www.instagram.com/apple_jasmine33/
+photo.377.tags: bamboo, paws, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

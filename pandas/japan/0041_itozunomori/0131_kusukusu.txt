@@ -429,20 +429,21 @@ photo.85.author: nakacchi_desu
 photo.85.commitdate: 2023/3/11
 photo.85.link: https://www.instagram.com/nakacchi_desu/
 photo.85.tags: apple time, paws, sample, standing
-photo.86: ig://CqXquN_vowg/m
-photo.86.author: hamiiiii831_
-photo.86.commitdate: 2023/4/21
-photo.86.link: https://www.instagram.com/hamiiiii831_/
-photo.86.tags: door, paws, peek, sample, whiskers
-photo.87: ig://CwE18O1rBk0/m
-photo.87.author: itozu_zoo
-photo.87.commitdate: 2023/9/21
-photo.87.link: https://www.instagram.com/itozu_zoo/
-photo.87.tags: bridge, paws, whiskers
-photo.88: https://www.instagram.com/p/CpZAEd0PVWe/media/?size=m
-photo.88.author: yossi929
-photo.88.link: https://www.instagram.com/yossi929/
-photo.88.tags: portrait, sample, tongue
+photo.86: ig://CpZAEd0PVWe/m
+photo.86.author: yossi929
+photo.86.commitdate: 2023/11/19
+photo.86.link: https://www.instagram.com/yossi929/
+photo.86.tags: portrait, sample, tongue
+photo.87: ig://CqXquN_vowg/m
+photo.87.author: hamiiiii831_
+photo.87.commitdate: 2023/4/21
+photo.87.link: https://www.instagram.com/hamiiiii831_/
+photo.87.tags: door, paws, peek, sample, whiskers
+photo.88: ig://CwE18O1rBk0/m
+photo.88.author: itozu_zoo
+photo.88.commitdate: 2023/9/21
+photo.88.link: https://www.instagram.com/itozu_zoo/
+photo.88.tags: bridge, paws, whiskers
 species: 2
 studbook.id: 15157
 zoo: 41
