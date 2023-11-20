@@ -14,6 +14,8 @@ jp.oldnames: クロ, 紅花, クーファ
 jp.othernames: none
 language.order: jp, en
 litter: 247
+location.1: 1, 2018/6/28
+location.2: 25, 2023/11/20
 photo.1: ig://BoelYg-FNK7/m
 photo.1.author: na.mo.pan
 photo.1.commitdate: 2018/10/3
@@ -1355,4 +1357,4 @@ photo.268.link: https://www.instagram.com/daniele.tokyo/
 photo.268.tags: close-up, laying down, whiskers
 species: 2
 studbook.id: unknown
-zoo: 1
+zoo: 25
