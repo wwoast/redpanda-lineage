@@ -333,29 +333,31 @@ photo.64.author: apple_jasmine33
 photo.64.commitdate: 2022/11/4
 photo.64.link: https://www.instagram.com/apple_jasmine33/
 photo.64.tags: door, mofumofu, sample, tail, whiskers
-photo.65: ig://CmRgj03PO7p/m
+photo.65: ig://CjxPD1ChPa2/m
 photo.65.author: itsuak
-photo.65.commitdate: 2023/9/30
+photo.65.commitdate: 2023/11/26
 photo.65.link: https://www.instagram.com/itsuak/
-photo.65.tags: bamboo, paws, portrait, sample
-photo.66: ig://CnjpsxMvEIt/m
+photo.65.tags: laying down, portrait, sample, whiskers
+photo.66: ig://CkNn-FLhHd_/m
 photo.66.author: itsuak
-photo.66.commitdate: 2023/3/9
+photo.66.commitdate: 2023/11/26
 photo.66.link: https://www.instagram.com/itsuak/
-photo.66.tags: bamboo, close-up, mofumofu, whiskers
-photo.67: ig://CrGF79jvEdd/m
+photo.66.tags: portrait, sample, whiskers
+photo.67: ig://CmRgj03PO7p/m
 photo.67.author: itsuak
-photo.67.commitdate: 2023/11/18
+photo.67.commitdate: 2023/9/30
 photo.67.link: https://www.instagram.com/itsuak/
-photo.67.tags: laying down, peek, portrait, sample, whiskers
-photo.68: https://www.instagram.com/p/CkNn-FLhHd_/media/?size=m
+photo.67.tags: bamboo, paws, portrait, sample
+photo.68: ig://CnjpsxMvEIt/m
 photo.68.author: itsuak
+photo.68.commitdate: 2023/3/9
 photo.68.link: https://www.instagram.com/itsuak/
-photo.68.tags: portrait, sample, whiskers
-photo.69: https://www.instagram.com/p/CjxPD1ChPa2/media/?size=m
+photo.68.tags: bamboo, close-up, mofumofu, whiskers
+photo.69: ig://CrGF79jvEdd/m
 photo.69.author: itsuak
+photo.69.commitdate: 2023/11/18
 photo.69.link: https://www.instagram.com/itsuak/
-photo.69.tags: laying down, portrait, sample, whiskers
+photo.69.tags: laying down, peek, portrait, sample, whiskers
 species: 2
 studbook.id: 14154
 zoo: 46

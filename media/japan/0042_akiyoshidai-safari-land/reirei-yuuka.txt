@@ -1,8 +1,10 @@
 [media]
 _id: media.42.reirei-yuuka
+commitdate: 2023/11/26
 panda.tags: 176, 225
-photo.1: https://www.instagram.com/p/CpkZr0RPjKy/media/?size=l
+photo.1: ig://CpkZr0RPjKy/l
 photo.1.author: kojikoji2011
+photo.1.commitdate: 2023/11/26
 photo.1.link: https://www.instagram.com/kojikoji2011/
 photo.1.tags: apple time, bite, couple
 photo.1.tags.176.location: 160, 215

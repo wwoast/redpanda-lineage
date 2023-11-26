@@ -13,54 +13,55 @@ jp.nicknames: none
 jp.othernames: チェンチェン
 language.order: jp, en
 litter: 1371
-photo.1: ig://Cks4HdlvQZ2/m
-photo.1.author: redpan22
-photo.1.commitdate: 2022/11/10
-photo.1.link: https://www.instagram.com/redpan22/
-photo.1.tags: baby, mofumofu, paws, portrait, profile, sample
-photo.2: ig://Cldf8idPfT6/m
-photo.2.author: komabazoophoto
-photo.2.commitdate: 2023/1/20
-photo.2.link: https://www.instagram.com/komabazoophoto/
-photo.2.tags: baby, climb, peek, portrait
-photo.3: ig://CmWKF6LvzlE/m
-photo.3.author: daniele.tokyo
+photo.1: ig://CkiA78OvJve/m
+photo.1.author: ho0oipo
+photo.1.commitdate: 2023/11/26
+photo.1.link: https://www.instagram.com/ho0oipo/
+photo.1.tags: baby, toys, upside-down
+photo.2: ig://Cks4HdlvQZ2/m
+photo.2.author: redpan22
+photo.2.commitdate: 2022/11/10
+photo.2.link: https://www.instagram.com/redpan22/
+photo.2.tags: baby, mofumofu, paws, portrait, profile, sample
+photo.3: ig://Cldf8idPfT6/m
+photo.3.author: komabazoophoto
 photo.3.commitdate: 2023/1/20
-photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: baby, climb, paws, sample, snow
-photo.4: ig://CnMP7zAPzxr/m
-photo.4.author: komabazoophoto
-photo.4.commitdate: 2023/8/22
-photo.4.link: https://www.instagram.com/komabazoophoto/
-photo.4.tags: baby, paws, snow
-photo.5: ig://Cn1n9iTPfxk/m
-photo.5.author: redpan22
-photo.5.commitdate: 2023/2/25
-photo.5.link: https://www.instagram.com/redpan22/
-photo.5.tags: baby, portrait, sample, snow
-photo.6: ig://CoHdES1PPeR/m
-photo.6.author: daniele.tokyo
-photo.6.commitdate: 2023/2/24
-photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: baby, peek, sample, tail
-photo.7: ig://CoKYc6hvAyo/m
-photo.7.author: redpan22
+photo.3.link: https://www.instagram.com/komabazoophoto/
+photo.3.tags: baby, climb, peek, portrait
+photo.4: ig://CmWKF6LvzlE/m
+photo.4.author: daniele.tokyo
+photo.4.commitdate: 2023/1/20
+photo.4.link: https://www.instagram.com/daniele.tokyo/
+photo.4.tags: baby, climb, paws, sample, snow
+photo.5: ig://CnMP7zAPzxr/m
+photo.5.author: komabazoophoto
+photo.5.commitdate: 2023/8/22
+photo.5.link: https://www.instagram.com/komabazoophoto/
+photo.5.tags: baby, paws, snow
+photo.6: ig://Cn1n9iTPfxk/m
+photo.6.author: redpan22
+photo.6.commitdate: 2023/2/25
+photo.6.link: https://www.instagram.com/redpan22/
+photo.6.tags: baby, portrait, sample, snow
+photo.7: ig://CoHdES1PPeR/m
+photo.7.author: daniele.tokyo
 photo.7.commitdate: 2023/2/24
-photo.7.link: https://www.instagram.com/redpan22/
-photo.7.tags: apple time, baby, close-up, mofumofu, sample, techitechi
-photo.8: ig://CoeoOKTPCQ7/m
-photo.8.author: daniele.tokyo
+photo.7.link: https://www.instagram.com/daniele.tokyo/
+photo.7.tags: baby, peek, sample, tail
+photo.8: ig://CoKYc6hvAyo/m
+photo.8.author: redpan22
 photo.8.commitdate: 2023/2/24
-photo.8.link: https://www.instagram.com/daniele.tokyo/
-photo.8.tags: baby, paws, sample, standing, tail
-photo.9: ig://CpP06MXP55b/m
-photo.9.author: redpan22
-photo.9.commitdate: 2023/10/27
-photo.9.link: https://www.instagram.com/redpan22/
-photo.9.tags: baby, paws, sample, snow, tail
-photo.10: https://www.instagram.com/p/CkiA78OvJve/media/?size=m
-photo.10.author: ho0oipo
-photo.10.link: https://www.instagram.com/ho0oipo/
-photo.10.tags: baby, toys, upside-down
+photo.8.link: https://www.instagram.com/redpan22/
+photo.8.tags: apple time, baby, close-up, mofumofu, sample, techitechi
+photo.9: ig://CoeoOKTPCQ7/m
+photo.9.author: daniele.tokyo
+photo.9.commitdate: 2023/2/24
+photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.tags: baby, paws, sample, standing, tail
+photo.10: ig://CpP06MXP55b/m
+photo.10.author: redpan22
+photo.10.commitdate: 2023/10/27
+photo.10.link: https://www.instagram.com/redpan22/
+photo.10.tags: baby, paws, sample, snow, tail
 species: 2
 zoo: 37

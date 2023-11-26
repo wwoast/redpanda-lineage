@@ -670,25 +670,26 @@ photo.131.author: tomo3700
 photo.131.commitdate: 2022/8/8
 photo.131.link: https://www.instagram.com/tomo3700/
 photo.131.tags: portrait, sample, tongue, whiskers
-photo.132: ig://CogCKepBcpc/m
-photo.132.author: tomo3700
-photo.132.commitdate: 2023/2/24
-photo.132.link: https://www.instagram.com/tomo3700/
-photo.132.tags: apple time, dish, portrait, sample
-photo.133: ig://CppfvQnvX7L/m
+photo.132: ig://CkiX9C2PpwN/m
+photo.132.author: imagoto17
+photo.132.commitdate: 2023/11/26
+photo.132.link: https://www.instagram.com/imagoto17/
+photo.132.tags: peek, sample, whiskers
+photo.133: ig://CogCKepBcpc/m
 photo.133.author: tomo3700
-photo.133.commitdate: 2023/6/25
+photo.133.commitdate: 2023/2/24
 photo.133.link: https://www.instagram.com/tomo3700/
-photo.133.tags: peek, paws, portrait, sample, whiskers
-photo.134: ig://Cq78Z4Dv1JH/m
+photo.133.tags: apple time, dish, portrait, sample
+photo.134: ig://CppfvQnvX7L/m
 photo.134.author: tomo3700
-photo.134.commitdate: 2023/5/13
+photo.134.commitdate: 2023/6/25
 photo.134.link: https://www.instagram.com/tomo3700/
-photo.134.tags: bamboo, climb, portrait
-photo.135: https://www.instagram.com/p/CkiX9C2PpwN/media/?size=m
-photo.135.author: imagoto17
-photo.135.link: https://www.instagram.com/imagoto17/
-photo.135.tags: peek, sample, whiskers
+photo.134.tags: peek, paws, portrait, sample, whiskers
+photo.135: ig://Cq78Z4Dv1JH/m
+photo.135.author: tomo3700
+photo.135.commitdate: 2023/5/13
+photo.135.link: https://www.instagram.com/tomo3700/
+photo.135.tags: bamboo, climb, portrait
 species: 2
 studbook.id: 0672
 zoo: 13

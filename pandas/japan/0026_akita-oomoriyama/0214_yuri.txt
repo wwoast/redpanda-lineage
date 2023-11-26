@@ -315,8 +315,9 @@ photo.61.author: miis_98
 photo.61.commitdate: 2022/11/8
 photo.61.link: https://www.instagram.com/miis_98/
 photo.61.tags: portrait, sample
-photo.62: https://www.instagram.com/p/CkhZI9WPjNC/media/?size=m
+photo.62: ig://CkhZI9WPjNC/m
 photo.62.author: grskus_tk
+photo.62.commitdate: 2023/11/26
 photo.62.link: https://www.instagram.com/grskus_tk/
 photo.62.tags: peek
 species: 2
