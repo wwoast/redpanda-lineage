@@ -4,6 +4,7 @@ birthday: 2018/6/29
 birthplace: 120
 children: 1420
 commitdate: 2019/7/14
+death: 2023/12/2
 en.name: Priya
 en.nicknames: none
 en.othernames: none
@@ -67,7 +68,7 @@ photo.10.commitdate: 2022/4/10
 photo.10.link: https://www.instagram.com/pueblozoo/
 photo.10.tags: close-up, tail, white face
 species: 1
-uncertainty: location.3 exact date (maybe 6/28/22?)
+uncertainty: location.3 exact date (maybe 6/28/22?), death exact date
 video.1: https://youtu.be/SJLzs0xck_Y
 video.1.author: Zoo New England
 video.1.link: https://www.youtube.com/channel/UCdfgDIchbgzZ0cgxZek7ijw
