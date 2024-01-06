@@ -1,0 +1,7 @@
+[submissions]
+contributions_server: sftp.contributions.fqdn
+contributions_server_folder: /full/filesystem/path
+contributions_user: panda1
+image_hosting_server: sftp.images.fqdn
+image_hosting_server_folder: /full/filesystem/path
+image_hosting_user: panda2
