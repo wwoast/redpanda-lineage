@@ -17,7 +17,7 @@ litter: 1111
 location.1: 108, 1997/6/9
 location.2: 112, 1998/7/15
 location.3: unknown, 2000/3/14
-np.name: निगल्या
+ne.name: निगल्या
 np.nicknames: none
 np.othernames: none
 species: 1

@@ -15,7 +15,7 @@ language.order: en, np, jp
 litter: unknown
 location.1: 150, 2012/7/4
 location.2: 271, 2013/4/24
-np.name: निमा
+ne.name: निमा
 np.nicknames: none
 np.othernames: none
 photo.1: ig://Ykat7uQbL4/m
