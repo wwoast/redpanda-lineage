@@ -10,15 +10,15 @@ en.nicknames: none
 en.oldnames: Durga
 en.othernames: none
 gender: m
-in.name: सागर
-in.nicknames: none
-in.oldnames: दुर्गा
-in.othernames: none
+hi.name: सागर
+hi.nicknames: none
+hi.oldnames: दुर्गा
+hi.othernames: none
 jp.name: サガット
 jp.nicknames: none
 jp.oldnames: ドゥルガー
 jp.othernames: none
-language.order: en, in, jp
+language.order: en, hi, jp
 litter: unknown
 location.1: 208, 2000/6/26
 location.2: 203, 2010/11/3
