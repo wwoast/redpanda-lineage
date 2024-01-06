@@ -50,7 +50,7 @@ Language.L.bias = {
 Language.alphabets = {
   "cjk": ["cn", "jp", "kr"],
   "cyrillic": ["ru"],
-  "latin": ["de", "dk", "en", "es", "fr", "nl", "pl", "pt", "se"],
+  "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "se"],
 }
 
 // Character translation tables per language. Just hiragana/katakana.

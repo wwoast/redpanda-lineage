@@ -1,14 +1,14 @@
 [zoo]
 _id: 182
 commitdate: 2019/3/25
-dk.address: Stubbe Søvej 15, 8400 Ebeltoft, Denmark
-dk.location: Ebeltoft, Region Midtjylland, Denmark
-dk.name: Ree Park - Ebeltoft Safari
+da.address: Stubbe Søvej 15, 8400 Ebeltoft, Denmark
+da.location: Ebeltoft, Region Midtjylland, Denmark
+da.name: Ree Park - Ebeltoft Safari
 en.address: Stubbe Søvej 15, 8400 Ebeltoft, Denmark
 en.location: Ebeltoft, Region Midtjylland, Denmark
 en.name: Ree Park - Ebeltoft Safari
 flag: Denmark
-language.order: dk, en
+language.order: da, en
 latitude: 56.2706695
 longitude: 10.6830025
 map: https://goo.gl/maps/4z1kJsgauGs
