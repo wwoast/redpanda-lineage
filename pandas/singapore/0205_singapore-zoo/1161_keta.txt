@@ -16,8 +16,8 @@ litter: 1162
 location.1: 207, 2015/12/10
 location.2: 205, 2018/1/1
 ne.name: केटा
-np.nicknames: none
-np.othernames: none
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://CO5Jp-sB47i/m
 photo.1.author: redpandasingapore
 photo.1.commitdate: 2022/1/13

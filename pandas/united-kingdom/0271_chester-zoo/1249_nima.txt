@@ -16,8 +16,8 @@ litter: unknown
 location.1: 150, 2012/7/4
 location.2: 271, 2013/4/24
 ne.name: निमा
-np.nicknames: none
-np.othernames: none
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://Ykat7uQbL4/m
 photo.1.author: chesterzoo
 photo.1.commitdate: 2020/12/29

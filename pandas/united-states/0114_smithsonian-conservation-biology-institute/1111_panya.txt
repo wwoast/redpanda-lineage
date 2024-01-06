@@ -18,7 +18,7 @@ location.1: 108, 1997/6/9
 location.2: unknown, 2000/2/2
 location.3: 114, 2006/1/19
 ne.name: पोनिया
-np.nicknames: none
-np.othernames: none
+ne.nicknames: none
+ne.othernames: none
 species: 1
 zoo: 114

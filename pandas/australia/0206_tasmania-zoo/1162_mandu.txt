@@ -16,8 +16,8 @@ litter: 1161
 location.1: 207, 2015/12/10
 location.2: 206, 2017/7/4
 ne.name: माण्डु
-np.nicknames: none
-np.othernames: none
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://BdexIoVl5-7/m
 photo.1.author: laura.edwardphotography
 photo.1.commitdate: 2020/7/3

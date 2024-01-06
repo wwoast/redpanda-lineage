@@ -16,8 +16,8 @@ litter: 1127, 1129
 location.1: 116, 2019/6/16
 location.2: 115, 2021/6/17
 ne.name: काश्मीर
-np.nicknames: none
-np.othernames: none
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://B2rWGYRF0FY/m
 photo.1.author: millerparkzoo
 photo.1.commitdate: 2020/3/13

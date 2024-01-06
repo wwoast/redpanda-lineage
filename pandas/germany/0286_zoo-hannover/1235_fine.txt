@@ -19,8 +19,8 @@ litter: unknown
 location.1: 220, 2020/6/22
 location.2: 286, 2021/7/17
 ne.name: सस्पार्क
-np.nicknames: none
-np.othernames: none
+ne.nicknames: none
+ne.othernames: none
 photo.1: https://www.szoljon.hu/wp-content/uploads/2020/08/P6A6398GB.jpg
 photo.1.author: Balázs Gémesi
 photo.1.commitdate: 2020/11/24
