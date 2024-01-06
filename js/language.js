@@ -50,7 +50,7 @@ Language.L.bias = {
 Language.alphabets = {
   "cjk": ["cn", "jp", "ko"],
   "cyrillic": ["ru"],
-  "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "se"],
+  "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "sv"],
 }
 
 // Character translation tables per language. Just hiragana/katakana.
@@ -453,7 +453,7 @@ Language.L.gui = {
       "pl": "波兰语",
       "pt": "葡萄牙语",
       "ru": "俄语",
-      "se": "瑞典"
+      "sv": "瑞典"
     },
     "en": {
       "cn": "Chinese",
@@ -467,7 +467,7 @@ Language.L.gui = {
       "pl": "Polish",
       "pt": "Portuguese",
       "ru": "Russian",
-      "se": "Swedish"
+      "sv": "Swedish"
     },
     "es": {
       "cn": "Chino",
@@ -481,7 +481,7 @@ Language.L.gui = {
       "pl": "Polaco",
       "pt": "Portugués",
       "ru": "Ruso",
-      "se": "Sueco"
+      "sv": "Sueco"
     },
     "jp": {
       "cn": "中国語",
@@ -495,7 +495,7 @@ Language.L.gui = {
       "pl": "ポーランド語",
       "pt": "ポルトガル語",
       "ru": "ロシア語",
-      "se": "スウェーデン"
+      "sv": "スウェーデン"
     },
     "ne": {
       "cn": "चिनियाँ",
@@ -509,7 +509,7 @@ Language.L.gui = {
       "pl": "पोलिश",
       "pt": "पोर्तुगाली",
       "ru": "रसियन",
-      "se": "स्वीडिश"
+      "sv": "स्वीडिश"
     },
     "pt": {
       "cn": "Chinês",
@@ -523,7 +523,7 @@ Language.L.gui = {
       "pl": "Polonês",
       "pt": "Português",
       "ru": "Russo",
-      "se": "Sueco"
+      "sv": "Sueco"
     },
     "ru": {
       "cn": "китайский",
@@ -537,9 +537,9 @@ Language.L.gui = {
       "pl": "польский",
       "pt": "португа́льский",
       "ru": "русский",
-      "se": "шведский"
+      "sv": "шведский"
     },
-    "se": {
+    "sv": {
       "cn": "Kinesiskt",
       "de": "Tyska",
       "en": "Engelska",
@@ -551,7 +551,7 @@ Language.L.gui = {
       "pl": "Polska",
       "pt": "Portugisiska",
       "ru": "Ryska",
-      "se": "Svenska"
+      "sv": "Svenska"
     }
   },
   "loading": {

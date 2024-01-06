@@ -13,7 +13,7 @@ jp.name: アルジュン
 jp.nicknames: none
 jp.oldnames: ヒマ
 jp.othernames: none
-language.order: se, jp, en
+language.order: sv, jp, en
 litter: 1063
 location.1: 226, 2012/6/14
 location.2: 72, 2014/3/27
@@ -28,9 +28,9 @@ photo.2.author: diergaardeblijdorp
 photo.2.commitdate: 2019/11/29
 photo.2.link: https://www.instagram.com/diergaardeblijdorp/
 photo.2.tags: door, portrait, white face
-se.name: Arjun
-se.nicknames: none
-se.oldnames: Chen, Hima
-se.othernames: none
+sv.name: Arjun
+sv.nicknames: none
+sv.oldnames: Chen, Hima
+sv.othernames: none
 species: 1
 zoo: 246

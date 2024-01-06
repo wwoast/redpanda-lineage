@@ -11,15 +11,15 @@ gender: f
 jp.name: オッティリア
 jp.nicknames: none
 jp.othernames: none
-language.order: se, en, jp
+language.order: sv, en, jp
 litter: unknown
 photo.1: ig://B9RL-06J7Hz/m
 photo.1.author: kolmardensdjurpark
 photo.1.commitdate: 2020/5/6
 photo.1.link: https://www.instagram.com/kolmardensdjurpark/
 photo.1.tags: profile
-se.name: Ottilia
-se.nicknames: none
-se.othernames: none
+sv.name: Ottilia
+sv.nicknames: none
+sv.othernames: none
 species: 1
 zoo: 246
