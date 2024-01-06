@@ -12,11 +12,11 @@ gender: m
 jp.name: とうや
 jp.nicknames: none
 jp.othernames: none
-kr.name: 레시
-kr.nicknames: none
-kr.oldnames: 토야
-kr.othernames: none
-language.order: jp, en
+ko.name: 레시
+ko.nicknames: none
+ko.oldnames: 토야
+ko.othernames: none
+language.order: jp, ko, en
 litter: 260
 location.1: 42, 2014/8/18
 location.2: 62, 2016/3/31
