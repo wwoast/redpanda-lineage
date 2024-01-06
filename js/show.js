@@ -668,7 +668,7 @@ Show.button.about.render = function(class_name="results") {
 Show.button.flag = {};
 Show.button.flag.action = function() {
   var language = this.id.replace("LanguageFlag", "");
-  var options = Object.values(Pandas.def.languages);
+  var options = Pandas.def.languages;
   var choice = options.indexOf(language);
   // Don't redraw unless the language exists, or has
   // changed from the current display language.
@@ -729,7 +729,7 @@ Show.button.language.action = function() {
 Show.button.language.altAction = function(e) {
   e.preventDefault();
   var language = L.display;
-  var options = Object.values(Pandas.def.languages);
+  var options = Pandas.def.languages;
   var count = options.length;
   var choice = (options.indexOf(language) + 1) % count;
   L.display = options[choice];
@@ -1420,7 +1420,7 @@ Show.landing = {};
 Show.landing.menus = {};
 Show.landing.menus.language = function(class_color) {
   // Draw the language select menu, but it will be hidden initially
-  var languages = Object.values(Pandas.def.languages);
+  var languages = Pandas.def.languages;
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   for (let language of languages) {

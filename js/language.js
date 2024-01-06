@@ -3219,16 +3219,16 @@ Language.L.tags = {
 // Map a browser specified language to one of our supported options.
 Language.L.defaultDisplayLanguage = function() {
   // Read language settings from browser's Accept-Language header
-  Object.keys(Pandas.def.languages).forEach(function(option) {
+  Pandas.def.languages.forEach(function(option) {
     if ((navigator.languages.indexOf(option) != -1) &&
         (this.display == undefined)) {
-      this.display = Pandas.def.languages[option];
+      this.display = option;
     }
   });
   // Read language cookie if it's there
   var test = this.storage.getItem("language");
   if (test != null) {
-    if (Object.values(Pandas.def.languages).indexOf(test) != -1) {
+    if (Pandas.def.languages.indexOf(test) != -1) {
       this.display = test;
     }
   }  
@@ -3644,7 +3644,7 @@ Language.listDisplayKeys = function(entity, order, current_language) {
 // Get the valid language-translatable keys in a zoo or animal object
 // like the ones in the Pandas.* methods
 Language.listEntityKeys = function(entity, order) {
-  var obj_langs = order.concat(Object.values(Pandas.def.languages));  // Dupes not important
+  var obj_langs = order.concat(Pandas.def.languages);  // Dupes not important
   var filtered = Object.keys(entity).filter(function(key) {
     // List the language-specific keys in a zoo or animal
     [lang, primary] = key.split('.');
@@ -3689,7 +3689,7 @@ Language.saveInfoKeys = function(info, order) {
 // Find the canonical tag given something being parsed as a tag.
 // i.e. for "climbing", return "climb".
 Language.tagPrimary = function(input) {
-  var lang_values = Object.values(Pandas.def.languages).concat("emoji");
+  var lang_values = Pandas.def.languages.concat("emoji");
   for (let ctag in Language.L.tags) {
     for (let lang of lang_values) {
       if (Language.L.tags[ctag][lang].indexOf(input) != -1) {

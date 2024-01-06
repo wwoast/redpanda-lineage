@@ -194,14 +194,9 @@ Pandas.def.authors = {
 // ISO-639-1 codes in the navigator.languages value, and map it to a language
 // definition used within this project's code. The ordering here determines the
 // appearance of the buttons in the language menu.
-Pandas.def.languages = {
-  "en": "en",
-  "ja": "ja",
-  "ne": "ne",
-  "es": "es",
-  "pt": "pt",
-  "zh": "zh"
-}
+Pandas.def.languages = [
+  "en", "es", "ja", "ne", "pt", "zh"
+]
 
 // Character ranges
 Pandas.def.ranges = {
@@ -984,7 +979,7 @@ Pandas.searchPandaNameFields = function(input, name_fields=undefined) {
     name_fields = ["name", "oldnames", "othernames"];
   }
   var nodes = G.v().filter(function(animal) {
-    var languages = Object.values(Pandas.def.languages);
+    var languages = Pandas.def.languages;
     // Valid per-language name fields
     var collected_fields = [];
     for (let name_field of name_fields) {
@@ -1623,7 +1618,7 @@ Pandas.searchZooName = function(zoo_name_str) {
     zoo_name_str = Language.capitalNames(zoo_name_str);
   }
   // Get the matches against any of the valid zoo strings we care about
-  var languages = Object.values(Pandas.def.languages);
+  var languages = Pandas.def.languages;
   var fields = ["location", "name"];
   var wants = [];
   // Convolve the desired fields with the possible language options
