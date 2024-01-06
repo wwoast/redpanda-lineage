@@ -113,14 +113,11 @@ Be aware that we may need to ask you follow-up questions or recommend changes, s
 
 ## The Peer Review Process
 
-We use a _Continuous Integration_ tool called *Travis CI* to run automated checks against every single piece of data pushed to the Red Panda Lineage dataset. If there are problems with your commit, the software will see the problem automatically and suggest what changes are necessary. This tool runs the `build.py` program at the top-level of our repository.
+We use GitHub's built-in _continuous integration_ tool, *GitHub Actions*, to run automated checks against every single piece of data pushed to the Red Panda Lineage dataset. If there are problems with your commit, the software will see the problem automatically and suggest what changes are necessary. This tool runs the `build.py` program at the top-level of our repository.
 
-Occasionally your commit will have a problem with your commits after you try and submit your PR, with a red "X" near the _Travis CI_ status. If you navigate through to see the details in _Travis CI_, you'll get to a screen where the text output of `build.py` describes what went wrong.
+Occasionally your commit will have a problem with your commits after you try and submit your PR, with a red "X" near the *GitHub Actions* status. If you navigate through to see the details, you'll get to a screen where the text output of `build.py` describes what went wrong.
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/commit-problem.png" /> 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/failed-ci.png" /> 
-
-If you have a Mac or Linux system, you can run this tool yourself to validate your data prior to submitting changes upstream, or even making commits. Otherwise, just keep pushing your branches to GitHub, and *Travis CI* will happily run the `build.py` checks for you.
+If you have a Mac or Linux system, you can run this tool yourself to validate your data prior to submitting changes upstream, or even making commits. Otherwise, just keep pushing your branches to GitHub, and *GitHub Actions* will happily run the `build.py` checks for you.
 
 Once the automated checks are done, you still need one of the dataset administrators to approve and merge your changes. If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
 

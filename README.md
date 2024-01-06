@@ -20,7 +20,7 @@ The global red panda population is estimated at under 10,000 animals, and around
 
 The Red Panda Lineage dataset is a flat-file human-editable dataset of pandas. A small group of passionate red panda lovers manually curates this dataset by making updates or commits to this repository.
 
-When a commit is accepted, Travis CI will run the bundled Python scripts, and publish a single JSON file to the _GitHub pages_ branch of this repository. This file is queryable using the [Dagoba](https://github.com/dxnn/dagoba) graph query language, allowing a fully [browser-based red panda lineage viewer](https://redpandafinder.com) to be written. Peek at our [Design Documentation](https://github.com/wwoast/redpanda-lineage/blob/master/docs/DESIGN.md) for more details.
+When a commit is accepted, Github Actions will run the bundled Python scripts, and publish a single JSON file to the _GitHub pages_ branch of this repository. This file is queryable using the [Dagoba](https://github.com/dxnn/dagoba) graph query language, allowing a fully [browser-based red panda lineage viewer](https://redpandafinder.com) to be written. Peek at our [Design Documentation](https://github.com/wwoast/redpanda-lineage/blob/master/docs/DESIGN.md) for more details.
 
 ## Credits
 
