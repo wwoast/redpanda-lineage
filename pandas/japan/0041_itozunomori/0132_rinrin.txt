@@ -8,10 +8,10 @@ en.name: Rin-Rin
 en.nicknames: Spinning
 en.othernames: Rinrin
 gender: m
-jp.name: 凌凌
-jp.nicknames: none
-jp.othernames: りんりん, リンリン
-language.order: jp, en
+ja.name: 凌凌
+ja.nicknames: none
+ja.othernames: りんりん, リンリン
+language.order: ja, en
 location.1: 37, 2007/6/21
 location.2: 41, 2010/4/9
 photo.1: ig://BJaczxMAYh1/m

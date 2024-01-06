@@ -11,10 +11,10 @@ en.name: Little Grey
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 少し灰色
-jp.nicknames: none
-jp.othernames: すこはいいろ
-language.order: cn, en, jp
+ja.name: 少し灰色
+ja.nicknames: none
+ja.othernames: すこはいいろ
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://CT_ZY2SBXlm/m
 photo.1.author: manmanko2

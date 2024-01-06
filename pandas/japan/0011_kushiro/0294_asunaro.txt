@@ -8,10 +8,10 @@ en.name: Asunaro
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アスナロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アスナロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 295
 location.1: 64, 2016/6/22
 location.2: 11, 2019/6/5

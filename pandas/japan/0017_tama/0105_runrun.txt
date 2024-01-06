@@ -8,10 +8,10 @@ en.name: Run-Run
 en.nicknames: none
 en.othernames: Runrun
 gender: m
-jp.name: ルンルン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ルンルン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 36
 photo.1: ig://BCRSFYbtG-D/m
 photo.1.author: mariten1119

@@ -9,10 +9,10 @@ en.name: Nami
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナミ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナミ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 229
 location.1: 17, 2002/7/15
 location.2: 1, 2003/4/9

@@ -8,10 +8,10 @@ en.name: Kagayaki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: かがやき
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: かがやき
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 278, 279
 photo.1: ig://BdH_EA_gm97/m
 photo.1.author: peek_a_boo00

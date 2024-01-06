@@ -8,9 +8,9 @@ en.name: Rose
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: ローズ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローズ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: 1
 zoo: 275

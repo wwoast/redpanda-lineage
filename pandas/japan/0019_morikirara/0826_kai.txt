@@ -9,10 +9,10 @@ en.name: Kai
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 29, 1997/6/26
 location.2: 19, 1999/7/15

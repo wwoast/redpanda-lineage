@@ -9,10 +9,10 @@ en.name: Yuu-Yuu
 en.nicknames: none
 en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuu-Yuu
 gender: m
-jp.name: 勇勇
-jp.nicknames: none
-jp.othernames: ユーユー
-language.order: jp, en
+ja.name: 勇勇
+ja.nicknames: none
+ja.othernames: ユーユー
+language.order: ja, en
 litter: 658
 location.1: 1, 1990/6/25
 location.2: 10, 1991/10/17

@@ -9,16 +9,16 @@ link.2.en.name: Red Pandazine
 link.2.language.order: de, en
 link.3: https://www.nhdzoo.jp/red-panda/
 link.3.en.name: Nihondaira Lesser Pandas
-link.3.jp.name: レッサーパンダの聖地 静岡市
-link.3.language.order: jp
+link.3.ja.name: レッサーパンダの聖地 静岡市
+link.3.language.order: ja
 link.4: https://note.com/ifumoto
 link.4.en.name: ifumoto (note.com Red Panda blog)
-link.4.jp.name: ふもと （レッサーパンダのちょっとした小ネタを紹介します）
-link.4.language.order: jp
+link.4.ja.name: ふもと （レッサーパンダのちょっとした小ネタを紹介します）
+link.4.language.order: ja
 link.5: https://4travel.jp/traveler/jillluka/
 link.5.en.name: jillluca's Traveler Page
-link.5.jp.name: jilllucaさんのトラベラーページ
-link.5.language.order: jp
+link.5.ja.name: jilllucaさんのトラベラーページ
+link.5.language.order: ja
 link.6: https://dylanmoriarty.github.io/red-panda-map/
 link.6.en.name: Red Pandas of the World (Map)
 link.6.language.order: en

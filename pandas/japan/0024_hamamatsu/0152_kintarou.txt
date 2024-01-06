@@ -9,10 +9,10 @@ en.name: Kintarou
 en.nicknames: none
 en.othernames: Kintaro
 gender: m
-jp.name: キンタロウ
-jp.nicknames: none
-jp.othernames: 金太郎
-language.order: jp, en
+ja.name: キンタロウ
+ja.nicknames: none
+ja.othernames: 金太郎
+language.order: ja, en
 litter: 594
 location.1: 14, 1997/7/17
 location.2: 24, 2000/7/7

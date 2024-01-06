@@ -8,10 +8,10 @@ en.name: Yuufa
 en.nicknames: none
 en.othernames: You-hua, Yu-fa, Yufa, Youhua
 gender: f
-jp.name: 優花
-jp.nicknames: none
-jp.othernames: ユーファ
-language.order: jp, en
+ja.name: 優花
+ja.nicknames: none
+ja.othernames: ユーファ
+language.order: ja, en
 litter: 2, 7
 photo.1: ig://-T5590OR0k/m
 photo.1.author: masa_polarbear

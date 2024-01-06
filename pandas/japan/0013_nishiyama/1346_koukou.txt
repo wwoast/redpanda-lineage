@@ -9,10 +9,10 @@ en.name: Kou-Kou
 en.nicknames: none
 en.othernames: Koukou, Ko-Ko, Koko
 gender: m
-jp.name: 好好
-jp.nicknames: none
-jp.othernames: コウコウ
-language.order: jp, en
+ja.name: 好好
+ja.nicknames: none
+ja.othernames: コウコウ
+language.order: ja, en
 litter: 1345
 location.1: 290, 1988/6/22
 location.2: 40, 1990/3/22

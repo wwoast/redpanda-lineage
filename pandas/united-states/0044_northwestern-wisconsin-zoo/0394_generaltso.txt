@@ -8,10 +8,10 @@ en.name: Gen Tso
 en.nicknames: none
 en.othernames: General Tso, General T'so
 gender: m
-jp.name: 将軍ズオ
-jp.nicknames: none
-jp.othernames: しょうぐんズオ
-language.order: en, jp
+ja.name: 将軍ズオ
+ja.nicknames: none
+ja.othernames: しょうぐんズオ
+language.order: en, ja
 litter: 493
 location.1: 84, 2013/6/22
 location.2: 43, 2014/6/5

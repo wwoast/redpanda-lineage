@@ -9,10 +9,10 @@ en.name: Amba
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アンバ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アンバ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 197, 2011/6/19
 location.2: 275, 2012/4/17
 photo.1: https://www.codaworry.com/images/rpf/amba-1-birmingham.jpg

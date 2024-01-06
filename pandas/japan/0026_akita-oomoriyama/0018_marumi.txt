@@ -11,10 +11,10 @@ es.name: Marumi
 es.nicknames: Marumita
 es.othernames: none
 gender: f
-jp.name: 円実
-jp.nicknames: none
-jp.othernames: まるみ
-language.order: jp, en
+ja.name: 円実
+ja.nicknames: none
+ja.othernames: まるみ
+language.order: ja, en
 litter: none
 location.1: 7, 2016/6/15
 location.2: 26, 2022/11/2

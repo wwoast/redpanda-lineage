@@ -9,10 +9,10 @@ en.name: Harold
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ハロー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ハロー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 463
 photo.1: ig://B6O64u_noIR/m
 photo.1.author: cincinnatizoo

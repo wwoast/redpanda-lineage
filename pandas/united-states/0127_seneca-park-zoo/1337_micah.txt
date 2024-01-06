@@ -8,10 +8,10 @@ en.name: Micah
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ミカ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミカ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1338
 species: 1
 zoo: 127

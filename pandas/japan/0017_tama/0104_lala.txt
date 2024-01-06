@@ -8,10 +8,10 @@ en.name: Lala
 en.nicknames: Mofumofu Tail
 en.othernames: Rara
 gender: f
-jp.name: ララ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ララ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 108
 location.1: 10, 2008/6/16
 location.2: 17, 2011/4/26

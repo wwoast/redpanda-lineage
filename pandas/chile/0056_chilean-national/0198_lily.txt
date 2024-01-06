@@ -12,10 +12,10 @@ es.name: Lily
 es.nicknames: none
 es.othernames: Lili
 gender: f
-jp.name: リリィ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, es, en
+ja.name: リリィ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, es, en
 litter: 60
 location.1: 7, 2010/7/10
 location.2: 9, 2012/4/23

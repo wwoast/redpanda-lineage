@@ -9,10 +9,10 @@ en.name: Fan-Fan
 en.nicknames: none
 en.othernames: Fanfan
 gender: f
-jp.name: ファンファン
-jp.nicknames: none
-jp.othernames: 花花
-language.order: jp, en
+ja.name: ファンファン
+ja.nicknames: none
+ja.othernames: 花花
+language.order: ja, en
 litter: 364
 location.1: 15, 1999/7/9
 location.2: 17, 2001/5/12

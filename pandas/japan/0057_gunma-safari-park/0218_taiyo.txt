@@ -9,10 +9,10 @@ en.name: Taiyo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 太陽
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 太陽
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 60, 2003/7/3
 location.2: 29, 2006/12/14

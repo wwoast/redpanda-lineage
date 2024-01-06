@@ -9,10 +9,10 @@ en.name: Lala
 en.nicknames: none
 en.othernames: Rara, Lara
 gender: f
-jp.name: ララ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ララ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 128
 species: 2
 studbook.id: 0088

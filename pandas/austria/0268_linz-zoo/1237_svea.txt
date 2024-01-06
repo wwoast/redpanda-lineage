@@ -9,10 +9,10 @@ en.nicknames: none
 en.oldnames: Lea
 en.othernames: none
 gender: f
-jp.name: サヴェア
-jp.nicknames: none
-jp.oldnames: レア
-jp.othernames: none
+ja.name: サヴェア
+ja.nicknames: none
+ja.oldnames: レア
+ja.othernames: none
 language.order: en
 litter: unknown
 location.1: 266, 2013/7/4

@@ -8,10 +8,10 @@ en.name: Ichimaru
 en.nicknames: Shy Guy
 en.othernames: Ighimaru
 gender: m
-jp.name: イチ丸
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: イチ丸
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BG6d_EOBqUT/m
 photo.1.author: take_421

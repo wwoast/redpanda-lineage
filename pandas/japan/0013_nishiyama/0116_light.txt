@@ -8,10 +8,10 @@ en.name: Light
 en.nicknames: none
 en.othernames: Right, Raito
 gender: m
-jp.name: ライト
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライト
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 115
 photo.1: ig://BUK7z8PDQ7S/m
 photo.1.author: framereim

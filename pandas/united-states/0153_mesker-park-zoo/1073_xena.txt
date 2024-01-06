@@ -8,10 +8,10 @@ en.name: Xena
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ゼナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ゼナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1072
 photo.1: ig://B0zKMxLB3-p/m
 photo.1.author: meskerzoo

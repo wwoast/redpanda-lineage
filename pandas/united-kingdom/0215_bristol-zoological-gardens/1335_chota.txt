@@ -9,10 +9,10 @@ en.name: Chota
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ちょた
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ちょた
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 271, 2008/6/27
 location.2: 150, 2009/5/1
 location.3: 215, 2015/8/11

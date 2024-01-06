@@ -9,10 +9,10 @@ en.name: Chi-Chi
 en.nicknames: none
 en.othernames: Chichi
 gender: f
-jp.name: チィチィ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チィチィ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 783
 location.1: 6, 1991/6/16
 location.2: 60, 1995/2/1

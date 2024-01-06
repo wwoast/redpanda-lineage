@@ -9,10 +9,10 @@ en.name: Mam
 en.nicknames: none
 en.othernames: Mamu
 gender: f
-jp.name: マム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 360
 location.1: 31, 1997/6/26
 location.2: 18, 1999/1/9

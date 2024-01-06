@@ -9,10 +9,10 @@ en.name: Mi-Mi
 en.nicknames: none
 en.othernames: Mimi
 gender: f
-jp.name: ミミ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミミ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 10, 1985/6/12
 location.2: 16, 1988/10/20

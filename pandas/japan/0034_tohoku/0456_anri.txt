@@ -9,10 +9,10 @@ en.name: Anri
 en.nicknames: none
 en.othernames: Annapulina, Anna Pulina, Annapuluna
 gender: f
-jp.name: アンリ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アンリ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 454
 location.1: 57, 1994/6/19
 location.2: 34, 1995/12/26

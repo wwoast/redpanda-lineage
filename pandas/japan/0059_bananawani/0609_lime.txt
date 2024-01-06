@@ -9,10 +9,10 @@ en.name: Lime
 en.nicknames: none
 en.othernames: Raimu
 gender: m
-jp.name: ライム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 270
 species: 1
 studbook.id: 0576

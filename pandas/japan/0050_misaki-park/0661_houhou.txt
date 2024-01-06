@@ -9,10 +9,10 @@ en.name: Hou-Hou
 en.nicknames: none
 en.othernames: Hou Hou, Houhou
 gender: f
-jp.name: ほほ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ほほ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 662
 species: 2
 studbook.id: 9390

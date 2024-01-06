@@ -9,10 +9,10 @@ en.name: Tofu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: とふ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: とふ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 124, 2015/6/22
 location.2: 178, 2017/10/19

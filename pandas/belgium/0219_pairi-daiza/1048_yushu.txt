@@ -9,10 +9,10 @@ en.name: Yushu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ユシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ユシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1049
 location.1: 59, 2012/6/19
 location.2: 219, 2014/6/11

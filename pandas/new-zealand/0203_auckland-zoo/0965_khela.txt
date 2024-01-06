@@ -8,10 +8,10 @@ en.name: Khela
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ケラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 966
 location.1: 201, 2014/1/12
 location.2: 203, 2017/9/4

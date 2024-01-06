@@ -9,10 +9,10 @@ en.name: Gwen
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: グウェン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: グウェン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1055
 location.1: 222, 2005/6/24
 location.2: 223, 2006/5/12

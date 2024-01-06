@@ -9,10 +9,10 @@ en.name: Hajime
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: はじめ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: はじめ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 727
 location.1: 11, 1991/7/27
 location.2: 20, 1994/1/10

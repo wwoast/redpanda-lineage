@@ -5,10 +5,10 @@ en.address: Hakkeijima, Kanazawa Ward, Yokohama, Kanagawa 〒236-0006, Japan
 en.location: Hakkeijima, Yokohama, Kanagawa Prefecture, Japan
 en.name: Hakkeijima Sea Paradise
 flag: Japan
-jp.address: 〒236-0006 神奈川県横浜市金沢区八景島
-jp.location: 八景島 横浜 神奈川県
-jp.name: 横浜・八景島シーパラダイス
-language.order: jp, en
+ja.address: 〒236-0006 神奈川県横浜市金沢区八景島
+ja.location: 八景島 横浜 神奈川県
+ja.name: 横浜・八景島シーパラダイス
+language.order: ja, en
 latitude: 35.3364318
 longitude: 139.6440622
 map: https://goo.gl/maps/xFgBvqMLqdrmcvSp7

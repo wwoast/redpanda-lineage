@@ -14,10 +14,10 @@ fr.name: Loha
 fr.nicknames: none
 fr.othernames: none
 gender: f
-jp.name: ロハ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, de, en, jp
+ja.name: ロハ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, de, en, ja
 litter: unknown
 location.1: 251, 2020/6/6
 location.2: 219, 2021/3/1

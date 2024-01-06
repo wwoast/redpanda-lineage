@@ -8,10 +8,10 @@ en.name: Priya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: プリヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: プリヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 976
 species: 1
 zoo: 203

@@ -11,10 +11,10 @@ en.name: Mango
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 芒果
-jp.nicknames: none
-jp.othernames: マンゴ
-language.order: cn, en, jp
+ja.name: 芒果
+ja.nicknames: none
+ja.othernames: マンゴ
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B7f60eMAXfp/m
 photo.1.author: mkr0369

@@ -9,10 +9,10 @@ en.name: Kusu
 en.nicknames: none
 en.othernames: Cous
 gender: m
-jp.name: クス
-jp.nicknames: none
-jp.othernames: 笑, くす
-language.order: jp, en
+ja.name: クス
+ja.nicknames: none
+ja.othernames: 笑, くす
+language.order: ja, en
 litter: none
 location.1: 13, 1991/6/24
 location.2: 40, 1993/2/16

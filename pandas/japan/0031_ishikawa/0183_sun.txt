@@ -8,10 +8,10 @@ en.name: Sun
 en.nicknames: none
 en.othernames: San
 gender: f
-jp.name: サン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 73
 photo.1: ig://BS8mehtBeMC/m
 photo.1.author: perie1027vivi

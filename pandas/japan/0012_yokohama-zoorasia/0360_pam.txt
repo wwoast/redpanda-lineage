@@ -9,10 +9,10 @@ en.name: Pam
 en.nicknames: none
 en.othernames: Pamu
 gender: f
-jp.name: パム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: パム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 589
 location.1: 31, 1997/6/26
 location.2: 12, 1999/1/22

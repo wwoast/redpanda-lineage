@@ -8,10 +8,10 @@ en.name: Bert
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: バート
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: バート
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 647
 location.1: 135, 2015/6/29
 location.2: 168, 2016/8/31

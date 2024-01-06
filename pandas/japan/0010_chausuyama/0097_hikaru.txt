@@ -9,10 +9,10 @@ en.name: Hikaru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヒカル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒカル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 98
 photo.1: ig://BJGDatTgGLw/m
 photo.1.author: mariten1119

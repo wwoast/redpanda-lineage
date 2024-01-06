@@ -9,10 +9,10 @@ en.name: Nuts
 en.nicknames: none
 en.othernames: Natsu, Natu
 gender: f
-jp.name: ナツ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナツ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 20
 photo.1: ig://BEAR7Nhvi7-/m
 photo.1.author: panda.daisuki

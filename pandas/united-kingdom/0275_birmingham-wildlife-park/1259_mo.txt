@@ -8,9 +8,9 @@ en.name: Mo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: モー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: 1
 zoo: 275

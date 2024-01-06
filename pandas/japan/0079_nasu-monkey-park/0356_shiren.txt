@@ -8,10 +8,10 @@ en.name: Shi-Ren
 en.nicknames: none
 en.othernames: Shiren, Shi-ren
 gender: m
-jp.name: 詩人
-jp.nicknames: none
-jp.othernames: シーレン
-language.order: jp, en
+ja.name: 詩人
+ja.nicknames: none
+ja.othernames: シーレン
+language.order: ja, en
 litter: 355
 location.1: 34, 2004/6/29
 location.2: 79, 2008/9/29

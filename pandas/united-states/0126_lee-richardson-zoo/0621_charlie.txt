@@ -9,10 +9,10 @@ en.name: Charlie
 en.nicknames: none
 en.othernames: Charles
 gender: m
-jp.name: チャーリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チャーリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 622
 location.1: 145, 2013/6/20
 location.2: 126, 2014/9/11

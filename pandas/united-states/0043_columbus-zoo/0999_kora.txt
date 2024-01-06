@@ -8,10 +8,10 @@ en.name: Kora
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: コラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: コラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1000
 location.1: 65, 2018/6/23
 location.2: 43, 2019/10/21

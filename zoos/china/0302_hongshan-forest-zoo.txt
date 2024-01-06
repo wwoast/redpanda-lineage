@@ -8,10 +8,10 @@ en.address: Xuanwu, Nanjing, China
 en.location: Xuanwu, Nanjing, China
 en.name: Hongshan Forest Zoo
 flag: China
-jp.address: unknown
-jp.location: Xuanwu, Nanjing, China
-jp.name: Hongshan Forest Zoo
-language.order: cn, jp, en
+ja.address: unknown
+ja.location: Xuanwu, Nanjing, China
+ja.name: Hongshan Forest Zoo
+language.order: cn, ja, en
 latitude: 32.091625
 longitude: 118.7998383
 map: https://goo.gl/maps/WeoipsC5itJNqJQe7

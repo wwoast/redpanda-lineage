@@ -9,10 +9,10 @@ en.name: Leon
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: レオン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: レオン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 3, 1999/7/3
 location.2: 50, 2002/4/12

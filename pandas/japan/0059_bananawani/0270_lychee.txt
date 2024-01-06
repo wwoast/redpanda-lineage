@@ -9,10 +9,10 @@ en.name: Lychee
 en.nicknames: none
 en.othernames: Litchi, Raichi
 gender: m
-jp.name: ライチ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライチ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 609
 photo.1: ig://BPRTzHxDt4j/m
 photo.1.author: minatomirai215

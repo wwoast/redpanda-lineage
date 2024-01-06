@@ -9,10 +9,10 @@ en.name: Tekka
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: テッカ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: テッカ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 314
 location.1: 9, 2007/6/14
 location.2: 32, 2010/3/29

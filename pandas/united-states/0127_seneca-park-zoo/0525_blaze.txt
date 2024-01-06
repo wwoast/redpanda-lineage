@@ -9,10 +9,10 @@ en.name: Blaze
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 炎
-jp.nicknames: none
-jp.othernames: ほのお
-language.order: en, jp
+ja.name: 炎
+ja.nicknames: none
+ja.othernames: ほのお
+language.order: en, ja
 litter: 652
 location.1: 126, 2013/7/20
 location.2: 114, 2014/10/30

@@ -9,10 +9,10 @@ en.name: He-Ping
 en.nicknames: none
 en.othernames: Heping
 gender: m
-jp.name: 和平
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 和平
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 800
 location.1: 124, 1998/6/19
 location.2: 108, 1999/12/17

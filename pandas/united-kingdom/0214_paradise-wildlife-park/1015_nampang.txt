@@ -9,10 +9,10 @@ en.name: Nam Pang
 en.nicknames: none
 en.othernames: Nam'pang, Nampang, Nam'Pang
 gender: m
-jp.name: ナンパン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ナンパン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1010
 location.1: 213, 2017/6/14
 location.2: 214, 2018/2/24

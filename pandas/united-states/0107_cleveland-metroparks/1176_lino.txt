@@ -8,10 +8,10 @@ en.name: Lino
 en.nicknames: none
 en.othernames: Leeno
 gender: m
-jp.name: リーノ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リーノ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1175, 1177
 location.1: 145, 2019/6/18
 location.2: 107, 2020/9/24

@@ -9,10 +9,10 @@ en.name: Lali
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ラリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 579
 location.1: 131, 2016/6/6
 location.2: 177, 2017/4/19

@@ -8,10 +8,10 @@ en.name: Gigi
 en.nicknames: none
 en.othernames: Jiji
 gender: m
-jp.name: ジジ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ジジ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 86, 87
 location.1: 10, 2009/6/19
 location.2: 53, 2011/11/26

@@ -8,10 +8,10 @@ en.name: Kurumi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: クルミ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: クルミ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 253
 location.1: 6, 2011/7/18
 location.2: 45, 2012/12/21

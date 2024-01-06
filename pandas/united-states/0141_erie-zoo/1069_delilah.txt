@@ -8,10 +8,10 @@ en.name: Delilah
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: デリラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: デリラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 75, 2013/7/21
 location.2: 108, 2013/9/29

@@ -8,10 +8,10 @@ en.name: Anzu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アンズ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アンズ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 92
 photo.1: ig://BQrodxPlIrZ/m
 photo.1.author: rdpnzoo

@@ -11,10 +11,10 @@ en.name: Tai-Shan
 en.nicknames: none
 en.othernames: Taishan, Tarzan, Taixiang
 gender: m
-jp.name: タイシャン
-jp.nicknames: none
-jp.othernames: 泰山
-language.order: cn, en, jp
+ja.name: タイシャン
+ja.nicknames: none
+ja.othernames: 泰山
+language.order: cn, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22

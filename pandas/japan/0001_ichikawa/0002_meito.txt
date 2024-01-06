@@ -8,10 +8,10 @@ en.name: Meito
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 明登
-jp.nicknames: none
-jp.othernames: メイト
-language.order: jp, en
+ja.name: 明登
+ja.nicknames: none
+ja.othernames: メイト
+language.order: ja, en
 litter: 6, 7
 photo.1: ig://3UwV8-Pi5o/m
 photo.1.author: panda.daisuki

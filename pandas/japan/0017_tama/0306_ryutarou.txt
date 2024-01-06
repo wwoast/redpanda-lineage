@@ -9,10 +9,10 @@ en.name: Ryutarou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 緑太郎
-jp.nicknames: none
-jp.othernames: リュウタロウ
-language.order: jp, en
+ja.name: 緑太郎
+ja.nicknames: none
+ja.othernames: リュウタロウ
+language.order: ja, en
 litter: 171
 species: 2
 studbook.id: 9997

@@ -9,10 +9,10 @@ en.name: Cheyenne
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シャイアン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャイアン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 517
 species: 1
 studbook.id: 1614

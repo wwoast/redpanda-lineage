@@ -9,10 +9,10 @@ en.name: Tembo
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: テンボ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: テンボ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1119
 location.1: 118, 1996/6/14
 location.2: 85, 1997/2/20

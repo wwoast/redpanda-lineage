@@ -9,10 +9,10 @@ en.name: Konta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: コンタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コンタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 32, 2004/7/10
 location.2: 45, 2006/2/1

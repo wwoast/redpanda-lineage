@@ -17,11 +17,11 @@ hu.name: Sifu
 hu.nicknames: none
 hu.oldnames: Tsuki
 hu.othernames: none
-jp.name: 師父
-jp.nicknames: none
-jp.oldnames: つき
-jp.othernames: しふ
-language.order: en, hu, jp
+ja.name: 師父
+ja.nicknames: none
+ja.oldnames: つき
+ja.othernames: しふ
+language.order: en, hu, ja
 litter: 1052
 location.1: 219, 2016/6/22
 location.2: 221, 2017/1/29

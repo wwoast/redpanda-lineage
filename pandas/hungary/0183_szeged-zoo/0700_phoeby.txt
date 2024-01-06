@@ -8,10 +8,10 @@ en.name: Phoeby
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: フィービー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: フィービー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 316
 location.1: 71, 2011/7/6
 location.2: 182, 2012/4/28

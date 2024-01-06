@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Rifa
 en.othernames: Shantou, Shan Tou, Rifa, Li-hua, Ri-fa, Riifa
 gender: f
-jp.name: シャントゥ
-jp.nicknames: none
-jp.oldnames: リーファ
-jp.othernames: none
-language.order: en, jp
+ja.name: シャントゥ
+ja.nicknames: none
+ja.oldnames: リーファ
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 34, 2005/5/10
 location.2: 83, 2007/2/21

@@ -9,10 +9,10 @@ en.name: Chewbacca
 en.nicknames: none
 en.othernames: 
 gender: m
-jp.name: チューバッカ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チューバッカ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 114, 2006/6/23
 location.2: 108, 2008/1/9

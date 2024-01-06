@@ -11,10 +11,10 @@ en.name: Pang-Pang
 en.nicknames: none
 en.othernames: Pangpang, Pang Pang
 gender: f
-jp.name: パンパン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: パンパン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://BuGTGuzFr63/m
 photo.1.author: c_yulu_x

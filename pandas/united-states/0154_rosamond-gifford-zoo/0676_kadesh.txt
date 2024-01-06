@@ -9,10 +9,10 @@ en.name: Kadesh
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カデシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カデシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 1
 studbook.id: 0429

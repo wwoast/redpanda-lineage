@@ -11,10 +11,10 @@ en.name: Li-Wei
 en.nicknames: none
 en.othernames: Li Wei, Liwei
 gender: f
-jp.name: リーウィ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リーウィ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 199, 2011/6/22
 location.2: 137, 2012/5/26

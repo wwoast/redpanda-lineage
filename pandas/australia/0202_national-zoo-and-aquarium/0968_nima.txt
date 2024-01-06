@@ -8,10 +8,10 @@ en.name: Nima
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ニマ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ニマ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 969, 970
 location.1: 201, 2012/12/20
 location.2: 202, 2015/3/13

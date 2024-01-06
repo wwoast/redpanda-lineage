@@ -8,10 +8,10 @@ en.name: Kodo
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: コド
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: コド
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 148, 2020/6/4
 location.2: 187, 2022/5/17

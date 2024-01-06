@@ -8,10 +8,10 @@ en.name: Daizu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ダイズ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ダイズ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 102
 location.1: 17, 2010/6/14
 location.2: 53, 2012/4/2

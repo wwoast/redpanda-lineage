@@ -8,10 +8,10 @@ en.name: Debree
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: デブリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: デブリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1418
 species: 2
 zoo: 109

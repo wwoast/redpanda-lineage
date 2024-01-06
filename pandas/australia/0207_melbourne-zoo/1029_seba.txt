@@ -8,10 +8,10 @@ en.name: Seba
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: セバ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: セバ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 181, 2010/12/6
 location.2: 207, 2014/7/16

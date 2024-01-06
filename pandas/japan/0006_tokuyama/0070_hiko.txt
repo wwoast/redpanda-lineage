@@ -9,10 +9,10 @@ en.name: Hiko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヒコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 photo.1: ig://BWPJuuQAWBv/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/4/18

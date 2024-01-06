@@ -9,10 +9,10 @@ en.name: Fei Jai
 en.nicknames: none
 en.othernames: Fei-Jai, Feijai
 gender: m
-jp.name: フェイジャイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フェイジャイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 115, 2014/6/17
 location.2: 152, 2017/2/28

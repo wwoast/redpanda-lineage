@@ -8,10 +8,10 @@ en.name: Emi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: えみ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: えみ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1425
 photo.1: ig://CxPDxOAvp9O/m
 photo.1.author: nihondairazoo_szga

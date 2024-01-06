@@ -9,10 +9,10 @@ en.name: Tan-Tan
 en.nicknames: none
 en.othernames: Tantan
 gender: m
-jp.name: 淡淡
-jp.nicknames: none
-jp.othernames: たんたん
-language.order: jp, en
+ja.name: 淡淡
+ja.nicknames: none
+ja.othernames: たんたん
+language.order: ja, en
 litter: 551
 species: 2
 studbook.id: 98024

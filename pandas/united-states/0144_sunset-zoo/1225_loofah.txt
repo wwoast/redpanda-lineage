@@ -8,10 +8,10 @@ en.name: Loofah
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ルーファ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルーファ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1224
 location.1: 154, 2018/6/21
 location.2: 144, 2019/10/21

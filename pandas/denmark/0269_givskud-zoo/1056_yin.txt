@@ -9,10 +9,10 @@ en.name: Yin
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: イン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 225, 2016/6/17
 location.2: 219, 2017/2/12

@@ -9,10 +9,10 @@ en.name: Nan-Nan
 en.nicknames: none
 en.othernames: Nannan
 gender: f
-jp.name: ナンナン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナンナン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 location.1: wild.3
 location.2: 6, 1998/12/14

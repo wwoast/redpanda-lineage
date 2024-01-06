@@ -5,10 +5,10 @@ en.address: Japan, 〒345-0831 Saitama Prefecture, Minamisaitama District, Miyas
 en.location: Miyashiro, Minamisaitama, Saitama Prefecture, Japan
 en.name: Tobu Zoo
 flag: Japan
-jp.address: 〒345-0831 埼玉県南埼玉郡宮代町 須賀１１０
-jp.location: 宮代町 南埼玉郡 埼玉県
-jp.name: 東武動物公園
-language.order: jp, en
+ja.address: 〒345-0831 埼玉県南埼玉郡宮代町 須賀１１０
+ja.location: 宮代町 南埼玉郡 埼玉県
+ja.name: 東武動物公園
+language.order: ja, en
 latitude: 36.0196909
 longitude: 139.7174791
 map: https://goo.gl/maps/74vbDPHR5DK2

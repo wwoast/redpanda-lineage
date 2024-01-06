@@ -8,10 +8,10 @@ en.name: Pim-Pim
 en.nicknames: none
 en.othernames: Pimpim, Pim Pim
 gender: m
-jp.name: ピムピム
-jp.nicknames: none
-jp.othernames: none
-language.order: sv, en, jp
+ja.name: ピムピム
+ja.nicknames: none
+ja.othernames: none
+language.order: sv, en, ja
 litter: unknown
 location.1: 246, 2015/6/30
 location.2: 222, 2016/5/19

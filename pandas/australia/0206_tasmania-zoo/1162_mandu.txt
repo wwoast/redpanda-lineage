@@ -8,10 +8,10 @@ en.name: Mandu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マヌドゥ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, ne, jp
+ja.name: マヌドゥ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ne, ja
 litter: 1161
 location.1: 207, 2015/12/10
 location.2: 206, 2017/7/4

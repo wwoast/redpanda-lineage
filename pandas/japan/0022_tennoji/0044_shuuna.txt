@@ -8,10 +8,10 @@ en.name: Shuuna
 en.nicknames: none
 en.othernames: Syuna, Shoona, Shuna
 gender: f
-jp.name: シュウナ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シュウナ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 location.1: 16, 2006/7/4
 location.2: 22, 2007/4/2
 photo.1: ig://BB0t12WPi7_/m

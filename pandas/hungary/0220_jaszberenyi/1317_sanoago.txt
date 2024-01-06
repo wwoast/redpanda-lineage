@@ -11,10 +11,10 @@ gender: m
 hu.name: Kicsi Tűz
 hu.nicknames: none
 hu.othernames: none
-jp.name: 小さな火
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, ne, jp
+ja.name: 小さな火
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ne, ja
 litter: 1316
 ne.name: सानो आगो
 ne.nicknames: none

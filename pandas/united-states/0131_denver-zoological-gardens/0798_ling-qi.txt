@@ -9,10 +9,10 @@ en.name: Ling-Qi
 en.nicknames: none
 en.othernames: Lingqi
 gender: f
-jp.name: リンチー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リンチー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 532, 533, 799
 species: 1
 studbook.id: 0909

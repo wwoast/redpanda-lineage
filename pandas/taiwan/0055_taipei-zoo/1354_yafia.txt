@@ -11,10 +11,10 @@ en.name: Yafia
 en.nicknames: none
 en.othernames: Miumiu, Miu-Miu
 gender: m
-jp.name: ヤフィア
-jp.nicknames: none
-jp.othernames: ミュウミュウ
-language.order: cn, en, jp
+ja.name: ヤフィア
+ja.nicknames: none
+ja.othernames: ミュウミュウ
+language.order: cn, en, ja
 litter: 1353
 photo.1: ig://Bnu-7c2lBSU/m
 photo.1.author: lovetaipeizoo

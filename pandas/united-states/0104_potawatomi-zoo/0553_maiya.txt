@@ -8,10 +8,10 @@ en.name: Maiya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マイヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マイヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 847
 location.1: 129, 2014/6/26
 location.2: 130, 2015/5/16

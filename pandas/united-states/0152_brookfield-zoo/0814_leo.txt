@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Paboo
 en.othernames: none
 gender: m
-jp.name: レーオ
-jp.nicknames: none
-jp.oldnames: パブー
-jp.othernames: none
-language.order: en, jp
+ja.name: レーオ
+ja.nicknames: none
+ja.oldnames: パブー
+ja.othernames: none
+language.order: en, ja
 litter: 815
 location.1: 121, 2017/6/14
 location.2: 152, 2018/2/6

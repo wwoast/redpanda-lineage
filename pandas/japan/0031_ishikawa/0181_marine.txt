@@ -8,10 +8,10 @@ en.name: Marine
 en.nicknames: none
 en.othernames: Marin
 gender: f
-jp.name: マリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 182
 photo.1: ig://BVk-BvRhw_B/m
 photo.1.author: meiki.0331km

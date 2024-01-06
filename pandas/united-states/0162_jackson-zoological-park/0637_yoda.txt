@@ -9,10 +9,10 @@ en.name: Yoda
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヨーダ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヨーダ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 114, 2006/7/3
 location.2: 146, 2007/5/8

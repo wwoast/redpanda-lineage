@@ -9,10 +9,10 @@ en.name: Gou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 剛
-jp.nicknames: none
-jp.othernames: ごう
-language.order: jp, en
+ja.name: 剛
+ja.nicknames: none
+ja.othernames: ごう
+language.order: ja, en
 litter: none
 location.1: 29, 2000/6/19
 location.2: 11, 2004/4/8

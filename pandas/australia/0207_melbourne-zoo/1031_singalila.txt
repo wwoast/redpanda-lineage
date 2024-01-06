@@ -9,10 +9,10 @@ en.name: Singalila
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シンダリラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シンダリラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1030
 location.1: 181, 1996/12/4
 location.2: 207, 1997/7/22

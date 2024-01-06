@@ -9,10 +9,10 @@ en.name: Nigalya
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: にがりや
-jp.nicknames: none
-jp.othernames: none
-language.order: en, ne, jp
+ja.name: にがりや
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ne, ja
 litter: 1111
 location.1: 108, 1997/6/9
 location.2: 112, 1998/7/15

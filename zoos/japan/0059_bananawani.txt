@@ -6,10 +6,10 @@ en.location: Higashiizu-cho, Kamo, Shizuoka Prefecture, Japan
 en.name: Atagawa Tropical & Alligator Garden
 en.othernames: Bananawani
 flag: Japan
-jp.address: 〒413-0302 静岡県賀茂郡東伊豆町奈良本1253-10
-jp.location: 東伊豆町 賀茂郡 静岡県
-jp.name: 熱川バナナワニ園
-language.order: jp, en
+ja.address: 〒413-0302 静岡県賀茂郡東伊豆町奈良本1253-10
+ja.location: 東伊豆町 賀茂郡 静岡県
+ja.name: 熱川バナナワニ園
+language.order: ja, en
 latitude: 34.8161636
 longitude: 139.0656855
 map: https://goo.gl/maps/H7nX1JM8hAv

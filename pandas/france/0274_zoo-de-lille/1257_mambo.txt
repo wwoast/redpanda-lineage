@@ -8,10 +8,10 @@ en.name: Mambo
 en.nicknames: none
 en.othernames: Mabmo
 gender: f
-jp.name: マンボ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マンボ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 275, 2016/7/23
 location.2: 276, 2017/8/2
 location.3: 274, 2018/6/18

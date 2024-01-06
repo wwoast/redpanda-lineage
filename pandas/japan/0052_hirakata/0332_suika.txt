@@ -9,10 +9,10 @@ en.name: Suika
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スイカ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スイカ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 40, 2002/8/4
 location.2: 30, 2010/2/25

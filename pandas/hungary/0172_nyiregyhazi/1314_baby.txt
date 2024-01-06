@@ -11,10 +11,10 @@ gender: unknown
 hu.name: Kölyök
 hu.nicknames: none
 hu.othernames: none
-jp.name: 赤ちゃん
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, jp
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ja
 litter: none
 photo.1: ig://CQHhL9-gds8/m
 photo.1.author: noba_explore

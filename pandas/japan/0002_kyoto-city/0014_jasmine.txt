@@ -12,10 +12,10 @@ en.name: Jasmine
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ジャスミン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, cn, en
+ja.name: ジャスミン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, cn, en
 litter: unknown
 location.1: 5, 2010/7/14
 location.2: 2, 2013/3/30

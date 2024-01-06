@@ -8,10 +8,10 @@ en.name: Paprika
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: パプリカ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パプリカ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1307
 location.1: 166, 2021/7/1
 location.2: 126, 2022/9/23

@@ -5,10 +5,10 @@ en.address: 1212 Mitōchōaka, Mine-shi, Yamaguchi-ken 754-0302, Japan
 en.location: Mine, Yamaguchi Prefecture, Japan
 en.name: Akiyoshidai Safari Land
 flag: Japan
-jp.address: 〒754-0302 山口県美祢市美東町赤１２１２
-jp.location: 美祢市 山口県
-jp.name: 秋吉台自然動物公園サファリランド
-language.order: jp, en
+ja.address: 〒754-0302 山口県美祢市美東町赤１２１２
+ja.location: 美祢市 山口県
+ja.name: 秋吉台自然動物公園サファリランド
+language.order: ja, en
 latitude: 34.2683467
 longitude: 131.3007106
 map: https://goo.gl/maps/UT1Be9m6ukw

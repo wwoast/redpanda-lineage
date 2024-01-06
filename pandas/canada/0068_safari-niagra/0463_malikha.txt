@@ -9,10 +9,10 @@ en.name: Malikha
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マリクハ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マリクハ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 389
 location.1: 65, 2004/6/8
 location.2: 51, 2005/9/28

@@ -9,10 +9,10 @@ en.name: Saffron
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: サフラン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サフラン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 1
 studbook.id: 1625

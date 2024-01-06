@@ -54,7 +54,7 @@ Pandas.def.age = {
     "day": "día",
     "days": "días"
   },
-  "jp": {
+  "ja": {
     "year": "歳",
     "years": "歳",
     "month": "月",
@@ -101,9 +101,9 @@ Pandas.def.animal = {
   "es.nicknames": "No se registraron apodos",
   "es.othernames": "No se registraron nombres alternativos",
   "gender": "Unknown",
-  "jp.name": "パンダが見つかりませんでした",
-  "jp.nicknames": "ニックネームは記録されていません",
-  "jp.othernames": "代わりのスペルは記録されていません",
+  "ja.name": "パンダが見つかりませんでした",
+  "ja.nicknames": "ニックネームは記録されていません",
+  "ja.othernames": "代わりのスペルは記録されていません",
   "litter": "0",
   "ne.name": "निगल्या पोनिया फेला परेन",
   "ne.nicknames": "उपनामहरू फेला परेन",
@@ -124,7 +124,7 @@ Pandas.def.date = {
   "earliest_year": "1970",
   "en": "MM/DD/YYYY",
   "es": "DD/MM/YYYY",
-  "jp": "YYYY年MM月DD日",
+  "ja": "YYYY年MM月DD日",
   "ne": "YYYY-MM-DD",
   "pt": "DD/MM/YYYY",
   "zh": "YYYY-MM-DD"
@@ -134,7 +134,7 @@ Pandas.def.date_season = {
   "earliest_year": "1970",
   "en": "SEASON YYYY",
   "es": "SEASON YYYY",
-  "jp": "SEASON YYYY",
+  "ja": "SEASON YYYY",
   "ne": "SEASON YYYY",
   "pt": "SEASON YYYY",
   "zh": "SEASON YYYY"
@@ -144,7 +144,7 @@ Pandas.def.gender = {
   "Female": {
     "en": "female",
     "es": "hembra",
-    "jp": "メス",
+    "ja": "メス",
     "ne": "महिला",
     "pt": "fêmea",
     "zh": "女"
@@ -152,7 +152,7 @@ Pandas.def.gender = {
   "Male": {
     "en": "male",
     "es": "macho",
-    "jp": "オス",
+    "ja": "オス",
     "ne": "नर",
     "pt": "macho",
     "zh": "男"
@@ -163,7 +163,7 @@ Pandas.def.gender = {
 Pandas.def.no_name = {
   "en": "Unknown",
   "es": "Desconocido",
-  "jp": "未詳",
+  "ja": "未詳",
   "ne": "अज्ञात",
   "pt": "Desconhecido(a)",
   "zh": "不明"
@@ -174,7 +174,7 @@ Pandas.def.authors = {
   "anonymous": {
     "en": "anonymous",
     "es": "anónimo",
-    "jp": "匿名",
+    "ja": "匿名",
     "ne": "बेनामी",
     "pt": "anônimo",
     "zh": "匿名"
@@ -182,7 +182,7 @@ Pandas.def.authors = {
   "uncredited": {
     "en": "uncredited",
     "es": "sin acreditar",
-    "jp": "信用されていない",
+    "ja": "信用されていない",
     "ne": "अप्रत्याशित",
     "pt": "não creditado",
     "zh": "沒有信用"
@@ -196,7 +196,7 @@ Pandas.def.authors = {
 // appearance of the buttons in the language menu.
 Pandas.def.languages = {
   "en": "en",
-  "ja": "jp",
+  "ja": "ja",
   "zh": "zh",
   "ne": "ne",
   "es": "es",
@@ -211,7 +211,7 @@ Pandas.def.ranges = {
     /[\u0100-\u017f]/,   // Latin Supplement A,
     /[\u0180-\u024f]/    // Latin Supplement B
   ],
-  "jp": [
+  "ja": [
     /[\u3000-\u303f]/,   // Japanese punctuation
     /[\u3040-\u309f]/,   // Japanese hiragana
     /[\u30a0-\u30ff]/,   // Japanese katakana,
@@ -228,7 +228,7 @@ Pandas.def.relations = {
   "aunt": {
     "en": "aunt",
     "es": "tía",
-    "jp": "叔母",
+    "ja": "叔母",
     "ne": "काकी",
     "pt": "tia",
     "zh": "姑媽"
@@ -236,7 +236,7 @@ Pandas.def.relations = {
   "brother": {
     "en": "brother",
     "es": "hermano",
-    "jp": "兄",
+    "ja": "兄",
     "ne": "भाई",
     "pt": "irmão",
     "zh": "兄"
@@ -244,7 +244,7 @@ Pandas.def.relations = {
   "children": {
     "en": "children",
     "es": "niños",
-    "jp": "子供",
+    "ja": "子供",
     "ne": "बच्चाहरु",
     "pt": "filhos(as)",
     "zh": "孩子"
@@ -252,7 +252,7 @@ Pandas.def.relations = {
   "cousin": {
     "en": "cousin",
     "es": "primo",
-    "jp": "いとこ",
+    "ja": "いとこ",
     "ne": "भान्जा",
     "pt": "primo(a)",
     "zh": "表姐"
@@ -260,7 +260,7 @@ Pandas.def.relations = {
   "father": {
     "en": "father",
     "es": "padre",
-    "jp": "父",
+    "ja": "父",
     "ne": "बुबा",
     "pt": "pai",
     "zh": "父"
@@ -268,7 +268,7 @@ Pandas.def.relations = {
   "grandfather": {
     "en": "grandfather",
     "es": "abuelo",
-    "jp": "おじいちゃん",
+    "ja": "おじいちゃん",
     "ne": "हजुरबुबा",
     "pt": "avô",
     "zh": "祖父"
@@ -276,7 +276,7 @@ Pandas.def.relations = {
   "grandmother": {
     "en": "grandmother",
     "es": "abuela",
-    "jp": "おばあちゃん",
+    "ja": "おばあちゃん",
     "ne": "हजुरआमा",
     "pt": "avó",
     "zh": "祖母"
@@ -284,7 +284,7 @@ Pandas.def.relations = {
   "litter": {
     "en": "litter",
     "es": "camada",
-    "jp": "双子",   /* "同腹仔" */
+    "ja": "双子",   /* "同腹仔" */
     "ne": "रोटी",
     "pt": "ninhada",
     "zh": "轿子"
@@ -292,7 +292,7 @@ Pandas.def.relations = {
   "mother": {
     "en": "mother",
     "es": "madre",
-    "jp": "母",
+    "ja": "母",
     "ne": "आमा",
     "pt": "mãe",
     "zh": "母"
@@ -300,7 +300,7 @@ Pandas.def.relations = {
   "nephew": {
     "en": "nephew",
     "es": "sobrino",
-    "jp": "甥",
+    "ja": "甥",
     "ne": "भतिजा",
     "pt": "sobrinho",
     "zh": "外甥"
@@ -308,7 +308,7 @@ Pandas.def.relations = {
   "niece": {
     "en": "niece",
     "es": "sobrina",
-    "jp": "姪",
+    "ja": "姪",
     "ne": "भान्जी",
     "pt": "sobrinha",
     "zh": "侄女"
@@ -316,7 +316,7 @@ Pandas.def.relations = {
   "parents": {
     "en": "parents",
     "es": "padres",
-    "jp": "両親",
+    "ja": "両親",
     "ne": "अभिभावक",
     "pt": "pais",
     "zh": "父母"
@@ -324,7 +324,7 @@ Pandas.def.relations = {
   "sister": {
     "en": "sister",
     "es": "hermana",
-    "jp": "姉",
+    "ja": "姉",
     "ne": "बहिनी",
     "pt": "irmã",
     "zh": "妹妹"
@@ -332,7 +332,7 @@ Pandas.def.relations = {
   "siblings": {
     "en": "siblings",
     "es": "hermanos",
-    "jp": "兄弟",
+    "ja": "兄弟",
     "ne": "भाइबहिनीहरू",
     "pt": "irmãos(ãs)",
     "zh": "兄弟姐妹"
@@ -340,7 +340,7 @@ Pandas.def.relations = {
   "uncle": {
     "en": "uncle",
     "es": "tío",
-    "jp": "叔父",
+    "ja": "叔父",
     "ne": "काका",
     "pt": "tio",
     "zh": "叔叔"
@@ -358,7 +358,7 @@ Pandas.def.species = {
     "Ailurus fulgens styani",
     "Ailurus fulgens"
   ],
-  "jp": [
+  "ja": [
     "西レッサーパンダ",
     "シセンレッサーパンダ",
     "未詳レッサーパンダ"
@@ -383,7 +383,7 @@ Pandas.def.species = {
 Pandas.def.unknown = {
   "en": "unknown",
   "es": "desconocido",
-  "jp": "未詳",
+  "ja": "未詳",
   "ne": "अज्ञात",
   "pt": "desconhecido",
   "zh": "不明"
@@ -398,9 +398,9 @@ Pandas.def.wild = {
   "es.address": "Animal Salvaje Capturado o Rescatado",
   "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
   "es.name": "Zoo No Encontrado",
-  "jp.address": "TOWRITE",
-  "jp.location": "市区町村の情報が表示されていない",
-  "jp.name": "動物園が見つかりません",
+  "ja.address": "TOWRITE",
+  "ja.location": "市区町村の情報が表示されていない",
+  "ja.name": "動物園が見つかりません",
   "ne.address": "जंगली जनावर कब्जा वा बचाव",
   "ne.location": "कुनै स्थान जानकारी छैन",
   "ne.name": "चिडियाखाना फेला परेन",
@@ -424,9 +424,9 @@ Pandas.def.zoo = {
   "es.address": "No Se Registró Ninguna Dirección de Google Maps",
   "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
   "es.name": "Zoo No Encontrado",
-  "jp.address": "Googleマップのアドレスが記録されていません",
-  "jp.location": "市区町村の情報が表示されていない",
-  "jp.name": "動物園が見つかりません",
+  "ja.address": "Googleマップのアドレスが記録されていません",
+  "ja.location": "市区町村の情報が表示されていない",
+  "ja.name": "動物園が見つかりません",
   "ne.address": "कुनै ठेगाना सूचीबद्ध छैन",
   "ne.location": "कुनै स्थान जानकारी छैन",
   "ne.name": "चिडियाखाना फेला परेन",
@@ -1660,8 +1660,8 @@ Pandas.searchZooName = function(zoo_name_str) {
 // for each animal in the dataset.
 Pandas.sortByNameJapanese = function(nodes) {
   var hiragana_generate = function(name) {
-    var hiragana = Pandas.def.ranges['jp'][1];   // Hiragana range regex
-    var katakana = Pandas.def.ranges['jp'][2];   // Katakana range regex
+    var hiragana = Pandas.def.ranges['ja'][1];   // Hiragana range regex
+    var katakana = Pandas.def.ranges['ja'][2];   // Katakana range regex
     if (hiragana.test(name) == true) {
       return name;
     }
@@ -1681,9 +1681,9 @@ Pandas.sortByNameJapanese = function(nodes) {
     return name_list;
   }
 
-  var name_field = "jp.name";
-  var othername_field = "jp.othernames";
-  var sort_name = "jp.sortname";
+  var name_field = "ja.name";
+  var othername_field = "ja.othernames";
+  var sort_name = "ja.sortname";
 
   var connector = Language.L.messages["and"][L.display]
   nodes = nodes.map(function(node) {
@@ -1742,7 +1742,7 @@ Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
     }
     return node;
   });
-  if (L.display == "jp") {
+  if (L.display == "ja") {
     return Pandas.sortByNameJapanese(nodes);
   } else {
     return Pandas.sortByName(nodes, name_field);
@@ -1824,7 +1824,7 @@ Pandas.age = function(animal, language) {
                        : Pandas.def.age[language][time_word + "s"]
   }
   var spacing = function(language) {
-    return (language == "jp") ? '' : " ";
+    return (language == "ja") ? '' : " ";
   }
   // Date heuristics: Print the age in days if younger than 100 days old.
   // Otherwise, print the age in terms of months and years, up to two years,

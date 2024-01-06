@@ -9,10 +9,10 @@ en.name: Nonta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: のんた
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: のんた
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 6, 2012/6/27
 location.2: 15, 2015/1/30

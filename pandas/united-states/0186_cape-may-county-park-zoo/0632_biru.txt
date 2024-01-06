@@ -9,10 +9,10 @@ en.name: Biru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ビル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ビル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 633
 location.1: 146, 2010/6/24
 location.2: 75, 2011/4/12

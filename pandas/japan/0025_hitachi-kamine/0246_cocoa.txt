@@ -8,11 +8,11 @@ en.nicknames: none
 en.oldnames: Kuro, Kufa, Ku-Fa
 en.othernames: none
 gender: f
-jp.name: ココア
-jp.nicknames: none
-jp.oldnames: クロ, 紅花, クーファ
-jp.othernames: none
-language.order: jp, en
+ja.name: ココア
+ja.nicknames: none
+ja.oldnames: クロ, 紅花, クーファ
+ja.othernames: none
+language.order: ja, en
 litter: 247
 location.1: 1, 2018/6/28
 location.2: 25, 2023/11/20

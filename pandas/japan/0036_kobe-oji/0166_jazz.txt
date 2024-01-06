@@ -8,10 +8,10 @@ en.name: Jazz
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ジャズ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ジャズ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 167
 photo.1: ig://BagKfyyH49V/m
 photo.1.author: tomo3700

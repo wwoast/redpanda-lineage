@@ -9,10 +9,10 @@ en.name: Mattie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マッティ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マッティ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://cw4O97Hs1I/m
 photo.1.author: zooborns

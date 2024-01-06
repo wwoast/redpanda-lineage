@@ -8,10 +8,10 @@ en.name: Himawari
 en.nicknames: Sunflower
 en.othernames: Hima-chan
 gender: f
-jp.name: ひまわり
-jp.nicknames: none
-jp.othernames: コムギ
-language.order: jp, en
+ja.name: ひまわり
+ja.nicknames: none
+ja.othernames: コムギ
+language.order: ja, en
 litter: none
 location.1: 1, 2017/7/13
 location.2: 17, 2020/2/3

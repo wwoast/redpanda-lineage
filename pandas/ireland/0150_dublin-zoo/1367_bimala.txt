@@ -8,10 +8,10 @@ en.name: Bimala
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ビマラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ビマラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 257, 2021/6/1
 location.2: 150, 2022/6/29

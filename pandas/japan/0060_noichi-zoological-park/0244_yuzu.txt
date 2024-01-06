@@ -8,10 +8,10 @@ en.name: Yuzu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ユズ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ユズ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 245
 location.1: 45, 2018/6/27
 location.2: 60, 2022/12/19

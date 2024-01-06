@@ -8,10 +8,10 @@ en.name: Thomas
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: トーマス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: トーマス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 621
 location.1: 145, 2013/6/20
 location.2: 146, 2017/12/12

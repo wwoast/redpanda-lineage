@@ -8,10 +8,10 @@ en.name: Natsume
 en.nicknames: none
 en.othernames: 
 gender: f
-jp.name: ナツメ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナツメ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 244
 photo.1: ig://BpZSEwSlfOt/m
 photo.1.author: fetorus_mami

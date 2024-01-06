@@ -8,10 +8,10 @@ en.name: Riko
 en.nicknames: none
 en.othernames: Rico
 gender: f
-jp.name: リコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 6, 2013/6/25
 location.2: 30, 2015/1/15

@@ -9,10 +9,10 @@ en.name: Chii-Chii
 en.nicknames: none
 en.othernames: Chiichii
 gender: m
-jp.name: チイチイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チイチイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 1989/6/30
 location.2: 28, 1990/11/2

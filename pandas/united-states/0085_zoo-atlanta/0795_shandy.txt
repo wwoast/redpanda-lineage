@@ -9,10 +9,10 @@ en.name: Shandy
 en.nicknames: none
 en.othernames: Shandi
 gender: f
-jp.name: シャンディ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャンディ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 675, 794
 location.1: 108, 2000/6/9
 location.2: 185, 2001/3/30

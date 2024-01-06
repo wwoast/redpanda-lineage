@@ -9,10 +9,10 @@ en.name: Kitarou
 en.nicknames: none
 en.othernames: Kitaro
 gender: m
-jp.name: 黄太郎
-jp.nicknames: none
-jp.othernames: キタロウ, キタロー
-language.order: jp, en
+ja.name: 黄太郎
+ja.nicknames: none
+ja.othernames: キタロウ, キタロー
+language.order: ja, en
 litter: 608
 location.1: 17, 2003/6/26
 location.2: 54, 2006/1/10

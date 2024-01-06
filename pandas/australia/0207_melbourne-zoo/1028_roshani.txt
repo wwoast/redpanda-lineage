@@ -8,10 +8,10 @@ en.name: Roshani
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ロシャーニ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ロシャーニ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 217, 2007/12/21
 location.2: 207, 2009/4/24

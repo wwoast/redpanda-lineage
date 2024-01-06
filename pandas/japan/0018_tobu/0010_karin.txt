@@ -8,10 +8,10 @@ en.name: Karin
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 4, 2012/6/9
 location.2: 1, 2014/5/12

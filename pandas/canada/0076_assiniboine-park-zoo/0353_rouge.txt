@@ -8,10 +8,10 @@ en.name: Rouge
 en.nicknames: none
 en.othernames: Chya-Fa, Chafa
 gender: f
-jp.name: チャーファ
-jp.nicknames: ルージュ
-jp.othernames: none
-language.order: jp, en
+ja.name: チャーファ
+ja.nicknames: ルージュ
+ja.othernames: none
+language.order: ja, en
 litter: 858
 location.1: 34, 2002/6/20
 location.2: 76, 2004/12/13

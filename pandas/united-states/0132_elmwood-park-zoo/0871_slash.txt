@@ -8,10 +8,10 @@ en.name: Slash
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スラッシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スラッシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 872, 873
 location.1: 114, 2014/6/26
 location.2: 132, 2015/5/14

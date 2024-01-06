@@ -8,10 +8,10 @@ en.name: Jacob
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヤコブ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヤコブ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 833
 location.1: 107, 2017/6/20
 location.2: 148, 2018/5/23

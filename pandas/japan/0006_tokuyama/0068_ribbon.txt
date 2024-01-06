@@ -9,10 +9,10 @@ en.name: Ribbon
 en.nicknames: none
 en.othernames: Ribon
 gender: f
-jp.name: リボン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リボン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 location.1: 30, 2006/5/30
 location.2: 6, 2011/6/17
 photo.1: ig://BYs9KaMA_w1/m

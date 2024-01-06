@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Dundup
 en.othernames: none
 gender: m
-jp.name: ピート
-jp.nicknames: none
-jp.oldnames: ドンダップ
-jp.othernames: none
-language.order: en, jp
+ja.name: ピート
+ja.nicknames: none
+ja.oldnames: ドンダップ
+ja.othernames: none
+language.order: en, ja
 litter: 538
 location.1: 138, 2009/6/6
 location.2: 174, 2010/10/20

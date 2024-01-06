@@ -11,10 +11,10 @@ gender: m
 hu.name: Kicsi Rügy
 hu.nicknames: none
 hu.othernames: none
-jp.name: 小さなつぼみ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, ne, jp
+ja.name: 小さなつぼみ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ne, ja
 litter: 1317
 ne.name: सानो कली
 ne.nicknames: none

@@ -8,10 +8,10 @@ en.name: Nonoka
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 野乃香
-jp.nicknames: none
-jp.othernames: ノノカ
-language.order: jp, en
+ja.name: 野乃香
+ja.nicknames: none
+ja.othernames: ノノカ
+language.order: ja, en
 litter: 258
 photo.1: ig://BZLXwdeBCB6/m
 photo.1.author: miis_98

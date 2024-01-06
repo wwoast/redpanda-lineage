@@ -8,10 +8,10 @@ en.name: Wilhelm
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ウィルヘルム
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィルヘルム
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 581
 location.1: 107, 2017/6/20
 location.2: 155, 2018/4/26

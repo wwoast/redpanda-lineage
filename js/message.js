@@ -792,7 +792,7 @@ Message.tag_subject = function(num, name, emoji, tag, language) {
         field = Language.unpluralize([field]);
       }
       var msg = document.createTextNode(field);
-      if ((language == "jp") && (i == 1) && (name == undefined)) {
+      if ((language == "ja") && (i == 1) && (name == undefined)) {
         msg = document.createTextNode("枚");
       }
       p.appendChild(msg);

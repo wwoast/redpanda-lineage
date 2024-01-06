@@ -9,10 +9,10 @@ en.name: Cha-Cha
 en.nicknames: none
 en.othernames: Chacha
 gender: f
-jp.name: 茶茶
-jp.nicknames: none
-jp.othernames: チャチャ
-language.order: jp, en
+ja.name: 茶茶
+ja.nicknames: none
+ja.othernames: チャチャ
+language.order: ja, en
 litter: none
 location.1: 1, 1995/7/2
 location.2: 28, 1998/12/7

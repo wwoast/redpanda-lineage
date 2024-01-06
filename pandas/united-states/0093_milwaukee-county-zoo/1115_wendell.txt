@@ -9,10 +9,10 @@ en.name: Wendell
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ウェンデル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウェンデル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1116
 location.1: 108, 1991/6/16
 location.2: 118, 1995/12/6

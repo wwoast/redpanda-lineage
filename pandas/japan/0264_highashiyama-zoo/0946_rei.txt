@@ -8,10 +8,10 @@ en.name: Rei
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 令
-jp.nicknames: none
-jp.othernames: レイ
-language.order: jp, en
+ja.name: 令
+ja.nicknames: none
+ja.othernames: レイ
+language.order: ja, en
 litter: 947
 location.1: 63, 2019/7/1
 location.2: 264, 2020/12/7

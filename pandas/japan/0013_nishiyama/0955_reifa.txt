@@ -8,10 +8,10 @@ en.name: Rei-Fa
 en.nicknames: none
 en.othernames: Reifa
 gender: f
-jp.name: 令花
-jp.nicknames: none
-jp.othernames: レイファ
-language.order: jp, en
+ja.name: 令花
+ja.nicknames: none
+ja.othernames: レイファ
+language.order: ja, en
 litter: 956
 photo.1: ig://B3f869cha-6/m
 photo.1.author: yakko____

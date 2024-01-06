@@ -9,10 +9,10 @@ en.name: Shii
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 椎
-jp.nicknames: none
-jp.othernames: シイ
-language.order: jp, en
+ja.name: 椎
+ja.nicknames: none
+ja.othernames: シイ
+language.order: ja, en
 litter: 585
 location.1: 40, 2000/7/13
 location.2: 3, 2004/1/7

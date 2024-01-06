@@ -9,10 +9,10 @@ en.name: Ran-Ran
 en.nicknames: none
 en.othernames: Ranran
 gender: f
-jp.name: ランラン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ランラン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 775
 species: 2
 studbook.id: 8714

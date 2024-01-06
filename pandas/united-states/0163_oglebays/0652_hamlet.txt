@@ -8,10 +8,10 @@ en.name: Hamlet
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ハムレット
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ハムレット
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 525
 location.1: 126, 2013/7/20
 location.2: 131, 2015/2/14

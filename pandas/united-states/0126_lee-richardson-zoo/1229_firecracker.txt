@@ -9,10 +9,10 @@ en.name: Firecracker
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 爆竹
-jp.nicknames: none
-jp.othernames: ばくちく
-language.order: en, jp
+ja.name: 爆竹
+ja.nicknames: none
+ja.othernames: ばくちく
+language.order: en, ja
 litter: 1230
 location.1: 122, 1991/7/3
 location.2: 81, 1992/4/2

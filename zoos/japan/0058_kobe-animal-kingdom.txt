@@ -5,10 +5,10 @@ en.address: Japan, 〒650-0047 Hyōgo Prefecture, 神戸市中央区港島南町
 en.location: Port Island, Chūō-ku, Kobe, Japan
 en.name: Kobe Animal Kingdom
 flag: Japan
-jp.address: 〒650-0047 兵庫県 神戸市中央区港島南町７丁目１−９
-jp.location: ポートアイランド 中央区 神戸市
-jp.name: 神戸どうぶつ王国
-language.order: jp, en
+ja.address: 〒650-0047 兵庫県 神戸市中央区港島南町７丁目１−９
+ja.location: ポートアイランド 中央区 神戸市
+ja.name: 神戸どうぶつ王国
+language.order: ja, en
 latitude: 34.654646
 longitude: 135.2203581
 map: https://goo.gl/maps/eD1oUBUky182

@@ -14,10 +14,10 @@ fr.name: Lolita
 fr.nicknames: none
 fr.othernames: none
 gender: f
-jp.name: ロリータ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, de, en, jp
+ja.name: ロリータ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, de, en, ja
 litter: 1152
 location.1: 230, 2010/6/21
 location.2: 234, 2011/10/12

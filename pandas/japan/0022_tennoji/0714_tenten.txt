@@ -9,10 +9,10 @@ en.name: Ten-Ten
 en.nicknames: none
 en.othernames: Tenten
 gender: m
-jp.name: 天天
-jp.nicknames: none
-jp.othernames: テンテン
-language.order: jp, en
+ja.name: 天天
+ja.nicknames: none
+ja.othernames: テンテン
+language.order: ja, en
 litter: none
 location.1: 46, 2005/7/12
 location.2: 54, 2007/1/29

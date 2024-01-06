@@ -8,10 +8,10 @@ en.name: Popo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ポポ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ポポ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 95
 location.1: 10, 2014/7/1
 location.2: 147, 2020/3/9

@@ -9,10 +9,10 @@ en.name: Zeyar
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ゼイヤー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ゼイヤー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 2
 studbook.id: 0710

@@ -8,10 +8,10 @@ en.name: Mametaro
 en.nicknames: Scramble!, Mame-chan, Mamechan
 en.othernames: Mametarou
 gender: m
-jp.name: まめたろう
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: まめたろう
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 100
 location.1: 17, 2016/6/24
 location.2: 12, 2018/2/20

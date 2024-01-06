@@ -8,10 +8,10 @@ en.name: Sikkim
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シッキム
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シッキム
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 224, 2015/7/10
 location.2: 182, 2016/4/11

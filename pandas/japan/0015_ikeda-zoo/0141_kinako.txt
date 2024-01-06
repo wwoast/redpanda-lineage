@@ -8,10 +8,10 @@ en.name: Kinako
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: きなこ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: きなこ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 110
 location.1: 35, 2014/6/26
 location.2: 15, 2017/5/29

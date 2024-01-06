@@ -9,10 +9,10 @@ en.name: Charmin
 en.nicknames: none
 en.othernames: Cha-Min, Cha-min
 gender: m
-jp.name: チャーミン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チャーミン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 2011/7/17
 location.2: 37, 2014/2/3

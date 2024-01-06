@@ -8,10 +8,10 @@ en.name: Kira
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: キラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 315
 location.1: 20, 2014/6/12
 location.2: 40, 2017/5/19

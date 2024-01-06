@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Bali
 en.othernames: none
 gender: m
-jp.name: バリ
-jp.nicknames: none
-jp.oldnames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: バリ
+ja.nicknames: none
+ja.oldnames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1075
 location.1: 107, 2019/6/20
 location.2: 108, 2019/8/21

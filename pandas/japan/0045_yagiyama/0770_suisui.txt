@@ -9,10 +9,10 @@ en.name: Sui-Sui
 en.nicknames: none
 en.othernames: Suisui
 gender: m
-jp.name: スイスイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スイスイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 1989/6/29
 location.2: 45, 1990/11/28

@@ -11,10 +11,10 @@ en.name: Canele
 en.nicknames: none
 en.othernames: Canelé, Kelilu, Lulu
 gender: m
-jp.name: カヌレ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: カヌレ
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: none
 photo.1: ig://CYkPzSfBfMs/m
 photo.1.author: yuredpanda

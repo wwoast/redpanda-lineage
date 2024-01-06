@@ -12,9 +12,9 @@ gender: m
 hu.name: Albert
 hu.nicknames: none
 hu.othernames: none
-jp.name: アルバート
-jp.nicknames: none
-jp.othernames: none
+ja.name: アルバート
+ja.nicknames: none
+ja.othernames: none
 language.order: hu, en
 litter: unknown
 photo.1: ig://BKnl6yZBmsF/m

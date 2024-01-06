@@ -64,141 +64,141 @@ Parse.keyword = {};
 Parse.keyword.baby = {
   "zh": ['婴儿', '婴'],
   "en": ['aka-chan', 'Aka-Chan', 'Aka-chan', 'baby', 'Baby', 'babies', 'Babies'],
-  "jp": ['赤', '赤ちゃん']
+  "ja": ['赤', '赤ちゃん']
 }
 Parse.keyword.born = {
   "zh": ['出生'],
   "en": ['born', 'Born'],
-  "jp": ['生まれ']
+  "ja": ['生まれ']
 }
 Parse.keyword.born_at = {
   "zh": ['出生'],
   "en": ['born at', 'Born at'],
-  "jp": ['生まれ']
+  "ja": ['生まれ']
 }
 /* Parse.keyword.born + (around|after|before) = TODO */
 Parse.keyword.credit = {
   "zh": ['TOWRITE'],
   "en": ['author', 'Author', 'credit', 'Credit', 'ask', 'Ask'],
-  "jp": ['著者']
+  "ja": ['著者']
 }
 Parse.keyword.dead = {
   "zh": ['TOWRITE'],
   "en": ['dead', 'Dead', 'died', 'Died', 'rainbow', 'Rainbow'],
-  "jp": ['死', '虹']
+  "ja": ['死', '虹']
 }
 Parse.keyword.died_at = {
   "zh": ['TOWRITE'],
   "en": ['died at', 'Died at'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family = {};
 Parse.keyword.family.aunt = {
   "zh": ['TOWRITE'],
   "en": ['aunt', 'Aunt'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.brother = {
   "zh": ['TOWRITE'],
   "en": ['brother', 'Brother'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.cousin = {
   "zh": ['TOWRITE'],
   "en": ['cousin', 'Cousin'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.children = {
   "zh": ['TOWRITE'],
   "en": ['children'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.dad = {
   "zh": ['TOWRITE'],
   "en": ['dad', 'Dad', 'father', 'Father', 'papa', 'Papa'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.grandma = {
   "zh": ['TOWRITE'],
   "en": ['grandma', 'Grandma', 'grandmother', 'Grandmother'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.grandpa = {
   "zh": ['TOWRITE'],
   "en": ['grandpa', 'Grandpa', 'grandfather', 'Grandfather'],
-  "jp": ['TORWITE']
+  "ja": ['TORWITE']
 }
 Parse.keyword.family.litter = {
   "zh": ['TOWRITE'],
   "en": ['litter', 'Litter'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.mate = {
   "zh": ['TOWRITE'],
   "en": ['husband', 'Husband', 'mate', 'Mate', 'partner', 'Partner', 'wife', 'Wife'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.mom = {
   "zh": ['TOWRITE'],
   "en": ['mam', 'Mam', 'mama', 'Mama', 'mom', 'Mom', 'mommy', 'Mommy', 'mother', 'Mother'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.nephew = {
   "zh": ['TOWRITE'],
   "en": ['nephew', 'Nephew'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.niece = {
   "zh": ['TOWRITE'],
   "en": ['niece', 'Niece'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.parents = {
   "zh": ['TOWRITE'],
   "en": ['parent', 'Parent', 'parents', 'Parents'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.relatives = {
   "zh": ['TOWRITE'],
   "en": ['family', 'Family', 'relatives', 'Relatives'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.siblings = {
   "zh": ['TOWRITE'],
   "en": ['sibling', 'Sibling', 'siblings', 'Siblings'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.family.uncle = {
   "zh": ['TOWRITE'],
   "en": ['uncle', 'Uncle'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 /* Parse.keyword.in = TODO */
 Parse.keyword.lived_at = {
   "zh": ['TOWRITE'],
   "en": ['lived at', 'Lived at'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 /* Parse.keyword.logical AND/OR/NOT/NOR = TODO */
 Parse.keyword.nearby = {
   "zh": ['附近'],
   "en": ['near', 'Near', 'nearby', 'Nearby'],
-  "jp": ['近く', '近くの動物園']
+  "ja": ['近く', '近くの動物園']
 }
 Parse.keyword.panda = {
   "zh": ['TOWRITE'],
   "en": ['panda', 'Panda', 'red panda', 'Red panda', 'Red Panda'],
-  "jp": ['パンダ', 'レッサーパンダ']
+  "ja": ['パンダ', 'レッサーパンダ']
 }
 Parse.keyword.tag = {
   "zh": ['TOWRITE'],
   "en": ['label', 'labels', 'Label', 'Labels', 'tag', 'Tag', 'tags', 'Tags'],
-  "jp": ['TOWRITE']
+  "ja": ['TOWRITE']
 }
 Parse.keyword.zoo = {
   "zh": ['动物园'],
   "en": ['zoo', 'Zoo'],
-  "jp": ['動物園']
+  "ja": ['動物園']
 }
 
 Parse.group = {};

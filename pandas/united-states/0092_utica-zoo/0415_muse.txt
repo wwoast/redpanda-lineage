@@ -9,10 +9,10 @@ en.name: Muse
 en.nicknames: none
 en.othernames: Musah
 gender: m
-jp.name: ミューズ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミューズ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 413, 414
 location.1: 83, 2011/6/20
 location.2: 92, 2012/5/14

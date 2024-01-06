@@ -8,10 +8,10 @@ en.name: Genta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 源太
-jp.nicknames: none
-jp.othernames: ゲンタ, 源
-language.order: jp, en
+ja.name: 源太
+ja.nicknames: none
+ja.othernames: ゲンタ, 源
+language.order: ja, en
 litter: 45
 location.1: 8, 2012/7/3
 location.2: 18, 2017/10/31

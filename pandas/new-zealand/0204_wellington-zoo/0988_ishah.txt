@@ -9,10 +9,10 @@ en.name: Ishah
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: イシャ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イシャ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 181, 2002/12/7
 location.2: 210, 2004/3/22

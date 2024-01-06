@@ -8,10 +8,10 @@ en.name: Anko
 en.nicknames: Red-Bean
 en.othernames: none
 gender: f
-jp.name: アンコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アンコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 64, 2013/6/22
 location.2: 63, 2016/11/2

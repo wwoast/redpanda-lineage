@@ -14,10 +14,10 @@ fr.name: Chahua
 fr.nicknames: none
 fr.othernames: Cha Hua, Cha-Hua
 gender: f
-jp.name: 茶花
-jp.nicknames: none
-jp.othernames: チャファ
-language.order: fr, cn, en, jp
+ja.name: 茶花
+ja.nicknames: none
+ja.othernames: チャファ
+language.order: fr, cn, en, ja
 litter: 1148
 location.1: 239, 2014/6/13
 location.2: 238, 2015/3/6

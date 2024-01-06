@@ -9,10 +9,10 @@ en.name: Souhei
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 宗平
-jp.nicknames: none
-jp.othernames: そうへい
-language.order: jp, en
+ja.name: 宗平
+ja.nicknames: none
+ja.othernames: そうへい
+language.order: ja, en
 litter: 307
 species: 2
 studbook.id: 93106

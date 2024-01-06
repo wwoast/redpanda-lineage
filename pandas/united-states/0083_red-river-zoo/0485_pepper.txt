@@ -8,10 +8,10 @@ en.name: Pepper
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ペッパー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ペッパー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 486
 location.1: 82, 2017/7/23
 location.2: 83, 2019/3/29

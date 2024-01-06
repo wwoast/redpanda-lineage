@@ -13,11 +13,11 @@ en.nicknames: none
 en.oldnames: Tian Tong, Tian-Tong, Tiantong
 en.othernames: none
 gender: m
-jp.name: ゲイリー
-jp.nicknames: none
-jp.oldnames: ティエン・トン, 天通
-jp.othernames: none
-language.order: en, jp
+ja.name: ゲイリー
+ja.nicknames: none
+ja.oldnames: ティエン・トン, 天通
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 107, 2007/6/19
 location.2: 144, 2008/7/25

@@ -9,10 +9,10 @@ en.name: Hazel
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ヘーゼル
-jp.nicknames: none
-jp.othernames: 榛
-language.order: en, jp
+ja.name: ヘーゼル
+ja.nicknames: none
+ja.othernames: 榛
+language.order: en, ja
 litter: 572
 location.1: 108, 2004/7/18
 location.2: 48, 2005/6/14

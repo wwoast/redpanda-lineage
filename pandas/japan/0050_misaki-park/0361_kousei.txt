@@ -9,10 +9,10 @@ en.name: Kousei
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: コウセイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コウセイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 362
 location.1: 12, 2000/6/23
 location.2: 52, 2003/6/5

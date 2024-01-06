@@ -9,10 +9,10 @@ en.name: Phoebe
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: フィービー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フィービー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1003, 1005
 location.1: 114, 2009/6/29
 location.2: 116, 2010/4/13

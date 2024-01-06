@@ -9,10 +9,10 @@ en.name: Kirara
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キララ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キララ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 2002/6/29
 location.2: 52, 2004/6/4

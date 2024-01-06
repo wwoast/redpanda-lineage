@@ -9,10 +9,10 @@ en.name: Ichiko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 一湖
-jp.nicknames: none
-jp.othernames: イチコ
-language.order: jp, en
+ja.name: 一湖
+ja.nicknames: none
+ja.othernames: イチコ
+language.order: ja, en
 litter: 300
 species: 2
 studbook.id: 14157

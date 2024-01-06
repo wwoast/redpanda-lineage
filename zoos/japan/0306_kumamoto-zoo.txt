@@ -5,10 +5,10 @@ en.address: 5 Chome-14-2 Kengun, Higashi Ward, Kumamoto, 862-0911, Japan
 en.location: Higashi Ward, Kumamoto, Japan
 en.name: Kumamoto City Zoological and Botanical Gardens
 flag: Japan
-jp.address: 〒862-0911 熊本県熊本市東区健軍５丁目１４−2
-jp.location: 東区 熊本市 熊本県 日本
-jp.name: 熊本市動植物園
-language.order: jp, en
+ja.address: 〒862-0911 熊本県熊本市東区健軍５丁目１４−2
+ja.location: 東区 熊本市 熊本県 日本
+ja.name: 熊本市動植物園
+language.order: ja, en
 latitude: 32.7749943
 longitude: 130.7392573
 map: https://goo.gl/maps/Aveudmjy2829ox8Z6

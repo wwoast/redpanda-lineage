@@ -9,10 +9,10 @@ en.name: Rara
 en.nicknames: none
 en.othernames: Lala
 gender: f
-jp.name: ララ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ララ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 232
 location.1: 40, 1996/8/9
 location.2: 63, 1998/8/7

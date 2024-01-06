@@ -9,10 +9,10 @@ en.name: Chatarou
 en.nicknames: none
 en.othernames: Chataro, Tyatarou, Tyatorou
 gender: m
-jp.name: 茶太郎
-jp.nicknames: none
-jp.othernames: チャタロウ
-language.order: jp, en
+ja.name: 茶太郎
+ja.nicknames: none
+ja.othernames: チャタロウ
+language.order: ja, en
 litter: 191
 location.1: 17, 2003/6/26
 location.2: 28, 2004/4/14

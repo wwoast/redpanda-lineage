@@ -8,10 +8,10 @@ en.name: Liu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: リュウ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リュウ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1079
 location.1: 84, 2019/6/28
 location.2: 80, 2021/1/1

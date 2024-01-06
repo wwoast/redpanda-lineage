@@ -9,14 +9,14 @@ en.nicknames: none
 en.oldnames: Tōya, Toya, Touya
 en.othernames: Lessie, Lessi, Ressy, Resey
 gender: m
-jp.name: とうや
-jp.nicknames: none
-jp.othernames: none
+ja.name: とうや
+ja.nicknames: none
+ja.othernames: none
 ko.name: 레시
 ko.nicknames: none
 ko.oldnames: 토야
 ko.othernames: none
-language.order: jp, ko, en
+language.order: ja, ko, en
 litter: 260
 location.1: 42, 2014/8/18
 location.2: 62, 2016/3/31

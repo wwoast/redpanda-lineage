@@ -9,10 +9,10 @@ en.name: Mai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 568
 location.1: 52, 1995/7/9
 location.2: 40, 1998/12/17

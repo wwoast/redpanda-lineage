@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Steele
 en.othernames: none
 gender: f
-jp.name: めりさ
-jp.nicknames: none
-jp.oldnames: スチール
-jp.othernames: none
-language.order: en, jp
+ja.name: めりさ
+ja.nicknames: none
+ja.oldnames: スチール
+ja.othernames: none
+language.order: en, ja
 litter: 401
 location.1: 76, 2010/6/14
 location.2: 43, 2011/6/21

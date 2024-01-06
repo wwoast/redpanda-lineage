@@ -9,10 +9,10 @@ en.name: San-San
 en.nicknames: none
 en.othernames: Sansan
 gender: m
-jp.name: サンサン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サンサン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 722
 location.1: 6, 1990/7/14
 location.2: 50, 1995/2/15

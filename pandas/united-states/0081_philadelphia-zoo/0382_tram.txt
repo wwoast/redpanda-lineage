@@ -9,10 +9,10 @@ en.name: JJ
 en.nicknames: none
 en.othernames: Tram, Porrin
 gender: f
-jp.name: トラム
-jp.nicknames: ポーリン
-jp.othernames: none
-language.order: jp, en
+ja.name: トラム
+ja.nicknames: ポーリン
+ja.othernames: none
+language.order: ja, en
 litter: 310
 location.1: 12, 2002/6/15
 location.2: 65, 2004/4/27

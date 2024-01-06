@@ -9,10 +9,10 @@ en.name: Ken-Ken
 en.nicknames: none
 en.othernames: Kenken, Freckle-kun
 gender: m
-jp.name: ケンケン
-jp.nicknames: none
-jp.othernames: 賢健
-language.order: jp, en
+ja.name: ケンケン
+ja.nicknames: none
+ja.othernames: 賢健
+language.order: ja, en
 litter: none
 location.1: 6, 2006/7/18
 location.2: 38, 2013/1/9

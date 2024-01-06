@@ -9,10 +9,10 @@ en.name: Amaya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アマヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アマヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 531
 location.1: 131, 2008/6/29
 location.2: 75, 2009/3/18

@@ -8,10 +8,10 @@ en.name: Ichiro
 en.nicknames: none
 en.othernames: Ichirou
 gender: m
-jp.name: 一路
-jp.nicknames: none
-jp.othernames: イチロウ
-language.order: jp, en
+ja.name: 一路
+ja.nicknames: none
+ja.othernames: イチロウ
+language.order: ja, en
 litter: 587
 photo.1: ig://BUEca41AoaZ/m
 photo.1.author: monmon_redpanda

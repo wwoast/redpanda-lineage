@@ -8,10 +8,10 @@ en.name: Taofa
 en.nicknames: Forehead-chan, Mama Forehead, Forehead
 en.othernames: Tao-fa, Tao-Fa
 gender: f
-jp.name: タオファ
-jp.nicknames: none
-jp.othernames: 桃花
-language.order: jp, en
+ja.name: タオファ
+ja.nicknames: none
+ja.othernames: 桃花
+language.order: ja, en
 litter: none
 location.1: 34, 2015/6/14
 location.2: 17, 2017/3/27

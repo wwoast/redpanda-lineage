@@ -8,10 +8,10 @@ en.name: Kazu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 和
-jp.nicknames: none
-jp.othernames: カズ
-language.order: jp, en
+ja.name: 和
+ja.nicknames: none
+ja.othernames: カズ
+language.order: ja, en
 litter: 946
 location.1: 63, 2019/7/2
 location.2: 16, 2020/12/29

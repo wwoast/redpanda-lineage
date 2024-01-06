@@ -8,10 +8,10 @@ en.name: Sara
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 234, 2017/7/27
 location.2: 198, 2014/6/22

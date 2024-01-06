@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Cha-Cha, Chacha
 en.othernames: none
 gender: f
-jp.name: ミン
-jp.nicknames: none
-jp.oldnames: チャチャ
-jp.othernames: none
-language.order: en, jp
+ja.name: ミン
+ja.nicknames: none
+ja.oldnames: チャチャ
+ja.othernames: none
+language.order: en, ja
 litter: 635, 636
 location.1: 146, 2011/6/25
 location.2: 101, 2012/4/24

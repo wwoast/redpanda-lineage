@@ -9,10 +9,10 @@ en.name: Gaila
 en.nicknames: LadyBoss
 en.othernames: Gailabear
 gender: f
-jp.name: ガイラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ガイラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 507
 location.1: 114, 2011/6/5
 location.2: 115, 2012/8/15

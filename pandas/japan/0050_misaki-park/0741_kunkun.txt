@@ -9,10 +9,10 @@ en.name: Kun-Kun
 en.nicknames: none
 en.othernames: Kunkun
 gender: m
-jp.name: くンくン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: くンくン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 742
 location.1: 40, 1993/7/17
 location.2: 19, 1994/11/14

@@ -9,10 +9,10 @@ en.name: Mii-Mii
 en.nicknames: none
 en.othernames: Miimii, Mei-Mei, Meimei
 gender: f
-jp.name: 美美
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 美美
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 547
 location.1: 15, 1992/8/7
 location.2: 6, 1993/11/10

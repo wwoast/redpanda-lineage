@@ -8,10 +8,10 @@ en.name: Rifa
 en.nicknames: none
 en.othernames: Li-hua, Ri-fa, Riifa
 gender: f
-jp.name: 梨花
-jp.nicknames: none
-jp.othernames: リーファ
-language.order: jp, en
+ja.name: 梨花
+ja.nicknames: none
+ja.othernames: リーファ
+language.order: ja, en
 litter: 2, 6
 photo.1: ig://7cxGF3ORzw/m
 photo.1.author: masa_polarbear

@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Minko
 en.othernames: Minko
 gender: f
-jp.name: ティアラ
-jp.nicknames: none
-jp.oldnames: ミン子
-jp.othernames: none
-language.order: jp, en
+ja.name: ティアラ
+ja.nicknames: none
+ja.oldnames: ミン子
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 36, 2015/7/6
 location.2: 13, 2016/3/16

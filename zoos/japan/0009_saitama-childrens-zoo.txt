@@ -5,10 +5,10 @@ en.address: 554 Iwadono, Higashimatsuyama, Saitama Prefecture 355-0065, Japan
 en.location: Highashimatsuyama, Saitama Prefecture, Japan
 en.name: Saitama Children's Zoo
 flag: Japan
-jp.address: 〒355-0065 埼玉県東松山市岩殿554
-jp.location: 東松山市 埼玉県
-jp.name: 埼玉県こども動物自然公園
-language.order: jp, en
+ja.address: 〒355-0065 埼玉県東松山市岩殿554
+ja.location: 東松山市 埼玉県
+ja.name: 埼玉県こども動物自然公園
+language.order: ja, en
 latitude: 35.9993587
 longitude: 139.3728133
 map: https://goo.gl/maps/C8F9LtGktcH2

@@ -9,10 +9,10 @@ en.name: Chao-Chao
 en.nicknames: none
 en.othernames: Chaochao
 gender: f
-jp.name: チャオチャオ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チャオチャオ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 495
 location.1: 13, 1991/6/18
 location.2: 37, 1993/4/22

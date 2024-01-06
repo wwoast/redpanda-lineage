@@ -11,10 +11,10 @@ en.name: Àikūderén
 en.nicknames: Aiku, Aikuderen
 en.othernames: none
 gender: m
-jp.name: アイクデレン
-jp.nicknames: アイク
-jp.othernames: none
-language.order: en, jp
+ja.name: アイクデレン
+ja.nicknames: アイク
+ja.othernames: none
+language.order: en, ja
 location.1: unknown, unknown
 location.2: 279, 2015/5/21
 species: 1

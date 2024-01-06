@@ -8,10 +8,10 @@ en.name: Khumbie
 en.nicknames: none
 en.othernames: Khumbi
 gender: m
-jp.name: クンビー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クンビー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 641
 location.1: 141, 2014/6/14
 location.2: 81, 2015/11/23

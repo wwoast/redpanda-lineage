@@ -9,10 +9,10 @@ en.name: Rupert
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ルパート
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルパート
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1133
 location.1: 108, 2003/7/7
 location.2: 113, 2004/4/11

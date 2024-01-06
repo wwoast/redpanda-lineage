@@ -8,10 +8,10 @@ en.name: Malina
 en.nicknames: none
 en.othernames: Melina
 gender: f
-jp.name: マリーナ
-jp.nicknames: メリーナ
-jp.othernames: none
-language.order: en, jp
+ja.name: マリーナ
+ja.nicknames: メリーナ
+ja.othernames: none
+language.order: en, ja
 litter: 496
 location.1: 92, 2015/7/14
 location.2: 96, 2017/11/18

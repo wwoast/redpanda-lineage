@@ -9,10 +9,10 @@ en.name: Pin-Pin
 en.nicknames: none
 en.othernames: Pinpin
 gender: m
-jp.name: ピンピン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ピンピン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 6, 1989/6/28
 location.2: 13, 1990/11/29

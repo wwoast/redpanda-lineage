@@ -9,10 +9,10 @@ en.name: Fuu
 en.nicknames: none
 en.othernames: Huu-Huu
 gender: f
-jp.name: 風
-jp.nicknames: none
-jp.othernames: フウ, フウフウ
-language.order: jp, en
+ja.name: 風
+ja.nicknames: none
+ja.othernames: フウ, フウフウ
+language.order: ja, en
 litter: 612
 location.1: 29, 1998/7/4
 location.2: 60, 2002/1/9

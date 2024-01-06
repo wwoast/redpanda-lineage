@@ -9,10 +9,10 @@ en.name: Jen-Jen
 en.nicknames: none
 en.othernames: Jenjen
 gender: m
-jp.name: ジェンジェン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ジェンジェン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 595
 location.1: 6, 1995/7/6
 location.2: 26, 1997/4/8

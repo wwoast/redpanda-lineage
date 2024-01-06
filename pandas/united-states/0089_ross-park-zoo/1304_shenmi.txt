@@ -11,10 +11,10 @@ en.name: Shenmi
 en.nicknames: none
 en.othernames: Mimi, Shen-Mi, Miimii, Mii-Mii
 gender: f
-jp.name: シェンミ
-jp.nicknames: none
-jp.othernames: ミーミー
-language.order: cn, en, jp
+ja.name: シェンミ
+ja.nicknames: none
+ja.othernames: ミーミー
+language.order: cn, en, ja
 litter: none
 location.1: 65, 2021/7/16
 location.2: 89, 2022/5/3

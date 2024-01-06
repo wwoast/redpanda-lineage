@@ -9,10 +9,10 @@ en.name: Maki
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マキ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マキ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 322
 location.1: 9, 2007/6/14
 location.2: 17, 2011/2/3

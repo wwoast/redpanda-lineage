@@ -11,10 +11,10 @@ en.name: Lang-Lang
 en.nicknames: none
 en.othernames: Langlang
 gender: m
-jp.name: ランラン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ランラン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://CM6-fAkBb-B/m
 photo.1.author: manmanko2

@@ -8,10 +8,10 @@ en.name: Nuts
 en.nicknames: none
 en.othernames: Natsu, Natu
 gender: m
-jp.name: ナッツ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナッツ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BbMOw0lFpp0/m
 photo.1.author: hanamaru_redpanda

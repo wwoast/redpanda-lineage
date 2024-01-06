@@ -8,10 +8,10 @@ en.name: Ari
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: アリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1026
 species: 1
 zoo: 202

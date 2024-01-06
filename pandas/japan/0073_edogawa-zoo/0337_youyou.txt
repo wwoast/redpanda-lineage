@@ -9,10 +9,10 @@ en.name: You-You
 en.nicknames: none
 en.othernames: Yuyu, Flying, Yu-Yu, Youyou
 gender: f
-jp.name: 遊遊
-jp.nicknames: none
-jp.othernames: ユウユウ
-language.order: jp, en
+ja.name: 遊遊
+ja.nicknames: none
+ja.othernames: ユウユウ
+language.order: ja, en
 litter: none
 location.1: 60, 2002/6/21
 location.2: 73, 2003/6/11

@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Aduya
 en.othernames: none
 gender: f
-jp.name: ウダヤ
-jp.nicknames: none
-jp.oldnames: アドゥヤ
-jp.othernames: none
-language.order: en, jp
+ja.name: ウダヤ
+ja.nicknames: none
+ja.oldnames: アドゥヤ
+ja.othernames: none
+language.order: en, ja
 litter: none
 ne.name: उदय
 ne.nicknames: none

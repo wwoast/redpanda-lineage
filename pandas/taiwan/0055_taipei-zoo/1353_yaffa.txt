@@ -11,10 +11,10 @@ en.name: Yaffa
 en.nicknames: none
 en.othernames: Kiki, Chichi, Chi-Chi
 gender: m
-jp.name: ヤッファ
-jp.nicknames: none
-jp.othernames: キキ, チィチィ
-language.order: cn, en, jp
+ja.name: ヤッファ
+ja.nicknames: none
+ja.othernames: キキ, チィチィ
+language.order: cn, en, ja
 litter: 1354
 photo.1: ig://B1iqfx3hphU/m
 photo.1.author: redpanda_tata

@@ -8,10 +8,10 @@ en.name: Jasper
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ジャスパー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジャスパー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 197, 2012/7/15
 location.2: 136, 2013/4/25

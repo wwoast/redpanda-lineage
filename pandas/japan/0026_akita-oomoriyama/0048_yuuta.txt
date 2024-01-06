@@ -9,10 +9,10 @@ en.name: Yuuta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ユウタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ユウタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 72
 location.1: 8, 2006/6/2
 location.2: 26, 2008/10/18

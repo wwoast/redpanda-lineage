@@ -8,10 +8,10 @@ en.name: Lychee
 en.nicknames: none
 en.othernames: Raichi
 gender: m
-jp.name: ライチ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライチ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 264
 photo.1: ig://3Vuj-wvi7D/m
 photo.1.author: panda.daisuki

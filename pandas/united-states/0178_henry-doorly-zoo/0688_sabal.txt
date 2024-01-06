@@ -8,10 +8,10 @@ en.name: Sabal
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: サバル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サバル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 689
 location.1: 131, 2017/8/27
 location.2: 178, 2018/5/17

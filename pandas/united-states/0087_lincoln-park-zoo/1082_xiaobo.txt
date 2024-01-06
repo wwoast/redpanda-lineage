@@ -8,10 +8,10 @@ en.name: Xiaobo
 en.nicknames: none
 en.othernames: Xia-Bo, Xiabo, Xiao-Bo
 gender: m
-jp.name: シャオボ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャオボ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1083
 location.1: 92, 2019/7/6
 location.2: 87, 2021/5/1

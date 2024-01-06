@@ -12,10 +12,10 @@ en.name: Big George
 en.nicknames: none
 en.othernames: Nong-Ren, Nong Ren, Big-George
 gender: m
-jp.name: ビッグジョージ
-jp.nicknames: ノンレン
-jp.othernames: none
-language.order: en, jp
+ja.name: ビッグジョージ
+ja.nicknames: ノンレン
+ja.othernames: none
+language.order: en, ja
 litter: 387
 location.1: 65, 2006/6/7
 location.2: 159, 2007/6/28

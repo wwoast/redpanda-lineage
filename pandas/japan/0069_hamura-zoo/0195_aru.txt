@@ -8,10 +8,10 @@ en.name: Aru
 en.nicknames: Pandazilla
 en.othernames: Love, Al
 gender: m
-jp.name: アル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 201
 location.1: 42, 2013/8/15
 location.2: 50, 2015/12/1

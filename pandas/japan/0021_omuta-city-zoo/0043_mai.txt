@@ -8,10 +8,10 @@ en.name: Mai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: まい
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: まい
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 38
 location.1: 8, 2013/6/23
 location.2: 21, 2016/11/17

@@ -8,10 +8,10 @@ en.name: Justin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ジャスティン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジャスティン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 109, 2012/7/1
 location.2: 123, 2017/12/20

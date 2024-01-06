@@ -8,10 +8,10 @@ en.name: Randy
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ランディ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ランディ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 230, 2007/7/4
 location.2: 139, 2008/9/2

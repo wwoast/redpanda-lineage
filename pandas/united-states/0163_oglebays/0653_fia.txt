@@ -8,10 +8,10 @@ en.name: Fia
 en.nicknames: none
 en.othernames: Fiametta, Fiammetta
 gender: f
-jp.name: フィア
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フィア
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 654
 location.1: 126, 2015/7/2
 location.2: 120, 2016/5/19

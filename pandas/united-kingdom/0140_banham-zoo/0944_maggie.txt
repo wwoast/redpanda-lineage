@@ -8,10 +8,10 @@ en.name: Maggie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マギー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マギー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 198, 2007/7/1
 location.2: 135, 2009/6/2

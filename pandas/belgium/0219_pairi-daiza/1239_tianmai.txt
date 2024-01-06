@@ -10,10 +10,10 @@ en.name: Tianmai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: チアンマイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チアンマイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 location.1: 270, 2012/7/12
 location.2: 219, 2013/10/16

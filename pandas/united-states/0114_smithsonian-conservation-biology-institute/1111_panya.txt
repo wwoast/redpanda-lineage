@@ -9,10 +9,10 @@ en.name: Panya
 en.nicknames: none
 en.othernames: Ponya
 gender: f
-jp.name: パンヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, ne, jp
+ja.name: パンヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ne, ja
 litter: 1112
 location.1: 108, 1997/6/9
 location.2: unknown, 2000/2/2

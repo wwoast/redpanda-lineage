@@ -9,10 +9,10 @@ en.name: Pong
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ポング
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ポング
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 photo.1: https://www.codaworry.com/images/rpf/pong-1-zoolille.jpg
 photo.1.author: Zoo de Lille
 photo.1.commitdate: 2021/4/7

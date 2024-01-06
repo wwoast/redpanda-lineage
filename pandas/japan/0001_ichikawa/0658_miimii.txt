@@ -9,10 +9,10 @@ en.name: Mii-Mii
 en.nicknames: none
 en.othernames: Miimii
 gender: f
-jp.name: 美美
-jp.nicknames: none
-jp.othernames: ミーミー
-language.order: jp, en
+ja.name: 美美
+ja.nicknames: none
+ja.othernames: ミーミー
+language.order: ja, en
 litter: 657
 species: 2
 studbook.id: 9053

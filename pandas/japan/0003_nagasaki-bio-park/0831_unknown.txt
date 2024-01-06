@@ -9,10 +9,10 @@ en.name: (no name)
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: (無名)
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: (無名)
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 location.1: wild.3
 location.2: 3, 1994/4/2

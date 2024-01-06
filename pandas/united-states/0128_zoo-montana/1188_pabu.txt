@@ -8,10 +8,10 @@ en.name: Pabu
 en.nicknames: Napsalot McFluffins, Huggles McDrowsyface, Prince of Pounce, Rascality
 en.othernames: none
 gender: m
-jp.name: パブ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パブ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 191, 2020/6/18
 location.2: 128, 2021/3/7

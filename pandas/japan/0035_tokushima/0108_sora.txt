@@ -9,10 +9,10 @@ en.name: Sora
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ソラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ソラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 104
 location.1: 10, 2008/6/16
 location.2: 35, 2011/6/22

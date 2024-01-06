@@ -11,10 +11,10 @@ en.name: Kang-Kang
 en.nicknames: none
 en.othernames: Kangkang
 gender: m
-jp.name: カンカン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: カンカン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://CO-CVE-hTi7/m
 photo.1.author: manmanko2

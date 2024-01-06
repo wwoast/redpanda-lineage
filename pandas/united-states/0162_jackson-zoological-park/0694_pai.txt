@@ -9,10 +9,10 @@ en.name: Pai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: パイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 693
 location.1: 179, 2012/6/17
 location.2: 162, 2013/5/1

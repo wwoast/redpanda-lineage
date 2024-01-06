@@ -9,10 +9,10 @@ en.name: Shiru
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シール
-jp.nicknames: none
-jp.othernames: 杏
-language.order: jp, en
+ja.name: シール
+ja.nicknames: none
+ja.othernames: 杏
+language.order: ja, en
 litter: none
 location.1: 34, 2004/7/7
 location.2: 19, 2012/5/22

@@ -9,10 +9,10 @@ en.name: Yuri
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 百合
-jp.nicknames: none
-jp.othernames: ゆり
-language.order: jp, en
+ja.name: 百合
+ja.nicknames: none
+ja.othernames: ゆり
+language.order: ja, en
 photo.1: ig://BWU7cSIhcs9/m
 photo.1.author: miis_98
 photo.1.commitdate: 2020/6/18

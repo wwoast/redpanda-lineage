@@ -11,10 +11,10 @@ en.name: Ling-Ling
 en.nicknames: none
 en.othernames: Lingling, Rin-Rin, Rinrin
 gender: f
-jp.name: 玲玲
-jp.nicknames: none
-jp.othernames: リンリン
-language.order: cn, en, jp
+ja.name: 玲玲
+ja.nicknames: none
+ja.othernames: リンリン
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B7DOIayjASf/m
 photo.1.author: mkr0369

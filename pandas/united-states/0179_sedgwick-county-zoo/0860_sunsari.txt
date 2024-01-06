@@ -8,10 +8,10 @@ en.name: Sunsari
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サンサリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サンサリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 859
 location.1: 114, 2016/6/7
 location.2: 179, 2017/5/10

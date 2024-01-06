@@ -8,10 +8,10 @@ en.name: Tián
 en.nicknames: none
 en.othernames: Tian, Tyen, Thien
 gender: f
-jp.name: ティエン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ティエン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1171
 location.1: 67, 2020/5/25
 location.2: 80, 2021/10/1

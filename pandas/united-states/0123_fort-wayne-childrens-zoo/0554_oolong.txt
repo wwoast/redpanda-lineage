@@ -8,10 +8,10 @@ en.name: Oolong
 en.nicknames: Wu-Ron
 en.othernames: none
 gender: m
-jp.name: ウーロン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウーロン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 105, 2018/6/29
 location.2: 123, 2020/6/1

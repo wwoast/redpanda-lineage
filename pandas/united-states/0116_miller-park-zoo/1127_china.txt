@@ -11,10 +11,10 @@ en.name: China
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 中国
-jp.nicknames: none
-jp.othernames: none
-language.order: en, cn, jp
+ja.name: 中国
+ja.nicknames: none
+ja.othernames: none
+language.order: en, cn, ja
 litter: 1128, 1129
 photo.1: ig://B2mydmDFa2F/m
 photo.1.author: millerparkzoo

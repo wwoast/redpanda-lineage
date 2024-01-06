@@ -8,10 +8,10 @@ en.name: Freddie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: フレディ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フレディ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1173
 location.1: 145, 2018/6/20
 location.2: 254, 2020/6/10

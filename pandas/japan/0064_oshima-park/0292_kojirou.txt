@@ -8,10 +8,10 @@ en.name: Kojirou
 en.nicknames: none
 en.othernames: Kojiro
 gender: m
-jp.name: コジロウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コジロウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BUwUbeuBqe4/m
 photo.1.author: miis_98

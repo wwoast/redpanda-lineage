@@ -8,10 +8,10 @@ en.name: Raya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ラヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1303
 photo.1: ig://CUslh4GLSMN/m
 photo.1.author: potawatomizoo

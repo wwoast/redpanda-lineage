@@ -8,10 +8,10 @@ en.name: Gao-Gao
 en.nicknames: Stripes, Shaggy
 en.othernames: Gaogao
 gender: m
-jp.name: 縞縞
-jp.nicknames: none
-jp.othernames: ガオガオ
-language.order: jp, en
+ja.name: 縞縞
+ja.nicknames: none
+ja.othernames: ガオガオ
+language.order: ja, en
 litter: none
 location.1: 37, 2015/6/27
 location.2: 16, 2017/12/27

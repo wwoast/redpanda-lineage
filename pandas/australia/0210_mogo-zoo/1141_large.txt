@@ -9,10 +9,10 @@ en.name: Large
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 大
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 大
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1140
 location.1: 217, 1997/12/11
 location.2: 210, 1998/9/8

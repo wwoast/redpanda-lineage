@@ -8,10 +8,10 @@ en.name: Tsugumi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: つぐみ
-jp.nicknames: none
-jp.othernames: 緒海
-language.order: jp, en
+ja.name: つぐみ
+ja.nicknames: none
+ja.othernames: 緒海
+language.order: ja, en
 litter: 1377
 photo.1: https://www.codaworry.com/images/rpf/seaparadise-m-1.jpg
 photo.1.author: seaparadise_official

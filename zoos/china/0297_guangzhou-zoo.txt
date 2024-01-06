@@ -8,10 +8,10 @@ en.address: 120 Xianlie Middle Rd, Yuexiu, Guangzhou, Guangdong, China
 en.location: Guangzhou, Guangdong, China
 en.name: Guangzhou Zoo
 flag: China
-jp.address: 120 Xianlie Middle Rd, Yuexiu, Guangzhou, Guangdong, China
-jp.location: Guangzhou, Guangdong, China
-jp.name: Guangzhou Zoo
-language.order: cn, jp, en
+ja.address: 120 Xianlie Middle Rd, Yuexiu, Guangzhou, Guangdong, China
+ja.location: Guangzhou, Guangdong, China
+ja.name: Guangzhou Zoo
+language.order: cn, ja, en
 latitude: 23.1389748
 longitude: 113.3008411
 map: https://goo.gl/maps/b2Uh3e25cz1iz1eZ8

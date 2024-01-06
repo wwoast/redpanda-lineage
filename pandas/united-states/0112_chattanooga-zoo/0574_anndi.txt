@@ -9,10 +9,10 @@ en.name: Anndi
 en.nicknames: none
 en.othernames: Andi
 gender: m
-jp.name: アンディ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アンディ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 573
 species: 1
 studbook.id: 1628

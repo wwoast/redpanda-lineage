@@ -9,10 +9,10 @@ en.name: Tia
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ティア
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ティア
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 282, 2019/7/2
 location.2: 257, 2020/8/31
 photo.1: ig://CUhQdTNqx_k/m

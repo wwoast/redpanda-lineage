@@ -5,10 +5,10 @@ en.address: Okazaki Hoshojicho, Sakyo Ward, Kyoto, Kyoto Prefecture 606-8333, Ja
 en.location: Kyoto City, Kyoto Prefecture, Sakyo Ward, Japan
 en.name: Kyoto City Zoo
 flag: Japan
-jp.address: 〒606-8333 京都府京都市左京区岡崎法勝寺町
-jp.location: 京都市 京都府 左京区
-jp.name: 京都市動物園
-language.order: jp, en
+ja.address: 〒606-8333 京都府京都市左京区岡崎法勝寺町
+ja.location: 京都市 京都府 左京区
+ja.name: 京都市動物園
+language.order: ja, en
 latitude: 35.0126991
 longitude: 135.7839212
 map: https://goo.gl/maps/BzPvCJ64eiB2

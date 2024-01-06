@@ -8,10 +8,10 @@ en.name: Maru
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 127
 photo.1: ig://BUMyVOUA0ft/m
 photo.1.author: minatomirai215

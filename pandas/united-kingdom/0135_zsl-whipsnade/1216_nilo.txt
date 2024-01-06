@@ -8,10 +8,10 @@ en.name: Nilō
 en.nicknames: none
 en.othernames: Nilo
 gender: m
-jp.name: ニロー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ニロー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 ne.name: निलो
 ne.nicknames: none

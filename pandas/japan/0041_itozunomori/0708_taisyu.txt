@@ -9,10 +9,10 @@ en.name: Taisyu
 en.nicknames: none
 en.othernames: Tai-Syu
 gender: m
-jp.name: 太守
-jp.nicknames: none
-jp.othernames: たいしゅ
-language.order: jp, en
+ja.name: 太守
+ja.nicknames: none
+ja.othernames: たいしゅ
+language.order: ja, en
 litter: unknown
 location.1: wild.3
 location.2: 41, 1989/10/11

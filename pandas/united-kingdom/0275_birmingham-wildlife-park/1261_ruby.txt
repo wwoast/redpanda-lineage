@@ -8,9 +8,9 @@ en.name: Ruby
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: ルビー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルビー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: 1
 zoo: 275

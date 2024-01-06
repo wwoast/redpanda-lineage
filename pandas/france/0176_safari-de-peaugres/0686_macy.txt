@@ -9,10 +9,10 @@ en.name: Macy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: メイシー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メイシー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 540
 location.1: 139, 2010/6/22
 location.2: 176, 2011/6/29

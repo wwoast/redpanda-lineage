@@ -9,10 +9,10 @@ en.name: Kaguya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カグヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カグヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 location.1: 39, 2000/6/29
 location.2: 38, 2001/4/5

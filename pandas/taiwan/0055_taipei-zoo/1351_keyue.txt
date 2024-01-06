@@ -11,10 +11,10 @@ en.name: Keyue
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケユェ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ケユェ
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: 1352
 photo.1: ig://CXPi0eWBTRj/m
 photo.1.author: yuredpanda

@@ -9,10 +9,10 @@ en.name: An-An
 en.nicknames: none
 en.othernames: An-an, Anan
 gender: f
-jp.name: 杏杏
-jp.nicknames: none
-jp.othernames: アンアン
-language.order: jp, en
+ja.name: 杏杏
+ja.nicknames: none
+ja.othernames: アンアン
+language.order: ja, en
 litter: 238
 location.1: 26, 2005/7/7
 location.2: 54, 2007/11/13

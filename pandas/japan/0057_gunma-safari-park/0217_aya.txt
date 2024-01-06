@@ -9,10 +9,10 @@ en.name: Aya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 彩
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 彩
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 139
 location.1: 18, 2006/6/5
 location.2: 57, 2007/12/11

@@ -9,10 +9,10 @@ en.name: Ten-Ten
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 天天
-jp.nicknames: none
-jp.othernames: テンテン
-language.order: jp, en
+ja.name: 天天
+ja.nicknames: none
+ja.othernames: テンテン
+language.order: ja, en
 litter: none
 photo.1: https://pds.exblog.jp/pds/1/201308/10/02/a0306502_22525443.jpg
 photo.1.author: miis_98

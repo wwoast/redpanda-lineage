@@ -15,9 +15,9 @@ gender: m
 hu.name: Ambrus
 hu.nicknames: none
 hu.othernames: none
-jp.name: アンブルス
-jp.nicknames: none
-jp.othernames: カイ
+ja.name: アンブルス
+ja.nicknames: none
+ja.othernames: カイ
 language.order: hu, en, cn
 litter: unknown
 location.1: 267, 2011/6/24

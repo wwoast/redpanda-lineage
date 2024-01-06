@@ -8,8 +8,8 @@ en.name: Jinshar
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: 1
 zoo: 198

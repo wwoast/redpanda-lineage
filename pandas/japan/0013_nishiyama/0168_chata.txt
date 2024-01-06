@@ -9,10 +9,10 @@ en.name: Chata
 en.nicknames: none
 en.othernames: Cyata
 gender: m
-jp.name: チャタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チャタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 photo.1: https://www.codaworry.com/images/rpf/chata-1-nishiyama.jpg
 photo.1.author: shin
 photo.1.commitdate: 2019/4/9

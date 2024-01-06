@@ -11,10 +11,10 @@ es.name: Posee
 es.nicknames: none
 es.othernames: none
 gender: f
-jp.name: ポセイ
-jp.nicknames: none
-jp.othernames: none
-language.order: es, en, jp
+ja.name: ポセイ
+ja.nicknames: none
+ja.othernames: none
+language.order: es, en, ja
 litter: 1153
 location.1: 214, 2014/7/16
 location.2: 245, 2015/10/8

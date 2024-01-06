@@ -5,10 +5,10 @@ en.address: 5669-1 Hirakawacho, Kagoshima, Kagoshima Prefecture 891-0133, Japan
 en.location: Kagoshima, Kagoshima Prefecture, Japan
 en.name: Hirakawa Zoo
 flag: Japan
-jp.address: 〒891-0133 鹿児島県鹿児島市平川町5669-1
-jp.location: 鹿児島市 鹿児島県
-jp.name: 鹿児島市平川動物公園
-language.order: jp, en
+ja.address: 〒891-0133 鹿児島県鹿児島市平川町5669-1
+ja.location: 鹿児島市 鹿児島県
+ja.name: 鹿児島市平川動物公園
+language.order: ja, en
 latitude: 31.4630427
 longitude: 130.4997487
 map: https://goo.gl/maps/RHkCy9Syv8G2

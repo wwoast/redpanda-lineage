@@ -9,10 +9,10 @@ en.name: Nana
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナナ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナナ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 308
 location.1: 17, 2001/7/13
 location.2: 26, 2003/4/23

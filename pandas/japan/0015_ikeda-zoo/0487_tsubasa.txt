@@ -9,10 +9,10 @@ en.name: Tsubasa
 en.nicknames: none
 en.othernames: Tubasa
 gender: m
-jp.name: ツバサ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ツバサ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 54, 291
 location.1: 10, 2006/6/20
 location.2: 15, 2009/1/30

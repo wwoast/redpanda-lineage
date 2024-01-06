@@ -11,10 +11,10 @@ en.name: Yue-Yue
 en.nicknames: none
 en.othernames: Yueyue, Moon
 gender: m
-jp.name: 悦悦
-jp.nicknames: none
-jp.othernames: ユェユェ
-language.order: cn, en, jp
+ja.name: 悦悦
+ja.nicknames: none
+ja.othernames: ユェユェ
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B7SwwfgnCW2/m
 photo.1.author: mkr0369

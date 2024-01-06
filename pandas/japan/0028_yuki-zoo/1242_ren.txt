@@ -9,10 +9,10 @@ en.name: Ren
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 恋
-jp.nicknames: none
-jp.othernames: レン
-language.order: jp, en
+ja.name: 恋
+ja.nicknames: none
+ja.othernames: レン
+language.order: ja, en
 litter: 1243, 1244
 location.1: 10, 2004/6/17
 location.2: 60, 2006/12/6

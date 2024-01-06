@@ -9,10 +9,10 @@ en.name: Santa
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: サンタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サンタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 10, 1991/6/29
 location.2: 50, 1993/3/13

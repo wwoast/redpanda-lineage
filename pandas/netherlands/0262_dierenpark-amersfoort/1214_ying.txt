@@ -8,10 +8,10 @@ en.name: Ying
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: イン
-jp.nicknames: none
-jp.othernames: none
-language.order: nl, en, jp
+ja.name: イン
+ja.nicknames: none
+ja.othernames: none
+language.order: nl, en, ja
 litter: unknown
 nl.name: Ying
 nl.nicknames: none

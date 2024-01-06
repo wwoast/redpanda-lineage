@@ -8,10 +8,10 @@ en.name: Café
 en.nicknames: none
 en.othernames: Cafe
 gender: m
-jp.name: カフェ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カフェ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 347
 location.1: 9, 2013/6/11
 location.2: 23, 2014/4/17

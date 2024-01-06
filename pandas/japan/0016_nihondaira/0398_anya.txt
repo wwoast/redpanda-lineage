@@ -9,10 +9,10 @@ en.name: A-nya
 en.nicknames: none
 en.othernames: Anya
 gender: f
-jp.name: アーンヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アーンヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 397
 location.1: 42, 1998/7/3
 location.2: 16, 2012/12/12

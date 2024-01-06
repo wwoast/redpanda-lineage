@@ -11,10 +11,10 @@ en.name: Apple
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 苹果
-jp.nicknames: none
-jp.othernames: りんご
-language.order: cn, en, jp
+ja.name: 苹果
+ja.nicknames: none
+ja.othernames: りんご
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B7AOdRZjOBR/m
 photo.1.author: mkr0369

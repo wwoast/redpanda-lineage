@@ -8,10 +8,10 @@ en.name: Nyi'ma
 en.nicknames: none
 en.othernames: Nyima, Nyi-ma, Nyi-Ma
 gender: m
-jp.name: ニマ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ニマ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1361
 location.1: 263, 2013/6/25
 location.2: 257, 2014/5/23

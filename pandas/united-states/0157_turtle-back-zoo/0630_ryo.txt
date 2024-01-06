@@ -9,10 +9,10 @@ en.name: Ryo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 呂
-jp.nicknames: none
-jp.othernames: りょ
-language.order: en, jp
+ja.name: 呂
+ja.nicknames: none
+ja.othernames: りょ
+language.order: en, ja
 litter: 631
 location.1: 146, 2009/6/18
 location.2: 105, 2010/4/20

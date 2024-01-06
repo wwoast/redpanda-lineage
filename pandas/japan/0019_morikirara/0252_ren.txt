@@ -8,10 +8,10 @@ en.name: Ren
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: レン
-jp.nicknames: none
-jp.othernames: 蓮
-language.order: jp, en
+ja.name: レン
+ja.nicknames: none
+ja.othernames: 蓮
+language.order: ja, en
 litter: none
 location.1: 30, 2007/6/14
 location.2: 19, 2010/2/18

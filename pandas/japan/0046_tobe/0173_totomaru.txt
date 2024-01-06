@@ -8,10 +8,10 @@ en.name: Totomaru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 砥々丸
-jp.nicknames: none
-jp.othernames: ととまる
-language.order: jp, en
+ja.name: 砥々丸
+ja.nicknames: none
+ja.othernames: ととまる
+language.order: ja, en
 photo.1: ig://BeTAqucltnt/m
 photo.1.author: fetorus_mami
 photo.1.commitdate: 2018/12/27

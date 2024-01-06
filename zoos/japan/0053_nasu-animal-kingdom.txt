@@ -5,10 +5,10 @@ en.address: 1042-1 Oshima, Nasu, Nasu District, Tochigi Prefecture 329-3223, Jap
 en.location: Nasu District, Tochigi Prefecture, Japan
 en.name: Nasu Animal Kingdom
 flag: Japan
-jp.address: 〒329-3223 栃木県那須郡那須町大島1042-1
-jp.location: 那須郡 栃木県
-jp.name: 那須どうぶつ王国
-language.order: jp, en
+ja.address: 〒329-3223 栃木県那須郡那須町大島1042-1
+ja.location: 那須郡 栃木県
+ja.name: 那須どうぶつ王国
+language.order: ja, en
 latitude: 37.1290293
 longitude: 140.0349543
 map: https://goo.gl/maps/32qL3cSPkwP2

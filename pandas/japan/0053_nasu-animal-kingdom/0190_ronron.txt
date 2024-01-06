@@ -8,10 +8,10 @@ en.name: Ron-Ron
 en.nicknames: none
 en.othernames: Ronron
 gender: f
-jp.name: 栄栄
-jp.nicknames: none
-jp.othernames: ロンロン
-language.order: jp, en
+ja.name: 栄栄
+ja.nicknames: none
+ja.othernames: ロンロン
+language.order: ja, en
 litter: none
 location.1: 37, 2013/7/19
 location.2: 53, 2016/3/9

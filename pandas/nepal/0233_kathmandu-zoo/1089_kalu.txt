@@ -8,10 +8,10 @@ en.name: Kalu
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: カールー
-jp.nicknames: none
-jp.othernames: none
-language.order: ne, en, jp
+ja.name: カールー
+ja.nicknames: none
+ja.othernames: none
+language.order: ne, en, ja
 litter: 1088
 ne.name: कालू
 ne.nicknames: none

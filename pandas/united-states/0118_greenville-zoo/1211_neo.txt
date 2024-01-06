@@ -8,10 +8,10 @@ en.name: Neo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ネオ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ネオ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1212
 location.1: 141, 2020/7/8
 location.2: 118, 2022/1/1

@@ -8,10 +8,10 @@ en.name: Kali
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: カーリー
-jp.nicknames: none
-jp.othernames: none
-language.order: ne, en, jp
+ja.name: カーリー
+ja.nicknames: none
+ja.othernames: none
+language.order: ne, en, ja
 litter: 1089
 ne.name: काली
 ne.nicknames: none

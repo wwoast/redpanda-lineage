@@ -5,10 +5,10 @@ en.address: Japan, 〒700-0015 Okayama Prefecture, Okayama, Kita, 京山２丁�
 en.location: Okayama, Okayama Prefecture, Chugoku Region, Japan
 en.name: Ikeda Zoo
 flag: Japan
-jp.address: 〒700-0015 岡山県岡山市北区 京山２丁目５番１号
-jp.location: 岡山市 岡山県 中国地方
-jp.name: 池田動物園
-language.order: jp, en
+ja.address: 〒700-0015 岡山県岡山市北区 京山２丁目５番１号
+ja.location: 岡山市 岡山県 中国地方
+ja.name: 池田動物園
+language.order: ja, en
 latitude: 34.6746507
 longitude: 133.9040114
 map: https://goo.gl/maps/2bjmzYUBiqk

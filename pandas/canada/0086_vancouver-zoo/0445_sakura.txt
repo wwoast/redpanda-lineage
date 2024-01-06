@@ -8,10 +8,10 @@ en.name: Sakura
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サクラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サクラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 430, 431
 location.1: 94, 2013/7/1
 location.2: 51, 2014/10/15

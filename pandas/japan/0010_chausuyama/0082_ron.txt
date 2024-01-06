@@ -12,10 +12,10 @@ es.name: Ron
 es.nicknames: El Mero Mero
 es.othernames: none
 gender: m
-jp.name: ロン
-jp.nicknames: none
-jp.othernames: 龍
-language.order: jp, en
+ja.name: ロン
+ja.nicknames: none
+ja.othernames: 龍
+language.order: ja, en
 litter: 21, 31
 photo.1: ig://BKdQAL4BxXy/m
 photo.1.author: no_life_no_zoo

@@ -8,10 +8,10 @@ en.name: Min-Fa
 en.nicknames: Sweet smile
 en.othernames: Minfa
 gender: f
-jp.name: ミンファ
-jp.nicknames: none
-jp.othernames: ミーンファ
-language.order: jp, en
+ja.name: ミンファ
+ja.nicknames: none
+ja.othernames: ミーンファ
+language.order: ja, en
 litter: 265
 location.1: 1, 2006/6/23
 location.2: 13, 2008/3/20

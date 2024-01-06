@@ -8,10 +8,10 @@ en.name: Himiko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ヒミコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒミコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://B0QwCPFikxl/m
 photo.1.author: pairidaizaofficial

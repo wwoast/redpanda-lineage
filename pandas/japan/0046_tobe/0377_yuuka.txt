@@ -9,10 +9,10 @@ en.name: Yuuka
 en.nicknames: none
 en.othernames: Yuka, Yūka
 gender: f
-jp.name: 優花
-jp.nicknames: none
-jp.othernames: ユウカ
-language.order: jp, en
+ja.name: 優花
+ja.nicknames: none
+ja.othernames: ユウカ
+language.order: ja, en
 litter: none
 location.1: 6, 2010/6/20
 location.2: 46, 2012/3/23

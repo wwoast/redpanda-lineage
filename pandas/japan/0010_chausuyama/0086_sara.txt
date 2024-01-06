@@ -8,10 +8,10 @@ en.name: Sara
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 87, 186
 photo.1: ig://BJygH6jj5-3/m
 photo.1.author: _natsu_panda_

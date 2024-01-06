@@ -9,10 +9,10 @@ en.name: Toro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: トロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: トロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 129
 location.1: 9, 2004/6/29
 location.2: 12, 2006/7/11

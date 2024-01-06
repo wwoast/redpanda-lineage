@@ -8,11 +8,11 @@ en.name: Zeya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ゼヤ
-jp.nicknames: none
-jp.oldnames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ゼヤ
+ja.nicknames: none
+ja.oldnames: none
+ja.othernames: none
+language.order: en, ja
 litter: 324
 location.1: 67, 2018/6/19
 location.2: 44, 2019/4/14

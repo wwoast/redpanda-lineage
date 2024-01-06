@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Pele
 en.othernames: Mei Lee
 gender: f
-jp.name: ハンター
-jp.nicknames: none
-jp.oldnames: ペレ
-jp.othernames: none
-language.order: en, jp
+ja.name: ハンター
+ja.nicknames: none
+ja.oldnames: ペレ
+ja.othernames: none
+language.order: en, ja
 litter: 696
 location.1: 109, 2005/6/12
 location.2: 144, 2012/11/28

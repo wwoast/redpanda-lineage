@@ -9,10 +9,10 @@ en.name: Ikura
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: いくら
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: いくら
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 11, 1996/7/9
 location.2: 17, 1999/12/4

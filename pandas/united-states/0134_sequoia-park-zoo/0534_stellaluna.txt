@@ -9,10 +9,10 @@ en.name: Stella Luna
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ステラルーナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ステラルーナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 104, 2005/6/24
 location.2: 114, 2006/11/27

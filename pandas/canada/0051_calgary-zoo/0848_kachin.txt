@@ -9,10 +9,10 @@ en.name: Kachin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カチン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カチン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 species: 2
 studbook.id: 9501

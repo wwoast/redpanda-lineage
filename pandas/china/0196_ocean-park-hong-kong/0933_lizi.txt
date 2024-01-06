@@ -12,10 +12,10 @@ en.name: Li-Zi
 en.nicknames: none
 en.othernames: Lizi, LiZi, Chestnut
 gender: f
-jp.name: リジ
-jp.nicknames: none
-jp.othernames: 栗子
-language.order: cn, en, jp
+ja.name: リジ
+ja.nicknames: none
+ja.othernames: 栗子
+language.order: cn, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22

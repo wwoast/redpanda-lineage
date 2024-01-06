@@ -5,10 +5,10 @@ en.address: 4122番地 Hane, Hamura-shi, Tōkyō-to 205-0012, Japan
 en.location: Hamura, Tokyo, Japan
 en.name: Hamura Zoo
 flag: Japan
-jp.address: 〒205-0012 東京都羽村市羽4122番地
-jp.location: 羽村市 東京都
-jp.name: 羽村市動物公園
-language.order: jp, en
+ja.address: 〒205-0012 東京都羽村市羽4122番地
+ja.location: 羽村市 東京都
+ja.name: 羽村市動物公園
+language.order: ja, en
 latitude: 35.7673958
 longitude: 139.3266258
 map: https://goo.gl/maps/EwC6VTy9MEp

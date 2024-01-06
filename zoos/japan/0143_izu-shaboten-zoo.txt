@@ -6,10 +6,10 @@ en.location: Itō, Shizuoka Prefecture, Japan
 en.name: Izu Shaboten Zoo
 en.othernames: Izu Cactus Zoo
 flag: Japan
-jp.address: 〒413-0231 静岡県伊東市富戸１３１７−１３
-jp.location: 伊東市 静岡県
-jp.name: 伊豆シャボテン動物公園
-language.order: jp, en
+ja.address: 〒413-0231 静岡県伊東市富戸１３１７−１３
+ja.location: 伊東市 静岡県
+ja.name: 伊豆シャボテン動物公園
+language.order: ja, en
 latitude: 34.9074178
 longitude: 139.0957297
 map: https://goo.gl/maps/iTyrJWJe9HU2

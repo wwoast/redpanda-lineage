@@ -11,10 +11,10 @@ en.name: Zhu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 朱
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 朱
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 105, 2013/6/18
 location.2: 108, 2015/7/17

@@ -9,10 +9,10 @@ en.name: Zhin-Li
 en.nicknames: none
 en.othernames: Zhinli
 gender: m
-jp.name: ジンリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジンリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 89, 2013/6/18
 location.2: 44, 2014/11/12

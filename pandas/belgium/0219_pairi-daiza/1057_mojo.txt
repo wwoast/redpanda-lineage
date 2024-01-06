@@ -9,10 +9,10 @@ en.name: Mojo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モジョ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: モジョ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 photo.1: ig://BwLC407nNys/m
 photo.1.author: nathalie.elliott

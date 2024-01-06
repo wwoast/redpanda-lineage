@@ -11,10 +11,10 @@ en.name: Xiao-Wu
 en.nicknames: none
 en.othernames: Xiaowu, Five
 gender: m
-jp.name: 小五
-jp.nicknames: none
-jp.othernames: シャウー
-language.order: cn, en, jp
+ja.name: 小五
+ja.nicknames: none
+ja.othernames: シャウー
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B7SvyohHCrW/m
 photo.1.author: mkr0369

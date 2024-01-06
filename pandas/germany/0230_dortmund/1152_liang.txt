@@ -11,10 +11,10 @@ en.name: Liang
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: リャン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リャン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1151
 species: 1
 zoo: 230

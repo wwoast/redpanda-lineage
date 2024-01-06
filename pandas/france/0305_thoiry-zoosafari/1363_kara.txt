@@ -8,10 +8,10 @@ en.name: Kara
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キャラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: キャラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1362
 location.1: 247, 2011/6/26
 location.2: 305, 2012/6/14

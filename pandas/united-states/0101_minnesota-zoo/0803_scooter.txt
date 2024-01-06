@@ -9,10 +9,10 @@ en.name: Scooter
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スクーター
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スクーター
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 104, 2003/5/27
 location.2: 123, 2004/2/26

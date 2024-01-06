@@ -8,10 +8,10 @@ en.name: Gaia
 en.nicknames: Prince Gaius, Prince
 en.othernames: none
 gender: m
-jp.name: ガイア
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ガイア
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 25
 location.1: 12, 2004/6/10
 location.2: 36, 2009/4/20

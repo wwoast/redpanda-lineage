@@ -9,10 +9,10 @@ en.name: Buna
 en.nicknames: none
 en.othernames: Beech
 gender: m
-jp.name: ブナ
-jp.nicknames: none
-jp.othernames: 橅
-language.order: jp, en
+ja.name: ブナ
+ja.nicknames: none
+ja.othernames: 橅
+language.order: ja, en
 litter: 49
 location.1: 40, 2000/7/17
 location.2: 73, 2001/11/9

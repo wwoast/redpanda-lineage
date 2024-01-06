@@ -8,10 +8,10 @@ en.name: Shiryu
 en.nicknames: none
 en.othernames: Sea-Ryu, Shiliu, Shi-Liu, Shiiriu
 gender: f
-jp.name: シーリィウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シーリィウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 172
 photo.1: ig://Bc70_Atg6_Z/m
 photo.1.author: tufopix

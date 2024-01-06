@@ -12,10 +12,10 @@ es.name: Kiki
 es.nicknames: none
 es.othernames: none
 gender: f
-jp.name: キキ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, es, en
+ja.name: キキ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, es, en
 litter: none
 location.1: 17, 1996/6/27
 location.2: 142, 1999/2/25

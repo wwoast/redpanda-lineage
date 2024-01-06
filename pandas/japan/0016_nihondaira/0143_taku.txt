@@ -8,10 +8,10 @@ en.name: Taku
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タク
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タク
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 27
 location.1: 9, 2010/6/15
 location.2: 16, 2012/7/2

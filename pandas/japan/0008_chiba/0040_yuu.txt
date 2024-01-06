@@ -8,10 +8,10 @@ en.name: Yuu
 en.nicknames: none
 en.othernames: Yū
 gender: f
-jp.name: ゆう
-jp.nicknames: ユウ
-jp.othernames: none
-language.order: jp, en
+ja.name: ゆう
+ja.nicknames: ユウ
+ja.othernames: none
+language.order: ja, en
 litter: 47
 photo.1: ig://BAClfwhviyK/m
 photo.1.author: panda.daisuki

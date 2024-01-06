@@ -12,10 +12,10 @@ es.name: Kouta
 es.nicknames: none
 es.othernames: none
 gender: m
-jp.name: コウタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, es, en
+ja.name: コウタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, es, en
 litter: 19
 location.1: 8, 2010/7/2
 location.2: 9, 2012/12/17

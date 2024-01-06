@@ -12,10 +12,10 @@ en.name: Non-Non
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 暢暢
-jp.nicknames: none
-jp.othernames: ノンノン
-language.order: jp, en
+ja.name: 暢暢
+ja.nicknames: none
+ja.othernames: ノンノン
+language.order: ja, en
 litter: 53, 220
 location.1: 10, 2003/6/16
 location.2: 17, 2005/3/30

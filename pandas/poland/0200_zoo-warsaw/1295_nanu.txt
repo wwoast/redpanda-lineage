@@ -7,10 +7,10 @@ en.name: Nanu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナヌ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ナヌ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 266, unknown
 location.2: 200, 2020/6/13
 species: 1

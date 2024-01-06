@@ -9,10 +9,10 @@ en.name: Kovu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: コヴュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: コヴュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 384, 411
 location.1: 43, 2014/6/20
 location.2: 91, 2015/3/31

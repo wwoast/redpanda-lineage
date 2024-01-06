@@ -8,10 +8,10 @@ en.name: Maja
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マージャ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マージャ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 photo.1: ig://B6xW__sjx7L/m
 photo.1.author: drusillaspark

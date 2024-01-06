@@ -8,10 +8,10 @@ en.name: Adzuki
 en.nicknames: none
 en.othernames: Azuki
 gender: f
-jp.name: アズキ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アズキ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 89, 2018/7/7
 location.2: 84, 2019/5/12

@@ -9,10 +9,10 @@ en.name: Wei-Da
 en.nicknames: none
 en.othernames: Weida
 gender: f
-jp.name: ウィーダ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィーダ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 399, 403
 photo.1: ig://eOvbFQq0wP/m
 photo.1.author: apothecarydan

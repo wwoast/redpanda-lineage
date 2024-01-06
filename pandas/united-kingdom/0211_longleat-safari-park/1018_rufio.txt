@@ -8,10 +8,10 @@ en.name: Rufio
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ルフィオ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルフィオ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1017
 location.1: 174, 2017/6/27
 location.2: 211, 2018/9/14

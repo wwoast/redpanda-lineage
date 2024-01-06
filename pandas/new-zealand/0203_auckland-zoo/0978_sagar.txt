@@ -14,11 +14,11 @@ hi.name: सागर
 hi.nicknames: none
 hi.oldnames: दुर्गा
 hi.othernames: none
-jp.name: サガット
-jp.nicknames: none
-jp.oldnames: ドゥルガー
-jp.othernames: none
-language.order: en, hi, jp
+ja.name: サガット
+ja.nicknames: none
+ja.oldnames: ドゥルガー
+ja.othernames: none
+language.order: en, hi, ja
 litter: unknown
 location.1: 208, 2000/6/26
 location.2: 203, 2010/11/3

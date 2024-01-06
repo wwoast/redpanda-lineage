@@ -9,10 +9,10 @@ en.name: Bau-Bau
 en.nicknames: none
 en.othernames: Bao-Bao
 gender: m
-jp.name: 宝宝
-jp.nicknames: none
-jp.othernames: バウバウ
-language.order: jp, en
+ja.name: 宝宝
+ja.nicknames: none
+ja.othernames: バウバウ
+language.order: ja, en
 litter: unknown
 location.1: 15, 1994/7/11
 location.2: 42, 1995/9/27

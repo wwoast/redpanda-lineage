@@ -11,10 +11,10 @@ en.name: Sumire
 en.nicknames: none
 en.othernames: Viola
 gender: f
-jp.name: スミレ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スミレ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 157
 location.1: 17, 2004/6/17
 location.2: 55, 2005/12/15

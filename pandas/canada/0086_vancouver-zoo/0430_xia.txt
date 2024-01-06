@@ -8,10 +8,10 @@ en.name: Xia
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キア
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: キア
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 431, 445
 location.1: 94, 2013/7/1
 location.2: 76, 2014/10/15

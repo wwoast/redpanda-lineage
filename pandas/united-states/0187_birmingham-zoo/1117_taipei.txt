@@ -12,10 +12,10 @@ en.name: Taipei
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 台北
-jp.nicknames: none
-jp.othernames: タイペイ
-language.order: en, jp
+ja.name: 台北
+ja.nicknames: none
+ja.othernames: タイペイ
+language.order: en, ja
 litter: 1118
 location.1: 108, 1994/6/24
 location.2: 154, 1995/5/25

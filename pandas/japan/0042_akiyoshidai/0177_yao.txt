@@ -8,10 +8,10 @@ en.name: Yao
 en.nicknames: none
 en.othernames: Yō, You, Yo
 gender: m
-jp.name: 耀
-jp.nicknames: none
-jp.othernames: ヨウ
-language.order: jp, en
+ja.name: 耀
+ja.nicknames: none
+ja.othernames: ヨウ
+language.order: ja, en
 litter: 178
 photo.1: ig://BZbEFgcBOZ_/m
 photo.1.author: mifko55

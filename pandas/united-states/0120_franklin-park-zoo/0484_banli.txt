@@ -8,10 +8,10 @@ en.name: Ban-Li
 en.nicknames: none
 en.othernames: Banli
 gender: f
-jp.name: バンリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: バンリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 84, 2017/6/30
 location.2: 120, 2018/10/1

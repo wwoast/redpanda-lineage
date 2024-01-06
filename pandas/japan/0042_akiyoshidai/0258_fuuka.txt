@@ -8,10 +8,10 @@ en.name: Fuuka
 en.nicknames: none
 en.othernames: Fuka
 gender: f
-jp.name: 風香
-jp.nicknames: none
-jp.othernames: フウカ
-language.order: jp, en
+ja.name: 風香
+ja.nicknames: none
+ja.othernames: フウカ
+language.order: ja, en
 litter: 257
 photo.1: ig://BRjnn4lA1x0/m
 photo.1.author: monmon_redpanda

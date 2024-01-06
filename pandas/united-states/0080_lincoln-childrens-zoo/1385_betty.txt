@@ -8,10 +8,10 @@ en.name: Betty
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ベティ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ベティ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://ChXerWNsKwR/m
 photo.1.author: lincolnchildrenszoo

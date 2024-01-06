@@ -8,10 +8,10 @@ en.name: Eisaku
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 栄作
-jp.nicknames: none
-jp.othernames: エイサク
-language.order: jp, en
+ja.name: 栄作
+ja.nicknames: none
+ja.othernames: エイサク
+language.order: ja, en
 litter: 345
 location.1: 53, 2018/7/15
 location.2: 52, 2021/10/25

@@ -12,10 +12,10 @@ es.name: Gin
 es.nicknames: Mama Gin
 es.othernames: none
 gender: f
-jp.name: ギン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ギン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 22
 photo.1: ig://BWRlvqfgkZN/m
 photo.1.author: mifko55

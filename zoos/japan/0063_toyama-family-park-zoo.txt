@@ -5,10 +5,10 @@ en.address: ２５４ Furusawa, Toyama, Toyama Prefecture 930-0151, Japan
 en.location: Toyama, Toyama Prefecture, Japan
 en.name: Toyama Municipal Family Park Zoo
 flag: Japan
-jp.address: 〒930-0151 富山県富山市古沢２５４
-jp.location: 富山市 富山県
-jp.name: 富山市ファミリーパーク
-language.order: jp, en
+ja.address: 〒930-0151 富山県富山市古沢２５４
+ja.location: 富山市 富山県
+ja.name: 富山市ファミリーパーク
+language.order: ja, en
 latitude: 36.6909023
 longitude: 137.1460493
 map: https://goo.gl/maps/v3zCNrq2igs

@@ -9,10 +9,10 @@ en.name: Takeru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タケル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タケル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 158
 species: 2
 studbook.id: 15161

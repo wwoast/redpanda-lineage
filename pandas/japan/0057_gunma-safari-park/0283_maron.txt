@@ -9,10 +9,10 @@ en.name: Maron
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マロン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マロン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 60, 2017/7/17
 location.2: 57, 2022/2/16

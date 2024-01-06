@@ -8,10 +8,10 @@ en.name: Nico
 en.nicknames: Long Smile
 en.othernames: none
 gender: f
-jp.name: ニコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ニコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 photo.1: ig://BaKgQPihung/m
 photo.1.author: miis_98
 photo.1.commitdate: 2020/5/7

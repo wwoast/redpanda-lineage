@@ -9,10 +9,10 @@ en.name: Ruby
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ルビー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルビー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1427
 species: 1
 studbook.id: unknown

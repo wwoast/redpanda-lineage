@@ -9,10 +9,10 @@ en.name: Kuririn
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クリリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: クリリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 602
 location.1: 29, 2000/7/1
 location.2: 33, 2001/4/19

@@ -8,10 +8,10 @@ en.name: Franken
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: フランケン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: フランケン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 51, 2012/6/11
 location.2: 17, 2013/11/29

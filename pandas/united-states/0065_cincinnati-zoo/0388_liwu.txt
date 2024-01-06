@@ -9,10 +9,10 @@ en.name: LiWu
 en.nicknames: none
 en.othernames: Li-Wu
 gender: f
-jp.name: リュウ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リュウ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 83, 2000/6/28
 location.2: 104, 2002/2/8

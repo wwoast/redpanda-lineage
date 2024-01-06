@@ -9,10 +9,10 @@ en.name: Sei
 en.nicknames: none
 en.othernames: 
 gender: m
-jp.name: セイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: セイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 828
 species: 2
 studbook.id: 9984

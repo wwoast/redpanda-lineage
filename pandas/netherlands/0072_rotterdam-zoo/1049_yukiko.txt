@@ -9,10 +9,10 @@ en.name: Yukiko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ユキコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ユキコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1048
 location.1: 59, 2012/6/19
 location.2: 72, 2014/3/27

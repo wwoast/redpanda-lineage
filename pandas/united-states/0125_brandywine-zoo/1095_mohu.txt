@@ -8,10 +8,10 @@ en.name: Móhú
 en.nicknames: none
 en.othernames: Mohu
 gender: f
-jp.name: モフ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: モフ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 134, 2013/6/16
 location.2: 155, 2014/5/16

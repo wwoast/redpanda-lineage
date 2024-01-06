@@ -8,10 +8,10 @@ en.name: Alaka
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アラカ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アラカ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 photo.1: ig://BdMueVQlNJv/m
 photo.1.author: laura.edwardphotography

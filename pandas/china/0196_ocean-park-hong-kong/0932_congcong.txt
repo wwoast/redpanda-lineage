@@ -11,10 +11,10 @@ en.name: Cong-Cong
 en.nicknames: none
 en.othernames: Congcong, Chong-Chong, Chongchong
 gender: m
-jp.name: コンコン
-jp.nicknames: none
-jp.othernames: 聰聰
-language.order: cn, en, jp
+ja.name: コンコン
+ja.nicknames: none
+ja.othernames: 聰聰
+language.order: cn, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22

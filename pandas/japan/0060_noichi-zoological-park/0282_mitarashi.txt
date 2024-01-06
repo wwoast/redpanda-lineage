@@ -8,10 +8,10 @@ en.name: Mitarashi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: みたらし
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: みたらし
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 285
 location.1: 35, 2013/6/25
 location.2: 60, 2016/4/25

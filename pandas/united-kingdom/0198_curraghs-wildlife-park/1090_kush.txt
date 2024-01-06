@@ -9,10 +9,10 @@ en.name: Kush
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クッシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クッシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 213, 2013/6/6
 location.2: 198, 2014/6/22

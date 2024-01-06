@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Asa, Asha
 en.othernames: none
 gender: m
-jp.name: アーサ
-jp.nicknames: none
-jp.oldnames: アサ, アシャ
-jp.othernames: none
-language.order: en, jp
+ja.name: アーサ
+ja.nicknames: none
+ja.oldnames: アサ, アシャ
+ja.othernames: none
+language.order: en, ja
 litter: 1074
 location.1: 107, 2019/6/20
 location.2: 108, 2019/8/21

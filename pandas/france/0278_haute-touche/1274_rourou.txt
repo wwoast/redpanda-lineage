@@ -8,10 +8,10 @@ en.name: Rourou
 en.nicknames: none
 en.othernames: Rouroux
 gender: m
-jp.name: ルル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: unknown, unknown
 location.2: 278, unknown
 species: unknown

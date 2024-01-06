@@ -8,10 +8,10 @@ en.name: Jing-Li
 en.nicknames: none
 en.othernames: Jing Li, Jingli, Xing-Li, Xingli
 gender: f
-jp.name: ジンリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジンリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 115, 2006/6/21
 location.2: 81, 2007/11/27

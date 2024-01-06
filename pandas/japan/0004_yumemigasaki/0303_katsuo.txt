@@ -9,10 +9,10 @@ en.name: Katsuo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カツオ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カツオ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 309
 location.1: 17, 2002/7/2
 location.2: 1, 2003/6/18

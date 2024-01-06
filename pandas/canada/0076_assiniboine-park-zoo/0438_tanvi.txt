@@ -8,10 +8,10 @@ en.name: Tanvi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: タンヴィ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タンヴィ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 437
 photo.1: ig://B2kQp9zjhUG/m
 photo.1.author: assiniboineparkzoo

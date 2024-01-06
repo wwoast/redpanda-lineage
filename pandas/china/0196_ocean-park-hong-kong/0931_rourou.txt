@@ -11,10 +11,10 @@ en.name: Rou-Rou
 en.nicknames: none
 en.othernames: Rourou, Rouge, Yau-Yau, Yauyau
 gender: f
-jp.name: ロウロウ
-jp.nicknames: none
-jp.othernames: 柔柔
-language.order: cn, en, jp
+ja.name: ロウロウ
+ja.nicknames: none
+ja.othernames: 柔柔
+language.order: cn, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22

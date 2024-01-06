@@ -8,10 +8,10 @@ en.address: unknown
 en.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
 en.name: Bifengxia Wildlife Park
 flag: China
-jp.address: unknown
-jp.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
-jp.name: Bifengxia Wildlife Park
-language.order: cn, jp, en
+ja.address: unknown
+ja.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
+ja.name: Bifengxia Wildlife Park
+language.order: cn, ja, en
 latitude: 30.0652012
 longitude: 102.9964627
 map: https://goo.gl/maps/LgPysjPdnFVJ7Gea7

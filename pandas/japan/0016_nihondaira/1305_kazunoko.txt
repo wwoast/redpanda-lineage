@@ -8,10 +8,10 @@ en.name: Kazunoko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: かずのこ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: かずのこ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://CTd1NgJrUvr/m
 photo.1.author: lesserpanda_shizuokacity_cp

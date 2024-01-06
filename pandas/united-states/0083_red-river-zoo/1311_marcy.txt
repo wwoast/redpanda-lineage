@@ -8,10 +8,10 @@ en.name: Marcy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マーシー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マーシー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 2
 studbook.id: unknown

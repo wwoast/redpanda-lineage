@@ -8,10 +8,10 @@ en.name: Luna
 en.nicknames: none
 en.othernames: Runa
 gender: f
-jp.name: ルナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 108, 2001/6/22
 location.2: 48, 2002/5/29

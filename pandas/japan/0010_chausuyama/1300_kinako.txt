@@ -8,10 +8,10 @@ en.name: Kinako
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キナコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キナコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1301
 photo.1: ig://CRV3J9cBdBy/m
 photo.1.author: chausuyamazoo

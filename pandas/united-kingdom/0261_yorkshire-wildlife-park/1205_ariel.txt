@@ -8,10 +8,10 @@ en.name: Ariel
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アリエル
-jp.nicknames: none
-jp.othernames: none
-language.order: nl, en, jp
+ja.name: アリエル
+ja.nicknames: none
+ja.othernames: none
+language.order: nl, en, ja
 litter: 1206, 1207
 location.1: 259, 2019/6/1
 location.2: 261, 2020/8/1

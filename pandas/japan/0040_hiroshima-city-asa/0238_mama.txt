@@ -9,10 +9,10 @@ en.name: Mā-Mā
 en.nicknames: none
 en.othernames: Ma-Ma, Maa-Maa, Mahmah, Mah-Mah
 gender: f
-jp.name: 麻麻
-jp.nicknames: none
-jp.othernames: マーマー
-language.order: jp, en
+ja.name: 麻麻
+ja.nicknames: none
+ja.othernames: マーマー
+language.order: ja, en
 litter: 340
 location.1: 26, 2005/7/7
 location.2: 25, 2008/12/26

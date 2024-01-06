@@ -8,10 +8,10 @@ en.name: Jin-Jin
 en.nicknames: none
 en.othernames: Jinjin, Zinzin, Zin-Zin Zingin, Zingan, Jin-Jin
 gender: m
-jp.name: 菫菫
-jp.nicknames: none
-jp.othernames: ジンジン
-language.order: jp, en
+ja.name: 菫菫
+ja.nicknames: none
+ja.othernames: ジンジン
+language.order: ja, en
 litter: 1370
 photo.1: ig://CjXzAo-PLm0/m
 photo.1.author: leonard_redmof

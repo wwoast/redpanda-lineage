@@ -9,10 +9,10 @@ en.name: Jirou
 en.nicknames: none
 en.othernames: Jiro
 gender: m
-jp.name: 次郎
-jp.nicknames: none
-jp.othernames: ジロウ
-language.order: jp, en
+ja.name: 次郎
+ja.nicknames: none
+ja.othernames: ジロウ
+language.order: ja, en
 litter: none
 location.1: 10, 1990/7/6
 location.2: 1, 1991/10/18

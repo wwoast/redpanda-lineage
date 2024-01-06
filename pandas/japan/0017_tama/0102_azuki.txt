@@ -8,10 +8,10 @@ en.name: Azuki
 en.nicknames: Beans
 en.othernames: none
 gender: f
-jp.name: アズキ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アズキ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 187
 photo.1: ig://BUYZ64fhsh7/m
 photo.1.author: miis_98

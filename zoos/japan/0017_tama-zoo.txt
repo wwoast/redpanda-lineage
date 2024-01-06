@@ -5,10 +5,10 @@ en.address: 7 Chome-1-1 Hodokubo, Hino, Tokyo 191-0041, Japan
 en.location: Hino, Tokyo, Japan
 en.name: Tama Zoological Park
 flag: Japan
-jp.address: 〒191-0041 東京都日野市程久保７丁目１−1
-jp.location: 日野市 東京都
-jp.name: 多摩動物公園
-language.order: jp, en
+ja.address: 〒191-0041 東京都日野市程久保７丁目１−1
+ja.location: 日野市 東京都
+ja.name: 多摩動物公園
+language.order: ja, en
 latitude: 35.6495222
 longitude: 139.4000674
 map: https://goo.gl/maps/Emr9wdQYAm22

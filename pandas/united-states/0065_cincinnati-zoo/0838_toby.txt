@@ -9,10 +9,10 @@ en.name: Toby
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: トビー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: トビー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 65, 2001/7/15
 location.2: 192, 2002/5/9

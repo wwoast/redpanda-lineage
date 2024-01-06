@@ -8,10 +8,10 @@ en.address: No. 2368 Hongqiao Road, Changning District, Shanghai, China
 en.location: Changning District, Shanghai, China
 en.name: Shanghai Zoo
 flag: China
-jp.address: No. 2368 Hongqiao Road, Changning District, Shanghai, China
-jp.location: Changning District, Shanghai, China
-jp.name: 上海動物園
-language.order: cn, jp, en
+ja.address: No. 2368 Hongqiao Road, Changning District, Shanghai, China
+ja.location: Changning District, Shanghai, China
+ja.name: 上海動物園
+language.order: cn, ja, en
 latitude: 31.1902231
 longitude: 121.3590564
 map: https://goo.gl/maps/XGNrUzCRqB42

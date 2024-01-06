@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Roji, Rosie
 en.othernames: none
 gender: f
-jp.name: ルシー
-jp.nicknames: none
-jp.oldnames: ロジ
-jp.othernames: none
-language.order: en, jp
+ja.name: ルシー
+ja.nicknames: none
+ja.oldnames: ロジ
+ja.othernames: none
+language.order: en, ja
 litter: 861
 location.1: 177, 2018/6/25
 location.2: 81, 2021/6/4

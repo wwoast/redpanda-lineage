@@ -9,10 +9,10 @@ en.name: Denali
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: デナリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: デナリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1077
 location.1: 65, 1997/6/23
 location.2: 90, 1998/4/9

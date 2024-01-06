@@ -9,10 +9,10 @@ en.name: Dash
 en.nicknames: none
 en.othernames: Baby Spice
 gender: m
-jp.name: ダッシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ダッシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://CgRqaUig15j/m
 photo.1.author: thetorontozoo

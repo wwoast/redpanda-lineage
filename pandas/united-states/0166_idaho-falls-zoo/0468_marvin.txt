@@ -9,10 +9,10 @@ en.name: Marvin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マーヴィン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マーヴィン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 166, 2019/6/29
 location.2: 108, 2019/8/23

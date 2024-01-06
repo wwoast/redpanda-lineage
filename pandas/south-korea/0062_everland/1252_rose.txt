@@ -8,10 +8,10 @@ en.name: Rose
 en.nicknames: none
 en.othernames: Leah, Lea
 gender: f
-jp.name: ローズ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローズ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1253
 location.1: 76, 2019/5/17
 location.2: 62, 2022/12/1

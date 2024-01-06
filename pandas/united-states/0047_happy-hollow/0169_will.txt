@@ -8,10 +8,10 @@ en.name: Will Smith
 en.nicknames: Will-bear, Punk Butt, Prince William
 en.othernames: Willbear, Will
 gender: m
-jp.name: ウィル・スミス
-jp.nicknames: ウィル, ウィルスミス
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィル・スミス
+ja.nicknames: ウィル, ウィルスミス
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 48, 2015/7/4
 location.2: 47, 2016/4/27

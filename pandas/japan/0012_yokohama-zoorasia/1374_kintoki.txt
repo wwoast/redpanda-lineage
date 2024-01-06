@@ -8,10 +8,10 @@ en.name: Kintoki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: キントキ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キントキ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1375
 photo.1: ig://CmbgcgPvoVk/m
 photo.1.author: pantasanzoo1

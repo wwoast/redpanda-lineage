@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Komikan
 en.othernames: none
 gender: m
-jp.name: 臭橙
-jp.nicknames: none
-jp.oldnames: こみかん
-jp.othernames: かぼす
-language.order: jp, en
+ja.name: 臭橙
+ja.nicknames: none
+ja.oldnames: こみかん
+ja.othernames: かぼす
+language.order: ja, en
 litter: none
 location.1: 19, 2018/6/28
 location.2: 306, 2022/3/13

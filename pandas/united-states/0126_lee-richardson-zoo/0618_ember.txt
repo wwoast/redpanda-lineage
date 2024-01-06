@@ -9,10 +9,10 @@ en.name: Ember
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 烬
-jp.nicknames: none
-jp.othernames: ジン
-language.order: en, jp
+ja.name: 烬
+ja.nicknames: none
+ja.othernames: ジン
+language.order: en, ja
 litter: 546
 location.1: 108, 2010/6/14
 location.2: 126, 2011/8/31

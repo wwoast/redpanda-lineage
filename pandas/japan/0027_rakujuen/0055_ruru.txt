@@ -8,10 +8,10 @@ en.name: Ruru
 en.nicknames: Dig-a-bear
 en.othernames: Lulu
 gender: f
-jp.name: ルル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ルル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 56
 location.1: 1, 2008/6/21
 location.2: 27, 2017/11/21

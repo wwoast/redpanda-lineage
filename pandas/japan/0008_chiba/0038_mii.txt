@@ -8,10 +8,10 @@ en.name: Mii
 en.nicknames: none
 en.othernames: Mie
 gender: f
-jp.name: みい
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: みい
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 43
 photo.1: ig://BA9tASZviwO/m
 photo.1.author: panda.daisuki

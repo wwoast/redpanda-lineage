@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Tanpopo
 en.othernames: Finfin
 gender: f
-jp.name: フィンフィン
-jp.nicknames: none
-jp.oldnames: タンポポ
-jp.othernames: none
-language.order: jp, en
+ja.name: フィンフィン
+ja.nicknames: none
+ja.oldnames: タンポポ
+ja.othernames: none
+language.order: ja, en
 location.1: 17, 2002/6/20
 location.2: 15, 2003/2/7
 photo.1: https://www.codaworry.com/images/rpf/finfin-1-ikeda.jpg

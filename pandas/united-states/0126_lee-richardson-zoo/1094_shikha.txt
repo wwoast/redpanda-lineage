@@ -9,10 +9,10 @@ en.name: Shikha
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シカ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シカ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1093
 species: 1
 zoo: 126

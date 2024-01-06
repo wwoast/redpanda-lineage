@@ -9,10 +9,10 @@ en.name: Li-Ming
 en.nicknames: none
 en.othernames: Liming, Li Ming
 gender: f
-jp.name: リミン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リミン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 406
 location.1: 83, 2008/6/10
 location.2: 108, 2011/11/10

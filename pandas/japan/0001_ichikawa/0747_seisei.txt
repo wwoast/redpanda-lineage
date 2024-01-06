@@ -9,10 +9,10 @@ en.name: Sei-Sei
 en.nicknames: none
 en.othernames: Seisei
 gender: f
-jp.name: 誠誠
-jp.nicknames: none
-jp.othernames: セイセイ
-language.order: jp, en
+ja.name: 誠誠
+ja.nicknames: none
+ja.othernames: セイセイ
+language.order: ja, en
 litter: unknown
 location.1: wild.3
 location.2: 1, 1986/11/1

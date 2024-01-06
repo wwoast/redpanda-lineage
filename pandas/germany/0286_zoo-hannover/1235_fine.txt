@@ -11,10 +11,10 @@ gender: f
 hu.name: Szikra
 hu.nicknames: none
 hu.othernames: none
-jp.name: スパークア
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, ne, jp
+ja.name: スパークア
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ne, ja
 litter: unknown
 location.1: 220, 2020/6/22
 location.2: 286, 2021/7/17

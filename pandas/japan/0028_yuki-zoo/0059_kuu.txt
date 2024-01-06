@@ -9,10 +9,10 @@ en.name: Kuu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: クゥ
-jp.nicknames: クウ
-jp.othernames: none
-language.order: jp, en
+ja.name: クゥ
+ja.nicknames: クウ
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 16, 2008/7/3
 location.2: 28, 2009/4/8

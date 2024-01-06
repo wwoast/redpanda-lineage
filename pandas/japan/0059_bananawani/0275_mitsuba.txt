@@ -8,10 +8,10 @@ en.name: Mitsuba
 en.nicknames: none
 en.othernames: Clover
 gender: f
-jp.name: みつば
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: みつば
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 276
 photo.1: ig://BOcCjoxDCiy/m
 photo.1.author: minatomirai215

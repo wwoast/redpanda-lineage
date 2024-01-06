@@ -12,10 +12,10 @@ en.name: Xing-Xing
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 星星
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 星星
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 144, 2017/6/20
 location.2: 104, 2018/5/18

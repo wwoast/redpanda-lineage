@@ -9,10 +9,10 @@ en.name: Hillary
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ヒラリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヒラリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 692
 location.1: 108, 2004/7/15
 location.2: 121, 2006/12/18

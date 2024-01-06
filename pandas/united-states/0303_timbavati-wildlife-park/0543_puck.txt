@@ -8,10 +8,10 @@ en.name: Puck
 en.nicknames: none
 en.othernames: Yeren
 gender: m
-jp.name: パック
-jp.nicknames: none
-jp.othernames: イエレン
-language.order: en, jp
+ja.name: パック
+ja.nicknames: none
+ja.othernames: イエレン
+language.order: en, ja
 litter: 544
 location.1: 81, 2017/6/22
 location.2: 129, 2018/5/30

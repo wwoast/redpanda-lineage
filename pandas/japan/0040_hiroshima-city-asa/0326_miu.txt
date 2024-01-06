@@ -9,10 +9,10 @@ en.name: Miu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ミウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 142
 location.1: 16, 2010/7/19
 location.2: 40, 2013/6/24

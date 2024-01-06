@@ -8,10 +8,10 @@ en.name: Zoe
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ゾーイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ゾーイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1134
 location.1: 108, 2003/7/7
 location.2: 112, 2004/4/14

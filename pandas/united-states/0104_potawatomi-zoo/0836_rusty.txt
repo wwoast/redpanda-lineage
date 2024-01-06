@@ -9,10 +9,10 @@ en.name: Rusty
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ラスティ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラスティ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 837
 location.1: 141, 2007/6/23
 location.2: 48, 2008/10/1

@@ -9,10 +9,10 @@ en.name: Little Red
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 少し赤
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 少し赤
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://CDPM_CijcmJ/m
 photo.1.author: assiniboineparkzoo

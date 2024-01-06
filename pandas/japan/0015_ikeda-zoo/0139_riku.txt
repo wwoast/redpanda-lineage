@@ -8,10 +8,10 @@ en.name: Riku
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 陸
-jp.nicknames: none
-jp.othernames: リク
-language.order: jp, en
+ja.name: 陸
+ja.nicknames: none
+ja.othernames: リク
+language.order: ja, en
 litter: 217
 location.1: 18, 2006/6/5
 location.2: 60, 2010/3/2

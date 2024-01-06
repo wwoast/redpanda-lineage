@@ -11,10 +11,10 @@ en.name: Sundara
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: スンダラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スンダラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1406
 photo.1: ig://CmtlKP-Om-9/m
 photo.1.author: worldthathesees

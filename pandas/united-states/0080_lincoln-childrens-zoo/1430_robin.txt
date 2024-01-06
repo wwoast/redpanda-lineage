@@ -8,10 +8,10 @@ en.name: Robin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1429
 photo.1: ig://CwSpio4sUgx/m
 photo.1.author: lincolnchildrenszoo

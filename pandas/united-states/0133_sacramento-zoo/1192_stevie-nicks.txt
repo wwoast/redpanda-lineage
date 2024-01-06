@@ -8,10 +8,10 @@ en.name: Stevie Nicks
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: スティーヴィー・ニックス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スティーヴィー・ニックス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://CClsKkIHLnv/m
 photo.1.author: sacramentozoo

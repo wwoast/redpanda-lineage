@@ -8,10 +8,10 @@ en.name: Min-Min
 en.nicknames: none
 en.othernames: Minmin
 gender: f
-jp.name: ミンミン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミンミン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 26
 location.1: 13, 2010/6/28
 location.2: 35, 2012/4/23

@@ -8,10 +8,10 @@ en.name: Nei
 en.nicknames: none
 en.othernames: Ney
 gender: m
-jp.name: ネイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ネイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 378
 location.1: 6, 2018/7/18
 location.2: 190, 2020/2/6

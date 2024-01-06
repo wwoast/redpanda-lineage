@@ -8,10 +8,10 @@ en.name: Meita
 en.nicknames: none
 en.othernames: Mayta
 gender: f
-jp.name: メイタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: メイタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://9bCBZVvi5k/m
 photo.1.author: panda.daisuki

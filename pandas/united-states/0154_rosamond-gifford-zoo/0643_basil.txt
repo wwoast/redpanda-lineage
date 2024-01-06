@@ -8,10 +8,10 @@ en.name: Basil
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: バジル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: バジル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 642, 644
 location.1: 104, 2010/6/27
 location.2: 81, 2011/3/18

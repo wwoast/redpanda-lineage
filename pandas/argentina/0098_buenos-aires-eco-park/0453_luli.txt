@@ -14,11 +14,11 @@ es.nicknames: none
 es.oldnames: Pi-Pa, Pipa
 es.othernames: none
 gender: f
-jp.name: ルリ
-jp.nicknames: none
-jp.oldnames: ピーパ, ピパ
-jp.othernames: none
-language.order: es, en, jp
+ja.name: ルリ
+ja.nicknames: none
+ja.oldnames: ピーパ, ピパ
+ja.othernames: none
+language.order: es, en, ja
 litter: none
 location.1: 34, 2004/6/29
 location.2: 98, 2005/7/8

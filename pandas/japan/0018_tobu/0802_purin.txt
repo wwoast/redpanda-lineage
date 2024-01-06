@@ -9,10 +9,10 @@ en.name: Purin
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: プリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: プリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 6, 1997/7/2
 location.2: 18, 1999/1/9

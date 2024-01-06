@@ -8,10 +8,10 @@ en.name: Kodama
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: こだま
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: こだま
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 277, 278
 photo.1: ig://Bd06iOCHCmA/m
 photo.1.author: bananawani_official

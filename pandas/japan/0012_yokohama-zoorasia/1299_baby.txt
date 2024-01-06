@@ -9,10 +9,10 @@ en.name: Baby
 en.nicknames: none
 en.othernames: Aka-chan
 gender: m
-jp.name: 赤ちゃん
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://CRYXh58DubH/m
 photo.1.author: yokohama.zoo

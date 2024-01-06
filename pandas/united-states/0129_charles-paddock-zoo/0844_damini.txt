@@ -9,10 +9,10 @@ en.name: Damini
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ピリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ピリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 843
 location.1: 49, 2011/6/17
 location.2: 129, 2012/4/11

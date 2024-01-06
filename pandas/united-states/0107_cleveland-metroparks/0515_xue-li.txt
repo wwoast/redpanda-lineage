@@ -12,10 +12,10 @@ en.name: Xue Li
 en.nicknames: none
 en.othernames: Xueli, Xue-Li
 gender: f
-jp.name: 薛礼
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 薛礼
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 107, 2013/6/21
 location.2: 108, 2013/10/13

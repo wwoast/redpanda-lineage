@@ -8,10 +8,10 @@ en.name: Yamato
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヤマト
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヤマト
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 896
 location.1: 16, 2015/7/29
 location.2: 25, 2018/1/29

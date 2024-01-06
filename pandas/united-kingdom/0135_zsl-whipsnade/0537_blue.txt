@@ -9,10 +9,10 @@ en.name: Blue
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ブルー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ブルー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://BA7zuSLCQ2O/m
 photo.1.author: zslwhipsnadezoo

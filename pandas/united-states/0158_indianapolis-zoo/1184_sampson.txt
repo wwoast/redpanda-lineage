@@ -8,10 +8,10 @@ en.name: Sampson
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: サンプソン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サンプソン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 75, 2014/7/11
 location.2: 122, 2014/11/8

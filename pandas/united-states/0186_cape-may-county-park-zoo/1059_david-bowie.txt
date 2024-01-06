@@ -8,10 +8,10 @@ en.name: David Bowie
 en.nicknames: none
 en.othernames: Bowie, Young Chi, Young-Chi, Yung Chi, Yung-Chi, Yungchi
 gender: m
-jp.name: デビッド・ボウイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: デビッド・ボウイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 144, 2018/6/30
 location.2: 133, 2019/10/16

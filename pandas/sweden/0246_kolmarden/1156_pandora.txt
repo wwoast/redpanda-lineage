@@ -9,10 +9,10 @@ en.name: Pandora
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: パンドラ
-jp.nicknames: none
-jp.othernames: none
-language.order: sv, en, jp
+ja.name: パンドラ
+ja.nicknames: none
+ja.othernames: none
+language.order: sv, en, ja
 litter: unknown
 location.1: 199, 2010/6/19
 location.2: 246, 2011/4/27

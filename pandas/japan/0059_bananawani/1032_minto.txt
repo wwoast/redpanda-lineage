@@ -9,10 +9,10 @@ en.name: Mint
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ミント
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミント
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1033
 species: 1
 zoo: 59

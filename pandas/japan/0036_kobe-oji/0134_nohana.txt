@@ -9,11 +9,11 @@ en.nicknames: Flower
 en.oldnames: Norin
 en.othernames: none
 gender: f
-jp.name: 野花
-jp.nicknames: none
-jp.oldnames: ノリン
-jp.othernames: ノハナ
-language.order: jp, en
+ja.name: 野花
+ja.nicknames: none
+ja.oldnames: ノリン
+ja.othernames: ノハナ
+language.order: ja, en
 litter: none
 location.1: 41, 2017/7/31
 location.2: 36, 2019/5/22

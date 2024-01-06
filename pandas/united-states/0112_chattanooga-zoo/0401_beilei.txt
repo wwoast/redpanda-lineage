@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Roby
 en.othernames: none
 gender: f
-jp.name: バイリー
-jp.nicknames: none
-jp.oldnames: ロビー
-jp.othernames: none
-language.order: en, jp
+ja.name: バイリー
+ja.nicknames: none
+ja.oldnames: ロビー
+ja.othernames: none
+language.order: en, ja
 litter: 895
 location.1: 76, 2010/6/14
 location.2: 43, 2011/6/21

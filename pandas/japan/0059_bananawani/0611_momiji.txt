@@ -9,10 +9,10 @@ en.name: Momiji
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 黄葉
-jp.nicknames: none
-jp.othernames: もみじ
-language.order: jp, en
+ja.name: 黄葉
+ja.nicknames: none
+ja.othernames: もみじ
+language.order: ja, en
 litter: 490
 species: 1
 studbook.id: 0077

@@ -8,10 +8,10 @@ en.name: Starlight
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 星明かり
-jp.nicknames: none
-jp.othernames: スターライト
-language.order: en, jp
+ja.name: 星明かり
+ja.nicknames: none
+ja.othernames: スターライト
+language.order: en, ja
 litter: none
 location.1: 114, 2017/6/17
 location.2: 127, 2018/3/15

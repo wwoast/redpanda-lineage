@@ -8,10 +8,10 @@ en.name: Chen-Chen
 en.nicknames: none
 en.othernames: Chenchen
 gender: f
-jp.name: 茜茜
-jp.nicknames: none
-jp.othernames: チェンチェン
-language.order: jp, en
+ja.name: 茜茜
+ja.nicknames: none
+ja.othernames: チェンチェン
+language.order: ja, en
 litter: 1371
 photo.1: ig://CkiA78OvJve/m
 photo.1.author: ho0oipo

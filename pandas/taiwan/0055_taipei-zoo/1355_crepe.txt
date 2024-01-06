@@ -11,10 +11,10 @@ en.name: Crepe
 en.nicknames: none
 en.othernames: Kelibing
 gender: f
-jp.name: クレープ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: クレープ
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: 1356
 photo.1: ig://yuredpanda/CVFp6qShD9S/m
 photo.1.author: yuredpanda

@@ -8,10 +8,10 @@ en.name: Akebi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アケビ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アケビ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1196
 photo.1: ig://CGpiZZOBuGb/m
 photo.1.author: ifumoto88

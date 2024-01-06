@@ -9,10 +9,10 @@ en.name: Sebastian
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: セバスチャン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: セバスチャン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 118, 2002/7/9
 location.2: 114, 2003/3/24

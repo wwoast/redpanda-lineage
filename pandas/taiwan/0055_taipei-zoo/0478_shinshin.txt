@@ -9,10 +9,10 @@ en.name: Shin-Shin
 en.nicknames: none
 en.othernames: Shinshin
 gender: m
-jp.name: シンシン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シンシン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 34, 2000/6/30
 location.2: 55, 2002/6/26

@@ -9,10 +9,10 @@ en.name: Ryuunosuke
 en.nicknames: none
 en.othernames: Ryunosuke
 gender: m
-jp.name: 緑之介
-jp.nicknames: none
-jp.othernames: リュウノスケ
-language.order: jp, en
+ja.name: 緑之介
+ja.nicknames: none
+ja.othernames: リュウノスケ
+language.order: ja, en
 litter: 306
 location.1: 17, 1999/7/27
 location.2: 46, 2001/4/8

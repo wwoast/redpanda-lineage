@@ -9,10 +9,10 @@ en.name: Keti
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケチ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ケチ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 51, 2009/6/4
 location.2: 88, 2011/5/4

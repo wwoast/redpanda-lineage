@@ -9,10 +9,10 @@ en.name: Yanhua
 en.nicknames: none
 en.othernames: Yan-Hua
 gender: f
-jp.name: 陽花
-jp.nicknames: none
-jp.othernames: ヤンファ
-language.order: en, jp
+ja.name: 陽花
+ja.nicknames: none
+ja.othernames: ヤンファ
+language.order: en, ja
 litter: 526
 location.1: 120, 2011/7/5
 location.2: 114, 2012/5/17

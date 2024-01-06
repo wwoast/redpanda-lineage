@@ -8,10 +8,10 @@ en.name: Addison
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アディソン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アディソン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 420
 location.1: 87, 2015/6/26
 location.2: 44, 2016/3/17

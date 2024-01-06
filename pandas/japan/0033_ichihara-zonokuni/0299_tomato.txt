@@ -9,10 +9,10 @@ en.name: Tomato
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: トマト
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: トマト
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1182
 photo.1: ig://BVgsl1uD6LM/m
 photo.1.author: s.okano521

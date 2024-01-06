@@ -11,10 +11,10 @@ en.name: Tang-Yuan
 en.nicknames: none
 en.othernames: Tangyuan, Dumpling
 gender: m
-jp.name: 湯円
-jp.nicknames: none
-jp.othernames: タンエン
-language.order: cn, en, jp
+ja.name: 湯円
+ja.nicknames: none
+ja.othernames: タンエン
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B6-4lbLDFaV/m
 photo.1.author: mkr0369

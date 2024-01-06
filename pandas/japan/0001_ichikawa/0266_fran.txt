@@ -9,10 +9,10 @@ en.name: Fran
 en.nicknames: none
 en.othernames: Furan
 gender: m
-jp.name: フラン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: フラン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BCZui-wwZ_9/m
 photo.1.author: rio_minron

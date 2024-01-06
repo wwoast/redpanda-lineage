@@ -11,10 +11,10 @@ en.name: Croissant
 en.nicknames: none
 en.othernames: Dekesong, Kesung
 gender: m
-jp.name: クロワッサン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: クロワッサン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: 1355
 photo.1: ig://CajqxdDvjhf/m
 photo.1.author: yuredpanda

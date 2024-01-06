@@ -5,10 +5,10 @@ commitdate: 2019/3/28
 en.name: Boki
 en.nicknames: none
 en.othernames: none
-jp.name: ボキ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ボキ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: wild.6, 2019/Spring
 photo.1: ig://Bv47iCpjf3x/m
 photo.1.author: redpandanetwork

@@ -8,10 +8,10 @@ en.name: Kai
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 12
 location.1: 1, 2008/6/16
 location.2: 60, 2013/3/23

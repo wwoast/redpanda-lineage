@@ -9,10 +9,10 @@ en.name: Roshani
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ロシャーニ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ロシャーニ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 494
 location.1: 92, 2015/7/14
 location.2: 76, 2017/5/29

@@ -9,10 +9,10 @@ en.name: Disney
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ディズニー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ディズニー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 158, 1997/6/25
 location.2: 109, 2000/1/12

@@ -8,10 +8,10 @@ en.name: Anko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アンコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アンコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1300
 photo.1: ig://CS_XmG7rU-G/m
 photo.1.author: chausuyamazoo

@@ -12,10 +12,10 @@ es.name: Hana
 es.nicknames: none
 es.othernames: none
 gender: f
-jp.name: ハナ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, es, en
+ja.name: ハナ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, es, en
 litter: 216
 location.1: 17, 2001/7/13
 location.2: 54, 2002/12/3

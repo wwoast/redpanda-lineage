@@ -9,10 +9,10 @@ en.name: Umi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 海
-jp.nicknames: none
-jp.othernames: ウミ
-language.order: jp, en
+ja.name: 海
+ja.nicknames: none
+ja.othernames: ウミ
+language.order: ja, en
 litter: 57
 location.1: 57, 2002/6/24
 location.2: 18, 2004/1/28

@@ -9,10 +9,10 @@ en.name: Rohan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ローハン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローハン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 114, 2009/7/10
 location.2: 107, 2009/10/6

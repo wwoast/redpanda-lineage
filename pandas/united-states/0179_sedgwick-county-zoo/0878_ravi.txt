@@ -8,10 +8,10 @@ en.name: Ravi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ラビ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラビ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 877
 location.1: 146, 2019/6/2
 location.2: 179, 2020/5/1

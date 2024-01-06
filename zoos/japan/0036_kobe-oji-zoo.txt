@@ -5,10 +5,10 @@ en.address: Japan, 〒657-0838 Hyōgo Prefecture, Kobe, Nada Ward, Ojicho, 3 Cho
 en.location: Nada Ward, Kobe, Japan
 en.name: Kobe Oji Zoo
 flag: Japan
-jp.address: 〒657-0838 兵庫県神戸市灘区王子町３丁目１
-jp.location: 灘区 神戸市
-jp.name: 神戸市立王子動物園
-language.order: jp, en
+ja.address: 〒657-0838 兵庫県神戸市灘区王子町３丁目１
+ja.location: 灘区 神戸市
+ja.name: 神戸市立王子動物園
+language.order: ja, en
 latitude: 34.710002
 longitude: 135.2126901
 map: https://goo.gl/maps/8P5cFSjECns

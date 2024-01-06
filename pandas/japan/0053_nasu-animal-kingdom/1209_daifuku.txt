@@ -8,10 +8,10 @@ en.name: Daifuku
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 大福
-jp.nicknames: none
-jp.othernames: だいふく
-language.order: jp, en
+ja.name: 大福
+ja.nicknames: none
+ja.othernames: だいふく
+language.order: ja, en
 litter: 1210
 photo.1: ig://CGBSV2Qh3aR/m
 photo.1.author: nasu_animal_kingdom

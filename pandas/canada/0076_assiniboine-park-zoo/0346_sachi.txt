@@ -8,10 +8,10 @@ en.name: Sachi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サチ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サチ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 215
 location.1: 10, 2012/6/18
 location.2: 17, 2013/12/16

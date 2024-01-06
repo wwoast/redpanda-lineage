@@ -9,10 +9,10 @@ en.name: Maiko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マイコ
-jp.nicknames: none
-jp.othernames: none
-language.order: sv, en, jp
+ja.name: マイコ
+ja.nicknames: none
+ja.othernames: none
+language.order: sv, en, ja
 litter: unknown
 location.1: 247, 2009/7/3
 location.2: 246, 2011/4/27

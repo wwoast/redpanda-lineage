@@ -9,10 +9,10 @@ en.name: Banshi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ばんし
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ばんし
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 154, 2002/7/2
 location.2: 124, 2003/11/18

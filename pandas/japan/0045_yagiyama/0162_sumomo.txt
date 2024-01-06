@@ -8,10 +8,10 @@ en.name: Sumomo
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: スモモ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スモモ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 159
 photo.1: ig://9Ms_OEvi3p/m
 photo.1.author: panda.daisuki

@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Kodari
 en.othernames: none
 gender: m
-jp.name: テンジン
-jp.nicknames: none
-jp.oldnames: コダリ
-jp.othernames: none
-language.order: en, jp
+ja.name: テンジン
+ja.nicknames: none
+ja.oldnames: コダリ
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 133, 2013/6/1
 location.2: 180, 2014/3/24

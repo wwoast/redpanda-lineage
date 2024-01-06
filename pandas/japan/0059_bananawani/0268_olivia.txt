@@ -9,10 +9,10 @@ en.name: Olivia
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: オリビア
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: オリビア
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 72, 2011/8/10
 location.2: 59, 2014/5/28

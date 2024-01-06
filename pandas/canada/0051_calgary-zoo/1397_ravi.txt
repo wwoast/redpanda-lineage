@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: none
 en.othernames: none
 gender: m
-jp.name: ラビ
-jp.nicknames: none
-jp.oldnames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラビ
+ja.nicknames: none
+ja.oldnames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1396
 photo.1: ig://CkuPxEiJllg/m
 photo.1.author: westcoast_kathy

@@ -8,10 +8,10 @@ en.name: Willow
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ウィロー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィロー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 434
 location.1: 82, 2015/8/24
 location.2: 84, 2016/9/22

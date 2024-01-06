@@ -8,10 +8,10 @@ en.name: Fuuna
 en.nicknames: Greens
 en.othernames: Fūna
 gender: f
-jp.name: 風菜
-jp.nicknames: none
-jp.othernames: フウナ
-language.order: jp, en
+ja.name: 風菜
+ja.nicknames: none
+ja.othernames: フウナ
+language.order: ja, en
 litter: 37
 location.1: 8, 2012/7/3
 location.2: 23, 2014/6/3

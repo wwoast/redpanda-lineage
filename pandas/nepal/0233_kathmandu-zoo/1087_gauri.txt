@@ -8,10 +8,10 @@ en.name: Gauri
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ガウリ
-jp.nicknames: none
-jp.othernames: none
-language.order: ne, en, jp
+ja.name: ガウリ
+ja.nicknames: none
+ja.othernames: none
+language.order: ne, en, ja
 litter: unknown
 ne.name: गौरी
 ne.nicknames: none

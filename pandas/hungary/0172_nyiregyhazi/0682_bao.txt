@@ -14,10 +14,10 @@ gender: m
 hu.name: Bao
 hu.nicknames: none
 hu.othernames: none
-jp.name: バオ
-jp.nicknames: none
-jp.othernames: none
-language.order: hu, en, jp
+ja.name: バオ
+ja.nicknames: none
+ja.othernames: none
+language.order: hu, en, ja
 litter: 582
 location.1: 150, 2013/7/14
 location.2: 172, 2014/7/30

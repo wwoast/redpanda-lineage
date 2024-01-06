@@ -8,10 +8,10 @@ en.name: Cinnamon
 en.nicknames: none
 en.othernames: Sinamon
 gender: m
-jp.name: シナモン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シナモン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BdUlcmUgJI6/m
 photo.1.author: peek_a_boo00

@@ -9,10 +9,10 @@ en.name: Chip
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: チップ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チップ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 196
 location.1: 12, 2001/6/19
 location.2: 38, 2006/1/30

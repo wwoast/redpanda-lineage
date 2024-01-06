@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Take, Také
 en.othernames: none
 gender: m
-jp.name: ユキコ
-jp.nicknames: none
-jp.oldnames: タケ
-jp.othernames: none
-language.order: en, jp
+ja.name: ユキコ
+ja.nicknames: none
+ja.oldnames: タケ
+ja.othernames: none
+language.order: en, ja
 litter: 321
 location.1: 9, 2005/6/23
 location.2: 83, 2007/2/21

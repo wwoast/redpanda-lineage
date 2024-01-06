@@ -11,10 +11,10 @@ en.name: Kexin
 en.nicknames: none
 en.othernames: Keshin
 gender: m
-jp.name: ケシーン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ケシーン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: 1351
 photo.1: ig://CVEqgkEB6wi/m
 photo.1.author: yuredpanda

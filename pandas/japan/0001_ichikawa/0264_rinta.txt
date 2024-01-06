@@ -9,10 +9,10 @@ en.name: Rinta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 梨太
-jp.nicknames: none
-jp.othernames: リンタ
-language.order: jp, en
+ja.name: 梨太
+ja.nicknames: none
+ja.othernames: リンタ
+language.order: ja, en
 litter: 4
 species: 2
 studbook.id: 0557

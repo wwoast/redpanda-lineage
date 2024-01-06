@@ -9,10 +9,10 @@ en.name: Boo-Boo
 en.nicknames: none
 en.othernames: Booboo, Bubu, Buu-Buu, Bu-Bu, Bū-Bū
 gender: m
-jp.name: ブーブー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ブーブー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 52, 1997/7/13
 location.2: 17, 2001/2/16

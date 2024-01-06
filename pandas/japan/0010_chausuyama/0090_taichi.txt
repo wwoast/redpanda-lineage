@@ -8,10 +8,10 @@ en.name: Taichi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タイチ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タイチ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 280
 location.1: 60, 2005/7/1
 location.2: 22, 2008/3/24

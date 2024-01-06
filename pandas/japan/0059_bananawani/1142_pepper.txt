@@ -9,10 +9,10 @@ en.name: Pepper
 en.nicknames: none
 en.othernames: Pepa
 gender: m
-jp.name: ペッパー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ペッパー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1143
 species: 1
 zoo: 59

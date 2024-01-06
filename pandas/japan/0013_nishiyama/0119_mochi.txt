@@ -8,10 +8,10 @@ en.name: Mochi
 en.nicknames: none
 en.othernames: Moochie, Mocchii
 gender: m
-jp.name: モッチー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: モッチー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 52
 photo.1: ig://BaQtumtl045/m
 photo.1.author: hanamaru_redpanda

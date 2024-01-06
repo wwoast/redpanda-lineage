@@ -9,10 +9,10 @@ en.name: Tomy
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: トミー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: トミー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 1995/6/24
 location.2: 63, 1998/8/24

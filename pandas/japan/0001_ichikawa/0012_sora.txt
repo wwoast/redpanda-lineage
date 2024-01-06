@@ -8,10 +8,10 @@ en.name: Sora
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ソラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ソラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 281
 photo.1: ig://BJZvSy3jzmK/m
 photo.1.author: masa_polarbear

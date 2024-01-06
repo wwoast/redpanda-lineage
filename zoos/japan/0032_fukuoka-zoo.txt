@@ -5,10 +5,10 @@ en.address: Japan, 〒810-0037 Fukuoka-ken, Fukuoka-shi, Chūō-ku, Minamikōen,
 en.location: Chuo-ku, Fukuoka City, Fukuoka Prefecture, Japan
 en.name: Fukuoka Municipal Zoo and Botanical Garden
 flag: Japan
-jp.address: 〒810-0037 福岡県福岡市中央区南公園1−１
-jp.location: 中央区 福岡市 福岡県
-jp.name: 福岡市動物園
-language.order: jp, en
+ja.address: 〒810-0037 福岡県福岡市中央区南公園1−１
+ja.location: 中央区 福岡市 福岡県
+ja.name: 福岡市動物園
+language.order: ja, en
 latitude: 33.5812228
 longitude: 130.3829501
 map: https://goo.gl/maps/XZZzwgWnAUq

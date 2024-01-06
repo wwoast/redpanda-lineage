@@ -9,10 +9,10 @@ en.name: Ryou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: リョウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リョウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 893
 location.1: 13, 1992/7/13
 location.2: 27, 1996/3/26

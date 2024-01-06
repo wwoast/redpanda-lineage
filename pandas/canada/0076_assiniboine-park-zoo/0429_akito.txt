@@ -9,10 +9,10 @@ en.name: Akito
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: アキト
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アキト
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 427, 428
 species: 2
 studbook.id: 1522

@@ -9,10 +9,10 @@ en.name: Tan-Tan
 en.nicknames: none
 en.othernames: Tantan
 gender: m
-jp.name: 淡淡
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 淡淡
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 363
 location.1: 3, 2000/7/20
 location.2: 33, 2001/4/19

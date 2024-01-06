@@ -8,10 +8,10 @@ en.name: Fujimaru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: フジマル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フジマル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1384
 photo.1: ig://CkxotEyPSwZ/m
 photo.1.author: tamazoowalking

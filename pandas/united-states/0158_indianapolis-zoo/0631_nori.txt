@@ -9,10 +9,10 @@ en.name: Nori
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: のり
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: のり
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 630
 location.1: 146, 2009/6/18
 location.2: 157, 2010/4/26

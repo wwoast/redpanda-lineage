@@ -9,10 +9,10 @@ en.name: Cinni
 en.nicknames: none
 en.othernames: Cini
 gender: f
-jp.name: チニ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チニ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 536
 photo.1: ig://BAyXeobyf5u/m
 photo.1.author: sketchpoet

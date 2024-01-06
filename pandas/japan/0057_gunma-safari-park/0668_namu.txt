@@ -9,10 +9,10 @@ en.name: Namu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 455
 location.1: wild.3
 location.2: 57, 1993/10/26

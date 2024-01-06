@@ -8,10 +8,10 @@ en.address: Jiulongpo Qu, China, 400080
 en.location: Jiulongpo Qu, China
 en.name: Chongqing Zoo
 flag: China
-jp.address: Jiulongpo Qu, China, 400080
-jp.location: Jiulongpo Qu, China
-jp.name: Chongqing Zoo
-language.order: cn, jp, en
+ja.address: Jiulongpo Qu, China, 400080
+ja.location: Jiulongpo Qu, China
+ja.name: Chongqing Zoo
+language.order: cn, ja, en
 latitude: 29.5035617
 longitude: 106.5037493
 map: https://goo.gl/maps/rsck5UV8B552

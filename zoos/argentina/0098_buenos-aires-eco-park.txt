@@ -9,7 +9,7 @@ es.address: República de la India, C1425 CABA, Argentina
 es.location: Buenos Aires, Argentina
 es.name: Ecoparque Interactivo de Buenos Aires
 flag: Argentina
-language.order: es, en, jp
+language.order: es, en, ja
 latitude: -34.5781333
 longitude: -58.4853221
 map: https://goo.gl/maps/LtEhMY2XMbJ2

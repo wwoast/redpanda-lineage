@@ -9,10 +9,10 @@ en.name: Risa
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: リサ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リサ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 80, 2009/7/19
 location.2: 160, 2010/4/20

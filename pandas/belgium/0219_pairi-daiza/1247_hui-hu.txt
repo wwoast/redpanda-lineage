@@ -14,10 +14,10 @@ fr.name: Hui Hu
 fr.nicknames: none
 fr.othernames: none
 gender: m
-jp.name: 火狐
-jp.nicknames: none
-jp.othernames: ひきつね
-language.order: fr, cn, en, jp
+ja.name: 火狐
+ja.nicknames: none
+ja.othernames: ひきつね
+language.order: fr, cn, en, ja
 litter: 1248
 location.1: 271, 2019/6/22
 location.2: 219, 2020/10/1

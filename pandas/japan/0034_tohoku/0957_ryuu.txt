@@ -8,10 +8,10 @@ en.name: Ryuu
 en.nicknames: Kabuki
 en.othernames: none
 gender: m
-jp.name: リュウ
-jp.nicknames: 歌舞伎
-jp.othernames: none
-language.order: jp, en
+ja.name: リュウ
+ja.nicknames: 歌舞伎
+ja.othernames: none
+language.order: ja, en
 litter: 958
 location.1: 9, 2019/7/2
 location.2: 34, 2023/4/10

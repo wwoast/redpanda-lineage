@@ -11,10 +11,10 @@ en.name: Zhuzi
 en.nicknames: none
 en.othernames: Zhusi
 gender: f
-jp.name: 竹
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 竹
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1407
 location.1: 115, 2022/5/23
 location.2: 310, 2023/4/14

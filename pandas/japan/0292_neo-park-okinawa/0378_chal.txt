@@ -8,10 +8,10 @@ en.name: Chal
 en.nicknames: none
 en.othernames: Charu, Char
 gender: m
-jp.name: チャル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チャル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 376
 location.1: 6, 2018/7/18
 location.2: 292, 2021/7/17

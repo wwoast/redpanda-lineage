@@ -8,10 +8,10 @@ en.name: Lucille
 en.nicknames: none
 en.othernames: Lucy
 gender: f
-jp.name: ルシル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルシル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 502
 location.1: 48, 2012/6/21
 location.2: 109, 2012/9/14

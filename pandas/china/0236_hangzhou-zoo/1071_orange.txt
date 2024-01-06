@@ -11,10 +11,10 @@ en.name: Orange
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 橘
-jp.nicknames: none
-jp.othernames: タチバナ
-language.order: cn, en, jp
+ja.name: 橘
+ja.nicknames: none
+ja.othernames: タチバナ
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://B8ZRjf7BdGS/m
 photo.1.author: mkr0369

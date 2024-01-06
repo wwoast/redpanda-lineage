@@ -8,10 +8,10 @@ en.name: Tian
 en.nicknames: none
 en.othernames: Tyen, Thien
 gender: m
-jp.name: ティエン
-jp.nicknames: none
-jp.othernames: 天
-language.order: jp, en
+ja.name: ティエン
+ja.nicknames: none
+ja.othernames: 天
+language.order: ja, en
 litter: none
 location.1: 34, 2011/6/13
 location.2: 45, 2012/12/22

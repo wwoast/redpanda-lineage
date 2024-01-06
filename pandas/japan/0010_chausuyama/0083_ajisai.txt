@@ -8,10 +8,10 @@ en.name: Ajisai
 en.nicknames: Hydrangea
 en.othernames: none
 gender: f
-jp.name: アジサイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アジサイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 67
 location.1: 17, 2006/6/22
 location.2: 10, 2009/3/26

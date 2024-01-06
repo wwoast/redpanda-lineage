@@ -8,10 +8,10 @@ en.name: Adira
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アディラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アディラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1193
 location.1: 96, 2020/7/14
 location.2: 95, 2022/10/3

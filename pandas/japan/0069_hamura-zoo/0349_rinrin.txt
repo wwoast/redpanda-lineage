@@ -9,10 +9,10 @@ en.name: Rin-Rin
 en.nicknames: none
 en.othernames: Rinrin
 gender: f
-jp.name: 玲玲
-jp.nicknames: none
-jp.othernames: リンリン
-language.order: jp, en
+ja.name: 玲玲
+ja.nicknames: none
+ja.othernames: リンリン
+language.order: ja, en
 litter: 615
 location.1: 31, 2001/6/19
 location.2: 69, 2005/2/23

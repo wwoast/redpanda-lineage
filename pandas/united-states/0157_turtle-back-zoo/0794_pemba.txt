@@ -9,10 +9,10 @@ en.name: Pemba
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ペンバ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ペンバ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 675, 795
 location.1: 108, 2000/6/9
 location.2: 133, 2001/3/30

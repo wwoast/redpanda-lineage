@@ -9,10 +9,10 @@ en.name: Yuuto
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 優砥
-jp.nicknames: none
-jp.othernames: ユウト
-language.order: jp, en
+ja.name: 優砥
+ja.nicknames: none
+ja.othernames: ユウト
+language.order: ja, en
 litter: none
 photo.1: ig://BY6NuETH1Ov/m
 photo.1.author: fetorus_mami

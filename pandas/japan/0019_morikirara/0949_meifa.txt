@@ -8,10 +8,10 @@ en.name: Mei-Fa
 en.nicknames: none
 en.othernames: Meifa, Mayfa, Meihua, Mei-howa, Meihowa
 gender: f
-jp.name: 梅花
-jp.nicknames: none
-jp.othernames: メイファ
-language.order: jp, en
+ja.name: 梅花
+ja.nicknames: none
+ja.othernames: メイファ
+language.order: ja, en
 litter: 948
 location.1: 17, 2019/6/19
 location.2: 19, 2022/3/16

@@ -8,10 +8,10 @@ en.name: Kalden
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カルデン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カルデン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 44, 2012/6/7
 location.2: 82, 2013/7/11

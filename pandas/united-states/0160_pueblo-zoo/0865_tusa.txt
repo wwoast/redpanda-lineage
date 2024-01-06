@@ -9,10 +9,10 @@ en.name: Tusa
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: トゥサ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: トゥサ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 177, 2014/6/27
 location.2: 49, 2015/12/1

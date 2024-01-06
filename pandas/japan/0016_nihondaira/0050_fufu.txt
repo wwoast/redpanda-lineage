@@ -9,10 +9,10 @@ en.name: Fu-Fu
 en.nicknames: none
 en.othernames: Fuu-Fuu, Fuufuu, Huu-Huu, Foof
 gender: m
-jp.name: 風々
-jp.nicknames: none
-jp.othernames: フーフー, フウフウ, 風風
-language.order: jp, en
+ja.name: 風々
+ja.nicknames: none
+ja.othernames: フーフー, フウフウ, 風風
+language.order: ja, en
 litter: 472, 549
 location.1: 17, 1997/6/20
 location.2: 16, 2002/3/23

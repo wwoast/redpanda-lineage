@@ -8,10 +8,10 @@ en.name: Baby
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: 赤ちゃん
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1388
 species: 1
 zoo: 221

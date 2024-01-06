@@ -11,10 +11,10 @@ en.name: Yammy
 en.nicknames: none
 en.othernames: Yummy
 gender: m
-jp.name: ヤミー
-jp.nicknames: none
-jp.othernames: ユミー
-language.order: cn, en, jp
+ja.name: ヤミー
+ja.nicknames: none
+ja.othernames: ユミー
+language.order: cn, en, ja
 litter: none
 photo.1: ig://CaPGZzCvTDH/m
 photo.1.author: yuredpanda

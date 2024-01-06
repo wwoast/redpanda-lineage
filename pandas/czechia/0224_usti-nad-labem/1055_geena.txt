@@ -9,10 +9,10 @@ en.name: Geena
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ジーナ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ジーナ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1054
 location.1: 222, 2005/6/24
 location.2: 224, 2006/5/18

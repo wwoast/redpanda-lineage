@@ -9,10 +9,10 @@ en.name: Meri
 en.nicknames: none
 en.othernames: Merry
 gender: f
-jp.name: メリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 927
 location.1: 124, 2013/6/27
 location.2: 125, 2014/5/21

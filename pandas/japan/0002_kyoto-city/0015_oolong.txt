@@ -11,10 +11,10 @@ en.name: Oolong
 en.nicknames: Wu-Ron
 en.othernames: Oolomg
 gender: m
-jp.name: ウーロン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, cn, en
+ja.name: ウーロン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, cn, en
 litter: unknown
 location.1: 5, 2011/6/5
 location.2: 2, 2013/3/30

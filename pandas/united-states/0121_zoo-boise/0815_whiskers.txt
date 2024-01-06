@@ -9,10 +9,10 @@ en.name: Whiskers
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ひげ
-jp.nicknames: none
-jp.othernames: 髭
-language.order: en, jp
+ja.name: ひげ
+ja.nicknames: none
+ja.othernames: 髭
+language.order: en, ja
 litter: 814
 species: 1
 studbook.id: 1708

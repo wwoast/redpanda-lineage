@@ -9,10 +9,10 @@ en.name: Smitty
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スミッティ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スミッティ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 511, 513
 species: 1
 studbook.id: 1502

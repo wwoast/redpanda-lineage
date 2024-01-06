@@ -5,10 +5,10 @@ en.address: 4 Chome-1-8 Kamiitozu, Kokurakita Ward, Kitakyushu, Fukuoka Prefectu
 en.location: Kitakyushu, Fukuoka Prefecture, Japan
 en.name: Itozu no Mori Zoological Park
 flag: Japan
-jp.address: 〒803-0845 福岡県北九州市小倉北区上到津４丁目１−8
-jp.location: 北九州市 福岡県
-jp.name: 到津の森公園
-language.order: jp, en
+ja.address: 〒803-0845 福岡県北九州市小倉北区上到津４丁目１−8
+ja.location: 北九州市 福岡県
+ja.name: 到津の森公園
+language.order: ja, en
 latitude: 33.8738674
 longitude: 130.8444053
 map: https://goo.gl/maps/a4z75hLhZ692

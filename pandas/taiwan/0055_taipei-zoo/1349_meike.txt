@@ -11,10 +11,10 @@ en.name: Meike
 en.nicknames: none
 en.othernames: Meco
 gender: f
-jp.name: メエケ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: メエケ
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 location.1: 291, 2008/7/22
 location.2: 55, 2014/6/6

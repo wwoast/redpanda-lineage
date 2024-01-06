@@ -9,10 +9,10 @@ en.name: Yang
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヤン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヤン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 902
 location.1: 95, 2006/6/21
 location.2: 120, 2007/5/9

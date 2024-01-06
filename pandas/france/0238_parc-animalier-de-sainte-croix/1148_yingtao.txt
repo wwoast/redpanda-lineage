@@ -14,10 +14,10 @@ fr.name: Ying Tao
 fr.nicknames: none
 fr.othernames: Yingtao, Ying-Tao
 gender: f
-jp.name: インタオ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, cn, en, jp
+ja.name: インタオ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, cn, en, ja
 litter: 1149
 location.1: 239, 2014/6/13
 location.2: 238, 2015/3/6

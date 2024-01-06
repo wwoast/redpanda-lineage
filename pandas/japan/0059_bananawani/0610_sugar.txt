@@ -9,10 +9,10 @@ en.name: Sugar
 en.nicknames: none
 en.othernames: Shuga
 gender: m
-jp.name: シュガー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シュガー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 350
 species: 1
 studbook.id: 0299

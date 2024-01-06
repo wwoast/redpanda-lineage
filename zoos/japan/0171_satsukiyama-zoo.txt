@@ -5,10 +5,10 @@ en.address: Japan, 〒563-0051 Osaka, Ikeda, Ayaha, 2 Chome−5−３３ 五月�
 en.location: Ikeda, Osaka, Japan
 en.name: Satsukiyama Zoo
 flag: Japan
-jp.address: 〒563-0051 大阪府池田市綾羽２丁目５−３３ 五月山公園内
-jp.location: 池田市 大阪府
-jp.name: 五月山動物園
-language.order: jp, en
+ja.address: 〒563-0051 大阪府池田市綾羽２丁目５−３３ 五月山公園内
+ja.location: 池田市 大阪府
+ja.name: 五月山動物園
+language.order: ja, en
 latitude: 34.8271098
 longitude: 135.4171343
 map: https://goo.gl/maps/qgoAw1pdKyJ2

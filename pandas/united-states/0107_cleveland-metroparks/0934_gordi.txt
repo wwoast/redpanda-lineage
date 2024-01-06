@@ -9,10 +9,10 @@ en.name: Gordi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ゴルディ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ゴルディ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 935
 location.1: 48, 1997/6/26
 location.2: 124, 2002/2/28

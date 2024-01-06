@@ -8,10 +8,10 @@ en.name: Ping
 en.nicknames: none
 en.othernames: Ping-Jing, Pingjing, Ping Jing, Pinjin, Ping-Ling, Ping Ling, Pingling
 gender: m
-jp.name: ピン
-jp.nicknames: none
-jp.othernames: ピンジン
-language.order: en, jp
+ja.name: ピン
+ja.nicknames: none
+ja.othernames: ピンジン
+language.order: en, ja
 litter: 543
 location.1: 81, 2017/6/22
 location.2: 129, 2018/5/30

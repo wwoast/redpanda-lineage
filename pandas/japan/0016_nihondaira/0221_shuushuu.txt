@@ -9,10 +9,10 @@ en.name: Shuu-Shuu
 en.nicknames: none
 en.othernames: Shyu-Shyu, Shuushuu, Shyushyu
 gender: m
-jp.name: シュウシュウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シュウシュウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 596
 location.1: 6, 2001/7/21
 location.2: 16, 2004/3/18

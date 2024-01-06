@@ -9,10 +9,10 @@ en.name: Sora
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: そら
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: そら
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1044
 species: 1
 zoo: 59

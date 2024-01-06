@@ -8,10 +8,10 @@ en.name: Audra
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: オードラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: オードラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1002
 photo.1: ig://B56EjwyHiRX/m
 photo.1.author: shaesavestheplanet

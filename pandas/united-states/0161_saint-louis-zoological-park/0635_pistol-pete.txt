@@ -8,10 +8,10 @@ en.name: Pistol Pete
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ピストルピート
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ピストルピート
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 634, 636
 location.1: 146, 2011/6/25
 location.2: 109, 2012/4/24

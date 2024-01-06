@@ -8,10 +8,10 @@ en.name: Kenshin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ケンシン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ケンシン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 346
 location.1: 10, 2012/6/18
 location.2: 26, 2015/3/17

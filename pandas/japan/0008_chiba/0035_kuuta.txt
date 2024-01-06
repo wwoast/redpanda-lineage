@@ -9,10 +9,10 @@ en.name: Kuuta
 en.nicknames: none
 en.othernames: Qoota
 gender: m
-jp.name: クウタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: クウタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 46
 photo.1: ig://BV1zLLzg6Pv/m
 photo.1.author: minatomirai215

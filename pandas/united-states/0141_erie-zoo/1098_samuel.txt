@@ -9,10 +9,10 @@ en.name: Samuel
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: サミュエル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サミュエル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1097
 location.1: 108, 2008/6/14
 location.2: 141, 2009/6/23

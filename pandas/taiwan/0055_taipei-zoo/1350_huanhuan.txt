@@ -11,10 +11,10 @@ en.name: Huanhuan
 en.nicknames: none
 en.othernames: Huan-Huan
 gender: m
-jp.name: ファンファン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ファンファン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 location.1: 291, 2007/7/3
 location.2: 55, 2014/6/6

@@ -9,10 +9,10 @@ en.name: William
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ウィリアム
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィリアム
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1131
 location.1: 114, 1998/6/7
 location.2: 141, 2000/4/26

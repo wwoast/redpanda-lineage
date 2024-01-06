@@ -11,10 +11,10 @@ en.name: Mi-Gao
 en.nicknames: none
 en.othernames: Migao
 gender: f
-jp.name: ミーガオ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ミーガオ
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://CIpIhGyhY_4/m
 photo.1.author: manmanko2

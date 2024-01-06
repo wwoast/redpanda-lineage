@@ -12,10 +12,10 @@ es.name: Yuuki
 es.nicknames: none
 es.othernames: Juky
 gender: m
-jp.name: ユーキ
-jp.nicknames: none
-jp.othernames: 優貴
-language.order: es, en, jp
+ja.name: ユーキ
+ja.nicknames: none
+ja.othernames: 優貴
+language.order: es, en, ja
 litter: 202, 801
 location.1: 6, 2003/7/15
 location.2: 98, 2005/7/8

@@ -9,10 +9,10 @@ en.name: Junjie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: じゅんじ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: じゅんじ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 604
 location.1: 115, 2013/6/26
 location.2: 153, 2014/7/15

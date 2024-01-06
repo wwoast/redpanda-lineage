@@ -11,10 +11,10 @@ fr.name: Inés
 fr.nicknames: none
 fr.othernames: none
 gender: f
-jp.name: イネス
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, en, jp
+ja.name: イネス
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, en, ja
 litter: 1066
 location.1: 72, 2017/6/12
 location.2: 199, 2018/3/26

@@ -8,10 +8,10 @@ en.name: Kiki
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キキ
-jp.nicknames: none
-jp.othernames: 喜喜
-language.order: jp, en
+ja.name: キキ
+ja.nicknames: none
+ja.othernames: 喜喜
+language.order: ja, en
 litter: none
 location.1: 46, 2007/7/25
 location.2: 3, 2009/11/25

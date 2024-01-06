@@ -9,10 +9,10 @@ en.name: Run
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ルン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ルン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 659
 location.1: 10, 1992/6/21
 location.2: 171, 1994/3/11

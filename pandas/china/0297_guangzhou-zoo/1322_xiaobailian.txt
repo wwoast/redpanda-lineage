@@ -11,10 +11,10 @@ en.name: Xiao-Bai-Lian
 en.nicknames: Xiao-Bai, Chairman, Lady Bai, Mimi
 en.othernames: Xiaobailan, Xiaobai
 gender: f
-jp.name: シャオバイラン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: シャオバイラン
+ja.nicknames: none
+ja.othernames: none
+language.order: cn, en, ja
 litter: unknown
 photo.1: ig://CC_Iqvclv3m/m
 photo.1.author: manmanko2

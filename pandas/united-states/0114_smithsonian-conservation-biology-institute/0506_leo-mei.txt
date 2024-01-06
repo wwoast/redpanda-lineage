@@ -9,10 +9,10 @@ en.name: Leo Mei
 en.nicknames: none
 en.othernames: Leomei, Leo-Mei
 gender: f
-jp.name: レオメイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: レオメイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 900
 location.1: 114, 2005/6/10
 location.2: 49, 2005/10/2

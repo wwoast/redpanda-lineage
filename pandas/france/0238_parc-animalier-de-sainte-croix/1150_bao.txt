@@ -14,10 +14,10 @@ fr.name: Bao
 fr.nicknames: none
 fr.othernames: none
 gender: f
-jp.name: バオ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, cn, en, jp
+ja.name: バオ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, cn, en, ja
 litter: unknown
 location.1: unknown, 2014/6/21
 location.2: 238, 2015/3/6

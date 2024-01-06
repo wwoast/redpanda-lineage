@@ -8,10 +8,10 @@ en.name: Spring
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ハル
-jp.nicknames: none
-jp.othernames: 春
-language.order: en, jp
+ja.name: ハル
+ja.nicknames: none
+ja.othernames: 春
+language.order: en, ja
 litter: none
 photo.1: ig://BnJk7FTA9Rv/m
 photo.1.author: zooboise

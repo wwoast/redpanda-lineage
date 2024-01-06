@@ -9,10 +9,10 @@ en.name: Honey
 en.nicknames: none
 en.othernames: Hun-E
 gender: f
-jp.name: ハニー
-jp.nicknames: none
-jp.othernames: 蜂蜜
-language.order: en, jp
+ja.name: ハニー
+ja.nicknames: none
+ja.othernames: 蜂蜜
+language.order: en, ja
 litter: none
 location.1: 65, 2003/6/18
 location.2: 109, 2004/6/2

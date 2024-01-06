@@ -9,10 +9,10 @@ en.name: Piqi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ピチ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ピチ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 539
 location.1: 137, 2013/6/20
 location.2: 175, 2014/5/8

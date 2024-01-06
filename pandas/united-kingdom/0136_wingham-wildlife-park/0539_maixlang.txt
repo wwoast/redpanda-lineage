@@ -8,10 +8,10 @@ en.name: Mai Xlang
 en.nicknames: none
 en.othernames: Mai, Mei Ling, Meiling, Maixlang
 gender: f
-jp.name: 舞翔
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 舞翔
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 685
 location.1: 137, 2013/6/20
 location.2: 136, 2014/4/28

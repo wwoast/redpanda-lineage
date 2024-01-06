@@ -5,10 +5,10 @@ en.address: 1767−６ Ikeda, Suruga Ward, Shizuoka, Shizuoka Prefecture 422-800
 en.location: Shizuoka, Shizuoka Prefecture, Japan
 en.name: Shizuoka Municipal Nihondaira Zoo
 flag: Japan
-jp.address: 〒422-8005 静岡県静岡市駿河区池田1767−６
-jp.location: 静岡市 静岡県
-jp.name: 静岡市立日本平動物園
-language.order: jp, en
+ja.address: 〒422-8005 静岡県静岡市駿河区池田1767−６
+ja.location: 静岡市 静岡県
+ja.name: 静岡市立日本平動物園
+language.order: ja, en
 latitude: 34.9796519
 longitude: 138.4373118
 map: https://goo.gl/maps/wFRiaNci3Qu

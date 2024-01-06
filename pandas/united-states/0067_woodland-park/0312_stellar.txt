@@ -9,10 +9,10 @@ en.name: Stellar
 en.nicknames: none
 en.othernames: Neko
 gender: f
-jp.name: 恒星
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 恒星
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 442
 location.1: 82, 2007/6/26
 location.2: 67, 2008/12/11

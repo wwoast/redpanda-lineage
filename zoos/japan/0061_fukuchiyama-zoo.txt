@@ -5,10 +5,10 @@ en.address: 377-1 Izaki, Fukuchiyama, Kyoto Prefecture 620-0017, Japan
 en.location: Fukuchiyama, Japan
 en.name: Fukuchiyama Zoo
 flag: Japan
-jp.address: 〒620-0017 京都府福知山市猪崎377-1
-jp.location: 福知山市 京都府
-jp.name: 福知山市動物園
-language.order: jp, en
+ja.address: 〒620-0017 京都府福知山市猪崎377-1
+ja.location: 福知山市 京都府
+ja.name: 福知山市動物園
+language.order: ja, en
 latitude: 35.3101894
 longitude: 135.1364023
 map: https://goo.gl/maps/XZvhpftc9L72
