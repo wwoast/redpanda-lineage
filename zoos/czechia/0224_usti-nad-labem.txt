@@ -8,7 +8,7 @@ en.address: Drážďanská 454/23, 400 07 Ústí nad Labem-Neštěmice, Czechia
 en.location: Usti nad Labem, Czechia
 en.name: Ústí nad Labem Zoo
 flag: Czechia
-language.order: cz, en
+language.order: cs, en
 latitude: 50.6641324
 longitude: 14.059059
 map: https://goo.gl/maps/DAPqEVP5iqVhHfyQ8

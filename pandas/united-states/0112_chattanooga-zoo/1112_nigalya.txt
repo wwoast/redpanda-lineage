@@ -12,7 +12,7 @@ gender: m
 jp.name: にがりや
 jp.nicknames: none
 jp.othernames: none
-language.order: en, np, jp
+language.order: en, ne, jp
 litter: 1111
 location.1: 108, 1997/6/9
 location.2: 112, 1998/7/15

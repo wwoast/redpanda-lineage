@@ -11,7 +11,7 @@ gender: f
 jp.name: ケタ
 jp.nicknames: none
 jp.othernames: none
-language.order: en, np, jp
+language.order: en, ne, jp
 litter: 1162
 location.1: 207, 2015/12/10
 location.2: 205, 2018/1/1

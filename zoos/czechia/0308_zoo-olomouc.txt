@@ -9,7 +9,7 @@ en.address: Darwinova 222/29, 779 00 Olomouc, Czechia
 en.location: Olomouc, Czechia
 en.name: Zoo Olomouc
 flag: Czechia
-language.order: cz, en
+language.order: cs, en
 latitude: 49.6333831
 longitude: 17.343383
 map: https://goo.gl/maps/R2NxmHUbC563hEKF8

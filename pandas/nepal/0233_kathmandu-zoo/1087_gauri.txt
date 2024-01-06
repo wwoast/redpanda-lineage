@@ -11,7 +11,7 @@ gender: f
 jp.name: ガウリ
 jp.nicknames: none
 jp.othernames: none
-language.order: np, en, jp
+language.order: ne, en, jp
 litter: unknown
 ne.name: गौरी
 ne.nicknames: none

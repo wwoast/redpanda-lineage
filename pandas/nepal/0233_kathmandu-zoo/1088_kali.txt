@@ -11,7 +11,7 @@ gender: unknown
 jp.name: カーリー
 jp.nicknames: none
 jp.othernames: none
-language.order: np, en, jp
+language.order: ne, en, jp
 litter: 1089
 ne.name: काली
 ne.nicknames: none

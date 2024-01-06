@@ -14,7 +14,7 @@ hu.othernames: none
 jp.name: スパークア
 jp.nicknames: none
 jp.othernames: none
-language.order: en, hu, np, jp
+language.order: en, hu, ne, jp
 litter: unknown
 location.1: 220, 2020/6/22
 location.2: 286, 2021/7/17
