@@ -195,7 +195,7 @@ Pandas.def.authors = {
 // definition used within this project's code. The ordering here determines the
 // appearance of the buttons in the language menu.
 Pandas.def.languages = [
-  "en", "es", "ja", "ne", "pt", "zh"
+  "en", "ja", "zh", "ne", "pt", "es"
 ]
 
 // Character ranges
