@@ -70,7 +70,7 @@ Pandas.def.age = {
     "day": "日",
     "days": "日"
   },
-  "np": {
+  "ne": {
     "year": "बर्ष",
     "years": "बर्ष",
     "month": "महिना",
@@ -125,7 +125,7 @@ Pandas.def.date = {
   "en": "MM/DD/YYYY",
   "es": "DD/MM/YYYY",
   "jp": "YYYY年MM月DD日",
-  "np": "YYYY-MM-DD",
+  "ne": "YYYY-MM-DD",
   "pt": "DD/MM/YYYY",
   "earliest_year": "1970"
 }
@@ -135,7 +135,7 @@ Pandas.def.date_season = {
   "en": "SEASON YYYY",
   "es": "SEASON YYYY",
   "jp": "SEASON YYYY",
-  "np": "SEASON YYYY",
+  "ne": "SEASON YYYY",
   "pt": "SEASON YYYY",
   "earliest_year": "1970"
 }
@@ -146,7 +146,7 @@ Pandas.def.gender = {
     "en": "female",
     "es": "hembra",
     "jp": "メス",
-    "np": "महिला",
+    "ne": "महिला",
     "pt": "fêmea"
   },
   "Male": {
@@ -154,7 +154,7 @@ Pandas.def.gender = {
     "en": "male",
     "es": "macho",
     "jp": "オス",
-    "np": "नर",
+    "ne": "नर",
     "pt": "macho"
   }
 }
@@ -165,7 +165,7 @@ Pandas.def.no_name = {
   "en": "Unknown",
   "es": "Desconocido",
   "jp": "未詳",
-  "np": "अज्ञात",
+  "ne": "अज्ञात",
   "pt": "Desconhecido(a)"
 }
 
@@ -176,7 +176,7 @@ Pandas.def.authors = {
     "en": "anonymous",
     "es": "anónimo",
     "jp": "匿名",
-    "np": "बेनामी",
+    "ne": "बेनामी",
     "pt": "anônimo"
   },
   "uncredited": {
@@ -184,7 +184,7 @@ Pandas.def.authors = {
     "en": "uncredited",
     "es": "sin acreditar",
     "jp": "信用されていない",
-    "np": "अप्रत्याशित",
+    "ne": "अप्रत्याशित",
     "pt": "não creditado"
   }
 }
@@ -198,7 +198,7 @@ Pandas.def.languages = {
   "en": "en",
   "ja": "jp",
   "zh": "cn",
-  "ne": "np",
+  "ne": "ne",
   "es": "es",
   "pt": "pt"
 }
@@ -218,7 +218,7 @@ Pandas.def.ranges = {
     /[\uff00-\uffef]/,   // Japanese full-width romanji and half-width katakana
     /[\u4e00-\u9faf]/    // CJK unified Kanji set
   ],
-  "np": [
+  "ne": [
     /[\u0900-\u0954]/    // Devanghari unicode range
   ]
 }
@@ -230,7 +230,7 @@ Pandas.def.relations = {
     "en": "aunt",
     "es": "tía",
     "jp": "叔母",
-    "np": "काकी",
+    "ne": "काकी",
     "pt": "tia"
   },
   "brother": {
@@ -238,7 +238,7 @@ Pandas.def.relations = {
     "en": "brother",
     "es": "hermano",
     "jp": "兄",
-    "np": "भाई",
+    "ne": "भाई",
     "pt": "irmão"
   },
   "children": {
@@ -246,7 +246,7 @@ Pandas.def.relations = {
     "en": "children",
     "es": "niños",
     "jp": "子供",
-    "np": "बच्चाहरु",
+    "ne": "बच्चाहरु",
     "pt": "filhos(as)"
   },
   "cousin": {
@@ -254,7 +254,7 @@ Pandas.def.relations = {
     "en": "cousin",
     "es": "primo",
     "jp": "いとこ",
-    "np": "भान्जा",
+    "ne": "भान्जा",
     "pt": "primo(a)"
   },
   "father": {
@@ -262,7 +262,7 @@ Pandas.def.relations = {
     "en": "father",
     "es": "padre",
     "jp": "父",
-    "np": "बुबा",
+    "ne": "बुबा",
     "pt": "pai"
   },
   "grandfather": {
@@ -270,7 +270,7 @@ Pandas.def.relations = {
     "en": "grandfather",
     "es": "abuelo",
     "jp": "おじいちゃん",
-    "np": "हजुरबुबा",
+    "ne": "हजुरबुबा",
     "pt": "avô"
   },
   "grandmother": {
@@ -278,7 +278,7 @@ Pandas.def.relations = {
     "en": "grandmother",
     "es": "abuela",
     "jp": "おばあちゃん",
-    "np": "हजुरआमा",
+    "ne": "हजुरआमा",
     "pt": "avó"
   },
   "litter": {
@@ -286,7 +286,7 @@ Pandas.def.relations = {
     "en": "litter",
     "es": "camada",
     "jp": "双子",   /* "同腹仔" */
-    "np": "रोटी",
+    "ne": "रोटी",
     "pt": "ninhada"
   },
   "mother": {
@@ -294,7 +294,7 @@ Pandas.def.relations = {
     "en": "mother",
     "es": "madre",
     "jp": "母",
-    "np": "आमा",
+    "ne": "आमा",
     "pt": "mãe"
   },
   "nephew": {
@@ -302,7 +302,7 @@ Pandas.def.relations = {
     "en": "nephew",
     "es": "sobrino",
     "jp": "甥",
-    "np": "भतिजा",
+    "ne": "भतिजा",
     "pt": "sobrinho"
   },
   "niece": {
@@ -310,7 +310,7 @@ Pandas.def.relations = {
     "en": "niece",
     "es": "sobrina",
     "jp": "姪",
-    "np": "भान्जी",
+    "ne": "भान्जी",
     "pt": "sobrinha"
   },
   "parents": {
@@ -318,7 +318,7 @@ Pandas.def.relations = {
     "en": "parents",
     "es": "padres",
     "jp": "両親",
-    "np": "अभिभावक",
+    "ne": "अभिभावक",
     "pt": "pais"
   },
   "sister": {
@@ -326,7 +326,7 @@ Pandas.def.relations = {
     "en": "sister",
     "es": "hermana",
     "jp": "姉",
-    "np": "बहिनी",
+    "ne": "बहिनी",
     "pt": "irmã"
   },
   "siblings": {
@@ -334,7 +334,7 @@ Pandas.def.relations = {
     "en": "siblings",
     "es": "hermanos",
     "jp": "兄弟",
-    "np": "भाइबहिनीहरू",
+    "ne": "भाइबहिनीहरू",
     "pt": "irmãos(ãs)"
   },
   "uncle": {
@@ -342,7 +342,7 @@ Pandas.def.relations = {
     "en": "uncle",
     "es": "tío",
     "jp": "叔父",
-    "np": "काका",
+    "ne": "काका",
     "pt": "tio"
   }
 }
@@ -368,7 +368,7 @@ Pandas.def.species = {
     "シセンレッサーパンダ",
     "未詳レッサーパンダ"
   ],
-  "np": [
+  "ne": [
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
@@ -385,7 +385,7 @@ Pandas.def.unknown = {
   "en": "unknown",
   "es": "desconocido",
   "jp": "未詳",
-  "np": "अज्ञात",
+  "ne": "अज्ञात",
   "pt": "desconhecido"
 }
 
