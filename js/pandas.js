@@ -38,14 +38,6 @@ Pandas.init = function() {
     Defaults for a panda or zoo if a piece of information is missing
 */
 Pandas.def.age = {
-  "cn": {
-    "year": "年",
-    "years": "年",
-    "month": "月",
-    "months": "月",
-    "day": "天",
-    "days": "天"
-  },
   "en": {
     "year": "year",
     "years": "years",
@@ -85,6 +77,14 @@ Pandas.def.age = {
     "months": "meses",
     "day": "dia",
     "days": "dias"
+  },
+  "zh": {
+    "year": "年",
+    "years": "年",
+    "month": "月",
+    "months": "月",
+    "day": "天",
+    "days": "天"
   }
 }
 
@@ -93,9 +93,6 @@ Pandas.def.animal = {
   "birthday": "1970/1/1",
   "birthplace": "0",
   "children": "0",
-  "cn.name": "TOWRITE",
-  "cn.nicknames": "TOWRITE",
-  "cn.othernames": "TOWRITE",
   "death": "1970/1/1",
   "en.name": "Panda Not Found",
   "en.nicknames": "No Nicknames Recorded",
@@ -117,75 +114,78 @@ Pandas.def.animal = {
   "pt.othernames": "Nenhum nome alternativo registrado",
   "species": "-1",
   "video.1": "images/no-panda-portrait.jpg",
+  "zh.name": "TOWRITE",
+  "zh.nicknames": "TOWRITE",
+  "zh.othernames": "TOWRITE",
   "zoo": "0"
 }
 
 Pandas.def.date = {
-  "cn": "YYYY-MM-DD",
+  "earliest_year": "1970",
   "en": "MM/DD/YYYY",
   "es": "DD/MM/YYYY",
   "jp": "YYYY年MM月DD日",
   "ne": "YYYY-MM-DD",
   "pt": "DD/MM/YYYY",
-  "earliest_year": "1970"
+  "zh": "YYYY-MM-DD"
 }
 
 Pandas.def.date_season = {
-  "cn": "SEASON YYYY",
+  "earliest_year": "1970",
   "en": "SEASON YYYY",
   "es": "SEASON YYYY",
   "jp": "SEASON YYYY",
   "ne": "SEASON YYYY",
   "pt": "SEASON YYYY",
-  "earliest_year": "1970"
+  "zh": "SEASON YYYY"
 }
 
 Pandas.def.gender = {
   "Female": {
-    "cn": "女",
     "en": "female",
     "es": "hembra",
     "jp": "メス",
     "ne": "महिला",
-    "pt": "fêmea"
+    "pt": "fêmea",
+    "zh": "女"
   },
   "Male": {
-    "cn": "男",
     "en": "male",
     "es": "macho",
     "jp": "オス",
     "ne": "नर",
-    "pt": "macho"
+    "pt": "macho",
+    "zh": "男"
   }
 }
 
 // Used for missing mothers and fathers, where capitalization is needed
 Pandas.def.no_name = {
-  "cn": "不明",
   "en": "Unknown",
   "es": "Desconocido",
   "jp": "未詳",
   "ne": "अज्ञात",
-  "pt": "Desconhecido(a)"
+  "pt": "Desconhecido(a)",
+  "zh": "不明"
 }
 
 // Missing or undescribed authors
 Pandas.def.authors = {
   "anonymous": {
-    "cn": "匿名",
     "en": "anonymous",
     "es": "anónimo",
     "jp": "匿名",
     "ne": "बेनामी",
-    "pt": "anônimo"
+    "pt": "anônimo",
+    "zh": "匿名"
   },
   "uncredited": {
-    "cn": "沒有信用",
     "en": "uncredited",
     "es": "sin acreditar",
     "jp": "信用されていない",
     "ne": "अप्रत्याशित",
-    "pt": "não creditado"
+    "pt": "não creditado",
+    "zh": "沒有信用"
   }
 }
 
@@ -197,7 +197,7 @@ Pandas.def.authors = {
 Pandas.def.languages = {
   "en": "en",
   "ja": "jp",
-  "zh": "cn",
+  "zh": "zh",
   "ne": "ne",
   "es": "es",
   "pt": "pt"
@@ -226,133 +226,128 @@ Pandas.def.ranges = {
 // Used for slip-ins in Panda dossiers for brothers/sisters/moms
 Pandas.def.relations = {
   "aunt": {
-    "cn": "姑媽",
     "en": "aunt",
     "es": "tía",
     "jp": "叔母",
     "ne": "काकी",
-    "pt": "tia"
+    "pt": "tia",
+    "zh": "姑媽"
   },
   "brother": {
-    "cn": "兄",
     "en": "brother",
     "es": "hermano",
     "jp": "兄",
     "ne": "भाई",
-    "pt": "irmão"
+    "pt": "irmão",
+    "zh": "兄"
   },
   "children": {
-    "cn": "孩子",
     "en": "children",
     "es": "niños",
     "jp": "子供",
     "ne": "बच्चाहरु",
-    "pt": "filhos(as)"
+    "pt": "filhos(as)",
+    "zh": "孩子"
   },
   "cousin": {
-    "cn": "表姐",
     "en": "cousin",
     "es": "primo",
     "jp": "いとこ",
     "ne": "भान्जा",
-    "pt": "primo(a)"
+    "pt": "primo(a)",
+    "zh": "表姐"
   },
   "father": {
-    "cn": "父",
     "en": "father",
     "es": "padre",
     "jp": "父",
     "ne": "बुबा",
-    "pt": "pai"
+    "pt": "pai",
+    "zh": "父"
   },
   "grandfather": {
-    "cn": "祖父",
     "en": "grandfather",
     "es": "abuelo",
     "jp": "おじいちゃん",
     "ne": "हजुरबुबा",
-    "pt": "avô"
+    "pt": "avô",
+    "zh": "祖父"
   },
   "grandmother": {
-    "cn": "祖母",
     "en": "grandmother",
     "es": "abuela",
     "jp": "おばあちゃん",
     "ne": "हजुरआमा",
-    "pt": "avó"
+    "pt": "avó",
+    "zh": "祖母"
   },
   "litter": {
-    "cn": "轿子",
     "en": "litter",
     "es": "camada",
     "jp": "双子",   /* "同腹仔" */
     "ne": "रोटी",
-    "pt": "ninhada"
+    "pt": "ninhada",
+    "zh": "轿子"
   },
   "mother": {
-    "cn": "母",
     "en": "mother",
     "es": "madre",
     "jp": "母",
     "ne": "आमा",
-    "pt": "mãe"
+    "pt": "mãe",
+    "zh": "母"
   },
   "nephew": {
-    "cn": "外甥",
     "en": "nephew",
     "es": "sobrino",
     "jp": "甥",
     "ne": "भतिजा",
-    "pt": "sobrinho"
+    "pt": "sobrinho",
+    "zh": "外甥"
   },
   "niece": {
-    "cn": "侄女",
     "en": "niece",
     "es": "sobrina",
     "jp": "姪",
     "ne": "भान्जी",
-    "pt": "sobrinha"
+    "pt": "sobrinha",
+    "zh": "侄女"
   },
   "parents": {
-    "cn": "父母",
     "en": "parents",
     "es": "padres",
     "jp": "両親",
     "ne": "अभिभावक",
-    "pt": "pais"
+    "pt": "pais",
+    "zh": "父母"
   },
   "sister": {
-    "cn": "妹妹",
     "en": "sister",
     "es": "hermana",
     "jp": "姉",
     "ne": "बहिनी",
-    "pt": "irmã"
+    "pt": "irmã",
+    "zh": "妹妹"
   },
   "siblings": {
-    "cn": "兄弟姐妹",
     "en": "siblings",
     "es": "hermanos",
     "jp": "兄弟",
     "ne": "भाइबहिनीहरू",
-    "pt": "irmãos(ãs)"
+    "pt": "irmãos(ãs)",
+    "zh": "兄弟姐妹"
   },
   "uncle": {
-    "cn": "叔叔",
     "en": "uncle",
     "es": "tío",
     "jp": "叔父",
     "ne": "काका",
-    "pt": "tio"
+    "pt": "tio",
+    "zh": "叔叔"
   }
 }
 
 Pandas.def.species = {
-  "cn": [
-    "Ailurus fulgens fulgens",
-    "Ailurus fulgens styani",
-    "Ailurus fulgens"
-  ],
   "en": [
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
@@ -377,24 +372,26 @@ Pandas.def.species = {
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
+  ],
+  "zh": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ]
 }
 
 Pandas.def.unknown = {
-  "cn": "不明",
   "en": "unknown",
   "es": "desconocido",
   "jp": "未詳",
   "ne": "अज्ञात",
-  "pt": "desconhecido"
+  "pt": "desconhecido",
+  "zh": "不明"
 }
 
 // Slightly different default zoo listing, to account for wild-born animals
 Pandas.def.wild = {
   "_id": "wild.0",
-  "cn.address": "TOWRITE",
-  "cn.location": "TOWRITE",
-  "cn.name": "TOWRITE",
   "en.address": "Captured or Rescued Wild Animal",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
@@ -412,15 +409,15 @@ Pandas.def.wild = {
   "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
   "pt.name": "Zoológico não encontrado",
   "video.1": "images/no-zoo.jpg",
-  "website": "https://www.worldwildlife.org/"
+  "website": "https://www.worldwildlife.org/",
+  "zh.address": "TOWRITE",
+  "zh.location": "TOWRITE",
+  "zh.name": "TOWRITE",
 }
 
 Pandas.def.zoo = {
   "_id": "0",
   "closed": "1970/1/1",
-  "cn.address": "TOWRITE",
-  "cn.location": "TOWRITE",
-  "cn.name": "TOWRITE",
   "en.address": "No Google Maps Address Recorded",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
@@ -438,7 +435,10 @@ Pandas.def.zoo = {
   "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
   "pt.name": "Zoológico não encontrado",
   "video.1": "images/no-zoo.jpg",
-  "website": "https://www.worldwildlife.org/"
+  "website": "https://www.worldwildlife.org/",
+  "zh.address": "TOWRITE",
+  "zh.location": "TOWRITE",
+  "zh.name": "TOWRITE",
 }
 
 /*
