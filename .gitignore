@@ -1,3 +1,5 @@
+/contributions.conf
 /export
+/submissions
 **.pyc
 __pycache__
