@@ -7,7 +7,7 @@ services:
     build:
       context: .
     ports:
-      - "80:80"
+      - "8080:80"
     volumes:
       - ./js:/usr/share/nginx/html/js
       - ./css:/usr/share/nginx/html/css
