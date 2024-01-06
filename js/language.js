@@ -35,12 +35,12 @@ Language.init = function() {
 // but not Japanese -- so we should fall back to English for them, despite
 // what an entity's preferred language order might be.
 Language.L.bias = {
-  "zh": ["latin"],
   "en": [],
   "es": ["latin"],
   "jp": ["latin"],
   "ne": ["latin"],
-  "pt": ["latin"]
+  "pt": ["latin"],
+  "zh": ["latin"]
 }
 
 // Types of alphabets, so we can fall back to an alphabet that someone
@@ -48,7 +48,7 @@ Language.L.bias = {
 // we opt to fall back to latin languages since that alphabet is more
 // widely understood
 Language.alphabets = {
-  "cjk": ["zh", "jp", "ko"],
+  "cjk": ["jp", "ko", "zh"],
   "cyrillic": ["ru"],
   "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "sv"],
 }
@@ -102,28 +102,28 @@ Language.charset = {
 // would otherwise be ambiguity in the dates
 Language.L.date_locale = {
   "mm_dd": {
-    "zh": "mm_dd",
     "en": "mm_dd",
     "es": "dd_mm",
     "jp": "mm_dd",
     "ne": "mm_dd",
-    "pt": "dd_mm"
+    "pt": "dd_mm",
+    "zh": "mm_dd"
   },
   "yy_mm": {
-    "zh": "yyyy_mm",
     "en": "mm_yyyy",
     "es": "mm_yyyy",
     "jp": "yyyy_mm",
     "ne": "yyyy_mm",
-    "pt": "mm_yyyy"
+    "pt": "mm_yyyy",
+    "zh": "yyyy_mm"
   },
   "yy_mm_dd": {
-    "zh": "yyyy_mm_dd",
     "en": "mm_dd_yyyy",
     "es": "dd_mm_yyyy",
     "jp": "yyyy_mm_dd",
     "ne": "yyyy_mm_dd",
-    "pt": "dd_mm_yyyy"
+    "pt": "dd_mm_yyyy",
+    "zh": "yyyy_mm_dd"
   }
 }
 
@@ -307,156 +307,141 @@ Language.L.flags = {
 
 Language.L.gui = {
   "about": {
-    "zh": "关于",
     "en": "About",
     "es": "Acerca\xa0de",
     "jp": "概要",
     "ne": "बारेमा",
-    "pt": "Sobre"
+    "pt": "Sobre",
+    "zh": "关于"
   },
   "autumn": {
-    "zh": "秋",
     "en": "Autumn",
     "es": "Otoño",
     "jp": "秋",
     "ne": "शरद तु",
-    "pt": "Outono"
+    "pt": "Outono",
+    "zh": "秋"
   },
   "babies": {
-    "zh": "婴儿",
     "en": "Babies",
     "es": "Bebés",
     "jp": "乳幼児",
     "ne": "बच्चाहरु",
-    "pt": "Bebês"
+    "pt": "Bebês",
+    "zh": "婴儿"
   },
   "children": {
-    "zh": Pandas.def.relations.children["zh"],
     "en": "Children",   // Capitalization
     "es": "Niños",
     "jp": Pandas.def.relations.children["jp"],
     "ne": "बच्चाहरु",
-    "pt": "Filhos(as)"
+    "pt": "Filhos(as)",
+    "zh": Pandas.def.relations.children["zh"]
   },
   "contribute": {
-    "zh": "上传照片",
     "en": "Submit a Photo",
     "es": "Enviar una foto",
     "jp": "写真を提出する",
     "ne": "फोटो पेश गर्नुहोस्",
-    "pt": "Enviar uma foto"
+    "pt": "Enviar uma foto",
+    "zh": "上传照片"
   },
   "contribute_link": {
     "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
     "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
   },
   "copied": {
-    "zh": "复制二维码链接",
     "en": "Copied QR code link",
     "es": "Enlace copiado",
     "jp": "リンク先をコピー",
     "ne": "QR कोड लिङ्क प्रतिलिपि गरियो",
-    "pt": "Link copiado"
+    "pt": "Link copiado",
+    "zh": "复制二维码链接"
   },
   "fall": {
-    "zh": "秋",   // Convenience duplicate of autumn
     "en": "Autumn",
     "es": "Otoño",
     "jp": "秋",
     "ne": "शरद तु",
-    "pt": "Outono"
+    "pt": "Outono",
+    "zh": "秋",   // Convenience duplicate of autumn
   },
   "family": {
-    "zh": "家族",
     "en": "Family",
     "es": "Familia",
     "jp": "ファミリ",
     "ne": "परिवार",
-    "pt": "Família"
+    "pt": "Família",
+    "zh": "家族"
   },
   "father": {
-    "zh": "父亲",
     "en": "Father",
     "es": "Padre",
     "jp": "父",
     "ne": "बुबा",
-    "pt": "Pai"
+    "pt": "Pai",
+    "zh": "父亲",
   },
   "flag": {
-    "zh": Language.L.flags["China"],
     "en": Language.L.flags["USA"],
     "es": Language.L.flags["Spain"],
     "jp": Language.L.flags["Japan"],
     "ne": Language.L.flags["Nepal"],
-    "pt": Language.L.flags["Portugal"]
+    "pt": Language.L.flags["Portugal"],
+    "zh": Language.L.flags["China"]
   },
   "footerLink_rpf": {
-    "zh": "小熊猫族谱项目",
     "en": "Red Panda Lineage",
     "es": "Red Panda Lineage",
     "jp": "Red Panda Lineage",
     "ne": "Red Panda Lineage",
-    "pt": "Red Panda Lineage"
+    "pt": "Red Panda Lineage",
+    "zh": "小熊猫族谱项目"
   },
   "footerLink_rpn": {
-    "zh": "Red Panda Network",
     "en": "Red Panda Network",
     "es": "Red Panda Network",
     "jp": "Red Panda Network",
     "ne": "Red Panda Network",
-    "pt": "Red Panda Network"
+    "pt": "Red Panda Network",
+    "zh": "Red Panda Network"
   },
   "home": {
-    "zh": "主页",
     "en": "Home",
     "es": "Home",
     "jp": "ホーム",
     "ne": "होमपेज",
-    "pt": "Início"
+    "pt": "Início",
+    "zh": "主页"
   },
   "instagramLinks_body": {
-    "zh": "",
     "en": "Without all the dedicated and loving Instagram red panda fans I " +
           "know, this site would not exist. Thank you so much!",
     "es": "",
     "jp": "",
     "ne": "",
     "pt": "Sem todos os dedicados e adoráveis fãs de pandas-vermelhos do " +
-          "Instagram que conheço, este site não existiria. Agradeço muito!"
+          "Instagram que conheço, este site não existiria. Agradeço muito!",
+    "zh": ""
   },
   "instagramLinks_button": {
-    "zh": "IG",
     "en": "Instagram",
     "es": "Instagram",
     "jp": "インスタグラム",
     "ne": "Instagram",
-    "pt": "Instagram"
+    "pt": "Instagram",
+    "zh": "IG"
   },
   "instagramLinks_header": {
-    "zh": "Instagram 小熊猫",
     "en": "Red Pandas on Instagram",
     "es": "Pandas rojos en Instagram",
     "jp": "Instagram レッサーパンダ",
     "ne": "Instagram निगल्य पोन्या",
-    "pt": "Pandas-vermelhos no Instagram"
+    "pt": "Pandas-vermelhos no Instagram",
+    "zh": "Instagram 小熊猫"
   },
   "language": {
-    "zh": {
-      "zh": "汉语",
-      "de": "德语",
-      "en": "英语",
-      "es": "西班牙语",
-      "fr": "法语",
-      "jp": "日语",
-      "ko": "朝鮮语",
-      "ne": "尼泊尔语",
-      "pl": "波兰语",
-      "pt": "葡萄牙语",
-      "ru": "俄语",
-      "sv": "瑞典"
-    },
     "en": {
-      "zh": "Chinese",
       "de": "German",
       "en": "English",
       "es": "Spanish",
@@ -467,10 +452,10 @@ Language.L.gui = {
       "pl": "Polish",
       "pt": "Portuguese",
       "ru": "Russian",
-      "sv": "Swedish"
+      "sv": "Swedish",
+      "zh": "Chinese"
     },
     "es": {
-      "zh": "Chino",
       "de": "Alemán",
       "en": "Ingles",
       "es": "Español",
@@ -481,10 +466,10 @@ Language.L.gui = {
       "pl": "Polaco",
       "pt": "Portugués",
       "ru": "Ruso",
-      "sv": "Sueco"
+      "sv": "Sueco",
+      "zh": "Chino"
     },
     "jp": {
-      "zh": "中国語",
       "de": "ドイツ語",
       "en": "英語",
       "es": "スペイン語",
@@ -495,10 +480,10 @@ Language.L.gui = {
       "pl": "ポーランド語",
       "pt": "ポルトガル語",
       "ru": "ロシア語",
-      "sv": "スウェーデン"
+      "sv": "スウェーデン",
+      "zh": "中国語"
     },
     "ne": {
-      "zh": "चिनियाँ",
       "de": "जर्मन",
       "en": "अंग्रेजी",
       "es": "स्पनिश",
@@ -509,10 +494,10 @@ Language.L.gui = {
       "pl": "पोलिश",
       "pt": "पोर्तुगाली",
       "ru": "रसियन",
-      "sv": "स्वीडिश"
+      "sv": "स्वीडिश",
+      "zh": "चिनियाँ"
     },
     "pt": {
-      "zh": "Chinês",
       "de": "Alemão",
       "en": "Inglês",
       "es": "Espanhol",
@@ -523,10 +508,10 @@ Language.L.gui = {
       "pl": "Polonês",
       "pt": "Português",
       "ru": "Russo",
-      "sv": "Sueco"
+      "sv": "Sueco",
+      "zh": "Chinês"
     },
     "ru": {
-      "zh": "китайский",
       "de": "немецкий",
       "en": "английский",
       "es": "испанский",
@@ -537,10 +522,10 @@ Language.L.gui = {
       "pl": "польский",
       "pt": "португа́льский",
       "ru": "русский",
-      "sv": "шведский"
+      "sv": "шведский",
+      "zh": "китайский"
     },
     "sv": {
-      "zh": "Kinesiskt",
       "de": "Tyska",
       "en": "Engelska",
       "es": "Spanska",
@@ -551,313 +536,325 @@ Language.L.gui = {
       "pl": "Polska",
       "pt": "Portugisiska",
       "ru": "Ryska",
-      "sv": "Svenska"
-    }
+      "sv": "Svenska",
+      "zh": "Kinesiskt"
+    },
+    "zh": {
+       "de": "德语",
+       "en": "英语",
+       "es": "西班牙语",
+       "fr": "法语",
+       "jp": "日语",
+       "ko": "朝鮮语",
+       "ne": "尼泊尔语",
+       "pl": "波兰语",
+       "pt": "葡萄牙语",
+       "ru": "俄语",
+       "sv": "瑞典",
+       "zh": "汉语"
+     } 
   },
   "loading": {
-    "zh": "加载中...",
     "en": "Loading...",
     "es": "Cargando",
     "jp": "ローディング",
     "ne": "लोड",
-    "pt": "Carregando..."
+    "pt": "Carregando...",
+    "zh": "加载中..."
   },
   "litter": {
-    "zh": Pandas.def.relations.litter["zh"],
     "en": "Litter",   // Capitalization
     "es": "Camada",
     "jp": Pandas.def.relations.litter["jp"],
     "ne": "रोटी",
-    "pt": "Ninhada"
+    "pt": "Ninhada",
+    "zh": Pandas.def.relations.litter["zh"]
   },
   "links": {
-    "zh": "链接",
     "en": "Links",
     "es": "Enlaces",
     "jp": "リンク",
     "ne": "लिंक",
-    "pt": "Links"
+    "pt": "Links",
+    "zh": "链接"
   },
   "me": {
-    "zh": "我",
     "en": "Me",
     "es": "Me",
     "jp": "私",
     "ne": "म",
-    "pt": "Eu"
+    "pt": "Eu",
+    "zh": "我"
   },
   "media": {
-    "zh": "媒体",
     "en": "Media",
     "es": "Imagenes",
     "jp": "メディア",
     "ne": "मिडिया",
-    "pt": "Imagens"
+    "pt": "Imagens",
+    "zh": "媒体"
   },
   "mother": {
-    "zh": "母亲",
     "en": "Mother",
     "es": "Madre",
     "jp": "母",
     "ne": "आमा",
-    "pt": "Mãe"
+    "pt": "Mãe",
+    "zh": "母亲"
   },
   "nicknames": {
-    "zh": "昵称",
     "en": "Nicknames",
     "es": "Apodos",
     "jp": "ニックネーム",
     "ne": "उपनामहरू",
-    "pt": "Apelidos"
+    "pt": "Apelidos",
+    "zh": "昵称"
   },
   "othernames": {
-    "zh": "其他名称",
     "en": "Other Names",
     "es": "Otros nombres",
     "jp": "他の名前",
     "ne": "अरु नामहरु",
-    "pt": "Outros nomes"
+    "pt": "Outros nomes",
+    "zh": "其他名称"
   },
   "paging": {
-    "zh": "更多",
     "en": "More",
     "es": "Ver Más",
     "jp": "もっと",
     "ne": "अधिक",
-    "pt": "Mais"
+    "pt": "Mais",
+    "zh": "更多"
   },
   "parents": {
-    "zh": Pandas.def.relations.parents["zh"],
     "en": "Parents",   // Capitalization
     "es": "Padres",
     "jp": Pandas.def.relations.parents["jp"],
     "ne": "अभिभावक",
-    "pt": "Pais"
+    "pt": "Pais",
+    "zh": Pandas.def.relations.parents["zh"]
   },
   "profile": {
-    "zh": "档案",
     "en": "Profile",
     "es": "Perfil",
     "jp": "プロフィール",
     "ne": "प्रोफाइल",
-    "pt": "Perfil"
+    "pt": "Perfil",
+    "zh": "档案"
   },
   "quadruplet": {
-    "zh": "四胞胎",
     "en": "Quadruplet",
     "es": "Cuatrillizo",
     "jp": "四つ子",
     "ne": "प्रोफाइल",
-    "pt": "Quadrigêmeos"
+    "pt": "Quadrigêmeos",
+    "zh": "四胞胎"
   },
   "random": {
-    "zh": "随机",
     "en": "Random",
     "es": "Aleatorio",
     "jp": "適当",
     "ne": "अनियमित",
-    "pt": "Aleatório"
+    "pt": "Aleatório",
+    "zh": "随机"
   },
   "redPandaCommunity_body": {
-    "zh": "",
     "en": "",
     "es": "",
     "jp": "",
     "ne": "",
-    "pt": ""
+    "pt": "",
+    "zh": ""
   },
   "redPandaCommunity_button": {
-    "zh": "社区",
     "en": "Community",
     "es": "Comunidad",
     "jp": "共同体",
     "ne": "समुदाय",
-    "pt": "Comunidade"
+    "pt": "Comunidade",
+    "zh": "社区"
   },
   "redPandaCommunity_header": {
-    "zh": "小熊猫社区",
     "en": "Red Panda Community",
     "es": "Comunidad del Panda Rojo",
     "jp": "レッサーパンダの共同体",
     "ne": "निगल्य पोन्या समुदाय",
-    "pt": "Comunidade do Panda-Vermelho"
+    "pt": "Comunidade do Panda-Vermelho",
+    "zh": "小熊猫社区"
   },
   "refresh": {
-    "zh": "刷新",
     "en": "Refresh",
     "es": "Refrescar",
     "jp": "リロード",
     "ne": "ताजा गर्नु",
-    "pt": "Atualizar"
+    "pt": "Atualizar",
+    "zh": "刷新"
   },
   "search": {
-    "zh": "搜索...",
     "en": "Search...",
     "es": "Buscar...",
     "jp": "サーチ...",
     "ne": "खोज्नु",
-    "pt": "Pesquisar..."
+    "pt": "Pesquisar...",
+    "zh": "搜索..."
   },
   "seen_date": {
-    "zh": "目击日期 <INSERTDATE>",
     "en": "Seen <INSERTDATE>",
     "es": "Visto <INSERTDATE>",
     "jp": "TOWRITE <INSERTDATE>",
     "ne": "TOWRITE <INSERTDATE>",
-    "pt": "Visto em <INSERTDATE>"
+    "pt": "Visto em <INSERTDATE>",
+    "zh": "目击日期 <INSERTDATE>",
   },
   "siblings": {
-    "zh": Pandas.def.relations.siblings["zh"],
     "en": "Siblings",   // Capitalization,
     "es": "Hermanos",
     "jp": Pandas.def.relations.siblings["jp"],
     "ne": "भाइबहिनीहरू",
-    "pt": "Irmão(ãs)"
+    "pt": "Irmão(ãs)",
+    "zh": Pandas.def.relations.siblings["zh"]
   },
   "since_date": {
-    "zh": "自 <INSERTDATE>",
     "en": "Since <INSERTDATE>",
     "es": "Ya que <INSERTDATE>",
     "jp": "<INSERTDATE>から",
     "ne": "<INSERTDATE>देखि",
-    "pt": "Desde <INSERTDATE>"
+    "pt": "Desde <INSERTDATE>",
+    "zh": "自 <INSERTDATE>"
   },
   "specialThanksLinks_body": {
-    "zh": "",
     "en": "",
     "es": "",
     "jp": "",
     "ne": "",
-    "pt": ""
+    "pt": "",
+    "zh": ""
   },
   "specialThanksLinks_button": {
-    "zh": "鸣谢",
     "en": "Special Thanks",
     "es": "Agradecimientos",
     "jp": "感佩",
     "ne": "विशेष धन्यवाद",
-    "pt": "Agradecimentos"
+    "pt": "Agradecimentos",
+    "zh": "鸣谢"
   },
   "specialThanksLinks_header": {
-    "zh": "鸣谢",
     "en": "Special Thanks",
     "es": "Agradecimientos Especiales",
     "jp": "感佩",
     "ne": "विशेष धन्यवाद",
-    "pt": "Agradecimentos Especiais"
+    "pt": "Agradecimentos Especiais",
+    "zh": "鸣谢"
   },
   "spring": {
-    "zh": "春",
     "en": "Spring",
     "es": "Primavera",
     "jp": "春",
     "ne": "वसन्त",
-    "pt": "Primavera"
+    "pt": "Primavera",
+    "zh": "春"
   },
   "summer": {
-    "zh": "夏",
     "en": "Summer",
     "es": "Verano",
     "jp": "夏",
     "ne": "गर्मी",
-    "pt": "Verão"
+    "pt": "Verão",
+    "zh": "夏"
   },
   "title": {
-    "zh": "查找小熊猫",
     "en": "Red Panda Finder",
     "es": "Buscador de Panda Rojo",
     "jp": "レッサーパンダのファインダー",
     "ne": "निगल्या पोनिया मित्र",
-    "pt": "Buscador de Pandas-Vermelhos"
+    "pt": "Buscador de Pandas-Vermelhos",
+    "zh": "查找小熊猫"
   },
   "top": {
-    "zh": "顶部",
     "en": "Top",
     "es": "Arriba",
     "jp": "上",
     "ne": "माथि",
-    "pt": "Para\xa0cima"
+    "pt": "Para\xa0cima",
+    "zh": "顶部"
   },
   "tree": {
-    "zh": "树",
     "en": "Tree",
     "es": "Árbol",
     "jp": "木",
     "ne": "रूख",
-    "pt": "Árvore"
+    "pt": "Árvore",
+    "zh": "树"
   },
   "twin": {
-    "zh": "双胞胎",
     "en": "Twin",
     "es": "Mellizo",
     "jp": "双子",
     "ne": "जुम्ल्याहा",
-    "pt": "Gêmeo"
+    "pt": "Gêmeo",
+    "zh": "双胞胎"
   },
   "triplet": {
-    "zh": "三胞胎",
     "en": "Triplet",
     "es": "Trillizo",
     "jp": "三つ子",
     "ne": "तीनवटा",
-    "pt": "Trigêmeo"
+    "pt": "Trigêmeo",
+    "zh": "三胞胎"
   },
   "winter": {
-    "zh": "冬",
     "en": "Winter",
     "es": "Invierno",
     "jp": "冬",
     "ne": "जाडो",
-    "pt": "Inverno"
+    "pt": "Inverno",
+    "zh": "冬"
   },
   "zooLinks_body": {
-    "zh": "",
     "en": "While many zoos are represented in this dataset, some of them are " +
           "hotspots for seeing Red Pandas.",
     "es": "",
     "jp": "",
     "ne": "",
-    "pt": ""
+    "pt": "",
+    "zh": ""
   },
   "zooLinks_button": {
-    "zh": "动物园",
     "en": "Zoos",
     "es": "Zoológicos",
     "jp": "動物園",
     "ne": "चिडियाखाना",
-    "pt": "Zoológicos"
+    "pt": "Zoológicos",
+    "zh": "动物园"
   },
   "zooLinks_header": {
-    "zh": "小熊猫动物园",
     "en": "Major Red Panda Zoos",
     "es": "Principales Zoológicos de Pandas Rojos",
     "jp": "レッサーパンダの動物園",
     "ne": "प्रमुख चिडियाखाना",
-    "pt": "Principais zoológicos com pandas-vermelhos"
+    "pt": "Principais zoológicos com pandas-vermelhos",
+    "zh": "小熊猫动物园"
   }
 }
 
 Language.L.messages = {
   "and": {
-    "zh": "和",
     "en": " & ",
     "es": " y ",
     "jp": "と",
     "ne": " र ",
-    "pt": " e "
+    "pt": " e ",
+    "zh": "和"
   },
   "and_words": {
-    "zh": "和",
     "en": " and ",
     "es": " y ",
     "jp": "と",
     "ne": " र ",
-    "pt": " e "
+    "pt": " e ",
+    "zh": "和"
   },
   "arrived_from_zoo": {
-    "zh": ["<INSERTDATE>",
-           "，来自",
-           "<INSERTZOO>"],
     "en": ["<INSERTDATE>",
            ", from ",
            "<INSERTZOO>"],
@@ -873,12 +870,12 @@ Language.L.messages = {
            "<INSERTZOO>"],
     "pt": ["<INSERTDATE>",
            ", desde ",
+           "<INSERTZOO>"],
+    "zh": ["<INSERTDATE>",
+           "，来自",
            "<INSERTZOO>"]
   },
   "autumn": {
-    "zh": [Language.L.emoji.autumn, 
-           " 变色的季节 ",
-           Language.L.emoji.autumn],
     "en": [Language.L.emoji.autumn,
            " Season of changing colors ",
            Language.L.emoji.autumn],
@@ -894,11 +891,11 @@ Language.L.messages = {
     "pt": [Language.L.emoji.autumn,
            " Estação de mudança de cores ",
            Language.L.emoji.autumn],
+    "zh": [Language.L.emoji.autumn, 
+           " 变色的季节 ",
+           Language.L.emoji.autumn]   
   },
   "baby_photos": {
-    "zh": [Language.L.emoji.baby,
-           " 珍贵的小天使 ",
-           Language.L.emoji.baby],
     "en": [Language.L.emoji.baby,
            " Precious little angels ",
            Language.L.emoji.baby],
@@ -913,13 +910,12 @@ Language.L.messages = {
            Language.L.emoji.baby],
     "pt": [Language.L.emoji.baby,
            " Anjinhos preciosos ",
+           Language.L.emoji.baby],
+    "zh": [Language.L.emoji.baby,
+           " 珍贵的小天使 ",
            Language.L.emoji.baby]
   },
   "birthday_overflow": {
-    "zh": [Language.L.emoji.fireworks,
-           " 今天",
-           "<INSERTCOUNT>",
-           "个生日！"],
     "en": [Language.L.emoji.fireworks,
            " ",
            "<INSERTCOUNT>",
@@ -939,12 +935,13 @@ Language.L.messages = {
     "pt": [Language.L.emoji.fireworks,
            " ",
            "<INSERTCOUNT>",
-           " aniversários hoje!"]
+           " aniversários hoje!"],
+    "zh": [Language.L.emoji.fireworks,
+           " 今天",
+           "<INSERTCOUNT>",
+           "个生日！"]
   },
   "closed": {
-    "zh": [Language.L.emoji.closed + " ",
-           "<INSERTDATE>",
-           "永久关闭"],
     "en": [Language.L.emoji.closed + " ", 
            "Permanently closed on ",
            "<INSERTDATE>"],
@@ -960,22 +957,20 @@ Language.L.messages = {
            "बन्द भयो"],
     "pt": [Language.L.emoji.closed + " ", 
            "Permanentemente fechado em ",
-           "<INSERTDATE>"]
+           "<INSERTDATE>"],
+    "zh": [Language.L.emoji.closed + " ",
+           "<INSERTDATE>",
+           "永久关闭"]
   },
   "comma": {
-    "zh": "及",
     "en": ", ",
     "es": ", ",
     "jp": "と",
     "ne": ", ",
-    "pt": ", "
+    "pt": ", ",
+    "zh": "及"
   },
   "credit": {
-    "zh": [Language.L.emoji.gift + " ",
-           "<INSERTUSER>",
-           "提供了",
-           "<INSERTNUMBER>",
-           "张照片。"],
     "en": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
            " has contributed ",
@@ -1000,16 +995,14 @@ Language.L.messages = {
            "<INSERTUSER>",
            " contribuiu com ",
            "<INSERTNUMBER>",
-           " fotos."]
-  },
-  "credit_animal_filter_single": {
+           " fotos."],
     "zh": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
            "提供了",
            "<INSERTNUMBER>",
-           "张",
-           "<INSERTNAME>",
-           "照片。"],
+           "张照片。"]
+  },
+  "credit_animal_filter_single": {
     "en": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
            " has contributed ",
@@ -1044,12 +1037,16 @@ Language.L.messages = {
            "<INSERTNUMBER>",
            " fotos de ",
            "<INSERTNAME>",
-           "."]
+           "."],
+    "zh": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "提供了",
+           "<INSERTNUMBER>",
+           "张",
+           "<INSERTNAME>",
+           "照片。"]
   },
   "departed_to_zoo": {
-    "zh": ["<INSERTDATE>",
-           "去",
-           "<INSERTZOO>"],
     "en": ["<INSERTZOO>",
            " on ",
            "<INSERTDATE>"],
@@ -1066,24 +1063,20 @@ Language.L.messages = {
            " मा"],
     "pt": ["<INSERTZOO>",
            " em ",
-           "<INSERTDATE>"]
+           "<INSERTDATE>"],
+    "zh": ["<INSERTDATE>",
+           "去",
+           "<INSERTZOO>"]
   },
   "find_a_nearby_zoo": {
-    "zh": [Language.L.emoji.globe_asia, " 寻找附近的动物园"],
     "en": [Language.L.emoji.globe_americas, " Find a zoo nearby!"],
     "es": [Language.L.emoji.globe_americas, " ¡Encuentra un zoológico cerca de ti!"],
     "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"],
     "ne": [Language.L.emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"],
-    "pt": [Language.L.emoji.globe_americas, " Encontre um zoológico próximo!"]
+    "pt": [Language.L.emoji.globe_americas, " Encontre um zoológico próximo!"],
+    "zh": [Language.L.emoji.globe_asia, " 寻找附近的动物园"]
   },
   "footer": {
-    "zh": ["如果你喜爱小熊猫，请支持小熊猫网络（",
-           "<INSERTLINK_RPN>",
-           "）以及你当地的动物园。",
-           "族谱数据归属于",
-           "<INSERTLINK_RPF>",
-           "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©2023 Justin Fairchild"],
     "en": ["If you love red pandas, please support ",
            "<INSERTLINK_RPN>",
            " as well as your local zoos. Lineage data courtesy of the ",
@@ -1091,7 +1084,7 @@ Language.L.messages = {
            " project, but linked media remains property of its creators. ",
            "Layout and design ©" +
            "\xa0" +
-           "2023 Justin Fairchild."],
+           "2024 Justin Fairchild."],
     "es": ["Si te encantan los pandas rojos, apoya a ",
            "<INSERTLINK_RPN>",
            " y a los zoológicos locales. Los datos sobre el linaje son cortesía del proyecto ",
@@ -1099,19 +1092,19 @@ Language.L.messages = {
            " pero los medios vinculados siguen siendo propiedad de sus creadores. ",
            " Maquetación y diseño ©" +
            "\xa0" + 
-           "2023 Justin Fairchild."],
+           "2024 Justin Fairchild."],
     "jp": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
            "<INSERTLINK_RPN>",
            "もサポートしてください。系統データは",
            "<INSERTLINK_RPF>",
            "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
-           "設計©2023 Justin Fairchild"],
+           "設計©2024 Justin Fairchild"],
     "ne": ["यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया ",
            "<INSERTLINK_RPN>",
            " साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। ",
            "<INSERTLINK_RPF>",
            " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
-           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२३ Justin Fairchild द्वारा।"],
+           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२४ Justin Fairchild द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
            " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
@@ -1119,14 +1112,16 @@ Language.L.messages = {
            ", mas as mídias linkadas seguem sendo propriedade de seus criadores. ",
            "Layout e design ©" +
            "\xa0" +
-           "2023 Justin Fairchild."]
+           "2024 Justin Fairchild."],
+    "zh": ["如果你喜爱小熊猫，请支持小熊猫网络（",
+           "<INSERTLINK_RPN>",
+           "）以及你当地的动物园。",
+           "族谱数据归属于",
+           "<INSERTLINK_RPF>",
+           "但相关媒介内容（如图片等）版权归属于原作者。",
+           "布局与设计©2024 Justin Fairchild"]
   },
   "found_animal": {
-    "zh": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           " has been found and is safe!"],
     "en": [Language.L.emoji.flower, " ",
            Language.L.emoji.see_and_say, 
            " ",
@@ -1151,18 +1146,14 @@ Language.L.messages = {
            Language.L.emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
-           " foi encontrado(a) e está a salvo!"]
+           " foi encontrado(a) e está a salvo!"],
+    "zh": [Language.L.emoji.flower, " ",
+           Language.L.emoji.see_and_say, 
+           " ",
+           "<INSERTNAME>",
+           " has been found and is safe!"]
   },
   "goodbye": {
-    "zh": ["后会有期, ",
-           "<INSERTNAME>",
-           "。",
-           Language.L.emoji.died,
-           "（",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           "）"],
     "en": ["Good-bye, ",
            "<INSERTNAME>",
            ". ",
@@ -1207,14 +1198,18 @@ Language.L.messages = {
            "<INSERTBIRTH>",
            " — ",
            "<INSERTDEATH>",
-           ")"]
+           ")"],
+    "zh": ["后会有期, ",
+           "<INSERTNAME>",
+           "。",
+           Language.L.emoji.died,
+           "（",
+           "<INSERTBIRTH>",
+           " — ",
+           "<INSERTDEATH>",
+           "）"]
   },
   "happy_birthday": {
-    "zh": [Language.L.emoji.birthday,
-           "<INSERTNAME>",
-           "生日快乐！（",
-           "<INSERTNUMBER>",
-           "岁）"],
     "en": [Language.L.emoji.birthday,
            " Happy Birthday, ",
            "<INSERTNAME>",
@@ -1245,33 +1240,30 @@ Language.L.messages = {
            "<INSERTNAME>",
            "! (",
            "<INSERTNUMBER>",
-           ")"]
+           ")"],
+    "zh": [Language.L.emoji.birthday,
+           "<INSERTNAME>",
+           "生日快乐！（",
+           "<INSERTNUMBER>",
+           "岁）"]
   },
   "landing_mothersday": {
-    "zh": ["母亲节快乐"],
     "en": ["Happy Mother's Day!"],
     "es": ["¡Feliz Día de la Madre!"],
     "jp": ["母の日おめでとう"],
     "ne": ["खुसी आमाको दिन!"],
-    "pt": ["Feliz Dia das Mães!"]
+    "pt": ["Feliz Dia das Mães!"],
+    "zh": ["母亲节快乐"]
   },
   "list_comma": {
-    "zh": "、",
     "en": ", ",
     "es": ", ",
     "jp": "、",
     "ne": ", ",
-    "pt": ", "
+    "pt": ", ",
+    "zh": "、"
   },
   "lost_animal": {
-    "zh": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
-           " If you see ",
-           "<INSERTNAME>",
-           ", contact ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
     "en": [Language.L.emoji.alert, " ",
            Language.L.emoji.see_and_say, 
            " If you see ",
@@ -1311,12 +1303,17 @@ Language.L.messages = {
            ", contacte ",
            "<ZOONAME>",
            ": ",
+           "<ZOOCONTACT>"],
+    "zh": [Language.L.emoji.alert, " ",
+           Language.L.emoji.see_and_say, 
+           " If you see ",
+           "<INSERTNAME>",
+           ", contact ",
+           "<ZOONAME>",
+           ": ",
            "<ZOOCONTACT>"]
   },
   "lunch_time": {
-    "zh": [Language.L.emoji.paws, " ",
-           "午饭吃什么？", " ",
-           Language.L.emoji.greens],
     "en": [Language.L.emoji.paws, " ",
            "What's for lunch?", " ",
            Language.L.emoji.greens],
@@ -1331,18 +1328,12 @@ Language.L.messages = {
            Language.L.emoji.greens],
     "pt": [Language.L.emoji.paws, " ",
            "O que tem para o almoço?", " ",
+           Language.L.emoji.greens],
+    "zh": [Language.L.emoji.paws, " ",
+           "午饭吃什么？", " ",
            Language.L.emoji.greens]
   },
   "missing_you": {
-    "zh": ["我们想你, ",
-           "<INSERTNAME>",
-           "。",
-           Language.L.emoji.died,
-           "（",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           "）"],
     "en": ["We miss you, ",
            "<INSERTNAME>",
            ". ",
@@ -1387,15 +1378,18 @@ Language.L.messages = {
            "<INSERTBIRTH>",
            " — ",
            "<INSERTDEATH>",
-           ")"]
+           ")"],
+    "zh": ["我们想你, ",
+           "<INSERTNAME>",
+           "。",
+           Language.L.emoji.died,
+           "（",
+           "<INSERTBIRTH>",
+           " — ",
+           "<INSERTDEATH>",
+           "）"]
   },
   "nearby_zoos": {
-    "zh": [Language.L.emoji.website,
-           " ",
-           Language.L.emoji.home,
-           " 查找附近的动物园。",
-           "如果地理位置失败，",
-           "请尝试搜索您的城市。"],
     "en": [Language.L.emoji.website,
            " ",
            Language.L.emoji.home,
@@ -1425,13 +1419,16 @@ Language.L.messages = {
            Language.L.emoji.home,
            " Procurando zoológicos próximos. ",
            "Se a geolocalização falhar, ",
-           "tente pesquisar sua cidade."]
+           "tente pesquisar sua cidade."],
+    "zh": [Language.L.emoji.website,
+           " ",
+           Language.L.emoji.home,
+           " 查找附近的动物园。",
+           "如果地理位置失败，",
+           "请尝试搜索您的城市。"]
   },
   "new_photos": {
     "contributors": {
-      "zh": [Language.L.emoji.giftwrap,
-             "<INSERTCOUNT>",
-             "新贡献者"],
       "en": [Language.L.emoji.giftwrap,
              " ",
              "<INSERTCOUNT>",
@@ -1450,13 +1447,12 @@ Language.L.messages = {
       "pt": [Language.L.emoji.giftwrap,
              " ",
              "<INSERTCOUNT>",
-             " novos contribuintes"]
+             " novos contribuintes"],
+      "zh": [Language.L.emoji.giftwrap,
+             "<INSERTCOUNT>",
+             "新贡献者"]
     },
     "pandas": {
-      "zh": [Language.L.emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             "只新小熊猫"],
       "en": [Language.L.emoji.profile,
              " ",
              "<INSERTCOUNT>",
@@ -1476,11 +1472,13 @@ Language.L.messages = {
       "pt": [Language.L.emoji.profile,
              " ",
              "<INSERTCOUNT>",
-             " novos pandas-vermelhos"]
+             " novos pandas-vermelhos"],
+      "zh": [Language.L.emoji.profile,
+             " ",
+             "<INSERTCOUNT>",
+             "只新小熊猫"]
     },
     "photos": {
-      "zh": ["<INSERTCOUNT>",
-             "张新照片"], 
       "en": ["<INSERTCOUNT>",
              " new photos"],
       "es": ["<INSERTCOUNT>",
@@ -1490,20 +1488,19 @@ Language.L.messages = {
       "ne": ["<INSERTCOUNT>",
              " छवि नयाँ"], 
       "pt": ["<INSERTCOUNT>",
-             " novas fotos"]
+             " novas fotos"],
+      "zh": ["<INSERTCOUNT>",
+             "张新照片"]
     },
     "suffix": {
-      "zh": ["本星期！"],
       "en": [" this week!"],
       "es": [" esta semana."],
       "jp": ["今週！"],
       "ne": ["यो हप्ता"],
-      "pt": [" esta semana!"]
+      "pt": [" esta semana!"],
+      "zh": ["本星期！"]
     },
     "zoos": {
-      "zh": [Language.L.emoji.zoo,
-             "<INSERTCOUNT>",
-             "个新动物园"],
       "en": [Language.L.emoji.zoo,
              " ",
              "<INSERTCOUNT>",
@@ -1522,45 +1519,45 @@ Language.L.messages = {
       "pt": [Language.L.emoji.zoo,
              " ",
              "<INSERTCOUNT>",
-             " novos zoológicos"]
+             " novos zoológicos"],
+      "zh": [Language.L.emoji.zoo,
+             "<INSERTCOUNT>",
+             "个新动物园"]
     }
   },
   "no_result": {
-    "zh": ["没有找到这只小熊猫"],
     "en": ["No Pandas Found"],
     "es": ["No Se Encontró Ningún Panda"],
     "jp": ["パンダが見つかりません"],
     "ne": ["कुनै निगल्य पोन्या फेला परेन"],
-    "pt": ["Nenhum panda encontrado"]
+    "pt": ["Nenhum panda encontrado"],
+    "zh": ["没有找到这只小熊猫"]
   },
   "no_group_media_result": {
-    "zh": ["找不到合影"],
     "en": ["No Group Photos Found"],
     "es": ["No Se Encontraron Fotos de Grupos"],
     "jp": ["集合写真は見つかりませんでした"],
     "ne": ["कुनै निगल्य पोन्या समूह भेटिएन"],
-    "pt": ["Nenhuma foto de grupo encontrada"]
+    "pt": ["Nenhuma foto de grupo encontrada"],
+    "zh": ["找不到合影"]
   },
   "no_subject_tag_result": {
-    "zh": ["没有关联照片"],
     "en": ["No Tagged Photos"],
     "es": ["Sin Fotos Etiquetadas"],
     "jp": ["このパンダのタグ付けされた写真はありません"],
     "ne": ["कुनै फोटोहरू ट्याग छैनन्"],
-    "pt": ["Nenhuma foto etiquetada"]
+    "pt": ["Nenhuma foto etiquetada"],
+    "zh": ["没有关联照片"]
   },
   "no_zoos_nearby": {
-    "zh": ["附近没有动物园"],
     "en": ["No Zoos Nearby"],
     "es": ["No Hay Zoológicos Cerca"],
     "jp": ["近くに動物園はありません"],
     "ne": ["नजिकै कुनै चिडियाखाना छैन"],
-    "pt": ["Nenhum zoológico próximo"]
+    "pt": ["Nenhum zoológico próximo"],
+    "zh": ["附近没有动物园"]
   },
   "overflow": {
-    "zh": ["显示前",
-          "<INSERTLIMIT>",
-          "个"],
     "en": [" First ",
            "<INSERTLIMIT>",
            " shown."],
@@ -1575,13 +1572,12 @@ Language.L.messages = {
            " मात्र"],
     "pt": [" Mostrando os primeiros ",
            "<INSERTLIMIT>",
-           "."]
+           "."],
+    "zh": ["显示前",
+           "<INSERTLIMIT>",
+           "个"] 
   },
   "profile_babies_children": {
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTBABIES>",
-           "个孩子"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTBABIES>",
@@ -1601,13 +1597,13 @@ Language.L.messages = {
     "pt": ["<INSERTNAME>",
            " tem ",
            "<INSERTBABIES>",
-           " filhos(as)."]
-  },
-  "profile_babies_siblings": {
+           " filhos(as)."],
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTBABIES>",
-           "个孩子"],
+           "个孩子"]
+  },
+  "profile_babies_siblings": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTBABIES>",
@@ -1627,13 +1623,13 @@ Language.L.messages = {
     "pt": ["<INSERTNAME>",
            " tem ",
            "<INSERTBABIES>",
-           " irmãos(ãs) bebês."]
-  },
-  "profile_brothers": {
+           " irmãos(ãs) bebês."],
     "zh": ["<INSERTNAME>",
            "有",
-           "<INSERTBROTHERS>",
-           "个兄弟"],
+           "<INSERTBABIES>",
+           "个孩子"]
+  },
+  "profile_brothers": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTBROTHERS>",
@@ -1653,15 +1649,13 @@ Language.L.messages = {
     "pt": ["<INSERTNAME>",
            " tem ",
            "<INSERTBROTHERS>",
-           " irmãos."]
-  },
-  "profile_brothers_babies": {
+           " irmãos."],
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTBROTHERS>",
-           "个姐妹",
-           "<INSERTBABIES>",
-           "个新生儿"],
+           "个兄弟"]
+  },
+  "profile_brothers_babies": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTBROTHERS>",
@@ -1691,17 +1685,15 @@ Language.L.messages = {
            "<INSERTBROTHERS>",
            " irmãos e ",
            "<INSERTBABIES>",
-           " irmãos(ãs) bebês."]
+           " irmãos(ãs) bebês."],
+    "zh": ["<INSERTNAME>",
+           "有",
+           "<INSERTBROTHERS>",
+           "个姐妹",
+           "<INSERTBABIES>",
+           "个新生儿"]
   },
   "profile_children": {
-    "zh": ["<INSERTNAME>",
-           "一共有",
-           "<INSERTTOTAL>",
-           "个孩子: ",
-           "<INSERTDAUGHTERS>",
-           "个女儿和",
-           "<INSERTSONS>",
-           "个儿子！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -1741,19 +1733,17 @@ Language.L.messages = {
            "<INSERTDAUGHTERS>",
            " meninas e ",
            "<INSERTSONS>",
-           " meninos!"]
-  },
-  "profile_children_babies": {
+           " meninos!"],
     "zh": ["<INSERTNAME>",
            "一共有",
            "<INSERTTOTAL>",
            "个孩子: ",
            "<INSERTDAUGHTERS>",
-           "个女儿，",
+           "个女儿和",
            "<INSERTSONS>",
-           "个儿子，以及",
-           "<INSERTBABIES>",
-           "个新生儿！"],
+           "个儿子！"]
+  },
+  "profile_children_babies": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -1803,13 +1793,19 @@ Language.L.messages = {
            "<INSERTSONS>",
            " meninos e ",
            "<INSERTBABIES>",
-           " recém-nascidos(as)!"]
+           " recém-nascidos(as)!"],
+    "zh": ["<INSERTNAME>",
+           "一共有",
+           "<INSERTTOTAL>",
+           "个孩子: ",
+           "<INSERTDAUGHTERS>",
+           "个女儿，",
+           "<INSERTSONS>",
+           "个儿子，以及",
+           "<INSERTBABIES>",
+           "个新生儿！"]
   },
   "profile_daughters": {
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTDAUGHTERS>",
-           "个女儿"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTDAUGHTERS>",
@@ -1829,15 +1825,13 @@ Language.L.messages = {
     "pt": ["<INSERTNAME>",
            " tem ",
            "<INSERTDAUGHTERS>",
-           " filhas."]
-  },
-  "profile_daughters_babies": {
+           " filhas."],
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTDAUGHTERS>",
-           "个女儿和",
-           "<INSERTBABIES>",
-           "个新生儿！"],
+           "个女儿"]
+  },
+  "profile_daughters_babies": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTDAUGHTERS>",
@@ -1867,11 +1861,15 @@ Language.L.messages = {
            "<INSERTDAUGHTERS>",
            " filhas e ",
            "<INSERTBABIES>",
-           " recém-nascidos(as)!"]
+           " recém-nascidos(as)!"],
+    "zh": ["<INSERTNAME>",
+           "有",
+           "<INSERTDAUGHTERS>",
+           "个女儿和",
+           "<INSERTBABIES>",
+           "个新生儿！"]
   },
   "profile_family": {
-    "zh": ["<INSERTNAME>",
-           "的直系亲属"],
     "en": ["<INSERTNAME>",
            "'s Immediate Family"],
     "es": ["Familia inmediata de ",
@@ -1881,13 +1879,11 @@ Language.L.messages = {
     "ne": ["<INSERTNAME>",
            "को निकट परिवार"],
     "pt": ["Família imediata de ",
-           "<INSERTNAME>"]
+           "<INSERTNAME>"],
+    "zh": ["<INSERTNAME>",
+           "的直系亲属"]
   },
   "profile_sisters": {
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTSISTERS>",
-           "个姐妹"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSISTERS>",
@@ -1907,15 +1903,13 @@ Language.L.messages = {
     "pt": ["<INSERTNAME>",
            " tem ",
            "<INSERTSISTERS>",
-           " irmãs."]
-  },
-  "profile_sisters_babies": {
+           " irmãs."],
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTSISTERS>",
-           "个姐妹和",
-           "<INSERTBABIES>",
-           "个新生儿"],
+           "个姐妹"]
+  },
+  "profile_sisters_babies": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSISTERS>",
@@ -1945,17 +1939,15 @@ Language.L.messages = {
            "<INSERTSISTERS>",
            " irmãs e ",
            "<INSERTBABIES>",
-           " irmãos(ãs) bebês."]
-  },
-  "profile_siblings": {
+           " irmãos(ãs) bebês."],
     "zh": ["<INSERTNAME>",
            "有",
-           "<INSERTTOTAL>",
-           "个同胞: ",
            "<INSERTSISTERS>",
            "个姐妹和",
-           "<INSERTBROTHERS>",
-           "个兄弟！"],
+           "<INSERTBABIES>",
+           "个新生儿"]
+  },
+  "profile_siblings": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -1996,19 +1988,17 @@ Language.L.messages = {
            "<INSERTSISTERS>",
            " fêmeas e ",
            "<INSERTBROTHERS>",
-           " machos!"]
-  },
-  "profile_siblings_babies": {
+           " machos!"],
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTTOTAL>",
-           "个同胞：",
+           "个同胞: ",
            "<INSERTSISTERS>",
-           "个姐妹，",
+           "个姐妹和",
            "<INSERTBROTHERS>",
-           "个兄弟，以及",
-           "<INSERTBABIES>",
-           "个新生儿！"],
+           "个兄弟！"]
+  },
+  "profile_siblings_babies": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -2059,13 +2049,19 @@ Language.L.messages = {
            "<INSERTBROTHERS>",
            " machos e ",
            "<INSERTBABIES>",
-           " irmãos(ãs) bebês!"]
-  },
-  "profile_sons": {
+           " irmãos(ãs) bebês!"],
     "zh": ["<INSERTNAME>",
            "有",
-           "<INSERTSONS>",
-           "个儿子"],
+           "<INSERTTOTAL>",
+           "个同胞：",
+           "<INSERTSISTERS>",
+           "个姐妹，",
+           "<INSERTBROTHERS>",
+           "个兄弟，以及",
+           "<INSERTBABIES>",
+           "个新生儿！"]
+  },
+  "profile_sons": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSONS>",
@@ -2085,15 +2081,13 @@ Language.L.messages = {
     "pt": ["<INSERTNAME>",
            " tem ",
            "<INSERTSONS>",
-           " filhos."]
-  },
-  "profile_sons_babies": {
+           " filhos."],
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTSONS>",
-           "个儿子和",
-           "<INSERTBABIES>",
-           "个新生儿！"],
+           "个儿子"]
+  },
+  "profile_sons_babies": {
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSONS>",
@@ -2123,11 +2117,15 @@ Language.L.messages = {
            "<INSERTSONS>",
            " filhos e ",
            "<INSERTBABIES>",
-           " recém-nascidos(as)!"]
+           " recém-nascidos(as)!"],
+    "zh": ["<INSERTNAME>",
+           "有",
+           "<INSERTSONS>",
+           "个儿子和",
+           "<INSERTBABIES>",
+           "个新生儿！"]
   },
   "profile_where": {
-    "zh": ["<INSERTNAME>",
-           "住在哪里？"],
     "en": ["Where has ",
            "<INSERTNAME>",
            " lived?"],
@@ -2140,13 +2138,11 @@ Language.L.messages = {
            " कहाँ बस्यो?"],
     "pt": ["Onde ",
            "<INSERTNAME>",
-           " já morou?"]
+           " já morou?"],
+    "zh": ["<INSERTNAME>",
+           "住在哪里？"]
   },
   "remembering_you_together": {
-    "zh": [Language.L.emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": 我们永远不会忘记你。",
-           Language.L.emoji.paws],
     "en": [Language.L.emoji.hearts, " ",
            "<INSERTNAMES>",
            ": We will never forget you. ",
@@ -2166,12 +2162,13 @@ Language.L.messages = {
     "pt": [Language.L.emoji.hearts, " ",
            "<INSERTNAMES>",
            ": Nunca esqueceremos de você. ",
-           " ", Language.L.emoji.paws]
+           " ", Language.L.emoji.paws],
+    "zh": [Language.L.emoji.hearts, " ",
+           "<INSERTNAMES>",
+           ": 我们永远不会忘记你。",
+           Language.L.emoji.paws],
   },
   "shovel_pandas": {
-    "zh": [Language.L.emoji.dig, " ",
-           "寻找埋藏的宝藏", " ",
-           Language.L.emoji.treasure],
     "en": [Language.L.emoji.dig, " ",
            "Searching for buried treasure!", " ",
            Language.L.emoji.treasure],
@@ -2186,12 +2183,12 @@ Language.L.messages = {
            Language.L.emoji.treasure],
     "pt": [Language.L.emoji.dig, " ",
            "Procurando o tesouro enterrado!", " ",
+           Language.L.emoji.treasure],
+    "zh": [Language.L.emoji.dig, " ",
+           "寻找埋藏的宝藏", " ",
            Language.L.emoji.treasure]
   },
   "tag_combo": {
-    "zh": ["组合搜索:",
-           "<INSERTNUM>",
-           "相片。"],
     "en": [" combo: ",
            "<INSERTNUM>",
            " photos."],
@@ -2206,15 +2203,12 @@ Language.L.messages = {
            " फोटोहरू"],
     "pt": [" combo: ",
            "<INSERTNUM>",
-           " fotos."]
+           " fotos."],
+    "zh": ["组合搜索:",
+           "<INSERTNUM>",
+           "相片。"]
   },
   "tag_subject": {
-    "zh": ["<INSERTNUM>",
-           "张",
-           "<INSERTNAME>",
-           "<INSERTEMOJI>",
-           "<INSERTTAG>",
-           "的照片"],
     "en": ["<INSERTNUM>",
            " ",
            "<INSERTNAME>",
@@ -2251,12 +2245,15 @@ Language.L.messages = {
            "<INSERTEMOJI>",
            " ",
            "<INSERTTAG>",
-           "."]
+           "."],
+    "zh": ["<INSERTNUM>",
+           "张",
+           "<INSERTNAME>",
+           "<INSERTEMOJI>",
+           "<INSERTTAG>",
+           "的照片"]
   },
   "trick_or_treat": {
-    "zh": [Language.L.emoji.pumpkin, " ",
-           "怪异的南瓜", " ",
-           Language.L.emoji.pumpkin],
     "en": [Language.L.emoji.pumpkin, " ",
            "Trick or Treat", " ",
            Language.L.emoji.pumpkin],
@@ -2272,15 +2269,11 @@ Language.L.messages = {
     "pt": [Language.L.emoji.pumpkin, " ",
            "Gostosuras ou travessuras", " ",
            Language.L.emoji.pumpkin],
+    "zh": [Language.L.emoji.pumpkin, " ",
+           "怪异的南瓜", " ",
+           Language.L.emoji.pumpkin]
   },
   "zoo_details_babies": {
-    "zh": [Language.L.emoji.baby,
-           " ",
-           "自",
-           "<INSERTYEAR>",
-           "年以来出生的",
-           "<INSERTBABIES>",
-           "名婴儿"],
     "en": [Language.L.emoji.baby,
            " ",
            "<INSERTBABIES>",
@@ -2306,13 +2299,16 @@ Language.L.messages = {
            " ",
            "<INSERTBABIES>",
            " filhotes nascidos desde ",
-           "<INSERTYEAR>"]
+           "<INSERTYEAR>"],
+    "zh": [Language.L.emoji.baby,
+           " ",
+           "自",
+           "<INSERTYEAR>",
+           "年以来出生的",
+           "<INSERTBABIES>",
+           "名婴儿"]
   },
   "zoo_details_departures": {
-    "zh": [Language.L.emoji.truck,
-           " ",
-           "<INSERTNUM>",
-           "最近出发"],
     "en": [Language.L.emoji.truck,
            " ",
            "<INSERTNUM>", 
@@ -2333,13 +2329,13 @@ Language.L.messages = {
     "pt": [Language.L.emoji.truck,
            " ",
            "<INSERTNUM>", 
-           " partidas recentes"]
-  },
-  "zoo_details_pandas_live_here": {
-    "zh": [Language.L.emoji.panda,
+           " partidas recentes"],
+    "zh": [Language.L.emoji.truck,
            " ",
            "<INSERTNUM>",
-           "只大熊猫住在这里"],
+           "最近出发"]
+  },
+  "zoo_details_pandas_live_here": {
     "en": [Language.L.emoji.panda,
            " ",
            "<INSERTNUM>",
@@ -2360,12 +2356,13 @@ Language.L.messages = {
     "pt": [Language.L.emoji.panda,
            " ",
            "<INSERTNUM>",
-           " pandas-vermelhos moram aqui"]
-  },
-  "zoo_details_no_pandas_live_here": {
+           " pandas-vermelhos moram aqui"],
     "zh": [Language.L.emoji.panda,
            " ",
-           "没有找到这只小熊猫"],
+           "<INSERTNUM>",
+           "只大熊猫住在这里"]
+  },
+  "zoo_details_no_pandas_live_here": {
     "en": [Language.L.emoji.panda,
            " ",
            "No red pandas currently here"],
@@ -2380,16 +2377,12 @@ Language.L.messages = {
            "कुनै निगल्य पोन्या फेला परेन"],
     "pt": [Language.L.emoji.panda,
            " ",
-           "Nenhum panda-vermelho atualmente aqui"]
+           "Nenhum panda-vermelho atualmente aqui"],
+    "zh": [Language.L.emoji.panda,
+           " ",
+           "没有找到这只小熊猫"]
   },
   "zoo_details_records": {
-    "zh": [Language.L.emoji.recordbook,
-           " ",
-           "自",
-           "<INSERTYEAR>",
-           "年以来",
-           "<INSERTNUM>",
-           "个记录在数据库中"],
     "en": [Language.L.emoji.recordbook,
            " ",
            "<INSERTNUM>",
@@ -2414,12 +2407,16 @@ Language.L.messages = {
            " ",
            "<INSERTNUM>",
            " registrados na base de dados desde ",
-           "<INSERTYEAR>"]
+           "<INSERTYEAR>"],
+    "zh": [Language.L.emoji.recordbook,
+           " ",
+           "自",
+           "<INSERTYEAR>",
+           "年以来",
+           "<INSERTNUM>",
+           "个记录在数据库中"]
   },
   "zoo_header_new_arrivals": {
-    "zh": [Language.L.emoji.fireworks,
-           " ",
-           "新来的"],
     "en": [Language.L.emoji.fireworks,
            " ",
            "New Arrivals"],
@@ -2434,13 +2431,12 @@ Language.L.messages = {
            "नयाँ आगमन"],
     "pt": [Language.L.emoji.fireworks,
            " ",
-           "Novas chegadas"]
+           "Novas chegadas"],
+    "zh": [Language.L.emoji.fireworks,
+           " ",
+           "新来的"]
   },
   "zoo_header_other_pandas": {
-    "zh": [Language.L.emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           "里的其他小熊猫"],
     "en": [Language.L.emoji.panda,
            " ",
            "Other Pandas at ",
@@ -2460,12 +2456,13 @@ Language.L.messages = {
     "pt": [Language.L.emoji.panda,
            " ",
            "Outros pandas em ",
-           "<INSERTZOO>"]
+           "<INSERTZOO>"],
+    "zh": [Language.L.emoji.panda,
+           " ",
+           "<INSERTZOO>",
+           "里的其他小熊猫"]
   },
   "zoo_header_recently_departed": {
-    "zh": [Language.L.emoji.truck,
-           " ",
-           "最近离开"],
     "en": [Language.L.emoji.truck,
            " ",
            "Recently Departed"],
@@ -2480,20 +2477,23 @@ Language.L.messages = {
            "भर्खर प्रस्थान"],
     "pt": [Language.L.emoji.truck,
            " ",
-           "Partiram recentemente"]
+           "Partiram recentemente"],
+    "zh": [Language.L.emoji.truck,
+           " ",
+           "最近离开"]
   }
 }
 
 // These are tags in some contexts, and keywords in others
 Language.L.polyglots = {
   "baby": {
-    "zh": ["宝宝", "婴儿", "婴儿们"],
  "emoji": [Language.L.emoji.baby],
     "en": ["baby", "babies", "Baby", "Aka-chan", "Akachan"],
     "es": ["bebé", "bebe", "bebés", "bebes"],
     "jp": ["赤", "赤ちゃん"],
     "ne": ["बच्चा"],
-    "pt": ["bebê", "bebês", "bebé", "bebés"]
+    "pt": ["bebê", "bebês", "bebé", "bebés"],
+    "zh": ["宝宝", "婴儿", "婴儿们"],
   }
 }
 
@@ -2504,7 +2504,6 @@ Language.L.polyglots = {
 // TODO: romanji for japanese terms
 Language.L.tags = {
   "air tasting": {
-       "zh": ["尝尝空气"],
     "emoji": [Language.L.emoji.tongue + 
               Language.L.emoji.butterfly],
        "en": ["air tasting", 
@@ -2512,399 +2511,399 @@ Language.L.tags = {
        "es": ["saboreando el aire"],
        "jp": ["舌ヒラヒラ"],
        "ne": ["हावा चाख्ने"],
-       "pt": ["degustando o ar", "gosto do ar"]
+       "pt": ["degustando o ar", "gosto do ar"],
+       "zh": ["尝尝空气"]
   },
   "apple time": {
-       "zh": ["苹果时间", "苹果"],
     "emoji": [Language.L.emoji.apple],
        "en": ["apple time", "apple"],
        "es": ["hora de la manazana", "manzana"],
        "jp": ["りんごタイム", "りんご"],
        "ne": ["स्याउ समय", "स्याउ"],
-       "pt": ["maçã", "hora da maçã"]
+       "pt": ["maçã", "hora da maçã"],
+       "zh": ["苹果时间", "苹果"]
   },
   "autumn": {
-       "zh": ["秋天"],
     "emoji": [Language.L.emoji.autumn],
        "en": ["autumn", "fall"],
        "es": ["otoño"],
        "jp": ["秋"],
        "ne": ["शरद तु"],
-       "pt": ["outono"]
+       "pt": ["outono"],
+       "zh": ["秋天"]
   },
   "bamboo": {
-       "zh": ["竹子", "竹"],
     "emoji": [Language.L.emoji.bamboo],
        "en": ["bamboo"],
        "es": ["bambú", "bambu"],
        "jp": ["笹", "竹"],
        "ne": ["बाँस"],
-       "pt": ["bambu"]
+       "pt": ["bambu"],
+       "zh": ["竹子", "竹"]
   },
   "bear worm": {
-       "zh": ["蠕动"],
     "emoji": [Language.L.emoji.caterpillar],
        "en": ["bear worm", "bear-worm"],
        "es": ["gusan-oso", "gusanoso"],
        "jp": ["のびのび"],
        "ne": ["कीरा भालु"],
-       "pt": ["relaxado"]
+       "pt": ["relaxado"],
+       "zh": ["蠕动"]
   },
   "bite": {
-       "zh": ["咬", "吃"],
     "emoji": [Language.L.emoji.tooth],
        "en": ["bite"],
        "es": ["morder"],
        "jp": ["一口"],
        "ne": ["काट्नु"],
-       "pt": ["mordida"]
+       "pt": ["mordida"],
+       "zh": ["咬", "吃"]
   },
   "blink": {
-       "zh": ["眨眼"],
     "emoji": [Language.L.emoji.blink],
        "en": ["blink", "blinking"],
        "es": ["parpadear", "parpadeo"],
        "jp": ["まばたき"],
        "ne": ["झिम्काइ"],
-       "pt": ["pestanejando", "pestanejo"]
+       "pt": ["pestanejando", "pestanejo"],
+       "zh": ["眨眼"]
   },
   "bridge": {
-       "zh": ["吊桥", "桥"],
     "emoji": [Language.L.emoji.bridge],
        "en": ["bridge"],
        "es": ["puente"],
        "jp": ["吊り橋・渡し木", "架け橋"],
        "ne": ["पुल"],
-       "pt": ["ponte"]
+       "pt": ["ponte"],
+       "zh": ["吊桥", "桥"]
   },
   "brothers": {
-       "zh": ["兄弟"],
     "emoji": [Language.L.emoji.brothers],
        "en": ["brothers", "bros"],
        "es": ["hermanos"],
        "jp": ["男兄弟"],
        "ne": ["भाइहरु"],
-       "pt": ["irmãos"]
+       "pt": ["irmãos"],
+       "zh": ["兄弟"]
   },
   "carry": {
-       "zh": ["运", "拿"],
     "emoji": [Language.L.emoji.carry],
        "en": ["carry", "holding"],
        "es": ["llevando", "sosteniendo"],
        "jp": ["笹運び", "枝運び", "運ぶ"],
        "ne": ["बोक्नु", "समात्नु"],
-       "pt": ["levando", "carregando", "segurando"]
+       "pt": ["levando", "carregando", "segurando"],
+       "zh": ["运", "拿"]
   },
   "cherry blossoms": {
-       "zh": ["樱花"],
     "emoji": [Language.L.emoji.cherry_blossom],
        "en": ["cherry blossoms", "cherry blossom"],
        "es": ["flor de cerezo", "flores de cerezo"],
        "jp": ["桜"],
        "ne": ["चेरी खिल"],
-       "pt": ["flor de cerejeira", "flores de cerejeira", "flor de cereja", "flores de cereja"]
+       "pt": ["flor de cerejeira", "flores de cerejeira", "flor de cereja", "flores de cereja"],
+       "zh": ["樱花"]
   },
   "climb": {
-       "zh": ["爬"],
     "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
        "es": ["trepando", "escalando"],
        "jp": ["木登り", "登る"],
        "ne": ["चढाई"],
-       "pt": ["escalando", "subindo"]
+       "pt": ["escalando", "subindo"],
+       "zh": ["爬"]
   },
   "close-up": {
-       "zh": ["特写"],
     "emoji": [Language.L.emoji.close_up],
        "en": ["close-up", "closeup", "close"],
        "es": ["de cerca", "cerca"],
        "jp": ["閉じる"],
        "ne": ["क्लोज-अप", "नजिक"],
-       "pt": ["fechar-se", "perto"]
+       "pt": ["fechar-se", "perto"],
+       "zh": ["特写"]
   },
   "couple": {
-       "zh": ["夫妇", "情侣"],
     "emoji": [Language.L.emoji.couple],
        "en": ["couple", "partners"],
        "es": ["pareja"],
        "jp": ["カップル", "夫婦", "ふうふ"],
        "ne": ["जोडी"],
-       "pt": ["casal", "par"]
+       "pt": ["casal", "par"],
+       "zh": ["夫妇", "情侣"]
   },
   "destruction": {
-       "zh": ["破坏"],
     "emoji": [Language.L.emoji.tornado],
        "en": ["chaos", "destruction", "mess"],
        "es": ["caos", "destrucción", "destruccion", "desorden"],
        "jp": ["破壊"],
        "ne": ["विनाश"],
-       "pt": ["caos", "destruição", "bagunça"]
+       "pt": ["caos", "destruição", "bagunça"],
+       "zh": ["破坏"]
   },
   "dig": {
-       "zh": ["挖"],
     "emoji": [Language.L.emoji.dig],
        "en": ["dig", "digging", "digs"],
        "es": ["cavando", "excavando"],
        "jp": ["穴掘り"],
        "ne": ["खन्नुहोस्"],
-       "pt": ["cavando", "escavando"]
+       "pt": ["cavando", "escavando"],
+       "zh": ["挖"]
   },
   "dish": {
-       "zh": ["盘子"],
     "emoji": [Language.L.emoji.dish],
        "en": ["dish", "plate"],
        "es": ["plato"],
        "jp": ["ごはん"],
        "ne": ["थाल"],
-       "pt": ["prato"]
+       "pt": ["prato"],
+       "zh": ["盘子"]
   },
   "door": {
-       "zh": ["门"],
     "emoji": [Language.L.emoji.door],
        "en": ["door"],
        "es": ["puerta"],
        "jp": ["扉", "戸"],
        "ne": ["ढोका"],
-       "pt": ["porta"]
+       "pt": ["porta"],
+       "zh": ["门"]
   },
   "ear": {
-       "zh": ["耳"],
     "emoji": [Language.L.emoji.ear],
        "en": ["ear", "ears"],
        "es": ["oreja", "orejas"],
        "jp": ["耳"],
        "ne": ["कान"],
-       "pt": ["orelha", "orelhas"]
+       "pt": ["orelha", "orelhas"],
+       "zh": ["耳"]
   },
   "eye": {
-       "zh": ["眼睛", "眼"],
     "emoji": [Language.L.emoji.eye],
        "en": ["eye", "eyes"],
        "es": ["ojo", "ojos"],
        "jp": ["目"],
        "ne": ["कान"],
-       "pt": ["olho", "olhos"]
+       "pt": ["olho", "olhos"],
+       "zh": ["眼睛", "眼"]
   },
   "flowers": {
-       "zh": ["花"],
     "emoji": [Language.L.emoji.flower],
        "en": ["flower", "flowers"],
        "es": ["flor", "flores"],
        "jp": ["花"],
        "ne": ["फूल", "फूलहरू"],
-       "pt": ["flor", "flores"]
+       "pt": ["flor", "flores"],
+       "zh": ["花"]
   },
   "grooming": {
-       "zh": ["梳毛"],
     "emoji": [Language.L.emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
        "es": ["limpiándose", "limpiandose", "lamiéndose", "lamiendose", "lavándose", "lavandose"],
        "jp": ["毛づくろい"],
        "ne": ["फूलहरू"],
-       "pt": ["limpando-se"]
+       "pt": ["limpando-se"],
+       "zh": ["梳毛"]
   },
   "grumpy": {
-       "zh": ["牢骚满腹"],
     "emoji": [Language.L.emoji.grumpy],
        "en": ["grumpy", "grouchy"],
        "es": ["gruñona", "gruñón", "grunona", "grunon"],
        "jp": ["ご機嫌ナナメ"],
        "ne": ["नराम्रो"],
-       "pt": ["rabugento", "mal-humorado"]
+       "pt": ["rabugento", "mal-humorado"],
+       "zh": ["牢骚满腹"]
   },
   "hammock": {
-       "zh": ["吊床"],
     "emoji": [Language.L.emoji.camping],
        "en": ["hammock"],
        "es": ["hamaca"],
        "jp": ["ハンモック"],
        "ne": ["ह्यामॉक"],
-       "pt": ["rede de dormir"]
+       "pt": ["rede de dormir"],
+       "zh": ["吊床"]
   },
   "home": {
-       "zh": ["家"],
     "emoji": [Language.L.emoji.home],
        "en": ["home"],
        "es": ["casa", "en casa"],
        "jp": ["お家"],
        "ne": ["घर"],
-       "pt": ["casa", "lar"]
+       "pt": ["casa", "lar"],
+       "zh": ["家"]
   },
   "in love": {
-       "zh": ["热恋", "恋爱"],
     "emoji": [Language.L.emoji.hearts],
        "en": ["in love", "love"],
        "es": ["enamorado"],
        "jp": ["恋"],
        "ne": ["मायामा"],
-       "pt": ["amor", "apaixonado"]
+       "pt": ["amor", "apaixonado"],
+       "zh": ["热恋", "恋爱"]
   },
   "itchy": {
-       "zh": ["挠痒", "抓痒"],
     "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
        "es": ["rascándose", "rascandose"],
        "jp": ["カイカイ", "かゆい"],
        "ne": ["खुजली"],
-       "pt": ["coceira", "coçando"]
+       "pt": ["coceira", "coçando"],
+       "zh": ["挠痒", "抓痒"]
   },
   "jizo": {
-       "zh": ["地藏菩萨"],
     "emoji": [Language.L.emoji.jizo],
        "en": ["jizo", "jizo statue", "statue"],
        "es": ["estatua"],
        "jp": ["お地蔵さん"],
        "ne": ["मूर्ति"],
-       "pt": ["posição de estátua"]
+       "pt": ["posição de estátua"],
+       "zh": ["地藏菩萨"]
   },
   "keeper": {
-       "zh": ["饲养员"],
     "emoji": [Language.L.emoji.weary],
        "en": ["keeper", "zookeeper"],
        "es": ["cuidador", "cuidadora"],
        "jp": ["飼育員"],
        "ne": ["चिडियाखाना"],
-       "pt": ["cuidador", "cuidadora"]
+       "pt": ["cuidador", "cuidadora"],
+       "zh": ["饲养员"]
   },
   "kiss": {
-       "zh": ["接吻", "亲亲", "吻"],
     "emoji": [Language.L.emoji.kiss],
        "en": ["kissing", "kiss"],
        "es": ["beso", "besos"],
        "jp": ["接吻", "せっぷん", "キス"],
        "ne": ["चुम्बन"],
-       "pt": ["beijo", "beijos", "beijando"]
+       "pt": ["beijo", "beijos", "beijando"],
+       "zh": ["接吻", "亲亲", "吻"]
   },
   "laying down": {
-       "zh": ["躺"],
     "emoji": [Language.L.emoji.bed],
        "en": ["lay down", "laying down"],
        "es": ["acostado", "recostado"],
        "jp": ["寝そべっている"],
        "ne": ["तल राख्नु"],
-       "pt": ["deitado", "deitando-se"]
+       "pt": ["deitado", "deitando-se"],
+       "zh": ["躺"]
   },
   "lips": {
-       "zh": ["唇"],
     "emoji": [Language.L.emoji.lips],
        "en": ["lips"],
        "es": ["labios"],
        "jp": ["くちびる"],
        "ne": ["ओठ"],
-       "pt": ["lábios"]
+       "pt": ["lábios"],
+       "zh": ["唇"]
   },
   "long-tongue": {
-       "zh": ["伸长舌头"],
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],
        "en": ["long tongue", "long-tongue"],
        "es": ["sacando la lengua"],
        "jp": ["長い舌"],
        "ne": ["लामो जीभ"],
-       "pt": ["mostrando a língua"]
+       "pt": ["mostrando a língua"],
+       "zh": ["伸长舌头"]
   },
   "lunch time": {
-       "zh": ["午餐时间"],
     "emoji": [Language.L.emoji.bento],
        "en": ["lunch time", "lunch"],
        "es": ["hora de comer", "almuerzo"],
        "jp": ["ランチの時間"],
        "ne": ["खाजा समय", "भोजन"],
-       "pt": ["almoço", "hora do almoço"]
+       "pt": ["almoço", "hora do almoço"],
+       "zh": ["午餐时间"]
   },
   "mofumofu": {
-        "zh": ["软软"],
      "emoji": [Language.L.emoji.teddybear],
         "en": ["mofumofu", "fluffy", "punchy"],
         "es": ["rechoncho", "rechoncha", "esponjoso", "esponjosa"],
         "jp": ["モフモフ"],
         "ne": ["रमाईलो"],
-        "pt": ["felpudo", "fofo", "gorducho", "rechonchudo"]
+        "pt": ["felpudo", "fofo", "gorducho", "rechonchudo"],
+        "zh": ["软软"]
   },
   "muzzle": {
-        "zh": ["口鼻套"],
      "emoji": [Language.L.emoji.muzzle],
         "en": ["muzzle", "snout"],
         "es": ["hocico", "trompa"],
         "jp": ["マズル"],
         "ne": ["थूली", "थोरै"],
-        "pt": ["focinho"]
+        "pt": ["focinho"],
+        "zh": ["口鼻套"]
   },
   "night": {
-        "zh": ["夜", "晚上"],
      "emoji": [Language.L.emoji.moon],
         "en": ["night"],
         "es": ["noche"],
         "jp": ["夜"],
         "ne": ["रात"],
-        "pt": ["noite"]
+        "pt": ["noite"],
+        "zh": ["夜", "晚上"]
   },
   "nose": {
-        "zh": ["鼻子"],
      "emoji": [Language.L.emoji.nose],
         "en": ["nose", "snout"],
         "es": ["nariz", "hocico"],
         "jp": ["鼻"],
         "ne": ["नाक"],
-        "pt": ["nariz"]
+        "pt": ["nariz"],
+        "zh": ["鼻子"]
   },
   "old": {
-        "zh": ["老人"],
      "emoji": [Language.L.emoji.grandpa],
         "en": ["old"],
         "es": ["viejo", "vieja"],
         "jp": ["シニアパンダさん", "年老いた"],
         "ne": ["पुरानो"],
-        "pt": ["idoso", "idosa"]
+        "pt": ["idoso", "idosa"],
+        "zh": ["老人"]
   },
   "panda bowl": {
-        "zh": ["碗"],
      "emoji": [Language.L.emoji.panda + 
                Language.L.emoji.bowl],
         "en": ["panda bowl", "bowl"],
         "es": ["bola de panda", "bola"],
         "jp": ["エサ鉢"],
         "ne": ["पोनिया कटोरा"],
-        "pt": ["tigela de panda", "tigela"]
+        "pt": ["tigela de panda", "tigela"],
+        "zh": ["碗"]
   },
   "paws": {
-        "zh": ["爪"],
      "emoji": [Language.L.emoji.paws],
         "en": ["paws", "feet"],
         "es": ["patas", "pies"],
         "jp": ["足"],
         "ne": ["पन्जा"],
-        "pt": ["patas", "pés"]
+        "pt": ["patas", "pés"],
+        "zh": ["爪"]
   },
   "peek": {
-        "zh": ["偷窥"],
      "emoji": [Language.L.emoji.monocle],
         "en": ["peek", "peeking"],
         "es": ["ojeando", "mirando", "curioseando"],
         "jp": ["チラ見"],
         "ne": ["झिक्नु"],
-        "pt": ["espiando"]
+        "pt": ["espiando"],
+        "zh": ["偷窥"]
   },
   "playing": {
-        "zh": ["玩耍"],
      "emoji": [Language.L.emoji.playing],
         "en": ["playing", "play"],
         "es": ["jugando", "jugar"],
         "jp": ["拝み食い", "両手食い"],
         "ne": ["खेलिरहेको", "खेल्नु"],
-        "pt": ["brincando"]
+        "pt": ["brincando"],
+        "zh": ["玩耍"]
   },
   "poop": {
-        "zh": ["便便"],
      "emoji": [Language.L.emoji.poop],
         "en": ["poop"],
         "es": ["heces", "caca", "mierda"],
         "jp": [Language.L.emoji.poop],
         "ne": [Language.L.emoji.poop],
-        "pt": ["cocô", "cocó", "caca"]
+        "pt": ["cocô", "cocó", "caca"],
+        "zh": ["便便"]
   },
   "pooping": {
-        "zh": ["便便"],
      "emoji": [Language.L.emoji.panda +
                Language.L.emoji.poop],
         "en": ["pooping"],
@@ -2912,304 +2911,305 @@ Language.L.tags = {
         "jp": ["💩している"],
         "ne": [Language.L.emoji.panda +
                Language.L.emoji.poop],
-        "pt": ["fazendo cocô", "fazendo caca"]
+        "pt": ["fazendo cocô", "fazendo caca"],
+        "zh": ["便便"]
   },
   "portrait": {
-        "zh": ["肖像"],
      "emoji": [Language.L.emoji.portrait],
         "en": ["portrait", "square"],
         "es": ["retrato", "cuadrada"],
         "jp": ["顔写真"],
         "ne": ["चित्र"],
-        "pt": ["retrato"]
+        "pt": ["retrato"],
+        "zh": ["肖像"]
   },
   "praying": {
-        "zh": ["祈祷"],
      "emoji": [Language.L.emoji.pray],
         "en": ["praying", "pray"],
         "es": ["rezando", "orando"],
         "jp": ["お祈りしている"],
         "ne": ["प्रार्थना गर्दै", "प्रार्थना"],
-        "pt": ["rezando", "orando", "mãos postas"]
+        "pt": ["rezando", "orando", "mãos postas"],
+        "zh": ["祈祷"]
   },
   "profile": {
-        "zh": ["资料"],
      "emoji": [Language.L.emoji.profile],
         "en": ["profile"],
         "es": ["perfil"],
         "jp": ["プロフィール画像"],
         "ne": ["प्रोफाइल"],
-        "pt": ["perfil"]
+        "pt": ["perfil"],
+        "zh": ["资料"]
   },
   "pull-up": {
-        "zh": ["引体向上"],
      "emoji": [Language.L.emoji.weight],
         "en": ["pull-up", "pull-ups", "pullup"],
         "es": ["flexiones", "dominadas"],
         "jp": ["鉄棒", "懸垂"],
         "ne": ["तान्नु"],
-        "pt": ["flexões"]
+        "pt": ["flexões"],
+        "zh": ["引体向上"]
   },
   "pumpkin": {
-        "zh": ["南瓜"],
      "emoji": [Language.L.emoji.pumpkin],
         "en": ["pumpkin", "halloween"],
         "es": ["calabaza"],
         "jp": ["かぼちゃ", "南瓜"],
         "ne": ["कद्दू", "हेलोवीन"],
-        "pt": ["abóbora"]
+        "pt": ["abóbora"],
+        "zh": ["南瓜"]
   },
   "reiwa": {
-        "zh": ["令和"],
      "emoji": [Language.L.emoji.reiwa],
         "en": ["reiwa"],
         "es": ["reiwa"],
         "jp": ["令和"],
         "ne": [Language.L.emoji.reiwa],
-        "pt": ["reiwa"]
+        "pt": ["reiwa"],
+        "zh": ["令和"]
   },
   "sample": {
-        "zh": ["样本", "样品", "样"],
      "emoji": [Language.L.emoji.panda],
         "en": ["sample"],
         "es": ["muestra"],
         "jp": ["見本", "試料", "試供品"],
         "ne": ["नमूना"],
-        "pt": ["amostra"]
+        "pt": ["amostra"],
+        "zh": ["样本", "样品", "样"]
   },
   "scale": {
-        "zh": ["测体重"],
      "emoji": [Language.L.emoji.scale],
         "en": ["scale", "weigh-in", "weight"],
         "es": ["balanza", "pesa"],
         "jp": ["体重計", "たいじゅうけい"],
         "ne": ["स्केल", "तौल"],
-        "pt": ["balança", "peso"]
+        "pt": ["balança", "peso"],
+        "zh": ["测体重"]
   },
   "shake": {
-        "zh": ["摇晃"],
      "emoji": [Language.L.emoji.cyclone],
         "en": ["shake", "shaking"],
         "es": ["sacudiéndose", "sacudiendose"],
         "jp": ["ドリパン", "ブルブル", "ゆらゆら"],
         "ne": ["हल्लाउनु"],
-        "pt": ["sacudindo-se"]
+        "pt": ["sacudindo-se"],
+        "zh": ["摇晃"]
   },
   "shedding": {
-        "zh": ["换毛"],
      "emoji": [Language.L.emoji.worry],
         "en": ["shedding", "changing fur", "losing fur", "losing hair"],
         "es": ["mudando", "mudando el pelo", "cambiando el pelo"],
         "jp": ["換毛", "泣いている"],
         "ne": ["सुस्त"],
-        "pt": ["mudando o pelo", "perdendo pelo"]
+        "pt": ["mudando o pelo", "perdendo pelo"],
+        "zh": ["换毛"]
   },
   "shoots": {
-        "zh": ["竹笋"],
      "emoji": [Language.L.emoji.bamboo],
         "en": ["shoots", "shoot"],
         "es": ["brotes"],
         "jp": ["竹の子", "たけのこ"],
         "ne": ["बाँस को टुप्पो"],
-        "pt": ["brotos", "broto"]
+        "pt": ["brotos", "broto"],
+        "zh": ["竹笋"]
   },
   "siblings": {
-        "zh": ["同胞"],
      "emoji": [Language.L.emoji.siblings],
         "en": ["siblings"],
         "es": ["hermanos"],
         "jp": ["兄弟", "きょうだい"],
         "ne": ["भाइबहिनीहरू"],
-        "pt": ["irmãos(ãs)"]
+        "pt": ["irmãos(ãs)"],
+        "zh": ["同胞"]
   },
   "sisters": {
-        "zh": ["姐妹"],
      "emoji": [Language.L.emoji.sisters],
         "en": ["sisters"],
         "es": ["hermanas"],
         "jp": ["姉妹"],
         "ne": ["बहिनीहरू"],
-        "pt": ["irmãs"]
+        "pt": ["irmãs"],
+        "zh": ["姐妹"]
   },
   "sleeping": {
-        "zh": ["睡觉"],
      "emoji": [Language.L.emoji.sleeping],
         "en": ["sleeping", "sleep", "asleep"],
         "es": ["durmiendo", "dormido", "dormida", "durmiéndose", "durmiendose", "dormir"],
         "jp": ["寝ている"],
         "ne": ["सुत्नु", "निद्रा"],
-        "pt": ["dormindo"]
+        "pt": ["dormindo"],
+        "zh": ["睡觉"]
   },
   "slobber": {
-        "zh": ["口水", "流口水"],
      "emoji": [Language.L.emoji.slobber],
         "en": ["slobber", "slobbering"],
         "es": ["babeándo", "babeando", "baba"],
         "jp": ["よだれをたらしている"],
         "ne": ["स्लोबर"],
-        "pt": ["babando", "baba"]
+        "pt": ["babando", "baba"],
+        "zh": ["口水", "流口水"]
   },
   "smile": {
-        "zh": ["笑", "微笑"],
      "emoji": [Language.L.emoji.smile],
         "en": ["smile", "smiling"],
         "es": ["sonriéndo", "sonriendo", "sonreír", "sonreir", "sonriente", "sonrisa"],
         "jp": ["スマイル"],
         "ne": ["हाँसो"],
-        "pt": ["sorrindo", "sorriso", "sorridente"]
+        "pt": ["sorrindo", "sorriso", "sorridente"],
+        "zh": ["笑", "微笑"]
   },
   "snow": {
-        "zh": ["雪"],
      "emoji": [Language.L.emoji.snow],
         "en": ["snow"],
         "es": ["nieve"],
         "jp": ["雪"],
         "ne": ["हिउँ"],
-        "pt": ["neve"]
+        "pt": ["neve"],
+        "zh": ["雪"]
   },
   "spider": {
-        "zh": ["蜘蛛"],
      "emoji": [Language.L.emoji.spider],
         "en": ["spider", "spider-bear", "spider bear"],
         "es": ["araña", "arana"],
         "jp": ["スパイダー"],
         "ne": ["माकुरो", "माकुरो भालु"],
-        "pt": ["panda-aranha", "aranha"]
+        "pt": ["panda-aranha", "aranha"],
+        "zh": ["蜘蛛"]
   },
   "standing": {
-        "zh": ["站立"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["standing", "stand"],
         "es": ["de pie", "parado"],
         "jp": ["立っている"],
         "ne": ["खडा"],
-        "pt": ["de pé", "em pé"]
+        "pt": ["de pé", "em pé"],
+        "zh": ["站立"]
   },
   "stretching": {
-        "zh": ["拉伸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
         "es": ["estirándose", "estirandose"],
         "jp": ["ストレッチしている"],
         "ne": ["तन्नु", "तान्न"],
-        "pt": ["espreguiçando-se"]
+        "pt": ["espreguiçando-se"],
+        "zh": ["拉伸"]
   },
   "surprise": {
-        "zh": ["惊喜"],
      "emoji": [Language.L.emoji.fireworks],
         "en": ["surprise", "surprised"],
         "es": ["sorpresa", "sorprendido", "sorprendida"],
         "jp": ["びっくり"],
         "ne": ["अचम्म"],
-        "pt": ["surpreso", "surpresa", "surpreendido"]
+        "pt": ["surpreso", "surpresa", "surpreendido"],
+        "zh": ["惊喜"]
   },
   "tail": {
-        "zh": ["尾巴"],
      "emoji": [Language.L.emoji.snake],
         "en": ["tail"],
         "es": ["cola"],
         "jp": ["しっぽ"],
         "ne": ["पुच्छर"],
-        "pt": ["cauda", "rabo"]
+        "pt": ["cauda", "rabo"],
+        "zh": ["尾巴"]
   },
   "techitechi": {
-        "zh": ["目标"],
      "emoji": [Language.L.emoji.target],
         "en": ["techitechi", "spot", "cute spot"],
         "es": ["lunares", "lunar"],
         "jp": ["テチテチ"],
         "ne": ["राम्रो स्थान"],
-        "pt": ["pinta", "pintinha"]
+        "pt": ["pinta", "pintinha"],
+        "zh": ["目标"]
   },
   "tongue": {
-        "zh": ["舌"],
      "emoji": [Language.L.emoji.tongue],
         "en": ["tongue"],
         "es": ["lengua"],
         "jp": ["べろ"],
         "ne": ["जिब्रो"],
-        "pt": ["língua"]
+        "pt": ["língua"],
+        "zh": ["舌"]
   },
   "toys": {
-        "zh": ["玩具"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
         "es": ["juguete", "juguetes"],
         "jp": ["遊具", "おもちゃ", "おもちゃ"],
         "ne": ["खेलौना"],
-        "pt": ["brinquedo", "brinquedos"]
+        "pt": ["brinquedo", "brinquedos"],
+        "zh": ["玩具"]
   },
   "tree": {
-        "zh": ["树"],
      "emoji": [Language.L.emoji.tree],
         "en": ["tree", "trees"],
         "es": ["árbol", "arbol", "árboles", "arboles"],
         "jp": ["木"],
         "ne": ["रूख"],
-        "pt": ["árvore", "árvores"]
+        "pt": ["árvore", "árvores"],
+        "zh": ["树"]
   },
   "upside-down": {
-        "zh": ["翻转"],
      "emoji": [Language.L.emoji.upside_down],
         "en": ["upside-down", "upside down"],
         "es": ["al revés", "al reves", "cabeza abajo"],
         "jp": ["逆さま"],
         "ne": ["तलको माथि"],
-        "pt": ["cabeça para baixo", "ponta-cabeça"]
+        "pt": ["cabeça para baixo", "ponta-cabeça"],
+        "zh": ["翻转"]
   },
   "wink": {
-        "zh": ["眨眼"],
      "emoji": [Language.L.emoji.wink],
         "en": ["wink", "winking"],
         "es": ["guiño", "guino"],
         "jp": ["ウィンク"],
         "ne": ["आखा भ्किम्काउनु"],
-        "pt": ["piscando", "piscada", "piscadela", "piscar de olhos"]
+        "pt": ["piscando", "piscada", "piscadela", "piscar de olhos"],
+        "zh": ["眨眼"]
   },
   "wet": {
-        "zh": ["湿"],
      "emoji": [Language.L.emoji.raincloud],
         "en": ["wet"],
         "es": ["mojado", "mojada"],
         "jp": ["濡れた"],
         "ne": ["भिजेको"],
-        "pt": ["molhado", "molhada"]
+        "pt": ["molhado", "molhada"],
+        "zh": ["湿"]
   },
   "white face": {
-        "zh": ["浅色的脸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["white face", "light face"],
         "es": ["cara blanca"],
         "jp": ["色白さん", "しろめん", "白面", "白めん"],
         "ne": ["सेतो अनुहार"],
-        "pt": ["face branca"]
+        "pt": ["face branca"],
+        "zh": ["浅色的脸"]
   },
   "window": {
-        "zh": ["窗"],
      "emoji": [Language.L.emoji.window],
         "en": ["window"],
         "es": ["ventana"],
         "jp": ["窓", "まど"],
         "ne": ["विन्डो"],
-        "pt": ["janela"]
+        "pt": ["janela"],
+        "zh": ["窗"]
   },
   "whiskers": {
-        "zh": ["晶須"],
      "emoji": [Language.L.emoji.whiskers],
         "en": ["whiskers", "whisker"],
         "es": ["bigotes", "bigote"],
         "jp": ["ひげ"],
         "ne": ["फुसफुस"],
-        "pt": ["bigode", "bigodes"]
+        "pt": ["bigode", "bigodes"],
+        "zh": ["晶須"]
   },
   "yawn": {
-        "zh": ["哈欠", "呵欠"],
      "emoji": [Language.L.emoji.yawn],
         "en": ["yawn", "yawning"],
         "es": ["bostezo", "bostezando"],
         "jp": ["あくび"],
         "ne": ["जांभई"],
-        "pt": ["bocejo", "bocejando"]
+        "pt": ["bocejo", "bocejando"],
+        "zh": ["哈欠", "呵欠"]
   }
 }
 
