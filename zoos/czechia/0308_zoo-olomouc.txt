@@ -1,10 +1,10 @@
 [zoo]
 _id: 308
 commitdate: 2022/7/1
-cz.address: Darwinova 222/29, 779 00 Olomouc, Czechia
-cz.location: Olomouc, Czechia
-cz.name: Zoo Olomouc
-cz.othernames: Zoologická Zahrada Olomouc
+cs.address: Darwinova 222/29, 779 00 Olomouc, Czechia
+cs.location: Olomouc, Czechia
+cs.name: Zoo Olomouc
+cs.othernames: Zoologická Zahrada Olomouc
 en.address: Darwinova 222/29, 779 00 Olomouc, Czechia
 en.location: Olomouc, Czechia
 en.name: Zoo Olomouc
