@@ -2,10 +2,10 @@
 _id: 1277
 birthday: unknown
 birthplace: unknown
-ch.name: 爱哭的人
-ch.nicknames: 爱哭
-children: unknown
+cn.name: 爱哭的人
+cn.nicknames: 爱哭
 cn.othernames: none
+children: unknown
 commitdate: 2021/4/11
 en.name: Àikūderén
 en.nicknames: Aiku, Aikuderen
