@@ -197,10 +197,10 @@ Pandas.def.authors = {
 Pandas.def.languages = {
   "en": "en",
   "ja": "ja",
-  "zh": "zh",
   "ne": "ne",
   "es": "es",
-  "pt": "pt"
+  "pt": "pt",
+  "zh": "zh"
 }
 
 // Character ranges
