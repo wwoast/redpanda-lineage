@@ -945,6 +945,15 @@ Show.button.refresh.render = function(class_name="results") {
   refresh.addEventListener("contextmenu", Show.button.refresh.altAction);
   return refresh;
 }
+Show.button.options = {};
+Show.button.options.action = function() {
+  window.location = "#options";
+}
+Show.button.options.render = function(class_name="results") {
+  var options = Show.button.render("optionsButton", L.emoji.options, L.gui.options[L.display], class_name);
+  options.addEventListener("click", Show.button.options.action);
+  return options;
+}
 Show.button.render = function(id, button_icon, button_text, class_name) {
   // Draw menu buttons for the bottom menu, or potentially elsewhere.
   var button = document.createElement('button');
@@ -1018,6 +1027,22 @@ Show.button.tree.render = function(class_name="profile") {
     text.classList.remove("condensed");
   }
   return tree;
+}
+
+/*
+    Show functions used to generate content for the options page.
+*/
+Show.options = {};
+Show.options.body = function() {
+  var container = document.createElement('div');
+  container.id = "contentFrame";
+  container.className = "options";
+
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+
+  container.appendChild(shrinker);
+  return container;
 }
 
 /*
@@ -1454,7 +1479,7 @@ Show.landing.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.landing.menus.bottomButtons = ['topButton', 'refreshButton'];
+Show.landing.menus.bottomButtons = ['topButton', 'refreshButton', 'optionsButton'];
 
 /*
     Show functions used by the profile page for a single animal

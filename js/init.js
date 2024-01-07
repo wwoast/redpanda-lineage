@@ -69,6 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
       Page.media.render();
     } else if (window.location.hash == "#links") {
       Page.links.render();
+    } else if (window.location.hash == "#options") {
+      Page.options.render();
     } else if ((window.location.hash.length > 0) && 
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();
@@ -110,6 +112,8 @@ window.addEventListener('hashchange', function() {
     Page.about.hashchange();
   } else if (mode == "#links") {
     Page.links.hashchange();
+  } else if (mode == "#options") {
+    Page.options.hashchange();
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;

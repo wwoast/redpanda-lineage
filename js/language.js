@@ -259,7 +259,8 @@ Language.L.emoji = {
            "wip": "🚧",
          "worry": "😢",
           "yawn": "😪",
-           "zoo": "🦁"
+           "zoo": "🦁",
+       "options": "⚙️"
 }
 
 // TODO: key on other language versions of country names
@@ -689,6 +690,9 @@ Language.L.gui = {
     "ne": "ताजा गर्नु",
     "pt": "Atualizar",
     "zh": "刷新"
+  },
+  "options": {
+    "en": "Options"
   },
   "search": {
     "en": "Search...",
