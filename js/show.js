@@ -286,7 +286,7 @@ Show.fade = function(el) {
 // Read from info.othernames, and if it's not a language default, 
 // add an alternate spelling to the name information.
 Show.furigana = function(name, othernames) {
-  if (othernames == Pandas.def.animal["jp.othernames"]) {
+  if (othernames == Pandas.def.animal["ja.othernames"]) {
     return false;
   }
   othernames = othernames.split(", ");   // Guarantee array
