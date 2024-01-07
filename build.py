@@ -880,7 +880,7 @@ def vitamin():
         "js/show.js",
         "js/language.js",
         "fragments/en/about.html",
-        "fragments/jp/about.html"
+        "fragments/ja/about.html"
     ]
     for fn in manifest:
         with open(fn, 'r') as rfh:
