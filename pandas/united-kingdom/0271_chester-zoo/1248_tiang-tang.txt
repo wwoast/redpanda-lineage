@@ -3,9 +3,6 @@ _id: 1248
 birthday: 2019/6/22
 birthplace: 271
 children: none
-cn.name: 天堂
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/12/29
 en.name: Tiang Tang
 en.nicknames: none
@@ -17,7 +14,7 @@ gender: f
 ja.name: 天国
 ja.nicknames: none
 ja.othernames: てんごく
-language.order: fr, cn, en, ja
+language.order: fr, zh, en, ja
 litter: 1247
 photo.1: ig://B1ynbbDn_o_/m
 photo.1.author: chesterzoo
@@ -36,4 +33,7 @@ photo.3.link: https://www.instagram.com/chesterzoo/
 photo.3.tags: baby, close-up, portrait, whiskers
 species: 1
 uncertainty: current location
+zh.name: 天堂
+zh.nicknames: none
+zh.othernames: none
 zoo: 271

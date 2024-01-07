@@ -3,9 +3,6 @@ _id: 515
 birthday: 2013/6/21
 birthplace: 107
 children: 581, 833, 1074, 1075
-cn.name: 薛礼
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/2/23
 death: 2019/8/20
 en.name: Xue Li
@@ -27,4 +24,7 @@ photo.1.link: https://www.instagram.com/pippin455/
 photo.1.tags: snow, tail
 species: 1
 studbook.id: 1334
+zh.name: 薛礼
+zh.nicknames: none
+zh.othernames: none
 zoo: 107

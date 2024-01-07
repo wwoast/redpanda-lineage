@@ -2,9 +2,6 @@
 _id: 1277
 birthday: unknown
 birthplace: unknown
-cn.name: 爱哭的人
-cn.nicknames: 爱哭
-cn.othernames: none
 children: unknown
 commitdate: 2021/4/11
 en.name: Àikūderén
@@ -18,4 +15,7 @@ language.order: en, ja
 location.1: unknown, unknown
 location.2: 279, 2015/5/21
 species: 1
+zh.name: 爱哭的人
+zh.nicknames: 爱哭
+zh.othernames: none
 zoo: 279

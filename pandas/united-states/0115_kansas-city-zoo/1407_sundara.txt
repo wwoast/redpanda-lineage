@@ -3,9 +3,6 @@ _id: 1407
 birthday: 2022/5/23
 birthplace: 115
 children: none
-cn.name: 孙达拉
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2023/4/14
 en.name: Sundara
 en.nicknames: none
@@ -22,4 +19,7 @@ photo.1.commitdate: 2023/4/14
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: baby, whiskers
 species: 1
+zh.name: 孙达拉
+zh.nicknames: none
+zh.othernames: none
 zoo: 115

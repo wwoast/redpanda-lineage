@@ -1,8 +1,5 @@
 [zoo]
 _id: 302
-cn.address: 南京市玄武区
-cn.location: 南京市玄武区
-cn.name: 红山森林动物园
 commitdate: 2021/12/2
 en.address: Xuanwu, Nanjing, China
 en.location: Xuanwu, Nanjing, China
@@ -11,8 +8,11 @@ flag: China
 ja.address: unknown
 ja.location: Xuanwu, Nanjing, China
 ja.name: Hongshan Forest Zoo
-language.order: cn, ja, en
+language.order: zh, ja, en
 latitude: 32.091625
 longitude: 118.7998383
 map: https://goo.gl/maps/WeoipsC5itJNqJQe7
 website: unknown
+zh.address: 南京市玄武区
+zh.location: 南京市玄武区
+zh.name: 红山森林动物园

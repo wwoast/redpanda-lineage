@@ -3,9 +3,6 @@ _id: 1330
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 小灰灰
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2021/12/8
 en.name: Little Grey
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: f
 ja.name: 少し灰色
 ja.nicknames: none
 ja.othernames: すこはいいろ
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CT_ZY2SBXlm/m
 photo.1.author: manmanko2
@@ -22,4 +19,7 @@ photo.1.commitdate: 2021/12/8
 photo.1.link: https://www.instagram.com/manmanko2/
 photo.1.tags: paws, portrait, standing, tail
 species: 2
+zh.name: 小灰灰
+zh.nicknames: none
+zh.othernames: none
 zoo: 299

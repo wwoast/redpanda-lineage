@@ -3,9 +3,6 @@ _id: 192
 birthday: 2004/6/17
 birthplace: 17
 children: none
-cn.name: 小堇
-cn.nickname: none
-cn.othernames: none
 commitdate: 2018/7/14
 en.name: Sumire
 en.nicknames: none
@@ -30,4 +27,7 @@ photo.2.link: https://www.instagram.com/yuredpanda/
 photo.2.tags: bamboo, close-up, portrait
 species: 2
 studbook.id: 0460
+zh.name: 小堇
+zh.nickname: none
+zh.othernames: none
 zoo: 55

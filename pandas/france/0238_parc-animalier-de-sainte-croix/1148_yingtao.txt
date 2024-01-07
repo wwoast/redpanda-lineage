@@ -3,9 +3,9 @@ _id: 1148
 birthday: 2014/6/13
 birthplace: 239
 children: unknown
-cn.name: 櫻桃
-cn.nicknames: none
-cn.othernames: none
+zh.name: 櫻桃
+zh.nicknames: none
+zh.othernames: none
 commitdate: 2020/3/27
 en.name: Ying Tao
 en.nicknames: none
@@ -17,7 +17,7 @@ gender: f
 ja.name: インタオ
 ja.nicknames: none
 ja.othernames: none
-language.order: fr, cn, en, ja
+language.order: fr, zh, en, ja
 litter: 1149
 location.1: 239, 2014/6/13
 location.2: 238, 2015/3/6

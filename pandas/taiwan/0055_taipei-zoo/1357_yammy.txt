@@ -3,9 +3,6 @@ _id: 1357
 birthday: 2018/6/24
 birthplace: 55
 children: none
-cn.name: Yammy
-cn.nicknames: none
-cn.othernames: Yummy
 commitdate: 2022/4/19
 en.name: Yammy
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: m
 ja.name: ヤミー
 ja.nicknames: none
 ja.othernames: ユミー
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: none
 photo.1: ig://CaPGZzCvTDH/m
 photo.1.author: yuredpanda
@@ -32,4 +29,7 @@ photo.3.commitdate: 2022/7/3
 photo.3.link: https://www.instagram.com/yuredpanda/
 photo.3.tags: portrait, smile, tail
 species: 2
+zh.name: Yammy
+zh.nicknames: none
+zh.othernames: Yummy
 zoo: 55

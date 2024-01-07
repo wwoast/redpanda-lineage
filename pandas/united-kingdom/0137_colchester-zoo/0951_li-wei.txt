@@ -3,9 +3,6 @@ _id: 951
 birthday: 2011/6/22
 birthplace: 199
 children: 539, 685, 953, 996, 997
-cn.name: 立偉
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/22
 en.name: Li-Wei
 en.nicknames: none
@@ -49,4 +46,7 @@ photo.6.commitdate: 2021/6/14
 photo.6.link: https://www.instagram.com/colchester_zoo/
 photo.6.tags: apple time, close-up, portrait, smile
 species: 1
+zh.name: 立偉
+zh.nicknames: none
+zh.othernames: none
 zoo: 137

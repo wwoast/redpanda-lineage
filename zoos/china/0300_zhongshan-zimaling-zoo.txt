@@ -1,8 +1,5 @@
 [zoo]
 _id: 300
-cn.address: unknown
-cn.location: 中山市广东省中国
-cn.name: 紫马岭动物园
 commitdate: 2021/12/2
 en.address: unknown
 en.location: Zhongshan, Guangdong, China
@@ -11,9 +8,12 @@ flag: China
 ja.address: unknown
 ja.location: Zhongshan, Guangdong, China
 ja.name: Zhongshan ZiMaLing Zoo
-language.order: cn, ja, en
+language.order: zh, ja, en
 latitude: 22.511414
 longitude: 113.2659403
 map: https://goo.gl/maps/N9RFTcYVp3tZp1R69
 uncertainty: exact location of zoo (map data is for Zhongshan)
 website: unknown
+zh.address: unknown
+zh.location: 中山市广东省中国
+zh.name: 紫马岭动物园

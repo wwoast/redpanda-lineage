@@ -3,9 +3,6 @@ _id: 374
 birthday: 2003/6/16
 birthplace: 10
 children: none
-cn.name: 暢暢
-cn.nickname: none
-cn.othernames: none
 commitdate: 2018/10/27
 death: 2021/4/1
 en.name: Non-Non
@@ -23,4 +20,7 @@ location.3: 55, 2005/12/15
 species: 2
 studbook.id: 0360
 uncertainty: exact day of death (reported by RPF forms)
+zh.name: 暢暢
+zh.nickname: none
+zh.othernames: none
 zoo: 55

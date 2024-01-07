@@ -2,10 +2,7 @@
 _id: 1351
 birthday: 2015/6/20
 birthplace: 55
-children: unknown
-cn.name: 可玥
-cn.nicknames: none
-cn.othernames: none
+children: unknownzh.name: 可玥
 commitdate: 2022/4/20
 en.name: Keyue
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: f
 ja.name: ケユェ
 ja.nicknames: none
 ja.othernames: none
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: 1352
 photo.1: ig://CXPi0eWBTRj/m
 photo.1.author: yuredpanda
@@ -162,4 +159,7 @@ photo.29.commitdate: 2023/6/20
 photo.29.link: https://www.instagram.com/yuredpanda/
 photo.29.tags: bamboo, mofumofu, peek, portrait, sample
 species: 2
+zh.name: 可玥
+zh.nicknames: none
+zh.othernames: none
 zoo: 55

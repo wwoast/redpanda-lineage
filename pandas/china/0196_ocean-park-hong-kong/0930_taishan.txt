@@ -3,9 +3,6 @@ _id: 930
 birthday: unknown
 birthplace: 195
 children: unknown
-cn.name: 泰山
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/10
 en.name: Tai-Shan
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: m
 ja.name: タイシャン
 ja.nicknames: none
 ja.othernames: 泰山
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
@@ -78,4 +75,7 @@ photo.12.commitdate: 2020/9/20
 photo.12.link: https://www.instagram.com/redpanda_tata/
 photo.12.tags: portrait, smile, whiskers
 species: 2
+zh.name: 泰山
+zh.nicknames: none
+zh.othernames: none
 zoo: 196

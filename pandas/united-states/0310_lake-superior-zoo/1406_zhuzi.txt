@@ -3,9 +3,6 @@ _id: 1406
 birthday: 2022/5/23
 birthplace: 115
 children: none
-cn.name: 竹子
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2023/4/14
 en.name: Zhuzi
 en.nicknames: none
@@ -35,4 +32,7 @@ photo.3.link: https://www.instagram.com/lakesuperiorzoo/
 photo.3.tags: smile, white face
 species: 1
 uncertainty: location.2 exact move date
+zh.name: 竹子
+zh.nicknames: none
+zh.othernames: none
 zoo: 310

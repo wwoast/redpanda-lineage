@@ -3,9 +3,6 @@ _id: 932
 birthday: unknown
 birthplace: 195
 children: unknown
-cn.name: 聰聰
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/10
 en.name: Cong-Cong
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: m
 ja.name: コンコン
 ja.nicknames: none
 ja.othernames: 聰聰
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
@@ -84,4 +81,7 @@ photo.13.commitdate: 2020/3/3
 photo.13.link: https://www.instagram.com/redpanda_tata/
 photo.13.tags: bite, keeper, lunch time, portrait
 species: 2
+zh.name: 聰聰
+zh.nicknames: none
+zh.othernames: none
 zoo: 196

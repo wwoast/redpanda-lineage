@@ -3,9 +3,6 @@ _id: 1359
 birthday: 2021/7/6
 birthplace: 55
 children: none
-cn.name: 可麗露
-cn.nicknames: Lulu
-cn.othernames: none
 commitdate: 2022/4/20
 en.name: Canele
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: m
 ja.name: カヌレ
 ja.nicknames: none
 ja.othernames: none
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: none
 photo.1: ig://CYkPzSfBfMs/m
 photo.1.author: yuredpanda
@@ -277,4 +274,7 @@ photo.52.commitdate: 2023/7/31
 photo.52.link: https://www.instagram.com/yuredpanda/
 photo.52.tags: peek, tail
 species: 2
+zh.name: 可麗露
+zh.nicknames: Lulu
+zh.othernames: none
 zoo: 55

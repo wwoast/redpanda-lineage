@@ -3,9 +3,6 @@ _id: 1403
 birthday: 2006/6/7
 birthplace: 65
 children: unknown
-cn.name: 农人
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2023/2/22
 death: 2014/5/25
 en.name: Big George
@@ -25,4 +22,7 @@ location.5: 76, 2013/9/11
 location.6: 82, 2014/5/25
 species: 2
 studbook.id: 0604
+zh.name: 农人
+zh.nicknames: none
+zh.othernames: none
 zoo: 82

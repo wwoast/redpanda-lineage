@@ -3,9 +3,6 @@ _id: 1103
 birthday: unknown
 birthplace: unknown
 children: 1104, 1071
-cn.name: 悦悦
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/2/5
 en.name: Yue-Yue
 en.nicknames: none
@@ -14,7 +11,7 @@ gender: m
 ja.name: 悦悦
 ja.nicknames: none
 ja.othernames: ユェユェ
-language.order: cn, en, ja
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://B7SwwfgnCW2/m
 photo.1.author: mkr0369
@@ -27,4 +24,7 @@ photo.2.commitdate: 2020/2/28
 photo.2.link: https://www.instagram.com/mkr0369/
 photo.2.tags: portrait, tail
 species: 2
+zh.name: 悦悦
+zh.nicknames: none
+zh.othernames: none
 zoo: 236

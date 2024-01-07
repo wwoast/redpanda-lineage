@@ -3,9 +3,6 @@ _id: 508
 birthday: 2013/6/18
 birthplace: 105
 children: 1372, 1373
-cn.name: 朱
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/2/23
 en.name: Zhu
 en.nicknames: none
@@ -75,4 +72,7 @@ photo.11.link: https://www.instagram.com/carsontheredpanda/
 photo.11.tags: bamboo, close-up
 species: 1
 studbook.id: 1325
+zh.name: 朱
+zh.nicknames: none
+zh.othernames: none
 zoo: 117

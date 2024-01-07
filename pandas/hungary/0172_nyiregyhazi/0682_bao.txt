@@ -3,9 +3,6 @@ _id: 682
 birthday: 2013/7/14
 birthplace: 150
 children: 1314
-cn.name: 宝
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/3/24
 en.name: Bao
 en.nicknames: none
@@ -23,4 +20,7 @@ location.1: 150, 2013/7/14
 location.2: 172, 2014/7/30
 species: 1
 studbook.id: 13127
+zh.name: 宝
+zh.nicknames: none
+zh.othernames: none
 zoo: 172

@@ -3,9 +3,6 @@ _id: 1236
 birthday: 2011/6/24
 birthplace: 267
 children: 1240
-cn.name: 凯
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/11/26
 death: 2017/7/12
 en.name: Ambrus
@@ -18,7 +15,7 @@ hu.othernames: none
 ja.name: アンブルス
 ja.nicknames: none
 ja.othernames: カイ
-language.order: hu, en, cn
+language.order: hu, en, zh
 litter: unknown
 location.1: 267, 2011/6/24
 location.2: 265, 2012/11/7
@@ -58,4 +55,7 @@ photo.7.commitdate: 2020/11/26
 photo.7.link: https://www.instagram.com/balathruin/
 photo.7.tags: ear, nose, tail
 species: 1
+zh.name: 凯
+zh.nicknames: none
+zh.othernames: none
 zoo: 265

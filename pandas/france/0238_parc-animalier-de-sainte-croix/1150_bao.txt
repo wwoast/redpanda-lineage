@@ -3,9 +3,6 @@ _id: 1150
 birthday: 2014/6/21
 birthplace: unknown
 children: unknown
-cn.name: 宝
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/3/27
 en.name: Bao
 en.nicknames: none
@@ -17,7 +14,7 @@ gender: f
 ja.name: バオ
 ja.nicknames: none
 ja.othernames: none
-language.order: fr, cn, en, ja
+language.order: fr, zh, en, ja
 litter: unknown
 location.1: unknown, 2014/6/21
 location.2: 238, 2015/3/6
@@ -97,4 +94,7 @@ photo.15.commitdate: 2020/9/26
 photo.15.link: https://www.instagram.com/nathalie.elliott/
 photo.15.tags: smile, whiskers, wink
 species: 1
+zh.name: 宝
+zh.nicknames: none
+zh.othernames: none
 zoo: 238
