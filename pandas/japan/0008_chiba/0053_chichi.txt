@@ -9,10 +9,10 @@ en.name: Chi-Chi
 en.nicknames: none
 en.othernames: Chii-Chii, Chichi, Chiichii, Tyi-Tyi, Tyityi
 gender: f
-jp.name: チィチィ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チィチィ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 220, 374
 location.1: 10, 2003/6/16
 location.2: 8, 2005/3/7

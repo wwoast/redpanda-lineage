@@ -9,10 +9,10 @@ en.name: Shota
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ショタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ショタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 41, 1997/7/12
 location.2: 21, 2002/2/10

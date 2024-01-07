@@ -5,10 +5,10 @@ en.address: 2172 Funakoshicho, Sasebo, Nagasaki Prefecture 857-1231, Japan
 en.location: Sasebo, Nagasaki Prefecture, Japan
 en.name: Kujukushima Zoological and Botanical Garden Morikirara
 flag: Japan
-jp.address: 〒857-1231 長崎県佐世保市船越町2172
-jp.location: 佐世保市 長崎県
-jp.name: 西海国立公園九十九島動植物園
-language.order: jp, en
+ja.address: 〒857-1231 長崎県佐世保市船越町2172
+ja.location: 佐世保市 長崎県
+ja.name: 西海国立公園九十九島動植物園
+language.order: ja, en
 latitude: 33.1512305
 longitude: 129.6873023
 map: https://goo.gl/maps/1pRgFW9fo9v

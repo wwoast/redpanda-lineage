@@ -9,10 +9,10 @@ en.name: Rocky
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ロッキー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ロッキー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 836
 location.1: 141, 2007/6/23
 location.2: 189, 2008/4/28

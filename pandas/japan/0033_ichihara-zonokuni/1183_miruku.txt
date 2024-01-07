@@ -9,10 +9,10 @@ en.name: Miruku
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ミルク
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミルク
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 464
 species: 2
 zoo: 33

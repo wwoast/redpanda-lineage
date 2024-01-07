@@ -8,10 +8,10 @@ en.name: Shingen
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シンゲン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シンゲン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 location.1: 10, 2011/6/18
 location.2: 11, 2014/11/13
 photo.1: ig://BN4Dc6_g7fk/m

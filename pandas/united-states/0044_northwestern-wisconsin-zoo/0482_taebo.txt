@@ -9,10 +9,10 @@ en.name: Tae-Bo
 en.nicknames: none
 en.othernames: Taebo
 gender: m
-jp.name: タエポー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タエポー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 65, 1998/6/27
 location.2: 105, 1999/6/17

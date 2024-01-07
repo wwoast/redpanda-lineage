@@ -9,10 +9,10 @@ en.name: Ju-Long
 en.nicknames: none
 en.othernames: Julong
 gender: m
-jp.name: 傑長々
-jp.nicknames: none
-jp.othernames: ジュロン
-language.order: en, jp
+ja.name: 傑長々
+ja.nicknames: none
+ja.othernames: ジュロン
+language.order: en, ja
 litter: 793
 location.1: 124, 1998/6/19
 location.2: 95, 2000/2/29

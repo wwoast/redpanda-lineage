@@ -11,10 +11,10 @@ fr.name: Kuschbuh
 fr.nicknames: none
 fr.othernames: Kushbu
 gender: f
-jp.name: クシュブ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, en, jp
+ja.name: クシュブ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, en, ja
 litter: 1154
 location.1: 214, 2014/7/16
 location.2: 244, 2015/10/2

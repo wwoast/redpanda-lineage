@@ -11,10 +11,10 @@ fr.name: Mohan
 fr.nicknames: none
 fr.othernames: none
 gender: m
-jp.name: モハン
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, en, jp
+ja.name: モハン
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, en, ja
 litter: 1313
 photo.1: ig://CTrG81FsBts/m
 photo.1.author: nathalie.elliott

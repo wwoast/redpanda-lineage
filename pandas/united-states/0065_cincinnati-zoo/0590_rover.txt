@@ -9,10 +9,10 @@ en.name: Rover
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ローバー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローバー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 473
 location.1: 76, 2005/5/16
 location.2: 43, 2006/10/31

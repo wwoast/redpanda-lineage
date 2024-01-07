@@ -8,10 +8,10 @@ en.name: Joanie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ジョアニー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジョアニー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1139
 location.1: 121, 2019/6/20
 location.2: 75, 2020/12/1

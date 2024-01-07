@@ -9,10 +9,10 @@ en.name: Huu-Huu
 en.nicknames: none
 en.othernames: Hu-Hu, Huuhuu
 gender: m
-jp.name: 風風
-jp.nicknames: none
-jp.othernames: フウフウ
-language.order: jp, en
+ja.name: 風風
+ja.nicknames: none
+ja.othernames: フウフウ
+language.order: ja, en
 litter: 669
 location.1: 52, 1999/7/7
 location.2: 50, 2003/3/5

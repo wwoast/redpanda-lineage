@@ -3,18 +3,15 @@ _id: 1108
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 小五
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/2/5
 en.name: Xiao-Wu
 en.nicknames: none
 en.othernames: Xiaowu, Five
 gender: m
-jp.name: 小五
-jp.nicknames: none
-jp.othernames: シャウー
-language.order: cn, en, jp
+ja.name: 小五
+ja.nicknames: none
+ja.othernames: シャウー
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://B7SvyohHCrW/m
 photo.1.author: mkr0369
@@ -42,4 +39,7 @@ photo.5.commitdate: 2020/3/15
 photo.5.link: https://www.instagram.com/mkr0369/
 photo.5.tags: laying down, paws, portrait, tail
 species: 2
+zh.name: 小五
+zh.nicknames: none
+zh.othernames: none
 zoo: 236

@@ -8,10 +8,10 @@ en.name: Zayn
 en.nicknames: none
 en.othernames: Zhen, Chen
 gender: f
-jp.name: ジェン
-jp.nicknames: none
-jp.othernames: none
-language.order: ru, en, jp
+ja.name: ジェン
+ja.nicknames: none
+ja.othernames: none
+language.order: ru, en, ja
 litter: 682
 location.1: 150, 2013/7/14
 location.2: 149, 2014/10/4

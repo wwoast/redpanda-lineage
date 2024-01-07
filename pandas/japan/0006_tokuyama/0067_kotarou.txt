@@ -9,10 +9,10 @@ en.name: Kotarou
 en.nicknames: none
 en.othernames: Kotaro
 gender: m
-jp.name: コタロウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コタロウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 83
 location.1: 17, 2006/6/22
 location.2: 6, 2008/5/27

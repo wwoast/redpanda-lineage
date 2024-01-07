@@ -8,10 +8,10 @@ en.name: Lottie
 en.nicknames: none
 en.othernames: Charlotte
 gender: f
-jp.name: ロティ
-jp.nicknames: none
-jp.othernames: シャーロット
-language.order: en, jp
+ja.name: ロティ
+ja.nicknames: none
+ja.othernames: シャーロット
+language.order: en, ja
 litter: 1399
 location.1: 126, 2020/8/17
 location.2: 157, 2022/6/1

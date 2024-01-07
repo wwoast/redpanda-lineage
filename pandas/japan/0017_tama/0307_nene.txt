@@ -9,10 +9,10 @@ en.name: Nene
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 寧々
-jp.nicknames: none
-jp.othernames: ネネ, 寧寧
-language.order: jp, en
+ja.name: 寧々
+ja.nicknames: none
+ja.othernames: ネネ, 寧寧
+language.order: ja, en
 litter: 707
 location.1: 41, 1993/7/11
 location.2: 17, 1995/2/14

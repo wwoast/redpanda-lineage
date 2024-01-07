@@ -9,10 +9,10 @@ en.name: Xiao-Li
 en.nicknames: none
 en.othernames: Xiaoli
 gender: m
-jp.name: シャオリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャオリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 404
 photo.1: https://www.codaworry.com/images/rpf/xiaoli-1-binghamton.jpg
 photo.1.author: worldthathesees

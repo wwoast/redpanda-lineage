@@ -8,10 +8,10 @@ en.name: Rii-Rii
 en.nicknames: none
 en.othernames: Riirii
 gender: f
-jp.name: 梨梨
-jp.nicknames: none
-jp.othernames: リーリー
-language.order: jp, en
+ja.name: 梨梨
+ja.nicknames: none
+ja.othernames: リーリー
+language.order: ja, en
 litter: 235
 location.1: 37, 2018/7/11
 location.2: 69, 2021/2/3

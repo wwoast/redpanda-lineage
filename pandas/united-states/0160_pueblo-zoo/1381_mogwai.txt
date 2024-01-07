@@ -8,10 +8,10 @@ en.name: Mogwai
 en.nicknames: none
 en.othernames: Mowgi, Mowgli
 gender: m
-jp.name: モーグリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: モーグリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1382
 photo.1: ig://CRhuVIRlSas/m
 photo.1.author: pueblozoo

@@ -8,10 +8,10 @@ en.name: Hikaru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 輝
-jp.nicknames: none
-jp.othernames: ヒカル
-language.order: jp, en
+ja.name: 輝
+ja.nicknames: none
+ja.othernames: ヒカル
+language.order: ja, en
 litter: 177
 photo.1: ig://BcEzsI2lefs/m
 photo.1.author: hanamaru_redpanda

@@ -3,19 +3,16 @@ _id: 1328
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 多多
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2021/12/8
 death: 2021/7/1
 en.name: Duo-Duo
 en.nicknames: none
 en.othernames: Duoduo
 gender: f
-jp.name: タオタオ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: タオタオ
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CMCWQHxBTaw/m
 photo.1.author: manmanko2
@@ -24,4 +21,7 @@ photo.1.link: https://www.instagram.com/manmanko2/
 photo.1.tags: dish, portrait, whiskers
 species: 2
 uncertainty: death date, month/day in 2021
+zh.name: 多多
+zh.nicknames: none
+zh.othernames: none
 zoo: 297

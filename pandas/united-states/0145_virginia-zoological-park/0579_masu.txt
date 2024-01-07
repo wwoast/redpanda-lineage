@@ -8,10 +8,10 @@ en.name: Masu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ます
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ます
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 687
 location.1: 131, 2016/6/6
 location.2: 145, 2017/4/19

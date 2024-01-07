@@ -9,10 +9,10 @@ en.name: Meeko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ミーコ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミーコ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 384, 422
 location.1: 43, 2014/6/20
 location.2: 83, 2015/5/13

@@ -8,10 +8,10 @@ en.name: Mitsu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 光
-jp.nicknames: none
-jp.othernames: みつ, ミツ
-language.order: jp, en
+ja.name: 光
+ja.nicknames: none
+ja.othernames: みつ, ミツ
+language.order: ja, en
 litter: 184
 photo.1: ig://BMeBKMQgfWH/m
 photo.1.author: chiyo_redpanda

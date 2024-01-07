@@ -8,10 +8,10 @@ en.name: Nokaze
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 野風
-jp.nicknames: none
-jp.othernames: ノカゼ
-language.order: jp, en
+ja.name: 野風
+ja.nicknames: none
+ja.othernames: ノカゼ
+language.order: ja, en
 litter: none
 location.1: 15, 2009/6/25
 location.2: 41, 2010/12/14

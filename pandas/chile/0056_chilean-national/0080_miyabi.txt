@@ -8,10 +8,10 @@ en.name: Miyabi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ミヤビ
-jp.nicknames: none
-jp.othernames: 雅
-language.order: jp, en
+ja.name: ミヤビ
+ja.nicknames: none
+ja.othernames: 雅
+language.order: ja, en
 litter: none
 location.1: 9, 2017/6/25
 location.2: 56, 2022/6/12

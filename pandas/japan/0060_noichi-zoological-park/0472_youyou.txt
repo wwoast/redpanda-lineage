@@ -9,10 +9,10 @@ en.name: You-You
 en.nicknames: none
 en.othernames: Youyou
 gender: m
-jp.name: 葉葉
-jp.nicknames: none
-jp.othernames: ユウユウ
-language.order: jp, en
+ja.name: 葉葉
+ja.nicknames: none
+ja.othernames: ユウユウ
+language.order: ja, en
 litter: 50, 549
 location.1: 17, 1997/6/20
 location.2: 60, 1998/12/4

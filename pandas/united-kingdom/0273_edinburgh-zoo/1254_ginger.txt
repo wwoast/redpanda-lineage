@@ -8,10 +8,10 @@ en.name: Ginger
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ジンジャー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジンジャー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 photo.1: ig://B_hURjWJVKK/m
 photo.1.author: Edinburgh Zoo
 photo.1.commitdate: 2021/4/7

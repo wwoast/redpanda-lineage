@@ -9,10 +9,10 @@ en.name: Ila
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: イラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 325
 location.1: 67, 2018/6/19
 location.2: 96, 2019/9/18

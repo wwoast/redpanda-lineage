@@ -9,10 +9,10 @@ en.name: Ren-Fa
 en.nicknames: none
 en.othernames: Renfa
 gender: f
-jp.name: 蓮花
-jp.nicknames: none
-jp.othernames: レンファ
-language.order: jp, en
+ja.name: 蓮花
+ja.nicknames: none
+ja.othernames: レンファ
+language.order: ja, en
 litter: none
 species: 2
 studbook.id: 9699

@@ -8,10 +8,10 @@ en.name: Roji
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ロジ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ロジ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 646
 location.1: 113, 2016/7/2
 location.2: 167, 2017/5/2

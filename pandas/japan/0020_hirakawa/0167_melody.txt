@@ -8,10 +8,10 @@ en.name: Melody
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: メロディ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: メロディ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 166
 location.1: 36, 2017/7/6
 location.2: 20, 2019/4/18

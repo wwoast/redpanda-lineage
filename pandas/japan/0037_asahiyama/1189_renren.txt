@@ -8,10 +8,10 @@ en.name: Ren-Ren
 en.nicknames: none
 en.othernames: Renren
 gender: m
-jp.name: 蓮蓮
-jp.nicknames: none
-jp.othernames: レンレン
-language.order: jp, en
+ja.name: 蓮蓮
+ja.nicknames: none
+ja.othernames: レンレン
+language.order: ja, en
 litter: 1190
 photo.1: ig://CGKcvg9B-wb/m
 photo.1.author: monmon_redpanda

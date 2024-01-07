@@ -8,10 +8,10 @@ en.name: Mushu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ムシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ムシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: unknown, 2016/6/7
 location.2: 278, unknown
 location.3: 277, 2019/1/4

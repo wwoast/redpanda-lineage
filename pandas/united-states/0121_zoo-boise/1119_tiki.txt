@@ -9,10 +9,10 @@ en.name: Tiki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ティキ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ティキ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1120
 location.1: 118, 1996/6/14
 location.2: 85, 1997/2/20

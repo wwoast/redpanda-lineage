@@ -668,7 +668,7 @@ Show.button.about.render = function(class_name="results") {
 Show.button.flag = {};
 Show.button.flag.action = function() {
   var language = this.id.replace("LanguageFlag", "");
-  var options = Object.values(Pandas.def.languages);
+  var options = Pandas.def.languages;
   var choice = options.indexOf(language);
   // Don't redraw unless the language exists, or has
   // changed from the current display language.
@@ -729,7 +729,7 @@ Show.button.language.action = function() {
 Show.button.language.altAction = function(e) {
   e.preventDefault();
   var language = L.display;
-  var options = Object.values(Pandas.def.languages);
+  var options = Pandas.def.languages;
   var count = options.length;
   var choice = (options.indexOf(language) + 1) % count;
   L.display = options[choice];
@@ -850,7 +850,7 @@ Show.button.paging.render = function(class_name) {
   });
   // English and Japanese text is too wide
   var text = paging.childNodes[0].childNodes[1];
-  if (L.display == "jp") {
+  if (L.display == "ja") {
     text.classList.add("condensed");
   } else {
     text.classList.remove("condensed");
@@ -887,7 +887,7 @@ Show.button.profile.render = function(class_name="profile", panda_id) {
   profile.addEventListener("contextmenu", Show.button.profile.altAction);
   // Japanese text is too wide
   var text = profile.childNodes[0].childNodes[1];
-  if (L.display == "jp") {
+  if (L.display == "ja") {
     text.classList.add("condensed");
   } else {
     text.classList.remove("condensed");
@@ -1012,7 +1012,7 @@ Show.button.tree.render = function(class_name="profile") {
   var tree = Show.button.render("treeButton", L.emoji.wip, L.gui.family[L.display], class_name);
   // Japanese text is too wide
   var text = tree.childNodes[0].childNodes[1];
-  if (L.display == "jp") {
+  if (L.display == "ja") {
     text.classList.add("condensed");
   } else {
     text.classList.remove("condensed");
@@ -1420,7 +1420,7 @@ Show.landing = {};
 Show.landing.menus = {};
 Show.landing.menus.language = function(class_color) {
   // Draw the language select menu, but it will be hidden initially
-  var languages = Object.values(Pandas.def.languages);
+  var languages = Pandas.def.languages;
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   for (let language of languages) {
@@ -2197,7 +2197,7 @@ Show.results.pandaName = function(info) {
   var name_div = document.createElement('div');
   name_div.className = 'pandaName';
   // In Japanese, display one of the "othernames" as furigana
-  if (language == "jp") {
+  if (language == "ja") {
     name_div.innerText = info.name;
     var furigana = Show.furigana(info.name, info.othernames);
     if (furigana != false) {

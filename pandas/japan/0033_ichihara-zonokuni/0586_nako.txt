@@ -9,10 +9,10 @@ en.name: Nako
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ナコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 465
 species: 2
 studbook.id: 12111

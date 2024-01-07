@@ -8,10 +8,10 @@ en.name: Fuuka
 en.nicknames: none
 en.othernames: Fuka, Fūka
 gender: f
-jp.name: 風花
-jp.nicknames: none
-jp.othernames: フウカ
-language.order: jp, en
+ja.name: 風花
+ja.nicknames: none
+ja.othernames: フウカ
+language.order: ja, en
 litter: 48
 location.1: 8, 2006/6/2
 location.2: 6, 2008/6/30

@@ -5,10 +5,10 @@ en.address: Japan, 〒085-0201 Hokkaido, Kushiro, 阿寒町下仁々志別11
 en.location: Kushiro, Kushiro Subprefecture, Hokkaido, Japan
 en.name: Kushiro City Zoo
 flag: Japan
-jp.address: 〒085-0201 北海道釧路市阿寒町下仁々志別11
-jp.location: 釧路市 釧路総合振興局
-jp.name: 釧路市動物園
-language.order: jp, en
+ja.address: 〒085-0201 北海道釧路市阿寒町下仁々志別11
+ja.location: 釧路市 釧路総合振興局
+ja.name: 釧路市動物園
+language.order: ja, en
 latitude: 43.0812619
 longitude: 144.2343677
 map: https://goo.gl/maps/8JVH1ftPJHm

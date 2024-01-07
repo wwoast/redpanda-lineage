@@ -9,10 +9,10 @@ en.name: Lizzie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: リジー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リジー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 512, 513
 location.1: 114, 2015/5/31
 location.2: 119, 2016/4/14

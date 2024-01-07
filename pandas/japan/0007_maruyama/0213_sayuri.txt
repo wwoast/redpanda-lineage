@@ -8,10 +8,10 @@ en.name: Sayuri
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 小百合
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 小百合
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 212
 location.1: 26, 2016/7/13
 location.2: 7, 2022/11/2

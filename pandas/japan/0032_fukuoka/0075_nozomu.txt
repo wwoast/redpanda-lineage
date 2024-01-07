@@ -8,10 +8,10 @@ en.name: Nozomu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ノゾム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ノゾム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 91
 location.1: 10, 2012/7/5
 location.2: 32, 2016/4/10

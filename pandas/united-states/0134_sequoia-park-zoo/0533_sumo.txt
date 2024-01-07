@@ -8,10 +8,10 @@ en.name: Sumo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: すも
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: すも
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 532, 798, 799
 location.1: 131, 2009/7/9
 location.2: 134, 2010/5/18

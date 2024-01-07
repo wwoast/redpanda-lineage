@@ -3,18 +3,15 @@ _id: 15
 birthday: 2011/6/5
 birthplace: 5
 children: 96, 118, 288, 5, 241
-cn.name: 烏龍
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2018/6/10
 en.name: Oolong
 en.nicknames: Wu-Ron
 en.othernames: Oolomg
 gender: m
-jp.name: ウーロン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, cn, en
+ja.name: ウーロン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, zh, en
 litter: unknown
 location.1: 5, 2011/6/5
 location.2: 2, 2013/3/30
@@ -1185,4 +1182,7 @@ photo.235.link: https://www.instagram.com/jas_forever_love/
 photo.235.tags: apple time, portrait, toys
 species: 2
 studbook.id: 11131
+zh.name: 烏龍
+zh.nicknames: none
+zh.othernames: none
 zoo: 2

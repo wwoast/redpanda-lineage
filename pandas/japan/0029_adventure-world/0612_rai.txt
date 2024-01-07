@@ -9,10 +9,10 @@ en.name: Rai
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ライ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 471
 species: 2
 studbook.id: 98033

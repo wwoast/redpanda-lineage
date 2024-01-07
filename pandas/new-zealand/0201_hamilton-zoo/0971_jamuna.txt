@@ -8,10 +8,10 @@ en.name: Jamuna
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ジャムナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジャムナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 972
 photo.1: ig://BjrYgE6BtqW/m
 photo.1.author: hamiltonzoo

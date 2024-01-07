@@ -9,10 +9,10 @@ en.name: Rai-Rai
 en.nicknames: none
 en.othernames: Lai-Lai, Rairai, Lailai
 gender: m
-jp.name: ライライ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライライ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 2008/7/1
 location.2: 18, 2011/6/3

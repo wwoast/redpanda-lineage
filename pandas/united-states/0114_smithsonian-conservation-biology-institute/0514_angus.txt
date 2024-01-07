@@ -9,10 +9,10 @@ en.name: Angus
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: アンガス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アンガス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 121, 2010/6/24
 location.2: 107, 2011/1/26

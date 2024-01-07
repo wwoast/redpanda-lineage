@@ -8,10 +8,10 @@ en.name: Keti
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケティ
-jp.nicknames: none
-jp.othernames: 
-language.order: en, jp
+ja.name: ケティ
+ja.nicknames: none
+ja.othernames: 
+language.order: en, ja
 litter: none
 photo.1: ig://B4z1Sr1A5lC/m
 photo.1.author: detroitzoo

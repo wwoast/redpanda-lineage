@@ -9,10 +9,10 @@ en.name: Dusk
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ドゥシュコ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ドゥシュコ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 603
 location.1: 76, 2004/6/2
 location.2: 94, 2005/8/25

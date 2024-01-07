@@ -8,10 +8,10 @@ en.name: Vanda
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: バンダ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: バンダ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1065
 location.1: 72, 2017/6/12
 location.2: 182, 2018/4/8

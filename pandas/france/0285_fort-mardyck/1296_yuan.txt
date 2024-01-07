@@ -8,10 +8,10 @@ en.name: Yuan
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ユアン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ユアン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 285, unknown
 species: unknown
 zoo: 285

@@ -9,10 +9,10 @@ en.name: Aiai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アイアイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アイアイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 76
 location.1: 6, 2002/7/17
 location.2: 3, 2007/1/31

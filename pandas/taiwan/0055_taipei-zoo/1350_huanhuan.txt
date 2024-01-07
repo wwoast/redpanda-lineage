@@ -3,18 +3,15 @@ _id: 1350
 birthday: 2007/7/3
 birthplace: 291
 children: 1351, 1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359
-cn.name: 歡歡
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2022/4/18
 en.name: Huanhuan
 en.nicknames: none
 en.othernames: Huan-Huan
 gender: m
-jp.name: ファンファン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ファンファン
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 location.1: 291, 2007/7/3
 location.2: 55, 2014/6/6
@@ -34,4 +31,7 @@ photo.3.commitdate: 2022/7/28
 photo.3.link: https://www.instagram.com/yuredpanda/
 photo.3.tags: portrait, whiskers
 species: 2
+zh.name: 歡歡
+zh.nicknames: none
+zh.othernames: none
 zoo: 55

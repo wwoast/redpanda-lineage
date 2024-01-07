@@ -8,10 +8,10 @@ en.name: Akatsuki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: あかつき
-jp.nicknames: none
-jp.othernames: 暁
-language.order: jp, en
+ja.name: あかつき
+ja.nicknames: none
+ja.othernames: 暁
+language.order: ja, en
 litter: 317, 318
 photo.1: https://www.codaworry.com/images/rpf/akatsuki-daniele-tokyo.jpg
 photo.1.author: daniele.tokyo

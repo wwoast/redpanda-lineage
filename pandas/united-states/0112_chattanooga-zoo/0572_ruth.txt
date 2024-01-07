@@ -9,10 +9,10 @@ en.name: Ruth
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ルース
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルース
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 907
 location.1: 108, 2004/7/18
 location.2: 107, 2005/12/12

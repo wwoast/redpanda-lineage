@@ -9,10 +9,10 @@ en.name: Mei-Mei
 en.nicknames: none
 en.othernames: Meimei
 gender: f
-jp.name: リンリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リンリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 41, 1990/6/21
 location.2: 35, 1998/7/23

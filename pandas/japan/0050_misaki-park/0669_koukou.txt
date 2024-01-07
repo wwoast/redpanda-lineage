@@ -9,10 +9,10 @@ en.name: Kou-Kou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 光光
-jp.nicknames: none
-jp.othernames: コウコウ
-language.order: jp, en
+ja.name: 光光
+ja.nicknames: none
+ja.othernames: コウコウ
+language.order: ja, en
 litter: 670
 location.1: 52, 1999/7/7
 location.2: 50, 2003/3/5

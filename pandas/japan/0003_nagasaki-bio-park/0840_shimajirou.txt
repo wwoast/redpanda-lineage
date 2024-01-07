@@ -9,10 +9,10 @@ en.name: Shimajirou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: しまじろう
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: しまじろう
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 839
 location.1: 13, 1993/7/19
 location.2: 3, 1999/3/30

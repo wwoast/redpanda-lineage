@@ -8,10 +8,10 @@ en.name: Mel
 en.nicknames: The Godfather
 en.othernames: none
 gender: m
-jp.name: メル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: メル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 284
 location.1: 9, 2013/7/10
 location.2: 22, 2015/4/21

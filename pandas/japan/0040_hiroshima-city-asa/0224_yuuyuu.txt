@@ -8,10 +8,10 @@ en.name: Yuu-Yuu
 en.nicknames: none
 en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuuyuu, You-You, Youyou, Yao-Yao, Yaoyao
 gender: f
-jp.name: 友友
-jp.nicknames: none
-jp.othernames: ユーユー
-language.order: jp, en
+ja.name: 友友
+ja.nicknames: none
+ja.othernames: ユーユー
+language.order: ja, en
 litter: none
 location.1: 37, 2014/7/27
 location.2: 40, 2018/2/15

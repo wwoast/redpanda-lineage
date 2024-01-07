@@ -8,10 +8,10 @@ en.name: Tushar
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: トシャール
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: トシャール
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 640
 location.1: 114, 2008/6/19
 location.2: 105, 2011/11/17

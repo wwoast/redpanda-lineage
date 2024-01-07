@@ -9,10 +9,10 @@ en.name: Mabel
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マーベル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マーベル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 691
 location.1: 108, 2004/7/15
 location.2: 115, 2004/12/14

@@ -9,10 +9,10 @@ en.name: Bamboozle
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: たけのこ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: たけのこ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 1
 studbook.id: 1130

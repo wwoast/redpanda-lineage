@@ -3,18 +3,15 @@ _id: 1329
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 小脸萌
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2021/12/8
 en.name: Xiao-Lian-Meng
 en.nicknames: none
 en.othernames: Xiaolianmeng
 gender: f
-jp.name: シャランメン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: シャランメン
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CVLRgWmIzBc/m
 photo.1.author: manmanko2
@@ -22,4 +19,7 @@ photo.1.commitdate: 2021/12/8
 photo.1.link: https://www.instagram.com/manmanko2/
 photo.1.tags: whiskers
 species: 2
+zh.name: 小脸萌
+zh.nicknames: none
+zh.othernames: none
 zoo: 298

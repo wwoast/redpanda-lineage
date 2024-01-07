@@ -3,18 +3,15 @@ _id: 1323
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 欣欣
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2021/12/6
 en.name: Xin-Xin
 en.nicknames: none
 en.othernames: Shin-Shin, Shinshin, Xinxin
 gender: f
-jp.name: シンシン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: シンシン
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CQ_aI3VBguH/m
 photo.1.author: manmanko2
@@ -27,4 +24,7 @@ photo.2.commitdate: 2021/12/6
 photo.2.link: https://www.instagram.com/manmanko2/
 photo.2.tags: smile, tail, whiskers
 species: 2
+zh.name: 欣欣
+zh.nicknames: none
+zh.othernames: none
 zoo: 297

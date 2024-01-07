@@ -8,10 +8,10 @@ en.name: Wilson
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ウィルソン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィルソン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://CiqLdMhOFi9/m
 photo.1.author: potterparkzoo

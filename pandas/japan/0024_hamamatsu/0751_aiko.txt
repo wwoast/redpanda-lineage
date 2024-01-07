@@ -9,10 +9,10 @@ en.name: Aiko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アイコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アイコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 750
 location.1: 10, 1989/7/1
 location.2: 24, 1990/3/20

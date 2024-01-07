@@ -9,10 +9,10 @@ en.name: Mei-Lin
 en.nicknames: none
 en.othernames: Meilin, Mei Lin
 gender: f
-jp.name: メイリン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メイリン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 407
 location.1: 83, 2002/6/26
 location.2: 103, 2003/6/11

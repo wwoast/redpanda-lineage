@@ -9,10 +9,10 @@ en.name: Yon-Yon
 en.nicknames: none
 en.othernames: Yonyon
 gender: m
-jp.name: ヨニヨン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヨニヨン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 6, 1994/7/13
 location.2: 31, 1995/7/8

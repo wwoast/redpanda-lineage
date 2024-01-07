@@ -8,10 +8,10 @@ en.name: Pavitra
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: パヴィトラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パヴィトラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 95, 2023/6/9
 photo.1: ig://CxOWiQNP2MO/m
 photo.1.author: sandiegozoo

@@ -8,10 +8,10 @@ en.name: Ferguson
 en.nicknames: none
 en.othernames: 
 gender: m
-jp.name: ファーガソン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ファーガソン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 43, 2015/6/22
 location.2: 89, 2016/6/28

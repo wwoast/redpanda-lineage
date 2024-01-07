@@ -12,10 +12,10 @@ es.name: Angeles
 es.nicknames: none
 es.othernames: none
 gender: f
-jp.name: アンジェレス
-jp.nicknames: none
-jp.othernames: none
-language.order: es, en, jp
+ja.name: アンジェレス
+ja.nicknames: none
+ja.othernames: none
+language.order: es, en, ja
 litter: unknown
 location.1: 260, 2012/7/4
 location.2: 259, 2013/5/30

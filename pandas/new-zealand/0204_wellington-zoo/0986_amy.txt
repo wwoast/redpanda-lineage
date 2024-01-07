@@ -9,10 +9,10 @@ en.name: Amy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: エイミー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: エイミー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 207, 1999/12/6
 location.2: 204, 2006/6/10

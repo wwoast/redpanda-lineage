@@ -8,10 +8,10 @@ en.name: Sherman
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シャーマン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャーマン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 922
 location.1: 124, 2012/6/22
 location.2: 114, 2013/5/6

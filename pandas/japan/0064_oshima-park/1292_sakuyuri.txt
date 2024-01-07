@@ -8,10 +8,10 @@ en.name: Sakuyuri
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サクユリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サクユリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://CVPSn0jBrUG/m
 photo.1.author: grskus_tk

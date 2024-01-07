@@ -8,10 +8,10 @@ en.name: Chiya
 en.nicknames: none
 en.othernames: Chiyo
 gender: m
-jp.name: チヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 459
 location.1: 51, 2016/6/21
 location.2: 44, 2017/10/26

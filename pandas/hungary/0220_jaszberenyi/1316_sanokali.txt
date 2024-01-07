@@ -11,14 +11,14 @@ gender: m
 hu.name: Kicsi Rügy
 hu.nicknames: none
 hu.othernames: none
-jp.name: 小さなつぼみ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, np, jp
+ja.name: 小さなつぼみ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ne, ja
 litter: 1317
-np.name: सानो कली
-np.nicknames: none
-np.othernames: none
+ne.name: सानो कली
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://CRquZEzhFf8/m
 photo.1.author: balathruin
 photo.1.commitdate: 2021/9/17

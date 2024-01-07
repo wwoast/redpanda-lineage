@@ -8,10 +8,10 @@ en.name: Yui
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ゆい
-jp.nicknames: none
-jp.othernames: ユイ
-language.order: jp, en
+ja.name: ゆい
+ja.nicknames: none
+ja.othernames: ユイ
+language.order: ja, en
 litter: 40
 location.1: 8, 2015/6/28
 location.2: 25, 2018/1/29

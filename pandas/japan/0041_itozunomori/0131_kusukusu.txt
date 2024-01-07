@@ -8,10 +8,10 @@ en.name: Kusukusu
 en.nicknames: none
 en.othernames: Couscous, Kusu-Kusu, Kusukusu, Cous-Cous
 gender: m
-jp.name: クスクス
-jp.nicknames: none
-jp.othernames: 笑笑, くすくす
-language.order: jp, en
+ja.name: クスクス
+ja.nicknames: none
+ja.othernames: 笑笑, くすくす
+language.order: ja, en
 litter: none
 photo.1: ig://BYoqvNunEOh/m
 photo.1.author: yossi929

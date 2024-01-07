@@ -9,10 +9,10 @@ en.name: Chun-Chun
 en.nicknames: none
 en.othernames: Chunchun
 gender: m
-jp.name: チュンチュン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チュンチュン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 732
 location.1: 13, 1992/6/22
 location.2: 15, 1994/2/22

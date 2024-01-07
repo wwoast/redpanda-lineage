@@ -5,10 +5,10 @@ en.address: Nyudo-２２−１ Shibunocho, Tokushima, Tokushima Prefecture 771-4
 en.location: Tokushima City, Tokushima Prefecture, Japan
 en.name: Tokushima Zoo
 flag: Japan
-jp.address: 〒771-4267 徳島県徳島市渋野町入道２２−１
-jp.location: 徳島市 徳島県
-jp.name: とくしま動物園
-language.order: jp, en
+ja.address: 〒771-4267 徳島県徳島市渋野町入道２２−１
+ja.location: 徳島市 徳島県
+ja.name: とくしま動物園
+language.order: ja, en
 latitude: 34.0137524
 longitude: 134.5191863
 map: https://goo.gl/maps/d7LpHftgkFq

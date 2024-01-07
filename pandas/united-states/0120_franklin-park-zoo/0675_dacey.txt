@@ -9,10 +9,10 @@ en.name: Dacey
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: デイシー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: デイシー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 794, 795
 species: 1
 studbook.id: 0001

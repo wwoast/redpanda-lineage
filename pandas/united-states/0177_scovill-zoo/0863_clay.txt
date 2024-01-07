@@ -9,10 +9,10 @@ en.name: Clay
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クレー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クレー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 817
 location.1: 141, 2008/6/28
 location.2: 177, 2009/5/3

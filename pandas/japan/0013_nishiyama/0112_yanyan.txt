@@ -9,10 +9,10 @@ en.name: Yan-Yan
 en.nicknames: none
 en.othernames: Jan-Jan, Yanyan
 gender: m
-jp.name: ヤンヤン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヤンヤン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 66
 photo.1: ig://Bi_5U0ilF4f/m
 photo.1.author: daniele.tokyo

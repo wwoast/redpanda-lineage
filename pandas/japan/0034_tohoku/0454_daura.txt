@@ -9,10 +9,10 @@ en.name: Daura
 en.nicknames: none
 en.othernames: Dauragiri, Daura Giri
 gender: f
-jp.name: ダウラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ダウラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 456
 location.1: 57, 1994/6/19
 location.2: 34, 1995/12/26

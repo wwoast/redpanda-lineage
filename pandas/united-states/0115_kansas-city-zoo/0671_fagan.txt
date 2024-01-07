@@ -9,10 +9,10 @@ en.name: Fagan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ファガン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ファガン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 915
 location.1: 108, 2000/6/21
 location.2: 115, 2001/4/12

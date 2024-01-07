@@ -9,10 +9,10 @@ en.name: Kiki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: キキ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キキ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 476
 location.1: 6, 2000/7/4
 location.2: 10, 2002/1/15

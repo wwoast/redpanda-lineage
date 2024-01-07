@@ -8,10 +8,10 @@ en.name: Nyima
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ニマ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ニマ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 805
 location.1: 104, 2004/6/16
 location.2: 158, 2005/3/18

@@ -9,10 +9,10 @@ en.name: Pichu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ピチュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ピチュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 198, 2004/7/8
 location.2: 250, 2006/1/24

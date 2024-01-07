@@ -8,10 +8,10 @@ en.name: Kola
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: コーラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: コーラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 481
 location.1: 82, 2015/8/24
 location.2: 65, 2016/10/27

@@ -1,18 +1,18 @@
 [zoo]
 _id: 301
-cn.address: 常州市武进区
-cn.location: 武进区江苏省中国
-cn.name: 江苏淹城野生动物世界
 commitdate: 2021/12/2
 en.address: unknown
 en.location: Wujin, Jiangsu, China
 en.name: Yancheng Wild Animal World
 flag: China
-jp.address: unknown
-jp.location: Wujin, Jiangsu, China
-jp.name: Yancheng Wild Animal World
-language.order: cn, jp, en
+ja.address: unknown
+ja.location: Wujin, Jiangsu, China
+ja.name: Yancheng Wild Animal World
+language.order: zh, ja, en
 latitude: 31.699325
 longitude: 119.9261083
 map: https://goo.gl/maps/S7jZZrRv4qMqv4dq7
 website: https://www.yczoo.com/
+zh.address: 常州市武进区
+zh.location: 武进区江苏省中国
+zh.name: 江苏淹城野生动物世界

@@ -9,16 +9,16 @@ en.nicknames: none
 en.oldnames: Aduya
 en.othernames: none
 gender: f
-jp.name: ウダヤ
-jp.nicknames: none
-jp.oldnames: アドゥヤ
-jp.othernames: none
-language.order: en, jp
+ja.name: ウダヤ
+ja.nicknames: none
+ja.oldnames: アドゥヤ
+ja.othernames: none
+language.order: en, ja
 litter: none
-np.name: उदय
-np.nicknames: none
-np.oldnames: अदुया
-np.othernames: none
+ne.name: उदय
+ne.nicknames: none
+ne.oldnames: अदुया
+ne.othernames: none
 photo.1: ig://B4jBge-hlzf/m
 photo.1.author: garseeyaink
 photo.1.commitdate: 2020/2/15

@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Matsuko
 en.othernames: none
 gender: f
-jp.name: まるこ
-jp.nicknames: none
-jp.oldnames: まつ子
-jp.othernames: none
-language.order: jp, en
+ja.name: まるこ
+ja.nicknames: none
+ja.oldnames: まつ子
+ja.othernames: none
+language.order: ja, en
 litter: 248
 location.1: 16, 2018/7/11
 location.2: 264, 2020/12/7

@@ -8,10 +8,10 @@ en.name: Maple
 en.nicknames: none
 en.othernames: Moose
 gender: m
-jp.name: 松楓
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 松楓
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1404
 photo.1: ig://CiRTFFFrehq/m
 photo.1.author: westcoast_kathy

@@ -9,10 +9,10 @@ en.name: Potato
 en.nicknames: none
 en.othernames: Poteto
 gender: m
-jp.name: ポテト
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ポテト
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://qN12Z7w0cc/m
 photo.1.author: singer_syk_saya

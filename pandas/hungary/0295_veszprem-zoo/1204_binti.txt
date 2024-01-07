@@ -8,10 +8,10 @@ en.name: Binti
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ビンティ
-jp.nicknames: none
-jp.othernames: none
-language.order: nl, en, jp
+ja.name: ビンティ
+ja.nicknames: none
+ja.othernames: none
+language.order: nl, en, ja
 litter: none
 location.1: 259, 2020/7/1
 location.2: 295, 2021/4/9

@@ -9,10 +9,10 @@ en.name: Priya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: プリヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: プリヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 120, 2018/6/29
 location.2: 160, 2019/6/6

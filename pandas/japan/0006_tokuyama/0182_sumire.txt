@@ -8,10 +8,10 @@ en.name: Sumire
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: スミレ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スミレ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 181
 location.1: 31, 2014/7/11
 location.2: 6, 2018/5/9

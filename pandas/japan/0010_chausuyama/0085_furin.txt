@@ -8,10 +8,10 @@ en.name: Furin
 en.nicknames: Wind Chimes
 en.othernames: Fuurin
 gender: f
-jp.name: 風鈴
-jp.nicknames: none
-jp.othernames: フウリン
-language.order: jp, en
+ja.name: 風鈴
+ja.nicknames: none
+ja.othernames: フウリン
+language.order: ja, en
 litter: 42
 location.1: 8, 2007/7/11
 location.2: 10, 2008/6/30

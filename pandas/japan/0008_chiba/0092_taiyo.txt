@@ -9,10 +9,10 @@ en.nicknames: none
 en.othernames: Taiyō, Taiyou
 gender: m
 https: //www.instagram.com/p/CbXejBsv4hV/media/?size=m
-jp.name: タイヨウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タイヨウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 93
 location.1: 10, 2013/6/21
 location.2: 8, 2021/5/19

@@ -9,10 +9,10 @@ en.name: Spark
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: スパーク
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スパーク
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 618
 location.1: 108, 2010/6/14
 location.2: 107, 2011/8/5

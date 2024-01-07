@@ -8,10 +8,10 @@ en.name: Sanka
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: サンカ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サンカ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 photo.1: https://www.codaworry.com/images/rpf/sanka-1-woburn.jpg
 photo.1.author: Woburn Safari Park
 photo.1.commitdate: 2021/4/7

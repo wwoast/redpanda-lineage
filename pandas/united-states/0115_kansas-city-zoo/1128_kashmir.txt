@@ -8,16 +8,16 @@ en.name: Kashmir
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カシミール
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カシミール
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1127, 1129
 location.1: 116, 2019/6/16
 location.2: 115, 2021/6/17
-np.name: काश्मीर
-np.nicknames: none
-np.othernames: none
+ne.name: काश्मीर
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://B2rWGYRF0FY/m
 photo.1.author: millerparkzoo
 photo.1.commitdate: 2020/3/13

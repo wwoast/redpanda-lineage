@@ -8,10 +8,10 @@ en.name: Rufus
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ルフス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルフス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://CFITeyrjwNl/m
 photo.1.author: assiniboineparkzoo

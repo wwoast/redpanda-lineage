@@ -8,10 +8,10 @@ en.name: Meixiang
 en.nicknames: Adorabear
 en.othernames: Meisyan, Mei-Shan, Meishan, Mei Shan, Mei-Xhang, Mei-xiang, Meixhang
 gender: f
-jp.name: めいしゃん
-jp.nicknames: none
-jp.othernames: 梅香
-language.order: jp, en
+ja.name: めいしゃん
+ja.nicknames: none
+ja.othernames: 梅香
+language.order: ja, en
 litter: none
 location.1: 13, 2017/6/29
 location.2: 143, 2020/1/16

@@ -8,10 +8,10 @@ en.name: Dawa
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ダワ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ダワ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 968, 970
 location.1: 201, 2012/12/20
 location.2: 202, 2015/3/13

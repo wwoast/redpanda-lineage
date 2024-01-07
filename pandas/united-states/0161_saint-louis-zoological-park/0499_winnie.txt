@@ -8,10 +8,10 @@ en.name: Winnie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ウィニー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィニー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 48, 2014/7/24
 location.2: 161, 2022/1/28

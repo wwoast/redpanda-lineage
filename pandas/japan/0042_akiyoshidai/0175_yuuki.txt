@@ -8,10 +8,10 @@ en.name: Yuuki
 en.nicknames: none
 en.othernames: Snow, Yuki, Yūki, Yu-ki, Yu-Ki
 gender: m
-jp.name: 優希
-jp.nicknames: none
-jp.othernames: ゆうき
-language.order: jp, en
+ja.name: 優希
+ja.nicknames: none
+ja.othernames: ゆうき
+language.order: ja, en
 litter: none
 location.1: 46, 2013/7/4
 location.2: 42, 2015/4/2

@@ -9,10 +9,10 @@ en.name: Kaede
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: かえで
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: かえで
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 611
 photo.1: ig://Bc_eQ81Bdyn/m
 photo.1.author: minatomirai215

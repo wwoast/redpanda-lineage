@@ -8,10 +8,10 @@ en.name: Baltazar
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: バルタザール
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: バルタザール
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1021
 location.1: 184, 2012/7/28
 location.2: 183, 2013/7/7

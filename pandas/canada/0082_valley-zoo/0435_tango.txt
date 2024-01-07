@@ -8,10 +8,10 @@ en.name: Tango
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タンゴ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タンゴ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 82, 2015/7/30
 location.2: 76, 2016/11/1

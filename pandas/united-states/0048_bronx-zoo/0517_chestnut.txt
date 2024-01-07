@@ -9,10 +9,10 @@ en.name: Chestnut
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 栗
-jp.nicknames: none
-jp.othernames: マロン
-language.order: en, jp
+ja.name: 栗
+ja.nicknames: none
+ja.othernames: マロン
+language.order: en, ja
 litter: 606
 species: 1
 studbook.id: 1613

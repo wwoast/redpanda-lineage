@@ -9,10 +9,10 @@ en.name: Kumari
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: クマリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クマリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1099
 location.1: 204, 2002/12/24
 location.2: 108, 2007/7/16

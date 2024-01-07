@@ -8,10 +8,10 @@ en.name: Pabu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: パブ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パブ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 203, 2012/12/24
 location.2: 181, 2016/3/30

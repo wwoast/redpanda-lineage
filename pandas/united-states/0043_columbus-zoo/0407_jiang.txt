@@ -9,10 +9,10 @@ en.name: Jiang
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: チヤン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チヤン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 385
 location.1: 83, 2002/6/26
 location.2: 103, 2003/6/11

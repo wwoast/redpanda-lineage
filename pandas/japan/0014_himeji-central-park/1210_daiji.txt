@@ -8,10 +8,10 @@ en.name: Daiji
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 大事
-jp.nicknames: none
-jp.othernames: だいじ
-language.order: jp, en
+ja.name: 大事
+ja.nicknames: none
+ja.othernames: だいじ
+language.order: ja, en
 litter: 1209
 location.1: 53, 2020/7/18
 location.2: 14, 2023/7/5

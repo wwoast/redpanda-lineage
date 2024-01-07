@@ -8,10 +8,10 @@ en.name: Basu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: バスー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: バスー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 580, 808
 location.1: 146, 2013/7/20
 location.2: 186, 2014/4/22

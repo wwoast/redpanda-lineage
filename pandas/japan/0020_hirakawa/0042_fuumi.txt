@@ -9,10 +9,10 @@ en.name: Fuumi
 en.nicknames: none
 en.othernames: Kazumi, Kazami
 gender: f
-jp.name: 風美
-jp.nicknames: none
-jp.othernames: フウミ
-language.order: jp, en
+ja.name: 風美
+ja.nicknames: none
+ja.othernames: フウミ
+language.order: ja, en
 litter: 85
 location.1: 8, 2007/7/11
 location.2: 20, 2011/2/7

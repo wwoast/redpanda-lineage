@@ -9,10 +9,10 @@ en.name: Hisashi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヒサシー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒサシー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 species: 2
 studbook.id: 93115

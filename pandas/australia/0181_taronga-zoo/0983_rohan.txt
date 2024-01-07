@@ -8,10 +8,10 @@ en.name: Rohan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ローハン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローハン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 982, 984
 species: 1
 zoo: 181

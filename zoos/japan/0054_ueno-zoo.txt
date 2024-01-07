@@ -6,10 +6,10 @@ en.location: Taitō, Tokyo, Japan
 en.name: Ueno Zoological Gardens
 en.othernames: Ueno Zoo
 flag: Japan
-jp.address: 〒110-0007 東京都台東区上野公園９−83
-jp.location: 台東区 東京
-jp.name: 恩賜上野動物園
-language.order: jp, en
+ja.address: 〒110-0007 東京都台東区上野公園９−83
+ja.location: 台東区 東京
+ja.name: 恩賜上野動物園
+language.order: ja, en
 latitude: 35.7164578
 longitude: 139.769129
 map: https://goo.gl/maps/o6BBZkWDuv32

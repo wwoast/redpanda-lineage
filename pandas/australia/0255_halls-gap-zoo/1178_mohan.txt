@@ -8,10 +8,10 @@ en.name: Mohan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モハン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: モハン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 photo.1: ig://Bz4osOFBYg6/m
 photo.1.author: katievanstan

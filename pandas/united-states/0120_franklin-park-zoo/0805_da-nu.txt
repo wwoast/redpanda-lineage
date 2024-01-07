@@ -9,10 +9,10 @@ en.name: Da-nu
 en.nicknames: none
 en.othernames: Danu
 gender: f
-jp.name: ダヌー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ダヌー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 804
 location.1: 104, 2004/6/16
 location.2: 158, 2005/3/18

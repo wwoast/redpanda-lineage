@@ -5,10 +5,10 @@ en.address: 240 上原町 砥部町 伊予郡 Ehime Prefecture 791-2191, Japan
 en.location: Tobe, Ehime Prefecture, Shikoku, Japan
 en.name: Tobe Zoo
 flag: Japan
-jp.address: 〒791-2191 愛媛県伊予郡砥部町上原町２４０
-jp.location: 砥部町 愛媛県 四国
-jp.name: 愛媛県立とべ動物園
-language.order: jp, en
+ja.address: 〒791-2191 愛媛県伊予郡砥部町上原町２４０
+ja.location: 砥部町 愛媛県 四国
+ja.name: 愛媛県立とべ動物園
+language.order: ja, en
 latitude: 35.9885019
 longitude: 134.5754522
 map: https://goo.gl/maps/AiYMttHQEdA2

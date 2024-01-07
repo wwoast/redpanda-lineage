@@ -9,10 +9,10 @@ en.name: Russet
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 朽ち葉色
-jp.nicknames: none
-jp.othernames: くばいろ
-language.order: en, jp
+ja.name: 朽ち葉色
+ja.nicknames: none
+ja.othernames: くばいろ
+language.order: en, ja
 litter: 170
 location.1: 114, 2011/6/5
 location.2: 116, 2012/5/21

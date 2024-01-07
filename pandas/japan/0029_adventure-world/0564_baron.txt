@@ -9,10 +9,10 @@ en.name: Baron
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: バロン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: バロン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 565
 location.1: 40, 1999/7/11
 location.2: 11, 2001/1/18

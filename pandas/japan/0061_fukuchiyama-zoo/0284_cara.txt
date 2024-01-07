@@ -9,10 +9,10 @@ en.name: Cara
 en.nicknames: none
 en.othernames: Chara
 gender: m
-jp.name: キャラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キャラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 51
 location.1: 9, 2013/7/10
 location.2: 61, 2014/4/21

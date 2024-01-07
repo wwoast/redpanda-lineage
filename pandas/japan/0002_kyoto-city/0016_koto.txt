@@ -9,10 +9,10 @@ en.name: Koto
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: コト
-jp.nicknames: none
-jp.othernames: 古都
-language.order: jp, en
+ja.name: コト
+ja.nicknames: none
+ja.othernames: 古都
+language.order: ja, en
 litter: none
 location.1: 6, 2009/7/9
 location.2: 2, 2011/3/16

@@ -9,10 +9,10 @@ en.name: Matsu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マツ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マツ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 156
 species: 2
 studbook.id: 0483

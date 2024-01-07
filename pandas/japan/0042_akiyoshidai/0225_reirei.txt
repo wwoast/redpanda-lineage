@@ -8,10 +8,10 @@ en.name: Rei-Rei
 en.nicknames: Thunder-Lightning
 en.othernames: Rai-Rai, Ray-Ray, Reirei, Rairai, Rayray
 gender: m
-jp.name: 雷雷
-jp.nicknames: none
-jp.othernames: レイレイ
-language.order: jp, en
+ja.name: 雷雷
+ja.nicknames: none
+ja.othernames: レイレイ
+language.order: ja, en
 litter: 226
 location.1: 37, 2016/6/28
 location.2: 42, 2020/3/16

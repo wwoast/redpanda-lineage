@@ -9,10 +9,10 @@ en.name: Kaydee
 en.nicknames: none
 en.othernames: Kay-Dee, KayDee, Katie
 gender: f
-jp.name: カイディー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カイディー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 146, 2012/6/6
 location.2: 177, 2013/4/24

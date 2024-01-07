@@ -8,10 +8,10 @@ en.name: Itsuki
 en.nicknames: none
 en.othernames: Isuki
 gender: m
-jp.name: イスキ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イスキ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 427, 429
 location.1: 76, 2015/6/22
 location.2: 109, 2017/11/9

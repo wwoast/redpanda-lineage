@@ -9,10 +9,10 @@ en.name: Kamal
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カマル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カマル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1219
 species: 1
 zoo: 198

@@ -6,10 +6,10 @@ en.location: Tennōji-ku, Osaka, Japan
 en.name: Osaka Tennōji Zoo
 en.othernames: Osaka Tennoji Zoo, Tennouji Zoo
 flag: Japan
-jp.address: 〒543-0063 大阪府 大阪市天王寺区茶臼山町１−１０８
-jp.location: 天王寺区 大阪市
-jp.name: 天王寺動物園
-language.order: jp, en
+ja.address: 〒543-0063 大阪府 大阪市天王寺区茶臼山町１−１０８
+ja.location: 天王寺区 大阪市
+ja.name: 天王寺動物園
+language.order: ja, en
 latitude: 34.6505304
 longitude: 135.5062635
 map: https://goo.gl/maps/jgQy9DYiBJJ2

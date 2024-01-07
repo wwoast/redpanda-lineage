@@ -8,10 +8,10 @@ en.name: Maliha
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マリハ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マリハ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 123, 2014/6/9
 location.2: 113, 2015/4/10

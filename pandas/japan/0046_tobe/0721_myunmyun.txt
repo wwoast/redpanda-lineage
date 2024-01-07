@@ -9,10 +9,10 @@ en.name: Myun-Myun
 en.nicknames: none
 en.othernames: Myunmyun
 gender: f
-jp.name: ミュンミュン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミュンミュン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 location.1: wild.3
 location.2: 8, 1989/5/20

@@ -8,10 +8,10 @@ en.name: Momo
 en.nicknames: none
 en.othernames: Mo-Mo
 gender: f
-jp.name: モモ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: モモ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: https://cdn.4travel.jp/img/tcs/t/pict/500/26/78/77/500_26787760.jpg?1349448819
 photo.1.author: resapanlove

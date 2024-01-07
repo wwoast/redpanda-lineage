@@ -8,10 +8,10 @@ en.name: Tsubaki
 en.nicknames: Camellia
 en.othernames: none
 gender: f
-jp.name: ツバキ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ツバキ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 296
 location.1: 64, 2017/7/11
 location.2: 22, 2021/3/22

@@ -8,10 +8,10 @@ en.name: Asahi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: あさひ
-jp.nicknames: none
-jp.othernames: 旭
-language.order: jp, en
+ja.name: あさひ
+ja.nicknames: none
+ja.othernames: 旭
+language.order: ja, en
 litter: 318, 319
 photo.1: ig://BpRrWuQFiWI/m
 photo.1.author: bananawani_official

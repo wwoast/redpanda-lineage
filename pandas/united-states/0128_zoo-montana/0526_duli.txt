@@ -8,10 +8,10 @@ en.name: Duli
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ドゥリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ドゥリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 870
 location.1: 120, 2011/7/5
 location.2: 80, 2012/5/22

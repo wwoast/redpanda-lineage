@@ -8,10 +8,10 @@ en.name: Kaito
 en.nicknames: none
 en.othernames: Kite
 gender: m
-jp.name: カイト
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カイト
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1395
 photo.1: ig://CjMTENiPf35/m
 photo.1.author: joy93.87

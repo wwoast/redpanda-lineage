@@ -9,10 +9,10 @@ en.name: Nyan-Nyan
 en.nicknames: none
 en.othernames: Nyannyan
 gender: f
-jp.name: 娘娘
-jp.nicknames: none
-jp.othernames: ニャンニャン
-language.order: jp, en
+ja.name: 娘娘
+ja.nicknames: none
+ja.othernames: ニャンニャン
+language.order: ja, en
 litter: none
 location.1: 37, 2001/7/9
 location.2: 1, 2012/11/28

@@ -9,10 +9,10 @@ en.name: You-You
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 遊優
-jp.nicknames: none
-jp.othernames: ユウユウ
-language.order: jp, en
+ja.name: 遊優
+ja.nicknames: none
+ja.othernames: ユウユウ
+language.order: ja, en
 litter: none
 location.1: 52, 1994/7/4
 location.2: 6, 2000/2/14

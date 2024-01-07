@@ -12,9 +12,9 @@ gender: m
 hu.name: Camak
 hu.nicknames: none
 hu.othernames: none
-jp.name: カマック
-jp.nicknames: none
-jp.othernames: none
+ja.name: カマック
+ja.nicknames: none
+ja.othernames: none
 language.order: hu, en
 litter: 1318
 location.1: 220, 2018/6/25

@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Dato, Starr
 en.othernames: Razz
 gender: m
-jp.name: ラズ
-jp.nicknames: none
-jp.oldnames: ダト
-jp.othernames: none
-language.order: en, jp
+ja.name: ラズ
+ja.nicknames: none
+ja.oldnames: ダト
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 122, 2011/6/14
 location.2: 155, 2012/9/6

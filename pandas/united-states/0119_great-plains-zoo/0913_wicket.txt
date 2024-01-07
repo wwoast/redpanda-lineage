@@ -8,10 +8,10 @@ en.name: Wicket
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ウィッケット
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィッケット
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 874
 location.1: 114, 2007/7/1
 location.2: 49, 2008/4/8

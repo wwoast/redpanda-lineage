@@ -8,10 +8,10 @@ en.name: Makalu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マカル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マカル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 202, 2011/12/18
 location.2: 217, 2013/10/14

@@ -8,10 +8,10 @@ en.name: Khairo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カイロ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カイロ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 458
 location.1: 51, 2016/6/21
 location.2: 44, 2017/10/26

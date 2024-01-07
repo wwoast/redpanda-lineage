@@ -5,10 +5,10 @@ en.address: E 64th St, New York, NY 10021
 en.location: New York City, NY, USA
 en.name: Central Park Zoo
 flag: USA
-jp.address: E 64th St、ニューヨーク、ニューヨーク10021
-jp.location: ニューヨーク ニューヨーク
-jp.name: セントラルパーク動物園
-language.order: en, jp
+ja.address: E 64th St、ニューヨーク、ニューヨーク10021
+ja.location: ニューヨーク ニューヨーク
+ja.name: セントラルパーク動物園
+language.order: en, ja
 latitude: 40.767782
 longitude: -73.9740222
 map: https://goo.gl/maps/Jj2bHyYZhZ92

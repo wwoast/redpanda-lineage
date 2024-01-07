@@ -8,10 +8,10 @@ en.name: Shifumi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シフミ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シフミ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 277, 2019/6/9
 location.2: 215, 2021/8/1
 photo.1: ig://By5KLZSoBoE/m

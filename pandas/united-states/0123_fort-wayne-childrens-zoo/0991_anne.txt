@@ -8,10 +8,10 @@ en.name: Anne
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 992, 993
 location.1: 118, 2018/6/12
 location.2: 123, 2020/6/1

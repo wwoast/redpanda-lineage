@@ -8,10 +8,10 @@ en.name: Azula
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アズラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アズラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1422
 photo.1: ig://Cv7GdZ8utOF/m
 photo.1.author: rossifari

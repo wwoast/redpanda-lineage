@@ -9,10 +9,10 @@ en.name: Xing
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 428, 429
 location.1: 76, 2015/6/22
 location.2: 109, 2017/11/8

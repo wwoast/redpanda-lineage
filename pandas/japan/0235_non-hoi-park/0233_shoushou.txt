@@ -8,10 +8,10 @@ en.name: Shou-Shou
 en.nicknames: none
 en.othernames: Shoushou, Sho-Sho, Syo-Syo, Syosyo, Shosho
 gender: m
-jp.name: 守守
-jp.nicknames: none
-jp.othernames: ショウショウ
-language.order: jp, en
+ja.name: 守守
+ja.nicknames: none
+ja.othernames: ショウショウ
+language.order: ja, en
 litter: 234
 location.1: 37, 2017/7/15
 location.2: 235, 2020/1/30

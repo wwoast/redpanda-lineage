@@ -8,10 +8,10 @@ en.name: Doza
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ドーザ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ドーザ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1419
 photo.1: ig://CwpNlovOJzX/m
 photo.1.author: worldthathesees

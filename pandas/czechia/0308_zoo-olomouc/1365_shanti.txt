@@ -8,10 +8,10 @@ en.name: Shanti
 en.nicknames: none
 en.othernames: 
 gender: f
-jp.name: シャンティ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャンティ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1366
 location.1: 257, 2021/6/1
 location.2: 308, 2022/6/30

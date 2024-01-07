@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: none
 en.othernames: none
 gender: m
-jp.name: ノコ
-jp.nicknames: none
-jp.oldnames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ノコ
+ja.nicknames: none
+ja.oldnames: none
+ja.othernames: none
+language.order: ja, en
 litter: 313
 location.1: 9, 2005/6/23
 location.2: 33, 2009/2/10

@@ -9,10 +9,10 @@ en.name: Maguro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マグロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マグロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 303
 location.1: 17, 2002/7/2
 location.2: 9, 2003/11/17

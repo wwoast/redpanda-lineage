@@ -11,16 +11,16 @@ gender: f
 hu.name: Szikra
 hu.nicknames: none
 hu.othernames: none
-jp.name: スパークア
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, np, jp
+ja.name: スパークア
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ne, ja
 litter: unknown
 location.1: 220, 2020/6/22
 location.2: 286, 2021/7/17
-np.name: सस्पार्क
-np.nicknames: none
-np.othernames: none
+ne.name: सस्पार्क
+ne.nicknames: none
+ne.othernames: none
 photo.1: https://www.szoljon.hu/wp-content/uploads/2020/08/P6A6398GB.jpg
 photo.1.author: Balázs Gémesi
 photo.1.commitdate: 2020/11/24

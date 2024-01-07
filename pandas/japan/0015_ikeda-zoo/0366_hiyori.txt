@@ -9,10 +9,10 @@ en.name: Hiyori
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ひより
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ひより
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 32
 photo.1: https://www.codaworry.com/images/rpf/hiyori-1-ikeda.jpg
 photo.1.author: jilllucaさん

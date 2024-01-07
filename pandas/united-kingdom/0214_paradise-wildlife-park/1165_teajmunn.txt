@@ -9,10 +9,10 @@ en.name: Teajmunn
 en.nicknames: none
 en.othernames: Teaj
 gender: m
-jp.name: ティージャムン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ティージャムン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 226, 2002/6/29
 location.2: 197, 2003/5/8

@@ -9,10 +9,10 @@ en.name: Xena
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ゼナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ゼナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1078
 location.1: 65, 1997/6/23
 location.2: 84, 1998/2/26

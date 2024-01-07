@@ -9,10 +9,10 @@ en.name: Porin
 en.nicknames: Polin, Poline
 en.othernames: none
 gender: f
-jp.name: ポリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ポリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 382
 location.1: 12, 2002/6/15
 location.2: 9, 2003/11/21

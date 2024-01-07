@@ -8,10 +8,10 @@ en.name: Yasmin
 en.nicknames: none
 en.othernames: Yasmine
 gender: f
-jp.name: ヤスミン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヤスミン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1068
 location.1: 135, 2005/6/25
 location.2: 197, 2008/3/18

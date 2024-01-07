@@ -8,10 +8,10 @@ en.name: Mishry
 en.nicknames: none
 en.othernames: Mishri
 gender: f
-jp.name: ミシュリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミシュリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 983, 984
 photo.1: ig://CBAkglbAJMB/m
 photo.1.author: ellepatrice

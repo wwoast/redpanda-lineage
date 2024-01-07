@@ -3,9 +3,6 @@ _id: 1149
 birthday: 2014/6/13
 birthplace: 239
 children: unknown
-cn.name: 茶花
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/3/27
 en.name: Chahua
 en.nicknames: none
@@ -14,10 +11,10 @@ fr.name: Chahua
 fr.nicknames: none
 fr.othernames: Cha Hua, Cha-Hua
 gender: f
-jp.name: 茶花
-jp.nicknames: none
-jp.othernames: チャファ
-language.order: fr, cn, en, jp
+ja.name: 茶花
+ja.nicknames: none
+ja.othernames: チャファ
+language.order: fr, zh, en, ja
 litter: 1148
 location.1: 239, 2014/6/13
 location.2: 238, 2015/3/6
@@ -82,4 +79,7 @@ photo.12.commitdate: 2020/3/27
 photo.12.link: https://www.instagram.com/nathalie.elliott/
 photo.12.tags: peek, portrait
 species: 2
+zh.name: 茶花
+zh.nicknames: none
+zh.othernames: none
 zoo: 238

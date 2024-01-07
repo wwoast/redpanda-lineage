@@ -5,10 +5,10 @@ en.address: Japan, 〒241-0001 Kanagawa Prefecture, 横浜市旭区上白根町�
 en.location: Yokohama, Kanagawa Prefecture, Japan
 en.name: Yokohama Zoo "Zoorasia"
 flag: Japan
-jp.address: 〒241-0001 神奈川県 横浜市旭区上白根町１１７５−１
-jp.location: 横浜 神奈川県
-jp.name: よこはま動物園ズーラシア
-language.order: jp, en
+ja.address: 〒241-0001 神奈川県 横浜市旭区上白根町１１７５−１
+ja.location: 横浜 神奈川県
+ja.name: よこはま動物園ズーラシア
+language.order: ja, en
 latitude: 35.4948688
 longitude: 139.5243211
 map: https://goo.gl/maps/j23gm6VW4Zo

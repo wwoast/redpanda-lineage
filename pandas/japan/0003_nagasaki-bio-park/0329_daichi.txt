@@ -8,10 +8,10 @@ en.name: Daichi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ダイチ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ダイチ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 330
 location.1: 40, 2006/8/1
 location.2: 3, 2009/11/19

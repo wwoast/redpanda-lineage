@@ -8,10 +8,10 @@ en.name: Leela
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: リーラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リーラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 553
 location.1: 129, 2014/6/26
 location.2: 130, 2015/5/15

@@ -8,10 +8,10 @@ en.name: Momo
 en.nicknames: none
 en.othernames: 
 gender: f
-jp.name: モモ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: モモ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1381
 species: 1
 zoo: 160

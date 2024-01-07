@@ -8,10 +8,10 @@ en.name: Oliver
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ランディ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ランディ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 558
 location.1: 108, 2014/6/23
 location.2: 115, 2016/3/8

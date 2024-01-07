@@ -8,10 +8,10 @@ en.name: Laya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ラヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1270
 photo.1: ig://CFccxEsJHSC/m
 photo.1.author: parcanimalierdauvergne

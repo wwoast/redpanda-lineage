@@ -5,10 +5,10 @@ en.address: Oana-1-238 Oiwacho, Toyohashi, Aichi 441-3147, Japan
 en.location: Toyohashi, Aichi, Japan
 en.name: Non Hoi Park
 flag: Japan
-jp.address: 〒441-3147 愛知県豊橋市大岩町大穴1-238
-jp.location: 豊橋市 愛知県
-jp.name: 豊橋総合動植物公園
-language.order: jp, en
+ja.address: 〒441-3147 愛知県豊橋市大岩町大穴1-238
+ja.location: 豊橋市 愛知県
+ja.name: 豊橋総合動植物公園
+language.order: ja, en
 latitude: 34.7202041
 longitude: 137.4302548
 map: https://goo.gl/maps/a4FaTjTWQLBZDVEK9

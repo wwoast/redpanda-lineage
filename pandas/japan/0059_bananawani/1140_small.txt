@@ -9,10 +9,10 @@ en.name: Small
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 小さい
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 小さい
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1141
 location.1: 217, 1997/12/11
 location.2: 210, 1998/9/8

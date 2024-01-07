@@ -9,10 +9,10 @@ en.name: Fumi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: フウミ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: フウミ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 661
 species: 2
 studbook.id: 9391

@@ -8,10 +8,10 @@ en.name: Princess Lily
 en.nicknames: none
 en.othernames: Lily, Princess, Lili
 gender: f
-jp.name: リリィ姫
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リリィ姫
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 643, 644
 location.1: 104, 2010/6/27
 location.2: 95, 2011/4/27

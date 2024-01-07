@@ -3,10 +3,6 @@ _id: 1053
 birthday: 2016/6/22
 birthplace: 219
 children: 1318, 1238, 1235, 1316, 1317
-cn.name: 師父
-cn.nicknames: none
-cn.oldnames: 月
-cn.othernames: none
 commitdate: 2019/11/13
 en.name: Sifu
 en.nicknames: none
@@ -17,11 +13,11 @@ hu.name: Sifu
 hu.nicknames: none
 hu.oldnames: Tsuki
 hu.othernames: none
-jp.name: 師父
-jp.nicknames: none
-jp.oldnames: つき
-jp.othernames: しふ
-language.order: en, hu, jp
+ja.name: 師父
+ja.nicknames: none
+ja.oldnames: つき
+ja.othernames: しふ
+language.order: en, hu, ja
 litter: 1052
 location.1: 219, 2016/6/22
 location.2: 221, 2017/1/29
@@ -47,4 +43,8 @@ photo.4.commitdate: 2021/9/23
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: bamboo, ear, nose, eye, tail
 species: 1
+zh.name: 師父
+zh.nicknames: none
+zh.oldnames: 月
+zh.othernames: none
 zoo: 220

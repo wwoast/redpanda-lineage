@@ -8,9 +8,9 @@ en.name: Yuzu
 en.nicknames: none
 en.othernames: Yusu
 gender: m
-jp.name: ユズ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ユズ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: unknown
 zoo: 278

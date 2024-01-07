@@ -165,7 +165,7 @@ Layout.shrinkNames = function() {
     var latin = Pandas.def.ranges['en'].some(function(range) {
       return range.test(span.innerText);
     });
-    var cjk = Pandas.def.ranges['jp'].some(function(range) {
+    var cjk = Pandas.def.ranges['ja'].some(function(range) {
       return range.test(span.innerText);
     });
     if (latin && cjk) {

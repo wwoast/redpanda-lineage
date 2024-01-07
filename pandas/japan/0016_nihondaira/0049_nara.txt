@@ -9,10 +9,10 @@ en.name: Nara
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 楢
-jp.nicknames: none
-jp.othernames: ナラ
-language.order: jp, en
+ja.name: 楢
+ja.nicknames: none
+ja.othernames: ナラ
+language.order: ja, en
 litter: 336
 location.1: 40, 2000/7/17
 location.2: 16, 2001/12/18

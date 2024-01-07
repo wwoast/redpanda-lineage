@@ -9,10 +9,10 @@ en.name: Tai Tai
 en.nicknames: none
 en.othernames: Tai-Tai
 gender: m
-jp.name: タイタイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タイタイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 849
 location.1: 36, 1990/6/26
 location.2: 11, 1991/5/28

@@ -9,10 +9,10 @@ en.name: Tai
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: タイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 443
 location.1: 82, 2008/5/26
 location.2: 97, 2009/6/11

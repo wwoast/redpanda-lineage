@@ -8,10 +8,10 @@ en.name: Luka
 en.nicknames: none
 en.othernames: Luca, Ruka
 gender: f
-jp.name: ルカ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ルカ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 50, 2016/6/15
 location.2: 54, 2020/5/1

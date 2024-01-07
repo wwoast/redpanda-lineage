@@ -8,10 +8,10 @@ en.name: Niiko
 en.nicknames: none
 en.othernames: Nieco
 gender: f
-jp.name: ニーコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ニーコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 955
 photo.1: ig://B3gq-7ehbh9/m
 photo.1.author: yakko____

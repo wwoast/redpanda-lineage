@@ -9,10 +9,10 @@ en.name: Laila
 en.nicknames: none
 en.othernames: Lila, Lyra, Lyla, Raira, Rira
 gender: f
-jp.name: ライラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 198
 location.1: 7, 2010/7/10
 location.2: 29, 2013/2/28

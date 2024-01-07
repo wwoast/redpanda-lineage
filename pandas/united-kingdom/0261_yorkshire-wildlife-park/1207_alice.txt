@@ -8,10 +8,10 @@ en.name: Alice
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アリス
-jp.nicknames: none
-jp.othernames: none
-language.order: nl, en, jp
+ja.name: アリス
+ja.nicknames: none
+ja.othernames: none
+language.order: nl, en, ja
 litter: 1205, 1206
 location.1: 259, 2019/6/1
 location.2: 261, 2020/8/1

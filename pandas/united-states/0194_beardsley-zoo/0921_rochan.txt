@@ -9,10 +9,10 @@ en.name: Rochan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ロカン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ロカン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 120, 2014/6/19
 location.2: 194, 2015/10/20

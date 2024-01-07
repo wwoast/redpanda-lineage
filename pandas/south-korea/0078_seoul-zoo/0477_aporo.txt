@@ -9,10 +9,10 @@ en.name: Aporo
 en.nicknames: none
 en.othernames: 
 gender: m
-jp.name: アポロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アポロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 135
 location.1: 46, 2004/6/28
 location.2: 78, 2005/4/25

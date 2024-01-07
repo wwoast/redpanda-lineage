@@ -9,10 +9,10 @@ en.name: Taro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 751
 location.1: 10, 1989/7/1
 location.2: 36, 1990/12/12

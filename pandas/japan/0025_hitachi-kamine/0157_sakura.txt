@@ -8,10 +8,10 @@ en.name: Sakura
 en.nicknames: none
 en.othernames: Cherry-Blossom
 gender: f
-jp.name: サクラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サクラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 192
 location.1: 17, 2004/6/17
 location.2: 10, 2005/3/29

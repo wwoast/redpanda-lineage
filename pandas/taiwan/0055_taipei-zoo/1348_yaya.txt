@@ -3,20 +3,20 @@ _id: 1348
 birthday: 2010/6/26
 birthplace: 291
 children: 1353, 1354, 1357
-cn.name: 丫丫
-cn.nicknames: none
-cn.othernames: YY
 commitdate: 2022/4/18
 en.name: Yaya
 en.nicknames: none
 en.othernames: YY
 gender: f
-jp.name: ヤヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ヤヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 location.1: 291, 2010/6/26
 location.2: 55, 2014/6/6
 species: 2
+zh.name: 丫丫
+zh.nicknames: none
+zh.othernames: YY
 zoo: 55

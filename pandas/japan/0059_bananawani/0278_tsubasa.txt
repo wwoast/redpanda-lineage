@@ -9,10 +9,10 @@ en.name: Tsubasa
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: つばさ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: つばさ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 277, 279
 photo.1: ig://BdcSMqJla9T/m
 photo.1.author: hanamaru_redpanda

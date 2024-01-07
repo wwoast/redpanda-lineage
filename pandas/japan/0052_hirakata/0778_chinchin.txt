@@ -9,10 +9,10 @@ en.name: Chin-Chin
 en.nicknames: none
 en.othernames: Chinchin
 gender: m
-jp.name: 陳々
-jp.nicknames: none
-jp.othernames: ちんちん
-language.order: jp, en
+ja.name: 陳々
+ja.nicknames: none
+ja.othernames: ちんちん
+language.order: ja, en
 litter: 779
 location.1: 6, 1991/7/14
 location.2: 52, 1994/3/4

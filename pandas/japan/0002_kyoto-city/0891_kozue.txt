@@ -9,10 +9,10 @@ en.name: Kozue
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 梢
-jp.nicknames: none
-jp.othernames: こずえ
-language.order: jp, en
+ja.name: 梢
+ja.nicknames: none
+ja.othernames: こずえ
+language.order: ja, en
 litter: none
 location.1: 13, 1991/7/4
 location.2: 2, 1993/3/18

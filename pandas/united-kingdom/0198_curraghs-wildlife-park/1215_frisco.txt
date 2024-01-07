@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Rusher
 en.othernames: none
 gender: f
-jp.name: フリスコ
-jp.nicknames: none
-jp.oldnames: ラシャー
-jp.othernames: none
-language.order: en, jp
+ja.name: フリスコ
+ja.nicknames: none
+ja.oldnames: ラシャー
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 175, 2003/6/29
 location.2: 214, 2005/5/1

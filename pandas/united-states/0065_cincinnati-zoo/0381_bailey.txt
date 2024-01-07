@@ -9,10 +9,10 @@ en.name: Bailey
 en.nicknames: none
 en.othernames: Beilei
 gender: f
-jp.name: ベイリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ベイリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 65, 2008/6/1
 location.2: 87, 2009/4/20

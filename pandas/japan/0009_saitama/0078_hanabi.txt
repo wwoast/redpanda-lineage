@@ -8,10 +8,10 @@ en.name: Hanabi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ハナビ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ハナビ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BEAkApBPi8y/m
 photo.1.author: panda.daisuki

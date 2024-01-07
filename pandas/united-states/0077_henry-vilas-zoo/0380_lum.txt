@@ -9,10 +9,10 @@ en.name: Lum
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ラム
-jp.nicknames: ルーム
-jp.othernames: none
-language.order: en, jp
+ja.name: ラム
+ja.nicknames: ルーム
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 43, 2000/6/4
 location.2: 107, 2001/10/17

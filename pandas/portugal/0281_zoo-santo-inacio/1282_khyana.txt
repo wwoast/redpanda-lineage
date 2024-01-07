@@ -8,10 +8,10 @@ en.name: Khyana
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キアナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: キアナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 280, unknown
 location.2: 281, 2019/7/23
 species: 1

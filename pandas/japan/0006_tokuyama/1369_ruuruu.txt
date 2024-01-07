@@ -8,10 +8,10 @@ en.name: Ruu-Ruu
 en.nicknames: none
 en.othernames: Luu-Luu, Luuluu, Ruuruu, Ruru, Lulu, Lu-Lu, Ru-Ru,
 gender: m
-jp.name: ルールー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルールー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1368
 photo.1: ig://CikMpRJJtrQ/m
 photo.1.author: shunankeizai

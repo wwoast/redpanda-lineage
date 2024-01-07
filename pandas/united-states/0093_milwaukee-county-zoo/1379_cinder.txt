@@ -8,10 +8,10 @@ en.name: Cinder
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シンダー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シンダー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://Cfgt2hfsiQd/m
 photo.1.author: milwaukeecozoo

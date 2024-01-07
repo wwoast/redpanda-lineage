@@ -8,10 +8,10 @@ en.name: Piisuke
 en.nicknames: Peace Kin
 en.othernames: Pisuke, Pi-suke, Pi-Suke, Pīsuke, Peasuke, Peaceke, Peace Ke
 gender: m
-jp.name: ピースケ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ピースケ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 2020/6/27
 location.2: 64, 2022/11/10

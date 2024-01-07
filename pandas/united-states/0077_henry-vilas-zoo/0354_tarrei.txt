@@ -9,10 +9,10 @@ en.name: Tarrei
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ターレイ
-jp.nicknames: none
-jp.othernames: 稲妻
-language.order: jp, en
+ja.name: ターレイ
+ja.nicknames: none
+ja.othernames: 稲妻
+language.order: ja, en
 litter: 209
 location.1: 34, 2002/7/1
 location.2: 65, 2004/4/27

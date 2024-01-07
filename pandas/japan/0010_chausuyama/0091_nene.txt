@@ -9,10 +9,10 @@ en.name: Nene
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ネネ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ネネ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 75
 photo.1: ig://BP1PZrOjr_-/m
 photo.1.author: monmon_redpanda

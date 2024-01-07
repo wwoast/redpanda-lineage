@@ -8,10 +8,10 @@ en.name: Ginga
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ギンガ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ギンガ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 4, 2013/7/1
 location.2: 64, 2015/2/18

@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Tia
 en.othernames: none
 gender: f
-jp.name: リンダ
-jp.nicknames: none
-jp.oldnames: ティア
-jp.othernames: none
-language.order: en, jp
+ja.name: リンダ
+ja.nicknames: none
+ja.oldnames: ティア
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 108, 2019/6/14
 location.2: 166, 2021/3/23

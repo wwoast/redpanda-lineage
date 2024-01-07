@@ -8,10 +8,10 @@ en.name: Reika
 en.nicknames: Wasabi
 en.othernames: none
 gender: f
-jp.name: れいか
-jp.nicknames: わさび, 山葵
-jp.othernames: none
-language.order: jp, en
+ja.name: れいか
+ja.nicknames: わさび, 山葵
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 16, 2019/6/2
 location.2: 264, 2021/5/31

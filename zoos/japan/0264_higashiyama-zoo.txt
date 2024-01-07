@@ -5,10 +5,10 @@ en.address: Japan, 〒464-0804 Aichi, Nagoya, Chikusa Ward, Higashiyama Motomach
 en.location: Chikusa-ku, Nagoya, Japan
 en.name: Higashiyama Zoo and Botanical Gardens
 flag: Japan
-jp.address: 〒464-0804 愛知県名古屋市千種区東山元町３丁目７０
-jp.location: 千種区 名古屋市 日本
-jp.name: 東山動植物園
-language.order: jp, en
+ja.address: 〒464-0804 愛知県名古屋市千種区東山元町３丁目７０
+ja.location: 千種区 名古屋市 日本
+ja.name: 東山動植物園
+language.order: ja, en
 latitude: 35.1554125
 longitude: 136.981182
 map: https://goo.gl/maps/uGmgLy5w5PCy2Vzn6

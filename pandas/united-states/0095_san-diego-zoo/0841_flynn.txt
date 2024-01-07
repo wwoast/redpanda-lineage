@@ -9,10 +9,10 @@ en.name: Flynn
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: フライン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フライン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 842
 location.1: 105, 2010/6/12
 location.2: 95, 2011/12/11

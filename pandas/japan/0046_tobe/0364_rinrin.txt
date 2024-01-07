@@ -9,10 +9,10 @@ en.name: Rin-Rin
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 怜怜
-jp.nicknames: none
-jp.othernames: れいれい
-language.order: jp, en
+ja.name: 怜怜
+ja.nicknames: none
+ja.othernames: れいれい
+language.order: ja, en
 litter: 107
 species: 2
 studbook.id: 9992

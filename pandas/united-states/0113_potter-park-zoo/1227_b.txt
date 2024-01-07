@@ -9,10 +9,10 @@ en.name: B
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ペー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ペー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1226
 location.1: 108, 2006/6/28
 location.2: 104, 2007/2/28

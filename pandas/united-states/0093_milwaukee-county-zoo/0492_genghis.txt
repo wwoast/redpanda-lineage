@@ -9,10 +9,10 @@ en.name: Genghis
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ジェンギス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジェンギス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 65, 1997/6/28
 location.2: unknown, 1998/7/8

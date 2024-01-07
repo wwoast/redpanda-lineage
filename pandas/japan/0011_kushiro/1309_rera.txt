@@ -8,10 +8,10 @@ en.name: Réra
 en.nicknames: none
 en.othernames: Rera, Rela, Léra, Lera
 gender: m
-jp.name: レラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: レラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1308
 photo.1: ig://CW-dB_jlPaP/m
 photo.1.author: sasapan34

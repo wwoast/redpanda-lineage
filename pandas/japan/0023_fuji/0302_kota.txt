@@ -8,10 +8,10 @@ en.name: Kota
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: コタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 483
 location.1: 42, 2012/8/2
 location.2: 30, 2015/1/15

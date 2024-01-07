@@ -9,10 +9,10 @@ en.name: Elliot
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: エリオット
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: エリオット
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 80, 2006/6/27
 location.2: 161, 2007/6/19

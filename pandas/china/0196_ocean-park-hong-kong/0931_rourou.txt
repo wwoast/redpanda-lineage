@@ -3,18 +3,15 @@ _id: 931
 birthday: unknown
 birthplace: 195
 children: unknown
-cn.name: 柔柔
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/10
 en.name: Rou-Rou
 en.nicknames: none
 en.othernames: Rourou, Rouge, Yau-Yau, Yauyau
 gender: f
-jp.name: ロウロウ
-jp.nicknames: none
-jp.othernames: 柔柔
-language.order: cn, en, jp
+ja.name: ロウロウ
+ja.nicknames: none
+ja.othernames: 柔柔
+language.order: zh, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
@@ -54,4 +51,7 @@ photo.7.commitdate: 2022/8/25
 photo.7.link: https://www.instagram.com/redpanda_tata/
 photo.7.tags: peek, portrait, whiskers
 species: 2
+zh.name: 柔柔
+zh.nicknames: none
+zh.othernames: none
 zoo: 196

@@ -13,11 +13,11 @@ hu.name: Lea
 hu.nicknames: none
 hu.oldnames: Lili
 hu.othernames: none
-jp.name: レア
-jp.nicknames: none
-jp.oldnames: リリー
-jp.othernames: none
-language.order: hu, en, jp
+ja.name: レア
+ja.nicknames: none
+ja.oldnames: リリー
+ja.othernames: none
+language.order: hu, en, ja
 litter: unknown
 location.1: 271, 2010/6/22
 location.2: 266, 2011/5/27

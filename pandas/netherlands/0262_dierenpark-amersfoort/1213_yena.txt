@@ -13,11 +13,11 @@ fr.nicknames: none
 fr.oldnames: none
 fr.othernames: none
 gender: f
-jp.name: イェナ
-jp.nicknames: none
-jp.oldnames: none
-jp.othernames: none
-language.order: nl, fr, en, jp
+ja.name: イェナ
+ja.nicknames: none
+ja.oldnames: none
+ja.othernames: none
+language.order: nl, fr, en, ja
 litter: none
 location.1: 239, 2017/6/19
 location.2: 262, 2018/11/9

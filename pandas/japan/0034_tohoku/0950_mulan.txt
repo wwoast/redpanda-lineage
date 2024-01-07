@@ -8,10 +8,10 @@ en.name: Mulan
 en.nicknames: none
 en.othernames: Muran, Mu-Ran, Mu-Lan, Mouren, Mokuren, Princess Moomoo
 gender: f
-jp.name: 木蓮
-jp.nicknames: none
-jp.othernames: ムーラン
-language.order: jp, en
+ja.name: 木蓮
+ja.nicknames: none
+ja.othernames: ムーラン
+language.order: ja, en
 litter: none
 photo.1: ig://B2eXkqah5qh/m
 photo.1.author: re_ichimaru

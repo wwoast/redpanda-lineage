@@ -8,10 +8,10 @@ en.name: Tilly
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ティリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ティリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 951
 location.1: 199, 2011/6/22
 location.2: 214, 2012/5/25

@@ -8,10 +8,10 @@ en.name: Rii-Rii
 en.nicknames: none
 en.othernames: Lee-Lee, Rili, Riirii, Lily
 gender: f
-jp.name: リーリー
-jp.nicknames: none
-jp.othernames: 日暦
-language.order: jp, en
+ja.name: リーリー
+ja.nicknames: none
+ja.othernames: 日暦
+language.order: ja, en
 litter: none
 photo.1: ig://BhDV56XhN5c/m
 photo.1.author: zoowfreedom299

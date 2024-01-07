@@ -3,19 +3,16 @@ _id: 374
 birthday: 2003/6/16
 birthplace: 10
 children: none
-cn.name: 暢暢
-cn.nickname: none
-cn.othernames: none
 commitdate: 2018/10/27
 death: 2021/4/1
 en.name: Non-Non
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 暢暢
-jp.nicknames: none
-jp.othernames: ノンノン
-language.order: jp, en
+ja.name: 暢暢
+ja.nicknames: none
+ja.othernames: ノンノン
+language.order: ja, en
 litter: 53, 220
 location.1: 10, 2003/6/16
 location.2: 17, 2005/3/30
@@ -23,4 +20,7 @@ location.3: 55, 2005/12/15
 species: 2
 studbook.id: 0360
 uncertainty: exact day of death (reported by RPF forms)
+zh.name: 暢暢
+zh.nickname: none
+zh.othernames: none
 zoo: 55

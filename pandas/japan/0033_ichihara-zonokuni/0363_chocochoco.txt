@@ -9,10 +9,10 @@ en.name: Choco-Choco
 en.nicknames: none
 en.othernames: Chocochoco, Cyoko-Cyoko, Cyokocyoko
 gender: f
-jp.name: チョコチョコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チョコチョコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 562
 species: 2
 studbook.id: 00107

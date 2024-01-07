@@ -9,10 +9,10 @@ en.name: Baby
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: 赤ちゃん
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1372
 species: 1
 uncertainty: death date (july or august 2022)

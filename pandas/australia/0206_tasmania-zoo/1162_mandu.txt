@@ -8,16 +8,16 @@ en.name: Mandu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マヌドゥ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, np, jp
+ja.name: マヌドゥ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ne, ja
 litter: 1161
 location.1: 207, 2015/12/10
 location.2: 206, 2017/7/4
-np.name: माण्डु
-np.nicknames: none
-np.othernames: none
+ne.name: माण्डु
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://BdexIoVl5-7/m
 photo.1.author: laura.edwardphotography
 photo.1.commitdate: 2020/7/3

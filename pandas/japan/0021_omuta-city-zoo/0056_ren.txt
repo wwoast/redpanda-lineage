@@ -8,10 +8,10 @@ en.name: Ren
 en.nicknames: Heartbreaker
 en.othernames: none
 gender: m
-jp.name: レン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: レン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 55
 location.1: 1, 2008/6/21
 location.2: 21, 2010/11/18

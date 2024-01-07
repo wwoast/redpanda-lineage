@@ -6,10 +6,10 @@ en.location: Gyeonggi-do, South Korea
 en.name: Seoul Zoo
 en.othernames: Seoul Grand Park
 flag: South Korea
-kr.address: 경기도 과천시 막계동
-kr.location: 경기도 한국
-kr.name: 서울대공원해양동물원
-language.order: kr, en
+ko.address: 경기도 과천시 막계동
+ko.location: 경기도 한국
+ko.name: 서울대공원해양동물원
+language.order: ko, en
 latitude: 37.4215021
 longitude: 127.017742
 map: https://goo.gl/maps/HU9yotcVBXQ2

@@ -9,10 +9,10 @@ en.name: Shama
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シャーマ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャーマ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 913
 location.1: 114, 2007/7/1
 location.2: 49, 2008/4/8

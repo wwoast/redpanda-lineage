@@ -9,10 +9,10 @@ en.name: Ringo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: リンゴ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リンゴ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1181
 species: 2
 zoo: 33

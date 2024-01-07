@@ -9,10 +9,10 @@ en.name: Isabel
 en.nicknames: none
 en.othernames: Izzie, Izzy
 gender: f
-jp.name: イザベル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イザベル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 101, 2003/6/27
 location.2: 163, 2004/3/18

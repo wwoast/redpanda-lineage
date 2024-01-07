@@ -3,18 +3,15 @@ _id: 938
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 佑佑
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/15
 en.name: You-You
 en.nicknames: none
 en.othernames: Youyou, You You
 gender: m
-jp.name: 佑佑
-jp.nicknames: none
-jp.othernames: ユウユウ
-language.order: cn, en, jp
+ja.name: 佑佑
+ja.nicknames: none
+ja.othernames: ユウユウ
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://BzRUBJxBpVO/m
 photo.1.author: c_yulu_x
@@ -77,4 +74,7 @@ photo.12.commitdate: 2019/7/15
 photo.12.link: https://www.instagram.com/c_yulu_x/
 photo.12.tags: lunch time
 species: 2
+zh.name: 佑佑
+zh.nicknames: none
+zh.othernames: none
 zoo: 39

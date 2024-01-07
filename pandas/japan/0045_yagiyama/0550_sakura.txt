@@ -9,10 +9,10 @@ en.name: Sakura
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サクラ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サクラ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 location.1: 17, 2004/7/16
 location.2: 45, 2006/2/1
 species: 2

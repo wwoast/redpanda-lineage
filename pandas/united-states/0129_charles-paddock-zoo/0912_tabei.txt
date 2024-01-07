@@ -8,10 +8,10 @@ en.name: Tabei
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: たべい
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: たべい
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 524
 location.1: 108, 2013/6/1
 location.2: 154, 2014/5/13

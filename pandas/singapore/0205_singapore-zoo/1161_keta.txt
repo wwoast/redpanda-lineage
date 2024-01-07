@@ -8,16 +8,16 @@ en.name: Keta
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケタ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, np, jp
+ja.name: ケタ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ne, ja
 litter: 1162
 location.1: 207, 2015/12/10
 location.2: 205, 2018/1/1
-np.name: केटा
-np.nicknames: none
-np.othernames: none
+ne.name: केटा
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://CO5Jp-sB47i/m
 photo.1.author: redpandasingapore
 photo.1.commitdate: 2022/1/13

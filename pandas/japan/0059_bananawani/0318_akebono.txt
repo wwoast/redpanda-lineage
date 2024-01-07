@@ -9,10 +9,10 @@ en.name: Akebono
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: あけぼの
-jp.nicknames: none
-jp.othernames: 曙
-language.order: jp, en
+ja.name: あけぼの
+ja.nicknames: none
+ja.othernames: 曙
+language.order: ja, en
 litter: 317, 319
 photo.1: ig://BrVBwKQFHlG/m
 photo.1.author: roko_mm

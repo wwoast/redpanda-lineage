@@ -8,10 +8,10 @@ en.name: Paula
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ポーラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ポーラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 2
 studbook.id: unknown

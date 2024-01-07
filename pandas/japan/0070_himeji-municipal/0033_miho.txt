@@ -8,10 +8,10 @@ en.name: Miho
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ミホ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミホ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 16, 2013/7/9
 location.2: 70, 2015/3/9

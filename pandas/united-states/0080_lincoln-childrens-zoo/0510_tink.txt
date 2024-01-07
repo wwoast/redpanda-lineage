@@ -8,10 +8,10 @@ en.name: Tink
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: チン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 114, 2014/6/17
 location.2: 80, 2015/3/30

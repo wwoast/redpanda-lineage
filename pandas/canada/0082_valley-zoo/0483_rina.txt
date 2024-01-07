@@ -9,10 +9,10 @@ en.name: Rina
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: リナ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リナ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 302
 location.1: 42, 2012/8/2
 location.2: 16, 2014/7/18

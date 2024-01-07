@@ -8,10 +8,10 @@ en.name: Hima
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヒマ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヒマ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1271
 species: 1
 zoo: 277

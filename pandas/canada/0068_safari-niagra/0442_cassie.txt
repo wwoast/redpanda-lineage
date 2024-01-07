@@ -8,10 +8,10 @@ en.name: Cassie
 en.nicknames: none
 en.othernames: Cassi
 gender: f
-jp.name: キャシー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: キャシー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 312
 location.1: 82, 2007/6/26
 location.2: 96, 2009/1/20

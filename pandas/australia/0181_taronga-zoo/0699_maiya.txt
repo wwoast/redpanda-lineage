@@ -8,10 +8,10 @@ en.name: Maiya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: まいや
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: まいや
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 1
 studbook.id: 1671

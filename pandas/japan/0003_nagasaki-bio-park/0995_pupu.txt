@@ -8,10 +8,10 @@ en.name: Pu-Pu
 en.nicknames: none
 en.othernames: Pupu
 gender: m
-jp.name: ププ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ププ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 994
 location.1: 40, 2019/6/29
 location.2: 3, 2023/6/13

@@ -8,10 +8,10 @@ en.name: Kiraly
 en.nicknames: none
 en.othernames: Kirari
 gender: f
-jp.name: キラリ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キラリ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 239
 location.1: 14, 2011/6/27
 location.2: 13, 2013/2/14

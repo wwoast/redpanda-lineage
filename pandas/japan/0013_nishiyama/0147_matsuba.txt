@@ -8,10 +8,10 @@ en.name: Matsuba
 en.nicknames: Battle Princess, Mochi-slayer, Mochi-sweetie
 en.othernames: none
 gender: f
-jp.name: まつば
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: まつば
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 16, 2014/7/17
 location.2: 13, 2018/3/26

@@ -3,18 +3,15 @@ _id: 1304
 birthday: 2021/7/16
 birthplace: 65
 children: none
-cn.name: 神迷
-cn.nicknames: none
-cn.othernames: 咪咪
 commitdate: 2021/8/9
 en.name: Shenmi
 en.nicknames: none
 en.othernames: Mimi, Shen-Mi, Miimii, Mii-Mii
 gender: f
-jp.name: シェンミ
-jp.nicknames: none
-jp.othernames: ミーミー
-language.order: cn, en, jp
+ja.name: シェンミ
+ja.nicknames: none
+ja.othernames: ミーミー
+language.order: zh, en, ja
 litter: none
 location.1: 65, 2021/7/16
 location.2: 89, 2022/5/3
@@ -74,4 +71,7 @@ photo.11.commitdate: 2022/8/18
 photo.11.link: https://www.instagram.com/rossifari/
 photo.11.tags: bamboo, portrait, sample, smile, tongue, whiskers
 species: 2
+zh.name: 神迷
+zh.nicknames: none
+zh.othernames: 咪咪
 zoo: 89

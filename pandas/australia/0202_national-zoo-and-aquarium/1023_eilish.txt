@@ -8,10 +8,10 @@ en.name: Eilish
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: エイリシ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: エイリシ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 964
 species: 1
 zoo: 202

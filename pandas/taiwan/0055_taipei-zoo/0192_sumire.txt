@@ -3,18 +3,15 @@ _id: 192
 birthday: 2004/6/17
 birthplace: 17
 children: none
-cn.name: 小堇
-cn.nickname: none
-cn.othernames: none
 commitdate: 2018/7/14
 en.name: Sumire
 en.nicknames: none
 en.othernames: Viola
 gender: f
-jp.name: スミレ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スミレ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 157
 location.1: 17, 2004/6/17
 location.2: 55, 2005/12/15
@@ -30,4 +27,7 @@ photo.2.link: https://www.instagram.com/yuredpanda/
 photo.2.tags: bamboo, close-up, portrait
 species: 2
 studbook.id: 0460
+zh.name: 小堇
+zh.nickname: none
+zh.othernames: none
 zoo: 55

@@ -12,10 +12,10 @@ es.name: (no name)
 es.nicknames: none
 es.othernames: none
 gender: m
-jp.name: (無名)
-jp.nicknames: none
-jp.othernames: none
-language.order: es, en, jp
+ja.name: (無名)
+ja.nicknames: none
+ja.othernames: none
+language.order: es, en, ja
 litter: 729
 location.1: 11, 1995/7/4
 location.2: 54, 2001/1/16

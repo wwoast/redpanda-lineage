@@ -9,10 +9,10 @@ en.nicknames: none
 en.oldnames: Phoebe
 en.othernames: none
 gender: m
-jp.name: ルーカス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルーカス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 65, 2020/6/23
 location.2: 95, 2021/7/1

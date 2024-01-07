@@ -8,10 +8,10 @@ en.name: Chito
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: チト
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: チト
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 203, 2002/12/18
 location.2: 201, 2006/8/11

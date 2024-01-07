@@ -8,10 +8,10 @@ en.name: Rimu
 en.nicknames: none
 en.othernames: Rheem
 gender: m
-jp.name: リム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1309
 photo.1: ig://CU_qrutFutC/m
 photo.1.author: kushirozoo

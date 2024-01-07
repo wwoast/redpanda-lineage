@@ -9,10 +9,10 @@ en.name: Luta
 en.nicknames: none
 en.othernames: Luda
 gender: f
-jp.name: ルダ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルダ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 916
 location.1: 115, 1994/6/23
 location.2: 161, 1995/3/24

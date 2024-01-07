@@ -8,10 +8,10 @@ en.name: George
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ジョージ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジョージ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1006
 location.1: 187, 2013/5/30
 location.2: 212, 2014/10/14

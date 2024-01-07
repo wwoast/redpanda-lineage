@@ -8,10 +8,10 @@ en.name: Yuuka
 en.nicknames: Shrimpie Tail
 en.othernames: Yūka, Yuka
 gender: f
-jp.name: 優香
-jp.nicknames: none
-jp.othernames: ゆうか, 優花
-language.order: jp, en
+ja.name: 優香
+ja.nicknames: none
+ja.othernames: ゆうか, 優花
+language.order: ja, en
 litter: none
 photo.1: ig://BYDaea2FJel/m
 photo.1.author: yossi929

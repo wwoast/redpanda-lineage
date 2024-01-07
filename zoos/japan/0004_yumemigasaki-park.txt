@@ -5,10 +5,10 @@ en.address: 1 Chome-2-1 Minamikase, Saiwai-ku, Kawasaki-shi, Kanagawa-ken 212-00
 en.location: Kawasaki, Kanagawa Prefecture, Japan
 en.name: Yumemigasaki Zoological Park
 flag: Japan
-jp.address: 〒212-0055 神奈川県川崎市幸区南加瀬１丁目２−1
-jp.location: 川崎市 神奈川県
-jp.name: 川崎市夢見ヶ崎動物公園
-language.order: jp, en
+ja.address: 〒212-0055 神奈川県川崎市幸区南加瀬１丁目２−1
+ja.location: 川崎市 神奈川県
+ja.name: 川崎市夢見ヶ崎動物公園
+language.order: ja, en
 latitude: 35.5491319
 longitude: 139.6630574
 map: https://goo.gl/maps/kfMhVjS52Gs

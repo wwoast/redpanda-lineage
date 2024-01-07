@@ -8,10 +8,10 @@ en.name: Mei-Mei
 en.nicknames: none
 en.othernames: Meimei
 gender: f
-jp.name: メイメイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メイメイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 470
 location.1: 84, 2015/7/1
 location.2: 90, 2016/5/27

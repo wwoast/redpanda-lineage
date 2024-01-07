@@ -3,18 +3,15 @@ _id: 1331
 birthday: 2021/6/1
 birthplace: 300
 children: unknown
-cn.name: 米糕
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2021/12/8
 en.name: Mi-Gao
 en.nicknames: none
 en.othernames: Migao
 gender: f
-jp.name: ミーガオ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ミーガオ
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CIpIhGyhY_4/m
 photo.1.author: manmanko2
@@ -23,4 +20,7 @@ photo.1.link: https://www.instagram.com/manmanko2/
 photo.1.tags: mofumofu, portrait, profile, whiskers
 species: 2
 uncertainty: exact birthday in june 2021
+zh.name: 米糕
+zh.nicknames: none
+zh.othernames: none
 zoo: 300

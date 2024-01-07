@@ -8,10 +8,10 @@ en.name: Kenta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ケンタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ケンタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 28
 location.1: 4, 2015/6/16
 location.2: 14, 2018/4/4

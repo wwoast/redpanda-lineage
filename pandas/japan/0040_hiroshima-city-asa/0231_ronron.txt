@@ -9,10 +9,10 @@ en.name: Ron-Ron
 en.nicknames: none
 en.othernames: Ronron
 gender: m
-jp.name: ロンロン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ロンロン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 563
 location.1: 3, 1995/6/30
 location.2: 40, 1998/2/13

@@ -8,10 +8,10 @@ en.name: Carys
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 818
 location.1: 119, 2012/6/11
 location.2: 120, 2013/3/15

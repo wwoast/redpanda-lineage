@@ -8,10 +8,10 @@ en.name: Kamala
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カマラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カマラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1360
 location.1: 263, 2013/6/25
 location.2: 304, 2014/5/23

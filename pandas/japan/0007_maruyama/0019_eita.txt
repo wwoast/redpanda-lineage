@@ -8,10 +8,10 @@ en.name: Eita
 en.nicknames: Stingray
 en.othernames: none
 gender: m
-jp.name: エイタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: エイタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 199
 location.1: 8, 2010/7/3
 location.2: 7, 2013/10/28

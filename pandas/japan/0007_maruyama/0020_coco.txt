@@ -9,10 +9,10 @@ en.nicknames: Coco-bear, Lovely Grandma
 en.othernames: Koko
 gender: f
 https: //www.instagram.com/p/CczIqW-Lbec/media/?size=m
-jp.name: ココ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ココ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 77
 location.1: 9, 2006/6/24
 location.2: 7, 2007/10/23

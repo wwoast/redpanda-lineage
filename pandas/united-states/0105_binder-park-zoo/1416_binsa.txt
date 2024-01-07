@@ -8,10 +8,10 @@ en.name: Binsa
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ビンサ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ビンサ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 species: 1
 studbook.id: 1937

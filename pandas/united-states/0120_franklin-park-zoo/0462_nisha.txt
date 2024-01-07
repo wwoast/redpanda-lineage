@@ -8,10 +8,10 @@ en.name: Nisha
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ニシヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ニシヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 51, 2017/6/13
 location.2: 120, 2018/10/1

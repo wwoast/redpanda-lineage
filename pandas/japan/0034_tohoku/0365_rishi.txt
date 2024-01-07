@@ -9,10 +9,10 @@ en.name: Rishi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 日食
-jp.nicknames: none
-jp.othernames: リーシー
-language.order: jp, en
+ja.name: 日食
+ja.nicknames: none
+ja.othernames: リーシー
+language.order: ja, en
 litter: 210
 species: 2
 studbook.id: 9988

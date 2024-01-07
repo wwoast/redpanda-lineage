@@ -8,10 +8,10 @@ en.name: Airi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アイリ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アイリ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 54, 487
 location.1: 10, 2006/6/20
 location.2: 64, 2007/7/18

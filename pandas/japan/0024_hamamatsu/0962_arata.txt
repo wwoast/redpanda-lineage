@@ -8,10 +8,10 @@ en.name: Arata
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アラタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: アラタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 963
 photo.1: ig://B2rDR7rBGui/m
 photo.1.author: motohin

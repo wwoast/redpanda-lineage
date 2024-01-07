@@ -8,10 +8,10 @@ en.name: Kanta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: かんた
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: かんた
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 250
 location.1: 26, 2018/7/12
 location.2: 13, 2022/11/10

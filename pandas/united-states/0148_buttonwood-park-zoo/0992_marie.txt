@@ -8,10 +8,10 @@ en.name: Marie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 991, 993
 location.1: 118, 2018/6/12
 location.2: 148, 2019/5/1

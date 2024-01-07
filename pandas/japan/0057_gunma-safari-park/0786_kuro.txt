@@ -9,10 +9,10 @@ en.name: Kuro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: クロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 785, 787
 location.1: 10, 1992/7/1
 location.2: 57, 1993/12/26

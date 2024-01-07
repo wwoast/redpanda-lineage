@@ -9,10 +9,10 @@ en.name: Kaori
 en.nicknames: none
 en.othernames: Kou
 gender: f
-jp.name: 香
-jp.nicknames: none
-jp.othernames: かおり
-language.order: jp, en
+ja.name: 香
+ja.nicknames: none
+ja.othernames: かおり
+language.order: ja, en
 litter: 598
 species: 2
 studbook.id: 9172

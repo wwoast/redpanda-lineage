@@ -8,10 +8,10 @@ en.name: Chuihowa
 en.nicknames: none
 en.othernames: Chuy-How, Chuy-Fa, Chuihiwa, Chuyhowa, Chuy-Howa, Chuifa, Ju-Hua, Juhua, Cheihowa
 gender: f
-jp.name: チュイホワ
-jp.nicknames: none
-jp.othernames: 菊花
-language.order: jp, en
+ja.name: チュイホワ
+ja.nicknames: none
+ja.othernames: 菊花
+language.order: ja, en
 photo.1: ig://BDQnsRMNG-x/m
 photo.1.author: mariten1119
 photo.1.commitdate: 2020/5/17

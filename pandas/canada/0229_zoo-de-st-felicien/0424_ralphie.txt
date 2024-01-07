@@ -8,10 +8,10 @@ en.name: Ralphie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ラルフィー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラルフィー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 76, 2008/5/25
 location.2: 82, 2009/12/9

@@ -9,10 +9,10 @@ en.name: Kinta
 en.nicknames: none
 en.othernames: Spaceman, Quintana-Roo, Ageless Beauty
 gender: f
-jp.name: キンタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: キンタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: unknown
 location.1: 39, 2000/6/8
 location.2: 38, 2001/4/5

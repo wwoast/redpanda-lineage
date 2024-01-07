@@ -9,10 +9,10 @@ en.name: Ron-Ron
 en.nicknames: none
 en.othernames: Long-Long
 gender: m
-jp.name: 龍龍
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 龍龍
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 species: 2
 studbook.id: 9590

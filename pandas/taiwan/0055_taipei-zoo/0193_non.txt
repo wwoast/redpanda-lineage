@@ -3,18 +3,15 @@ _id: 193
 birthday: 2003/7/25
 birthplace: 17
 children: none
-cn.name: 阿暢
-cn.nickname: none
-cn.othernames: none
 commitdate: 2018/7/14
 en.name: Non
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ノン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ノン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 17, 2003/7/25
 location.2: 69, 2004/3/10
@@ -27,4 +24,7 @@ photo.1.link: https://www.instagram.com/rdpnzoo/
 photo.1.tags: apple time, profile, whiskers
 species: 2
 studbook.id: 0375
+zh.name: 阿暢
+zh.nickname: none
+zh.othernames: none
 zoo: 55

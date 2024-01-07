@@ -8,10 +8,10 @@ en.name: Hong-xion
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: ホンシオン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ホンシオン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: unknown, unknown
 location.2: 279, 2015/5/21
 species: 1

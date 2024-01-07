@@ -9,10 +9,10 @@ en.name: Masala
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マサラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マサラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 535
 location.1: 134, 2014/7/9
 location.2: 108, 2016/2/3

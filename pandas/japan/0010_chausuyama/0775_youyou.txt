@@ -9,10 +9,10 @@ en.name: You-You
 en.nicknames: none
 en.othernames: Youyou
 gender: m
-jp.name: ヨウヨウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヨウヨウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 774
 location.1: 13, 1987/7/26
 location.2: 10, 1988/11/24

@@ -9,10 +9,10 @@ en.name: Yueshi
 en.nicknames: none
 en.othernames: Yeosy, Yoshi
 gender: f
-jp.name: 月食
-jp.nicknames: none
-jp.othernames: ユエシー
-language.order: jp, en
+ja.name: 月食
+ja.nicknames: none
+ja.othernames: ユエシー
+language.order: ja, en
 litter: 365
 species: 2
 studbook.id: 9989

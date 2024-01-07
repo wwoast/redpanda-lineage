@@ -9,10 +9,10 @@ en.name: Toku-Toku
 en.nicknames: none
 en.othernames: Tokutoku
 gender: m
-jp.name: トクトク
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: トクトク
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 221
 location.1: 6, 2001/7/21
 location.2: 15, 2004/5/20

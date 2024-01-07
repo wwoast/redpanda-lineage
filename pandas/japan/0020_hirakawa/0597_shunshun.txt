@@ -9,10 +9,10 @@ en.name: Shun-Shun
 en.nicknames: none
 en.othernames: Shunshun, Chun-Chun, Chunchun
 gender: m
-jp.name: シュンシュン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シュンシュン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 15, 2007/7/1
 location.2: 20, 2009/3/13

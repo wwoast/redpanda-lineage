@@ -8,10 +8,10 @@ en.name: Shin-Fa
 en.nicknames: none
 en.othernames: Xinghua, Xinhua, Shinfa, Shi-nhowa, Shin-howa, Shinhowa
 gender: f
-jp.name: 杏花
-jp.nicknames: none
-jp.othernames: シンファ
-language.order: jp, en
+ja.name: 杏花
+ja.nicknames: none
+ja.othernames: シンファ
+language.order: ja, en
 litter: 949
 location.1: 17, 2019/6/19
 location.2: 306, 2022/3/11

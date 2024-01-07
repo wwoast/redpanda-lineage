@@ -8,10 +8,10 @@ en.name: Yan-Yan
 en.nicknames: none
 en.othernames: Yanyan, Jang Jang, Jangjang
 gender: m
-jp.name: ヤンヤン
-jp.nicknames: none
-jp.othernames: 陽陽
-language.order: jp, en
+ja.name: ヤンヤン
+ja.nicknames: none
+ja.othernames: 陽陽
+language.order: ja, en
 litter: 71
 location.1: 17, 2014/6/22
 location.2: 45, 2017/3/22

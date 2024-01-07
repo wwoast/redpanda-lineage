@@ -8,10 +8,10 @@ en.name: Miu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ミウ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミウ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 283, unknown
 location.2: 282, unknown
 species: 1

@@ -9,10 +9,10 @@ en.name: Tan-Tan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タンタン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: タンタン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 349
 photo.1: ig://CQTdjRahu11/m
 photo.1.author: bee_san.13

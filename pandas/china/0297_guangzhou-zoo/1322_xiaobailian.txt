@@ -3,18 +3,15 @@ _id: 1322
 birthday: unknown
 birthplace: unknown
 children: 1319
-cn.name: 小白脸
-cn.nicknames: 小白, 董事长, 白女士, 咪咪
-cn.othernames: none
 commitdate: 2021/12/6
 en.name: Xiao-Bai-Lian
 en.nicknames: Xiao-Bai, Chairman, Lady Bai, Mimi
 en.othernames: Xiaobailan, Xiaobai
 gender: f
-jp.name: シャオバイラン
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: シャオバイラン
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CC_Iqvclv3m/m
 photo.1.author: manmanko2
@@ -52,4 +49,7 @@ photo.7.commitdate: 2022/10/7
 photo.7.link: https://www.instagram.com/manmanko2/
 photo.7.tags: portrait, sample, smile, whiskers
 species: 2
+zh.name: 小白脸
+zh.nicknames: 小白, 董事长, 白女士, 咪咪
+zh.othernames: none
 zoo: 297

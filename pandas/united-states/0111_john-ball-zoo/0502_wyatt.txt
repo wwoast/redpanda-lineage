@@ -8,10 +8,10 @@ en.name: Wyatt
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ワット
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ワット
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 501
 location.1: 48, 2012/6/21
 location.2: 112, 2013/5/7

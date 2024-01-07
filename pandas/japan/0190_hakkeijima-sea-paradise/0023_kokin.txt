@@ -8,10 +8,10 @@ en.name: Kokin
 en.nicknames: Princess
 en.othernames: none
 gender: f
-jp.name: コキン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コキン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 location.1: 11, 2017/6/28
 location.2: 190, 2019/5/27
 photo.1: ig://BbEYUMPhPaX/m

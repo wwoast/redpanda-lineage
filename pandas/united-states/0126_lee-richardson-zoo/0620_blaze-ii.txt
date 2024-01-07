@@ -8,10 +8,10 @@ en.name: Blaze II
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 炎二
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 炎二
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 619
 species: 1
 studbook.id: 1733

@@ -8,14 +8,14 @@ en.name: Gauri
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ガウリ
-jp.nicknames: none
-jp.othernames: none
-language.order: np, en, jp
+ja.name: ガウリ
+ja.nicknames: none
+ja.othernames: none
+language.order: ne, en, ja
 litter: unknown
-np.name: गौरी
-np.nicknames: none
-np.othernames: none
+ne.name: गौरी
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://lxYIRToO9d/m
 photo.1.author: jintheranger
 photo.1.commitdate: 2020/3/28

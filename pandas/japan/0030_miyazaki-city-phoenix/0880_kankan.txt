@@ -9,10 +9,10 @@ en.name: Kan-Kan
 en.nicknames: none
 en.othernames: Kankan
 gender: m
-jp.name: カンカン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カンカン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 879, 881
 location.1: 45, 1993/6/30
 location.2: 25, 1994/11/25

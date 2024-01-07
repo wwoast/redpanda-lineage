@@ -9,10 +9,10 @@ en.name: Sunny
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サニー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サニー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 557
 location.1: 114, 2015/6/14
 location.2: 145, 2016/4/5

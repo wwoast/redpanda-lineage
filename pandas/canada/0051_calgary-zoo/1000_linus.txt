@@ -8,10 +8,10 @@ en.name: Linus
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ライナス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ライナス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 999
 location.1: 65, 2018/6/23
 location.2: 51, 2019/9/1

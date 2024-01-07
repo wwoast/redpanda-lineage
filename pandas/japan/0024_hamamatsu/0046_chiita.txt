@@ -8,10 +8,10 @@ en.name: Chiita
 en.nicknames: none
 en.othernames: Cheeta, Chita
 gender: m
-jp.name: チイタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チイタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 35
 location.1: 8, 2008/6/27
 location.2: 24, 2010/9/16

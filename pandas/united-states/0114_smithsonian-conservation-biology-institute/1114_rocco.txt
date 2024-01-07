@@ -9,10 +9,10 @@ en.name: Rocco
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ロッコ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ロッコ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 75, 2003/6/25
 location.2: 80, 2004/10/19

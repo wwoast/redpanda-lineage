@@ -9,10 +9,10 @@ en.name: Salt
 en.nicknames: none
 en.othernames: Soruto
 gender: m
-jp.name: ソルト
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ソルト
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 610
 species: 1
 studbook.id: 0298

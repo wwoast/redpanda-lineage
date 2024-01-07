@@ -8,10 +8,10 @@ en.name: Anko
 en.nicknames: Red-Bean
 en.othernames: none
 gender: f
-jp.name: あんこ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: あんこ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 141
 photo.1: ig://BkPqyzzlNsV/m
 photo.1.author: love__mitarashi

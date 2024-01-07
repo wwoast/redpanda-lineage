@@ -8,10 +8,10 @@ en.name: Zun
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ずん
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ずん
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 17, 2018/7/13
 location.2: 264, 2020/12/8

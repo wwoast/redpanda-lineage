@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Himawari
 en.othernames: none
 gender: f
-jp.name: ハナ
-jp.nicknames: none
-jp.oldnames: ヒマワリ
-jp.othernames: none
-language.order: jp, en
+ja.name: ハナ
+ja.nicknames: none
+ja.oldnames: ヒマワリ
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 17, 2005/6/21
 location.2: 63, 2007/4/24

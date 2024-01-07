@@ -9,10 +9,10 @@ en.name: Mei-Fa
 en.nicknames: none
 en.othernames: Meifa, Mayfa
 gender: f
-jp.name: メイファ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: メイファ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 111
 photo.1: https://www.codaworry.com/images/rpf/meifa-ichikawa-1.jpg
 photo.1.author: みねさん

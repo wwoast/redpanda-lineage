@@ -8,10 +8,10 @@ en.name: Lukas
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ルカス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ルカス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1337
 photo.1: ig://CWixppJLVdx/m
 photo.1.author: senecaparkzoo

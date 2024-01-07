@@ -8,10 +8,10 @@ en.name: Keiko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケイコ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ケイコ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 29
 photo.1: ig://BAV0JM5vi8l/m
 photo.1.author: panda.daisuki

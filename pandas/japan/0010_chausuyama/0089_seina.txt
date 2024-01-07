@@ -9,10 +9,10 @@ en.name: Seina
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 星奈
-jp.nicknames: none
-jp.othernames: セイナ
-language.order: jp, en
+ja.name: 星奈
+ja.nicknames: none
+ja.othernames: セイナ
+language.order: ja, en
 litter: 440
 photo.1: ig://BO8BNSOjBoO/m
 photo.1.author: no_life_no_zoo

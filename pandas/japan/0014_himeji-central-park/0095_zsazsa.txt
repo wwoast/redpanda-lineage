@@ -8,10 +8,10 @@ en.name: Zsa-Zsa
 en.nicknames: none
 en.othernames: Jia-Jia, Ja-Ja, Jaja, Zsazsa
 gender: f
-jp.name: ジャジャ
-jp.nicknames: none
-jp.othernames: 佳佳
-language.order: jp, en
+ja.name: ジャジャ
+ja.nicknames: none
+ja.othernames: 佳佳
+language.order: ja, en
 litter: 94
 location.1: 10, 2014/7/1
 location.2: 14, 2016/5/19

@@ -3,18 +3,15 @@ _id: 940
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 大白
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/15
 en.name: Da-Bai
 en.nicknames: none
 en.othernames: Dabai
 gender: unknown
-jp.name: 大白
-jp.nicknames: none
-jp.othernames: だばい
-language.order: cn, en, jp
+ja.name: 大白
+ja.nicknames: none
+ja.othernames: だばい
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://Bi5WIFjFeUt/m
 photo.1.author: c_yulu_x
@@ -27,4 +24,7 @@ photo.2.commitdate: 2019/7/15
 photo.2.link: https://www.instagram.com/c_yulu_x/
 photo.2.tags: paws, tree
 species: 2
+zh.name: 大白
+zh.nicknames: none
+zh.othernames: none
 zoo: 39

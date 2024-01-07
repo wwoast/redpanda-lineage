@@ -8,10 +8,10 @@ en.name: Carson
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カーソン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カーソン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 527
 location.1: 80, 2014/7/1
 location.2: 67, 2016/2/17

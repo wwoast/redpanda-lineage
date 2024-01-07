@@ -8,10 +8,10 @@ en.name: Khusi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: クシ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クシ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 965
 location.1: 201, 2014/1/12
 location.2: 204, 2015/3/24

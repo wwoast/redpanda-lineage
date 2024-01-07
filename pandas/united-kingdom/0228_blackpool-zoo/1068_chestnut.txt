@@ -8,10 +8,10 @@ en.name: Chestnut
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: チェストナット
-jp.nicknames: none
-jp.othernames: 栗, クリ, マロン
-language.order: en, jp
+ja.name: チェストナット
+ja.nicknames: none
+ja.othernames: 栗, クリ, マロン
+language.order: en, ja
 litter: 1067
 location.1: 135, 2005/6/25
 location.2: 228, 2007/12/6

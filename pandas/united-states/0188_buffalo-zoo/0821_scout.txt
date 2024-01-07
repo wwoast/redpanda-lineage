@@ -8,10 +8,10 @@ en.name: Scout
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スカウト
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スカウト
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 109, 2015/6/3
 location.2: 188, 2016/11/8

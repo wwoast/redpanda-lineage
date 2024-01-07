@@ -5,10 +5,10 @@ en.address: Japan, 〒410-1231 Shizuoka Prefecture, Susono, Suyama, 字藤原225
 en.location: Susuno, Shizuoka Prefecture, Japan
 en.name: Fuji Safari Park
 flag: Japan
-jp.address: 〒410-1231 静岡県裾野市須山字藤原2255−27
-jp.location: 裾野市 静岡県
-jp.name: 富士サファリパーク 公式サイト
-language.order: jp, en
+ja.address: 〒410-1231 静岡県裾野市須山字藤原2255−27
+ja.location: 裾野市 静岡県
+ja.name: 富士サファリパーク 公式サイト
+language.order: ja, en
 latitude: 35.2587801
 longitude: 138.8076475
 map: https://goo.gl/maps/PLj4TTrSWVN2

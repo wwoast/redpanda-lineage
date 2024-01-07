@@ -11,10 +11,10 @@ gender: f
 hu.name: Ting-Ting
 hu.nicknames: none
 hu.othernames: none
-jp.name: ティンティン
-jp.nicknames: none
-jp.othernames: none
-language.order: hu, sk, en, jp
+ja.name: ティンティン
+ja.nicknames: none
+ja.othernames: none
+language.order: hu, sk, en, ja
 litter: none
 location.1: 173, 2013/6/23
 location.2: 172, 2014/5/30

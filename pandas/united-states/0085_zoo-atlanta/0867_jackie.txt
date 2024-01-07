@@ -8,10 +8,10 @@ en.name: Jackie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ジャッキー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ジャッキー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 901
 location.1: 114, 2017/6/14
 location.2: 49, 2017/12/19

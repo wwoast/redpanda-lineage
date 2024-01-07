@@ -3,18 +3,15 @@ _id: 952
 birthday: 2009/6/23
 birthplace: 200
 children: 539, 685, 953, 996, 997
-cn.name: 安安
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/7/22
 en.name: An-An
 en.nicknames: none
 en.othernames: Anan
 gender: m
-jp.name: アンアン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アンアン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 200, 2009/6/23
 location.2: 137, 2010/5/6
@@ -24,4 +21,7 @@ photo.1.commitdate: 2019/10/22
 photo.1.link: https://www.instagram.com/wumpwoast/
 photo.1.tags: bamboo, paws, portrait, profile
 species: 1
+zh.name: 安安
+zh.nicknames: none
+zh.othernames: none
 zoo: 137

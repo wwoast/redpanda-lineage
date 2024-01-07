@@ -9,10 +9,10 @@ en.name: Nono
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ノノ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ノノ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 13
 location.1: 17, 2002/7/15
 location.2: 37, 2004/2/13

@@ -8,13 +8,13 @@ en.name: Kalu
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: カールー
-jp.nicknames: none
-jp.othernames: none
-language.order: np, en, jp
+ja.name: カールー
+ja.nicknames: none
+ja.othernames: none
+language.order: ne, en, ja
 litter: 1088
-np.name: कालू
-np.nicknames: none
-np.othernames: none
+ne.name: कालू
+ne.nicknames: none
+ne.othernames: none
 species: 1
 zoo: 233

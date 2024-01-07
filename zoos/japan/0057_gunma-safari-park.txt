@@ -5,10 +5,10 @@ en.address: Japan, 〒370-2321 Gunma Prefecture, 富岡市岡本１
 en.location: Gunma Prefecture, Japan
 en.name: Gunma Safari Park
 flag: Japan
-jp.address: 〒370-2321 群馬県 富岡市岡本１
-jp.location: 群馬県
-jp.name: 群馬サファリパーク
-language.order: jp, en
+ja.address: 〒370-2321 群馬県 富岡市岡本１
+ja.location: 群馬県
+ja.name: 群馬サファリパーク
+language.order: ja, en
 latitude: 36.227195
 longitude: 138.8849445
 map: https://goo.gl/maps/at8sz15RscJ2

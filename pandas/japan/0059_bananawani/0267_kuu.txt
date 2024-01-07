@@ -8,10 +8,10 @@ en.name: Kuu
 en.nicknames: none
 en.othernames: Qoo
 gender: m
-jp.name: くう
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: くう
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BOyWwMYj8-G/m
 photo.1.author: minatomirai215

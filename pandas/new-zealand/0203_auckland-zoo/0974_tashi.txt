@@ -8,10 +8,10 @@ en.name: Tashi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タシ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タシ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 photo.1: ig://BuAMo5wFtDr/m
 photo.1.author: aucklandzoo

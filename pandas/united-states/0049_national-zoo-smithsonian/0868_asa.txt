@@ -8,10 +8,10 @@ en.name: Asa
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アサ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アサ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 869
 location.1: 114, 2014/5/27
 location.2: 49, 2015/12/8

@@ -9,10 +9,10 @@ en.name: Booby
 en.nicknames: none
 en.othernames: Bubi, Bu-Bi-
 gender: f
-jp.name: ブービー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ブービー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 607
 species: 2
 studbook.id: 0091

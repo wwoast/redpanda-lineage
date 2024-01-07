@@ -9,10 +9,10 @@ en.name: Tashi
 en.nicknames: none
 en.othernames: Ta-Shi
 gender: f
-jp.name: タシ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タシ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 695
 location.1: 109, 2005/6/12
 location.2: 116, 2006/4/6

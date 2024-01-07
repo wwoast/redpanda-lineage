@@ -9,10 +9,10 @@ en.name: Mu-Mu
 en.nicknames: none
 en.othernames: Mumu, Muu-Muu, Muumuu
 gender: f
-jp.name: 夢夢
-jp.nicknames: none
-jp.othernames: ムームー
-language.order: jp, en
+ja.name: 夢夢
+ja.nicknames: none
+ja.othernames: ムームー
+language.order: ja, en
 litter: 852
 location.1: 40, 1988/7/13
 location.2: 290, 1990/3/23

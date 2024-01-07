@@ -12,10 +12,10 @@ fr.name: Minju
 fr.nicknames: none
 fr.othernames: none
 gender: f
-jp.name: ミンジュ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, en, jp
+ja.name: ミンジュ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, en, ja
 litter: 1312
 photo.1: ig://CUFSMKes6PK/m
 photo.1.author: nathalie.elliott

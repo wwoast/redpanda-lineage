@@ -8,10 +8,10 @@ en.name: Poppy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ポッピー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ポッピー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1252
 photo.1: ig://CJJ6oZjFITd/m
 photo.1.author: assiniboineparkzoo

@@ -9,10 +9,10 @@ en.name: Ernie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: アーニー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アーニー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 648
 species: 2
 studbook.id: 1576

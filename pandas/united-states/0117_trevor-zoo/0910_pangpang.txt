@@ -9,10 +9,10 @@ en.name: Pang-Pang
 en.nicknames: none
 en.othernames: Pangpang, Pang Pang
 gender: m
-jp.name: パンパン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パンパン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 498, 605
 location.1: 107, 2009/6/28
 location.2: 117, 2010/4/20

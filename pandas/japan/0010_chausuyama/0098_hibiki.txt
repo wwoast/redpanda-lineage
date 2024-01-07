@@ -8,10 +8,10 @@ en.name: Hibiki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヒビキ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒビキ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 97
 photo.1: ig://Bf4SjV3Bqco/m
 photo.1.author: yoshiyokohama

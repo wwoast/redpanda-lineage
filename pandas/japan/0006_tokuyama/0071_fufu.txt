@@ -8,10 +8,10 @@ en.name: Fu-Fu
 en.nicknames: none
 en.othernames: Fuku-Fuku, Fufu, Fukufuku
 gender: m
-jp.name: 福福
-jp.nicknames: none
-jp.othernames: フーフー
-language.order: jp, en
+ja.name: 福福
+ja.nicknames: none
+ja.othernames: フーフー
+language.order: ja, en
 litter: 164
 location.1: 17, 2014/6/22
 location.2: 6, 2016/2/24

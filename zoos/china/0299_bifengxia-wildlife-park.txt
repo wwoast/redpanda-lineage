@@ -1,19 +1,19 @@
 [zoo]
 _id: 299
-cn.address: unknown
-cn.location: 碧峰峡镇雨城雅安四川省中国
-cn.name: 碧峰峡野生动物世界
 commitdate: 2021/12/2
 en.address: unknown
 en.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
 en.name: Bifengxia Wildlife Park
 flag: China
-jp.address: unknown
-jp.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
-jp.name: Bifengxia Wildlife Park
-language.order: cn, jp, en
+ja.address: unknown
+ja.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
+ja.name: Bifengxia Wildlife Park
+language.order: zh, ja, en
 latitude: 30.0652012
 longitude: 102.9964627
 map: https://goo.gl/maps/LgPysjPdnFVJ7Gea7
 uncertainty: exact location (google maps)
 website: unknown
+zh.address: unknown
+zh.location: 碧峰峡镇雨城雅安四川省中国
+zh.name: 碧峰峡野生动物世界

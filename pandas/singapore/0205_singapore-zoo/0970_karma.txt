@@ -8,10 +8,10 @@ en.name: Karma
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カルマ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カルマ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 968, 969
 location.1: 201, 2012/12/20
 location.2: 205, 2014/11/10

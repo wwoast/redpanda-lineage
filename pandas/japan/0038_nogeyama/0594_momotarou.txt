@@ -9,10 +9,10 @@ en.name: Momotarou
 en.nicknames: none
 en.othernames: Momotaro
 gender: m
-jp.name: 桃太郎
-jp.nicknames: none
-jp.othernames: モモタロウ
-language.order: jp, en
+ja.name: 桃太郎
+ja.nicknames: none
+ja.othernames: モモタロウ
+language.order: ja, en
 litter: 152
 location.1: 14, 1997/7/17
 location.2: 38, 1999/10/18

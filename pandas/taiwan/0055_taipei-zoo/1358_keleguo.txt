@@ -3,18 +3,15 @@ _id: 1358
 birthday: 2019/6/8
 birthplace: 55
 children: none
-cn.name: 可樂果
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2022/4/20
 en.name: Keleguo
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ケレグオ
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: ケレグオ
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: none
 photo.1: ig://CeiETk4P3Rv/m
 photo.1.author: yuredpanda
@@ -22,4 +19,7 @@ photo.1.commitdate: 2022/8/30
 photo.1.link: https://www.instagram.com/yuredpanda/
 photo.1.tags: portrait, profile
 species: 2
+zh.name: 可樂果
+zh.nicknames: none
+zh.othernames: none
 zoo: 55

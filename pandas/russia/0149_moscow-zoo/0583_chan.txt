@@ -8,10 +8,10 @@ en.name: Chan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ちゃん
-jp.nicknames: none
-jp.othernames: none
-language.order: ru, en, jp
+ja.name: ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: ru, en, ja
 litter: none
 location.1: 151, 2014/6/14
 location.2: 149, 2015/9/30

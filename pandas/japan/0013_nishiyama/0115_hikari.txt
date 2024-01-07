@@ -8,10 +8,10 @@ en.name: Hikari
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ひかり
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ひかり
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 116
 photo.1: ig://Bi-Oa8LgXGT/m
 photo.1.author: minato.yokohama4416

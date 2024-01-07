@@ -8,10 +8,10 @@ en.name: Ashitaba
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アシタバ
-jp.nicknames: none
-jp.othernames: 明日葉
-language.order: jp, en
+ja.name: アシタバ
+ja.nicknames: none
+ja.othernames: 明日葉
+language.order: ja, en
 litter: 294
 location.1: 64, 2016/6/22
 location.2: 41, 2018/10/18

@@ -9,10 +9,10 @@ en.name: Yume
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 夢
-jp.nicknames: none
-jp.othernames: ゆめ
-language.order: jp, en
+ja.name: 夢
+ja.nicknames: none
+ja.othernames: ゆめ
+language.order: ja, en
 litter: 137
 species: 2
 studbook.id: 0979

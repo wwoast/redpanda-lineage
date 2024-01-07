@@ -9,10 +9,10 @@ en.name: Ton-Ton
 en.nicknames: none
 en.othernames: Tonton
 gender: m
-jp.name: トントン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: トントン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 592
 location.1: 10, 1994/6/17
 location.2: 57, 1998/1/28

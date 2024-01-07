@@ -9,10 +9,10 @@ en.name: Kou-Kou
 en.nicknames: none
 en.othernames: Koukou
 gender: f
-jp.name: コウコウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: コウコウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 879, 880
 location.1: 45, 1993/6/30
 location.2: 26, 2001/7/6

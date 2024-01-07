@@ -8,10 +8,10 @@ en.name: Sheffield
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シェフィールド
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シェフィールド
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 416
 location.1: 87, 2016/6/24
 location.2: 83, 2018/8/1

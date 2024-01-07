@@ -9,10 +9,10 @@ en.name: Ten
 en.nicknames: none
 en.othernames: 
 gender: f
-jp.name: テン
-jp.nicknames: none
-jp.othernames: 天
-language.order: jp, en
+ja.name: テン
+ja.nicknames: none
+ja.othernames: 天
+language.order: ja, en
 litter: 827
 species: 2
 studbook.id: 9985

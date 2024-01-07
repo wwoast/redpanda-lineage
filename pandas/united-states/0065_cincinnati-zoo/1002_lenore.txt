@@ -8,10 +8,10 @@ en.name: Lenore
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: レノレ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: レノレ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1001
 photo.1: ig://B01BYuMgrPJ/m
 photo.1.author: cincinnatizoo

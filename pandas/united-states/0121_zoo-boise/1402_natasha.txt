@@ -8,10 +8,10 @@ en.name: Natasha
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナターシャ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ナターシャ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1401
 photo.1: ig://CXrUHK-voV1/m
 photo.1.author: zooboise

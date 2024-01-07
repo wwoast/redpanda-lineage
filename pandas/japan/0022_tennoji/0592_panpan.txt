@@ -9,10 +9,10 @@ en.name: Pan-Pan
 en.nicknames: none
 en.othernames: Panpan
 gender: f
-jp.name: パンパン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: パンパン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 593
 location.1: 10, 1994/6/17
 location.2: 22, 1996/12/13

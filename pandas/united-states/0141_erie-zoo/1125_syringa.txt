@@ -9,10 +9,10 @@ en.name: Syringa
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シリンジガ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シリンジガ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 121, 2008/7/3
 location.2: 141, 2009/5/7

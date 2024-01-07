@@ -5,10 +5,10 @@ en.address: Ichikawa City Zoo, Japan, 〒272-0801 Chiba Prefecture, Ichikawa, �
 en.location: Ichikawa, Chiba Prefecture, Japan
 en.name: Ichikawa Zoological & Botanical Gardens
 flag: Japan
-jp.address: 〒272-0801 千葉県市川市大町２８４番１外
-jp.location: 市川市千葉県
-jp.name: 市川市動植物園
-language.order: jp, en
+ja.address: 〒272-0801 千葉県市川市大町２８４番１外
+ja.location: 市川市千葉県
+ja.name: 市川市動植物園
+language.order: ja, en
 latitude: 35.7642063
 longitude: 139.9638014
 map: https://goo.gl/maps/WSyNu7HFhH42

@@ -8,10 +8,10 @@ en.name: Gizmo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ギズモ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ギズモ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 133, 2019/6/7
 location.2: 187, 2020/12/2

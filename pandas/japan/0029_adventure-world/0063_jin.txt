@@ -8,10 +8,10 @@ en.name: Jin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 仁
-jp.nicknames: none
-jp.othernames: ジン
-language.order: jp, en
+ja.name: 仁
+ja.nicknames: none
+ja.othernames: ジン
+language.order: ja, en
 litter: none
 photo.1: ig://BMiLyeSA7si/m
 photo.1.author: anianimal.love

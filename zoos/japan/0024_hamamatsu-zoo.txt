@@ -6,10 +6,10 @@ en.location: Hamamatsu, Shizuoka Prefecture, Japan
 en.name: Hamamatsu Municipal Zoo
 en.othernames: Hama Zoo
 flag: Japan
-jp.address: 〒431-1209 静岡県 浜松市西区 舘山寺町１９９
-jp.location: 浜松市 静岡県
-jp.name: 浜松市動物園
-language.order: jp, en
+ja.address: 〒431-1209 静岡県 浜松市西区 舘山寺町１９９
+ja.location: 浜松市 静岡県
+ja.name: 浜松市動物園
+language.order: ja, en
 latitude: 34.7658483
 longitude: 137.6301835
 map: https://goo.gl/maps/oXmmXnkH1h52

@@ -31,10 +31,10 @@ en.name: Harumaki
 en.nicknames: <common nicknames with comma separator|none>
 en.othernames: <alternate spellings|none>
 gender: <m|f|unknown>
-jp.name: ハルマキ
-jp.nicknames: <utf8-strings with comma separator|none>
+ja.name: ハルマキ
+ja.nicknames: <utf8-strings with comma separator|none>
 # first name in jp.othernames list used as furigana, or alternate kanji spelling
-jp.othernames: <utf8-strings with comma separator, first string is furigana|none>
+ja.othernames: <utf8-strings with comma separator, first string is furigana|none>
 language.order: <list-of-language-prefixes-most-meaningful-for-this-entity>
 litter: <ids-for-panda-siblings-born-in-same-litter>
 location.1: <zoo-id-number>, <date-arrived-at-zoo>
@@ -71,9 +71,9 @@ commitdate: <YYYY/MM/DD this first appeared in this repository>
 en.address: <google maps address info from google.com> 
 en.location: Chiba Prefecture, Japan
 en.name: Ichikawa Zoological and Botanical Gardens 
-jp.address: <google maps address info from google.jp>
-jp.location: <utf8-string>
-jp.name: <utf8-string>
+ja.address: <google maps address info from google.jp>
+ja.location: <utf8-string>
+ja.name: <utf8-string>
 language.order: <list-of-language-prefixes-most-meaningful-for-this-entity>
 map: <google-maps-shortlink-to-this-location>
 photo.1: ...

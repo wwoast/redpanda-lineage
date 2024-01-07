@@ -9,10 +9,10 @@ en.name: Ai-Ai
 en.nicknames: none
 en.othernames: Aiai
 gender: f
-jp.name: 愛愛
-jp.nicknames: none
-jp.othernames: アイアイ
-language.order: jp, en
+ja.name: 愛愛
+ja.nicknames: none
+ja.othernames: アイアイ
+language.order: ja, en
 litter: 748
 species: 2
 studbook.id: 8923

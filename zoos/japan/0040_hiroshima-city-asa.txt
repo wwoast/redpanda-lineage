@@ -5,10 +5,10 @@ en.address: Asacho Oaza Dobutsuen, Asakita Ward, Hiroshima, Hiroshima Prefecture
 en.location: Hiroshima Prefecture, Japan
 en.name: Hiroshima City Asa Zoological Park
 flag: Japan
-jp.address: 〒731-3355 広島県広島市安佐北区安佐町大字動物園
-jp.location: 広島市 広島県
-jp.name: 広島市安佐動物公園
-language.order: jp, en
+ja.address: 〒731-3355 広島県広島市安佐北区安佐町大字動物園
+ja.location: 広島市 広島県
+ja.name: 広島市安佐動物公園
+language.order: ja, en
 latitude: 34.4982738
 longitude: 132.4386406
 map: https://goo.gl/maps/6RKGqYpdxew

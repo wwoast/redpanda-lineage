@@ -9,10 +9,10 @@ en.name: Henry Ford
 en.nicknames: none
 en.othernames: Henry
 gender: m
-jp.name: ヘンリー・フォード
-jp.nicknames: none
-jp.othernames: ヘンリーフォード
-language.order: en, jp
+ja.name: ヘンリー・フォード
+ja.nicknames: none
+ja.othernames: ヘンリーフォード
+language.order: en, ja
 litter: none
 location.1: 124, 2008/6/16
 location.2: 108, 2008/7/9

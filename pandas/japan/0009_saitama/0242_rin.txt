@@ -8,10 +8,10 @@ en.name: Rin
 en.nicknames: none
 en.othernames: Lynn
 gender: f
-jp.name: リン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://Bo6EEXKlK0v/m
 photo.1.author: rie_panda55

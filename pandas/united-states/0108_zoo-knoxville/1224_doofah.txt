@@ -8,10 +8,10 @@ en.name: Doofah
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ドゥーファ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ドゥーファ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1225
 location.1: 154, 2018/6/21
 location.2: 113, 2019/7/1

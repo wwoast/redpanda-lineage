@@ -8,10 +8,10 @@ en.name: Mugi
 en.nicknames: Babu, Yon, Mugiweeb, Weebles, Mugiweeble, Mugiweebles, Oatpuff
 en.othernames: none
 gender: m
-jp.name: 麦
-jp.nicknames: バブ, 四男
-jp.othernames: ムギ
-language.order: jp, en
+ja.name: 麦
+ja.nicknames: バブ, 四男
+ja.othernames: ムギ
+language.order: ja, en
 litter: none
 photo.1: ig://BqMBnbxFUL1/m
 photo.1.author: adventureworld_official

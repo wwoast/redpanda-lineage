@@ -8,10 +8,10 @@ en.name: Mei-Li
 en.nicknames: none
 en.othernames: Meili
 gender: f
-jp.name: メイリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メイリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: unknown
 location.2: 309, 1/12/2018

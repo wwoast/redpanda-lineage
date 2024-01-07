@@ -8,10 +8,10 @@ en.name: Mulan
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ムーラン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ムーラン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: unknown
 location.1: 139, 2012/7/9
 location.2: 253, 2013/3/27

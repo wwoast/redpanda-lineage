@@ -8,10 +8,10 @@ en.name: Torori
 en.nicknames: none
 en.othernames: Toroli
 gender: m
-jp.name: トロリ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: トロリ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 113
 location.1: 14, 2011/6/27
 location.2: 40, 2013/6/25

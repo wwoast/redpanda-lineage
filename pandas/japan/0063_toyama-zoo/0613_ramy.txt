@@ -9,10 +9,10 @@ en.name: Ramy
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ラミー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ラミー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 63, 2002/7/12
 location.2: 74, 2004/3/1

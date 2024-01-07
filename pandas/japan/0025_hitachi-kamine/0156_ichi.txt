@@ -9,10 +9,10 @@ en.name: Ichi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: イチ
-jp.nicknames: none
-jp.othernames: 市
-language.order: jp, en
+ja.name: イチ
+ja.nicknames: none
+ja.othernames: 市
+language.order: ja, en
 litter: 369
 location.1: 40, 2004/7/23
 location.2: 25, 2009/2/25

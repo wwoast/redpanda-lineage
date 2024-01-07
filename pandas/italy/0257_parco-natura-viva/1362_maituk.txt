@@ -8,10 +8,10 @@ en.name: Maitük
 en.nicknames: none
 en.othernames: Maituk
 gender: m
-jp.name: マイトゥク
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マイトゥク
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1363
 location.1: 247, 2011/6/26
 location.2: 257, 2012/6/20

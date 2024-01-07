@@ -9,10 +9,10 @@ en.name: Hide
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 秀
-jp.nicknames: none
-jp.othernames: ひで
-language.order: jp, en
+ja.name: 秀
+ja.nicknames: none
+ja.othernames: ひで
+language.order: ja, en
 litter: 286
 photo.1: ig://BTMdcDJFV1h/m
 photo.1.author: mel._.cara

@@ -8,10 +8,10 @@ en.name: Gimli
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ギムリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ギムリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 photo.1: ig://B3DPj7uHFC7/m
 photo.1.author: zoonewengland

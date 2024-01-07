@@ -8,10 +8,10 @@ en.name: Leanne
 en.nicknames: none
 en.othernames: Leeane, Lee-Anne, Leeanne, Leane, Rian, Rians
 gender: f
-jp.name: リアン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: リアン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1198
 photo.1: ig://CHaQQJhB1BB/m
 photo.1.author: tamazoowalking

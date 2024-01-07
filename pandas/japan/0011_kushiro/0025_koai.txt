@@ -8,10 +8,10 @@ en.name: Ko-ai
 en.nicknames: none
 en.othernames: Koai, Ko-Ai, Kohai, Koaih
 gender: f
-jp.name: コーアイ
-jp.nicknames: none
-jp.othernames: 光愛
-language.order: jp, en
+ja.name: コーアイ
+ja.nicknames: none
+ja.othernames: 光愛
+language.order: ja, en
 litter: 165
 location.1: 12, 2004/6/10
 location.2: 11, 2006/6/7

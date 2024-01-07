@@ -9,10 +9,10 @@ en.name: Cinnamon
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シナモン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シナモン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 906
 location.1: 145, 2014/6/19
 location.2: 105, 2015/11/10

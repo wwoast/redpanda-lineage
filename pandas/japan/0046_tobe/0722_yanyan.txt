@@ -9,10 +9,10 @@ en.name: Yan-Yan
 en.nicknames: none
 en.othernames: Yanyan
 gender: m
-jp.name: ヤンヤン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヤンヤン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 723
 location.1: 6, 1990/7/14
 location.2: 46, 1992/1/23

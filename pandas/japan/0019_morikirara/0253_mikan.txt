@@ -8,10 +8,10 @@ en.name: Mikan
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: みかん
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: みかん
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 160
 location.1: 6, 2011/7/18
 location.2: 19, 2013/2/13

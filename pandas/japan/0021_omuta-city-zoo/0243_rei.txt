@@ -8,10 +8,10 @@ en.name: Rei
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: レイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: レイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://BojHXCBFr-l/m
 photo.1.author: yossi929

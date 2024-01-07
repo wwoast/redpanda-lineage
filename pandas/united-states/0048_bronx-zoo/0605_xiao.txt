@@ -8,10 +8,10 @@ en.name: Xiao
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シャオ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャオ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 498, 910
 location.1: 107, 2009/6/28
 location.2: 123, 2010/7/15

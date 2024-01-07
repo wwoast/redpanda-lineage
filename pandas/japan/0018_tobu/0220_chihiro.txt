@@ -9,10 +9,10 @@ en.name: Chihiro
 en.nicknames: none
 en.othernames: Tihiro
 gender: f
-jp.name: チヒロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チヒロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 53, 374
 location.1: 10, 2003/6/16
 location.2: 18, 2005/12/18

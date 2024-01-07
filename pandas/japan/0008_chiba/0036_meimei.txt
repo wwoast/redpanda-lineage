@@ -8,10 +8,10 @@ en.name: Mei-Mei
 en.nicknames: none
 en.othernames: Meimei, May-May, Maymay, MayMay
 gender: f
-jp.name: メイメイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: メイメイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 105
 location.1: 17, 2007/6/28
 location.2: 8, 2011/2/28

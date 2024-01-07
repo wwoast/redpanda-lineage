@@ -8,10 +8,10 @@ en.name: Shanu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シャヌ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シャヌ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1094
 location.1: 126, 2019/7/17
 location.2: 178, 2021/9/1

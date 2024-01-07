@@ -8,10 +8,10 @@ en.name: Sami
 en.nicknames: none
 en.othernames: Sammy
 gender: f
-jp.name: サミ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サミ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 811
 location.1: 121, 2014/6/6
 location.2: 144, 2015/4/15

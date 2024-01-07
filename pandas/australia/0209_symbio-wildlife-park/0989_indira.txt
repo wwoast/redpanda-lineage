@@ -8,10 +8,10 @@ en.name: Indira
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: インディラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: インディラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 207, 2005/12/15
 location.2: 210, 2008/6/4

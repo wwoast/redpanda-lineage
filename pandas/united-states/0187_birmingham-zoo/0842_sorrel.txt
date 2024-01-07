@@ -9,10 +9,10 @@ en.name: Sorrel
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 栗色
-jp.nicknames: none
-jp.othernames: くりいろ
-language.order: en, jp
+ja.name: 栗色
+ja.nicknames: none
+ja.othernames: くりいろ
+language.order: en, ja
 litter: 841
 location.1: 105, 2010/6/12
 location.2: 187, 2011/4/28

@@ -8,10 +8,10 @@ en.name: Phoenix
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: フェニックス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: フェニックス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 448
 location.1: 76, 2011/6/13
 location.2: 95, 2012/10/30

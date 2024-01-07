@@ -8,10 +8,10 @@ en.name: Sparky
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スパーキー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スパーキー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 620
 species: 1
 studbook.id: 1734

@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Six
 en.othernames: none
 gender: f
-jp.name: (無名)
-jp.nicknames: none
-jp.oldnames: 六
-jp.othernames: none
-language.order: en, jp
+ja.name: (無名)
+ja.nicknames: none
+ja.oldnames: 六
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 37, 2000/7/1
 location.2: 76, 2002/3/20

@@ -8,10 +8,10 @@ en.name: Pan
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: パン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: パン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 275, 2020/7/15
 location.2: 215, 2021/6/1
 photo.1: ig://CQsvkrmtukg/m

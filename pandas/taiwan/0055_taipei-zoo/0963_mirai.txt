@@ -8,10 +8,10 @@ en.name: Mirai
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ミライ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ミライ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 962
 location.1: 24, 2019/7/5
 location.2: 55, 2023/11/25

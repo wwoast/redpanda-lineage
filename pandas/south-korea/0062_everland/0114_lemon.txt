@@ -8,14 +8,14 @@ en.name: Lemon
 en.nicknames: none
 en.othernames: Milky, Meruki, Miruki, Miruki-
 gender: f
-jp.name: ミルキー
-jp.nicknames: none
-jp.othernames: none
-kr.name: 레몬
-kr.nicknames: none
-kr.oldnames: 젖을 섞은
-kr.othernames: none
-language.order: jp, en
+ja.name: ミルキー
+ja.nicknames: none
+ja.othernames: none
+ko.name: 레몬
+ko.nicknames: none
+ko.oldnames: 젖을 섞은
+ko.othernames: none
+language.order: ja, ko, en
 litter: none
 location.1: 13, 2013/7/7
 location.2: 29, 2020/2/26

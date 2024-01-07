@@ -9,10 +9,10 @@ en.name: Micu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ミク
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミク
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 65, 2017/6/25
 location.2: 83, 2018/5/10

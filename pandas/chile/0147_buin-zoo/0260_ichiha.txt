@@ -8,10 +8,10 @@ en.name: Ichiha
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: いちは
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: いちは
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 259
 location.1: 42, 2014/8/18
 location.2: 147, 2020/3/9

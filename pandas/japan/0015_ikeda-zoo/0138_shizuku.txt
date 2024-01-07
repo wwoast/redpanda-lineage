@@ -8,10 +8,10 @@ en.name: Shizuku
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: しずく
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: しずく
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://_mXkDHvalx/m
 photo.1.author: tama080707

@@ -9,10 +9,10 @@ en.name: Christian
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クリスチャン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クリスチャン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1115
 species: 1
 zoo: 108

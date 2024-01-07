@@ -9,10 +9,10 @@ en.name: Ming-Yue
 en.nicknames: none
 en.othernames: Mingyue
 gender: f
-jp.name: ミンユエ
-jp.nicknames: none
-jp.othernames: 明越
-language.order: en, jp
+ja.name: ミンユエ
+ja.nicknames: none
+ja.othernames: 明越
+language.order: en, ja
 litter: 394
 location.1: 84, 2013/6/22
 location.2: 92, 2014/8/11

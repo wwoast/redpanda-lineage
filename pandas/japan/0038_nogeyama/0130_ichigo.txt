@@ -8,10 +8,10 @@ en.name: Ichigo
 en.nicknames: Strawberry-chan
 en.othernames: none
 gender: f
-jp.name: イチゴ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: イチゴ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 69
 location.1: 6, 2012/7/28
 location.2: 12, 2015/12/17

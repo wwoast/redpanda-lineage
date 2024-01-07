@@ -9,10 +9,10 @@ en.name: Ru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ル
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ル
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 638
 species: 1
 studbook.id: 1345

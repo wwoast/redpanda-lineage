@@ -3,9 +3,6 @@ _id: 1247
 birthday: 2019/6/22
 birthplace: 271
 children: 1312, 1313
-cn.name: 火狐
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/12/29
 en.name: Hui Hu
 en.nicknames: none
@@ -14,10 +11,10 @@ fr.name: Hui Hu
 fr.nicknames: none
 fr.othernames: none
 gender: m
-jp.name: 火狐
-jp.nicknames: none
-jp.othernames: ひきつね
-language.order: fr, cn, en, jp
+ja.name: 火狐
+ja.nicknames: none
+ja.othernames: ひきつね
+language.order: fr, zh, en, ja
 litter: 1248
 location.1: 271, 2019/6/22
 location.2: 219, 2020/10/1
@@ -68,4 +65,7 @@ photo.9.link: https://www.instagram.com/nathalie.elliott/
 photo.9.tags: paws, portrait, tail, tongue
 species: 1
 uncertainty: location.2 moving date
+zh.name: 火狐
+zh.nicknames: none
+zh.othernames: none
 zoo: 219

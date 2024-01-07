@@ -8,10 +8,10 @@ en.name: Bo
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ボー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ボー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 105, 2017/6/20
 location.2: 145, 2018/5/9

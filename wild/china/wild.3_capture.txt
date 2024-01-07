@@ -5,7 +5,7 @@ en.address: unknown
 en.location: China
 en.name: Captured Wild Animal
 flag: China
-jp.address: unknown
-jp.location: 漢
-jp.name: 捕獲された野生動物
+ja.address: unknown
+ja.location: 漢
+ja.name: 捕獲された野生動物
 language.order: en

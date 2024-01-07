@@ -8,10 +8,10 @@ en.name: Taiji
 en.nicknames: none
 en.othernames: Tai
 gender: m
-jp.name: たいじ
-jp.nicknames: none
-jp.othernames: たい
-language.order: en, jp
+ja.name: たいじ
+ja.nicknames: none
+ja.othernames: たい
+language.order: en, ja
 litter: none
 location.1: 83, 2012/5/21
 location.2: 99, 2013/3/27

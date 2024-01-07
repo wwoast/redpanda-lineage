@@ -8,10 +8,10 @@ en.name: Hinagiku
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ヒナギク
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒナギク
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1374
 photo.1: ig://CmbfeZbPDeW/m
 photo.1.author: pantasanzoo1

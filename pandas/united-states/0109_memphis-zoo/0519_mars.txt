@@ -8,10 +8,10 @@ en.name: Mars
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マルス
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マルス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 121, 2013/6/15
 location.2: 123, 2014/11/5

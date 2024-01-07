@@ -3,18 +3,15 @@ _id: 1332
 birthday: unknown
 birthplace: unknown
 children: unknown
-cn.name: 亚瑟
-cn.nicknames: none
-cn.othernames: 亚猪, 猪
 commitdate: 2021/12/8
 en.name: Arthur
 en.nicknames: none
 en.othernames: Ar-Pig, Pig
 gender: m
-jp.name: アーサー
-jp.nicknames: none
-jp.othernames: none
-language.order: cn, en, jp
+ja.name: アーサー
+ja.nicknames: none
+ja.othernames: none
+language.order: zh, en, ja
 litter: unknown
 photo.1: ig://CM42R53BwFm/m
 photo.1.author: manmanko2
@@ -22,4 +19,7 @@ photo.1.commitdate: 2021/12/8
 photo.1.link: https://www.instagram.com/manmanko2/
 photo.1.tags: portrait, profile, snow, whiskers, wink
 species: 2
+zh.name: 亚瑟
+zh.nicknames: none
+zh.othernames: 亚猪, 猪
 zoo: 301

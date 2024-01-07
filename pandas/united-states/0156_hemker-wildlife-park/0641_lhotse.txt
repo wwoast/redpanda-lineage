@@ -8,10 +8,10 @@ en.name: Lhotse
 en.nicknames: none
 en.othernames: Louie, Louis
 gender: m
-jp.name: ローツェ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローツェ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 545
 location.1: 141, 2014/6/14
 location.2: 146, 2015/11/23

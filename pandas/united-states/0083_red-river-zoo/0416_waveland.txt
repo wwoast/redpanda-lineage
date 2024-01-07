@@ -8,10 +8,10 @@ en.name: Waveland
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ウェーヴランド
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウェーヴランド
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 417
 location.1: 87, 2016/6/24
 location.2: 83, 2018/8/1

@@ -9,10 +9,10 @@ en.name: Qin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クィン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クィン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 65, 2005/6/23
 location.2: 83, 2007/4/20

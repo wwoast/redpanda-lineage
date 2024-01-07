@@ -9,10 +9,10 @@ en.name: Kokoro
 en.nicknames: Mofumofu
 en.othernames: none
 gender: f
-jp.name: ココロ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ココロ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 291, 487
 location.1: 10, 2006/6/20
 location.2: 27, 2014/1/7

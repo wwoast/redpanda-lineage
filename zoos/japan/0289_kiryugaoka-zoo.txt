@@ -6,11 +6,11 @@ en.location: Kiryu, Gunma Prefecture, Japan
 en.name: Kiryugaoka Zoo
 en.othernames: Miraihehadatake Yamada Manufacturing Kiryugaoka Zoo
 flag: Japan
-jp.address: 〒376-0056 群馬県桐生市宮本町３丁目８−13
-jp.location: 桐生市 群馬県
-jp.name: 桐生が岡動物園
-jp.othernames: 未来へはばたけ 山田製作所 桐生が岡動物園
-language.order: jp, en
+ja.address: 〒376-0056 群馬県桐生市宮本町３丁目８−13
+ja.location: 桐生市 群馬県
+ja.name: 桐生が岡動物園
+ja.othernames: 未来へはばたけ 山田製作所 桐生が岡動物園
+language.order: ja, en
 latitude: 36.4198651
 longitude: 139.3324586
 map: https://goo.gl/maps/vd74wUJnUA7cyL7x7

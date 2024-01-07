@@ -9,10 +9,10 @@ en.name: Jun-Jun
 en.nicknames: none
 en.othernames: Junjun
 gender: m
-jp.name: ジュンジュン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ジュンジュン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 755
 location.1: 45, 1991/6/21
 location.2: 8, 1992/6/13

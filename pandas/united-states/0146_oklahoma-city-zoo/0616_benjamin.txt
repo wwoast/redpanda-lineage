@@ -8,10 +8,10 @@ en.name: Benjamin
 en.nicknames: Ben
 en.othernames: none
 gender: m
-jp.name: ベンジャミン
-jp.nicknames: ベン
-jp.othernames: none
-language.order: en, jp
+ja.name: ベンジャミン
+ja.nicknames: ベン
+ja.othernames: none
+language.order: en, ja
 litter: 342
 location.1: 81, 2015/6/26
 location.2: 133, 2017/10/26

@@ -8,10 +8,10 @@ en.name: Pili
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ピリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ピリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 844
 location.1: 49, 2011/6/17
 location.2: 133, 2012/3/29

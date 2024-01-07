@@ -9,10 +9,10 @@ en.name: Oscar
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: オスカー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: オスカー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 species: 1
 zoo: 145

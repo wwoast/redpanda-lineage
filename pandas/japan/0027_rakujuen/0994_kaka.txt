@@ -8,10 +8,10 @@ en.name: Ka-Ka
 en.nicknames: none
 en.othernames: Kaka
 gender: m
-jp.name: カカ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カカ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 995
 location.1: 40, 2019/6/29
 location.2: 27, 2022/5/17

@@ -5,7 +5,7 @@ en.address: unknown
 en.location: Nepal
 en.name: Captured Wild Animal
 flag: Nepal
-jp.address: unknown
-jp.location: ネパール
-jp.name: 捕獲された野生動物
+ja.address: unknown
+ja.location: ネパール
+ja.name: 捕獲された野生動物
 language.order: en

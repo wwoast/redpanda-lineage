@@ -8,10 +8,10 @@ en.name: Mii-Mii
 en.nicknames: none
 en.othernames: Miimii, Myi-Myi, Myimyi, Mie-Mie, Miemie
 gender: f
-jp.name: 糸糸
-jp.nicknames: none
-jp.othernames: ミーミー, ミイミイ, 🧵
-language.order: jp, en
+ja.name: 糸糸
+ja.nicknames: none
+ja.othernames: ミーミー, ミイミイ, 🧵
+language.order: ja, en
 litter: 233
 location.1: 37, 2017/7/15
 location.2: 2, 2020/3/6

@@ -9,10 +9,10 @@ en.name: Ryu-Ryu
 en.nicknames: none
 en.othernames: Ryuryu
 gender: m
-jp.name: 緑々
-jp.nicknames: none
-jp.othernames: リュウリュウ, 緑緑
-language.order: jp, en
+ja.name: 緑々
+ja.nicknames: none
+ja.othernames: リュウリュウ, 緑緑
+language.order: ja, en
 litter: none
 species: 2
 zoo: 17

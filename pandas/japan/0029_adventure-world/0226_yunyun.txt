@@ -8,10 +8,10 @@ en.name: Yun-Yun
 en.nicknames: Cloud
 en.othernames: Yunyun, Un-Un
 gender: f
-jp.name: 雲雲
-jp.nicknames: none
-jp.othernames: ユンユン, ウンウン
-language.order: jp, en
+ja.name: 雲雲
+ja.nicknames: none
+ja.othernames: ユンユン, ウンウン
+language.order: ja, en
 litter: 225
 location.1: 37, 2016/6/28
 location.2: 29, 2019/10/28

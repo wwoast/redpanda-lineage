@@ -8,10 +8,10 @@ en.name: Willa
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ウィラ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウィラ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 311
 location.1: 80, 2014/7/1
 location.2: 130, 2015/5/18

@@ -9,10 +9,10 @@ en.name: Idgie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: イディ
-jp.nicknames: イージー
-jp.othernames: none
-language.order: en, jp
+ja.name: イディ
+ja.nicknames: イージー
+ja.othernames: none
+language.order: en, ja
 litter: 1403
 location.1: 65, 2006/6/7
 location.2: 43, 2007/10/19

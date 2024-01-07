@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Sunsari
 en.othernames: none
 gender: f
-jp.name: サンダリ
-jp.nicknames: none
-jp.oldnames: サンサリ
-jp.othernames: none
-language.order: en, jp
+ja.name: サンダリ
+ja.nicknames: none
+ja.oldnames: サンサリ
+ja.othernames: none
+language.order: en, ja
 litter: 1397
 photo.1: ig://ClZ-YZvJJ9f/m
 photo.1.author: westcoast_kathy

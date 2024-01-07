@@ -9,10 +9,10 @@ en.name: Mei
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: メイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: メイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 10, 2003/6/21
 location.2: 78, 2005/4/25

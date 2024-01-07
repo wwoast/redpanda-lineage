@@ -9,10 +9,10 @@ en.name: Daichi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 大地
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: 大地
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 567
 location.1: 18, 2009/6/20
 location.2: 15, 2011/4/16

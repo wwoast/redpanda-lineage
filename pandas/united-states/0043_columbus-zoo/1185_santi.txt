@@ -8,10 +8,10 @@ en.name: Santi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サンティ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サンティ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1186
 photo.1: ig://CFra7YRDOPX/m
 photo.1.author: rossifari

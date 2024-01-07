@@ -8,10 +8,10 @@ en.name: Lemon
 en.nicknames: none
 en.othernames: Remon
 gender: m
-jp.name: レモン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: レモン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 41
 location.1: 19, 2014/7/13
 location.2: 58, 2018/9/28

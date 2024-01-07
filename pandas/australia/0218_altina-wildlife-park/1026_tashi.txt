@@ -8,10 +8,10 @@ en.name: Tashi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: タシ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: タシ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1025
 location.1: 202, 2013/12/14
 location.2: 218, 2015/4/28

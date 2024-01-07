@@ -9,10 +9,10 @@ en.name: San
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: サン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 796
 location.1: 133, 2001/6/16
 location.2: 92, 2002/11/6

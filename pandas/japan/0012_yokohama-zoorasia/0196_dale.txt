@@ -9,10 +9,10 @@ en.name: Dale
 en.nicknames: none
 en.othernames: Deal
 gender: f
-jp.name: デール
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: デール
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 548
 photo.1: ig://BL98X4WjkXJ/m
 photo.1.author: minatomirai215

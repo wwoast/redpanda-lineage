@@ -8,10 +8,10 @@ en.name: Mei-Mei
 en.nicknames: none
 en.othernames: Mei Mei, Meimei, Mini Sakura
 gender: f
-jp.name: メイメイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メイメイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1405
 photo.1: ig://CiTvtmsL2O0/m
 photo.1.author: westcoast_kathy

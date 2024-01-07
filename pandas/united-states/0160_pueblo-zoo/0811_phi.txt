@@ -9,10 +9,10 @@ en.name: Phi
 en.nicknames: none
 en.othernames: Phee
 gender: f
-jp.name: ファイ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ファイ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 810
 location.1: 121, 2014/6/6
 location.2: 160, 2015/4/14

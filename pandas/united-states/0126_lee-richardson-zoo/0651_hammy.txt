@@ -9,10 +9,10 @@ en.name: Hammy
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ハミー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ハミー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 521
 location.1: 124, 2011/7/3
 location.2: 126, 2012/5/31

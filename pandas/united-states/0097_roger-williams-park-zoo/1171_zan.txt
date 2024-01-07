@@ -8,10 +8,10 @@ en.name: Zan
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ザン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ザン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1172
 location.1: 67, 2020/5/25
 location.2: 97, 2023/4/1

@@ -8,10 +8,10 @@ en.name: Yoichi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 与一
-jp.nicknames: none
-jp.othernames: ヨイチ
-language.order: jp, en
+ja.name: 与一
+ja.nicknames: none
+ja.othernames: ヨイチ
+language.order: ja, en
 litter: 189
 photo.1: ig://BK8Vfa3gb4w/m
 photo.1.author: rnrirhrh

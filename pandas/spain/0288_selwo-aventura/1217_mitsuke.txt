@@ -11,10 +11,10 @@ fr.name: Mitsuke
 fr.nicknames: none
 fr.othernames: none
 gender: m
-jp.name: ミスケ
-jp.nicknames: none
-jp.othernames: none
-language.order: fr, en, jp
+ja.name: ミスケ
+ja.nicknames: none
+ja.othernames: none
+language.order: fr, en, ja
 litter: 1218
 location.1: 219, 2020/7/10
 location.2: 288, 2021/12/1

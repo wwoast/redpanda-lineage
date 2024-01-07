@@ -9,10 +9,10 @@ en.name: Lala
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ララ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ララ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 81
 location.1: 6, 2000/7/4
 location.2: 82, 2004/6/21

@@ -9,10 +9,10 @@ en.name: Shun-Pei
 en.nicknames: none
 en.othernames: Shunpei, Syunpei, Syun-Pei
 gender: m
-jp.name: 瞬平
-jp.nicknames: none
-jp.othernames: シュンペイ
-language.order: jp, en
+ja.name: 瞬平
+ja.nicknames: none
+ja.othernames: シュンペイ
+language.order: ja, en
 litter: none
 location.1: 20, 2011/7/4
 location.2: 23, 2015/11/26

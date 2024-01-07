@@ -9,10 +9,10 @@ en.name: Akkali
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アッカリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アッカリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1100
 location.1: 204, 2002/12/24
 location.2: 108, 2007/7/18

@@ -9,9 +9,9 @@ en.name: (no name)
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: (無名)
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: (無名)
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: 1
 zoo: 280

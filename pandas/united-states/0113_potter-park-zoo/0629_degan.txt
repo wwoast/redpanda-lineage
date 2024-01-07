@@ -8,10 +8,10 @@ en.name: Degan Reid
 en.nicknames: Degan
 en.othernames: Daegan-Reid, Daegan Reid, Deagan Reid
 gender: m
-jp.name: デガンリード
-jp.nicknames: デガン
-jp.othernames: none
-language.order: en, jp
+ja.name: デガンリード
+ja.nicknames: デガン
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 105, 2011/6/17
 location.2: 122, 2012/4/12

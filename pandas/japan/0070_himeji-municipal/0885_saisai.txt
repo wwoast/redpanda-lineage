@@ -9,10 +9,10 @@ en.name: Sai-Sai
 en.nicknames: none
 en.othernames: Saisai
 gender: f
-jp.name: サイサイ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: サイサイ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 822
 location.1: 13, 1992/6/19
 location.2: 70, 1994/9/21

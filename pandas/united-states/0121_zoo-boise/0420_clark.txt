@@ -8,10 +8,10 @@ en.name: Clark
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: クラーク
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: クラーク
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 421
 location.1: 87, 2015/6/26
 location.2: 95, 2016/3/9

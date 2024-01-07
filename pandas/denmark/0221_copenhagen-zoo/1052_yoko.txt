@@ -8,10 +8,10 @@ en.name: Yoko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヨーコ
-jp.nicknames: none
-jp.othernames: ヨコ
-language.order: en, jp
+ja.name: ヨーコ
+ja.nicknames: none
+ja.othernames: ヨコ
+language.order: en, ja
 litter: 1053
 location.1: 219, 2016/6/22
 location.2: 221, 2017/7/17

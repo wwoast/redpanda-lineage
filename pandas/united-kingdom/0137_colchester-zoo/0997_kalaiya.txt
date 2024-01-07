@@ -8,10 +8,10 @@ en.name: Kalaiya
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カライヤ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: カライヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 996
 photo.1: ig://B4ASS5qhUwO/m
 photo.1.author: wumpwoast

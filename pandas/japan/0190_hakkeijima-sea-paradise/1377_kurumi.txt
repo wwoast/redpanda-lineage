@@ -8,10 +8,10 @@ en.name: Kurumi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: くるみ
-jp.nicknames: none
-jp.othernames: 來海
-language.order: jp, en
+ja.name: くるみ
+ja.nicknames: none
+ja.othernames: 來海
+language.order: ja, en
 litter: 1376
 photo.1: https://www.codaworry.com/images/rpf/seaparadise-f-1.jpg
 photo.1.author: seaparadise_official

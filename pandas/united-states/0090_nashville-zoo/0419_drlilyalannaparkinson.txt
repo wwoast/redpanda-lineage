@@ -8,10 +8,10 @@ en.name: Dr. Lily
 en.nicknames: none
 en.othernames: Mei-Lee, Meilee, Mei Lee, Mei-Lin, Mei Lin, Meilin, Lily, Dr. Parkinson, Dr. Lily Alanna Parkinson
 gender: f
-jp.name: Lily博士
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: Lily博士
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 93, 2018/6/6
 location.2: 90, 2019/4/1

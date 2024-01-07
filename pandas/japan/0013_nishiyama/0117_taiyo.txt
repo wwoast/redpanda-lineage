@@ -8,10 +8,10 @@ en.name: Taiyo
 en.nicknames: none
 en.othernames: Taiyou
 gender: m
-jp.name: たいよう
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: たいよう
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 219
 location.1: 15, 2013/6/15
 location.2: 13, 2015/2/13

@@ -11,14 +11,14 @@ gender: m
 hu.name: Kicsi Tűz
 hu.nicknames: none
 hu.othernames: none
-jp.name: 小さな火
-jp.nicknames: none
-jp.othernames: none
-language.order: en, hu, np, jp
+ja.name: 小さな火
+ja.nicknames: none
+ja.othernames: none
+language.order: en, hu, ne, ja
 litter: 1316
-np.name: सानो आगो
-np.nicknames: none
-np.othernames: none
+ne.name: सानो आगो
+ne.nicknames: none
+ne.othernames: none
 photo.1: ig://CRquZEzhFf8/m
 photo.1.author: balathruin
 photo.1.commitdate: 2021/9/17

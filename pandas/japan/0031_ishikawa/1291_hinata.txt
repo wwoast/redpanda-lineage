@@ -8,10 +8,10 @@ en.name: Hinata
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヒナタ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ヒナタ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://CSVDP_KheVY/m
 photo.1.author: hamamatsu.chiita

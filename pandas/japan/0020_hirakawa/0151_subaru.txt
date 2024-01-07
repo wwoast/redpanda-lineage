@@ -8,10 +8,10 @@ en.name: Subaru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スバル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: スバル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 10, 2010/6/26
 location.2: 20, 2013/3/13

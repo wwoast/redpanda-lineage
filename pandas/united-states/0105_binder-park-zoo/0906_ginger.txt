@@ -9,10 +9,10 @@ en.name: Ginger
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ギンガ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ギンガ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 542
 location.1: 145, 2014/6/19
 location.2: 105, 2015/1/6

@@ -9,10 +9,10 @@ en.name: Daisy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ヒナギク
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ヒナギク
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 509, 898
 location.1: 118, 2006/6/6
 location.2: 112, 2006/12/22

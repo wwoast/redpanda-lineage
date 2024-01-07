@@ -9,10 +9,10 @@ en.name: Hope
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 希望
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 希望
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 114, 2008/7/2
 location.2: 117, 2009/4/7

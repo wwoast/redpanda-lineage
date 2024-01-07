@@ -6,10 +6,10 @@ en.location: Shirahama, Wakayama Prefecture, Japan
 en.name: Adventure World
 en.othernames: Wakayama Adventure World
 flag: Japan
-jp.address: 〒649-2201 和歌山県西牟婁郡白浜町堅田２３９９
-jp.location: 白浜町 和歌山県
-jp.name: アドベンチャーワールド
-language.order: jp, en
+ja.address: 〒649-2201 和歌山県西牟婁郡白浜町堅田２３９９
+ja.location: 白浜町 和歌山県
+ja.name: アドベンチャーワールド
+language.order: ja, en
 latitude: 33.6678459
 longitude: 135.3738168
 map: https://goo.gl/maps/Z2vDjBgTPAG2

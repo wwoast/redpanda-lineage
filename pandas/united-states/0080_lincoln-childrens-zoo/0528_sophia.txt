@@ -9,10 +9,10 @@ en.name: Sophia
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ソフィア
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ソフィア
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 690
 location.1: 108, 2002/6/20
 location.2: 122, 2003/4/29

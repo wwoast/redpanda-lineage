@@ -8,10 +8,10 @@ en.name: Nutmeg
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ナツメグ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ナツメグ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 141, 2013/6/6
 location.2: 114, 2014/9/30

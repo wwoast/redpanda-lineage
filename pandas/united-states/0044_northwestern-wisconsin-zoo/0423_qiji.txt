@@ -8,10 +8,10 @@ en.name: Qiji
 en.nicknames: Kee-Gee
 en.othernames: none
 gender: f
-jp.name: クィジ
-jp.nicknames: キーゲー
-jp.othernames: none
-language.order: en, jp
+ja.name: クィジ
+ja.nicknames: キーゲー
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 96, 2011/8/1
 location.2: 90, 2012/5/31

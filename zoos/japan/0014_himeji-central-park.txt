@@ -5,10 +5,10 @@ en.address: １４３４ Toyotomicho Kodani, Himeji, Hyōgo Prefecture 679-2121,
 en.location: Himeji, Hyōgo Prefecture, Japan
 en.name: Himeji Central Park
 flag: Japan
-jp.address: 〒679-2121 兵庫県姫路市豊富町神谷１４３４
-jp.location: 姫路市 兵庫県
-jp.name: 姫路セントラルパーク
-language.order: jp, en
+ja.address: 〒679-2121 兵庫県姫路市豊富町神谷１４３４
+ja.location: 姫路市 兵庫県
+ja.name: 姫路セントラルパーク
+language.order: ja, en
 latitude: 34.8710334
 longitude: 134.7621733
 map: https://goo.gl/maps/QLH8LsUtgm42

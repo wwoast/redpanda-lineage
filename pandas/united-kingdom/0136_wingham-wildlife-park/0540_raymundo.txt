@@ -9,10 +9,10 @@ en.name: Raymundo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ライムンド
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ライムンド
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 686
 location.1: 139, 2010/6/22
 location.2: 140, 2011/3/22

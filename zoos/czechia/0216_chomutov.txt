@@ -1,14 +1,14 @@
 [zoo]
 _id: 216
 commitdate: 2019/11/7
-cz.address: Přemyslova 259, 430 01 Chomutov, Czechia
-cz.location: Chomutov, Czechia
-cz.name: Zoopark Chomutov
+cs.address: Přemyslova 259, 430 01 Chomutov, Czechia
+cs.location: Chomutov, Czechia
+cs.name: Zoopark Chomutov
 en.address: Přemyslova 259, 430 01 Chomutov, Czechia
 en.location: Chomutov, Czechia
 en.name: Chomutov Zoo
 flag: Czechia
-language.order: cz, en
+language.order: cs, en
 latitude: 50.4735253
 longitude: 13.4180898
 map: https://goo.gl/maps/bWdg8R2K2iGDbv48A

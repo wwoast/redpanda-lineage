@@ -8,10 +8,10 @@ en.name: Tao-Tao
 en.nicknames: none
 en.othernames: Taotao
 gender: f
-jp.name: 桃桃
-jp.nicknames: none
-jp.othernames: タオタオ
-language.order: jp, en
+ja.name: 桃桃
+ja.nicknames: none
+ja.othernames: タオタオ
+language.order: ja, en
 litter: 236
 location.1: 37, 2018/7/11
 location.2: 289, 2022/3/1

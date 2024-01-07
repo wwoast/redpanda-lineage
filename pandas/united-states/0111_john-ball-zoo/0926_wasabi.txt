@@ -8,10 +8,10 @@ en.name: Wasabi
 en.nicknames: none
 en.othernames: Sabi
 gender: f
-jp.name: わさび
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: わさび
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 146, 2016/7/3
 location.2: 178, 2018/2/27

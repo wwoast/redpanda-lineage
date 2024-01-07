@@ -9,10 +9,10 @@ en.name: Missy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ミッシー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ミッシー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 671
 location.1: 108, 2000/6/21
 location.2: 154, 2001/4/12

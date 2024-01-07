@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Shiro, Mifa, Mi-Fa
 en.othernames: none
 gender: f
-jp.name: ミルク
-jp.nicknames: none
-jp.oldnames: シロ, 米花, ミーファ
-jp.othernames: none
-language.order: jp, en
+ja.name: ミルク
+ja.nicknames: none
+ja.oldnames: シロ, 米花, ミーファ
+ja.othernames: none
+language.order: ja, en
 litter: 246
 location.1: 1, 2018/6/28
 location.2: 10, 2020/3/31

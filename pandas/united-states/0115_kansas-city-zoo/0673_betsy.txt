@@ -9,10 +9,10 @@ en.name: Betsy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ベッツィ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ベッツィ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 108, 1998/7/4
 location.2: 124, 2000/2/5

@@ -9,10 +9,10 @@ en.name: Kiari
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: キアリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: キアリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 411, 422
 location.1: 43, 2014/6/20
 location.2: 77, 2015/3/18

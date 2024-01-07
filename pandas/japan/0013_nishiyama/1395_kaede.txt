@@ -8,10 +8,10 @@ en.name: Kaede
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: かえで
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: かえで
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1394
 photo.1: ig://CjNV1zjPR1T/m
 photo.1.author: resapanlove

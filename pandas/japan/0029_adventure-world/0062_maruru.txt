@@ -8,10 +8,10 @@ en.name: Maruru
 en.nicknames: none
 en.othernames: Malulu, Musuko
 gender: m
-jp.name: マルル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マルル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 65
 photo.1: ig://BT6iW7RAyRy/m
 photo.1.author: mifko55

@@ -8,10 +8,10 @@ en.name: Mei-Lin
 en.nicknames: none
 en.othernames: Meilin
 gender: f
-jp.name: メイリン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: メイリン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1082
 location.1: 92, 2019/7/6
 location.2: 87, 2021/5/1

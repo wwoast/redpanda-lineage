@@ -9,10 +9,10 @@ en.name: Himari
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ひまり
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ひまり
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 117
 location.1: 15, 2013/6/15
 location.2: 57, 2015/1/23

@@ -9,10 +9,10 @@ en.name: Hao
 en.nicknames: Square-chin
 en.othernames: none
 gender: m
-jp.name: ハオ
-jp.nicknames: none
-jp.othernames: 好
-language.order: jp, en
+ja.name: ハオ
+ja.nicknames: none
+ja.othernames: 好
+language.order: ja, en
 litter: none
 photo.1: ig://BBYsNt9wZ91/m
 photo.1.author: rio_minron

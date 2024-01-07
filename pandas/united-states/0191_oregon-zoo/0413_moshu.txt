@@ -8,10 +8,10 @@ en.name: Moshu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モシュ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: モシュ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 414, 415
 location.1: 83, 2011/6/20
 location.2: 90, 2012/5/14

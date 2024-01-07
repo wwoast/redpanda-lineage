@@ -8,10 +8,10 @@ en.name: Ran-Fa
 en.nicknames: none
 en.othernames: Ranfa, Ranhowa, Lanhua, Lan-Hua
 gender: f
-jp.name: 蘭花
-jp.nicknames: none
-jp.othernames: ランファ
-language.order: jp, en
+ja.name: 蘭花
+ja.nicknames: none
+ja.othernames: ランファ
+language.order: ja, en
 litter: none
 photo.1: ig://BkWJxamASuk/m
 photo.1.author: tohokusafaripark

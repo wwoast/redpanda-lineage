@@ -8,10 +8,10 @@ en.name: Rei-Mei
 en.nicknames: none
 en.othernames: Reimei, Raymay, Ray-May
 gender: m
-jp.name: 令明
-jp.nicknames: none
-jp.othernames: れいめい
-language.order: jp, en
+ja.name: 令明
+ja.nicknames: none
+ja.othernames: れいめい
+language.order: ja, en
 litter: none
 photo.1: ig://B3RB0m-hwL3/m
 photo.1.author: redpanda_nippon_takashi

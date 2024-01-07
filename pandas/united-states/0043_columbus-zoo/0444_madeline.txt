@@ -8,10 +8,10 @@ en.name: Madeline
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: マッドライン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: マッドライン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 433
 location.1: 94, 2015/6/22
 location.2: 43, 2016/4/28

@@ -8,10 +8,10 @@ en.name: Sakuya
 en.nicknames: Saki
 en.othernames: none
 gender: f
-jp.name: 咲弥
-jp.nicknames: none
-jp.othernames: サクヤ
-language.order: jp, en
+ja.name: 咲弥
+ja.nicknames: none
+ja.othernames: サクヤ
+language.order: ja, en
 litter: 119
 location.1: 13, 2015/6/24
 location.2: 22, 2017/11/21

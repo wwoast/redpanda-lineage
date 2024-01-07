@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Mihota
 en.othernames: none
 gender: m
-jp.name: まるお
-jp.nicknames: none
-jp.oldnames: ミホ太
-jp.othernames: none
-language.order: jp, en
+ja.name: まるお
+ja.nicknames: none
+ja.oldnames: ミホ太
+ja.othernames: none
+language.order: ja, en
 litter: 249
 photo.1: ig://Bo6nw7TF8T6/m
 photo.1.author: ifumoto88

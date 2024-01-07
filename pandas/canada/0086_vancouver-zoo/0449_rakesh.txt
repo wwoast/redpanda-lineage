@@ -9,10 +9,10 @@ en.name: Rakesh
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ラケシ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ラケシ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 432
 location.1: 76, 2014/6/28
 location.2: 86, 2015/5/28

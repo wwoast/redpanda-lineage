@@ -8,10 +8,10 @@ en.name: Kendji
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ケンジ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ケンジ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 444
 location.1: 94, 2015/6/22
 location.2: 65, 2016/10/27

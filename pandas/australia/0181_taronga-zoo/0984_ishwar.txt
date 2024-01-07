@@ -8,10 +8,10 @@ en.name: Ishwar
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: イシュワール
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イシュワール
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 982, 983
 photo.1: ig://CBaa2ergQfL/m
 photo.1.author: ellepatrice

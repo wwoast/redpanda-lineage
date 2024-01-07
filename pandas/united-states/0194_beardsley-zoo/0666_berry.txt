@@ -8,10 +8,10 @@ en.name: Berry
 en.nicknames: none
 en.othernames: Granberry, Cranberry
 gender: f
-jp.name: ベリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ベリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 124, 2010/6/27
 location.2: 155, 2011/2/24

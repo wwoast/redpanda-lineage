@@ -3,18 +3,15 @@ _id: 1127
 birthday: 2019/6/16
 birthplace: 116
 children: none
-cn.name: 中國
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2020/3/13
 en.name: China
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 中国
-jp.nicknames: none
-jp.othernames: none
-language.order: en, cn, jp
+ja.name: 中国
+ja.nicknames: none
+ja.othernames: none
+language.order: en, zh, ja
 litter: 1128, 1129
 photo.1: ig://B2mydmDFa2F/m
 photo.1.author: millerparkzoo
@@ -32,4 +29,7 @@ photo.3.commitdate: 2022/1/4
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: mofumofu, whiskers
 species: 1
+zh.name: 中國
+zh.nicknames: none
+zh.othernames: none
 zoo: 116

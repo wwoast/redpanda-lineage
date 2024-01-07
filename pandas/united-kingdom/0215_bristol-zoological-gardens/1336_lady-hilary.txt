@@ -9,10 +9,10 @@ en.name: Lady Hilary
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 貴女ヒラリー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 貴女ヒラリー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 204, 2007/12/27
 location.2: 215, 2011/6/14
 photo.1: ig://Bog7EGSH9oj/m

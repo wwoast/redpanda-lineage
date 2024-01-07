@@ -8,10 +8,10 @@ en.name: Nova
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ノバ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ノバ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 624
 location.1: 104, 2006/6/27
 location.2: 122, 2007/3/5

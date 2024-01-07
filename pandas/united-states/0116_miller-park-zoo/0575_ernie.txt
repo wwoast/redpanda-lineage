@@ -9,10 +9,10 @@ en.name: Ernie
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: アーニー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: アーニー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 124, 2009/7/7
 location.2: 116, 2010/4/15

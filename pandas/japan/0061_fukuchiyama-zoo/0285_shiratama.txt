@@ -8,10 +8,10 @@ en.name: Shiratama
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: しらたま
-jp.nicknames: 明智
-jp.othernames: none
-language.order: jp, en
+ja.name: しらたま
+ja.nicknames: 明智
+ja.othernames: none
+language.order: ja, en
 litter: 282
 location.1: 35, 2013/6/25
 location.2: 61, 2015/2/16

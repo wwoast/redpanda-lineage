@@ -9,10 +9,10 @@ en.name: Hana
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ハナ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ハナ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 1990/6/29
 location.2: 26, 1997/4/7

@@ -9,10 +9,10 @@ en.name: Shuu-Shuu
 en.nicknames: none
 en.othernames: Syu-Syu, Syusyu, Shuushuu, Shyu-Shyu, Shyushyu
 gender: m
-jp.name: 樹樹
-jp.nicknames: none
-jp.othernames: シュウシュウ
-language.order: jp, en
+ja.name: 樹樹
+ja.nicknames: none
+ja.othernames: シュウシュウ
+language.order: ja, en
 litter: 466
 species: 2
 studbook.id: 9978

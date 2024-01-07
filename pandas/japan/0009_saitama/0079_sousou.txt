@@ -9,10 +9,10 @@ en.name: Sou-Sou
 en.nicknames: none
 en.othernames: Soo-Soo, Sousou, Soosoo, Sōsō, Sō-Sō
 gender: m
-jp.name: ソウソウ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ソウソウ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 2012/7/8
 location.2: 9, 2015/3/2

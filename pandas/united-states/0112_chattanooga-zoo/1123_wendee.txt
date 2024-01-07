@@ -9,10 +9,10 @@ en.name: Wendee
 en.nicknames: none
 en.othernames: Wen-dee
 gender: f
-jp.name: ウェンディー
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウェンディー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 118, 1999/6/28
 location.2: unknown, 2001/2/13

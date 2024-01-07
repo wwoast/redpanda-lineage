@@ -9,10 +9,10 @@ en.name: Ying
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: イン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: イン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 location.1: 284, unknown
 location.2: 282, unknown
 species: 1

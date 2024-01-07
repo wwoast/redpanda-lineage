@@ -9,10 +9,10 @@ en.name: Shifu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シフ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: シフ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1004, 1005
 location.1: 114, 2009/6/29
 location.2: 187, 2010/4/22

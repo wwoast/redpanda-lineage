@@ -8,10 +8,10 @@ en.name: Ako
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: あこ
-jp.nicknames: none
-jp.othernames: 杏香
-language.order: jp, en
+ja.name: あこ
+ja.nicknames: none
+ja.othernames: 杏香
+language.order: ja, en
 litter: none
 photo.1: ig://Ct0bk5fxgfd/m
 photo.1.author: kumamoto_doushokubutsuen

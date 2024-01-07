@@ -9,10 +9,10 @@ en.name: Tochi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 栃
-jp.nicknames: none
-jp.othernames: トチ
-language.order: jp, en
+ja.name: 栃
+ja.nicknames: none
+ja.othernames: トチ
+language.order: ja, en
 litter: none
 location.1: 40, 2001/7/4
 location.2: 3, 2003/4/23

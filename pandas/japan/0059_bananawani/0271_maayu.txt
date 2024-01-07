@@ -9,10 +9,10 @@ en.name: Maayu
 en.nicknames: none
 en.othernames: Mayu
 gender: f
-jp.name: まーゆ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: まーゆ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 photo.1: ig://Bh09bLulgr1/m
 photo.1.author: hanamaru_redpanda

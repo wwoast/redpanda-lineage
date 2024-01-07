@@ -9,10 +9,10 @@ en.name: Karin
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カリン
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カリン
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1180
 species: 2
 zoo: 33

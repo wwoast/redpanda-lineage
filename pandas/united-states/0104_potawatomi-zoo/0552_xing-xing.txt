@@ -3,19 +3,16 @@ _id: 552
 birthday: 2017/6/20
 birthplace: 144
 children: none
-cn.name: 星星
-cn.nicknames: none
-cn.othernames: none
 commitdate: 2019/3/9
 death: 2019/1/1
 en.name: Xing-Xing
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 星星
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 星星
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 144, 2017/6/20
 location.2: 104, 2018/5/18
@@ -42,4 +39,7 @@ photo.4.tags: tongue
 species: 1
 studbook.id: 1735
 uncertainty: death date
+zh.name: 星星
+zh.nicknames: none
+zh.othernames: none
 zoo: 104

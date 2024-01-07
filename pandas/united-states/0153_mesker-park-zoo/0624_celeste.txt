@@ -8,10 +8,10 @@ en.name: Celeste
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: セレステ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: セレステ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 623
 location.1: 104, 2006/6/27
 location.2: 146, 2007/5/20

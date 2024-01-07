@@ -8,9 +8,9 @@ en.name: Ulli
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ウリ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ウリ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 species: 1
 zoo: 282

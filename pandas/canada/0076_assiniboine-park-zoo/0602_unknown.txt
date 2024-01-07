@@ -10,11 +10,11 @@ en.nicknames: none
 en.oldnames: Five
 en.othernames: none
 gender: m
-jp.name: (無名)
-jp.nicknames: none
-jp.oldnames: 五
-jp.othernames: none
-language.order: en, jp
+ja.name: (無名)
+ja.nicknames: none
+ja.oldnames: 五
+ja.othernames: none
+language.order: en, ja
 litter: 780
 location.1: 3, 2000/7/1
 location.2: 76, 2002/3/20

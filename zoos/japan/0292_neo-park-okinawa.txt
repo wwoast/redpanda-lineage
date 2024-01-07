@@ -5,10 +5,10 @@ en.address: 4607-41 Nago, Okinawa 905-0012, Japan
 en.location: Nago, Okinawa, Japan
 en.name: Neo Park Okinawa
 flag: Japan
-jp.address: 〒905-0012 沖縄県名護市名護4607-41
-jp.location: 名護市 沖縄県 日本
-jp.name: ネオパークオキナワ
-language.order: jp, en
+ja.address: 〒905-0012 沖縄県名護市名護4607-41
+ja.location: 名護市 沖縄県 日本
+ja.name: ネオパークオキナワ
+language.order: ja, en
 latitude: 26.3518089
 longitude: 127.5471944
 map: https://goo.gl/maps/kc4f8PN3xCefmg936

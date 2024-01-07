@@ -8,10 +8,10 @@ en.name: Rose
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ローズ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ローズ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1200, 1201
 photo.1: ig://CHk5f5OD2zw/m
 photo.1.author: johnballzoogr

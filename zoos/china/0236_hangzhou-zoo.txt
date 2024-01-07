@@ -1,14 +1,11 @@
 [zoo]
 _id: 236
-cn.address: 浙江省杭州市虎跑路40号
-cn.location: 杭州 浙江 中国
-cn.name: 杭州动物园
 commitdate: 2020/2/5
 en.address: China, Zhejiang, Hangzhou, 虎跑路40号
 en.location: Hangzhou, Zhejiang, China
 en.name: Hangzhou Zoo
 flag: China
-language.order: cn, en
+language.order: zh, en
 latitude: 30.213737
 longitude: 120.1249143
 map: https://goo.gl/maps/UTyFC8HCPycgveWz6
@@ -21,3 +18,6 @@ photo.2.author: tsuyuki_haruna
 photo.2.commitdate: 2020/2/7
 photo.2.link: https://www.instagram.com/tsuyuki_haruna/
 website: http://www.hzzoo.com/
+zh.address: 浙江省杭州市虎跑路40号
+zh.location: 杭州 浙江 中国
+zh.name: 杭州动物园

@@ -8,10 +8,10 @@ en.name: Tsutsuji
 en.nicknames: Azalea
 en.othernames: none
 gender: f
-jp.name: ツツジ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ツツジ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 297
 photo.1: ig://BdXkPJXnGBZ/m
 photo.1.author: daniele.tokyo

@@ -8,10 +8,10 @@ en.name: Miso
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ミソ
-jp.nicknames: none
-jp.othernames: 味噌
-language.order: en, jp
+ja.name: ミソ
+ja.nicknames: none
+ja.othernames: 味噌
+language.order: en, ja
 litter: none
 location.1: 114, 2023/6/10
 location.2: 99, 2023/8/11

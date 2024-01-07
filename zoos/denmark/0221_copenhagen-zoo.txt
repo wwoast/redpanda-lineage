@@ -1,9 +1,9 @@
 [zoo]
 _id: 221
 commitdate: 2019/11/13
-dk.address: Roskildevej 32, 2000 Frederiksberg, Denmark
-dk.location: Frederiksberg, Denmark
-dk.name: København Zoo
+da.address: Roskildevej 32, 2000 Frederiksberg, Denmark
+da.location: Frederiksberg, Denmark
+da.name: København Zoo
 en.address: Roskildevej 32, 2000 Frederiksberg, Denmark
 en.location: Frederiksberg, Denmark
 en.name: Copenhagen Zoo

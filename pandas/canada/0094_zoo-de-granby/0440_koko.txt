@@ -9,10 +9,10 @@ en.name: Koko
 en.nicknames: none
 en.othernames: Kou-Kou, Ko-Ko, Koko, Kō-Kō
 gender: m
-jp.name: 虎虎
-jp.nicknames: none
-jp.othernames: ココ
-language.order: jp, en
+ja.name: 虎虎
+ja.nicknames: none
+ja.othernames: ココ
+language.order: ja, en
 litter: 89
 location.1: 10, 2000/6/23
 location.2: 6, 2002/1/16

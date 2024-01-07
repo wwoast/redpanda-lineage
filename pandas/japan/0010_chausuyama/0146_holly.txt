@@ -8,10 +8,10 @@ en.name: Holly
 en.nicknames: none
 en.othernames: Holy, Hory
 gender: f
-jp.name: ホーリー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ホーリー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 location.1: 16, 2016/6/2
 location.2: 10, 2020/12/29
 photo.1: ig://BLYcZgXAp-f/m

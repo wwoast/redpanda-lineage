@@ -9,10 +9,10 @@ en.name: Tate
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: テート
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: テート
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 1227
 location.1: 108, 2006/6/28
 location.2: 186, 2007/5/14

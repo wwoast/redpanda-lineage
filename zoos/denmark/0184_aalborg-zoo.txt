@@ -1,9 +1,9 @@
 [zoo]
 _id: 184
 commitdate: 2019/3/25
-dk.address: Mølleparkvej 63, 9000 Aalborg, Denmark
-dk.location: Aalborg, Region Nordjylland, Denmark
-dk.name: Aalborg Zoo
+da.address: Mølleparkvej 63, 9000 Aalborg, Denmark
+da.location: Aalborg, Region Nordjylland, Denmark
+da.name: Aalborg Zoo
 en.address: Mølleparkvej 63, 9000 Aalborg, Denmark
 en.location: Aalborg, Region Nordjylland, Denmark
 en.name: Aalborg Zoo

@@ -8,10 +8,10 @@ en.name: Suva
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: スバ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: スバ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 438
 location.1: 76, 2017/6/13
 location.2: 96, 2019/7/1

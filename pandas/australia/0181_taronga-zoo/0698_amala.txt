@@ -9,11 +9,11 @@ en.nicknames: none
 en.oldnames: Ellie
 en.othernames: none
 gender: f
-jp.name: アマラ
-jp.nicknames: none
-jp.oldnames: エリー
-jp.othernames: none
-language.order: en, jp
+ja.name: アマラ
+ja.nicknames: none
+ja.oldnames: エリー
+ja.othernames: none
+language.order: en, ja
 litter: 584
 location.1: 48, 2013/6/17
 location.2: 181, 2014/9/23

@@ -8,10 +8,10 @@ en.name: Ketu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ケツ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: ケツ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 201, 2011/12/9
 location.2: 154, 2013/11/19

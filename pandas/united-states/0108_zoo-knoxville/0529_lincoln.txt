@@ -8,10 +8,10 @@ en.name: Lincoln
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: リンカーン
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: リンカーン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: none
 location.1: 80, 2013/7/26
 location.2: 108, 2014/1/24

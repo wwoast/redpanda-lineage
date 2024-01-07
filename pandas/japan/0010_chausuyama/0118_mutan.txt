@@ -8,10 +8,10 @@ en.name: Mutan
 en.nicknames: none
 en.othernames: Muutan
 gender: m
-jp.name: ムータン
-jp.nicknames: none
-jp.othernames: 牡丹
-language.order: jp, en
+ja.name: ムータン
+ja.nicknames: none
+ja.othernames: 牡丹
+language.order: ja, en
 litter: none
 location.1: 2, 2014/6/19
 location.2: 13, 2015/6/10

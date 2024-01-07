@@ -8,10 +8,10 @@ en.name: Marimo
 en.nicknames: Miss Manners
 en.othernames: none
 gender: f
-jp.name: マリモ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: マリモ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 17, 2008/6/24
 location.2: 32, 2011/5/28

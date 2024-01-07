@@ -8,10 +8,10 @@ en.name: Hinata
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ひなた
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ひなた
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 251
 photo.1: ig://BnxHP6xF_s9/m
 photo.1.author: zoowfreedom299

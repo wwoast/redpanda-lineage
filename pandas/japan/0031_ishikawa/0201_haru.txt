@@ -9,10 +9,10 @@ en.name: Haru
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ハル
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ハル
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 195
 location.1: 42, 2013/8/15
 location.2: 31, 2018/6/11

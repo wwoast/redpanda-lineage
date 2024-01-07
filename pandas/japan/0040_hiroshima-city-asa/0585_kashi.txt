@@ -9,10 +9,10 @@ en.name: Kashi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カシ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: カシ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 327
 species: 2
 studbook.id: 0098

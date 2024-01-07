@@ -8,10 +8,10 @@ en.name: Lime
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ライム
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ライム
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 254
 location.1: 19, 2014/7/13
 location.2: 8, 2017/11/7

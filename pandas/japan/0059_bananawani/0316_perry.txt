@@ -8,10 +8,10 @@ en.name: Perry
 en.nicknames: none
 en.othernames: Perri
 gender: m
-jp.name: ペリー
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: ペリー
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 700
 location.1: 71, 2011/7/6
 location.2: 72, 2012/2/21

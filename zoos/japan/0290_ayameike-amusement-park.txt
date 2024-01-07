@@ -6,10 +6,10 @@ en.address: 2 Chome-2-1 Ayameikeminami, Nara, 631-0033, Japan
 en.location: Nara City, Nara Prefecture
 en.name: Kintetsu Ayameike Amusement Park
 flag: Japan
-jp.address: 〒631-0033 奈良県奈良市あやめ池南２丁目２−1
-jp.location: 奈良市 奈良県
-jp.name: 近鉄あやめ池遊園地
-language.order: jp, en
+ja.address: 〒631-0033 奈良県奈良市あやめ池南２丁目２−1
+ja.location: 奈良市 奈良県
+ja.name: 近鉄あやめ池遊園地
+language.order: ja, en
 latitude: 34.700833
 longitude: 135.761111
 map: https://goo.gl/maps/PS1QuXafaQm3B4W57

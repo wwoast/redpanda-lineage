@@ -3,18 +3,15 @@ _id: 1354
 birthday: 2015/6/22
 birthplace: 55
 children: unknown
-cn.name: 妙妙
-cn.nicknames: none
-cn.othernames: 弟弟
 commitdate: 2022/4/19
 en.name: Yafia
 en.nicknames: none
 en.othernames: Miumiu, Miu-Miu
 gender: m
-jp.name: ヤフィア
-jp.nicknames: none
-jp.othernames: ミュウミュウ
-language.order: cn, en, jp
+ja.name: ヤフィア
+ja.nicknames: none
+ja.othernames: ミュウミュウ
+language.order: zh, en, ja
 litter: 1353
 photo.1: ig://Bnu-7c2lBSU/m
 photo.1.author: lovetaipeizoo
@@ -38,4 +35,7 @@ photo.4.link: https://www.instagram.com/yuredpanda/
 photo.4.tags: portrait, sample, smile, tongue, whiskers
 species: 2
 uncertainty: birthday (may have been 23rd)
+zh.name: 妙妙
+zh.nicknames: none
+zh.othernames: 弟弟
 zoo: 55

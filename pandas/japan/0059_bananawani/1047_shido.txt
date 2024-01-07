@@ -9,10 +9,10 @@ en.name: Sid
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シド
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: シド
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 1046
 species: 1
 zoo: 59

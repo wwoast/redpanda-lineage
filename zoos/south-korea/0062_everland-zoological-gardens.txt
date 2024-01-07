@@ -6,10 +6,10 @@ en.location: Yongin City, Gyeonggi Province, South Korea
 en.name: Everland Zoological Gardens
 en.othernames: Jayeon Nongwon, Farmland
 flag: South Korea
-kr.address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
-kr.location: 용인시 경기도
-kr.name: 에버랜드
-language.order: kr, en
+ko.address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+ko.location: 용인시 경기도
+ko.name: 에버랜드
+language.order: ko, en
 latitude: 37.2939146
 longitude: 127.2003777
 map: https://goo.gl/maps/e4tvYMRSY7z

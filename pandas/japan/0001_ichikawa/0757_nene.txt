@@ -9,10 +9,10 @@ en.name: Nene
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 寧寧
-jp.nicknames: none
-jp.othernames: ネネ
-language.order: jp, en
+ja.name: 寧寧
+ja.nicknames: none
+ja.othernames: ネネ
+language.order: ja, en
 litter: none
 species: 2
 studbook.id: 97109

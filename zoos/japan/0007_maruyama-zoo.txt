@@ -5,10 +5,10 @@ en.address: Japan, 〒064-0959 Hokkaido, Sapporo, Chuo Ward, 宮ケ丘3番地１
 en.location: Sapporo, Hokkaido, Japan
 en.name: Sapporo Maruyama Zoo
 flag: Japan
-jp.address: 〒064-0959 北海道札幌市中央区 宮ケ丘3番地１
-jp.location: 中央区 札幌市 北海道
-jp.name: 札幌市円山動物園
-language.order: jp, en
+ja.address: 〒064-0959 北海道札幌市中央区 宮ケ丘3番地１
+ja.location: 中央区 札幌市 北海道
+ja.name: 札幌市円山動物園
+language.order: ja, en
 latitude: 43.051468
 longitude: 141.3056561
 map: https://goo.gl/maps/EY3uZRXNWNr

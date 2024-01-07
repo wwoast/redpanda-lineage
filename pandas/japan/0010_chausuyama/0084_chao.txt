@@ -9,10 +9,10 @@ en.name: Chao
 en.nicknames: none
 en.othernames: Tyao, Ciao, Cyao
 gender: m
-jp.name: チャオ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: チャオ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: none
 location.1: 13, 2006/7/6
 location.2: 10, 2009/1/23

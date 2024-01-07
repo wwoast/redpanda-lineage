@@ -11,10 +11,10 @@ gender: m
 hu.name: Bonifác
 hu.nicknames: none
 hu.othernames: none
-jp.name: ボニフェイス
-jp.nicknames: none
-jp.othernames: none
-language.order: hu, en, jp
+ja.name: ボニフェイス
+ja.nicknames: none
+ja.othernames: none
+language.order: hu, en, ja
 litter: none
 photo.1: ig://CSMQvwIqVsQ/m
 photo.1.author: zoobudapest

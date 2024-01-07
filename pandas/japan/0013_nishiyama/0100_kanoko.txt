@@ -8,10 +8,10 @@ en.name: Kanoko
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: かのこ
-jp.nicknames: none
-jp.othernames: none
-language.order: jp, en
+ja.name: かのこ
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
 litter: 99
 location.1: 17, 2016/6/24
 location.2: 13, 2019/3/19

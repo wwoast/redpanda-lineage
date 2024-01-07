@@ -9,10 +9,10 @@ en.name: Teja
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: テジャ
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: テジャ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 694
 location.1: 179, 2012/6/17
 location.2: 154, 2013/5/1

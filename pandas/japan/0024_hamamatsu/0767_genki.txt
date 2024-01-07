@@ -9,10 +9,10 @@ en.name: Genki
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 元気
-jp.nicknames: none
-jp.othernames: げんき
-language.order: jp, en
+ja.name: 元気
+ja.nicknames: none
+ja.othernames: げんき
+language.order: ja, en
 litter: none
 location.1: 10, 1989/6/30
 location.2: 24, 1990/3/20

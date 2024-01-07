@@ -8,10 +8,10 @@ en.name: Pipa
 en.nicknames: none
 en.othernames: Pippa
 gender: f
-jp.name: ピパ
-jp.nicknames: none
-jp.othernames: ピッパ
-language.order: en, jp
+ja.name: ピパ
+ja.nicknames: none
+ja.othernames: ピッパ
+language.order: en, ja
 location.1: unknown, unknown
 location.2: 278, 2019/7/9
 species: 1

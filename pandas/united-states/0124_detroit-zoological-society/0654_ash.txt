@@ -8,10 +8,10 @@ en.name: Ash
 en.nicknames: none
 en.othernames: Enya
 gender: f
-jp.name: 灰
-jp.nicknames: none
-jp.othernames: はい, エンヤ
-language.order: en, jp
+ja.name: 灰
+ja.nicknames: none
+ja.othernames: はい, エンヤ
+language.order: en, ja
 litter: 653
 location.1: 126, 2015/7/2
 location.2: 124, 2017/5/11

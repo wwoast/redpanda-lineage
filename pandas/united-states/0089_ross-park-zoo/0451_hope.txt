@@ -9,10 +9,10 @@ en.name: Hope
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: 希望
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+ja.name: 希望
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
 litter: 450
 photo.1: ig://BXHHostjQXG/m
 photo.1.author: rossparkzoo

@@ -9,10 +9,10 @@ en.name: Shin-Fa
 en.nicknames: none
 en.othernames: Xinghua, Shinfa, Shi-nhowa, Shin-howa, Shinhowa
 gender: f
-jp.name: シーンファ
-jp.nicknames: none
-jp.othernames: 杏花
-language.order: jp, en
+ja.name: シーンファ
+ja.nicknames: none
+ja.othernames: 杏花
+language.order: ja, en
 litter: none
 location.1: 34, 2002/6/29
 location.2: 1, 2003/5/11
