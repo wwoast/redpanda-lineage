@@ -20,10 +20,29 @@
 #    rsync, vim, xli
 #
 
+from PIL import Image
 import configparser
 import json
 import os
 import subprocess
+import sys
+
+RESIZE = 400   # pixels
+
+def copy_images_to_image_server(photo_paths):
+    """Use scp to put photo files on an image server"""
+    server = config.get("submissions", "image_hosting_server")
+    destination_folder = config.get("submissions", "image_hosting_server_folder")
+    user = config.get("submissions", "image_hosting_user")
+    scp_command = 'scp {photo_paths} {user}@{server}:{destination_folder}'.format(
+        photo_paths=" ".join(photo_paths),
+        user=user,
+        server=server,
+        destination_folder=destination_folder
+    )
+    result = os.system(scp_command)
+    if result != 0:
+        sys.exit(result)
 
 def copy_review_data_from_submissions_server(config):
     """Use rsync to grab data from the redpanda-submission server"""
@@ -37,7 +56,9 @@ def copy_review_data_from_submissions_server(config):
         review_folder=review_folder,
         processing_folder=processing_folder
     )
-    os.system(rsync_command)
+    result = os.system(rsync_command)
+    if result != 0:
+        sys.exit(result)
     return processing_folder
 
 def display_images(photo_paths):
@@ -47,6 +68,9 @@ def display_images(photo_paths):
     # run xli in the background, and track it for killing later
     process = subprocess.Popen(xli_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return process
+
+def flatten_comprehension(matrix):
+    return [item for row in matrix for item in row]
 
 def get_image_locators(contribution_path, metadata_path, metadata_file):
     """Given metadata, return the relevant image locators as full paths"""
@@ -72,23 +96,28 @@ def iterate_through_contributions(processing_path):
             if ".panda.json" in contribution_file:
                 result = process_entity(contribution_path, contribution_file)
                 processed.append(contribution_file)
-                results.append(result)
+                if result["status"] == "keep":
+                  results.append(result)
         for _, subfile in enumerate(sorted(os.listdir(contribution_path))):
             contribution_file = os.path.join(contribution_path, subfile)
             if ".zoo.json" in contribution_file:
                 result = process_entity(contribution_path, contribution_file)
                 processed.append(contribution_file)
-                results.append(result)
+                if result["status"] == "keep":
+                  results.append(result)
         for _, subfile in enumerate(sorted(os.listdir(contribution_path))):
             contribution_file = os.path.join(contribution_path, subfile)
             if ".json" in contribution_file and contribution_file not in processed:
                 result = process_entity(contribution_path, contribution_file)
                 processed.append(contribution_file)
-                results.append(result)
-        # TODO: we did all the reviews here, so turn the submission folder into
-        # a Git commit on a new redpandafinder branch
+                if result["status"] == "keep":
+                  results.append(result)
         # TODO: resize and copy the photos to public web storage, using photo
         # paths inside the results files.
+        all_photos = flatten_comprehension([p["photos"] for p in results])
+        copy_images_to_image_server(all_photos)
+        # TODO: we did all the reviews here, so turn the submission folder into
+        # a Git commit on a new redpandafinder branch
 
 def print_metadata_contents(path, contents):
     """Display the file path and its contents, with a divider in-between"""
@@ -151,6 +180,28 @@ def read_settings():
     infile = configparser.ConfigParser()
     infile.read("./contributions.conf", encoding='utf-8')
     return infile
+
+def resize_images(photo_paths):
+    """Resizes all images to 400px in the largest dimension"""
+    for photo_path in photo_paths:
+        image = Image.open(photo_path)
+        image.save(photo_path + ".original")
+        if image.size[0] > RESIZE or image.size[1] > RESIZE:
+            ratios = [image.size[0] / RESIZE, image.size[1] / RESIZE]
+            resize = [1, 1]
+            # If either side is larger than 400px, the ratio will be greater
+            # than one. Whichever ratio is the largest, we want to scale both
+            # dimensions by that amount.
+            if ratios[0] > 1:
+                resize[0] = ratios[0]
+            if ratios[1] > 1:
+                resize[1] = ratios[1]
+            if resize[0] > resize[1]:
+                resize[1] = resize[0]
+            else:
+                resize[0] = resize[1]
+            image.resize([image.size[0] / resize[0], image.size[1] / resize[1]])
+            image.save(photo_path)
 
 if __name__ == '__main__':
     config = read_settings()
