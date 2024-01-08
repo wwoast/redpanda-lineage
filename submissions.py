@@ -20,14 +20,93 @@
 #    rsync, vim, xli
 #
 
+from shared import ProperlyDelimitedConfigParser
+from collections import OrderedDict
 from PIL import Image
-import configparser
+from datetime import datetime
 import json
 import os
 import subprocess
 import sys
 
 RESIZE = 400   # pixels
+
+def convert_json_to_configparser(metadata_path, metadata_file):
+    currentTime = datetime.now()
+    commitTimeMs = int(currentTime.timestamp() * 1000)
+    def basic_date(unixMs):
+        date = datetime.fromtimestamp(unixMs / 1000)
+        return '{year}/{month}/{day}'.format(
+            year=date.year,
+            month=date.month,
+            day=date.day
+        )
+    def convert_json_to_panda(config, metadata):
+        language = metadata["language"]
+        nameKey = language + ".name"
+        nicknamesKey = language + ".nicknames"
+        othernamesKey = language + ".othernames"
+        config.set("panda", "_id", metadata._id)
+        config.set("panda", "birthday", basic_date(metadata["birthday"]))
+        config.set("panda", "commitdate", basic_date(commitTimeMs))
+        config.set("panda", "gender", metadata["gender"])
+        config.set("panda", nameKey, metadata["name"])
+        config.set("panda", nicknamesKey, "none")
+        config.set("panda", othernamesKey, "none")
+        config.set("panda", "language.order", language)
+        return config
+    def convert_json_to_photo_sections(config, section, metadata):
+        locators = metadata.get("photo_locators")
+        if locators == None:   # Photo metadata file minus .json
+            locators = [".".join(os.path.basename(metadata_path).split(".")[0:2])]
+        guessLink = "https://www.instagram.com/{author}".format(
+            author = metadata["author"]
+        )
+        index = 1
+        for locator in locators:
+            keyPrefix = "photo." + str(index)
+            photoValue = "cwdc://" + locator
+            config.set(section, keyPrefix, photoValue)
+            config.set(section, keyPrefix + ".author", metadata["author"])
+            config.set(section, keyPrefix + ".commitdate", basic_date(commitTimeMs))
+            config.set(section, keyPrefix + ".link", guessLink)
+            config.set(section, keyPrefix + ".tags", ", ".join(metadata["tags"]))
+        return config
+    def convert_json_to_zoo(config, metadata):
+        currentTime = datetime.now()
+        commitTimeMs = int(currentTime.timestamp() * 1000)
+        language = metadata["language"]
+        addressKey = language + ".address"
+        nameKey = language + ".name"
+        config.set("zoo", "_id", metadata._id)
+        config.set("zoo", "commitdate", basic_date(commitTimeMs))
+        config.set("zoo", addressKey, metadata["address"])
+        config.set("zoo", nameKey, metadata["name"])
+        config.set("zoo", "language.order", language)
+        config.set("zoo", "latitude", metadata["latitude"])
+        config.set("zoo", "longitude", metadata["longitude"])
+        config.set("zoo", "map", "none")   # TODO
+        config.set("zoo", "website", metadata["website"])
+        return config
+    def write_config(config_path, config):
+        with open(config_path, "w") as wfh:
+            config.write(wfh)
+    metadata = json.loads(metadata_file)
+    config_path = metadata_path.replace('.json', '.txt')
+    if ".panda." in config_path:
+        config = ProperlyDelimitedConfigParser(default_section="panda", delimiters=(':'))
+        config = convert_json_to_panda(config, metadata)
+        config = convert_json_to_photo_sections(config, "panda", metadata)
+        write_config(config_path, config)
+    elif ".zoo." in config_path:
+        config = ProperlyDelimitedConfigParser(default_section="zoo", delimiters=(':'))
+        config = convert_json_to_zoo(config, metadata)
+        config = convert_json_to_photo_sections(config, "zoo", metadata)
+        write_config(config_path, config)
+    else:
+        config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
+        config = convert_json_to_photo_sections(config, "photo", metadata)
+        write_config(config_path, config)
 
 def copy_images_to_image_server(photo_paths):
     """Use scp to put photo files on an image server"""
@@ -40,6 +119,7 @@ def copy_images_to_image_server(photo_paths):
         server=server,
         destination_folder=destination_folder
     )
+    print("\nCopying images to image server...")
     result = os.system(scp_command)
     if result != 0:
         sys.exit(result)
@@ -117,14 +197,18 @@ def iterate_through_contributions(processing_path):
         # TODO: we did all the reviews here, so turn the submission folder into
         # a Git commit on a new redpandafinder branch
 
-def print_metadata_contents(path, contents):
-    """Display the file path and its contents, with a divider in-between"""
-    print(path)
-    print("-" * len(path))
-    print(contents)
+def print_configfile_contents(entity_path, contents):
+    """Display the config file path and its contents, with a divider in-between"""
+    config_path = entity_path.replace('.json', '.txt')
+    print()
+    print(config_path)
+    print("-" * len(config_path))
+    with open(config_path, "r") as cfh:
+        print(cfh.read())
 
 def process_entity(contribution_path, entity_path):
-    """Show a metadata file and load a carousel of its (resized) images.
+    """Show a metadata file converted from json into configparser format, and
+    load a carousel of its (resized) images.
     
     You have the option to edit the metadata file before it is turned into a
     Git commit, or even delete the metadata file so it doesn't get picked up.
@@ -132,8 +216,10 @@ def process_entity(contribution_path, entity_path):
     Return an object with the decision, the metadata path, and a list of paths
     """
     with open(entity_path, "r") as rfh:
+        config_path = entity_path.replace(".json", ".txt")
         entity_file = rfh.read()
-        print_metadata_contents(entity_path, entity_file)
+        convert_json_to_configparser(entity_path, entity_file)
+        print_configfile_contents(entity_path, entity_file)
         photo_paths = get_image_locators(contribution_path, entity_path, entity_file)
         resize_images(photo_paths)
         xli = display_images(photo_paths)
@@ -157,7 +243,7 @@ def process_entity(contribution_path, entity_path):
                 "status": "remove",
             }
         else:
-            editor_command = 'vim {entity_path}'.format(entity_path = entity_path)
+            editor_command = 'vim {config_path}'.format(config_path = config_path)
             os.system(editor_command)
             xli.kill()
             return {
@@ -176,7 +262,7 @@ def prompt_for_decision():
     
 def read_settings():
     """Servers and folder paths for processing new RPF contributions"""
-    infile = configparser.ConfigParser()
+    infile = ProperlyDelimitedConfigParser()
     infile.read("./contributions.conf", encoding='utf-8')
     return infile
 
