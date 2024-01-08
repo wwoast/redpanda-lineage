@@ -112,8 +112,6 @@ def iterate_through_contributions(processing_path):
                 processed.append(contribution_file)
                 if result["status"] == "keep":
                   results.append(result)
-        # TODO: resize and copy the photos to public web storage, using photo
-        # paths inside the results files.
         all_photos = flatten_comprehension([p["photos"] for p in results])
         copy_images_to_image_server(all_photos)
         # TODO: we did all the reviews here, so turn the submission folder into
@@ -126,7 +124,7 @@ def print_metadata_contents(path, contents):
     print(contents)
 
 def process_entity(contribution_path, entity_path):
-    """Show a metadata file and load a carousel of its images.
+    """Show a metadata file and load a carousel of its (resized) images.
     
     You have the option to edit the metadata file before it is turned into a
     Git commit, or even delete the metadata file so it doesn't get picked up.
@@ -137,6 +135,7 @@ def process_entity(contribution_path, entity_path):
         entity_file = rfh.read()
         print_metadata_contents(entity_path, entity_file)
         photo_paths = get_image_locators(contribution_path, entity_path, entity_file)
+        resize_images(photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
         if (decision == "c"):
@@ -185,7 +184,6 @@ def resize_images(photo_paths):
     """Resizes all images to 400px in the largest dimension"""
     for photo_path in photo_paths:
         image = Image.open(photo_path)
-        image.save(photo_path + ".original")
         if image.size[0] > RESIZE or image.size[1] > RESIZE:
             ratios = [image.size[0] / RESIZE, image.size[1] / RESIZE]
             resize = [1, 1]
@@ -200,8 +198,12 @@ def resize_images(photo_paths):
                 resize[1] = resize[0]
             else:
                 resize[0] = resize[1]
-            image.resize([image.size[0] / resize[0], image.size[1] / resize[1]])
-            image.save(photo_path)
+            resolution = [
+                int(image.size[0] / resize[0]), 
+                int(image.size[1] / resize[1])
+            ]
+            resized = image.resize(resolution)
+            resized.save(photo_path)
 
 if __name__ == '__main__':
     config = read_settings()
