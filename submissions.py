@@ -23,6 +23,7 @@
 import configparser
 import json
 import os
+import subprocess
 
 def copy_review_data_from_submissions_server(config):
     """Use rsync to grab data from the redpanda-submission server"""
@@ -39,56 +40,104 @@ def copy_review_data_from_submissions_server(config):
     os.system(rsync_command)
     return processing_folder
 
-def iterate_through_contributions(processing_folder):
+def display_images(photo_paths):
+    """Use xli to open photos for a particular metadata file"""
+    xli_command = ["xli"]
+    xli_command.extend(photo_paths)
+    # run xli in the background, and track it for killing later
+    process = subprocess.Popen(xli_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    return process
+
+def get_image_locators(contribution_path, metadata_path, metadata_file):
+    """Given metadata, return the relevant image locators as full paths"""
+    metadata = json.loads(metadata_file)
+    locators = metadata.get("photo_locators")
+    if locators == None:   # Photo metadata file minus .json
+        locators = [".".join(os.path.basename(metadata_path).split(".")[0:2])]
+    photo_paths = []
+    for locator in locators:
+        photo_paths.append(os.path.join(contribution_path, locator))
+    return photo_paths
+
+def iterate_through_contributions(processing_path):
     """Look at pandas, zoos, and then individual photos in each contribution"""
-    for _, subfolder in enumerate(sorted(os.listdir(processing_folder))):
-        contribution_folder = os.path.join(processing_folder, subfolder)
+    for _, subfolder in enumerate(sorted(os.listdir(processing_path))):
+        contribution_path = os.path.join(processing_path, subfolder)
+        if (os.path.isfile(contribution_path)):
+          continue
         processed = []
-        for _, subfile in enumerate(sorted(os.listdir(contribution_folder))):
-            contribution_file = os.path.join(contribution_folder, subfile)
+        results = []
+        for _, subfile in enumerate(sorted(os.listdir(contribution_path))):
+            contribution_file = os.path.join(contribution_path, subfile)
             if ".panda.json" in contribution_file:
-                process_panda(contribution_file)
+                result = process_entity(contribution_path, contribution_file)
                 processed.append(contribution_file)
-        for _, subfile in enumerate(sorted(os.listdir(contribution_folder))):
-            contribution_file = os.path.join(contribution_folder, subfile)
+                results.append(result)
+        for _, subfile in enumerate(sorted(os.listdir(contribution_path))):
+            contribution_file = os.path.join(contribution_path, subfile)
             if ".zoo.json" in contribution_file:
-                process_zoo(contribution_file)
+                result = process_entity(contribution_path, contribution_file)
                 processed.append(contribution_file)
-        for _, subfile in enumerate(sorted(os.listdir(contribution_folder))):
-            contribution_file = os.path.join(contribution_folder, subfile)
+                results.append(result)
+        for _, subfile in enumerate(sorted(os.listdir(contribution_path))):
+            contribution_file = os.path.join(contribution_path, subfile)
             if ".json" in contribution_file and contribution_file not in processed:
-                process_photo(contribution_file)
+                result = process_entity(contribution_path, contribution_file)
                 processed.append(contribution_file)
+                results.append(result)
+        # TODO: we did all the reviews here, so turn the submission folder into
+        # a Git commit on a new redpandafinder branch
+        # TODO: resize and copy the photos to public web storage, using photo
+        # paths inside the results files.
 
 def print_metadata_contents(path, contents):
     """Display the file path and its contents, with a divider in-between"""
-    print("\n")
     print(path)
-    print("\n" + "-" * len(path) + "\n")
+    print("-" * len(path))
     print(contents)
-    print("\n")
 
-def process_panda(panda_path):
-    with open(panda_path, "r") as rfh:
-        panda_file = rfh.read()
-        print_metadata_contents(panda_path, panda_file)
-        # TODO: fork xli / load set of images
+def process_entity(contribution_path, entity_path):
+    """Show a metadata file and load a carousel of its images.
+    
+    You have the option to edit the metadata file before it is turned into a
+    Git commit, or even delete the metadata file so it doesn't get picked up.
+
+    Return an object with the decision, the metadata path, and a list of paths
+    """
+    with open(entity_path, "r") as rfh:
+        entity_file = rfh.read()
+        print_metadata_contents(entity_path, entity_file)
+        photo_paths = get_image_locators(contribution_path, entity_path, entity_file)
+        xli = display_images(photo_paths)
         decision = prompt_for_decision()
         if (decision == "c"):
-            return
+            xli.kill()
+            return {
+                "entity": entity_path,
+                "photos": photo_paths,
+                "status": "keep",
+            }
         elif (decision == "d"):
-            os.unlink(panda_path)
-            return
+            cleanup_list = [entity_path]
+            cleanup_list.extend(photo_paths)
+            for file_path in cleanup_list:
+                os.unlink(file_path)
+            xli.kill()
+            return {
+                "entity": entity_path,
+                "photos": photo_paths,
+                "status": "remove",
+            }
         else:
-            # TODO: open an editor
-            return 
-
-def process_photo(photo_metadata_file):
-    pass
-
-def process_zoo(zoo_file):
-    pass
-
+            editor_command = 'vim {entity_path}'.format(entity_path = entity_path)
+            os.system(editor_command)
+            xli.kill()
+            return {
+                "entity": entity_path,
+                "photos": photo_paths,
+                "status": "keep",
+            }
+        
 def prompt_for_decision():
     options = ["e", "d", "c"]
     decision = input("(e)dit, (d)elete, or (c)ontinue: ")
