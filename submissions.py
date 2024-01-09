@@ -171,7 +171,7 @@ def create_submissions_branch(results):
             merge = merge_configuration(result)
             if merge == None:
                 continue
-            if (merge.type != "photo"):
+            if (merge["type"] != "photo"):
                 repo.index.add(merge.config)   # New panda or zoo file
             message = '+{locator}: {path}'.format(
                 locator=merge.locator,
@@ -418,7 +418,6 @@ def resize_images(photo_paths):
 
 if __name__ == '__main__':
     index_zoos_and_animals()
-    print(PANDA_INDEX)
     config = read_settings()
     processing_folder = copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
