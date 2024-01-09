@@ -211,13 +211,13 @@ def index_zoos_and_animals():
             zoo_path = os.path.join(country_path, zoo)
             for _, panda in enumerate(os.listdir(zoo_path)):
                 panda_path = os.path.join(zoo_path, panda)
-                id = panda_path.split("_")[0]
+                id = os.path.basename(panda_path).split("_")[0]
                 PANDA_INDEX[id] = panda_path
     for _, country in enumerate(os.listdir("./zoos")):
         country_path = os.path.join("./zoos", country)
         for _, zoo in enumerate(os.listdir(country_path)):
             zoo_path = os.path.join(country_path, zoo)
-            id = zoo_path.split("_")[0]
+            id = os.path.basename(zoo_path).split("_")[0]
             ZOO_INDEX[id] = zoo_path
 
 def iterate_through_contributions(processing_path):
@@ -283,14 +283,14 @@ def merge_configuration(result):
     elif in_data.has_section("photo"):
         # find existing panda or zoo file by search, and incrementally
         # add photos, or replace existing ig:// locators
-        id_number = in_data.get("photo", "_id")
-        check_id = '{:04d}'.format(abs(id_number))   # Up to three leading zeroes
+        id_number = int(in_data.get("photo", "_id"))
         if (id_number > 0):
             index = PANDA_INDEX
             section = "panda"
         else:
             index = ZOO_INDEX
             section = "zoo"
+        check_id = '{:04d}'.format(abs(id_number))   # Up to three leading zeroes
         out_path = index[check_id]
         out_data = ProperlyDelimitedConfigParser()
         out_data.read(out_path)
@@ -418,6 +418,7 @@ def resize_images(photo_paths):
 
 if __name__ == '__main__':
     index_zoos_and_animals()
+    print(PANDA_INDEX)
     config = read_settings()
     processing_folder = copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
