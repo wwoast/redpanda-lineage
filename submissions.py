@@ -174,7 +174,7 @@ def create_submissions_branch(results):
             if (merge["type"] != "photo"):
                 repo.index.add(merge.config)   # New panda or zoo file
             message = '+{locator}: {path}'.format(
-                locator=merge.locator,
+                locator=merge["locator"],
                 path=os.path.basename(merge.config)
             )
             repo.index.commit(message)
