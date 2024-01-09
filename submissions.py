@@ -21,6 +21,7 @@
 #
 
 from shared import ProperlyDelimitedConfigParser
+from manage import sort_ig_updates
 from PIL import Image
 from datetime import datetime
 import git
@@ -175,7 +176,7 @@ def create_submissions_branch(results):
                 repo.index.add(merge.config)   # New panda or zoo file
             message = '+{locator}: {path}'.format(
                 locator=merge["locator"],
-                path=os.path.basename(merge.config)
+                path=os.path.basename(merge["config"])
             )
             repo.index.commit(message)
     finally:
@@ -292,7 +293,7 @@ def merge_configuration(result):
             section = "zoo"
         check_id = '{:04d}'.format(abs(id_number))   # Up to three leading zeroes
         out_path = index[check_id]
-        out_data = ProperlyDelimitedConfigParser()
+        out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
         out_data.read(out_path)
         out_photo_count = count_until_next_photo(out_data, section)
         in_photo_count = 1
@@ -416,10 +417,16 @@ def resize_images(photo_paths):
             resized = image.resize(resolution)
             resized.save(photo_path)
 
+def update_commit_after_sorting():
+    repo = git.Repo(".")
+    repo.index.commit("sorted content from last commit")
+
 if __name__ == '__main__':
     index_zoos_and_animals()
     config = read_settings()
     processing_folder = copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
-    # copy_images_to_image_server(results)
+    copy_images_to_image_server(results)
     create_submissions_branch(results)
+    sort_ig_updates()
+    update_commit_after_sorting()
