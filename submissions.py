@@ -110,8 +110,9 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
 
-def copy_images_to_image_server(photo_paths):
+def copy_images_to_image_server(results):
     """Use scp to put photo files on an image server"""
+    photo_paths = flatten_comprehension([p["photos"] for p in results])
     server = config.get("submissions", "image_hosting_server")
     destination_folder = config.get("submissions", "image_hosting_server_folder")
     user = config.get("submissions", "image_hosting_user")
@@ -152,6 +153,24 @@ def count_until_next_photo(config, section):
           continue
       except:
           return index
+
+def create_submissions_branch(results):
+    """Merge all submission data into files on a new repo branch"""
+    # a Git commit on a new redpandafinder branch
+    repo = git.Repo(".")
+    git_new_branch(repo)
+    for result in results:
+        merge = merge_configuration(result)
+        if merge == None:
+            continue
+        if (merge.type != "photo"):
+            repo.index.add(merge.config)   # New panda or zoo file
+        message = '+{locator}: {path}'.format(
+            locator=merge.locator,
+            path=os.path.basename(merge.config)
+        )
+        repo.index.commit(message)
+    repo.close()
 
 def display_images(photo_paths):
     """Use xli to open photos for a particular metadata file"""
@@ -208,12 +227,12 @@ def index_zoos_and_animals():
 
 def iterate_through_contributions(processing_path):
     """Look at pandas, zoos, and then individual photos in each contribution"""
+    results = []
     for _, subfolder in enumerate(sorted(os.listdir(processing_path))):
         contribution_path = os.path.join(processing_path, subfolder)
         if (os.path.isfile(contribution_path)):
           continue
         processed = []
-        results = []
         for _, subfile in enumerate(sorted(os.listdir(contribution_path))):
             contribution_file = os.path.join(contribution_path, subfile)
             if ".panda.json" in contribution_file:
@@ -235,23 +254,7 @@ def iterate_through_contributions(processing_path):
                 processed.append(contribution_file)
                 if result["status"] == "keep":
                   results.append(result)
-        all_photos = flatten_comprehension([p["photos"] for p in results])
-        # copy_images_to_image_server(all_photos)
-        # We did all the reviews here, so turn the submission folder into
-        # a Git commit on a new redpandafinder branch
-        repo = git.Repo(".")
-        git_new_branch(repo)
-        for result in results:
-            merge = merge_configuration(result)
-            if merge == None:
-                continue
-            if (merge.type != "photo"):
-                repo.index.add(merge.config)   # New panda or zoo file
-            message = '+{locator}: {path}'.format(
-                locator=merge.locator,
-                path=os.path.basename(merge.config)
-            )
-            repo.index.commit(message)
+    return results
 
 def merge_configuration(result):
     """Make a commit for each metadata file in lexicographic order"""
@@ -262,7 +265,7 @@ def merge_configuration(result):
             in_data.get(in_section, in_key)
         )
     in_data = ProperlyDelimitedConfigParser()
-    in_data.read(result["config_path"])
+    in_data.read(result["config"])
     if in_data.has_section("panda"):
         # create new panda id based on reading redpanda.json _totals.pandas
         # and finding the right zoo folder for zoo ID
@@ -419,8 +422,9 @@ def resize_images(photo_paths):
             resized.save(photo_path)
 
 if __name__ == '__main__':
-    # TODO: make an index of id to folder path for zoos and animals
+    index_zoos_and_animals()
     config = read_settings()
     processing_folder = copy_review_data_from_submissions_server(config)
-    iterate_through_contributions(processing_folder)
-    # TODO: turn contributions to git commits on a new branch
+    results = iterate_through_contributions(processing_folder)
+    # copy_images_to_image_server(results)
+    create_submissions_branch(results)
