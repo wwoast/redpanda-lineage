@@ -158,14 +158,9 @@ def create_submissions_branch(results):
     """Merge all submission data into files on a new repo branch"""
     try:
         repo = git.Repo(".")
-        # Creates a new branch: submissions-YYYY-MM-DD-HH:mm
         currentTime = datetime.now()
-        branchName = 'submissions-{year}-{month}-{day}-{hour}:{minute}'.format(
-            year=currentTime.year,
-            month=currentTime.month,
-            day=currentTime.day,
-            hour=currentTime.hour,
-            minute=currentTime.minute
+        branchName = 'submissions-{timestamp}'.format(
+            timestamp=int(currentTime.timestamp())
         )
         # Open the Git repo and set to a new branch
         newBranch = repo.create_head(branchName)
