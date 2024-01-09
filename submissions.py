@@ -107,6 +107,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         write_config(config_path, config)
     else:
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
+        config.set("panda", "_id", metadata._id)
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
 
