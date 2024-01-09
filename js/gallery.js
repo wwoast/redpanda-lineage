@@ -1202,6 +1202,14 @@ Gallery.url.api.instagram = "372324360558859|10549c086b903c4295c7c8d809365e56";
 Gallery.url.events = {};
 Gallery.url.paths = {};
 
+// Get the thumbnail uri from self-hostingg
+Gallery.url.codaworry = function(image, input_uri) {
+  var uri_split = input_uri.split("/");
+  var cwdc_locator = uri_split.pop();
+  var cwdc_url = `https://www.codaworry.com/images/submitted/${cwdc_locator}`
+  image.src = cwdc_url;
+}
+
 // Get the thumbnail uri from Instagram.
 Gallery.url.instagram = function(image, input_uri) {
   var uri_split = input_uri.split("/");
@@ -1289,6 +1297,8 @@ Gallery.url.process = function(image, uri) {
     image.src = uri;
   } else if (uri.indexOf("ig") == 0) {
     Gallery.url.instagram(image, uri);
+  } else if (uri.indexOf("cwdc") == 0) {
+    Gallery.url.codaworry(image, uri);
   } else {
     image.src = Pandas.def.animal["photo.1"];   // Default image
   }

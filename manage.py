@@ -564,7 +564,7 @@ def update_photo_commit_dates(starting_commit, force=False):
                             dt = repo.commit(end).committed_datetime
                             date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                             if value not in uri_to_commit_date:
-                                # Only insert a comit date once
+                                # Only insert a commit date once
                                 uri_to_commit_date[value] = date
     # print(str(uri_to_commit_date))
     # Now walk the repo, find all files with photo lines that have no commit dates,

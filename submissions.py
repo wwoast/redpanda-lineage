@@ -420,6 +420,7 @@ def resize_images(photo_paths):
 def update_commit_after_sorting():
     repo = git.Repo(".")
     repo.index.commit("sorted content from last commit")
+    repo.close()
 
 if __name__ == '__main__':
     index_zoos_and_animals()
