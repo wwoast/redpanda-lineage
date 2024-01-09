@@ -158,7 +158,19 @@ def create_submissions_branch(results):
     """Merge all submission data into files on a new repo branch"""
     try:
         repo = git.Repo(".")
-        git_new_branch(repo)
+        # Creates a new branch: submissions-YYYY-MM-DD-HH:mm
+        currentTime = datetime.now()
+        branchName = 'submissions-{year}-{month}-{day}-{hour}:{minute}'.format(
+            year=currentTime.year,
+            month=currentTime.month,
+            day=currentTime.day,
+            hour=currentTime.hour,
+            minute=currentTime.minute
+        )
+        # Open the Git repo and set to a new branch
+        newBranch = repo.create_head(branchName)
+        repo.head.reference = newBranch
+        # Process the results
         for result in results:
             merge = merge_configuration(result)
             if merge == None:
@@ -194,20 +206,6 @@ def get_image_locators(contribution_path, metadata_path, metadata_file):
     for locator in locators:
         photo_paths.append(os.path.join(contribution_path, locator))
     return photo_paths
-
-def git_new_branch(repo):
-    """Creates a new branch: submissions-YYYY-MM-DD-HH:mm"""
-    currentTime = datetime.now()
-    branchName = 'submissions-{year}-{month}-{day}-{hour}:{minute}'.format(
-        year=currentTime.year,
-        month=currentTime.month,
-        day=currentTime.day,
-        hour=currentTime.hour,
-        minute=currentTime.minute
-    )
-    # Open the Git repo and set to a new branch
-    newBranch = repo.create_head(branchName)
-    repo.head.reference = newBranch
 
 def index_zoos_and_animals():
     """Index each four-digit ID by folder path"""
