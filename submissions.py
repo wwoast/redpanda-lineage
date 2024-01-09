@@ -48,7 +48,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         nameKey = language + ".name"
         nicknamesKey = language + ".nicknames"
         othernamesKey = language + ".othernames"
-        config.set("panda", "_id", metadata._id)
+        config.set("panda", "_id", metadata["_id"])
         config.set("panda", "birthday", basic_date(metadata["birthday"]))
         config.set("panda", "commitdate", basic_date(commitTimeMs))
         config.set("panda", "gender", metadata["gender"])
@@ -80,7 +80,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         language = metadata["language"]
         addressKey = language + ".address"
         nameKey = language + ".name"
-        config.set("zoo", "_id", metadata._id)
+        config.set("zoo", "_id", metadata["_id"])
         config.set("zoo", "commitdate", basic_date(commitTimeMs))
         config.set("zoo", addressKey, metadata["address"])
         config.set("zoo", nameKey, metadata["name"])
@@ -107,7 +107,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         write_config(config_path, config)
     else:
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
-        config.set("panda", "_id", metadata._id)
+        config.set("panda", "_id", metadata["_id"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
 
