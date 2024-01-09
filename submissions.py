@@ -156,21 +156,22 @@ def count_until_next_photo(config, section):
 
 def create_submissions_branch(results):
     """Merge all submission data into files on a new repo branch"""
-    # a Git commit on a new redpandafinder branch
-    repo = git.Repo(".")
-    git_new_branch(repo)
-    for result in results:
-        merge = merge_configuration(result)
-        if merge == None:
-            continue
-        if (merge.type != "photo"):
-            repo.index.add(merge.config)   # New panda or zoo file
-        message = '+{locator}: {path}'.format(
-            locator=merge.locator,
-            path=os.path.basename(merge.config)
-        )
-        repo.index.commit(message)
-    repo.close()
+    try:
+        repo = git.Repo(".")
+        git_new_branch(repo)
+        for result in results:
+            merge = merge_configuration(result)
+            if merge == None:
+                continue
+            if (merge.type != "photo"):
+                repo.index.add(merge.config)   # New panda or zoo file
+            message = '+{locator}: {path}'.format(
+                locator=merge.locator,
+                path=os.path.basename(merge.config)
+            )
+            repo.index.commit(message)
+    finally:
+        repo.close()
 
 def display_images(photo_paths):
     """Use xli to open photos for a particular metadata file"""
