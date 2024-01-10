@@ -71,6 +71,9 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         guessLink = "https://www.instagram.com/{author}".format(
             author = metadata["author"]
         )
+        guessTags = "<Comma-Separated-List-of-Photo-Tags>"
+        if "tags" in metadata:
+            guessTags = ", ".join(metadata["tags"])
         index = 1
         for locator in locators:
             keyPrefix = "photo." + str(index)
@@ -79,7 +82,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             config.set(section, keyPrefix + ".author", metadata["author"])
             config.set(section, keyPrefix + ".commitdate", basic_date(commitTimeMs))
             config.set(section, keyPrefix + ".link", guessLink)
-            config.set(section, keyPrefix + ".tags", ", ".join(metadata["tags"]))
+            config.set(section, keyPrefix + ".tags", guessTags)
         return config
     def convert_json_to_zoo(config, metadata):
         currentTime = datetime.now()
