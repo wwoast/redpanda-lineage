@@ -198,7 +198,7 @@ def create_submissions_branch(results):
             if merge == None:
                 continue
             if (merge["type"] != "photo"):
-                repo.index.add(merge.config)   # New panda or zoo file
+                repo.index.add(merge["config"])   # New panda or zoo file
             message = '+{locator}: {path}'.format(
                 locator=merge["locator"],
                 path=os.path.basename(merge["config"])
@@ -291,8 +291,8 @@ def merge_configuration(result):
         )
     def get_panda_output_file_from_zoo_data(zoo_id, panda_id, en_name):
         zoo_path = ZOO_INDEX[zoo_id]
-        panda_country = zoo_path.split("/")[1]
-        panda_zoo = zoo_path.split("/")[2]
+        panda_country = zoo_path.split("/")[2]
+        panda_zoo = zoo_path.split("/")[3].replace(".txt", "")
         panda_path = "./pandas/{country}/{zoo}/{id}_{name}.txt".format(
             country=panda_country,
             zoo=panda_zoo,
@@ -333,7 +333,7 @@ def merge_configuration(result):
             filename=in_data.get("zoo", "_zoofilename")
         )
         ZOO_INDEX[check_id] = out_path
-        out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
+        out_data = ProperlyDelimitedConfigParser(default_section="zoo", delimiters=(':'))
         # some values we want based on temp fields or our own checks
         out_data.set("zoo", "_id", str(new_zoo_id))
         out_data.set("zoo", "flag", in_data.get("zoo", "country.name"))
