@@ -54,6 +54,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         nameKey = language + ".name"
         nicknamesKey = language + ".nicknames"
         othernamesKey = language + ".othernames"
+        zooId = str(int(metadata["zoo"]) * -1)
         config.set("panda", "birthday", basic_date(metadata["birthday"]))
         config.set("panda", "commitdate", basic_date(commitTimeMs))
         config.set("panda", "gender", metadata["gender"])
@@ -62,7 +63,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config.set("panda", othernamesKey, "none")
         config.set("panda", "language.order", language)
         config.set("panda", "species", metadata["species"])
-        config.set("panda", "zoo", metadata["zoo"])
+        config.set("panda", "zoo", zooId)
         return config
     def convert_json_to_photo_sections(config, section, metadata):
         locators = metadata.get("photo_locators")
@@ -83,6 +84,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             config.set(section, keyPrefix + ".commitdate", basic_date(commitTimeMs))
             config.set(section, keyPrefix + ".link", guessLink)
             config.set(section, keyPrefix + ".tags", guessTags)
+            index = index + 1
         return config
     def convert_json_to_zoo(config, metadata):
         currentTime = datetime.now()
@@ -103,8 +105,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config.set("zoo", localityKey, "<Locality-Name-State-And-Province>")
         config.set("zoo", nameKey, metadata["name"])
         config.set("zoo", "language.order", language)
-        config.set("zoo", "latitude", metadata["latitude"])
-        config.set("zoo", "longitude", metadata["longitude"])
+        config.set("zoo", "latitude", str(metadata["latitude"]))
+        config.set("zoo", "longitude", str(metadata["longitude"]))
         config.set("zoo", "map", "<Google-Maps-Link>")
         config.set("zoo", "website", metadata["website"])
         return config
