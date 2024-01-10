@@ -34,6 +34,11 @@ RESIZE = 400   # pixels
 PANDA_INDEX = {}
 ZOO_INDEX = {}
 
+def convert_configparser_minus_blacklist(in_data, out_data, section, blacklist):
+    for option in in_data.options(section):
+        if option not in blacklist:
+            out_data.set(section, option, in_data.get(section, option))
+
 def convert_json_to_configparser(metadata_path, metadata_file):
     currentTime = datetime.now()
     commitTimeMs = int(currentTime.timestamp() * 1000)
@@ -80,17 +85,24 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         commitTimeMs = int(currentTime.timestamp() * 1000)
         language = metadata["language"]
         addressKey = language + ".address"
+        localityKey = language + ".location"
         nameKey = language + ".name"
+        # Some values are not in the redpanda database, but are here as form
+        # fields for the admin to hand-jam values that can persist in the
+        # database, for which we don't have a canonical way of forming from
+        # arbitrary-language inputs.
         config.set("zoo", "_id", str(metadata["_id"]))
+        config.set("zoo", "_zoofilename", "<Shortened-Lowercase-Zoo-Name-With-Dashes>")
         config.set("zoo", "commitdate", basic_date(commitTimeMs))
         config.set("zoo", "country.folder", "<Lowercase-Country-Folder-With-Dashes>")
         config.set("zoo", "country.name", "<Country-Name-Mapping-To-A-RPF-Flag>")
         config.set("zoo", addressKey, metadata["address"])
+        config.set("zoo", localityKey, "<Locality-Name-State-And-Province>")
         config.set("zoo", nameKey, metadata["name"])
         config.set("zoo", "language.order", language)
         config.set("zoo", "latitude", metadata["latitude"])
         config.set("zoo", "longitude", metadata["longitude"])
-        config.set("zoo", "map", "<Google-Maps-Link>")   # TODO
+        config.set("zoo", "map", "<Google-Maps-Link>")
         config.set("zoo", "website", metadata["website"])
         return config
     def write_config(config_path, config):
@@ -265,21 +277,36 @@ def merge_configuration(result):
     in_data = ProperlyDelimitedConfigParser()
     in_data.read(result["config"])
     if in_data.has_section("panda"):
-        # create new panda id based on reading redpanda.json _totals.pandas
-        # and finding the right zoo folder for zoo ID
+        new_panda_id = int(sorted(PANDA_INDEX.keys()).pop()) + 1
+        check_id = '{:04d}'.format(abs(new_panda_id))
         # TODO: panda form must take in the exact zoo id
         return {
-            "author": "TODO",
             "config": "TODO",
             "locator": "panda",
             "type": "panda"
         }
     elif in_data.has_section("zoo"):
-        # create new zoo id based on reading redpanda.json _totals.zoos
-        # TODO: country form on zoos page, which it tries to guess from address
+        # fill in some of this data from admin forms
+        new_zoo_id = int(sorted(ZOO_INDEX.keys()).pop()) + 1
+        check_id = '{:04d}'.format(abs(new_zoo_id))
+        out_path = "./zoos/{country}/{id}_{filename}.txt".format(
+            country=in_data.get("zoo", "country.folder"),
+            id=check_id,
+            filename=in_data.get("zoo", "_zoofilename")
+        )
+        ZOO_INDEX[check_id] = out_path
+        out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
+        # some values we want based on temp fields or our own checks
+        out_data.set("zoo", "_id", str(new_zoo_id))
+        out_data.set("zoo", "flag", in_data.get("zoo", "country.name"))
+        # remove any temp fields we don't want like _zoofilename, country.name, and country.folder
+        convert_configparser_minus_blacklist(in_data, out_data, "zoo", [
+            "_id", "_zoofilename", "country.name", "country.folder"
+        ])
+        with open(out_path, "w") as wfh:
+            out_data.write(wfh)
         return {
-            "author": "TODO",
-            "config": "TODO",
+            "config": out_path,
             "locator": "zoo",
             "type": "zoo"
         }
@@ -317,7 +344,6 @@ def merge_configuration(result):
         with open(out_path, "w") as wfh:
             out_data.write(wfh)
         return {
-            "author": in_data.get("photo", in_photo_author),
             "config": out_path,
             "locator": in_data.get("photo", in_photo_key),
             "type": "photo"
@@ -352,14 +378,7 @@ def process_entity(contribution_path, entity_path, entity_type):
         resize_images(photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
-        if (decision == "c"):
-            xli.kill()
-            return {
-                "config": config_path,
-                "photos": photo_paths,
-                "status": "keep"
-            }
-        elif (decision == "d"):
+        if (decision == "d"):
             cleanup_list = [entity_path]
             cleanup_list.extend(photo_paths)
             for file_path in cleanup_list:
@@ -381,8 +400,9 @@ def process_entity(contribution_path, entity_path, entity_type):
             }
         
 def prompt_for_decision():
-    options = ["e", "d", "c"]
-    decision = input("(e)dit, (d)elete, or (c)ontinue: ")
+    """Prompt to either edit or delete a contributed metadata file"""
+    options = ["e", "d"]
+    decision = input("(e)dit or (d)elete: ")
     if (decision not in options):
         return prompt_for_decision()
     else:
