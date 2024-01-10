@@ -54,7 +54,6 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         nameKey = language + ".name"
         nicknamesKey = language + ".nicknames"
         othernamesKey = language + ".othernames"
-        config.set("panda", "_id", str(metadata["_id"]))
         config.set("panda", "birthday", basic_date(metadata["birthday"]))
         config.set("panda", "commitdate", basic_date(commitTimeMs))
         config.set("panda", "gender", metadata["gender"])
@@ -62,6 +61,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config.set("panda", nicknamesKey, "none")
         config.set("panda", othernamesKey, "none")
         config.set("panda", "language.order", language)
+        config.set("panda", "species", metadata["species"])
+        config.set("panda", "zoo", metadata["zoo"])
         return config
     def convert_json_to_photo_sections(config, section, metadata):
         locators = metadata.get("photo_locators")
@@ -91,7 +92,6 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         # fields for the admin to hand-jam values that can persist in the
         # database, for which we don't have a canonical way of forming from
         # arbitrary-language inputs.
-        config.set("zoo", "_id", str(metadata["_id"]))
         config.set("zoo", "_zoofilename", "<Shortened-Lowercase-Zoo-Name-With-Dashes>")
         config.set("zoo", "commitdate", basic_date(commitTimeMs))
         config.set("zoo", "country.folder", "<Lowercase-Country-Folder-With-Dashes>")
@@ -279,6 +279,7 @@ def merge_configuration(result):
     if in_data.has_section("panda"):
         new_panda_id = int(sorted(PANDA_INDEX.keys()).pop()) + 1
         check_id = '{:04d}'.format(abs(new_panda_id))
+
         # TODO: panda form must take in the exact zoo id
         return {
             "config": "TODO",
