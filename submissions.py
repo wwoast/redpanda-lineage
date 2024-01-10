@@ -33,6 +33,7 @@ import sys
 RESIZE = 400   # pixels
 PANDA_INDEX = {}
 ZOO_INDEX = {}
+LOCATORS = []   # Don't process photos more than once
 
 def convert_configparser_minus_blacklist(in_data, out_data, section, blacklist):
     for option in in_data.options(section):
@@ -225,6 +226,10 @@ def get_image_locators(contribution_path, metadata_path, metadata_file):
         locators = [".".join(os.path.basename(metadata_path).split(".")[0:2])]
     photo_paths = []
     for locator in locators:
+        # Pandas and photos have duplicate metadata, but only process one.
+        if locator in LOCATORS:
+            continue
+        LOCATORS.append(locator)
         photo_paths.append(os.path.join(contribution_path, locator))
     return photo_paths
 
@@ -285,7 +290,7 @@ def merge_configuration(result):
             in_data.get(in_section, in_key)
         )
     def get_panda_output_file_from_zoo_data(zoo_id, panda_id, en_name):
-        zoo_path = ZOO_INDEX(zoo_id)
+        zoo_path = ZOO_INDEX[zoo_id]
         panda_country = zoo_path.split("/")[1]
         panda_zoo = zoo_path.split("/")[2]
         panda_path = "./pandas/{country}/{zoo}/{id}_{name}.txt".format(
@@ -300,14 +305,14 @@ def merge_configuration(result):
     if in_data.has_section("panda"):
         new_panda_id = int(sorted(PANDA_INDEX.keys()).pop()) + 1
         panda_check_id = '{:04d}'.format(abs(new_panda_id))
-        zoo_id = in_data.get("panda", "zoo")
+        zoo_id = int(in_data.get("panda", "zoo"))
         zoo_check_id = '{:04d}'.format(abs(zoo_id))
         # pandas have to have an en.name to determine their output file
         name = in_data.get("panda", "en.name")
         # use the zoo id to determine the output folder
         out_path = get_panda_output_file_from_zoo_data(zoo_check_id, panda_check_id, name)
         PANDA_INDEX[panda_check_id] = out_path
-        out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
+        out_data = ProperlyDelimitedConfigParser(default_section="panda", delimiters=(':'))
         # some values we want based on temp fields or our own checks
         out_data.set("panda", "_id", str(new_panda_id))
         convert_configparser_minus_blacklist(in_data, out_data, "panda", ["_id"])
@@ -405,9 +410,16 @@ def process_entity(contribution_path, entity_path, entity_type):
     with open(entity_path, "r") as rfh:
         config_path = entity_path.replace(".json", ".txt")
         entity_file = rfh.read()
+        photo_paths = get_image_locators(contribution_path, entity_path, entity_file)
+        # skip photo metadata files for stuff already processed for a panda or zoo
+        if entity_type == "photo" and len(photo_paths) == 0:
+            return {
+                "config": config_path,
+                "photos": photo_paths,
+                "status": "remove"
+            }
         convert_json_to_configparser(entity_path, entity_file)
         print_configfile_contents(config_path)
-        photo_paths = get_image_locators(contribution_path, entity_path, entity_file)
         resize_images(photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
