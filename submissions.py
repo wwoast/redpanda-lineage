@@ -83,12 +83,14 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         nameKey = language + ".name"
         config.set("zoo", "_id", str(metadata["_id"]))
         config.set("zoo", "commitdate", basic_date(commitTimeMs))
+        config.set("zoo", "country.folder", "<Lowercase-Country-Folder-With-Dashes>")
+        config.set("zoo", "country.name", "<Country-Name-Mapping-To-A-RPF-Flag>")
         config.set("zoo", addressKey, metadata["address"])
         config.set("zoo", nameKey, metadata["name"])
         config.set("zoo", "language.order", language)
         config.set("zoo", "latitude", metadata["latitude"])
         config.set("zoo", "longitude", metadata["longitude"])
-        config.set("zoo", "map", "none")   # TODO
+        config.set("zoo", "map", "<Google-Maps-Link>")   # TODO
         config.set("zoo", "website", metadata["website"])
         return config
     def write_config(config_path, config):
