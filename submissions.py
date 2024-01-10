@@ -423,6 +423,9 @@ def read_settings():
 def resize_images(photo_paths):
     """Resizes all images to 400px in the largest dimension"""
     for photo_path in photo_paths:
+        # Files may get deleted prior to resizing
+        if not os.path.exists(photo_path):
+            continue
         image = Image.open(photo_path)
         if image.size[0] > RESIZE or image.size[1] > RESIZE:
             ratios = [image.size[0] / RESIZE, image.size[1] / RESIZE]
