@@ -51,6 +51,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         )
     def convert_json_to_panda(config, metadata):
         language = metadata["language"]
+        defaultLanguageOrder = "{language}, en".format(language = language)
         nameKey = language + ".name"
         nicknamesKey = language + ".nicknames"
         othernamesKey = language + ".othernames"
@@ -61,9 +62,13 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config.set("panda", nameKey, metadata["name"])
         config.set("panda", nicknamesKey, "none")
         config.set("panda", othernamesKey, "none")
-        config.set("panda", "language.order", language)
+        config.set("panda", "language.order", defaultLanguageOrder)
         config.set("panda", "species", metadata["species"])
         config.set("panda", "zoo", zooId)
+        if not config.has_option("panda", "en.name"):
+            config.set("panda", "en.name", "<English-Name-For-Output-File>")
+            config.set("panda", "en.nicknames", "none")
+            config.set("panda", "en.othernames", "none")
         return config
     def convert_json_to_photo_sections(config, section, metadata):
         locators = metadata.get("photo_locators")
@@ -279,15 +284,37 @@ def merge_configuration(result):
             out_key,
             in_data.get(in_section, in_key)
         )
+    def get_panda_output_file_from_zoo_data(zoo_id, panda_id, en_name):
+        zoo_path = ZOO_INDEX(zoo_id)
+        panda_country = zoo_path.split("/")[1]
+        panda_zoo = zoo_path.split("/")[2]
+        panda_path = "./pandas/{country}/{zoo}/{id}_{name}.txt".format(
+            country=panda_country,
+            zoo=panda_zoo,
+            id=panda_id,
+            name=en_name
+        )
+        return panda_path
     in_data = ProperlyDelimitedConfigParser()
     in_data.read(result["config"])
     if in_data.has_section("panda"):
         new_panda_id = int(sorted(PANDA_INDEX.keys()).pop()) + 1
-        check_id = '{:04d}'.format(abs(new_panda_id))
-
-        # TODO: panda form must take in the exact zoo id
+        panda_check_id = '{:04d}'.format(abs(new_panda_id))
+        zoo_id = in_data.get("panda", "zoo")
+        zoo_check_id = '{:04d}'.format(abs(zoo_id))
+        # pandas have to have an en.name to determine their output file
+        name = in_data.get("panda", "en.name")
+        # use the zoo id to determine the output folder
+        out_path = get_panda_output_file_from_zoo_data(zoo_check_id, panda_check_id, name)
+        PANDA_INDEX[panda_check_id] = out_path
+        out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
+        # some values we want based on temp fields or our own checks
+        out_data.set("panda", "_id", str(new_panda_id))
+        convert_configparser_minus_blacklist(in_data, out_data, "panda", ["_id"])
+        with open(out_path, "w") as wfh:
+            out_data.write(wfh)
         return {
-            "config": "TODO",
+            "config": out_path,
             "locator": "panda",
             "type": "panda"
         }
@@ -458,7 +485,7 @@ if __name__ == '__main__':
     config = read_settings()
     processing_folder = copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
-    copy_images_to_image_server(results)
+    # copy_images_to_image_server(results)
     create_submissions_branch(results)
     sort_ig_updates()
     update_commit_after_sorting()
