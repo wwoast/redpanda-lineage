@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
   F = Geo.init();
 
+  Options.init();
+
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
   L.update();      // Update buttons, displayed results, and cookie state

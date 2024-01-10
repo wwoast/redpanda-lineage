@@ -1038,11 +1038,58 @@ Show.options.body = function() {
   container.id = "contentFrame";
   container.className = "options";
 
+  container.appendChild(Show.options.content.render());
+
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
 
   container.appendChild(shrinker);
   return container;
+}
+Show.options.content = {};
+Show.options.content.render = function() {
+  var container = document.createElement('div');
+  container.className = 'shrinker';
+
+  container.appendChild(Show.options.content.header());
+  container.appendChild(Show.options.content.deadPandas.render());
+
+  return container;
+}
+Show.options.content.header = function() {
+  var header = document.createElement('h3');
+
+  header.innerText = "Options";
+
+  return header;
+}
+
+// Render functions for individual options
+Show.options.content.deadPandas = {};
+Show.options.content.deadPandas.render = function() {
+  var container = document.createElement('div');
+
+  var input = document.createElement('input');
+
+  input.type = 'checkbox';
+  input.id = 'dead-pandas';
+  input.name = 'dead-pandas';
+  input.value = 'dead-pandas';
+  input.checked = Options.data.deadPandas;
+  input.addEventListener('change', Show.options.content.deadPandas.action);
+
+  container.appendChild(input);
+
+  var label = document.createElement('label');
+  label.htmlFor = 'dead-pandas';
+  label.innerText = "Hide dead pandas";
+
+  container.appendChild(label);
+
+  return container;
+}
+Show.options.content.deadPandas.action = function(e) {
+  Options.update(data => data.deadPandas = e.currentTarget.checked);
 }
 
 /*
