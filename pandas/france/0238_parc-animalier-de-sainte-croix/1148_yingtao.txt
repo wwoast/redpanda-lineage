@@ -3,9 +3,6 @@ _id: 1148
 birthday: 2014/6/13
 birthplace: 239
 children: unknown
-zh.name: 櫻桃
-zh.nicknames: none
-zh.othernames: none
 commitdate: 2020/3/27
 en.name: Ying Tao
 en.nicknames: none
@@ -57,4 +54,7 @@ photo.7.commitdate: 2020/3/27
 photo.7.link: https://www.instagram.com/nathalie.elliott/
 photo.7.tags: mofumofu, paws, portrait
 species: 2
+zh.name: 櫻桃
+zh.nicknames: none
+zh.othernames: none
 zoo: 238
