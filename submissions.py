@@ -136,6 +136,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
     else:
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
         config.set("photo", "_id", str(metadata["_id"]))
+        # Single photo uploads can have IG locators in the submitted data
+        config.set("photo", "_ig_locator", metadata["ig_locator"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
 
@@ -219,6 +221,24 @@ def display_images(photo_paths):
 
 def flatten_comprehension(matrix):
     return [item for row in matrix for item in row]
+
+def find_instagram_locator(config, section, locator):
+    if not locator:   # Locator is empty string
+        return count_until_next_photo(config, section)
+    # Look at all photo indexes by their IG locators
+    index = 1
+    while True:
+      try:
+          link = config.get(section, 'photo.{index}'.format(index=index))
+          if 'ig://' in link:
+              link_locator = link.split("/")[2]
+              if locator == link_locator:
+                  return index
+          index = index + 1
+          continue
+      except:
+          return index
+
 
 def get_image_locators(contribution_path, metadata_path, metadata_file):
     """Given metadata, return the relevant image locators as full paths"""
@@ -354,6 +374,7 @@ def merge_configuration(result):
         # find existing panda or zoo file by search, and incrementally
         # add photos, or replace existing ig:// locators
         id_number = int(in_data.get("photo", "_id"))
+        ig_locator = in_data.get("photo", "_ig_locator")
         if (id_number > 0):
             index = PANDA_INDEX
             section = "panda"
@@ -364,7 +385,7 @@ def merge_configuration(result):
         out_path = index[check_id]
         out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
         out_data.read(out_path)
-        out_photo_count = count_until_next_photo(out_data, section)
+        out_photo_count = find_instagram_locator(out_data, section, ig_locator)
         in_photo_count = 1
         in_photo_key = 'photo.{index}'.format(index=in_photo_count)
         out_photo_key = 'photo.{index}'.format(index=out_photo_count)
@@ -385,7 +406,7 @@ def merge_configuration(result):
             out_data.write(wfh)
         return {
             "config": out_path,
-            "locator": in_data.get("photo", in_photo_key),
+            "locator": out_data.get(section, out_photo_key),
             "type": "photo"
         }
     else:
