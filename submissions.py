@@ -201,8 +201,8 @@ def create_submissions_branch(results):
             merge = merge_configuration(result)
             if merge == None:
                 continue
-            if (merge["type"] != "photo"):
-                repo.index.add(merge["config"])   # New panda or zoo file
+            # Add changed content to the commit
+            repo.index.add(merge["config"])
             message = '+{locator}: {path}'.format(
                 locator=merge["locator"],
                 path=os.path.basename(merge["config"])
