@@ -1175,6 +1175,17 @@ div#contentFrame.about div.shrinker, div#contentFrame.links div.shrinker {
     max-width: 680px;
 }
 
+div#contentFrame.options div.shrinker {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+div#contentFrame.options h3 {
+    margin-left: 0px;
+}
+
 h2 {
     display: inline-block;
     margin-left: 0px;

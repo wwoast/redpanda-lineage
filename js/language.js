@@ -259,7 +259,8 @@ Language.L.emoji = {
            "wip": "🚧",
          "worry": "😢",
           "yawn": "😪",
-           "zoo": "🦁"
+           "zoo": "🦁",
+       "options": "⚙️"
 }
 
 // TODO: key on other language versions of country names
@@ -609,6 +610,22 @@ Language.L.gui = {
     "ne": "उपनामहरू",
     "pt": "Apelidos",
     "zh": "昵称"
+  },
+  "options": {
+    "en": "Options",
+    "es": "Opciones",
+    "ja": "オプション",
+    "ne": "विकल्पहरू",
+    "pt": "Opções",
+    "zh": "选项"
+  },
+  "opt_hide_dead_pandas": {
+    "en": "Hide panda memorials",
+    "es": "Ocultar monumentos conmemorativos de pandas",
+    "ja": "パンダ記念碑を隠す",
+    "ne": "पांडा स्मारकहरू लुकाउनुहोस्",
+    "pt": "Ocultar memoriais do panda",
+    "zh": "隐藏熊猫纪念馆"
   },
   "othernames": {
     "en": "Other Names",

@@ -945,6 +945,15 @@ Show.button.refresh.render = function(class_name="results") {
   refresh.addEventListener("contextmenu", Show.button.refresh.altAction);
   return refresh;
 }
+Show.button.options = {};
+Show.button.options.action = function() {
+  window.location = "#options";
+}
+Show.button.options.render = function(class_name="results") {
+  var options = Show.button.render("optionsButton", L.emoji.options, L.gui.options[L.display], class_name);
+  options.addEventListener("click", Show.button.options.action);
+  return options;
+}
 Show.button.render = function(id, button_icon, button_text, class_name) {
   // Draw menu buttons for the bottom menu, or potentially elsewhere.
   var button = document.createElement('button');
@@ -1018,6 +1027,69 @@ Show.button.tree.render = function(class_name="profile") {
     text.classList.remove("condensed");
   }
   return tree;
+}
+
+/*
+    Show functions used to generate content for the options page.
+*/
+Show.options = {};
+Show.options.body = function() {
+  var container = document.createElement('div');
+  container.id = "contentFrame";
+  container.className = "options";
+
+  container.appendChild(Show.options.content.render());
+
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+
+  container.appendChild(shrinker);
+  return container;
+}
+Show.options.content = {};
+Show.options.content.render = function() {
+  var container = document.createElement('div');
+  container.className = 'shrinker';
+
+  container.appendChild(Show.options.content.header());
+  container.appendChild(Show.options.content.deadPandas.render());
+
+  return container;
+}
+Show.options.content.header = function() {
+  var header = document.createElement('h3');
+
+  header.innerText = Language.L.gui['options'][L.display];
+
+  return header;
+}
+
+// Render functions for individual options
+Show.options.content.deadPandas = {};
+Show.options.content.deadPandas.render = function() {
+  var container = document.createElement('div');
+
+  var input = document.createElement('input');
+
+  input.type = 'checkbox';
+  input.id = 'dead-pandas';
+  input.name = 'dead-pandas';
+  input.value = 'dead-pandas';
+  input.checked = Options.data.hideDeadPandas;
+  input.addEventListener('change', Show.options.content.deadPandas.action);
+
+  container.appendChild(input);
+
+  var label = document.createElement('label');
+  label.htmlFor = 'dead-pandas';
+  label.innerText = Language.L.gui['opt_hide_dead_pandas'][L.display];
+
+  container.appendChild(label);
+
+  return container;
+}
+Show.options.content.deadPandas.action = function(e) {
+  Options.update(data => data.hideDeadPandas = e.currentTarget.checked);
 }
 
 /*
@@ -1454,7 +1526,7 @@ Show.landing.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.landing.menus.bottomButtons = ['topButton', 'refreshButton'];
+Show.landing.menus.bottomButtons = ['topButton', 'refreshButton', 'optionsButton'];
 
 /*
     Show functions used by the profile page for a single animal

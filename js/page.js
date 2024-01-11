@@ -1,6 +1,32 @@
 var Page = {};   // Namespace
 
 /*
+    Logic related to the "Options" page.
+    
+*/
+Page.options = {};
+Page.options.content = undefined;
+Page.options.hashchange = function() {
+  // Render the options page
+  Page.options.render();
+  Page.current = Page.options.render;
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
+Page.options.render = function() {
+  // Disable paging
+  Query.env.paging.display_button = false;
+  Page.options.content = Show.options.body();
+  var old_content = document.getElementById('contentFrame');
+  Page.swap(old_content, Page.options.content);
+  // Add event listeners to the newly created Links page buttons
+  Page.footer.redraw("results");
+  Show["results"].menus.language();
+  Show["links"].menus.top();
+  Show["results"].searchBar();   // Ensure the search bar comes back
+  Page.color("results");
+}
+
+/*
     Logic related to the "About" page.
     Loads language-specific content over an XHR
 */
@@ -300,8 +326,11 @@ Page.home.render = function() {
     // new_content.appendChild(kingin);
     // Current memorials
     var memorial_ids = ["535", "42", "936"];
-    var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
-    new_content.appendChild(departed);
+
+    if (!Options.data.hideDeadPandas) {
+      var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
+      new_content.appendChild(departed);
+    }
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["59"], 3, Message.missing_you);
     // new_content.appendChild(memorial);
@@ -661,6 +690,8 @@ Page.routes.check = function() {
     Page.current = Page.about.render;
   } else if (window.location.hash == "#links") {
     Page.current = Page.links.render;
+  } else if (window.location.hash == "#options") {
+    Page.current = Page.options.render;
   } else if (Page.routes.dynamic.includes(mode)) {
     Page.current = Page.results.render;
   } else {
@@ -680,7 +711,8 @@ Page.routes.dynamic = [
 ];
 Page.routes.fixed = [
   "#about",    // The about page
-  "#home"     // The empty query page
+  "#home",     // The empty query page
+  "#options"   // The options page
 ];
 Page.routes.media = [
   "#media"
