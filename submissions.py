@@ -434,8 +434,11 @@ def migrate_submissions_to_submitted():
     processed_folder = config.get("submissions", "processed_folder")
     for _, submission in enumerate(os.listdir(processing_folder)):
         submission_path = os.path.join(processing_folder, submission)
-        processed_path = os.path.join(processed_folder, submission)
-        os.renames(submission_path, processed_path)
+        # submissions are all folders
+        if os.path.isdir(submission_path):
+            submission_path = os.path.join(processing_folder, submission)
+            processed_path = os.path.join(processed_folder, submission)
+            os.renames(submission_path, processed_path)
  
 def print_configfile_contents(config_path):
     """Display the config file path and its contents, with a divider in-between"""
