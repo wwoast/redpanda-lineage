@@ -202,7 +202,7 @@ def create_submissions_branch(results):
             if merge == None:
                 continue
             # Add changed content to the commit
-            repo.index.add(merge["config"])
+            repo.git.add(merge["config"])
             message = '+{locator}: {path}'.format(
                 locator=merge["locator"],
                 path=os.path.basename(merge["config"])
@@ -538,11 +538,6 @@ def resize_images(photo_paths):
             resized = image.resize(resolution)
             resized.save(photo_path)
 
-def update_commit_after_sorting():
-    repo = git.Repo(".")
-    repo.index.commit("sorted content from last commit")
-    repo.close()
-
 if __name__ == '__main__':
     index_zoos_and_animals()
     config = read_settings()
@@ -551,5 +546,5 @@ if __name__ == '__main__':
     copy_images_to_image_server(results)
     create_submissions_branch(results)
     sort_ig_updates()
-    update_commit_after_sorting()
     migrate_submissions_to_submitted()
+    print("Please commit any changes after sorting.")
