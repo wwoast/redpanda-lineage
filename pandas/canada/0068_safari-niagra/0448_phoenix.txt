@@ -16,21 +16,21 @@ litter: 400
 location.1: 76, 2011/6/13
 location.2: 106, 2013/11/18
 location.3: 68, 2017/10/1
-photo.1: ig://BZRIHGflqkj/m
-photo.1.author: safariniagra
+photo.1: ig://BRTXnpcDGPF/m
+photo.1.author: derek.elvin
 photo.1.commitdate: 2018/11/24
-photo.1.link: https://www.instagram.com/safariniagara/
-photo.1.tags: bamboo
-photo.2: ig://BRTXnpcDGPF/m
-photo.2.author: derek.elvin
+photo.1.link: https://www.instagram.com/derek.elvin/
+photo.1.tags: bamboo, profile
+photo.2: ig://BZRIHGflqkj/m
+photo.2.author: safariniagra
 photo.2.commitdate: 2018/11/24
-photo.2.link: https://www.instagram.com/derek.elvin/
-photo.2.tags: bamboo, profile
-species: 2
-studbook.id: 1131
-zoo: 68
+photo.2.link: https://www.instagram.com/safariniagara/
+photo.2.tags: bamboo
 photo.3: cwdc://Yz3G0y4eDwA.jpg
 photo.3.author: nightingaleinflight
 photo.3.commitdate: 2024/1/10
 photo.3.link: https://www.instagram.com/nightingaleinflight
 photo.3.tags: peek, whiskers
+species: 2
+studbook.id: 1131
+zoo: 68
