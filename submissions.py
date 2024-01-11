@@ -58,6 +58,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         nicknamesKey = language + ".nicknames"
         othernamesKey = language + ".othernames"
         zooId = str(int(metadata["zoo"]) * -1)
+        config.set("panda", "_notes", metadata["notes"])
         config.set("panda", "birthday", basic_date(metadata["birthday"]))
         config.set("panda", "commitdate", basic_date(commitTimeMs))
         config.set("panda", "gender", metadata["gender"])
@@ -316,7 +317,7 @@ def merge_configuration(result):
         out_data = ProperlyDelimitedConfigParser(default_section="panda", delimiters=(':'))
         # some values we want based on temp fields or our own checks
         out_data.set("panda", "_id", str(new_panda_id))
-        convert_configparser_minus_blacklist(in_data, out_data, "panda", ["_id"])
+        convert_configparser_minus_blacklist(in_data, out_data, "panda", ["_id", "_notes"])
         with open(out_path, "w") as wfh:
             out_data.write(wfh)
         return {
