@@ -428,7 +428,15 @@ def merge_configuration(result):
         }
     else:
         return None
-
+    
+def migrate_submissions_to_submitted():
+    processing_folder = config.get("submissions", "processing_folder")
+    processed_folder = config.get("submissions", "processed_folder")
+    for _, submission in enumerate(os.listdir(processing_folder)):
+        submission_path = os.path.join(processing_folder, submission)
+        processed_path = os.path.join(processed_folder, submission)
+        os.renames(submission_path, processed_path)
+ 
 def print_configfile_contents(config_path):
     """Display the config file path and its contents, with a divider in-between"""
     print()
@@ -537,7 +545,8 @@ if __name__ == '__main__':
     config = read_settings()
     processing_folder = copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
-    # copy_images_to_image_server(results)
+    copy_images_to_image_server(results)
     create_submissions_branch(results)
     sort_ig_updates()
     update_commit_after_sorting()
+    migrate_submissions_to_submitted()
