@@ -52,7 +52,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         )
     def convert_json_to_panda(config, metadata):
         language = metadata["language"]
-        defaultLanguageOrder = "{language}, en".format(language = language)
+        defaultLanguageOrder = {language, "en"}   # Set, not list 
+        languageOrderString = ", ".join(defaultLanguageOrder)
         nameKey = language + ".name"
         nicknamesKey = language + ".nicknames"
         othernamesKey = language + ".othernames"
@@ -63,7 +64,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config.set("panda", nameKey, metadata["name"])
         config.set("panda", nicknamesKey, "none")
         config.set("panda", othernamesKey, "none")
-        config.set("panda", "language.order", defaultLanguageOrder)
+        config.set("panda", "language.order", languageOrderString)
         config.set("panda", "species", metadata["species"])
         config.set("panda", "zoo", zooId)
         if not config.has_option("panda", "en.name"):
