@@ -1059,7 +1059,7 @@ Show.options.content.render = function() {
 Show.options.content.header = function() {
   var header = document.createElement('h3');
 
-  header.innerText = "Options";
+  header.innerText = Language.L.gui['options'][L.display];
 
   return header;
 }
@@ -1082,7 +1082,7 @@ Show.options.content.deadPandas.render = function() {
 
   var label = document.createElement('label');
   label.htmlFor = 'dead-pandas';
-  label.innerText = "Hide dead pandas";
+  label.innerText = Language.L.gui['opt_hide_dead_pandas'][L.display];
 
   container.appendChild(label);
 
