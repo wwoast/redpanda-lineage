@@ -387,21 +387,38 @@ def merge_configuration(result):
         out_data.read(out_path)
         out_photo_count = find_instagram_locator(out_data, section, ig_locator)
         in_photo_count = 1
+        # Add or swap the photo
         in_photo_key = 'photo.{index}'.format(index=in_photo_count)
         out_photo_key = 'photo.{index}'.format(index=out_photo_count)
         copy_across_configs(in_data, "photo", in_photo_key, out_data, section, out_photo_key)
+        # Add the author, but do not update if it's already there (ig_locator swap)
         in_photo_author = 'photo.{index}.author'.format(index=in_photo_count)
         out_photo_author = 'photo.{index}.author'.format(index=out_photo_count)
-        copy_across_configs(in_data, "photo", in_photo_author, out_data, section, out_photo_author)
+        if not out_data.has_option(section, out_photo_author):
+            copy_across_configs(in_data, "photo", in_photo_author, out_data, section, out_photo_author)
+        # Add the commit date, but do not update if it's already there (ig_locator swap)
         in_photo_date = 'photo.{index}.commitdate'.format(index=in_photo_count)
         out_photo_date = 'photo.{index}.commitdate'.format(index=out_photo_count)
-        copy_across_configs(in_data, "photo", in_photo_date, out_data, section, out_photo_date)
+        if not out_data.has_option(section, out_photo_date):
+            copy_across_configs(in_data, "photo", in_photo_date, out_data, section, out_photo_date)
+        # Add the biography link, but do not update if it's already there (ig_locator swap)
         in_photo_link = 'photo.{index}.link'.format(index=in_photo_count)
         out_photo_link = 'photo.{index}.link'.format(index=out_photo_count)
-        copy_across_configs(in_data, "photo", in_photo_link, out_data, section, out_photo_link)
+        if not out_data.has_option(section, out_photo_link):
+            copy_across_configs(in_data, "photo", in_photo_link, out_data, section, out_photo_link)
+        # Make a set of both incoming and outgoing tags if they both exist
         in_photo_tags = 'photo.{index}.tags'.format(index=in_photo_count)
         out_photo_tags = 'photo.{index}.tags'.format(index=out_photo_count)
-        copy_across_configs(in_data, "photo", in_photo_tags, out_data, section, out_photo_tags)
+        if not out_data.has_option(section, out_photo_tags):
+            copy_across_configs(in_data, "photo", in_photo_tags, out_data, section, out_photo_tags)
+        else:
+            in_tags = in_data.get("photo", in_photo_tags)
+            out_tags = out_data.get(section, out_photo_tags)
+            tag_list = in_tags.split(', ')
+            out_list = out_tags.split(', ')
+            tag_list.extend(out_list)
+            tag_set = sorted(set(tag_list))
+            out_data.set(section, out_photo_tags, ', '.join(tag_set))
         with open(out_path, "w") as wfh:
             out_data.write(wfh)
         return {
