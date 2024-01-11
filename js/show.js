@@ -1075,7 +1075,7 @@ Show.options.content.deadPandas.render = function() {
   input.id = 'dead-pandas';
   input.name = 'dead-pandas';
   input.value = 'dead-pandas';
-  input.checked = Options.data.deadPandas;
+  input.checked = Options.data.hideDeadPandas;
   input.addEventListener('change', Show.options.content.deadPandas.action);
 
   container.appendChild(input);
@@ -1089,7 +1089,7 @@ Show.options.content.deadPandas.render = function() {
   return container;
 }
 Show.options.content.deadPandas.action = function(e) {
-  Options.update(data => data.deadPandas = e.currentTarget.checked);
+  Options.update(data => data.hideDeadPandas = e.currentTarget.checked);
 }
 
 /*

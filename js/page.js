@@ -326,8 +326,11 @@ Page.home.render = function() {
     // new_content.appendChild(kingin);
     // Current memorials
     var memorial_ids = ["535", "42", "936"];
-    var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
-    new_content.appendChild(departed);
+
+    if (!Options.data.hideDeadPandas) {
+      var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
+      new_content.appendChild(departed);
+    }
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["59"], 3, Message.missing_you);
     // new_content.appendChild(memorial);

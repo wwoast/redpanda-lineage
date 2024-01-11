@@ -9,7 +9,7 @@ Options.init = function() {
 
 // All available options
 Options.data = {
-  deadPandas: false
+  hideDeadPandas: false
 };
 
 Options.update = function(func) {
