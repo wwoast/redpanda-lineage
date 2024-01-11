@@ -164,7 +164,7 @@ def copy_review_data_from_submissions_server(config):
     review_folder = config.get("submissions", "contributions_server_folder")
     user = config.get("submissions", "contributions_user")
     processing_folder = config.get("submissions", "processing_folder")
-    rsync_command = 'rsync -avrz {user}@{server}:{review_folder}/* {processing_folder}'.format(
+    rsync_command = 'rsync -avrz --remove-source-files {user}@{server}:{review_folder}/* {processing_folder}'.format(
         user=user,
         server=server,
         review_folder=review_folder,
