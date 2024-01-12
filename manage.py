@@ -61,6 +61,7 @@ def remove_author_from_lineage(author):
     Given a author (typically an IG username), remove their photos
     from every panda or zoo data entry.
     """
+    repo = git.Repo(".")
     for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
         section = None
         for section_name in ["media", "zoos", "pandas"]:
@@ -74,6 +75,10 @@ def remove_author_from_lineage(author):
                 photo_list.remove_author(author)
                 # Done? Let's write config
                 photo_list.update_file()
+                repo.git.add(path)
+    message = "-author: {author}".format(author=author)
+    repo.index.commit(message)
+    repo.close()
 
 def remove_photo_from_file(path, photo_id):
     """
@@ -81,6 +86,7 @@ def remove_photo_from_file(path, photo_id):
     all photos inside the file. Determine what the proper configuration
     section header should be from the path itself.
     """
+    repo = git.Repo(".")
     section = None
     for section_name in ["wild", "media", "zoos", "pandas"]:
         if section_name in path.split("/"):
@@ -91,6 +97,10 @@ def remove_photo_from_file(path, photo_id):
         max = int(get_max_entity_count())
         photo_list.renumber_photos(max)
         photo_list.update_file()
+        repo.git.add(path)
+    message = "-photo: {id}".format(id=photo_id)
+    repo.index.commit(message)
+    repo.close()
 
 def remove_duplicate_photo_uris_per_file():
     """
@@ -98,6 +108,7 @@ def remove_duplicate_photo_uris_per_file():
     with a union of the tags for each one, and the earlier commitdate.
     TODO: support media duplicates
     """
+    repo = git.Repo(".")
     max = int(get_max_entity_count())
     for file_path in [PANDA_PATH, ZOO_PATH]:
         section = None
@@ -194,6 +205,10 @@ def remove_duplicate_photo_uris_per_file():
                     photo_list.renumber_photos(max)
                     photo_list.update_file()
                     sort_ig_hashes(path)
+                    repo.git.add(path)
+    message = repo.commit("HEAD").message
+    repo.index.commit("deduped: " + message)
+    repo.close()
 
 def restore_author_to_lineage(author, prior_commit=None):
     """
@@ -271,6 +286,10 @@ def restore_author_to_lineage(author, prior_commit=None):
     # Finally, sort the photo files
     for path in path_to_photo_index.keys():
         sort_ig_hashes(path)
+        repo.git.add(path)
+    message = "+author: {author}".format(author=author)
+    repo.index.commit(message)
+    repo.close()
 
 def sort_ig_hashes(path):
     """
@@ -399,6 +418,10 @@ def sort_ig_updates():
             continue
         elif change.added > 0:
             sort_ig_hashes(filename)
+            repo.git.add(filename)
+    message = repo.commit("HEAD").message
+    repo.index.commit("sorted commit: " + message)
+    repo.close()
 
 def update_entity_commit_dates(starting_commit, force=False):
     """
@@ -605,6 +628,7 @@ if __name__ == '__main__':
         if sys.argv[1] == "--rewrite-all-commit-dates":
             update_entity_commit_dates(None, force=True)
             update_photo_commit_dates(None, force=True)
+            print("please commit to ensure updates are persisted")
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
     if len(sys.argv) == 3:
@@ -620,10 +644,17 @@ if __name__ == '__main__':
         if sys.argv[1] == "--sort-instagram-hashes":
             file_path = sys.argv[2]
             sort_ig_hashes(file_path)
+            # Inner functions don't manage their git commits, so do it here
+            repo = git.Repo(".")
+            repo.git.add(file_path)
+            message = "sorted path: {path}"
+            repo.index.commit(message)
+            repo.close()
         if sys.argv[1] == "--update-commit-dates":
             commitish = sys.argv[2]
             update_entity_commit_dates(commitish)
             update_photo_commit_dates(commitish)
+            print("please commit to ensure updates are persisted")
     if len(sys.argv) == 4:
         if sys.argv[1] == "--remove-photo":
             file_path = sys.argv[2]
