@@ -1248,6 +1248,9 @@ Gallery.url.instagram = function(image, input_uri) {
     // Do we already have the image details?
     image.src = Gallery.url.paths[ig_locator];
   } else {
+    image.src = Pandas.def.animal["photo.1"];   // Default image
+    // TODO: figure out how to move away from IG features
+    /*
     // Try and fetch the details to update the image
     var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`);
     if (ig_author != undefined) {
@@ -1267,8 +1270,8 @@ Gallery.url.instagram = function(image, input_uri) {
         image.src = Pandas.def.animal["photo.1"];   // Default image
       }
     }
-    // TODO: figure out how to move away from IG features
     // ig_request.send();
+    */
   }
 }
 
