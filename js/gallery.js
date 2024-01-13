@@ -1267,7 +1267,8 @@ Gallery.url.instagram = function(image, input_uri) {
         image.src = Pandas.def.animal["photo.1"];   // Default image
       }
     }
-    ig_request.send();
+    // TODO: figure out how to move away from IG features
+    // ig_request.send();
   }
 }
 
