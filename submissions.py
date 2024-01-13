@@ -216,12 +216,14 @@ def delete_empty_submission_dirs(processing_folder):
     contributions = []
     for _, submission in enumerate(os.listdir(processing_folder)):
         submission_path = os.path.join(processing_folder, submission)
+        if not os.path.isdir(submission_path):
+            continue
         if len(os.listdir(submission_path)) > 0:
             contributions.append(submission_path)
         else:
             os.rmdir(submission_path)
     if len(contributions) == 0:
-        print("No contributions at process at this time.")
+        print("No contributions to process.")
         sys.exit(-1)
 
 def display_images(photo_paths):
@@ -560,4 +562,4 @@ if __name__ == '__main__':
     create_submissions_branch(results)
     sort_ig_updates()
     migrate_submissions_to_submitted()
-    print("Please commit any changes after sorting.")
+    print("Please merge submissions to master when ready.")
