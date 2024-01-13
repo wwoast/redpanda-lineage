@@ -173,6 +173,7 @@ def copy_review_data_from_submissions_server(config):
     result = os.system(rsync_command)
     if result != 0:
         sys.exit(result)
+    delete_empty_submission_dirs(processing_folder)
     return processing_folder
 
 def count_until_next_photo(config, section):
@@ -210,6 +211,18 @@ def create_submissions_branch(results):
             repo.index.commit(message)
     finally:
         repo.close()
+
+def delete_empty_submission_dirs(processing_folder):
+    contributions = []
+    for _, submission in enumerate(os.listdir(processing_folder)):
+        submission_path = os.path.join(processing_folder, submission)
+        if len(os.listdir(submission_path)) > 0:
+            contributions.append(submission_path)
+        else:
+            os.rmdir(submission_path)
+    if len(contributions) == 0:
+        print("No contributions at process at this time.")
+        sys.exit(-1)
 
 def display_images(photo_paths):
     """Use xli to open photos for a particular metadata file"""
