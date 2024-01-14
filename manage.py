@@ -360,15 +360,13 @@ def sort_ig_hashes(path):
     # updated indices
     list_index = start_index
     photo_index = start_index
-    used_indices = []
+    used_indices = non_ig_indices   # Avoid indices for non-IG photos
     while photo_index <= stop_point:
         if list_index - 1 == len(ig_photos):
             # No more photos, for certain
             break
         [photo, old_index] = ig_photos[list_index - 1]
         photo_index = list_index
-        while photo_index in non_ig_indices:
-            photo_index = photo_index + 1   # Avoid indices for non-IG photos
         while photo_index in used_indices:
             photo_index = photo_index + 1   # Avoid indices we already used
         used_indices.append(photo_index)
@@ -408,6 +406,7 @@ def sort_ig_updates():
     update_photo_commit_dates(prior_commit.hexsha)
     # Now do the sorting and rewriting
     patch = PatchSet(diff_raw)
+    updated_paths = []
     for change in patch:
         filename = change.path
         if filename.find("links") == 0:
@@ -418,7 +417,10 @@ def sort_ig_updates():
             continue
         elif change.added > 0:
             sort_ig_hashes(filename)
-            repo.git.add(filename)
+            updated_paths.append(filename)
+    # Add updated files after we're done with all patch analysis
+    for filename in set(updated_paths):
+        repo.git.add(filename)
     message = repo.commit("HEAD").message
     repo.index.commit("sorted commit:\n" + message)
     repo.close()
@@ -647,7 +649,7 @@ if __name__ == '__main__':
             # Inner functions don't manage their git commits, so do it here
             repo = git.Repo(".")
             repo.git.add(file_path)
-            message = "sorted path: {path}"
+            message = "sorted path: {path}".format(path=file_path)
             repo.index.commit(message)
             repo.close()
         if sys.argv[1] == "--update-commit-dates":
