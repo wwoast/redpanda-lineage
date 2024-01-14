@@ -77,9 +77,14 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         locators = metadata.get("photo_locators")
         if locators == None:   # Photo metadata file minus .json
             locators = [".".join(os.path.basename(metadata_path).split(".")[0:2])]
-        guessLink = "https://www.instagram.com/{author}".format(
-            author = metadata["author"]
-        )
+        if metadata["ig_locator"]:
+            guessLink = "https://www.instagram.com/p/{ig_locator}".format(
+                ig_locator = metadata["ig_locator"]
+            )
+        else:
+            guessLink = "https://www.instagram.com/{author}".format(
+                author = metadata["author"]
+            )
         guessTags = "<Comma-Separated-List-of-Photo-Tags>"
         if "tags" in metadata:
             guessTags = ", ".join(metadata["tags"])
