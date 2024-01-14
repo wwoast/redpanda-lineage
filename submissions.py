@@ -421,11 +421,11 @@ def merge_configuration(result):
         out_photo_date = 'photo.{index}.commitdate'.format(index=out_photo_count)
         if not out_data.has_option(section, out_photo_date):
             copy_across_configs(in_data, "photo", in_photo_date, out_data, section, out_photo_date)
-        # Add the biography link, but do not update if it's already there (ig_locator swap)
+        # Add the biography link, and swap a bio link with a direct IG photo link
+        # if the photo is already there
         in_photo_link = 'photo.{index}.link'.format(index=in_photo_count)
         out_photo_link = 'photo.{index}.link'.format(index=out_photo_count)
-        if not out_data.has_option(section, out_photo_link):
-            copy_across_configs(in_data, "photo", in_photo_link, out_data, section, out_photo_link)
+        copy_across_configs(in_data, "photo", in_photo_link, out_data, section, out_photo_link)
         # Make a set of both incoming and outgoing tags if they both exist
         in_photo_tags = 'photo.{index}.tags'.format(index=in_photo_count)
         out_photo_tags = 'photo.{index}.tags'.format(index=out_photo_count)
