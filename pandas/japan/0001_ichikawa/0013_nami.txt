@@ -58,10 +58,10 @@ photo.9: ig://Bptpbd_FpUO/m
 photo.9.author: 218_yu
 photo.9.commitdate: 2018/11/5
 photo.9.link: https://www.instagram.com/218_yu/
-photo.10: ig://Bq_rKvfFbrA/m
+photo.10: cwdc://Wd892jeADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/12/6
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/Bq_rKvfFbrA
 photo.11: ig://BrCyvyIFXHN/m
 photo.11.author: na.mo.pan
 photo.11.commitdate: 2018/12/8
@@ -643,3 +643,4 @@ photo.126.tags: home, mofumofu
 species: 2
 studbook.id: 0280
 zoo: 1
+photo.10.tags: paws, portrait
