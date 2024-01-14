@@ -420,7 +420,7 @@ def sort_ig_updates():
             sort_ig_hashes(filename)
             repo.git.add(filename)
     message = repo.commit("HEAD").message
-    repo.index.commit("sorted commit: " + message)
+    repo.index.commit("sorted commit:\n" + message)
     repo.close()
 
 def update_entity_commit_dates(starting_commit, force=False):
