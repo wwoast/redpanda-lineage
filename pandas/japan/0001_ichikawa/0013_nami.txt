@@ -16,10 +16,10 @@ language.order: ja, en
 litter: 229
 location.1: 17, 2002/7/15
 location.2: 1, 2003/4/9
-photo.1: ig://BZswS2-gs7P/m
+photo.1: cwdc://V7XIGydADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2022/10/6
-photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.link: https://www.instagram.com/p/BZswS2-gs7P
 photo.1.tags: dish, lunch time, portrait, sample, smile
 photo.2: ig://BZyNxazlwNq/m
 photo.2.author: hanamaru_redpanda
@@ -58,10 +58,10 @@ photo.9: ig://Bptpbd_FpUO/m
 photo.9.author: 218_yu
 photo.9.commitdate: 2018/11/5
 photo.9.link: https://www.instagram.com/218_yu/
-photo.10: ig://Bq_rKvfFbrA/m
+photo.10: cwdc://Wd892jeADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/12/6
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/Bq_rKvfFbrA
 photo.10.tags: paws, portrait
 photo.11: ig://BrCyvyIFXHN/m
 photo.11.author: na.mo.pan
@@ -291,10 +291,10 @@ photo.56.author: craig_craig_craig
 photo.56.commitdate: 2020/1/25
 photo.56.link: https://www.instagram.com/craig_craig_craig/
 photo.56.tags: dish, lunch time, portrait, smile, wink
-photo.57: ig://B7xTBM-BRQc/m
+photo.57: cwdc://W_gNjecADQA.jpg
 photo.57.author: wumpwoast
 photo.57.commitdate: 2020/1/28
-photo.57.link: https://www.instagram.com/wumpwoast/
+photo.57.link: https://www.instagram.com/p/B7xTBM-BRQc
 photo.57.tags: paws, portrait
 photo.58: ig://B8H9fIXB3S9/m
 photo.58.author: grskus_tk
