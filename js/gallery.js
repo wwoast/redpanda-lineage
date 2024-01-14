@@ -1289,7 +1289,10 @@ Gallery.url.href = function(uri) {
       var ig_locator = uri.split("/")[2];
       return `https://www.instagram.com/p/${ig_locator}`;
     }
-  } else {
+  } else if (uri.indexOf("cwdc") == 0) {
+    var cwdc_locator = uri.split("/")[2]
+    return `https://www.codaworry.com/images/submitted/${cwdc_locator}`
+  } else { 
     return Pandas.def.animal["photo.1"];
   }
 }
