@@ -202,6 +202,7 @@ def create_submissions_branch(results):
         # Open the Git repo and set to a new branch
         newBranch = repo.create_head(branchName)
         repo.head.reference = newBranch
+        messages = []
         # Process the results
         for result in results:
             merge = merge_configuration(result)
@@ -213,8 +214,10 @@ def create_submissions_branch(results):
                 locator=merge["locator"],
                 path=os.path.basename(merge["config"])
             )
-            repo.index.commit(message)
+            messages.append(message)
     finally:
+        composite = "\n".join(messages)
+        repo.index.commit(composite)
         repo.close()
 
 def delete_empty_submission_dirs(processing_folder):
