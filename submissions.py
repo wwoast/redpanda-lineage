@@ -209,12 +209,16 @@ def create_submissions_branch(results):
             if merge == None:
                 continue
             # Add changed content to the commit
-            repo.git.add(merge["config"])
             message = '+{locator}: {path}'.format(
                 locator=merge["locator"],
                 path=os.path.basename(merge["config"])
             )
             messages.append(message)
+        # Add all files that were changed
+        paths = [result["config"] for result in results]
+        path_set = {paths}
+        for path in path_set:
+            repo.git.add(path)
     finally:
         composite = "\n".join(messages)
         repo.index.commit(composite)
