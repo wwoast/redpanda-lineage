@@ -36,10 +36,10 @@ photo.4: ig://Bbfjo3DnKp7/m
 photo.4.author: cattail.sapporo
 photo.4.commitdate: 2018/7/16
 photo.4.link: https://www.instagram.com/cattail.sapporo/
-photo.5: ig://BgdHZ_pFPIV/m
+photo.5: cwdc://WI32VDyADQA.jpg
 photo.5.author: wumpwoast
 photo.5.commitdate: 2018/7/28
-photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.link: https://www.instagram.com/p/BgdHZ_pFPIV
 photo.6: ig://BizRgx-l-WX/m
 photo.6.author: mifko55
 photo.6.commitdate: 2020/4/16
@@ -50,10 +50,10 @@ photo.7.author: minatomirai215
 photo.7.commitdate: 2019/7/20
 photo.7.link: https://www.instagram.com/minatomirai215/
 photo.7.tags: apple time, keeper, portrait, snow
-photo.8: ig://BlfvMvVFaW0/m
+photo.8: cwdc://WS9F6jKADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2022/10/20
-photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.link: https://www.instagram.com/p/BlfvMvVFaW0
 photo.8.tags: bamboo, portrait
 photo.9: ig://Blsj2VsncZj/m
 photo.9.author: cattail.sapporo
@@ -99,11 +99,11 @@ photo.17.author: cattail.sapporo
 photo.17.commitdate: 2018/10/28
 photo.17.link: https://www.instagram.com/cattail.sapporo/
 photo.17.tags: laying down
-photo.18: ig://BpdAUMilYEq/m
+photo.18: cwdc://Wa3oJdlADQA.jpg
 photo.18.author: wumpwoast
 photo.18.commitdate: 2020/11/21
-photo.18.link: https://www.instagram.com/wumpwoast/
-photo.18.tags: portrait, whiskers
+photo.18.link: https://www.instagram.com/p/BpdAUMilYEq
+photo.18.tags: close-up, portrait, whiskers
 photo.19: ig://BqBzh59Ftkm/m
 photo.19.author: izu_108
 photo.19.commitdate: 2018/11/11
@@ -129,11 +129,11 @@ photo.23.author: cattail.sapporo
 photo.23.commitdate: 2018/12/11
 photo.23.link: https://www.instagram.com/cattail.sapporo/
 photo.23.tags: portrait, techitechi
-photo.24: ig://BrT17F8Abtf/m
+photo.24: cwdc://WelTXQYADQA.jpg
 photo.24.author: wumpwoast
 photo.24.commitdate: 2019/8/10
-photo.24.link: https://www.instagram.com/wumpwoast/
-photo.24.tags: paws, portrait
+photo.24.link: https://www.instagram.com/p/BrT17F8Abtf
+photo.24.tags: paws, portrait, sample, whiskers
 photo.25: ig://BrWVQ2SF7Q3/m
 photo.25.author: minatomirai215
 photo.25.commitdate: 2018/12/14
@@ -1024,11 +1024,11 @@ photo.203.author: minatomirai215
 photo.203.commitdate: 2020/7/23
 photo.203.link: https://www.instagram.com/minatomirai215/
 photo.203.tags: paws, portrait, techitechi
-photo.204: ig://CC5FEEPBM3s/m
+photo.204: cwdc://XNvxpM-ADQA.jpg
 photo.204.author: wumpwoast
 photo.204.commitdate: 2020/7/23
-photo.204.link: https://www.instagram.com/wumpwoast/
-photo.204.tags: paws, portrait, tail
+photo.204.link: https://www.instagram.com/p/CC5FEEPBM3s
+photo.204.tags: bridge, paws, portrait, tail
 photo.205: ig://CC8XtGNA8h2/m
 photo.205.author: cattail.sapporo
 photo.205.commitdate: 2020/7/23
@@ -1104,31 +1104,31 @@ photo.219.author: komabazoophoto
 photo.219.commitdate: 2020/8/13
 photo.219.link: https://www.instagram.com/komabazoophoto/
 photo.219.tags: climb, portrait, snow, tree
-photo.220: ig://CDno5y1BcH0/m
+photo.220: cwdc://XPM5UqKADQA.jpg
 photo.220.author: wumpwoast
 photo.220.commitdate: 2021/6/6
-photo.220.link: https://www.instagram.com/wumpwoast/
+photo.220.link: https://www.instagram.com/p/CDno5y1BcH0
 photo.220.tags: autumn, bridge, paws, portrait
 photo.221: ig://CE9GBEJJbYl/m
 photo.221.author: nishicotolo
 photo.221.commitdate: 2020/11/10
 photo.221.link: https://www.instagram.com/nishicotolo/
 photo.221.tags: paws, peek
-photo.222: ig://CHCV_iih1kl/m
+photo.222: cwdc://XWCTgJlADQA.jpg
 photo.222.author: wumpwoast
 photo.222.commitdate: 2020/11/6
-photo.222.link: https://www.instagram.com/wumpwoast/
-photo.222.tags: peek, portrait
+photo.222.link: https://www.instagram.com/p/CHCV_iih1kl
+photo.222.tags: close-up, peek, portrait, whiskers
 photo.223: ig://CRH4fXeAW8V/m
 photo.223.author: cattail.sapporo
 photo.223.commitdate: 2021/7/13
 photo.223.link: https://www.instagram.com/cattail.sapporo/
 photo.223.tags: close-up, keeper, lunch time, portrait
-photo.224: ig://CRk6yjlB1Xy/m
+photo.224: cwdc://XrHdGLqADQA.jpg
 photo.224.author: wumpwoast
 photo.224.commitdate: 2021/7/21
-photo.224.link: https://www.instagram.com/wumpwoast/
-photo.224.tags: close-up, portrait, whiskers
+photo.224.link: https://www.instagram.com/p/CRk6yjlB1Xy
+photo.224.tags: close-up, peek, portrait, whiskers
 photo.225: ig://CTef2Qon02G/m
 photo.225.author: cattail.sapporo
 photo.225.commitdate: 2021/9/7
@@ -1187,3 +1187,9 @@ photo.235.tags: bamboo, paws, portrait, standing
 species: 2
 studbook.id: 12116
 zoo: 7
+photo.236: cwdc://TLdeFKrADQA.jpg
+photo.236.author: wumpwoast
+photo.236.commitdate: 2024/1/14
+photo.236.link: https://www.instagram.com/p/Bv7SDFl0xH
+photo.236.tags: itchy
+photo.5.tags: peek
