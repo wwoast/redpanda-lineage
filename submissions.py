@@ -501,7 +501,14 @@ def process_entity(contribution_path, entity_path, entity_type):
         resize_images(photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
-        if (decision == "d"):
+        if decision == "c":
+            xli.kill()
+            return {
+                "config": config_path,
+                "photos": photo_paths,
+                "status": "keep"
+            }
+        if decision == "d":
             cleanup_list = [entity_path]
             cleanup_list.extend(photo_paths)
             for file_path in cleanup_list:
@@ -524,8 +531,8 @@ def process_entity(contribution_path, entity_path, entity_type):
         
 def prompt_for_decision():
     """Prompt to either edit or delete a contributed metadata file"""
-    options = ["e", "d"]
-    decision = input("(e)dit or (d)elete: ")
+    options = ["e", "d", "c"]
+    decision = input("(e)dit, (d)elete, or (c)ontinue: ")
     if (decision not in options):
         return prompt_for_decision()
     else:
