@@ -446,7 +446,9 @@ def merge_configuration(result):
             tag_list.extend(out_list)
             tag_set = sorted(set(tag_list))
             tag_set.remove("")
-            out_data.set(section, out_photo_tags, ', '.join(tag_set))
+            # If there are tags, set them
+            if len(tag_set) > 0:
+                out_data.set(section, out_photo_tags, ', '.join(tag_set))
         with open(out_path, "w") as wfh:
             out_data.write(wfh)
         return {
