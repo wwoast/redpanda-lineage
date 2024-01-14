@@ -140,7 +140,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         write_config(config_path, config)
     else:
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
-        config.set("photo", "_id", str(metadata["_id"]))
+        config.set("photo", "_id", metadata["_id"])
         # Single photo uploads can have IG locators in the submitted data
         config.set("photo", "_ig_locator", metadata["ig_locator"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
@@ -446,7 +446,7 @@ def merge_configuration(result):
             tag_list.extend(out_list)
             tag_set = sorted(set(tag_list))
             tag_set.remove("")
-            # If there are tags, set them
+            # If there are tags, set themXena
             if len(tag_set) > 0:
                 out_data.set(section, out_photo_tags, ', '.join(tag_set))
         with open(out_path, "w") as wfh:
