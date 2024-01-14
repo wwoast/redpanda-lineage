@@ -203,6 +203,7 @@ def create_submissions_branch(results):
         newBranch = repo.create_head(branchName)
         repo.head.reference = newBranch
         messages = []
+        changed = []
         # Process the results
         for result in results:
             merge = merge_configuration(result)
@@ -214,8 +215,9 @@ def create_submissions_branch(results):
                 path=os.path.basename(merge["config"])
             )
             messages.append(message)
+            changed.append(merge["config"])
         # Add all files that were changed
-        for path in set([result["config"] for result in results]):
+        for path in set(changed):
             repo.git.add(path)
     finally:
         composite = "\n".join(messages)
