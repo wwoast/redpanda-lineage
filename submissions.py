@@ -196,7 +196,7 @@ def create_submissions_branch(results):
     try:
         repo = git.Repo(".")
         currentTime = datetime.now()
-        if repo.active_branch == "master":
+        if repo.active_branch.name == "master":
             branchName = 'submissions-{timestamp}'.format(
                 timestamp=int(currentTime.timestamp())
             )
