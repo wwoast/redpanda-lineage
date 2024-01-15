@@ -102,6 +102,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
     def convert_json_to_zoo(config, metadata):
         currentTime = datetime.now()
         commitTimeMs = int(currentTime.timestamp() * 1000)
+        country = metadata["country"]
+        countryFolder = metadata["folder"]
         language = metadata["language"]
         addressKey = language + ".address"
         localityKey = language + ".location"
@@ -112,8 +114,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         # arbitrary-language inputs.
         config.set("zoo", "_zoofilename", "<Shortened-Lowercase-Zoo-Name-With-Dashes>")
         config.set("zoo", "commitdate", basic_date(commitTimeMs))
-        config.set("zoo", "country.folder", "<Lowercase-Country-Folder-With-Dashes>")
-        config.set("zoo", "country.name", "<Country-Name-Mapping-To-A-RPF-Flag>")
+        config.set("zoo", "country.folder", countryFolder)
+        config.set("zoo", "country.name", country)
         config.set("zoo", addressKey, metadata["address"])
         config.set("zoo", localityKey, "<Locality-Name-State-And-Province>")
         config.set("zoo", nameKey, metadata["name"])
