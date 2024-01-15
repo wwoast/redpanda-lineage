@@ -196,12 +196,14 @@ def create_submissions_branch(results):
     try:
         repo = git.Repo(".")
         currentTime = datetime.now()
-        branchName = 'submissions-{timestamp}'.format(
-            timestamp=int(currentTime.timestamp())
-        )
-        # Open the Git repo and set to a new branch
-        newBranch = repo.create_head(branchName)
-        repo.head.reference = newBranch
+        if repo.active_branch == "master":
+            branchName = 'submissions-{timestamp}'.format(
+                timestamp=int(currentTime.timestamp())
+            )
+            # Open the Git repo and set to a new branch
+            newBranch = repo.create_head(branchName)
+            repo.head.reference = newBranch
+            print("Starting new branch off of master: " + branchName)
         messages = []
         changed = []
         # Process the results
