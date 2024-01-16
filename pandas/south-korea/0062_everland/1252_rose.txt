@@ -11,7 +11,11 @@ gender: f
 ja.name: ローズ
 ja.nicknames: none
 ja.othernames: none
-language.order: en, ja
+ko.name: 레아
+ko.nicknames: none
+ko.oldnames: 로즈
+ko.othernames: none
+language.order: en, ko, ja
 litter: 1253
 location.1: 76, 2019/5/17
 location.2: 62, 2022/12/1
