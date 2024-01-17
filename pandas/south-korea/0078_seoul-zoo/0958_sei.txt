@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 957
+location.1: 9, 2019/7/2
+location.2: 78, 2023/11/27
 photo.1: ig://B3-uEM1BaXb/m
 photo.1.author: fetorus_mami
 photo.1.commitdate: 2019/10/24
@@ -413,4 +415,4 @@ photo.80.commitdate: 2023/8/11
 photo.80.link: https://www.instagram.com/mini_cochi/
 photo.80.tags: laying down, mofumofu, tail
 species: 2
-zoo: 9
+zoo: 78
