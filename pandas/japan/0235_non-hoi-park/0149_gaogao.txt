@@ -15,6 +15,7 @@ language.order: ja, en
 litter: none
 location.1: 37, 2015/6/27
 location.2: 16, 2017/12/27
+location.3: 235, 2023/1/9
 photo.1: ig://Bb6fGNeFc41/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/11
@@ -495,4 +496,4 @@ photo.96.link: https://www.instagram.com/taka__3428/
 photo.96.tags: apple time, close-up, portrait, sample, tongue, whiskers, window
 species: 2
 studbook.id: 15138
-zoo: 16
+zoo: 235
