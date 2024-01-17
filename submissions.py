@@ -453,7 +453,7 @@ def merge_configuration(result):
             tag_list.extend(out_list)
             tag_set = sorted(set(tag_list))
             tag_set.remove("")
-            # If there are tags, set themXena
+            # If there are tags, set them
             if len(tag_set) > 0:
                 out_data.set(section, out_photo_tags, ', '.join(tag_set))
         # TODO: if media id, copy across any location tags
