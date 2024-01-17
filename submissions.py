@@ -30,7 +30,8 @@ import os
 import subprocess
 import sys
 
-RESIZE = 400   # pixels
+RESIZE_REGULAR = 400   # pixels
+RESIZE_GROUP = 800   # pixels
 PANDA_INDEX = {}
 ZOO_INDEX = {}
 LOCATORS = []   # Don't process photos more than once
@@ -97,6 +98,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             config.set(section, keyPrefix + ".commitdate", basic_date(commitTimeMs))
             config.set(section, keyPrefix + ".link", guessLink)
             config.set(section, keyPrefix + ".tags", guessTags)
+            # TODO: handle media ids for the entity, and add location tags too
+            # This will require looking up pandas by ID
             index = index + 1
         return config
     def convert_json_to_zoo(config, metadata):
@@ -453,6 +456,7 @@ def merge_configuration(result):
             # If there are tags, set themXena
             if len(tag_set) > 0:
                 out_data.set(section, out_photo_tags, ', '.join(tag_set))
+        # TODO: if media id, copy across any location tags
         with open(out_path, "w") as wfh:
             out_data.write(wfh)
         return {
@@ -491,6 +495,7 @@ def process_entity(contribution_path, entity_path, entity_type):
     Git commit, or even delete the metadata file so it doesn't get picked up.
 
     Return an object with the decision, the metadata path, and a list of paths
+    to the resized-in-place photos.
     """
     with open(entity_path, "r") as rfh:
         config_path = entity_path.replace(".json", ".txt")
@@ -505,7 +510,7 @@ def process_entity(contribution_path, entity_path, entity_type):
             }
         convert_json_to_configparser(entity_path, entity_file)
         print_configfile_contents(config_path)
-        resize_images(photo_paths)
+        resize_images(entity_file, photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
         if decision == "c":
@@ -551,15 +556,20 @@ def read_settings():
     infile.read("./contributions.conf", encoding='utf-8')
     return infile
 
-def resize_images(photo_paths):
-    """Resizes all images to 400px in the largest dimension"""
+def resize_images(entity_file, photo_paths):
+    """Resizes all images to 400px or 800px in the largest dimension"""
+    metadata = json.loads(entity_file)
+    if metadata["_id"].find("media.") == 0:
+        aspect = RESIZE_GROUP
+    else:
+        aspect = RESIZE_REGULAR
     for photo_path in photo_paths:
         # Files may get deleted prior to resizing
         if not os.path.exists(photo_path):
             continue
         image = Image.open(photo_path)
-        if image.size[0] > RESIZE or image.size[1] > RESIZE:
-            ratios = [image.size[0] / RESIZE, image.size[1] / RESIZE]
+        if image.size[0] > aspect or image.size[1] > aspect:
+            ratios = [image.size[0] / aspect, image.size[1] / aspect]
             resize = [1, 1]
             # If either side is larger than 400px, the ratio will be greater
             # than one. Whichever ratio is the largest, we want to scale both
