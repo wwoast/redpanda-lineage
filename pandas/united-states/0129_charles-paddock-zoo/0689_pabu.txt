@@ -15,35 +15,35 @@ language.order: en, ja
 litter: 688
 location.1: 131, 2017/8/27
 location.2: 129, 2018/6/5
-photo.1: ig://B9RzGPwBL9H/m
+photo.1: cwdc://XChNtkAADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/3/3
-photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.link: https://www.instagram.com/p/B9RzGPwBL9H
 photo.1.tags: portrait, whiskers
-photo.2: ig://B9Sy8smh8mB/m
+photo.2: cwdc://XCjNadtADQA.jpg
 photo.2.author: wumpwoast
 photo.2.commitdate: 2020/3/3
-photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.link: https://www.instagram.com/p/B9Sy8smh8mB
 photo.2.tags: laying down, sleeping
-photo.3: ig://B_k0hVzBKt3/m
+photo.3: cwdc://XHHQjwGADQA.jpg
 photo.3.author: wumpwoast
 photo.3.commitdate: 2020/5/1
-photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.link: https://www.instagram.com/p/B_k0hVzBKt3
 photo.3.tags: portrait, tongue
-photo.4: ig://CDJgcHSBNNf/m
+photo.4: cwdc://XOQoZTEADQA.jpg
 photo.4.author: wumpwoast
 photo.4.commitdate: 2020/8/15
-photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.link: https://www.instagram.com/p/CDJgcHSBNNf
 photo.4.tags: portrait, whiskers
-photo.5: ig://CDW8Q6KhSpm/m
+photo.5: cwdc://XOrgC41ADQA.jpg
 photo.5.author: wumpwoast
 photo.5.commitdate: 2020/8/9
-photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.link: https://www.instagram.com/p/CDW8Q6KhSpm
 photo.5.tags: portrait, smile, tail
-photo.6: ig://CDjS8rvhCMz/m
+photo.6: cwdc://XPENab_ADQA.jpg
 photo.6.author: wumpwoast
 photo.6.commitdate: 2020/8/9
-photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.link: https://www.instagram.com/p/CDjS8rvhCMz
 photo.6.tags: laying down, tail
 photo.7: ig://CHOZysfFphQ/m
 photo.7.author: charlespaddockzoo
@@ -55,25 +55,25 @@ photo.8.author: charlespaddockzoo
 photo.8.commitdate: 2021/9/7
 photo.8.link: https://www.instagram.com/charlespaddockzoo/
 photo.8.tags: bridge, laying down, paws, peek, whiskers
-photo.9: ig://CWJ8YlMvTrm/m
+photo.9: cwdc://X0RgSO5ADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2022/3/13
-photo.9.link: https://www.instagram.com/wumpwoast/
+photo.9.link: https://www.instagram.com/p/CWJ8YlMvTrm
 photo.9.tags: bamboo, bite, portrait
-photo.10: ig://CYZvIyjvReI/m
+photo.10: cwdc://X4xFypnADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2022/1/31
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/CYZvIyjvReI
 photo.10.tags: peek, portrait, tongue, whiskers
-photo.11: ig://CYepCXZJbCB/m
+photo.11: cwdc://X465lzSADQA.jpg
 photo.11.author: wumpwoast
 photo.11.commitdate: 2022/1/31
-photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.link: https://www.instagram.com/p/CYepCXZJbCB
 photo.11.tags: portrait, sample, whiskers
-photo.12: ig://CkohpSoSFvp/m
+photo.12: cwdc://YROqzpwADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2023/11/26
-photo.12.link: https://www.instagram.com/wumpwoast/
+photo.12.link: https://www.instagram.com/p/CkohpSoSFvp
 photo.12.tags: bamboo, paws, sample, whiskers
 species: 1
 studbook.id: 1736
