@@ -19,6 +19,7 @@ photo.2: cwdc://WpF0FPMADQA.jpg
 photo.2.author: kai.kuniko
 photo.2.commitdate: 2019/4/23
 photo.2.link: https://www.instagram.com/p/BwkGSFWDO9v
+photo.2.tags: 
 photo.3: cwdc://WpF-KNZADQA.jpg
 photo.3.author: wumpwoast
 photo.3.commitdate: 2019/4/23
@@ -46,4 +47,3 @@ photo.7.link: https://www.instagram.com/redpandanetwork/
 photo.7.tags: laying down, mofumofu, paws, portrait, sample, tree, wet
 species: 3
 wild: wild.6
-photo.2.tags: 
