@@ -56,10 +56,10 @@ photo.8.author: wumpwoast
 photo.8.commitdate: 2022/2/18
 photo.8.link: https://www.instagram.com/p/CY8YIH3rX3u
 photo.8.tags: laying down, portrait, sleeping, whiskers, white face
-photo.9: ig://wumpwoast/CY-pNSNL3th/m
+photo.9: cwdc://X5657o6ADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2022/2/21
-photo.9.link: https://www.instagram.com/wumpwoast/
+photo.9.link: https://www.instagram.com/p/CY-pNSNL3th
 photo.9.tags: laying down, portrait, sample, whiskers, white face
 photo.10: ig://CZ9Z4AqMTwT/m
 photo.10.author: rossifari
@@ -91,10 +91,5 @@ photo.15.author: rossifari
 photo.15.commitdate: 2022/11/4
 photo.15.link: https://www.instagram.com/rossifari/
 photo.15.tags: bamboo, whiskers
-photo.16: cwdc://X5657o6ADQA.jpg
-photo.16.author: wumpwoast
-photo.16.commitdate: 2024/1/17
-photo.16.link: https://www.instagram.com/p/CY-pNSNL3th
-photo.16.tags: 
 species: 1
 zoo: 129

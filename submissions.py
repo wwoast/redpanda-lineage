@@ -407,6 +407,7 @@ def merge_configuration(result):
     elif in_data.has_section("photo"):
         # find existing panda or zoo file by search, and incrementally
         # add photos, or replace existing ig:// locators
+        # TODO: may not be integer for media types
         id_number = int(in_data.get("photo", "_id"))
         ig_locator = in_data.get("photo", "_ig_locator")
         if (id_number > 0):
