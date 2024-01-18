@@ -1196,8 +1196,6 @@ Gallery.url = {};
 
 Gallery.url.api = {};
 
-Gallery.url.api.instagram = "372324360558859|10549c086b903c4295c7c8d809365e56";
-
 // Store uris and paths from the fetch
 Gallery.url.events = {};
 Gallery.url.paths = {};
@@ -1215,17 +1213,12 @@ Gallery.url.instagram = function(image, input_uri) {
   var uri_split = input_uri.split("/");
   var ig_locator = undefined;
   var ig_width = undefined;
-  var ig_author = undefined;
   if (uri_split.length == 3) {
     ig_locator = uri_split.pop();
     ig_width = "320";
   } else if (uri_split.length == 4) {
     ig_width = uri_split.pop();
     ig_locator = uri_split.pop();
-  } else if (uri_split.length == 5) {
-    ig_width = uri_split.pop();
-    ig_locator = uri_split.pop();
-    ig_author = uri_split.pop();
   } else {
     image.src = Pandas.def.animal["photo.1"];   // Default image
     return;
@@ -1281,14 +1274,8 @@ Gallery.url.href = function(uri) {
     return uri;
   } else if (uri.indexOf("ig") == 0) {
     var uri_split = uri.split("/");
-    if (uri_split.length == 5) {   // IG URIs with usernames
-      var ig_author = uri.split("/")[2];
-      var ig_locator = uri.split("/")[3];
-      return `https://www.instagram.com/${ig_author}/p/${ig_locator}`;
-    } else {   // Legacy IG URIs
-      var ig_locator = uri.split("/")[2];
-      return `https://www.instagram.com/p/${ig_locator}`;
-    }
+    var ig_locator = uri.split("/")[2];
+    return `https://www.instagram.com/p/${ig_locator}`;
   } else if (uri.indexOf("cwdc") == 0) {
     var cwdc_locator = uri.split("/")[2]
     return `https://www.codaworry.com/images/submitted/${cwdc_locator}`
