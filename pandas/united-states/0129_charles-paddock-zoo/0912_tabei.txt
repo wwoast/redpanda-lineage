@@ -41,20 +41,20 @@ photo.5.author: worldthathesees
 photo.5.commitdate: 2022/2/9
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: baby
-photo.6: ig://CY4nfdOvq7_/m
+photo.6: cwdc://X5u2f-9ADQA.jpg
 photo.6.author: wumpwoast
 photo.6.commitdate: 2022/1/18
-photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.link: https://www.instagram.com/p/CY4nfdOvq7_
 photo.6.tags: paws, portrait, tail, tree, whiskers
-photo.7: ig://CY61wjUFaad/m
+photo.7: cwdc://X5zTCLIADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2022/2/18
-photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.link: https://www.instagram.com/p/CY61wjUFaad
 photo.7.tags: close-up, peek, sample, whiskers
-photo.8: ig://CY8YIH3rX3u/m
+photo.8: cwdc://X52XxUPADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2022/2/18
-photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.link: https://www.instagram.com/p/CY8YIH3rX3u
 photo.8.tags: laying down, portrait, sleeping, whiskers, white face
 photo.9: ig://wumpwoast/CY-pNSNL3th/m
 photo.9.author: wumpwoast
@@ -93,3 +93,8 @@ photo.15.link: https://www.instagram.com/rossifari/
 photo.15.tags: bamboo, whiskers
 species: 1
 zoo: 129
+photo.16: cwdc://X5657o6ADQA.jpg
+photo.16.author: wumpwoast
+photo.16.commitdate: 2024/1/17
+photo.16.link: https://www.instagram.com/p/CY-pNSNL3th
+photo.16.tags: 
