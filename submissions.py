@@ -291,7 +291,7 @@ def get_image_locators(contribution_path, metadata_path, metadata_file):
     return photo_paths
 
 def index_zoos_and_animals():
-    """Index each four-digit ID by folder path"""
+    """Index each four-digit ID (or media ID) by folder path"""
     for _, country in enumerate(os.listdir("./pandas")):
         country_path = os.path.join("./pandas", country)
         for _, zoo in enumerate(os.listdir(country_path)):
@@ -312,7 +312,10 @@ def index_zoos_and_animals():
             zoo_path = os.path.join(country_path, zoo)
             for _, media in enumerate(os.listdir(zoo_path)):
                 media_path = os.path.join(zoo_path, media)
-                id = os.path.splitext(os.path.basename(media_path))[0]
+                # We have to read the configs to get proper media IDs
+                config = ProperlyDelimitedConfigParser()
+                config.read(media_path)
+                id = config.get("media", "_id")
                 MEDIA_INDEX[id] = media_path
 
 def iterate_through_contributions(processing_path):
