@@ -34,6 +34,7 @@ RESIZE_REGULAR = 400   # pixels
 RESIZE_GROUP = 800   # pixels
 PANDA_INDEX = {}
 ZOO_INDEX = {}
+MEDIA_INDEX = {}
 LOCATORS = []   # Don't process photos more than once
 
 def convert_configparser_minus_blacklist(in_data, out_data, section, blacklist):
@@ -305,6 +306,14 @@ def index_zoos_and_animals():
             zoo_path = os.path.join(country_path, zoo)
             id = os.path.basename(zoo_path).split("_")[0]
             ZOO_INDEX[id] = zoo_path
+    for _, country in enumerate(os.listdir("./media")):
+        country_path = os.path.join("./media", country)
+        for _, zoo in enumerate(os.listdir(country_path)):
+            zoo_path = os.path.join(country_path, zoo)
+            for _, media in enumerate(os.listdir(zoo_path)):
+                media_path = os.path.join(zoo_path, media)
+                id = os.path.splitext(os.path.basename(media_path))[0]
+                MEDIA_INDEX[id] = media_path
 
 def iterate_through_contributions(processing_path):
     """Look at pandas, zoos, and then individual photos in each contribution"""
@@ -408,15 +417,21 @@ def merge_configuration(result):
         # find existing panda or zoo file by search, and incrementally
         # add photos, or replace existing ig:// locators
         # TODO: may not be integer for media types
-        id_number = int(in_data.get("photo", "_id"))
-        ig_locator = in_data.get("photo", "_ig_locator")
-        if (id_number > 0):
-            index = PANDA_INDEX
-            section = "panda"
+        entity_id = in_data.get("photo", "_id")
+        if entity_id.find("media.") == 0:
+            index = MEDIA_INDEX
+            section = "media"
+            check_id = entity_id
         else:
-            index = ZOO_INDEX
-            section = "zoo"
-        check_id = '{:04d}'.format(abs(id_number))   # Up to three leading zeroes
+            id_number = int(in_data.get("photo", "_id"))
+            ig_locator = in_data.get("photo", "_ig_locator")
+            if (id_number > 0):
+                index = PANDA_INDEX
+                section = "panda"
+            else:
+                index = ZOO_INDEX
+                section = "zoo"
+            check_id = '{:04d}'.format(abs(id_number))   # Up to three leading zeroes
         out_path = index[check_id]
         out_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
         out_data.read(out_path)
@@ -457,7 +472,7 @@ def merge_configuration(result):
             # If there are tags, set them
             if len(tag_set) > 0:
                 out_data.set(section, out_photo_tags, ', '.join(tag_set))
-        # TODO: if media id, copy across any location tags
+        # TODO: media panda location tags
         with open(out_path, "w") as wfh:
             out_data.write(wfh)
         return {
