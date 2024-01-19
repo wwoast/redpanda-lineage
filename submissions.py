@@ -421,13 +421,13 @@ def merge_configuration(result):
         # add photos, or replace existing ig:// locators
         # TODO: may not be integer for media types
         entity_id = in_data.get("photo", "_id")
+        ig_locator = in_data.get("photo", "_ig_locator")
         if entity_id.find("media.") == 0:
             index = MEDIA_INDEX
             section = "media"
             check_id = entity_id
         else:
             id_number = int(in_data.get("photo", "_id"))
-            ig_locator = in_data.get("photo", "_ig_locator")
             if (id_number > 0):
                 index = PANDA_INDEX
                 section = "panda"
