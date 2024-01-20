@@ -47,9 +47,23 @@ Show.acquireLocationList = function(animal, language) {
   var history = [];
   var raw_locations = Pandas.locationList(animal);
   for (let location of raw_locations) {
-    var zoo = Pandas.searchZooId(location["zoo"])[0];
-    zoo = L.fallbackEntity(zoo);   // Do language fallback strings
-    var bundle = {
+    var bundle = Show.getZooBundle(location, language);
+    history.push(bundle);
+  }
+  return history;
+}
+
+Show.getZooBundle = function(location, language) {
+  var zoos = Pandas.searchZooId(location["zoo"]);
+
+  if (zoos.length === 0) {
+    return Show.getUnknownZooBundle(location, language);
+  }
+
+  if (zoos.length > 0) {
+    var zoo = L.fallbackEntity(zoos[0]); // Do language fallback strings
+
+    return {
         "end_date": Pandas.formatDate(location["end_date"], language),
               "id": Pandas.zooField(zoo, "_id"),
   "language_order": Pandas.language_order(zoo),
@@ -57,9 +71,16 @@ Show.acquireLocationList = function(animal, language) {
             "name": Pandas.zooField(zoo, language + ".name"),
       "start_date": Pandas.formatDate(location["start_date"], language),
     }
-    history.push(bundle);
   }
-  return history;
+}
+
+Show.getUnknownZooBundle = function(location, language) {
+  return {
+    "end_date": Pandas.formatDate(location["end_date"], language),
+    "id": "0",
+    "language_order": [],
+    "start_date": Pandas.formatDate(location["start_date"], language)
+  }
 }
 
 // Given a zoo, return an address, location, link to a website, and information
@@ -382,13 +403,17 @@ Show.locationLink = function(zoo, language, mode="icons_only") {
   if (zoo['_id'] == Pandas.def.zoo['_id']) {
     return Pandas.def.zoo[language + ".location"];
   }
-  var link_text = L.emoji.map + " " + L.flags[zoo.flag];
+  var link_text = L.emoji.map;
   if (mode != "icons_only") {
-    link_text = L.emoji.map + " " + zoo[language + ".location"] + " " + L.flags[zoo.flag];
+    link_text += " " + zoo[language + ".location"];
   }
-  var google_search = zoo['map'];
+  if (zoo.flag) {
+    link_text += " " + L.flags[zoo.flag];
+  }
   var a = document.createElement('a');
-  a.href = google_search;
+  if (zoo['map']) {
+    a.href = zoo['map'];
+  }
   a.innerText = link_text;
   a.target = "_blank";   // Open in new tab
   return a;
