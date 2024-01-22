@@ -49,6 +49,7 @@ photo.7: cwdc://WceTR1WADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2018/11/17
 photo.7.link: https://www.instagram.com/p/BqQV4YbFaPE
+photo.7.tags: 
 photo.8: ig://BqpXR3rngtC/m
 photo.8.author: yakko____
 photo.8.commitdate: 2018/12/6
@@ -156,4 +157,3 @@ photo.28.tags: laying down, paws, tail
 species: 2
 studbook.id: 0671
 zoo: 10
-photo.7.tags: 
