@@ -148,7 +148,8 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
         config.set("photo", "_id", metadata["_id"])
         # Single photo uploads can have IG locators in the submitted data
-        config.set("photo", "_ig_locator", metadata["ig_locator"])
+        if metadata["ig_locator"]:
+            config.set("photo", "_ig_locator", metadata["ig_locator"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
 
@@ -174,7 +175,6 @@ def copy_review_data_from_submissions_server(config):
     server = config.get("submissions", "contributions_server")
     review_folder = config.get("submissions", "contributions_server_folder")
     user = config.get("submissions", "contributions_user")
-    processing_folder = config.get("submissions", "processing_folder")
     rsync_command = 'rsync -avrz --remove-source-files {user}@{server}:{review_folder}/* {processing_folder}'.format(
         user=user,
         server=server,
@@ -185,7 +185,6 @@ def copy_review_data_from_submissions_server(config):
     if result != 0:
         sys.exit(result)
     delete_empty_submission_dirs(processing_folder)
-    return processing_folder
 
 def count_until_next_photo(config, section):
     index = 1
@@ -421,7 +420,10 @@ def merge_configuration(result):
         # add photos, or replace existing ig:// locators
         # TODO: may not be integer for media types
         entity_id = in_data.get("photo", "_id")
-        ig_locator = in_data.get("photo", "_ig_locator")
+        if in_data.has_option("photo", "_ig_locator"):
+            ig_locator = in_data.get("photo", "_ig_locator")
+        else:
+            ig_locator = None
         if entity_id.find("media.") == 0:
             index = MEDIA_INDEX
             section = "media"
@@ -611,7 +613,9 @@ def resize_images(entity_file, photo_paths):
 if __name__ == '__main__':
     index_zoos_and_animals()
     config = read_settings()
-    processing_folder = copy_review_data_from_submissions_server(config)
+    processing_folder = config.get("submissions", "processing_folder")
+    if sys.argv[1] != "--local":
+        copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
     copy_images_to_image_server(results)
     create_submissions_branch(results)
