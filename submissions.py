@@ -614,8 +614,11 @@ if __name__ == '__main__':
     index_zoos_and_animals()
     config = read_settings()
     processing_folder = config.get("submissions", "processing_folder")
-    if sys.argv[1] != "--local":
+    if len(sys.argv) == 1:
         copy_review_data_from_submissions_server(config)
+    if len(sys.argv) == 2:
+        if sys.argv[1] != "--local":
+            copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
     copy_images_to_image_server(results)
     create_submissions_branch(results)
