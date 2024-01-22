@@ -8,12 +8,12 @@ en.name: Sei
 en.nicknames: none
 en.othernames: none
 gender: m
-ko.name: 세이
-ko.nicknames: none
-ko.othernames: none
 ja.name: セイ
 ja.nicknames: none
 ja.othernames: none
+ko.name: 세이
+ko.nicknames: none
+ko.othernames: none
 language.order: ko, ja, en
 litter: 957
 location.1: 9, 2019/7/2
