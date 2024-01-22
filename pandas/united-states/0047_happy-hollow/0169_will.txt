@@ -42,6 +42,7 @@ photo.6: cwdc://V-yugYDADQA.jpg
 photo.6.author: wumpwoast
 photo.6.commitdate: 2018/7/26
 photo.6.link: https://www.instagram.com/p/BbajfpxlOXV
+photo.6.tags: 
 photo.7: cwdc://WHO_p-JADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2018/7/26
@@ -140,6 +141,7 @@ photo.26: cwdc://WsdpUO1ADQA.jpg
 photo.26.author: wumpwoast
 photo.26.commitdate: 2019/6/13
 photo.26.link: https://www.instagram.com/p/ByQA5lKh1EO
+photo.26.tags: 
 photo.27: cwdc://WtBtaZqADQA.jpg
 photo.27.author: wumpwoast
 photo.27.commitdate: 2019/6/13
@@ -422,5 +424,3 @@ photo.82.tags: dish, door, lunch time, portrait, sample, whiskers
 species: 1
 studbook.id: 1542
 zoo: 47
-photo.6.tags: 
-photo.26.tags: 
