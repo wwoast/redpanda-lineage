@@ -13,7 +13,10 @@ ja.name: ラビ
 ja.nicknames: none
 ja.oldnames: none
 ja.othernames: none
-language.order: en, ja
+ko.name: 라비
+ko.nicknames: none
+ko.othernames: none
+language.order: ko, en, ja
 litter: 1396
 location.1: 51, 2022/6/14
 location.2: 78, 2023/11/20

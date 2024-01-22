@@ -11,7 +11,10 @@ gender: f
 ja.name: リアン
 ja.nicknames: none
 ja.othernames: none
-language.order: ja, en
+ko.name: 리안
+ko.nicknames: none
+ko.othernames: none
+language.order: ko, ja, en
 litter: 1198
 location.1: 17, 2020/7/20
 location.2: 78, 2023/11/27

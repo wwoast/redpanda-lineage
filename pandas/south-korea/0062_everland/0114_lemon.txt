@@ -15,7 +15,7 @@ ko.name: 레몬
 ko.nicknames: none
 ko.oldnames: 미루키, 밀키
 ko.othernames: none
-language.order: ja, ko, en
+language.order: ko, ja, en
 litter: none
 location.1: 13, 2013/7/7
 location.2: 29, 2020/2/26

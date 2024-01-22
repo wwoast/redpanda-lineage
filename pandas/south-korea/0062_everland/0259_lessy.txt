@@ -16,7 +16,7 @@ ko.name: 레시
 ko.nicknames: none
 ko.oldnames: 토야
 ko.othernames: none
-language.order: ja, ko, en
+language.order: ko, ja, en
 litter: 260
 location.1: 42, 2014/8/18
 location.2: 62, 2016/3/31
