@@ -50,10 +50,10 @@ photo.7.author: panda.daisuki
 photo.7.commitdate: 2019/7/2
 photo.7.link: https://www.instagram.com/panda.daisuki/
 photo.7.tags: mofumofu, portrait
-photo.8: ig://BqOWB-xlp6F/m
+photo.8: cwdc://WcaTlCDADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2018/11/16
-photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.link: https://www.instagram.com/p/BqOWB-xlp6F
 photo.9: ig://BqqyeAwHgFI/m
 photo.9.author: yakko____
 photo.9.commitdate: 2018/12/6
@@ -143,3 +143,4 @@ photo.26.tags: laying down, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0559
 zoo: 10
+photo.8.tags: 

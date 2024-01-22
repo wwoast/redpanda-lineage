@@ -49,19 +49,19 @@ photo.7.author: mifko55
 photo.7.commitdate: 2020/4/15
 photo.7.link: https://www.instagram.com/mifko55/
 photo.7.tags: home, peek, portrait
-photo.8: ig://Bgf5RJwlKSU/m
+photo.8: cwdc://WI9aDYBADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2018/7/20
-photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.link: https://www.instagram.com/p/Bgf5RJwlKSU
 photo.9: ig://BivW5rzFKVX/m
 photo.9.author: minatomirai215
 photo.9.commitdate: 2018/7/20
 photo.9.link: https://www.instagram.com/minatomirai215/
 photo.9.tags: flowers
-photo.10: ig://Bj00DXdlgYj/m
+photo.10: cwdc://WPnPnzbADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/7/20
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/Bj00DXdlgYj
 photo.10.tags: tail
 photo.11: ig://Bj2bE1il-BS/m
 photo.11.author: minatomirai215
@@ -104,10 +104,10 @@ photo.19: ig://Bqjj1AmF703/m
 photo.19.author: fetorus_mami
 photo.19.commitdate: 2018/11/24
 photo.19.link: https://www.instagram.com/fetorus_mami/
-photo.20: ig://BrW5_h-F0-8/m
+photo.20: cwdc://WerbgIcADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2019/6/3
-photo.20.link: https://www.instagram.com/wumpwoast/
+photo.20.link: https://www.instagram.com/p/BrW5_h-F0-8
 photo.20.tags: tongue
 photo.21: ig://BrgiZwSlKjZ/m
 photo.21.author: fetorus_mami
@@ -447,3 +447,4 @@ photo.87.tags: eye, portrait, sample
 species: 2
 studbook.id: 0458
 zoo: 11
+photo.8.tags: 
