@@ -77,10 +77,10 @@ photo.13.author: takashi_8310iyo
 photo.13.commitdate: 2018/10/17
 photo.13.link: https://www.instagram.com/takashi_8310iyo/
 photo.13.tags: portrait
-photo.14: ig://BgqWb7jAaW6/m
+photo.14: cwdc://WJSUY7mADQA.jpg
 photo.14.author: wumpwoast
 photo.14.commitdate: 2018/10/17
-photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.link: https://www.instagram.com/p/BgqWb7jAaW6
 photo.14.tags: portrait
 photo.15: ig://Bh_Tz8EFGlz/m
 photo.15.author: daniele.tokyo
@@ -111,10 +111,10 @@ photo.20.author: hanamaru_redpanda
 photo.20.commitdate: 2018/10/17
 photo.20.link: https://www.instagram.com/hanamaru_redpanda/
 photo.20.tags: portrait
-photo.21: ig://BkO8RA8FxDj/m
+photo.21: cwdc://WQbgDGYADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2018/10/17
-photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.link: https://www.instagram.com/p/BkO8RA8FxDj
 photo.22: ig://BkP7YHJFDTA/m
 photo.22.author: minatomirai215
 photo.22.commitdate: 2018/10/17
@@ -766,3 +766,4 @@ photo.151.tags: bamboo, close-up
 species: 2
 studbook.id: 13146
 zoo: 1
+photo.21.tags: 
