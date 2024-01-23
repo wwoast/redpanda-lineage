@@ -312,10 +312,10 @@ photo.60.author: miis_98
 photo.60.commitdate: 2019/1/18
 photo.60.link: https://www.instagram.com/miis_98/
 photo.60.tags: portrait, smile
-photo.61: ig://BsvNusdF9p_/m
+photo.61: cwdc://WhcC-daADQA.jpg
 photo.61.author: wumpwoast
 photo.61.commitdate: 2019/1/26
-photo.61.link: https://www.instagram.com/wumpwoast/
+photo.61.link: https://www.instagram.com/p/BsvNusdF9p_
 photo.62: ig://Bs6pvAbl5rG/m
 photo.62.author: panda.daisuki
 photo.62.commitdate: 2019/1/24
@@ -2233,10 +2233,10 @@ photo.445.author: masa_polarbear
 photo.445.commitdate: 2022/8/16
 photo.445.link: https://www.instagram.com/masa_polarbear/
 photo.445.tags: sample, whiskers
-photo.446: ig://CgDzFk4uETO/m
+photo.446: cwdc://YIFNsORADQA.jpg
 photo.446.author: wumpwoast
 photo.446.commitdate: 2022/8/16
-photo.446.link: https://www.instagram.com/wumpwoast/
+photo.446.link: https://www.instagram.com/p/CgDzFk4uETO
 photo.446.tags: close-up, paws, portrait
 photo.447: ig://CgElej9Pu7M/m
 photo.447.author: _rifa_p
@@ -2364,3 +2364,4 @@ video.1: https://www.youtube.com/watch?v=9m89fVLit44
 video.1.author: vitamin z
 video.1.link: https://www.youtube.com/channel/UCXvA8FmqTxoxgS55vy_L5cQ
 zoo: 32
+photo.61.tags: 
