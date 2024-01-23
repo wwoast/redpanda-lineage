@@ -124,6 +124,7 @@ photo.23: cwdc://Wc48hX0ADQA.jpg
 photo.23.author: wumpwoast
 photo.23.commitdate: 2018/11/21
 photo.23.link: https://www.instagram.com/p/BqdqgJqFKPF
+photo.23.tags: 
 photo.24: ig://BquWaR6F1hC/m
 photo.24.author: rie_panda55
 photo.24.commitdate: 2018/11/28
@@ -1184,4 +1185,3 @@ video.1: https://youtu.be/Tj1Vraltvq8
 video.1.author: iwatatube
 video.1.link: https://www.youtube.com/user/iwatatube
 zoo: 34
-photo.23.tags: 
