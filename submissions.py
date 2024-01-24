@@ -87,7 +87,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             guessLink = "https://www.instagram.com/{author}".format(
                 author = metadata["author"]
             )
-        guessTags = "<Comma-Separated-List-of-Photo-Tags>"
+        guessTags = ""
         if "tags" in metadata:
             guessTags = ", ".join(metadata["tags"])
         index = 1
@@ -117,9 +117,13 @@ def convert_json_to_configparser(metadata_path, metadata_file):
                             existing, existing.default_section, targetPrefix + ".commitdate",
                             config, section, keyPrefix + ".commitdate")
                         targetTags = existing.get(existing.default_section, targetPrefix + ".tags")
-                        tagList = metadata["tags"].append(targetTags.split(", "))
-                        tagSet = sorted(set(tagList))
-                        config.set(section, keyPrefix + ".tags", ", ".join(tagSet))
+                        tagList = targetTags.split(", ")
+                        if guessTags:
+                            guessSplit = guessTags.split(", ")
+                            tagList.extend(guessSplit)
+                        if tagList:
+                            tagSet = sorted(set(tagList))
+                            config.set(section, keyPrefix + ".tags", ", ".join(tagSet))
             index = index + 1
         return config
     def convert_json_to_zoo(config, metadata):
