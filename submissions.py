@@ -100,7 +100,26 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             config.set(section, keyPrefix + ".link", guessLink)
             config.set(section, keyPrefix + ".tags", guessTags)
             # TODO: handle media ids for the entity, and add location tags too
-            # This will require looking up pandas by ID
+            # Display contents from existing entity data if a match with
+            # the instagram locator exists. Make the commitdate and tags
+            # reflect what's actually in the dataset
+            # TODO: fix logic
+            ig_locator = metadata.get("ig_locator")
+            if ig_locator:
+                existing = read_existing_entity_for_photo(config)
+                if existing:
+                    targetPhotoIndex = find_instagram_locator(
+                        existing, existing.default_section, ig_locator)
+                    targetPrefix = "photo." + str(targetPhotoIndex)
+                    photoCheck = existing.has_option(existing.default_section, targetPrefix)
+                    if photoCheck:
+                        copy_across_configs(
+                            existing, existing.default_section, targetPrefix + ".commitdate",
+                            config, section, keyPrefix + ".commitdate")
+                        targetTags = existing.get(existing.default_section, targetPrefix + ".tags")
+                        tagList = metadata["tags"].append(targetTags.split(", "))
+                        tagSet = sorted(set(tagList))
+                        config.set(section, keyPrefix + ".tags", ", ".join(tagSet))
             index = index + 1
         return config
     def convert_json_to_zoo(config, metadata):
@@ -152,6 +171,14 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             config.set("photo", "_ig_locator", metadata["ig_locator"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
+
+def copy_across_configs(in_data, in_section, in_key, out_data, out_section, out_key):
+    """Copy a key from one ConfigParser object to another"""
+    out_data.set(
+        out_section,
+        out_key,
+        in_data.get(in_section, in_key)
+    )
 
 def copy_images_to_image_server(results):
     """Use scp to put photo files on an image server"""
@@ -350,12 +377,6 @@ def iterate_through_contributions(processing_path):
 
 def merge_configuration(result):
     """Make a commit for each metadata file in lexicographic order"""
-    def copy_across_configs(in_data, in_section, in_key, out_data, out_section, out_key):
-        out_data.set(
-            out_section,
-            out_key,
-            in_data.get(in_section, in_key)
-        )
     def get_panda_output_file_from_zoo_data(zoo_id, panda_id, en_name):
         zoo_path = ZOO_INDEX[zoo_id]
         panda_country = zoo_path.split("/")[2]
@@ -570,7 +591,29 @@ def prompt_for_decision():
         return prompt_for_decision()
     else:
         return decision
-    
+
+def read_existing_entity_for_photo(in_data):
+    """Populate incoming entity info from older RedPandaFinder data"""
+    id = in_data.get(in_data.default_section, "_id")
+    if id == "0":
+        return None
+    if id.find("media.") == 0:
+        check_id = id
+        existing_file = MEDIA_INDEX[check_id]
+        section = "media"
+    else:
+        num_id = int(id)
+        check_id = '{:04d}'.format(abs(num_id))
+        if num_id > 0:
+            existing_file = PANDA_INDEX[check_id]
+            section = "panda"
+        else:
+            existing_file = ZOO_INDEX[check_id]
+            section = "zoo"
+    existing_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
+    existing_data.read(existing_file)
+    return existing_data
+
 def read_settings():
     """Servers and folder paths for processing new RPF contributions"""
     infile = ProperlyDelimitedConfigParser()
