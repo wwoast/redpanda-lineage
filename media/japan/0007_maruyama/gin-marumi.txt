@@ -2,11 +2,11 @@
 _id: media.7.gin-marumi
 commitdate: 2019/5/15
 panda.tags: 17, 18
-photo.1: ig://BZ3Qkfnge8I/m
+photo.1: cwdc://V7sIqDvADQA.jpg
 photo.1.author: cattail.sapporo
 photo.1.commitdate: 2019/5/14
-photo.1.link: https://www.instagram.com/cattail.sapporo/
-photo.1.tags: mother's day
+photo.1.link: https://www.instagram.com/p/BZ3Qkfnge8I
+photo.1.tags: mother's day, paws, playing, portrait, tail
 photo.1.tags.17.location: 260, 80
 photo.1.tags.18.location: 65, 125
 photo.2: ig://Bcex7FABcGe/m
@@ -93,11 +93,11 @@ photo.13.link: https://www.instagram.com/minatomirai215/
 photo.13.tags: dish, lunch time, mother's day
 photo.13.tags.17.location: 130, 225
 photo.13.tags.18.location: 210, 95
-photo.14: ig://B34RRHEAHTR/m
+photo.14: cwdc://W3uKDSoADQA.jpg
 photo.14.author: cattail.sapporo
 photo.14.commitdate: 2019/10/23
-photo.14.link: https://www.instagram.com/cattail.sapporo/
-photo.14.tags: dish, lunch time, mother's day
+photo.14.link: https://www.instagram.com/p/B34RRHEAHTR
+photo.14.tags: close-up, dish, lunch time, mother's day, whiskers
 photo.14.tags.17.location: 235, 145
 photo.14.tags.18.location: 80, 145
 photo.15: ig://B5AkWbdh431/m
@@ -128,11 +128,11 @@ photo.18.link: https://www.instagram.com/an920000/
 photo.18.tags: mother's day, tree
 photo.18.tags.17.location: 355, 500
 photo.18.tags.18.location: 550, 330
-photo.19: ig://B78M7bTJyKH/m
+photo.19: cwdc://W_2BX7GADQA.jpg
 photo.19.author: cattail.sapporo
 photo.19.commitdate: 2020/2/16
-photo.19.link: https://www.instagram.com/cattail.sapporo/
-photo.19.tags: paws, playing, snow, tail
+photo.19.link: https://www.instagram.com/p/B78M7bTJyKH
+photo.19.tags: mother's day, paws, playing, snow, tail
 photo.19.tags.17.location: 225, 50
 photo.19.tags.18.location: 150, 125
 photo.20: ig://B79WHfmBKYb/m
@@ -149,11 +149,11 @@ photo.21.link: https://www.instagram.com/komabazoophoto/
 photo.21.tags: mother's day, snow, tail
 photo.21.tags.17.location: 90, 160
 photo.21.tags.18.location: 245, 80
-photo.22: ig://B86AS3xJ6Mt/m
+photo.22: cwdc://XBxoG0CADQA.jpg
 photo.22.author: cattail.sapporo
 photo.22.commitdate: 2020/5/30
-photo.22.link: https://www.instagram.com/cattail.sapporo/
-photo.22.tags: bamboo, mother's day, portrait, smile, snow
+photo.22.link: https://www.instagram.com/p/B86AS3xJ6Mt
+photo.22.tags: bamboo, mother's day, portrait, smile, snow, whiskers
 photo.22.tags.17.location: 255, 90
 photo.22.tags.18.location: 50, 185
 photo.23: ig://B9pp8c5h3CM/m
