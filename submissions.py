@@ -498,7 +498,6 @@ def merge_configuration(result):
             out_list = out_tags.split(', ')
             tag_list.extend(out_list)
             tag_set = sorted(set(tag_list))
-            tag_set.remove("")
             # If there are tags, set them
             if len(tag_set) > 0:
                 out_data.set(section, out_photo_tags, ', '.join(tag_set))
