@@ -557,7 +557,7 @@ def process_entity(contribution_path, entity_path, entity_type):
             }
         convert_json_to_configparser(entity_path, entity_file)
         print_configfile_contents(config_path)
-        resize_images(entity_file, photo_paths)
+        resize_and_rotate_images(entity_file, photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
         if decision == "c":
@@ -625,18 +625,11 @@ def read_settings():
     infile.read("./contributions.conf", encoding='utf-8')
     return infile
 
-def resize_images(entity_file, photo_paths):
-    """Resizes all images to 400px or 800px in the largest dimension"""
-    metadata = json.loads(entity_file)
-    if metadata["_id"].find("media.") == 0:
-        aspect = RESIZE_GROUP
-    else:
-        aspect = RESIZE_REGULAR
-    for photo_path in photo_paths:
-        # Files may get deleted prior to resizing
-        if not os.path.exists(photo_path):
-            continue
-        image = Image.open(photo_path)
+def resize_and_rotate_images(entity_file, photo_paths):
+    """Resizes all images to 400px or 800px in the largest dimension, and
+       determines how to rotate them based on metadata that was parsed out
+       of EXIF tags in the frontend."""
+    def resize_image(image, aspect):
         if image.size[0] > aspect or image.size[1] > aspect:
             ratios = [image.size[0] / aspect, image.size[1] / aspect]
             resize = [1, 1]
@@ -656,7 +649,44 @@ def resize_images(entity_file, photo_paths):
                 int(image.size[1] / resize[1])
             ]
             resized = image.resize(resolution)
-            resized.save(photo_path)
+            return resized
+        else:
+            return image
+    def rotate_image(image, orientation):
+        if orientation == None or orientation == 'Horizontal (normal)':
+            return image
+        # exifr JS dictionary values
+        if orientation == 'Rotate 90 CW':
+            return image.rotate(90)
+        elif orientation == 'Rotate 180':
+            return image.rotate(180)
+        elif orientation == 'Rotate 270 CW':
+            return image.rotate(270)
+        elif orientation == 'Mirror horizontal':
+            return image.transpose(Image.FLIP_LEFT_RIGHT)
+        elif orientation == 'Mirror vertical':
+            return image.transpose(Image.FLIP_TOP_BOTTOM)
+        elif orientation == 'Mirror horizontal and rotate 270 CW':
+            flip = image.transpose(Image.FLIP_LEFT_RIGHT)
+            return flip.rotate(270)
+        elif orientation == 'Mirror horizontal and rotate 90 CW':
+            flip = image.transpose(Image.FLIP_LEFT_RIGHT)
+            return flip.rotate(90)
+        else:
+            return image
+    metadata = json.loads(entity_file)
+    if metadata["_id"].find("media.") == 0:
+        aspect = RESIZE_GROUP
+    else:
+        aspect = RESIZE_REGULAR
+    for photo_path in photo_paths:
+        # Files may get deleted prior to resizing
+        if not os.path.exists(photo_path):
+            continue
+        image = Image.open(photo_path)
+        image = resize_image(image, aspect)
+        image = rotate_image(image, metadata["orientation"])
+        image.save(photo_path)
 
 if __name__ == '__main__':
     index_zoos_and_animals()
