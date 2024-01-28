@@ -629,33 +629,10 @@ def resize_and_rotate_images(entity_file, photo_paths):
     """Resizes all images to 400px or 800px in the largest dimension, and
        determines how to rotate them based on metadata that was parsed out
        of EXIF tags in the frontend."""
-    def resize_image(image, aspect):
-        if image.size[0] > aspect or image.size[1] > aspect:
-            ratios = [image.size[0] / aspect, image.size[1] / aspect]
-            resize = [1, 1]
-            # If either side is larger than 400px, the ratio will be greater
-            # than one. Whichever ratio is the largest, we want to scale both
-            # dimensions by that amount.
-            if ratios[0] > 1:
-                resize[0] = ratios[0]
-            if ratios[1] > 1:
-                resize[1] = ratios[1]
-            if resize[0] > resize[1]:
-                resize[1] = resize[0]
-            else:
-                resize[0] = resize[1]
-            resolution = [
-                int(image.size[0] / resize[0]), 
-                int(image.size[1] / resize[1])
-            ]
-            resized = image.resize(resolution)
-            return resized
-        else:
-            return image
-    def rotate_image(image, orientation):
+    def reorient_image(image, orientation):
+        """Flip or rotate to correct, based on exifr JS dictionary values"""
         if orientation == None or orientation == 'Horizontal (normal)':
             return image
-        # exifr JS dictionary values. Rotate to fix, not to match
         if orientation == 'Rotate 90 CW':
             return image.transpose(Image.ROTATE_270)
         elif orientation == 'Rotate 180':
@@ -674,6 +651,30 @@ def resize_and_rotate_images(entity_file, photo_paths):
             return flip.transpose(Image.ROTATE_270)
         else:
             return image
+    def resize_image(image, aspect):
+        """Resize image to the given aspect size (400px or 800px)"""
+        if image.size[0] > aspect or image.size[1] > aspect:
+            ratios = [image.size[0] / aspect, image.size[1] / aspect]
+            resize = [1, 1]
+            # If either side is larger than aspect, the ratio will be greater
+            # than one. Whichever ratio is the largest, we want to scale both
+            # dimensions by that amount.
+            if ratios[0] > 1:
+                resize[0] = ratios[0]
+            if ratios[1] > 1:
+                resize[1] = ratios[1]
+            if resize[0] > resize[1]:
+                resize[1] = resize[0]
+            else:
+                resize[0] = resize[1]
+            resolution = [
+                int(image.size[0] / resize[0]), 
+                int(image.size[1] / resize[1])
+            ]
+            resized = image.resize(resolution)
+            return resized
+        else:
+            return image
     metadata = json.loads(entity_file)
     if metadata["_id"].find("media.") == 0:
         aspect = RESIZE_GROUP
@@ -684,7 +685,7 @@ def resize_and_rotate_images(entity_file, photo_paths):
         if not os.path.exists(photo_path):
             continue
         image = Image.open(photo_path)
-        image = rotate_image(image, metadata["orientation"])
+        image = reorient_image(image, metadata["orientation"])
         image = resize_image(image, aspect)
         image.save(photo_path)
 
