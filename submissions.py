@@ -655,23 +655,23 @@ def resize_and_rotate_images(entity_file, photo_paths):
     def rotate_image(image, orientation):
         if orientation == None or orientation == 'Horizontal (normal)':
             return image
-        # exifr JS dictionary values
+        # exifr JS dictionary values. Rotate to fix, not to match
         if orientation == 'Rotate 90 CW':
-            return image.rotate(90)
+            return image.transpose(Image.ROTATE_270)
         elif orientation == 'Rotate 180':
-            return image.rotate(180)
+            return image.transpose(Image.ROTATE_180)
         elif orientation == 'Rotate 270 CW':
-            return image.rotate(270)
+            return image.transpose(Image.ROTATE_90)
         elif orientation == 'Mirror horizontal':
             return image.transpose(Image.FLIP_LEFT_RIGHT)
         elif orientation == 'Mirror vertical':
             return image.transpose(Image.FLIP_TOP_BOTTOM)
         elif orientation == 'Mirror horizontal and rotate 270 CW':
             flip = image.transpose(Image.FLIP_LEFT_RIGHT)
-            return flip.rotate(270)
+            return flip.transpose(Image.ROTATE_90)
         elif orientation == 'Mirror horizontal and rotate 90 CW':
             flip = image.transpose(Image.FLIP_LEFT_RIGHT)
-            return flip.rotate(90)
+            return flip.transpose(Image.ROTATE_270)
         else:
             return image
     metadata = json.loads(entity_file)
@@ -684,8 +684,8 @@ def resize_and_rotate_images(entity_file, photo_paths):
         if not os.path.exists(photo_path):
             continue
         image = Image.open(photo_path)
-        image = resize_image(image, aspect)
         image = rotate_image(image, metadata["orientation"])
+        image = resize_image(image, aspect)
         image.save(photo_path)
 
 if __name__ == '__main__':
