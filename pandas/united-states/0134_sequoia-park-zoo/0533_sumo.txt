@@ -143,3 +143,8 @@ photo.25.tags: grumpy, sample, whiskers
 species: 1
 studbook.id: 0912
 zoo: 134
+photo.26: cwdc://YDJyy9QADQA.jpg
+photo.26.author: wumpwoast
+photo.26.commitdate: 2024/1/28
+photo.26.link: https://www.instagram.com/wumpwoast
+photo.26.tags: peek, sample, whiskers
