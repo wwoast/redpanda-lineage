@@ -522,8 +522,8 @@ div.pandaPhoto, div.zooPhoto {
 div.pandaPhoto img, div.zooPhoto img {
     width: auto;
     height: auto;
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 320px;
+    max-height: 320px;
     z-index: 1;
 }
 
