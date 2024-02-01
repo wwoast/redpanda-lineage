@@ -286,6 +286,7 @@ photo.55: cwdc://Wic5w81ADQ4.jpg
 photo.55.author: cattail.sapporo
 photo.55.commitdate: 2019/2/4
 photo.55.link: https://www.instagram.com/p/BtPpH8Kn3L-
+photo.55.tags: bridge, paws, portrait, sample, tail
 photo.56: cwdc://WjjHw3oADQ5.jpg
 photo.56.author: cattail.sapporo
 photo.56.commitdate: 2019/2/19
@@ -1983,4 +1984,3 @@ photo.395.tags: bridge, portrait, sample, smile, tongue
 species: 2
 studbook.id: 10108
 zoo: 7
-photo.55.tags: bridge, paws, portrait, sample, tail
