@@ -268,6 +268,7 @@ photo.51: cwdc://WaZDLm7ADQD.jpg
 photo.51.author: cattail.sapporo
 photo.51.commitdate: 2018/10/21
 photo.51.link: https://www.instagram.com/p/BpNt1RNnSRk
+photo.51.tags: bamboo, close-up, paws, sample, whiskers
 photo.52: ig://BpOnehel2-m/m
 photo.52.author: makimaru18
 photo.52.commitdate: 2018/10/23
@@ -1792,4 +1793,3 @@ video.1: https://youtu.be/f-hoQdNnqA0
 video.1.author: kosaru 323
 video.1.link: https://www.youtube.com/channel/UCzMkPrcWJCuqVsJYDVvA5gA
 zoo: 190
-photo.51.tags: bamboo, close-up, paws, sample, whiskers
