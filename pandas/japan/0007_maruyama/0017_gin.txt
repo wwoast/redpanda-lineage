@@ -36,6 +36,7 @@ photo.4: cwdc://V-8uyynADQj.jpg
 photo.4.author: cattail.sapporo
 photo.4.commitdate: 2018/7/16
 photo.4.link: https://www.instagram.com/p/Bbfjo3DnKp7
+photo.4.tags: laying down, paws, portrait, sample, whiskers
 photo.5: cwdc://WI32VDyADQA.jpg
 photo.5.author: wumpwoast
 photo.5.commitdate: 2018/7/28
@@ -75,6 +76,7 @@ photo.12: cwdc://WY2iIoWADQn.jpg
 photo.12.author: cattail.sapporo
 photo.12.commitdate: 2018/10/2
 photo.12.link: https://www.instagram.com/p/BocdTx7H1oj
+photo.12.tags: portrait, sample, whiskers
 photo.13: ig://BojFXy3F-h2/m
 photo.13.author: ho0oipo
 photo.13.commitdate: 2018/10/5
@@ -1188,5 +1190,3 @@ photo.235.tags: bamboo, paws, portrait, standing
 species: 2
 studbook.id: 12116
 zoo: 7
-photo.4.tags: laying down, paws, portrait, sample, whiskers
-photo.12.tags: portrait, sample, whiskers
