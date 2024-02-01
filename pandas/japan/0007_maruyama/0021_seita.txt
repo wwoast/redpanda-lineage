@@ -1735,41 +1735,36 @@ photo.345.author: cattail.sapporo
 photo.345.commitdate: 2022/8/16
 photo.345.link: https://www.instagram.com/p/Cfd13JSLFnw
 photo.345.tags: portrait, sample, tongue, whiskers
-photo.346: cwdc://YHOvGbnADQA.jpg
+photo.346: cwdc://YHdYgQaADQA.jpg
 photo.346.author: cattail.sapporo
 photo.346.commitdate: 2022/7/31
-photo.346.link: https://www.instagram.com/p/CfojyrjrIQ7
-photo.346.tags: home, paws, portrait, sample, tail, whiskers
-photo.347: cwdc://YHdYgQaADQA.jpg
+photo.346.link: https://www.instagram.com/p/Cfv4fl9LE-m
+photo.346.tags: close-up, grooming, paws, portrait, sample, tongue, whiskers
+photo.347: cwdc://YHyA0OgADQA.jpg
 photo.347.author: cattail.sapporo
-photo.347.commitdate: 2022/7/31
-photo.347.link: https://www.instagram.com/p/Cfv4fl9LE-m
-photo.347.tags: close-up, grooming, paws, portrait, sample, tongue, whiskers
-photo.348: cwdc://YHyA0OgADQA.jpg
+photo.347.commitdate: 2022/11/20
+photo.347.link: https://www.instagram.com/p/Cf6MplALNQi
+photo.347.tags: dish, mofumofu, portrait, sample
+photo.348: cwdc://YIVDTtXADQA.jpg
 photo.348.author: cattail.sapporo
-photo.348.commitdate: 2022/11/20
-photo.348.link: https://www.instagram.com/p/Cf6MplALNQi
-photo.348.tags: dish, mofumofu, portrait, sample
-photo.349: cwdc://YIVDTtXADQA.jpg
-photo.349.author: cattail.sapporo
-photo.349.commitdate: 2023/2/21
-photo.349.link: https://www.instagram.com/p/CgLt5Ubu4LF
-photo.349.tags: peek, portrait, whiskers
-photo.350: ig://CgWpXeFPACy/m
+photo.348.commitdate: 2023/2/21
+photo.348.link: https://www.instagram.com/p/CgLt5Ubu4LF
+photo.348.tags: peek, portrait, whiskers
+photo.349: ig://CgWpXeFPACy/m
+photo.349.author: leonard_redmof
+photo.349.commitdate: 2022/7/25
+photo.349.link: https://www.instagram.com/leonard_redmof/
+photo.349.tags: portrait, sample, whiskers
+photo.350: ig://CoPKvTzPSTv/m
 photo.350.author: leonard_redmof
-photo.350.commitdate: 2022/7/25
+photo.350.commitdate: 2023/8/23
 photo.350.link: https://www.instagram.com/leonard_redmof/
-photo.350.tags: portrait, sample, whiskers
-photo.351: ig://CoPKvTzPSTv/m
+photo.350.tags: paws, portrait, sample, snow
+photo.351: ig://Cp7P_mpPgvZ/m
 photo.351.author: leonard_redmof
-photo.351.commitdate: 2023/8/23
+photo.351.commitdate: 2023/10/18
 photo.351.link: https://www.instagram.com/leonard_redmof/
-photo.351.tags: paws, portrait, sample, snow
-photo.352: ig://Cp7P_mpPgvZ/m
-photo.352.author: leonard_redmof
-photo.352.commitdate: 2023/10/18
-photo.352.link: https://www.instagram.com/leonard_redmof/
-photo.352.tags: dish, tail, toys
+photo.351.tags: dish, tail, toys
 species: 2
 studbook.id: 0554
 zoo: 7
