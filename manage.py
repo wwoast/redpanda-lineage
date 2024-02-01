@@ -680,7 +680,7 @@ if __name__ == '__main__':
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             remove_photo_from_file(file_path, photo_id)
-        if sys.argv[1] == "remove-duplicate":
+        if sys.argv[1] == "--remove-duplicate":
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             photo_locator = remove_photo_from_file(file_path, photo_id)
