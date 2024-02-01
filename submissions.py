@@ -20,7 +20,7 @@
 #    rsync, vim, xli
 #
 
-from shared import ProperlyDelimitedConfigParser
+from shared import ProperlyDelimitedConfigParser, read_settings
 from manage import sort_ig_updates
 from PIL import Image
 from datetime import datetime
@@ -618,12 +618,6 @@ def read_existing_entity_for_photo(in_data):
     existing_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
     existing_data.read(existing_file)
     return existing_data
-
-def read_settings():
-    """Servers and folder paths for processing new RPF contributions"""
-    infile = ProperlyDelimitedConfigParser()
-    infile.read("./contributions.conf", encoding='utf-8')
-    return infile
 
 def resize_and_rotate_images(entity_file, photo_paths):
     """Resizes all images to 400px or 800px in the largest dimension, and

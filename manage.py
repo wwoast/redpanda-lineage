@@ -5,12 +5,11 @@
 # photos taken by a specific credited author.
 
 import git
-import json
 import os
 import re
 import sys
 
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime, fetch_photo, get_max_entity_count, update_ig_link
+from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, datetime_to_unixtime, fetch_photo, get_max_entity_count, read_settings, update_ig_link
 from unidiff import PatchSet
 
 def find_commit_of_removed_photos(author, repo):
@@ -84,7 +83,7 @@ def remove_photo_from_file(path, photo_id):
     """
     Given a file path and a photo index ID, remove the photo and renumber
     all photos inside the file. Determine what the proper configuration
-    section header should be from the path itself.
+    section header should be from the path itself. Returns the 
     """
     repo = git.Repo(".")
     section = None
@@ -92,6 +91,7 @@ def remove_photo_from_file(path, photo_id):
         if section_name in path.split("/"):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
+    photo_url = photo_list.get_photo(photo_id)
     if photo_list.delete_photo(photo_id) == True:
         # Read max from an existing photo
         max = int(get_max_entity_count())
@@ -101,6 +101,24 @@ def remove_photo_from_file(path, photo_id):
     message = "-photo: {id}".format(id=photo_id)
     repo.index.commit(message)
     repo.close()
+    return photo_url
+
+def remove_photo_from_server(locator):
+    if locator.find("cwdc://") != 0:
+        return
+    config = read_settings()
+    server = config.get("submissions", "image_hosting_server")
+    image_folder = config.get("submissions", "image_hosting_server_folder")
+    user = config.get("submissions", "image_hosting_user")
+    filename = locator.replace("cwdc://", "")
+    rm_command = 'ssh {user}@{server} rm {folder}/{image}'.format(
+        user=user,
+        server=server,
+        folder=image_folder,
+        image=filename
+    )
+    print('Removing {image} from the server'.format(image=filename))
+    os.system(rm_command)
 
 def remove_duplicate_photo_uris_per_file():
     """
@@ -662,6 +680,11 @@ if __name__ == '__main__':
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             remove_photo_from_file(file_path, photo_id)
+        if sys.argv[1] == "remove-duplicate":
+            file_path = sys.argv[2]
+            photo_id = sys.argv[3]
+            photo_locator = remove_photo_from_file(file_path, photo_id)
+            remove_photo_from_server(photo_locator) 
         if sys.argv[1] == "--restore-author":
             author = sys.argv[2]
             commit = sys.argv[3]

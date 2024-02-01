@@ -154,6 +154,12 @@ def random_sleep():
     random_seconds = random_sleep_jitter()
     time.sleep(random_seconds)
 
+def read_settings():
+    """Servers and folder paths for processing new RPF contributions"""
+    infile = ProperlyDelimitedConfigParser()
+    infile.read("./contributions.conf", encoding='utf-8')
+    return infile
+
 def resize_ig_link(photo_uri, size):
     """
     Convert ig://<shortcode>/<size> into the size you want
@@ -436,6 +442,16 @@ class PhotoFile():
         """
         if self.has_field(field_name):
             return self.config.get(self.section, field_name)
+        else:
+            return None
+
+    def get_photo(self, photo_id):
+        """
+        Sugar around get_field, just for photos.
+        """
+        photo_field = "photo." + photo_id
+        if self.has_field(photo_field):
+            return self.config.get(self.section, photo_field)
         else:
             return None
 
