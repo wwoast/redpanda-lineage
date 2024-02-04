@@ -17,11 +17,11 @@ litter: 535
 location.1: 134, 2014/7/9
 location.2: 108, 2016/2/3
 location.3: 116, 2018/2/22
-photo.1: ig://Bh7O6YEn66Q/m
-photo.1.author: millerparkzoo
-photo.1.commitdate: 2019/3/12
-photo.1.link: https://www.instagram.com/millerparkzoo/
-photo.1.tags: portrait, tail, tree
+photo.1: ig://-p7LsKuWzq/m
+photo.1.author: sequoiaparkzoo
+photo.1.commitdate: 2019/4/5
+photo.1.link: https://www.instagram.com/sequoiaparkzoo/
+photo.1.tags: bamboo, paws, standing
 photo.2: ig://BHvEMOjAiwe/m
 photo.2.author: worldthathesees
 photo.2.commitdate: 2019/3/17
@@ -42,11 +42,11 @@ photo.5.author: worldthathesees
 photo.5.commitdate: 2019/3/17
 photo.5.link: https://www.instagram.com/p/BHvEcjIgT9w
 photo.5.tags: portrait, profile
-photo.6: ig://-p7LsKuWzq/m
-photo.6.author: sequoiaparkzoo
-photo.6.commitdate: 2019/4/5
-photo.6.link: https://www.instagram.com/sequoiaparkzoo/
-photo.6.tags: bamboo, paws, standing
+photo.6: ig://Bh7O6YEn66Q/m
+photo.6.author: millerparkzoo
+photo.6.commitdate: 2019/3/12
+photo.6.link: https://www.instagram.com/millerparkzoo/
+photo.6.tags: portrait, tail, tree
 species: 1
 studbook.id: 1450
 uncertainty: death date
