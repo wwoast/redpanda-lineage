@@ -16,6 +16,7 @@ litter: 430, 431
 location.1: 94, 2013/7/1
 location.2: 51, 2014/10/15
 location.3: 86, 2021/2/1
+location.4: 96, 2024/1/1
 photo.1: ig://Bb7m6QdgqwM/m
 photo.1.author: smitshow
 photo.1.commitdate: 2018/11/27
@@ -263,5 +264,5 @@ photo.49.link: https://www.instagram.com/westcoast_kathy/
 photo.49.tags: close-up, paws, peek, portrait, sample, whiskers
 species: 2
 studbook.id: 1348
-uncertainty: location.3 exact moving date
+uncertainty: location.3 exact moving date, location.4 exact moving date
 zoo: 86
