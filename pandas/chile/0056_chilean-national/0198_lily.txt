@@ -20,11 +20,11 @@ litter: 60
 location.1: 7, 2010/7/10
 location.2: 9, 2012/4/23
 location.3: 56, 2015/5/1
-photo.1: ig://txdURnOPkj/m
+photo.1: cwdc://UjgiJnuADQA.jpg
 photo.1.author: kota795
 photo.1.commitdate: 2018/12/26
-photo.1.link: https://www.instagram.com/kota795/
-photo.1.tags: profile, tree
+photo.1.link: https://www.instagram.com/p/txdURnOPkj
+photo.1.tags: portrait, profile, sample, tree
 photo.2: ig://woKmonEg7I/m
 photo.2.author: cristobal.osorio2019
 photo.2.commitdate: 2020/3/25
