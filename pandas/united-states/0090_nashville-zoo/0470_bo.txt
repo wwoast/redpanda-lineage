@@ -81,3 +81,8 @@ species: 2
 studbook.id: 1537
 uncertainty: location.4 exact date (maybe a month earlier)
 zoo: 90
+photo.13: cwdc://Wt2zTSnADQA.jpg
+photo.13.author: rossifari
+photo.13.commitdate: 2024/2/4
+photo.13.link: https://www.instagram.com/p/By8l5HDjfNi
+photo.13.tags: FIX
