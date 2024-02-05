@@ -260,11 +260,11 @@ photo.49.author: thecalgaryzoo
 photo.49.commitdate: 2023/9/12
 photo.49.link: https://www.instagram.com/thecalgaryzoo/
 photo.49.tags: close-up, portrait, sample, whiskers
-species: 2
-studbook.id: 1817
-zoo: 51
 photo.50: cwdc://YxciirApwcA.jpg
 photo.50.author: westcoast_kathy
 photo.50.commitdate: 2024/2/5
 photo.50.link: https://www.instagram.com/westcoast_kathy
 photo.50.tags: peek, sample
+species: 2
+studbook.id: 1817
+zoo: 51
