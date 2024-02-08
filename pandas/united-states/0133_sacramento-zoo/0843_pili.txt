@@ -15,11 +15,11 @@ language.order: en, ja
 litter: 844
 location.1: 49, 2011/6/17
 location.2: 133, 2012/3/29
-photo.1: ig://B3lSYCRgeEP/m
+photo.1: cwdc://W3IMRJDADQA.jpg
 photo.1.author: mikezots
 photo.1.commitdate: 2019/11/1
-photo.1.link: https://www.instagram.com/mikezots/
-photo.1.tags: portrait, profile
+photo.1.link: https://www.instagram.com/p/B3lSYCRgeEP
+photo.1.tags: portrait, profile, sample
 photo.2: ig://B4Q8sJzgj9I/m
 photo.2.author: edcaspersen
 photo.2.commitdate: 2019/11/1

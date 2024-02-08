@@ -20,11 +20,11 @@ photo.1.author: redpanda_tata
 photo.1.commitdate: 2019/7/10
 photo.1.link: https://www.instagram.com/redpanda_tata/
 photo.1.tags: grooming, paws, portrait
-photo.2: ig://BzaTIPfHrDN/m
+photo.2: cwdc://WuyNxjeADQA.jpg
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2019/7/10
-photo.2.link: https://www.instagram.com/redpanda_tata/
-photo.2.tags: bamboo, portrait, profile, tail
+photo.2.link: https://www.instagram.com/p/BzaTIPfHrDN
+photo.2.tags: bamboo, portrait, profile, sample, tail, whiskers
 photo.3: ig://ByZ3UNwBveI/m
 photo.3.author: hkoceanpark
 photo.3.commitdate: 2019/7/11

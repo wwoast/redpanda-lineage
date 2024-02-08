@@ -20,11 +20,11 @@ photo.1.author: miis_98
 photo.1.commitdate: 2020/4/3
 photo.1.link: https://www.instagram.com/miis_98/
 photo.1.tags: baby, paws, portrait
-photo.2: ig://BkkDnrgF96H/m
+photo.2: cwdc://WRFuwbgADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/10/19
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: bamboo, profile, tail
+photo.2.link: https://www.instagram.com/p/BkkDnrgF96H
+photo.2.tags: bamboo, portrait, profile, sample, tail
 photo.3: ig://BxgulL0lgTZ/m
 photo.3.author: craig_craig_craig
 photo.3.commitdate: 2019/5/18
@@ -312,3 +312,8 @@ photo.59.tags: paws, peek, portrait
 species: 2
 studbook.id: 1780
 zoo: 22
+photo.60: cwdc://V_3z-aVADQA.jpg
+photo.60.author: hanamaru_redpanda
+photo.60.commitdate: 2024/2/7
+photo.60.link: https://www.instagram.com/p/Bb9GOq6loZD
+photo.60.tags: YUUYUU-asahiyama-fix
