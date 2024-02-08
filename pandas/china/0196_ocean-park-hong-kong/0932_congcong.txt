@@ -15,11 +15,11 @@ language.order: zh, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
-photo.1: ig://Bze0JKzDnyW/m
-photo.1.author: redpanda_tata
-photo.1.commitdate: 2019/7/10
-photo.1.link: https://www.instagram.com/redpanda_tata/
-photo.1.tags: grooming, paws, portrait
+photo.1: ig://BuOXRL3A9Es/m
+photo.1.author: instahine
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/instathine/
+photo.1.tags: bamboo, paws
 photo.2: cwdc://WuyNxjeADQA.jpg
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2019/7/10
@@ -30,16 +30,16 @@ photo.3.author: hkoceanpark
 photo.3.commitdate: 2019/7/11
 photo.3.link: https://www.instagram.com/hkoceanpark/
 photo.3.tags: lunch time, paws, portrait, tongue
-photo.4: ig://BzxSsD7jFrx/m
+photo.4: ig://Bze0JKzDnyW/m
 photo.4.author: redpanda_tata
-photo.4.commitdate: 2019/7/11
+photo.4.commitdate: 2019/7/10
 photo.4.link: https://www.instagram.com/redpanda_tata/
-photo.4.tags: peek, portrait, tail
-photo.5: ig://BuOXRL3A9Es/m
-photo.5.author: instahine
-photo.5.commitdate: 2019/7/15
-photo.5.link: https://www.instagram.com/instathine/
-photo.5.tags: bamboo, paws
+photo.4.tags: grooming, paws, portrait
+photo.5: ig://BzxSsD7jFrx/m
+photo.5.author: redpanda_tata
+photo.5.commitdate: 2019/7/11
+photo.5.link: https://www.instagram.com/redpanda_tata/
+photo.5.tags: peek, portrait, tail
 photo.6: ig://B0A3KY1BWAr/m
 photo.6.author: redpanda_tata
 photo.6.commitdate: 2019/7/18
@@ -55,16 +55,16 @@ photo.8.author: redpanda_tata
 photo.8.commitdate: 2019/9/16
 photo.8.link: https://www.instagram.com/redpanda_tata/
 photo.8.tags: apple time, keeper
-photo.9: ig://B3fA8UXhoSq/m
+photo.9: ig://B3cVCrXBs7b/m
 photo.9.author: redpanda_tata
-photo.9.commitdate: 2019/10/17
+photo.9.commitdate: 2019/10/19
 photo.9.link: https://www.instagram.com/redpanda_tata/
-photo.9.tags: paws, standing
-photo.10: ig://B3cVCrXBs7b/m
+photo.9.tags: portrait, smile
+photo.10: ig://B3fA8UXhoSq/m
 photo.10.author: redpanda_tata
-photo.10.commitdate: 2019/10/19
+photo.10.commitdate: 2019/10/17
 photo.10.link: https://www.instagram.com/redpanda_tata/
-photo.10.tags: portrait, smile
+photo.10.tags: paws, standing
 photo.11: ig://B52xcKdhRMC/m
 photo.11.author: redpanda_tata
 photo.11.commitdate: 2019/12/27
