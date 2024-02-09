@@ -12,11 +12,12 @@ language.order: zh, ja, en
 latitude: 31.1902231
 longitude: 121.3590564
 map: https://goo.gl/maps/XGNrUzCRqB42
-photo.1: ig://BiV8tnsFkdj/m
+photo.1: cwdc://WMpg8T4ADQA.jpg
 photo.1.author: c_yulu_x
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/c_yulu_x/
+photo.1.link: https://www.instagram.com/p/BiV8tnsFkdj
 website: http://www.shanghaizoo.cn/
 zh.address: 2368 虹桥路 长宁区 上海 中国
 zh.location: 长宁区 上海 中国
 zh.name: 上海動物園
+photo.1.tags: sign

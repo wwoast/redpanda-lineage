@@ -13,15 +13,15 @@ language.order: ja, en
 latitude: 34.9074178
 longitude: 139.0957297
 map: https://goo.gl/maps/iTyrJWJe9HU2
-photo.1: ig://Bkto0LGndXx/m
+photo.1: cwdc://WRY5JatADQA.jpg
 photo.1.author: manamico1221
 photo.1.commitdate: 2019/9/22
-photo.1.link: https://www.instagram.com/manamico1221/
+photo.1.link: https://www.instagram.com/p/Bkto0LGndXx
 photo.1.tags: profile
-photo.2: ig://BuJYbcNnE4b/m
+photo.2: cwdc://WkQYX87ADQA.jpg
 photo.2.author: anna_av3105
 photo.2.commitdate: 2019/9/22
-photo.2.link: https://www.instagram.com/anna_av3105/
+photo.2.link: https://www.instagram.com/p/BuJYbcNnE4b
 photo.3: ig://B3QrJCrg4mW/m
 photo.3.author: sunnylettuce_2022
 photo.3.commitdate: 2019/10/12
@@ -35,3 +35,4 @@ photo.5.author: ssc6105
 photo.5.commitdate: 2020/9/24
 photo.5.link: https://www.instagram.com/ssc6105/
 website: https://izushaboten.com/
+photo.2.tags: exhibit
