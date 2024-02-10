@@ -17,16 +17,16 @@ litter: 362
 location.1: 12, 2000/6/23
 location.2: 52, 2003/6/5
 location.3: 50, 2011/3/18
-photo.1: ig://BVKVVsLB9zh/m
+photo.1: cwdc://VySSMc2ADQA.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/4
-photo.1.link: https://www.instagram.com/apple_jasmine33/
-photo.1.tags: bamboo, portrait, smile
+photo.1.link: https://www.instagram.com/p/BVKVVsLB9zh
+photo.1.tags: bamboo, portrait, profile, sample, smile
 photo.2: ig://B1qxuF-hm9K/m
 photo.2.author: framereim
 photo.2.commitdate: 2019/8/29
 photo.2.link: https://www.instagram.com/framereim/
-photo.2.tags: bite, paws
+photo.2.tags: bite, lunch time, paws
 species: 2
 studbook.id: 0083
 zoo: 50
