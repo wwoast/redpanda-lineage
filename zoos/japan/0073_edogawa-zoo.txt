@@ -12,10 +12,10 @@ language.order: ja, en
 latitude: 35.6710531
 longitude: 139.8562134
 map: https://goo.gl/maps/tDgbZr73HuQ2
-photo.1: ig://Bpg_qSOFhT7/m
+photo.1: cwdc://Wa_m1o8ADQA.jpg
 photo.1.author: shirokuma_jump
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/shirokuma_jump/
+photo.1.link: https://www.instagram.com/p/Bpg_qSOFhT7
 photo.1.tags: profile
 photo.2: cwdc://X2Yyq_kADQB.jpg
 photo.2.author: edogawa.kankyozaidan
