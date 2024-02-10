@@ -79,7 +79,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         locators = metadata.get("photo_locators")
         if locators == None:   # Photo metadata file minus .json
             locators = [".".join(os.path.basename(metadata_path).split(".")[0:2])]
-        if metadata["ig_locator"]:
+        if metadata.get("ig_locator"):
             guessLink = "https://www.instagram.com/p/{ig_locator}".format(
                 ig_locator = metadata["ig_locator"]
             )
@@ -173,7 +173,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
         config.set("photo", "_id", metadata["_id"])
         # Single photo uploads can have IG locators in the submitted data
-        if metadata["ig_locator"]:
+        if metadata.get("ig_locator"):
             config.set("photo", "_ig_locator", metadata["ig_locator"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
@@ -679,7 +679,8 @@ def resize_and_rotate_images(entity_file, photo_paths):
         if not os.path.exists(photo_path):
             continue
         image = Image.open(photo_path)
-        image = reorient_image(image, metadata["orientation"])
+        if metadata.get("orientation"):
+          image = reorient_image(image, metadata["orientation"])
         image = resize_image(image, aspect)
         image.save(photo_path)
 
