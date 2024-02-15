@@ -141,6 +141,7 @@ photo.25: cwdc://WeqSCxEADQH.jpg
 photo.25.author: minatomirai215
 photo.25.commitdate: 2018/12/14
 photo.25.link: https://www.instagram.com/p/BrWVQ2SF7Q3
+photo.25.tags: portrait, sample, whiskers
 photo.26: ig://BrhlQ3zFJo2/m
 photo.26.author: izu_108
 photo.26.commitdate: 2018/12/19
@@ -150,6 +151,7 @@ photo.27: cwdc://WfB3ZRYADQG.jpg
 photo.27.author: minatomirai215
 photo.27.commitdate: 2018/12/19
 photo.27.link: https://www.instagram.com/p/BriH8GcFEO1
+photo.27.tags: bridge, peek, portrait, sample, whiskers
 photo.28: ig://Br2bBrJFDf9/m
 photo.28.author: photokaorin
 photo.28.commitdate: 2018/12/26
@@ -1190,5 +1192,3 @@ photo.235.tags: bamboo, paws, portrait, standing
 species: 2
 studbook.id: 12116
 zoo: 7
-photo.25.tags: portrait, sample, whiskers
-photo.27.tags: bridge, peek, portrait, sample, whiskers
