@@ -285,9 +285,6 @@ photo.54.author: rossifari
 photo.54.commitdate: 2023/10/24
 photo.54.link: https://www.instagram.com/rossifari/
 photo.54.tags: sample, whiskers
-species: 2
-studbook.id: 1818
-zoo: 43
 photo.55: cwdc://Y0h_tewKbYB.jpg
 photo.55.author: cnuss121
 photo.55.commitdate: 2024/2/15
@@ -308,3 +305,6 @@ photo.58.author: cnuss121
 photo.58.commitdate: 2024/2/15
 photo.58.link: https://www.instagram.com/cnuss121
 photo.58.tags: bamboo, paws, sample, tail, tongue, whiskers
+species: 2
+studbook.id: 1818
+zoo: 43
