@@ -288,3 +288,23 @@ photo.54.tags: sample, whiskers
 species: 2
 studbook.id: 1818
 zoo: 43
+photo.55: cwdc://Y0h_tewKbYB.jpg
+photo.55.author: cnuss121
+photo.55.commitdate: 2024/2/15
+photo.55.link: https://www.instagram.com/cnuss121
+photo.55.tags: bamboo, snow, whiskers
+photo.56: cwdc://Y1vL4YQKbYA.jpg
+photo.56.author: cnuss121
+photo.56.commitdate: 2024/2/15
+photo.56.link: https://www.instagram.com/cnuss121
+photo.56.tags: bamboo, paws, sample, whiskers
+photo.57: cwdc://Y1vL6k4KbYA.jpg
+photo.57.author: cnuss121
+photo.57.commitdate: 2024/2/15
+photo.57.link: https://www.instagram.com/cnuss121
+photo.57.tags: bamboo, bite, paws, sample, tail, whiskers
+photo.58: cwdc://Y1vMBaYKbYB.jpg
+photo.58.author: cnuss121
+photo.58.commitdate: 2024/2/15
+photo.58.link: https://www.instagram.com/cnuss121
+photo.58.tags: bamboo, paws, sample, tail, tongue, whiskers
