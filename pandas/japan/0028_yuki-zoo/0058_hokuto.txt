@@ -245,6 +245,7 @@ photo.46: cwdc://WeX5LLIADQL.jpg
 photo.46.author: nishicotolo
 photo.46.commitdate: 2018/12/10
 photo.46.link: https://www.instagram.com/p/BrNI1DUFy-V
+photo.46.tags: close-up, sample
 photo.47: cwdc://WeYI8_JADQH.jpg
 photo.47.author: leonard_redmof
 photo.47.commitdate: 2018/12/10
@@ -264,6 +265,7 @@ photo.50: cwdc://WfQR6EnADQM.jpg
 photo.50.author: nishicotolo
 photo.50.commitdate: 2018/12/22
 photo.50.link: https://www.instagram.com/p/BrpVMgDlW_Y
+photo.50.tags: lips, sample
 photo.51: cwdc://WflB00JADQO.jpg
 photo.51.author: nishicotolo
 photo.51.commitdate: 2018/12/25
@@ -1014,5 +1016,3 @@ video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
 video.2.author: cattail.sapporo
 video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
 zoo: 28
-photo.46.tags: close-up, sample
-photo.50.tags: lips, sample
