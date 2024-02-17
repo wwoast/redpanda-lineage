@@ -2,38 +2,38 @@
 _id: media.7.coco-hokuto
 commitdate: 2020/3/8
 panda.tags: 20, 58
-photo.1: ig://B9eDIweh6Tw/m
+photo.1: cwdc://XC5tyldADQA.jpg
 photo.1.author: kipekaila
 photo.1.commitdate: 2020/3/8
-photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.link: https://www.instagram.com/p/B9eDIweh6Tw
 photo.1.tags: mother's day, tail
 photo.1.tags.20.location: 65, 90
 photo.1.tags.58.location: 160, 70
-photo.2: ig://B9eTCWah_gp/m
+photo.2: cwdc://XC6NlxVADQB.jpg
 photo.2.author: kipekaila
 photo.2.commitdate: 2020/3/8
-photo.2.link: https://www.instagram.com/kipekaila/
+photo.2.link: https://www.instagram.com/p/B9eTCWah_gp
 photo.2.tags: kiss, mother's day
 photo.2.tags.20.location: 245, 70
 photo.2.tags.58.location: 140, 85
-photo.3: ig://B_GuSsFhRFj/m
+photo.3: cwdc://XGLEGcrADQC.jpg
 photo.3.author: kipekaila
 photo.3.commitdate: 2020/5/23
-photo.3.link: https://www.instagram.com/kipekaila/
+photo.3.link: https://www.instagram.com/p/B_GuSsFhRFj
 photo.3.tags: mother's day, paw-up, portrait
 photo.3.tags.20.location: 200, 150
 photo.3.tags.58.location: 110, 50
-photo.4: ig://B_GzyCJhVkh/m
+photo.4: cwdc://XGLPFIzADQD.jpg
 photo.4.author: kipekaila
 photo.4.commitdate: 2020/5/23
-photo.4.link: https://www.instagram.com/kipekaila/
+photo.4.link: https://www.instagram.com/p/B_GzyCJhVkh
 photo.4.tags: mother's day, playing, portrait
 photo.4.tags.20.location: 100, 65
 photo.4.tags.58.location: 275, 220
-photo.5: ig://B_TkoFGHJ2f/m
+photo.5: cwdc://XGkwxOsADQE.jpg
 photo.5.author: kipekaila
 photo.5.commitdate: 2020/5/23
-photo.5.link: https://www.instagram.com/kipekaila/
+photo.5.link: https://www.instagram.com/p/B_TkoFGHJ2f
 photo.5.tags: laying down, mother's day, tail
 photo.5.tags.20.location: 250, 120
 photo.5.tags.58.location: 85, 70
