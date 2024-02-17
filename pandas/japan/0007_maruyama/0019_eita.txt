@@ -104,6 +104,7 @@ photo.18: cwdc://WYYbBmSADQG.jpg
 photo.18.author: photokaorin
 photo.18.commitdate: 2018/9/27
 photo.18.link: https://www.instagram.com/p/BoNZwQ5ANyU
+photo.18.tags: whiskers
 photo.19: cwdc://WYsfbTDADQu.jpg
 photo.19.author: cattail.sapporo
 photo.19.commitdate: 2018/10/1
@@ -1984,4 +1985,3 @@ photo.395.tags: bridge, portrait, sample, smile, tongue
 species: 2
 studbook.id: 10108
 zoo: 7
-photo.18.tags: whiskers
