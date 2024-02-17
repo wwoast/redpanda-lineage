@@ -266,6 +266,7 @@ photo.50: cwdc://WnYkmfmADQK.jpg
 photo.50.author: nishicotolo
 photo.50.commitdate: 2019/4/2
 photo.50.link: https://www.instagram.com/p/BvteitjFYWX
+photo.50.tags: sample, whiskers
 photo.51: cwdc://Wnn-MQnADQ0.jpg
 photo.51.author: cattail.sapporo
 photo.51.commitdate: 2019/4/5
@@ -325,6 +326,7 @@ photo.62: cwdc://Ws78NCLADQL.jpg
 photo.62.author: nishicotolo
 photo.62.commitdate: 2019/6/10
 photo.62.link: https://www.instagram.com/p/ByfKV-1hOcB
+photo.62.tags: close-up, sample, whiskers
 photo.63: cwdc://WtvVWHGADQ7.jpg
 photo.63.author: cattail.sapporo
 photo.63.commitdate: 2019/6/21
@@ -909,6 +911,7 @@ photo.179: cwdc://XKEPvv-ADQM.jpg
 photo.179.author: nishicotolo
 photo.179.commitdate: 2020/7/22
 photo.179.link: https://www.instagram.com/p/CBDUHVvBMoK
+photo.179.tags: peek
 photo.180: cwdc://XKIwJW4ADQN.jpg
 photo.180.author: nishicotolo
 photo.180.commitdate: 2020/6/21
@@ -1192,6 +1195,3 @@ photo.235.tags: bamboo, paws, portrait, standing
 species: 2
 studbook.id: 12116
 zoo: 7
-photo.50.tags: sample, whiskers
-photo.62.tags: close-up, sample, whiskers
-photo.179.tags: peek
