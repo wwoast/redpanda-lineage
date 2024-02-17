@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
+location.1: 64, 2021/6/23
+location.2: 73, 2024/2/15
 photo.1: ig://CVPSn0jBrUG/m
 photo.1.author: grskus_tk
 photo.1.commitdate: 2021/11/11
@@ -149,4 +151,5 @@ photo.27.commitdate: 2023/1/12
 photo.27.link: https://www.instagram.com/grskus_tk/
 photo.27.tags: laying down, peek, tail
 species: 2
-zoo: 64
+uncertainty: location.2 exact date
+zoo: 73
