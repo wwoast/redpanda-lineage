@@ -39,10 +39,10 @@ photo.5.author: cattail.sapporo
 photo.5.commitdate: 2018/9/5
 photo.5.link: https://www.instagram.com/p/BnS3Jytngvc
 photo.5.tags: laying down, portrait, sample, sleeping
-photo.6: ig://BoDhHzPgWbw/m
+photo.6: cwdc://WYEpwq_ADQB.jpg
 photo.6.author: photokaorin
 photo.6.commitdate: 2018/9/24
-photo.6.link: https://www.instagram.com/photokaorin/
+photo.6.link: https://www.instagram.com/p/BoDhHzPgWbw
 photo.6.tags: smile
 photo.7: ig://Bo1N7BClvEu/m
 photo.7.author: mofu_pan
@@ -57,10 +57,10 @@ photo.9: ig://BpaykQXFGG1/m
 photo.9.author: nakacchi_desu
 photo.9.commitdate: 2018/10/27
 photo.9.link: https://www.instagram.com/nakacchi_desu/
-photo.10: ig://BpmHu0HlW6R/m
+photo.10: cwdc://WbJ2-svADQA.jpg
 photo.10.author: ho0oipo
 photo.10.commitdate: 2018/10/31
-photo.10.link: https://www.instagram.com/ho0oipo/
+photo.10.link: https://www.instagram.com/p/BpmHu0HlW6R
 photo.10.tags: autumn
 photo.11: ig://Bp0Ja7QlcJ4/m
 photo.11.author: izu_108
@@ -229,10 +229,10 @@ photo.45.author: komabazoophoto
 photo.45.commitdate: 2019/5/15
 photo.45.link: https://www.instagram.com/komabazoophoto/
 photo.45.tags: snow
-photo.46: ig://BxmqNZSFKHT/m
+photo.46: cwdc://WrK773EADQB.jpg
 photo.46.author: ho0oipo
 photo.46.commitdate: 2019/5/21
-photo.46.link: https://www.instagram.com/ho0oipo/
+photo.46.link: https://www.instagram.com/p/BxmqNZSFKHT
 photo.47: ig://Bxw6DZYlVab/m
 photo.47.author: komabazoophoto
 photo.47.commitdate: 2019/5/30
@@ -547,11 +547,11 @@ photo.110.author: komabazoophoto
 photo.110.commitdate: 2019/10/2
 photo.110.link: https://www.instagram.com/komabazoophoto/
 photo.110.tags: laying down, portrait
-photo.111: ig://B2vO1fcA98X/m
+photo.111: cwdc://W1cFMDYADQA.jpg
 photo.111.author: photokaorin
 photo.111.commitdate: 2019/9/27
-photo.111.link: https://www.instagram.com/photokaorin/
-photo.111.tags: laying down, portrait, sleeping
+photo.111.link: https://www.instagram.com/p/B2vO1fcA98X
+photo.111.tags: bridge, laying down, portrait, sleeping
 photo.112: cwdc://W1gQ6thADQA.jpg
 photo.112.author: cattail.sapporo
 photo.112.commitdate: 2019/10/2
@@ -1738,3 +1738,4 @@ photo.348.tags: portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7
+photo.46.tags: peek

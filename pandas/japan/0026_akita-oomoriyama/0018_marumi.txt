@@ -118,11 +118,11 @@ photo.20.author: cattail.sapporo
 photo.20.commitdate: 2018/9/5
 photo.20.link: https://www.instagram.com/p/BnWc2HTHpyK
 photo.20.tags: laying down, portrait, sample, whiskers
-photo.21: ig://Bn3mrYhg1qC/m
+photo.21: cwdc://WXs031jADQE.jpg
 photo.21.author: photokaorin
 photo.21.commitdate: 2018/9/22
-photo.21.link: https://www.instagram.com/photokaorin/
-photo.21.tags: portrait, smile
+photo.21.link: https://www.instagram.com/p/Bn3mrYhg1qC
+photo.21.tags: close-up, portrait, sample, smile, whiskers
 photo.22: ig://Bn8I0jclfiK/m
 photo.22.author: miis_98
 photo.22.commitdate: 2018/9/22
@@ -820,11 +820,11 @@ photo.162.author: cattail.sapporo
 photo.162.commitdate: 2019/9/22
 photo.162.link: https://www.instagram.com/p/B2ozU_RgF77
 photo.162.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.163: ig://B2tIWEXg2QB/m
+photo.163: cwdc://W1X4NNPADQA.jpg
 photo.163.author: photokaorin
 photo.163.commitdate: 2019/10/10
-photo.163.link: https://www.instagram.com/photokaorin/
-photo.163.tags: portrait, whiskers
+photo.163.link: https://www.instagram.com/p/B2tIWEXg2QB
+photo.163.tags: portrait, sample, whiskers
 photo.164: ig://B2wECq8hQkK/m
 photo.164.author: nishicotolo
 photo.164.commitdate: 2019/10/10
@@ -855,11 +855,11 @@ photo.169.author: sasapan34
 photo.169.commitdate: 2019/10/10
 photo.169.link: https://www.instagram.com/sasapan34/
 photo.169.tags: smile
-photo.170: ig://B3JfPN0AHl_/m
+photo.170: cwdc://W2Ql_gIADQB.jpg
 photo.170.author: photokaorin
 photo.170.commitdate: 2019/10/10
-photo.170.link: https://www.instagram.com/photokaorin/
-photo.170.tags: portrait, smile
+photo.170.link: https://www.instagram.com/p/B3JfPN0AHl_
+photo.170.tags: portrait, sample, smile, whiskers
 photo.171: cwdc://W2mDdupADQP.jpg
 photo.171.author: cattail.sapporo
 photo.171.commitdate: 2019/10/16
@@ -948,11 +948,11 @@ photo.188: ig://B4uSY7mBfxj/m
 photo.188.author: nishicotolo
 photo.188.commitdate: 2019/11/15
 photo.188.link: https://www.instagram.com/nishicotolo/
-photo.189: ig://B49pieShXeV/m
+photo.189: cwdc://W546mBFADQE.jpg
 photo.189.author: ho0oipo
 photo.189.commitdate: 2019/11/26
-photo.189.link: https://www.instagram.com/ho0oipo/
-photo.189.tags: snow
+photo.189.link: https://www.instagram.com/p/B49pieShXeV
+photo.189.tags: peek, snow
 photo.190: ig://B5AVFdPhf3L/m
 photo.190.author: komabazoophoto
 photo.190.commitdate: 2019/11/25
@@ -983,10 +983,10 @@ photo.195.author: mari_neko3
 photo.195.commitdate: 2019/11/24
 photo.195.link: https://www.instagram.com/mari_neko3/
 photo.195.tags: laying down, mofumofu, portrait
-photo.196: ig://B5cwQq8BAxE/m
+photo.196: cwdc://W63ICaYADQA.jpg
 photo.196.author: ho0oipo
 photo.196.commitdate: 2019/11/29
-photo.196.link: https://www.instagram.com/ho0oipo/
+photo.196.link: https://www.instagram.com/p/B5cwQq8BAxE
 photo.196.tags: bamboo, bite, snow
 photo.197: ig://B5fG3N4hU9q/m
 photo.197.author: komabazoophoto
@@ -1093,10 +1093,10 @@ photo.217.author: cattail.sapporo
 photo.217.commitdate: 2020/1/24
 photo.217.link: https://www.instagram.com/p/B7leRe9g0N9
 photo.217.tags: bridge, climb, portrait, snow, upside-down
-photo.218: ig://B7sc5EphyeJ/m
+photo.218: cwdc://W_WhTNzADQB.jpg
 photo.218.author: ho0oipo
 photo.218.commitdate: 2020/1/26
-photo.218.link: https://www.instagram.com/ho0oipo/
+photo.218.link: https://www.instagram.com/p/B7sc5EphyeJ
 photo.218.tags: paws, smile, tongue
 photo.219: cwdc://W_evw6kADQZ.jpg
 photo.219.author: cattail.sapporo
@@ -1183,26 +1183,26 @@ photo.235.author: cattail.sapporo
 photo.235.commitdate: 2020/4/16
 photo.235.link: https://www.instagram.com/p/B8qETpRpMp5
 photo.235.tags: paws, portrait, sample, smile, snow, standing, tail
-photo.236: ig://B8swl36gpUw/m
+photo.236: cwdc://XBXIs0VADQC.jpg
 photo.236.author: photokaorin
 photo.236.commitdate: 2020/4/16
-photo.236.link: https://www.instagram.com/photokaorin/
-photo.236.tags: portrait, snow, whiskers
-photo.237: ig://B8v2SOCByjc/m
+photo.236.link: https://www.instagram.com/p/B8swl36gpUw
+photo.236.tags: portrait, sample, snow, whiskers
+photo.237: cwdc://XBdUFgkADQC.jpg
 photo.237.author: ho0oipo
 photo.237.commitdate: 2020/4/16
-photo.237.link: https://www.instagram.com/ho0oipo/
+photo.237.link: https://www.instagram.com/p/B8v2SOCByjc
 photo.237.tags: snow, standing, tail
-photo.238: ig://B8wQB-Ah1pA/m
+photo.238: cwdc://XBeHlAhADQD.jpg
 photo.238.author: ho0oipo
 photo.238.commitdate: 2020/4/16
-photo.238.link: https://www.instagram.com/ho0oipo/
+photo.238.link: https://www.instagram.com/p/B8wQB-Ah1pA
 photo.238.tags: snow
-photo.239: ig://B8yZ3hYA6Jo/m
+photo.239: cwdc://XBibQHQADQD.jpg
 photo.239.author: photokaorin
 photo.239.commitdate: 2020/4/16
-photo.239.link: https://www.instagram.com/photokaorin/
-photo.239.tags: peek, portrait, snow
+photo.239.link: https://www.instagram.com/p/B8yZ3hYA6Jo
+photo.239.tags: peek, portrait, sample, snow
 photo.240: cwdc://XBu1iYRADQk.jpg
 photo.240.author: cattail.sapporo
 photo.240.commitdate: 2020/4/16
@@ -1433,10 +1433,10 @@ photo.285.author: leonard_redmof
 photo.285.commitdate: 2020/6/15
 photo.285.link: https://www.instagram.com/leonard_redmof/
 photo.285.tags: bamboo, bite, paws, portrait, snow
-photo.286: ig://CBVtLrwBFBu/m
+photo.286: cwdc://XKpB4cAADQF.jpg
 photo.286.author: ho0oipo
 photo.286.commitdate: 2020/6/15
-photo.286.link: https://www.instagram.com/ho0oipo/
+photo.286.link: https://www.instagram.com/p/CBVtLrwBFBu
 photo.286.tags: flowers
 photo.287: ig://CBb_86Uh61J/m
 photo.287.author: leonard_redmof
@@ -1483,11 +1483,11 @@ photo.295.author: cattail.sapporo
 photo.295.commitdate: 2020/7/21
 photo.295.link: https://www.instagram.com/p/CCE8mDlAuo0
 photo.295.tags: flowers, paws, portrait, sample
-photo.296: ig://CCFN2oLBxr6/m
+photo.296: cwdc://XMIDOU2ADQG.jpg
 photo.296.author: ho0oipo
 photo.296.commitdate: 2020/7/21
-photo.296.link: https://www.instagram.com/ho0oipo/
-photo.296.tags: peek, smile, wink
+photo.296.link: https://www.instagram.com/p/CCFN2oLBxr6
+photo.296.tags: peek, sample, smile, whiskers, wink
 photo.297: cwdc://XM1QKWcADRT.jpg
 photo.297.author: cattail.sapporo
 photo.297.commitdate: 2020/7/21
@@ -1653,10 +1653,10 @@ photo.329.author: cattail.sapporo
 photo.329.commitdate: 2021/9/11
 photo.329.link: https://www.instagram.com/p/CHF4sHCg3BK
 photo.329.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.330: ig://CHK673ihcjV/m
+photo.330: cwdc://XWTdYzlADQH.jpg
 photo.330.author: ho0oipo
 photo.330.commitdate: 2021/9/11
-photo.330.link: https://www.instagram.com/ho0oipo/
+photo.330.link: https://www.instagram.com/p/CHK673ihcjV
 photo.330.tags: peek
 photo.331: cwdc://XWX5vfdADSE.jpg
 photo.331.author: cattail.sapporo
@@ -1733,11 +1733,11 @@ photo.345.author: leonard_redmof
 photo.345.commitdate: 2020/12/21
 photo.345.link: https://www.instagram.com/leonard_redmof/
 photo.345.tags: apple time, paws, portrait, smile, snow
-photo.346: ig://CI2sa84h9TB/m
+photo.346: cwdc://XZrAW-RADQI.jpg
 photo.346.author: ho0oipo
 photo.346.commitdate: 2020/12/30
-photo.346.link: https://www.instagram.com/ho0oipo/
-photo.346.tags: portrait, snow
+photo.346.link: https://www.instagram.com/p/CI2sa84h9TB
+photo.346.tags: portrait, sample, snow
 photo.347: cwdc://XaJeAE3ADQA.jpg
 photo.347.author: wumpwoast
 photo.347.commitdate: 2021/6/6
@@ -1788,11 +1788,11 @@ photo.356.author: cattail.sapporo
 photo.356.commitdate: 2021/3/7
 photo.356.link: https://www.instagram.com/p/CL52U0dAIFv
 photo.356.tags: close-up, mofumofu, portrait, sample, smile, snow, whiskers
-photo.357: ig://CL6X6g7BmLZ/m
+photo.357: cwdc://XfyXWGWADQJ.jpg
 photo.357.author: ho0oipo
 photo.357.commitdate: 2021/3/7
-photo.357.link: https://www.instagram.com/ho0oipo/
-photo.357.tags: mofumofu, portrait, snow, tail
+photo.357.link: https://www.instagram.com/p/CL6X6g7BmLZ
+photo.357.tags: mofumofu, portrait, sample, snow, tail
 photo.358: cwdc://Xf2sH81ADSK.jpg
 photo.358.author: cattail.sapporo
 photo.358.commitdate: 2021/3/7
