@@ -117,11 +117,11 @@ photo.20.author: nishicotolo
 photo.20.commitdate: 2018/11/18
 photo.20.link: https://www.instagram.com/p/BqUQcssF1y0
 photo.20.tags: carry, sample, smile
-photo.21: ig://BqjRD7BlHw2/m
+photo.21: cwdc://WdEJo6jADQA.jpg
 photo.21.author: fetorus_mami
 photo.21.commitdate: 2018/11/24
-photo.21.link: https://www.instagram.com/fetorus_mami/
-photo.21.tags: snow
+photo.21.link: https://www.instagram.com/p/BqjRD7BlHw2
+photo.21.tags: portrait, snow
 photo.22: cwdc://WdIV84QADQP.jpg
 photo.22.author: izu_108
 photo.22.commitdate: 2018/11/25
@@ -542,11 +542,11 @@ photo.105.author: nishicotolo
 photo.105.commitdate: 2019/10/14
 photo.105.link: https://www.instagram.com/p/B3jfK0IBx-7
 photo.105.tags: portrait
-photo.106: ig://B3j5QvXB0XU/m
+photo.106: cwdc://W3FaCjOADQA.jpg
 photo.106.author: akiakiakiko18
 photo.106.commitdate: 2019/10/14
-photo.106.link: https://www.instagram.com/akiakiakiko18/
-photo.106.tags: portrait, smile
+photo.106.link: https://www.instagram.com/p/B3j5QvXB0XU
+photo.106.tags: portrait, sample, smile
 photo.107: cwdc://W3PJnY1ADQD.jpg
 photo.107.author: izu_108
 photo.107.commitdate: 2019/10/17
@@ -1017,11 +1017,11 @@ photo.200.author: cattail.sapporo
 photo.200.commitdate: 2020/7/23
 photo.200.link: https://www.instagram.com/p/CC2cldFAoNw
 photo.200.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
-photo.201: ig://CC28vpChp_s/m
+photo.201: cwdc://XNrhAWlADQA.jpg
 photo.201.author: _rifa_p
 photo.201.commitdate: 2020/7/23
-photo.201.link: https://www.instagram.com/_rifa_p/
-photo.201.tags: apple time, lips, portrait, snow, techitechi
+photo.201.link: https://www.instagram.com/p/CC28vpChp_s
+photo.201.tags: apple time, lips, portrait, sample, snow, techitechi, whiskers
 photo.202: cwdc://XNruP2WADRD.jpg
 photo.202.author: cattail.sapporo
 photo.202.commitdate: 2020/7/23
@@ -1047,11 +1047,11 @@ photo.206.author: ho0oipo
 photo.206.commitdate: 2020/7/23
 photo.206.link: https://www.instagram.com/p/CC8eN6UhcCE
 photo.206.tags: climb, paws, whiskers
-photo.207: ig://CC8tyAYBO3F/m
+photo.207: cwdc://XN3DFFQADQA.jpg
 photo.207.author: rie_panda55
 photo.207.commitdate: 2020/7/23
-photo.207.link: https://www.instagram.com/rie_panda55/
-photo.207.tags: dish, lunch time, portrait, videolink
+photo.207.link: https://www.instagram.com/p/CC8tyAYBO3F
+photo.207.tags: dish, lunch time, paws, portrait, sample, videolink, whiskers
 photo.208: cwdc://XN3LmJfADQB.jpg
 photo.208.author: kipekaila
 photo.208.commitdate: 2020/7/23
