@@ -30,6 +30,7 @@ photo.3: cwdc://WkxLCKpADQB.jpg
 photo.3.author: kipekaila
 photo.3.commitdate: 2019/3/7
 photo.3.link: https://www.instagram.com/p/BuZxwjElUtg
+photo.3.tags: portrait, sample, whiskers
 photo.4: cwdc://WnosSSJADQA.jpg
 photo.4.author: sakikukeco
 photo.4.commitdate: 2019/4/5
@@ -59,6 +60,7 @@ photo.9: cwdc://W_Ks-_yADQA.jpg
 photo.9.author: sasapan34
 photo.9.commitdate: 2020/1/25
 photo.9.link: https://www.instagram.com/p/B7miu9pBrEQ
+photo.9.tags: sample
 photo.10: cwdc://W_cJodRADQA.jpg
 photo.10.author: fetorus_mami
 photo.10.commitdate: 2020/1/25
@@ -142,5 +144,3 @@ photo.25.tags: grooming, home, paws, portrait, surprise
 species: 2
 studbook.id: 1099
 zoo: 29
-photo.9.tags: sample
-photo.3.tags: portrait, sample, whiskers
