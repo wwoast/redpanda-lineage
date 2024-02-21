@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1375
+location.1: 12, 2022/7/1
+location.2: 10, 2024/2/20
 photo.1: ig://CmbgcgPvoVk/m
 photo.1.author: pantasanzoo1
 photo.1.commitdate: 2023/1/6
@@ -79,4 +81,4 @@ photo.13.commitdate: 2023/11/5
 photo.13.link: https://www.instagram.com/minatomirai215/
 photo.13.tags: ear, paws, portrait, sample, smile, tree, whiskers
 species: 2
-zoo: 12
+zoo: 10
