@@ -15,6 +15,7 @@ language.order: en, ja
 litter: 438
 location.1: 76, 2017/6/13
 location.2: 96, 2019/7/1
+location.3: 76, 2024/1/15
 photo.1: ig://B0ikw5Yg-17/m
 photo.1.author: b_aimz94
 photo.1.commitdate: 2020/3/18
@@ -112,4 +113,5 @@ photo.19.link: https://www.instagram.com/rossifari/
 photo.19.tags: apple time, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 1701
-zoo: 96
+uncertainty: location.3 exact date
+zoo: 76

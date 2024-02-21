@@ -15,6 +15,7 @@ language.order: en, ja
 litter: 485
 location.1: 82, 2017/7/23
 location.2: 96, 2021/11/16
+location.3: 86, 2023/12/17
 photo.1: ig://BzvvnZhhjsi/m
 photo.1.author: autumnridgebacksmom
 photo.1.commitdate: 2021/7/23
@@ -82,5 +83,5 @@ photo.13.link: https://www.instagram.com/thetorontozoo/
 photo.13.tags: apple time, portrait, toys
 species: 2
 studbook.id: 1731
-uncertainty: location.2 exact day of week
-zoo: 96
+uncertainty: location.2 exact day of week, location.3 exact day of week
+zoo: 86
