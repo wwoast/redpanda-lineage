@@ -37,6 +37,7 @@ photo.4: cwdc://WvR_pA6ADQG.jpg
 photo.4.author: detroitzoo
 photo.4.commitdate: 2019/12/2
 photo.4.link: https://www.instagram.com/p/BzqMD-ND0cw
+photo.4.tags: tail
 photo.5: cwdc://Wv1ulXBADQF.jpg
 photo.5.author: detroitzoo
 photo.5.commitdate: 2019/12/2
@@ -65,4 +66,3 @@ photo.9.tags: snow
 species: 1
 studbook.id: 0506
 zoo: 124
-photo.4.tags: tail

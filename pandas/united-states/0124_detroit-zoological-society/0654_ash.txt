@@ -30,6 +30,7 @@ photo.3: cwdc://WoM6-SrADQJ.jpg
 photo.3.author: detroitzoo
 photo.3.commitdate: 2019/5/7
 photo.3.link: https://www.instagram.com/p/BwHpunFgHfZ
+photo.3.tags: techitechi, whiskers
 photo.4: cwdc://WpAaua6ADQK.jpg
 photo.4.author: detroitzoo
 photo.4.commitdate: 2019/5/7
@@ -79,4 +80,3 @@ species: 1
 studbook.id: 1540
 uncertainty: death exact date in 2021
 zoo: 124
-photo.3.tags: techitechi, whiskers
