@@ -10,21 +10,24 @@ language.order: en
 latitude: 42.0875777
 longitude: -75.9133327
 map: https://goo.gl/maps/BoeUeTysCJy
-photo.1: ig://BoZZPJUluE1/m
+photo.1: cwdc://WYwZ_XJADQB.jpg
 photo.1.author: rossparkzoo
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/rossparkzoo/
-photo.2: ig://B78mWG1nke6/m
+photo.1.link: https://www.instagram.com/p/BoZZPJUluE1
+photo.2: cwdc://W_20NSLADQA.jpg
 photo.2.author: rossparkzoo
 photo.2.commitdate: 2020/7/15
-photo.2.link: https://www.instagram.com/rossparkzoo/
-photo.3: ig://CCqa2SsMtJf/m
+photo.2.link: https://www.instagram.com/p/B78mWG1nke6
+photo.3: cwdc://XNSdNp4ADQC.jpg
 photo.3.author: rossparkzoo
 photo.3.commitdate: 2020/7/15
-photo.3.link: https://www.instagram.com/rossparkzoo/
+photo.3.link: https://www.instagram.com/p/CCqa2SsMtJf
 photo.3.tags: profile
-photo.4: ig://Cg4bLYKMnTC/m
+photo.4: cwdc://YJud300ADQD.jpg
 photo.4.author: rossparkzoo
 photo.4.commitdate: 2022/11/29
-photo.4.link: https://www.instagram.com/rossparkzoo/
+photo.4.link: https://www.instagram.com/p/Cg4bLYKMnTC
 website: https://rossparkzoo.org/
+photo.1.tags: animal, pumpkin
+photo.2.tags: sign
+photo.4.tags: smile, tongue
