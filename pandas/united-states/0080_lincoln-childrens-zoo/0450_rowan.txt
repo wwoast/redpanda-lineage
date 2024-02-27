@@ -25,6 +25,7 @@ photo.2: cwdc://WH7iJSAADQB.jpg
 photo.2.author: rossparkzoo
 photo.2.commitdate: 2018/11/25
 photo.2.link: https://www.instagram.com/p/Bf-9UGwHI_z
+photo.2.tags: baby, mofumofu, paws, techitechi, whiskers
 photo.3: cwdc://WLtqIZ6ADQC.jpg
 photo.3.author: rossparkzoo
 photo.3.commitdate: 2018/11/25
@@ -94,4 +95,3 @@ species: 2
 studbook.id: 1709
 uncertainty: location.3 exact date (may be a month earlier)
 zoo: 80
-photo.2.tags: baby, mofumofu, paws, techitechi, whiskers

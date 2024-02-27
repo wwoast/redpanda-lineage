@@ -19,10 +19,12 @@ photo.1: cwdc://VzFgEL9ADQG.jpg
 photo.1.author: rossparkzoo
 photo.1.commitdate: 2018/11/25
 photo.1.link: https://www.instagram.com/p/BVj8RjujfSi
+photo.1.tags: portrait, sample, smile, whiskers
 photo.2: cwdc://V31n1ZiADQH.jpg
 photo.2.author: rossparkzoo
 photo.2.commitdate: 2018/11/25
 photo.2.link: https://www.instagram.com/p/BX8AKKhDeFT
+photo.2.tags: portrait, sample, smile, whiskers
 photo.3: cwdc://V7tiKsyADQI.jpg
 photo.3.author: rossparkzoo
 photo.3.commitdate: 2018/11/25
@@ -121,5 +123,3 @@ photo.21.tags: bamboo, laying down, portrait, sample
 species: 2
 studbook.id: 1527
 zoo: 89
-photo.2.tags: portrait, sample, smile, whiskers
-photo.1.tags: portrait, sample, smile, whiskers
