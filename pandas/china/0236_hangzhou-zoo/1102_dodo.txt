@@ -13,21 +13,21 @@ ja.nicknames: none
 ja.othernames: ドド
 language.order: zh, en, ja
 litter: unknown
-photo.1: ig://B8HRQqiBlyD/m
+photo.1: ig://B7hnmczHxpD/m
 photo.1.author: mkr0369
 photo.1.commitdate: 2020/2/5
 photo.1.link: https://www.instagram.com/mkr0369/
-photo.1.tags: paws, portrait, tail
+photo.1.tags: portrait
 photo.2: cwdc://W74y8kRADQA.jpg
 photo.2.author: mkr0369
 photo.2.commitdate: 2020/2/5
 photo.2.link: https://www.instagram.com/p/B59ltv4jJTX
 photo.2.tags: portrait, profile, techitechi, whiskers
-photo.3: ig://B7hnmczHxpD/m
+photo.3: ig://B8HRQqiBlyD/m
 photo.3.author: mkr0369
 photo.3.commitdate: 2020/2/5
 photo.3.link: https://www.instagram.com/mkr0369/
-photo.3.tags: portrait
+photo.3.tags: paws, portrait, tail
 species: 2
 zh.name: 多多
 zh.nicknames: none
