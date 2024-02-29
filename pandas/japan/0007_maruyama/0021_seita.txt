@@ -74,6 +74,7 @@ photo.12: cwdc://WZoCRHEADQD.jpg
 photo.12.author: nishicotolo
 photo.12.commitdate: 2018/10/12
 photo.12.link: https://www.instagram.com/p/Bo1NYBSF4yW
+photo.12.tags: paws, tail
 photo.13: cwdc://WZte3ZAADQA.jpg
 photo.13.author: mofu_pan
 photo.13.commitdate: 2018/10/13
@@ -93,10 +94,12 @@ photo.16: cwdc://WcR-0MzADQF.jpg
 photo.16.author: nishicotolo
 photo.16.commitdate: 2018/11/14
 photo.16.link: https://www.instagram.com/p/BqKLpkJlBYK
+photo.16.tags: paws
 photo.17: cwdc://Wcg2kRWADQG.jpg
 photo.17.author: nishicotolo
 photo.17.commitdate: 2018/11/17
 photo.17.link: https://www.instagram.com/p/BqRnhmbFFrx
+photo.17.tags: tail
 photo.18: cwdc://WckYrsgADQA.jpg
 photo.18.author: cattail.sapporo
 photo.18.commitdate: 2018/11/17
@@ -151,6 +154,7 @@ photo.28: cwdc://Wgn-gXdADQH.jpg
 photo.28.author: nishicotolo
 photo.28.commitdate: 2019/1/9
 photo.28.link: https://www.instagram.com/p/BsVLfpelrkJ
+photo.28.tags: climb, close-up, paws, whiskers
 photo.29: cwdc://WhRoIp9ADQA.jpg
 photo.29.author: cattail.sapporo
 photo.29.commitdate: 2019/1/18
@@ -295,6 +299,7 @@ photo.57: cwdc://WuCUTFqADQE.jpg
 photo.57.author: minatomirai215
 photo.57.commitdate: 2019/6/23
 photo.57.link: https://www.instagram.com/p/BzCWZAlB24E
+photo.57.tags: portrait, sample, whiskers
 photo.58: cwdc://WuCg1-2ADQH.jpg
 photo.58.author: mari_neko3
 photo.58.commitdate: 2019/6/23
@@ -1768,8 +1773,3 @@ photo.351.tags: dish, tail, toys
 species: 2
 studbook.id: 0554
 zoo: 7
-photo.12.tags: paws, tail
-photo.16.tags: paws
-photo.17.tags: tail
-photo.28.tags: climb, close-up, paws, whiskers
-photo.57.tags: portrait, sample, whiskers
