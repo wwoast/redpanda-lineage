@@ -20,6 +20,7 @@ photo.1: cwdc://VzZWwdIADQA.jpg
 photo.1.author: perie1027vivi
 photo.1.commitdate: 2018/7/17
 photo.1.link: https://www.instagram.com/p/BVt3nsUBI2B
+photo.1.tags: portrait, sample, tail, whiskers
 photo.2: cwdc://V-5U9t7ADQA.jpg
 photo.2.author: cattail.sapporo
 photo.2.commitdate: 2018/7/28
@@ -29,6 +30,7 @@ photo.3: cwdc://WQnJfc6ADQE.jpg
 photo.3.author: izu_108
 photo.3.commitdate: 2018/7/17
 photo.3.link: https://www.instagram.com/p/BkUw_MNF-_2
+photo.3.tags: portrait, sample, whiskers
 photo.4: cwdc://WShXtPKADQF.jpg
 photo.4.author: minatomirai215
 photo.4.commitdate: 2019/7/16
@@ -53,10 +55,12 @@ photo.8: cwdc://WazHoVTADQA.jpg
 photo.8.author: nakacchi_desu
 photo.8.commitdate: 2018/10/27
 photo.8.link: https://www.instagram.com/p/BpawDoZl73Z
+photo.8.tags: peek, portrait, sample, whiskers
 photo.9: cwdc://WazMplOADQB.jpg
 photo.9.author: nakacchi_desu
 photo.9.commitdate: 2018/10/27
 photo.9.link: https://www.instagram.com/p/BpaykQXFGG1
+photo.9.tags: autumn, whiskers
 photo.10: cwdc://WbJ2-svADQA.jpg
 photo.10.author: ho0oipo
 photo.10.commitdate: 2018/10/31
@@ -66,6 +70,7 @@ photo.11: cwdc://Wbl6W7BADQF.jpg
 photo.11.author: izu_108
 photo.11.commitdate: 2018/11/6
 photo.11.link: https://www.instagram.com/p/Bp0Ja7QlcJ4
+photo.11.tags: close-up, portrait, sample, whiskers
 photo.12: cwdc://Wbomqm7ADQE.jpg
 photo.12.author: nishicotolo
 photo.12.commitdate: 2018/11/6
@@ -75,6 +80,7 @@ photo.13: cwdc://WcCAuu8ADQF.jpg
 photo.13.author: nishicotolo
 photo.13.commitdate: 2018/11/11
 photo.13.link: https://www.instagram.com/p/BqCMm1OFRq8
+photo.13.tags: autumn, bridge
 photo.14: cwdc://WcZNQsWADQA.jpg
 photo.14.author: cattail.sapporo
 photo.14.commitdate: 2018/11/15
@@ -84,6 +90,7 @@ photo.15: cwdc://Wceo3UCADQH.jpg
 photo.15.author: izu_108
 photo.15.commitdate: 2018/11/17
 photo.15.link: https://www.instagram.com/p/BqQgrHxFa06
+photo.15.tags: portrait, sample, whiskers
 photo.16: cwdc://WdjUENfADQA.jpg
 photo.16.author: cabbage_biyori
 photo.16.commitdate: 2018/11/30
@@ -93,6 +100,7 @@ photo.17: cwdc://WdpjmsYADQB.jpg
 photo.17.author: mofu_pan
 photo.17.commitdate: 2018/12/1
 photo.17.link: https://www.instagram.com/p/Bq1-Cz8FUIA
+photo.17.tags: paws, portrait, sample, whiskers
 photo.18: cwdc://WdsXhQ1ADQG.jpg
 photo.18.author: izu_108
 photo.18.commitdate: 2018/12/4
@@ -102,10 +110,12 @@ photo.19: cwdc://Wd4wuHEADQA.jpg
 photo.19.author: craig_craig_craig
 photo.19.commitdate: 2018/12/6
 photo.19.link: https://www.instagram.com/p/Bq9kmhSFBcf
+photo.19.tags: paws, portrait, sample, whiskers
 photo.20: cwdc://Wecvpc4ADQI.jpg
 photo.20.author: izu_108
 photo.20.commitdate: 2018/12/11
 photo.20.link: https://www.instagram.com/p/BrPkEMMFpLC
+photo.20.tags: peek, portrait, sample, whiskers
 photo.21: cwdc://We0QgRWADQB.jpg
 photo.21.author: leonard_redmof
 photo.21.commitdate: 2018/12/16
@@ -210,6 +220,7 @@ photo.41: cwdc://WpRnLxjADQA.jpg
 photo.41.author: kipekaila
 photo.41.commitdate: 2019/4/30
 photo.41.link: https://www.instagram.com/p/Bwp_1WhlXRV
+photo.41.tags: portrait, sample
 photo.42: cwdc://WqHe2gNADQv.jpg
 photo.42.author: komabazoophoto
 photo.42.commitdate: 2023/4/14
@@ -219,6 +230,7 @@ photo.43: cwdc://WqIZjpMADQA.jpg
 photo.43.author: yakko____
 photo.43.commitdate: 2019/5/5
 photo.43.link: https://www.instagram.com/p/BxFZBSWFkrS
+photo.43.tags: portrait, sample
 photo.44: cwdc://WqoutWAADQA.jpg
 photo.44.author: cattail.sapporo
 photo.44.commitdate: 2019/5/15
@@ -258,6 +270,7 @@ photo.51: cwdc://WtGNwXrADQy.jpg
 photo.51.author: komabazoophoto
 photo.51.commitdate: 2019/6/13
 photo.51.link: https://www.instagram.com/p/BykTHplhzCu
+photo.51.tags: portrait, sample, whiskers
 photo.52: cwdc://WtVnTVoADQz.jpg
 photo.52.author: komabazoophoto
 photo.52.commitdate: 2019/6/16
@@ -297,10 +310,12 @@ photo.59: cwdc://Wui5JWgADQ5.jpg
 photo.59.author: komabazoophoto
 photo.59.commitdate: 2019/7/7
 photo.59.link: https://www.instagram.com/p/BzSo0JABzxf
+photo.59.tags: portrait, sample
 photo.60: cwdc://Wui5hHuADQ6.jpg
 photo.60.author: komabazoophoto
 photo.60.commitdate: 2019/7/7
 photo.60.link: https://www.instagram.com/p/BzSpABnBvui
+photo.60.tags: portrait, sample, whiskers
 photo.61: cwdc://WvB4kdNADQ2.jpg
 photo.61.author: komabazoophoto
 photo.61.commitdate: 2019/7/9
@@ -330,6 +345,7 @@ photo.66: cwdc://Wv6spaUADQL.jpg
 photo.66.author: izu_108
 photo.66.commitdate: 2019/7/16
 photo.66.link: https://www.instagram.com/p/Bz-ikK6B0If
+photo.66.tags: peek, portrait, sample, techitechi, whiskers
 photo.67: cwdc://WwG1-yPADQA.jpg
 photo.67.author: cattail.sapporo
 photo.67.commitdate: 2019/7/18
@@ -419,6 +435,7 @@ photo.84: cwdc://Wyz1cKoADQD.jpg
 photo.84.author: komabazoophoto
 photo.84.commitdate: 2019/8/24
 photo.84.link: https://www.instagram.com/p/B1bG9jEB9Lz
+photo.84.tags: flowers, portrait, whiskers
 photo.85: cwdc://Wyz2mIgADQE.jpg
 photo.85.author: komabazoophoto
 photo.85.commitdate: 2019/8/24
@@ -458,6 +475,7 @@ photo.92: cwdc://WzSwRdeADQN.jpg
 photo.92.author: komabazoophoto
 photo.92.commitdate: 2019/8/31
 photo.92.link: https://www.instagram.com/p/B1qkYMfBjKj
+photo.92.tags: bridge, portrait
 photo.93: cwdc://WznXEFmADQt.jpg
 photo.93.author: komabazoophoto
 photo.93.commitdate: 2019/8/31
@@ -587,6 +605,7 @@ photo.118: cwdc://W2ty9ReADQB.jpg
 photo.118.author: sasapan34
 photo.118.commitdate: 2019/10/17
 photo.118.link: https://www.instagram.com/p/B3YFuGfBWPa
+photo.118.tags: whiskers
 photo.119: cwdc://W2uzY8mADQC.jpg
 photo.119.author: minatomirai215
 photo.119.commitdate: 2019/10/17
@@ -661,6 +680,7 @@ photo.133: cwdc://W5P8o2cADQW.jpg
 photo.133.author: komabazoophoto
 photo.133.commitdate: 2019/11/12
 photo.133.link: https://www.instagram.com/p/B4pKj4-BD2p
+photo.133.tags: sign
 photo.134: cwdc://W5VIku9ADQX.jpg
 photo.134.author: komabazoophoto
 photo.134.commitdate: 2019/11/15
@@ -1739,23 +1759,3 @@ photo.348.tags: portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7
-photo.1.tags: portrait, sample, tail, whiskers
-photo.118.tags: whiskers
-photo.133.tags: sign
-photo.3.tags: portrait, sample, whiskers
-photo.8.tags: peek, portrait, sample, whiskers
-photo.9.tags: autumn, whiskers
-photo.11.tags: close-up, portrait, sample, whiskers
-photo.13.tags: autumn, bridge
-photo.15.tags: portrait, sample, whiskers
-photo.19.tags: paws, portrait, sample, whiskers
-photo.17.tags: paws, portrait, sample, whiskers
-photo.20.tags: peek, portrait, sample, whiskers
-photo.41.tags: portrait, sample
-photo.43.tags: portrait, sample
-photo.51.tags: portrait, sample, whiskers
-photo.59.tags: portrait, sample
-photo.60.tags: portrait, sample, whiskers
-photo.66.tags: peek, portrait, sample, techitechi, whiskers
-photo.84.tags: flowers, portrait, whiskers
-photo.92.tags: bridge, portrait
