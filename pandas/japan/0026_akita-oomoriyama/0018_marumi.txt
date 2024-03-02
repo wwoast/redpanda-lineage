@@ -137,6 +137,7 @@ photo.24: cwdc://WY1Ic2xADQC.jpg
 photo.24.author: mari_neko3
 photo.24.commitdate: 2018/10/2
 photo.24.link: https://www.instagram.com/p/Bobwd5Il6T5
+photo.24.tags: bridge, laying down, paws, sample, whiskers
 photo.25: cwdc://WZD06PsADQQ.jpg
 photo.25.author: nishicotolo
 photo.25.commitdate: 2018/10/5
@@ -151,6 +152,7 @@ photo.27: cwdc://WZY3-dfADQB.jpg
 photo.27.author: mofu_pan
 photo.27.commitdate: 2018/10/9
 photo.27.link: https://www.instagram.com/p/BotoOsflCzH
+photo.27.tags: bridge, portrait, sample, whiskers
 photo.28: cwdc://WZb1i1NADQC.jpg
 photo.28.author: mofu_pan
 photo.28.commitdate: 2018/10/9
@@ -185,6 +187,7 @@ photo.34: cwdc://WbZNzlgADQS.jpg
 photo.34.author: nishicotolo
 photo.34.commitdate: 2018/11/5
 photo.34.link: https://www.instagram.com/p/BptzJQgFhyP
+photo.34.tags: sample, whiskers
 photo.35: cwdc://Wb90ek5ADQO.jpg
 photo.35.author: leonard_redmof
 photo.35.commitdate: 2018/11/11
@@ -199,10 +202,12 @@ photo.37: cwdc://WcMuG8hADQT.jpg
 photo.37.author: nishicotolo
 photo.37.commitdate: 2018/11/13
 photo.37.link: https://www.instagram.com/p/BqHjS8AlHCc
+photo.37.tags: sample, tail, tree
 photo.38: cwdc://Wcz25zNADQK.jpg
 photo.38.author: izu_108
 photo.38.commitdate: 2018/11/20
 photo.38.link: https://www.instagram.com/p/BqbHsXWlF-o
+photo.38.tags: close-up, mofumofu, paws, portrait, sample, whiskers
 photo.39: cwdc://Wec9DCuADQw.jpg
 photo.39.author: cattail.sapporo
 photo.39.commitdate: 2018/12/11
@@ -282,6 +287,7 @@ photo.54: cwdc://WiZNiw4ADQN.jpg
 photo.54.author: izu_108
 photo.54.commitdate: 2019/2/4
 photo.54.link: https://www.instagram.com/p/BtNzA2MFrSM
+photo.54.tags: peek, portrait, sample, whiskers
 photo.55: cwdc://WiZXncIADQ4.jpg
 photo.55.author: cattail.sapporo
 photo.55.commitdate: 2019/2/4
@@ -446,6 +452,7 @@ photo.87: cwdc://WsNo2HwADQZ.jpg
 photo.87.author: nishicotolo
 photo.87.commitdate: 2019/6/2
 photo.87.link: https://www.instagram.com/p/ByIAqhoBazv
+photo.87.tags: peek, sample, whiskers
 photo.88: cwdc://WsaKeSBADRF.jpg
 photo.88.author: cattail.sapporo
 photo.88.commitdate: 2019/6/2
@@ -500,6 +507,7 @@ photo.98: cwdc://WuDcv41ADQa.jpg
 photo.98.author: nishicotolo
 photo.98.commitdate: 2019/6/23
 photo.98.link: https://www.instagram.com/p/BzC6naKhHAA
+photo.98.tags: smile, whiskers
 photo.99: cwdc://WvB5ntqADRE.jpg
 photo.99.author: komabazoophoto
 photo.99.commitdate: 2019/7/9
@@ -929,6 +937,7 @@ photo.184: cwdc://W5FiQMeADQH.jpg
 photo.184.author: nishicotolo
 photo.184.commitdate: 2019/11/8
 photo.184.link: https://www.instagram.com/p/B4j9Xj_Bdqe
+photo.184.tags: close-up, sample, whiskers
 photo.185: cwdc://W5FsMxlADQZ.jpg
 photo.185.author: komabazoophoto
 photo.185.commitdate: 2019/11/9
@@ -948,6 +957,7 @@ photo.188: cwdc://W5aMS7sADQJ.jpg
 photo.188.author: nishicotolo
 photo.188.commitdate: 2019/11/15
 photo.188.link: https://www.instagram.com/p/B4uSY7mBfxj
+photo.188.tags: sample, whiskers
 photo.189: cwdc://W546mBFADQE.jpg
 photo.189.author: ho0oipo
 photo.189.commitdate: 2019/11/26
@@ -2497,6 +2507,7 @@ photo.498: cwdc://YDmV89aADQf.jpg
 photo.498.author: nishicotolo
 photo.498.commitdate: 2022/7/1
 photo.498.link: https://www.instagram.com/p/Cd0XN8dPn-b
+photo.498.tags: bridge, whiskers
 photo.499: cwdc://YDqfr4fADRg.jpg
 photo.499.author: cattail.sapporo
 photo.499.commitdate: 2022/8/24
@@ -2740,14 +2751,3 @@ photo.546.tags: dish, sample, whiskers
 species: 2
 studbook.id: 1676
 zoo: 26
-photo.184.tags: close-up, sample, whiskers
-photo.188.tags: sample, whiskers
-photo.24.tags: bridge, laying down, paws, sample, whiskers
-photo.27.tags: bridge, portrait, sample, whiskers
-photo.34.tags: sample, whiskers
-photo.37.tags: sample, tail, tree
-photo.38.tags: close-up, mofumofu, paws, portrait, sample, whiskers
-photo.54.tags: peek, portrait, sample, whiskers
-photo.87.tags: peek, sample, whiskers
-photo.98.tags: smile, whiskers
-photo.498.tags: bridge, whiskers
