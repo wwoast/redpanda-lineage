@@ -303,6 +303,7 @@ photo.58: cwdc://We-ldQwADQC.jpg
 photo.58.author: fetorus_mami
 photo.58.commitdate: 2018/12/19
 photo.58.link: https://www.instagram.com/p/Brge-GIFoo0
+photo.58.tags: portrait, sample
 photo.59: cwdc://WfldNFYADQE.jpg
 photo.59.author: cattail.sapporo
 photo.59.commitdate: 2018/12/25
@@ -592,6 +593,7 @@ photo.116: cwdc://Wu3C_E8ADQB.jpg
 photo.116.author: pantasanzoo1
 photo.116.commitdate: 2019/7/9
 photo.116.link: https://www.instagram.com/p/BzctvAOBUQq
+photo.116.tags: peek, whiskers
 photo.117: cwdc://WvG6ZTxADQN.jpg
 photo.117.author: komabazoophoto
 photo.117.commitdate: 2022/8/19
@@ -1793,5 +1795,3 @@ video.1: https://youtu.be/f-hoQdNnqA0
 video.1.author: kosaru 323
 video.1.link: https://www.youtube.com/channel/UCzMkPrcWJCuqVsJYDVvA5gA
 zoo: 190
-photo.58.tags: portrait, sample
-photo.116.tags: peek, whiskers
