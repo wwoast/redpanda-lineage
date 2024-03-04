@@ -139,6 +139,7 @@ photo.25: cwdc://WccLF8RADQF.jpg
 photo.25.author: nishicotolo
 photo.25.commitdate: 2018/11/16
 photo.25.link: https://www.instagram.com/p/BqPRyb4lqTk
+photo.25.tags: sample
 photo.26: cwdc://Wcg4iDNADQH.jpg
 photo.26.author: ho0oipo
 photo.26.commitdate: 2018/11/17
@@ -263,6 +264,7 @@ photo.50: cwdc://Wh_ZAGVADQD.jpg
 photo.50.author: izu_108
 photo.50.commitdate: 2019/1/26
 photo.50.link: https://www.instagram.com/p/BtA4vg6liPX
+photo.50.tags: peek, portrait, sample, whiskers
 photo.51: cwdc://WiJmt-rADQO.jpg
 photo.51.author: ho0oipo
 photo.51.commitdate: 2019/1/27
@@ -307,6 +309,7 @@ photo.59: cwdc://WkuqQU1ADQI.jpg
 photo.59.author: nishicotolo
 photo.59.commitdate: 2019/3/9
 photo.59.link: https://www.instagram.com/p/BuYhXoKlIg8
+photo.59.tags: close-up, sample
 photo.60: cwdc://WkxXYCfADQC.jpg
 photo.60.author: _rifa_p
 photo.60.commitdate: 2019/3/9
@@ -691,6 +694,7 @@ photo.136: cwdc://W418L1zADQA.jpg
 photo.136.author: nishicotolo
 photo.136.commitdate: 2019/11/5
 photo.136.link: https://www.instagram.com/p/B4cKVYphb3m
+photo.136.tags: sample, whiskers
 photo.137: cwdc://W5Inf98ADQD.jpg
 photo.137.author: minatomirai215
 photo.137.commitdate: 2019/11/7
@@ -710,6 +714,7 @@ photo.140: cwdc://W5pzDkQADQB.jpg
 photo.140.author: sasapan34
 photo.140.commitdate: 2019/11/27
 photo.140.link: https://www.instagram.com/p/B42FxP4B6xc
+photo.140.tags: sample
 photo.141: cwdc://W5zx0O8ADQk.jpg
 photo.141.author: cattail.sapporo
 photo.141.commitdate: 2019/11/30
@@ -859,6 +864,7 @@ photo.170: cwdc://XBQU9lhADQB.jpg
 photo.170.author: _rifa_p
 photo.170.commitdate: 2020/5/31
 photo.170.link: https://www.instagram.com/p/B8pWuQghOoH
+photo.170.tags: sample, snow, whiskers
 photo.171: cwdc://XBVUQFNADQZ.jpg
 photo.171.author: cattail.sapporo
 photo.171.commitdate: 2020/5/31
@@ -1003,6 +1009,7 @@ photo.199: cwdc://XGM5yxEADQD.jpg
 photo.199.author: nishicotolo
 photo.199.commitdate: 2020/5/31
 photo.199.link: https://www.instagram.com/p/B_HpI2SBRMs
+photo.199.tags: sample
 photo.200: cwdc://XGO7Iw8ADQr.jpg
 photo.200.author: cattail.sapporo
 photo.200.commitdate: 2020/5/31
@@ -1032,6 +1039,7 @@ photo.205: cwdc://XJa-5UgADQK.jpg
 photo.205.author: nishicotolo
 photo.205.commitdate: 2020/5/31
 photo.205.link: https://www.instagram.com/p/CAursIABe7n
+photo.205.tags: bridge
 photo.206: cwdc://XJ58AIfADQJ.jpg
 photo.206.author: nishicotolo
 photo.206.commitdate: 2020/6/6
@@ -1985,11 +1993,3 @@ photo.395.tags: bridge, portrait, sample, smile, tongue
 species: 2
 studbook.id: 10108
 zoo: 7
-photo.136.tags: sample, whiskers
-photo.140.tags: sample
-photo.25.tags: sample
-photo.50.tags: peek, portrait, sample, whiskers
-photo.59.tags: close-up, sample
-photo.170.tags: sample, snow, whiskers
-photo.199.tags: sample
-photo.205.tags: bridge
