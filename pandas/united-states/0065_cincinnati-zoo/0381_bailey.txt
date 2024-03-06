@@ -17,16 +17,16 @@ litter: none
 location.1: 65, 2008/6/1
 location.2: 87, 2009/4/20
 location.3: 65, 2011/11/7
-photo.1: ig://BZMl9Z6BLJH/m
-photo.1.author: charlesboisnyc
+photo.1: ig://BA-KbCrykKz/m
+photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24
-photo.1.link: https://www.instagram.com/charleboisnyc/
-photo.1.tags: apple time, keeper
-photo.2: ig://BA-KbCrykKz/m
-photo.2.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bamboo, snow, tail
+photo.2: ig://BZMl9Z6BLJH/m
+photo.2.author: charlesboisnyc
 photo.2.commitdate: 2018/11/24
-photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: bamboo, snow, tail
+photo.2.link: https://www.instagram.com/charleboisnyc/
+photo.2.tags: apple time, keeper
 photo.3: cwdc://WRdmeJfADQA.jpg
 photo.3.author: _andersonchin
 photo.3.commitdate: 2019/7/28

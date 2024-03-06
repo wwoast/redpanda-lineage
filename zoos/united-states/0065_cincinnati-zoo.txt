@@ -13,10 +13,12 @@ photo.1: cwdc://WeRJSX_ADQA.jpg
 photo.1.author: sarriej3199
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/p/BrJw4pvloHb
+photo.1.tags: lights
 photo.2: cwdc://XnhCPOXADQA.jpg
 photo.2.author: cincinnatizoo
 photo.2.commitdate: 2021/9/22
 photo.2.link: https://www.instagram.com/p/CPxtXE7tUHa
+photo.2.tags: animal
 photo.3: cwdc://XsLpwTgADQC.jpg
 photo.3.author: cincinnatizoo
 photo.3.commitdate: 2021/9/22
@@ -26,12 +28,10 @@ photo.4: cwdc://XtulxcbADQB.jpg
 photo.4.author: cincinnatizoo
 photo.4.commitdate: 2021/9/22
 photo.4.link: https://www.instagram.com/p/CS4fIL9tpNl
+photo.4.tags: animal
 photo.5: cwdc://Xt-ClhDADQD.jpg
 photo.5.author: cincinnatizoo
 photo.5.commitdate: 2021/9/22
 photo.5.link: https://www.instagram.com/p/CTANiORtaPG
-website: http://cincinnatizoo.org/
-photo.1.tags: lights
-photo.2.tags: animal
 photo.5.tags: animal
-photo.4.tags: animal
+website: http://cincinnatizoo.org/
