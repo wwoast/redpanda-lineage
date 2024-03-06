@@ -16,11 +16,11 @@ litter: 425
 location.1: 65, 2016/6/14
 location.2: 67, 2017/3/21
 location.3: 109, 2021/3/30
-photo.1: ig://Bek-hwZB3eS/m
+photo.1: cwdc://WFHkklSADQA.jpg
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2018/12/11
-photo.1.link: https://www.instagram.com/cincinnatizoo/
-photo.1.tags: portrait, nose, snow
+photo.1.link: https://www.instagram.com/p/Bek-hwZB3eS
+photo.1.tags: nose, portrait, snow
 photo.2: cwdc://Waz6IjyADQA.jpg
 photo.2.author: j_alex_hicks
 photo.2.commitdate: 2018/12/11
@@ -31,36 +31,36 @@ photo.3.author: robinlsinner
 photo.3.commitdate: 2018/12/11
 photo.3.link: https://www.instagram.com/robinlsinner/
 photo.3.tags: tree
-photo.4: ig://BsBMgniFvuQ/m
+photo.4: cwdc://WgAAiTkADQD.jpg
 photo.4.author: carsontheredpanda
 photo.4.commitdate: 2018/12/30
-photo.4.link: https://www.instagram.com/carsontheredpanda/
-photo.4.tags: portrait, tail, tongue, tree
-photo.5: ig://Bysf0Exh5dH/m
+photo.4.link: https://www.instagram.com/p/BsBMgniFvuQ
+photo.4.tags: portrait, sample, tail, tongue, tree
+photo.5: cwdc://WtWnJODADQE.jpg
 photo.5.author: carsontheredpanda
 photo.5.commitdate: 2019/6/16
-photo.5.link: https://www.instagram.com/carsontheredpanda/
-photo.5.tags: portrait, tree
+photo.5.link: https://www.instagram.com/p/Bysf0Exh5dH
+photo.5.tags: mofumofu, portrait, sample, tree, whiskers
 photo.6: ig://By4N7_2gnl7/m
 photo.6.author: westcoast_kathy
 photo.6.commitdate: 2019/6/19
 photo.6.link: https://www.instagram.com/westcoast_kathy/
 photo.6.tags: air tasting, tongue
-photo.7: ig://B0i_OHbB_ow/m
+photo.7: cwdc://WxDl9TWADQA.jpg
 photo.7.author: carsontheredpanda
 photo.7.commitdate: 2019/7/30
-photo.7.link: https://www.instagram.com/carsontheredpanda/
-photo.7.tags: portrait
-photo.8: ig://B5vcVbxB8Qb/m
+photo.7.link: https://www.instagram.com/p/B0i_OHbB_ow
+photo.7.tags: close-up, portrait, whiskers
+photo.8: cwdc://W7cgL8CADQB.jpg
 photo.8.author: carsontheredpanda
 photo.8.commitdate: 2019/12/11
-photo.8.link: https://www.instagram.com/carsontheredpanda/
-photo.8.tags: home, portrait, tail, tree
-photo.9: ig://B8nMbySBCkQ/m
+photo.8.link: https://www.instagram.com/p/B5vcVbxB8Qb
+photo.8.tags: home, portrait, sample, smile, tail, tree
+photo.9: cwdc://XBMAYpEADQC.jpg
 photo.9.author: carsontheredpanda
 photo.9.commitdate: 2020/2/28
-photo.9.link: https://www.instagram.com/carsontheredpanda/
-photo.9.tags: air tasting, portrait, tongue
+photo.9.link: https://www.instagram.com/p/B8nMbySBCkQ
+photo.9.tags: air tasting, portrait, sample, tongue
 photo.10: ig://B9USHE9pbtN/m
 photo.10.author: rossifari
 photo.10.commitdate: 2020/3/12
@@ -85,11 +85,11 @@ photo.14.author: rossifari
 photo.14.commitdate: 2020/6/3
 photo.14.link: https://www.instagram.com/rossifari/
 photo.14.tags: portrait, smile, whiskers
-photo.15: ig://CB9vnj1h_ml/m
+photo.15: cwdc://XL5GwMLADQF.jpg
 photo.15.author: carsontheredpanda
 photo.15.commitdate: 2020/7/13
-photo.15.link: https://www.instagram.com/carsontheredpanda/
-photo.15.tags: home, portrait, tongue, whiskers
+photo.15.link: https://www.instagram.com/p/CB9vnj1h_ml
+photo.15.tags: home, portrait, sample, tongue, whiskers
 photo.16: ig://CC6RSR5lw4-/m
 photo.16.author: woodlandparkzoo
 photo.16.commitdate: 2020/8/2
@@ -105,11 +105,11 @@ photo.18.author: woodlandparkzoo
 photo.18.commitdate: 2020/12/21
 photo.18.link: https://www.instagram.com/woodlandparkzoo/
 photo.18.tags: smile
-photo.19: ig://CJuxR6nhDx0/m
+photo.19: cwdc://XbbKE5vADQH.jpg
 photo.19.author: carsontheredpanda
 photo.19.commitdate: 2021/1/28
-photo.19.link: https://www.instagram.com/carsontheredpanda/
-photo.19.tags: portrait, smile, tongue, whiskers
+photo.19.link: https://www.instagram.com/p/CJuxR6nhDx0
+photo.19.tags: portrait, sample, smile, tongue, whiskers
 photo.20: ig://CNpWCSlBhXm/m
 photo.20.author: happy_love2.15
 photo.20.commitdate: 2021/4/20
@@ -140,10 +140,10 @@ photo.25.author: woodlandparkzoo
 photo.25.commitdate: 2022/8/31
 photo.25.link: https://www.instagram.com/woodlandparkzoo/
 photo.25.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.26: ig://CeyzdqlJftc/m
+photo.26: cwdc://YFjOcZqADQG.jpg
 photo.26.author: carsontheredpanda
 photo.26.commitdate: 2022/8/30
-photo.26.link: https://www.instagram.com/carsontheredpanda/
+photo.26.link: https://www.instagram.com/p/CeyzdqlJftc
 photo.26.tags: portrait, sample, smile, tongue, whiskers
 photo.27: ig://CoIYsx4vSTX/m
 photo.27.author: memphiszoo

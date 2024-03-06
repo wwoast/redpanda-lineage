@@ -15,21 +15,21 @@ language.order: en, ja
 litter: 999
 location.1: 65, 2018/6/23
 location.2: 51, 2019/9/1
-photo.1: ig://BtE_dJIlGwB/m
+photo.1: cwdc://WiHmbWxADQA.jpg
 photo.1.author: _andersonchin
 photo.1.commitdate: 2019/10/25
-photo.1.link: https://www.instagram.com/_andersonchin/
-photo.1.tags: dark face, paws
+photo.1.link: https://www.instagram.com/p/BtE_dJIlGwB
+photo.1.tags: clos-up, dark face, paws, whiskers
 photo.2: ig://B1ezj3hDEIf/m
 photo.2.author: rossifari
 photo.2.commitdate: 2019/10/25
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: portrait
-photo.3: ig://B2q7sj5gJcA/m
+photo.3: cwdc://W1Te6MTADQA.jpg
 photo.3.author: cincinnatizoo
 photo.3.commitdate: 2019/10/25
-photo.3.link: https://www.instagram.com/cincinnatizoo/
-photo.3.tags: paws, smile, standing
+photo.3.link: https://www.instagram.com/p/B2q7sj5gJcA
+photo.3.tags: paws, playing, sample, smile, standing, whiskers
 photo.4: ig://B6yuonjBuNU/m
 photo.4.author: garseeyaink
 photo.4.commitdate: 2020/2/15
