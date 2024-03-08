@@ -183,11 +183,11 @@ photo.34.author: craig_craig_craig
 photo.34.commitdate: 2019/7/28
 photo.34.link: https://www.instagram.com/craig_craig_craig/
 photo.34.tags: portrait, smile, tongue
-photo.35: ig://B2wJe7WhCrO/m
+photo.35: cwdc://W1d6e7NADQA.jpg
 photo.35.author: ck.chie
 photo.35.commitdate: 2019/9/23
-photo.35.link: https://www.instagram.com/ck.chie/
-photo.35.tags: apple time, keeper, portrait
+photo.35.link: https://www.instagram.com/p/B2wJe7WhCrO
+photo.35.tags: apple time, keeper, portrait, sample
 photo.36: ig://B23gDVKBmeR/m
 photo.36.author: sulfa2
 photo.36.commitdate: 2019/10/9
@@ -373,11 +373,11 @@ photo.72.author: sunnylettuce_2024
 photo.72.commitdate: 2020/3/18
 photo.72.link: https://www.instagram.com/sunnylettuce_2024/
 photo.72.tags: mofumofu, paws, standing
-photo.73: ig://B852j35hAiC/m
+photo.73: cwdc://XBxUo0TADQB.jpg
 photo.73.author: ck.chie
 photo.73.commitdate: 2020/3/18
-photo.73.link: https://www.instagram.com/ck.chie/
-photo.73.tags: bamboo, mofumofu, paws, portrait, tongue
+photo.73.link: https://www.instagram.com/p/B852j35hAiC
+photo.73.tags: bamboo, mofumofu, paws, portrait, sample, tongue
 photo.74: ig://B87T6SyBRHE/m
 photo.74.author: kotume4935
 photo.74.commitdate: 2021/2/28
@@ -493,11 +493,11 @@ photo.96.author: na.mo.pan
 photo.96.commitdate: 2020/7/25
 photo.96.link: https://www.instagram.com/na.mo.pan/
 photo.96.tags: climb, paws, smile, tree
-photo.97: ig://CC104knBpFc/m
+photo.97: cwdc://XNpRSNuADQD.jpg
 photo.97.author: ck.chie
 photo.97.commitdate: 2020/7/25
-photo.97.link: https://www.instagram.com/ck.chie/
-photo.97.tags: mofumofu, portrait, whiskers
+photo.97.link: https://www.instagram.com/p/CC104knBpFc
+photo.97.tags: mofumofu, portrait, sample, whiskers
 photo.98: ig://CDBTnW5hUkM/m
 photo.98.author: kiarino51
 photo.98.commitdate: 2022/12/4
@@ -633,11 +633,11 @@ photo.124.author: ifumoto88
 photo.124.commitdate: 2021/4/29
 photo.124.link: https://www.instagram.com/ifumoto88/
 photo.124.tags: mofumofu, peek, portrait
-photo.125: ig://CNiyzJKhPTO/m
+photo.125: cwdc://XjDNHW1ADQE.jpg
 photo.125.author: ck.chie
 photo.125.commitdate: 2021/5/28
-photo.125.link: https://www.instagram.com/ck.chie/
-photo.125.tags: itchy, paws, portrait, smile
+photo.125.link: https://www.instagram.com/p/CNiyzJKhPTO
+photo.125.tags: itchy, paws, portrait, sample, smile
 photo.126: ig://CN7e5wNBgmf/m
 photo.126.author: ifumoto88
 photo.126.commitdate: 2021/5/3
@@ -663,15 +663,15 @@ photo.130.author: ifumoto88
 photo.130.commitdate: 2021/5/3
 photo.130.link: https://www.instagram.com/ifumoto88/
 photo.130.tags: portrait
-photo.131: ig://COebh0Xhlp1/m
+photo.131: cwdc://Xk6ektPADQF.jpg
 photo.131.author: ck.chie
 photo.131.commitdate: 2021/10/7
-photo.131.link: https://www.instagram.com/ck.chie/
-photo.131.tags: mofumofu, techitechi, whiskers
-photo.132: ig://COjJ0KFB6_s/m
+photo.131.link: https://www.instagram.com/p/COebh0Xhlp1
+photo.131.tags: lips, mofumofu, techitechi, whiskers
+photo.132: cwdc://XlD7JYqADQG.jpg
 photo.132.author: ck.chie
 photo.132.commitdate: 2021/10/7
-photo.132.link: https://www.instagram.com/ck.chie/
+photo.132.link: https://www.instagram.com/p/COjJ0KFB6_s
 photo.132.tags: peek, smile
 photo.133: ig://COplOzFBXp_/m
 photo.133.author: ifumoto88
@@ -778,10 +778,10 @@ photo.153.author: ifumoto88
 photo.153.commitdate: 2022/4/26
 photo.153.link: https://www.instagram.com/ifumoto88/
 photo.153.tags: bridge, laying down, mofumofu, portrait, sample, techitechi
-photo.154: ig://CbADNAXvGAK/m
+photo.154: cwdc://X99t7FPADQC.jpg
 photo.154.author: ck.chie
 photo.154.commitdate: 2022/4/10
-photo.154.link: https://www.instagram.com/ck.chie/
+photo.154.link: https://www.instagram.com/p/CbADNAXvGAK
 photo.154.tags: keeper, smile
 photo.155: ig://CbJp3TGLsMS/m
 photo.155.author: ifumoto88

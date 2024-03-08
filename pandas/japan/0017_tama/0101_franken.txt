@@ -43,11 +43,11 @@ photo.6.author: kotata_513
 photo.6.commitdate: 2018/7/21
 photo.6.link: https://www.instagram.com/kotata_513/
 photo.6.tags: portrait, tree
-photo.7: ig://BlCRFMCFfzR/m
+photo.7: cwdc://WSCJrckADQB.jpg
 photo.7.author: ck.chie
 photo.7.commitdate: 2018/7/21
-photo.7.link: https://www.instagram.com/ck.chie/
-photo.7.tags: keeper
+photo.7.link: https://www.instagram.com/p/BlCRFMCFfzR
+photo.7.tags: keeper, portrait
 photo.8: ig://Bo6FX2Pl6fQ/m
 photo.8.author: mofu_pan
 photo.8.commitdate: 2018/10/14
@@ -263,11 +263,11 @@ photo.50.author: ssc6105
 photo.50.commitdate: 2020/3/6
 photo.50.link: https://www.instagram.com/ssc6105/
 photo.50.tags: apple time, smile, tongue
-photo.51: ig://B9EphijhsMw/m
+photo.51: cwdc://XCG6kJnADQA.jpg
 photo.51.author: ck.chie
 photo.51.commitdate: 2020/11/28
-photo.51.link: https://www.instagram.com/ck.chie/
-photo.51.tags: air tasting, paws, tongue
+photo.51.link: https://www.instagram.com/p/B9EphijhsMw
+photo.51.tags: air tasting, paws, sample, tongue
 photo.52: ig://B9MUkKABwoG/m
 photo.52.author: mini_cochi
 photo.52.commitdate: 2020/3/6
@@ -413,11 +413,11 @@ photo.80.author: panda.daisuki
 photo.80.commitdate: 2020/11/10
 photo.80.link: https://www.instagram.com/panda.daisuki/
 photo.80.tags: paws, portrait, smile, tail
-photo.81: ig://CFLNarshcIs/m
+photo.81: cwdc://XSUCWb5ADQC.jpg
 photo.81.author: ck.chie
 photo.81.commitdate: 2021/2/24
-photo.81.link: https://www.instagram.com/ck.chie/
-photo.81.tags: bamboo, bite
+photo.81.link: https://www.instagram.com/p/CFLNarshcIs
+photo.81.tags: bamboo, bite, portrait, sample
 photo.82: ig://CFSYkC0hZxD/m
 photo.82.author: otenba_redpanda
 photo.82.commitdate: 2021/10/2
@@ -513,10 +513,10 @@ photo.100.author: mini_cochi
 photo.100.commitdate: 2021/10/2
 photo.100.link: https://www.instagram.com/mini_cochi/
 photo.100.tags: door, laying down, paws, portrait
-photo.101: ig://CVVKqeMhAp2/m
+photo.101: cwdc://Xyn82A5ADQF.jpg
 photo.101.author: ck.chie
 photo.101.commitdate: 2021/11/3
-photo.101.link: https://www.instagram.com/ck.chie/
+photo.101.link: https://www.instagram.com/p/CVVKqeMhAp2
 photo.101.tags: portrait, whiskers
 photo.102: ig://CVyt3reBO70/m
 photo.102.author: ssc6105
@@ -533,11 +533,11 @@ photo.104.author: otenba_redpanda
 photo.104.commitdate: 2021/11/28
 photo.104.link: https://www.instagram.com/otenba_redpanda/
 photo.104.tags: climb, paws, portrait, tail, tree
-photo.105: ig://CWk21ELBnbC/m
+photo.105: cwdc://X1HVLM2ADQG.jpg
 photo.105.author: ck.chie
 photo.105.commitdate: 2021/11/27
-photo.105.link: https://www.instagram.com/ck.chie/
-photo.105.tags: paws, playing, tail
+photo.105.link: https://www.instagram.com/p/CWk21ELBnbC
+photo.105.tags: paws, playing, sample, tail, whiskers
 photo.106: ig://CWwM9v1hNI7/m
 photo.106.author: otenba_redpanda
 photo.106.commitdate: 2022/1/9
@@ -648,10 +648,10 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2022/8/11
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: paws, portrait, sample, tail
-photo.128: ig://CgRTA8HvRxB/m
+photo.128: cwdc://YIgNi8vADQD.jpg
 photo.128.author: ck.chie
 photo.128.commitdate: 2023/2/21
-photo.128.link: https://www.instagram.com/ck.chie/
+photo.128.link: https://www.instagram.com/p/CgRTA8HvRxB
 photo.128.tags: paws, sample, whiskers
 photo.129: ig://ChW-RBOvn-7/m
 photo.129.author: ssc6105
@@ -663,10 +663,10 @@ photo.130.author: mini_cochi
 photo.130.commitdate: 2022/11/2
 photo.130.link: https://www.instagram.com/mini_cochi/
 photo.130.tags: paws, portrait, sample, tree, whiskers
-photo.131: ig://ChlD08xBh9w/m
+photo.131: cwdc://YLHvK-CADQE.jpg
 photo.131.author: ck.chie
 photo.131.commitdate: 2022/11/2
-photo.131.link: https://www.instagram.com/ck.chie/
+photo.131.link: https://www.instagram.com/p/ChlD08xBh9w
 photo.131.tags: door, paws, sample, whiskers
 photo.132: ig://Ch4SqbtOo43/m
 photo.132.author: mini_cochi

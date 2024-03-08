@@ -10,10 +10,10 @@ photo.1.tags: door, family
 photo.1.tags.103.location: 645, 545
 photo.1.tags.948.location: 390, 555
 photo.1.tags.949.location: 510, 530
-photo.2: ig://B8bSfIYBBkJ/l
+photo.2: cwdc://XA0MfVQADQA.jpg
 photo.2.author: ck.chie
 photo.2.commitdate: 2020/3/6
-photo.2.link: https://www.instagram.com/ck.chie/
+photo.2.link: https://www.instagram.com/p/B8bSfIYBBkJ
 photo.2.tags: bamboo, family, tree
 photo.2.tags.103.location: 645, 410
 photo.2.tags.948.location: 100, 500
@@ -26,10 +26,10 @@ photo.3.tags: family
 photo.3.tags.103.location: 770, 880
 photo.3.tags.948.location: 415, 250
 photo.3.tags.949.location: 480, 555
-photo.4: ig://B8iqu5gBEOj/m
+photo.4: cwdc://XBC8-3gADQB.jpg
 photo.4.author: ck.chie
 photo.4.commitdate: 2020/3/6
-photo.4.link: https://www.instagram.com/ck.chie/
+photo.4.link: https://www.instagram.com/p/B8iqu5gBEOj
 photo.4.tags: family, playing
 photo.4.tags.103.location: 235, 135
 photo.4.tags.948.location: 95, 140

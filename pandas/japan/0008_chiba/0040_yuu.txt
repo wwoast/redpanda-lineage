@@ -83,11 +83,11 @@ photo.14.author: panda.daisuki
 photo.14.commitdate: 2018/10/21
 photo.14.link: https://www.instagram.com/panda.daisuki/
 photo.14.tags: portrait
-photo.15: ig://BpqX4xoljcy/m
+photo.15: cwdc://WbSXSnxADQB.jpg
 photo.15.author: ck.chie
 photo.15.commitdate: 2018/11/2
-photo.15.link: https://www.instagram.com/ck.chie/
-photo.15.tags: portrait, techitechi, tongue
+photo.15.link: https://www.instagram.com/p/BpqX4xoljcy
+photo.15.tags: home, portrait, sapmle, tail, techitechi, tongue
 photo.16: ig://BpuEtZklyq6/m
 photo.16.author: panda.daisuki
 photo.16.commitdate: 2018/11/6
@@ -133,16 +133,16 @@ photo.24.author: ifumoto88
 photo.24.commitdate: 2019/4/5
 photo.24.link: https://www.instagram.com/ifumoto88/
 photo.24.tags: home, itchy, paws, portrait, tail
-photo.25: ig://BySHoPbB_dh/m
+photo.25: cwdc://Wsh2xjWADQD.jpg
 photo.25.author: ck.chie
 photo.25.commitdate: 2019/6/5
-photo.25.link: https://www.instagram.com/ck.chie/
-photo.25.tags: bite
-photo.26: ig://BykEISLBQvk/m
+photo.25.link: https://www.instagram.com/p/BySHoPbB_dh
+photo.25.tags: bite, home, portrait
+photo.26: cwdc://WtFvxo2ADQC.jpg
 photo.26.author: ck.chie
 photo.26.commitdate: 2019/6/13
-photo.26.link: https://www.instagram.com/ck.chie/
-photo.26.tags: bamboo, home
+photo.26.link: https://www.instagram.com/p/BykEISLBQvk
+photo.26.tags: bamboo, home, portrait, shoots
 photo.27: ig://BzQYLK1BSqC/m
 photo.27.author: ifumoto88
 photo.27.commitdate: 2019/7/2
@@ -178,11 +178,11 @@ photo.33.author: takahisakaneuchi
 photo.33.commitdate: 2019/12/3
 photo.33.link: https://www.instagram.com/takahisakaneuchi/
 photo.33.tags: mofumofu, paws, portrait, standing, tail, tongue, toys
-photo.34: ig://B5i-q4nB5Te/m
+photo.34: cwdc://W7Dk21uADQA.jpg
 photo.34.author: ck.chie
 photo.34.commitdate: 2019/12/5
-photo.34.link: https://www.instagram.com/ck.chie/
-photo.34.tags: home, paws, peek, portrait, whiskers
+photo.34.link: https://www.instagram.com/p/B5i-q4nB5Te
+photo.34.tags: home, paws, peek, portrait, sample, whiskers
 photo.35: ig://B5sJ2RGBMG4/m
 photo.35.author: grskus_tk
 photo.35.commitdate: 2019/12/10
@@ -383,15 +383,15 @@ photo.74.author: panda.daisuki
 photo.74.commitdate: 2021/10/10
 photo.74.link: https://www.instagram.com/panda.daisuki/
 photo.74.tags: laying down, mofumofu, paws, portrait
-photo.75: ig://CTjaOYwLwx9/m
+photo.75: cwdc://XvEb92AADQE.jpg
 photo.75.author: ck.chie
 photo.75.commitdate: 2021/10/10
-photo.75.link: https://www.instagram.com/ck.chie/
-photo.75.tags: laying down, mofumofu, paws
-photo.76: ig://CTnnIm7BNc5/m
+photo.75.link: https://www.instagram.com/p/CTjaOYwLwx9
+photo.75.tags: laying down, mofumofu, paws, sample
+photo.76: cwdc://XvM1ySWADQF.jpg
 photo.76.author: ck.chie
 photo.76.commitdate: 2021/11/19
-photo.76.link: https://www.instagram.com/ck.chie/
+photo.76.link: https://www.instagram.com/p/CTnnIm7BNc5
 photo.76.tags: laying down, peek, portrait
 photo.77: ig://CWq-vGthcke/m
 photo.77.author: hamamatsu.chiita

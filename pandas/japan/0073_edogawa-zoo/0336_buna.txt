@@ -51,11 +51,11 @@ photo.7.author: na.mo.pan
 photo.7.commitdate: 2018/9/8
 photo.7.link: https://www.instagram.com/na.mo.pan/
 photo.7.tags: portrait
-photo.8: ig://BlURyiFlF5w/m
+photo.8: cwdc://WSmLGIrADQB.jpg
 photo.8.author: ck.chie
 photo.8.commitdate: 2018/9/8
-photo.8.link: https://www.instagram.com/ck.chie/
-photo.8.tags: old, portrait, smile
+photo.8.link: https://www.instagram.com/p/BlURyiFlF5w
+photo.8.tags: old, portrait, sample, smile
 photo.9: ig://Bmx1CzKFPDp/m
 photo.9.author: monmon_redpanda
 photo.9.commitdate: 2018/9/8
@@ -101,11 +101,11 @@ photo.17.author: firefoxpanda88
 photo.17.commitdate: 2019/4/5
 photo.17.link: https://www.instagram.com/firefoxpanda88/
 photo.17.tags: old, flowers
-photo.18: ig://BxCQyOXFlPm/m
+photo.18: cwdc://WqCJFhOADQC.jpg
 photo.18.author: ck.chie
 photo.18.commitdate: 2019/5/5
-photo.18.link: https://www.instagram.com/ck.chie/
-photo.18.tags: laying down, portrait, yawn
+photo.18.link: https://www.instagram.com/p/BxCQyOXFlPm
+photo.18.tags: laying down, portrait, sample, yawn
 photo.19: ig://Byb0D-7hBmM/m
 photo.19.author: framereim
 photo.19.commitdate: 2019/6/8
@@ -216,11 +216,11 @@ photo.40.author: ifumoto88
 photo.40.commitdate: 2020/2/16
 photo.40.link: https://www.instagram.com/ifumoto88/
 photo.40.tags: old, paws, portrait
-photo.41: ig://B88cu4aBAV-/m
+photo.41: cwdc://XB2g-1UADQA.jpg
 photo.41.author: ck.chie
 photo.41.commitdate: 2020/3/2
-photo.41.link: https://www.instagram.com/ck.chie/
-photo.41.tags: paws, portrait, tail
+photo.41.link: https://www.instagram.com/p/B88cu4aBAV-
+photo.41.tags: old, paws, portrait, sample, tail
 photo.42: ig://B9HPs6XBTSx/m
 photo.42.author: ifumoto88
 photo.42.commitdate: 2020/3/9
@@ -266,11 +266,11 @@ photo.50.author: _sah_ax7
 photo.50.commitdate: 2020/6/13
 photo.50.link: https://www.instagram.com/_sah_ax7/
 photo.50.tags: home, laying down, old, tongue
-photo.51: ig://CA1WJv2hF4s/m
+photo.51: cwdc://XJoT0kNADQD.jpg
 photo.51.author: ck.chie
 photo.51.commitdate: 2020/6/13
-photo.51.link: https://www.instagram.com/ck.chie/
-photo.51.tags: home, laying down, old
+photo.51.link: https://www.instagram.com/p/CA1WJv2hF4s
+photo.51.tags: door, home, laying down, old
 photo.52: ig://CA4V-CYhGlb/m
 photo.52.author: _sah_ax7
 photo.52.commitdate: 2020/6/13
@@ -281,16 +281,16 @@ photo.53.author: _sah_ax7
 photo.53.commitdate: 2020/6/13
 photo.53.link: https://www.instagram.com/_sah_ax7/
 photo.53.tags: home, laying down, old, sleeping
-photo.54: ig://CBJuD4ShRdP/m
+photo.54: cwdc://XKRDo1FADQE.jpg
 photo.54.author: ck.chie
 photo.54.commitdate: 2020/6/13
-photo.54.link: https://www.instagram.com/ck.chie/
-photo.54.tags: home, laying down, old, smile
-photo.55: ig://CBMwmLYBARy/m
+photo.54.link: https://www.instagram.com/p/CBJuD4ShRdP
+photo.54.tags: door, home, laying down, old, smile
+photo.55: cwdc://XKXItbQADQF.jpg
 photo.55.author: ck.chie
 photo.55.commitdate: 2020/6/13
-photo.55.link: https://www.instagram.com/ck.chie/
-photo.55.tags: home, laying down, old
+photo.55.link: https://www.instagram.com/p/CBMwmLYBARy
+photo.55.tags: door, home, laying down, old, sample
 photo.56: ig://CBhdudzp6lR/m
 photo.56.author: gomasio_zoophoto
 photo.56.commitdate: 2022/1/7
@@ -691,20 +691,20 @@ photo.135.author: edogawa.kankyozaidan
 photo.135.commitdate: 2023/10/28
 photo.135.link: https://www.instagram.com/edogawa.kankyozaidan/
 photo.135.tags: close-up, dish, old, lunch time
-photo.136: ig://CuJV7w_vEYY/m
+photo.136: cwdc://YkQTYmfADQG.jpg
 photo.136.author: ck.chie
 photo.136.commitdate: 2023/10/28
-photo.136.link: https://www.instagram.com/ck.chie/
-photo.136.tags: bamboo, door, tail
+photo.136.link: https://www.instagram.com/p/CuJV7w_vEYY
+photo.136.tags: bamboo, door, old, tail
 photo.137: ig://CuxwaFNBLji/m
 photo.137.author: edogawa.kankyozaidan
 photo.137.commitdate: 2023/9/21
 photo.137.link: https://www.instagram.com/edogawa.kankyozaidan/
 photo.137.tags: close-up, dish, lunch time, old
-photo.138: ig://Cuy0lm2v-al/m
+photo.138: cwdc://YljQsSNADQH.jpg
 photo.138.author: ck.chie
 photo.138.commitdate: 2023/9/21
-photo.138.link: https://www.instagram.com/ck.chie/
+photo.138.link: https://www.instagram.com/p/Cuy0lm2v-al
 photo.138.tags: door, peek
 photo.139: ig://CuzMbzdP3JS/m
 photo.139.author: na.mo.pan
