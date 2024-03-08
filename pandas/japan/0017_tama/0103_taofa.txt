@@ -58,6 +58,7 @@ photo.9: cwdc://Wa9w6XVADQC.jpg
 photo.9.author: ck.chie
 photo.9.commitdate: 2018/10/29
 photo.9.link: https://www.instagram.com/p/BpgEspalZzI
+photo.9.tags: peek, portrait, whiskers
 photo.10: ig://BpwDoaPleqF/m
 photo.10.author: roko_mm
 photo.10.commitdate: 2018/11/5
@@ -1061,4 +1062,3 @@ photo.209.tags: paws, portrait, sample, tree, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17
-photo.9.tags: peek, portrait, whiskers

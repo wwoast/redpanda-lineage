@@ -842,6 +842,7 @@ photo.166: cwdc://W7K48qhADQD.jpg
 photo.166.author: ck.chie
 photo.166.commitdate: 2019/12/7
 photo.166.link: https://www.instagram.com/p/B5motzAhXvM
+photo.166.tags: tree
 photo.167: ig://B5mwSjDBHk6/m
 photo.167.author: pink.b22
 photo.167.commitdate: 2019/12/7
@@ -1455,4 +1456,3 @@ photo.288.tags: sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 10
-photo.166.tags: tree
