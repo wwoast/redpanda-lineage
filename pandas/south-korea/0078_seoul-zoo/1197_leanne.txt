@@ -873,8 +873,6 @@ photo.171.author: tamazoowalking
 photo.171.commitdate: 2023/8/11
 photo.171.link: https://www.instagram.com/tamazoowalking/
 photo.171.tags: paws, sample, standing, whiskers
-species: 2
-zoo: 78
 photo.172: cwdc://YRHnNKlADQC.jpg
 photo.172.author: ck.chie
 photo.172.commitdate: 2024/3/8
@@ -895,3 +893,5 @@ photo.175.author: ck.chie
 photo.175.commitdate: 2024/3/8
 photo.175.link: https://www.instagram.com/p/Ck5c9ddPloT
 photo.175.tags: sample, tail, tree
+species: 2
+zoo: 78
