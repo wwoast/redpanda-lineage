@@ -568,11 +568,11 @@ photo.110.author: ck.chie
 photo.110.commitdate: 2022/8/5
 photo.110.link: https://www.instagram.com/p/Cgu_q3MBhRB
 photo.110.tags: carry, portrait, sample, whiskers
-photo.111: ig://Cg6vz5bho0t/m
+photo.111: cwdc://YJzHI3XADQA.jpg
 photo.111.author: ck.chie
 photo.111.commitdate: 2022/8/11
-photo.111.link: https://www.instagram.com/ck.chie/
-photo.111.tags: flowers, peek, smile, whiskers
+photo.111.link: https://www.instagram.com/p/Cg6vz5bho0t
+photo.111.tags: flowers, peek, sample, smile, whiskers
 photo.112: ig://ChUahuuraBH/m
 photo.112.author: mini_cochi
 photo.112.commitdate: 2022/8/18
@@ -598,10 +598,10 @@ photo.116.author: osopanda551
 photo.116.commitdate: 2022/8/30
 photo.116.link: https://www.instagram.com/osopanda551/
 photo.116.tags: peek, portrait, smile, whiskers
-photo.117: ig://ChorTT9hXz8/m
+photo.117: cwdc://YLO-HsbADQA.jpg
 photo.117.author: ck.chie
 photo.117.commitdate: 2022/11/2
-photo.117.link: https://www.instagram.com/ck.chie/
+photo.117.link: https://www.instagram.com/p/ChorTT9hXz8
 photo.117.tags: flowers, sample, smile, tail, tree, upside-down, whiskers
 photo.118: ig://ChrTmyGvmLA/m
 photo.118.author: na.mo.pan
@@ -648,15 +648,15 @@ photo.126.author: mini_cochi
 photo.126.commitdate: 2022/10/7
 photo.126.link: https://www.instagram.com/mini_cochi/
 photo.126.tags: peek, portrait, sample, smile, tree, whiskers
-photo.127: ig://CiXQKdwJpUU/m
+photo.127: cwdc://YMsH2AAADQA.jpg
 photo.127.author: ck.chie
 photo.127.commitdate: 2022/10/13
-photo.127.link: https://www.instagram.com/ck.chie/
-photo.127.tags: paws, sample, smile, techitechi
-photo.128: ig://CigU4tNh_XK/m
+photo.127.link: https://www.instagram.com/p/CiXQKdwJpUU
+photo.127.tags: close-up, paws, sample, smile, techitechi, tree
+photo.128: cwdc://YM-RSe7ADQA.jpg
 photo.128.author: ck.chie
 photo.128.commitdate: 2022/11/10
-photo.128.link: https://www.instagram.com/ck.chie/
+photo.128.link: https://www.instagram.com/p/CigU4tNh_XK
 photo.128.tags: door, paws, portrait, sample, smile, whiskers
 photo.129: ig://CjMM4oSBacI/m
 photo.129.author: alto0908
@@ -688,10 +688,10 @@ photo.134.author: tamazoowalking
 photo.134.commitdate: 2023/1/27
 photo.134.link: https://www.instagram.com/tamazoowalking/
 photo.134.tags: paws, portrait, sample, surprise, whiskers
-photo.135: ig://ClDz4MzvLia/m
+photo.135: cwdc://YSFPReHADQE.jpg
 photo.135.author: ck.chie
 photo.135.commitdate: 2023/1/27
-photo.135.link: https://www.instagram.com/ck.chie/
+photo.135.link: https://www.instagram.com/p/ClDz4MzvLia
 photo.135.tags: paws, sample, smile, tail, whiskers
 photo.136: ig://ClD3xlMLmQI/m
 photo.136.author: ifumoto88
@@ -875,3 +875,23 @@ photo.171.link: https://www.instagram.com/tamazoowalking/
 photo.171.tags: paws, sample, standing, whiskers
 species: 2
 zoo: 78
+photo.172: cwdc://YRHnNKlADQC.jpg
+photo.172.author: ck.chie
+photo.172.commitdate: 2024/3/8
+photo.172.link: https://www.instagram.com/p/Ckk_2DCv-WN
+photo.172.tags: paws, sample, smile
+photo.173: cwdc://YRWBktAADQD.jpg
+photo.173.author: ck.chie
+photo.173.commitdate: 2024/3/8
+photo.173.link: https://www.instagram.com/p/CksNB0QO7zy
+photo.173.tags: sample
+photo.174: cwdc://YRmjWyIADQA.jpg
+photo.174.author: ck.chie
+photo.174.commitdate: 2024/3/8
+photo.174.link: https://www.instagram.com/p/Ck0d620P2sx
+photo.174.tags: sample, tail, tree, whiskers
+photo.175: cwdc://YRwhb_aADQB.jpg
+photo.175.author: ck.chie
+photo.175.commitdate: 2024/3/8
+photo.175.link: https://www.instagram.com/p/Ck5c9ddPloT
+photo.175.tags: sample, tail, tree
