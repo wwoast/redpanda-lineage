@@ -27,10 +27,12 @@ photo.2: cwdc://WYvw_fIADQC.jpg
 photo.2.author: takahisakaneuchi
 photo.2.commitdate: 2018/10/15
 photo.2.link: https://www.instagram.com/p/BoZEvNUFbP3
+photo.2.tags: paws, portrait, sample
 photo.3: cwdc://WZsmWwOADQA.jpg
 photo.3.author: craig_craig_craig
 photo.3.commitdate: 2018/10/13
 photo.3.link: https://www.instagram.com/p/Bo3fa13FYlZ
+photo.3.tags: sample
 photo.4: cwdc://WrHnJgVADQA.jpg
 photo.4.author: rie_panda55
 photo.4.commitdate: 2019/5/19
@@ -126,11 +128,6 @@ photo.22.author: fetorus_mami
 photo.22.commitdate: 2023/9/12
 photo.22.link: https://www.instagram.com/p/CxFndKIP6Zf
 photo.22.tags: peek, portrait, sample
-species: 2
-studbook.id: 0459
-zoo: 25
-photo.2.tags: paws, portrait, sample
-photo.3.tags: sample
 photo.23: cwdc://YqdzMFzADQB.jpg
 photo.23.author: fetorus_mami
 photo.23.commitdate: 2024/3/8
@@ -141,3 +138,6 @@ photo.24.author: fetorus_mami
 photo.24.commitdate: 2024/3/8
 photo.24.link: https://www.instagram.com/p/Cxz5JylPeP9
 photo.24.tags: paws, peek, sample
+species: 2
+studbook.id: 0459
+zoo: 25
