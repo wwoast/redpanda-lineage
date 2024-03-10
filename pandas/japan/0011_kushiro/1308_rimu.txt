@@ -177,6 +177,7 @@ photo.33: cwdc://YE-v3LsADQA.jpg
 photo.33.author: fetorus_mami
 photo.33.commitdate: 2022/6/22
 photo.33.link: https://www.instagram.com/p/CegkLDmBl9o
+photo.33.tags: mofumofu
 photo.34: cwdc://YHYaBuwADQM.jpg
 photo.34.author: komabazoophoto
 photo.34.commitdate: 2022/7/31
@@ -222,11 +223,10 @@ photo.42.author: komabazoophoto
 photo.42.commitdate: 2024/3/10
 photo.42.link: https://www.instagram.com/p/C0MH1lJyfVa
 photo.42.tags: grooming, paws
-species: 2
-zoo: 11
-photo.33.tags: mofumofu
 photo.43: cwdc://YuniJRFADQC.jpg
 photo.43.author: minatomirai215
 photo.43.commitdate: 2024/3/10
 photo.43.link: https://www.instagram.com/p/CzU9UGSvr5B
 photo.43.tags: door, portrait, sample, whiskers
+species: 2
+zoo: 11

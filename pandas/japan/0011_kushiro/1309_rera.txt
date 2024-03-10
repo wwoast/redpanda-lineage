@@ -198,8 +198,6 @@ photo.37.author: komabazoophoto
 photo.37.commitdate: 2024/3/10
 photo.37.link: https://www.instagram.com/p/C1HT-4-yoGI
 photo.37.tags: sample, tail
-species: 2
-zoo: 11
 photo.38: cwdc://YRYd96IADQB.jpg
 photo.38.author: nakacchi_desu
 photo.38.commitdate: 2024/3/10
@@ -210,3 +208,5 @@ photo.39.author: minatomirai215
 photo.39.commitdate: 2024/3/10
 photo.39.link: https://www.instagram.com/p/CwKkSfePOSP
 photo.39.tags: mofumofu, peek, portrait, sample
+species: 2
+zoo: 11
