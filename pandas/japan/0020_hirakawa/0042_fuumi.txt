@@ -180,6 +180,7 @@ photo.33: cwdc://Xz6lm6_ADQA.jpg
 photo.33.author: joy93.87
 photo.33.commitdate: 2021/11/10
 photo.33.link: https://www.instagram.com/p/CV-fC7PhUXV
+photo.33.tags: sample
 photo.34: cwdc://X2ukad7ADQA.jpg
 photo.34.author: kotata_513
 photo.34.commitdate: 2022/2/20
@@ -260,10 +261,6 @@ photo.49.author: hamamatsu.chiita
 photo.49.commitdate: 2023/7/31
 photo.49.link: https://www.instagram.com/p/CvNtHiSBp_G
 photo.49.tags: close-up, mofumofu, portrait, sample
-species: 2
-studbook.id: 0774
-zoo: 20
-photo.33.tags: sample
 photo.50: cwdc://Y0eLEVPADQJ.jpg
 photo.50.author: hamamatsu.chiita
 photo.50.commitdate: 2024/3/10
@@ -469,3 +466,6 @@ photo.90.author: hamamatsu.chiita
 photo.90.commitdate: 2024/3/10
 photo.90.link: https://www.instagram.com/p/C1_DC0IvfSe
 photo.90.tags: peek, portrait, toys
+species: 2
+studbook.id: 0774
+zoo: 20
