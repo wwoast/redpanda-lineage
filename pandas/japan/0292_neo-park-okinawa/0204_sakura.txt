@@ -155,11 +155,11 @@ photo.28.author: love__mitarashi
 photo.28.commitdate: 2020/2/27
 photo.28.link: https://www.instagram.com/love__mitarashi/
 photo.28.tags: bamboo, portrait
-photo.29: ig://B9xbBXuBID5/m
+photo.29: cwdc://XDgdjz8ADQA.jpg
 photo.29.author: miis_98
 photo.29.commitdate: 2020/3/18
-photo.29.link: https://www.instagram.com/miis_98/
-photo.29.tags: home, paws, portrait, tail, techitechi
+photo.29.link: https://www.instagram.com/p/B9xbBXuBID5
+photo.29.tags: home, paws, portrait, sample, tail, techitechi
 photo.30: ig://B91TUTUhJmM/m
 photo.30.author: love__mitarashi
 photo.30.commitdate: 2020/3/18
@@ -243,3 +243,8 @@ photo.45.tags: blink, laying down, mofumofu, paws, portrait
 species: 2
 studbook.id: 15140
 zoo: 292
+photo.46: cwdc://YxtCSJ6ADQA.jpg
+photo.46.author: daniele.tokyo
+photo.46.commitdate: 2024/3/10
+photo.46.link: https://www.instagram.com/p/C03tYitPH42
+photo.46.tags: paws, sample, toys

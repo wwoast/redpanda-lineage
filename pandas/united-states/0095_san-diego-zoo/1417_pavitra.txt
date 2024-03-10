@@ -25,3 +25,8 @@ photo.2.link: https://www.instagram.com/sandiegozoo/
 photo.2.tags: baby, close-up, paws, portrait, sample, tree
 species: 2
 zoo: 95
+photo.3: cwdc://Y2PdOZOADQA.jpg
+photo.3.author: sandiegozoo
+photo.3.commitdate: 2024/3/10
+photo.3.link: https://www.instagram.com/p/C3I62qXMsbO
+photo.3.tags: portrait, sample, tree, whiskers
