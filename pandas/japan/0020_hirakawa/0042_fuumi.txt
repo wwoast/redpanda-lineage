@@ -16,250 +16,456 @@ language.order: ja, en
 litter: 85
 location.1: 8, 2007/7/11
 location.2: 20, 2011/2/7
-photo.1: ig://b_V-dArpNv/m
+photo.1: cwdc://T_8Td-hADQA.jpg
 photo.1.author: honeyandyogurt
 photo.1.commitdate: 2018/12/30
-photo.1.link: https://www.instagram.com/honeyandyogurt/
-photo.1.tags: portrait, tongue, tree
-photo.2: ig://BSq3wlelbRd/m
+photo.1.link: https://www.instagram.com/p/b_V-dArpNv
+photo.1.tags: paws, portrait, sample, tongue, tree
+photo.2: cwdc://VtTXCPdADQA.jpg
 photo.2.author: yuki_s_071819
 photo.2.commitdate: 2018/12/30
-photo.2.link: https://www.instagram.com/yuki_s_071819/
-photo.2.tags: itchy, paws, portrait
-photo.3: ig://BfPLoRQnIfg/m
+photo.2.link: https://www.instagram.com/p/BSq3wlelbRd
+photo.2.tags: itchy, paws, portrait, sample
+photo.3: cwdc://WGb-xnBADQA.jpg
 photo.3.author: yossi929
 photo.3.commitdate: 2018/7/21
-photo.3.link: https://www.instagram.com/yossi929/
-photo.3.tags: portrait
-photo.4: ig://BfxtBWCn1iP/m
+photo.3.link: https://www.instagram.com/p/BfPLoRQnIfg
+photo.3.tags: portrait, sample
+photo.4: cwdc://WHhBjwlADQB.jpg
 photo.4.author: yossi929
 photo.4.commitdate: 2018/7/21
-photo.4.link: https://www.instagram.com/yossi929/
-photo.4.tags: portrait
-photo.5: ig://BhsiuHTlKG8/m
+photo.4.link: https://www.instagram.com/p/BfxtBWCn1iP
+photo.4.tags: portrait, sample
+photo.5: cwdc://WLWs9THADQA.jpg
 photo.5.author: _natsu_panda_
 photo.5.commitdate: 2018/7/21
-photo.5.link: https://www.instagram.com/_natsu_panda_/
-photo.5.tags: bamboo, portrait, smile
-photo.6: ig://BlaIB7VAnNi/m
+photo.5.link: https://www.instagram.com/p/BhsiuHTlKG8
+photo.5.tags: bamboo, paws, portrait, sample, smile
+photo.6: cwdc://WSx3k7KADQA.jpg
 photo.6.author: mito_photo
 photo.6.commitdate: 2018/7/21
-photo.6.link: https://www.instagram.com/mito_photo/
-photo.6.tags: bamboo, portrait, tail
-photo.7: ig://Bnq5BmCFWkd/m
+photo.6.link: https://www.instagram.com/p/BlaIB7VAnNi
+photo.6.tags: bamboo, portrait, sample, tail
+photo.7: cwdc://WXTZkQkADQA.jpg
 photo.7.author: peek_a_boo00
 photo.7.commitdate: 2020/4/26
-photo.7.link: https://www.instagram.com/peek_a_boo00/
-photo.7.tags: laying down, paws, portrait, tree
-photo.8: ig://By1JF-7heRS/m
+photo.7.link: https://www.instagram.com/p/Bnq5BmCFWkd
+photo.7.tags: distance, laying down, paws, portrait, tree
+photo.8: cwdc://Wtn5tCXADQC.jpg
 photo.8.author: yossi929
 photo.8.commitdate: 2019/6/19
-photo.8.link: https://www.instagram.com/yossi929/
-photo.8.tags: smile
-photo.9: ig://By3naJCBlrg/m
+photo.8.link: https://www.instagram.com/p/By1JF-7heRS
+photo.8.tags: paws, sample, smile, whiskers
+photo.9: cwdc://Wts2VWkADQA.jpg
 photo.9.author: tomo3700
 photo.9.commitdate: 2019/6/21
-photo.9.link: https://www.instagram.com/tomo3700/
-photo.9.tags: keeper, portrait, tongue
-photo.10: ig://By4tgq7hNgZ/m
+photo.9.link: https://www.instagram.com/p/By3naJCBlrg
+photo.9.tags: keeper, portrait, sample, tongue, whiskers
+photo.10: cwdc://WtvCiaXADQD.jpg
 photo.10.author: yossi929
 photo.10.commitdate: 2019/6/21
-photo.10.link: https://www.instagram.com/yossi929/
-photo.10.tags: keeper, portrait, tongue
-photo.11: ig://Bzfilq5htWk/m
+photo.10.link: https://www.instagram.com/p/By4tgq7hNgZ
+photo.10.tags: keeper, portrait, sample, tongue, whiskers
+photo.11: cwdc://Wu8ssaTADQA.jpg
 photo.11.author: jas_forever_love
 photo.11.commitdate: 2019/7/7
-photo.11.link: https://www.instagram.com/jas_forever_love/
-photo.11.tags: paws, portrait, tree
-photo.12: ig://B2Ra-ARhfUQ/m
+photo.11.link: https://www.instagram.com/p/Bzfilq5htWk
+photo.11.tags: paws, portrait, sample, tree
+photo.12: cwdc://W0gddFDADQA.jpg
 photo.12.author: mishimarugo
 photo.12.commitdate: 2019/9/13
-photo.12.link: https://www.instagram.com/mishimarugo/
-photo.12.tags: bridge, portrait, smile, tree
-photo.13: ig://B2YJtxZBQKB/m
+photo.12.link: https://www.instagram.com/p/B2Ra-ARhfUQ
+photo.12.tags: bridge, paws, portrait, sample, smile, tree
+photo.13: cwdc://W0t68nSADQC.jpg
 photo.13.author: mishimarugo
 photo.13.commitdate: 2019/9/27
-photo.13.link: https://www.instagram.com/mishimarugo/
-photo.13.tags: laying down, paws, portrait, tree
-photo.14: ig://B2psEPEBSNN/m
+photo.13.link: https://www.instagram.com/p/B2YJtxZBQKB
+photo.13.tags: laying down, paws, portrait, sample, tree
+photo.14: cwdc://W1Q_pioADQA.jpg
 photo.14.author: miis_98
 photo.14.commitdate: 2019/9/21
-photo.14.link: https://www.instagram.com/miis_98/
-photo.14.tags: portrait, smile
+photo.14.link: https://www.instagram.com/p/B2psEPEBSNN
+photo.14.tags: portrait, sample, smile, tongue
 photo.15: cwdc://W1TSY6uADQA.jpg
 photo.15.author: yakko____
 photo.15.commitdate: 2019/9/21
 photo.15.link: https://www.instagram.com/p/B2q1b7HBMJv
 photo.15.tags: paws, portrait, profile, sample, smile
-photo.16: ig://B2rRJRGBiOh/m
+photo.16: cwdc://W1UJzmsADQB.jpg
 photo.16.author: mishimarugo
 photo.16.commitdate: 2019/9/27
-photo.16.link: https://www.instagram.com/mishimarugo/
-photo.16.tags: paws, portrait, tree, tongue
-photo.17: ig://B6KOmBrhPQ3/m
+photo.16.link: https://www.instagram.com/p/B2rRJRGBiOh
+photo.16.tags: paws, portrait, sample, tongue, tree
+photo.17: cwdc://W8SEtH3ADQA.jpg
 photo.17.author: yakkooo24
 photo.17.commitdate: 2019/12/29
-photo.17.link: https://www.instagram.com/yakkooo24/
+photo.17.link: https://www.instagram.com/p/B6KOmBrhPQ3
 photo.17.tags: autum, paws, portrait, standing, tail, toys
-photo.18: ig://B6sozqXBRiB/m
+photo.18: cwdc://W9W5IZOADQA.jpg
 photo.18.author: mifko55
 photo.18.commitdate: 2019/12/31
-photo.18.link: https://www.instagram.com/mifko55/
-photo.18.tags: bamboo, paws, portrait
-photo.19: ig://B79pgPIBl8M/m
+photo.18.link: https://www.instagram.com/p/B6sozqXBRiB
+photo.18.tags: bamboo, close-up, paws, portrait, sample
+photo.19: cwdc://W_46hiwADQB.jpg
 photo.19.author: yakkooo24
 photo.19.commitdate: 2020/2/3
-photo.19.link: https://www.instagram.com/yakkooo24/
-photo.19.tags: paws, portrait, standing
-photo.20: ig://B-HcJfshs2w/m
+photo.19.link: https://www.instagram.com/p/B79pgPIBl8M
+photo.19.tags: paws, portrait, sample, standing
+photo.20: cwdc://XEMf0D5ADQD.jpg
 photo.20.author: mishimarugo
 photo.20.commitdate: 2020/5/19
-photo.20.link: https://www.instagram.com/mishimarugo/
-photo.20.tags: portrait, techitechi
-photo.21: ig://CAa2nmdhoA6/m
+photo.20.link: https://www.instagram.com/p/B-HcJfshs2w
+photo.20.tags: portrait, sample, techitechi
+photo.21: cwdc://XIzUwRbADQB.jpg
 photo.21.author: hamiiiii831_
 photo.21.commitdate: 2020/5/27
-photo.21.link: https://www.instagram.com/hamiiiii831_/
+photo.21.link: https://www.instagram.com/p/CAa2nmdhoA6
 photo.21.tags: portrait, smile, tongue, toys
-photo.22: ig://CDGmv5khcqq/m
+photo.22: cwdc://XOK1A3pADQA.jpg
 photo.22.author: monmon_redpanda
 photo.22.commitdate: 2020/7/28
-photo.22.link: https://www.instagram.com/monmon_redpanda/
-photo.22.tags: portrait, whiskers
-photo.23: ig://CHaAXSWh4dz/m
+photo.22.link: https://www.instagram.com/p/CDGmv5khcqq
+photo.22.tags: portrait, sample, whiskers
+photo.23: cwdc://XWxoPpNADQB.jpg
 photo.23.author: miis_98
 photo.23.commitdate: 2020/11/20
-photo.23.link: https://www.instagram.com/miis_98/
-photo.23.tags: paws, portrait, smile, tail
-photo.24: ig://CH1HRkKBpve/m
+photo.23.link: https://www.instagram.com/p/CHaAXSWh4dz
+photo.23.tags: paws, portrait, sample, smile, tail
+photo.24: cwdc://XXn2EM0ADQG.jpg
 photo.24.author: yossi929
 photo.24.commitdate: 2020/12/2
-photo.24.link: https://www.instagram.com/yossi929/
+photo.24.link: https://www.instagram.com/p/CH1HRkKBpve
 photo.24.tags: keeper, nose, portrait, training
-photo.25: ig://CKOh_2_B5Qy/m
+photo.25: cwdc://XcargyeADQA.jpg
 photo.25.author: sasapan34
 photo.25.commitdate: 2021/6/8
-photo.25.link: https://www.instagram.com/sasapan34/
-photo.25.tags: laying down, paws
-photo.26: ig://CL6vegLB0qO/m
+photo.25.link: https://www.instagram.com/p/CKOh_2_B5Qy
+photo.25.tags: laying down, paws, sample
+photo.26: cwdc://XfzGeE2ADQB.jpg
 photo.26.author: mifko55
 photo.26.commitdate: 2021/3/10
-photo.26.link: https://www.instagram.com/mifko55/
+photo.26.link: https://www.instagram.com/p/CL6vegLB0qO
 photo.26.tags: hammock, paws, portrait, tongue
-photo.27: ig://CMiXb3cBd1p/m
+photo.27: cwdc://XhCWYzYADQH.jpg
 photo.27.author: yossi929
 photo.27.commitdate: 2021/6/8
-photo.27.link: https://www.instagram.com/yossi929/
+photo.27.link: https://www.instagram.com/p/CMiXb3cBd1p
 photo.27.tags: hammock, peek, tongue
-photo.28: ig://CPRc50yhnW4/m
+photo.28: cwdc://XmghUuFADQJ.jpg
 photo.28.author: yossi929
 photo.28.commitdate: 2021/6/8
-photo.28.link: https://www.instagram.com/yossi929/
-photo.28.tags: portrait, whiskers
-photo.29: ig://CPWoIQwhEao/m
+photo.28.link: https://www.instagram.com/p/CPRc50yhnW4
+photo.28.tags: portrait, sample, whiskers
+photo.29: cwdc://Xmq3xmBADQK.jpg
 photo.29.author: yossi929
 photo.29.commitdate: 2021/6/8
-photo.29.link: https://www.instagram.com/yossi929/
-photo.29.tags: keeper, portrait, smile
-photo.30: ig://CPeq_GgBw8X/m
+photo.29.link: https://www.instagram.com/p/CPWoIQwhEao
+photo.29.tags: keeper, portrait, smile, toothbrush
+photo.30: cwdc://Xm69fRgADQI.jpg
 photo.30.author: yossi929
 photo.30.commitdate: 2021/6/8
-photo.30.link: https://www.instagram.com/yossi929/
+photo.30.link: https://www.instagram.com/p/CPeq_GgBw8X
 photo.30.tags: bamboo, laying down
-photo.31: ig://CP4coWNhJLY/m
+photo.31: cwdc://Xnugxw7ADQB.jpg
 photo.31.author: sasapan34
 photo.31.commitdate: 2021/6/24
-photo.31.link: https://www.instagram.com/sasapan34/
-photo.31.tags: mofumofu, smile
-photo.32: ig://CQLcSSaLuu_/m
+photo.31.link: https://www.instagram.com/p/CP4coWNhJLY
+photo.31.tags: mofumofu, sample, smile
+photo.32: cwdc://XoUgFpUADQL.jpg
 photo.32.author: yossi929
 photo.32.commitdate: 2021/6/19
-photo.32.link: https://www.instagram.com/yossi929/
-photo.32.tags: mofumofu, paws, smile
-photo.33: ig://CV-fC7PhUXV/m
+photo.32.link: https://www.instagram.com/p/CQLcSSaLuu_
+photo.32.tags: mofumofu, paws, sample, smile
+photo.33: cwdc://Xz6lm6_ADQA.jpg
 photo.33.author: joy93.87
 photo.33.commitdate: 2021/11/10
-photo.33.link: https://www.instagram.com/joy93.87/
-photo.34: ig://CXYecsthTqi/m
+photo.33.link: https://www.instagram.com/p/CV-fC7PhUXV
+photo.34: cwdc://X2ukad7ADQA.jpg
 photo.34.author: kotata_513
 photo.34.commitdate: 2022/2/20
-photo.34.link: https://www.instagram.com/kotata_513/
-photo.34.tags: paws, portrait, smile, tail
-photo.35: ig://CbP4uoMvCE8/m
+photo.34.link: https://www.instagram.com/p/CXYecsthTqi
+photo.34.tags: mofumofu, paws, portrait, sample, smile, tail
+photo.35: cwdc://X-dY-U5ADQD.jpg
 photo.35.author: fetorus_mami
 photo.35.commitdate: 2022/6/20
-photo.35.link: https://www.instagram.com/fetorus_mami/
-photo.35.tags: peek
-photo.36: ig://CboDPs1BLPR/m
+photo.35.link: https://www.instagram.com/p/CbP4uoMvCE8
+photo.35.tags: peek, sample
+photo.36: cwdc://X_NuAeKADQC.jpg
 photo.36.author: fetorus_mami
 photo.36.commitdate: 2022/4/26
-photo.36.link: https://www.instagram.com/fetorus_mami/
+photo.36.link: https://www.instagram.com/p/CboDPs1BLPR
 photo.36.tags: mofumofu, sample, whiskers
-photo.37: ig://Cb_vNmrBdqw/m
+photo.37: cwdc://X_9F8R2ADQE.jpg
 photo.37.author: fetorus_mami
 photo.37.commitdate: 2022/6/10
-photo.37.link: https://www.instagram.com/fetorus_mami/
-photo.37.tags: paws, peek, sample, toy
-photo.38: ig://Cd5bKMTv0tc/m
+photo.37.link: https://www.instagram.com/p/Cb_vNmrBdqw
+photo.37.tags: paws, peek, sample, toy, toys
+photo.38: cwdc://YDwd1dHADQA.jpg
 photo.38.author: daniele.tokyo
 photo.38.commitdate: 2022/8/31
-photo.38.link: https://www.instagram.com/daniele.tokyo/
+photo.38.link: https://www.instagram.com/p/Cd5bKMTv0tc
 photo.38.tags: keeper, paws, scale, standing, tail, wave, whiskers
-photo.39: ig://Co0g_jBhVIi/m
+photo.39: cwdc://YZmpgKjADQF.jpg
 photo.39.author: fetorus_mami
 photo.39.commitdate: 2023/2/26
-photo.39.link: https://www.instagram.com/fetorus_mami/
+photo.39.link: https://www.instagram.com/p/Co0g_jBhVIi
 photo.39.tags: mofumofu, paws, peek, sample
-photo.40: ig://CpULnrvvK52/m
+photo.40: cwdc://Yal-wb_ADQD.jpg
 photo.40.author: hamiiiii831_
 photo.40.commitdate: 2023/5/29
-photo.40.link: https://www.instagram.com/hamiiiii831_/
-photo.40.tags: keeper, sample
-photo.41: ig://CpULtX5vlF9/m
+photo.40.link: https://www.instagram.com/p/CpULnrvvK52
+photo.40.tags: keeper, sample, training
+photo.41: cwdc://Yal-70TADQE.jpg
 photo.41.author: hamiiiii831_
 photo.41.commitdate: 2023/5/29
-photo.41.link: https://www.instagram.com/hamiiiii831_/
-photo.41.tags: paws, sample, standing, tail, whiskers
-photo.42: ig://CqaW3k-PjoW/m
+photo.41.link: https://www.instagram.com/p/CpULtX5vlF9
+photo.41.tags: paws, sample, scale, standing, tail, whiskers
+photo.42: cwdc://YcyVQOcADQP.jpg
 photo.42.author: hamamatsu.chiita
 photo.42.commitdate: 2023/6/20
-photo.42.link: https://www.instagram.com/hamamatsu.chiita/
-photo.42.tags: mofumofu, portrait, sample, smile
-photo.43: ig://CqtVN_4B-z0/m
+photo.42.link: https://www.instagram.com/p/CqaW3k-PjoW
+photo.42.tags: close-up, mofumofu, portrait, sample, smile
+photo.43: cwdc://YdYR9EQADQR.jpg
 photo.43.author: hamamatsu.chiita
 photo.43.commitdate: 2023/5/16
-photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.link: https://www.instagram.com/p/CqtVN_4B-z0
 photo.43.tags: portrait, sample, smile
-photo.44: ig://Cq_TmFTBHXK/m
+photo.44: cwdc://Yd8OtPGADQQ.jpg
 photo.44.author: hamamatsu.chiita
 photo.44.commitdate: 2023/4/22
-photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.link: https://www.instagram.com/p/Cq_TmFTBHXK
 photo.44.tags: grumpy, mofumofu, portrait, sample
-photo.45: ig://CrRY2NsBt2M/m
+photo.45: cwdc://YegZNf4ADQU.jpg
 photo.45.author: hamamatsu.chiita
 photo.45.commitdate: 2023/5/4
-photo.45.link: https://www.instagram.com/hamamatsu.chiita/
+photo.45.link: https://www.instagram.com/p/CrRY2NsBt2M
 photo.45.tags: close-up, laying down, mofumofu, paws, portrait, sample
-photo.46: ig://CtPj507hkf9/m
+photo.46: cwdc://YicvUuXADQW.jpg
 photo.46.author: hamamatsu.chiita
 photo.46.commitdate: 2023/6/10
-photo.46.link: https://www.instagram.com/hamamatsu.chiita/
+photo.46.link: https://www.instagram.com/p/CtPj507hkf9
 photo.46.tags: close-up, mofumofu, portrait, sample
-photo.47: ig://CthkV5bBIl6/m
+photo.47: cwdc://YjAwM3WADQV.jpg
 photo.47.author: hamamatsu.chiita
 photo.47.commitdate: 2023/6/25
-photo.47.link: https://www.instagram.com/hamamatsu.chiita/
+photo.47.link: https://www.instagram.com/p/CthkV5bBIl6
 photo.47.tags: close-up, flowers, mofumofu, portrait, sample, smile
-photo.48: ig://Cu7sICqhj1u/m
+photo.48: cwdc://Yl0_xJ1ADQX.jpg
 photo.48.author: hamamatsu.chiita
 photo.48.commitdate: 2023/9/16
-photo.48.link: https://www.instagram.com/hamamatsu.chiita/
+photo.48.link: https://www.instagram.com/p/Cu7sICqhj1u
 photo.48.tags: portrait, sample, whiskers
-photo.49: ig://CvNtHiSBp_G/m
+photo.49: cwdc://YmZBwJEADQc.jpg
 photo.49.author: hamamatsu.chiita
 photo.49.commitdate: 2023/7/31
-photo.49.link: https://www.instagram.com/hamamatsu.chiita/
+photo.49.link: https://www.instagram.com/p/CvNtHiSBp_G
 photo.49.tags: close-up, mofumofu, portrait, sample
 species: 2
 studbook.id: 0774
 zoo: 20
+photo.33.tags: sample
+photo.50: cwdc://Y0eLEVPADQJ.jpg
+photo.50.author: hamamatsu.chiita
+photo.50.commitdate: 2024/3/10
+photo.50.link: https://www.instagram.com/p/C2QRxoXhDOM
+photo.50.tags: close-up, portrait, sample, whiskers
+photo.51: cwdc://Y1CMKHhADQH.jpg
+photo.51.author: hamamatsu.chiita
+photo.51.commitdate: 2024/3/10
+photo.51.link: https://www.instagram.com/p/C2iSUhgh7SF
+photo.51.tags: close-up, portrait, sample
+photo.52: cwdc://Y1ctftvADQE.jpg
+photo.52.author: yossi929
+photo.52.commitdate: 2024/3/10
+photo.52.link: https://www.instagram.com/p/C2vi_UnheVP
+photo.52.tags: lips, portrait, sample, smile
+photo.53: cwdc://Y1mRocHADQN.jpg
+photo.53.author: hamamatsu.chiita
+photo.53.commitdate: 2024/3/10
+photo.53.link: https://www.instagram.com/p/C20VDrzhJxc
+photo.53.tags: close-up, lips, mofumofu, portrait, sample, smile, tongue
+photo.54: cwdc://Y2KUjdDADQK.jpg
+photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2024/3/10
+photo.54.link: https://www.instagram.com/p/C3GWhMRhXvq
+photo.54.tags: close-up, mofumofu, portrait, sample
+photo.55: cwdc://Y32dPbeADQO.jpg
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2024/3/10
+photo.55.link: https://www.instagram.com/p/C38a3LfBYPc
+photo.55.tags: bite, laying down, portrait, playing
+photo.56: cwdc://Y3SYT-vADQM.jpg
+photo.56.author: hamamatsu.chiita
+photo.56.commitdate: 2024/3/10
+photo.56.link: https://www.instagram.com/p/C3qYZdHhldw
+photo.56.tags: mofumofu, portrait, sample, smile
+photo.57: cwdc://YGK9hQAADQB.jpg
+photo.57.author: daniele.tokyo
+photo.57.commitdate: 2024/3/10
+photo.57.link: https://www.instagram.com/p/CfGrAFwLasA
+photo.57.tags: bamboo, laying down, paws, portrait
+photo.58: cwdc://YaiUpBUADQC.jpg
+photo.58.author: hamiiiii831_
+photo.58.commitdate: 2024/3/10
+photo.58.link: https://www.instagram.com/p/CpSWj-aPx5g
+photo.58.tags: paws, sample, toys
+photo.59: cwdc://YfEU4UhADQT.jpg
+photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2024/3/10
+photo.59.link: https://www.instagram.com/p/CrjWroAhrd7
+photo.59.tags: bear worm, laying down, paws
+photo.60: cwdc://Yfoe_7tADQS.jpg
+photo.60.author: hamamatsu.chiita
+photo.60.commitdate: 2024/3/10
+photo.60.link: https://www.instagram.com/p/Cr1bvbmhPPl
+photo.60.tags: peek, portrait, toys
+photo.61: cwdc://YiOHLgCADQM.jpg
+photo.61.author: yossi929
+photo.61.commitdate: 2024/3/10
+photo.61.link: https://www.instagram.com/p/CtIP1NxBiJM
+photo.61.tags: sample, tree
+photo.62: cwdc://YkI3cFeADQY.jpg
+photo.62.author: hamamatsu.chiita
+photo.62.commitdate: 2024/3/10
+photo.62.link: https://www.instagram.com/p/CuFn9gfSahI
+photo.62.tags: mofumofu, portrait, sample, smile
+photo.63: cwdc://Yks4ucnADQa.jpg
+photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2024/3/10
+photo.63.link: https://www.instagram.com/p/CuXomsDhzyE
+photo.63.tags: close-up, mofumofu, portrait, sample
+photo.64: cwdc://YlQ9RLDADQZ.jpg
+photo.64.author: hamamatsu.chiita
+photo.64.commitdate: 2024/3/10
+photo.64.link: https://www.instagram.com/p/Cupq4DRhKn_
+photo.64.tags: close-up, mofumofu, portrait, sample, smile
+photo.65: cwdc://Ym9D5FwADQb.jpg
+photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2024/3/10
+photo.65.link: https://www.instagram.com/p/CvfuMAoB10D
+photo.65.tags: mofumofu, portrait, sample, whiskers
+photo.66: cwdc://YpxP66jADQd.jpg
+photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2024/3/10
+photo.66.link: https://www.instagram.com/p/Cw50M7Bho-E
+photo.66.tags: close-up, mofumofu, portrait
+photo.67: cwdc://Yq5VOuGADQe.jpg
+photo.67.author: hamamatsu.chiita
+photo.67.commitdate: 2024/3/10
+photo.67.link: https://www.instagram.com/p/Cxd220zBa04
+photo.67.tags: bamboo, laying down, mofumofu, sample
+photo.68: cwdc://YqVSmOtADQf.jpg
+photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2024/3/10
+photo.68.link: https://www.instagram.com/p/CxL1ilGhmQW
+photo.68.tags: close-up, mofumofu, paws, portrait, sample, smile
+photo.69: cwdc://YrdX1rOADQg.jpg
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2024/3/10
+photo.69.link: https://www.instagram.com/p/Cxv4KTXB4aG
+photo.69.tags: flowers, peek, portrait
+photo.70: cwdc://YsBZznQADQi.jpg
+photo.70.author: hamamatsu.chiita
+photo.70.commitdate: 2024/3/10
+photo.70.link: https://www.instagram.com/p/CyB5JRYBXtc
+photo.70.tags: peek, portrait, sample, smile, whiskers
+photo.71: cwdc://Yslh-CXADQj.jpg
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2024/3/10
+photo.71.link: https://www.instagram.com/p/CyT9Oe7hu5D
+photo.71.tags: laying down, mofumofu, paws, portrait, sample
+photo.72: cwdc://YtttxVsADQh.jpg
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2024/3/10
+photo.72.link: https://www.instagram.com/p/Cy4DIImBLbe
+photo.72.tags: sample, smile
+photo.73: cwdc://Yu0V0OFADQk.jpg
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2024/3/10
+photo.73.link: https://www.instagram.com/p/CzbXJkyvwpR
+photo.73.tags: mofumofu, portrait, sample
+photo.74: cwdc://Yu1sFXAADQl.jpg
+photo.74.author: hamamatsu.chiita
+photo.74.commitdate: 2024/3/10
+photo.74.link: https://www.instagram.com/p/CzcCSJQBs7a
+photo.74.tags: close-up, mofumofu, peek, portrait, sample
+photo.75: cwdc://YuRxDmeADQm.jpg
+photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2024/3/10
+photo.75.link: https://www.instagram.com/p/CzKExQ_BOop
+photo.75.tags: close-up, laying down, mofumofu, paws, portrait, sample
+photo.76: cwdc://Yv9wQzvADQA.jpg
+photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2024/3/10
+photo.76.link: https://www.instagram.com/p/C0AEX3nhfaf
+photo.76.tags: mofumofu, portrait, sample
+photo.77: cwdc://YvdEKjcADQG.jpg
+photo.77.author: fetorus_mami
+photo.77.commitdate: 2024/3/10
+photo.77.link: https://www.instagram.com/p/CzvuUvePdLv
+photo.77.tags: mofumofu, portrait, sample, tail, tongue
+photo.78: cwdc://YvdHxtiADQH.jpg
+photo.78.author: fetorus_mami
+photo.78.commitdate: 2024/3/10
+photo.78.link: https://www.instagram.com/p/CzvwIUhPcaX
+photo.78.tags: paws, sample
+photo.79: cwdc://YwhqXHvADQC.jpg
+photo.79.author: hamamatsu.chiita
+photo.79.commitdate: 2024/3/10
+photo.79.link: https://www.instagram.com/p/C0SBbBnhOyS
+photo.79.tags: close-up, laying down, mofumofu, portrait, sample, smile, tongue
+photo.80: cwdc://Ywkt1xGADQD.jpg
+photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2024/3/10
+photo.80.link: https://www.instagram.com/p/C0TjKWTPJy_
+photo.80.tags: close-up, mofumofu, peek, portrait, sample
+photo.81: cwdc://YxF2yrdADQB.jpg
+photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2024/3/10
+photo.81.link: https://www.instagram.com/p/C0kHozehh5V
+photo.81.tags: mofumofu, portrait, sample
+photo.82: cwdc://YxqGKkuADQI.jpg
+photo.82.author: hamamatsu.chiita
+photo.82.commitdate: 2024/3/10
+photo.82.link: https://www.instagram.com/p/C02PUwHS0AM
+photo.82.tags: autumn, bite, laying down, paws, playing, portrait, upside-down
+photo.83: cwdc://YxspV-6ADQA.jpg
+photo.83.author: hamiiiii831_
+photo.83.commitdate: 2024/3/10
+photo.83.link: https://www.instagram.com/p/C03g6dNPx56
+photo.83.tags: bamboo, sample
+photo.84: cwdc://YxswzEcADQF.jpg
+photo.84.author: yossi929
+photo.84.commitdate: 2024/3/10
+photo.84.link: https://www.instagram.com/p/C03ko_-P1_w
+photo.84.tags: paws, sample
+photo.85: cwdc://YxszsYiADQL.jpg
+photo.85.author: hamamatsu.chiita
+photo.85.commitdate: 2024/3/10
+photo.85.link: https://www.instagram.com/p/C03mFqBL-m6
+photo.85.tags: close-up, mofumofu, portrait, sample, smile, whiskers
+photo.86: cwdc://YyFZkicADQA.jpg
+photo.86.author: fetorus_mami
+photo.86.commitdate: 2024/3/10
+photo.86.link: https://www.instagram.com/p/C1D5Bu-PN8j
+photo.86.tags: keeper, scale, tail
+photo.87: cwdc://YyFcYO-ADQB.jpg
+photo.87.author: fetorus_mami
+photo.87.commitdate: 2024/3/10
+photo.87.link: https://www.instagram.com/p/C1D6blPPffD
+photo.87.tags: keeper, mofumofu, paws, sample, standing
+photo.88: cwdc://YyOajjfADQG.jpg
+photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2024/3/10
+photo.88.link: https://www.instagram.com/p/C1IZhPfhc2o
+photo.88.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.89: cwdc://YyyBilOADQE.jpg
+photo.89.author: hamamatsu.chiita
+photo.89.commitdate: 2024/3/10
+photo.89.link: https://www.instagram.com/p/C1aNAwXBxMP
+photo.89.tags: close-up, mofumofu, sample, smile
+photo.90: cwdc://Yz7tmsxADQF.jpg
+photo.90.author: hamamatsu.chiita
+photo.90.commitdate: 2024/3/10
+photo.90.link: https://www.instagram.com/p/C1_DC0IvfSe
+photo.90.tags: peek, portrait, toys
