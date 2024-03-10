@@ -250,9 +250,6 @@ photo.47.author: chausuyamazoo
 photo.47.commitdate: 2023/9/12
 photo.47.link: https://www.instagram.com/chausuyamazoo/
 photo.47.tags: bamboo, paws, standing
-species: 2
-studbook.id: 0775
-zoo: 10
 photo.48: cwdc://Yh_X7oqADQB.jpg
 photo.48.author: chausuyamazoo
 photo.48.commitdate: 2024/3/10
@@ -263,3 +260,6 @@ photo.49.author: chausuyamazoo
 photo.49.commitdate: 2024/3/10
 photo.49.link: https://www.instagram.com/p/C1Ji3AhvKg-
 photo.49.tags: grooming, paws, portrait, sample, tail
+species: 2
+studbook.id: 0775
+zoo: 10

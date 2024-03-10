@@ -188,8 +188,6 @@ photo.35.author: kushirozoo
 photo.35.commitdate: 2023/11/5
 photo.35.link: https://www.instagram.com/kushirozoo/
 photo.35.tags: apple time, paws, portrait, sample, whiskers
-species: 2
-zoo: 11
 photo.36: cwdc://Ywiqo7oADQA.jpg
 photo.36.author: komabazoophoto
 photo.36.commitdate: 2024/3/10
@@ -200,3 +198,5 @@ photo.37.author: komabazoophoto
 photo.37.commitdate: 2024/3/10
 photo.37.link: https://www.instagram.com/p/C1HT-4-yoGI
 photo.37.tags: sample, tail
+species: 2
+zoo: 11

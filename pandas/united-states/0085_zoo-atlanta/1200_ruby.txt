@@ -32,11 +32,11 @@ photo.3.author: johnballzoogr
 photo.3.commitdate: 2021/7/3
 photo.3.link: https://www.instagram.com/johnballzoogr/
 photo.3.tags: bamboo, portrait, white face
-species: 1
-uncertainty: location.2 exact day, location.3 exact day
-zoo: 85
 photo.4: cwdc://Y4gCvC2ADQA.jpg
 photo.4.author: zooatl
 photo.4.commitdate: 2024/3/10
 photo.4.link: https://www.instagram.com/p/C4RNm_LLzVi
 photo.4.tags: bamboo, portrait, whiskers
+species: 1
+uncertainty: location.2 exact day, location.3 exact day
+zoo: 85

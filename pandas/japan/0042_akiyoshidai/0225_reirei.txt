@@ -274,11 +274,11 @@ photo.52.author: re_ichimaru
 photo.52.commitdate: 2023/8/11
 photo.52.link: https://www.instagram.com/re_ichimaru/
 photo.52.tags: flowers, portrait, sample, whiskers
-species: 2
-studbook.id: 1686
-zoo: 42
 photo.53: cwdc://Y0h4OIeADQA.jpg
 photo.53.author: sasapan34
 photo.53.commitdate: 2024/3/10
 photo.53.link: https://www.instagram.com/p/C2SIWh_PeSd
 photo.53.tags: sample, tail, whiskers
+species: 2
+studbook.id: 1686
+zoo: 42

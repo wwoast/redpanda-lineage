@@ -150,11 +150,11 @@ photo.27.author: grskus_tk
 photo.27.commitdate: 2023/1/12
 photo.27.link: https://www.instagram.com/grskus_tk/
 photo.27.tags: laying down, peek, tail
-species: 2
-uncertainty: location.2 exact date
-zoo: 73
 photo.28: cwdc://Y30al_NADQA.jpg
 photo.28.author: daniele.tokyo
 photo.28.commitdate: 2024/3/10
 photo.28.link: https://www.instagram.com/p/C37ZidWvnG6
 photo.28.tags: peek, sample, techitechi, whiskers
+species: 2
+uncertainty: location.2 exact date
+zoo: 73

@@ -2230,11 +2230,11 @@ photo.444.author: mini_cochi
 photo.444.commitdate: 2023/9/15
 photo.444.link: https://www.instagram.com/mini_cochi/
 photo.444.tags: flowers, portrait, sample, tree, whiskers
-species: 2
-studbook.id: 1782
-zoo: 17
 photo.445: cwdc://Y1-exJYADQA.jpg
 photo.445.author: tamazoowalking
 photo.445.commitdate: 2024/3/10
 photo.445.link: https://www.instagram.com/p/C3AboCcPNl9
 photo.445.tags: sample, snow, whiskers
+species: 2
+studbook.id: 1782
+zoo: 17

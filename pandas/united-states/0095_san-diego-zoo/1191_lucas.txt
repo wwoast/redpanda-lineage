@@ -86,11 +86,11 @@ photo.14.author: carsontheredpanda
 photo.14.commitdate: 2022/7/14
 photo.14.link: https://www.instagram.com/p/CfMopuGpPwJ
 photo.14.tags: portrait, sample, smile, whiskers
-species: 2
-uncertainty: location.2 exact date in summer 2021
-zoo: 95
 photo.15: cwdc://Y2PdOZOADQB.jpg
 photo.15.author: sandiegozoo
 photo.15.commitdate: 2024/3/10
 photo.15.link: https://www.instagram.com/p/C3I62qXMsbO
 photo.15.tags: bamboo, portrait, sample, whiskers
+species: 2
+uncertainty: location.2 exact date in summer 2021
+zoo: 95
