@@ -260,9 +260,6 @@ photo.49.author: chausuyamazoo
 photo.49.commitdate: 2024/3/10
 photo.49.link: https://www.instagram.com/p/C1Ji3AhvKg-
 photo.49.tags: grooming, paws, portrait, sample, tail
-species: 2
-studbook.id: 0775
-zoo: 10
 photo.50: cwdc://Wdca6RKADQB.jpg
 photo.50.author: re_ichimaru
 photo.50.commitdate: 2024/3/10
@@ -318,3 +315,6 @@ photo.60.author: rie_panda55
 photo.60.commitdate: 2024/3/10
 photo.60.link: https://www.instagram.com/p/CHbYy_wBsPE
 photo.60.tags: laying down, portrait, sleeping, tail
+species: 2
+studbook.id: 0775
+zoo: 10
