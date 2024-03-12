@@ -18,6 +18,7 @@ photo.1: cwdc://WN6EW83ADQF.jpg
 photo.1.author: minato.yokohama4416
 photo.1.commitdate: 2018/7/20
 photo.1.link: https://www.instagram.com/p/Bi-Oa8LgXGT
+photo.1.tags: mofumofu, portrait, sample, whiskers
 photo.2: cwdc://WQAw57gADQB.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2018/7/20
@@ -37,6 +38,7 @@ photo.5: cwdc://WcMkgB7ADQI.jpg
 photo.5.author: minato.yokohama4416
 photo.5.commitdate: 2018/11/13
 photo.5.link: https://www.instagram.com/p/BqHefetlq92
+photo.5.tags: portrait, sample, whiskers
 photo.6: cwdc://WdAPpq_ADQA.jpg
 photo.6.author: gloryeui
 photo.6.commitdate: 2018/11/23
@@ -51,6 +53,7 @@ photo.8: cwdc://Wf-k6rHADQK.jpg
 photo.8.author: minato.yokohama4416
 photo.8.commitdate: 2018/12/30
 photo.8.link: https://www.instagram.com/p/BsAeszTlted
+photo.8.tags: paws, portrait, sample, whiskers
 photo.9: cwdc://WgSso7eADQL.jpg
 photo.9.author: minato.yokohama4416
 photo.9.commitdate: 2019/1/3
@@ -421,9 +424,6 @@ photo.82.author: daniele.tokyo
 photo.82.commitdate: 2023/10/24
 photo.82.link: https://www.instagram.com/p/CysqISQv0N-
 photo.82.tags: paws, sample, whiskers
-species: 2
-studbook.id: 13168
-zoo: 13
 photo.83: cwdc://W48DCmFADQB.jpg
 photo.83.author: apple_jasmine33
 photo.83.commitdate: 2024/3/11
@@ -459,9 +459,6 @@ photo.89.author: kisshan324
 photo.89.commitdate: 2024/3/11
 photo.89.link: https://www.instagram.com/p/B5Jo7niBa8k
 photo.89.tags: bridge, distance, home, portrait, tail
-photo.1.tags: mofumofu, portrait, sample, whiskers
-photo.5.tags: portrait, sample, whiskers
-photo.8.tags: paws, portrait, sample, whiskers
 photo.90: cwdc://WgSso7eADQM.jpg
 photo.90.author: minato.yokohama4416
 photo.90.commitdate: 2024/3/11
@@ -612,3 +609,6 @@ photo.119.author: hamamatsu.chiita
 photo.119.commitdate: 2024/3/11
 photo.119.link: https://www.instagram.com/p/C16osCGvW12
 photo.119.tags: peek, portrait, sample, whiskers
+species: 2
+studbook.id: 13168
+zoo: 13
