@@ -44,11 +44,11 @@ photo.6.author: gloryeui
 photo.6.commitdate: 2018/11/23
 photo.6.link: https://www.instagram.com/p/BqhUETPlerG
 photo.6.tags: apple time, dish, home, portrait, videolink
-photo.7: ig://Bq4EG3iHtL9/m
+photo.7: cwdc://WdtvuzkADQA.jpg
 photo.7.author: yakko____
 photo.7.commitdate: 2018/12/6
-photo.7.link: https://www.instagram.com/yakko____/
-photo.7.tags: apple time, dish, paws
+photo.7.link: https://www.instagram.com/p/Bq4EG3iHtL9
+photo.7.tags: apple time, dish, paws, portrait, sample, whiskers
 photo.8: cwdc://Wf-k6rHADQK.jpg
 photo.8.author: minato.yokohama4416
 photo.8.commitdate: 2018/12/30
@@ -129,11 +129,11 @@ photo.23.author: gloryeui
 photo.23.commitdate: 2019/10/19
 photo.23.link: https://www.instagram.com/p/B3gcdkGhzmO
 photo.23.tags: bridge, laying down, peek, portrait
-photo.24: ig://B4EkHuDhOp_/m
+photo.24: cwdc://W4GvwgnADQA.jpg
 photo.24.author: yossi929
 photo.24.commitdate: 2019/10/27
-photo.24.link: https://www.instagram.com/yossi929/
-photo.24.tags: bamboo, paws, portrait
+photo.24.link: https://www.instagram.com/p/B4EkHuDhOp_
+photo.24.tags: bamboo, paws, portrait, sample, whiskers
 photo.25: cwdc://W4Rd1aJADQC.jpg
 photo.25.author: minato.yokohama4416
 photo.25.commitdate: 2019/10/28
@@ -144,10 +144,10 @@ photo.26.author: re_ichimaru
 photo.26.commitdate: 2019/10/29
 photo.26.link: https://www.instagram.com/p/B4MFocNBr32
 photo.26.tags: dish, lunch time, portrait, sample, smile, whiskers
-photo.27: ig://B4O15iQnGWv/m
+photo.27: cwdc://W4bTUJBADQA.jpg
 photo.27.author: tetusara.ki_
 photo.27.commitdate: 2019/11/2
-photo.27.link: https://www.instagram.com/tetusara.ki_/
+photo.27.link: https://www.instagram.com/p/B4O15iQnGWv
 photo.27.tags: apple time, keeper, paws, standing
 photo.28: cwdc://W48DCmFADQA.jpg
 photo.28.author: apple_jasmine33
@@ -224,11 +224,11 @@ photo.42.author: minato.yokohama4416
 photo.42.commitdate: 2020/10/29
 photo.42.link: https://www.instagram.com/p/CCxtlCkh65O
 photo.42.tags: close-up, portrait, sample, whiskers
-photo.43: ig://CEMA0-KBANl/m
+photo.43: cwdc://XQVpLA0ADQA.jpg
 photo.43.author: redpanda_nippon_takashi
 photo.43.commitdate: 2020/8/29
-photo.43.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.43.tags: paws, peek, tree
+photo.43.link: https://www.instagram.com/p/CEMA0-KBANl
+photo.43.tags: paws, peek, sample, tree
 photo.44: cwdc://XQlrpzXADQE.jpg
 photo.44.author: apple_jasmine33
 photo.44.commitdate: 2020/10/29
@@ -329,11 +329,11 @@ photo.63.author: gloryeui
 photo.63.commitdate: 2021/4/11
 photo.63.link: https://www.instagram.com/p/CMVv7uUhec0
 photo.63.tags: apple time, bamboo, dish, home, paws, portrait, sample, smile
-photo.64: ig://CNleECNBLwh/m
+photo.64: cwdc://XjIjpI6ADQA.jpg
 photo.64.author: sunnylettuce_2024
 photo.64.commitdate: 2021/10/9
-photo.64.link: https://www.instagram.com/sunnylettuce_2024/
-photo.64.tags: peek, tail, tree, whiskers
+photo.64.link: https://www.instagram.com/p/CNleECNBLwh
+photo.64.tags: peek, sample, tail, tree, whiskers
 photo.65: cwdc://XjXWpdbADQN.jpg
 photo.65.author: hamamatsu.chiita
 photo.65.commitdate: 2021/5/26
