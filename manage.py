@@ -794,7 +794,7 @@ if __name__ == '__main__':
             message = "sorted path: {path}".format(path=file_path)
             repo.index.commit(message)
             repo.close()
-        if sys.argv[1] == "--sort-instagram-locators":
+        if sys.argv[1] == "--sort-image-locators":
             file_path = sys.argv[2]
             if sort_image_locators(file_path) == False:
                 print("found non-cwdc:// URLs in the file")
