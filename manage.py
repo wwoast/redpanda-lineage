@@ -363,7 +363,7 @@ def sort_ig_locators(path):
             # Don't need to rename these photos
             non_ig_indices.append(photo_index)
         photo_index = photo_index + 1
-    # Sort the list of cwdc photo tuples by photo URL 
+    # Sort the list of ig photo tuples by photo URL 
     # (the 0th item in each tuple is the url)
     # (the 4th item in each URL is the ig photo locator)
     ig_photos = sorted(
@@ -492,12 +492,13 @@ def sort_image_locators(path):
             # Only update files that have cwdc:// links for every photo
             return False
         photo_index = photo_index + 1
-    # Sort the list of cwdc photo tuples by photo URL 
+    # Sort the list of cwdc photo tuples by photo URL
+    # Must chop off the extension b/c no . in the HASH_ORDER base64 alphabet
     cwdc_photos = sorted(
         cwdc_photos, 
         key=lambda x: 
-            [HASH_ORDER.index(char) for char in x[0].split("/")[-1]])
-    cwdc_photos = sorted(cwdc_photos, key=lambda x: len(x[0].split("/")[-1]))
+            [HASH_ORDER.index(char) for char in x[0].split("/")[-1].split(".")[0]])
+    cwdc_photos = sorted(cwdc_photos, key=lambda x: len(x[0].split("/")[-1].split(".")[0]))
     # Now, re-distribute the photos, iterating down the cwdc
     # photos, moving "old_photo_field" to "photo_field" but with
     # updated indices
