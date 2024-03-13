@@ -2,17 +2,10 @@
 _id: media.16.hikari-taiyo
 commitdate: 2022/4/10
 panda.tags: 115, 117
-photo.1: ig://CY-6uCTPDtH/l
+photo.1: cwdc://Yi-Hz-TADQA.jpg
 photo.1.author: minato.yokohama4416
-photo.1.commitdate: 2022/4/10
-photo.1.link: https://www.instagram.com/minato.yokohama4416/
-photo.1.tags: couple, mofumofu, peek, portrait, tail
-photo.1.tags.115.location: 415, 230
-photo.1.tags.117.location: 100, 225
-photo.2: cwdc://Yi-Hz-TADQA.jpg
-photo.2.author: minato.yokohama4416
-photo.2.commitdate: 2024/3/11
-photo.2.link: https://www.instagram.com/p/CtgQJc5vWSO
-photo.2.tags: couple, sample, tail
-photo.2.tags.115.location: 495, 270
-photo.2.tags.117.location: 125, 265
+photo.1.commitdate: 2024/3/11
+photo.1.link: https://www.instagram.com/p/CtgQJc5vWSO
+photo.1.tags: couple, mofumofu, peek, portrait, sample, tail
+photo.1.tags.115.location: 495, 270
+photo.1.tags.117.location: 125, 265
