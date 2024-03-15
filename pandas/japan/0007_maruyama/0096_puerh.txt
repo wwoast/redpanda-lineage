@@ -223,11 +223,11 @@ photo.42.author: sasapan34
 photo.42.commitdate: 2020/5/17
 photo.42.link: https://www.instagram.com/p/B_97Mr1Hr_c
 photo.42.tags: paws, snow
-photo.43: ig://CFlJYK6BvoU/m
+photo.43: cwdc://XTH6RaUADQA.jpg
 photo.43.author: an920000
 photo.43.commitdate: 2020/11/19
-photo.43.link: https://www.instagram.com/an920000/
-photo.43.tags: smile, whiskers
+photo.43.link: https://www.instagram.com/p/CFlJYK6BvoU
+photo.43.tags: portrait, smile, whiskers
 photo.44: cwdc://XVJP_ldADQA.jpg
 photo.44.author: leonard_redmof
 photo.44.commitdate: 2020/10/29
@@ -570,3 +570,13 @@ photo.110.author: leonard_redmof
 photo.110.commitdate: 2024/3/14
 photo.110.link: https://www.instagram.com/p/Cya7LIqPDxC
 photo.110.tags: nose, portrait, sample, whiskers
+photo.111: cwdc://XTH6RaUADQB.jpg
+photo.111.author: an920000
+photo.111.commitdate: 2024/3/14
+photo.111.link: https://www.instagram.com/p/CFlJYK6BvoU
+photo.111.tags: portrait, smile
+photo.112: cwdc://XTH6RaUADQC.jpg
+photo.112.author: an920000
+photo.112.commitdate: 2024/3/14
+photo.112.link: https://www.instagram.com/p/CFlJYK6BvoU
+photo.112.tags: bridge, portrait
