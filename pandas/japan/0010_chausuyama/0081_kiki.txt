@@ -16,11 +16,11 @@ language.order: ja, en
 litter: 476
 location.1: 6, 2000/7/4
 location.2: 10, 2002/1/15
-species: 2
-studbook.id: 0096
-zoo: 10
 photo.1: cwdc://WL0k_pyADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2024/3/14
 photo.1.link: https://www.instagram.com/p/Bh7evSpFCny
 photo.1.tags: mofumofu, paws, portrait, profile
+species: 2
+studbook.id: 0096
+zoo: 10
