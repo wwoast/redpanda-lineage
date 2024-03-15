@@ -228,3 +228,8 @@ photo.42.tags: sample, smile
 species: 2
 studbook.id: 15133
 zoo: 63
+photo.43: cwdc://XVJP_ldADQB.jpg
+photo.43.author: leonard_redmof
+photo.43.commitdate: 2024/3/14
+photo.43.link: https://www.instagram.com/p/CGl0PQeh4lq
+photo.43.tags: baby, mofumofu, paws, portrait
