@@ -312,6 +312,7 @@ photo.60: cwdc://YIZUgKPADQR.jpg
 photo.60.author: sasapan34
 photo.60.commitdate: 2022/9/25
 photo.60.link: https://www.instagram.com/p/CgN2fi3vj-b
+photo.60.tags: sample
 photo.61: cwdc://YJcd0f4ADQS.jpg
 photo.61.author: sasapan34
 photo.61.commitdate: 2022/9/25
@@ -549,7 +550,6 @@ photo.106.author: fetorus_mami
 photo.106.commitdate: 2022/7/31
 photo.106.link: https://www.instagram.com/p/Cf5FKFVBZGz
 photo.106.tags: paws, standing, upside-down
-photo.60.tags: sample
 photo.107: cwdc://YYKGv80ADQE.jpg
 photo.107.author: rie_panda55
 photo.107.commitdate: 2024/3/14
