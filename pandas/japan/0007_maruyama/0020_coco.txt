@@ -575,31 +575,31 @@ photo.112.author: cattail.sapporo
 photo.112.commitdate: 2019/10/2
 photo.112.link: https://www.instagram.com/p/B2xUs0ggBmz
 photo.112.tags: portrait, sample, whiskers
-photo.113: ig://B232xEchAsU/m
+photo.113: cwdc://W1tVDNZADQE.jpg
 photo.113.author: komabazoophoto
 photo.113.commitdate: 2019/10/2
-photo.113.link: https://www.instagram.com/komabazoophoto/
-photo.113.tags: portrait
+photo.113.link: https://www.instagram.com/p/B232xEchAsU
+photo.113.tags: portrait, sample, whiskers
 photo.114: cwdc://W2EXo6fADQA.jpg
 photo.114.author: cattail.sapporo
 photo.114.commitdate: 2019/10/13
 photo.114.link: https://www.instagram.com/p/B3DYD6_gVcf
 photo.114.tags: portrait, sample, tongue, whiskers
-photo.115: ig://B3ExqAphzy0/m
+photo.115: cwdc://W2HK1FzADQB.jpg
 photo.115.author: komabazoophoto
 photo.115.commitdate: 2019/10/13
-photo.115.link: https://www.instagram.com/komabazoophoto/
-photo.115.tags: portrait
-photo.116: ig://B3TZrqNBZEP/m
+photo.115.link: https://www.instagram.com/p/B3ExqAphzy0
+photo.115.tags: portrait, sample, whiskers
+photo.116: cwdc://W2ka4Y6ADQA.jpg
 photo.116.author: akiakiakiko18
 photo.116.commitdate: 2019/10/17
-photo.116.link: https://www.instagram.com/akiakiakiko18/
-photo.116.tags: portrait
-photo.117: ig://B3UMakVhB7o/m
+photo.116.link: https://www.instagram.com/p/B3TZrqNBZEP
+photo.116.tags: laying down, portrait, sample
+photo.117: cwdc://W2mAWNLADQC.jpg
 photo.117.author: komabazoophoto
 photo.117.commitdate: 2019/10/17
-photo.117.link: https://www.instagram.com/komabazoophoto/
-photo.117.tags: laying down, portrait, tail
+photo.117.link: https://www.instagram.com/p/B3UMakVhB7o
+photo.117.tags: laying down, portrait, sample, tail
 photo.118: cwdc://W2ty9ReADQB.jpg
 photo.118.author: sasapan34
 photo.118.commitdate: 2019/10/17
@@ -610,16 +610,16 @@ photo.119.author: minatomirai215
 photo.119.commitdate: 2019/10/17
 photo.119.link: https://www.instagram.com/p/B3Yl78DBMo3
 photo.119.tags: dish, keeper, lunch time, paws, portrait, sample
-photo.120: ig://B3ZRVPdBIBD/m
+photo.120: cwdc://W2wKLjaADQD.jpg
 photo.120.author: komabazoophoto
 photo.120.commitdate: 2019/10/17
-photo.120.link: https://www.instagram.com/komabazoophoto/
-photo.120.tags: flowers, portrait
-photo.121: ig://B3b51moHFUr/m
+photo.120.link: https://www.instagram.com/p/B3ZRVPdBIBD
+photo.120.tags: flowers, peek, portrait, sample
+photo.121: cwdc://W21bMRwADQA.jpg
 photo.121.author: komabazoophoto
 photo.121.commitdate: 2019/10/17
-photo.121.link: https://www.instagram.com/komabazoophoto/
-photo.121.tags: paws, portrait, standing
+photo.121.link: https://www.instagram.com/p/B3b51moHFUr
+photo.121.tags: paws, portrait, sample, standing
 photo.122: cwdc://W3FOUj6ADQB.jpg
 photo.122.author: minatomirai215
 photo.122.commitdate: 2019/10/19
@@ -1015,11 +1015,11 @@ photo.200.author: izu_108
 photo.200.commitdate: 2020/10/9
 photo.200.link: https://www.instagram.com/p/CF26__Mh76e
 photo.200.tags: peek, portrait, sample, whiskers
-photo.201: ig://CF4BcxjB63k/m
+photo.201: cwdc://XTtqanmADQA.jpg
 photo.201.author: pink.b22
 photo.201.commitdate: 2020/10/16
-photo.201.link: https://www.instagram.com/pink.b22/
-photo.201.tags: keeper, portrait, smile
+photo.201.link: https://www.instagram.com/p/CF4BcxjB63k
+photo.201.tags: keeper, portrait, sample, smile
 photo.202: cwdc://XT_kSb_ADQA.jpg
 photo.202.author: cattail.sapporo
 photo.202.commitdate: 2020/10/16
