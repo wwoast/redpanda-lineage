@@ -1758,3 +1758,28 @@ photo.348.tags: portrait, sample, snow
 species: 2
 studbook.id: 0674
 zoo: 7
+photo.349: cwdc://YSjkyE5ADQA.jpg
+photo.349.author: leonard_redmof
+photo.349.commitdate: 2024/3/16
+photo.349.link: https://www.instagram.com/p/ClS-ogMv8Vv
+photo.349.tags: portrait, sample
+photo.350: cwdc://YSjkyE5ADQB.jpg
+photo.350.author: leonard_redmof
+photo.350.commitdate: 2024/3/16
+photo.350.link: https://www.instagram.com/p/ClS-ogMv8Vv
+photo.350.tags: autumn, portrait, sample
+photo.351: cwdc://YcYniwfADQC.jpg
+photo.351.author: leonard_redmof
+photo.351.commitdate: 2024/3/16
+photo.351.link: https://www.instagram.com/p/CqNgA1_vBcC
+photo.351.tags: paws, portrait, sample
+photo.352: cwdc://YcYniwfADQD.jpg
+photo.352.author: leonard_redmof
+photo.352.commitdate: 2024/3/16
+photo.352.link: https://www.instagram.com/p/CqNgA1_vBcC
+photo.352.tags: paws, portrait, sample
+photo.353: cwdc://YcYniwfADQE.jpg
+photo.353.author: leonard_redmof
+photo.353.commitdate: 2024/3/16
+photo.353.link: https://www.instagram.com/p/CqNgA1_vBcC
+photo.353.tags: itchy, portrait, sample
