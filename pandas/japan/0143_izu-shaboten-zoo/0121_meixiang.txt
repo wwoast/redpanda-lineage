@@ -629,6 +629,21 @@ photo.123.author: kai.kuniko
 photo.123.commitdate: 2024/3/11
 photo.123.link: https://www.instagram.com/p/B1DeH8bA0Ei
 photo.123.tags: portrait
+photo.124: cwdc://W48DCmFADQA.jpg
+photo.124.author: apple_jasmine33
+photo.124.commitdate: 2019/11/9
+photo.124.link: https://www.instagram.com/p/B4fNwwyhnS0
+photo.124.tags: home, paws, portrait, sample, whiskers
+photo.125: cwdc://W48DCmFADQB.jpg
+photo.125.author: apple_jasmine33
+photo.125.commitdate: 2024/3/11
+photo.125.link: https://www.instagram.com/p/B4fNwwyhnS0?img_index=2
+photo.125.tags: portrait, sample, whiskers
+photo.126: cwdc://W48DCmFADQC.jpg
+photo.126.author: apple_jasmine33
+photo.126.commitdate: 2024/3/11
+photo.126.link: https://www.instagram.com/p/B4fNwwyhnS0?img_index=3
+photo.126.tags: home, paws, portrait, standing
 species: 2
 studbook.id: 1775
 zoo: 143
