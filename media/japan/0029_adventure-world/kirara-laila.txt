@@ -2,10 +2,15 @@
 _id: media.29.kirara-laila
 commitdate: 2021/7/5
 panda.tags: 60, 65
-photo.1: ig://CPyHpuTBLe7/l
+photo.1: cwdc://Xnh20hGADQA.jpg
 photo.1.author: fetorus_mami
 photo.1.commitdate: 2021/7/5
-photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: mother's day, smile, tree
+photo.1.link: https://www.instagram.com/p/CPyHpuTBLe7
+photo.1.tags: mother's day, smile, tongue, tree, whiskers
 photo.1.tags.60.location: 300, 100
 photo.1.tags.65.location: 120, 115
+photo.2: cwdc://Xnh20hGADQB.jpg
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2024/3/17
+photo.2.link: https://www.instagram.com/p/CPyHpuTBLe8
+photo.2.tags: baby, bridge, mother's day, peek, tree
