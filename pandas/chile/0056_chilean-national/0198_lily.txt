@@ -35,67 +35,67 @@ photo.3.author: cristobal.osorio2019
 photo.3.commitdate: 2020/3/25
 photo.3.link: https://www.instagram.com/p/woKmonEg7I
 photo.3.tags: close-up, portrait, whiskers
-photo.4: cwdc://VAPfS_qADQA.jpg
-photo.4.author: cbdsign.cl
-photo.4.commitdate: 2018/12/26
-photo.4.link: https://www.instagram.com/p/8I749lIXNe
-photo.5: cwdc://VHoskpUADQA.jpg
-photo.5.author: alucena71
-photo.5.commitdate: 2019/10/31
-photo.5.link: https://www.instagram.com/p/_1ihyaMTVq
-photo.5.tags: close-up, laying down, portrait, whiskers
-photo.6: cwdc://VtaDR_tADQA.jpg
-photo.6.author: pili_santelices
-photo.6.commitdate: 2019/10/31
-photo.6.link: https://www.instagram.com/p/BSuN4dmlWh2
-photo.6.tags: peek, portrait, tree, whiskers
-photo.7: cwdc://V7f3Z-SADQB.jpg
-photo.7.author: sophierockshots
-photo.7.commitdate: 2019/5/22
-photo.7.link: https://www.instagram.com/p/BZxH8c5BJzQ
-photo.7.tags: close-up, sleeping, tail, window
-photo.8: cwdc://V7f33bOADQD.jpg
-photo.8.author: sophierockshots
+photo.4: cwdc://UwQx8enADQA.jpg
+photo.4.author: rootsandloyalty
+photo.4.commitdate: 2024/3/17
+photo.4.link: https://www.instagram.com/p/0JlNtDhVpK
+photo.4.tags: keeper, portrait, tail
+photo.5: cwdc://UygqYaGADQB.jpg
+photo.5.author: rootsandloyalty
+photo.5.commitdate: 2024/3/17
+photo.5.link: https://www.instagram.com/p/1RhbqzBVo_
+photo.5.tags: close-up, lips, portrait, sample, videolink, whiskers
+photo.6: cwdc://VAPfS_qADQA.jpg
+photo.6.author: cbdsign.cl
+photo.6.commitdate: 2018/12/26
+photo.6.link: https://www.instagram.com/p/8I749lIXNe
+photo.6.tags: laying down, portrait, sample, whiskers
+photo.7: cwdc://VHoskpUADQA.jpg
+photo.7.author: alucena71
+photo.7.commitdate: 2019/10/31
+photo.7.link: https://www.instagram.com/p/_1ihyaMTVq
+photo.7.tags: close-up, laying down, portrait, whiskers
+photo.8: cwdc://VtaDR_tADQA.jpg
+photo.8.author: pili_santelices
 photo.8.commitdate: 2019/10/31
-photo.8.link: https://www.instagram.com/p/BZxILLXBdJS
-photo.9: cwdc://V7f4dPgADQC.jpg
+photo.8.link: https://www.instagram.com/p/BSuN4dmlWh2
+photo.8.tags: peek, portrait, tree, whiskers
+photo.9: cwdc://V7f3Z-SADQB.jpg
 photo.9.author: sophierockshots
 photo.9.commitdate: 2019/5/22
-photo.9.link: https://www.instagram.com/p/BZxIeFgByWE
-photo.9.tags: blink, mofumofu, portrait, sample, tail
-photo.10: cwdc://V8XYnpyADQA.jpg
+photo.9.link: https://www.instagram.com/p/BZxH8c5BJzQ
+photo.9.tags: close-up, sleeping, tail, window
+photo.10: cwdc://V7f33bOADQD.jpg
 photo.10.author: sophierockshots
-photo.10.commitdate: 2019/5/22
-photo.10.link: https://www.instagram.com/p/BaM4jSpBdiO
-photo.11: cwdc://WOU_4zsADQA.jpg
-photo.11.author: from_chile
-photo.11.commitdate: 2019/10/31
-photo.11.link: https://www.instagram.com/p/BjLsL3mAfPQ
-photo.11.tags: paws, tail
-photo.12: cwdc://WOVAE98ADQB.jpg
-photo.12.author: from_chile
-photo.12.commitdate: 2019/10/31
-photo.12.link: https://www.instagram.com/p/BjLsR8uAbO8
-photo.12.tags: mofumofu, whiskers
-species: 2
-studbook.id: 10110
-uncertainty: death date
-zoo: 56
-photo.13: cwdc://UwQx8enADQA.jpg
-photo.13.author: rootsandloyalty
-photo.13.commitdate: 2024/3/17
-photo.13.link: https://www.instagram.com/p/0JlNtDhVpK
-photo.13.tags: keeper, portrait, tail
-photo.14: cwdc://UygqYaGADQB.jpg
-photo.14.author: rootsandloyalty
-photo.14.commitdate: 2024/3/17
-photo.14.link: https://www.instagram.com/p/1RhbqzBVo_
-photo.14.tags: close-up, lips, portrait, sample, videolink, whiskers
-photo.8.tags: portrait, tail
-photo.10.tags: paws, whiskers
-photo.4.tags: laying down, portrait, sample, whiskers
+photo.10.commitdate: 2019/10/31
+photo.10.link: https://www.instagram.com/p/BZxILLXBdJS
+photo.10.tags: portrait, tail
+photo.11: cwdc://V7f4dPgADQC.jpg
+photo.11.author: sophierockshots
+photo.11.commitdate: 2019/5/22
+photo.11.link: https://www.instagram.com/p/BZxIeFgByWE
+photo.11.tags: blink, mofumofu, portrait, sample, tail
+photo.12: cwdc://V8XYnpyADQA.jpg
+photo.12.author: sophierockshots
+photo.12.commitdate: 2019/5/22
+photo.12.link: https://www.instagram.com/p/BaM4jSpBdiO
+photo.12.tags: paws, whiskers
+photo.13: cwdc://WOU_4zsADQA.jpg
+photo.13.author: from_chile
+photo.13.commitdate: 2019/10/31
+photo.13.link: https://www.instagram.com/p/BjLsL3mAfPQ
+photo.13.tags: paws, tail
+photo.14: cwdc://WOVAE98ADQB.jpg
+photo.14.author: from_chile
+photo.14.commitdate: 2019/10/31
+photo.14.link: https://www.instagram.com/p/BjLsR8uAbO8
+photo.14.tags: mofumofu, whiskers
 photo.15: cwdc://WXfWa0dADQC.jpg
 photo.15.author: rootsandloyalty
 photo.15.commitdate: 2024/3/17
 photo.15.link: https://www.instagram.com/p/Bnw3c3-nft1
 photo.15.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
+species: 2
+studbook.id: 10110
+uncertainty: death date
+zoo: 56
