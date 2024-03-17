@@ -25,16 +25,16 @@ photo.1.author: kota795
 photo.1.commitdate: 2018/12/26
 photo.1.link: https://www.instagram.com/p/txdURnOPkj
 photo.1.tags: portrait, profile, sample, tree
-photo.2: cwdc://UpN8uVuADQA.jpg
-photo.2.author: cristobal.osorio2019
-photo.2.commitdate: 2020/3/25
-photo.2.link: https://www.instagram.com/p/woKmonEg7I
-photo.2.tags: close-up, portrait, whiskers
-photo.3: https://www.codaworry.com/images/rpf/lily-1-santiago.jpg
-photo.3.author: shin-lachitina
-photo.3.commitdate: 2019/4/11
-photo.3.link: https://shinlachi.exblog.jp/20199319/
-photo.3.tags: bamboo, snow
+photo.2: https://www.codaworry.com/images/rpf/lily-1-santiago.jpg
+photo.2.author: shin-lachitina
+photo.2.commitdate: 2019/4/11
+photo.2.link: https://shinlachi.exblog.jp/20199319/
+photo.2.tags: bamboo, snow
+photo.3: cwdc://UpN8uVuADQA.jpg
+photo.3.author: cristobal.osorio2019
+photo.3.commitdate: 2020/3/25
+photo.3.link: https://www.instagram.com/p/woKmonEg7I
+photo.3.tags: close-up, portrait, whiskers
 photo.4: cwdc://VAPfS_qADQA.jpg
 photo.4.author: cbdsign.cl
 photo.4.commitdate: 2018/12/26
