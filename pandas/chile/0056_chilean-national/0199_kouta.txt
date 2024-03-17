@@ -30,51 +30,51 @@ photo.2.author: gachon_kudo
 photo.2.commitdate: 2019/4/9
 photo.2.link: https://gachon.exblog.jp/i12/
 photo.2.tags: smile
-photo.3: cwdc://VUTOTHWADQB.jpg
-photo.3.author: malufalco
-photo.3.commitdate: 2019/5/22
-photo.3.link: https://www.instagram.com/p/BGKzZBbDxAx
-photo.3.tags: flowers, sample, tail
+photo.3: cwdc://UpGSgVFADQA.jpg
+photo.3.author: androarkngel
+photo.3.commitdate: 2019/10/31
+photo.3.link: https://www.instagram.com/p/wkVfoSuuC_
+photo.3.tags: dish, lunch time, portrait, tail
 photo.4: cwdc://VK-m3H_ADQA.jpg
 photo.4.author: malufalco
 photo.4.commitdate: 2019/5/22
 photo.4.link: https://www.instagram.com/p/BBgfrBvjxAN
 photo.4.tags: bamboo, close-up, sample
-photo.5: cwdc://Vm3xO-TADQA.jpg
-photo.5.author: photodme
+photo.5: cwdc://VUTOTHWADQB.jpg
+photo.5.author: malufalco
 photo.5.commitdate: 2019/5/22
-photo.5.link: https://www.instagram.com/p/BPdE285g4vt
-photo.6: cwdc://UpGSgVFADQA.jpg
-photo.6.author: androarkngel
-photo.6.commitdate: 2019/10/31
-photo.6.link: https://www.instagram.com/p/wkVfoSuuC_
-photo.6.tags: dish, lunch time, portrait, tail
+photo.5.link: https://www.instagram.com/p/BGKzZBbDxAx
+photo.5.tags: flowers, sample, tail
+photo.6: cwdc://VaJrI8gADQA.jpg
+photo.6.author: rootsandloyalty
+photo.6.commitdate: 2024/3/17
+photo.6.link: https://www.instagram.com/p/BJGBz8AAYml
+photo.6.tags: bamboo, bridge, laying down, mofumofu, portrait, tail
 photo.7: cwdc://VaqiaYRADQA.jpg
 photo.7.author: lovelyxia
 photo.7.commitdate: 2020/3/15
 photo.7.link: https://www.instagram.com/p/BJWdcp4gDl8
 photo.7.tags: whiskers, window
-species: 2
-studbook.id: 10107
-zoo: 56
-photo.8: cwdc://VaJrI8gADQA.jpg
+photo.8: cwdc://VgWr5ebADQB.jpg
 photo.8.author: rootsandloyalty
 photo.8.commitdate: 2024/3/17
-photo.8.link: https://www.instagram.com/p/BJGBz8AAYml
-photo.8.tags: bamboo, bridge, laying down, mofumofu, portrait, tail
-photo.9: cwdc://VgWr5ebADQB.jpg
+photo.8.link: https://www.instagram.com/p/BMMiMM9gDdq
+photo.8.tags: bamboo, paws, portrait, tail, wave
+photo.9: cwdc://VlNPGPQADQC.jpg
 photo.9.author: rootsandloyalty
 photo.9.commitdate: 2024/3/17
-photo.9.link: https://www.instagram.com/p/BMMiMM9gDdq
-photo.9.tags: bamboo, paws, portrait, tail, wave
-photo.10: cwdc://VlNPGPQADQC.jpg
-photo.10.author: rootsandloyalty
-photo.10.commitdate: 2024/3/17
-photo.10.link: https://www.instagram.com/p/BOnzylYAyXF
-photo.10.tags: close-up, portrait, profile, sample, whiskers
-photo.5.tags: portrait, sample, tail
+photo.9.link: https://www.instagram.com/p/BOnzylYAyXF
+photo.9.tags: close-up, portrait, profile, sample, whiskers
+photo.10: cwdc://Vm3xO-TADQA.jpg
+photo.10.author: photodme
+photo.10.commitdate: 2019/5/22
+photo.10.link: https://www.instagram.com/p/BPdE285g4vt
+photo.10.tags: portrait, sample, tail
 photo.11: cwdc://VvUz4GAADQD.jpg
 photo.11.author: rootsandloyalty
 photo.11.commitdate: 2024/3/17
 photo.11.link: https://www.instagram.com/p/BTrmLgwAs9s
 photo.11.tags: close-up, mofumofu, portrait, videolink
+species: 2
+studbook.id: 10107
+zoo: 56
