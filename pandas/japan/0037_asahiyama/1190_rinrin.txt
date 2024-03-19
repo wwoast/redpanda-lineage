@@ -193,8 +193,6 @@ photo.36.author: daniele.tokyo
 photo.36.commitdate: 2023/5/16
 photo.36.link: https://www.instagram.com/daniele.tokyo/
 photo.36.tags: bridge, mofumofu, peek, sample, snow, techitechi
-species: 2
-zoo: 37
 photo.37: cwdc://XVJP_ldADQE.jpg
 photo.37.author: leonard_redmof
 photo.37.commitdate: 2024/3/14
@@ -215,3 +213,5 @@ photo.40.author: leonard_redmof
 photo.40.commitdate: 2024/3/14
 photo.40.link: https://www.instagram.com/p/CwFf-FlPlHt
 photo.40.tags: mofumofu, peek, portrait, sample, tail
+species: 2
+zoo: 37

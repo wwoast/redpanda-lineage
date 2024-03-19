@@ -320,9 +320,6 @@ photo.62.author: grskus_tk
 photo.62.commitdate: 2023/11/26
 photo.62.link: https://www.instagram.com/grskus_tk/
 photo.62.tags: peek
-species: 2
-studbook.id: 13160
-zoo: 26
 photo.63: cwdc://XFrHXjvADQB.jpg
 photo.63.author: hamiiiii831_
 photo.63.commitdate: 2024/3/16
@@ -338,3 +335,6 @@ photo.65.author: hamiiiii831_
 photo.65.commitdate: 2024/3/16
 photo.65.link: https://www.instagram.com/p/B-2v7PnhcDE
 photo.65.tags: portrait, sample
+species: 2
+studbook.id: 13160
+zoo: 26

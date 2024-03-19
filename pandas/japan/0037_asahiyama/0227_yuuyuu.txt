@@ -158,9 +158,6 @@ photo.29.author: ho0oipo
 photo.29.commitdate: 2021/11/15
 photo.29.link: https://www.instagram.com/p/CVpuS-esi2l
 photo.29.tags: apple time, portrait, tail, toys, upside-down
-species: 2
-studbook.id: 11130
-zoo: 37
 photo.30: cwdc://Xx0YXMLADQA.jpg
 photo.30.author: leonard_redmof
 photo.30.commitdate: 2024/3/14
@@ -171,3 +168,6 @@ photo.31.author: leonard_redmof
 photo.31.commitdate: 2024/3/14
 photo.31.link: https://www.instagram.com/p/CwFf-FlPlHt
 photo.31.tags: mofumofu
+species: 2
+studbook.id: 11130
+zoo: 37

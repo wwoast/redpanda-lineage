@@ -183,8 +183,6 @@ photo.34.author: fetorus_mami
 photo.34.commitdate: 2023/9/25
 photo.34.link: https://www.instagram.com/fetorus_mami/
 photo.34.tags: bamboo, paws, sample, smile, tail
-species: 2
-zoo: 37
 photo.35: cwdc://XVJP_ldADQD.jpg
 photo.35.author: leonard_redmof
 photo.35.commitdate: 2024/3/14
@@ -205,3 +203,5 @@ photo.38.author: leonard_redmof
 photo.38.commitdate: 2024/3/14
 photo.38.link: https://www.instagram.com/p/CwFf-FlPlHt
 photo.38.tags: apple time, bite, paws, portrait, sample, whiskers
+species: 2
+zoo: 37

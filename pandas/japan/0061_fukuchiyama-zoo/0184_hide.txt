@@ -14,98 +14,83 @@ ja.nicknames: none
 ja.othernames: ひで
 language.order: ja, en
 litter: 286
-photo.1: ig://BTMdcDJFV1h/m
-photo.1.author: mel._.cara
-photo.1.commitdate: 2018/12/11
-photo.1.link: https://www.instagram.com/mel._.cara/
-photo.1.tags: techitechi
-photo.2: ig://BTv-sGqh07G/m
-photo.2.author: apple_jasmine33
-photo.2.commitdate: 2018/8/21
-photo.2.link: https://www.instagram.com/apple_jasmine33/
-photo.2.tags: bamboo, shedding, tongue
-photo.3: ig://BYYD9GyB-YU/m
-photo.3.author: mel._.cara
-photo.3.commitdate: 2018/12/11
-photo.3.link: https://www.instagram.com/mel._.cara/
-photo.3.tags: tail
-photo.4: cwdc://WGaQRCpADQA.jpg
-photo.4.author: tomo3700
+photo.1: ig://BTv-sGqh07G/m
+photo.1.author: apple_jasmine33
+photo.1.commitdate: 2018/8/21
+photo.1.link: https://www.instagram.com/apple_jasmine33/
+photo.1.tags: bamboo, shedding, tongue
+photo.2: cwdc://WGaQRCpADQA.jpg
+photo.2.author: tomo3700
+photo.2.commitdate: 2018/12/11
+photo.2.link: https://www.instagram.com/p/BfOUX_EnQ7f
+photo.2.tags: peek, portrait, profile, sample, smile, whiskers
+photo.3: ig://BfPCBahhA6q/m
+photo.3.author: craig_craig_craig
+photo.3.commitdate: 2018/8/21
+photo.3.link: https://www.instagram.com/craig_craig_craig/
+photo.3.tags: bamboo, smile
+photo.4: ig://BfPPDGulRXk/m
+photo.4.author: nakacchi_desu
 photo.4.commitdate: 2018/12/11
-photo.4.link: https://www.instagram.com/p/BfOUX_EnQ7f
-photo.4.tags: peek, portrait, profile, sample, smile, whiskers
-photo.5: ig://BfPCBahhA6q/m
-photo.5.author: craig_craig_craig
-photo.5.commitdate: 2018/8/21
-photo.5.link: https://www.instagram.com/craig_craig_craig/
-photo.5.tags: bamboo, smile
-photo.6: ig://BfPPDGulRXk/m
-photo.6.author: nakacchi_desu
-photo.6.commitdate: 2018/12/11
-photo.6.link: https://www.instagram.com/nakacchi_desu/
-photo.7: ig://BfQ2FW_hEWJ/m
+photo.4.link: https://www.instagram.com/nakacchi_desu/
+photo.5: ig://BfQ2FW_hEWJ/m
+photo.5.author: love__mitarashi
+photo.5.commitdate: 2018/12/11
+photo.5.link: https://www.instagram.com/love__mitarashi/
+photo.6: ig://BmaiRMSlmnb/m
+photo.6.author: love__mitarashi
+photo.6.commitdate: 2018/8/21
+photo.6.link: https://www.instagram.com/love__mitarashi/
+photo.6.tags: smile
+photo.7: ig://Bmb9YJPFijo/m
 photo.7.author: love__mitarashi
-photo.7.commitdate: 2018/12/11
+photo.7.commitdate: 2018/8/21
 photo.7.link: https://www.instagram.com/love__mitarashi/
-photo.8: ig://Bfo7TKkBK19/m
-photo.8.author: mel._.cara
-photo.8.commitdate: 2018/12/11
-photo.8.link: https://www.instagram.com/mel._.cara/
-photo.8.tags: smile
-photo.9: ig://BmaiRMSlmnb/m
+photo.8: ig://Br74UYTlr-e/m
+photo.8.author: love__mitarashi
+photo.8.commitdate: 2018/12/28
+photo.8.link: https://www.instagram.com/love__mitarashi/
+photo.8.tags: tail
+photo.9: ig://B1H62cjh8SB/m
 photo.9.author: love__mitarashi
-photo.9.commitdate: 2018/8/21
+photo.9.commitdate: 2019/8/15
 photo.9.link: https://www.instagram.com/love__mitarashi/
-photo.9.tags: smile
-photo.10: ig://Bmb9YJPFijo/m
+photo.9.tags: baby, bamboo, paws, smile
+photo.10: ig://B1LI4U8BqBn/m
 photo.10.author: love__mitarashi
-photo.10.commitdate: 2018/8/21
+photo.10.commitdate: 2019/8/15
 photo.10.link: https://www.instagram.com/love__mitarashi/
-photo.11: ig://Br74UYTlr-e/m
+photo.10.tags: baby
+photo.11: ig://B8jVX1kB09I/m
 photo.11.author: love__mitarashi
-photo.11.commitdate: 2018/12/28
+photo.11.commitdate: 2020/2/18
 photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: tail
-photo.12: ig://B1H62cjh8SB/m
-photo.12.author: love__mitarashi
-photo.12.commitdate: 2019/8/15
-photo.12.link: https://www.instagram.com/love__mitarashi/
-photo.12.tags: baby, bamboo, paws, smile
-photo.13: ig://B1LI4U8BqBn/m
+photo.11.tags: paws, portrait, standing, tail
+photo.12: ig://B8kY6I1hy9M/m
+photo.12.author: tomo3700
+photo.12.commitdate: 2020/2/18
+photo.12.link: https://www.instagram.com/tomo3700/
+photo.12.tags: flowers, portrait, smile, tail
+photo.13: ig://CD2DFoaBxbI/m
 photo.13.author: love__mitarashi
-photo.13.commitdate: 2019/8/15
+photo.13.commitdate: 2020/8/21
 photo.13.link: https://www.instagram.com/love__mitarashi/
-photo.13.tags: baby
-photo.14: ig://B8jVX1kB09I/m
+photo.13.tags: paws, smile
+photo.14: ig://CD40IfAhP7Y/m
 photo.14.author: love__mitarashi
-photo.14.commitdate: 2020/2/18
+photo.14.commitdate: 2020/8/21
 photo.14.link: https://www.instagram.com/love__mitarashi/
-photo.14.tags: paws, portrait, standing, tail
-photo.15: ig://B8kY6I1hy9M/m
+photo.14.tags: paws, smile
+photo.15: ig://CLUSQSyh73p/m
 photo.15.author: tomo3700
-photo.15.commitdate: 2020/2/18
+photo.15.commitdate: 2021/2/19
 photo.15.link: https://www.instagram.com/tomo3700/
-photo.15.tags: flowers, portrait, smile, tail
-photo.16: ig://CD2DFoaBxbI/m
-photo.16.author: love__mitarashi
-photo.16.commitdate: 2020/8/21
-photo.16.link: https://www.instagram.com/love__mitarashi/
-photo.16.tags: paws, smile
-photo.17: ig://CD40IfAhP7Y/m
-photo.17.author: love__mitarashi
-photo.17.commitdate: 2020/8/21
-photo.17.link: https://www.instagram.com/love__mitarashi/
-photo.17.tags: paws, smile
-photo.18: ig://CLUSQSyh73p/m
-photo.18.author: tomo3700
-photo.18.commitdate: 2021/2/19
-photo.18.link: https://www.instagram.com/tomo3700/
-photo.18.tags: portrait, smile
-photo.19: ig://CZ-biI5P4ck/m
-photo.19.author: tomo3700
-photo.19.commitdate: 2022/3/5
-photo.19.link: https://www.instagram.com/tomo3700/
-photo.19.tags: baby, portrait, whiskers
+photo.15.tags: portrait, smile
+photo.16: ig://CZ-biI5P4ck/m
+photo.16.author: tomo3700
+photo.16.commitdate: 2022/3/5
+photo.16.link: https://www.instagram.com/tomo3700/
+photo.16.tags: baby, portrait, whiskers
 species: 2
 studbook.id: 1680
 zoo: 61
