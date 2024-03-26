@@ -7,41 +7,57 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/3/26
 photo.1.link: https://www.instagram.com/p/BWoNNrKhHfU
 photo.1.tags: itchy, paws, peek, portrait, surprise
+photo.1.tags.284.location: 240, 250
+photo.1.tags.286.location: 560, 280
 photo.2: cwdc://V1_bj42ADQE.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2024/3/26
 photo.2.link: https://www.instagram.com/p/BXA6BaLBzyo
 photo.2.tags: climb, laying down, smile
+photo.2.tags.284.location: 555, 140
+photo.2.tags.286.location: 360, 360
 photo.3: cwdc://V2Ek3B8ADQF.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2024/3/26
 photo.3.link: https://www.instagram.com/p/BXDeq-uB-jS
 photo.3.tags: ear, grooming, mofumofu, smile, tail
+photo.3.tags.284.location: 240, 375
+photo.3.tags.286.location: 655, 315
 photo.4: cwdc://V-U9dAhADQB.jpg
 photo.4.author: love__mitarashi
 photo.4.commitdate: 2024/3/26
 photo.4.link: https://www.instagram.com/p/BbLq9-Ahgbh
 photo.4.tags: laying down, paws, playing, portrait, sample, tail, whiskers
+photo.4.tags.284.location: 645, 310
+photo.4.tags.286.location: 280, 235
 photo.5: cwdc://WHgEXgiADQC.jpg
 photo.5.author: love__mitarashi
 photo.5.commitdate: 2024/3/26
 photo.5.link: https://www.instagram.com/p/BfxObOBBy4x
 photo.5.tags: father's day, laying down, mofumofu, paws, playing, portrait
+photo.5.tags.284.location: 310, 395
+photo.5.tags.286.location: 230, 530
 photo.6: cwdc://Wt_YUD-ADQA.jpg
 photo.6.author: resapanlove
 photo.6.commitdate: 2024/3/26
 photo.6.link: https://www.instagram.com/p/BzA4ZfvBX5I
 photo.6.tags: father's day, laying down, paws, playing, sample, tail
+photo.6.tags.284.location: 410, 265
+photo.6.tags.286.location: 130, 455
 photo.7: cwdc://Wt_YUD-ADQB.jpg
 photo.7.author: resapanlove
 photo.7.commitdate: 2024/3/26
 photo.7.link: https://www.instagram.com/p/BzA4ZfvBX5I
 photo.7.tags: paws, playing, portrait, sample, tail, whiskers
+photo.7.tags.284.location: 600, 310
+photo.7.tags.286.location: 130, 320
 photo.8: cwdc://W2pC-K9ADQC.jpg
 photo.8.author: redpanda_nippon_takashi
 photo.8.commitdate: 2024/3/26
 photo.8.link: https://www.instagram.com/p/B3VtujOheAp
 photo.8.tags: dish, ear, mofumofu, portrait, sample, whiskers
+photo.8.tags.284.location: 580, 325
+photo.8.tags.286.location: 260, 240
 photo.9: cwdc://W2rbFQAADQA.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2019/10/22
@@ -61,6 +77,8 @@ photo.11.author: apple_jasmine33
 photo.11.commitdate: 2024/3/26
 photo.11.link: https://www.instagram.com/p/B6ItwoBBqBL
 photo.11.tags: bamboo, father's day, paws, peek, standing
+photo.11.tags.284.location: 135, 210
+photo.11.tags.286.location: 635, 215
 photo.12: cwdc://Xn7PHCpADQA.jpg
 photo.12.author: kisshan324
 photo.12.commitdate: 2022/1/7
@@ -73,3 +91,5 @@ photo.13.author: sakikukeco
 photo.13.commitdate: 2024/3/26
 photo.13.link: https://www.instagram.com/p/CbXEAJXv9nU
 photo.13.tags: father's day, portrait
+photo.13.tags.284.location: 610, 460
+photo.13.tags.286.location: 70, 465
