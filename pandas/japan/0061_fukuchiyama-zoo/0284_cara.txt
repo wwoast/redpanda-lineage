@@ -16,365 +16,846 @@ language.order: ja, en
 litter: 51
 location.1: 9, 2013/7/10
 location.2: 61, 2014/4/21
-photo.1: ig://BTvvmRwByGB/m
+photo.1: cwdc://VvdGtoAADQD.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/12
-photo.1.link: https://www.instagram.com/apple_jasmine33/
-photo.1.tags: ear, portrait, shedding, smile
-photo.2: ig://BfXV-3EBWOp/m
+photo.1.link: https://www.instagram.com/p/BTvvmRwByGB
+photo.1.tags: ear, portrait, sample, shedding, smile, whiskers
+photo.2: cwdc://WGsTeyoADQC.jpg
 photo.2.author: apple_jasmine33
 photo.2.commitdate: 2018/8/21
-photo.2.link: https://www.instagram.com/apple_jasmine33/
-photo.2.tags: bamboo
-photo.3: ig://Bfz0CXmBJjp/m
+photo.2.link: https://www.instagram.com/p/BfXV-3EBWOp
+photo.2.tags: bamboo, paws, portrait, sample, smile
+photo.3: cwdc://WHlPlzsADQK.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2018/8/21
-photo.3.link: https://www.instagram.com/love__mitarashi/
-photo.3.tags: tail
-photo.4: ig://BlBwJnCF2XZ/m
+photo.3.link: https://www.instagram.com/p/Bfz0CXmBJjp
+photo.3.tags: ear, portrait, sample, tail
+photo.4: cwdc://WSBH0SkADQA.jpg
 photo.4.author: craig_craig_craig
 photo.4.commitdate: 2018/8/21
-photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.5: ig://BoMHkq7lF2r/m
+photo.4.link: https://www.instagram.com/p/BlBwJnCF2XZ
+photo.5: cwdc://WYV2qaXADQR.jpg
 photo.5.author: love__mitarashi
 photo.5.commitdate: 2018/9/27
-photo.5.link: https://www.instagram.com/love__mitarashi/
-photo.5.tags: itchy, paws
-photo.6: ig://BpgGLIJFi63/m
+photo.5.link: https://www.instagram.com/p/BoMHkq7lF2r
+photo.5.tags: ear, itchy, paws, portrait, sample, videolink
+photo.6: cwdc://Wa9z3UyADQL.jpg
 photo.6.author: kisshan324
 photo.6.commitdate: 2018/10/29
-photo.6.link: https://www.instagram.com/kisshan324/
-photo.6.tags: paws
-photo.7: ig://BpyRbYtFyV6/m
+photo.6.link: https://www.instagram.com/p/BpgGLIJFi63
+photo.6.tags: paws, portrait, tail
+photo.7: cwdc://WbiKX16ADQT.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2018/11/6
-photo.7.link: https://www.instagram.com/love__mitarashi/
-photo.7.tags: bamboo, lips
-photo.8: ig://BqhLa5_FuJz/m
+photo.7.link: https://www.instagram.com/p/BpyRbYtFyV6
+photo.7.tags: bamboo, close-up, lips, portrait, sample, techitechi, videolink, whiskers
+photo.8: cwdc://Wc_-W4eADQA.jpg
 photo.8.author: tomo3700
 photo.8.commitdate: 2018/11/23
-photo.8.link: https://www.instagram.com/tomo3700/
-photo.8.tags: grumpy, paws
-photo.9: ig://BvFX9uiFTy9/m
+photo.8.link: https://www.instagram.com/p/BqhLa5_FuJz
+photo.8.tags: door, grumpy, paws, portrait, sample, whiskers
+photo.9: cwdc://WmIXchkADQD.jpg
 photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2019/8/15
-photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.9.link: https://www.instagram.com/p/BvFX9uiFTy9
 photo.9.tags: ear, paws, portrait
-photo.10: ig://BxijvxcFApO/m
+photo.10: cwdc://WrCvAnYADQE.jpg
 photo.10.author: redpanda_nippon_takashi
 photo.10.commitdate: 2019/5/19
-photo.10.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.10.tags: ear
-photo.11: ig://Bzs3POdh3WB/m
+photo.10.link: https://www.instagram.com/p/BxijvxcFApO
+photo.10.tags: ear, sample, whiskers
+photo.11: cwdc://WvXV_hbADQY.jpg
 photo.11.author: love__mitarashi
 photo.11.commitdate: 2019/7/10
-photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: bridge, ear, tail
-photo.12: ig://BzvJL7HBwhL/m
+photo.11.link: https://www.instagram.com/p/Bzs3POdh3WB
+photo.11.tags: bridge, ear, sample, tail
+photo.12: cwdc://Wvb546uADQC.jpg
 photo.12.author: leonard_redmof
 photo.12.commitdate: 2019/7/11
-photo.12.link: https://www.instagram.com/leonard_redmof/
-photo.12.tags: ear, portrait
-photo.13: ig://B0xRHfcBhXv/m
+photo.12.link: https://www.instagram.com/p/BzvJL7HBwhL
+photo.12.tags: ear, portrait, sample, whiskers
+photo.13: cwdc://WxgJwDYADQA.jpg
 photo.13.author: love__mitarashi
 photo.13.commitdate: 2019/8/15
-photo.13.link: https://www.instagram.com/love__mitarashi/
-photo.13.tags: ear, portrait, shedding, tail
-photo.14: ig://B05x3TEBjpg/m
+photo.13.link: https://www.instagram.com/p/B0xRHfcBhXv
+photo.13.tags: ear, peek, portrait, sample, shedding, tail
+photo.14: cwdc://WxxLPqoADQA.jpg
 photo.14.author: leonard_redmof
 photo.14.commitdate: 2019/8/12
-photo.14.link: https://www.instagram.com/leonard_redmof/
-photo.14.tags: dish, ear, paws, portrait, smile
-photo.15: ig://B07rYJ6BVYL/m
+photo.14.link: https://www.instagram.com/p/B05x3TEBjpg
+photo.14.tags: dish, ear, paws, portrait, sample, smile, whiskers
+photo.15: cwdc://Wx0-RYUADQC.jpg
 photo.15.author: love__mitarashi
 photo.15.commitdate: 2019/8/12
-photo.15.link: https://www.instagram.com/love__mitarashi/
-photo.15.tags: ear, paws, portrait
-photo.16: ig://B21RRDhhjvf/m
+photo.15.link: https://www.instagram.com/p/B07rYJ6BVYL
+photo.15.tags: ear, paws, portrait, sample, whiskers
+photo.16: cwdc://W1oKDLjADQF.jpg
 photo.16.author: love__mitarashi
 photo.16.commitdate: 2019/10/2
-photo.16.link: https://www.instagram.com/love__mitarashi/
-photo.16.tags: ear, portrait, tail
-photo.17: ig://B3Rn9Uzhj03/m
+photo.16.link: https://www.instagram.com/p/B21RRDhhjvf
+photo.16.tags: ear, portrait, sample, tail
+photo.17: cwdc://W2g3buHADQA.jpg
 photo.17.author: chankunvv
 photo.17.commitdate: 2019/10/28
-photo.17.link: https://www.instagram.com/chankunvv/
-photo.17.tags: bamboo, ear, portrait, smile
-photo.18: ig://B3VtujOheAp/m
+photo.17.link: https://www.instagram.com/p/B3Rn9Uzhj03
+photo.17.tags: bamboo, ear, portrait, sample, smile, whiskers
+photo.18: cwdc://W2pC-K9ADQA.jpg
 photo.18.author: redpanda_nippon_takashi
 photo.18.commitdate: 2019/10/16
-photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.18.tags: apple time, ear, portrait, smile
-photo.19: ig://B3lPUxAhARl/m
+photo.18.link: https://www.instagram.com/p/B3VtujOheAp
+photo.18.tags: apple time, dish, ear, portrait, sample, smile, whiskers
+photo.19: cwdc://W3IGKmhADQA.jpg
 photo.19.author: kisshan324
 photo.19.commitdate: 2019/10/16
-photo.19.link: https://www.instagram.com/kisshan324/
-photo.19.tags: grooming, portrait, tail, window
+photo.19.link: https://www.instagram.com/p/B3lPUxAhARl
+photo.19.tags: ear, grooming, paws, portrait, tail, window
 photo.20: cwdc://W3P1BKhADQA.jpg
 photo.20.author: yossi929
 photo.20.commitdate: 2019/10/17
 photo.20.link: https://www.instagram.com/p/B3pGwDAhmR1
 photo.20.tags: portrait, profile, sample, whiskers
-photo.21: ig://B4Hu8s5BXz2/m
+photo.21: cwdc://W4NFaeSADQB.jpg
 photo.21.author: kisshan324
 photo.21.commitdate: 2019/10/28
-photo.21.link: https://www.instagram.com/kisshan324/
-photo.21.tags: ear, portrait, tail
-photo.22: ig://B4R8NgiB8az/m
+photo.21.link: https://www.instagram.com/p/B4Hu8s5BXz2
+photo.21.tags: ear, portrait, sample, tail
+photo.22: cwdc://W4hf8FkADQB.jpg
 photo.22.author: love__mitarashi
 photo.22.commitdate: 2019/11/2
-photo.22.link: https://www.instagram.com/love__mitarashi/
-photo.22.tags: laying down, sleeping, whiskers
-photo.23: ig://B492DBwhKdW/m
+photo.22.link: https://www.instagram.com/p/B4R8NgiB8az
+photo.22.tags: laying down, sample, sleeping, whiskers
+photo.23: cwdc://W55TnIBADQB.jpg
 photo.23.author: leonard_redmof
 photo.23.commitdate: 2019/11/21
-photo.23.link: https://www.instagram.com/leonard_redmof/
-photo.23.tags: ear, grumpy, portrait, tail
-photo.24: ig://B5JZJN0BMbX/m
+photo.23.link: https://www.instagram.com/p/B492DBwhKdW
+photo.23.tags: ear, grumpy, portrait, sample, tail
+photo.24: cwdc://W6QZzgIADQA.jpg
 photo.24.author: panda.daisuki
 photo.24.commitdate: 2019/11/21
-photo.24.link: https://www.instagram.com/panda.daisuki/
-photo.24.tags: climb, ear, paws, portrait, whiskers
-photo.25: ig://B5p33MAhES5/m
+photo.24.link: https://www.instagram.com/p/B5JZJN0BMbX
+photo.24.tags: climb, ear, paws, portrait, sample, whiskers
+photo.25: cwdc://W7RXPchADQD.jpg
 photo.25.author: kisshan324
 photo.25.commitdate: 2019/12/7
-photo.25.link: https://www.instagram.com/kisshan324/
+photo.25.link: https://www.instagram.com/p/B5p33MAhES5
 photo.25.tags: bamboo, portrait, smile
-photo.26: ig://B5t9Hyzhyup/m
+photo.26: cwdc://W7ZhwqHADQK.jpg
 photo.26.author: kisshan324
 photo.26.commitdate: 2019/12/11
-photo.26.link: https://www.instagram.com/kisshan324/
-photo.26.tags: bamboo, ear, portrait, tail
-photo.27: ig://B6ItwoBBqBL/m
+photo.26.link: https://www.instagram.com/p/B5t9Hyzhyup
+photo.26.tags: bamboo, ear, portrait, sample, tail
+photo.27: cwdc://W8PDCUiADQA.jpg
 photo.27.author: apple_jasmine33
 photo.27.commitdate: 2019/12/30
-photo.27.link: https://www.instagram.com/apple_jasmine33/
-photo.27.tags: bamboo, paws
-photo.28: ig://B6QGsnzB7vx/m
+photo.27.link: https://www.instagram.com/p/B6ItwoBBqBL
+photo.27.tags: bamboo, close-up, paws, window
+photo.28: cwdc://W8d06UGADQA.jpg
 photo.28.author: jas_forever_love
 photo.28.commitdate: 2019/12/30
-photo.28.link: https://www.instagram.com/jas_forever_love/
-photo.28.tags: bamboo, portrait, smile
-photo.29: ig://B613YSlBY4r/m
+photo.28.link: https://www.instagram.com/p/B6QGsnzB7vx
+photo.28.tags: bamboo, portrait, sample, smile
+photo.29: cwdc://W9pWRpqADQA.jpg
 photo.29.author: sakikukeco
 photo.29.commitdate: 2020/1/9
-photo.29.link: https://www.instagram.com/sakikukeco/
-photo.29.tags: ear, paws, portrait, whiskers
-photo.30: ig://B9B1aeXhZ_Q/m
+photo.29.link: https://www.instagram.com/p/B613YSlBY4r
+photo.29.tags: ear, paws, portrait, sample, whiskers
+photo.30: cwdc://XCBSWBPADQD.jpg
 photo.30.author: love__mitarashi
 photo.30.commitdate: 2020/3/3
-photo.30.link: https://www.instagram.com/love__mitarashi/
-photo.30.tags: bridge, ear, portrait, tail
-photo.31: ig://B9wmT0ihlfA/m
+photo.30.link: https://www.instagram.com/p/B9B1aeXhZ_Q
+photo.30.tags: bridge, ear, portrait, sample, tail
+photo.31: cwdc://XDe0ItlADQE.jpg
 photo.31.author: love__mitarashi
 photo.31.commitdate: 2020/3/18
-photo.31.link: https://www.instagram.com/love__mitarashi/
-photo.31.tags: bamboo, paws
-photo.32: ig://CARebmqh23P/m
+photo.31.link: https://www.instagram.com/p/B9wmT0ihlfA
+photo.31.tags: bamboo, paws, videolink
+photo.32: cwdc://XIgkYR1ADQZ.jpg
 photo.32.author: love__mitarashi
 photo.32.commitdate: 2020/5/23
-photo.32.link: https://www.instagram.com/love__mitarashi/
-photo.32.tags: laying down, paws, smile
-photo.33: ig://CBsRAZbBZfd/m
+photo.32.link: https://www.instagram.com/p/CARebmqh23P
+photo.32.tags: laying down, paws, sample, smile
+photo.33: cwdc://XLWJh3WADQF.jpg
 photo.33.author: redpanda_nippon_takashi
 photo.33.commitdate: 2020/6/30
-photo.33.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.33.tags: ear, portrait
-photo.34: ig://CCcFYXwB-jh/m
+photo.33.link: https://www.instagram.com/p/CBsRAZbBZfd
+photo.33.tags: ear, portrait, sample, whiskers
+photo.34: cwdc://XM1yR0AADQC.jpg
 photo.34.author: panda.daisuki
 photo.34.commitdate: 2020/7/14
-photo.34.link: https://www.instagram.com/panda.daisuki/
-photo.34.tags: bamboo, ear, portrait
-photo.35: ig://CDSW0l4hVA2/m
+photo.34.link: https://www.instagram.com/p/CCcFYXwB-jh
+photo.34.tags: bamboo, bite, ear, portrait, sample, whiskers
+photo.35: cwdc://XOiVKQRADQI.jpg
 photo.35.author: redpanda_nippon_takashi
 photo.35.commitdate: 2020/8/3
-photo.35.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.35.tags: whiskers
-photo.36: ig://CFbK_LFhqti/m
+photo.35.link: https://www.instagram.com/p/CDSW0l4hVA2
+photo.35.tags: close-up, whiskers
+photo.36: cwdc://XSz9farADQD.jpg
 photo.36.author: sakikukeco
 photo.36.commitdate: 2020/9/24
-photo.36.link: https://www.instagram.com/sakikukeco/
-photo.36.tags: ear, portrait
-photo.37: ig://CGevJIhB3vZ/m
+photo.36.link: https://www.instagram.com/p/CFbK_LFhqti
+photo.36.tags: close-up, ear, portrait, sample, whiskers
+photo.37: cwdc://XU7FzViADQe.jpg
 photo.37.author: love__mitarashi
 photo.37.commitdate: 2020/10/25
-photo.37.link: https://www.instagram.com/love__mitarashi/
-photo.37.tags: ear, mofumofu, portrait, standing, whiskers
-photo.38: ig://CGpcMKsh5bC/m
+photo.37.link: https://www.instagram.com/p/CGevJIhB3vZ
+photo.37.tags: ear, mofumofu, portrait, sample, standing, whiskers
+photo.38: cwdc://XVQf5Z5ADQG.jpg
 photo.38.author: apple_jasmine33
 photo.38.commitdate: 2020/10/25
-photo.38.link: https://www.instagram.com/apple_jasmine33/
-photo.38.tags: close-up, ear, whiskers
-photo.39: ig://CGvtDfXhfCK/m
+photo.38.link: https://www.instagram.com/p/CGpcMKsh5bC
+photo.38.tags: close-up, ear, sample, whiskers
+photo.39: cwdc://XVdBoDPADQL.jpg
 photo.39.author: redpanda_nippon_takashi
 photo.39.commitdate: 2020/10/25
-photo.39.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.39.tags: ear, mofumofu, portrait, whiskers
-photo.40: ig://CG2FEZlhi7Y/m
+photo.39.link: https://www.instagram.com/p/CGvtDfXhfCK
+photo.39.tags: ear, mofumofu, portrait, sample, whiskers
+photo.40: cwdc://XVpxp3rADQd.jpg
 photo.40.author: love__mitarashi
 photo.40.commitdate: 2020/11/1
-photo.40.link: https://www.instagram.com/love__mitarashi/
-photo.40.tags: ear, portrait, smile, tail
-photo.41: ig://CHpnJDVhi60/m
+photo.40.link: https://www.instagram.com/p/CG2FEZlhi7Y
+photo.40.tags: ear, portrait, sample, smile, tail
+photo.41: cwdc://XXQ1zLLADQh.jpg
 photo.41.author: love__mitarashi
 photo.41.commitdate: 2020/11/29
-photo.41.link: https://www.instagram.com/love__mitarashi/
-photo.41.tags: paws, standing, tail
-photo.42: ig://CINf086BOu0/m
+photo.41.link: https://www.instagram.com/p/CHpnJDVhi60
+photo.41.tags: paws, sample, standing, tail
+photo.42: cwdc://XYYnK-UADQj.jpg
 photo.42.author: love__mitarashi
 photo.42.commitdate: 2020/12/3
-photo.42.link: https://www.instagram.com/love__mitarashi/
-photo.42.tags: door, paws, portrait
-photo.43: ig://CIX8S5eBEEh/m
+photo.42.link: https://www.instagram.com/p/CINf086BOu0
+photo.42.tags: door, paws, portrait, sample
+photo.43: cwdc://XYtgG3cADQD.jpg
 photo.43.author: jas_forever_love
 photo.43.commitdate: 2020/12/20
-photo.43.link: https://www.instagram.com/jas_forever_love/
-photo.43.tags: bamboo, peek, portrait
-photo.44: ig://CIivPLDBM7X/m
+photo.43.link: https://www.instagram.com/p/CIX8S5eBEEh
+photo.43.tags: bamboo, peek, portrait, sample, whiskers
+photo.44: cwdc://XZDF_amADQA.jpg
 photo.44.author: akiakiakiko18
 photo.44.commitdate: 2020/12/20
-photo.44.link: https://www.instagram.com/akiakiakiko18/
-photo.44.tags: blink, close-up, ear, whiskers
-photo.45: ig://CJI6tuYhzVP/m
+photo.44.link: https://www.instagram.com/p/CIivPLDBM7X
+photo.44.tags: blink, close-up, ear, sample, whiskers
+photo.45: cwdc://XaPc8hRADQl.jpg
 photo.45.author: love__mitarashi
 photo.45.commitdate: 2020/12/29
-photo.45.link: https://www.instagram.com/love__mitarashi/
-photo.45.tags: laying down, sleeping, tail
-photo.46: ig://COO_uyAhNav/m
+photo.45.link: https://www.instagram.com/p/CJI6tuYhzVP
+photo.45.tags: laying down, sample, sleeping, tail
+photo.46: cwdc://Xkbm-ohADQn.jpg
 photo.46.author: love__mitarashi
 photo.46.commitdate: 2021/5/4
-photo.46.link: https://www.instagram.com/love__mitarashi/
-photo.46.tags: ear
-photo.47: ig://COvBDMzhbIF/m
+photo.46.link: https://www.instagram.com/p/COO_uyAhNav
+photo.46.tags: ear, sample
+photo.47: cwdc://XlbpneHADQq.jpg
 photo.47.author: love__mitarashi
 photo.47.commitdate: 2022/1/7
-photo.47.link: https://www.instagram.com/love__mitarashi/
-photo.47.tags: ear, itchy
-photo.48: ig://CQYUKUFhBFT/m
+photo.47.link: https://www.instagram.com/p/COvBDMzhbIF
+photo.47.tags: ear, itchy, sample
+photo.48: cwdc://XouP1srADQG.jpg
 photo.48.author: jas_forever_love
 photo.48.commitdate: 2021/8/6
-photo.48.link: https://www.instagram.com/jas_forever_love/
-photo.48.tags: door, peek, smile, whiskers
+photo.48.link: https://www.instagram.com/p/CQYUKUFhBFT
+photo.48.tags: door, peek, sample, smile, whiskers
 photo.49: ig://CRAwSythiUJ/m
 photo.49.author: sasapan34
 photo.49.commitdate: 2021/10/10
 photo.49.link: https://www.instagram.com/sasapan34/
 photo.49.tags: door, paws
-photo.50: ig://CSWZaPChdgT/m
+photo.50: cwdc://XsqaVilADQI.jpg
 photo.50.author: apple_jasmine33
 photo.50.commitdate: 2022/1/7
-photo.50.link: https://www.instagram.com/apple_jasmine33/
-photo.50.tags: peek, tail
-photo.51: ig://CUj1se7hi1I/m
+photo.50.link: https://www.instagram.com/p/CSWZaPChdgT
+photo.50.tags: ear, peek, tail
+photo.51: cwdc://XxFS6CXADQB.jpg
 photo.51.author: chankunvv
 photo.51.commitdate: 2021/10/6
-photo.51.link: https://www.instagram.com/chankunvv/
-photo.51.tags: itchy, paws, portrait, surprise, tail
-photo.52: ig://CV0yw_eh36I/m
+photo.51.link: https://www.instagram.com/p/CUj1se7hi1I
+photo.51.tags: itchy, paws, portrait, sample, surprise, tail, whiskers
+photo.52: cwdc://XznNDDdADQA.jpg
 photo.52.author: bubbles_octi
 photo.52.commitdate: 2021/11/5
-photo.52.link: https://www.instagram.com/bubbles_octi/
-photo.52.tags: ear, peek, tail
-photo.53: ig://CV9eWvBhBmR/m
+photo.52.link: https://www.instagram.com/p/CV0yw_eh36I
+photo.52.tags: ear, peek, sample, tail
+photo.53: cwdc://Xz4kOijADQK.jpg
 photo.53.author: sakikukeco
 photo.53.commitdate: 2021/11/7
-photo.53.link: https://www.instagram.com/sakikukeco/
-photo.53.tags: close-up, mofumofu, portrait, whiskers
-photo.54: ig://CXCxSOkBx0q/m
+photo.53.link: https://www.instagram.com/p/CV9eWvBhBmR
+photo.53.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.54: cwdc://X2DKFhoADQQ.jpg
 photo.54.author: redpanda_nippon_takashi
 photo.54.commitdate: 2021/12/22
-photo.54.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.54.link: https://www.instagram.com/p/CXCxSOkBx0q
 photo.54.tags: ear, jizo, mofumofu, paws, portrait, sample, tongue
-photo.55: ig://CX0lXo7voun/m
+photo.55: cwdc://X3myQWXADQI.jpg
 photo.55.author: jas_forever_love
 photo.55.commitdate: 2022/1/6
-photo.55.link: https://www.instagram.com/jas_forever_love/
-photo.55.tags: close-up, ear, portrait, whiskers
-photo.56: ig://CbXEAJXv9nU/m
+photo.55.link: https://www.instagram.com/p/CX0lXo7voun
+photo.55.tags: close-up, ear, portrait, sample, whiskers
+photo.56: cwdc://X-rvhXPADQC.jpg
 photo.56.author: sakikukeco
 photo.56.commitdate: 2022/4/29
-photo.56.link: https://www.instagram.com/sakikukeco/
-photo.56.tags: mofumofu, peek, portrait, sample
-photo.57: ig://CdFFh74Ppyg/m
+photo.56.link: https://www.instagram.com/p/CbXEAJXv9nU
+photo.56.tags: mofumofu, peek, portrait, sample, whiskers
+photo.57: cwdc://YCHyk8QADQG.jpg
 photo.57.author: redpanda_nippon_takashi
 photo.57.commitdate: 2022/6/7
-photo.57.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.57.link: https://www.instagram.com/p/CdFFh74Ppyg
 photo.57.tags: close-up, lips, peek, sample, whiskers
-photo.58: ig://Ce_TmhvLQwi/m
+photo.58: cwdc://YF8OuH-ADQc.jpg
 photo.58.author: love__mitarashi
 photo.58.commitdate: 2022/11/29
-photo.58.link: https://www.instagram.com/love__mitarashi/
+photo.58.link: https://www.instagram.com/p/Ce_TmhvLQwi
 photo.58.tags: door, ear, laying down
-photo.59: ig://CklRAaUvBvr/m
+photo.59: cwdc://YRIJh5JADQE.jpg
 photo.59.author: sakikukeco
 photo.59.commitdate: 2022/12/20
-photo.59.link: https://www.instagram.com/sakikukeco/
+photo.59.link: https://www.instagram.com/p/CklRAaUvBvr
 photo.59.tags: ear, peek, portrait, sample, whiskers
-photo.60: ig://Ck3AeL7PYF0/m
+photo.60: cwdc://YRrodcWADQA.jpg
 photo.60.author: hamamatsu.chiita
 photo.60.commitdate: 2022/12/19
-photo.60.link: https://www.instagram.com/hamamatsu.chiita/
+photo.60.link: https://www.instagram.com/p/Ck3AeL7PYF0
 photo.60.tags: close-up, ear, portrait, sample, whiskers
-photo.61: ig://Ck6xHokhb9C/m
+photo.61: cwdc://YRzJwVpADQB.jpg
 photo.61.author: tomo3700
 photo.61.commitdate: 2022/12/20
-photo.61.link: https://www.instagram.com/tomo3700/
+photo.61.link: https://www.instagram.com/p/Ck6xHokhb9C
 photo.61.tags: dish, portrait, sample, tail, whiskers
-photo.62: ig://CmhlZxGhU7B/m
+photo.62: cwdc://YVAyUmtADQI.jpg
 photo.62.author: hamamatsu.chiita
 photo.62.commitdate: 2023/9/25
-photo.62.link: https://www.instagram.com/hamamatsu.chiita/
+photo.62.link: https://www.instagram.com/p/CmhlZxGhU7B
 photo.62.tags: close-up, ear, portrait, sample, whiskers
-photo.63: ig://Cnh7BS7BOwx/m
+photo.63: cwdc://YXBdjqWADQK.jpg
 photo.63.author: hamamatsu.chiita
 photo.63.commitdate: 2023/3/9
-photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: portrait, sample, tail
-photo.64: ig://Coo8AE4vqVC/m
+photo.63.link: https://www.instagram.com/p/Cnh7BS7BOwx
+photo.63.tags: ear, portrait, sample, tail, whiskers
+photo.64: cwdc://YZPfhORADQF.jpg
 photo.64.author: jas_forever_love
 photo.64.commitdate: 2023/2/24
-photo.64.link: https://www.instagram.com/jas_forever_love/
+photo.64.link: https://www.instagram.com/p/Coo8AE4vqVC
 photo.64.tags: ear, sample, whiskers
-photo.65: ig://CopYN3Zvrew/m
+photo.65: cwdc://YZQX8zTADQE.jpg
 photo.65.author: fetorus_mami
 photo.65.commitdate: 2023/2/24
-photo.65.link: https://www.instagram.com/fetorus_mami/
+photo.65.link: https://www.instagram.com/p/CopYN3Zvrew
 photo.65.tags: bamboo, laying down, paws, sample, tail
-photo.66: ig://CopZTdMPJqX/m
+photo.66: cwdc://YZQaH-4ADQH.jpg
 photo.66.author: fetorus_mami
 photo.66.commitdate: 2023/2/24
-photo.66.link: https://www.instagram.com/fetorus_mami/
+photo.66.link: https://www.instagram.com/p/CopZTdMPJqX
 photo.66.tags: bamboo, dish, paws, standing
-photo.67: ig://Copa6L7PRqH/m
+photo.67: cwdc://YZQdVcWADQA.jpg
 photo.67.author: fetorus_mami
 photo.67.commitdate: 2023/4/9
-photo.67.link: https://www.instagram.com/fetorus_mami/
+photo.67.link: https://www.instagram.com/p/Copa6L7PRqH
 photo.67.tags: door, paws
-photo.68: ig://CopbkcqvyT4/m
+photo.68: cwdc://YZQep91ADQI.jpg
 photo.68.author: sakikukeco
 photo.68.commitdate: 2023/2/24
-photo.68.link: https://www.instagram.com/sakikukeco/
+photo.68.link: https://www.instagram.com/p/CopbkcqvyT4
 photo.68.tags: paws, portrait, sample, whiskers
-photo.69: ig://CopcEiOP9-h/m
+photo.69: cwdc://YZQfqI8ADQA.jpg
 photo.69.author: makimaru18
 photo.69.commitdate: 2023/2/24
-photo.69.link: https://www.instagram.com/makimaru18/
+photo.69.link: https://www.instagram.com/p/CopcEiOP9-h
 photo.69.tags: portrait, sample, whiskers
-photo.70: ig://CoqOd44BkOt/m
+photo.70: cwdc://YZSEc2QADQC.jpg
 photo.70.author: yossi929
 photo.70.commitdate: 2023/2/24
-photo.70.link: https://www.instagram.com/yossi929/
+photo.70.link: https://www.instagram.com/p/CoqOd44BkOt
 photo.70.tags: close-up, sample, whiskers
-photo.71: ig://CotuTmRPUXI/m
+photo.71: cwdc://YZZEIRCADQN.jpg
 photo.71.author: kisshan324
 photo.71.commitdate: 2023/8/27
-photo.71.link: https://www.instagram.com/kisshan324/
+photo.71.link: https://www.instagram.com/p/CotuTmRPUXI
 photo.71.tags: bear worm, laying down, portrait, sample
-photo.72: ig://Cqwx931v3MF/m
+photo.72: cwdc://YdfLc0LADQJ.jpg
 photo.72.author: fetorus_mami
 photo.72.commitdate: 2023/7/14
-photo.72.link: https://www.instagram.com/fetorus_mami/
+photo.72.link: https://www.instagram.com/p/Cqwx931v3MF
 photo.72.tags: bamboo, mofumofu, paws, sample, tongue, wink
 species: 2
 studbook.id: 13165
 zoo: 61
+photo.73: cwdc://V0n5DcoADQW.jpg
+photo.73.author: love__mitarashi
+photo.73.commitdate: 2024/3/26
+photo.73.link: https://www.instagram.com/p/BWVIxMEBQ6x
+photo.73.tags: bamboo, paws, portrait, standing
+photo.74: cwdc://V2rzI_AADQX.jpg
+photo.74.author: love__mitarashi
+photo.74.commitdate: 2024/3/26
+photo.74.link: https://www.instagram.com/p/BXXFz9QBnW9
+photo.74.tags: ear, portrait, sample, whiskers
+photo.75: cwdc://V8Emy0qADQH.jpg
+photo.75.author: love__mitarashi
+photo.75.commitdate: 2024/3/26
+photo.75.link: https://www.instagram.com/p/BaDfo4FBkbr
+photo.75.tags: bamboo, ear, portrait, sample
+photo.76: cwdc://V8zDeKIADQG.jpg
+photo.76.author: love__mitarashi
+photo.76.commitdate: 2024/3/26
+photo.76.link: https://www.instagram.com/p/Baat-i0B5oD
+photo.76.tags: bamboo, ear, peek, portrait
+photo.77: cwdc://VPRi228ADQJ.jpg
+photo.77.author: love__mitarashi
+photo.77.commitdate: 2024/3/26
+photo.77.link: https://www.instagram.com/p/BDp9q5OGufR
+photo.77.tags: apple time, dish, sample, smile, tail
+photo.78: cwdc://VYKXxj4ADQL.jpg
+photo.78.author: love__mitarashi
+photo.78.commitdate: 2024/3/26
+photo.78.link: https://www.instagram.com/p/BIGYIPsDu7y
+photo.78.tags: climb, ear, tree
+photo.79: cwdc://VZXnnDXADQM.jpg
+photo.79.author: love__mitarashi
+photo.79.commitdate: 2024/3/26
+photo.79.link: https://www.instagram.com/p/BItAC_bhcFS
+photo.79.tags: portrait, sample, whiskers
+photo.80: cwdc://V_sfvcLADQI.jpg
+photo.80.author: love__mitarashi
+photo.80.commitdate: 2024/3/26
+photo.80.link: https://www.instagram.com/p/Bb3cHL1hcGP
+photo.80.tags: itchy, paws, sample, whiskers
+photo.81: cwdc://Ve0TbcOADQN.jpg
+photo.81.author: love__mitarashi
+photo.81.commitdate: 2024/3/26
+photo.81.link: https://www.instagram.com/p/BLbV9L3BJBf
+photo.81.tags: ear, portrait, sample, smile
+photo.82: cwdc://VgBW_HoADQO.jpg
+photo.82.author: love__mitarashi
+photo.82.commitdate: 2024/3/26
+photo.82.link: https://www.instagram.com/p/BMB3vBkBWFF
+photo.82.tags: bridge, door, tail
+photo.83: cwdc://Vgt0fnuADQP.jpg
+photo.83.author: love__mitarashi
+photo.83.commitdate: 2024/3/26
+photo.83.link: https://www.instagram.com/p/BMYGfRnBEw5
+photo.83.tags: dish, portrait, sample, whiskers
+photo.84: cwdc://ViVOunZADQQ.jpg
+photo.84.author: love__mitarashi
+photo.84.commitdate: 2024/3/26
+photo.84.link: https://www.instagram.com/p/BNLzmxchgYn
+photo.84.tags: bamboo, peek, tongue
+photo.85: cwdc://VkXFRKpADQS.jpg
+photo.85.author: love__mitarashi
+photo.85.commitdate: 2024/3/26
+photo.85.link: https://www.instagram.com/p/BOMu4DEhNJg
+photo.85.tags: portrait, sample, whiskers
+photo.86: cwdc://Vt3WEPJADQU.jpg
+photo.86.author: love__mitarashi
+photo.86.commitdate: 2024/3/26
+photo.86.link: https://www.instagram.com/p/BS83RlUhLzq
+photo.86.tags: laying down, paws, sleeping, whiskers
+photo.87: cwdc://Vuq72mNADQV.jpg
+photo.87.author: love__mitarashi
+photo.87.commitdate: 2024/3/26
+photo.87.link: https://www.instagram.com/p/BTWqKw2hXdI
+photo.87.tags: laying down, mofumofu, sleeping
+photo.88: cwdc://VvdGtoAADQE.jpg
+photo.88.author: apple_jasmine33
+photo.88.commitdate: 2024/3/26
+photo.88.link: https://www.instagram.com/p/BTvvmRwByGB
+photo.88.tags: close-up, ear, laying down, muzzle, portrait, sample, whiskers
+photo.89: cwdc://VvdGtoAADQF.jpg
+photo.89.author: apple_jasmine33
+photo.89.commitdate: 2024/3/26
+photo.89.link: https://www.instagram.com/p/BTvvmRwByGB
+photo.89.tags: bite, close-up, portrait, whiskers
+photo.90: cwdc://W2pC-K9ADQB.jpg
+photo.90.author: redpanda_nippon_takashi
+photo.90.commitdate: 2024/3/26
+photo.90.link: https://www.instagram.com/p/B3VtujOheAp
+photo.90.tags: bamboo, close-up, portrait, sample, whiskers
+photo.91: cwdc://W3P1BKhADQB.jpg
+photo.91.author: yossi929
+photo.91.commitdate: 2024/3/26
+photo.91.link: https://www.instagram.com/p/B3pGwDAhmR1
+photo.91.tags: bamboo, close-up, portrait, sample, whiskers
+photo.92: cwdc://W4NFaeSADQC.jpg
+photo.92.author: kisshan324
+photo.92.commitdate: 2024/3/26
+photo.92.link: https://www.instagram.com/p/B4Hu8s5BXz2
+photo.92.tags: portrait, sample, tail
+photo.93: cwdc://W5CzbqiADQC.jpg
+photo.93.author: redpanda_nippon_takashi
+photo.93.commitdate: 2024/3/26
+photo.93.link: https://www.instagram.com/p/B4il9TBHpC1
+photo.93.tags: door, sample, whiskers
+photo.94: cwdc://W6QZzgIADQB.jpg
+photo.94.author: panda.daisuki
+photo.94.commitdate: 2024/3/26
+photo.94.link: https://www.instagram.com/p/B5JZJN0BMbX
+photo.94.tags: bamboo, bite, close-up, portrait, sample, whiskers
+photo.95: cwdc://W7RXPchADQE.jpg
+photo.95.author: kisshan324
+photo.95.commitdate: 2024/3/26
+photo.95.link: https://www.instagram.com/p/B5p33MAhES5
+photo.95.tags: bamboo, bite, portrait
+photo.96: cwdc://W7RXPchADQF.jpg
+photo.96.author: kisshan324
+photo.96.commitdate: 2024/3/26
+photo.96.link: https://www.instagram.com/p/B5p33MAhES5
+photo.96.tags: bamboo, bite, ear, paws, portrait, sample
+photo.97: cwdc://W7RXPchADQG.jpg
+photo.97.author: kisshan324
+photo.97.commitdate: 2024/3/26
+photo.97.link: https://www.instagram.com/p/B5p33MAhES5
+photo.97.tags: bamboo, paws, portrait, sample, whiskers
+photo.98: cwdc://W7RXPchADQH.jpg
+photo.98.author: kisshan324
+photo.98.commitdate: 2024/3/26
+photo.98.link: https://www.instagram.com/p/B5p33MAhES5
+photo.98.tags: bamboo, bite, paws, peek, portrait, sample
+photo.99: cwdc://W7Za3OcADQI.jpg
+photo.99.author: kisshan324
+photo.99.commitdate: 2024/3/26
+photo.99.link: https://www.instagram.com/p/B5t5rE-Br1V
+photo.99.tags: bridge, distance, portrait, tail
+photo.100: cwdc://W7Za3OcADQJ.jpg
+photo.100.author: kisshan324
+photo.100.commitdate: 2024/3/26
+photo.100.link: https://www.instagram.com/p/B5t5rE-Br1V
+photo.100.tags: paws, peek, portrait, tail
+photo.101: cwdc://W8PDCUiADQB.jpg
+photo.101.author: apple_jasmine33
+photo.101.commitdate: 2024/3/26
+photo.101.link: https://www.instagram.com/p/B6ItwoBBqBL
+photo.101.tags: bamboo, close-up, sample, whiskers
+photo.102: cwdc://W8d06UGADQB.jpg
+photo.102.author: jas_forever_love
+photo.102.commitdate: 2024/3/26
+photo.102.link: https://www.instagram.com/p/B6QGsnzB7vx
+photo.102.tags: ear, portrait, sample, tail
+photo.103: cwdc://W8d06UGADQC.jpg
+photo.103.author: jas_forever_love
+photo.103.commitdate: 2024/3/26
+photo.103.link: https://www.instagram.com/p/B6QGsnzB7vx
+photo.103.tags: bamboo, peek, portrait, smile
+photo.104: cwdc://W9pWRpqADQB.jpg
+photo.104.author: sakikukeco
+photo.104.commitdate: 2024/3/26
+photo.104.link: https://www.instagram.com/p/B613YSlBY4r
+photo.104.tags: close-up, portrait, sample, whiskers, window
+photo.4.tags: ear, portrait, sample, whiskers
+photo.105: cwdc://X3BsMMbADQy.jpg
+photo.105.author: love__mitarashi
+photo.105.commitdate: 2024/3/26
+photo.105.link: https://www.instagram.com/p/CXiCVj9ru9T
+photo.105.tags: door, paws, portrait, sample
+photo.106: cwdc://X3myQWXADQJ.jpg
+photo.106.author: jas_forever_love
+photo.106.commitdate: 2024/3/26
+photo.106.link: https://www.instagram.com/p/CX0lXo7voun
+photo.106.tags: ear, grooming, paws, portrait, sample, tongue, whiskers
+photo.107: cwdc://X3myQWXADQK.jpg
+photo.107.author: jas_forever_love
+photo.107.commitdate: 2024/3/26
+photo.107.link: https://www.instagram.com/p/CX0lXo7voun
+photo.107.tags: ear, mofumofu, portrait, sample, whiskers
+photo.108: cwdc://XM1yR0AADQD.jpg
+photo.108.author: panda.daisuki
+photo.108.commitdate: 2024/3/26
+photo.108.link: https://www.instagram.com/p/CCcFYXwB-jh
+photo.108.tags: climb, paws, portrait, standing, whiskers
+photo.109: cwdc://XNBjRTGADQM.jpg
+photo.109.author: kisshan324
+photo.109.commitdate: 2024/3/26
+photo.109.link: https://www.instagram.com/p/CCh94HTBEz8
+photo.109.tags: laying down, mofumofu, portrait, sleeping, tail
+photo.110: cwdc://XOiVKQRADQJ.jpg
+photo.110.author: redpanda_nippon_takashi
+photo.110.commitdate: 2024/3/26
+photo.110.link: https://www.instagram.com/p/CDSW0l4hVA2
+photo.110.tags: laying down, sample, sleeping, whiskers
+photo.111: cwdc://XOiVKQRADQK.jpg
+photo.111.author: redpanda_nippon_takashi
+photo.111.commitdate: 2024/3/26
+photo.111.link: https://www.instagram.com/p/CDSW0l4hVA2
+photo.111.tags: whiskers
+photo.112: cwdc://XVQf5Z5ADQH.jpg
+photo.112.author: apple_jasmine33
+photo.112.commitdate: 2024/3/26
+photo.112.link: https://www.instagram.com/p/CGpcMKsh5bC
+photo.112.tags: ear, sample, tail
+photo.113: cwdc://XVVRgwxADQf.jpg
+photo.113.author: love__mitarashi
+photo.113.commitdate: 2024/3/26
+photo.113.link: https://www.instagram.com/p/CGr0_2Ihlrx
+photo.113.tags: ear, home, paws, sample, tail, whiskers
+photo.114: cwdc://XVdBoDPADQM.jpg
+photo.114.author: redpanda_nippon_takashi
+photo.114.commitdate: 2024/3/26
+photo.114.link: https://www.instagram.com/p/CGvtDfXhfCK
+photo.114.tags: ear, paws, portrait, sample, standing
+photo.115: cwdc://XVdBoDPADQN.jpg
+photo.115.author: redpanda_nippon_takashi
+photo.115.commitdate: 2024/3/26
+photo.115.link: https://www.instagram.com/p/CGvtDfXhfCK
+photo.115.tags: ear, paws, portrait, sample, standing
+photo.116: cwdc://XVdBoDPADQO.jpg
+photo.116.author: redpanda_nippon_takashi
+photo.116.commitdate: 2024/3/26
+photo.116.link: https://www.instagram.com/p/CGvtDfXhfCK
+photo.116.tags: ear, paws, portrait, sample, standing, tail
+photo.117: cwdc://XVdBoDPADQP.jpg
+photo.117.author: redpanda_nippon_takashi
+photo.117.commitdate: 2024/3/26
+photo.117.link: https://www.instagram.com/p/CGvtDfXhfCK
+photo.117.tags: ear, paws, portrait, sample, standing, tail
+photo.118: cwdc://XWLYGbwADQg.jpg
+photo.118.author: love__mitarashi
+photo.118.commitdate: 2024/3/26
+photo.118.link: https://www.instagram.com/p/CHG4SroBfjn
+photo.118.tags: bamboo, paws, sample, standing, tail
+photo.119: cwdc://XY1xZKmADQi.jpg
+photo.119.author: love__mitarashi
+photo.119.commitdate: 2024/3/26
+photo.119.link: https://www.instagram.com/p/CIcE8DDBxm_
+photo.119.tags: ear, itchy, mofumofu, paws, portrait, sample
+photo.120: cwdc://XYtgG3cADQE.jpg
+photo.120.author: jas_forever_love
+photo.120.commitdate: 2024/3/26
+photo.120.link: https://www.instagram.com/p/CIX8S5eBEEh
+photo.120.tags: ear, mofumofu, portrait, sample, tail, whiskers
+photo.121: cwdc://XZDF_amADQB.jpg
+photo.121.author: akiakiakiko18
+photo.121.commitdate: 2024/3/26
+photo.121.link: https://www.instagram.com/p/CIivPLDBM7X
+photo.121.tags: grooming, paws, sample
+photo.122: cwdc://XjLCPXGADQm.jpg
+photo.122.author: love__mitarashi
+photo.122.commitdate: 2024/3/26
+photo.122.link: https://www.instagram.com/p/CNmtXJTBag1
+photo.122.tags: ear, sample, tail
+photo.123: cwdc://XkxPxtXADQs.jpg
+photo.123.author: love__mitarashi
+photo.123.commitdate: 2024/3/26
+photo.123.link: https://www.instagram.com/p/COZ0IUbhFKy
+photo.123.tags: ear, laying down, sample
+photo.124: cwdc://XlldPc9ADQr.jpg
+photo.124.author: love__mitarashi
+photo.124.commitdate: 2024/3/26
+photo.124.link: https://www.instagram.com/p/COz63MOh1r0
+photo.124.tags: distance, home, laying down
+photo.125: cwdc://XouP1srADQH.jpg
+photo.125.author: jas_forever_love
+photo.125.commitdate: 2024/3/26
+photo.125.link: https://www.instagram.com/p/CQYUKUFhBFT
+photo.125.tags: bamboo, sample
+photo.126: cwdc://XqN10_AADQt.jpg
+photo.126.author: love__mitarashi
+photo.126.commitdate: 2024/3/26
+photo.126.link: https://www.instagram.com/p/CRIHJ9QBfI6
+photo.126.tags: itchy, portrait, techitechi
+photo.127: cwdc://XsqaVilADQJ.jpg
+photo.127.author: apple_jasmine33
+photo.127.commitdate: 2024/3/26
+photo.127.link: https://www.instagram.com/p/CSWZaPChdgT
+photo.127.tags: ear, laying down, sample, sleeping, tail
+photo.128: cwdc://XsqaVilADQK.jpg
+photo.128.author: apple_jasmine33
+photo.128.commitdate: 2024/3/26
+photo.128.link: https://www.instagram.com/p/CSWZaPChdgT
+photo.128.tags: ear, laying down, sample, tail, whiskers
+photo.129: cwdc://XyyidWiADQw.jpg
+photo.129.author: love__mitarashi
+photo.129.commitdate: 2024/3/26
+photo.129.link: https://www.instagram.com/p/CVadeJBFBVW
+photo.129.tags: sample, tail
+photo.130: cwdc://Xz4kOijADQL.jpg
+photo.130.author: sakikukeco
+photo.130.commitdate: 2024/3/26
+photo.130.link: https://www.instagram.com/p/CV9eWvBhBmR
+photo.130.tags: close-up, ear, paws, portrait, sample, whiskers
+photo.131: cwdc://Xz4kOijADQM.jpg
+photo.131.author: sakikukeco
+photo.131.commitdate: 2024/3/26
+photo.131.link: https://www.instagram.com/p/CV9eWvBhBmR
+photo.131.tags: ear, home, paws, portrait, sample, whiskers
+photo.132: cwdc://Xz4kOijADQN.jpg
+photo.132.author: sakikukeco
+photo.132.commitdate: 2024/3/26
+photo.132.link: https://www.instagram.com/p/CV9eWvBhBmR
+photo.132.tags: ear, paws, portrait, sample, whiskers
+photo.133: cwdc://XzB8Ur4ADQx.jpg
+photo.133.author: love__mitarashi
+photo.133.commitdate: 2024/3/26
+photo.133.link: https://www.instagram.com/p/CViKZzsJ0Js
+photo.133.tags: door, paws
+photo.134: cwdc://YCHyk8QADQH.jpg
+photo.134.author: redpanda_nippon_takashi
+photo.134.commitdate: 2024/3/26
+photo.134.link: https://www.instagram.com/p/CdFFh74Ppyg
+photo.134.tags: ear, sample, tongue, whiskers
+photo.135: cwdc://YD6YWIFADQb.jpg
+photo.135.author: love__mitarashi
+photo.135.commitdate: 2024/3/26
+photo.135.link: https://www.instagram.com/p/Cd-Yahyrg7p
+photo.135.tags: flowers
+photo.136: cwdc://YDwnHafADQa.jpg
+photo.136.author: love__mitarashi
+photo.136.commitdate: 2024/3/26
+photo.136.link: https://www.instagram.com/p/Cd5fzK_rsbj
+photo.136.tags: ear, itchy, paws, sample
+photo.137: cwdc://YP11NnZADQk.jpg
+photo.137.author: love__mitarashi
+photo.137.commitdate: 2024/3/26
+photo.137.link: https://www.instagram.com/p/Cj8G2RcrlE2
+photo.137.tags: ear, paws, sample, tail
+photo.138: cwdc://YRIJh5JADQF.jpg
+photo.138.author: sakikukeco
+photo.138.commitdate: 2024/3/26
+photo.138.link: https://www.instagram.com/p/CklRAaUvBvr
+photo.138.tags: ear, peek, portrait, sample, whiskers
+photo.139: cwdc://YRIJh5JADQG.jpg
+photo.139.author: sakikukeco
+photo.139.commitdate: 2024/3/26
+photo.139.link: https://www.instagram.com/p/CklRAaUvBvr
+photo.139.tags: portrait, sample, tail
+photo.140: cwdc://YRIJh5JADQH.jpg
+photo.140.author: sakikukeco
+photo.140.commitdate: 2024/3/26
+photo.140.link: https://www.instagram.com/p/CklRAaUvBvr
+photo.140.tags: close-up, ear, portrait, sample, whiskers
+photo.141: cwdc://YRrodcWADQB.jpg
+photo.141.author: hamamatsu.chiita
+photo.141.commitdate: 2024/3/26
+photo.141.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.141.tags: close-up, portrait, sample, whiskers, wink
+photo.142: cwdc://YRrodcWADQC.jpg
+photo.142.author: hamamatsu.chiita
+photo.142.commitdate: 2024/3/26
+photo.142.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.142.tags: ear, portrait, sample, whiskers
+photo.143: cwdc://YRrodcWADQD.jpg
+photo.143.author: hamamatsu.chiita
+photo.143.commitdate: 2024/3/26
+photo.143.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.143.tags: ear, peek, portrait, sample, whiskers
+photo.144: cwdc://YRrodcWADQE.jpg
+photo.144.author: hamamatsu.chiita
+photo.144.commitdate: 2024/3/26
+photo.144.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.144.tags: close-up, ear, mofumofu, portrait, sample, whiskers
+photo.145: cwdc://YRrodcWADQF.jpg
+photo.145.author: hamamatsu.chiita
+photo.145.commitdate: 2024/3/26
+photo.145.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.145.tags: ear, peek, portrait, sample, whiskers
+photo.146: cwdc://YRrodcWADQG.jpg
+photo.146.author: hamamatsu.chiita
+photo.146.commitdate: 2024/3/26
+photo.146.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.146.tags: ear, peek, portrait, sample
+photo.147: cwdc://YRrodcWADQH.jpg
+photo.147.author: hamamatsu.chiita
+photo.147.commitdate: 2024/3/26
+photo.147.link: https://www.instagram.com/p/Ck3AeL7PYF0
+photo.147.tags: close-up, ear, mofumofu, portrait, sample
+photo.148: cwdc://YRzJwVpADQC.jpg
+photo.148.author: tomo3700
+photo.148.commitdate: 2024/3/26
+photo.148.link: https://www.instagram.com/p/Ck6xHokhb9C
+photo.148.tags: ear, portrait, sample, whiskers
+photo.149: cwdc://YRzJwVpADQD.jpg
+photo.149.author: tomo3700
+photo.149.commitdate: 2024/3/26
+photo.149.link: https://www.instagram.com/p/Ck6xHokhb9C
+photo.149.tags: ear, lips, portrait, sample, whiskers
+photo.150: cwdc://YVAyUmtADQJ.jpg
+photo.150.author: hamamatsu.chiita
+photo.150.commitdate: 2024/3/26
+photo.150.link: https://www.instagram.com/p/CmhlZxGhU7B
+photo.150.tags: ear, portrait, sample, whiskers
+photo.151: cwdc://YXBdjqWADQL.jpg
+photo.151.author: hamamatsu.chiita
+photo.151.commitdate: 2023/3/9
+photo.151.link: https://www.instagram.com/p/Cnh7BS7BOwx
+photo.151.tags: ear, portrait, sample, tail
+photo.152: cwdc://YXBdjqWADQM.jpg
+photo.152.author: hamamatsu.chiita
+photo.152.commitdate: 2024/3/26
+photo.152.link: https://www.instagram.com/p/Cnh7BS7BOwy
+photo.152.tags: ear, paws, portrait, sample, standing
+photo.153: cwdc://YXBdjqWADQN.jpg
+photo.153.author: hamamatsu.chiita
+photo.153.commitdate: 2024/3/26
+photo.153.link: https://www.instagram.com/p/Cnh7BS7BOwx
+photo.153.tags: ear, portrait, sample, standing, tail
+photo.154: cwdc://YZPvmA0ADQo.jpg
+photo.154.author: love__mitarashi
+photo.154.commitdate: 2024/3/26
+photo.154.link: https://www.instagram.com/p/CopECeKPo5Q
+photo.154.tags: portrait, sample, tail
+photo.155: cwdc://YZQX8zTADQF.jpg
+photo.155.author: fetorus_mami
+photo.155.commitdate: 2024/3/26
+photo.155.link: https://www.instagram.com/p/CopYN3Zvrew
+photo.155.tags: bamboo, ear, mofumofu, sample
+photo.156: cwdc://YZQX8zTADQG.jpg
+photo.156.author: fetorus_mami
+photo.156.commitdate: 2024/3/26
+photo.156.link: https://www.instagram.com/p/CopYN3Zvrew
+photo.156.tags: bamboo, ear, mofumofu, sample
+photo.157: cwdc://YZQaH-4ADQI.jpg
+photo.157.author: fetorus_mami
+photo.157.commitdate: 2024/3/26
+photo.157.link: https://www.instagram.com/p/CopZTdMPJqX
+photo.157.tags: bamboo, close-up, sample
+photo.158: cwdc://YZQdVcWADQB.jpg
+photo.158.author: fetorus_mami
+photo.158.commitdate: 2024/3/26
+photo.158.link: https://www.instagram.com/p/Copa6L7PRqH
+photo.158.tags: door, ear
+photo.159: cwdc://YZQdVcWADQC.jpg
+photo.159.author: fetorus_mami
+photo.159.commitdate: 2024/3/26
+photo.159.link: https://www.instagram.com/p/Copa6L7PRqH
+photo.159.tags: ear, laying down, sample, tail
+photo.160: cwdc://YZQdVcWADQD.jpg
+photo.160.author: fetorus_mami
+photo.160.commitdate: 2024/3/26
+photo.160.link: https://www.instagram.com/p/Copa6L7PRqH
+photo.160.tags: itchy, paws, sample, surprise, tail
+photo.161: cwdc://YZQep91ADQJ.jpg
+photo.161.author: sakikukeco
+photo.161.commitdate: 2024/3/26
+photo.161.link: https://www.instagram.com/p/CopbkcqvyT4
+photo.161.tags: door, ear, paws, portrait, sample, whiskers
+photo.162: cwdc://YZSEc2QADQD.jpg
+photo.162.author: yossi929
+photo.162.commitdate: 2024/3/26
+photo.162.link: https://www.instagram.com/p/CoqOd44BkOt
+photo.162.tags: ear, paws, sample, smile, whiskers
+photo.163: cwdc://YZSEc2QADQE.jpg
+photo.163.author: yossi929
+photo.163.commitdate: 2024/3/26
+photo.163.link: https://www.instagram.com/p/CoqOd44BkOt
+photo.163.tags: ear, sample, whiskers
+photo.164: cwdc://YZVXmAwADQp.jpg
+photo.164.author: love__mitarashi
+photo.164.commitdate: 2024/3/26
+photo.164.link: https://www.instagram.com/p/Cor4CeIPBzj
+photo.164.tags: apple time, dish, portrait, sample, tail
+photo.165: cwdc://YdfLc0LADQK.jpg
+photo.165.author: fetorus_mami
+photo.165.commitdate: 2024/3/26
+photo.165.link: https://www.instagram.com/p/Cqwx931v3MF
+photo.165.tags: blink, itchy, paws, whiskers
+photo.166: cwdc://YdfLc0LADQL.jpg
+photo.166.author: fetorus_mami
+photo.166.commitdate: 2024/3/26
+photo.166.link: https://www.instagram.com/p/Cqwx931v3MF
+photo.166.tags: door, paws, peek, whiskers
+photo.167: cwdc://Yk_mkldADQu.jpg
+photo.167.author: love__mitarashi
+photo.167.commitdate: 2024/3/26
+photo.167.link: https://www.instagram.com/p/Cug_hwerdvi
+photo.167.tags: ear, laying down, sample
+photo.168: cwdc://Yn5FqiZADQv.jpg
+photo.168.author: love__mitarashi
+photo.168.commitdate: 2024/3/26
+photo.168.link: https://www.instagram.com/p/Cv9vEu8vakd
+photo.168.tags: ear, mofumofu, laying down, sleeping, tail

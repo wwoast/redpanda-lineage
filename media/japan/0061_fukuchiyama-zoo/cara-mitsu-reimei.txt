@@ -2,27 +2,42 @@
 _id: media.61.cara-mitsu-reimei
 commitdate: 2020/12/8
 panda.tags: 284, 286, 959
-photo.1: ig://CHPyOKaBmKe/l
+photo.1: cwdc://XWdL9ZUADQA.jpg
 photo.1.author: colette.jp
 photo.1.commitdate: 2020/12/8
-photo.1.link: https://www.instagram.com/colette.jp/
+photo.1.link: https://www.instagram.com/p/CHPyOKaBmKe
 photo.1.tags: brothers, father's day, siblings
 photo.1.tags.284.location: 375, 175
 photo.1.tags.286.location: 325, 80
 photo.1.tags.959.location: 150, 185
-photo.2: ig://CNfIe-wBX07/l
+photo.2: cwdc://Xi74fCAADQA.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2021/5/31
-photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.link: https://www.instagram.com/p/CNfIe-wBX07
 photo.2.tags: family, father's day, playing
 photo.2.tags.284.location: 80, 150
 photo.2.tags.286.location: 260, 115
 photo.2.tags.959.location: 130, 265
-photo.3: ig://CTDztdMhGG-/l
+photo.3: cwdc://XuFO7-5ADQB.jpg
 photo.3.author: kisshan324
 photo.3.commitdate: 2021/10/7
-photo.3.link: https://www.instagram.com/kisshan324/
+photo.3.link: https://www.instagram.com/p/CTDztdMhGG-
 photo.3.tags: family, father's day, playing
 photo.3.tags.284.location: 250, 280
 photo.3.tags.286.location: 230, 225
 photo.3.tags.959.location: 190, 215
+photo.4: cwdc://XSz9farADQA.jpg
+photo.4.author: sakikukeco
+photo.4.commitdate: 2024/3/26
+photo.4.link: https://www.instagram.com/p/CFbK_LFhqti
+photo.4.tags: brothers, father's day, siblings
+photo.5: cwdc://XePQuT0ADQA.jpg
+photo.5.author: kisshan324
+photo.5.commitdate: 2024/3/26
+photo.5.link: https://www.instagram.com/p/CLI0mnqB32S
+photo.5.tags: brothers, bridge, peek, portrait, siblings
+photo.6: cwdc://Xi74fCAADQB.jpg
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2024/3/26
+photo.6.link: https://www.instagram.com/p/CNfIe-wBX07
+photo.6.tags: brothers, family, father's day, tail
