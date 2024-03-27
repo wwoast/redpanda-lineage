@@ -6,18 +6,34 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/3/26
 photo.1.link: https://www.instagram.com/p/BZ--24oBDSQ
 photo.1.tags: bamboo, family, portrait
+photo.1.tags.184.location: 550, 480
+photo.1.tags.284.location: 100, 410
+photo.1.tags.285.location: 635, 570
+photo.1.tags.286.location: 220, 520
 photo.2: cwdc://V77lO1wADQB.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2024/3/26
 photo.2.link: https://www.instagram.com/p/BZ--24oBDSQ
 photo.2.tags: bamboo, family, portrait
+photo.2.tags.184.location: 520, 450
+photo.2.tags.284.location: 105, 310
+photo.2.tags.285.location: 580, 535
+photo.2.tags.286.location: 320, 555
 photo.3: cwdc://V77lO1wADQC.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2024/3/26
 photo.3.link: https://www.instagram.com/p/BZ--24oBDSQ
 photo.3.tags: bamboo, family, portrait
+photo.3.tags.184.location: 540, 410
+photo.3.tags.284.location: 120, 410
+photo.3.tags.285.location: 580, 560
+photo.3.tags.286.location: 295, 440
 photo.4: cwdc://Wjsi6WSADQA.jpg
 photo.4.author: love__mitarashi
 photo.4.commitdate: 2024/3/26
 photo.4.link: https://www.instagram.com/p/Bt3dso5F7L9
 photo.4.tags: bamboo, family
+photo.4.tags.184.location: 365, 160
+photo.4.tags.284.location: 575, 175
+photo.4.tags.285.location: 140, 315
+photo.4.tags.286.location: 655, 245
