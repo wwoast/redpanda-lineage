@@ -7,6 +7,8 @@ photo.1.author: bubbles_octi
 photo.1.commitdate: 2024/3/27
 photo.1.link: https://www.instagram.com/p/B3RnYMEB6gi
 photo.1.tags: baby, mother's day, portrait, tail
+photo.1.tags.285.location: 475, 245
+photo.1.tags.959.location: 355, 305
 photo.2: cwdc://W2ljGD9ADQB.jpg
 photo.2.author: framereim
 photo.2.commitdate: 2019/10/22
@@ -19,6 +21,8 @@ photo.3.author: love__mitarashi
 photo.3.commitdate: 2024/3/27
 photo.3.link: https://www.instagram.com/p/B3UN2oJh8jT
 photo.3.tags: baby, mother's day
+photo.3.tags.285.location: 400, 195
+photo.3.tags.959.location: 675, 360
 photo.4: cwdc://W2oedbcADQA.jpg
 photo.4.author: tomo3700
 photo.4.commitdate: 2019/10/22
@@ -31,6 +35,8 @@ photo.5.author: tomo3700
 photo.5.commitdate: 2024/3/27
 photo.5.link: https://www.instagram.com/p/B3VbeLeHLmV
 photo.5.tags: baby, bamboo, mother's day, paws, portrait, sample
+photo.5.tags.285.location: 105, 370
+photo.5.tags.959.location: 450, 470
 photo.6: cwdc://W2s_0S6ADQA.jpg
 photo.6.author: redpanda_nippon_takashi
 photo.6.commitdate: 2019/10/22
@@ -43,16 +49,22 @@ photo.7.author: redpanda_nippon_takashi
 photo.7.commitdate: 2024/3/27
 photo.7.link: https://www.instagram.com/p/B3XsJnNBUbA
 photo.7.tags: baby, carry, mother's day, portrait
+photo.7.tags.285.location: 420, 340
+photo.7.tags.959.location: 590, 435
 photo.8: cwdc://W2s_0S6ADQC.jpg
 photo.8.author: redpanda_nippon_takashi
 photo.8.commitdate: 2024/3/27
 photo.8.link: https://www.instagram.com/p/B3XsJnNBUbA
 photo.8.tags: baby, mother's day, portrait, tail
+photo.8.tags.285.location: 285, 370
+photo.8.tags.959.location: 460, 420
 photo.9: cwdc://W2s_0S6ADQD.jpg
 photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2024/3/27
 photo.9.link: https://www.instagram.com/p/B3XsJnNBUbA
 photo.9.tags: baby, mofumofu, mother's day, portrait
+photo.9.tags.285.location: 550, 350
+photo.9.tags.959.location: 380, 425
 photo.10: cwdc://W2wQgxhADQB.jpg
 photo.10.author: framereim
 photo.10.commitdate: 2019/10/22
@@ -65,11 +77,15 @@ photo.11.author: yossi929
 photo.11.commitdate: 2024/3/27
 photo.11.link: https://www.instagram.com/p/B3mWg9vBPAh
 photo.11.tags: baby, grooming, mofumofu, mother's day, portrait, sample, tongue, whiskers
+photo.11.tags.285.location: 375, 235
+photo.11.tags.959.location: 435, 520
 photo.12: cwdc://W3KUi_-ADQB.jpg
 photo.12.author: yossi929
 photo.12.commitdate: 2024/3/27
 photo.12.link: https://www.instagram.com/p/B3mWg9vBPAh
 photo.12.tags: baby, bamboo, mofumofu, mother's day, peek, portrait
+photo.12.tags.285.location: 615, 320
+photo.12.tags.959.location: 215, 455
 photo.13: cwdc://W3ot1WiADQA.jpg
 photo.13.author: daniele.tokyo
 photo.13.commitdate: 2019/10/23
@@ -96,6 +112,8 @@ photo.16.author: redpanda_nippon_takashi
 photo.16.commitdate: 2024/3/27
 photo.16.link: https://www.instagram.com/p/B4bK5INBFwF
 photo.16.tags: baby, mother's day, portrait
+photo.16.tags.285.location: 470, 285
+photo.16.tags.959.location: 350, 550
 photo.17: cwdc://W44jmraADQG.jpg
 photo.17.author: redpanda_nippon_takashi
 photo.17.commitdate: 2019/11/6
@@ -108,6 +126,8 @@ photo.18.author: redpanda_nippon_takashi
 photo.18.commitdate: 2024/3/27
 photo.18.link: https://www.instagram.com/p/B4deCzdBjHf
 photo.18.tags: baby, mofumofu, mother's day, playing, upside-down
+photo.18.tags.285.location: 640, 435
+photo.18.tags.959.location: 430, 600
 photo.19: cwdc://W4_QrqNADQB.jpg
 photo.19.author: love__mitarashi
 photo.19.commitdate: 2019/12/5
@@ -134,6 +154,8 @@ photo.22.author: joy93.87
 photo.22.commitdate: 2024/3/28
 photo.22.link: https://www.instagram.com/p/B4ndunvhoty
 photo.22.tags: baby, bridge, mofumofu, mother's day, portrait
+photo.22.tags.285.location: 545, 260
+photo.22.tags.959.location: 500, 410
 photo.23: cwdc://W5cqOHMADQA.jpg
 photo.23.author: resapanlove
 photo.23.commitdate: 2019/12/5
@@ -174,6 +196,8 @@ photo.28.author: love__mitarashi
 photo.28.commitdate: 2024/3/27
 photo.28.link: https://www.instagram.com/p/B5EIa5mB5n7
 photo.28.tags: baby, mofumofu, portrait, sample, tail, whiskers
+photo.28.tags.285.location: 310, 415
+photo.28.tags.959.location: 505, 510
 photo.29: cwdc://W6dl7MrADQA.jpg
 photo.29.author: panda.daisuki
 photo.29.commitdate: 2022/1/7
@@ -199,7 +223,9 @@ photo.32: cwdc://W8EUwpjADQB.jpg
 photo.32.author: jas_forever_love
 photo.32.commitdate: 2024/3/28
 photo.32.link: https://www.instagram.com/p/B6DWnyhh7Pl
-photo.32.tags: baby, bamboo, mofumofu, mother's day, portrait, sample, standing, tail
+photo.32.tags: baby, bamboo, mofumofu, mother's day, portrait, sample, standing, tail, tongue
+photo.32.tags.285.location: 150, 360
+photo.32.tags.959.location: 520, 260
 photo.33: cwdc://W8_lfvpADQA.jpg
 photo.33.author: miis_98
 photo.33.commitdate: 2020/1/23
@@ -212,6 +238,8 @@ photo.34.author: sakikukeco
 photo.34.commitdate: 2024/3/28
 photo.34.link: https://www.instagram.com/p/B62AhUIBgUb
 photo.34.tags: baby, bridge, mother's day, paws, portrait, sample, whiskers
+photo.34.tags.285.location: 640, 405
+photo.34.tags.959.location: 340, 420
 photo.35: cwdc://W-4iGcPADQB.jpg
 photo.35.author: fetorus_mami
 photo.35.commitdate: 2020/1/23
@@ -224,16 +252,22 @@ photo.36.author: fetorus_mami
 photo.36.commitdate: 2024/3/28
 photo.36.link: https://www.instagram.com/p/B8OcmgthYIx
 photo.36.tags: mother's day, portrait, sample, whiskers
+photo.36.tags.285.location: 165, 345
+photo.36.tags.959.location: 625, 255
 photo.37: cwdc://XA5rgkAADQB.jpg
 photo.37.author: kisshan324
 photo.37.commitdate: 2024/3/28
 photo.37.link: https://www.instagram.com/p/B8eB_vwBKkY
 photo.37.tags: baby, mother's day, portrait, sample
+photo.37.tags.285.location: 310, 190
+photo.37.tags.959.location: 359, 490
 photo.38: cwdc://XA5rgkAADQC.jpg
 photo.38.author: kisshan324
 photo.38.commitdate: 2024/3/28
 photo.38.link: https://www.instagram.com/p/B8eB_vwBKkY
 photo.38.tags: baby, bamboo, portrait, sample, tail
+photo.38.tags.285.location: 530, 140
+photo.38.tags.959.location: 580, 310
 photo.39: cwdc://XDePw9tADQD.jpg
 photo.39.author: kisshan324
 photo.39.commitdate: 2020/3/21
@@ -246,6 +280,8 @@ photo.40.author: kisshan324
 photo.40.commitdate: 2024/3/28
 photo.40.link: https://www.instagram.com/p/B96vY4mBQeJ
 photo.40.tags: baby, mofumofu, portrait, sample, whiskers
+photo.40.tags.285.location: 400, 320
+photo.40.tags.959.location: 180, 510
 photo.41: cwdc://XHAjHxOADQE.jpg
 photo.41.author: love__mitarashi
 photo.41.commitdate: 2020/5/23
@@ -279,16 +315,22 @@ photo.45.author: kisshan324
 photo.45.commitdate: 2024/3/28
 photo.45.link: https://www.instagram.com/p/CCTAY2EhNbw
 photo.45.tags: baby, bamboo, bite, paws, portrait
+photo.45.tags.285.location: 660, 530
+photo.45.tags.959.location: 170, 535
 photo.46: cwdc://XMjoSwpADQH.jpg
 photo.46.author: kisshan324
 photo.46.commitdate: 2024/3/28
 photo.46.link: https://www.instagram.com/p/CCTAY2EhNbw
 photo.46.tags: baby, bamboo, peek, portrait, sample
+photo.46.tags.285.location: 335, 370
+photo.46.tags.959.location: 185, 600
 photo.47: cwdc://XMjoSwpADQI.jpg
 photo.47.author: kisshan324
 photo.47.commitdate: 2024/3/28
 photo.47.link: https://www.instagram.com/p/CCTAY2EhNbw
 photo.47.tags: baby, bridge, mother's day, portrait, sample
+photo.47.tags.285.location: 450, 330
+photo.47.tags.959.location: 550, 320
 photo.48: cwdc://XOGohTJADQJ.jpg
 photo.48.author: kisshan324
 photo.48.commitdate: 2020/8/11
@@ -301,6 +343,8 @@ photo.49.author: kisshan324
 photo.49.commitdate: 2024/3/28
 photo.49.link: https://www.instagram.com/p/CDEggHUhS18
 photo.49.tags: baby, bamboo, mofumofu, mother's day, portrait, sample, tail
+photo.49.tags.285.location: 680, 150
+photo.49.tags.959.location: 480, 300
 photo.50: cwdc://XQgDmDdADQL.jpg
 photo.50.author: kisshan324
 photo.50.commitdate: 2022/1/7
@@ -320,6 +364,8 @@ photo.52.author: apple_jasmine33
 photo.52.commitdate: 2024/3/28
 photo.52.link: https://www.instagram.com/p/CGmWQ5vhWJO
 photo.52.tags: mother's day, sample, tail
+photo.52.tags.285.location: 275, 165
+photo.52.tags.959.location: 340, 155
 photo.53: cwdc://XWx-ei0ADQI.jpg
 photo.53.author: love__mitarashi
 photo.53.commitdate: 2022/4/25
@@ -339,6 +385,8 @@ photo.55.author: love__mitarashi
 photo.55.commitdate: 2024/3/28
 photo.55.link: https://www.instagram.com/p/CVc3djWFGuM
 photo.55.tags: bridge, laying down, mother's day, tail
+photo.55.tags.285.location: 380, 200
+photo.55.tags.959.location: 400, 255
 photo.56: cwdc://X1-05iSADQA.jpg
 photo.56.author: hamiiiii831_
 photo.56.commitdate: 2022/1/9
@@ -351,18 +399,26 @@ photo.57.author: hamiiiii831_
 photo.57.commitdate: 2024/3/28
 photo.57.link: https://www.instagram.com/p/CXAmsO5BS_L
 photo.57.tags: bite, mother's day, playing, whiskers
+photo.57.tags.285.location: 520, 460
+photo.57.tags.959.location: 500, 260
 photo.58: cwdc://YTTHsQCADQK.jpg
 photo.58.author: love__mitarashi
 photo.58.commitdate: 2024/3/28
 photo.58.link: https://www.instagram.com/p/ClqwFlxLIQi
 photo.58.tags: laying down, sleeping
+photo.58.tags.285.location: 620, 310
+photo.58.tags.959.location: 120, 270
 photo.59: cwdc://YuufseJADQN.jpg
 photo.59.author: love__mitarashi
 photo.59.commitdate: 2024/3/28
 photo.59.link: https://www.instagram.com/p/CzYcFs0vjkR
 photo.59.tags: door, mother's day, sample, whiskers
+photo.59.tags.285.location: 520, 340
+photo.59.tags.959.location: 355, 360
 photo.60: cwdc://YvxvTEtADQM.jpg
 photo.60.author: love__mitarashi
 photo.60.commitdate: 2024/3/28
 photo.60.link: https://www.instagram.com/p/Cz6D5AGvySA
 photo.60.tags: mother's day, peek
+photo.60.tags.285.location: 460, 210
+photo.60.tags.959.location: 220, 105
