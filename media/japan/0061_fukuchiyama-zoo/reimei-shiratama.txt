@@ -72,11 +72,11 @@ photo.10.link: https://www.instagram.com/p/B4in7zLHzMs
 photo.10.tags: baby, mother's day, playing
 photo.10.tags.285.location: 80, 270
 photo.10.tags.959.location: 115, 105
-photo.11: ig://B4ndunvhotx/m
+photo.11: cwdc://W5Mi-T_ADQA.jpg
 photo.11.author: joy93.87
 photo.11.commitdate: 2020/1/23
-photo.11.link: https://www.instagram.com/joy93.87/
-photo.11.tags: baby, mother's day, smile
+photo.11.link: https://www.instagram.com/p/B4ndunvhotx
+photo.11.tags: baby, mother's day, portrait, sample, smile, whiskers
 photo.11.tags.285.location: 220, 90
 photo.11.tags.959.location: 125, 180
 photo.12: cwdc://W5cqOHMADQA.jpg
@@ -361,3 +361,8 @@ photo.59.author: love__mitarashi
 photo.59.commitdate: 2024/3/28
 photo.59.link: https://www.instagram.com/p/Cz6D5AGvySA
 photo.59.tags: mother's day, peek
+photo.60: cwdc://W5Mi-T_ADQB.jpg
+photo.60.author: joy93.87
+photo.60.commitdate: 2024/3/28
+photo.60.link: https://www.instagram.com/p/B4ndunvhoty
+photo.60.tags: baby, bridge, mofumofu, mother's day, portrait
