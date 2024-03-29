@@ -178,14 +178,14 @@ photo.33.author: leonard_redmof
 photo.33.commitdate: 2019/11/29
 photo.33.link: https://www.instagram.com/p/B5U_hp5B0e_
 photo.33.tags: baby, keeper, mofumofu, portrait, tail
-photo.34: ig://B5WPSaIB0ym/m
+photo.34: cwdc://W6qGF4wADQA.jpg
 photo.34.author: panda.daisuki
 photo.34.commitdate: 2019/11/28
-photo.34.link: https://www.instagram.com/panda.daisuki/
-photo.34.tags: baby, mofumofu, portrait, standing, tail, white face
+photo.34.link: https://www.instagram.com/p/B5WPSaIB0ym
+photo.34.tags: baby, mofumofu, portrait, sample, standing, tail, white face
 photo.35: cwdc://W6_42gpADQA.jpg
 photo.35.author: panda.daisuki
-photo.35.commitdate: 2020/12/3
+photo.35.commitdate: 2020/12/3panda.daisuki
 photo.35.link: https://www.instagram.com/p/B5hIquEhfT1
 photo.35.tags: baby, mofumofu, playing, portrait, sample
 photo.36: cwdc://W7TV5-gADQC.jpg
@@ -288,11 +288,11 @@ photo.55.author: love__mitarashi
 photo.55.commitdate: 2020/3/2
 photo.55.link: https://www.instagram.com/p/B88o41gBEmC
 photo.55.tags: bridge, tail
-photo.56: ig://B9GPfWlhFVx/m
+photo.56: cwdc://XCKGfxrADQA.jpg
 photo.56.author: kai.kuniko
 photo.56.commitdate: 2020/5/8
-photo.56.link: https://www.instagram.com/kai.kuniko/
-photo.56.tags: portrait
+photo.56.link: https://www.instagram.com/p/B9GPfWlhFVx
+photo.56.tags: portrait, sample
 photo.57: cwdc://XCqaCy6ADQH.jpg
 photo.57.author: love__mitarashi
 photo.57.commitdate: 2020/5/8
@@ -1125,3 +1125,8 @@ photo.222.author: tomo3700
 photo.222.commitdate: 2024/3/29
 photo.222.link: https://www.instagram.com/p/CFiWGRYBRUi
 photo.222.tags: door, laying down, portrait, sample
+photo.223: cwdc://XCKGfxrADQB.jpg
+photo.223.author: kai.kuniko
+photo.223.commitdate: 2024/3/29
+photo.223.link: https://www.instagram.com/p/B9GPfWlhFVx
+photo.223.tags: portrait, sample, techitechi
