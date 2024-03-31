@@ -49,6 +49,8 @@ photo.7.author: makimaru18
 photo.7.commitdate: 2024/3/31
 photo.7.link: https://www.instagram.com/p/CLGV1yOh0Io
 photo.7.tags: door, ear, paws, peek, portrait, standing, tail
+photo.7.tags.51.location: 715, 480
+photo.7.tags.52.location: 115, 350
 photo.8: cwdc://XeTg8dLADQB.jpg
 photo.8.author: tomo3700
 photo.8.commitdate: 2021/11/13
@@ -75,8 +77,12 @@ photo.11.author: makimaru18
 photo.11.commitdate: 2024/3/31
 photo.11.link: https://www.instagram.com/p/CZ_xC2LvC9h
 photo.11.tags: ear, paws, portrait, standing, whiskers
+photo.11.tags.51.location: 450, 200
+photo.11.tags.52.location: 150, 300
 photo.12: cwdc://X-NkoQ1ADQB.jpg
 photo.12.author: makimaru18
 photo.12.commitdate: 2024/3/31
 photo.12.link: https://www.instagram.com/p/CbH-jmKvuNb
 photo.12.tags: ear, laying down, portrait, sample
+photo.12.tags.51.location: 215, 370
+photo.12.tags.52.location: 590, 300

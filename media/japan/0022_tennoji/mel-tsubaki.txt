@@ -7,13 +7,19 @@ photo.1.author: makimaru18
 photo.1.commitdate: 2024/3/31
 photo.1.link: https://www.instagram.com/p/CbH-jmKvuNb
 photo.1.tags: ear, paws, portrait, window
+photo.1.tags.51.location: 180, 480
+photo.1.tags.297.location: 700, 320
 photo.2: cwdc://YVEZUC-ADQB.jpg
 photo.2.author: makimaru18
 photo.2.commitdate: 2024/3/31
 photo.2.link: https://www.instagram.com/p/CmjY5fPP31p
 photo.2.tags: keeper, paws, portrait, standing, whiskers, window
+photo.2.tags.51.location: 170, 260
+photo.2.tags.297.location: 490, 100
 photo.3: cwdc://YVEZUC-ADQC.jpg
 photo.3.author: makimaru18
 photo.3.commitdate: 2024/3/31
 photo.3.link: https://www.instagram.com/p/CmjY5fPP31p
 photo.3.tags: paws, portrait, sample, tail, techitechi, window
+photo.3.tags.51.location: 85, 350
+photo.3.tags.297.location: 580, 330
