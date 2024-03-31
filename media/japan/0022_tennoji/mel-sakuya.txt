@@ -30,11 +30,11 @@ photo.4.link: https://www.instagram.com/p/CA6XcrPBPwO
 photo.4.tags: apple time, couple, mofumofu, paws, portrait, sample, whiskers
 photo.4.tags.51.location: 95, 330
 photo.4.tags.52.location: 400, 280
-photo.5: ig://CLGV1yOh0Io/l
+photo.5: cwdc://XeKTMo9ADQB.jpg
 photo.5.author: makimaru18
 photo.5.commitdate: 2021/11/13
-photo.5.link: https://www.instagram.com/makimaru18/
-photo.5.tags: couple, portrait, standing, whiskers
+photo.5.link: https://www.instagram.com/p/CLGV1yOh0Io
+photo.5.tags: couple, portrait, sample, standing, whiskers
 photo.5.tags.51.location: 355, 310
 photo.5.tags.52.location: 150, 90
 photo.6: cwdc://XeTg8dLADQB.jpg
@@ -44,11 +44,11 @@ photo.6.link: https://www.instagram.com/p/CLK8tsVhOfU
 photo.6.tags: couple, ear, portrait, sample, whiskers
 photo.6.tags.51.location: 250, 95
 photo.6.tags.52.location: 395, 380
-photo.7: ig://COpi11EBra7/l
+photo.7: cwdc://XlQtMuoADQD.jpg
 photo.7.author: makimaru18
 photo.7.commitdate: 2022/1/7
-photo.7.link: https://www.instagram.com/makimaru18/
-photo.7.tags: couple, portrait, tree
+photo.7.link: https://www.instagram.com/p/COpi11EBra7
+photo.7.tags: couple, peek, portrait, tree
 photo.7.tags.51.location: 140, 320
 photo.7.tags.52.location: 240, 100
 photo.8: cwdc://X7jM6DzADQC.jpg
@@ -65,3 +65,18 @@ photo.9.link: https://www.instagram.com/p/B2Wb1JHB8zm
 photo.9.tags: peek, portrait, tree
 photo.9.tags.51.location: 80, 360
 photo.9.tags.52.location: 600, 530
+photo.10: cwdc://X-NkoQ1ADQB.jpg
+photo.10.author: makimaru18
+photo.10.commitdate: 2024/3/31
+photo.10.link: https://www.instagram.com/p/CbH-jmKvuNb
+photo.10.tags: ear, laying down, portrait, sample
+photo.11: cwdc://X79Jmw3ADQE.jpg
+photo.11.author: makimaru18
+photo.11.commitdate: 2024/3/31
+photo.11.link: https://www.instagram.com/p/CZ_xC2LvC9h
+photo.11.tags: ear, paws, portrait, standing, whiskers
+photo.12: cwdc://XeKTMo9ADQC.jpg
+photo.12.author: makimaru18
+photo.12.commitdate: 2024/3/31
+photo.12.link: https://www.instagram.com/p/CLGV1yOh0Io
+photo.12.tags: door, ear, paws, peek, portrait, standing, tail
