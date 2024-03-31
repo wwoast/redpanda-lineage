@@ -2,32 +2,32 @@
 _id: media.22.mel-sakuya
 commitdate: 2019/10/13
 panda.tags: 51, 52
-photo.1: ig://B3HVBlJBdTZ/m
+photo.1: cwdc://W2MRkOyADQB.jpg
 photo.1.author: framereim
 photo.1.commitdate: 2019/10/13
-photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: couple, pounce
+photo.1.link: https://www.instagram.com/p/B3HVBlJBdTZ
+photo.1.tags: couple, playing, portrait, pounce, sample, surprise, tail, whiskers
 photo.1.tags.51.location: 145, 200
 photo.1.tags.52.location: 135, 85
-photo.2: ig://B4moQ_NhVo-/m
+photo.2: cwdc://W5K4DC7ADQA.jpg
 photo.2.author: bubbles_octi
 photo.2.commitdate: 2019/11/8
-photo.2.link: https://www.instagram.com/bubbles_octi/
-photo.2.tags: couple, peek
+photo.2.link: https://www.instagram.com/p/B4moQ_NhVo-
+photo.2.tags: couple, peek, sample, tail, whiskers
 photo.2.tags.51.location: 200, 65
 photo.2.tags.52.location: 55, 45
-photo.3: ig://B8y4lZqBjdj/m
+photo.3: cwdc://XBjYr30ADQA.jpg
 photo.3.author: sakikukeco
 photo.3.commitdate: 2020/3/15
-photo.3.link: https://www.instagram.com/sakikukeco/
-photo.3.tags: couple, tail, tree
+photo.3.link: https://www.instagram.com/p/B8y4lZqBjdj
+photo.3.tags: couple, portrait, tail, tree
 photo.3.tags.51.location: 140, 170
 photo.3.tags.52.location: 55, 160
-photo.4: ig://CA6XcrPBPwO/l
+photo.4: cwdc://XJyWaa-ADQA.jpg
 photo.4.author: tomo3700
 photo.4.commitdate: 2021/11/19
-photo.4.link: https://www.instagram.com/tomo3700/
-photo.4.tags: apple time, couple, paws, portrait
+photo.4.link: https://www.instagram.com/p/CA6XcrPBPwO
+photo.4.tags: apple time, couple, mofumofu, paws, portrait, sample, whiskers
 photo.4.tags.51.location: 95, 330
 photo.4.tags.52.location: 400, 280
 photo.5: ig://CLGV1yOh0Io/l
@@ -37,11 +37,11 @@ photo.5.link: https://www.instagram.com/makimaru18/
 photo.5.tags: couple, portrait, standing, whiskers
 photo.5.tags.51.location: 355, 310
 photo.5.tags.52.location: 150, 90
-photo.6: ig://CLK8tsVhOfU/l
+photo.6: cwdc://XeTg8dLADQB.jpg
 photo.6.author: tomo3700
 photo.6.commitdate: 2021/11/13
-photo.6.link: https://www.instagram.com/tomo3700/
-photo.6.tags: couple, portrait, whiskers
+photo.6.link: https://www.instagram.com/p/CLK8tsVhOfU
+photo.6.tags: couple, ear, portrait, sample, whiskers
 photo.6.tags.51.location: 250, 95
 photo.6.tags.52.location: 395, 380
 photo.7: ig://COpi11EBra7/l
@@ -51,10 +51,15 @@ photo.7.link: https://www.instagram.com/makimaru18/
 photo.7.tags: couple, portrait, tree
 photo.7.tags.51.location: 140, 320
 photo.7.tags.52.location: 240, 100
-photo.8: ig://CZyysfpvUWb/l
+photo.8: cwdc://X7jM6DzADQC.jpg
 photo.8.author: tomo3700
 photo.8.commitdate: 2022/3/13
-photo.8.link: https://www.instagram.com/tomo3700/
-photo.8.tags: friends, peek, portrait, sample, whiskers
+photo.8.link: https://www.instagram.com/p/CZyysfpvUWb
+photo.8.tags: couple, friends, mofumofu, peek, portrait, sample, whiskers
 photo.8.tags.51.location: 435, 190
 photo.8.tags.52.location: 305, 415
+photo.9: cwdc://W0qfLWuADQA.jpg
+photo.9.author: framereim
+photo.9.commitdate: 2024/3/30
+photo.9.link: https://www.instagram.com/p/B2Wb1JHB8zm
+photo.9.tags: peek, portrait, tree
