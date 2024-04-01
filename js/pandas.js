@@ -2192,7 +2192,7 @@ Pandas.locatorToPhoto = function(locator) {
      "photo": entity[choice],
     "credit": entity[choice + ".author"],
      "index": photo_id,
-      "link": entity[choice + ".link"],
+      "link": Pandas.authorLink(entity[choice + ".author"], entity[choice + ".link"]),
       "type": entity_type
   }
   return desired;
@@ -2338,7 +2338,7 @@ Pandas.profilePhoto = function(animal, index, mode="animal") {
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
      "index": choice.replace("photo.", ""),
-      "link": animal[choice + ".link"]
+      "link": Pandas.authorLink(animal[choice + ".author"], animal[choice + ".link"])
   }
   return desired;
 }
