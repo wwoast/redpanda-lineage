@@ -14,12 +14,12 @@ photo.1: cwdc://WnvelJzADQA.jpg
 photo.1.author: redpandanetwork
 photo.1.commitdate: 2019/4/9
 photo.1.link: https://www.instagram.com/p/Bv47iCpjf3x
-photo.1.tags: portrait, profile, sample
+photo.1.tags: portrait, profile
 photo.2: cwdc://WpF0FPMADQA.jpg
 photo.2.author: kai.kuniko
 photo.2.commitdate: 2019/4/23
 photo.2.link: https://www.instagram.com/p/BwkGSFWDO9v
-photo.2.tags: 
+photo.2.tags: peek, portrait
 photo.3: cwdc://WpF-KNZADQA.jpg
 photo.3.author: wumpwoast
 photo.3.commitdate: 2019/4/23
@@ -44,6 +44,6 @@ photo.7: ig://CfNgW-mrVgp/m
 photo.7.author: redpandanetwork
 photo.7.commitdate: 2022/7/14
 photo.7.link: https://www.instagram.com/redpandanetwork/
-photo.7.tags: laying down, mofumofu, paws, portrait, sample, tree, wet
+photo.7.tags: laying down, mofumofu, paws, portrait, tree, wet
 species: 3
 wild: wild.6
