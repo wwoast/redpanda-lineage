@@ -457,7 +457,9 @@ Pandas.arrayContentsEqual = function(a, b) {
 // Instagram. The Instagram URLs will fall back to an author profile page if
 // the link is private.
 Pandas.authorLink = function(author, link) {
-  if (link.indexOf("ig://") == 0) {
+  if (!link) {
+    return link;
+  } else if (link.indexOf("ig://") == 0) {
     var ig_locator = link.split("/").pop();
     return `https://www.instagram.com/${author}/p/${ig_locator}`;
   } else {
