@@ -453,6 +453,18 @@ Pandas.arrayContentsEqual = function(a, b) {
 	return true;
 }
 
+// Process author links that are intended to point at other sources, such as
+// Instagram. The Instagram URLs will fall back to an author profile page if
+// the link is private.
+Pandas.authorLink = function(author, link) {
+  if (link.indexOf("ig://") == 0) {
+    var ig_locator = link.split("/").pop();
+    return `https://www.instagram.com/${author}/p/${ig_locator}`;
+  } else {
+    return link;
+  }
+}
+
 // Valid panda IDs are numeric and non-zero
 Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
@@ -1142,7 +1154,7 @@ Pandas.searchPandaPhotoTagsIntersect = function(animal, tags) {
         "photo": animal[field_name],
         "photo.author": animal[photo_author],
         "photo.index": photo_index,
-        "photo.link": animal[photo_link],
+        "photo.link": Pandas.authorLink(animal[photo_author], animal[photo_link]),
         "photo.tags": tags   // Not the original tags, but the ones searched for
       }
       output.push(bundle);
@@ -1179,7 +1191,7 @@ Pandas.searchPandaPhotoTagsUnion = function(animal, tags, mode) {
             "photo": animal[field_name],
             "photo.author": animal[photo_author],
             "photo.index": photo_index,
-            "photo.link": animal[photo_link],
+            "photo.link": Pandas.authorLink(animal[photo_author], animal[photo_link]),
             "photo.tags": tags   // Not the original tags, but the ones searched for
           }
           output.push(bundle);
