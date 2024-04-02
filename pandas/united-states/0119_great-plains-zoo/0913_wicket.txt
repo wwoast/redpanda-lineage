@@ -20,12 +20,12 @@ location.3: 119, 2009/10/23
 photo.1: cwdc://WJjNspWADQA.jpg
 photo.1.author: greatplainszoo
 photo.1.commitdate: 2020/1/26
-photo.1.link: https://www.instagram.com/p/BgyzFybHIvm
+photo.1.link: ig://BgyzFybHIvm
 photo.1.tags: paws, portrait, sample, smile
 photo.2: cwdc://WXdZ3o6ADQB.jpg
 photo.2.author: greatplainszoo
 photo.2.commitdate: 2020/1/25
-photo.2.link: https://www.instagram.com/p/Bnv5LSNFDho
+photo.2.link: ig://Bnv5LSNFDho
 photo.2.tags: paws, portrait, profile, whiskers, white face
 species: 1
 zoo: 119
