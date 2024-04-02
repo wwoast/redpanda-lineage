@@ -369,10 +369,10 @@ photo.71.author: sakikukeco
 photo.71.commitdate: 2020/3/15
 photo.71.link: https://www.instagram.com/p/B9jmeJOB_Tf
 photo.71.tags: apple time, bite, ear, paws, portrait, sample, whiskers
-photo.72: ig://B9nxTZAh3Nz/m
+photo.72: cwdc://XDNKH2hADQA.jpg
 photo.72.author: mariten1119
 photo.72.commitdate: 2020/3/15
-photo.72.link: https://www.instagram.com/mariten1119/
+photo.72.link: https://www.instagram.com/p/B9nxTZAh3Nz
 photo.73: cwdc://XDyxOIaADQN.jpg
 photo.73.author: sakikukeco
 photo.73.commitdate: 2020/3/20
@@ -603,11 +603,11 @@ photo.118.author: minatomirai215
 photo.118.commitdate: 2023/8/22
 photo.118.link: https://www.instagram.com/p/CnF1sZWhXa9
 photo.118.tags: ear, paws, portrait, sample, whiskers
-photo.119: ig://Cnim8rIv3Rg/m
+photo.119: cwdc://YXC1aaxADQA.jpg
 photo.119.author: yuredpanda
 photo.119.commitdate: 2023/3/9
-photo.119.link: https://www.instagram.com/yuredpanda/
-photo.119.tags: laying down, mofumofu, paws, sleeping
+photo.119.link: https://www.instagram.com/p/Cnim8rIv3Rg
+photo.119.tags: laying down, mofumofu, paws, sample, sleeping, whiskers
 photo.120: cwdc://YX9IdwDADQk.jpg
 photo.120.author: makimaru18
 photo.120.commitdate: 2023/3/6
@@ -967,3 +967,19 @@ photo.190.author: sakikukeco
 photo.190.commitdate: 2024/3/30
 photo.190.link: https://www.instagram.com/p/CopbkcqvyT4
 photo.190.tags: ear, paws, portrait, sample, whiskers
+photo.72.tags: bamboo, ear, whiskers
+photo.191: cwdc://XDNKH2hADQB.jpg
+photo.191.author: mariten1119
+photo.191.commitdate: 2024/4/2
+photo.191.link: https://www.instagram.com/p/B9nxTZAh3Nz
+photo.191.tags: ear, window
+photo.192: cwdc://XDNKH2hADQC.jpg
+photo.192.author: mariten1119
+photo.192.commitdate: 2024/4/2
+photo.192.link: https://www.instagram.com/p/B9nxTZAh3Nz
+photo.192.tags: bridge, ear, sample, whiskers
+photo.193: cwdc://XDNKH2hADQD.jpg
+photo.193.author: mariten1119
+photo.193.commitdate: 2020/3/15
+photo.193.link: https://www.instagram.com/p/B9nxTZAh3Nz
+photo.193.tags: ear, home, sample, whiskers
