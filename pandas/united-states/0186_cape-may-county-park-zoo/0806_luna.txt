@@ -179,9 +179,6 @@ photo.32.author: aimless_amos
 photo.32.commitdate: 2023/9/24
 photo.32.link: https://www.instagram.com/carsontheredpanda/
 photo.32.tags: keeper, old, paws, portrait, sample, whiskers
-species: 1
-studbook.id: 0105
-zoo: 186
 photo.33: cwdc://X-Ag8CbADQK.jpg
 photo.33.author: aimless_amos
 photo.33.commitdate: 2022/3/21
@@ -405,7 +402,7 @@ photo.76.tags: dish, lips, lunch time, paws, portrait, sample, whiskers, white f
 photo.77: cwdc://Xg8dwF5ADQj.jpg
 photo.77.author: aimless_amos
 photo.77.commitdate: 2024/4/2
-photo.77.link: https://www.instagram.com/p/CMfbHgsgndS
+photo.77.link: ig://CMfbHgsgndS
 photo.77.tags: laying down, mofumofu, portrait, sample, sleeping
 photo.78: cwdc://Xg8dwF5ADQk.jpg
 photo.78.author: aimless_amos
@@ -592,3 +589,6 @@ photo.114.author: aimless_amos
 photo.114.commitdate: 2024/4/2
 photo.114.link: ig://CVd2A9ZrR84
 photo.114.tags: close-up, lips, muzzle, old, portrait, sample, whiskers
+species: 1
+studbook.id: 0105
+zoo: 186
