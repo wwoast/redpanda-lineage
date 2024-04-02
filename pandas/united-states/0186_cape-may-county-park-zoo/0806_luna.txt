@@ -417,12 +417,12 @@ photo.79.tags: bamboo, bite, portrait, sample, tongue, whiskers, wink
 photo.80: cwdc://Xg8e836ADQm.jpg
 photo.80.author: aimless_amos
 photo.80.commitdate: 2024/4/2
-photo.80.link: ig://CMfbt5tA_8i
+photo.80.link: ig://CMfbt5tA_8i?img_index=4
 photo.80.tags: bamboo, lips, paws, portrait, sample, white face
 photo.81: cwdc://Xg8e836ADQn.jpg
 photo.81.author: aimless_amos
 photo.81.commitdate: 2024/4/2
-photo.81.link: ig://CMfbt5tA_8i
+photo.81.link: ig://CMfbt5tA_8i?img_index=7
 photo.81.tags: bamboo, paws, portrait, sample, white face
 photo.82: cwdc://Xi4rakrADQr.jpg
 photo.82.author: aimless_amos
@@ -442,12 +442,12 @@ photo.84.tags: close-up, lips, portrait, sample, whiskers, white face
 photo.85: cwdc://XjILr-tADQu.jpg
 photo.85.author: aimless_amos
 photo.85.commitdate: 2024/4/2
-photo.85.link: ig://CNlSFdGgIR_
+photo.85.link: ig://CNlSFdGgIR_?img_index=3
 photo.85.tags: paws, portrait, sample, tongue, whiskers, white face
 photo.86: cwdc://XjILr-tADQv.jpg
 photo.86.author: aimless_amos
 photo.86.commitdate: 2024/4/2
-photo.86.link: https://www.instagram.com/p/CNlSFdGgIR_
+photo.86.link: ig://CNlSFdGgIR_?img_index=7
 photo.86.tags: paws, portrait, sample, whiskers, white face
 photo.87: cwdc://XjwbC9cADQo.jpg
 photo.87.author: aimless_amos
@@ -457,12 +457,12 @@ photo.87.tags: portrait, sample, tail, tongue, white face
 photo.88: cwdc://XjwbC9cADQp.jpg
 photo.88.author: aimless_amos
 photo.88.commitdate: 2024/4/2
-photo.88.link: ig://CN5Zw8eAb_-
+photo.88.link: ig://CN5Zw8eAb_-?img_index=2
 photo.88.tags: paws, portrait, sample, whiskers, white face
 photo.89: cwdc://XjwbC9cADQq.jpg
 photo.89.author: aimless_amos
 photo.89.commitdate: 2024/4/2
-photo.89.link: ig://CN5Zw8eAb_-
+photo.89.link: ig://CN5Zw8eAb_-?img_index=3
 photo.89.tags: portrait, sample, whiskers, white face
 photo.90: cwdc://XkUhorZADQw.jpg
 photo.90.author: aimless_amos
@@ -472,7 +472,7 @@ photo.90.tags: paws, portrait, sample, whiskers, white face
 photo.91: cwdc://Xm1aeeTADQx.jpg
 photo.91.author: aimless_amos
 photo.91.commitdate: 2024/4/2
-photo.91.link: ig://CPb5es5gzcz
+photo.91.link: ig://CPb5es5gzcz?img_index=6
 photo.91.tags: old, paws, portrait, sample, tail, whiskers, white face
 photo.92: cwdc://Xm1aeeTADQy.jpg
 photo.92.author: aimless_amos
@@ -517,27 +517,27 @@ photo.99.tags: door, old, paws, portrait, sample, smile, white face
 photo.100: cwdc://XrubJ6IADQ5.jpg
 photo.100.author: aimless_amos
 photo.100.commitdate: 2024/4/2
-photo.100.link: ig://CR4Z0a0ATaJ
+photo.100.link: ig://CR4Z0a0ATaJ?img_index=2
 photo.100.tags: door, old, portrait, sample, tongue, white face
 photo.101: cwdc://XrubJ6IADQ6.jpg
 photo.101.author: aimless_amos
 photo.101.commitdate: 2024/4/2
-photo.101.link: https://www.instagram.com/p/CR4Z0a0ATaJ
+photo.101.link: ig://CR4Z0a0ATaJ?img_index=3
 photo.101.tags: blink, door, old, portrait, sample, tongue, white face
 photo.102: cwdc://XrubJ6IADQ7.jpg
 photo.102.author: aimless_amos
 photo.102.commitdate: 2024/4/2
-photo.102.link: https://www.instagram.com/p/CR4Z0a0ATaJ
+photo.102.link: ig://CR4Z0a0ATaJ?img_index=5
 photo.102.tags: door, old, paws, portrait, sample, whiskers, white face
 photo.103: cwdc://XrubJ6IADQ8.jpg
 photo.103.author: aimless_amos
 photo.103.commitdate: 2024/4/2
-photo.103.link: https://www.instagram.com/p/CR4Z0a0ATaJ
+photo.103.link: ig://CR4Z0a0ATaJ?img_index=7
 photo.103.tags: bamboo, door, old, paws, portrait, smile
 photo.104: cwdc://XrubJ6IADQ9.jpg
 photo.104.author: aimless_amos
 photo.104.commitdate: 2024/4/2
-photo.104.link: https://www.instagram.com/p/CR4Z0a0ATaJ
+photo.104.link: ig://CR4Z0a0ATaJ?img_index=8
 photo.104.tags: bamboo, door, old, paws, portrait, sample, tongue
 photo.105: cwdc://Xt-gMhoADRA.jpg
 photo.105.author: aimless_amos
@@ -562,7 +562,7 @@ photo.108.tags: old, portrait, sample, tail, white face
 photo.109: cwdc://XvRyhxNADRD.jpg
 photo.109.author: aimless_amos
 photo.109.commitdate: 2024/4/2
-photo.109.link: ig://CTqFgWWgbsS
+photo.109.link: ig://CTqFgWWgbsS?img_index=5
 photo.109.tags: close-up, mofumofu, old, portrait, sample, tongue, white face
 photo.110: cwdc://XveQzMzADRE.jpg
 photo.110.author: aimless_amos
@@ -572,22 +572,22 @@ photo.110.tags: old, paws, portrait, sample, tail
 photo.111: cwdc://Xy5Ti_TADRF.jpg
 photo.111.author: aimless_amos
 photo.111.commitdate: 2022/3/20
-photo.111.link: https://www.instagram.com/p/CVd2A9ZrR84
+photo.111.link: ig://CVd2A9ZrR84
 photo.111.tags: close-up, muzzle, old, portrait, sample, whiskers, white face
 photo.112: cwdc://Xy5Ti_TADRG.jpg
 photo.112.author: aimless_amos
 photo.112.commitdate: 2024/4/2
-photo.112.link: ig://CVd2A9ZrR84
+photo.112.link: ig://CVd2A9ZrR84?img_index=2
 photo.112.tags: close-up, muzzle, old, portrait, sample, whiskers, white face
 photo.113: cwdc://Xy5Ti_TADRH.jpg
 photo.113.author: aimless_amos
 photo.113.commitdate: 2024/4/2
-photo.113.link: ig://CVd2A9ZrR84
+photo.113.link: ig://CVd2A9ZrR84?img_index=3
 photo.113.tags: close-up, muzzle, old, portrait, sample, white face
 photo.114: cwdc://Xy5Ti_TADRI.jpg
 photo.114.author: aimless_amos
 photo.114.commitdate: 2024/4/2
-photo.114.link: ig://CVd2A9ZrR84
+photo.114.link: ig://CVd2A9ZrR84?img_index=4
 photo.114.tags: close-up, lips, muzzle, old, portrait, sample, whiskers
 species: 1
 studbook.id: 0105
