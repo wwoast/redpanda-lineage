@@ -154,21 +154,21 @@ photo.27.author: carsontheredpanda
 photo.27.commitdate: 2022/11/4
 photo.27.link: ig://carsontheredpanda/Ckbkb1qyHnO
 photo.27.tags: lunch time, old, portrait, sample
-photo.28: ig://CoP4HY0tGhD/m
+photo.28: cwdc://YYdXv2JADQA.jpg
 photo.28.author: aimless_amos
 photo.28.commitdate: 2023/8/23
-photo.28.link: https://www.instagram.com/capemaycountyzooaazk/
-photo.28.tags: mofumofu, portrait, sample
+photo.28.link: ig://capemaycountyzooaazk/CoP4HY0tGhD
+photo.28.tags: mofumofu, portrait, sample, tail
 photo.29: cwdc://YbrPwa4ADQV.jpg
 photo.29.author: aimless_amos
 photo.29.commitdate: 2023/10/18
 photo.29.link: ig://carsontheredpanda/Cp20HrMJBh6
 photo.29.tags: laying down, old, sample, tail
-photo.30: ig://CtNUJI7NNGH/m
+photo.30: cwdc://YiYPzWWADQC.jpg
 photo.30.author: aimless_amos
 photo.30.commitdate: 2023/6/20
-photo.30.link: https://www.instagram.com/capemaycountyzooaazk/
-photo.30.tags: home, portrait
+photo.30.link: ig://capemaycountyzooaazk/CtNUJI7NNGH
+photo.30.tags: distance, home, portrait, toys
 photo.31: cwdc://Ymd2sJIADQh.jpg
 photo.31.author: aimless_amos
 photo.31.commitdate: 2023/7/31
@@ -792,3 +792,8 @@ photo.154.author: rossifari
 photo.154.commitdate: 2024/4/2
 photo.154.link: https://www.instagram.com/p/C1CQ4-6AEM6
 photo.154.tags: mofumofu, peek, portrait, sample, whiskers
+photo.155: cwdc://YYdXv2JADQB.png
+photo.155.author: aimless_amos
+photo.155.commitdate: 2024/4/2
+photo.155.link: ig://capemaycountyzooaazk/CoP4HY0tGhD
+photo.155.tags: door, lunch time, mofumofu, old, portrait, sample
