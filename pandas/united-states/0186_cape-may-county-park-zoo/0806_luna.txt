@@ -89,11 +89,11 @@ photo.14.author: capemaycountyzoo
 photo.14.commitdate: 2021/5/26
 photo.14.link: ig://capemaycountyzoo/CNmxTlXLIpz
 photo.14.tags: paws, tongue, whiskers, white face
-photo.15: ig://CN17JTmA-CW/m
+photo.15: cwdc://XjpdzrsADQB.jpg
 photo.15.author: rossifari
 photo.15.commitdate: 2021/5/3
-photo.15.link: https://www.instagram.com/rossifari/
-photo.15.tags: paws, portrait, white face
+photo.15.link: ig://CN17JTmA-CW
+photo.15.tags: paws, portrait, sample, whiskers, white face
 photo.16: cwdc://Xo25f4mADQb.jpg
 photo.16.author: aimless_amos
 photo.16.commitdate: 2021/6/25
@@ -787,3 +787,8 @@ photo.153.author: aimless_amos
 photo.153.commitdate: 2024/4/2
 photo.153.link: ig://capemaycountyzoo/C11xYsiIaGM
 photo.153.tags: mofumofu, paws, sample
+photo.154: cwdc://YyCJTCUADQA.jpg
+photo.154.author: rossifari
+photo.154.commitdate: 2024/4/2
+photo.154.link: https://www.instagram.com/p/C1CQ4-6AEM6
+photo.154.tags: mofumofu, peek, portrait, sample, whiskers
