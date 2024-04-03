@@ -460,8 +460,12 @@ Pandas.authorLink = function(author, link) {
   if (!link) {
     return link;
   } else if (link.indexOf("ig://") == 0) {
-    var ig_locator = link.split("/").pop();
-    return `https://www.instagram.com/${author}/p/${ig_locator}`;
+    var ig_locator = link.split("/").at(-1)
+    var inline_author = link.split("/").at(-2)
+    if (!inline_author)
+      return `https://www.instagram.com/${author}/p/${ig_locator}`;
+    else
+      return `https://www.instagram.com/${inline_author}/p/${ig_locator}`;
   } else {
     return link;
   }
