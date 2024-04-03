@@ -96,22 +96,22 @@ photo.16.tags: baby, climb, keeper, paws, sample, white face
 photo.17: cwdc://W3KUi_-ADQC.jpg
 photo.17.author: yossi929
 photo.17.commitdate: 2019/10/15
-photo.17.link: ig://B3mWg9vBPAh
+photo.17.link: ig://B3mWg9vBPAh?img_index=3
 photo.17.tags: baby, mofumofu, portrait, sample
 photo.18: cwdc://W3KUi_-ADQD.jpg
 photo.18.author: yossi929
 photo.18.commitdate: 2024/3/27
-photo.18.link: ig://B3mWg9vBPAh
+photo.18.link: ig://B3mWg9vBPAh?img_index=7
 photo.18.tags: baby, mofumofu, portrait, sample
 photo.19: cwdc://W3KUi_-ADQE.jpg
 photo.19.author: yossi929
 photo.19.commitdate: 2024/3/27
-photo.19.link: ig://B3mWg9vBPAh
+photo.19.link: ig://B3mWg9vBPAh?img_index=8
 photo.19.tags: baby, mofumofu, portrait, sample, whiskers
 photo.20: cwdc://W3KUi_-ADQF.jpg
 photo.20.author: yossi929
 photo.20.commitdate: 2024/3/27
-photo.20.link: ig://B3mWg9vBPAh
+photo.20.link: ig://B3mWg9vBPAh?img_index=9
 photo.20.tags: baby, bamboo, portrait, sample
 photo.21: cwdc://W3O2CO2ADQA.jpg
 photo.21.author: gloryeui
@@ -1130,3 +1130,8 @@ photo.223.link: ig://Cz6D5AGvySA
 photo.223.tags: sample
 species: 2
 zoo: 61
+photo.224: cwdc://W3KUi_-ADQG.jpg
+photo.224.author: yossi929
+photo.224.commitdate: 2024/4/3
+photo.224.link: ig://B3mWg9vBPAh
+photo.224.tags: baby, mofumofu, portrait, sample
