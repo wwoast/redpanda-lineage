@@ -323,7 +323,7 @@ photo.61.tags: ear, portrait, sample, smile, tail, tree, whiskers
 photo.62: cwdc://WxxRAFbADQJ.jpg
 photo.62.author: sakikukeco
 photo.62.commitdate: 2024/3/30
-photo.62.link: ig://B050vgdhGXl
+photo.62.link: ig://B050vgdhGXl?img_index=3
 photo.62.tags: ear, laying down, paws, portrait, sample, tree
 photo.63: cwdc://WyOCu1zADQA.jpg
 photo.63.author: makimaru18
@@ -338,7 +338,7 @@ photo.64.tags: laying down, paws, playing, portrait, upside-down, whiskers
 photo.65: cwdc://Wy-tckRADQB.jpg
 photo.65.author: framereim
 photo.65.commitdate: 2024/3/30
-photo.65.link: ig://B1gi9v4higl
+photo.65.link: ig://B1gi9v4higl?img_index=3
 photo.65.tags: laying down, paws, playing, portrait, sample, whiskers
 photo.66: cwdc://W0O36HjADQA.jpg
 photo.66.author: akiakiakiko18
@@ -368,7 +368,7 @@ photo.70.tags: bamboo, bite, close-up, portrait, sample, whiskers
 photo.71: cwdc://W1o-pa_ADQG.jpg
 photo.71.author: sakikukeco
 photo.71.commitdate: 2024/3/30
-photo.71.link: ig://B21rkLPhw4c
+photo.71.link: ig://B21rkLPhw4c?img_index=4
 photo.71.tags: ear, paws, portrait, standing, toys
 photo.72: cwdc://W15EdHLADQH.jpg
 photo.72.author: sakikukeco
@@ -383,7 +383,7 @@ photo.73.tags: portrait, sample, toys, whiskers
 photo.74: cwdc://W20CuC4ADQB.jpg
 photo.74.author: redpanda_nippon_takashi
 photo.74.commitdate: 2024/3/30
-photo.74.link: ig://B3bNmfMBwCx
+photo.74.link: ig://B3bNmfMBwCx?img_index=8
 photo.74.tags: ear, mofumofu, portrait, sample, whiskers
 photo.75: cwdc://W2_y4gmADQA.jpg
 photo.75.author: jas_forever_love
@@ -393,12 +393,12 @@ photo.75.tags: portrait, sample, smile, tail, whiskers
 photo.76: cwdc://W2_y4gmADQB.jpg
 photo.76.author: jas_forever_love
 photo.76.commitdate: 2024/3/30
-photo.76.link: ig://B3hFruDB0S9
+photo.76.link: ig://B3hFruDB0S9?img_index=2
 photo.76.tags: ear, portrait, sample, tree, whiskers
 photo.77: cwdc://W2_y4gmADQC.jpg
 photo.77.author: jas_forever_love
 photo.77.commitdate: 2024/3/30
-photo.77.link: ig://B3hFruDB0S9
+photo.77.link: ig://B3hFruDB0S9?img_index=3
 photo.77.tags: bear worm, laying down, paws, portrait, sample, tail
 photo.78: cwdc://W3ILRRvADQD.jpg
 photo.78.author: framereim
