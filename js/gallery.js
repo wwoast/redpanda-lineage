@@ -1212,6 +1212,9 @@ Gallery.url.codaworry = function(image, input_uri) {
 Gallery.url.href = function(uri) {
   if (uri.indexOf("http") == 0) {
     return uri;
+  } else if (uri.indexOf("ig") == 0) {
+    var ig_locator = uri.split("/")[2]
+    return `https://www.instagram.com/p/${ig_locator}`
   } else if (uri.indexOf("cwdc") == 0) {
     var cwdc_locator = uri.split("/")[2]
     return `https://www.codaworry.com/images/submitted/${cwdc_locator}`
