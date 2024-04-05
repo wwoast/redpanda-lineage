@@ -175,11 +175,11 @@ photo.32.author: westcoast_kathy
 photo.32.commitdate: 2018/11/25
 photo.32.link: https://www.instagram.com/westcoast_kathy/
 photo.32.tags: tongue
-photo.33: ig://BrMh9cvFVJ-/m
+photo.33: cwdc://WeWrb9-ADQA.jpg
 photo.33.author: carsontheredpanda
 photo.33.commitdate: 2018/12/10
-photo.33.link: https://www.instagram.com/carsontheredpanda/
-photo.33.tags: portrait, profile, smile, tree
+photo.33.link: https://www.instagram.com/p/BrMh9cvFVJ-
+photo.33.tags: portrait, profile, sample, smile, tree
 photo.34: ig://BwUk9UKlTuL/m
 photo.34.author: carsontheredpanda
 photo.34.commitdate: 2019/4/17
@@ -245,15 +245,15 @@ photo.46.author: carsontheredpanda
 photo.46.commitdate: 2019/6/13
 photo.46.link: https://www.instagram.com/carsontheredpanda/
 photo.46.tags: dish, smile, white face
-photo.47: ig://ByvTse8hU1Z/m
+photo.47: cwdc://WtcO6CZADQA.jpg
 photo.47.author: wumpwoast
 photo.47.commitdate: 2020/5/29
-photo.47.link: https://www.instagram.com/wumpwoast/
+photo.47.link: https://www.instagram.com/p/ByvTse8hU1Z
 photo.47.tags: peek, portrait
-photo.48: ig://Byy-U5Ph88I/m
+photo.48: cwdc://WtjkK2_ADQA.jpg
 photo.48.author: wumpwoast
 photo.48.commitdate: 2019/6/20
-photo.48.link: https://www.instagram.com/wumpwoast/
+photo.48.link: https://www.instagram.com/p/Byy-U5Ph88I
 photo.48.tags: laying down, tongue
 photo.49: ig://By0KnMyBYWV/m
 photo.49.author: carsontheredpanda
@@ -825,10 +825,10 @@ photo.162.author: rossifari
 photo.162.commitdate: 2020/7/1
 photo.162.link: https://www.instagram.com/rossifari/
 photo.162.tags: home, portrait, tongue
-photo.163: ig://CA6KoQthlKa/m
+photo.163: cwdc://XJx8xl7ADQA.jpg
 photo.163.author: wumpwoast
 photo.163.commitdate: 2020/7/1
-photo.163.link: https://www.instagram.com/wumpwoast/
+photo.163.link: https://www.instagram.com/p/CA6KoQthlKa
 photo.163.tags: laying down, portrait, sleeping, tree
 photo.164: ig://CBPxCd4BfxS/m
 photo.164.author: happy_love2.15
@@ -1065,20 +1065,20 @@ photo.210.author: carsontheredpanda
 photo.210.commitdate: 2022/9/24
 photo.210.link: https://www.instagram.com/carsontheredpanda/
 photo.210.tags: bamboo, bite, paws, portrait, sample, whiskers
-photo.211: ig://CfU9vYEvdFS/m
+photo.211: cwdc://YGni_0pADQA.jpg
 photo.211.author: wumpwoast
 photo.211.commitdate: 2022/7/22
-photo.211.link: https://www.instagram.com/wumpwoast/
+photo.211.link: https://www.instagram.com/p/CfU9vYEvdFS
 photo.211.tags: bamboo, bite, close-up, portrait, sample, whiskers, white face
 photo.212: ig://CffqAOlvFfr/m
 photo.212.author: happy_love2.15
 photo.212.commitdate: 2022/7/28
 photo.212.link: https://www.instagram.com/happy_love2.15/
 photo.212.tags: paws, portrait, sample, tongue, whiskers
-photo.213: ig://Cf-waulufmd/m
+photo.213: cwdc://YH7IWhrADQA.jpg
 photo.213.author: wumpwoast
 photo.213.commitdate: 2022/7/31
-photo.213.link: https://www.instagram.com/wumpwoast/
+photo.213.link: https://www.instagram.com/p/Cf-waulufmd
 photo.213.tags: laying down, portrait, sleeping
 photo.214: ig://CimDszguLXw/m
 photo.214.author: carsontheredpanda
@@ -1110,6 +1110,11 @@ photo.219.author: woodlandparkzoo
 photo.219.commitdate: 2023/3/6
 photo.219.link: https://www.instagram.com/woodlandparkzoo/
 photo.219.tags: flowers, sample, whiskers
+photo.220: cwdc://YzHDas4JUUA.png
+photo.220.author: carsontheredpanda
+photo.220.commitdate: 2024/1/21
+photo.220.link: https://www.instagram.com/carsontheredpanda
+photo.220.tags: paws, sample, tongue, whiskers
 species: 1
 studbook.id: 1440
 zoo: 67

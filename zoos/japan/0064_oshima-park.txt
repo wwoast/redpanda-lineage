@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 34.7607382
 longitude: 139.4311267
 map: https://goo.gl/maps/ygjtnJ59iXw
-photo.1: ig://Bg00Bl9hYZs/m
+photo.1: cwdc://WJnPkQbADQA.jpg
 photo.1.author: dacrag
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/dacrag/
+photo.1.link: https://www.instagram.com/p/Bg00Bl9hYZs
+photo.1.tags: profile
 website: http://www.soumu.metro.tokyo.jp/11osima/park/www/htdocs/parkindex.html

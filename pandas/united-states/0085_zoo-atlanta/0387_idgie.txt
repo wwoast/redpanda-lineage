@@ -32,7 +32,7 @@ photo.3: ig://BmOcDlpHOtE/m
 photo.3.author: jakerosmarinphotography2
 photo.3.commitdate: 2018/11/14
 photo.3.link: https://www.instagram.com/jakerosmarinphotography2/
-photo.3.tags: profile
+photo.3.tags: sample
 photo.4: ig://BnxPOMBjKak/m
 photo.4.author: mellyzed
 photo.4.commitdate: 2018/11/14
@@ -101,6 +101,86 @@ photo.17.author: worldthathesees
 photo.17.commitdate: 2021/11/15
 photo.17.link: https://www.instagram.com/worldthathesees/
 photo.17.tags: smile, whiskers
+photo.18: cwdc://W853gQoSAAN.jpg
+photo.18.author: rossifari
+photo.18.commitdate: 2024/2/10
+photo.18.link: https://www.instagram.com/rossifari
+photo.18.tags: peek, portrait, profile, sample, whiskers
+photo.19: cwdc://W854jZgSAAM.jpg
+photo.19.author: rossifari
+photo.19.commitdate: 2024/2/10
+photo.19.link: https://www.instagram.com/rossifari
+photo.19.tags: peek, sample, whiskers
+photo.20: cwdc://W855CpgSAAL.jpg
+photo.20.author: rossifari
+photo.20.commitdate: 2024/2/10
+photo.20.link: https://www.instagram.com/rossifari
+photo.20.tags: bridge, grooming, paws, sample, tail, tongue
+photo.21: cwdc://W855DYYSAAK.jpg
+photo.21.author: rossifari
+photo.21.commitdate: 2024/2/10
+photo.21.link: https://www.instagram.com/p/B-kMmAyDp4X
+photo.21.tags: peek, sample, whiskers
+photo.22: cwdc://W855dBASAAJ.jpg
+photo.22.author: rossifari
+photo.22.commitdate: 2024/2/10
+photo.22.link: https://www.instagram.com/rossifari
+photo.22.tags: bridge, paws, portrait, sample
+photo.23: cwdc://W8582DoSAAI.jpg
+photo.23.author: rossifari
+photo.23.commitdate: 2024/2/10
+photo.23.link: https://www.instagram.com/rossifari
+photo.23.tags: bridge, paws, portrait, sample, tail
+photo.24: cwdc://W85QGiASAAP.jpg
+photo.24.author: rossifari
+photo.24.commitdate: 2024/2/10
+photo.24.link: https://www.instagram.com/rossifari
+photo.24.tags: portrait, sample, tail
+photo.25: cwdc://W85erZISAAO.jpg
+photo.25.author: rossifari
+photo.25.commitdate: 2024/2/10
+photo.25.link: https://www.instagram.com/rossifari
+photo.25.tags: close-up, portrait, sample, techitechi, tongue, whiskers
+photo.26: cwdc://W86IJ7wSAAH.jpg
+photo.26.author: rossifari
+photo.26.commitdate: 2024/2/10
+photo.26.link: https://www.instagram.com/p/B6lT-GbJMKk
+photo.26.tags: sample, whiskers
+photo.27: cwdc://W86OuWASAAG.jpg
+photo.27.author: rossifari
+photo.27.commitdate: 2024/2/10
+photo.27.link: https://www.instagram.com/rossifari
+photo.27.tags: laying down, sample, whiskers
+photo.28: cwdc://XBJYbToSAAF.jpg
+photo.28.author: rossifari
+photo.28.commitdate: 2024/2/10
+photo.28.link: https://www.instagram.com/rossifari
+photo.28.tags: bridge, grooming, tail
+photo.29: cwdc://XBJZRBISAAE.jpg
+photo.29.author: rossifari
+photo.29.commitdate: 2024/2/10
+photo.29.link: https://www.instagram.com/rossifari
+photo.29.tags: bridge, peek, tail
+photo.30: cwdc://XBJm8gYSAAD.jpg
+photo.30.author: rossifari
+photo.30.commitdate: 2024/2/10
+photo.30.link: https://www.instagram.com/rossifari
+photo.30.tags: peek
+photo.31: cwdc://XBJoDToSAAC.jpg
+photo.31.author: rossifari
+photo.31.commitdate: 2024/2/10
+photo.31.link: https://www.instagram.com/rossifari
+photo.31.tags: peek, portrait
+photo.32: cwdc://XBJoNUQSAAB.jpg
+photo.32.author: rossifari
+photo.32.commitdate: 2024/2/10
+photo.32.link: https://www.instagram.com/rossifari
+photo.32.tags: peek, sample, whiskers
+photo.33: cwdc://XBKJOmQSAAA.jpg
+photo.33.author: rossifari
+photo.33.commitdate: 2024/2/10
+photo.33.link: https://www.instagram.com/rossifari
+photo.33.tags: itchy
 species: 2
 studbook.id: 0605
 zoo: 85

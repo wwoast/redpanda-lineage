@@ -15,20 +15,20 @@ language.order: en, ja
 litter: 558
 location.1: 108, 2014/6/23
 location.2: 115, 2016/3/8
-photo.1: ig://BgbP12EHN8k/m
+photo.1: cwdc://WI0HMwoADQA.jpg
 photo.1.author: greatplainszoo
 photo.1.commitdate: 2020/1/25
-photo.1.link: https://www.instagram.com/greatplainszoo/
+photo.1.link: ig://BgbP12EHN8k
 photo.1.tags: tail
-photo.2: ig://Bm_HWlrlpK6/m
+photo.2: cwdc://WV72OP3ADQB.jpg
 photo.2.author: greatplainszoo
 photo.2.commitdate: 2020/9/12
-photo.2.link: https://www.instagram.com/greatplainszoo/
+photo.2.link: ig://Bm_HWlrlpK6
 photo.2.tags: close-up, laying down
-photo.3: ig://BvJzfAvnfhb/m
+photo.3: cwdc://WmROfF_ADQC.jpg
 photo.3.author: greatplainszoo
 photo.3.commitdate: 2020/1/25
-photo.3.link: https://www.instagram.com/greatplainszoo/
+photo.3.link: ig://BvJzfAvnfhb
 photo.3.tags: portrait, profile, techitechi
 species: 1
 zoo: 119

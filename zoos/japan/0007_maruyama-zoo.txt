@@ -16,6 +16,7 @@ photo.1: https://www.codaworry.com/images/rpf/maruyama-zoo-winter-small.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: profile
 photo.2: ig://BwfTk9aBqyt/m
 photo.2.author: sat.simizu
 photo.2.commitdate: 2019/10/27
@@ -24,11 +25,11 @@ photo.3: ig://BwwmjKfFMrt/m
 photo.3.author: marimolovesl
 photo.3.commitdate: 2019/10/27
 photo.3.link: https://www.instagram.com/marimolovesl/
-photo.4: ig://CDbptiHBjxj/m
+photo.4: cwdc://XO068IuADQA.jpg
 photo.4.author: ho0oipo
 photo.4.commitdate: 2020/8/5
-photo.4.link: https://www.instagram.com/ho0oipo/
-photo.4.tags: profile
+photo.4.link: https://www.instagram.com/p/CDbptiHBjxj
+photo.4.tags: snow
 photo.5: ig://CFyuWIqBzn7/m
 photo.5.author: mari_neko3
 photo.5.commitdate: 2020/10/1
@@ -37,4 +38,9 @@ photo.6: ig://CcZ-dQJP3Tq/m
 photo.6.author: leonard_redmof
 photo.6.commitdate: 2022/5/25
 photo.6.link: https://www.instagram.com/leonard_redmof/
+photo.7: cwdc://UwTJ6enADQA.jpg
+photo.7.author: ck.chie
+photo.7.commitdate: 2024/3/6
+photo.7.link: https://www.instagram.com/ck.chie
+photo.7.tags: food
 website: http://www.city.sapporo.jp/zoo/index.html

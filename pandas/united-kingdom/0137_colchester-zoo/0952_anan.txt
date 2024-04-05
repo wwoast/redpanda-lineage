@@ -15,10 +15,10 @@ language.order: en, ja
 litter: unknown
 location.1: 200, 2009/6/23
 location.2: 137, 2010/5/6
-photo.1: ig://B359OU5Bk5n/m
+photo.1: cwdc://W3xh9uSADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2019/10/22
-photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.link: ig://B359OU5Bk5n
 photo.1.tags: bamboo, paws, portrait, profile
 species: 1
 zh.name: 安安

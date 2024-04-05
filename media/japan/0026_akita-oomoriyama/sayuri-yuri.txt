@@ -2,17 +2,17 @@
 _id: media.26.sayuri-yuri
 commitdate: 2019/6/1
 panda.tags: 213, 214
-photo.1: ig://BtNmrw5lNKI/l
+photo.1: cwdc://WiY04mTADQB.jpg
 photo.1.author: zoowfreedom299
 photo.1.commitdate: 2022/11/1
-photo.1.link: https://www.instagram.com/zoowfreedom299/
+photo.1.link: https://www.instagram.com/p/BtNmrw5lNKI
 photo.1.tags: apple time, mother's day, portrait, snow
 photo.1.tags.213.location: 400, 170
 photo.1.tags.214.location: 290, 430
-photo.2: ig://ByEzYQ0Bt5V/m
+photo.2: cwdc://WsHORmIADQA.jpg
 photo.2.author: craig_craig_craig
 photo.2.commitdate: 2019/6/1
-photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.2.link: https://www.instagram.com/p/ByEzYQ0Bt5V
 photo.2.tags: apple time, mother's day, smile
 photo.2.tags.213.location: 225, 85
 photo.2.tags.214.location: 105, 95
@@ -23,45 +23,52 @@ photo.3.link: https://www.instagram.com/kotata_513/
 photo.3.tags: mother's day
 photo.3.tags.213.location: 120, 100
 photo.3.tags.214.location: 190, 100
-photo.4: ig://B5rEAUIhr6k/m
+photo.4: cwdc://W7TvhsxADQA.jpg
 photo.4.author: zoowfreedom299
 photo.4.commitdate: 2020/4/15
-photo.4.link: https://www.instagram.com/zoowfreedom299/
-photo.4.tags: mother's day
+photo.4.link: https://www.instagram.com/p/B5rEAUIhr6k
+photo.4.tags: bridge, mother's day, portrait, sample, whiskers
 photo.4.tags.213.location: 125, 150
 photo.4.tags.214.location: 225, 110
-photo.5: ig://B-qAL1EB9St/l
+photo.5: cwdc://XFRn4uoADQA.jpg
 photo.5.author: hidehaya_biei
 photo.5.commitdate: 2020/4/15
-photo.5.link: https://www.instagram.com/hidehaya_biei/
-photo.5.tags: apple time, dish, mother's day
+photo.5.link: https://www.instagram.com/p/B-qAL1EB9St
+photo.5.tags: apple time, dish, mother's day, paws, sample
 photo.5.tags.213.location: 480, 180
 photo.5.tags.214.location: 800, 230
-photo.6: ig://CW8L_ETlg7d/l
+photo.6: cwdc://X11_fNHADQA.jpg
 photo.6.author: fetorus_mami
 photo.6.commitdate: 2022/1/10
-photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.link: https://www.instagram.com/p/CW8L_ETlg7d
 photo.6.tags: bamboo, mother's day
 photo.6.tags.213.location: 95, 225
 photo.6.tags.214.location: 240, 120
-photo.7: ig://CZyCYcULfn5/l
+photo.7: cwdc://X7hsR9IADQI.jpg
 photo.7.author: zoowfreedom299
 photo.7.commitdate: 2022/11/1
-photo.7.link: https://www.instagram.com/zoowfreedom299/
-photo.7.tags: apple time, close-up, mother's day, smile, whiskers
+photo.7.link: https://www.instagram.com/p/CZyCYcULfn5
+photo.7.tags: apple time, close-up, mother's day, sample, smile, whiskers
 photo.7.tags.213.location: 120, 230
 photo.7.tags.214.location: 300, 255
-photo.8: ig://CZ-suaVJ7Ud/l
+photo.8: cwdc://X77A95KADQG.jpg
 photo.8.author: zoowfreedom299
 photo.8.commitdate: 2022/11/11
-photo.8.link: https://www.instagram.com/zoowfreedom299/
+photo.8.link: https://www.instagram.com/p/CZ-suaVJ7Ud
 photo.8.tags: mother's day, standing, toys
 photo.8.tags.213.location: 315, 185
 photo.8.tags.214.location: 115, 330
-photo.9: ig://Cj49_QlBj3b/l
+photo.9: cwdc://YPvjflqADQA.jpg
 photo.9.author: pink.b22
 photo.9.commitdate: 2023/3/17
-photo.9.link: https://www.instagram.com/pink.b22/
+photo.9.link: https://www.instagram.com/p/Cj49_QlBj3b
 photo.9.tags: apple time, keeper, mother's day, sample
 photo.9.tags.213.location: 165, 275
 photo.9.tags.214.location: 260, 265
+photo.10: cwdc://X6p5EKKADQH.jpg
+photo.10.author: zoowfreedom299
+photo.10.commitdate: 2024/3/16
+photo.10.link: https://www.instagram.com/p/CZWIxi1Lebw
+photo.10.tags: apple time, snow
+photo.10.tags.213.location: 315, 265
+photo.10.tags.214.location: 75, 625

@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 35.1248786
 longitude: 138.9087188
 map: https://goo.gl/maps/y26QhbPcexm
-photo.1: ig://BkfNFtWDa1u/m
+photo.1: cwdc://WQ8BsfMADQA.jpg
 photo.1.author: y_pierrot
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/y_pierrot/
+photo.1.link: https://www.instagram.com/p/BkfNFtWDa1u
+photo.1.tags: profile
 website: https://www.city.mishima.shizuoka.jp/rakujyu/

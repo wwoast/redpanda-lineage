@@ -45,11 +45,11 @@ photo.6.author: jessesershon
 photo.6.commitdate: 2022/3/11
 photo.6.link: https://www.instagram.com/jessesershon/
 photo.6.tags: portrait, sample, smile, tree, whiskers
-photo.7: ig://CUXz8REpfsx/m
+photo.7: cwdc://XwtPZmpADQA.jpg
 photo.7.author: carsontheredpanda
 photo.7.commitdate: 2021/10/6
-photo.7.link: https://www.instagram.com/carsontheredpanda/
-photo.7.tags: portrait, profile, smile
+photo.7.link: https://www.instagram.com/p/CUXz8REpfsx
+photo.7.tags: portrait, profile, sample, smile
 photo.8: ig://CVRSjp8ND1e/m
 photo.8.author: woodlandparkzoo
 photo.8.commitdate: 2021/10/31
@@ -60,10 +60,10 @@ photo.9.author: carsontheredpanda
 photo.9.commitdate: 2021/10/30
 photo.9.link: https://www.instagram.com/carsontheredpanda/
 photo.9.tags: portrait, smile
-photo.10: ig://ChoQcfvuKBy/m
+photo.10: cwdc://YLOIaD_ADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2022/8/30
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/ChoQcfvuKBy
 photo.10.tags: portrait, smile, tongue, whiskers
 photo.11: ig://CrzCzQhvfOA/m
 photo.11.author: rwpzoo

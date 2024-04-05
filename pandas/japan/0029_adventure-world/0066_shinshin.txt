@@ -4,6 +4,7 @@ birthday: 2010/6/24
 birthplace: 13
 children: 62, 65, 64, 63, 305
 commitdate: 2018/6/22
+death: 2024/1/24
 en.name: Shin-Shin
 en.nicknames: none
 en.othernames: Shinshin
@@ -15,124 +16,131 @@ language.order: ja, en
 litter: 112
 location.1: 13, 2010/6/24
 location.2: 29, 2013/2/28
-photo.1: ig://BjPW2e7Fu03/m
+photo.1: cwdc://WOcVOCWADQA.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2018/8/12
-photo.1.link: https://www.instagram.com/apple_jasmine33/
-photo.1.tags: ear, grumpy, profile, tree
-photo.2: ig://Brfl7FrFxqa/m
+photo.1.link: ig://BjPW2e7Fu03
+photo.1.tags: ear, grumpy, laying down, portrait, profile, sample, tree
+photo.2: cwdc://We8zXP2ADQA.jpg
 photo.2.author: wumpwoast
 photo.2.commitdate: 2022/11/29
-photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.link: ig://Brfl7FrFxqa
 photo.2.tags: portrait, tree
-photo.3: ig://BuZxwjElUtg/m
+photo.3: cwdc://WkxLCKpADQB.jpg
 photo.3.author: kipekaila
 photo.3.commitdate: 2019/3/7
-photo.3.link: https://www.instagram.com/kipekaila/
-photo.4: ig://Bv1iYm0lbQi/m
+photo.3.link: ig://BuZxwjElUtg
+photo.3.tags: portrait, sample, whiskers
+photo.4: cwdc://WnosSSJADQA.jpg
 photo.4.author: sakikukeco
 photo.4.commitdate: 2019/4/5
-photo.4.link: https://www.instagram.com/sakikukeco/
-photo.4.tags: paws, tongue
-photo.5: ig://ByBn9K8BBg2/m
+photo.4.link: ig://Bv1iYm0lbQi
+photo.4.tags: paws, portrait, sample, tongue, whiskers
+photo.5: cwdc://WsA3baYADQA.jpg
 photo.5.author: resapanlove
 photo.5.commitdate: 2022/10/14
-photo.5.link: https://www.instagram.com/resapanlove/
+photo.5.link: ig://ByBn9K8BBg2
 photo.5.tags: paws, portrait, sample, whiskers
-photo.6: ig://B44Cl6yhuKb/m
-photo.6.author: wumpwoast
-photo.6.commitdate: 2019/11/21
-photo.6.link: https://www.instagram.com/wumpwoast/
-photo.6.tags: bear worm, laying down, paws
-photo.7: ig://B6tl8UpBhRY/m
-photo.7.author: kipekaila
-photo.7.commitdate: 2019/12/31
-photo.7.link: https://www.instagram.com/kipekaila/
-photo.7.tags: portrait, tree
-photo.8: ig://B7miu9pBrEQ/m
-photo.8.author: sasapan34
-photo.8.commitdate: 2020/1/25
-photo.8.link: https://www.instagram.com/sasapan34/
-photo.9: ig://B7vRDsYh4j2/m
-photo.9.author: fetorus_mami
+photo.6: cwdc://WsA3baYADQB.jpg
+photo.6.author: resapanlove
+photo.6.commitdate: 2022/10/14
+photo.6.link: ig://ByBn9K8BBg2?img_index=2
+photo.6.tags: mofumofu, portrait, sample, tail, tongue
+photo.7: cwdc://W5tss6FADQA.jpg
+photo.7.author: wumpwoast
+photo.7.commitdate: 2019/11/21
+photo.7.link: ig://B44Cl6yhuKb
+photo.7.tags: bear worm, laying down, paws
+photo.8: cwdc://W9YzZtyADQA.jpg
+photo.8.author: kipekaila
+photo.8.commitdate: 2019/12/31
+photo.8.link: ig://B6tl8UpBhRY
+photo.8.tags: portrait, sample, tree
+photo.9: cwdc://W_Ks-_yADQA.jpg
+photo.9.author: sasapan34
 photo.9.commitdate: 2020/1/25
-photo.9.link: https://www.instagram.com/fetorus_mami/
-photo.9.tags: paws, smile
-photo.10: ig://B8gNXWkBlQg/m
-photo.10.author: redpanda_nippon_takashi
-photo.10.commitdate: 2020/2/17
-photo.10.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.10.tags: paws, portrait
-photo.11: ig://B8q7EWgAivz/m
-photo.11.author: miis_98
-photo.11.commitdate: 2020/2/28
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: paws, portrait, smile
-photo.12: ig://CEttuixh89v/m
-photo.12.author: chankunvv
-photo.12.commitdate: 2020/11/6
-photo.12.link: https://www.instagram.com/chankunvv/
-photo.12.tags: door, paws, portrait
-photo.13: ig://CExsF0eBxHP/m
+photo.9.link: ig://B7miu9pBrEQ
+photo.9.tags: sample
+photo.10: cwdc://W_cJodRADQA.jpg
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2020/1/25
+photo.10.link: ig://B7vRDsYh4j2
+photo.10.tags: paws, sample, smile
+photo.11: cwdc://XA-CPxoADQA.jpg
+photo.11.author: redpanda_nippon_takashi
+photo.11.commitdate: 2020/2/17
+photo.11.link: ig://B8gNXWkBlQg
+photo.11.tags: paws, portrait, sample
+photo.12: cwdc://XBTdpxgADQA.jpg
+photo.12.author: miis_98
+photo.12.commitdate: 2020/2/28
+photo.12.link: ig://B8q7EWgAivz
+photo.12.tags: paws, portrait, sample, smile, whiskers
+photo.13: cwdc://XRZC-KDADQB.jpg
 photo.13.author: chankunvv
 photo.13.commitdate: 2020/11/6
-photo.13.link: https://www.instagram.com/chankunvv/
-photo.13.tags: mofumofu, portrait, smile, tail
-photo.14: ig://CJvng-PB2Rb/m
-photo.14.author: kisshan324
-photo.14.commitdate: 2021/1/28
-photo.14.link: https://www.instagram.com/kisshan324/
-photo.14.tags: paws, portrait, tail
-photo.15: ig://COL_FWwBSzo/m
-photo.15.author: sasapan34
-photo.15.commitdate: 2021/5/31
-photo.15.link: https://www.instagram.com/sasapan34/
-photo.15.tags: paws, smile
-photo.16: ig://CQYLG7NhKWk/m
-photo.16.author: chankunvv
-photo.16.commitdate: 2021/6/23
-photo.16.link: https://www.instagram.com/chankunvv/
-photo.16.tags: mofumofu, portrait, tail
-photo.17: ig://CVFqwmEB_HN/m
+photo.13.link: ig://CEttuixh89v
+photo.13.tags: door, paws, portrait
+photo.14: cwdc://XRg_stcADQC.jpg
+photo.14.author: chankunvv
+photo.14.commitdate: 2020/11/6
+photo.14.link: ig://CExsF0eBxHP
+photo.14.tags: mofumofu, portrait, sample, smile, tail
+photo.15: cwdc://Xbc2jA-ADQA.jpg
+photo.15.author: kisshan324
+photo.15.commitdate: 2021/1/28
+photo.15.link: ig://CJvng-PB2Rb
+photo.15.tags: paws, portrait, tail
+photo.16: cwdc://XkVlryAADQC.jpg
+photo.16.author: sasapan34
+photo.16.commitdate: 2021/5/31
+photo.16.link: ig://COL_FWwBSzo
+photo.16.tags: paws, smile
+photo.17: cwdc://Xot9u67ADQD.jpg
 photo.17.author: chankunvv
-photo.17.commitdate: 2021/10/30
-photo.17.link: https://www.instagram.com/chankunvv/
-photo.17.tags: laying down, paws, portrait, wet
-photo.18: ig://CWPmVF5hGc6/m
-photo.18.author: redpanda_nippon_takashi
-photo.18.commitdate: 2021/11/21
-photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.18.tags: close-up, paws, portrait, tail
-photo.19: ig://CXukRyLPPVz/m
-photo.19.author: chankunvv
-photo.19.commitdate: 2022/1/6
-photo.19.link: https://www.instagram.com/chankunvv/
-photo.19.tags: peek, portrait
-photo.20: ig://CaHeVtYvvWE/m
-photo.20.author: sasapan34
-photo.20.commitdate: 2022/3/29
-photo.20.link: https://www.instagram.com/sasapan34/
-photo.20.tags: smile, whiskers
-photo.21: ig://CbCSN6-OaTs/m
-photo.21.author: chankunvv
-photo.21.commitdate: 2022/3/19
-photo.21.link: https://www.instagram.com/chankunvv/
-photo.21.tags: laying down, paws, portrait, smile
-photo.22: ig://CbyoLArPIP1/m
-photo.22.author: grskus_tk
-photo.22.commitdate: 2022/8/16
-photo.22.link: https://www.instagram.com/grskus_tk/
-photo.22.tags: whiskers
-photo.23: ig://CdneW9KLqkQ/m
-photo.23.author: gloryeui
-photo.23.commitdate: 2022/6/6
-photo.23.link: https://www.instagram.com/gloryeui/
-photo.23.tags: bear worm, laying down, paws, portrait, wet
-photo.24: ig://Cr7Lp5JP2-N/m
-photo.24.author: chankunvv
-photo.24.commitdate: 2023/6/30
-photo.24.link: https://www.instagram.com/chankunvv/
-photo.24.tags: grooming, home, paws, portrait, surprise
+photo.17.commitdate: 2021/6/23
+photo.17.link: ig://CQYLG7NhKWk
+photo.17.tags: mofumofu, portrait, sample, tail
+photo.18: cwdc://XyI9CQoADQF.jpg
+photo.18.author: chankunvv
+photo.18.commitdate: 2021/10/30
+photo.18.link: ig://CVFqwmEB_HN
+photo.18.tags: laying down, paws, portrait, sample, wet
+photo.19: cwdc://X0c0LQTADQB.jpg
+photo.19.author: redpanda_nippon_takashi
+photo.19.commitdate: 2021/11/21
+photo.19.link: ig://CWPmVF5hGc6
+photo.19.tags: close-up, paws, portrait, tail
+photo.20: cwdc://X3awEo2ADQG.jpg
+photo.20.author: chankunvv
+photo.20.commitdate: 2022/1/6
+photo.20.link: ig://CXukRyLPPVz
+photo.20.tags: peek, portrait
+photo.21: cwdc://X8MkMfRADQB.jpg
+photo.21.author: sasapan34
+photo.21.commitdate: 2022/3/29
+photo.21.link: ig://CaHeVtYvvWE
+photo.21.tags: smile, whiskers
+photo.22: cwdc://X-CL86cADQA.jpg
+photo.22.author: chankunvv
+photo.22.commitdate: 2022/3/19
+photo.22.link: ig://CbCSN6-OaTs
+photo.22.tags: laying down, paws, portrait, sample, smile
+photo.23: cwdc://X_i33F2ADQA.jpg
+photo.23.author: grskus_tk
+photo.23.commitdate: 2022/8/16
+photo.23.link: ig://CbyoLArPIP1
+photo.23.tags: whiskers
+photo.24: cwdc://YDMkO-0ADQA.jpg
+photo.24.author: gloryeui
+photo.24.commitdate: 2022/6/6
+photo.24.link: ig://CdneW9KLqkQ
+photo.24.tags: bear worm, laying down, paws, portrait, sample, wet
+photo.25: cwdc://Yfz-02yADQE.jpg
+photo.25.author: chankunvv
+photo.25.commitdate: 2023/6/30
+photo.25.link: ig://Cr7Lp5JP2-N
+photo.25.tags: grooming, home, paws, portrait, surprise
 species: 2
 studbook.id: 1099
 zoo: 29

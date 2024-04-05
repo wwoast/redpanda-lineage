@@ -71,11 +71,11 @@ photo.12.author: craig_craig_craig
 photo.12.commitdate: 2019/4/30
 photo.12.link: https://www.instagram.com/craig_craig_craig/
 photo.12.tags: paws, standing
-photo.13: ig://B1cwc6Lh9oO/m
+photo.13: cwdc://Wy3Ia43ADQA.jpg
 photo.13.author: kotata_513
 photo.13.commitdate: 2019/8/23
-photo.13.link: https://www.instagram.com/kotata_513/
-photo.13.tags: portrait, profile, smile
+photo.13.link: https://www.instagram.com/p/B1cwc6Lh9oO
+photo.13.tags: portrait, profile, sample, smile, whiskers
 photo.14: ig://B2JwcgPBdvU/m
 photo.14.author: grskus_tk
 photo.14.commitdate: 2019/9/9
@@ -320,6 +320,21 @@ photo.62.author: grskus_tk
 photo.62.commitdate: 2023/11/26
 photo.62.link: https://www.instagram.com/grskus_tk/
 photo.62.tags: peek
+photo.63: cwdc://XFrHXjvADQB.jpg
+photo.63.author: hamiiiii831_
+photo.63.commitdate: 2024/3/16
+photo.63.link: https://www.instagram.com/p/B-2v7PnhcDE
+photo.63.tags: mofumofu, portrait, sample
+photo.64: cwdc://XFrHXjvADQC.jpg
+photo.64.author: hamiiiii831_
+photo.64.commitdate: 2024/3/16
+photo.64.link: https://www.instagram.com/p/B-2v7PnhcDE
+photo.64.tags: dish, portrait, sample, snow
+photo.65: cwdc://XFrHXjvADQD.jpg
+photo.65.author: hamiiiii831_
+photo.65.commitdate: 2024/3/16
+photo.65.link: https://www.instagram.com/p/B-2v7PnhcDE
+photo.65.tags: portrait, sample
 species: 2
 studbook.id: 13160
 zoo: 26

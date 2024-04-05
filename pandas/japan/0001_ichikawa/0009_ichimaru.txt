@@ -66,11 +66,11 @@ photo.11.author: hanamaru_redpanda
 photo.11.commitdate: 2020/3/12
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
 photo.11.tags: laying down, portrait, sleeping
-photo.12: ig://BivFhXPlXzq/m
+photo.12: cwdc://WNbyjy_ADQA.jpg
 photo.12.author: miis_98
 photo.12.commitdate: 2018/7/16
-photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: portrait, profile
+photo.12.link: https://www.instagram.com/p/BivFhXPlXzq
+photo.12.tags: portrait, profile, sample, whiskers
 photo.13: ig://BjJFFtflxuC/m
 photo.13.author: redpanda_nippon_takashi
 photo.13.commitdate: 2018/10/17
@@ -250,10 +250,10 @@ photo.48.author: ifumoto88
 photo.48.commitdate: 2021/4/17
 photo.48.link: https://www.instagram.com/ifumoto88/
 photo.48.tags: nose, patrol, paws, portrait
-photo.49: ig://CN5-jpcB8w8/m
+photo.49: cwdc://XjxkoXYADQA.jpg
 photo.49.author: ck.chie
 photo.49.commitdate: 2021/5/31
-photo.49.link: https://www.instagram.com/ck.chie/
+photo.49.link: https://www.instagram.com/p/CN5-jpcB8w8
 photo.49.tags: peek
 photo.50: ig://CN7mBxjB1eW/m
 photo.50.author: miis_98
@@ -375,6 +375,11 @@ photo.73.author: eos1089
 photo.73.commitdate: 2023/9/15
 photo.73.link: https://www.instagram.com/eos1089/
 photo.73.tags: laying down, paws, portrait, sample, whiskers
+photo.74: cwdc://YaiPPuwADQA.jpg
+photo.74.author: ifumoto88
+photo.74.commitdate: 2024/3/10
+photo.74.link: https://www.instagram.com/p/CpST3VILU0k
+photo.74.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 0980
 zoo: 1

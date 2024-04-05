@@ -48,63 +48,65 @@ photo.6.author: zookeeper_aj
 photo.6.commitdate: 2020/4/1
 photo.6.link: https://www.instagram.com/zookeeper_aj/
 photo.6.tags: toys
-photo.7: ig://BU5NCkCAldF/m
+photo.7: cwdc://VxwBmMkADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2018/7/26
-photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.link: https://www.instagram.com/p/BU5NCkCAldF
 photo.7.tags: portrait, tail
 photo.8: ig://BYBdl2wDuDA/m
 photo.8.author: hhpzoo
 photo.8.commitdate: 2020/4/1
 photo.8.link: https://www.instagram.com/hhpzoo/
 photo.8.tags: whiskers
-photo.9: ig://BYEICkzgYNm/m
+photo.9: cwdc://V4F3mOHADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2018/12/9
-photo.9.link: https://www.instagram.com/wumpwoast/
-photo.10: ig://BaAauORg6ti/m
+photo.9.link: https://www.instagram.com/p/BYEICkzgYNm
+photo.9.tags: peek, portrait, sample
+photo.10: cwdc://V7-c9hDADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/7/26
-photo.10.link: https://www.instagram.com/wumpwoast/
-photo.11: ig://Bb7bQJyl8fI/m
+photo.10.link: https://www.instagram.com/p/BaAauORg6ti
+photo.10.tags: portrait, sample, white face
+photo.11: cwdc://V_0eBYFADQA.jpg
 photo.11.author: wumpwoast
 photo.11.commitdate: 2020/6/18
-photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.link: https://www.instagram.com/p/Bb7bQJyl8fI
 photo.11.tags: close-up, door, mofumofu, paws, whiskers
-photo.12: ig://BiZ8xxclfy9/m
+photo.12: cwdc://WMxhEnZADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2018/7/26
-photo.12.link: https://www.instagram.com/wumpwoast/
+photo.12.link: https://www.instagram.com/p/BiZ8xxclfy9
 photo.12.tags: pull-up
 photo.13: ig://BidjdaAn32S/m
 photo.13.author: zookeeper_aj
 photo.13.commitdate: 2020/4/1
 photo.13.link: https://www.instagram.com/zookeeper_aj/
 photo.13.tags: close-up, nose
-photo.14: ig://Bi-QZV0FUYm/m
+photo.14: cwdc://WN6ITwIADQA.jpg
 photo.14.author: wumpwoast
 photo.14.commitdate: 2020/6/18
-photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.link: https://www.instagram.com/p/Bi-QZV0FUYm
 photo.14.tags: laying down, paws, portrait
 photo.15: ig://Bjz40EFHH-Q/m
 photo.15.author: zookeeper_aj
 photo.15.commitdate: 2018/7/26
 photo.15.link: https://www.instagram.com/zookeeper_aj/
-photo.16: ig://Bk1cgUilTzY/m
+photo.16: cwdc://WRoghtlADQA.jpg
 photo.16.author: wumpwoast
 photo.16.commitdate: 2018/7/26
-photo.16.link: https://www.instagram.com/wumpwoast/
+photo.16.link: https://www.instagram.com/p/Bk1cgUilTzY
 photo.16.tags: laying down
-photo.17: ig://BlPZuHnl982/m
+photo.17: cwdc://WSca9TvADQA.jpg
 photo.17.author: wumpwoast
 photo.17.commitdate: 2022/10/20
-photo.17.link: https://www.instagram.com/wumpwoast/
+photo.17.link: https://www.instagram.com/p/BlPZuHnl982
 photo.17.tags: bamboo, dish, peek
-photo.18: ig://BmUrNnyntyO/m
+photo.18: cwdc://WUm98UFADQA.jpg
 photo.18.author: zookeeper_aj
 photo.18.commitdate: 2018/9/13
-photo.18.link: https://www.instagram.com/zookeeper_aj/
-photo.18.tags: profile
+photo.18.link: https://www.instagram.com/p/BmUrNnyntyO
+photo.18.tags: profile, sample
 photo.19: ig://Bm1fxbeHjgx/m
 photo.19.author: zookeeper_aj
 photo.19.commitdate: 2020/4/1
@@ -115,10 +117,10 @@ photo.20.author: zookeeper_aj
 photo.20.commitdate: 2018/9/16
 photo.20.link: https://www.instagram.com/zookeeper_aj/
 photo.20.tags: paws
-photo.21: ig://BoLgH_RFljz/m
+photo.21: cwdc://WYUnxDCADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2019/11/1
-photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.link: https://www.instagram.com/p/BoLgH_RFljz
 photo.21.tags: laying down, portrait, sleeping
 photo.22: ig://BpfEjwxhnBn/m
 photo.22.author: alyss_or_rose
@@ -145,25 +147,25 @@ photo.26.author: zookeeper_aj
 photo.26.commitdate: 2019/3/21
 photo.26.link: https://www.instagram.com/zookeeper_aj/
 photo.26.tags: paws
-photo.27: ig://BxZLlhxFlut/m
+photo.27: cwdc://Wqv-sICADQA.jpg
 photo.27.author: wumpwoast
 photo.27.commitdate: 2020/6/18
-photo.27.link: https://www.instagram.com/wumpwoast/
+photo.27.link: https://www.instagram.com/p/BxZLlhxFlut
 photo.27.tags: bamboo, lunch time, paws, portrait
 photo.28: ig://B2PgDJll_wa/m
 photo.28.author: hhpzoo
 photo.28.commitdate: 2019/9/14
 photo.28.link: https://www.instagram.com/hhpzoo/
 photo.28.tags: lunchtime, portrait, white face
-photo.29: ig://CgetQ9UL7iO/m
+photo.29: cwdc://YI7CC_IADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2022/8/5
-photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.link: https://www.instagram.com/p/CgetQ9UL7iO
 photo.29.tags: close-up, door, paws, sample
-photo.30: ig://CqTpZ5UvgKk/m
+photo.30: cwdc://Yck6U3JADQA.jpg
 photo.30.author: wumpwoast
 photo.30.commitdate: 2023/4/21
-photo.30.link: https://www.instagram.com/wumpwoast/
+photo.30.link: https://www.instagram.com/p/CqTpZ5UvgKk
 photo.30.tags: paws, peek, portrait, sample
 species: 1
 studbook.id: 1109

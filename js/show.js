@@ -240,7 +240,7 @@ Show.creditLink = function(info, container_element) {
   var credit_link = document.createElement('a');
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.target = "_blank";   // Open in new tab
-  credit_link.href = info.photo_link;
+  credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link);
   if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
     // Uncredited / anonymous photos get no href, and are not links
     credit_link.innerText = L.emoji.camera + " " + Pandas.def.authors[info.photo_credit][L.display];

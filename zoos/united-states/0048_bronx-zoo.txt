@@ -9,8 +9,9 @@ language.order: en
 latitude: 40.8505989
 longitude: -73.8791869
 map: https://goo.gl/maps/YZZd8WbFQrA2
-photo.1: ig://4C0IAHr4QO/m
+photo.1: cwdc://U4DPxEvADQA.jpg
 photo.1.author: bronxzoo
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/bronxzoo/
+photo.1.link: https://www.instagram.com/p/4C0IAHr4QO
+photo.1.tags: profile
 website: https://bronxzoo.com/

@@ -62,10 +62,10 @@ photo.10.author: redpan22
 photo.10.commitdate: 2018/11/11
 photo.10.link: https://www.instagram.com/redpan22/
 photo.10.tags: autumn, blink, portrait, tree
-photo.11: ig://BqNvmPWFm6F/m
+photo.11: cwdc://WcZGtjMADQA.jpg
 photo.11.author: wumpwoast
 photo.11.commitdate: 2018/11/15
-photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.link: https://www.instagram.com/p/BqNvmPWFm6F
 photo.11.tags: portrait
 photo.12: ig://BqpJC1fHiZv/m
 photo.12.author: yakko____
@@ -389,11 +389,11 @@ photo.76.author: shigeko0531
 photo.76.commitdate: 2022/3/18
 photo.76.link: https://www.instagram.com/shigeko0531/
 photo.76.tags: close-up, eye, peek, snow
-photo.77: ig://CbWEw2DL5G2/m
+photo.77: cwdc://X-pxCwmADQA.jpg
 photo.77.author: otenba_redpanda
 photo.77.commitdate: 2022/5/17
-photo.77.link: https://www.instagram.com/otenba_redpanda/
-photo.77.tags: close-up, mofumofu, peek, portrait, sample, techitechi, whiskers
+photo.77.link: https://www.instagram.com/p/CbWEw2DL5G2
+photo.77.tags: close-up, mofumofu, peek, portrait, profile, sample, techitechi, whiskers
 photo.78: ig://CcMRcl6p6N0/m
 photo.78.author: shigeko0531
 photo.78.commitdate: 2022/9/28

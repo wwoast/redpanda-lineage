@@ -453,6 +453,24 @@ Pandas.arrayContentsEqual = function(a, b) {
 	return true;
 }
 
+// Process author links that are intended to point at other sources, such as
+// Instagram. The Instagram URLs will fall back to an author profile page if
+// the link is private.
+Pandas.authorLink = function(author, link) {
+  if (!link) {
+    return link;
+  } else if (link.indexOf("ig://") == 0) {
+    var ig_locator = link.split("/").at(-1)
+    var inline_author = link.split("/").at(-2)
+    if (!inline_author)
+      return `https://www.instagram.com/${author}/p/${ig_locator}`;
+    else
+      return `https://www.instagram.com/${inline_author}/p/${ig_locator}`;
+  } else {
+    return link;
+  }
+}
+
 // Valid panda IDs are numeric and non-zero
 Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
@@ -1142,7 +1160,7 @@ Pandas.searchPandaPhotoTagsIntersect = function(animal, tags) {
         "photo": animal[field_name],
         "photo.author": animal[photo_author],
         "photo.index": photo_index,
-        "photo.link": animal[photo_link],
+        "photo.link": Pandas.authorLink(animal[photo_author], animal[photo_link]),
         "photo.tags": tags   // Not the original tags, but the ones searched for
       }
       output.push(bundle);
@@ -1179,7 +1197,7 @@ Pandas.searchPandaPhotoTagsUnion = function(animal, tags, mode) {
             "photo": animal[field_name],
             "photo.author": animal[photo_author],
             "photo.index": photo_index,
-            "photo.link": animal[photo_link],
+            "photo.link": Pandas.authorLink(animal[photo_author], animal[photo_link]),
             "photo.tags": tags   // Not the original tags, but the ones searched for
           }
           output.push(bundle);
@@ -2178,7 +2196,7 @@ Pandas.locatorToPhoto = function(locator) {
      "photo": entity[choice],
     "credit": entity[choice + ".author"],
      "index": photo_id,
-      "link": entity[choice + ".link"],
+      "link": Pandas.authorLink(entity[choice + ".author"], entity[choice + ".link"]),
       "type": entity_type
   }
   return desired;
@@ -2324,7 +2342,7 @@ Pandas.profilePhoto = function(animal, index, mode="animal") {
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
      "index": choice.replace("photo.", ""),
-      "link": animal[choice + ".link"]
+      "link": Pandas.authorLink(animal[choice + ".author"], animal[choice + ".link"])
   }
   return desired;
 }

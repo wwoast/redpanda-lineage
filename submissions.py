@@ -20,8 +20,8 @@
 #    rsync, vim, xli
 #
 
-from shared import ProperlyDelimitedConfigParser
-from manage import sort_ig_updates
+from shared import ProperlyDelimitedConfigParser, read_settings
+from manage import sort_image_updates
 from PIL import Image
 from datetime import datetime
 import git
@@ -79,7 +79,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         locators = metadata.get("photo_locators")
         if locators == None:   # Photo metadata file minus .json
             locators = [".".join(os.path.basename(metadata_path).split(".")[0:2])]
-        if metadata["ig_locator"]:
+        if metadata.get("ig_locator"):
             guessLink = "https://www.instagram.com/p/{ig_locator}".format(
                 ig_locator = metadata["ig_locator"]
             )
@@ -87,7 +87,7 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             guessLink = "https://www.instagram.com/{author}".format(
                 author = metadata["author"]
             )
-        guessTags = "<Comma-Separated-List-of-Photo-Tags>"
+        guessTags = ""
         if "tags" in metadata:
             guessTags = ", ".join(metadata["tags"])
         index = 1
@@ -100,7 +100,32 @@ def convert_json_to_configparser(metadata_path, metadata_file):
             config.set(section, keyPrefix + ".link", guessLink)
             config.set(section, keyPrefix + ".tags", guessTags)
             # TODO: handle media ids for the entity, and add location tags too
-            # This will require looking up pandas by ID
+            # Display contents from existing entity data if a match with
+            # the instagram locator exists. Make the commitdate and tags
+            # reflect what's actually in the dataset
+            # TODO: fix logic
+            ig_locator = metadata.get("ig_locator")
+            if ig_locator:
+                existing = read_existing_entity_for_photo(config)
+                if existing:
+                    targetPhotoIndex = find_instagram_locator(
+                        existing, existing.default_section, ig_locator)
+                    targetPrefix = "photo." + str(targetPhotoIndex)
+                    photoCheck = existing.has_option(existing.default_section, targetPrefix)
+                    if photoCheck:
+                        copy_across_configs(
+                            existing, existing.default_section, targetPrefix + ".commitdate",
+                            config, section, keyPrefix + ".commitdate")
+                        tagCheck = existing.has_option(existing.default_section, targetPrefix + ".tags")
+                        if tagCheck:
+                            targetTags = existing.get(existing.default_section, targetPrefix + ".tags")
+                            tagList = targetTags.split(", ")
+                            if guessTags:
+                                guessSplit = guessTags.split(", ")
+                                tagList.extend(guessSplit)
+                            if tagList:
+                                tagSet = sorted(set(tagList))
+                                config.set(section, keyPrefix + ".tags", ", ".join(tagSet))
             index = index + 1
         return config
     def convert_json_to_zoo(config, metadata):
@@ -148,9 +173,18 @@ def convert_json_to_configparser(metadata_path, metadata_file):
         config = ProperlyDelimitedConfigParser(default_section="photo", delimiters=(':'))
         config.set("photo", "_id", metadata["_id"])
         # Single photo uploads can have IG locators in the submitted data
-        config.set("photo", "_ig_locator", metadata["ig_locator"])
+        if metadata.get("ig_locator"):
+            config.set("photo", "_ig_locator", metadata["ig_locator"])
         config = convert_json_to_photo_sections(config, "photo", metadata)
         write_config(config_path, config)
+
+def copy_across_configs(in_data, in_section, in_key, out_data, out_section, out_key):
+    """Copy a key from one ConfigParser object to another"""
+    out_data.set(
+        out_section,
+        out_key,
+        in_data.get(in_section, in_key)
+    )
 
 def copy_images_to_image_server(results):
     """Use scp to put photo files on an image server"""
@@ -174,7 +208,6 @@ def copy_review_data_from_submissions_server(config):
     server = config.get("submissions", "contributions_server")
     review_folder = config.get("submissions", "contributions_server_folder")
     user = config.get("submissions", "contributions_user")
-    processing_folder = config.get("submissions", "processing_folder")
     rsync_command = 'rsync -avrz --remove-source-files {user}@{server}:{review_folder}/* {processing_folder}'.format(
         user=user,
         server=server,
@@ -185,7 +218,6 @@ def copy_review_data_from_submissions_server(config):
     if result != 0:
         sys.exit(result)
     delete_empty_submission_dirs(processing_folder)
-    return processing_folder
 
 def count_until_next_photo(config, section):
     index = 1
@@ -351,12 +383,6 @@ def iterate_through_contributions(processing_path):
 
 def merge_configuration(result):
     """Make a commit for each metadata file in lexicographic order"""
-    def copy_across_configs(in_data, in_section, in_key, out_data, out_section, out_key):
-        out_data.set(
-            out_section,
-            out_key,
-            in_data.get(in_section, in_key)
-        )
     def get_panda_output_file_from_zoo_data(zoo_id, panda_id, en_name):
         zoo_path = ZOO_INDEX[zoo_id]
         panda_country = zoo_path.split("/")[2]
@@ -421,7 +447,10 @@ def merge_configuration(result):
         # add photos, or replace existing ig:// locators
         # TODO: may not be integer for media types
         entity_id = in_data.get("photo", "_id")
-        ig_locator = in_data.get("photo", "_ig_locator")
+        if in_data.has_option("photo", "_ig_locator"):
+            ig_locator = in_data.get("photo", "_ig_locator")
+        else:
+            ig_locator = None
         if entity_id.find("media.") == 0:
             index = MEDIA_INDEX
             section = "media"
@@ -471,7 +500,6 @@ def merge_configuration(result):
             out_list = out_tags.split(', ')
             tag_list.extend(out_list)
             tag_set = sorted(set(tag_list))
-            tag_set.remove("")
             # If there are tags, set them
             if len(tag_set) > 0:
                 out_data.set(section, out_photo_tags, ', '.join(tag_set))
@@ -529,7 +557,7 @@ def process_entity(contribution_path, entity_path, entity_type):
             }
         convert_json_to_configparser(entity_path, entity_file)
         print_configfile_contents(config_path)
-        resize_images(entity_file, photo_paths)
+        resize_and_rotate_images(entity_file, photo_paths)
         xli = display_images(photo_paths)
         decision = prompt_for_decision()
         if decision == "c":
@@ -568,29 +596,61 @@ def prompt_for_decision():
         return prompt_for_decision()
     else:
         return decision
-    
-def read_settings():
-    """Servers and folder paths for processing new RPF contributions"""
-    infile = ProperlyDelimitedConfigParser()
-    infile.read("./contributions.conf", encoding='utf-8')
-    return infile
 
-def resize_images(entity_file, photo_paths):
-    """Resizes all images to 400px or 800px in the largest dimension"""
-    metadata = json.loads(entity_file)
-    if metadata["_id"].find("media.") == 0:
-        aspect = RESIZE_GROUP
+def read_existing_entity_for_photo(in_data):
+    """Populate incoming entity info from older RedPandaFinder data"""
+    id = in_data.get(in_data.default_section, "_id")
+    if id == "0":
+        return None
+    if id.find("media.") == 0:
+        check_id = id
+        existing_file = MEDIA_INDEX[check_id]
+        section = "media"
     else:
-        aspect = RESIZE_REGULAR
-    for photo_path in photo_paths:
-        # Files may get deleted prior to resizing
-        if not os.path.exists(photo_path):
-            continue
-        image = Image.open(photo_path)
+        num_id = int(id)
+        check_id = '{:04d}'.format(abs(num_id))
+        if num_id > 0:
+            existing_file = PANDA_INDEX[check_id]
+            section = "panda"
+        else:
+            existing_file = ZOO_INDEX[check_id]
+            section = "zoo"
+    existing_data = ProperlyDelimitedConfigParser(default_section=section, delimiters=(':'))
+    existing_data.read(existing_file)
+    return existing_data
+
+def resize_and_rotate_images(entity_file, photo_paths):
+    """Resizes all images to 400px or 800px in the largest dimension, and
+       determines how to rotate them based on metadata that was parsed out
+       of EXIF tags in the frontend."""
+    def reorient_image(image, orientation):
+        """Flip or rotate to correct, based on exifr JS dictionary values"""
+        if orientation == None or orientation == 'Horizontal (normal)':
+            return image
+        if orientation == 'Rotate 90 CW':
+            return image.transpose(Image.ROTATE_270)
+        elif orientation == 'Rotate 180':
+            return image.transpose(Image.ROTATE_180)
+        elif orientation == 'Rotate 270 CW':
+            return image.transpose(Image.ROTATE_90)
+        elif orientation == 'Mirror horizontal':
+            return image.transpose(Image.FLIP_LEFT_RIGHT)
+        elif orientation == 'Mirror vertical':
+            return image.transpose(Image.FLIP_TOP_BOTTOM)
+        elif orientation == 'Mirror horizontal and rotate 270 CW':
+            flip = image.transpose(Image.FLIP_LEFT_RIGHT)
+            return flip.transpose(Image.ROTATE_90)
+        elif orientation == 'Mirror horizontal and rotate 90 CW':
+            flip = image.transpose(Image.FLIP_LEFT_RIGHT)
+            return flip.transpose(Image.ROTATE_270)
+        else:
+            return image
+    def resize_image(image, aspect):
+        """Resize image to the given aspect size (400px or 800px)"""
         if image.size[0] > aspect or image.size[1] > aspect:
             ratios = [image.size[0] / aspect, image.size[1] / aspect]
             resize = [1, 1]
-            # If either side is larger than 400px, the ratio will be greater
+            # If either side is larger than aspect, the ratio will be greater
             # than one. Whichever ratio is the largest, we want to scale both
             # dimensions by that amount.
             if ratios[0] > 1:
@@ -606,15 +666,36 @@ def resize_images(entity_file, photo_paths):
                 int(image.size[1] / resize[1])
             ]
             resized = image.resize(resolution)
-            resized.save(photo_path)
+            return resized
+        else:
+            return image
+    metadata = json.loads(entity_file)
+    if metadata["_id"].find("media.") == 0:
+        aspect = RESIZE_GROUP
+    else:
+        aspect = RESIZE_REGULAR
+    for photo_path in photo_paths:
+        # Files may get deleted prior to resizing
+        if not os.path.exists(photo_path):
+            continue
+        image = Image.open(photo_path)
+        if metadata.get("orientation"):
+          image = reorient_image(image, metadata["orientation"])
+        image = resize_image(image, aspect)
+        image.save(photo_path)
 
 if __name__ == '__main__':
     index_zoos_and_animals()
     config = read_settings()
-    processing_folder = copy_review_data_from_submissions_server(config)
+    processing_folder = config.get("submissions", "processing_folder")
+    if len(sys.argv) == 1:
+        copy_review_data_from_submissions_server(config)
+    if len(sys.argv) == 2:
+        if sys.argv[1] != "--local":
+            copy_review_data_from_submissions_server(config)
     results = iterate_through_contributions(processing_folder)
     copy_images_to_image_server(results)
     create_submissions_branch(results)
-    sort_ig_updates()
+    sort_image_updates()
     migrate_submissions_to_submitted()
     print("Please merge submissions to master when ready.")

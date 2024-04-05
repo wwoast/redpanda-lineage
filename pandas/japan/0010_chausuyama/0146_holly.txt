@@ -112,10 +112,10 @@ photo.20.author: lesserpanda_shizuokacity_cp
 photo.20.commitdate: 2019/12/30
 photo.20.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.20.tags: itchy, paws, portrait
-photo.21: ig://B6ygTuThKMS/m
+photo.21: cwdc://W9ioIhHADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2020/1/11
-photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.link: https://www.instagram.com/p/B6ygTuThKMS
 photo.21.tags: portrait
 photo.22: ig://B8aLtaxgaTA/m
 photo.22.author: mini_cochi
@@ -262,11 +262,11 @@ photo.50.author: shigeko0531
 photo.50.commitdate: 2021/10/10
 photo.50.link: https://www.instagram.com/shigeko0531/
 photo.50.tags: bamboo, bite, portrait
-photo.51: ig://CVE0qItBUMB/m
+photo.51: cwdc://XyHQ1V6ADQA.jpg
 photo.51.author: mari_neko3
 photo.51.commitdate: 2021/10/17
-photo.51.link: https://www.instagram.com/mari_neko3/
-photo.51.tags: mofumofu, peek, portrait, profile
+photo.51.link: https://www.instagram.com/p/CVE0qItBUMB
+photo.51.tags: close-up, mofumofu, peek, portrait, profile, sample
 photo.52: ig://CVHpsarhUZ_/m
 photo.52.author: otenba_redpanda
 photo.52.commitdate: 2021/11/6
@@ -302,11 +302,11 @@ photo.58.author: shigeko0531
 photo.58.commitdate: 2022/8/5
 photo.58.link: https://www.instagram.com/shigeko0531/
 photo.58.tags: laying down, paws
-photo.59: ig://CW-t3DwBtRW/m
+photo.59: cwdc://X17DPMAADQA.jpg
 photo.59.author: ck.chie
 photo.59.commitdate: 2021/12/30
-photo.59.link: https://www.instagram.com/ck.chie/
-photo.59.tags: laying down, peek, portrait
+photo.59.link: https://www.instagram.com/p/CW-t3DwBtRW
+photo.59.tags: laying down, peek, portrait, sample
 photo.60: ig://mari_neko3/CXiToXrhll3/m
 photo.60.author: mari_neko3
 photo.60.commitdate: 2022/2/19
@@ -392,6 +392,11 @@ photo.76.author: shigeko0531
 photo.76.commitdate: 2023/2/26
 photo.76.link: https://www.instagram.com/shigeko0531/
 photo.76.tags: close-up, mofumofu, sample
+photo.77: cwdc://Y1-ddkcADQA.jpg
+photo.77.author: hamiiiii831_
+photo.77.commitdate: 2024/3/10
+photo.77.link: https://www.instagram.com/p/C3Aa-P-PutO
+photo.77.tags: paws, sample
 species: 2
 studbook.id: 1675
 zoo: 10

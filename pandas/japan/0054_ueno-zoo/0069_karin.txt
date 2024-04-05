@@ -16,11 +16,11 @@ litter: 130
 location.1: 6, 2012/7/28
 location.2: 50, 2015/12/1
 location.3: 54, 2020/5/1
-photo.1: ig://Bi8uZhmFdOx/m
+photo.1: cwdc://WN3EUHsADQA.jpg
 photo.1.author: makimaru18
 photo.1.commitdate: 2018/7/26
-photo.1.link: https://www.instagram.com/makimaru18/
-photo.1.tags: portrait, profile, smile
+photo.1.link: https://www.instagram.com/p/Bi8uZhmFdOx
+photo.1.tags: close-up, portrait, profile, sample, smile, whiskers
 photo.2: ig://Bj4NAgalSuL/m
 photo.2.author: framereim
 photo.2.commitdate: 2018/7/26
@@ -511,10 +511,10 @@ photo.99.author: mini_cochi
 photo.99.commitdate: 2022/6/3
 photo.99.link: https://www.instagram.com/mini_cochi/
 photo.99.tags: apple time, close-up, mofumofu, paws, portrait, sample
-photo.100: ig://CdQUf1CP0sj/m
+photo.100: cwdc://YCeQgukADQA.jpg
 photo.100.author: ck.chie
 photo.100.commitdate: 2022/6/7
-photo.100.link: https://www.instagram.com/ck.chie/
+photo.100.link: https://www.instagram.com/p/CdQUf1CP0sj
 photo.100.tags: bamboo, bite, paws, shoots
 photo.101: ig://CdQbptwPdES/m
 photo.101.author: redpan22
@@ -571,6 +571,11 @@ photo.111.author: eos1089
 photo.111.commitdate: 2023/5/4
 photo.111.link: https://www.instagram.com/eos1089/
 photo.111.tags: paws, portrait, sample, standing, tail
+photo.112: cwdc://Xvw2AdPADQC.jpg
+photo.112.author: ck.chie
+photo.112.commitdate: 2021/10/24
+photo.112.link: https://www.instagram.com/p/CT5nPsXhSKG
+photo.112.tags: paws, portrait, sample, smile
 species: 2
 studbook.id: 12118
 zoo: 54

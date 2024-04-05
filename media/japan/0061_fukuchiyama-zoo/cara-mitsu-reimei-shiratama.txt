@@ -1,0 +1,40 @@
+[media]
+_id: media.61.cara-mitsu-reimei-shiratama
+commitdate: 2024/3/26
+panda.tags: 284, 285, 286, 959
+photo.1: cwdc://XWOQK5zADQA.jpg
+photo.1.author: redpanda_nippon_takashi
+photo.1.commitdate: 2024/3/26
+photo.1.link: ig://CHIUU6phSc2?img_index=2
+photo.1.tags: dish, family, lunch time, top-to-bottom
+photo.1.tags.284.location: 455, 635
+photo.1.tags.285.location: 330, 210
+photo.1.tags.286.location: 265, 70
+photo.1.tags.959.location: 290, 455
+photo.2: cwdc://XWOQK5zADQB.jpg
+photo.2.author: redpanda_nippon_takashi
+photo.2.commitdate: 2024/3/26
+photo.2.link: ig://CHIUU6phSc2?img_index=3
+photo.2.tags: apple time, dish, family, lunch time, top-to-bottom
+photo.2.tags.284.location: 405, 580
+photo.2.tags.285.location: 230, 130
+photo.2.tags.286.location: 190, 60
+photo.2.tags.959.location: 230, 400
+photo.3: cwdc://XWdL9ZUADQB.jpg
+photo.3.author: colette.jp
+photo.3.commitdate: 2024/3/26
+photo.3.link: ig://CHPyOKaBmKe
+photo.3.tags: dish, family, lunch time
+photo.3.tags.284.location: 250, 265
+photo.3.tags.285.location: 370, 400
+photo.3.tags.286.location: 405, 260
+photo.3.tags.959.location: 545, 615
+photo.4: cwdc://X1mpql4ADQB.jpg
+photo.4.author: love__mitarashi
+photo.4.commitdate: 2024/3/26
+photo.4.link: ig://CW0hEwsBGxx
+photo.4.tags: bamboo, family
+photo.4.tags.284.location: 595, 245
+photo.4.tags.285.location: 475, 50
+photo.4.tags.286.location: 105, 160
+photo.4.tags.959.location: 355, 160

@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 33.8738674
 longitude: 130.8444053
 map: https://goo.gl/maps/a4z75hLhZ692
-photo.1: ig://BqzBnzWlREb/m
+photo.1: cwdc://WdjqwrNADQA.jpg
 photo.1.author: kipekaila
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.link: https://www.instagram.com/p/BqzBnzWlREb
+photo.1.tags: profile
 website: http://www.itozu-zoo.jp/

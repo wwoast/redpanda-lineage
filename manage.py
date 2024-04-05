@@ -5,12 +5,11 @@
 # photos taken by a specific credited author.
 
 import git
-import json
 import os
 import re
 import sys
 
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime, fetch_photo, get_max_entity_count, update_ig_link
+from shared import HASH_ORDER, MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, datetime_to_unixtime, get_max_entity_count, read_settings, update_ig_link
 from unidiff import PatchSet
 
 def find_commit_of_removed_photos(author, repo):
@@ -84,7 +83,7 @@ def remove_photo_from_file(path, photo_id):
     """
     Given a file path and a photo index ID, remove the photo and renumber
     all photos inside the file. Determine what the proper configuration
-    section header should be from the path itself.
+    section header should be from the path itself. Returns the 
     """
     repo = git.Repo(".")
     section = None
@@ -92,6 +91,7 @@ def remove_photo_from_file(path, photo_id):
         if section_name in path.split("/"):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
+    photo_url = photo_list.get_photo(photo_id)
     if photo_list.delete_photo(photo_id) == True:
         # Read max from an existing photo
         max = int(get_max_entity_count())
@@ -101,6 +101,24 @@ def remove_photo_from_file(path, photo_id):
     message = "-photo: {id}".format(id=photo_id)
     repo.index.commit(message)
     repo.close()
+    return photo_url
+
+def remove_photo_from_server(locator):
+    if locator.find("cwdc://") != 0:
+        return
+    config = read_settings()
+    server = config.get("submissions", "image_hosting_server")
+    image_folder = config.get("submissions", "image_hosting_server_folder")
+    user = config.get("submissions", "image_hosting_user")
+    filename = locator.replace("cwdc://", "")
+    rm_command = 'ssh {user}@{server} rm {folder}/{image}'.format(
+        user=user,
+        server=server,
+        folder=image_folder,
+        image=filename
+    )
+    print('Removing {image} from the server'.format(image=filename))
+    os.system(rm_command)
 
 def remove_duplicate_photo_uris_per_file():
     """
@@ -204,7 +222,7 @@ def remove_duplicate_photo_uris_per_file():
                     print("deduplicated: %s (%s duplicated)" % (path, duplicate_count))
                     photo_list.renumber_photos(max)
                     photo_list.update_file()
-                    sort_ig_hashes(path)
+                    sort_ig_locators(path)
                     repo.git.add(path)
     message = repo.commit("HEAD").message
     repo.index.commit("deduped: " + message)
@@ -285,23 +303,21 @@ def restore_author_to_lineage(author, prior_commit=None):
         photo_list.update_file()
     # Finally, sort the photo files
     for path in path_to_photo_index.keys():
-        sort_ig_hashes(path)
+        sort_ig_locators(path)
         repo.git.add(path)
     message = "+author: {author}".format(author=author)
     repo.index.commit(message)
     repo.close()
 
-def sort_ig_hashes(path):
+def sort_ig_locators(path):
     """
-    Take a zoo/panda file, and sort all photos by their IG hashes. 
-    This makes the photos appear in the order they were uploaded to IG,
-    oldest to newest. 
+    Take a zoo/panda file, and sort all photos by their IG locators. This makes
+    the photos appear in the order they were uploaded to IG, oldest to newest.
     If a photo does not use an IG URI, keep its index unchanged.
     """
     # IG alphabet for hashes, time ordering oldest to newest
     # print(path)
-    print("sorting: %s" % path)
-    hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
+    print("ig image sorting: %s" % path)
     section = None
     for section_name in ["wild", "zoos", "media", "pandas"]:
         if section_name in path.split("/"):
@@ -349,11 +365,11 @@ def sort_ig_hashes(path):
         photo_index = photo_index + 1
     # Sort the list of ig photo tuples by photo URL 
     # (the 0th item in each tuple is the url)
-    # (the 4th item in each URL is the ig photo hash)
+    # (the 4th item in each URL is the ig photo locator)
     ig_photos = sorted(
         ig_photos, 
         key=lambda x: 
-            [hash_order.index(char) for char in x[0].split("/")[-2]])
+            [HASH_ORDER.index(char) for char in x[0].split("/")[-2]])
     ig_photos = sorted(ig_photos, key=lambda x: len(x[0].split("/")[-2]))
     # Now, re-distribute the photos, iterating down the ig
     # photos, moving "old_photo_field" to "photo_field" but with
@@ -389,9 +405,9 @@ def sort_ig_hashes(path):
 
 def sort_ig_updates():
     """
-    Any data file that was updated in the last commit, do a sort operation for the
-    IG hashes, leaving non-IG files unchanged. Also add commit dates for any photos
-    that don't have them
+    Any data file that was updated in the last commit, do a sort operation for
+    the IG hashes, leaving non-IG files unchanged. Also add commit dates for
+    any photos that don't have them.
     """
     repo = git.Repo(".")
     prior_commit = repo.commit("HEAD~1")
@@ -416,13 +432,141 @@ def sort_ig_updates():
             # Don't care about non-data files
             continue
         elif change.added > 0:
-            sort_ig_hashes(filename)
+            sort_ig_locators(filename)
             updated_paths.append(filename)
     # Add updated files after we're done with all patch analysis
     for filename in set(updated_paths):
         repo.git.add(filename)
     message = repo.commit("HEAD").message
-    repo.index.commit("sorted commit:\n" + message)
+    repo.index.commit("ig-locator sorted commit:\n" + message)
+    repo.close()
+
+def sort_image_locators(path):
+    """
+    Take a zoo/panda file, and sort all photos by their cwdc:// locators. This
+    makes the photos appear in the order of the timestamp portion of their
+    locator value, oldest to newest. A requirement for sorting a file with
+    cwdc:// locators is that every image link in the file must use one of these
+    locators. If we find any photos that don't then we skip this file.
+    """
+    # Uses IG alphabet for hashes, time ordering oldest to newest
+    # print(path)
+    print("cwdc image sorting: %s" % path)
+    section = None
+    for section_name in ["wild", "zoos", "media", "pandas"]:
+        if section_name in path.split("/"):
+            section = section_name.split("s")[0]   # HACK
+    photo_list = PhotoFile(section, path)
+    photo_count = photo_list.photo_count()
+    max = int(get_max_entity_count()) + 1
+    if photo_count >= max:
+        max = photo_count + 1
+    cwdc_photos = []
+    # Build photo indices of IG photos and non-IG photos
+    start_index = 1
+    stop_point = max
+    photo_index = start_index
+    while photo_index <= stop_point:
+        photo_option = "photo." + str(photo_index)
+        photo = photo_list.get_field(photo_option)
+        if photo == None:
+            # Missing photo at this index, continue
+            photo_index = photo_index + 1
+            continue
+        # If our updated photo link has an ig:// uri, do the moving
+        if "cwdc://" in photo:
+            # Track the photo and index as a tuple
+            cwdc_photos.append([photo, photo_index])
+            # Rename all photo fields as "old_photo_field"
+            photo_list.move_field("old." + photo_option, photo_option)
+            photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
+            photo_list.move_field("old." + photo_option + ".commitdate", photo_option + ".commitdate")
+            photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
+            photo_list.move_field("old." + photo_option + ".tags", photo_option + ".tags")
+            if section == "media":
+                panda_tags = photo_list.get_field("panda.tags").split(", ")
+                for panda_id in panda_tags:
+                    photo_item = photo_option + ".tags." + panda_id + ".location"
+                    photo_list.move_field("old." + photo_item, photo_item)
+        else:
+            # Only update files that have cwdc:// links for every photo
+            return False
+        photo_index = photo_index + 1
+    # Sort the list of cwdc photo tuples by photo URL
+    # Must chop off the extension b/c no . in the HASH_ORDER base64 alphabet
+    cwdc_photos = sorted(
+        cwdc_photos, 
+        key=lambda x: 
+            [HASH_ORDER.index(char) for char in x[0].split("/")[-1].split(".")[0]])
+    cwdc_photos = sorted(cwdc_photos, key=lambda x: len(x[0].split("/")[-1].split(".")[0]))
+    # Now, re-distribute the photos, iterating down the cwdc
+    # photos, moving "old_photo_field" to "photo_field" but with
+    # updated indices
+    list_index = start_index
+    photo_index = start_index
+    used_indices = []
+    while photo_index <= stop_point:
+        if list_index - 1 == len(cwdc_photos):
+            # No more photos, for certain
+            break
+        [photo, old_index] = cwdc_photos[list_index - 1]
+        photo_index = list_index
+        while photo_index in used_indices:
+            photo_index = photo_index + 1   # Avoid indices we already used
+        used_indices.append(photo_index)
+        current_option = "photo." + str(photo_index)
+        old_option = "old.photo." + str(old_index)
+        photo_list.move_field(current_option, old_option)
+        photo_list.move_field(current_option + ".author", old_option + ".author")
+        photo_list.move_field(current_option + ".commitdate", old_option + ".commitdate")
+        photo_list.move_field(current_option + ".link", old_option + ".link")
+        photo_list.move_field(current_option + ".tags", old_option + ".tags")
+        if section == "media":
+            panda_tags = photo_list.get_field("panda.tags").split(", ")
+            for panda_id in panda_tags:
+                current_loc_tag =  current_option + ".tags." + panda_id + ".location"
+                old_loc_tag = old_option + ".tags." + panda_id + ".location"
+                photo_list.move_field(current_loc_tag, old_loc_tag)
+        list_index = list_index + 1
+    # We're done. Update the photo file
+    photo_list.update_file()
+    return True
+
+def sort_image_updates():
+    """
+    Any data file updated in the last three commits, which only contains urls
+    with cwdc:// in them, get sorted using the same logic as to sort the
+    IG locators. However, since cwdc:// locators use a ms-since-1970 timestamp,
+    we can't sort them alongside the existing Instagram locators, and doing an
+    interleaved sort would require porting a lot of code from Javascript, for
+    very little benefit.
+    """
+    repo = git.Repo(".")
+    prior_commit = repo.commit("HEAD~1")
+    current_commit = repo.commit("HEAD")
+    diff_raw = repo.git.diff(prior_commit, 
+                             current_commit,
+                             ignore_blank_lines=True,
+                             ignore_space_at_eol=True)
+    # Now do the sorting and rewriting
+    patch = PatchSet(diff_raw)
+    updated_paths = []
+    for change in patch:
+        filename = change.path
+        if filename.find("links") == 0:
+            # Don't care about links files
+            continue
+        if filename.find(".txt") == -1:
+            # Don't care about non-data files
+            continue
+        elif change.added > 0:
+            if sort_image_locators(filename) == True:
+                updated_paths.append(filename)
+    # Add updated files after we're done with all patch analysis
+    for filename in set(updated_paths):
+        repo.git.add(filename)
+    message = repo.commit("HEAD").message
+    repo.index.commit("image-locator sorted commit:\n" + message)
     repo.close()
 
 def update_entity_commit_dates(starting_commit, force=False):
@@ -633,19 +777,28 @@ if __name__ == '__main__':
             print("please commit to ensure updates are persisted")
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
+        if sys.argv[1] == "--sort-image-updates":
+            sort_image_updates()
     if len(sys.argv) == 3:
-        if sys.argv[1] == "--fetch-photo":
-            photo = sys.argv[2]
-            fetch_photo(photo)
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
             remove_author_from_lineage(author)
         if sys.argv[1] == "--restore-author":
             author = sys.argv[2]
             restore_author_to_lineage(author)
-        if sys.argv[1] == "--sort-instagram-hashes":
+        if sys.argv[1] == "--sort-instagram-locators":
             file_path = sys.argv[2]
-            sort_ig_hashes(file_path)
+            sort_ig_locators(file_path)
+            # Inner functions don't manage their git commits, so do it here
+            repo = git.Repo(".")
+            repo.git.add(file_path)
+            message = "sorted path: {path}".format(path=file_path)
+            repo.index.commit(message)
+            repo.close()
+        if sys.argv[1] == "--sort-image-locators":
+            file_path = sys.argv[2]
+            if sort_image_locators(file_path) == False:
+                print("found non-cwdc:// URLs in the file")
             # Inner functions don't manage their git commits, so do it here
             repo = git.Repo(".")
             repo.git.add(file_path)
@@ -662,6 +815,11 @@ if __name__ == '__main__':
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             remove_photo_from_file(file_path, photo_id)
+        if sys.argv[1] == "--remove-duplicate":
+            file_path = sys.argv[2]
+            photo_id = sys.argv[3]
+            photo_locator = remove_photo_from_file(file_path, photo_id)
+            remove_photo_from_server(photo_locator) 
         if sys.argv[1] == "--restore-author":
             author = sys.argv[2]
             commit = sys.argv[3]

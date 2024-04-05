@@ -219,7 +219,7 @@ class RedPandaGraph:
 
     def check_imported_link(self, link, field, sourcepath):
         """Is the imported author link not a URL? Manual entry error..."""
-        if ("http://" not in link and "https://" not in link):
+        if ("http://" not in link and "https://" not in link and "ig://" not in link):
             raise UrlError("ERROR: %s: %s: not a URL: %s"
                            % (sourcepath, field, link))            
 

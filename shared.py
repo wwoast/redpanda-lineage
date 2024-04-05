@@ -47,87 +47,6 @@ def datetime_to_unixtime(commitdate):
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
 
-def fetch_photo(url, output_file=None, size=None):
-    """
-    For testing/validating photo dimensions and properties, grab a photo using
-    either the direct URI, or for IG uris, using their oEmbed API.
-    This function requires an Instagram URL of the form:
-        https://www.instagram.com/p/<shortcode>/media/?size=<size>
-    """
-    ig_url = update_ig_link(url)    # convert to ig:// if necessary
-    ig_url = resize_ig_link(ig_url, size)   # request biger size if necessary
-    target_img = url
-    # Assume target_img is the original url unless IG
-    if ("ig://" in ig_url and len(ig_url.split("/")) == 5):
-        author = ig_url.split("/")[2]
-        shortcode = ig_url.split("/")[3]
-        url = "https://www.instagram.com/" + author + "/p/" + shortcode
-        maxwidth = 320
-        if (ig_url.split("/")[4] == "l"):
-            maxwidth = 640
-        token = os.getenv('OE_TOKEN', None)
-        if token == None:
-            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
-        query_params = {
-            "url": url,
-            "maxwidth": maxwidth,
-            "fields": "thumbnail_url,author_name",
-            "access_token": token
-        }
-        instagram_api = "https://graph.facebook.com/v16.0/instagram_oembed"
-        try:
-            response = requests.get(instagram_api, params=query_params)
-            json = response.json()
-            target_img = json["thumbnail_url"]
-            author_name = json["author_name"]
-        except:
-            print("(error downloading " + shortcode + ".jpg)")
-            return False
-        if (output_file == None):
-            output_file = shortcode + ".jpg"
-        print("(ig_credit: " + author_name + "): " + target_img)
-    elif "ig://" in ig_url:
-        shortcode = ig_url.split("/")[2]
-        # Remove extra info from the IG url so that oEmbed likes it
-        url = "https://www.instagram.com/p/" + shortcode
-        maxwidth = 320
-        if (ig_url.split("/")[3] == "l"):
-            maxwidth = 640
-        token = os.getenv('OE_TOKEN', None)
-        if token == None:
-            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
-        query_params = {
-            "url": url,
-            "maxwidth": maxwidth,
-            "fields": "thumbnail_url,author_name",
-            "access_token": token
-        }
-        instagram_api = "https://graph.facebook.com/v16.0/instagram_oembed"
-        try:
-            response = requests.get(instagram_api, params=query_params)
-            json = response.json()
-            target_img = json["thumbnail_url"]
-            author_name = json["author_name"]
-        except:
-            print("(error downloading " + shortcode + ".jpg)")
-            return False
-        if (output_file == None):
-            output_file = shortcode + ".jpg"
-        print("(ig_credit: " + author_name + "): " + target_img)
-    else:
-        if (output_file == None):
-            output_file = os.path.basename(urlparse(url).path)
-        print("(web): " + target_img)
-    try:
-        img = requests.get(target_img, allow_redirects=True)
-    except:
-        print("(error downloading " + output_file + ")")
-        return False
-    with open(output_file, "wb") as ofh:
-        print ("(output): " + output_file)
-        ofh.write(img.content)
-    return True
-
 # Other utility functions
 def get_max_entity_count():
     """
@@ -153,6 +72,12 @@ def random_long_sleep():
 def random_sleep():
     random_seconds = random_sleep_jitter()
     time.sleep(random_seconds)
+
+def read_settings():
+    """Servers and folder paths for processing new RPF contributions"""
+    infile = ProperlyDelimitedConfigParser()
+    infile.read("./contributions.conf", encoding='utf-8')
+    return infile
 
 def resize_ig_link(photo_uri, size):
     """
@@ -436,6 +361,16 @@ class PhotoFile():
         """
         if self.has_field(field_name):
             return self.config.get(self.section, field_name)
+        else:
+            return None
+
+    def get_photo(self, photo_id):
+        """
+        Sugar around get_field, just for photos.
+        """
+        photo_field = "photo." + photo_id
+        if self.has_field(photo_field):
+            return self.config.get(self.section, photo_field)
         else:
             return None
 

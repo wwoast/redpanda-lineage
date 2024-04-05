@@ -26,11 +26,11 @@ photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
 photo.2.tags: bamboo, portrait, snow
-photo.3: ig://BgbGDOEFH93/m
+photo.3: cwdc://WIzzngoADQA.jpg
 photo.3.author: mifko55
 photo.3.commitdate: 2018/8/20
-photo.3.link: https://www.instagram.com/mifko55/
-photo.3.tags: portrait, profile, snow
+photo.3.link: https://www.instagram.com/p/BgbGDOEFH93
+photo.3.tags: portrait, profile, sample, snow
 photo.4: ig://Bl0KFWwFAeL/m
 photo.4.author: leonard_redmof
 photo.4.commitdate: 2018/8/20
@@ -156,10 +156,10 @@ photo.28.author: sasapan34
 photo.28.commitdate: 2021/9/1
 photo.28.link: https://www.instagram.com/sasapan34/
 photo.28.tags: smile
-photo.29: ig://CTYQ-9AJUaX/m
+photo.29: cwdc://XuuJe-gADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2021/9/7
-photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.link: https://www.instagram.com/p/CTYQ-9AJUaX
 photo.29.tags: autumn, paws, portrait, tail
 photo.30: ig://CTdRbtepz6t/m
 photo.30.author: sasapan34

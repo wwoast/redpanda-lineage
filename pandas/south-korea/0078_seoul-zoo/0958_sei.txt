@@ -11,7 +11,10 @@ gender: m
 ja.name: セイ
 ja.nicknames: none
 ja.othernames: none
-language.order: ja, en
+ko.name: 세이
+ko.nicknames: none
+ko.othernames: none
+language.order: ko, ja, en
 litter: 957
 location.1: 9, 2019/7/2
 location.2: 78, 2023/11/27
@@ -30,11 +33,11 @@ photo.3.author: ifumoto88
 photo.3.commitdate: 2019/10/28
 photo.3.link: https://www.instagram.com/ifumoto88/
 photo.3.tags: baby, laying down, mofumofu, portrait
-photo.4: ig://B4MkovHBQ4o/m
+photo.4: cwdc://W4WwyiuADQA.jpg
 photo.4.author: ck.chie
 photo.4.commitdate: 2019/10/29
-photo.4.link: https://www.instagram.com/ck.chie/
-photo.4.tags: baby, portrait
+photo.4.link: https://www.instagram.com/p/B4MkovHBQ4o
+photo.4.tags: baby, close-up, portrait, whiskers
 photo.5: ig://B4M70hBBlLC/m
 photo.5.author: kaoru_a358
 photo.5.commitdate: 2019/10/29
@@ -100,10 +103,10 @@ photo.17.author: sasapan34
 photo.17.commitdate: 2019/12/30
 photo.17.link: https://www.instagram.com/sasapan34/
 photo.17.tags: bamboo
-photo.18: ig://B7JPAZiBoFw/m
+photo.18: cwdc://W-QFh3kADQA.jpg
 photo.18.author: wumpwoast
 photo.18.commitdate: 2020/1/11
-photo.18.link: https://www.instagram.com/wumpwoast/
+photo.18.link: https://www.instagram.com/p/B7JPAZiBoFw
 photo.18.tags: baby, portrait, whiskers
 photo.19: ig://B7YIZ05B_Aq/m
 photo.19.author: fetorus_mami
@@ -205,11 +208,11 @@ photo.38.author: fetorus_mami
 photo.38.commitdate: 2021/2/19
 photo.38.link: https://www.instagram.com/fetorus_mami/
 photo.38.tags: apple time, smile
-photo.39: ig://CKRSlrvhMiV/m
+photo.39: cwdc://XcgMsb_ADQA.jpg
 photo.39.author: mini_cochi
 photo.39.commitdate: 2021/2/24
-photo.39.link: https://www.instagram.com/mini_cochi/
-photo.39.tags: mofumofu, portrait, profile, whiskers
+photo.39.link: https://www.instagram.com/p/CKRSlrvhMiV
+photo.39.tags: mofumofu, portrait, profile, sample, whiskers
 photo.40: ig://CMO0xDHhHiO/m
 photo.40.author: tamazoowalking
 photo.40.commitdate: 2023/4/3

@@ -40,15 +40,15 @@ photo.5.author: izu_108
 photo.5.commitdate: 2018/8/20
 photo.5.link: https://www.instagram.com/izu_108/
 photo.5.tags: home, laying down, portrait, tongue
-photo.6: ig://BoWd8qKFl3H/m
+photo.6: cwdc://WYqjaY0ADQA.jpg
 photo.6.author: miis_98
 photo.6.commitdate: 2018/9/30
-photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: itchy, portrait, profile
-photo.7: ig://BpjTVk8FjkH/m
+photo.6.link: https://www.instagram.com/p/BoWd8qKFl3H
+photo.6.tags: itchy, portrait, profile, sample
+photo.7: cwdc://WbEOMOYADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2018/10/30
-photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.link: https://www.instagram.com/p/BpjTVk8FjkH
 photo.7.tags: portrait
 photo.8: ig://BqdnuURFV6k/m
 photo.8.author: fetorus_mami
@@ -274,6 +274,11 @@ photo.52.author: re_ichimaru
 photo.52.commitdate: 2023/8/11
 photo.52.link: https://www.instagram.com/re_ichimaru/
 photo.52.tags: flowers, portrait, sample, whiskers
+photo.53: cwdc://Y0h4OIeADQA.jpg
+photo.53.author: sasapan34
+photo.53.commitdate: 2024/3/10
+photo.53.link: https://www.instagram.com/p/C2SIWh_PeSd
+photo.53.tags: sample, tail, whiskers
 species: 2
 studbook.id: 1686
 zoo: 42

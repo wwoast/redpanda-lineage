@@ -4,6 +4,7 @@ birthday: 2020/6/25
 birthplace: 111
 children: none
 commitdate: 2020/7/31
+death: 2024/3/8
 en.name: Ruby
 en.nicknames: none
 en.othernames: none
@@ -13,6 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1199, 1201
+location.1: 111, 2020/6/25
+location.2: 108, 2021/8/23
+location.3: 85, 2023/2/1
 photo.1: ig://CG0ENapD4UW/m
 photo.1.author: johnballzoogr
 photo.1.commitdate: 2020/11/23
@@ -28,5 +32,11 @@ photo.3.author: johnballzoogr
 photo.3.commitdate: 2021/7/3
 photo.3.link: https://www.instagram.com/johnballzoogr/
 photo.3.tags: bamboo, portrait, white face
+photo.4: cwdc://Y4gCvC2ADQA.jpg
+photo.4.author: zooatl
+photo.4.commitdate: 2024/3/10
+photo.4.link: https://www.instagram.com/p/C4RNm_LLzVi
+photo.4.tags: bamboo, portrait, whiskers
 species: 1
-zoo: 111
+uncertainty: location.2 exact day, location.3 exact day
+zoo: 85

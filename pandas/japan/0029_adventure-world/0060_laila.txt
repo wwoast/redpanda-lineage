@@ -16,216 +16,346 @@ language.order: ja, en
 litter: 198
 location.1: 7, 2010/7/10
 location.2: 29, 2013/2/28
-photo.1: ig://BR5VHTTg5MN/m
+photo.1: cwdc://VrwRvrHADQA.jpg
 photo.1.author: framereim
 photo.1.commitdate: 2018/7/22
-photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: itchy
-photo.2: ig://BXvEUT0AIUk/m
+photo.1.link: ig://BR5VHTTg5MN
+photo.1.tags: itchy, sample
+photo.2: cwdc://V3bwJsIADQD.jpg
 photo.2.author: mifko55
 photo.2.commitdate: 2020/4/15
-photo.2.link: https://www.instagram.com/mifko55/
-photo.2.tags: peek, portrait
-photo.3: ig://BZDKcDMFhJW/m
+photo.2.link: ig://BXvEUT0AIUk
+photo.2.tags: mofumofu, peek, portrait, sample, whiskers
+photo.3: cwdc://V6D8ZK4ADQG.jpg
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2018/7/22
-photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.3.tags: tongue
-photo.4: ig://BZJSF-3Fft1/m
+photo.3.link: ig://BZDKcDMFhJW
+photo.3.tags: portrait, sample, tongue, whiskers
+photo.4: cwdc://V6QLtCOADQH.jpg
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2018/7/22
-photo.4.link: https://www.instagram.com/fetorus_mami/
-photo.4.tags: nose
-photo.5: ig://Bc8wHftFCpI/m
+photo.4.link: ig://BZJSF-3Fft1
+photo.4.tags: dish, lunch time, nose, portrait, sample, whiskers
+photo.5: cwdc://WB3HwD6ADQA.jpg
 photo.5.author: nakacchi_desu
 photo.5.commitdate: 2018/7/22
-photo.5.link: https://www.instagram.com/nakacchi_desu/
-photo.5.tags: whiskers
-photo.6: ig://BglUuVpFM7K/m
+photo.5.link: ig://Bc8wHftFCpI
+photo.5.tags: sample, whiskers
+photo.6: cwdc://WJIQ9vyADQB.jpg
 photo.6.author: mifko55
 photo.6.commitdate: 2020/4/15
-photo.6.link: https://www.instagram.com/mifko55/
+photo.6.link: ig://BglUuVpFM7K
 photo.6.tags: peek, portrait
-photo.7: ig://BqmuCwdntMX/m
+photo.7: cwdc://WdLDmlbADQA.jpg
 photo.7.author: yakko____
 photo.7.commitdate: 2018/12/6
-photo.7.link: https://www.instagram.com/yakko____/
-photo.7.tags: bridge, smile
-photo.8: ig://Br6I68NFLll/m
+photo.7.link: ig://BqmuCwdntMX
+photo.7.tags: bridge, paws, portrait, sample, smile, tongue
+photo.8: cwdc://Wfx5W86ADQB.jpg
 photo.8.author: kipekaila
 photo.8.commitdate: 2018/12/27
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: laying down, paws
-photo.9: ig://BuZyLOploLz/m
+photo.8.link: ig://Br6I68NFLll
+photo.8.tags: laying down, paws, playing, upside-down
+photo.9: cwdc://WkxL3hzADQC.jpg
 photo.9.author: kipekaila
 photo.9.commitdate: 2019/3/7
-photo.9.link: https://www.instagram.com/kipekaila/
-photo.9.tags: dish, home
-photo.10: ig://BztwTthlSTN/m
+photo.9.link: ig://BuZyLOploLz
+photo.9.tags: dish, home, portrait, sample, whiskers
+photo.10: cwdc://WvZIIfjADQA.jpg
 photo.10.author: yakkooo24
 photo.10.commitdate: 2019/7/10
-photo.10.link: https://www.instagram.com/yakkooo24/
-photo.10.tags: bridge, smile
-photo.11: ig://Bz2vOoMBNR4/m
+photo.10.link: ig://BztwTthlSTN
+photo.10.tags: bridge, portrait, sample, smile, tongue, whiskers
+photo.11: cwdc://WvrF-U4ADQD.jpg
 photo.11.author: nishicotolo
 photo.11.commitdate: 2019/7/14
-photo.11.link: https://www.instagram.com/nishicotolo/
-photo.11.tags: smile
-photo.12: ig://B0CMMlrBLaA/m
+photo.11.link: ig://Bz2vOoMBNR4
+photo.11.tags: sample, smile, whiskers
+photo.12: cwdc://WwB_6P2ADQA.jpg
 photo.12.author: s24.star_load
 photo.12.commitdate: 2019/8/20
-photo.12.link: https://www.instagram.com/s24.star_load/
-photo.12.tags: dish, portrait, smile
-photo.13: ig://B2aPrfqBn_p/m
+photo.12.link: ig://B0CMMlrBLaA
+photo.12.tags: dish, portrait, sample, smile
+photo.13: cwdc://W0yG4D0ADQA.jpg
 photo.13.author: chankunvv
 photo.13.commitdate: 2019/10/28
-photo.13.link: https://www.instagram.com/chankunvv/
-photo.13.tags: bamboo, muzzle, nose, portrait
-photo.14: ig://B2d_jCnBivX/m
+photo.13.link: ig://B2aPrfqBn_p
+photo.13.tags: bamboo, muzzle, nose, portrait, sample, whiskers
+photo.14: cwdc://W05mnJuADQB.jpg
 photo.14.author: chankunvv
 photo.14.commitdate: 2019/10/28
-photo.14.link: https://www.instagram.com/chankunvv/
-photo.14.tags: bridge, itchy, portrait, smile
-photo.15: ig://B2rCLlvh_JI/m
-photo.15.author: resapanlove
-photo.15.commitdate: 2019/9/27
-photo.15.link: https://www.instagram.com/resapanlove/
-photo.15.tags: bridge, itchy, smile
-photo.16: ig://B4NGKhKBZsW/m
-photo.16.author: mifko55
-photo.16.commitdate: 2019/10/29
-photo.16.link: https://www.instagram.com/mifko55/
-photo.16.tags: nose, portrait
-photo.17: ig://B4TSgqkB3IQ/m
-photo.17.author: fetorus_mami
-photo.17.commitdate: 2019/11/2
-photo.17.link: https://www.instagram.com/fetorus_mami/
-photo.17.tags: paws, standing, tail, techitechi
-photo.18: ig://B5m4_yEhk9P/m
-photo.18.author: nishicotolo
-photo.18.commitdate: 2019/12/7
-photo.18.link: https://www.instagram.com/nishicotolo/
-photo.18.tags: smile, tongue
-photo.19: ig://B51Nn1fBPb_/m
+photo.14.link: ig://B2d_jCnBivX?img_index=4
+photo.14.tags: bamboo, bridge, itchy, portrait, sample, smile, whiskers
+photo.15: cwdc://W05mnJuADQC.jpg
+photo.15.author: chankunvv
+photo.15.commitdate: 2019/10/28
+photo.15.link: ig://B2d_jCnBivX
+photo.15.tags: bridge, itchy, portrait, sample, smile, tongue, whiskers
+photo.16: cwdc://W05mnJuADQD.jpg
+photo.16.author: chankunvv
+photo.16.commitdate: 2024/3/17
+photo.16.link: ig://B2d_jCnBivX?img_index=2
+photo.16.tags: portrait, sample, smile, tongue, whiskers
+photo.17: cwdc://W05mnJuADQE.jpg
+photo.17.author: chankunvv
+photo.17.commitdate: 2024/3/17
+photo.17.link: ig://B2d_jCnBivX?img_index=3
+photo.17.tags: dish, lunch time, portrait, sample, whiskers
+photo.18: cwdc://W1Tr4P_ADQA.jpg
+photo.18.author: resapanlove
+photo.18.commitdate: 2019/9/27
+photo.18.link: ig://B2rCLlvh_JI
+photo.18.tags: bridge, itchy, sample, smile
+photo.19: cwdc://W3n5b8TADQG.jpg
 photo.19.author: chankunvv
-photo.19.commitdate: 2019/12/27
-photo.19.link: https://www.instagram.com/chankunvv/
-photo.19.tags: portrait, tail
-photo.20: ig://B6rHv9EBptz/m
-photo.20.author: kipekaila
-photo.20.commitdate: 2019/12/31
-photo.20.link: https://www.instagram.com/kipekaila/
-photo.20.tags: portrait, whiskers
-photo.21: ig://B7dOIKMBIjo/m
-photo.21.author: chankunvv
-photo.21.commitdate: 2020/1/21
-photo.21.link: https://www.instagram.com/chankunvv/
-photo.21.tags: bridge, laying down, mofumofu, peek, portrait
-photo.22: ig://B7mkgIxh9xx/m
-photo.22.author: sasapan34
-photo.22.commitdate: 2020/1/26
-photo.22.link: https://www.instagram.com/sasapan34/
-photo.22.tags: bridge, laying down, tail
-photo.23: ig://B8ce-n8hsY_/m
-photo.23.author: miis_98
-photo.23.commitdate: 2020/2/18
-photo.23.link: https://www.instagram.com/miis_98/
-photo.23.tags: dish, lunch time, nose, portrait, tongue
-photo.24: ig://B89EH7vhh_F/m
-photo.24.author: miis_98
-photo.24.commitdate: 2020/3/2
-photo.24.link: https://www.instagram.com/miis_98/
-photo.24.tags: bridge, laying down, muzzle, portrait, profile, tail, whiskers
-photo.25: ig://B9KA3X5hJUk/m
-photo.25.author: craig_craig_craig
-photo.25.commitdate: 2020/3/21
-photo.25.link: https://www.instagram.com/craig_craig_craig/
-photo.25.tags: dish, lunch time, portrait, smile
-photo.26: ig://B-DUzYHBI_B/m
-photo.26.author: craig_craig_craig
-photo.26.commitdate: 2020/3/24
-photo.26.link: https://www.instagram.com/craig_craig_craig/
-photo.26.tags: bridge, grooming, laying down, paws, portrait
-photo.27: ig://B-EwPT_Bcl7/m
+photo.19.commitdate: 2024/3/17
+photo.19.link: ig://B31I9b5hVGy
+photo.19.tags: laying down, peek, portrait, sample, whiskers
+photo.20: cwdc://W4Xz2G0ADQA.jpg
+photo.20.author: mifko55
+photo.20.commitdate: 2019/10/29
+photo.20.link: ig://B4NGKhKBZsW
+photo.20.tags: lips, nose, peek, portrait, sample, whiskers
+photo.21: cwdc://W4kMiZoADQA.jpg
+photo.21.author: fetorus_mami
+photo.21.commitdate: 2019/11/2
+photo.21.link: ig://B4TSgqkB3IQ
+photo.21.tags: paws, sample, standing, tail, techitechi
+photo.22: cwdc://W4kMiZoADQB.jpg
+photo.22.author: fetorus_mami
+photo.22.commitdate: 2024/3/17
+photo.22.link: ig://B4TSgqkB3IQ
+photo.22.tags: paws, sample, standing, wave, whiskers
+photo.23: cwdc://W4kMiZoADQC.jpg
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2024/3/17
+photo.23.link: ig://B4TSgqkB3IQ
+photo.23.tags: close-up, keeper, peek, sample, whiskers
+photo.24: cwdc://W4kMiZoADQD.jpg
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2024/3/17
+photo.24.link: ig://B4TSgqkB3IQ
+photo.24.tags: dish, lunch time, nose, paws, sample, whiskers
+photo.25: cwdc://W4kMiZoADQE.jpg
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2024/3/17
+photo.25.link: ig://B4TSgqkB3IQ
+photo.25.tags: close-up, nose, sample, smile, whiskers
+photo.26: cwdc://W4kMiZoADQF.jpg
+photo.26.author: fetorus_mami
+photo.26.commitdate: 2024/3/17
+photo.26.link: ig://B4TSgqkB3IQ
+photo.26.tags: dish, lips, lunch time, paws, sample, whiskers
+photo.27: cwdc://W7LZgopADQA.jpg
 photo.27.author: nishicotolo
-photo.27.commitdate: 2020/3/24
-photo.27.link: https://www.instagram.com/nishicotolo/
-photo.27.tags: laying down, peek, whiskers
-photo.28: ig://B-HWXdtBqGm/m
-photo.28.author: nishicotolo
-photo.28.commitdate: 2020/3/29
-photo.28.link: https://www.instagram.com/nishicotolo/
-photo.28.tags: peek
-photo.29: ig://B_q8QN7n66m/m
-photo.29.author: mifko55
-photo.29.commitdate: 2020/5/4
-photo.29.link: https://www.instagram.com/mifko55/
-photo.29.tags: nose, portrait, smile, whiskers
-photo.30: ig://CCI7v9gBT7d/m
-photo.30.author: hamiiiii831_
-photo.30.commitdate: 2020/9/13
-photo.30.link: https://www.instagram.com/hamiiiii831_/
-photo.30.tags: close-up, paws, whiskers
-photo.31: ig://CC-7mmVB3Zx/m
-photo.31.author: chankunvv
-photo.31.commitdate: 2020/9/10
-photo.31.link: https://www.instagram.com/chankunvv/
-photo.31.tags: mofumofu, portrait
-photo.32: ig://CERIIvdhg30/m
-photo.32.author: chankunvv
-photo.32.commitdate: 2021/6/14
-photo.32.link: https://www.instagram.com/chankunvv/
-photo.32.tags: paws, portrait, whiskers
-photo.33: ig://CGb2QfoB85_/m
+photo.27.commitdate: 2019/12/7
+photo.27.link: ig://B5m4_yEhk9P
+photo.27.tags: sample, smile, tongue
+photo.28: cwdc://W7oCwveADQH.jpg
+photo.28.author: chankunvv
+photo.28.commitdate: 2019/12/27
+photo.28.link: ig://B51Nn1fBPb_
+photo.28.tags: close-up, mofumofu, portrait, sample, tail, whiskers
+photo.29: cwdc://W7oCwveADQI.jpg
+photo.29.author: chankunvv
+photo.29.commitdate: 2024/3/17
+photo.29.link: ig://B51Nn1fBPb_
+photo.29.tags: mofumofu, portrait, sample, tail, whiskers
+photo.30: cwdc://W9T3A-oADQA.jpg
+photo.30.author: kipekaila
+photo.30.commitdate: 2019/12/31
+photo.30.link: ig://B6rHv9EBptz
+photo.30.tags: close-up, portrait, sample, whiskers
+photo.31: cwdc://W_KwhWDADQA.jpg
+photo.31.author: sasapan34
+photo.31.commitdate: 2020/1/26
+photo.31.link: ig://B7mkgIxh9xx
+photo.31.tags: bridge, laying down, tail
+photo.32: cwdc://W_KwhWDADQB.jpg
+photo.32.author: sasapan34
+photo.32.commitdate: 2024/3/17
+photo.32.link: ig://B7mkgIxh9xy
+photo.32.tags: close-up, laying down, sample, tail, whiskers
+photo.33: cwdc://W-4DxY4ADQF.jpg
 photo.33.author: chankunvv
-photo.33.commitdate: 2020/11/2
-photo.33.link: https://www.instagram.com/chankunvv/
-photo.33.tags: paws, portrait, smile
-photo.34: ig://CJi3jVvBLPs/m
-photo.34.author: craig_craig_craig
-photo.34.commitdate: 2021/1/3
-photo.34.link: https://www.instagram.com/craig_craig_craig/
-photo.34.tags: dish, lunch time, portrait, videolink
-photo.35: ig://CL4haoSBqoq/m
-photo.35.author: craig_craig_craig
-photo.35.commitdate: 2021/3/7
-photo.35.link: https://www.instagram.com/craig_craig_craig/
-photo.35.tags: dish, lunch time, portrait, videolink
-photo.36: ig://CNgu7MFhKo1/m
-photo.36.author: chankunvv
-photo.36.commitdate: 2021/4/17
-photo.36.link: https://www.instagram.com/chankunvv/
-photo.36.tags: dish, nose, portrait
-photo.37: ig://CP278yIhF44/m
+photo.33.commitdate: 2020/1/21
+photo.33.link: ig://B7dOIKMBIjo
+photo.33.tags: bridge, laying down, mofumofu, peek, portrait, sample, whiskers
+photo.34: cwdc://XA2leUZADQA.jpg
+photo.34.author: miis_98
+photo.34.commitdate: 2020/2/18
+photo.34.link: ig://B8ce-n8hsY_
+photo.34.tags: dish, lunch time, nose, portrait, sample, tongue, whiskers
+photo.35: cwdc://XB3vw7_ADQA.jpg
+photo.35.author: miis_98
+photo.35.commitdate: 2020/3/2
+photo.35.link: ig://B89EH7vhh_F
+photo.35.tags: bridge, laying down, muzzle, portrait, profile, sample, tail, whiskers
+photo.36: cwdc://XCRpP0TADQA.jpg
+photo.36.author: craig_craig_craig
+photo.36.commitdate: 2020/3/21
+photo.36.link: ig://B9KA3X5hJUk
+photo.36.tags: dish, lips, lunch time, portrait, sample, smile, whiskers
+photo.37: cwdc://XCRpP0TADQB.jpg
 photo.37.author: craig_craig_craig
-photo.37.commitdate: 2021/7/5
-photo.37.link: https://www.instagram.com/craig_craig_craig/
-photo.37.tags: dish, lunch, nose, portrait, videolink
-photo.38: ig://CQ8bvmeBLH5/m
+photo.37.commitdate: 2024/3/17
+photo.37.link: ig://B9KA3X5hJUk
+photo.37.tags: dish, lips, portrait, sample, techitechi, whiskers
+photo.38: cwdc://XCRpP0TADQC.jpg
 photo.38.author: craig_craig_craig
-photo.38.commitdate: 2021/7/5
-photo.38.link: https://www.instagram.com/craig_craig_craig/
-photo.38.tags: dish, nose, portrait, videolink
-photo.39: ig://CQ8xqJqB8bV/m
+photo.38.commitdate: 2024/3/17
+photo.38.link: ig://B9KA3X5hJUk
+photo.38.tags: dish, lips, portrait, sample, tongue, whiskers
+photo.39: cwdc://XEERH0uADQD.jpg
 photo.39.author: craig_craig_craig
-photo.39.commitdate: 2021/7/8
-photo.39.link: https://www.instagram.com/craig_craig_craig/
-photo.39.tags: close-up, mofumofu, nose, portrait, whiskers
-photo.40: ig://CRDA9FKBSVW/m
-photo.40.author: sasapan34
-photo.40.commitdate: 2021/7/8
-photo.40.link: https://www.instagram.com/sasapan34/
-photo.40.tags: paws, smile
-photo.41: ig://CRJixDhBW-V/m
-photo.41.author: mifko55
-photo.41.commitdate: 2021/7/19
-photo.41.link: https://www.instagram.com/mifko55/
-photo.41.tags: portrait, whiskers
-photo.42: ig://CnuCTERPC_m/m
-photo.42.author: fetorus_mami
-photo.42.commitdate: 2023/2/25
-photo.42.link: https://www.instagram.com/fetorus_mami/
-photo.42.tags: dish, mofumofu, portrait, sample, whiskers
+photo.39.commitdate: 2020/3/24
+photo.39.link: ig://B-DUzYHBI_B
+photo.39.tags: bridge, grooming, laying down, paws, portrait
+photo.40: cwdc://XEERH0uADQE.jpg
+photo.40.author: craig_craig_craig
+photo.40.commitdate: 2024/3/17
+photo.40.link: ig://B-DUzYHBI_B
+photo.40.tags: bridge, grooming, laying down, paws, portrait, sample, tail, whiskers
+photo.41: cwdc://XEERH0uADQF.jpg
+photo.41.author: craig_craig_craig
+photo.41.commitdate: 2024/3/17
+photo.41.link: ig://B-DUzYHBI_B
+photo.41.tags: blink, bridge, laying down, paws, portrait, sample, tail, whiskers, yawn
+photo.42: cwdc://XEERH0uADQG.jpg
+photo.42.author: craig_craig_craig
+photo.42.commitdate: 2024/3/17
+photo.42.link: ig://B-DUzYHBI_B
+photo.42.tags: bridge, laying down, paws, portrait, sample, tail, whiskers, yawn
+photo.43: cwdc://XEERH0uADQH.jpg
+photo.43.author: craig_craig_craig
+photo.43.commitdate: 2024/3/17
+photo.43.link: ig://B-DUzYHBI_B
+photo.43.tags: bridge, laying down, paws, portrait, sample, tail, tongue, yawn
+photo.44: cwdc://XEERH0uADQI.jpg
+photo.44.author: craig_craig_craig
+photo.44.commitdate: 2024/3/17
+photo.44.link: ig://B-DUzYHBI_B
+photo.44.tags: bridge, laying down, paws, portrait, sample, tail, whiskers
+photo.45: cwdc://XEHH_seADQB.jpg
+photo.45.author: nishicotolo
+photo.45.commitdate: 2020/3/24
+photo.45.link: ig://B-EwPT_Bcl7
+photo.45.tags: laying down, peek, sample, whiskers
+photo.46: cwdc://XEMUP_6ADQC.jpg
+photo.46.author: nishicotolo
+photo.46.commitdate: 2020/3/29
+photo.46.link: ig://B-HWXdtBqGm
+photo.46.tags: peek, sample
+photo.47: cwdc://XHTgBgXADQC.jpg
+photo.47.author: mifko55
+photo.47.commitdate: 2020/5/4
+photo.47.link: ig://B_q8QN7n66m
+photo.47.tags: lips, nose, portrait, sample, smile, whiskers
+photo.48: cwdc://XMPfA_gADQA.jpg
+photo.48.author: hamiiiii831_
+photo.48.commitdate: 2020/9/13
+photo.48.link: ig://CCI7v9gBT7d
+photo.48.tags: close-up, paws, sample, whiskers
+photo.49: cwdc://XMPfA_gADQB.jpg
+photo.49.author: hamiiiii831_
+photo.49.commitdate: 2024/3/17
+photo.49.link: ig://CCI7v9gBT7d
+photo.49.tags: bamboo, dish, lips, lunch time, sample, whiskers
+photo.50: cwdc://XMPfA_gADQC.jpg
+photo.50.author: hamiiiii831_
+photo.50.commitdate: 2024/3/17
+photo.50.link: ig://CCI7v9gBT7d
+photo.50.tags: dish, lips, lunch time, sample, whiskers
+photo.51: cwdc://XN7euRKADQJ.jpg
+photo.51.author: chankunvv
+photo.51.commitdate: 2020/9/10
+photo.51.link: ig://CC-7mmVB3Zx
+photo.51.tags: mofumofu, portrait, sample, techitechi
+photo.52: cwdc://XN7euRKADQK.jpg
+photo.52.author: chankunvv
+photo.52.commitdate: 2024/3/17
+photo.52.link: ig://CC-7mmVB3Zx
+photo.52.tags: peek, portrait, sample, techitechi, whiskers
+photo.53: cwdc://XQf3yjbADQL.jpg
+photo.53.author: chankunvv
+photo.53.commitdate: 2021/6/14
+photo.53.link: ig://CERIIvdhg30
+photo.53.tags: paws, portrait, sample, whiskers
+photo.54: cwdc://XQf3yjbADQM.jpg
+photo.54.author: chankunvv
+photo.54.commitdate: 2024/3/17
+photo.54.link: ig://CERIIvdhg30
+photo.54.tags: paws, portrait, sample, whiskers
+photo.55: cwdc://XU1UCDwADQN.jpg
+photo.55.author: chankunvv
+photo.55.commitdate: 2020/11/2
+photo.55.link: ig://CGb2QfoB85_
+photo.55.tags: paws, portrait, sample, smile
+photo.56: cwdc://XU1UCDwADQO.jpg
+photo.56.author: chankunvv
+photo.56.commitdate: 2024/3/17
+photo.56.link: ig://CGb2QfoB85_
+photo.56.tags: paws, portrait, sample, techitechi
+photo.57: cwdc://XU1UCDwADQP.jpg
+photo.57.author: chankunvv
+photo.57.commitdate: 2024/3/17
+photo.57.link: ig://CGb2QfoB85_
+photo.57.tags: dish, nose, portrait, sample, whiskers
+photo.58: cwdc://XbDWnv-ADQJ.jpg
+photo.58.author: craig_craig_craig
+photo.58.commitdate: 2021/1/3
+photo.58.link: ig://CJi3jVvBLPs
+photo.58.tags: dish, lunch time, portrait, sample, videolink
+photo.59: cwdc://XfuqWVEADQK.jpg
+photo.59.author: craig_craig_craig
+photo.59.commitdate: 2021/3/7
+photo.59.link: ig://CL4haoSBqoq
+photo.59.tags: dish, lunch time, portrait, sample, videolink
+photo.60: cwdc://Xi_FXcrADQQ.jpg
+photo.60.author: chankunvv
+photo.60.commitdate: 2021/4/17
+photo.60.link: ig://CNgu7MFhKo1
+photo.60.tags: dish, nose, portrait, sample, whiskers
+photo.61: cwdc://XnrfaoxADQL.jpg
+photo.61.author: craig_craig_craig
+photo.61.commitdate: 2021/7/5
+photo.61.link: ig://CP278yIhF44
+photo.61.tags: dish, lunch, nose, portrait, sample, videolink, whiskers
+photo.62: cwdc://Xp2fARcADQM.jpg
+photo.62.author: craig_craig_craig
+photo.62.commitdate: 2021/7/5
+photo.62.link: ig://CQ8bvmeBLH5
+photo.62.tags: dish, nose, portrait, sample, videolink, whiskers
+photo.63: cwdc://Xp3K1X0ADQN.jpg
+photo.63.author: craig_craig_craig
+photo.63.commitdate: 2021/7/8
+photo.63.link: ig://CQ8xqJqB8bV
+photo.63.tags: close-up, lips, mofumofu, nose, portrait, sample, whiskers
+photo.64: cwdc://Xp3K1X0ADQO.jpg
+photo.64.author: craig_craig_craig
+photo.64.commitdate: 2024/3/17
+photo.64.link: ig://CQ8xqJqB8bV
+photo.64.tags: climb, paws, portrait, sample, shedding, tail
+photo.65: cwdc://Xp3K1X0ADQP.jpg
+photo.65.author: craig_craig_craig
+photo.65.commitdate: 2024/3/17
+photo.65.link: ig://CQ8xqJqB8bV
+photo.65.tags: close-up, portrait, sample, whiskers
+photo.66: cwdc://XqDpbO0ADQC.jpg
+photo.66.author: sasapan34
+photo.66.commitdate: 2021/7/8
+photo.66.link: ig://CRDA9FKBSVW
+photo.66.tags: paws, sample, smile
+photo.67: cwdc://XqQtDLiADQE.jpg
+photo.67.author: mifko55
+photo.67.commitdate: 2021/7/19
+photo.67.link: ig://CRJixDhBW-V
+photo.67.tags: portrait, sample, whiskers
+photo.68: cwdc://YXZsHNCADQI.jpg
+photo.68.author: fetorus_mami
+photo.68.commitdate: 2023/2/25
+photo.68.link: ig://CnuCTERPC_m
+photo.68.tags: dish, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 10111
 zoo: 29

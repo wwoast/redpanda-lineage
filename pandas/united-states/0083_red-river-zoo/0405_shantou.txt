@@ -23,10 +23,10 @@ photo.1.author: sasjoberg
 photo.1.commitdate: 2020/2/3
 photo.1.link: https://www.instagram.com/sasjoberg/
 photo.1.tags: portrait
-photo.2: ig://BEEkA_iqn20/m
+photo.2: cwdc://VQGvjDlADQA.jpg
 photo.2.author: kardtrik
 photo.2.commitdate: 2020/2/3
-photo.2.link: https://www.instagram.com/kardtrik/
+photo.2.link: https://www.instagram.com/p/BEEkA_iqn20
 photo.2.tags: portrait, profile
 species: 2
 studbook.id: 0547

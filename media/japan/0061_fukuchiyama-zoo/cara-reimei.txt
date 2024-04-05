@@ -2,38 +2,94 @@
 _id: media.61.cara-reimei
 commitdate: 2020/10/25
 panda.tags: 284, 959
-photo.1: ig://CFhOR_KBYm7/l
-photo.1.author: bubbles_octi
-photo.1.commitdate: 2020/10/25
-photo.1.link: https://www.instagram.com/bubbles_octi/
-photo.1.tags: father's day, playing, top-to-bottom
-photo.1.tags.284.location: 340, 160
-photo.1.tags.959.location: 295, 335
-photo.2: ig://CIDSSasBi3K/l
-photo.2.author: jas_forever_love
-photo.2.commitdate: 2020/12/8
-photo.2.link: https://www.instagram.com/jas_forever_love/
-photo.2.tags: father's day, playing, smile, tail
-photo.2.tags.284.location: 115, 195
-photo.2.tags.959.location: 170, 235
-photo.3: ig://CLq_DqFBT1N/l
-photo.3.author: daniele.tokyo
-photo.3.commitdate: 2021/10/10
-photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: father's day, playing, surprise, tail
-photo.3.tags.284.location: 270, 260
-photo.3.tags.959.location: 300, 120
-photo.4: ig://CQAo1G0BocL/l
-photo.4.author: kisshan324
-photo.4.commitdate: 2021/6/19
-photo.4.link: https://www.instagram.com/kisshan324/
-photo.4.tags: bite, father's day, laying down, playing
-photo.4.tags.284.location: 115, 300
-photo.4.tags.959.location: 175, 195
-photo.5: ig://CorgMb_vXit/l
-photo.5.author: daniele.tokyo
-photo.5.commitdate: 2023/8/27
-photo.5.link: https://www.instagram.com/daniele.tokyo/
-photo.5.tags: father's day, kiss, portrait
-photo.5.tags.284.location: 300, 160
-photo.5.tags.959.location: 155, 165
+photo.1: cwdc://XSz9farADQB.jpg
+photo.1.author: sakikukeco
+photo.1.commitdate: 2024/3/26
+photo.1.link: ig://CFbK_LFhqti
+photo.1.tags: father's day, laying down, paws, playing, upside-down
+photo.1.tags.284.location: 665, 530
+photo.1.tags.959.location: 530, 385
+photo.2: cwdc://XTAEFC0ADQA.jpg
+photo.2.author: bubbles_octi
+photo.2.commitdate: 2020/10/25
+photo.2.link: ig://CFhOR_KBYm7
+photo.2.tags: father's day, playing, top-to-bottom
+photo.2.tags.284.location: 340, 160
+photo.2.tags.959.location: 295, 335
+photo.3: cwdc://XTAEFC0ADQB.jpg
+photo.3.author: bubbles_octi
+photo.3.commitdate: 2024/3/26
+photo.3.link: ig://CFhOR_KBYm7?img_index=2
+photo.3.tags: father's day, playing, upside-down
+photo.3.tags.284.location: 535, 240
+photo.3.tags.959.location: 565, 670
+photo.4: cwdc://XYEMF54ADQA.jpg
+photo.4.author: jas_forever_love
+photo.4.commitdate: 2020/12/8
+photo.4.link: ig://CIDSSasBi3K
+photo.4.tags: father's day, playing, smile, tail, upside-down
+photo.4.tags.284.location: 115, 195
+photo.4.tags.959.location: 170, 235
+photo.5: cwdc://XYEMF54ADQB.jpg
+photo.5.author: jas_forever_love
+photo.5.commitdate: 2024/3/26
+photo.5.link: ig://CIDSSasBi3K?img_index=2
+photo.5.tags: ear, mofumofu, paws, playing, portrait, sample, smile
+photo.5.tags.284.location: 220, 350
+photo.5.tags.959.location: 430, 435
+photo.6: cwdc://XYEMF54ADQC.jpg
+photo.6.author: jas_forever_love
+photo.6.commitdate: 2024/3/26
+photo.6.link: ig://CIDSSasBi3K?img_index=3
+photo.6.tags: father's day, mofumofu, paws, portrait, tail
+photo.6.tags.284.location: 505, 175
+photo.6.tags.959.location: 325, 175
+photo.7: cwdc://XYEMF54ADQD.jpg
+photo.7.author: jas_forever_love
+photo.7.commitdate: 2024/3/26
+photo.7.link: ig://CIDSSasBi3K?img_index=4
+photo.7.tags: father's day, mofumofu, paws, playing, portrait, tail
+photo.7.tags.284.location: 480, 320
+photo.7.tags.959.location: 320, 275
+photo.8: cwdc://XYEMF54ADQE.jpg
+photo.8.author: jas_forever_love
+photo.8.commitdate: 2024/3/26
+photo.8.link: ig://CIDSSasBi3K?img_index=5
+photo.8.tags: father's day, kiss, portrait, sample
+photo.8.tags.284.location: 525, 330
+photo.8.tags.959.location: 325, 320
+photo.9: cwdc://XfTloYqADQA.jpg
+photo.9.author: daniele.tokyo
+photo.9.commitdate: 2021/10/10
+photo.9.link: ig://CLq_DqFBT1N
+photo.9.tags: father's day, playing, surprise, tail
+photo.9.tags.284.location: 270, 260
+photo.9.tags.959.location: 300, 120
+photo.10: cwdc://Xi74fCAADQC.jpg
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2024/3/26
+photo.10.link: ig://CNfIe-wBX07
+photo.10.tags: mofumofu, paws, playing
+photo.10.tags.284.location: 340, 295
+photo.10.tags.959.location: 600, 325
+photo.11: cwdc://XksxSwnADQA.jpg
+photo.11.author: jas_forever_love
+photo.11.commitdate: 2024/3/28
+photo.11.link: ig://COXk42DhNdr
+photo.11.tags: father's day, kiss, peek
+photo.11.tags.284.location: 445, 245
+photo.11.tags.959.location: 260, 210
+photo.12: cwdc://Xn-5LSIADQA.jpg
+photo.12.author: kisshan324
+photo.12.commitdate: 2021/6/19
+photo.12.link: ig://CQAo1G0BocL
+photo.12.tags: bite, father's day, laying down, playing
+photo.12.tags.284.location: 115, 300
+photo.12.tags.959.location: 175, 195
+photo.13: cwdc://YZUn58fADQB.jpg
+photo.13.author: daniele.tokyo
+photo.13.commitdate: 2023/8/27
+photo.13.link: ig://CorgMb_vXit
+photo.13.tags: father's day, kiss, portrait
+photo.13.tags.284.location: 300, 160
+photo.13.tags.959.location: 155, 165

@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1375
+location.1: 12, 2022/7/1
+location.2: 10, 2024/2/20
 photo.1: ig://CmbgcgPvoVk/m
 photo.1.author: pantasanzoo1
 photo.1.commitdate: 2023/1/6
@@ -33,10 +35,10 @@ photo.4.author: minatomirai215
 photo.4.commitdate: 2023/2/25
 photo.4.link: https://www.instagram.com/minatomirai215/
 photo.4.tags: baby, mofumofu, portrait, sample
-photo.5: ig://CoPWFp0PYRo/m
+photo.5: cwdc://YYcTsYIADQA.jpg
 photo.5.author: kotata_513
 photo.5.commitdate: 2023/2/24
-photo.5.link: https://www.instagram.com/kotata_513/
+photo.5.link: https://www.instagram.com/p/CoPWFp0PYRo
 photo.5.tags: baby, mofumofu, portrait, profile, sample
 photo.6: ig://CrBfEtop4sE/m
 photo.6.author: minatomirai215
@@ -78,5 +80,10 @@ photo.13.author: minatomirai215
 photo.13.commitdate: 2023/11/5
 photo.13.link: https://www.instagram.com/minatomirai215/
 photo.13.tags: ear, paws, portrait, sample, smile, tree, whiskers
+photo.14: cwdc://Y31EFk9ADQA.jpg
+photo.14.author: minatomirai215
+photo.14.commitdate: 2024/3/10
+photo.14.link: https://www.instagram.com/p/C37uSQOv9QR
+photo.14.tags: portrait, sample, whiskers
 species: 2
-zoo: 12
+zoo: 10

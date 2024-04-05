@@ -15,11 +15,11 @@ language.order: en, ja
 litter: 444
 location.1: 94, 2015/6/22
 location.2: 65, 2016/10/27
-photo.1: ig://Boy_nShlwFW/m
+photo.1: cwdc://WZjmvpjADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/23
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: profile, tree
+photo.1.link: https://www.instagram.com/p/Boy_nShlwFW
+photo.1.tags: laying down, portrait, profile, sample, tree
 photo.2: ig://BvsTJlYF3rH/m
 photo.2.author: yanliang_24
 photo.2.commitdate: 2022/1/29
@@ -50,16 +50,16 @@ photo.7.author: worldthathesees
 photo.7.commitdate: 2019/12/31
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: bridge, peek, whiskers
-photo.8: ig://B-GAPwfD82L/m
+photo.8: cwdc://XEJoAleADQA.jpg
 photo.8.author: cincinnatizoo
 photo.8.commitdate: 2020/7/14
-photo.8.link: https://www.instagram.com/cincinnatizoo/
+photo.8.link: https://www.instagram.com/p/B-GAPwfD82L
 photo.8.tags: standing, whiskers
-photo.9: ig://CFs4P6-H_de/m
+photo.9: cwdc://XTXYA6cADQB.jpg
 photo.9.author: cincinnatizoo
 photo.9.commitdate: 2020/11/8
-photo.9.link: https://www.instagram.com/cincinnatizoo/
-photo.9.tags: laying down, paws, portrait, sleeping, tree
+photo.9.link: https://www.instagram.com/p/CFs4P6-H_de
+photo.9.tags: laying down, paws, portrait, sample, sleeping, tree
 photo.10: ig://CryUSA9r0OK/m
 photo.10.author: carsontheredpanda
 photo.10.commitdate: 2023/5/3

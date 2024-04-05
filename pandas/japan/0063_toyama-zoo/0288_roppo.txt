@@ -45,11 +45,11 @@ photo.6.author: aami__kaa
 photo.6.commitdate: 2018/9/8
 photo.6.link: https://www.instagram.com/aami__kaa/
 photo.6.tags: dish, home, smile, tongue
-photo.7: ig://BmDeuyzlk2n/m
+photo.7: cwdc://WUEk-qHADQA.jpg
 photo.7.author: craig_craig_craig
 photo.7.commitdate: 2018/9/8
-photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: home, profile
+photo.7.link: https://www.instagram.com/p/BmDeuyzlk2n
+photo.7.tags: home, portrait, profile, sample, whiskers
 photo.8: ig://BmDmM6clqvM/m
 photo.8.author: makimaru18
 photo.8.commitdate: 2018/9/8
@@ -225,6 +225,11 @@ photo.42.author: joy93.87
 photo.42.commitdate: 2023/11/18
 photo.42.link: https://www.instagram.com/joy93.87/
 photo.42.tags: sample, smile
+photo.43: cwdc://XVJP_ldADQB.jpg
+photo.43.author: leonard_redmof
+photo.43.commitdate: 2024/3/14
+photo.43.link: https://www.instagram.com/p/CGl0PQeh4lq
+photo.43.tags: baby, mofumofu, paws, portrait
 species: 2
 studbook.id: 15133
 zoo: 63

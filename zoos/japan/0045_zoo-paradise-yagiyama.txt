@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 38.245601
 longitude: 140.8446113
 map: https://goo.gl/maps/S4dSPcsEcH62
-photo.1: ig://BUN1bxyDizx/m
-photo.1.author: zakujapan
-photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/zakujapan/
+photo.1: cwdc://V7ZyAq2ADQA.jpg
+photo.1.author: s.okano521
+photo.1.commitdate: 2024/2/9
+photo.1.link: https://www.instagram.com/p/BZuFPzLDTiL
+photo.1.tags: profile
 website: http://www.city.sendai.jp/zoo/index.html

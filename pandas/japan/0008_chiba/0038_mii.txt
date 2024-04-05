@@ -58,11 +58,11 @@ photo.9.author: shota256k
 photo.9.commitdate: 2018/7/28
 photo.9.link: https://www.instagram.com/shota256k/
 photo.9.tags: apple time, standing
-photo.10: ig://BluBocKl1Ej/m
+photo.10: cwdc://WTZqx81ADQD.jpg
 photo.10.author: ck.chie
 photo.10.commitdate: 2018/7/28
-photo.10.link: https://www.instagram.com/ck.chie/
-photo.10.tags: portrait, tongue
+photo.10.link: https://www.instagram.com/p/BluBocKl1Ej
+photo.10.tags: portrait, sample, tongue
 photo.11: ig://Bn3f6Xaln9F/m
 photo.11.author: redpanda_nippon_takashi
 photo.11.commitdate: 2018/9/22
@@ -133,11 +133,11 @@ photo.24.author: ifumoto88
 photo.24.commitdate: 2018/12/23
 photo.24.link: https://www.instagram.com/ifumoto88/
 photo.24.tags: tail
-photo.25: ig://Br8xWP4FIkY/m
+photo.25: cwdc://Wf3KNkQADQF.jpg
 photo.25.author: ck.chie
 photo.25.commitdate: 2018/12/30
-photo.25.link: https://www.instagram.com/ck.chie/
-photo.25.tags: apple time, keeper
+photo.25.link: https://www.instagram.com/p/Br8xWP4FIkY
+photo.25.tags: apple time, keeper, portrait, sample, whiskers
 photo.26: ig://BsLCRFzFV9U/m
 photo.26.author: ifumoto88
 photo.26.commitdate: 2019/1/3
@@ -168,11 +168,11 @@ photo.31.author: na.mo.pan
 photo.31.commitdate: 2019/4/1
 photo.31.link: https://www.instagram.com/na.mo.pan/
 photo.31.tags: smile
-photo.32: ig://BvxwulZlaDK/m
+photo.32: cwdc://WnhI-PTADQH.jpg
 photo.32.author: ck.chie
 photo.32.commitdate: 2019/4/5
-photo.32.link: https://www.instagram.com/ck.chie/
-photo.32.tags: apple time, lips, portrait, smile
+photo.32.link: https://www.instagram.com/p/BvxwulZlaDK
+photo.32.tags: apple time, lips, portrait, sample, smile
 photo.33: ig://Bv72tPmlh6s/m
 photo.33.author: na.mo.pan
 photo.33.commitdate: 2019/4/7
@@ -183,11 +183,11 @@ photo.34.author: mari_neko3
 photo.34.commitdate: 2019/4/7
 photo.34.link: https://www.instagram.com/mari_neko3/
 photo.34.tags: apple time, lips, paws, portrait
-photo.35: ig://Bv-osCMlxIk/m
+photo.35: cwdc://Wn645I5ADQG.jpg
 photo.35.author: ck.chie
 photo.35.commitdate: 2019/4/8
-photo.35.link: https://www.instagram.com/ck.chie/
-photo.35.tags: bamboo, smile, tongue
+photo.35.link: https://www.instagram.com/p/Bv-osCMlxIk
+photo.35.tags: bamboo, portriat, sample, smile, tongue
 photo.36: ig://BwOVshplmtW/m
 photo.36.author: panda.daisuki
 photo.36.commitdate: 2019/4/17
@@ -198,11 +198,11 @@ photo.37.author: ifumoto88
 photo.37.commitdate: 2019/5/9
 photo.37.link: https://www.instagram.com/ifumoto88/
 photo.37.tags: bamboo, paws, standing
-photo.38: ig://BxUmliClPfT/m
+photo.38: cwdc://Wqm0sIlADQI.jpg
 photo.38.author: ck.chie
 photo.38.commitdate: 2019/5/15
-photo.38.link: https://www.instagram.com/ck.chie/
-photo.38.tags: portrait, smile
+photo.38.link: https://www.instagram.com/p/BxUmliClPfT
+photo.38.tags: portrait, sample, smile
 photo.39: ig://BxZ4seUlMBW/m
 photo.39.author: ifumoto88
 photo.39.commitdate: 2019/5/16
@@ -218,16 +218,16 @@ photo.41.author: panda.daisuki
 photo.41.commitdate: 2019/5/21
 photo.41.link: https://www.instagram.com/panda.daisuki/
 photo.41.tags: apple time, blink, paws, portrait, praying, smile
-photo.42: ig://ByPhAJNhBBl/m
+photo.42: cwdc://WscphW7ADQJ.jpg
 photo.42.author: ck.chie
 photo.42.commitdate: 2019/6/3
-photo.42.link: https://www.instagram.com/ck.chie/
-photo.42.tags: bamboo, portrait
-photo.43: ig://ByUj9HpBJ6-/m
+photo.42.link: https://www.instagram.com/p/ByPhAJNhBBl
+photo.42.tags: bamboo, portrait, sample, techitechi
+photo.43: cwdc://WsmvbTyADQK.jpg
 photo.43.author: ck.chie
 photo.43.commitdate: 2019/6/5
-photo.43.link: https://www.instagram.com/ck.chie/
-photo.43.tags: bridge, bamboo, nose
+photo.43.link: https://www.instagram.com/p/ByUj9HpBJ6-
+photo.43.tags: bamboo, bridge, nose, paws, portrait, shoots
 photo.44: ig://ByiIffABeQX/m
 photo.44.author: panda.daisuki
 photo.44.commitdate: 2019/6/10
@@ -278,10 +278,10 @@ photo.53.author: ifumoto88
 photo.53.commitdate: 2019/9/14
 photo.53.link: https://www.instagram.com/ifumoto88/
 photo.53.tags: bamboo, paws, portrait, standing, tongue
-photo.54: ig://B3F_4P9hNdm/m
+photo.54: cwdc://W2JnRkbADQA.jpg
 photo.54.author: ck.chie
 photo.54.commitdate: 2019/10/12
-photo.54.link: https://www.instagram.com/ck.chie/
+photo.54.link: https://www.instagram.com/p/B3F_4P9hNdm
 photo.54.tags: bamboo
 photo.55: ig://B3HWWA9h14o/m
 photo.55.author: ssc6105
@@ -293,11 +293,11 @@ photo.56.author: ifumoto88
 photo.56.commitdate: 2019/10/12
 photo.56.link: https://www.instagram.com/ifumoto88/
 photo.56.tags: bamboo, portrait, smile
-photo.57: ig://B3UPt9WhRAi/m
+photo.57: cwdc://W2mG8_NADQB.jpg
 photo.57.author: ck.chie
 photo.57.commitdate: 2019/10/15
-photo.57.link: https://www.instagram.com/ck.chie/
-photo.57.tags: itchy
+photo.57.link: https://www.instagram.com/p/B3UPt9WhRAi
+photo.57.tags: itchy, wink
 photo.58: ig://B3sg9GRBJ1h/m
 photo.58.author: ssc6105
 photo.58.commitdate: 2019/10/18
@@ -323,10 +323,10 @@ photo.62.author: ssc6105
 photo.62.commitdate: 2019/12/11
 photo.62.link: https://www.instagram.com/ssc6105/
 photo.62.tags: portrait, tail
-photo.63: ig://B5xC1DOBK65/m
+photo.63: cwdc://W7ftLK8ADQC.jpg
 photo.63.author: ck.chie
 photo.63.commitdate: 2019/12/11
-photo.63.link: https://www.instagram.com/ck.chie/
+photo.63.link: https://www.instagram.com/p/B5xC1DOBK65
 photo.63.tags: lips, smile
 photo.64: ig://B50HcGOhf5z/m
 photo.64.author: ifumoto88
@@ -453,11 +453,11 @@ photo.88.author: ifumoto88
 photo.88.commitdate: 2020/4/26
 photo.88.link: https://www.instagram.com/ifumoto88/
 photo.88.tags: close-up, whiskers
-photo.89: ig://B_QojKFBY-R/m
+photo.89: cwdc://XGe4nYqADQE.jpg
 photo.89.author: ck.chie
 photo.89.commitdate: 2020/4/26
-photo.89.link: https://www.instagram.com/ck.chie/
-photo.89.tags: bamboo, bite, portrait, tongue
+photo.89.link: https://www.instagram.com/p/B_QojKFBY-R
+photo.89.tags: bamboo, bite, portrait, sample, tongue
 photo.90: ig://B_h0wIin4iA/m
 photo.90.author: panda.daisuki
 photo.90.commitdate: 2020/9/5
@@ -468,11 +468,11 @@ photo.91.author: hamamatsu.chiita
 photo.91.commitdate: 2020/9/5
 photo.91.link: https://www.instagram.com/hamamatsu.chiita/
 photo.91.tags: home, paws, whiskers
-photo.92: ig://B_zd8BTH4zW/m
+photo.92: cwdc://XHkjZHGADQA.jpg
 photo.92.author: takahisakaneuchi
 photo.92.commitdate: 2020/9/5
-photo.92.link: https://www.instagram.com/takahisakaneuchi/
-photo.92.tags: bamboo, paws, portrait, profile, tongue
+photo.92.link: https://www.instagram.com/p/B_zd8BTH4zW
+photo.92.tags: bamboo, paws, portrait, profile, sample, tongue
 photo.93: ig://B_2JCF6HmNb/m
 photo.93.author: panda.daisuki
 photo.93.commitdate: 2020/6/6
@@ -538,21 +538,21 @@ photo.105.author: panda.daisuki
 photo.105.commitdate: 2021/4/27
 photo.105.link: https://www.instagram.com/panda.daisuki/
 photo.105.tags: apple time, bamboo, keeper, nose, whiskers
-photo.106: ig://CJKIjB6hD3e/m
+photo.106: cwdc://XaR4nIVADQM.jpg
 photo.106.author: ck.chie
 photo.106.commitdate: 2021/4/27
-photo.106.link: https://www.instagram.com/ck.chie/
+photo.106.link: https://www.instagram.com/p/CJKIjB6hD3e
 photo.106.tags: bamboo, paws
 photo.107: ig://CMFG5cuhs7g/m
 photo.107.author: alto0908
 photo.107.commitdate: 2021/4/10
 photo.107.link: https://www.instagram.com/alto0908/
 photo.107.tags: peek, portrait, tail
-photo.108: ig://CMLOppHBnrx/m
+photo.108: cwdc://XgUE0WuADQN.jpg
 photo.108.author: ck.chie
 photo.108.commitdate: 2021/3/28
-photo.108.link: https://www.instagram.com/ck.chie/
-photo.108.tags: bridge, portrait, tongue
+photo.108.link: https://www.instagram.com/p/CMLOppHBnrx
+photo.108.tags: apple time, bridge, portrait, sample, tongue
 photo.109: ig://CMQbiZDBnQY/m
 photo.109.author: alto0908
 photo.109.commitdate: 2022/11/20
@@ -673,21 +673,21 @@ photo.132.author: alto0908
 photo.132.commitdate: 2022/2/21
 photo.132.link: https://www.instagram.com/alto0908/
 photo.132.tags: bamboo, portrait, sample, standing, tail
-photo.133: ig://CZ71jYzh8h7/m
+photo.133: cwdc://X71Sn2HADQO.jpg
 photo.133.author: ck.chie
 photo.133.commitdate: 2022/3/6
-photo.133.link: https://www.instagram.com/ck.chie/
-photo.133.tags: apple time, lips, paws, sample, smile, tail, whiskers
+photo.133.link: https://www.instagram.com/p/CZ71jYzh8h7
+photo.133.tags: apple time, bridge, lips, paws, sample, smile, tail, whiskers
 photo.134: ig://CaFmAw0hSnx/m
 photo.134.author: eos1089
 photo.134.commitdate: 2022/4/7
 photo.134.link: https://www.instagram.com/eos1089/
 photo.134.tags: bamboo, mofumofu, portrait, sample, snow, techitechi
-photo.135: ig://CaHdtfVP9Dt/m
+photo.135: cwdc://X8Mi8DKADQL.jpg
 photo.135.author: ck.chie
 photo.135.commitdate: 2022/4/7
-photo.135.link: https://www.instagram.com/ck.chie/
-photo.135.tags: mofumofu, peek, tree
+photo.135.link: https://www.instagram.com/p/CaHdtfVP9Dt
+photo.135.tags: mofumofu, peek, sample, tree
 photo.136: ig://CaQXWxEPO1g/m
 photo.136.author: otenba_redpanda
 photo.136.commitdate: 2022/3/11

@@ -18,10 +18,10 @@ photo.1.author: rdpnzoo
 photo.1.commitdate: 2018/7/29
 photo.1.link: https://www.instagram.com/rdpnzoo/
 photo.1.tags: tongue
-photo.2: ig://BVllxQTAfgC/m
+photo.2: cwdc://VzIzDlGADQA.jpg
 photo.2.author: panda.daisuki
 photo.2.commitdate: 2018/7/19
-photo.2.link: https://www.instagram.com/panda.daisuki/
+photo.2.link: https://www.instagram.com/p/BVllxQTAfgC
 photo.2.tags: close-up, portrait, profile
 photo.3: http://livedoor.blogimg.jp/maiaitsuki/imgs/8/2/82dba10b.jpg
 photo.3.author: maiatsuki
@@ -47,6 +47,11 @@ photo.7.author: chausuyamazoo
 photo.7.commitdate: 2023/6/25
 photo.7.link: https://www.instagram.com/chausuyamazoo/
 photo.7.tags: itchy, laying down, paws, tail
+photo.8: cwdc://W-t12AqADQA.jpg
+photo.8.author: hamiiiii831_
+photo.8.commitdate: 2024/3/14
+photo.8.link: https://www.instagram.com/p/B7YHKeFBRp3
+photo.8.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 13151
 zoo: 10

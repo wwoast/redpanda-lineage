@@ -45,15 +45,15 @@ photo.6.author: yoshiyokohama
 photo.6.commitdate: 2019/1/30
 photo.6.link: https://www.instagram.com/yoshiyokohama/
 photo.6.tags: grumpy, paws, snow
-photo.7: ig://BtCdArmlYBa/m
+photo.7: cwdc://WiChibtADQB.jpg
 photo.7.author: ho0oipo
 photo.7.commitdate: 2019/1/27
-photo.7.link: https://www.instagram.com/ho0oipo/
-photo.7.tags: bridge, snow
-photo.8: ig://BtLimRjFx8w/m
+photo.7.link: https://www.instagram.com/p/BtCdArmlYBa
+photo.7.tags: bridge, peek, snow, tail
+photo.8: cwdc://WiUstnmADQC.jpg
 photo.8.author: ho0oipo
 photo.8.commitdate: 2019/1/30
-photo.8.link: https://www.instagram.com/ho0oipo/
+photo.8.link: https://www.instagram.com/p/BtLimRjFx8w
 photo.8.tags: home, snow
 photo.9: ig://BtN_oQmlK21/m
 photo.9.author: framereim
@@ -119,11 +119,11 @@ photo.21: ig://B5rWVZ4hTcn/m
 photo.21.author: sasapan34
 photo.21.commitdate: 2019/12/9
 photo.21.link: https://www.instagram.com/sasapan34/
-photo.22: ig://B7Ye4jShige/m
+photo.22: cwdc://W-ulSLFADQA.jpg
 photo.22.author: framereim
 photo.22.commitdate: 2020/1/18
-photo.22.link: https://www.instagram.com/framereim/
-photo.22.tags: portrait, profile, snow, techitechi
+photo.22.link: https://www.instagram.com/p/B7Ye4jShige
+photo.22.tags: portrait, profile, sample, snow, techitechi
 photo.23: ig://B7s949JB_p2/m
 photo.23.author: komabazoophoto
 photo.23.commitdate: 2022/9/24
@@ -134,11 +134,11 @@ photo.24.author: minatomirai215
 photo.24.commitdate: 2020/3/25
 photo.24.link: https://www.instagram.com/minatomirai215/
 photo.24.tags: paws, standing, techitechi
-photo.25: ig://B9ocoKrBpWy/m
+photo.25: cwdc://XDOgxZ2ADQA.jpg
 photo.25.author: ho0oipo
 photo.25.commitdate: 2020/3/15
-photo.25.link: https://www.instagram.com/ho0oipo/
-photo.25.tags: bamboo, paws, standing
+photo.25.link: https://www.instagram.com/p/B9ocoKrBpWy
+photo.25.tags: bamboo, paws, peek, standing
 photo.26: ig://B91f4urB3Kw/m
 photo.26.author: sasapan34
 photo.26.commitdate: 2020/3/18
@@ -214,111 +214,106 @@ photo.40.author: sasapan34
 photo.40.commitdate: 2022/1/13
 photo.40.link: https://www.instagram.com/sasapan34/
 photo.40.tags: apple time, bamboo, tail, toys, upside-down
-photo.41: ig://CVpuS-esi2l/m
-photo.41.author: ho0oipo
-photo.41.commitdate: 2021/11/15
-photo.41.link: https://www.instagram.com/ho0oipo/
-photo.41.tags: apple time, portrait, tail, upside-down
-photo.42: ig://CWtnDYqhkij/m
-photo.42.author: sasapan34
-photo.42.commitdate: 2022/1/13
-photo.42.link: https://www.instagram.com/sasapan34/
-photo.42.tags: apple time, close-up, toys
-photo.43: ig://CZidIeGB7OH/m
-photo.43.author: asahiyamazoo1
+photo.41: ig://CWtnDYqhkij/m
+photo.41.author: sasapan34
+photo.41.commitdate: 2022/1/13
+photo.41.link: https://www.instagram.com/sasapan34/
+photo.41.tags: apple time, close-up, toys
+photo.42: ig://CZidIeGB7OH/m
+photo.42.author: asahiyamazoo1
+photo.42.commitdate: 2022/2/20
+photo.42.link: https://www.instagram.com/asahiyamazoo1/
+photo.42.tags: bamboo, portrait, travel
+photo.43: ig://CZjR9z1hD4v/m
+photo.43.author: tokyo_hamura_city
 photo.43.commitdate: 2022/2/20
-photo.43.link: https://www.instagram.com/asahiyamazoo1/
-photo.43.tags: bamboo, portrait, travel
-photo.44: ig://CZjR9z1hD4v/m
-photo.44.author: tokyo_hamura_city
-photo.44.commitdate: 2022/2/20
-photo.44.link: https://www.instagram.com/tokyo_hamura_city/
-photo.44.tags: bamboo, mofumofu, portrait, sample, smile
-photo.45: ig://Cb43n5ihbr-/m
-photo.45.author: sasapan34
-photo.45.commitdate: 2022/9/28
-photo.45.link: https://www.instagram.com/sasapan34/
-photo.45.tags: cherry blossoms, nose, whiskers
-photo.46: ig://Cb7tksgLc1Q/m
-photo.46.author: mini_cochi
-photo.46.commitdate: 2022/4/4
-photo.46.link: https://www.instagram.com/mini_cochi/
-photo.46.tags: close-up, portrait, sample, whiskers
-photo.47: ig://Cd8kx-_vai1/m
+photo.43.link: https://www.instagram.com/tokyo_hamura_city/
+photo.43.tags: bamboo, mofumofu, portrait, sample, smile
+photo.44: ig://Cb43n5ihbr-/m
+photo.44.author: sasapan34
+photo.44.commitdate: 2022/9/28
+photo.44.link: https://www.instagram.com/sasapan34/
+photo.44.tags: cherry blossoms, nose, whiskers
+photo.45: ig://Cb7tksgLc1Q/m
+photo.45.author: mini_cochi
+photo.45.commitdate: 2022/4/4
+photo.45.link: https://www.instagram.com/mini_cochi/
+photo.45.tags: close-up, portrait, sample, whiskers
+photo.46: ig://Cd8kx-_vai1/m
+photo.46.author: sasapan34
+photo.46.commitdate: 2022/8/31
+photo.46.link: https://www.instagram.com/sasapan34/
+photo.46.tags: sample, smile, tail, tree
+photo.47: ig://CfPpUx4BEMA/m
 photo.47.author: sasapan34
-photo.47.commitdate: 2022/8/31
+photo.47.commitdate: 2022/7/9
 photo.47.link: https://www.instagram.com/sasapan34/
-photo.47.tags: sample, smile, tail, tree
-photo.48: ig://CfPpUx4BEMA/m
-photo.48.author: sasapan34
-photo.48.commitdate: 2022/7/9
-photo.48.link: https://www.instagram.com/sasapan34/
-photo.48.tags: whiskers
-photo.49: ig://Cf3jb0APwGC/m
-photo.49.author: _sah_ax7
-photo.49.commitdate: 2023/2/21
-photo.49.link: https://www.instagram.com/_sah_ax7/
-photo.49.tags: apple time, keeper
-photo.50: ig://CiFGroLBQUL/m
+photo.47.tags: whiskers
+photo.48: ig://Cf3jb0APwGC/m
+photo.48.author: _sah_ax7
+photo.48.commitdate: 2023/2/21
+photo.48.link: https://www.instagram.com/_sah_ax7/
+photo.48.tags: apple time, keeper
+photo.49: ig://CiFGroLBQUL/m
+photo.49.author: fetorus_mami
+photo.49.commitdate: 2022/9/7
+photo.49.link: https://www.instagram.com/fetorus_mami/
+photo.49.tags: bamboo, close-up, whiskers
+photo.50: ig://CiFnTmthIlz/m
 photo.50.author: fetorus_mami
 photo.50.commitdate: 2022/9/7
 photo.50.link: https://www.instagram.com/fetorus_mami/
-photo.50.tags: bamboo, close-up, whiskers
-photo.51: ig://CiFnTmthIlz/m
-photo.51.author: fetorus_mami
-photo.51.commitdate: 2022/9/7
-photo.51.link: https://www.instagram.com/fetorus_mami/
-photo.51.tags: paws, playing, toys
-photo.52: ig://CiIJLa-vyzr/m
-photo.52.author: mini_cochi
-photo.52.commitdate: 2022/9/10
-photo.52.link: https://www.instagram.com/mini_cochi/
-photo.52.tags: mofumofu, sample, whiskers
-photo.53: ig://CiXhfUBr3bj/m
-photo.53.author: miis_98
-photo.53.commitdate: 2022/10/13
-photo.53.link: https://www.instagram.com/miis_98/
-photo.53.tags: close-up, paws, portrait, sample, whiskers
-photo.54: ig://Ciuh400rORA/m
-photo.54.author: sasapan34
-photo.54.commitdate: 2022/11/4
-photo.54.link: https://www.instagram.com/sasapan34/
-photo.54.tags: bridge, smile, whiskers
-photo.55: ig://Cmq25-4v6Bi/m
-photo.55.author: kaoru_a358
-photo.55.commitdate: 2023/3/9
-photo.55.link: https://www.instagram.com/kaoru_a358/
-photo.55.tags: paws, standing, toys
-photo.56: ig://CnLAz47BAG9/m
-photo.56.author: ssc6105
-photo.56.commitdate: 2023/3/23
-photo.56.link: https://www.instagram.com/ssc6105/
-photo.56.tags: apple time, paws, sample, toys, whiskers
-photo.57: ig://CpaMmNlvIhW/m
-photo.57.author: mini_cochi
-photo.57.commitdate: 2023/11/19
-photo.57.link: https://www.instagram.com/mini_cochi/
-photo.57.tags: bamboo, paws, portrait, sample
-photo.58: ig://Cr6QpPcP_wu/m
-photo.58.author: eos1089
-photo.58.commitdate: 2023/7/3
-photo.58.link: https://www.instagram.com/eos1089/
-photo.58.tags: peek, portrait, toys
-photo.59: ig://Cs1Epjwv7iH/m
-photo.59.author: gloryeui
+photo.50.tags: paws, playing, toys
+photo.51: ig://CiIJLa-vyzr/m
+photo.51.author: mini_cochi
+photo.51.commitdate: 2022/9/10
+photo.51.link: https://www.instagram.com/mini_cochi/
+photo.51.tags: mofumofu, sample, whiskers
+photo.52: ig://CiXhfUBr3bj/m
+photo.52.author: miis_98
+photo.52.commitdate: 2022/10/13
+photo.52.link: https://www.instagram.com/miis_98/
+photo.52.tags: close-up, paws, portrait, sample, whiskers
+photo.53: ig://Ciuh400rORA/m
+photo.53.author: sasapan34
+photo.53.commitdate: 2022/11/4
+photo.53.link: https://www.instagram.com/sasapan34/
+photo.53.tags: bridge, smile, whiskers
+photo.54: ig://Cmq25-4v6Bi/m
+photo.54.author: kaoru_a358
+photo.54.commitdate: 2023/3/9
+photo.54.link: https://www.instagram.com/kaoru_a358/
+photo.54.tags: paws, standing, toys
+photo.55: ig://CnLAz47BAG9/m
+photo.55.author: ssc6105
+photo.55.commitdate: 2023/3/23
+photo.55.link: https://www.instagram.com/ssc6105/
+photo.55.tags: apple time, paws, sample, toys, whiskers
+photo.56: ig://CpaMmNlvIhW/m
+photo.56.author: mini_cochi
+photo.56.commitdate: 2023/11/19
+photo.56.link: https://www.instagram.com/mini_cochi/
+photo.56.tags: bamboo, paws, portrait, sample
+photo.57: ig://Cr6QpPcP_wu/m
+photo.57.author: eos1089
+photo.57.commitdate: 2023/7/3
+photo.57.link: https://www.instagram.com/eos1089/
+photo.57.tags: peek, portrait, toys
+photo.58: ig://Cs1Epjwv7iH/m
+photo.58.author: gloryeui
+photo.58.commitdate: 2023/6/20
+photo.58.link: https://www.instagram.com/gloryeui/
+photo.58.tags: portrait, sample, whiskers
+photo.59: ig://Cs8nzMVPVkl/m
+photo.59.author: tamazoowalking
 photo.59.commitdate: 2023/6/20
-photo.59.link: https://www.instagram.com/gloryeui/
-photo.59.tags: portrait, sample, whiskers
-photo.60: ig://Cs8nzMVPVkl/m
-photo.60.author: tamazoowalking
-photo.60.commitdate: 2023/6/20
-photo.60.link: https://www.instagram.com/tamazoowalking/
-photo.60.tags: sample, tail, whiskers
-photo.61: ig://Cx2sztwvJbd/m
-photo.61.author: mini_cochi
-photo.61.commitdate: 2023/10/24
-photo.61.link: https://www.instagram.com/mini_cochi/
-photo.61.tags: flowers, portrait, tree
+photo.59.link: https://www.instagram.com/tamazoowalking/
+photo.59.tags: sample, tail, whiskers
+photo.60: ig://Cx2sztwvJbd/m
+photo.60.author: mini_cochi
+photo.60.commitdate: 2023/10/24
+photo.60.link: https://www.instagram.com/mini_cochi/
+photo.60.tags: flowers, portrait, tree
 species: 2
 studbook.id: unknown
 zoo: 69

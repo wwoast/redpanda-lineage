@@ -16,7 +16,7 @@ ko.name: 레시
 ko.nicknames: none
 ko.oldnames: 토야
 ko.othernames: none
-language.order: ja, ko, en
+language.order: ko, ja, en
 litter: 260
 location.1: 42, 2014/8/18
 location.2: 62, 2016/3/31
@@ -25,10 +25,10 @@ photo.1.author: monmon_redpanda
 photo.1.commitdate: 2019/6/23
 photo.1.link: https://www.instagram.com/monmon_redpanda/
 photo.1.tags: lunch time, keeper, portrait, sample
-photo.2: ig://BnlfqE6lJ-s/m
+photo.2: cwdc://WXIm1OVADQA.jpg
 photo.2.author: monmon_redpanda
 photo.2.commitdate: 2018/10/24
-photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.link: https://www.instagram.com/p/BnlfqE6lJ-s
 photo.2.tags: apple time, portrait, profile, sample
 photo.3: ig://B3zpgFdhDiR/m
 photo.3.author: redpandamuseum

@@ -17,10 +17,10 @@ litter: 686
 location.1: 139, 2010/6/22
 location.2: 140, 2011/3/22
 location.3: 136, 2015/5/22
-photo.1: ig://BWgu542AKJt/m
+photo.1: cwdc://V0_FU2MADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/7/12
-photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.link: ig://BWgu542AKJt
 photo.1.tags: laying down, portrait, tail
 species: 1
 studbook.id: 1048

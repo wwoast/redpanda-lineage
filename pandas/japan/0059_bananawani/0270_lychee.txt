@@ -33,11 +33,11 @@ photo.4.author: miis_98
 photo.4.commitdate: 2020/4/2
 photo.4.link: https://www.instagram.com/miis_98/
 photo.4.tags: paws, portrait
-photo.5: ig://BhoHSDdFt6f/m
+photo.5: cwdc://WLN2FLaADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/7/30
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: muzzle, profile
+photo.5.link: https://www.instagram.com/p/BhoHSDdFt6f
+photo.5.tags: muzzle, portrait, profile, sample, whiskers
 photo.6: ig://Bhy6JePlGjO/m
 photo.6.author: bananawani_official
 photo.6.commitdate: 2018/12/22
@@ -106,20 +106,20 @@ photo.19.author: yossi929
 photo.19.commitdate: 2019/12/16
 photo.19.link: https://www.instagram.com/yossi929/
 photo.19.tags: nose, portrait, tongue
-photo.20: ig://B__HdrlBVBk/m
+photo.20: cwdc://XH72cbqADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2020/5/15
-photo.20.link: https://www.instagram.com/wumpwoast/
+photo.20.link: https://www.instagram.com/p/B__HdrlBVBk
 photo.20.tags: close-up, laying down, portrait, whiskers
 photo.21: ig://CCzpJMLhEUf/m
 photo.21.author: tetusara.ki_
 photo.21.commitdate: 2020/7/24
 photo.21.link: https://www.instagram.com/tetusara.ki_/
 photo.21.tags: bamboo, portrait
-photo.22: ig://CDwRlkMBb1r/m
+photo.22: cwdc://XPeKsM4ADQA.jpg
 photo.22.author: wumpwoast
 photo.22.commitdate: 2020/8/11
-photo.22.link: https://www.instagram.com/wumpwoast/
+photo.22.link: https://www.instagram.com/p/CDwRlkMBb1r
 photo.22.tags: door, portrait
 photo.23: ig://CD1ZgW3hNVi/m
 photo.23.author: mini_cochi
@@ -151,10 +151,10 @@ photo.28.author: firefoxpanda88
 photo.28.commitdate: 2020/11/15
 photo.28.link: https://www.instagram.com/firefoxpanda88/
 photo.28.tags: portrait
-photo.29: ig://Ck2OzsEuXA2/m
+photo.29: cwdc://YRqFIcpADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2022/12/20
-photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.link: https://www.instagram.com/p/Ck2OzsEuXA2
 photo.29.tags: paws, portrait, sample
 species: 1
 studbook.id: 0577

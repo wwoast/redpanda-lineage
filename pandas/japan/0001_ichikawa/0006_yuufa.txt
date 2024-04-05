@@ -77,10 +77,10 @@ photo.13.author: takashi_8310iyo
 photo.13.commitdate: 2018/10/17
 photo.13.link: https://www.instagram.com/takashi_8310iyo/
 photo.13.tags: portrait
-photo.14: ig://BgqWb7jAaW6/m
+photo.14: cwdc://WJSUY7mADQA.jpg
 photo.14.author: wumpwoast
 photo.14.commitdate: 2018/10/17
-photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.link: https://www.instagram.com/p/BgqWb7jAaW6
 photo.14.tags: portrait
 photo.15: ig://Bh_Tz8EFGlz/m
 photo.15.author: daniele.tokyo
@@ -111,10 +111,11 @@ photo.20.author: hanamaru_redpanda
 photo.20.commitdate: 2018/10/17
 photo.20.link: https://www.instagram.com/hanamaru_redpanda/
 photo.20.tags: portrait
-photo.21: ig://BkO8RA8FxDj/m
+photo.21: cwdc://WQbgDGYADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2018/10/17
-photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.link: https://www.instagram.com/p/BkO8RA8FxDj
+photo.21.tags: close-up, peek, portrait
 photo.22: ig://BkP7YHJFDTA/m
 photo.22.author: minatomirai215
 photo.22.commitdate: 2018/10/17
@@ -185,9 +186,9 @@ photo.35.commitdate: 2019/5/15
 photo.35.link: https://www.instagram.com/rie_panda55/
 photo.35.tags: bamboo
 photo.36: ig://Bx6eTWmAzjS/m
-photo.36.author: sunnylettuce_2022
+photo.36.author: sunnylettuce_2024
 photo.36.commitdate: 2019/6/5
-photo.36.link: https://www.instagram.com/sunnylettuce_2022/
+photo.36.link: https://www.instagram.com/sunnylettuce_2024/
 photo.36.tags: laying down
 photo.37: ig://Bx8qekYHqaq/m
 photo.37.author: nana__pan
@@ -214,11 +215,11 @@ photo.41.author: na.mo.pan
 photo.41.commitdate: 2019/6/21
 photo.41.link: https://www.instagram.com/na.mo.pan/
 photo.41.tags: paws, standing, tail, toys
-photo.42: ig://BzfxK0bhy1w/m
+photo.42: cwdc://Wu9J2tXADQA.jpg
 photo.42.author: ifumoto88
 photo.42.commitdate: 2019/7/7
-photo.42.link: https://www.instagram.com/ifumoto88/
-photo.42.tags: portrait, profile, tree
+photo.42.link: https://www.instagram.com/p/BzfxK0bhy1w
+photo.42.tags: peek, portrait, profile, sample, tree
 photo.43: ig://B0Dme7GB21N/m
 photo.43.author: komabazoophoto
 photo.43.commitdate: 2019/7/18
@@ -259,11 +260,11 @@ photo.50.author: ssc6105
 photo.50.commitdate: 2019/9/28
 photo.50.link: https://www.instagram.com/ssc6105/
 photo.50.tags: home, paws, smile
-photo.51: ig://B2q--HUBxOr/m
+photo.51: cwdc://W1TldTIADQA.jpg
 photo.51.author: ck.chie
 photo.51.commitdate: 2019/9/23
-photo.51.link: https://www.instagram.com/ck.chie/
-photo.51.tags: portrait, smile
+photo.51.link: https://www.instagram.com/p/B2q--HUBxOr
+photo.51.tags: portrait, sample, smile, whiskers
 photo.52: ig://B2_M6ogBe9G/m
 photo.52.author: panda.daisuki
 photo.52.commitdate: 2019/10/13
@@ -534,9 +535,9 @@ photo.105.commitdate: 2021/4/27
 photo.105.link: https://www.instagram.com/na.mo.pan/
 photo.105.tags: tail
 photo.106: ig://CH_jhZBhom-/m
-photo.106.author: sunnylettuce_2022
+photo.106.author: sunnylettuce_2024
 photo.106.commitdate: 2021/4/27
-photo.106.link: https://www.instagram.com/sunnylettuce_2022/
+photo.106.link: https://www.instagram.com/sunnylettuce_2024/
 photo.106.tags: apple time, keeper, paws, standing
 photo.107: ig://CIIVKwcBhUx/m
 photo.107.author: ssc6105

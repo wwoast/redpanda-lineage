@@ -13,10 +13,11 @@ language.order: ja, en
 latitude: 33.6678459
 longitude: 135.3738168
 map: https://goo.gl/maps/Z2vDjBgTPAG2
-photo.1: ig://BqQ4Nf8gJh4/m
+photo.1: cwdc://WcfX8EZADQA.jpg
 photo.1.author: doubakahanshidemenbaka
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/doubakahanshidemenbaka/
+photo.1.link: https://www.instagram.com/p/BqQ4Nf8gJh4
+photo.1.tags: 
 photo.2: ig://B5P-Lv_jJKE/m
 photo.2.author: hiroko.8125
 photo.2.commitdate: 2019/11/29

@@ -16,11 +16,11 @@ litter: 400
 location.1: 76, 2011/6/13
 location.2: 106, 2013/11/18
 location.3: 68, 2017/10/1
-photo.1: ig://BRTXnpcDGPF/m
+photo.1: cwdc://VqkWwXYADQA.jpg
 photo.1.author: derek.elvin
 photo.1.commitdate: 2018/11/24
-photo.1.link: https://www.instagram.com/derek.elvin/
-photo.1.tags: bamboo, profile
+photo.1.link: https://www.instagram.com/p/BRTXnpcDGPF
+photo.1.tags: bamboo, paws, peek, portrait, profile, sample
 photo.2: ig://BZRIHGflqkj/m
 photo.2.author: safariniagra
 photo.2.commitdate: 2018/11/24
@@ -34,3 +34,8 @@ photo.3.tags: peek, whiskers
 species: 2
 studbook.id: 1131
 zoo: 68
+photo.4: cwdc://Yo4zGk4eDwA.jpg
+photo.4.author: nightingaleinflight
+photo.4.commitdate: 2024/4/2
+photo.4.link: https://www.instagram.com/nightingaleinflight
+photo.4.tags: sample, whiskers

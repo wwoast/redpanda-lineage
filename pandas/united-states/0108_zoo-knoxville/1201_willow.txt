@@ -1,22 +1,25 @@
 [panda]
-_id: 1199
+_id: 1201
 birthday: 2020/6/25
 birthplace: 111
 children: none
 commitdate: 2020/7/31
-en.name: Rose
+en.name: Willow
 en.nicknames: none
 en.othernames: none
 gender: f
-ja.name: ローズ
+ja.name: ウィロー
 ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
-litter: 1200, 1201
-photo.1: ig://CHk5f5OD2zw/m
+litter: 1199, 1200
+location.1: 111, 2020/6/25
+location.2: 108, 2021/8/23
+photo.1: ig://CHsxNbEjFgX/m
 photo.1.author: johnballzoogr
-photo.1.commitdate: 2020/11/23
+photo.1.commitdate: 2020/11/28
 photo.1.link: https://www.instagram.com/johnballzoogr/
-photo.1.tags: baby, keeper, lunch time, portrait, white face
+photo.1.tags: baby, bamboo, paws, portrait, profile, white face
 species: 1
-zoo: 111
+uncertainty: location.2 exact date
+zoo: 108

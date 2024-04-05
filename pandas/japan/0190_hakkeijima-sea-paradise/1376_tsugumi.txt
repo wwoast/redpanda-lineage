@@ -98,10 +98,10 @@ photo.17.author: redpan22
 photo.17.commitdate: 2023/2/26
 photo.17.link: https://www.instagram.com/redpan22/
 photo.17.tags: baby, close-up, sample
-photo.18: ig://CiybId_BayU/m
+photo.18: cwdc://YNidyAeADQA.jpg
 photo.18.author: alto0908
 photo.18.commitdate: 2022/11/29
-photo.18.link: https://www.instagram.com/alto0908/
+photo.18.link: https://www.instagram.com/p/CiybId_BayU
 photo.18.tags: baby, close-up, mofumofu, paws, portrait, profile, sample
 photo.19: ig://Ciz7Vavvys4/m
 photo.19.author: redpan22
@@ -258,5 +258,10 @@ photo.49.author: minatomirai215
 photo.49.commitdate: 2023/11/18
 photo.49.link: https://www.instagram.com/minatomirai215/
 photo.49.tags: mofumofu, peek, portrait, sample
+photo.50: cwdc://Yk64v-ZADQA.jpg
+photo.50.author: minatomirai215
+photo.50.commitdate: 2024/3/10
+photo.50.link: https://www.instagram.com/p/Cueonc8vGzx
+photo.50.tags: bridge, laying down, peek, portrait, sample, whiskers
 species: 2
 zoo: 190

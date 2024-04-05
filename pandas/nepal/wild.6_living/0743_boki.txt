@@ -10,25 +10,25 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 location.1: wild.6, 2019/Spring
-photo.1: ig://Bv47iCpjf3x/m
+photo.1: cwdc://WnvelJzADQA.jpg
 photo.1.author: redpandanetwork
 photo.1.commitdate: 2019/4/9
-photo.1.link: https://www.instagram.com/redpandanetwork/
-photo.1.tags: profile
+photo.1.link: ig://Bv47iCpjf3x
+photo.1.tags: portrait, profile
 photo.2: cwdc://WpF0FPMADQA.jpg
 photo.2.author: kai.kuniko
 photo.2.commitdate: 2019/4/23
-photo.2.link: https://www.instagram.com/p/BwkGSFWDO9v
-photo.2.tags: 
+photo.2.link: ig://BwkGSFWDO9v
+photo.2.tags: peek, portrait
 photo.3: cwdc://WpF-KNZADQA.jpg
 photo.3.author: wumpwoast
 photo.3.commitdate: 2019/4/23
-photo.3.link: https://www.instagram.com/p/BwkLUkclp1R
+photo.3.link: ig://BwkLUkclp1R
 photo.3.tags: peek, tree
 photo.4: cwdc://WpP3IWbADQA.jpg
 photo.4.author: kai.kuniko
 photo.4.commitdate: 2019/8/15
-photo.4.link: https://www.instagram.com/p/BwpHzo9gbTZ
+photo.4.link: ig://BwpHzo9gbTZ
 photo.4.tags: peek, portrait, tree
 photo.5: ig://CJ69cJth2Ng/m
 photo.5.author: redpandanetwork
@@ -44,6 +44,6 @@ photo.7: ig://CfNgW-mrVgp/m
 photo.7.author: redpandanetwork
 photo.7.commitdate: 2022/7/14
 photo.7.link: https://www.instagram.com/redpandanetwork/
-photo.7.tags: laying down, mofumofu, paws, portrait, sample, tree, wet
+photo.7.tags: laying down, mofumofu, paws, portrait, tree, wet
 species: 3
 wild: wild.6

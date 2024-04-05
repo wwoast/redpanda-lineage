@@ -4,6 +4,7 @@ birthday: 2007/7/1
 birthplace: 114
 children: 818, 911
 commitdate: 2019/7/2
+death: 2024/1/9
 en.name: Wicket
 en.nicknames: none
 en.othernames: none
@@ -16,15 +17,15 @@ litter: 874
 location.1: 114, 2007/7/1
 location.2: 49, 2008/4/8
 location.3: 119, 2009/10/23
-photo.1: ig://BgyzFybHIvm/m
+photo.1: cwdc://WJjNspWADQA.jpg
 photo.1.author: greatplainszoo
 photo.1.commitdate: 2020/1/26
-photo.1.link: https://www.instagram.com/greatplainszoo/
-photo.1.tags: paws, smile
-photo.2: ig://Bnv5LSNFDho/m
+photo.1.link: ig://BgyzFybHIvm
+photo.1.tags: paws, portrait, sample, smile
+photo.2: cwdc://WXdZ3o6ADQB.jpg
 photo.2.author: greatplainszoo
 photo.2.commitdate: 2020/1/25
-photo.2.link: https://www.instagram.com/greatplainszoo/
-photo.2.tags: paws, profile, whiskers, white face
+photo.2.link: ig://Bnv5LSNFDho
+photo.2.tags: paws, portrait, profile, whiskers, white face
 species: 1
 zoo: 119

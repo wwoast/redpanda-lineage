@@ -15,11 +15,13 @@ language.order: en, ja
 litter: 646
 location.1: 113, 2016/7/2
 location.2: 167, 2017/5/2
-photo.1: ig://B3hA21EptIg/m
+location.3: 119, 2020/1/1
+photo.1: cwdc://W2_pOupADQA.jpg
 photo.1.author: judylobowolfe
 photo.1.commitdate: 2019/11/7
-photo.1.link: https://www.instagram.com/judylobowolfe/
-photo.1.tags: bamboo, peek, portrait, white face
+photo.1.link: ig://B3hA21EptIg
+photo.1.tags: bamboo, peek, portrait, sample, white face
 species: 1
 studbook.id: 1617
-zoo: 167
+uncertainty: location.3 date in 2020
+zoo: 119

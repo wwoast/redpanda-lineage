@@ -12,13 +12,9 @@ language.order: ja, en
 latitude: 36.5867283
 longitude: 138.1132733
 map: https://goo.gl/maps/3sQ2w9qjTdS2
-photo.1: ig://BhB8O-bFLOl/m
-photo.1.author: hapirac_mk
-photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/hapirac_mk/
+photo.1: cwdc://Wxv9Zw6ADQA.jpg
+photo.1.author: shigeko0531
+photo.1.commitdate: 2019/8/12
+photo.1.link: https://www.instagram.com/p/B05K8WNBRZj
 photo.1.tags: profile
-photo.2: ig://B05K8WNBRZj/m
-photo.2.author: shigeko0531
-photo.2.commitdate: 2019/8/12
-photo.2.link: https://www.instagram.com/shigeko0531/
 website: http://www.chausuyama.com/

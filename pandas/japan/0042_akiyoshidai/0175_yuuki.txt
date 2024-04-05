@@ -25,11 +25,11 @@ photo.2.author: re_ichimaru
 photo.2.commitdate: 2019/6/23
 photo.2.link: https://www.instagram.com/re_ichimaru/
 photo.2.tags: portrait
-photo.3: ig://B2czGkZBcoc/m
+photo.3: cwdc://W03NuNSADQA.jpg
 photo.3.author: miis_98
 photo.3.commitdate: 2019/9/16
-photo.3.link: https://www.instagram.com/miis_98/
-photo.3.tags: portrait, profile, smile
+photo.3.link: https://www.instagram.com/p/B2czGkZBcoc
+photo.3.tags: portrait, profile, sample, smile, whiskers
 photo.4: ig://B24QHVfgxmo/m
 photo.4.author: kai.kuniko
 photo.4.commitdate: 2019/10/16
@@ -51,9 +51,9 @@ photo.7.commitdate: 2019/12/29
 photo.7.link: https://www.instagram.com/kisshan324/
 photo.7.tags: bamboo, bridge, portrait
 photo.8: ig://B6pxsNVgjUv/m
-photo.8.author: sunnylettuce_2022
+photo.8.author: sunnylettuce_2024
 photo.8.commitdate: 2019/12/31
-photo.8.link: https://www.instagram.com/sunnylettuce_2022/
+photo.8.link: https://www.instagram.com/sunnylettuce_2024/
 photo.8.tags: paws, smile
 photo.9: ig://CCv1Glul_eP/m
 photo.9.author: kojikoji2011

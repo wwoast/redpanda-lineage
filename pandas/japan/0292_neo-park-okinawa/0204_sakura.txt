@@ -155,11 +155,11 @@ photo.28.author: love__mitarashi
 photo.28.commitdate: 2020/2/27
 photo.28.link: https://www.instagram.com/love__mitarashi/
 photo.28.tags: bamboo, portrait
-photo.29: ig://B9xbBXuBID5/m
+photo.29: cwdc://XDgdjz8ADQA.jpg
 photo.29.author: miis_98
 photo.29.commitdate: 2020/3/18
-photo.29.link: https://www.instagram.com/miis_98/
-photo.29.tags: home, paws, portrait, tail, techitechi
+photo.29.link: https://www.instagram.com/p/B9xbBXuBID5
+photo.29.tags: home, paws, portrait, sample, tail, techitechi
 photo.30: ig://B91TUTUhJmM/m
 photo.30.author: love__mitarashi
 photo.30.commitdate: 2020/3/18
@@ -175,11 +175,11 @@ photo.32.author: love__mitarashi
 photo.32.commitdate: 2020/5/11
 photo.32.link: https://www.instagram.com/love__mitarashi/
 photo.32.tags: laying down, tail, sleeping
-photo.33: ig://CEB4EDKB9B6/m
+photo.33: cwdc://XQBXpK0ADQA.jpg
 photo.33.author: love__mitarashi
 photo.33.commitdate: 2020/8/23
-photo.33.link: https://www.instagram.com/love__mitarashi/
-photo.33.tags: close-up, portrait, profile, smile
+photo.33.link: https://www.instagram.com/p/CEB4EDKB9B6
+photo.33.tags: close-up, portrait, profile, sample, smile, whiskers
 photo.34: ig://CEK2DcnhAwX/m
 photo.34.author: love__mitarashi
 photo.34.commitdate: 2020/8/23
@@ -240,6 +240,11 @@ photo.45.author: neoparkokinawa
 photo.45.commitdate: 2021/11/22
 photo.45.link: https://www.instagram.com/neoparkokinawa/
 photo.45.tags: blink, laying down, mofumofu, paws, portrait
+photo.46: cwdc://YxtCSJ6ADQA.jpg
+photo.46.author: daniele.tokyo
+photo.46.commitdate: 2024/3/10
+photo.46.link: https://www.instagram.com/p/C03tYitPH42
+photo.46.tags: paws, sample, toys
 species: 2
 studbook.id: 15140
 zoo: 292

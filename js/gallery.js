@@ -1200,7 +1200,7 @@ Gallery.url.api = {};
 Gallery.url.events = {};
 Gallery.url.paths = {};
 
-// Get the thumbnail uri from self-hostingg
+// Get the thumbnail uri from self-hosting
 Gallery.url.codaworry = function(image, input_uri) {
   var uri_split = input_uri.split("/");
   var cwdc_locator = uri_split.pop();
@@ -1208,88 +1208,26 @@ Gallery.url.codaworry = function(image, input_uri) {
   image.src = cwdc_url;
 }
 
-// Get the thumbnail uri from Instagram.
-Gallery.url.instagram = function(image, input_uri) {
-  var uri_split = input_uri.split("/");
-  var ig_locator = undefined;
-  var ig_width = undefined;
-  if (uri_split.length == 3) {
-    ig_locator = uri_split.pop();
-    ig_width = "320";
-  } else if (uri_split.length == 4) {
-    ig_width = uri_split.pop();
-    ig_locator = uri_split.pop();
-  } else {
-    image.src = Pandas.def.animal["photo.1"];   // Default image
-    return;
-  }
-  // t/m/l were the old IG url sizes, and keep using them
-  if (ig_width == "l") {
-    ig_width = "640";
-  } else {
-    ig_width = "320";
-  }
-  // Set an event listener to update the image, using the IG image locator
-  // as a unique locator for the path and event
-  Gallery.url.events[ig_locator] = new Event(ig_locator);
-  window.addEventListener(ig_locator, function() {
-    // Second-stage. Fetch the image using the thumbnail_url
-    image.src = Gallery.url.paths[ig_locator];
-    image.classList.remove("replace");  /* For about page images */
-  });
-  if (ig_locator in Gallery.url.paths) {
-    // Do we already have the image details?
-    image.src = Gallery.url.paths[ig_locator];
-  } else {
-    image.src = Pandas.def.animal["photo.1"];   // Default image
-    // TODO: figure out how to move away from IG features
-    /*
-    // Try and fetch the details to update the image
-    var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`);
-    if (ig_author != undefined) {
-      ig_target = encodeURIComponent(`https://www.instagram.com/${ig_author}/p/${ig_locator}`);
-    }
-    var ig_template = `https://graph.facebook.com/v16.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
-    var ig_request = new XMLHttpRequest();
-    ig_request.open('GET', ig_template, true);
-    ig_request.responseType = 'json';
-    ig_request.onload = function() {
-      if (ig_request.status == 200) {
-        var jsonResponse = ig_request.response;
-        Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
-        // Report the data has loaded
-        window.dispatchEvent(Gallery.url.events[ig_locator]);
-      } else {
-        image.src = Pandas.def.animal["photo.1"];   // Default image
-      }
-    }
-    // ig_request.send();
-    */
-  }
-}
-
 // Unroll various custom link formats into things that work as href
 Gallery.url.href = function(uri) {
   if (uri.indexOf("http") == 0) {
     return uri;
   } else if (uri.indexOf("ig") == 0) {
-    var ig_locator = uri.split("/")[2];
-    return `https://www.instagram.com/p/${ig_locator}`;
+    var ig_locator = uri.split("/")[2]
+    return `https://www.instagram.com/p/${ig_locator}`
   } else if (uri.indexOf("cwdc") == 0) {
     var cwdc_locator = uri.split("/")[2]
     return `https://www.codaworry.com/images/submitted/${cwdc_locator}`
   } else { 
     return Pandas.def.animal["photo.1"];
   }
-}
+}  
 
 // Support a colorful cast of formats for getting underlying image hrefs.
 // The <img> element is processed and eventually its src is updated
 Gallery.url.process = function(image, uri) {
   if (uri.indexOf("http") == 0) {
     image.src = uri;
-  } else if (uri.indexOf("ig") == 0) {
-    Gallery.url.instagram(image, uri);
   } else if (uri.indexOf("cwdc") == 0) {
     Gallery.url.codaworry(image, uri);
   } else {

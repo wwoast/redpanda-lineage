@@ -46,11 +46,11 @@ photo.6.author: fuji_safari
 photo.6.commitdate: 2020/1/18
 photo.6.link: https://www.instagram.com/fuji_safari/
 photo.6.tags: portrait, tail
-photo.7: ig://BcGa6b-HCOb/m
+photo.7: cwdc://WAKdV8cADQA.jpg
 photo.7.author: fuji_safari
 photo.7.commitdate: 2018/10/14
-photo.7.link: https://www.instagram.com/fuji_safari/
-photo.7.tags: bamboo, profile
+photo.7.link: https://www.instagram.com/p/BcGa6b-HCOb
+photo.7.tags: bamboo, portrait, profile, sample, tongue, whiskers
 photo.8: ig://BfCg-wMhGCl/m
 photo.8.author: miis_98
 photo.8.commitdate: 2020/5/1
@@ -215,6 +215,11 @@ photo.40.author: fetorus_mami
 photo.40.commitdate: 2023/12/15
 photo.40.link: https://www.instagram.com/fetorus_mami/
 photo.40.tags: apple time, keeper, paws, sample, standing
+photo.41: cwdc://Y3tQ76OADQA.jpg
+photo.41.author: phoenixzoo1971
+photo.41.commitdate: 2024/3/10
+photo.41.link: https://www.instagram.com/p/C330ta3S_M_
+photo.41.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13139
 zoo: 30

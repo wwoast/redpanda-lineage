@@ -15,7 +15,7 @@ ko.name: 레몬
 ko.nicknames: none
 ko.oldnames: 미루키, 밀키
 ko.othernames: none
-language.order: ja, ko, en
+language.order: ko, ja, en
 litter: none
 location.1: 13, 2013/7/7
 location.2: 29, 2020/2/26
@@ -108,11 +108,11 @@ photo.18.author: minato.yokohama4416
 photo.18.commitdate: 2019/1/3
 photo.18.link: https://www.instagram.com/minato.yokohama4416/
 photo.18.tags: portrait
-photo.19: ig://BtA3zN-lsZd/m
+photo.19: cwdc://Wh_XHgdADQA.jpg
 photo.19.author: gloryeui
 photo.19.commitdate: 2019/1/26
-photo.19.link: https://www.instagram.com/gloryeui/
-photo.19.tags: portrait, profile
+photo.19.link: https://www.instagram.com/p/BtA3zN-lsZd
+photo.19.tags: mofumofu, portrait, profile, sample, whiskers
 photo.20: ig://BtF0Uc9H7I8/m
 photo.20.author: minato.yokohama4416
 photo.20.commitdate: 2019/1/27

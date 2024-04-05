@@ -13,11 +13,11 @@ ja.nicknames: none
 ja.othernames: タチバナ
 language.order: zh, en, ja
 litter: unknown
-photo.1: ig://B8ZRjf7BdGS/m
+photo.1: cwdc://XAwKoEWADQA.jpg
 photo.1.author: mkr0369
 photo.1.commitdate: 2020/2/17
-photo.1.link: https://www.instagram.com/mkr0369/
-photo.1.tags: bamboo, profile, smile
+photo.1.link: ig://B8ZRjf7BdGS
+photo.1.tags: bamboo, portrait, profile, smile
 species: 2
 zh.name: 橘
 zh.nicknames: none

@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 35.9506249
 longitude: 136.1787345
 map: https://goo.gl/maps/vVxLDci5HeE2
-photo.1: ig://BnTk0l-F9Hl/m
+photo.1: cwdc://WWkxKQcADQA.jpg
 photo.1.author: yoneyone52
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/yoneyone52/
+photo.1.link: https://www.instagram.com/p/BnTk0l-F9Hl
+photo.1.tags: profile
 website: https://www.city.sabae.fukui.jp/nishiyama_zoo/

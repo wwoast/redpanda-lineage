@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 36.227195
 longitude: 138.8849445
 map: https://goo.gl/maps/at8sz15RscJ2
-photo.1: ig://wDsin_Enj_/m
+photo.1: cwdc://UoFAmUeADQA.jpg
 photo.1.author: omisadooguro
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/omisadooguro/
+photo.1.link: https://www.instagram.com/p/wDsin_Enj_
+photo.1.tags: profile
 website: http://www.safari.co.jp/

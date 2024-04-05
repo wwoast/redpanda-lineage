@@ -266,11 +266,11 @@ photo.51.author: mari_neko3
 photo.51.commitdate: 2019/4/15
 photo.51.link: https://www.instagram.com/mari_neko3/
 photo.51.tags: portrait, smile
-photo.52: ig://BwLUt2clQ0n/m
+photo.52: cwdc://WoUQ8xZADQA.jpg
 photo.52.author: mari_neko3
 photo.52.commitdate: 2019/4/15
-photo.52.link: https://www.instagram.com/mari_neko3/
-photo.52.tags: portrait, profile, smile
+photo.52.link: https://www.instagram.com/p/BwLUt2clQ0n
+photo.52.tags: portrait, profile, sample, smile, whiskers
 photo.53: ig://BwQgOQZlg3a/m
 photo.53.author: yossi929
 photo.53.commitdate: 2019/4/17
@@ -577,9 +577,9 @@ photo.113.commitdate: 2020/1/25
 photo.113.link: https://www.instagram.com/re_ichimaru/
 photo.113.tags: laying down, paws
 photo.114: ig://B6EgZmOAhoo/m
-photo.114.author: sunnylettuce_2022
+photo.114.author: sunnylettuce_2024
 photo.114.commitdate: 2019/12/30
-photo.114.link: https://www.instagram.com/sunnylettuce_2022/
+photo.114.link: https://www.instagram.com/sunnylettuce_2024/
 photo.114.tags: paws, smile
 photo.115: ig://B6HGhHRhfaX/m
 photo.115.author: yossi929
@@ -612,9 +612,9 @@ photo.120.commitdate: 2020/1/25
 photo.120.link: https://www.instagram.com/yossi929/
 photo.120.tags: portrait, tongue
 photo.121: ig://B7HdZO1AdVi/m
-photo.121.author: sunnylettuce_2022
+photo.121.author: sunnylettuce_2024
 photo.121.commitdate: 2020/1/14
-photo.121.link: https://www.instagram.com/sunnylettuce_2022/
+photo.121.link: https://www.instagram.com/sunnylettuce_2024/
 photo.121.tags: paws, surprise, tail
 photo.122: ig://B7JA_JWhSUl/m
 photo.122.author: re_ichimaru

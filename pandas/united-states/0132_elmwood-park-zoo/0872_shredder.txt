@@ -16,11 +16,11 @@ language.order: en, ja
 litter: 871, 873
 location.1: 114, 2014/6/26
 location.2: 132, 2015/5/14
-photo.1: ig://BO7piEoB4XO/m
+photo.1: cwdc://Vl06lNwADQA.jpg
 photo.1.author: elmwoodparkzoo
 photo.1.commitdate: 2019/6/16
-photo.1.link: https://www.instagram.com/elmwoodparkzoo/
-photo.1.tags: portrait, profile, paws
+photo.1.link: ig://BO7piEoB4XO
+photo.1.tags: paws, portrait, profile
 species: 1
 studbook.id: 1433
 zoo: 132

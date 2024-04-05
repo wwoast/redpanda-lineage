@@ -16,11 +16,11 @@ language.order: en, ja
 litter: 841
 location.1: 105, 2010/6/12
 location.2: 187, 2011/4/28
-photo.1: ig://wrqNjDitXC/m
+photo.1: cwdc://UpU78KnADQA.jpg
 photo.1.author: bhamzoo
 photo.1.commitdate: 2019/11/2
-photo.1.link: https://www.instagram.com/bhamzoo/
-photo.1.tags: portrait, profile
+photo.1.link: https://www.instagram.com/p/wrqNjDitXC
+photo.1.tags: portrait, profile, sample, techitechi, whiskers
 photo.2: ig://BRlsI9BByko/m
 photo.2.author: bhamzoo
 photo.2.commitdate: 2019/11/2

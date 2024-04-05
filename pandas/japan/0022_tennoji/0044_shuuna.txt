@@ -64,15 +64,15 @@ photo.10.author: kisshan324
 photo.10.commitdate: 2018/10/19
 photo.10.link: https://www.instagram.com/kisshan324/
 photo.10.tags: apple time, standing
-photo.11: ig://BpJS6BHlJtH/m
+photo.11: cwdc://WaQNVGvADQA.jpg
 photo.11.author: kotata_513
 photo.11.commitdate: 2018/10/20
-photo.11.link: https://www.instagram.com/kotata_513/
-photo.11.tags: bamboo, portrait, profile, sample
-photo.12: ig://Bp5T8mYFpgW/m
+photo.11.link: https://www.instagram.com/p/BpJS6BHlJtH
+photo.11.tags: bamboo, bite, portrait, profile, sample
+photo.12: cwdc://WbwPaRQADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2018/11/7
-photo.12.link: https://www.instagram.com/wumpwoast/
+photo.12.link: https://www.instagram.com/p/Bp5T8mYFpgW
 photo.12.tags: portrait, sample
 photo.13: ig://BrP2BDkFv9Y/m
 photo.13.author: sakikukeco
@@ -210,9 +210,9 @@ photo.39.commitdate: 2019/10/28
 photo.39.link: https://www.instagram.com/yossi929/
 photo.39.tags: sample
 photo.40: ig://B4cHX1kgsnM/m
-photo.40.author: sunnylettuce_2022
+photo.40.author: sunnylettuce_2024
 photo.40.commitdate: 2019/11/5
-photo.40.link: https://www.instagram.com/sunnylettuce_2022/
+photo.40.link: https://www.instagram.com/sunnylettuce_2024/
 photo.40.tags: bridge, paws, sample
 photo.41: ig://B5i-WZahhjn/m
 photo.41.author: motohin

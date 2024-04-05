@@ -15,21 +15,22 @@ language.order: en, ja
 litter: 438
 location.1: 76, 2017/6/13
 location.2: 96, 2019/7/1
-photo.1: ig://B0ikw5Yg-17/m
+location.3: 76, 2024/1/15
+photo.1: cwdc://WxCxC3RADQA.jpg
 photo.1.author: b_aimz94
 photo.1.commitdate: 2020/3/18
-photo.1.link: https://www.instagram.com/b_aimz94/
+photo.1.link: https://www.instagram.com/p/B0ikw5Yg-17
 photo.1.tags: paws, smile
 photo.2: ig://B2EkzLqgCta/m
 photo.2.author: thetorontozoo
 photo.2.commitdate: 2019/9/18
 photo.2.link: https://www.instagram.com/thetorontozoo/
 photo.2.tags: climb
-photo.3: ig://B4F6FS2pBF3/m
+photo.3: cwdc://W4JbrqNADQA.jpg
 photo.3.author: rossifari
 photo.3.commitdate: 2019/10/27
-photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: autumn, portrait, profile, whiskers
+photo.3.link: https://www.instagram.com/p/B4F6FS2pBF3
+photo.3.tags: autumn, portrait, profile, sample, whiskers
 photo.4: ig://B5VzHe7p0dB/m
 photo.4.author: rossifari
 photo.4.commitdate: 2019/12/3
@@ -112,4 +113,5 @@ photo.19.link: https://www.instagram.com/rossifari/
 photo.19.tags: apple time, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 1701
-zoo: 96
+uncertainty: location.3 exact date
+zoo: 76

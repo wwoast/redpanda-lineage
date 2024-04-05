@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
+location.1: 64, 2021/6/23
+location.2: 73, 2024/2/15
 photo.1: ig://CVPSn0jBrUG/m
 photo.1.author: grskus_tk
 photo.1.commitdate: 2021/11/11
@@ -38,11 +40,11 @@ photo.5.author: grskus_tk
 photo.5.commitdate: 2021/11/11
 photo.5.link: https://www.instagram.com/grskus_tk/
 photo.5.tags: baby, peek
-photo.6: ig://CWDJ6NJAPid/m
+photo.6: cwdc://X0D7VeyADQA.jpg
 photo.6.author: oshimabranchoffice
 photo.6.commitdate: 2021/11/11
-photo.6.link: https://www.instagram.com/oshimabranchoffice/
-photo.6.tags: baby, close-up, mofumofu, portrait, profile
+photo.6.link: https://www.instagram.com/p/CWDJ6NJAPid
+photo.6.tags: baby, close-up, mofumofu, portrait, profile, sample
 photo.7: ig://CWQC3QXBixw/m
 photo.7.author: grskus_tk
 photo.7.commitdate: 2022/1/15
@@ -148,5 +150,11 @@ photo.27.author: grskus_tk
 photo.27.commitdate: 2023/1/12
 photo.27.link: https://www.instagram.com/grskus_tk/
 photo.27.tags: laying down, peek, tail
+photo.28: cwdc://Y30al_NADQA.jpg
+photo.28.author: daniele.tokyo
+photo.28.commitdate: 2024/3/10
+photo.28.link: https://www.instagram.com/p/C37ZidWvnG6
+photo.28.tags: peek, sample, techitechi, whiskers
 species: 2
-zoo: 64
+uncertainty: location.2 exact date
+zoo: 73

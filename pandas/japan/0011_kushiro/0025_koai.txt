@@ -49,19 +49,20 @@ photo.7.author: mifko55
 photo.7.commitdate: 2020/4/15
 photo.7.link: https://www.instagram.com/mifko55/
 photo.7.tags: home, peek, portrait
-photo.8: ig://Bgf5RJwlKSU/m
+photo.8: cwdc://WI9aDYBADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2018/7/20
-photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.link: https://www.instagram.com/p/Bgf5RJwlKSU
+photo.8.tags: close-up, portrait, whiskers
 photo.9: ig://BivW5rzFKVX/m
 photo.9.author: minatomirai215
 photo.9.commitdate: 2018/7/20
 photo.9.link: https://www.instagram.com/minatomirai215/
 photo.9.tags: flowers
-photo.10: ig://Bj00DXdlgYj/m
+photo.10: cwdc://WPnPnzbADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/7/20
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/Bj00DXdlgYj
 photo.10.tags: tail
 photo.11: ig://Bj2bE1il-BS/m
 photo.11.author: minatomirai215
@@ -104,10 +105,10 @@ photo.19: ig://Bqjj1AmF703/m
 photo.19.author: fetorus_mami
 photo.19.commitdate: 2018/11/24
 photo.19.link: https://www.instagram.com/fetorus_mami/
-photo.20: ig://BrW5_h-F0-8/m
+photo.20: cwdc://WerbgIcADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2019/6/3
-photo.20.link: https://www.instagram.com/wumpwoast/
+photo.20.link: https://www.instagram.com/p/BrW5_h-F0-8
 photo.20.tags: tongue
 photo.21: ig://BrgiZwSlKjZ/m
 photo.21.author: fetorus_mami
@@ -129,11 +130,11 @@ photo.24.author: daniele.tokyo
 photo.24.commitdate: 2019/3/9
 photo.24.link: https://www.instagram.com/daniele.tokyo/
 photo.24.tags: paws
-photo.25: ig://Bwt1_ESlL9G/m
+photo.25: cwdc://WpZTfNFADQA.jpg
 photo.25.author: zoowfreedom299
 photo.25.commitdate: 2019/6/3
-photo.25.link: https://www.instagram.com/zoowfreedom299/
-photo.25.tags: paws, portrait, profile, tongue
+photo.25.link: https://www.instagram.com/p/Bwt1_ESlL9G
+photo.25.tags: paws, portrait, profile, sample, tongue, whiskers
 photo.26: ig://Bw6yeSzlFEc/m
 photo.26.author: yakko____
 photo.26.commitdate: 2019/5/5
@@ -274,11 +275,11 @@ photo.53.author: komabazoophoto
 photo.53.commitdate: 2019/10/25
 photo.53.link: https://www.instagram.com/komabazoophoto/
 photo.53.tags: home
-photo.54: ig://B4BxZBKAQce/m
+photo.54: cwdc://W4BKTG0ADQA.jpg
 photo.54.author: cattail.sapporo
 photo.54.commitdate: 2019/10/25
-photo.54.link: https://www.instagram.com/cattail.sapporo/
-photo.54.tags: paws, portrait, smile
+photo.54.link: https://www.instagram.com/p/B4BxZBKAQce
+photo.54.tags: paws, portrait, sample, smile
 photo.55: ig://B4KR77uB-QS/m
 photo.55.author: komabazoophoto
 photo.55.commitdate: 2019/10/28
@@ -444,6 +445,11 @@ photo.87.author: minatomirai215
 photo.87.commitdate: 2023/9/16
 photo.87.link: https://www.instagram.com/minatomirai215/
 photo.87.tags: eye, portrait, sample
+photo.88: cwdc://Y12c02rADQA.jpg
+photo.88.author: rie_panda55
+photo.88.commitdate: 2024/3/10
+photo.88.link: https://www.instagram.com/p/C28ap5FhgV4
+photo.88.tags: eye, portrait, sample, whiskers
 species: 2
 studbook.id: 0458
 zoo: 11

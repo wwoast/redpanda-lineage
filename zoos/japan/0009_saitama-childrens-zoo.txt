@@ -12,10 +12,11 @@ language.order: ja, en
 latitude: 35.9993587
 longitude: 139.3728133
 map: https://goo.gl/maps/C8F9LtGktcH2
-photo.1: ig://BmgEeiolqP-/m
+photo.1: cwdc://WU9weJxADQA.jpg
 photo.1.author: pikahonogram_3110
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/pikahonogram_3110/
+photo.1.link: https://www.instagram.com/p/BmgEeiolqP-
+photo.1.tags: profile
 photo.2: ig://B0dndEXhSGs/m
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/7/30

@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 31.4630427
 longitude: 130.4997487
 map: https://goo.gl/maps/RHkCy9Syv8G2
-photo.1: ig://BKHIGMIhbiz/m
+photo.1: cwdc://VcL3tcxADQA.jpg
 photo.1.author: otsuruw
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/otsuruw/
+photo.1.link: https://www.instagram.com/p/BKHIGMIhbiz
+photo.1.tags: profile
 website: http://hirakawazoo.jp/

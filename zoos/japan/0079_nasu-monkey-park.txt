@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 37.0353086
 longitude: 140.0307087
 map: https://goo.gl/maps/wXxiP9TZrQG2
-photo.1: ig://Bk-TVBcl8ad/m
+photo.1: cwdc://WR6OLHZADQA.jpg
 photo.1.author: tomonobu_yasoshima
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/tomonobu_yasoshima/
+photo.1.link: https://www.instagram.com/p/Bk-TVBcl8ad
+photo.1.tags: profile
 website: http://www.nasumonkey.com/

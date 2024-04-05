@@ -46,11 +46,11 @@ photo.6.author: na.mo.pan
 photo.6.commitdate: 2018/7/28
 photo.6.link: https://www.instagram.com/na.mo.pan/
 photo.6.tags: tail
-photo.7: ig://BgwyRirg5bW/m
+photo.7: cwdc://WJfMEJ3ADQA.jpg
 photo.7.author: firefoxpanda88
 photo.7.commitdate: 2018/8/18
-photo.7.link: https://www.instagram.com/firefoxpanda88/
-photo.7.tags: profile, tongue, yawn
+photo.7.link: https://www.instagram.com/p/BgwyRirg5bW
+photo.7.tags: blink, portrait, profile, sample, tongue, yawn
 photo.8: ig://Bg3zaeLg5Ba/m
 photo.8.author: perie1027vivi
 photo.8.commitdate: 2018/7/16
@@ -165,10 +165,10 @@ photo.30.author: alto0908
 photo.30.commitdate: 2019/12/30
 photo.30.link: https://www.instagram.com/alto0908/
 photo.30.tags: lips, portrait
-photo.31: ig://B6E5sjJh2-y/m
+photo.31: cwdc://W8Ha6KzADQA.jpg
 photo.31.author: ck.chie
 photo.31.commitdate: 2019/12/29
-photo.31.link: https://www.instagram.com/ck.chie/
+photo.31.link: https://www.instagram.com/p/B6E5sjJh2-y
 photo.31.tags: laying down, tongue
 photo.32: ig://B6F0e4oBasI/m
 photo.32.author: kaoru_a358
@@ -206,9 +206,9 @@ photo.38.commitdate: 2020/6/8
 photo.38.link: https://www.instagram.com/minatomirai215/
 photo.38.tags: laying down, paws, portrait, tongue
 photo.39: ig://B6O01RhgcCF/m
-photo.39.author: sunnylettuce_2022
+photo.39.author: sunnylettuce_2024
 photo.39.commitdate: 2019/12/30
-photo.39.link: https://www.instagram.com/sunnylettuce_2022/
+photo.39.link: https://www.instagram.com/sunnylettuce_2024/
 photo.39.tags: lips, smile, tongue
 photo.40: ig://B6Zz5EoBHll/m
 photo.40.author: na.mo.pan
@@ -265,11 +265,11 @@ photo.50.author: rie_panda55
 photo.50.commitdate: 2020/1/27
 photo.50.link: https://www.instagram.com/rie_panda55/
 photo.50.tags: apple time, paws, portrait, smile
-photo.51: ig://B8TkiYJBlt9/m
+photo.51: cwdc://XAkwl0yADQB.jpg
 photo.51.author: ck.chie
 photo.51.commitdate: 2020/2/17
-photo.51.link: https://www.instagram.com/ck.chie/
-photo.51.tags: portrait, smile, tree
+photo.51.link: https://www.instagram.com/p/B8TkiYJBlt9
+photo.51.tags: portrait, sample, smile, tree
 photo.52: ig://B83wKcfBMqd/m
 photo.52.author: firefoxpanda88
 photo.52.commitdate: 2020/6/8
@@ -336,9 +336,9 @@ photo.64.commitdate: 2020/6/8
 photo.64.link: https://www.instagram.com/ssc6105/
 photo.64.tags: laying down, paws, sleeping
 photo.65: ig://B_JHPCHJJyy/m
-photo.65.author: sunnylettuce_2022
+photo.65.author: sunnylettuce_2024
 photo.65.commitdate: 2020/6/8
-photo.65.link: https://www.instagram.com/sunnylettuce_2022/
+photo.65.link: https://www.instagram.com/sunnylettuce_2024/
 photo.65.tags: home, laying down, sleeping
 photo.66: ig://B_Mr1mQh_4Q/m
 photo.66.author: pink.b22
@@ -890,11 +890,11 @@ photo.175.author: ssc6105
 photo.175.commitdate: 2021/11/19
 photo.175.link: https://www.instagram.com/ssc6105/
 photo.175.tags: mofumofu, paws, peek, portrait
-photo.176: ig://CVP9OYjBMDx/m
+photo.176: cwdc://Xydh91mADQE.jpg
 photo.176.author: ck.chie
 photo.176.commitdate: 2021/12/18
-photo.176.link: https://www.instagram.com/ck.chie/
-photo.176.tags: apple time, paws, portrait, smile
+photo.176.link: https://www.instagram.com/p/CVP9OYjBMDx
+photo.176.tags: apple time, paws, portrait, sample, smile
 photo.177: ig://CV9Qix8B--f/m
 photo.177.author: na.mo.pan
 photo.177.commitdate: 2022/9/10
@@ -975,15 +975,15 @@ photo.192.author: ssc6105
 photo.192.commitdate: 2022/2/11
 photo.192.link: https://www.instagram.com/ssc6105/
 photo.192.tags: ear, mofumofu, sample
-photo.193: ig://CaCSSVQvNBq/m
+photo.193: cwdc://X8CMFvBADQC.jpg
 photo.193.author: ck.chie
 photo.193.commitdate: 2022/4/15
-photo.193.link: https://www.instagram.com/ck.chie/
+photo.193.link: https://www.instagram.com/p/CaCSSVQvNBq
 photo.193.tags: apple time, paws, smile, whiskers
-photo.194: ig://CaE5v2rvlZn/m
+photo.194: cwdc://X8HbAx3ADQD.jpg
 photo.194.author: ck.chie
 photo.194.commitdate: 2022/4/15
-photo.194.link: https://www.instagram.com/ck.chie/
+photo.194.link: https://www.instagram.com/p/CaE5v2rvlZn
 photo.194.tags: bamboo, portrait, sample, smile, whiskers
 photo.195: ig://CbD3ZubBSbj/m
 photo.195.author: ssc6105

@@ -12,8 +12,9 @@ language.order: ja, en
 latitude: 36.4337633
 longitude: 136.5435233
 map: https://goo.gl/maps/45d7ga53bG62
-photo.1: ig://BYkaGr-gbEo/m
+photo.1: cwdc://V5GbucdADQA.jpg
 photo.1.author: 2009fxdl
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/2009fxdl/
+photo.1.link: https://www.instagram.com/p/BYkaGr-gbEo
+photo.1.tags: profile
 website: http://www.ishikawazoo.jp/

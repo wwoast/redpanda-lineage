@@ -57,15 +57,16 @@ photo.9: ig://BpE28QYlV3p/m
 photo.9.author: mifko55
 photo.9.commitdate: 2018/10/18
 photo.9.link: https://www.instagram.com/mifko55/
-photo.10: ig://BqCSFaJFOQR/m
+photo.10: cwdc://WcCLr4yADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2022/11/29
-photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.link: https://www.instagram.com/p/BqCSFaJFOQR
 photo.10.tags: peek, portrait, sample, tail
-photo.11: ig://BqHE5kPFPXn/m
+photo.11: cwdc://WcLxUM-ADQA.jpg
 photo.11.author: wumpwoast
 photo.11.commitdate: 2018/11/13
-photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.link: https://www.instagram.com/p/BqHE5kPFPXn
+photo.11.tags: portrait, sample, tail, whiskers
 photo.12: ig://BqUqNxJlYL9/m
 photo.12.author: monmon_redpanda
 photo.12.commitdate: 2018/11/18
@@ -81,10 +82,10 @@ photo.14.author: kipekaila
 photo.14.commitdate: 2018/12/17
 photo.14.link: https://www.instagram.com/kipekaila/
 photo.14.tags: apple time
-photo.15: ig://BrlwV6_lom_/m
+photo.15: cwdc://WfJIM6fADQA.jpg
 photo.15.author: wumpwoast
 photo.15.commitdate: 2020/4/27
-photo.15.link: https://www.instagram.com/wumpwoast/
+photo.15.link: https://www.instagram.com/p/BrlwV6_lom_
 photo.15.tags: home, portrait, tail
 photo.16: ig://BucXK-xFV1U/m
 photo.16.author: kipekaila
@@ -100,11 +101,11 @@ photo.18.author: yakkooo24
 photo.18.commitdate: 2019/6/5
 photo.18.link: https://www.instagram.com/yakkooo24/
 photo.18.tags: apple time, tongue
-photo.19: ig://ByX1ISUBt20/m
+photo.19: cwdc://WstRxpIADQA.jpg
 photo.19.author: resapanlove
 photo.19.commitdate: 2019/6/6
-photo.19.link: https://www.instagram.com/resapanlove/
-photo.19.tags: paws, portrait, profile, tree
+photo.19.link: https://www.instagram.com/p/ByX1ISUBt20
+photo.19.tags: paws, portrait, profile, sample, tree
 photo.20: ig://BzsjXsVhMnl/m
 photo.20.author: bubbles_octi
 photo.20.commitdate: 2019/7/10
@@ -233,10 +234,10 @@ photo.45.author: chankunvv
 photo.45.commitdate: 2020/9/14
 photo.45.link: https://www.instagram.com/chankunvv/
 photo.45.tags: portrait, smile
-photo.46: ig://CFLQs8pB5Fj/m
+photo.46: cwdc://XSUI69yADQA.jpg
 photo.46.author: wumpwoast
 photo.46.commitdate: 2021/6/6
-photo.46.link: https://www.instagram.com/wumpwoast/
+photo.46.link: https://www.instagram.com/p/CFLQs8pB5Fj
 photo.46.tags: home, portrait, tail
 photo.47: ig://CJBB890h0VH/m
 photo.47.author: chankunvv
@@ -268,10 +269,10 @@ photo.52.author: fetorus_mami
 photo.52.commitdate: 2021/10/10
 photo.52.link: https://www.instagram.com/fetorus_mami/
 photo.52.tags: baby, laying down, mofumofu, paws
-photo.53: ig://CTEGWkvLIdV/m
+photo.53: cwdc://XuF0ON-ADQA.jpg
 photo.53.author: wumpwoast
 photo.53.commitdate: 2021/8/27
-photo.53.link: https://www.instagram.com/wumpwoast/
+photo.53.link: https://www.instagram.com/p/CTEGWkvLIdV
 photo.53.tags: home, portrait, tongue
 photo.54: ig://CTSmV8HhUBL/m
 photo.54.author: nakacchi_desu

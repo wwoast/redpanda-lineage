@@ -15,15 +15,16 @@ language.order: en, ja
 litter: none
 location.1: 65, 2015/6/12
 location.2: 94, 2016/5/12
-photo.1: ig://BU4JYp8D4j_/m
+photo.1: cwdc://Vxt6SYYADQA.jpg
 photo.1.author: arnaultlavillephotography
 photo.1.commitdate: 2020/2/26
-photo.1.link: https://www.instagram.com/arnaultlavillephotography/
-photo.2: ig://B2OidPhJd8p/m
-photo.2.author: realbhadbhabie100
+photo.1.link: ig://BU4JYp8D4j_
+photo.1.tags: climb
+photo.2: cwdc://W0asbjiADQA.jpg
+photo.2.author: realmylah100
 photo.2.commitdate: 2020/2/26
-photo.2.link: https://www.instagram.com/realbhadbhabie100/
-photo.2.tags: bridge, portrait, smile, tail
+photo.2.link: ig://B2OidPhJd8p
+photo.2.tags: bridge, climb, portrait, smile, tail
 species: 2
 studbook.id: 1511
 zoo: 94
