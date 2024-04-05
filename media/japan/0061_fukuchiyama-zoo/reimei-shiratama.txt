@@ -47,21 +47,21 @@ photo.6.tags.959.location: 225, 170
 photo.7: cwdc://W2s_0S6ADQB.jpg
 photo.7.author: redpanda_nippon_takashi
 photo.7.commitdate: 2024/3/27
-photo.7.link: ig://B3XsJnNBUbA
+photo.7.link: ig://B3XsJnNBUbA?img_index=2
 photo.7.tags: baby, carry, mother's day, portrait
 photo.7.tags.285.location: 420, 340
 photo.7.tags.959.location: 590, 435
 photo.8: cwdc://W2s_0S6ADQC.jpg
 photo.8.author: redpanda_nippon_takashi
 photo.8.commitdate: 2024/3/27
-photo.8.link: ig://B3XsJnNBUbA
+photo.8.link: ig://B3XsJnNBUbA?img_index=3
 photo.8.tags: baby, mother's day, portrait, tail
 photo.8.tags.285.location: 285, 370
 photo.8.tags.959.location: 460, 420
 photo.9: cwdc://W2s_0S6ADQD.jpg
 photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2024/3/27
-photo.9.link: ig://B3XsJnNBUbA
+photo.9.link: ig://B3XsJnNBUbA?img_index=4
 photo.9.tags: baby, mofumofu, mother's day, portrait
 photo.9.tags.285.location: 550, 350
 photo.9.tags.959.location: 380, 425
@@ -110,7 +110,7 @@ photo.15.tags.959.location: 140, 200
 photo.16: cwdc://W4z9TU6ADQF.jpg
 photo.16.author: redpanda_nippon_takashi
 photo.16.commitdate: 2024/3/27
-photo.16.link: ig://B4bK5INBFwF
+photo.16.link: ig://B4bK5INBFwF?img_index=2
 photo.16.tags: baby, mother's day, portrait
 photo.16.tags.285.location: 470, 285
 photo.16.tags.959.location: 350, 550
@@ -124,7 +124,7 @@ photo.17.tags.959.location: 135, 180
 photo.18: cwdc://W44jmraADQH.jpg
 photo.18.author: redpanda_nippon_takashi
 photo.18.commitdate: 2024/3/27
-photo.18.link: ig://B4deCzdBjHf
+photo.18.link: ig://B4deCzdBjHf?img_index=3
 photo.18.tags: baby, mofumofu, mother's day, playing, upside-down
 photo.18.tags.285.location: 640, 435
 photo.18.tags.959.location: 430, 600

@@ -411,22 +411,22 @@ photo.79.tags: distance, home, portrait, sample, tail
 photo.80: cwdc://W5A27iuADQD.jpg
 photo.80.author: kisshan324
 photo.80.commitdate: 2024/3/27
-photo.80.link: ig://B4hntPHBUrI
+photo.80.link: ig://B4hntPHBUrI?img_index=2
 photo.80.tags: bridge, portrait, sample, smile, whiskers
 photo.81: cwdc://W5A27iuADQE.jpg
 photo.81.author: kisshan324
 photo.81.commitdate: 2024/3/27
-photo.81.link: ig://B4hntPHBUrI
+photo.81.link: ig://B4hntPHBUrI?img_index=3
 photo.81.tags: home, peek, portrait, sample
 photo.82: cwdc://W5A27iuADQF.jpg
 photo.82.author: kisshan324
 photo.82.commitdate: 2024/3/27
-photo.82.link: ig://B4hntPHBUrI
+photo.82.link: ig://B4hntPHBUrI?img_index=4
 photo.82.tags: home, laying down, paws, portrait, sample, tail
 photo.83: cwdc://W5A27iuADQG.jpg
 photo.83.author: kisshan324
 photo.83.commitdate: 2024/3/27
-photo.83.link: ig://B4hntPHBUrI
+photo.83.link: ig://B4hntPHBUrI?img_index=5
 photo.83.tags: home, laying down, peek, portrait
 photo.84: cwdc://W5A3xjTADQH.jpg
 photo.84.author: kisshan324
@@ -436,12 +436,12 @@ photo.84.tags: home, laying down, portrait, sample
 photo.85: cwdc://W5A3xjTADQI.jpg
 photo.85.author: kisshan324
 photo.85.commitdate: 2024/3/27
-photo.85.link: ig://B4hoIPZhfjF
+photo.85.link: ig://B4hoIPZhfjF?img_index=3
 photo.85.tags: home, laying down, peek, portrait, whiskers
 photo.86: cwdc://W5A3xjTADQJ.jpg
 photo.86.author: kisshan324
 photo.86.commitdate: 2024/3/27
-photo.86.link: ig://B4hoIPZhfjF
+photo.86.link: ig://B4hoIPZhfjF?img_index=4
 photo.86.tags: home, laying down, portrait, sample
 photo.87: cwdc://W5CzbqiADQB.jpg
 photo.87.author: redpanda_nippon_takashi
@@ -451,12 +451,12 @@ photo.87.tags: laying down, sample, whiskers
 photo.88: cwdc://W5CzbqiADQD.jpg
 photo.88.author: redpanda_nippon_takashi
 photo.88.commitdate: 2024/3/27
-photo.88.link: ig://B4il9TBHpC1
+photo.88.link: ig://B4il9TBHpC1?img_index=2
 photo.88.tags: sample
 photo.89: cwdc://W55TnIBADQC.jpg
 photo.89.author: leonard_redmof
 photo.89.commitdate: 2024/3/27
-photo.89.link: ig://B492DBwhKdW
+photo.89.link: ig://B492DBwhKdW?img_index=2
 photo.89.tags: portrait, sample, whiskers
 photo.90: cwdc://W6GEs0mADQA.jpg
 photo.90.author: panda.daisuki
