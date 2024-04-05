@@ -7,11 +7,17 @@ photo.1.author: chankunvv
 photo.1.commitdate: 2024/4/4
 photo.1.link: https://www.instagram.com/p/CWSIQI9r84W
 photo.1.tags: brothers, family, father's day
+photo.1.tags.62.location: 300, 245
+photo.1.tags.63.location: 695, 385
+photo.1.tags.66.location: 90, 250
 photo.2: cwdc://X0h4BWbADQB.jpg
 photo.2.author: chankunvv
 photo.2.commitdate: 2024/4/4
 photo.2.link: https://www.instagram.com/p/CWSIQI9r84X
 photo.2.tags: brothers, family, father's day
+photo.2.tags.62.location: 445, 240
+photo.2.tags.63.location: 385, 430
+photo.2.tags.66.location: 140, 285
 photo.3: cwdc://YXM8izyADQA.jpg
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2023/3/6
