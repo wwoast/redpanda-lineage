@@ -21,7 +21,7 @@ photo.1.tags: baby, keeper, mofumofu, portrait, sample
 photo.2: cwdc://W2frKSdADQB.jpg
 photo.2.author: redpanda_nippon_takashi
 photo.2.commitdate: 2024/3/27
-photo.2.link: ig://B3RB0m-hwL3
+photo.2.link: ig://B3RB0m-hwL3?img_index=2
 photo.2.tags: baby, mofumofu, portrait, sample
 photo.3: cwdc://W2g2RcoADQA.jpg
 photo.3.author: bubbles_octi
@@ -51,7 +51,7 @@ photo.7.tags: baby, portrait, sample
 photo.8: cwdc://W2ljGD9ADQC.jpg
 photo.8.author: framereim
 photo.8.commitdate: 2024/3/27
-photo.8.link: ig://B3T9yfuh0Dq
+photo.8.link: ig://B3T9yfuh0Dr?img_index=2
 photo.8.tags: baby, portrait, sample
 photo.9: cwdc://W2o5Wu4ADQC.jpg
 photo.9.author: redpanda_nippon_takashi
