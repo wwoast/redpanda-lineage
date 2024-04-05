@@ -4,3 +4,4 @@
 /submissions
 **.pyc
 __pycache__
+.idea/

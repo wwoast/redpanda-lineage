@@ -975,11 +975,11 @@ Show.button.options.action = function() {
   window.location = "#options";
 }
 Show.button.options.render = function(class_name="results") {
-  var options = Show.button.render("optionsButton", L.emoji.options, L.gui.options[L.display], class_name);
+  var options = Show.button.render("optionsButton", L.emoji.options, L.gui.options[L.display], class_name, "brightness-150");
   options.addEventListener("click", Show.button.options.action);
   return options;
 }
-Show.button.render = function(id, button_icon, button_text, class_name) {
+Show.button.render = function(id, button_icon, button_text, class_name, icon_class="") {
   // Draw menu buttons for the bottom menu, or potentially elsewhere.
   var button = document.createElement('button');
   button.className = "menu";
@@ -989,6 +989,9 @@ Show.button.render = function(id, button_icon, button_text, class_name) {
   content.className = "buttonContent";
   var icon_div = document.createElement('div');
   icon_div.className = 'buttonIcon';
+  if (icon_class) {
+    icon_div.classList.add(icon_class);
+  }
   icon_div.innerText = button_icon;
   content.appendChild(icon_div);
   if (button_text != undefined) {

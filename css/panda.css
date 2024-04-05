@@ -694,6 +694,10 @@ ul.zooCounts > li {
     padding-bottom: 0.5ex;
 }
 
+div.brightness-150 {
+    filter: brightness(150%);
+}
+
 h3, h4 {
     display: inline-block;
     margin-left: 18px;
