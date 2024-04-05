@@ -56,12 +56,12 @@ photo.8.tags: baby, portrait, sample
 photo.9: cwdc://W2o5Wu4ADQC.jpg
 photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2019/10/13
-photo.9.link: ig://B3Vo61MB769
+photo.9.link: ig://B3Vo61MB769?img_index=2
 photo.9.tags: baby, peek, smile
 photo.10: cwdc://W2o5Wu4ADQD.jpg
 photo.10.author: redpanda_nippon_takashi
 photo.10.commitdate: 2024/3/27
-photo.10.link: ig://B3Vo61MB769
+photo.10.link: ig://B3Vo61MB769?img_index=3
 photo.10.tags: baby, sample
 photo.11: cwdc://W2o5Wu4ADQE.jpg
 photo.11.author: redpanda_nippon_takashi
@@ -71,7 +71,7 @@ photo.11.tags: baby, peek
 photo.12: cwdc://W2pC-K9ADQF.jpg
 photo.12.author: redpanda_nippon_takashi
 photo.12.commitdate: 2024/3/27
-photo.12.link: ig://B3VtujOheAp
+photo.12.link: ig://B3VtujOheAp?img_index=7
 photo.12.tags: baby, mofumofu, portrait, sample
 photo.13: cwdc://W2q4UvDADQB.jpg
 photo.13.author: kisshan324
