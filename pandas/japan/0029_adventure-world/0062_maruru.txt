@@ -111,11 +111,11 @@ photo.20.author: bubbles_octi
 photo.20.commitdate: 2019/7/10
 photo.20.link: https://www.instagram.com/p/BzsjXsVhMnl
 photo.20.tags: blink, itchy, paws, portrait, sample
-photo.21: ig://B4KF5wtBbP_/m
+photo.21: cwdc://W4RzUl6ADQA.jpg
 photo.21.author: framereim
 photo.21.commitdate: 2019/10/29
-photo.21.link: https://www.instagram.com/framereim/
-photo.21.tags: portrait
+photo.21.link: https://www.instagram.com/p/B4KF5wtBbP_
+photo.21.tags: portrait, sample, whiskers
 photo.22: cwdc://W4Xa2ywADQA.jpg
 photo.22.author: chankunvv
 photo.22.commitdate: 2019/10/29
@@ -126,10 +126,10 @@ photo.23.author: mifko55
 photo.23.commitdate: 2019/11/17
 photo.23.link: https://www.instagram.com/p/B4zywq_B-h7
 photo.23.tags: paws, portrait, standing, tongue
-photo.24: ig://B5aBk5MBiss/m
+photo.24: cwdc://W6xqq24ADQA.jpg
 photo.24.author: nishicotolo
 photo.24.commitdate: 2019/11/29
-photo.24.link: https://www.instagram.com/nishicotolo/
+photo.24.link: https://www.instagram.com/p/B5aBk5MBiss
 photo.25: cwdc://W9JNSVtADQA.jpg
 photo.25.author: kipekaila
 photo.25.commitdate: 2019/12/29
@@ -145,36 +145,36 @@ photo.27.author: kipekaila
 photo.27.commitdate: 2019/12/31
 photo.27.link: https://www.instagram.com/p/B6q62TABHGs
 photo.27.tags: portrait, sample, whiskers
-photo.28: ig://B7SKlZPBTnP/m
+photo.28: cwdc://W-h8r2-ADQB.jpg
 photo.28.author: sasapan34
 photo.28.commitdate: 2020/1/16
-photo.28.link: https://www.instagram.com/sasapan34/
-photo.28.tags: bamboo, whiskers
-photo.29: ig://B7mk5a_BdiK/m
+photo.28.link: https://www.instagram.com/p/B7SKlZPBTnP
+photo.28.tags: bamboo, sample, whiskers
+photo.29: cwdc://W_KxT6eADQA.jpg
 photo.29.author: sasapan34
 photo.29.commitdate: 2020/1/25
-photo.29.link: https://www.instagram.com/sasapan34/
-photo.29.tags: laying down
-photo.30: ig://B7-ytn_Bt5U/m
+photo.29.link: https://www.instagram.com/p/B7mk5a_BdiK
+photo.29.tags: laying down, sample
+photo.30: cwdc://W_7M8UeADQA.jpg
 photo.30.author: _sah_ax7
 photo.30.commitdate: 2020/2/7
-photo.30.link: https://www.instagram.com/_sah_ax7/
-photo.30.tags: tongue, whiskers
-photo.31: ig://B8e7M3kB3ig/m
+photo.30.link: https://www.instagram.com/p/B7-ytn_Bt5U
+photo.30.tags: sample, tongue, whiskers
+photo.31: cwdc://XA7d6zoADQA.jpg
 photo.31.author: redpanda_nippon_takashi
 photo.31.commitdate: 2020/2/19
-photo.31.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.31.tags: paws, whiskers
-photo.32: ig://B8gOSFrBHu_/m
+photo.31.link: https://www.instagram.com/p/B8e7M3kB3ig
+photo.31.tags: paws, sample, whiskers
+photo.32: cwdc://XA-EFP2ADQA.jpg
 photo.32.author: miis_98
 photo.32.commitdate: 2020/2/22
-photo.32.link: https://www.instagram.com/miis_98/
-photo.32.tags: portrait, whiskers
-photo.33: ig://B8zo3FeBGgP/m
+photo.32.link: https://www.instagram.com/p/B8gOSFrBHu_
+photo.32.tags: portrait, sample, whiskers
+photo.33: cwdc://XBk5PPcADQB.jpg
 photo.33.author: miis_98
 photo.33.commitdate: 2020/3/8
-photo.33.link: https://www.instagram.com/miis_98/
-photo.33.tags: portrait, tail, tree
+photo.33.link: https://www.instagram.com/p/B8zo3FeBGgP
+photo.33.tags: portrait, sample, tail, tree
 photo.34: cwdc://XC4a1F1ADQD.jpg
 photo.34.author: kipekaila
 photo.34.commitdate: 2020/3/8
@@ -185,14 +185,14 @@ photo.35.author: kipekaila
 photo.35.commitdate: 2020/3/29
 photo.35.link: https://www.instagram.com/p/B-IhPJJBga5
 photo.35.tags: peek, portrait, sample
-photo.36: ig://B-J7fj6hmcB/m
+photo.36: cwdc://XERegMVADQB.jpg
 photo.36.author: nishicotolo
 photo.36.commitdate: 2020/3/29
-photo.36.link: https://www.instagram.com/nishicotolo/
-photo.37: ig://B-xyvCyBeYd/m
+photo.36.link: https://www.instagram.com/p/B-J7fj6hmcB
+photo.37: cwdc://XFhM_KEADQC.jpg
 photo.37.author: sasapan34
 photo.37.commitdate: 2021/10/10
-photo.37.link: https://www.instagram.com/sasapan34/
+photo.37.link: https://www.instagram.com/p/B-xyvCyBeYd
 photo.37.tags: smile, whiskers
 photo.38: cwdc://XGIKs5DADQE.jpg
 photo.38.author: kipekaila
@@ -224,10 +224,10 @@ photo.43.author: nakacchi_desu
 photo.43.commitdate: 2020/7/3
 photo.43.link: https://www.instagram.com/p/CBoEGPtBTZ0
 photo.43.tags: peek, sample, tree, whiskers
-photo.44: ig://CDI9ODGhtWC/m
+photo.44: cwdc://XOPh9KtADQB.jpg
 photo.44.author: framereim
 photo.44.commitdate: 2020/8/3
-photo.44.link: https://www.instagram.com/framereim/
+photo.44.link: https://www.instagram.com/p/CDI9ODGhtWC
 photo.44.tags: laying down, paws, smile
 photo.45: cwdc://XRgUwCDADQB.jpg
 photo.45.author: chankunvv
@@ -284,10 +284,10 @@ photo.55.author: grskus_tk
 photo.55.commitdate: 2022/6/11
 photo.55.link: https://www.instagram.com/p/CbuU0uUvasz
 photo.55.tags: paws, sample, tail, whiskers
-photo.56: ig://CluerWph2wA/m
+photo.56: cwdc://YTak3xzADQC.jpg
 photo.56.author: framereim
 photo.56.commitdate: 2022/12/15
-photo.56.link: https://www.instagram.com/framereim/
+photo.56.link: https://www.instagram.com/p/CluerWph2wA
 photo.56.tags: bridge, climb, paws, portrait, sample, tail
 photo.57: cwdc://YXP6t-sADQA.jpg
 photo.57.author: yuredpanda
@@ -574,3 +574,5 @@ photo.111.author: kipekaila
 photo.111.commitdate: 2024/4/7
 photo.111.link: https://www.instagram.com/p/C1lqWwnrXYH
 photo.111.tags: sample, tongue, whiskers
+photo.24.tags: sample, whiskers
+photo.36.tags: paws, sample, whiskers
