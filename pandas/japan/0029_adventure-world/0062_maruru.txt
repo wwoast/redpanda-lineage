@@ -106,21 +106,21 @@ photo.19.author: resapanlove
 photo.19.commitdate: 2019/6/6
 photo.19.link: https://www.instagram.com/p/ByX1ISUBt20
 photo.19.tags: paws, portrait, profile, sample, tree
-photo.20: ig://BzsjXsVhMnl/m
+photo.20: cwdc://WvWuQdLADQA.jpg
 photo.20.author: bubbles_octi
 photo.20.commitdate: 2019/7/10
-photo.20.link: https://www.instagram.com/bubbles_octi/
-photo.20.tags: blink, itchy, portrait
+photo.20.link: https://www.instagram.com/p/BzsjXsVhMnl
+photo.20.tags: blink, itchy, paws, portrait, sample
 photo.21: ig://B4KF5wtBbP_/m
 photo.21.author: framereim
 photo.21.commitdate: 2019/10/29
 photo.21.link: https://www.instagram.com/framereim/
 photo.21.tags: portrait
-photo.22: ig://B4M5q3IBqPc/m
+photo.22: cwdc://W4Xa2ywADQA.jpg
 photo.22.author: chankunvv
 photo.22.commitdate: 2019/10/29
-photo.22.link: https://www.instagram.com/chankunvv/
-photo.22.tags: blink, paws
+photo.22.link: https://www.instagram.com/p/B4M5q3IBqPc
+photo.22.tags: blink, paws, whiskers
 photo.23: ig://B4zywq_B-h7/m
 photo.23.author: mifko55
 photo.23.commitdate: 2019/11/17
@@ -229,30 +229,30 @@ photo.44.author: framereim
 photo.44.commitdate: 2020/8/3
 photo.44.link: https://www.instagram.com/framereim/
 photo.44.tags: laying down, paws, smile
-photo.45: ig://CExWnexhCGt/m
+photo.45: cwdc://XRgUwCDADQB.jpg
 photo.45.author: chankunvv
 photo.45.commitdate: 2020/9/14
-photo.45.link: https://www.instagram.com/chankunvv/
-photo.45.tags: portrait, smile
+photo.45.link: https://www.instagram.com/p/CExWnexhCGt
+photo.45.tags: portrait, sample, smile, whiskers
 photo.46: cwdc://XSUI69yADQA.jpg
 photo.46.author: wumpwoast
 photo.46.commitdate: 2021/6/6
 photo.46.link: https://www.instagram.com/p/CFLQs8pB5Fj
 photo.46.tags: home, portrait, tail
-photo.47: ig://CJBB890h0VH/m
+photo.47: cwdc://XZ_rbAJADQE.jpg
 photo.47.author: chankunvv
 photo.47.commitdate: 2020/12/30
-photo.47.link: https://www.instagram.com/chankunvv/
-photo.47.tags: paws, portrait, whiskers
-photo.48: ig://CK-RmumB284/m
+photo.47.link: https://www.instagram.com/p/CJBB890h0VH
+photo.47.tags: paws, portrait, sample, whiskers
+photo.48: cwdc://Xd6KuhsADQB.jpg
 photo.48.author: chankunvv
 photo.48.commitdate: 2021/2/20
-photo.48.link: https://www.instagram.com/chankunvv/
-photo.48.tags: portrait, whiskers
-photo.49: ig://CNzZ8TVh_4q/m
+photo.48.link: https://www.instagram.com/p/CK-RmumB284
+photo.48.tags: portrait, sample, whiskers
+photo.49: cwdc://XjkbZrLADQA.jpg
 photo.49.author: chankunvv
 photo.49.commitdate: 2021/9/6
-photo.49.link: https://www.instagram.com/chankunvv/
+photo.49.link: https://www.instagram.com/p/CNzZ8TVh_4q
 photo.49.tags: bamboo, home, paws, portrait, standing
 photo.50: ig://CO6wx7aBYGA/m
 photo.50.author: chankunvv
@@ -307,3 +307,83 @@ video.2: https://youtu.be/E9tuO9lsrXc
 video.2.author: 兎派の窈ちゃん
 video.2.link: https://www.youtube.com/channel/UCssHd_epOrzybm5BJXTIBCQ
 zoo: 29
+photo.59: cwdc://W7oCwveADQB.jpg
+photo.59.author: chankunvv
+photo.59.commitdate: 2024/4/7
+photo.59.link: https://www.instagram.com/p/B51Nn1fBPb_
+photo.59.tags: home, portrait, sample, whiskers
+photo.60: cwdc://XEl7SyWADQD.jpg
+photo.60.author: chankunvv
+photo.60.commitdate: 2024/4/7
+photo.60.link: https://www.instagram.com/p/B-UJ427B-_U
+photo.60.tags: paws, portrait, sample, tree, whiskers
+photo.61: cwdc://XJBfOZWADQA.jpg
+photo.61.author: chankunvv
+photo.61.commitdate: 2024/4/7
+photo.61.link: https://www.instagram.com/p/CAh72qbHK_Q
+photo.61.tags: blink, home, portrait, sample, tail
+photo.62: cwdc://XRgUwCDADQC.jpg
+photo.62.author: chankunvv
+photo.62.commitdate: 2024/4/7
+photo.62.link: https://www.instagram.com/p/CExWnexhCGu
+photo.62.tags: peek, portrait, sample, smile, whiskers
+photo.63: cwdc://XRgUwCDADQD.jpg
+photo.63.author: chankunvv
+photo.63.commitdate: 2024/4/7
+photo.63.link: https://www.instagram.com/p/CExWnexhCGv
+photo.63.tags: mofumofu, peek, portrait, sample, smile
+photo.64: cwdc://XRgUwCDADQE.jpg
+photo.64.author: chankunvv
+photo.64.commitdate: 2020/9/14
+photo.64.link: https://www.instagram.com/p/CExWnexhCGt
+photo.64.tags: portrait, sample, smile, whiskers
+photo.65: cwdc://XZ_rbAJADQF.jpg
+photo.65.author: chankunvv
+photo.65.commitdate: 2024/4/7
+photo.65.link: https://www.instagram.com/p/CJBB890h0VH
+photo.65.tags: paws, portrait, sample, whiskers
+photo.66: cwdc://XbDHxBVADQG.jpg
+photo.66.author: chankunvv
+photo.66.commitdate: 2024/4/7
+photo.66.link: https://www.instagram.com/p/CJiwH-ah5Oe
+photo.66.tags: paws, portrait, sample, whiskers
+photo.67: cwdc://Xi_FXcrADQA.jpg
+photo.67.author: chankunvv
+photo.67.commitdate: 2024/4/7
+photo.67.link: https://www.instagram.com/p/CNgu7MFhKo1
+photo.67.tags: portrait, window
+photo.68: cwdc://YfU10zqADQA.jpg
+photo.68.author: chankunvv
+photo.68.commitdate: 2024/4/7
+photo.68.link: https://www.instagram.com/p/CrrnJ3lPoh1
+photo.68.tags: mofumofu, paws, portrait, sample, whiskers
+photo.69: cwdc://YfU10zqADQB.jpg
+photo.69.author: chankunvv
+photo.69.commitdate: 2024/4/7
+photo.69.link: https://www.instagram.com/p/CrrnJ3lPoh2
+photo.69.tags: laying down, mofumofu, portrait, sample, sleeping, whiskers
+photo.70: cwdc://YfU10zqADQC.jpg
+photo.70.author: chankunvv
+photo.70.commitdate: 2024/4/7
+photo.70.link: https://www.instagram.com/p/CrrnJ3lPoh3
+photo.70.tags: dish, portrait, sample, whiskers
+photo.71: cwdc://YfU10zqADQD.jpg
+photo.71.author: chankunvv
+photo.71.commitdate: 2024/4/7
+photo.71.link: https://www.instagram.com/p/CrrnJ3lPoh4
+photo.71.tags: mofumofu, peek, portrait, sample, whiskers
+photo.72: cwdc://YfvdfbHADQA.jpg
+photo.72.author: chankunvv
+photo.72.commitdate: 2024/4/7
+photo.72.link: https://www.instagram.com/p/Cr46_LTvqxT
+photo.72.tags: climb, paws, portrait, surprise
+photo.73: cwdc://YfvdfbHADQB.jpg
+photo.73.author: chankunvv
+photo.73.commitdate: 2024/4/7
+photo.73.link: https://www.instagram.com/p/Cr46_LTvqxU
+photo.73.tags: laying down, portrait, yawn
+photo.74: cwdc://YrG-ocmADQA.jpg
+photo.74.author: chankunvv
+photo.74.commitdate: 2024/4/7
+photo.74.link: https://www.instagram.com/p/CxkrjsDPkBH
+photo.74.tags: itchy, mofumofu, paws, portrait, sample, whiskers
