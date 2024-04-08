@@ -58,10 +58,10 @@ photo.9.author: _natsu_panda_
 photo.9.commitdate: 2018/12/25
 photo.9.link: https://www.instagram.com/p/Brga5kHlGzy
 photo.9.tags: muzzle, portrait, sample
-photo.10: ig://BrkPEVBFMO6/m
+photo.10: cwdc://WfGFpuiADQA.jpg
 photo.10.author: mifko55
 photo.10.commitdate: 2018/12/19
-photo.10.link: https://www.instagram.com/mifko55/
+photo.10.link: https://www.instagram.com/p/BrkPEVBFMO6
 photo.10.tags: baby, muzzle, standing, tree
 photo.11: cwdc://WfgtLIhADQd.jpg
 photo.11.author: craig_craig_craig
@@ -113,10 +113,10 @@ photo.20.author: pon.bird
 photo.20.commitdate: 2019/2/4
 photo.20.link: https://www.instagram.com/p/BtQud0qgHMh
 photo.20.tags: laying down, portrait, sample, tree
-photo.21: ig://BtitTfLF0J0/m
+photo.21: cwdc://WjDCIC2ADQB.jpg
 photo.21.author: mifko55
 photo.21.commitdate: 2019/2/17
-photo.21.link: https://www.instagram.com/mifko55/
+photo.21.link: https://www.instagram.com/p/BtitTfLF0J0
 photo.21.tags: baby, sample
 photo.22: cwdc://Wjb_KjNADQB.jpg
 photo.22.author: nakageo
@@ -416,10 +416,10 @@ photo.81.author: yakko____
 photo.81.commitdate: 2022/7/31
 photo.81.link: https://www.instagram.com/p/B6rtICwBaBT
 photo.81.tags: bamboo, mofumofu, portrait, sample
-photo.82: ig://B6sCqriBIXS/m
+photo.82: cwdc://W9Vs2bkADQA.jpg
 photo.82.author: chankunvv
 photo.82.commitdate: 2019/12/31
-photo.82.link: https://www.instagram.com/chankunvv/
+photo.82.link: https://www.instagram.com/p/B6sCqriBIXS
 photo.82.tags: air tasting, portrait, sample, tongue, whiskers
 photo.83: cwdc://W9XToY-ADQB.jpg
 photo.83.author: kipekaila
@@ -436,10 +436,10 @@ photo.85.author: sasapan34
 photo.85.commitdate: 2020/1/19
 photo.85.link: https://www.instagram.com/p/B7aq3c9Bqxe
 photo.85.tags: peek, sample
-photo.86: ig://B7gFttmh5B0/m
+photo.86: cwdc://W-9y8ftADQC.jpg
 photo.86.author: chankunvv
 photo.86.commitdate: 2020/1/21
-photo.86.link: https://www.instagram.com/chankunvv/
+photo.86.link: https://www.instagram.com/p/B7gFttmh5B0
 photo.86.tags: portrait, sample, techitechi, whiskers
 photo.87: cwdc://W_Lp7msADQB.jpg
 photo.87.author: adventureworld_official
@@ -641,10 +641,10 @@ photo.126.author: craig_craig_craig
 photo.126.commitdate: 2020/5/2
 photo.126.link: https://www.instagram.com/p/B-wwHnSBgSM
 photo.126.tags: portrait, sample, tail
-photo.127: ig://B-zZrc6BNzn/m
+photo.127: cwdc://XFka3-UADQC.jpg
 photo.127.author: mifko55
 photo.127.commitdate: 2020/5/2
-photo.127.link: https://www.instagram.com/mifko55/
+photo.127.link: https://www.instagram.com/p/B-zZrc6BNzn
 photo.127.tags: baby, mofumofu, muzzle, portrait, sample, tail
 photo.128: cwdc://XGNTOM7ADQa.jpg
 photo.128.author: craig_craig_craig
@@ -681,15 +681,15 @@ photo.134.author: craig_craig_craig
 photo.134.commitdate: 2020/6/20
 photo.134.link: https://www.instagram.com/p/CAxV3j5n7O6
 photo.134.tags: dish, portrait
-photo.135: ig://CAxW70JBu0T/m
+photo.135: cwdc://XJgVYsyADQD.jpg
 photo.135.author: mifko55
 photo.135.commitdate: 2020/6/20
-photo.135.link: https://www.instagram.com/mifko55/
+photo.135.link: https://www.instagram.com/p/CAxW70JBu0T
 photo.135.tags: bridge, peek, portrait, sample, tail
-photo.136: ig://CCJJiTphHaX/m
+photo.136: cwdc://XMP6lrzADQE.jpg
 photo.136.author: hamiiiii831_
 photo.136.commitdate: 2020/7/14
-photo.136.link: https://www.instagram.com/hamiiiii831_/
+photo.136.link: https://www.instagram.com/p/CCJJiTphHaX
 photo.136.tags: paws, sample, standing
 photo.137: cwdc://XM9vGczADQR.jpg
 photo.137.author: chankunvv
@@ -831,15 +831,15 @@ photo.164.author: framereim
 photo.164.commitdate: 2022/8/7
 photo.164.link: https://www.instagram.com/p/CNwVg-Mhjyr
 photo.164.tags: mofumofu, portrait, sample, smile, tail, tongue, whiskers
-photo.165: ig://CNxNjiYhRkL/m
+photo.165: cwdc://XjgCoJRADQC.jpg
 photo.165.author: chankunvv
 photo.165.commitdate: 2021/5/3
-photo.165.link: https://www.instagram.com/chankunvv/
+photo.165.link: https://www.instagram.com/p/CNxNjiYhRkL
 photo.165.tags: paws, portrait, standing
-photo.166: ig://CN96D55B3Rt/m
+photo.166: cwdc://Xj5bo4SADQB.jpg
 photo.166.author: chankunvv
 photo.166.commitdate: 2021/5/19
-photo.166.link: https://www.instagram.com/chankunvv/
+photo.166.link: https://www.instagram.com/p/CN96D55B3Rt
 photo.166.tags: dish, peek, portrait, sample
 photo.167: cwdc://Xkbrvh-ADQT.jpg
 photo.167.author: framereim
@@ -856,15 +856,15 @@ photo.169.author: sasapan34
 photo.169.commitdate: 2021/6/28
 photo.169.link: https://www.instagram.com/p/COxhYKxhr-k
 photo.169.tags: dish, nose
-photo.170: ig://CPxwLhGB4KM/m
+photo.170: cwdc://XnhH4GsADQD.jpg
 photo.170.author: chankunvv
 photo.170.commitdate: 2021/6/20
-photo.170.link: https://www.instagram.com/chankunvv/
+photo.170.link: https://www.instagram.com/p/CPxwLhGB4KM
 photo.170.tags: paws, portrait, smile
-photo.171: ig://CSjMXIELenf/m
+photo.171: cwdc://XtEAPUoADQG.jpg
 photo.171.author: chankunvv
 photo.171.commitdate: 2021/11/21
-photo.171.link: https://www.instagram.com/chankunvv/
+photo.171.link: https://www.instagram.com/p/CSjMXIELenf
 photo.171.tags: mofumofu, nose, portrait, sample
 photo.172: cwdc://XuqW1GUADQO.jpg
 photo.172.author: adventureworld_official
@@ -941,10 +941,10 @@ photo.186.author: monmon_redpanda
 photo.186.commitdate: 2022/11/4
 photo.186.link: https://www.instagram.com/p/CkdRwKmPIy9
 photo.186.tags: dish, lunch time, nose, portrait, sample, smile, whiskers
-photo.187: ig://Cl_BnE-LWu8/m
+photo.187: cwdc://YT7qvOcADQA.jpg
 photo.187.author: chankunvv
 photo.187.commitdate: 2023/4/9
-photo.187.link: https://www.instagram.com/chankunvv/
+photo.187.link: https://www.instagram.com/p/Cl_BnE-LWu8
 photo.187.tags: paws, portrait, standing, whiskers
 photo.188: cwdc://YXNZ6P5ADQ1.jpg
 photo.188.author: fetorus_mami
@@ -1642,3 +1642,18 @@ photo.324.author: kipekaila
 photo.324.commitdate: 2024/4/7
 photo.324.link: https://www.instagram.com/p/C1nzhjnvAnJ
 photo.324.tags: peek, whiskers
+photo.325: cwdc://W3JndFnADQF.jpg
+photo.325.author: kai.kuniko
+photo.325.commitdate: 2024/4/7
+photo.325.link: https://www.instagram.com/p/B3l_-AjgmX1
+photo.325.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
+photo.326: cwdc://XnhH4GsADQE.jpg
+photo.326.author: chankunvv
+photo.326.commitdate: 2024/4/7
+photo.326.link: https://www.instagram.com/p/CPxwLhGB4KM
+photo.326.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.327: cwdc://XnhH4GsADQF.jpg
+photo.327.author: chankunvv
+photo.327.commitdate: 2024/4/7
+photo.327.link: https://www.instagram.com/p/CPxwLhGB4KM
+photo.327.tags: paws, portrait, sample, smile
