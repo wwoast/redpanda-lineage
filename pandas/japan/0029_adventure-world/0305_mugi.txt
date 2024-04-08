@@ -336,10 +336,10 @@ photo.65.author: framereim
 photo.65.commitdate: 2019/10/8
 photo.65.link: https://www.instagram.com/p/B23-k0fhOmr
 photo.65.tags: paws, tree
-photo.66: ig://B3l_-AjgmX0/m
+photo.66: cwdc://W3JndFnADQG.jpg
 photo.66.author: kai.kuniko
 photo.66.commitdate: 2019/10/17
-photo.66.link: https://www.instagram.com/kai.kuniko/
+photo.66.link: https://www.instagram.com/p/B3l_-AjgmX0
 photo.66.tags: bridge, laying down, paws, portrait, sample
 photo.67: cwdc://W4IERsAADQA.jpg
 photo.67.author: fetorus_mami
@@ -846,10 +846,10 @@ photo.167.author: framereim
 photo.167.commitdate: 2021/5/3
 photo.167.link: https://www.instagram.com/p/COPCHOvBuOx
 photo.167.tags: dish, laying down, lunch time, peek, sample, smile, whiskers
-photo.168: ig://CORnMrdhMw5/m
+photo.168: cwdc://Xkg16bbADQA.jpg
 photo.168.author: chankunvv
 photo.168.commitdate: 2021/5/3
-photo.168.link: https://www.instagram.com/chankunvv/
+photo.168.link: https://www.instagram.com/p/CORnMrdhMw5
 photo.168.tags: bamboo, paws, portrait, smile, standing, tail
 photo.169: cwdc://XlgqRaDADQB.jpg
 photo.169.author: sasapan34
@@ -1657,3 +1657,13 @@ photo.327.author: chankunvv
 photo.327.commitdate: 2024/4/7
 photo.327.link: https://www.instagram.com/p/CPxwLhGB4KM
 photo.327.tags: paws, portrait, sample, smile
+photo.328: cwdc://Xkg16bbADQB.jpg
+photo.328.author: chankunvv
+photo.328.commitdate: 2024/4/7
+photo.328.link: https://www.instagram.com/p/CORnMrdhMw6
+photo.328.tags: dish, lunch time, portrait, sample, shedding
+photo.329: cwdc://Xkg16bbADQC.jpg
+photo.329.author: chankunvv
+photo.329.commitdate: 2024/4/7
+photo.329.link: https://www.instagram.com/p/CORnMrdhMw7
+photo.329.tags: mofumofu, portrait, sample, window
