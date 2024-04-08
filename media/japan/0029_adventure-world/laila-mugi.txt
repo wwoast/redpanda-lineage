@@ -7,6 +7,8 @@ photo.1.author: adventureworld_official
 photo.1.commitdate: 2024/4/8
 photo.1.link: https://www.instagram.com/p/BqMBnbxFUL1
 photo.1.tags: baby, mother's day, paws, portrait, sample, whiskers
+photo.1.tags.60.location: 365, 355
+photo.1.tags.305.location: 180, 380
 photo.2: cwdc://WdJ7E8NADQA.jpg
 photo.2.author: framereim
 photo.2.commitdate: 2019/5/14
@@ -47,6 +49,8 @@ photo.7.author: pon.bird
 photo.7.commitdate: 2024/4/8
 photo.7.link: https://www.instagram.com/p/BtQud0qgHMj
 photo.7.tags: baby, climb, mofumofu, paws, upside-down
+photo.7.tags.60.location: 435, 305
+photo.7.tags.305.location: 175, 450
 photo.8: cwdc://Wq_l2PoADQA.jpg
 photo.8.author: bubbles_octi
 photo.8.commitdate: 2019/5/18
@@ -59,16 +63,22 @@ photo.9.author: bubbles_octi
 photo.9.commitdate: 2024/4/8
 photo.9.link: https://www.instagram.com/p/Bxg_KlkF2_4
 photo.9.tags: bridge, mother's day, peek, sample
+photo.9.tags.60.location: 90, 200
+photo.9.tags.305.location: 460, 260
 photo.10: cwdc://Wq_l2PoADQC.jpg
 photo.10.author: bubbles_octi
 photo.10.commitdate: 2024/4/8
 photo.10.link: https://www.instagram.com/p/Bxg_KlkF2_5
 photo.10.tags: grooming, mother's day, paws
+photo.10.tags.60.location: 435, 265
+photo.10.tags.305.location: 645, 285
 photo.11: cwdc://WrN6LWiADQA.jpg
 photo.11.author: framereim
 photo.11.commitdate: 2024/4/8
 photo.11.link: https://www.instagram.com/p/BxoJVJBFsSG
 photo.11.tags: mother's day, paws, whiskers
+photo.11.tags.60.location: 655, 355
+photo.11.tags.305.location: 310, 275
 photo.12: cwdc://WsEGOG_ADQA.jpg
 photo.12.author: redpanda_nippon_takashi
 photo.12.commitdate: 2019/5/31
@@ -88,6 +98,8 @@ photo.14.author: daniele.tokyo
 photo.14.commitdate: 2024/4/8
 photo.14.link: https://www.instagram.com/p/B1gNDRJhBJ4
 photo.14.tags: apple time, baby, dish, keeper, mother's day, paws, standing, tail
+photo.14.tags.60.location: 135, 175
+photo.14.tags.305.location: 505, 335
 photo.15: cwdc://W3n5b8TADQA.jpg
 photo.15.author: chankunvv
 photo.15.commitdate: 2019/10/28
@@ -135,6 +147,8 @@ photo.21.author: chankunvv
 photo.21.commitdate: 2024/4/8
 photo.21.link: https://www.instagram.com/p/B4ZqzuUhhe6
 photo.21.tags: close-up, grooming, laying down, mofumofu, paws, tongue, window
+photo.21.tags.60.location: 100, 430
+photo.21.tags.305.location: 575, 435
 photo.22: cwdc://W6pzUlwADQA.jpg
 photo.22.author: s24.star_load
 photo.22.commitdate: 2019/11/29
@@ -161,6 +175,8 @@ photo.25.author: adventureworld_official
 photo.25.commitdate: 2024/4/8
 photo.25.link: https://www.instagram.com/p/B8nN4mghlom
 photo.25.tags: mother's day, portrait, sample, tail, window
+photo.25.tags.60.location: 710, 440
+photo.25.tags.305.location: 85, 340
 photo.26: cwdc://XDcuxs5ADQA.jpg
 photo.26.author: kipekaila
 photo.26.commitdate: 2020/3/17
