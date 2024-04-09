@@ -379,21 +379,21 @@ photo.74.author: taka__3428
 photo.74.commitdate: 2019/9/19
 photo.74.link: https://www.instagram.com/p/B2aCRwIB77F
 photo.74.tags: laying down, sample, whiskers, white face
-photo.75: ig://B3GAVqJhDWO/m
+photo.75: cwdc://W2JoMYzADQA.jpg
 photo.75.author: makimaru18
 photo.75.commitdate: 2019/10/12
-photo.75.link: https://www.instagram.com/makimaru18/
-photo.75.tags: nose, peek, portrait
+photo.75.link: https://www.instagram.com/p/B3GAVqJhDWO
+photo.75.tags: nose, peek, portrait, sample
 photo.76: cwdc://W2bjFtmADQK.jpg
 photo.76.author: taka__3428
 photo.76.commitdate: 2019/10/12
 photo.76.link: https://www.instagram.com/p/B3O9yUjBeD-
 photo.76.tags: sample, smile, whiskers, white face
-photo.77: ig://B3ZOaZSBpnx/m
+photo.77: cwdc://W2wEV3EADQA.jpg
 photo.77.author: daniele.tokyo
 photo.77.commitdate: 2019/10/19
-photo.77.link: https://www.instagram.com/daniele.tokyo/
-photo.77.tags: bamboo, white face
+photo.77.link: https://www.instagram.com/p/B3ZOaZSBpnx
+photo.77.tags: bamboo, sample, whiskers, white face
 photo.78: cwdc://W2wmd8aADQQ.jpg
 photo.78.author: taka__3428
 photo.78.commitdate: 2019/10/15
@@ -444,11 +444,11 @@ photo.87.author: taka__3428
 photo.87.commitdate: 2019/12/5
 photo.87.link: https://www.instagram.com/p/B5FbQfIBPKk
 photo.87.tags: apple time, paws, smile, window
-photo.88: ig://B5HjJoTBd28/m
+photo.88: cwdc://W6Mt0VGADQA.jpg
 photo.88.author: yossi929
 photo.88.commitdate: 2019/12/5
-photo.88.link: https://www.instagram.com/yossi929/
-photo.88.tags: apple time, portrait, window
+photo.88.link: https://www.instagram.com/p/B5HjJoTBd28
+photo.88.tags: apple time, portrait, sample, window
 photo.89: cwdc://W6qci8xADQC.jpg
 photo.89.author: minatomirai215
 photo.89.commitdate: 2019/11/28
@@ -1203,3 +1203,18 @@ photo.237.author: resapanlove
 photo.237.commitdate: 2024/4/8
 photo.237.link: https://www.instagram.com/p/CtJXzPOPkFk
 photo.237.tags: apple time, keeper, sample, whiskers
+photo.238: cwdc://W2JoMYzADQB.jpg
+photo.238.author: makimaru18
+photo.238.commitdate: 2024/4/8
+photo.238.link: https://www.instagram.com/p/B3GAVqJhDWO
+photo.238.tags: paws, portrait, sample, tail, whiskers, white face
+photo.239: cwdc://W2JoMYzADQC.jpg
+photo.239.author: makimaru18
+photo.239.commitdate: 2024/4/8
+photo.239.link: https://www.instagram.com/p/B3GAVqJhDWQ
+photo.239.tags: apple time, dish, peek, portrait, tail, whiskers
+photo.240: cwdc://W2JoMYzADQD.jpg
+photo.240.author: makimaru18
+photo.240.commitdate: 2024/4/8
+photo.240.link: https://www.instagram.com/p/B3GAVqJhDWR
+photo.240.tags: paws, portrait, sample, whiskers, white face, window
