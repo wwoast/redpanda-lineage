@@ -476,12 +476,12 @@ photo.92.tags: bamboo, portrait, sample, tongue
 photo.93: cwdc://W7Za3OcADQM.jpg
 photo.93.author: kisshan324
 photo.93.commitdate: 2024/3/27
-photo.93.link: ig://B5t5rE-Br1V
+photo.93.link: ig://B5t5rE-Br1V?img_index=2
 photo.93.tags: portrait, smile
 photo.94: cwdc://W7ZhwqHADQN.jpg
 photo.94.author: kisshan324
 photo.94.commitdate: 2024/3/27
-photo.94.link: ig://B5t9Hyzhyup
+photo.94.link: ig://B5t9Hyzhyup?img_index=3
 photo.94.tags: peek, portrait, tail
 photo.95: cwdc://W8LkmVbADQD.jpg
 photo.95.author: redpanda_nippon_takashi
@@ -501,7 +501,7 @@ photo.97.tags: mofumofu, portrait, sample, tail, whiskers
 photo.98: cwdc://W9pWRpqADQC.jpg
 photo.98.author: sakikukeco
 photo.98.commitdate: 2024/3/27
-photo.98.link: ig://B613YSlBY4s
+photo.98.link: ig://B613YSlBY4r?img_index=5
 photo.98.tags: paws, portrait, tree, upside-down
 photo.99: cwdc://XB8QdCZADQE.jpg
 photo.99.author: love__mitarashi

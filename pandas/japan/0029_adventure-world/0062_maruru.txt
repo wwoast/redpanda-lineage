@@ -181,22 +181,22 @@ photo.33.tags: blink, itchy, paws, portrait, sample
 photo.34: cwdc://W3JndFnADQA.jpg
 photo.34.author: kai.kuniko
 photo.34.commitdate: 2024/4/7
-photo.34.link: ig://B3l_-AjgmX0
+photo.34.link: ig://B3l_-AjgmX0?img_index=4
 photo.34.tags: climb, head-first, portrait, tree
 photo.35: cwdc://W3JndFnADQB.jpg
 photo.35.author: kai.kuniko
 photo.35.commitdate: 2024/4/7
-photo.35.link: ig://B3l_-AjgmX1
+photo.35.link: ig://B3l_-AjgmX0?img_index=5
 photo.35.tags: peek, portrait, sample, tail, tree
 photo.36: cwdc://W3JndFnADQC.jpg
 photo.36.author: kai.kuniko
 photo.36.commitdate: 2024/4/7
-photo.36.link: ig://B3l_-AjgmX2
+photo.36.link: ig://B3l_-AjgmX0?img_index=6
 photo.36.tags: portrait, sample, whiskers
 photo.37: cwdc://W3JndFnADQD.jpg
 photo.37.author: kai.kuniko
 photo.37.commitdate: 2024/4/7
-photo.37.link: ig://B3l_-AjgmX3
+photo.37.link: ig://B3l_-AjgmX0?img_index=7
 photo.37.tags: home, laying down, portrait, sample, whiskers
 photo.38: cwdc://W4RzUl6ADQA.jpg
 photo.38.author: framereim
@@ -351,27 +351,27 @@ photo.67.tags: portrait, sample, smile, tongue, whiskers
 photo.68: cwdc://XHn5lDKADQC.jpg
 photo.68.author: fetorus_mami
 photo.68.commitdate: 2024/4/7
-photo.68.link: ig://B_1JB_VJAvn
+photo.68.link: ig://B_1JB_VJAvm?img_index=2
 photo.68.tags: mofumofu, portrait, sample, smile, whiskers
 photo.69: cwdc://XHn5lDKADQD.jpg
 photo.69.author: fetorus_mami
 photo.69.commitdate: 2024/4/7
-photo.69.link: ig://B_1JB_VJAvo
+photo.69.link: ig://B_1JB_VJAvm?img_index=3
 photo.69.tags: peek, portrait, sample, whiskers
 photo.70: cwdc://XHn5lDKADQE.jpg
 photo.70.author: fetorus_mami
 photo.70.commitdate: 2024/4/7
-photo.70.link: ig://B_1JB_VJAvp
+photo.70.link: ig://B_1JB_VJAvm?img_index=4
 photo.70.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
 photo.71: cwdc://XHn5lDKADQF.jpg
 photo.71.author: fetorus_mami
 photo.71.commitdate: 2024/4/7
-photo.71.link: ig://B_1JB_VJAvq
+photo.71.link: ig://B_1JB_VJAvm?img_index=5
 photo.71.tags: keeper, paws, portrait, sample
 photo.72: cwdc://XHn5lDKADQG.jpg
 photo.72.author: fetorus_mami
 photo.72.commitdate: 2024/4/7
-photo.72.link: ig://B_1JB_VJAvr
+photo.72.link: ig://B_1JB_VJAvm?img_index=6
 photo.72.tags: ambassador, close-up, mofumofu, portrait, sample, whiskers
 photo.73: cwdc://XJBfOZWADQA.jpg
 photo.73.author: chankunvv
