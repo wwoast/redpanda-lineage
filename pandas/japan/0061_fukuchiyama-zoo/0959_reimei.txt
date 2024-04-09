@@ -166,22 +166,22 @@ photo.30.tags: baby, mofumofu, paws, portrait, sample
 photo.31: cwdc://W4nqTxqADQB.jpg
 photo.31.author: akiakiakiko18
 photo.31.commitdate: 2024/3/27
-photo.31.link: ig://B4VBZWlBVOg
+photo.31.link: ig://B4VBZWlBVOg?img_index=2
 photo.31.tags: baby, climb, mofumofu, paws, tail
 photo.32: cwdc://W4nqTxqADQC.jpg
 photo.32.author: akiakiakiko18
 photo.32.commitdate: 2024/3/27
-photo.32.link: ig://B4VBZWlBVOg
+photo.32.link: ig://B4VBZWlBVOg?img_index=3
 photo.32.tags: baby, close-up, sample
 photo.33: cwdc://W4nqTxqADQD.jpg
 photo.33.author: akiakiakiko18
 photo.33.commitdate: 2024/3/27
-photo.33.link: ig://B4VBZWlBVOg
+photo.33.link: ig://B4VBZWlBVOg?img_index=4
 photo.33.tags: baby, door, paws, sample, standing, tail
 photo.34: cwdc://W4vye-OADQC.jpg
 photo.34.author: kisshan324
 photo.34.commitdate: 2024/3/27
-photo.34.link: ig://B4ZFe83B3JA
+photo.34.link: ig://B4ZFe83B3JA?img_index=7
 photo.34.tags: baby, mofumofu, paws, portrait, sample, tail
 photo.35: cwdc://W4v0QSwADQI.jpg
 photo.35.author: redpanda_nippon_takashi
@@ -191,17 +191,17 @@ photo.35.tags: baby, grumpy, mofumofu
 photo.36: cwdc://W4v0QSwADQJ.jpg
 photo.36.author: redpanda_nippon_takashi
 photo.36.commitdate: 2024/3/27
-photo.36.link: ig://B4ZGXnIBLcP
-photo.36.tags: baby, mofumofu, paws, yawn
+photo.36.link: ig://B4ZGXnIBLcP?img_index=3
+photo.36.tags: baby, mofumofu, paws, tongue, yawn
 photo.37: cwdc://W4v0QSwADQK.jpg
 photo.37.author: redpanda_nippon_takashi
 photo.37.commitdate: 2024/3/27
-photo.37.link: ig://B4ZGXnIBLcP
+photo.37.link: ig://B4ZGXnIBLcP?img_index=5
 photo.37.tags: baby, paws, peek
 photo.38: cwdc://W4xATy9ADQL.jpg
 photo.38.author: redpanda_nippon_takashi
-photo.38.commitdate: 2019/11/5
-photo.38.link: ig://B4ZsZXOhyez
+photo.38.commitdate: 2024/3/27
+photo.38.link: ig://B4ZsZXOhyez?img_index=4
 photo.38.tags: baby, mofumofu, portrait, smile, window
 photo.39: cwdc://W4xATy9ADQM.jpg
 photo.39.author: redpanda_nippon_takashi
@@ -251,12 +251,12 @@ photo.47.tags: baby, climb, paws
 photo.48: cwdc://W5kvHUiADQF.jpg
 photo.48.author: resapanlove
 photo.48.commitdate: 2024/3/27
-photo.48.link: ig://B4zjzIBBlE5
+photo.48.link: ig://B4zjzIBBlE5?img_index=2
 photo.48.tags: baby, laying down, mofumofu, paws, tail, wink
 photo.49: cwdc://W5kvHUiADQG.jpg
 photo.49.author: resapanlove
 photo.49.commitdate: 2024/3/27
-photo.49.link: ig://B4zjzIBBlE5
+photo.49.link: ig://B4zjzIBBlE5?img_index=3
 photo.49.tags: baby, mofumofu, sample
 photo.50: cwdc://W5k_h8IADQD.jpg
 photo.50.author: craig_craig_craig
@@ -301,7 +301,7 @@ photo.57.tags: baby, bamboo, mofumofu, portrait, sample, tail
 photo.58: cwdc://W57_4stADQA.jpg
 photo.58.author: leonard_redmof
 photo.58.commitdate: 2024/3/27
-photo.58.link: ig://B4_ML0Ghs2a
+photo.58.link: ig://B4_ML0Ghs2a?img_index=2
 photo.58.tags: baby, peek, portrait, tree
 photo.59: cwdc://W6CK8i2ADQE.jpg
 photo.59.author: love__mitarashi
