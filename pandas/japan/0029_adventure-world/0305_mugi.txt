@@ -451,17 +451,17 @@ photo.87.tags: close-up, laying down, paws, portrait, sample, smile
 photo.88: cwdc://W0L7OXCADQB.jpg
 photo.88.author: motohin
 photo.88.commitdate: 2024/4/7
-photo.88.link: ig://B2HJ2pRBaaj
+photo.88.link: ig://B2HJ2pRBaaj?img_index=3
 photo.88.tags: paws, peek, portrait
 photo.89: cwdc://W0L7OXCADQC.jpg
 photo.89.author: motohin
 photo.89.commitdate: 2024/4/7
-photo.89.link: ig://B2HJ2pRBaaj
+photo.89.link: ig://B2HJ2pRBaaj?img_index=4
 photo.89.tags: paws, portrait, sample, techitechi, whiskers
 photo.90: cwdc://W0L7OXCADQD.jpg
 photo.90.author: motohin
 photo.90.commitdate: 2024/4/7
-photo.90.link: ig://B2HJ2pRBaaj
+photo.90.link: ig://B2HJ2pRBaaj?img_index=5
 photo.90.tags: mofumofu, portrait, sample, smile, whiskers
 photo.91: cwdc://W0Q9-ymADQA.jpg
 photo.91.author: nakacchi_desu
@@ -486,22 +486,22 @@ photo.94.tags: paws, sample, smile, spider, tail
 photo.95: cwdc://W0le-kWADQE.jpg
 photo.95.author: resapanlove
 photo.95.commitdate: 2024/4/7
-photo.95.link: ig://B2T7uv7B3km
+photo.95.link: ig://B2T7uv7B3kl?img_index=2
 photo.95.tags: climb, head-first, paws, sample, spider, tail
 photo.96: cwdc://W0le-kWADQF.jpg
 photo.96.author: resapanlove
 photo.96.commitdate: 2024/4/7
-photo.96.link: ig://B2T7uv7B3kn
+photo.96.link: ig://B2T7uv7B3kl?img_index=3
 photo.96.tags: paws, sample, smile, tail
 photo.97: cwdc://W0yG4D0ADQB.jpg
 photo.97.author: chankunvv
 photo.97.commitdate: 2024/4/7
-photo.97.link: ig://B2aPrfqBn_p
+photo.97.link: ig://B2aPrfqBn_p?img_index=2
 photo.97.tags: bamboo, mofumofu, peek, portrait, sample
 photo.98: cwdc://W1Tr4P_ADQC.jpg
 photo.98.author: resapanlove
 photo.98.commitdate: 2024/4/7
-photo.98.link: ig://B2rCLlvh_JI
+photo.98.link: ig://B2rCLlvh_JI?img_index=2
 photo.98.tags: mofumofu, paws, portrait, sample, smile, tail
 photo.99: cwdc://W1tkqtfADQF.jpg
 photo.99.author: framereim
@@ -511,7 +511,7 @@ photo.99.tags: paws, tree
 photo.100: cwdc://W1tkqtfADQG.jpg
 photo.100.author: framereim
 photo.100.commitdate: 2024/4/7
-photo.100.link: ig://B23-k0fhOms
+photo.100.link: ig://B23-k0fhOmr?img_index=2
 photo.100.tags: sample, smile, whiskers
 photo.101: cwdc://W3JndFnADQE.jpg
 photo.101.author: kai.kuniko
@@ -531,7 +531,7 @@ photo.103.tags: bridge, laying down, paws, portrait, sample
 photo.104: cwdc://W3n5b8TADQI.jpg
 photo.104.author: chankunvv
 photo.104.commitdate: 2024/4/7
-photo.104.link: ig://B31I9b5hVGy
+photo.104.link: ig://B31I9b5hVGy?img_index=3
 photo.104.tags: bridge, laying down, mofumofu, portrait, sample, whiskers
 photo.105: cwdc://W4IERsAADQA.jpg
 photo.105.author: fetorus_mami
@@ -541,37 +541,37 @@ photo.105.tags: dish, paws, sample, smile, tongue, whiskers
 photo.106: cwdc://W4IERsAADQB.jpg
 photo.106.author: fetorus_mami
 photo.106.commitdate: 2024/4/7
-photo.106.link: ig://B4FOYTwB7aI
+photo.106.link: ig://B4FOYTwB7aI?img_index=3
 photo.106.tags: paws, sample, smile, tongue, whiskers, window
 photo.107: cwdc://W4IERsAADQC.jpg
 photo.107.author: fetorus_mami
 photo.107.commitdate: 2024/4/7
-photo.107.link: ig://B4FOYTwB7aK
+photo.107.link: ig://B4FOYTwB7aI?img_index=6
 photo.107.tags: bamboo, mofumofu, peek, sample
 photo.108: cwdc://W4IERsAADQD.jpg
 photo.108.author: fetorus_mami
 photo.108.commitdate: 2024/4/7
-photo.108.link: ig://B4FOYTwB7aL
+photo.108.link: ig://B4FOYTwB7aI?img_index=10
 photo.108.tags: apple time, paws, sample, standing, tongue
 photo.109: cwdc://W4aH-wUADQE.jpg
 photo.109.author: fetorus_mami
 photo.109.commitdate: 2024/4/7
-photo.109.link: ig://B4OQO16BcFQ
+photo.109.link: ig://B4OQO16BcFQ?img_index=3
 photo.109.tags: laying down, mofumofu, peek, sample
 photo.110: cwdc://W4aH-wUADQF.jpg
 photo.110.author: fetorus_mami
 photo.110.commitdate: 2024/4/7
-photo.110.link: ig://B4OQO16BcFR
+photo.110.link: ig://B4OQO16BcFQ?img_index=5
 photo.110.tags: laying down, mofumofu, sample, whiskers
 photo.111: cwdc://W4aH-wUADQG.jpg
 photo.111.author: fetorus_mami
 photo.111.commitdate: 2024/4/7
-photo.111.link: ig://B4OQO16BcFS
+photo.111.link: ig://B4OQO16BcFQ?img_index=9
 photo.111.tags: peek, sample, tail
 photo.112: cwdc://W4aH-wUADQH.jpg
 photo.112.author: fetorus_mami
 photo.112.commitdate: 2024/4/7
-photo.112.link: ig://B4OQO16BcFT
+photo.112.link: ig://B4OQO16BcFQ?img_index=10
 photo.112.tags: close-up, mofumofu, sample, whiskers
 photo.113: cwdc://W4cfRdKADQA.jpg
 photo.113.author: framereim
