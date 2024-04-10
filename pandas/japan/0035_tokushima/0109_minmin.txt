@@ -740,9 +740,6 @@ photo.145.author: love__mitarashi
 photo.145.commitdate: 2024/4/9
 photo.145.link: https://www.instagram.com/p/C5A76oaPoD7
 photo.145.tags: laying down, paws, sample
-species: 2
-studbook.id: 10104
-zoo: 35
 photo.146: cwdc://Y7HUBchADQA.jpg
 photo.146.author: tokushimazoo
 photo.146.commitdate: 2024/4/10
@@ -758,3 +755,6 @@ photo.148.author: tokushimazoo
 photo.148.commitdate: 2024/4/10
 photo.148.link: https://www.instagram.com/p/C5k2QMAhO2t
 photo.148.tags: paws, portrait, sample, standing, whiskers
+species: 2
+studbook.id: 10104
+zoo: 35
