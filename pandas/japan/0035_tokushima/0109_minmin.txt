@@ -114,10 +114,10 @@ photo.20.author: love__mitarashi
 photo.20.commitdate: 2019/7/9
 photo.20.link: https://www.instagram.com/p/BzmLwSmhbkz
 photo.20.tags: paws, portrait, sample, tree, whiskers
-photo.21: ig://B1FBduZBu5t/m
+photo.21: cwdc://WyHqchSADQA.jpg
 photo.21.author: redpanda_nippon_takashi
 photo.21.commitdate: 2019/8/15
-photo.21.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.21.link: https://www.instagram.com/p/B1FBduZBu5t
 photo.22: cwdc://WzDA-KBADQA.jpg
 photo.22.author: love__mitarashi
 photo.22.commitdate: 2019/8/24
@@ -243,11 +243,11 @@ photo.46.author: love__mitarashi
 photo.46.commitdate: 2023/6/25
 photo.46.link: https://www.instagram.com/p/CcP3icVryuF
 photo.46.tags: laying down, sample, whiskers
-photo.47: ig://Cc_9zzkhnbx/m
+photo.47: cwdc://YB9jIrpADQA.jpg
 photo.47.author: tokushimazoo
 photo.47.commitdate: 2022/10/14
-photo.47.link: https://www.instagram.com/tokushimazoo/
-photo.47.tags: apple time, close-up, whiskers
+photo.47.link: https://www.instagram.com/p/Cc_9zzkhnbx
+photo.47.tags: apple time, close-up, portrait, whiskers
 photo.48: cwdc://YbQ0XaqADRi.jpg
 photo.48.author: love__mitarashi
 photo.48.commitdate: 2023/6/25
@@ -737,3 +737,9 @@ photo.144.author: love__mitarashi
 photo.144.commitdate: 2024/4/9
 photo.144.link: https://www.instagram.com/p/CzGjKq7vZDk
 photo.144.tags: laying down, paws, sample
+photo.21.tags: bridge, peek, sample, whiskers
+photo.145: cwdc://YqbcQOHADQB.jpg
+photo.145.author: tokushimazoo
+photo.145.commitdate: 2024/4/9
+photo.145.link: https://www.instagram.com/p/CxO6Xkzhr0B
+photo.145.tags: home, peek
