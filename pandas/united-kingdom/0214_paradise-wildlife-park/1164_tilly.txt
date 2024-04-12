@@ -151,48 +151,46 @@ photo.27.author: worldthathesees
 photo.27.commitdate: 2022/12/10
 photo.27.link: ig://CXV8FuGrr1d
 photo.27.tags: sample, whiskers, white face
-photo.28: cwdc://YGMcWgmADQA.jpg
-photo.28.author: keeper_charlie_k
-photo.28.commitdate: 2022/12/11
-photo.28.link: ig://CfHaauDKd6c
-photo.28.tags: bamboo, bite, close-up, sample, tongue
-photo.29: cwdc://YGhlV9-ADQE.jpg
-photo.29.author: keeper_charlie_k
-photo.29.commitdate: 2022/12/11
-photo.29.link: ig://CfR-6cvKmd6
-photo.29.tags: close-up, nose, whiskers
-photo.30: cwdc://YK66eBKADQY.jpg
-photo.30.author: paradisewildlifepark
-photo.30.commitdate: 2022/12/10
-photo.30.link: ig://ChepeeVIZ17
-photo.30.tags: portrait, sample, tongue
-photo.31: cwdc://YMIKIO3ADQZ.jpg
-photo.31.author: paradisewildlifepark
-photo.31.commitdate: 2022/10/7
-photo.31.link: ig://CiFRTlLo4eD
-photo.31.tags: close-up, sample, tongue, whiskers
-photo.32: cwdc://YNLuhTxADQF.jpg
-photo.32.author: keeper_charlie_k
-photo.32.commitdate: 2022/12/11
-photo.32.link: ig://CinDgHoqEWL
-photo.32.tags: bamboo, close-up, paws
-photo.33: cwdc://YPc8rFWADQG.jpg
-photo.33.author: keeper_charlie_k
-photo.33.commitdate: 2022/12/11
-photo.33.link: ig://CjvqlAbKUiK
-photo.33.tags: laying down
-photo.34: cwdc://YSPw2iBADQb.jpg
-photo.34.author: paradisewildlifepark
-photo.34.commitdate: 2022/12/10
-photo.34.link: ig://ClJEquwo0E_
-photo.34.tags: air tasting, close-up, laying down, mofumofu, portrait, sample, tongue, whiskers
-photo.35: cwdc://YS1FdC6ADQH.jpg
+photo.28: cwdc://X2pfsgtADQB.jpg
+photo.28.author: worldthathesees
+photo.28.commitdate: 2024/4/11
+photo.28.link: ig://CXV8FuGrr1d?img_index=2
+photo.28.tags: peek, sample
+photo.29: cwdc://X2pfsgtADQC.jpg
+photo.29.author: worldthathesees
+photo.29.commitdate: 2024/4/11
+photo.29.link: ig://CXV8FuGrr1d?img_index=3
+photo.29.tags: techitechi
+photo.30: cwdc://X2pfsgtADQD.jpg
+photo.30.author: worldthathesees
+photo.30.commitdate: 2024/4/11
+photo.30.link: ig://CXV8FuGrr1d?img_index=4
+photo.30.tags: peek, sample
+photo.31: cwdc://X2pfsgtADQE.jpg
+photo.31.author: worldthathesees
+photo.31.commitdate: 2024/4/11
+photo.31.link: ig://CXV8FuGrr1d/img_index=5
+photo.31.tags: bamboo, bite, paws, techitechi
+photo.32: cwdc://X2pfsgtADQF.jpg
+photo.32.author: worldthathesees
+photo.32.commitdate: 2024/4/11
+photo.32.link: ig://CXV8FuGrr1d?img_index=6
+photo.32.tags: peek, techitechi
+photo.33: cwdc://X2pfsgtADQG.jpg
+photo.33.author: worldthathesees
+photo.33.commitdate: 2024/4/11
+photo.33.link: ig://CXV8FuGrr1d?img_index=7
+photo.33.tags: laying down, pwas, sample, techitechi, tree
+photo.34: cwdc://X2pfsgtADQH.jpg
+photo.34.author: worldthathesees
+photo.34.commitdate: 2024/4/11
+photo.34.link: ig://CXV8FuGrr1d?img_index=8
+photo.34.tags: laying down, mofumofu, sample, tail, whiskers
+photo.35: cwdc://YGMcWgmADQA.jpg
 photo.35.author: keeper_charlie_k
 photo.35.commitdate: 2022/12/11
-photo.35.link: ig://Clbu9_NK77D
-photo.35.tags: door, peek, sample, whiskers
-species: 1
-zoo: 214
+photo.35.link: ig://CfHaauDKd6c
+photo.35.tags: bamboo, bite, close-up, sample, tongue
 photo.36: cwdc://YGMcWgmADQB.jpg
 photo.36.author: keeper_charlie_k
 photo.36.commitdate: 2024/4/11
@@ -208,48 +206,50 @@ photo.38.author: keeper_charlie_k
 photo.38.commitdate: 2024/4/11
 photo.38.link: ig://CfHaauDKd6c?img_index=6
 photo.38.tags: portrait, sample, whiskers, white face
-photo.39: cwdc://YMIKIO3ADQa.jpg
-photo.39.author: paradisewildlifepark
-photo.39.commitdate: 2024/4/11
-photo.39.link: ig://CiFRTlLo4eD?img_index=2
-photo.39.tags: sample, tongue, whiskers
-photo.40: cwdc://YSPw2iBADQc.jpg
+photo.39: cwdc://YGhlV9-ADQE.jpg
+photo.39.author: keeper_charlie_k
+photo.39.commitdate: 2022/12/11
+photo.39.link: ig://CfR-6cvKmd6
+photo.39.tags: close-up, nose, whiskers
+photo.40: cwdc://YK66eBKADQY.jpg
 photo.40.author: paradisewildlifepark
-photo.40.commitdate: 2024/4/11
-photo.40.link: ig://ClJEquwo0E_
-photo.40.tags: close-up, lips, peek, portrait, sample, whiskers
-photo.41: cwdc://X2pfsgtADQB.jpg
-photo.41.author: worldthathesees
-photo.41.commitdate: 2024/4/11
-photo.41.link: ig://CXV8FuGrr1d?img_index=2
-photo.41.tags: peek, sample
-photo.42: cwdc://X2pfsgtADQC.jpg
-photo.42.author: worldthathesees
+photo.40.commitdate: 2022/12/10
+photo.40.link: ig://ChepeeVIZ17
+photo.40.tags: portrait, sample, tongue
+photo.41: cwdc://YMIKIO3ADQZ.jpg
+photo.41.author: paradisewildlifepark
+photo.41.commitdate: 2022/10/7
+photo.41.link: ig://CiFRTlLo4eD
+photo.41.tags: close-up, sample, tongue, whiskers
+photo.42: cwdc://YMIKIO3ADQa.jpg
+photo.42.author: paradisewildlifepark
 photo.42.commitdate: 2024/4/11
-photo.42.link: ig://CXV8FuGrr1d?img_index=3
-photo.42.tags: techitechi
-photo.43: cwdc://X2pfsgtADQD.jpg
-photo.43.author: worldthathesees
-photo.43.commitdate: 2024/4/11
-photo.43.link: ig://CXV8FuGrr1d?img_index=4
-photo.43.tags: peek, sample
-photo.44: cwdc://X2pfsgtADQE.jpg
-photo.44.author: worldthathesees
-photo.44.commitdate: 2024/4/11
-photo.44.link: ig://CXV8FuGrr1d/img_index=5
-photo.44.tags: bamboo, bite, paws, techitechi
-photo.45: cwdc://X2pfsgtADQF.jpg
-photo.45.author: worldthathesees
-photo.45.commitdate: 2024/4/11
-photo.45.link: ig://CXV8FuGrr1d?img_index=6
-photo.45.tags: peek, techitechi
-photo.46: cwdc://X2pfsgtADQG.jpg
-photo.46.author: worldthathesees
+photo.42.link: ig://CiFRTlLo4eD?img_index=2
+photo.42.tags: sample, tongue, whiskers
+photo.43: cwdc://YNLuhTxADQF.jpg
+photo.43.author: keeper_charlie_k
+photo.43.commitdate: 2022/12/11
+photo.43.link: ig://CinDgHoqEWL
+photo.43.tags: bamboo, close-up, paws
+photo.44: cwdc://YPc8rFWADQG.jpg
+photo.44.author: keeper_charlie_k
+photo.44.commitdate: 2022/12/11
+photo.44.link: ig://CjvqlAbKUiK
+photo.44.tags: laying down
+photo.45: cwdc://YSPw2iBADQb.jpg
+photo.45.author: paradisewildlifepark
+photo.45.commitdate: 2022/12/10
+photo.45.link: ig://ClJEquwo0E_
+photo.45.tags: air tasting, close-up, laying down, mofumofu, portrait, sample, tongue, whiskers
+photo.46: cwdc://YSPw2iBADQc.jpg
+photo.46.author: paradisewildlifepark
 photo.46.commitdate: 2024/4/11
-photo.46.link: ig://CXV8FuGrr1d?img_index=7
-photo.46.tags: laying down, pwas, sample, techitechi, tree
-photo.47: cwdc://X2pfsgtADQH.jpg
-photo.47.author: worldthathesees
-photo.47.commitdate: 2024/4/11
-photo.47.link: ig://CXV8FuGrr1d?img_index=8
-photo.47.tags: laying down, mofumofu, sample, tail, whiskers
+photo.46.link: ig://ClJEquwo0E_
+photo.46.tags: close-up, lips, peek, portrait, sample, whiskers
+photo.47: cwdc://YS1FdC6ADQH.jpg
+photo.47.author: keeper_charlie_k
+photo.47.commitdate: 2022/12/11
+photo.47.link: ig://Clbu9_NK77D
+photo.47.tags: door, peek, sample, whiskers
+species: 1
+zoo: 214
