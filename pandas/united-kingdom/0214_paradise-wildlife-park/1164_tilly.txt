@@ -146,10 +146,10 @@ photo.26.author: jobrownphotography
 photo.26.commitdate: 2022/12/10
 photo.26.link: ig://CMxWizsgjqU
 photo.26.tags: door, home, laying down, paws, portrait, sample, whiskers
-photo.27: ig://CXV8FuGrr1d/m
+photo.27: cwdc://X2pfsgtADQA.jpg
 photo.27.author: worldthathesees
 photo.27.commitdate: 2022/12/10
-photo.27.link: https://www.instagram.com/worldthathesees/
+photo.27.link: ig://CXV8FuGrr1d
 photo.27.tags: sample, whiskers, white face
 photo.28: cwdc://YGMcWgmADQA.jpg
 photo.28.author: keeper_charlie_k
@@ -218,3 +218,38 @@ photo.40.author: paradisewildlifepark
 photo.40.commitdate: 2024/4/11
 photo.40.link: ig://ClJEquwo0E_
 photo.40.tags: close-up, lips, peek, portrait, sample, whiskers
+photo.41: cwdc://X2pfsgtADQB.jpg
+photo.41.author: worldthathesees
+photo.41.commitdate: 2024/4/11
+photo.41.link: ig://CXV8FuGrr1d?img_index=2
+photo.41.tags: peek, sample
+photo.42: cwdc://X2pfsgtADQC.jpg
+photo.42.author: worldthathesees
+photo.42.commitdate: 2024/4/11
+photo.42.link: ig://CXV8FuGrr1d?img_index=3
+photo.42.tags: techitechi
+photo.43: cwdc://X2pfsgtADQD.jpg
+photo.43.author: worldthathesees
+photo.43.commitdate: 2024/4/11
+photo.43.link: ig://CXV8FuGrr1d?img_index=4
+photo.43.tags: peek, sample
+photo.44: cwdc://X2pfsgtADQE.jpg
+photo.44.author: worldthathesees
+photo.44.commitdate: 2024/4/11
+photo.44.link: ig://CXV8FuGrr1d/img_index=5
+photo.44.tags: bamboo, bite, paws, techitechi
+photo.45: cwdc://X2pfsgtADQF.jpg
+photo.45.author: worldthathesees
+photo.45.commitdate: 2024/4/11
+photo.45.link: ig://CXV8FuGrr1d?img_index=6
+photo.45.tags: peek, techitechi
+photo.46: cwdc://X2pfsgtADQG.jpg
+photo.46.author: worldthathesees
+photo.46.commitdate: 2024/4/11
+photo.46.link: ig://CXV8FuGrr1d?img_index=7
+photo.46.tags: laying down, pwas, sample, techitechi, tree
+photo.47: cwdc://X2pfsgtADQH.jpg
+photo.47.author: worldthathesees
+photo.47.commitdate: 2024/4/11
+photo.47.link: ig://CXV8FuGrr1d?img_index=8
+photo.47.tags: laying down, mofumofu, sample, tail, whiskers
