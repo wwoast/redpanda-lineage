@@ -48,7 +48,7 @@ photo.6.tags: baby, mofumofu, sample, whiskers
 photo.7: cwdc://YPxgmRLADQA.jpg
 photo.7.author: keeper_charlie_k
 photo.7.commitdate: 2022/12/11
-photo.7.link: https://www.instagram.com/p/Cj58imVqMfx
+photo.7.link: ig://Cj58imVqMfx
 photo.7.tags: baby, mofumofu, portrait, profile, sample, whiskers
 photo.8: cwdc://YSMPoWNADQD.jpg
 photo.8.author: keeper_charlie_k
@@ -68,7 +68,7 @@ photo.10.tags: baby, paws, whiskers
 photo.11: cwdc://YaEorsvADQB.jpg
 photo.11.author: paradisewildlifepark
 photo.11.commitdate: 2024/4/13
-photo.11.link: ig://carsontheredpanda/CpDglUHvg_q
+photo.11.link: ig://carsontheredpanda/CpDglUHvg_q?img_index=2
 photo.11.tags: paws, portrait, sample, standing, white face, wink
 photo.12: cwdc://YaEorsvADQC.jpg
 photo.12.author: paradisewildlifepark
@@ -113,12 +113,12 @@ photo.19.tags: mofumofu, paws, peek, tail, tree
 photo.20: cwdc://Yqck2MDADQD.jpg
 photo.20.author: marwellzoo
 photo.20.commitdate: 2024/4/13
-photo.20.link: ig://CxPeqjxtFcB
+photo.20.link: ig://CxPeqjxtFcA?img_index=2
 photo.20.tags: close-up, paws, sample, smile, whiskers
 photo.21: cwdc://Yqck2MDADQE.jpg
 photo.21.author: marwellzoo
 photo.21.commitdate: 2024/4/13
-photo.21.link: ig://CxPeqjxtFcC
+photo.21.link: ig://CxPeqjxtFcA?img_index=3
 photo.21.tags: paws, sample, smile, tree, whiskers
 species: 1
 zoo: 315
