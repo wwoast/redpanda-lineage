@@ -3,7 +3,8 @@ _id: 214
 commitdate: 2019/11/1
 en.address: White Stubbs Ln, Broxbourne EN10 7QA, United Kingdom
 en.location: Broxbourne EN10 7QA, UK
-en.name: Paradise Wildlife Park
+en.name: Hertfordshire Zoo
+en.oldname: Paradise Wildlife Park
 flag: UK
 language.order: en
 latitude: 51.744107
