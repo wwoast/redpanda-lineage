@@ -15,55 +15,110 @@ language.order: en, ja
 litter: none
 location.1: 214, 2022/7/16
 location.2: 315, 2023/6/29
-photo.1: ig://ChUEAUTIHGT/m
+photo.1: cwdc://YKlvhtGADQE.jpg
 photo.1.author: paradisewildlifepark
 photo.1.commitdate: 2022/9/14
-photo.1.link: https://www.instagram.com/paradisewildlifepark/
-photo.1.tags: baby, newborn, videolink
-photo.2: ig://ChcnfnNrhQJ/m
+photo.1.link: ig://ChUEAUTIHGT
+photo.1.tags: baby, mofumofu, newborn, videolink
+photo.2: cwdc://YK22gS7ADQE.jpg
 photo.2.author: paradisewildlifepark
 photo.2.commitdate: 2022/9/14
-photo.2.link: https://www.instagram.com/carsontheredpanda/
-photo.2.tags: baby, newborn, portrait, tail
-photo.3: ig://ChuGMemIK7j/m
+photo.2.link: ig://carsontheredpanda/ChcnfnNrhQJ?img_index=2
+photo.2.tags: baby, close-up, mofumofu, newborn, portrait, tail
+photo.3: cwdc://YLZz6BsADQD.jpg
 photo.3.author: paradisewildlifepark
 photo.3.commitdate: 2022/9/14
-photo.3.link: https://www.instagram.com/paradisewildlifepark/
-photo.3.tags: baby, close-up, mofumofu, newborn
-photo.4: ig://CjyHebNK0ue/m
+photo.3.link: ig://ChuGMemIK7j
+photo.3.tags: baby, close-up, mofumofu, newborn, paws
+photo.4: cwdc://YPh2d66ADQC.jpg
 photo.4.author: keeper_charlie_k
 photo.4.commitdate: 2022/12/11
-photo.4.link: https://www.instagram.com/keeper_charlie_k/
+photo.4.link: ig://CjyHebNK0ue
 photo.4.tags: baby, whiskers
-photo.5: ig://Cj01-joKZPs/m
+photo.5: cwdc://YPnTeLwADQA.jpg
 photo.5.author: keeper_charlie_k
 photo.5.commitdate: 2022/12/11
-photo.5.link: https://www.instagram.com/keeper_charlie_k/
-photo.5.tags: baby, mofumofu, whiskers
+photo.5.link: ig://Cj01-joKZPs
+photo.5.tags: baby, mofumofu, sample, whiskers
 photo.6: cwdc://YPxgmRLADQA.jpg
 photo.6.author: keeper_charlie_k
 photo.6.commitdate: 2022/12/11
 photo.6.link: https://www.instagram.com/p/Cj58imVqMfx
 photo.6.tags: baby, mofumofu, portrait, profile, sample, whiskers
-photo.7: ig://ClHUDo2q2Uk/m
+photo.7: cwdc://YSMPoWNADQD.jpg
 photo.7.author: keeper_charlie_k
 photo.7.commitdate: 2022/12/11
-photo.7.link: https://www.instagram.com/keeper_charlie_k/
+photo.7.link: ig://ClHUDo2q2Uk
 photo.7.tags: baby, peek, tree, whiskers
-photo.8: ig://ClV2gsSKuxQ/m
+photo.8: cwdc://YSpUidEADQE.jpg
 photo.8.author: keeper_charlie_k
 photo.8.commitdate: 2022/12/11
-photo.8.link: https://www.instagram.com/keeper_charlie_k/
+photo.8.link: ig://ClV2gsSKuxQ
 photo.8.tags: baby, bridge, mofumofu
-photo.9: ig://Cng5ETaq8DB/m
+photo.9: cwdc://YW_ZprVADQC.jpg
 photo.9.author: paradisewildlifepark
 photo.9.commitdate: 2023/3/9
-photo.9.link: https://www.instagram.com/paradisewildlifepark/
+photo.9.link: ig://Cng5ETaq8DB
 photo.9.tags: baby, paws, whiskers
-photo.10: ig://CrTMApkI3mH/m
+photo.10: cwdc://Yej_iXoADQB.jpg
 photo.10.author: paradisewildlifepark
 photo.10.commitdate: 2023/8/10
-photo.10.link: https://www.instagram.com/paradisewildlifepark/
-photo.10.tags: bridge, paws, portrait, wave
+photo.10.link: ig://CrTMApkI3mH
+photo.10.tags: bridge, paws, portrait, sample, wave
 species: 1
 zoo: 315
+photo.11: cwdc://YK22gS7ADQF.jpg
+photo.11.author: paradisewildlifepark
+photo.11.commitdate: 2022/9/14
+photo.11.link: ig://carsontheredpanda/ChcnfnNrhQJ
+photo.11.tags: baby, newborn, portrait, tail
+photo.12: cwdc://YaEorsvADQB.jpg
+photo.12.author: paradisewildlifepark
+photo.12.commitdate: 2024/4/13
+photo.12.link: ig://carsontheredpanda/CpDglUHvg_q
+photo.12.tags: paws, portrait, sample, standing, white face, wink
+photo.13: cwdc://YaEorsvADQC.jpg
+photo.13.author: paradisewildlifepark
+photo.13.commitdate: 2024/4/13
+photo.13.link: ig://carsontheredpanda/CpDglUHvg_p
+photo.13.tags: paws, portrait, sample, standing, wave
+photo.14: cwdc://YezmzXqADQD.jpg
+photo.14.author: paradisewildlifepark
+photo.14.commitdate: 2024/4/13
+photo.14.link: ig://carsontheredpanda/Cra_pJlOSwt
+photo.14.tags: bamboo, paws, portrait, tongue
+photo.15: cwdc://Ydbg_RWADQA.jpg
+photo.15.author: jobrownphotography
+photo.15.commitdate: 2024/4/13
+photo.15.link: ig://Cqu8vGbKUYA
+photo.15.tags: mofumofu, sample, whiskers
+photo.16: cwdc://YkFvOKpADQB.jpg
+photo.16.author: marwellzoo
+photo.16.commitdate: 2024/4/13
+photo.16.link: ig://CuED2jEtTgo
+photo.16.tags: paws, sample, tail, tree, whiskers
+photo.17: cwdc://YkHyNNyADQA.jpg
+photo.17.author: paradisewildlifepark
+photo.17.commitdate: 2024/4/13
+photo.17.link: ig://CuFFWEpIv03
+photo.17.tags: home, paws, sample, smile, whiskers
+photo.18: cwdc://YldSPeHADQA.jpg
+photo.18.author: marwellzoo
+photo.18.commitdate: 2024/4/13
+photo.18.link: ig://Cuv1XMztLaB
+photo.18.tags: climb, distance, paws, portrait, sample, tail, tree
+photo.19: cwdc://Yqck2MDADQC.jpg
+photo.19.author: marwellzoo
+photo.19.commitdate: 2024/4/13
+photo.19.link: ig://CxPeqjxtFcA
+photo.19.tags: mofumofu, paws, peek, tail, tree
+photo.20: cwdc://Yqck2MDADQD.jpg
+photo.20.author: marwellzoo
+photo.20.commitdate: 2024/4/13
+photo.20.link: ig://CxPeqjxtFcB
+photo.20.tags: close-up, paws, sample, smile, whiskers
+photo.21: cwdc://Yqck2MDADQE.jpg
+photo.21.author: marwellzoo
+photo.21.commitdate: 2024/4/13
+photo.21.link: ig://CxPeqjxtFcC
+photo.21.tags: paws, sample, smile, tree, whiskers
