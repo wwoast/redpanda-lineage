@@ -256,10 +256,10 @@ photo.48.author: itsuak
 photo.48.commitdate: 2022/1/31
 photo.48.link: ig://CX_WKuIvkkD
 photo.48.tags: close-up, home, lips, mofumofu, peek, portrait, whiskers
-photo.49: ig://CY3yHQHvG_-/m
+photo.49: cwdc://X5tLvkvADQA.jpg
 photo.49.author: makimaru18
 photo.49.commitdate: 2022/2/20
-photo.49.link: https://www.instagram.com/makimaru18/
+photo.49.link: ig://CY3yHQHvG_-
 photo.49.tags: mofmofu, portrait, sample, smile, tongue, whiskers
 photo.50: cwdc://X6Rpk9GADQm.jpg
 photo.50.author: itsuak
@@ -271,20 +271,20 @@ photo.51.author: itsuak
 photo.51.commitdate: 2022/3/6
 photo.51.link: ig://CakQqAxvKiX
 photo.51.tags: close-up, home, itchy, paws, portrait
-photo.52: ig://CbZESAPlIZM/m
+photo.52: cwdc://X-vwFE_ADQI.jpg
 photo.52.author: makimaru18
 photo.52.commitdate: 2022/5/18
-photo.52.link: https://www.instagram.com/makimaru18/
+photo.52.link: ig://CbZESAPlIZM
 photo.52.tags: home, mofumofu, peek, portrait, sample
 photo.53: cwdc://YPQ2m8SADQA.jpg
 photo.53.author: colette.jp
 photo.53.commitdate: 2022/11/14
 photo.53.link: ig://Cjpni75BMQk
 photo.53.tags: mofumofu, portrait, sample, standing
-photo.54: ig://Cnjjeb5PV4j/m
+photo.54: cwdc://YXEud8SADQO.jpg
 photo.54.author: makimaru18
 photo.54.commitdate: 2023/3/9
-photo.54.link: https://www.instagram.com/makimaru18/
+photo.54.link: ig://Cnjjeb5PV4j
 photo.54.tags: mofumofu, paws, portrait, sample
 photo.55: cwdc://YYb_fmgADQX.jpg
 photo.55.author: itsuak
@@ -296,30 +296,30 @@ photo.56.author: itsuak
 photo.56.commitdate: 2023/2/26
 photo.56.link: ig://Co8w9V5vTyj
 photo.56.tags: apple time, bite, close-up, mofumofu, sample
-photo.57: ig://Crmns47vxpL/m
+photo.57: cwdc://YfK262XADQQ.jpg
 photo.57.author: makimaru18
 photo.57.commitdate: 2023/5/3
-photo.57.link: https://www.instagram.com/makimaru18/
+photo.57.link: ig://Crmns47vxpL
 photo.57.tags: mofumofu, portrait, sample, whiskers
 photo.58: cwdc://YfW9owUADQE.jpg
 photo.58.author: colette.jp
 photo.58.commitdate: 2023/5/3
 photo.58.link: ig://CrsrD16PL3q
 photo.58.tags: lips, mofumofu, portrait, sample
-photo.59: ig://Cr9J3wkh1Qa/m
+photo.59: cwdc://Yf37QlpADQA.jpg
 photo.59.author: hamamatsu.chiita
 photo.59.commitdate: 2023/6/30
-photo.59.link: https://www.instagram.com/hamamatsu.chiita/
+photo.59.link: ig://Cr9J3wkh1Qa
 photo.59.tags: close-up, mofumofu, portrait, sample
-photo.60: ig://CtHEtZLv3my/m
+photo.60: cwdc://YiLw723ADQD.jpg
 photo.60.author: hamamatsu.chiita
 photo.60.commitdate: 2023/6/10
-photo.60.link: https://www.instagram.com/hamamatsu.chiita/
+photo.60.link: ig://CtHEtZLv3my
 photo.60.tags: ear, mofumofu, portrait, sample, whiskers
-photo.61: ig://CvQS-P7hZFB/m
+photo.61: cwdc://YmeNdkXADQL.jpg
 photo.61.author: hamamatsu.chiita
 photo.61.commitdate: 2023/7/31
-photo.61.link: https://www.instagram.com/hamamatsu.chiita/
+photo.61.link: ig://CvQS-P7hZFB
 photo.61.tags: ear, mofumofu, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 0664
@@ -570,3 +570,143 @@ photo.110.author: love_ikedazoo
 photo.110.commitdate: 2024/4/12
 photo.110.link: ig://CzvqTh1S5H8
 photo.110.tags: apple time, paws, portrait
+photo.111: cwdc://X-vwFE_ADQJ.jpg
+photo.111.author: makimaru18
+photo.111.commitdate: 2024/4/12
+photo.111.link: ig://CbZESAPlIZN
+photo.111.tags: bridge, ear, portrait, sample, smile, tongue
+photo.112: cwdc://X-vwFE_ADQK.jpg
+photo.112.author: makimaru18
+photo.112.commitdate: 2024/4/12
+photo.112.link: ig://CbZESAPlIZO
+photo.112.tags: close-up, ear, lips, mofumofu, portrait, techitechi, wink
+photo.113: cwdc://X-vwFE_ADQL.jpg
+photo.113.author: makimaru18
+photo.113.commitdate: 2024/4/12
+photo.113.link: ig://CbZESAPlIZP
+photo.113.tags: flowers, portrait, tongue
+photo.114: cwdc://X-vwFE_ADQM.jpg
+photo.114.author: makimaru18
+photo.114.commitdate: 2024/4/12
+photo.114.link: ig://CbZESAPlIZQ
+photo.114.tags: close-up, mofumofu, portrait, sample
+photo.115: cwdc://X-vwFE_ADQN.jpg
+photo.115.author: makimaru18
+photo.115.commitdate: 2024/4/12
+photo.115.link: ig://CbZESAPlIZR
+photo.115.tags: ear, paws, portrait, tail, tongue
+photo.116: cwdc://X5tLvkvADQB.jpg
+photo.116.author: makimaru18
+photo.116.commitdate: 2024/4/12
+photo.116.link: ig://CY3yHQHvG__
+photo.116.tags: ear, mofumofu, peek, portrait
+photo.117: cwdc://X5tLvkvADQC.jpg
+photo.117.author: makimaru18
+photo.117.commitdate: 2024/4/12
+photo.117.link: ig://CY3yHQHvHAA
+photo.117.tags: climb, ear, paws, portrait, sample
+photo.118: cwdc://X5tLvkvADQD.jpg
+photo.118.author: makimaru18
+photo.118.commitdate: 2024/4/12
+photo.118.link: ig://CY3yHQHvHAB
+photo.118.tags: bridge, distance, ear, paws, portrait, sample
+photo.119: cwdc://X5tLvkvADQE.jpg
+photo.119.author: makimaru18
+photo.119.commitdate: 2024/4/12
+photo.119.link: ig://CY3yHQHvHAC
+photo.119.tags: climb, ear, portrait
+photo.120: cwdc://X5tLvkvADQF.jpg
+photo.120.author: makimaru18
+photo.120.commitdate: 2024/4/12
+photo.120.link: ig://CY3yHQHvHAD
+photo.120.tags: blink, ear, lips, paws, portrait
+photo.121: cwdc://X5tLvkvADQG.jpg
+photo.121.author: makimaru18
+photo.121.commitdate: 2024/4/12
+photo.121.link: ig://CY3yHQHvHAE
+photo.121.tags: distance, bridge, portrait, smile, tail
+photo.122: cwdc://X5tLvkvADQH.jpg
+photo.122.author: makimaru18
+photo.122.commitdate: 2024/4/12
+photo.122.link: ig://CY3yHQHvHAF
+photo.122.tags: ear, paws, portrait, sample, tongue
+photo.123: cwdc://YXEud8SADQP.jpg
+photo.123.author: makimaru18
+photo.123.commitdate: 2024/4/12
+photo.123.link: ig://Cnjjeb5PV4n
+photo.123.tags: portrait, sample, tail, toys
+photo.124: cwdc://Yf37QlpADQC.jpg
+photo.124.author: hamamatsu.chiita
+photo.124.commitdate: 2024/4/12
+photo.124.link: ig://Cr9J3wkh1Qa?img_index=3
+photo.124.tags: mofumofu, portrait, sample
+photo.125: cwdc://YfK262XADQR.jpg
+photo.125.author: makimaru18
+photo.125.commitdate: 2024/4/12
+photo.125.link: ig://Crmns47vxpM
+photo.125.tags: ear, flowers, mofumofu, peek, portrait, sample
+photo.126: cwdc://YfK262XADQS.jpg
+photo.126.author: makimaru18
+photo.126.commitdate: 2024/4/12
+photo.126.link: ig://Crmns47vxpN
+photo.126.tags: apple time, ear, keeper, peek, portrait, sample
+photo.127: cwdc://YfK262XADQT.jpg
+photo.127.author: makimaru18
+photo.127.commitdate: 2024/4/12
+photo.127.link: ig://Crmns47vxpO
+photo.127.tags: peek, portrait
+photo.128: cwdc://YfK262XADQU.jpg
+photo.128.author: makimaru18
+photo.128.commitdate: 2024/4/12
+photo.128.link: ig://Crmns47vxpP
+photo.128.tags: apple time, peek, portrait
+photo.129: cwdc://YiLw723ADQE.jpg
+photo.129.author: hamamatsu.chiita
+photo.129.commitdate: 2024/4/12
+photo.129.link: ig://CtHEtZLv3mz
+photo.129.tags: ear, mofumofu, portrait, sample, tongue, whiskers
+photo.130: cwdc://YiLw723ADQF.jpg
+photo.130.author: hamamatsu.chiita
+photo.130.commitdate: 2024/4/12
+photo.130.link: ig://CtHEtZLv3m1
+photo.130.tags: ear, mofumofu, portrait, sample
+photo.131: cwdc://YiLw723ADQG.jpg
+photo.131.author: hamamatsu.chiita
+photo.131.commitdate: 2024/4/12
+photo.131.link: ig://CtHEtZLv3m2
+photo.131.tags: mofumofu, portrait, sample
+photo.132: cwdc://YiLw723ADQH.jpg
+photo.132.author: hamamatsu.chiita
+photo.132.commitdate: 2024/4/12
+photo.132.link: ig://CtHEtZLv3m3
+photo.132.tags: mofumofu, peek, portrait, sample
+photo.133: cwdc://YiLw723ADQI.jpg
+photo.133.author: hamamatsu.chiita
+photo.133.commitdate: 2024/4/12
+photo.133.link: ig://CtHEtZLv3m4
+photo.133.tags: mofumofu, paws, portrait, tongue
+photo.134: cwdc://YiLw723ADQJ.jpg
+photo.134.author: hamamatsu.chiita
+photo.134.commitdate: 2024/4/12
+photo.134.link: ig://CtHEtZLv3m5
+photo.134.tags: ear, mofumofu, portrait, sample
+photo.135: cwdc://YiLw723ADQK.jpg
+photo.135.author: hamamatsu.chiita
+photo.135.commitdate: 2024/4/12
+photo.135.link: ig://CtHEtZLv3m6
+photo.135.tags: peek, portrait
+photo.136: cwdc://YmeNdkXADQM.jpg
+photo.136.author: hamamatsu.chiita
+photo.136.commitdate: 2024/4/12
+photo.136.link: ig://CvQS-P7hZFC
+photo.136.tags: ear, paws, portrait, sample, smile
+photo.137: cwdc://YmeNdkXADQN.jpg
+photo.137.author: hamamatsu.chiita
+photo.137.commitdate: 2024/4/12
+photo.137.link: ig://CvQS-P7hZFD
+photo.137.tags: ear, paws, portrait, sample, tongue
+photo.138: cwdc://YmeNdkXADQP.jpg
+photo.138.author: hamamatsu.chiita
+photo.138.commitdate: 2024/4/12
+photo.138.link: ig://CvQS-P7hZFF
+photo.138.tags: ear, paws, portrait, sample, smile
