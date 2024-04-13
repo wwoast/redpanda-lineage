@@ -1,0 +1,12 @@
+[zoo]
+_id: 315
+commitdate: 2024/4/12
+en.address: Thompson's Ln, Colden Common, Winchester SO21 1JH, United Kingdom
+en.location: Winchester, Hampshire, UK
+en.name: Marwell Zoo
+flag: UK
+language.order: en
+latitude: 50.9920259 
+longitude: -1.3064151
+map: https://maps.app.goo.gl/E5jV1nWPYr5RKQku9
+website: https://www.marwell.org.uk/

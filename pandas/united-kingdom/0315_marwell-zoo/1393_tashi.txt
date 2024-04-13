@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
+location.1: 214, 2022/7/16
+location.2: 315, 2023/6/29
 photo.1: ig://ChUEAUTIHGT/m
 photo.1.author: paradisewildlifepark
 photo.1.commitdate: 2022/9/14
@@ -64,4 +66,4 @@ photo.10.commitdate: 2023/8/10
 photo.10.link: https://www.instagram.com/paradisewildlifepark/
 photo.10.tags: bridge, paws, portrait, wave
 species: 1
-zoo: 214
+zoo: 315
