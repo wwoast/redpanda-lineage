@@ -9,34 +9,32 @@ photo.1.link: ig://CWQZCJNFFgN
 photo.1.tags: baby, laying down, mother's day, playing, tongue
 photo.1.tags.148.location: 250, 105
 photo.1.tags.1305.location: 115, 260
-photo.2: cwdc://X2Do87jADQA.jpg
-photo.2.author: kijyo.zoo
-photo.2.commitdate: 2022/2/18
-photo.2.link: ig://CXDAt7hrmyc
-photo.2.tags: apple time, baby, portrait, videolink
-photo.2.tags.148.location: 220, 270
-photo.2.tags.1305.location: 335, 170
-photo.3: cwdc://X6KBsgaADQB.jpg
-photo.3.author: lesserpanda_shizuokacity_cp
+photo.2: cwdc://X0eZlW6ADQB.jpg
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2024/4/14
+photo.2.link: ig://CWQZCJNFFgP
+photo.2.tags: baby, laying down, mother's day, paws, playing
+photo.3: cwdc://X2Do87jADQA.jpg
+photo.3.author: kijyo.zoo
 photo.3.commitdate: 2022/2/18
-photo.3.link: ig://CZGNFt9FM29
-photo.3.tags: baby, mother's day, sample, smile, whiskers
-photo.3.tags.148.location: 300, 100
-photo.3.tags.1305.location: 215, 150
-photo.4: cwdc://X-mf5ddADQC.jpg
-photo.4.author: ssc6105
-photo.4.commitdate: 2022/9/28
-photo.4.link: ig://CbUcMMev2JS
-photo.4.tags: bamboo, mother's day, portrait, tail
-photo.4.tags.148.location: 95, 95
-photo.4.tags.1305.location: 260, 150
-photo.5: cwdc://X-ztIOpADQB.jpg
+photo.3.link: ig://CXDAt7hrmyc
+photo.3.tags: apple time, baby, portrait, videolink
+photo.3.tags.148.location: 220, 270
+photo.3.tags.1305.location: 335, 170
+photo.4: cwdc://X6KBsgaADQB.jpg
+photo.4.author: lesserpanda_shizuokacity_cp
+photo.4.commitdate: 2022/2/18
+photo.4.link: ig://CZGNFt9FM29
+photo.4.tags: baby, mother's day, sample, smile, whiskers
+photo.4.tags.148.location: 300, 100
+photo.4.tags.1305.location: 215, 150
+photo.5: cwdc://X-mf5ddADQC.jpg
 photo.5.author: ssc6105
-photo.5.commitdate: 2022/4/26
-photo.5.link: ig://CbbCzlEh5Iy
-photo.5.tags: baby, bamboo, bite, dish, mother's day, paws
-photo.5.tags.148.location: 335, 250
-photo.5.tags.1305.location: 160, 210
+photo.5.commitdate: 2022/9/28
+photo.5.link: ig://CbUcMMev2JS
+photo.5.tags: bamboo, mother's day, portrait, tail
+photo.5.tags.148.location: 95, 95
+photo.5.tags.1305.location: 260, 150
 photo.6: cwdc://X-mf5ddADQD.jpg
 photo.6.author: ssc6105
 photo.6.commitdate: 2024/4/14
@@ -47,11 +45,13 @@ photo.7.author: ssc6105
 photo.7.commitdate: 2024/4/14
 photo.7.link: ig://CbbCzlEh5I1
 photo.7.tags: laying down, mother's day, paws, playing, smile
-photo.8: cwdc://X0eZlW6ADQB.jpg
-photo.8.author: fetorus_mami
-photo.8.commitdate: 2024/4/14
-photo.8.link: ig://CWQZCJNFFgP
-photo.8.tags: baby, laying down, mother's day, paws, playing
+photo.8: cwdc://X-ztIOpADQB.jpg
+photo.8.author: ssc6105
+photo.8.commitdate: 2022/4/26
+photo.8.link: ig://CbbCzlEh5Iy
+photo.8.tags: baby, bamboo, bite, dish, mother's day, paws
+photo.8.tags.148.location: 335, 250
+photo.8.tags.1305.location: 160, 210
 photo.9: cwdc://YLnirjoADQA.jpg
 photo.9.author: lesserpanda_shizuokacity_cp
 photo.9.commitdate: 2024/4/14
