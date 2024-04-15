@@ -12,8 +12,10 @@ photo.1.tags.1305.location: 115, 260
 photo.2: cwdc://X0eZlW6ADQB.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2024/4/14
-photo.2.link: ig://CWQZCJNFFgP
+photo.2.link: ig://CWQZCJNFFgN?img_index=3
 photo.2.tags: baby, laying down, mother's day, paws, playing
+photo.2.tags.148.location: 320, 140
+photo.2.tags.1305.location: 265, 415
 photo.3: cwdc://X2Do87jADQA.jpg
 photo.3.author: kijyo.zoo
 photo.3.commitdate: 2022/2/18
@@ -38,13 +40,17 @@ photo.5.tags.1305.location: 260, 150
 photo.6: cwdc://X-mf5ddADQD.jpg
 photo.6.author: ssc6105
 photo.6.commitdate: 2024/4/14
-photo.6.link: ig://CbUcMMev2JU
+photo.6.link: ig://CbUcMMev2JS?img_index=3
 photo.6.tags: laying down, mother's day, paws, playing, portrait
+photo.6.tags.148.location: 270, 355
+photo.6.tags.1305.location: 425, 280
 photo.7: cwdc://X-ztIOpADQA.jpg
 photo.7.author: ssc6105
 photo.7.commitdate: 2024/4/14
-photo.7.link: ig://CbbCzlEh5I1
+photo.7.link: ig://CbbCzlEh5Iy?img_index=4
 photo.7.tags: laying down, mother's day, paws, playing, smile
+photo.7.tags.148.location: 395, 470
+photo.7.tags.1305.location: 110, 420
 photo.8: cwdc://X-ztIOpADQB.jpg
 photo.8.author: ssc6105
 photo.8.commitdate: 2022/4/26
@@ -57,3 +63,5 @@ photo.9.author: lesserpanda_shizuokacity_cp
 photo.9.commitdate: 2024/4/14
 photo.9.link: ig://Ch09lPkBf4S
 photo.9.tags: laying down, tail
+photo.9.tags.148.location: 580, 350
+photo.9.tags.1305.location: 240, 55
