@@ -1,8 +1,11 @@
 [media]
 _id: media.16.emi-nico
+commitdate: 2024/4/14
 panda.tags: 148, 1424
 photo.1: cwdc://Y23KCCXADQB.jpg
 photo.1.author: taka__3428
 photo.1.commitdate: 2024/4/14
 photo.1.link: ig://C3cxQe7vMu2
 photo.1.tags: bridge, keeper, mother's day, scale
+photo.1.tags.148.location: 290, 320
+photo.1.tags.1424.location: 410, 355
