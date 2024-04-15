@@ -2,38 +2,58 @@
 _id: media.16.kazunoko-nico
 commitdate: 2022/2/18
 panda.tags: 148, 1305
-photo.1: ig://CWQZCJNFFgN/m
+photo.1: cwdc://X0eZlW6ADQA.jpg
 photo.1.author: fetorus_mami
 photo.1.commitdate: 2022/2/18
-photo.1.link: https://www.instagram.com/fetorus_mami/
+photo.1.link: ig://CWQZCJNFFgN
 photo.1.tags: baby, laying down, mother's day, playing, tongue
 photo.1.tags.148.location: 250, 105
 photo.1.tags.1305.location: 115, 260
-photo.2: ig://CXDAt7hrmyc/l
+photo.2: cwdc://X2Do87jADQA.jpg
 photo.2.author: kijyo.zoo
 photo.2.commitdate: 2022/2/18
-photo.2.link: https://www.instagram.com/kijyo.zoo/
+photo.2.link: ig://CXDAt7hrmyc
 photo.2.tags: apple time, baby, portrait, videolink
 photo.2.tags.148.location: 220, 270
 photo.2.tags.1305.location: 335, 170
-photo.3: ig://CZGNFt9FM29/l
+photo.3: cwdc://X6KBsgaADQB.jpg
 photo.3.author: lesserpanda_shizuokacity_cp
 photo.3.commitdate: 2022/2/18
-photo.3.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.3.tags: baby, mother's day, smile, whiskers
+photo.3.link: ig://CZGNFt9FM29
+photo.3.tags: baby, mother's day, sample, smile, whiskers
 photo.3.tags.148.location: 300, 100
 photo.3.tags.1305.location: 215, 150
-photo.4: ig://CbUcMMev2JS/l
+photo.4: cwdc://X-mf5ddADQC.jpg
 photo.4.author: ssc6105
 photo.4.commitdate: 2022/9/28
-photo.4.link: https://www.instagram.com/ssc6105/
+photo.4.link: ig://CbUcMMev2JS
 photo.4.tags: bamboo, mother's day, portrait, tail
 photo.4.tags.148.location: 95, 95
 photo.4.tags.1305.location: 260, 150
-photo.5: ig://CbbCzlEh5Iy/l
+photo.5: cwdc://X-ztIOpADQB.jpg
 photo.5.author: ssc6105
 photo.5.commitdate: 2022/4/26
-photo.5.link: https://www.instagram.com/ssc6105/
-photo.5.tags: bamboo, dish, mother's day, paws
+photo.5.link: ig://CbbCzlEh5Iy
+photo.5.tags: baby, bamboo, bite, dish, mother's day, paws
 photo.5.tags.148.location: 335, 250
 photo.5.tags.1305.location: 160, 210
+photo.6: cwdc://X-mf5ddADQD.jpg
+photo.6.author: ssc6105
+photo.6.commitdate: 2024/4/14
+photo.6.link: ig://CbUcMMev2JU
+photo.6.tags: laying down, mother's day, paws, playing, portrait
+photo.7: cwdc://X-ztIOpADQA.jpg
+photo.7.author: ssc6105
+photo.7.commitdate: 2024/4/14
+photo.7.link: ig://CbbCzlEh5I1
+photo.7.tags: laying down, mother's day, paws, playing, smile
+photo.8: cwdc://X0eZlW6ADQB.jpg
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2024/4/14
+photo.8.link: ig://CWQZCJNFFgP
+photo.8.tags: baby, laying down, mother's day, paws, playing
+photo.9: cwdc://YLnirjoADQA.jpg
+photo.9.author: lesserpanda_shizuokacity_cp
+photo.9.commitdate: 2024/4/14
+photo.9.link: ig://Ch09lPkBf4S
+photo.9.tags: laying down, tail
