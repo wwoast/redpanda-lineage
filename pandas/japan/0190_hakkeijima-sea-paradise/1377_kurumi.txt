@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: 來海
 language.order: ja, en
 litter: 1376
-photo.1: https://www.codaworry.com/images/rpf/seaparadise-f-1.jpg
+photo.1: ig://Ch1wcFxvaaa/m
 photo.1.author: seaparadise_official
 photo.1.commitdate: 2022/9/4
 photo.1.link: https://www.instagram.com/seaparadise_official/
@@ -198,8 +198,6 @@ photo.37.author: ssc6105
 photo.37.commitdate: 2024/3/10
 photo.37.link: https://www.instagram.com/p/Cufl3EwB195
 photo.37.tags: door, sample
-species: 2
-zoo: 190
 photo.38: cwdc://Y0MmTK5ADQA.jpg
 photo.38.author: re_ichimaru
 photo.38.commitdate: 2024/4/16
@@ -605,3 +603,5 @@ photo.118.author: minatomirai215
 photo.118.commitdate: 2024/4/16
 photo.118.link: ig://C1ufyMOP1bC
 photo.118.tags: laying down, paws, peek, sample, whiskers
+species: 2
+zoo: 190
