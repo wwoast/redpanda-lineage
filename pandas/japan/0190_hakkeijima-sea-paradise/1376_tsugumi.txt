@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: 緒海
 language.order: ja, en
 litter: 1377
-photo.1: ig://Ch1wcFxvaab.jpg
+photo.1: cwdc://YLpIZQDADQB.jpg
 photo.1.author: seaparadise_official
 photo.1.commitdate: 2022/9/4
 photo.1.link: https://www.instagram.com/seaparadise_official/
@@ -101,7 +101,7 @@ photo.17.tags: baby, close-up, sample
 photo.18: cwdc://YNidyAeADQA.jpg
 photo.18.author: alto0908
 photo.18.commitdate: 2022/11/29
-photo.18.link: https://www.instagram.com/p/CiybId_BayU
+photo.18.link: ig://CiybId_BayU
 photo.18.tags: baby, close-up, mofumofu, paws, portrait, sample
 photo.19: cwdc://YNleL5_ADQF.jpg
 photo.19.author: redpan22
@@ -261,10 +261,8 @@ photo.49.tags: mofumofu, peek, portrait, sample
 photo.50: cwdc://Yk64v-ZADQA.jpg
 photo.50.author: minatomirai215
 photo.50.commitdate: 2024/3/10
-photo.50.link: https://www.instagram.com/p/Cueonc8vGzx
+photo.50.link: ig://Cueonc8vGzx
 photo.50.tags: bridge, laying down, peek, portrait, sample, whiskers
-species: 2
-zoo: 190
 photo.51: cwdc://Y0q7WkdADQA.jpg
 photo.51.author: re_ichimaru
 photo.51.commitdate: 2024/4/16
@@ -275,268 +273,265 @@ photo.52.author: re_ichimaru
 photo.52.commitdate: 2024/4/16
 photo.52.link: ig://C2Wp6v-v0iv
 photo.52.tags: bridge, laying down, paws, peek, portrait
-photo.53: cwdc://YLpIZQDADQB.jpg
-photo.53.author: seaparadise_official
+photo.53: cwdc://YM7caBgADQH.jpg
+photo.53.author: alto0908
 photo.53.commitdate: 2024/4/16
-photo.53.link: ig://Ch1wcFxvaab
-photo.53.tags: baby, mofumofu, whiskers
-photo.54: cwdc://YM7caBgADQH.jpg
-photo.54.author: alto0908
+photo.53.link: ig://Cie6cegJ-Ej
+photo.53.tags: baby, mofumofu, scale, whiskers
+photo.54: cwdc://YMrTnuWADQE.jpg
+photo.54.author: redpan22
 photo.54.commitdate: 2024/4/16
-photo.54.link: ig://Cie6cegJ-Ej
-photo.54.tags: baby, mofumofu, scale, whiskers
-photo.55: cwdc://YMrTnuWADQE.jpg
-photo.55.author: redpan22
+photo.54.link: ig://CiW2DU7Pw5q
+photo.54.tags: baby, mofumofu, window
+photo.55: cwdc://YMtAzg5ADQB.jpg
+photo.55.author: minatomirai215
 photo.55.commitdate: 2024/4/16
-photo.55.link: ig://CiW2DU7Pw5q
-photo.55.tags: baby, mofumofu, window
-photo.56: cwdc://YMtAzg5ADQB.jpg
-photo.56.author: minatomirai215
+photo.55.link: ig://CiXspOMvJD0
+photo.55.tags: baby, mofumofu, tail, toys
+photo.56: cwdc://YMyFGkXADQD.jpg
+photo.56.author: alto0908
 photo.56.commitdate: 2024/4/16
-photo.56.link: ig://CiXspOMvJD0
-photo.56.tags: baby, mofumofu, tail, toys
-photo.57: cwdc://YMyFGkXADQD.jpg
+photo.56.link: ig://CiaOyv7v5VW
+photo.56.tags: baby, close-up, laying down, mofumofu, portrait, sample
+photo.57: cwdc://YMyFGkXADQE.jpg
 photo.57.author: alto0908
 photo.57.commitdate: 2024/4/16
-photo.57.link: ig://CiaOyv7v5VW
-photo.57.tags: baby, close-up, laying down, mofumofu, portrait, sample
-photo.58: cwdc://YMyFGkXADQE.jpg
-photo.58.author: alto0908
+photo.57.link: ig://CiaOyv7v5VY
+photo.57.tags: baby, mofumofu, peek, portrait, sample
+photo.58: cwdc://YN-0coYADQA.jpg
+photo.58.author: kotata_513
 photo.58.commitdate: 2024/4/16
-photo.58.link: ig://CiaOyv7v5VY
-photo.58.tags: baby, mofumofu, peek, portrait, sample
-photo.59: cwdc://YN-0coYADQA.jpg
-photo.59.author: kotata_513
+photo.58.link: ig://CjAmdx8Pvrc
+photo.58.tags: baby, keeper, paws, sample, whiskers
+photo.59: cwdc://YN9jNg1ADQA.jpg
+photo.59.author: pantasanzoo1
 photo.59.commitdate: 2024/4/16
-photo.59.link: ig://CjAmdx8Pvrc
-photo.59.tags: baby, keeper, paws, sample, whiskers
-photo.60: cwdc://YN9jNg1ADQA.jpg
+photo.59.link: ig://Ci_92OKvI8J
+photo.59.tags: baby, mofumofu, paws, window
+photo.60: cwdc://YN9jNg1ADQB.jpg
 photo.60.author: pantasanzoo1
 photo.60.commitdate: 2024/4/16
-photo.60.link: ig://Ci_92OKvI8J
+photo.60.link: ig://Ci_92OKvI8L
 photo.60.tags: baby, mofumofu, paws, window
-photo.61: cwdc://YN9jNg1ADQB.jpg
-photo.61.author: pantasanzoo1
+photo.61: cwdc://YNA7XzHADQJ.jpg
+photo.61.author: alto0908
 photo.61.commitdate: 2024/4/16
-photo.61.link: ig://Ci_92OKvI8L
-photo.61.tags: baby, mofumofu, paws, window
-photo.62: cwdc://YNA7XzHADQJ.jpg
-photo.62.author: alto0908
+photo.61.link: ig://Cihp7XTv5OO
+photo.61.tags: baby, close-up, laying down, mofumofu, portrait, sleeping
+photo.62: cwdc://YNA_f2JADQA.jpg
+photo.62.author: sasapan34
 photo.62.commitdate: 2024/4/16
-photo.62.link: ig://Cihp7XTv5OO
-photo.62.tags: baby, close-up, laying down, mofumofu, portrait, sleeping
-photo.63: cwdc://YNA_f2JADQA.jpg
-photo.63.author: sasapan34
+photo.62.link: ig://Cihr_Y0rAkX
+photo.62.tags: baby, close-up, paws, window
+photo.63: cwdc://YNSh4wdADQB.jpg
+photo.63.author: rie_panda55
 photo.63.commitdate: 2024/4/16
-photo.63.link: ig://Cihr_Y0rAkX
-photo.63.tags: baby, close-up, paws, window
-photo.64: cwdc://YNSh4wdADQB.jpg
-photo.64.author: rie_panda55
+photo.63.link: ig://CiqdL1-haLz
+photo.63.tags: baby, bottle, keeper, portrait, window
+photo.64: cwdc://YN_MWJGADQB.jpg
+photo.64.author: fetorus_mami
 photo.64.commitdate: 2024/4/16
-photo.64.link: ig://CiqdL1-haLz
-photo.64.tags: baby, bottle, keeper, portrait, window
-photo.65: cwdc://YN_MWJGADQB.jpg
+photo.64.link: ig://CjAyaiTPUcP
+photo.64.tags: baby, close-up, mofumofu, paws
+photo.65: cwdc://YN_XueZADQA.jpg
 photo.65.author: fetorus_mami
 photo.65.commitdate: 2024/4/16
-photo.65.link: ig://CjAyaiTPUcP
-photo.65.tags: baby, close-up, mofumofu, paws
-photo.66: cwdc://YN_XueZADQA.jpg
-photo.66.author: fetorus_mami
+photo.65.link: ig://CjA4Gs8vEZK
+photo.65.tags: mofumofu, laying down, paws, toys
+photo.66: cwdc://YNnjMgZADQB.jpg
+photo.66.author: alto0908
 photo.66.commitdate: 2024/4/16
-photo.66.link: ig://CjA4Gs8vEZK
-photo.66.tags: mofumofu, laying down, paws, toys
-photo.67: cwdc://YNnjMgZADQB.jpg
-photo.67.author: alto0908
+photo.66.link: ig://Ci091t8h8On
+photo.66.tags: baby, close-up, nose, paws, portrait, toys
+photo.67: cwdc://YOT8V3yADQD.jpg
+photo.67.author: fetorus_mami
 photo.67.commitdate: 2024/4/16
-photo.67.link: ig://Ci091t8h8On
-photo.67.tags: baby, close-up, nose, paws, portrait, toys
-photo.68: cwdc://YOT8V3yADQD.jpg
+photo.67.link: ig://CjLKaZpPYC6
+photo.67.tags: baby, laying down, upside-down, window
+photo.68: cwdc://YOT8V3yADQE.jpg
 photo.68.author: fetorus_mami
 photo.68.commitdate: 2024/4/16
-photo.68.link: ig://CjLKaZpPYC6
-photo.68.tags: baby, laying down, upside-down, window
-photo.69: cwdc://YOT8V3yADQE.jpg
-photo.69.author: fetorus_mami
+photo.68.link: ig://CjLKaZpPYC7
+photo.68.tags: baby, bite, mofumofu
+photo.69: cwdc://YOdZR3jADQA.jpg
+photo.69.author: daniele.tokyo
 photo.69.commitdate: 2024/4/16
-photo.69.link: ig://CjLKaZpPYC7
-photo.69.tags: baby, bite, mofumofu
-photo.70: cwdc://YOdZR3jADQA.jpg
-photo.70.author: daniele.tokyo
+photo.69.link: ig://CjP44ZhvZeA
+photo.69.tags: baby, bite, mofumofu, toys, whiskers
+photo.70: cwdc://YOi4yyXADQI.jpg
+photo.70.author: fetorus_mami
 photo.70.commitdate: 2024/4/16
-photo.70.link: ig://CjP44ZhvZeA
-photo.70.tags: baby, bite, mofumofu, toys, whiskers
-photo.71: cwdc://YOi4yyXADQI.jpg
+photo.70.link: ig://CjSoo27v7hD
+photo.70.tags: baby, keeper, mofumofu, paws, tail
+photo.71: cwdc://YOi5g8RADQG.jpg
 photo.71.author: fetorus_mami
 photo.71.commitdate: 2024/4/16
-photo.71.link: ig://CjSoo27v7hD
-photo.71.tags: baby, keeper, mofumofu, paws, tail
-photo.72: cwdc://YOi5g8RADQG.jpg
-photo.72.author: fetorus_mami
+photo.71.link: ig://CjSo_74viWH
+photo.71.tags: baby, bottle, close-up, keeper, mofumofu, portrait, sample, whiskers
+photo.72: cwdc://YOnvlj3ADQN.jpg
+photo.72.author: alto0908
 photo.72.commitdate: 2024/4/16
-photo.72.link: ig://CjSo_74viWH
-photo.72.tags: baby, bottle, close-up, keeper, mofumofu, portrait, sample, whiskers
-photo.73: cwdc://YOnvlj3ADQN.jpg
-photo.73.author: alto0908
+photo.72.link: ig://CjVECPrvmyR
+photo.72.tags: baby, mofumofu, peek, toys
+photo.73: cwdc://YOoOuj6ADQO.jpg
+photo.73.author: redpan22
 photo.73.commitdate: 2024/4/16
-photo.73.link: ig://CjVECPrvmyR
-photo.73.tags: baby, mofumofu, peek, toys
-photo.74: cwdc://YOoOuj6ADQO.jpg
-photo.74.author: redpan22
+photo.73.link: ig://CjVTmvtPBuE
+photo.73.tags: baby, keeper, mofumofu, portrait, tail
+photo.74: cwdc://YOs-YCHADQP.jpg
+photo.74.author: alto0908
 photo.74.commitdate: 2024/4/16
-photo.74.link: ig://CjVTmvtPBuE
-photo.74.tags: baby, keeper, mofumofu, portrait, tail
-photo.75: cwdc://YOs-YCHADQP.jpg
+photo.74.link: ig://CjXrbezvYOJ
+photo.74.tags: baby, bottle, keeper, sample, whiskers
+photo.75: cwdc://YPRVDPXADQM.jpg
 photo.75.author: alto0908
 photo.75.commitdate: 2024/4/16
-photo.75.link: ig://CjXrbezvYOJ
-photo.75.tags: baby, bottle, keeper, sample, whiskers
-photo.76: cwdc://YPRVDPXADQM.jpg
-photo.76.author: alto0908
+photo.75.link: ig://Cjp2xFbhIn3
+photo.75.tags: baby, mofumofu, peek, portrait, sample
+photo.76: cwdc://YPbSV7JADQJ.jpg
+photo.76.author: fetorus_mami
 photo.76.commitdate: 2024/4/16
-photo.76.link: ig://Cjp2xFbhIn3
-photo.76.tags: baby, mofumofu, peek, portrait, sample
-photo.77: cwdc://YPbSV7JADQJ.jpg
+photo.76.link: ig://Cju1abUhkdF
+photo.76.tags: sample, toys, whiskers, window
+photo.77: cwdc://YPg01vtADQL.jpg
 photo.77.author: fetorus_mami
 photo.77.commitdate: 2024/4/16
-photo.77.link: ig://Cju1abUhkdF
-photo.77.tags: sample, toys, whiskers, window
-photo.78: cwdc://YPg01vtADQL.jpg
-photo.78.author: fetorus_mami
+photo.77.link: ig://CjxmqVmp2o-
+photo.77.tags: baby, bottle, keeper, mofumofu, portrait, sample
+photo.78: cwdc://YPi-jxpADQQ.jpg
+photo.78.author: alto0908
 photo.78.commitdate: 2024/4/16
-photo.78.link: ig://CjxmqVmp2o-
-photo.78.tags: baby, bottle, keeper, mofumofu, portrait, sample
-photo.79: cwdc://YPi-jxpADQQ.jpg
-photo.79.author: alto0908
+photo.78.link: ig://CjyrhWkhCAT
+photo.78.tags: baby, bottle, window
+photo.79: cwdc://YPwLcuHADQG.jpg
+photo.79.author: redpan22
 photo.79.commitdate: 2024/4/16
-photo.79.link: ig://CjyrhWkhCAT
-photo.79.tags: baby, bottle, window
-photo.80: cwdc://YPwLcuHADQG.jpg
-photo.80.author: redpan22
+photo.79.link: ig://Cj5R90zhY4U
+photo.79.tags: baby, bottle, keeper
+photo.80: cwdc://YQ3etwhADQB.jpg
+photo.80.author: gloryeui
 photo.80.commitdate: 2024/4/16
-photo.80.link: ig://Cj5R90zhY4U
-photo.80.tags: baby, bottle, keeper
-photo.81: cwdc://YQ3etwhADQB.jpg
+photo.80.link: ig://Ckc7mWAup17
+photo.80.tags: baby, laying down, mofumofu, portrait, sample, whiskers
+photo.81: cwdc://YQ8puVkADQC.jpg
 photo.81.author: gloryeui
 photo.81.commitdate: 2024/4/16
-photo.81.link: ig://Ckc7mWAup17
-photo.81.tags: baby, laying down, mofumofu, portrait, sample, whiskers
-photo.82: cwdc://YQ8puVkADQC.jpg
-photo.82.author: gloryeui
+photo.81.link: ig://CkfhGoiOZug
+photo.81.tags: baby, bottle, keeper, portrait
+photo.82: cwdc://YRDXoA7ADQR.jpg
+photo.82.author: alto0908
 photo.82.commitdate: 2024/4/16
-photo.82.link: ig://CkfhGoiOZug
-photo.82.tags: baby, bottle, keeper, portrait
-photo.83: cwdc://YRDXoA7ADQR.jpg
-photo.83.author: alto0908
+photo.82.link: ig://Cki4DeNv17n
+photo.82.tags: baby, bottle, lips, paws, portrait
+photo.83: cwdc://YRMscZ-ADQE.jpg
+photo.83.author: minatomirai215
 photo.83.commitdate: 2024/4/16
-photo.83.link: ig://Cki4DeNv17n
-photo.83.tags: baby, bottle, lips, paws, portrait
-photo.84: cwdc://YRMscZ-ADQE.jpg
+photo.83.link: ig://CknidqvP8MR
+photo.83.tags: baby, dish, lunch time, mofumofu, portrait, sample, window
+photo.84: cwdc://YSU5b7mADQF.jpg
 photo.84.author: minatomirai215
 photo.84.commitdate: 2024/4/16
-photo.84.link: ig://CknidqvP8MR
-photo.84.tags: baby, dish, lunch time, mofumofu, portrait, sample, window
-photo.85: cwdc://YSU5b7mADQF.jpg
+photo.84.link: ig://ClLo9bjPm5e
+photo.84.tags: climb, paws, whiskers
+photo.85: cwdc://YUHI5j5ADQI.jpg
 photo.85.author: minatomirai215
 photo.85.commitdate: 2024/4/16
-photo.85.link: ig://ClLo9bjPm5e
-photo.85.tags: climb, paws, whiskers
-photo.86: cwdc://YUHI5j5ADQI.jpg
-photo.86.author: minatomirai215
+photo.85.link: ig://CmEwsPsv4vI
+photo.85.tags: climb, paws, portrait
+photo.86: cwdc://YUKwH5bADQD.jpg
+photo.86.author: pantasanzoo1
 photo.86.commitdate: 2024/4/16
-photo.86.link: ig://CmEwsPsv4vI
-photo.86.tags: climb, paws, portrait
-photo.87: cwdc://YUKwH5bADQD.jpg
-photo.87.author: pantasanzoo1
+photo.86.link: ig://CmGkTadv--Z
+photo.86.tags: dish, keeper, lunch time, paws, tongue
+photo.87: cwdc://Yi_3e7eADQE.jpg
+photo.87.author: miis_98
 photo.87.commitdate: 2024/4/16
-photo.87.link: ig://CmGkTadv--Z
-photo.87.tags: dish, keeper, lunch time, paws, tongue
-photo.88: cwdc://Yi_3e7eADQE.jpg
-photo.88.author: miis_98
+photo.87.link: ig://CthH-7fPM5b
+photo.87.tags: keeper, portrait, sample, whiskers
+photo.88: cwdc://Yipuuw0ADQE.jpg
+photo.88.author: gloryeui
 photo.88.commitdate: 2024/4/16
-photo.88.link: ig://CthH-7fPM5b
-photo.88.tags: keeper, portrait, sample, whiskers
-photo.89: cwdc://Yipuuw0ADQE.jpg
+photo.88.link: ig://CtWDm2KPwuW
+photo.88.tags: bamboo, bite, portrait
+photo.89: cwdc://Yipuuw0ADQF.jpg
 photo.89.author: gloryeui
 photo.89.commitdate: 2024/4/16
-photo.89.link: ig://CtWDm2KPwuW
-photo.89.tags: bamboo, bite, portrait
-photo.90: cwdc://Yipuuw0ADQF.jpg
-photo.90.author: gloryeui
+photo.89.link: ig://CtWDm2KPwuX
+photo.89.tags: peek, portrait, sample
+photo.90: cwdc://Yk58_t7ADQB.jpg
+photo.90.author: seaparadise_official
 photo.90.commitdate: 2024/4/16
-photo.90.link: ig://CtWDm2KPwuX
-photo.90.tags: peek, portrait, sample
-photo.91: cwdc://Yk58_t7ADQB.jpg
-photo.91.author: seaparadise_official
+photo.90.link: ig://CueKvUtpeRS
+photo.90.tags: paws, sample, standing, whiskers
+photo.91: cwdc://YmIMOFcADQK.jpg
+photo.91.author: minatomirai215
 photo.91.commitdate: 2024/4/16
-photo.91.link: ig://CueKvUtpeRS
-photo.91.tags: paws, sample, standing, whiskers
-photo.92: cwdc://YmIMOFcADQK.jpg
-photo.92.author: minatomirai215
+photo.91.link: ig://CvFSWgeP48b
+photo.91.tags: portrait, sample, smile, whiskers
+photo.92: cwdc://YmcvjwkADQM.jpg
+photo.92.author: fetorus_mami
 photo.92.commitdate: 2024/4/16
-photo.92.link: ig://CvFSWgeP48b
-photo.92.tags: portrait, sample, smile, whiskers
-photo.93: cwdc://YmcvjwkADQM.jpg
+photo.92.link: ig://CvPkBWCPNqV
+photo.92.tags: baby, bottle, keeper, mofumofu, whiskers
+photo.93: cwdc://YmcvjwkADQN.jpg
 photo.93.author: fetorus_mami
 photo.93.commitdate: 2024/4/16
-photo.93.link: ig://CvPkBWCPNqV
-photo.93.tags: baby, bottle, keeper, mofumofu, whiskers
-photo.94: cwdc://YmcvjwkADQN.jpg
+photo.93.link: ig://CvPkBWCPNqW
+photo.93.tags: bamboo, sample, whiskers
+photo.94: cwdc://YmqBICdADQO.jpg
 photo.94.author: fetorus_mami
 photo.94.commitdate: 2024/4/16
-photo.94.link: ig://CvPkBWCPNqW
-photo.94.tags: bamboo, sample, whiskers
-photo.95: cwdc://YmqBICdADQO.jpg
+photo.94.link: ig://CvWMze-vo0w
+photo.94.tags: keeper, paws, sample, standing, tail
+photo.95: cwdc://YmqBICdADQP.jpg
 photo.95.author: fetorus_mami
 photo.95.commitdate: 2024/4/16
-photo.95.link: ig://CvWMze-vo0w
-photo.95.tags: keeper, paws, sample, standing, tail
-photo.96: cwdc://YmqBICdADQP.jpg
+photo.95.link: ig://CvWMze-vo0x
+photo.95.tags: keeper, paws, sample, training, whiskers
+photo.96: cwdc://YoxLm9YADQS.jpg
 photo.96.author: fetorus_mami
 photo.96.commitdate: 2024/4/16
-photo.96.link: ig://CvWMze-vo0x
-photo.96.tags: keeper, paws, sample, training, whiskers
-photo.97: cwdc://YoxLm9YADQS.jpg
+photo.96.link: ig://CwZyC8cPns_
+photo.96.tags: hammock, laying down, sleeping
+photo.97: cwdc://Yp0KyfiADQR.jpg
 photo.97.author: fetorus_mami
 photo.97.commitdate: 2024/4/16
-photo.97.link: ig://CwZyC8cPns_
-photo.97.tags: hammock, laying down, sleeping
-photo.98: cwdc://Yp0KyfiADQR.jpg
-photo.98.author: fetorus_mami
+photo.97.link: ig://Cw7RothPiUG
+photo.97.tags: laying down, paws, sample, tail, whiskers
+photo.98: cwdc://YqtsxndADQL.jpg
+photo.98.author: minatomirai215
 photo.98.commitdate: 2024/4/16
-photo.98.link: ig://Cw7RothPiUG
-photo.98.tags: laying down, paws, sample, tail, whiskers
-photo.99: cwdc://YqtsxndADQL.jpg
+photo.98.link: ig://CxYCoRevQfl
+photo.98.tags: hammock, laying down, peek, portrait
+photo.99: cwdc://YqtsxndADQM.jpg
 photo.99.author: minatomirai215
 photo.99.commitdate: 2024/4/16
-photo.99.link: ig://CxYCoRevQfl
-photo.99.tags: hammock, laying down, peek, portrait
-photo.100: cwdc://YqtsxndADQM.jpg
-photo.100.author: minatomirai215
+photo.99.link: ig://CxYCoRevQfm
+photo.99.tags: laying down, peek, portrait, sample
+photo.100: cwdc://YsPaeGpADQH.jpg
+photo.100.author: gloryeui
 photo.100.commitdate: 2024/4/16
-photo.100.link: ig://CxYCoRevQfm
-photo.100.tags: laying down, peek, portrait, sample
-photo.101: cwdc://YsPaeGpADQH.jpg
-photo.101.author: gloryeui
+photo.100.link: ig://CyI5ehEhWhd
+photo.100.tags: paws, portrait, sample, smile, whiskers
+photo.101: cwdc://YsfPD75ADQE.jpg
+photo.101.author: craig_craig_craig
 photo.101.commitdate: 2024/4/16
-photo.101.link: ig://CyI5ehEhWhd
-photo.101.tags: paws, portrait, sample, smile, whiskers
-photo.102: cwdc://YsfPD75ADQE.jpg
-photo.102.author: craig_craig_craig
+photo.101.link: ig://CyQzxbsvYb5
+photo.101.tags: portrait, sample, whiskers
+photo.102: cwdc://YuJI4LYADQF.jpg
+photo.102.author: miis_98
 photo.102.commitdate: 2024/4/16
-photo.102.link: ig://CyQzxbsvYb5
-photo.102.tags: portrait, sample, whiskers
-photo.103: cwdc://YuJI4LYADQF.jpg
+photo.102.link: ig://CzFwrjcPeAI
+photo.102.tags: paws, portrait, profile, sample, whiskers
+photo.103: cwdc://YuJI4LYADQG.jpg
 photo.103.author: miis_98
 photo.103.commitdate: 2024/4/16
-photo.103.link: ig://CzFwrjcPeAI
-photo.103.tags: paws, portrait, profile, sample, whiskers
-photo.104: cwdc://YuJI4LYADQG.jpg
-photo.104.author: miis_98
+photo.103.link: ig://CzFwrjcPeAJ
+photo.103.tags: bamboo, bite, close-up, mofumofu, portrait, sample, tongue, whiskers
+photo.104: cwdc://YxQcSNIADQA.jpg
+photo.104.author: ssc6105
 photo.104.commitdate: 2024/4/16
-photo.104.link: ig://CzFwrjcPeAJ
-photo.104.tags: bamboo, bite, close-up, mofumofu, portrait, sample, tongue, whiskers
-photo.105: cwdc://YxQcSNIADQA.jpg
-photo.105.author: ssc6105
-photo.105.commitdate: 2024/4/16
-photo.105.link: ig://C0paYkUBWtp
-photo.105.tags: bamboo, paws, sample, whiskers
+photo.104.link: ig://C0paYkUBWtp
+photo.104.tags: bamboo, paws, sample, whiskers
+species: 2
+zoo: 190
