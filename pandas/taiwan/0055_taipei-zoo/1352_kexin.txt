@@ -13,78 +13,108 @@ ja.nicknames: none
 ja.othernames: none
 language.order: zh, en, ja
 litter: 1351
-photo.1: ig://CVEqgkEB6wi/m
+photo.1: cwdc://XyG8iMoADQQ.jpg
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/20
-photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: paws, portrait, whiskers
-photo.2: ig://CZ21S4Whqkz/m
+photo.1.link: ig://CVEqgkEB6wi
+photo.1.tags: paws, portrait, sample, whiskers
+photo.2: cwdc://X7rSG1NADQR.jpg
 photo.2.author: yuredpanda
 photo.2.commitdate: 2022/4/20
-photo.2.link: https://www.instagram.com/yuredpanda/
-photo.2.tags: muzzle, portrait, smile, whiskers
-photo.3: ig://CZ_qNa9BT1C/m
+photo.2.link: ig://CZ21S4Whqkz
+photo.2.tags: muzzle, portrait, sample, smile, whiskers
+photo.3: cwdc://X78776aADQS.jpg
 photo.3.author: yuredpanda
 photo.3.commitdate: 2022/4/20
-photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.link: ig://CZ_qNa9BT1C
 photo.3.tags: close-up, portrait, shake, whiskers
-photo.4: ig://CaQupc4v50A/m
+photo.4: cwdc://X8fEz-RADQB.jpg
 photo.4.author: yuredpanda
 photo.4.commitdate: 2022/4/20
-photo.4.link: https://www.instagram.com/yuredpanda/
-photo.4.tags: portrait, whiskers
-photo.5: ig://CalGv3HhDiF/m
+photo.4.link: ig://CaQupc4v50A
+photo.4.tags: portrait, sample, whiskers
+photo.5: cwdc://X9H1AyvADQA.jpg
 photo.5.author: yuredpanda
 photo.5.commitdate: 2022/4/20
-photo.5.link: https://www.instagram.com/yuredpanda/
-photo.5.tags: portrait, profile, tongue, whiskers
-photo.6: ig://CdUTYT3P4B4/m
+photo.5.link: ig://CalGv3HhDiF
+photo.5.tags: portrait, profile, sample, tongue, whiskers
+photo.6: cwdc://YCmORsOADQF.jpg
 photo.6.author: yuredpanda
 photo.6.commitdate: 2022/6/7
-photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.link: ig://CdUTYT3P4B4
 photo.6.tags: laying down, paws, portrait, sample, whiskers
-photo.7: ig://Cdkn8CNvY9e/m
+photo.7: cwdc://YDG3ZI7ADQD.jpg
 photo.7.author: yuredpanda
 photo.7.commitdate: 2023/7/19
-photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.link: ig://Cdkn8CNvY9e
 photo.7.tags: laying down, portrait, tongue, whiskers
-photo.8: ig://CiMH3y7vnan/m
+photo.8: cwdc://YMV3QqXADQG.jpg
 photo.8.author: yuredpanda
 photo.8.commitdate: 2022/11/10
-photo.8.link: https://www.instagram.com/yuredpanda/
-photo.8.tags: laying down, peek, tree
-photo.9: ig://CjE6RXKPR5A/m
+photo.8.link: ig://CiMH3y7vnan
+photo.8.tags: distance, laying down, peek, tree
+photo.9: cwdc://YOHcDy0ADQH.jpg
 photo.9.author: yuredpanda
 photo.9.commitdate: 2022/10/1
-photo.9.link: https://www.instagram.com/yuredpanda/
+photo.9.link: ig://CjE6RXKPR5A
 photo.9.tags: lips, portrait, sample, whiskers
-photo.10: ig://CjPO0IiPnVR/m
+photo.10: cwdc://YOcFJVkADQK.jpg
 photo.10.author: yuredpanda
 photo.10.commitdate: 2022/10/14
-photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.link: ig://CjPO0IiPnVR
 photo.10.tags: paws, portrait, sample, smile, tree, whiskers
-photo.11: ig://CkuVhPmPQcA/m
+photo.11: cwdc://YRaSjjsADQM.jpg
 photo.11.author: yuredpanda
 photo.11.commitdate: 2022/12/24
-photo.11.link: https://www.instagram.com/yuredpanda/
+photo.11.link: ig://CkuVhPmPQcA
 photo.11.tags: portrait, sample, whiskers
-photo.12: ig://CmBN83evOVg/m
+photo.12: cwdc://YUADazdADQN.jpg
 photo.12.author: yuredpanda
 photo.12.commitdate: 2023/7/19
-photo.12.link: https://www.instagram.com/yuredpanda/
+photo.12.link: ig://CmBN83evOVg
 photo.12.tags: portrait, sample, smile, whiskers
-photo.13: ig://CmdhnsPvH8-/m
+photo.13: cwdc://YU4qwc_ADQO.jpg
 photo.13.author: yuredpanda
 photo.13.commitdate: 2023/7/19
-photo.13.link: https://www.instagram.com/yuredpanda/
+photo.13.link: ig://CmdhnsPvH8-
 photo.13.tags: paws, portrait, sample, whiskers
-photo.14: ig://CtrKa3ovHSN/m
+photo.14: cwdc://YjT8WzxADQP.jpg
 photo.14.author: yuredpanda
 photo.14.commitdate: 2023/8/8
-photo.14.link: https://www.instagram.com/yuredpanda/
+photo.14.link: ig://CtrKa3ovHSN
 photo.14.tags: bridge, tail, whiskers
 species: 2
 zh.name: 可忻
 zh.nicknames: none
 zh.othernames: none
 zoo: 55
+photo.15: cwdc://X78776aADQT.jpg
+photo.15.author: yuredpanda
+photo.15.commitdate: 2024/4/19
+photo.15.link: ig://CZ_qNa9BT1I
+photo.15.tags: portrait, sample, whiskers
+photo.16: cwdc://X8fEz-RADQC.jpg
+photo.16.author: yuredpanda
+photo.16.commitdate: 2024/4/19
+photo.16.link: ig://CaQupc4v50B
+photo.16.tags: paws, portrait, sample, whiskers
+photo.17: cwdc://YDG3ZI7ADQE.jpg
+photo.17.author: yuredpanda
+photo.17.commitdate: 2024/4/19
+photo.17.link: ig://Cdkn8CNvY9h
+photo.17.tags: bridge, laying down, paws, portrait, tongue
+photo.18: cwdc://YOHcDy0ADQI.jpg
+photo.18.author: yuredpanda
+photo.18.commitdate: 2024/4/19
+photo.18.link: ig://CjE6RXKPR5E
+photo.18.tags: portrait, sample, techitechi, whiskers
+photo.19: cwdc://YOHcDy0ADQJ.jpg
+photo.19.author: yuredpanda
+photo.19.commitdate: 2024/4/19
+photo.19.link: ig://CjE6RXKPR5G
+photo.19.tags: lips, portrait, sample, whiskers
+photo.20: cwdc://YOcFJVkADQL.jpg
+photo.20.author: yuredpanda
+photo.20.commitdate: 2024/4/19
+photo.20.link: ig://CjPO0IiPnVS
+photo.20.tags: portrait, sample, videolink, whiskers
