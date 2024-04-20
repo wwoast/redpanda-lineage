@@ -29,12 +29,12 @@ photo.2.tags: paws, portrait, sample, smile, whiskers
 photo.3: cwdc://X-sGjWJADQC.jpg
 photo.3.author: yuredpanda
 photo.3.commitdate: 2024/4/19
-photo.3.link: ig://CbXPhI0v-5t
+photo.3.link: ig://CbXPhI0v-5q?img_index=4
 photo.3.tags: itchy, paws, portrait, sample, tongue, whiskers
 photo.4: cwdc://X-sGjWJADQD.jpg
 photo.4.author: yuredpanda
 photo.4.commitdate: 2024/4/19
-photo.4.link: ig://CbXPhI0v-5w
+photo.4.link: ig://CbXPhI0v-5q?img_index=7
 photo.4.tags: blink, itchy, paws, portrait, sample, whiskers
 photo.5: cwdc://YAztn6dADQE.jpg
 photo.5.author: yuredpanda
@@ -69,7 +69,7 @@ photo.10.tags: mofumofu, peek, portrait, sample, whiskers
 photo.11: cwdc://YKBI9lKADQA.jpg
 photo.11.author: yuredpanda
 photo.11.commitdate: 2022/9/24
-photo.11.link: https://www.instagram.com/p/ChBwuQVPVwz
+photo.11.link: ig://ChBwuQVPVwz
 photo.11.tags: portrait, profile, sample, whiskers
 photo.12: cwdc://YLoKSpIADQK.jpg
 photo.12.author: yuredpanda
@@ -81,3 +81,8 @@ zh.name: 可頌
 zh.nicknames: none
 zh.othernames: none
 zoo: 17
+photo.13: cwdc://XGhJz0hADQA.jpg
+photo.13.author: lovetaipeizoo
+photo.13.commitdate: 2024/4/19
+photo.13.link: ig://B_RxJYAn33o
+photo.13.tags: close-up, portrait, sample, whiskers
