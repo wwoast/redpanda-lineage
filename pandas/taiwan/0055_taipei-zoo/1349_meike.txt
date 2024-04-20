@@ -15,128 +15,123 @@ language.order: zh, en, ja
 litter: unknown
 location.1: 291, 2008/7/22
 location.2: 55, 2014/6/6
-photo.1: ig://CYnMTKaPgmL/m
+photo.1: ig://CY8DtQ9Pv-o/m
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/18
 photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: close-up, portrait, sample, smile, whiskers
-photo.2: ig://CY8DtQ9Pv-o/m
+photo.1.tags: portrait, whiskers
+photo.2: ig://CZGgmkRPsfd/m
 photo.2.author: yuredpanda
-photo.2.commitdate: 2022/4/18
+photo.2.commitdate: 2022/4/20
 photo.2.link: https://www.instagram.com/yuredpanda/
-photo.2.tags: portrait, whiskers
-photo.3: ig://CZGgmkRPsfd/m
+photo.2.tags: laying down, peek, portrait
+photo.3: cwdc://X7cDSY3ADQA.jpg
 photo.3.author: yuredpanda
 photo.3.commitdate: 2022/4/20
-photo.3.link: https://www.instagram.com/yuredpanda/
-photo.3.tags: laying down, peek, portrait
-photo.4: cwdc://X7cDSY3ADQA.jpg
+photo.3.link: https://www.instagram.com/p/CZvN4qLvudT
+photo.3.tags: close-up, laying down, mofumofu, portrait, profile, sample, whiskers
+photo.4: cwdc://X7kvcfHADQS.jpg
 photo.4.author: yuredpanda
 photo.4.commitdate: 2022/4/20
-photo.4.link: https://www.instagram.com/p/CZvN4qLvudT
-photo.4.tags: close-up, laying down, mofumofu, portrait, profile, sample, whiskers
-photo.5: cwdc://X7kvcfHADQS.jpg
+photo.4.link: ig://CZzj9tThyum
+photo.4.tags: climb, mofumofu, paws, portrait, wave, whiskers
+photo.5: cwdc://X7u6hsOADQP.jpg
 photo.5.author: yuredpanda
-photo.5.commitdate: 2022/4/20
-photo.5.link: ig://CZzj9tThyum
-photo.5.tags: climb, mofumofu, paws, portrait, wave, whiskers
-photo.6: cwdc://X7u6hsOADQP.jpg
+photo.5.commitdate: 2022/4/18
+photo.5.link: ig://CZ4pgT3Bzas
+photo.5.tags: bamboo, bite, portrait, whiskers
+photo.6: cwdc://X76udjiADQQ.jpg
 photo.6.author: yuredpanda
-photo.6.commitdate: 2022/4/18
-photo.6.link: ig://CZ4pgT3Bzas
-photo.6.tags: bamboo, bite, portrait, whiskers
-photo.7: cwdc://X76udjiADQQ.jpg
+photo.6.commitdate: 2022/4/19
+photo.6.link: ig://CZ-jePhBfsw
+photo.6.tags: portrait, shake
+photo.7: ig://CaEF4Huv0zD/m
 photo.7.author: yuredpanda
-photo.7.commitdate: 2022/4/19
-photo.7.link: ig://CZ-jePhBfsw
-photo.7.tags: portrait, shake
-photo.8: ig://CaEF4Huv0zD/m
+photo.7.commitdate: 2022/4/20
+photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.tags: itchy, paws, portrait, smile, techitechi, whiskers, wink
+photo.8: cwdc://X8Nva7ZADQA.jpg
 photo.8.author: yuredpanda
-photo.8.commitdate: 2022/4/20
-photo.8.link: https://www.instagram.com/yuredpanda/
-photo.8.tags: itchy, paws, portrait, smile, techitechi, whiskers, wink
-photo.9: cwdc://X8Nva7ZADQA.jpg
+photo.8.commitdate: 2022/4/19
+photo.8.link: ig://CaID87chAhf
+photo.8.tags: mofumofu, paws, whiskers
+photo.9: cwdc://X8PygtFADQB.jpg
 photo.9.author: yuredpanda
-photo.9.commitdate: 2022/4/19
-photo.9.link: ig://CaID87chAhf
-photo.9.tags: mofumofu, paws, whiskers
-photo.10: cwdc://X8PygtFADQB.jpg
+photo.9.commitdate: 2022/4/20
+photo.9.link: ig://CaJFf0SvNe4
+photo.9.tags: bridge, climb, paws, tail, whiskers
+photo.10: cwdc://X8dCwk2ADQC.jpg
 photo.10.author: yuredpanda
-photo.10.commitdate: 2022/4/20
-photo.10.link: ig://CaJFf0SvNe4
-photo.10.tags: bridge, climb, paws, tail, whiskers
-photo.11: cwdc://X8dCwk2ADQC.jpg
+photo.10.commitdate: 2022/4/18
+photo.10.link: ig://CaPtnwLBHMv
+photo.10.tags: close-up, portrait, whiskers
+photo.11: cwdc://X8mIPaKADQD.jpg
 photo.11.author: yuredpanda
-photo.11.commitdate: 2022/4/18
-photo.11.link: ig://CaPtnwLBHMv
-photo.11.tags: close-up, portrait, whiskers
-photo.12: cwdc://X8mIPaKADQD.jpg
+photo.11.commitdate: 2022/4/19
+photo.11.link: ig://CaUQXK1Pl6L
+photo.11.tags: close-up, lunch time, portrait, whiskers
+photo.12: cwdc://X99sg_zADQE.jpg
 photo.12.author: yuredpanda
-photo.12.commitdate: 2022/4/19
-photo.12.link: ig://CaUQXK1Pl6L
-photo.12.tags: close-up, lunch time, portrait, whiskers
-photo.13: cwdc://X99sg_zADQE.jpg
+photo.12.commitdate: 2022/4/18
+photo.12.link: ig://CbACf9pv1K5
+photo.12.tags: dish, smile, whiskers
+photo.13: cwdc://YAcE9TZADQF.jpg
 photo.13.author: yuredpanda
-photo.13.commitdate: 2022/4/18
-photo.13.link: ig://CbACf9pv1K5
-photo.13.tags: dish, smile, whiskers
-photo.14: cwdc://YAcE9TZADQF.jpg
+photo.13.commitdate: 2022/4/20
+photo.13.link: ig://CcPOuHcvDYA
+photo.13.tags: laying down, mofumofu, whiskers
+photo.14: cwdc://YEkcU1cADQH.jpg
 photo.14.author: yuredpanda
-photo.14.commitdate: 2022/4/20
-photo.14.link: ig://CcPOuHcvDYA
-photo.14.tags: laying down, mofumofu, whiskers
-photo.15: cwdc://YEkcU1cADQH.jpg
+photo.14.commitdate: 2022/6/22
+photo.14.link: ig://CeTaZ4ePnGb
+photo.14.tags: mofumofu, peek, portrait, sample
+photo.15: cwdc://YF1pwyyADQG.jpg
 photo.15.author: yuredpanda
-photo.15.commitdate: 2022/6/22
-photo.15.link: ig://CeTaZ4ePnGb
-photo.15.tags: mofumofu, peek, portrait, sample
-photo.16: cwdc://YF1pwyyADQG.jpg
+photo.15.commitdate: 2022/8/11
+photo.15.link: ig://Ce8BH3JPxTn
+photo.15.tags: mofumofu, portrait, sample, whiskers
+photo.16: cwdc://YG9ciT_ADQI.jpg
 photo.16.author: yuredpanda
-photo.16.commitdate: 2022/8/11
-photo.16.link: ig://Ce8BH3JPxTn
-photo.16.tags: mofumofu, portrait, sample, whiskers
-photo.17: cwdc://YG9ciT_ADQI.jpg
+photo.16.commitdate: 2022/8/16
+photo.16.link: ig://Cff6gnvvUFh
+photo.16.tags: laying down, mofumofu, paws, peek
+photo.17: cwdc://YIHqc-dADQK.jpg
 photo.17.author: yuredpanda
-photo.17.commitdate: 2022/8/16
-photo.17.link: ig://Cff6gnvvUFh
-photo.17.tags: laying down, mofumofu, paws, peek
-photo.18: cwdc://YIHqc-dADQK.jpg
+photo.17.commitdate: 2022/7/28
+photo.17.link: ig://CgFBd8-vvCj
+photo.17.tags: bamboo, bite, portrait, sample
+photo.18: cwdc://YIh7PQkADQL.jpg
 photo.18.author: yuredpanda
-photo.18.commitdate: 2022/7/28
-photo.18.link: ig://CgFBd8-vvCj
-photo.18.tags: bamboo, bite, portrait, sample
-photo.19: cwdc://YIh7PQkADQL.jpg
+photo.18.commitdate: 2022/7/25
+photo.18.link: ig://CgSJ3GCPDGp
+photo.18.tags: paws, portrait, sample, smile
+photo.19: cwdc://YK_zmrpADQM.jpg
 photo.19.author: yuredpanda
-photo.19.commitdate: 2022/7/25
-photo.19.link: ig://CgSJ3GCPDGp
-photo.19.tags: paws, portrait, sample, smile
-photo.20: cwdc://YK_zmrpADQM.jpg
+photo.19.commitdate: 2022/8/31
+photo.19.link: ig://ChhGCzkhXN_
+photo.19.tags: peek, portrait, sample, whiskers
+photo.20: cwdc://YNDlNWSADQN.jpg
 photo.20.author: yuredpanda
-photo.20.commitdate: 2022/8/31
-photo.20.link: ig://ChhGCzkhXN_
-photo.20.tags: peek, portrait, sample, whiskers
-photo.21: cwdc://YNDlNWSADQN.jpg
+photo.20.commitdate: 2022/10/24
+photo.20.link: ig://Cii-2I5PFFZ
+photo.20.tags: portrait, sample, whiskers
+photo.21: cwdc://YOkDR2VADQO.jpg
 photo.21.author: yuredpanda
-photo.21.commitdate: 2022/10/24
-photo.21.link: ig://Cii-2I5PFFZ
-photo.21.tags: portrait, sample, whiskers
-photo.22: cwdc://YOkDR2VADQO.jpg
+photo.21.commitdate: 2022/10/14
+photo.21.link: ig://CjTN4Y6vHZz
+photo.21.tags: peek, portrait, sample
+photo.22: cwdc://X76udjiADQR.jpg
 photo.22.author: yuredpanda
-photo.22.commitdate: 2022/10/14
-photo.22.link: ig://CjTN4Y6vHZz
-photo.22.tags: peek, portrait, sample
+photo.22.commitdate: 2024/4/19
+photo.22.link: ig://CZ-jePhBfsz
+photo.22.tags: peek, portrait
+photo.23: cwdc://YG9ciT_ADQJ.jpg
+photo.23.author: yuredpanda
+photo.23.commitdate: 2024/4/19
+photo.23.link: ig://Cff6gnvvUFi
+photo.23.tags: blink, bridge, laying down, paws
 species: 2
 zh.name: 美可
 zh.nicknames: none
 zh.othernames: none
 zoo: 55
-photo.23: cwdc://X76udjiADQR.jpg
-photo.23.author: yuredpanda
-photo.23.commitdate: 2024/4/19
-photo.23.link: ig://CZ-jePhBfsz
-photo.23.tags: peek, portrait
-photo.24: cwdc://YG9ciT_ADQJ.jpg
-photo.24.author: yuredpanda
-photo.24.commitdate: 2024/4/19
-photo.24.link: ig://Cff6gnvvUFi
-photo.24.tags: blink, bridge, laying down, paws
