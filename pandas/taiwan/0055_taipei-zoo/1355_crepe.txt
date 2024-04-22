@@ -13,81 +13,76 @@ ja.nicknames: none
 ja.othernames: none
 language.order: zh, en, ja
 litter: 1356
-photo.1: ig://CVFp6qShD9S/m
+photo.1: ig://CaFCFtBPg9C/m
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/20
 photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: portrait, smile, tongue, whiskers, white face
-photo.2: ig://CaFCFtBPg9C/m
+photo.1.tags: close-up, itchy, mofumofu, paws, portrait, techitechi, whiskers, white face
+photo.2: ig://CaODpCeBTRM/m
 photo.2.author: yuredpanda
-photo.2.commitdate: 2022/4/20
+photo.2.commitdate: 2022/4/19
 photo.2.link: https://www.instagram.com/yuredpanda/
-photo.2.tags: close-up, itchy, mofumofu, paws, portrait, techitechi, whiskers, white face
-photo.3: ig://CaODpCeBTRM/m
+photo.2.tags: mofumofu, peek, portrait, whiskers
+photo.3: ig://CaQ4v71vTJ2/m
 photo.3.author: yuredpanda
 photo.3.commitdate: 2022/4/19
 photo.3.link: https://www.instagram.com/yuredpanda/
-photo.3.tags: mofumofu, peek, portrait, whiskers
-photo.4: ig://CaQ4v71vTJ2/m
+photo.3.tags: peek, portrait, whiskers, white face
+photo.4: ig://CaV3rZnvnRl/m
 photo.4.author: yuredpanda
 photo.4.commitdate: 2022/4/19
 photo.4.link: https://www.instagram.com/yuredpanda/
-photo.4.tags: peek, portrait, whiskers, white face
-photo.5: ig://CaV3rZnvnRl/m
+photo.4.tags: portrait, smile, whiskers
+photo.5: ig://CaYs5ldPA1p/m
 photo.5.author: yuredpanda
 photo.5.commitdate: 2022/4/19
 photo.5.link: https://www.instagram.com/yuredpanda/
-photo.5.tags: portrait, smile, whiskers
-photo.6: ig://CaYs5ldPA1p/m
+photo.5.tags: bamboo, mofumofu, portrait, profile, whiskers
+photo.6: ig://CaiktJThZFi/m
 photo.6.author: yuredpanda
 photo.6.commitdate: 2022/4/19
 photo.6.link: https://www.instagram.com/yuredpanda/
-photo.6.tags: bamboo, mofumofu, portrait, profile, whiskers
-photo.7: ig://CaiktJThZFi/m
+photo.6.tags: blink, laying down, portrait, white face, yawn
+photo.7: ig://CbMLCIZvf7b/m
 photo.7.author: yuredpanda
 photo.7.commitdate: 2022/4/19
 photo.7.link: https://www.instagram.com/yuredpanda/
-photo.7.tags: blink, laying down, portrait, white face, yawn
-photo.8: ig://CbMLCIZvf7b/m
+photo.7.tags: mofumofu, portrait, smile, whiskers
+photo.8: ig://CdXPo-3PTjX/m
 photo.8.author: yuredpanda
-photo.8.commitdate: 2022/4/19
+photo.8.commitdate: 2022/6/6
 photo.8.link: https://www.instagram.com/yuredpanda/
-photo.8.tags: mofumofu, portrait, smile, whiskers
-photo.9: ig://CdXPo-3PTjX/m
+photo.8.tags: portrait, whiskers, white face
+photo.9: ig://Cd44QCpFBB8/m
 photo.9.author: yuredpanda
-photo.9.commitdate: 2022/6/6
+photo.9.commitdate: 2023/7/19
 photo.9.link: https://www.instagram.com/yuredpanda/
-photo.9.tags: portrait, whiskers, white face
-photo.10: ig://Cd44QCpFBB8/m
+photo.9.tags: whiskers, white face
+photo.10: ig://CeSNNfxvKE4/m
 photo.10.author: yuredpanda
-photo.10.commitdate: 2023/7/19
+photo.10.commitdate: 2022/9/24
 photo.10.link: https://www.instagram.com/yuredpanda/
-photo.10.tags: whiskers, white face
-photo.11: ig://CeSNNfxvKE4/m
+photo.10.tags: bamboo, peek, portrait, sample
+photo.11: ig://CeptobTvDH2/m
 photo.11.author: yuredpanda
-photo.11.commitdate: 2022/9/24
+photo.11.commitdate: 2022/8/30
 photo.11.link: https://www.instagram.com/yuredpanda/
-photo.11.tags: bamboo, peek, portrait, sample
-photo.12: ig://CeptobTvDH2/m
+photo.11.tags: mofumofu, peek, portrait, sample, whiskers
+photo.12: ig://CgDkgjivOdc/m
 photo.12.author: yuredpanda
-photo.12.commitdate: 2022/8/30
+photo.12.commitdate: 2022/8/16
 photo.12.link: https://www.instagram.com/yuredpanda/
-photo.12.tags: mofumofu, peek, portrait, sample, whiskers
-photo.13: ig://CgDkgjivOdc/m
+photo.12.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.13: ig://CiAeF-BhuxG/m
 photo.13.author: yuredpanda
-photo.13.commitdate: 2022/8/16
+photo.13.commitdate: 2022/9/7
 photo.13.link: https://www.instagram.com/yuredpanda/
-photo.13.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.14: ig://CiAeF-BhuxG/m
+photo.13.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.14: ig://CjekMeRPxd8/m
 photo.14.author: yuredpanda
-photo.14.commitdate: 2022/9/7
+photo.14.commitdate: 2022/10/20
 photo.14.link: https://www.instagram.com/yuredpanda/
-photo.14.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.15: ig://CjekMeRPxd8/m
-photo.15.author: yuredpanda
-photo.15.commitdate: 2022/10/20
-photo.15.link: https://www.instagram.com/yuredpanda/
-photo.15.tags: portrait, sample, smile, whiskers
+photo.14.tags: portrait, sample, smile, whiskers
 species: 2
 zh.name: 可麗餅
 zh.nicknames: none
