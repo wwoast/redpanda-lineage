@@ -27,31 +27,36 @@ photo.2.author: centralparkzoo
 photo.2.commitdate: 2021/8/6
 photo.2.link: https://www.instagram.com/centralparkzoo/
 photo.2.tags: portrait, smile, whiskers
-photo.3: ig://CJhHM1drNCT/m
+photo.3: cwdc://Xa_16vbADQA.jpg
 photo.3.author: trevorzoomillbrook
 photo.3.commitdate: 2021/1/2
-photo.3.link: https://www.instagram.com/trevorzoomillbrook/
-photo.3.tags: portrait, profile
-photo.4: ig://CLSdkMZAT9x/m
+photo.3.link: ig://CJhHM1drNCT
+photo.3.tags: portrait, profile, sample, whiskers
+photo.4: cwdc://XeiipdSADQB.jpg
 photo.4.author: trevorzoomillbrook
 photo.4.commitdate: 2021/4/29
-photo.4.link: https://www.instagram.com/trevorzoomillbrook/
-photo.4.tags: bamboo, portrait, snow, videolink
-photo.5: ig://CTPug-lN22M/m
+photo.4.link: ig://CLSdkMZAT9x
+photo.4.tags: bamboo, portrait, sample, snow, videolink
+photo.5: cwdc://XudEjBqADQA.jpg
 photo.5.author: trevorzoomillbrook
 photo.5.commitdate: 2021/9/8
-photo.5.link: https://www.instagram.com/trevorzoomillbrook/
-photo.5.tags: portrait, white face
+photo.5.link: ig://trevorzoomillbrook/CTPug-lN22M
+photo.5.tags: portrait, sample, white face
 photo.6: ig://CgUAmvUsaU6/m
 photo.6.author: rossifari
 photo.6.commitdate: 2022/7/28
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: bamboo, bite
-photo.7: ig://CyZcTdJtjGh/m
+photo.7: cwdc://YswgH-zADQC.jpg
 photo.7.author: trevorzoomillbrook
 photo.7.commitdate: 2023/11/8
-photo.7.link: https://www.instagram.com/trevorzoomillbrook/
+photo.7.link: ig://CyZcTdJtjGh
 photo.7.tags: portrait, sample
 species: 1
 studbook.id: 1547
 zoo: 117
+photo.8: cwdc://YswgH-zADQD.jpg
+photo.8.author: trevorzoomillbrook
+photo.8.commitdate: 2024/4/25
+photo.8.link: ig://CyZcTdJtjGi
+photo.8.tags: bamboo, paws, portrait, sample, tongue, whiskers
