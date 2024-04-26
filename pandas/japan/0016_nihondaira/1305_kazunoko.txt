@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
+location.1: 16, 2021/8/4
+location.2: 289, 2024/4/16
 photo.1: cwdc://Xu5R8EzADQH.jpg
 photo.1.author: lesserpanda_shizuokacity_cp
 photo.1.commitdate: 2021/9/7
@@ -359,4 +361,4 @@ photo.69.commitdate: 2024/4/15
 photo.69.link: ig://C5uB5ZRhwGY
 photo.69.tags: mofumofu, portrait, sample, smile, whiskers
 species: 2
-zoo: 16
+zoo: 289
