@@ -13,655 +13,1205 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 963
-photo.1: ig://B2rDR7rBGui/m
+photo.1: cwdc://W1TuE72ADQA.jpg
 photo.1.author: motohin
 photo.1.commitdate: 2019/9/21
-photo.1.link: https://www.instagram.com/motohin/
+photo.1.link: ig://B2rDR7rBGui
 photo.1.tags: baby, portrait
-photo.2: ig://B3RsTVvhiSS/m
+photo.2: cwdc://W2hAHv_ADQB.jpg
 photo.2.author: taka__3428
 photo.2.commitdate: 2019/10/6
-photo.2.link: https://www.instagram.com/taka__3428/
+photo.2.link: ig://B3RsTVvhiSS
 photo.2.tags: baby, bamboo, smile, tongue
-photo.3: ig://B3W1mgNhSOn/m
+photo.3: cwdc://W2rSuE7ADQD.jpg
 photo.3.author: taka__3428
 photo.3.commitdate: 2019/10/13
-photo.3.link: https://www.instagram.com/taka__3428/
+photo.3.link: ig://B3W1mgNhSOn
 photo.3.tags: baby
-photo.4: ig://B3ip8x3BlM2/m
+photo.4: cwdc://W3C7aoOADQA.jpg
 photo.4.author: nakayamanoboru6981
 photo.4.commitdate: 2019/10/13
-photo.4.link: https://www.instagram.com/nakayamanoboru6981/
+photo.4.link: ig://B3ip8x3BlM2
 photo.4.tags: baby, portrait
-photo.5: ig://B3os_fXhdfK/m
+photo.5: cwdc://W3PBgDPADQA.jpg
 photo.5.author: taka__3428
 photo.5.commitdate: 2019/10/19
-photo.5.link: https://www.instagram.com/taka__3428/
+photo.5.link: ig://B3os_fXhdfK
 photo.5.tags: baby, nose
-photo.6: ig://B3t2ZXMhcZt/m
+photo.6: cwdc://W3ZUTy5ADQC.jpg
 photo.6.author: taka__3428
 photo.6.commitdate: 2019/10/21
-photo.6.link: https://www.instagram.com/taka__3428/
+photo.6.link: ig://B3t2ZXMhcZt
 photo.6.tags: baby, toys
-photo.7: ig://B4KW19zB-GQ/m
+photo.7: cwdc://W4SVNAGADQB.jpg
 photo.7.author: leonard_redmof
 photo.7.commitdate: 2019/10/28
-photo.7.link: https://www.instagram.com/leonard_redmof/
+photo.7.link: ig://B4KW19zB-GQ
 photo.7.tags: baby, paws, window
-photo.8: ig://B4e2_iXB9zb/m
+photo.8: cwdc://W47VgJOADQE.jpg
 photo.8.author: taka__3428
 photo.8.commitdate: 2019/11/17
-photo.8.link: https://www.instagram.com/taka__3428/
+photo.8.link: ig://B4e2_iXB9zb
 photo.8.tags: apple time, baby, bite, dish, portrait
-photo.9: ig://B4hi9W6hbr7/m
+photo.9: cwdc://W5AtbyVADQF.jpg
 photo.9.author: taka__3428
 photo.9.commitdate: 2019/11/17
-photo.9.link: https://www.instagram.com/taka__3428/
+photo.9.link: ig://B4hi9W6hbr7
 photo.9.tags: baby
-photo.10: ig://B5AN6kDhFgs/m
+photo.10: cwdc://W5-DWMnADQA.jpg
 photo.10.author: redpan22
 photo.10.commitdate: 2019/11/26
-photo.10.link: https://www.instagram.com/redpan22/
-photo.10.tags: baby, bamboo, mofumofu, paws, panda bowl
-photo.11: ig://B5Cc1R3nd5v/m
+photo.10.link: ig://B5AN6kDhFgs
+photo.10.tags: baby, bamboo, mofumofu, panda bowl, paws
+photo.11: cwdc://W6ChLoPADQA.jpg
 photo.11.author: tetusara.ki_
 photo.11.commitdate: 2019/11/26
-photo.11.link: https://www.instagram.com/tetusara.ki_/
-photo.11.tags: baby, mofumofu, portrait, tail
-photo.12: ig://B5HVn_9hvou/m
+photo.11.link: ig://B5Cc1R3nd5v
+photo.11.tags: baby, mofumofu, portrait, sample, tail
+photo.12: cwdc://W6MSxEbADQC.jpg
 photo.12.author: tetusara.ki_
 photo.12.commitdate: 2019/11/26
-photo.12.link: https://www.instagram.com/tetusara.ki_/
+photo.12.link: ig://B5HVn_9hvou
 photo.12.tags: baby, climb, paws, portrait, upside-down
-photo.13: ig://B5MdeIGhpjH/m
+photo.13: cwdc://W6WidUtADQB.jpg
 photo.13.author: redpan22
 photo.13.commitdate: 2019/11/25
-photo.13.link: https://www.instagram.com/redpan22/
+photo.13.link: ig://B5MdeIGhpjH
 photo.13.tags: dish, portrait
-photo.14: ig://B5OPqDXB5vS/m
+photo.14: cwdc://W6aG1LOADQH.jpg
 photo.14.author: taka__3428
 photo.14.commitdate: 2019/11/25
-photo.14.link: https://www.instagram.com/taka__3428/
+photo.14.link: ig://B5OPqDXB5vS
 photo.14.tags: baby, yawn
-photo.15: ig://B5QBhsZBM44/m
+photo.15: cwdc://W6dqkdSADQI.jpg
 photo.15.author: taka__3428
 photo.15.commitdate: 2019/11/29
-photo.15.link: https://www.instagram.com/taka__3428/
+photo.15.link: ig://B5QBhsZBM44
 photo.15.tags: baby, paws
-photo.16: ig://B5sGdsqh2JN/m
+photo.16: cwdc://W7V0cd1ADQJ.jpg
 photo.16.author: taka__3428
 photo.16.commitdate: 2019/12/11
-photo.16.link: https://www.instagram.com/taka__3428/
-photo.16.tags: paws
-photo.17: ig://B5tig8fhmU4/m
+photo.16.link: ig://B5sGdsqh2JN
+photo.16.tags: keeper, paws
+photo.17: cwdc://W7Ysi9fADQD.jpg
 photo.17.author: tetusara.ki_
 photo.17.commitdate: 2019/12/11
-photo.17.link: https://www.instagram.com/tetusara.ki_/
-photo.17.tags: bamboo, panda bowl, paws, portrait
-photo.18: ig://B5uwWoxBKYj/m
+photo.17.link: ig://B5tig8fhmU4
+photo.17.tags: bamboo, panda bowl, paws, portrait, sample
+photo.18: cwdc://W7bIOWCADQK.jpg
 photo.18.author: taka__3428
 photo.18.commitdate: 2019/12/11
-photo.18.link: https://www.instagram.com/taka__3428/
-photo.18.tags: bamboo, whiskers
-photo.19: ig://B58y9r_Bn4K/m
+photo.18.link: ig://B5uwWoxBKYj
+photo.18.tags: bamboo, bite, sample, whiskers
+photo.19: cwdc://W73NcceADQA.jpg
 photo.19.author: kipekaila
 photo.19.commitdate: 2019/12/28
-photo.19.link: https://www.instagram.com/kipekaila/
-photo.19.tags: paws, portrait, smile
-photo.20: ig://B5-THRHhYpx/m
+photo.19.link: ig://B58y9r_Bn4K
+photo.19.tags: paws, portrait, sample, smile, whiskers
+photo.20: cwdc://W76NvmvADQA.jpg
 photo.20.author: ayusuke56
 photo.20.commitdate: 2019/12/28
-photo.20.link: https://www.instagram.com/ayusuke56/
+photo.20.link: ig://B5-THRHhYpx
 photo.20.tags: apple time, paws, portrait, tongue, window
-photo.21: ig://B6A3aSPBRtL/m
+photo.21: cwdc://W7_WVo-ADQB.jpg
 photo.21.author: ayusuke56
 photo.21.commitdate: 2019/12/28
-photo.21.link: https://www.instagram.com/ayusuke56/
-photo.21.tags: apple time, paws, portrait, window
-photo.22: ig://B6GNj42hmhb/m
+photo.21.link: ig://B6A3aSPBRtL
+photo.21.tags: apple time, paws, portrait, sample, window
+photo.22: cwdc://W8KCo2NADQN.jpg
 photo.22.author: taka__3428
 photo.22.commitdate: 2019/12/30
-photo.22.link: https://www.instagram.com/taka__3428/
+photo.22.link: ig://B6GNj42hmhb
 photo.22.tags: autumn, paws
-photo.23: ig://B6ISgPABMER/m
+photo.23: cwdc://W8OMhigADQO.jpg
 photo.23.author: taka__3428
 photo.23.commitdate: 2020/1/1
-photo.23.link: https://www.instagram.com/taka__3428/
+photo.23.link: ig://B6ISgPABMER
 photo.23.tags: autumn, peek
-photo.24: ig://B6IavY5Btn7/m
+photo.24: cwdc://W8Oc_2SADQA.jpg
 photo.24.author: alto0908
 photo.24.commitdate: 2019/12/30
-photo.24.link: https://www.instagram.com/alto0908/
-photo.24.tags: portrait, tongue, window
-photo.25: ig://B6LOm4JhyH6/m
+photo.24.link: ig://B6IavY5Btn7
+photo.24.tags: close-up, portrait, tongue, window
+photo.25: cwdc://W8UEu0zADQD.jpg
 photo.25.author: ayusuke56
 photo.25.commitdate: 2020/1/1
-photo.25.link: https://www.instagram.com/ayusuke56/
-photo.25.tags: autumn, portrait
-photo.26: ig://B6LPNnNhqub/m
+photo.25.link: ig://B6LOm4JhyH6
+photo.25.tags: autumn, peek, portrait, sample
+photo.26: cwdc://W8UF8S7ADQE.jpg
 photo.26.author: ayusuke56
 photo.26.commitdate: 2020/1/1
-photo.26.link: https://www.instagram.com/ayusuke56/
-photo.26.tags: autumn, portrait
-photo.27: ig://B6QR65Dhzrs/m
+photo.26.link: ig://B6LPNnNhqub
+photo.26.tags: autumn, peek, portrait, sample
+photo.27: cwdc://W8eLW2nADQG.jpg
 photo.27.author: ayusuke56
 photo.27.commitdate: 2020/1/1
-photo.27.link: https://www.instagram.com/ayusuke56/
-photo.27.tags: bamboo, portrait, smile
-photo.28: ig://B6aSUJJBXkM/m
+photo.27.link: ig://B6QR65Dhzrs
+photo.27.tags: bamboo, portrait, sample, smile
+photo.28: cwdc://W8yMJWyADQE.jpg
 photo.28.author: tetusara.ki_
 photo.28.commitdate: 2020/3/7
-photo.28.link: https://www.instagram.com/tetusara.ki_/
+photo.28.link: ig://B6aSUJJBXkM
 photo.28.tags: lunch time, portrait, smile, window
-photo.29: ig://B6b1pVVh2wR/m
+photo.29: cwdc://W81SzvLADQA.jpg
 photo.29.author: grskus_tk
 photo.29.commitdate: 2019/12/30
-photo.29.link: https://www.instagram.com/grskus_tk/
-photo.29.tags: portrait
-photo.30: ig://B6dQuFvB6vK/m
+photo.29.link: ig://B6b1pVVh2wR
+photo.29.tags: mofumofu, portrait, sample
+photo.30: cwdc://W84I9P-ADQC.jpg
 photo.30.author: ayusuke56
 photo.30.commitdate: 2020/3/7
-photo.30.link: https://www.instagram.com/ayusuke56/
-photo.30.tags: bamboo, laying down, portrait, upside-down
-photo.31: ig://B6dWGuxBh9z/m
+photo.30.link: ig://B6dQuFvB6vK
+photo.30.tags: bamboo, laying down, portrait, sample, upside-down
+photo.31: cwdc://W84TuiCADQA.jpg
 photo.31.author: ifumoto88
 photo.31.commitdate: 2020/3/7
-photo.31.link: https://www.instagram.com/ifumoto88/
-photo.31.tags: home, peek, portrait
-photo.32: ig://B6kZJCZnPzr/m
+photo.31.link: ig://B6dWGuxBh9z
+photo.31.tags: home, peek, portrait, sample
+photo.32: cwdc://W9GZzJTADQF.jpg
 photo.32.author: tetusara.ki_
 photo.32.commitdate: 2020/2/13
-photo.32.link: https://www.instagram.com/tetusara.ki_/
-photo.32.tags: mofumofu, portrait
-photo.33: ig://B6kZzyVH8Eb/m
+photo.32.link: ig://B6kZJCZnPzr
+photo.32.tags: mofumofu, portrait, sample, whiskers
+photo.33: cwdc://W9GbIpKADQG.jpg
 photo.33.author: tetusara.ki_
 photo.33.commitdate: 2020/2/13
-photo.33.link: https://www.instagram.com/tetusara.ki_/
-photo.33.tags: laying down, mofumofu, portrait
-photo.34: ig://B6vGog7hiJN/m
+photo.33.link: ig://B6kZzyVH8Eb
+photo.33.tags: laying down, mofumofu, portrait, sample
+photo.34: cwdc://W9b0yGXADQH.jpg
 photo.34.author: ayusuke56
 photo.34.commitdate: 2020/1/6
-photo.34.link: https://www.instagram.com/ayusuke56/
-photo.34.tags: bamboo, paws, portrait, smile
-photo.35: ig://B6xOglkh89l/m
+photo.34.link: ig://B6vGog7hiJN
+photo.34.tags: bamboo, paws, portrait, sample, smile
+photo.35: cwdc://W9gEiPpADQA.jpg
 photo.35.author: fetorus_mami
 photo.35.commitdate: 2020/1/6
-photo.35.link: https://www.instagram.com/fetorus_mami/
-photo.35.tags: paws, portrait
-photo.36: ig://B6zL0fPBbqI/m
+photo.35.link: ig://B6xOglkh89l
+photo.35.tags: paws, peek, portrait, sample
+photo.36: cwdc://W9j_KC-ADQH.jpg
 photo.36.author: tetusara.ki_
 photo.36.commitdate: 2020/1/6
-photo.36.link: https://www.instagram.com/tetusara.ki_/
-photo.36.tags: portrait
-photo.37: ig://B7YW7iBBqU-/m
+photo.36.link: ig://B6zL0fPBbqI
+photo.36.tags: portrait, sample, whiskers
+photo.37: cwdc://W-uVYIiADQR.jpg
 photo.37.author: taka__3428
 photo.37.commitdate: 2020/1/19
-photo.37.link: https://www.instagram.com/taka__3428/
+photo.37.link: ig://B7YW7iBBqU-
 photo.37.tags: home, laying down
-photo.38: ig://B7mhpWbhYkk/m
+photo.38: cwdc://W_KqzxXADQD.jpg
 photo.38.author: fetorus_mami
 photo.38.commitdate: 2020/2/11
-photo.38.link: https://www.instagram.com/fetorus_mami/
-photo.38.tags: paws, portrait
-photo.39: ig://B7nRW_hhD8N/m
+photo.38.link: ig://B7mhpWbhYkk
+photo.38.tags: paws, peek, portrait, sample
+photo.39: cwdc://W_MKPDjADQA.jpg
 photo.39.author: kisshan324
 photo.39.commitdate: 2020/2/13
-photo.39.link: https://www.instagram.com/kisshan324/
+photo.39.link: ig://B7nRW_hhD8N
 photo.39.tags: bamboo, laying down, paws
-photo.40: ig://B7wYOVAngqh/m
+photo.40: cwdc://W_eX9uhADQI.jpg
 photo.40.author: tetusara.ki_
 photo.40.commitdate: 2020/3/7
-photo.40.link: https://www.instagram.com/tetusara.ki_/
+photo.40.link: ig://B7wYOVAngqh
 photo.40.tags: keeper, mofumofu, portrait
-photo.41: ig://B75k-3jB5cC/m
+photo.41: cwdc://W_wxezmADQX.jpg
 photo.41.author: taka__3428
 photo.41.commitdate: 2020/2/13
-photo.41.link: https://www.instagram.com/taka__3428/
-photo.41.tags: bamboo, paws
-photo.42: ig://B8JQUxUBOso/m
+photo.41.link: ig://B75k-3jB5cC
+photo.41.tags: bamboo, paws, sample
+photo.42: cwdc://XAQIKnIADQS.jpg
 photo.42.author: taka__3428
 photo.42.commitdate: 2020/2/13
-photo.42.link: https://www.instagram.com/taka__3428/
+photo.42.link: ig://B8JQUxUBOso
 photo.42.tags: bamboo, peek
-photo.43: ig://B9OrfYdBGm5/m
+photo.43: cwdc://XCa-f1aADQT.jpg
 photo.43.author: taka__3428
 photo.43.commitdate: 2020/4/28
-photo.43.link: https://www.instagram.com/taka__3428/
-photo.43.tags: home, tail
-photo.44: ig://B9TvCythjd9/m
+photo.43.link: ig://B9OrfYdBGm5
+photo.43.tags: home, laying down, tail
+photo.44: cwdc://XClFmp7ADQU.jpg
 photo.44.author: taka__3428
 photo.44.commitdate: 2020/4/28
-photo.44.link: https://www.instagram.com/taka__3428/
+photo.44.link: ig://B9TvCythjd9
 photo.44.tags: bite, paws, smile
-photo.45: ig://B9ZNRcchxEK/m
+photo.45: cwdc://XCwCD9ZADQW.jpg
 photo.45.author: taka__3428
 photo.45.commitdate: 2020/4/28
-photo.45.link: https://www.instagram.com/taka__3428/
+photo.45.link: ig://B9ZNRcchxEK
 photo.45.tags: home, laying down, peek
-photo.46: ig://B9v7v9kBrlI/m
+photo.46: cwdc://XDdfA_oADQV.jpg
 photo.46.author: taka__3428
 photo.46.commitdate: 2020/4/28
-photo.46.link: https://www.instagram.com/taka__3428/
-photo.46.tags: home, laying down, mofumofu, paws, portrait
-photo.47: ig://B96lmsxBAKD/m
+photo.46.link: ig://B9v7v9kBrlI
+photo.46.tags: home, laying down, mofumofu, paws, portrait, sample
+photo.47: cwdc://XDyyueCADQY.jpg
 photo.47.author: taka__3428
 photo.47.commitdate: 2020/4/28
-photo.47.link: https://www.instagram.com/taka__3428/
-photo.47.tags: itchy, paws
-photo.48: ig://B-pG978BA-3/m
+photo.47.link: ig://B96lmsxBAKD
+photo.47.tags: blink, itchy, paws
+photo.48: cwdc://XFP1c8YADQa.jpg
 photo.48.author: taka__3428
 photo.48.commitdate: 2020/4/28
-photo.48.link: https://www.instagram.com/taka__3428/
-photo.48.tags: climb, paws, smile, tree
-photo.49: ig://B-ws1kbhLO3/m
+photo.48.link: ig://B-pG978BA-3
+photo.48.tags: climb, flowers, paws, smile, tree
+photo.49: cwdc://XFfBMNXADQb.jpg
 photo.49.author: taka__3428
 photo.49.commitdate: 2020/4/28
-photo.49.link: https://www.instagram.com/taka__3428/
-photo.49.tags: home, laying down, paws
-photo.50: ig://B-9e-8tB6h4/m
+photo.49.link: ig://B-ws1kbhLO3
+photo.49.tags: home, laying down, paws, sample
+photo.50: cwdc://XF4le96ADQA.jpg
 photo.50.author: hamamatsu.chiita
 photo.50.commitdate: 2020/8/16
-photo.50.link: https://www.instagram.com/hamamatsu.chiita/
-photo.50.tags: home, laying down, paws, portrait, wink
-photo.51: ig://B_CpwQrBE0x/m
+photo.50.link: ig://B-9e-8tB6h4
+photo.50.tags: home, laying down, paws, portrait, sample, wink
+photo.51: cwdc://XGC7Bl2ADQB.jpg
 photo.51.author: hamamatsu.chiita
 photo.51.commitdate: 2020/8/16
-photo.51.link: https://www.instagram.com/hamamatsu.chiita/
+photo.51.link: ig://B_CpwQrBE0x
 photo.51.tags: home, laying down, paws
-photo.52: ig://B_CwSgpB0on/m
+photo.52: cwdc://XGDIGFyADQZ.jpg
 photo.52.author: taka__3428
 photo.52.commitdate: 2020/4/28
-photo.52.link: https://www.instagram.com/taka__3428/
+photo.52.link: ig://B_CwSgpB0on
 photo.52.tags: home, laying down, upside-down
-photo.53: ig://B_LjLLMBHoz/m
+photo.53: cwdc://XGUt3a4ADQC.jpg
 photo.53.author: alto0908
 photo.53.commitdate: 2020/4/28
-photo.53.link: https://www.instagram.com/alto0908/
-photo.53.tags: autumn, portrait, tree
-photo.54: ig://B_Zo4AOnK28/m
+photo.53.link: ig://B_LjLLMBHoz
+photo.53.tags: autumn, portrait, sample, tree
+photo.54: cwdc://XGw5RE9ADQC.jpg
 photo.54.author: hamamatsu.chiita
 photo.54.commitdate: 2020/8/16
-photo.54.link: https://www.instagram.com/hamamatsu.chiita/
+photo.54.link: ig://B_Zo4AOnK28
 photo.54.tags: home, laying down, mofumofu
-photo.55: ig://CAG3ddYhGVu/m
+photo.55: cwdc://XILWb_RADQD.jpg
 photo.55.author: alto0908
 photo.55.commitdate: 2020/7/19
-photo.55.link: https://www.instagram.com/alto0908/
-photo.55.tags: bamboo, laying down, portrait
-photo.56: ig://CAKhHSwBGOx/m
+photo.55.link: ig://CAG3ddYhGVu
+photo.55.tags: bamboo, laying down, portrait, sample, whiskers
+photo.56: cwdc://XISpvqAADQD.jpg
 photo.56.author: hamamatsu.chiita
 photo.56.commitdate: 2020/8/16
-photo.56.link: https://www.instagram.com/hamamatsu.chiita/
-photo.56.tags: home, laying down, mofumofu, peek, portrait
-photo.57: ig://CAXoCwWHqwE/m
+photo.56.link: ig://CAKhHSwBGOx
+photo.56.tags: home, laying down, mofumofu, peek, portrait, sample
+photo.57: cwdc://XIs3mlMADQE.jpg
 photo.57.author: hamamatsu.chiita
 photo.57.commitdate: 2020/8/16
-photo.57.link: https://www.instagram.com/hamamatsu.chiita/
-photo.57.tags: bamboo, bite, close-up, portrait
-photo.58: ig://CAcxkrRBhFL/m
+photo.57.link: ig://CAXoCwWHqwE
+photo.57.tags: bamboo, bite, close-up, portrait, sample
+photo.58: cwdc://XI3KqbCADQh.jpg
 photo.58.author: taka__3428
 photo.58.commitdate: 2020/7/19
-photo.58.link: https://www.instagram.com/taka__3428/
-photo.58.tags: keeper, paws, tongue
-photo.59: ig://CAfUcl2HL7A/m
+photo.58.link: ig://CAcxkrRBhFL
+photo.58.tags: keeper, paws, sample, tongue
+photo.59: cwdc://XI8QaQMADQi.jpg
 photo.59.author: taka__3428
 photo.59.commitdate: 2020/7/19
-photo.59.link: https://www.instagram.com/taka__3428/
-photo.59.tags: laying down, paws, tail
-photo.60: ig://CA_nDfPhr6A/m
+photo.59.link: ig://CAfUcl2HL7A
+photo.59.tags: laying down, paws, sample, tail
+photo.60: cwdc://XJ81oC_ADQE.jpg
 photo.60.author: alto0908
 photo.60.commitdate: 2020/7/19
-photo.60.link: https://www.instagram.com/alto0908/
+photo.60.link: ig://CA_nDfPhr6A
 photo.60.tags: laying down, panda bowl, portrait, tail, upside-down
-photo.61: ig://CBfw_owhLUK/m
+photo.61: cwdc://XK9JgWBADQj.jpg
 photo.61.author: taka__3428
 photo.61.commitdate: 2020/7/19
-photo.61.link: https://www.instagram.com/taka__3428/
+photo.61.link: ig://CBfw_owhLUK
 photo.61.tags: bamboo, bite
-photo.62: ig://CBpk89xhQUs/m
+photo.62: cwdc://XLQxbADADQF.jpg
 photo.62.author: hamamatsu.chiita
 photo.62.commitdate: 2020/8/16
-photo.62.link: https://www.instagram.com/hamamatsu.chiita/
-photo.62.tags: hammock, mofumofu, portrait, smile
-photo.63: ig://CBwEziYh7ss/m
+photo.62.link: ig://CBpk89xhQUs
+photo.62.tags: hammock, mofumofu, portrait, sample, smile
+photo.63: cwdc://XLdxIJRADQH.jpg
 photo.63.author: hamamatsu.chiita
 photo.63.commitdate: 2020/8/16
-photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: close-up, smile
-photo.64: ig://CCGPYmvBx44/m
+photo.63.link: ig://CBwEziYh7ss
+photo.63.tags: close-up, portrait, sample, smile
+photo.64: cwdc://XMKGSR-ADQq.jpg
 photo.64.author: taka__3428
 photo.64.commitdate: 2020/7/19
-photo.64.link: https://www.instagram.com/taka__3428/
-photo.64.tags: keeper, portrait
-photo.65: ig://CCIzJmJBWnV/m
+photo.64.link: ig://CCGPYmvBx44
+photo.64.tags: keeper, portrait, sample
+photo.65: cwdc://XMPN0QyADQr.jpg
 photo.65.author: taka__3428
 photo.65.commitdate: 2020/7/19
-photo.65.link: https://www.instagram.com/taka__3428/
+photo.65.link: ig://CCIzJmJBWnV
 photo.65.tags: laying down, paws
-photo.66: ig://CCJEDQyBqkR/m
+photo.66: cwdc://XMPvnmEADQs.jpg
 photo.66.author: taka__3428
 photo.66.commitdate: 2020/7/19
-photo.66.link: https://www.instagram.com/taka__3428/
+photo.66.link: ig://CCJEDQyBqkR
 photo.66.tags: laying down, paws, smile
-photo.67: ig://CCN1rNXhAP8/m
+photo.67: cwdc://XMZS3fPADQJ.jpg
 photo.67.author: hamamatsu.chiita
 photo.67.commitdate: 2020/8/16
-photo.67.link: https://www.instagram.com/hamamatsu.chiita/
-photo.67.tags: bamboo
-photo.68: ig://CCQZTbLBwNY/m
+photo.67.link: ig://CCN1rNXhAP8
+photo.67.tags: bamboo, close-up
+photo.68: cwdc://XMeaH62ADQK.jpg
 photo.68.author: hamamatsu.chiita
 photo.68.commitdate: 2020/8/16
-photo.68.link: https://www.instagram.com/hamamatsu.chiita/
-photo.68.tags: apple time, close-up, dish, paws
-photo.69: ig://CCb-NVSh3r4/m
+photo.68.link: ig://CCQZTbLBwNY
+photo.68.tags: apple time, close-up, dish, paws, sample
+photo.69: cwdc://XM1j7vFADQI.jpg
 photo.69.author: hamamatsu.chiita
 photo.69.commitdate: 2020/8/16
-photo.69.link: https://www.instagram.com/hamamatsu.chiita/
-photo.69.tags: bamboo, portrait, smile, standing
-photo.70: ig://CCdOZTzBryM/m
+photo.69.link: ig://CCb-NVSh3r4
+photo.69.tags: bamboo, portrait, sample, smile, standing
+photo.70: cwdc://XM4ETsGADQp.jpg
 photo.70.author: taka__3428
 photo.70.commitdate: 2020/7/19
-photo.70.link: https://www.instagram.com/taka__3428/
-photo.70.tags: laying down, smile
-photo.71: ig://CCh02QLhzAm/m
+photo.70.link: ig://CCdOZTzBryM
+photo.70.tags: laying down, sample, smile
+photo.71: cwdc://XNBRNk3ADQA.jpg
 photo.71.author: gloryeui
 photo.71.commitdate: 2020/7/19
-photo.71.link: https://www.instagram.com/gloryeui/
-photo.71.tags: home, laying down, mofumofu, portrait
-photo.72: ig://CD2EB16BGC7/m
+photo.71.link: ig://CCh02QLhzAm
+photo.71.tags: home, laying down, mofumofu, portrait, sample
+photo.72: cwdc://XPpvkwUADQM.jpg
 photo.72.author: hamamatsu.chiita
 photo.72.commitdate: 2020/8/29
-photo.72.link: https://www.instagram.com/hamamatsu.chiita/
-photo.72.tags: home, laying down, paws, portrait, smile
-photo.73: ig://CEMMDV7hbsA/m
+photo.72.link: ig://CD2EB16BGC7
+photo.72.tags: home, laying down, paws, portrait, sample, smile
+photo.73: cwdc://XQV_nwXADQ1.jpg
 photo.73.author: taka__3428
 photo.73.commitdate: 2020/8/29
-photo.73.link: https://www.instagram.com/taka__3428/
+photo.73.link: ig://CEMMDV7hbsA
 photo.73.tags: apple time, paws, window
-photo.74: ig://CEeS6y0Bwot/m
+photo.74: cwdc://XQ6NWqIADQx.jpg
 photo.74.author: taka__3428
 photo.74.commitdate: 2020/9/4
-photo.74.link: https://www.instagram.com/taka__3428/
-photo.74.tags: apple time, paws, portrait, standing, window
-photo.75: ig://CEg3s7_hw6U/m
+photo.74.link: ig://CEeS6y0Bwot
+photo.74.tags: apple time, paws, portrait, sample, standing, window
+photo.75: cwdc://XQ_W68fADQy.jpg
 photo.75.author: taka__3428
 photo.75.commitdate: 2020/12/28
-photo.75.link: https://www.instagram.com/taka__3428/
-photo.75.tags: standing
-photo.76: ig://CEjWIcCBypD/m
+photo.75.link: ig://CEg3s7_hw6U
+photo.75.tags: door, paws, standing
+photo.76: cwdc://XRETx8kADQz.jpg
 photo.76.author: taka__3428
 photo.76.commitdate: 2020/12/28
-photo.76.link: https://www.instagram.com/taka__3428/
+photo.76.link: ig://CEjWIcCBypD
 photo.76.tags: apple time, paws, tongue, window
-photo.77: ig://CEkS8nwh5dQ/m
+photo.77: cwdc://XRGNaUBADQP.jpg
 photo.77.author: hamamatsu.chiita
 photo.77.commitdate: 2020/12/28
-photo.77.link: https://www.instagram.com/hamamatsu.chiita/
-photo.77.tags: home, laying down, paws, portrait, smile
-photo.78: ig://CEl3YLsBkrp/m
+photo.77.link: ig://CEkS8nwh5dQ
+photo.77.tags: home, laying down, paws, portrait, sample, smile, whiskers
+photo.78: cwdc://XRJWRb4ADQ0.jpg
 photo.78.author: taka__3428
 photo.78.commitdate: 2020/12/28
-photo.78.link: https://www.instagram.com/taka__3428/
+photo.78.link: ig://CEl3YLsBkrp
 photo.78.tags: bamboo, close-up, nose, tongue
-photo.79: ig://CE1kHoihIL7/m
+photo.79: cwdc://XRovwVlADQw.jpg
 photo.79.author: taka__3428
 photo.79.commitdate: 2020/12/28
-photo.79.link: https://www.instagram.com/taka__3428/
+photo.79.link: ig://CE1kHoihIL7
 photo.79.tags: bamboo, paws, techitechi, tongue
-photo.80: ig://CE7eqrHhsnK/m
+photo.80: cwdc://XR0k2avADQO.jpg
 photo.80.author: hamamatsu.chiita
 photo.80.commitdate: 2020/11/10
-photo.80.link: https://www.instagram.com/hamamatsu.chiita/
-photo.80.tags: apple time, paws, smile, window
-photo.81: ig://CFDbzVdBs5l/m
+photo.80.link: ig://CE7eqrHhsnK
+photo.80.tags: apple time, paws, portrait, sample, smile, window
+photo.81: cwdc://XSEfHvaADQQ.jpg
 photo.81.author: hamamatsu.chiita
 photo.81.commitdate: 2020/9/15
-photo.81.link: https://www.instagram.com/hamamatsu.chiita/
-photo.81.tags: laying down, paws, portrait, white face
-photo.82: ig://CFKAHVlBSaH/m
+photo.81.link: ig://CFDbzVdBs5l
+photo.81.tags: laying down, paws, portrait, sample, white face
+photo.82: cwdc://XSRnvvqADQ7.jpg
 photo.82.author: taka__3428
 photo.82.commitdate: 2022/1/7
-photo.82.link: https://www.instagram.com/taka__3428/
+photo.82.link: ig://CFKAHVlBSaH
 photo.82.tags: laying down, sleeping, whiskers
-photo.83: ig://CFhHAKxhQxj/m
+photo.83: cwdc://XS_1haDADQ4.jpg
 photo.83.author: taka__3428
 photo.83.commitdate: 2020/9/24
-photo.83.link: https://www.instagram.com/taka__3428/
-photo.83.tags: nose, whiskers
-photo.84: ig://CFhIeG1hs9f/m
+photo.83.link: ig://CFhHAKxhQxj
+photo.83.tags: nose, sample, whiskers
+photo.84: cwdc://XS_4dSLADQ5.jpg
 photo.84.author: taka__3428
 photo.84.commitdate: 2020/9/24
-photo.84.link: https://www.instagram.com/taka__3428/
+photo.84.link: ig://CFhIeG1hs9f
 photo.84.tags: paws, smile, standing
-photo.85: ig://CFjqKNkBKMn/m
+photo.85: cwdc://XTE71foADQ6.jpg
 photo.85.author: taka__3428
 photo.85.commitdate: 2021/8/17
-photo.85.link: https://www.instagram.com/taka__3428/
-photo.85.tags: bamboo, tongue
-photo.86: ig://CFnULCvhiHg/m
+photo.85.link: ig://CFjqKNkBKMn
+photo.85.tags: bamboo, peek, sample, tongue
+photo.86: cwdc://XTMP3J_ADQS.jpg
 photo.86.author: hamamatsu.chiita
 photo.86.commitdate: 2021/8/17
-photo.86.link: https://www.instagram.com/hamamatsu.chiita/
-photo.86.tags: home, laying down, smile, tongue, whiskers
-photo.87: ig://CFo1Q5xhHkI/m
+photo.86.link: ig://CFnULCvhiHg
+photo.86.tags: home, laying down, sample, smile, tongue, whiskers
+photo.87: cwdc://XTPSC4DADQT.jpg
 photo.87.author: hamamatsu.chiita
 photo.87.commitdate: 2021/8/17
-photo.87.link: https://www.instagram.com/hamamatsu.chiita/
+photo.87.link: ig://CFo1Q5xhHkI
 photo.87.tags: close-up, whiskers
-photo.88: ig://CHDJTuPBTQP/m
+photo.88: cwdc://XWD6Ig-ADRF.jpg
 photo.88.author: taka__3428
 photo.88.commitdate: 2022/9/9
-photo.88.link: https://www.instagram.com/taka__3428/
+photo.88.link: ig://CHDJTuPBTQP
 photo.88.tags: close-up, nose, peek
-photo.89: ig://CHPWwiPBQHg/m
+photo.89: cwdc://XWcVCI-ADQC.jpg
 photo.89.author: minatomirai215
 photo.89.commitdate: 2020/11/21
-photo.89.link: https://www.instagram.com/minatomirai215/
-photo.89.tags: portrait, whiskers
-photo.90: ig://CHduTfOhK6J/m
+photo.89.link: ig://CHPWwiPBQHg
+photo.89.tags: portrait, sample, whiskers
+photo.90: cwdc://XW5EIC9ADQX.jpg
 photo.90.author: hamamatsu.chiita
 photo.90.commitdate: 2020/11/21
-photo.90.link: https://www.instagram.com/hamamatsu.chiita/
-photo.90.tags: home, laying down, portrait
-photo.91: ig://CHkXdI3BZnH/m
+photo.90.link: ig://CHduTfOhK6J
+photo.90.tags: home, laying down, portrait, sample, whiskers
+photo.91: cwdc://XXGWbWOADQY.jpg
 photo.91.author: hamamatsu.chiita
 photo.91.commitdate: 2020/11/18
-photo.91.link: https://www.instagram.com/hamamatsu.chiita/
-photo.91.tags: smile
-photo.92: ig://CIZHn5khSwc/m
+photo.91.link: ig://CHkXdI3BZnH
+photo.91.tags: portrait, sample, smile, whiskers
+photo.92: cwdc://XYv2w3pADQb.jpg
 photo.92.author: hamamatsu.chiita
 photo.92.commitdate: 2020/12/25
-photo.92.link: https://www.instagram.com/hamamatsu.chiita/
-photo.92.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.93: ig://CJ48AKPB6dE/m
+photo.92.link: ig://CIZHn5khSwc
+photo.92.tags: close-up, mofumofu, portrait, sample, smile, whiskers
+photo.93: cwdc://XbvfhY-ADQA.jpg
 photo.93.author: ssc6105
 photo.93.commitdate: 2022/2/5
-photo.93.link: https://www.instagram.com/ssc6105/
+photo.93.link: ig://CJ48AKPB6dE
 photo.93.tags: mofumofu, paws, peek, sample, whiskers
-photo.94: ig://CKBWTfjBg27/m
+photo.94: cwdc://XcAUIDmADQh.jpg
 photo.94.author: hamamatsu.chiita
 photo.94.commitdate: 2022/2/5
-photo.94.link: https://www.instagram.com/hamamatsu.chiita/
-photo.94.tags: close-up, mofumofu, portrait, videolink, whiskers
-photo.95: ig://CLoebgmBlmP/m
+photo.94.link: ig://CKBWTfjBg27
+photo.94.tags: close-up, mofumofu, portrait, sample, videolink, whiskers
+photo.95: cwdc://XfOkYFsADRN.jpg
 photo.95.author: taka__3428
 photo.95.commitdate: 2021/5/29
-photo.95.link: https://www.instagram.com/taka__3428/
+photo.95.link: ig://CLoebgmBlmP
 photo.95.tags: bamboo, blink
-photo.96: ig://CM683pCBzp4/m
+photo.96: cwdc://XhzhQWkADQi.jpg
 photo.96.author: hamamatsu.chiita
 photo.96.commitdate: 2021/8/27
-photo.96.link: https://www.instagram.com/hamamatsu.chiita/
-photo.96.tags: paws, portrait
-photo.97: ig://CNH0AxcBxVA/m
+photo.96.link: ig://CM683pCBzp4
+photo.96.tags: paws, portrait, sample, whiskers
+photo.97: cwdc://XiNPinYADRQ.jpg
 photo.97.author: taka__3428
 photo.97.commitdate: 2021/4/10
-photo.97.link: https://www.instagram.com/taka__3428/
+photo.97.link: ig://CNH0AxcBxVA
 photo.97.tags: apple time, bridge, paws
-photo.98: ig://CNXQEaZBWBW/m
+photo.98: cwdc://XisHp5SADRX.jpg
 photo.98.author: taka__3428
 photo.98.commitdate: 2021/6/1
-photo.98.link: https://www.instagram.com/taka__3428/
+photo.98.link: ig://CNXQEaZBWBW
 photo.98.tags: apple time, close-up, window
-photo.99: ig://CNcY5UJhAUa/m
+photo.99: cwdc://Xi2ZTszADRP.jpg
 photo.99.author: taka__3428
 photo.99.commitdate: 2021/4/29
-photo.99.link: https://www.instagram.com/taka__3428/
-photo.99.tags: apple time, paws, window
-photo.100: ig://CNkBpo5B2mA/m
+photo.99.link: ig://CNcY5UJhAUa
+photo.99.tags: apple time, paws, sign, window
+photo.100: cwdc://XjFq0WSADRR.jpg
 photo.100.author: taka__3428
 photo.100.commitdate: 2021/6/1
-photo.100.link: https://www.instagram.com/taka__3428/
+photo.100.link: ig://CNkBpo5B2mA
 photo.100.tags: close-up, nose
-photo.101: ig://CNkDYEfhWh_/m
+photo.101: cwdc://XjFuRNfADRS.jpg
 photo.101.author: taka__3428
 photo.101.commitdate: 2021/6/1
-photo.101.link: https://www.instagram.com/taka__3428/
-photo.101.tags: portrait, tongue, tree
-photo.102: ig://COFkd3dhM3V/m
+photo.101.link: ig://CNkDYEfhWh_
+photo.101.tags: peek, portrait, sample, tongue, tree
+photo.102: cwdc://XkIwczbADQI.jpg
 photo.102.author: ayusuke56
 photo.102.commitdate: 2021/5/31
-photo.102.link: https://www.instagram.com/ayusuke56/
-photo.102.tags: itchy, paws, portrait, tongue
-photo.103: ig://COXtjEIBw9B/m
+photo.102.link: ig://COFkd3dhM3V
+photo.102.tags: itchy, paws, portrait, sample, tongue, wink
+photo.103: cwdc://XktCnMwADQJ.jpg
 photo.103.author: ayusuke56
 photo.103.commitdate: 2021/6/1
-photo.103.link: https://www.instagram.com/ayusuke56/
-photo.103.tags: apple time, portrait, window
-photo.104: ig://COm4mdzBVvx/m
+photo.103.link: ig://COXtjEIBw9B
+photo.103.tags: apple time, bite, portrait, window
+photo.104: cwdc://XlLYuAGADQm.jpg
 photo.104.author: hamamatsu.chiita
 photo.104.commitdate: 2021/6/28
-photo.104.link: https://www.instagram.com/hamamatsu.chiita/
-photo.104.tags: close-up, mofumofu, portrait, whiskers
-photo.105: ig://CPOqMRShjqU/m
+photo.104.link: ig://COm4mdzBVvx
+photo.104.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.105: cwdc://Xma75nFADQn.jpg
 photo.105.author: hamamatsu.chiita
 photo.105.commitdate: 2021/6/28
-photo.105.link: https://www.instagram.com/hamamatsu.chiita/
-photo.105.tags: close-up, mofumofu, portrait
+photo.105.link: ig://CPOqMRShjqU
+photo.105.tags: close-up, mofumofu, portrait, sample, whiskers
 photo.106: cwdc://XmqXygHADQA.jpg
 photo.106.author: hamamatsu.chiita
 photo.106.commitdate: 2021/7/21
 photo.106.link: https://www.instagram.com/p/CPWYItzhmaV
 photo.106.tags: portrait, profile, sample, smile
-photo.107: ig://CROlchbhl7W/m
+photo.107: cwdc://XqayaHXADRc.jpg
 photo.107.author: taka__3428
 photo.107.commitdate: 2022/2/1
-photo.107.link: https://www.instagram.com/taka__3428/
+photo.107.link: ig://CROlchbhl7W
 photo.107.tags: door, laying down, peek, portrait
-photo.108: ig://CRR-RfGBv7F/m
+photo.108: cwdc://XqhkECsADQp.jpg
 photo.108.author: hamamatsu.chiita
 photo.108.commitdate: 2021/7/14
-photo.108.link: https://www.instagram.com/hamamatsu.chiita/
-photo.108.tags: mofumofu, portrait
-photo.109: ig://CTCVSMHhShC/m
+photo.108.link: ig://CRR-RfGBv7F
+photo.108.tags: mofumofu, portrait, sample
+photo.109: cwdc://XuCSFcvADRi.jpg
 photo.109.author: taka__3428
 photo.109.commitdate: 2022/2/1
-photo.109.link: https://www.instagram.com/taka__3428/
-photo.109.tags: paws, sample, standing, whiskers
-photo.110: ig://CVsleP-BgHq/m
+photo.109.link: ig://CTCVSMHhShC
+photo.109.tags: paws, sample, standing, toys, whiskers
+photo.110: cwdc://XzWydkcADQC.jpg
 photo.110.author: redpan22
 photo.110.commitdate: 2021/11/15
-photo.110.link: https://www.instagram.com/redpan22/
+photo.110.link: ig://CVsleP-BgHq
 photo.110.tags: nose, pumpkin
-photo.111: ig://CWbiC7YB43u/m
+photo.111: cwdc://X00rm7QADQv.jpg
 photo.111.author: hamamatsu.chiita
 photo.111.commitdate: 2021/11/29
-photo.111.link: https://www.instagram.com/hamamatsu.chiita/
-photo.111.tags: portrait, whiskers
-photo.112: ig://CWfb6OdL8ou/m
+photo.111.link: ig://CWbiC7YB43u
+photo.111.tags: portrait, sample, whiskers
+photo.112: cwdc://X08fVhaADQD.jpg
 photo.112.author: gloryeui
 photo.112.commitdate: 2021/11/29
-photo.112.link: https://www.instagram.com/gloryeui/
-photo.112.tags: apple time, mofumofu, paws, portrait, techitechi
-photo.113: ig://CXTUqQFh61y/m
+photo.112.link: ig://CWfb6OdL8ou
+photo.112.tags: apple time, mofumofu, paws, portrait, sample, techitechi
+photo.113: cwdc://X2kQ1krADRk.jpg
 photo.113.author: taka__3428
 photo.113.commitdate: 2021/12/26
-photo.113.link: https://www.instagram.com/taka__3428/
+photo.113.link: ig://CXTUqQFh61y
 photo.113.tags: peek, techitechi
-photo.114: ig://CXTbDR7hBf3/m
+photo.114: cwdc://X2kdnoXADRj.jpg
 photo.114.author: taka__3428
 photo.114.commitdate: 2021/12/26
-photo.114.link: https://www.instagram.com/taka__3428/
+photo.114.link: ig://CXTbDR7hBf3
 photo.114.tags: close-up, nose, peek
-photo.115: ig://CYluXaMPjRM/m
+photo.115: cwdc://X5JEP44ADRm.jpg
 photo.115.author: taka__3428
 photo.115.commitdate: 2022/3/24
-photo.115.link: https://www.instagram.com/taka__3428/
+photo.115.link: ig://CYluXaMPjRM
 photo.115.tags: bamboo, close-up, nose, sample, whiskers
-photo.116: ig://CYoQ1WMPw3w/m
+photo.116: cwdc://X5OJLw4ADRn.jpg
 photo.116.author: taka__3428
 photo.116.commitdate: 2022/4/10
-photo.116.link: https://www.instagram.com/taka__3428/
+photo.116.link: ig://CYoQ1WMPw3w
 photo.116.tags: bamboo, close-up, sample, wink
-photo.117: ig://CY3uRxIPXsx/m
+photo.117: cwdc://X5tEEmwADRl.jpg
 photo.117.author: taka__3428
 photo.117.commitdate: 2022/4/10
-photo.117.link: https://www.instagram.com/taka__3428/
-photo.117.tags: close-up, mofumofu, whiskers
-photo.118: ig://CZLNfS0PHiL/m
+photo.117.link: ig://CY3uRxIPXsx
+photo.117.tags: close-up, mofumofu, techitechi, whiskers
+photo.118: cwdc://X6UCfqIADQO.jpg
 photo.118.author: fetorus_mami
 photo.118.commitdate: 2022/3/19
-photo.118.link: https://www.instagram.com/fetorus_mami/
-photo.118.tags: close-up, sample, whiskers
-photo.119: ig://CZZhj0JFaFK/m
+photo.118.link: ig://CZLNfS0PHiL
+photo.118.tags: close-up, sample, whiskers, window
+photo.119: cwdc://X6wqosyADQB.jpg
 photo.119.author: miis_98
 photo.119.commitdate: 2022/2/12
-photo.119.link: https://www.instagram.com/miis_98/
+photo.119.link: ig://CZZhj0JFaFK
 photo.119.tags: apple time, dish, mofumofu, portrait, sample, whiskers
-photo.120: ig://CZl5v9mP8Ai/m
+photo.120: cwdc://X7JbA_sADQ5.jpg
 photo.120.author: hamamatsu.chiita
 photo.120.commitdate: 2022/2/12
-photo.120.link: https://www.instagram.com/hamamatsu.chiita/
+photo.120.link: ig://CZl5v9mP8Ai
 photo.120.tags: mofumofu, portrait, sample, whiskers
-photo.121: ig://CZwMW7VPaZ6/m
+photo.121: cwdc://X7eAO7KADQB.jpg
 photo.121.author: otenba_redpanda
 photo.121.commitdate: 2022/3/13
-photo.121.link: https://www.instagram.com/otenba_redpanda/
-photo.121.tags: mofumofu, portrait, whiskers
-photo.122: ig://CbXkGWDBHyf/m
+photo.121.link: ig://CZwMW7VPaZ6
+photo.121.tags: mofumofu, portrait, sample, whiskers
+photo.122: cwdc://X-svtwmADQm.jpg
 photo.122.author: taka__3428
 photo.122.commitdate: 2022/5/18
-photo.122.link: https://www.instagram.com/taka__3428/
+photo.122.link: ig://CbXkGWDBHyf
 photo.122.tags: bamboo, paws, standing
-photo.123: ig://Cd-t-9oP0Ar/m
+photo.123: cwdc://YD7De_wADQt.jpg
 photo.123.author: taka__3428
 photo.123.commitdate: 2022/8/31
-photo.123.link: https://www.instagram.com/taka__3428/
-photo.123.tags: close-up, whiskers
-photo.124: ig://Ce3d8-SvdxG/m
+photo.123.link: ig://Cd-t-9oP0Ar
+photo.123.tags: close-up, sample, whiskers
+photo.124: cwdc://YFsjbBFADQv.jpg
 photo.124.author: taka__3428
 photo.124.commitdate: 2022/6/21
-photo.124.link: https://www.instagram.com/taka__3428/
+photo.124.link: ig://Ce3d8-SvdxG
 photo.124.tags: peek, smile, tongue, whiskers
-photo.125: ig://CfFK-T0hbmd/m
+photo.125: cwdc://YGH9dsJADQR.jpg
 photo.125.author: hamamatsu.chiita
 photo.125.commitdate: 2022/7/23
-photo.125.link: https://www.instagram.com/hamamatsu.chiita/
+photo.125.link: ig://CfFK-T0hbmd
 photo.125.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
-photo.126: ig://Cgkddi0hrx1/m
+photo.126: cwdc://YJGicKJADQV.jpg
 photo.126.author: hamamatsu.chiita
 photo.126.commitdate: 2022/8/7
-photo.126.link: https://www.instagram.com/hamamatsu.chiita/
+photo.126.link: ig://Cgkddi0hrx1
 photo.126.tags: bridge, paws, portrait, sample, smile, whiskers
-photo.127: ig://CgmAYYzvKlh/m
+photo.127: cwdc://YJJoR2HADRB.jpg
 photo.127.author: taka__3428
 photo.127.commitdate: 2022/8/7
-photo.127.link: https://www.instagram.com/taka__3428/
-photo.127.tags: paws, peek, portrait
-photo.128: ig://Cjh-FChv6-z/m
+photo.127.link: ig://CgmAYYzvKlh
+photo.127.tags: paws, peek, portrait, tree, wave
+photo.128: cwdc://YPBjrJjADRI.jpg
 photo.128.author: taka__3428
 photo.128.commitdate: 2022/11/10
-photo.128.link: https://www.instagram.com/taka__3428/
-photo.128.tags: keeper, toys
-photo.129: ig://ClgXWh7vDK9/m
+photo.128.link: ig://Cjh-FChv6-z
+photo.128.tags: keeper, standing, tail, toys
+photo.129: cwdc://YS-WOIXADRM.jpg
 photo.129.author: taka__3428
 photo.129.commitdate: 2022/12/7
-photo.129.link: https://www.instagram.com/taka__3428/
-photo.129.tags: bamboo, close-up, mofumofu, portrait
-photo.130: ig://CoIhQVlByOa/m
+photo.129.link: ig://ClgXWh7vDK9
+photo.129.tags: bamboo, close-up, mofumofu, portrait, sample
+photo.130: cwdc://YYOqBvqADQk.jpg
 photo.130.author: hamamatsu.chiita
 photo.130.commitdate: 2023/3/6
-photo.130.link: https://www.instagram.com/hamamatsu.chiita/
+photo.130.link: ig://CoIhQVlByOa
 photo.130.tags: itchy, paws, portrait, sample, smile, tail, tongue
 species: 2
 zoo: 24
+photo.131: cwdc://W-KDXX9ADQQ.jpg
+photo.131.author: taka__3428
+photo.131.commitdate: 2024/4/28
+photo.131.link: ig://B7GN7Juhl0i
+photo.131.tags: home
+photo.132: cwdc://W4Ik_nAADQA.jpg
+photo.132.author: leonard_redmof
+photo.132.commitdate: 2024/4/28
+photo.132.link: ig://B4FevRQBcAn
+photo.132.tags: baby, bamboo, panda bowl, paws, portrait
+photo.133: cwdc://W5AtbyVADQG.jpg
+photo.133.author: taka__3428
+photo.133.commitdate: 2024/4/28
+photo.133.link: ig://B4hi9W6hbr7?img_index=2
+photo.133.tags: baby, paws, techitechi
+photo.134: cwdc://W6ChLoPADQB.jpg
+photo.134.author: tetusara.ki_
+photo.134.commitdate: 2024/4/28
+photo.134.link: ig://B5Cc1R3nd5w
+photo.134.tags: baby, mofumofu, portrait, sample, tail
+photo.135: cwdc://W7_Kz-wADQL.jpg
+photo.135.author: taka__3428
+photo.135.commitdate: 2024/4/28
+photo.135.link: ig://B6AxpdIBy3X
+photo.135.tags: paws, peek, portrait
+photo.136: cwdc://W7_Kz-wADQM.jpg
+photo.136.author: taka__3428
+photo.136.commitdate: 2024/4/28
+photo.136.link: ig://B6AxpdIBy3Y
+photo.136.tags: paws, peek, portrait, tail, tongue
+photo.137: cwdc://W8UF8S7ADQF.jpg
+photo.137.author: ayusuke56
+photo.137.commitdate: 2024/4/28
+photo.137.link: ig://B6LPNnNhquh
+photo.137.tags: autumn, peek, portrait, sample
+photo.138: cwdc://W9cX2oxADQP.jpg
+photo.138.author: taka__3428
+photo.138.commitdate: 2024/4/28
+photo.138.link: ig://B6vYKyIhOJt
+photo.138.tags: mofumofu, paws, portrait, sample
+photo.139: cwdc://W9gEiPpADQB.jpg
+photo.139.author: fetorus_mami
+photo.139.commitdate: 2024/4/28
+photo.139.link: ig://B6xOglkh89m
+photo.139.tags: blink, keeper, mofumofu, portrait, sample
+photo.140: cwdc://W9gEiPpADQC.jpg
+photo.140.author: fetorus_mami
+photo.140.commitdate: 2024/4/28
+photo.140.link: ig://B6xOglkh89s
+photo.140.tags: paws, portrait, standing, tail, whiskers
+photo.141: cwdc://W_KqzxXADQE.jpg
+photo.141.author: fetorus_mami
+photo.141.commitdate: 2024/4/28
+photo.141.link: ig://B7mhpWbhYks
+photo.141.tags: paws, peek, portrait, sample
+photo.142: cwdc://W_KqzxXADQF.jpg
+photo.142.author: fetorus_mami
+photo.142.commitdate: 2024/4/28
+photo.142.link: ig://B7mhpWbhYkt
+photo.142.tags: blink, paws, portrait, techitechi, tongue
+photo.143: cwdc://W_MKPDjADQB.jpg
+photo.143.author: kisshan324
+photo.143.commitdate: 2024/4/28
+photo.143.link: ig://B7nRW_hhD8R
+photo.143.tags: bridge, mofumofu, portrait, sample
+photo.144: cwdc://X-icasaADQl.jpg
+photo.144.author: taka__3428
+photo.144.commitdate: 2024/4/28
+photo.144.link: ig://CbSacz9PE0W
+photo.144.tags: apple time, keeper
+photo.145: cwdc://X-xK82-ADQn.jpg
+photo.145.author: taka__3428
+photo.145.commitdate: 2024/4/28
+photo.145.link: ig://CbZxt5PPJsX
+photo.145.tags: apple time, close-up, paws, sample, smile, tongue
+photo.146: cwdc://X-xK82-ADQo.jpg
+photo.146.author: taka__3428
+photo.146.commitdate: 2024/4/28
+photo.146.link: ig://CbZxt5PPJsY
+photo.146.tags: apple time, climb, paws, smile
+photo.147: cwdc://X08fVhaADQE.jpg
+photo.147.author: gloryeui
+photo.147.commitdate: 2024/4/28
+photo.147.link: ig://CWfb6OdL8ov
+photo.147.tags: apple time, mofumofu, paws, portrait, sample, whiskers
+photo.148: cwdc://X1BTj0FADQF.jpg
+photo.148.author: gloryeui
+photo.148.commitdate: 2024/4/28
+photo.148.link: ig://CWh2BXyrWpS
+photo.148.tags: paws, peek, portrait
+photo.149: cwdc://X1BTj0FADQG.jpg
+photo.149.author: gloryeui
+photo.149.commitdate: 2024/4/28
+photo.149.link: ig://CWh2BXyrWpT
+photo.149.tags: paws, portrait, sample, tongue, whiskers
+photo.150: cwdc://X1cy3xmADQN.jpg
+photo.150.author: fetorus_mami
+photo.150.commitdate: 2024/4/28
+photo.150.link: ig://CWvlrWjBuW6
+photo.150.tags: sample
+photo.151: cwdc://X1fkREsADQH.jpg
+photo.151.author: gloryeui
+photo.151.commitdate: 2024/4/28
+photo.151.link: ig://CWw-YAGLZUh
+photo.151.tags: portrait, sample, smile, tongue
+photo.152: cwdc://X1hQqBiADQw.jpg
+photo.152.author: hamamatsu.chiita
+photo.152.commitdate: 2024/4/28
+photo.152.link: ig://CWx0kehB59d
+photo.152.tags: portrait, sample, whiskers
+photo.153: cwdc://X1ljf4cADQI.jpg
+photo.153.author: gloryeui
+photo.153.commitdate: 2024/4/28
+photo.153.link: ig://CWz9_Z-Ldks
+photo.153.tags: bamboo, close-up, portrait, sample, whiskers
+photo.154: cwdc://X4VGpDMADQz.jpg
+photo.154.author: hamamatsu.chiita
+photo.154.commitdate: 2024/4/28
+photo.154.link: ig://CYLvj_WPK0N
+photo.154.tags: apple time, paws, portrait, sample, whiskers
+photo.155: cwdc://X7ocbKcADQ3.jpg
+photo.155.author: hamamatsu.chiita
+photo.155.commitdate: 2024/4/28
+photo.155.link: ig://CZ1adC-PdvT
+photo.155.tags: bridge, portrait, sample, whiskers
+photo.156: cwdc://X7ocbKcADQ4.jpg
+photo.156.author: hamamatsu.chiita
+photo.156.commitdate: 2024/4/28
+photo.156.link: ig://CZ1adC-PdvU
+photo.156.tags: peek, portrait
+photo.157: cwdc://XGUt3a4ADQB.jpg
+photo.157.author: alto0908
+photo.157.commitdate: 2024/4/28
+photo.157.link: ig://B_LjLLMBHo-
+photo.157.tags: autumn, peek, portrait, sample
+photo.158: cwdc://XK9JgWBADQk.jpg
+photo.158.author: taka__3428
+photo.158.commitdate: 2024/4/28
+photo.158.link: ig://CBfw_owhLUN
+photo.158.tags: bamboo, bite, sample, tongue
+photo.159: cwdc://XLQxbADADQG.jpg
+photo.159.author: hamamatsu.chiita
+photo.159.commitdate: 2024/4/28
+photo.159.link: ig://CBpk89xhQUt
+photo.159.tags: home, laying down, mofumofu, portrait, sample
+photo.160: cwdc://XMeaH62ADQL.jpg
+photo.160.author: hamamatsu.chiita
+photo.160.commitdate: 2024/4/28
+photo.160.link: ig://CCQZTbLBwNZ
+photo.160.tags: laying down, paws, sample
+photo.161: cwdc://XNBRNk3ADQB.jpg
+photo.161.author: gloryeui
+photo.161.commitdate: 2024/4/28
+photo.161.link: ig://CCh02QLhzAn
+photo.161.tags: home, laying down, mofumofu, portrait
+photo.162: cwdc://XOKhX2tADQN.jpg
+photo.162.author: hamamatsu.chiita
+photo.162.commitdate: 2024/4/28
+photo.162.link: ig://CDGc7ZGhT3U
+photo.162.tags: close-up, portrait, sample, whiskers
+photo.163: cwdc://XSb4SIRADQ9.jpg
+photo.163.author: taka__3428
+photo.163.commitdate: 2024/4/28
+photo.163.link: ig://CFPIYh4hNqJ
+photo.163.tags: bamboo, peek, sample
+photo.164: cwdc://XSoWaFGADQ-.jpg
+photo.164.author: taka__3428
+photo.164.commitdate: 2024/4/28
+photo.164.link: ig://CFVXcgTBsCD
+photo.164.tags: portrait, sample, whiskers
+photo.165: cwdc://XUXhdSjADRA.jpg
+photo.165.author: taka__3428
+photo.165.commitdate: 2024/4/28
+photo.165.link: ig://CGM8-HBhffM
+photo.165.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.166: cwdc://XUZbYMwADQW.jpg
+photo.166.author: hamamatsu.chiita
+photo.166.commitdate: 2024/4/28
+photo.166.link: ig://CGN57kIBjwk
+photo.166.tags: close-up, laying down, sample, whiskers
+photo.167: cwdc://XUhlAtUADRD.jpg
+photo.167.author: taka__3428
+photo.167.commitdate: 2024/4/28
+photo.167.link: ig://CGR-v0aBgTB
+photo.167.tags: climb, paws, peek, portrait
+photo.168: cwdc://XV0LkevADQ_.jpg
+photo.168.author: taka__3428
+photo.168.commitdate: 2024/4/28
+photo.168.link: ig://CG7SBtHhquF
+photo.168.tags: bamboo, nose, peek
+photo.169: cwdc://XVmq176ADQU.jpg
+photo.169.author: hamamatsu.chiita
+photo.169.commitdate: 2024/4/28
+photo.169.link: ig://CG0hqbtBix3
+photo.169.tags: portrait, sample, whiskers
+photo.170: cwdc://XWDr6v1ADQB.jpg
+photo.170.author: minatomirai215
+photo.170.commitdate: 2024/4/28
+photo.170.link: ig://CHDCM1qhIvZ
+photo.170.tags: portrait, pumpkin, sample
+photo.171: cwdc://XWJmYDiADQI.jpg
+photo.171.author: fetorus_mami
+photo.171.commitdate: 2024/4/28
+photo.171.link: ig://CHF_bfhBX_A
+photo.171.tags: peek, tree
+photo.172: cwdc://XWJmYDiADQJ.jpg
+photo.172.author: fetorus_mami
+photo.172.commitdate: 2024/4/28
+photo.172.link: ig://CHF_bfhBX_B
+photo.172.tags: peek, tree
+photo.173: cwdc://XWJmYDiADQK.jpg
+photo.173.author: fetorus_mami
+photo.173.commitdate: 2024/4/28
+photo.173.link: ig://CHF_bfhBX_C
+photo.173.tags: peek, sample, tree, whiskers
+photo.174: cwdc://XWJmYDiADQL.jpg
+photo.174.author: fetorus_mami
+photo.174.commitdate: 2024/4/28
+photo.174.link: ig://CHF_bfhBX_D
+photo.174.tags: peek, tree, whiskers
+photo.175: cwdc://XWJmYDiADQM.jpg
+photo.175.author: fetorus_mami
+photo.175.commitdate: 2024/4/28
+photo.175.link: ig://CHF_bfhBX_E
+photo.175.tags: peek, sample, smile, tree, whiskers
+photo.176: cwdc://XWcVCI-ADQD.jpg
+photo.176.author: minatomirai215
+photo.176.commitdate: 2024/4/28
+photo.176.link: ig://CHPWwiPBQHh
+photo.176.tags: air tasting, portrait, sample, tongue, whiskers
+photo.177: cwdc://XXGWbWOADQZ.jpg
+photo.177.author: hamamatsu.chiita
+photo.177.commitdate: 2024/4/28
+photo.177.link: ig://CHkXdI3BZnI
+photo.177.tags: portrait, sample, whiskers
+photo.178: cwdc://XXGWbWOADQa.jpg
+photo.178.author: hamamatsu.chiita
+photo.178.commitdate: 2024/4/28
+photo.178.link: ig://CHkXdI3BZnJ
+photo.178.tags: portrait, sample, tongue
+photo.179: cwdc://Xa3usCYADQB.jpg
+photo.179.author: ssc6105
+photo.179.commitdate: 2024/4/28
+photo.179.link: ig://CJdDle8B7NU
+photo.179.tags: apple time, bamboo, keeper, paws, sample, standing
+photo.180: cwdc://Xa9dcHlADQc.jpg
+photo.180.author: hamamatsu.chiita
+photo.180.commitdate: 2024/4/28
+photo.180.link: ig://CJf69hihoP9
+photo.180.tags: portrait, sample, whiskers
+photo.181: cwdc://Xa9dcHlADQd.jpg
+photo.181.author: hamamatsu.chiita
+photo.181.commitdate: 2024/4/28
+photo.181.link: ig://CJf69hihoP-
+photo.181.tags: close-up, mofumofu, portrait, sample, techitechi, window
+photo.182: cwdc://Xa9dcHlADQe.jpg
+photo.182.author: hamamatsu.chiita
+photo.182.commitdate: 2024/4/28
+photo.182.link: ig://CJf69hihoP_
+photo.182.tags: portrait, sample, tongue, whiskers, window
+photo.183: cwdc://Xa9dcHlADQf.jpg
+photo.183.author: hamamatsu.chiita
+photo.183.commitdate: 2024/4/28
+photo.183.link: ig://CJf69hihoQA
+photo.183.tags: nose, portrait, sample
+photo.184: cwdc://Xa9dcHlADQg.jpg
+photo.184.author: hamamatsu.chiita
+photo.184.commitdate: 2024/4/28
+photo.184.link: ig://CJf69hihoQB
+photo.184.tags: bamboo, portrait, sample, tongue
+photo.185: cwdc://XbdC5yyADRL.jpg
+photo.185.author: taka__3428
+photo.185.commitdate: 2024/4/28
+photo.185.link: ig://CJvtsXJBfu4
+photo.185.tags: close-up, sample, tongue
+photo.186: cwdc://XhzhQWkADQj.jpg
+photo.186.author: hamamatsu.chiita
+photo.186.commitdate: 2024/4/28
+photo.186.link: ig://CM683pCBzp6
+photo.186.tags: bridge, paws, portrait, sample, tongue, whiskers
+photo.187: cwdc://XobwJacADQo.jpg
+photo.187.author: hamamatsu.chiita
+photo.187.commitdate: 2024/4/28
+photo.187.link: ig://CQPEUK-B0hE
+photo.187.tags: sample, smile, whiskers
+photo.188: cwdc://Xp93RpFADRa.jpg
+photo.188.author: taka__3428
+photo.188.commitdate: 2024/4/28
+photo.188.link: ig://CRAH4SShk2u
+photo.188.tags: apple time, paws, sample, smile, toys
+photo.189: cwdc://Xpxhzs8ADRZ.jpg
+photo.189.author: taka__3428
+photo.189.commitdate: 2024/4/28
+photo.189.link: ig://CQ59JUOBa0P
+photo.189.tags: apple time, paws, peek, standing, window
+photo.190: cwdc://Xq-o6dDADRb.jpg
+photo.190.author: taka__3428
+photo.190.commitdate: 2024/4/28
+photo.190.link: ig://CRggssRhFzz
+photo.190.tags: bamboo
+photo.191: cwdc://Xs8MW-kADRg.jpg
+photo.191.author: taka__3428
+photo.191.commitdate: 2024/4/28
+photo.191.link: ig://CSfSa9CBBDL
+photo.191.tags: lunch time, peek, portrait, sample
+photo.192: cwdc://Xs8MW-kADRh.jpg
+photo.192.author: taka__3428
+photo.192.commitdate: 2024/4/28
+photo.192.link: ig://CSfSa9CBBDN
+photo.192.tags: lunch time, peek, portrait, sample, tongue
+photo.193: cwdc://XswOTwKADQA.jpg
+photo.193.author: masa_polarbear
+photo.193.commitdate: 2024/4/28
+photo.193.link: ig://CSZTZV1B0mw
+photo.193.tags: bamboo, dish, paws
+photo.194: cwdc://XzQzYq2ADQt.jpg
+photo.194.author: hamamatsu.chiita
+photo.194.commitdate: 2024/4/28
+photo.194.link: ig://CVpl7zLBKTN
+photo.194.tags: close-up, portrait, sample, whiskers
+photo.195: cwdc://XzQzYq2ADQu.jpg
+photo.195.author: hamamatsu.chiita
+photo.195.commitdate: 2024/4/28
+photo.195.link: ig://CVpl7zLBKTO
+photo.195.tags: apple time, dish, paws, portrait, sample, whiskers
+photo.196: cwdc://Y0ho_nAADQe.jpg
+photo.196.author: taka__3428
+photo.196.commitdate: 2024/4/28
+photo.196.link: ig://C2SAvRQP3hW
+photo.196.tags: bamboo, portrait, sample, tongue
+photo.197: cwdc://Y4tLhpCADQf.jpg
+photo.197.author: taka__3428
+photo.197.commitdate: 2024/4/28
+photo.197.link: ig://C4XyASRPnKI
+photo.197.tags: apple time, close-up, sample, whiskers
+photo.198: cwdc://Y4tLhpCADQg.jpg
+photo.198.author: taka__3428
+photo.198.commitdate: 2024/4/28
+photo.198.link: ig://C4XyASRPnKQ
+photo.198.tags: apple time, sample, tree
+photo.199: cwdc://YDhkLlGADQu.jpg
+photo.199.author: taka__3428
+photo.199.commitdate: 2024/4/28
+photo.199.link: ig://Cdx-VQTP5Wl
+photo.199.tags: apple time, keeper, paws, standing, whiskers
+photo.200: cwdc://YEvIlJqADQ2.jpg
+photo.200.author: taka__3428
+photo.200.commitdate: 2024/4/28
+photo.200.link: ig://CeYwiClPdJY
+photo.200.tags: flowers, peek, tree, whiskers
+photo.201: cwdc://YEvIlJqADQ3.jpg
+photo.201.author: taka__3428
+photo.201.commitdate: 2024/4/28
+photo.201.link: ig://CeYwiClPdJZ
+photo.201.tags: flowers, tree, whiskers
+photo.202: cwdc://YHJCssnADQ8.jpg
+photo.202.author: taka__3428
+photo.202.commitdate: 2024/4/28
+photo.202.link: ig://Cfltl0DvA8-
+photo.202.tags: baby, portrait, sample
+photo.203: cwdc://YIbp9cRADRC.jpg
+photo.203.author: taka__3428
+photo.203.commitdate: 2024/4/28
+photo.203.link: ig://CgPBOL4vWVS
+photo.203.tags: sample, tail, tongue, toys
+photo.204: cwdc://YKCcSkGADRE.jpg
+photo.204.author: taka__3428
+photo.204.commitdate: 2024/4/28
+photo.204.link: ig://ChCaYvzBKys
+photo.204.tags: keeper, paws, sample, smile, standing
+photo.205: cwdc://YLmr8bPADQA.jpg
+photo.205.author: otenba_redpanda
+photo.205.commitdate: 2024/4/28
+photo.205.link: ig://Ch0iNrXuPwJ
+photo.205.tags: peek, sample, whiskers, window
+photo.206: cwdc://YNQV45FADRG.jpg
+photo.206.author: taka__3428
+photo.206.commitdate: 2024/4/28
+photo.206.link: ig://CipXL6Sv63b
+photo.206.tags: close-up, tongue, whiskers
+photo.207: cwdc://YOd4_6bADRJ.jpg
+photo.207.author: taka__3428
+photo.207.commitdate: 2024/4/28
+photo.207.link: ig://CjQIva9vCqb
+photo.207.tags: paws, sample, standing, whiskers
+photo.208: cwdc://YOd4_6bADRK.jpg
+photo.208.author: taka__3428
+photo.208.commitdate: 2024/4/28
+photo.208.link: ig://CjQIva9vCqX
+photo.208.tags: paws, sample, standing, whiskers
+photo.209: cwdc://YP1Ov_OADRH.jpg
+photo.209.author: taka__3428
+photo.209.commitdate: 2024/4/28
+photo.209.link: ig://Cj7zndXB0bB
+photo.209.tags: portrait
+photo.210: cwdc://YPDLjRsADQE.jpg
+photo.210.author: minatomirai215
+photo.210.commitdate: 2024/4/28
+photo.210.link: ig://CjiyBGmBlwG
+photo.210.tags: portrait, sample, whiskers
+photo.211: cwdc://YV8DjOFADRO.jpg
+photo.211.author: taka__3428
+photo.211.commitdate: 2024/4/28
+photo.211.link: ig://Cm_OBEyvFdx
+photo.211.tags: paws, sample, standing
+photo.212: cwdc://YXWNtvoADRT.jpg
+photo.212.author: taka__3428
+photo.212.commitdate: 2024/4/28
+photo.212.link: ig://CnsTGVkBA71
+photo.212.tags: lunch time, paws, peek
+photo.213: cwdc://YXWNtvoADRU.jpg
+photo.213.author: taka__3428
+photo.213.commitdate: 2024/4/28
+photo.213.link: ig://CnsTGVkBA72
+photo.213.tags: lunch time, paws, sample
+photo.214: cwdc://YXWNtvoADRV.jpg
+photo.214.author: taka__3428
+photo.214.commitdate: 2024/4/28
+photo.214.link: ig://CnsTGVkBA73
+photo.214.tags: lunch time, paws, sample
+photo.215: cwdc://YXWNtvoADRW.jpg
+photo.215.author: taka__3428
+photo.215.commitdate: 2024/4/28
+photo.215.link: ig://CnsTGVkBA74
+photo.215.tags: lunch time, paws, sample, smile
+photo.216: cwdc://YYOqBvqADQl.jpg
+photo.216.author: hamamatsu.chiita
+photo.216.commitdate: 2024/4/28
+photo.216.link: ig://CoIhQVlByOf
+photo.216.tags: portrait, sample
+photo.217: cwdc://YYhlUxbADRY.jpg
+photo.217.author: taka__3428
+photo.217.commitdate: 2024/4/28
+photo.217.link: ig://CoR-52dvn1d
+photo.217.tags: apple time, paws, peek
+photo.218: cwdc://YZcjWSwADQA.jpg
+photo.218.author: miis_98
+photo.218.commitdate: 2024/4/28
+photo.218.link: ig://Covd6nIBB4-
+photo.218.tags: paws, sample, tongue, tree
+photo.219: cwdc://YdKJsjXADQA.jpg
+photo.219.author: na.mo.pan
+photo.219.commitdate: 2024/4/28
+photo.219.link: ig://CqmRFvbvOZn
+photo.219.tags: paws, sample, whiskers
+photo.220: cwdc://YdKJsjXADQB.jpg
+photo.220.author: na.mo.pan
+photo.220.commitdate: 2024/4/28
+photo.220.link: ig://CqmRFvbvOZp
+photo.220.tags: sample, techitechi, whiskers
+photo.221: cwdc://YeeXky3ADRd.jpg
+photo.221.author: taka__3428
+photo.221.commitdate: 2024/4/28
+photo.221.link: ig://CrQYB3LvHVI
+photo.221.tags: bamboo, tongue
+photo.222: cwdc://YeeXky3ADRe.jpg
+photo.222.author: taka__3428
+photo.222.commitdate: 2024/4/28
+photo.222.link: ig://CrQYB3LvHVM
+photo.222.tags: bamboo, peek
+photo.223: cwdc://Yf2KcDnADQC.jpg
+photo.223.author: gloryeui
+photo.223.commitdate: 2024/4/28
+photo.223.link: ig://Cr8Rdfjv7TH
+photo.223.tags: bamboo, paws, peek, portrait, sample, whiskers
+photo.224: cwdc://YfXFzJ3ADRf.jpg
+photo.224.author: taka__3428
+photo.224.commitdate: 2024/4/28
+photo.224.link: ig://CrsvJCrvMpk
+photo.224.tags: bamboo, paws, tongue, wink
+photo.225: cwdc://YkilQwWADQq.jpg
+photo.225.author: hamamatsu.chiita
+photo.225.commitdate: 2024/4/28
+photo.225.link: ig://CuSe317BI6_
+photo.225.tags: peek, portrait, sample, whiskers
+photo.226: cwdc://YkilQwWADQr.jpg
+photo.226.author: hamamatsu.chiita
+photo.226.commitdate: 2024/4/28
+photo.226.link: ig://CuSe317BI7A
+photo.226.tags: portrait, sample, whiskers
+photo.227: cwdc://YkilQwWADQs.jpg
+photo.227.author: hamamatsu.chiita
+photo.227.commitdate: 2024/4/28
+photo.227.link: ig://CuSe317BI69
+photo.227.tags: portrait, sample, whiskers
+photo.228: cwdc://YtZAyYOADQ0.jpg
+photo.228.author: hamamatsu.chiita
+photo.228.commitdate: 2024/4/28
+photo.228.link: ig://Cytsop3BchF
+photo.228.tags: close-up, portrait, sample, whiskers
+photo.229: cwdc://YtZAyYOADQ1.jpg
+photo.229.author: hamamatsu.chiita
+photo.229.commitdate: 2024/4/28
+photo.229.link: ig://Cytsop3BchG
+photo.229.tags: close-up, portrait, sample, whiskers
+photo.230: cwdc://YtZAyYOADQ2.jpg
+photo.230.author: hamamatsu.chiita
+photo.230.commitdate: 2024/4/28
+photo.230.link: ig://Cytsop3BchH
+photo.230.tags: portrait, sample, whiskers
+photo.231: cwdc://YtsNqt1ADQF.jpg
+photo.231.author: alto0908
+photo.231.commitdate: 2024/4/28
+photo.231.link: ig://Cy3TE0qvP_4
+photo.231.tags: apple time, keeper, peek, portrait, sample
+photo.232: cwdc://YtwsKy5ADQA.jpg
+photo.232.author: yuredpanda
+photo.232.commitdate: 2024/4/28
+photo.232.link: ig://Cy5iU3Mvqwk
+photo.232.tags: bamboo, mofumofu, peek, portrait, window
+photo.233: cwdc://YugYLKhADQF.jpg
+photo.233.author: minatomirai215
+photo.233.commitdate: 2024/4/28
+photo.233.link: ig://CzRYVDAvSaR
+photo.233.tags: door, paws, portrait, sample
+photo.234: cwdc://YvqPGjkADQA.jpg
+photo.234.author: chankunvv
+photo.234.commitdate: 2024/4/28
+photo.234.link: ig://Cz2TyviPaiO
+photo.234.tags: portrait, sample, whiskers
+photo.235: cwdc://YvqPGjkADQB.jpg
+photo.235.author: chankunvv
+photo.235.commitdate: 2024/4/28
+photo.235.link: ig://Cz2TyviPaiP
+photo.235.tags: portrait, sample, whiskers, window
+photo.236: cwdc://YwQlWpGADQc.jpg
+photo.236.author: taka__3428
+photo.236.commitdate: 2024/4/28
+photo.236.link: ig://C0Je6yTPyS_
+photo.236.tags: bamboo, close-up, mofumofu, sample, whiskers
+photo.237: cwdc://YwQlWpGADQd.jpg
+photo.237.author: taka__3428
+photo.237.commitdate: 2024/4/28
+photo.237.link: ig://C0Je6yTPySz
+photo.237.tags: bamboo, close-up, techitechi
+photo.238: cwdc://YwgaZ7pADQA.jpg
+photo.238.author: minatomirai215
+photo.238.commitdate: 2024/4/28
+photo.238.link: ig://C0RZcbkviS5
+photo.238.tags: bridge, paws, portrait, sample, smile
+photo.239: cwdc://Yxy0RwtADQH.jpg
+photo.239.author: fetorus_mami
+photo.239.commitdate: 2024/4/28
+photo.239.link: ig://C06mYWGvgNT
+photo.239.tags: autumn, tree
+photo.240: cwdc://YyWrUPlADQG.jpg
+photo.240.author: fetorus_mami
+photo.240.commitdate: 2024/4/28
+photo.240.link: ig://C1Mh5livil7
+photo.240.tags: paws, standing, window

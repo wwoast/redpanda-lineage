@@ -14,7 +14,7 @@ ja.othernames: none
 language.order: ja, en
 litter: 962
 location.1: 24, 2019/7/5
-location.2: 55, 2023/11/25
+location.2: 55, 2023/12/28
 photo.1: ig://B18jmIIhDF0/m
 photo.1.author: taka__3428
 photo.1.commitdate: 2019/9/5
@@ -795,5 +795,18 @@ photo.156.author: taka__3428
 photo.156.commitdate: 2023/10/18
 photo.156.link: https://www.instagram.com/taka__3428/
 photo.156.tags: apple time, close-up, sample, whiskers
+zh.name: 未来
+zh.nicknames: none
+zh.othernames: none
 species: 2
 zoo: 55
+photo.157: cwdc://Yt4K7wJADQx.jpg
+photo.157.author: hamamatsu.chiita
+photo.157.commitdate: 2024/4/28
+photo.157.link: ig://Cy9RtV0hHCG
+photo.157.tags: mofumofu, portrait, sample, tongue, whiskers
+photo.158: cwdc://Yt4K7wJADQy.jpg
+photo.158.author: hamamatsu.chiita
+photo.158.commitdate: 2024/4/28
+photo.158.link: ig://Cy9RtV0hHCI
+photo.158.tags: laying down, mofumofu, portrait, sample, whiskers
