@@ -158,3 +158,33 @@ photo.28.tags: peek, sample, techitechi, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 73
+photo.29: cwdc://Y3GbVffADQA.jpg
+photo.29.author: ifumoto88
+photo.29.commitdate: 2024/5/4
+photo.29.link: ig://C3kZ6NfrXD1
+photo.29.tags: bridge, climb, paws, portrait, sample, tail
+photo.30: cwdc://Y3KpMujADQB.jpg
+photo.30.author: ifumoto88
+photo.30.commitdate: 2024/5/4
+photo.30.link: ig://C3mg11Bu6Bm
+photo.30.tags: bridge, peek, portrait, sample, whiskers
+photo.31: cwdc://Y4YZ6v4ADQA.jpg
+photo.31.author: rie_panda55
+photo.31.commitdate: 2024/5/4
+photo.31.link: ig://C4NZM1sP4aQ
+photo.31.tags: bamboo, portrait, sample
+photo.32: cwdc://Y4YZ6v4ADQB.jpg
+photo.32.author: rie_panda55
+photo.32.commitdate: 2024/5/4
+photo.32.link: ig://C4NZM1sP4aR
+photo.32.tags: bamboo, peek, portrait, standing
+photo.33: cwdc://Y4YZ6v4ADQC.jpg
+photo.33.author: rie_panda55
+photo.33.commitdate: 2024/5/4
+photo.33.link: ig://C4NZM1sP4aS
+photo.33.tags: bridge, dish, portrait, sample
+photo.34: cwdc://Y4bx_vpADQC.jpg
+photo.34.author: ifumoto88
+photo.34.commitdate: 2024/5/4
+photo.34.link: ig://C4PFPVkxaan
+photo.34.tags: peek, tail, tree

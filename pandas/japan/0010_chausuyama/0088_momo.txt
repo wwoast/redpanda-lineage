@@ -430,3 +430,23 @@ photo.83.tags: sample, whiskers
 species: 2
 studbook.id: 11100
 zoo: 10
+photo.84: cwdc://Y0meUsPADQA.jpg
+photo.84.author: shigeko0531
+photo.84.commitdate: 2024/5/4
+photo.84.link: ig://C2UbZz3v3jb
+photo.84.tags: home, peek, portrait, sample, tree
+photo.85: cwdc://Y0meUsPADQB.jpg
+photo.85.author: shigeko0531
+photo.85.commitdate: 2024/5/4
+photo.85.link: ig://C2UbZz3v3jc
+photo.85.tags: home, portrait, sample, tree, whiskers, white face
+photo.86: cwdc://Y0meUsPADQC.jpg
+photo.86.author: shigeko0531
+photo.86.commitdate: 2024/5/4
+photo.86.link: ig://C2UbZz3v3jd
+photo.86.tags: home, portrait, sample, techitechi, tree, whiskers, white face
+photo.87: cwdc://YuzoMv-ADQD.jpg
+photo.87.author: shigeko0531
+photo.87.commitdate: 2024/5/4
+photo.87.link: ig://CzbAV1vPWEr
+photo.87.tags: portrait, sample, tree
