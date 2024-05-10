@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1421
+location.1: 99, 2023/5/26
+location.2: 65, 2024/5/1
 photo.1: ig://CuhZqJlgeW3/m
 photo.1.author: rossifari
 photo.1.commitdate: 2023/8/15
@@ -30,4 +32,5 @@ photo.3.link: https://www.instagram.com/rossifari/
 photo.3.tags: baby, close-up, mofumofu
 species: 2
 studbook.id: unknown
-zoo: 99
+uncertainty: location.2 exact day
+zoo: 65
