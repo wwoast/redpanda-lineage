@@ -14,63 +14,73 @@ ja.nicknames: none
 ja.othernames: none
 language.order: zh, en, ja
 litter: unknown
-photo.1: ig://CKBBsIPhBYA/m
+photo.1: cwdc://Xb_q5U_ADQE.jpg
 photo.1.author: manmanko2
 photo.1.commitdate: 2021/12/3
-photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.link: ig://CKBBsIPhBYA
 photo.1.tags: baby, peek, portrait, tail
-photo.2: ig://CKT0crchng_/m
+photo.2: cwdc://XclQabZADQF.jpg
 photo.2.author: manmanko2
 photo.2.commitdate: 2021/12/3
-photo.2.link: https://www.instagram.com/manmanko2/
+photo.2.link: ig://CKT0crchng_
 photo.2.tags: baby, mofumofu, portrait, tail, tree, whiskers
-photo.3: ig://CL6pT0RBBcw/m
+photo.3: cwdc://Xfy6ItCADQG.jpg
 photo.3.author: manmanko2
 photo.3.commitdate: 2021/12/3
-photo.3.link: https://www.instagram.com/manmanko2/
+photo.3.link: ig://CL6pT0RBBcw
 photo.3.tags: baby, flowers, portrait, standing, tail
-photo.4: ig://CQbcdR2LkXB/m
+photo.4: cwdc://Xo0gboMADQH.jpg
 photo.4.author: manmanko2
 photo.4.commitdate: 2021/12/3
-photo.4.link: https://www.instagram.com/manmanko2/
+photo.4.link: ig://CQbcdR2LkXB
 photo.4.tags: baby, home, laying down, mofumofu, paws, portrait, videolink
-photo.5: ig://CUe_RQdBrnE/m
+photo.5: cwdc://Xw7mDlaADQI.jpg
 photo.5.author: manmanko2
 photo.5.commitdate: 2021/12/3
-photo.5.link: https://www.instagram.com/manmanko2/
+photo.5.link: ig://CUe_RQdBrnE
 photo.5.tags: friends, lunch time, tongue
 photo.6: cwdc://X1o_c9dADQA.jpg
 photo.6.author: manmanko2
 photo.6.commitdate: 2021/12/3
 photo.6.link: https://www.instagram.com/p/CW1r98ev2wZ
 photo.6.tags: mofumofu, portrait, profile, whiskers
-photo.7: ig://CW8Gxq9sB8k/m
+photo.7: cwdc://X111EabADQJ.jpg
 photo.7.author: manmanko2
 photo.7.commitdate: 2021/12/3
-photo.7.link: https://www.instagram.com/manmanko2/
+photo.7.link: ig://CW8Gxq9sB8k
 photo.7.tags: close-up, mofumofu, paws, whiskers
-photo.8: ig://CZvJjNgBTJB/m
+photo.8: cwdc://X7b6nfgADQK.jpg
 photo.8.author: manmanko2
 photo.8.commitdate: 2022/2/10
-photo.8.link: https://www.instagram.com/manmanko2/
+photo.8.link: ig://CZvJjNgBTJB
 photo.8.tags: peek, sample, smile, tree, whiskers
-photo.9: ig://CZv-szBvlpV/m
+photo.9: cwdc://X7dk6qjADQL.jpg
 photo.9.author: manmanko2
 photo.9.commitdate: 2022/2/10
-photo.9.link: https://www.instagram.com/manmanko2/
+photo.9.link: ig://CZv-szBvlpV
 photo.9.tags: blink, paws, smile
-photo.10: ig://CauPyfUvSz6/m
+photo.10: cwdc://X9aHGDJADQB.jpg
 photo.10.author: manmanko2
 photo.10.commitdate: 2022/3/10
-photo.10.link: https://www.instagram.com/manmanko2/
+photo.10.link: ig://CauPyfUvSz6
 photo.10.tags: laying down, paws, portrait, smile, tail, tree
-photo.11: ig://CcN6pBVMHJS/m
+photo.11: cwdc://YAZczHKADQD.jpg
 photo.11.author: manmanko2
 photo.11.commitdate: 2022/9/28
-photo.11.link: https://www.instagram.com/manmanko2/
-photo.11.tags: apple time, dish, portrait, whiskers
+photo.11.link: ig://CcN6pBVMHJS
+photo.11.tags: apple time, dish, portrait, sample, whiskers
 species: 2
 zh.name: 晞晞
 zh.nicknames: none
 zh.othernames: none
 zoo: 297
+photo.12: cwdc://X9aHGDJADQC.jpg
+photo.12.author: manmanko2
+photo.12.commitdate: 2024/5/11
+photo.12.link: ig://CauPyfUvSz7
+photo.12.tags: laying down, paws, portrait, sample, tail, tree
+photo.13: cwdc://Y9YZ_Y3ADQA.jpg
+photo.13.author: manmanko2
+photo.13.commitdate: 2024/5/11
+photo.13.link: ig://C6tZPKLv4Rw
+photo.13.tags: paws, portrait, sample, surprise
