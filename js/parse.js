@@ -365,7 +365,8 @@ Parse.lexer.build_wordlist = function() {
 // Generate a lexed (tokenized) string. Support normal spaces and Japanese
 // ideographic spaces. If we need more, make a new function.
 Parse.lexer.generate = function(input) {
-  var delimited_input = input.split(' ').split('　').join('\n');
+  var split_input = Parse.lexer.split(input);
+  var delimited_input = split_input.join('\n');
   var space_tokens = this.process(input);
   for (let space_token of space_tokens) {
     // Search and replace it (case insensitively) in the input string
@@ -384,7 +385,7 @@ Parse.lexer.generate = function(input) {
 Parse.lexer.process = function(input) {
   var possible_tokens = function(input, max_spaces, list_name) {
     var tokenlist = [];
-    var input_split = input.split(' ').split('　');
+    var input_split = Parse.lexer.split(input);
     for (let n = max_spaces; n > 0; n--) {
       for (let i = 0; i < input_split.length - n; i++) {
         var token = input_split.slice(i, i+n+1).join(' ');
@@ -418,6 +419,16 @@ Parse.lexer.process = function(input) {
     found_tokens = found_tokens.concat(tokens);
   }
   return found_tokens;
+}
+
+Parse.lexer.split = function(input) {
+  // Assume you only have one kind of space
+  if (input.indexOf('　') != -1)
+    return input.split('　')
+  else if (input.indexOf(' ') != -1)
+    return input.split(' ')
+  else
+    return [input]
 }
 
 /* 
