@@ -362,9 +362,10 @@ Parse.lexer.build_wordlist = function() {
   Parse.lexer.terms.names.list = P.db['_lexer'].names
     .filter(kw => word_filter(kw, "names")).sort();  
 }
-// Generate a lexed (tokenized) string
+// Generate a lexed (tokenized) string. Support normal spaces and Japanese
+// ideographic spaces. If we need more, make a new function.
 Parse.lexer.generate = function(input) {
-  var delimited_input = input.split(' ').join('\n');
+  var delimited_input = input.split(' ').split('　').join('\n');
   var space_tokens = this.process(input);
   for (let space_token of space_tokens) {
     // Search and replace it (case insensitively) in the input string
@@ -376,13 +377,14 @@ Parse.lexer.generate = function(input) {
 }
 /*
     Find all valid tokens in the search input that have spaces,
-    and return them in a newline-separated way.
+    and return them in a newline-separated way. Also convert Japanese
+    ideographic (wide) spaces.
     Prioritize panda names, then tag names, then keywords.
 */
 Parse.lexer.process = function(input) {
   var possible_tokens = function(input, max_spaces, list_name) {
     var tokenlist = [];
-    var input_split = input.split(' ');
+    var input_split = input.split(' ').split('　');
     for (let n = max_spaces; n > 0; n--) {
       for (let i = 0; i < input_split.length - n; i++) {
         var token = input_split.slice(i, i+n+1).join(' ');
