@@ -12,6 +12,8 @@ ja.name: 松楓
 ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
+location.1: 86, 2022/6/1
+location.2: 94, 2024/1/29
 litter: 1404
 photo.1: ig://CiRTFFFrehq/m
 photo.1.author: westcoast_kathy
@@ -65,5 +67,5 @@ photo.10.link: https://www.instagram.com/westcoast_kathy/
 photo.10.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
-uncertainty: exact birthday in June
-zoo: 86
+uncertainty: exact birthday in June, location.2 exact date
+zoo: 94
