@@ -1,0 +1,17 @@
+[panda]
+_id: 1432
+birthday: 2023/6/12
+birthplace: 285
+children: none
+commitdate: 2024/5/15
+en.name: Kitsi
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: キッツィ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1431
+species: unknown
+zoo: 285
