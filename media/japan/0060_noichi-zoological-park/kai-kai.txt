@@ -7,16 +7,22 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/5/19
 photo.1.link: ig://BpeoADslZRf
 photo.1.tags: bamboo, couple
+photo.1.tags.280.location: 200, 360
+photo.1.tags.281.location: 695, 120
 photo.2: cwdc://WgZVnMOADQE.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2024/5/19
 photo.2.link: ig://BsN3DD3FmiR
 photo.2.tags: bamboo, couple, portrait, sample
+photo.2.tags.280.location: 385, 125
+photo.2.tags.281.location: 225, 510
 photo.3: cwdc://WkfapA-ADQF.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2024/5/19
 photo.3.link: ig://BuQ5j-PFozb
 photo.3.tags: bridge, laying down, portrait, sleeping, tail
+photo.3.tags.280.location: 310, 580
+photo.3.tags.281.location: 575, 190
 photo.4: cwdc://Wvl0z_kADQA.jpg
 photo.4.author: yossi929
 photo.4.commitdate: 2019/7/14
@@ -36,11 +42,13 @@ photo.6.author: love__mitarashi
 photo.6.commitdate: 2024/5/19
 photo.6.link: ig://B5PyjdqBgJF
 photo.6.tags: couple, kiss, tongue, whiskers
+photo.6.tags.280.location: 465, 280
+photo.6.tags.281.location: 320, 345
 photo.7: cwdc://XAFBlSgADQB.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2020/2/16
 photo.7.link: ig://B8DtCHABL-o
-photo.7.tags: couple, kiss
+photo.7.tags: couple, kiss, videolink
 photo.7.tags.280.location: 225, 120
 photo.7.tags.281.location: 190, 130
 photo.8: cwdc://XBxUI7XADQC.jpg
@@ -55,8 +63,12 @@ photo.9.author: love__mitarashi
 photo.9.commitdate: 2024/5/19
 photo.9.link: ig://CWYB1IBFvs5
 photo.9.tags: couple, tail
+photo.9.tags.280.location: 345, 150
+photo.9.tags.281.location: 410, 375
 photo.10: cwdc://X7TzHIsADQH.jpg
 photo.10.author: love__mitarashi
 photo.10.commitdate: 2024/5/19
 photo.10.link: ig://CZrFzCGLvZM
 photo.10.tags: couple, laying down, sleeping, tail
+photo.10.tags.280.location: 205, 405
+photo.10.tags.281.location: 410, 195
