@@ -21,9 +21,6 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/2
 photo.1.link: https://www.instagram.com/p/B5cwhuGBzJy
 photo.1.tags: baby, door, home, portrait, profile, white face
-species: 1
-uncertainty: location.2 month/date/year :(
-zoo: 186
 photo.2: cwdc://W63IkgsADQA.jpg
 photo.2.author: worldthathesees
 photo.2.commitdate: 2024/5/19
@@ -69,3 +66,6 @@ photo.10.author: worldthathesees
 photo.10.commitdate: 2024/5/19
 photo.10.link: ig://B6p9mVkhlHP
 photo.10.tags: dish, portrait, sample
+species: 1
+uncertainty: location.2 month/date/year :(
+zoo: 186
