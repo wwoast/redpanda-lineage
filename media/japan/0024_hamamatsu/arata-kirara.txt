@@ -2,31 +2,151 @@
 _id: media.24.arata-kirara
 commitdate: 2020/1/30
 panda.tags: 65, 962
-photo.1: ig://B5SuapfBAe0/m
+photo.1: cwdc://W6jEWXeADQA.jpg
 photo.1.author: mini_cochi
 photo.1.commitdate: 2020/1/30
-photo.1.link: https://www.instagram.com/mini_cochi/
+photo.1.link: ig://B5SuapfBAe0
 photo.1.tags: grooming, mother's day
 photo.1.tags.65.location: 240, 185
 photo.1.tags.962.location: 60, 235
-photo.2: ig://B8qlAcGhGk1/m
+photo.2: cwdc://XBSxh8tADQC.jpg
 photo.2.author: taka__3428
 photo.2.commitdate: 2020/3/7
-photo.2.link: https://www.instagram.com/taka__3428/
+photo.2.link: ig://B8qlAcGhGk1
 photo.2.tags: grooming, laying down, mother's day, sleeping, white face
 photo.2.tags.65.location: 405, 375
 photo.2.tags.962.location: 450, 665
-photo.3: ig://B7A38iEhQC6/m
+photo.3: cwdc://W9_XaIpADQB.jpg
 photo.3.author: taka__3428
 photo.3.commitdate: 2020/3/7
-photo.3.link: https://www.instagram.com/taka__3428/
+photo.3.link: ig://B7A38iEhQC6
 photo.3.tags: mother's day, smile, white face
 photo.3.tags.65.location: 210, 130
 photo.3.tags.962.location: 105, 135
-photo.4: ig://B6ITg1aBj0z/m
+photo.4: cwdc://W8OOivUADQA.jpg
 photo.4.author: taka__3428
 photo.4.commitdate: 2020/3/7
-photo.4.link: https://www.instagram.com/taka__3428/
+photo.4.link: ig://B6ITg1aBj0z
 photo.4.tags: home, laying down, mother's day
 photo.4.tags.65.location: 80, 130
 photo.4.tags.962.location: 190, 120
+photo.5: cwdc://W6jEWXeADQB.jpg
+photo.5.author: mini_cochi
+photo.5.commitdate: 2024/5/19
+photo.5.link: ig://B5SuapfBAe1
+photo.5.tags: door, mother's day, portrait, whiskers
+photo.6: cwdc://X3X2ZMuADQT.jpg
+photo.6.author: taka__3428
+photo.6.commitdate: 2024/5/19
+photo.6.link: ig://CXtHcEHPcZT
+photo.6.tags: apple time, mother's day, peek, whiskers
+photo.7: cwdc://XSH0ooTADQH.jpg
+photo.7.author: taka__3428
+photo.7.commitdate: 2024/5/19
+photo.7.link: ig://CFFGjx5hWRc
+photo.7.tags: apple time, paws, sample, standing, window
+photo.8: cwdc://XWdd3L_ADQI.jpg
+photo.8.author: taka__3428
+photo.8.commitdate: 2024/5/19
+photo.8.link: ig://CHP7LDvhYJB
+photo.8.tags: mother's day, peek, portrait, sample, whiskers
+photo.9: cwdc://Xaou7-hADQA.jpg
+photo.9.author: hamamatsu.chiita
+photo.9.commitdate: 2024/5/19
+photo.9.link: ig://CJVjtdAhSfa
+photo.9.tags: portrait, sample, tongue, whiskers
+photo.10: cwdc://Xaou7-hADQB.jpg
+photo.10.author: hamamatsu.chiita
+photo.10.commitdate: 2024/5/19
+photo.10.link: ig://CJVjtdAhSfb
+photo.10.tags: apple time, mother's day, paws, portrait, sample, standing, tongue, whiskers
+photo.11: cwdc://Xaou7-hADQC.jpg
+photo.11.author: hamamatsu.chiita
+photo.11.commitdate: 2024/5/19
+photo.11.link: ig://CJVjtdAhSfc
+photo.11.tags: apple time, mother's day, paws, portrait, sample, standing, whiskers
+photo.12: cwdc://XbPk2pqADQA.jpg
+photo.12.author: ssc6105
+photo.12.commitdate: 2024/5/19
+photo.12.link: ig://CJo-qylBCua
+photo.12.tags: peek, tail
+photo.13: cwdc://XbPk2pqADQB.jpg
+photo.13.author: ssc6105
+photo.13.commitdate: 2024/5/19
+photo.13.link: ig://CJo-qylBCub
+photo.13.tags: grooming, mother's day, sample, tail, tongue
+photo.14: cwdc://XdI_CNMADQN.jpg
+photo.14.author: taka__3428
+photo.14.commitdate: 2024/5/19
+photo.14.link: ig://CKlrwkWBR3a
+photo.14.tags: close-up, mother's day, nose, tongue
+photo.15: cwdc://Xjpj_crADQA.jpg
+photo.15.author: _sah_ax7
+photo.15.commitdate: 2024/5/19
+photo.15.link: ig://CN1-PMFh-YU
+photo.15.tags: mother's day, sample, tail, tongue, wink
+photo.16: cwdc://YBTHQQ_ADQF.jpg
+photo.16.author: taka__3428
+photo.16.commitdate: 2024/5/19
+photo.16.link: ig://Ccqv3mPhnEv
+photo.16.tags: bamboo, laying down, paws, peek, tail
+photo.17: cwdc://YHoWJBSADQG.jpg
+photo.17.author: taka__3428
+photo.17.commitdate: 2024/5/19
+photo.17.link: ig://Cf1XT-ZP8yr
+photo.17.tags: door, peek
+photo.18: cwdc://YME_YxGADQJ.jpg
+photo.18.author: taka__3428
+photo.18.commitdate: 2024/5/19
+photo.18.link: ig://CiDr72TB1vv
+photo.18.tags: mother's day, portrait, whiskers
+photo.19: cwdc://YPrF0OAADQK.jpg
+photo.19.author: taka__3428
+photo.19.commitdate: 2024/5/19
+photo.19.link: ig://Cj2vJkwBcxu
+photo.19.tags: mother's day, portrait, sample, whiskers
+photo.20: cwdc://YRCeVZCADQL.jpg
+photo.20.author: taka__3428
+photo.20.commitdate: 2024/5/19
+photo.20.link: ig://CkibaKRPJ5S
+photo.20.tags: apple time, bamboo, peek, pumpkin, whiskers
+photo.21: cwdc://YRG_ZDjADQM.jpg
+photo.21.author: taka__3428
+photo.21.commitdate: 2024/5/19
+photo.21.link: ig://Ckkr7_hvEZx
+photo.21.tags: bamboo, nose, pumpkin, whiskers
+photo.22: cwdc://YUF3Vl-ADQO.jpg
+photo.22.author: taka__3428
+photo.22.commitdate: 2024/5/19
+photo.22.link: ig://CmEH6QvPsKf
+photo.22.tags: hammock, mother's day, paws, peek
+photo.23: cwdc://YXo6oJwADQP.jpg
+photo.23.author: taka__3428
+photo.23.commitdate: 2024/5/19
+photo.23.link: ig://Cn1pjioPGPz
+photo.23.tags: grooming, laying down, paws, portrait, tail, tongue
+photo.24: cwdc://YYm-M41ADQQ.jpg
+photo.24.author: taka__3428
+photo.24.commitdate: 2024/5/19
+photo.24.link: ig://CoUrV6Kva7e
+photo.24.tags: mother's day, paws, peek, tongue, whiskers
+photo.25: cwdc://YdKJsjXADQC.jpg
+photo.25.author: na.mo.pan
+photo.25.commitdate: 2024/5/19
+photo.25.link: ig://CqmRFvbvOZo
+photo.25.tags: bridge, paws, tail, tongue
+photo.26: cwdc://Yf7MruaADQR.jpg
+photo.26.author: taka__3428
+photo.26.commitdate: 2024/5/19
+photo.26.link: ig://Cr-ylU9PxBb
+photo.26.tags: close-up, laying down, mother's day
+photo.27: cwdc://YzzFtOiADQD.jpg
+photo.27.author: taka__3428
+photo.27.commitdate: 2024/5/19
+photo.27.link: ig://C16vGFBPo07
+photo.27.tags: paws, portrait, standing, whiskers
+photo.28: cwdc://YzzFtOiADQE.jpg
+photo.28.author: taka__3428
+photo.28.commitdate: 2024/5/19
+photo.28.link: ig://C16vGFBPo08
+photo.28.tags: paws, portrait, standing, whiskers
