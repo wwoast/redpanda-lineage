@@ -14,21 +14,21 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 90
-photo.1: ig://Bi2ziIWFWGB/m
+photo.1: cwdc://WNrOlVMADQA.jpg
 photo.1.author: tomo3700
 photo.1.commitdate: 2018/8/14
-photo.1.link: https://www.instagram.com/tomo3700/
-photo.1.tags: laying down
-photo.2: ig://Bj4hU0JF0Wz/m
+photo.1.link: ig://Bi2ziIWFWGB
+photo.1.tags: laying down, portrait, sample, whiskers
+photo.2: cwdc://WPuqKsyADQH.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2018/8/14
-photo.2.link: https://www.instagram.com/love__mitarashi/
-photo.2.tags: bamboo
-photo.3: ig://Bkp24o0li8B/m
+photo.2.link: ig://Bj4hU0JF0Wz
+photo.2.tags: bamboo, bite, peek, sample, whiskers
+photo.3: cwdc://WRRVSWJADQI.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2018/8/14
-photo.3.link: https://www.instagram.com/love__mitarashi/
-photo.3.tags: tail
+photo.3.link: ig://Bkp24o0li8B
+photo.3.tags: paws, portrait, sample, tail, whiskers
 photo.4: ig://Bkzrk_WlmN5/m
 photo.4.author: mifko55
 photo.4.commitdate: 2018/8/14
@@ -39,70 +39,221 @@ photo.5.author: craig_craig_craig
 photo.5.commitdate: 2018/8/14
 photo.5.link: https://www.instagram.com/p/BlIaNkjFdX9
 photo.5.tags: portrait, profile, sample, whiskers
-photo.6: ig://Bpi6q3Xliev/m
+photo.6: cwdc://WbDc2zPADQM.jpg
 photo.6.author: love__mitarashi
 photo.6.commitdate: 2018/10/30
-photo.6.link: https://www.instagram.com/love__mitarashi/
-photo.6.tags: bamboo
-photo.7: ig://BqcTLOGFriT/m
+photo.6.link: ig://Bpi6q3Xliev
+photo.6.tags: bamboo, portrait, sample, whiskers
+photo.7: cwdc://Wc2N3gsADQA.jpg
 photo.7.author: itsuak
 photo.7.commitdate: 2018/11/21
-photo.7.link: https://www.instagram.com/itsuak/
-photo.7.tags: tongue
-photo.8: ig://Bqef-2QFD-i/m
+photo.7.link: ig://BqcTLOGFriT
+photo.7.tags: portrait, sample, tongue, whiskers
+photo.8: cwdc://Wc6nexAADQB.jpg
 photo.8.author: itsuak
 photo.8.commitdate: 2018/11/22
-photo.8.link: https://www.instagram.com/itsuak/
-photo.9: ig://BuWLTZLFj41/m
+photo.8.link: ig://Bqef-2QFD-i
+photo.9: cwdc://Wkp-H22ADQR.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2019/3/9
-photo.9.link: https://www.instagram.com/love__mitarashi/
-photo.9.tags: muzzle
-photo.10: ig://BzXKZr6BPNE/m
+photo.9.link: ig://BuWLTZLFj41
+photo.9.tags: muzzle, portrait, sample, whiskers
+photo.10: cwdc://Wur8UcUADQX.jpg
 photo.10.author: love__mitarashi
 photo.10.commitdate: 2019/7/2
-photo.10.link: https://www.instagram.com/love__mitarashi/
-photo.10.tags: paws, portrait
+photo.10.link: ig://BzXKZr6BPNE
+photo.10.tags: birthday, paws, portrait, sample
 photo.11: ig://B0AXyKIBh8A/m
 photo.11.author: yossi929
 photo.11.commitdate: 2019/7/18
 photo.11.link: https://www.instagram.com/yossi929/
 photo.11.tags: laying down, paws, portrait
-photo.12: ig://B0f8pexh4AR/m
+photo.12: cwdc://Ww9g0CDADQA.jpg
 photo.12.author: love__mitarashi
 photo.12.commitdate: 2019/7/31
-photo.12.link: https://www.instagram.com/love__mitarashi/
+photo.12.link: ig://B0f8pexh4AR
 photo.12.tags: laying down, sleeping
-photo.13: ig://B9tj1Iphu8t/m
+photo.13: cwdc://XDYvLVzADQB.jpg
 photo.13.author: love__mitarashi
 photo.13.commitdate: 2020/3/18
-photo.13.link: https://www.instagram.com/love__mitarashi/
-photo.13.tags: apple time, portrait, tail
-photo.14: ig://CCGb4GXBpmX/m
+photo.13.link: ig://B9tj1Iphu8t
+photo.13.tags: apple time, portrait, sample, tail
+photo.14: cwdc://XMKfRROADQZ.jpg
 photo.14.author: love__mitarashi
 photo.14.commitdate: 2020/7/1
-photo.14.link: https://www.instagram.com/love__mitarashi/
-photo.14.tags: paws, peek
-photo.15: ig://CH84p7nBN-e/m
+photo.14.link: ig://CCGb4GXBpmX
+photo.14.tags: paws, peek, portrait, sample, whiskers
+photo.15: cwdc://XX3Y07uADQA.jpg
 photo.15.author: akiakiakiko18
 photo.15.commitdate: 2020/11/29
-photo.15.link: https://www.instagram.com/akiakiakiko18/
-photo.15.tags: portrait
-photo.16: ig://CWVdEGIlbxa/m
+photo.15.link: ig://CH84p7nBN-e
+photo.15.tags: portrait, sample, whiskers
+photo.16: cwdc://X0ohpQxADQh.jpg
 photo.16.author: love__mitarashi
 photo.16.commitdate: 2021/11/21
-photo.16.link: https://www.instagram.com/love__mitarashi/
-photo.16.tags: door, peek, portrait
-photo.17: ig://CfeOxGSrTLq/m
+photo.16.link: ig://CWVdEGIlbxa
+photo.16.tags: door, peek, portrait, sample
+photo.17: cwdc://YG6FDRFADQb.jpg
 photo.17.author: love__mitarashi
 photo.17.commitdate: 2022/7/25
-photo.17.link: https://www.instagram.com/love__mitarashi/
+photo.17.link: ig://CfeOxGSrTLq
 photo.17.tags: peek, portrait, sample, whiskers
-photo.18: ig://CoMYjZ-JXEl/m
+photo.18: cwdc://YYWYn4cADQA.jpg
 photo.18.author: noichizoo.1
 photo.18.commitdate: 2023/3/6
-photo.18.link: https://www.instagram.com/noichizoo.1/
-photo.18.tags: close-up, whiskers
+photo.18.link: ig://CoMYjZ-JXEl
+photo.18.tags: close-up, eye, whiskers
 species: 2
 studbook.id: 0560
 zoo: 60
+photo.19: cwdc://V39N0EFADQW.jpg
+photo.19.author: love__mitarashi
+photo.19.commitdate: 2024/5/19
+photo.19.link: ig://BX_zJfyhG41
+photo.19.tags: paws, portrait, sample, tail
+photo.20: cwdc://Vl7UFkIADQK.jpg
+photo.20.author: love__mitarashi
+photo.20.commitdate: 2024/5/19
+photo.20.link: ig://BO-2SP0BB1I
+photo.20.tags: bamboo, paws, portrait, tongue
+photo.21: cwdc://Vlua3RMADQJ.jpg
+photo.21.author: love__mitarashi
+photo.21.commitdate: 2024/5/19
+photo.21.link: ig://BO4ZrGWBSSG
+photo.21.tags: close-up, portrait, sample, whiskers
+photo.22: cwdc://VmMBWHfADQL.jpg
+photo.22.author: love__mitarashi
+photo.22.commitdate: 2024/5/19
+photo.22.link: ig://BPHM6hfhd2H
+photo.22.tags: paws, portrait, sample, tail, whiskers
+photo.23: cwdc://VmYW4QMADQN.jpg
+photo.23.author: love__mitarashi
+photo.23.commitdate: 2024/5/19
+photo.23.link: ig://BPNXrl2B1bo
+photo.23.tags: tail
+photo.24: cwdc://Vr6qBrCADQQ.jpg
+photo.24.author: love__mitarashi
+photo.24.commitdate: 2024/5/19
+photo.24.link: ig://BR-hQTRB_GC
+photo.24.tags: laying down, paws, upside-down
+photo.25: cwdc://VrvFe58ADQP.jpg
+photo.25.author: love__mitarashi
+photo.25.commitdate: 2024/5/19
+photo.25.link: ig://BR4u-6uBgyu
+photo.25.tags: lunch time, smile
+photo.26: cwdc://Vy28KO7ADQT.jpg
+photo.26.author: love__mitarashi
+photo.26.commitdate: 2024/5/19
+photo.26.link: ig://BVcqUlNh4a_
+photo.26.tags: bamboo, portrait, sample
+photo.27: cwdc://VyaoE80ADQU.jpg
+photo.27.author: love__mitarashi
+photo.27.commitdate: 2024/5/19
+photo.27.link: ig://BVOgR8KBepn
+photo.27.tags: peek, portrait, sample, whiskers
+photo.28: cwdc://VynNPy0ADQV.jpg
+photo.28.author: love__mitarashi
+photo.28.commitdate: 2024/5/19
+photo.28.link: ig://BVUy3XKBAmp
+photo.28.tags: apple time, close-up, portrait, sample
+photo.29: cwdc://Vz5jDZVADQS.jpg
+photo.29.author: love__mitarashi
+photo.29.commitdate: 2024/5/19
+photo.29.link: ig://BV99xKahK38
+photo.29.tags: portrait, sample, whiskers
+photo.30: cwdc://WALRqcjADQC.jpg
+photo.30.author: love__mitarashi
+photo.30.commitdate: 2024/5/19
+photo.30.link: ig://BcG1EsBhpX_
+photo.30.tags: portrait, sample, tail
+photo.31: cwdc://WBf4u-pADQD.jpg
+photo.31.author: love__mitarashi
+photo.31.commitdate: 2024/5/19
+photo.31.link: ig://BcxIm9EhlCr
+photo.31.tags: paws, tail, yawn
+photo.32: cwdc://WCbeqMnADQE.jpg
+photo.32.author: love__mitarashi
+photo.32.commitdate: 2024/5/19
+photo.32.link: ig://BdO7kkDhsjg
+photo.32.tags: portrait, sample, whiskers
+photo.33: cwdc://WEM7He8ADQF.jpg
+photo.33.author: love__mitarashi
+photo.33.commitdate: 2024/5/19
+photo.33.link: ig://BeHpzNOBc5X
+photo.33.tags: keeper, paws
+photo.34: cwdc://WLdCE_3ADQG.jpg
+photo.34.author: love__mitarashi
+photo.34.commitdate: 2024/5/19
+photo.34.link: ig://BhvtR9rlO81
+photo.34.tags: paws, tail
+photo.8.tags: peek, portrait, sample, whiskers
+photo.35: cwdc://WdofcMFADQO.jpg
+photo.35.author: love__mitarashi
+photo.35.commitdate: 2024/5/19
+photo.35.link: ig://Bq1b9jylvyI
+photo.35.tags: bamboo, portrait, sample, whiskers
+photo.36: cwdc://X-NMoHbADQY.jpg
+photo.36.author: love__mitarashi
+photo.36.commitdate: 2024/5/19
+photo.36.link: ig://CbHyjhdreXS
+photo.36.tags: itchy, paws, sample, whiskers
+photo.37: cwdc://X0EZQgWADQg.jpg
+photo.37.author: love__mitarashi
+photo.37.commitdate: 2024/5/19
+photo.37.link: ig://CWDY3t7FLha
+photo.37.tags: bamboo, peek
+photo.38: cwdc://X2OKuhUADQi.jpg
+photo.38.author: love__mitarashi
+photo.38.commitdate: 2024/5/19
+photo.38.link: ig://CXIRmuaLsvI
+photo.38.tags: paws, sample, tail
+photo.39: cwdc://X5JDNWaADQj.jpg
+photo.39.author: love__mitarashi
+photo.39.commitdate: 2024/5/19
+photo.39.link: ig://CYlt2I9BSj3
+photo.39.tags: bamboo, close-up, portrait
+photo.40: cwdc://XX3Y07uADQB.jpg
+photo.40.author: akiakiakiko18
+photo.40.commitdate: 2024/5/19
+photo.40.link: ig://CH84p7nBN-g
+photo.40.tags: portrait, sample, whiskers
+photo.41: cwdc://XX3Y07uADQC.jpg
+photo.41.author: akiakiakiko18
+photo.41.commitdate: 2024/5/19
+photo.41.link: ig://CH84p7nBN-h
+photo.41.tags: bamboo, portrait, sample, smile, whiskers
+photo.42: cwdc://Xpgsd5fADQe.jpg
+photo.42.author: love__mitarashi
+photo.42.commitdate: 2024/5/19
+photo.42.link: ig://CQxieafhOQ2
+photo.42.tags: portrait, sample, whiskers
+photo.43: cwdc://YBBdn9oADQa.jpg
+photo.43.author: love__mitarashi
+photo.43.commitdate: 2024/5/19
+photo.43.link: ig://Cch7DckLTEO
+photo.43.tags: shedding, tail, tongue
+photo.44: cwdc://YQtuDfpADQc.jpg
+photo.44.author: love__mitarashi
+photo.44.commitdate: 2024/5/19
+photo.44.link: ig://CkYDRNkr5Yl
+photo.44.tags: eye, mofumofu, sample, tail
+photo.45: cwdc://YYWYn4cADQB.jpg
+photo.45.author: noichizoo.1
+photo.45.commitdate: 2024/5/19
+photo.45.link: ig://CoMYjZ-JXEm
+photo.45.tags: peek, sample, whiskers
+photo.46: cwdc://YYWYn4cADQC.jpg
+photo.46.author: noichizoo.1
+photo.46.commitdate: 2024/5/19
+photo.46.link: ig://CoMYjZ-JXEn
+photo.46.tags: apple time, sample, smile, whiskers
+photo.47: cwdc://YYXeqtXADQd.jpg
+photo.47.author: love__mitarashi
+photo.47.commitdate: 2024/5/19
+photo.47.link: ig://CoM7k0bg6K0
+photo.47.tags: bamboo, eye
+photo.48: cwdc://Ynx3CXAADQf.jpg
+photo.48.author: love__mitarashi
+photo.48.commitdate: 2024/5/19
+photo.48.link: ig://Cv6HwpQPG9R
+photo.48.tags: eye, paws, sample, tail
