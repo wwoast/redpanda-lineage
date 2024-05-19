@@ -16,7 +16,7 @@ litter: 1072
 photo.1: cwdc://W63JFKyADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/2
-photo.1.link: https://www.instagram.com/p/B5cwyDJBaT7
+photo.1.link: ig://B5cwyDJBaT7
 photo.1.tags: baby, door, home, portrait, profile
 photo.2: cwdc://W8Z2CGUADQB.jpg
 photo.2.author: worldthathesees
@@ -28,30 +28,25 @@ photo.3.author: worldthathesees
 photo.3.commitdate: 2019/12/31
 photo.3.link: ig://B6ovAKfBMAq
 photo.3.tags: baby, portrait, sample, white face
-photo.4: ig://B6p9mVkhlHL/m
-photo.4.author: worldthathesees
-photo.4.commitdate: 2020/1/1
-photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: white face
-photo.5: ig://B0zKMxLB3-p/m
-photo.5.author: meskerzoo
-photo.5.commitdate: 2019/12/2
-photo.5.link: https://www.instagram.com/meskerzoo/
-photo.5.tags: baby, panda bowl, scale
-species: 1
-zoo: 153
-photo.6: cwdc://W9PFhZeADQD.jpg
+photo.4: cwdc://Wxj76m2ADQA.jpg
+photo.4.author: meskerzoo
+photo.4.commitdate: 2019/12/2
+photo.4.link: ig://B0zKMxLB3-p
+photo.4.tags: baby, panda bowl, scale
+photo.5: cwdc://W9PFhZeADQD.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2024/5/19
+photo.5.link: ig://B6ovAKfBMAq?img_index=2
+photo.5.tags: baby, bamboo, paws, portrait, sample, tongue, white face
+photo.6: cwdc://W9PFhZeADQE.jpg
 photo.6.author: worldthathesees
 photo.6.commitdate: 2024/5/19
-photo.6.link: ig://B6ovAKfBMAr
-photo.6.tags: baby, bamboo, paws, portrait, sample, tongue, white face
-photo.7: cwdc://W9PFhZeADQE.jpg
+photo.6.link: ig://B6ovAKfBMAq?img_index=3
+photo.6.tags: baby, bamboo, paws, portrait, sample, whiskers
+photo.7: cwdc://W9PFhZeADQF.jpg
 photo.7.author: worldthathesees
 photo.7.commitdate: 2024/5/19
-photo.7.link: ig://B6ovAKfBMAs
-photo.7.tags: baby, bamboo, paws, portrait, sample, whiskers
-photo.8: cwdc://W9PFhZeADQF.jpg
-photo.8.author: worldthathesees
-photo.8.commitdate: 2024/5/19
-photo.8.link: ig://B6ovAKfBMAt
-photo.8.tags: baby, bamboo, bite, portrait, sample, whiskers
+photo.7.link: ig://B6ovAKfBMAq?img_index=4
+photo.7.tags: baby, bamboo, bite, portrait, sample, whiskers
+species: 1
+zoo: 153
