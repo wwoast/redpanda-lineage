@@ -2,11 +2,16 @@
 _id: media.190.kurumi-nei-tsugumi
 commitdate: 2023/2/24
 panda.tags: 376, 1376, 1377
-photo.1: ig://CoxC_TyvYgS/l
+photo.1: cwdc://YZftfsFADQA.jpg
 photo.1.author: rie_panda55
 photo.1.commitdate: 2023/2/24
-photo.1.link: https://www.instagram.com/rie_panda55/
+photo.1.link: ig://CoxC_TyvYgS
 photo.1.tags: family, keeper, portrait
 photo.1.tags.376.location: 375, 260
 photo.1.tags.1376.location: 485, 425
 photo.1.tags.1377.location: 260, 350
+photo.2: cwdc://Yr_zmMZADQA.jpg
+photo.2.author: gloryeui
+photo.2.commitdate: 2024/5/25
+photo.2.link: ig://CyBGCj8v1Lk
+photo.2.tags: apple time, bite, family, keeper, portrait
