@@ -34,6 +34,7 @@ photo.4: cwdc://WG1J65FADQA.jpg
 photo.4.author: rie_panda55
 photo.4.commitdate: 2018/11/19
 photo.4.link: ig://BfbxM6ShHrn
+photo.4.tags: paws, sample, snow, techitechi
 photo.5: cwdc://WITCl-NADQA.jpg
 photo.5.author: 218_yu
 photo.5.commitdate: 2018/11/19
@@ -118,6 +119,7 @@ photo.21: cwdc://XG8YxW8ADQD.jpg
 photo.21.author: sasapan34
 photo.21.commitdate: 2020/5/9
 photo.21.link: ig://B_fYoJOHUni
+photo.21.tags: sample
 photo.22: cwdc://XUhqruFADQA.jpg
 photo.22.author: an920000
 photo.22.commitdate: 2020/10/13
@@ -156,22 +158,18 @@ photo.28.tags: close-up, portrait, portrati, smile, snow, tongue
 photo.29: cwdc://XzREHBdADQA.jpg
 photo.29.author: ho0oipo
 photo.29.commitdate: 2021/11/15
-photo.29.link: https://www.instagram.com/p/CVpuS-esi2l
+photo.29.link: ig://CVpuS-esi2l
 photo.29.tags: apple time, portrait, tail, toys, upside-down
 photo.30: cwdc://Xx0YXMLADQA.jpg
 photo.30.author: leonard_redmof
 photo.30.commitdate: 2024/3/14
-photo.30.link: https://www.instagram.com/p/CU7YbD1hEoU
+photo.30.link: ig://CU7YbD1hEoU
 photo.30.tags: mofumofu, portrait, tail
 photo.31: cwdc://YoIndPqADQB.jpg
 photo.31.author: leonard_redmof
 photo.31.commitdate: 2024/3/14
-photo.31.link: https://www.instagram.com/p/CwFf-FlPlHt
+photo.31.link: ig://CwFf-FlPlHt
 photo.31.tags: mofumofu
-species: 2
-studbook.id: 11130
-zoo: 37
-photo.4.tags: paws, sample, snow, techitechi
 photo.32: cwdc://WITCl-NADQB.jpg
 photo.32.author: 218_yu
 photo.32.commitdate: 2024/5/29
@@ -187,7 +185,6 @@ photo.34.author: komabazoophoto
 photo.34.commitdate: 2024/5/29
 photo.34.link: ig://BzDYbAKBQ-9
 photo.34.tags: bridge, laying down, peek, portrait, sample
-photo.21.tags: sample
 photo.35: cwdc://XUhqruFADQB.jpg
 photo.35.author: an920000
 photo.35.commitdate: 2024/5/29
@@ -218,3 +215,6 @@ photo.40.author: sasapan34
 photo.40.commitdate: 2024/5/29
 photo.40.link: ig://Cqu-MdtPdA6
 photo.40.tags: apple time, lips, paws, sample
+species: 2
+studbook.id: 11130
+zoo: 37
