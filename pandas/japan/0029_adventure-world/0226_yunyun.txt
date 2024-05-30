@@ -349,9 +349,6 @@ photo.67.author: adventureworld_official
 photo.67.commitdate: 2023/3/6
 photo.67.link: https://www.instagram.com/adventureworld_official/
 photo.67.tags: paws, portrait, sample, snow
-species: 2
-studbook.id: 1687
-zoo: 29
 photo.68: cwdc://W_scSnMADQE.jpg
 photo.68.author: fetorus_mami
 photo.68.commitdate: 2024/5/4
@@ -367,3 +364,6 @@ photo.70.author: fetorus_mami
 photo.70.commitdate: 2024/5/4
 photo.70.link: ig://C2UYBJ3PLmj
 photo.70.tags: smile, tail
+species: 2
+studbook.id: 1687
+zoo: 29
