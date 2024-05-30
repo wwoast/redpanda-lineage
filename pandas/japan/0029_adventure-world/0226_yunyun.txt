@@ -15,94 +15,94 @@ language.order: ja, en
 litter: 225
 location.1: 37, 2016/6/28
 location.2: 29, 2019/10/28
-photo.1: ig://BOOfJ4-DlhM/m
+photo.1: cwdc://Vkal02cADQA.jpg
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2018/11/15
-photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: baby, grumpy, techitechi
-photo.2: ig://BOXMzlvgWGt/m
+photo.1.link: ig://BOOfJ4-DlhM
+photo.1.tags: baby, grumpy, techitechi, whiskers
+photo.2: cwdc://VksBIP_ADQA.jpg
 photo.2.author: nakacchi_desu
 photo.2.commitdate: 2018/11/15
-photo.2.link: https://www.instagram.com/nakacchi_desu/
+photo.2.link: ig://BOXMzlvgWGt
 photo.2.tags: baby, bridge, portrait, tongue
-photo.3: ig://BVzlZXrAUXg/m
+photo.3: cwdc://VzkyTz2ADQD.jpg
 photo.3.author: framereim
 photo.3.commitdate: 2018/11/15
-photo.3.link: https://www.instagram.com/framereim/
-photo.3.tags: bridge, portrait, techitechi
-photo.4: ig://Bb1YmWgla_U/m
+photo.3.link: ig://BVzlZXrAUXg
+photo.3.tags: bridge, laying down, portrait, techitechi
+photo.4: cwdc://V_oYtxhADQB.jpg
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2018/11/15
-photo.4.link: https://www.instagram.com/fetorus_mami/
-photo.4.tags: bamboo, smile
-photo.5: ig://Bb3-ZDmFqdO/m
+photo.4.link: ig://Bb1YmWgla_U
+photo.4.tags: bamboo, sample, smile
+photo.5: cwdc://V_tkTLsADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/12/23
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.link: ig://Bb3-ZDmFqdO
 photo.5.tags: portrait, snow, standing
-photo.6: ig://BcXXrG0lG3U/m
+photo.6: cwdc://WAsW3SJADQC.jpg
 photo.6.author: fetorus_mami
 photo.6.commitdate: 2018/11/15
-photo.6.link: https://www.instagram.com/fetorus_mami/
-photo.6.tags: portrait, wet
-photo.7: ig://Bji0pyHFwkj/m
+photo.6.link: ig://BcXXrG0lG3U
+photo.6.tags: portrait, wet, whiskers
+photo.7: cwdc://WPDQ0ouADQB.jpg
 photo.7.author: leonard_redmof
 photo.7.commitdate: 2018/11/15
-photo.7.link: https://www.instagram.com/leonard_redmof/
-photo.7.tags: destruction, grumpy, paws, portrait, techitechi
-photo.8: ig://BlkcrC_lE8w/m
+photo.7.link: ig://Bji0pyHFwkj
+photo.7.tags: destruction, grumpy, paws, portrait, sample, techitechi
+photo.8: cwdc://WTGg3KfADQB.jpg
 photo.8.author: hanamaru_redpanda
 photo.8.commitdate: 2020/3/13
-photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: paws, portrait, smile
-photo.9: ig://BoTYFczFKC9/m
+photo.8.link: ig://BlkcrC_lE8w
+photo.8.tags: paws, portrait, sample, smile, whiskers
+photo.9: cwdc://WYkXr-GADQA.jpg
 photo.9.author: miis_98
 photo.9.commitdate: 2018/9/30
-photo.9.link: https://www.instagram.com/miis_98/
-photo.9.tags: home, portrait, smile
-photo.10: ig://Bo_mlDllAlc/m
+photo.9.link: ig://BoTYFczFKC9
+photo.9.tags: home, portrait, sample, smile, whiskers
+photo.10: cwdc://WZ80rLrADQA.jpg
 photo.10.author: y2_shiro
 photo.10.commitdate: 2018/11/15
-photo.10.link: https://www.instagram.com/y2_shiro/
-photo.10.tags: portrait
-photo.11: ig://BpUHqDzFcmL/m
+photo.10.link: ig://Bo_mlDllAlc
+photo.10.tags: portrait, sample, whiskers
+photo.11: cwdc://Wal21MGADQD.jpg
 photo.11.author: nishicotolo
 photo.11.commitdate: 2018/11/15
-photo.11.link: https://www.instagram.com/nishicotolo/
-photo.12: ig://BpfbnB1lNn0/m
+photo.11.link: ig://BpUHqDzFcmL
+photo.12: cwdc://Wa8evILADQA.jpg
 photo.12.author: safariyokohama
 photo.12.commitdate: 2018/11/15
-photo.12.link: https://www.instagram.com/safariyokohama/
-photo.12.tags: bamboo, standing
-photo.13: ig://BqKcKnaFUnz/m
+photo.12.link: ig://BpfbnB1lNn0
+photo.12.tags: bamboo, paws, smile, standing
+photo.13: cwdc://WcSf2TUADQC.jpg
 photo.13.author: y2_shiro
 photo.13.commitdate: 2018/11/15
-photo.13.link: https://www.instagram.com/y2_shiro/
-photo.13.tags: bamboo, portrait
-photo.14: ig://BqyIj2PljFq/m
+photo.13.link: ig://BqKcKnaFUnz
+photo.13.tags: bamboo, close-up, portrait, sample
+photo.14: cwdc://Wdh4ow_ADQF.jpg
 photo.14.author: fetorus_mami
 photo.14.commitdate: 2018/11/30
-photo.14.link: https://www.instagram.com/fetorus_mami/
+photo.14.link: ig://BqyIj2PljFq
 photo.14.tags: itchy, mofumofu, tail
-photo.15: ig://Bq56failrua/m
+photo.15: cwdc://Wdxcf5lADQD.jpg
 photo.15.author: fetorus_mami
 photo.15.commitdate: 2018/12/4
-photo.15.link: https://www.instagram.com/fetorus_mami/
-photo.15.tags: bamboo, portrait
-photo.16: ig://Bq56t5xlMnO/m
+photo.15.link: ig://Bq56failrua
+photo.15.tags: bamboo, portrait, sample
+photo.16: cwdc://Wdxc84DADQE.jpg
 photo.16.author: fetorus_mami
 photo.16.commitdate: 2018/12/4
-photo.16.link: https://www.instagram.com/fetorus_mami/
-photo.16.tags: mofumofu, tail
-photo.17: ig://BsdKrjkla1a/m
+photo.16.link: ig://Bq56t5xlMnO
+photo.16.tags: mofumofu, sample, tail
+photo.17: cwdc://Wg384LpADQB.jpg
 photo.17.author: framereim
 photo.17.commitdate: 2019/1/15
-photo.17.link: https://www.instagram.com/framereim/
+photo.17.link: ig://BsdKrjkla1a
 photo.17.tags: home, snow
-photo.18: ig://BshoI-0lfus/m
+photo.18: cwdc://WhA3zCJADQB.jpg
 photo.18.author: safariyokohama
 photo.18.commitdate: 2019/1/30
-photo.18.link: https://www.instagram.com/safariyokohama/
+photo.18.link: ig://BshoI-0lfus
 photo.18.tags: nose, paws, snow
 photo.19: cwdc://Wh6PqRJADQB.jpg
 photo.19.author: ho0oipo
@@ -119,51 +119,51 @@ photo.21.author: wumpwoast
 photo.21.commitdate: 2022/11/29
 photo.21.link: https://www.instagram.com/p/Bv3CDcUFJwZ
 photo.21.tags: bamboo, mofumofu, portrait, sample, smile
-photo.22: ig://BzDYoDZBTNy/m
+photo.22: cwdc://WuEYxLSADQG.jpg
 photo.22.author: komabazoophoto
 photo.22.commitdate: 2019/6/23
-photo.22.link: https://www.instagram.com/komabazoophoto/
+photo.22.link: ig://BzDYoDZBTNy
 photo.22.tags: climb, paws, portrait, yawn
-photo.23: ig://BzaW8LZhsdA/m
+photo.23: cwdc://WuyVZbTADQD.jpg
 photo.23.author: komabazoophoto
 photo.23.commitdate: 2019/7/9
-photo.23.link: https://www.instagram.com/komabazoophoto/
-photo.23.tags: bridge, portrait, techitechi
-photo.24: ig://B0FBIWvhfTy/m
+photo.23.link: ig://BzaW8LZhsdA
+photo.23.tags: bridge, laying down, portrait, sample, techitechi
+photo.24: cwdc://WwHpxx_ADQA.jpg
 photo.24.author: sasapan34
 photo.24.commitdate: 2019/7/20
-photo.24.link: https://www.instagram.com/sasapan34/
-photo.24.tags: smile
+photo.24.link: ig://B0FBIWvhfTy
+photo.24.tags: sample, smile
 photo.25: ig://B0dgA0nhiJA/m
 photo.25.author: nozo.mari
 photo.25.commitdate: 2019/7/28
 photo.25.link: https://www.instagram.com/nozo.mari/
 photo.25.tags: bridge, grumpy, techitechi
-photo.26: ig://B22pdbHhbks/m
+photo.26: cwdc://W1q6b6vADQE.jpg
 photo.26.author: sasapan34
 photo.26.commitdate: 2019/9/28
-photo.26.link: https://www.instagram.com/sasapan34/
-photo.26.tags: paws
-photo.27: ig://B3EvT_JB5Io/m
+photo.26.link: ig://B22pdbHhbks
+photo.26.tags: bamboo, paws
+photo.27: cwdc://W2HGJCyADQA.jpg
 photo.27.author: nishicotolo
 photo.27.commitdate: 2019/10/10
-photo.27.link: https://www.instagram.com/nishicotolo/
-photo.27.tags: bridge, paws, laying down
+photo.27.link: ig://B3EvT_JB5Io
+photo.27.tags: bridge, laying down, paws
 photo.28: cwdc://W2ULjFCADQA.jpg
 photo.28.author: wumpwoast
 photo.28.commitdate: 2019/10/6
 photo.28.link: https://www.instagram.com/p/B3LSBARBXMC
 photo.28.tags: autumn, portrait
-photo.29: ig://B3O9RqPhucO/m
+photo.29: cwdc://W2biEY_ADQA.jpg
 photo.29.author: komabazoophoto
 photo.29.commitdate: 2019/10/10
-photo.29.link: https://www.instagram.com/komabazoophoto/
-photo.29.tags: lips, portrait, slobber, smile, white face
-photo.30: ig://B4CPcGeBgXq/m
+photo.29.link: ig://B3O9RqPhucO
+photo.29.tags: lips, portrait, sample, slobber, smile, white face
+photo.30: cwdc://W4CGZRcADQB.jpg
 photo.30.author: sasapan34
 photo.30.commitdate: 2019/10/25
-photo.30.link: https://www.instagram.com/sasapan34/
-photo.30.tags: bamboo
+photo.30.link: ig://B4CPcGeBgXq
+photo.30.tags: bamboo, sample
 photo.31: cwdc://W4GSCmzADQA.jpg
 photo.31.author: asahiyamazoo1
 photo.31.commitdate: 2019/11/26
@@ -174,181 +174,181 @@ photo.32.author: ho0oipo
 photo.32.commitdate: 2019/10/29
 photo.32.link: https://www.instagram.com/p/B4HykAeh8Gv
 photo.32.tags: techitechi
-photo.33: ig://B4KIuT7BHG3/m
+photo.33: cwdc://W4R49sWADQA.jpg
 photo.33.author: framereim
 photo.33.commitdate: 2019/10/29
-photo.33.link: https://www.instagram.com/framereim/
-photo.33.tags: autumn, bridge, portrait
-photo.34: ig://B4KZLM1BsCl/m
+photo.33.link: ig://B4KIuT7BHG3
+photo.33.tags: autumn, bridge, peek, portrait
+photo.34: cwdc://W4SZ3eKADQA.jpg
 photo.34.author: leonard_redmof
 photo.34.commitdate: 2019/10/29
-photo.34.link: https://www.instagram.com/leonard_redmof/
+photo.34.link: ig://B4KZLM1BsCl
 photo.34.tags: baby, home, portrait, white face
-photo.35: ig://B4e0pNyBqAO/m
+photo.35: cwdc://W47QzgEADQB.jpg
 photo.35.author: komabazoophoto
 photo.35.commitdate: 2019/11/9
-photo.35.link: https://www.instagram.com/komabazoophoto/
-photo.35.tags: paws, portrait, tongue, window
-photo.36: ig://B4e0zJaB5P4/m
+photo.35.link: ig://B4e0pNyBqAO
+photo.35.tags: paws, portrait, standing, tongue, window
+photo.36: cwdc://W47RHXUADQC.jpg
 photo.36.author: komabazoophoto
 photo.36.commitdate: 2019/11/9
-photo.36.link: https://www.instagram.com/komabazoophoto/
-photo.36.tags: grumpy, portrait, tail, tree
-photo.37: ig://B5h4Ap6h-s4/m
+photo.36.link: ig://B4e0zJaB5P4
+photo.36.tags: grumpy, mofumofu, portrait, tail, tree
+photo.37: cwdc://W7BXiYVADQA.jpg
 photo.37.author: chankunvv
 photo.37.commitdate: 2019/12/3
-photo.37.link: https://www.instagram.com/chankunvv/
-photo.37.tags: grumpy, mofumofu, portrait
-photo.38: ig://B5o4l6CBc9V/m
+photo.37.link: ig://B5h4Ap6h-s4
+photo.37.tags: grumpy, mofumofu, portrait, sample
+photo.38: cwdc://W7PYs4kADQA.jpg
 photo.38.author: craig_craig_craig
 photo.38.commitdate: 2019/12/10
-photo.38.link: https://www.instagram.com/craig_craig_craig/
-photo.38.tags: paws, portrait
-photo.39: ig://B5zsG-BBmuf/m
+photo.38.link: ig://B5o4l6CBc9V
+photo.38.tags: paws, portrait, sample, wet, whiskers
+photo.39: cwdc://W7k_vAiADQD.jpg
 photo.39.author: chankunvv
 photo.39.commitdate: 2019/12/16
-photo.39.link: https://www.instagram.com/chankunvv/
+photo.39.link: ig://B5zsG-BBmuf
 photo.39.tags: dish, home
-photo.40: ig://B6iJA9FBljC/m
+photo.40: cwdc://W9B5i-qADQB.jpg
 photo.40.author: nishicotolo
 photo.40.commitdate: 2019/12/29
-photo.40.link: https://www.instagram.com/nishicotolo/
-photo.40.tags: portrait, smile
-photo.41: ig://B6qBPx9hBrM/m
+photo.40.link: ig://B6iJA9FBljC
+photo.40.tags: portrait, sample, smile
+photo.41: cwdc://W9RqAobADQE.jpg
 photo.41.author: chankunvv
 photo.41.commitdate: 2019/12/31
-photo.41.link: https://www.instagram.com/chankunvv/
-photo.41.tags: portrait, techitechi
-photo.42: ig://B6rXo8sBGCM/m
+photo.41.link: ig://B6qBPx9hBrM
+photo.41.tags: portrait, sample, techitechi, whiskers
+photo.42: cwdc://W9UWy94ADQF.jpg
 photo.42.author: chankunvv
 photo.42.commitdate: 2019/12/31
-photo.42.link: https://www.instagram.com/chankunvv/
-photo.42.tags: tree
-photo.43: ig://B6rjoDXBc43/m
+photo.42.link: ig://B6rXo8sBGCM
+photo.42.tags: distance, tree
+photo.43: cwdc://W9UuxLOADQA.jpg
 photo.43.author: yakko____
 photo.43.commitdate: 2019/12/31
-photo.43.link: https://www.instagram.com/yakko____/
-photo.43.tags: apple time, dish, portrait, smile
-photo.44: ig://B6tnLP9BzYS/m
+photo.43.link: ig://B6rjoDXBc43
+photo.43.tags: apple time, dish, portrait, sample, smile
+photo.44: cwdc://W9Y13kaADQA.jpg
 photo.44.author: kipekaila
 photo.44.commitdate: 2019/12/31
-photo.44.link: https://www.instagram.com/kipekaila/
-photo.44.tags: grumpy, whiskers
-photo.45: ig://B7Roc_QhENH/m
+photo.44.link: ig://B6tnLP9BzYS
+photo.44.tags: grumpy, sample, whiskers, white face
+photo.45: cwdc://W-g4bDBADQC.jpg
 photo.45.author: sasapan34
 photo.45.commitdate: 2020/1/25
-photo.45.link: https://www.instagram.com/sasapan34/
+photo.45.link: ig://B7Roc_QhENH
 photo.45.tags: paws, smile
-photo.46: ig://B7qRZkfBLAd/m
+photo.46: cwdc://W_SKUNeADQC.jpg
 photo.46.author: nishicotolo
 photo.46.commitdate: 2020/1/25
-photo.46.link: https://www.instagram.com/nishicotolo/
-photo.46.tags: smile
-photo.47: ig://B7tNqg6h47O/m
+photo.46.link: ig://B7qRZkfBLAd
+photo.46.tags: sample, smile, tail
+photo.47: cwdc://W_YC2GVADQA.jpg
 photo.47.author: fetorus_mami
 photo.47.commitdate: 2020/1/26
-photo.47.link: https://www.instagram.com/fetorus_mami/
-photo.47.tags: dish, home, lunch time, nose
-photo.48: ig://B7_QjdQB--G/m
+photo.47.link: ig://B7tNqg6h47O
+photo.47.tags: dish, home, lunch time, nose, sample
+photo.48: cwdc://W_8In_AADQA.jpg
 photo.48.author: pink.b22
 photo.48.commitdate: 2020/3/19
-photo.48.link: https://www.instagram.com/pink.b22/
-photo.48.tags: peek, portrait, tree
-photo.49: ig://B8bJCWPBY8S/m
+photo.48.link: ig://B7_QjdQB--G
+photo.48.tags: peek, portrait, sample, tree
+photo.49: cwdc://XAz5lw-ADQA.jpg
 photo.49.author: apple_jasmine33
 photo.49.commitdate: 2020/2/18
-photo.49.link: https://www.instagram.com/apple_jasmine33/
+photo.49.link: ig://B8bJCWPBY8S
 photo.49.tags: peek, tree
-photo.50: ig://B_kg0A-ByKu/m
+photo.50: cwdc://XHGpJGcADQF.jpg
 photo.50.author: sasapan34
 photo.50.commitdate: 2020/5/7
-photo.50.link: https://www.instagram.com/sasapan34/
+photo.50.link: ig://B_kg0A-ByKu
 photo.50.tags: paws, tongue
-photo.51: ig://CA97HCAh90P/m
+photo.51: cwdc://XJ5dvIhADQE.jpg
 photo.51.author: framereim
 photo.51.commitdate: 2020/6/3
-photo.51.link: https://www.instagram.com/framereim/
-photo.51.tags: grumpy, laying down, paws, portrait, smile, tree
-photo.52: ig://CBFmtF1nLza/m
+photo.51.link: ig://CA97HCAh90P
+photo.51.tags: grumpy, laying down, paws, portrait, sample, smile, tree
+photo.52: cwdc://XKI07QLADQL.jpg
 photo.52.author: chankunvv
 photo.52.commitdate: 2021/6/11
-photo.52.link: https://www.instagram.com/chankunvv/
+photo.52.link: ig://CBFmtF1nLza
 photo.52.tags: friends, videolink, window
-photo.53: ig://CBFyrLOhD8c/m
+photo.53: cwdc://XKJM3a9ADQM.jpg
 photo.53.author: chankunvv
 photo.53.commitdate: 2021/6/11
-photo.53.link: https://www.instagram.com/chankunvv/
-photo.53.tags: climb, paws, portrait, smile
-photo.54: ig://CBpjXWgB-oQ/m
+photo.53.link: ig://CBFyrLOhD8c
+photo.53.tags: climb, paws, portrait, sample, smile, tree
+photo.54: cwdc://XLQuPxgADQG.jpg
 photo.54.author: framereim
 photo.54.commitdate: 2021/6/11
-photo.54.link: https://www.instagram.com/framereim/
-photo.54.tags: paws, peek
-photo.55: ig://CCk4Wr9BgAB/m
+photo.54.link: ig://CBpjXWgB-oQ
+photo.54.tags: paws, peek, portrait, sample
+photo.55: cwdc://XNHYOcaADQS.jpg
 photo.55.author: chankunvv
 photo.55.commitdate: 2021/6/11
-photo.55.link: https://www.instagram.com/chankunvv/
-photo.55.tags: bite, close-up, mofumofu, portrait, tree
-photo.56: ig://CDvBWyeB_i5/m
+photo.55.link: ig://CCk4Wr9BgAB
+photo.55.tags: bite, close-up, mofumofu, portrait, sample, tree
+photo.56: cwdc://XPbqOpcADQC.jpg
 photo.56.author: redpanda_nippon_takashi
 photo.56.commitdate: 2020/8/22
-photo.56.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.56.tags: home, lips
-photo.57: ig://CF2CaSOhVvl/m
+photo.56.link: ig://CDvBWyeB_i5
+photo.56.tags: home, lips, sample, smile
+photo.57: cwdc://XTpsVo9ADQI.jpg
 photo.57.author: sasapan34
 photo.57.commitdate: 2021/1/30
-photo.57.link: https://www.instagram.com/sasapan34/
+photo.57.link: ig://CF2CaSOhVvl
 photo.57.tags: peek, smile, tree
-photo.58: ig://CJ-N1YcBBaz/m
+photo.58: cwdc://Xb6DL1YADQJ.jpg
 photo.58.author: kisshan324
 photo.58.commitdate: 2021/4/28
-photo.58.link: https://www.instagram.com/kisshan324/
-photo.58.tags: portrait, whiskers
-photo.59: ig://CKUw3qiheEF/m
+photo.58.link: ig://CJ-N1YcBBaz
+photo.58.tags: portrait, sample, whiskers
+photo.59: cwdc://XcnJQZlADQC.jpg
 photo.59.author: craig_craig_craig
 photo.59.commitdate: 2021/1/22
-photo.59.link: https://www.instagram.com/craig_craig_craig/
-photo.59.tags: smile, tail
-photo.60: ig://CWPNZRnhPHH/m
+photo.59.link: ig://CKUw3qiheEF
+photo.59.tags: sample, smile, tail
+photo.60: cwdc://X0cCTnvADQG.jpg
 photo.60.author: redpanda_nippon_takashi
 photo.60.commitdate: 2021/11/21
-photo.60.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.60.tags: close-up, mofumofu, paws, portrait
-photo.61: ig://CWVZ3dxhuRJ/m
+photo.60.link: ig://CWPNZRnhPHH
+photo.60.tags: close-up, mofumofu, paws, portrait, sample
+photo.61: cwdc://X0obQADADQI.jpg
 photo.61.author: apple_jasmine33
 photo.61.commitdate: 2021/11/21
-photo.61.link: https://www.instagram.com/apple_jasmine33/
-photo.61.tags: peek, smile, tree
-photo.62: ig://CW7SN1_BhaQ/m
+photo.61.link: ig://CWVZ3dxhuRJ
+photo.61.tags: peek, sample, smile, tree
+photo.62: cwdc://X10L8weADQJ.jpg
 photo.62.author: adventureworld_official
 photo.62.commitdate: 2022/1/18
-photo.62.link: https://www.instagram.com/adventureworld_official/
-photo.62.tags: apple time, dish, home, lunch time, portrait, smile
-photo.63: ig://CY7VO80hw1a/m
+photo.62.link: ig://CW7SN1_BhaQ
+photo.62.tags: apple time, bite, dish, home, lunch time, portrait, sample, smile
+photo.63: cwdc://X50R--JADQJ.jpg
 photo.63.author: sasapan34
 photo.63.commitdate: 2022/2/21
-photo.63.link: https://www.instagram.com/sasapan34/
+photo.63.link: ig://CY7VO80hw1a
 photo.63.tags: apple time, dish, peek
-photo.64: ig://Ccc6xMkP6e9/m
+photo.64: cwdc://YA3dDdoADQG.jpg
 photo.64.author: sasapan34
 photo.64.commitdate: 2022/6/6
-photo.64.link: https://www.instagram.com/sasapan34/
-photo.64.tags: laying down, tail
-photo.65: ig://Cdnf5nLva0C/m
+photo.64.link: ig://Ccc6xMkP6e9
+photo.64.tags: laying down, sample, tail
+photo.65: cwdc://YDMnUS3ADQH.jpg
 photo.65.author: sasapan34
 photo.65.commitdate: 2022/6/6
-photo.65.link: https://www.instagram.com/sasapan34/
-photo.65.tags: itchy, paws, wink
-photo.66: ig://Ci84RwCv9xT/m
+photo.65.link: ig://Cdnf5nLva0C
+photo.65.tags: itchy, paws, techitechi, wink
+photo.66: cwdc://YN3YEklADQV.jpg
 photo.66.author: chankunvv
 photo.66.commitdate: 2022/10/7
-photo.66.link: https://www.instagram.com/chankunvv/
-photo.66.tags: portrait, tail, upside-down
-photo.67: ig://Cn04VkbPnh4/m
+photo.66.link: ig://Ci84RwCv9xT
+photo.66.tags: climb, portrait, tail, upside-down
+photo.67: cwdc://YXnYMNWADQB.jpg
 photo.67.author: adventureworld_official
 photo.67.commitdate: 2023/3/6
-photo.67.link: https://www.instagram.com/adventureworld_official/
-photo.67.tags: paws, portrait, sample, snow
+photo.67.link: ig://Cn04VkbPnh4
+photo.67.tags: paws, portrait, sample, snow, tail
 photo.68: cwdc://W_scSnMADQE.jpg
 photo.68.author: fetorus_mami
 photo.68.commitdate: 2024/5/4
@@ -367,3 +367,339 @@ photo.70.tags: smile, tail
 species: 2
 studbook.id: 1687
 zoo: 29
+photo.71: cwdc://W-g4bDBADQD.jpg
+photo.71.author: sasapan34
+photo.71.commitdate: 2024/5/30
+photo.71.link: ig://B7Roc_QhENI
+photo.71.tags: peek, sample, tree, whiskers
+photo.72: cwdc://W7BXiYVADQB.jpg
+photo.72.author: chankunvv
+photo.72.commitdate: 2024/5/30
+photo.72.link: ig://B5h4Ap6h-s5
+photo.72.tags: portrait, sample, whiskers
+photo.73: cwdc://W7BXiYVADQC.jpg
+photo.73.author: chankunvv
+photo.73.commitdate: 2024/5/30
+photo.73.link: ig://B5h4Ap6h-s6
+photo.73.tags: bamboo, peek, portrait
+photo.74: cwdc://W7PYs4kADQB.jpg
+photo.74.author: craig_craig_craig
+photo.74.commitdate: 2024/5/30
+photo.74.link: ig://B5o4l6CBc9W
+photo.74.tags: portrait, sample, smile, whiskers
+photo.75: cwdc://W7oCwveADQJ.jpg
+photo.75.author: chankunvv
+photo.75.commitdate: 2024/5/30
+photo.75.link: ig://B51Nn1fBPb_
+photo.75.tags: portrait, sample, whiskers
+photo.76: cwdc://W9UWy94ADQG.jpg
+photo.76.author: chankunvv
+photo.76.commitdate: 2024/5/30
+photo.76.link: ig://B6rXo8sBGCN
+photo.76.tags: laying down, peek, portrait, tree
+photo.77: cwdc://W9UWy94ADQH.jpg
+photo.77.author: chankunvv
+photo.77.commitdate: 2024/5/30
+photo.77.link: ig://B6rXo8sBGCP
+photo.77.tags: paws, peek, portrait
+photo.78: cwdc://W9UuxLOADQB.jpg
+photo.78.author: yakko____
+photo.78.commitdate: 2024/5/30
+photo.78.link: ig://B6rjoDXBc44
+photo.78.tags: dish, door, keeper, portrait, sample
+photo.79: cwdc://WZ80rLrADQB.jpg
+photo.79.author: y2_shiro
+photo.79.commitdate: 2024/5/30
+photo.79.link: ig://Bo_mlDllAld
+photo.79.tags: portrait, shake, techitechi, whiskers
+photo.80: cwdc://W_8In_AADQB.jpg
+photo.80.author: pink.b22
+photo.80.commitdate: 2024/5/30
+photo.80.link: ig://B7_QjdQB--H
+photo.80.tags: home, peek, portrait, sample, smile
+photo.11.tags: bamboo, peek, sample
+photo.81: cwdc://Wdh4ow_ADQG.jpg
+photo.81.author: fetorus_mami
+photo.81.commitdate: 2024/5/30
+photo.81.link: ig://BqyIj2PljFr
+photo.81.tags: grooming, mofumofu, tail
+photo.82: cwdc://Wdh4ow_ADQH.jpg
+photo.82.author: fetorus_mami
+photo.82.commitdate: 2024/5/30
+photo.82.link: ig://BqyIj2PljFs
+photo.82.tags: itchy, mofumofu, tail
+photo.83: cwdc://Wg384LpADQC.jpg
+photo.83.author: framereim
+photo.83.commitdate: 2024/5/30
+photo.83.link: ig://BsdKrjkla1b
+photo.83.tags: home, snow
+photo.84: cwdc://WuyVZbTADQE.jpg
+photo.84.author: komabazoophoto
+photo.84.commitdate: 2024/5/30
+photo.84.link: ig://BzaW8LZhsdB
+photo.84.tags: bridge, laying down, paws, peek, portrait, sample
+photo.85: cwdc://WuyVZbTADQF.jpg
+photo.85.author: komabazoophoto
+photo.85.commitdate: 2024/5/30
+photo.85.link: ig://BzaW8LZhsdC
+photo.85.tags: peek, portrait, sample, whiskers
+photo.86: cwdc://X0obQADADQJ.jpg
+photo.86.author: apple_jasmine33
+photo.86.commitdate: 2024/5/30
+photo.86.link: ig://CWVZ3dxhuRK
+photo.86.tags: peek, sample, whiskers
+photo.87: cwdc://X10L8weADQK.jpg
+photo.87.author: adventureworld_official
+photo.87.commitdate: 2024/5/30
+photo.87.link: ig://CW7SN1_BhaR
+photo.87.tags: apple time, dish, home, lunch time, portrait, sample, smile
+photo.88: cwdc://X10L8weADQL.jpg
+photo.88.author: adventureworld_official
+photo.88.commitdate: 2024/5/30
+photo.88.link: ig://CW7SN1_BhaS
+photo.88.tags: apple time, dish, lunch time, portrait, sample, smile, wink
+photo.89: cwdc://X10L8weADQM.jpg
+photo.89.author: adventureworld_official
+photo.89.commitdate: 2024/5/30
+photo.89.link: ig://CW7SN1_BhaT
+photo.89.tags: apple time, dish, home, lunch time, portrait, sample
+photo.90: cwdc://X10L8weADQN.jpg
+photo.90.author: adventureworld_official
+photo.90.commitdate: 2024/5/30
+photo.90.link: ig://CW7SN1_BhaU
+photo.90.tags: apple time, dish, portrait, sample, smile
+photo.91: cwdc://XAz5lw-ADQB.jpg
+photo.91.author: apple_jasmine33
+photo.91.commitdate: 2024/5/30
+photo.91.link: ig://B8bJCWPBY8T
+photo.91.tags: tail
+photo.92: cwdc://XAz5lw-ADQC.jpg
+photo.92.author: apple_jasmine33
+photo.92.commitdate: 2024/5/30
+photo.92.link: ig://B8bJCWPBY8U
+photo.92.tags: home, tail
+photo.93: cwdc://XAz5lw-ADQD.jpg
+photo.93.author: apple_jasmine33
+photo.93.commitdate: 2024/5/30
+photo.93.link: ig://B8bJCWPBY8V
+photo.93.tags: tongue
+photo.94: cwdc://XAz5lw-ADQE.jpg
+photo.94.author: apple_jasmine33
+photo.94.commitdate: 2024/5/30
+photo.94.link: ig://B8bJCWPBY8W
+photo.94.tags: nose, peek, tree
+photo.95: cwdc://XAz5lw-ADQF.jpg
+photo.95.author: apple_jasmine33
+photo.95.commitdate: 2024/5/30
+photo.95.link: ig://B8bJCWPBY8X
+photo.95.tags: friend, tail, window
+photo.96: cwdc://XEh58TfADQE.jpg
+photo.96.author: kisshan324
+photo.96.commitdate: 2024/5/30
+photo.96.link: ig://B-SJNnfh3nM
+photo.96.tags: apple time, bite, portrait, sample, tail
+photo.97: cwdc://XEl7SyWADQJ.jpg
+photo.97.author: chankunvv
+photo.97.commitdate: 2024/5/30
+photo.97.link: ig://B-UJ427B-_U
+photo.97.tags: grumpy, itchy, mofumofu, portrait, sample, tail
+photo.98: cwdc://XJ5dvIhADQF.jpg
+photo.98.author: framereim
+photo.98.commitdate: 2024/5/30
+photo.98.link: ig://CA97HCAh90Q
+photo.98.tags: distance, tree
+photo.99: cwdc://XJBfOZWADQK.jpg
+photo.99.author: chankunvv
+photo.99.commitdate: 2024/5/30
+photo.99.link: ig://CAh72qbHK_Q
+photo.99.tags: portrait, sample, smile, tail, whiskers
+photo.100: cwdc://XKJM3a9ADQN.jpg
+photo.100.author: chankunvv
+photo.100.commitdate: 2024/5/30
+photo.100.link: ig://CBFyrLOhD8d
+photo.100.tags: portrait, sample, smile, tail
+photo.101: cwdc://XKJM3a9ADQO.jpg
+photo.101.author: chankunvv
+photo.101.commitdate: 2024/5/30
+photo.101.link: ig://CBFyrLOhD8e
+photo.101.tags: blink, paws, portrait, sample, smile
+photo.102: cwdc://XL60R1GADQC.jpg
+photo.102.author: leonard_redmof
+photo.102.commitdate: 2024/5/30
+photo.102.link: ig://CB-mYYTBxkl
+photo.102.tags: baby, bamboo, portrait, snow
+photo.103: cwdc://XM9vGczADQQ.jpg
+photo.103.author: chankunvv
+photo.103.commitdate: 2024/5/30
+photo.103.link: ig://CCgDysJhqNx
+photo.103.tags: bite, portrait, sample, tree
+photo.104: cwdc://XM9vGczADQT.jpg
+photo.104.author: chankunvv
+photo.104.commitdate: 2024/5/30
+photo.104.link: ig://CCgDysJhqNy
+photo.104.tags: bite, climb, paws, portrait, standing
+photo.105: cwdc://XMP6lrzADQF.jpg
+photo.105.author: hamiiiii831_
+photo.105.commitdate: 2024/5/30
+photo.105.link: ig://CCJJiTphHaX
+photo.105.tags: laying down, sample, smile, tree, whiskers
+photo.106: cwdc://XN7euRKADQP.jpg
+photo.106.author: chankunvv
+photo.106.commitdate: 2024/5/30
+photo.106.link: ig://CC-7mmVB3Zx
+photo.106.tags: peek, portrait, sample, smile, whiskers
+photo.107: cwdc://XNHYOcaADQT.jpg
+photo.107.author: chankunvv
+photo.107.commitdate: 2024/5/30
+photo.107.link: ig://CCk4Wr9BgAC
+photo.107.tags: bite, portrait, sample, tree
+photo.108: cwdc://XPVn5veADQG.jpg
+photo.108.author: apple_jasmine33
+photo.108.commitdate: 2024/5/30
+photo.108.link: ig://CDsAMVfBjph
+photo.108.tags: sample, smile, whiskers
+photo.109: cwdc://XPVn5veADQH.jpg
+photo.109.author: apple_jasmine33
+photo.109.commitdate: 2024/5/30
+photo.109.link: ig://CDsAMVfBjpi
+photo.109.tags: home, sample
+photo.110: cwdc://XPbqOpcADQB.jpg
+photo.110.author: redpanda_nippon_takashi
+photo.110.commitdate: 2024/5/30
+photo.110.link: ig://CDvBWyeB_i0
+photo.110.tags: whiskers
+photo.111: cwdc://XPbqOpcADQD.jpg
+photo.111.author: redpanda_nippon_takashi
+photo.111.commitdate: 2024/5/30
+photo.111.link: ig://CDvBWyeB_i6
+photo.111.tags: shake, tail
+photo.112: cwdc://XPbqOpcADQE.jpg
+photo.112.author: redpanda_nippon_takashi
+photo.112.commitdate: 2024/5/30
+photo.112.link: ig://CDvBWyeB_i7
+photo.112.tags: shake, whiskers
+photo.113: cwdc://XPbqOpcADQF.jpg
+photo.113.author: redpanda_nippon_takashi
+photo.113.commitdate: 2024/5/30
+photo.113.link: ig://CDvBWyeB_i8
+photo.113.tags: shake, whiskers
+photo.114: cwdc://XSwZ4MkADQU.jpg
+photo.114.author: chankunvv
+photo.114.commitdate: 2024/5/30
+photo.114.link: ig://CFZZLkCBCQu
+photo.114.tags: portrait, sample, whiskers
+photo.115: cwdc://Xb6DL1YADQB.jpg
+photo.115.author: kisshan324
+photo.115.commitdate: 2024/5/30
+photo.115.link: ig://CJ-N1YcBBa1
+photo.115.tags: nose
+photo.116: cwdc://Xb6DL1YADQC.jpg
+photo.116.author: kisshan324
+photo.116.commitdate: 2024/5/30
+photo.116.link: ig://CJ-N1YcBBa2
+photo.116.tags: portrait, tail
+photo.117: cwdc://Xb6DL1YADQD.jpg
+photo.117.author: kisshan324
+photo.117.commitdate: 2024/5/30
+photo.117.link: ig://CJ-N1YcBBa3
+photo.117.tags: climb, portrait, tail, tree
+photo.118: cwdc://Xb6DL1YADQE.jpg
+photo.118.author: kisshan324
+photo.118.commitdate: 2024/5/30
+photo.118.link: ig://CJ-N1YcBBa4
+photo.118.tags: distance, tree
+photo.119: cwdc://Xb6DL1YADQF.jpg
+photo.119.author: kisshan324
+photo.119.commitdate: 2024/5/30
+photo.119.link: ig://CJ-N1YcBBa5
+photo.119.tags: distance, portrait, tail, tree
+photo.120: cwdc://Xb6DL1YADQG.jpg
+photo.120.author: kisshan324
+photo.120.commitdate: 2024/5/30
+photo.120.link: ig://CJ-N1YcBBa6
+photo.120.tags: climb, head-first, portrait, tree
+photo.121: cwdc://Xb6DL1YADQH.jpg
+photo.121.author: kisshan324
+photo.121.commitdate: 2024/5/30
+photo.121.link: ig://CJ-N1YcBBa8
+photo.121.tags: climb, friends, window
+photo.122: cwdc://Xb6DL1YADQI.jpg
+photo.122.author: kisshan324
+photo.122.commitdate: 2024/5/30
+photo.122.link: ig://CJ-N1YcBBa9
+photo.122.tags: climb, paws, portrait, tree
+photo.123: cwdc://XcnJQZlADQD.jpg
+photo.123.author: craig_craig_craig
+photo.123.commitdate: 2024/5/30
+photo.123.link: ig://CKUw3qiheEG
+photo.123.tags: sample, smile, whiskers
+photo.124: cwdc://Xi_FXcrADQY.jpg
+photo.124.author: chankunvv
+photo.124.commitdate: 2024/5/30
+photo.124.link: ig://CNgu7MFhKo1
+photo.124.tags: paws, portrait, sample
+photo.125: cwdc://YN3YEklADQW.jpg
+photo.125.author: chankunvv
+photo.125.commitdate: 2024/5/30
+photo.125.link: ig://Ci84RwCv9xU
+photo.125.tags: home, mofumofu, portrait, sample
+photo.126: cwdc://YXnYMNWADQA.jpg
+photo.126.author: adventureworld_official
+photo.126.commitdate: 2024/5/30
+photo.126.link: ig://Cn04VkbPnh0
+photo.126.tags: paws, portrait, sample, snow
+photo.127: cwdc://YXnYMNWADQC.jpg
+photo.127.author: adventureworld_official
+photo.127.commitdate: 2024/5/30
+photo.127.link: ig://Cn04VkbPnh5
+photo.127.tags: portrait, sample, snow, tail
+photo.128: cwdc://YXnYMNWADQD.jpg
+photo.128.author: adventureworld_official
+photo.128.commitdate: 2024/5/30
+photo.128.link: ig://Cn04VkbPnh6
+photo.128.tags: portrait, sample, snow
+photo.129: cwdc://YXnYMNWADQE.jpg
+photo.129.author: adventureworld_official
+photo.129.commitdate: 2024/5/30
+photo.129.link: ig://Cn04VkbPnh7
+photo.129.tags: home, portrait, sample, snow, tail
+photo.130: cwdc://YXnYMNWADQF.jpg
+photo.130.author: adventureworld_official
+photo.130.commitdate: 2024/5/30
+photo.130.link: ig://Cn04VkbPnh8
+photo.130.tags: bridge, portrait, sample, snow, tree
+photo.131: cwdc://YXnYMNWADQG.jpg
+photo.131.author: adventureworld_official
+photo.131.commitdate: 2024/5/30
+photo.131.link: ig://Cn04VkbPnh9
+photo.131.tags: bridge, distance, portrait, snow, tree
+photo.132: cwdc://YXnYMNWADQH.jpg
+photo.132.author: adventureworld_official
+photo.132.commitdate: 2024/5/30
+photo.132.link: ig://Cn04VkbPnh-
+photo.132.tags: home, portrait, sample, snow, tail
+photo.133: cwdc://YXnYMNWADQI.jpg
+photo.133.author: adventureworld_official
+photo.133.commitdate: 2024/5/30
+photo.133.link: ig://Cn04VkbPnh_
+photo.133.tags: portrait, snow, tail
+photo.134: cwdc://Yhq_VWjADQZ.jpg
+photo.134.author: chankunvv
+photo.134.commitdate: 2024/5/30
+photo.134.link: ig://Cs2r6JBvMTE
+photo.134.tags: climb, paws
+photo.135: cwdc://YrG-ocmADQa.jpg
+photo.135.author: chankunvv
+photo.135.commitdate: 2024/5/30
+photo.135.link: ig://CxkrjsDPkBH
+photo.135.tags: portrait, sample
+photo.136: cwdc://YxEExibADQA.jpg
+photo.136.author: redpanda_nippon_takashi
+photo.136.commitdate: 2024/5/30
+photo.136.link: ig://C0jOoO9vqlL
+photo.136.tags: climb, paws, upside-down
+photo.137: cwdc://YzPhZwgADQB.jpg
+photo.137.author: kipekaila
+photo.137.commitdate: 2024/5/30
+photo.137.link: ig://C1o88WAPXVy
+photo.137.tags: dish, lunch time
