@@ -60,11 +60,11 @@ photo.9.author: sasapan34
 photo.9.commitdate: 2019/8/27
 photo.9.link: ig://B1Z307Jhn69
 photo.9.tags: sample, smile
-photo.10: ig://B3GQhoAhIA5/m
+photo.10: cwdc://W2KIkUhADQA.jpg
 photo.10.author: akiakiakiko18
 photo.10.commitdate: 2019/10/9
-photo.10.link: https://www.instagram.com/akiakiakiko18/
-photo.10.tags: paws, peek
+photo.10.link: ig://B3GQhoAhIA5
+photo.10.tags: paws, peek, sample, whiskers
 photo.11: cwdc://XDl5aevADQD.jpg
 photo.11.author: sasapan34
 photo.11.commitdate: 2020/3/18
@@ -149,25 +149,25 @@ photo.27.author: kojikoji2011
 photo.27.commitdate: 2022/2/9
 photo.27.link: ig://CWN4W_xPbmu
 photo.27.tags: autumn, peek, portrait, sample, whiskers
-photo.28: ig://CWYM--UhDXw/m
+photo.28: cwdc://X0uBfBJADQD.jpg
 photo.28.author: kojikoji2011
 photo.28.commitdate: 2021/11/21
-photo.28.link: https://www.instagram.com/kojikoji2011/
-photo.28.tags: close-up, portrait, whiskers
-photo.29: ig://CWxrp6mhd7T/m
+photo.28.link: ig://CWYM--UhDXw
+photo.28.tags: close-up, portrait, sample, whiskers
+photo.29: cwdc://X1g-05tADQC.jpg
 photo.29.author: kojikoji2011
 photo.29.commitdate: 2022/1/7
-photo.29.link: https://www.instagram.com/kojikoji2011/
-photo.29.tags: paws, portrait, whiskers
-photo.30: ig://CYq0t_HvwxQ/m
+photo.29.link: ig://CWxrp6mhd7T
+photo.29.tags: paws, portrait, sample, whiskers
+photo.30: cwdc://X5TQ9CvADQE.jpg
 photo.30.author: kojikoji2011
 photo.30.commitdate: 2022/1/18
-photo.30.link: https://www.instagram.com/kojikoji2011/
-photo.30.tags: home, laying down, portrait, snow
-photo.31: ig://CZLY4svPbEH/m
+photo.30.link: ig://CYq0t_HvwxQ
+photo.30.tags: home, laying down, portrait, sample, snow
+photo.31: cwdc://X6UZSd-ADQF.jpg
 photo.31.author: kojikoji2011
 photo.31.commitdate: 2022/2/14
-photo.31.link: https://www.instagram.com/kojikoji2011/
+photo.31.link: ig://CZLY4svPbEH
 photo.31.tags: close-up, portrait, sample, whiskers
 photo.32: cwdc://X8jwF-kADQM.jpg
 photo.32.author: sasapan34
@@ -179,10 +179,10 @@ photo.33.author: re_ichimaru
 photo.33.commitdate: 2022/4/26
 photo.33.link: ig://CbfAdKWP5Of
 photo.33.tags: carry, mofumofu, paws, portrait, sample, tail, whiskers
-photo.34: ig://CcshD4JPnVj/m
+photo.34: cwdc://YBWpo0yADQA.jpg
 photo.34.author: kojikoji2011
 photo.34.commitdate: 2022/6/2
-photo.34.link: https://www.instagram.com/kojikoji2011/
+photo.34.link: ig://CcshD4JPnVj
 photo.34.tags: close-up, portrait, sample, whiskers
 photo.35: cwdc://YCkSqUMADQC.jpg
 photo.35.author: miis_98
@@ -468,3 +468,8 @@ photo.90.author: re_ichimaru
 photo.90.commitdate: 2024/5/30
 photo.90.link: ig://CuCUsfvPIZV
 photo.90.tags: flowers, mofumofu, portrait, sample, tail
+photo.91: cwdc://YBWpo0yADQB.jpg
+photo.91.author: kojikoji2011
+photo.91.commitdate: 2024/5/30
+photo.91.link: ig://CcshD4JPnVk
+photo.91.tags: close-up, door, paws, portrait, sample, techitechi, whiskers
