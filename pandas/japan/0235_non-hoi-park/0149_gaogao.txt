@@ -504,9 +504,6 @@ photo.98.author: mini_cochi
 photo.98.commitdate: 2024/5/4
 photo.98.link: ig://C1w1382PxuH
 photo.98.tags: portrait, sample, techitechi, whiskers
-species: 2
-studbook.id: 15138
-zoo: 235
 photo.99: cwdc://WEjC33yADQB.jpg
 photo.99.author: apple_jasmine33
 photo.99.commitdate: 2024/5/31
@@ -848,3 +845,6 @@ photo.166.author: taka__3428
 photo.166.commitdate: 2024/5/31
 photo.166.link: ig://C11pmx-PXcI
 photo.166.tags: peek, sample
+species: 2
+studbook.id: 15138
+zoo: 235
