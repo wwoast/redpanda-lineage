@@ -70,10 +70,10 @@ photo.11.author: panda.daisuki
 photo.11.commitdate: 2018/10/13
 photo.11.link: ig://Bo37m8kldFk
 photo.11.tags: paws, portrait, sample, whiskers
-photo.12: ig://Bo5RQRXlJr8/m
+photo.12: cwdc://WZwKBnPADQA.jpg
 photo.12.author: taka__3428
 photo.12.commitdate: 2018/10/14
-photo.12.link: https://www.instagram.com/taka__3428/
+photo.12.link: ig://Bo5RQRXlJr8
 photo.12.tags: bamboo
 photo.13: cwdc://Wan_gB_ADQA.jpg
 photo.13.author: rie_panda55
@@ -110,16 +110,16 @@ photo.19.author: lesserpanda_shizuokacity_cp
 photo.19.commitdate: 2018/12/6
 photo.19.link: ig://Bq_TH4zhi1k
 photo.19.tags: paws, sample, standing, whiskers
-photo.20: ig://BsIc5jQFw7m/m
+photo.20: cwdc://WgOhULAADQA.jpg
 photo.20.author: fetorus_mami
 photo.20.commitdate: 2019/1/3
-photo.20.link: https://www.instagram.com/fetorus_mami/
-photo.20.tags: grumpy, paws
-photo.21: ig://BsNRR8KlcWU/m
+photo.20.link: ig://BsIc5jQFw7m
+photo.20.tags: grumpy, paws, sample, whiskers
+photo.21: cwdc://WgYKE81ADQB.jpg
 photo.21.author: fetorus_mami
 photo.21.commitdate: 2019/1/4
-photo.21.link: https://www.instagram.com/fetorus_mami/
-photo.21.tags: paws
+photo.21.link: ig://BsNRR8KlcWU
+photo.21.tags: paws, sample, whiskers
 photo.22: cwdc://Wg169OXADQE.jpg
 photo.22.author: ayusuke56
 photo.22.commitdate: 2019/1/14
@@ -130,10 +130,10 @@ photo.23.author: ayusuke56
 photo.23.commitdate: 2019/1/18
 photo.23.link: ig://BsrmoAilAXs
 photo.23.tags: bamboo, portrait, sample, whiskers
-photo.24: ig://BtMkF4YllPG/m
+photo.24: cwdc://WiWvs1RADQA.jpg
 photo.24.author: nakacchi_desu
 photo.24.commitdate: 2019/1/30
-photo.24.link: https://www.instagram.com/nakacchi_desu/
+photo.24.link: ig://BtMkF4YllPG
 photo.25: cwdc://WinMm-AADQH.jpg
 photo.25.author: ayusuke56
 photo.25.commitdate: 2019/2/17
@@ -144,11 +144,11 @@ photo.26.author: craig_craig_craig
 photo.26.commitdate: 2019/4/5
 photo.26.link: ig://Bt3KE1Wlqwu
 photo.26.tags: portrait, sample, smile, whiskers
-photo.27: ig://BvJh6QCF9B1/m
+photo.27: cwdc://WmQrVkkADQB.jpg
 photo.27.author: taka__3428
 photo.27.commitdate: 2019/3/21
-photo.27.link: https://www.instagram.com/taka__3428/
-photo.27.tags: peek
+photo.27.link: ig://BvJh6QCF9B1
+photo.27.tags: door, peek, window
 photo.28: cwdc://Wozlay4ADQJ.jpg
 photo.28.author: lesserpanda_shizuokacity_cp
 photo.28.commitdate: 2019/7/11
@@ -224,11 +224,11 @@ photo.42.author: lesserpanda_shizuokacity_cp
 photo.42.commitdate: 2020/10/29
 photo.42.link: ig://CGO5EGfBAOd
 photo.42.tags: bridge, portrait, tail
-photo.43: ig://CGf5WjdhQz8/m
+photo.43: cwdc://XU9aOLbADQA.jpg
 photo.43.author: hamamatsu.chiita
 photo.43.commitdate: 2020/11/5
-photo.43.link: https://www.instagram.com/hamamatsu.chiita/
-photo.43.tags: bamboo, bite, portrait
+photo.43.link: ig://CGf5WjdhQz8
+photo.43.tags: bamboo, bite, portrait, sample, whiskers
 photo.44: cwdc://XVACR6vADQB.jpg
 photo.44.author: kijyo.zoo
 photo.44.commitdate: 2020/11/8
@@ -239,16 +239,16 @@ photo.45.author: lesserpanda_shizuokacity_cp
 photo.45.commitdate: 2021/4/22
 photo.45.link: ig://CG3vlVJhKrC
 photo.45.tags: bamboo, paws
-photo.46: ig://CHJrEyIhRcC/m
+photo.46: cwdc://XWQ9qoxADQA.jpg
 photo.46.author: pantasanzoo1
 photo.46.commitdate: 2020/11/5
-photo.46.link: https://www.instagram.com/pantasanzoo1/
-photo.46.tags: bridge, close-up, whiskers
-photo.47: ig://CHKuLSjhjmu/m
+photo.46.link: ig://CHJrEyIhRcC
+photo.46.tags: bridge, close-up, sample, whiskers
+photo.47: cwdc://XWTD3pnADQD.jpg
 photo.47.author: fetorus_mami
 photo.47.commitdate: 2020/11/5
-photo.47.link: https://www.instagram.com/fetorus_mami/
-photo.47.tags: close-up, whiskers
+photo.47.link: ig://CHKuLSjhjmu
+photo.47.tags: close-up, sample, whiskers
 photo.48: cwdc://XWba_PwADQc.jpg
 photo.48.author: lesserpanda_shizuokacity_cp
 photo.48.commitdate: 2020/11/15
@@ -269,15 +269,15 @@ photo.51.author: otenba_redpanda
 photo.51.commitdate: 2021/10/1
 photo.51.link: ig://CIg8Y8TBVgs
 photo.51.tags: portrait, sample, whiskers
-photo.52: ig://CJkBDZ-BwZR/m
+photo.52: cwdc://XbFpn4cADQA.jpg
 photo.52.author: sasapan34
 photo.52.commitdate: 2021/4/22
-photo.52.link: https://www.instagram.com/sasapan34/
-photo.52.tags: bamboo, paws
-photo.53: ig://CJvX7vsh_EQ/m
+photo.52.link: ig://CJkBDZ-BwZR
+photo.52.tags: bamboo, paws, sample, smile, whiskers
+photo.53: cwdc://XbcXYj5ADQA.jpg
 photo.53.author: _sah_ax7
 photo.53.commitdate: 2021/4/22
-photo.53.link: https://www.instagram.com/_sah_ax7/
+photo.53.link: ig://CJvX7vsh_EQ
 photo.53.tags: laying down, sleeping
 photo.54: cwdc://XbfviymADQg.jpg
 photo.54.author: lesserpanda_shizuokacity_cp
@@ -294,11 +294,11 @@ photo.56.author: lesserpanda_shizuokacity_cp
 photo.56.commitdate: 2021/1/28
 photo.56.link: ig://CKnPKe_h5lY
 photo.56.tags: close-up, paws, portrait, sample, whiskers
-photo.57: ig://CLs8Nllh1iJ/m
+photo.57: cwdc://XfXf8PrADQA.jpg
 photo.57.author: miis_98
 photo.57.commitdate: 2021/3/4
-photo.57.link: https://www.instagram.com/miis_98/
-photo.57.tags: bamboo, portrait
+photo.57.link: ig://CLs8Nllh1iJ
+photo.57.tags: bamboo, portrait, sample
 photo.58: cwdc://Xj8una_ADQm.jpg
 photo.58.author: lesserpanda_shizuokacity_cp
 photo.58.commitdate: 2021/5/19
@@ -309,16 +309,16 @@ photo.59.author: lesserpanda_shizuokacity_cp
 photo.59.commitdate: 2021/7/27
 photo.59.link: ig://COhBS_9Bu9k
 photo.59.tags: distance, door, laying down, paws, tail
-photo.60: ig://CPiYGBDhf3H/m
+photo.60: cwdc://XnCXtGnADQC.jpg
 photo.60.author: taka__3428
 photo.60.commitdate: 2021/9/18
-photo.60.link: https://www.instagram.com/taka__3428/
-photo.60.tags: whiskers
-photo.61: ig://CPlB6WJB_6f/m
+photo.60.link: ig://CPiYGBDhf3H
+photo.60.tags: peek, whiskers
+photo.61: cwdc://XnHrVwyADQF.jpg
 photo.61.author: taka__3428
 photo.61.commitdate: 2021/6/29
-photo.61.link: https://www.instagram.com/taka__3428/
-photo.61.tags: bamboo, close-up, paws
+photo.61.link: ig://CPlB6WJB_6f
+photo.61.tags: bamboo, close-up, paws, peek
 photo.62: cwdc://XnKrHlqADQo.jpg
 photo.62.author: lesserpanda_shizuokacity_cp
 photo.62.commitdate: 2021/6/29
@@ -369,40 +369,40 @@ photo.71.author: mini_cochi
 photo.71.commitdate: 2022/12/24
 photo.71.link: ig://CWLalcCJvrh
 photo.71.tags: peek, portrait, sample, whiskers
-photo.72: ig://CWVejvUhY8X/m
+photo.72: cwdc://X0okojJADQG.jpg
 photo.72.author: taka__3428
 photo.72.commitdate: 2021/11/28
-photo.72.link: https://www.instagram.com/taka__3428/
+photo.72.link: ig://CWVejvUhY8X
 photo.72.tags: close-up, portrait, whiskers
 photo.73: cwdc://X1FpyxsADQy.jpg
 photo.73.author: lesserpanda_shizuokacity_cp
 photo.73.commitdate: 2022/1/15
 photo.73.link: ig://CWkBI2mFSB2
 photo.73.tags: bamboo, peek
-photo.74: ig://CWn3v97h05Z/m
+photo.74: cwdc://X1NXBAXADQC.jpg
 photo.74.author: nakacchi_desu
 photo.74.commitdate: 2022/1/29
-photo.74.link: https://www.instagram.com/nakacchi_desu/
-photo.74.tags: peek, bridge
-photo.75: ig://CWx1g_rhTq-/m
+photo.74.link: ig://CWn3v97h05Z
+photo.74.tags: bridge, peek, sample, whiskers
+photo.75: cwdc://X1hSjD3ADQL.jpg
 photo.75.author: taka__3428
 photo.75.commitdate: 2022/1/7
-photo.75.link: https://www.instagram.com/taka__3428/
+photo.75.link: ig://CWx1g_rhTq-
 photo.75.tags: blink, itchy, paws, tongue
-photo.76: ig://CW2077HhZRA/m
+photo.76: cwdc://X1rRY6vADQM.jpg
 photo.76.author: taka__3428
 photo.76.commitdate: 2022/10/24
-photo.76.link: https://www.instagram.com/taka__3428/
-photo.76.tags: close-up, portrait, whiskers
-photo.77: ig://CW4Nrl5hdd8/m
+photo.76.link: ig://CW2077HhZRA
+photo.76.tags: close-up, portrait, sample, whiskers
+photo.77: cwdc://X1uC4QTADQB.jpg
 photo.77.author: miis_98
 photo.77.commitdate: 2022/1/9
-photo.77.link: https://www.instagram.com/miis_98/
+photo.77.link: ig://CW4Nrl5hdd8
 photo.77.tags: paws, portrait, sample, whiskers
-photo.78: ig://CW5dEquBOmS/m
+photo.78: cwdc://X1whqZ8ADQN.jpg
 photo.78.author: taka__3428
 photo.78.commitdate: 2022/1/10
-photo.78.link: https://www.instagram.com/taka__3428/
+photo.78.link: ig://CW5dEquBOmS
 photo.78.tags: paws, peek, sample, whiskers
 photo.79: cwdc://X15JfEDADQB.jpg
 photo.79.author: otenba_redpanda
@@ -414,20 +414,20 @@ photo.80.author: lesserpanda_shizuokacity_cp
 photo.80.commitdate: 2022/10/24
 photo.80.link: ig://CXNLGmwF0Lo
 photo.80.tags: distance, door, laying down, paws, window
-photo.81: ig://CX19fLYhz19/m
+photo.81: cwdc://X3pifbRADQB.jpg
 photo.81.author: sasapan34
 photo.81.commitdate: 2022/10/24
-photo.81.link: https://www.instagram.com/sasapan34/
-photo.81.tags: whiskers, wink
+photo.81.link: ig://CX19fLYhz19
+photo.81.tags: sample, whiskers, wink
 photo.82: cwdc://X5B7bwEADQ2.jpg
 photo.82.author: lesserpanda_shizuokacity_cp
 photo.82.commitdate: 2022/1/18
 photo.82.link: ig://CYiJ9VyF2w7
 photo.82.tags: paws, portrait, sample, smile, tree, whiskers
-photo.83: ig://CYtZDy3veEg/m
+photo.83: cwdc://X5YZoqPADQO.jpg
 photo.83.author: taka__3428
 photo.83.commitdate: 2023/8/21
-photo.83.link: https://www.instagram.com/taka__3428/
+photo.83.link: ig://CYtZDy3veEg
 photo.83.tags: bamboo, close-up, peek
 photo.84: cwdc://X6UU3h0ADQ4.jpg
 photo.84.author: lesserpanda_shizuokacity_cp
@@ -489,10 +489,10 @@ photo.95.author: lesserpanda_shizuokacity_cp
 photo.95.commitdate: 2022/9/11
 photo.95.link: ig://CiG_JLBhzS9
 photo.95.tags: bamboo, paws, sample, whiskers
-photo.96: ig://CpZ7AOfvQ6l/m
+photo.96: cwdc://YaxdhhfADQP.jpg
 photo.96.author: taka__3428
 photo.96.commitdate: 2023/11/19
-photo.96.link: https://www.instagram.com/taka__3428/
+photo.96.link: ig://CpZ7AOfvQ6l
 photo.96.tags: apple time, close-up, portrait, sample, tongue, whiskers, window
 photo.97: cwdc://YyxFoJbADQB.jpg
 photo.97.author: mini_cochi
@@ -848,3 +848,74 @@ photo.166.tags: peek, sample
 species: 2
 studbook.id: 15138
 zoo: 235
+photo.167: cwdc://WgYKE81ADQC.jpg
+photo.167.author: fetorus_mami
+photo.167.commitdate: 2024/5/31
+photo.167.link: ig://BsNRR8KlcWW
+photo.167.tags: peek, sample, whiskers
+photo.24.tags: peek, sample
+photo.168: cwdc://WiWvs1RADQB.jpg
+photo.168.author: nakacchi_desu
+photo.168.commitdate: 2024/5/31
+photo.168.link: ig://BtMkF4YllPH
+photo.168.tags: sample, whiskers
+photo.169: cwdc://X0okojJADQH.jpg
+photo.169.author: taka__3428
+photo.169.commitdate: 2024/5/31
+photo.169.link: ig://CWVejvUhY8Y
+photo.169.tags: bamboo, portrait, sample, whiskers
+photo.170: cwdc://X0okojJADQI.jpg
+photo.170.author: taka__3428
+photo.170.commitdate: 2024/5/31
+photo.170.link: ig://CWVejvUhY8Z
+photo.170.tags: bamboo, bite, portrait, sample, tongue, whiskers
+photo.171: cwdc://X0okojJADQJ.jpg
+photo.171.author: taka__3428
+photo.171.commitdate: 2024/5/31
+photo.171.link: ig://CWVejvUhY8a
+photo.171.tags: peek, portrait, sample
+photo.172: cwdc://X0okojJADQK.jpg
+photo.172.author: taka__3428
+photo.172.commitdate: 2024/5/31
+photo.172.link: ig://CWVejvUhY8b
+photo.172.tags: bamboo, bite, paws, peek, portrait
+photo.173: cwdc://X1NXBAXADQD.jpg
+photo.173.author: nakacchi_desu
+photo.173.commitdate: 2024/5/31
+photo.173.link: ig://CWn3v97h05_
+photo.173.tags: peek, sample
+photo.174: cwdc://XWQ9qoxADQB.jpg
+photo.174.author: pantasanzoo1
+photo.174.commitdate: 2024/5/31
+photo.174.link: ig://CHJrEyIhRcE
+photo.174.tags: bridge, paws, sample, whiskers
+photo.175: cwdc://XWQ9qoxADQC.jpg
+photo.175.author: pantasanzoo1
+photo.175.commitdate: 2024/5/31
+photo.175.link: ig://CHJrEyIhRcF
+photo.175.tags: bridge, paws, sample
+photo.176: cwdc://XWTD3pnADQE.jpg
+photo.176.author: fetorus_mami
+photo.176.commitdate: 2024/5/31
+photo.176.link: ig://CHKuLSjhjmv
+photo.176.tags: peek, sample
+photo.177: cwdc://XWTD3pnADQF.jpg
+photo.177.author: fetorus_mami
+photo.177.commitdate: 2024/5/31
+photo.177.link: ig://CHKuLSjhjmw
+photo.177.tags: apple time, paws, peek
+photo.178: cwdc://XnCXtGnADQD.jpg
+photo.178.author: taka__3428
+photo.178.commitdate: 2024/5/31
+photo.178.link: ig://CPiYGBDhf3I
+photo.178.tags: bamboo, peek, whiskers
+photo.179: cwdc://XnCXtGnADQE.jpg
+photo.179.author: taka__3428
+photo.179.commitdate: 2024/5/31
+photo.179.link: ig://CPiYGBDhf3J
+photo.179.tags: bamboo, paws, peek, whiskers
+photo.180: cwdc://YaxdhhfADQQ.jpg
+photo.180.author: taka__3428
+photo.180.commitdate: 2024/5/31
+photo.180.link: ig://CpZ7AOfvQ6m
+photo.180.tags: apple time, close-up, portrait, sample, whiskers, window
