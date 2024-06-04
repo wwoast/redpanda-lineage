@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1395
+location.1: 13, 2022/6/27
+location.2: 316, 2024/6/2
 photo.1: ig://CjMTENiPf35/m
 photo.1.author: joy93.87
 photo.1.commitdate: 2022/10/14
@@ -125,4 +127,4 @@ photo.22.link: https://www.instagram.com/jas_forever_love/
 photo.22.tags: paws, sample, whiskers
 species: 2
 studbook.id: unknown
-zoo: 13
+zoo: 316
