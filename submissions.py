@@ -555,6 +555,13 @@ def process_entity(contribution_path, entity_path, entity_type):
                 "photos": photo_paths,
                 "status": "remove"
             }
+        if os.path.exists(config_path):
+            print(config_path + " exists from a previous run, preserving")
+            return {
+                "config": config_path,
+                "photos": photo_paths,
+                "status": "keep"
+            }
         convert_json_to_configparser(entity_path, entity_file)
         print_configfile_contents(config_path)
         resize_and_rotate_images(entity_file, photo_paths)
