@@ -550,11 +550,11 @@ photo.107.author: jas_forever_love
 photo.107.commitdate: 2021/10/6
 photo.107.link: ig://CRlkFLHBMIq
 photo.107.tags: laying down, portrait, sample, tongue, tree, whiskers
-photo.108: ig://CSHIsG8BJNz/m
+photo.108: cwdc://XsL45SYADQA.jpg
 photo.108.author: apple_jasmine33
 photo.108.commitdate: 2021/8/9
-photo.108.link: https://www.instagram.com/apple_jasmine33/
-photo.108.tags: laying down, paws, smile, tongue, tree
+photo.108.link: ig://CSHIsG8BJNz
+photo.108.tags: laying down, paws, sample, smile, tongue, tree
 photo.109: cwdc://XsnysrtADQO.jpg
 photo.109.author: redpanda_nippon_takashi
 photo.109.commitdate: 2021/8/10
@@ -570,10 +570,10 @@ photo.111.author: jas_forever_love
 photo.111.commitdate: 2021/9/1
 photo.111.link: ig://CS_sC-Uh0Eo
 photo.111.tags: peek, sample, smile, tree
-photo.112: ig://CTbdzF9hGwj/m
+photo.112: cwdc://Xu0jHQbADQC.jpg
 photo.112.author: apple_jasmine33
 photo.112.commitdate: 2021/10/6
-photo.112.link: https://www.instagram.com/apple_jasmine33/
+photo.112.link: ig://CTbdzF9hGwj
 photo.112.tags: laying down, peek, tail, tree
 photo.113: cwdc://Xu1Xgu5ADRg.jpg
 photo.113.author: jas_forever_love
@@ -595,10 +595,10 @@ photo.116.author: kisshan324
 photo.116.commitdate: 2021/11/5
 photo.116.link: ig://CVpOR-nhlR8
 photo.116.tags: peek, portrait, sample, smile, tree
-photo.117: ig://CWA4pG0hJwr/m
+photo.117: cwdc://Xz_YzSJADQD.jpg
 photo.117.author: apple_jasmine33
 photo.117.commitdate: 2021/12/9
-photo.117.link: https://www.instagram.com/apple_jasmine33/
+photo.117.link: ig://CWA4pG0hJwr
 photo.117.tags: apple time, bite, blink, portrait
 photo.118: cwdc://X19tjKOADQC.jpg
 photo.118.author: minatomirai215
@@ -610,10 +610,10 @@ photo.119.author: sasapan34
 photo.119.commitdate: 2022/2/6
 photo.119.link: ig://CX8HXtTruPE
 photo.119.tags: itchy, paws
-photo.120: ig://CYbS1BAP8ta/m
+photo.120: cwdc://X40NLGgADQE.jpg
 photo.120.author: apple_jasmine33
 photo.120.commitdate: 2022/2/6
-photo.120.link: https://www.instagram.com/apple_jasmine33/
+photo.120.link: ig://CYbS1BAP8ta
 photo.120.tags: close-up, paws, smile, whiskers
 photo.121: cwdc://X53TLRkADQR.jpg
 photo.121.author: redpanda_nippon_takashi
@@ -625,11 +625,11 @@ photo.122.author: redpanda_nippon_takashi
 photo.122.commitdate: 2022/2/19
 photo.122.link: ig://CZBsdfsv_v1
 photo.122.tags: portrait, sample, snow, whiskers
-photo.123: ig://CZW6HEwvL9Z/m
+photo.123: cwdc://X6rbvOBADQA.jpg
 photo.123.author: sakikukeco
 photo.123.commitdate: 2022/2/12
-photo.123.link: https://www.instagram.com/sakikukeco/
-photo.123.tags: peek, smile, whiskers
+photo.123.link: ig://CZW6HEwvL9Z
+photo.123.tags: peek, portrait, sample, smile, whiskers
 photo.124: cwdc://X7TqHwEADRl.jpg
 photo.124.author: jas_forever_love
 photo.124.commitdate: 2022/2/10
@@ -640,10 +640,10 @@ photo.125.author: jas_forever_love
 photo.125.commitdate: 2022/4/29
 photo.125.link: ig://CbSDMXZv4si
 photo.125.tags: apple time, close-up, paws, sample, tongue
-photo.126: ig://CbcounDv8Fj/m
+photo.126: cwdc://X-24-SnADQG.jpg
 photo.126.author: apple_jasmine33
 photo.126.commitdate: 2022/4/26
-photo.126.link: https://www.instagram.com/apple_jasmine33/
+photo.126.link: ig://CbcounDv8Fj
 photo.126.tags: bamboo, close-up, mofumofu, sample, whiskers
 photo.127: cwdc://X_ahHsNADQc.jpg
 photo.127.author: jas_forever_love
@@ -1418,3 +1418,18 @@ photo.280.tags: flowers, peek, toys
 species: 2
 studbook.id: 1786
 zoo: 2
+photo.281: cwdc://X-24-SnADQH.jpg
+photo.281.author: apple_jasmine33
+photo.281.commitdate: 2024/6/8
+photo.281.link: ig://CbcounDv8Fk
+photo.281.tags: bamboo, close-up, mofumofu, sample, whiskers
+photo.282: cwdc://X40NLGgADQF.jpg
+photo.282.author: apple_jasmine33
+photo.282.commitdate: 2024/6/8
+photo.282.link: ig://CYbS1BAP8te
+photo.282.tags: bamboo, peek, whiskers
+photo.283: cwdc://XsL45SYADQB.jpg
+photo.283.author: apple_jasmine33
+photo.283.commitdate: 2024/6/8
+photo.283.link: ig://CSHIsG8BJN-
+photo.283.tags: blink, laying down, paws, sample, smile, tongue, tree, whiskers
