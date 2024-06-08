@@ -266,3 +266,8 @@ species: 2
 studbook.id: 1348
 uncertainty: location.3 exact moving date, location.4 exact moving date
 zoo: 96
+photo.50: cwdc://Y_U704geDwA.jpg
+photo.50.author: nightingaleinflight
+photo.50.commitdate: 2024/6/8
+photo.50.link: https://www.instagram.com/nightingaleinflight
+photo.50.tags: peek, sample
