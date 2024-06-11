@@ -173,7 +173,7 @@ Layout.shrinkNames = function() {
     }
   }
 
-  var expander = function(element, nth, _, _) {
+  var expander = function(element, nth, _, __) {
     var span = element.childNodes[nth];
     span.classList.remove("condensed");
     span.classList.remove("ultraCondensed");

@@ -42,7 +42,11 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // for loading images from random sources
   gallery.image = document.createElement('img');
   gallery.image.setAttribute("loading", "lazy");
-  Touch.addSwipeHandler(gallery.image, T.processPhoto);
+  // Firefox has a bug when touch handlers register on browsers that don't have them,
+  // so try to limit touch events to only browsers that have it.
+  if ('ontouchstart' in document.documentElement) {
+    Touch.addSwipeHandler(gallery.image, T.processPhoto);
+  }
   return gallery;
 }
 
