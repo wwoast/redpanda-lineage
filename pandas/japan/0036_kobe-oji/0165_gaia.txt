@@ -198,11 +198,11 @@ photo.38.author: i.satosato
 photo.38.commitdate: 2019/1/27
 photo.38.link: ig://BtD8Nt7F2Mw
 photo.38.tags: mofumofu, sample, tail
-photo.39: ig://BtEw64LFBDO/m
+photo.39: cwdc://WiHJW02ADQA.jpg
 photo.39.author: redpanda_nippon_takashi
 photo.39.commitdate: 2019/1/27
-photo.39.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.39.tags: lips, portrait, smile
+photo.39.link: ig://BtEw64LFBDO
+photo.39.tags: lips, portrait, sample, smile
 photo.40: cwdc://WiRkM8hADQG.jpg
 photo.40.author: tomo3700
 photo.40.commitdate: 2019/1/30
@@ -398,11 +398,11 @@ photo.79: cwdc://WtBOQSWADQC.jpg
 photo.79.author: sasapan34
 photo.79.commitdate: 2019/6/10
 photo.79.link: ig://ByhzXm7B1-N
-photo.80: ig://Byh0rApBz9m/m
+photo.80: cwdc://WtBQ3FyADQA.jpg
 photo.80.author: minatomirai215
 photo.80.commitdate: 2019/6/10
-photo.80.link: https://www.instagram.com/minatomirai215/
-photo.80.tags: flowers
+photo.80.link: ig://Byh0rApBz9m
+photo.80.tags: flowers, portrait, sample
 photo.81: cwdc://Wtv4WNsADQj.jpg
 photo.81.author: i.satosato
 photo.81.commitdate: 2019/6/21
@@ -623,21 +623,21 @@ photo.124.author: chankunvv
 photo.124.commitdate: 2019/11/27
 photo.124.link: ig://B5M0VokBADX
 photo.124.tags: laying down, paws, portrait, tail
-photo.125: ig://B5kSZqmhknW/m
+photo.125: cwdc://W7GMUZtADQA.jpg
 photo.125.author: i.satosato
 photo.125.commitdate: 2019/12/5
-photo.125.link: https://www.instagram.com/i.satosato/
-photo.125.tags: paws, portrait, whiskers
+photo.125.link: ig://B5kSZqmhknW
+photo.125.tags: paws, portrait, sample, whiskers
 photo.126: cwdc://W7Q2-pDADQB.jpg
 photo.126.author: leonard_redmof
 photo.126.commitdate: 2019/12/7
 photo.126.link: ig://B5pnuyRh91E
 photo.126.tags: bamboo, home, lips, mofumofu, paws, portrait
-photo.127: ig://B5sDftRBH0n/m
+photo.127: cwdc://W7VugfCADQC.jpg
 photo.127.author: i.satosato
 photo.127.commitdate: 2019/12/11
-photo.127.link: https://www.instagram.com/i.satosato/
-photo.127.tags: paws, portrait, tail
+photo.127.link: ig://B5sDftRBH0n
+photo.127.tags: paws, portrait, sample, tail
 photo.128: cwdc://W8EClEUADQI.jpg
 photo.128.author: falcon_tenor
 photo.128.commitdate: 2019/12/29
@@ -663,11 +663,11 @@ photo.132.author: motohin
 photo.132.commitdate: 2019/12/31
 photo.132.link: ig://B6nbj9zhnQb
 photo.132.tags: close-up, portrait, profile, sample, tongue, whiskers
-photo.133: ig://B6skTm_BG9K/m
+photo.133: cwdc://W9WwISeADQD.jpg
 photo.133.author: i.satosato
 photo.133.commitdate: 2020/1/6
-photo.133.link: https://www.instagram.com/i.satosato/
-photo.133.tags: keeper, paws, portrait, smile
+photo.133.link: ig://B6skTm_BG9K
+photo.133.tags: keeper, paws, portrait, sample, smile
 photo.134: cwdc://W9uyHa8ADQD.jpg
 photo.134.author: riri_panda616
 photo.134.commitdate: 2020/1/11
@@ -678,16 +678,16 @@ photo.135.author: falcon_tenor
 photo.135.commitdate: 2020/1/25
 photo.135.link: ig://B6-UMdJBfbj
 photo.135.tags: laying down, portrait, sample, whiskers
-photo.136: ig://B7DhNQqh7Zm/m
+photo.136: cwdc://W-Ep7l1ADQE.jpg
 photo.136.author: i.satosato
 photo.136.commitdate: 2020/1/25
-photo.136.link: https://www.instagram.com/i.satosato/
-photo.136.tags: bamboo, paws, portrait, smile, standing
-photo.137: ig://B7JH7gnB1jI/m
+photo.136.link: ig://B7DhNQqh7Zm
+photo.136.tags: bamboo, paws, portrait, sample, smile, standing
+photo.137: cwdc://W-P3YFuADQF.jpg
 photo.137.author: i.satosato
 photo.137.commitdate: 2020/1/25
-photo.137.link: https://www.instagram.com/i.satosato/
-photo.137.tags: home, paws, portrait
+photo.137.link: ig://B7JH7gnB1jI
+photo.137.tags: home, paws, portrait, sample, whiskers
 photo.138: cwdc://W-Zb3mWADQA.jpg
 photo.138.author: nishicotolo
 photo.138.commitdate: 2020/1/25
@@ -873,11 +873,11 @@ photo.174.author: falcon_tenor
 photo.174.commitdate: 2021/9/6
 photo.174.link: ig://CP7jBeaBrHX
 photo.174.tags: paws, portrait, sample
-photo.175: ig://CP8OCJSBxJ6/m
+photo.175: cwdc://Xn2DlXEADQD.jpg
 photo.175.author: minatomirai215
 photo.175.commitdate: 2021/9/6
-photo.175.link: https://www.instagram.com/minatomirai215/
-photo.175.tags: close-up, paws, peek, portrait
+photo.175.link: ig://CP8OCJSBxJ6
+photo.175.tags: close-up, paws, peek, portrait, sample
 photo.176: cwdc://XonlBXdADQl.jpg
 photo.176.author: falcon_tenor
 photo.176.commitdate: 2021/6/23
@@ -1778,3 +1778,18 @@ photo.352.author: sasapan34
 photo.352.commitdate: 2024/6/12
 photo.352.link: ig://C8CcFJqyNwm
 photo.352.tags: paws, sample, whiskers
+photo.353: cwdc://W7GMUZtADQB.jpg
+photo.353.author: i.satosato
+photo.353.commitdate: 2024/6/12
+photo.353.link: ig://B5kSZqmhknX
+photo.353.tags: bite, paws, portrait, sample, whiskers
+photo.354: cwdc://WtBQ3FyADQB.jpg
+photo.354.author: minatomirai215
+photo.354.commitdate: 2024/6/12
+photo.354.link: ig://Byh0rApBz9n
+photo.354.tags: portrait, sample
+photo.355: cwdc://WtBQ3FyADQC.jpg
+photo.355.author: minatomirai215
+photo.355.commitdate: 2024/6/12
+photo.355.link: ig://Byh0rApBz9o
+photo.355.tags: bamboo, home, peek, portrait, sample, tongue
