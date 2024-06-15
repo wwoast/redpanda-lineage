@@ -49,7 +49,7 @@ photo.6.tags: portrait
 photo.7: cwdc://WbDyEvrADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2018/10/30
-photo.7.link: https://www.instagram.com/p/BpjFR1ll-d8
+photo.7.link: ig://BpjFR1ll-d8
 photo.7.tags: bamboo, tail
 photo.8: ig://BrIBbHeF0-z/m
 photo.8.author: fetorus_mami
@@ -214,7 +214,7 @@ photo.39.tags: paws, portrait, tail, tongue
 photo.40: cwdc://XDoThD5ADQA.jpg
 photo.40.author: taka__3428
 photo.40.commitdate: 2020/4/13
-photo.40.link: https://www.instagram.com/p/B91V__shkE5
+photo.40.link: ig://B91V__shkE5
 photo.40.tags: laying down, paws, portrait, profile, sample
 photo.41: ig://B91etOqhGxr/m
 photo.41.author: ayusuke56
@@ -744,14 +744,14 @@ photo.146.author: hamamatsu.chiita
 photo.146.commitdate: 2023/5/3
 photo.146.link: https://www.instagram.com/hamamatsu.chiita/
 photo.146.tags: close-up, lips, portrait, sample, whiskers
+photo.147: cwdc://YZfib22ADQA.jpg
+photo.147.author: ayusuke56
+photo.147.commitdate: 2024/4/13
+photo.147.link: ig://Cow9dZLPEwW
+photo.147.tags: laying down, mofumofu, portrait, sample, tail, tree
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI
 video.1.author: harry
 video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
 zoo: 16
-photo.147: cwdc://YZfib22ADQA.jpg
-photo.147.author: ayusuke56
-photo.147.commitdate: 2024/4/13
-photo.147.link: ig://Cow9dZLPEwW
-photo.147.tags: laying down, mofumofu, portrait, sample, tail, tree
