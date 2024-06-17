@@ -351,11 +351,11 @@ photo.67.author: miis_98
 photo.67.commitdate: 2020/9/28
 photo.67.link: ig://CEWYgQBBmXN
 photo.67.tags: portrait, sample, whiskers
-photo.68: ig://CFWysDTB3gA/m
+photo.68: cwdc://XSrM5LGADQA.jpg
 photo.68.author: jas_forever_love
 photo.68.commitdate: 2020/9/21
-photo.68.link: https://www.instagram.com/jas_forever_love/
-photo.68.tags: laying down, paws, portrait
+photo.68.link: ig://CFWysDTB3gA
+photo.68.tags: laying down, mofumofu, paws, portrait, sample
 photo.69: cwdc://XUR1nV6ADQY.jpg
 photo.69.author: taka__3428
 photo.69.commitdate: 2020/10/11
@@ -2152,3 +2152,23 @@ photo.426.author: ayusuke56
 photo.426.commitdate: 2024/6/17
 photo.426.link: ig://B8tdFfzBSbRT
 photo.426.tags: apple time, paws, portrait, sample
+photo.427: cwdc://XSrM5LGADQB.jpg
+photo.427.author: jas_forever_love
+photo.427.commitdate: 2024/6/17
+photo.427.link: ig://CFWysDTB3gB
+photo.427.tags: laying down, mofumofu, peek, portrait, sample
+photo.428: cwdc://XSrM5LGADQC.jpg
+photo.428.author: jas_forever_love
+photo.428.commitdate: 2024/6/17
+photo.428.link: ig://CFWysDTB3gC
+photo.428.tags: bite, climb, portrait, tree
+photo.429: cwdc://XSrM5LGADQD.jpg
+photo.429.author: jas_forever_love
+photo.429.commitdate: 2024/6/17
+photo.429.link: ig://CFWysDTB3gD
+photo.429.tags: bear worm, home, laying down, paws, portrait, smile
+photo.430: cwdc://XSrM5LGADQE.jpg
+photo.430.author: jas_forever_love
+photo.430.commitdate: 2024/6/17
+photo.430.link: ig://CFWysDTB3gG
+photo.430.tags: laying down, paws, peek, portrait, sample, smile, whiskers
