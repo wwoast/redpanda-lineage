@@ -115,11 +115,11 @@ photo.20.author: komabazoophoto
 photo.20.commitdate: 2022/9/24
 photo.20.link: ig://B7s949JB_p2
 photo.20.tags: paws, portrait, sample, standing, window
-photo.21: ig://B8uw85cBjhT/m
+photo.21: cwdc://XBbJa3YADQA.jpg
 photo.21.author: minatomirai215
 photo.21.commitdate: 2020/3/25
-photo.21.link: https://www.instagram.com/minatomirai215/
-photo.21.tags: paws, standing, techitechi
+photo.21.link: ig://B8uw85cBjhT
+photo.21.tags: paws, standing, techitechi, window
 photo.22: cwdc://XDOgxZ2ADQA.jpg
 photo.22.author: ho0oipo
 photo.22.commitdate: 2020/3/15
@@ -573,3 +573,8 @@ photo.111.tags: paws, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 69
+photo.112: cwdc://XBbJa3YADQB.jpg
+photo.112.author: minatomirai215
+photo.112.commitdate: 2024/6/19
+photo.112.link: ig://B8uw85cBjhU
+photo.112.tags: paws, peek, standing, window
