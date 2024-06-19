@@ -75,10 +75,10 @@ photo.12.author: ho0oipo
 photo.12.commitdate: 2019/7/28
 photo.12.link: ig://B0VxToUhubm
 photo.12.tags: bridge, laying down, portrait
-photo.13: ig://B07fk_vh-xO/m
+photo.13: cwdc://Wx0mrD_ADQA.jpg
 photo.13.author: sasapan34
 photo.13.commitdate: 2019/8/12
-photo.13.link: https://www.instagram.com/sasapan34/
+photo.13.link: ig://B07fk_vh-xO
 photo.13.tags: home, smile, tongue
 photo.14: cwdc://W0s2pNjADQA.jpg
 photo.14.author: leonard_redmof
@@ -553,3 +553,13 @@ photo.107.author: sasapan34
 photo.107.commitdate: 2024/6/19
 photo.107.link: ig://C8J1fchS--l
 photo.107.tags: sample, smile, tongue
+photo.108: cwdc://Wx0mrD_ADQB.jpg
+photo.108.author: sasapan34
+photo.108.commitdate: 2024/6/19
+photo.108.link: ig://B07fk_vh-xP
+photo.108.tags: ear, sample, smile
+photo.109: cwdc://Wx0mrD_ADQC.jpg
+photo.109.author: sasapan34
+photo.109.commitdate: 2024/6/19
+photo.109.link: ig://B07fk_vh-xQ
+photo.109.tags: sample, smile
