@@ -48,12 +48,12 @@ photo.6.tags: grumpy, paws, snow
 photo.7: cwdc://WiChibtADQB.jpg
 photo.7.author: ho0oipo
 photo.7.commitdate: 2019/1/27
-photo.7.link: https://www.instagram.com/p/BtCdArmlYBa
+photo.7.link: ig://BtCdArmlYBa
 photo.7.tags: bridge, peek, snow, tail
 photo.8: cwdc://WiUstnmADQC.jpg
 photo.8.author: ho0oipo
 photo.8.commitdate: 2019/1/30
-photo.8.link: https://www.instagram.com/p/BtLimRjFx8w
+photo.8.link: ig://BtLimRjFx8w
 photo.8.tags: home, snow
 photo.9: ig://BtN_oQmlK21/m
 photo.9.author: framereim
@@ -137,7 +137,7 @@ photo.24.tags: paws, standing, techitechi
 photo.25: cwdc://XDOgxZ2ADQA.jpg
 photo.25.author: ho0oipo
 photo.25.commitdate: 2020/3/15
-photo.25.link: https://www.instagram.com/p/B9ocoKrBpWy
+photo.25.link: ig://B9ocoKrBpWy
 photo.25.tags: bamboo, paws, peek, standing
 photo.26: ig://B91f4urB3Kw/m
 photo.26.author: sasapan34

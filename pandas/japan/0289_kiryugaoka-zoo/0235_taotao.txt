@@ -28,7 +28,7 @@ photo.2.tags: baby, bread, mofumofu, snow
 photo.3: cwdc://WdcMoG-ADQB.jpg
 photo.3.author: ho0oipo
 photo.3.commitdate: 2018/11/28
-photo.3.link: https://www.instagram.com/p/BqvSjhPFYuW
+photo.3.link: ig://BqvSjhPFYuW
 photo.3.tags: baby, dish, peek
 photo.4: ig://Bq8RDstFTmZ/m
 photo.4.author: craig_craig_craig
@@ -73,7 +73,7 @@ photo.11.tags: bridge, ear, smile
 photo.12: cwdc://WwpKIVJADQA.jpg
 photo.12.author: ho0oipo
 photo.12.commitdate: 2019/7/28
-photo.12.link: https://www.instagram.com/p/B0VxToUhubm
+photo.12.link: ig://B0VxToUhubm
 photo.12.tags: bridge, laying down, portrait
 photo.13: ig://B07fk_vh-xO/m
 photo.13.author: sasapan34
@@ -113,7 +113,7 @@ photo.19.tags: paws, portrait, standing, tree
 photo.20: cwdc://W3fxSXbADQA.jpg
 photo.20.author: akiakiakiko18
 photo.20.commitdate: 2019/10/21
-photo.20.link: https://www.instagram.com/p/B3xE4pdh-h2
+photo.20.link: ig://B3xE4pdh-h2
 photo.20.tags: ear, paws, peek, portrait, profile, sample, standing, window
 photo.21: ig://B4Q4Dy-BpUJ/m
 photo.21.author: sasapan34
@@ -317,7 +317,7 @@ photo.60.tags: bamboo, sample, tongue
 photo.61: cwdc://YAa5WesADQA.jpg
 photo.61.author: ck.chie
 photo.61.commitdate: 2022/9/28
-photo.61.link: https://www.instagram.com/p/CcOo6tGB1Pf
+photo.61.link: ig://CcOo6tGB1Pf
 photo.61.tags: bridge, ear, sample, smile, whiskers
 photo.62: ig://CcXk8rDvCJU/m
 photo.62.author: daniele.tokyo
