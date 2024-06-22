@@ -153,7 +153,7 @@ photo.28.author: sasapan34
 photo.28.commitdate: 2022/1/13
 photo.28.link: https://www.instagram.com/sasapan34/
 photo.28.tags: bamboo, snow
-photo.29: ig://redpan22/CXJGXIqB45M/m
+photo.29: ig://CXJGXIqB45M/m
 photo.29.author: redpan22
 photo.29.commitdate: 2021/12/30
 photo.29.link: https://www.instagram.com/redpan22/
@@ -213,8 +213,6 @@ photo.40.author: leonard_redmof
 photo.40.commitdate: 2024/3/14
 photo.40.link: https://www.instagram.com/p/CwFf-FlPlHt
 photo.40.tags: mofumofu, peek, portrait, sample, tail
-species: 2
-zoo: 37
 photo.41: cwdc://XZ1qP2rADQA.jpg
 photo.41.author: framereim
 photo.41.commitdate: 2024/6/21
@@ -315,3 +313,5 @@ photo.60.author: fetorus_mami
 photo.60.commitdate: 2024/6/21
 photo.60.link: ig://Cx5pPnZPiHx
 photo.60.tags: apple time, bite, paws, sample, toys, whiskers
+species: 2
+zoo: 37
