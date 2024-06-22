@@ -37,11 +37,11 @@ photo.5.link: https://www.instagram.com/leonard_redmof/
 photo.5.tags: baby, keeper, portrait, siblings, tail, twins
 photo.5.tags.1189.location: 245, 175
 photo.5.tags.1190.location: 130, 145
-photo.6: ig://CG93fHEhc5R/l
+photo.6: cwdc://XV5WfSpADQA.jpg
 photo.6.author: jas_forever_love
 photo.6.commitdate: 2020/11/6
-photo.6.link: https://www.instagram.com/jas_forever_love/
-photo.6.tags: baby, mofumofu, paws, portrait, siblings, tail, twins
+photo.6.link: ig://CG93fHEhc5R
+photo.6.tags: baby, door, mofumofu, paws, portrait, siblings, tail, twins
 photo.6.tags.1189.location: 305, 215
 photo.6.tags.1190.location: 235, 185
 photo.7: ig://CHiChF_hajm/m
@@ -100,11 +100,11 @@ photo.14.link: https://www.instagram.com/mifko55/
 photo.14.tags: bamboo, portrait, siblings, twins
 photo.14.tags.1189.location: 155, 230
 photo.14.tags.1190.location: 480, 230
-photo.15: ig://CQs9R2ghWwT/l
+photo.15: cwdc://XpXiExhADQK.jpg
 photo.15.author: jas_forever_love
 photo.15.commitdate: 2021/10/7
-photo.15.link: https://www.instagram.com/jas_forever_love/
-photo.15.tags: baby, paws, portrait, siblings, tail, twins
+photo.15.link: ig://CQs9R2ghWwT
+photo.15.tags: baby, door, mofumofu, paws, portrait, siblings, tail, twins
 photo.15.tags.1189.location: 280, 215
 photo.15.tags.1190.location: 240, 185
 photo.16: ig://CSspmeOBG8d/l
@@ -128,3 +128,23 @@ photo.18.link: https://www.instagram.com/komabazoophoto/
 photo.18.tags: laying down, peek, portrait, siblings, twins, tree
 photo.18.tags.1189.location: 125, 200
 photo.18.tags.1190.location: 210, 45
+photo.19: cwdc://XV5WfSpADQB.jpg
+photo.19.author: jas_forever_love
+photo.19.commitdate: 2024/6/21
+photo.19.link: ig://CG93fHEhc5S
+photo.19.tags: baby, mofumofu, portrait, sample, siblings, tongue, twins
+photo.20: cwdc://XV5WfSpADQC.jpg
+photo.20.author: jas_forever_love
+photo.20.commitdate: 2024/6/21
+photo.20.link: ig://CG93fHEhc5T
+photo.20.tags: baby, door, mofumofu, portrait, siblings, twins
+photo.21: cwdc://XV5WfSpADQD.jpg
+photo.21.author: jas_forever_love
+photo.21.commitdate: 2024/6/21
+photo.21.link: ig://CG93fHEhc5U
+photo.21.tags: baby, bamboo, mofumofu, portrait, smile
+photo.22: cwdc://XV5WfSpADQE.jpg
+photo.22.author: jas_forever_love
+photo.22.commitdate: 2024/6/21
+photo.22.link: ig://CG93fHEhc5V
+photo.22.tags: baby, mofumofu, portrait, sample, siblings, twins
