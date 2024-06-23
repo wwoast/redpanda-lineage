@@ -63,10 +63,10 @@ photo.10.author: daniele.tokyo
 photo.10.commitdate: 2023/3/23
 photo.10.link: ig://CnUAmd0vy4H
 photo.10.tags: baby, climb, keeper, paws, snow, tail
-photo.11: ig://CnZFnsVP7JL/m
+photo.11: cwdc://YWvywdKADQG.jpg
 photo.11.author: komabazoophoto
 photo.11.commitdate: 2023/11/18
-photo.11.link: https://www.instagram.com/komabazoophoto/
+photo.11.link: ig://CnZFnsVP7JL
 photo.11.tags: baby, portrait, sample, shake, snow, whiskers
 photo.12: cwdc://YW1b48XADQG.jpg
 photo.12.author: redpan22
@@ -255,3 +255,23 @@ photo.48.author: daniele.tokyo
 photo.48.commitdate: 2024/6/23
 photo.48.link: ig://C0lrfp1Pll1
 photo.48.tags: paws, sample, snow, tail
+photo.49: cwdc://YTNZ4SdADQE.jpg
+photo.49.author: komabazoophoto
+photo.49.commitdate: 2024/6/23
+photo.49.link: ig://Cln5Lm-vm1W
+photo.49.tags: portrait, sample
+photo.50: cwdc://YTNZ4SdADQF.jpg
+photo.50.author: komabazoophoto
+photo.50.commitdate: 2024/6/23
+photo.50.link: ig://Cln5Lm-vm1X
+photo.50.tags: bridge, paws, portrait, sample, whiskers
+photo.51: cwdc://YWvywdKADQH.jpg
+photo.51.author: komabazoophoto
+photo.51.commitdate: 2024/6/23
+photo.51.link: ig://CnZFnsVP7JM
+photo.51.tags: baby, portrait, sample, shake, snow, whiskers
+photo.52: cwdc://YWvywdKADQI.jpg
+photo.52.author: komabazoophoto
+photo.52.commitdate: 2024/6/23
+photo.52.link: ig://CnZFnsVP7JN
+photo.52.tags: baby, portrait, sample, shake, snow, whiskers
