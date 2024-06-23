@@ -13,30 +13,30 @@ ja.nicknames: none
 ja.othernames: ジンジン
 language.order: ja, en
 litter: 1370
-photo.1: ig://CjXzAo-PLm0/m
+photo.1: cwdc://YOtNiWcADQB.jpg
 photo.1.author: leonard_redmof
 photo.1.commitdate: 2022/11/4
-photo.1.link: https://www.instagram.com/leonard_redmof/
+photo.1.link: ig://CjXzAo-PLm0
 photo.1.tags: baby, portrait, sample
-photo.2: ig://CjtcWO2vHfv/m
+photo.2: cwdc://YPYgNiNADQA.jpg
 photo.2.author: mifko55
 photo.2.commitdate: 2022/11/4
-photo.2.link: https://www.instagram.com/mifko55/
+photo.2.link: ig://CjtcWO2vHfv
 photo.2.tags: baby, bite, close-up, portrait, sample
 photo.3: cwdc://YQD--CKADQA.jpg
 photo.3.author: monmon_redpanda
 photo.3.commitdate: 2022/11/4
 photo.3.link: ig://CkDLue1BcL3
 photo.3.tags: portrait, profile, sample
-photo.4: ig://CkGRmXfhsQw/m
+photo.4: cwdc://YQKKtzfADQA.jpg
 photo.4.author: redpan22
 photo.4.commitdate: 2022/11/4
-photo.4.link: https://www.instagram.com/redpan22/
+photo.4.link: ig://CkGRmXfhsQw
 photo.4.tags: baby, mofumofu, portrait, sample
-photo.5: ig://CkdZeDhPOR3/m
+photo.5: cwdc://YQ4adLiADQD.jpg
 photo.5.author: sasapan34
 photo.5.commitdate: 2022/11/4
-photo.5.link: https://www.instagram.com/sasapan34/
+photo.5.link: ig://CkdZeDhPOR3
 photo.5.tags: peek
 photo.6: cwdc://YRAWkgDADQA.jpg
 photo.6.author: ho0oipo
@@ -48,45 +48,210 @@ photo.7.author: komabazoophoto
 photo.7.commitdate: 2023/1/20
 photo.7.link: https://www.instagram.com/komabazoophoto/
 photo.7.tags: baby, portrait, whiskers
-photo.8: ig://CmMSQoCPzf0/m
+photo.8: cwdc://YUWMCUkADQE.jpg
 photo.8.author: redpan22
 photo.8.commitdate: 2023/3/11
-photo.8.link: https://www.instagram.com/redpan22/
+photo.8.link: ig://CmMSQoCPzf0
 photo.8.tags: baby, keeper, peek, sample, snow, standing, techitechi
-photo.9: ig://Cmd4eRpPbyX/m
+photo.9: cwdc://YU5YdnyADQA.jpg
 photo.9.author: daniele.tokyo
 photo.9.commitdate: 2023/1/11
-photo.9.link: https://www.instagram.com/daniele.tokyo/
-photo.9.tags: apple time, bridge, climb, paws, snow, tail
-photo.10: ig://CnUAmd0vy4H/m
+photo.9.link: ig://Cmd4eRpPbyX
+photo.9.tags: apple time, baby, bridge, climb, mofumofu, paws, snow, tail
+photo.10: cwdc://YWlouAJADQC.jpg
 photo.10.author: daniele.tokyo
 photo.10.commitdate: 2023/3/23
-photo.10.link: https://www.instagram.com/daniele.tokyo/
-photo.10.tags: baby, climb, keeper, paws, snow
+photo.10.link: ig://CnUAmd0vy4H
+photo.10.tags: baby, climb, keeper, paws, snow, tail
 photo.11: ig://CnZFnsVP7JL/m
 photo.11.author: komabazoophoto
 photo.11.commitdate: 2023/11/18
 photo.11.link: https://www.instagram.com/komabazoophoto/
 photo.11.tags: baby, portrait, sample, shake, snow, whiskers
-photo.12: ig://Cnb6L77vWNr/m
+photo.12: cwdc://YW1b48XADQG.jpg
 photo.12.author: redpan22
 photo.12.commitdate: 2023/3/9
-photo.12.link: https://www.instagram.com/redpan22/
-photo.12.tags: baby, close-up, sample, snow, whiskers
-photo.13: ig://Cn6lF7kPjz2/m
+photo.12.link: ig://Cnb6L77vWNr
+photo.12.tags: baby, close-up, paws, sample, snow, whiskers
+photo.13: cwdc://YXyxs7oADQB.jpg
 photo.13.author: daniele.tokyo
 photo.13.commitdate: 2023/2/25
-photo.13.link: https://www.instagram.com/daniele.tokyo/
-photo.13.tags: baby, climb, paws, sample, snow
-photo.14: ig://CoMpvCkvlSA/m
+photo.13.link: ig://Cn6lF7kPjz2
+photo.13.tags: baby, climb, paws, sample, snow, whiskers
+photo.14: cwdc://YYW6_JpADQA.jpg
 photo.14.author: rie_panda55
 photo.14.commitdate: 2023/8/23
-photo.14.link: https://www.instagram.com/rie_panda55/
-photo.14.tags: keeper, portrait, sample, snow
-photo.15: ig://CoW51y7PJ8I/m
+photo.14.link: ig://CoMpvCkvlSA
+photo.14.tags: baby, keeper, portrait, sample, snow, standing, tail
+photo.15: cwdc://YYrbMqWADQD.jpg
 photo.15.author: daniele.tokyo
 photo.15.commitdate: 2023/8/23
-photo.15.link: https://www.instagram.com/daniele.tokyo/
+photo.15.link: ig://CoW51y7PJ8I
 photo.15.tags: baby, keeper, paws, snow, standing
 species: 2
 zoo: 37
+photo.16: cwdc://YQKKtzfADQB.jpg
+photo.16.author: redpan22
+photo.16.commitdate: 2024/6/23
+photo.16.link: ig://CkGRmXfhsQx
+photo.16.tags: baby, mofumofu, portrait, sample
+photo.17: cwdc://YQKKtzfADQC.jpg
+photo.17.author: redpan22
+photo.17.commitdate: 2024/6/23
+photo.17.link: ig://CkGRmXfhsQy
+photo.17.tags: baby, mofumofu, paws, portrait, sample
+photo.18: cwdc://YQKKtzfADQD.jpg
+photo.18.author: redpan22
+photo.18.commitdate: 2024/6/23
+photo.18.link: ig://CkGRmXfhsQz
+photo.18.tags: baby, mofumofu, portrait, sample, wink
+photo.19: cwdc://YRcRs4gADQC.jpg
+photo.19.author: komabazoophoto
+photo.19.commitdate: 2024/6/23
+photo.19.link: ig://CkvVF6AS-nb
+photo.19.tags: baby, mofumofu, portrait
+photo.20: cwdc://YRcRs4gADQD.jpg
+photo.20.author: komabazoophoto
+photo.20.commitdate: 2024/6/23
+photo.20.link: ig://CkvVF6AS-nY
+photo.20.tags: keeper, paws, portrait
+photo.21: cwdc://YRmkP_KADQF.jpg
+photo.21.author: komabazoophoto
+photo.21.commitdate: 2024/6/23
+photo.21.link: ig://Ck0eXdVS3sh
+photo.21.tags: mofumofu, portrait, sample
+photo.22: cwdc://YRrwEvSADQB.jpg
+photo.22.author: komabazoophoto
+photo.22.commitdate: 2024/6/23
+photo.22.link: ig://Ck3ER1ZSMCX
+photo.22.tags: mofumofu, peek, sample, tail
+photo.23: cwdc://YSPX44HADQE.jpg
+photo.23.author: komabazoophoto
+photo.23.commitdate: 2024/6/23
+photo.23.link: ig://ClI4L5zy6_w
+photo.23.tags: baby, door, mofumofu, sample
+photo.24: cwdc://YSPX44HADQF.jpg
+photo.24.author: komabazoophoto
+photo.24.commitdate: 2024/6/23
+photo.24.link: ig://ClI4L5zy6_y
+photo.24.tags: baby, door, mofumofu, paws
+photo.25: cwdc://YSPX44HADQG.jpg
+photo.25.author: komabazoophoto
+photo.25.commitdate: 2024/6/23
+photo.25.link: ig://ClI4L5zy7AA
+photo.25.tags: baby, mofumofu
+photo.26: cwdc://YSPX44HADQH.jpg
+photo.26.author: komabazoophoto
+photo.26.commitdate: 2024/6/23
+photo.26.link: ig://ClI4L5zy7AB
+photo.26.tags: baby, bite, peek
+photo.27: cwdc://YSUrUemADQI.jpg
+photo.27.author: komabazoophoto
+photo.27.commitdate: 2024/6/23
+photo.27.link: ig://ClLh5tDSQj1
+photo.27.tags: baby, mofumofu, paws, portrait
+photo.28: cwdc://YSUrUemADQJ.jpg
+photo.28.author: komabazoophoto
+photo.28.commitdate: 2024/6/23
+photo.28.link: ig://ClLh5tDSQjW
+photo.28.tags: baby, bite, mofumofu, paws, portrait
+photo.29: cwdc://YSUrUemADQK.jpg
+photo.29.author: komabazoophoto
+photo.29.commitdate: 2024/6/23
+photo.29.link: ig://ClLh5tDSQjZ
+photo.29.tags: baby, bite, mofumofu, portrait
+photo.30: cwdc://YULCKPtADQC.jpg
+photo.30.author: daniele.tokyo
+photo.30.commitdate: 2024/6/23
+photo.30.link: ig://CmGtUlmr3GM
+photo.30.tags: baby, keeper, paws, snow, standing, tail
+photo.31: cwdc://YUWMCUkADQF.jpg
+photo.31.author: redpan22
+photo.31.commitdate: 2024/6/23
+photo.31.link: ig://CmMSQoCPzf1
+photo.31.tags: baby, door, keeper, paws, sample, snow, techitechi
+photo.32: cwdc://YUae7QkADQD.jpg
+photo.32.author: daniele.tokyo
+photo.32.commitdate: 2024/6/23
+photo.32.link: ig://CmObtGCPqoZ
+photo.32.tags: paws, sample, sonw, tail, techitechi
+photo.33: cwdc://YUkyHgjADQE.jpg
+photo.33.author: daniele.tokyo
+photo.33.commitdate: 2024/6/23
+photo.33.link: ig://CmTlTOBvNOh
+photo.33.tags: baby, mofumofu, paws, peek, sample, snow
+photo.34: cwdc://YUkyHgjADQF.jpg
+photo.34.author: daniele.tokyo
+photo.34.commitdate: 2024/6/23
+photo.34.link: ig://CmTlTOBvNOi
+photo.34.tags: baby, climb, mofumofu, paws, sample, snow, tail
+photo.35: cwdc://YVtlioiADQA.jpg
+photo.35.author: craig_craig_craig
+photo.35.commitdate: 2024/6/23
+photo.35.link: ig://Cm3_AyBPWUH
+photo.35.tags: baby, climb, mofumofu, sample, tail
+photo.36: cwdc://YWBfFnKADQL.jpg
+photo.36.author: komabazoophoto
+photo.36.commitdate: 2024/6/23
+photo.36.link: ig://CnB7yRVPLDm
+photo.36.tags: baby, paws, snow
+photo.37: cwdc://YWWHYqgADQM.jpg
+photo.37.author: komabazoophoto
+photo.37.commitdate: 2024/6/23
+photo.37.link: ig://CnMP7zAPzx0
+photo.37.tags: baby, distance, snow
+photo.38: cwdc://YWWHYqgADQN.jpg
+photo.38.author: komabazoophoto
+photo.38.commitdate: 2024/6/23
+photo.38.link: ig://CnMP7zAPzxv
+photo.38.tags: baby, snow
+photo.39: cwdc://YWWHYqgADQO.jpg
+photo.39.author: komabazoophoto
+photo.39.commitdate: 2024/6/23
+photo.39.link: ig://CnMP7zAPzxx
+photo.39.tags: baby, paws, snow
+photo.40: cwdc://YZ4rCZFADQG.jpg
+photo.40.author: daniele.tokyo
+photo.40.commitdate: 2024/6/23
+photo.40.link: ig://Co9hwqSv88c
+photo.40.tags: baby, keeper, paws, tail
+photo.41: cwdc://YaFxwQ-ADQB.jpg
+photo.41.author: leonard_redmof
+photo.41.commitdate: 2024/6/23
+photo.41.link: ig://CpEFHmPBQo-
+photo.41.tags: apple time, paws, sample, snow, standing, toys
+photo.42: cwdc://YbLEeMWADQH.jpg
+photo.42.author: daniele.tokyo
+photo.42.commitdate: 2024/6/23
+photo.42.link: ig://Cpmuej7P4v6
+photo.42.tags: baby, climb, paws, sample, snow, tail, toys, upside-down
+photo.43: cwdc://YdRQ3yIADQA.jpg
+photo.43.author: nishicotolo
+photo.43.commitdate: 2024/6/23
+photo.43.link: ig://Cqp0rW0Ptq8
+photo.43.tags: bamboo, smile, snow
+photo.44: cwdc://YdWamwUADQB.jpg
+photo.44.author: nishicotolo
+photo.44.commitdate: 2024/6/23
+photo.44.link: ig://CqsZi16Pn1_
+photo.44.tags: snow
+photo.45: cwdc://Ykt1tjlADQA.jpg
+photo.45.author: fetorus_mami
+photo.45.commitdate: 2024/6/23
+photo.45.link: ig://CuYHGPiv2dz
+photo.45.tags: climb, paws, sample, tree
+photo.46: cwdc://YoIndPqADQG.jpg
+photo.46.author: leonard_redmof
+photo.46.commitdate: 2024/6/23
+photo.46.link: ig://CwFf-FlPlHt
+photo.46.tags: mofumofu, portrait, sample, tongue
+photo.47: cwdc://YxI-gYKADQA.jpg
+photo.47.author: daniele.tokyo
+photo.47.commitdate: 2024/6/23
+photo.47.link: ig://C0lrfp1Pll0
+photo.47.tags: bamboo, paws, sample, snow, whiskers
+photo.48: cwdc://YxI-gYKADQB.jpg
+photo.48.author: daniele.tokyo
+photo.48.commitdate: 2024/6/23
+photo.48.link: ig://C0lrfp1Pll1
+photo.48.tags: paws, sample, snow, tail
