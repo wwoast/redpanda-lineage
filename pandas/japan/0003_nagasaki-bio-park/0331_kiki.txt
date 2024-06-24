@@ -64,9 +64,6 @@ photo.10.author: miis_98
 photo.10.commitdate: 2023/10/24
 photo.10.link: https://www.instagram.com/miis_98/
 photo.10.tags: bamboo, lips, paws, portrait, sample
-species: 2
-studbook.id: 0780
-zoo: 3
 photo.11: cwdc://Yyvvmr6ADQA.jpg
 photo.11.author: hamiiiii831_
 photo.11.commitdate: 2024/5/4
@@ -75,45 +72,48 @@ photo.11.tags: laying down, sample, whiskers
 photo.12: cwdc://Yyvvmr6ADQB.jpg
 photo.12.author: hamiiiii831_
 photo.12.commitdate: 2024/5/4
-photo.12.link: ig://C1ZECztPRmp
+photo.12.link: ig://C1ZECztPRmo?img_index=2
 photo.12.tags: paws, sample, whiskers
 photo.13: cwdc://Yyvvmr6ADQC.jpg
 photo.13.author: hamiiiii831_
 photo.13.commitdate: 2024/5/4
-photo.13.link: ig://C1ZECztPRmq
+photo.13.link: ig://C1ZECztPRmo?img_index=3
 photo.13.tags: paws, sample, whiskers
 photo.14: cwdc://Yyvvmr6ADQD.jpg
 photo.14.author: hamiiiii831_
 photo.14.commitdate: 2024/5/4
-photo.14.link: ig://C1ZECztPRmr
+photo.14.link: ig://C1ZECztPRmo?img_index=4
 photo.14.tags: itchy, paws, sample, smile, tail, whiskers
 photo.15: cwdc://Yyvvmr6ADQE.jpg
 photo.15.author: hamiiiii831_
 photo.15.commitdate: 2024/5/4
-photo.15.link: ig://C1ZECztPRms
+photo.15.link: ig://C1ZECztPRmo?img_index=5
 photo.15.tags: paws, sample, whiskers
 photo.16: cwdc://Yyvvmr6ADQF.jpg
 photo.16.author: hamiiiii831_
 photo.16.commitdate: 2024/5/4
-photo.16.link: ig://C1ZECztPRmt
+photo.16.link: ig://C1ZECztPRmo?img_index=6
 photo.16.tags: itchy, paws, sample, whiskers
 photo.17: cwdc://Yyvvmr6ADQG.jpg
 photo.17.author: hamiiiii831_
 photo.17.commitdate: 2024/5/4
-photo.17.link: ig://C1ZECztPRmu
+photo.17.link: ig://C1ZECztPRmo?img_index=7
 photo.17.tags: bamboo, paws, sample, tongue
 photo.18: cwdc://Yyvvmr6ADQH.jpg
 photo.18.author: hamiiiii831_
 photo.18.commitdate: 2024/5/4
-photo.18.link: ig://C1ZECztPRmv
+photo.18.link: ig://C1ZECztPRmo?img_index=8
 photo.18.tags: bamboo, sample, tongue, whiskers
 photo.19: cwdc://Yyvvmr6ADQI.jpg
 photo.19.author: hamiiiii831_
 photo.19.commitdate: 2024/5/4
-photo.19.link: ig://C1ZECztPRmw
+photo.19.link: ig://C1ZECztPRmo?img_index=9
 photo.19.tags: bamboo, sample, tongue
 photo.20: cwdc://Yyvvmr6ADQJ.jpg
 photo.20.author: hamiiiii831_
 photo.20.commitdate: 2024/5/4
-photo.20.link: ig://C1ZECztPRmx
+photo.20.link: ig://C1ZECztPRmo?img_index=10
 photo.20.tags: laying down, sample, whiskers
+species: 2
+studbook.id: 0780
+zoo: 3
