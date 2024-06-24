@@ -165,27 +165,25 @@ photo.30.author: ngsbiopark
 photo.30.commitdate: 2023/11/5
 photo.30.link: https://www.instagram.com/ngsbiopark/
 photo.30.tags: laying down, tongue, tree
-species: 2
-zoo: 3
 photo.31: cwdc://Yy1SNQFADQA.jpg
 photo.31.author: hamiiiii831_
 photo.31.commitdate: 2024/5/4
-photo.31.link: ig://C1b1WFyvVKa
+photo.31.link: ig://C1b1WFyvVKW?img_index=5
 photo.31.tags: peek, sign
 photo.32: cwdc://Yy1SNQFADQB.jpg
 photo.32.author: hamiiiii831_
 photo.32.commitdate: 2024/5/4
-photo.32.link: ig://C1b1WFyvVKb
+photo.32.link: ig://C1b1WFyvVKW?img_index=6
 photo.32.tags: mofumofu, sample, tail, whiskers
 photo.33: cwdc://Yy1SNQFADQC.jpg
 photo.33.author: hamiiiii831_
 photo.33.commitdate: 2024/5/4
-photo.33.link: ig://C1b1WFyvVKc
+photo.33.link: ig://C1b1WFyvVKW?img_index=7
 photo.33.tags: bamboo, bite, sample, whiskers
 photo.34: cwdc://Yy1SNQFADQD.jpg
 photo.34.author: hamiiiii831_
 photo.34.commitdate: 2024/5/4
-photo.34.link: ig://C1b1WFyvVKd
+photo.34.link: ig://C1b1WFyvVKW?img_index=8
 photo.34.tags: sample
 photo.35: cwdc://Yy1SNQFADQE.jpg
 photo.35.author: hamiiiii831_
@@ -200,15 +198,17 @@ photo.36.tags: paws, sample, whiskers
 photo.37: cwdc://Yy1SNQFADQG.jpg
 photo.37.author: hamiiiii831_
 photo.37.commitdate: 2024/5/4
-photo.37.link: ig://C1b1WFyvVKX
+photo.37.link: ig://C1b1WFyvVKW?img_index=2
 photo.37.tags: paws, sample, whiskers
 photo.38: cwdc://Yy1SNQFADQH.jpg
 photo.38.author: hamiiiii831_
 photo.38.commitdate: 2024/5/4
-photo.38.link: ig://C1b1WFyvVKY
+photo.38.link: ig://C1b1WFyvVKW?img_index=3
 photo.38.tags: paws, sample, whiskers
 photo.39: cwdc://Yy1SNQFADQI.jpg
 photo.39.author: hamiiiii831_
 photo.39.commitdate: 2024/5/4
-photo.39.link: ig://C1b1WFyvVKZ
+photo.39.link: ig://C1b1WFyvVKW?img_index=4
 photo.39.tags: paws, sample, whiskers
+species: 2
+zoo: 3
