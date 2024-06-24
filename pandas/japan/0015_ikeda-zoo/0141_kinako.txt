@@ -320,9 +320,6 @@ photo.61.author: hamamatsu.chiita
 photo.61.commitdate: 2023/6/30
 photo.61.link: https://www.instagram.com/hamamatsu.chiita/
 photo.61.tags: close-up, mofumfu, portrait, sample
-species: 2
-studbook.id: 14147
-zoo: 15
 photo.62: cwdc://YXEud8SADQA.jpg
 photo.62.author: makimaru18
 photo.62.commitdate: 2024/4/13
@@ -331,25 +328,28 @@ photo.62.tags: bamboo, paws, peek, portrait, sample
 photo.63: cwdc://YfK262XADQB.jpg
 photo.63.author: makimaru18
 photo.63.commitdate: 2024/4/13
-photo.63.link: ig://Crmns47vxpQ
+photo.63.link: ig://Crmns47vxpL?img_index=6
 photo.63.tags: mofumofu, portrait, sample, tail
 photo.64: cwdc://YfK262XADQC.jpg
 photo.64.author: makimaru18
 photo.64.commitdate: 2024/4/13
-photo.64.link: ig://Crmns47vxpR
+photo.64.link: ig://Crmns47vxpL?img_index=7
 photo.64.tags: lips, portrait, sample
 photo.65: cwdc://YfK262XADQD.jpg
 photo.65.author: makimaru18
 photo.65.commitdate: 2024/4/13
-photo.65.link: ig://Crmns47vxpS
+photo.65.link: ig://Crmns47vxpL?img_index=8
 photo.65.tags: bamboo, peek, portrait, sample
 photo.66: cwdc://YfK262XADQE.jpg
 photo.66.author: makimaru18
 photo.66.commitdate: 2024/4/13
-photo.66.link: ig://Crmns47vxpT
+photo.66.link: ig://Crmns47vxpL?img_index=9
 photo.66.tags: bridge, peek, portrait, sample
 photo.67: cwdc://YuvD21xADQH.jpg
 photo.67.author: makimaru18
 photo.67.commitdate: 2024/4/13
 photo.67.link: ig://CzYuK4ovApV?img_index=7
 photo.67.tags: apple time, peek, portrait
+species: 2
+studbook.id: 14147
+zoo: 15
