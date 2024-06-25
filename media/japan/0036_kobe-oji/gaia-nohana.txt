@@ -14,11 +14,15 @@ photo.2.author: tomo3700
 photo.2.commitdate: 2024/6/25
 photo.2.link: ig://B2vNuSPBWUb
 photo.2.tags: apple time, bamboo, home, keeper, paws, portrait, standing, tail
+photo.2.tags.134.location: 340, 465
+photo.2.tags.165.location: 250, 90
 photo.3: cwdc://W2hAwCqADQA.jpg
 photo.3.author: i.satosato
 photo.3.commitdate: 2024/6/25
 photo.3.link: ig://B3RsnfFBhGY
 photo.3.tags: bamboo, couple, home, paws, sample, tail
+photo.3.tags.134.location: 360, 60
+photo.3.tags.165.location: 335, 650
 photo.4: cwdc://W3j8NbXADQA.jpg
 photo.4.author: falcon_tenor
 photo.4.commitdate: 2019/10/22
@@ -80,6 +84,8 @@ photo.12.author: falcon_tenor
 photo.12.commitdate: 2024/6/25
 photo.12.link: ig://B60U_fjh3Cn
 photo.12.tags: couple, keeper, paws, portrait, sample, standing
+photo.12.tags.134.location: 250, 120
+photo.12.tags.165.location: 525, 355
 photo.13: cwdc://W_huSCDADQD.jpg
 photo.13.author: i.satosato
 photo.13.commitdate: 2020/2/16
@@ -134,6 +140,8 @@ photo.20.author: imagoto17
 photo.20.commitdate: 2024/6/25
 photo.20.link: ig://CVU5hp5BMM_
 photo.20.tags: apple time, bite, couple, keeper, paws, portrait, sample, whiskers
+photo.20.tags.134.location: 170, 315
+photo.20.tags.165.location: 590, 290
 photo.21: cwdc://XynakYSADQB.jpg
 photo.21.author: imagoto17
 photo.21.commitdate: 2022/3/4
@@ -153,11 +161,15 @@ photo.23.author: imagoto17
 photo.23.commitdate: 2024/6/25
 photo.23.link: ig://CX-v2UmvfNX
 photo.23.tags: couple, paws, peek, sample, whiskers
+photo.23.tags.134.location: 110, 485
+photo.23.tags.165.location: 420, 300
 photo.24: cwdc://X37HNttADQD.jpg
 photo.24.author: imagoto17
 photo.24.commitdate: 2024/6/25
 photo.24.link: ig://CX-v2UmvfNZ
 photo.24.tags: couple, paws, peek, sample
+photo.24.tags.134.location: 195, 375
+photo.24.tags.165.location: 430, 355
 photo.25: cwdc://X5CU719ADQJ.jpg
 photo.25.author: falcon_tenor
 photo.25.commitdate: 2022/4/12
@@ -170,16 +182,22 @@ photo.26.author: falcon_tenor
 photo.26.commitdate: 2024/6/25
 photo.26.link: ig://CYiWtYuvIM_
 photo.26.tags: apple time, couple, paws, portrait, sample, standing, whiskers
+photo.26.tags.134.location: 270, 230
+photo.26.tags.165.location: 595, 210
 photo.27: cwdc://X5CU719ADQL.jpg
 photo.27.author: falcon_tenor
 photo.27.commitdate: 2024/6/25
 photo.27.link: ig://CYiWtYuvINA
 photo.27.tags: apple time, couple, paws, portrait, sample, standing, whiskers
+photo.27.tags.134.location: 240, 240
+photo.27.tags.165.location: 560, 190
 photo.28: cwdc://YEz-JHZADQD.jpg
 photo.28.author: tomo3700
 photo.28.commitdate: 2024/6/25
 photo.28.link: ig://CebLUBcvwSF
 photo.28.tags: apple time, couple, home, paws, portrait, sample, whiskers
+photo.28.tags.134.location: 190, 375
+photo.28.tags.165.location: 545, 420
 photo.29: cwdc://YHdTqBoADQH.jpg
 photo.29.author: i.satosato
 photo.29.commitdate: 2022/8/16
@@ -192,3 +210,5 @@ photo.30.author: i.satosato
 photo.30.commitdate: 2024/6/25
 photo.30.link: ig://Ck3FbVdPp8q
 photo.30.tags: bamboo, close-up, couple, paws, portrait, whiskers
+photo.30.tags.134.location: 270, 160
+photo.30.tags.165.location: 500, 275

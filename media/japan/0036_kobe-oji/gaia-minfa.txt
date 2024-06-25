@@ -7,6 +7,8 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/6/25
 photo.1.link: ig://BP5KRRJhJ5t
 photo.1.tags: couple, laying down, tree
+photo.1.tags.111.location: 500, 440
+photo.1.tags.165.location: 340, 195
 photo.2: cwdc://WwUUaGgADQA.jpg
 photo.2.author: i.satosato
 photo.2.commitdate: 2019/7/22
@@ -33,6 +35,8 @@ photo.5.author: tomo3700
 photo.5.commitdate: 2024/6/25
 photo.5.link: ig://B8Do14eBYNt
 photo.5.tags: apple time, bridge, couple, portrait, sample, whiskers
+photo.5.tags.111.location: 420, 480
+photo.5.tags.165.location: 165, 390
 photo.6: cwdc://XXvtCDiADQC.jpg
 photo.6.author: i.satosato
 photo.6.commitdate: 2022/1/7
@@ -45,8 +49,12 @@ photo.7.author: i.satosato
 photo.7.commitdate: 2024/6/25
 photo.7.link: ig://CH5CwfhBZY2
 photo.7.tags: apple time, keeper, paws, portrait, sample, standing, tongue, whiskers
+photo.7.tags.111.location: 240, 365
+photo.7.tags.165.location: 540, 155
 photo.8: cwdc://XXvtCDiADQE.jpg
 photo.8.author: i.satosato
 photo.8.commitdate: 2024/6/25
 photo.8.link: ig://CH5CwfhBZY3
 photo.8.tags: couple, mofumofu, portrait, sample, tail, tree
+photo.8.tags.111.location: 300, 530
+photo.8.tags.165.location: 505, 130
