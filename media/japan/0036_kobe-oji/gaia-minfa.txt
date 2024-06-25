@@ -2,31 +2,51 @@
 _id: media.36.gaia-minfa
 commitdate: 2019/7/22
 panda.tags: 111, 165
-photo.1: ig://B0LWchABtXb/m
+photo.1: cwdc://WwUUaGgADQA.jpg
 photo.1.author: i.satosato
 photo.1.commitdate: 2019/7/22
-photo.1.link: https://www.instagram.com/i.satosato/
-photo.1.tags: couple, peek, portrait, tree
+photo.1.link: ig://B0LWchABtXb
+photo.1.tags: couple, mofumofu, peek, portrait, sample, tail, tree
 photo.1.tags.111.location: 115, 210
 photo.1.tags.165.location: 195, 45
-photo.2: ig://B3vr9WHhiUy/m
+photo.2: cwdc://W3c_bwvADQB.jpg
 photo.2.author: i.satosato
 photo.2.commitdate: 2019/10/21
-photo.2.link: https://www.instagram.com/i.satosato/
-photo.2.tags: couple, tree
+photo.2.link: ig://B3vr9WHhiUy
+photo.2.tags: close-up, couple, mofumofu, portrait, tree
 photo.2.tags.111.location: 110, 225
 photo.2.tags.165.location: 180, 120
-photo.3: ig://B8Do14eBYNs/m
+photo.3: cwdc://XAE5M1cADQA.jpg
 photo.3.author: tomo3700
 photo.3.commitdate: 2020/5/29
-photo.3.link: https://www.instagram.com/tomo3700/
-photo.3.tags: apple time, couple
+photo.3.link: ig://B8Do14eBYNs
+photo.3.tags: apple time, bridge, couple, portrait
 photo.3.tags.111.location: 70, 200
 photo.3.tags.165.location: 150, 180
-photo.4: ig://CH5CwfhBZY1/l
+photo.4: cwdc://XXvtCDiADQC.jpg
 photo.4.author: i.satosato
 photo.4.commitdate: 2022/1/7
-photo.4.link: https://www.instagram.com/i.satosato/
+photo.4.link: ig://CH5CwfhBZY1
 photo.4.tags: bridge, couple, mofumofu, paws, portrait, whiskers
 photo.4.tags.111.location: 555, 580
 photo.4.tags.165.location: 930, 640
+photo.5: cwdc://Vnv8DmzADQA.jpg
+photo.5.author: love__mitarashi
+photo.5.commitdate: 2024/6/25
+photo.5.link: ig://BP5KRRJhJ5t
+photo.5.tags: couple, laying down, tree
+photo.6: cwdc://XAE5M1cADQB.jpg
+photo.6.author: tomo3700
+photo.6.commitdate: 2024/6/25
+photo.6.link: ig://B8Do14eBYNt
+photo.6.tags: apple time, bridge, couple, portrait, sample, whiskers
+photo.7: cwdc://XXvtCDiADQD.jpg
+photo.7.author: i.satosato
+photo.7.commitdate: 2024/6/25
+photo.7.link: ig://CH5CwfhBZY2
+photo.7.tags: apple time, keeper, paws, portrait, sample, standing, tongue, whiskers
+photo.8: cwdc://XXvtCDiADQE.jpg
+photo.8.author: i.satosato
+photo.8.commitdate: 2024/6/25
+photo.8.link: ig://CH5CwfhBZY3
+photo.8.tags: couple, mofumofu, portrait, sample, tail, tree
