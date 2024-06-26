@@ -42,9 +42,6 @@ photo.5.author: philadelphiazoo
 photo.5.commitdate: 2022/5/1
 photo.5.link: https://www.instagram.com/philadelphiazoo/
 photo.5.tags: close-up, videolink, whiskers
-species: 1
-studbook.id: 1820
-zoo: 81
 photo.6: cwdc://Yvo5io6ADQA.jpg
 photo.6.author: wumpwoast
 photo.6.commitdate: 2024/6/25
@@ -60,3 +57,6 @@ photo.8.author: wumpwoast
 photo.8.commitdate: 2024/6/25
 photo.8.link: ig://Cz6oQkyxpX6
 photo.8.tags: peek, portrait, sample, whiskers
+species: 1
+studbook.id: 1820
+zoo: 81
