@@ -122,11 +122,11 @@ photo.21.author: wumpwoast
 photo.21.commitdate: 2019/11/1
 photo.21.link: ig://BoLgH_RFljz
 photo.21.tags: laying down, portrait, sleeping
-photo.22: ig://BpfEjwxhnBn/m
+photo.22: cwdc://Wa7womDADQA.jpg
 photo.22.author: alyss_or_rose
 photo.22.commitdate: 2020/5/25
-photo.22.link: https://www.instagram.com/alyss_or_rose/
-photo.22.tags: paws, pumpkin
+photo.22.link: ig://BpfEjwxhnBn
+photo.22.tags: paws, pumpkin, sample, whiskers
 photo.23: cwdc://Wc5e2UuADQF.jpg
 photo.23.author: zookeeper_aj
 photo.23.commitdate: 2018/11/21
@@ -176,3 +176,8 @@ photo.31.author: zookeeper_aj
 photo.31.commitdate: 2024/6/27
 photo.31.link: ig://Bm1fxbeHjgy
 photo.31.tags: paws, sample, toys
+photo.32: cwdc://Wa7womDADQB.jpg
+photo.32.author: alyss_or_rose
+photo.32.commitdate: 2024/6/27
+photo.32.link: ig://BpfEjwxhnBo
+photo.32.tags: bite, grape, sample, whiskers
