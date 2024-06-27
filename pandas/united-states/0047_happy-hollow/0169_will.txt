@@ -54,6 +54,7 @@ photo.8: cwdc://WIxCxPgADQB.jpg
 photo.8.author: hhpzoo
 photo.8.commitdate: 2020/4/1
 photo.8.link: ig://BgZtoFgAb9T
+photo.8.tags: bamboo, sample
 photo.9: cwdc://WIyIvaHADQG.jpg
 photo.9.author: zookeeper_aj
 photo.9.commitdate: 2020/4/1
@@ -414,37 +415,36 @@ photo.80.author: hhpzoo
 photo.80.commitdate: 2023/8/11
 photo.80.link: ig://CuSxlFxs_Ft
 photo.80.tags: close-up, mofumofu, whiskers
-photo.81: cwdc://YsbKD-AADQA.jpg
-photo.81.author: wumpwoast
-photo.81.commitdate: 2023/10/24
-photo.81.link: ig://CyOxRcwSg3o
-photo.81.tags: door, paws, portrait, sample
-photo.82: cwdc://Ysq_CKyADQA.jpg
-photo.82.author: wumpwoast
-photo.82.commitdate: 2023/10/24
-photo.82.link: ig://CyWrwjJSMGW
-photo.82.tags: dish, door, lunch time, portrait, sample, whiskers
+photo.81: cwdc://YkjKrQDADQM.jpg
+photo.81.author: hhpzoo
+photo.81.commitdate: 2024/6/27
+photo.81.link: ig://CuSxlFxs_Fu
+photo.81.tags: bamboo, close-up, whiskers
+photo.82: cwdc://YkjKrQDADQN.jpg
+photo.82.author: hhpzoo
+photo.82.commitdate: 2024/6/27
+photo.82.link: ig://CuSxlFxs_Fv
+photo.82.tags: paws, sample, whiskers
+photo.83: cwdc://YkjKrQDADQO.jpg
+photo.83.author: hhpzoo
+photo.83.commitdate: 2024/6/27
+photo.83.link: ig://CuSxlFxs_Fw
+photo.83.tags: bamboo, paws, shoots
+photo.84: cwdc://YsbKD-AADQA.jpg
+photo.84.author: wumpwoast
+photo.84.commitdate: 2023/10/24
+photo.84.link: ig://CyOxRcwSg3o
+photo.84.tags: door, paws, portrait, sample
+photo.85: cwdc://Ysq_CKyADQA.jpg
+photo.85.author: wumpwoast
+photo.85.commitdate: 2023/10/24
+photo.85.link: ig://CyWrwjJSMGW
+photo.85.tags: dish, door, lunch time, portrait, sample, whiskers
+photo.86: cwdc://Y5NbIMzADQE.jpg
+photo.86.author: hhpzoo
+photo.86.commitdate: 2024/6/27
+photo.86.link: ig://C4n5zkJpun7
+photo.86.tags: hammock, laying down, paws, portrait
 species: 1
 studbook.id: 1542
 zoo: 47
-photo.8.tags: bamboo, sample
-photo.83: cwdc://Y5NbIMzADQE.jpg
-photo.83.author: hhpzoo
-photo.83.commitdate: 2024/6/27
-photo.83.link: ig://C4n5zkJpun7
-photo.83.tags: hammock, laying down, paws, portrait
-photo.84: cwdc://YkjKrQDADQM.jpg
-photo.84.author: hhpzoo
-photo.84.commitdate: 2024/6/27
-photo.84.link: ig://CuSxlFxs_Fu
-photo.84.tags: bamboo, close-up, whiskers
-photo.85: cwdc://YkjKrQDADQN.jpg
-photo.85.author: hhpzoo
-photo.85.commitdate: 2024/6/27
-photo.85.link: ig://CuSxlFxs_Fv
-photo.85.tags: paws, sample, whiskers
-photo.86: cwdc://YkjKrQDADQO.jpg
-photo.86.author: hhpzoo
-photo.86.commitdate: 2024/6/27
-photo.86.link: ig://CuSxlFxs_Fw
-photo.86.tags: bamboo, paws, shoots
