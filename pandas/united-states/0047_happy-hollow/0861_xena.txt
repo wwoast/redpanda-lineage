@@ -65,16 +65,16 @@ photo.10.author: wumpwoast
 photo.10.commitdate: 2019/7/30
 photo.10.link: ig://B0fGUqbBwoz
 photo.10.tags: bamboo, mofumofu, portrait, tail
-photo.11: ig://B1P6KqUgDKt/m
+photo.11: cwdc://Wydb2ZJADQA.jpg
 photo.11.author: zookeeper_aj
 photo.11.commitdate: 2019/8/20
-photo.11.link: https://www.instagram.com/zookeeper_aj/
-photo.11.tags: laying down, paws, peek, tree
-photo.12: ig://B2sYcN-ANTU/m
+photo.11.link: ig://B1P6KqUgDKt
+photo.11.tags: laying down, paws, peek, sample, tree
+photo.12: cwdc://W1WYZgcADQA.jpg
 photo.12.author: alyss_or_rose
 photo.12.commitdate: 2020/5/25
-photo.12.link: https://www.instagram.com/alyss_or_rose/
-photo.12.tags: lunch time, smile, toys
+photo.12.link: ig://B2sYcN-ANTU
+photo.12.tags: lunch time, sample, smile, toys, white face
 photo.13: ig://B3Vod77ICkQ/m
 photo.13.author: hhpzoo
 photo.13.commitdate: 2019/10/15
@@ -165,11 +165,11 @@ photo.30.author: hhpzoo
 photo.30.commitdate: 2020/3/24
 photo.30.link: https://www.instagram.com/hhpzoo/
 photo.30.tags: laying down, peek, portrait, tree, white face
-photo.31: ig://B-djoC-jBRy/m
+photo.31: cwdc://XE4uxKdADQB.jpg
 photo.31.author: alyss_or_rose
 photo.31.commitdate: 2020/5/25
-photo.31.link: https://www.instagram.com/alyss_or_rose/
-photo.31.tags: paws, tree, videolink, white face
+photo.31.link: ig://B-djoC-jBRy
+photo.31.tags: paws, sample, tree, videolink, white face
 photo.32: cwdc://XGbKPrAADQA.jpg
 photo.32.author: wumpwoast
 photo.32.commitdate: 2020/4/27
@@ -185,11 +185,11 @@ photo.34.author: wumpwoast
 photo.34.commitdate: 2022/10/13
 photo.34.link: ig://B_wQPljH6ja
 photo.34.tags: bamboo, bite, portrait, toys
-photo.35: ig://B_28yrOgRrD/m
+photo.35: cwdc://XHrhGa9ADQA.jpg
 photo.35.author: djjohnbeaver
 photo.35.commitdate: 2020/5/11
-photo.35.link: https://www.instagram.com/djjohnbeaver/
-photo.35.tags: bamboo, paws, smile, tail, tongue, tree, white face
+photo.35.link: ig://B_28yrOgRrD
+photo.35.tags: bamboo, paws, sample, smile, tail, tongue, tree, white face
 photo.36: ig://CAODD_ApJhC/m
 photo.36.author: hhpzoo
 photo.36.commitdate: 2020/5/17
@@ -225,21 +225,21 @@ photo.42.author: hhpzoo
 photo.42.commitdate: 2020/7/12
 photo.42.link: https://www.instagram.com/hhpzoo/
 photo.42.tags: laying down, peek, portrait, tree, white face
-photo.43: ig://CDjXgGPgYlO/m
+photo.43: cwdc://XPEWhQ_ADQB.jpg
 photo.43.author: djjohnbeaver
 photo.43.commitdate: 2020/8/13
-photo.43.link: https://www.instagram.com/djjohnbeaver/
+photo.43.link: ig://CDjXgGPgYlO
 photo.43.tags: close-up, nose, whiskers
 photo.44: ig://CEK2NYMDmuW/m
 photo.44.author: hhpzoo
 photo.44.commitdate: 2020/8/23
 photo.44.link: https://www.instagram.com/hhpzoo/
 photo.44.tags: bamboo, videolink, wite face
-photo.45: ig://CErgtqygMXN/m
+photo.45: cwdc://XRUo8aFADQC.jpg
 photo.45.author: djjohnbeaver
 photo.45.commitdate: 2020/12/28
-photo.45.link: https://www.instagram.com/djjohnbeaver/
-photo.45.tags: bamboo, paws, portrait, videolink
+photo.45.link: ig://CErgtqygMXN
+photo.45.tags: bamboo, paws, portrait, sample, videolink
 photo.46: ig://CFSIvTYnZ1k/m
 photo.46.author: hhpzoo
 photo.46.commitdate: 2020/11/6
@@ -373,3 +373,8 @@ photo.71.tags: bamboo, peek, portrait, white face
 species: 1
 studbook.id: 1821
 zoo: 47
+photo.72: cwdc://YuIXk8AADQD.jpg
+photo.72.author: djjohnbeaver
+photo.72.commitdate: 2024/6/27
+photo.72.link: ig://CzFYB7wRZmv
+photo.72.tags: pumpkin, sample, whiskers

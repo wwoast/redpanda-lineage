@@ -33,20 +33,20 @@ photo.3.author: worldthathesees
 photo.3.commitdate: 2019/4/9
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: bamboo
-photo.4: ig://BD31zwVPKMY/m
+photo.4: cwdc://VPtTIlKADQA.jpg
 photo.4.author: djjohnbeaver
 photo.4.commitdate: 2018/12/9
-photo.4.link: https://www.instagram.com/djjohnbeaver/
-photo.4.tags: air tasting, bamboo, tongue
-photo.5: ig://BSSOWqIBrqV/m
+photo.4.link: ig://BD31zwVPKMY
+photo.4.tags: air tasting, bamboo, sample, tongue
+photo.5: cwdc://VsiEOYwADQI.jpg
 photo.5.author: zookeeper_aj
 photo.5.commitdate: 2018/7/26
-photo.5.link: https://www.instagram.com/zookeeper_aj/
-photo.5.tags: techitechi
-photo.6: ig://BS9dGkOhoHI/m
+photo.5.link: ig://BSSOWqIBrqV
+photo.5.tags: sample, techitechi
+photo.6: cwdc://Vt4huM9ADQG.jpg
 photo.6.author: zookeeper_aj
 photo.6.commitdate: 2020/4/1
-photo.6.link: https://www.instagram.com/zookeeper_aj/
+photo.6.link: ig://BS9dGkOhoHI
 photo.6.tags: toys
 photo.7: cwdc://VxwBmMkADQA.jpg
 photo.7.author: wumpwoast
@@ -78,20 +78,20 @@ photo.12.author: wumpwoast
 photo.12.commitdate: 2018/7/26
 photo.12.link: ig://BiZ8xxclfy9
 photo.12.tags: pull-up
-photo.13: ig://BidjdaAn32S/m
+photo.13: cwdc://WM4ub4hADQA.jpg
 photo.13.author: zookeeper_aj
 photo.13.commitdate: 2020/4/1
-photo.13.link: https://www.instagram.com/zookeeper_aj/
+photo.13.link: ig://BidjdaAn32S
 photo.13.tags: close-up, nose
 photo.14: cwdc://WN6ITwIADQA.jpg
 photo.14.author: wumpwoast
 photo.14.commitdate: 2020/6/18
 photo.14.link: ig://Bi-QZV0FUYm
 photo.14.tags: laying down, paws, portrait
-photo.15: ig://Bjz40EFHH-Q/m
+photo.15: cwdc://WPlZJMqADQB.jpg
 photo.15.author: zookeeper_aj
 photo.15.commitdate: 2018/7/26
-photo.15.link: https://www.instagram.com/zookeeper_aj/
+photo.15.link: ig://Bjz40EFHH-Q
 photo.16: cwdc://WRoghtlADQA.jpg
 photo.16.author: wumpwoast
 photo.16.commitdate: 2018/7/26
@@ -107,16 +107,16 @@ photo.18.author: zookeeper_aj
 photo.18.commitdate: 2018/9/13
 photo.18.link: ig://BmUrNnyntyO
 photo.18.tags: profile, sample
-photo.19: ig://Bm1fxbeHjgx/m
+photo.19: cwdc://WVonD7cADQC.jpg
 photo.19.author: zookeeper_aj
 photo.19.commitdate: 2020/4/1
-photo.19.link: https://www.instagram.com/zookeeper_aj/
-photo.19.tags: paws, peek
-photo.20: ig://BnxSyIbHky1/m
+photo.19.link: ig://Bm1fxbeHjgx
+photo.19.tags: bamboo, paws, peek, sample, whiskers
+photo.20: cwdc://WXgNFVWADQE.jpg
 photo.20.author: zookeeper_aj
 photo.20.commitdate: 2018/9/16
-photo.20.link: https://www.instagram.com/zookeeper_aj/
-photo.20.tags: paws
+photo.20.link: ig://BnxSyIbHky1
+photo.20.tags: paws, sample, whiskers
 photo.21: cwdc://WYUnxDCADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2019/11/1
@@ -127,26 +127,26 @@ photo.22.author: alyss_or_rose
 photo.22.commitdate: 2020/5/25
 photo.22.link: https://www.instagram.com/alyss_or_rose/
 photo.22.tags: paws, pumpkin
-photo.23: ig://Bqd7qoHBLKx/m
+photo.23: cwdc://Wc5e2UuADQF.jpg
 photo.23.author: zookeeper_aj
 photo.23.commitdate: 2018/11/21
-photo.23.link: https://www.instagram.com/zookeeper_aj/
-photo.23.tags: lunch time
-photo.24: ig://BsBx1kWhGqM/m
+photo.23.link: ig://Bqd7qoHBLKx
+photo.23.tags: lunch time, sample, techitechi
+photo.24: cwdc://WgBLMNNADQH.jpg
 photo.24.author: zookeeper_aj
 photo.24.commitdate: 2020/4/1
-photo.24.link: https://www.instagram.com/zookeeper_aj/
-photo.24.tags: laying down, peek
-photo.25: ig://BuWUmmigcw5/m
+photo.24.link: ig://BsBx1kWhGqM
+photo.24.tags: laying down, peek, sample, whiskers
+photo.25: cwdc://WkqQuRlADQJ.jpg
 photo.25.author: zookeeper_aj
 photo.25.commitdate: 2019/3/9
-photo.25.link: https://www.instagram.com/zookeeper_aj/
+photo.25.link: ig://BuWUmmigcw5
 photo.25.tags: bamboo
-photo.26: ig://BvFz66pAsdE/m
+photo.26: cwdc://WmJPW5yADQK.jpg
 photo.26.author: zookeeper_aj
 photo.26.commitdate: 2019/3/21
-photo.26.link: https://www.instagram.com/zookeeper_aj/
-photo.26.tags: paws
+photo.26.link: ig://BvFz66pAsdE
+photo.26.tags: paws, sample, whiskers
 photo.27: cwdc://Wqv-sICADQA.jpg
 photo.27.author: wumpwoast
 photo.27.commitdate: 2020/6/18
@@ -170,3 +170,9 @@ photo.30.tags: paws, peek, portrait, sample
 species: 1
 studbook.id: 1109
 zoo: 152
+photo.15.tags: close-up, peek, sample, whiskers
+photo.31: cwdc://WVonD7cADQD.jpg
+photo.31.author: zookeeper_aj
+photo.31.commitdate: 2024/6/27
+photo.31.link: ig://Bm1fxbeHjgy
+photo.31.tags: paws, sample, toys
