@@ -355,51 +355,46 @@ photo.68.author: wumpwoast
 photo.68.commitdate: 2022/6/29
 photo.68.link: ig://CeDcDzgLaJW
 photo.68.tags: peek, portrait
-photo.69: cwdc://YGcgACtADQJ.jpg
-photo.69.author: hhpzoo
+photo.69: cwdc://YGdjvGIADQA.jpg
+photo.69.author: wumpwoast
 photo.69.commitdate: 2022/7/9
-photo.69.link: ig://CfPcPfGsaDT
-photo.69.tags: birthday, paws, portrait, sample, whiskers
-photo.70: cwdc://YGdjvGIADQA.jpg
+photo.69.link: ig://CfP-HA0JaoR
+photo.69.tags: bamboo, portrait, whiskers
+photo.70: cwdc://YI2s0CaADQA.jpg
 photo.70.author: wumpwoast
-photo.70.commitdate: 2022/7/9
-photo.70.link: ig://CfP-HA0JaoR
-photo.70.tags: bamboo, portrait, whiskers
-photo.71: cwdc://YI2s0CaADQA.jpg
+photo.70.commitdate: 2022/8/5
+photo.70.link: ig://Cgcipe9OT0V
+photo.70.tags: bamboo, bite, laying down, portrait, sample, white face
+photo.71: cwdc://YLlg7YpADQA.jpg
 photo.71.author: wumpwoast
-photo.71.commitdate: 2022/8/5
-photo.71.link: ig://Cgcipe9OT0V
-photo.71.tags: bamboo, bite, laying down, portrait, sample, white face
-photo.72: cwdc://YLlg7YpADQA.jpg
+photo.71.commitdate: 2022/8/28
+photo.71.link: ig://Chz8tKEpX57
+photo.71.tags: laying down, portrait, sample, tongue, tree
+photo.72: cwdc://YMRLl3cADQA.jpg
 photo.72.author: wumpwoast
-photo.72.commitdate: 2022/8/28
-photo.72.link: ig://Chz8tKEpX57
-photo.72.tags: laying down, portrait, sample, tongue, tree
-photo.73: cwdc://YMRLl3cADQA.jpg
+photo.72.commitdate: 2022/9/10
+photo.72.link: ig://CiJyCZeP7g-
+photo.72.tags: portrait, toys
+photo.73: cwdc://YcBsbZ5ADQA.jpg
 photo.73.author: wumpwoast
-photo.73.commitdate: 2022/9/10
-photo.73.link: ig://CiJyCZeP7g-
-photo.73.tags: portrait, toys
-photo.74: cwdc://YcBsbZ5ADQA.jpg
+photo.73.commitdate: 2023/6/18
+photo.73.link: ig://CqCCdKsp-BM
+photo.73.tags: bamboo, close-up, nose, portrait, sample
+photo.74: cwdc://YdIkcwmADQA.jpg
 photo.74.author: wumpwoast
-photo.74.commitdate: 2023/6/18
-photo.74.link: ig://CqCCdKsp-BM
-photo.74.tags: bamboo, close-up, nose, portrait, sample
-photo.75: cwdc://YdIkcwmADQA.jpg
+photo.74.commitdate: 2023/6/9
+photo.74.link: ig://Cqled2DPFvm
+photo.74.tags: laying down, mofumofu, sample, tail
+photo.75: cwdc://YqJxq7rADQA.jpg
 photo.75.author: wumpwoast
-photo.75.commitdate: 2023/6/9
-photo.75.link: ig://Cqled2DPFvm
-photo.75.tags: laying down, mofumofu, sample, tail
-photo.76: cwdc://YqJxq7rADQA.jpg
-photo.76.author: wumpwoast
-photo.76.commitdate: 2023/9/12
-photo.76.link: ig://CxGFE7lrUjR
-photo.76.tags: bamboo, peek, portrait, white face
-photo.77: cwdc://YuIXk8AADQD.jpg
-photo.77.author: djjohnbeaver
-photo.77.commitdate: 2024/6/27
-photo.77.link: ig://CzFYB7wRZmv
-photo.77.tags: pumpkin, sample, whiskers
+photo.75.commitdate: 2023/9/12
+photo.75.link: ig://CxGFE7lrUjR
+photo.75.tags: bamboo, peek, portrait, white face
+photo.76: cwdc://YuIXk8AADQD.jpg
+photo.76.author: djjohnbeaver
+photo.76.commitdate: 2024/6/27
+photo.76.link: ig://CzFYB7wRZmv
+photo.76.tags: pumpkin, sample, whiskers
 species: 1
 studbook.id: 1821
 zoo: 47
