@@ -23,7 +23,7 @@ photo.1.tags: peek, whiskers
 photo.2: cwdc://VhU0sfsADQA.jpg
 photo.2.author: zookeeper_aj
 photo.2.commitdate: 2020/4/1
-photo.2.link: ig://BMrmltmBo33
+photo.2.link: ig://hhpzoo/BMrmltmBo33
 photo.2.tags: bamboo, laying down, peek
 photo.3: cwdc://VtdXWJ5ADQI.jpg
 photo.3.author: zookeeper_aj
@@ -34,10 +34,12 @@ photo.4: cwdc://VwWxBm-ADQJ.jpg
 photo.4.author: zookeeper_aj
 photo.4.commitdate: 2018/7/26
 photo.4.link: ig://BUMkwRPBTyu
+photo.4.tags: sample, whiskers, white face
 photo.5: cwdc://V6Mdp5nADQK.jpg
 photo.5.author: zookeeper_aj
 photo.5.commitdate: 2020/4/1
 photo.5.link: ig://BZHbEajn-7N
+photo.5.tags: sample, whiskers
 photo.6: cwdc://V-yugYDADQA.jpg
 photo.6.author: wumpwoast
 photo.6.commitdate: 2018/7/26
@@ -221,6 +223,7 @@ photo.42: cwdc://W60AtffADQD.jpg
 photo.42.author: zookeeper_aj
 photo.42.commitdate: 2019/11/29
 photo.42.link: ig://B5bMmNfgxRi
+photo.42.tags: paws, whiskers, white face
 photo.43: cwdc://W7MvbthADQA.jpg
 photo.43.author: wumpwoast
 photo.43.commitdate: 2019/12/7
@@ -424,6 +427,3 @@ photo.82.tags: dish, door, lunch time, portrait, sample, whiskers
 species: 1
 studbook.id: 1542
 zoo: 47
-photo.5.tags: sample, whiskers
-photo.4.tags: sample, whiskers, white face
-photo.42.tags: paws, whiskers, white face
