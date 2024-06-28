@@ -21,7 +21,7 @@ photo.1.tags: baby, muzzle, portrait, sample
 photo.2: cwdc://WcVqv8CADQI.jpg
 photo.2.author: adventureworld_official
 photo.2.commitdate: 2024/4/7
-photo.2.link: ig://BqMBnbxFUL1
+photo.2.link: ig://BqMBnbxFUL1?img_index=2
 photo.2.tags: baby, mofumofu, muzzle, paws, portrait, sample
 photo.3: cwdc://WckgE-HADQA.jpg
 photo.3.author: monmon_redpanda
@@ -41,7 +41,7 @@ photo.5.tags: baby, muzzle, portrait, sample
 photo.6: cwdc://WdJ4YiFADQK.jpg
 photo.6.author: adventureworld_official
 photo.6.commitdate: 2024/4/7
-photo.6.link: ig://BqmIbuylGru
+photo.6.link: ig://BqmIbuylGru?img_index=2
 photo.6.tags: baby, home, muzzle, portrait, tail, tongue
 photo.7: cwdc://WdXTUjiADQI.jpg
 photo.7.author: framereim
@@ -91,7 +91,7 @@ photo.15.tags: muzzle, paws, portrait, sample, whiskers
 photo.16: cwdc://Wf48OODADQB.jpg
 photo.16.author: falcon_tenor
 photo.16.commitdate: 2024/4/7
-photo.16.link: ig://Br9qWkxlwtW
+photo.16.link: ig://Br9qWkxlwtW?img_index=3
 photo.16.tags: baby, mofumofu, muzzle, portrait, sample
 photo.17: cwdc://WgRETLzADQC.jpg
 photo.17.author: nakacchi_desu
@@ -106,12 +106,12 @@ photo.18.tags: mofumofu, paws, portrait, sample
 photo.19: cwdc://Wg3btAZADQD.jpg
 photo.19.author: falcon_tenor
 photo.19.commitdate: 2024/4/7
-photo.19.link: ig://Bsc6F98lYad
+photo.19.link: ig://Bsc6F98lYac?img_index=3
 photo.19.tags: baby, bite, mofumofu, muzzle, portrait, sample, toys
 photo.20: cwdc://Wg3btAZADQE.jpg
 photo.20.author: falcon_tenor
 photo.20.commitdate: 2024/4/7
-photo.20.link: ig://Bsc6F98lYae
+photo.20.link: ig://Bsc6F98lYac?img_index=4
 photo.20.tags: baby, mofumofu, muzzle, portrait, sample, tongue, toys
 photo.21: cwdc://WhrIanGADQA.jpg
 photo.21.author: daniele.tokyo
@@ -141,12 +141,12 @@ photo.25.tags: laying down, portrait, sample, tree
 photo.26: cwdc://WifEct1ADQB.jpg
 photo.26.author: pon.bird
 photo.26.commitdate: 2024/4/7
-photo.26.link: ig://BtQud0qgHMh
+photo.26.link: ig://BtQud0qgHMh?img_index=2
 photo.26.tags: paws, portrait, sample, tail
 photo.27: cwdc://WifEct1ADQC.jpg
 photo.27.author: pon.bird
 photo.27.commitdate: 2024/4/7
-photo.27.link: ig://BtQud0qgHMh
+photo.27.link: ig://BtQud0qgHMh?img_index=4
 photo.27.tags: climb, portrait, tail
 photo.28: cwdc://WjDCIC2ADQB.jpg
 photo.28.author: mifko55
