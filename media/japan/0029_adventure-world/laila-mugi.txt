@@ -5,7 +5,7 @@ panda.tags: 60, 305
 photo.1: cwdc://WcVqv8CADQB.jpg
 photo.1.author: adventureworld_official
 photo.1.commitdate: 2024/4/8
-photo.1.link: ig://BqMBnbxFUL1
+photo.1.link: ig://BqMBnbxFUL1?img_index=3
 photo.1.tags: baby, mother's day, paws, portrait, sample, whiskers
 photo.1.tags.60.location: 365, 355
 photo.1.tags.305.location: 180, 380
@@ -47,7 +47,7 @@ photo.6.tags.305.location: 100, 170
 photo.7: cwdc://WifEct1ADQD.jpg
 photo.7.author: pon.bird
 photo.7.commitdate: 2024/4/8
-photo.7.link: ig://BtQud0qgHMj
+photo.7.link: ig://BtQud0qgHMh?img_index=6
 photo.7.tags: baby, climb, mofumofu, paws, upside-down
 photo.7.tags.60.location: 435, 305
 photo.7.tags.305.location: 175, 450
@@ -212,3 +212,8 @@ photo.30.link: ig://B_89aoXh0yy
 photo.30.tags: day, mothers, paws, playing
 photo.30.tags.60.location: 150, 160
 photo.30.tags.305.location: 65, 150
+photo.31: cwdc://WifEct1ADQE.jpg
+photo.31.author: pon.bird
+photo.31.commitdate: 2024/6/28
+photo.31.link: ig://BtQud0qgHMh?img_index=5
+photo.31.tags: mofumofu, mother's day, paws, playing, portrait, techitechi
