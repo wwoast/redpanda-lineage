@@ -2,15 +2,15 @@
 _id: media.37.reirei-shoushou
 commitdate: 2020/1/6
 panda.tags: 225, 233
-photo.1: cwdc://W9VnHDUADQA.jpg
-photo.1.author: framereim
-photo.1.commitdate: 2020/1/6
-photo.1.link: ig://B6r_y_aBHaS
-photo.1.tags: brothers, paws, playing, portrait, sample, snow, whiskers
-photo.1.tags.225.location: 115, 20
-photo.1.tags.233.location: 275, 170
-photo.2: cwdc://W2bjVuEADQA.jpg
-photo.2.author: komabazoophoto
-photo.2.commitdate: 2019/10/20
-photo.2.link: ig://B3O96UyBqyP
-photo.2.tags: family, paws, tongue
+photo.1: cwdc://W2bjVuEADQA.jpg
+photo.1.author: komabazoophoto
+photo.1.commitdate: 2019/10/20
+photo.1.link: ig://B3O96UyBqyP
+photo.1.tags: family, paws, tongue
+photo.2: cwdc://W9VnHDUADQA.jpg
+photo.2.author: framereim
+photo.2.commitdate: 2020/1/6
+photo.2.link: ig://B6r_y_aBHaS
+photo.2.tags: brothers, paws, playing, portrait, sample, snow, whiskers
+photo.2.tags.225.location: 115, 20
+photo.2.tags.233.location: 275, 170
