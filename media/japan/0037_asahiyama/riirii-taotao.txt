@@ -2,73 +2,83 @@
 _id: media.37.riirii-taotao
 commitdate: 2019/7/9
 panda.tags: 235, 236
-photo.1: ig://Bzb5SqVgI3U/m
+photo.1: cwdc://Wu1aGZLADQA.jpg
 photo.1.author: takahisakaneuchi
 photo.1.commitdate: 2019/7/9
-photo.1.link: https://www.instagram.com/takahisakaneuchi/
-photo.1.tags: laying down, siblings, sisters, twins
+photo.1.link: ig://Bzb5SqVgI3U
+photo.1.tags: laying down, mofumofu, paws, portrait, sample, siblings, sisters, twins
 photo.1.tags.235.location: 85, 135
 photo.1.tags.236.location: 210, 220
-photo.2: ig://Bzx98euhjfM/m
+photo.2: cwdc://WvhjaB9ADQA.jpg
 photo.2.author: leonard_redmof
 photo.2.commitdate: 2019/7/12
-photo.2.link: https://www.instagram.com/leonard_redmof/
-photo.2.tags: siblings, sisters, snow, twins
+photo.2.link: ig://Bzx98euhjfM
+photo.2.tags: baby, portrait, siblings, sisters, snow, twins
 photo.2.tags.235.location: 205, 205
 photo.2.tags.236.location: 95, 150
-photo.3: ig://B9BiRCohQhP/l
+photo.3: cwdc://XCAsDJxADQA.jpg
 photo.3.author: sasapan34
 photo.3.commitdate: 2020/3/5
-photo.3.link: https://www.instagram.com/sasapan34/
+photo.3.link: ig://B9BiRCohQhP
 photo.3.tags: bamboo, siblings, snow, twins
 photo.3.tags.235.location: 815, 600
 photo.3.tags.236.location: 355, 125
-photo.4: ig://B9Bl6PGhp1k/l
+photo.4: cwdc://XCAzVitADQD.jpg
 photo.4.author: sasapan34
 photo.4.commitdate: 2020/3/5
-photo.4.link: https://www.instagram.com/sasapan34/
-photo.4.tags: siblings, snow, twins
+photo.4.link: ig://B9Bl6PGhp1k
+photo.4.tags: mofumofu, siblings, snow, twins
 photo.4.tags.235.location: 295, 220
 photo.4.tags.236.location: 480, 350
-photo.5: ig://CB17SGgBVVR/l
+photo.5: cwdc://XLpeFRgADQA.jpg
 photo.5.author: an920000
 photo.5.commitdate: 2020/6/28
-photo.5.link: https://www.instagram.com/an920000/
-photo.5.tags: bridge, laying down, siblings, sisters, tail, twins
+photo.5.link: ig://CB17SGgBVVR
+photo.5.tags: bridge, laying down, portrait, siblings, sisters, tail, twins
 photo.5.tags.235.location: 310, 510
 photo.5.tags.236.location: 850, 335
-photo.6: ig://CB17tEWhpPR/l
+photo.6: cwdc://XLpe7NNADQB.jpg
 photo.6.author: an920000
 photo.6.commitdate: 2020/6/28
-photo.6.link: https://www.instagram.com/an920000/
-photo.6.tags: bridge, laying down, siblings, sisters, twins
+photo.6.link: ig://CB17tEWhpPR
+photo.6.tags: bridge, laying down, portrait, siblings, sisters, twins
 photo.6.tags.235.location: 770, 610
 photo.6.tags.236.location: 550, 255
-photo.7: ig://CGABoMTBNhr/l
+photo.7: cwdc://XT9qxdGADQC.jpg
 photo.7.author: an920000
 photo.7.commitdate: 2021/6/14
-photo.7.link: https://www.instagram.com/an920000/
-photo.7.tags: bridge, laying down, siblings, sisters, twins
+photo.7.link: ig://CGABoMTBNhr
+photo.7.tags: bridge, laying down, portrait, siblings, sisters, twins
 photo.7.tags.235.location: 350, 365
 photo.7.tags.236.location: 355, 235
-photo.8: ig://CIIYLgVhmHl/l
+photo.8: cwdc://XYOX4FLADQA.jpg
 photo.8.author: jas_forever_love
 photo.8.commitdate: 2022/2/28
-photo.8.link: https://www.instagram.com/jas_forever_love/
-photo.8.tags: laying down, playing, siblings, sisters, tail, twins
+photo.8.link: ig://CIIYLgVhmHl
+photo.8.tags: autumn, laying down, playing, siblings, sisters, tail, twins
 photo.8.tags.235.location: 330, 150
 photo.8.tags.236.location: 215, 235
-photo.9: ig://CL9InhtBQeT/l
+photo.9: cwdc://Xf34wH6ADQA.jpg
 photo.9.author: kotata_513
 photo.9.commitdate: 2021/11/25
-photo.9.link: https://www.instagram.com/kotata_513/
-photo.9.tags: bridge, laying down, portrait, siblings, sisters, snow, tail, twins
+photo.9.link: ig://CL9InhtBQeT
+photo.9.tags: bridge, laying down, portrait, sample, siblings, sisters, snow, tail, twins
 photo.9.tags.235.location: 285, 305
 photo.9.tags.236.location: 90, 360
-photo.10: ig://Cd08acGPtaq/l
+photo.10: cwdc://YDngV8sADQC.jpg
 photo.10.author: sasapan34
 photo.10.commitdate: 2023/3/26
-photo.10.link: https://www.instagram.com/sasapan34/
-photo.10.tags: bridge, peek, siblings, sisters, twins
+photo.10.link: ig://Cd08acGPtaq
+photo.10.tags: bridge, laying down, peek, sample, siblings, sisters, snow, twins
 photo.10.tags.235.location: 495, 335
 photo.10.tags.236.location: 210, 220
+photo.11: cwdc://XU7fn-8ADQB.jpg
+photo.11.author: leonard_redmof
+photo.11.commitdate: 2024/6/29
+photo.11.link: ig://CGe8DdOBxPt
+photo.11.tags: peek, portrait, siblings, sisters, twins
+photo.12: cwdc://XYOX4FLADQB.jpg
+photo.12.author: jas_forever_love
+photo.12.commitdate: 2024/6/29
+photo.12.link: ig://CIIYLgVhmHq
+photo.12.tags: autumn, mofumofu, paws, playing, siblings, sisters, twins

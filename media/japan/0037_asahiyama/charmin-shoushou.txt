@@ -2,18 +2,18 @@
 _id: media.37.charmin-shoushou
 commitdate: 2019/6/14
 panda.tags: 124, 233
-photo.1: ig://BuD3RMvlm-U/m
+photo.1: cwdc://WkFWDd_ADQA.jpg
 photo.1.author: asahiyamazoo1
 photo.1.commitdate: 2019/6/14
-photo.1.link: https://www.instagram.com/asahiyamazoo1/
-photo.1.tags: snow
+photo.1.link: ig://BuD3RMvlm-U
+photo.1.tags: father's day, paws, portrait, snow, standing, tail
 photo.1.tags.124.location: 100, 160
 photo.1.tags.233.location: 205, 75
-photo.2: ig://B7lFnyRBS7m/m
+photo.2: cwdc://W_HywpCADQA.jpg
 photo.2.author: framereim
 photo.2.commitdate: 2020/1/26
-photo.2.link: https://www.instagram.com/framereim/
-photo.2.tags: father's day, playing, snow
+photo.2.link: ig://B7lFnyRBS7m
+photo.2.tags: father's day, paws, playing, portrait, snow
 photo.2.tags.124.location: 75, 130
 photo.2.tags.233.location: 185, 105
 photo.3: cwdc://W4mdMSyADQD.jpg
@@ -23,3 +23,13 @@ photo.3.link: ig://B4Ua1nJBsb1
 photo.3.tags: bridge, father's day, nose, paws
 photo.3.tags.124.location: 355, 175
 photo.3.tags.233.location: 470, 190
+photo.4: cwdc://WkFWDd_ADQB.jpg
+photo.4.author: asahiyamazoo1
+photo.4.commitdate: 2024/6/29
+photo.4.link: ig://BuD3RMvlm-V
+photo.4.tags: father's day, paws, portrait, standing, tail
+photo.5: cwdc://WkFWDd_ADQC.jpg
+photo.5.author: asahiyamazoo1
+photo.5.commitdate: 2024/6/29
+photo.5.link: ig://BuD3RMvlm-W
+photo.5.tags: father's day, paws, peek, portrait, sample, standing, tail
