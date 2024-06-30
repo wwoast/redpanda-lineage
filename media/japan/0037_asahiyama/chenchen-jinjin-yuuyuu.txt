@@ -2,21 +2,35 @@
 _id: media.37.chenchen-jinjin-yuuyuu
 commitdate: 2023/3/9
 panda.tags: 227, 1370, 1371
-photo.1: cwdc://YXkO_FbADQA.jpg
-photo.1.author: rie_panda55
-photo.1.commitdate: 2023/3/9
-photo.1.link: ig://CnzTvAdvkWt
-photo.1.tags: family, portrait, siblings, snow, twins
-photo.1.tags.227.location: 420, 210
-photo.1.tags.1370.location: 225, 305
-photo.1.tags.1371.location: 125, 310
-photo.2: cwdc://YXkO_FbADQB.jpg
+photo.1: cwdc://YUVgCDMADQA.jpg
+photo.1.author: asahiyamazoo1
+photo.1.commitdate: 2024/6/29
+photo.1.link: ig://CmL8QfWPgCH
+photo.1.tags: close-up, mother's day, peek, snow, whiskers
+photo.1.tags.227.location: 375, 420
+photo.1.tags.1370.location: 730, 420
+photo.1.tags.1371.location: 180, 50
+photo.2: cwdc://YXkO_FbADQA.jpg
 photo.2.author: rie_panda55
-photo.2.commitdate: 2024/6/29
-photo.2.link: ig://CnzTvAdvkWu
-photo.2.tags: door, family, portrait, siblings, snow, twins, whiskers
-photo.3: cwdc://YXkO_FbADQC.jpg
+photo.2.commitdate: 2023/3/9
+photo.2.link: ig://CnzTvAdvkWt
+photo.2.tags: family, portrait, siblings, snow, twins
+photo.2.tags.227.location: 420, 210
+photo.2.tags.1370.location: 225, 305
+photo.2.tags.1371.location: 125, 310
+photo.3: cwdc://YXkO_FbADQB.jpg
 photo.3.author: rie_panda55
 photo.3.commitdate: 2024/6/29
-photo.3.link: ig://CnzTvAdvkWw
-photo.3.tags: mother's day, portrait, siblings, snow, toys, twins
+photo.3.link: ig://CnzTvAdvkWu
+photo.3.tags: door, family, portrait, siblings, snow, twins, whiskers
+photo.3.tags.227.location: 700, 400
+photo.3.tags.1370.location: 440, 500
+photo.3.tags.1371.location: 130, 485
+photo.4: cwdc://YXkO_FbADQC.jpg
+photo.4.author: rie_panda55
+photo.4.commitdate: 2024/6/29
+photo.4.link: ig://CnzTvAdvkWw
+photo.4.tags: mother's day, portrait, siblings, snow, toys, twins
+photo.4.tags.227.location: 395, 580
+photo.4.tags.1370.location: 665, 270
+photo.4.tags.1371.location: 110, 425
