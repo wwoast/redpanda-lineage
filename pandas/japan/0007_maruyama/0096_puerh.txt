@@ -552,36 +552,31 @@ photo.107.author: leonard_redmof
 photo.107.commitdate: 2023/9/21
 photo.107.link: ig://CwFf-FlPlHt
 photo.107.tags: portrait, sample, smile, whiskers
-photo.108: cwdc://YoiX5I7ADQK.jpg
-photo.108.author: apple_jasmine33
-photo.108.commitdate: 2023/9/16
-photo.108.link: ig://CwSYMCNv4-Y
-photo.108.tags: mofumofu, paws, whiskers
-photo.109: cwdc://YpubisHADQA.jpg
+photo.108: cwdc://YpubisHADQA.jpg
+photo.108.author: mari_neko3
+photo.108.commitdate: 2023/9/15
+photo.108.link: ig://Cw4aAzzrydl
+photo.108.tags: peek, sample, whiskers
+photo.109: cwdc://Ypul_Y7ADQB.jpg
 photo.109.author: mari_neko3
 photo.109.commitdate: 2023/9/15
-photo.109.link: ig://Cw4aAzzrydl
-photo.109.tags: peek, sample, whiskers
-photo.110: cwdc://Ypul_Y7ADQB.jpg
+photo.109.link: ig://Cw4fPKNvyHs
+photo.109.tags: paws, portrait, sample, whiskers
+photo.110: cwdc://Yp9YiBSADQC.jpg
 photo.110.author: mari_neko3
-photo.110.commitdate: 2023/9/15
-photo.110.link: ig://Cw4fPKNvyHs
-photo.110.tags: paws, portrait, sample, whiskers
-photo.111: cwdc://Yp9YiBSADQC.jpg
-photo.111.author: mari_neko3
-photo.111.commitdate: 2023/9/21
-photo.111.link: ig://Cw_4geZLqo-
-photo.111.tags: portrait, sample, tail
-photo.112: cwdc://Yszd3V0ADQE.jpg
+photo.110.commitdate: 2023/9/21
+photo.110.link: ig://Cw_4geZLqo-
+photo.110.tags: portrait, sample, tail
+photo.111: cwdc://Yszd3V0ADQE.jpg
+photo.111.author: leonard_redmof
+photo.111.commitdate: 2023/11/18
+photo.111.link: ig://Cya7LIqPDxC
+photo.111.tags: mofumofu, portrait, sample, tail
+photo.112: cwdc://Yszd3V0ADQF.jpg
 photo.112.author: leonard_redmof
-photo.112.commitdate: 2023/11/18
-photo.112.link: ig://Cya7LIqPDxC
-photo.112.tags: mofumofu, portrait, sample, tail
-photo.113: cwdc://Yszd3V0ADQF.jpg
-photo.113.author: leonard_redmof
-photo.113.commitdate: 2024/3/14
-photo.113.link: ig://Cya7LIqPDxC?img_index=2
-photo.113.tags: nose, portrait, sample, whiskers
+photo.112.commitdate: 2024/3/14
+photo.112.link: ig://Cya7LIqPDxC?img_index=2
+photo.112.tags: nose, portrait, sample, whiskers
 species: 2
 studbook.id: 15134
 zoo: 7
