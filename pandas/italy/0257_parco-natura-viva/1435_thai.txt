@@ -9,6 +9,6 @@ gender: m
 ja.name: タイ
 ja.nicknames: none
 ja.othernames: none
-language.order: en
+language.order: en, ja
 species: 1
 zoo: 257
