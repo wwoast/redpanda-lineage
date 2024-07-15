@@ -677,6 +677,9 @@ def resize_and_rotate_images(entity_file, photo_paths):
         else:
             return image
     metadata = json.loads(entity_file)
+    # Only photo uploads have _id
+    if "_id" not in metadata:
+        return
     if metadata["_id"].find("media.") == 0:
         aspect = RESIZE_GROUP
     else:
