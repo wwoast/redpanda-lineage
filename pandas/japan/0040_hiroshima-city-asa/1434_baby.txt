@@ -1,9 +1,9 @@
 [panda]
-_id: 1433
-birthday: 2024/6/14
-birthplace: 69
+_id: 1434
+birthday: 2024/6/24
+birthplace: 40
 children: none
-commitdate: 2024/6/15
+commitdate: 2024/7/15
 en.name: Baby
 en.nicknames: none
 en.othernames: none
@@ -15,4 +15,4 @@ language.order: ja, en
 litter: none
 species: 2
 studbook.id: unknown
-zoo: 69
+zoo: 40
