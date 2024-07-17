@@ -24,7 +24,7 @@ photo.1.tags: paws, portrait, sample, smile, tail
 photo.2: cwdc://WQA5OkAADQA.jpg
 photo.2.author: lesserpanda_shizuokacity_cp
 photo.2.commitdate: 2018/9/6
-photo.2.link: https://www.instagram.com/p/BkBo2vwDVFg
+photo.2.link: ig://BkBo2vwDVFg
 photo.2.tags: portrait, profile, sample
 photo.3: cwdc://WZnNfhCADQA.jpg
 photo.3.author: ifumoto88
@@ -189,7 +189,7 @@ photo.34.tags: apple time, keeper, paws, portrait, sample, tree
 photo.35: cwdc://W9BWBCzADQA.jpg
 photo.35.author: wumpwoast
 photo.35.commitdate: 2020/1/11
-photo.35.link: https://www.instagram.com/p/B6h3P_JhEUt
+photo.35.link: ig://B6h3P_JhEUt
 photo.35.tags: bamboo, portrait
 photo.36: cwdc://W9wpnXlADQK.jpg
 photo.36.author: ayusuke56
