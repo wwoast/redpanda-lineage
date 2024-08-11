@@ -4,14 +4,19 @@ birthday: 2023/6/13
 birthplace: 109
 children: none
 commitdate: 2023/8/8
-en.name: Debree
+en.name: Mebo
 en.nicknames: none
+en.oldnames: Debree, Masala
 en.othernames: none
 gender: f
-ja.name: デブリー
+ja.name: メボ
 ja.nicknames: none
+ja.oldnames: デブリー, マサラ
 ja.othernames: none
 language.order: en, ja
 litter: 1418
 species: 2
+location.1: 109, 2023/6/13
+location.2: 180, 2024/7/21
+uncertainty: location.2 exact date
 zoo: 109
