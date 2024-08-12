@@ -19,4 +19,4 @@ species: 2
 location.1: 109, 2023/6/13
 location.2: 180, 2024/7/21
 uncertainty: location.2 exact date
-zoo: 109
+zoo: 180

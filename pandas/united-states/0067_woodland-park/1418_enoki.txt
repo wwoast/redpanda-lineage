@@ -4,19 +4,24 @@ birthday: 2023/6/13
 birthplace: 109
 children: none
 commitdate: 2023/8/8
-en.name: Doza
+en.name: Enoki
 en.nicknames: none
+en.oldnames: Doza
 en.othernames: none
 gender: m
-ja.name: ドーザ
+ja.name: えのき
 ja.nicknames: none
+ja.oldnames: ドーザ
 ja.othernames: none
 language.order: en, ja
 litter: 1419
+location.1: 109, 2023/6/13
+location.2: 67, 2024/7/21
 photo.1: ig://CwpNlovOJzX/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2023/9/15
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: baby, portrait, sample
 species: 2
-zoo: 109
+uncertainty: location.2 date
+zoo: 67
