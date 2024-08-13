@@ -20,3 +20,8 @@ location.1: 109, 2023/6/13
 location.2: 180, 2024/7/21
 uncertainty: location.2 exact date
 zoo: 180
+photo.1: cwdc://YrcY8gtADQA.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2024/8/12
+photo.1.link: ig://CxvYtuGuhke
+photo.1.tags: baby

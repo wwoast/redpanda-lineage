@@ -25,3 +25,8 @@ photo.1.tags: baby, portrait, sample
 species: 2
 uncertainty: location.2 date
 zoo: 67
+photo.2: cwdc://Yrdd2QkADQA.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2024/8/12
+photo.2.link: ig://Cxv7KmCOfVT
+photo.2.tags: baby
