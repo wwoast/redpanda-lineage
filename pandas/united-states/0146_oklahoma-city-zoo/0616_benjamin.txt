@@ -36,92 +36,92 @@ photo.4: https://www.codaworry.com/images/rpf/benjamin-4-capemay.jpg
 photo.4.author: aimless_amos
 photo.4.commitdate: 2020/5/27
 photo.4.link: https://www.instagram.com/aimless_amos/
-photo.4.tags: paws, portrait, profile
+photo.4.tags: paws, portrait, sample
 photo.5: https://www.codaworry.com/images/rpf/benjamin-5-capemay.jpg
 photo.5.author: aimless_amos
 photo.5.commitdate: 2020/5/27
 photo.5.link: https://www.instagram.com/aimless_amos/
 photo.5.tags: paws, portrait
-photo.6: cwdc://XiHnmgzADQA.jpg
+photo.6: cwdc://XLWrGKKADQA.jpg
 photo.6.author: rossifari
-photo.6.commitdate: 2021/4/2
-photo.6.link: ig://CNFACuJgdRI
-photo.6.tags: paws, portrait, sample
-photo.7: cwdc://X3xqKr3ADQA.jpg
-photo.7.author: worldthathesees
-photo.7.commitdate: 2022/1/12
-photo.7.link: ig://CX6BUzrrvQN
-photo.7.tags: smile, whiskers
-photo.8: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
-photo.8.author: aimless_amos
-photo.8.commitdate: 2021/6/25
-photo.8.link: https://www.instagram.com/aimless_amos/
-photo.8.tags: portrait
-photo.9: https://www.codaworry.com/images/rpf/benjamin-9-capemay.jpg
-photo.9.author: aimless_amos
-photo.9.commitdate: 2021/6/25
-photo.9.link: https://www.instagram.com/aimless_amos/
-photo.9.tags: dish, lunch time, paws, portrait, standing, whiskers
-photo.10: https://www.codaworry.com/images/rpf/benjamin-10-capemay.jpg
-photo.10.author: aimless_amos
-photo.10.commitdate: 2021/6/25
-photo.10.link: https://www.instagram.com/aimless_amos/
-photo.10.tags: dish, lunch time, portrait, tongue
-photo.11: https://www.codaworry.com/images/rpf/benjamin-11-capemay.jpg
-photo.11.author: aimless_amos
-photo.11.commitdate: 2021/6/25
-photo.11.link: https://www.instagram.com/aimless_amos/
-photo.11.tags: paws, portrait, standing
-photo.12: https://www.codaworry.com/images/rpf/benjamin-12-capemay.jpg
-photo.12.author: aimless_amos
-photo.12.commitdate: 2021/6/25
-photo.12.link: https://www.instagram.com/aimless_amos/
-photo.12.tags: bite, carry, paws, portrait
-photo.13: https://www.codaworry.com/images/rpf/benjamin-13-capemay.jpg
-photo.13.author: aimless_amos
-photo.13.commitdate: 2022/3/21
-photo.13.link: https://www.instagram.com/aimless_amos/
-photo.13.tags: close-up, nose, paws, portrait, whiskers
+photo.6.commitdate: 2024/8/20
+photo.6.link: ig://CBshyi1DXt2
+photo.6.tags: peek, portrait, sample
+photo.7: cwdc://XiHnmgzADQA.jpg
+photo.7.author: rossifari
+photo.7.commitdate: 2021/4/2
+photo.7.link: ig://CNFACuJgdRI
+photo.7.tags: paws, portrait, sample
+photo.8: cwdc://X3xqKr3ADQA.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2022/1/12
+photo.8.link: ig://CX6BUzrrvQN
+photo.8.tags: smile, whiskers
+photo.9: cwdc://X3xqKr3ADQB.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2024/8/20
+photo.9.link: ig://CX6BUzrrvQN?img_index=2
+photo.9.tags: bamboo, peek, whiskers
+photo.10: cwdc://X3xqKr3ADQC.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2024/8/20
+photo.10.link: ig://CX6BUzrrvQN?img_index=3
+photo.10.tags: whiskers
+photo.11: cwdc://X3xqKr3ADQD.jpg
+photo.11.author: worldthathesees
+photo.11.commitdate: 2024/8/20
+photo.11.link: ig://CX6BUzrrvQN?img_index=4
+photo.11.tags: tail, whiskers
+photo.12: cwdc://X3xqKr3ADQE.jpg
+photo.12.author: worldthathesees
+photo.12.commitdate: 2024/8/20
+photo.12.link: ig://CX6BUzrrvQN?img_index=5
+photo.12.tags: door, keeper, standing, whiskers
+photo.13: cwdc://X3xqKr3ADQF.jpg
+photo.13.author: worldthathesees
+photo.13.commitdate: 2024/8/20
+photo.13.link: ig://CX6BUzrrvQN?img_index=6
+photo.13.tags: peek
+photo.14: cwdc://X3xqKr3ADQG.jpg
+photo.14.author: worldthathesees
+photo.14.commitdate: 2024/8/20
+photo.14.link: ig://CX6BUzrrvQN?img_index=7
+photo.14.tags: sapmle, whiskers
+photo.15: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
+photo.15.author: aimless_amos
+photo.15.commitdate: 2021/6/25
+photo.15.link: https://www.instagram.com/aimless_amos/
+photo.15.tags: portrait
+photo.16: https://www.codaworry.com/images/rpf/benjamin-9-capemay.jpg
+photo.16.author: aimless_amos
+photo.16.commitdate: 2021/6/25
+photo.16.link: https://www.instagram.com/aimless_amos/
+photo.16.tags: dish, lunch time, paws, portrait, standing, whiskers
+photo.17: https://www.codaworry.com/images/rpf/benjamin-10-capemay.jpg
+photo.17.author: aimless_amos
+photo.17.commitdate: 2021/6/25
+photo.17.link: https://www.instagram.com/aimless_amos/
+photo.17.tags: dish, lunch time, portrait, tongue
+photo.18: https://www.codaworry.com/images/rpf/benjamin-11-capemay.jpg
+photo.18.author: aimless_amos
+photo.18.commitdate: 2021/6/25
+photo.18.link: https://www.instagram.com/aimless_amos/
+photo.18.tags: paws, portrait, standing
+photo.19: https://www.codaworry.com/images/rpf/benjamin-12-capemay.jpg
+photo.19.author: aimless_amos
+photo.19.commitdate: 2021/6/25
+photo.19.link: https://www.instagram.com/aimless_amos/
+photo.19.tags: bite, carry, paws, portrait
+photo.20: https://www.codaworry.com/images/rpf/benjamin-13-capemay.jpg
+photo.20.author: aimless_amos
+photo.20.commitdate: 2022/3/21
+photo.20.link: https://www.instagram.com/aimless_amos/
+photo.20.tags: close-up, nose, paws, portrait, whiskers
+photo.21: cwdc://Y3Hd5iCADQA.jpg
+photo.21.author: okczoo
+photo.21.commitdate: 2024/8/20
+photo.21.link: ig://C3k7MOxMFLj
+photo.21.tags: lips, portrait, profile, sample, smile, standing, whiskers
 species: 1
 studbook.id: 1533
 zoo: 146
-photo.14: cwdc://X3xqKr3ADQB.jpg
-photo.14.author: worldthathesees
-photo.14.commitdate: 2024/8/20
-photo.14.link: ig://CX6BUzrrvQN?img_index=2
-photo.14.tags: bamboo, peek, whiskers
-photo.15: cwdc://X3xqKr3ADQC.jpg
-photo.15.author: worldthathesees
-photo.15.commitdate: 2024/8/20
-photo.15.link: ig://CX6BUzrrvQN?img_index=3
-photo.15.tags: whiskers
-photo.16: cwdc://X3xqKr3ADQD.jpg
-photo.16.author: worldthathesees
-photo.16.commitdate: 2024/8/20
-photo.16.link: ig://CX6BUzrrvQN?img_index=4
-photo.16.tags: tail, whiskers
-photo.17: cwdc://X3xqKr3ADQE.jpg
-photo.17.author: worldthathesees
-photo.17.commitdate: 2024/8/20
-photo.17.link: ig://CX6BUzrrvQN?img_index=5
-photo.17.tags: door, keeper, standing, whiskers
-photo.18: cwdc://X3xqKr3ADQF.jpg
-photo.18.author: worldthathesees
-photo.18.commitdate: 2024/8/20
-photo.18.link: ig://CX6BUzrrvQN?img_index=6
-photo.18.tags: peek
-photo.19: cwdc://X3xqKr3ADQG.jpg
-photo.19.author: worldthathesees
-photo.19.commitdate: 2024/8/20
-photo.19.link: ig://CX6BUzrrvQN?img_index=7
-photo.19.tags: sapmle, whiskers
-photo.20: cwdc://Y3Hd5iCADQA.jpg
-photo.20.author: okczoo
-photo.20.commitdate: 2024/8/20
-photo.20.link: ig://C3k7MOxMFLj
-photo.20.tags: lips, portrait, profile, sample, smile, standing, whiskers
-photo.21: cwdc://XLWrGKKADQA.jpg
-photo.21.author: rossifari
-photo.21.commitdate: 2024/8/20
-photo.21.link: ig://CBshyi1DXt2
-photo.21.tags: peek, portrait, sample
