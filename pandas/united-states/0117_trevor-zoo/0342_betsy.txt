@@ -42,26 +42,21 @@ photo.5.author: rossifari
 photo.5.commitdate: 2024/8/20
 photo.5.link: ig://CTO9qODNwpl
 photo.5.tags: paws, portrait, sample, whiskers
-photo.6: cwdc://XudEjBqADQA.jpg
+photo.6: cwdc://YIloujJADQA.jpg
 photo.6.author: rossifari
-photo.6.commitdate: 2021/9/8
-photo.6.link: ig://CTPug-lN22M
-photo.6.tags: portrait, sample, white face
-photo.7: cwdc://YIloujJADQA.jpg
-photo.7.author: rossifari
-photo.7.commitdate: 2022/7/28
-photo.7.link: ig://CgUAmvUsaU6
-photo.7.tags: bamboo, bite, whiskers
-photo.8: cwdc://YswgH-zADQC.jpg
+photo.6.commitdate: 2022/7/28
+photo.6.link: ig://CgUAmvUsaU6
+photo.6.tags: bamboo, bite, whiskers
+photo.7: cwdc://YswgH-zADQC.jpg
+photo.7.author: trevorzoomillbrook
+photo.7.commitdate: 2023/11/8
+photo.7.link: ig://CyZcTdJtjGh
+photo.7.tags: portrait, sample
+photo.8: cwdc://YswgH-zADQD.jpg
 photo.8.author: trevorzoomillbrook
-photo.8.commitdate: 2023/11/8
-photo.8.link: ig://CyZcTdJtjGh
-photo.8.tags: portrait, sample
-photo.9: cwdc://YswgH-zADQD.jpg
-photo.9.author: trevorzoomillbrook
-photo.9.commitdate: 2024/4/25
-photo.9.link: ig://CyZcTdJtjGi
-photo.9.tags: bamboo, paws, portrait, sample, tongue, whiskers
+photo.8.commitdate: 2024/4/25
+photo.8.link: ig://CyZcTdJtjGi
+photo.8.tags: bamboo, paws, portrait, sample, tongue, whiskers
 species: 1
 studbook.id: 1547
 zoo: 117
