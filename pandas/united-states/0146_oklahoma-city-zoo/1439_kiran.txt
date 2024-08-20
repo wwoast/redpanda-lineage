@@ -1,0 +1,21 @@
+[panda]
+_id: 1439
+birthday: 2023/7/20
+birthplace: 146
+children: none
+commitdate: 2024/8/20
+death: 2023/12/25
+en.name: Kiran
+en.nicknames: none
+en.othernames: Keeruhn
+gender: m
+ja.name: ケールン
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: none
+np.name: किरण
+np.nicknames: none
+np.othernames: none
+species: 1
+zoo: 146
