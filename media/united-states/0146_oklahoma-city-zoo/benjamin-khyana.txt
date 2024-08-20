@@ -2,15 +2,10 @@
 _id: media.146.benjamin-khyana
 commitdate: 2022/4/5
 panda.tags: 616, 877
-photo.1: ig://okczoo/CY1mhZysuGh/l
+photo.1: cwdc://X5o0j4FADQA.jpg
 photo.1.author: okczoo
-photo.1.commitdate: 2022/4/5
-photo.1.link: https://www.instagram.com/okczoo/
-photo.1.tags: couple, mofumofu, tail
+photo.1.commitdate: 2024/8/20
+photo.1.link: ig://CY1mhZysuGh
+photo.1.tags: couple, tail
 photo.1.tags.616.location: 195, 385
 photo.1.tags.877.location: 425, 170
-photo.2: cwdc://X5o0j4FADQA.jpg
-photo.2.author: okczoo
-photo.2.commitdate: 2024/8/20
-photo.2.link: ig://CY1mhZysuGh
-photo.2.tags: couple, tail
