@@ -52,41 +52,36 @@ photo.7.author: worldthathesees
 photo.7.commitdate: 2022/1/12
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: smile
-photo.8: ig://ChR01cSsIky/m
-photo.8.author: rossifari
-photo.8.commitdate: 2022/8/28
-photo.8.link: https://www.instagram.com/rossifari/
-photo.8.tags: paws, peek, portrait, sample, whiskers
-photo.9: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
+photo.8: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
+photo.8.author: aimless_amos
+photo.8.commitdate: 2021/6/25
+photo.8.link: https://www.instagram.com/aimless_amos/
+photo.8.tags: portrait
+photo.9: https://www.codaworry.com/images/rpf/benjamin-9-capemay.jpg
 photo.9.author: aimless_amos
 photo.9.commitdate: 2021/6/25
 photo.9.link: https://www.instagram.com/aimless_amos/
-photo.9.tags: portrait
-photo.10: https://www.codaworry.com/images/rpf/benjamin-9-capemay.jpg
+photo.9.tags: dish, lunch time, paws, portrait, standing, whiskers
+photo.10: https://www.codaworry.com/images/rpf/benjamin-10-capemay.jpg
 photo.10.author: aimless_amos
 photo.10.commitdate: 2021/6/25
 photo.10.link: https://www.instagram.com/aimless_amos/
-photo.10.tags: dish, lunch time, paws, portrait, standing, whiskers
-photo.11: https://www.codaworry.com/images/rpf/benjamin-10-capemay.jpg
+photo.10.tags: dish, lunch time, portrait, tongue
+photo.11: https://www.codaworry.com/images/rpf/benjamin-11-capemay.jpg
 photo.11.author: aimless_amos
 photo.11.commitdate: 2021/6/25
 photo.11.link: https://www.instagram.com/aimless_amos/
-photo.11.tags: dish, lunch time, portrait, tongue
-photo.12: https://www.codaworry.com/images/rpf/benjamin-11-capemay.jpg
+photo.11.tags: paws, portrait, standing
+photo.12: https://www.codaworry.com/images/rpf/benjamin-12-capemay.jpg
 photo.12.author: aimless_amos
 photo.12.commitdate: 2021/6/25
 photo.12.link: https://www.instagram.com/aimless_amos/
-photo.12.tags: paws, portrait, standing
-photo.13: https://www.codaworry.com/images/rpf/benjamin-12-capemay.jpg
+photo.12.tags: bite, carry, paws, portrait
+photo.13: https://www.codaworry.com/images/rpf/benjamin-13-capemay.jpg
 photo.13.author: aimless_amos
-photo.13.commitdate: 2021/6/25
+photo.13.commitdate: 2022/3/21
 photo.13.link: https://www.instagram.com/aimless_amos/
-photo.13.tags: bite, carry, paws, portrait
-photo.14: https://www.codaworry.com/images/rpf/benjamin-13-capemay.jpg
-photo.14.author: aimless_amos
-photo.14.commitdate: 2022/3/21
-photo.14.link: https://www.instagram.com/aimless_amos/
-photo.14.tags: close-up, nose, paws, portrait, whiskers
+photo.13.tags: close-up, nose, paws, portrait, whiskers
 species: 1
 studbook.id: 1533
 zoo: 146
