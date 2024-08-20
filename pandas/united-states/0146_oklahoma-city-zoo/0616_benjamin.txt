@@ -42,16 +42,16 @@ photo.5.author: aimless_amos
 photo.5.commitdate: 2020/5/27
 photo.5.link: https://www.instagram.com/aimless_amos/
 photo.5.tags: paws, portrait
-photo.6: ig://CNFACuJgdRI/m
+photo.6: cwdc://XiHnmgzADQA.jpg
 photo.6.author: rossifari
 photo.6.commitdate: 2021/4/2
-photo.6.link: https://www.instagram.com/rossifari/
-photo.6.tags: portrait
-photo.7: ig://CX6BUzrrvQN/m
+photo.6.link: ig://CNFACuJgdRI
+photo.6.tags: paws, portrait, sample
+photo.7: cwdc://X3xqKr3ADQA.jpg
 photo.7.author: worldthathesees
 photo.7.commitdate: 2022/1/12
-photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: smile
+photo.7.link: ig://CX6BUzrrvQN
+photo.7.tags: smile, whiskers
 photo.8: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
 photo.8.author: aimless_amos
 photo.8.commitdate: 2021/6/25
@@ -85,3 +85,33 @@ photo.13.tags: close-up, nose, paws, portrait, whiskers
 species: 1
 studbook.id: 1533
 zoo: 146
+photo.14: cwdc://X3xqKr3ADQB.jpg
+photo.14.author: worldthathesees
+photo.14.commitdate: 2024/8/20
+photo.14.link: ig://CX6BUzrrvQN?img_index=2
+photo.14.tags: bamboo, peek, whiskers
+photo.15: cwdc://X3xqKr3ADQC.jpg
+photo.15.author: worldthathesees
+photo.15.commitdate: 2024/8/20
+photo.15.link: ig://CX6BUzrrvQN?img_index=3
+photo.15.tags: whiskers
+photo.16: cwdc://X3xqKr3ADQD.jpg
+photo.16.author: worldthathesees
+photo.16.commitdate: 2024/8/20
+photo.16.link: ig://CX6BUzrrvQN?img_index=4
+photo.16.tags: tail, whiskers
+photo.17: cwdc://X3xqKr3ADQE.jpg
+photo.17.author: worldthathesees
+photo.17.commitdate: 2024/8/20
+photo.17.link: ig://CX6BUzrrvQN?img_index=5
+photo.17.tags: door, keeper, standing, whiskers
+photo.18: cwdc://X3xqKr3ADQF.jpg
+photo.18.author: worldthathesees
+photo.18.commitdate: 2024/8/20
+photo.18.link: ig://CX6BUzrrvQN?img_index=6
+photo.18.tags: peek
+photo.19: cwdc://X3xqKr3ADQG.jpg
+photo.19.author: worldthathesees
+photo.19.commitdate: 2024/8/20
+photo.19.link: ig://CX6BUzrrvQN?img_index=7
+photo.19.tags: sapmle, whiskers
