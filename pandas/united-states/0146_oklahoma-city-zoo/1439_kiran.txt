@@ -17,8 +17,6 @@ litter: none
 np.name: किरण
 np.nicknames: none
 np.othernames: none
-species: 1
-zoo: 146
 photo.1: cwdc://YmXrFaJADQB.jpg
 photo.1.author: okczoo
 photo.1.commitdate: 2024/8/20
@@ -39,3 +37,5 @@ photo.4.author: worldthathesees
 photo.4.commitdate: 2024/8/20
 photo.4.link: ig://C1eiyevO60Q
 photo.4.tags: baby, home, peek
+species: 1
+zoo: 146
