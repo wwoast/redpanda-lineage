@@ -49,7 +49,7 @@ photo.6.tags: smile, tail, white face
 photo.7: cwdc://WfhpVadADQA.jpg
 photo.7.author: ourrvtrip
 photo.7.commitdate: 2019/4/5
-photo.7.link: https://www.instagram.com/p/BryA6K-n72q
+photo.7.link: ig://BryA6K-n72q
 photo.7.tags: portrait, profile, sample, white face
 photo.8: cwdc://XBewY-WADQA.jpg
 photo.8.author: sequoiaparkzoo
@@ -59,22 +59,22 @@ photo.8.tags: paws, standing, tail
 photo.9: cwdc://XQB-OwEADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2022/3/13
-photo.9.link: https://www.instagram.com/p/CECLW1yBZ-4
+photo.9.link: ig://CECLW1yBZ-4
 photo.9.tags: portrait, smile, white face
 photo.10: cwdc://XQwsejlADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2020/9/4
-photo.10.link: https://www.instagram.com/p/CEZievih6rq
+photo.10.link: ig://CEZievih6rq
 photo.10.tags: bamboo, shoots, tree
 photo.11: cwdc://XRUtQgiADQA.jpg
 photo.11.author: wumpwoast
 photo.11.commitdate: 2021/6/6
-photo.11.link: https://www.instagram.com/p/CEri3uBBvbO
+photo.11.link: ig://CEri3uBBvbO
 photo.11.tags: flowers, portrait, white face
 photo.12: cwdc://XTMH-_2ADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2020/9/26
-photo.12.link: https://www.instagram.com/p/CFnQO9rBPvV
+photo.12.link: ig://CFnQO9rBPvV
 photo.12.tags: portrait, whiskers
 photo.13: cwdc://XdKLO6pADQC.jpg
 photo.13.author: sequoiaparkzoo
@@ -124,7 +124,7 @@ photo.21.tags: peek, sample, whiskers
 photo.22: cwdc://YKzq9kxADQA.jpg
 photo.22.author: wumpwoast
 photo.22.commitdate: 2022/8/18
-photo.22.link: https://www.instagram.com/p/ChbBuQIpmp2
+photo.22.link: ig://ChbBuQIpmp2
 photo.22.tags: mofumofu, portrait, sample, whiskers
 species: 1
 studbook.id: 0912
