@@ -116,26 +116,21 @@ photo.20.author: sequoiaparkzoo
 photo.20.commitdate: 2021/7/6
 photo.20.link: https://www.instagram.com/sequoiaparkzoo/
 photo.20.tags: portrait, tail, whiskers
-photo.21: ig://CUSR0L-lTOk/m
-photo.21.author: sequoiaparkzoo
-photo.21.commitdate: 2021/12/22
-photo.21.link: https://www.instagram.com/sequoiaparkzoo/
-photo.21.tags: laying down, sample, sleeping, tail
-photo.22: cwdc://YKzq9kxADQA.jpg
+photo.21: cwdc://YKzq9kxADQA.jpg
+photo.21.author: wumpwoast
+photo.21.commitdate: 2022/8/18
+photo.21.link: https://www.instagram.com/p/ChbBuQIpmp2
+photo.21.tags: mofumofu, portrait, sample, whiskers
+photo.22: cwdc://YDJxM6AADQA.jpg
 photo.22.author: wumpwoast
-photo.22.commitdate: 2022/8/18
-photo.22.link: https://www.instagram.com/p/ChbBuQIpmp2
-photo.22.tags: mofumofu, portrait, sample, whiskers
-photo.23: cwdc://YDJxM6AADQA.jpg
+photo.22.commitdate: 2024/1/28
+photo.22.link: https://www.instagram.com/wumpwoast
+photo.22.tags: grumpy, sample, whiskers
+photo.23: cwdc://YDJyy9QADQA.jpg
 photo.23.author: wumpwoast
 photo.23.commitdate: 2024/1/28
 photo.23.link: https://www.instagram.com/wumpwoast
-photo.23.tags: grumpy, sample, whiskers
-photo.24: cwdc://YDJyy9QADQA.jpg
-photo.24.author: wumpwoast
-photo.24.commitdate: 2024/1/28
-photo.24.link: https://www.instagram.com/wumpwoast
-photo.24.tags: peek, sample, whiskers
+photo.23.tags: peek, sample, whiskers
 species: 1
 studbook.id: 0912
 zoo: 134
