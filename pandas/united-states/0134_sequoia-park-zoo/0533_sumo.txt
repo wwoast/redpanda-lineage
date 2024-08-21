@@ -16,46 +16,46 @@ language.order: en, ja
 litter: 532, 798, 799
 location.1: 131, 2009/7/9
 location.2: 134, 2010/5/18
-photo.1: ig://BHVWDRcg3ey/m
+photo.1: cwdc://VWoTnnZADQB.jpg
 photo.1.author: shittyasshole
 photo.1.commitdate: 2019/4/5
-photo.1.link: https://www.instagram.com/shittyasshole/
-photo.1.tags: bamboo, smile
-photo.2: ig://BIGvR76gcMO/m
+photo.1.link: ig://BHVWDRcg3ey
+photo.1.tags: bamboo, sample, smile
+photo.2: cwdc://VYLGE8VADQA.jpg
 photo.2.author: jeanneknoch
 photo.2.commitdate: 2019/4/5
-photo.2.link: https://www.instagram.com/jeanneknoch/
-photo.2.tags: portrait
-photo.3: ig://BhHYPyohrei/m
+photo.2.link: ig://BIGvR76gcMO
+photo.2.tags: portrait, sample, whiskers
+photo.3: cwdc://WKMYApxADQA.jpg
 photo.3.author: shittyasshole
 photo.3.commitdate: 2019/4/5
-photo.3.link: https://www.instagram.com/shittyasshole/
-photo.3.tags: smile
-photo.4: ig://BjDpZQhjPSn/m
+photo.3.link: ig://BhHYPyohrei
+photo.3.tags: sample, smile, whiskers
+photo.4: cwdc://WOE6TljADQC.jpg
 photo.4.author: shittyasshole
 photo.4.commitdate: 2019/4/5
-photo.4.link: https://www.instagram.com/shittyasshole/
-photo.4.tags: climb
-photo.5: ig://BjdnKQZHv4d/m
+photo.4.link: ig://BjDpZQhjPSn
+photo.4.tags: climb, paws, sample, whiskers
+photo.5: cwdc://WO411lSADQA.jpg
 photo.5.author: ajlburke
 photo.5.commitdate: 2019/4/5
-photo.5.link: https://www.instagram.com/ajlburke/
-photo.5.tags: laying down, portrait
-photo.6: ig://BktYcTtn11o/m
+photo.5.link: ig://BjdnKQZHv4d
+photo.5.tags: laying down, portrait, sample
+photo.6: cwdc://WRYYZr7ADQA.jpg
 photo.6.author: yosemitebayareaphoto
 photo.6.commitdate: 2019/4/5
-photo.6.link: https://www.instagram.com/yosemitebayareaphoto/
+photo.6.link: ig://BktYcTtn11o
 photo.6.tags: smile, tail, white face
 photo.7: cwdc://WfhpVadADQA.jpg
 photo.7.author: ourrvtrip
 photo.7.commitdate: 2019/4/5
 photo.7.link: https://www.instagram.com/p/BryA6K-n72q
 photo.7.tags: portrait, profile, sample, white face
-photo.8: ig://B8wkb87Ac0r/m
+photo.8: cwdc://XBewY-WADQA.jpg
 photo.8.author: sequoiaparkzoo
 photo.8.commitdate: 2020/8/17
-photo.8.link: https://www.instagram.com/sequoiaparkzoo/
-photo.8.tags: paws, standing
+photo.8.link: ig://B8wkb87Ac0r
+photo.8.tags: paws, standing, tail
 photo.9: cwdc://XQB-OwEADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2022/3/13
@@ -76,40 +76,40 @@ photo.12.author: wumpwoast
 photo.12.commitdate: 2020/9/26
 photo.12.link: https://www.instagram.com/p/CFnQO9rBPvV
 photo.12.tags: portrait, whiskers
-photo.13: ig://CKmR27EnSLc/m
+photo.13: cwdc://XdKLO6pADQC.jpg
 photo.13.author: sequoiaparkzoo
 photo.13.commitdate: 2021/2/28
-photo.13.link: https://www.instagram.com/sequoiaparkzoo/
-photo.13.tags: portrait, whiskers
-photo.14: ig://CK_geovLWa_/m
+photo.13.link: ig://CKmR27EnSLc
+photo.13.tags: portrait, sample, whiskers
+photo.14: cwdc://Xd8oeV-ADQB.jpg
 photo.14.author: sequoiaparkzoo
 photo.14.commitdate: 2021/4/11
-photo.14.link: https://www.instagram.com/sequoiaparkzoo/
-photo.14.tags: bamboo, peek, tail
-photo.15: ig://CMCdMioFFf7/m
+photo.14.link: ig://CK_geovLWa_
+photo.14.tags: bamboo, mofumofu, peek, sample, tail
+photo.15: cwdc://XgCh6JwADQE.jpg
 photo.15.author: sequoiaparkzoo
 photo.15.commitdate: 2021/4/11
-photo.15.link: https://www.instagram.com/sequoiaparkzoo/
+photo.15.link: ig://CMCdMioFFf7
 photo.15.tags: close-up, peek, portrait, standing, tail, whiskers
-photo.16: ig://CM4a_ZdFFRr/m
+photo.16: cwdc://Xhudf3aADQD.jpg
 photo.16.author: sequoiaparkzoo
 photo.16.commitdate: 2021/10/24
-photo.16.link: https://www.instagram.com/sequoiaparkzoo/
+photo.16.link: ig://CM4a_ZdFFRr
 photo.16.tags: close-up, nose, portrait, standing
-photo.17: ig://CPbRQYGhKm6/m
+photo.17: cwdc://Xm0KB0tADQF.jpg
 photo.17.author: sequoiaparkzoo
 photo.17.commitdate: 2021/8/18
-photo.17.link: https://www.instagram.com/sequoiaparkzoo/
+photo.17.link: ig://CPbRQYGhKm6
 photo.17.tags: blink, mofumofu, portrait, whiskers
-photo.18: ig://CPsv0ywn1L2/m
+photo.18: cwdc://XnXHKqBADQG.jpg
 photo.18.author: sequoiaparkzoo
 photo.18.commitdate: 2021/8/18
-photo.18.link: https://www.instagram.com/sequoiaparkzoo/
-photo.18.tags: blink, close-up, lunch time, mofumofu, paws, portrait
-photo.19: ig://CQHLZfgBz17/m
+photo.18.link: ig://CPsv0ywn1L2
+photo.18.tags: blink, close-up, grapes, lunch time, mofumofu, paws, portrait
+photo.19: cwdc://XoL-UDgADQH.jpg
 photo.19.author: sequoiaparkzoo
 photo.19.commitdate: 2021/8/18
-photo.19.link: https://www.instagram.com/sequoiaparkzoo/
+photo.19.link: ig://CQHLZfgBz17
 photo.19.tags: laying down, mofumofu, sleeping, tail
 photo.20: cwdc://YKzq9kxADQA.jpg
 photo.20.author: wumpwoast
