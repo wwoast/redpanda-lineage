@@ -2,17 +2,17 @@
 _id: media.17.himawari-ranmaru
 commitdate: 2023/4/3
 panda.tags: 8, 1384
-photo.1: ig://CofAfXIvDDA/l
+photo.1: cwdc://YY7ofyxADQA.jpg
 photo.1.author: tamazoowalking
 photo.1.commitdate: 2023/4/3
-photo.1.link: https://www.instagram.com/tamazoowalking/
-photo.1.tags: baby, mother's day, peek, sample, snowing
+photo.1.link: ig://CofAfXIvDDA
+photo.1.tags: baby, mother's day, peek, sample, snow, snowing
 photo.1.tags.8.location: 235, 115
 photo.1.tags.1384.location: 230, 580
-photo.2: ig://Cors_MrvLB5/l
+photo.2: cwdc://YZVBfd3ADQA.jpg
 photo.2.author: kotata_513
 photo.2.commitdate: 2023/8/27
-photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.link: ig://Cors_MrvLB5
 photo.2.tags: baby, bridge, laying down, portrait
 photo.2.tags.8.location: 155, 115
 photo.2.tags.1384.location: 250, 295
