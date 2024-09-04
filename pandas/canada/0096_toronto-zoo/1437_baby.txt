@@ -4,6 +4,7 @@ birthday: 2024/6/13
 birthplace: 40
 children: none
 commitdate: 2024/7/15
+death: 2024/8/1
 en.name: Baby
 en.nicknames: none
 en.othernames: none
@@ -15,4 +16,5 @@ language.order: en, ja
 litter: 1438
 species: 2
 studbook.id: unknown
+uncertainty: death exact date
 zoo: 96

@@ -4,6 +4,7 @@ birthday: 2013/7/1
 birthplace: 94
 children: 460, 458, 459, 462, 1081, 1404, 1405, 1437, 1438
 commitdate: 2018/11/24
+death: 2024/8/22
 en.name: Sakura
 en.nicknames: none
 en.othernames: none
@@ -262,10 +263,6 @@ photo.49.author: westcoast_kathy
 photo.49.commitdate: 2022/10/20
 photo.49.link: https://www.instagram.com/westcoast_kathy/
 photo.49.tags: close-up, paws, peek, portrait, sample, whiskers
-species: 2
-studbook.id: 1348
-uncertainty: location.3 exact moving date, location.4 exact moving date
-zoo: 96
 photo.50: cwdc://Y_U704geDwA.jpg
 photo.50.author: nightingaleinflight
 photo.50.commitdate: 2024/6/8
@@ -276,3 +273,7 @@ photo.51.author: nightingaleinflight
 photo.51.commitdate: 2024/6/10
 photo.51.link: https://www.instagram.com/nightingaleinflight
 photo.51.tags: smile
+species: 2
+studbook.id: 1348
+uncertainty: location.3 exact moving date, location.4 exact moving date, exact date of death
+zoo: 96
