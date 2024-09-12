@@ -4,6 +4,7 @@ birthday: 2018/6/25
 birthplace: 177
 children: none
 commitdate: 2019/6/9
+death: 2024/9/7
 en.name: Xena
 en.nicknames: Xenapanda
 en.othernames: none
@@ -398,3 +399,73 @@ photo.76.tags: pumpkin, sample, whiskers
 species: 1
 studbook.id: 1821
 zoo: 47
+photo.77: cwdc://Y1jRxHlADQE.jpg
+photo.77.author: wumpwoast
+photo.77.commitdate: 2024/9/11
+photo.77.link: ig://C2y1IBirZTk
+photo.77.tags: bamboo, peek, portrait, sample
+photo.78: cwdc://Y5u3hvUADQF.jpg
+photo.78.author: wumpwoast
+photo.78.commitdate: 2024/9/11
+photo.78.link: ig://C44oAVaOGcx
+photo.78.tags: bamboo, dish, lunch time, peek, portrait
+photo.79: cwdc://Y832U2GADQG.jpg
+photo.79.author: wumpwoast
+photo.79.commitdate: 2024/9/11
+photo.79.link: ig://C6dHZ4zOOOb
+photo.79.tags: bamboo, paws, portrait, sample
+photo.80: cwdc://Yv96g_FADQA.jpg
+photo.80.author: wumpwoast
+photo.80.commitdate: 2024/9/11
+photo.80.link: ig://C0AJf9Sy7iu
+photo.80.tags: close-up, paws, portrait, sample, tail, whiskers
+photo.81: cwdc://YwDqmw6ADQB.jpg
+photo.81.author: wumpwoast
+photo.81.commitdate: 2024/9/11
+photo.81.link: ig://C0DBi2NPZXY
+photo.81.tags: peek, portrait
+photo.82: cwdc://YxBg2l0ADQC.jpg
+photo.82.author: wumpwoast
+photo.82.commitdate: 2024/9/11
+photo.82.link: ig://C0h8qwqPRZW
+photo.82.tags: dish, peek, portrait, whiskers
+photo.83: cwdc://Yz6zBrMADQD.jpg
+photo.83.author: wumpwoast
+photo.83.commitdate: 2024/9/11
+photo.83.link: ig://C1-lwTWPblS
+photo.83.tags: dish, portrait, sample
+photo.84: cwdc://ZHkHDyFADQA.jpg
+photo.84.author: hhpzoo
+photo.84.commitdate: 2024/9/11
+photo.84.link: ig://C_zPxWypprA
+photo.84.tags: laying down, mofumofu, paws, portrait, sample, tail
+photo.85: cwdc://ZHkHDyFADQB.jpg
+photo.85.author: hhpzoo
+photo.85.commitdate: 2024/9/11
+photo.85.link: ig://C_zPxWyppq_
+photo.85.tags: bamboo, hammock, laying down, peek, portrait, sample
+photo.86: cwdc://ZHkHDyFADQE.jpg
+photo.86.author: hhpzoo
+photo.86.commitdate: 2024/9/11
+photo.86.link: ig://C_zPxWyppq8
+photo.86.tags: laying down, portriat, sample, tail, whiskers
+photo.87: cwdc://ZHkHDyFADQF.jpg
+photo.87.author: hhpzoo
+photo.87.commitdate: 2024/9/11
+photo.87.link: ig://C_zPxWyppq7
+photo.87.tags: portrait, pumpkin, sample, whiskers, white face
+photo.88: cwdc://ZHkHDyFADQG.jpg
+photo.88.author: hhpzoo
+photo.88.commitdate: 2024/9/11
+photo.88.link: ig://C_zPxWyppq6
+photo.88.tags: home, peek, portrait, whiskers
+photo.89: cwdc://ZHkHDyFADQH.jpg
+photo.89.author: hhpzoo
+photo.89.commitdate: 2024/9/11
+photo.89.link: ig://C_zPxWyppq5
+photo.89.tags: home, peek, portrait, sample, tail, whiskers
+photo.90: cwdc://ZHkHDyFADQI.jpg
+photo.90.author: hhpzoo
+photo.90.commitdate: 2024/9/11
+photo.90.link: ig://C_zPxWyppq4
+photo.90.tags: bamboo, portrait, profile, sample, whiskers, white face
