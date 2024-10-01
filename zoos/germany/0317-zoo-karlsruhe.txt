@@ -1,0 +1,14 @@
+[zoo]
+_id: 317
+commitdate: 2024/10/1
+de.address: Ettlinger Str. 6, 76137 Karlsruhe, Germany
+de.location: Karlsruhe, Germany
+de.name: Zoologischer Stadtgarten Karlsruhe
+en.address: Ettlinger Str. 6, 76137 Karlsruhe, Germany
+en.location: Karlsruhe, Germany
+en.name: Zoologischer Stadtgarten Karlsruhe
+language.order: de, en
+latitude: 48.9987034
+longitude: 8.3981713
+map: https://maps.app.goo.gl/j6pncj8bLJC 
+website: https://www.karlsruhe.de/kultur-freizeit/freizeit-und-tourismus/zoologischer-stadtgarten/ihr-besuch
