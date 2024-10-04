@@ -1,0 +1,14 @@
+[zoo]
+_id: 318
+commitdate: 2024/10/3
+en.address: Route de la traverseé - Parc des Mamelles - 97125, Bouillante, Guadeloupe   
+en.location: Bouillante, Guadeloupe
+en.name: Zoo de Guadeloupe au Parc des Mamelles
+fr.address: Route de la traverseé - Parc des Mamelles - 97125, Bouillante, Guadeloupe   
+fr.location: Bouillante, Guadeloupe
+fr.name: Zoo de Guadeloupe au Parc des Mamelles
+language.order: fr, en
+latitude: 16.1806624
+longitude: -61.7696199
+map: https://maps.app.goo.gl/CBgUB74WN7q9PGVQ8
+website: https://www.zoodeguadeloupe.com/

@@ -1,0 +1,13 @@
+[zoo]
+commitdate: 2024/10/3
+en.address: 60Bis Av. des Pyrénées, 65400 Ayzac-Ost, France
+en.location: Ayzac-Ost, France
+en.name: Parc Animalier des Pyrénées
+fr.address: 60Bis Av. des Pyrénées, 65400 Ayzac-Ost, France
+fr.location: Ayzac-Ost, France
+fr.name: Parc Animalier des Pyrénées
+language.order: fr, en
+latitude: 43.0147249
+longitude: -0.1161557
+map: https://maps.app.goo.gl/BEVRSUF2LwrWgDKo7 
+website: https://www.parc-animalier-pyrenees.com/
