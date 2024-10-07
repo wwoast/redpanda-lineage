@@ -501,16 +501,16 @@ photo.97.author: nishicotolo
 photo.97.commitdate: 2020/1/9
 photo.97.link: ig://B62bDnahV-l
 photo.97.tags: whiskers
-photo.98: cwdc://W-j1A58ADQC.jpg
+photo.98: cwdc://W_r8-qqADQF.jpg
 photo.98.author: nishicotolo
-photo.98.commitdate: 2020/1/16
-photo.98.link: ig://B7TGv6uBxXP
-photo.98.tags: paws
-photo.99: cwdc://W_r8-qqADQF.jpg
+photo.98.commitdate: 2020/1/28
+photo.98.link: ig://B73KuzFB9oe
+photo.98.tags: sample, smile
+photo.99: cwdc://W-j1A58ADQC.jpg
 photo.99.author: nishicotolo
-photo.99.commitdate: 2020/1/28
-photo.99.link: ig://B73KuzFB9oe
-photo.99.tags: sample, smile
+photo.99.commitdate: 2020/1/16
+photo.99.link: ig://B7TGv6uBxXP
+photo.99.tags: paws
 photo.100: cwdc://XApNVMLADQA.jpg
 photo.100.author: monmon_redpanda
 photo.100.commitdate: 2020/2/16
@@ -1006,16 +1006,6 @@ photo.198.author: minatomirai215
 photo.198.commitdate: 2023/5/16
 photo.198.link: ig://CqiD7rTvV0u
 photo.198.tags: bridge, portrait, sample, smile
-species: 2
-studbook.id: 14161
-uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
-video.1: https://youtu.be/t1SITm45Rc8
-video.1.author: mmovies21
-video.1.link: https://www.youtube.com/user/Mmovies21
-video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
-video.2.author: cattail.sapporo
-video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
-zoo: 28
 photo.199: cwdc://Y6a1JQeADQA.jpg
 photo.199.author: eos1089
 photo.199.commitdate: 2024/10/6
@@ -1066,3 +1056,13 @@ photo.208.author: eos1089
 photo.208.commitdate: 2024/10/6
 photo.208.link: ig://C5Om0F_SQvD
 photo.208.tags: apple time, bite, keeper, portrait, sample, tree
+species: 2
+studbook.id: 14161
+uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
+video.1: https://youtu.be/t1SITm45Rc8
+video.1.author: mmovies21
+video.1.link: https://www.youtube.com/user/Mmovies21
+video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
+video.2.author: cattail.sapporo
+video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
+zoo: 28

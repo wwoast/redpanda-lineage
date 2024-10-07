@@ -13,9 +13,6 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-species: 2
-studbook.id: unknown
-zoo: 69
 photo.1: cwdc://ZH52N3MADQA.jpg
 photo.1.author: kaki_redpanda
 photo.1.commitdate: 2024/10/6
@@ -66,3 +63,6 @@ photo.10.author: kaki_redpanda
 photo.10.commitdate: 2024/10/6
 photo.10.link: ig://DAyFY4BSR7w
 photo.10.tags: baby, paws, surprise
+species: 2
+studbook.id: unknown
+zoo: 69

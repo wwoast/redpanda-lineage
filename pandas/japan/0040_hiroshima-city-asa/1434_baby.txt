@@ -23,9 +23,6 @@ photo.2.author: asazoo_hiroshima
 photo.2.commitdate: 2024/7/15
 photo.2.link: ig://C9WpVoTSLFN
 photo.2.tags: baby, close-up, newborn, mofumofu, portrait
-species: 2
-studbook.id: unknown
-zoo: 40
 photo.3: cwdc://ZFALm7UADQA.jpg
 photo.3.author: asazoo_hiroshima
 photo.3.commitdate: 2024/10/6
@@ -36,3 +33,6 @@ photo.4.author: asazoo_hiroshima
 photo.4.commitdate: 2024/10/6
 photo.4.link: ig://C_NBSV_SF7c
 photo.4.tags: baby, keeper, mofumofu, paws, sample
+species: 2
+studbook.id: unknown
+zoo: 40
