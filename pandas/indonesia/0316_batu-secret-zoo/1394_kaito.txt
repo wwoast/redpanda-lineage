@@ -125,9 +125,6 @@ photo.22.author: jas_forever_love
 photo.22.commitdate: 2023/9/24
 photo.22.link: https://www.instagram.com/jas_forever_love/
 photo.22.tags: paws, sample, whiskers
-species: 2
-studbook.id: unknown
-zoo: 316
 photo.23: cwdc://Y_agLAMADQA.jpg
 photo.23.author: hamamatsu.chiita
 photo.23.commitdate: 2024/10/6
@@ -188,3 +185,6 @@ photo.34.author: joy93.87
 photo.34.commitdate: 2024/10/6
 photo.34.link: ig://C7vLmITvJft
 photo.34.tags: laying down, paws, sample, tongue, tree
+species: 2
+studbook.id: unknown
+zoo: 316
