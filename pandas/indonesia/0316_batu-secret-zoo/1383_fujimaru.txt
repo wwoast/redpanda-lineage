@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1384
+location.1: 17, 2022/7/27
+location.2: 316, 2024/10/2
 photo.1: cwdc://YRg47OEADQD.jpg
 photo.1.author: tamazoowalking
 photo.1.commitdate: 2023/1/11
@@ -278,8 +280,6 @@ photo.53.author: tamazoowalking
 photo.53.commitdate: 2023/11/8
 photo.53.link: ig://CzINX0PvklP
 photo.53.tags: bridge, peek, portrait, sample, whiskers
-species: 2
-zoo: 17
 photo.54: cwdc://YR7LO8NADQC.jpg
 photo.54.author: tamazoowalking
 photo.54.commitdate: 2024/8/31
@@ -420,3 +420,5 @@ photo.81.author: mini_cochi
 photo.81.commitdate: 2024/8/31
 photo.81.link: ig://CwXi4i5vcmt
 photo.81.tags: laying down, paws, portrait, sample, tail, tongue
+species: 2
+zoo: 316
