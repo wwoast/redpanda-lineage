@@ -563,14 +563,6 @@ photo.110.author: kipekaila
 photo.110.commitdate: 2024/4/7
 photo.110.link: ig://C1lqWwnrXYH
 photo.110.tags: sample, tongue, whiskers
-species: 2
-video.1: https://youtu.be/0pWYYuAXEEA
-video.1.author: d_mover
-video.1.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
-video.2: https://youtu.be/E9tuO9lsrXc
-video.2.author: 兎派の窈ちゃん
-video.2.link: https://www.youtube.com/channel/UCssHd_epOrzybm5BJXTIBCQ
-zoo: 29
 photo.111: cwdc://ZE9HQP9ADQA.jpg
 photo.111.author: fetorus_mami
 photo.111.commitdate: 2024/10/18
@@ -586,3 +578,11 @@ photo.113.author: fetorus_mami
 photo.113.commitdate: 2024/10/18
 photo.113.link: ig://C-fv3luyz9X
 photo.113.tags: grooming, laying down, mofumofu, peek, tail, tree
+species: 2
+video.1: https://youtu.be/0pWYYuAXEEA
+video.1.author: d_mover
+video.1.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
+video.2: https://youtu.be/E9tuO9lsrXc
+video.2.author: 兎派の窈ちゃん
+video.2.link: https://www.youtube.com/channel/UCssHd_epOrzybm5BJXTIBCQ
+zoo: 29

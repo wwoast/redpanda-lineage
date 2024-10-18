@@ -1780,9 +1780,6 @@ photo.353.author: komabazoophoto
 photo.353.commitdate: 2023/6/9
 photo.353.link: ig://CqhGhdWpSbN
 photo.353.tags: portrait, sample, snow
-species: 2
-studbook.id: 0674
-zoo: 7
 photo.354: cwdc://ZE6rSYVADQA.jpg
 photo.354.author: komabazoophoto
 photo.354.commitdate: 2024/10/18
@@ -1813,3 +1810,6 @@ photo.359.author: komabazoophoto
 photo.359.commitdate: 2024/10/18
 photo.359.link: ig://C-eh4p6y0ZX
 photo.359.tags: home, mofumofu, portrait, sample, whiskers
+species: 2
+studbook.id: 0674
+zoo: 7

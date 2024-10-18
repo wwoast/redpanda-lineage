@@ -578,8 +578,6 @@ photo.113.author: fetorus_mami
 photo.113.commitdate: 2024/4/4
 photo.113.link: ig://C2cuUcoPE9h
 photo.113.tags: bamboo, peek, sample, whiskers
-species: 2
-zoo: 29
 photo.114: cwdc://ZE9IrbQADQA.jpg
 photo.114.author: fetorus_mami
 photo.114.commitdate: 2024/10/18
@@ -595,3 +593,5 @@ photo.116.author: fetorus_mami
 photo.116.commitdate: 2024/10/18
 photo.116.link: ig://C-fwlLYSQQ1
 photo.116.tags: mofumofu, portrait, sample, tail, whiskers
+species: 2
+zoo: 29

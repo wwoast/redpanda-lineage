@@ -1658,15 +1658,6 @@ photo.329.author: fetorus_mami
 photo.329.commitdate: 2024/4/7
 photo.329.link: ig://C2Y8ll1PCkL
 photo.329.tags: apple time, dish, lunch time, paws, sample, tongue, whiskers
-species: 2
-studbook.id: unknown
-video.1: https://youtu.be/rYd6QptEbU0
-video.1.author: d_mover
-video.1.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
-video.2: https://youtu.be/3aUnsJ0Xa4k
-video.2.author: d_mover
-video.2.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
-zoo: 29
 photo.330: cwdc://ZE9J768ADQA.jpg
 photo.330.author: fetorus_mami
 photo.330.commitdate: 2024/10/18
@@ -1712,3 +1703,12 @@ photo.338.author: chankunvv
 photo.338.commitdate: 2024/10/18
 photo.338.link: ig://C-q_IviSfKW
 photo.338.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+species: 2
+studbook.id: unknown
+video.1: https://youtu.be/rYd6QptEbU0
+video.1.author: d_mover
+video.1.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
+video.2: https://youtu.be/3aUnsJ0Xa4k
+video.2.author: d_mover
+video.2.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
+zoo: 29

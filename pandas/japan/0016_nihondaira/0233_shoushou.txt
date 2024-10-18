@@ -2166,12 +2166,6 @@ photo.430.author: ayusuke56
 photo.430.commitdate: 2024/6/17
 photo.430.link: ig://B8tdFfzBSbRT
 photo.430.tags: apple time, paws, portrait, sample
-species: 2
-studbook.id: 1785
-video.1: https://youtu.be/T0UIB96RKQI
-video.1.author: harry
-video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
-zoo: 16
 photo.431: cwdc://ZFiGMcaADQA.jpg
 photo.431.author: taka__3428
 photo.431.commitdate: 2024/10/18
@@ -2187,13 +2181,19 @@ photo.433.author: taka__3428
 photo.433.commitdate: 2024/10/18
 photo.433.link: ig://C-yPVr9ByTt
 photo.433.tags: sample, smile
-photo.434: cwdc://ZG3HTydADQB.jpg
+photo.434: cwdc://ZGYNvYCADQA.jpg
 photo.434.author: lesserpanda_shizuokacity_cp
 photo.434.commitdate: 2024/10/18
-photo.434.link: ig://C_cv5W-vjws
-photo.434.tags: paws, portrait, sample, whiskers
-photo.435: cwdc://ZGYNvYCADQA.jpg
+photo.434.link: ig://C_NTHJxP-Nt
+photo.434.tags: bridge, mofumofu, peek, portrait, whiskers
+photo.435: cwdc://ZG3HTydADQB.jpg
 photo.435.author: lesserpanda_shizuokacity_cp
 photo.435.commitdate: 2024/10/18
-photo.435.link: ig://C_NTHJxP-Nt
-photo.435.tags: bridge, mofumofu, peek, portrait, whiskers
+photo.435.link: ig://C_cv5W-vjws
+photo.435.tags: paws, portrait, sample, whiskers
+species: 2
+studbook.id: 1785
+video.1: https://youtu.be/T0UIB96RKQI
+video.1.author: harry
+video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
+zoo: 16

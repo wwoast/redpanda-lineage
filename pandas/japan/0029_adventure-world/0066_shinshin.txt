@@ -226,9 +226,6 @@ photo.42.author: chankunvv
 photo.42.commitdate: 2024/4/4
 photo.42.link: ig://CxkrjsDPkBH
 photo.42.tags: mofumofu, nose, portrait, sample, smile, tongue, whiskers
-species: 2
-studbook.id: 1099
-zoo: 29
 photo.43: cwdc://ZE9FnujADQA.jpg
 photo.43.author: fetorus_mami
 photo.43.commitdate: 2024/10/18
@@ -244,3 +241,6 @@ photo.45.author: fetorus_mami
 photo.45.commitdate: 2024/10/18
 photo.45.link: ig://C-fvDVByf6o
 photo.45.tags: paws, portrait, sample, whiskers
+species: 2
+studbook.id: 1099
+zoo: 29
