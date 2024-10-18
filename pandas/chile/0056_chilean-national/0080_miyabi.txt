@@ -785,3 +785,23 @@ species: 2
 studbook.id: 1772
 uncertainty: exact location.2 date (git history)
 zoo: 56
+photo.155: cwdc://ZGGUVYbADQA.jpg
+photo.155.author: fetorus_mami
+photo.155.commitdate: 2024/10/18
+photo.155.link: ig://C_EWaJ9h2PI
+photo.155.tags: peek, tree
+photo.156: cwdc://ZGGUVYbADQB.jpg
+photo.156.author: fetorus_mami
+photo.156.commitdate: 2024/10/18
+photo.156.link: ig://C_EWaJ9h2PE
+photo.156.tags: bamboo, bite
+photo.157: cwdc://ZGGUVYbADQC.jpg
+photo.157.author: fetorus_mami
+photo.157.commitdate: 2024/10/18
+photo.157.link: ig://C_EWaJ9h2PD
+photo.157.tags: bamboo, bite, paws
+photo.158: cwdc://ZGGUVYbADQD.jpg
+photo.158.author: fetorus_mami
+photo.158.commitdate: 2024/10/18
+photo.158.link: ig://C_EWaJ9h2PC
+photo.158.tags: bamboo, peek

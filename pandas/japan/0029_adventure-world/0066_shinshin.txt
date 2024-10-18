@@ -229,3 +229,18 @@ photo.42.tags: mofumofu, nose, portrait, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 1099
 zoo: 29
+photo.43: cwdc://ZE9FnujADQA.jpg
+photo.43.author: fetorus_mami
+photo.43.commitdate: 2024/10/18
+photo.43.link: ig://C-fvDVByf6q
+photo.43.tags: paws, portrait, sample, whiskers
+photo.44: cwdc://ZE9FnujADQB.jpg
+photo.44.author: fetorus_mami
+photo.44.commitdate: 2024/10/18
+photo.44.link: ig://C-fvDVByf6p
+photo.44.tags: dish, paws, portrait, sample, whiskers
+photo.45: cwdc://ZE9FnujADQC.jpg
+photo.45.author: fetorus_mami
+photo.45.commitdate: 2024/10/18
+photo.45.link: ig://C-fvDVByf6o
+photo.45.tags: paws, portrait, sample, whiskers

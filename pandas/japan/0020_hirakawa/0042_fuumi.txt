@@ -469,3 +469,23 @@ photo.90.tags: peek, portrait, toys
 species: 2
 studbook.id: 0774
 zoo: 20
+photo.91: cwdc://ZFXx2aWADQD.jpg
+photo.91.author: hamamatsu.chiita
+photo.91.commitdate: 2024/10/18
+photo.91.link: ig://C-tFKq7BOrp
+photo.91.tags: blink, mofumofu, portrait, sample, smile
+photo.92: cwdc://ZGfvdivADQA.jpg
+photo.92.author: hamamatsu.chiita
+photo.92.commitdate: 2024/10/18
+photo.92.link: ig://C_RD-PHhaPt
+photo.92.tags: bite, mofumofu, portrait, sample
+photo.93: cwdc://ZGfvdivADQB.jpg
+photo.93.author: hamamatsu.chiita
+photo.93.commitdate: 2024/10/18
+photo.93.link: ig://C_RD-PHhaPs
+photo.93.tags: mofumofu, portrait, sample
+photo.94: cwdc://ZGfvdivADQC.jpg
+photo.94.author: hamamatsu.chiita
+photo.94.commitdate: 2024/10/18
+photo.94.link: ig://C_RD-PHhaPq
+photo.94.tags: mofumofu, peek, portrait, sample, smile
