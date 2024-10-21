@@ -17,6 +17,7 @@ photo.1: cwdc://VVyjfM8ADQA.jpg
 photo.1.author: take_421
 photo.1.commitdate: 2021/9/23
 photo.1.link: ig://BG6d_EOBqUT
+photo.1.tags: sample, whiskers
 photo.2: cwdc://ViB0l26ADQB.jpg
 photo.2.author: take_421
 photo.2.commitdate: 2021/8/22
@@ -101,11 +102,11 @@ photo.18.author: masa_polarbear
 photo.18.commitdate: 2018/12/8
 photo.18.link: ig://BrFdsQnFXM6
 photo.18.tags: paws, peek, sample, spider
-photo.19: ig://BsMXzR3FrNo/m
+photo.19: cwdc://WgWXHoOADQB.jpg
 photo.19.author: cabbage_biyori
 photo.19.commitdate: 2019/1/4
-photo.19.link: https://www.instagram.com/cabbage_biyori/
-photo.19.tags: apple time
+photo.19.link: ig://BsMXzR3FrNo
+photo.19.tags: apple time, lips, sample, whiskers
 photo.20: cwdc://WjqqJKuADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2019/2/19
@@ -383,7 +384,6 @@ photo.74.tags: paws, portrait, sample
 species: 2
 studbook.id: 0980
 zoo: 1
-photo.1.tags: sample, whiskers
 photo.75: cwdc://W-4onKkADQB.jpg
 photo.75.author: firefoxpanda88
 photo.75.commitdate: 2024/10/21
@@ -501,3 +501,8 @@ photo.97.author: na.mo.pan
 photo.97.commitdate: 2024/10/21
 photo.97.link: ig://CuRi9QMvZPb
 photo.97.tags: bamboo, sample, smile
+photo.98: cwdc://WgWXHoOADQA.jpg
+photo.98.author: cabbage_biyori
+photo.98.commitdate: 2024/10/21
+photo.98.link: ig://BsMXzR3FrNp
+photo.98.tags: lips, sample
