@@ -12,7 +12,7 @@ photo.1.tags.8.location: 110, 170
 photo.2: cwdc://Wzn-YkxADQA.jpg
 photo.2.author: ck.chie
 photo.2.commitdate: 2019/8/31
-photo.2.link: https://www.instagram.com/p/B11LbwIhDSC
+photo.2.link: ig://B11LbwIhDSC
 photo.2.tags: keeper, mother's day
 photo.2.tags.6.location: 245, 115
 photo.2.tags.8.location: 125, 120
@@ -35,3 +35,5 @@ photo.5.author: na.mo.pan
 photo.5.commitdate: 2024/10/21
 photo.5.link: ig://Bzf3_aahKmO
 photo.5.tags: climb, mother's day, paws, portrait, tree
+photo.5.tags.6.location: 600, 420
+photo.5.tags.8.location: 200, 300
