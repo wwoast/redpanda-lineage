@@ -2,15 +2,15 @@
 _id: 1441
 birthday: 2023/6/24
 commitdate: 2024/10/25
-gender: m
 en.name: Lokesh
 en.nicknames: none
 en.othernames: none
+gender: m
 language.order: en
-species: 1
-zoo: -318
 photo.1: cwdc://ZK9z7iA3dMA.jpg
 photo.1.author: __man.ja__
 photo.1.commitdate: 2024/10/25
 photo.1.link: https://www.instagram.com/__man.ja__
 photo.1.tags: mofumofu, sample, whiskers
+species: 1
+zoo: -318
