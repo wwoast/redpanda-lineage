@@ -5,7 +5,10 @@ commitdate: 2024/10/25
 en.name: Lalima
 en.nicknames: none
 en.othernames: none
+fr.name: Lalima
+fr.nicknames: none
+fr.othernames: none
 gender: f
-language.order: en
+language.order: fr, en
 species: 1
-zoo: -319
+zoo: 319
