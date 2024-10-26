@@ -14,80 +14,80 @@ ja.nicknames: none
 ja.othernames: 好
 language.order: ja, en
 litter: none
-photo.1: ig://BBYsNt9wZ91/m
+photo.1: cwdc://VKu_8gbADQA.jpg
 photo.1.author: rio_minron
 photo.1.commitdate: 2018/10/15
-photo.1.link: https://www.instagram.com/rio_minron/
-photo.2: ig://BEOkvSXBqRJ/m
+photo.1.link: ig://BBYsNt9wZ91
+photo.2: cwdc://VQaw_pOADQJ.jpg
 photo.2.author: take_421
 photo.2.commitdate: 2021/9/6
-photo.2.link: https://www.instagram.com/take_421/
-photo.2.tags: air tasting, tongue
-photo.3: ig://BKrEZwxDFyB/m
+photo.2.link: ig://BEOkvSXBqRJ
+photo.2.tags: air tasting, sample, tongue
+photo.3: cwdc://VdTwUmCADQA.jpg
 photo.3.author: rdpnzoo
 photo.3.commitdate: 2021/10/26
-photo.3.link: https://www.instagram.com/rdpnzoo/
-photo.3.tags: laying down, tail
-photo.4: ig://BPRqVwIjLQU/m
+photo.3.link: ig://BKrEZwxDFyB
+photo.3.tags: laying down, mofumofu, sample, tail
+photo.4: cwdc://Vmg8MkxADQJ.jpg
 photo.4.author: masa_polarbear
 photo.4.commitdate: 2020/7/21
-photo.4.link: https://www.instagram.com/masa_polarbear/
-photo.4.tags: laying down, tail
-photo.5: ig://BPSrsdmA4H9/m
+photo.4.link: ig://BPRqVwIjLQU
+photo.4.tags: laying down, mofumofu, tail
+photo.5: cwdc://Vmi-5_sADQB.jpg
 photo.5.author: panda.daisuki
 photo.5.commitdate: 2020/7/21
-photo.5.link: https://www.instagram.com/panda.daisuki/
-photo.5.tags: apple time
-photo.6: ig://BPrGbSWgcYT/m
+photo.5.link: ig://BPSrsdmA4H9
+photo.5.tags: apple time, sample, whiskers
+photo.6: cwdc://VnT0XpNADQA.jpg
 photo.6.author: panda.daisuki
 photo.6.commitdate: 2020/7/21
-photo.6.link: https://www.instagram.com/panda.daisuki/
-photo.6.tags: laying down, portrait, tail
-photo.7: ig://BSmqmbhAew1/m
+photo.6.link: ig://BPrGbSWgcYT
+photo.6.tags: laying down, portrait, sample, tail, whiskers
+photo.7: cwdc://VtK8t7iADQK.jpg
 photo.7.author: masa_polarbear
 photo.7.commitdate: 2020/7/21
-photo.7.link: https://www.instagram.com/masa_polarbear/
-photo.7.tags: bite, climb, tree
-photo.8: ig://BVChVEWhbh7/m
+photo.7.link: ig://BSmqmbhAew1
+photo.7.tags: bite, climb, paws, tree
+photo.8: cwdc://VyCqLNNADQK.jpg
 photo.8.author: take_421
 photo.8.commitdate: 2021/9/6
-photo.8.link: https://www.instagram.com/take_421/
-photo.8.tags: peek, portrait, whiskers
-photo.9: ig://BVLNAjvhAJU/m
+photo.8.link: ig://BVChVEWhbh7
+photo.8.tags: peek, portrait, sample, whiskers
+photo.9: cwdc://VyUBiL_ADQB.jpg
 photo.9.author: miis_98
 photo.9.commitdate: 2020/7/21
-photo.9.link: https://www.instagram.com/miis_98/
-photo.9.tags: portrait, tree
-photo.10: ig://BVSP-qgABMI/m
+photo.9.link: ig://BVLNAjvhAJU
+photo.9.tags: portrait, sample, tree, whiskers
+photo.10: cwdc://VyiHeZgADQC.jpg
 photo.10.author: panda.daisuki
 photo.10.commitdate: 2020/7/21
-photo.10.link: https://www.instagram.com/panda.daisuki/
-photo.10.tags: paws, portrait
-photo.11: ig://BVTP1UwgoHW/m
+photo.10.link: ig://BVSP-qgABMI
+photo.10.tags: mofumofu, paws, portrait, sample, whiskers
+photo.11: cwdc://VykHLuBADQL.jpg
 photo.11.author: masa_polarbear
 photo.11.commitdate: 2020/7/21
-photo.11.link: https://www.instagram.com/masa_polarbear/
-photo.11.tags: laying down, smile, tail, tree
-photo.12: ig://BY79d-WFtZ9/m
+photo.11.link: ig://BVTP1UwgoHW
+photo.11.tags: laying down, sample, smile, tail, tree
+photo.12: cwdc://V51idBMADQD.jpg
 photo.12.author: hanamaru_redpanda
 photo.12.commitdate: 2020/3/11
-photo.12.link: https://www.instagram.com/hanamaru_redpanda/
-photo.12.tags: home, laying down, portrait
+photo.12.link: ig://BY79d-WFtZ9
+photo.12.tags: home, laying down, portrait, sample
 photo.13: cwdc://V8csuLIADQA.jpg
 photo.13.author: wumpwoast
 photo.13.commitdate: 2022/11/29
 photo.13.link: ig://BaPimjUAWM_
 photo.13.tags: home, portrait, tail
-photo.14: ig://Baq4e4ZhTIp/m
+photo.14: cwdc://V9TYe1TADQA.jpg
 photo.14.author: mifko55
 photo.14.commitdate: 2020/7/21
-photo.14.link: https://www.instagram.com/mifko55/
-photo.14.tags: portrait, tail, tree
-photo.15: ig://BbSvRavBDPn/m
+photo.14.link: ig://Baq4e4ZhTIp
+photo.14.tags: portrait, sample, tail, tree
+photo.15: cwdc://V-jGD5-ADQA.jpg
 photo.15.author: miis_98
 photo.15.commitdate: 2018/7/28
-photo.15.link: https://www.instagram.com/miis_98/
-photo.15.tags: portrait, tree
+photo.15.link: ig://BbSvRavBDPn
+photo.15.tags: mofumofu, paws, portrait, sample, tree, whiskers
 photo.16: cwdc://V_H4W86ADQA.jpg
 photo.16.author: ck.chie
 photo.16.commitdate: 2019/11/29
@@ -98,248 +98,497 @@ photo.17.author: wumpwoast
 photo.17.commitdate: 2022/11/29
 photo.17.link: ig://BbxjOhklaHc
 photo.17.tags: peek, portrait, sample, tree
-photo.18: ig://BcOJbz7DuCT/m
+photo.18: cwdc://WAZ6YsWADQJ.jpg
 photo.18.author: _rifa_p
 photo.18.commitdate: 2018/10/15
-photo.18.link: https://www.instagram.com/_rifa_p/
-photo.18.tags: laying down, tree, yawn
+photo.18.link: ig://BcOJbz7DuCT
+photo.18.tags: laying down, tail, tree, yawn
 photo.19: cwdc://WBzBfujADQA.jpg
 photo.19.author: ck.chie
 photo.19.commitdate: 2018/7/16
 photo.19.link: ig://Bc6s_VBjqnt
 photo.19.tags: portrait, profile, sample, tree, whiskers
-photo.20: ig://BdcATTLgSQG/m
+photo.20: cwdc://WC1oHq3ADQB.jpg
 photo.20.author: masa_polarbear
 photo.20.commitdate: 2020/7/21
-photo.20.link: https://www.instagram.com/masa_polarbear/
-photo.20.tags: lips, smile, tail
-photo.21: ig://BfSfhKpANEi/m
+photo.20.link: ig://BdcATTLgSQG
+photo.20.tags: lips, sample, smile, tail
+photo.21: cwdc://WGimjZyADQC.jpg
 photo.21.author: masa_polarbear
 photo.21.commitdate: 2020/2/11
-photo.21.link: https://www.instagram.com/masa_polarbear/
-photo.21.tags: apple time, lips
-photo.22: ig://BfeadQEhroK/m
+photo.21.link: ig://BfSfhKpANEi
+photo.21.tags: apple time, lips, sample, whiskers
+photo.22: cwdc://WG6cbkpADQK.jpg
 photo.22.author: _rifa_p
 photo.22.commitdate: 2018/7/28
-photo.22.link: https://www.instagram.com/_rifa_p/
-photo.22.tags: laying down, tongue, tree
-photo.23: ig://Bhbx5awlTsL/m
+photo.22.link: ig://BfeadQEhroK
+photo.22.tags: laying down, sample, tongue, tree
+photo.23: cwdc://WK1LT6BADQD.jpg
 photo.23.author: masa_polarbear
 photo.23.commitdate: 2020/2/11
-photo.23.link: https://www.instagram.com/masa_polarbear/
-photo.23.tags: apple time, smile, tail, tongue
+photo.23.link: ig://Bhbx5awlTsL
+photo.23.tags: apple time, sample, smile, tail, tongue, whiskers
 photo.24: cwdc://WLc9ECsADQB.jpg
 photo.24.author: ck.chie
 photo.24.commitdate: 2020/7/21
 photo.24.link: ig://BhvqxfGFOds
 photo.24.tags: portrait, sample, tree
-photo.25: ig://BiDhAyslkDV/m
+photo.25: cwdc://WMEpip5ADQA.jpg
 photo.25.author: minatomirai215
 photo.25.commitdate: 2018/10/15
-photo.25.link: https://www.instagram.com/minatomirai215/
-photo.25.tags: door, portrait
-photo.26: ig://BiSuxZKFAZb/m
+photo.25.link: ig://BiDhAyslkDV
+photo.25.tags: door, lips, portrait
+photo.26: cwdc://WMjFD20ADQG.jpg
 photo.26.author: masa_polarbear
 photo.26.commitdate: 2020/2/11
-photo.26.link: https://www.instagram.com/masa_polarbear/
-photo.26.tags: smile, whiskers
-photo.27: ig://BihkCaAFxTP/m
+photo.26.link: ig://BiSuxZKFAZb
+photo.26.tags: sample, smile, whiskers
+photo.27: cwdc://WNAvl4gADQA.jpg
 photo.27.author: bubbles_octi
 photo.27.commitdate: 2018/7/16
-photo.27.link: https://www.instagram.com/bubbles_octi/
-photo.27.tags: portrait, tongue
-photo.28: ig://Bi1TYKZFuCa/m
+photo.27.link: ig://BihkCaAFxTP
+photo.27.tags: portrait, sample, tongue, whiskers
+photo.28: cwdc://WNoORZSADQA.jpg
 photo.28.author: hanamaru_redpanda
 photo.28.commitdate: 2018/10/15
-photo.28.link: https://www.instagram.com/hanamaru_redpanda/
-photo.28.tags: portrait
-photo.29: ig://Bjq1C_1FTM4/m
+photo.28.link: ig://Bi1TYKZFuCa
+photo.28.tags: portrait, sample, whiskers
+photo.29: cwdc://WPTRnEKADQH.jpg
 photo.29.author: na.mo.pan
 photo.29.commitdate: 2018/10/15
-photo.29.link: https://www.instagram.com/na.mo.pan/
-photo.29.tags: portrait, smile
-photo.30: ig://Bj65k1Dlxxb/m
+photo.29.link: ig://Bjq1C_1FTM4
+photo.29.tags: portrait, sample, smile, tail, whiskers
+photo.30: cwdc://WPzaqunADQB.jpg
 photo.30.author: hanamaru_redpanda
 photo.30.commitdate: 2020/3/12
-photo.30.link: https://www.instagram.com/hanamaru_redpanda/
-photo.30.tags: lips, portrait
-photo.31: ig://Bj--H6bFzfC/m
+photo.30.link: ig://Bj65k1Dlxxb
+photo.30.tags: lips, portrait, sample, smile
+photo.31: cwdc://WP7jw5WADQL.jpg
 photo.31.author: _rifa_p
 photo.31.commitdate: 2018/10/15
-photo.31.link: https://www.instagram.com/_rifa_p/
-photo.31.tags: tongue, tree
-photo.32: ig://Bj_sbrpl5th/m
+photo.31.link: ig://Bj--H6bFzfC
+photo.31.tags: sample, tongue, tree
+photo.32: cwdc://WP9AYbzADQH.jpg
 photo.32.author: masa_polarbear
 photo.32.commitdate: 2020/2/11
-photo.32.link: https://www.instagram.com/masa_polarbear/
-photo.32.tags: laying down, paws, tail
-photo.33: ig://BlcymKKFytm/m
+photo.32.link: ig://Bj_sbrpl5th
+photo.32.tags: laying down, paws, sample, tail
+photo.33: cwdc://WS3MtY0ADQC.jpg
 photo.33.author: hanamaru_redpanda
 photo.33.commitdate: 2020/3/13
-photo.33.link: https://www.instagram.com/hanamaru_redpanda/
-photo.33.tags: paws, portrait, smile
+photo.33.link: ig://BlcymKKFytm
+photo.33.tags: paws, portrait, sample, smile
 photo.34: cwdc://WVkuTrfADQC.jpg
 photo.34.author: ck.chie
 photo.34.commitdate: 2018/10/15
 photo.34.link: ig://BmzjZTflcIZ
 photo.34.tags: portrait, sample, smile, tongue
-photo.35: ig://Bo-PIVHlcaX/m
+photo.35: cwdc://WZ6FxuvADQT.jpg
 photo.35.author: _rifa_p
 photo.35.commitdate: 2018/10/15
-photo.35.link: https://www.instagram.com/_rifa_p/
-photo.36: ig://BpKX14kFGzF/m
+photo.35.link: ig://Bo-PIVHlcaX
+photo.36: cwdc://WaSXM1oADQK.jpg
 photo.36.author: na.mo.pan
 photo.36.commitdate: 2018/10/21
-photo.36.link: https://www.instagram.com/na.mo.pan/
-photo.36.tags: tree
-photo.37: ig://Bp9p3-3llk8/m
+photo.36.link: ig://BpKX14kFGzF
+photo.36.tags: peek, sample, tree
+photo.37: cwdc://Wb47RCPADQA.jpg
 photo.37.author: 218_yu
 photo.37.commitdate: 2018/11/11
-photo.37.link: https://www.instagram.com/218_yu/
-photo.38: ig://Bp9387HlsLh/m
+photo.37.link: ig://Bp9p3-3llk8
+photo.38: cwdc://Wb5Xa6vADQI.jpg
 photo.38.author: na.mo.pan
 photo.38.commitdate: 2018/11/11
-photo.38.link: https://www.instagram.com/na.mo.pan/
-photo.38.tags: smile
-photo.39: ig://BqfALcuFbLT/m
+photo.38.link: ig://Bp9387HlsLh
+photo.38.tags: home, portrait, sample, smile
+photo.39: cwdc://Wc7n398ADQL.jpg
 photo.39.author: na.mo.pan
 photo.39.commitdate: 2018/11/22
-photo.39.link: https://www.instagram.com/na.mo.pan/
-photo.40: ig://BrTlxO6gqvt/m
+photo.39.link: ig://BqfALcuFbLT
+photo.40: cwdc://WekzDiVADQV.jpg
 photo.40.author: _rifa_p
 photo.40.commitdate: 2018/12/12
-photo.40.link: https://www.instagram.com/_rifa_p/
-photo.40.tags: lunch time
-photo.41: ig://Br2B6WZluVT/m
+photo.40.link: ig://BrTlxO6gqvt
+photo.40.tags: lunch time, smile
+photo.41: cwdc://WfprVxTADQA.jpg
 photo.41.author: yakko____
 photo.41.commitdate: 2018/12/26
-photo.41.link: https://www.instagram.com/yakko____/
-photo.41.tags: home, portrait, smile
-photo.42: ig://BsQdxenFCzD/m
+photo.41.link: ig://Br2B6WZluVT
+photo.41.tags: home, portrait, sample, smile
+photo.42: cwdc://WgejEBuADQA.jpg
 photo.42.author: craig_craig_craig
 photo.42.commitdate: 2019/1/7
-photo.42.link: https://www.instagram.com/craig_craig_craig/
-photo.42.tags: lips
+photo.42.link: ig://BsQdxenFCzD
+photo.42.tags: close-up, lips
 photo.43: cwdc://Wh5GfleADQA.jpg
 photo.43.author: wumpwoast
 photo.43.commitdate: 2022/1/6
 photo.43.link: ig://Bs9vfQfF_OU
 photo.43.tags: paws, portrait, tree
-photo.44: ig://Bt3GYQCFMLM/m
+photo.44: cwdc://Wjr0RkkADQB.jpg
 photo.44.author: ifumoto88
 photo.44.commitdate: 2019/2/19
-photo.44.link: https://www.instagram.com/ifumoto88/
-photo.44.tags: lips, portrait, smile
-photo.45: ig://Bwy3yMolgdT/m
+photo.44.link: ig://Bt3GYQCFMLM
+photo.44.tags: lips, portrait, sample, smile, whiskers
+photo.45: cwdc://WpjXFdxADQA.jpg
 photo.45.author: firefoxpanda88
 photo.45.commitdate: 2019/5/5
-photo.45.link: https://www.instagram.com/firefoxpanda88/
-photo.45.tags: paws, portrait
-photo.46: ig://ByWTsPnn2yQ/m
+photo.45.link: ig://Bwy3yMolgdT
+photo.45.tags: paws, portrait, sample, whiskers
+photo.46: cwdc://WsqO5jvADQA.jpg
 photo.46.author: fetorus_mami
 photo.46.commitdate: 2019/6/6
-photo.46.link: https://www.instagram.com/fetorus_mami/
+photo.46.link: ig://ByWTsPnn2yQ
 photo.46.tags: laying down, tail
-photo.47: ig://BysC5pHB_Dq/m
+photo.47: cwdc://WtVtUWuADQM.jpg
 photo.47.author: na.mo.pan
 photo.47.commitdate: 2020/7/21
-photo.47.link: https://www.instagram.com/na.mo.pan/
-photo.47.tags: paws, portrait, smile, tail
-photo.48: ig://BzPEBMBB1YQ/m
+photo.47.link: ig://BysC5pHB_Dq
+photo.47.tags: paws, portrait, sample, smile, tail
+photo.48: cwdc://WubvjciADQM.jpg
 photo.48.author: masa_polarbear
 photo.48.commitdate: 2019/7/2
-photo.48.link: https://www.instagram.com/masa_polarbear/
+photo.48.link: ig://BzPEBMBB1YQ
 photo.48.tags: smile, whiskers
-photo.49: ig://B54W5LfhO0n/m
+photo.49: cwdc://W7uVTbfADQA.jpg
 photo.49.author: masa_polarbear
 photo.49.commitdate: 2019/12/16
-photo.49.link: https://www.instagram.com/masa_polarbear/
-photo.49.tags: paws
-photo.50: ig://B6vDudKh0wN/m
+photo.49.link: ig://B54W5LfhO0n
+photo.49.tags: paws, sample, tree, whiskers
+photo.50: cwdc://W9bu9-1ADQA.jpg
 photo.50.author: leonard_redmof
 photo.50.commitdate: 2020/1/2
-photo.50.link: https://www.instagram.com/leonard_redmof/
-photo.50.tags: portrait, smile, tail
-photo.51: ig://B6vD6ngBCeg/m
+photo.50.link: ig://B6vDudKh0wN
+photo.50.tags: bamboo, mofumofu, portrait, sample, smile, tail
+photo.51: cwdc://W9bvWTgADQA.jpg
 photo.51.author: grskus_tk
 photo.51.commitdate: 2020/1/2
-photo.51.link: https://www.instagram.com/grskus_tk/
-photo.51.tags: paws, peek, portrait
-photo.52: ig://B6vFr5QB7ZJ/m
+photo.51.link: ig://B6vD6ngBCeg
+photo.51.tags: paws, peek, portrait, sample
+photo.52: cwdc://W9by43AADQA.jpg
 photo.52.author: ifumoto88
 photo.52.commitdate: 2020/1/2
-photo.52.link: https://www.instagram.com/ifumoto88/
-photo.52.tags: laying down, portrait, tail
-photo.53: ig://B6vNHq6hOOZ/m
+photo.52.link: ig://B6vFr5QB7ZJ
+photo.52.tags: laying down, mofumofu, portrait, sleeping, tail
+photo.53: cwdc://W9cBwaVADQB.jpg
 photo.53.author: redpanda_nippon_takashi
 photo.53.commitdate: 2020/1/2
-photo.53.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.53.tags: whiskers
-photo.54: ig://B6vO9_SBao_/m
+photo.53.link: ig://B6vNHq6hOOZ
+photo.53.tags: close-up, lips, mofumofu, sample, whiskers
+photo.54: cwdc://W9cFdDEADQA.jpg
 photo.54.author: nakacchi_desu
 photo.54.commitdate: 2020/1/2
-photo.54.link: https://www.instagram.com/nakacchi_desu/
-photo.54.tags: autumn, peek
+photo.54.link: ig://B6vO9_SBao_
+photo.54.tags: autumn, peek, tree
 photo.55: cwdc://W9cznoIADQA.jpg
 photo.55.author: wumpwoast
 photo.55.commitdate: 2021/6/19
 photo.55.link: ig://B6vmDR0B26Q
 photo.55.tags: paws, portrait, tree
-photo.56: ig://B6vuwbyhQwS/m
+photo.56: cwdc://W9dFB8FADQC.jpg
 photo.56.author: take_421
 photo.56.commitdate: 2020/1/2
-photo.56.link: https://www.instagram.com/take_421/
-photo.56.tags: portrait, smile, whiskers
-photo.57: ig://B6wdbwkBQNl/m
+photo.56.link: ig://B6vuwbyhQwS
+photo.56.tags: portrait, sample, smile, whiskers
+photo.57: cwdc://W9eiYloADQA.jpg
 photo.57.author: _rifa_p
 photo.57.commitdate: 2020/1/2
-photo.57.link: https://www.instagram.com/_rifa_p/
-photo.57.tags: autumn, tree
-photo.58: ig://B7iPS89h_hJ/m
+photo.57.link: ig://B6wdbwkBQNl
+photo.57.tags: autumn, peek, tree
+photo.58: cwdc://W_CGG-bADQA.jpg
 photo.58.author: na.mo.pan
 photo.58.commitdate: 2020/1/22
-photo.58.link: https://www.instagram.com/na.mo.pan/
-photo.58.tags: smile
-photo.59: ig://B_BhrzEB9P5/m
+photo.58.link: ig://B7iPS89h_hJ
+photo.58.tags: mofumofu, sample, smile
+photo.59: cwdc://XGAq4qoADQA.jpg
 photo.59.author: tomo3700
 photo.59.commitdate: 2020/7/21
-photo.59.link: https://www.instagram.com/tomo3700/
-photo.59.tags: home, portrait, smile, tail
-photo.60: ig://B_HVJONBr9R/m
+photo.59.link: ig://B_BhrzEB9P5
+photo.59.tags: home, portrait, sample, smile, tail, tongue
+photo.60: cwdc://XGMRzg6ADQA.jpg
 photo.60.author: run.swim.shingo
 photo.60.commitdate: 2020/7/21
-photo.60.link: https://www.instagram.com/run.swim.shingo/
+photo.60.link: ig://B_HVJONBr9R
 photo.60.tags: air tasting, home, laying down, portrait, tail, tongue
-photo.61: ig://B_haUtgn7Ku/m
+photo.61: cwdc://XHAcKfhADQA.jpg
 photo.61.author: ssc6105
 photo.61.commitdate: 2020/7/21
-photo.61.link: https://www.instagram.com/ssc6105/
-photo.61.tags: laying down, paws
-photo.62: ig://B_iHJUynYUO/m
+photo.61.link: ig://B_haUtgn7Ku
+photo.61.tags: laying down, paws, sample, wink
+photo.62: cwdc://XHB1zuFADQB.jpg
 photo.62.author: na.mo.pan
 photo.62.commitdate: 2020/7/21
-photo.62.link: https://www.instagram.com/na.mo.pan/
-photo.62.tags: smile, tongue
-photo.63: ig://CGPyRtzhcnK/m
+photo.62.link: ig://B_iHJUynYUO
+photo.62.tags: sample, smile, tongue
+photo.63: cwdc://XUdMEgHADQB.jpg
 photo.63.author: firefoxpanda88
 photo.63.commitdate: 2020/10/12
-photo.63.link: https://www.instagram.com/firefoxpanda88/
-photo.63.tags: home, portrait, tail
-photo.64: ig://CHPwGtahCTe/m
+photo.63.link: ig://CGPyRtzhcnK
+photo.63.tags: home, portrait, sample, tail
+photo.64: cwdc://XWdHufVADQE.jpg
 photo.64.author: firefoxpanda88
 photo.64.commitdate: 2020/11/21
-photo.64.link: https://www.instagram.com/firefoxpanda88/
+photo.64.link: ig://CHPwGtahCTe
 photo.64.tags: air tasting, autumn, peek, tongue, tree
-photo.65: ig://CJbREh7BDaR/m
+photo.65: cwdc://Xa0JqIWADQF.jpg
 photo.65.author: firefoxpanda88
 photo.65.commitdate: 2020/12/30
-photo.65.link: https://www.instagram.com/firefoxpanda88/
-photo.65.tags: air tasting, mofumofu, tongue
-photo.66: ig://CJcMVHBB-P6/m
+photo.65.link: ig://CJbREh7BDaR
+photo.65.tags: air tasting, mofumofu, sample, tongue, whiskers
+photo.66: cwdc://Xa2ALSiADQX.jpg
 photo.66.author: _rifa_p
 photo.66.commitdate: 2021/1/3
-photo.66.link: https://www.instagram.com/_rifa_p/
-photo.66.tags: portrait, smile, whiskers
+photo.66.link: ig://CJcMVHBB-P6
+photo.66.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 0550
 zoo: 1
+photo.1.tags: paws, peek
+photo.67: cwdc://W9cBwaVADQA.jpg
+photo.67.author: redpanda_nippon_takashi
+photo.67.commitdate: 2024/10/25
+photo.67.link: ig://B6vNHq6hOOc
+photo.67.tags: door, keeper, paws
+photo.68: cwdc://W9cFdDEADQB.jpg
+photo.68.author: nakacchi_desu
+photo.68.commitdate: 2024/10/25
+photo.68.link: ig://B6vO9_SBapA
+photo.68.tags: autumn, peek, sample, tree, whiskers
+photo.69: cwdc://W9cFdDEADQC.jpg
+photo.69.author: nakacchi_desu
+photo.69.commitdate: 2024/10/25
+photo.69.link: ig://B6vO9_SBapB
+photo.69.tags: paws, sample, wet, whiskers
+photo.70: cwdc://W9cFdDEADQD.jpg
+photo.70.author: nakacchi_desu
+photo.70.commitdate: 2024/10/25
+photo.70.link: ig://B6vO9_SBapC
+photo.70.tags: flowers, peek, sample, whiskers
+photo.71: cwdc://W9cFdDEADQE.jpg
+photo.71.author: nakacchi_desu
+photo.71.commitdate: 2024/10/25
+photo.71.link: ig://B6vO9_SBapD
+photo.71.tags: laying down, peek, tree
+photo.72: cwdc://W9cFdDEADQF.jpg
+photo.72.author: nakacchi_desu
+photo.72.commitdate: 2024/10/25
+photo.72.link: ig://B6vO9_SBapE
+photo.72.tags: dish, lunch time, paws, whiskers
+photo.73: cwdc://W9cFdDEADQG.jpg
+photo.73.author: nakacchi_desu
+photo.73.commitdate: 2024/10/25
+photo.73.link: ig://B6vO9_SBapF
+photo.73.tags: close-up, lips, sample
+photo.74: cwdc://W9dFB8FADQA.jpg
+photo.74.author: take_421
+photo.74.commitdate: 2024/10/25
+photo.74.link: ig://B6vuwbyhQwa
+photo.74.tags: autumn, peek, portrait, sample, whiskers
+photo.75: cwdc://W9dFB8FADQB.jpg
+photo.75.author: take_421
+photo.75.commitdate: 2024/10/25
+photo.75.link: ig://B6vuwbyhQwb
+photo.75.tags: laying down, peek, portrait
+photo.76: cwdc://W9dFB8FADQD.jpg
+photo.76.author: take_421
+photo.76.commitdate: 2024/10/25
+photo.76.link: ig://B6vuwbyhQwT
+photo.76.tags: portrait, sample, tail, whiskers
+photo.77: cwdc://W9dFB8FADQE.jpg
+photo.77.author: take_421
+photo.77.commitdate: 2024/10/25
+photo.77.link: ig://B6vuwbyhQwU
+photo.77.tags: paws, portrait, sample, whiskers
+photo.78: cwdc://W9dFB8FADQF.jpg
+photo.78.author: take_421
+photo.78.commitdate: 2024/10/25
+photo.78.link: ig://B6vuwbyhQwV
+photo.78.tags: paws, portrait, sample, whiskers
+photo.79: cwdc://W9dFB8FADQG.jpg
+photo.79.author: take_421
+photo.79.commitdate: 2024/10/25
+photo.79.link: ig://B6vuwbyhQwW
+photo.79.tags: door, home, portrait, whiskers
+photo.80: cwdc://W9dFB8FADQH.jpg
+photo.80.author: take_421
+photo.80.commitdate: 2024/10/25
+photo.80.link: ig://B6vuwbyhQwX
+photo.80.tags: paws, portrait, sample, tail, whiskers
+photo.81: cwdc://W9dFB8FADQI.jpg
+photo.81.author: take_421
+photo.81.commitdate: 2024/10/25
+photo.81.link: ig://B6vuwbyhQwY
+photo.81.tags: laying down, mofumofu, portrait, tail
+photo.82: cwdc://W9eiYloADQB.jpg
+photo.82.author: _rifa_p
+photo.82.commitdate: 2024/10/25
+photo.82.link: ig://B6wdbwkBQNm
+photo.82.tags: lips, sample, whiskers
+photo.83: cwdc://W9eiYloADQC.jpg
+photo.83.author: _rifa_p
+photo.83.commitdate: 2024/10/25
+photo.83.link: ig://B6wdbwkBQNn
+photo.83.tags: laying down, paws, upside-down
+photo.84: cwdc://W9eiYloADQD.jpg
+photo.84.author: _rifa_p
+photo.84.commitdate: 2024/10/25
+photo.84.link: ig://B6wdbwkBQNo
+photo.84.tags: peek, sample, whiskers
+photo.85: cwdc://W9eiYloADQE.jpg
+photo.85.author: _rifa_p
+photo.85.commitdate: 2024/10/25
+photo.85.link: ig://B6wdbwkBQNp
+photo.85.tags: door, paws, peek
+photo.86: cwdc://W9eiYloADQF.jpg
+photo.86.author: _rifa_p
+photo.86.commitdate: 2024/10/25
+photo.86.link: ig://B6wdbwkBQNq
+photo.86.tags: sample, tail, tongue, tree
+photo.87: cwdc://W9eiYloADQG.jpg
+photo.87.author: _rifa_p
+photo.87.commitdate: 2024/10/25
+photo.87.link: ig://B6wdbwkBQNr
+photo.87.tags: paws, sample, tree
+photo.88: cwdc://W9eiYloADQH.jpg
+photo.88.author: _rifa_p
+photo.88.commitdate: 2024/10/25
+photo.88.link: ig://B6wdbwkBQNs
+photo.88.tags: paws, peek, tree
+photo.89: cwdc://W9eiYloADQI.jpg
+photo.89.author: _rifa_p
+photo.89.commitdate: 2024/10/25
+photo.89.link: ig://B6wdbwkBQNt
+photo.89.tags: autumn, laying down, tail, tree
+photo.90: cwdc://WK1LT6BADQE.jpg
+photo.90.author: masa_polarbear
+photo.90.commitdate: 2024/10/25
+photo.90.link: ig://Bhbx5awlTsM
+photo.90.tags: grooming, laying down, paws, tail
+photo.91: cwdc://WK1LT6BADQF.jpg
+photo.91.author: masa_polarbear
+photo.91.commitdate: 2024/10/25
+photo.91.link: ig://Bhbx5awlTsN
+photo.91.tags: laying down, paws, playing, tail
+photo.92: cwdc://WP7jw5WADQM.jpg
+photo.92.author: _rifa_p
+photo.92.commitdate: 2024/10/25
+photo.92.link: ig://Bj--H6bFzfD
+photo.92.tags: lunch time, paws, sample, tail, tongue
+photo.93: cwdc://WP7jw5WADQP.jpg
+photo.93.author: _rifa_p
+photo.93.commitdate: 2024/10/25
+photo.93.link: ig://Bj--H6bFzfG
+photo.93.tags: peek, sample, tail
+photo.94: cwdc://WP7jw5WADQQ.jpg
+photo.94.author: _rifa_p
+photo.94.commitdate: 2024/10/25
+photo.94.link: ig://Bj--H6bFzfI
+photo.94.tags: distance
+photo.95: cwdc://WP7jw5WADQR.jpg
+photo.95.author: _rifa_p
+photo.95.commitdate: 2024/10/25
+photo.95.link: ig://Bj--H6bFzfJ
+photo.95.tags: distance, tree
+photo.96: cwdc://WP7jw5WADQS.jpg
+photo.96.author: _rifa_p
+photo.96.commitdate: 2024/10/25
+photo.96.link: ig://Bj--H6bFzfK
+photo.96.tags: paws, playing, tail, upside-down
+photo.97: cwdc://WP9AYbzADQI.jpg
+photo.97.author: masa_polarbear
+photo.97.commitdate: 2024/10/25
+photo.97.link: ig://Bj_sbrpl5ti
+photo.97.tags: climb, paws, sample, tree
+photo.35.tags: paws, sample, whiskers
+photo.98: cwdc://WZ6FxuvADQU.jpg
+photo.98.author: _rifa_p
+photo.98.commitdate: 2024/10/25
+photo.98.link: ig://Bo-PIVHlcaY
+photo.98.tags: peek
+photo.37.tags: close-up, sample, whiskers
+photo.99: cwdc://Wb47RCPADQB.jpg
+photo.99.author: 218_yu
+photo.99.commitdate: 2024/10/25
+photo.99.link: ig://Bp9p3-3llk9
+photo.99.tags: close-up, sample, whiskers
+photo.100: cwdc://Wb47RCPADQC.jpg
+photo.100.author: 218_yu
+photo.100.commitdate: 2024/10/25
+photo.100.link: ig://Bp9p3-3llk-
+photo.100.tags: close-up, sample, whiskers
+photo.101: cwdc://Wb5Xa6vADQJ.jpg
+photo.101.author: na.mo.pan
+photo.101.commitdate: 2024/10/25
+photo.101.link: ig://Bp9387HlsLi
+photo.101.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.39.tags: portrait, sample
+photo.102: cwdc://WekzDiVADQW.jpg
+photo.102.author: _rifa_p
+photo.102.commitdate: 2024/10/25
+photo.102.link: ig://BrTlxO6gqvu
+photo.102.tags: door, paws, tongue
+photo.103: cwdc://WgejEBuADQB.jpg
+photo.103.author: craig_craig_craig
+photo.103.commitdate: 2024/10/25
+photo.103.link: ig://BsQdxenFCzE
+photo.103.tags: mofumofu, paws, whiskers
+photo.104: cwdc://WgejEBuADQC.jpg
+photo.104.author: craig_craig_craig
+photo.104.commitdate: 2024/10/25
+photo.104.link: ig://BsQdxenFCzF
+photo.104.tags: paws, sample
+photo.105: cwdc://XHB1zuFADQC.jpg
+photo.105.author: na.mo.pan
+photo.105.commitdate: 2024/10/25
+photo.105.link: ig://B_iHJUynYUP
+photo.105.tags: paws, sample, smile, tail
+photo.106: cwdc://XHB1zuFADQD.jpg
+photo.106.author: na.mo.pan
+photo.106.commitdate: 2024/10/25
+photo.106.link: ig://B_iHJUynYUQ
+photo.106.tags: bear worm, laying down, paws, sample, smile
+photo.107: cwdc://XHB1zuFADQE.jpg
+photo.107.author: na.mo.pan
+photo.107.commitdate: 2024/10/25
+photo.107.link: ig://B_iHJUynYUR
+photo.107.tags: grooming, paws, tail
+photo.108: cwdc://XHB1zuFADQF.jpg
+photo.108.author: na.mo.pan
+photo.108.commitdate: 2024/10/25
+photo.108.link: ig://B_iHJUynYUS
+photo.108.tags: door, mofumofu, paws, sample, smile
+photo.109: cwdc://XHB1zuFADQG.jpg
+photo.109.author: na.mo.pan
+photo.109.commitdate: 2024/10/25
+photo.109.link: ig://B_iHJUynYUT
+photo.109.tags: mofumofu, paws, sample, smile, tail
+photo.110: cwdc://XUdMEgHADQC.jpg
+photo.110.author: firefoxpanda88
+photo.110.commitdate: 2024/10/25
+photo.110.link: ig://CGPyRtzhcnL
+photo.110.tags: door, home, paws, portrait, sample, smile, whiskers
+photo.111: cwdc://XUdMEgHADQD.jpg
+photo.111.author: firefoxpanda88
+photo.111.commitdate: 2024/10/25
+photo.111.link: ig://CGPyRtzhcnM
+photo.111.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.112: cwdc://Xa2ALSiADQY.jpg
+photo.112.author: _rifa_p
+photo.112.commitdate: 2024/10/25
+photo.112.link: ig://CJcMVHBB-P7
+photo.112.tags: portrait, sample, tail
+photo.113: cwdc://Xa2ALSiADQZ.jpg
+photo.113.author: _rifa_p
+photo.113.commitdate: 2024/10/25
+photo.113.link: ig://CJcMVHBB-P8
+photo.113.tags: peek, portrait, sample, tail
+photo.114: cwdc://Xa2ALSiADQa.jpg
+photo.114.author: _rifa_p
+photo.114.commitdate: 2024/10/25
+photo.114.link: ig://CJcMVHBB-P9
+photo.114.tags: lunch time, paws, portrait, sample
+photo.115: cwdc://Y0K1sqiADQN.jpg
+photo.115.author: masa_polarbear
+photo.115.commitdate: 2024/10/25
+photo.115.link: ig://C2GnFzBPDVe
+photo.115.tags: laying down, sample
