@@ -19,7 +19,7 @@ location.2: 1, 2003/4/9
 photo.1: cwdc://V7XIGydADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2022/10/6
-photo.1.link: https://www.instagram.com/p/BZswS2-gs7P
+photo.1.link: ig://BZswS2-gs7P
 photo.1.tags: dish, lunch time, portrait, sample, smile
 photo.2: ig://BZyNxazlwNq/m
 photo.2.author: hanamaru_redpanda
@@ -39,7 +39,7 @@ photo.4.tags: portrait, profile, sample, whiskers
 photo.5: cwdc://WQV_nbIADQA.jpg
 photo.5.author: ck.chie
 photo.5.commitdate: 2018/7/28
-photo.5.link: https://www.instagram.com/p/BkMMDLUFW8D
+photo.5.link: ig://BkMMDLUFW8D
 photo.5.tags: dish, lunch time, nose, portrait, sample, whiskers
 photo.6: ig://BksOTuwHp36/m
 photo.6.author: ruru_maki
@@ -61,7 +61,7 @@ photo.9.link: https://www.instagram.com/218_yu/
 photo.10: cwdc://Wd892jeADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/12/6
-photo.10.link: https://www.instagram.com/p/Bq_rKvfFbrA
+photo.10.link: ig://Bq_rKvfFbrA
 photo.10.tags: paws, portrait
 photo.11: ig://BrCyvyIFXHN/m
 photo.11.author: na.mo.pan
@@ -294,7 +294,7 @@ photo.56.tags: dish, lunch time, portrait, smile, wink
 photo.57: cwdc://W_gNjecADQA.jpg
 photo.57.author: wumpwoast
 photo.57.commitdate: 2020/1/28
-photo.57.link: https://www.instagram.com/p/B7xTBM-BRQc
+photo.57.link: ig://B7xTBM-BRQc
 photo.57.tags: paws, portrait
 photo.58: ig://B8H9fIXB3S9/m
 photo.58.author: grskus_tk
@@ -599,7 +599,7 @@ photo.117.tags: close-up, mofumofu, sample, whiskers
 photo.118: cwdc://YpqtuKBADQB.jpg
 photo.118.author: ck.chie
 photo.118.commitdate: 2023/9/12
-photo.118.link: https://www.instagram.com/p/Cw2jGiwvMd-
+photo.118.link: ig://Cw2jGiwvMd-
 photo.118.tags: mofumofu, old, sample, tongue
 photo.119: ig://Cw24AZCPC0o/m
 photo.119.author: ruru_maki
