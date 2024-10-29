@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: セイナ
 language.order: ja, en
 litter: 440
-photo.1: ig://BO8BNSOjBoO/m
+photo.1: cwdc://Vl1p7o9ADQA.jpg
 photo.1.author: no_life_no_zoo
 photo.1.commitdate: 2018/7/19
-photo.1.link: https://www.instagram.com/no_life_no_zoo/
+photo.1.link: ig://BO8BNSOjBoO
 photo.2: cwdc://Vm-LlWsADQA.jpg
 photo.2.author: takashi_8310iyo
 photo.2.commitdate: 2018/7/19
@@ -35,3 +35,4 @@ photo.4.tags: grumpy
 species: 2
 studbook.id: 0086
 zoo: 10
+photo.1.tags: mofumofu, paws, portrait, sample

@@ -16,11 +16,11 @@ language.order: ja, en
 litter: none
 location.1: 13, 2006/7/6
 location.2: 10, 2009/1/23
-photo.1: ig://BLuAyd2jyYI/m
+photo.1: cwdc://VfZpGANADQA.jpg
 photo.1.author: no_life_no_zoo
 photo.1.commitdate: 2018/7/29
-photo.1.link: https://www.instagram.com/no_life_no_zoo/
-photo.1.tags: smile, tail
+photo.1.link: ig://BLuAyd2jyYI
+photo.1.tags: portrait, sample, smile, tail, whiskers
 photo.2: ig://BTfKLtRgRND/m
 photo.2.author: _natsu_panda_
 photo.2.commitdate: 2018/7/29

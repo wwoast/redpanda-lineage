@@ -20,11 +20,11 @@ photo.1.author: tama080707
 photo.1.commitdate: 2019/4/2
 photo.1.link: https://www.instagram.com/tama080707/
 photo.1.tags: portrait
-photo.2: ig://8NEG50NoTo/m
+photo.2: cwdc://VAXvu4IADQA.jpg
 photo.2.author: no_life_no_zoo
 photo.2.commitdate: 2018/7/20
-photo.2.link: https://www.instagram.com/no_life_no_zoo/
-photo.2.tags: smile
+photo.2.link: ig://8NEG50NoTo
+photo.2.tags: sample, smile, tongue, whiskers
 photo.3: ig://BUrFbhYDmwv/m
 photo.3.author: colette.jp
 photo.3.commitdate: 2019/5/15

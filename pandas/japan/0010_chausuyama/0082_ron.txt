@@ -17,11 +17,11 @@ ja.nicknames: none
 ja.othernames: 龍
 language.order: ja, en
 litter: 21, 31
-photo.1: ig://BKdQAL4BxXy/m
+photo.1: cwdc://Vc4HhcQADQA.jpg
 photo.1.author: no_life_no_zoo
 photo.1.commitdate: 2018/7/29
-photo.1.link: https://www.instagram.com/no_life_no_zoo/
-photo.1.tags: keeper, lips, portrait
+photo.1.link: ig://BKdQAL4BxXy
+photo.1.tags: keeper, lips, portrait, sample, whiskers
 photo.2: cwdc://WJr7Fn7ADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/7/19
