@@ -486,9 +486,6 @@ photo.94.author: hamamatsu.chiita
 photo.94.commitdate: 2024/10/18
 photo.94.link: ig://C_RD-PHhaPq
 photo.94.tags: mofumofu, peek, portrait, sample, smile
-species: 2
-studbook.id: 0774
-zoo: 20
 photo.95: cwdc://ZIMAkySADQA.jpg
 photo.95.author: hamamatsu.chiita
 photo.95.commitdate: 2024/11/2
@@ -499,3 +496,6 @@ photo.96.author: hamamatsu.chiita
 photo.96.commitdate: 2024/11/2
 photo.96.link: ig://DAHMh25TUbH
 photo.96.tags: mofumofu, paws, portrait, sample
+species: 2
+studbook.id: 0774
+zoo: 20
