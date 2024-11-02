@@ -381,34 +381,31 @@ photo.73.author: lesserpanda_shizuokacity_cp
 photo.73.commitdate: 2024/7/16
 photo.73.link: ig://CQII35ohWC6
 photo.73.tags: bridge, paws, portrait, sample
-photo.74: cwdc://ZDAQZv1ADQA.jpg
-photo.74.author: hamamatsu.chiita
+photo.74: cwdc://ZC_P-soADQA.jpg
+photo.74.author: wumpwoast
 photo.74.commitdate: 2024/11/2
-photo.74.link: ig://C9hUcVqy44A
-photo.74.tags: bamboo, mofumofu, paws, portrait, sample
-species: 2
-studbook.id: 1093
-zoo: 16
-photo.75: cwdc://ZC_P-soADQA.jpg
+photo.74.link: ig://C9g0O0EOZF3
+photo.74.tags: bamboo, mofumofu, portrait, sample
+photo.75: cwdc://ZC_P-soADQB.jpg
 photo.75.author: wumpwoast
 photo.75.commitdate: 2024/11/2
-photo.75.link: ig://C9g0O0EOZF3
-photo.75.tags: bamboo, mofumofu, portrait, sample
-photo.76: cwdc://ZC_P-soADQB.jpg
+photo.75.link: ig://C9g0O0EOZF4
+photo.75.tags: bamboo, mofumofu, paws, peek, portrait, sample
+photo.76: cwdc://ZC_P-soADQC.jpg
 photo.76.author: wumpwoast
 photo.76.commitdate: 2024/11/2
-photo.76.link: ig://C9g0O0EOZF4
-photo.76.tags: bamboo, mofumofu, paws, peek, portrait, sample
-photo.77: cwdc://ZC_P-soADQC.jpg
+photo.76.link: ig://C9g0O0EOZF5
+photo.76.tags: bamboo, paws, peek, portrait
+photo.77: cwdc://ZC_P-soADQD.jpg
 photo.77.author: wumpwoast
 photo.77.commitdate: 2024/11/2
-photo.77.link: ig://C9g0O0EOZF5
-photo.77.tags: bamboo, paws, peek, portrait
-photo.78: cwdc://ZC_P-soADQD.jpg
-photo.78.author: wumpwoast
+photo.77.link: ig://C9g0O0EOZF6
+photo.77.tags: bamboo, portrait, sample
+photo.78: cwdc://ZDAQZv1ADQA.jpg
+photo.78.author: hamamatsu.chiita
 photo.78.commitdate: 2024/11/2
-photo.78.link: ig://C9g0O0EOZF6
-photo.78.tags: bamboo, portrait, sample
+photo.78.link: ig://C9hUcVqy44A
+photo.78.tags: bamboo, mofumofu, paws, portrait, sample
 photo.79: cwdc://ZDAuLeyADQA.jpg
 photo.79.author: taka__3428
 photo.79.commitdate: 2024/11/2
@@ -429,3 +426,6 @@ photo.82.author: taka__3428
 photo.82.commitdate: 2024/11/2
 photo.82.link: ig://C9hjVNJS7Io
 photo.82.tags: apple time, blink, close-up, lips, paws, sample
+species: 2
+studbook.id: 1093
+zoo: 16

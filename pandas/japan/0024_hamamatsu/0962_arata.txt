@@ -1223,8 +1223,6 @@ photo.242.author: taka__3428
 photo.242.commitdate: 2024/4/28
 photo.242.link: ig://C4XyASRPnKQ
 photo.242.tags: apple time, sample, tree
-species: 2
-zoo: 24
 photo.243: cwdc://ZB_YE46ADQA.jpg
 photo.243.author: hamamatsu.chiita
 photo.243.commitdate: 2024/11/2
@@ -1240,3 +1238,5 @@ photo.245.author: minatomirai215
 photo.245.commitdate: 2024/11/2
 photo.245.link: ig://C9DYWH-SbSt
 photo.245.tags: paws, portrait, sample, smile
+species: 2
+zoo: 24
