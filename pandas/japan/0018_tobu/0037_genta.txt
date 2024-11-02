@@ -626,3 +626,28 @@ photo.122.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 12105
 zoo: 18
+photo.123: cwdc://ZB0i6S7ADQA.jpg
+photo.123.author: eos1089
+photo.123.commitdate: 2024/11/2
+photo.123.link: ig://C87dsnNyizt
+photo.123.tags: flowers, portrait, sample, smile, whiskers
+photo.124: cwdc://ZB0i6S7ADQB.jpg
+photo.124.author: eos1089
+photo.124.commitdate: 2024/11/2
+photo.124.link: ig://C87dsnNyizu
+photo.124.tags: bamboo, paws, portrait, sample, whiskers
+photo.125: cwdc://ZB5GiSeADQA.jpg
+photo.125.author: ck.chie
+photo.125.commitdate: 2024/11/2
+photo.125.link: ig://C89vgm_Sfot
+photo.125.tags: bear worm, laying down, paws, sample, whiskers
+photo.126: cwdc://ZB5GiSeADQB.jpg
+photo.126.author: ck.chie
+photo.126.commitdate: 2024/11/2
+photo.126.link: ig://C89vgm_Sfou
+photo.126.tags: laying down, paws
+photo.127: cwdc://ZB5GiSeADQC.jpg
+photo.127.author: ck.chie
+photo.127.commitdate: 2024/11/2
+photo.127.link: ig://C89vgm_Sfov
+photo.127.tags: close-up, laying down, lips, sample, whiskers
