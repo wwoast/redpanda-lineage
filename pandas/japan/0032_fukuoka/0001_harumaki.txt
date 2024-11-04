@@ -226,7 +226,7 @@ photo.42.tags: tongue
 photo.43: cwdc://WSgp5l0ADQA.jpg
 photo.43.author: perie1027vivi
 photo.43.commitdate: 2018/7/28
-photo.43.link: https://www.instagram.com/p/BlRhMQqFNxt
+photo.43.link: ig://BlRhMQqFNxt
 photo.43.tags: close-up, portrait, profile, sample, smile, tongue
 photo.44: ig://Blz1hV-lgzO/m
 photo.44.author: na.mo.pan
@@ -315,7 +315,7 @@ photo.60.tags: portrait, smile
 photo.61: cwdc://WhcC-daADQA.jpg
 photo.61.author: wumpwoast
 photo.61.commitdate: 2019/1/26
-photo.61.link: https://www.instagram.com/p/BsvNusdF9p_
+photo.61.link: ig://BsvNusdF9p_
 photo.61.tags: close-up, portrait, sample, whiskers
 photo.62: ig://Bs6pvAbl5rG/m
 photo.62.author: panda.daisuki
@@ -448,7 +448,7 @@ photo.87.tags: apple time, close-up, mofumofu, portrait, whiskers
 photo.88: cwdc://Wz2fccxADQF.jpg
 photo.88.author: ck.chie
 photo.88.commitdate: 2019/9/5
-photo.88.link: https://www.instagram.com/p/B18b9sIhcEn
+photo.88.link: ig://B18b9sIhcEn
 photo.88.tags: carry, spider
 photo.89: ig://B1--eqCB2qa/m
 photo.89.author: na.mo.pan
@@ -458,7 +458,7 @@ photo.89.tags: laying down, peek
 photo.90: cwdc://W0afpjUADQA.jpg
 photo.90.author: ck.chie
 photo.90.commitdate: 2019/9/13
-photo.90.link: https://www.instagram.com/p/B2OcEPaBGJH
+photo.90.link: ig://B2OcEPaBGJH
 photo.90.tags: tongue, wink
 photo.91: ig://B2Ol5lfht_A/m
 photo.91.author: masa_polarbear
@@ -748,7 +748,7 @@ photo.147.tags: portrait, toys
 photo.148: cwdc://W76CIwEADQB.jpg
 photo.148.author: ck.chie
 photo.148.commitdate: 2020/1/26
-photo.148.link: https://www.instagram.com/p/B5-NT1yBCd4
+photo.148.link: ig://B5-NT1yBCd4
 photo.148.tags: apple time, whiskers
 photo.149: ig://B5-OCvIBtyZ/m
 photo.149.author: alto0908
@@ -788,7 +788,7 @@ photo.155.tags: lips, portrait, whiskers
 photo.156: cwdc://W8MrRgOADQC.jpg
 photo.156.author: ck.chie
 photo.156.commitdate: 2019/12/30
-photo.156.link: https://www.instagram.com/p/B6Hh4N3BtjR
+photo.156.link: ig://B6Hh4N3BtjR
 photo.156.tags: dish, lips, tongue
 photo.157: ig://B6IamxUB3_b/m
 photo.157.author: kaoru_a358
@@ -878,7 +878,7 @@ photo.173.tags: apple time, bite, dish
 photo.174: cwdc://W9EheCBADQD.jpg
 photo.174.author: ck.chie
 photo.174.commitdate: 2020/1/26
-photo.174.link: https://www.instagram.com/p/B6jc-ewhtbw
+photo.174.link: ig://B6jc-ewhtbw
 photo.174.tags: lips, smile, whiskers
 photo.175: ig://B6jd18fhlai/m
 photo.175.author: alto0908
@@ -968,7 +968,7 @@ photo.191.tags: bamboo, portrait, smile, tongue, whiskers
 photo.192: cwdc://W9tVIuQADQI.jpg
 photo.192.author: ck.chie
 photo.192.commitdate: 2020/1/26
-photo.192.link: https://www.instagram.com/p/B632z04BWmY
+photo.192.link: ig://B632z04BWmY
 photo.192.tags: dish, smile, tongue, whiskers
 photo.193: ig://B64bZpsAI3p/m
 photo.193.author: sunnylettuce_2024
@@ -1023,7 +1023,7 @@ photo.202.tags: apple time, paws, portrait
 photo.203: cwdc://W90-mmbADQG.jpg
 photo.203.author: ck.chie
 photo.203.commitdate: 2020/1/26
-photo.203.link: https://www.instagram.com/p/B67riw9hbff
+photo.203.link: ig://B67riw9hbff
 photo.203.tags: dish, tongue
 photo.204: ig://B68bWeWB-vc/m
 photo.204.author: hamiiiii831_
@@ -1108,7 +1108,7 @@ photo.219.tags: portrait, tail, whiskers
 photo.220: cwdc://W-FVrFEADQE.jpg
 photo.220.author: ck.chie
 photo.220.commitdate: 2020/1/26
-photo.220.link: https://www.instagram.com/p/B7D3FASBLkU
+photo.220.link: ig://B7D3FASBLkU
 photo.220.tags: paws, sign
 photo.221: ig://B7G3FkcB6-C/m
 photo.221.author: sulfa2
@@ -1338,7 +1338,7 @@ photo.265.tags: bridge
 photo.266: cwdc://XDs1dyGADQH.jpg
 photo.266.author: ck.chie
 photo.266.commitdate: 2020/5/27
-photo.266.link: https://www.instagram.com/p/B93m-WzBb4b
+photo.266.link: ig://B93m-WzBb4b
 photo.266.tags: sample, smile, whiskers
 photo.267: ig://B95YOU_B_r7/m
 photo.267.author: re_ichimaru
@@ -2237,7 +2237,7 @@ photo.445.tags: sample, whiskers
 photo.446: cwdc://YIFNsORADQA.jpg
 photo.446.author: wumpwoast
 photo.446.commitdate: 2022/8/16
-photo.446.link: https://www.instagram.com/p/CgDzFk4uETO
+photo.446.link: ig://CgDzFk4uETO
 photo.446.tags: close-up, paws, portrait
 photo.447: ig://CgElej9Pu7M/m
 photo.447.author: _rifa_p
