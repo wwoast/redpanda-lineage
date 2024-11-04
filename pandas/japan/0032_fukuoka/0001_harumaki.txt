@@ -2359,12 +2359,7 @@ photo.470.author: yossi929
 photo.470.commitdate: 2023/9/15
 photo.470.link: https://www.instagram.com/yossi929/
 photo.470.tags: portrait, sample, tongue, whiskers
-species: 2
-studbook.id: 1697
-video.1: https://www.youtube.com/watch?v=9m89fVLit44
-video.1.author: vitamin z
-video.1.link: https://www.youtube.com/channel/UCXvA8FmqTxoxgS55vy_L5cQ
-zoo: 32
+
 photo.471: cwdc://ZC5uAG3ADQA.jpg
 photo.471.author: re_ichimaru
 photo.471.commitdate: 2024/11/2
@@ -2415,3 +2410,9 @@ photo.480.author: hamamatsu.chiita
 photo.480.commitdate: 2024/11/2
 photo.480.link: ig://C__nHegTzfO
 photo.480.tags: close-up, portrait, sample, whiskers
+species: 2
+studbook.id: 1697
+video.1: https://www.youtube.com/watch?v=9m89fVLit44
+video.1.author: vitamin z
+video.1.link: https://www.youtube.com/channel/UCXvA8FmqTxoxgS55vy_L5cQ
+zoo: 32
