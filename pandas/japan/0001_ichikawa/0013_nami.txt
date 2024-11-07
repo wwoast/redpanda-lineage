@@ -41,10 +41,10 @@ photo.5.author: ck.chie
 photo.5.commitdate: 2018/7/28
 photo.5.link: ig://BkMMDLUFW8D
 photo.5.tags: dish, lunch time, nose, portrait, sample, whiskers
-photo.6: ig://BksOTuwHp36/m
+photo.6: cwdc://WRWEIiAADQB.jpg
 photo.6.author: ruru_maki
 photo.6.commitdate: 2019/3/17
-photo.6.link: https://www.instagram.com/ruru_maki/
+photo.6.link: ig://BksOTuwHp36
 photo.7: cwdc://WSbWUHxADQA.jpg
 photo.7.author: _rifa_p
 photo.7.commitdate: 2018/7/28
@@ -206,10 +206,10 @@ photo.39.author: ifumoto88
 photo.39.commitdate: 2019/9/5
 photo.39.link: ig://B1_bn-oBvCO
 photo.39.tags: air tasting, climb, paws, portrait, sample, tongue
-photo.40: ig://B2O4vvGB1vO/m
+photo.40: cwdc://W0bZAisADQA.jpg
 photo.40.author: ruru_maki
 photo.40.commitdate: 2019/9/14
-photo.40.link: https://www.instagram.com/ruru_maki/
+photo.40.link: ig://B2O4vvGB1vO
 photo.40.tags: air tasting, smile, tongue
 photo.41: cwdc://W1lYSChADQB.jpg
 photo.41.author: ssc6105
@@ -506,10 +506,10 @@ photo.99.author: jas_forever_love
 photo.99.commitdate: 2022/1/9
 photo.99.link: ig://CXDnZrohv_X
 photo.99.tags: dish, mofumofu, paws, portrait, sample
-photo.100: ig://CXbCiUKBgS_/m
+photo.100: cwdc://X2zsls0ADQI.jpg
 photo.100.author: ruru_maki
 photo.100.commitdate: 2022/10/6
-photo.100.link: https://www.instagram.com/ruru_maki/
+photo.100.link: ig://CXbCiUKBgS_
 photo.100.tags: peek, sample, whiskers
 photo.101: cwdc://X-Y2RiZADQH.jpg
 photo.101.author: eos1089
@@ -601,10 +601,10 @@ photo.118.author: ck.chie
 photo.118.commitdate: 2023/9/12
 photo.118.link: ig://Cw2jGiwvMd-
 photo.118.tags: mofumofu, old, sample, tongue
-photo.119: ig://Cw24AZCPC0o/m
+photo.119: cwdc://YprXh2kADQC.jpg
 photo.119.author: ruru_maki
 photo.119.commitdate: 2023/9/12
-photo.119.link: https://www.instagram.com/ruru_maki/
+photo.119.link: ig://Cw24AZCPC0o
 photo.119.tags: peek, sample, whiskers
 photo.120: ig://Cw4G2yFvpny/m
 photo.120.author: minatomirai215
@@ -1258,3 +1258,39 @@ photo.248.author: eos1089
 photo.248.commitdate: 2024/10/29
 photo.248.link: ig://C_fYoBNSugT
 photo.248.tags: flowers, mofumofu, portrait, sample
+photo.6.tags: door, home, paws, portrait, tail
+photo.249: cwdc://X2zsls0ADQJ.jpg
+photo.249.author: ruru_maki
+photo.249.commitdate: 2024/11/4
+photo.249.link: ig://CXbCiUKBgTA
+photo.249.tags: mofumofu, paws, peek, whiskers
+photo.250: cwdc://X2zsls0ADQK.jpg
+photo.250.author: ruru_maki
+photo.250.commitdate: 2024/11/4
+photo.250.link: ig://CXbCiUKBgTB
+photo.250.tags: mofumofu, sample
+photo.251: cwdc://YprXh2kADQD.jpg
+photo.251.author: ruru_maki
+photo.251.commitdate: 2024/11/4
+photo.251.link: ig://Cw24AZCPC0p
+photo.251.tags: door, paws, whiskers
+photo.252: cwdc://YprXh2kADQE.jpg
+photo.252.author: ruru_maki
+photo.252.commitdate: 2024/11/4
+photo.252.link: ig://Cw24AZCPC0q
+photo.252.tags: paws
+photo.253: cwdc://YprXh2kADQF.jpg
+photo.253.author: ruru_maki
+photo.253.commitdate: 2024/11/4
+photo.253.link: ig://Cw24AZCPC0r
+photo.253.tags: mofumofu, paws, sample, tongue
+photo.254: cwdc://YprXh2kADQG.jpg
+photo.254.author: ruru_maki
+photo.254.commitdate: 2024/11/4
+photo.254.link: ig://Cw24AZCPC0s
+photo.254.tags: dish, lunch time, paws, peek, sample, whiskers
+photo.255: cwdc://YprXh2kADQH.jpg
+photo.255.author: ruru_maki
+photo.255.commitdate: 2024/11/4
+photo.255.link: ig://Cw24AZCPC0t
+photo.255.tags: dish, lunch time, mofumofu, paws, sample, tongue, whiskers
