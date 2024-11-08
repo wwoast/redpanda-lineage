@@ -14,11 +14,15 @@ photo.2.author: redpanda_nippon_takashi
 photo.2.commitdate: 2024/11/7
 photo.2.link: ig://BjtmoE9FYYk
 photo.2.tags: apple time, couple, keeper, standing
+photo.2.tags.11.location: 205, 235
+photo.2.tags.12.location: 405, 195
 photo.3: cwdc://WPY0xOaADQE.jpg
 photo.3.author: redpanda_nippon_takashi
 photo.3.commitdate: 2024/11/7
 photo.3.link: ig://BjtmoE9FYYn
 photo.3.tags: apple time, couple, keeper, mofumofu
+photo.3.tags.11.location: 250, 415
+photo.3.tags.12.location: 175, 240
 photo.4: cwdc://WSohkxPADQA.jpg
 photo.4.author: na.mo.pan
 photo.4.commitdate: 2022/1/15
@@ -31,6 +35,8 @@ photo.5.author: na.mo.pan
 photo.5.commitdate: 2024/11/7
 photo.5.link: ig://BlVdB2XlTCd
 photo.5.tags: apple time, couple, keeper, sample, whiskers
+photo.5.tags.11.location: 550, 365
+photo.5.tags.12.location: 270, 280
 photo.6: cwdc://Wbzx-fvADQC.jpg
 photo.6.author: na.mo.pan
 photo.6.commitdate: 2021/12/9
@@ -43,11 +49,15 @@ photo.7.author: na.mo.pan
 photo.7.commitdate: 2024/11/7
 photo.7.link: ig://Bp7FOtnlUHm
 photo.7.tags: air tasting, couple, home, paws, sample, tongue
+photo.7.tags.11.location: 335, 530
+photo.7.tags.12.location: 115, 150
 photo.8: cwdc://Wc7n398ADQE.jpg
 photo.8.author: na.mo.pan
 photo.8.commitdate: 2024/11/7
 photo.8.link: ig://BqfALcuFbLV
 photo.8.tags: couple, peek
+photo.8.tags.11.location: 645, 165
+photo.8.tags.12.location: 180, 365
 photo.9: cwdc://Wd306AuADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2019/11/24
@@ -74,3 +84,5 @@ photo.12.author: redpanda_nippon_takashi
 photo.12.commitdate: 2024/11/7
 photo.12.link: ig://B6vNHq6hOOb
 photo.12.tags: couple, door, kiss, nose, paws, tail
+photo.12.tags.11.location: 440, 230
+photo.12.tags.12.location: 370, 270
