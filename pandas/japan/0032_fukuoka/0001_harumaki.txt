@@ -2315,10 +2315,10 @@ photo.460.author: yossi929
 photo.460.commitdate: 2022/12/19
 photo.460.link: ig://Ck6uXnBPUCZ
 photo.460.tags: bamboo, bite, sample, whiskers
-photo.461: ig://ClSpOQjr3Dm/m
+photo.461: cwdc://YSi59lnADQA.jpg
 photo.461.author: mini_cochi
 photo.461.commitdate: 2023/2/4
-photo.461.link: https://www.instagram.com/mini_cochi/
+photo.461.link: ig://ClSpOQjr3Dm
 photo.461.tags: portrait, sample, whiskers
 photo.462: cwdc://YW37ZnRADSf.jpg
 photo.462.author: yossi929
@@ -3606,3 +3606,23 @@ video.1: https://www.youtube.com/watch?v=9m89fVLit44
 video.1.author: vitamin z
 video.1.link: https://www.youtube.com/channel/UCXvA8FmqTxoxgS55vy_L5cQ
 zoo: 32
+photo.718: cwdc://YSi59lnADQB.jpg
+photo.718.author: mini_cochi
+photo.718.commitdate: 2024/11/7
+photo.718.link: ig://ClSpOQjr3Dn
+photo.718.tags: paws, peek, portrait, sample, whiskers
+photo.719: cwdc://YSi59lnADQC.jpg
+photo.719.author: mini_cochi
+photo.719.commitdate: 2024/11/7
+photo.719.link: ig://ClSpOQjr3Do
+photo.719.tags: apple time, peek, portrait, whiskers
+photo.720: cwdc://YSi59lnADQD.jpg
+photo.720.author: mini_cochi
+photo.720.commitdate: 2024/11/7
+photo.720.link: ig://ClSpOQjr3Dp
+photo.720.tags: mofumofu, peek, portrait, sample, whiskers
+photo.721: cwdc://YSi59lnADQE.jpg
+photo.721.author: mini_cochi
+photo.721.commitdate: 2024/11/7
+photo.721.link: ig://ClSpOQjr3Dq
+photo.721.tags: portrait, sample, smile, whiskers

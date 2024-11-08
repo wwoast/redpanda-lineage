@@ -2,25 +2,25 @@
 _id: media.1.hao-sora
 commitdate: 2019/7/14
 panda.tags: 11, 12
-photo.1: ig://BjtmoE9FYYj/m
+photo.1: cwdc://WPY0xOaADQC.jpg
 photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2019/7/20
-photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.1.tags: couple, keeper, standing
+photo.1.link: ig://BjtmoE9FYYj
+photo.1.tags: apple time, couple, keeper, standing
 photo.1.tags.11.location: 175, 95
 photo.1.tags.12.location: 115, 115
-photo.2: ig://BlVdB2XlTCc/l
+photo.2: cwdc://WSohkxPADQA.jpg
 photo.2.author: na.mo.pan
 photo.2.commitdate: 2022/1/15
-photo.2.link: https://www.instagram.com/na.mo.pan/
-photo.2.tags: apple time, couple, keeper
+photo.2.link: ig://BlVdB2XlTCc
+photo.2.tags: apple time, couple, keeper, sample, whiskers
 photo.2.tags.11.location: 330, 180
 photo.2.tags.12.location: 160, 175
-photo.3: ig://Bp7FOtnlUHl/l
+photo.3: cwdc://Wbzx-fvADQC.jpg
 photo.3.author: na.mo.pan
 photo.3.commitdate: 2021/12/9
-photo.3.link: https://www.instagram.com/na.mo.pan/
-photo.3.tags: couple, home, tail
+photo.3.link: ig://Bp7FOtnlUHl
+photo.3.tags: couple, home, sample, tail
 photo.3.tags.11.location: 285, 480
 photo.3.tags.12.location: 245, 270
 photo.4: cwdc://Wd306AuADQA.jpg
@@ -30,17 +30,47 @@ photo.4.link: https://www.instagram.com/p/Bq9GseHFQH0
 photo.4.tags: couple, tail
 photo.4.tags.11.location: 35, 60
 photo.4.tags.12.location: 165, 150
-photo.5: ig://Bwpury9F_op/m
+photo.5: cwdc://WpRE4qaADQA.jpg
 photo.5.author: run.swim.shingo
 photo.5.commitdate: 2019/7/14
-photo.5.link: https://www.instagram.com/run.swim.shingo/
+photo.5.link: ig://Bwpury9F_op
 photo.5.tags: couple, kiss, nose, portrait
 photo.5.tags.11.location: 90, 120
 photo.5.tags.12.location: 215, 150
-photo.6: ig://B47VIX_BWQz/m
+photo.6: cwdc://W50Rx0eADQA.jpg
 photo.6.author: ifumoto88
 photo.6.commitdate: 2019/11/27
-photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.link: ig://B47VIX_BWQz
 photo.6.tags: couple, kiss, nose, tongue
 photo.6.tags.11.location: 245, 130
 photo.6.tags.12.location: 115, 140
+photo.7: cwdc://W9cBwaVADQC.jpg
+photo.7.author: redpanda_nippon_takashi
+photo.7.commitdate: 2024/11/7
+photo.7.link: ig://B6vNHq6hOOb
+photo.7.tags: couple, door, kiss, nose, paws, tail
+photo.8: cwdc://WPY0xOaADQD.jpg
+photo.8.author: redpanda_nippon_takashi
+photo.8.commitdate: 2024/11/7
+photo.8.link: ig://BjtmoE9FYYk
+photo.8.tags: apple time, couple, keeper, standing
+photo.9: cwdc://WPY0xOaADQE.jpg
+photo.9.author: redpanda_nippon_takashi
+photo.9.commitdate: 2024/11/7
+photo.9.link: ig://BjtmoE9FYYn
+photo.9.tags: apple time, couple, keeper, mofumofu
+photo.10: cwdc://WSohkxPADQB.jpg
+photo.10.author: na.mo.pan
+photo.10.commitdate: 2024/11/7
+photo.10.link: ig://BlVdB2XlTCd
+photo.10.tags: apple time, couple, keeper, sample, whiskers
+photo.11: cwdc://Wbzx-fvADQD.jpg
+photo.11.author: na.mo.pan
+photo.11.commitdate: 2024/11/7
+photo.11.link: ig://Bp7FOtnlUHm
+photo.11.tags: air tasting, couple, home, paws, sample, tongue
+photo.12: cwdc://Wc7n398ADQE.jpg
+photo.12.author: na.mo.pan
+photo.12.commitdate: 2024/11/7
+photo.12.link: ig://BqfALcuFbLV
+photo.12.tags: couple, peek

@@ -606,10 +606,10 @@ photo.119.author: ruru_maki
 photo.119.commitdate: 2023/9/12
 photo.119.link: ig://Cw24AZCPC0o
 photo.119.tags: peek, sample, whiskers
-photo.120: ig://Cw4G2yFvpny/m
+photo.120: cwdc://Ypt1OorADQC.jpg
 photo.120.author: minatomirai215
 photo.120.commitdate: 2023/9/12
-photo.120.link: https://www.instagram.com/minatomirai215/
+photo.120.link: ig://Cw4G2yFvpny
 photo.120.tags: home, portrait, sample, whiskers
 photo.121: cwdc://Ypu0ErMADQI.jpg
 photo.121.author: fetorus_mami
@@ -636,10 +636,10 @@ photo.125.author: rie_panda55
 photo.125.commitdate: 2023/9/12
 photo.125.link: ig://Cw95V_TvOmJ
 photo.125.tags: home, portrait, sample, tail, tongue
-photo.126: ig://CxDXfprv4fZ/m
+photo.126: cwdc://YqEWgX3ADQA.jpg
 photo.126.author: firefoxpanda88
 photo.126.commitdate: 2023/9/12
-photo.126.link: https://www.instagram.com/firefoxpanda88/
+photo.126.link: ig://CxDXfprv4fZ
 photo.126.tags: home, mofumofu
 species: 2
 studbook.id: 0280
@@ -1294,3 +1294,18 @@ photo.255.author: ruru_maki
 photo.255.commitdate: 2024/11/4
 photo.255.link: ig://Cw24AZCPC0t
 photo.255.tags: dish, lunch time, mofumofu, paws, sample, tongue, whiskers
+photo.256: cwdc://Ypt1OorADQA.jpg
+photo.256.author: minatomirai215
+photo.256.commitdate: 2024/11/7
+photo.256.link: ig://Cw4G2yFvpn1
+photo.256.tags: dish, grooming, keeper, lunch time, paws, portrait, sample
+photo.257: cwdc://Ypt1OorADQB.jpg
+photo.257.author: minatomirai215
+photo.257.commitdate: 2024/11/7
+photo.257.link: ig://Cw4G2yFvpn2
+photo.257.tags: dish, portrait, sample, tongue
+photo.258: cwdc://Ypt1OorADQD.jpg
+photo.258.author: minatomirai215
+photo.258.commitdate: 2024/11/7
+photo.258.link: ig://Cw4G2yFvpnz
+photo.258.tags: peek, portrait, sample, whiskers
