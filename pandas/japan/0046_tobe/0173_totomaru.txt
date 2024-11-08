@@ -618,9 +618,6 @@ photo.122.author: itsuak
 photo.122.commitdate: 2023/6/20
 photo.122.link: https://www.instagram.com/itsuak/
 photo.122.tags: bear worm, laying down, paws, sample
-species: 2
-studbook.id: 15159
-zoo: 46
 photo.123: cwdc://ZCX7IX0ADQA.jpg
 photo.123.author: miis_98
 photo.123.commitdate: 2024/11/2
@@ -631,3 +628,6 @@ photo.124.author: miis_98
 photo.124.commitdate: 2024/11/2
 photo.124.link: ig://C9NJzpqSwWp
 photo.124.tags: bamboo, ear, portrait, sample, smile, whiskers
+species: 2
+studbook.id: 15159
+zoo: 46

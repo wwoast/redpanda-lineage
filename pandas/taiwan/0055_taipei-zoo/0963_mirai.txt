@@ -795,11 +795,6 @@ photo.156.author: taka__3428
 photo.156.commitdate: 2023/10/18
 photo.156.link: ig://Cp5Bb2LPUPI
 photo.156.tags: apple time, close-up, sample, whiskers
-zh.name: 未来
-zh.nicknames: none
-zh.othernames: none
-species: 2
-zoo: 55
 photo.157: cwdc://Yt4K7wJADQx.jpg
 photo.157.author: hamamatsu.chiita
 photo.157.commitdate: 2024/4/28
@@ -1965,3 +1960,8 @@ photo.389.author: minatomirai215
 photo.389.commitdate: 2024/11/2
 photo.389.link: ig://C9DYWH-SbSu
 photo.389.tags: portrait, sample
+species: 2
+zh.name: 未来
+zh.nicknames: none
+zh.othernames: none
+zoo: 55

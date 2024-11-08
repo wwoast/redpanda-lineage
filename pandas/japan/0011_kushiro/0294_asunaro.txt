@@ -599,9 +599,6 @@ photo.117.author: minatomirai215
 photo.117.commitdate: 2023/10/24
 photo.117.link: https://www.instagram.com/minatomirai215/
 photo.117.tags: autumn, bridge, peek, portrait
-species: 2
-studbook.id: 1681
-zoo: 11
 photo.118: cwdc://Yt7dsIgADQA.jpg
 photo.118.author: komabazoophoto
 photo.118.commitdate: 2024/5/4
@@ -642,3 +639,6 @@ photo.125.author: wumpwoast
 photo.125.commitdate: 2024/10/6
 photo.125.link: ig://C71iKNgJXke
 photo.125.tags: close-up, itchy, paws, portrait, sample, whiskers
+species: 2
+studbook.id: 1681
+zoo: 11

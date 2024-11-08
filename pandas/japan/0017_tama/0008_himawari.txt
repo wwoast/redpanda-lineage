@@ -2235,9 +2235,6 @@ photo.445.author: tamazoowalking
 photo.445.commitdate: 2024/3/10
 photo.445.link: https://www.instagram.com/p/C3AboCcPNl9
 photo.445.tags: sample, snow, whiskers
-species: 2
-studbook.id: 1782
-zoo: 17
 photo.446: cwdc://Y8hSjFqADQA.jpg
 photo.446.author: mini_cochi
 photo.446.commitdate: 2024/5/4
@@ -2288,3 +2285,6 @@ photo.455.author: tamazoowalking
 photo.455.commitdate: 2024/11/2
 photo.455.link: ig://C86Bn5uSa_z
 photo.455.tags: air tasting, door, paws, portrait, tongue
+species: 2
+studbook.id: 1782
+zoo: 17

@@ -433,8 +433,6 @@ photo.84.author: lesserpanda_shizuokacity_cp
 photo.84.commitdate: 2023/9/16
 photo.84.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.84.tags: apple time, tree
-species: 2
-zoo: 16
 photo.85: cwdc://ZH_NmaJADQA.jpg
 photo.85.author: lesserpanda_shizuokacity_cp
 photo.85.commitdate: 2024/10/18
@@ -445,3 +443,5 @@ photo.86.author: lesserpanda_shizuokacity_cp
 photo.86.commitdate: 2024/10/18
 photo.86.link: ig://DADXytfPKgZ
 photo.86.tags: laying down, portrait, sample, sleeping
+species: 2
+zoo: 16

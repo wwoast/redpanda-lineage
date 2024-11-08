@@ -518,9 +518,6 @@ photo.102.author: mini_cochi
 photo.102.commitdate: 2023/7/3
 photo.102.link: https://www.instagram.com/mini_cochi/
 photo.102.tags: peek, smile
-species: 2
-studbook.id: 15128
-zoo: 4
 photo.103: cwdc://YRIIID5ADQA.jpg
 photo.103.author: miis_98
 photo.103.commitdate: 2024/5/4
@@ -541,3 +538,6 @@ photo.106.author: cocochi_redpanda
 photo.106.commitdate: 2024/10/6
 photo.106.link: ig://C76mLqXhpzm
 photo.106.tags: bamboo, lips, paws, sample
+species: 2
+studbook.id: 15128
+zoo: 4

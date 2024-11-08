@@ -190,9 +190,6 @@ photo.35.author: neoparkokinawa
 photo.35.commitdate: 2023/10/24
 photo.35.link: https://www.instagram.com/neoparkokinawa/
 photo.35.tags: bamboo, portrait, sample, tail, tongue
-species: 2
-studbook.id: unknown
-zoo: 292
 photo.36: cwdc://YnfGopVADQA.jpg
 photo.36.author: neoparkokinawa
 photo.36.commitdate: 2024/5/4
@@ -203,3 +200,6 @@ photo.37.author: daniele.tokyo
 photo.37.commitdate: 2024/5/4
 photo.37.link: ig://C082pG3PXZh
 photo.37.tags: paws, portrait, sample, tongue, whiskers
+species: 2
+studbook.id: unknown
+zoo: 292

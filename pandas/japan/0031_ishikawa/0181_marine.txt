@@ -221,11 +221,11 @@ photo.42.author: hamamatsu.chiita
 photo.42.commitdate: 2023/10/24
 photo.42.link: https://www.instagram.com/hamamatsu.chiita/
 photo.42.tags: bridge, portrait, tail, tree
-species: 2
-studbook.id: 14162
-zoo: 31
 photo.43: cwdc://YzGnpVCADQC.jpg
 photo.43.author: hamamatsu.chiita
 photo.43.commitdate: 2024/5/4
 photo.43.link: ig://C1kgEIRBrmy
 photo.43.tags: mofumofu, portrait, sample
+species: 2
+studbook.id: 14162
+zoo: 31

@@ -297,9 +297,6 @@ photo.56.author: kumamoto_doushokubutsuen
 photo.56.commitdate: 2023/11/5
 photo.56.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.56.tags: hammock, peek
-species: 2
-studbook.id: unknown
-zoo: 306
 photo.57: cwdc://YT2X9PQADQA.jpg
 photo.57.author: kumamoto_doushokubutsuen
 photo.57.commitdate: 2024/5/4
@@ -330,3 +327,6 @@ photo.62.author: hamamatsu.chiita
 photo.62.commitdate: 2024/5/4
 photo.62.link: ig://C07aRVjBOxY
 photo.62.tags: paws, portrait, sample, smile, toys, whiskers
+species: 2
+studbook.id: unknown
+zoo: 306

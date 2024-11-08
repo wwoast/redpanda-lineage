@@ -113,9 +113,6 @@ photo.20.author: fetorus_mami
 photo.20.commitdate: 2023/3/23
 photo.20.link: https://www.instagram.com/fetorus_mami/
 photo.20.tags: laying down, whiskers
-species: 1
-studbook.id: unknown
-zoo: 59
 photo.21: cwdc://Y6LONE3ADQD.jpg
 photo.21.author: fetorus_mami
 photo.21.commitdate: 2024/10/6
@@ -151,3 +148,6 @@ photo.27.author: fetorus_mami
 photo.27.commitdate: 2024/10/6
 photo.27.link: ig://C5G0lyovC8j
 photo.27.tags: apple time, paws, sample, smile, whiskers
+species: 1
+studbook.id: unknown
+zoo: 59

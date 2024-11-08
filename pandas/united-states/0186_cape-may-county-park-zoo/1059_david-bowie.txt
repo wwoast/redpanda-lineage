@@ -111,9 +111,6 @@ photo.19.author: aimless_amos
 photo.19.commitdate: 2023/7/31
 photo.19.link: https://www.instagram.com/aimless_amos/
 photo.19.tags: close-up, paws, sample, standing, tail
-species: 1
-studbook.id: 1835
-zoo: 186
 photo.20: cwdc://Y8cWdNKADQA.jpg
 photo.20.author: aimless_amos
 photo.20.commitdate: 2024/5/4
@@ -124,3 +121,6 @@ photo.21.author: wumpwoast
 photo.21.commitdate: 2024/5/4
 photo.21.link: ig://CzSMl4APmn7
 photo.21.tags: peek, portrait, sample, whiskers
+species: 1
+studbook.id: 1835
+zoo: 186

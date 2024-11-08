@@ -112,8 +112,6 @@ photo.20.author: eos1089
 photo.20.commitdate: 2023/11/5
 photo.20.link: https://www.instagram.com/eos1089/
 photo.20.tags: peek, portrait
-species: 2
-zoo: 12
 photo.21: cwdc://ZB91XnKADQA.jpg
 photo.21.author: minatomirai215
 photo.21.commitdate: 2024/11/2
@@ -129,3 +127,5 @@ photo.23.author: minatomirai215
 photo.23.commitdate: 2024/11/2
 photo.23.link: ig://C9AG7RVSFEq
 photo.23.tags: apple time, bite, bridge, paws, portrait, sample, whiskers
+species: 2
+zoo: 12

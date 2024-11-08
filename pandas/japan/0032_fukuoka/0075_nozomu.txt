@@ -931,9 +931,6 @@ photo.184.author: yossi929
 photo.184.commitdate: 2023/5/13
 photo.184.link: https://www.instagram.com/yossi929/
 photo.184.tags: sample, whiskers
-species: 2
-studbook.id: 12108
-zoo: 32
 photo.185: cwdc://ZCEYNUcADQD.jpg
 photo.185.author: minatomirai215
 photo.185.commitdate: 2024/11/2
@@ -944,3 +941,6 @@ photo.186.author: re_ichimaru
 photo.186.commitdate: 2024/11/2
 photo.186.link: ig://C-RhrEFS4am
 photo.186.tags: door, paws, peek, sample, smile
+species: 2
+studbook.id: 12108
+zoo: 32

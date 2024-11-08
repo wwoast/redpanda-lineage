@@ -560,9 +560,6 @@ photo.109.author: ck.chie
 photo.109.commitdate: 2023/5/29
 photo.109.link: https://www.instagram.com/p/Cpn_3DRBfzd
 photo.109.tags: blink, door, paws, smile, whiskers
-species: 2
-studbook.id: 0366
-zoo: 8
 photo.110: cwdc://ZB-UiqyADQA.jpg
 photo.110.author: yuredpanda
 photo.110.commitdate: 2024/11/2
@@ -588,3 +585,6 @@ photo.114.author: minatomirai215
 photo.114.commitdate: 2024/11/2
 photo.114.link: ig://C9DYWH-SbSr
 photo.114.tags: door, paws, portrait
+species: 2
+studbook.id: 0366
+zoo: 8

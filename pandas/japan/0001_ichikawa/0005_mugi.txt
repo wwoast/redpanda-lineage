@@ -1595,9 +1595,6 @@ photo.318.author: ifumoto88
 photo.318.commitdate: 2023/11/18
 photo.318.link: https://www.instagram.com/ifumoto88/
 photo.318.tags: apple time, paws, sample, whiskers
-species: 2
-studbook.id: 15152
-zoo: 1
 photo.319: cwdc://YGGK1W0ADQA.jpg
 photo.319.author: ifumoto88
 photo.319.commitdate: 2024/5/4
@@ -1613,3 +1610,6 @@ photo.321.author: ifumoto88
 photo.321.commitdate: 2024/5/4
 photo.321.link: ig://CqfphGML0gN
 photo.321.tags: bite, paws, playing, portrait, sample, toys
+species: 2
+studbook.id: 15152
+zoo: 1

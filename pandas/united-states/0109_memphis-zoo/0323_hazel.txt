@@ -160,9 +160,6 @@ photo.29.author: worldthathesees
 photo.29.commitdate: 2023/11/18
 photo.29.link: https://www.instagram.com/worldthathesees/
 photo.29.tags: ear, whiskers
-species: 2
-studbook.id: 1608
-zoo: 109
 photo.30: cwdc://Y0AQDsvADQA.jpg
 photo.30.author: memphiszoo
 photo.30.commitdate: 2024/4/13
@@ -173,3 +170,6 @@ photo.31.author: memphiszoo
 photo.31.commitdate: 2024/4/13
 photo.31.link: ig://CjS-5SaMqSO
 photo.31.tags: home, lips, pumpkin
+species: 2
+studbook.id: 1608
+zoo: 109

@@ -387,9 +387,6 @@ photo.75.author: fuji_safari
 photo.75.commitdate: 2023/10/24
 photo.75.link: https://www.instagram.com/fuji_safari/
 photo.75.tags: bamboo, paws, portrait, sample
-species: 2
-studbook.id: 12106
-zoo: 23
 photo.76: cwdc://YvhcURbADQB.jpg
 photo.76.author: fuji_safari
 photo.76.commitdate: 2024/5/4
@@ -400,3 +397,6 @@ photo.77.author: fuji_safari
 photo.77.commitdate: 2024/5/4
 photo.77.link: ig://C1wClZiLPT8
 photo.77.tags: bamboo, paws, portrait, sample, whiskers
+species: 2
+studbook.id: 12106
+zoo: 23

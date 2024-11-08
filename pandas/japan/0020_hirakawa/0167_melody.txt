@@ -1152,11 +1152,11 @@ photo.228.author: hamamatsu.chiita
 photo.228.commitdate: 2023/7/31
 photo.228.link: https://www.instagram.com/hamamatsu.chiita/
 photo.228.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
-species: 2
-studbook.id: 1779
-zoo: 20
 photo.229: cwdc://ZCFhDEpADQA.jpg
 photo.229.author: yossi929
 photo.229.commitdate: 2024/11/2
 photo.229.link: ig://C9D8xAEyvwl
 photo.229.tags: peek, sample
+species: 2
+studbook.id: 1779
+zoo: 20

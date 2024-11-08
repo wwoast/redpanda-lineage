@@ -239,11 +239,11 @@ photo.45.author: morikirara
 photo.45.commitdate: 2023/8/8
 photo.45.link: https://www.instagram.com/morikirara/
 photo.45.tags: paws, sample, standing, tail
-species: 2
-studbook.id: 0760
-zoo: 19
 photo.46: cwdc://ZAWaBdkADQA.jpg
 photo.46.author: morikirara
 photo.46.commitdate: 2024/10/6
 photo.46.link: ig://C8MZQMiSgiV
 photo.46.tags: apple time, birthday, sample, smile, whiskers
+species: 2
+studbook.id: 0760
+zoo: 19

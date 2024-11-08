@@ -70,11 +70,11 @@ photo.11.author: houstonzoo
 photo.11.commitdate: 2023/6/25
 photo.11.link: https://www.instagram.com/houstonzoo/
 photo.11.tags: close-up, portrait, whiskers
-species: 2
-studbook.id: 0931
-zoo: 88
 photo.12: cwdc://ZAHhmugADQA.jpg
 photo.12.author: houstonzoo
 photo.12.commitdate: 2024/10/6
 photo.12.link: ig://C8E9C1AMi-H
 photo.12.tags: laying down, portrait, sample, wink
+species: 2
+studbook.id: 0931
+zoo: 88

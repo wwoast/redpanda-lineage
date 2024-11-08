@@ -282,8 +282,6 @@ photo.54.author: hamamatsu.chiita
 photo.54.commitdate: 2023/11/5
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
 photo.54.tags: close-up, sample, whiskers
-species: 2
-zoo: 31
 photo.55: cwdc://YzGnpVCADQB.jpg
 photo.55.author: hamamatsu.chiita
 photo.55.commitdate: 2024/5/4
@@ -294,3 +292,5 @@ photo.56.author: hamamatsu.chiita
 photo.56.commitdate: 2024/11/2
 photo.56.link: ig://C9GMmLWyms4
 photo.56.tags: close-up, portrait, sample, tree, whiskers
+species: 2
+zoo: 31

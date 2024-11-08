@@ -309,9 +309,6 @@ photo.59.author: daniele.tokyo
 photo.59.commitdate: 2023/6/9
 photo.59.link: https://www.instagram.com/daniele.tokyo/
 photo.59.tags: sample, whiskers
-species: 2
-studbook.id: 1787
-zoo: 57
 photo.60: cwdc://YOfxb2JADQA.jpg
 photo.60.author: nakacchi_desu
 photo.60.commitdate: 2024/4/13
@@ -332,3 +329,6 @@ photo.63.author: kaoru_a358
 photo.63.commitdate: 2024/4/13
 photo.63.link: ig://CrGGSq9P7mN
 photo.63.tags: autumn, laying down, portrait, sample
+species: 2
+studbook.id: 1787
+zoo: 57

@@ -309,9 +309,6 @@ photo.59.author: chankunvv
 photo.59.commitdate: 2023/9/21
 photo.59.link: https://www.instagram.com/chankunvv/
 photo.59.tags: paws, peek, portrait
-species: 2
-studbook.id: 1780
-zoo: 22
 photo.60: cwdc://YaDTaUrADQB.jpg
 photo.60.author: makimaru18
 photo.60.commitdate: 2024/5/4
@@ -327,3 +324,6 @@ photo.62.author: makimaru18
 photo.62.commitdate: 2024/5/4
 photo.62.link: ig://Cz8uGy4PC4i
 photo.62.tags: paws, portrait, sample, smile, whiskers
+species: 2
+studbook.id: 1780
+zoo: 22

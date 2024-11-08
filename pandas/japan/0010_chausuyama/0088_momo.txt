@@ -427,9 +427,6 @@ photo.83.author: hamiiiii831_
 photo.83.commitdate: 2023/4/22
 photo.83.link: https://www.instagram.com/hamiiiii831_/
 photo.83.tags: sample, whiskers
-species: 2
-studbook.id: 11100
-zoo: 10
 photo.84: cwdc://Y0meUsPADQA.jpg
 photo.84.author: shigeko0531
 photo.84.commitdate: 2024/5/4
@@ -450,3 +447,6 @@ photo.87.author: shigeko0531
 photo.87.commitdate: 2024/5/4
 photo.87.link: ig://CzbAV1vPWEr
 photo.87.tags: portrait, sample, tree
+species: 2
+studbook.id: 11100
+zoo: 10

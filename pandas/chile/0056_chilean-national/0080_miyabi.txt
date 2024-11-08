@@ -781,10 +781,6 @@ photo.154.author: fetorus_mami
 photo.154.commitdate: 2023/9/15
 photo.154.link: https://www.instagram.com/fetorus_mami/
 photo.154.tags: close-up, sample, whiskers
-species: 2
-studbook.id: 1772
-uncertainty: exact location.2 date (git history)
-zoo: 56
 photo.155: cwdc://ZGGUVYbADQA.jpg
 photo.155.author: fetorus_mami
 photo.155.commitdate: 2024/10/18
@@ -805,3 +801,7 @@ photo.158.author: fetorus_mami
 photo.158.commitdate: 2024/10/18
 photo.158.link: ig://C_EWaJ9h2PC
 photo.158.tags: bamboo, peek
+species: 2
+studbook.id: 1772
+uncertainty: exact location.2 date (git history)
+zoo: 56

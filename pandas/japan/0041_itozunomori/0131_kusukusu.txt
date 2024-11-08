@@ -444,9 +444,6 @@ photo.88.author: itozu_zoo
 photo.88.commitdate: 2023/9/21
 photo.88.link: https://www.instagram.com/itozu_zoo/
 photo.88.tags: bridge, paws, whiskers
-species: 2
-studbook.id: 15157
-zoo: 41
 photo.89: cwdc://Y0HgGeCADQA.jpg
 photo.89.author: kojikoji2011
 photo.89.commitdate: 2024/5/4
@@ -462,3 +459,6 @@ photo.91.author: yossi929
 photo.91.commitdate: 2024/5/4
 photo.91.link: ig://C1dXVayvQYR
 photo.91.tags: peek, sample
+species: 2
+studbook.id: 15157
+zoo: 41

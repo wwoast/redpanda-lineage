@@ -350,9 +350,6 @@ photo.67.author: makimaru18
 photo.67.commitdate: 2024/4/13
 photo.67.link: ig://CzYuK4ovApV?img_index=7
 photo.67.tags: apple time, peek, portrait
-species: 2
-studbook.id: 14147
-zoo: 15
 photo.68: cwdc://ZFDdHcmADQA.jpg
 photo.68.author: hamamatsu.chiita
 photo.68.commitdate: 2024/10/18
@@ -373,3 +370,6 @@ photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2024/10/18
 photo.71.link: ig://C-i6zMDSVbJ
 photo.71.tags: close-up, lips, mofumofu, portrait, sample, smile
+species: 2
+studbook.id: 14147
+zoo: 15

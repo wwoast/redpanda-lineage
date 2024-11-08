@@ -425,11 +425,11 @@ photo.83.author: kojikoji2011
 photo.83.commitdate: 2023/7/31
 photo.83.link: https://www.instagram.com/kojikoji2011/
 photo.83.tags: paws, portrait, sample, tail
-species: 2
-studbook.id: 14143
-zoo: 6
 photo.84: cwdc://Yc8j3IZADQA.jpg
 photo.84.author: gloryeui
 photo.84.commitdate: 2024/5/4
 photo.84.link: ig://CqfeLB8vJ8f
 photo.84.tags: portrait, sample, whiskers
+species: 2
+studbook.id: 14143
+zoo: 6

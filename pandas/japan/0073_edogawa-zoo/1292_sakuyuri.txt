@@ -155,9 +155,6 @@ photo.28.author: daniele.tokyo
 photo.28.commitdate: 2024/3/10
 photo.28.link: https://www.instagram.com/p/C37ZidWvnG6
 photo.28.tags: peek, sample, techitechi, whiskers
-species: 2
-uncertainty: location.2 exact date
-zoo: 73
 photo.29: cwdc://Y3GbVffADQA.jpg
 photo.29.author: ifumoto88
 photo.29.commitdate: 2024/5/4
@@ -188,3 +185,6 @@ photo.34.author: ifumoto88
 photo.34.commitdate: 2024/5/4
 photo.34.link: ig://C4PFPVkxaan
 photo.34.tags: peek, tail, tree
+species: 2
+uncertainty: location.2 exact date
+zoo: 73

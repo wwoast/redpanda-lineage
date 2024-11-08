@@ -653,9 +653,6 @@ photo.128.author: hamamatsu.chiita
 photo.128.commitdate: 2023/4/21
 photo.128.link: https://www.instagram.com/hamamatsu.chiita/
 photo.128.tags: close-up, portrait, sample, whiskers
-species: 2
-studbook.id: unknown
-zoo: 264
 photo.129: cwdc://Y_VzHEQADQA.jpg
 photo.129.author: hamamatsu.chiita
 photo.129.commitdate: 2024/10/6
@@ -671,3 +668,6 @@ photo.131.author: minatomirai215
 photo.131.commitdate: 2024/10/6
 photo.131.link: ig://C7t7UpDPcBN
 photo.131.tags: paws, portrait, sample, surprise, tail, whiskers
+species: 2
+studbook.id: unknown
+zoo: 264

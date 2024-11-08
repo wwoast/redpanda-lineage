@@ -396,9 +396,6 @@ photo.76.author: kojikoji2011
 photo.76.commitdate: 2023/8/8
 photo.76.link: https://www.instagram.com/kojikoji2011/
 photo.76.tags: close-up, paws, portrait, sample
-species: 2
-studbook.id: 0663
-zoo: 6
 photo.77: cwdc://Y_ZeKWmADQA.jpg
 photo.77.author: minatomirai215
 photo.77.commitdate: 2024/10/6
@@ -414,3 +411,6 @@ photo.79.author: hamamatsu.chiita
 photo.79.commitdate: 2024/11/2
 photo.79.link: ig://C9NuyrwyAAw
 photo.79.tags: mofumofu, paws, portrait, sample
+species: 2
+studbook.id: 0663
+zoo: 6

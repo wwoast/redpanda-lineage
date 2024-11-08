@@ -330,12 +330,6 @@ photo.64.author: nasu_animal_kingdom
 photo.64.commitdate: 2023/9/21
 photo.64.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.64.tags: door, laying down, paws, sample
-species: 2
-studbook.id: 13141
-video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
-video.1.author: 963293 ride
-video.1.link: https://www.youtube.com/channel/UCZL5yR-wkotXFOlM-jS-Zwg
-zoo: 53
 photo.65: cwdc://Y_mL_mxADQD.jpg
 photo.65.author: hamiiiii831_
 photo.65.commitdate: 2024/10/6
@@ -351,3 +345,9 @@ photo.67.author: hamiiiii831_
 photo.67.commitdate: 2024/10/6
 photo.67.link: ig://C70SPRIyCgR
 photo.67.tags: laying down, paws, sample, techitechi
+species: 2
+studbook.id: 13141
+video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
+video.1.author: 963293 ride
+video.1.link: https://www.youtube.com/channel/UCZL5yR-wkotXFOlM-jS-Zwg
+zoo: 53
