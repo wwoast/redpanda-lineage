@@ -9,10 +9,20 @@ photo.1.link: ig://BWkQkCCB0De
 photo.1.tags: apple time, couple, keeper, paws, portrait, sapmle, whiskers
 photo.1.tags.3.location: 70, 75
 photo.1.tags.46.location: 190, 120
-photo.2: ig://B__NsUZBsFu/l
+photo.2: cwdc://XH8C5tSADQA.jpg
 photo.2.author: taka__3428
 photo.2.commitdate: 2021/6/11
-photo.2.link: https://www.instagram.com/taka__3428/
+photo.2.link: ig://B__NsUZBsFu
 photo.2.tags: bamboo, couple, paws, whiskers
 photo.2.tags.3.location: 180, 180
 photo.2.tags.46.location: 380, 125
+photo.3: cwdc://XH8C5tSADQB.jpg
+photo.3.author: taka__3428
+photo.3.commitdate: 2024/11/9
+photo.3.link: ig://B__NsUZBsFv
+photo.3.tags: bamboo, couple, fight, mofumofu
+photo.4: cwdc://XH8C5tSADQC.jpg
+photo.4.author: taka__3428
+photo.4.commitdate: 2024/11/9
+photo.4.link: ig://B__NsUZBsFw
+photo.4.tags: bamboo, couple, fight, paws, tongue
