@@ -86,12 +86,12 @@ photo.14.tags: sleeping
 photo.15: cwdc://WdkdIxyADQA.jpg
 photo.15.author: jas_forever_love
 photo.15.commitdate: 2018/11/30
-photo.15.link: https://www.instagram.com/p/Bqzaz2pFMj2
+photo.15.link: ig://Bqzaz2pFMj2
 photo.15.tags: lips, portrait, profile, sample, whiskers, wink
 photo.16: cwdc://Wg4m-lNADQA.jpg
 photo.16.author: wumpwoast
 photo.16.commitdate: 2019/1/15
-photo.16.link: https://www.instagram.com/p/BsdfuwWluX7
+photo.16.link: ig://BsdfuwWluX7
 photo.16.tags: apple time, tongue
 photo.17: ig://Bs0T5xlF59S/m
 photo.17.author: panda.daisuki
@@ -131,7 +131,7 @@ photo.23.tags: portrait, smile, tongue
 photo.24: cwdc://Wy9v9ZmADQA.jpg
 photo.24.author: ck.chie
 photo.24.commitdate: 2019/8/23
-photo.24.link: https://www.instagram.com/p/B1gEOKjB03O
+photo.24.link: ig://B1gEOKjB03O
 photo.24.tags: long-tongue, patrol, portrait, sample, smile, tongue, whiskers
 photo.25: ig://B1iruj1hlif/m
 photo.25.author: run.swim.shingo
@@ -261,7 +261,7 @@ photo.49.tags: patrol, paws, portrait, smile
 photo.50: cwdc://XOIC_26ADQA.jpg
 photo.50.author: wumpwoast
 photo.50.commitdate: 2021/6/6
-photo.50.link: https://www.instagram.com/p/CDFNvZNBX9Z
+photo.50.link: ig://CDFNvZNBX9Z
 photo.50.tags: apple time, paws, portrait, smile
 photo.51: ig://CDKO3g0B2yl/m
 photo.51.author: ssc6105
@@ -316,7 +316,7 @@ photo.60.tags: smile, whiskers
 photo.61: cwdc://XisQ9uAADQB.jpg
 photo.61.author: ck.chie
 photo.61.commitdate: 2021/9/6
-photo.61.link: https://www.instagram.com/p/CNXUuUwBmnA
+photo.61.link: ig://CNXUuUwBmnA
 photo.61.tags: laying down, paws, sample, whiskers
 photo.62: ig://CNZtPTABr_X/m
 photo.62.author: daniele.tokyo
