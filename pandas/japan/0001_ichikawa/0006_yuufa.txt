@@ -80,7 +80,7 @@ photo.13.tags: portrait
 photo.14: cwdc://WJSUY7mADQA.jpg
 photo.14.author: wumpwoast
 photo.14.commitdate: 2018/10/17
-photo.14.link: https://www.instagram.com/p/BgqWb7jAaW6
+photo.14.link: ig://BgqWb7jAaW6
 photo.14.tags: portrait
 photo.15: ig://Bh_Tz8EFGlz/m
 photo.15.author: daniele.tokyo
@@ -114,7 +114,7 @@ photo.20.tags: portrait
 photo.21: cwdc://WQbgDGYADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2018/10/17
-photo.21.link: https://www.instagram.com/p/BkO8RA8FxDj
+photo.21.link: ig://BkO8RA8FxDj
 photo.21.tags: close-up, peek, portrait
 photo.22: ig://BkP7YHJFDTA/m
 photo.22.author: minatomirai215
@@ -218,7 +218,7 @@ photo.41.tags: paws, standing, tail, toys
 photo.42: cwdc://Wu9J2tXADQA.jpg
 photo.42.author: ifumoto88
 photo.42.commitdate: 2019/7/7
-photo.42.link: https://www.instagram.com/p/BzfxK0bhy1w
+photo.42.link: ig://BzfxK0bhy1w
 photo.42.tags: peek, portrait, profile, sample, tree
 photo.43: ig://B0Dme7GB21N/m
 photo.43.author: komabazoophoto
@@ -263,7 +263,7 @@ photo.50.tags: home, paws, smile
 photo.51: cwdc://W1TldTIADQA.jpg
 photo.51.author: ck.chie
 photo.51.commitdate: 2019/9/23
-photo.51.link: https://www.instagram.com/p/B2q--HUBxOr
+photo.51.link: ig://B2q--HUBxOr
 photo.51.tags: portrait, sample, smile, whiskers
 photo.52: ig://B2_M6ogBe9G/m
 photo.52.author: panda.daisuki
