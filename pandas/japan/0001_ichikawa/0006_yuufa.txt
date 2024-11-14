@@ -118,11 +118,11 @@ photo.21.author: wumpwoast
 photo.21.commitdate: 2018/10/17
 photo.21.link: ig://BkO8RA8FxDj
 photo.21.tags: close-up, peek, portrait
-photo.22: ig://BkP7YHJFDTA/m
+photo.22: cwdc://WQdeRSyADQA.jpg
 photo.22.author: minatomirai215
 photo.22.commitdate: 2018/10/17
-photo.22.link: https://www.instagram.com/minatomirai215/
-photo.22.tags: portrait
+photo.22.link: ig://BkP7YHJFDTA
+photo.22.tags: portrait, sample, whiskers
 photo.23: cwdc://WQsZcb6ADQC.jpg
 photo.23.author: hanamaru_redpanda
 photo.23.commitdate: 2018/7/28
@@ -453,16 +453,16 @@ photo.88.author: na.mo.pan
 photo.88.commitdate: 2020/7/10
 photo.88.link: ig://CCJMMO0BIWE
 photo.88.tags: paws, portrait, sample, spider
-photo.89: ig://CC6G6OxB4St/m
+photo.89: cwdc://XNx1ViCADQA.jpg
 photo.89.author: craig_craig_craig
 photo.89.commitdate: 2020/11/6
-photo.89.link: https://www.instagram.com/craig_craig_craig/
+photo.89.link: ig://CC6G6OxB4St
 photo.89.tags: patrol, paws, smile
-photo.90: ig://CDH5EbABOK1/m
+photo.90: cwdc://XONZp6gADQA.jpg
 photo.90.author: miis_98
 photo.90.commitdate: 2020/8/21
-photo.90.link: https://www.instagram.com/miis_98/
-photo.90.tags: portrait
+photo.90.link: ig://CDH5EbABOK1
+photo.90.tags: portrait, sample, whiskers
 photo.91: cwdc://XOf7C8pADQF.jpg
 photo.91.author: ifumoto88
 photo.91.commitdate: 2020/8/21
@@ -748,10 +748,10 @@ photo.147.author: ifumoto88
 photo.147.commitdate: 2023/1/1
 photo.147.link: ig://CkQcCGGLH8O
 photo.147.tags: paws, portrait, toys, upside-down
-photo.148: ig://CmSh8rthxNV/m
+photo.148: cwdc://YUirab7ADQB.jpg
 photo.148.author: miis_98
 photo.148.commitdate: 2023/9/28
-photo.148.link: https://www.instagram.com/miis_98/
+photo.148.link: ig://CmSh8rthxNV
 photo.148.tags: laying down, mofumofu, portrait, sample, tail
 photo.149: cwdc://YW_s5iFADQU.jpg
 photo.149.author: ifumoto88
@@ -1121,3 +1121,13 @@ photo.221.tags: close-up, mofumofu, peek, portrait, sample
 species: 2
 studbook.id: 13146
 zoo: 1
+photo.222: cwdc://XNx1ViCADQB.jpg
+photo.222.author: craig_craig_craig
+photo.222.commitdate: 2024/11/14
+photo.222.link: ig://CC6G6OxB4Su
+photo.222.tags: bridge, peek
+photo.223: cwdc://XNx1ViCADQC.jpg
+photo.223.author: craig_craig_craig
+photo.223.commitdate: 2024/11/14
+photo.223.link: ig://CC6G6OxB4Sv
+photo.223.tags: close-up, sample, smile, tongue, whiskers
