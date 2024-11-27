@@ -1,6 +1,5 @@
 [panda]
-_notes: Lived with female Akuti at Zoo Karlsruhe.
-	Father of Lalima (moved to Parc Animalier de Pyrennées, passed away in July 2024), and Lokesh (now Zoo Guadeloupe)
+_id: 1442
 birthday: 2021/7/3
 commitdate: 2024/11/26
 en.name: Terai
@@ -19,4 +18,4 @@ photo.2.commitdate: 2024/11/26
 photo.2.link: https://www.instagram.com/__man.ja__
 photo.2.tags: autumn, paws, peek, whiskers
 species: 1
-zoo: -317
+zoo: 317
