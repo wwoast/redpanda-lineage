@@ -96,7 +96,7 @@ photo.16.tags: home, laying down, portrait
 photo.17: cwdc://WJqizlxADQA.jpg
 photo.17.author: wumpwoast
 photo.17.commitdate: 2018/10/17
-photo.17.link: https://www.instagram.com/p/Bg2dpQogQXa
+photo.17.link: ig://Bg2dpQogQXa
 photo.17.tags: bamboo
 photo.18: ig://BhSaWvchAa7/m
 photo.18.author: _rifa_p
@@ -267,7 +267,7 @@ photo.51.tags: apple time, keeper, portrait
 photo.52: cwdc://W41tUbtADQA.jpg
 photo.52.author: ck.chie
 photo.52.commitdate: 2019/11/5
-photo.52.link: https://www.instagram.com/p/B4cC5rmhucZ
+photo.52.link: ig://B4cC5rmhucZ
 photo.52.tags: apple time, keeper
 photo.53: ig://B5FjK1qBkXX/m
 photo.53.author: masa_polarbear
@@ -302,7 +302,7 @@ photo.58.tags: apple time, blink, tail
 photo.59: cwdc://W7t3qXYADQB.jpg
 photo.59.author: ck.chie
 photo.59.commitdate: 2019/12/28
-photo.59.link: https://www.instagram.com/p/B54IEpcBEjZ
+photo.59.link: ig://B54IEpcBEjZ
 photo.59.tags: itchy, portrait, sample, tail, techitechi
 photo.60: ig://B6QI1NThjNy/m
 photo.60.author: minatomirai215
@@ -337,12 +337,12 @@ photo.65.tags: portrait, whiskers
 photo.66: cwdc://W_Bb960ADQA.jpg
 photo.66.author: wumpwoast
 photo.66.commitdate: 2020/1/22
-photo.66.link: https://www.instagram.com/p/B7h6ObKB7U8
+photo.66.link: ig://B7h6ObKB7U8
 photo.66.tags: peek, portrait
 photo.67: cwdc://W_Ezt9QADQA.jpg
 photo.67.author: wumpwoast
 photo.67.commitdate: 2020/1/22
-photo.67.link: https://www.instagram.com/p/B7jmGcYBYXW
+photo.67.link: ig://B7jmGcYBYXW
 photo.67.tags: portrait
 photo.68: ig://B7magDgBygn/m
 photo.68.author: _rifa_p
@@ -447,7 +447,7 @@ photo.87.tags: bamboo, bite, paws
 photo.88: cwdc://XOTdayRADQC.jpg
 photo.88.author: ck.chie
 photo.88.commitdate: 2020/8/5
-photo.88.link: https://www.instagram.com/p/CDK6824hE45
+photo.88.link: ig://CDK6824hE45
 photo.88.tags: itchy, paws, sample, whiskers
 photo.89: ig://CDNSHTjBCZX/m
 photo.89.author: alto0908
@@ -482,7 +482,7 @@ photo.94.tags: home, laying down, paws, portrait, upside-down
 photo.95: cwdc://XSZMYa0ADQD.jpg
 photo.95.author: ck.chie
 photo.95.commitdate: 2020/12/21
-photo.95.link: https://www.instagram.com/p/CFNybrKBeJX
+photo.95.link: ig://CFNybrKBeJX
 photo.95.tags: bridge, laying down, paws, sample, smile, whiskers
 photo.96: ig://CFPWe5sB9d_/m
 photo.96.author: ifumoto88
@@ -517,7 +517,7 @@ photo.101.tags: keeper, smile
 photo.102: cwdc://XWjGkpSADQE.jpg
 photo.102.author: ck.chie
 photo.102.commitdate: 2020/11/15
-photo.102.link: https://www.instagram.com/p/CHSvhyZBZ2o
+photo.102.link: ig://CHSvhyZBZ2o
 photo.102.tags: close-up, paws, portrait, sample, smile, whiskers
 photo.103: ig://CHT023chFfT/m
 photo.103.author: sunnylettuce_2024
@@ -582,7 +582,7 @@ photo.114.tags: bamboo, close-up, paws, shoots
 photo.115: cwdc://XjnQSSIADQF.jpg
 photo.115.author: ck.chie
 photo.115.commitdate: 2021/5/3
-photo.115.link: https://www.instagram.com/p/CN00Ym0BrAj
+photo.115.link: ig://CN00Ym0BrAj
 photo.115.tags: laying down, stretching, whiskers
 photo.116: ig://CN1gUouBzn0/m
 photo.116.author: na.mo.pan
@@ -592,7 +592,7 @@ photo.116.tags: apple time, nose
 photo.117: cwdc://XkLZezaADQG.jpg
 photo.117.author: ck.chie
 photo.117.commitdate: 2021/5/31
-photo.117.link: https://www.instagram.com/p/COG4-3dBz8V
+photo.117.link: ig://COG4-3dBz8V
 photo.117.tags: bamboo, paws, shoots
 photo.118: ig://COOx8qxhwwo/m
 photo.118.author: miis_98
