@@ -182,10 +182,10 @@ photo.34.author: ifumoto88
 photo.34.commitdate: 2018/10/6
 photo.34.link: ig://Bok_DCXF8UZ
 photo.34.tags: bamboo, portrait, sample, whiskers, white face
-photo.35: ig://BpvWsFylg5s/m
+photo.35: cwdc://WbcU5QFADQA.jpg
 photo.35.author: 218_yu
 photo.35.commitdate: 2018/11/5
-photo.35.link: https://www.instagram.com/218_yu/
+photo.35.link: ig://BpvWsFylg5s
 photo.36: cwdc://Wcf1j0mADQD.jpg
 photo.36.author: na.mo.pan
 photo.36.commitdate: 2018/11/17
@@ -224,11 +224,11 @@ photo.43.author: _rifa_p
 photo.43.commitdate: 2019/6/21
 photo.43.link: ig://By6N6BrhshU
 photo.43.tags: sample, smile
-photo.44: ig://By7feH3BW-s/m
+photo.44: cwdc://Wt0mdUOADQB.jpg
 photo.44.author: minatomirai215
 photo.44.commitdate: 2019/6/21
-photo.44.link: https://www.instagram.com/minatomirai215/
-photo.44.tags: apple time, keeper
+photo.44.link: ig://By7feH3BW-s
+photo.44.tags: apple time, bite, keeper, portrait, sample, whiskers
 photo.45: cwdc://Ww9flXkADQA.jpg
 photo.45.author: ssc6105
 photo.45.commitdate: 2019/7/30
@@ -304,11 +304,11 @@ photo.59.author: ck.chie
 photo.59.commitdate: 2019/12/28
 photo.59.link: ig://B54IEpcBEjZ
 photo.59.tags: itchy, portrait, sample, tail, techitechi
-photo.60: ig://B6QI1NThjNy/m
+photo.60: cwdc://W8d5LfHADQA.jpg
 photo.60.author: minatomirai215
 photo.60.commitdate: 2019/12/30
-photo.60.link: https://www.instagram.com/minatomirai215/
-photo.60.tags: bridge, laying down, portrait
+photo.60.link: ig://B6QI1NThjNy
+photo.60.tags: bridge, laying down, portrait, sample
 photo.61: cwdc://W89LxElADQD.jpg
 photo.61.author: ifumoto88
 photo.61.commitdate: 2019/12/29
@@ -404,11 +404,11 @@ photo.79.author: grskus_tk
 photo.79.commitdate: 2020/7/26
 photo.79.link: ig://CBrQ_DFhQL9
 photo.79.tags: apple time, dish, peek, portrait, whiskers
-photo.80: ig://CBtvjaeh1wy/m
+photo.80: cwdc://XLZGn5dADQB.jpg
 photo.80.author: rie_panda55
 photo.80.commitdate: 2020/7/26
-photo.80.link: https://www.instagram.com/rie_panda55/
-photo.80.tags: bamboo, portrait
+photo.80.link: ig://CBtvjaeh1wy
+photo.80.tags: bamboo, portrait, sample, whiskers
 photo.81: cwdc://XLZeNiLADQB.jpg
 photo.81.author: alto0908
 photo.81.commitdate: 2020/7/26
@@ -1145,3 +1145,9 @@ photo.226.author: na.mo.pan
 photo.226.commitdate: 2024/11/27
 photo.226.link: ig://Cr7ucxHvlQ3
 photo.226.tags: apple time, lips
+photo.35.tags: peek, portrait
+photo.227: cwdc://XLZGn5dADQA.jpg
+photo.227.author: rie_panda55
+photo.227.commitdate: 2024/11/27
+photo.227.link: ig://CBtvjaeh1w2
+photo.227.tags: bridge, home, paws, portrait
