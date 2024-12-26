@@ -15,161 +15,811 @@ language.order: ja, en
 litter: 329
 location.1: 40, 2006/8/1
 location.2: 52, 2010/3/23
-photo.1: ig://BpA1Q9_HrXr/m
+photo.1: cwdc://WZ_SDAeADQB.jpg
 photo.1.author: mochan8686
 photo.1.commitdate: 2018/11/27
-photo.1.link: https://www.instagram.com/mochan8686/
-photo.1.tags: portrait, sample, smile
-photo.2: ig://BqFHVDkny8N/m
+photo.1.link: ig://BpA1Q9_HrXr
+photo.1.tags: mofumofu, paws, portrait, sample, smile
+photo.2: cwdc://WcH2LLpADQC.jpg
 photo.2.author: mochan8686
 photo.2.commitdate: 2018/11/27
-photo.2.link: https://www.instagram.com/mochan8686/
+photo.2.link: ig://BqFHVDkny8N
 photo.2.tags: ear, portrait, sample, tongue
-photo.3: ig://Br5Bb5tnLlM/m
+photo.3: cwdc://WfvqY37ADQD.jpg
 photo.3.author: mochan8686
 photo.3.commitdate: 2018/12/27
-photo.3.link: https://www.instagram.com/mochan8686/
+photo.3.link: ig://Br5Bb5tnLlM
 photo.3.tags: portrait, sample, smile, tongue
-photo.4: ig://ByG9dUnhgPJ/m
+photo.4: cwdc://WsLibtvADQA.jpg
 photo.4.author: makimaru18
 photo.4.commitdate: 2019/6/1
-photo.4.link: https://www.instagram.com/makimaru18/
+photo.4.link: ig://ByG9dUnhgPJ
 photo.4.tags: portrait, sample
-photo.5: ig://ByMw_J-B7k4/m
+photo.5: cwdc://WsXJfYcADQA.jpg
 photo.5.author: chankunvv
 photo.5.commitdate: 2019/10/28
-photo.5.link: https://www.instagram.com/chankunvv/
+photo.5.link: ig://ByMw_J-B7k4
 photo.5.tags: paws, portrait, tree
-photo.6: ig://B0nszIxn-44/m
+photo.6: cwdc://WxNBHWDADQA.jpg
 photo.6.author: mochan8686
 photo.6.commitdate: 2019/8/2
-photo.6.link: https://www.instagram.com/mochan8686/
+photo.6.link: ig://B0nszIxn-44
 photo.6.tags: portrait, sample
-photo.7: ig://B7tFGSYBA_z/m
+photo.7: cwdc://W_XxtpQADQD.jpg
 photo.7.author: nakacchi_desu
 photo.7.commitdate: 2020/1/26
-photo.7.link: https://www.instagram.com/nakacchi_desu/
+photo.7.link: ig://B7tFGSYBA_z
 photo.7.tags: sample, smile, tongue
-photo.8: ig://CAepi3wnY92/m
+photo.8: cwdc://XI66m0BADQI.jpg
 photo.8.author: makimaru18
 photo.8.commitdate: 2020/5/23
-photo.8.link: https://www.instagram.com/makimaru18/
+photo.8.link: ig://CAepi3wnY92
 photo.8.tags: mofumofu, portrait, sample
-photo.9: ig://CA2xHLkgGyS/m
+photo.9: cwdc://XJrJvbpADQE.jpg
 photo.9.author: nakacchi_desu
 photo.9.commitdate: 2020/6/1
-photo.9.link: https://www.instagram.com/nakacchi_desu/
+photo.9.link: ig://CA2xHLkgGyS
 photo.9.tags: laying down, paws, tongue
-photo.10: ig://CDU1b4tnoyb/m
+photo.10: cwdc://XOnSY17ADQE.jpg
 photo.10.author: mochan8686
 photo.10.commitdate: 2020/7/31
-photo.10.link: https://www.instagram.com/mochan8686/
+photo.10.link: ig://CDU1b4tnoyb
 photo.10.tags: mofumofu, portrait, sample
-photo.11: ig://CJYu_UJhjPg/m
+photo.11: cwdc://XavFfszADQD.jpg
 photo.11.author: sakikukeco
 photo.11.commitdate: 2020/12/30
-photo.11.link: https://www.instagram.com/sakikukeco/
+photo.11.link: ig://CJYu_UJhjPg
 photo.11.tags: paws, portrait, sample, smile, tongue
-photo.12: ig://CJalU12BX0U/m
+photo.12: cwdc://XayyKwMADQC.jpg
 photo.12.author: bubbles_octi
 photo.12.commitdate: 2020/12/30
-photo.12.link: https://www.instagram.com/bubbles_octi/
+photo.12.link: ig://CJalU12BX0U
 photo.12.tags: portrait, sample, tail, yawn
-photo.13: ig://CNM7klKhgNq/m
+photo.13: cwdc://XiXeqO1ADQG.jpg
 photo.13.author: chankunvv
 photo.13.commitdate: 2021/4/3
-photo.13.link: https://www.instagram.com/chankunvv/
+photo.13.link: ig://CNM7klKhgNq
 photo.13.tags: mofumofu, portrait, sample
-photo.14: ig://CSeO6NAB5m7/m
+photo.14: cwdc://Xs6FVegADQA.jpg
 photo.14.author: _sah_ax7
 photo.14.commitdate: 2021/8/18
-photo.14.link: https://www.instagram.com/_sah_ax7/
+photo.14.link: ig://CSeO6NAB5m7
 photo.14.tags: apple time, mofumofu
-photo.15: ig://CV2eEPehGJH/m
+photo.15: cwdc://XzqjpjdADQZ.jpg
 photo.15.author: makimaru18
 photo.15.commitdate: 2021/11/5
-photo.15.link: https://www.instagram.com/makimaru18/
+photo.15.link: ig://CV2eEPehGJH
 photo.15.tags: mofumofu, paws, portrait, sample
-photo.16: ig://CWxXQvbBOGc/m
+photo.16: cwdc://X1gWCjWADQI.jpg
 photo.16.author: chankunvv
 photo.16.commitdate: 2022/1/4
-photo.16.link: https://www.instagram.com/chankunvv/
+photo.16.link: ig://CWxXQvbBOGc
 photo.16.tags: peek, portrait, sample, tail
-photo.17: ig://CZlnVa7P-Za/m
+photo.17: cwdc://X7I2L6WADQT.jpg
 photo.17.author: fetorus_mami
 photo.17.commitdate: 2022/2/10
-photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.link: ig://CZlnVa7P-Za
 photo.17.tags: door, laying down, paws
 photo.18: ig://CaXK_ZhlE6e/m
 photo.18.author: miis_98
 photo.18.commitdate: 2022/3/5
 photo.18.link: https://www.instagram.com/miis_98/
 photo.18.tags: mofumofu, paws, portrait, sample, whiskers
-photo.19: ig://CauDz4GP7xO/m
+photo.19: cwdc://X9ZvI0sADQA.jpg
 photo.19.author: fetorus_mami
 photo.19.commitdate: 2022/4/5
-photo.19.link: https://www.instagram.com/fetorus_mami/
-photo.19.tags: apple time, smile, whiskers
+photo.19.link: ig://CauDz4GP7xO
+photo.19.tags: apple time, sample, smile, whiskers
 photo.20: cwdc://X_AA14lADQA.jpg
 photo.20.author: fetorus_mami
 photo.20.commitdate: 2022/4/25
 photo.20.link: https://www.instagram.com/p/CbhMqaCr0zx
 photo.20.tags: paws, portrait, profile, sample
-photo.21: ig://CcsiI75P6MM/m
+photo.21: cwdc://YBWry8SADQA.jpg
 photo.21.author: sakikukeco
 photo.21.commitdate: 2022/6/2
-photo.21.link: https://www.instagram.com/sakikukeco/
-photo.21.tags: bamboo, mofumofu, portrait, tongue
-photo.22: ig://CgtMPR5vhUj/m
+photo.21.link: ig://CcsiI75P6MM
+photo.21.tags: bamboo, mofumofu, portrait, sample, tongue
+photo.22: cwdc://YJX__oTADQF.jpg
 photo.22.author: hamiiiii831_
 photo.22.commitdate: 2022/8/5
-photo.22.link: https://www.instagram.com/hamiiiii831_/
+photo.22.link: ig://CgtMPR5vhUj
 photo.22.tags: mofumofu, sample, tongue, whiskers
-photo.23: ig://CguAvLrhnti/m
+photo.23: cwdc://YJZo_b3ADQK.jpg
 photo.23.author: nakacchi_desu
 photo.23.commitdate: 2022/8/5
-photo.23.link: https://www.instagram.com/nakacchi_desu/
+photo.23.link: ig://CguAvLrhnti
 photo.23.tags: apple time, bamboo, birthday, ice treat, keeper
-photo.24: ig://Cgy-7tdhHT6/m
+photo.24: cwdc://YJjlYfbADQQ.jpg
 photo.24.author: makimaru18
 photo.24.commitdate: 2022/8/5
-photo.24.link: https://www.instagram.com/makimaru18/
-photo.24.tags: apple time, bamboo, birthday, ice treat, portrait
-photo.25: ig://CpDQ-YIPt0k/m
+photo.24.link: ig://Cgy-7tdhHT6
+photo.24.tags: apple time, bamboo, birthday, ice treat, portrait, sample
+photo.25: cwdc://YaEJd0wADQM.jpg
 photo.25.author: fetorus_mami
 photo.25.commitdate: 2023/11/18
-photo.25.link: https://www.instagram.com/fetorus_mami/
+photo.25.link: ig://CpDQ-YIPt0k
 photo.25.tags: bear worm, laying down, peek
-photo.26: ig://CqbOEpfhwf5/m
+photo.26: cwdc://Yc0DqXfADQP.jpg
 photo.26.author: nakacchi_desu
 photo.26.commitdate: 2023/6/9
-photo.26.link: https://www.instagram.com/nakacchi_desu/
-photo.26.tags: apple time, bamboo, cherry blossoms
-photo.27: ig://CqzZzAUPg-t/m
+photo.26.link: ig://CqbOEpfhwf5
+photo.26.tags: apple time, bamboo, cherry blossoms, distance
+photo.27: cwdc://YdkbHFIADQH.jpg
 photo.27.author: sakikukeco
 photo.27.commitdate: 2023/7/14
-photo.27.link: https://www.instagram.com/sakikukeco/
+photo.27.link: ig://CqzZzAUPg-t
 photo.27.tags: door, paws, portrait, sample
-photo.28: ig://Cq_m1Ksh7Sy/m
+photo.28: cwdc://Yd81LZ5ADQU.jpg
 photo.28.author: hamiiiii831_
 photo.28.commitdate: 2023/4/22
-photo.28.link: https://www.instagram.com/hamiiiii831_/
+photo.28.link: ig://Cq_m1Ksh7Sy
 photo.28.tags: paws, sample, smile
-photo.29: ig://CslOPxlPaqc/m
+photo.29: cwdc://YhIEAnqADQV.jpg
 photo.29.author: makimaru18
 photo.29.commitdate: 2023/6/10
-photo.29.link: https://www.instagram.com/makimaru18/
+photo.29.link: ig://CslOPxlPaqc
 photo.29.tags: portrait, sample, smile, tail
-photo.30: ig://CvZ0aZ2PG1Q/m
+photo.30: cwdc://YmxQV4MADQd.jpg
 photo.30.author: makimaru18
 photo.30.commitdate: 2023/11/5
-photo.30.link: https://www.instagram.com/makimaru18/
+photo.30.link: ig://CvZ0aZ2PG1Q
 photo.30.tags: birthday, portrait, sample
-photo.31: ig://CvZ7riEvzU_/m
+photo.31: cwdc://Ymxe4IpADQW.jpg
 photo.31.author: hamiiiii831_
 photo.31.commitdate: 2023/11/5
-photo.31.link: https://www.instagram.com/hamiiiii831_/
+photo.31.link: ig://CvZ7riEvzU_
 photo.31.tags: apple time, close-up, paws, sample
 species: 2
 studbook.id: 0685
 zoo: 52
+photo.32: cwdc://W_XxtpQADQA.jpg
+photo.32.author: nakacchi_desu
+photo.32.commitdate: 2024/12/25
+photo.32.link: ig://B7tFGSYBA_1
+photo.32.tags: paws, sample, smile, tongue
+photo.33: cwdc://W_XxtpQADQB.jpg
+photo.33.author: nakacchi_desu
+photo.33.commitdate: 2024/12/25
+photo.33.link: ig://B7tFGSYBA_2
+photo.33.tags: mofumofu, paws
+photo.34: cwdc://W_XxtpQADQC.jpg
+photo.34.author: nakacchi_desu
+photo.34.commitdate: 2024/12/25
+photo.34.link: ig://B7tFGSYBA_3
+photo.34.tags: apple time, bite, keeper, sample
+photo.35: cwdc://WsLibtvADQB.jpg
+photo.35.author: makimaru18
+photo.35.commitdate: 2024/12/25
+photo.35.link: ig://ByG9dUnhgPM
+photo.35.tags: portrait
+photo.36: cwdc://WsLibtvADQC.jpg
+photo.36.author: makimaru18
+photo.36.commitdate: 2024/12/25
+photo.36.link: ig://ByG9dUnhgPN
+photo.36.tags: bridge, peek, portrait, tail
+photo.37: cwdc://WsLibtvADQD.jpg
+photo.37.author: makimaru18
+photo.37.commitdate: 2024/12/25
+photo.37.link: ig://ByG9dUnhgPO
+photo.37.tags: laying down, portrait, sample, tongue
+photo.38: cwdc://WsLibtvADQE.jpg
+photo.38.author: makimaru18
+photo.38.commitdate: 2024/12/25
+photo.38.link: ig://ByG9dUnhgPP
+photo.38.tags: laying down, mofumofu, paws, portrait, tail, tongue
+photo.39: cwdc://WsXJfYcADQB.jpg
+photo.39.author: chankunvv
+photo.39.commitdate: 2024/12/25
+photo.39.link: ig://ByMw_J-B7k5
+photo.39.tags: peek, portrait, tree
+photo.40: cwdc://WsXJfYcADQC.jpg
+photo.40.author: chankunvv
+photo.40.commitdate: 2024/12/25
+photo.40.link: ig://ByMw_J-B7k6
+photo.40.tags: peek, portrait
+photo.41: cwdc://WsXJfYcADQD.jpg
+photo.41.author: chankunvv
+photo.41.commitdate: 2024/12/25
+photo.41.link: ig://ByMw_J-B7k7
+photo.41.tags: paws, peek, portrait, sample
+photo.42: cwdc://X0FtcxkADQg.jpg
+photo.42.author: hamiiiii831_
+photo.42.commitdate: 2024/12/25
+photo.42.link: ig://CWEC92iBe-i
+photo.42.tags: mofumofu, portrait, sample
+photo.43: cwdc://X1gWCjWADQJ.jpg
+photo.43.author: chankunvv
+photo.43.commitdate: 2024/12/25
+photo.43.link: ig://CWxXQvbBOGd
+photo.43.tags: itchy, paws, portrait, sample, tail
+photo.44: cwdc://X3M-ED7ADQA.jpg
+photo.44.author: imagoto17
+photo.44.commitdate: 2024/12/25
+photo.44.link: ig://CXnrRftvuSL
+photo.44.tags: apple time, paws, portrait, sample
+photo.45: cwdc://X4F2uLEADQA.jpg
+photo.45.author: redpanda_nippon_takashi
+photo.45.commitdate: 2024/12/25
+photo.45.link: ig://CYEHmjSPlRH
+photo.45.tags: apple time, peek, sample
+photo.46: cwdc://X4FblVqADQj.jpg
+photo.46.author: makimaru18
+photo.46.commitdate: 2024/12/25
+photo.46.link: ig://CYD6CIlPSVi
+photo.46.tags: apple time, bamboo, paws, portrait, sample, smile, tongue
+photo.47: cwdc://X4QxRliADQI.jpg
+photo.47.author: bubbles_octi
+photo.47.commitdate: 2024/12/25
+photo.47.link: ig://CYJk4QhP6gM
+photo.47.tags: mofumofu, paws, portrait, sample
+photo.48: cwdc://X4QxRliADQJ.jpg
+photo.48.author: bubbles_octi
+photo.48.commitdate: 2024/12/25
+photo.48.link: ig://CYJk4QhP6gN
+photo.48.tags: paws, peek, portrait, sample
+photo.49: cwdc://X5Cy65fADQk.jpg
+photo.49.author: makimaru18
+photo.49.commitdate: 2024/12/25
+photo.49.link: ig://CYils6fskSc
+photo.49.tags: apple time, bite, portrait, tongue
+photo.50: cwdc://X5DnFTyADQA.jpg
+photo.50.author: jas_forever_love
+photo.50.commitdate: 2024/12/25
+photo.50.link: ig://CYi_yHpPCXE
+photo.50.tags: apple time, portrait, sample
+photo.51: cwdc://X5DnFTyADQB.jpg
+photo.51.author: jas_forever_love
+photo.51.commitdate: 2024/12/25
+photo.51.link: ig://CYi_yHpPCXF
+photo.51.tags: apple time, bamboo, bite, portrait
+photo.52: cwdc://X658goUADQl.jpg
+photo.52.author: makimaru18
+photo.52.commitdate: 2024/12/25
+photo.52.link: ig://CZeKfx6Pdai
+photo.52.tags: apple time, portrait, sample, tongue
+photo.53: cwdc://X7I2L6WADQU.jpg
+photo.53.author: fetorus_mami
+photo.53.commitdate: 2024/12/25
+photo.53.link: ig://CZlnVa7P-Zc
+photo.53.tags: door, paws, peek, sample
+photo.54: cwdc://X7I2L6WADQV.jpg
+photo.54.author: fetorus_mami
+photo.54.commitdate: 2024/12/25
+photo.54.link: ig://CZlnVa7P-Zd
+photo.54.tags: sample, tail
+photo.55: cwdc://X7I2L6WADQW.jpg
+photo.55.author: fetorus_mami
+photo.55.commitdate: 2024/12/25
+photo.55.link: ig://CZlnVa7P-Ze
+photo.55.tags: sample
+photo.56: cwdc://X7I2L6WADQX.jpg
+photo.56.author: fetorus_mami
+photo.56.commitdate: 2024/12/25
+photo.56.link: ig://CZlnVa7P-Zf
+photo.56.tags: sample, tail
+photo.57: cwdc://X7I2L6WADQY.jpg
+photo.57.author: fetorus_mami
+photo.57.commitdate: 2024/12/25
+photo.57.link: ig://CZlnVa7P-Zg
+photo.57.tags: sample
+photo.58: cwdc://X7I2L6WADQZ.jpg
+photo.58.author: fetorus_mami
+photo.58.commitdate: 2024/12/25
+photo.58.link: ig://CZlnVa7P-Zh
+photo.58.tags: bamboo, paws
+photo.59: cwdc://X7I2L6WADQa.jpg
+photo.59.author: fetorus_mami
+photo.59.commitdate: 2024/12/25
+photo.59.link: ig://CZlnVa7P-Zi
+photo.59.tags: bamboo, lips, paws
+photo.60: cwdc://X7I2L6WADQb.jpg
+photo.60.author: fetorus_mami
+photo.60.commitdate: 2024/12/25
+photo.60.link: ig://CZlnVa7P-Zj
+photo.60.tags: apple time, sample
+photo.61: cwdc://X9ZvI0sADQB.jpg
+photo.61.author: fetorus_mami
+photo.61.commitdate: 2024/12/25
+photo.61.link: ig://CauDz4GP7xP
+photo.61.tags: apple time, peek
+photo.62: cwdc://X9ZvI0sADQC.jpg
+photo.62.author: fetorus_mami
+photo.62.commitdate: 2024/12/25
+photo.62.link: ig://CauDz4GP7xQ
+photo.62.tags: apple time, mofumofu
+photo.63: cwdc://X9ZvI0sADQD.jpg
+photo.63.author: fetorus_mami
+photo.63.commitdate: 2024/12/25
+photo.63.link: ig://CauDz4GP7xR
+photo.63.tags: apple time, mofumofu, sample
+photo.64: cwdc://X9ZvI0sADQE.jpg
+photo.64.author: fetorus_mami
+photo.64.commitdate: 2024/12/25
+photo.64.link: ig://CauDz4GP7xS
+photo.64.tags: long-tongue, mofumofu, tongue
+photo.65: cwdc://X9ZvI0sADQF.jpg
+photo.65.author: fetorus_mami
+photo.65.commitdate: 2024/12/25
+photo.65.link: ig://CauDz4GP7xT
+photo.65.tags: mofumofu, smile
+photo.66: cwdc://X9ZvI0sADQG.jpg
+photo.66.author: fetorus_mami
+photo.66.commitdate: 2024/12/25
+photo.66.link: ig://CauDz4GP7xU
+photo.66.tags: mofumofu
+photo.67: cwdc://XI66m0BADQJ.jpg
+photo.67.author: makimaru18
+photo.67.commitdate: 2024/12/25
+photo.67.link: ig://CAepi3wnY93
+photo.67.tags: lips, mofumofu, paws, portrait, sample
+photo.68: cwdc://XI66m0BADQK.jpg
+photo.68.author: makimaru18
+photo.68.commitdate: 2024/12/25
+photo.68.link: ig://CAepi3wnY94
+photo.68.tags: mofumofu, peek, portrait
+photo.69: cwdc://XI66m0BADQL.jpg
+photo.69.author: makimaru18
+photo.69.commitdate: 2024/12/25
+photo.69.link: ig://CAepi3wnY95
+photo.69.tags: laying down, mofumofu, portrait, sample, tongue
+photo.70: cwdc://XI66m0BADQM.jpg
+photo.70.author: makimaru18
+photo.70.commitdate: 2024/12/25
+photo.70.link: ig://CAepi3wnY96
+photo.70.tags: portrait, sample, tail
+photo.71: cwdc://XI66m0BADQN.jpg
+photo.71.author: makimaru18
+photo.71.commitdate: 2024/12/25
+photo.71.link: ig://CAepi3wnY97
+photo.71.tags: mofumofu, portrait, sample, tongue
+photo.72: cwdc://XI66m0BADQO.jpg
+photo.72.author: makimaru18
+photo.72.commitdate: 2024/12/25
+photo.72.link: ig://CAepi3wnY98
+photo.72.tags: paws, portrait
+photo.73: cwdc://XJrJvbpADQF.jpg
+photo.73.author: nakacchi_desu
+photo.73.commitdate: 2024/12/25
+photo.73.link: ig://CA2xHLkgGyT
+photo.73.tags: laying down, peek
+photo.74: cwdc://XJrJvbpADQG.jpg
+photo.74.author: nakacchi_desu
+photo.74.commitdate: 2024/12/25
+photo.74.link: ig://CA2xHLkgGyU
+photo.74.tags: apple time, tongue
+photo.75: cwdc://XJrJvbpADQH.jpg
+photo.75.author: nakacchi_desu
+photo.75.commitdate: 2024/12/25
+photo.75.link: ig://CA2xHLkgGyV
+photo.75.tags: mofumofu
+photo.76: cwdc://XJrJvbpADQI.jpg
+photo.76.author: nakacchi_desu
+photo.76.commitdate: 2024/12/25
+photo.76.link: ig://CA2xHLkgGyW
+photo.76.tags: distance
+photo.77: cwdc://XJrJvbpADQJ.jpg
+photo.77.author: nakacchi_desu
+photo.77.commitdate: 2024/12/25
+photo.77.link: ig://CA2xHLkgGyX
+photo.77.tags: paws, sample, tongue
+photo.78: cwdc://X_AA14lADQH.jpg
+photo.78.author: fetorus_mami
+photo.78.commitdate: 2024/12/25
+photo.78.link: ig://CbhMqaCr0z2
+photo.78.tags: mofumofu, paws, peek, portrait, sample
+photo.79: cwdc://X_AA14lADQI.jpg
+photo.79.author: fetorus_mami
+photo.79.commitdate: 2024/12/25
+photo.79.link: ig://CbhMqaCr0z4
+photo.79.tags: mofumofu, paws, portrait, sample, whiskers
+photo.80: cwdc://X_AA14lADQK.jpg
+photo.80.author: fetorus_mami
+photo.80.commitdate: 2024/12/25
+photo.80.link: ig://CbhMqaCr0zy
+photo.80.tags: door, laying down, mofumofu, portrait, sample
+photo.81: cwdc://X_AA14lADQL.jpg
+photo.81.author: fetorus_mami
+photo.81.commitdate: 2024/12/25
+photo.81.link: ig://CbhMqaCr0zz
+photo.81.tags: door, peek, portrait, sample
+photo.82: cwdc://XavFfszADQE.jpg
+photo.82.author: sakikukeco
+photo.82.commitdate: 2024/12/25
+photo.82.link: ig://CJYu_UJhjPh
+photo.82.tags: apple time, mofumofu, portrait, sample, smile, tongue
+photo.83: cwdc://XavFfszADQF.jpg
+photo.83.author: sakikukeco
+photo.83.commitdate: 2024/12/25
+photo.83.link: ig://CJYu_UJhjPi
+photo.83.tags: apple time, mofumofu, portrait, shake
+photo.84: cwdc://XavFfszADQG.jpg
+photo.84.author: sakikukeco
+photo.84.commitdate: 2024/12/25
+photo.84.link: ig://CJYu_UJhjPj
+photo.84.tags: paws, peek, portrait, sample
+photo.85: cwdc://XayyKwMADQA.jpg
+photo.85.author: bubbles_octi
+photo.85.commitdate: 2024/12/25
+photo.85.link: ig://CJalU12BX0a
+photo.85.tags: apple time, mofumofu, portrait, sample
+photo.86: cwdc://XayyKwMADQB.jpg
+photo.86.author: bubbles_octi
+photo.86.commitdate: 2024/12/25
+photo.86.link: ig://CJalU12BX0b
+photo.86.tags: apple time, close-up, lips, portrait
+photo.87: cwdc://XayyKwMADQD.jpg
+photo.87.author: bubbles_octi
+photo.87.commitdate: 2024/12/25
+photo.87.link: ig://CJalU12BX0V
+photo.87.tags: mofumofu, portrait, sample, tail
+photo.88: cwdc://XayyKwMADQE.jpg
+photo.88.author: bubbles_octi
+photo.88.commitdate: 2024/12/25
+photo.88.link: ig://CJalU12BX0W
+photo.88.tags: itchy, mofumofu, paws, peek, portrait, sample, tail, techitechi
+photo.89: cwdc://XayyKwMADQF.jpg
+photo.89.author: bubbles_octi
+photo.89.commitdate: 2024/12/25
+photo.89.link: ig://CJalU12BX0X
+photo.89.tags: itchy, paws, peek, portrait, tongue
+photo.90: cwdc://XayyKwMADQG.jpg
+photo.90.author: bubbles_octi
+photo.90.commitdate: 2024/12/25
+photo.90.link: ig://CJalU12BX0Y
+photo.90.tags: portrait, shake
+photo.91: cwdc://XayyKwMADQH.jpg
+photo.91.author: bubbles_octi
+photo.91.commitdate: 2024/12/25
+photo.91.link: ig://CJalU12BX0Z
+photo.91.tags: apple time, portrait, sample, smile
+photo.92: cwdc://XiXeqO1ADQH.jpg
+photo.92.author: chankunvv
+photo.92.commitdate: 2024/12/25
+photo.92.link: ig://CNM7klKhgNr
+photo.92.tags: mofumofu, peek, portrait, sample
+photo.93: cwdc://XzqjpjdADQa.jpg
+photo.93.author: makimaru18
+photo.93.commitdate: 2024/12/25
+photo.93.link: ig://CV2eEPehGJI
+photo.93.tags: apple time, close-up, mofumofu, paws, peek, portrait, sample
+photo.94: cwdc://XzqjpjdADQb.jpg
+photo.94.author: makimaru18
+photo.94.commitdate: 2024/12/25
+photo.94.link: ig://CV2eEPehGJJ
+photo.94.tags: apple time, dish, peek, portrait
+photo.95: cwdc://XzqjpjdADQc.jpg
+photo.95.author: makimaru18
+photo.95.commitdate: 2024/12/25
+photo.95.link: ig://CV2eEPehGJO
+photo.95.tags: mofumofu, peek, portrait, sample, tongue
+photo.96: cwdc://Y4NoqELADQA.jpg
+photo.96.author: hamiiiii831_
+photo.96.commitdate: 2024/12/25
+photo.96.link: ig://C4IAkf1v43Q
+photo.96.tags: mofumofu, paws, sample
+photo.97: cwdc://Y4NoqELADQB.jpg
+photo.97.author: hamiiiii831_
+photo.97.commitdate: 2024/12/25
+photo.97.link: ig://C4IAkf1v43U
+photo.97.tags: mofumofu, paws, sample
+photo.98: cwdc://Y4NoqELADQC.jpg
+photo.98.author: hamiiiii831_
+photo.98.commitdate: 2024/12/25
+photo.98.link: ig://C4IAkf1v43V
+photo.98.tags: mofumofu, paws, sample
+photo.99: cwdc://Y4NoqELADQD.jpg
+photo.99.author: hamiiiii831_
+photo.99.commitdate: 2024/12/25
+photo.99.link: ig://C4IAkf1v43X
+photo.99.tags: mofumofu, paws, sample, tongue
+photo.100: cwdc://Y4NoqELADQE.jpg
+photo.100.author: hamiiiii831_
+photo.100.commitdate: 2024/12/25
+photo.100.link: ig://C4IAkf1v43Z
+photo.100.tags: mofumofu, paws, sample, tail, tongue
+photo.101: cwdc://YBWry8SADQB.jpg
+photo.101.author: sakikukeco
+photo.101.commitdate: 2024/12/25
+photo.101.link: ig://CcsiI75P6MN
+photo.101.tags: bamboo, mofumofu, paws, portrait
+photo.102: cwdc://YBWry8SADQC.jpg
+photo.102.author: sakikukeco
+photo.102.commitdate: 2024/12/25
+photo.102.link: ig://CcsiI75P6MO
+photo.102.tags: apple time, bamboo, lips, mofumofu, portrait, sample
+photo.103: cwdc://YIJ9CotADQP.jpg
+photo.103.author: makimaru18
+photo.103.commitdate: 2024/12/25
+photo.103.link: ig://CgGKwyGhAuP
+photo.103.tags: apple time, bite, keeper, mofumofu, portrait, sample, whiskers
+photo.104: cwdc://YJX__oTADQG.jpg
+photo.104.author: hamiiiii831_
+photo.104.commitdate: 2024/12/25
+photo.104.link: ig://CgtMPR5vhUk
+photo.104.tags: apple time, mofumofu, paws, sample, tongue
+photo.105: cwdc://YJX__oTADQH.jpg
+photo.105.author: hamiiiii831_
+photo.105.commitdate: 2024/12/25
+photo.105.link: ig://CgtMPR5vhUl
+photo.105.tags: mofumofu, sample, tongue
+photo.106: cwdc://YJZo_b3ADQL.jpg
+photo.106.author: nakacchi_desu
+photo.106.commitdate: 2024/12/25
+photo.106.link: ig://CguAvLrhntj
+photo.106.tags: apple time, bamboo, ice treat
+photo.107: cwdc://YJZo_b3ADQM.jpg
+photo.107.author: nakacchi_desu
+photo.107.commitdate: 2024/12/25
+photo.107.link: ig://CguAvLrhntk
+photo.107.tags: apple time, ice treat, keeper
+photo.108: cwdc://YJZo_b3ADQN.jpg
+photo.108.author: nakacchi_desu
+photo.108.commitdate: 2024/12/25
+photo.108.link: ig://CguAvLrhntl
+photo.108.tags: apple time, ice treat, keeper
+photo.109: cwdc://YJZo_b3ADQO.jpg
+photo.109.author: nakacchi_desu
+photo.109.commitdate: 2024/12/25
+photo.109.link: ig://CguAvLrhntm
+photo.109.tags: apple time, ice treat, tail
+photo.110: cwdc://YJjlYfbADQR.jpg
+photo.110.author: makimaru18
+photo.110.commitdate: 2024/12/25
+photo.110.link: ig://Cgy-7tdhHT7
+photo.110.tags: apple time, ice treat, keeper, peek, portrait, sample
+photo.111: cwdc://YJjlYfbADQS.jpg
+photo.111.author: makimaru18
+photo.111.commitdate: 2024/12/25
+photo.111.link: ig://Cgy-7tdhHT8
+photo.111.tags: door, mofumofu, peek, portrait
+photo.112: cwdc://YMdBPFFADQT.jpg
+photo.112.author: makimaru18
+photo.112.commitdate: 2024/12/25
+photo.112.link: ig://CiPs3AShi_b
+photo.112.tags: lips, mofumofu, portrait, sample
+photo.113: cwdc://YNLIULfADQF.jpg
+photo.113.author: chankunvv
+photo.113.commitdate: 2024/12/25
+photo.113.link: ig://CimwZjfuEVP
+photo.113.tags: door, paws, peek, portrait
+photo.114: cwdc://YVl7KpzADQI.jpg
+photo.114.author: hamiiiii831_
+photo.114.commitdate: 2024/12/25
+photo.114.link: ig://Cm0J0ypvOg8
+photo.114.tags: apple time, paws, peek, sample, tongue
+photo.115: cwdc://YZpaHm0ADQJ.jpg
+photo.115.author: hamiiiii831_
+photo.115.commitdate: 2024/12/25
+photo.115.link: ig://Co15TRKPsgU
+photo.115.tags: apple time, mofumofu, paws, sample
+photo.116: cwdc://YZpaHm0ADQK.jpg
+photo.116.author: hamiiiii831_
+photo.116.commitdate: 2024/12/25
+photo.116.link: ig://Co15TRKPsgV
+photo.116.tags: laying down, mofumofu, sample, tail
+photo.117: cwdc://YZpaHm0ADQL.jpg
+photo.117.author: hamiiiii831_
+photo.117.commitdate: 2024/12/25
+photo.117.link: ig://Co15TRKPsgW
+photo.117.tags: laying down, paws, sample, sleeping, tail
+photo.118: cwdc://YaEJd0wADQN.jpg
+photo.118.author: fetorus_mami
+photo.118.commitdate: 2024/12/25
+photo.118.link: ig://CpDQ-YIPt0l
+photo.118.tags: door, mofumofu, paws
+photo.119: cwdc://YaEJd0wADQO.jpg
+photo.119.author: fetorus_mami
+photo.119.commitdate: 2024/12/25
+photo.119.link: ig://CpDQ-YIPt0m
+photo.119.tags: door, mofumofu, paws
+photo.120: cwdc://YaEJd0wADQP.jpg
+photo.120.author: fetorus_mami
+photo.120.commitdate: 2024/12/25
+photo.120.link: ig://CpDQ-YIPt0n
+photo.120.tags: itchy, paws, sample, tail
+photo.121: cwdc://YaEJd0wADQQ.jpg
+photo.121.author: fetorus_mami
+photo.121.commitdate: 2024/12/25
+photo.121.link: ig://CpDQ-YIPt0o
+photo.121.tags: apple time, bite
+photo.122: cwdc://YaEJd0wADQR.jpg
+photo.122.author: fetorus_mami
+photo.122.commitdate: 2024/12/25
+photo.122.link: ig://CpDQ-YIPt0p
+photo.122.tags: apple time, paws, tongue
+photo.123: cwdc://YaEJd0wADQS.jpg
+photo.123.author: fetorus_mami
+photo.123.commitdate: 2024/12/25
+photo.123.link: ig://CpDQ-YIPt0q
+photo.123.tags: itchy, paws, tail
+photo.124: cwdc://YaN1FiEADQU.jpg
+photo.124.author: makimaru18
+photo.124.commitdate: 2024/12/25
+photo.124.link: ig://CpIGyOyPafz
+photo.124.tags: paws, peek, portrait
+photo.125: cwdc://Yc0DqXfADQQ.jpg
+photo.125.author: nakacchi_desu
+photo.125.commitdate: 2024/12/25
+photo.125.link: ig://CqbOEpfhwf7
+photo.125.tags: apple time, cherry blossoms, distance, tongue
+photo.126: cwdc://Yc0DqXfADQR.jpg
+photo.126.author: nakacchi_desu
+photo.126.commitdate: 2024/12/25
+photo.126.link: ig://CqbOEpfhwf8
+photo.126.tags: apple time, mofumofu, smile, tongue
+photo.127: cwdc://Yd81LZ5ADQM.jpg
+photo.127.author: hamiiiii831_
+photo.127.commitdate: 2024/12/25
+photo.127.link: ig://Cq_m1Ksh7S1
+photo.127.tags: mofumofu, paws, sample, smile
+photo.128: cwdc://Yd81LZ5ADQN.jpg
+photo.128.author: hamiiiii831_
+photo.128.commitdate: 2024/12/25
+photo.128.link: ig://Cq_m1Ksh7S2
+photo.128.tags: mofumofu, paws, peek, sample, tongue
+photo.129: cwdc://Yd81LZ5ADQO.jpg
+photo.129.author: hamiiiii831_
+photo.129.commitdate: 2024/12/25
+photo.129.link: ig://Cq_m1Ksh7S3
+photo.129.tags: mofumofu, sample
+photo.130: cwdc://Yd81LZ5ADQP.jpg
+photo.130.author: hamiiiii831_
+photo.130.commitdate: 2024/12/25
+photo.130.link: ig://Cq_m1Ksh7S4
+photo.130.tags: mofumofu, paws, sample, tongue, whiskers
+photo.131: cwdc://Yd81LZ5ADQQ.jpg
+photo.131.author: hamiiiii831_
+photo.131.commitdate: 2024/12/25
+photo.131.link: ig://Cq_m1Ksh7S5
+photo.131.tags: distance, door, paws, sample
+photo.132: cwdc://Yd81LZ5ADQR.jpg
+photo.132.author: hamiiiii831_
+photo.132.commitdate: 2024/12/25
+photo.132.link: ig://Cq_m1Ksh7S6
+photo.132.tags: lips, mofumofu, paws, sample, whiskers
+photo.133: cwdc://Yd81LZ5ADQS.jpg
+photo.133.author: hamiiiii831_
+photo.133.commitdate: 2024/12/25
+photo.133.link: ig://Cq_m1Ksh7S7
+photo.133.tags: mofumofu, sample, tongue
+photo.134: cwdc://Yd81LZ5ADQT.jpg
+photo.134.author: hamiiiii831_
+photo.134.commitdate: 2024/12/25
+photo.134.link: ig://Cq_m1Ksh7S8
+photo.134.tags: bridge, laying down, mofumofu
+photo.135: cwdc://Yd81LZ5ADQV.jpg
+photo.135.author: hamiiiii831_
+photo.135.commitdate: 2024/12/25
+photo.135.link: ig://Cq_m1Ksh7Sz
+photo.135.tags: mofumofu, paws, sample, smile
+photo.136: cwdc://YdkbHFIADQI.jpg
+photo.136.author: sakikukeco
+photo.136.commitdate: 2024/12/25
+photo.136.link: ig://CqzZzAUPg-u
+photo.136.tags: mofumofu, portrait, sample
+photo.137: cwdc://YdkbHFIADQJ.jpg
+photo.137.author: sakikukeco
+photo.137.commitdate: 2024/12/25
+photo.137.link: ig://CqzZzAUPg-v
+photo.137.tags: apple time, mofumofu, portrait, sample, tail
+photo.138: cwdc://YhIEAnqADQW.jpg
+photo.138.author: makimaru18
+photo.138.commitdate: 2024/12/25
+photo.138.link: ig://CslOPxlPaqd
+photo.138.tags: apple time, keeper, paws, portrait, sample
+photo.139: cwdc://YhIEAnqADQX.jpg
+photo.139.author: makimaru18
+photo.139.commitdate: 2024/12/25
+photo.139.link: ig://CslOPxlPaqe
+photo.139.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.140: cwdc://YhIEAnqADQY.jpg
+photo.140.author: makimaru18
+photo.140.commitdate: 2024/12/25
+photo.140.link: ig://CslOPxlPaqh
+photo.140.tags: laying down, portrait
+photo.141: cwdc://YmxQV4MADQe.jpg
+photo.141.author: makimaru18
+photo.141.commitdate: 2024/12/25
+photo.141.link: ig://CvZ0aZ2PG1S
+photo.141.tags: lunch time, mofumofu, portrait, smile
+photo.142: cwdc://YmxQV4MADQf.jpg
+photo.142.author: makimaru18
+photo.142.commitdate: 2024/12/25
+photo.142.link: ig://CvZ0aZ2PG1U
+photo.142.tags: keeper, paws, portrait, sample, tail
+photo.143: cwdc://YmxQV4MADQg.jpg
+photo.143.author: makimaru18
+photo.143.commitdate: 2024/12/25
+photo.143.link: ig://CvZ0aZ2PG1W
+photo.143.tags: apple time, peek, portrait, tail
+photo.144: cwdc://YmxQV4MADQh.jpg
+photo.144.author: makimaru18
+photo.144.commitdate: 2024/12/25
+photo.144.link: ig://CvZ0aZ2PG1Y
+photo.144.tags: apple time, keeper, paws, portrait, sample
+photo.145: cwdc://YmxQV4MADQi.jpg
+photo.145.author: makimaru18
+photo.145.commitdate: 2024/12/25
+photo.145.link: ig://CvZ0aZ2PG1Z
+photo.145.tags: mofumofu, portrait, sample
+photo.146: cwdc://Ymxe4IpADQX.jpg
+photo.146.author: hamiiiii831_
+photo.146.commitdate: 2024/12/25
+photo.146.link: ig://CvZ7riEvzVA
+photo.146.tags: mofumofu, sample
+photo.147: cwdc://Ymxe4IpADQY.jpg
+photo.147.author: hamiiiii831_
+photo.147.commitdate: 2024/12/25
+photo.147.link: ig://CvZ7riEvzVB
+photo.147.tags: door, laying down, sample
+photo.148: cwdc://Ymxe4IpADQZ.jpg
+photo.148.author: hamiiiii831_
+photo.148.commitdate: 2024/12/25
+photo.148.link: ig://CvZ7riEvzVC
+photo.148.tags: door, mofumofu, paws, sample, smile, tongue, whiskers
+photo.149: cwdc://Ymxe4IpADQa.jpg
+photo.149.author: hamiiiii831_
+photo.149.commitdate: 2024/12/25
+photo.149.link: ig://CvZ7riEvzVD
+photo.149.tags: distance, door, laying down, paws
+photo.150: cwdc://Ymxe4IpADQb.jpg
+photo.150.author: hamiiiii831_
+photo.150.commitdate: 2024/12/25
+photo.150.link: ig://CvZ7riEvzVE
+photo.150.tags: mofumofu, sample, smile, tongue
+photo.151: cwdc://Ymxe4IpADQc.jpg
+photo.151.author: hamiiiii831_
+photo.151.commitdate: 2024/12/25
+photo.151.link: ig://CvZ7riEvzVF
+photo.151.tags: apple time, paws, sample
+photo.152: cwdc://Ymxe4IpADQd.jpg
+photo.152.author: hamiiiii831_
+photo.152.commitdate: 2024/12/25
+photo.152.link: ig://CvZ7riEvzVG
+photo.152.tags: mofumofu, paws, sample, smile, tongue, whiskers
+photo.153: cwdc://Ymxe4IpADQe.jpg
+photo.153.author: hamiiiii831_
+photo.153.commitdate: 2024/12/25
+photo.153.link: ig://CvZ7riEvzVH
+photo.153.tags: mofumofu, sample
+photo.154: cwdc://Ymxe4IpADQf.jpg
+photo.154.author: hamiiiii831_
+photo.154.commitdate: 2024/12/25
+photo.154.link: ig://CvZ7riEvzVI
+photo.154.tags: close-up, mofumofu, sample
+photo.155: cwdc://YuOPNVuADQh.jpg
+photo.155.author: hamiiiii831_
+photo.155.commitdate: 2024/12/25
+photo.155.link: ig://CzIT2InPXtO
+photo.155.tags: mofumofu, paws, sample, smile
+photo.156: cwdc://YuOPNVuADQi.jpg
+photo.156.author: hamiiiii831_
+photo.156.commitdate: 2024/12/25
+photo.156.link: ig://CzIT2InPXtP
+photo.156.tags: distance, door, paws, sample, smile
+photo.157: cwdc://YuOPNVuADQj.jpg
+photo.157.author: hamiiiii831_
+photo.157.commitdate: 2024/12/25
+photo.157.link: ig://CzIT2InPXtQ
+photo.157.tags: lips, mofumofu, sample, smile
+photo.158: cwdc://Yybp3IUADQE.jpg
+photo.158.author: chankunvv
+photo.158.commitdate: 2024/12/25
+photo.158.link: ig://C1PBLB6PW3P
+photo.158.tags: mofumofu, portrait, sample, smile, techitechi
+photo.159: cwdc://Yylw6iHADQF.jpg
+photo.159.author: makimaru18
+photo.159.commitdate: 2024/12/25
+photo.159.link: ig://C1UEsuzviia
+photo.159.tags: door, mofumofu, paws, portrait, sample
+photo.160: cwdc://Yylw6iHADQG.jpg
+photo.160.author: makimaru18
+photo.160.commitdate: 2024/12/25
+photo.160.link: ig://C1UEsuzviib
+photo.160.tags: mofumofu, portrait, sample, smile, whiskers
+photo.161: cwdc://Yylw6iHADQH.jpg
+photo.161.author: makimaru18
+photo.161.commitdate: 2024/12/25
+photo.161.link: ig://C1UEsuzviiZ
+photo.161.tags: apple time, bite, keeper, portrait, sample, whiskers
