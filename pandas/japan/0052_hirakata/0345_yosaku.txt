@@ -35,11 +35,11 @@ photo.4.author: yakko____
 photo.4.commitdate: 2019/4/17
 photo.4.link: ig://BwS0Fg-FOTW
 photo.4.tags: mofumofu, portrait, sample, techitechi
-photo.5: ig://BxKadlsli9u/m
+photo.5: cwdc://WqSccP5ADQA.jpg
 photo.5.author: perie1027vivi
 photo.5.commitdate: 2019/5/9
-photo.5.link: https://www.instagram.com/perie1027vivi/
-photo.5.tags: mofumofu, techitechi
+photo.5.link: ig://BxKadlsli9u
+photo.5.tags: mofumofu, portrait, sample, techitechi
 photo.6: cwdc://WvtvE44ADQB.jpg
 photo.6.author: grskus_tk
 photo.6.commitdate: 2019/7/15
@@ -270,11 +270,11 @@ photo.51.author: fetorus_mami
 photo.51.commitdate: 2020/11/8
 photo.51.link: ig://CGXWUb6BAvD
 photo.51.tags: bamboo, bite, portrait, tongue
-photo.52: ig://CHr0lAVBPsC/m
+photo.52: cwdc://XXVQrFKADQA.jpg
 photo.52.author: kipekaila
 photo.52.commitdate: 2020/12/9
-photo.52.link: https://www.instagram.com/kipekaila/
-photo.52.tags: paws, peek, portrait
+photo.52.link: ig://CHr0lAVBPsC
+photo.52.tags: paws, peek, portrait, sample
 photo.53: cwdc://XYd444sADQM.jpg
 photo.53.author: ssc6105
 photo.53.commitdate: 2020/12/9
@@ -380,10 +380,10 @@ photo.73.author: jas_forever_love
 photo.73.commitdate: 2021/12/20
 photo.73.link: https://www.instagram.com/p/CXgDjvjBkQu
 photo.73.tags: peek, portrait, profile, sample, tree
-photo.74: ig://CXnrRftvuSC/m
+photo.74: cwdc://X3M-ED7ADQG.jpg
 photo.74.author: imagoto17
 photo.74.commitdate: 2021/12/19
-photo.74.link: https://www.instagram.com/imagoto17/
+photo.74.link: ig://CXnrRftvuSC
 photo.74.tags: paws, portrait, sample, smile
 photo.75: cwdc://X3P1-qEADQS.jpg
 photo.75.author: ssc6105

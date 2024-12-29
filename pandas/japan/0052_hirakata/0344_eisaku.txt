@@ -384,11 +384,11 @@ photo.74.author: kipekaila
 photo.74.commitdate: 2020/12/9
 photo.74.link: ig://CHoFPLZBsou
 photo.74.tags: laying down, sample, tail
-photo.75: ig://CHshsaIBn0N/m
+photo.75: cwdc://XXWq54wADQA.jpg
 photo.75.author: panda.daisuki
 photo.75.commitdate: 2020/12/9
-photo.75.link: https://www.instagram.com/panda.daisuki/
-photo.75.tags: close-up, portrait, whiskers
+photo.75.link: ig://CHshsaIBn0N
+photo.75.tags: close-up, portrait, sample, whiskers, window
 photo.76: cwdc://XXYbTiVADQB.jpg
 photo.76.author: kipekaila
 photo.76.commitdate: 2020/12/9
@@ -474,11 +474,11 @@ photo.92.author: jas_forever_love
 photo.92.commitdate: 2021/12/20
 photo.92.link: https://www.instagram.com/p/CXlLb4mP2t_
 photo.92.tags: portrait, profile, sample, tree
-photo.93: ig://CXoFwpgB0xx/m
+photo.93: cwdc://X3NzCXgADQA.jpg
 photo.93.author: nakacchi_desu
 photo.93.commitdate: 2022/2/18
-photo.93.link: https://www.instagram.com/nakacchi_desu/
-photo.93.tags: paws, whiskers
+photo.93.link: ig://CXoFwpgB0xx
+photo.93.tags: paws, sample, whiskers
 photo.94: cwdc://X3mpXsjADRn.jpg
 photo.94.author: hamiiiii831_
 photo.94.commitdate: 2022/1/8
@@ -494,11 +494,11 @@ photo.96.author: sakikukeco
 photo.96.commitdate: 2022/1/14
 photo.96.link: ig://CYLMF2Iv4Mt
 photo.96.tags: apple time, keeper, nose, paws, portrait, sample, whiskers
-photo.97: ig://CYSQjr0p8pd/m
+photo.97: cwdc://X4iIocJADQD.jpg
 photo.97.author: tomo3700
 photo.97.commitdate: 2022/1/10
-photo.97.link: https://www.instagram.com/tomo3700/
-photo.97.tags: paws, peek, portrait, sample, whiskers
+photo.97.link: ig://CYSQjr0p8pd
+photo.97.tags: paws, peek, portrait, sample, snow, whiskers
 photo.98: cwdc://X5Cy65fADQT.jpg
 photo.98.author: makimaru18
 photo.98.commitdate: 2022/1/30
@@ -584,16 +584,16 @@ photo.114.author: jas_forever_love
 photo.114.commitdate: 2022/8/28
 photo.114.link: ig://ChuKQi4vzED
 photo.114.tags: sample, smile, tongue, whiskers
-photo.115: ig://CiPs3AShi_T/m
+photo.115: cwdc://YMdBPFFADQA.jpg
 photo.115.author: makimaru18
 photo.115.commitdate: 2022/9/11
-photo.115.link: https://www.instagram.com/makimaru18/
+photo.115.link: ig://CiPs3AShi_T
 photo.115.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.116: ig://CimwZjfuEVL/m
+photo.116: cwdc://YNLIULfADQA.jpg
 photo.116.author: chankunvv
 photo.116.commitdate: 2022/10/7
-photo.116.link: https://www.instagram.com/chankunvv/
-photo.116.tags: portrait, sample, whiskers
+photo.116.link: ig://CimwZjfuEVL
+photo.116.tags: close-up, portrait, sample, whiskers
 photo.117: cwdc://YRk5VD2ADQA.jpg
 photo.117.author: hidehaya_biei
 photo.117.commitdate: 2023/1/27
@@ -1693,3 +1693,13 @@ photo.335.author: panda.daisuki
 photo.335.commitdate: 2024/12/28
 photo.335.link: ig://CVLBKZUh0Cbb
 photo.335.tags: paws, portrait, sample, smile, whiskers
+photo.336: cwdc://WqSccP5ADQB.jpg
+photo.336.author: perie1027vivi
+photo.336.commitdate: 2024/12/28
+photo.336.link: ig://BxKadlsli9v
+photo.336.tags: mofumofu, paws, portrait, sample
+photo.337: cwdc://YMdBPFFADQB.jpg
+photo.337.author: makimaru18
+photo.337.commitdate: 2024/12/28
+photo.337.link: ig://CiPs3AShi_V
+photo.337.tags: paws, peek, portrait, sample, whiskers
