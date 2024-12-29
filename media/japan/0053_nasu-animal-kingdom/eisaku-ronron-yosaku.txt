@@ -7,6 +7,9 @@ photo.1.author: re_ichimaru
 photo.1.commitdate: 2024/12/28
 photo.1.link: ig://Bxa7oDeFvc
 photo.1.tags: bridge, family
+photo.1.tags.190.location: 130, 270
+photo.1.tags.344.location: 625, 240
+photo.1.tags.345.location: 325, 325
 photo.2: cwdc://WwQCE6TADQA.jpg
 photo.2.author: panda.daisuki
 photo.2.commitdate: 2019/7/22
@@ -28,6 +31,9 @@ photo.4.author: rie_panda55
 photo.4.commitdate: 2024/12/28
 photo.4.link: ig://B1kNWa9hp6g
 photo.4.tags: brothers, family, siblings, twins
+photo.4.tags.190.location: 345, 270
+photo.4.tags.344.location: 435, 320
+photo.4.tags.345.location: 155, 255
 photo.5: cwdc://W3Moi4DADQB.jpg
 photo.5.author: panda.daisuki
 photo.5.commitdate: 2019/10/20
