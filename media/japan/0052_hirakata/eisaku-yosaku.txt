@@ -2,11 +2,11 @@
 _id: media.52.eisaku-yosaku
 commitdate: 2021/11/11
 panda.tags: 344, 345
-photo.1: ig://CWEC92iBe-f/l
+photo.1: cwdc://X0FtcxkADQA.jpg
 photo.1.author: hamiiiii831_
 photo.1.commitdate: 2021/11/11
-photo.1.link: https://www.instagram.com/hamiiiii831_/
-photo.1.tags: brothers, close-up, nose, siblings, twins, window
+photo.1.link: ig://CWEC92iBe-f
+photo.1.tags: brothers, close-up, nose, portrait, siblings, twins, window
 photo.1.tags.344.location: 380, 280
 photo.1.tags.345.location: 140, 270
 photo.2: ig://CYEHmjSPlRA/l
@@ -16,17 +16,17 @@ photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.2.tags: bamboo, brothers, siblings, twins
 photo.2.tags.344.location: 115, 240
 photo.2.tags.345.location: 360, 305
-photo.3: ig://CZMbYVWvhCt/l
+photo.3: cwdc://X6WeRvNADQA.jpg
 photo.3.author: apple_jasmine33
 photo.3.commitdate: 2022/4/10
-photo.3.link: https://www.instagram.com/apple_jasmine33/
+photo.3.link: ig://CZMbYVWvhCt
 photo.3.tags: brothers, peek, siblings, tail, tree, twins
 photo.3.tags.344.location: 85, 185
 photo.3.tags.345.location: 375, 90
-photo.4: ig://CZlzMCzPtDl/l
+photo.4: cwdc://X7JN5KGADQA.jpg
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2022/4/8
-photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.link: ig://CZlzMCzPtDl
 photo.4.tags: bamboo, brothers, siblings, standing, tongue, twins
 photo.4.tags.344.location: 320, 90
 photo.4.tags.345.location: 120, 370
@@ -37,17 +37,37 @@ photo.5.link: https://www.instagram.com/hirakatapark/
 photo.5.tags: brothers, cherry blossoms, paws, portrait, sample, whiskers
 photo.5.tags.344.location: 480, 265
 photo.5.tags.345.location: 295, 335
-photo.6: ig://ChPC_kIhsEn/l
+photo.6: cwdc://YKbtgMxADQA.jpg
 photo.6.author: nakacchi_desu
 photo.6.commitdate: 2023/4/14
-photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.link: ig://ChPC_kIhsEn
 photo.6.tags: apple time, brothers, keeper, sample, siblings, twins, whiskers
 photo.6.tags.344.location: 170, 320
 photo.6.tags.345.location: 320, 100
-photo.7: ig://CmrPO0kPx_X/l
+photo.7: cwdc://YVUF-toADQE.jpg
 photo.7.author: nakacchi_desu
 photo.7.commitdate: 2023/3/9
-photo.7.link: https://www.instagram.com/nakacchi_desu/
+photo.7.link: ig://CmrPO0kPx_X
 photo.7.tags: apple time, brothers, siblings, tongue, twins, whiskers
 photo.7.tags.344.location: 385, 200
 photo.7.tags.345.location: 175, 170
+photo.8: cwdc://X3NzCXgADQK.jpg
+photo.8.author: nakacchi_desu
+photo.8.commitdate: 2024/12/28
+photo.8.link: ig://CXoFwpgB0x7
+photo.8.tags: brothers, door, sample, siblings, tail, twins
+photo.9: cwdc://X4F2uLEADQD.jpg
+photo.9.author: redpanda_nippon_takashi
+photo.9.commitdate: 2024/12/28
+photo.9.link: ig://CYEHmjSPlRF
+photo.9.tags: brothers, door, siblings, tail, twins, window
+photo.10: cwdc://X6WeRvNADQF.jpg
+photo.10.author: apple_jasmine33
+photo.10.commitdate: 2024/12/28
+photo.10.link: ig://CZMbYVWvhCu
+photo.10.tags: brothers, door, peek, siblings, tail, twins
+photo.11: cwdc://YKbtgMxADQB.jpg
+photo.11.author: nakacchi_desu
+photo.11.commitdate: 2024/12/28
+photo.11.link: ig://ChPC_kIhsEo
+photo.11.tags: apple time, bite, brothers, keeper, siblings, twins
