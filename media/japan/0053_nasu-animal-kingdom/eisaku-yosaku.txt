@@ -100,11 +100,11 @@ photo.14.link: ig://B2GgG15Bffs
 photo.14.tags: brothers, laying down, sample, smile, twins
 photo.14.tags.344.location: 195, 225
 photo.14.tags.345.location: 110, 105
-photo.15: ig://B2kGFxxBMpU/m
+photo.15: cwdc://W1FzsoCADQE.jpg
 photo.15.author: hamiiiii831_
 photo.15.commitdate: 2019/9/21
-photo.15.link: https://www.instagram.com/hamiiiii831_/
-photo.15.tags: apple time, brothers, smile, twins
+photo.15.link: ig://B2kGFxxBMpU
+photo.15.tags: apple time, brothers, portrait, sample, siblings, smile, twins
 photo.15.tags.344.location: 235, 130
 photo.15.tags.345.location: 85, 155
 photo.16: cwdc://W2bC8mKADQH.jpg
@@ -329,38 +329,59 @@ photo.47.author: hamiiiii831_
 photo.47.commitdate: 2024/12/28
 photo.47.link: ig://B2kGFxxBMpX
 photo.47.tags: brothers, portrait, sample, siblings, twins
+photo.47.tags.344.location: 200, 455
+photo.47.tags.345.location: 600, 300
 photo.48: cwdc://W30YBnaADQA.jpg
 photo.48.author: fetorus_mami
 photo.48.commitdate: 2024/12/28
 photo.48.link: ig://B37YQRdB4B-
 photo.48.tags: apple time, paws, portrait, siblings, techitechi, twins
+photo.48.tags.344.location: 570, 300
+photo.48.tags.345.location: 260, 330
 photo.49: cwdc://W30YBnaADQB.jpg
 photo.49.author: fetorus_mami
 photo.49.commitdate: 2024/12/28
 photo.49.link: ig://B37YQRdB4B_
 photo.49.tags: apple time, brothers, paws, portrait, siblings, twins
+photo.49.tags.344.location: 570, 360
+photo.49.tags.345.location: 320, 330
 photo.50: cwdc://W30YBnaADQC.jpg
 photo.50.author: fetorus_mami
 photo.50.commitdate: 2024/12/28
 photo.50.link: ig://B37YQRdB4CC
 photo.50.tags: apple time, brothers, paws, portrait, siblings, twins
+photo.50.tags.344.location: 700, 255
+photo.50.tags.345.location: 385, 250
 photo.51: cwdc://W_ayc2zADQA.jpg
 photo.51.author: hamiiiii831_
 photo.51.commitdate: 2024/12/28
 photo.51.link: ig://B7uld5Jhuab
 photo.51.tags: laying down, paws, portrait, sample, siblings, twins
+photo.51.tags.344.location: 580, 325
+photo.51.tags.345.location: 190, 320
 photo.52: cwdc://W_ayc2zADQB.jpg
 photo.52.author: hamiiiii831_
 photo.52.commitdate: 2024/12/28
 photo.52.link: ig://B7uld5Jhuad
 photo.52.tags: brothers, paws, portrait, siblings, twins, whiskers
+photo.52.tags.344.location: 585, 330
+photo.52.tags.345.location: 200, 225
 photo.53: cwdc://W_ayc2zADQC.jpg
 photo.53.author: hamiiiii831_
 photo.53.commitdate: 2024/12/28
 photo.53.link: ig://B7uld5Jhuae
 photo.53.tags: brothers, paws, portrait, siblings, tongue, twins
+photo.53.tags.344.location: 560, 470
+photo.53.tags.345.location: 220, 360
 photo.54: cwdc://XUw-P30ADQB.jpg
 photo.54.author: fetorus_mami
 photo.54.commitdate: 2024/12/28
 photo.54.link: ig://CGZrXZqBF2t
 photo.54.tags: baby, brothers, mofumofu, siblings, tail, twins
+photo.54.tags.344.location: 500, 100
+photo.54.tags.345.location: 250, 250
+photo.55: cwdc://W1FzsoCADQF.jpg
+photo.55.author: hamiiiii831_
+photo.55.commitdate: 2024/12/28
+photo.55.link: ig://B2kGFxxBMpW
+photo.55.tags: brothers, portrait, siblings, smile, twins
