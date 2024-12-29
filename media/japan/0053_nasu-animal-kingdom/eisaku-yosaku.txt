@@ -132,6 +132,7 @@ photo.19: cwdc://W93_AD-ADQF.jpg
 photo.19.author: sasapan34
 photo.19.commitdate: 2020/1/12
 photo.19.link: ig://B69LvfvBPHK
+photo.19.tags: brothers, laying down, siblings, twins
 photo.19.tags.344.location: 600, 450
 photo.19.tags.345.location: 270, 225
 photo.20: cwdc://W-gw6gNADQD.jpg
@@ -279,34 +280,47 @@ photo.40.author: sasapan34
 photo.40.commitdate: 2024/12/28
 photo.40.link: ig://B7Rkst2hFSf
 photo.40.tags: brothers, dish, lunch time, sample
+photo.40.tags.344.location: 225, 185
+photo.40.tags.345.location: 520, 210
 photo.41: cwdc://W1BIO3mADQG.jpg
 photo.41.author: panda.daisuki
 photo.41.commitdate: 2024/12/28
 photo.41.link: ig://B2hwW5jBPD1
 photo.41.tags: brothers, laying down, playing, siblings, twins
-photo.19.tags: brothers, laying down, siblings, twins
+photo.41.tags.344.location: 610, 340
+photo.41.tags.345.location: 380, 490
 photo.42: cwdc://Wylod3KADQB.jpg
 photo.42.author: sasapan34
 photo.42.commitdate: 2024/12/28
 photo.42.link: ig://B1UAeZVBUGk
 photo.42.tags: apple time, brothers, paws, siblings, tongue, twins
+photo.42.tags.344.location: 360, 230
+photo.42.tags.345.location: 215, 190
 photo.43: cwdc://WysOAwUADQC.jpg
 photo.43.author: rie_panda55
 photo.43.commitdate: 2024/12/28
 photo.43.link: ig://B1XTP16BvUq
 photo.43.tags: paws, portrait, sample, siblings, smile, twins, wave
+photo.43.tags.344.location: 470, 315
+photo.43.tags.345.location: 170, 245
 photo.44: cwdc://WyxLmlrADQD.jpg
 photo.44.author: rie_panda55
 photo.44.commitdate: 2024/12/28
 photo.44.link: ig://B1ZyCwlhgm_
 photo.44.tags: apple time, brothers, portrait, siblings, twins
+photo.44.tags.344.location: 540, 260
+photo.44.tags.345.location: 160, 180
 photo.45: cwdc://WzGCN6bADQB.jpg
 photo.45.author: rie_panda55
 photo.45.commitdate: 2024/12/28
 photo.45.link: ig://B1kNWa9hp6b
 photo.45.tags: brothers, laying down, siblings, smile, tail, twins
+photo.45.tags.344.location: 550, 290
+photo.45.tags.345.location: 280, 310
 photo.46: cwdc://Xkdij_NADQF.jpg
 photo.46.author: rie_panda55
 photo.46.commitdate: 2024/12/28
 photo.46.link: ig://COP9hdWhMK2
 photo.46.tags: baby, door, portrait, siblings, twins
+photo.46.tags.344.location: 450, 375
+photo.46.tags.345.location: 185, 380
