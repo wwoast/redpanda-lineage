@@ -27,9 +27,9 @@ photo.2.commitdate: 2019/11/27
 photo.2.link: ig://B42tRS7AeuK
 photo.2.tags: close-up, portrait, sample, whiskers
 photo.3: cwdc://X3OyeO7ADQC.jpg
-photo.3.author: capemaycountyzoo
+photo.3.author: aimless_amos
 photo.3.commitdate: 2021/12/22
-photo.3.link: ig://CXolelNrvEE
+photo.3.link: ig://capemaycountyzoo/CXolelNrvEE
 photo.3.tags: christmas, paws, portrait, sample, smile, whiskers
 photo.4: cwdc://X3SkD6OADQA.jpg
 photo.4.author: rossifari
@@ -44,7 +44,7 @@ photo.5.tags: bamboo, paws, smile
 photo.6: cwdc://X5KUFzxADQA.jpg
 photo.6.author: aimless_amos
 photo.6.commitdate: 2022/1/23
-photo.6.link: ig://CYmWSXovqPi
+photo.6.link: ig://carsontheredpanda/CYmWSXovqPi
 photo.6.tags: portrait, sample, snow, tongue, toys, whiskers
 photo.7: https://www.codaworry.com/images/rpf/david-bowie-1-capemay.jpg
 photo.7.author: aimless_amos
@@ -84,33 +84,33 @@ photo.13.tags: paws, portrait, sample, standing
 photo.14: cwdc://YG1rAzVADQA.jpg
 photo.14.author: aimless_amos
 photo.14.commitdate: 2022/7/9
-photo.14.link: ig://CfcBv3apX9H
+photo.14.link: ig://carsontheredpanda/CfcBv3apX9H
 photo.14.tags: birthday, paws, portrait, sample, standing, whiskers
 photo.15: cwdc://YJPbSeqADQA.jpg
-photo.15.author: capemaycountyzoo
+photo.15.author: aimless_amos
 photo.15.commitdate: 2022/8/5
-photo.15.link: ig://Cgo54tFA8Zj
+photo.15.link: ig://capemaycountyzoo/Cgo54tFA8Zj
 photo.15.tags: ice treat, portrait, sample
 photo.16: cwdc://YK73cdfADQA.jpg
 photo.16.author: aimless_amos
 photo.16.commitdate: 2022/8/26
-photo.16.link: ig://ChfH9sfrNoh
+photo.16.link: ig://carsontheredpanda/ChfH9sfrNoh
 photo.16.tags: close-up, laying down, portrait, sample, whiskers
 photo.17: cwdc://YWR5iFqADQB.jpg
 photo.17.author: aimless_amos
 photo.17.commitdate: 2023/3/23
-photo.17.link: ig://CnKJAglLcrK
+photo.17.link: ig://capemaycountyzoo/CnKJAglLcrK
 photo.17.tags: keeper, portrait, sample, standing, tail, whiskers
 photo.18: cwdc://Yfs3dIGADQA.jpg
 photo.18.author: aimless_amos
 photo.18.commitdate: 2023/11/18
-photo.18.link: ig://Cr3n-BzJ34t
+photo.18.link: ig://carsontheredpanda/Cr3n-BzJ34t
 photo.18.tags: portrait, sample, tongue, toys
-photo.19: ig://CvK7PJhvzPR/m
+photo.19: cwdc://YmTd_XjADQA.jpg
 photo.19.author: aimless_amos
 photo.19.commitdate: 2023/7/31
-photo.19.link: https://www.instagram.com/aimless_amos/
-photo.19.tags: close-up, paws, sample, standing, tail
+photo.19.link: ig://CvK7PJhvzPR
+photo.19.tags: close-up, mofumofu, paws, sample, standing, tail
 photo.20: cwdc://Y8cWdNKADQA.jpg
 photo.20.author: aimless_amos
 photo.20.commitdate: 2024/5/4
@@ -137,35 +137,35 @@ zoo: 186
 photo.24: cwdc://X5KUFzxADQB.jpg
 photo.24.author: aimless_amos
 photo.24.commitdate: 2024/12/30
-photo.24.link: ig://CYmWSXovqPj
+photo.24.link: ig://carsontheredpanda/CYmWSXovqPi?img_index=2
 photo.24.tags: paws, portrait, sample, tail, whiskers
 photo.25: cwdc://YG1rAzVADQB.jpg
 photo.25.author: aimless_amos
 photo.25.commitdate: 2024/12/30
-photo.25.link: ig://CfcBv3apX9I
+photo.25.link: ig://carsontheredpanda/CfcBv3apX9H?img_index=2
 photo.25.tags: birthday, portrait, whiskers
 photo.26: cwdc://YG1rAzVADQC.jpg
 photo.26.author: aimless_amos
 photo.26.commitdate: 2024/12/30
-photo.26.link: ig://CfcBv3apX9J
+photo.26.link: ig://carsontheredpanda/CfcBv3apX9H?img_index=3
 photo.26.tags: bamboo, paws, portrait, sample, shoots, whiskers
 photo.27: cwdc://YG1rAzVADQD.jpg
 photo.27.author: aimless_amos
 photo.27.commitdate: 2024/12/30
-photo.27.link: ig://CfcBv3apX9K
+photo.27.link: ig://carsontheredpanda/CfcBv3apX9H?img_index=4
 photo.27.tags: bamboo, close-up, laying down, paws, portrait, whiskers
 photo.28: cwdc://YK73cdfADQB.jpg
 photo.28.author: aimless_amos
 photo.28.commitdate: 2024/12/30
-photo.28.link: ig://ChfH9sfrNoi
+photo.28.link: ig://carsontheredpanda/ChfH9sfrNoh?img_index=2
 photo.28.tags: close-up, paws, portrait, sample, whiskers
 photo.29: cwdc://YK73cdfADQC.jpg
 photo.29.author: aimless_amos
 photo.29.commitdate: 2024/12/30
-photo.29.link: ig://ChfH9sfrNoj
+photo.29.link: ig://carsontheredpanda/ChfH9sfrNoh?img_index=3
 photo.29.tags: laying down, portrait, sample, tail, whiskers
 photo.30: cwdc://Yfs3dIGADQB.jpg
 photo.30.author: aimless_amos
 photo.30.commitdate: 2024/12/30
-photo.30.link: ig://Cr3n-BzJ34u
+photo.30.link: ig://carsontheredpanda/Cr3n-BzJ34t?img_index=2
 photo.30.tags: paws, portrait, toys
