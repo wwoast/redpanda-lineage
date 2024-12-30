@@ -26,11 +26,11 @@ photo.2.author: ohmygoat1
 photo.2.commitdate: 2019/11/27
 photo.2.link: ig://B42tRS7AeuK
 photo.2.tags: close-up, portrait, sample, whiskers
-photo.3: ig://CXolelNrvEE/m
+photo.3: cwdc://X3OyeO7ADQC.jpg
 photo.3.author: capemaycountyzoo
 photo.3.commitdate: 2021/12/22
-photo.3.link: https://www.instagram.com/capemaycountyzoo/
-photo.3.tags: paws, portrait, smile, whiskers
+photo.3.link: ig://CXolelNrvEE
+photo.3.tags: christmas, paws, portrait, sample, smile, whiskers
 photo.4: cwdc://X3SkD6OADQA.jpg
 photo.4.author: rossifari
 photo.4.commitdate: 2022/1/8
@@ -86,21 +86,21 @@ photo.14.author: aimless_amos
 photo.14.commitdate: 2022/7/9
 photo.14.link: https://www.instagram.com/carsontheredpanda/
 photo.14.tags: birthday, paws, portrait, sample, standing, whiskers
-photo.15: ig://Cgo54tFA8Zj/m
+photo.15: cwdc://YJPbSeqADQA.jpg
 photo.15.author: capemaycountyzoo
 photo.15.commitdate: 2022/8/5
-photo.15.link: https://www.instagram.com/capemaycountyzoo/
+photo.15.link: ig://Cgo54tFA8Zj
 photo.15.tags: ice treat, portrait, sample
 photo.16: ig://ChfH9sfrNoh/m
 photo.16.author: aimless_amos
 photo.16.commitdate: 2022/8/26
 photo.16.link: https://www.instagram.com/carsontheredpanda/
 photo.16.tags: close-up, portrait, sample, whiskers
-photo.17: ig://CnKJAglLcrK/m
+photo.17: cwdc://YWR5iFqADQB.jpg
 photo.17.author: aimless_amos
 photo.17.commitdate: 2023/3/23
-photo.17.link: https://www.instagram.com/capemaycountyzoo/
-photo.17.tags: keeper, portrait, standing, tail, whiskers
+photo.17.link: ig://CnKJAglLcrK
+photo.17.tags: keeper, portrait, sample, standing, tail, whiskers
 photo.18: ig://Cr3n-BzJ34t/m
 photo.18.author: aimless_amos
 photo.18.commitdate: 2023/11/18
@@ -121,9 +121,6 @@ photo.21.author: wumpwoast
 photo.21.commitdate: 2024/5/4
 photo.21.link: ig://CzSMl4APmn7
 photo.21.tags: peek, portrait, sample, whiskers
-species: 1
-studbook.id: 1835
-zoo: 186
 photo.22: cwdc://X3SkD6OADQB.jpg
 photo.22.author: rossifari
 photo.22.commitdate: 2024/12/30
@@ -134,3 +131,6 @@ photo.23.author: rossifari
 photo.23.commitdate: 2024/12/30
 photo.23.link: ig://CfBlFYQOd8O
 photo.23.tags: close-up, sample, whiskers
+species: 1
+studbook.id: 1835
+zoo: 186
