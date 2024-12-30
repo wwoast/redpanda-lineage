@@ -16,16 +16,16 @@ litter: none
 location.1: 144, 2018/6/30
 location.2: 133, 2019/10/16
 location.3: 186, 2021/11/17
-photo.1: ig://BxlAQE6npN5/m
+photo.1: cwdc://WrHoBOVADQA.jpg
 photo.1.author: sunsetzoomhk
 photo.1.commitdate: 2020/5/11
-photo.1.link: https://www.instagram.com/sunsetzoomhk/
-photo.1.tags: smile
-photo.2: ig://B42tRS7AeuK/m
+photo.1.link: ig://BxlAQE6npN5
+photo.1.tags: portrait, smile
+photo.2: cwdc://W5rCDqWADQA.jpg
 photo.2.author: ohmygoat1
 photo.2.commitdate: 2019/11/27
-photo.2.link: https://www.instagram.com/ohmygoat1/
-photo.2.tags: portrait
+photo.2.link: ig://B42tRS7AeuK
+photo.2.tags: close-up, portrait, sample, whiskers
 photo.3: ig://CXolelNrvEE/m
 photo.3.author: capemaycountyzoo
 photo.3.commitdate: 2021/12/22
@@ -36,10 +36,10 @@ photo.4.author: rossifari
 photo.4.commitdate: 2022/1/8
 photo.4.link: https://www.instagram.com/p/CXqeRa3MQ7h
 photo.4.tags: portrait, profile, sample, whiskers
-photo.5: ig://CYEGxkIA5BJ/m
+photo.5: cwdc://X4F1EMwADQC.jpg
 photo.5.author: rossifari
 photo.5.commitdate: 2022/1/31
-photo.5.link: https://www.instagram.com/rossifari/
+photo.5.link: ig://CYEGxkIA5BJ
 photo.5.tags: bamboo, paws, smile
 photo.6: ig://CYmWSXovqPi/m
 photo.6.author: aimless_amos
@@ -124,3 +124,13 @@ photo.21.tags: peek, portrait, sample, whiskers
 species: 1
 studbook.id: 1835
 zoo: 186
+photo.22: cwdc://X3SkD6OADQB.jpg
+photo.22.author: rossifari
+photo.22.commitdate: 2024/12/30
+photo.22.link: ig://CXqeRa3MQ7h
+photo.22.tags: portrait, sample, tree, whiskers
+photo.23: cwdc://YGAxr1AADQA.jpg
+photo.23.author: rossifari
+photo.23.commitdate: 2024/12/30
+photo.23.link: ig://CfBlFYQOd8O
+photo.23.tags: close-up, sample, whiskers
