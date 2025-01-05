@@ -179,3 +179,303 @@ photo.32.tags: peek, portrait, toys
 species: 1
 studbook.id: 1835
 zoo: 186
+photo.33: cwdc://X-Z0fnPADQO.jpg
+photo.33.author: aimless_amos
+photo.33.commitdate: 2025/1/4
+photo.33.link: ig://CbOGfRXuLRx
+photo.33.tags: close-up, portrait, sample, whiskers
+photo.34: cwdc://X-Z0fnPADQP.jpg
+photo.34.author: aimless_amos
+photo.34.commitdate: 2025/1/4
+photo.34.link: ig://CbOGfRXuLRx?img_index=2
+photo.34.tags: portrait, sample, whiskers
+photo.35: cwdc://X-Z0fnPADQQ.jpg
+photo.35.author: aimless_amos
+photo.35.commitdate: 2025/1/4
+photo.35.link: ig://CbOGfRXuLRx?img_index=3
+photo.35.tags: close-up, paws, portrait, sample, wave, whiskers
+photo.36: cwdc://X-Z0fnPADQR.jpg
+photo.36.author: aimless_amos
+photo.36.commitdate: 2025/1/4
+photo.36.link: ig://CbOGfRXuLRx?img_index=4
+photo.36.tags: paws, portrait, standing, wave
+photo.37: cwdc://X3PUNAkADQe.jpg
+photo.37.author: aimless_amos
+photo.37.commitdate: 2025/1/4
+photo.37.link: ig://CXo2V-CFQoL
+photo.37.tags: bridge, mofumofu, portrait, sample, tail
+photo.38: cwdc://X3aPXMlADQZ.jpg
+photo.38.author: aimless_amos
+photo.38.commitdate: 2025/1/4
+photo.38.link: ig://CXuT7ECgXSF
+photo.38.tags: close-up, paws, portrait, sample, standing, whiskers
+photo.39: cwdc://X3aPXMlADQa.jpg
+photo.39.author: aimless_amos
+photo.39.commitdate: 2025/1/4
+photo.39.link: ig://CXuT7ECgXSF?img_index=2
+photo.39.tags: portrait, tree
+photo.40: cwdc://X3aPXMlADQb.jpg
+photo.40.author: aimless_amos
+photo.40.commitdate: 2025/1/4
+photo.40.link: ig://CXuT7ECgXSF?img_index=3
+photo.40.tags: portrait, whiskers
+photo.41: cwdc://X3aPXMlADQc.jpg
+photo.41.author: aimless_amos
+photo.41.commitdate: 2025/1/4
+photo.41.link: ig://CXuT7ECgXSF?img_index=4
+photo.41.tags: paws, portrait, sample, standing, whiskers
+photo.42: cwdc://X3aPXMlADQd.jpg
+photo.42.author: aimless_amos
+photo.42.commitdate: 2025/1/4
+photo.42.link: ig://CXuT7ECgXSF?img_index=5
+photo.42.tags: portrait, sample, tail, whiskers
+photo.43: cwdc://X3y0KThADQY.jpg
+photo.43.author: aimless_amos
+photo.43.commitdate: 2025/1/4
+photo.43.link: ig://CX6mUngrUF_
+photo.43.tags: paws, portrait, sample, standing, tail, whiskers
+photo.44: cwdc://X42jOvbADQX.jpg
+photo.44.author: aimless_amos
+photo.44.commitdate: 2025/1/4
+photo.44.link: ig://CYcd21drErg
+photo.44.tags: home, portrait, sample, snow, tree, whiskers
+photo.45: cwdc://X5GKJ9UADQV.jpg
+photo.45.author: aimless_amos
+photo.45.commitdate: 2025/1/4
+photo.45.link: ig://CYkRUcaAEIY
+photo.45.tags: paws, portrait, sample, tail, whiskers
+photo.46: cwdc://X5GKJ9UADQW.jpg
+photo.46.author: aimless_amos
+photo.46.commitdate: 2025/1/4
+photo.46.link: ig://CYkRUcaAEIZ
+photo.46.tags: portrait, sample, snow, tongue, toys, whiskers
+photo.47: cwdc://X6oEr7SADQT.jpg
+photo.47.author: aimless_amos
+photo.47.commitdate: 2025/1/4
+photo.47.link: ig://CZVOlbZLJnE
+photo.47.tags: door, nose, portrait, sample, snow, whiskers
+photo.48: cwdc://X6oEr7SADQU.jpg
+photo.48.author: aimless_amos
+photo.48.commitdate: 2025/1/4
+photo.48.link: ig://CZVOlbZLJnE?img_index=2
+photo.48.tags: peek, portrait, snow
+photo.49: cwdc://X7taOwYADQS.jpg
+photo.49.author: aimless_amos
+photo.49.commitdate: 2025/1/4
+photo.49.link: ig://CZ35W18O0rb
+photo.49.tags: paws, portrait, sample, toys, whiskers
+photo.50: cwdc://Y12oz2NADQA.jpg
+photo.50.author: aimless_amos
+photo.50.commitdate: 2025/1/4
+photo.50.link: ig://C28gpY2t5Mz
+photo.50.tags: keeper, paws, portrait, scale
+photo.51: cwdc://Y12oz2NADQB.jpg
+photo.51.author: aimless_amos
+photo.51.commitdate: 2025/1/4
+photo.51.link: ig://C28gpY2t5Mz?img_index=2
+photo.51.tags: keeper, paws, portrait, scale, whiskers
+photo.52: cwdc://Y12oz2NADQC.jpg
+photo.52.author: aimless_amos
+photo.52.commitdate: 2025/1/4
+photo.52.link: ig://C28gpY2t5Mz?img_index=3
+photo.52.tags: paws, portrait, scale, tongue, toys
+photo.53: cwdc://YEH5OelADQJ.jpg
+photo.53.author: aimless_amos
+photo.53.commitdate: 2025/1/4
+photo.53.link: ig://CeFI2tCgQMD
+photo.53.tags: paws, portrait, sample, tail, whiskers
+photo.54: cwdc://YEH5OelADQK.jpg
+photo.54.author: aimless_amos
+photo.54.commitdate: 2025/1/4
+photo.54.link: ig://CeFI2tCgQMD?img_index=2
+photo.54.tags: paws, portrait, smile, tail, whiskers
+photo.55: cwdc://YEH5OelADQL.jpg
+photo.55.author: aimless_amos
+photo.55.commitdate: 2025/1/4
+photo.55.link: ig://CeFI2tCgQMD?img_index=3
+photo.55.tags: bamboo, paws, portrait, sample, shoots, whiskers
+photo.56: cwdc://YEH5OelADQM.jpg
+photo.56.author: aimless_amos
+photo.56.commitdate: 2025/1/4
+photo.56.link: ig://CeFI2tCgQMD?img_index=4
+photo.56.tags: bamboo, paws, portrait, sample, shoots, whiskers
+photo.57: cwdc://YEH5OelADQN.jpg
+photo.57.author: aimless_amos
+photo.57.commitdate: 2025/1/4
+photo.57.link: ig://CeFI2tCgQMD?img_index=5
+photo.57.tags: bamboo, bite, portrait, shoots
+photo.58: cwdc://YEH5OelADQO.jpg
+photo.58.author: aimless_amos
+photo.58.commitdate: 2025/1/4
+photo.58.link: ig://CeFI2tCgQMD?img_index=7
+photo.58.tags: laying down, portrait, sample, tail, whiskers
+photo.59: cwdc://YFU1lSXADQN.jpg
+photo.59.author: aimless_amos
+photo.59.commitdate: 2025/1/4
+photo.59.link: ig://CernCG7gpLj
+photo.59.tags: bamboo, close-up, laying down, portrait, sample, tail
+photo.60: cwdc://YG2WLAWADQP.jpg
+photo.60.author: aimless_amos
+photo.60.commitdate: 2025/1/4
+photo.60.link: ig://CfcXU97OJTq
+photo.60.tags: birthday, paws, portrait, sample, standing, whiskers
+photo.61: cwdc://YG2WLAWADQQ.jpg
+photo.61.author: aimless_amos
+photo.61.commitdate: 2025/1/4
+photo.61.link: ig://CfcXU97OJTr
+photo.61.tags: birthday, portrait, whiskers
+photo.62: cwdc://YG2WLAWADQR.jpg
+photo.62.author: aimless_amos
+photo.62.commitdate: 2025/1/4
+photo.62.link: ig://CfcXU97OJTs
+photo.62.tags: close-up, nose, portrait, sample, whiskers
+photo.63: cwdc://YK4QAJVADQJ.jpg
+photo.63.author: aimless_amos
+photo.63.commitdate: 2025/1/4
+photo.63.link: ig://ChdUPiagOMG
+photo.63.tags: laying down, portrait, sample, whiskers
+photo.64: cwdc://YK4QAJVADQK.jpg
+photo.64.author: aimless_amos
+photo.64.commitdate: 2025/1/4
+photo.64.link: ig://ChdUPiagOMH
+photo.64.tags: close-up, laying down, portrait, sample, whiskers
+photo.65: cwdc://YK4QAJVADQL.jpg
+photo.65.author: aimless_amos
+photo.65.commitdate: 2025/1/4
+photo.65.link: ig://ChdUPiagOMH?img_index=2
+photo.65.tags: laying down, portrait, sample, tail, whiskers
+photo.66: cwdc://YK4QAJVADQM.jpg
+photo.66.author: aimless_amos
+photo.66.commitdate: 2025/1/4
+photo.66.link: ig://ChdUPiagOMH?img_index=3
+photo.66.tags: close-up, paws, portrait, sample, whiskers
+photo.67: cwdc://YQ0wYv1ADQD.jpg
+photo.67.author: aimless_amos
+photo.67.commitdate: 2025/1/4
+photo.67.link: ig://Ckbkb1qyHnO
+photo.67.tags: portrait, toys, whiskers
+photo.68: cwdc://YWJM5hPADQS.jpg
+photo.68.author: aimless_amos
+photo.68.commitdate: 2025/1/4
+photo.68.link: ig://CnFysOXu1p_
+photo.68.tags: keeper, portrait, sample, standing, tail, whiskers
+photo.69: cwdc://YWJM5hPADQT.jpg
+photo.69.author: aimless_amos
+photo.69.commitdate: 2025/1/4
+photo.69.link: ig://CnFysOXu1qA
+photo.69.tags: paws, portrait, sample, standing, whiskers
+photo.70: cwdc://YWJM5hPADQU.jpg
+photo.70.author: aimless_amos
+photo.70.commitdate: 2025/1/4
+photo.70.link: ig://CnFysOXu1qB
+photo.70.tags: close-up, paws, portrait, sample, standing, whiskers
+photo.71: cwdc://YWJM5hPADQV.jpg
+photo.71.author: aimless_amos
+photo.71.commitdate: 2025/1/4
+photo.71.link: ig://CnFysOXu1qC
+photo.71.tags: paws, portrait, sample, standing, whiskers
+photo.72: cwdc://YWJM5hPADQW.jpg
+photo.72.author: aimless_amos
+photo.72.commitdate: 2025/1/4
+photo.72.link: ig://CnFysOXu1qD
+photo.72.tags: paws, portrait, sample, standing, whiskers
+photo.73: cwdc://YWJM5hPADQX.jpg
+photo.73.author: aimless_amos
+photo.73.commitdate: 2025/1/4
+photo.73.link: ig://CnFysOXu1qE
+photo.73.tags: paws, portrait, standing, wave
+photo.74: cwdc://YWgKsxRADQC.jpg
+photo.74.author: aimless_amos
+photo.74.commitdate: 2025/1/4
+photo.74.link: ig://CnRRl2YuBO_
+photo.74.tags: close-up, door, home, portrait, sample, whiskers
+photo.75: cwdc://Yfoj4B3ADQA.jpg
+photo.75.author: aimless_amos
+photo.75.commitdate: 2025/1/4
+photo.75.link: ig://Cr1eLergu0s
+photo.75.tags: portrait, sample, tongue, toys, whiskers
+photo.76: cwdc://Yfoj4B3ADQB.jpg
+photo.76.author: aimless_amos
+photo.76.commitdate: 2025/1/4
+photo.76.link: ig://Cr1eLergu0t
+photo.76.tags: paws, portrait, toys
+photo.77: cwdc://Yj8NVrAADQF.jpg
+photo.77.author: aimless_amos
+photo.77.commitdate: 2025/1/4
+photo.77.link: ig://Ct_S6TQOhh3
+photo.77.tags: close-up, portrait, sample, whiskers
+photo.78: cwdc://Yj8NVrAADQG.jpg
+photo.78.author: aimless_amos
+photo.78.commitdate: 2025/1/4
+photo.78.link: ig://Ct_S6TQOhh4
+photo.78.tags: paws, peek, portrait, sample, toys, whiskers
+photo.79: cwdc://Yj8NVrAADQH.jpg
+photo.79.author: aimless_amos
+photo.79.commitdate: 2025/1/4
+photo.79.link: ig://Ct_S6TQOhh5
+photo.79.tags: paws, peek, portrait, sample, standing, whiskers
+photo.80: cwdc://Yj8NVrAADQI.jpg
+photo.80.author: aimless_amos
+photo.80.commitdate: 2025/1/4
+photo.80.link: ig://Ct_S6TQOhh6
+photo.80.tags: paws, portrait, sample, standing, tail, tongue, whiskers
+photo.81: cwdc://YtJ2iODADQE.jpg
+photo.81.author: aimless_amos
+photo.81.commitdate: 2025/1/4
+photo.81.link: ig://CymHgkxutvl
+photo.81.tags: paws, portrait, sample, tongue, toys, whiskers
+photo.82: cwdc://Yy32IN_ADQY.jpg
+photo.82.author: aimless_amos
+photo.82.commitdate: 2025/1/4
+photo.82.link: ig://C1dHTkvuP-L
+photo.82.tags: paws, portrait, standing, tail, toys
+photo.83: cwdc://Yy32IN_ADQZ.jpg
+photo.83.author: aimless_amos
+photo.83.commitdate: 2025/1/4
+photo.83.link: ig://C1dHTkvuP-M
+photo.83.tags: paws, peek, portrait, sample, whiskers
+photo.84: cwdc://Yy32IN_ADQa.jpg
+photo.84.author: aimless_amos
+photo.84.commitdate: 2025/1/4
+photo.84.link: ig://C1dHTkvuP-N
+photo.84.tags: paws, peek, portrait, whiskers
+photo.85: cwdc://Yy32IN_ADQb.jpg
+photo.85.author: aimless_amos
+photo.85.commitdate: 2025/1/4
+photo.85.link: ig://C1dHTkvuP-P
+photo.85.tags: portrait, standing, toys
+photo.86: cwdc://Yy32IN_ADQc.jpg
+photo.86.author: aimless_amos
+photo.86.commitdate: 2025/1/4
+photo.86.link: ig://C1dHTkvuP-Q
+photo.86.tags: portrait, toys
+photo.87: cwdc://ZH32i6TADQD.jpg
+photo.87.author: aimless_amos
+photo.87.commitdate: 2025/1/4
+photo.87.link: ig://C_9Hg65xz0r
+photo.87.tags: close-up, paws, portrait, sample, standing, whiskers
+photo.88: cwdc://ZH32i6TADQE.jpg
+photo.88.author: aimless_amos
+photo.88.commitdate: 2025/1/4
+photo.88.link: ig://C_9Hg65xz0s
+photo.88.tags: close-up, paws, portrait, sample, standing, tongue, whiskers
+photo.89: cwdc://ZH32i6TADQF.jpg
+photo.89.author: aimless_amos
+photo.89.commitdate: 2025/1/4
+photo.89.link: ig://C_9Hg65xz0t
+photo.89.tags: paws, portrait, sample, whiskers
+photo.90: cwdc://ZI6e_EPADQG.jpg
+photo.90.author: aimless_amos
+photo.90.commitdate: 2025/1/4
+photo.90.link: ig://DAebu_3xVab
+photo.90.tags: close-up, portrait, sample, scale, whiskers
+photo.91: cwdc://ZI6e_EPADQH.jpg
+photo.91.author: aimless_amos
+photo.91.commitdate: 2025/1/4
+photo.91.link: ig://DAebu_3xVac
+photo.91.tags: portrait, sample, scale, smile, tail, whiskers
+photo.92: cwdc://ZI6e_EPADQI.jpg
+photo.92.author: aimless_amos
+photo.92.commitdate: 2025/1/4
+photo.92.link: ig://DAebu_3xVae
+photo.92.tags: portrait, sample, scale, tail, whiskers
