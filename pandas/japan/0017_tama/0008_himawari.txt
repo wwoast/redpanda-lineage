@@ -15,10 +15,10 @@ language.order: ja, en
 litter: none
 location.1: 1, 2017/7/13
 location.2: 17, 2020/2/3
-photo.1: ig://BZ_J_AHACf_/m
+photo.1: cwdc://V777fEuADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/5/27
-photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.link: ig://BZ_J_AHACf_
 photo.1.tags: baby, home, portrait
 photo.2: cwdc://V7--qN3ADQN.jpg
 photo.2.author: panda.daisuki
@@ -1846,10 +1846,10 @@ photo.367.author: alto0908
 photo.367.commitdate: 2021/7/1
 photo.367.link: ig://CQvi1mFhTDY
 photo.367.tags: bamboo, bite, portrait, sample, whiskers
-photo.368: ig://CQ1BYWWhB6b/m
+photo.368: cwdc://XpnqRxNADQA.jpg
 photo.368.author: fetorus_mami
 photo.368.commitdate: 2021/8/22
-photo.368.link: https://www.instagram.com/fetorus_mami/
+photo.368.link: ig://CQ1BYWWhB6b
 photo.368.tags: air tasting, bamboo, tongue
 photo.369: cwdc://Xp7TNEJADQE.jpg
 photo.369.author: miis_98
@@ -3468,3 +3468,43 @@ photo.690.author: mini_cochi
 photo.690.commitdate: 2025/1/9
 photo.690.link: ig://Cw-ZMytPdxJ
 photo.690.tags: flowers, peek, portrait, tree
+photo.691: cwdc://XpnqRxNADQB.jpg
+photo.691.author: fetorus_mami
+photo.691.commitdate: 2025/1/9
+photo.691.link: ig://CQ1BYWWhB6c
+photo.691.tags: bamboo, tongue
+photo.692: cwdc://XpnqRxNADQC.jpg
+photo.692.author: fetorus_mami
+photo.692.commitdate: 2025/1/9
+photo.692.link: ig://CQ1BYWWhB6d
+photo.692.tags: bamboo, whiskers
+photo.693: cwdc://XpnqRxNADQD.jpg
+photo.693.author: fetorus_mami
+photo.693.commitdate: 2025/1/9
+photo.693.link: ig://CQ1BYWWhB6e
+photo.693.tags: paws, peek, tree
+photo.694: cwdc://XpnqRxNADQE.jpg
+photo.694.author: fetorus_mami
+photo.694.commitdate: 2025/1/9
+photo.694.link: ig://CQ1BYWWhB6f
+photo.694.tags: sample, tree
+photo.695: cwdc://XpnqRxNADQF.jpg
+photo.695.author: fetorus_mami
+photo.695.commitdate: 2025/1/9
+photo.695.link: ig://CQ1BYWWhB6g
+photo.695.tags: peek, sample
+photo.696: cwdc://XpnqRxNADQG.jpg
+photo.696.author: fetorus_mami
+photo.696.commitdate: 2025/1/9
+photo.696.link: ig://CQ1BYWWhB6h
+photo.696.tags: laying down, paws, sample
+photo.697: cwdc://XpnqRxNADQH.jpg
+photo.697.author: fetorus_mami
+photo.697.commitdate: 2025/1/9
+photo.697.link: ig://CQ1BYWWhB6i
+photo.697.tags: sample, whiskers
+photo.698: cwdc://XpnqRxNADQI.jpg
+photo.698.author: fetorus_mami
+photo.698.commitdate: 2025/1/9
+photo.698.link: ig://CQ1BYWWhB6j
+photo.698.tags: distance, door
