@@ -72,17 +72,17 @@ photo.10.link: ig://B4_CtYeFra6
 photo.10.tags: apple time, baby, dish, mofumofu, siblings, techitechi, twins
 photo.10.tags.962.location: 700, 615
 photo.10.tags.963.location: 230, 420
-photo.11: ig://B5AO8tNhIj8/m
+photo.11: cwdc://W5-Fae7ADQA.jpg
 photo.11.author: hamiiiii831_
 photo.11.commitdate: 2019/11/30
-photo.11.link: https://www.instagram.com/hamiiiii831_/
+photo.11.link: ig://B5AO8tNhIj8
 photo.11.tags: apple time, baby, dish, siblings, tongue, twins
 photo.11.tags.962.location: 95, 120
 photo.11.tags.963.location: 240, 120
-photo.12: ig://B5CTZbVB-d0/m
+photo.12: cwdc://W6COT7KADQB.jpg
 photo.12.author: hamiiiii831_
 photo.12.commitdate: 2019/12/1
-photo.12.link: https://www.instagram.com/hamiiiii831_/
+photo.12.link: ig://B5CTZbVB-d0
 photo.12.tags: siblings, smile, twins
 photo.12.tags.962.location: 210, 150
 photo.12.tags.963.location: 90, 125
@@ -135,10 +135,10 @@ photo.19.link: ig://B6ETAFEhHvg
 photo.19.tags: home, siblings, twins
 photo.19.tags.962.location: 115, 175
 photo.19.tags.963.location: 230, 180
-photo.20: ig://B6FvrMMBJr1/m
+photo.20: cwdc://W8JG3c4ADQA.jpg
 photo.20.author: daniele.tokyo
 photo.20.commitdate: 2020/3/7
-photo.20.link: https://www.instagram.com/daniele.tokyo/
+photo.20.link: ig://B6FvrMMBJr1
 photo.20.tags: laying down, siblings, sleeping, twins
 photo.20.tags.962.location: 205, 150
 photo.20.tags.963.location: 95, 215
@@ -156,10 +156,10 @@ photo.22.link: https://www.instagram.com/ayusuke56/
 photo.22.tags: baby, siblings, twins
 photo.22.tags.962.location: 95, 105
 photo.22.tags.963.location: 220, 100
-photo.23: ig://B6g9C43hq34/m
+photo.23: cwdc://W8_hm2PADQA.jpg
 photo.23.author: panda.daisuki
 photo.23.commitdate: 2020/3/7
-photo.23.link: https://www.instagram.com/panda.daisuki/
+photo.23.link: ig://B6g9C43hq34
 photo.23.tags: siblings, tail, twins
 photo.23.tags.962.location: 65, 125
 photo.23.tags.963.location: 190, 95
@@ -329,3 +329,23 @@ photo.47.author: nakacchi_desu
 photo.47.commitdate: 2025/1/10
 photo.47.link: ig://B30WWLjhxYG
 photo.47.tags: baby, laying down
+photo.48: cwdc://W8ZLLBYADQA.jpg
+photo.48.author: ayusuke56
+photo.48.commitdate: 2025/1/10
+photo.48.link: ig://B6Nx0-cBzuQ
+photo.48.tags: home, laying down, mofumofu, siblings, tail, twins
+photo.49: cwdc://W8ZLLBYADQB.jpg
+photo.49.author: ayusuke56
+photo.49.commitdate: 2025/1/10
+photo.49.link: ig://B6Nx0-cBzuP
+photo.49.tags: home, mofumofu, siblings, twins
+photo.50: cwdc://W9J4aS9ADQC.jpg
+photo.50.author: ayusuke56
+photo.50.commitdate: 2025/1/10
+photo.50.link: ig://B6mIcnOh-_J
+photo.50.tags: baby, bridge, siblings, twins
+photo.51: cwdc://W9rkMdZADQB.jpg
+photo.51.author: ayusuke56
+photo.51.commitdate: 2025/1/10
+photo.51.link: ig://B62-VschWt1
+photo.51.tags: bite, mofumofu, paws, playing, siblings, twins
