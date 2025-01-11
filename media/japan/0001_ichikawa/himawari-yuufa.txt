@@ -2,10 +2,10 @@
 _id: media.1.himawari-yuufa
 commitdate: 2019/5/15
 panda.tags: 6, 8
-photo.1: ig://Bbbut0JDJrW/m
+photo.1: cwdc://V-1E8syADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2019/12/5
-photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.link: ig://Bbbut0JDJrW
 photo.1.tags: baby, home, mother's day, tail
 photo.1.tags.6.location: 190, 85
 photo.1.tags.8.location: 110, 170
@@ -16,18 +16,18 @@ photo.2.link: ig://B11LbwIhDSC
 photo.2.tags: keeper, mother's day
 photo.2.tags.6.location: 245, 115
 photo.2.tags.8.location: 125, 120
-photo.3: ig://Br6nEBZlF7F/m
+photo.3: cwdc://Wfy1pHTADQA.jpg
 photo.3.author: redpanda_nippon_takashi
 photo.3.commitdate: 2019/5/14
-photo.3.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.3.tags: mother's day
+photo.3.link: ig://Br6nEBZlF7F
+photo.3.tags: mother's day, paws, playing, portrait, sample, smile, tail, whiskers
 photo.3.tags.6.location: 240, 90
 photo.3.tags.8.location: 70, 215
-photo.4: ig://B2_ussghP96/m
+photo.4: cwdc://W19E6dhADQA.jpg
 photo.4.author: rie_panda55
 photo.4.commitdate: 2019/10/13
-photo.4.link: https://www.instagram.com/rie_panda55/
-photo.4.tags: door, mother's day, smile
+photo.4.link: ig://B2_ussghP96
+photo.4.tags: door, mother's day, smile, whiskers
 photo.4.tags.6.location: 90, 145
 photo.4.tags.8.location: 235, 175
 photo.5: cwdc://Wu9Xf5VADQA.jpg
@@ -37,3 +37,18 @@ photo.5.link: ig://Bzf3_aahKmO
 photo.5.tags: climb, mother's day, paws, portrait, tree
 photo.5.tags.6.location: 600, 420
 photo.5.tags.8.location: 200, 300
+photo.6: cwdc://V777fEuADQC.jpg
+photo.6.author: panda.daisuki
+photo.6.commitdate: 2025/1/11
+photo.6.link: ig://BZ_J_AHACGA
+photo.6.tags: baby, mother's day
+photo.7: cwdc://Wevqf05ADQA.jpg
+photo.7.author: apple_jasmine33
+photo.7.commitdate: 2025/1/11
+photo.7.link: ig://BrZBfYMlPA3
+photo.7.tags: baby, mother's day
+photo.8: cwdc://XAHxeGrADQF.jpg
+photo.8.author: rie_panda55
+photo.8.commitdate: 2025/1/11
+photo.8.link: ig://B8FE-hFhU1z
+photo.8.tags: baby, bamboo, mother's day
