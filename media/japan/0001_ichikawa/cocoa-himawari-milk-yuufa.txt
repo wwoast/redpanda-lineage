@@ -97,18 +97,34 @@ photo.11.author: rie_panda55
 photo.11.commitdate: 2025/1/11
 photo.11.link: ig://BxPl8B6FMdA
 photo.11.tags: door, family, portrait, siblings, sisters, tail
+photo.11.tags.6.location: 660, 400
+photo.11.tags.8.location: 125, 320
+photo.11.tags.246.location: 315, 375
+photo.11.tags.247.location: 475, 375
 photo.12: cwdc://XAHxeGrADQA.jpg
 photo.12.author: rie_panda55
 photo.12.commitdate: 2025/1/11
 photo.12.link: ig://B8FE-hFhU11
 photo.12.tags: apple time, door, family, keeper, portrait
+photo.12.tags.6.location: 285, 445
+photo.12.tags.8.location: 180, 450
+photo.12.tags.246.location: 435, 465
+photo.12.tags.247.location: 385, 455
 photo.13: cwdc://XAHxeGrADQB.jpg
 photo.13.author: rie_panda55
 photo.13.commitdate: 2025/1/11
 photo.13.link: ig://B8FE-hFhU12
 photo.13.tags: bamboo, clockwise, family, playing, portrait, snow
+photo.13.tags.6.location: 520, 470
+photo.13.tags.8.location: 300, 500
+photo.13.tags.246.location: 580, 480
+photo.13.tags.247.location: 430, 370
 photo.14: cwdc://Xf3owq1ADQA.jpg
 photo.14.author: daniele.tokyo
 photo.14.commitdate: 2025/1/11
 photo.14.link: ig://CL9AnzKhEzJ
 photo.14.tags: apple time, dish, family, keeper
+photo.14.tags.6.location: 130, 255
+photo.14.tags.8.location: 595, 140
+photo.14.tags.246.location: 330, 265
+photo.14.tags.247.location: 610, 550
