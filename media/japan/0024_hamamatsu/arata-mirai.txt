@@ -37,10 +37,10 @@ photo.5.link: ig://B3rX6VgBGqK
 photo.5.tags: baby, climb, tongue, window
 photo.5.tags.962.location: 205, 135
 photo.5.tags.963.location: 55, 60
-photo.6: ig://B30WWLjhxYF/m
+photo.6: cwdc://W3mUNbnADQA.jpg
 photo.6.author: nakacchi_desu
 photo.6.commitdate: 2019/11/18
-photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.link: ig://B30WWLjhxYF
 photo.6.tags: baby, paws, siblings, twins
 photo.6.tags.962.location: 175, 180
 photo.6.tags.963.location: 245, 105
@@ -324,4 +324,8 @@ photo.46.link: ig://B62-VschWtT
 photo.46.tags: close-up, paws, playing
 photo.46.tags.962.location: 380, 180
 photo.46.tags.963.location: 655, 490
-
+photo.47: cwdc://W3mUNbnADQB.jpg
+photo.47.author: nakacchi_desu
+photo.47.commitdate: 2025/1/10
+photo.47.link: ig://B30WWLjhxYG
+photo.47.tags: baby, laying down
