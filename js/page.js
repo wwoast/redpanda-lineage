@@ -233,9 +233,8 @@ Page.footer = {};
 Page.footer.redraw = function(page_mode="results") {
   // Add the footer at the bottom of the page
   var body = document.getElementsByTagName('body')[0];
-  var footer_test = body.lastElementChild;
-  if (footer_test.id != "footer") {
-    window.alert(footer_test.id)
+  var footer_test = document.getElementById("footer")
+  if (footer_test == null) {
     // No footer exists, and no bottom menu either. Add both
     var footer = Page.footer.render(L.display, page_mode);
     var menu = Show[page_mode].menus.bottom();
