@@ -34,10 +34,10 @@ photo.4.tags: family, siblings, stack, twins
 photo.4.tags.65.location: 125, 80
 photo.4.tags.962.location: 120, 150
 photo.4.tags.963.location: 75, 245
-photo.5: ig://B5m4VfShvjM/l
+photo.5: cwdc://W7LYMDFADQB.jpg
 photo.5.author: taka__3428
 photo.5.commitdate: 2019/12/16
-photo.5.link: https://www.instagram.com/taka__3428/
+photo.5.link: ig://B5m4VfShvjM
 photo.5.tags: family, laying down, siblings, twins, wink
 photo.5.tags.65.location: 180, 435
 photo.5.tags.962.location: 310, 310
@@ -58,26 +58,26 @@ photo.7.tags: family, siblings, tail, twins
 photo.7.tags.65.location: 160, 175
 photo.7.tags.962.location: 240, 135
 photo.7.tags.963.location: 115, 115
-photo.8: ig://B61VKd1hv8G/l
+photo.8: cwdc://W9oR2ALADQJ.jpg
 photo.8.author: taka__3428
 photo.8.commitdate: 2020/1/11
-photo.8.link: https://www.instagram.com/taka__3428/
+photo.8.link: ig://B61VKd1hv8G
 photo.8.tags: family, siblings, top-to-bottom, tower, twins
 photo.8.tags.65.location: 480, 405
 photo.8.tags.962.location: 450, 580
 photo.8.tags.963.location: 460, 225
-photo.9: ig://B61e5xkBHr8/m
+photo.9: cwdc://W9olUnoADQI.jpg
 photo.9.author: taka__3428
 photo.9.commitdate: 2020/3/7
-photo.9.link: https://www.instagram.com/taka__3428/
+photo.9.link: ig://B61e5xkBHr8
 photo.9.tags: family, home
 photo.9.tags.65.location: 455, 370
 photo.9.tags.962.location: 875, 355
 photo.9.tags.963.location: 135, 345
-photo.10: ig://B7GN7Juhl0i/l
+photo.10: cwdc://W-KDXX9ADQC.jpg
 photo.10.author: taka__3428
 photo.10.commitdate: 2020/2/16
-photo.10.link: https://www.instagram.com/taka__3428/
+photo.10.link: ig://B7GN7Juhl0i
 photo.10.tags: family, home, siblings, twins
 photo.10.tags.65.location: 875, 475
 photo.10.tags.962.location: 700, 235
@@ -90,19 +90,59 @@ photo.11.tags: family, home
 photo.11.tags.65.location: 125, 265
 photo.11.tags.962.location: 155, 150
 photo.11.tags.963.location: 190, 85
-photo.12: ig://B9HGlV7BMav/l
+photo.12: cwdc://XCL0rwWADQG.jpg
 photo.12.author: taka__3428
 photo.12.commitdate: 2020/3/7
-photo.12.link: https://www.instagram.com/taka__3428/
+photo.12.link: ig://B9HGlV7BMav
 photo.12.tags: family, playing, siblings, twins
 photo.12.tags.65.location: 445, 105
 photo.12.tags.962.location: 840, 430
 photo.12.tags.963.location: 425, 430
-photo.13: ig://B_4T5GJhjXA/l
+photo.13: cwdc://XHuPTQzADQK.jpg
 photo.13.author: taka__3428
 photo.13.commitdate: 2021/12/27
-photo.13.link: https://www.instagram.com/taka__3428/
+photo.13.link: ig://B_4T5GJhjXA
 photo.13.tags: bamboo, family, siblings, twins
 photo.13.tags.65.location: 95, 265
 photo.13.tags.962.location: 485, 130
 photo.13.tags.963.location: 275, 255
+photo.14: cwdc://W-KDXX9ADQD.jpg
+photo.14.author: taka__3428
+photo.14.commitdate: 2025/1/10
+photo.14.link: ig://B7GN7Juhl0j
+photo.14.tags: bridge, family
+photo.15: cwdc://W-KDXX9ADQE.jpg
+photo.15.author: taka__3428
+photo.15.commitdate: 2025/1/10
+photo.15.link: ig://B7GN7Juhl0k
+photo.15.tags: family, home, siblings, twins
+photo.16: cwdc://W-KDXX9ADQF.jpg
+photo.16.author: taka__3428
+photo.16.commitdate: 2025/1/10
+photo.16.link: ig://B7GN7Juhl0l
+photo.16.tags: family, home, siblings, twins
+photo.17: cwdc://W2hAHv_ADQA.jpg
+photo.17.author: taka__3428
+photo.17.commitdate: 2025/1/10
+photo.17.link: ig://B3RsTVvhiST
+photo.17.tags: bamboo, bite, family, siblings, twins
+photo.18: cwdc://W3zM5FFADQH.jpg
+photo.18.author: taka__3428
+photo.18.commitdate: 2025/1/10
+photo.18.link: ig://B36ysAShnns
+photo.18.tags: baby, family, pumpkin, siblings, twins
+photo.19: cwdc://XSbbtMtADQL.jpg
+photo.19.author: taka__3428
+photo.19.commitdate: 2025/1/10
+photo.19.link: ig://CFO6GEGhkjG
+photo.19.tags: family, siblings, tail, twins
+photo.20: cwdc://Xw2uuk2ADQM.jpg
+photo.20.author: taka__3428
+photo.20.commitdate: 2025/1/10
+photo.20.link: ig://CUcjmwLBpIa
+photo.20.tags: family, siblings, twins, window
+photo.21: cwdc://Xw2uuk2ADQN.jpg
+photo.21.author: taka__3428
+photo.21.commitdate: 2025/1/10
+photo.21.link: ig://CUcjmwLBpIc
+photo.21.tags: family, siblings, twins, window

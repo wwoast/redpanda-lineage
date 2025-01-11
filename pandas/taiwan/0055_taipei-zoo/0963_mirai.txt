@@ -30,10 +30,10 @@ photo.3.author: taka__3428
 photo.3.commitdate: 2019/10/6
 photo.3.link: ig://B2rIPZhhQdL
 photo.3.tags: baby, paws, portrait
-photo.4: ig://B2rRTrMh1U6/m
+photo.4: cwdc://W1UKIa5ADQA.jpg
 photo.4.author: monmon_redpanda
 photo.4.commitdate: 2019/10/6
-photo.4.link: https://www.instagram.com/monmon_redpanda/
+photo.4.link: ig://B2rRTrMh1U6
 photo.4.tags: baby, peek, portrait
 photo.5: cwdc://W1Y5r6LADQD.jpg
 photo.5.author: taka__3428
@@ -205,11 +205,11 @@ photo.38.author: tetusara.ki_
 photo.38.commitdate: 2019/11/29
 photo.38.link: ig://B5bXp0NHPcZ
 photo.38.tags: home, laying down, portrait, sample
-photo.39: ig://B5m_8NBBtvZ/m
+photo.39: cwdc://W7LnZeiADQB.jpg
 photo.39.author: leonard_redmof
 photo.39.commitdate: 2019/12/7
-photo.39.link: https://www.instagram.com/leonard_redmof/
-photo.39.tags: paws, portrait
+photo.39.link: ig://B5m_8NBBtvZ
+photo.39.tags: baby, mofumofu, paws, portrait, sample
 photo.40: cwdc://W7ZdPziADQD.jpg
 photo.40.author: minatomirai215
 photo.40.commitdate: 2021/12/30
