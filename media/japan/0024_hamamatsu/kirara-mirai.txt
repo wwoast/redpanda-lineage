@@ -68,13 +68,19 @@ photo.10.author: ayusuke56
 photo.10.commitdate: 2025/1/10
 photo.10.link: ig://CIDjQzFBayf
 photo.10.tags: mother's day, peek, sample, whiskers
+photo.10.tags.65.location: 360, 555
+photo.10.tags.963.location: 270, 160
 photo.11: cwdc://XwC6pesADQI.jpg
 photo.11.author: taka__3428
 photo.11.commitdate: 2025/1/10
 photo.11.link: ig://CUCpkNGBy7_
 photo.11.tags: mother's day, keeper, paws, standing
+photo.11.tags.65.location: 455, 180
+photo.11.tags.963.location: 230, 300
 photo.12: cwdc://XwC6pesADQJ.jpg
 photo.12.author: taka__3428
 photo.12.commitdate: 2025/1/10
 photo.12.link: ig://CUCpkNGBy8_
 photo.12.tags: mother's day, keeper, paws, standing
+photo.12.tags.65.location: 440, 160
+photo.12.tags.963.location: 190, 270
