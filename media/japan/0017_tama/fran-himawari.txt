@@ -2,25 +2,17 @@
 _id: media.17.fran-himawari
 commitdate: 2021/10/7
 panda.tags: 8, 1198
-photo.1: cwdc://Xqe6RfJADQA.jpg
-photo.1.author: tamazoowalking
+photo.1: cwdc://XsdfzDCADQA.jpg
+photo.1.author: pink.b22
 photo.1.commitdate: 2025/1/11
-photo.1.link: ig://CRQpYNUhc5x
+photo.1.link: ig://CSP8I_RBRlB
 photo.1.tags: door, mother's day, portrait
-photo.2: cwdc://Xqe6RfJADQB.jpg
-photo.2.author: tamazoowalking
-photo.2.commitdate: 2025/1/11
-photo.2.link: ig://CRQpYNUhc5y
-photo.2.tags: door, mother's day, portrait, sample, whiskers
-photo.3: cwdc://XsdfzDCADQA.jpg
-photo.3.author: pink.b22
-photo.3.commitdate: 2025/1/11
-photo.3.link: ig://CSP8I_RBRlB
-photo.3.tags: door, mother's day, portrait
-photo.4: cwdc://XwNSkIVADQA.jpg
-photo.4.author: kotata_513
-photo.4.commitdate: 2021/10/7
-photo.4.link: ig://CUH1hh6h2yT
-photo.4.tags: bamboo, mother's day, portrait
-photo.4.tags.8.location: 410, 315
-photo.4.tags.1198.location: 245, 195
+photo.1.tags.8.location: 140, 400
+photo.1.tags.1198.location: 300, 390
+photo.2: cwdc://XwNSkIVADQA.jpg
+photo.2.author: kotata_513
+photo.2.commitdate: 2021/10/7
+photo.2.link: ig://CUH1hh6h2yT
+photo.2.tags: bamboo, mother's day, portrait
+photo.2.tags.8.location: 410, 315
+photo.2.tags.1198.location: 245, 195

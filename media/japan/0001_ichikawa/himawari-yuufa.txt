@@ -7,6 +7,8 @@ photo.1.author: panda.daisuki
 photo.1.commitdate: 2025/1/11
 photo.1.link: ig://BZ_J_AHACGA
 photo.1.tags: baby, mother's day
+photo.1.tags.6.location: 545, 225
+photo.1.tags.8.location: 620, 480
 photo.2: cwdc://V-1E8syADQA.jpg
 photo.2.author: panda.daisuki
 photo.2.commitdate: 2019/12/5
@@ -19,6 +21,8 @@ photo.3.author: apple_jasmine33
 photo.3.commitdate: 2025/1/11
 photo.3.link: ig://BrZBfYMlPA3
 photo.3.tags: baby, mother's day
+photo.3.tags.6.location: 245, 440
+photo.3.tags.8.location: 475, 425
 photo.4: cwdc://Wfy1pHTADQA.jpg
 photo.4.author: redpanda_nippon_takashi
 photo.4.commitdate: 2019/5/14
@@ -51,4 +55,6 @@ photo.8: cwdc://XAHxeGrADQF.jpg
 photo.8.author: rie_panda55
 photo.8.commitdate: 2025/1/11
 photo.8.link: ig://B8FE-hFhU1z
-photo.8.tags: baby, bamboo, mother's day
+photo.8.tags: baby, bamboo, mofumofu, mother's day
+photo.8.tags.6.location: 460, 375
+photo.8.tags.8.location: 300, 485

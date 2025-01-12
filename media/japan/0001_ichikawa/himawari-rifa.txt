@@ -7,6 +7,8 @@ photo.1.author: panda.daisuki
 photo.1.commitdate: 2025/1/11
 photo.1.link: ig://BZ_J_AHACGB
 photo.1.tags: baby, family, home
+photo.1.tags.7.location: 405, 320
+photo.1.tags.8.location: 85, 405
 photo.2: cwdc://W-hmBZzADQA.jpg
 photo.2.author: masa_polarbear
 photo.2.commitdate: 2020/1/17
@@ -26,3 +28,5 @@ photo.4.author: rie_panda55
 photo.4.commitdate: 2025/1/11
 photo.4.link: ig://B8FE-hFhU1y
 photo.4.tags: auntie, baby, door, portrait
+photo.4.tags.7.location: 250, 355
+photo.4.tags.8.location: 475, 625
