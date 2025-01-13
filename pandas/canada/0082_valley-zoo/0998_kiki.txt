@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
+location.1: 93, 2019/6/7
+location.2: 82, 2021/11/3
 photo.1: ig://B0YpEVEBP5R/m
 photo.1.author: milwaukeecozoo
 photo.1.commitdate: 2019/12/7
@@ -129,4 +131,4 @@ photo.23.commitdate: 2023/5/3
 photo.23.link: https://www.instagram.com/worldthathesees/
 photo.23.tags: portrait, smile, whiskers
 species: 2
-zoo: 93
+zoo: 82
