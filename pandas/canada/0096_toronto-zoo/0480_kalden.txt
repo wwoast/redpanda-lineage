@@ -15,6 +15,7 @@ language.order: en, ja
 litter: none
 location.1: 44, 2012/6/7
 location.2: 82, 2013/7/11
+location.3: 96, 2024/11/1
 photo.1: ig://BWvMsg_AsU0/m
 photo.1.author: buildingourzoo
 photo.1.commitdate: 2020/9/24
@@ -77,4 +78,5 @@ photo.12.link: https://www.instagram.com/worldthathesees/
 photo.12.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1212
-zoo: 82
+uncertainty: location.3.date
+zoo: 96
