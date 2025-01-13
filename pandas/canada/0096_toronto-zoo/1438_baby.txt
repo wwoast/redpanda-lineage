@@ -4,11 +4,11 @@ birthday: 2024/6/13
 birthplace: 40
 children: none
 commitdate: 2024/7/15
-en.name: Baby
+en.name: Poppy
 en.nicknames: none
 en.othernames: Biggie
 gender: f
-ja.name: 赤ちゃん
+ja.name: ポッピー
 ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
@@ -16,3 +16,18 @@ litter: 1437
 species: 2
 studbook.id: unknown
 zoo: 96
+photo.1: cwdc://ZRbOxf4T1gD.jpg
+photo.1.author: idallkwan
+photo.1.commitdate: 2025/1/12
+photo.1.link: https://www.instagram.com/idallkwan
+photo.1.tags: snow, tail
+photo.2: cwdc://ZRbOxvgT1gE.jpg
+photo.2.author: idallkwan
+photo.2.commitdate: 2025/1/12
+photo.2.link: https://www.instagram.com/idallkwan
+photo.2.tags: snow, tail
+photo.3: cwdc://ZRdktqTT1gC.jpg
+photo.3.author: idallkwan
+photo.3.commitdate: 2025/1/12
+photo.3.link: https://www.instagram.com/idallkwan
+photo.3.tags: close-up, snow, whiskers, window
