@@ -4,11 +4,11 @@ birthday: 2024/7/7
 birthplace: 82
 children: none
 commitdate: 2025/1/13
-en.name: Baby
+en.name: George
 en.nicknames: none
 en.othernames: none
-gender: unknown
-ja.name: 赤ちゃん
+gender: m
+ja.name: ジョージ
 ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
