@@ -17,6 +17,7 @@ language.order: en, ja
 litter: 861
 location.1: 177, 2018/6/25
 location.2: 81, 2021/6/4
+location.3: 117, 2024/11/1
 photo.1: ig://CTFOnhYsCLp/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2022/5/5
@@ -59,4 +60,5 @@ photo.8.link: ig://Cz6oQkyxpX6
 photo.8.tags: peek, portrait, sample, whiskers
 species: 1
 studbook.id: 1820
-zoo: 81
+uncertainty: location.3.date
+zoo: 117
