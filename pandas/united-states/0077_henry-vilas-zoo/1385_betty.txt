@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
+location.1: 80, 2022/6/4
+location.2: 77, 2024/3/14
 photo.1: cwdc://YKsk3w7ADQA.jpg
 photo.1.author: lincolnchildrenszoo
 photo.1.commitdate: 2022/8/18
@@ -49,4 +51,5 @@ photo.7.commitdate: 2023/3/6
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: baby, hammock, laying down, portrait, whiskers
 species: 2
-zoo: 80
+uncertainty: location.2.date (announced 4/4/2024)
+zoo: 77
