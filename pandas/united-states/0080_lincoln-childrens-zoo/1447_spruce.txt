@@ -1,0 +1,19 @@
+[panda]
+_id: 1447
+birthday: 2024/8/10
+birthplace: 80
+children:  none
+commitdate: 2025/1/15
+en.name: Spruce
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: スプルース
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1445, 1446
+species: 2
+studbook.id: unknown
+uncertainty: gender
+zoo: 80

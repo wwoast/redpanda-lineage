@@ -1,0 +1,19 @@
+[panda]
+_id: 1446
+birthday: 2024/8/10
+birthplace: 80
+children:  none
+commitdate: 2025/1/15
+en.name: Cedar
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: シーダー
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1445, 1447
+species: 2
+studbook.id: unknown
+uncertainty: gender
+zoo: 80
