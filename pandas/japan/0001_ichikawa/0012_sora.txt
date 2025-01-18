@@ -66,7 +66,7 @@ photo.10.tags: portrait, smile, tree
 photo.11: cwdc://WY-QvRKADQA.jpg
 photo.11.author: ck.chie
 photo.11.commitdate: 2018/10/4
-photo.11.link: https://www.instagram.com/p/BogUnGVFnmR
+photo.11.link: ig://BogUnGVFnmR
 photo.11.tags: laying down, portrait, sample, tongue, tree
 photo.12: ig://BpDSdablLhR/m
 photo.12.author: redpanda_nippon_takashi
@@ -143,7 +143,7 @@ photo.26.tags: bamboo, portrait, tongue
 photo.27: cwdc://WkTJVLVADQC.jpg
 photo.27.author: ck.chie
 photo.27.commitdate: 2019/3/2
-photo.27.link: https://www.instagram.com/p/BuKw6Daln5H
+photo.27.link: ig://BuKw6Daln5H
 photo.27.tags: apple time, lips, sample, smile
 photo.28: ig://BwmflGqlD_B/m
 photo.28.author: na.mo.pan
@@ -163,7 +163,7 @@ photo.30.tags: laying down, tail
 photo.31: cwdc://WraQdXxADQD.jpg
 photo.31.author: ck.chie
 photo.31.commitdate: 2019/5/29
-photo.31.link: https://www.instagram.com/p/BxuUeJolbOo
+photo.31.link: ig://BxuUeJolbOo
 photo.31.tags: sample, tongue
 photo.32: ig://Bxvlmg1lcIL/m
 photo.32.author: _rifa_p
@@ -328,7 +328,7 @@ photo.63.tags: paws, portrait
 photo.64: cwdc://XFWztFTADQB.jpg
 photo.64.author: ck.chie
 photo.64.commitdate: 2020/5/12
-photo.64.link: https://www.instagram.com/p/B-smGAZhw5S
+photo.64.link: ig://B-smGAZhw5S
 photo.64.tags: apple time, paws, portrait, sample, smile, tongue
 photo.65: ig://B_TaaOchtUD/m
 photo.65.author: _rifa_p
@@ -568,7 +568,7 @@ photo.111.tags: portrait
 photo.112: cwdc://XW5jumHADQF.jpg
 photo.112.author: ck.chie
 photo.112.commitdate: 2020/11/23
-photo.112.link: https://www.instagram.com/p/CHd-Gwzhb7K
+photo.112.link: ig://CHd-Gwzhb7K
 photo.112.tags: paws, portrait, sample, whiskers
 photo.113: ig://CHq92HlBDX4/m
 photo.113.author: firefoxpanda88
@@ -638,7 +638,7 @@ photo.125.tags: mofumofu, whiskers
 photo.126: cwdc://Xlk7M4eADQG.jpg
 photo.126.author: ck.chie
 photo.126.commitdate: 2021/11/20
-photo.126.link: https://www.instagram.com/p/COzp15_BrTk
+photo.126.link: ig://COzp15_BrTk
 photo.126.tags: dish, keeper, portrait, sample, smile
 photo.127: ig://CO7y9iEBBMg/m
 photo.127.author: ifumoto88
@@ -653,7 +653,7 @@ photo.128.tags: paws, portrait
 photo.129: cwdc://XmyrvD3ADQH.jpg
 photo.129.author: ck.chie
 photo.129.commitdate: 2021/10/4
-photo.129.link: https://www.instagram.com/p/CPaiG_rhycd
+photo.129.link: ig://CPaiG_rhycd
 photo.129.tags: apple time, dish, paws, portrait, sample, smile
 photo.130: ig://CPlEDAaB8l7/m
 photo.130.author: ifumoto88
@@ -833,7 +833,7 @@ photo.164.tags: mofumofu, portrait, sample, whiskers
 photo.165: cwdc://X-2terDADQE.jpg
 photo.165.author: ck.chie
 photo.165.commitdate: 2022/4/26
-photo.165.link: https://www.instagram.com/p/Cbci-zRvU6C
+photo.165.link: ig://Cbci-zRvU6C
 photo.165.tags: apple time, mofumofu, paws, sample, whiskers
 photo.166: ig://Cbm0W_BL6ZX/m
 photo.166.author: ifumoto88
