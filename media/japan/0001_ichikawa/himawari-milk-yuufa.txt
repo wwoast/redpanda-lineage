@@ -10,10 +10,10 @@ photo.1.tags: paws, sisters, standing
 photo.1.tags.6.location: 170, 155
 photo.1.tags.8.location: 270, 160
 photo.1.tags.247.location: 105, 140
-photo.2: ig://ByRGRlDBaWb/m
+photo.2: cwdc://Wsf0EOmADQA.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/6/3
-photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.link: ig://ByRGRlDBaWb
 photo.2.tags: apple time, lunch time, sisters
 photo.2.tags.6.location: 85, 70
 photo.2.tags.8.location: 215, 50
@@ -26,3 +26,13 @@ photo.3.tags: apple time, dish, family, keeper, sisters
 photo.3.tags.6.location: 145, 115
 photo.3.tags.8.location: 200, 165
 photo.3.tags.247.location: 105, 30
+photo.4: cwdc://Wsk90VGADQB.jpg
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2025/1/19
+photo.4.link: ig://ByTrJoTBMBN
+photo.4.tags: keeper, siblings, sisters, twins
+photo.5: cwdc://Wsk90VGADQC.jpg
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2025/1/19
+photo.5.link: ig://ByTrJoTBMBO
+photo.5.tags: keeper, siblings, sisters, twins
