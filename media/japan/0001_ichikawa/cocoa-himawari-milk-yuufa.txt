@@ -2,11 +2,11 @@
 _id: media.1.cocoa-himawari-milk-yuufa
 commitdate: 2019/6/6
 panda.tags: 6, 8, 246, 247
-photo.1: ig://ByTrJoTBMBJ/l
+photo.1: cwdc://Wsk90VGADQA.jpg
 photo.1.author: fetorus_mami
 photo.1.commitdate: 2019/6/6
-photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: family, keeper
+photo.1.link: ig://ByTrJoTBMBJ
+photo.1.tags: door, family, keeper
 photo.1.tags.6.location: 610, 90
 photo.1.tags.8.location: 435, 475
 photo.1.tags.246.location: 350, 580
