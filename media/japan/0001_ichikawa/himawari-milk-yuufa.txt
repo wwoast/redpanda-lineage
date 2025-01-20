@@ -22,12 +22,18 @@ photo.3: cwdc://Wsk90VGADQB.jpg
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2025/1/19
 photo.3.link: ig://ByTrJoTBMBN
-photo.3.tags: keeper, siblings, sisters, twins
+photo.3.tags: keeper, siblings, sisters
+photo.3.tags.6.location: 385, 460
+photo.3.tags.8.location: 625, 115
+photo.3.tags.247.location: 275, 50
 photo.4: cwdc://Wsk90VGADQC.jpg
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2025/1/19
 photo.4.link: ig://ByTrJoTBMBO
-photo.4.tags: keeper, siblings, sisters, twins
+photo.4.tags: keeper, siblings, sisters
+photo.4.tags.6.location: 420, 460
+photo.4.tags.8.location: 600, 105
+photo.4.tags.247.location: 255, 150
 photo.5: cwdc://XICxCFUADQA.jpg
 photo.5.author: na.mo.pan
 photo.5.commitdate: 2020/5/29
