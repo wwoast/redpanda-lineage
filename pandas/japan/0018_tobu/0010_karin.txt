@@ -168,7 +168,7 @@ photo.30.tags: lips, portrait
 photo.31: cwdc://W8Ha6KzADQA.jpg
 photo.31.author: ck.chie
 photo.31.commitdate: 2019/12/29
-photo.31.link: https://www.instagram.com/p/B6E5sjJh2-y
+photo.31.link: ig://B6E5sjJh2-y
 photo.31.tags: laying down, tongue
 photo.32: ig://B6F0e4oBasI/m
 photo.32.author: kaoru_a358
@@ -268,7 +268,7 @@ photo.50.tags: apple time, paws, portrait, smile
 photo.51: cwdc://XAkwl0yADQB.jpg
 photo.51.author: ck.chie
 photo.51.commitdate: 2020/2/17
-photo.51.link: https://www.instagram.com/p/B8TkiYJBlt9
+photo.51.link: ig://B8TkiYJBlt9
 photo.51.tags: portrait, sample, smile, tree
 photo.52: ig://B83wKcfBMqd/m
 photo.52.author: firefoxpanda88
@@ -893,7 +893,7 @@ photo.175.tags: mofumofu, paws, peek, portrait
 photo.176: cwdc://Xydh91mADQE.jpg
 photo.176.author: ck.chie
 photo.176.commitdate: 2021/12/18
-photo.176.link: https://www.instagram.com/p/CVP9OYjBMDx
+photo.176.link: ig://CVP9OYjBMDx
 photo.176.tags: apple time, paws, portrait, sample, smile
 photo.177: ig://CV9Qix8B--f/m
 photo.177.author: na.mo.pan
@@ -978,12 +978,12 @@ photo.192.tags: ear, mofumofu, sample
 photo.193: cwdc://X8CMFvBADQC.jpg
 photo.193.author: ck.chie
 photo.193.commitdate: 2022/4/15
-photo.193.link: https://www.instagram.com/p/CaCSSVQvNBq
+photo.193.link: ig://CaCSSVQvNBq
 photo.193.tags: apple time, paws, smile, whiskers
 photo.194: cwdc://X8HbAx3ADQD.jpg
 photo.194.author: ck.chie
 photo.194.commitdate: 2022/4/15
-photo.194.link: https://www.instagram.com/p/CaE5v2rvlZn
+photo.194.link: ig://CaE5v2rvlZn
 photo.194.tags: bamboo, portrait, sample, smile, whiskers
 photo.195: ig://CbD3ZubBSbj/m
 photo.195.author: ssc6105
@@ -1140,11 +1140,11 @@ photo.225.author: pink.b22
 photo.225.commitdate: 2024/5/4
 photo.225.link: ig://CkxgoELPunm
 photo.225.tags: mofumofu, peek, portrait, sample, tree
-species: 2
-studbook.id: 1295
-zoo: 18
 photo.226: cwdc://W6PVJavADQG.jpg
 photo.226.author: hamiiiii831_
 photo.226.commitdate: 2025/1/20
 photo.226.link: ig://B5I20LHh-GT
 photo.226.tags: close-up, lips, portrait, sample, whiskers
+species: 2
+studbook.id: 1295
+zoo: 18
