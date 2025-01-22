@@ -17,7 +17,7 @@ photo.1: cwdc://V-WFCtqADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/11/14
 photo.1.link: https://www.instagram.com/p/BbMOw0lFpp0
-photo.1.tags: laying down, portrait, profile, sample
+photo.1.tags: laying down, mofumofu, portrait, profile, sample, whiskers
 photo.2: ig://BdOZvGOlaZQ/m
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/10/8
@@ -43,11 +43,11 @@ photo.6.author: monmon_redpanda
 photo.6.commitdate: 2018/11/14
 photo.6.link: https://www.instagram.com/monmon_redpanda/
 photo.6.tags: portrait
-photo.7: ig://BhtQgTgFw-7/m
+photo.7: cwdc://WLYIhrgADQA.jpg
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/12/23
-photo.7.link: https://www.instagram.com/hanamaru_redpanda/
-photo.7.tags: close-up, portrait, whiskers
+photo.7.link: ig://BhtQgTgFw-7
+photo.7.tags: close-up, portrait, sample, whiskers
 photo.8: ig://Bkdsuq3lHDd/m
 photo.8.author: craig_craig_craig
 photo.8.commitdate: 2018/11/14
@@ -76,8 +76,3 @@ species: 1
 studbook.id: 1092
 uncertainty: off exhibit since 11/2019, twitter spotting 1/2020
 zoo: 59
-photo.13: cwdc://V-WFCtqADQA.jpg
-photo.13.author: hanamaru_redpanda
-photo.13.commitdate: 2025/1/22
-photo.13.link: ig://BbMOw0lFpp0
-photo.13.tags: laying down, mofumofu, portrait, sample, whiskers
