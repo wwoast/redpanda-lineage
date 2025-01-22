@@ -20,11 +20,11 @@ photo.1.author: panda.daisuki
 photo.1.commitdate: 2021/3/18
 photo.1.link: https://www.instagram.com/panda.daisuki/
 photo.1.tags: baby, mofumofu, portrait
-photo.2: ig://BCWSj4YQZy9/m
+photo.2: cwdc://VMqMo1QADQA.jpg
 photo.2.author: rio_minron
 photo.2.commitdate: 2018/8/12
-photo.2.link: https://www.instagram.com/rio_minron/
-photo.2.tags: bamboo
+photo.2.link: ig://BCWSj4YQZy9
+photo.2.tags: bamboo, mofumofu, paws
 photo.3: ig://BDBHGMmPi5t/m
 photo.3.author: panda.daisuki
 photo.3.commitdate: 2022/3/20

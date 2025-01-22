@@ -20,11 +20,11 @@ photo.1.author: arinco_g6
 photo.1.commitdate: 2018/7/29
 photo.1.link: https://www.instagram.com/arinco_g6/
 photo.1.tags: smile, tongue
-photo.2: ig://BGyfrHSQZ20/m
+photo.2: cwdc://VVim3TEADQA.jpg
 photo.2.author: rio_minron
 photo.2.commitdate: 2018/7/29
-photo.2.link: https://www.instagram.com/rio_minron/
-photo.2.tags: smile, tongue
+photo.2.link: ig://BGyfrHSQZ20
+photo.2.tags: sample, smile, tongue, whiskers
 photo.3: ig://BHuT4j8j653/m
 photo.3.author: minatomirai215
 photo.3.commitdate: 2020/5/25

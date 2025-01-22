@@ -61,11 +61,11 @@ photo.9.author: panda.daisuki
 photo.9.commitdate: 2018/11/5
 photo.9.link: https://www.instagram.com/panda.daisuki/
 photo.9.tags: tree
-photo.10: ig://BDFb9bqQZ3q/m
+photo.10: cwdc://VOIfb70ADQA.jpg
 photo.10.author: rio_minron
 photo.10.commitdate: 2018/10/20
-photo.10.link: https://www.instagram.com/rio_minron/
-photo.10.tags: smile, tongue
+photo.10.link: ig://BDFb9bqQZ3q
+photo.10.tags: portrait, sample, smile, tongue
 photo.11: ig://BHily-ejQTC/m
 photo.11.author: masa_polarbear
 photo.11.commitdate: 2020/4/26
