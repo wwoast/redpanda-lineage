@@ -56,6 +56,8 @@ photo.8.author: perie1027vivi
 photo.8.commitdate: 2025/1/21
 photo.8.link: ig://BqFPIJrlkqY
 photo.8.tags: couple, paws, portrait, sample, smile, whiskers
+photo.8.tags.11.location: 275, 240
+photo.8.tags.12.location: 525, 395
 photo.9: cwdc://Wc7n398ADQE.jpg
 photo.9.author: na.mo.pan
 photo.9.commitdate: 2024/11/7
@@ -66,7 +68,7 @@ photo.9.tags.12.location: 180, 365
 photo.10: cwdc://Wd306AuADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2019/11/24
-photo.10.link: https://www.instagram.com/p/Bq9GseHFQH0
+photo.10.link: ig://Bq9GseHFQH0
 photo.10.tags: couple, tail
 photo.10.tags.11.location: 35, 60
 photo.10.tags.12.location: 165, 150
@@ -96,6 +98,8 @@ photo.14.author: tomo3700
 photo.14.commitdate: 2025/1/21
 photo.14.link: ig://B_BhrzEB9P6
 photo.14.tags: couple, home,  portrait, sample
+photo.14.tags.11.location: 345, 415
+photo.14.tags.12.location: 355, 585
 photo.15: cwdc://XK5J8JnADQA.jpg
 photo.15.author: eos1089
 photo.15.commitdate: 2025/1/20
