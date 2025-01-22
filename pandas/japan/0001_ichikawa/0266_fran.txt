@@ -14,16 +14,16 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-photo.1: cwdc://VMxEnCBADQA.jpg
+photo.1: cwdc://VLA1GFwADQA.jpg
 photo.1.author: rio_minron
 photo.1.commitdate: 2018/7/29
-photo.1.link: https://www.instagram.com/p/BCZui-wwZ_9
-photo.1.tags: portrait, profile, sample
-photo.2: cwdc://VLA1GFwADQA.jpg
+photo.1.link: ig://BBhmygoQZ2k
+photo.1.tags: standing, whiskers
+photo.2: cwdc://VMxEnCBADQA.jpg
 photo.2.author: rio_minron
 photo.2.commitdate: 2018/7/29
-photo.2.link: ig://BBhmygoQZ2k
-photo.2.tags: standing, whiskers
+photo.2.link: https://www.instagram.com/p/BCZui-wwZ_9
+photo.2.tags: portrait, profile, sample
 species: 2
 studbook.id: 1199
 video.1: https://youtu.be/vq8fxKQBMGA
