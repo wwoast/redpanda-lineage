@@ -23,11 +23,11 @@ photo.2.author: miis_98
 photo.2.commitdate: 2018/8/22
 photo.2.link: https://www.instagram.com/p/BY3TUMEBwr1
 photo.2.tags: bamboo, bite, portrait, profile, sample
-photo.3: ig://BcMZvfBFqWV/m
+photo.3: cwdc://WAWbACiADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2020/3/11
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: close-up, portrait, whiskers
+photo.3.link: ig://BcMZvfBFqWV
+photo.3.tags: close-up, peek, portrait, sample, whiskers
 photo.4: ig://BitrZ4iFRdD/m
 photo.4.author: yossi929
 photo.4.commitdate: 2020/5/14

@@ -22,11 +22,11 @@ photo.1.author: colette.jp
 photo.1.commitdate: 2019/5/15
 photo.1.link: https://www.instagram.com/colette.jp/
 photo.1.tags: lips, lunch time, tongue
-photo.2: ig://BfQH1VSlVPU/m
+photo.2: cwdc://WGd3LvFADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2020/3/12
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: portrait, whiskers
+photo.2.link: ig://BfQH1VSlVPU
+photo.2.tags: portrait, sample, whiskers
 photo.3: cwdc://WLsh7MkADQA.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2018/7/20

@@ -18,11 +18,11 @@ photo.1.author: monmon_redpanda
 photo.1.commitdate: 2020/3/11
 photo.1.link: https://www.instagram.com/monmon_redpanda/
 photo.1.tags: smile, whiskers
-photo.2: ig://BYQcTfOFfFO/m
+photo.2: cwdc://V4egIC8ADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: smile, tail
+photo.2.link: ig://BYQcTfOFfFO
+photo.2.tags: portrait, sample, smile, tail, tongue, whiskers
 photo.3: ig://BoTsPNuFeVX/m
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2018/9/30

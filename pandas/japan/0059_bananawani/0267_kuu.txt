@@ -53,11 +53,11 @@ photo.8.author: craig_craig_craig
 photo.8.commitdate: 2019/10/8
 photo.8.link: https://www.instagram.com/craig_craig_craig/
 photo.8.tags: laying down, paws
-photo.9: ig://Bk407sGltns/m
+photo.9: cwdc://WRvRYctADQA.jpg
 photo.9.author: hanamaru_redpanda
 photo.9.commitdate: 2018/7/30
-photo.9.link: https://www.instagram.com/hanamaru_redpanda/
-photo.9.tags: bamboo, portrait
+photo.9.link: ig://Bk407sGltns
+photo.9.tags: bamboo, portrait, sample
 photo.10: ig://Bl1XeV_loeD/m
 photo.10.author: miis_98
 photo.10.commitdate: 2018/7/30

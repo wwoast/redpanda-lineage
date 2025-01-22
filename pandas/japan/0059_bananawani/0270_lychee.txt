@@ -24,10 +24,10 @@ photo.2.author: ryumin89
 photo.2.commitdate: 2018/7/30
 photo.2.link: https://www.instagram.com/ryumin89/
 photo.2.tags: bamboo, tail
-photo.3: ig://BbZf9HiFmEj/m
+photo.3: cwdc://V-wnbTkADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/12/23
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.link: ig://BbZf9HiFmEj
 photo.4: ig://Bel4Qu2h1_Y/m
 photo.4.author: miis_98
 photo.4.commitdate: 2020/4/2
@@ -48,11 +48,11 @@ photo.7.author: okuma96
 photo.7.commitdate: 2019/6/9
 photo.7.link: https://www.instagram.com/okuma96/
 photo.7.tags: laying down, paws, tongue
-photo.8: ig://Bk93WJnlNlu/m
+photo.8: cwdc://WR5WNXvADQB.jpg
 photo.8.author: hanamaru_redpanda
 photo.8.commitdate: 2018/7/30
-photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: dish, lunch time
+photo.8.link: ig://Bk93WJnlNlu
+photo.8.tags: dish, lunch time, portrait, sample
 photo.9: ig://BmQctqVHDXd/m
 photo.9.author: kinako0823
 photo.9.commitdate: 2018/12/22
@@ -160,3 +160,4 @@ species: 1
 studbook.id: 0577
 uncertainty: death month/day
 zoo: 59
+photo.3.tags: close-up, mofumofu, portrait, sample

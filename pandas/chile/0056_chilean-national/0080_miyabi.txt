@@ -15,11 +15,11 @@ language.order: ja, en
 litter: none
 location.1: 9, 2017/6/25
 location.2: 56, 2022/6/12
-photo.1: ig://BaOnlgcF57y/m
+photo.1: cwdc://V8a2sFYADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: baby, portrait
+photo.1.link: ig://BaOnlgcF57y
+photo.1.tags: baby, paws, portrait, sample, tail
 photo.2: ig://Bb0KPlZB_yH/m
 photo.2.author: miis_98
 photo.2.commitdate: 2020/4/17
@@ -84,10 +84,10 @@ photo.14.author: fetorus_mami
 photo.14.commitdate: 2018/12/1
 photo.14.link: https://www.instagram.com/fetorus_mami/
 photo.14.tags: bamboo, paws, sample
-photo.15: ig://Bj9cOPHFRgN/m
+photo.15: cwdc://WP4f9iuADQB.jpg
 photo.15.author: hanamaru_redpanda
 photo.15.commitdate: 2020/3/13
-photo.15.link: https://www.instagram.com/hanamaru_redpanda/
+photo.15.link: ig://Bj9cOPHFRgN
 photo.15.tags: laying down, portrait, sample, white face
 photo.16: ig://BkPrXe4l4jt/m
 photo.16.author: roko_mm

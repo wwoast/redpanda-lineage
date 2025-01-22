@@ -15,10 +15,10 @@ language.order: ja, en
 litter: none
 location.1: 30, 2007/6/14
 location.2: 19, 2010/2/18
-photo.1: ig://BcZdo1NFzYF/m
+photo.1: cwdc://WAwiyu6ADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/11
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.link: ig://BcZdo1NFzYF
 photo.1.tags: lips, portrait, sample, whiskers
 photo.2: ig://BlZGGsRFC-z/m
 photo.2.author: re_ichimaru

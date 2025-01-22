@@ -18,11 +18,11 @@ photo.1.author: yossi929
 photo.1.commitdate: 2020/9/5
 photo.1.link: https://www.instagram.com/yossi929/
 photo.1.tags: paws, tree
-photo.2: ig://BceeG7JFePx/m
+photo.2: cwdc://WA6ju6yADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: portrait
+photo.2.link: ig://BceeG7JFePx
+photo.2.tags: portrait, sample, whiskers
 photo.3: ig://Be9D64BnFiz/m
 photo.3.author: yossi929
 photo.3.commitdate: 2020/9/5

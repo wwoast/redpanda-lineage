@@ -17,21 +17,21 @@ photo.1: ig://BdUlcmUgJI6/m
 photo.1.author: peek_a_boo00
 photo.1.commitdate: 2019/6/9
 photo.1.link: https://www.instagram.com/peek_a_boo00/
-photo.2: ig://BdmoPfSlVfb/m
+photo.2: cwdc://WDK4ADFADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: bamboo, portrait
-photo.3: ig://BhycoOEl7H1/m
+photo.2.link: ig://BdmoPfSlVfb
+photo.2.tags: bamboo, paws, portrait, sample, tongue
+photo.3: cwdc://WLigxgpADQB.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/8/23
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: portrait
-photo.4: ig://BlII8KklzQu/m
+photo.3.link: ig://BhycoOEl7H1
+photo.3.tags: paws, portrait, sample
+photo.4: cwdc://WSN5ZZpADQC.jpg
 photo.4.author: hanamaru_redpanda
 photo.4.commitdate: 2018/8/23
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: bamboo, portrait
+photo.4.link: ig://BlII8KklzQu
+photo.4.tags: bamboo, paws, peek, portrait, sample
 photo.5: ig://Bl-fnqDlEl4/m
 photo.5.author: miis_98
 photo.5.commitdate: 2018/8/23

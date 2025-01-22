@@ -26,11 +26,11 @@ photo.2.author: monmon_redpanda
 photo.2.commitdate: 2019/6/20
 photo.2.link: https://www.instagram.com/monmon_redpanda/
 photo.2.tags: home, paws
-photo.3: ig://BYDNg3YlqZ0/m
+photo.3: cwdc://V4ECizRADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/12/23
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: portrait, sleeping, tongue
+photo.3.link: ig://BYDNg3YlqZ0
+photo.3.tags: home, portrait, sleeping, tongue
 photo.4: ig://Bf9ZZbghBQf/m
 photo.4.author: apple_jasmine33
 photo.4.commitdate: 2020/5/15

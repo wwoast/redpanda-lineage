@@ -15,11 +15,11 @@ language.order: ja, en
 litter: 41
 location.1: 19, 2014/7/13
 location.2: 58, 2018/9/28
-photo.1: ig://BcW8GPrFDX9/m
+photo.1: cwdc://WArftj2ADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/10/6
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: portrait, tongue
+photo.1.link: ig://BcW8GPrFDX9
+photo.1.tags: mofumofu, portrait, sample, tongue, whiskers
 photo.2: ig://BkSjT3Bg9ZL/m
 photo.2.author: sbskyy
 photo.2.commitdate: 2018/8/23

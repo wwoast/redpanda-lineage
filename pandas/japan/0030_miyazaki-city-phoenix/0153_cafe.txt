@@ -21,21 +21,21 @@ photo.1.author: rdpnzoo
 photo.1.commitdate: 2021/8/6
 photo.1.link: https://www.instagram.com/rdpnzoo/
 photo.1.tags: bite, smile
-photo.2: ig://BYF8BvGliT7/m
+photo.2: cwdc://V4JfkitADQC.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2020/3/11
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: itchy, portrait, smile, tail, tongue
+photo.2.link: ig://BYF8BvGliT7
+photo.2.tags: itchy, portrait, sample, smile, tail, tongue
 photo.3: ig://BYUzkZVHcY0/m
 photo.3.author: fuji_safari
 photo.3.commitdate: 2020/1/18
 photo.3.link: https://www.instagram.com/fuji_safari/
 photo.3.tags: bear worm, laying down, portrait, smile, tongue
-photo.4: ig://BY0Pg5Zln7y/m
+photo.4: cwdc://V5mGi3TADQB.jpg
 photo.4.author: hanamaru_redpanda
 photo.4.commitdate: 2018/12/23
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: bamboo
+photo.4.link: ig://BY0Pg5Zln7y
+photo.4.tags: bamboo, close-up, portrait, sample
 photo.5: ig://BaC74z1hMru/m
 photo.5.author: miis_98
 photo.5.commitdate: 2020/4/1
@@ -60,11 +60,11 @@ photo.9: ig://Bf64yEQBAZf/m
 photo.9.author: _rifa_p
 photo.9.commitdate: 2018/8/12
 photo.9.link: https://www.instagram.com/_rifa_p/
-photo.10: ig://BgBIdCplgLV/m
+photo.10: cwdc://WH_4bJzADQA.jpg
 photo.10.author: hanamaru_redpanda
 photo.10.commitdate: 2020/3/12
-photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: portrait, whiskers
+photo.10.link: ig://BgBIdCplgLV
+photo.10.tags: portrait, sample, whiskers
 photo.11: ig://BhQnCgHlXae/m
 photo.11.author: rie_panda55
 photo.11.commitdate: 2018/7/22

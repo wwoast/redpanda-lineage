@@ -20,16 +20,16 @@ photo.1.author: miis_98
 photo.1.commitdate: 2020/4/1
 photo.1.link: https://www.instagram.com/miis_98/
 photo.1.tags: ear, whiskers
-photo.2: ig://Bd2LvXYlGKn/m
+photo.2: cwdc://WDp-_zRADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/10/19
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: portrait
-photo.3: ig://BkhmOZslTvq/m
+photo.2.link: ig://Bd2LvXYlGKn
+photo.2.tags: portrait, sample
+photo.3: cwdc://WRAz935ADQB.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/8/23
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: portrait, smile
+photo.3.link: ig://BkhmOZslTvq
+photo.3.tags: portrait, sample, smile, whiskers
 photo.4: ig://Bw6B4GdlCEJ/m
 photo.4.author: craig_craig_craig
 photo.4.commitdate: 2019/5/10

@@ -18,11 +18,11 @@ photo.1.author: peek_a_boo00
 photo.1.commitdate: 2020/5/9
 photo.1.link: https://www.instagram.com/peek_a_boo00/
 photo.1.tags: baby, bamboo, paws, portrait, smile
-photo.2: ig://BdXRTJIFZpW/m
+photo.2: cwdc://WCsKHWwADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: baby
+photo.2.link: ig://BdXRTJIFZpW
+photo.2.tags: baby, close-up, mofumofu, portrait
 photo.3: ig://Bdi_iwenAbT/m
 photo.3.author: kotata_513
 photo.3.commitdate: 2019/10/8
@@ -57,11 +57,11 @@ photo.9.author: craig_craig_craig
 photo.9.commitdate: 2018/7/30
 photo.9.link: https://www.instagram.com/craig_craig_craig/
 photo.9.tags: tree
-photo.10: ig://Bk7V5ESFqyW/m
+photo.10: cwdc://WR0TTNEADQB.jpg
 photo.10.author: hanamaru_redpanda
 photo.10.commitdate: 2020/3/13
-photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: laying down, portrait
+photo.10.link: ig://Bk7V5ESFqyW
+photo.10.tags: laying down, mofumofu, portrait, sample
 photo.11: ig://Bltoloaha9E/m
 photo.11.author: miis_98
 photo.11.commitdate: 2018/7/30

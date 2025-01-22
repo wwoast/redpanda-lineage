@@ -26,11 +26,11 @@ photo.2.author: fetorus_mami
 photo.2.commitdate: 2018/7/19
 photo.2.link: https://www.instagram.com/fetorus_mami/
 photo.2.tags: lips
-photo.3: ig://BkFUYhkFuRD/m
+photo.3: cwdc://WQIQSHoADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/7/19
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: portrait
+photo.3.link: ig://BkFUYhkFuRD
+photo.3.tags: portrait, sample, tail, whiskers
 photo.4: ig://BkZXwEvluhd/m
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2018/7/28

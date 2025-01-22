@@ -30,11 +30,11 @@ photo.3.author: apple_jasmine33
 photo.3.commitdate: 2020/5/7
 photo.3.link: https://www.instagram.com/apple_jasmine33/
 photo.3.tags: portrait
-photo.4: ig://BcUOLo5FQTW/m
+photo.4: cwdc://WAmD4WSADQA.jpg
 photo.4.author: hanamaru_redpanda
 photo.4.commitdate: 2018/12/23
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: portrait
+photo.4.link: ig://BcUOLo5FQTW
+photo.4.tags: portrait, sample, whiskers
 photo.5: ig://Bg4-IX7Bv5w/m
 photo.5.author: kotata_513
 photo.5.commitdate: 2019/6/23

@@ -20,10 +20,10 @@ photo.1.author: rnrirhrh
 photo.1.commitdate: 2019/10/20
 photo.1.link: https://www.instagram.com/rnrirhrh/
 photo.1.tags: portrait
-photo.2: ig://BX9-cHelQEc/m
+photo.2: cwdc://V35kZTdADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.link: ig://BX9-cHelQEc
 photo.3: ig://BaOk6qTnAMm/m
 photo.3.author: ryoya.izm
 photo.3.commitdate: 2018/10/7
@@ -285,3 +285,4 @@ photo.54.tags: lips, mofumofu, sample
 species: 2
 studbook.id: 1090
 zoo: 53
+photo.2.tags: paws, peek, portrait, sample, whiskers

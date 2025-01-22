@@ -31,11 +31,11 @@ photo.3.author: miis_98
 photo.3.commitdate: 2020/6/8
 photo.3.link: https://www.instagram.com/miis_98/
 photo.3.tags: portrait, smile, whiskers
-photo.4: ig://BY-hQusFcts/m
+photo.4: cwdc://V56qCh4ADQC.jpg
 photo.4.author: hanamaru_redpanda
 photo.4.commitdate: 2018/12/23
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: bamboo
+photo.4.link: ig://BY-hQusFcts
+photo.4.tags: bamboo, mofumofu, portrait, sample, whiskers
 photo.5: ig://BcavQGpgPAg/m
 photo.5.author: peek_a_boo00
 photo.5.commitdate: 2020/6/8
@@ -65,16 +65,16 @@ photo.10.author: sulfa2
 photo.10.commitdate: 2018/7/28
 photo.10.link: https://www.instagram.com/sulfa2/
 photo.10.tags: tongue
-photo.11: ig://BkPaUgiF16K/m
+photo.11: cwdc://WQccKFkADQA.jpg
 photo.11.author: hanamaru_redpanda
 photo.11.commitdate: 2020/3/17
-photo.11.link: https://www.instagram.com/hanamaru_redpanda/
-photo.11.tags: ear, mofumofu, portrait, whiskers
-photo.12: ig://BlU-0-jlwx3/m
+photo.11.link: ig://BkPaUgiF16K
+photo.11.tags: ear, mofumofu, portrait, sample, whiskers
+photo.12: cwdc://WSnlLBnADQB.jpg
 photo.12.author: hanamaru_redpanda
 photo.12.commitdate: 2018/7/28
-photo.12.link: https://www.instagram.com/hanamaru_redpanda/
-photo.12.tags: laying down
+photo.12.link: ig://BlU-0-jlwx3
+photo.12.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
 photo.13: ig://BqHhz7qFArx/m
 photo.13.author: perie1027vivi
 photo.13.commitdate: 2018/11/13

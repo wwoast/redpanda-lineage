@@ -16,11 +16,11 @@ language.order: ja, en
 litter: none
 location.1: 60, 2017/7/17
 location.2: 57, 2022/2/16
-photo.1: ig://Bfai3nVl5nZ/m
+photo.1: cwdc://WGytQTLADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/12
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: climb, paws, portrait, smile, whiskers
+photo.1.link: ig://Bfai3nVl5nZ
+photo.1.tags: climb, paws, portrait, sample, smile, whiskers
 photo.2: ig://Bg5IfCkjGkX/m
 photo.2.author: satoshi_jimny
 photo.2.commitdate: 2018/8/22

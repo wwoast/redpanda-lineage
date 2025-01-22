@@ -20,11 +20,11 @@ litter: none
 location.1: 13, 2013/7/7
 location.2: 29, 2020/2/26
 location.3: 62, 2020/12/1
-photo.1: ig://BaJLC1jlot2/m
+photo.1: cwdc://V8P9mvnADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/11
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: laying down, portrait, whiskers
+photo.1.link: ig://BaJLC1jlot2
+photo.1.tags: laying down, portrait, sample, whiskers
 photo.2: ig://BjClcZOAh5W/m
 photo.2.author: minato.yokohama4416
 photo.2.commitdate: 2018/7/20

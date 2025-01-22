@@ -16,11 +16,11 @@ language.order: ja, en
 litter: none
 location.1: 72, 2011/8/10
 location.2: 59, 2014/5/28
-photo.1: ig://BbeJYJ_FXWv/m
+photo.1: cwdc://V-56RYeADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: bamboo
+photo.1.link: ig://BbeJYJ_FXWv
+photo.1.tags: bamboo, paws, portrait, sample
 photo.2: ig://BcymzY5gJY2/m
 photo.2.author: chizora1221
 photo.2.commitdate: 2018/7/30
@@ -31,16 +31,16 @@ photo.3.author: miis_98
 photo.3.commitdate: 2018/7/30
 photo.3.link: https://www.instagram.com/miis_98/
 photo.3.tags: tree
-photo.4: ig://BhqyW8Wl8VV/m
+photo.4: cwdc://WLTMO9NADQB.jpg
 photo.4.author: hanamaru_redpanda
 photo.4.commitdate: 2018/7/30
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: laying down, tree
-photo.5: ig://BlAXQDyl2CD/m
+photo.4.link: ig://BhqyW8Wl8VV
+photo.4.tags: laying down, portrait, sample, tree
+photo.5: cwdc://WR-WBMFADQC.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/7/30
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: bamboo
+photo.5.link: ig://BlAXQDyl2CD
+photo.5.tags: bamboo, paws, portrait, sample
 photo.6: cwdc://WenrUAYADQA.jpg
 photo.6.author: roko_mm
 photo.6.commitdate: 2018/12/14

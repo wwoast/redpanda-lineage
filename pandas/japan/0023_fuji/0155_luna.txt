@@ -17,21 +17,21 @@ location.1: 73, 2006/7/10
 location.2: 36, 2009/3/26
 location.3: 15, 2014/1/30
 location.4: 23, 2017/7/4
-photo.1: ig://BYLLC5clC5t/m
+photo.1: cwdc://V4T9m3ZADQB.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: portrait
+photo.1.link: ig://BYLLC5clC5t
+photo.1.tags: peek, portrait, sample, whiskers
 photo.2: ig://BZ7wuLzBJ4X/m
 photo.2.author: miis_98
 photo.2.commitdate: 2020/4/6
 photo.2.link: https://www.instagram.com/miis_98/
 photo.2.tags: paws, portrait, whiskers
-photo.3: ig://BbCBmorlpVD/m
+photo.3: cwdc://V-BquV3ADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2020/3/11
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: portrait
+photo.3.link: ig://BbCBmorlpVD
+photo.3.tags: portrait, sample, smile, whiskers
 photo.4: ig://BfAxrNkh31v/m
 photo.4.author: miis_98
 photo.4.commitdate: 2020/4/6

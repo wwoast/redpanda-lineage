@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 277, 279
-photo.1: ig://BdcSMqJla9T/m
+photo.1: cwdc://WC2L6YzADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: baby, dish
+photo.1.link: ig://BdcSMqJla9T
+photo.1.tags: baby, dish, portrait
 photo.2: ig://Bdq5AVxn3HL/m
 photo.2.author: kotata_513
 photo.2.commitdate: 2018/7/30
