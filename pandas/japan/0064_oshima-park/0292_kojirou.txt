@@ -73,11 +73,11 @@ photo.12.author: panda.daisuki
 photo.12.commitdate: 2018/10/17
 photo.12.link: https://www.instagram.com/panda.daisuki/
 photo.12.tags: portrait, tree
-photo.13: ig://BkpPJp5lsTy/m
+photo.13: cwdc://WRQF0YTADQA.jpg
 photo.13.author: hanamaru_redpanda
 photo.13.commitdate: 2018/10/17
-photo.13.link: https://www.instagram.com/hanamaru_redpanda/
-photo.13.tags: portrait
+photo.13.link: ig://BkpPJp5lsTy
+photo.13.tags: portrait, sample
 photo.14: ig://Bxhk0_AFPR5/m
 photo.14.author: craig_craig_craig
 photo.14.commitdate: 2019/5/18

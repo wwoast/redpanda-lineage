@@ -40,11 +40,11 @@ photo.5.author: miis_98
 photo.5.commitdate: 2018/12/11
 photo.5.link: https://www.instagram.com/miis_98/
 photo.5.tags: apple time, keeper, old, portrait
-photo.6: ig://BZ8L9mplGwO/m
+photo.6: cwdc://V71_cRzADQB.jpg
 photo.6.author: hanamaru_redpanda
 photo.6.commitdate: 2020/3/11
-photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: old, portrait, whiskers
+photo.6.link: ig://BZ8L9mplGwO
+photo.6.tags: old, portrait, sample, whiskers
 photo.7: cwdc://WQVLwszADQA.jpg
 photo.7.author: kipekaila
 photo.7.commitdate: 2018/7/19
@@ -55,11 +55,11 @@ photo.8.author: kipekaila
 photo.8.commitdate: 2018/7/19
 photo.8.link: https://www.instagram.com/kipekaila/
 photo.8.tags: dish, old, portrait
-photo.9: ig://BkubAnvFuxo/m
+photo.9: cwdc://WRadiT-ADQA.jpg
 photo.9.author: hanamaru_redpanda
 photo.9.commitdate: 2020/3/13
-photo.9.link: https://www.instagram.com/hanamaru_redpanda/
-photo.9.tags: laying down, paws, portrait, sleeping
+photo.9.link: ig://BkubAnvFuxo
+photo.9.tags: laying down, paws, portrait, sample, sleeping
 photo.10: ig://BnkF9SdFunD/m
 photo.10.author: rie_panda55
 photo.10.commitdate: 2018/12/11

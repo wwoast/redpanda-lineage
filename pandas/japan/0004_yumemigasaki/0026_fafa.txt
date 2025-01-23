@@ -55,11 +55,11 @@ photo.8.author: miis_98
 photo.8.commitdate: 2018/7/16
 photo.8.link: https://www.instagram.com/p/Bi-awB0lp8W
 photo.8.tags: bamboo, portrait, profile, sample, smile
-photo.9: ig://BjW5cWBlWAg/m
+photo.9: cwdc://WOraZwjADQA.jpg
 photo.9.author: hanamaru_redpanda
 photo.9.commitdate: 2018/7/28
-photo.9.link: https://www.instagram.com/hanamaru_redpanda/
-photo.9.tags: bamboo, paws, portrait
+photo.9.link: ig://BjW5cWBlWAg
+photo.9.tags: bamboo, paws, portrait, sample
 photo.10: ig://BkH9Rt8FGRW/m
 photo.10.author: miis_98
 photo.10.commitdate: 2018/7/16

@@ -33,15 +33,15 @@ photo.4.author: minatomirai215
 photo.4.commitdate: 2020/5/12
 photo.4.link: https://www.instagram.com/minatomirai215/
 photo.4.tags: paws, portrait, smile, tongue, white face
-photo.5: ig://BbRQRO7lWfk/m
+photo.5: cwdc://V-gIDiXADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/12/15
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: bamboo
-photo.6: ig://Bde54W8FVog/m
+photo.5.link: ig://BbRQRO7lWfk
+photo.5.tags: bamboo, portrait, sample, white face
+photo.6: cwdc://WC7bRyYADQB.jpg
 photo.6.author: hanamaru_redpanda
 photo.6.commitdate: 2018/12/23
-photo.6.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6.link: ig://Bde54W8FVog
 photo.7: cwdc://WLDaUIgADQA.jpg
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/12/15
@@ -57,11 +57,11 @@ photo.9.author: craig_craig_craig
 photo.9.commitdate: 2018/12/15
 photo.9.link: https://www.instagram.com/craig_craig_craig/
 photo.9.tags: tail, tree
-photo.10: ig://BlFpD87lY6Q/m
+photo.10: cwdc://WSI5o-XADQC.jpg
 photo.10.author: hanamaru_redpanda
 photo.10.commitdate: 2018/12/15
-photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: laying down
+photo.10.link: ig://BlFpD87lY6Q
+photo.10.tags: bridge, laying down, paws, portrait, tree
 photo.11: ig://BmBWwGQhIvl/m
 photo.11.author: miis_98
 photo.11.commitdate: 2018/12/15
@@ -188,3 +188,4 @@ photo.35.tags: paws, portrait, sample
 species: 1
 studbook.id: 16100
 zoo: 59
+photo.6.tags: portrait, sample, white face

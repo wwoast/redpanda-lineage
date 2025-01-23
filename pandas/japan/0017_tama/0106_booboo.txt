@@ -35,11 +35,11 @@ photo.4.author: take_421
 photo.4.commitdate: 2021/9/23
 photo.4.link: https://www.instagram.com/take_421/
 photo.4.tags: smile, whiskers
-photo.5: ig://BfA6P71FZYK/m
+photo.5: cwdc://WF_cA8KADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/12/23
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: old, portrait, tongue
+photo.5.link: ig://BfA6P71FZYK
+photo.5.tags: old, paws, portrait, sample, snow, tongue
 photo.6: ig://Bi75F3ilxuO/m
 photo.6.author: rie_panda55
 photo.6.commitdate: 2018/7/21
@@ -50,11 +50,11 @@ photo.7.author: rdpnzoo
 photo.7.commitdate: 2018/7/21
 photo.7.link: https://www.instagram.com/rdpnzoo/
 photo.7.tags: old, tongue
-photo.8: ig://BjMd0G1l0H9/m
+photo.8: cwdc://WOWjJSLADQB.jpg
 photo.8.author: hanamaru_redpanda
 photo.8.commitdate: 2018/7/21
-photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: old, portrait
+photo.8.link: ig://BjMd0G1l0H9
+photo.8.tags: old, portrait, sample
 photo.9: cwdc://WSSC2cMADQA.jpg
 photo.9.author: kotata_513
 photo.9.commitdate: 2018/7/21

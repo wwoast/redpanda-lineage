@@ -35,11 +35,11 @@ photo.4.author: miis_98
 photo.4.commitdate: 2020/4/1
 photo.4.link: https://www.instagram.com/miis_98/
 photo.4.tags: apple time, keeper, portrait, smile
-photo.5: ig://BZGL8o9lLat/m
+photo.5: cwdc://V6J_aWbADQC.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/12/23
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: home, portrait, sleeping
+photo.5.link: ig://BZGL8o9lLat
+photo.5.tags: blink, home, portrait, sleeping
 photo.6: ig://BZQw3xaB3nO/m
 photo.6.author: take_421
 photo.6.commitdate: 2021/8/22
@@ -55,11 +55,11 @@ photo.8.author: _rifa_p
 photo.8.commitdate: 2018/7/22
 photo.8.link: https://www.instagram.com/_rifa_p/
 photo.8.tags: dig
-photo.9: ig://BaqpZS0lxpd/m
+photo.9: cwdc://V9S6TqJADQA.jpg
 photo.9.author: hanamaru_redpanda
 photo.9.commitdate: 2020/3/11
-photo.9.link: https://www.instagram.com/hanamaru_redpanda/
-photo.9.tags: portrait, whiskers
+photo.9.link: ig://BaqpZS0lxpd
+photo.9.tags: close-up, portrait, sample, whiskers
 photo.10: ig://BbC0SI1B1w6/m
 photo.10.author: take_421
 photo.10.commitdate: 2021/8/22
@@ -90,11 +90,11 @@ photo.15.author: _rifa_p
 photo.15.commitdate: 2018/7/22
 photo.15.link: https://www.instagram.com/_rifa_p/
 photo.15.tags: portrait, tail
-photo.16: ig://Bhd2Yvrlnsw/m
+photo.16: cwdc://WK5USj3ADQB.jpg
 photo.16.author: hanamaru_redpanda
 photo.16.commitdate: 2018/7/22
-photo.16.link: https://www.instagram.com/hanamaru_redpanda/
-photo.16.tags: home, portrait, tail
+photo.16.link: ig://Bhd2Yvrlnsw
+photo.16.tags: home, portrait, sample, tail, whiskers
 photo.17: ig://BkSmAfXFDHl/m
 photo.17.author: minatomirai215
 photo.17.commitdate: 2020/4/27

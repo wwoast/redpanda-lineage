@@ -60,11 +60,11 @@ photo.9.author: ck.chie
 photo.9.commitdate: 2019/11/5
 photo.9.link: https://www.instagram.com/p/BbEa7Grj68S
 photo.9.tags: mofumofu, portrait, sample, smile, tree
-photo.10: ig://BbodCOFlMFU/m
+photo.10: cwdc://V_OhlgrADQA.jpg
 photo.10.author: hanamaru_redpanda
 photo.10.commitdate: 2018/12/23
-photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: portrait
+photo.10.link: ig://BbodCOFlMFU
+photo.10.tags: mofumofu, portrait, sample, whiskers
 photo.11: ig://BcHe1FpDcCO/m
 photo.11.author: s.okano521
 photo.11.commitdate: 2018/10/7

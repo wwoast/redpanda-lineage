@@ -75,11 +75,11 @@ photo.12.author: hanamaru_redpanda
 photo.12.commitdate: 2020/3/11
 photo.12.link: https://www.instagram.com/p/BbEaeoSFnNx
 photo.12.tags: bamboo, portrait, profile, sample
-photo.13: ig://Bkzot-1lZxv/m
+photo.13: cwdc://WRk49CLADQA.jpg
 photo.13.author: hanamaru_redpanda
 photo.13.commitdate: 2018/10/6
-photo.13.link: https://www.instagram.com/hanamaru_redpanda/
-photo.13.tags: bamboo
+photo.13.link: ig://Bkzot-1lZxv
+photo.13.tags: bamboo, portrait, sample
 photo.14: ig://BqosFnGlsuF/m
 photo.14.author: fuji_safari
 photo.14.commitdate: 2020/1/19

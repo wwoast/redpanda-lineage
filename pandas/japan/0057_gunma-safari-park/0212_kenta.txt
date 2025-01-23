@@ -40,10 +40,10 @@ photo.5.author: zoowfreedom299
 photo.5.commitdate: 2022/4/10
 photo.5.link: https://www.instagram.com/zoowfreedom299/
 photo.5.tags: mofumofu, portrait, sample, snow
-photo.6: ig://BiWcHW1F0m4/m
+photo.6: cwdc://WMqfvyKADQA.jpg
 photo.6.author: hanamaru_redpanda
 photo.6.commitdate: 2018/7/26
-photo.6.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6.link: ig://BiWcHW1F0m4
 photo.7: ig://BjLXtI5lEyy/m
 photo.7.author: miis_98
 photo.7.commitdate: 2018/7/26
@@ -602,3 +602,4 @@ photo.118.tags: mofumofu, portrait, sample
 species: 2
 studbook.id: 1693
 zoo: 57
+photo.6.tags: close-up, portrait, sample

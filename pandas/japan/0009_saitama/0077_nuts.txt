@@ -44,11 +44,11 @@ photo.6.author: mifko55
 photo.6.commitdate: 2020/4/13
 photo.6.link: https://www.instagram.com/mifko55/
 photo.6.tags: lips, portrait
-photo.7: ig://BkABRvIFRRF/m
+photo.7: cwdc://WP9qEiwADQA.jpg
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/7/19
-photo.7.link: https://www.instagram.com/hanamaru_redpanda/
-photo.7.tags: portrait, smile
+photo.7.link: ig://BkABRvIFRRF
+photo.7.tags: portrait, sample, smile, whiskers
 photo.8: ig://BkZXZtXluqi/m
 photo.8.author: fetorus_mami
 photo.8.commitdate: 2018/7/19

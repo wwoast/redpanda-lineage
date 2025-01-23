@@ -18,11 +18,11 @@ location.1: 40, 2001/7/4
 location.2: 3, 2003/4/23
 location.3: 6, 2007/1/31
 location.4: 37, 2012/3/8
-photo.1: ig://Bb1pg4hFRGS/m
+photo.1: cwdc://V_o6i1iADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: bamboo, old
+photo.1.link: ig://Bb1pg4hFRGS
+photo.1.tags: bamboo, lips, old, portrait, sample, snow
 photo.2: cwdc://WYvo8SNADQA.jpg
 photo.2.author: miis_98
 photo.2.commitdate: 2018/10/1

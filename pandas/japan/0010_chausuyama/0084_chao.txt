@@ -36,11 +36,11 @@ photo.4.author: peek_a_boo00
 photo.4.commitdate: 2020/4/15
 photo.4.link: https://www.instagram.com/peek_a_boo00/
 photo.4.tags: blink
-photo.5: ig://BgssYwPl0xr/m
+photo.5: cwdc://WJXASk_ADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2020/3/12
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: bamboo, portrait, tongue, whiskers
+photo.5.link: ig://BgssYwPl0xr
+photo.5.tags: bamboo, portrait, sample, tongue, whiskers
 photo.6: ig://Bh3uNL8n3Af/m
 photo.6.author: nashi.cp
 photo.6.commitdate: 2018/7/29
