@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1182
-photo.1: ig://BVgsl1uD6LM/m
+photo.1: cwdc://Vy_Asv8ADQA.jpg
 photo.1.author: s.okano521
 photo.1.commitdate: 2018/11/18
-photo.1.link: https://www.instagram.com/s.okano521/
-photo.1.tags: grooming
+photo.1.link: ig://BVgsl1uD6LM
+photo.1.tags: grooming, paws
 photo.2: cwdc://V4jd0AsADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/12/23
