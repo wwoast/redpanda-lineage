@@ -31,7 +31,7 @@ photo.3.tags: portrait, tree
 photo.4: cwdc://WE8QPOpADQA.jpg
 photo.4.author: kotata_513
 photo.4.commitdate: 2018/7/21
-photo.4.link: https://www.instagram.com/p/BefUXFEn4CU
+photo.4.link: ig://BefUXFEn4CU
 photo.4.tags: portrait, profile, sample, tree
 photo.5: cwdc://WOB4eluADQA.jpg
 photo.5.author: hanamaru_redpanda
@@ -125,7 +125,7 @@ photo.22.tags: portrait, smile
 photo.23: cwdc://W67btkJADQA.jpg
 photo.23.author: ck.chie
 photo.23.commitdate: 2019/12/3
-photo.23.link: https://www.instagram.com/p/B5e6GP0hzar
+photo.23.link: ig://B5e6GP0hzar
 photo.23.tags: bamboo
 photo.24: ig://B5ma7nuBqOK/m
 photo.24.author: sasapan34
@@ -149,7 +149,7 @@ photo.27.tags: bamboo, snow
 photo.28: cwdc://W_GC3V8ADQB.jpg
 photo.28.author: ck.chie
 photo.28.commitdate: 2020/1/25
-photo.28.link: https://www.instagram.com/p/B7kNrIuBbH3
+photo.28.link: ig://B7kNrIuBbH3
 photo.28.tags: peek, snow, tail, tree
 photo.29: ig://B8qzTxzhL2P/m
 photo.29.author: leonard_redmof
@@ -204,7 +204,7 @@ photo.38.tags: peek, portrait
 photo.39: cwdc://XVC-o77ADQC.jpg
 photo.39.author: ck.chie
 photo.39.commitdate: 2020/10/29
-photo.39.link: https://www.instagram.com/p/CGirj7theA2
+photo.39.link: ig://CGirj7theA2
 photo.39.tags: paws, peek, portrait, sample, tree, whiskers
 photo.40: ig://CG7Lkm0hwuc/m
 photo.40.author: kotata_513
@@ -354,7 +354,7 @@ photo.68.tags: autumn, close-up, paws, portrait, sample, tongue, whiskers
 photo.69: cwdc://YW5AuLoADQD.jpg
 photo.69.author: ck.chie
 photo.69.commitdate: 2023/3/9
-photo.69.link: https://www.instagram.com/p/CndsmjkPNXf
+photo.69.link: ig://CndsmjkPNXf
 photo.69.tags: hammock
 photo.70: ig://CnzB7rlPHd8/m
 photo.70.author: mini_cochi
@@ -379,7 +379,7 @@ photo.73.tags: hammock, laying down, sample, tongue, tail
 photo.74: cwdc://YfVZqkjADQE.jpg
 photo.74.author: ck.chie
 photo.74.commitdate: 2023/5/3
-photo.74.link: https://www.instagram.com/p/Crr5EwBv-Ty
+photo.74.link: ig://Crr5EwBv-Ty
 photo.74.tags: mofumofu, portrait, sample, tail, whiskers
 photo.75: ig://Cw32POVv7A_/m
 photo.75.author: tamazoowalking

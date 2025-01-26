@@ -433,7 +433,7 @@ photo.83.tags: close-up, whiskers
 photo.84: cwdc://X8CyC9ZADQA.jpg
 photo.84.author: alto0908
 photo.84.commitdate: 2022/3/29
-photo.84.link: https://www.instagram.com/p/CaClQ8cheWs
+photo.84.link: ig://CaClQ8cheWs
 photo.84.tags: close-up, mofumofu, portrait, profile, sample, whiskers
 photo.85: ig://CaZSwXwvRWb/m
 photo.85.author: otenba_redpanda
@@ -493,7 +493,7 @@ photo.95.tags: sample
 photo.96: cwdc://XVJP_ldADQC.jpg
 photo.96.author: leonard_redmof
 photo.96.commitdate: 2024/3/14
-photo.96.link: https://www.instagram.com/p/CGl0PQeh4lq
+photo.96.link: ig://CGl0PQeh4lq
 photo.96.tags: baby, bamboo, bite, mofumofu, portrait
 species: 2
 studbook.id: 14141

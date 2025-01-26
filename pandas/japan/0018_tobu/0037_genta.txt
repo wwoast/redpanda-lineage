@@ -58,7 +58,7 @@ photo.8.tags: mofumofu, paws, whiskers
 photo.9: cwdc://V-GdXR3ADQB.jpg
 photo.9.author: ck.chie
 photo.9.commitdate: 2019/11/5
-photo.9.link: https://www.instagram.com/p/BbEa7Grj68S
+photo.9.link: ig://BbEa7Grj68S
 photo.9.tags: mofumofu, portrait, sample, smile, tree
 photo.10: cwdc://V_OhlgrADQA.jpg
 photo.10.author: hanamaru_redpanda
@@ -78,7 +78,7 @@ photo.12.tags: tree, tongue
 photo.13: cwdc://WBnkQNnADQC.jpg
 photo.13.author: ck.chie
 photo.13.commitdate: 2019/12/30
-photo.13.link: https://www.instagram.com/p/Bc0-Xkjjz-X
+photo.13.link: ig://Bc0-Xkjjz-X
 photo.13.tags: apple time, portrait, sample, standing, tongue, whiskers
 photo.14: ig://BfhtNv-gS0r/m
 photo.14.author: s.okano521
@@ -246,7 +246,7 @@ photo.46.tags: portrait, whiskers
 photo.47: cwdc://XAueTrZADQA.jpg
 photo.47.author: ck.chie
 photo.47.commitdate: 2020/2/18
-photo.47.link: https://www.instagram.com/p/B8YbZTchFR6
+photo.47.link: ig://B8YbZTchFR6
 photo.47.tags: apple time, paws, sample, standing, tail
 photo.48: ig://B8-DctPh1S8/m
 photo.48.author: grskus_tk
@@ -396,7 +396,7 @@ photo.76.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
 photo.77: cwdc://XXiG4UcADQA.jpg
 photo.77.author: fetorus_mami
 photo.77.commitdate: 2020/11/20
-photo.77.link: https://www.instagram.com/p/CHyPrn-Bbrq
+photo.77.link: ig://CHyPrn-Bbrq
 photo.77.tags: portrait, profile, sample, smile, whiskers
 photo.78: ig://CHyQQJ9BEYE/m
 photo.78.author: fetorus_mami
@@ -648,9 +648,7 @@ photo.127.author: ck.chie
 photo.127.commitdate: 2024/11/2
 photo.127.link: ig://C89vgm_Sfov
 photo.127.tags: close-up, laying down, lips, sample, whiskers
-species: 2
-studbook.id: 12105
-zoo: 18
+
 photo.128: cwdc://W_ICmnfADQA.jpg
 photo.128.author: hamiiiii831_
 photo.128.commitdate: 2025/1/24
@@ -686,3 +684,6 @@ photo.134.author: hamiiiii831_
 photo.134.commitdate: 2025/1/24
 photo.134.link: ig://C0C-QQdBF8y
 photo.134.tags: paws, peek, tree, whiskers
+species: 2
+studbook.id: 12105
+zoo: 18

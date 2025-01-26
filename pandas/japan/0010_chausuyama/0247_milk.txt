@@ -45,7 +45,7 @@ photo.5.tags: baby
 photo.6: cwdc://WZ1q5SgADQG.jpg
 photo.6.author: ck.chie
 photo.6.commitdate: 2018/10/15
-photo.6.link: https://www.instagram.com/p/Bo8BsHAFrwO
+photo.6.link: ig://Bo8BsHAFrwO
 photo.6.tags: baby, portrait, sample
 photo.7: ig://BpCCtXBlhwL/m
 photo.7.author: redpanda_nippon_takashi
@@ -401,7 +401,7 @@ photo.77.tags: smile
 photo.78: cwdc://WqWUwTgADQH.jpg
 photo.78.author: ck.chie
 photo.78.commitdate: 2019/5/8
-photo.78.link: https://www.instagram.com/p/BxMWnngF8wM
+photo.78.link: ig://BxMWnngF8wM
 photo.78.tags: peek, portrait, sample, tree
 photo.79: ig://BxSKro0FxXb/m
 photo.79.author: happy_love2.15
@@ -491,7 +491,7 @@ photo.95.tags: bamboo, mofumofu, wet
 photo.96: cwdc://Ws8LmOVADQI.jpg
 photo.96.author: ck.chie
 photo.96.commitdate: 2019/6/9
-photo.96.link: https://www.instagram.com/p/ByfSCk6hrfm
+photo.96.link: ig://ByfSCk6hrfm
 photo.96.tags: portrait, sample, tree
 photo.97: ig://BypPaBNBk7E/m
 photo.97.author: happy_love2.15
@@ -596,7 +596,7 @@ photo.116.tags: portrait, smile
 photo.117: cwdc://WyfTvf1ADQA.jpg
 photo.117.author: ck.chie
 photo.117.commitdate: 2019/8/19
-photo.117.link: https://www.instagram.com/p/B1Q2HNqh55L
+photo.117.link: ig://B1Q2HNqh55L
 photo.117.tags: tongue
 photo.118: ig://B1ToxGpBQYD/m
 photo.118.author: ifumoto88
@@ -611,7 +611,7 @@ photo.119.tags: door, paws
 photo.120: cwdc://WypMjVkADQB.jpg
 photo.120.author: ck.chie
 photo.120.commitdate: 2019/8/23
-photo.120.link: https://www.instagram.com/p/B1VyhIiBi93
+photo.120.link: ig://B1VyhIiBi93
 photo.120.tags: portrait, sample, smile, tongue, tree
 photo.121: ig://B1ev6S9BYVh/m
 photo.121.author: ssc6105
@@ -626,7 +626,7 @@ photo.122.tags: climb, head-first, paws
 photo.123: cwdc://W0qHLamADQC.jpg
 photo.123.author: ck.chie
 photo.123.commitdate: 2019/9/13
-photo.123.link: https://www.instagram.com/p/B2WP1LDBfM3
+photo.123.link: ig://B2WP1LDBfM3
 photo.123.tags: apple time, keeper
 photo.124: ig://B2bwlTgBwZq/m
 photo.124.author: ifumoto88
@@ -841,7 +841,7 @@ photo.165.tags: paws, poop, standing, tail, tree
 photo.166: cwdc://W7K48qhADQD.jpg
 photo.166.author: ck.chie
 photo.166.commitdate: 2019/12/7
-photo.166.link: https://www.instagram.com/p/B5motzAhXvM
+photo.166.link: ig://B5motzAhXvM
 photo.166.tags: tree
 photo.167: ig://B5mwSjDBHk6/m
 photo.167.author: pink.b22

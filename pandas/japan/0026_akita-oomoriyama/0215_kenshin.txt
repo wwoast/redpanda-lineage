@@ -33,7 +33,7 @@ photo.3.tags: mofumofu, muzzle, portrait, snow
 photo.4: cwdc://WS6xtd5ADQA.jpg
 photo.4.author: monmon_redpanda
 photo.4.commitdate: 2018/7/28
-photo.4.link: https://www.instagram.com/p/BlelGMsl9ey
+photo.4.link: ig://BlelGMsl9ey
 photo.4.tags: bamboo, muzzle, portrait, profile, sample
 photo.5: ig://BlfJgQwF3iM/m
 photo.5.author: monmon_redpanda
@@ -268,7 +268,7 @@ photo.50.tags: bamboo, dish, mofumofu, sample, smile, whiskers
 photo.51: cwdc://XFrHXjvADQA.jpg
 photo.51.author: hamiiiii831_
 photo.51.commitdate: 2024/3/16
-photo.51.link: https://www.instagram.com/p/B-2v7PnhcDE
+photo.51.link: ig://B-2v7PnhcDE
 photo.51.tags: muzzle, portrait, sample, whiskers
 species: 2
 studbook.id: 1298

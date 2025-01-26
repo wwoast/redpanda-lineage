@@ -74,7 +74,7 @@ photo.11.tags: tongue
 photo.12: cwdc://WXxvTdoADQA.jpg
 photo.12.author: roko_mm
 photo.12.commitdate: 2018/9/22
-photo.12.link: https://www.instagram.com/p/Bn6D5MkFKUR
+photo.12.link: ig://Bn6D5MkFKUR
 photo.12.tags: portrait, profile, sample, smile, tree
 photo.13: ig://BooI9D4F2Lf/m
 photo.13.author: miis_98
@@ -473,7 +473,7 @@ photo.91.tags: air tasting, portrait, tail, tongue
 photo.92: cwdc://XVh_CXVADQA.jpg
 photo.92.author: ck.chie
 photo.92.commitdate: 2020/11/28
-photo.92.link: https://www.instagram.com/p/CGyLwpahjE6
+photo.92.link: ig://CGyLwpahjE6
 photo.92.tags: portrait, sample, smile
 photo.93: ig://CG09LKyhiE9/m
 photo.93.author: grskus_tk

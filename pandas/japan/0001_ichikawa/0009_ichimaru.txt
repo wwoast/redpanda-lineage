@@ -66,7 +66,7 @@ photo.10.tags: blink, laying down, portrait, sample, sleeping
 photo.11: cwdc://WNbyjy_ADQA.jpg
 photo.11.author: miis_98
 photo.11.commitdate: 2018/7/16
-photo.11.link: https://www.instagram.com/p/BivFhXPlXzq
+photo.11.link: ig://BivFhXPlXzq
 photo.11.tags: portrait, profile, sample, whiskers
 photo.12: cwdc://WOPxsffADQA.jpg
 photo.12.author: redpanda_nippon_takashi
@@ -461,7 +461,7 @@ photo.89.tags: lips, portrait
 photo.90: cwdc://YaiPPuwADQA.jpg
 photo.90.author: ifumoto88
 photo.90.commitdate: 2024/3/10
-photo.90.link: https://www.instagram.com/p/CpST3VILU0k
+photo.90.link: ig://CpST3VILU0k
 photo.90.tags: close-up, portrait, sample, whiskers
 photo.91: cwdc://YanjjfGADQP.jpg
 photo.91.author: ifumoto88

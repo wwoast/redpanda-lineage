@@ -33,7 +33,7 @@ photo.3.tags: pooping, portrait, sample, tail, tongue
 photo.4: cwdc://V4mN7cRADQA.jpg
 photo.4.author: framereim
 photo.4.commitdate: 2018/8/12
-photo.4.link: https://www.instagram.com/p/BYUTNL4gp8y
+photo.4.link: ig://BYUTNL4gp8y
 photo.4.tags: portrait, profile, sample, smile, tree
 photo.5: ig://BY0kXq0hxtf/m
 photo.5.author: apple_jasmine33
@@ -417,17 +417,17 @@ photo.80.tags: portrait, sample, whiskers
 photo.81: cwdc://YwarhS_ADQA.jpg
 photo.81.author: redpanda_nippon_takashi
 photo.81.commitdate: 2024/3/10
-photo.81.link: https://www.instagram.com/p/C0OiAHPv-3r
+photo.81.link: ig://C0OiAHPv-3r
 photo.81.tags: paws, sample
 photo.82: cwdc://YwfzPzLADQB.jpg
 photo.82.author: redpanda_nippon_takashi
 photo.82.commitdate: 2024/3/10
-photo.82.link: https://www.instagram.com/p/C0RF3XVvFO9
+photo.82.link: ig://C0RF3XVvFO9
 photo.82.tags: peek, tree
 photo.83: cwdc://YwiX6xuADQC.jpg
 photo.83.author: redpanda_nippon_takashi
 photo.83.commitdate: 2024/3/10
-photo.83.link: https://www.instagram.com/p/C0SYM2nB2Ti
+photo.83.link: ig://C0SYM2nB2Ti
 photo.83.tags: nose, paws, peek, portrait, sample
 species: 2
 video.1: https://youtu.be/TUNBGBRlvvg

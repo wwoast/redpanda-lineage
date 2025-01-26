@@ -39,7 +39,7 @@ photo.4.tags: portrait
 photo.5: cwdc://WSoWg3EADQA.jpg
 photo.5.author: fetorus_mami
 photo.5.commitdate: 2018/7/28
-photo.5.link: https://www.instagram.com/p/BlVXf5SFR12
+photo.5.link: ig://BlVXf5SFR12
 photo.5.tags: close-up, portrait, profile, sample, whiskers
 photo.6: ig://BnyJA5qFyDI/m
 photo.6.author: fetorus_mami
@@ -222,7 +222,7 @@ photo.41.tags: door, portrait, white face
 photo.42: cwdc://XfoKD0aADQA.jpg
 photo.42.author: ck.chie
 photo.42.commitdate: 2021/10/10
-photo.42.link: https://www.instagram.com/p/CL1RRX9BbHn
+photo.42.link: ig://CL1RRX9BbHn
 photo.42.tags: mofumofu, shake, whiskers
 photo.43: ig://CMO10jHhI6u/m
 photo.43.author: tamazoowalking

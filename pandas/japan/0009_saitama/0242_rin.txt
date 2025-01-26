@@ -91,7 +91,7 @@ photo.15.tags: bamboo, portrait
 photo.16: cwdc://WcvJcZqADQA.jpg
 photo.16.author: ck.chie
 photo.16.commitdate: 2018/11/19
-photo.16.link: https://www.instagram.com/p/BqYw9qlFaFD
+photo.16.link: ig://BqYw9qlFaFD
 photo.16.tags: baby, bamboo, mofumofu, paws, portrait, sample
 photo.17: ig://BqZ0RxmFu43/m
 photo.17.author: fetorus_mami
@@ -281,7 +281,7 @@ photo.53.tags: bamboo, paws, portrait, standing
 photo.54: cwdc://W3ufW3nADQA.jpg
 photo.54.author: motohin
 photo.54.commitdate: 2019/10/22
-photo.54.link: https://www.instagram.com/p/B34b65jhkh6
+photo.54.link: ig://B34b65jhkh6
 photo.54.tags: close-up, portrait, profile, sample, white face
 photo.55: ig://B4CXEgUh3Ek/m
 photo.55.author: ssc6105
@@ -666,7 +666,7 @@ photo.130.tags: bamboo, portrait, smile, white face
 photo.131: cwdc://XkGMxzgADQL.jpg
 photo.131.author: ck.chie
 photo.131.commitdate: 2021/10/6
-photo.131.link: https://www.instagram.com/p/COESoXgB8OD
+photo.131.link: ig://COESoXgB8OD
 photo.131.tags: smile, whiskers, white face
 photo.132: ig://COaJaX3Bjtn/m
 photo.132.author: fetorus_mami
@@ -711,7 +711,7 @@ photo.139.tags: bamboo, paws, sample, smile, standing
 photo.140: cwdc://X24p7IRADQM.jpg
 photo.140.author: ck.chie
 photo.140.commitdate: 2021/12/22
-photo.140.link: https://www.instagram.com/p/CXdhNB4hOxK
+photo.140.link: ig://CXdhNB4hOxK
 photo.140.tags: bamboo, paws, sample, smile
 photo.141: ig://CXu8TAMLfH7/m
 photo.141.author: sasapan34

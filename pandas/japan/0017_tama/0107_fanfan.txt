@@ -63,7 +63,7 @@ photo.9.tags: bamboo, mofumofu, old, portrait
 photo.10: cwdc://W-Y-RqTADQA.jpg
 photo.10.author: ck.chie
 photo.10.commitdate: 2020/1/14
-photo.10.link: https://www.instagram.com/p/B7NrYS5hCoN
+photo.10.link: ig://B7NrYS5hCoN
 photo.10.tags: bamboo, laying down, mofumofu, old, portrait, sample, smile, tail
 photo.11: ig://B88sqQyBUBq/m
 photo.11.author: ifumoto88
@@ -103,7 +103,7 @@ photo.17.tags: bamboo, mofumofu, portrait, sample
 photo.18: cwdc://XMwl93wADQB.jpg
 photo.18.author: ck.chie
 photo.18.commitdate: 2020/7/19
-photo.18.link: https://www.instagram.com/p/CCZfOZoBYLl
+photo.18.link: ig://CCZfOZoBYLl
 photo.18.tags: bamboo, mofumofu, old, sample, smile
 photo.19: ig://CCZiXhUh6b1/m
 photo.19.author: miis_98
@@ -143,7 +143,7 @@ photo.25.tags: bamboo, mofumofu, portrait, sample
 photo.26: cwdc://XPxcZxrADQC.jpg
 photo.26.author: ck.chie
 photo.26.commitdate: 2022/9/9
-photo.26.link: https://www.instagram.com/p/CD56cWlh137
+photo.26.link: ig://CD56cWlh137
 photo.26.tags: mofumofu, old, portrait, sample, smile
 photo.27: ig://CEDHKAahIvS/m
 photo.27.author: otenba_redpanda
@@ -223,7 +223,7 @@ photo.41.tags: bamboo, dish, laying down, mofumofu, old, portrait
 photo.42: cwdc://XtuXCkYADQA.jpg
 photo.42.author: mini_cochi
 photo.42.commitdate: 2022/8/28
-photo.42.link: https://www.instagram.com/p/CS4Xwv8H99P
+photo.42.link: ig://CS4Xwv8H99P
 photo.42.tags: close-up, mofumofu, portrait, profile, sample, whiskers, white face
 photo.43: ig://CUCSgKCBq7w/m
 photo.43.author: na.mo.pan

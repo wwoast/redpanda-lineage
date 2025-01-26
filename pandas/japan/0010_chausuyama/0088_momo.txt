@@ -80,7 +80,7 @@ photo.13.tags: apple time, blink, dish, paws, portrait, smile, whiskers
 photo.14: cwdc://XEAgUieADQA.jpg
 photo.14.author: yakko____
 photo.14.commitdate: 2020/3/22
-photo.14.link: https://www.instagram.com/p/B-BcZu_BvoW
+photo.14.link: ig://B-BcZu_BvoW
 photo.14.tags: portrait, profile, sample, techitechi, tree, whiskers, white face
 photo.15: ig://B-jEwHhhsLl/m
 photo.15.author: craig_craig_craig
@@ -345,7 +345,7 @@ photo.66.tags: laying down, paws, portrait, tail, tree
 photo.67: cwdc://X5x32s6ADQA.jpg
 photo.67.author: ck.chie
 photo.67.commitdate: 2022/2/21
-photo.67.link: https://www.instagram.com/p/CY6IK0NB8mf
+photo.67.link: ig://CY6IK0NB8mf
 photo.67.tags: mofumofu, sample, tongue, whiskers
 photo.68: ig://CZEWlTcrOnM/m
 photo.68.author: shigeko0531
