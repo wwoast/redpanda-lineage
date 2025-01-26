@@ -18,12 +18,12 @@ location.2: 43, 2019/10/21
 photo.1: cwdc://WuYYRg0ADQA.jpg
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2019/7/2
-photo.1.link: https://www.instagram.com/p/BzNYYOKApU6
+photo.1.link: ig://BzNYYOKApU6
 photo.1.tags: sample, smile, tail, tree
 photo.2: cwdc://WzOsbfTADQA.jpg
 photo.2.author: shaesavestheplanet
 photo.2.commitdate: 2020/2/27
-photo.2.link: https://www.instagram.com/p/B1oidNZnNl5
+photo.2.link: ig://B1oidNZnNl5
 photo.2.tags: smile, whiskers
 photo.3: ig://B7PksWIAtVK/m
 photo.3.author: kyle_kaptures_photography
@@ -53,7 +53,7 @@ photo.7.tags: tail, whiskers
 photo.8: cwdc://XBVEv4wADQA.jpg
 photo.8.author: jiayue_2015
 photo.8.commitdate: 2020/7/23
-photo.8.link: https://www.instagram.com/p/B8runaIF7Id
+photo.8.link: ig://B8runaIF7Id
 photo.8.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
 photo.9: ig://B8rvgA7hUbT/m
 photo.9.author: yanliang_24
@@ -88,7 +88,7 @@ photo.14.tags: bamboo, paws, tail, tongue
 photo.15: cwdc://XN_MjcCADQA.jpg
 photo.15.author: columbuszoo
 photo.15.commitdate: 2020/7/31
-photo.15.link: https://www.instagram.com/p/CDAyhLxBCrx
+photo.15.link: ig://CDAyhLxBCrx
 photo.15.tags: paws, portrait, profile, sample, smile, tongue, tree
 photo.16: ig://CDWznychRcv/m
 photo.16.author: yanliang_24
@@ -213,12 +213,12 @@ photo.39.tags: door, peek
 photo.40: cwdc://XwWgAAEADQA.jpg
 photo.40.author: wumpwoast
 photo.40.commitdate: 2021/9/28
-photo.40.link: https://www.instagram.com/p/CUMcPdyLdKe
+photo.40.link: ig://CUMcPdyLdKe
 photo.40.tags: portrait, tail, tongue
 photo.41: cwdc://XwYmW2tADQA.jpg
 photo.41.author: wumpwoast
 photo.41.commitdate: 2021/9/28
-photo.41.link: https://www.instagram.com/p/CUNfa5GpmCy
+photo.41.link: ig://CUNfa5GpmCy
 photo.41.tags: close-up, smile, whiskers
 photo.42: ig://CUODkLaLBUS/m
 photo.42.author: lipscer
@@ -258,7 +258,7 @@ photo.48.tags: door, laying down, mofumofu, smile, whiskers
 photo.49: cwdc://X0ha4sYADQA.jpg
 photo.49.author: wumpwoast
 photo.49.commitdate: 2022/3/13
-photo.49.link: https://www.instagram.com/p/CWR5rz8JtB3
+photo.49.link: ig://CWR5rz8JtB3
 photo.49.tags: close-up, portrait, whiskers
 photo.50: ig://CY4TDYqp2wp/m
 photo.50.author: carsontheredpanda

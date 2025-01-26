@@ -324,7 +324,7 @@ photo.62.tags: autumn, portrait
 photo.63: cwdc://W-YKXuFADQA.jpg
 photo.63.author: wumpwoast
 photo.63.commitdate: 2023/8/10
-photo.63.link: https://www.instagram.com/p/B7NRbUyhXdq
+photo.63.link: ig://B7NRbUyhXdq
 photo.63.tags: autumn, portrait, sample, whiskers
 photo.64: ig://B7Nu0wZhZII/m
 photo.64.author: fetorus_mami
@@ -339,7 +339,7 @@ photo.65.tags: tail, tree
 photo.66: cwdc://W-dGyPWADQA.jpg
 photo.66.author: wumpwoast
 photo.66.commitdate: 2021/6/6
-photo.66.link: https://www.instagram.com/p/B7PvolbB5XS
+photo.66.link: ig://B7PvolbB5XS
 photo.66.tags: peek, portrait, tree
 photo.67: ig://B8EafqUBEfM/m
 photo.67.author: fetorus_mami
@@ -349,7 +349,7 @@ photo.67.tags: apple time, paws, sample
 photo.68: cwdc://XBGbD-UADQA.jpg
 photo.68.author: wumpwoast
 photo.68.commitdate: 2021/6/6
-photo.68.link: https://www.instagram.com/p/B8kZxc6B4Vq
+photo.68.link: ig://B8kZxc6B4Vq
 photo.68.tags: peek, sample, tree
 photo.69: ig://B8lVYO3BBxp/m
 photo.69.author: fetorus_mami
@@ -359,7 +359,7 @@ photo.69.tags: apple time, tongue
 photo.70: cwdc://XBNGTLIADQA.jpg
 photo.70.author: wumpwoast
 photo.70.commitdate: 2021/6/6
-photo.70.link: https://www.instagram.com/p/B8nvZDUBJRL
+photo.70.link: ig://B8nvZDUBJRL
 photo.70.tags: peek, portrait, sample
 photo.71: ig://B9auRhyh3QL/m
 photo.71.author: mari_neko3
@@ -639,7 +639,7 @@ photo.125.tags: paws, portrait, sample, tree, wink
 photo.126: cwdc://X3H-clBADQA.jpg
 photo.126.author: ck.chie
 photo.126.commitdate: 2021/12/19
-photo.126.link: https://www.instagram.com/p/CXlLdwQvrti
+photo.126.link: ig://CXlLdwQvrti
 photo.126.tags: bamboo, paws, sample, smile, whiskers
 photo.127: ig://CXpB1z_BT2-/m
 photo.127.author: fetorus_mami

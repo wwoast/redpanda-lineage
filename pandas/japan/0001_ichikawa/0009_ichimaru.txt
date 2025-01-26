@@ -121,7 +121,7 @@ photo.21.tags: apple time, lips, sample, whiskers
 photo.22: cwdc://WjqqJKuADQA.jpg
 photo.22.author: wumpwoast
 photo.22.commitdate: 2019/2/19
-photo.22.link: https://www.instagram.com/p/Bt2hUDHFw5z
+photo.22.link: ig://Bt2hUDHFw5z
 photo.22.tags: portrait
 photo.23: cwdc://WrjeUElADQA.jpg
 photo.23.author: masakon5060
@@ -311,7 +311,7 @@ photo.59.tags: nose, patrol, paws, portrait
 photo.60: cwdc://XjxkoXYADQA.jpg
 photo.60.author: ck.chie
 photo.60.commitdate: 2021/5/31
-photo.60.link: https://www.instagram.com/p/CN5-jpcB8w8
+photo.60.link: ig://CN5-jpcB8w8
 photo.60.tags: peek
 photo.61: cwdc://Xj0zknmADQE.jpg
 photo.61.author: miis_98

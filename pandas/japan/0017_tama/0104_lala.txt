@@ -43,7 +43,7 @@ photo.5.tags: flowers, portrait, tongue
 photo.6: cwdc://WQNcvJ1ADQA.jpg
 photo.6.author: daniele.tokyo
 photo.6.commitdate: 2018/7/21
-photo.6.link: https://www.instagram.com/p/BkH6nCql1dy
+photo.6.link: ig://BkH6nCql1dy
 photo.6.tags: mofumofu, portrait, profile, sample, snow, tail, techitechi
 photo.7: ig://Bop9Wq4Fudm/m
 photo.7.author: kotata_513
@@ -72,7 +72,7 @@ photo.11.tags: laying down, mofumofu, tail
 photo.12: cwdc://WdG1feEADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2022/11/29
-photo.12.link: https://www.instagram.com/p/Bqkm_MyFG-k
+photo.12.link: ig://Bqkm_MyFG-k
 photo.12.tags: mofumofu, portrait, whiskers
 photo.13: ig://BrzklXvFsQx/m
 photo.13.author: kipekaila
@@ -361,7 +361,7 @@ photo.69.tags: climb, paws, peek, sample, smile
 photo.70: cwdc://XpU6L-kADQB.jpg
 photo.70.author: ck.chie
 photo.70.commitdate: 2021/6/28
-photo.70.link: https://www.instagram.com/p/CQrpVdCB3HT
+photo.70.link: ig://CQrpVdCB3HT
 photo.70.tags: bamboo, mofumofu, portrait, sample, smile
 photo.71: ig://CRMDH11hGXX/m
 photo.71.author: mariten1119
@@ -436,7 +436,7 @@ photo.84.tags: laying down, paws, portrait, sample, tail
 photo.85: cwdc://X_vGTujADQA.jpg
 photo.85.author: ck.chie
 photo.85.commitdate: 2022/6/7
-photo.85.link: https://www.instagram.com/p/Cb4vZVBhawZ
+photo.85.link: ig://Cb4vZVBhawZ
 photo.85.tags: hammock, sample, smile, tail, tongue
 photo.86: ig://CcNoNkfr6LW/m
 photo.86.author: mini_cochi

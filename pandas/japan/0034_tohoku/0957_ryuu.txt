@@ -153,12 +153,12 @@ photo.27.tags: baby, paws
 photo.28: cwdc://W-CjlVLADQA.jpg
 photo.28.author: wumpwoast
 photo.28.commitdate: 2020/1/11
-photo.28.link: https://www.instagram.com/p/B7CeCIVhAmY
+photo.28.link: ig://B7CeCIVhAmY
 photo.28.tags: bamboo, bite, mofumofu, tail
 photo.29: cwdc://W-U_Hk-ADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2021/6/19
-photo.29.link: https://www.instagram.com/p/B7LrzQPB4jh
+photo.29.link: ig://B7LrzQPB4jh
 photo.29.tags: poop, portrait
 photo.30: ig://B7jp_8BB-iu/m
 photo.30.author: craig_craig_craig
@@ -213,12 +213,12 @@ photo.39.tags: bamboo, paws, smile
 photo.40: cwdc://XGTEhjSADQA.jpg
 photo.40.author: wumpwoast
 photo.40.commitdate: 2021/6/6
-photo.40.link: https://www.instagram.com/p/B_KugPZBbec
+photo.40.link: ig://B_KugPZBbec
 photo.40.tags: baby, bamboo, close-up, portrait, smile
 photo.41: cwdc://XIyVoiUADQA.jpg
 photo.41.author: wumpwoast
 photo.41.commitdate: 2020/5/29
-photo.41.link: https://www.instagram.com/p/CAaXDu6BHpc
+photo.41.link: ig://CAaXDu6BHpc
 photo.41.tags: eye, portrait
 photo.42: ig://CCBFL1GBSDU/m
 photo.42.author: kaoru_a358
@@ -508,7 +508,7 @@ photo.98.tags: itchy, paws, portrait
 photo.99: cwdc://XvAhR4NADQA.jpg
 photo.99.author: wumpwoast
 photo.99.commitdate: 2021/9/7
-photo.99.link: https://www.instagram.com/p/CThc4Z2l4W_
+photo.99.link: ig://CThc4Z2l4W_
 photo.99.tags: baby, bamboo, mofumofu, paws, portrait
 photo.100: ig://CTjmfcohIgA/m
 photo.100.author: ssc6105
@@ -528,7 +528,7 @@ photo.102.tags: laying down, sleeping, tree
 photo.103: cwdc://XxSqoMrADQA.jpg
 photo.103.author: otenba_redpanda
 photo.103.commitdate: 2021/10/6
-photo.103.link: https://www.instagram.com/p/CUqhjkFhRQi
+photo.103.link: ig://CUqhjkFhRQi
 photo.103.tags: close-up, portrait, profile, sample, whiskers
 photo.104: ig://CUuP17uB7J4/m
 photo.104.author: otenba_redpanda
@@ -597,7 +597,7 @@ photo.116.tags: laying down, mofumofu, sample
 photo.117: cwdc://YdwOq93ADQA.jpg
 photo.117.author: ck.chie
 photo.117.commitdate: 2023/11/18
-photo.117.link: https://www.instagram.com/p/Cq5Tk8rvwlm
+photo.117.link: ig://Cq5Tk8rvwlm
 photo.117.tags: bamboo, paws, sample, tongue
 photo.118: ig://CrBGz7Fv7cw/m
 photo.118.author: fetorus_mami

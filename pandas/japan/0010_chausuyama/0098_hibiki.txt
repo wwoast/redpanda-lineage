@@ -20,7 +20,7 @@ photo.1.link: https://www.instagram.com/safariyokohama/
 photo.2: cwdc://WJxTNKKADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2018/7/19
-photo.2.link: https://www.instagram.com/p/Bg512C1FQ3T
+photo.2.link: ig://Bg512C1FQ3T
 photo.2.tags: mofumofu, portrait, profile, sample, whiskers
 photo.3: ig://Bj8QKDoAQtz/m
 photo.3.author: tomoki017
@@ -55,7 +55,7 @@ photo.9.tags: bridge
 photo.10: cwdc://WcgZbxHADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2022/11/29
-photo.10.link: https://www.instagram.com/p/BqRY9WTlzS5
+photo.10.link: ig://BqRY9WTlzS5
 photo.10.tags: mofumofu, paws, portrait, sample, tail
 photo.11: ig://BqqXMasng-z/m
 photo.11.author: yakko____
@@ -350,7 +350,7 @@ photo.69.tags: portrait, tree, whiskers
 photo.70: cwdc://Xy8b96eADQA.jpg
 photo.70.author: ck.chie
 photo.70.commitdate: 2021/11/20
-photo.70.link: https://www.instagram.com/p/CVfaOa_BrdC
+photo.70.link: ig://CVfaOa_BrdC
 photo.70.tags: paws, sample, smile, tail, tree, whiskers
 photo.71: ig://CWmIkz6huvV/m
 photo.71.author: ssc6105

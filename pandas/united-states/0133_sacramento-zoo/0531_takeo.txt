@@ -74,7 +74,7 @@ photo.11.tags: bamboo, tree
 photo.12: cwdc://XHdsUPBADQA.jpg
 photo.12.author: ohmygoat1
 photo.12.commitdate: 2020/5/4
-photo.12.link: https://www.instagram.com/p/B_wCZlQg_TP
+photo.12.link: ig://B_wCZlQg_TP
 photo.12.tags: close-up, portrait, profile, sample, whiskers
 photo.13: ig://CFYqLLZBxgo/m
 photo.13.author: carsontheredpanda
@@ -94,7 +94,7 @@ photo.15.tags: whiskers
 photo.16: cwdc://XedIVK2ADQA.jpg
 photo.16.author: wumpwoast
 photo.16.commitdate: 2022/3/13
-photo.16.link: https://www.instagram.com/p/CLPwaDLBewR
+photo.16.link: ig://CLPwaDLBewR
 photo.16.tags: peek, portrait, sample, whiskers, white face
 photo.17: ig://Caal9BFByBv/m
 photo.17.author: sacramentozoo

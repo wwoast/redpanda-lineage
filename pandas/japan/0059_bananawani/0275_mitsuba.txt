@@ -55,7 +55,7 @@ photo.8.tags: paws, portrait
 photo.9: cwdc://WK-SGr4ADQA.jpg
 photo.9.author: hanamaru_redpanda
 photo.9.commitdate: 2018/12/15
-photo.9.link: https://www.instagram.com/p/BhgVSzsF7KU
+photo.9.link: ig://BhgVSzsF7KU
 photo.9.tags: laying down, portrait, profile, sample, whiskers
 photo.10: ig://BiVrYK8nBgs/m
 photo.10.author: nyanta.a
@@ -104,7 +104,7 @@ photo.18.tags: portrait
 photo.19: cwdc://W83eTMgADQA.jpg
 photo.19.author: wumpwoast
 photo.19.commitdate: 2020/1/11
-photo.19.link: https://www.instagram.com/p/B6c7ZEABGxs
+photo.19.link: ig://B6c7ZEABGxs
 photo.19.tags: air tasting, portrait, tongue, tree
 photo.20: ig://B-p9Vtvh9kX/m
 photo.20.author: craig_craig_craig

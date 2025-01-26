@@ -43,7 +43,7 @@ photo.5.tags: portrait, tail, white face
 photo.6: cwdc://V8tYICmADQA.jpg
 photo.6.author: ck.chie
 photo.6.commitdate: 2020/11/2
-photo.6.link: https://www.instagram.com/p/BaX4TfDFbJh
+photo.6.link: ig://BaX4TfDFbJh
 photo.6.tags: apple time, paws, portrait
 photo.7: ig://BbUf_5ln301/m
 photo.7.author: take_421
@@ -53,7 +53,7 @@ photo.7.tags: portrait, whiskers
 photo.8: cwdc://WApyBcHADQB.jpg
 photo.8.author: ck.chie
 photo.8.commitdate: 2019/12/11
-photo.8.link: https://www.instagram.com/p/BcWFQLzjpxU
+photo.8.link: ig://BcWFQLzjpxU
 photo.8.tags: portrait, tree, upside-down
 photo.9: ig://Bgxfi68glOe/m
 photo.9.author: mariten1119
@@ -83,7 +83,7 @@ photo.13.tags: apple time, portrait
 photo.14: cwdc://WVVRraEADQC.jpg
 photo.14.author: ck.chie
 photo.14.commitdate: 2020/8/23
-photo.14.link: https://www.instagram.com/p/Bmr1FKyFJIx
+photo.14.link: ig://Bmr1FKyFJIx
 photo.14.tags: apple time, bamboo, paws, portrait
 photo.15: ig://Bm6nRIGldlJ/m
 photo.15.author: run.swim.shingo
@@ -108,7 +108,7 @@ photo.18.tags: apple time, portrait
 photo.19: cwdc://WXvwbL2ADQD.jpg
 photo.19.author: ck.chie
 photo.19.commitdate: 2018/9/22
-photo.19.link: https://www.instagram.com/p/Bn5EdDrF7Yq
+photo.19.link: ig://Bn5EdDrF7Yq
 photo.19.tags: bamboo, portrait, sample, techitechi, tongue
 photo.20: ig://BonQolOFS3D/m
 photo.20.author: kotata_513
@@ -147,7 +147,7 @@ photo.26.tags: tree
 photo.27: cwdc://Wag7tIOADQA.jpg
 photo.27.author: mofu_pan
 photo.27.commitdate: 2018/10/23
-photo.27.link: https://www.instagram.com/p/BpRqGB3FrSd
+photo.27.link: ig://BpRqGB3FrSd
 photo.27.tags: portrait, profile, sample, smile, whiskers
 photo.28: ig://Bp5f3rhlkkn/m
 photo.28.author: cabbage_biyori
@@ -157,7 +157,7 @@ photo.28.tags: apple time, portrait
 photo.29: cwdc://WdJ7YB0ADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2022/11/29
-photo.29.link: https://www.instagram.com/p/BqmJ7eqFzDc
+photo.29.link: ig://BqmJ7eqFzDc
 photo.29.tags: bamboo, bridge, portrait, sample, tail, white face
 photo.30: ig://Bqw3ag3l7nq/m
 photo.30.author: mofu_pan
@@ -217,7 +217,7 @@ photo.40.tags: apple time, hammock, portrait
 photo.41: cwdc://WmOvd1tADQE.jpg
 photo.41.author: ck.chie
 photo.41.commitdate: 2019/3/21
-photo.41.link: https://www.instagram.com/p/BvIj-Yml9kM
+photo.41.link: ig://BvIj-Yml9kM
 photo.41.tags: bamboo, portrait, sample, tongue
 photo.42: ig://BvNejjeFJoh/m
 photo.42.author: fetorus_mami

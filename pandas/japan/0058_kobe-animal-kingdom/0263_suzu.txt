@@ -168,7 +168,7 @@ photo.30.tags: paws
 photo.31: cwdc://WyH2TjHADQA.jpg
 photo.31.author: kipekaila
 photo.31.commitdate: 2019/8/13
-photo.31.link: https://www.instagram.com/p/B1FHZPThUoQ
+photo.31.link: ig://B1FHZPThUoQ
 photo.31.tags: portrait, profile, sample, smile, whiskers
 photo.32: ig://B1q1kBShsVD/m
 photo.32.author: i.satosato
@@ -232,7 +232,7 @@ photo.43.tags: peek
 photo.44: cwdc://XJKyUklADQA.jpg
 photo.44.author: wumpwoast
 photo.44.commitdate: 2020/5/25
-photo.44.link: https://www.instagram.com/p/CAmlZwCnl2N
+photo.44.link: ig://CAmlZwCnl2N
 photo.44.tags: itchy, paws, tail, tongue
 photo.45: ig://CBVXz1whK-9/m
 photo.45.author: jas_forever_love

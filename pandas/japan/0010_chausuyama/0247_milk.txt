@@ -936,7 +936,7 @@ photo.184.tags: paws, portrait, smile
 photo.185: cwdc://W-PWRu8ADQE.jpg
 photo.185.author: ck.chie
 photo.185.commitdate: 2020/1/14
-photo.185.link: https://www.instagram.com/p/B7I3YVOBIEA
+photo.185.link: ig://B7I3YVOBIEA
 photo.185.tags: bamboo, portrait
 photo.186: ig://B7LVkXMB58l/m
 photo.186.author: firefoxpanda88
@@ -951,7 +951,7 @@ photo.187.tags: laying down, paws, tree
 photo.188: cwdc://W-0a07lADQA.jpg
 photo.188.author: wumpwoast
 photo.188.commitdate: 2020/1/19
-photo.188.link: https://www.instagram.com/p/B7bZp7ihZ54
+photo.188.link: ig://B7bZp7ihZ54
 photo.188.tags: portrait
 photo.189: ig://B7drYmVBVR-/m
 photo.189.author: alto0908
@@ -1036,7 +1036,7 @@ photo.204.tags: paws, portrait, techitechi, tree
 photo.205: cwdc://XDQ3oCyADQF.jpg
 photo.205.author: ck.chie
 photo.205.commitdate: 2020/3/17
-photo.205.link: https://www.instagram.com/p/B9poDfJBvqd
+photo.205.link: ig://B9poDfJBvqd
 photo.205.tags: close-up, paws, portrait, sample, smile
 photo.206: ig://B9pqsLNhbu1/m
 photo.206.author: _rifa_p
@@ -1326,7 +1326,7 @@ photo.262.tags: flowers, portrait, whiskers
 photo.263: cwdc://XpRUtQ4ADQA.jpg
 photo.263.author: shigeko0531
 photo.263.commitdate: 2021/7/19
-photo.263.link: https://www.instagram.com/p/CQp2mGMBkCq
+photo.263.link: ig://CQp2mGMBkCq
 photo.263.tags: close-up, portrait, profile, sample, smile, whiskers
 photo.264: ig://CRVgbphBT_z/m
 photo.264.author: alto0908
@@ -1341,7 +1341,7 @@ photo.265.tags: laying down, paws, tail, toys, upside-down
 photo.266: cwdc://Xy2rBhEADQK.jpg
 photo.266.author: ck.chie
 photo.266.commitdate: 2021/10/27
-photo.266.link: https://www.instagram.com/p/CVchwOSBNQh
+photo.266.link: ig://CVchwOSBNQh
 photo.266.tags: apple time, dish, portrait
 photo.267: ig://CWFM0YlL4mx/m
 photo.267.author: hidehaya_biei
@@ -1426,7 +1426,7 @@ photo.282.tags: bamboo, paws, peek, portrait, sample, standing, tail
 photo.283: cwdc://YQD4gmdADQJ.jpg
 photo.283.author: ck.chie
 photo.283.commitdate: 2022/12/11
-photo.283.link: https://www.instagram.com/p/CkDIfw-hndr
+photo.283.link: ig://CkDIfw-hndr
 photo.283.tags: sample, whiskers
 photo.284: ig://ClGfp4gPHJg/m
 photo.284.author: taka__3428
@@ -1453,11 +1453,11 @@ photo.288.author: hamiiiii831_
 photo.288.commitdate: 2023/4/22
 photo.288.link: https://www.instagram.com/hamiiiii831_/
 photo.288.tags: sample, whiskers
-species: 2
-studbook.id: unknown
-zoo: 10
 photo.289: cwdc://W6PVJavADQB.jpg
 photo.289.author: hamiiiii831_
 photo.289.commitdate: 2025/1/20
 photo.289.link: ig://B5I20LHh-GW
 photo.289.tags: mofumofu, paws, playing, portrait, sample, smile, tongue, whiskers
+species: 2
+studbook.id: unknown
+zoo: 10

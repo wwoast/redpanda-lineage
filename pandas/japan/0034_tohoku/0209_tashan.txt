@@ -32,7 +32,7 @@ photo.3.tags: portrait
 photo.4: cwdc://WcvS1OIADQA.jpg
 photo.4.author: wumpwoast
 photo.4.commitdate: 2018/11/20
-photo.4.link: https://www.instagram.com/p/BqY1qE0FGgB
+photo.4.link: ig://BqY1qE0FGgB
 photo.4.tags: portrait
 photo.5: ig://CE1Te6FhR2G/m
 photo.5.author: ifumoto88
@@ -42,17 +42,17 @@ photo.5.tags: whiskers
 photo.6: cwdc://XphnihEADQA.jpg
 photo.6.author: daniele.tokyo
 photo.6.commitdate: 2021/7/1
-photo.6.link: https://www.instagram.com/p/CQyAAuSB2fC
+photo.6.link: ig://CQyAAuSB2fC
 photo.6.tags: bite, nose, portrait, profile, smile, tongue
 photo.7: cwdc://XtUyh42ADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2021/8/18
-photo.7.link: https://www.instagram.com/p/CSrlgaLFmeY
+photo.7.link: ig://CSrlgaLFmeY
 photo.7.tags: paws, portrait
 photo.8: cwdc://YNRVgK2ADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2022/10/6
-photo.8.link: https://www.instagram.com/p/Cip2_jLJuZ9
+photo.8.link: ig://Cip2_jLJuZ9
 photo.8.tags: portrait, sample, whiskers
 photo.9: ig://CjaMEACJFTQ/m
 photo.9.author: daniele.tokyo

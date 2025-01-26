@@ -28,6 +28,7 @@ photo.3: cwdc://V-wnbTkADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/12/23
 photo.3.link: ig://BbZf9HiFmEj
+photo.3.tags: close-up, mofumofu, portrait, sample
 photo.4: ig://Bel4Qu2h1_Y/m
 photo.4.author: miis_98
 photo.4.commitdate: 2020/4/2
@@ -36,7 +37,7 @@ photo.4.tags: paws, portrait
 photo.5: cwdc://WLN2FLaADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/7/30
-photo.5.link: https://www.instagram.com/p/BhoHSDdFt6f
+photo.5.link: ig://BhoHSDdFt6f
 photo.5.tags: muzzle, portrait, profile, sample, whiskers
 photo.6: ig://Bhy6JePlGjO/m
 photo.6.author: bananawani_official
@@ -109,7 +110,7 @@ photo.19.tags: nose, portrait, tongue
 photo.20: cwdc://XH72cbqADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2020/5/15
-photo.20.link: https://www.instagram.com/p/B__HdrlBVBk
+photo.20.link: ig://B__HdrlBVBk
 photo.20.tags: close-up, laying down, portrait, whiskers
 photo.21: ig://CCzpJMLhEUf/m
 photo.21.author: tetusara.ki_
@@ -119,7 +120,7 @@ photo.21.tags: bamboo, portrait
 photo.22: cwdc://XPeKsM4ADQA.jpg
 photo.22.author: wumpwoast
 photo.22.commitdate: 2020/8/11
-photo.22.link: https://www.instagram.com/p/CDwRlkMBb1r
+photo.22.link: ig://CDwRlkMBb1r
 photo.22.tags: door, portrait
 photo.23: ig://CD1ZgW3hNVi/m
 photo.23.author: mini_cochi
@@ -154,10 +155,9 @@ photo.28.tags: portrait
 photo.29: cwdc://YRqFIcpADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2022/12/20
-photo.29.link: https://www.instagram.com/p/Ck2OzsEuXA2
+photo.29.link: ig://Ck2OzsEuXA2
 photo.29.tags: paws, portrait, sample
 species: 1
 studbook.id: 0577
 uncertainty: death month/day
 zoo: 59
-photo.3.tags: close-up, mofumofu, portrait, sample

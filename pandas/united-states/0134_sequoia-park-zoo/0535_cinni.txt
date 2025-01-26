@@ -32,7 +32,7 @@ photo.3.tags: portrait, white face
 photo.4: cwdc://VmRutteADQA.jpg
 photo.4.author: sketchpoet
 photo.4.commitdate: 2019/3/17
-photo.4.link: https://www.instagram.com/p/BPKDmUfD23f
+photo.4.link: ig://BPKDmUfD23f
 photo.4.tags: portrait, profile, sample, white face
 photo.5: ig://BkWHV4QAEid/m
 photo.5.author: sweet_spot_photography
@@ -52,12 +52,12 @@ photo.7.tags: bamboo, portrait
 photo.8: cwdc://XP_SeSrADQA.jpg
 photo.8.author: wumpwoast
 photo.8.commitdate: 2020/9/7
-photo.8.link: https://www.instagram.com/p/CEA1enFh85c
+photo.8.link: ig://CEA1enFh85c
 photo.8.tags: portrait, white face
 photo.9: cwdc://XQc8rG3ADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2020/9/7
-photo.9.link: https://www.instagram.com/p/CEPqlBLhdbC
+photo.9.link: ig://CEPqlBLhdbC
 photo.9.tags: bamboo, paws, portrait, shoots, white face
 photo.10: ig://CIvT_CbLtTH/m
 photo.10.author: sequoiaparkzoo

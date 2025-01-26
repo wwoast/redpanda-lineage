@@ -25,7 +25,7 @@ photo.1.tags: tail
 photo.2: cwdc://WIXWXpVADQA.jpg
 photo.2.author: tomo3700
 photo.2.commitdate: 2018/7/25
-photo.2.link: https://www.instagram.com/p/BgM3bSalvEc
+photo.2.link: ig://BgM3bSalvEc
 photo.2.tags: portrait, profile, sample, whiskers
 photo.3: ig://Bh_TJlGlkZw/m
 photo.3.author: colette.jp
@@ -115,7 +115,7 @@ photo.19.tags: bamboo, portrait
 photo.20: cwdc://Wbtq0DmADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2022/1/6
-photo.20.link: https://www.instagram.com/p/Bp4BpfjFYLc
+photo.20.link: ig://Bp4BpfjFYLc
 photo.20.tags: tail, tree
 photo.21: ig://BqHaXUZF61P/m
 photo.21.author: mofu_pan

@@ -77,7 +77,7 @@ photo.12.tags: portrait, tree
 photo.13: cwdc://WcQ4bclADQA.jpg
 photo.13.author: wumpwoast
 photo.13.commitdate: 2022/11/29
-photo.13.link: https://www.instagram.com/p/BqJodMClRFm
+photo.13.link: ig://BqJodMClRFm
 photo.13.tags: peek, portrait, tail, tree
 photo.14: ig://BqQog-UlZfe/m
 photo.14.author: _rifa_p
@@ -127,7 +127,7 @@ photo.22.tags: bamboo
 photo.23: cwdc://WgXEho5ADQA.jpg
 photo.23.author: wumpwoast
 photo.23.commitdate: 2019/1/4
-photo.23.link: https://www.instagram.com/p/BsMugSMl5qK
+photo.23.link: ig://BsMugSMl5qK
 photo.23.tags: autumn, laying down, tree
 photo.24: ig://Bs6pRs4lvl3/m
 photo.24.author: rie_panda55
@@ -426,7 +426,7 @@ photo.82.tags: portrait, sample, standing, tree
 photo.83: cwdc://YGOd7F0ADQA.jpg
 photo.83.author: wumpwoast
 photo.83.commitdate: 2022/9/28
-photo.83.link: https://www.instagram.com/p/CfIbNAqL7-N
+photo.83.link: ig://CfIbNAqL7-N
 photo.83.tags: mofumofu, portrait, tail
 photo.84: ig://CfKp2E0hZzl/m
 photo.84.author: fetorus_mami

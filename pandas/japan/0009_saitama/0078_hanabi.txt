@@ -41,7 +41,7 @@ photo.5.tags: portrait, tree
 photo.6: cwdc://WMZn6krADQA.jpg
 photo.6.author: ck.chie
 photo.6.commitdate: 2018/7/28
-photo.6.link: https://www.instagram.com/p/BiOAMwFl38I
+photo.6.link: ig://BiOAMwFl38I
 photo.6.tags: close-up, portrait, sample, tongue, whiskers
 photo.7: ig://BigdJAnldrx/m
 photo.7.author: redpanda_nippon_takashi
@@ -159,7 +159,7 @@ photo.29.tags: laying down, portrait, tail
 photo.30: cwdc://W-i5i-HADQA.jpg
 photo.30.author: wumpwoast
 photo.30.commitdate: 2020/1/16
-photo.30.link: https://www.instagram.com/p/B7SpA8zhuJ3
+photo.30.link: ig://B7SpA8zhuJ3
 photo.30.tags: portrait, tail
 photo.31: ig://B7slouZhUcs/m
 photo.31.author: ssc6105

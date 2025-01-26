@@ -5,7 +5,7 @@ panda.tags: 246, 247
 photo.1: cwdc://WeU-z0nADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2019/8/10
-photo.1.link: https://www.instagram.com/p/BrLrpYDl9m4
+photo.1.link: ig://BrLrpYDl9m4
 photo.1.tags: apple time, baby, sisters, twins
 photo.1.tags.246.location: 70, 165
 photo.1.tags.247.location: 225, 165
@@ -117,7 +117,7 @@ photo.16.tags.247.location: 145, 120
 photo.17: cwdc://W-y022NADQA.jpg
 photo.17.author: ck.chie
 photo.17.commitdate: 2020/1/27
-photo.17.link: https://www.instagram.com/p/B7amq42h9ZQ
+photo.17.link: ig://B7amq42h9ZQ
 photo.17.tags: apple time, keeper, sisters, twins, whiskers
 photo.17.tags.246.location: 225, 140
 photo.17.tags.247.location: 100, 180

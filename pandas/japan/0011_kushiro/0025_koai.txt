@@ -73,7 +73,7 @@ photo.11.tags: flowers, paws, sample
 photo.12: cwdc://WPnPnzbADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2018/7/20
-photo.12.link: https://www.instagram.com/p/Bj00DXdlgYj
+photo.12.link: ig://Bj00DXdlgYj
 photo.12.tags: tail
 photo.13: cwdc://WPqdqvlADQH.jpg
 photo.13.author: minatomirai215
@@ -158,7 +158,7 @@ photo.28.tags: home, paws, sample, tail, whiskers
 photo.29: cwdc://WerbgIcADQA.jpg
 photo.29.author: wumpwoast
 photo.29.commitdate: 2019/6/3
-photo.29.link: https://www.instagram.com/p/BrW5_h-F0-8
+photo.29.link: ig://BrW5_h-F0-8
 photo.29.tags: tongue
 photo.30: cwdc://We-sUlFADQD.jpg
 photo.30.author: fetorus_mami
@@ -183,7 +183,7 @@ photo.33.tags: close-up, paws, sample, whiskers
 photo.34: cwdc://WpZTfNFADQA.jpg
 photo.34.author: zoowfreedom299
 photo.34.commitdate: 2019/6/3
-photo.34.link: https://www.instagram.com/p/Bwt1_ESlL9G
+photo.34.link: ig://Bwt1_ESlL9G
 photo.34.tags: paws, portrait, profile, sample, tongue, whiskers
 photo.35: cwdc://WpzMdqHADQA.jpg
 photo.35.author: yakko____
@@ -423,7 +423,7 @@ photo.81.tags: home
 photo.82: cwdc://W4BKTG0ADQA.jpg
 photo.82.author: cattail.sapporo
 photo.82.commitdate: 2019/10/25
-photo.82.link: https://www.instagram.com/p/B4BxZBKAQce
+photo.82.link: ig://B4BxZBKAQce
 photo.82.tags: paws, portrait, sample, smile
 photo.83: cwdc://W4SLY78ADQN.jpg
 photo.83.author: komabazoophoto
@@ -908,7 +908,7 @@ photo.178.tags: eye, paws, portrait, sample, whiskers
 photo.179: cwdc://Y12c02rADQA.jpg
 photo.179.author: rie_panda55
 photo.179.commitdate: 2024/3/10
-photo.179.link: https://www.instagram.com/p/C28ap5FhgV4
+photo.179.link: ig://C28ap5FhgV4
 photo.179.tags: eye, portrait, sample, whiskers
 photo.180: cwdc://Y42EugEADQC.jpg
 photo.180.author: kushirozoo

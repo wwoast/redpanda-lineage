@@ -51,7 +51,7 @@ photo.6.tags: portrait, tongue
 photo.7: cwdc://XGLF-07ADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2020/5/1
-photo.7.link: https://www.instagram.com/p/B_GvO4NhcKL
+photo.7.link: ig://B_GvO4NhcKL
 photo.7.tags: laying down, paws, portrait, smile, tongue
 photo.8: ig://CVi-IErBgxj/m
 photo.8.author: woodlandparkzoo
@@ -61,7 +61,7 @@ photo.8.tags: close-up, portrait, tongue, whiskers
 photo.9: cwdc://XzKpcJXADQA.jpg
 photo.9.author: wumpwoast
 photo.9.commitdate: 2022/3/13
-photo.9.link: https://www.instagram.com/p/CVmg9ibri2K
+photo.9.link: ig://CVmg9ibri2K
 photo.9.tags: portrait, profile, whiskers
 species: 2
 studbook.id: 0555

@@ -65,7 +65,7 @@ photo.9.tags: portrait, tail
 photo.10: cwdc://WIeWNKjADQA.jpg
 photo.10.author: wumpwoast
 photo.10.commitdate: 2018/7/30
-photo.10.link: https://www.instagram.com/p/BgQXWDBloB3
+photo.10.link: ig://BgQXWDBloB3
 photo.10.tags: laying down
 photo.11: ig://BjKdFT5lzuW/m
 photo.11.author: shrimpieaqua
@@ -193,7 +193,7 @@ photo.35.tags: bamboo, portrait
 photo.36: cwdc://W0BmJAjADQA.jpg
 photo.36.author: wumpwoast
 photo.36.commitdate: 2019/9/5
-photo.36.link: https://www.instagram.com/p/B2B_T-BhW0d
+photo.36.link: ig://B2B_T-BhW0d
 photo.36.tags: paws, portrait
 photo.37: ig://B2CHmO0h98X/m
 photo.37.author: i.satosato
@@ -252,12 +252,12 @@ photo.47.tags: portrait, smile, tongue
 photo.48: cwdc://W0KCs-uADQA.jpg
 photo.48.author: wumpwoast
 photo.48.commitdate: 2023/8/10
-photo.48.link: https://www.instagram.com/p/B2GNl9HBJhj
+photo.48.link: ig://B2GNl9HBJhj
 photo.48.tags: sample, smile, tail
 photo.49: cwdc://W0KpPK3ADQA.jpg
 photo.49.author: nakacchi_desu
 photo.49.commitdate: 2019/9/9
-photo.49.link: https://www.instagram.com/p/B2Gg3DLglhL
+photo.49.link: ig://B2Gg3DLglhL
 photo.49.tags: close-up, lips, portrait, profile, sample
 photo.50: ig://B2JPvwmBIUq/m
 photo.50.author: roko_mm
@@ -277,7 +277,7 @@ photo.52.tags: bamboo, portrait, smile
 photo.53: cwdc://W11bSWzADQA.jpg
 photo.53.author: wumpwoast
 photo.53.commitdate: 2019/10/1
-photo.53.link: https://www.instagram.com/p/B2754pJhlLX
+photo.53.link: ig://B2754pJhlLX
 photo.53.tags: portrait, tongue
 photo.54: ig://CEtxTO7hKGp/m
 photo.54.author: minatomirai215

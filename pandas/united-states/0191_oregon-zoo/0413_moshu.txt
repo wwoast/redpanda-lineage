@@ -28,7 +28,7 @@ photo.2.tags: smile
 photo.3: cwdc://W6Arc17ADQA.jpg
 photo.3.author: oregonzoo
 photo.3.commitdate: 2019/11/22
-photo.3.link: https://www.instagram.com/p/B5Bh94tnsgi
+photo.3.link: ig://B5Bh94tnsgi
 photo.3.tags: bamboo, mofumofu, portrait, profile, sample, whiskers
 photo.4: ig://B5aPXjYhNMn/m
 photo.4.author: worldthathesees
@@ -113,17 +113,17 @@ photo.19.tags: apple time, dish, portrait, sample, tongue, whiskers
 photo.20: cwdc://YJ5-kH7ADQA.jpg
 photo.20.author: wumpwoast
 photo.20.commitdate: 2022/8/11
-photo.20.link: https://www.instagram.com/p/Cg-Lhhtv3Ht
+photo.20.link: ig://Cg-Lhhtv3Ht
 photo.20.tags: portrait, sample, tongue
 photo.21: cwdc://YJ-fe7QADQA.jpg
 photo.21.author: wumpwoast
 photo.21.commitdate: 2022/9/24
-photo.21.link: https://www.instagram.com/p/ChAb-7YJNVh
+photo.21.link: ig://ChAb-7YJNVh
 photo.21.tags: laying down, portrait, sample, whiskers
 photo.22: cwdc://YKfWzsNADQA.jpg
 photo.22.author: wumpwoast
 photo.22.commitdate: 2022/11/11
-photo.22.link: https://www.instagram.com/p/ChQ3pT2rVY2
+photo.22.link: ig://ChQ3pT2rVY2
 photo.22.tags: close-up, mofumofu, whiskers
 photo.23: ig://Ch-eKSvJjVk/m
 photo.23.author: oregonzoo

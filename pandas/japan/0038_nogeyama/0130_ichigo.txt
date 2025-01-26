@@ -109,7 +109,7 @@ photo.18.tags: paws, standing
 photo.19: cwdc://Wo_3GNoADQB.jpg
 photo.19.author: ck.chie
 photo.19.commitdate: 2019/4/23
-photo.19.link: https://www.instagram.com/p/BwhHykkFCY9
+photo.19.link: ig://BwhHykkFCY9
 photo.19.tags: keeper, paws, portrait, sample
 photo.20: ig://BxQ91sDF6NV/m
 photo.20.author: minatomirai215
@@ -204,7 +204,7 @@ photo.37.tags: paws, standing, wave
 photo.38: cwdc://W1injFKADQA.jpg
 photo.38.author: ck.chie
 photo.38.commitdate: 2019/10/12
-photo.38.link: https://www.instagram.com/p/B2ygBAVBWEX
+photo.38.link: ig://B2ygBAVBWEX
 photo.38.tags: keeper, paws, standing, wave
 photo.39: ig://B25sK-QBQUP/m
 photo.39.author: minatomirai215
@@ -259,7 +259,7 @@ photo.48.tags: apple time, bridge, portrait
 photo.49: cwdc://W7lAlQSADQA.jpg
 photo.49.author: ck.chie
 photo.49.commitdate: 2019/12/27
-photo.49.link: https://www.instagram.com/p/B5zsiF5B3du
+photo.49.link: ig://B5zsiF5B3du
 photo.49.tags: apple time, keeper, paws, standing
 photo.50: ig://B6oMnFnBFa-/m
 photo.50.author: minatomirai215
@@ -269,12 +269,12 @@ photo.50.tags: apple time, paws, portrait, standing
 photo.51: cwdc://W9ysIa7ADQA.jpg
 photo.51.author: wumpwoast
 photo.51.commitdate: 2020/1/11
-photo.51.link: https://www.instagram.com/p/B66iTrNhplN
+photo.51.link: ig://B66iTrNhplN
 photo.51.tags: apple time, keeper, paws, techitechi
 photo.52: cwdc://W902qiFADQA.jpg
 photo.52.author: wumpwoast
 photo.52.commitdate: 2020/1/11
-photo.52.link: https://www.instagram.com/p/B67nkuyhqat
+photo.52.link: ig://B67nkuyhqat
 photo.52.tags: paws, portrait, profile, smile, tree
 photo.53: ig://B7KtLLHh-6X/m
 photo.53.author: pantasanzoo1
@@ -304,7 +304,7 @@ photo.57.tags: paws, portrait, smile, standing, whiskers
 photo.58: cwdc://XBR9q4ZADQA.jpg
 photo.58.author: wumpwoast
 photo.58.commitdate: 2020/3/9
-photo.58.link: https://www.instagram.com/p/B8qLE58hLtx
+photo.58.link: ig://B8qLE58hLtx
 photo.58.tags: apple time, keeper, portrait, smile, tree
 photo.59: ig://B95qy7ZhVpp/m
 photo.59.author: minatomirai215
@@ -329,7 +329,7 @@ photo.62.tags: paws, smile
 photo.63: cwdc://XILfAOOADQA.jpg
 photo.63.author: wumpwoast
 photo.63.commitdate: 2021/6/6
-photo.63.link: https://www.instagram.com/p/CAG7vk3BzgD
+photo.63.link: ig://CAG7vk3BzgD
 photo.63.tags: peek, portrait, whiskers
 photo.64: ig://CAHtKMbB-Gy/m
 photo.64.author: pantasanzoo1

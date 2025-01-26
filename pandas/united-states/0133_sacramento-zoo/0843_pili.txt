@@ -18,7 +18,7 @@ location.2: 133, 2012/3/29
 photo.1: cwdc://W3IMRJDADQA.jpg
 photo.1.author: mikezots
 photo.1.commitdate: 2019/11/1
-photo.1.link: https://www.instagram.com/p/B3lSYCRgeEP
+photo.1.link: ig://B3lSYCRgeEP
 photo.1.tags: portrait, profile, sample
 photo.2: ig://B4Q8sJzgj9I/m
 photo.2.author: edcaspersen
@@ -48,7 +48,7 @@ photo.6.tags: mofumofu, tail, white face
 photo.7: cwdc://XePWekIADQA.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2022/3/13
-photo.7.link: https://www.instagram.com/p/CLI3ev0BxbA
+photo.7.link: ig://CLI3ev0BxbA
 photo.7.tags: close-up, portrait, sample, whiskers, white face
 photo.8: ig://sacramentozoo/CSeync0DN4g/m
 photo.8.author: sacramentozoo

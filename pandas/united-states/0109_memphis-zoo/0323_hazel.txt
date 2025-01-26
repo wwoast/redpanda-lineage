@@ -19,12 +19,12 @@ location.3: 109, 2021/3/30
 photo.1: cwdc://WFHkklSADQA.jpg
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2018/12/11
-photo.1.link: https://www.instagram.com/p/Bek-hwZB3eS
+photo.1.link: ig://Bek-hwZB3eS
 photo.1.tags: nose, portrait, snow
 photo.2: cwdc://Waz6IjyADQA.jpg
 photo.2.author: j_alex_hicks
 photo.2.commitdate: 2018/12/11
-photo.2.link: https://www.instagram.com/p/BpbJTvpH6Rl
+photo.2.link: ig://BpbJTvpH6Rl
 photo.2.tags: lunch time, portrait, profile, sample, whiskers
 photo.3: ig://Bq3crgcBpd3/m
 photo.3.author: robinlsinner
@@ -34,12 +34,12 @@ photo.3.tags: tree
 photo.4: cwdc://WgAAiTkADQD.jpg
 photo.4.author: carsontheredpanda
 photo.4.commitdate: 2018/12/30
-photo.4.link: https://www.instagram.com/p/BsBMgniFvuQ
+photo.4.link: ig://BsBMgniFvuQ
 photo.4.tags: portrait, sample, tail, tongue, tree
 photo.5: cwdc://WtWnJODADQE.jpg
 photo.5.author: carsontheredpanda
 photo.5.commitdate: 2019/6/16
-photo.5.link: https://www.instagram.com/p/Bysf0Exh5dH
+photo.5.link: ig://Bysf0Exh5dH
 photo.5.tags: mofumofu, portrait, sample, tree, whiskers
 photo.6: ig://By4N7_2gnl7/m
 photo.6.author: westcoast_kathy
@@ -49,17 +49,17 @@ photo.6.tags: air tasting, tongue
 photo.7: cwdc://WxDl9TWADQA.jpg
 photo.7.author: carsontheredpanda
 photo.7.commitdate: 2019/7/30
-photo.7.link: https://www.instagram.com/p/B0i_OHbB_ow
+photo.7.link: ig://B0i_OHbB_ow
 photo.7.tags: close-up, portrait, whiskers
 photo.8: cwdc://W7cgL8CADQB.jpg
 photo.8.author: carsontheredpanda
 photo.8.commitdate: 2019/12/11
-photo.8.link: https://www.instagram.com/p/B5vcVbxB8Qb
+photo.8.link: ig://B5vcVbxB8Qb
 photo.8.tags: home, portrait, sample, smile, tail, tree
 photo.9: cwdc://XBMAYpEADQC.jpg
 photo.9.author: carsontheredpanda
 photo.9.commitdate: 2020/2/28
-photo.9.link: https://www.instagram.com/p/B8nMbySBCkQ
+photo.9.link: ig://B8nMbySBCkQ
 photo.9.tags: air tasting, portrait, sample, tongue
 photo.10: ig://B9USHE9pbtN/m
 photo.10.author: rossifari
@@ -74,7 +74,7 @@ photo.11.tags: laying down, portrait, tree
 photo.12: cwdc://XGtt3czADQA.jpg
 photo.12.author: wumpwoast
 photo.12.commitdate: 2020/5/1
-photo.12.link: https://www.instagram.com/p/B_YDLMJhNIr
+photo.12.link: ig://B_YDLMJhNIr
 photo.12.tags: dish, lunch time, portrait
 photo.13: ig://CAXEygEnUsn/m
 photo.13.author: happy_love2.15
@@ -88,7 +88,7 @@ photo.14.tags: portrait, smile, whiskers
 photo.15: cwdc://XL5GwMLADQF.jpg
 photo.15.author: carsontheredpanda
 photo.15.commitdate: 2020/7/13
-photo.15.link: https://www.instagram.com/p/CB9vnj1h_ml
+photo.15.link: ig://CB9vnj1h_ml
 photo.15.tags: home, portrait, sample, tongue, whiskers
 photo.16: ig://CC6RSR5lw4-/m
 photo.16.author: woodlandparkzoo
@@ -108,7 +108,7 @@ photo.18.tags: smile
 photo.19: cwdc://XbbKE5vADQH.jpg
 photo.19.author: carsontheredpanda
 photo.19.commitdate: 2021/1/28
-photo.19.link: https://www.instagram.com/p/CJuxR6nhDx0
+photo.19.link: ig://CJuxR6nhDx0
 photo.19.tags: portrait, sample, smile, tongue, whiskers
 photo.20: ig://CNpWCSlBhXm/m
 photo.20.author: happy_love2.15
@@ -143,7 +143,7 @@ photo.25.tags: close-up, mofumofu, portrait, sample, whiskers
 photo.26: cwdc://YFjOcZqADQG.jpg
 photo.26.author: carsontheredpanda
 photo.26.commitdate: 2022/8/30
-photo.26.link: https://www.instagram.com/p/CeyzdqlJftc
+photo.26.link: ig://CeyzdqlJftc
 photo.26.tags: portrait, sample, smile, tongue, whiskers
 photo.27: ig://CoIYsx4vSTX/m
 photo.27.author: memphiszoo

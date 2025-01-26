@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
+location.1: 113, 2022/7/21
+location.2: 109, 2023/11/21
 photo.1: ig://CiqLdMhOFi9/m
 photo.1.author: potterparkzoo
 photo.1.commitdate: 2022/11/4
@@ -36,13 +38,13 @@ photo.4.tags: smile, whiskers
 photo.5: cwdc://Yo--oqCADQA.jpg
 photo.5.author: wumpwoast
 photo.5.commitdate: 2023/11/18
-photo.5.link: https://www.instagram.com/p/CwgrjyxLtDQ
+photo.5.link: ig://CwgrjyxLtDQ
 photo.5.tags: peek, portrait
 photo.6: cwdc://YpBwAcmADQA.jpg
 photo.6.author: wumpwoast
 photo.6.commitdate: 2023/11/18
-photo.6.link: https://www.instagram.com/p/CwiEPsDLytZ
+photo.6.link: ig://CwiEPsDLytZ
 photo.6.tags: bamboo, peek, portrait
 species: 1
-studbook.id: unknown
+studbook.id: 223023
 zoo: 113

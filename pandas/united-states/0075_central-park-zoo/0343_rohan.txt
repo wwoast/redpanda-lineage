@@ -4,7 +4,7 @@ birthday: 2015/6/25
 birthplace: 154
 children: none
 commitdate: 2018/10/7
-death: 2023/3/1
+death: 2022/10/3
 en.name: Rohan
 en.nicknames: none
 en.othernames: Señor Whiskers
@@ -29,7 +29,7 @@ photo.2.tags: bamboo, portrait, smile
 photo.3: cwdc://V7Kun4NADQA.jpg
 photo.3.author: wumpwoast
 photo.3.commitdate: 2020/11/20
-photo.3.link: https://www.instagram.com/p/BZmjjZ2gF5g
+photo.3.link: ig://BZmjjZ2gF5g
 photo.3.tags: portrait, smile, tail, tongue
 photo.4: ig://BvAiB6Mha9O/m
 photo.4.author: rossifari
@@ -44,7 +44,7 @@ photo.5.tags: mofumofu, paws, portrait
 photo.6: cwdc://XSmZ8mZADQA.jpg
 photo.6.author: centralparkzoo
 photo.6.commitdate: 2021/9/6
-photo.6.link: https://www.instagram.com/p/CFUZNw8nUl9
+photo.6.link: ig://CFUZNw8nUl9
 photo.6.tags: bamboo, paws, portrait, profile, sample
 photo.7: ig://CJOWn8-rFO9/m
 photo.7.author: centralparkzoo
@@ -53,5 +53,4 @@ photo.7.link: https://www.instagram.com/centralparkzoo/
 photo.7.tags: mofumofu, portrait, tail, whiskers
 species: 1
 studbook.id: 1529
-uncertainty: death exact date (nov2022-mar2023)
 zoo: 75
