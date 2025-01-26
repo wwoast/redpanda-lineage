@@ -41,7 +41,7 @@ photo.5.tags: peek, portrait, profile, sample, whiskers
 photo.6: cwdc://WYqO-2GADQE.jpg
 photo.6.author: fetorus_mami
 photo.6.commitdate: 2025/1/25
-photo.6.link: ig://BoWTu4zF8cK
+photo.6.link: ig://BoWTu4zF8cj?img_index=2
 photo.6.tags: close-up, mofumofu, portrait, sample, whiskers
 photo.7: cwdc://WaJnm93ADQF.jpg
 photo.7.author: fetorus_mami
@@ -61,7 +61,7 @@ photo.9.tags: sample, whiskers
 photo.10: cwdc://WaJn566ADQI.jpg
 photo.10.author: fetorus_mami
 photo.10.commitdate: 2025/1/25
-photo.10.link: ig://BpGAMbNFuv4
+photo.10.link: ig://BpGAMbNFuv3?img_index=2
 photo.10.tags: close-up, whiskers
 photo.11: cwdc://WjBMFdrADQA.jpg
 photo.11.author: nakayamanoboru6981
@@ -76,17 +76,17 @@ photo.12.tags: paws, portrait, sample, whiskers
 photo.13: cwdc://Wo6TAmgADQB.jpg
 photo.13.author: craig_craig_craig
 photo.13.commitdate: 2025/1/25
-photo.13.link: ig://BweVvxAF3zw
+photo.13.link: ig://BweVvxAF3zv?img_index=2
 photo.13.tags: paws, peek, portrait, sample, whiskers
 photo.14: cwdc://Wo6TAmgADQC.jpg
 photo.14.author: craig_craig_craig
 photo.14.commitdate: 2025/1/25
-photo.14.link: ig://BweVvxAF3zx
+photo.14.link: ig://BweVvxAF3zv?img_index=3
 photo.14.tags: close-up, nose
 photo.15: cwdc://Wo6TAmgADQD.jpg
 photo.15.author: craig_craig_craig
 photo.15.commitdate: 2025/1/25
-photo.15.link: ig://BweVvxAF3zy
+photo.15.link: ig://BweVvxAF3zv?img_index=4
 photo.15.tags: close-up, portrait, tongue
 photo.16: cwdc://WpKj6kBADQE.jpg
 photo.16.author: craig_craig_craig
@@ -131,12 +131,12 @@ photo.23.tags: laying down, paws, sample, whiskers
 photo.24: cwdc://XVfUxfpADQF.jpg
 photo.24.author: ssc6105
 photo.24.commitdate: 2025/1/25
-photo.24.link: ig://CGw2oNkhbwj
+photo.24.link: ig://CGw2oNkhbwi?img_index=2
 photo.24.tags: blink, laying down, sample, sleeping, whiskers
 photo.25: cwdc://XVfUxfpADQG.jpg
 photo.25.author: ssc6105
 photo.25.commitdate: 2025/1/25
-photo.25.link: ig://CGw2oNkhbwk
+photo.25.link: ig://CGw2oNkhbwi?img_index=3
 photo.25.tags: blink, laying down, sample, sleeping, whiskers
 photo.26: cwdc://XVqhwlbADQA.jpg
 photo.26.author: rie_panda55
@@ -146,17 +146,17 @@ photo.26.tags: bamboo, paws, portrait, sample, whiskers
 photo.27: cwdc://XVqhwlbADQB.jpg
 photo.27.author: rie_panda55
 photo.27.commitdate: 2025/1/25
-photo.27.link: ig://CG2dHwdhYJF
+photo.27.link: ig://CG2dHwdhYJE?img_index=2
 photo.27.tags: bamboo, paws, portrait, standing
 photo.28: cwdc://XVqhwlbADQC.jpg
 photo.28.author: rie_panda55
 photo.28.commitdate: 2025/1/25
-photo.28.link: ig://CG2dHwdhYJG
+photo.28.link: ig://CG2dHwdhYJE?img_index=3
 photo.28.tags: bamboo, laying down, portrait, sample, whiskers
 photo.29: cwdc://XVqhwlbADQD.jpg
 photo.29.author: rie_panda55
 photo.29.commitdate: 2025/1/25
-photo.29.link: ig://CG2dHwdhYJH
+photo.29.link: ig://CG2dHwdhYJE?img_index=4
 photo.29.tags: portrait
 photo.30: cwdc://XV5NuxjADQD.jpg
 photo.30.author: ssc6105
@@ -186,47 +186,47 @@ photo.34.tags: paws, sample, whiskers
 photo.35: cwdc://Ygp1EvPADQB.jpg
 photo.35.author: hamiiiii831_
 photo.35.commitdate: 2025/1/25
-photo.35.link: ig://CsWGx1XveKi
+photo.35.link: ig://CsWGx1XveKh?img_index=2
 photo.35.tags: door, paws, sample, whiskers
 photo.36: cwdc://Ygp1EvPADQC.jpg
 photo.36.author: hamiiiii831_
 photo.36.commitdate: 2025/1/25
-photo.36.link: ig://CsWGx1XveKj
+photo.36.link: ig://CsWGx1XveKh?img_index=3
 photo.36.tags: paws, sample, whiskers
 photo.37: cwdc://Ygp1EvPADQD.jpg
 photo.37.author: hamiiiii831_
 photo.37.commitdate: 2025/1/25
-photo.37.link: ig://CsWGx1XveKk
+photo.37.link: ig://CsWGx1XveKh?img_index=4
 photo.37.tags: paws, sample, whiskers
 photo.38: cwdc://Ygp1EvPADQE.jpg
 photo.38.author: hamiiiii831_
 photo.38.commitdate: 2025/1/25
-photo.38.link: ig://CsWGx1XveKl
+photo.38.link: ig://CsWGx1XveKh?img_index=5
 photo.38.tags: door, paws, peek, sample, whiskers
 photo.39: cwdc://Ygp1EvPADQF.jpg
 photo.39.author: hamiiiii831_
 photo.39.commitdate: 2025/1/25
-photo.39.link: ig://CsWGx1XveKm
+photo.39.link: ig://CsWGx1XveKh?img_index=6
 photo.39.tags: door, paws, sample, whiskers
 photo.40: cwdc://Ygp1EvPADQG.jpg
 photo.40.author: hamiiiii831_
 photo.40.commitdate: 2025/1/25
-photo.40.link: ig://CsWGx1XveKn
+photo.40.link: ig://CsWGx1XveKh?img_index=7
 photo.40.tags: door, paws, sample, tongue, whiskers, yawn
 photo.41: cwdc://Ygp1EvPADQH.jpg
 photo.41.author: hamiiiii831_
 photo.41.commitdate: 2025/1/25
-photo.41.link: ig://CsWGx1XveKo
+photo.41.link: ig://CsWGx1XveKh?img_index=8
 photo.41.tags: blink, door, paws, sample, tongue, whiskers, yawn
 photo.42: cwdc://Ygp1EvPADQI.jpg
 photo.42.author: hamiiiii831_
 photo.42.commitdate: 2025/1/25
-photo.42.link: ig://CsWGx1XveKp
+photo.42.link: ig://CsWGx1XveKh?img_index=9
 photo.42.tags: door, paws, sample, whiskers, yawn
 photo.43: cwdc://Ygp1EvPADQJ.jpg
 photo.43.author: hamiiiii831_
 photo.43.commitdate: 2025/1/25
-photo.43.link: ig://CsWGx1XveKq
+photo.43.link: ig://CsWGx1XveKh?img_index=10
 photo.43.tags: door, paws, sample, whiskers, yawn
 species: 2
 studbook.id: 14156
