@@ -14,6 +14,7 @@ ja.othernames: none
 language.order: ja, en
 location.1: 16, 2016/6/2
 location.2: 10, 2020/12/29
+location.3: 63, 2025/2/11
 photo.1: ig://BLYcZgXAp-f/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/12
@@ -404,4 +405,4 @@ photo.78.link: ig://C7t7UpDPcBM
 photo.78.tags: flowers, portrait, smile
 species: 2
 studbook.id: 1675
-zoo: 10
+zoo: 63
