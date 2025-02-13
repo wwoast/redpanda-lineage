@@ -56,3 +56,23 @@ species: 1
 studbook.id: 1024
 uncertainty: location.3 exact date and year
 zoo: 121
+photo.8: cwdc://ZT26oDtADQA.jpg
+photo.8.author: zooboise
+photo.8.commitdate: 2025/2/12
+photo.8.link: ig://DF8pjfmvqeS
+photo.8.tags: paws, portrait, sample, snow
+photo.9: cwdc://ZT26oDtADQB.jpg
+photo.9.author: zooboise
+photo.9.commitdate: 2025/2/12
+photo.9.link: ig://DF8pjfmvqeT
+photo.9.tags: birthday, paws, portrait, tongue, white face
+photo.10: cwdc://ZT26oDtADQC.jpg
+photo.10.author: zooboise
+photo.10.commitdate: 2025/2/12
+photo.10.link: ig://DF8pjfmvqeU
+photo.10.tags: peek, portrait, sample, whiskers
+photo.11: cwdc://ZT26oDtADQD.jpg
+photo.11.author: zooboise
+photo.11.commitdate: 2025/2/12
+photo.11.link: ig://DF8pjfmvqeV
+photo.11.tags: portrait, sample, toys, whiskers
