@@ -52,10 +52,6 @@ photo.7.author: worldthathesees
 photo.7.commitdate: 2025/2/12
 photo.7.link: ig://CXJ1qzYpOgx
 photo.7.tags: bridge, laying down, paws, whiskers
-species: 1
-studbook.id: 1024
-uncertainty: location.3 exact date and year
-zoo: 121
 photo.8: cwdc://ZT26oDtADQA.jpg
 photo.8.author: zooboise
 photo.8.commitdate: 2025/2/12
@@ -76,3 +72,7 @@ photo.11.author: zooboise
 photo.11.commitdate: 2025/2/12
 photo.11.link: ig://DF8pjfmvqeV
 photo.11.tags: portrait, sample, toys, whiskers
+species: 1
+studbook.id: 1024
+uncertainty: location.3 exact date and year
+zoo: 121
