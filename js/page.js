@@ -325,7 +325,7 @@ Page.home.render = function() {
     // var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
     // new_content.appendChild(kingin);
     // Current memorials
-    var memorial_ids = ["23"];
+    var memorial_ids = ["644"];
     if (!Options.data.hideDeadPandas) {
       var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
       new_content.appendChild(departed);
@@ -420,6 +420,9 @@ Page.home.special_memorial = function() {
   if (choice % 7 == 0) {
     var laila = Gallery.memorialPhotoCredits(L.display, ["60"], 3, Message.missing_you);
     return laila;
+  } else if (choice % 5 == 0) {
+    var kokin = Gallery.memorialPhotoCredits(L.display, ["23"], 3, Message.missing_you);
+    return kokin;
   } else if (choice % 3 == 0) {
     var hokuto = Gallery.memorialPhotoCredits(L.display, ["58"], 3, Message.missing_you);
     return hokuto;
