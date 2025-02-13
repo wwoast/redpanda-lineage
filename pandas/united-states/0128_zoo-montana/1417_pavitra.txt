@@ -13,6 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 location.1: 95, 2023/6/9
+location.2: 128, 2024/11/1
 photo.1: ig://CxOWiQNP2MO/m
 photo.1.author: sandiegozoo
 photo.1.commitdate: 2023/9/16
@@ -34,4 +35,5 @@ photo.4.commitdate: 2024/4/13
 photo.4.link: ig://CxQjztRrxFP
 photo.4.tags: baby, mofumofu, sample, whiskers
 species: 2
-zoo: 95
+uncertainty: location.2 exact date
+zoo: 128
