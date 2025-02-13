@@ -22,10 +22,6 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2021/12/26
 photo.1.link: ig://CXJ1qzYpOgr
 photo.1.tags: peek, white face
-species: 1
-studbook.id: 1024
-uncertainty: location.3 exact date and year
-zoo: 121
 photo.2: cwdc://X2RS2rRADQB.jpg
 photo.2.author: worldthathesees
 photo.2.commitdate: 2025/2/12
@@ -56,3 +52,7 @@ photo.7.author: worldthathesees
 photo.7.commitdate: 2025/2/12
 photo.7.link: ig://CXJ1qzYpOgx
 photo.7.tags: bridge, laying down, paws, whiskers
+species: 1
+studbook.id: 1024
+uncertainty: location.3 exact date and year
+zoo: 121
