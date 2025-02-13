@@ -17,9 +17,8 @@ jobs:
           python ./build.py --publish
           rm .gitignore
       - name: Publish artifact for github pages
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: ${{ github.workspace }}
           retention-days: 1
   deploy:
@@ -33,7 +32,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy github pages
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
         with:
           timeout: 600000
           error_count: 10
