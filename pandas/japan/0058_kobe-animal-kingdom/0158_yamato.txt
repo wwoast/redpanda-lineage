@@ -15,6 +15,7 @@ language.order: ja, en
 litter: 896
 location.1: 16, 2015/7/29
 location.2: 25, 2018/1/29
+location.3: 58, 2025/2/17
 photo.1: ig://BAhynd7qoPv/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/3
@@ -204,4 +205,4 @@ photo.38.link: https://www.instagram.com/fetorus_mami/
 photo.38.tags: bamboo, bridge, paws, peek
 species: 2
 studbook.id: 15160
-zoo: 25
+zoo: 58

@@ -15,6 +15,7 @@ language.order: ja, en
 litter: 41
 location.1: 19, 2014/7/13
 location.2: 58, 2018/9/28
+location.3: 25, 2025/2/17
 photo.1: cwdc://WArftj2ADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/10/6
@@ -666,4 +667,4 @@ photo.130.link: ig://C7poQ9Rhksc
 photo.130.tags: peek, sample, techitechi, whiskers
 species: 2
 studbook.id: 14164
-zoo: 58
+zoo: 25
