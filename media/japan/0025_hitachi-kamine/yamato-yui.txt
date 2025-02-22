@@ -7,6 +7,8 @@ photo.1.author: craig_craig_craig
 photo.1.commitdate: 2025/2/21
 photo.1.link: ig://BoIB-8fFZtr
 photo.1.tags: bridge, couple, paws, portrait, tail
+photo.1.tags.47.location: 245, 300
+photo.1.tags.158.location: 570, 330
 photo.2: cwdc://W9me8WFADQA.jpg
 photo.2.author: takahisakaneuchi
 photo.2.commitdate: 2020/1/3
@@ -26,36 +28,50 @@ photo.4.author: rie_panda55
 photo.4.commitdate: 2025/2/21
 photo.4.link: ig://CRgsF5pBxzO
 photo.4.tags: bridge, couple
+photo.4.tags.47.location: 410, 90
+photo.4.tags.158.location: 450, 460
 photo.5: cwdc://Xq-_s3yADQC.jpg
 photo.5.author: rie_panda55
 photo.5.commitdate: 2025/2/21
 photo.5.link: ig://CRgsF5pBxzP
 photo.5.tags: bridge, couple, tail
+photo.5.tags.47.location: 430, 275
+photo.5.tags.158.location: 300, 240
 photo.6: cwdc://Xq-_s3yADQD.jpg
 photo.6.author: rie_panda55
 photo.6.commitdate: 2025/2/21
 photo.6.link: ig://CRgsF5pBxzQ
 photo.6.tags: bridge, couple, tail
+photo.6.tags.47.location: 480, 290
+photo.6.tags.158.location: 280, 175
 photo.7: cwdc://Xq-_s3yADQE.jpg
 photo.7.author: rie_panda55
 photo.7.commitdate: 2025/2/21
 photo.7.link: ig://CRgsF5pBxzR
 photo.7.tags: bridge, couple
+photo.7.tags.47.location: 305, 210
+photo.7.tags.158.location: 490, 110
 photo.8: cwdc://Xq-_s3yADQF.jpg
 photo.8.author: rie_panda55
 photo.8.commitdate: 2025/2/21
 photo.8.link: ig://CRgsF5pBxzS
 photo.8.tags: bridge, couple, grooming, tail
+photo.8.tags.47.location: 545, 220
+photo.8.tags.158.location: 300, 275
 photo.9: cwdc://Xq-_s3yADQG.jpg
 photo.9.author: rie_panda55
 photo.9.commitdate: 2025/2/21
 photo.9.link: ig://CRgsF5pBxzT
 photo.9.tags: bridge, couple, grooming, laying down, tail
+photo.9.tags.47.location: 525, 200
+photo.9.tags.158.location: 280, 290
 photo.10: cwdc://Xq-_s3yADQH.jpg
 photo.10.author: rie_panda55
 photo.10.commitdate: 2025/2/21
 photo.10.link: ig://CRgsF5pBxzU
 photo.10.tags: bridge, grooming, laying down, tail, tongue
+photo.10.tags.47.location: 550, 180
+photo.10.tags.158.location: 260, 335
 photo.11: cwdc://XsjXQiMADQA.jpg
 photo.11.author: ssc6105
 photo.11.commitdate: 2022/1/12
