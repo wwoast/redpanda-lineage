@@ -39,27 +39,27 @@ photo.4.tags: paws, portrait, sample, tail
 photo.5: cwdc://WEYpqkqADQB.jpg
 photo.5.author: apple_jasmine33
 photo.5.commitdate: 2025/2/21
-photo.5.link: ig://BeNhEwFBCtt
+photo.5.link: ig://BeNhEwFBCts?img_index=2
 photo.5.tags: bridge, bamboo, peek, portrait
 photo.6: cwdc://WEYpqkqADQC.jpg
 photo.6.author: apple_jasmine33
 photo.6.commitdate: 2025/2/21
-photo.6.link: ig://BeNhEwFBCtu
+photo.6.link: ig://BeNhEwFBCts?img_index=3
 photo.6.tags: bridge, peek, portrait
 photo.7: cwdc://WEYpqkqADQD.jpg
 photo.7.author: apple_jasmine33
 photo.7.commitdate: 2025/2/21
-photo.7.link: ig://BeNhEwFBCtv
+photo.7.link: ig://BeNhEwFBCts?img_index=4
 photo.7.tags: peek, portrait, sample, whiskers
 photo.8: cwdc://WEYpqkqADQE.jpg
 photo.8.author: apple_jasmine33
 photo.8.commitdate: 2025/2/21
-photo.8.link: ig://BeNhEwFBCtw
+photo.8.link: ig://BeNhEwFBCts?img_index=5
 photo.8.tags: apple time, bite, keeper, portrait, whiskers
 photo.9: cwdc://WEYpqkqADQF.jpg
 photo.9.author: apple_jasmine33
 photo.9.commitdate: 2025/2/21
-photo.9.link: ig://BeNhEwFBCtx
+photo.9.link: ig://BeNhEwFBCts?img_index=6
 photo.9.tags: nose, portrait, sample, whiskers
 photo.10: cwdc://WEsklAVADQA.jpg
 photo.10.author: perie1027vivi
@@ -79,32 +79,32 @@ photo.12.tags: portrait, sample, whiskers
 photo.13: cwdc://WKFyoyuADQB.jpg
 photo.13.author: rie_panda55
 photo.13.commitdate: 2025/2/21
-photo.13.link: ig://BhEFj3HFtfD
+photo.13.link: ig://BhEFj3HFtfC?img_index=2
 photo.13.tags: paws, peek, portrait, whiskers
 photo.14: cwdc://WKFyoyuADQC.jpg
 photo.14.author: rie_panda55
 photo.14.commitdate: 2025/2/21
-photo.14.link: ig://BhEFj3HFtfE
+photo.14.link: ig://BhEFj3HFtfC?img_index=3
 photo.14.tags: paws, portrait, sample, whiskers
 photo.15: cwdc://WKFyoyuADQD.jpg
 photo.15.author: rie_panda55
 photo.15.commitdate: 2025/2/21
-photo.15.link: ig://BhEFj3HFtfF
+photo.15.link: ig://BhEFj3HFtfC?img_index=4
 photo.15.tags: bridge, portrait, sample, tail
 photo.16: cwdc://WKFyoyuADQE.jpg
 photo.16.author: rie_panda55
 photo.16.commitdate: 2025/2/21
-photo.16.link: ig://BhEFj3HFtfG
+photo.16.link: ig://BhEFj3HFtfC?img_index=5
 photo.16.tags: laying down, paws, portrait
 photo.17: cwdc://WKFyoyuADQF.jpg
 photo.17.author: rie_panda55
 photo.17.commitdate: 2025/2/21
-photo.17.link: ig://BhEFj3HFtfH
+photo.17.link: ig://BhEFj3HFtfC?img_index=6
 photo.17.tags: paws, peek, portrait, sample, whiskers
 photo.18: cwdc://WKFyoyuADQG.jpg
 photo.18.author: rie_panda55
 photo.18.commitdate: 2025/2/21
-photo.18.link: ig://BhEFj3HFtfI
+photo.18.link: ig://BhEFj3HFtfC?img_index=7
 photo.18.tags: apple time, paws, portrait, window
 photo.19: cwdc://WKapVgFADQA.jpg
 photo.19.author: hanamaru_redpanda
@@ -124,7 +124,7 @@ photo.21.tags: sample
 photo.22: cwdc://WMPZpBmADQC.jpg
 photo.22.author: redpanda_nippon_takashi
 photo.22.commitdate: 2025/2/21
-photo.22.link: ig://BiI5D-jFvJi
+photo.22.link: ig://BiI5D-jFvJh?img_index=2
 photo.22.tags: paws, sample
 photo.23: cwdc://WYNre9eADQA.jpg
 photo.23.author: craig_craig_craig
@@ -154,7 +154,7 @@ photo.27.tags: peek, portrait, sample, whiskers
 photo.28: cwdc://Whw4lBpADQB.jpg
 photo.28.author: yakko____
 photo.28.commitdate: 2025/2/21
-photo.28.link: ig://Bs5oh-klGXD
+photo.28.link: ig://Bs5oh-klGXC?img_index=2
 photo.28.tags: apple time, climb, keeper, paws, portrait, tail , whiskers
 photo.29: cwdc://WuL1h1pADQD.jpg
 photo.29.author: miis_98
@@ -164,12 +164,12 @@ photo.29.tags: portrait, sample, tail, tongue, whiskers
 photo.30: cwdc://Ww5TBvQADQA.jpg
 photo.30.author: panda.daisuki
 photo.30.commitdate: 2025/2/21
-photo.30.link: ig://B0d1wVYBdKa
+photo.30.link: ig://B0d1wVYBdKY?img_index=3
 photo.30.tags: apple time, portrait, smaple, whiskers
 photo.31: cwdc://Ww5TBvQADQB.jpg
 photo.31.author: panda.daisuki
 photo.31.commitdate: 2025/2/21
-photo.31.link: ig://B0d1wVYBdKb
+photo.31.link: ig://B0d1wVYBdKY?img_index=4
 photo.31.tags: bamboo, close-up, peek, portrait, sample, whiskers
 photo.32: cwdc://Ww5TBvQADQC.jpg
 photo.32.author: panda.daisuki
@@ -214,18 +214,18 @@ photo.39.tags: close-up, flowers, portrait, sample, whiskers
 photo.40: cwdc://XOWoE8eADQD.jpg
 photo.40.author: eos1089
 photo.40.commitdate: 2025/2/21
-photo.40.link: ig://CDMgR7_BOYs
+photo.40.link: ig://CDMgR7_BOYr?img_index=2
 photo.40.tags: apple time, close-up, laying down, paws, portrait
 photo.41: cwdc://XOWoE8eADQE.jpg
 photo.41.author: eos1089
 photo.41.commitdate: 2025/2/21
-photo.41.link: ig://CDMgR7_BOYt
+photo.41.link: ig://CDMgR7_BOYr?img_index=3
 photo.41.tags: laying down, paws, portrait, sample
 photo.42: cwdc://XOXmQWrADQA.jpg
 photo.42.author: panda.daisuki
 photo.42.commitdate: 2020/7/28
 photo.42.link: ig://CDM_XpFhsdy
-photo.42.tags: close-up, mofumofu, portrait, profile, sample
+photo.42.tags: close-up, mofumofu, portrait, profile, sample, whiskers
 photo.43: cwdc://XOXmQWrADQE.jpg
 photo.43.author: panda.daisuki
 photo.43.commitdate: 2025/2/21
