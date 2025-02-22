@@ -2,31 +2,71 @@
 _id: media.25.yamato-yui
 commitdate: 2020/1/3
 panda.tags: 47, 158
-photo.1: ig://B60btoyhbuY/m
+photo.1: cwdc://W9me8WFADQA.jpg
 photo.1.author: takahisakaneuchi
 photo.1.commitdate: 2020/1/3
-photo.1.link: https://www.instagram.com/takahisakaneuchi/
-photo.1.tags: couple
+photo.1.link: ig://B60btoyhbuY
+photo.1.tags: bamboo, couple, peek, whiskers
 photo.1.tags.47.location: 235, 215
 photo.1.tags.158.location: 185, 90
-photo.2: ig://CRgsF5pBxzN/l
+photo.2: cwdc://Xq-_s3yADQA.jpg
 photo.2.author: rie_panda55
 photo.2.commitdate: 2021/11/4
-photo.2.link: https://www.instagram.com/rie_panda55/
+photo.2.link: ig://CRgsF5pBxzN
 photo.2.tags: bridge, couple
 photo.2.tags.47.location: 325, 35
 photo.2.tags.158.location: 120, 265
-photo.3: ig://CSS33u2Bx8Y/l
+photo.3: cwdc://XsjXQiMADQA.jpg
 photo.3.author: ssc6105
 photo.3.commitdate: 2022/1/12
-photo.3.link: https://www.instagram.com/ssc6105/
+photo.3.link: ig://CSS33u2Bx8Y
 photo.3.tags: couple, peek
 photo.3.tags.47.location: 185, 580
 photo.3.tags.158.location: 465, 205
 photo.4: cwdc://Yofb82CADQA.jpg
 photo.4.author: ck.chie
 photo.4.commitdate: 2023/9/16
-photo.4.link: https://www.instagram.com/p/CwQ6N4xB1E2
+photo.4.link: ig://CwQ6N4xB1E2
 photo.4.tags: bamboo, couple
 photo.4.tags.47.location: 230, 305
 photo.4.tags.158.location: 90, 130
+photo.5: cwdc://WYNre9eADQB.jpg
+photo.5.author: craig_craig_craig
+photo.5.commitdate: 2025/2/21
+photo.5.link: ig://BoIB-8fFZtr
+photo.5.tags: bridge, couple, paws, portrait, tail
+photo.6: cwdc://Xq-_s3yADQB.jpg
+photo.6.author: rie_panda55
+photo.6.commitdate: 2025/2/21
+photo.6.link: ig://CRgsF5pBxzO
+photo.6.tags: bridge, couple
+photo.7: cwdc://Xq-_s3yADQC.jpg
+photo.7.author: rie_panda55
+photo.7.commitdate: 2025/2/21
+photo.7.link: ig://CRgsF5pBxzP
+photo.7.tags: bridge, couple, tail
+photo.8: cwdc://Xq-_s3yADQD.jpg
+photo.8.author: rie_panda55
+photo.8.commitdate: 2025/2/21
+photo.8.link: ig://CRgsF5pBxzQ
+photo.8.tags: bridge, couple, tail
+photo.9: cwdc://Xq-_s3yADQE.jpg
+photo.9.author: rie_panda55
+photo.9.commitdate: 2025/2/21
+photo.9.link: ig://CRgsF5pBxzR
+photo.9.tags: bridge, couple
+photo.10: cwdc://Xq-_s3yADQF.jpg
+photo.10.author: rie_panda55
+photo.10.commitdate: 2025/2/21
+photo.10.link: ig://CRgsF5pBxzS
+photo.10.tags: bridge, couple, grooming, tail
+photo.11: cwdc://Xq-_s3yADQG.jpg
+photo.11.author: rie_panda55
+photo.11.commitdate: 2025/2/21
+photo.11.link: ig://CRgsF5pBxzT
+photo.11.tags: bridge, couple, grooming, laying down, tail
+photo.12: cwdc://Xq-_s3yADQH.jpg
+photo.12.author: rie_panda55
+photo.12.commitdate: 2025/2/21
+photo.12.link: ig://CRgsF5pBxzU
+photo.12.tags: bridge, grooming, laying down, tail, tongue
