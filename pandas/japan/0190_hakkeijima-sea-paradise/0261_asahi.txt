@@ -289,9 +289,7 @@ photo.55.author: minatomirai215
 photo.55.commitdate: 2020/9/14
 photo.55.link: ig://CEt1GxKBx97
 photo.55.tags: apple time, peek, portrait, toys
-species: 2
-studbook.id: 15143
-zoo: 190
+
 photo.56: cwdc://VTnvDlNADQB.jpg
 photo.56.author: love__mitarashi
 photo.56.commitdate: 2025/2/28
@@ -599,3 +597,6 @@ photo.116.author: gloryeui
 photo.116.commitdate: 2025/2/28
 photo.116.link: ig://CiFP37lvABe
 photo.116.tags: peek, portrait, sample, whiskers
+species: 2
+studbook.id: 15143
+zoo: 190
