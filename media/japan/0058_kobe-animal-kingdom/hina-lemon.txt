@@ -2,10 +2,10 @@
 _id: media.58.hina-lemon
 commitdate: 2020/8/29
 panda.tags: 254, 262
-photo.1: ig://CD3lIoLhCCM/l
+photo.1: cwdc://XPsxyU3ADQA.jpg
 photo.1.author: jas_forever_love
 photo.1.commitdate: 2020/8/29
-photo.1.link: https://www.instagram.com/jas_forever_love/
+photo.1.link: ig://CD3lIoLhCCM
 photo.1.tags: apple time, bridge, couple, keeper
 photo.1.tags.254.location: 450, 560
 photo.1.tags.262.location: 705, 560
@@ -16,10 +16,25 @@ photo.2.link: https://www.instagram.com/i.satosato/
 photo.2.tags: apple time, couple, bottom-to-top, portrait
 photo.2.tags.254.location: 235, 180
 photo.2.tags.262.location: 245, 70
-photo.3: ig://Cd0lQ_-JZFX/l
+photo.3: cwdc://YDmyDEcADQA.jpg
 photo.3.author: re_ichimaru
 photo.3.commitdate: 2022/8/31
-photo.3.link: https://www.instagram.com/re_ichimaru/
-photo.3.tags: bamboo, couple, whiskers
+photo.3.link: ig://Cd0lQ_-JZFX
+photo.3.tags: bamboo, couple, lips, whiskers
 photo.3.tags.254.location: 265, 130
 photo.3.tags.262.location: 80, 320
+photo.4: cwdc://XNXCjWTADQA.jpg
+photo.4.author: makimaru18
+photo.4.commitdate: 2025/2/27
+photo.4.link: ig://CCsthI5hnzR
+photo.4.tags: apple time, bridge, couple, keeper, portrait, whiskers
+photo.5: cwdc://Ycs2nduADQG.jpg
+photo.5.author: resapanlove
+photo.5.commitdate: 2025/2/27
+photo.5.link: ig://CqXnjMnPFFH
+photo.5.tags: couple, paws, sample, smile
+photo.6: cwdc://YsdJd2CADQA.jpg
+photo.6.author: kai.kuniko
+photo.6.commitdate: 2025/2/27
+photo.6.link: ig://CyPw-YxNn3c
+photo.6.tags: bridge, couple, portrait, tail, wink
