@@ -18,10 +18,10 @@ photo.2.tags: bamboo, paws, siblings, triplets
 photo.2.tags.261.location: 490, 295
 photo.2.tags.262.location: 330, 390
 photo.2.tags.263.location: 805, 345
-photo.3: ig://BKIrtZZDPqF/l
+photo.3: cwdc://VcO-73SADQA.jpg
 photo.3.author: panda.daisuki
 photo.3.commitdate: 2020/5/2
-photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.link: ig://BKIrtZZDPqF
 photo.3.tags: keeper, lunch time, siblings, triplets
 photo.3.tags.261.location: 880, 360
 photo.3.tags.262.location: 505, 560
@@ -50,3 +50,13 @@ photo.6.tags: lunch time, siblings, triplets
 photo.6.tags.261.location: 750, 310
 photo.6.tags.262.location: 540, 315
 photo.6.tags.263.location: 375, 375
+photo.7: cwdc://VWasvZtADQA.jpg
+photo.7.author: love__mitarashi
+photo.7.commitdate: 2025/2/28
+photo.7.link: ig://BHOinKmhPA9
+photo.7.tags: paws, siblings, standing, tongue, triplets
+photo.8: cwdc://W0B2tiJADQB.jpg
+photo.8.author: i.satosato
+photo.8.commitdate: 2025/2/28
+photo.8.link: ig://B2CHmO0h98Z
+photo.8.tags: mofumofu, siblings, tail, triplets
