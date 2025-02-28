@@ -240,10 +240,10 @@ photo.45.author: love__mitarashi
 photo.45.commitdate: 2019/9/6
 photo.45.link: ig://B2Ej_0FB99M
 photo.45.tags: mofumofu, portrait, sample, whiskers
-photo.46: ig://B2FfJRPh-0b/m
+photo.46: cwdc://W0Ilzm_ADQA.jpg
 photo.46.author: sasapan34
 photo.46.commitdate: 2019/9/9
-photo.46.link: https://www.instagram.com/sasapan34/
+photo.46.link: ig://B2FfJRPh-0b
 photo.47: cwdc://W0Jsg-bADQA.jpg
 photo.47.author: roko_mm
 photo.47.commitdate: 2019/9/9
@@ -289,7 +289,6 @@ photo.55.author: minatomirai215
 photo.55.commitdate: 2020/9/14
 photo.55.link: ig://CEt1GxKBx97
 photo.55.tags: apple time, peek, portrait, toys
-
 photo.56: cwdc://VTnvDlNADQB.jpg
 photo.56.author: love__mitarashi
 photo.56.commitdate: 2025/2/28
@@ -600,3 +599,14 @@ photo.116.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 15143
 zoo: 190
+photo.46.tags: peek, sample
+photo.117: cwdc://W0Ilzm_ADQB.jpg
+photo.117.author: sasapan34
+photo.117.commitdate: 2025/2/28
+photo.117.link: ig://B2FfJRPh-0c
+photo.117.tags: bamboo, paws, smile, window
+photo.118: cwdc://W0Ilzm_ADQC.jpg
+photo.118.author: sasapan34
+photo.118.commitdate: 2025/2/28
+photo.118.link: ig://B2FfJRPh-0d
+photo.118.tags: bamboo, lips, paws, sample, smile, whiskers
