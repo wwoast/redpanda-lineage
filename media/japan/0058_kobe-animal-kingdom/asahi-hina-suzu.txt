@@ -5,7 +5,7 @@ panda.tags: 261, 262, 263
 photo.1: cwdc://VWNTv10ADQA.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/25
-photo.1.link: https://www.instagram.com/p/BHH2HYqDJVs
+photo.1.link: ig://BHH2HYqDJVs
 photo.1.tags: bridge, siblings, tail, triplets
 photo.1.tags.261.location: 95, 130
 photo.1.tags.262.location: 35, 195
@@ -13,7 +13,7 @@ photo.1.tags.263.location: 235, 60
 photo.2: cwdc://VWZx8klADQB.jpg
 photo.2.author: minatomirai215
 photo.2.commitdate: 2020/5/25
-photo.2.link: https://www.instagram.com/p/BHOFNwCjzXU
+photo.2.link: ig://BHOFNwCjzXU
 photo.2.tags: bamboo, paws, siblings, triplets
 photo.2.tags.261.location: 490, 295
 photo.2.tags.262.location: 330, 390
@@ -29,7 +29,7 @@ photo.3.tags.263.location: 275, 320
 photo.4: cwdc://VkRSNFPADQC.jpg
 photo.4.author: minatomirai215
 photo.4.commitdate: 2020/5/25
-photo.4.link: https://www.instagram.com/p/BOJ1WAXjVE0
+photo.4.link: ig://BOJ1WAXjVE0
 photo.4.tags: clockwise, keeper, siblings, triplets
 photo.4.tags.261.location: 520, 900
 photo.4.tags.262.location: 560, 205
@@ -45,7 +45,7 @@ photo.5.tags.263.location: 740, 225
 photo.6: cwdc://XApYuaDADQA.jpg
 photo.6.author: otogami76
 photo.6.commitdate: 2020/2/17
-photo.6.link: https://www.instagram.com/p/B8V4mqxhJVJ
+photo.6.link: ig://B8V4mqxhJVJ
 photo.6.tags: lunch time, siblings, triplets
 photo.6.tags.261.location: 750, 310
 photo.6.tags.262.location: 540, 315
