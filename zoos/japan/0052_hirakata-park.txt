@@ -1,14 +1,15 @@
 [zoo]
 _id: 52
+closed: 2025/1/13
 commitdate: 2018/7/14
 en.address: 1-1 枚方公園町 Hirakata, Osaka Prefecture 573-0054, Japan
 en.location: Hirakata, Osaka Prefecture, Japan
-en.name: Hirakata Park
-en.othernames: Hirapah
+en.name: Hirakata Animal Park Wonder Garden
+en.othernames: Hirakata Park, Hirapah
 flag: Japan
 ja.address: 〒573-0054 大阪府枚方市枚方公園町１−1
 ja.location: 枚方市 大阪府
-ja.name: ひらかたパーク
+ja.name: ひらかたパークワンダーガーデン
 language.order: ja, en
 latitude: 34.8082596
 longitude: 135.6374833
