@@ -224,7 +224,7 @@ photo.42.tags: snow, tail
 photo.43: cwdc://WiJuV9cADQA.jpg
 photo.43.author: motohin
 photo.43.commitdate: 2019/1/27
-photo.43.link: https://www.instagram.com/p/BtGDaceFJ9n
+photo.43.link: ig://BtGDaceFJ9n
 photo.43.tags: portrait, profile, sample, snow
 photo.44: ig://Bt50Lt8lAgn/m
 photo.44.author: ifumoto88
@@ -628,7 +628,7 @@ photo.123.tags: paws, portrait, sample, smile, snow, whiskers
 photo.124: cwdc://X6bOLu7ADQA.jpg
 photo.124.author: ck.chie
 photo.124.commitdate: 2023/2/25
-photo.124.link: https://www.instagram.com/p/CZOzVVNvx2y
+photo.124.link: ig://CZOzVVNvx2y
 photo.124.tags: paws, sample, smile, snow, whiskers
 photo.125: ig://CZviBjnLJj8/m
 photo.125.author: hidehaya_biei

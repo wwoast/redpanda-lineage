@@ -93,7 +93,7 @@ photo.15.tags: home, portrait, upside-down
 photo.16: cwdc://WPfAKUOADQA.jpg
 photo.16.author: makimaru18
 photo.16.commitdate: 2018/7/26
-photo.16.link: https://www.instagram.com/p/BjwsUn3Fbk0
+photo.16.link: ig://BjwsUn3Fbk0
 photo.16.tags: portrait, profile, sample, smile
 photo.17: ig://Bkc0eXnHOrK/m
 photo.17.author: mochan8686
@@ -498,7 +498,7 @@ photo.96.tags: peek
 photo.97: cwdc://XR6QPHdADQA.jpg
 photo.97.author: ck.chie
 photo.97.commitdate: 2020/9/14
-photo.97.link: https://www.instagram.com/p/CE-UXBeh138
+photo.97.link: ig://CE-UXBeh138
 photo.97.tags: paws, peek
 photo.98: ig://CE_7BD4B2IV/m
 photo.98.author: minatomirai215
@@ -963,7 +963,7 @@ photo.189.tags: close-up, keeper, nose, portrait, sample
 photo.190: cwdc://Ydzlw3oADQB.jpg
 photo.190.author: ck.chie
 photo.190.commitdate: 2023/11/18
-photo.190.link: https://www.instagram.com/p/Cq6_H5kPwWp
+photo.190.link: ig://Cq6_H5kPwWp
 photo.190.tags: paws, peek, sample, whiskers
 species: 2
 studbook.id: 1677
