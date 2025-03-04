@@ -15,6 +15,7 @@ language.order: ja, en
 litter: 329
 location.1: 40, 2006/8/1
 location.2: 52, 2010/3/23
+location.3: 58, 2025/2/20
 photo.1: cwdc://WZ_SDAeADQB.jpg
 photo.1.author: mochan8686
 photo.1.commitdate: 2018/11/27
@@ -827,4 +828,5 @@ photo.162.link: ig://C4IAkf1v43Z
 photo.162.tags: mofumofu, paws, sample, tail, tongue
 species: 2
 studbook.id: 0685
-zoo: 52
+uncertainty: location.3 exact date
+zoo: 58
