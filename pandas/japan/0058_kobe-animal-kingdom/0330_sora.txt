@@ -826,10 +826,6 @@ photo.162.author: hamiiiii831_
 photo.162.commitdate: 2024/12/25
 photo.162.link: ig://C4IAkf1v43Z
 photo.162.tags: mofumofu, paws, sample, tail, tongue
-species: 2
-studbook.id: 0685
-uncertainty: location.3 exact date
-zoo: 58
 photo.163: cwdc://ZA-55bRADQA.jpg
 photo.163.author: hamiiiii831_
 photo.163.commitdate: 2025/3/14
@@ -880,3 +876,7 @@ photo.172.author: hamiiiii831_
 photo.172.commitdate: 2025/3/14
 photo.172.link: ig://C8gpMLYy8UK
 photo.172.tags: door, paws, sample, smile, tongue
+species: 2
+studbook.id: 0685
+uncertainty: location.3 exact date
+zoo: 58

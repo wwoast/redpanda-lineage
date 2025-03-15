@@ -63,9 +63,6 @@ photo.10.author: kaki_redpanda
 photo.10.commitdate: 2024/10/6
 photo.10.link: ig://DAyFY4BSR7w
 photo.10.tags: baby, paws, surprise
-species: 2
-studbook.id: unknown
-zoo: 69
 photo.11: cwdc://ZRUQgb8ADQA.webp
 photo.11.author: fetorus_mami
 photo.11.commitdate: 2025/3/14
@@ -81,3 +78,6 @@ photo.13.author: fetorus_mami
 photo.13.commitdate: 2025/3/14
 photo.13.link: ig://DErUfruSGdF
 photo.13.tags: close-up, paws, sample
+species: 2
+studbook.id: unknown
+zoo: 69

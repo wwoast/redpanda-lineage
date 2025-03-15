@@ -2125,12 +2125,6 @@ photo.422.author: wumpwoast
 photo.422.commitdate: 2025/1/19
 photo.422.link: ig://DE_npQZRzth
 photo.422.tags: close-up, mofumofu, paws, portrait, sample, smile, standing, whiskers
-species: 2
-studbook.id: 1774
-video.1: https://youtu.be/f-hoQdNnqA0
-video.1.author: kosaru 323
-video.1.link: https://www.youtube.com/channel/UCzMkPrcWJCuqVsJYDVvA5gA
-zoo: 190
 photo.423: cwdc://ZSEj1U-ADQL.webp
 photo.423.author: fetorus_mami
 photo.423.commitdate: 2025/3/14
@@ -2246,3 +2240,9 @@ photo.445.author: fetorus_mami
 photo.445.commitdate: 2025/3/14
 photo.445.link: ig://DFDf6dRSqtM
 photo.445.tags: bridge, laying down, sample, tail
+species: 2
+studbook.id: 1774
+video.1: https://youtu.be/f-hoQdNnqA0
+video.1.author: kosaru 323
+video.1.link: https://www.youtube.com/channel/UCzMkPrcWJCuqVsJYDVvA5gA
+zoo: 190
