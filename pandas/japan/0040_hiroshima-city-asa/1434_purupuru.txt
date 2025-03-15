@@ -56,3 +56,13 @@ photo.8.tags: apple time, keeper, paws, portrait, snow
 species: 2
 studbook.id: unknown
 zoo: 40
+photo.9: cwdc://ZRkeBmFADQA.jpg
+photo.9.author: colette.jp
+photo.9.commitdate: 2025/3/14
+photo.9.link: ig://DEzbQQyyoTK
+photo.9.tags: mofumofu, portrait, sample, snow, tail
+photo.10: cwdc://ZRkeBmFADQB.jpg
+photo.10.author: colette.jp
+photo.10.commitdate: 2025/3/14
+photo.10.link: ig://DEzbQQyyoTL
+photo.10.tags: mofumofu, portrait, sample, snow, whiskers
