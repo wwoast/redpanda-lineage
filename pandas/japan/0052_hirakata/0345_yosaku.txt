@@ -1720,9 +1720,6 @@ photo.341.author: makimaru18
 photo.341.commitdate: 2024/12/27
 photo.341.link: ig://C1UEsuzviiZ
 photo.341.tags: paws, portrait, sample, wave, whiskers
-species: 2
-studbook.id: unknown
-zoo: 52
 photo.342: cwdc://ZRaLjE-ADQC.jpg
 photo.342.author: chankunvv
 photo.342.commitdate: 2025/3/14
@@ -1733,3 +1730,6 @@ photo.343.author: daniele.tokyo
 photo.343.commitdate: 2025/3/14
 photo.343.link: ig://DEwzDOdyLts
 photo.343.tags: sample, tongue, tree, whiskers, wink
+species: 2
+studbook.id: unknown
+zoo: 52

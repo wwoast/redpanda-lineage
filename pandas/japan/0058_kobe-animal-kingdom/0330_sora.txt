@@ -876,10 +876,6 @@ photo.172.author: hamiiiii831_
 photo.172.commitdate: 2025/3/14
 photo.172.link: ig://C8gpMLYy8UK
 photo.172.tags: door, paws, sample, smile, tongue
-species: 2
-studbook.id: 0685
-uncertainty: location.3 exact date
-zoo: 58
 photo.173: cwdc://ZRaLjE-ADQB.jpg
 photo.173.author: chankunvv
 photo.173.commitdate: 2025/3/14
@@ -890,3 +886,7 @@ photo.174.author: daniele.tokyo
 photo.174.commitdate: 2025/3/14
 photo.174.link: ig://DEwzDOdyLtt
 photo.174.tags: door, mofumofu, peek, sample
+species: 2
+studbook.id: 0685
+uncertainty: location.3 exact date
+zoo: 58

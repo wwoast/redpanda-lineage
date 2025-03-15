@@ -1066,6 +1066,11 @@ photo.210.author: minatomirai215
 photo.210.commitdate: 2025/2/27
 photo.210.link: ig://C9SKL9zSpAO
 photo.210.tags: paws, portrait, sample, standing
+photo.211: cwdc://ZRkyA5sADQA.jpg
+photo.211.author: cattail.sapporo
+photo.211.commitdate: 2025/3/14
+photo.211.link: ig://DEzlP6mSFzx
+photo.211.tags: close-up, portrait, sample, smile, snow
 species: 2
 studbook.id: 14161
 uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
@@ -1076,8 +1081,3 @@ video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
 video.2.author: cattail.sapporo
 video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
 zoo: 28
-photo.211: cwdc://ZRkyA5sADQA.jpg
-photo.211.author: cattail.sapporo
-photo.211.commitdate: 2025/3/14
-photo.211.link: ig://DEzlP6mSFzx
-photo.211.tags: close-up, portrait, sample, smile, snow
