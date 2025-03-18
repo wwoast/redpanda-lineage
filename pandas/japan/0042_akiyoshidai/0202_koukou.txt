@@ -21,334 +21,331 @@ photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/7
 photo.1.link: ig://BX2vkxTB8tS
 photo.1.tags: portrait, sample, whiskers
-photo.2: cwdc://V6YePxBADQA.jpg
-photo.2.author: miis_98
-photo.2.commitdate: 2019/6/23
-photo.2.link: ig://BZNbXWQhAkD
-photo.2.tags: portrait, sample, whiskers
-photo.3: cwdc://V7S5LGeADQD.jpg
+photo.2: cwdc://V3rGqnGADQB.jpg
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2025/3/17
+photo.2.link: ig://BX2vkxTB8tS?img_index=2
+photo.2.tags: paws, peek, portrait, sample, whiskers
+photo.3: cwdc://V3rGqnGADQC.jpg
 photo.3.author: apple_jasmine33
-photo.3.commitdate: 2020/5/7
-photo.3.link: ig://BZqo1A_BIpO
-photo.3.tags: portrait, sample
-photo.4: cwdc://WAmD4WSADQA.jpg
-photo.4.author: hanamaru_redpanda
-photo.4.commitdate: 2018/12/23
-photo.4.link: ig://BcUOLo5FQTW
+photo.3.commitdate: 2025/3/17
+photo.3.link: ig://BX2vkxTB8tS?img_index=3
+photo.3.tags: paws, peek, portrait, sample, whiskers
+photo.4: cwdc://V6YePxBADQA.jpg
+photo.4.author: miis_98
+photo.4.commitdate: 2019/6/23
+photo.4.link: ig://BZNbXWQhAkD
 photo.4.tags: portrait, sample, whiskers
-photo.5: cwdc://WJvjx0WADQA.jpg
-photo.5.author: kotata_513
-photo.5.commitdate: 2019/6/23
-photo.5.link: ig://Bg4-IX7Bv5w
-photo.5.tags: paws, portrait, sample, whiskers
-photo.6: cwdc://WdKt8LnADQA.jpg
-photo.6.author: yakko____
-photo.6.commitdate: 2018/12/6
-photo.6.link: ig://BqmjNjjnv2n
-photo.6.tags: bamboo, portrait, sample, whiskers
-photo.7: cwdc://Wfsq9PjADQA.jpg
-photo.7.author: re_ichimaru
-photo.7.commitdate: 2018/12/26
-photo.7.link: ig://Br3huFhldHt
-photo.8: cwdc://WgojdGjADQH.jpg
-photo.8.author: fetorus_mami
-photo.8.commitdate: 2019/1/9
-photo.8.link: ig://BsVd-BBlIxG
-photo.9: cwdc://WjbHTINADQE.jpg
-photo.9.author: re_ichimaru
-photo.9.commitdate: 2019/6/23
-photo.9.link: ig://Btuv5B2lsEy
-photo.9.tags: paws, whiskers
-photo.10: cwdc://WjcirwsADQI.jpg
-photo.10.author: fetorus_mami
-photo.10.commitdate: 2019/6/23
-photo.10.link: ig://BtvdlWGF2lS
-photo.10.tags: portrait, sample, whiskers
-photo.11: cwdc://WsGzJgbADQA.jpg
-photo.11.author: kipekaila
-photo.11.commitdate: 2019/6/1
-photo.11.link: ig://ByEl0N9hQC7
-photo.11.tags: itchy, portrait, techitechi, wink
-photo.12: cwdc://W06a8bAADQA.jpg
-photo.12.author: mifko55
-photo.12.commitdate: 2019/9/18
-photo.12.link: ig://B2eZtrQB_7p
-photo.12.tags: itchy, paws, portrait, sample, tail
-photo.13: cwdc://W6QhYZxADQA.jpg
-photo.13.author: fetorus_mami
-photo.13.commitdate: 2019/11/21
-photo.13.link: ig://B5Jc7qohLdb
-photo.13.tags: apple time, dish, eye, paws, sample, tongue, whiskers
-photo.14: cwdc://XRwB6p-ADQA.jpg
-photo.14.author: grskus_tk
-photo.14.commitdate: 2020/9/24
-photo.14.link: ig://CE5NMyvBz45
-photo.15: cwdc://XXhDmGOADQB.jpg
-photo.15.author: kojikoji2011
-photo.15.commitdate: 2022/8/28
-photo.15.link: ig://CHxuCg3BfkR
-photo.15.tags: laying down, paws, portrait, sleeping
-photo.16: cwdc://XavFaYDADQG.jpg
-photo.16.author: kojikoji2011
-photo.16.commitdate: 2021/6/7
-photo.16.link: ig://CJYu8pxhPGZ
-photo.16.tags: eye, grooming, mofumofu, paws, portrait, sample, tail
-photo.17: cwdc://XcPTs2DADQL.jpg
-photo.17.author: kojikoji2011
-photo.17.commitdate: 2021/6/7
-photo.17.link: ig://CKI2F4xhRI_
-photo.17.tags: eye, paws, sample, whiskers
-photo.18: cwdc://XeY3X_1ADQO.jpg
-photo.18.author: kojikoji2011
-photo.18.commitdate: 2021/6/7
-photo.18.link: ig://CLNn7dqhmTm
-photo.18.tags: eye, laying down, paws, peek, portrait, sample
-photo.19: cwdc://XjaxoQGADQR.jpg
-photo.19.author: kojikoji2011
-photo.19.commitdate: 2021/6/7
-photo.19.link: ig://CNulDlzBoKi
-photo.19.tags: eye, paws, portrait, sample, tail, tongue
-photo.20: cwdc://XkTB_rqADQT.jpg
-photo.20.author: kojikoji2011
-photo.20.commitdate: 2021/6/7
-photo.20.link: ig://COKtPTlBPkZ
-photo.20.tags: laying down, tail
-photo.21: cwdc://XoVKTdlADQX.jpg
-photo.21.author: kojikoji2011
-photo.21.commitdate: 2021/9/6
-photo.21.link: ig://CQLxZMirzup
-photo.21.tags: laying down, paws, tail
-photo.22: cwdc://Xv9g2tNADQa.jpg
-photo.22.author: kojikoji2011
-photo.22.commitdate: 2022/3/13
-photo.22.link: ig://CT_8q0WhROq
-photo.22.tags: eye, itchy, paws, portrait, sample
-photo.23: cwdc://X0UIPqAADQc.jpg
-photo.23.author: kojikoji2011
-photo.23.commitdate: 2023/8/21
-photo.23.link: ig://CWLQXSwB4un
-photo.23.tags: bridge, eye, paws, portrait, sample, whiskers
-photo.24: cwdc://X08bbRQADQb.jpg
-photo.24.author: kojikoji2011
-photo.24.commitdate: 2022/9/15
-photo.24.link: ig://CWfZ9GYBKX9
-photo.24.tags: eye, sample
-photo.25: cwdc://X4LYW3UADQd.jpg
-photo.25.author: kojikoji2011
-photo.25.commitdate: 2022/1/6
-photo.25.link: ig://CYG4a5aPPto
-photo.25.tags: apple time, dish, eye, lunch time, nose, portrait, sample, whiskers
-photo.26: cwdc://X5i7fT9ADQe.jpg
-photo.26.author: kojikoji2011
-photo.26.commitdate: 2023/8/21
-photo.26.link: ig://CYyp_HuvgAJ
-photo.26.tags: eye, lunch time, portrait, sample, smile, whiskers
-photo.27: cwdc://X7fT4oRADQg.jpg
-photo.27.author: kojikoji2011
-photo.27.commitdate: 2022/3/13
-photo.27.link: ig://CZw2Lx4hTw0
-photo.27.tags: dish, eye, portrait, sample, tongue, whiskers
-photo.28: cwdc://X82CzPSADQA.jpg
-photo.28.author: kojikoji2011
-photo.28.commitdate: 2022/3/10
-photo.28.link: ig://CacNpFZP-TT
-photo.28.tags: eye, paws, portrait, profile, sample, whiskers
-photo.29: cwdc://X_LSjkQADQB.jpg
-photo.29.author: sasapan34
-photo.29.commitdate: 2022/4/25
-photo.29.link: ig://Cbm1hP4JjOQ
-photo.29.tags: paws, sample, smile
-photo.30: cwdc://YEkgTXPADQA.jpg
-photo.30.author: kojikoji2011
-photo.30.commitdate: 2022/9/24
-photo.30.link: ig://CeTcZJXvIms
-photo.30.tags: eye, mofumofu, portrait, sample, smile, whiskers
-photo.31: cwdc://YOtaJqPADQD.jpg
+photo.5: cwdc://V7S5LGeADQD.jpg
+photo.5.author: apple_jasmine33
+photo.5.commitdate: 2020/5/7
+photo.5.link: ig://BZqo1A_BIpO
+photo.5.tags: portrait, sample
+photo.6: cwdc://V7S5LGeADQE.jpg
+photo.6.author: apple_jasmine33
+photo.6.commitdate: 2025/3/17
+photo.6.link: ig://BZqo1A_BIpO?img_index=2
+photo.6.tags: peek, portrait, sample, whiskers
+photo.7: cwdc://WAmD4WSADQA.jpg
+photo.7.author: hanamaru_redpanda
+photo.7.commitdate: 2018/12/23
+photo.7.link: ig://BcUOLo5FQTW
+photo.7.tags: portrait, sample, whiskers
+photo.8: cwdc://WJvjx0WADQA.jpg
+photo.8.author: kotata_513
+photo.8.commitdate: 2019/6/23
+photo.8.link: ig://Bg4-IX7Bv5w
+photo.8.tags: paws, portrait, sample, whiskers
+photo.9: cwdc://WdKt8LnADQA.jpg
+photo.9.author: yakko____
+photo.9.commitdate: 2018/12/6
+photo.9.link: ig://BqmjNjjnv2n
+photo.9.tags: bamboo, portrait, sample, whiskers
+photo.10: cwdc://Wfsq9PjADQA.jpg
+photo.10.author: re_ichimaru
+photo.10.commitdate: 2018/12/26
+photo.10.link: ig://Br3huFhldHt
+photo.10.tags: sample, whiskers
+photo.11: cwdc://Wfsq9PjADQB.jpg
+photo.11.author: re_ichimaru
+photo.11.commitdate: 2025/3/17
+photo.11.link: ig://Br3huFhldHu
+photo.11.tags: peek, sample, whiskers
+photo.12: cwdc://Wfsq9PjADQC.jpg
+photo.12.author: re_ichimaru
+photo.12.commitdate: 2025/3/17
+photo.12.link: ig://Br3huFhldHv
+photo.12.tags: dish, nose, paws, whiskers
+photo.13: cwdc://Wfsq9PjADQD.jpg
+photo.13.author: re_ichimaru
+photo.13.commitdate: 2025/3/17
+photo.13.link: ig://Br3huFhldHw
+photo.13.tags: door, sample
+photo.14: cwdc://WgojdGjADQH.jpg
+photo.14.author: fetorus_mami
+photo.14.commitdate: 2019/1/9
+photo.14.link: ig://BsVd-BBlIxG
+photo.14.tags: peek, portrait, sample
+photo.15: cwdc://WjbHTINADQE.jpg
+photo.15.author: re_ichimaru
+photo.15.commitdate: 2019/6/23
+photo.15.link: ig://Btuv5B2lsEy
+photo.15.tags: paws, whiskers
+photo.16: cwdc://WjbHTINADQF.jpg
+photo.16.author: re_ichimaru
+photo.16.commitdate: 2025/3/17
+photo.16.link: ig://Btuv5B2lsEz
+photo.16.tags: nose, whiskers
+photo.17: cwdc://WjcirwsADQI.jpg
+photo.17.author: fetorus_mami
+photo.17.commitdate: 2019/6/23
+photo.17.link: ig://BtvdlWGF2lS
+photo.17.tags: portrait, sample, whiskers
+photo.18: cwdc://WjcirwsADQJ.jpg
+photo.18.author: fetorus_mami
+photo.18.commitdate: 2025/3/17
+photo.18.link: ig://BtvdlWGF2lT
+photo.18.tags: peek, portrait
+photo.19: cwdc://WsGzJgbADQA.jpg
+photo.19.author: kipekaila
+photo.19.commitdate: 2019/6/1
+photo.19.link: ig://ByEl0N9hQC7
+photo.19.tags: itchy, portrait, techitechi, wink
+photo.20: cwdc://W06a8bAADQA.jpg
+photo.20.author: mifko55
+photo.20.commitdate: 2019/9/18
+photo.20.link: ig://B2eZtrQB_7p
+photo.20.tags: itchy, paws, portrait, sample, tail
+photo.21: cwdc://W6QhYZxADQA.jpg
+photo.21.author: fetorus_mami
+photo.21.commitdate: 2019/11/21
+photo.21.link: ig://B5Jc7qohLdb
+photo.21.tags: apple time, dish, eye, paws, sample, tongue, whiskers
+photo.22: cwdc://W6QhYZxADQB.jpg
+photo.22.author: fetorus_mami
+photo.22.commitdate: 2025/3/17
+photo.22.link: ig://B5Jc7qohLdb?img_index=5
+photo.22.tags: apple time, bite, close-up, dish, sample, whiskers
+photo.23: cwdc://W6QhYZxADQC.jpg
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2025/3/17
+photo.23.link: ig://B5Jc7qohLdb?img_index=6
+photo.23.tags: apple time, dish, eye, paws, sample, whiskers
+photo.24: cwdc://W6QhYZxADQD.jpg
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2025/3/17
+photo.24.link: ig://B5Jc7qohLdb?img_index=7
+photo.24.tags: apple time, bite, close-up, eye, sample, whiskers
+photo.25: cwdc://W6QhYZxADQE.jpg
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2025/3/17
+photo.25.link: ig://B5Jc7qohLdb?img_index=8
+photo.25.tags: apple time, close-up, dish, eye, paws, sample, whiskers
+photo.26: cwdc://W6QhYZxADQF.jpg
+photo.26.author: fetorus_mami
+photo.26.commitdate: 2025/3/17
+photo.26.link: ig://B5Jc7qohLdb?img_index=9
+photo.26.tags: apple time, dish, paws, sapmle, whiskers
+photo.27: cwdc://W6QhYZxADQG.jpg
+photo.27.author: fetorus_mami
+photo.27.commitdate: 2025/3/17
+photo.27.link: ig://B5Jc7qohLdb?img_index=10
+photo.27.tags: apple time, dish, paws, sample, tongue, whiskers
+photo.28: cwdc://XRwB6p-ADQA.jpg
+photo.28.author: grskus_tk
+photo.28.commitdate: 2020/9/24
+photo.28.link: ig://CE5NMyvBz45
+photo.28.tags: paws, window
+photo.29: cwdc://XRwB6p-ADQB.jpg
+photo.29.author: grskus_tk
+photo.29.commitdate: 2025/3/17
+photo.29.link: ig://CE5NMyvBz46
+photo.29.tags: dish, eye, paws, sample
+photo.30: cwdc://XRwB6p-ADQC.jpg
+photo.30.author: grskus_tk
+photo.30.commitdate: 2025/3/17
+photo.30.link: ig://CE5NMyvBz47
+photo.30.tags: eye, paws, tail
+photo.31: cwdc://XXhDmGOADQB.jpg
 photo.31.author: kojikoji2011
-photo.31.commitdate: 2022/10/20
-photo.31.link: ig://CjX5US3vjVM
-photo.31.tags: eye, peek, portrait, sample, whiskers
-photo.32: cwdc://YRCupOiADQM.jpg
+photo.31.commitdate: 2022/8/28
+photo.31.link: ig://CHxuCg3BfkR
+photo.31.tags: laying down, paws, portrait, sleeping
+photo.32: cwdc://XXhDmGOADQC.jpg
 photo.32.author: kojikoji2011
-photo.32.commitdate: 2023/11/26
-photo.32.link: ig://CkijkFBPabh
-photo.32.tags: close-up, eye, portrait, sample, tongue, whiskers
-photo.33: cwdc://YRnR0NUADQH.jpg
+photo.32.commitdate: 2025/3/17
+photo.32.link: ig://CHxuCg3BfkS
+photo.32.tags: laying down, paws, portrait, sleeping
+photo.33: cwdc://XavFaYDADQF.jpg
 photo.33.author: kojikoji2011
-photo.33.commitdate: 2022/12/20
-photo.33.link: ig://Ck01JkaP1Sw
-photo.33.tags: laying down, paws, portrait, sample, smile, whiskers
-photo.34: cwdc://YbBx_8wADQU.jpg
+photo.33.commitdate: 2025/3/17
+photo.33.link: ig://CJYu8pxhPGZ?img_index=2
+photo.33.tags: eye, grooming, mofumofu, paws, portrait, sample, tail
+photo.34: cwdc://XavFaYDADQG.jpg
 photo.34.author: kojikoji2011
-photo.34.commitdate: 2023/5/23
-photo.34.link: ig://CpiFPcIPXmE
-photo.34.tags: laying down, portrait, sample, whiskers
-photo.35: cwdc://YdM83J1ADQY.jpg
+photo.34.commitdate: 2021/6/7
+photo.34.link: ig://CJYu8pxhPGZ
+photo.34.tags: eye, grooming, mofumofu, paws, portrait, sample, tail
+photo.35: cwdc://XcPTs2DADQL.jpg
 photo.35.author: kojikoji2011
-photo.35.commitdate: 2023/5/16
-photo.35.link: ig://CqnqrCqvIsu
-photo.35.tags: eye, paws, portrait, sample, tongue
-species: 2
-studbook.id: 0370
-zoo: 42
-photo.36: cwdc://V3rGqnGADQB.jpg
-photo.36.author: apple_jasmine33
-photo.36.commitdate: 2025/3/17
-photo.36.link: ig://BX2vkxTB8tS?img_index=2
-photo.36.tags: paws, peek, portrait, sample, whiskers
-photo.37: cwdc://V3rGqnGADQC.jpg
-photo.37.author: apple_jasmine33
+photo.35.commitdate: 2021/6/7
+photo.35.link: ig://CKI2F4xhRI_
+photo.35.tags: eye, paws, sample, whiskers
+photo.36: cwdc://XeY3X_1ADQO.jpg
+photo.36.author: kojikoji2011
+photo.36.commitdate: 2021/6/7
+photo.36.link: ig://CLNn7dqhmTm
+photo.36.tags: eye, laying down, paws, peek, portrait, sample
+photo.37: cwdc://XeY3X_1ADQP.jpg
+photo.37.author: kojikoji2011
 photo.37.commitdate: 2025/3/17
-photo.37.link: ig://BX2vkxTB8tS?img_index=3
-photo.37.tags: paws, peek, portrait, sample, whiskers
-photo.38: cwdc://V7S5LGeADQE.jpg
-photo.38.author: apple_jasmine33
+photo.37.link: ig://CLNn7dqhmTn
+photo.37.tags: bear worm, blink, laying down, paws, portrait, sleeping
+photo.38: cwdc://XeY3X_1ADQQ.jpg
+photo.38.author: kojikoji2011
 photo.38.commitdate: 2025/3/17
-photo.38.link: ig://BZqo1A_BIpO?img_index=2
-photo.38.tags: peek, portrait, sample, whiskers
-photo.39: cwdc://W6QhYZxADQB.jpg
-photo.39.author: fetorus_mami
-photo.39.commitdate: 2025/3/17
-photo.39.link: ig://B5Jc7qohLdb?img_index=5
-photo.39.tags: apple time, bite, close-up, dish, sample, whiskers
-photo.40: cwdc://W6QhYZxADQC.jpg
-photo.40.author: fetorus_mami
+photo.38.link: ig://CLNn7dqhmTo
+photo.38.tags: bear worm, laying down, paws, portrait, sleeping, wink
+photo.39: cwdc://XjaxoQGADQR.jpg
+photo.39.author: kojikoji2011
+photo.39.commitdate: 2021/6/7
+photo.39.link: ig://CNulDlzBoKi
+photo.39.tags: eye, paws, portrait, sample, tail, tongue
+photo.40: cwdc://XkTB_rqADQS.jpg
+photo.40.author: kojikoji2011
 photo.40.commitdate: 2025/3/17
-photo.40.link: ig://B5Jc7qohLdb?img_index=6
-photo.40.tags: apple time, dish, eye, paws, sample, whiskers
-photo.41: cwdc://W6QhYZxADQD.jpg
-photo.41.author: fetorus_mami
-photo.41.commitdate: 2025/3/17
-photo.41.link: ig://B5Jc7qohLdb?img_index=7
-photo.41.tags: apple time, bite, close-up, eye, sample, whiskers
-photo.42: cwdc://W6QhYZxADQE.jpg
-photo.42.author: fetorus_mami
-photo.42.commitdate: 2025/3/17
-photo.42.link: ig://B5Jc7qohLdb?img_index=8
-photo.42.tags: apple time, close-up, dish, eye, paws, sample, whiskers
-photo.43: cwdc://W6QhYZxADQF.jpg
-photo.43.author: fetorus_mami
-photo.43.commitdate: 2025/3/17
-photo.43.link: ig://B5Jc7qohLdb?img_index=9
-photo.43.tags: apple time, dish, paws, sapmle, whiskers
-photo.44: cwdc://W6QhYZxADQG.jpg
-photo.44.author: fetorus_mami
-photo.44.commitdate: 2025/3/17
-photo.44.link: ig://B5Jc7qohLdb?img_index=10
-photo.44.tags: apple time, dish, paws, sample, tongue, whiskers
-photo.7.tags: sample, whiskers
-photo.45: cwdc://Wfsq9PjADQB.jpg
-photo.45.author: re_ichimaru
-photo.45.commitdate: 2025/3/17
-photo.45.link: ig://Br3huFhldHu
-photo.45.tags: peek, sample, whiskers
-photo.46: cwdc://Wfsq9PjADQC.jpg
-photo.46.author: re_ichimaru
-photo.46.commitdate: 2025/3/17
-photo.46.link: ig://Br3huFhldHv
-photo.46.tags: dish, nose, paws, whiskers
-photo.47: cwdc://Wfsq9PjADQD.jpg
-photo.47.author: re_ichimaru
-photo.47.commitdate: 2025/3/17
-photo.47.link: ig://Br3huFhldHw
-photo.47.tags: door, sample
-photo.8.tags: peek, portrait, sample
-photo.48: cwdc://WjbHTINADQF.jpg
-photo.48.author: re_ichimaru
+photo.40.link: ig://COKtPTlBPka
+photo.40.tags: eye, laying down, peek, sample, tail
+photo.41: cwdc://XkTB_rqADQT.jpg
+photo.41.author: kojikoji2011
+photo.41.commitdate: 2021/6/7
+photo.41.link: ig://COKtPTlBPkZ
+photo.41.tags: laying down, tail
+photo.42: cwdc://XoVKTdlADQX.jpg
+photo.42.author: kojikoji2011
+photo.42.commitdate: 2021/9/6
+photo.42.link: ig://CQLxZMirzup
+photo.42.tags: laying down, paws, tail
+photo.43: cwdc://Xv9g2tNADQa.jpg
+photo.43.author: kojikoji2011
+photo.43.commitdate: 2022/3/13
+photo.43.link: ig://CT_8q0WhROq
+photo.43.tags: eye, itchy, paws, portrait, sample
+photo.44: cwdc://X0UIPqAADQc.jpg
+photo.44.author: kojikoji2011
+photo.44.commitdate: 2023/8/21
+photo.44.link: ig://CWLQXSwB4un
+photo.44.tags: bridge, eye, paws, portrait, sample, whiskers
+photo.45: cwdc://X08bbRQADQb.jpg
+photo.45.author: kojikoji2011
+photo.45.commitdate: 2022/9/15
+photo.45.link: ig://CWfZ9GYBKX9
+photo.45.tags: eye, sample
+photo.46: cwdc://X4LYW3UADQd.jpg
+photo.46.author: kojikoji2011
+photo.46.commitdate: 2022/1/6
+photo.46.link: ig://CYG4a5aPPto
+photo.46.tags: apple time, dish, eye, lunch time, nose, portrait, sample, whiskers
+photo.47: cwdc://X5i7fT9ADQe.jpg
+photo.47.author: kojikoji2011
+photo.47.commitdate: 2023/8/21
+photo.47.link: ig://CYyp_HuvgAJ
+photo.47.tags: eye, lunch time, portrait, sample, smile, whiskers
+photo.48: cwdc://X5i7fT9ADQf.jpg
+photo.48.author: kojikoji2011
 photo.48.commitdate: 2025/3/17
-photo.48.link: ig://Btuv5B2lsEz
-photo.48.tags: nose, whiskers
-photo.49: cwdc://WjcirwsADQJ.jpg
-photo.49.author: fetorus_mami
-photo.49.commitdate: 2025/3/17
-photo.49.link: ig://BtvdlWGF2lT
-photo.49.tags: peek, portrait
-photo.50: cwdc://X5i7fT9ADQf.jpg
+photo.48.link: ig://CYyp_HuvgAK
+photo.48.tags: eye, paws, portrait, sample, whiskers
+photo.49: cwdc://X7fT4oRADQg.jpg
+photo.49.author: kojikoji2011
+photo.49.commitdate: 2022/3/13
+photo.49.link: ig://CZw2Lx4hTw0
+photo.49.tags: dish, eye, portrait, sample, tongue, whiskers
+photo.50: cwdc://X82CzPSADQA.jpg
 photo.50.author: kojikoji2011
-photo.50.commitdate: 2025/3/17
-photo.50.link: ig://CYyp_HuvgAK
-photo.50.tags: eye, paws, portrait, sample, whiskers
-photo.14.tags: paws, window
-photo.51: cwdc://XRwB6p-ADQB.jpg
-photo.51.author: grskus_tk
-photo.51.commitdate: 2025/3/17
-photo.51.link: ig://CE5NMyvBz46
-photo.51.tags: dish, eye, paws, sample
-photo.52: cwdc://XRwB6p-ADQC.jpg
-photo.52.author: grskus_tk
-photo.52.commitdate: 2025/3/17
-photo.52.link: ig://CE5NMyvBz47
-photo.52.tags: eye, paws, tail
-photo.53: cwdc://XXhDmGOADQC.jpg
+photo.50.commitdate: 2022/3/10
+photo.50.link: ig://CacNpFZP-TT
+photo.50.tags: eye, paws, portrait, profile, sample, whiskers
+photo.51: cwdc://X_LSjkQADQB.jpg
+photo.51.author: sasapan34
+photo.51.commitdate: 2022/4/25
+photo.51.link: ig://Cbm1hP4JjOQ
+photo.51.tags: paws, sample, smile
+photo.52: cwdc://YEkgTXPADQA.jpg
+photo.52.author: kojikoji2011
+photo.52.commitdate: 2022/9/24
+photo.52.link: ig://CeTcZJXvIms
+photo.52.tags: eye, mofumofu, portrait, sample, smile, whiskers
+photo.53: cwdc://YOtaJqPADQD.jpg
 photo.53.author: kojikoji2011
-photo.53.commitdate: 2025/3/17
-photo.53.link: ig://CHxuCg3BfkS
-photo.53.tags: laying down, paws, portrait, sleeping
-photo.54: cwdc://XavFaYDADQF.jpg
+photo.53.commitdate: 2022/10/20
+photo.53.link: ig://CjX5US3vjVM
+photo.53.tags: eye, peek, portrait, sample, whiskers
+photo.54: cwdc://YOtaJqPADQE.jpg
 photo.54.author: kojikoji2011
 photo.54.commitdate: 2025/3/17
-photo.54.link: ig://CJYu8pxhPGZ?img_index=2
-photo.54.tags: eye, grooming, mofumofu, paws, portrait, sample, tail
-photo.55: cwdc://XeY3X_1ADQP.jpg
+photo.54.link: ig://CjX5US3vjVN
+photo.54.tags: eye, laying down, paws, portrait, sample
+photo.55: cwdc://YRCupOiADQM.jpg
 photo.55.author: kojikoji2011
-photo.55.commitdate: 2025/3/17
-photo.55.link: ig://CLNn7dqhmTn
-photo.55.tags: bear worm, blink, laying down, paws, portrait, sleeping
-photo.56: cwdc://XeY3X_1ADQQ.jpg
+photo.55.commitdate: 2023/11/26
+photo.55.link: ig://CkijkFBPabh
+photo.55.tags: close-up, eye, portrait, sample, tongue, whiskers
+photo.56: cwdc://YRCupOiADQN.jpg
 photo.56.author: kojikoji2011
 photo.56.commitdate: 2025/3/17
-photo.56.link: ig://CLNn7dqhmTo
-photo.56.tags: bear worm, laying down, paws, portrait, sleeping, wink
-photo.57: cwdc://XkTB_rqADQS.jpg
+photo.56.link: ig://CkijkFBPabi
+photo.56.tags: close-up, eye, peek, portrait, sample, tongue, whiskers
+photo.57: cwdc://YRnR0NUADQH.jpg
 photo.57.author: kojikoji2011
-photo.57.commitdate: 2025/3/17
-photo.57.link: ig://COKtPTlBPka
-photo.57.tags: eye, laying down, peek, sample, tail
-photo.58: cwdc://YOtaJqPADQE.jpg
+photo.57.commitdate: 2022/12/20
+photo.57.link: ig://Ck01JkaP1Sw
+photo.57.tags: laying down, paws, portrait, sample, smile, whiskers
+photo.58: cwdc://YRnR0NUADQI.jpg
 photo.58.author: kojikoji2011
 photo.58.commitdate: 2025/3/17
-photo.58.link: ig://CjX5US3vjVN
-photo.58.tags: eye, laying down, paws, portrait, sample
-photo.59: cwdc://YRCupOiADQN.jpg
+photo.58.link: ig://Ck01JkaP1Sx
+photo.58.tags: laying down, paws, portrait, sample, whiskers, yawn
+photo.59: cwdc://YRnR0NUADQJ.jpg
 photo.59.author: kojikoji2011
 photo.59.commitdate: 2025/3/17
-photo.59.link: ig://CkijkFBPabi
-photo.59.tags: close-up, eye, peek, portrait, sample, tongue, whiskers
-photo.60: cwdc://YRnR0NUADQI.jpg
+photo.59.link: ig://Ck01JkaP1Sy
+photo.59.tags: laying down, paws, portrait, sample, whiskers, yawn
+photo.60: cwdc://YRnR0NUADQK.jpg
 photo.60.author: kojikoji2011
 photo.60.commitdate: 2025/3/17
-photo.60.link: ig://Ck01JkaP1Sx
-photo.60.tags: laying down, paws, portrait, sample, whiskers, yawn
-photo.61: cwdc://YRnR0NUADQJ.jpg
-photo.61.author: kojikoji2011
+photo.60.link: ig://Ck01JkaP1Sz
+photo.60.tags: blink, laying down, paws, portrait, sample, tongue, whiskers, yawn
+photo.61: cwdc://YWmBEOUADQF.jpg
+photo.61.author: apple_jasmine33
 photo.61.commitdate: 2025/3/17
-photo.61.link: ig://Ck01JkaP1Sy
-photo.61.tags: laying down, paws, portrait, sample, whiskers, yawn
-photo.62: cwdc://YRnR0NUADQK.jpg
-photo.62.author: kojikoji2011
+photo.61.link: ig://CnUMxk6PnvJ
+photo.61.tags: door, paws, tongue
+photo.62: cwdc://YWmBEOUADQG.jpg
+photo.62.author: apple_jasmine33
 photo.62.commitdate: 2025/3/17
-photo.62.link: ig://Ck01JkaP1Sz
-photo.62.tags: blink, laying down, paws, portrait, sample, tongue, whiskers, yawn
-photo.63: cwdc://YWmBEOUADQF.jpg
-photo.63.author: apple_jasmine33
-photo.63.commitdate: 2025/3/17
-photo.63.link: ig://CnUMxk6PnvJ
-photo.63.tags: door, paws, tongue
-photo.64: cwdc://YWmBEOUADQG.jpg
-photo.64.author: apple_jasmine33
+photo.62.link: ig://CnUMxk6PnvK
+photo.62.tags: dish, eye, lunch time, tongue
+photo.63: cwdc://YbBx_8wADQU.jpg
+photo.63.author: kojikoji2011
+photo.63.commitdate: 2023/5/23
+photo.63.link: ig://CpiFPcIPXmE
+photo.63.tags: laying down, portrait, sample, whiskers
+photo.64: cwdc://YbBx_8wADQV.jpg
+photo.64.author: kojikoji2011
 photo.64.commitdate: 2025/3/17
-photo.64.link: ig://CnUMxk6PnvK
-photo.64.tags: dish, eye, lunch time, tongue
-photo.65: cwdc://YbBx_8wADQV.jpg
+photo.64.link: ig://CpiFPcIPXmF
+photo.64.tags: close-up, eye, laying down, portrait, sample, whiskers
+photo.65: cwdc://YbBx_8wADQW.jpg
 photo.65.author: kojikoji2011
 photo.65.commitdate: 2025/3/17
-photo.65.link: ig://CpiFPcIPXmF
-photo.65.tags: close-up, eye, laying down, portrait, sample, whiskers
-photo.66: cwdc://YbBx_8wADQW.jpg
+photo.65.link: ig://CpiFPcIPXmG
+photo.65.tags: laying down, paws, playing, portrait, upside-down
+photo.66: cwdc://YdM83J1ADQY.jpg
 photo.66.author: kojikoji2011
-photo.66.commitdate: 2025/3/17
-photo.66.link: ig://CpiFPcIPXmG
-photo.66.tags: laying down, paws, playing, portrait, upside-down
+photo.66.commitdate: 2023/5/16
+photo.66.link: ig://CqnqrCqvIsu
+photo.66.tags: eye, paws, portrait, sample, tongue
 photo.67: cwdc://YdM83J1ADQZ.jpg
 photo.67.author: kojikoji2011
 photo.67.commitdate: 2025/3/17
@@ -424,3 +421,6 @@ photo.81.author: chankunvv
 photo.81.commitdate: 2025/3/17
 photo.81.link: ig://DCMApVNSHpe
 photo.81.tags: eye, paws, portrait, sample
+species: 2
+studbook.id: 0370
+zoo: 42
