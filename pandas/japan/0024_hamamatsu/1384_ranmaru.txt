@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1383
+location.1: 17, 2022/7/27
+location.2: 24, 2025/3/13
 photo.1: cwdc://YRg6csbADQA.jpg
 photo.1.author: tamazoowalking
 photo.1.commitdate: 2023/1/11
@@ -354,4 +356,4 @@ photo.68.commitdate: 2024/11/2
 photo.68.link: ig://C9Z7QjeyoUX
 photo.68.tags: door, paws, sample, smile, whiskers
 species: 2
-zoo: 17
+zoo: 24
