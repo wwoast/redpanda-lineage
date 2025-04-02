@@ -9,11 +9,11 @@ photo.1.link: ig://CD50rPIBNFl
 photo.1.tags: baby, keeper, siblings, twins, videolink
 photo.1.tags.1189.location: 490, 120
 photo.1.tags.1190.location: 325, 225
-photo.2: ig://CGHU8gAhs7k/l
+photo.2: cwdc://XUMRaEhADQA.jpg
 photo.2.author: asahiyamazoo1
 photo.2.commitdate: 2020/10/9
-photo.2.link: https://www.instagram.com/asahiyamazoo1/
-photo.2.tags: baby, siblings, twins
+photo.2.link: ig://CGHU8gAhs7k
+photo.2.tags: baby, mofumofu, siblings, twins
 photo.2.tags.1189.location: 605, 165
 photo.2.tags.1190.location: 230, 255
 photo.3: cwdc://XUh6ad7ADQA.jpg
@@ -203,5 +203,5 @@ photo.29.author: hamiiiii831_
 photo.29.commitdate: 2025/4/1
 photo.29.link: ig://CSspmeOBG8h
 photo.29.tags: paws, siblings, toys, twins
-photo.29.tags.1189.location: 385, 140 
+photo.29.tags.1189.location: 385, 140
 photo.29.tags.1190.location: 145, 95
