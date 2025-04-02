@@ -2,10 +2,10 @@
 _id: media.37.renren-rinrin
 commitdate: 2020/8/17
 panda.tags: 1189, 1190
-photo.1: ig://CD50rPIBNFl/l
+photo.1: cwdc://XPxQ3iwADQA.jpg
 photo.1.author: asahiyamazoo1
 photo.1.commitdate: 2020/8/17
-photo.1.link: https://www.instagram.com/asahiyamazoo1/
+photo.1.link: ig://CD50rPIBNFl
 photo.1.tags: baby, keeper, siblings, twins, videolink
 photo.1.tags.1189.location: 490, 120
 photo.1.tags.1190.location: 325, 225
@@ -86,11 +86,11 @@ photo.12.link: ig://CLwYhA3BoLL
 photo.12.tags: baby, mofumofu, portrait, siblings, tail, twins
 photo.12.tags.1189.location: 210, 130
 photo.12.tags.1190.location: 120, 165
-photo.13: ig://CMuL-_VBiIs/l
+photo.13: cwdc://XhZ_fDKADQA.jpg
 photo.13.author: nakacchi_desu
 photo.13.commitdate: 2021/11/25
-photo.13.link: https://www.instagram.com/nakacchi_desu/
-photo.13.tags: laying down, snow, siblings, tail, twins
+photo.13.link: ig://CMuL-_VBiIs
+photo.13.tags: laying down, siblings, snow, tail, twins
 photo.13.tags.1189.location: 215, 190
 photo.13.tags.1190.location: 325, 200
 photo.14: cwdc://XkTUDE7ADQB.jpg
@@ -100,10 +100,10 @@ photo.14.link: ig://COK2RANhoZ8
 photo.14.tags: bamboo, portrait, siblings, techitechi, twins
 photo.14.tags.1189.location: 155, 230
 photo.14.tags.1190.location: 480, 230
-photo.15: ig://CSspmeOBG8d/l
+photo.15: cwdc://XtW6uA8ADQA.jpg
 photo.15.author: hamiiiii831_
 photo.15.commitdate: 2021/8/22
-photo.15.link: https://www.instagram.com/hamiiiii831_/
+photo.15.link: ig://CSspmeOBG8d
 photo.15.tags: bridge, siblings, smile, twins
 photo.15.tags.1189.location: 350, 250
 photo.15.tags.1190.location: 150, 315
@@ -168,14 +168,14 @@ photo.24.author: leonard_redmof
 photo.24.commitdate: 2025/4/1
 photo.24.link: ig://CHiChF_hajn
 photo.24.tags: baby, mofumofu, portrait, siblings, tail, techitechi, twins
-photo.24.tags.1189.location: 390, 210 
+photo.24.tags.1189.location: 390, 210
 photo.24.tags.1190.location: 295, 360
 photo.25: cwdc://XXBsjQfADQE.jpg
 photo.25.author: leonard_redmof
 photo.25.commitdate: 2025/4/1
 photo.25.link: ig://CHiChF_hajo
 photo.25.tags: baby, mofumofu, portrait, siblings, tail, twins
-photo.25.tags.1189.location: 450, 335 
+photo.25.tags.1189.location: 450, 335
 photo.25.tags.1190.location: 340, 345
 photo.26: cwdc://XXBsjQfADQF.jpg
 photo.26.author: leonard_redmof
@@ -196,5 +196,10 @@ photo.28.author: komabazoophoto
 photo.28.commitdate: 2025/4/1
 photo.28.link: ig://Cknts_ASk5M
 photo.28.tags: bridge, laying down, peek, portrait, siblings, techitechi, twins
-photo.28.tags.1189.location: 320, 585  
+photo.28.tags.1189.location: 320, 585
 photo.28.tags.1190.location: 590, 70
+photo.29: cwdc://XtW6uA8ADQB.jpg
+photo.29.author: hamiiiii831_
+photo.29.commitdate: 2025/4/1
+photo.29.link: ig://CSspmeOBG8h
+photo.29.tags: paws, siblings, toys, twins
