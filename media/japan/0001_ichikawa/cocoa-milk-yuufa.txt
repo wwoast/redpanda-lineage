@@ -10,32 +10,32 @@ photo.1.tags: door, mother's day, twins
 photo.1.tags.6.location: 135, 145
 photo.1.tags.246.location: 245, 165
 photo.1.tags.247.location: 190, 160
-photo.2: cwdc://W7tBGrXADQA.jpg
-photo.2.author: alto0908
-photo.2.commitdate: 2020/2/16
-photo.2.link: ig://B53syzbh6Pg
-photo.2.tags: autumn, laying down, mofumofu, mother's day, siblings, tail, tree, twins
-photo.2.tags.6.location: 100, 85
-photo.2.tags.246.location: 820, 300
-photo.2.tags.247.location: 385, 495
-photo.3: cwdc://W9akn39ADQJ.jpg
-photo.3.author: na.mo.pan
+photo.2: cwdc://Wuakb0SADQB.jpg
+photo.2.author: redpanda_nippon_takashi
+photo.2.commitdate: 2025/4/1
+photo.2.link: ig://BzOedX5BgQs
+photo.2.tags: apple time, dish, keeper, mother's day, standing, twins
+photo.3: cwdc://W7tBGrXADQA.jpg
+photo.3.author: alto0908
 photo.3.commitdate: 2020/2/16
-photo.3.link: ig://B6uejZuhv4o
-photo.3.tags: apple time, keeper, mother's day, twins
-photo.3.tags.6.location: 425, 960
-photo.3.tags.246.location: 270, 375
-photo.3.tags.247.location: 770, 500
-photo.4: cwdc://XHYVSZjADQA.jpg
-photo.4.author: ssc6105
-photo.4.commitdate: 2020/5/29
-photo.4.link: ig://B_tW4qhnFc3
-photo.4.tags: apple time, family, keeper, mother's day, siblings, sisters, twins
-photo.4.tags.6.location: 150, 315
-photo.4.tags.246.location: 220, 90
-photo.4.tags.247.location: 110, 100
-photo.5: cwdc://Wuakb0SADQB.jpg
-photo.5.author: redpanda_nippon_takashi
-photo.5.commitdate: 2025/4/1
-photo.5.link: ig://BzOedX5BgQs
-photo.5.tags: apple time, dish, keeper, mother's day, standing, twins
+photo.3.link: ig://B53syzbh6Pg
+photo.3.tags: autumn, laying down, mofumofu, mother's day, siblings, tail, tree, twins
+photo.3.tags.6.location: 100, 85
+photo.3.tags.246.location: 820, 300
+photo.3.tags.247.location: 385, 495
+photo.4: cwdc://W9akn39ADQJ.jpg
+photo.4.author: na.mo.pan
+photo.4.commitdate: 2020/2/16
+photo.4.link: ig://B6uejZuhv4o
+photo.4.tags: apple time, keeper, mother's day, twins
+photo.4.tags.6.location: 425, 960
+photo.4.tags.246.location: 270, 375
+photo.4.tags.247.location: 770, 500
+photo.5: cwdc://XHYVSZjADQA.jpg
+photo.5.author: ssc6105
+photo.5.commitdate: 2020/5/29
+photo.5.link: ig://B_tW4qhnFc3
+photo.5.tags: apple time, family, keeper, mother's day, siblings, sisters, twins
+photo.5.tags.6.location: 150, 315
+photo.5.tags.246.location: 220, 90
+photo.5.tags.247.location: 110, 100

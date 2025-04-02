@@ -2,20 +2,20 @@
 _id: media.1.cocoa-yuufa
 commitdate: 2019/11/27
 panda.tags: 6, 246
-photo.1: cwdc://W6k6K_6ADQA.jpg
-photo.1.author: _rifa_p
-photo.1.commitdate: 2019/11/27
-photo.1.link: ig://B5TpU9tBQ7V
-photo.1.tags: apple time, keeper
-photo.1.tags.6.location: 105, 60
-photo.1.tags.246.location: 255, 135
-photo.2: cwdc://WytKtZLADQA.jpg
-photo.2.author: alto0908
-photo.2.commitdate: 2019/12/30
-photo.2.link: ig://B1XxmKVhsDT
-photo.2.tags: home, mother's day, paws, portrait, sample, smile, whiskers
-photo.2.tags.6.location: 260, 190
-photo.2.tags.246.location: 195, 70
+photo.1: cwdc://WytKtZLADQA.jpg
+photo.1.author: alto0908
+photo.1.commitdate: 2019/12/30
+photo.1.link: ig://B1XxmKVhsDT
+photo.1.tags: home, mother's day, paws, portrait, sample, smile, whiskers
+photo.1.tags.6.location: 260, 190
+photo.1.tags.246.location: 195, 70
+photo.2: cwdc://W6k6K_6ADQA.jpg
+photo.2.author: _rifa_p
+photo.2.commitdate: 2019/11/27
+photo.2.link: ig://B5TpU9tBQ7V
+photo.2.tags: apple time, keeper
+photo.2.tags.6.location: 105, 60
+photo.2.tags.246.location: 255, 135
 photo.3: cwdc://W6k6K_6ADQA.jpg
 photo.3.author: _rifa_p
 photo.3.commitdate: 2019/11/27
