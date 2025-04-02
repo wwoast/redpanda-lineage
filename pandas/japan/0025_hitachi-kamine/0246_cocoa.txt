@@ -460,11 +460,11 @@ photo.89.author: ifumoto88
 photo.89.commitdate: 2019/9/5
 photo.89.link: ig://B1_cDRfhg9u
 photo.89.tags: mofumofu, paws, portrait, sample, wave, whiskers
-photo.90: ig://B2BNf2nhI8W/m
+photo.90: cwdc://W0ACgxvADQA.jpg
 photo.90.author: sulfa2
 photo.90.commitdate: 2019/9/5
-photo.90.link: https://www.instagram.com/sulfa2/
-photo.90.tags: smile, tongue, tree
+photo.90.link: ig://B2BNf2nhI8W
+photo.90.tags: smile, tail, tongue, tree
 photo.91: cwdc://W0QDf9gADQC.jpg
 photo.91.author: ssc6105
 photo.91.commitdate: 2019/9/9
@@ -675,11 +675,11 @@ photo.132.author: ssc6105
 photo.132.commitdate: 2020/1/19
 photo.132.link: ig://B7ZSibVBzVn
 photo.132.tags: paws, sample, tree
-photo.133: ig://B7aNz4cBquX/m
+photo.133: cwdc://W-yDI1YADQB.jpg
 photo.133.author: sulfa2
 photo.133.commitdate: 2020/1/19
-photo.133.link: https://www.instagram.com/sulfa2/
-photo.133.tags: tree, whiskers
+photo.133.link: ig://B7aNz4cBquX
+photo.133.tags: sample, techitechi, tree, whiskers
 photo.134: cwdc://W_J0S48ADQD.jpg
 photo.134.author: run.swim.shingo
 photo.134.commitdate: 2020/1/24
@@ -1045,11 +1045,11 @@ photo.206.author: miis_98
 photo.206.commitdate: 2021/5/19
 photo.206.link: ig://CN_IEiMBYiB
 photo.206.tags: paws, portrait, sample, smile, whiskers
-photo.207: ig://COHI2oMhLYq/m
+photo.207: cwdc://XkL5OU5ADQA.jpg
 photo.207.author: alto0908
 photo.207.commitdate: 2021/5/31
-photo.207.link: https://www.instagram.com/alto0908/
-photo.207.tags: grooming, mofumofu, paws, portrait
+photo.207.link: ig://COHI2oMhLYq
+photo.207.tags: grooming, laying down, mofumofu, paws, portrait, sample, whiskers
 photo.208: cwdc://XknIEYTADQ6.jpg
 photo.208.author: ifumoto88
 photo.208.commitdate: 2021/5/4
@@ -1110,11 +1110,11 @@ photo.219.author: ifumoto88
 photo.219.commitdate: 2021/8/25
 photo.219.link: ig://CR1FQCyBeiO
 photo.219.tags: bridge, laying down, paws, portrait, sample, smile, tail, whiskers
-photo.220: ig://CSTBLtCBObW/m
+photo.220: cwdc://Xsjp4ekADQG.jpg
 photo.220.author: alto0908
 photo.220.commitdate: 2021/8/14
-photo.220.link: https://www.instagram.com/alto0908/
-photo.220.tags: portrait, whiskers
+photo.220.link: ig://CSTBLtCBObW
+photo.220.tags: close-up, portrait, sample, whiskers
 photo.221: cwdc://Xs6OGhdADQN.jpg
 photo.221.author: ck.chie
 photo.221.commitdate: 2021/8/18
@@ -1135,11 +1135,11 @@ photo.224.author: ifumoto88
 photo.224.commitdate: 2021/10/26
 photo.224.link: ig://CUclqm2Bvgr
 photo.224.tags: portrait, sample, smile, tongue, whiskers
-photo.225: ig://CVDw5cFh6p0/m
+photo.225: cwdc://XyFJT8rADQI.jpg
 photo.225.author: alto0908
 photo.225.commitdate: 2021/12/22
-photo.225.link: https://www.instagram.com/alto0908/
-photo.225.tags: portrait, smile, whiskers
+photo.225.link: ig://CVDw5cFh6p0
+photo.225.tags: close-up, portrait, sample, smile, whiskers
 photo.226: cwdc://XycgL7ZADQc.jpg
 photo.226.author: na.mo.pan
 photo.226.commitdate: 2021/12/22
@@ -1205,10 +1205,10 @@ photo.238.author: ssc6105
 photo.238.commitdate: 2022/2/20
 photo.238.link: ig://CZEfz63vc2c
 photo.238.tags: paws, standing, upside-down, whiskers
-photo.239: ig://CZfolxhBwtT/m
+photo.239: cwdc://X684sniADQM.jpg
 photo.239.author: alto0908
 photo.239.commitdate: 2023/3/6
-photo.239.link: https://www.instagram.com/alto0908/
+photo.239.link: ig://CZfolxhBwtT
 photo.239.tags: apple time, bite, portrait, sample
 photo.240: cwdc://X7OsPn2ADRJ.jpg
 photo.240.author: ifumoto88
@@ -1305,10 +1305,10 @@ photo.258.author: ifumoto88
 photo.258.commitdate: 2022/10/13
 photo.258.link: ig://CixJePdLUsE
 photo.258.tags: door, nose, paws, portrait, tail
-photo.259: ig://CjY_ExwhkuY/m
+photo.259: cwdc://YOvlqoBADQR.jpg
 photo.259.author: alto0908
 photo.259.commitdate: 2022/10/20
-photo.259.link: https://www.instagram.com/alto0908/
+photo.259.link: ig://CjY_ExwhkuY
 photo.259.tags: door, portrait, sample, whiskers
 photo.260: cwdc://YO3rQbZADRW.jpg
 photo.260.author: ifumoto88
@@ -2024,3 +2024,68 @@ photo.401.tags: paws, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 25
+photo.402: cwdc://X684sniADQN.jpg
+photo.402.author: alto0908
+photo.402.commitdate: 2025/4/1
+photo.402.link: ig://CZfolxhBwtU
+photo.402.tags: close-up, portrait, sample, whiskers
+photo.403: cwdc://X684sniADQO.jpg
+photo.403.author: alto0908
+photo.403.commitdate: 2025/4/1
+photo.403.link: ig://CZfolxhBwtV
+photo.403.tags: bamboo, close-up, portrait, sample, whiskers
+photo.404: cwdc://X684sniADQP.jpg
+photo.404.author: alto0908
+photo.404.commitdate: 2025/4/1
+photo.404.link: ig://CZfolxhBwtW
+photo.404.tags: bamboo, bite, portrait, sample, whiskers
+photo.405: cwdc://X684sniADQQ.jpg
+photo.405.author: alto0908
+photo.405.commitdate: 2025/4/1
+photo.405.link: ig://CZfolxhBwtX
+photo.405.tags: bamboo, bite, portrait, sample, whiskers
+photo.406: cwdc://XkL5OU5ADQB.jpg
+photo.406.author: alto0908
+photo.406.commitdate: 2025/4/1
+photo.406.link: ig://COHI2oMhLYr
+photo.406.tags: grooming, laying down, mofumofu, paws, portrait, sample, tongue, whiskers
+photo.407: cwdc://XkL5OU5ADQC.jpg
+photo.407.author: alto0908
+photo.407.commitdate: 2025/4/1
+photo.407.link: ig://COHI2oMhLYs
+photo.407.tags: grooming, laying down, mofumofu, paws, portrait, sample, tongue, whiskers
+photo.408: cwdc://XkL5OU5ADQD.jpg
+photo.408.author: alto0908
+photo.408.commitdate: 2025/4/1
+photo.408.link: ig://COHI2oMhLYt
+photo.408.tags: grooming, laying down, mofumofu, portrait, sample, whiskers
+photo.409: cwdc://XkL5OU5ADQE.jpg
+photo.409.author: alto0908
+photo.409.commitdate: 2025/4/1
+photo.409.link: ig://COHI2oMhLYu
+photo.409.tags: grooming, laying down, mofumofu, paws, portrait, sample, whiskers
+photo.410: cwdc://XkL5OU5ADQF.jpg
+photo.410.author: alto0908
+photo.410.commitdate: 2025/4/1
+photo.410.link: ig://COHI2oMhLYv
+photo.410.tags: grooming, laying down, mofumofu, paws, portrait, sample, tongue, whiskers
+photo.411: cwdc://Xsjp4ekADQH.jpg
+photo.411.author: alto0908
+photo.411.commitdate: 2025/4/1
+photo.411.link: ig://CSTBLtCBObY
+photo.411.tags: portrait, sample, smile, whiskers
+photo.412: cwdc://XyFJT8rADQJ.jpg
+photo.412.author: alto0908
+photo.412.commitdate: 2025/4/1
+photo.412.link: ig://CVDw5cFh6p1
+photo.412.tags: close-up, portrait, sample, whiskers
+photo.413: cwdc://XyFJT8rADQK.jpg
+photo.413.author: alto0908
+photo.413.commitdate: 2025/4/1
+photo.413.link: ig://CVDw5cFh6p2
+photo.413.tags: close-up, portrait, sample, whiskers
+photo.414: cwdc://XyFJT8rADQL.jpg
+photo.414.author: alto0908
+photo.414.commitdate: 2025/4/1
+photo.414.link: ig://CVDw5cFh6p3
+photo.414.tags: close-up, portrait, sample, smile, whiskers
