@@ -1458,9 +1458,7 @@ photo.289.author: hamiiiii831_
 photo.289.commitdate: 2025/1/20
 photo.289.link: ig://B5I20LHh-GW
 photo.289.tags: mofumofu, paws, playing, portrait, sample, smile, tongue, whiskers
-species: 2
-studbook.id: unknown
-zoo: 10
+
 photo.290: cwdc://W-o4D4TADQB.jpg
 photo.290.author: rie_panda55
 photo.290.commitdate: 2025/4/6
@@ -2234,3 +2232,6 @@ photo.443.author: shigeko0531
 photo.443.commitdate: 2025/4/7
 photo.443.link: ig://CfVAp48Jzg38
 photo.443.tags: dish, paws, peek, portrait, tail
+species: 2
+studbook.id: unknown
+zoo: 10
