@@ -229,10 +229,10 @@ photo.43.author: panda.daisuki
 photo.43.commitdate: 2019/1/26
 photo.43.link: ig://Bs-tTimFBqY
 photo.43.tags: portrait, tree, upside-down
-photo.44: ig://BtBHY-TlBe8/m
+photo.44: cwdc://Wh_2TBHADQB.jpg
 photo.44.author: masa_polarbear
 photo.44.commitdate: 2019/1/26
-photo.44.link: https://www.instagram.com/masa_polarbear/
+photo.44.link: ig://BtBHY-TlBe8
 photo.44.tags: mofumofu, tail
 photo.45: cwdc://WiKoOVyADQS.jpg
 photo.45.author: ifumoto88
@@ -314,10 +314,10 @@ photo.60.author: akiakiakiko18
 photo.60.commitdate: 2019/3/17
 photo.60.link: ig://Bu-PtbAl716
 photo.60.tags: bamboo, paws, standing
-photo.61: ig://BvDJuW9FExr/m
+photo.61: cwdc://WmD69yaADQC.jpg
 photo.61.author: masa_polarbear
 photo.61.commitdate: 2019/3/17
-photo.61.link: https://www.instagram.com/masa_polarbear/
+photo.61.link: ig://BvDJuW9FExr
 photo.62: cwdc://WmbYJNUADQY.jpg
 photo.62.author: ifumoto88
 photo.62.commitdate: 2019/3/21
@@ -828,11 +828,11 @@ photo.163.author: ifumoto88
 photo.163.commitdate: 2019/12/29
 photo.163.link: ig://B5fgwIrB8Zb
 photo.163.tags: laying down, portrait, tail, tree
-photo.164: ig://B5gvL3fh28q/m
+photo.164: cwdc://W6_F4zfADQA.jpg
 photo.164.author: happy_love2.15
 photo.164.commitdate: 2019/12/5
-photo.164.link: https://www.instagram.com/happy_love2.15/
-photo.164.tags: climb, paws, portrait, smile, tail, tree
+photo.164.link: ig://B5gvL3fh28q
+photo.164.tags: climb, paws, portrait, sample, smile, tail, tree
 photo.165: cwdc://W6_GCTrADQN.jpg
 photo.165.author: na.mo.pan
 photo.165.commitdate: 2019/12/3
@@ -1048,16 +1048,16 @@ photo.207.author: alto0908
 photo.207.commitdate: 2020/3/17
 photo.207.link: ig://B9pyi48B3ps
 photo.207.tags: door, home, portrait
-photo.208: ig://B9p-QEQB3BL/m
+photo.208: cwdc://XDRkBNAADQA.jpg
 photo.208.author: masa_polarbear
 photo.208.commitdate: 2020/3/17
-photo.208.link: https://www.instagram.com/masa_polarbear/
-photo.208.tags: baby, laying down, mofumofu, tail
-photo.209: ig://B9ymUGYBCJp/m
+photo.208.link: ig://B9p-QEQB3BL
+photo.208.tags: baby, laying down, mofumofu, sample, tail
+photo.209: cwdc://XDi0JRQADQA.jpg
 photo.209.author: firefoxpanda88
 photo.209.commitdate: 2020/3/18
-photo.209.link: https://www.instagram.com/firefoxpanda88/
-photo.209.tags: bamboo, paws, portrait, smile, tongue
+photo.209.link: ig://B9ymUGYBCJp
+photo.209.tags: bamboo, bite, mofumofu, paws, portrait, sample, smile, tongue, whiskers
 photo.210: cwdc://XD1X7J7ADQC.jpg
 photo.210.author: sunnylettuce_2024
 photo.210.commitdate: 2020/3/20
@@ -1068,11 +1068,11 @@ photo.211.author: grskus_tk
 photo.211.commitdate: 2020/3/24
 photo.211.link: ig://B-CNUgHhCVj
 photo.211.tags: paws, peek, tree
-photo.212: ig://B-CXsw-B3Xp/m
+photo.212: cwdc://XECW6mcADQA.jpg
 photo.212.author: craig_craig_craig
 photo.212.commitdate: 2020/3/24
-photo.212.link: https://www.instagram.com/craig_craig_craig/
-photo.212.tags: laying down, portrait, sleeping, tree
+photo.212.link: ig://B-CXsw-B3Xp
+photo.212.tags: laying down, mofumofu, portrait, sleeping, tail, tree
 photo.213: cwdc://XESYbY9ADQR.jpg
 photo.213.author: na.mo.pan
 photo.213.commitdate: 2020/3/29
@@ -1098,11 +1098,11 @@ photo.217.author: alto0908
 photo.217.commitdate: 2020/4/8
 photo.217.link: ig://B-W05mUhANH
 photo.217.tags: close-up, peek, portrait, sample, whiskers
-photo.218: ig://B-W1ZD6B3Ci/m
+photo.218: cwdc://XErSTMUADQB.jpg
 photo.218.author: firefoxpanda88
 photo.218.commitdate: 2020/4/8
-photo.218.link: https://www.instagram.com/firefoxpanda88/
-photo.218.tags: paws, portrait
+photo.218.link: ig://B-W1ZD6B3Ci
+photo.218.tags: mofumofu, paws, portrait, sample, whiskers
 photo.219: cwdc://XEtGUIaADQX.jpg
 photo.219.author: ssc6105
 photo.219.commitdate: 2020/4/8
@@ -1243,11 +1243,11 @@ photo.246.author: shigeko0531
 photo.246.commitdate: 2020/9/24
 photo.246.link: ig://CFYUnIpBAhn
 photo.246.tags: itchy, portrait, techitechi
-photo.247: ig://CFn5eiCBaTx/m
+photo.247: cwdc://XTNaeIkADQB.jpg
 photo.247.author: craig_craig_craig
 photo.247.commitdate: 2021/9/22
-photo.247.link: https://www.instagram.com/craig_craig_craig/
-photo.247.tags: mofumofu, peek, poop
+photo.247.link: ig://CFn5eiCBaTx
+photo.247.tags: mofumofu, peek, poop, tail
 photo.248: cwdc://XTrpnq9ADQC.jpg
 photo.248.author: otenba_redpanda
 photo.248.commitdate: 2021/10/2
@@ -1458,7 +1458,6 @@ photo.289.author: hamiiiii831_
 photo.289.commitdate: 2025/1/20
 photo.289.link: ig://B5I20LHh-GW
 photo.289.tags: mofumofu, paws, playing, portrait, sample, smile, tongue, whiskers
-
 photo.290: cwdc://W-o4D4TADQB.jpg
 photo.290.author: rie_panda55
 photo.290.commitdate: 2025/4/6
@@ -2235,3 +2234,19 @@ photo.443.tags: dish, paws, peek, portrait, tail
 species: 2
 studbook.id: unknown
 zoo: 10
+photo.444: cwdc://W6_F4zfADQB.jpg
+photo.444.author: happy_love2.15
+photo.444.commitdate: 2025/4/7
+photo.444.link: ig://B5gvL3fh28r
+photo.444.tags: climb, paws, portrait, sample, smile, tail, tree
+photo.61.tags: close-up, mofumofu
+photo.445: cwdc://WmD69yaADQD.jpg
+photo.445.author: masa_polarbear
+photo.445.commitdate: 2025/4/7
+photo.445.link: ig://BvDJuW9FExs
+photo.445.tags: paws, peek
+photo.446: cwdc://XTNaeIkADQC.jpg
+photo.446.author: craig_craig_craig
+photo.446.commitdate: 2025/4/7
+photo.446.link: ig://CFn5eiCBaTy
+photo.446.tags: laying down, mofumofu, portrait
