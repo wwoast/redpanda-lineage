@@ -2,10 +2,25 @@
 _id: media.10.kinako-milk
 commitdate: 2021/10/16
 panda.tags: 247, 1300
-photo.1: ig://CUtE2quvtWJ/l
+photo.1: cwdc://XxXxOZ9ADQA.jpg
 photo.1.author: shigeko0531
 photo.1.commitdate: 2021/10/16
-photo.1.link: https://www.instagram.com/shigeko0531/
+photo.1.link: ig://CUtE2quvtWJ
 photo.1.tags: baby, mother's day, portrait
 photo.1.tags.247.location: 280, 175
 photo.1.tags.1300.location: 230, 315
+photo.2: cwdc://X3xgD37ADQB.jpg
+photo.2.author: alto0908
+photo.2.commitdate: 2025/4/9
+photo.2.link: ig://CX58RZtveK2
+photo.2.tags: mother's day, laying down, sleeping, tail
+photo.3: cwdc://X3xgD37ADQC.jpg
+photo.3.author: alto0908
+photo.3.commitdate: 2025/4/9
+photo.3.link: ig://CX58RZtveK3
+photo.3.tags: mother's day, laying down, tail
+photo.4: cwdc://X3xgD37ADQD.jpg
+photo.4.author: alto0908
+photo.4.commitdate: 2025/4/9
+photo.4.link: ig://CX58RZtveK4
+photo.4.tags: laying down, mother's day, paws, tail, techitechi
