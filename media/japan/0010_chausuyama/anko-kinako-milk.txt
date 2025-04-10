@@ -23,6 +23,9 @@ photo.3.author: nakacchi_desu
 photo.3.commitdate: 2025/4/9
 photo.3.link: ig://CWqHy6YB7LF
 photo.3.tags: baby, mofumofu, mother's day, siblings, sisters, tail, twins
+photo.3.tags.247.location: 510, 225
+photo.3.tags.1300.location: 700, 410 
+photo.3.tags.1301.location: 110, 150
 photo.4: cwdc://X3fEGnZADQA.jpg
 photo.4.author: redpanda_nippon_takashi
 photo.4.commitdate: 2022/1/12
@@ -44,3 +47,6 @@ photo.6.author: redpan22
 photo.6.commitdate: 2025/4/9
 photo.6.link: ig://C84Pw2tSklQ
 photo.6.tags: baby, family, mofumofu, mother's day, portrait, siblings, sisters, twins
+photo.6.tags.247.location: 390, 215
+photo.6.tags.1300.location: 175, 300
+photo.6.tags.1301.location: 340, 370

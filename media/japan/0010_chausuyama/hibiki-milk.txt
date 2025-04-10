@@ -14,11 +14,15 @@ photo.2.author: fetorus_mami
 photo.2.commitdate: 2025/4/9
 photo.2.link: ig://CC03cawBd9T
 photo.2.tags: couple, poop, whiskers
+photo.2.tags.98.location: 245, 415
+photo.2.tags.247.location: 290, 115
 photo.3: cwdc://XNnWZ6AADQD.jpg
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2025/4/9
 photo.3.link: ig://CC03cawBd9U
 photo.3.tags: couple, tail, whiskers
+photo.3.tags.98.location: 235, 375
+photo.3.tags.247.location: 460, 55
 photo.4: cwdc://XOU8opjADQA.jpg
 photo.4.author: mari_neko3
 photo.4.commitdate: 2020/12/9
@@ -31,6 +35,8 @@ photo.5.author: mari_neko3
 photo.5.commitdate: 2025/4/9
 photo.5.link: ig://CDLqjyhhngu
 photo.5.tags: couple, laying down, tail
+photo.5.tags.98.location: 140, 300
+photo.5.tags.247.location: 655, 375
 photo.6: cwdc://XPBP4R9ADQA.jpg
 photo.6.author: alto0908
 photo.6.commitdate: 2020/12/9
@@ -57,6 +63,8 @@ photo.9.author: kaoru_a358
 photo.9.commitdate: 2025/4/9
 photo.9.link: ig://CEEllu8hsoF
 photo.9.tags: couple, techitechi, whiskers
+photo.9.tags.98.location: 675, 435
+photo.9.tags.247.location: 350, 210
 photo.10: cwdc://XbrQLQpADQA.jpg
 photo.10.author: shigeko0531
 photo.10.commitdate: 2021/7/18
@@ -69,6 +77,8 @@ photo.11.author: shigeko0531
 photo.11.commitdate: 2025/4/9
 photo.11.link: ig://CJ20VGEhHHt
 photo.11.tags: apple time, couple, dish, muzzle, paws, snow, tail, whiskers
+photo.11.tags.98.location: 650, 395
+photo.11.tags.247.location: 290, 150
 photo.12: cwdc://XeazUavADQA.jpg
 photo.12.author: hamiiiii831_
 photo.12.commitdate: 2021/5/21
@@ -81,13 +91,15 @@ photo.13.author: shigeko0531
 photo.13.commitdate: 2025/4/9
 photo.13.link: ig://CMB4ySjBJx7
 photo.13.tags: apple time, couple, dish, whiskers
+photo.13.tags.98.location: 350, 270
+photo.13.tags.247.location: 640, 555
 photo.14: cwdc://XuEgUgGADQE.jpg
 photo.14.author: shigeko0531
 photo.14.commitdate: 2022/2/1
 photo.14.link: ig://CTDcZtzB1tm
 photo.14.tags: apple time, couple, dish, portrait, snow, tail
-photo.14.tags.98.location: 450, 210
-photo.14.tags.247.location: 170, 155
+photo.14.tags.98.location: 745, 365
+photo.14.tags.247.location: 280, 260
 photo.15: cwdc://Xuhj6dtADQF.jpg
 photo.15.author: shigeko0531
 photo.15.commitdate: 2021/9/22
