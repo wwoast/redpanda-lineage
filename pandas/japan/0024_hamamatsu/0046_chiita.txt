@@ -395,35 +395,35 @@ photo.76.author: taka__3428
 photo.76.commitdate: 2019/7/22
 photo.76.link: ig://B0K8sGmhSnp
 photo.76.tags: smile, window
-photo.77: ig://B0N6Z1Hh58-/m
+photo.77: cwdc://WwZcUuvADQH.jpg
 photo.77.author: taka__3428
 photo.77.commitdate: 2019/7/28
-photo.77.link: https://www.instagram.com/taka__3428/
-photo.77.tags: laying down, paws, tongue
+photo.77.link: ig://B0N6Z1Hh58-
+photo.77.tags: laying down, paws, sample, tongue
 photo.78: cwdc://Wwg7fKwADQA.jpg
 photo.78.author: panda.daisuki
 photo.78.commitdate: 2019/7/28
 photo.78.link: ig://B0Rp_DIB0LJ
 photo.78.tags: mofumofu, portrait, sample, whiskers
-photo.79: ig://B0ahCydh4To/m
+photo.79: cwdc://WwypmpbADQE.jpg
 photo.79.author: taka__3428
 photo.79.commitdate: 2019/7/28
-photo.79.link: https://www.instagram.com/taka__3428/
-photo.79.tags: laying down, smile
-photo.80: ig://B0ikTS7B7nY/m
+photo.79.link: ig://B0ahCydh4To
+photo.79.tags: close-up, laying down, sample, smile, whiskers
+photo.80: cwdc://WxCwHqWADQC.jpg
 photo.80.author: taka__3428
 photo.80.commitdate: 2019/7/31
-photo.80.link: https://www.instagram.com/taka__3428/
-photo.80.tags: bridge, climb, paws
-photo.81: ig://B0lFhBaBDab/m
+photo.80.link: ig://B0ikTS7B7nY
+photo.80.tags: bridge, climb, paws, sample, whiskers
+photo.81: cwdc://WxHyjHUADQB.jpg
 photo.81.author: taka__3428
 photo.81.commitdate: 2019/8/10
-photo.81.link: https://www.instagram.com/taka__3428/
+photo.81.link: ig://B0lFhBaBDab
 photo.81.tags: smile
-photo.82: ig://B0lOPsIBjlI/m
+photo.82: cwdc://WxIEAcwADQA.jpg
 photo.82.author: taka__3428
 photo.82.commitdate: 2019/8/2
-photo.82.link: https://www.instagram.com/taka__3428/
+photo.82.link: ig://B0lOPsIBjlI
 photo.82.tags: bamboo, peek
 photo.83: cwdc://WyFbWmeADQA.jpg
 photo.83.author: taka__3428
@@ -1050,11 +1050,11 @@ photo.207.author: taka__3428
 photo.207.commitdate: 2022/1/23
 photo.207.link: ig://CYlwrDuvB_2
 photo.207.tags: bamboo, close-up, sample, whiskers
-photo.208: ig://CZX0DpXDMtv/m
+photo.208: cwdc://X6tPoXOADQB.jpg
 photo.208.author: otenba_redpanda
 photo.208.commitdate: 2022/2/12
-photo.208.link: https://www.instagram.com/otenba_redpanda/
-photo.208.tags: portrait, whiskers
+photo.208.link: ig://CZX0DpXDMtv
+photo.208.tags: portrait, sample, whiskers
 photo.209: cwdc://X7AHk7fADQD.jpg
 photo.209.author: miis_98
 photo.209.commitdate: 2022/2/20
@@ -1120,15 +1120,15 @@ photo.221.author: taka__3428
 photo.221.commitdate: 2022/7/25
 photo.221.link: ig://CgPClidPUzV
 photo.221.tags: lips, portrait, sample, whiskers
-photo.222: ig://Cg2vtz9LRRg/m
+photo.222: cwdc://YJrG8saADQA.jpg
 photo.222.author: otenba_redpanda
 photo.222.commitdate: 2022/8/5
-photo.222.link: https://www.instagram.com/otenba_redpanda/
+photo.222.link: ig://Cg2vtz9LRRg
 photo.222.tags: paws, portrait, sample, whiskers
-photo.223: ig://ChdPR87BXcD/m
+photo.223: cwdc://YK4GE-WADQA.jpg
 photo.223.author: hamamatsu.chiita
 photo.223.commitdate: 2022/8/26
-photo.223.link: https://www.instagram.com/hamamatsu.chiita/
+photo.223.link: ig://ChdPR87BXcD
 photo.223.tags: laying down, mofumofu, portrait, sample
 photo.224: cwdc://YK_dtqGADRz.jpg
 photo.224.author: taka__3428
@@ -1341,3 +1341,18 @@ video.1: https://youtu.be/-WMjIqoEK1U
 video.1.author: しもだちゃんねる
 video.1.link: https://www.youtube.com/channel/UCFMJwoHneCPsn_c0I-XaEYw
 zoo: 24
+photo.265: cwdc://WwZcUuvADQF.jpg
+photo.265.author: taka__3428
+photo.265.commitdate: 2025/4/10
+photo.265.link: ig://B0N6Z1Hh59A
+photo.265.tags: laying down, paws, sample
+photo.266: cwdc://WwZcUuvADQG.jpg
+photo.266.author: taka__3428
+photo.266.commitdate: 2025/4/10
+photo.266.link: ig://B0N6Z1Hh58_
+photo.266.tags: laying down, paws, peek, sample
+photo.267: cwdc://WwypmpbADQD.jpg
+photo.267.author: taka__3428
+photo.267.commitdate: 2025/4/10
+photo.267.link: ig://B0ahCydh4Tp
+photo.267.tags: laying down, lips, peek
