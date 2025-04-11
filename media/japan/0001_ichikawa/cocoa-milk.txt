@@ -7,8 +7,8 @@ photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2025/4/9
 photo.1.link: ig://BpCCtXBlhwO
 photo.1.tags: baby, siblings, sisters, twins
-photo.1.tags.246.location: 
-photo.1.tags.247.location: 
+photo.1.tags.246.location: 115, 580
+photo.1.tags.247.location: 535, 345
 photo.2: cwdc://WeU-z0nADQA.jpg
 photo.2.author: wumpwoast
 photo.2.commitdate: 2019/8/10
@@ -42,8 +42,8 @@ photo.6.author: firefoxpanda88
 photo.6.commitdate: 2025/4/9
 photo.6.link: ig://BuOPFSnlxJt
 photo.6.tags: apple time, bite, keeper, siblings, sisters, twins
-photo.6.tags.246.location: 
-photo.6.tags.247.location: 
+photo.6.tags.246.location: 180, 305
+photo.6.tags.247.location: 630, 535
 photo.7: cwdc://Wuakb0SADQA.jpg
 photo.7.author: redpanda_nippon_takashi
 photo.7.commitdate: 2019/7/9
@@ -56,15 +56,15 @@ photo.8.author: redpanda_nippon_takashi
 photo.8.commitdate: 2025/4/9
 photo.8.link: ig://BzOedX5BgQq
 photo.8.tags: mofumofu, sample, siblings, sisters, twins
-photo.8.tags.246.location: 
-photo.8.tags.247.location: 
+photo.8.tags.246.location: 640, 165
+photo.8.tags.247.location: 350, 260
 photo.9: cwdc://Wuakb0SADQD.jpg
 photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2025/4/9
 photo.9.link: ig://BzOedX5BgQr
 photo.9.tags: door, mofumofu, sample, siblings, sisters, tail, twins
-photo.9.tags.246.location: 
-photo.9.tags.247.location: 
+photo.9.tags.246.location: 640, 210
+photo.9.tags.247.location: 365, 280
 photo.10: cwdc://WudZz6kADQB.jpg
 photo.10.author: rie_panda55
 photo.10.commitdate: 2019/7/9
@@ -77,15 +77,15 @@ photo.11.author: jas_forever_love
 photo.11.commitdate: 2025/4/9
 photo.11.link: ig://BzQBHO6BwDM
 photo.11.tags: apple time, dish, lunch time, mofumofu, portrait, siblings, sisters, twins
-photo.11.tags.246.location: 
-photo.11.tags.247.location: 
+photo.11.tags.246.location: 560, 395
+photo.11.tags.247.location: 220, 420
 photo.12: cwdc://WudpviUADQC.jpg
 photo.12.author: jas_forever_love
 photo.12.commitdate: 2025/4/9
 photo.12.link: ig://BzQBHO6BwDP
 photo.12.tags: autumn, peek, siblings, sisters, tree, twins
-photo.12.tags.246.location: 
-photo.12.tags.247.location: 
+photo.12.tags.246.location: 515, 435
+photo.12.tags.247.location: 415, 275
 photo.13: cwdc://WudpviUADQD.jpg
 photo.13.author: jas_forever_love
 photo.13.commitdate: 2019/7/9
@@ -98,8 +98,8 @@ photo.14.author: happy_love2.15
 photo.14.commitdate: 2025/4/9
 photo.14.link: ig://BzQW-n-hU54
 photo.14.tags: mofumofu, paws, playing, siblings, sisters, twins, whiskers
-photo.14.tags.246.location: 
-photo.14.tags.247.location: 
+photo.14.tags.246.location: 400, 195
+photo.14.tags.247.location: 115, 510
 photo.15: cwdc://WwrwE5vADQA.jpg
 photo.15.author: ifumoto88
 photo.15.commitdate: 2019/7/28
@@ -140,15 +140,15 @@ photo.20.author: ssc6105
 photo.20.commitdate: 2025/4/9
 photo.20.link: ig://B41u0HBBRp-
 photo.20.tags: paws, playing, sisters, tail, twins
-photo.20.tags.246.location: 
-photo.20.tags.247.location: 
+photo.20.tags.246.location: 430, 305
+photo.20.tags.247.location: 215, 290
 photo.21: cwdc://W5pFJSiADQD.jpg
 photo.21.author: ssc6105
 photo.21.commitdate: 2025/4/9
 photo.21.link: ig://B41u0HBBRp_
 photo.21.tags: paws, playing, sisters, twins
-photo.21.tags.246.location: 
-photo.21.tags.247.location: 
+photo.21.tags.246.location: 530, 280
+photo.21.tags.247.location: 215, 385
 photo.22: cwdc://W8J2SRBADQC.jpg
 photo.22.author: ifumoto88
 photo.22.commitdate: 2020/1/7
@@ -189,15 +189,15 @@ photo.27.author: na.mo.pan
 photo.27.commitdate: 2025/4/9
 photo.27.link: ig://B80kLq8BTUj
 photo.27.tags: dish, keeper, siblings, sisters, twins
-photo.27.tags.246.location: 
-photo.27.tags.247.location: 
+photo.27.tags.246.location: 430, 235
+photo.27.tags.247.location: 260, 220
 photo.28: cwdc://XDRMm2YADQA.jpg
 photo.28.author: alto0908
 photo.28.commitdate: 2025/4/9
 photo.28.link: ig://B9pyi48B3pt
 photo.28.tags: home, mofumofu, siblings, sisters, twins
-photo.28.tags.246.location: 
-photo.28.tags.247.location: 
+photo.28.tags.246.location: 605, 505
+photo.28.tags.247.location: 205, 350
 photo.29: cwdc://XDb9bM_ADQA.jpg
 photo.29.author: _rifa_p
 photo.29.commitdate: 2020/3/19
@@ -224,8 +224,8 @@ photo.32.author: alto0908
 photo.32.commitdate: 2025/4/9
 photo.32.link: ig://B-W05mUhANQ
 photo.32.tags: door, paws, peek, portrait, sample, siblings, sisters, twins, wihskers
-photo.32.tags.246.location: 
-photo.32.tags.247.location: 
+photo.32.tags.246.location: 490, 315
+photo.32.tags.247.location: 125, 315
 photo.33: cwdc://XIHfz0BADQA.jpg
 photo.33.author: hamiiiii831_
 photo.33.commitdate: 2020/7/25
@@ -266,8 +266,8 @@ photo.38.author: panda.daisuki
 photo.38.commitdate: 2025/4/9
 photo.38.link: ig://CB-pRQFB5tL
 photo.38.tags: apple time, bite, keeper, paws, portrait, siblings, sisters, twins
-photo.38.tags.246.location: 
-photo.38.tags.247.location: 
+photo.38.tags.246.location: 620, 225
+photo.38.tags.247.location: 305, 355
 photo.39: cwdc://Xk27VsBADQA.jpg
 photo.39.author: daniele.tokyo
 photo.39.commitdate: 2021/6/28
@@ -287,5 +287,5 @@ photo.41.author: eos1089
 photo.41.commitdate: 2025/4/9
 photo.41.link: ig://CQp8kDPhKaK
 photo.41.tags: mofumofu, paws, playing, siblings, sisters, twins
-photo.41.tags.246.location: 
-photo.41.tags.247.location: 
+photo.41.tags.246.location: 190, 285
+photo.41.tags.247.location: 405, 615
