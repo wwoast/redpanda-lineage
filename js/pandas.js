@@ -46,6 +46,14 @@ Pandas.def.age = {
     "day": "day",
     "days": "days"
   },
+  "ko": {
+    "year": "년",
+    "years": "년",
+    "month": "개월",
+    "months": "개월",
+    "day": "일",
+    "days": "일"
+  },
   "es": {
     "year": "año",
     "years": "años",
@@ -147,7 +155,8 @@ Pandas.def.gender = {
     "ja": "メス",
     "ne": "महिला",
     "pt": "fêmea",
-    "zh": "女"
+    "zh": "女",
+    "ko": "암컷"
   },
   "Male": {
     "en": "male",
@@ -155,7 +164,8 @@ Pandas.def.gender = {
     "ja": "オス",
     "ne": "नर",
     "pt": "macho",
-    "zh": "男"
+    "zh": "男",
+    "ko": "수컷"
   }
 }
 
@@ -166,7 +176,8 @@ Pandas.def.no_name = {
   "ja": "未詳",
   "ne": "अज्ञात",
   "pt": "Desconhecido(a)",
-  "zh": "不明"
+  "zh": "不明",
+  "ko": "알 수 없음"
 }
 
 // Missing or undescribed authors
@@ -177,7 +188,8 @@ Pandas.def.authors = {
     "ja": "匿名",
     "ne": "बेनामी",
     "pt": "anônimo",
-    "zh": "匿名"
+    "zh": "匿名",
+    "ko": "익명"
   },
   "uncredited": {
     "en": "uncredited",
@@ -195,7 +207,7 @@ Pandas.def.authors = {
 // definition used within this project's code. The ordering here determines the
 // appearance of the buttons in the language menu.
 Pandas.def.languages = [
-  "en", "ja", "zh", "ne", "pt", "es"
+  "en", "ja", "zh", "ne", "pt", "es", "ko"
 ]
 
 // Character ranges
@@ -215,6 +227,13 @@ Pandas.def.ranges = {
   ],
   "ne": [
     /[\u0900-\u0954]/    // Devanghari unicode range
+  ],
+  "ko": [
+    /[\uAC00-\uD7AF]/,  // 한글 음절 (가-힣)
+    /[\u1100-\u11FF]/,  // 한글 자모
+    /[\u3130-\u318F]/,  // 호환용 한글 자모
+    /[\uA960-\uA97F]/,  // 확장-A
+    /[\uD7B0-\uD7FF]/   // 확장-B // CJK unified Kanji set
   ]
 }
 
@@ -372,6 +391,11 @@ Pandas.def.species = {
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
+  ],
+  "ko": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ]
 }
 
@@ -381,7 +405,8 @@ Pandas.def.unknown = {
   "ja": "未詳",
   "ne": "अज्ञात",
   "pt": "desconhecido",
-  "zh": "不明"
+  "zh": "不明",
+  "ko": "알 수 없음"
 }
 
 // Slightly different default zoo listing, to account for wild-born animals

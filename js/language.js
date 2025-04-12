@@ -40,9 +40,9 @@ Language.L.bias = {
   "ja": ["latin"],
   "ne": ["latin"],
   "pt": ["latin"],
-  "zh": ["latin"]
+  "zh": ["latin"],
+  "ko": ["latin"]
 }
-
 // Types of alphabets, so we can fall back to an alphabet that someone
 // is capable of reading based on their language skills. In practice,
 // we opt to fall back to latin languages since that alphabet is more
@@ -107,7 +107,8 @@ Language.L.date_locale = {
     "ja": "mm_dd",
     "ne": "mm_dd",
     "pt": "dd_mm",
-    "zh": "mm_dd"
+    "zh": "mm_dd",
+    "ko": "mm_dd"
   },
   "yy_mm": {
     "en": "mm_yyyy",
@@ -115,7 +116,8 @@ Language.L.date_locale = {
     "ja": "yyyy_mm",
     "ne": "yyyy_mm",
     "pt": "mm_yyyy",
-    "zh": "yyyy_mm"
+    "zh": "yyyy_mm",
+    "ko": "yyyy_mm"
   },
   "yy_mm_dd": {
     "en": "mm_dd_yyyy",
@@ -123,7 +125,8 @@ Language.L.date_locale = {
     "ja": "yyyy_mm_dd",
     "ne": "yyyy_mm_dd",
     "pt": "dd_mm_yyyy",
-    "zh": "yyyy_mm_dd"
+    "zh": "yyyy_mm_dd",
+    "ko": "yyyy_mm_dd"
   }
 }
 
@@ -314,7 +317,8 @@ Language.L.gui = {
     "ja": "概要",
     "ne": "बारेमा",
     "pt": "Sobre",
-    "zh": "关于"
+    "zh": "关于",
+    "ko": "소개"
   },
   "autumn": {
     "en": "Autumn",
@@ -322,7 +326,8 @@ Language.L.gui = {
     "ja": "秋",
     "ne": "शरद तु",
     "pt": "Outono",
-    "zh": "秋"
+    "zh": "秋",
+    "ko": "가을"
   },
   "babies": {
     "en": "Babies",
@@ -330,7 +335,8 @@ Language.L.gui = {
     "ja": "乳幼児",
     "ne": "बच्चाहरु",
     "pt": "Bebês",
-    "zh": "婴儿"
+    "zh": "婴儿",
+    "ko": "새끼 레서판다들"
   },
   "children": {
     "en": "Children",   // Capitalization
@@ -338,7 +344,8 @@ Language.L.gui = {
     "ja": Pandas.def.relations.children["ja"],
     "ne": "बच्चाहरु",
     "pt": "Filhos(as)",
-    "zh": Pandas.def.relations.children["zh"]
+    "zh": Pandas.def.relations.children["zh"],
+    "ko": "어린 레서판다들"
   },
   "contribute": {
     "en": "Submit a Photo",
@@ -346,7 +353,8 @@ Language.L.gui = {
     "ja": "写真を提出する",
     "ne": "फोटो पेश गर्नुहोस्",
     "pt": "Enviar uma foto",
-    "zh": "上传照片"
+    "zh": "上传照片",
+    "ko": "사진 제출"
   },
   "contribute_link": {
     "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
@@ -358,7 +366,8 @@ Language.L.gui = {
     "ja": "リンク先をコピー",
     "ne": "QR कोड लिङ्क प्रतिलिपि गरियो",
     "pt": "Link copiado",
-    "zh": "复制二维码链接"
+    "zh": "复制二维码链接",
+    "ko": "QR 코드 링크 복사"
   },
   "fall": {
     "en": "Autumn",
@@ -366,7 +375,8 @@ Language.L.gui = {
     "ja": "秋",
     "ne": "शरद तु",
     "pt": "Outono",
-    "zh": "秋",   // Convenience duplicate of autumn
+    "zh": "秋",
+    "ko": "가을"   // Convenience duplicate of autumn
   },
   "family": {
     "en": "Family",
@@ -374,7 +384,8 @@ Language.L.gui = {
     "ja": "ファミリ",
     "ne": "परिवार",
     "pt": "Família",
-    "zh": "家族"
+    "zh": "家族",
+    "ko": "가족"
   },
   "father": {
     "en": "Father",
@@ -383,11 +394,13 @@ Language.L.gui = {
     "ne": "बुबा",
     "pt": "Pai",
     "zh": "父亲",
+    "ko": "아빠"
   },
   "flag": {
     "en": Language.L.flags["USA"],
     "es": Language.L.flags["Spain"],
     "ja": Language.L.flags["Japan"],
+    "ko": Language.L.flags["South Korea"],
     "ne": Language.L.flags["Nepal"],
     "pt": Language.L.flags["Portugal"],
     "zh": Language.L.flags["China"]
@@ -398,7 +411,8 @@ Language.L.gui = {
     "ja": "Red Panda Lineage",
     "ne": "Red Panda Lineage",
     "pt": "Red Panda Lineage",
-    "zh": "小熊猫族谱项目"
+    "zh": "小熊猫族谱项目",
+    "ko": "레서판다의 계보"
   },
   "footerLink_rpn": {
     "en": "Red Panda Network",
@@ -406,7 +420,8 @@ Language.L.gui = {
     "ja": "Red Panda Network",
     "ne": "Red Panda Network",
     "pt": "Red Panda Network",
-    "zh": "Red Panda Network"
+    "zh": "Red Panda Network",
+    "ko": "Red Panda Network"
   },
   "home": {
     "en": "Home",
@@ -414,7 +429,8 @@ Language.L.gui = {
     "ja": "ホーム",
     "ne": "होमपेज",
     "pt": "Início",
-    "zh": "主页"
+    "zh": "主页",
+    "ko": "홈으로"
   },
   "instagramLinks_body": {
     "en": "Without all the dedicated and loving Instagram red panda fans I " +
@@ -424,7 +440,8 @@ Language.L.gui = {
     "ne": "",
     "pt": "Sem todos os dedicados e adoráveis fãs de pandas-vermelhos do " +
           "Instagram que conheço, este site não existiria. Agradeço muito!",
-    "zh": ""
+    "zh": "",
+    "ko": ""
   },
   "instagramLinks_button": {
     "en": "Instagram",
@@ -447,9 +464,9 @@ Language.L.gui = {
       "de": "German",
       "en": "English",
       "es": "Spanish",
+      "ko": "Korean",
       "fr": "French",
       "ja": "Japanese",
-      "ko": "Korean",
       "ne": "Nepalese",
       "pl": "Polish",
       "pt": "Portuguese",
@@ -554,6 +571,20 @@ Language.L.gui = {
        "ru": "俄语",
        "sv": "瑞典",
        "zh": "汉语"
+     },
+     "ko": {
+       "de": "독일어",
+       "en": "영어",
+       "es": "스페인어",
+       "fr": "프랑스어",
+       "ja": "일본어",
+       "ko": "한국어",
+       "ne": "नेपाली",
+       "pl": "폴란드어",
+       "pt": "포르투갈어",
+       "ru": "러시아어",
+       "sv": "스웨덴",
+       "zh": "중국어"
      } 
   },
   "loading": {
@@ -586,7 +617,8 @@ Language.L.gui = {
     "ja": "私",
     "ne": "म",
     "pt": "Eu",
-    "zh": "我"
+    "zh": "我",
+    "ko": "나"
   },
   "media": {
     "en": "Media",
@@ -594,7 +626,8 @@ Language.L.gui = {
     "ja": "メディア",
     "ne": "मिडिया",
     "pt": "Imagens",
-    "zh": "媒体"
+    "zh": "媒体",
+    "ko": "미디어"
   },
   "mother": {
     "en": "Mother",
@@ -602,7 +635,8 @@ Language.L.gui = {
     "ja": "母",
     "ne": "आमा",
     "pt": "Mãe",
-    "zh": "母亲"
+    "zh": "母亲",
+    "ko": "엄마"
   },
   "nicknames": {
     "en": "Nicknames",
@@ -610,7 +644,8 @@ Language.L.gui = {
     "ja": "ニックネーム",
     "ne": "उपनामहरू",
     "pt": "Apelidos",
-    "zh": "昵称"
+    "zh": "昵称",
+    "ko": "별명"
   },
   "options": {
     "en": "Options",
@@ -618,7 +653,8 @@ Language.L.gui = {
     "ja": "オプション",
     "ne": "विकल्पहरू",
     "pt": "Opções",
-    "zh": "选项"
+    "zh": "选项",
+    "ko": "옵션"
   },
   "opt_hide_dead_pandas": {
     "en": "Hide panda memorials",
@@ -634,7 +670,8 @@ Language.L.gui = {
     "ja": "他の名前",
     "ne": "अरु नामहरु",
     "pt": "Outros nomes",
-    "zh": "其他名称"
+    "zh": "其他名称",
+    "ko": "기타 이름"
   },
   "paging": {
     "en": "More",
@@ -642,13 +679,15 @@ Language.L.gui = {
     "ja": "もっと",
     "ne": "अधिक",
     "pt": "Mais",
-    "zh": "更多"
+    "zh": "更多",
+    "ko": "더보기"
   },
   "parents": {
     "en": "Parents",   // Capitalization
     "es": "Padres",
     "ja": Pandas.def.relations.parents["ja"],
     "ne": "अभिभावक",
+    "ko": "부모",
     "pt": "Pais",
     "zh": Pandas.def.relations.parents["zh"]
   },
@@ -658,7 +697,8 @@ Language.L.gui = {
     "ja": "プロフィール",
     "ne": "प्रोफाइल",
     "pt": "Perfil",
-    "zh": "档案"
+    "zh": "档案",
+    "ko": "프로필"
   },
   "quadruplet": {
     "en": "Quadruplet",
@@ -666,7 +706,8 @@ Language.L.gui = {
     "ja": "四つ子",
     "ne": "प्रोफाइल",
     "pt": "Quadrigêmeos",
-    "zh": "四胞胎"
+    "zh": "四胞胎",
+    "ko": "사촌"
   },
   "random": {
     "en": "Random",
@@ -682,7 +723,8 @@ Language.L.gui = {
     "ja": "",
     "ne": "",
     "pt": "",
-    "zh": ""
+    "zh": "",
+    "ko": ""
   },
   "redPandaCommunity_button": {
     "en": "Community",
@@ -690,7 +732,8 @@ Language.L.gui = {
     "ja": "共同体",
     "ne": "समुदाय",
     "pt": "Comunidade",
-    "zh": "社区"
+    "zh": "社区",
+    "ko": "커뮤니티"
   },
   "redPandaCommunity_header": {
     "en": "Red Panda Community",
@@ -698,7 +741,8 @@ Language.L.gui = {
     "ja": "レッサーパンダの共同体",
     "ne": "निगल्य पोन्या समुदाय",
     "pt": "Comunidade do Panda-Vermelho",
-    "zh": "小熊猫社区"
+    "zh": "小熊猫社区",
+    "ko": "레서판다 커뮤니티"
   },
   "refresh": {
     "en": "Refresh",
@@ -706,7 +750,7 @@ Language.L.gui = {
     "ja": "リロード",
     "ne": "ताजा गर्नु",
     "pt": "Atualizar",
-    "zh": "刷新"
+    "zh": "刷新",
   },
   "search": {
     "en": "Search...",
@@ -723,6 +767,7 @@ Language.L.gui = {
     "ne": "TOWRITE <INSERTDATE>",
     "pt": "Visto em <INSERTDATE>",
     "zh": "目击日期 <INSERTDATE>",
+
   },
   "siblings": {
     "en": "Siblings",   // Capitalization,
@@ -730,7 +775,8 @@ Language.L.gui = {
     "ja": Pandas.def.relations.siblings["ja"],
     "ne": "भाइबहिनीहरू",
     "pt": "Irmão(ãs)",
-    "zh": Pandas.def.relations.siblings["zh"]
+    "zh": Pandas.def.relations.siblings["zh"],
+    "ko": "동생"
   },
   "since_date": {
     "en": "Since <INSERTDATE>",
@@ -746,7 +792,8 @@ Language.L.gui = {
     "ja": "",
     "ne": "",
     "pt": "",
-    "zh": ""
+    "zh": "",
+    "ko": ""
   },
   "specialThanksLinks_button": {
     "en": "Special Thanks",
@@ -754,7 +801,8 @@ Language.L.gui = {
     "ja": "感佩",
     "ne": "विशेष धन्यवाद",
     "pt": "Agradecimentos",
-    "zh": "鸣谢"
+    "zh": "鸣谢",
+    
   },
   "specialThanksLinks_header": {
     "en": "Special Thanks",
@@ -770,7 +818,8 @@ Language.L.gui = {
     "ja": "春",
     "ne": "वसन्त",
     "pt": "Primavera",
-    "zh": "春"
+    "zh": "春",
+    "ko": "봄"
   },
   "summer": {
     "en": "Summer",
@@ -778,7 +827,8 @@ Language.L.gui = {
     "ja": "夏",
     "ne": "गर्मी",
     "pt": "Verão",
-    "zh": "夏"
+    "zh": "夏",
+    "ko": "여름"
   },
   "title": {
     "en": "Red Panda Finder",
@@ -802,7 +852,8 @@ Language.L.gui = {
     "ja": "木",
     "ne": "रूख",
     "pt": "Árvore",
-    "zh": "树"
+    "zh": "树",
+    "ko": "나무"
   },
   "twin": {
     "en": "Twin",
@@ -810,7 +861,8 @@ Language.L.gui = {
     "ja": "双子",
     "ne": "जुम्ल्याहा",
     "pt": "Gêmeo",
-    "zh": "双胞胎"
+    "zh": "双胞胎",
+    "ko": "쌍둥이"
   },
   "triplet": {
     "en": "Triplet",
@@ -818,7 +870,8 @@ Language.L.gui = {
     "ja": "三つ子",
     "ne": "तीनवटा",
     "pt": "Trigêmeo",
-    "zh": "三胞胎"
+    "zh": "三胞胎",
+    "ko": "삼둥이"
   },
   "winter": {
     "en": "Winter",
@@ -826,7 +879,8 @@ Language.L.gui = {
     "ja": "冬",
     "ne": "जाडो",
     "pt": "Inverno",
-    "zh": "冬"
+    "zh": "冬",
+    "ko": "겨울"
   },
   "zooLinks_body": {
     "en": "While many zoos are represented in this dataset, some of them are " +
@@ -835,7 +889,8 @@ Language.L.gui = {
     "ja": "",
     "ne": "",
     "pt": "",
-    "zh": ""
+    "zh": "",
+    "ko": ""
   },
   "zooLinks_button": {
     "en": "Zoos",
@@ -843,7 +898,8 @@ Language.L.gui = {
     "ja": "動物園",
     "ne": "चिडियाखाना",
     "pt": "Zoológicos",
-    "zh": "动物园"
+    "zh": "动物园",
+    "ko": "동물원"
   },
   "zooLinks_header": {
     "en": "Major Red Panda Zoos",
@@ -862,7 +918,8 @@ Language.L.messages = {
     "ja": "と",
     "ne": " र ",
     "pt": " e ",
-    "zh": "和"
+    "zh": "和",
+
   },
   "and_words": {
     "en": " and ",
@@ -891,6 +948,9 @@ Language.L.messages = {
            "<INSERTZOO>"],
     "zh": ["<INSERTDATE>",
            "，来自",
+           "<INSERTZOO>"],
+    "ko": ["<INSERTDATE>",
+           "에서",
            "<INSERTZOO>"]
   },
   "autumn": {
@@ -911,7 +971,10 @@ Language.L.messages = {
            Language.L.emoji.autumn],
     "zh": [Language.L.emoji.autumn, 
            " 变色的季节 ",
-           Language.L.emoji.autumn]   
+           Language.L.emoji.autumn],
+    "ko": [Language.L.emoji.autumn,
+           "색이 변하는 계절 ",
+           Language.L.emoji.autumn]
   },
   "baby_photos": {
     "en": [Language.L.emoji.baby,
@@ -931,6 +994,9 @@ Language.L.messages = {
            Language.L.emoji.baby],
     "zh": [Language.L.emoji.baby,
            " 珍贵的小天使 ",
+           Language.L.emoji.baby],
+    "ko": [Language.L.emoji.baby,
+           "소중한 작은 천사들 ",
            Language.L.emoji.baby]
   },
   "birthday_overflow": {
@@ -957,7 +1023,11 @@ Language.L.messages = {
     "zh": [Language.L.emoji.fireworks,
            " 今天",
            "<INSERTCOUNT>",
-           "个生日！"]
+           "个生日！"],
+    "ko": [Language.L.emoji.fireworks,
+           " 오늘 ",
+           "<INSERTCOUNT>",
+           " 생일!"]
   },
   "closed": {
     "en": [Language.L.emoji.closed + " ", 
@@ -978,7 +1048,10 @@ Language.L.messages = {
            "<INSERTDATE>"],
     "zh": [Language.L.emoji.closed + " ",
            "<INSERTDATE>",
-           "永久关闭"]
+           "永久关闭"],
+    "ko": [Language.L.emoji.closed + " ",
+           "<INSERTDATE>",
+           "영구적으로 폐쇄되는 날짜"]
   },
   "comma": {
     "en": ", ",
@@ -986,7 +1059,8 @@ Language.L.messages = {
     "ja": "と",
     "ne": ", ",
     "pt": ", ",
-    "zh": "及"
+    "zh": "及",
+    "ko": ", "
   },
   "credit": {
     "en": [Language.L.emoji.gift + " ",
@@ -1018,7 +1092,12 @@ Language.L.messages = {
            "<INSERTUSER>",
            "提供了",
            "<INSERTNUMBER>",
-           "张照片。"]
+           "张照片。"],
+    "ko": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "가",
+           "<INSERTNUMBER>",
+           "장의 사진을 제공했습니다."]
   },
   "credit_animal_filter_single": {
     "en": [Language.L.emoji.gift + " ",
@@ -1062,7 +1141,15 @@ Language.L.messages = {
            "<INSERTNUMBER>",
            "张",
            "<INSERTNAME>",
-           "照片。"]
+           "照片。"],
+    "ko": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "가",
+           "<INSERTNAME>",
+           "의 사진을",
+           "<INSERTNUMBER>",
+           "장 제공했습니다."]
+    
   },
   "departed_to_zoo": {
     "en": ["<INSERTZOO>",
@@ -1084,7 +1171,10 @@ Language.L.messages = {
            "<INSERTDATE>"],
     "zh": ["<INSERTDATE>",
            "去",
-           "<INSERTZOO>"]
+           "<INSERTZOO>"],
+    "ko": ["<INSERTZOO>",
+           "에서",
+           "<INSERTDATE>"]
   },
   "find_a_nearby_zoo": {
     "en": [Language.L.emoji.globe_americas, " Find a zoo nearby!"],
@@ -1092,7 +1182,8 @@ Language.L.messages = {
     "ja": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"],
     "ne": [Language.L.emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"],
     "pt": [Language.L.emoji.globe_americas, " Encontre um zoológico próximo!"],
-    "zh": [Language.L.emoji.globe_asia, " 寻找附近的动物园"]
+    "zh": [Language.L.emoji.globe_asia, " 寻找附近的动物园"],
+    "ko": [Language.L.emoji.globe_asia, " 주변 동물원 찾기"]
   },
   "footer": {
     "en": ["If you love red pandas, please support ",
@@ -1169,7 +1260,12 @@ Language.L.messages = {
            Language.L.emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
-           " has been found and is safe!"]
+           " has been found and is safe!"],
+    "ko": [Language.L.emoji.flower, " ",
+           Language.L.emoji.see_and_say, 
+           " ",
+           "<INSERTNAME>",
+           "가 발견되었습니다!"],
   },
   "goodbye": {
     "en": ["Good-bye, ",
@@ -1225,7 +1321,16 @@ Language.L.messages = {
            "<INSERTBIRTH>",
            " — ",
            "<INSERTDEATH>",
-           "）"]
+           "）"],
+    "ko": ["안녕... 잘 가,",
+           "<INSERTNAME>",
+           ". ",
+           Language.L.emoji.died,
+           " (",
+           "<INSERTBIRTH>",
+           " — ",
+           "<INSERTDEATH>",
+           ")"]
   },
   "happy_birthday": {
     "en": [Language.L.emoji.birthday,
@@ -1263,7 +1368,12 @@ Language.L.messages = {
            "<INSERTNAME>",
            "生日快乐！（",
            "<INSERTNUMBER>",
-           "岁）"]
+           "岁）"],
+    "ko": [Language.L.emoji.birthday,
+           "<INSERTNAME>",
+           "의 생일을 환영합니다! (",
+           "<INSERTNUMBER>",
+           "세)"],
   },
   "landing_mothersday": {
     "en": ["Happy Mother's Day!"],
@@ -1279,7 +1389,8 @@ Language.L.messages = {
     "ja": "、",
     "ne": ", ",
     "pt": ", ",
-    "zh": "、"
+    "zh": "、",
+    "ko": ", "
   },
   "lost_animal": {
     "en": [Language.L.emoji.alert, " ",
@@ -1329,7 +1440,15 @@ Language.L.messages = {
            ", contact ",
            "<ZOONAME>",
            ": ",
-           "<ZOOCONTACT>"]
+           "<ZOOCONTACT>"],
+    "ko": [Language.L.emoji.alert, " ",
+           Language.L.emoji.see_and_say, 
+           " If you see ",
+           "<INSERTNAME>",
+           ", contact ",
+           "<ZOONAME>",
+           ": ",
+           "<ZOOCONTACT>"],
   },
   "lunch_time": {
     "en": [Language.L.emoji.paws, " ",
@@ -1349,6 +1468,9 @@ Language.L.messages = {
            Language.L.emoji.greens],
     "zh": [Language.L.emoji.paws, " ",
            "午饭吃什么？", " ",
+           Language.L.emoji.greens],
+    "ko": [Language.L.emoji.paws, " ",
+           "오늘 점심은 무엇인가요?", " ",
            Language.L.emoji.greens]
   },
   "missing_you": {
@@ -1405,7 +1527,16 @@ Language.L.messages = {
            "<INSERTBIRTH>",
            " — ",
            "<INSERTDEATH>",
-           "）"]
+           "）"],
+    "ko": ["보고 싶어,",
+           "<INSERTNAME>",
+           ". ",
+           Language.L.emoji.died,
+           " (",
+           "<INSERTBIRTH>",
+           " — ",
+           "<INSERTDEATH>",
+           ")"]
   },
   "nearby_zoos": {
     "en": [Language.L.emoji.website,
@@ -1443,7 +1574,13 @@ Language.L.messages = {
            Language.L.emoji.home,
            " 查找附近的动物园。",
            "如果地理位置失败，",
-           "请尝试搜索您的城市。"]
+           "请尝试搜索您的城市。"],
+    "ko": [Language.L.emoji.website,
+           " ",
+           Language.L.emoji.home,
+           " 가까운 동물원을 찾고 있어요. ",
+           "위치 정보가 실패하면,",
+           "도시 이름으로 검색해보세요."]
   },
   "new_photos": {
     "contributors": {
@@ -1468,7 +1605,10 @@ Language.L.messages = {
              " novos contribuintes"],
       "zh": [Language.L.emoji.giftwrap,
              "<INSERTCOUNT>",
-             "新贡献者"]
+             "新贡献者"],
+      "ko": [Language.L.emoji.giftwrap,
+             "<INSERTCOUNT>",
+             "새 기여자"]
     },
     "pandas": {
       "en": [Language.L.emoji.profile,
@@ -1494,7 +1634,11 @@ Language.L.messages = {
       "zh": [Language.L.emoji.profile,
              " ",
              "<INSERTCOUNT>",
-             "只新小熊猫"]
+             "只新小熊猫"],
+      "ko": [Language.L.emoji.profile,
+             " ",
+             "<INSERTCOUNT>",
+             " 새로운 레서판다가 찾아왔어요!"]
     },
     "photos": {
       "en": ["<INSERTCOUNT>",
@@ -1508,7 +1652,9 @@ Language.L.messages = {
       "pt": ["<INSERTCOUNT>",
              " novas fotos"],
       "zh": ["<INSERTCOUNT>",
-             "张新照片"]
+             "张新照片"],
+      "ko": ["<INSERTCOUNT>",
+             "장의 새로운 사진"]
     },
     "suffix": {
       "en": [" this week!"],
@@ -1516,7 +1662,8 @@ Language.L.messages = {
       "ja": ["今週！"],
       "ne": ["यो हप्ता"],
       "pt": [" esta semana!"],
-      "zh": ["本星期！"]
+      "zh": ["本星期！"],
+      "ko": [" 이번 주!"]
     },
     "zoos": {
       "en": [Language.L.emoji.zoo,
@@ -1540,7 +1687,11 @@ Language.L.messages = {
              " novos zoológicos"],
       "zh": [Language.L.emoji.zoo,
              "<INSERTCOUNT>",
-             "个新动物园"]
+             "个新动物园"],
+      "ko": [Language.L.emoji.zoo,
+             " ",
+             "<INSERTCOUNT>",
+             "새로운 동물원"]
     }
   },
   "no_result": {
@@ -1549,7 +1700,8 @@ Language.L.messages = {
     "ja": ["パンダが見つかりません"],
     "ne": ["कुनै निगल्य पोन्या फेला परेन"],
     "pt": ["Nenhum panda encontrado"],
-    "zh": ["没有找到这只小熊猫"]
+    "zh": ["没有找到这只小熊猫"],
+    "ko": ["검색된 레서판다가 없습니다."]
   },
   "no_group_media_result": {
     "en": ["No Group Photos Found"],
@@ -1557,7 +1709,8 @@ Language.L.messages = {
     "ja": ["集合写真は見つかりませんでした"],
     "ne": ["कुनै निगल्य पोन्या समूह भेटिएन"],
     "pt": ["Nenhuma foto de grupo encontrada"],
-    "zh": ["找不到合影"]
+    "zh": ["找不到合影"],
+    "ko": ["검색된 사진이 없습니다."]
   },
   "no_subject_tag_result": {
     "en": ["No Tagged Photos"],
@@ -1565,7 +1718,8 @@ Language.L.messages = {
     "ja": ["このパンダのタグ付けされた写真はありません"],
     "ne": ["कुनै फोटोहरू ट्याग छैनन्"],
     "pt": ["Nenhuma foto etiquetada"],
-    "zh": ["没有关联照片"]
+    "zh": ["没有关联照片"],
+    "ko": ["태그된 사진이 없습니다."]
   },
   "no_zoos_nearby": {
     "en": ["No Zoos Nearby"],
@@ -1573,7 +1727,8 @@ Language.L.messages = {
     "ja": ["近くに動物園はありません"],
     "ne": ["नजिकै कुनै चिडियाखाना छैन"],
     "pt": ["Nenhum zoológico próximo"],
-    "zh": ["附近没有动物园"]
+    "zh": ["附近没有动物园"],
+    "ko": ["검색된 동물원이 없습니다."]
   },
   "overflow": {
     "en": [" First ",
@@ -1593,7 +1748,10 @@ Language.L.messages = {
            "."],
     "zh": ["显示前",
            "<INSERTLIMIT>",
-           "个"] 
+           "个"] ,
+    "ko": ["처음",
+           "<INSERTLIMIT>",
+           "개만 표시됩니다."]
   },
   "profile_babies_children": {
     "en": ["<INSERTNAME>",
@@ -1619,7 +1777,11 @@ Language.L.messages = {
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTBABIES>",
-           "个孩子"]
+           "个孩子"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTBABIES>",
+           "마리의 귀여운 자녀가 있어요."]
   },
   "profile_babies_siblings": {
     "en": ["<INSERTNAME>",
@@ -1645,7 +1807,11 @@ Language.L.messages = {
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTBABIES>",
-           "个孩子"]
+           "个孩子"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTBABIES>",
+           "마리의 형제자매가 있어요."]
   },
   "profile_brothers": {
     "en": ["<INSERTNAME>",
@@ -1671,7 +1837,11 @@ Language.L.messages = {
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTBROTHERS>",
-           "个兄弟"]
+           "个兄弟"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTBROTHERS>",
+           "마리의 형제가 있어요."]
   },
   "profile_brothers_babies": {
     "en": ["<INSERTNAME>",
@@ -1709,7 +1879,13 @@ Language.L.messages = {
            "<INSERTBROTHERS>",
            "个姐妹",
            "<INSERTBABIES>",
-           "个新生儿"]
+           "个新生儿"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTBROTHERS>",
+           "마리의 형제와 ",
+           "<INSERTBABIES>",
+           "마리의 새끼가 있어요."]
   },
   "profile_children": {
     "en": ["<INSERTNAME>",
@@ -1759,7 +1935,15 @@ Language.L.messages = {
            "<INSERTDAUGHTERS>",
            "个女儿和",
            "<INSERTSONS>",
-           "个儿子！"]
+           "个儿子！"],
+    "ko": ["<INSERTNAME>",
+           "에게는 총",
+           "<INSERTTOTAL>",
+           "마리의 자녀가 있어요: ",
+           "<INSERTDAUGHTERS>",
+           "마리의 암컷, ",
+           "<INSERTSONS>",
+           "마리의 수컷이 있어요!"]
   },
   "profile_children_babies": {
     "en": ["<INSERTNAME>",
@@ -1821,7 +2005,17 @@ Language.L.messages = {
            "<INSERTSONS>",
            "个儿子，以及",
            "<INSERTBABIES>",
-           "个新生儿！"]
+           "个新生儿！"],
+    "ko": ["<INSERTNAME>",
+           "에게는 총",
+           "<INSERTTOTAL>",
+           "마리의 자녀가 있어요: ",
+           "<INSERTDAUGHTERS>",
+           "마리의 암컷, ",
+           "<INSERTSONS>",
+           "마리의 수컷, 그리고 ",
+           "<INSERTBABIES>",
+           "마리의 갓 태어난 새끼예요!"]
   },
   "profile_daughters": {
     "en": ["<INSERTNAME>",
@@ -1847,7 +2041,11 @@ Language.L.messages = {
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTDAUGHTERS>",
-           "个女儿"]
+           "个女儿"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTDAUGHTERS>",
+           "마리의 암컷이 있어요!"]
   },
   "profile_daughters_babies": {
     "en": ["<INSERTNAME>",
@@ -1885,7 +2083,13 @@ Language.L.messages = {
            "<INSERTDAUGHTERS>",
            "个女儿和",
            "<INSERTBABIES>",
-           "个新生儿！"]
+           "个新生儿！"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTDAUGHTERS>",
+           "마리의 암컷 새끼와, ",
+           "<INSERTBABIES>",
+           "마리의 갓 태어난 새끼가 있어요!"]
   },
   "profile_family": {
     "en": ["<INSERTNAME>",
@@ -2957,7 +3161,8 @@ Language.L.tags = {
         "ja": ["プロフィール画像"],
         "ne": ["प्रोफाइल"],
         "pt": ["perfil"],
-        "zh": ["资料"]
+        "zh": ["资料"],
+        "ko": ["프로필"]
   },
   "pull-up": {
      "emoji": [Language.L.emoji.weight],
@@ -3326,6 +3531,12 @@ Language.L.fallbackFlags = function() {
       (navigator.languages.indexOf(taiwan) < navigator.languages.indexOf(china))) {
     Language.L.gui.flag["zh"] = Language.L.flags["Taiwan"];        
   }
+  // Korean locale flag
+  var korean = "ko-KR";
+  if (navigator.languages.indexOf(korean) != -1) {
+    Language.L.gui.flag["ko"] = Language.L.flags["South Korea"];
+  }
+
   // TODO: Portuguese vs. Brazil flags
   var brazil = "pt-BR";
   if (navigator.languages.indexOf(brazil) != -1) {
@@ -3834,7 +4045,24 @@ Language.unpluralize = function(pieces) {
       output.push(input);
     }
     return output;
+  } else if (L.display == "ko") {
+    // 한국어는 기본적으로 단수/복수 구분이 없음
+    // 필요한 경우 특정 단어 변환 처리
+    for (var input of pieces) {
+      // 숫자 + 단위 표현 자연스럽게 변환
+      input = input.replace(/(\d+) 사진들/, "$1 사진")
+                 .replace(/(\d+) 동물들/, "$1 동물")
+                 .replace(/(\d+) 판다들/, "$1 판다")
+                 .replace(/새로운 (\d+) 기여자들/, "새로운 $1 기여자")
+                 .replace(/사진 태그들/, "사진 태그");
+                 
+      // 한국어 조사 처리 (은/는, 이/가 등)
+      // 필요시 추가 가능
+      
+      output.push(input);
+    }
+    return output;
   } else {
-    return pieces;
+           return pieces;
   }
 }
