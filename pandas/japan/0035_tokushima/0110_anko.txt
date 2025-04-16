@@ -178,9 +178,6 @@ photo.33.author: sasapan34
 photo.33.commitdate: 2022/7/31
 photo.33.link: https://www.instagram.com/sasapan34/
 photo.33.tags: laying down, sample, smile
-species: 2
-studbook.id: 14146
-zoo: 35
 photo.34: cwdc://YdpoLtFADQA.jpg
 photo.34.author: chankunvv
 photo.34.commitdate: 2025/3/28
@@ -201,3 +198,6 @@ photo.37.author: chankunvv
 photo.37.commitdate: 2025/3/28
 photo.37.link: ig://Cq2AVUSv769
 photo.37.tags: blink, laying down, mofumofu, portrait, tail
+species: 2
+studbook.id: 14146
+zoo: 35
