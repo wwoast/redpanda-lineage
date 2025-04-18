@@ -46,14 +46,6 @@ Pandas.def.age = {
     "day": "day",
     "days": "days"
   },
-  "ko": {
-    "year": "년",
-    "years": "년",
-    "month": "개월",
-    "months": "개월",
-    "day": "일",
-    "days": "일"
-  },
   "es": {
     "year": "año",
     "years": "años",
@@ -93,6 +85,14 @@ Pandas.def.age = {
     "months": "月",
     "day": "天",
     "days": "天"
+  },
+  "ko": {
+    "year": "년",
+    "years": "년",
+    "month": "개월",
+    "months": "개월",
+    "day": "일",
+    "days": "일"
   }
 }
 
@@ -125,6 +125,9 @@ Pandas.def.animal = {
   "zh.name": "TOWRITE",
   "zh.nicknames": "TOWRITE",
   "zh.othernames": "TOWRITE",
+  "ko.name": "판다를 찾을 수 없습니다",
+  "ko.nicknames": "등록된 별명이 없습니다",
+  "ko.othernames": "등록된 다른 이름이 없습니다",
   "zoo": "0"
 }
 
@@ -135,7 +138,8 @@ Pandas.def.date = {
   "ja": "YYYY年MM月DD日",
   "ne": "YYYY-MM-DD",
   "pt": "DD/MM/YYYY",
-  "zh": "YYYY-MM-DD"
+  "zh": "YYYY-MM-DD",
+  "ko": "YYYY년MM월DD일"
 }
 
 Pandas.def.date_season = {
@@ -145,7 +149,8 @@ Pandas.def.date_season = {
   "ja": "SEASON YYYY",
   "ne": "SEASON YYYY",
   "pt": "SEASON YYYY",
-  "zh": "SEASON YYYY"
+  "zh": "SEASON YYYY",
+  "ko": "SEASON YYYY"
 }
 
 Pandas.def.gender = {
@@ -156,7 +161,7 @@ Pandas.def.gender = {
     "ne": "महिला",
     "pt": "fêmea",
     "zh": "女",
-    "ko": "암컷"
+    "ko": "여"
   },
   "Male": {
     "en": "male",
@@ -165,7 +170,7 @@ Pandas.def.gender = {
     "ne": "नर",
     "pt": "macho",
     "zh": "男",
-    "ko": "수컷"
+    "ko": "남"
   }
 }
 
@@ -197,7 +202,8 @@ Pandas.def.authors = {
     "ja": "信用されていない",
     "ne": "अप्रत्याशित",
     "pt": "não creditado",
-    "zh": "沒有信用"
+    "zh": "沒有信用",
+    "ko": "공로 미기재"
   }
 }
 
@@ -229,11 +235,10 @@ Pandas.def.ranges = {
     /[\u0900-\u0954]/    // Devanghari unicode range
   ],
   "ko": [
-    /[\uAC00-\uD7AF]/,  // 한글 음절 (가-힣)
-    /[\u1100-\u11FF]/,  // 한글 자모
-    /[\u3130-\u318F]/,  // 호환용 한글 자모
-    /[\uA960-\uA97F]/,  // 확장-A
-    /[\uD7B0-\uD7FF]/   // 확장-B // CJK unified Kanji set
+    /[\uAC00-\uD7AF]/,  // Hangul Syllables (가-힣)
+    /[\u1100-\u11FF]/,  // Hangul Jamo (초성, 중성, 종성)
+    /[\u3130-\u318F]/,  // Hangul Compatibility Jamo
+    /[\u3200-\u33FF]/,  // Korean symbols and punctuation
   ]
 }
 
@@ -245,7 +250,8 @@ Pandas.def.relations = {
     "ja": "叔母",
     "ne": "काकी",
     "pt": "tia",
-    "zh": "姑媽"
+    "zh": "姑媽",
+    "ko": "이모"
   },
   "brother": {
     "en": "brother",
@@ -253,7 +259,8 @@ Pandas.def.relations = {
     "ja": "兄",
     "ne": "भाई",
     "pt": "irmão",
-    "zh": "兄"
+    "zh": "兄",
+    "ko": "형제"
   },
   "children": {
     "en": "children",
@@ -261,7 +268,8 @@ Pandas.def.relations = {
     "ja": "子供",
     "ne": "बच्चाहरु",
     "pt": "filhos(as)",
-    "zh": "孩子"
+    "zh": "孩子",
+    "ko": "자녀"
   },
   "cousin": {
     "en": "cousin",
@@ -269,7 +277,8 @@ Pandas.def.relations = {
     "ja": "いとこ",
     "ne": "भान्जा",
     "pt": "primo(a)",
-    "zh": "表姐"
+    "zh": "表姐",
+    "ko": "사촌"
   },
   "father": {
     "en": "father",
@@ -277,7 +286,8 @@ Pandas.def.relations = {
     "ja": "父",
     "ne": "बुबा",
     "pt": "pai",
-    "zh": "父"
+    "zh": "父",
+    "ko": "아빠"
   },
   "grandfather": {
     "en": "grandfather",
@@ -285,7 +295,8 @@ Pandas.def.relations = {
     "ja": "おじいちゃん",
     "ne": "हजुरबुबा",
     "pt": "avô",
-    "zh": "祖父"
+    "zh": "祖父",
+    "ko": "할아버지"
   },
   "grandmother": {
     "en": "grandmother",
@@ -293,7 +304,8 @@ Pandas.def.relations = {
     "ja": "おばあちゃん",
     "ne": "हजुरआमा",
     "pt": "avó",
-    "zh": "祖母"
+    "zh": "祖母",
+    "ko": "할머니"
   },
   "litter": {
     "en": "litter",
@@ -301,7 +313,8 @@ Pandas.def.relations = {
     "ja": "双子",   /* "同腹仔" */
     "ne": "रोटी",
     "pt": "ninhada",
-    "zh": "轿子"
+    "zh": "轿子",
+    "ko": "쌍둥이"
   },
   "mother": {
     "en": "mother",
@@ -309,7 +322,8 @@ Pandas.def.relations = {
     "ja": "母",
     "ne": "आमा",
     "pt": "mãe",
-    "zh": "母"
+    "zh": "母",
+    "ko": "엄마"
   },
   "nephew": {
     "en": "nephew",
@@ -317,7 +331,8 @@ Pandas.def.relations = {
     "ja": "甥",
     "ne": "भतिजा",
     "pt": "sobrinho",
-    "zh": "外甥"
+    "zh": "外甥",
+    "ko": "조카(남)"
   },
   "niece": {
     "en": "niece",
@@ -325,7 +340,8 @@ Pandas.def.relations = {
     "ja": "姪",
     "ne": "भान्जी",
     "pt": "sobrinha",
-    "zh": "侄女"
+    "zh": "侄女",
+    "ko": "조카(여)"
   },
   "parents": {
     "en": "parents",
@@ -333,7 +349,8 @@ Pandas.def.relations = {
     "ja": "両親",
     "ne": "अभिभावक",
     "pt": "pais",
-    "zh": "父母"
+    "zh": "父母",
+    "ko": "부모"
   },
   "sister": {
     "en": "sister",
@@ -341,7 +358,8 @@ Pandas.def.relations = {
     "ja": "姉",
     "ne": "बहिनी",
     "pt": "irmã",
-    "zh": "妹妹"
+    "zh": "妹妹",
+    "ko": "자매"
   },
   "siblings": {
     "en": "siblings",
@@ -349,7 +367,8 @@ Pandas.def.relations = {
     "ja": "兄弟",
     "ne": "भाइबहिनीहरू",
     "pt": "irmãos(ãs)",
-    "zh": "兄弟姐妹"
+    "zh": "兄弟姐妹",
+    "ko": "형제자매"
   },
   "uncle": {
     "en": "uncle",
@@ -357,7 +376,8 @@ Pandas.def.relations = {
     "ja": "叔父",
     "ne": "काका",
     "pt": "tio",
-    "zh": "叔叔"
+    "zh": "叔叔",
+    "ko": "삼촌"
   }
 }
 
@@ -432,6 +452,9 @@ Pandas.def.wild = {
   "website": "https://www.worldwildlife.org/",
   "zh.address": "TOWRITE",
   "zh.location": "TOWRITE",
+  "ko.address": "포획되거나 구조된 야생 동물",
+"ko.location": "도시, 지역 또는 주 정보가 없습니다",
+"ko.name": "동물원을 찾을 수 없습니다",
   "zh.name": "TOWRITE",
 }
 
@@ -459,6 +482,10 @@ Pandas.def.zoo = {
   "zh.address": "TOWRITE",
   "zh.location": "TOWRITE",
   "zh.name": "TOWRITE",
+  "ko.address": "Google 지도 주소가 기록되지 않았습니다",
+"ko.location": "도시, 지역 또는 주 정보가 없습니다",
+"ko.name": "동물원을 찾을 수 없습니다"
+
 }
 
 /*
