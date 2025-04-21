@@ -76,7 +76,8 @@ Parse.keyword.born = {
 Parse.keyword.born_at = {
   "zh": ['出生'],
   "en": ['born at', 'Born at'],
-  "ja": ['태어난 곳', '출생지'],
+  "ja": ['生まれ'],
+  "ko": ['태어난 장소', '출생지'],
   
 }
 /* Parse.keyword.born + (around|after|before) = TODO */
@@ -95,7 +96,8 @@ Parse.keyword.dead = {
 Parse.keyword.died_at = {
   "zh": ['TOWRITE'],
   "en": ['died at', 'Died at'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['죽은 장소']
 }
 Parse.keyword.family = {};
 Parse.keyword.family.aunt = {

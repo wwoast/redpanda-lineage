@@ -412,7 +412,7 @@ Language.L.gui = {
     "ne": "Red Panda Lineage",
     "pt": "Red Panda Lineage",
     "zh": "小熊猫族谱项目",
-    "ko": "레서판다의 계보"
+    "ko": "레서판다의 가계도"
   },
   "footerLink_rpn": {
     "en": "Red Panda Network",
@@ -449,7 +449,8 @@ Language.L.gui = {
     "ja": "インスタグラム",
     "ne": "Instagram",
     "pt": "Instagram",
-    "zh": "IG"
+    "zh": "IG",
+    "ko": "인스타그램"
   },
   "instagramLinks_header": {
     "en": "Red Pandas on Instagram",
@@ -457,7 +458,8 @@ Language.L.gui = {
     "ja": "Instagram レッサーパンダ",
     "ne": "Instagram निगल्य पोन्या",
     "pt": "Pandas-vermelhos no Instagram",
-    "zh": "Instagram 小熊猫"
+    "zh": "Instagram 小熊猫",
+    "ko": "인스타그램"
   },
   "language": {
     "en": {
@@ -594,7 +596,7 @@ Language.L.gui = {
     "ne": "लोड",
     "pt": "Carregando...",
     "zh": "加载中...",
-    "ko": "로딩 중"
+    "ko": "로딩 중..."
   },
   "litter": {
     "en": "Litter",   // Capitalization
@@ -666,7 +668,7 @@ Language.L.gui = {
     "ne": "पांडा स्मारकहरू लुकाउनुहोस्",
     "pt": "Ocultar memoriais do panda",
     "zh": "隐藏熊猫纪念馆",
-    "ko": "판다 추모비 숨기기"
+    "ko": "판다 추모 게시물 숨기기"
   },
   "othernames": {
     "en": "Other Names",
@@ -855,7 +857,7 @@ Language.L.gui = {
     "ne": "माथि",
     "pt": "Para\xa0cima",
     "zh": "顶部",
-    "ko": "위"
+    "ko": "위로"
   },
   "tree": {
     "en": "Tree",
@@ -1241,7 +1243,15 @@ Language.L.messages = {
            "族谱数据归属于",
            "<INSERTLINK_RPF>",
            "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©2025 Justin Fairchild"]
+           "布局与设计©2025 Justin Fairchild"],
+    "ko": [
+      "레서판다를 사랑한다면, 꼭 응원과 후원을 부탁드려요! ",
+      "<INSERTLINK_RPN>",
+      " 여러분이 가까이에서 방문할 수 있는 지역 동물원도 응원해 주세요.",
+      "<INSERTLINK_RPF>",
+      " 데이터는 본 프로젝트의 협조로 제공되며, 연결된 미디어 자료의 저작권은 각 제작자에게 있습니다.",
+      "레이아웃 및 디자인 ©" + "\xa0" + "2025 Justin Fairchild.",
+    ],
   },
   "found_animal": {
     "en": [Language.L.emoji.flower, " ",
@@ -1384,7 +1394,7 @@ Language.L.messages = {
            "岁）"],
     "ko": [Language.L.emoji.birthday,
            "<INSERTNAME>",
-           "의 생일을 환영합니다! (",
+           "의 생일을 축하합니다! (",
            "<INSERTNUMBER>",
            "세)"],
   },
@@ -2840,7 +2850,7 @@ Language.L.tags = {
        "ne": ["हावा चाख्ने"],
        "pt": ["degustando o ar", "gosto do ar"],
        "zh": ["尝尝空气"],
-       "ko": ["할짝"]
+       "ko": ["공기 맛보기"]
   },
   "apple time": {
     "emoji": [Language.L.emoji.apple],
@@ -3162,7 +3172,7 @@ Language.L.tags = {
        "ne": ["लामो जीभ"],
        "pt": ["mostrando a língua"],
        "zh": ["伸长舌头"],
-       "ko": ["메롱"]
+       "ko": ["긴 혀"]
   },
   "lunch time": {
     "emoji": [Language.L.emoji.bento],

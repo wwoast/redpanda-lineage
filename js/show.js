@@ -416,6 +416,7 @@ Show.locationLink = function(zoo, language, mode="icons_only") {
   }
   a.innerText = link_text;
   a.target = "_blank";   // Open in new tab
+  a.rel = "noopener noreferrer";  // rel="noopener noreferrer" is recommended for security reasons.  // Open in new tab
   return a;
 }
 
@@ -1149,6 +1150,8 @@ Show.links.create = function(element, href, text, suffix, before=undefined, afte
   var anchor = document.createElement('a');
   anchor.href = href;
   anchor.innerText = text + " " + suffix;
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
   if (before != undefined) {
     // Before text is for the special-thanks page.
     // Trailing spaces get eaten from config, so add it back.
