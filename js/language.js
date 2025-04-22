@@ -1110,7 +1110,7 @@ Language.L.messages = {
            "张照片。"],
     "ko": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
-           "가",
+           "이(가) ",
            "<INSERTNUMBER>",
            "장의 사진을 제공했습니다."]
   },
@@ -1159,7 +1159,7 @@ Language.L.messages = {
            "照片。"],
     "ko": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
-           "가",
+           "이(가) ",
            "<INSERTNAME>",
            "의 사진을",
            "<INSERTNUMBER>",
@@ -1288,7 +1288,7 @@ Language.L.messages = {
            Language.L.emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
-           "가 발견되었습니다!"],
+           "이(가) 발견되었습니다!"],
   },
   "goodbye": {
     "en": ["Good-bye, ",
@@ -2193,7 +2193,7 @@ Language.L.messages = {
            "<INSERTBABIES>",
            "个新生儿"],
     "ko": ["<INSERTNAME>",
-           "는 ",
+           "은(는) ",
            "<INSERTSISTERS>",
            "자매와 ",
            "<INSERTBABIES>",
@@ -2250,7 +2250,7 @@ Language.L.messages = {
            "<INSERTBROTHERS>",
            "个兄弟！"],
     "ko": ["<INSERTNAME>",
-           "는 ",
+           "은(는) ",
            "<INSERTTOTAL>",
            "형제, 자매와 ",
            "<INSERTSISTERS>",
@@ -2321,7 +2321,7 @@ Language.L.messages = {
            "<INSERTBABIES>",
            "个新生儿！"],
     "ko": ["<INSERTNAME>",
-           "는 ",
+           "은(는) ",
            "<INSERTTOTAL>",
            "형제, 자매가 있습니다."]
   },
@@ -2351,7 +2351,7 @@ Language.L.messages = {
            "<INSERTSONS>",
            "个儿子"],
     "ko": ["<INSERTNAME>",
-           "는 ",
+           "은(는) ",
            "<INSERTSONS>",
            "남자 아이가 있습니다."]
   },
@@ -2393,7 +2393,7 @@ Language.L.messages = {
            "<INSERTBABIES>",
            "个新生儿！"],
     "ko": ["<INSERTNAME>",
-           "는 ",
+           "은(는) ",
            "<INSERTSONS>",
            "남자 아이와 ",
            "<INSERTBABIES>",
@@ -2416,7 +2416,7 @@ Language.L.messages = {
     "zh": ["<INSERTNAME>",
            "住在哪里？"],
     "ko": ["<INSERTNAME>",
-           "는 어디에서 살았나요?"]
+           "은(는) 어디에서 살았나요?"]
   },
   "remembering_you_together": {
     "en": [Language.L.emoji.hearts, " ",

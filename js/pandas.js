@@ -87,8 +87,8 @@ Pandas.def.age = {
     "days": "天"
   },
   "ko": {
-    "year": "년",
-    "years": "년",
+    "year": "세",
+    "years": "세",
     "month": "개월",
     "months": "개월",
     "day": "일",
