@@ -64,141 +64,169 @@ Parse.keyword = {};
 Parse.keyword.baby = {
   "zh": ['婴儿', '婴'],
   "en": ['aka-chan', 'Aka-Chan', 'Aka-chan', 'baby', 'Baby', 'babies', 'Babies'],
-  "ja": ['赤', '赤ちゃん']
+  "ja": ['赤', '赤ちゃん'],
+  "ko": ['아기']
 }
 Parse.keyword.born = {
   "zh": ['出生'],
   "en": ['born', 'Born'],
-  "ja": ['生まれ']
+  "ja": ['生まれ'],
+  "ko": ['태어난','출생']
 }
 Parse.keyword.born_at = {
   "zh": ['出生'],
   "en": ['born at', 'Born at'],
-  "ja": ['生まれ']
+  "ja": ['生まれ'],
+  "ko": ['태어난 장소', '출생지'],
+  
 }
 /* Parse.keyword.born + (around|after|before) = TODO */
 Parse.keyword.credit = {
   "zh": ['TOWRITE'],
   "en": ['author', 'Author', 'credit', 'Credit', 'ask', 'Ask'],
-  "ja": ['著者']
+  "ja": ['著者'],
+  "ko": ['저자']
 }
 Parse.keyword.dead = {
   "zh": ['TOWRITE'],
   "en": ['dead', 'Dead', 'died', 'Died', 'rainbow', 'Rainbow'],
-  "ja": ['死', '虹']
+  "ja": ['死', '虹'],
+  "ko": ['죽음']
 }
 Parse.keyword.died_at = {
   "zh": ['TOWRITE'],
   "en": ['died at', 'Died at'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['죽은 장소']
 }
 Parse.keyword.family = {};
 Parse.keyword.family.aunt = {
   "zh": ['TOWRITE'],
   "en": ['aunt', 'Aunt'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['이모']
 }
 Parse.keyword.family.brother = {
   "zh": ['TOWRITE'],
   "en": ['brother', 'Brother'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['형제']
 }
 Parse.keyword.family.cousin = {
   "zh": ['TOWRITE'],
   "en": ['cousin', 'Cousin'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['사촌']
 }
 Parse.keyword.family.children = {
   "zh": ['TOWRITE'],
   "en": ['children'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['자녀']
 }
 Parse.keyword.family.dad = {
   "zh": ['TOWRITE'],
   "en": ['dad', 'Dad', 'father', 'Father', 'papa', 'Papa'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['아빠']
 }
 Parse.keyword.family.grandma = {
   "zh": ['TOWRITE'],
   "en": ['grandma', 'Grandma', 'grandmother', 'Grandmother'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['할머니']
 }
 Parse.keyword.family.grandpa = {
   "zh": ['TOWRITE'],
   "en": ['grandpa', 'Grandpa', 'grandfather', 'Grandfather'],
-  "ja": ['TORWITE']
+  "ja": ['TORWITE'],
+  "ko": ['할아버지']
 }
 Parse.keyword.family.litter = {
   "zh": ['TOWRITE'],
   "en": ['litter', 'Litter'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['쌍둥이']
 }
 Parse.keyword.family.mate = {
   "zh": ['TOWRITE'],
   "en": ['husband', 'Husband', 'mate', 'Mate', 'partner', 'Partner', 'wife', 'Wife'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['남편']
 }
 Parse.keyword.family.mom = {
   "zh": ['TOWRITE'],
   "en": ['mam', 'Mam', 'mama', 'Mama', 'mom', 'Mom', 'mommy', 'Mommy', 'mother', 'Mother'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['엄마']
 }
 Parse.keyword.family.nephew = {
   "zh": ['TOWRITE'],
   "en": ['nephew', 'Nephew'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['조카(남)']
 }
 Parse.keyword.family.niece = {
   "zh": ['TOWRITE'],
   "en": ['niece', 'Niece'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['조카(여)']
 }
 Parse.keyword.family.parents = {
   "zh": ['TOWRITE'],
   "en": ['parent', 'Parent', 'parents', 'Parents'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['부모']
 }
 Parse.keyword.family.relatives = {
   "zh": ['TOWRITE'],
   "en": ['family', 'Family', 'relatives', 'Relatives'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['가족']
 }
 Parse.keyword.family.siblings = {
   "zh": ['TOWRITE'],
   "en": ['sibling', 'Sibling', 'siblings', 'Siblings'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['형제자매']
 }
 Parse.keyword.family.uncle = {
   "zh": ['TOWRITE'],
   "en": ['uncle', 'Uncle'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['삼촌']
 }
 /* Parse.keyword.in = TODO */
 Parse.keyword.lived_at = {
   "zh": ['TOWRITE'],
   "en": ['lived at', 'Lived at'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['살았던 곳', '거주지']
 }
 /* Parse.keyword.logical AND/OR/NOT/NOR = TODO */
 Parse.keyword.nearby = {
   "zh": ['附近'],
   "en": ['near', 'Near', 'nearby', 'Nearby'],
-  "ja": ['近く', '近くの動物園']
+  "ja": ['近く', '近くの動物園'],
+  "ko": ['근처', '가까운', '주변']
 }
 Parse.keyword.panda = {
   "zh": ['TOWRITE'],
   "en": ['panda', 'Panda', 'red panda', 'Red panda', 'Red Panda'],
-  "ja": ['パンダ', 'レッサーパンダ']
+  "ja": ['パンダ', 'レッサーパンダ'],
+  "ko": ['판다', '레서판다']
 }
 Parse.keyword.tag = {
   "zh": ['TOWRITE'],
   "en": ['label', 'labels', 'Label', 'Labels', 'tag', 'Tag', 'tags', 'Tags'],
-  "ja": ['TOWRITE']
+  "ja": ['TOWRITE'],
+  "ko": ['태그']
 }
 Parse.keyword.zoo = {
   "zh": ['动物园'],
   "en": ['zoo', 'Zoo'],
-  "ja": ['動物園']
+  "ja": ['動物園'],
+  "ko": ['동물원']
 }
 
 Parse.group = {};

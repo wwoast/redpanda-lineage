@@ -832,7 +832,7 @@ class UpdateFromCommits:
         seen before.
         """
         # Match the actual photo lines that were added
-        if re.match("photo.\d+:", raw) == None:
+        if re.match(r"photo.\d+", raw) == None:
             return
         raw = raw.strip()
         # Create a stub photo entry to validate whether we've

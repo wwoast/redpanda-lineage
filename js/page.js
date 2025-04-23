@@ -269,6 +269,8 @@ Page.footer.render = function(language, class_name) {
   var rpn_url = "https://www.redpandanetwork.org";
   var rpn_logo_link = document.createElement('a');
   rpn_logo_link.href = rpn_url;
+  rpn_logo_link.target = "_blank";
+  rpn_logo_link.rel = "noopener noreferrer";
   var rpn_logo = document.createElement('img');
   rpn_logo.className = "footerRpnLogo";
   rpn_logo.src = "images/rpn-logo.png";
@@ -279,14 +281,22 @@ Page.footer.render = function(language, class_name) {
     if (field == "<INSERTLINK_RPF>") {
       var rpf = document.createElement('a');
       rpf.href = "https://github.com/wwoast/redpanda-lineage";
+      rpf.target = "_blank"; // Open link in a new tab
+      rpf.rel = "noopener noreferrer"; // Security best practice: prevent access to window.opener
       rpf.innerText = L.gui.footerLink_rpf[language];
       p.appendChild(rpf);
     } else if (field == "<INSERTLINK_RPN>") {
       var rpn = document.createElement('a');
       rpn.href = rpn_url;
+      rpn.target = "_blank"; // Open link in a new tab
+      rpn.rel = "noopener noreferrer"; // Security best practice: prevent access to window.opener
       rpn.innerText = L.gui.footerLink_rpn[language];
       p.appendChild(rpn);
+    } else if (field === "") {
+      // If the field is an empty string, insert a line break in the footer
+      p.appendChild(document.createElement('br'));
     } else {
+      // For normal text, add it as a text node
       var msg = document.createTextNode(field);
       p.appendChild(msg);
     }
