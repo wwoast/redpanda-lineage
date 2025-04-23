@@ -4,6 +4,7 @@ birthday: 2013/7/14
 birthplace: 150
 children: none
 commitdate: 2019/3/15
+death: 2025/2/1
 en.name: Zayn
 en.nicknames: none
 en.othernames: Zhen, Chen
@@ -70,4 +71,5 @@ ru.nicknames: none
 ru.othernames: none
 species: 1
 studbook.id: 13128
+uncertainty: death exact month and date (+/- 6mos)
 zoo: 149
