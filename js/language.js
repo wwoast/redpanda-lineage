@@ -1817,6 +1817,10 @@ Language.L.messages = {
            "には",
            "<INSERTBABIES>",
            "人の赤ちゃんの兄弟がいます"],
+    "ko": ["<INSERTNAME>",
+           "에게는 ",
+           "<INSERTBABIES>",
+           "마리의 형제자매가 있어요."],   
     "ne": ["<INSERTNAME>",
            " ",
            "<INSERTBABIES>",
@@ -1828,11 +1832,7 @@ Language.L.messages = {
     "zh": ["<INSERTNAME>",
            "有",
            "<INSERTBABIES>",
-           "个孩子"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTBABIES>",
-           "마리의 형제자매가 있어요."]
+           "个孩子"]
   },
   "profile_brothers": {
     "en": ["<INSERTNAME>",
