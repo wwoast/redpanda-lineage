@@ -62,6 +62,14 @@ Pandas.def.age = {
     "day": "日",
     "days": "日"
   },
+  "ko": {
+    "year": "세",
+    "years": "세",
+    "month": "개월",
+    "months": "개월",
+    "day": "일",
+    "days": "일"
+  },
   "ne": {
     "year": "बर्ष",
     "years": "बर्ष",
@@ -85,14 +93,6 @@ Pandas.def.age = {
     "months": "月",
     "day": "天",
     "days": "天"
-  },
-  "ko": {
-    "year": "세",
-    "years": "세",
-    "month": "개월",
-    "months": "개월",
-    "day": "일",
-    "days": "일"
   }
 }
 
@@ -112,6 +112,9 @@ Pandas.def.animal = {
   "ja.name": "パンダが見つかりませんでした",
   "ja.nicknames": "ニックネームは記録されていません",
   "ja.othernames": "代わりのスペルは記録されていません",
+  "ko.name": "판다를 찾을 수 없습니다",
+  "ko.nicknames": "등록된 별명이 없습니다",
+  "ko.othernames": "등록된 다른 이름이 없습니다",
   "litter": "0",
   "ne.name": "निगल्या पोनिया फेला परेन",
   "ne.nicknames": "उपनामहरू फेला परेन",
@@ -125,9 +128,6 @@ Pandas.def.animal = {
   "zh.name": "TOWRITE",
   "zh.nicknames": "TOWRITE",
   "zh.othernames": "TOWRITE",
-  "ko.name": "판다를 찾을 수 없습니다",
-  "ko.nicknames": "등록된 별명이 없습니다",
-  "ko.othernames": "등록된 다른 이름이 없습니다",
   "zoo": "0"
 }
 
@@ -136,10 +136,10 @@ Pandas.def.date = {
   "en": "MM/DD/YYYY",
   "es": "DD/MM/YYYY",
   "ja": "YYYY年MM月DD日",
+  "ko": "YYYY년MM월DD일",
   "ne": "YYYY-MM-DD",
   "pt": "DD/MM/YYYY",
-  "zh": "YYYY-MM-DD",
-  "ko": "YYYY년MM월DD일"
+  "zh": "YYYY-MM-DD"
 }
 
 Pandas.def.date_season = {
@@ -147,10 +147,10 @@ Pandas.def.date_season = {
   "en": "SEASON YYYY",
   "es": "SEASON YYYY",
   "ja": "SEASON YYYY",
+  "ko": "SEASON YYYY",
   "ne": "SEASON YYYY",
   "pt": "SEASON YYYY",
-  "zh": "SEASON YYYY",
-  "ko": "SEASON YYYY"
+  "zh": "SEASON YYYY"
 }
 
 Pandas.def.gender = {
@@ -158,19 +158,19 @@ Pandas.def.gender = {
     "en": "female",
     "es": "hembra",
     "ja": "メス",
+    "ko": "여",
     "ne": "महिला",
     "pt": "fêmea",
-    "zh": "女",
-    "ko": "여"
+    "zh": "女"
   },
   "Male": {
     "en": "male",
     "es": "macho",
     "ja": "オス",
+    "ko": "남",
     "ne": "नर",
     "pt": "macho",
-    "zh": "男",
-    "ko": "남"
+    "zh": "男"
   }
 }
 
@@ -179,10 +179,10 @@ Pandas.def.no_name = {
   "en": "Unknown",
   "es": "Desconocido",
   "ja": "未詳",
+  "ko": "알 수 없음",
   "ne": "अज्ञात",
   "pt": "Desconhecido(a)",
-  "zh": "不明",
-  "ko": "알 수 없음"
+  "zh": "不明"
 }
 
 // Missing or undescribed authors
@@ -191,19 +191,19 @@ Pandas.def.authors = {
     "en": "anonymous",
     "es": "anónimo",
     "ja": "匿名",
+    "ko": "익명",
     "ne": "बेनामी",
     "pt": "anônimo",
-    "zh": "匿名",
-    "ko": "익명"
+    "zh": "匿名"
   },
   "uncredited": {
     "en": "uncredited",
     "es": "sin acreditar",
     "ja": "信用されていない",
+    "ko": "공로 미기재",
     "ne": "अप्रत्याशित",
     "pt": "não creditado",
-    "zh": "沒有信用",
-    "ko": "공로 미기재"
+    "zh": "沒有信用"
   }
 }
 
@@ -231,14 +231,14 @@ Pandas.def.ranges = {
     /[\uff00-\uffef]/,   // Japanese full-width romanji and half-width katakana
     /[\u4e00-\u9faf]/    // CJK unified Kanji set
   ],
-  "ne": [
-    /[\u0900-\u0954]/    // Devanghari unicode range
-  ],
   "ko": [
     /[\uAC00-\uD7AF]/,  // Hangul Syllables (가-힣)
     /[\u1100-\u11FF]/,  // Hangul Jamo (초성, 중성, 종성)
     /[\u3130-\u318F]/,  // Hangul Compatibility Jamo
     /[\u3200-\u33FF]/,  // Korean symbols and punctuation
+  ],
+  "ne": [
+    /[\u0900-\u0954]/    // Devanghari unicode range
   ]
 }
 
@@ -248,136 +248,136 @@ Pandas.def.relations = {
     "en": "aunt",
     "es": "tía",
     "ja": "叔母",
+    "ko": "이모",
     "ne": "काकी",
     "pt": "tia",
-    "zh": "姑媽",
-    "ko": "이모"
+    "zh": "姑媽"
   },
   "brother": {
     "en": "brother",
     "es": "hermano",
     "ja": "兄",
+    "ko": "형제",
     "ne": "भाई",
     "pt": "irmão",
-    "zh": "兄",
-    "ko": "형제"
+    "zh": "兄"
   },
   "children": {
     "en": "children",
     "es": "niños",
     "ja": "子供",
+    "ko": "자녀",
     "ne": "बच्चाहरु",
     "pt": "filhos(as)",
-    "zh": "孩子",
-    "ko": "자녀"
+    "zh": "孩子"
   },
   "cousin": {
     "en": "cousin",
     "es": "primo",
     "ja": "いとこ",
+    "ko": "사촌",
     "ne": "भान्जा",
     "pt": "primo(a)",
-    "zh": "表姐",
-    "ko": "사촌"
+    "zh": "表姐"
   },
   "father": {
     "en": "father",
     "es": "padre",
     "ja": "父",
+    "ko": "아빠",
     "ne": "बुबा",
     "pt": "pai",
-    "zh": "父",
-    "ko": "아빠"
+    "zh": "父"
   },
   "grandfather": {
     "en": "grandfather",
     "es": "abuelo",
     "ja": "おじいちゃん",
+    "ko": "할아버지",
     "ne": "हजुरबुबा",
     "pt": "avô",
-    "zh": "祖父",
-    "ko": "할아버지"
+    "zh": "祖父"
   },
   "grandmother": {
     "en": "grandmother",
     "es": "abuela",
     "ja": "おばあちゃん",
+    "ko": "할머니",
     "ne": "हजुरआमा",
     "pt": "avó",
-    "zh": "祖母",
-    "ko": "할머니"
+    "zh": "祖母"
   },
   "litter": {
     "en": "litter",
     "es": "camada",
     "ja": "双子",   /* "同腹仔" */
+    "ko": "쌍둥이",
     "ne": "रोटी",
     "pt": "ninhada",
-    "zh": "轿子",
-    "ko": "쌍둥이"
+    "zh": "轿子"
   },
   "mother": {
     "en": "mother",
     "es": "madre",
     "ja": "母",
+    "ko": "엄마",
     "ne": "आमा",
     "pt": "mãe",
-    "zh": "母",
-    "ko": "엄마"
+    "zh": "母"
   },
   "nephew": {
     "en": "nephew",
     "es": "sobrino",
     "ja": "甥",
+    "ko": "조카(남)",
     "ne": "भतिजा",
     "pt": "sobrinho",
-    "zh": "外甥",
-    "ko": "조카(남)"
+    "zh": "外甥"
   },
   "niece": {
     "en": "niece",
     "es": "sobrina",
     "ja": "姪",
+    "ko": "조카(여)",
     "ne": "भान्जी",
     "pt": "sobrinha",
-    "zh": "侄女",
-    "ko": "조카(여)"
+    "zh": "侄女"
   },
   "parents": {
     "en": "parents",
     "es": "padres",
     "ja": "両親",
+    "ko": "부모",
     "ne": "अभिभावक",
     "pt": "pais",
-    "zh": "父母",
-    "ko": "부모"
+    "zh": "父母"
   },
   "sister": {
     "en": "sister",
     "es": "hermana",
     "ja": "姉",
+    "ko": "자매",
     "ne": "बहिनी",
     "pt": "irmã",
-    "zh": "妹妹",
-    "ko": "자매"
+    "zh": "妹妹"
   },
   "siblings": {
     "en": "siblings",
     "es": "hermanos",
     "ja": "兄弟",
+    "ko": "형제자매",
     "ne": "भाइबहिनीहरू",
     "pt": "irmãos(ãs)",
-    "zh": "兄弟姐妹",
-    "ko": "형제자매"
+    "zh": "兄弟姐妹"
   },
   "uncle": {
     "en": "uncle",
     "es": "tío",
     "ja": "叔父",
+    "ko": "삼촌",
     "ne": "काका",
     "pt": "tio",
-    "zh": "叔叔",
-    "ko": "삼촌"
+    "zh": "叔叔"
   }
 }
 
@@ -397,6 +397,11 @@ Pandas.def.species = {
     "シセンレッサーパンダ",
     "未詳レッサーパンダ"
   ],
+  "ko": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
+  ],
   "ne": [
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
@@ -411,11 +416,6 @@ Pandas.def.species = {
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
-  ],
-  "ko": [
-    "Ailurus fulgens fulgens",
-    "Ailurus fulgens styani",
-    "Ailurus fulgens"
   ]
 }
 
@@ -423,10 +423,10 @@ Pandas.def.unknown = {
   "en": "unknown",
   "es": "desconocido",
   "ja": "未詳",
+  "ko": "알 수 없음",
   "ne": "अज्ञात",
   "pt": "desconhecido",
-  "zh": "不明",
-  "ko": "알 수 없음"
+  "zh": "不明"
 }
 
 // Slightly different default zoo listing, to account for wild-born animals
@@ -441,6 +441,9 @@ Pandas.def.wild = {
   "ja.address": "TOWRITE",
   "ja.location": "市区町村の情報が表示されていない",
   "ja.name": "動物園が見つかりません",
+  "ko.address": "포획되거나 구조된 야생 동물",
+  "ko.location": "도시, 지역 또는 주 정보가 없습니다",
+  "ko.name": "동물원을 찾을 수 없습니다",
   "ne.address": "जंगली जनावर कब्जा वा बचाव",
   "ne.location": "कुनै स्थान जानकारी छैन",
   "ne.name": "चिडियाखाना फेला परेन",
@@ -452,10 +455,7 @@ Pandas.def.wild = {
   "website": "https://www.worldwildlife.org/",
   "zh.address": "TOWRITE",
   "zh.location": "TOWRITE",
-  "ko.address": "포획되거나 구조된 야생 동물",
-"ko.location": "도시, 지역 또는 주 정보가 없습니다",
-"ko.name": "동물원을 찾을 수 없습니다",
-  "zh.name": "TOWRITE",
+  "zh.name": "TOWRITE"
 }
 
 Pandas.def.zoo = {
@@ -470,6 +470,9 @@ Pandas.def.zoo = {
   "ja.address": "Googleマップのアドレスが記録されていません",
   "ja.location": "市区町村の情報が表示されていない",
   "ja.name": "動物園が見つかりません",
+  "ko.address": "Google 지도 주소가 기록되지 않았습니다",
+  "ko.location": "도시, 지역 또는 주 정보가 없습니다",
+  "ko.name": "동물원을 찾을 수 없습니다",
   "ne.address": "कुनै ठेगाना सूचीबद्ध छैन",
   "ne.location": "कुनै स्थान जानकारी छैन",
   "ne.name": "चिडियाखाना फेला परेन",
@@ -481,10 +484,7 @@ Pandas.def.zoo = {
   "website": "https://www.worldwildlife.org/",
   "zh.address": "TOWRITE",
   "zh.location": "TOWRITE",
-  "zh.name": "TOWRITE",
-  "ko.address": "Google 지도 주소가 기록되지 않았습니다",
-"ko.location": "도시, 지역 또는 주 정보가 없습니다",
-"ko.name": "동물원을 찾을 수 없습니다"
+  "zh.name": "TOWRITE"
 
 }
 
