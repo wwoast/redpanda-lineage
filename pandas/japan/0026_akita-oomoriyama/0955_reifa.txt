@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: レイファ
 language.order: ja, en
 litter: 956
+location.1: 13, 2019/7/12
+location.2: 26, 2025/4/14
 photo.1: ig://B3f869cha-6/m
 photo.1.author: yakko____
 photo.1.commitdate: 2019/10/13
@@ -619,4 +621,4 @@ photo.121.commitdate: 2023/11/5
 photo.121.link: https://www.instagram.com/minato.yokohama4416/
 photo.121.tags: bamboo, blink, paws, portrait, sample, white face
 species: 2
-zoo: 13
+zoo: 26
