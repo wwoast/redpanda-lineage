@@ -15,6 +15,7 @@ language.order: ja, en
 litter: 344
 location.1: 53, 2018/7/15
 location.2: 52, 2021/10/25
+location.3: 29, 2025/3/16
 photo.1: cwdc://WaL39tsADQA.jpg
 photo.1.author: daniele.tokyo
 photo.1.commitdate: 2018/11/15
@@ -1732,4 +1733,5 @@ photo.343.link: ig://DEwzDOdyLts
 photo.343.tags: sample, tongue, tree, whiskers, wink
 species: 2
 studbook.id: unknown
-zoo: 52
+uncertainty: location.3 exact date
+zoo: 29
