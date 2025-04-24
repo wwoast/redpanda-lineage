@@ -401,104 +401,101 @@ photo.77.author: wumpwoast
 photo.77.commitdate: 2022/9/10
 photo.77.link: ig://CiRe5cROBaW
 photo.77.tags: portrait, sample, tail, tongue, whiskers
-photo.78: cwdc://YYAZ7GnADQA.jpg
+photo.78: cwdc://YRiKrMJADQZ.jpg
 photo.78.author: wumpwoast
-photo.78.commitdate: 2023/4/9
-photo.78.link: ig://CoBZNBDpBYu
-photo.78.tags: close-up, dish, lunch time, peek, portrait, sample
-photo.79: cwdc://YgvifgFADQA.jpg
-photo.79.author: djjohnbeaver
-photo.79.commitdate: 2023/6/20
-photo.79.link: ig://CsY9fNyrNM9
-photo.79.tags: bamboo, close-up, sample, whiskers
-photo.80: cwdc://YkjKrQDADQL.jpg
-photo.80.author: hhpzoo
-photo.80.commitdate: 2023/8/11
-photo.80.link: ig://CuSxlFxs_Ft
-photo.80.tags: close-up, mofumofu, whiskers
-photo.81: cwdc://YkjKrQDADQM.jpg
-photo.81.author: hhpzoo
-photo.81.commitdate: 2024/6/27
-photo.81.link: ig://CuSxlFxs_Ft?img_index=2
-photo.81.tags: bamboo, close-up, whiskers
-photo.82: cwdc://YkjKrQDADQN.jpg
-photo.82.author: hhpzoo
-photo.82.commitdate: 2024/6/27
-photo.82.link: ig://CuSxlFxs_Fv
-photo.82.tags: paws, sample, whiskers
-photo.83: cwdc://YkjKrQDADQO.jpg
-photo.83.author: hhpzoo
-photo.83.commitdate: 2024/6/27
-photo.83.link: ig://CuSxlFxs_Fv?img_index=2
-photo.83.tags: bamboo, paws, shoots
-photo.84: cwdc://YsbKD-AADQA.jpg
+photo.78.commitdate: 2025/4/23
+photo.78.link: ig://CkyRlD0pJAp
+photo.78.tags: bamboo, mofumofu, paws, portrait, sample, whiskers
+photo.79: cwdc://YTKp3o2ADQY.jpg
+photo.79.author: wumpwoast
+photo.79.commitdate: 2025/4/23
+photo.79.link: ig://ClmhLSLPb9A
+photo.79.tags: bamboo, bite, portrait, sample, whiskers
+photo.80: cwdc://YVHAFcoADQX.jpg
+photo.80.author: wumpwoast
+photo.80.commitdate: 2025/4/23
+photo.80.link: ig://CmksSMEJbQq
+photo.80.tags: bamboo, bite, portrait
+photo.81: cwdc://YYAZ7GnADQA.jpg
+photo.81.author: wumpwoast
+photo.81.commitdate: 2023/4/9
+photo.81.link: ig://CoBZNBDpBYu
+photo.81.tags: close-up, dish, lunch time, peek, portrait, sample
+photo.82: cwdc://YZyvJOsADQW.jpg
+photo.82.author: wumpwoast
+photo.82.commitdate: 2025/4/23
+photo.82.link: ig://Co6j0FGOP0p
+photo.82.tags: dish, paws, peek, portrait, whiskers
+photo.83: cwdc://YgvifgFADQA.jpg
+photo.83.author: djjohnbeaver
+photo.83.commitdate: 2023/6/20
+photo.83.link: ig://CsY9fNyrNM9
+photo.83.tags: bamboo, close-up, sample, whiskers
+photo.84: cwdc://YkimeDCADQV.jpg
 photo.84.author: wumpwoast
-photo.84.commitdate: 2023/10/24
-photo.84.link: ig://CyOxRcwSg3o
-photo.84.tags: door, paws, portrait, sample
-photo.85: cwdc://Ysq_CKyADQA.jpg
-photo.85.author: wumpwoast
-photo.85.commitdate: 2023/10/24
-photo.85.link: ig://CyWrwjJSMGW
-photo.85.tags: dish, door, lunch time, portrait, sample, whiskers
-photo.86: cwdc://Y5NbIMzADQE.jpg
+photo.84.commitdate: 2025/4/23
+photo.84.link: ig://CuSfefRS5FI
+photo.84.tags: dish, door, paws, peek, portrait, sample, whiskers
+photo.85: cwdc://YkjKrQDADQL.jpg
+photo.85.author: hhpzoo
+photo.85.commitdate: 2023/8/11
+photo.85.link: ig://CuSxlFxs_Ft
+photo.85.tags: close-up, mofumofu, whiskers
+photo.86: cwdc://YkjKrQDADQM.jpg
 photo.86.author: hhpzoo
 photo.86.commitdate: 2024/6/27
-photo.86.link: ig://C4n5zkJpun7
-photo.86.tags: hammock, laying down, paws, portrait
-species: 1
-studbook.id: 1542
-zoo: 47
-photo.87: cwdc://Y3Ok7C5ADQQ.jpg
-photo.87.author: wumpwoast
-photo.87.commitdate: 2025/4/23
-photo.87.link: ig://C3oes_Mx_ia
-photo.87.tags: close-up, paws, peek, pooping, portrait
-photo.88: cwdc://YRiKrMJADQZ.jpg
-photo.88.author: wumpwoast
-photo.88.commitdate: 2025/4/23
-photo.88.link: ig://CkyRlD0pJAp
-photo.88.tags: bamboo, mofumofu, paws, portrait, sample, whiskers
-photo.89: cwdc://YTKp3o2ADQY.jpg
+photo.86.link: ig://CuSxlFxs_Ft?img_index=2
+photo.86.tags: bamboo, close-up, whiskers
+photo.87: cwdc://YkjKrQDADQN.jpg
+photo.87.author: hhpzoo
+photo.87.commitdate: 2024/6/27
+photo.87.link: ig://CuSxlFxs_Fv
+photo.87.tags: paws, sample, whiskers
+photo.88: cwdc://YkjKrQDADQO.jpg
+photo.88.author: hhpzoo
+photo.88.commitdate: 2024/6/27
+photo.88.link: ig://CuSxlFxs_Fv?img_index=2
+photo.88.tags: bamboo, paws, shoots
+photo.89: cwdc://YlILGEBADQU.jpg
 photo.89.author: wumpwoast
 photo.89.commitdate: 2025/4/23
-photo.89.link: ig://ClmhLSLPb9A
-photo.89.tags: bamboo, bite, portrait, sample, whiskers
-photo.90: cwdc://YVHAFcoADQX.jpg
+photo.89.link: ig://CulRyfwrZvU
+photo.89.tags: paws, pooping, portrait
+photo.90: cwdc://YoYsn8aADQT.jpg
 photo.90.author: wumpwoast
 photo.90.commitdate: 2025/4/23
-photo.90.link: ig://CmksSMEJbQq
-photo.90.tags: bamboo, bite, portrait
-photo.91: cwdc://YZyvJOsADQW.jpg
+photo.90.link: ig://CwNijb9LZaN
+photo.90.tags: dish, paws, portrait, sample, whiskers
+photo.91: cwdc://Yr4Z6rCADQS.jpg
 photo.91.author: wumpwoast
 photo.91.commitdate: 2025/4/23
-photo.91.link: ig://Co6j0FGOP0p
-photo.91.tags: dish, paws, peek, portrait, whiskers
-photo.92: cwdc://YkimeDCADQV.jpg
+photo.91.link: ig://Cx9ZMzRRcCI
+photo.91.tags: bamboo, laying down, whiskers
+photo.92: cwdc://YsD1J-pADQR.jpg
 photo.92.author: wumpwoast
 photo.92.commitdate: 2025/4/23
-photo.92.link: ig://CuSfefRS5FI
-photo.92.tags: dish, door, paws, peek, portrait, sample, whiskers
-photo.93: cwdc://YlILGEBADQU.jpg
+photo.92.link: ig://CyDG0dEu8NW
+photo.92.tags: bamboo, peek, portrait
+photo.93: cwdc://YsbKD-AADQA.jpg
 photo.93.author: wumpwoast
-photo.93.commitdate: 2025/4/23
-photo.93.link: ig://CulRyfwrZvU
-photo.93.tags: paws, pooping, portrait
-photo.94: cwdc://YoYsn8aADQT.jpg
+photo.93.commitdate: 2023/10/24
+photo.93.link: ig://CyOxRcwSg3o
+photo.93.tags: door, paws, portrait, sample
+photo.94: cwdc://Ysq_CKyADQA.jpg
 photo.94.author: wumpwoast
-photo.94.commitdate: 2025/4/23
-photo.94.link: ig://CwNijb9LZaN
-photo.94.tags: dish, paws, portrait, sample, whiskers
-photo.95: cwdc://Yr4Z6rCADQS.jpg
+photo.94.commitdate: 2023/10/24
+photo.94.link: ig://CyWrwjJSMGW
+photo.94.tags: dish, door, lunch time, portrait, sample, whiskers
+photo.95: cwdc://Y3Ok7C5ADQQ.jpg
 photo.95.author: wumpwoast
 photo.95.commitdate: 2025/4/23
-photo.95.link: ig://Cx9ZMzRRcCI
-photo.95.tags: bamboo, laying down, whiskers
-photo.96: cwdc://YsD1J-pADQR.jpg
-photo.96.author: wumpwoast
-photo.96.commitdate: 2025/4/23
-photo.96.link: ig://CyDG0dEu8NW
-photo.96.tags: bamboo, peek, portrait
+photo.95.link: ig://C3oes_Mx_ia
+photo.95.tags: close-up, paws, peek, pooping, portrait
+photo.96: cwdc://Y5NbIMzADQE.jpg
+photo.96.author: hhpzoo
+photo.96.commitdate: 2024/6/27
+photo.96.link: ig://C4n5zkJpun7
+photo.96.tags: hammock, laying down, paws, portrait
 photo.97: cwdc://ZJeWdFyADQP.jpg
 photo.97.author: wumpwoast
 photo.97.commitdate: 2025/4/23
@@ -519,56 +516,56 @@ photo.100.author: wumpwoast
 photo.100.commitdate: 2025/4/23
 photo.100.link: ig://DFn7chSSHLf
 photo.100.tags: mofumofu, sample, whiskers
-photo.101: cwdc://ZY1zcLjADQC.jpg
+photo.101: cwdc://ZYHZt2AADQL.jpg
 photo.101.author: wumpwoast
 photo.101.commitdate: 2025/4/23
-photo.101.link: ig://DIcF9jhhPDr
-photo.101.tags: blink, lips, mofumofu, portrait, shedding, tongue
-photo.102: cwdc://ZYHZt2AADQL.jpg
+photo.101.link: ig://DIE5GYwSquT
+photo.101.tags: portrait, shedding, tail
+photo.102: cwdc://ZYLjnYbADQK.jpg
 photo.102.author: wumpwoast
 photo.102.commitdate: 2025/4/23
-photo.102.link: ig://DIE5GYwSquT
-photo.102.tags: portrait, shedding, tail
-photo.103: cwdc://ZYLjnYbADQK.jpg
+photo.102.link: ig://DIG-DJ9pO4d
+photo.102.tags: bamboo, blink, lunch time, paws, portrait, sample, shedding, tail
+photo.103: cwdc://ZYRBXixADQJ.jpg
 photo.103.author: wumpwoast
 photo.103.commitdate: 2025/4/23
-photo.103.link: ig://DIG-DJ9pO4d
-photo.103.tags: bamboo, blink, lunch time, paws, portrait, sample, shedding, tail
-photo.104: cwdc://ZYRBXixADQJ.jpg
+photo.103.link: ig://DIJs7PIpON6
+photo.103.tags: bamboo, blink, mofumofu, peek, portrait, sample
+photo.104: cwdc://ZYTdJ3fADQI.jpg
 photo.104.author: wumpwoast
 photo.104.commitdate: 2025/4/23
-photo.104.link: ig://DIJs7PIpON6
-photo.104.tags: bamboo, blink, mofumofu, peek, portrait, sample
-photo.105: cwdc://ZYTdJ3fADQI.jpg
+photo.104.link: ig://DIK60ZfxOuI
+photo.104.tags: lips, mofumofu, portrait, sample, shedding, whiskers
+photo.105: cwdc://ZYcR_AzADQF.jpg
 photo.105.author: wumpwoast
 photo.105.commitdate: 2025/4/23
-photo.105.link: ig://DIK60ZfxOuI
-photo.105.tags: lips, mofumofu, portrait, sample, shedding, whiskers
-photo.106: cwdc://ZYcR_AzADQF.jpg
+photo.105.link: ig://DIPVO-Jh5E1
+photo.105.tags: blink, lips, mofumofu, peek, portrait
+photo.106: cwdc://ZYcR_AzADQG.jpg
 photo.106.author: wumpwoast
 photo.106.commitdate: 2025/4/23
-photo.106.link: ig://DIPVO-Jh5E1
-photo.106.tags: blink, lips, mofumofu, peek, portrait
-photo.107: cwdc://ZYcR_AzADQG.jpg
+photo.106.link: ig://DIPVO-Jh5E2
+photo.106.tags: portrait, shedding
+photo.107: cwdc://ZYcR_AzADQH.jpg
 photo.107.author: wumpwoast
 photo.107.commitdate: 2025/4/23
-photo.107.link: ig://DIPVO-Jh5E2
-photo.107.tags: portrait, shedding
-photo.108: cwdc://ZYcR_AzADQH.jpg
+photo.107.link: ig://DIPVO-Jh5E3
+photo.107.tags: mofumofu, portrait, shedding
+photo.108: cwdc://ZYibXUZADQE.jpg
 photo.108.author: wumpwoast
 photo.108.commitdate: 2025/4/23
-photo.108.link: ig://DIPVO-Jh5E3
-photo.108.tags: mofumofu, portrait, shedding
-photo.109: cwdc://ZYibXUZADQE.jpg
+photo.108.link: ig://DISZ7H8v9Av
+photo.108.tags: bamboo, lips, lunch time, mofumofu, paws, sample, shedding, whiskers
+photo.109: cwdc://ZYm6jHoADQD.jpg
 photo.109.author: wumpwoast
 photo.109.commitdate: 2025/4/23
-photo.109.link: ig://DISZ7H8v9Av
-photo.109.tags: bamboo, lips, lunch time, mofumofu, paws, sample, shedding, whiskers
-photo.110: cwdc://ZYm6jHoADQD.jpg
+photo.109.link: ig://DIUphBkBtmi
+photo.109.tags: lips, portrait, sample, shedding
+photo.110: cwdc://ZY1zcLjADQC.jpg
 photo.110.author: wumpwoast
 photo.110.commitdate: 2025/4/23
-photo.110.link: ig://DIUphBkBtmi
-photo.110.tags: lips, portrait, sample, shedding
+photo.110.link: ig://DIcF9jhhPDr
+photo.110.tags: blink, lips, mofumofu, portrait, shedding, tongue
 photo.111: cwdc://ZZAs_9GADQB.jpg
 photo.111.author: wumpwoast
 photo.111.commitdate: 2025/4/23
@@ -579,3 +576,6 @@ photo.112.author: wumpwoast
 photo.112.commitdate: 2025/4/23
 photo.112.link: ig://DIzBdguTu3m
 photo.112.tags: close-up, lips, portrait, sample, shedding, whiskers
+species: 1
+studbook.id: 1542
+zoo: 47
