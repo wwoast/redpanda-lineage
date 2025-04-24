@@ -289,10 +289,10 @@ photo.55.author: miis_98
 photo.55.commitdate: 2023/8/22
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: portrait, sample, whiskers
-photo.56: ig://Cp1PejfvGlI/m
+photo.56: cwdc://YboGeLfADQA.jpg
 photo.56.author: miis_98
 photo.56.commitdate: 2023/10/18
-photo.56.link: https://www.instagram.com/miis_98/
+photo.56.link: ig://Cp1PejfvGlI
 photo.56.tags: portrait, sample
 photo.57: ig://CqAmZ91PqlM/m
 photo.57.author: kaoru_a358
@@ -332,3 +332,18 @@ photo.63.tags: autumn, laying down, portrait, sample
 species: 2
 studbook.id: 1787
 zoo: 57
+photo.64: cwdc://WLgNApmADQD.jpg
+photo.64.author: miis_98
+photo.64.commitdate: 2025/4/23
+photo.64.link: ig://BhxSvyjFRdS
+photo.64.tags: mofumofu, paws, portrait, sample, tree, whiskers
+photo.65: cwdc://YN8MAzbADQC.jpg
+photo.65.author: miis_98
+photo.65.commitdate: 2025/4/23
+photo.65.link: ig://Ci_SP3dh4uY
+photo.65.tags: portrait, sample, tongue, whiskers
+photo.66: cwdc://YboGeLfADQB.jpg
+photo.66.author: miis_98
+photo.66.commitdate: 2025/4/23
+photo.66.link: ig://Cp1PejfvGlJ
+photo.66.tags: paws, portrait, sample
