@@ -186,7 +186,7 @@ Parse.keyword.family.relatives = {
 Parse.keyword.family.siblings = {
   "en": ['sibling', 'Sibling', 'siblings', 'Siblings'],
   "ja": ['TOWRITE'],
-  "ko": ['형제자매'],
+  "ko": ['형제·자매'],
   "zh": ['TOWRITE']
 }
 Parse.keyword.family.uncle = {

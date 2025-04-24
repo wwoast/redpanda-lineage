@@ -365,7 +365,7 @@ Pandas.def.relations = {
     "en": "siblings",
     "es": "hermanos",
     "ja": "兄弟",
-    "ko": "형제자매",
+    "ko": "형제·자매",
     "ne": "भाइबहिनीहरू",
     "pt": "irmãos(ãs)",
     "zh": "兄弟姐妹"
