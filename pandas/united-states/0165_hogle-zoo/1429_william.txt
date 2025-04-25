@@ -13,5 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1430
+location.1: 80, 2023/6/25
+location.2: 165, 2024/5/24
 species: 2
-zoo: 80
+zoo: 165
