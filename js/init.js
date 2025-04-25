@@ -107,7 +107,7 @@ window.addEventListener('hashchange', function() {
   // And forget how many pages we have shown
   Query.env.paging.shown_pages = 1;
   var mode = window.location.hash.split("/")[0];
-  if (mode == "#home") {
+  if (window.location.hash.length == 0 || mode == "#home") {
     Page.home.render();
     Page.current = Page.home.render;
   } else if (mode == "#about") {
