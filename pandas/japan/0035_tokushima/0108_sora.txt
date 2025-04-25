@@ -40,11 +40,11 @@ photo.5.author: love__mitarashi
 photo.5.commitdate: 2019/6/16
 photo.5.link: ig://Bi_2oYTlt2O
 photo.5.tags: paws, sample, standing, tail
-photo.6: ig://Bjs7HkOFnVp/m
+photo.6: cwdc://WPXdwM8ADQA.jpg
 photo.6.author: framereim
 photo.6.commitdate: 2018/7/25
-photo.6.link: https://www.instagram.com/framereim/
-photo.6.tags: portrait, smile, tail, tongue
+photo.6.link: ig://Bjs7HkOFnVp
+photo.6.tags: paws, portrait, sample, smile, tail, tongue, whiskers
 photo.7: cwdc://WQGUPyyADQA.jpg
 photo.7.author: peek_a_boo00
 photo.7.commitdate: 2018/7/25
@@ -258,11 +258,11 @@ photo.49.author: love__mitarashi
 photo.49.commitdate: 2020/11/20
 photo.49.link: ig://CH0HVm7h57I
 photo.49.tags: home, paws, portrait, sample, tail, whiskers
-photo.50: ig://CH0NEI1hime/m
+photo.50: cwdc://XXmBpWLADQA.jpg
 photo.50.author: makimaru18
 photo.50.commitdate: 2020/11/20
-photo.50.link: https://www.instagram.com/makimaru18/
-photo.50.tags: mofumofu, portrait, whiskers
+photo.50.link: ig://CH0NEI1hime
+photo.50.tags: mofumofu, portrait, sample, whiskers
 photo.51: cwdc://XXoeQ74ADQC.jpg
 photo.51.author: tomo3700
 photo.51.commitdate: 2020/11/28
@@ -709,3 +709,48 @@ photo.138.author: love__mitarashi
 photo.138.commitdate: 2025/4/24
 photo.138.link: ig://CtoIUYqvh4W
 photo.138.tags: paws, sample, whiskers
+photo.139: cwdc://XXmBpWLADQB.jpg
+photo.139.author: makimaru18
+photo.139.commitdate: 2025/4/24
+photo.139.link: ig://CH0NEI1hime?img_index=2
+photo.139.tags: portrait, sample, whiskers
+photo.140: cwdc://XXmBpWLADQC.jpg
+photo.140.author: makimaru18
+photo.140.commitdate: 2025/4/24
+photo.140.link: ig://CH0NEI1hime?img_index=3
+photo.140.tags: paws, portrait, sample, tongue, whiskers
+photo.141: cwdc://XXmBpWLADQD.jpg
+photo.141.author: makimaru18
+photo.141.commitdate: 2025/4/24
+photo.141.link: ig://CH0NEI1hime?img_index=4
+photo.141.tags: door, paws, portrait, sample, whiskers
+photo.142: cwdc://XXmBpWLADQE.jpg
+photo.142.author: makimaru18
+photo.142.commitdate: 2025/4/24
+photo.142.link: ig://CH0NEI1hime?img_index=5
+photo.142.tags: home, paws, peek, portrait, whiskers
+photo.143: cwdc://XXmBpWLADQF.jpg
+photo.143.author: makimaru18
+photo.143.commitdate: 2025/4/24
+photo.143.link: ig://CH0NEI1hime?img_index=6
+photo.143.tags: mofumofu, portrait, sample, whiskers
+photo.144: cwdc://XXmBpWLADQG.jpg
+photo.144.author: makimaru18
+photo.144.commitdate: 2025/4/24
+photo.144.link: ig://CH0NEI1hime?img_index=7
+photo.144.tags: bamboo, paws, portrait, sample, whiskers
+photo.145: cwdc://XXmBpWLADQH.jpg
+photo.145.author: makimaru18
+photo.145.commitdate: 2025/4/24
+photo.145.link: ig://CH0NEI1hime?img_index=8
+photo.145.tags: paws, portrait, sample, tail, whiskers
+photo.146: cwdc://XXmBpWLADQI.jpg
+photo.146.author: makimaru18
+photo.146.commitdate: 2025/4/24
+photo.146.link: ig://CH0NEI1hime?img_index=9
+photo.146.tags: paws, portrait, sample, tail, whiskers
+photo.147: cwdc://XXmBpWLADQJ.jpg
+photo.147.author: makimaru18
+photo.147.commitdate: 2025/4/24
+photo.147.link: ig://CH0NEI1hime?img_index=10
+photo.147.tags: paws, portrait, sample, whiskers
