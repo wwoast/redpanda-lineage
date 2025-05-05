@@ -20,6 +20,7 @@ photo.1: cwdc://ValXtgrADQA.jpg
 photo.1.author: mariten1119
 photo.1.commitdate: 2018/7/29
 photo.1.link: ig://BJT4GOFgkpO
+photo.1.tags: sample, smile, whiskers
 photo.2: cwdc://V5AGAuEADQB.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2018/7/29
@@ -60,205 +61,201 @@ photo.9.author: yakko____
 photo.9.commitdate: 2018/12/6
 photo.9.link: ig://BqqyeAwHgFI
 photo.9.tags: portrait, tail, tree, whiskers
-photo.10: cwdc://WdbqGtKADQA.jpg
-photo.10.author: taka__3428
-photo.10.commitdate: 2018/11/28
-photo.10.link: ig://BqvBS0VF5m0
-photo.11: cwdc://WedaziOADQA.jpg
-photo.11.author: fetorus_mami
-photo.11.commitdate: 2018/12/12
-photo.11.link: ig://BrP5pO3Fj15
-photo.11.tags: close-up, tongue, whiskers
-photo.12: cwdc://Wg7FpKfADQB.jpg
-photo.12.author: perie1027vivi
-photo.12.commitdate: 2019/1/18
-photo.12.link: ig://BsevEC_l0Yz
-photo.12.tags: paws, portrait, sample, whiskers
-photo.13: cwdc://Wg8u1KfADQA.jpg
-photo.13.author: jas_forever_love
-photo.13.commitdate: 2019/1/18
-photo.13.link: ig://BsfjqC_lmp5
-photo.14: cwdc://Wh_PqhNADQA.jpg
-photo.14.author: rie_panda55
-photo.14.commitdate: 2019/1/26
-photo.14.link: ig://BtA0EuWlgMw
-photo.14.tags: paws, portrait, sample, snow, whiskers
-photo.15: cwdc://WnRKjlxADQA.jpg
-photo.15.author: kotata_513
-photo.15.commitdate: 2019/4/2
-photo.15.link: ig://BvpxhQolq4P
-photo.16: cwdc://WoFYhyTADQA.jpg
-photo.16.author: na.mo.pan
-photo.16.commitdate: 2019/4/11
-photo.16.link: ig://BwD4gW5lPbb
-photo.16.tags: mofumofu, portrait, sample, tail, whiskers
-photo.17: cwdc://WrUQOQAADQA.jpg
-photo.17.author: sasapan34
-photo.17.commitdate: 2019/5/22
-photo.17.link: ig://BxrUWlwFyWV
-photo.17.tags: flowers, smile
-photo.18: cwdc://WsxT24ZADQD.jpg
-photo.18.author: shigeko0531
-photo.18.commitdate: 2019/6/8
-photo.18.link: ig://ByZ2K58hhGZ
-photo.18.tags: muzzle, portrait, sample, smile
-photo.19: cwdc://W2LtdkVADQA.jpg
-photo.19.author: tetusara.ki_
-photo.19.commitdate: 2019/10/12
-photo.19.link: ig://B3HC-P6hY1F
-photo.19.tags: laying down, upside-down
-photo.20: cwdc://W2rX8o_ADQA.jpg
-photo.20.author: shigeko0531
-photo.20.commitdate: 2019/10/14
-photo.20.link: ig://B3W4NyPhrKV
-photo.20.tags: lips, portrait, sample, whiskers
-photo.21: cwdc://W3979X2ADQA.jpg
-photo.21.author: nozo.mari
-photo.21.commitdate: 2019/10/25
-photo.21.link: ig://B4AKOJrBFUP
-photo.22: cwdc://W5fGRaYADQA.jpg
-photo.22.author: redpan22
-photo.22.commitdate: 2019/11/17
-photo.22.link: ig://B4wvYK8B5DW
-photo.22.tags: lips, sample, tongue, whiskers
-photo.23: cwdc://XMGBx5ZADQB.jpg
-photo.23.author: panda.daisuki
-photo.23.commitdate: 2020/7/1
-photo.23.link: ig://CCENIachxHC
-photo.23.tags: mofumofu, portrait, sample, tail, whiskers
-photo.24: cwdc://XMI5Bj0ADQE.jpg
+photo.10: cwdc://WdTMdGAADQB.jpg
+photo.10.author: yakko____
+photo.10.commitdate: 2025/5/5
+photo.10.link: ig://BqqyeAwHgFJ
+photo.10.tags: pooping, portrait, sample, smile, tail, whiskers
+photo.11: cwdc://WdbqGtKADQA.jpg
+photo.11.author: taka__3428
+photo.11.commitdate: 2018/11/28
+photo.11.link: ig://BqvBS0VF5m0
+photo.11.tags: paws, sample, whiskers
+photo.12: cwdc://WedaziOADQA.jpg
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2018/12/12
+photo.12.link: ig://BrP5pO3Fj15
+photo.12.tags: close-up, tongue, whiskers
+photo.13: cwdc://Wg7FpKfADQA.jpg
+photo.13.author: perie1027vivi
+photo.13.commitdate: 2025/5/5
+photo.13.link: ig://BsevEC_l0Y0
+photo.13.tags: portrait, sample, whiskers
+photo.14: cwdc://Wg7FpKfADQB.jpg
+photo.14.author: perie1027vivi
+photo.14.commitdate: 2019/1/18
+photo.14.link: ig://BsevEC_l0Yz
+photo.14.tags: paws, portrait, sample, whiskers
+photo.15: cwdc://Wg8u1KfADQA.jpg
+photo.15.author: jas_forever_love
+photo.15.commitdate: 2019/1/18
+photo.15.link: ig://BsfjqC_lmp5
+photo.15.tags: paws, sample, whiskers
+photo.16: cwdc://Wg8u1KfADQB.jpg
+photo.16.author: jas_forever_love
+photo.16.commitdate: 2025/5/5
+photo.16.link: ig://BsfjqC_lmp6
+photo.16.tags: mofumofu, paws, sample, whiskers
+photo.17: cwdc://Wg8u1KfADQC.jpg
+photo.17.author: jas_forever_love
+photo.17.commitdate: 2025/5/5
+photo.17.link: ig://BsfjqC_lmp7
+photo.17.tags: paws, sample, whiskers
+photo.18: cwdc://Wh_PqhNADQA.jpg
+photo.18.author: rie_panda55
+photo.18.commitdate: 2019/1/26
+photo.18.link: ig://BtA0EuWlgMw
+photo.18.tags: paws, portrait, sample, snow, whiskers
+photo.19: cwdc://Wh_PqhNADQB.jpg
+photo.19.author: rie_panda55
+photo.19.commitdate: 2025/5/5
+photo.19.link: ig://BtA0EuWlgMx
+photo.19.tags: apple time, dish, paws, portrait, sample, smile, whiskers
+photo.20: cwdc://WlN9QxhADQC.jpg
+photo.20.author: perie1027vivi
+photo.20.commitdate: 2025/5/5
+photo.20.link: ig://BuoK32gloGT
+photo.20.tags: paws, portrait, sample, tail, whiskers
+photo.21: cwdc://WnRKjlxADQA.jpg
+photo.21.author: kotata_513
+photo.21.commitdate: 2019/4/2
+photo.21.link: ig://BvpxhQolq4P
+photo.21.tags: mofumofu, paws, sample, whiskers
+photo.22: cwdc://WoFYhyTADQA.jpg
+photo.22.author: na.mo.pan
+photo.22.commitdate: 2019/4/11
+photo.22.link: ig://BwD4gW5lPbb
+photo.22.tags: mofumofu, portrait, sample, tail, whiskers
+photo.23: cwdc://WrUQOQAADQA.jpg
+photo.23.author: sasapan34
+photo.23.commitdate: 2019/5/22
+photo.23.link: ig://BxrUWlwFyWV
+photo.23.tags: flowers, smile
+photo.24: cwdc://WsxT24ZADQC.jpg
 photo.24.author: shigeko0531
-photo.24.commitdate: 2020/7/12
-photo.24.link: ig://CCFowPqBGtg
-photo.24.tags: close-up, portrait, smile, whiskers
-photo.25: cwdc://XpgFvjgADQH.jpg
+photo.24.commitdate: 2025/5/5
+photo.24.link: ig://ByZ2K58hhGa
+photo.24.tags: portrait, tail, tongue
+photo.25: cwdc://WsxT24ZADQD.jpg
 photo.25.author: shigeko0531
-photo.25.commitdate: 2021/7/1
-photo.25.link: ig://CQxPHPgB6ts
-photo.25.tags: sample, smile, whiskers
-photo.26: cwdc://YeIy-xsADQC.jpg
-photo.26.author: chausuyamazoo
-photo.26.commitdate: 2023/8/10
-photo.26.link: ig://CrFlu2mPzqR
-photo.26.tags: laying down, old, paws, portrait, sample, whiskers
-species: 2
-studbook.id: 0559
-zoo: 10
-photo.1.tags: sample, smile, whiskers
-photo.27: cwdc://W2rX8o_ADQB.jpg
+photo.25.commitdate: 2019/6/8
+photo.25.link: ig://ByZ2K58hhGZ
+photo.25.tags: muzzle, portrait, sample, smile
+photo.26: cwdc://W2LtdkVADQA.jpg
+photo.26.author: tetusara.ki_
+photo.26.commitdate: 2019/10/12
+photo.26.link: ig://B3HC-P6hY1F
+photo.26.tags: laying down, upside-down
+photo.27: cwdc://W2rX8o_ADQA.jpg
 photo.27.author: shigeko0531
-photo.27.commitdate: 2025/5/5
-photo.27.link: ig://B3W4NyPhrKW
-photo.27.tags: portrait, sample, smile, whiskers
-photo.21.tags: paws, whiskers
-photo.28: cwdc://W3979X2ADQB.jpg
-photo.28.author: nozo.mari
+photo.27.commitdate: 2019/10/14
+photo.27.link: ig://B3W4NyPhrKV
+photo.27.tags: lips, portrait, sample, whiskers
+photo.28: cwdc://W2rX8o_ADQB.jpg
+photo.28.author: shigeko0531
 photo.28.commitdate: 2025/5/5
-photo.28.link: ig://B4AKOJrBFUQ
-photo.28.tags: peek
-photo.29: cwdc://W5fGRaYADQB.jpg
-photo.29.author: redpan22
-photo.29.commitdate: 2025/5/5
-photo.29.link: ig://B4wvYK8B5DX
-photo.29.tags: lips, sample, tongue, whiskers
-photo.30: cwdc://W5fGRaYADQC.jpg
-photo.30.author: redpan22
+photo.28.link: ig://B3W4NyPhrKW
+photo.28.tags: portrait, sample, smile, whiskers
+photo.29: cwdc://W3979X2ADQA.jpg
+photo.29.author: nozo.mari
+photo.29.commitdate: 2019/10/25
+photo.29.link: ig://B4AKOJrBFUP
+photo.29.tags: paws, whiskers
+photo.30: cwdc://W3979X2ADQB.jpg
+photo.30.author: nozo.mari
 photo.30.commitdate: 2025/5/5
-photo.30.link: ig://B4wvYK8B5DY
-photo.30.tags: lips, sample, tongue, whiskers
-photo.31: cwdc://WdTMdGAADQB.jpg
-photo.31.author: yakko____
-photo.31.commitdate: 2025/5/5
-photo.31.link: ig://BqqyeAwHgFJ
-photo.31.tags: pooping, portrait, sample, smile, tail, whiskers
-photo.10.tags: paws, sample, whiskers
-photo.32: cwdc://Wg7FpKfADQA.jpg
-photo.32.author: perie1027vivi
+photo.30.link: ig://B4AKOJrBFUQ
+photo.30.tags: peek
+photo.31: cwdc://W5fGRaYADQA.jpg
+photo.31.author: redpan22
+photo.31.commitdate: 2019/11/17
+photo.31.link: ig://B4wvYK8B5DW
+photo.31.tags: lips, sample, tongue, whiskers
+photo.32: cwdc://W5fGRaYADQB.jpg
+photo.32.author: redpan22
 photo.32.commitdate: 2025/5/5
-photo.32.link: ig://BsevEC_l0Y0
-photo.32.tags: portrait, sample, whiskers
-photo.13.tags: paws, sample, whiskers
-photo.33: cwdc://Wg8u1KfADQB.jpg
-photo.33.author: jas_forever_love
+photo.32.link: ig://B4wvYK8B5DX
+photo.32.tags: lips, sample, tongue, whiskers
+photo.33: cwdc://W5fGRaYADQC.jpg
+photo.33.author: redpan22
 photo.33.commitdate: 2025/5/5
-photo.33.link: ig://BsfjqC_lmp6
-photo.33.tags: mofumofu, paws, sample, whiskers
-photo.34: cwdc://Wg8u1KfADQC.jpg
-photo.34.author: jas_forever_love
-photo.34.commitdate: 2025/5/5
-photo.34.link: ig://BsfjqC_lmp7
-photo.34.tags: paws, sample, whiskers
-photo.35: cwdc://Wh_PqhNADQB.jpg
-photo.35.author: rie_panda55
+photo.33.link: ig://B4wvYK8B5DY
+photo.33.tags: lips, sample, tongue, whiskers
+photo.34: cwdc://XMGBx5ZADQB.jpg
+photo.34.author: panda.daisuki
+photo.34.commitdate: 2020/7/1
+photo.34.link: ig://CCENIachxHC
+photo.34.tags: mofumofu, portrait, sample, tail, whiskers
+photo.35: cwdc://XMGBx5ZADQC.jpg
+photo.35.author: panda.daisuki
 photo.35.commitdate: 2025/5/5
-photo.35.link: ig://BtA0EuWlgMx
-photo.35.tags: apple time, dish, paws, portrait, sample, smile, whiskers
-photo.36: cwdc://WlN9QxhADQC.jpg
-photo.36.author: perie1027vivi
-photo.36.commitdate: 2025/5/5
-photo.36.link: ig://BuoK32gloGT
-photo.36.tags: paws, portrait, sample, tail, whiskers
-photo.15.tags: mofumofu, paws, sample, whiskers
-photo.37: cwdc://WsxT24ZADQC.jpg
+photo.35.link: ig://CCENIachxHD
+photo.35.tags: mofumofu, portrait, sample, whiskers
+photo.36: cwdc://XMI5Bj0ADQE.jpg
+photo.36.author: shigeko0531
+photo.36.commitdate: 2020/7/12
+photo.36.link: ig://CCFowPqBGtg
+photo.36.tags: close-up, portrait, smile, whiskers
+photo.37: cwdc://XMI5Bj0ADQF.jpg
 photo.37.author: shigeko0531
 photo.37.commitdate: 2025/5/5
-photo.37.link: ig://ByZ2K58hhGa
-photo.37.tags: portrait, tail, tongue
-photo.38: cwdc://XMGBx5ZADQC.jpg
-photo.38.author: panda.daisuki
+photo.37.link: ig://CCFowPqBGth
+photo.37.tags: close-up, portrait, sample, smile, whiskers
+photo.38: cwdc://XMI5Bj0ADQG.jpg
+photo.38.author: shigeko0531
 photo.38.commitdate: 2025/5/5
-photo.38.link: ig://CCENIachxHD
-photo.38.tags: mofumofu, portrait, sample, whiskers
-photo.39: cwdc://XMI5Bj0ADQF.jpg
+photo.38.link: ig://CCFowPqBGti
+photo.38.tags: portrait, sample, tongue, whiskers
+photo.39: cwdc://XpgFvjgADQH.jpg
 photo.39.author: shigeko0531
-photo.39.commitdate: 2025/5/5
-photo.39.link: ig://CCFowPqBGth
-photo.39.tags: close-up, portrait, sample, smile, whiskers
-photo.40: cwdc://XMI5Bj0ADQG.jpg
-photo.40.author: shigeko0531
-photo.40.commitdate: 2025/5/5
-photo.40.link: ig://CCFowPqBGti
-photo.40.tags: portrait, sample, tongue, whiskers
-photo.41: cwdc://Y2hqZ82ADQA.jpg
+photo.39.commitdate: 2021/7/1
+photo.39.link: ig://CQxPHPgB6ts
+photo.39.tags: sample, smile, whiskers
+photo.40: cwdc://YeIy-xsADQC.jpg
+photo.40.author: chausuyamazoo
+photo.40.commitdate: 2023/8/10
+photo.40.link: ig://CrFlu2mPzqR
+photo.40.tags: laying down, old, paws, portrait, sample, whiskers
+photo.41: cwdc://YoBlTLlADQD.jpg
 photo.41.author: chausuyamazoo
 photo.41.commitdate: 2025/5/5
-photo.41.link: ig://C3SBccLPI40
-photo.41.tags: old, paws, sample, tongue, whiskers
-photo.42: cwdc://Y2hqZ82ADQB.jpg
+photo.41.link: ig://CwB-5DivGU7
+photo.41.tags: laying down, paws, portrait, sleeping
+photo.42: cwdc://YoBlTLlADQE.jpg
 photo.42.author: chausuyamazoo
 photo.42.commitdate: 2025/5/5
-photo.42.link: ig://C3SBccLPI41
-photo.42.tags: close-up, old, whiskers
-photo.43: cwdc://YoBlTLlADQD.jpg
+photo.42.link: ig://CwB-5DivGU8
+photo.42.tags: laying down, paws, portrait
+photo.43: cwdc://YoBlTLlADQF.jpg
 photo.43.author: chausuyamazoo
 photo.43.commitdate: 2025/5/5
-photo.43.link: ig://CwB-5DivGU7
-photo.43.tags: laying down, paws, portrait, sleeping
-photo.44: cwdc://YoBlTLlADQE.jpg
+photo.43.link: ig://CwB-5DivGU9
+photo.43.tags: dish, lunch time, paws, portrait, sample, whiskers
+photo.44: cwdc://YoBlTLlADQG.jpg
 photo.44.author: chausuyamazoo
 photo.44.commitdate: 2025/5/5
-photo.44.link: ig://CwB-5DivGU8
-photo.44.tags: laying down, paws, portrait
-photo.45: cwdc://YoBlTLlADQF.jpg
+photo.44.link: ig://CwB-5DivGU-
+photo.44.tags: apple time, close-up, dish, lunch time, portrait, sample, whiskers
+photo.45: cwdc://YqnceNdADQH.jpg
 photo.45.author: chausuyamazoo
 photo.45.commitdate: 2025/5/5
-photo.45.link: ig://CwB-5DivGU9
-photo.45.tags: dish, lunch time, paws, portrait, sample, whiskers
-photo.46: cwdc://YoBlTLlADQG.jpg
+photo.45.link: ig://CxU6ekevjZe
+photo.45.tags: bamboo, paws, sample, tongue, whiskers
+photo.46: cwdc://Yr-ArzsADQI.jpg
 photo.46.author: chausuyamazoo
 photo.46.commitdate: 2025/5/5
-photo.46.link: ig://CwB-5DivGU-
-photo.46.tags: apple time, close-up, dish, lunch time, portrait, sample, whiskers
-photo.47: cwdc://YqnceNdADQH.jpg
+photo.46.link: ig://CyAMlXmPoqU
+photo.46.tags: dish
+photo.47: cwdc://Y2hqZ82ADQA.jpg
 photo.47.author: chausuyamazoo
 photo.47.commitdate: 2025/5/5
-photo.47.link: ig://CxU6ekevjZe
-photo.47.tags: bamboo, paws, sample, tongue, whiskers
-photo.48: cwdc://Yr-ArzsADQI.jpg
+photo.47.link: ig://C3SBccLPI40
+photo.47.tags: old, paws, sample, tongue, whiskers
+photo.48: cwdc://Y2hqZ82ADQB.jpg
 photo.48.author: chausuyamazoo
 photo.48.commitdate: 2025/5/5
-photo.48.link: ig://CyAMlXmPoqU
-photo.48.tags: dish
+photo.48.link: ig://C3SBccLPI41
+photo.48.tags: close-up, old, whiskers
 photo.49: cwdc://ZaQgLG_ADQJ.jpg
 photo.49.author: chausuyamazoo
 photo.49.commitdate: 2025/5/5
@@ -279,3 +276,6 @@ photo.52.author: chausuyamazoo
 photo.52.commitdate: 2025/5/5
 photo.52.link: ig://DJJcVBPpTyn
 photo.52.tags: mofumofu, paws, sample, whiskers
+species: 2
+studbook.id: 0559
+zoo: 10
