@@ -335,7 +335,7 @@ Page.home.render = function() {
     // var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
     // new_content.appendChild(kingin);
     // Current memorials
-    var memorial_ids = ["169"];
+    var memorial_ids = ["90"];
     if (!Options.data.hideDeadPandas) {
       var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
       new_content.appendChild(departed);
