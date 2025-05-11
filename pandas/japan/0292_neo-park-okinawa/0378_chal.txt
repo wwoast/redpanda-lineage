@@ -16,281 +16,276 @@ language.order: ja, en
 litter: 376
 location.1: 6, 2018/7/18
 location.2: 292, 2021/7/17
-photo.1: ig://Bq7GWnblTxj/m
-photo.1.author: monmon_redpanda
-photo.1.commitdate: 2018/12/4
-photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: apple time, portrait
-photo.2: ig://BrPqRd5lDrD/m
-photo.2.author: colette.jp
+photo.1: ig://BrPqRd5lDrD/m
+photo.1.author: colette.jp
+photo.1.commitdate: 2020/2/16
+photo.1.link: https://www.instagram.com/colette.jp/
+photo.1.tags: baby, mofumofu, portrait
+photo.2: ig://BrnDwMQlyC4/m
+photo.2.author: animal_love_us
 photo.2.commitdate: 2020/2/16
-photo.2.link: https://www.instagram.com/colette.jp/
-photo.2.tags: baby, mofumofu, portrait
-photo.3: ig://BrnDwMQlyC4/m
-photo.3.author: animal_love_us
-photo.3.commitdate: 2020/2/16
-photo.3.link: https://www.instagram.com/animal_love_us/
-photo.3.tags: baby, peek, portrait
-photo.4: cwdc://Wqr6ceJADQA.jpg
-photo.4.author: daniele.tokyo
-photo.4.commitdate: 2019/5/15
-photo.4.link: ig://BxXJds0lYT0
-photo.4.tags: paws, portrait, sample, whiskers
-photo.5: cwdc://Wr7MyxwADQA.jpg
-photo.5.author: kipekaila
-photo.5.commitdate: 2019/5/29
-photo.5.link: ig://Bx-yo2oBwnO
-photo.5.tags: portrait, sample, smile, whiskers
-photo.6: cwdc://Wss4NKvADQE.jpg
-photo.6.author: animal_love_us
-photo.6.commitdate: 2020/2/16
-photo.6.link: ig://ByXoWDHhA9z
-photo.6.tags: bamboo, peek, portrait
-photo.7: cwdc://XFVKY1EADQA.jpg
-photo.7.author: kojikoji2011
-photo.7.commitdate: 2022/8/28
-photo.7.link: ig://B-rxb4SF_k2
-photo.7.tags: mofumofu, paws, sample, whiskers
-photo.8: cwdc://XRMcA5xADQA.jpg
-photo.8.author: grskus_tk
-photo.8.commitdate: 2020/9/7
-photo.8.link: ig://CEnaP6ohI8Y
-photo.8.tags: bamboo, paws, portrait, sample, whiskers
-photo.9: cwdc://XSZcUiGADQB.jpg
+photo.2.link: https://www.instagram.com/animal_love_us/
+photo.2.tags: baby, peek, portrait
+photo.3: cwdc://Wqr6ceJADQA.jpg
+photo.3.author: daniele.tokyo
+photo.3.commitdate: 2019/5/15
+photo.3.link: ig://BxXJds0lYT0
+photo.3.tags: paws, portrait, sample, whiskers
+photo.4: cwdc://Wr7MyxwADQA.jpg
+photo.4.author: kipekaila
+photo.4.commitdate: 2019/5/29
+photo.4.link: ig://Bx-yo2oBwnO
+photo.4.tags: portrait, sample, smile, whiskers
+photo.5: cwdc://Wss4NKvADQE.jpg
+photo.5.author: animal_love_us
+photo.5.commitdate: 2020/2/16
+photo.5.link: ig://ByXoWDHhA9z
+photo.5.tags: bamboo, peek, portrait
+photo.6: cwdc://XFVKY1EADQA.jpg
+photo.6.author: kojikoji2011
+photo.6.commitdate: 2022/8/28
+photo.6.link: ig://B-rxb4SF_k2
+photo.6.tags: mofumofu, paws, sample, whiskers
+photo.7: cwdc://XRMcA5xADQA.jpg
+photo.7.author: grskus_tk
+photo.7.commitdate: 2020/9/7
+photo.7.link: ig://CEnaP6ohI8Y
+photo.7.tags: bamboo, paws, portrait, sample, whiskers
+photo.8: cwdc://XSZcUiGADQB.jpg
+photo.8.author: kojikoji2011
+photo.8.commitdate: 2021/9/18
+photo.8.link: ig://CFN6ZuzBpxl
+photo.8.tags: sample, smile, tongue, whiskers
+photo.9: cwdc://XUYf_CoADQC.jpg
 photo.9.author: kojikoji2011
-photo.9.commitdate: 2021/9/18
-photo.9.link: ig://CFN6ZuzBpxl
-photo.9.tags: sample, smile, tongue, whiskers
-photo.10: cwdc://XUYf_CoADQC.jpg
+photo.9.commitdate: 2021/10/17
+photo.9.link: ig://CGNcO_EFTGb
+photo.9.tags: apple time, paws, portrait, whiskers
+photo.10: cwdc://XVfbj9hADQD.jpg
 photo.10.author: kojikoji2011
-photo.10.commitdate: 2021/10/17
-photo.10.link: ig://CGNcO_EFTGb
-photo.10.tags: apple time, paws, portrait, whiskers
-photo.11: cwdc://XVfbj9hADQD.jpg
+photo.10.commitdate: 2022/8/28
+photo.10.link: ig://CGw6BcghqFR
+photo.10.tags: bamboo, sample, whiskers
+photo.11: cwdc://XepyIj6ADQE.jpg
 photo.11.author: kojikoji2011
-photo.11.commitdate: 2022/8/28
-photo.11.link: ig://CGw6BcghqFR
-photo.11.tags: bamboo, sample, whiskers
-photo.12: cwdc://XepyIj6ADQE.jpg
+photo.11.commitdate: 2021/6/7
+photo.11.link: ig://CLWFTvtBN3N
+photo.11.tags: peek, portrait, sample, whiskers
+photo.12: cwdc://XmKkesCADQI.jpg
 photo.12.author: kojikoji2011
-photo.12.commitdate: 2021/6/7
-photo.12.link: ig://CLWFTvtBN3N
-photo.12.tags: peek, portrait, sample, whiskers
-photo.13: cwdc://XmKkesCADQI.jpg
+photo.12.commitdate: 2021/6/8
+photo.12.link: ig://CPGeezxBp1X
+photo.12.tags: bamboo, portrait, sample, whiskers
+photo.13: cwdc://Xp2fiFNADQJ.jpg
 photo.13.author: kojikoji2011
-photo.13.commitdate: 2021/6/8
-photo.13.link: ig://CPGeezxBp1X
-photo.13.tags: bamboo, portrait, sample, whiskers
-photo.14: cwdc://Xp2fiFNADQJ.jpg
+photo.13.commitdate: 2021/7/6
+photo.13.link: ig://CQ8cAgWhEZP
+photo.13.tags: bamboo, tongue
+photo.14: cwdc://Xqv21dEADQK.jpg
 photo.14.author: kojikoji2011
-photo.14.commitdate: 2021/7/6
-photo.14.link: ig://CQ8cAgWhEZP
-photo.14.tags: bamboo, tongue
-photo.15: cwdc://Xqv21dEADQK.jpg
-photo.15.author: kojikoji2011
-photo.15.commitdate: 2021/7/18
-photo.15.link: ig://CRZHqMSBbY9
-photo.15.tags: door, muzzle, portrait, sample, tongue, whiskers
-photo.16: cwdc://XrWjHNhADQB.jpg
+photo.14.commitdate: 2021/7/18
+photo.14.link: ig://CRZHqMSBbY9
+photo.14.tags: door, muzzle, portrait, sample, tongue, whiskers
+photo.15: cwdc://XrWjHNhADQB.jpg
+photo.15.author: neoparkokinawa
+photo.15.commitdate: 2021/11/22
+photo.15.link: ig://CRsdzEgtirg
+photo.15.tags: portrait, sample, whiskers
+photo.16: cwdc://XrnVmPEADQA.jpg
 photo.16.author: neoparkokinawa
 photo.16.commitdate: 2021/11/22
-photo.16.link: ig://CRsdzEgtirg
-photo.16.tags: portrait, sample, whiskers
-photo.17: cwdc://XrnVmPEADQA.jpg
+photo.16.link: ig://CR03ClSLyjD
+photo.16.tags: apple time, bamboo, paws, peek, portrait, sample
+photo.17: cwdc://Xr_mmifADQC.jpg
 photo.17.author: neoparkokinawa
 photo.17.commitdate: 2021/11/22
-photo.17.link: ig://CR03ClSLyjD
-photo.17.tags: apple time, bamboo, paws, peek, portrait, sample
-photo.18: cwdc://Xr_mmifADQC.jpg
+photo.17.link: ig://CSA_iu_rBs9
+photo.17.tags: paws, portrait, sample, whiskers
+photo.18: cwdc://XsPDRBvADQE.jpg
 photo.18.author: neoparkokinawa
 photo.18.commitdate: 2021/11/22
-photo.18.link: ig://CSA_iu_rBs9
-photo.18.tags: paws, portrait, sample, whiskers
-photo.19: cwdc://XsPDRBvADQE.jpg
+photo.18.link: ig://CSIt3-nrI25
+photo.18.tags: apple time, paws, portrait, sample, whiskers
+photo.19: cwdc://XsjpqQUADQG.jpg
 photo.19.author: neoparkokinawa
 photo.19.commitdate: 2021/11/22
-photo.19.link: ig://CSIt3-nrI25
-photo.19.tags: apple time, paws, portrait, sample, whiskers
-photo.20: cwdc://XsjpqQUADQG.jpg
+photo.19.link: ig://CSTBEl6N2_1
+photo.19.tags: close-up, grooming, laying down, paws, portrait
+photo.20: cwdc://XtCjIK6ADQD.jpg
 photo.20.author: neoparkokinawa
 photo.20.commitdate: 2021/11/22
-photo.20.link: ig://CSTBEl6N2_1
-photo.20.tags: close-up, grooming, laying down, paws, portrait
-photo.21: cwdc://XtCjIK6ADQD.jpg
+photo.20.link: ig://CSidzjNLFGe
+photo.20.tags: bamboo, portrait, standing, tail
+photo.21: cwdc://XtR_-jNADQF.jpg
 photo.21.author: neoparkokinawa
 photo.21.commitdate: 2021/11/22
-photo.21.link: ig://CSidzjNLFGe
-photo.21.tags: bamboo, portrait, standing, tail
-photo.22: cwdc://XtR_-jNADQF.jpg
+photo.21.link: ig://CSqMOvWrKjb
+photo.21.tags: laying down, paws, portrait, tongue
+photo.22: cwdc://XuemqCWADQA.jpg
 photo.22.author: neoparkokinawa
 photo.22.commitdate: 2021/11/22
-photo.22.link: ig://CSqMOvWrKjb
-photo.22.tags: laying down, paws, portrait, tongue
-photo.23: cwdc://XuemqCWADQA.jpg
+photo.22.link: https://www.instagram.com/p/CTQfke7LopQ
+photo.22.tags: paws, portrait, profile, smile, tongue, whiskers
+photo.23: cwdc://XvDTE_kADQI.jpg
 photo.23.author: neoparkokinawa
 photo.23.commitdate: 2021/11/22
-photo.23.link: https://www.instagram.com/p/CTQfke7LopQ
-photo.23.tags: paws, portrait, profile, smile, tongue, whiskers
-photo.24: cwdc://XvDTE_kADQI.jpg
+photo.23.link: ig://CTi1x9iB0Da
+photo.23.tags: laying down, paws, portrait, sample, smile, tongue
+photo.24: cwdc://XvyE2bwADQH.jpg
 photo.24.author: neoparkokinawa
 photo.24.commitdate: 2021/11/22
-photo.24.link: ig://CTi1x9iB0Da
-photo.24.tags: laying down, paws, portrait, sample, smile, tongue
-photo.25: cwdc://XvyE2bwADQH.jpg
+photo.24.link: ig://CT6OqroNPEQ
+photo.24.tags: paws, portrait, standing, tail, window
+photo.25: cwdc://XxJMazTADQK.jpg
 photo.25.author: neoparkokinawa
 photo.25.commitdate: 2021/11/22
-photo.25.link: ig://CT6OqroNPEQ
-photo.25.tags: paws, portrait, standing, tail, window
-photo.26: cwdc://XxJMazTADQK.jpg
+photo.25.link: ig://CUlyc3ZsDst
+photo.25.tags: paws, portrait, sample, smile, tongue
+photo.26: cwdc://XxytmyNADQJ.jpg
 photo.26.author: neoparkokinawa
 photo.26.commitdate: 2021/11/22
-photo.26.link: ig://CUlyc3ZsDst
-photo.26.tags: paws, portrait, sample, smile, tongue
-photo.27: cwdc://XxytmyNADQJ.jpg
+photo.26.link: ig://CU6jC22hW0Y
+photo.26.tags: apple time, bamboo, paws, portrait, standing
+photo.27: cwdc://XyrCbhoADQL.jpg
 photo.27.author: neoparkokinawa
 photo.27.commitdate: 2021/11/22
-photo.27.link: ig://CU6jC22hW0Y
-photo.27.tags: apple time, bamboo, paws, portrait, standing
-photo.28: cwdc://XyrCbhoADQL.jpg
-photo.28.author: neoparkokinawa
-photo.28.commitdate: 2021/11/22
-photo.28.link: ig://CVWtdOkNVrR
-photo.28.tags: paws, portrait, sample, smile, tongue, wave, whiskers
-photo.29: cwdc://YEklGgdADQA.jpg
-photo.29.author: happy_love2.15
-photo.29.commitdate: 2022/6/22
-photo.29.link: ig://CeTeyt-pF8j
-photo.29.tags: laying down, paws, portrait, sample, smile, tongue, whiskers
-photo.30: cwdc://YTDuCYEADQA.jpg
-photo.30.author: nakacchi_desu
-photo.30.commitdate: 2023/1/26
-photo.30.link: ig://CljDQpyPA41
-photo.30.tags: sample, smile, tongue
-photo.31: cwdc://YcNC3qZADQA.jpg
+photo.27.link: ig://CVWtdOkNVrR
+photo.27.tags: paws, portrait, sample, smile, tongue, wave, whiskers
+photo.28: cwdc://YEklGgdADQA.jpg
+photo.28.author: happy_love2.15
+photo.28.commitdate: 2022/6/22
+photo.28.link: ig://CeTeyt-pF8j
+photo.28.tags: laying down, paws, portrait, sample, smile, tongue, whiskers
+photo.29: cwdc://YTDuCYEADQA.jpg
+photo.29.author: nakacchi_desu
+photo.29.commitdate: 2023/1/26
+photo.29.link: ig://CljDQpyPA41
+photo.29.tags: sample, smile, tongue
+photo.30: cwdc://YcNC3qZADQA.jpg
+photo.30.author: ck.chie
+photo.30.commitdate: 2023/6/20
+photo.30.link: https://www.instagram.com/p/CqHtrS8vOqX
+photo.30.tags: smile
+photo.31: cwdc://Ycduk02ADQB.jpg
 photo.31.author: ck.chie
-photo.31.commitdate: 2023/6/20
-photo.31.link: https://www.instagram.com/p/CqHtrS8vOqX
-photo.31.tags: smile
-photo.32: cwdc://Ycduk02ADQB.jpg
-photo.32.author: ck.chie
-photo.32.commitdate: 2023/4/21
-photo.32.link: https://www.instagram.com/p/CqQDh4LP-S7
-photo.32.tags: laying down, paws, sample, tongue
-photo.33: cwdc://YrRJZ7NADQN.jpg
+photo.31.commitdate: 2023/4/21
+photo.31.link: https://www.instagram.com/p/CqQDh4LP-S7
+photo.31.tags: laying down, paws, sample, tongue
+photo.32: cwdc://YrRJZ7NADQN.jpg
+photo.32.author: neoparkokinawa
+photo.32.commitdate: 2023/10/24
+photo.32.link: ig://Cxpw8bWvmHd
+photo.32.tags: portrait, sample, tongue
+photo.33: cwdc://YrwC425ADQM.jpg
 photo.33.author: neoparkokinawa
 photo.33.commitdate: 2023/10/24
-photo.33.link: ig://Cxpw8bWvmHd
-photo.33.tags: portrait, sample, tongue
-photo.34: cwdc://YrwC425ADQM.jpg
+photo.33.link: ig://Cx5Nr5MvuAJ
+photo.33.tags: bamboo, portrait, sample, tail, tongue
+photo.34: cwdc://YnfGopVADQA.jpg
 photo.34.author: neoparkokinawa
-photo.34.commitdate: 2023/10/24
-photo.34.link: ig://Cx5Nr5MvuAJ
-photo.34.tags: bamboo, portrait, sample, tail, tongue
-photo.35: cwdc://YnfGopVADQA.jpg
-photo.35.author: neoparkokinawa
+photo.34.commitdate: 2024/5/4
+photo.34.link: ig://CvwvjyapXiH
+photo.34.tags: laying down, paws, peek, portrait
+photo.35: cwdc://Yx3UzSOADQA.jpg
+photo.35.author: daniele.tokyo
 photo.35.commitdate: 2024/5/4
-photo.35.link: ig://CvwvjyapXiH
-photo.35.tags: laying down, paws, peek, portrait
-photo.36: cwdc://Yx3UzSOADQA.jpg
-photo.36.author: daniele.tokyo
-photo.36.commitdate: 2024/5/4
-photo.36.link: ig://C082pG3PXZh
-photo.36.tags: paws, portrait, sample, tongue, whiskers
-photo.37: cwdc://WacAQbPADQA.jpg
+photo.35.link: ig://C082pG3PXZh
+photo.35.tags: paws, portrait, sample, tongue, whiskers
+photo.36: cwdc://WacAQbPADQA.jpg
+photo.36.author: animal_love_us
+photo.36.commitdate: 2025/5/10
+photo.36.link: ig://BpPMXrXlSwm
+photo.36.tags: baby, close-up, mofumofu, portrait
+photo.37: cwdc://WacAQbPADQB.jpg
 photo.37.author: animal_love_us
 photo.37.commitdate: 2025/5/10
-photo.37.link: ig://BpPMXrXlSwm
-photo.37.tags: baby, close-up, mofumofu, portrait
-photo.38: cwdc://WacAQbPADQB.jpg
-photo.38.author: animal_love_us
+photo.37.link: ig://BpPMXrXlSwn
+photo.37.tags: baby, mofumofu, portrait
+photo.38: cwdc://WcDfvb8ADQB.jpg
+photo.38.author: makimaru18
 photo.38.commitdate: 2025/5/10
-photo.38.link: ig://BpPMXrXlSwn
-photo.38.tags: baby, mofumofu, portrait
-photo.39: cwdc://WcDfvb8ADQB.jpg
-photo.39.author: makimaru18
+photo.38.link: ig://BqC8HLuF-sM
+photo.38.tags: baby, close-up, mofumofu, portrait, window
+photo.39: cwdc://Wdz0OTXADQB.jpg
+photo.39.author: monmon_redpanda
 photo.39.commitdate: 2025/5/10
-photo.39.link: ig://BqC8HLuF-sM
-photo.39.tags: baby, close-up, mofumofu, portrait, window
-photo.40: cwdc://Wdz0OTXADQB.jpg
+photo.39.link: ig://Bq7GWnblTxk
+photo.39.tags: apple time, bite, keeper, portrait
+photo.40: cwdc://Wdz0OTXADQC.jpg
 photo.40.author: monmon_redpanda
 photo.40.commitdate: 2025/5/10
-photo.40.link: ig://Bq7GWnblTxk
-photo.40.tags: apple time, bite, keeper, portrait
-photo.41: cwdc://Wdz0OTXADQC.jpg
+photo.40.link: ig://Bq7GWnblTxl
+photo.40.tags: apple time, paws, portrait, sample, whiskers
+photo.41: cwdc://Wdz0OTXADQD.jpg
 photo.41.author: monmon_redpanda
 photo.41.commitdate: 2025/5/10
-photo.41.link: ig://Bq7GWnblTxl
-photo.41.tags: apple time, paws, portrait, sample, whiskers
-photo.42: cwdc://Wdz0OTXADQD.jpg
-photo.42.author: monmon_redpanda
+photo.41.link: ig://Bq7GWnblTxm
+photo.41.tags: apple time, bite, lips, portrait
+photo.42: cwdc://Wss4NKvADQF.jpg
+photo.42.author: animal_love_us
 photo.42.commitdate: 2025/5/10
-photo.42.link: ig://Bq7GWnblTxm
-photo.42.tags: apple time, bite, lips, portrait
-photo.43: cwdc://Wss4NKvADQF.jpg
+photo.42.link: ig://ByXoWDHhA91
+photo.42.tags: bamboo, peek, portrait
+photo.43: cwdc://Wss4NKvADQG.jpg
 photo.43.author: animal_love_us
 photo.43.commitdate: 2025/5/10
-photo.43.link: ig://ByXoWDHhA91
-photo.43.tags: bamboo, peek, portrait
-photo.44: cwdc://Wss4NKvADQG.jpg
+photo.43.link: ig://ByXoWDHhA92
+photo.43.tags: bamboo, bite, portrait
+photo.44: cwdc://Wss4NKvADQH.jpg
 photo.44.author: animal_love_us
 photo.44.commitdate: 2025/5/10
-photo.44.link: ig://ByXoWDHhA92
-photo.44.tags: bamboo, bite, portrait
-photo.45: cwdc://Wss4NKvADQH.jpg
+photo.44.link: ig://ByXoWDHhA93
+photo.44.tags: bamboo, peek, portrait
+photo.45: cwdc://Wss4NKvADQI.jpg
 photo.45.author: animal_love_us
 photo.45.commitdate: 2025/5/10
-photo.45.link: ig://ByXoWDHhA93
-photo.45.tags: bamboo, peek, portrait
-photo.46: cwdc://Wss4NKvADQI.jpg
+photo.45.link: ig://ByXoWDHhA94
+photo.45.tags: portrait, sample, tongue
+photo.46: cwdc://Wss4NKvADQJ.jpg
 photo.46.author: animal_love_us
 photo.46.commitdate: 2025/5/10
-photo.46.link: ig://ByXoWDHhA94
-photo.46.tags: portrait, sample, tongue
-photo.47: cwdc://Wss4NKvADQJ.jpg
+photo.46.link: ig://ByXoWDHhA95
+photo.46.tags: bamboo, peek, portrait
+photo.47: cwdc://Wss4NKvADQK.jpg
 photo.47.author: animal_love_us
 photo.47.commitdate: 2025/5/10
-photo.47.link: ig://ByXoWDHhA95
-photo.47.tags: bamboo, peek, portrait
-photo.48: cwdc://Wss4NKvADQK.jpg
+photo.47.link: ig://ByXoWDHhA96
+photo.47.tags: bamboo, mofumofu, portrait
+photo.48: cwdc://Wss4NKvADQL.jpg
 photo.48.author: animal_love_us
 photo.48.commitdate: 2025/5/10
-photo.48.link: ig://ByXoWDHhA96
-photo.48.tags: bamboo, mofumofu, portrait
-photo.49: cwdc://Wss4NKvADQL.jpg
-photo.49.author: animal_love_us
+photo.48.link: ig://ByXoWDHhA98
+photo.48.tags: bamboo, lips, peek, portrait, sample
+photo.49: cwdc://XepyIj6ADQF.jpg
+photo.49.author: kojikoji2011
 photo.49.commitdate: 2025/5/10
-photo.49.link: ig://ByXoWDHhA98
-photo.49.tags: bamboo, lips, peek, portrait, sample
-photo.50: cwdc://XepyIj6ADQF.jpg
+photo.49.link: ig://CLWFTvtBN3N?img_index=2
+photo.49.tags: portrait, sample, whiskers
+photo.50: cwdc://XepyIj6ADQG.jpg
 photo.50.author: kojikoji2011
 photo.50.commitdate: 2025/5/10
-photo.50.link: ig://CLWFTvtBN3N?img_index=2
-photo.50.tags: portrait, sample, whiskers
-photo.51: cwdc://XepyIj6ADQG.jpg
+photo.50.link: ig://CLWFTvtBN3N?img_index=3
+photo.50.tags: close-up, peek, portrait, sample, whiskers
+photo.51: cwdc://XepyIj6ADQH.jpg
 photo.51.author: kojikoji2011
 photo.51.commitdate: 2025/5/10
-photo.51.link: ig://CLWFTvtBN3N?img_index=3
-photo.51.tags: close-up, peek, portrait, sample, whiskers
-photo.52: cwdc://XepyIj6ADQH.jpg
+photo.51.link: ig://CLWFTvtBN3N?img_index=4
+photo.51.tags: paws, portrait, sample, smile, whiskers, window
+photo.52: cwdc://Xqv21dEADQL.jpg
 photo.52.author: kojikoji2011
 photo.52.commitdate: 2025/5/10
-photo.52.link: ig://CLWFTvtBN3N?img_index=4
-photo.52.tags: paws, portrait, sample, smile, whiskers, window
-photo.53: cwdc://Xqv21dEADQL.jpg
-photo.53.author: kojikoji2011
+photo.52.link: ig://CRZHqMSBbY-
+photo.52.tags: grooming, paws, portrait, tail
+photo.53: cwdc://YEklGgdADQB.jpg
+photo.53.author: happy_love2.15
 photo.53.commitdate: 2025/5/10
-photo.53.link: ig://CRZHqMSBbY-
-photo.53.tags: grooming, paws, portrait, tail
-photo.54: cwdc://YEklGgdADQB.jpg
-photo.54.author: happy_love2.15
+photo.53.link: ig://CeTeyt-pF8k
+photo.53.tags: paws, portrait, sample, whiskers
+photo.54: cwdc://Yxdk222ADQA.jpg
+photo.54.author: daniele.tokyo
 photo.54.commitdate: 2025/5/10
-photo.54.link: ig://CeTeyt-pF8k
-photo.54.tags: paws, portrait, sample, whiskers
-photo.55: cwdc://Yxdk222ADQA.jpg
-photo.55.author: daniele.tokyo
-photo.55.commitdate: 2025/5/10
-photo.55.link: ig://C0v-q5LPguy
-photo.55.tags: sample, whiskers
+photo.54.link: ig://C0v-q5LPguy
+photo.54.tags: sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 292
