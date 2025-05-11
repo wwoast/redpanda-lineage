@@ -1,8 +1,11 @@
 [media]
 _id: media.10.non-taichi
+commitdate: 2025/5/10
 panda.tags: 87, 90
 photo.1: cwdc://WlN9QxhADQA.jpg
 photo.1.author: perie1027vivi
 photo.1.commitdate: 2025/5/10
 photo.1.link: ig://BuoK32gloGU
 photo.1.tags: bamboo, couple, paws, portrait
+photo.1.tags.87.location: 155, 435
+photo.1.tags.90.location: 500, 300

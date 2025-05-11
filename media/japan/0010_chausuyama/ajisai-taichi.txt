@@ -1,8 +1,11 @@
 [media]
 _id: media.10.ajisai-taichi
+commitdate: 2025/5/10
 panda.tags: 83, 90
 photo.1: cwdc://W2rX8o_ADQC.jpg
 photo.1.author: shigeko0531
 photo.1.commitdate: 2025/5/10
 photo.1.link: ig://B3W4NyPhrKX
 photo.1.tags: couple, itchy
+photo.1.tags.83.location: 65, 110
+photo.1.tags.90.location: 410, 210
