@@ -2,11 +2,21 @@
 _id: media.6.chal-fufu-nei
 commitdate: 2020/2/16
 panda.tags: 71, 376, 378
-photo.1: ig://B3dDpzphzhX/l
+photo.1: cwdc://W23u0rzADQA.jpg
 photo.1.author: resapanlove
 photo.1.commitdate: 2020/2/16
-photo.1.link: https://www.instagram.com/resapanlove/
+photo.1.link: ig://B3dDpzphzhX
 photo.1.tags: brothers, family, siblings, tail, twins
 photo.1.tags.71.location: 150, 305
 photo.1.tags.376.location: 830, 305
 photo.1.tags.378.location: 580, 230
+photo.2: cwdc://W23u0rzADQB.jpg
+photo.2.author: resapanlove
+photo.2.commitdate: 2025/5/10
+photo.2.link: ig://B3dDpzphzhY
+photo.2.tags: brothers, family, playing, siblings, tail, twins
+photo.3: cwdc://W23u0rzADQC.jpg
+photo.3.author: resapanlove
+photo.3.commitdate: 2025/5/10
+photo.3.link: ig://B3dDpzphzhZ
+photo.3.tags: brothers, family, playing, siblings, tail, twins
