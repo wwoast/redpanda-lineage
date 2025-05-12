@@ -435,16 +435,16 @@ photo.84.author: gloryeui
 photo.84.commitdate: 2023/3/9
 photo.84.link: ig://CmixmtpPMui
 photo.84.tags: apple time, bite, dish, portrait, whiskers
-photo.85: ig://Cmqi8Lnv7mq/m
+photo.85: cwdc://YVStZbvADQD.jpg
 photo.85.author: gloryeui
 photo.85.commitdate: 2023/3/9
-photo.85.link: https://www.instagram.com/gloryeui/
+photo.85.link: ig://Cmqi8Lnv7mq
 photo.85.tags: paws, portrait, sample, whiskers
-photo.86: ig://Coeru6kvrq8/m
+photo.86: cwdc://YY6--5pADQB.jpg
 photo.86.author: gloryeui
 photo.86.commitdate: 2023/4/9
-photo.86.link: https://www.instagram.com/gloryeui/
-photo.86.tags: close-up, peek, portrait, whiskers
+photo.86.link: ig://Coeru6kvrq8
+photo.86.tags: close-up, peek, portrait, sample, whiskers
 photo.87: cwdc://YY7GpiSADQA.jpg
 photo.87.author: hamiiiii831_
 photo.87.commitdate: 2023/4/9
@@ -1068,3 +1068,13 @@ photo.210.tags: paws, peek, portrait, sample
 species: 2
 studbook.id: unknown
 zoo: 190
+photo.211: cwdc://YVStZbvADQC.jpg
+photo.211.author: gloryeui
+photo.211.commitdate: 2025/5/11
+photo.211.link: ig://Cmqi8Lnv7mr
+photo.211.tags: paws, peek, portrait, sample
+photo.212: cwdc://YY6--5pADQA.jpg
+photo.212.author: gloryeui
+photo.212.commitdate: 2025/5/11
+photo.212.link: ig://Coeru6kvrq9
+photo.212.tags: itchy, paws, portrait, sample, tail, window

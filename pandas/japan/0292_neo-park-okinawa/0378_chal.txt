@@ -28,9 +28,9 @@ photo.2.link: ig://BpPMXrXlSwm?img_index=2
 photo.2.tags: baby, mofumofu, portrait
 photo.3: cwdc://WbO6pA1ADQA.jpg
 photo.3.author: colette.jp
-photo.3.commitdate: 2025/5/11
+photo.3.commitdate: 2019/10/16
 photo.3.link: ig://Bpopj-KlIad
-photo.3.tags: baby, portrait, whiskers
+photo.3.tags: baby, portrait, smile, tongue, whiskers
 photo.4: cwdc://WbO6pA1ADQB.jpg
 photo.4.author: colette.jp
 photo.4.commitdate: 2025/5/11
@@ -68,7 +68,7 @@ photo.10.link: ig://Bq7GWnblTxj?img_index=4
 photo.10.tags: apple time, bite, lips, portrait
 photo.11: cwdc://WhT0tQXADQA.jpg
 photo.11.author: resapanlove
-photo.11.commitdate: 2025/5/11
+photo.11.commitdate: 2019/1/18
 photo.11.link: ig://BsrGmF7ghST
 photo.11.tags: apple time, baby, keeper, sample, tail, whiskers
 photo.12: cwdc://WhT0tQXADQB.jpg
@@ -78,9 +78,9 @@ photo.12.link: ig://BsrGmF7ghSU
 photo.12.tags: apple time, baby, keeper, standing, tail, whiskers
 photo.13: cwdc://Wjo7rCWADQA.jpg
 photo.13.author: craig_craig_craig
-photo.13.commitdate: 2025/5/11
+photo.13.commitdate: 2020/2/17
 photo.13.link: ig://Bt1qE-7FPRQ
-photo.13.tags: close-up, portrait
+photo.13.tags: close-up, peek, portrait
 photo.14: cwdc://Wqr6ceJADQA.jpg
 photo.14.author: daniele.tokyo
 photo.14.commitdate: 2019/5/15
@@ -93,9 +93,9 @@ photo.15.link: ig://Bx-yo2oBwnO
 photo.15.tags: portrait, sample, smile, whiskers
 photo.16: cwdc://WsAYuN3ADQA.jpg
 photo.16.author: kipekaila
-photo.16.commitdate: 2025/5/11
+photo.16.commitdate: 2019/5/29
 photo.16.link: ig://ByBYmkrhwh4
-photo.16.tags: close-up, portrait, whiskers
+photo.16.tags: close-up, portrait, tongue, whiskers
 photo.17: cwdc://Wss4NKvADQE.jpg
 photo.17.author: animal_love_us
 photo.17.commitdate: 2020/2/16
@@ -143,7 +143,7 @@ photo.25.link: ig://B3l9gaEhMMs
 photo.25.tags: climb, paws, sample, smile, whiskers
 photo.26: cwdc://W5kloFGADQA.jpg
 photo.26.author: kmasahon
-photo.26.commitdate: 2025/5/11
+photo.26.commitdate: 2019/11/17
 photo.26.link: ig://B4zfDgTBcIW
 photo.26.tags: close-up, paws, tongue, whiskers
 photo.27: cwdc://XFVKY1EADQA.jpg
@@ -344,3 +344,8 @@ photo.65.tags: laying down, tail
 species: 2
 studbook.id: unknown
 zoo: 292
+photo.66: cwdc://WjDD55-ADQA.jpg
+photo.66.author: fetorus_mami
+photo.66.commitdate: 2025/5/11
+photo.66.link: ig://BtiuMavFh2L
+photo.66.tags: portrait, sample, tail
