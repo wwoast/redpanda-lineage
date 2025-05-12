@@ -51,3 +51,8 @@ photo.7.tags: tail
 species: 2
 studbook.id: unknown
 zoo: 96
+photo.8: cwdc://Za_lLSgT1gA.jpg
+photo.8.author: idallkwan
+photo.8.commitdate: 2025/5/11
+photo.8.link: https://www.instagram.com/idallkwan
+photo.8.tags: home, tree
