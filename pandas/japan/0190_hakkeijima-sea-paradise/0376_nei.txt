@@ -565,9 +565,6 @@ photo.110.author: animal_love_us
 photo.110.commitdate: 2025/5/10
 photo.110.link: ig://BrnDwMQlyC5
 photo.110.tags: baby, peek, portrait, whiskers
-species: 2
-studbook.id: unknown
-zoo: 190
 photo.111: cwdc://W_3QIohADQB.jpg
 photo.111.author: animal_love_us
 photo.111.commitdate: 2025/5/11
@@ -1098,3 +1095,6 @@ photo.216.author: gloryeui
 photo.216.commitdate: 2025/5/11
 photo.216.link: ig://DE2E6K_SYW1
 photo.216.tags: paws, peek, portrait, sample
+species: 2
+studbook.id: unknown
+zoo: 190
