@@ -21,6 +21,7 @@ photo.1: cwdc://WIWyKVsADQA.jpg
 photo.1.author: nashvillezoo
 photo.1.commitdate: 2018/12/12
 photo.1.link: ig://BgMlUomBkEN
+photo.1.tags: close-up, mofumofu, paws, sample, whiskers
 photo.2: cwdc://WQdWj-gADQB.jpg
 photo.2.author: nashvillezoo
 photo.2.commitdate: 2018/11/30
@@ -36,310 +37,306 @@ photo.4.author: worldthathesees
 photo.4.commitdate: 2019/11/29
 photo.4.link: ig://B5aPXjYhNMn
 photo.4.tags: bamboo, mofumofu, portrait, sample, whiskers
-photo.5: cwdc://XItvMj1ADQF.jpg
-photo.5.author: oregonzoo
-photo.5.commitdate: 2020/6/9
-photo.5.link: ig://CAYD1vqnH2g
-photo.5.tags: keeper, portrait, videolink
-photo.6: cwdc://XKU1ak8ADQL.jpg
-photo.6.author: oregonzoo
-photo.6.commitdate: 2020/6/13
-photo.6.link: ig://CBLm8wOHbUA
-photo.6.tags: home, paws, portrait, sample, smile, tongue
-photo.7: cwdc://XXoj-sWADQO.jpg
+photo.5: cwdc://W6yGQLRADQB.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2025/5/17
+photo.5.link: ig://B5aPXjYhNMo
+photo.5.tags: mofumofu, paws, portrait, sample, whiskers
+photo.6: cwdc://W6yGQLRADQC.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2025/5/17
+photo.6.link: ig://B5aPXjYhNMp
+photo.6.tags: blink, mofumofu, portrait, sample, tail, whiskers, yawn
+photo.7: cwdc://XItvMj1ADQF.jpg
 photo.7.author: oregonzoo
-photo.7.commitdate: 2020/11/28
-photo.7.link: ig://CH1eOz7FYa2
-photo.7.tags: bamboo, bite, lips, portrait, sample, tongue, whiskers
-photo.8: cwdc://XdLP27GADQA.jpg
-photo.8.author: redpandanetwork
-photo.8.commitdate: 2021/9/23
-photo.8.link: ig://CKm0K7TM_Rh
-photo.8.tags: close-up, paws, whiskers
-photo.9: cwdc://XhG2qcjADQR.jpg
+photo.7.commitdate: 2020/6/9
+photo.7.link: ig://CAYD1vqnH2g
+photo.7.tags: keeper, portrait, videolink
+photo.8: cwdc://XKU1ak8ADQL.jpg
+photo.8.author: oregonzoo
+photo.8.commitdate: 2020/6/13
+photo.8.link: ig://CBLm8wOHbUA
+photo.8.tags: home, paws, portrait, sample, smile, tongue
+photo.9: cwdc://XXoj-sWADQO.jpg
 photo.9.author: oregonzoo
-photo.9.commitdate: 2021/6/23
-photo.9.link: ig://CMknksBh6G5
-photo.9.tags: close-up, portrait, sample, tongue, whiskers
-photo.10: cwdc://Xmv_WG0ADQW.jpg
-photo.10.author: oregonzoo
-photo.10.commitdate: 2021/9/18
-photo.10.link: ig://CPZL6hKN3Ds
-photo.10.tags: close-up, portrait, sample, tongue, whiskers
-photo.11: cwdc://XoWmzp0ADQY.jpg
+photo.9.commitdate: 2020/11/28
+photo.9.link: ig://CH1eOz7FYa2
+photo.9.tags: bamboo, bite, lips, portrait, sample, tongue, whiskers
+photo.10: cwdc://XdLP27GADQA.jpg
+photo.10.author: redpandanetwork
+photo.10.commitdate: 2021/9/23
+photo.10.link: ig://CKm0K7TM_Rh
+photo.10.tags: close-up, paws, whiskers
+photo.11: cwdc://XhG2qcjADQR.jpg
 photo.11.author: oregonzoo
-photo.11.commitdate: 2021/9/23
-photo.11.link: ig://CQMfpSqB48W
+photo.11.commitdate: 2021/6/23
+photo.11.link: ig://CMknksBh6G5
 photo.11.tags: close-up, portrait, sample, tongue, whiskers
-photo.12: cwdc://Xr4l4X0ADQZ.jpg
+photo.12: cwdc://Xmv_WG0ADQW.jpg
 photo.12.author: oregonzoo
-photo.12.commitdate: 2021/8/18
-photo.12.link: ig://CR9fLpqLy3Z
-photo.12.tags: close-up, lips, portrait, sample, whiskers
-photo.13: cwdc://X2eb9X0ADQD.jpg
-photo.13.author: worldthathesees
-photo.13.commitdate: 2021/12/30
-photo.13.link: ig://CXQaOJqOwg8
-photo.13.tags: bamboo, sample, whiskers
-photo.14: cwdc://X7Gj-6zADQt.jpg
+photo.12.commitdate: 2021/9/18
+photo.12.link: ig://CPZL6hKN3Ds
+photo.12.tags: close-up, portrait, sample, tongue, whiskers
+photo.13: cwdc://XoWmzp0ADQY.jpg
+photo.13.author: oregonzoo
+photo.13.commitdate: 2021/9/23
+photo.13.link: ig://CQMfpSqB48W
+photo.13.tags: close-up, portrait, sample, tongue, whiskers
+photo.14: cwdc://Xr4l4X0ADQZ.jpg
 photo.14.author: oregonzoo
-photo.14.commitdate: 2022/2/20
-photo.14.link: ig://CZkeO7JvI1O
-photo.14.tags: bite, blink, mofumofu, paws, portrait, sample, smile, whiskers
-photo.15: cwdc://X75QJmvADQr.jpg
-photo.15.author: oregonzoo
-photo.15.commitdate: 2022/3/8
-photo.15.link: ig://CZ90URHpoo0
-photo.15.tags: flowers, nose, portrait, sample, whiskers
-photo.16: cwdc://X-Ot0wFADQI.jpg
-photo.16.author: oregonzoo
-photo.16.commitdate: 2022/4/10
-photo.16.link: ig://CbIjJ1ypqq2
-photo.16.tags: close-up, lips, portrait, whiskers
-photo.17: cwdc://X-4uDzmADQH.jpg
-photo.17.author: oregonzoo
-photo.17.commitdate: 2022/4/26
-photo.17.link: ig://CbdjRXjPY2z
-photo.17.tags: close-up, portrait, tongue, whiskers
-photo.18: cwdc://X_mwTsJADQG.jpg
-photo.18.author: oregonzoo
-photo.18.commitdate: 2022/5/13
-photo.18.link: ig://Cb0kZT0veJZ
-photo.18.tags: bamboo, mofumofu, paws, portrait, sample, tongue, whiskers
-photo.19: cwdc://YAKhedSADQM.jpg
-photo.19.author: oregonzoo
-photo.19.commitdate: 2022/4/13
-photo.19.link: ig://CcGc-sZPhaK
-photo.19.tags: apple time, dish, portrait, sample, tongue, whiskers
-photo.20: cwdc://YJ5-kH7ADQA.jpg
-photo.20.author: wumpwoast
-photo.20.commitdate: 2022/8/11
-photo.20.link: ig://Cg-Lhhtv3Ht
-photo.20.tags: portrait, sample, tongue
-photo.21: cwdc://YJ-fe7QADQA.jpg
-photo.21.author: wumpwoast
-photo.21.commitdate: 2022/9/24
-photo.21.link: ig://ChAb-7YJNVh
-photo.21.tags: laying down, portrait, sample, whiskers
-photo.22: cwdc://YKfWzsNADQA.jpg
-photo.22.author: wumpwoast
-photo.22.commitdate: 2022/11/11
-photo.22.link: ig://ChQ3pT2rVY2
-photo.22.tags: close-up, mofumofu, whiskers
-photo.23: cwdc://YL6j1p-ADQP.jpg
+photo.14.commitdate: 2021/8/18
+photo.14.link: ig://CR9fLpqLy3Z
+photo.14.tags: close-up, lips, portrait, sample, whiskers
+photo.15: cwdc://X2eb9X0ADQD.jpg
+photo.15.author: worldthathesees
+photo.15.commitdate: 2021/12/30
+photo.15.link: ig://CXQaOJqOwg8
+photo.15.tags: bamboo, sample, whiskers
+photo.16: cwdc://X2eb9X0ADQE.jpg
+photo.16.author: worldthathesees
+photo.16.commitdate: 2025/5/17
+photo.16.link: ig://CXQaOJqOwg9
+photo.16.tags: bamboo, sample, tail, whiskers
+photo.17: cwdc://X2eb9X0ADQF.jpg
+photo.17.author: worldthathesees
+photo.17.commitdate: 2025/5/17
+photo.17.link: ig://CXQaOJqOwg-
+photo.17.tags: paws, tree
+photo.18: cwdc://X2eb9X0ADQG.jpg
+photo.18.author: worldthathesees
+photo.18.commitdate: 2025/5/17
+photo.18.link: ig://CXQaOJqOwg_
+photo.18.tags: sample, whiskers
+photo.19: cwdc://X2eb9X0ADQH.jpg
+photo.19.author: worldthathesees
+photo.19.commitdate: 2025/5/17
+photo.19.link: ig://CXQaOJqOwhA
+photo.19.tags: bamboo, sample, smile
+photo.20: cwdc://X2eb9X0ADQI.jpg
+photo.20.author: worldthathesees
+photo.20.commitdate: 2025/5/17
+photo.20.link: ig://CXQaOJqOwhB
+photo.20.tags: laying down, paws, peek, sample, tail
+photo.21: cwdc://X2eb9X0ADQJ.jpg
+photo.21.author: worldthathesees
+photo.21.commitdate: 2025/5/17
+photo.21.link: ig://CXQaOJqOwhC
+photo.21.tags: bamboo, door, tail
+photo.22: cwdc://X2eb9X0ADQK.jpg
+photo.22.author: worldthathesees
+photo.22.commitdate: 2025/5/17
+photo.22.link: ig://CXQaOJqOwhD
+photo.22.tags: bamboo, laying down, paws
+photo.23: cwdc://X7Gj-6zADQt.jpg
 photo.23.author: oregonzoo
-photo.23.commitdate: 2022/9/8
-photo.23.link: ig://Ch-eKSvJjVk
-photo.23.tags: close-up, mofumofu, portrait, sample, tail, tongue
-photo.24: cwdc://YNMkFg9ADQQ.jpg
+photo.23.commitdate: 2022/2/20
+photo.23.link: ig://CZkeO7JvI1O
+photo.23.tags: bite, blink, mofumofu, paws, portrait, sample, smile, whiskers
+photo.24: cwdc://X75QJmvADQr.jpg
 photo.24.author: oregonzoo
-photo.24.commitdate: 2022/10/7
-photo.24.link: ig://CineSOOpUJ8
-photo.24.tags: close-up, portrait, sample, whiskers
-photo.25: cwdc://YcFnjFtADQX.jpg
+photo.24.commitdate: 2022/3/8
+photo.24.link: ig://CZ90URHpoo0
+photo.24.tags: flowers, nose, portrait, sample, whiskers
+photo.25: cwdc://X_mwTsJADQG.jpg
 photo.25.author: oregonzoo
-photo.25.commitdate: 2023/10/18
-photo.25.link: ig://CqEABAmvZAU
-photo.25.tags: apple time, blink, lips, lunch time, paws, sample, whiskers
-species: 2
-studbook.id: 1115
-zoo: 191
-photo.26: cwdc://W6yGQLRADQB.jpg
-photo.26.author: worldthathesees
-photo.26.commitdate: 2025/5/17
-photo.26.link: ig://B5aPXjYhNMo
-photo.26.tags: mofumofu, paws, portrait, sample, whiskers
-photo.27: cwdc://W6yGQLRADQC.jpg
-photo.27.author: worldthathesees
+photo.25.commitdate: 2022/5/13
+photo.25.link: ig://Cb0kZT0veJZ
+photo.25.tags: bamboo, mofumofu, paws, portrait, sample, tongue, whiskers
+photo.26: cwdc://X-Ot0wFADQI.jpg
+photo.26.author: oregonzoo
+photo.26.commitdate: 2022/4/10
+photo.26.link: ig://CbIjJ1ypqq2
+photo.26.tags: close-up, lips, portrait, whiskers
+photo.27: cwdc://X-Ot0wFADQJ.jpg
+photo.27.author: oregonzoo
 photo.27.commitdate: 2025/5/17
-photo.27.link: ig://B5aPXjYhNMp
-photo.27.tags: blink, mofumofu, portrait, sample, tail, whiskers, yawn
-photo.1.tags: close-up, mofumofu, paws, sample, whiskers
-photo.28: cwdc://X-Ot0wFADQJ.jpg
+photo.27.link: ig://CbIjJ1ypqq3
+photo.27.tags: close-up, lips, portrait, sample, whiskers
+photo.28: cwdc://X-Ot0wFADQK.jpg
 photo.28.author: oregonzoo
 photo.28.commitdate: 2025/5/17
-photo.28.link: ig://CbIjJ1ypqq3
+photo.28.link: ig://CbIjJ1ypqq4
 photo.28.tags: close-up, lips, portrait, sample, whiskers
-photo.29: cwdc://X-Ot0wFADQK.jpg
+photo.29: cwdc://X-4uDzmADQH.jpg
 photo.29.author: oregonzoo
-photo.29.commitdate: 2025/5/17
-photo.29.link: ig://CbIjJ1ypqq4
-photo.29.tags: close-up, lips, portrait, sample, whiskers
-photo.30: cwdc://X2eb9X0ADQE.jpg
-photo.30.author: worldthathesees
-photo.30.commitdate: 2025/5/17
-photo.30.link: ig://CXQaOJqOwg9
-photo.30.tags: bamboo, sample, tail, whiskers
-photo.31: cwdc://X2eb9X0ADQF.jpg
-photo.31.author: worldthathesees
+photo.29.commitdate: 2022/4/26
+photo.29.link: ig://CbdjRXjPY2z
+photo.29.tags: close-up, portrait, tongue, whiskers
+photo.30: cwdc://YAKhedSADQM.jpg
+photo.30.author: oregonzoo
+photo.30.commitdate: 2022/4/13
+photo.30.link: ig://CcGc-sZPhaK
+photo.30.tags: apple time, dish, portrait, sample, tongue, whiskers
+photo.31: cwdc://YAKhedSADQN.jpg
+photo.31.author: oregonzoo
 photo.31.commitdate: 2025/5/17
-photo.31.link: ig://CXQaOJqOwg-
-photo.31.tags: paws, tree
-photo.32: cwdc://X2eb9X0ADQG.jpg
-photo.32.author: worldthathesees
-photo.32.commitdate: 2025/5/17
-photo.32.link: ig://CXQaOJqOwg_
-photo.32.tags: sample, whiskers
-photo.33: cwdc://X2eb9X0ADQH.jpg
-photo.33.author: worldthathesees
-photo.33.commitdate: 2025/5/17
-photo.33.link: ig://CXQaOJqOwhA
-photo.33.tags: bamboo, sample, smile
-photo.34: cwdc://X2eb9X0ADQI.jpg
-photo.34.author: worldthathesees
-photo.34.commitdate: 2025/5/17
-photo.34.link: ig://CXQaOJqOwhB
-photo.34.tags: laying down, paws, peek, sample, tail
-photo.35: cwdc://X2eb9X0ADQJ.jpg
-photo.35.author: worldthathesees
-photo.35.commitdate: 2025/5/17
-photo.35.link: ig://CXQaOJqOwhC
-photo.35.tags: bamboo, door, tail
-photo.36: cwdc://X2eb9X0ADQK.jpg
-photo.36.author: worldthathesees
-photo.36.commitdate: 2025/5/17
-photo.36.link: ig://CXQaOJqOwhD
-photo.36.tags: bamboo, laying down, paws
-photo.37: cwdc://Y0zBtzdADQA.jpg
+photo.31.link: ig://CcGc-sZPhaL
+photo.31.tags: apple time, dish, portrait, sample, tongue, whiskers
+photo.32: cwdc://YJ5-kH7ADQA.jpg
+photo.32.author: wumpwoast
+photo.32.commitdate: 2022/8/11
+photo.32.link: ig://Cg-Lhhtv3Ht
+photo.32.tags: portrait, sample, tongue
+photo.33: cwdc://YJ-fe7QADQA.jpg
+photo.33.author: wumpwoast
+photo.33.commitdate: 2022/9/24
+photo.33.link: ig://ChAb-7YJNVh
+photo.33.tags: laying down, portrait, sample, whiskers
+photo.34: cwdc://YKfWzsNADQA.jpg
+photo.34.author: wumpwoast
+photo.34.commitdate: 2022/11/11
+photo.34.link: ig://ChQ3pT2rVY2
+photo.34.tags: close-up, mofumofu, whiskers
+photo.35: cwdc://YL6j1p-ADQP.jpg
+photo.35.author: oregonzoo
+photo.35.commitdate: 2022/9/8
+photo.35.link: ig://Ch-eKSvJjVk
+photo.35.tags: close-up, mofumofu, portrait, sample, tail, tongue
+photo.36: cwdc://YNMkFg9ADQQ.jpg
+photo.36.author: oregonzoo
+photo.36.commitdate: 2022/10/7
+photo.36.link: ig://CineSOOpUJ8
+photo.36.tags: close-up, portrait, sample, whiskers
+photo.37: cwdc://YYuE8bLADQS.jpg
 photo.37.author: oregonzoo
 photo.37.commitdate: 2025/5/17
-photo.37.link: ig://C2atGXeyUXN
-photo.37.tags: close-up, mofumofu, portrait, sample, tongue, whiskers
-photo.38: cwdc://Y0zBtzdADQB.jpg
+photo.37.link: ig://CoYOtrVvoDR
+photo.37.tags: close-up, portrait, sample, whiskers
+photo.38: cwdc://YaEVKB3ADQT.jpg
 photo.38.author: oregonzoo
 photo.38.commitdate: 2025/5/17
-photo.38.link: ig://C2atGXeyUXO
-photo.38.tags: lips, mofumofu, paws, portrait, sample, whiskers
-photo.39: cwdc://Y3sMhm3ADQC.jpg
+photo.38.link: ig://CpDW0erpR6_
+photo.38.tags: paws, sample, snow, standing, tail, tongue, whiskers
+photo.39: cwdc://YaEVKB3ADQU.jpg
 photo.39.author: oregonzoo
 photo.39.commitdate: 2025/5/17
-photo.39.link: ig://C33SgRLyD7W
-photo.39.tags: mofumofu, peek, portrait, sample, whiskers
-photo.40: cwdc://Y3sMhm3ADQD.jpg
+photo.39.link: ig://CpDW0erpR7A
+photo.39.tags: paws, sample, standing, tail, whiskers
+photo.40: cwdc://YaEVKB3ADQV.jpg
 photo.40.author: oregonzoo
 photo.40.commitdate: 2025/5/17
-photo.40.link: ig://C33SgRLyD7X
-photo.40.tags: mofumofu, portrait, sample, whiskers
-photo.41: cwdc://Y3sMhm3ADQE.jpg
+photo.40.link: ig://CpDW0erpR7B
+photo.40.tags: sample, smile, snow, tail, whiskers
+photo.41: cwdc://YcFnjFtADQX.jpg
 photo.41.author: oregonzoo
-photo.41.commitdate: 2025/5/17
-photo.41.link: ig://C33SgRLyD7Y
-photo.41.tags: mofumofu, paws, portrait, sample, whiskers
-photo.42: cwdc://YAKhedSADQN.jpg
+photo.41.commitdate: 2023/10/18
+photo.41.link: ig://CqEABAmvZAU
+photo.41.tags: apple time, blink, lips, lunch time, paws, sample, whiskers
+photo.42: cwdc://YlqqFOXADQa.jpg
 photo.42.author: oregonzoo
 photo.42.commitdate: 2025/5/17
-photo.42.link: ig://CcGc-sZPhaL
-photo.42.tags: apple time, dish, portrait, sample, tongue, whiskers
-photo.43: cwdc://YYuE8bLADQS.jpg
+photo.42.link: ig://Cu2hSE7yBN4
+photo.42.tags: laying down, paws, portrait, sample, whiskers
+photo.43: cwdc://YlqqFOXADQb.jpg
 photo.43.author: oregonzoo
 photo.43.commitdate: 2025/5/17
-photo.43.link: ig://CoYOtrVvoDR
-photo.43.tags: close-up, portrait, sample, whiskers
-photo.44: cwdc://YaEVKB3ADQT.jpg
+photo.43.link: ig://Cu2hSE7yBN5
+photo.43.tags: bridge, laying down, paws, portrait, sample, whiskers
+photo.44: cwdc://YlqqFOXADQc.jpg
 photo.44.author: oregonzoo
 photo.44.commitdate: 2025/5/17
-photo.44.link: ig://CpDW0erpR6_
-photo.44.tags: paws, sample, snow, standing, tail, tongue, whiskers
-photo.45: cwdc://YaEVKB3ADQU.jpg
+photo.44.link: ig://Cu2hSE7yBN6
+photo.44.tags: bridge, laying down, lips, paws, portrait, sample, whiskers
+photo.45: cwdc://YoKM2hrADQd.jpg
 photo.45.author: oregonzoo
 photo.45.commitdate: 2025/5/17
-photo.45.link: ig://CpDW0erpR7A
-photo.45.tags: paws, sample, standing, tail, whiskers
-photo.46: cwdc://YaEVKB3ADQV.jpg
+photo.45.link: ig://CwGSqulyT5G
+photo.45.tags: lips, sample, whiskers
+photo.46: cwdc://YoKM2hrADQe.jpg
 photo.46.author: oregonzoo
 photo.46.commitdate: 2025/5/17
-photo.46.link: ig://CpDW0erpR7B
-photo.46.tags: sample, smile, snow, tail, whiskers
-photo.47: cwdc://YlqqFOXADQa.jpg
+photo.46.link: ig://CwGSqulyT5H
+photo.46.tags: sample, tongue, whiskers
+photo.47: cwdc://YoKM2hrADQf.jpg
 photo.47.author: oregonzoo
 photo.47.commitdate: 2025/5/17
-photo.47.link: ig://Cu2hSE7yBN4
-photo.47.tags: laying down, paws, portrait, sample, whiskers
-photo.48: cwdc://YlqqFOXADQb.jpg
+photo.47.link: ig://CwGSqulyT5I
+photo.47.tags: lips, mofumofu, paws, sample, smile, whiskers
+photo.48: cwdc://YrTW1gyADQg.jpg
 photo.48.author: oregonzoo
 photo.48.commitdate: 2025/5/17
-photo.48.link: ig://Cu2hSE7yBN5
-photo.48.tags: bridge, laying down, paws, portrait, sample, whiskers
-photo.49: cwdc://YlqqFOXADQc.jpg
+photo.48.link: ig://Cxq3qOJS5Ct
+photo.48.tags: lips, mofumofu, paws, peek, sample, whiskers
+photo.49: cwdc://YrTW1gyADQh.jpg
 photo.49.author: oregonzoo
 photo.49.commitdate: 2025/5/17
-photo.49.link: ig://Cu2hSE7yBN6
-photo.49.tags: bridge, laying down, lips, paws, portrait, sample, whiskers
-photo.50: cwdc://YoKM2hrADQd.jpg
+photo.49.link: ig://Cxq3qOJS5Cu
+photo.49.tags: lips, paws, sample, smile, whiskers
+photo.50: cwdc://YrTW1gyADQi.jpg
 photo.50.author: oregonzoo
 photo.50.commitdate: 2025/5/17
-photo.50.link: ig://CwGSqulyT5G
-photo.50.tags: lips, sample, whiskers
-photo.51: cwdc://YoKM2hrADQe.jpg
+photo.50.link: ig://Cxq3qOJS5Cv
+photo.50.tags: lips, paws, sample, slobber, whiskers
+photo.51: cwdc://YrTW1gyADQj.jpg
 photo.51.author: oregonzoo
 photo.51.commitdate: 2025/5/17
-photo.51.link: ig://CwGSqulyT5H
-photo.51.tags: sample, tongue, whiskers
-photo.52: cwdc://YoKM2hrADQf.jpg
+photo.51.link: ig://Cxq3qOJS5Cw
+photo.51.tags: lips, paws, sample, slobber, tongue, whiskers
+photo.52: cwdc://YteF1WvADQk.jpg
 photo.52.author: oregonzoo
 photo.52.commitdate: 2025/5/17
-photo.52.link: ig://CwGSqulyT5I
-photo.52.tags: lips, mofumofu, paws, sample, smile, whiskers
-photo.53: cwdc://YrTW1gyADQg.jpg
+photo.52.link: ig://CywPKJHy7p3
+photo.52.tags: bridge, laying down, mofumofu, portrait, sample, whiskers
+photo.53: cwdc://YteF1WvADQl.jpg
 photo.53.author: oregonzoo
 photo.53.commitdate: 2025/5/17
-photo.53.link: ig://Cxq3qOJS5Ct
-photo.53.tags: lips, mofumofu, paws, peek, sample, whiskers
-photo.54: cwdc://YrTW1gyADQh.jpg
+photo.53.link: ig://CywPKJHy7p4
+photo.53.tags: lips, portrait, sample, smile, whiskers
+photo.54: cwdc://YteF1WvADQm.jpg
 photo.54.author: oregonzoo
 photo.54.commitdate: 2025/5/17
-photo.54.link: ig://Cxq3qOJS5Cu
-photo.54.tags: lips, paws, sample, smile, whiskers
-photo.55: cwdc://YrTW1gyADQi.jpg
+photo.54.link: ig://CywPKJHy7p5
+photo.54.tags: paws, portrait, sample, tongue, whiskers
+photo.55: cwdc://YteF1WvADQn.jpg
 photo.55.author: oregonzoo
 photo.55.commitdate: 2025/5/17
-photo.55.link: ig://Cxq3qOJS5Cv
-photo.55.tags: lips, paws, sample, slobber, whiskers
-photo.56: cwdc://YrTW1gyADQj.jpg
+photo.55.link: ig://CywPKJHy7p6
+photo.55.tags: lips, portrait, sample, smile, whiskers
+photo.56: cwdc://Yu1zsG9ADQs.jpg
 photo.56.author: oregonzoo
 photo.56.commitdate: 2025/5/17
-photo.56.link: ig://Cxq3qOJS5Cw
-photo.56.tags: lips, paws, sample, slobber, tongue, whiskers
-photo.57: cwdc://YteF1WvADQk.jpg
+photo.56.link: ig://CzcGFhOy9ss
+photo.56.tags: lips, paws, sample, whiskers
+photo.57: cwdc://YvzsvNRADQo.jpg
 photo.57.author: oregonzoo
 photo.57.commitdate: 2025/5/17
-photo.57.link: ig://CywPKJHy7p3
-photo.57.tags: bridge, laying down, mofumofu, portrait, sample, whiskers
-photo.58: cwdc://YteF1WvADQl.jpg
+photo.57.link: ig://Cz7CnEYycEJ
+photo.57.tags: mofumofu, paws, sample, tail, tongue, whiskers
+photo.58: cwdc://YvzsvNRADQp.jpg
 photo.58.author: oregonzoo
 photo.58.commitdate: 2025/5/17
-photo.58.link: ig://CywPKJHy7p4
-photo.58.tags: lips, portrait, sample, smile, whiskers
-photo.59: cwdc://YteF1WvADQm.jpg
+photo.58.link: ig://Cz7CnEYycEK
+photo.58.tags: blink, lips, mofumofu, paws, sample, tail, whiskers
+photo.59: cwdc://YvzsvNRADQq.jpg
 photo.59.author: oregonzoo
 photo.59.commitdate: 2025/5/17
-photo.59.link: ig://CywPKJHy7p5
-photo.59.tags: paws, portrait, sample, tongue, whiskers
-photo.60: cwdc://YteF1WvADQn.jpg
+photo.59.link: ig://Cz7CnEYycEL
+photo.59.tags: lips, mofumofu, paws, sample, tail, whiskers
+photo.60: cwdc://Y0zBtzdADQA.jpg
 photo.60.author: oregonzoo
 photo.60.commitdate: 2025/5/17
-photo.60.link: ig://CywPKJHy7p6
-photo.60.tags: lips, portrait, sample, smile, whiskers
-photo.61: cwdc://Yu1zsG9ADQs.jpg
+photo.60.link: ig://C2atGXeyUXN
+photo.60.tags: close-up, mofumofu, portrait, sample, tongue, whiskers
+photo.61: cwdc://Y0zBtzdADQB.jpg
 photo.61.author: oregonzoo
 photo.61.commitdate: 2025/5/17
-photo.61.link: ig://CzcGFhOy9ss
-photo.61.tags: lips, paws, sample, whiskers
-photo.62: cwdc://YvzsvNRADQo.jpg
+photo.61.link: ig://C2atGXeyUXO
+photo.61.tags: lips, mofumofu, paws, portrait, sample, whiskers
+photo.62: cwdc://Y3sMhm3ADQC.jpg
 photo.62.author: oregonzoo
 photo.62.commitdate: 2025/5/17
-photo.62.link: ig://Cz7CnEYycEJ
-photo.62.tags: mofumofu, paws, sample, tail, tongue, whiskers
-photo.63: cwdc://YvzsvNRADQp.jpg
+photo.62.link: ig://C33SgRLyD7W
+photo.62.tags: mofumofu, peek, portrait, sample, whiskers
+photo.63: cwdc://Y3sMhm3ADQD.jpg
 photo.63.author: oregonzoo
 photo.63.commitdate: 2025/5/17
-photo.63.link: ig://Cz7CnEYycEK
-photo.63.tags: blink, lips, mofumofu, paws, sample, tail, whiskers
-photo.64: cwdc://YvzsvNRADQq.jpg
+photo.63.link: ig://C33SgRLyD7X
+photo.63.tags: mofumofu, portrait, sample, whiskers
+photo.64: cwdc://Y3sMhm3ADQE.jpg
 photo.64.author: oregonzoo
 photo.64.commitdate: 2025/5/17
-photo.64.link: ig://Cz7CnEYycEL
-photo.64.tags: lips, mofumofu, paws, sample, tail, whiskers
+photo.64.link: ig://C33SgRLyD7Y
+photo.64.tags: mofumofu, paws, portrait, sample, whiskers
 photo.65: cwdc://ZP_BzaXADQu.jpg
 photo.65.author: oregonzoo
 photo.65.commitdate: 2025/5/17
@@ -350,3 +347,6 @@ photo.66.author: oregonzoo
 photo.66.commitdate: 2025/5/17
 photo.66.link: ig://DEAtJK7yPbC
 photo.66.tags: christmas, close-up, lips, sample, whiskers
+species: 2
+studbook.id: 1115
+zoo: 191
