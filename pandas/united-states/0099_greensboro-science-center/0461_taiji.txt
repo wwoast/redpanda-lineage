@@ -15,51 +15,96 @@ language.order: en, ja
 litter: none
 location.1: 83, 2012/5/21
 location.2: 99, 2013/3/27
-photo.1: ig://BA2gsinGv8i/m
+photo.1: cwdc://VJqo6JuADQC.jpg
 photo.1.author: greensborosciencecenter
 photo.1.commitdate: 2018/11/27
-photo.1.link: https://www.instagram.com/greensborosciencecenter/
-photo.1.tags: portrait, snow, tongue
+photo.1.link: ig://BA2gsinGv8i
+photo.1.tags: bridge, portrait, sample, snow, tongue
 photo.2: cwdc://Vwr3GF2ADQA.jpg
 photo.2.author: greensborosciencecenter
 photo.2.commitdate: 2018/11/27
 photo.2.link: https://www.instagram.com/p/BUXHygrFvBn
 photo.2.tags: portrait, profile, sample, standing
-photo.3: ig://Bpr4H-mndwt/m
+photo.3: cwdc://WbVXxBtADQD.jpg
 photo.3.author: greensborosciencecenter
 photo.3.commitdate: 2020/8/9
-photo.3.link: https://www.instagram.com/greensborosciencecenter/
+photo.3.link: ig://Bpr4H-mndwt
 photo.3.tags: keeper, portrait, smile
-photo.4: ig://B1gVf8bjlbP/m
+photo.4: cwdc://Wy-Sg9XADQA.jpg
 photo.4.author: greensborosciencecenter
 photo.4.commitdate: 2020/8/9
-photo.4.link: https://www.instagram.com/greensborosciencecenter/
-photo.4.tags: portrait, tail, tongue, whiskers
-photo.5: ig://B2B2K4kDY7Z/m
+photo.4.link: ig://B1gVf8bjlbP
+photo.4.tags: muzzle, portrait, tail, tongue, whiskers
+photo.5: cwdc://W0BT21oADQB.jpg
 photo.5.author: greensborosciencecenter
 photo.5.commitdate: 2020/8/9
-photo.5.link: https://www.instagram.com/greensborosciencecenter/
-photo.5.tags: door, portrait, tail, whiskers
-photo.6: ig://CADiCcmDZk7/m
+photo.5.link: ig://B2B2K4kDY7Z
+photo.5.tags: door, portrait, sample, tail, whiskers
+photo.6: cwdc://XIErl9sADQE.jpg
 photo.6.author: greensborosciencecenter
 photo.6.commitdate: 2020/5/14
-photo.6.link: https://www.instagram.com/greensborosciencecenter/
-photo.6.tags: bamboo, bite, paws, portrait
-photo.7: ig://CByCg4HDepS/m
+photo.6.link: ig://CADiCcmDZk7
+photo.6.tags: bamboo, bite, paws, portrait, sample, techitechi
+photo.7: cwdc://XLhsi0uADQF.jpg
 photo.7.author: greensborosciencecenter
 photo.7.commitdate: 2020/8/9
-photo.7.link: https://www.instagram.com/greensborosciencecenter/
-photo.7.tags: portrait, tongue
-photo.8: ig://CVA9WdttVOc/m
+photo.7.link: ig://CByCg4HDepS
+photo.7.tags: peek, portrait, tongue, whiskers
+photo.8: cwdc://Xx_iN_7ADQG.jpg
 photo.8.author: greensborosciencecenter
 photo.8.commitdate: 2021/10/17
-photo.8.link: https://www.instagram.com/greensborosciencecenter/
-photo.8.tags: portrait, whiskers
-photo.9: ig://CWJxfzfhdHr/m
+photo.8.link: ig://CVA9WdttVOc
+photo.8.tags: portrait, sample, whiskers
+photo.9: cwdc://X0RKgrfADQA.jpg
 photo.9.author: redpandanetwork
 photo.9.commitdate: 2021/11/21
-photo.9.link: https://www.instagram.com/redpandanetwork/
-photo.9.tags: mofumofu, snow, whiskers
+photo.9.link: ig://CWJxfzfhdHr
+photo.9.tags: mofumofu, muzzle, sample, snow, whiskers
 species: 2
 studbook.id: 1233
 zoo: 99
+photo.10: cwdc://X2wmMXoADQA.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2025/5/21
+photo.10.link: ig://CXZfVpkL0Fc
+photo.10.tags: peek, tail, whiskers
+photo.11: cwdc://X2wmMXoADQB.jpg
+photo.11.author: worldthathesees
+photo.11.commitdate: 2025/5/21
+photo.11.link: ig://CXZfVpkL0Fd
+photo.11.tags: bridge
+photo.12: cwdc://X2wmMXoADQC.jpg
+photo.12.author: worldthathesees
+photo.12.commitdate: 2025/5/21
+photo.12.link: ig://CXZfVpkL0Fe
+photo.12.tags: home, peek, whiskers
+photo.13: cwdc://X2wmMXoADQD.jpg
+photo.13.author: worldthathesees
+photo.13.commitdate: 2025/5/21
+photo.13.link: ig://CXZfVpkL0Ff
+photo.13.tags: bamboo, whiskers
+photo.14: cwdc://X2wmMXoADQE.jpg
+photo.14.author: worldthathesees
+photo.14.commitdate: 2025/5/21
+photo.14.link: ig://CXZfVpkL0Fg
+photo.14.tags: bamboo, techitechi, tongue
+photo.15: cwdc://X2wmMXoADQF.jpg
+photo.15.author: worldthathesees
+photo.15.commitdate: 2025/5/21
+photo.15.link: ig://CXZfVpkL0Fh
+photo.15.tags: bamboo, smile
+photo.16: cwdc://X2wmMXoADQG.jpg
+photo.16.author: worldthathesees
+photo.16.commitdate: 2025/5/21
+photo.16.link: ig://CXZfVpkL0Fi
+photo.16.tags: close-up, sample, whiskers
+photo.17: cwdc://X2wmMXoADQH.jpg
+photo.17.author: worldthathesees
+photo.17.commitdate: 2025/5/21
+photo.17.link: ig://CXZfVpkL0Fj
+photo.17.tags: laying down, sleeping, tail
+photo.18: cwdc://X2wmMXoADQI.jpg
+photo.18.author: worldthathesees
+photo.18.commitdate: 2025/5/21
+photo.18.link: ig://CXZfVpkL0Fk
+photo.18.tags: paws, tongue, whiskers
