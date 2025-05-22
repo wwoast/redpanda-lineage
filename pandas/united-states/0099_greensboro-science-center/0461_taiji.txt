@@ -60,9 +60,6 @@ photo.9.author: redpandanetwork
 photo.9.commitdate: 2021/11/21
 photo.9.link: ig://CWJxfzfhdHr
 photo.9.tags: mofumofu, muzzle, sample, snow, whiskers
-species: 2
-studbook.id: 1233
-zoo: 99
 photo.10: cwdc://X2wmMXoADQA.jpg
 photo.10.author: worldthathesees
 photo.10.commitdate: 2025/5/21
@@ -108,3 +105,6 @@ photo.18.author: worldthathesees
 photo.18.commitdate: 2025/5/21
 photo.18.link: ig://CXZfVpkL0Fk
 photo.18.tags: paws, tongue, whiskers
+species: 2
+studbook.id: 1233
+zoo: 99
