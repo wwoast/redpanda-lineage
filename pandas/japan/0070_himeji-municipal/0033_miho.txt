@@ -330,106 +330,101 @@ photo.63.author: miis_98
 photo.63.commitdate: 2021/11/11
 photo.63.link: ig://CWEtfHHhN9y
 photo.63.tags: portrait, profile, sample
-photo.64: cwdc://X0HCfSvADQB.jpg
-photo.64.author: miis_98
-photo.64.commitdate: 2025/5/23
-photo.64.link: ig://CWEtfHHhN9y
-photo.64.tags: mofumofu, portrait, sample
-photo.65: cwdc://X35hvnCADQB.jpg
-photo.65.author: sasapan34
+photo.64: cwdc://X35hvnCADQB.jpg
+photo.64.author: sasapan34
+photo.64.commitdate: 2022/1/6
+photo.64.link: ig://CX99HRRPZ-N
+photo.64.tags: sample, whiskers
+photo.65: cwdc://X4ggK0NADQC.jpg
+photo.65.author: grskus_tk
 photo.65.commitdate: 2022/1/6
-photo.65.link: ig://CX99HRRPZ-N
-photo.65.tags: sample, whiskers
-photo.66: cwdc://X4ggK0NADQC.jpg
+photo.65.link: ig://CYRcU32vaE5
+photo.65.tags: peek, sample, whiskers
+photo.66: cwdc://X5Tc24aADQA.jpg
 photo.66.author: grskus_tk
-photo.66.commitdate: 2022/1/6
-photo.66.link: ig://CYRcU32vaE5
-photo.66.tags: peek, sample, whiskers
-photo.67: cwdc://X5Tc24aADQA.jpg
+photo.66.commitdate: 2022/1/23
+photo.66.link: ig://CYq6q59Pl5p
+photo.66.tags: paws, sample, tail
+photo.67: cwdc://X5Tc24aADQB.jpg
 photo.67.author: grskus_tk
-photo.67.commitdate: 2022/1/23
-photo.67.link: ig://CYq6q59Pl5p
-photo.67.tags: paws, sample, tail
-photo.68: cwdc://X5Tc24aADQB.jpg
-photo.68.author: grskus_tk
+photo.67.commitdate: 2025/5/23
+photo.67.link: ig://CYq6q59Pl5q
+photo.67.tags: paws, peek
+photo.68: cwdc://YHiMyGCADQV.jpg
+photo.68.author: love__mitarashi
 photo.68.commitdate: 2025/5/23
-photo.68.link: ig://CYq6q59Pl5q
-photo.68.tags: paws, peek
-photo.69: cwdc://YHiMyGCADQV.jpg
+photo.68.link: ig://CfySogxA21y
+photo.68.tags: laying down, mofumofu, paws
+photo.69: cwdc://YJjdUYkADQX.jpg
 photo.69.author: love__mitarashi
 photo.69.commitdate: 2025/5/23
-photo.69.link: ig://CfySogxA21y
-photo.69.tags: laying down, mofumofu, paws
-photo.70: cwdc://YJjdUYkADQX.jpg
+photo.69.link: ig://Cgy65qCL39X
+photo.69.tags: paws, peek, portrait, smile
+photo.70: cwdc://YJ2asthADQW.jpg
 photo.70.author: love__mitarashi
 photo.70.commitdate: 2025/5/23
-photo.70.link: ig://Cgy65qCL39X
-photo.70.tags: paws, peek, portrait, smile
-photo.71: cwdc://YJ2asthADQW.jpg
+photo.70.link: ig://Cg8Zl0gg7nO
+photo.70.tags: peek
+photo.71: cwdc://YMiiv2FADQY.jpg
 photo.71.author: love__mitarashi
 photo.71.commitdate: 2025/5/23
-photo.71.link: ig://Cg8Zl0gg7nO
-photo.71.tags: peek
-photo.72: cwdc://YMiiv2FADQY.jpg
-photo.72.author: love__mitarashi
-photo.72.commitdate: 2025/5/23
-photo.72.link: ig://CiSdnYygE5F
-photo.72.tags: paws, videolink
-photo.73: cwdc://YfhHW-_ADQA.jpg
-photo.73.author: sasapan34
-photo.73.commitdate: 2023/6/24
-photo.73.link: ig://Crxv69PvmUf
-photo.73.tags: sample
-photo.74: cwdc://Ys2B5PaADQA.jpg
+photo.71.link: ig://CiSdnYygE5F
+photo.71.tags: paws, videolink
+photo.72: cwdc://YfhHW-_ADQA.jpg
+photo.72.author: sasapan34
+photo.72.commitdate: 2023/6/24
+photo.72.link: ig://Crxv69PvmUf
+photo.72.tags: sample
+photo.73: cwdc://Ys2B5PaADQA.jpg
+photo.73.author: chankunvv
+photo.73.commitdate: 2023/10/24
+photo.73.link: ig://CycNMFdPRca
+photo.73.tags: mofumofu, portrait, sample, whiskers
+photo.74: cwdc://Ys2B5PaADQB.jpg
 photo.74.author: chankunvv
-photo.74.commitdate: 2023/10/24
-photo.74.link: ig://CycNMFdPRca
-photo.74.tags: mofumofu, portrait, sample, whiskers
-photo.75: cwdc://Ys2B5PaADQB.jpg
+photo.74.commitdate: 2025/5/23
+photo.74.link: ig://CycNMFdPRcb
+photo.74.tags: close-up, mofumofu, paws, portrait, sample, whiskers
+photo.75: cwdc://Ys2B5PaADQC.jpg
 photo.75.author: chankunvv
 photo.75.commitdate: 2025/5/23
-photo.75.link: ig://CycNMFdPRcb
-photo.75.tags: close-up, mofumofu, paws, portrait, sample, whiskers
-photo.76: cwdc://Ys2B5PaADQC.jpg
+photo.75.link: ig://CycNMFdPRcc
+photo.75.tags: apple time, paws, portrait, smile
+photo.76: cwdc://Ys2B5PaADQD.jpg
 photo.76.author: chankunvv
 photo.76.commitdate: 2025/5/23
-photo.76.link: ig://CycNMFdPRcc
-photo.76.tags: apple time, paws, portrait, smile
-photo.77: cwdc://Ys2B5PaADQD.jpg
+photo.76.link: ig://CycNMFdPRcd
+photo.76.tags: grooming, mofumofu, paws, portrait
+photo.77: cwdc://Ys2B5PaADQE.jpg
 photo.77.author: chankunvv
 photo.77.commitdate: 2025/5/23
-photo.77.link: ig://CycNMFdPRcd
-photo.77.tags: grooming, mofumofu, paws, portrait
-photo.78: cwdc://Ys2B5PaADQE.jpg
-photo.78.author: chankunvv
+photo.77.link: ig://CycNMFdPRce
+photo.77.tags: grooming, portrait
+photo.78: cwdc://ZCXU1qCADQR.jpg
+photo.78.author: love__mitarashi
 photo.78.commitdate: 2025/5/23
-photo.78.link: ig://CycNMFdPRce
-photo.78.tags: grooming, portrait
-photo.79: cwdc://ZCXU1qCADQR.jpg
-photo.79.author: love__mitarashi
+photo.78.link: ig://C9M2qSxS5d2
+photo.78.tags: laying down, smile
+photo.79: cwdc://ZIM1fnwADQA.jpg
+photo.79.author: himeji_city_zoo
 photo.79.commitdate: 2025/5/23
-photo.79.link: ig://C9M2qSxS5d2
+photo.79.link: ig://DAHm_RoTwmo
 photo.79.tags: laying down, smile
-photo.80: cwdc://ZIM1fnwADQA.jpg
+photo.80: cwdc://ZIM1fnwADQB.jpg
 photo.80.author: himeji_city_zoo
 photo.80.commitdate: 2025/5/23
-photo.80.link: ig://DAHm_RoTwmo
-photo.80.tags: laying down, smile
-photo.81: cwdc://ZIM1fnwADQB.jpg
-photo.81.author: himeji_city_zoo
+photo.80.link: ig://DAHm_RoTwmp
+photo.80.tags: laying down, sample, smile
+photo.81: cwdc://ZORdY6fADQA.jpg
+photo.81.author: colette.jp
 photo.81.commitdate: 2025/5/23
-photo.81.link: ig://DAHm_RoTwmp
-photo.81.tags: laying down, sample, smile
-photo.82: cwdc://ZORdY6fADQA.jpg
+photo.81.link: ig://DDJ676_yjTp
+photo.81.tags: portrait, sample, tongue
+photo.82: cwdc://ZORdY6fADQB.jpg
 photo.82.author: colette.jp
 photo.82.commitdate: 2025/5/23
-photo.82.link: ig://DDJ676_yjTp
-photo.82.tags: portrait, sample, tongue
-photo.83: cwdc://ZORdY6fADQB.jpg
-photo.83.author: colette.jp
-photo.83.commitdate: 2025/5/23
-photo.83.link: ig://DDJ676_yjTq
-photo.83.tags: portrait, sample, whiskers
+photo.82.link: ig://DDJ676_yjTq
+photo.82.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 13164
 zoo: 70
