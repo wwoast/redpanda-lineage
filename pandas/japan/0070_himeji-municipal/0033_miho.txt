@@ -39,11 +39,11 @@ photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2020/3/12
 photo.5.link: ig://BfVV6J8FThl
 photo.5.tags: lips, portrait, sample, smile
-photo.6: ig://BkXTkr_lY2U/m
+photo.6: cwdc://WQsOqcfADQA.jpg
 photo.6.author: rdpnzoo
 photo.6.commitdate: 2018/7/20
-photo.6.link: https://www.instagram.com/rdpnzoo/
-photo.6.tags: apple time, bamboo, tongue
+photo.6.link: ig://BkXTkr_lY2U
+photo.6.tags: apple time, bamboo, paws, sample, tongue
 photo.7: cwdc://WR6efWkADQG.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2018/7/20
@@ -54,25 +54,25 @@ photo.8.author: love__mitarashi
 photo.8.commitdate: 2019/4/1
 photo.8.link: ig://BvUGbXhFEze
 photo.8.tags: bamboo, paws, peek, portrait
-photo.9: ig://By1D7eoBXoj/m
+photo.9: cwdc://WtnvYBwADQA.jpg
 photo.9.author: akiakiakiko18
 photo.9.commitdate: 2019/6/19
-photo.9.link: https://www.instagram.com/akiakiakiko18/
-photo.9.tags: laying down, paws, tongue
+photo.9.link: ig://By1D7eoBXoj
+photo.9.tags: laying down, paws, portrait, sample, tongue
 photo.10: cwdc://W8h0kNzADQA.jpg
 photo.10.author: love__mitarashi
 photo.10.commitdate: 2020/5/27
 photo.10.link: ig://B6SGhkphz-T
 photo.10.tags: paws, portrait, sample, tail
-photo.11: ig://B7cQgInBJ_W/m
+photo.11: cwdc://W-2IhVuADQB.jpg
 photo.11.author: redpanda_nippon_takashi
 photo.11.commitdate: 2020/1/18
-photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.11.tags: portrait, whiskers
-photo.12: ig://B7inXathRJa/m
+photo.11.link: ig://B7cQgInBJ_W
+photo.11.tags: close-up, portrait, sample, whiskers
+photo.12: cwdc://W_C2P57ADQA.jpg
 photo.12.author: apple_jasmine33
 photo.12.commitdate: 2020/1/22
-photo.12.link: https://www.instagram.com/apple_jasmine33/
+photo.12.link: ig://B7inXathRJa
 photo.12.tags: peek
 photo.13: cwdc://XMyyScXADQS.jpg
 photo.13.author: love__mitarashi
@@ -144,7 +144,6 @@ photo.26.author: chankunvv
 photo.26.commitdate: 2023/10/24
 photo.26.link: ig://CycNMFdPRca
 photo.26.tags: mofumofu, portrait, sample, whiskers
-
 photo.27: cwdc://V0ixFbRADQO.jpg
 photo.27.author: love__mitarashi
 photo.27.commitdate: 2025/5/23
@@ -399,3 +398,38 @@ photo.76.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 13164
 zoo: 70
+photo.77: cwdc://W-2IhVuADQA.jpg
+photo.77.author: redpanda_nippon_takashi
+photo.77.commitdate: 2025/5/23
+photo.77.link: ig://B7cQgInBJ_a
+photo.77.tags: portrait, sample
+photo.78: cwdc://W-2IhVuADQC.jpg
+photo.78.author: redpanda_nippon_takashi
+photo.78.commitdate: 2025/5/23
+photo.78.link: ig://B7cQgInBJ_Y
+photo.78.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
+photo.79: cwdc://W_C2P57ADQB.jpg
+photo.79.author: apple_jasmine33
+photo.79.commitdate: 2025/5/23
+photo.79.link: ig://B7inXathRJb
+photo.79.tags: bamboo
+photo.80: cwdc://W_C2P57ADQC.jpg
+photo.80.author: apple_jasmine33
+photo.80.commitdate: 2025/5/23
+photo.80.link: ig://B7inXathRJc
+photo.80.tags: sample, whiskers
+photo.81: cwdc://W_C2P57ADQD.jpg
+photo.81.author: apple_jasmine33
+photo.81.commitdate: 2025/5/23
+photo.81.link: ig://B7inXathRJd
+photo.81.tags: peek
+photo.82: cwdc://WtnvYBwADQB.jpg
+photo.82.author: akiakiakiko18
+photo.82.commitdate: 2025/5/23
+photo.82.link: ig://By1D7eoBXok
+photo.82.tags: close-up, portrait, sample, tongue
+photo.83: cwdc://WtnvYBwADQC.jpg
+photo.83.author: akiakiakiko18
+photo.83.commitdate: 2025/5/23
+photo.83.link: ig://By1D7eoBXol
+photo.83.tags: bridge, laying down, paws, peek, portrait, sleeping
