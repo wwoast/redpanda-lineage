@@ -7,21 +7,29 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2025/5/23
 photo.1.link: ig://BDvEE6-mufx
 photo.1.tags: bamboo, bite, couple, hammock
+photo.1.tags.32.location: 345, 690
+photo.1.tags.33.location: 545, 120
 photo.2: cwdc://Vsf1N3TADQB.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2025/5/23
 photo.2.link: ig://BSRG2ZZhUDZ
 photo.2.tags: close-up, couple, peek, portrait, scale
+photo.2.tags.32.location: 570, 305
+photo.2.tags.33.location: 180, 360
 photo.3: cwdc://V0lkiZ3ADQC.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2025/5/23
 photo.3.link: ig://BWT-gqrhNW_
 photo.3.tags: bamboo, couple, laying down
+photo.3.tags.32.location: 50, 605
+photo.3.tags.33.location: 670, 230
 photo.4: cwdc://XM91jGOADQD.jpg
 photo.4.author: love__mitarashi
 photo.4.commitdate: 2025/5/23
 photo.4.link: ig://CCgHBA3BUTA
 photo.4.tags: couple, portrait, tail
+photo.4.tags.32.location: 45, 275
+photo.4.tags.33.location: 290, 65
 photo.5: cwdc://XvKfHWZADQG.jpg
 photo.5.author: love__mitarashi
 photo.5.commitdate: 2021/9/22
@@ -34,8 +42,12 @@ photo.6.author: love__mitarashi
 photo.6.commitdate: 2025/5/23
 photo.6.link: ig://CgE8l2IrvuL
 photo.6.tags: couple, laying down, sleeping
+photo.6.tags.32.location: 440, 265
+photo.6.tags.33.location: 135, 340
 photo.7: cwdc://YMdA0X2ADQF.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2025/5/23
 photo.7.link: ig://CiPspprADrJ
 photo.7.tags: couple, paws, smile, tail, tongue
+photo.7.tags.32.location: 510, 115
+photo.7.tags.33.location: 400, 620
