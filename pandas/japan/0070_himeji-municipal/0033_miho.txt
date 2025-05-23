@@ -117,7 +117,7 @@ photo.20.tags: mofumofu, peek, videolink
 photo.21: cwdc://X0HCfSvADQA.jpg
 photo.21.author: miis_98
 photo.21.commitdate: 2021/11/11
-photo.21.link: https://www.instagram.com/p/CWEtfHHhN9y
+photo.21.link: ig://CWEtfHHhN9y
 photo.21.tags: portrait, profile, sample
 photo.22: cwdc://X35hvnCADQB.jpg
 photo.22.author: sasapan34
@@ -144,9 +144,7 @@ photo.26.author: chankunvv
 photo.26.commitdate: 2023/10/24
 photo.26.link: ig://CycNMFdPRca
 photo.26.tags: mofumofu, portrait, sample, whiskers
-species: 2
-studbook.id: 13164
-zoo: 70
+
 photo.27: cwdc://V0ixFbRADQO.jpg
 photo.27.author: love__mitarashi
 photo.27.commitdate: 2025/5/23
@@ -393,8 +391,11 @@ photo.75.author: colette.jp
 photo.75.commitdate: 2025/5/23
 photo.75.link: ig://DDJ676_yjTp
 photo.75.tags: portrait, sample, tongue
-photo.76: cwdc://ZORdY6fADQB.webp
+photo.76: cwdc://ZORdY6fADQB.jpg
 photo.76.author: colette.jp
 photo.76.commitdate: 2025/5/23
 photo.76.link: ig://DDJ676_yjTq
 photo.76.tags: portrait, sample, whiskers
+species: 2
+studbook.id: 13164
+zoo: 70
