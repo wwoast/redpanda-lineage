@@ -582,7 +582,7 @@ def update_photo_commit_dates(starting_commit, force=False):
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            if re.match("photo.\d+:", line.value) == None:
+                            if re.match(r"photo.\d+:", line.value) == None:
                                 # Not a photo line
                                 continue
                             if line.value.find(": ") == -1:
