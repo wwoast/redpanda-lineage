@@ -49,10 +49,10 @@ photo.7: cwdc://WR1gjvjADQI.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2018/7/20
 photo.7.link: ig://Bk78hVhl6AQ
-photo.8: ig://ByqCkKphAwP/m
+photo.8: cwdc://WtRspZzADQA.jpg
 photo.8.author: akiakiakiko18
 photo.8.commitdate: 2019/6/16
-photo.8.link: https://www.instagram.com/akiakiakiko18/
+photo.8.link: ig://ByqCkKphAwP
 photo.9: cwdc://W12vG4zADQC.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2019/10/8
@@ -208,9 +208,6 @@ photo.39.author: colette.jp
 photo.39.commitdate: 2023/11/5
 photo.39.link: ig://Cubz0pVPsuF
 photo.39.tags: bridge, close-up, portrait, sample, videolink
-species: 2
-studbook.id: 0993
-zoo: 70
 photo.40: cwdc://V0dm6pLADQP.jpg
 photo.40.author: love__mitarashi
 photo.40.commitdate: 2025/5/27
@@ -578,3 +575,22 @@ photo.112.author: love__mitarashi
 photo.112.commitdate: 2025/5/27
 photo.112.link: ig://C9KP2GnyrBM
 photo.112.tags: sample
+species: 2
+studbook.id: 0993
+zoo: 70
+photo.8.tags: mofumofu, peek
+photo.113: cwdc://WtRspZzADQB.jpg
+photo.113.author: akiakiakiko18
+photo.113.commitdate: 2025/5/27
+photo.113.link: ig://ByqCkKphAwQ
+photo.113.tags: sample, whiskers
+photo.114: cwdc://WtRspZzADQC.jpg
+photo.114.author: akiakiakiko18
+photo.114.commitdate: 2025/5/27
+photo.114.link: ig://ByqCkKphAwR
+photo.114.tags: sample, smile, whiskers
+photo.115: cwdc://WtRspZzADQD.jpg
+photo.115.author: akiakiakiko18
+photo.115.commitdate: 2025/5/27
+photo.115.link: ig://ByqCkKphAwS
+photo.115.tags: sample, smile
