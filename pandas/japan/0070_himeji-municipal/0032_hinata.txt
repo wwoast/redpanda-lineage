@@ -16,20 +16,20 @@ language.order: ja, en
 litter: 366
 location.1: 15, 2009/7/8
 location.2: 70, 2010/6/16
-photo.1: ig://BQXlHbygbz2/m
+photo.1: cwdc://Vosxv8FADQA.jpg
 photo.1.author: peek_a_boo00
 photo.1.commitdate: 2018/7/29
-photo.1.link: https://www.instagram.com/peek_a_boo00/
-photo.1.tags: dish, paws, tongue
-photo.2: ig://BTymE0Xlwdr/m
+photo.1.link: ig://BQXlHbygbz2
+photo.1.tags: dish, paws, portrait, sample, tongue
+photo.2: cwdc://VvizqtPADQA.jpg
 photo.2.author: shrimpieaqua
 photo.2.commitdate: 2018/7/29
-photo.2.link: https://www.instagram.com/shrimpieaqua/
-photo.2.tags: grooming, paws, tongue
-photo.3: ig://BYmkQDzBHFY/m
+photo.2.link: ig://BTymE0Xlwdr
+photo.2.tags: close-up, grooming, paws, portrait, sample, tongue
+photo.3: cwdc://V5KwBMGADQB.jpg
 photo.3.author: miis_98
 photo.3.commitdate: 2018/7/29
-photo.3.link: https://www.instagram.com/miis_98/
+photo.3.link: ig://BYmkQDzBHFY
 photo.4: cwdc://V67sjhnADQA.jpg
 photo.4.author: miis_98
 photo.4.commitdate: 2018/7/29
@@ -40,174 +40,541 @@ photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2020/3/12
 photo.5.link: ig://BfStUyQFe9r
 photo.5.tags: peek, portrait, whiskers
-photo.6: ig://Bjhg-PKFwLW/m
+photo.6: cwdc://WPApdi0ADQA.jpg
 photo.6.author: miis_98
 photo.6.commitdate: 2018/7/20
-photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: laying down, tongue
-photo.7: ig://Bk78hVhl6AQ/m
+photo.6.link: ig://Bjhg-PKFwLW
+photo.6.tags: bamboo, laying down, portrait, sample, tongue
+photo.7: cwdc://WR1gjvjADQI.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2018/7/20
-photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.link: ig://Bk78hVhl6AQ
 photo.8: ig://ByqCkKphAwP/m
 photo.8.author: akiakiakiko18
 photo.8.commitdate: 2019/6/16
 photo.8.link: https://www.instagram.com/akiakiakiko18/
-photo.9: ig://B28jy6JhZtf/m
+photo.9: cwdc://W12vG4zADQC.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2019/10/8
-photo.9.link: https://www.instagram.com/love__mitarashi/
-photo.9.tags: bamboo, tongue
-photo.10: ig://B2_IiPCB-LZ/m
+photo.9.link: ig://B28jy6JhZtf
+photo.9.tags: bamboo, sample, tongue
+photo.10: cwdc://W174likADQA.jpg
 photo.10.author: love__mitarashi
 photo.10.commitdate: 2019/10/8
-photo.10.link: https://www.instagram.com/love__mitarashi/
-photo.10.tags: laying down, portrait, smile
-photo.11: ig://B4rouXWBG8k/m
+photo.10.link: ig://B2_IiPCB-LZ
+photo.10.tags: laying down, portrait, sample, smile
+photo.11: cwdc://W5U49zMADQA.jpg
 photo.11.author: chankunvv
 photo.11.commitdate: 2019/11/12
-photo.11.link: https://www.instagram.com/chankunvv/
-photo.11.tags: portrait
-photo.12: ig://B4vhvPlBKYg/m
+photo.11.link: ig://B4rouXWBG8k
+photo.11.tags: mofumofu, portrait, sample, whiskers
+photo.12: cwdc://W5cq_jqADQA.jpg
 photo.12.author: motohin
 photo.12.commitdate: 2019/11/15
-photo.12.link: https://www.instagram.com/motohin/
-photo.12.tags: laying down, portrait, smile
-photo.13: ig://B585dMTh_zi/m
+photo.12.link: ig://B4vhvPlBKYg
+photo.12.tags: close-up, laying down, portrait, sample, smile, teeth
+photo.13: cwdc://W73abdHADQA.jpg
 photo.13.author: yossi929
 photo.13.commitdate: 2020/1/25
-photo.13.link: https://www.instagram.com/yossi929/
-photo.13.tags: portrait
-photo.14: ig://CCNeQErB3I2/m
+photo.13.link: ig://B585dMTh_zi
+photo.13.tags: portrait, sample, whiskers
+photo.14: cwdc://XMYkBN2ADQA.jpg
 photo.14.author: kisshan324
 photo.14.commitdate: 2020/7/14
-photo.14.link: https://www.instagram.com/kisshan324/
-photo.14.tags: paws, portrait
-photo.15: ig://CCYTvD4hXki/m
+photo.14.link: ig://CCNeQErB3I2
+photo.14.tags: paws, portrait, sample
+photo.15: cwdc://XMuO_MRADQT.jpg
 photo.15.author: love__mitarashi
 photo.15.commitdate: 2021/7/12
-photo.15.link: https://www.instagram.com/love__mitarashi/
-photo.15.tags: bamboo, portrait
-photo.16: ig://CE_ricNhMD1/m
+photo.15.link: ig://CCYTvD4hXki
+photo.15.tags: bamboo, portrait, sample, whiskers
+photo.16: cwdc://XR8-l87ADQU.jpg
 photo.16.author: love__mitarashi
 photo.16.commitdate: 2020/9/28
-photo.16.link: https://www.instagram.com/love__mitarashi/
+photo.16.link: ig://CE_ricNhMD1
 photo.16.tags: peek, videolink
-photo.17: ig://CFD-FFZBick/m
+photo.17: cwdc://XSFjrPSADQV.jpg
 photo.17.author: love__mitarashi
 photo.17.commitdate: 2022/1/7
-photo.17.link: https://www.instagram.com/love__mitarashi/
-photo.17.tags: laying down, portrait, tongue, videolink
-photo.18: ig://CIYE9VgBqm9/m
+photo.17.link: ig://CFD-FFZBick
+photo.17.tags: laying down, portrait, sample, tongue, videolink
+photo.18: cwdc://XYtxbvgADQA.jpg
 photo.18.author: fetorus_mami
 photo.18.commitdate: 2020/12/20
-photo.18.link: https://www.instagram.com/fetorus_mami/
-photo.18.tags: close-up, smile, tongue
-photo.19: ig://CIYH23zhD6L/m
+photo.18.link: ig://CIYE9VgBqm9
+photo.18.tags: close-up, sample, smile, tongue, whiskers
+photo.19: cwdc://XYt3O0HADQK.jpg
 photo.19.author: fetorus_mami
 photo.19.commitdate: 2020/12/20
-photo.19.link: https://www.instagram.com/fetorus_mami/
+photo.19.link: ig://CIYH23zhD6L
 photo.19.tags: keeper, lunch time, paws, techitechi
-photo.20: ig://CPhbJU_h8cV/m
+photo.20: cwdc://XnAdzufADQC.jpg
 photo.20.author: kisshan324
 photo.20.commitdate: 2021/6/27
-photo.20.link: https://www.instagram.com/kisshan324/
-photo.20.tags: portrait
-photo.21: ig://CPnFQbphNnE/m
+photo.20.link: ig://CPhbJU_h8cV
+photo.20.tags: distance, portrait, sample
+photo.21: cwdc://XnLyB7zADQD.jpg
 photo.21.author: kisshan324
 photo.21.commitdate: 2022/1/7
-photo.21.link: https://www.instagram.com/kisshan324/
-photo.21.tags: paws, portrait, smile
-photo.22: ig://CPsPUlNBJ3n/m
+photo.21.link: ig://CPnFQbphNnE
+photo.21.tags: paws, portrait, sample, smile
+photo.22: cwdc://XnWGKO6ADQJ.jpg
 photo.22.author: kisshan324
 photo.22.commitdate: 2022/1/7
-photo.22.link: https://www.instagram.com/kisshan324/
+photo.22.link: ig://CPsPUlNBJ3n
 photo.22.tags: paws, portrait, smile, standing, tail
-photo.23: ig://CQ3Z-gzhzWa/m
+photo.23: cwdc://XpsbeGHADQT.jpg
 photo.23.author: fetorus_mami
 photo.23.commitdate: 2021/7/4
-photo.23.link: https://www.instagram.com/fetorus_mami/
-photo.23.tags: close-up, whiskers
-photo.24: ig://CRdnJWIh3Lg/m
+photo.23.link: ig://CQ3Z-gzhzWa
+photo.23.tags: close-up, sample, whiskers
+photo.24: cwdc://Xq41zwxADQH.jpg
 photo.24.author: colette.jp
 photo.24.commitdate: 2021/8/2
-photo.24.link: https://www.instagram.com/colette.jp/
-photo.24.tags: close-up, portrait, smile, tongue
-photo.25: ig://CSMkirjr8vV/m
+photo.24.link: ig://CRdnJWIh3Lg
+photo.24.tags: close-up, mofumofu, portrait, sample, smile, tongue
+photo.25: cwdc://XsWwmbnADQb.jpg
 photo.25.author: love__mitarashi
 photo.25.commitdate: 2021/11/4
-photo.25.link: https://www.instagram.com/love__mitarashi/
+photo.25.link: ig://CSMkirjr8vV
 photo.25.tags: peek, videolink
-photo.26: ig://CUFO3pihJkD/m
+photo.26: cwdc://XwIFQXlADQL.jpg
 photo.26.author: colette.jp
 photo.26.commitdate: 2021/9/25
-photo.26.link: https://www.instagram.com/colette.jp/
-photo.26.tags: laying down, mofumofu, portrait, sleeping
-photo.27: ig://CWCF5-IMlZN/m
+photo.26.link: ig://CUFO3pihJkD
+photo.26.tags: blink, laying down, mofumofu, portrait, sleeping
+photo.27: cwdc://X0BzVAwADQD.jpg
 photo.27.author: miis_98
 photo.27.commitdate: 2021/11/11
-photo.27.link: https://www.instagram.com/miis_98/
-photo.27.tags: close-up, peek, whiskers
-photo.28: ig://CYRXdEJPb_D/m
+photo.27.link: ig://CWCF5-IMlZN
+photo.27.tags: close-up, peek, sample, whiskers
+photo.28: cwdc://X4gWbMyADQB.jpg
 photo.28.author: grskus_tk
 photo.28.commitdate: 2022/1/6
-photo.28.link: https://www.instagram.com/grskus_tk/
+photo.28.link: ig://CYRXdEJPb_D
 photo.28.tags: paws, smile, tongue, whiskers
-photo.29: ig://CYRYrbMvU_u/m
+photo.29: cwdc://X4gY365ADQD.jpg
 photo.29.author: grskus_tk
 photo.29.commitdate: 2022/1/6
-photo.29.link: https://www.instagram.com/grskus_tk/
-photo.29.tags: keeper, paws, peek
-photo.30: ig://CYq5VNFP6yd/m
+photo.29.link: ig://CYRYrbMvU_u
+photo.29.tags: keeper, paws, peek, tongue
+photo.30: cwdc://X5TaLeqADQA.jpg
 photo.30.author: grskus_tk
 photo.30.commitdate: 2022/1/23
-photo.30.link: https://www.instagram.com/grskus_tk/
-photo.30.tags: peek, tail
-photo.31: ig://CaGwli5PRXy/m
+photo.30.link: ig://CYq5VNFP6yd
+photo.30.tags: peek, sample, tail
+photo.31: cwdc://X8LIsKSADQA.jpg
 photo.31.author: sasapan34
 photo.31.commitdate: 2022/4/7
-photo.31.link: https://www.instagram.com/sasapan34/
-photo.31.tags: mofumofu, smile
-photo.32: ig://CfwPihwLCEE/m
+photo.31.link: ig://CaGwli5PRXy
+photo.31.tags: mofumofu, sample, smile
+photo.32: cwdc://YHeGmIAADQW.jpg
 photo.32.author: love__mitarashi
 photo.32.commitdate: 2022/7/28
-photo.32.link: https://www.instagram.com/love__mitarashi/
+photo.32.link: ig://CfwPihwLCEE
 photo.32.tags: laying down, paws
-photo.33: ig://CgMZEMtrttL/m
+photo.33: cwdc://YIWZpd7ADQX.jpg
 photo.33.author: love__mitarashi
 photo.33.commitdate: 2022/7/28
-photo.33.link: https://www.instagram.com/love__mitarashi/
+photo.33.link: ig://CgMZEMtrttL
 photo.33.tags: laying down, peek, tail
-photo.34: ig://ClLheJzPvxY/m
+photo.34: cwdc://YSUqdYGADQA.jpg
 photo.34.author: colette.jp
 photo.34.commitdate: 2022/12/19
-photo.34.link: https://www.instagram.com/colette.jp/
-photo.34.tags: close-up, portrait, smile
-photo.35: ig://CnEbsepPgpi/m
+photo.34.link: ig://ClLheJzPvxY
+photo.34.tags: close-up, portrait, sample, smile, tongue
+photo.35: cwdc://YWGe6ByADQA.jpg
 photo.35.author: makimaru18
 photo.35.commitdate: 2023/3/11
-photo.35.link: https://www.instagram.com/makimaru18/
+photo.35.link: ig://CnEbsepPgpi
 photo.35.tags: portrait, sample, smile, tongue, whiskers
-photo.36: ig://CnwUfeAPhZ3/m
+photo.36: cwdc://YXeQgAgADQC.jpg
 photo.36.author: colette.jp
 photo.36.commitdate: 2023/7/14
-photo.36.link: https://www.instagram.com/colette.jp/
+photo.36.link: ig://CnwUfeAPhZ3
 photo.36.tags: climb, paws, portrait, sample, techitechi, toys
-photo.37: ig://CqWyrE8vFm6/m
+photo.37: cwdc://YcrM3OZADQA.jpg
 photo.37.author: joy93.87
 photo.37.commitdate: 2023/7/14
-photo.37.link: https://www.instagram.com/joy93.87/
-photo.37.tags: mofumofu, tongue
-photo.38: ig://CuEcvtTvgR5/m
+photo.37.link: ig://CqWyrE8vFm6
+photo.37.tags: mofumofu, sample, tongue
+photo.38: cwdc://YkGhAfHADQD.jpg
 photo.38.author: hamiiiii831_
 photo.38.commitdate: 2023/11/5
-photo.38.link: https://www.instagram.com/hamiiiii831_/
+photo.38.link: ig://CuEcvtTvgR5
 photo.38.tags: close-up, laying down, portrait, sample, whiskers
-photo.39: ig://Cubz0pVPsuF/m
+photo.39: cwdc://Yk1PKXKADQJ.jpg
 photo.39.author: colette.jp
 photo.39.commitdate: 2023/11/5
-photo.39.link: https://www.instagram.com/colette.jp/
-photo.39.tags: bridge, close-up, portrait, videolink
+photo.39.link: ig://Cubz0pVPsuF
+photo.39.tags: bridge, close-up, portrait, sample, videolink
 species: 2
 studbook.id: 0993
 zoo: 70
+photo.40: cwdc://V0dm6pLADQP.jpg
+photo.40.author: love__mitarashi
+photo.40.commitdate: 2025/5/27
+photo.40.link: ig://BWP_syVhyeq
+photo.40.tags: bamboo, climb, paws, portrait
+photo.41: cwdc://V0hwk-fADQB.jpg
+photo.41.author: _rifa_p
+photo.41.commitdate: 2025/5/27
+photo.41.link: ig://BWSEh8_jsxE
+photo.41.tags: paws, portrait, techitechi
+photo.42: cwdc://V0lkiZ3ADQQ.jpg
+photo.42.author: love__mitarashi
+photo.42.commitdate: 2025/5/27
+photo.42.link: ig://BWT-gqrhNW_
+photo.42.tags: laying down, mofumofu, portrait, sample, tongue, whiskers
+photo.3.tags: portrait, sample, tail, techitechi, whiskers
+photo.43: cwdc://VPCH2sBADQD.jpg
+photo.43.author: love__mitarashi
+photo.43.commitdate: 2025/5/27
+photo.43.link: ig://BDiQKzwmuXh
+photo.43.tags: bamboo, portrait, smile, tongue
+photo.44: cwdc://VT2UMZUADQF.jpg
+photo.44.author: love__mitarashi
+photo.44.commitdate: 2025/5/27
+photo.44.link: ig://BF8WVqaGuSE
+photo.44.tags: peek
+photo.45: cwdc://VWLW4JMADQG.jpg
+photo.45.author: love__mitarashi
+photo.45.commitdate: 2025/5/27
+photo.45.link: ig://BHG3riWB7sv
+photo.45.tags: portrait, sample, smile
+photo.46: cwdc://VXF4N61ADQH.jpg
+photo.46.author: love__mitarashi
+photo.46.commitdate: 2025/5/27
+photo.46.link: ig://BHkIWbKhQO5
+photo.46.tags: grooming, paws, tail, tongue
+photo.47: cwdc://ViAGxiGADQJ.jpg
+photo.47.author: love__mitarashi
+photo.47.commitdate: 2025/5/27
+photo.47.link: ig://BNBPoOzBxAz
+photo.47.tags: mofumofu, sample, whiskers
+photo.48: cwdc://VjSnl0ZADQK.jpg
+photo.48.author: love__mitarashi
+photo.48.commitdate: 2025/5/27
+photo.48.link: ig://BNqgCX8hWZA
+photo.48.tags: grooming, paws, portrait, sample, tail, tongue
+photo.49: cwdc://VkISMJaADQL.jpg
+photo.49.author: love__mitarashi
+photo.49.commitdate: 2025/5/27
+photo.49.link: ig://BOFVVidBTak
+photo.49.tags: close-up, portrait, sample, smile, whiskers
+photo.50: cwdc://VmrIiCGADQM.jpg
+photo.50.author: love__mitarashi
+photo.50.commitdate: 2025/5/27
+photo.50.link: ig://BPWwgezBmgM
+photo.50.tags: bamboo, climb, paws, snow, tongue
+photo.51: cwdc://Vy-eGfkADQO.jpg
+photo.51.author: love__mitarashi
+photo.51.commitdate: 2025/5/27
+photo.51.link: ig://BVgbStiBo6w
+photo.51.tags: portrait, sign
+photo.52: cwdc://W-2IhVuADQD.jpg
+photo.52.author: redpanda_nippon_takashi
+photo.52.commitdate: 2025/5/27
+photo.52.link: ig://B7cQgInBJ_Z
+photo.52.tags: blink, mofumofu, portrait, sample, whiskers
+photo.53: cwdc://W8d1DNVADQB.jpg
+photo.53.author: love__mitarashi
+photo.53.commitdate: 2025/5/27
+photo.53.link: ig://B6QGxEahql6
+photo.53.tags: bamboo, portrait, sample, techitechi
+photo.54: cwdc://WFkN6SFADQE.jpg
+photo.54.author: love__mitarashi
+photo.54.commitdate: 2025/5/27
+photo.54.link: ig://BezTMmyh3j3
+photo.54.tags: sample, tongue
+photo.7.tags: sample, whiskers
+photo.55: cwdc://W_C2P57ADQE.jpg
+photo.55.author: apple_jasmine33
+photo.55.commitdate: 2025/5/27
+photo.55.link: ig://B7inXathRJg
+photo.55.tags: peek, techitechi
+photo.56: cwdc://Wl8PI-VADQN.jpg
+photo.56.author: love__mitarashi
+photo.56.commitdate: 2025/5/27
+photo.56.link: ig://Bu_Tz86lXIQ
+photo.56.tags: grooming, paws, portrait
+photo.57: cwdc://X0cx7bKADQc.jpg
+photo.57.author: love__mitarashi
+photo.57.commitdate: 2025/5/27
+photo.57.link: ig://CWPlNLVLQcV
+photo.57.tags: hammock, laying down, tail
+photo.58: cwdc://X4gWbMyADQC.jpg
+photo.58.author: grskus_tk
+photo.58.commitdate: 2025/5/27
+photo.58.link: ig://CYRXdEJPb_E
+photo.58.tags: close-up, sample, whiskers
+photo.59: cwdc://X5yjVnyADQd.jpg
+photo.59.author: love__mitarashi
+photo.59.commitdate: 2025/5/27
+photo.59.link: ig://CY6d6RpLuw2
+photo.59.tags: paws, smile, whiskers
+photo.60: cwdc://XMYkBN2ADQB.jpg
+photo.60.author: kisshan324
+photo.60.commitdate: 2025/5/27
+photo.60.link: ig://CCNeQErB3I4
+photo.60.tags: portrait, sign
+photo.61: cwdc://XNBfI8lADQS.jpg
+photo.61.author: love__mitarashi
+photo.61.commitdate: 2025/5/27
+photo.61.link: ig://CCh7z8ChtwH
+photo.61.tags: dish, lunch time, portrait
+photo.62: cwdc://XYt3O0HADQL.jpg
+photo.62.author: fetorus_mami
+photo.62.commitdate: 2025/5/27
+photo.62.link: ig://CIYH23zhD6M
+photo.62.tags: keeper, lunch time, paws
+photo.63: cwdc://XYt3O0HADQM.jpg
+photo.63.author: fetorus_mami
+photo.63.commitdate: 2025/5/27
+photo.63.link: ig://CIYH23zhD6N
+photo.63.tags: keeper, lunch time, paws
+photo.64: cwdc://XYt3O0HADQN.jpg
+photo.64.author: fetorus_mami
+photo.64.commitdate: 2025/5/27
+photo.64.link: ig://CIYH23zhD6O
+photo.64.tags: keeper, lunch time, paws, techitechi
+photo.65: cwdc://XYt3O0HADQO.jpg
+photo.65.author: fetorus_mami
+photo.65.commitdate: 2025/5/27
+photo.65.link: ig://CIYH23zhD6P
+photo.65.tags: bamboo, climb, paws, peek
+photo.66: cwdc://XYt3O0HADQP.jpg
+photo.66.author: fetorus_mami
+photo.66.commitdate: 2025/5/27
+photo.66.link: ig://CIYH23zhD6Q
+photo.66.tags: bamboo, keeper, paws, standing
+photo.67: cwdc://XYt3O0HADQQ.jpg
+photo.67.author: fetorus_mami
+photo.67.commitdate: 2025/5/27
+photo.67.link: ig://CIYH23zhD6R
+photo.67.tags: apple time, dish, lunch time, sample, whiskers
+photo.68: cwdc://XYt3O0HADQR.jpg
+photo.68.author: fetorus_mami
+photo.68.commitdate: 2025/5/27
+photo.68.link: ig://CIYH23zhD6S
+photo.68.tags: apple time, sample, tongue, whiskers
+photo.69: cwdc://XYt3O0HADQS.jpg
+photo.69.author: fetorus_mami
+photo.69.commitdate: 2025/5/27
+photo.69.link: ig://CIYH23zhD6T
+photo.69.tags: apple time, dish, lunch time, paws, sample, smile, whiskers
+photo.70: cwdc://XYtxbvgADQB.jpg
+photo.70.author: fetorus_mami
+photo.70.commitdate: 2025/5/27
+photo.70.link: ig://CIYE9VgBqm-
+photo.70.tags: close-up, paws, sample, smile, techitechi, whiskers
+photo.71: cwdc://XYtxbvgADQC.jpg
+photo.71.author: fetorus_mami
+photo.71.commitdate: 2025/5/27
+photo.71.link: ig://CIYE9VgBqm_
+photo.71.tags: paws, sample, smile, whiskers
+photo.72: cwdc://XYtxbvgADQD.jpg
+photo.72.author: fetorus_mami
+photo.72.commitdate: 2025/5/27
+photo.72.link: ig://CIYE9VgBqnA
+photo.72.tags: paws, peek, sample, smile
+photo.73: cwdc://XYtxbvgADQE.jpg
+photo.73.author: fetorus_mami
+photo.73.commitdate: 2025/5/27
+photo.73.link: ig://CIYE9VgBqnB
+photo.73.tags: itchy, paws, techitechi
+photo.74: cwdc://XYtxbvgADQF.jpg
+photo.74.author: fetorus_mami
+photo.74.commitdate: 2025/5/27
+photo.74.link: ig://CIYE9VgBqnC
+photo.74.tags: shake, techitechi
+photo.75: cwdc://XYtxbvgADQG.jpg
+photo.75.author: fetorus_mami
+photo.75.commitdate: 2025/5/27
+photo.75.link: ig://CIYE9VgBqnD
+photo.75.tags: close-up, peek, sample, whiskers
+photo.76: cwdc://XYtxbvgADQH.jpg
+photo.76.author: fetorus_mami
+photo.76.commitdate: 2025/5/27
+photo.76.link: ig://CIYE9VgBqnE
+photo.76.tags: sample, whiskers
+photo.77: cwdc://XYtxbvgADQI.jpg
+photo.77.author: fetorus_mami
+photo.77.commitdate: 2025/5/27
+photo.77.link: ig://CIYE9VgBqnF
+photo.77.tags: close-up, sample, tongue, whiskers
+photo.78: cwdc://XYtxbvgADQJ.jpg
+photo.78.author: fetorus_mami
+photo.78.commitdate: 2025/5/27
+photo.78.link: ig://CIYE9VgBqnG
+photo.78.tags: paws, sample, standing
+photo.79: cwdc://XfiyBB1ADQZ.jpg
+photo.79.author: love__mitarashi
+photo.79.commitdate: 2025/5/27
+photo.79.link: ig://CLylP-qhocg
+photo.79.tags: bamboo, peek, tail
+photo.80: cwdc://XkzSssyADQC.jpg
+photo.80.author: gloryeui
+photo.80.commitdate: 2025/5/27
+photo.80.link: ig://COa1l0JB8fa
+photo.80.tags: portrait, sample
+photo.81: cwdc://XnLyB7zADQE.jpg
+photo.81.author: kisshan324
+photo.81.commitdate: 2025/5/27
+photo.81.link: ig://CPnFQbphNnF
+photo.81.tags: climb, portrait, tail
+photo.82: cwdc://XnLyB7zADQF.jpg
+photo.82.author: kisshan324
+photo.82.commitdate: 2025/5/27
+photo.82.link: ig://CPnFQbphNnG
+photo.82.tags: bridge, paws, peek, portrait
+photo.83: cwdc://XnLyB7zADQG.jpg
+photo.83.author: kisshan324
+photo.83.commitdate: 2025/5/27
+photo.83.link: ig://CPnFQbphNnH
+photo.83.tags: peek, portrait, tail
+photo.84: cwdc://XnLyB7zADQH.jpg
+photo.84.author: kisshan324
+photo.84.commitdate: 2025/5/27
+photo.84.link: ig://CPnFQbphNnJ
+photo.84.tags: paws, portrait, spider
+photo.85: cwdc://XnLyB7zADQI.jpg
+photo.85.author: kisshan324
+photo.85.commitdate: 2025/5/27
+photo.85.link: ig://CPnFQbphNnL
+photo.85.tags: paws, portrait, spider, tail
+photo.86: cwdc://XnWGKO6ADQK.jpg
+photo.86.author: kisshan324
+photo.86.commitdate: 2025/5/27
+photo.86.link: ig://CPsPUlNBJ3o
+photo.86.tags: paws, peek, portrait, standing
+photo.87: cwdc://XnWGKO6ADQL.jpg
+photo.87.author: kisshan324
+photo.87.commitdate: 2025/5/27
+photo.87.link: ig://CPsPUlNBJ3p
+photo.87.tags: distance, home, portrait, sign
+photo.88: cwdc://XnWGKO6ADQM.jpg
+photo.88.author: kisshan324
+photo.88.commitdate: 2025/5/27
+photo.88.link: ig://CPsPUlNBJ3q
+photo.88.tags: portrait, sample, smile
+photo.89: cwdc://XnWGKO6ADQN.jpg
+photo.89.author: kisshan324
+photo.89.commitdate: 2025/5/27
+photo.89.link: ig://CPsPUlNBJ3s
+photo.89.tags: distance, portrait, tail
+photo.90: cwdc://XnWGKO6ADQO.jpg
+photo.90.author: kisshan324
+photo.90.commitdate: 2025/5/27
+photo.90.link: ig://CPsPUlNBJ3v
+photo.90.tags: peek, portrait, sign, tail
+photo.91: cwdc://XnWGKO6ADQP.jpg
+photo.91.author: kisshan324
+photo.91.commitdate: 2025/5/27
+photo.91.link: ig://CPsPUlNBJ3w
+photo.91.tags: portrait, sample, smile
+photo.92: cwdc://XpsbeGHADQU.jpg
+photo.92.author: fetorus_mami
+photo.92.commitdate: 2025/5/27
+photo.92.link: ig://CQ3Z-gzhzWb
+photo.92.tags: nose, paws, sample, smile, whiskers
+photo.93: cwdc://XpsbeGHADQV.jpg
+photo.93.author: fetorus_mami
+photo.93.commitdate: 2025/5/27
+photo.93.link: ig://CQ3Z-gzhzWc
+photo.93.tags: paws, sample, smile, whiskers
+photo.94: cwdc://XpsbeGHADQW.jpg
+photo.94.author: fetorus_mami
+photo.94.commitdate: 2025/5/27
+photo.94.link: ig://CQ3Z-gzhzWd
+photo.94.tags: keeper, paws, standing, techitechi
+photo.95: cwdc://XpsbeGHADQX.jpg
+photo.95.author: fetorus_mami
+photo.95.commitdate: 2025/5/27
+photo.95.link: ig://CQ3Z-gzhzWe
+photo.95.tags: keeper, paws, standing
+photo.96: cwdc://Xq41zwxADQI.jpg
+photo.96.author: colette.jp
+photo.96.commitdate: 2025/5/27
+photo.96.link: ig://CRdnJWIh3Lh
+photo.96.tags: bamboo, mofumofu, portrait, sample, smile, tongue
+photo.97: cwdc://XqEqoZWADQa.jpg
+photo.97.author: love__mitarashi
+photo.97.commitdate: 2025/5/27
+photo.97.link: ig://CRDhjqbBNpc
+photo.97.tags: hammock, peek
+photo.98: cwdc://XurGiX-ADQG.jpg
+photo.98.author: hamiiiii831_
+photo.98.commitdate: 2025/5/27
+photo.98.link: ig://CTWvgpvB5BZ
+photo.98.tags: mofumofu, paws, sample, whiskers
+photo.99: cwdc://YSUqdYGADQB.jpg
+photo.99.author: colette.jp
+photo.99.commitdate: 2025/5/27
+photo.99.link: ig://ClLheJzPvxZ
+photo.99.tags: mofumofu, portrait, sample, tongue, whiskers
+photo.100: cwdc://YTH3DyzADQY.jpg
+photo.100.author: love__mitarashi
+photo.100.commitdate: 2025/5/27
+photo.100.link: ig://CllHxXJu-gu
+photo.100.tags: paws, peek, sample
+photo.101: cwdc://YWGe6ByADQB.jpg
+photo.101.author: makimaru18
+photo.101.commitdate: 2025/5/27
+photo.101.link: ig://CnEbsepPgpj
+photo.101.tags: paws, portrait, spider
+photo.102: cwdc://YWGe6ByADQC.jpg
+photo.102.author: makimaru18
+photo.102.commitdate: 2025/5/27
+photo.102.link: ig://CnEbsepPgpk
+photo.102.tags: laying down, mofumofu, portrait, sample
+photo.103: cwdc://YWGe6ByADQD.jpg
+photo.103.author: makimaru18
+photo.103.commitdate: 2025/5/27
+photo.103.link: ig://CnEbsepPgpm
+photo.103.tags: mofumofu, portrait, sample
+photo.104: cwdc://YXeQgAgADQD.jpg
+photo.104.author: colette.jp
+photo.104.commitdate: 2025/5/27
+photo.104.link: ig://CnwUfeAPhZ4
+photo.104.tags: paws, portrait, sample, tongue, toys
+photo.105: cwdc://YXeQgAgADQE.jpg
+photo.105.author: colette.jp
+photo.105.commitdate: 2025/5/27
+photo.105.link: ig://CnwUfeAPhZ5
+photo.105.tags: dish, paws, portrait, sample, standing, toys
+photo.106: cwdc://YXeQgAgADQF.jpg
+photo.106.author: colette.jp
+photo.106.commitdate: 2025/5/27
+photo.106.link: ig://CnwUfeAPhZ6
+photo.106.tags: close-up, mofumofu, paws, portrait, techitechi, toys
+photo.107: cwdc://YXeQgAgADQG.jpg
+photo.107.author: colette.jp
+photo.107.commitdate: 2025/5/27
+photo.107.link: ig://CnwUfeAPhZ7
+photo.107.tags: dish, lunch time, portrait, toys
+photo.108: cwdc://YcrM3OZADQB.jpg
+photo.108.author: joy93.87
+photo.108.commitdate: 2025/5/27
+photo.108.link: ig://CqWyrE8vFm7
+photo.108.tags: mofumofu, sample
+photo.109: cwdc://Yk1PKXKADQK.jpg
+photo.109.author: colette.jp
+photo.109.commitdate: 2025/5/27
+photo.109.link: ig://Cubz0pVPsuG
+photo.109.tags: mofumofu, peek, portrait, sample
+photo.110: cwdc://YkGhAfHADQE.jpg
+photo.110.author: hamiiiii831_
+photo.110.commitdate: 2025/5/27
+photo.110.link: ig://CuEcvtTvgR6
+photo.110.tags: mofumofu, sample
+photo.111: cwdc://YkGhAfHADQF.jpg
+photo.111.author: hamiiiii831_
+photo.111.commitdate: 2025/5/27
+photo.111.link: ig://CuEcvtTvgR7
+photo.111.tags: laying down, mofumofu, sample
+photo.112: cwdc://ZCSHNRvADQR.jpg
+photo.112.author: love__mitarashi
+photo.112.commitdate: 2025/5/27
+photo.112.link: ig://C9KP2GnyrBM
+photo.112.tags: sample
