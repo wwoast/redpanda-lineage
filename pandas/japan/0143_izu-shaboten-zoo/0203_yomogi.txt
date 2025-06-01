@@ -125,11 +125,11 @@ photo.22.author: ayusuke56
 photo.22.commitdate: 2019/7/9
 photo.22.link: ig://BzcL_9WhhP0
 photo.22.tags: grooming, mofumofu, portrait, tail
-photo.23: ig://BzhWNJuhfje/m
+photo.23: cwdc://WvAT7X9ADQA.jpg
 photo.23.author: ayusuke56
 photo.23.commitdate: 2019/7/9
-photo.23.link: https://www.instagram.com/ayusuke56/
-photo.23.tags: bridge, paws, portrait
+photo.23.link: ig://BzhWNJuhfje
+photo.23.tags: bridge, paws, portrait, sample
 photo.24: cwdc://WvKv_w2ADQM.jpg
 photo.24.author: ayusuke56
 photo.24.commitdate: 2019/7/9
@@ -599,9 +599,6 @@ photo.117.author: ruru_maki
 photo.117.commitdate: 2025/6/1
 photo.117.link: ig://B4buKTEB61P
 photo.117.tags: lunch time, portrait, sample, smile, whiskers
-species: 2
-studbook.id: 15139
-zoo: 143
 photo.118: cwdc://V-qyyXDADQD.jpg
 photo.118.author: love__mitarashi
 photo.118.commitdate: 2025/6/1
@@ -1317,4 +1314,27 @@ photo.260: cwdc://ZKnNJerADQG.jpg
 photo.260.author: miis_98
 photo.260.commitdate: 2025/6/1
 photo.260.link: ig://DBUy0NFhfVr
-photo.260.tags: pwas, portrait, sample, smile, tail, whiskers
+photo.260.tags: paws, portrait, sample, smile, tail, whiskers
+species: 2
+studbook.id: 15139
+zoo: 143
+photo.261: cwdc://WvAT7X9ADQB.jpg
+photo.261.author: ayusuke56
+photo.261.commitdate: 2025/6/1
+photo.261.link: ig://BzhWNJuhfjf
+photo.261.tags: paws, portrait, sample, wave, whiskers
+photo.262: cwdc://WvAT7X9ADQC.jpg
+photo.262.author: ayusuke56
+photo.262.commitdate: 2025/6/1
+photo.262.link: ig://BzhWNJuhfjg
+photo.262.tags: portrait, sample, whiskers
+photo.263: cwdc://WvAT7X9ADQD.jpg
+photo.263.author: ayusuke56
+photo.263.commitdate: 2025/6/1
+photo.263.link: ig://BzhWNJuhfjh
+photo.263.tags: paws, portrait, sample, whiskers
+photo.264: cwdc://WvAT7X9ADQE.jpg
+photo.264.author: ayusuke56
+photo.264.commitdate: 2025/6/1
+photo.264.link: ig://BzhWNJuhfji
+photo.264.tags: lunch time, portrait, whiskers
