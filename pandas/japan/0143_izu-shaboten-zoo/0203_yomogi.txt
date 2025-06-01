@@ -688,17 +688,17 @@ photo.134.tags: paws, portrait, sample, smile, wave, whiskers
 photo.135: cwdc://W41D1qoADQB.jpg
 photo.135.author: ruru_maki
 photo.135.commitdate: 2025/6/1
-photo.135.link: ig://B4buKTEB61N
+photo.135.link: ig://B4buKTEB61M?img_index=2
 photo.135.tags: paws, portrait, sample, wave, whiskers
 photo.136: cwdc://W41D1qoADQC.jpg
 photo.136.author: ruru_maki
 photo.136.commitdate: 2025/6/1
-photo.136.link: ig://B4buKTEB61O
+photo.136.link: ig://B4buKTEB61M?img_index=3
 photo.136.tags: apple time, lunch time, portrait, whiskers
 photo.137: cwdc://W41D1qoADQD.jpg
 photo.137.author: ruru_maki
 photo.137.commitdate: 2025/6/1
-photo.137.link: ig://B4buKTEB61P
+photo.137.link: ig://B4buKTEB61M?img_index=4
 photo.137.tags: lunch time, portrait, sample, smile, whiskers
 photo.138: cwdc://W5BSoY0ADQA.jpg
 photo.138.author: sasapan34
@@ -873,7 +873,7 @@ photo.171.tags: sample, smile, whiskers
 photo.172: cwdc://XjpsMfYADQB.jpg
 photo.172.author: kaoru_a358
 photo.172.commitdate: 2025/6/1
-photo.172.link: ig://CN2CVtcB4jD
+photo.172.link: ig://CN2CVtcB4jC?img_index=2
 photo.172.tags: close-up, paws, sample, techitechi, whiskers
 photo.173: cwdc://XkQZMteADQE.jpg
 photo.173.author: pink.b22
@@ -908,7 +908,7 @@ photo.178.tags: bamboo, portrait, sample, smile, whiskers
 photo.179: cwdc://X6hM7iFADQI.jpg
 photo.179.author: otenba_redpanda
 photo.179.commitdate: 2025/6/1
-photo.179.link: ig://CZRytOyvEbw
+photo.179.link: ig://CZRytOyvEbv?img_index=2
 photo.179.tags: mofumofu, portrait, sample, whiskers
 photo.180: cwdc://X99mXNTADQA.jpg
 photo.180.author: otenba_redpanda
@@ -973,7 +973,7 @@ photo.191.tags: paws, sample, whiskers
 photo.192: cwdc://YUl4YVNADQL.jpg
 photo.192.author: fetorus_mami
 photo.192.commitdate: 2025/6/1
-photo.192.link: ig://CmUIboWvLmU
+photo.192.link: ig://CmUIboWvLmR?img_index=4
 photo.192.tags: paws, sample, whiskers
 photo.193: cwdc://YWdtgwaADQC.jpg
 photo.193.author: kaoru_a358
@@ -983,17 +983,17 @@ photo.193.tags: paws, sample, wave
 photo.194: cwdc://YWdtgwaADQD.jpg
 photo.194.author: kaoru_a358
 photo.194.commitdate: 2025/6/1
-photo.194.link: ig://CnQC_19Bawx
+photo.194.link: ig://CnQC_19Bawu?img_index=4
 photo.194.tags: close-up, mofumofu, paws, sample, whiskers
 photo.195: cwdc://YWdtgwaADQE.jpg
 photo.195.author: kaoru_a358
 photo.195.commitdate: 2025/6/1
-photo.195.link: ig://CnQC_19Bawy
+photo.195.link: ig://CnQC_19Bawu?img_index=5
 photo.195.tags: close-up, paws, sample, whiskers
 photo.196: cwdc://YWdtgwaADQF.jpg
 photo.196.author: kaoru_a358
 photo.196.commitdate: 2025/6/1
-photo.196.link: ig://CnQC_19Bawz
+photo.196.link: ig://CnQC_19Bawu?img_index=6
 photo.196.tags: close-up, paws, sample, techitechi, whiskers
 photo.197: cwdc://YaNqi4XADQF.jpg
 photo.197.author: kotume4935
@@ -1023,12 +1023,12 @@ photo.201.tags: paws, peek, sample
 photo.202: cwdc://Yfc_JuaADQK.jpg
 photo.202.author: hamiiiii831_
 photo.202.commitdate: 2025/6/1
-photo.202.link: ig://Crvr0U9PWBk
+photo.202.link: ig://Crvr0U9PWBj?img_index=2
 photo.202.tags: paws, sample, whiskers
 photo.203: cwdc://Yfc_JuaADQL.jpg
 photo.203.author: hamiiiii831_
 photo.203.commitdate: 2025/6/1
-photo.203.link: ig://Crvr0U9PWBl
+photo.203.link: ig://Crvr0U9PWBj?img_index=3
 photo.203.tags: paws, sample, whiskers
 photo.204: cwdc://YxOvw5hADQB.jpg
 photo.204.author: fetorus_mami
@@ -1113,32 +1113,32 @@ photo.219.tags: bridge, paws, sample, whiskers
 photo.220: cwdc://ZDlNfhSADQD.jpg
 photo.220.author: hamiiiii831_
 photo.220.commitdate: 2025/6/1
-photo.220.link: ig://C9zy_OZS-DO
+photo.220.link: ig://C9zy_OZS-DN?img_index=2
 photo.220.tags: laying down, sample
 photo.221: cwdc://ZDlNfhSADQE.jpg
 photo.221.author: hamiiiii831_
 photo.221.commitdate: 2025/6/1
-photo.221.link: ig://C9zy_OZS-DP
+photo.221.link: ig://C9zy_OZS-DN?img_index=3
 photo.221.tags: sample, techitechi, whiskers
 photo.222: cwdc://ZDlNfhSADQF.jpg
 photo.222.author: hamiiiii831_
 photo.222.commitdate: 2025/6/1
-photo.222.link: ig://C9zy_OZS-DQ
+photo.222.link: ig://C9zy_OZS-DN?img_index=4
 photo.222.tags: bridge, sample
 photo.223: cwdc://ZDlNfhSADQG.jpg
 photo.223.author: hamiiiii831_
 photo.223.commitdate: 2025/6/1
-photo.223.link: ig://C9zy_OZS-DR
+photo.223.link: ig://C9zy_OZS-DN?img_index=5
 photo.223.tags: bamboo, paws, sample
 photo.224: cwdc://ZDlNfhSADQH.jpg
 photo.224.author: hamiiiii831_
 photo.224.commitdate: 2025/6/1
-photo.224.link: ig://C9zy_OZS-DS
+photo.224.link: ig://C9zy_OZS-DN?img_index=6
 photo.224.tags: paws, sample
 photo.225: cwdc://ZDlNfhSADQI.jpg
 photo.225.author: hamiiiii831_
 photo.225.commitdate: 2025/6/1
-photo.225.link: ig://C9zy_OZS-DT
+photo.225.link: ig://C9zy_OZS-DN?img_index=7
 photo.225.tags: peek, sample
 photo.226: cwdc://ZKnNJerADQF.jpg
 photo.226.author: miis_98
