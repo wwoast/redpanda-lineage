@@ -619,9 +619,6 @@ photo.121.author: daniele.tokyo
 photo.121.commitdate: 2024/3/12
 photo.121.link: ig://C4aTDFHPLEZ
 photo.121.tags: apple time, close-up, paws, sample, smile, whiskers
-species: 2
-studbook.id: 13168
-zoo: 13
 photo.122: cwdc://Y4yaF01ADQA.jpg
 photo.122.author: jas_forever_love
 photo.122.commitdate: 2025/6/4
@@ -647,3 +644,6 @@ photo.126.author: fetorus_mami
 photo.126.commitdate: 2025/6/4
 photo.126.link: ig://DE3zmcOS4R5
 photo.126.tags: paws, standing, yawn
+species: 2
+studbook.id: 13168
+zoo: 13

@@ -700,9 +700,6 @@ photo.137.author: fetorus_mami
 photo.137.commitdate: 2024/5/4
 photo.137.link: ig://C2UYBJ3PLmj
 photo.137.tags: smile, tail
-species: 2
-studbook.id: 1687
-zoo: 29
 photo.138: cwdc://ZJR1vtTADQB.jpg
 photo.138.author: chankunvv
 photo.138.commitdate: 2025/6/4
@@ -733,3 +730,6 @@ photo.143.author: colette.jp
 photo.143.commitdate: 2025/6/4
 photo.143.link: ig://DBJGQ-OSVWb
 photo.143.tags: mofumofu, portrait, sample, smile, whiskers
+species: 2
+studbook.id: 1687
+zoo: 29

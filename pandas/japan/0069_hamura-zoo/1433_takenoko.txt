@@ -63,96 +63,96 @@ photo.10.author: kaki_redpanda
 photo.10.commitdate: 2024/10/6
 photo.10.link: ig://DAyFY4BSR7w
 photo.10.tags: baby, paws, surprise
-photo.11: cwdc://ZRUQgb8ADQA.webp
-photo.11.author: fetorus_mami
-photo.11.commitdate: 2025/3/14
-photo.11.link: ig://DErUfruSGdD
-photo.11.tags: bamboo, paws, window
-photo.12: cwdc://ZRUQgb8ADQB.webp
-photo.12.author: fetorus_mami
-photo.12.commitdate: 2025/3/14
-photo.12.link: ig://DErUfruSGdE
-photo.12.tags: close-up, paws, sample
-photo.13: cwdc://ZRUQgb8ADQC.webp
-photo.13.author: fetorus_mami
-photo.13.commitdate: 2025/3/14
-photo.13.link: ig://DErUfruSGdF
-photo.13.tags: close-up, paws, sample
+photo.11: cwdc://ZKEi3gQADQA.jpg
+photo.11.author: roko_mm
+photo.11.commitdate: 2025/6/4
+photo.11.link: ig://DBDdrN4SNEV
+photo.11.tags: baby, portrait, sample, tail
+photo.12: cwdc://ZKEi3gQADQB.jpg
+photo.12.author: roko_mm
+photo.12.commitdate: 2025/6/4
+photo.12.link: ig://DBDdrN4SNEU
+photo.12.tags: baby, climb, paws, portrait, sample, tail
+photo.13: cwdc://ZKEi3gQADQC.jpg
+photo.13.author: roko_mm
+photo.13.commitdate: 2025/6/4
+photo.13.link: ig://DBDdrN4SNET
+photo.13.tags: baby, portrait, sample, tail
+photo.14: cwdc://ZKEi3gQADQD.jpg
+photo.14.author: roko_mm
+photo.14.commitdate: 2025/6/4
+photo.14.link: ig://DBDdrN4SNES
+photo.14.tags: baby, climb, paws, portrait, sample, tail
+photo.15: cwdc://ZKEi3gQADQE.jpg
+photo.15.author: roko_mm
+photo.15.commitdate: 2025/6/4
+photo.15.link: ig://DBDdrN4SNER
+photo.15.tags: baby, bite, mofumofu, portrait, sample
+photo.16: cwdc://ZKEi3gQADQF.jpg
+photo.16.author: roko_mm
+photo.16.commitdate: 2025/6/4
+photo.16.link: ig://DBDdrN4SNEQ
+photo.16.tags: paws, portrait, sample, tail
+photo.17: cwdc://ZKLJmtmADQA.jpg
+photo.17.author: rie_panda55
+photo.17.commitdate: 2025/6/4
+photo.17.link: ig://DBGxC0jSA12
+photo.17.tags: bamboo, paws, portrait
+photo.18: cwdc://ZKLJmtmADQB.jpg
+photo.18.author: rie_panda55
+photo.18.commitdate: 2025/6/4
+photo.18.link: ig://DBGxC0jSA11
+photo.18.tags: baby, dish, mofumofu, portrait, sample, tail
+photo.19: cwdc://ZKLJmtmADQC.jpg
+photo.19.author: rie_panda55
+photo.19.commitdate: 2025/6/4
+photo.19.link: ig://DBGxC0jSA10
+photo.19.tags: baby, portrait, sample, tail
+photo.20: cwdc://ZKfsya9ADQA.jpg
+photo.20.author: miis_98
+photo.20.commitdate: 2025/6/4
+photo.20.link: ig://DBRCorOyBTP
+photo.20.tags: tail, toys
+photo.21: cwdc://ZKfsya9ADQB.jpg
+photo.21.author: miis_98
+photo.21.commitdate: 2025/6/4
+photo.21.link: ig://DBRCorOyBTO
+photo.21.tags: laying down, paws, tail
+photo.22: cwdc://ZKpeeRmADQA.jpg
+photo.22.author: daniele.tokyo
+photo.22.commitdate: 2025/6/4
+photo.22.link: ig://DBV7emjSNB1
+photo.22.tags: climb, paws, smile
+photo.23: cwdc://ZK9yeVCADQA.jpg
+photo.23.author: ifumoto88
+photo.23.commitdate: 2025/6/4
+photo.23.link: ig://DBgFeoRTJfd
+photo.23.tags: laying down, mofumofu, portrait, sample
+photo.24: cwdc://ZLigiBmADQB.jpg
+photo.24.author: ifumoto88
+photo.24.commitdate: 2025/6/4
+photo.24.link: ig://DBycgejTBQY
+photo.24.tags: paws, tail, toys
+photo.25: cwdc://ZL2uUZlADQB.jpg
+photo.25.author: daniele.tokyo
+photo.25.commitdate: 2025/6/4
+photo.25.link: ig://DB8jZqiyK9l
+photo.25.tags: sample
+photo.26: cwdc://ZRUQgb8ADQA.webp
+photo.26.author: fetorus_mami
+photo.26.commitdate: 2025/3/14
+photo.26.link: ig://DErUfruSGdD
+photo.26.tags: bamboo, paws, window
+photo.27: cwdc://ZRUQgb8ADQB.webp
+photo.27.author: fetorus_mami
+photo.27.commitdate: 2025/3/14
+photo.27.link: ig://DErUfruSGdE
+photo.27.tags: close-up, paws, sample
+photo.28: cwdc://ZRUQgb8ADQC.webp
+photo.28.author: fetorus_mami
+photo.28.commitdate: 2025/3/14
+photo.28.link: ig://DErUfruSGdF
+photo.28.tags: close-up, paws, sample
 species: 2
 studbook.id: unknown
 zoo: 69
-photo.14: cwdc://ZK9yeVCADQA.jpg
-photo.14.author: ifumoto88
-photo.14.commitdate: 2025/6/4
-photo.14.link: ig://DBgFeoRTJfd
-photo.14.tags: laying down, mofumofu, portrait, sample
-photo.15: cwdc://ZKEi3gQADQA.jpg
-photo.15.author: roko_mm
-photo.15.commitdate: 2025/6/4
-photo.15.link: ig://DBDdrN4SNEV
-photo.15.tags: baby, portrait, sample, tail
-photo.16: cwdc://ZKEi3gQADQB.jpg
-photo.16.author: roko_mm
-photo.16.commitdate: 2025/6/4
-photo.16.link: ig://DBDdrN4SNEU
-photo.16.tags: baby, climb, paws, portrait, sample, tail
-photo.17: cwdc://ZKEi3gQADQC.jpg
-photo.17.author: roko_mm
-photo.17.commitdate: 2025/6/4
-photo.17.link: ig://DBDdrN4SNET
-photo.17.tags: baby, portrait, sample, tail
-photo.18: cwdc://ZKEi3gQADQD.jpg
-photo.18.author: roko_mm
-photo.18.commitdate: 2025/6/4
-photo.18.link: ig://DBDdrN4SNES
-photo.18.tags: baby, climb, paws, portrait, sample, tail
-photo.19: cwdc://ZKEi3gQADQE.jpg
-photo.19.author: roko_mm
-photo.19.commitdate: 2025/6/4
-photo.19.link: ig://DBDdrN4SNER
-photo.19.tags: baby, bite, mofumofu, portrait, sample
-photo.20: cwdc://ZKEi3gQADQF.jpg
-photo.20.author: roko_mm
-photo.20.commitdate: 2025/6/4
-photo.20.link: ig://DBDdrN4SNEQ
-photo.20.tags: paws, portrait, sample, tail
-photo.21: cwdc://ZKLJmtmADQA.jpg
-photo.21.author: rie_panda55
-photo.21.commitdate: 2025/6/4
-photo.21.link: ig://DBGxC0jSA12
-photo.21.tags: bamboo, paws, portrait
-photo.22: cwdc://ZKLJmtmADQB.jpg
-photo.22.author: rie_panda55
-photo.22.commitdate: 2025/6/4
-photo.22.link: ig://DBGxC0jSA11
-photo.22.tags: baby, dish, mofumofu, portrait, sample, tail
-photo.23: cwdc://ZKLJmtmADQC.jpg
-photo.23.author: rie_panda55
-photo.23.commitdate: 2025/6/4
-photo.23.link: ig://DBGxC0jSA10
-photo.23.tags: baby, portrait, sample, tail
-photo.24: cwdc://ZKfsya9ADQA.jpg
-photo.24.author: miis_98
-photo.24.commitdate: 2025/6/4
-photo.24.link: ig://DBRCorOyBTP
-photo.24.tags: tail, toys
-photo.25: cwdc://ZKfsya9ADQB.jpg
-photo.25.author: miis_98
-photo.25.commitdate: 2025/6/4
-photo.25.link: ig://DBRCorOyBTO
-photo.25.tags: laying down, paws, tail
-photo.26: cwdc://ZKpeeRmADQA.jpg
-photo.26.author: daniele.tokyo
-photo.26.commitdate: 2025/6/4
-photo.26.link: ig://DBV7emjSNB1
-photo.26.tags: climb, paws, smile
-photo.27: cwdc://ZL2uUZlADQB.jpg
-photo.27.author: daniele.tokyo
-photo.27.commitdate: 2025/6/4
-photo.27.link: ig://DB8jZqiyK9l
-photo.27.tags: sample
-photo.28: cwdc://ZLigiBmADQB.jpg
-photo.28.author: ifumoto88
-photo.28.commitdate: 2025/6/4
-photo.28.link: ig://DBycgejTBQY
-photo.28.tags: paws, tail, toys

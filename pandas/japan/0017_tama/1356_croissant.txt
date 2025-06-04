@@ -81,11 +81,6 @@ photo.13.author: yuredpanda
 photo.13.commitdate: 2022/9/4
 photo.13.link: ig://Ch1RYyUPpPP
 photo.13.tags: mofumofu, portrait, sample, smile, wink
-species: 2
-zh.name: 可頌
-zh.nicknames: none
-zh.othernames: none
-zoo: 17
 photo.14: cwdc://ZMaHLf8ADQA.jpg
 photo.14.author: tamazoowalking
 photo.14.commitdate: 2025/6/4
@@ -111,3 +106,8 @@ photo.18.author: tamazoowalking
 photo.18.commitdate: 2025/6/4
 photo.18.link: ig://DCOP1NuSsEz
 photo.18.tags: portrait, sample, whiskers
+species: 2
+zh.name: 可頌
+zh.nicknames: none
+zh.othernames: none
+zoo: 17
