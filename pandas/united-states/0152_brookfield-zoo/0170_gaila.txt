@@ -18,20 +18,20 @@ location.1: 114, 2011/6/5
 location.2: 115, 2012/8/15
 location.3: 47, 2016/1/13
 location.4: 152, 2019/3/28
-photo.1: https://www.codaworry.com/images/rpf/gaila-1-kansascity.jpg
+photo.1: cwdc://ULMEfwAJcIB.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/9
-photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.link: ig://CXNEd-vt5Ze?img_index=6
 photo.1.tags: bamboo
-photo.2: https://www.codaworry.com/images/rpf/gaila-2-kansascity.jpg
+photo.2: cwdc://ULMEfwAJcIC.jpg
 photo.2.author: worldthathesees
 photo.2.commitdate: 2019/4/9
-photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.link: ig://CXNEd-vt5Ze
 photo.2.tags: smile
-photo.3: https://www.codaworry.com/images/rpf/gaila-3-kansascity.jpg
+photo.3: cwdc://ULMEfwAJcID.jpg
 photo.3.author: worldthathesees
 photo.3.commitdate: 2019/4/9
-photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.link: ig://CXNEd-vt5Ze
 photo.3.tags: bamboo
 photo.4: cwdc://VPtTIlKADQA.jpg
 photo.4.author: djjohnbeaver
