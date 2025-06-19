@@ -178,9 +178,6 @@ photo.32.author: wumpwoast
 photo.32.commitdate: 2023/4/21
 photo.32.link: ig://CqTpZ5UvgKk
 photo.32.tags: paws, peek, portrait, sample
-species: 1
-studbook.id: 1109
-zoo: 152
 photo.33: cwdc://YPpoV3MADQA.jpg
 photo.33.author: wumpwoast
 photo.33.commitdate: 2025/4/23
@@ -321,3 +318,6 @@ photo.60.author: wumpwoast
 photo.60.commitdate: 2025/6/17
 photo.60.link: ig://BtwW5o3F3dp
 photo.60.tags: portrait, sample
+species: 1
+studbook.id: 1109
+zoo: 152
