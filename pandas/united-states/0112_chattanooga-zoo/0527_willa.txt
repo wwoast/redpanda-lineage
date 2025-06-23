@@ -73,10 +73,10 @@ photo.11.author: chattanoogazoo
 photo.11.commitdate: 2020/12/2
 photo.11.link: ig://CH_HO8wJIaF
 photo.11.tags: close-up, peek, portrait, sample, whiskers, white face
-photo.12: ig://CaKzhvvv9V4/m
+photo.12: cwdc://X8TOkj_ADQA.jpg
 photo.12.author: chattanoogazoo
 photo.12.commitdate: 2022/3/11
-photo.12.link: https://www.instagram.com/chattanoogazoo/
+photo.12.link: ig://carsontheredpanda/CaKzhvvv9V4
 photo.12.tags: laying down, portrait, sample, white face
 photo.13: cwdc://X8d7jNnADQH.jpg
 photo.13.author: chattanoogazoo
@@ -98,10 +98,6 @@ photo.16.author: chattanoogazoo
 photo.16.commitdate: 2023/1/12
 photo.16.link: ig://Cm4VE5_sKV5
 photo.16.tags: portrait, sample, white face
-species: 1
-studbook.id: 1439
-uncertainty: location.4 date
-zoo: 112
 photo.17: cwdc://WsKxriAADQE.jpg
 photo.17.author: chattanoogazoo
 photo.17.commitdate: 2025/6/22
@@ -177,3 +173,32 @@ photo.31.author: chattanoogazoo
 photo.31.commitdate: 2025/6/22
 photo.31.link: ig://C8-XIUtSYYA
 photo.31.tags: laying down, mofumofu, sample, whiskers
+species: 1
+studbook.id: 1439
+uncertainty: location.4 date
+zoo: 112
+photo.32: cwdc://X2ldTT5ADQF.jpg
+photo.32.author: chattanoogazoo
+photo.32.commitdate: 2025/6/22
+photo.32.link: ig://carsontheredpanda/CXT65Hsv8Kn
+photo.32.tags: laying down, paws, sample, smile
+photo.33: cwdc://XpqorcdADQB.jpg
+photo.33.author: chattanoogazoo
+photo.33.commitdate: 2025/6/22
+photo.33.link: ig://carsontheredpanda/CQ2glL-rUx-
+photo.33.tags: hammock, portrait, sample, smile, tongue, yawn
+photo.34: cwdc://XpqorcdADQC.jpg
+photo.34.author: chattanoogazoo
+photo.34.commitdate: 2025/6/22
+photo.34.link: ig://carsontheredpanda/CQ2glL-rUx_
+photo.34.tags: close-up, portrait, sample, tongue, whiskers
+photo.35: cwdc://XpqorcdADQD.jpg
+photo.35.author: chattanoogazoo
+photo.35.commitdate: 2025/6/22
+photo.35.link: ig://carsontheredpanda/CQ2glL-rUyA
+photo.35.tags: close-up, portrait, sample, whiskers
+photo.36: cwdc://YgBvmBOADQE.jpg
+photo.36.author: chattanoogazoo
+photo.36.commitdate: 2025/6/22
+photo.36.link: ig://carsontheredpanda/CsCECeXPCRk
+photo.36.tags: paws, portrait, sample
