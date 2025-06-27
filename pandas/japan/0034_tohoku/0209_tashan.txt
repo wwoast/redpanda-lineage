@@ -39,41 +39,41 @@ photo.5.author: ifumoto88
 photo.5.commitdate: 2020/9/14
 photo.5.link: ig://CE1Te6FhR2G
 photo.5.tags: portrait, whiskers
-photo.6: cwdc://XphnihEADQA.jpg
-photo.6.author: daniele.tokyo
-photo.6.commitdate: 2021/7/1
-photo.6.link: ig://CQyAAuSB2fC
-photo.6.tags: bite, nose, portrait, profile, smile, tongue
-photo.7: cwdc://XtUyh42ADQA.jpg
-photo.7.author: wumpwoast
-photo.7.commitdate: 2021/8/18
-photo.7.link: ig://CSrlgaLFmeY
-photo.7.tags: paws, portrait
-photo.8: cwdc://YNRVgK2ADQA.jpg
-photo.8.author: wumpwoast
-photo.8.commitdate: 2022/10/6
-photo.8.link: ig://Cip2_jLJuZ9
-photo.8.tags: portrait, sample, whiskers
-photo.9: cwdc://YOx_pEkADQA.jpg
+photo.6: cwdc://XRoOe4rADQB.jpg
+photo.6.author: ifumoto88
+photo.6.commitdate: 2025/6/27
+photo.6.link: ig://CE1Te6FhR2H
+photo.6.tags: peek, portrait
+photo.7: cwdc://XRoOe4rADQC.jpg
+photo.7.author: ifumoto88
+photo.7.commitdate: 2025/6/27
+photo.7.link: ig://CE1Te6FhR2I
+photo.7.tags: peek, portrait
+photo.8: cwdc://Xm9iRcoADQA.jpg
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2025/6/27
+photo.8.link: ig://CPf9YMEBTEM
+photo.8.tags: mofumofu, peek
+photo.9: cwdc://XphnihEADQA.jpg
 photo.9.author: daniele.tokyo
-photo.9.commitdate: 2022/10/14
-photo.9.link: ig://CjaMEACJFTQ
-photo.9.tags: close-up, lips, sample, whiskers
-photo.10: cwdc://XRoOe4rADQB.jpg
-photo.10.author: ifumoto88
-photo.10.commitdate: 2025/6/27
-photo.10.link: ig://CE1Te6FhR2H
-photo.10.tags: peek, portrait
-photo.11: cwdc://XRoOe4rADQC.jpg
-photo.11.author: ifumoto88
-photo.11.commitdate: 2025/6/27
-photo.11.link: ig://CE1Te6FhR2I
-photo.11.tags: peek, portrait
-photo.12: cwdc://Xm9iRcoADQA.jpg
-photo.12.author: fetorus_mami
-photo.12.commitdate: 2025/6/27
-photo.12.link: ig://CPf9YMEBTEM
-photo.12.tags: mofumofu, peek
+photo.9.commitdate: 2021/7/1
+photo.9.link: ig://CQyAAuSB2fC
+photo.9.tags: bite, nose, portrait, profile, smile, tongue
+photo.10: cwdc://XtUyh42ADQA.jpg
+photo.10.author: wumpwoast
+photo.10.commitdate: 2021/8/18
+photo.10.link: ig://CSrlgaLFmeY
+photo.10.tags: paws, portrait
+photo.11: cwdc://YNRVgK2ADQA.jpg
+photo.11.author: wumpwoast
+photo.11.commitdate: 2022/10/6
+photo.11.link: ig://Cip2_jLJuZ9
+photo.11.tags: portrait, sample, whiskers
+photo.12: cwdc://YOx_pEkADQA.jpg
+photo.12.author: daniele.tokyo
+photo.12.commitdate: 2022/10/14
+photo.12.link: ig://CjaMEACJFTQ
+photo.12.tags: close-up, lips, sample, whiskers
 species: 2
 studbook.id: 0274
 zoo: 34
