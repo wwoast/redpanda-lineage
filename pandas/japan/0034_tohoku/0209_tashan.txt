@@ -19,26 +19,26 @@ photo.1.author: mariten1119
 photo.1.commitdate: 2020/5/17
 photo.1.link: https://www.instagram.com/mariten1119/
 photo.1.tags: portrait, whiskers
-photo.2: ig://BfYhuLpBlIW/m
+photo.2: cwdc://WGuq9byADQA.jpg
 photo.2.author: craig_craig_craig
 photo.2.commitdate: 2018/7/26
-photo.2.link: https://www.instagram.com/craig_craig_craig/
-photo.2.tags: sleeping
-photo.3: ig://BpfjmqMl-8k/m
+photo.2.link: ig://BfYhuLpBlIW
+photo.2.tags: laying down, sleeping, tail
+photo.3: cwdc://Wa8uuY5ADQB.jpg
 photo.3.author: craig_craig_craig
 photo.3.commitdate: 2018/10/28
-photo.3.link: https://www.instagram.com/craig_craig_craig/
-photo.3.tags: portrait
+photo.3.link: ig://BpfjmqMl-8k
+photo.3.tags: portrait, sample, smile, whiskers
 photo.4: cwdc://WcvS1OIADQA.jpg
 photo.4.author: wumpwoast
 photo.4.commitdate: 2018/11/20
 photo.4.link: ig://BqY1qE0FGgB
 photo.4.tags: portrait
-photo.5: ig://CE1Te6FhR2G/m
+photo.5: cwdc://XRoOe4rADQA.jpg
 photo.5.author: ifumoto88
 photo.5.commitdate: 2020/9/14
-photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: whiskers
+photo.5.link: ig://CE1Te6FhR2G
+photo.5.tags: portrait, whiskers
 photo.6: cwdc://XphnihEADQA.jpg
 photo.6.author: daniele.tokyo
 photo.6.commitdate: 2021/7/1
@@ -54,11 +54,26 @@ photo.8.author: wumpwoast
 photo.8.commitdate: 2022/10/6
 photo.8.link: ig://Cip2_jLJuZ9
 photo.8.tags: portrait, sample, whiskers
-photo.9: ig://CjaMEACJFTQ/m
+photo.9: cwdc://YOx_pEkADQA.jpg
 photo.9.author: daniele.tokyo
 photo.9.commitdate: 2022/10/14
-photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.link: ig://CjaMEACJFTQ
 photo.9.tags: close-up, lips, sample, whiskers
 species: 2
 studbook.id: 0274
 zoo: 34
+photo.10: cwdc://XRoOe4rADQB.jpg
+photo.10.author: ifumoto88
+photo.10.commitdate: 2025/6/27
+photo.10.link: ig://CE1Te6FhR2H
+photo.10.tags: peek, portrait
+photo.11: cwdc://XRoOe4rADQC.jpg
+photo.11.author: ifumoto88
+photo.11.commitdate: 2025/6/27
+photo.11.link: ig://CE1Te6FhR2I
+photo.11.tags: peek, portrait
+photo.12: cwdc://Xm9iRcoADQA.jpg
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2025/6/27
+photo.12.link: ig://CPf9YMEBTEM
+photo.12.tags: mofumofu, peek

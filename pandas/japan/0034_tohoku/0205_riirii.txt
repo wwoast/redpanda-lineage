@@ -13,186 +13,436 @@ ja.nicknames: none
 ja.othernames: 日暦
 language.order: ja, en
 litter: none
-photo.1: ig://BhDV56XhN5c/m
+photo.1: cwdc://WKETU5PADQB.jpg
 photo.1.author: zoowfreedom299
 photo.1.commitdate: 2018/7/26
-photo.1.link: https://www.instagram.com/zoowfreedom299/
-photo.1.tags: portrait
+photo.1.link: ig://BhDV56XhN5c
+photo.1.tags: paws, portrait, sample, whiskers
 photo.2: cwdc://WMjjrxzADQA.jpg
 photo.2.author: zoowfreedom299
 photo.2.commitdate: 2018/7/26
 photo.2.link: ig://BiS-FWpl90Y
 photo.2.tags: grooming, portrait, profile, sample, tail
-photo.3: ig://BjgRFdLljIu/m
+photo.3: cwdc://WO-Jr-3ADQC.jpg
 photo.3.author: zoowfreedom299
 photo.3.commitdate: 2018/7/26
-photo.3.link: https://www.instagram.com/zoowfreedom299/
-photo.3.tags: smile
-photo.4: ig://Brd0tFtlcsG/m
+photo.3.link: ig://BjgRFdLljIu
+photo.3.tags: sample, smile, whiskers
+photo.4: cwdc://We5Q7P7ADQE.jpg
 photo.4.author: zoowfreedom299
 photo.4.commitdate: 2019/6/3
-photo.4.link: https://www.instagram.com/zoowfreedom299/
+photo.4.link: ig://Brd0tFtlcsG
 photo.4.tags: bamboo, paws, smile
-photo.5: ig://B10yXCGBGq5/m
+photo.5: cwdc://WznMPIsADQA.jpg
 photo.5.author: zoowfreedom299
 photo.5.commitdate: 2019/9/3
-photo.5.link: https://www.instagram.com/zoowfreedom299/
-photo.5.tags: portrait, smile
-photo.6: ig://B7HRLQLBj_c/m
+photo.5.link: ig://B10yXCGBGq5
+photo.5.tags: portrait, sample, smile
+photo.6: cwdc://W-MJ3k2ADQA.jpg
 photo.6.author: kipekaila
 photo.6.commitdate: 2020/1/14
-photo.6.link: https://www.instagram.com/kipekaila/
-photo.6.tags: grooming, paws, portrait, whiskers
-photo.7: ig://B7b8EFxBYdc/m
+photo.6.link: ig://B7HRLQLBj_c
+photo.6.tags: grooming, paws, portrait, sample, whiskers
+photo.7: cwdc://W-1fpQCADQA.jpg
 photo.7.author: ssc6105
 photo.7.commitdate: 2020/1/18
-photo.7.link: https://www.instagram.com/ssc6105/
-photo.7.tags: dish, smile, tongue, whiskers
-photo.8: ig://B-lEkFRh1Z1/m
+photo.7.link: ig://B7b8EFxBYdc
+photo.7.tags: dish, sample, smile, tongue, whiskers
+photo.8: cwdc://XFHwpPDADQD.jpg
 photo.8.author: zoowfreedom299
 photo.8.commitdate: 2020/4/9
-photo.8.link: https://www.instagram.com/zoowfreedom299/
-photo.8.tags: whiskers
-photo.9: ig://CCZUiD3BVfj/m
+photo.8.link: ig://B-lEkFRh1Z1
+photo.8.tags: sample, whiskers
+photo.9: cwdc://XMwQlMOADQB.jpg
 photo.9.author: ssc6105
 photo.9.commitdate: 2020/9/7
-photo.9.link: https://www.instagram.com/ssc6105/
-photo.9.tags: laying down, paws, peek
-photo.10: ig://CD8mdfghmfl/m
+photo.9.link: ig://CCZUiD3BVfj
+photo.9.tags: laying down, paws, peek, sample
+photo.10: cwdc://XP20cDhADQJ.jpg
 photo.10.author: daniele.tokyo
 photo.10.commitdate: 2020/8/17
-photo.10.link: https://www.instagram.com/daniele.tokyo/
+photo.10.link: ig://CD8mdfghmfl
 photo.10.tags: flowers, paws, standing, tail
-photo.11: ig://CEXsOmBhPvl/m
+photo.11: cwdc://XQs_-QjADQF.jpg
 photo.11.author: zoowfreedom299
 photo.11.commitdate: 2020/9/3
-photo.11.link: https://www.instagram.com/zoowfreedom299/
+photo.11.link: ig://CEXsOmBhPvl
 photo.11.tags: peek, tail, whiskers
-photo.12: ig://CE9QwPGho3P/m
+photo.12: cwdc://XR4JBitADQA.jpg
 photo.12.author: ifumoto88
 photo.12.commitdate: 2020/9/15
-photo.12.link: https://www.instagram.com/ifumoto88/
-photo.12.tags: portrait, smile
-photo.13: ig://CFDahxaBo1k/m
+photo.12.link: ig://CE9QwPGho3P
+photo.12.tags: portrait, sample, smile, tongue, whiskers
+photo.13: cwdc://XSEcknUADQA.jpg
 photo.13.author: alto0908
 photo.13.commitdate: 2020/9/15
-photo.13.link: https://www.instagram.com/alto0908/
-photo.13.tags: air tasting, laying down, portrait, tongue, whiskers
-photo.14: ig://CGCfxSdBnNR/m
+photo.13.link: ig://CFDahxaBo1k
+photo.13.tags: air tasting, close-up, laying down, portrait, sample, tongue, whiskers
+photo.14: cwdc://XUCnDpaADQN.jpg
 photo.14.author: daniele.tokyo
 photo.14.commitdate: 2020/11/11
-photo.14.link: https://www.instagram.com/daniele.tokyo/
-photo.14.tags: laying down, paws, portrait, smile, tail
-photo.15: ig://CGIAPnIhV46/m
+photo.14.link: ig://CGCfxSdBnNR
+photo.14.tags: laying down, paws, portrait, sample, smile, tail
+photo.15: cwdc://XUNoASxADQB.jpg
 photo.15.author: ifumoto88
 photo.15.commitdate: 2020/10/11
-photo.15.link: https://www.instagram.com/ifumoto88/
-photo.15.tags: mofumofu, paws, portrait
-photo.16: ig://CJUToo-hApE/m
+photo.15.link: ig://CGIAPnIhV46
+photo.15.tags: mofumofu, paws, portrait, sample, whiskers
+photo.16: cwdc://XamOyWdADQD.jpg
 photo.16.author: hidehaya_biei
 photo.16.commitdate: 2021/6/13
-photo.16.link: https://www.instagram.com/hidehaya_biei/
+photo.16.link: ig://CJUToo-hApE
 photo.16.tags: close-up, whiskers
-photo.17: ig://CJsLzpqh6UH/m
+photo.17: cwdc://XbV_IX1ADQC.jpg
 photo.17.author: hidehaya_biei
 photo.17.commitdate: 2021/1/30
-photo.17.link: https://www.instagram.com/hidehaya_biei/
+photo.17.link: ig://CJsLzpqh6UH
 photo.17.tags: paws, snow
-photo.18: ig://CKWA08Jhsop/m
+photo.18: cwdc://XcppK8zADQO.jpg
 photo.18.author: daniele.tokyo
 photo.18.commitdate: 2021/5/30
-photo.18.link: https://www.instagram.com/daniele.tokyo/
-photo.18.tags: mofumofu, paws, snow, tail
-photo.19: ig://CKiRXDRhErx/m
+photo.18.link: ig://CKWA08Jhsop
+photo.18.tags: mofumofu, paws, sample, snow, tail, whiskers
+photo.19: cwdc://XdCKPLDADQE.jpg
 photo.19.author: hidehaya_biei
 photo.19.commitdate: 2021/5/30
-photo.19.link: https://www.instagram.com/hidehaya_biei/
+photo.19.link: ig://CKiRXDRhErx
 photo.19.tags: grooming, paws, tongue
-photo.20: ig://CMHT0aHhoZf/m
+photo.20: cwdc://XgMPJ4vADQP.jpg
 photo.20.author: daniele.tokyo
 photo.20.commitdate: 2022/2/28
-photo.20.link: https://www.instagram.com/daniele.tokyo/
-photo.20.tags: apple time, keeper, portrait, smile, toys
-photo.21: ig://COxQQ_ThFY7/m
+photo.20.link: ig://CMHT0aHhoZf
+photo.20.tags: apple time, keeper, portrait, smile, surprise, toys
+photo.21: cwdc://XlgIDDHADQT.jpg
 photo.21.author: daniele.tokyo
 photo.21.commitdate: 2021/6/15
-photo.21.link: https://www.instagram.com/daniele.tokyo/
+photo.21.link: ig://COxQQ_ThFY7
 photo.21.tags: nose, peek
-photo.22: ig://CPAtCKnhWe0/m
+photo.22: cwdc://Xl_BlZvADQW.jpg
 photo.22.author: daniele.tokyo
 photo.22.commitdate: 2021/7/21
-photo.22.link: https://www.instagram.com/daniele.tokyo/
-photo.22.tags: laying down, paws, portrait, sleeping, tail
-photo.23: ig://CR3heCphu7b/m
+photo.22.link: ig://CPAtCKnhWe0
+photo.22.tags: laying down, paws, portrait, sample, sleeping, tail
+photo.23: cwdc://XrsqdJzADQX.jpg
 photo.23.author: daniele.tokyo
 photo.23.commitdate: 2023/8/21
-photo.23.link: https://www.instagram.com/daniele.tokyo/
+photo.23.link: ig://CR3heCphu7b
 photo.23.tags: bite, blink, paws
-photo.24: ig://CTCMj-eB_Wi/m
+photo.24: cwdc://XuCApBcADQg.jpg
 photo.24.author: daniele.tokyo
 photo.24.commitdate: 2021/10/7
-photo.24.link: https://www.instagram.com/daniele.tokyo/
-photo.24.tags: keeper, peek, whiskers
+photo.24.link: ig://CTCMj-eB_Wi
+photo.24.tags: keeper, peek, sample, whiskers
 photo.25: ig://CU7JPushxd2/m
 photo.25.author: rie_panda55
 photo.25.commitdate: 2022/3/11
 photo.25.link: https://www.instagram.com/rie_panda55/
 photo.25.tags: peek, portrait, tail
-photo.26: ig://CY-IYiGPSwv/m
+photo.26: cwdc://X554SIsADQI.jpg
 photo.26.author: hidehaya_biei
 photo.26.commitdate: 2023/8/21
-photo.26.link: https://www.instagram.com/hidehaya_biei/
+photo.26.link: ig://CY-IYiGPSwv
 photo.26.tags: sample, snow
-photo.27: ig://CZOu8eqL02a/m
+photo.27: cwdc://X6bFaB0ADQk.jpg
 photo.27.author: daniele.tokyo
 photo.27.commitdate: 2023/8/21
-photo.27.link: https://www.instagram.com/daniele.tokyo/
+photo.27.link: ig://CZOu8eqL02a
 photo.27.tags: paws, sample, smile, snow
-photo.28: ig://CbFPApcPbTK/m
+photo.28: cwdc://X-IFiXYADQI.jpg
 photo.28.author: daniele.tokyo
 photo.28.commitdate: 2023/8/21
-photo.28.link: https://www.instagram.com/daniele.tokyo/
+photo.28.link: ig://CbFPApcPbTK
 photo.28.tags: apple time, paws, sample, standing, whiskers
-photo.29: ig://CbhV_DlrmFa/m
+photo.29: cwdc://X_ATfLrADQA.jpg
 photo.29.author: otenba_redpanda
 photo.29.commitdate: 2022/4/26
-photo.29.link: https://www.instagram.com/otenba_redpanda/
+photo.29.link: ig://CbhV_DlrmFa
 photo.29.tags: portrait, sample, tail
-photo.30: ig://ChWWo_7uXsm/m
+photo.30: cwdc://YKqUzEXADQB.jpg
 photo.30.author: hidehaya_biei
 photo.30.commitdate: 2022/8/18
-photo.30.link: https://www.instagram.com/hidehaya_biei/
-photo.30.tags: sample, smile, whiskers
-photo.31: ig://CnttHyVPQrX/m
+photo.30.link: ig://ChWWo_7uXsm
+photo.30.tags: paws, sample, smile, whiskers
+photo.31: cwdc://YXZBwpKADQS.jpg
 photo.31.author: daniele.tokyo
 photo.31.commitdate: 2023/3/9
-photo.31.link: https://www.instagram.com/daniele.tokyo/
+photo.31.link: ig://CnttHyVPQrX
 photo.31.tags: laying down, paws, playing, portrait, sample, upside-down
-photo.32: ig://Cn1bgMWPyK9/m
+photo.32: cwdc://YXoehdMADQQ.jpg
 photo.32.author: daniele.tokyo
 photo.32.commitdate: 2023/2/25
-photo.32.link: https://www.instagram.com/daniele.tokyo/
+photo.32.link: ig://Cn1bgMWPyK9
 photo.32.tags: paws, standing, toys
-photo.33: ig://Cn2z_VvBEOF/m
+photo.33: cwdc://YXrPfv-ADQA.jpg
 photo.33.author: yuredpanda
 photo.33.commitdate: 2023/2/25
-photo.33.link: https://www.instagram.com/yuredpanda/
+photo.33.link: ig://Cn2z_VvBEOF
 photo.33.tags: grooming, paws, sample, tail, tongue
-photo.34: ig://CpjgEWLPLfk/m
+photo.34: cwdc://YbEnpw2ADQF.jpg
 photo.34.author: hidehaya_biei
 photo.34.commitdate: 2023/5/29
-photo.34.link: https://www.instagram.com/hidehaya_biei/
+photo.34.link: ig://CpjgEWLPLfk
 photo.34.tags: bamboo, sample, tongue, whiskers
-photo.35: ig://CrCyDQov0TW/m
+photo.35: cwdc://YeDLnlxADQG.jpg
 photo.35.author: hidehaya_biei
 photo.35.commitdate: 2023/4/22
-photo.35.link: https://www.instagram.com/hidehaya_biei/
+photo.35.link: ig://CrCyDQov0TW
 photo.35.tags: grooming, sample, tongue, whiskers
-photo.36: ig://CttXj0cvWty/m
+photo.36: cwdc://YjYWotZADQh.jpg
 photo.36.author: daniele.tokyo
 photo.36.commitdate: 2023/8/10
-photo.36.link: https://www.instagram.com/daniele.tokyo/
+photo.36.link: ig://CttXj0cvWty
 photo.36.tags: apple time, paws, peek, tail, whiskers
 species: 2
 studbook.id: 13149
 zoo: 34
+photo.37: cwdc://X6bFaB0ADQl.jpg
+photo.37.author: daniele.tokyo
+photo.37.commitdate: 2025/6/27
+photo.37.link: ig://CZOu8eqL02b
+photo.37.tags: paws, sample, smile, snow, standing, tail
+photo.38: cwdc://X6bFaB0ADQm.jpg
+photo.38.author: daniele.tokyo
+photo.38.commitdate: 2025/6/27
+photo.38.link: ig://CZOu8eqL02c
+photo.38.tags: paws, snow, standing, tail
+photo.39: cwdc://XHKwutVADQA.jpg
+photo.39.author: hamiiiii831_
+photo.39.commitdate: 2025/6/27
+photo.39.link: ig://B_mkm0an2ZV
+photo.39.tags: portrait, sample, whiskers
+photo.40: cwdc://XHiNioLADQB.jpg
+photo.40.author: hamiiiii831_
+photo.40.commitdate: 2025/6/27
+photo.40.link: ig://B_yTAx1p06q
+photo.40.tags: apple time, paws, portrait, sample, smile
+photo.41: cwdc://XHiNioLADQC.jpg
+photo.41.author: hamiiiii831_
+photo.41.commitdate: 2025/6/27
+photo.41.link: ig://B_yTAx1p06r
+photo.41.tags: apple time, paws, portrait, sample, smile, whiskers
+photo.42: cwdc://XP20cDhADQK.jpg
+photo.42.author: daniele.tokyo
+photo.42.commitdate: 2025/6/27
+photo.42.link: ig://CD8mdfghmfm
+photo.42.tags: flowers, smile, standing, tail, upside-down
+photo.43: cwdc://XP20cDhADQL.jpg
+photo.43.author: daniele.tokyo
+photo.43.commitdate: 2025/6/27
+photo.43.link: ig://CD8mdfghmfn
+photo.43.tags: bite, flowers, sample
+photo.44: cwdc://X_ATfLrADQB.jpg
+photo.44.author: otenba_redpanda
+photo.44.commitdate: 2025/6/27
+photo.44.link: ig://CbhV_DlrmFb
+photo.44.tags: portrait, sample, tail
+photo.45: cwdc://XiFKgDQADQB.jpg
+photo.45.author: kaoru_a358
+photo.45.commitdate: 2025/6/27
+photo.45.link: ig://CNDxffYBbcV
+photo.45.tags: paws, sample, whiskers
+photo.46: cwdc://XmWCpQiADQO.jpg
+photo.46.author: hamiiiii831_
+photo.46.commitdate: 2025/6/27
+photo.46.link: ig://CPMNkGBB7ly
+photo.46.tags: itchy, mofumofu, paws, portrait, sample, whiskers
+photo.47: cwdc://XqkkM_XADQe.jpg
+photo.47.author: daniele.tokyo
+photo.47.commitdate: 2025/6/27
+photo.47.link: ig://CRTeV9bhmLa
+photo.47.tags: paws, playing, portrait, tail, upside-down
+photo.48: cwdc://XqkkM_XADQf.jpg
+photo.48.author: daniele.tokyo
+photo.48.commitdate: 2025/6/27
+photo.48.link: ig://CRTeV9bhmLY
+photo.48.tags: paws, playing, portrait, smile, upside-down
+photo.49: cwdc://XrsqdJzADQY.jpg
+photo.49.author: daniele.tokyo
+photo.49.commitdate: 2025/6/27
+photo.49.link: ig://CR3heCphu7c
+photo.49.tags: paws, peek
+photo.50: cwdc://XrsqdJzADQZ.jpg
+photo.50.author: daniele.tokyo
+photo.50.commitdate: 2025/6/27
+photo.50.link: ig://CR3heCphu7d
+photo.50.tags: paws, peek
+photo.51: cwdc://XrsqdJzADQa.jpg
+photo.51.author: daniele.tokyo
+photo.51.commitdate: 2025/6/27
+photo.51.link: ig://CR3heCphu7f
+photo.51.tags: bite, peek
+photo.52: cwdc://XrsqdJzADQb.jpg
+photo.52.author: daniele.tokyo
+photo.52.commitdate: 2025/6/27
+photo.52.link: ig://CR3heCphu7g
+photo.52.tags: sample
+photo.53: cwdc://XrsqdJzADQc.jpg
+photo.53.author: daniele.tokyo
+photo.53.commitdate: 2025/6/27
+photo.53.link: ig://CR3heCphu7h
+photo.53.tags: lips, paws, sample
+photo.54: cwdc://XrsqdJzADQd.jpg
+photo.54.author: daniele.tokyo
+photo.54.commitdate: 2025/6/27
+photo.54.link: ig://CR3heCphu7j
+photo.54.tags: bite, peek
+photo.55: cwdc://XzlEhbTADQQ.jpg
+photo.55.author: hamiiiii831_
+photo.55.commitdate: 2025/6/27
+photo.55.link: ig://CVzugLZhkU3
+photo.55.tags: sample, tail, whiskers
+photo.56: cwdc://Y-1vcEmADQB.jpg
+photo.56.author: fetorus_mami
+photo.56.commitdate: 2025/6/27
+photo.56.link: ig://C7cD9gDPTeB
+photo.56.tags: close-up, smile, tongue, whiskers
+photo.57: cwdc://Y3k9rNoADQB.jpg
+photo.57.author: daniele.tokyo
+photo.57.commitdate: 2025/6/27
+photo.57.link: ig://C3zrFEkPj_i
+photo.57.tags: itchy, paws, sample, tail
+photo.58: cwdc://Y4Yd-IkADQC.jpg
+photo.58.author: daniele.tokyo
+photo.58.commitdate: 2025/6/27
+photo.58.link: ig://C4NbOiCPp3u
+photo.58.tags: paws, sample, snow
+photo.59: cwdc://Y6e-wb5ADQI.jpg
+photo.59.author: hamiiiii831_
+photo.59.commitdate: 2025/6/27
+photo.59.link: ig://C5Qrnrsvl92
+photo.59.tags: paws, sample
+photo.60: cwdc://YF-o6cFADQA.jpg
+photo.60.author: hidehaya_biei
+photo.60.commitdate: 2025/6/27
+photo.60.link: ig://CfAgsrypXim
+photo.60.tags: birthday, tongue
+photo.61: cwdc://YGAqWTHADQM.jpg
+photo.61.author: daniele.tokyo
+photo.61.commitdate: 2025/6/27
+photo.61.link: ig://CfBhanTv9yw
+photo.61.tags: laying down, paws, playing, upside-down
+photo.62: cwdc://YLTvtnlADQG.jpg
+photo.62.author: hamiiiii831_
+photo.62.commitdate: 2025/6/27
+photo.62.link: ig://ChrEGRiuOmU
+photo.62.tags: paws, sample, smile, whiskers
+photo.63: cwdc://YOG-j-KADQH.jpg
+photo.63.author: hamiiiii831_
+photo.63.commitdate: 2025/6/27
+photo.63.link: ig://CjErhc1J5Sa
+photo.63.tags: paws, sample, whiskers
+photo.64: cwdc://YOG-j-KADQI.jpg
+photo.64.author: hamiiiii831_
+photo.64.commitdate: 2025/6/27
+photo.64.link: ig://CjErhc1J5Sb
+photo.64.tags: apple time, paws, sample, whiskers
+photo.65: cwdc://YOG-j-KADQJ.jpg
+photo.65.author: hamiiiii831_
+photo.65.commitdate: 2025/6/27
+photo.65.link: ig://CjErhc1J5Sc
+photo.65.tags: apple time, blink, paws, sample, whiskers
+photo.66: cwdc://YOG-j-KADQK.jpg
+photo.66.author: hamiiiii831_
+photo.66.commitdate: 2025/6/27
+photo.66.link: ig://CjErhc1J5SZ
+photo.66.tags: paws, sample, tongue, whiskers
+photo.67: cwdc://YVgS00gADQL.jpg
+photo.67.author: hamiiiii831_
+photo.67.commitdate: 2025/6/27
+photo.67.link: ig://CmxVp4ABk_Z
+photo.67.tags: close-up, mofumofu, paws, sample, whiskers
+photo.68: cwdc://YXoehdMADQR.jpg
+photo.68.author: daniele.tokyo
+photo.68.commitdate: 2025/6/27
+photo.68.link: ig://Cn1bgMWPyK-
+photo.68.tags: paws, standing, toys
+photo.69: cwdc://YYpklM2ADQM.jpg
+photo.69.author: hamiiiii831_
+photo.69.commitdate: 2025/6/27
+photo.69.link: ig://CoV-iELPhp-
+photo.69.tags: paws, standing, tongue, toys
+photo.70: cwdc://YYpklM2ADQN.jpg
+photo.70.author: hamiiiii831_
+photo.70.commitdate: 2025/6/27
+photo.70.link: ig://CoV-iELPhp_
+photo.70.tags: climb, paws, smile, snow, standing, tail
+photo.71: cwdc://YZ90oG2ADQU.jpg
+photo.71.author: daniele.tokyo
+photo.71.commitdate: 2025/6/27
+photo.71.link: ig://CpAGjhLPyc7
+photo.71.tags: paws, playing, sample, snow
+photo.72: cwdc://YZ90oG2ADQV.jpg
+photo.72.author: daniele.tokyo
+photo.72.commitdate: 2025/6/27
+photo.72.link: ig://CpAGjhLPyc8
+photo.72.tags: peek, snow, toys
+photo.73: cwdc://Ybfaa9wADQP.jpg
+photo.73.author: hamiiiii831_
+photo.73.commitdate: 2025/6/27
+photo.73.link: ig://Cpw5c8oPXh6
+photo.73.tags: mofumofu, paws, sample
+photo.74: cwdc://YesJYu5ADQH.jpg
+photo.74.author: hidehaya_biei
+photo.74.commitdate: 2025/6/27
+photo.74.link: ig://CrXQ71MvkHb
+photo.74.tags: lips, mofumofu, sample, smile
+photo.75: cwdc://YjYiGwZADQB.jpg
+photo.75.author: yuredpanda
+photo.75.commitdate: 2025/6/27
+photo.75.link: ig://CttdS18hxDz
+photo.75.tags: grooming, portrait, tail
+photo.76: cwdc://Yn95QZUADQi.jpg
+photo.76.author: daniele.tokyo
+photo.76.commitdate: 2025/6/27
+photo.76.link: ig://CwAI3qaPoZa
+photo.76.tags: laying down, sample, whiskers
+photo.77: cwdc://YtMomQLADQj.jpg
+photo.77.author: daniele.tokyo
+photo.77.commitdate: 2025/6/27
+photo.77.link: ig://Cyngil1vel7
+photo.77.tags: paws, sample
+photo.78: cwdc://YvL-I5ZADQJ.jpg
+photo.78.author: hidehaya_biei
+photo.78.commitdate: 2025/6/27
+photo.78.link: ig://CznLT6cvMzr
+photo.78.tags: paws, sample, tail
+photo.79: cwdc://YzUBbrdADQA.jpg
+photo.79.author: daniele.tokyo
+photo.79.commitdate: 2025/6/27
+photo.79.link: ig://C1rM9TevDFA
+photo.79.tags: paws, sample, tail, tongue
+photo.80: cwdc://ZA1MhA-ADQD.jpg
+photo.80.author: daniele.tokyo
+photo.80.commitdate: 2025/6/27
+photo.80.link: ig://C8byf-PS8sp
+photo.80.tags: bamboo, paws, playing, upside-down
+photo.81: cwdc://ZA1MhA-ADQE.jpg
+photo.81.author: daniele.tokyo
+photo.81.commitdate: 2025/6/27
+photo.81.link: ig://C8byf-PS8sq
+photo.81.tags: bamboo, paws, playing, upside-down
+photo.82: cwdc://ZA1MhA-ADQF.jpg
+photo.82.author: daniele.tokyo
+photo.82.commitdate: 2025/6/27
+photo.82.link: ig://C8byf-PS8sr
+photo.82.tags: bamboo, paws, playing, upside-down
+photo.83: cwdc://ZA1MhA-ADQG.jpg
+photo.83.author: daniele.tokyo
+photo.83.commitdate: 2025/6/27
+photo.83.link: ig://C8byf-PS8ss
+photo.83.tags: bamboo, paws, playing, upside-down
+photo.84: cwdc://ZB4JLapADQH.jpg
+photo.84.author: daniele.tokyo
+photo.84.commitdate: 2025/6/27
+photo.84.link: ig://C89Q1LEy3Dw
+photo.84.tags: apple time, paws, portrait, sample, smile, tail
+photo.85: cwdc://ZJHoROIADQn.jpg
+photo.85.author: daniele.tokyo
+photo.85.commitdate: 2025/6/27
+photo.85.link: ig://DAlAYE0SxH3
+photo.85.tags: laying down, mofumofu, portrait, sample
+photo.86: cwdc://ZKaBs4iADQo.jpg
+photo.86.author: daniele.tokyo
+photo.86.commitdate: 2025/6/27
+photo.86.link: ig://DBONF6BSqZC
+photo.86.tags: apple time, paws, sample, smile, tongue, whiskers
