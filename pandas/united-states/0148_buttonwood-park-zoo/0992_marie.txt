@@ -21,30 +21,35 @@ photo.1.author: buttonwoodparkzoo
 photo.1.commitdate: 2019/10/12
 photo.1.link: https://www.instagram.com/p/Byh9KIOBpXx
 photo.1.tags: portrait, profile
-photo.2: ig://By76f5UBicV/m
+photo.2: cwdc://Wt1cg3IADQB.jpg
 photo.2.author: buttonwoodparkzoo
 photo.2.commitdate: 2019/10/12
-photo.2.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.2.link: ig://By76f5UBicV
 photo.2.tags: portrait, white face
-photo.3: ig://BzIZPPuhR0c/m
+photo.3: cwdc://WuOZ_j9ADQC.jpg
 photo.3.author: buttonwoodparkzoo
 photo.3.commitdate: 2019/10/12
-photo.3.link: https://www.instagram.com/buttonwoodparkzoo/
-photo.3.tags: portrait, tongue, white face
-photo.4: ig://B0YaMGQBZVB/m
+photo.3.link: ig://BzIZPPuhR0c
+photo.3.tags: close-up, portrait, sample, tongue, white face
+photo.4: cwdc://Wwub5RAADQA.jpg
 photo.4.author: buttonwoodparkzoo
 photo.4.commitdate: 2019/10/12
-photo.4.link: https://www.instagram.com/buttonwoodparkzoo/
-photo.4.tags: portrait, white face
-photo.5: ig://CKq_zamBvbd/m
+photo.4.link: ig://B0YaMGQBZVB
+photo.4.tags: portrait, sample, white face
+photo.5: cwdc://XdTnH5sADQD.jpg
 photo.5.author: buttonwoodparkzoo
 photo.5.commitdate: 2021/4/10
-photo.5.link: https://www.instagram.com/buttonwoodparkzoo/
-photo.5.tags: portrait, whiskers
-photo.6: ig://CXbaosuhSyv/m
+photo.5.link: ig://CKq_zamBvbd
+photo.5.tags: portrait, sample, whiskers
+photo.6: cwdc://X20cyd9ADQE.jpg
 photo.6.author: buttonwoodparkzoo
 photo.6.commitdate: 2022/1/7
-photo.6.link: https://www.instagram.com/buttonwoodparkzoo/
-photo.6.tags: paws, portrait
+photo.6.link: ig://CXbaosuhSyv
+photo.6.tags: paws, portrait, sample, toys, white face
 species: 1
 zoo: 148
+photo.7: cwdc://ZPzmnDdADQF.jpg
+photo.7.author: buttonwoodparkzoo
+photo.7.commitdate: 2025/6/27
+photo.7.link: ig://DD6_i_evC8e
+photo.7.tags: sample, white face
