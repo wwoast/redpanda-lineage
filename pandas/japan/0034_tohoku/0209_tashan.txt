@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: 稲光
 language.order: ja, en
 litter: 354
-photo.1: ig://BC-vpJStG5V/m
+photo.1: cwdc://VN7GzXFADQA.jpg
 photo.1.author: mariten1119
 photo.1.commitdate: 2020/5/17
-photo.1.link: https://www.instagram.com/mariten1119/
-photo.1.tags: portrait, whiskers
+photo.1.link: ig://BC-vpJStG5V
+photo.1.tags: portrait, sample, whiskers
 photo.2: cwdc://WGuq9byADQA.jpg
 photo.2.author: craig_craig_craig
 photo.2.commitdate: 2018/7/26
@@ -59,9 +59,6 @@ photo.9.author: daniele.tokyo
 photo.9.commitdate: 2022/10/14
 photo.9.link: ig://CjaMEACJFTQ
 photo.9.tags: close-up, lips, sample, whiskers
-species: 2
-studbook.id: 0274
-zoo: 34
 photo.10: cwdc://XRoOe4rADQB.jpg
 photo.10.author: ifumoto88
 photo.10.commitdate: 2025/6/27
@@ -77,3 +74,6 @@ photo.12.author: fetorus_mami
 photo.12.commitdate: 2025/6/27
 photo.12.link: ig://CPf9YMEBTEM
 photo.12.tags: mofumofu, peek
+species: 2
+studbook.id: 0274
+zoo: 34

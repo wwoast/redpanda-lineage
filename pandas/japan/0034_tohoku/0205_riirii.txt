@@ -133,11 +133,11 @@ photo.24.author: daniele.tokyo
 photo.24.commitdate: 2021/10/7
 photo.24.link: ig://CTCMj-eB_Wi
 photo.24.tags: keeper, peek, sample, whiskers
-photo.25: ig://CU7JPushxd2/m
+photo.25: cwdc://Xxz6Ah5ADQA.jpg
 photo.25.author: rie_panda55
 photo.25.commitdate: 2022/3/11
-photo.25.link: https://www.instagram.com/rie_panda55/
-photo.25.tags: peek, portrait, tail
+photo.25.link: ig://CU7JPushxd2
+photo.25.tags: distance, peek, portrait, sample, tail
 photo.26: cwdc://X554SIsADQI.jpg
 photo.26.author: hidehaya_biei
 photo.26.commitdate: 2023/8/21
@@ -446,3 +446,8 @@ photo.86.author: daniele.tokyo
 photo.86.commitdate: 2025/6/27
 photo.86.link: ig://DBONF6BSqZC
 photo.86.tags: apple time, paws, sample, smile, tongue, whiskers
+photo.87: cwdc://Xxz6Ah5ADQB.jpg
+photo.87.author: rie_panda55
+photo.87.commitdate: 2025/6/27
+photo.87.link: ig://CU7JPushxd3
+photo.87.tags: distance, portrait, sample, tail, tree
