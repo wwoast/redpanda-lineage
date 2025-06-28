@@ -2,17 +2,17 @@
 _id: media.34.mulan-riirii
 commitdate: 2019/10/24
 panda.tags: 205, 950
-photo.1: ig://B30p08Ehv-H/m
+photo.1: cwdc://W3m7K8pADQA.jpg
 photo.1.author: rie_panda55
 photo.1.commitdate: 2019/10/22
-photo.1.link: https://www.instagram.com/rie_panda55/
-photo.1.tags: home, mother's day
+photo.1.link: ig://B30p08Ehv-H
+photo.1.tags: baby, home, mofumofu, mother's day
 photo.1.tags.205.location: 205, 100
 photo.1.tags.950.location: 185, 155
-photo.2: ig://B6K_o8MBwWG/l
+photo.2: cwdc://W8Tmy84ADQA.jpg
 photo.2.author: _sah_ax7
 photo.2.commitdate: 2020/1/11
-photo.2.link: https://www.instagram.com/_sah_ax7/
+photo.2.link: ig://B6K_o8MBwWG
 photo.2.tags: bamboo, mother's day
 photo.2.tags.205.location: 840, 280
 photo.2.tags.950.location: 515, 410
@@ -64,3 +64,8 @@ photo.10.author: yuredpanda
 photo.10.commitdate: 2025/6/28
 photo.10.link: ig://CpE3FZVv55i
 photo.10.tags: mother's day, peek
+photo.11: cwdc://W3m7K8pADQB.jpg
+photo.11.author: rie_panda55
+photo.11.commitdate: 2025/6/28
+photo.11.link: ig://B30p08Ehv-L
+photo.11.tags: baby, grooming, mother's day, tail

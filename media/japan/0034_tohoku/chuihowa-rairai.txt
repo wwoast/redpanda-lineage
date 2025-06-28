@@ -16,11 +16,11 @@ photo.2.link: ig://B2luhzLBZwg
 photo.2.tags: apple time, couple, dish, keeper, standing
 photo.2.tags.185.location: 195, 150
 photo.2.tags.206.location: 245, 230
-photo.3: ig://B3RlTRRBpyz/m
+photo.3: cwdc://W2gyHnCADQC.jpg
 photo.3.author: re_ichimaru
 photo.3.commitdate: 2019/10/14
-photo.3.link: https://www.instagram.com/re_ichimaru/
-photo.3.tags: apple time, couple, smile
+photo.3.link: ig://B3RlTRRBpyz
+photo.3.tags: apple time, couple, dish, portrait, sample, smile, whiskers
 photo.3.tags.185.location: 95, 90
 photo.3.tags.206.location: 210, 200
 photo.4: cwdc://W9tSTY4ADQA.jpg
@@ -141,3 +141,13 @@ photo.23.author: daniele.tokyo
 photo.23.commitdate: 2025/6/28
 photo.23.link: ig://Ckslf_LLcEF
 photo.23.tags: apple time, blink, couple, whiskers
+photo.24: cwdc://W2gyHnCADQA.jpg
+photo.24.author: re_ichimaru
+photo.24.commitdate: 2025/6/28
+photo.24.link: ig://B3RlTRRBpy1
+photo.24.tags: apple time, close-up, couple, paws, peek, portrait, whiskers
+photo.25: cwdc://W2gyHnCADQB.jpg
+photo.25.author: re_ichimaru
+photo.25.commitdate: 2025/6/28
+photo.25.link: ig://B3RlTRRBpy2
+photo.25.tags: apple time, couple, lips, paws, portrait, techitechi, whiskers
