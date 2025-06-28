@@ -2,18 +2,18 @@
 _id: media.34.chuihowa-rairai
 commitdate: 2019/8/21
 panda.tags: 185, 206
-photo.1: ig://B1OLfO4h-9d/m
+photo.1: cwdc://WyZ-fiRADQA.jpg
 photo.1.author: daniele.tokyo
 photo.1.commitdate: 2019/8/21
-photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: apple time, couple
+photo.1.link: ig://B1OLfO4h-9d
+photo.1.tags: apple time, close-up, couple
 photo.1.tags.185.location: 175, 230
 photo.1.tags.206.location: 135, 90
-photo.2: ig://B2luhzLBZwg/m
+photo.2: cwdc://W1JEkq2ADQB.jpg
 photo.2.author: daniele.tokyo
 photo.2.commitdate: 2019/9/22
-photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: apple time, keeper, couple
+photo.2.link: ig://B2luhzLBZwg
+photo.2.tags: apple time, couple, dish, keeper, standing
 photo.2.tags.185.location: 195, 150
 photo.2.tags.206.location: 245, 230
 photo.3: ig://B3RlTRRBpyz/m
@@ -23,66 +23,121 @@ photo.3.link: https://www.instagram.com/re_ichimaru/
 photo.3.tags: apple time, couple, smile
 photo.3.tags.185.location: 95, 90
 photo.3.tags.206.location: 210, 200
-photo.4: ig://B631ZKMBIeP/m
+photo.4: cwdc://W9tSTY4ADQA.jpg
 photo.4.author: ssc6105
 photo.4.commitdate: 2020/1/11
-photo.4.link: https://www.instagram.com/ssc6105/
+photo.4.link: ig://B631ZKMBIeP
 photo.4.tags: apple time, couple, smile
 photo.4.tags.185.location: 100, 155
 photo.4.tags.206.location: 245, 130
-photo.5: ig://B7QUZTmBllF/m
+photo.5: cwdc://W-eQTrsADQA.jpg
 photo.5.author: kipekaila
 photo.5.commitdate: 2020/1/27
-photo.5.link: https://www.instagram.com/kipekaila/
-photo.5.tags: couple, kiss, nose
+photo.5.link: ig://B7QUZTmBllF
+photo.5.tags: bamboo, couple, kiss, nose
 photo.5.tags.185.location: 275, 165
 photo.5.tags.206.location: 120, 175
-photo.6: ig://B9jML6Nh6E6/m
+photo.6: cwdc://XDD_447ADQC.jpg
 photo.6.author: daniele.tokyo
 photo.6.commitdate: 2020/3/11
-photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: smile, surprise, tongue
+photo.6.link: ig://B9jML6Nh6E6
+photo.6.tags: couple, portrait, smile, surprise, tongue
 photo.6.tags.185.location: 185, 145
 photo.6.tags.206.location: 75, 130
-photo.7: ig://B_o27qMnGlT/m
+photo.7: cwdc://XHPVYY5ADQB.jpg
 photo.7.author: hamiiiii831_
 photo.7.commitdate: 2020/5/1
-photo.7.link: https://www.instagram.com/hamiiiii831_/
-photo.7.tags: couple, portrait, surprise
+photo.7.link: ig://B_o27qMnGlT
+photo.7.tags: couple, mofumofu, portrait, surprise, whiskers
 photo.7.tags.185.location: 590, 440
 photo.7.tags.206.location: 300, 475
-photo.8: ig://CF_6-B1hlf-/m
+photo.8: cwdc://XT9ddILADQG.jpg
 photo.8.author: daniele.tokyo
 photo.8.commitdate: 2020/11/19
-photo.8.link: https://www.instagram.com/daniele.tokyo/
+photo.8.link: ig://CF_6-B1hlf-
 photo.8.tags: apple time, bamboo, couple, paws, portrait
 photo.8.tags.185.location: 200, 125
 photo.8.tags.206.location: 105, 170
-photo.9: ig://CZ9IsAMPyD1/l
+photo.9: cwdc://X7345E4ADQM.jpg
 photo.9.author: daniele.tokyo
 photo.9.commitdate: 2022/4/10
-photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.link: ig://CZ9IsAMPyD1
 photo.9.tags: couple, mofumofu, peek, snow, whiskers
 photo.9.tags.185.location: 370, 250
 photo.9.tags.206.location: 175, 540
-photo.10: ig://CbHwT5aLYQi/l
+photo.10: cwdc://X-NII3UADQD.jpg
 photo.10.author: daniele.tokyo
 photo.10.commitdate: 2023/8/21
-photo.10.link: https://www.instagram.com/daniele.tokyo/
+photo.10.link: ig://CbHwT5aLYQi
 photo.10.tags: air tasting, bridge, couple, portrait, sample, tongue
 photo.10.tags.185.location: 310, 155
 photo.10.tags.206.location: 175, 250
-photo.11: ig://CbKVGr6vOSB/l
+photo.11: cwdc://X-SRucVADQE.jpg
 photo.11.author: daniele.tokyo
 photo.11.commitdate: 2023/8/21
-photo.11.link: https://www.instagram.com/daniele.tokyo/
+photo.11.link: ig://CbKVGr6vOSB
 photo.11.tags: couple, kiss, portrait, whiskers
 photo.11.tags.185.location: 315, 190
 photo.11.tags.206.location: 160, 280
-photo.12: ig://CeKUkIVvzaq/l
+photo.12: cwdc://YESQpVLADQA.jpg
 photo.12.author: fetorus_mami
 photo.12.commitdate: 2022/6/29
-photo.12.link: https://www.instagram.com/fetorus_mami/
+photo.12.link: ig://CeKUkIVvzaq
 photo.12.tags: bamboo, couple, paws, tongue
 photo.12.tags.185.location: 395, 270
 photo.12.tags.206.location: 145, 295
+photo.13: cwdc://X-SRucVADQF.jpg
+photo.13.author: daniele.tokyo
+photo.13.commitdate: 2025/6/28
+photo.13.link: ig://CbKVGr6vOSC
+photo.13.tags: couple, kiss, portrait, whiskers
+photo.14: cwdc://X4K5PYjADQL.jpg
+photo.14.author: daniele.tokyo
+photo.14.commitdate: 2025/6/28
+photo.14.link: ig://CYGo3KBvCsS
+photo.14.tags: apple time, couple, paws, peek, snow
+photo.15: cwdc://XHKwutVADQE.jpg
+photo.15.author: hamiiiii831_
+photo.15.commitdate: 2025/6/28
+photo.15.link: ig://B_mkm0an2ZY
+photo.15.tags: apple time, couple, paws, portrait, tongue, whiskers
+photo.16: cwdc://XHPVYY5ADQD.jpg
+photo.16.author: hamiiiii831_
+photo.16.commitdate: 2025/6/28
+photo.16.link: ig://B_o27qMnGlV
+photo.16.tags: couple, kiss, portrait, surprise
+photo.17: cwdc://XHPVYY5ADQE.jpg
+photo.17.author: hamiiiii831_
+photo.17.commitdate: 2025/6/28
+photo.17.link: ig://B_o27qMnGlW
+photo.17.tags: couple, mofumofu, portrait, suprise, whiskers
+photo.18: cwdc://XHPVYY5ADQF.jpg
+photo.18.author: hamiiiii831_
+photo.18.commitdate: 2025/6/28
+photo.18.link: ig://B_o27qMnGlX
+photo.18.tags: couple, mofumofu, portrait, surprise, tail, whiskers
+photo.19: cwdc://XHPVYY5ADQG.jpg
+photo.19.author: hamiiiii831_
+photo.19.commitdate: 2025/6/28
+photo.19.link: ig://B_o27qMnGlY
+photo.19.tags: close-up, couple, mofumofu
+photo.20: cwdc://XtyjyTeADQK.jpg
+photo.20.author: daniele.tokyo
+photo.20.commitdate: 2025/6/28
+photo.20.link: ig://CS6eInfB5gE
+photo.20.tags: apple time, couple, keeper, paws, portrait, sample
+photo.21: cwdc://YMXgx_CADQH.jpg
+photo.21.author: daniele.tokyo
+photo.21.commitdate: 2025/6/28
+photo.21.link: ig://CiM8odROtKO
+photo.21.tags: couple, sample, techitechi, whiskers
+photo.22: cwdc://YRWyhC2ADQI.jpg
+photo.22.author: daniele.tokyo
+photo.22.commitdate: 2025/6/28
+photo.22.link: ig://Ckslf_LLcEE
+photo.22.tags: apple time, keeper, peek, whiskers
+photo.23: cwdc://YRWyhC2ADQJ.jpg
+photo.23.author: daniele.tokyo
+photo.23.commitdate: 2025/6/28
+photo.23.link: ig://Ckslf_LLcEF
+photo.23.tags: apple time, blink, couple, whiskers
