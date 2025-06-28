@@ -2,10 +2,35 @@
 _id: media.34.riirii-shiryu
 commitdate: 2019/8/13
 panda.tags: 205, 207
-photo.1: ig://BooOsOKlN-t/m
+photo.1: cwdc://WZOE5g1ADQA.jpg
 photo.1.author: daniele.tokyo
 photo.1.commitdate: 2019/8/13
-photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: home, mother's day
+photo.1.link: ig://BooOsOKlN-t
+photo.1.tags: home, mother's day, portrait, sample, whiskers
 photo.1.tags.205.location: 115, 105
 photo.1.tags.207.location: 200, 255
+photo.2: cwdc://WZOE5g1ADQB.jpg
+photo.2.author: daniele.tokyo
+photo.2.commitdate: 2025/6/28
+photo.2.link: ig://BooOsOKlN-u
+photo.2.tags: home, laying down, mother's day, portrait
+photo.3: cwdc://WZOE5g1ADQC.jpg
+photo.3.author: daniele.tokyo
+photo.3.commitdate: 2025/6/28
+photo.3.link: ig://BooOsOKlN-v
+photo.3.tags: home, laying down, mother's day, portrait
+photo.4: cwdc://X4K5PYjADQF.jpg
+photo.4.author: daniele.tokyo
+photo.4.commitdate: 2025/6/28
+photo.4.link: ig://CYGo3KBvCsR
+photo.4.tags: apple time, bite, mother's day, snow
+photo.5: cwdc://YQyvclaADQD.jpg
+photo.5.author: daniele.tokyo
+photo.5.commitdate: 2025/6/28
+photo.5.link: ig://Ckaj9wdL0e4
+photo.5.tags: apple time, mother's day, nose, portrait, pumpkin
+photo.6: cwdc://YkqwPEfADQE.jpg
+photo.6.author: daniele.tokyo
+photo.6.commitdate: 2025/6/28
+photo.6.link: ig://CuWkW__vPI4
+photo.6.tags: paws, snow, standing, tail
