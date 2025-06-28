@@ -21,11 +21,15 @@ photo.3.author: re_ichimaru
 photo.3.commitdate: 2025/6/28
 photo.3.link: ig://B3RlTRRBpy1
 photo.3.tags: apple time, close-up, couple, paws, peek, portrait, whiskers
+photo.3.tags.185.location: 230, 340
+photo.3.tags.206.location: 585, 320
 photo.4: cwdc://W2gyHnCADQB.jpg
 photo.4.author: re_ichimaru
 photo.4.commitdate: 2025/6/28
 photo.4.link: ig://B3RlTRRBpy2
 photo.4.tags: apple time, couple, lips, paws, portrait, techitechi, whiskers
+photo.4.tags.185.location: 305, 335
+photo.4.tags.206.location: 510, 325
 photo.5: cwdc://W2gyHnCADQC.jpg
 photo.5.author: re_ichimaru
 photo.5.commitdate: 2019/10/14
@@ -59,6 +63,8 @@ photo.9.author: hamiiiii831_
 photo.9.commitdate: 2025/6/28
 photo.9.link: ig://B_mkm0an2ZY
 photo.9.tags: apple time, couple, paws, portrait, tongue, whiskers
+photo.9.tags.185.location: 100, 450
+photo.9.tags.206.location: 275, 255
 photo.10: cwdc://XHPVYY5ADQB.jpg
 photo.10.author: hamiiiii831_
 photo.10.commitdate: 2020/5/1
@@ -71,21 +77,29 @@ photo.11.author: hamiiiii831_
 photo.11.commitdate: 2025/6/28
 photo.11.link: ig://B_o27qMnGlV
 photo.11.tags: couple, kiss, portrait, surprise
+photo.11.tags.185.location: 540, 305
+photo.11.tags.206.location: 255, 320
 photo.12: cwdc://XHPVYY5ADQE.jpg
 photo.12.author: hamiiiii831_
 photo.12.commitdate: 2025/6/28
 photo.12.link: ig://B_o27qMnGlW
 photo.12.tags: couple, mofumofu, portrait, suprise, whiskers
+photo.12.tags.185.location: 455, 340
+photo.12.tags.206.location: 250, 330
 photo.13: cwdc://XHPVYY5ADQF.jpg
 photo.13.author: hamiiiii831_
 photo.13.commitdate: 2025/6/28
 photo.13.link: ig://B_o27qMnGlX
 photo.13.tags: couple, mofumofu, portrait, surprise, tail, whiskers
+photo.13.tags.185.location: 530, 255
+photo.13.tags.206.location: 265, 300
 photo.14: cwdc://XHPVYY5ADQG.jpg
 photo.14.author: hamiiiii831_
 photo.14.commitdate: 2025/6/28
 photo.14.link: ig://B_o27qMnGlY
 photo.14.tags: close-up, couple, mofumofu
+photo.14.tags.185.location: 440, 340
+photo.14.tags.206.location: 25, 333
 photo.15: cwdc://XT9ddILADQG.jpg
 photo.15.author: daniele.tokyo
 photo.15.commitdate: 2020/11/19
@@ -98,11 +112,15 @@ photo.16.author: daniele.tokyo
 photo.16.commitdate: 2025/6/28
 photo.16.link: ig://CS6eInfB5gE
 photo.16.tags: apple time, couple, keeper, paws, portrait, sample
+photo.16.tags.185.location: 495, 260
+photo.16.tags.206.location: 270, 260
 photo.17: cwdc://X4K5PYjADQL.jpg
 photo.17.author: daniele.tokyo
 photo.17.commitdate: 2025/6/28
 photo.17.link: ig://CYGo3KBvCsS
 photo.17.tags: apple time, couple, paws, peek, snow
+photo.17.tags.185.location: 385, 270
+photo.17.tags.206.location: 215, 560
 photo.18: cwdc://X7345E4ADQM.jpg
 photo.18.author: daniele.tokyo
 photo.18.commitdate: 2022/4/10
@@ -129,6 +147,8 @@ photo.21.author: daniele.tokyo
 photo.21.commitdate: 2025/6/28
 photo.21.link: ig://CbKVGr6vOSC
 photo.21.tags: couple, kiss, portrait, whiskers
+photo.21.tags.185.location: 520, 320
+photo.21.tags.206.location: 240, 470
 photo.22: cwdc://YESQpVLADQA.jpg
 photo.22.author: fetorus_mami
 photo.22.commitdate: 2022/6/29
@@ -141,13 +161,19 @@ photo.23.author: daniele.tokyo
 photo.23.commitdate: 2025/6/28
 photo.23.link: ig://CiM8odROtKO
 photo.23.tags: couple, sample, techitechi, whiskers
+photo.23.tags.185.location: 220, 460
+photo.23.tags.206.location: 570, 330
 photo.24: cwdc://YRWyhC2ADQI.jpg
 photo.24.author: daniele.tokyo
 photo.24.commitdate: 2025/6/28
 photo.24.link: ig://Ckslf_LLcEE
 photo.24.tags: apple time, keeper, peek, whiskers
+photo.24.tags.185.location: 530, 505
+photo.24.tags.206.location: 265, 330
 photo.25: cwdc://YRWyhC2ADQJ.jpg
 photo.25.author: daniele.tokyo
 photo.25.commitdate: 2025/6/28
 photo.25.link: ig://Ckslf_LLcEF
 photo.25.tags: apple time, blink, couple, whiskers
+photo.25.tags.185.location: 530, 500
+photo.25.tags.206.location: 295, 260
