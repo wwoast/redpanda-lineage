@@ -916,9 +916,6 @@ photo.180.author: miis_98
 photo.180.commitdate: 2024/5/31
 photo.180.link: ig://C67WAw4SeIS
 photo.180.tags: paws, peek, sample, standing
-species: 2
-studbook.id: 15138
-zoo: 235
 photo.181: cwdc://ZBWmk2eADQA.jpg
 photo.181.author: hamamatsu.chiita
 photo.181.commitdate: 2025/6/28
@@ -939,3 +936,6 @@ photo.184.author: hamamatsu.chiita
 photo.184.commitdate: 2025/6/28
 photo.184.link: ig://C8sfh4_SvBL
 photo.184.tags: home, paws, portrait, sample, tongue
+species: 2
+studbook.id: 15138
+zoo: 235

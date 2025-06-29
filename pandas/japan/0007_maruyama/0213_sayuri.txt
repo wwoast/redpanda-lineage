@@ -760,9 +760,6 @@ photo.149.author: leonard_redmof
 photo.149.commitdate: 2025/1/6
 photo.149.link: ig://C3crkDRP_5-
 photo.149.tags: bamboo, portrait, sample, snow, tail
-species: 2
-studbook.id: 1694
-zoo: 7
 photo.150: cwdc://ZDcUb4HADQA.jpg
 photo.150.author: hamamatsu.chiita
 photo.150.commitdate: 2025/6/28
@@ -773,3 +770,6 @@ photo.151.author: hamamatsu.chiita
 photo.151.commitdate: 2025/6/28
 photo.151.link: ig://C9vWdZzyBMN
 photo.151.tags: mofumofu, portrait, sample, snow, tail
+species: 2
+studbook.id: 1694
+zoo: 7
