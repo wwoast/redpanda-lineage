@@ -28,6 +28,8 @@ photo.4.author: mini_cochi
 photo.4.commitdate: 2025/7/1
 photo.4.link: ig://B4aHCUAhRnq
 photo.4.tags: baby, laying down, mofumofu, mother's day
+photo.4.tags.78.location: 190, 350
+photo.4.tags.957.location: 345, 530
 photo.5: cwdc://W5vQr8QADQB.jpg
 photo.5.author: craig_craig_craig
 photo.5.commitdate: 2019/11/27
@@ -68,13 +70,19 @@ photo.10.author: fetorus_mami
 photo.10.commitdate: 2025/7/1
 photo.10.link: ig://CHkXBAohRWx
 photo.10.tags: baby, grooming, mother's day, tail
+photo.10.tags.78.location: 190, 360
+photo.10.tags.957.location: 450, 260
 photo.11: cwdc://YG9imToADQB.jpg
 photo.11.author: fetorus_mami
 photo.11.commitdate: 2025/7/1
 photo.11.link: ig://Cff9inkPCT5
 photo.11.tags: baby, grooming, mother's day, tail
+photo.11.tags.78.location: 410, 250
+photo.11.tags.957.location: 225, 405
 photo.12: cwdc://ZCMviaZADQA.jpg
 photo.12.author: daniele.tokyo
 photo.12.commitdate: 2025/7/1
 photo.12.link: ig://C9HkAq8yhWR
 photo.12.tags: baby, grooming, mother's day, tail
+photo.12.tags.78.location: 530, 320
+photo.12.tags.957.location: 330, 280
