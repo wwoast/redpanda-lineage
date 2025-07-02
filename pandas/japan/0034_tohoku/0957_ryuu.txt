@@ -230,11 +230,11 @@ photo.43.author: fetorus_mami
 photo.43.commitdate: 2020/7/1
 photo.43.link: ig://CCEHFWAhZmQ
 photo.43.tags: paws, peek, sample, smile
-photo.44: ig://CCtNe0LB-nN/m
+photo.44: cwdc://XNYCes2ADQA.jpg
 photo.44.author: mini_cochi
 photo.44.commitdate: 2020/7/24
-photo.44.link: https://www.instagram.com/mini_cochi/
-photo.44.tags: portrait
+photo.44.link: ig://CCtNe0LB-nN
+photo.44.tags: portrait, sample, whiskers
 photo.45: cwdc://XNqLPj3ADQA.jpg
 photo.45.author: alto0908
 photo.45.commitdate: 2020/7/24
@@ -520,11 +520,11 @@ photo.101.author: otenba_redpanda
 photo.101.commitdate: 2021/10/17
 photo.101.link: ig://CUuP17uB7J4
 photo.101.tags: close-up, mofumofu, paws, portrait, sleeping
-photo.102: ig://CVqqeB0huYO/m
+photo.102: cwdc://XzS8dIJADQA.jpg
 photo.102.author: rie_panda55
 photo.102.commitdate: 2021/11/7
-photo.102.link: https://www.instagram.com/rie_panda55/
-photo.102.tags: dish, lunch time, paws, portrait, smile
+photo.102.link: ig://CVqqeB0huYO
+photo.102.tags: dish, lunch time, paws, portrait, sample, smile
 photo.103: cwdc://X0i-xwBADQU.jpg
 photo.103.author: mini_cochi
 photo.103.commitdate: 2022/12/19
@@ -1658,3 +1658,13 @@ photo.328.author: daniele.tokyo
 photo.328.commitdate: 2025/7/1
 photo.328.link: ig://DE7JqIhS3Lu
 photo.328.tags: bite, standing, tail, toys
+photo.329: cwdc://XNYCes2ADQB.jpg
+photo.329.author: mini_cochi
+photo.329.commitdate: 2025/7/1
+photo.329.link: ig://CCtNe0LB-nO
+photo.329.tags: paws, peek, portrait, sample, whiskers
+photo.330: cwdc://XzS8dIJADQB.jpg
+photo.330.author: rie_panda55
+photo.330.commitdate: 2025/7/1
+photo.330.link: ig://CVqqeB0huYP
+photo.330.tags: apple time, dish, lunch time, paws, portrait, sample, whiskers
