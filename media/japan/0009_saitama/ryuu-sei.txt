@@ -16,11 +16,11 @@ photo.2.link: ig://B3zEv6MBhsj
 photo.2.tags: babies, baby, bridge, brothers, sample, siblings, twins, whiskers
 photo.2.tags.957.location: 145, 145
 photo.2.tags.958.location: 250, 115
-photo.3: ig://B3zUGapBDRc/m
+photo.3: cwdc://W3kPt5yADQA.jpg
 photo.3.author: resapanlove
 photo.3.commitdate: 2019/11/4
-photo.3.link: https://www.instagram.com/resapanlove/
-photo.3.tags: babies, brothers, mofumofu, siblings, twins
+photo.3.link: ig://B3zUGapBDRc
+photo.3.tags: babies, baby, brothers, mofumofu, siblings, twins
 photo.3.tags.957.location: 125, 60
 photo.3.tags.958.location: 230, 90
 photo.4: cwdc://W3oQWZtADQD.jpg
@@ -317,3 +317,18 @@ photo.45.link: ig://CuMUm20PLFh
 photo.45.tags: bamboo, bite, brothers, siblings, standing, twins
 photo.45.tags.957.location: 
 photo.45.tags.958.location: 
+photo.46: cwdc://W3kPt5yADQB.jpg
+photo.46.author: resapanlove
+photo.46.commitdate: 2025/7/2
+photo.46.link: ig://B3zUGapBDRd
+photo.46.tags: baby, brothers, mofumofu, siblings, twins
+photo.47: cwdc://W3kPt5yADQC.jpg
+photo.47.author: resapanlove
+photo.47.commitdate: 2025/7/2
+photo.47.link: ig://B3zUGapBDRe
+photo.47.tags: baby, brothers, mofumofu, siblings, twins
+photo.48: cwdc://W3kPt5yADQD.jpg
+photo.48.author: resapanlove
+photo.48.commitdate: 2025/7/2
+photo.48.link: ig://B3zUGapBDRf
+photo.48.tags: baby, brothers, mofumofu, sample, siblings, twins
