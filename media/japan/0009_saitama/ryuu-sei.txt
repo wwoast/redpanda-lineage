@@ -21,8 +21,8 @@ photo.3.author: motohin
 photo.3.commitdate: 2025/7/2
 photo.3.link: ig://B3zEv6MBhsp
 photo.3.tags: baby, bamboo, close-up, mofumofu, peek, portrait, siblings, twins
-photo.3.tags.957.location: 
-photo.3.tags.958.location: 
+photo.3.tags.957.location: 310, 360
+photo.3.tags.958.location: 640, 270
 photo.4: cwdc://W3oQWZtADQD.jpg
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2019/11/4
@@ -84,8 +84,8 @@ photo.12.author: kaoru_a358
 photo.12.commitdate: 2025/7/2
 photo.12.link: ig://B4PgThGhJED
 photo.12.tags: baby, brothers, mofumofu, siblings, tail, twins
-photo.12.tags.957.location: 
-photo.12.tags.958.location: 
+photo.12.tags.957.location: 250, 250
+photo.12.tags.958.location: 570, 200
 photo.13: cwdc://W5BEyhsADQA.jpg
 photo.13.author: ifumoto88
 photo.13.commitdate: 2019/12/5
@@ -126,15 +126,15 @@ photo.18.author: kaoru_a358
 photo.18.commitdate: 2025/7/2
 photo.18.link: ig://B5UwXJ4BMt2
 photo.18.tags: baby, brothers, laying down, mofumofu, siblings, twins
-photo.18.tags.957.location: 
-photo.18.tags.958.location: 
+photo.18.tags.957.location: 160, 450
+photo.18.tags.958.location: 630, 450
 photo.19: cwdc://W6nIPYQADQG.jpg
 photo.19.author: kaoru_a358
 photo.19.commitdate: 2025/7/2
 photo.19.link: ig://B5UwXJ4BMt5
 photo.19.tags: baby, brothers, siblings, twins
-photo.19.tags.957.location: 
-photo.19.tags.958.location: 
+photo.19.tags.957.location: 160, 520
+photo.19.tags.958.location: 400, 235
 photo.20: cwdc://W9L_SLwADQA.jpg
 photo.20.author: _sah_ax7
 photo.20.commitdate: 2020/1/23
@@ -168,8 +168,8 @@ photo.24.author: fetorus_mami
 photo.24.commitdate: 2025/7/2
 photo.24.link: ig://B7Nr7scBE5r
 photo.24.tags: baby, laying down, mofumofu, siblings, twins
-photo.24.tags.957.location: 
-photo.24.tags.958.location: 
+photo.24.tags.957.location: 535, 330
+photo.24.tags.958.location: 250, 315
 photo.25: cwdc://W-hQlMfADQC.jpg
 photo.25.author: fetorus_mami
 photo.25.commitdate: 2020/1/23
@@ -210,8 +210,8 @@ photo.30.author: kaoru_a358
 photo.30.commitdate: 2025/7/2
 photo.30.link: ig://CCBFL1GBSDW
 photo.30.tags: brothers, laying down, siblings, sleeping, twins
-photo.30.tags.957.location: 
-photo.30.tags.958.location: 
+photo.30.tags.957.location: 680, 315
+photo.30.tags.958.location: 150, 600
 photo.31: cwdc://XMPb2IqADQC.jpg
 photo.31.author: ssc6105
 photo.31.commitdate: 2020/7/25
@@ -224,8 +224,8 @@ photo.32.author: ssc6105
 photo.32.commitdate: 2025/7/2
 photo.32.link: ig://CCI6KiFBDv4
 photo.32.tags: brothers, siblings, tail, twins
-photo.32.tags.957.location: 
-photo.32.tags.958.location: 
+photo.32.tags.957.location: 260, 360
+photo.32.tags.958.location: 450, 260
 photo.33: cwdc://XOPpvxqADQE.jpg
 photo.33.author: ssc6105
 photo.33.commitdate: 2020/8/23
@@ -245,8 +245,8 @@ photo.35.author: ssc6105
 photo.35.commitdate: 2025/7/2
 photo.35.link: ig://CEEQdMMBb9k
 photo.35.tags: brothers, paws, siblings, twins
-photo.35.tags.957.location: 
-photo.35.tags.958.location: 
+photo.35.tags.957.location: 280, 285
+photo.35.tags.958.location: 440, 480
 photo.36: cwdc://XWRkTO1ADQH.jpg
 photo.36.author: ssc6105
 photo.36.commitdate: 2020/11/7
@@ -259,8 +259,8 @@ photo.37.author: fetorus_mami
 photo.37.commitdate: 2025/7/2
 photo.37.link: ig://CHkXBAohRWw
 photo.37.tags: baby, bite, brothers, laying down, playing, siblings, tail, twins
-photo.37.tags.957.location: 
-photo.37.tags.958.location: 
+photo.37.tags.957.location: 260, 510
+photo.37.tags.958.location: 500, 480
 photo.38: cwdc://XiiTYNgADQE.jpg
 photo.38.author: ifumoto88
 photo.38.commitdate: 2021/4/29
@@ -287,26 +287,26 @@ photo.41.author: fetorus_mami
 photo.41.commitdate: 2025/7/2
 photo.41.link: ig://CXEGq8kl_gb
 photo.41.tags: bamboo, brothers, siblings, standing, twins
-photo.41.tags.957.location: 
-photo.41.tags.958.location: 
+photo.41.tags.957.location: 240, 110
+photo.41.tags.958.location: 300, 500
 photo.42: cwdc://YG9imToADQF.jpg
 photo.42.author: fetorus_mami
 photo.42.commitdate: 2025/7/2
 photo.42.link: ig://Cff9inkPCT1
 photo.42.tags: baby, brothers, door, mofumofu, siblings, twins
-photo.42.tags.957.location: 
-photo.42.tags.958.location: 
+photo.42.tags.957.location: 605, 175
+photo.42.tags.958.location: 155, 265
 photo.43: cwdc://YkWQuyIADQH.jpg
 photo.43.author: fetorus_mami
 photo.43.commitdate: 2025/7/2
 photo.43.link: ig://CuMUm20PLFg
 photo.43.tags: bamboo, brothers, siblings, standing, twins
-photo.43.tags.957.location: 
-photo.43.tags.958.location: 
+photo.43.tags.957.location: 190, 130
+photo.43.tags.958.location: 310, 510
 photo.44: cwdc://YkWQuyIADQI.jpg
 photo.44.author: fetorus_mami
 photo.44.commitdate: 2025/7/2
 photo.44.link: ig://CuMUm20PLFh
 photo.44.tags: bamboo, bite, brothers, siblings, standing, twins
-photo.44.tags.957.location: 
-photo.44.tags.958.location: 
+photo.44.tags.957.location: 250, 100
+photo.44.tags.958.location: 320, 460
