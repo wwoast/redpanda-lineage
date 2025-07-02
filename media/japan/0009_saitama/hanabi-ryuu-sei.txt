@@ -10,16 +10,16 @@ photo.1.tags: brothers, family, siblings, twins
 photo.1.tags.78.location: 105, 55
 photo.1.tags.957.location: 90, 215
 photo.1.tags.958.location: 285, 205
-photo.2: cwdc://XAvgWKvADQA.jpg
-photo.2.author: ifumoto88
-photo.2.commitdate: 2020/3/25
-photo.2.link: ig://B8Y8ajHhNA5
-photo.2.tags: brothers, family, kiss
-photo.2.tags.78.location: 130, 170
-photo.2.tags.957.location: 125, 90
-photo.2.tags.958.location: 215, 105
-photo.3: cwdc://W4AFgFCADQA.jpg
-photo.3.author: rie_panda55
-photo.3.commitdate: 2025/7/1
-photo.3.link: ig://B4BO_gRB_H4
-photo.3.tags: bridge, family, poop, siblings, tail, twins
+photo.2: cwdc://W4AFgFCADQA.jpg
+photo.2.author: rie_panda55
+photo.2.commitdate: 2025/7/1
+photo.2.link: ig://B4BO_gRB_H4
+photo.2.tags: bridge, family, poop, siblings, tail, twins
+photo.3: cwdc://XAvgWKvADQA.jpg
+photo.3.author: ifumoto88
+photo.3.commitdate: 2020/3/25
+photo.3.link: ig://B8Y8ajHhNA5
+photo.3.tags: brothers, family, kiss
+photo.3.tags.78.location: 130, 170
+photo.3.tags.957.location: 125, 90
+photo.3.tags.958.location: 215, 105
