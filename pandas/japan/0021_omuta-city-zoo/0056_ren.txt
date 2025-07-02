@@ -15,199 +15,291 @@ language.order: ja, en
 litter: 55
 location.1: 1, 2008/6/21
 location.2: 21, 2010/11/18
-photo.1: ig://BPhqyPyDOWh/m
+photo.1: cwdc://VnA9FkEADQA.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/17
-photo.1.link: https://www.instagram.com/apple_jasmine33/
-photo.1.tags: bamboo, door, portrait
-photo.2: ig://BPsH0rqDKFE/m
+photo.1.link: ig://BPhqyPyDOWh
+photo.1.tags: bamboo, door, portrait, sample, whiskers
+photo.2: cwdc://VnV3Kb0ADQB.jpg
 photo.2.author: apple_jasmine33
 photo.2.commitdate: 2020/5/17
-photo.2.link: https://www.instagram.com/apple_jasmine33/
-photo.2.tags: door, portrait
-photo.3: ig://BQq-goxArTS/m
+photo.2.link: ig://BPsH0rqDKFE
+photo.2.tags: door, portrait, sample, whiskers
+photo.3: cwdc://VpTkiWCADQA.jpg
 photo.3.author: monmon_redpanda
 photo.3.commitdate: 2018/7/22
-photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.4: ig://BTYr34aFlEp/m
+photo.3.link: ig://BQq-goxArTS
+photo.4: cwdc://Vuu_Q1UADQJ.jpg
 photo.4.author: yossi929
 photo.4.commitdate: 2020/5/17
-photo.4.link: https://www.instagram.com/yossi929/
-photo.4.tags: smile, whiskers
-photo.5: ig://BVmkaNHhMTg/m
+photo.4.link: ig://BTYr34aFlEp
+photo.4.tags: sample, smile, whiskers
+photo.5: cwdc://VzKwVevADQB.jpg
 photo.5.author: miis_98
 photo.5.commitdate: 2020/4/3
-photo.5.link: https://www.instagram.com/miis_98/
-photo.5.tags: mofumofu, portrait, whiskers
-photo.6: ig://BVmmYjGFJF7/m
+photo.5.link: ig://BVmkaNHhMTg
+photo.5.tags: mofumofu, portrait, sample, whiskers
+photo.6: cwdc://VzK0SKsADQK.jpg
 photo.6.author: yossi929
 photo.6.commitdate: 2020/5/17
-photo.6.link: https://www.instagram.com/yossi929/
-photo.6.tags: portrait
-photo.7: ig://BVnudfwhQ1F/m
+photo.6.link: ig://BVmmYjGFJF7
+photo.6.tags: portrait, sample, whiskers
+photo.7: cwdc://VzNEcEBADQC.jpg
 photo.7.author: miis_98
 photo.7.commitdate: 2020/4/3
-photo.7.link: https://www.instagram.com/miis_98/
-photo.7.tags: paws, smile, whiskers
-photo.8: ig://BYktDZeBZS1/m
+photo.7.link: ig://BVnudfwhQ1F
+photo.7.tags: paws, peek, portrait, sample, smile, whiskers
+photo.8: cwdc://V5HBn3cADQF.jpg
 photo.8.author: miis_98
 photo.8.commitdate: 2020/4/3
-photo.8.link: https://www.instagram.com/miis_98/
-photo.8.tags: paws, portrait, smile, whiskers
+photo.8.link: ig://BYktDZeBZS1
+photo.8.tags: paws, portrait, sample, smile, whiskers
 photo.9: cwdc://V85Ex4YADQA.jpg
 photo.9.author: yossi929
 photo.9.commitdate: 2020/5/17
 photo.9.link: ig://BaduoZ8HVOB
 photo.9.tags: portrait, profile, sample, tree
-photo.10: ig://BgvtDsvAL7x/m
+photo.10: cwdc://WJdBod-ADQA.jpg
 photo.10.author: jas_forever_love
 photo.10.commitdate: 2018/7/22
-photo.10.link: https://www.instagram.com/jas_forever_love/
-photo.10.tags: portrait, tongue
-photo.11: ig://BiiJwYPlT1m/m
+photo.10.link: ig://BgvtDsvAL7x
+photo.10.tags: peek, portrait, sample, tongue
+photo.11: cwdc://WNB7B0_ADQG.jpg
 photo.11.author: yossi929
 photo.11.commitdate: 2018/7/22
-photo.11.link: https://www.instagram.com/yossi929/
-photo.11.tags: portrait
-photo.12: ig://Bk2zt7Rltvw/m
+photo.11.link: ig://BiiJwYPlT1m
+photo.11.tags: close-up, portrait, sample, tree, whiskers
+photo.12: cwdc://WRrO87DADQA.jpg
 photo.12.author: fetorus_mami
 photo.12.commitdate: 2018/7/22
-photo.12.link: https://www.instagram.com/fetorus_mami/
-photo.12.tags: snow
-photo.13: ig://BoC7bbflQ72/m
+photo.12.link: ig://Bk2zt7Rltvw
+photo.12.tags: sample, snow, whiskers
+photo.13: cwdc://WYDeX7fADQI.jpg
 photo.13.author: re_ichimaru
 photo.13.commitdate: 2018/9/24
-photo.13.link: https://www.instagram.com/re_ichimaru/
-photo.13.tags: portrait, tree
-photo.14: ig://Boh4ZtBlxLb/m
+photo.13.link: ig://BoC7bbflQ72
+photo.13.tags: paws, portrait, sample, tree, whiskers
+photo.14: cwdc://WZBYUejADQJ.jpg
 photo.14.author: re_ichimaru
 photo.14.commitdate: 2018/10/6
-photo.14.link: https://www.instagram.com/re_ichimaru/
-photo.14.tags: portrait
-photo.15: ig://Bo2gK6SF96j/m
+photo.14.link: ig://Boh4ZtBlxLb
+photo.14.tags: paws, portrait, sample, smile, whiskers
+photo.15: cwdc://WZqn25EADQA.jpg
 photo.15.author: re_ichimaru
 photo.15.commitdate: 2018/10/12
-photo.15.link: https://www.instagram.com/re_ichimaru/
-photo.15.tags: sign
-photo.16: ig://BpNrrEgFcg5/m
+photo.15.link: ig://Bo2gK6SF96j
+photo.15.tags: keeper, sign
+photo.16: cwdc://WaY-3NgADQA.jpg
 photo.16.author: _rifa_p
 photo.16.commitdate: 2018/10/21
-photo.16.link: https://www.instagram.com/_rifa_p/
-photo.16.tags: tree
-photo.17: ig://BpRnu1tFY9n/m
+photo.16.link: ig://BpNrrEgFcg5
+photo.16.tags: paws, sample, smile, tree
+photo.17: cwdc://Wag2-v6ADQH.jpg
 photo.17.author: yossi929
 photo.17.commitdate: 2018/10/23
-photo.17.link: https://www.instagram.com/yossi929/
-photo.17.tags: portrait
-photo.18: ig://BqUxW38FNab/m
+photo.17.link: ig://BpRnu1tFY9n
+photo.17.tags: portrait, sample, whiskers
+photo.18: cwdc://WcnKO0YADQA.jpg
 photo.18.author: tokkoo0524
 photo.18.commitdate: 2018/11/18
-photo.18.link: https://www.instagram.com/tokkoo0524/
-photo.18.tags: tree
-photo.19: ig://BqUzIAmlksL/m
+photo.18.link: ig://BqUxW38FNab
+photo.18.tags: laying down, portrait, tree
+photo.19: cwdc://WcnNxFtADQB.jpg
 photo.19.author: tokkoo0524
 photo.19.commitdate: 2018/11/18
-photo.19.link: https://www.instagram.com/tokkoo0524/
-photo.19.tags: portrait
-photo.20: ig://BrGsh0UH5h_/m
+photo.19.link: ig://BqUzIAmlksL
+photo.19.tags: close-up, portrait, sample, whiskers
+photo.20: cwdc://WeLAktIADQA.jpg
 photo.20.author: yakko____
 photo.20.commitdate: 2018/12/8
-photo.20.link: https://www.instagram.com/yakko____/
-photo.20.tags: laying down, portrait, toys, yawn
-photo.21: ig://BrnH5eSF9yG/m
+photo.20.link: ig://BrGsh0UH5h_
+photo.20.tags: laying down, portrait, sample, smile, toys, whiskers, yawn
+photo.21: cwdc://WfL3UBEADQA.jpg
 photo.21.author: panda.daisuki
 photo.21.commitdate: 2018/12/21
-photo.21.link: https://www.instagram.com/panda.daisuki/
-photo.21.tags: laying down, portrait
-photo.22: ig://BsYVvVEFf50/m
+photo.21.link: ig://BrnH5eSF9yG
+photo.21.tags: laying down, portrait, sample, whiskers
+photo.22: cwdc://WguS_uoADQA.jpg
 photo.22.author: nakacchi_desu
 photo.22.commitdate: 2019/1/9
-photo.22.link: https://www.instagram.com/nakacchi_desu/
-photo.23: ig://BtezdLxFC9c/m
+photo.22.link: ig://BsYVvVEFf50
+photo.23: cwdc://Wi7ObcCADQI.jpg
 photo.23.author: yossi929
 photo.23.commitdate: 2020/5/17
-photo.23.link: https://www.instagram.com/yossi929/
-photo.23.tags: portrait, tail, toys
-photo.24: ig://BwKDRkoFkeK/m
+photo.23.link: ig://BtezdLxFC9c
+photo.23.tags: portrait, sample, tail, toys, whiskers
+photo.24: cwdc://WoRuENwADQD.jpg
 photo.24.author: miis_98
 photo.24.commitdate: 2019/4/15
-photo.24.link: https://www.instagram.com/miis_98/
-photo.24.tags: home, paws, portrait
-photo.25: ig://BwLg2g1l2Jn/m
+photo.24.link: ig://BwKDRkoFkeK
+photo.24.tags: home, paws, portrait, sample, whiskers
+photo.25: cwdc://WoUpOGLADQN.jpg
 photo.25.author: yossi929
 photo.25.commitdate: 2019/4/17
-photo.25.link: https://www.instagram.com/yossi929/
-photo.25.tags: portrait, smile, tongue
-photo.26: ig://BxBOrgYA2fV/m
+photo.25.link: ig://BwLg2g1l2Jn
+photo.25.tags: portrait, sample, smile, tongue, whiskers
+photo.26: cwdc://WqAE4FQADQE.jpg
 photo.26.author: miis_98
 photo.26.commitdate: 2019/6/23
-photo.26.link: https://www.instagram.com/miis_98/
-photo.26.tags: autumn, portrait, tree
-photo.27: ig://B09hLXtBPAE/m
+photo.26.link: ig://BxBOrgYA2fV
+photo.26.tags: autumn, portrait, sample, tree, whiskers
+photo.27: cwdc://Wx4p3z6ADQE.jpg
 photo.27.author: yossi929
 photo.27.commitdate: 2019/8/12
-photo.27.link: https://www.instagram.com/yossi929/
-photo.27.tags: mofumofu, portrait
-photo.28: ig://B2BYoGZhXgK/m
+photo.27.link: ig://B09hLXtBPAE
+photo.27.tags: mofumofu, portrait, sample, whiskers
+photo.28: cwdc://W0AYxRTADQA.jpg
 photo.28.author: yossi929
 photo.28.commitdate: 2019/9/5
-photo.28.link: https://www.instagram.com/yossi929/
+photo.28.link: ig://B2BYoGZhXgK
 photo.28.tags: night, portrait
-photo.29: ig://B2O1X-LhXJf/m
+photo.29: cwdc://W0bSRA3ADQB.jpg
 photo.29.author: yossi929
 photo.29.commitdate: 2019/9/14
-photo.29.link: https://www.instagram.com/yossi929/
-photo.29.tags: portrait, smile
-photo.30: ig://B2piDlIhX5X/m
+photo.29.link: ig://B2O1X-LhXJf
+photo.29.tags: portrait, sample, smile, whiskers
+photo.30: cwdc://W1QroOxADQC.jpg
 photo.30.author: yossi929
 photo.30.commitdate: 2019/9/21
-photo.30.link: https://www.instagram.com/yossi929/
-photo.30.tags: portrait
-photo.31: ig://B3E6o-VBIoA/m
+photo.30.link: ig://B2piDlIhX5X
+photo.30.tags: portrait, sample, whiskers
+photo.31: cwdc://W2HczBKADQD.jpg
 photo.31.author: yossi929
 photo.31.commitdate: 2019/10/12
-photo.31.link: https://www.instagram.com/yossi929/
+photo.31.link: ig://B3E6o-VBIoA
 photo.31.tags: smile, tongue, toys
-photo.32: ig://B-7DSanhHgO/m
+photo.32: cwdc://XFzuF5vADQF.jpg
 photo.32.author: yossi929
 photo.32.commitdate: 2020/4/26
-photo.32.link: https://www.instagram.com/yossi929/
-photo.32.tags: mofumofu, muzzle, portrait
-photo.33: ig://B_kT1SMhlW1/m
+photo.32.link: ig://B-7DSanhHgO
+photo.32.tags: mofumofu, muzzle, portrait, sample, whiskers
+photo.33: cwdc://XHGPLo5ADQA.jpg
 photo.33.author: miis_98
 photo.33.commitdate: 2020/5/1
-photo.33.link: https://www.instagram.com/miis_98/
-photo.33.tags: paws, portrait, smile, whiskers
-photo.34: ig://CCGRPpRBoIB/m
+photo.33.link: ig://B_kT1SMhlW1
+photo.33.tags: mofumofu, paws, portrait, sample, smile, whiskers
+photo.34: cwdc://XMKKAXCADQO.jpg
 photo.34.author: yossi929
 photo.34.commitdate: 2020/7/1
-photo.34.link: https://www.instagram.com/yossi929/
-photo.34.tags: muzzle, portrait
-photo.35: ig://CFfxjSFBUGY/m
+photo.34.link: ig://CCGRPpRBoIB
+photo.34.tags: muzzle, portrait, sample, whiskers
+photo.35: cwdc://XS9KnoqADQP.jpg
 photo.35.author: yossi929
 photo.35.commitdate: 2020/10/9
-photo.35.link: https://www.instagram.com/yossi929/
-photo.35.tags: muzzle, portrait, smile, whiskers
-photo.36: ig://CVjD6wMvgK-/m
+photo.35.link: ig://CFfxjSFBUGY
+photo.35.tags: muzzle, portrait, sample, smile, whiskers
+photo.36: cwdc://XzDvWk5ADQS.jpg
 photo.36.author: yossi929
 photo.36.commitdate: 2021/11/7
-photo.36.link: https://www.instagram.com/yossi929/
+photo.36.link: ig://CVjD6wMvgK-
 photo.36.tags: peek
-photo.37: ig://CV81e_1PgCD/m
+photo.37: cwdc://Xz3SfEKADQR.jpg
 photo.37.author: yossi929
 photo.37.commitdate: 2021/11/7
-photo.37.link: https://www.instagram.com/yossi929/
-photo.37.tags: mofumofu, muzzle, peek, whiskers
-photo.38: ig://CdMeRpQBWxs/m
+photo.37.link: ig://CV81e_1PgCD
+photo.37.tags: mofumofu, muzzle, peek, sample, whiskers
+photo.38: cwdc://YCWkEXAADQG.jpg
 photo.38.author: miis_98
 photo.38.commitdate: 2022/6/6
-photo.38.link: https://www.instagram.com/miis_98/
+photo.38.link: ig://CdMeRpQBWxs
 photo.38.tags: climb, paws, sample, whiskers
-photo.39: ig://CipNZKKOrUR/m
+photo.39: cwdc://YNQCTY0ADQQ.jpg
 photo.39.author: yossi929
 photo.39.commitdate: 2022/11/10
-photo.39.link: https://www.instagram.com/yossi929/
+photo.39.link: ig://CipNZKKOrUR
 photo.39.tags: paws, peek, sample, smile, whiskers
 species: 2
 studbook.id: 0873
 zoo: 21
+photo.3.tags: close-up, sample, tail, whiskers
+photo.40: cwdc://VzK0SKsADQL.jpg
+photo.40.author: yossi929
+photo.40.commitdate: 2025/7/2
+photo.40.link: ig://BVmmYjGFJF8
+photo.40.tags: portrait, sample, whiskers
+photo.41: cwdc://VzK0SKsADQM.jpg
+photo.41.author: yossi929
+photo.41.commitdate: 2025/7/2
+photo.41.link: ig://BVmmYjGFJF9
+photo.41.tags: blink, portrait, sample, whiskers
+photo.42: cwdc://WMuJauzADQB.jpg
+photo.42.author: perie1027vivi
+photo.42.commitdate: 2025/7/2
+photo.42.link: ig://BiYQ81JlDTU
+photo.42.tags: paws, portriat, sample, whiskers
+photo.43: cwdc://WN2mEz_ADQA.jpg
+photo.43.author: perie1027vivi
+photo.43.commitdate: 2025/7/2
+photo.43.link: ig://Bi8fR3vldp8
+photo.43.tags: flowers, portrait, sample, whiskers
+photo.44: cwdc://WRrO87DADQB.jpg
+photo.44.author: fetorus_mami
+photo.44.commitdate: 2025/7/2
+photo.44.link: ig://Bk2zt7Rltvx
+photo.44.tags: blink, sample, snow, whiskers
+photo.45: cwdc://WZBYUejADQK.jpg
+photo.45.author: re_ichimaru
+photo.45.commitdate: 2025/7/2
+photo.45.link: ig://Boh4ZtBlxLc
+photo.45.tags: climb, keeper, paws, portrait, sample
+photo.46: cwdc://WZBYUejADQL.jpg
+photo.46.author: re_ichimaru
+photo.46.commitdate: 2025/7/2
+photo.46.link: ig://Boh4ZtBlxLd
+photo.46.tags: laying down, paws, portrait, sample, whiskers
+photo.47: cwdc://WZqn25EADQB.jpg
+photo.47.author: re_ichimaru
+photo.47.commitdate: 2025/7/2
+photo.47.link: ig://Bo2gK6SF96k
+photo.47.tags: sample, whiskers
+photo.48: cwdc://WZqn25EADQC.jpg
+photo.48.author: re_ichimaru
+photo.48.commitdate: 2025/7/2
+photo.48.link: ig://Bo2gK6SF96l
+photo.48.tags: sample, smile
+photo.49: cwdc://WZqn25EADQD.jpg
+photo.49.author: re_ichimaru
+photo.49.commitdate: 2025/7/2
+photo.49.link: ig://Bo2gK6SF96m
+photo.49.tags: home, keeper, sample, tail
+photo.50: cwdc://WZqn25EADQE.jpg
+photo.50.author: re_ichimaru
+photo.50.commitdate: 2025/7/2
+photo.50.link: ig://Bo2gK6SF96n
+photo.50.tags: home, keeper, paws, sample
+photo.51: cwdc://WZqn25EADQF.jpg
+photo.51.author: re_ichimaru
+photo.51.commitdate: 2025/7/2
+photo.51.link: ig://Bo2gK6SF96o
+photo.51.tags: home, keeper, sample
+photo.52: cwdc://WZqn25EADQG.jpg
+photo.52.author: re_ichimaru
+photo.52.commitdate: 2025/7/2
+photo.52.link: ig://Bo2gK6SF96p
+photo.52.tags: apple time, keeper, paws, sample
+photo.53: cwdc://WZqn25EADQH.jpg
+photo.53.author: re_ichimaru
+photo.53.commitdate: 2025/7/2
+photo.53.link: ig://Bo2gK6SF96q
+photo.53.tags: apple time, bite, keeper, paws, sample
+photo.22.tags: paws, sample, whiskers
+photo.54: cwdc://WguS_uoADQB.jpg
+photo.54.author: nakacchi_desu
+photo.54.commitdate: 2025/7/2
+photo.54.link: ig://BsYVvVEFf51
+photo.54.tags: paws, sample, whiskers
+photo.55: cwdc://WguS_uoADQC.jpg
+photo.55.author: nakacchi_desu
+photo.55.commitdate: 2025/7/2
+photo.55.link: ig://BsYVvVEFf52
+photo.55.tags: paws, sample, whiskers
+photo.56: cwdc://WguS_uoADQD.jpg
+photo.56.author: nakacchi_desu
+photo.56.commitdate: 2025/7/2
+photo.56.link: ig://BsYVvVEFf53
+photo.56.tags: peek, tail
+photo.57: cwdc://YCWkEXAADQH.jpg
+photo.57.author: miis_98
+photo.57.commitdate: 2025/7/2
+photo.57.link: ig://CdMeRpQBWxt
+photo.57.tags: mofumofu, muzzle, sample
