@@ -12,7 +12,7 @@ photo.1.tags.1415.location: 335, 360
 photo.2: cwdc://YpZT7ngADQC.jpg
 photo.2.author: kumamoto_doushokubutsuen
 photo.2.commitdate: 2025/7/2
-photo.2.link: ig://Cwt2NRgR6q6
+photo.2.link: ig://Cwt2NRgR6q4?img_index=3
 photo.2.tags: baby, mother's day, paws, portrait, smile, tail
 photo.2.tags.948.location: 110, 330
 photo.2.tags.1415.location: 560, 310
@@ -26,28 +26,28 @@ photo.3.tags.1415.location: 555, 310
 photo.4: cwdc://Yvc0-ESADQB.jpg
 photo.4.author: kotata_513
 photo.4.commitdate: 2025/7/2
-photo.4.link: ig://Czvmuf5PlpN
+photo.4.link: ig://Czvmuf5PlpL?img_index=3
 photo.4.tags: hammock, mother's day, tail
 photo.4.tags.948.location: 540, 250
 photo.4.tags.1415.location: 295, 285
 photo.5: cwdc://Yvc0-ESADQC.jpg
 photo.5.author: kotata_513
 photo.5.commitdate: 2025/7/2
-photo.5.link: ig://Czvmuf5PlpO
+photo.5.link: ig://Czvmuf5PlpL?img_index=4
 photo.5.tags: hammock, mother's day, tail
 photo.5.tags.948.location: 560, 270
 photo.5.tags.1415.location: 300, 250
 photo.6: cwdc://Yvc0-ESADQD.jpg
 photo.6.author: kotata_513
 photo.6.commitdate: 2025/7/2
-photo.6.link: ig://Czvmuf5PlpP
+photo.6.link: ig://Czvmuf5PlpL?img_index=5
 photo.6.tags: hammock, mother's day, tail
 photo.6.tags.948.location: 350, 380
 photo.6.tags.1415.location: 550, 350
 photo.7: cwdc://Yvc0-ESADQE.jpg
 photo.7.author: kotata_513
 photo.7.commitdate: 2025/7/2
-photo.7.link: ig://Czvmuf5PlpQ
+photo.7.link: ig://Czvmuf5PlpL?img_index=6
 photo.7.tags: hammock, mother's day, paws, tail
 photo.7.tags.948.location: 550, 270
 photo.7.tags.1415.location: 320, 270
@@ -96,14 +96,14 @@ photo.13.tags.1415.location: 560, 350
 photo.14: cwdc://YzlAyYAADQB.jpg
 photo.14.author: minatomirai215
 photo.14.commitdate: 2025/7/2
-photo.14.link: ig://C1zsopwPSms
+photo.14.link: ig://C1zsopwPSmr?img_index=2
 photo.14.tags: mother's day, paws, portrait, sample, whiskers
 photo.14.tags.948.location: 265, 380
 photo.14.tags.1415.location: 550, 350
 photo.15: cwdc://YzlAyYAADQC.jpg
 photo.15.author: minatomirai215
 photo.15.commitdate: 2025/7/2
-photo.15.link: ig://C1zsopwPSmt
+photo.15.link: ig://C1zsopwPSmr?img_index=3
 photo.15.tags: mother's day, paws, portrait, sample, whiskers
 photo.15.tags.948.location: 240, 325
 photo.15.tags.1415.location: 590, 370
@@ -138,14 +138,14 @@ photo.19.tags.1415.location: 270, 255
 photo.20: cwdc://ZIZj_hHADQC.jpg
 photo.20.author: re_ichimaru
 photo.20.commitdate: 2025/7/2
-photo.20.link: ig://DAN-POTyjvL
+photo.20.link: ig://DAN-POTyjvK?img_index=2
 photo.20.tags: apple time, ice treat, mother's day
 photo.20.tags.948.location: 690, 390
 photo.20.tags.1415.location: 260, 235
 photo.21: cwdc://ZIZj_hHADQD.jpg
 photo.21.author: re_ichimaru
 photo.21.commitdate: 2025/7/2
-photo.21.link: ig://DAN-POTyjvM
+photo.21.link: ig://DAN-POTyjvK?img_index=3
 photo.21.tags: ice treat, mother's day, wet
 photo.21.tags.948.location: 660, 395
 photo.21.tags.1415.location: 340, 360
