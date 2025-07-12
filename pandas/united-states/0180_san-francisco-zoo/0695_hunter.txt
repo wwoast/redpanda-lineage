@@ -19,26 +19,26 @@ litter: 696
 location.1: 109, 2005/6/12
 location.2: 144, 2012/11/28
 location.3: 180, 2014/12/4
-photo.1: ig://d69rBkykHZ/m
+photo.1: cwdc://UDzi3HpADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/5/11
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: laying down, paws, white face
-photo.2: ig://BVQg_etl2_3/m
+photo.1.link: ig://d69rBkykHZ
+photo.1.tags: laying down, paws, sample, white face
+photo.2: cwdc://VyepgB7ADQC.jpg
 photo.2.author: sanfranciscozoo
 photo.2.commitdate: 2019/9/18
-photo.2.link: https://www.instagram.com/sanfranciscozoo/
-photo.2.tags: flowers, white face
-photo.3: ig://Bj8EXoajpvK/m
+photo.2.link: ig://BVQg_etl2_3
+photo.2.tags: flowers, sample, tongue, white face
+photo.3: cwdc://WP1wQVVADQA.jpg
 photo.3.author: sanfranciscozoo
 photo.3.commitdate: 2019/9/18
-photo.3.link: https://www.instagram.com/sanfranciscozoo/
-photo.3.tags: paws, white face
-photo.4: ig://Bur90kkgC9N/m
+photo.3.link: ig://Bj8EXoajpvK
+photo.3.tags: paws, sample, whiskers, white face
+photo.4: cwdc://WlVjKNpADQB.jpg
 photo.4.author: sanfranciscozoo
 photo.4.commitdate: 2019/9/18
-photo.4.link: https://www.instagram.com/sanfranciscozoo/
-photo.4.tags: laying down, mofumofu, tail
+photo.4.link: ig://Bur90kkgC9N
+photo.4.tags: bridge, laying down, mofumofu, sample, tail
 photo.5: cwdc://W1UfkVcADQA.jpg
 photo.5.author: wumpwoast
 photo.5.commitdate: 2019/9/28
@@ -52,3 +52,33 @@ photo.6.tags: portrait, white face
 species: 1
 studbook.id: 0507
 zoo: 180
+photo.7: cwdc://XY7v70-ADQA.jpg
+photo.7.author: carsontheredpanda
+photo.7.commitdate: 2025/7/12
+photo.7.link: ig://CIfENYPB28P
+photo.7.tags: home, sample, tail, techitechi, tongue
+photo.8: cwdc://XY7v70-ADQB.jpg
+photo.8.author: carsontheredpanda
+photo.8.commitdate: 2025/7/12
+photo.8.link: ig://CIfENYPB28Q
+photo.8.tags: bridge, paws
+photo.9: cwdc://XYhrxEGADQC.jpg
+photo.9.author: carsontheredpanda
+photo.9.commitdate: 2025/7/12
+photo.9.link: ig://CISCH_zBrKj
+photo.9.tags: portrait, sample, white face
+photo.10: cwdc://XYhrxEGADQD.jpg
+photo.10.author: carsontheredpanda
+photo.10.commitdate: 2025/7/12
+photo.10.link: ig://CISCH_zBrKk
+photo.10.tags: bamboo, dish, home, portrait
+photo.11: cwdc://XYhrxEGADQE.jpg
+photo.11.author: carsontheredpanda
+photo.11.commitdate: 2025/7/12
+photo.11.link: ig://CISCH_zBrKl
+photo.11.tags: bamboo, dish, home, portrait, sample, whiskers
+photo.12: cwdc://Y7iH-faADQD.jpg
+photo.12.author: rossifari
+photo.12.commitdate: 2025/7/12
+photo.12.link: ig://C5yQOtdAAKY
+photo.12.tags: peek, portrait
