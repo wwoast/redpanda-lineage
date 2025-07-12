@@ -68,25 +68,25 @@ photo.10.author: sanfranciscozoo
 photo.10.commitdate: 2019/9/18
 photo.10.link: ig://Bg4rsESA6tB
 photo.10.tags: sample, smile, white face
-photo.11: ig://Bl3gufRg_yR/m
+photo.11: cwdc://WTso-DDADQA.jpg
 photo.11.author: sanfranciscozoo
 photo.11.commitdate: 2019/9/18
-photo.11.link: https://www.instagram.com/sanfranciscozoo/
+photo.11.link: ig://Bl3gufRg_yR
 photo.11.tags: home, laying down, toys, upside-down
-photo.12: ig://Bnwk7vAFWVv/m
+photo.12: cwdc://WXexYigADQB.jpg
 photo.12.author: sanfranciscozoo
 photo.12.commitdate: 2019/9/18
-photo.12.link: https://www.instagram.com/sanfranciscozoo/
+photo.12.link: ig://Bnwk7vAFWVv
 photo.12.tags: grooming, tail
-photo.13: ig://ByN4LxLl5vj/m
+photo.13: cwdc://WsZX4m3ADQD.jpg
 photo.13.author: sanfranciscozoo
 photo.13.commitdate: 2019/9/18
-photo.13.link: https://www.instagram.com/sanfranciscozoo/
-photo.14: ig://B1zjvAbnjO1/m
+photo.13.link: ig://ByN4LxLl5vj
+photo.14: cwdc://Wzku_FXADQE.jpg
 photo.14.author: sanfranciscozoo
 photo.14.commitdate: 2019/9/18
-photo.14.link: https://www.instagram.com/sanfranciscozoo/
-photo.14.tags: lunch time
+photo.14.link: ig://B1zjvAbnjO1
+photo.14.tags: close-up, lunch time, tongue, whiskers
 photo.15: cwdc://W0w7yzGADQA.jpg
 photo.15.author: sanfranciscozoo
 photo.15.commitdate: 2019/9/18
@@ -172,10 +172,6 @@ photo.31.author: wumpwoast
 photo.31.commitdate: 2022/10/1
 photo.31.link: ig://CjJFjjovY3P
 photo.31.tags: bamboo, lips, mofumofu, portrait, sample
-species: 1
-studbook.id: 1309
-uncertainty: death exact date (w/in one week)
-zoo: 180
 photo.32: cwdc://V9zTi2PADQC.jpg
 photo.32.author: sanfranciscozoo
 photo.32.commitdate: 2025/7/12
@@ -216,3 +212,13 @@ photo.39.author: sanfranciscozoo
 photo.39.commitdate: 2025/7/12
 photo.39.link: ig://CzU2OGJpn7x
 photo.39.tags: bamboo, blink, flowers, paws, portrait, tongue
+species: 1
+studbook.id: 1309
+uncertainty: death exact date (w/in one week)
+zoo: 180
+photo.40: cwdc://WXexYigADQC.jpg
+photo.40.author: sanfranciscozoo
+photo.40.commitdate: 2025/7/12
+photo.40.link: ig://Bnwk7vAFWVy
+photo.40.tags: paws, sample, whiskers
+photo.13.tags: sample, whiskers
