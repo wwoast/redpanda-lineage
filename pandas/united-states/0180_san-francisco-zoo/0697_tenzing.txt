@@ -4,6 +4,7 @@ birthday: 2013/6/1
 birthplace: 133
 children: none
 commitdate: 2019/3/25
+death: 2025/7/10
 en.name: Tenzing
 en.nicknames: none
 en.oldnames: Kodari
@@ -173,4 +174,5 @@ photo.31.link: ig://CjJFjjovY3P
 photo.31.tags: bamboo, lips, mofumofu, portrait, sample
 species: 1
 studbook.id: 1309
+uncertainty: death exact date (w/in one week)
 zoo: 180
