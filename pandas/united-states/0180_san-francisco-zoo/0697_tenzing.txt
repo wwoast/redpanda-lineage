@@ -18,56 +18,56 @@ language.order: en, ja
 litter: none
 location.1: 133, 2013/6/1
 location.2: 180, 2014/3/24
-photo.1: ig://BMFc1UXlZVE/m
+photo.1: cwdc://VgIhLtPADQG.jpg
 photo.1.author: sanfranciscozoo
 photo.1.commitdate: 2019/9/18
-photo.1.link: https://www.instagram.com/sanfranciscozoo/
-photo.1.tags: pumpkin
-photo.2: ig://BQMX_fdlFbO/m
+photo.1.link: ig://BMFc1UXlZVE
+photo.1.tags: peek, pumpkin
+photo.2: cwdc://VoWXgDbADQI.jpg
 photo.2.author: sanfranciscozoo
 photo.2.commitdate: 2019/9/18
-photo.2.link: https://www.instagram.com/sanfranciscozoo/
-photo.2.tags: bamboo, flowers, paws
-photo.3: ig://BSzvXd0FMYu/m
+photo.2.link: ig://BQMX_fdlFbO
+photo.2.tags: bamboo, flowers, paws, tongue
+photo.3: cwdc://VtlGQAIADQJ.jpg
 photo.3.author: sanfranciscozoo
 photo.3.commitdate: 2019/9/18
-photo.3.link: https://www.instagram.com/sanfranciscozoo/
-photo.3.tags: smile
-photo.4: ig://BTHWqG4l0CW/m
+photo.3.link: ig://BSzvXd0FMYu
+photo.3.tags: sample, smile, whiskers
+photo.4: cwdc://VuMU1SRADQK.jpg
 photo.4.author: sanfranciscozoo
 photo.4.commitdate: 2019/9/18
-photo.4.link: https://www.instagram.com/sanfranciscozoo/
+photo.4.link: ig://BTHWqG4l0CW
 photo.4.tags: bamboo, paws, whiskers
-photo.5: ig://BVFg5rflkBE/m
+photo.5: cwdc://VyIpUbfADQL.jpg
 photo.5.author: sanfranciscozoo
 photo.5.commitdate: 2019/9/18
-photo.5.link: https://www.instagram.com/sanfranciscozoo/
-photo.5.tags: bridge, smile
-photo.6: ig://BZ6aF8eFNFk/m
+photo.5.link: ig://BVFg5rflkBE
+photo.5.tags: bridge, sample, smile
+photo.6: cwdc://V7ybs9cADQM.jpg
 photo.6.author: sanfranciscozoo
 photo.6.commitdate: 2019/9/18
-photo.6.link: https://www.instagram.com/sanfranciscozoo/
-photo.6.tags: smile
-photo.7: ig://Ba62A43lyqY/m
+photo.6.link: ig://BZ6aF8eFNFk
+photo.6.tags: sample, smile, whiskers
+photo.7: cwdc://V9zTi2PADQB.jpg
 photo.7.author: sanfranciscozoo
 photo.7.commitdate: 2019/9/18
-photo.7.link: https://www.instagram.com/sanfranciscozoo/
-photo.7.tags: pumpkin
-photo.8: ig://Bds34ZZlSu5/m
+photo.7.link: ig://Ba62A43lyqY
+photo.7.tags: pumpkin, sample
+photo.8: cwdc://WDXXR3TADQD.jpg
 photo.8.author: sanfranciscozoo
 photo.8.commitdate: 2019/9/18
-photo.8.link: https://www.instagram.com/sanfranciscozoo/
-photo.8.tags: smile, tail
-photo.9: ig://BfuJIBxnR4k/m
+photo.8.link: ig://Bds34ZZlSu5
+photo.8.tags: door, sample, smile, tail
+photo.9: cwdc://WHZ5xIDADQE.jpg
 photo.9.author: sanfranciscozoo
 photo.9.commitdate: 2019/9/18
-photo.9.link: https://www.instagram.com/sanfranciscozoo/
+photo.9.link: ig://BfuJIBxnR4k
 photo.9.tags: air tasting, tail, tongue
-photo.10: ig://Bg4rsESA6tB/m
+photo.10: cwdc://WJu-5NEADQF.jpg
 photo.10.author: sanfranciscozoo
 photo.10.commitdate: 2019/9/18
-photo.10.link: https://www.instagram.com/sanfranciscozoo/
-photo.10.tags: smile, white face
+photo.10.link: ig://Bg4rsESA6tB
+photo.10.tags: sample, smile, white face
 photo.11: ig://Bl3gufRg_yR/m
 photo.11.author: sanfranciscozoo
 photo.11.commitdate: 2019/9/18
@@ -107,65 +107,65 @@ photo.18.author: wumpwoast
 photo.18.commitdate: 2019/11/30
 photo.18.link: ig://B49OZIEBpbF
 photo.18.tags: bamboo, paws
-photo.19: ig://B-3cZtaBxL0/m
+photo.19: cwdc://XFsgUfUADQA.jpg
 photo.19.author: carsontheredpanda
 photo.19.commitdate: 2020/5/3
-photo.19.link: https://www.instagram.com/carsontheredpanda/
-photo.19.tags: paws, whiskers
-photo.20: ig://B_QDTDSHVVl/m
+photo.19.link: ig://B-3cZtaBxL0
+photo.19.tags: close-up, paws, whiskers
+photo.20: cwdc://XGduHLEADQH.jpg
 photo.20.author: sanfranciscozoo
 photo.20.commitdate: 2020/9/4
-photo.20.link: https://www.instagram.com/sanfranciscozoo/
-photo.20.tags: portrait
-photo.21: ig://CBL0A0Hn1Fs/m
+photo.20.link: ig://B_QDTDSHVVl
+photo.20.tags: bite, portrait, sample, whiskers
+photo.21: cwdc://XKVPisvADQN.jpg
 photo.21.author: sanfranciscozoo
 photo.21.commitdate: 2020/9/4
-photo.21.link: https://www.instagram.com/sanfranciscozoo/
-photo.21.tags: portrait, tail, whiskers
+photo.21.link: ig://CBL0A0Hn1Fs
+photo.21.tags: portrait, sample, tail, whiskers
 photo.22: ig://CC6qn2lp3iK/m
 photo.22.author: redpandanetwork
 photo.22.commitdate: 2020/8/2
 photo.22.link: https://www.instagram.com/redpandanetwork/
 photo.22.tags: paws, portrait, smile, whiskers
-photo.23: ig://CEf9oIaBUmy/m
+photo.23: cwdc://XQ9ixVUADQB.jpg
 photo.23.author: carsontheredpanda
 photo.23.commitdate: 2021/2/18
-photo.23.link: https://www.instagram.com/carsontheredpanda/
+photo.23.link: ig://CEf9oIaBUmy
 photo.23.tags: paws, portrait, standing, toys
-photo.24: ig://CEqNzjbhNEn/m
+photo.24: cwdc://XRSDILXADQC.jpg
 photo.24.author: carsontheredpanda
 photo.24.commitdate: 2021/2/18
-photo.24.link: https://www.instagram.com/carsontheredpanda/
-photo.24.tags: paws, portrait, smile, tail, whiskers
-photo.25: ig://CFVES5sHfyE/m
+photo.24.link: ig://CEqNzjbhNEn
+photo.24.tags: paws, portrait, sample, smile, tail, whiskers
+photo.25: cwdc://XSnwG34ADQO.jpg
 photo.25.author: sanfranciscozoo
 photo.25.commitdate: 2021/6/14
-photo.25.link: https://www.instagram.com/sanfranciscozoo/
-photo.25.tags: bamboo, tail
-photo.26: ig://CG2r8mSnpCL/m
+photo.25.link: ig://CFVES5sHfyE
+photo.25.tags: bamboo, paws, tail
+photo.26: cwdc://XVq_aRFADQP.jpg
 photo.26.author: sanfranciscozoo
 photo.26.commitdate: 2021/8/14
-photo.26.link: https://www.instagram.com/sanfranciscozoo/
+photo.26.link: ig://CG2r8mSnpCL
 photo.26.tags: portrait, pumpkin, tail
-photo.27: ig://CISCH_zBrKf/m
+photo.27: cwdc://XYhrxEGADQG.jpg
 photo.27.author: carsontheredpanda
 photo.27.commitdate: 2021/11/15
-photo.27.link: https://www.instagram.com/sanfranciscozoo/
-photo.27.tags: portrait, toys, whiskers
-photo.28: ig://CIfENYPB28M/m
+photo.27.link: ig://CISCH_zBrKf
+photo.27.tags: portrait, sample, toys, whiskers
+photo.28: cwdc://XY7v70-ADQD.jpg
 photo.28.author: carsontheredpanda
 photo.28.commitdate: 2020/12/20
-photo.28.link: https://www.instagram.com/carsontheredpanda/
-photo.28.tags: laying down
-photo.29: ig://CNVSRSVnNBQ/m
+photo.28.link: ig://CIfENYPB28M
+photo.28.tags: laying down, sample
+photo.29: cwdc://XioMDpLADQQ.jpg
 photo.29.author: sanfranciscozoo
 photo.29.commitdate: 2021/5/4
-photo.29.link: https://www.instagram.com/sanfranciscozoo/
-photo.29.tags: air tasting, bamboo, paws, tongue
-photo.30: ig://CWL2KKhDh-2/m
+photo.29.link: ig://CNVSRSVnNBQ
+photo.29.tags: air tasting, bamboo, paws, sample, tongue
+photo.30: cwdc://X0VT1ZiADQR.jpg
 photo.30.author: sanfranciscozoo
 photo.30.commitdate: 2021/11/23
-photo.30.link: https://www.instagram.com/sanfranciscozoo/
+photo.30.link: ig://CWL2KKhDh-2
 photo.30.tags: paws, tail
 photo.31: cwdc://YOPyoLxADQA.jpg
 photo.31.author: wumpwoast
@@ -176,3 +176,43 @@ species: 1
 studbook.id: 1309
 uncertainty: death exact date (w/in one week)
 zoo: 180
+photo.32: cwdc://V9zTi2PADQC.jpg
+photo.32.author: sanfranciscozoo
+photo.32.commitdate: 2025/7/12
+photo.32.link: ig://Ba62A43lyqZ
+photo.32.tags: peek, pumpkin
+photo.33: cwdc://XY7v70-ADQE.jpg
+photo.33.author: carsontheredpanda
+photo.33.commitdate: 2025/7/12
+photo.33.link: ig://CIfENYPB28N
+photo.33.tags: laying down, paws, peek, sample
+photo.34: cwdc://XY7v70-ADQF.jpg
+photo.34.author: carsontheredpanda
+photo.34.commitdate: 2025/7/12
+photo.34.link: ig://CIfENYPB28O
+photo.34.tags: grooming, paws, tail
+photo.35: cwdc://XYhrxEGADQH.jpg
+photo.35.author: carsontheredpanda
+photo.35.commitdate: 2025/7/12
+photo.35.link: ig://CISCH_zBrKi
+photo.35.tags: portrait, sample, smile, toys
+photo.36: cwdc://Y7iH-faADQA.jpg
+photo.36.author: rossifari
+photo.36.commitdate: 2025/7/12
+photo.36.link: ig://C5yQOtdAAKW
+photo.36.tags: bamboo, bite, mofumofu, portrait, sample, tongue
+photo.37: cwdc://Y7iH-faADQB.jpg
+photo.37.author: rossifari
+photo.37.commitdate: 2025/7/12
+photo.37.link: ig://C5yQOtdAAKX
+photo.37.tags: bamboo, bite, paws, portrait, sample
+photo.38: cwdc://Y7iH-faADQC.jpg
+photo.38.author: rossifari
+photo.38.commitdate: 2025/7/12
+photo.38.link: ig://C5yQOtdAAKZ
+photo.38.tags: paws, portrait, sample, tail, whiskers
+photo.39: cwdc://YunT9QzADQS.jpg
+photo.39.author: sanfranciscozoo
+photo.39.commitdate: 2025/7/12
+photo.39.link: ig://CzU2OGJpn7x
+photo.39.tags: bamboo, blink, flowers, paws, portrait, tongue
