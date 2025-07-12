@@ -56,7 +56,7 @@ photo.7.tags: pumpkin, sample
 photo.8: cwdc://V9zTi2PADQC.jpg
 photo.8.author: sanfranciscozoo
 photo.8.commitdate: 2025/7/12
-photo.8.link: ig://Ba62A43lyqZ
+photo.8.link: ig://Ba62A43lyqY?img_index=2
 photo.8.tags: peek, pumpkin
 photo.9: cwdc://WDXXR3TADQD.jpg
 photo.9.author: sanfranciscozoo
@@ -86,7 +86,7 @@ photo.13.tags: grooming, tail
 photo.14: cwdc://WXexYigADQC.jpg
 photo.14.author: sanfranciscozoo
 photo.14.commitdate: 2025/7/12
-photo.14.link: ig://Bnwk7vAFWVy
+photo.14.link: ig://Bnwk7vAFWVv?img_index=4
 photo.14.tags: paws, sample, whiskers
 photo.15: cwdc://WsZX4m3ADQD.jpg
 photo.15.author: sanfranciscozoo
@@ -166,7 +166,7 @@ photo.29.tags: portrait, sample, toys, whiskers
 photo.30: cwdc://XYhrxEGADQH.jpg
 photo.30.author: carsontheredpanda
 photo.30.commitdate: 2025/7/12
-photo.30.link: ig://CISCH_zBrKi
+photo.30.link: ig://CISCH_zBrKf?img_index=4
 photo.30.tags: portrait, sample, smile, toys
 photo.31: cwdc://XY7v70-ADQD.jpg
 photo.31.author: carsontheredpanda
@@ -176,12 +176,12 @@ photo.31.tags: laying down, sample
 photo.32: cwdc://XY7v70-ADQE.jpg
 photo.32.author: carsontheredpanda
 photo.32.commitdate: 2025/7/12
-photo.32.link: ig://CIfENYPB28N
+photo.32.link: ig://CIfENYPB28M?img_index=2
 photo.32.tags: laying down, paws, peek, sample
 photo.33: cwdc://XY7v70-ADQF.jpg
 photo.33.author: carsontheredpanda
 photo.33.commitdate: 2025/7/12
-photo.33.link: ig://CIfENYPB28O
+photo.33.link: ig://CIfENYPB28M?img_index=3
 photo.33.tags: grooming, paws, tail
 photo.34: cwdc://XioMDpLADQQ.jpg
 photo.34.author: sanfranciscozoo
@@ -211,12 +211,12 @@ photo.38.tags: bamboo, bite, mofumofu, portrait, sample, tongue
 photo.39: cwdc://Y7iH-faADQB.jpg
 photo.39.author: rossifari
 photo.39.commitdate: 2025/7/12
-photo.39.link: ig://C5yQOtdAAKX
+photo.39.link: ig://C5yQOtdAAKW?img_index=2
 photo.39.tags: bamboo, bite, paws, portrait, sample
 photo.40: cwdc://Y7iH-faADQC.jpg
 photo.40.author: rossifari
 photo.40.commitdate: 2025/7/12
-photo.40.link: ig://C5yQOtdAAKZ
+photo.40.link: ig://C5yQOtdAAKW?img_index=4
 photo.40.tags: paws, portrait, sample, tail, whiskers
 species: 1
 studbook.id: 1309
