@@ -368,11 +368,11 @@ photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2020/12/12
 photo.71.link: ig://CEy3OE8BwJM
 photo.71.tags: paws, portrait, sample
-photo.72: ig://CFg7-sIBN8G/m
+photo.72: cwdc://XS_fecwADQC.jpg
 photo.72.author: pink.b22
 photo.72.commitdate: 2020/11/11
-photo.72.link: https://www.instagram.com/pink.b22/
-photo.72.tags: bamboo, bite, mofumofu, portrait
+photo.72.link: ig://CFg7-sIBN8G
+photo.72.tags: bamboo, bite, mofumofu, portrait, sample
 photo.73: cwdc://XTdIvzRADQH.jpg
 photo.73.author: ssc6105
 photo.73.commitdate: 2020/12/12
@@ -423,9 +423,6 @@ photo.82.author: fetorus_mami
 photo.82.commitdate: 2020/12/30
 photo.82.link: ig://CI-kmjxBLEj
 photo.82.tags: bamboo, bite, mofumofu, portrait, sample, smile
-species: 2
-studbook.id: 0870
-zoo: 8
 photo.83: cwdc://Vzp5hqCADQC.jpg
 photo.83.author: perie1027vivi
 photo.83.commitdate: 2025/7/15
@@ -822,3 +819,6 @@ photo.161.author: hamamatsu.chiita
 photo.161.commitdate: 2025/7/15
 photo.161.link: ig://DDc54XazD5T
 photo.161.tags: mofumofu, paws, portrait, praying, sample, standing
+species: 2
+studbook.id: 0870
+zoo: 8
