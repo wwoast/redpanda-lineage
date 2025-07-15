@@ -14,415 +14,811 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 46
-photo.1: ig://BV1zLLzg6Pv/m
+photo.1: cwdc://VzpN3cHADQA.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/12/12
-photo.1.link: https://www.instagram.com/minatomirai215/
-photo.1.tags: mofumofu, peek, portrait
-photo.2: ig://BeyxHBplPDo/m
+photo.1.link: ig://BV1zLLzg6Pv
+photo.1.tags: mofumofu, peek, portrait, sample
+photo.2: cwdc://WFjJvHzADQA.jpg
 photo.2.author: kipekaila
 photo.2.commitdate: 2018/7/17
-photo.2.link: https://www.instagram.com/kipekaila/
-photo.2.tags: portrait, praying, tongue
-photo.3: ig://BgN_R44FmZT/m
+photo.2.link: ig://BeyxHBplPDo
+photo.2.tags: close-up, mofumofu, portrait, praying, sample, tongue
+photo.3: cwdc://WIZmE2QADQA.jpg
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2018/7/28
-photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.3.tags: apple time, praying, standing
-photo.4: ig://BgODvqUFtqR/m
+photo.3.link: ig://BgN_R44FmZT
+photo.3.tags: apple time, paws, praying, sample, standing
+photo.4: cwdc://WIZvAZIADQA.jpg
 photo.4.author: 218_yu
 photo.4.commitdate: 2018/7/17
-photo.4.link: https://www.instagram.com/218_yu/
-photo.4.tags: keeper
-photo.5: ig://BglSktMFX_l/m
+photo.4.link: ig://BgODvqUFtqR
+photo.4.tags: keeper, laying down, paws, surprise
+photo.5: cwdc://WJIMqe4ADQA.jpg
 photo.5.author: rdpnzoo
 photo.5.commitdate: 2018/7/17
-photo.5.link: https://www.instagram.com/rdpnzoo/
-photo.5.tags: smile, tree
-photo.6: ig://Bk43Ub5lRDk/m
+photo.5.link: ig://BglSktMFX_l
+photo.5.tags: sample, smile, tree
+photo.6: cwdc://WRvWJ8TADQA.jpg
 photo.6.author: monmon_redpanda
 photo.6.commitdate: 2018/7/28
-photo.6.link: https://www.instagram.com/monmon_redpanda/
-photo.6.tags: apple time, keeper, portrait, praying, standing
-photo.7: ig://Bm8Qc5AFhc3/m
+photo.6.link: ig://Bk43Ub5lRDk
+photo.6.tags: apple time, keeper, portrait, praying, sample, standing
+photo.7: cwdc://WV2Ia2gADQC.jpg
 photo.7.author: craig_craig_craig
 photo.7.commitdate: 2018/8/30
-photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: keeper, portrait, smile
-photo.8: ig://BngWA6_lTf1/m
+photo.7.link: ig://Bm8Qc5AFhc3
+photo.7.tags: keeper, mofumofu, paws, portrait, sample, smile, whiskers
+photo.8: cwdc://WW-Ti6fADQM.jpg
 photo.8.author: ifumoto88
 photo.8.commitdate: 2018/9/10
-photo.8.link: https://www.instagram.com/ifumoto88/
-photo.8.tags: peek, tail
-photo.9: ig://Bnvq3hMlw5B/m
+photo.8.link: ig://BngWA6_lTf1
+photo.8.tags: keeper, mofumofu, paws, peek, tail
+photo.9: cwdc://WXc9QG5ADQB.jpg
 photo.9.author: 218_yu
 photo.9.commitdate: 2018/9/16
-photo.9.link: https://www.instagram.com/218_yu/
-photo.9.tags: bridge, portrait, smile
-photo.10: ig://BnvzSI_FU5T/m
+photo.9.link: ig://Bnvq3hMlw5B
+photo.9.tags: bridge, portrait, sample, smile
+photo.10: cwdc://WXdOFWeADQO.jpg
 photo.10.author: ifumoto88
 photo.10.commitdate: 2018/9/16
-photo.10.link: https://www.instagram.com/ifumoto88/
-photo.10.tags: laying down, portrait, wet
-photo.11: ig://BnxQq_VFqKA/m
+photo.10.link: ig://BnvzSI_FU5T
+photo.10.tags: close-up, laying down, mofumofu, portrait, tail, wet
+photo.11: cwdc://WXgI3DKADQA.jpg
 photo.11.author: _rifa_p
 photo.11.commitdate: 2018/9/16
-photo.11.link: https://www.instagram.com/_rifa_p/
-photo.11.tags: apple time
-photo.12: ig://Bn3fXjxlRYG/m
+photo.11.link: ig://BnxQq_VFqKA
+photo.11.tags: apple time, sample
+photo.12: cwdc://WXsmQMDADQA.jpg
 photo.12.author: redpanda_nippon_takashi
 photo.12.commitdate: 2018/9/22
-photo.12.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.12.tags: apple time, keeper, paws, standing
-photo.13: ig://BoT4hBuldFE/m
+photo.12.link: ig://Bn3fXjxlRYG
+photo.12.tags: apple time, keeper, paws, sample, standing, wave
+photo.13: cwdc://WYlYjH9ADQP.jpg
 photo.13.author: ifumoto88
 photo.13.commitdate: 2018/9/30
-photo.13.link: https://www.instagram.com/ifumoto88/
-photo.13.tags: praying
-photo.14: ig://BoynC6tlTPL/m
+photo.13.link: ig://BoT4hBuldFE
+photo.13.tags: close-up, mofumofu, paws, praying, sample
+photo.14: cwdc://WZi1m57ADQB.jpg
 photo.14.author: mari_neko3
 photo.14.commitdate: 2018/10/11
-photo.14.link: https://www.instagram.com/mari_neko3/
-photo.14.tags: apple time, portrait, praying, standing
+photo.14.link: ig://BoynC6tlTPL
+photo.14.tags: apple time, bite, mofumofu, portrait, praying, sample, standing
 photo.15: cwdc://WaKRO_8ADQA.jpg
 photo.15.author: ck.chie
 photo.15.commitdate: 2018/10/19
 photo.15.link: ig://BpGU29uFs75
 photo.15.tags: portrait, sample, smile
-photo.16: ig://BpGmwbqlQeG/m
+photo.16: cwdc://WaK1B71ADQC.jpg
 photo.16.author: 218_yu
 photo.16.commitdate: 2018/10/19
-photo.16.link: https://www.instagram.com/218_yu/
-photo.16.tags: portrait
-photo.17: ig://Bpecm_uFGRE/m
+photo.16.link: ig://BpGmwbqlQeG
+photo.16.tags: bamboo, mofumofu, paws, portrait, sample, whiskers
+photo.17: cwdc://Wa6gvD8ADQR.jpg
 photo.17.author: ifumoto88
 photo.17.commitdate: 2018/10/28
-photo.17.link: https://www.instagram.com/ifumoto88/
-photo.17.tags: portrait, praying, standing
-photo.18: ig://Bp_9QmBlZL6/m
+photo.17.link: ig://Bpecm_uFGRE
+photo.17.tags: mofumofu, portrait, praying, sample, standing
+photo.18: cwdc://Wb9iCQjADQQ.jpg
 photo.18.author: ifumoto88
 photo.18.commitdate: 2018/11/11
-photo.18.link: https://www.instagram.com/ifumoto88/
-photo.18.tags: portrait
-photo.19: ig://Bq6iWUalWMq/m
+photo.18.link: ig://Bp_9QmBlZL6
+photo.18.tags: mofumofu, paws, portrait, sample
+photo.19: cwdc://WdysNtVADQC.jpg
 photo.19.author: mari_neko3
 photo.19.commitdate: 2018/12/4
-photo.19.link: https://www.instagram.com/mari_neko3/
-photo.19.tags: portrait, smile
-photo.20: ig://BrumfH3F3ec/m
+photo.19.link: ig://Bq6iWUalWMq
+photo.19.tags: mofumofu, portrait, sample, smile, whiskers
+photo.20: cwdc://Wfa0fUOADQS.jpg
 photo.20.author: ifumoto88
 photo.20.commitdate: 2018/12/23
-photo.20.link: https://www.instagram.com/ifumoto88/
-photo.20.tags: apple time, portrait, praying, standing
-photo.21: ig://BruyO5ClKvD/m
+photo.20.link: ig://BrumfH3F3ec
+photo.20.tags: apple time, paws, portrait, praying, sample, standing, whiskers
+photo.21: cwdc://WfbL-2lADQB.jpg
 photo.21.author: panda.daisuki
 photo.21.commitdate: 2018/12/23
-photo.21.link: https://www.instagram.com/panda.daisuki/
-photo.21.tags: laying down, portrait, tail
+photo.21.link: ig://BruyO5ClKvD
+photo.21.tags: laying down, mofumofu, portrait, sample, tail
 photo.22: cwdc://Wf0u6FyADQA.jpg
 photo.22.author: ifumoto88
 photo.22.commitdate: 2018/12/28
 photo.22.link: ig://Br7jsgpFoXA
 photo.22.tags: paws, portrait, praying, profile, sample, tongue
-photo.23: ig://BsQJCfMlEtn/m
+photo.23: cwdc://Wgd5mC5ADQA.jpg
 photo.23.author: firefoxpanda88
 photo.23.commitdate: 2019/1/6
-photo.23.link: https://www.instagram.com/firefoxpanda88/
-photo.23.tags: apple time, paws, portrait, praying
-photo.24: ig://BsQJykilVc-/m
+photo.23.link: ig://BsQJCfMlEtn
+photo.23.tags: apple time, close-up, mofumofu, paws, portrait, praying, sample, tongue
+photo.24: cwdc://Wgd7GNlADQB.jpg
 photo.24.author: monmon_redpanda
 photo.24.commitdate: 2019/1/6
-photo.24.link: https://www.instagram.com/monmon_redpanda/
-photo.24.tags: apple time, keeper, portrait, praying
-photo.25: ig://BtqbJAql8FE/m
+photo.24.link: ig://BsQJykilVc-
+photo.24.tags: apple time, keeper, mofumofu, portrait, praying, sample
+photo.25: cwdc://WjSdzF1ADQT.jpg
 photo.25.author: ifumoto88
 photo.25.commitdate: 2019/2/19
-photo.25.link: https://www.instagram.com/ifumoto88/
-photo.25.tags: portrait, snow, tongue
-photo.26: ig://BuGq2fjFDtP/m
+photo.25.link: ig://BtqbJAql8FE
+photo.25.tags: portrait, sample, snow, tail, tongue
+photo.26: cwdc://WkK9ODmADQU.jpg
 photo.26.author: ifumoto88
 photo.26.commitdate: 2019/3/2
-photo.26.link: https://www.instagram.com/ifumoto88/
-photo.26.tags: lunch time, portrait, praying
-photo.27: ig://BubEjquFPbG/m
+photo.26.link: ig://BuGq2fjFDtP
+photo.26.tags: lunch time, mofumofu, portrait, praying, standing
+photo.27: cwdc://WkzwoZ8ADQH.jpg
 photo.27.author: panda.daisuki
 photo.27.commitdate: 2019/3/9
-photo.27.link: https://www.instagram.com/panda.daisuki/
-photo.27.tags: keeper, smile, tongue
+photo.27.link: ig://BubEjquFPbG
+photo.27.tags: keeper, portrait, sample, smile, tongue, whiskers
 photo.28: cwdc://Wlv17a-ADQB.jpg
 photo.28.author: ck.chie
 photo.28.commitdate: 2019/3/16
 photo.28.link: ig://Bu5HNLPFM61
 photo.28.tags: bamboo, paws, portrait, sample, tongue
-photo.29: ig://BvCJBQIFq5i/m
+photo.29: cwdc://WmB5jkwADQE.jpg
 photo.29.author: mari_neko3
 photo.29.commitdate: 2019/3/17
-photo.29.link: https://www.instagram.com/mari_neko3/
-photo.29.tags: keeper, nose, paws
-photo.30: ig://BvqAxhLl4yX/m
+photo.29.link: ig://BvCJBQIFq5i
+photo.29.tags: keeper, nose, paws, peek, portrait, sample
+photo.30: cwdc://WnRpEG3ADQA.jpg
 photo.30.author: na.mo.pan
 photo.30.commitdate: 2019/4/1
-photo.30.link: https://www.instagram.com/na.mo.pan/
-photo.30.tags: apple time, praying
-photo.31: ig://Bv5Nu7fF7Rt/m
+photo.30.link: ig://BvqAxhLl4yX
+photo.30.tags: apple time, praying, sample, standing
+photo.31: cwdc://WnwC-7eADQD.jpg
 photo.31.author: mari_neko3
 photo.31.commitdate: 2019/4/5
-photo.31.link: https://www.instagram.com/mari_neko3/
-photo.31.tags: keeper, paws, standing
-photo.32: ig://Bv_kcnFlEjm/m
+photo.31.link: ig://Bv5Nu7fF7Rt
+photo.31.tags: blink, keeper, paws, portrait, standing
+photo.32: cwdc://Wn8waSrADQV.jpg
 photo.32.author: ifumoto88
 photo.32.commitdate: 2019/4/8
-photo.32.link: https://www.instagram.com/ifumoto88/
-photo.32.tags: apple time, portrait, praying, smile, standing
-photo.33: ig://BwOEDnYFFCH/m
+photo.32.link: ig://Bv_kcnFlEjm
+photo.32.tags: apple time, portrait, praying, sample, smile, standing
+photo.33: cwdc://WoZvoTQADQB.jpg
 photo.33.author: na.mo.pan
 photo.33.commitdate: 2019/4/17
-photo.33.link: https://www.instagram.com/na.mo.pan/
-photo.33.tags: apple time, keeper, lips, shedding, standing
-photo.34: ig://BwUIkHKls9F/m
+photo.33.link: ig://BwOEDnYFFCH
+photo.33.tags: apple time, keeper, lips, mofumofu, sample, shedding, standing
+photo.34: cwdc://Wol4pS1ADQF.jpg
 photo.34.author: mari_neko3
 photo.34.commitdate: 2019/4/22
-photo.34.link: https://www.instagram.com/mari_neko3/
-photo.34.tags: apple time, portrait, praying, standing
-photo.35: ig://B0NsAy4hkCM/m
+photo.34.link: ig://BwUIkHKls9F
+photo.34.tags: apple time, portrait, praying, sample, standing
+photo.35: cwdc://WwY_iqRADQA.jpg
 photo.35.author: hamiiiii831_
 photo.35.commitdate: 2019/7/22
-photo.35.link: https://www.instagram.com/hamiiiii831_/
-photo.35.tags: mofumofu, portrait
-photo.36: ig://B0b8xTYBaCc/m
+photo.35.link: ig://B0NsAy4hkCM
+photo.35.tags: mofumofu, portrait, sample
+photo.36: cwdc://Ww1hDrQADQA.jpg
 photo.36.author: ssc6105
 photo.36.commitdate: 2019/7/30
-photo.36.link: https://www.instagram.com/ssc6105/
-photo.36.tags: bamboo, portrait, smile
-photo.37: ig://B1Z3vm4hbXy/m
+photo.36.link: ig://B0b8xTYBaCc
+photo.36.tags: bamboo, portrait, sample, smile
+photo.37: cwdc://WyxXASRADQA.jpg
 photo.37.author: miis_98
 photo.37.commitdate: 2019/8/27
-photo.37.link: https://www.instagram.com/miis_98/
-photo.37.tags: portrait, smile
-photo.38: ig://B1nMGSrB8Gl/m
+photo.37.link: ig://B1Z3vm4hbXy
+photo.37.tags: mofumofu, paws, portrait, sample, smile, tail
+photo.38: cwdc://WzL_tp2ADQB.jpg
 photo.38.author: ssc6105
 photo.38.commitdate: 2019/8/27
-photo.38.link: https://www.instagram.com/ssc6105/
-photo.38.tags: bamboo, mofumofu
-photo.39: ig://B2B8_-FBuqW/m
+photo.38.link: ig://B1nMGSrB8Gl
+photo.38.tags: bamboo, mofumofu, sample
+photo.39: cwdc://W0BhhAqADQE.jpg
 photo.39.author: ifumoto88
 photo.39.commitdate: 2019/9/5
-photo.39.link: https://www.instagram.com/ifumoto88/
-photo.39.tags: paws, portrait, smile, tail
-photo.40: ig://B2wPc7MhZou/m
+photo.39.link: ig://B2B8_-FBuqW
+photo.39.tags: paws, portrait, sample, smile, tail
+photo.40: cwdc://W1eGa65ADQA.jpg
 photo.40.author: grskus_tk
 photo.40.commitdate: 2019/9/23
-photo.40.link: https://www.instagram.com/grskus_tk/
-photo.40.tags: apple time, keeper, portrait
-photo.41: ig://B29DmCkBN0L/m
+photo.40.link: ig://B2wPc7MhZou
+photo.40.tags: apple time, keeper, mofumofu, portrait, sample
+photo.41: cwdc://W13utJoADQE.jpg
 photo.41.author: ssc6105
 photo.41.commitdate: 2019/10/8
-photo.41.link: https://www.instagram.com/ssc6105/
+photo.41.link: ig://B29DmCkBN0L
 photo.41.tags: laying down, portrait, sleeping
-photo.42: ig://B3vqmJ6BGs_/m
+photo.42: cwdc://W3c8tYUADQC.jpg
 photo.42.author: grskus_tk
 photo.42.commitdate: 2019/10/21
-photo.42.link: https://www.instagram.com/grskus_tk/
-photo.42.tags: bamboo, mofumofu, portrait, smile
-photo.43: ig://B4XS6WBhbYU/m
+photo.42.link: ig://B3vqmJ6BGs_
+photo.42.tags: bamboo, mofumofu, portrait, sample, smile, whiskers
+photo.43: cwdc://W4sNVwjADQJ.jpg
 photo.43.author: ifumoto88
 photo.43.commitdate: 2019/11/17
-photo.43.link: https://www.instagram.com/ifumoto88/
-photo.43.tags: paws, portrait, tail
-photo.44: ig://B4ckQwlBbtf/m
+photo.43.link: ig://B4XS6WBhbYU
+photo.43.tags: mofumofu, paws, portrait, sample, tail
+photo.44: cwdc://W42wClqADQI.jpg
 photo.44.author: ifumoto88
 photo.44.commitdate: 2019/11/18
-photo.44.link: https://www.instagram.com/ifumoto88/
-photo.44.tags: bamboo, mofumofu, paws, portrait
-photo.45: ig://B4mne6GhC6s/m
+photo.44.link: ig://B4ckQwlBbtf
+photo.44.tags: bamboo, mofumofu, paws, portrait, sample
+photo.45: cwdc://W5K2e4tADQC.jpg
 photo.45.author: ssc6105
 photo.45.commitdate: 2019/11/8
-photo.45.link: https://www.instagram.com/ssc6105/
-photo.45.tags: paws, portrait, smile
-photo.46: ig://B5iAMSBB24z/m
+photo.45.link: ig://B4mne6GhC6s
+photo.45.tags: keeper, paws, portrait, sample, smile, tail
+photo.46: cwdc://W7Bn5oiADQD.jpg
 photo.46.author: grskus_tk
 photo.46.commitdate: 2019/12/3
-photo.46.link: https://www.instagram.com/grskus_tk/
-photo.46.tags: paws, portrait, praying, standing, tail, tongue
-photo.47: ig://B55LbE-hHbW/m
+photo.46.link: ig://B5iAMSBB24z
+photo.46.tags: paws, portrait, praying, sample, standing, tail, tongue
+photo.47: cwdc://W7v-XOdADQK.jpg
 photo.47.author: ifumoto88
 photo.47.commitdate: 2019/12/29
-photo.47.link: https://www.instagram.com/ifumoto88/
-photo.47.tags: paws, portrait, standing
-photo.48: ig://B6x6tCuBxpb/m
+photo.47.link: ig://B55LbE-hHbW
+photo.47.tags: paws, peek, portrait, standing
+photo.48: cwdc://W9hc7J8ADQA.jpg
 photo.48.author: mifko55
 photo.48.commitdate: 2020/1/3
-photo.48.link: https://www.instagram.com/mifko55/
-photo.48.tags: apple time, praying, portrait, tongue
-photo.49: ig://B7BO0fhhAuB/m
+photo.48.link: ig://B6x6tCuBxpb
+photo.48.tags: apple time, mofumofu, portrait, praying, sample, tongue, whiskers
+photo.49: cwdc://W-AFKDjADQA.jpg
 photo.49.author: alto0908
 photo.49.commitdate: 2020/1/25
-photo.49.link: https://www.instagram.com/alto0908/
-photo.49.tags: apple time, portrait, tree
-photo.50: ig://B7MieFQhv7x/m
+photo.49.link: ig://B7BO0fhhAuB
+photo.49.tags: apple time, peek, portrait, tree
+photo.50: cwdc://W-WsdPBADQD.jpg
 photo.50.author: alto0908
 photo.50.commitdate: 2020/1/14
-photo.50.link: https://www.instagram.com/alto0908/
-photo.50.tags: paws, praying, standing, tail
-photo.51: ig://B8PZH0gBld7/m
+photo.50.link: ig://B7MieFQhv7x
+photo.50.tags: paws, praying, sample, standing, tail
+photo.51: cwdc://XAcZwtgADQD.jpg
 photo.51.author: ssc6105
 photo.51.commitdate: 2020/2/11
-photo.51.link: https://www.instagram.com/ssc6105/
-photo.51.tags: keeper, mofumofu, paws, peek
-photo.52: ig://B8k5lncBGb_/m
+photo.51.link: ig://B8PZH0gBld7
+photo.51.tags: keeper, mofumofu, paws, peek, sample
+photo.52: cwdc://XBHasTYADQA.jpg
 photo.52.author: mari_neko3
 photo.52.commitdate: 2020/2/22
-photo.52.link: https://www.instagram.com/mari_neko3/
-photo.52.tags: apple time, paws, portrait, praying
-photo.53: ig://B86ZcRZhXTU/m
+photo.52.link: ig://B8k5lncBGb_
+photo.52.tags: apple time, paws, portrait, praying, sample, standing
+photo.53: cwdc://XByaZnTADQL.jpg
 photo.53.author: ifumoto88
 photo.53.commitdate: 2020/12/12
-photo.53.link: https://www.instagram.com/ifumoto88/
-photo.53.tags: paws, praying, standing
-photo.54: ig://B9T-kVBBJ5f/m
+photo.53.link: ig://B86ZcRZhXTU
+photo.53.tags: paws, praying, sample, standing
+photo.54: cwdc://XClkpuiADQA.jpg
 photo.54.author: craig_craig_craig
 photo.54.commitdate: 2020/12/12
-photo.54.link: https://www.instagram.com/craig_craig_craig/
-photo.54.tags: apple time, praying, standing, tail, videolink
-photo.55: ig://B9b3KgnhpU2/m
+photo.54.link: ig://B9T-kVBBJ5f
+photo.54.tags: apple time, praying, sample, standing, tail, videolink
+photo.55: cwdc://XC1V2FvADQJ.jpg
 photo.55.author: alto0908
 photo.55.commitdate: 2020/12/12
-photo.55.link: https://www.instagram.com/alto0908/
-photo.55.tags: itchy, tail
-photo.56: ig://B9tW015hmgW/m
+photo.55.link: ig://B9b3KgnhpU2
+photo.55.tags: cherry blossoms, distance, itchy, tail
+photo.56: cwdc://XDYVKwTADQH.jpg
 photo.56.author: grskus_tk
 photo.56.commitdate: 2020/12/12
-photo.56.link: https://www.instagram.com/grskus_tk/
-photo.56.tags: paws, whiskers
-photo.57: ig://B-idK0vhCo7/m
+photo.56.link: ig://B9tW015hmgW
+photo.56.tags: paws, portrait, sample, whiskers
+photo.57: cwdc://XFCh2t_ADQK.jpg
 photo.57.author: alto0908
 photo.57.commitdate: 2020/12/12
-photo.57.link: https://www.instagram.com/alto0908/
-photo.57.tags: mofumofu, peek
-photo.58: ig://B-38OukhtY1/m
+photo.57.link: ig://B-idK0vhCo7
+photo.57.tags: mofumofu, peek, portrait, sample
+photo.58: cwdc://XFtf-hpADQA.jpg
 photo.58.author: _sah_ax7
 photo.58.commitdate: 2020/12/12
-photo.58.link: https://www.instagram.com/_sah_ax7/
-photo.59: ig://B-64GghB-Ul/m
+photo.58.link: ig://B-38OukhtY1
+photo.59: cwdc://XFzXuFiADQB.jpg
 photo.59.author: craig_craig_craig
 photo.59.commitdate: 2020/12/12
-photo.59.link: https://www.instagram.com/craig_craig_craig/
-photo.59.tags: apple time, paws, praying, standing, tail
-photo.60: ig://B_Yjzzenem6/m
+photo.59.link: ig://B-64GghB-Ul
+photo.59.tags: apple time, paws, praying, sample, standing, tail
+photo.60: cwdc://XGuvIrdADQF.jpg
 photo.60.author: ssc6105
 photo.60.commitdate: 2020/12/12
-photo.60.link: https://www.instagram.com/ssc6105/
+photo.60.link: ig://B_Yjzzenem6
 photo.60.tags: grooming, paws, tail
-photo.61: ig://B_cmzF7nFyM/m
+photo.61: cwdc://XG21HQXADQA.jpg
 photo.61.author: panda.daisuki
 photo.61.commitdate: 2020/12/12
-photo.61.link: https://www.instagram.com/panda.daisuki/
-photo.61.tags: apple time, paws, portrait, praying, standing
-photo.62: ig://B_j1knJnygg/m
+photo.61.link: ig://B_cmzF7nFyM
+photo.61.tags: apple time, paws, portrait, praying, sample, standing
+photo.62: cwdc://XHFSqSzADQA.jpg
 photo.62.author: hamamatsu.chiita
 photo.62.commitdate: 2020/8/16
-photo.62.link: https://www.instagram.com/hamamatsu.chiita/
-photo.62.tags: mofumofu, portrait
-photo.63: ig://B_mo96lBpY3/m
+photo.62.link: ig://B_j1knJnygg
+photo.62.tags: mofumofu, portrait, sample
+photo.63: cwdc://XHK5c5qADQE.jpg
 photo.63.author: hamamatsu.chiita
 photo.63.commitdate: 2020/12/12
-photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: mofumofu, paws, peek, tail
-photo.64: ig://CAzmj-yBed5/m
+photo.63.link: ig://B_mo96lBpY3
+photo.63.tags: mofumofu, paws, peek, sample, tail
+photo.64: cwdc://XJk0pCEADQG.jpg
 photo.64.author: ssc6105
 photo.64.commitdate: 2020/12/12
-photo.64.link: https://www.instagram.com/ssc6105/
-photo.64.tags: dish
-photo.65: ig://CBeL4YshSEi/m
+photo.64.link: ig://CAzmj-yBed5
+photo.64.tags: dish, distance, paws, sample
+photo.65: cwdc://XK5_R15ADQD.jpg
 photo.65.author: craig_craig_craig
 photo.65.commitdate: 2020/12/12
-photo.65.link: https://www.instagram.com/craig_craig_craig/
-photo.65.tags: bridge, climb, paws, portrait, standing, tail
-photo.66: ig://CB585-KhAr6/m
+photo.65.link: ig://CBeL4YshSEi
+photo.65.tags: bridge, climb, paws, portrait, sample, standing, tail
+photo.66: cwdc://XLxhVA1ADQI.jpg
 photo.66.author: panda.daisuki
 photo.66.commitdate: 2020/12/12
-photo.66.link: https://www.instagram.com/panda.daisuki/
-photo.66.tags: paws, portrait
-photo.67: ig://CB7LwesByqZ/m
+photo.66.link: ig://CB585-KhAr6
+photo.66.tags: mofumofu, paws, portrait, sample
+photo.67: cwdc://XLz_CB4ADQD.jpg
 photo.67.author: leonard_redmof
 photo.67.commitdate: 2020/12/12
-photo.67.link: https://www.instagram.com/leonard_redmof/
-photo.67.tags: portrait
-photo.68: ig://CCjqesZBcWl/m
+photo.67.link: ig://CB7LwesByqZ
+photo.67.tags: portrait, sample, whiskers
+photo.68: cwdc://XNE8edSADQB.jpg
 photo.68.author: miis_98
 photo.68.commitdate: 2020/12/12
-photo.68.link: https://www.instagram.com/miis_98/
-photo.68.tags: laying down, paws, portrait
-photo.69: ig://CEUSNvNB3Bi/m
+photo.68.link: ig://CCjqesZBcWl
+photo.68.tags: laying down, paws, portrait, sample
+photo.69: cwdc://XQmL8i6ADQE.jpg
 photo.69.author: craig_craig_craig
 photo.69.commitdate: 2020/8/28
-photo.69.link: https://www.instagram.com/craig_craig_craig/
-photo.69.tags: laying down, mofumofu, paws, smile, tongue
-photo.70: ig://CEy3B24hP90/m
+photo.69.link: ig://CEUSNvNB3Bi
+photo.69.tags: laying down, mofumofu, paws, portrait, sample, smile, tongue
+photo.70: cwdc://XRjVkyRADQF.jpg
 photo.70.author: hamamatsu.chiita
 photo.70.commitdate: 2020/12/12
-photo.70.link: https://www.instagram.com/hamamatsu.chiita/
-photo.70.tags: peek
-photo.71: ig://CEy3OE8BwJM/m
+photo.70.link: ig://CEy3B24hP90
+photo.70.tags: mofumofu, peek, sample
+photo.71: cwdc://XRjV9OYADQJ.jpg
 photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2020/12/12
-photo.71.link: https://www.instagram.com/hamamatsu.chiita/
-photo.71.tags: paws
+photo.71.link: ig://CEy3OE8BwJM
+photo.71.tags: paws, portrait, sample
 photo.72: ig://CFg7-sIBN8G/m
 photo.72.author: pink.b22
 photo.72.commitdate: 2020/11/11
 photo.72.link: https://www.instagram.com/pink.b22/
 photo.72.tags: bamboo, bite, mofumofu, portrait
-photo.73: ig://CFvwnXYhl3j/m
+photo.73: cwdc://XTdIvzRADQH.jpg
 photo.73.author: ssc6105
 photo.73.commitdate: 2020/12/12
-photo.73.link: https://www.instagram.com/ssc6105/
+photo.73.link: ig://CFvwnXYhl3j
 photo.73.tags: bridge, climb, paws, tail
-photo.74: ig://CHxOJtBhqvm/m
+photo.74: cwdc://XXgD0ejADQK.jpg
 photo.74.author: ssc6105
 photo.74.commitdate: 2020/12/12
-photo.74.link: https://www.instagram.com/ssc6105/
+photo.74.link: ig://CHxOJtBhqvm
 photo.74.tags: laying down, portrait, yawn
-photo.75: ig://CIsmkmTh4nB/m
+photo.75: cwdc://XZW0qRHADQA.jpg
 photo.75.author: mini_cochi
 photo.75.commitdate: 2020/12/21
-photo.75.link: https://www.instagram.com/mini_cochi/
-photo.75.tags: grooming, paws, portrait
-photo.76: ig://CIs16-mB72h/m
+photo.75.link: ig://CIsmkmTh4nB
+photo.75.tags: grooming, mofumofu, paws, portrait, sample, surprise
+photo.76: cwdc://XZXTXBsADQa.jpg
 photo.76.author: ifumoto88
 photo.76.commitdate: 2020/12/21
-photo.76.link: https://www.instagram.com/ifumoto88/
-photo.76.tags: aple time, paws, portrait, praying, standing, tail
-photo.77: ig://CItsB7HBJ_v/m
+photo.76.link: ig://CIs16-mB72h
+photo.76.tags: aple time, paws, portrait, praying, sample, standing, tail
+photo.77: cwdc://XZY_k6uADQN.jpg
 photo.77.author: ssc6105
 photo.77.commitdate: 2020/12/21
-photo.77.link: https://www.instagram.com/ssc6105/
-photo.77.tags: itchy, paws, smile
-photo.78: ig://CItxuFhBPxO/m
+photo.77.link: ig://CItsB7HBJ_v
+photo.77.tags: itchy, paws, sample, smile
+photo.78: cwdc://XZZK9PiADQP.jpg
 photo.78.author: alto0908
 photo.78.commitdate: 2020/12/21
-photo.78.link: https://www.instagram.com/alto0908/
-photo.78.tags: portrait
-photo.79: ig://CIvEd1MBqxm/m
+photo.78.link: ig://CItxuFhBPxO
+photo.78.tags: blink, door, portrait, sample
+photo.79: cwdc://XZbwcu4ADQA.jpg
 photo.79.author: daniele.tokyo
 photo.79.commitdate: 2020/12/21
-photo.79.link: https://www.instagram.com/daniele.tokyo/
-photo.79.tags: paws, praying, smile, standing
-photo.80: ig://CIvJws9BuId/m
+photo.79.link: ig://CIvEd1MBqxm
+photo.79.tags: paws, praying, sample, smile, standing
+photo.80: cwdc://XZb7CeaADQB.jpg
 photo.80.author: minatomirai215
 photo.80.commitdate: 2020/12/21
-photo.80.link: https://www.instagram.com/minatomirai215/
-photo.80.tags: peek, portrait, smile
-photo.81: ig://CIwmQ0HBCUg/m
+photo.80.link: ig://CIvJws9BuId
+photo.80.tags: paws, peek, portrait, sample, smile, tongue
+photo.81: cwdc://XZe0CsuADQA.jpg
 photo.81.author: sunnylettuce_2024
 photo.81.commitdate: 2020/12/21
-photo.81.link: https://www.instagram.com/sunnylettuce_2024/
-photo.81.tags: laying down, portrait
-photo.82: ig://CI-kmjxBLEj/m
+photo.81.link: ig://CIwmQ0HBCUg
+photo.81.tags: laying down, portrait, sample
+photo.82: cwdc://XZ6wuMCADQB.jpg
 photo.82.author: fetorus_mami
 photo.82.commitdate: 2020/12/30
-photo.82.link: https://www.instagram.com/fetorus_mami/
-photo.82.tags: bamboo, mofumofu, portrait, smile
+photo.82.link: ig://CI-kmjxBLEj
+photo.82.tags: bamboo, bite, mofumofu, portrait, sample, smile
 species: 2
 studbook.id: 0870
 zoo: 8
+photo.83: cwdc://Vzp5hqCADQC.jpg
+photo.83.author: perie1027vivi
+photo.83.commitdate: 2025/7/15
+photo.83.link: ig://BV2JASxB5B2
+photo.83.tags: apple time, paws, portrait, praying, sample, standing, whiskers
+photo.84: cwdc://W-AFKDjADQB.jpg
+photo.84.author: alto0908
+photo.84.commitdate: 2025/7/15
+photo.84.link: ig://B7BO0fhhAuC
+photo.84.tags: apple time, paws, portrait, sample, tongue, tree
+photo.85: cwdc://W-AFKDjADQC.jpg
+photo.85.author: alto0908
+photo.85.commitdate: 2025/7/15
+photo.85.link: ig://B7BO0fhhAuD
+photo.85.tags: apple time, paws, portrait, sample
+photo.86: cwdc://W-WsdPBADQE.jpg
+photo.86.author: alto0908
+photo.86.commitdate: 2025/7/15
+photo.86.link: ig://B7MieFQhv7y
+photo.86.tags: keeper, paws, praying, portrait, sample, standing, tail
+photo.87: cwdc://W-WsdPBADQF.jpg
+photo.87.author: alto0908
+photo.87.commitdate: 2025/7/15
+photo.87.link: ig://B7MieFQhv7z
+photo.87.tags: apple time, paws, praying, portrait, sample, standing, tail
+photo.88: cwdc://W-WsdPBADQG.jpg
+photo.88.author: alto0908
+photo.88.commitdate: 2025/7/15
+photo.88.link: ig://B7MieFQhv71
+photo.88.tags: apple time, paws, portrait, praying, sample, standing, tail
+photo.89: cwdc://W-WsdPBADQH.jpg
+photo.89.author: alto0908
+photo.89.commitdate: 2025/7/15
+photo.89.link: ig://B7MieFQhv72
+photo.89.tags: apple time, paws, portrait, praying, sample, standing, tail
+photo.90: cwdc://W-WsdPBADQI.jpg
+photo.90.author: alto0908
+photo.90.commitdate: 2025/7/15
+photo.90.link: ig://B7MieFQhv73
+photo.90.tags: apple time, bite, keeper, paws, portrait, praying, sample, standing, tail
+photo.91: cwdc://W0BhhAqADQA.jpg
+photo.91.author: ifumoto88
+photo.91.commitdate: 2025/7/15
+photo.91.link: ig://B2B8_-FBuq1
+photo.91.tags: paws, peek, portrait, sample, tail
+photo.92: cwdc://W0BhhAqADQB.jpg
+photo.92.author: ifumoto88
+photo.92.commitdate: 2025/7/15
+photo.92.link: ig://B2B8_-FBuq2
+photo.92.tags: paws, peek, portrait, sample, tail
+photo.93: cwdc://W0BhhAqADQC.jpg
+photo.93.author: ifumoto88
+photo.93.commitdate: 2025/7/15
+photo.93.link: ig://B2B8_-FBuq3
+photo.93.tags: paws, peek, portrait, sample, tail
+photo.94: cwdc://W0BhhAqADQD.jpg
+photo.94.author: ifumoto88
+photo.94.commitdate: 2025/7/15
+photo.94.link: ig://B2B8_-FBuq4
+photo.94.tags: paws, peek, portrait, sample, smile, tail
+photo.95: cwdc://W0BhhAqADQF.jpg
+photo.95.author: ifumoto88
+photo.95.commitdate: 2025/7/15
+photo.95.link: ig://B2B8_-FBuqX
+photo.95.tags: paws, portrait, sample, smile
+photo.96: cwdc://W0BhhAqADQG.jpg
+photo.96.author: ifumoto88
+photo.96.commitdate: 2025/7/15
+photo.96.link: ig://B2B8_-FBuqY
+photo.96.tags: paws, portrait, sample, surprise, tail
+photo.97: cwdc://W0BhhAqADQH.jpg
+photo.97.author: ifumoto88
+photo.97.commitdate: 2025/7/15
+photo.97.link: ig://B2B8_-FBuqZ
+photo.97.tags: paws, portrait, sample, tail
+photo.98: cwdc://W1eGa65ADQB.jpg
+photo.98.author: grskus_tk
+photo.98.commitdate: 2025/7/15
+photo.98.link: ig://B2wPc7MhZov
+photo.98.tags: apple time, bite, keeper, mofumofu, portrait, sample
+photo.99: cwdc://W7Bn5oiADQE.jpg
+photo.99.author: grskus_tk
+photo.99.commitdate: 2025/7/15
+photo.99.link: ig://B5iAMSBB241
+photo.99.tags: apple time, paws, portrait, praying, sample, standing, tail, tongue
+photo.100: cwdc://W7Bn5oiADQF.jpg
+photo.100.author: grskus_tk
+photo.100.commitdate: 2025/7/15
+photo.100.link: ig://B5iAMSBB242
+photo.100.tags: apple time, paws, portrait, praying, sample, standing, tail
+photo.101: cwdc://W7Bn5oiADQG.jpg
+photo.101.author: grskus_tk
+photo.101.commitdate: 2025/7/15
+photo.101.link: ig://B5iAMSBB243
+photo.101.tags: apple time, paws, portrait, praying, sample, standing, tail
+photo.102: cwdc://WFHwUVzADQA.jpg
+photo.102.author: perie1027vivi
+photo.102.commitdate: 2025/7/15
+photo.102.link: ig://BelEZopnTiZ
+photo.102.tags: apple time, keeper, mofumofu, peek, portrait, praying, standing
+photo.103: cwdc://WKBgzvzADQB.jpg
+photo.103.author: perie1027vivi
+photo.103.commitdate: 2025/7/15
+photo.103.link: ig://BhB8pVpgb8v
+photo.103.tags: mofumofu, paws, portrait, sample, tail
+photo.104: cwdc://WW-Ti6fADQN.jpg
+photo.104.author: ifumoto88
+photo.104.commitdate: 2025/7/15
+photo.104.link: ig://BngWA6_lTf2
+photo.104.tags: apple time, paws, praying, sample, standing
+photo.105: cwdc://WfbL-2lADQC.jpg
+photo.105.author: panda.daisuki
+photo.105.commitdate: 2025/7/15
+photo.105.link: ig://BruyO5ClKvE
+photo.105.tags: mofumofu, portrait, sample, tail
+photo.106: cwdc://WfbL-2lADQD.jpg
+photo.106.author: panda.daisuki
+photo.106.commitdate: 2025/7/15
+photo.106.link: ig://BruyO5ClKvF
+photo.106.tags: blink, mofumofu, portrait, tail, yawn
+photo.107: cwdc://WfbL-2lADQE.jpg
+photo.107.author: panda.daisuki
+photo.107.commitdate: 2025/7/15
+photo.107.link: ig://BruyO5ClKvG
+photo.107.tags: apple time, bite, keeper, portrait, standing
+photo.108: cwdc://WfbL-2lADQF.jpg
+photo.108.author: panda.daisuki
+photo.108.commitdate: 2025/7/15
+photo.108.link: ig://BruyO5ClKvH
+photo.108.tags: apple time, bite, paws, portrait, standing
+photo.109: cwdc://WfbL-2lADQG.jpg
+photo.109.author: panda.daisuki
+photo.109.commitdate: 2025/7/15
+photo.109.link: ig://BruyO5ClKvI
+photo.109.tags: mofumofu, paws, portrait, praying, sample, standing
+photo.110: cwdc://Wn8waSrADQW.jpg
+photo.110.author: ifumoto88
+photo.110.commitdate: 2025/7/15
+photo.110.link: ig://Bv_kcnFlEjn
+photo.110.tags: mofumofu, paws, portrait, praying, sample, standing
+photo.111: cwdc://Wn8waSrADQX.jpg
+photo.111.author: ifumoto88
+photo.111.commitdate: 2025/7/15
+photo.111.link: ig://Bv_kcnFlEjo
+photo.111.tags: apple time, mofumofu, paws, portrait, praying, sample, standing
+photo.112: cwdc://Wn8waSrADQY.jpg
+photo.112.author: ifumoto88
+photo.112.commitdate: 2025/7/15
+photo.112.link: ig://Bv_kcnFlEjp
+photo.112.tags: apple time, paws, portrait, praying, sample, standing, tongue
+photo.113: cwdc://Wn8waSrADQZ.jpg
+photo.113.author: ifumoto88
+photo.113.commitdate: 2025/7/15
+photo.113.link: ig://Bv_kcnFlEjq
+photo.113.tags: apple time, mofumofu, paws, portrait, sample, standing, tongue
+photo.114: cwdc://XDYVKwTADQI.jpg
+photo.114.author: grskus_tk
+photo.114.commitdate: 2025/7/15
+photo.114.link: ig://B9tW015hmgX
+photo.114.tags: paws, portrait, sample, tail, tongue
+photo.115: cwdc://XDYVKwTADQJ.jpg
+photo.115.author: grskus_tk
+photo.115.commitdate: 2025/7/15
+photo.115.link: ig://B9tW015hmgY
+photo.115.tags: apple time, paws, portrait, praying, sample, standing, tail
+photo.116: cwdc://XFCh2t_ADQL.jpg
+photo.116.author: alto0908
+photo.116.commitdate: 2025/7/15
+photo.116.link: ig://B-idK0vhCo8
+photo.116.tags: close-up, mofumofu, peek, portrait, sample
+photo.117: cwdc://XFCh2t_ADQM.jpg
+photo.117.author: alto0908
+photo.117.commitdate: 2025/7/15
+photo.117.link: ig://B-idK0vhCo9
+photo.117.tags: close-up, mofumofu, peek, portrait, sample
+photo.118: cwdc://XFCh2t_ADQN.jpg
+photo.118.author: alto0908
+photo.118.commitdate: 2025/7/15
+photo.118.link: ig://B-idK0vhCo-
+photo.118.tags: mofumofu, paws, peek, portrait, sample, tail
+photo.119: cwdc://XFCh2t_ADQO.jpg
+photo.119.author: alto0908
+photo.119.commitdate: 2025/7/15
+photo.119.link: ig://B-idK0vhCo_
+photo.119.tags: mofumofu, paws, portrait, sample
+photo.58.tags: sample
+photo.120: cwdc://XHFSqSzADQB.jpg
+photo.120.author: hamamatsu.chiita
+photo.120.commitdate: 2025/7/15
+photo.120.link: ig://B_j1knJnygh
+photo.120.tags: close-up, mofumofu, portrait, sample
+photo.121: cwdc://XHFSqSzADQC.jpg
+photo.121.author: hamamatsu.chiita
+photo.121.commitdate: 2025/7/15
+photo.121.link: ig://B_j1knJnygi
+photo.121.tags: mofumofu, paws, portrait, sample
+photo.122: cwdc://XHFSqSzADQD.jpg
+photo.122.author: hamamatsu.chiita
+photo.122.commitdate: 2025/7/15
+photo.122.link: ig://B_j1knJnygj
+photo.122.tags: mofumofu, portrait, sample
+photo.123: cwdc://XLxhVA1ADQJ.jpg
+photo.123.author: panda.daisuki
+photo.123.commitdate: 2025/7/15
+photo.123.link: ig://CB585-KhAr7
+photo.123.tags: mofumofu, paws, portrait, sample, whiskers
+photo.124: cwdc://XLxhVA1ADQK.jpg
+photo.124.author: panda.daisuki
+photo.124.commitdate: 2025/7/15
+photo.124.link: ig://CB585-KhAr8
+photo.124.tags: paws, portrait, praying, sample, standing, surprise
+photo.125: cwdc://XLxhVA1ADQL.jpg
+photo.125.author: panda.daisuki
+photo.125.commitdate: 2025/7/15
+photo.125.link: ig://CB585-KhAr9
+photo.125.tags: paws, portrait, praying, sample, snow, standing, tail
+photo.126: cwdc://XLxhVA1ADQM.jpg
+photo.126.author: panda.daisuki
+photo.126.commitdate: 2025/7/15
+photo.126.link: ig://CB585-KhAr-
+photo.126.tags: paws, portrait, sample, standing
+photo.127: cwdc://XRjV9OYADQK.jpg
+photo.127.author: hamamatsu.chiita
+photo.127.commitdate: 2025/7/15
+photo.127.link: ig://CEy3OE8BwJN
+photo.127.tags: paws, portrait, sample
+photo.128: cwdc://XRjV9OYADQL.jpg
+photo.128.author: hamamatsu.chiita
+photo.128.commitdate: 2025/7/15
+photo.128.link: ig://CEy3OE8BwJO
+photo.128.tags: dish, paws, portrait, sample, tail
+photo.129: cwdc://XRjV9OYADQM.jpg
+photo.129.author: hamamatsu.chiita
+photo.129.commitdate: 2025/7/15
+photo.129.link: ig://CEy3OE8BwJP
+photo.129.tags: dish, paws, portrait, sample, tail
+photo.130: cwdc://XRjVkyRADQG.jpg
+photo.130.author: hamamatsu.chiita
+photo.130.commitdate: 2025/7/15
+photo.130.link: ig://CEy3B24hP91
+photo.130.tags: close-up, mofumofu, sample
+photo.131: cwdc://XRjVkyRADQH.jpg
+photo.131.author: hamamatsu.chiita
+photo.131.commitdate: 2025/7/15
+photo.131.link: ig://CEy3B24hP92
+photo.131.tags: close-up, mofumofu, sample
+photo.132: cwdc://XRjVkyRADQI.jpg
+photo.132.author: hamamatsu.chiita
+photo.132.commitdate: 2025/7/15
+photo.132.link: ig://CEy3B24hP93
+photo.132.tags: mofumofu, sample
+photo.133: cwdc://XS_fecwADQB.jpg
+photo.133.author: pink.b22
+photo.133.commitdate: 2025/7/15
+photo.133.link: ig://CFg7-sIBN8I
+photo.133.tags: itchy, paws, portrait, sample, surprise, tail
+photo.134: cwdc://XTdIvzRADQI.jpg
+photo.134.author: ssc6105
+photo.134.commitdate: 2025/7/15
+photo.134.link: ig://CFvwnXYhl3k
+photo.134.tags: bamboo, laying down, paws, peek
+photo.135: cwdc://XTdIvzRADQJ.jpg
+photo.135.author: ssc6105
+photo.135.commitdate: 2025/7/15
+photo.135.link: ig://CFvwnXYhl3l
+photo.135.tags: sample, tongue
+photo.136: cwdc://XZ6wuMCADQC.jpg
+photo.136.author: fetorus_mami
+photo.136.commitdate: 2025/7/15
+photo.136.link: ig://CI-kmjxBLEk
+photo.136.tags: bamboo, mofumofu, paws, portrait, sample
+photo.137: cwdc://XZ6wuMCADQD.jpg
+photo.137.author: fetorus_mami
+photo.137.commitdate: 2025/7/15
+photo.137.link: ig://CI-kmjxBLEl
+photo.137.tags: bamboo, bite, mofumofu, paws, portrait, sample
+photo.138: cwdc://XZ6wuMCADQE.jpg
+photo.138.author: fetorus_mami
+photo.138.commitdate: 2025/7/15
+photo.138.link: ig://CI-kmjxBLEm
+photo.138.tags: bamboo, bite, mofumofu, paws, portrait, sample
+photo.139: cwdc://XZ6wuMCADQF.jpg
+photo.139.author: fetorus_mami
+photo.139.commitdate: 2025/7/15
+photo.139.link: ig://CI-kmjxBLEn
+photo.139.tags: bamboo, bite, mofumofu, portrait, sample
+photo.140: cwdc://XZ6wuMCADQG.jpg
+photo.140.author: fetorus_mami
+photo.140.commitdate: 2025/7/15
+photo.140.link: ig://CI-kmjxBLEo
+photo.140.tags: bamboo, mofumofu, paws, portrait, sample
+photo.141: cwdc://XZY_k6uADQL.jpg
+photo.141.author: ssc6105
+photo.141.commitdate: 2025/7/15
+photo.141.link: ig://CItsB7HBJ_-
+photo.141.tags: laying down, peek
+photo.142: cwdc://XZY_k6uADQM.jpg
+photo.142.author: ssc6105
+photo.142.commitdate: 2025/7/15
+photo.142.link: ig://CItsB7HBJ__
+photo.142.tags: bamboo, sample, tail
+photo.143: cwdc://XZY_k6uADQO.jpg
+photo.143.author: ssc6105
+photo.143.commitdate: 2025/7/15
+photo.143.link: ig://CItsB7HBJ_w
+photo.143.tags: itchy, mofumofu, paws, sample
+photo.144: cwdc://XZY_k6uADQP.jpg
+photo.144.author: ssc6105
+photo.144.commitdate: 2025/7/15
+photo.144.link: ig://CItsB7HBJ_x
+photo.144.tags: mofumofu, paws, peek, sample
+photo.145: cwdc://XZY_k6uADQQ.jpg
+photo.145.author: ssc6105
+photo.145.commitdate: 2025/7/15
+photo.145.link: ig://CItsB7HBJ_z
+photo.145.tags: laying down, mofumofu, tail
+photo.146: cwdc://XZZK9PiADQQ.jpg
+photo.146.author: alto0908
+photo.146.commitdate: 2025/7/15
+photo.146.link: ig://CItxuFhBPxP
+photo.146.tags: door, itchy, paws, portrait, sample, whiskers, wink
+photo.147: cwdc://XZZK9PiADQR.jpg
+photo.147.author: alto0908
+photo.147.commitdate: 2025/7/15
+photo.147.link: ig://CItxuFhBPxQ
+photo.147.tags: door, mofumofu, paws, portrait, sample, tail, tongue
+photo.148: cwdc://XZb7CeaADQC.jpg
+photo.148.author: minatomirai215
+photo.148.commitdate: 2025/7/15
+photo.148.link: ig://CIvJws9BuIe
+photo.148.tags: keeper, paws, portrait, praying, sample
+photo.149: cwdc://XZb7CeaADQD.jpg
+photo.149.author: minatomirai215
+photo.149.commitdate: 2025/7/15
+photo.149.link: ig://CIvJws9BuIf
+photo.149.tags: apple time, keeper, paws, portrait, praying, sample, standing, tongue
+photo.150: cwdc://XZb7CeaADQE.jpg
+photo.150.author: minatomirai215
+photo.150.commitdate: 2025/7/15
+photo.150.link: ig://CIvJws9BuIg
+photo.150.tags: apple time, paws, portrait, sample, standing
+photo.151: cwdc://XZb7CeaADQF.jpg
+photo.151.author: minatomirai215
+photo.151.commitdate: 2025/7/15
+photo.151.link: ig://CIvJws9BuIh
+photo.151.tags: dish, keeper, laying down, paws, playing, portrait
+photo.152: cwdc://XZb7CeaADQG.jpg
+photo.152.author: minatomirai215
+photo.152.commitdate: 2025/7/15
+photo.152.link: ig://CIvJws9BuIi
+photo.152.tags: keeper, portrait, standing, tail
+photo.153: cwdc://XZb7CeaADQH.jpg
+photo.153.author: minatomirai215
+photo.153.commitdate: 2025/7/15
+photo.153.link: ig://CIvJws9BuIj
+photo.153.tags: apple time, keeper, mofumofu, portrait, sample
+photo.154: cwdc://XZbwcu4ADQB.jpg
+photo.154.author: daniele.tokyo
+photo.154.commitdate: 2025/7/15
+photo.154.link: ig://CIvEd1MBqxn
+photo.154.tags: apple time, bite, paws, praying, sample, standing
+photo.155: cwdc://XZbwcu4ADQC.jpg
+photo.155.author: daniele.tokyo
+photo.155.commitdate: 2025/7/15
+photo.155.link: ig://CIvEd1MBqxo
+photo.155.tags: apple time, paws, praying, sample, standing
+photo.156: cwdc://XZbwcu4ADQD.jpg
+photo.156.author: daniele.tokyo
+photo.156.commitdate: 2025/7/15
+photo.156.link: ig://CIvEd1MBqxp
+photo.156.tags: apple time, mofumofu, paws, praying, sample, tongue
+photo.157: cwdc://XZbwcu4ADQE.jpg
+photo.157.author: daniele.tokyo
+photo.157.commitdate: 2025/7/15
+photo.157.link: ig://CIvEd1MBqxq
+photo.157.tags: apple time, dish, keeper, paws, standing
+photo.158: cwdc://XZbwcu4ADQF.jpg
+photo.158.author: daniele.tokyo
+photo.158.commitdate: 2025/7/15
+photo.158.link: ig://CIvEd1MBqxr
+photo.158.tags: apple time, dish, keeper, paws, standing, tail
+photo.159: cwdc://ZO3bRzVADQN.jpg
+photo.159.author: hamamatsu.chiita
+photo.159.commitdate: 2025/7/15
+photo.159.link: ig://DDc54XazD5R
+photo.159.tags: apple time, mofumofu, paws, portrait, praying, sample, wink
+photo.160: cwdc://ZO3bRzVADQO.jpg
+photo.160.author: hamamatsu.chiita
+photo.160.commitdate: 2025/7/15
+photo.160.link: ig://DDc54XazD5S
+photo.160.tags: apple time, close-up, mofumofu, portrait, sample, tongue
+photo.161: cwdc://ZO3bRzVADQP.jpg
+photo.161.author: hamamatsu.chiita
+photo.161.commitdate: 2025/7/15
+photo.161.link: ig://DDc54XazD5T
+photo.161.tags: mofumofu, paws, portrait, praying, sample, standing
