@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 955
+location.1: 13, 2019/7/12
+location.2: 24, 2025/6/20
 photo.1: ig://B3gq-7ehbh9/m
 photo.1.author: yakko____
 photo.1.commitdate: 2019/10/13
@@ -473,8 +475,6 @@ photo.92.author: hamamatsu.chiita
 photo.92.commitdate: 2023/10/24
 photo.92.link: https://www.instagram.com/hamamatsu.chiita/
 photo.92.tags: laying down, portrait, sample, whiskers
-species: 2
-zoo: 13
 photo.93: cwdc://Y5CkSpDADQA.jpg
 photo.93.author: sakikukeco
 photo.93.commitdate: 2025/6/4
@@ -485,3 +485,5 @@ photo.94.author: sakikukeco
 photo.94.commitdate: 2025/6/4
 photo.94.link: ig://C4ieYyRvP66
 photo.94.tags: bamboo, paws, sample, standing
+species: 2
+zoo: 24
