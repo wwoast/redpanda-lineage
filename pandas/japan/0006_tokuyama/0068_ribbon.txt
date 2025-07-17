@@ -315,26 +315,21 @@ photo.60.author: minatomirai215
 photo.60.commitdate: 2025/7/16
 photo.60.link: ig://CjExV6jvXcG
 photo.60.tags: apple time, bamboo, bite, paws, portrait, sample
-photo.61: cwdc://YOHKM5nADQL.jpg
+photo.61: cwdc://YOHKM5nADQM.jpg
 photo.61.author: minatomirai215
 photo.61.commitdate: 2025/7/16
-photo.61.link: ig://CjExV6jvXcH
-photo.61.tags: apple time, mofumofu, paws, portrait, sample, smile
-photo.62: cwdc://YOHKM5nADQM.jpg
-photo.62.author: minatomirai215
-photo.62.commitdate: 2025/7/16
-photo.62.link: ig://CjExV6jvXcI
-photo.62.tags: itchy, mofumofu, paws, portrait
-photo.63: cwdc://YOTQZC7ADQD.jpg
+photo.61.link: ig://CjExV6jvXcI
+photo.61.tags: itchy, mofumofu, paws, portrait
+photo.62: cwdc://YOTQZC7ADQD.jpg
+photo.62.author: kojikoji2011
+photo.62.commitdate: 2022/10/1
+photo.62.link: ig://CjK0b_NvWzU
+photo.62.tags: eye, paws, peek, portrait, sample
+photo.63: cwdc://YOTQZC7ADQE.jpg
 photo.63.author: kojikoji2011
-photo.63.commitdate: 2022/10/1
-photo.63.link: ig://CjK0b_NvWzU
-photo.63.tags: eye, paws, peek, portrait, sample
-photo.64: cwdc://YOTQZC7ADQE.jpg
-photo.64.author: kojikoji2011
-photo.64.commitdate: 2025/7/16
-photo.64.link: ig://CjK0b_NvWzV
-photo.64.tags: bamboo, eye, paws, portrait, sample, tail
+photo.63.commitdate: 2025/7/16
+photo.63.link: ig://CjK0b_NvWzV
+photo.63.tags: bamboo, eye, paws, portrait, sample, tail
 species: 2
 studbook.id: 0660
 zoo: 6
