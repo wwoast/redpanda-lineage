@@ -17,11 +17,11 @@ litter: none
 location.1: 46, 2005/7/12
 location.2: 54, 2007/1/29
 location.3: 22, 2012/3/29
-species: 2
-studbook.id: 0574
-zoo: 22
 photo.1: cwdc://ZfVQL7NADQB.webp
 photo.1.author: resapanlove
 photo.1.commitdate: 2025/7/16
 photo.1.link: ig://DLr0VbWz9Fy
 photo.1.tags: mofumofu, profile, whiskers
+species: 2
+studbook.id: 0574
+zoo: 22
