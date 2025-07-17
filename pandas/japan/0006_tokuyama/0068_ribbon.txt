@@ -28,22 +28,22 @@ photo.2.tags: bamboo, smile, tongue
 photo.3: cwdc://WNZRDbHADQB.jpg
 photo.3.author: re_ichimaru
 photo.3.commitdate: 2025/7/16
-photo.3.link: ig://Bit0xLTl8eI
+photo.3.link: ig://Bit0xLTl8eH?img_index=2
 photo.3.tags: bamboo, lips
 photo.4: cwdc://WNZRDbHADQC.jpg
 photo.4.author: re_ichimaru
 photo.4.commitdate: 2025/7/16
-photo.4.link: ig://Bit0xLTl8eJ
+photo.4.link: ig://Bit0xLTl8eH?img_index=3
 photo.4.tags: laying down, paws
 photo.5: cwdc://WNZRDbHADQD.jpg
 photo.5.author: re_ichimaru
 photo.5.commitdate: 2025/7/16
-photo.5.link: ig://Bit0xLTl8eK
+photo.5.link: ig://Bit0xLTl8eH?img_index=4
 photo.5.tags: apple time, paws, peek
 photo.6: cwdc://WNZRDbHADQE.jpg
 photo.6.author: re_ichimaru
 photo.6.commitdate: 2025/7/16
-photo.6.link: ig://Bit0xLTl8eL
+photo.6.link: ig://Bit0xLTl8eH?img_index=5
 photo.6.tags: apple time, bite
 photo.7: cwdc://WV2SVW3ADQA.jpg
 photo.7.author: animal_love_us
@@ -53,7 +53,7 @@ photo.7.tags: apple time, portrait, window
 photo.8: cwdc://WV2SVW3ADQB.jpg
 photo.8.author: animal_love_us
 photo.8.commitdate: 2025/7/16
-photo.8.link: ig://Bm8VaJLlPbi
+photo.8.link: ig://Bm8VaJLlPbg?img_index=3
 photo.8.tags: apple time, portrait, window
 photo.9: cwdc://WWTOXyxADQC.jpg
 photo.9.author: animal_love_us
@@ -63,22 +63,22 @@ photo.9.tags: bamboo, close-up, laying down, mofumofu, portrait, whiskers
 photo.10: cwdc://WWTOXyxADQD.jpg
 photo.10.author: animal_love_us
 photo.10.commitdate: 2025/7/16
-photo.10.link: ig://BnKzbXIlV2Z
+photo.10.link: ig://BnKzbXIlV2Y?img_index=2
 photo.10.tags: bamboo, laying down, mofumofu, portrait, sample, whiskers
 photo.11: cwdc://WWTOXyxADQE.jpg
 photo.11.author: animal_love_us
 photo.11.commitdate: 2025/7/16
-photo.11.link: ig://BnKzbXIlV21
+photo.11.link: ig://BnKzbXIlV2Y?img_index=3
 photo.11.tags: bamboo, laying down, mofumofu, paws, portrait, sample
 photo.12: cwdc://WWTOXyxADQF.jpg
 photo.12.author: animal_love_us
 photo.12.commitdate: 2025/7/16
-photo.12.link: ig://BnKzbXIlV22
+photo.12.link: ig://BnKzbXIlV2Y?img_index=4
 photo.12.tags: bamboo, laying down, mofumofu, portrait, sample, whiskers
 photo.13: cwdc://WWTOXyxADQG.jpg
 photo.13.author: animal_love_us
 photo.13.commitdate: 2025/7/16
-photo.13.link: ig://BnKzbXIlV23
+photo.13.link: ig://BnKzbXIlV2Y?img_index=5
 photo.13.tags: bamboo, laying down, mofumofu, portrait, sample
 photo.14: cwdc://WbJCGQnADQH.jpg
 photo.14.author: animal_love_us
@@ -88,12 +88,12 @@ photo.14.tags: close-up, laying down, paws, portrait, sample, whiskers
 photo.15: cwdc://WbJCGQnADQI.jpg
 photo.15.author: animal_love_us
 photo.15.commitdate: 2025/7/16
-photo.15.link: ig://BpltSmDnrVo
+photo.15.link: ig://BpltSmDnrVl?img_index=4
 photo.15.tags: blink, laying down, paws, portrait, sleeping
 photo.16: cwdc://WbJCGQnADQJ.jpg
 photo.16.author: animal_love_us
 photo.16.commitdate: 2025/7/16
-photo.16.link: ig://BpltSmDnrVp
+photo.16.link: ig://BpltSmDnrVl?img_index=5
 photo.16.tags: laying down, paws, portrait, sample
 photo.17: cwdc://WdfNUWWADQK.jpg
 photo.17.author: animal_love_us
@@ -103,17 +103,17 @@ photo.17.tags: bamboo, mofumofu, portrait, sample, whiskers
 photo.18: cwdc://WdfNUWWADQL.jpg
 photo.18.author: animal_love_us
 photo.18.commitdate: 2025/7/16
-photo.18.link: ig://Bqwy5o7HDn8
+photo.18.link: ig://Bqwy5o7HDn7?img_index=2
 photo.18.tags: bamobo, paws, portrait, sample, smile
 photo.19: cwdc://WdfNUWWADQM.jpg
 photo.19.author: animal_love_us
 photo.19.commitdate: 2025/7/16
-photo.19.link: ig://Bqwy5o7HDn9
+photo.19.link: ig://Bqwy5o7HDn7?img_index=3
 photo.19.tags: bamboo, paws, portrait, sample
 photo.20: cwdc://WdfNUWWADQN.jpg
 photo.20.author: animal_love_us
 photo.20.commitdate: 2025/7/16
-photo.20.link: ig://Bqwy5o7HDn-
+photo.20.link: ig://Bqwy5o7HDn7?img_index=4
 photo.20.tags: bamboo, lips, paws, portrait, sample
 photo.21: cwdc://Wd5SwtCADQA.jpg
 photo.21.author: perie1027vivi
@@ -123,7 +123,7 @@ photo.21.tags: laying down, paws, portrait, sleeping, tail
 photo.22: cwdc://Wd5SwtCADQB.jpg
 photo.22.author: perie1027vivi
 photo.22.commitdate: 2025/7/16
-photo.22.link: ig://Bq91n0RFWbj
+photo.22.link: ig://Bq91n0RFWbi?img_index=2
 photo.22.tags: laying down, paws, portrait, tail
 photo.23: cwdc://WeYsMV0ADQC.jpg
 photo.23.author: perie1027vivi
@@ -138,12 +138,12 @@ photo.24.tags: apple time, bite, paws, wave, window
 photo.25: cwdc://Wgirz0QADQB.jpg
 photo.25.author: fetorus_mami
 photo.25.commitdate: 2025/7/16
-photo.25.link: ig://BsSiJX4FXQq
+photo.25.link: ig://BsSiJX4FXQp?img_index=2
 photo.25.tags: apple time, bite, close-up
 photo.26: cwdc://Wgirz0QADQC.jpg
 photo.26.author: fetorus_mami
 photo.26.commitdate: 2025/7/16
-photo.26.link: ig://BsSiJX4FXQr
+photo.26.link: ig://BsSiJX4FXQp?img_index=3
 photo.26.tags: bamboo, sample, smile
 photo.27: cwdc://WiAPeQ0ADQA.jpg
 photo.27.author: craig_craig_craig
@@ -158,12 +158,12 @@ photo.28.tags: bamboo, close-up, portrait, profile, sample
 photo.29: cwdc://WidH4fhADQE.jpg
 photo.29.author: fetorus_mami
 photo.29.commitdate: 2025/7/16
-photo.29.link: ig://BtPwLtglvKu
+photo.29.link: ig://BtPwLtglvKt?img_index=2
 photo.29.tags: lips, portrait, sample, whiskers
 photo.30: cwdc://WidH4fhADQF.jpg
 photo.30.author: fetorus_mami
 photo.30.commitdate: 2025/7/16
-photo.30.link: ig://BtPwLtglvKv
+photo.30.link: ig://BtPwLtglvKt?img_index=3
 photo.30.tags: apple time, close-up, lips, paws, portrait, sample, techitechi, whiskers
 photo.31: cwdc://WjDIqJKADQD.jpg
 photo.31.author: fetorus_mami
@@ -188,17 +188,17 @@ photo.34.tags: apple time, keeper, portrait, sample, toys, whiskers
 photo.35: cwdc://WsI8ZqiADQP.jpg
 photo.35.author: animal_love_us
 photo.35.commitdate: 2025/7/16
-photo.35.link: ig://ByFqcTBBo7u
+photo.35.link: ig://ByFqcTBBo7q?img_index=5
 photo.35.tags: mofumofu, peek, portrait, sample, whiskers
 photo.36: cwdc://WsI8ZqiADQQ.jpg
 photo.36.author: animal_love_us
 photo.36.commitdate: 2025/7/16
-photo.36.link: ig://ByFqcTBBo7w
+photo.36.link: ig://ByFqcTBBo7q?img_index=7
 photo.36.tags: bamboo, close-up, portrait, sample, tongue, whiskers
 photo.37: cwdc://WsI8ZqiADQR.jpg
 photo.37.author: animal_love_us
 photo.37.commitdate: 2025/7/16
-photo.37.link: ig://ByFqcTBBo7x
+photo.37.link: ig://ByFqcTBBo7q?img_index=8
 photo.37.tags: bamboo, paws, portrait, sample, whiskers
 photo.38: cwdc://WwuDQ5xADQG.jpg
 photo.38.author: itsuak
@@ -218,12 +218,12 @@ photo.40.tags: bamboo, mofumofu, portrait, sample, whiskers
 photo.41: cwdc://WxN6y8FADQC.jpg
 photo.41.author: itsuak
 photo.41.commitdate: 2025/7/16
-photo.41.link: ig://B0oJo7yh2y-
+photo.41.link: ig://B0oJo7yh2yy?img_index=3
 photo.41.tags: itchy, paws, portrait, sample, tail, techitechi
 photo.42: cwdc://WxN6y8FADQD.jpg
 photo.42.author: itsuak
 photo.42.commitdate: 2025/7/16
-photo.42.link: ig://B0oJo7yh2y_
+photo.42.link: ig://B0oJo7yh2yy?img_index=4
 photo.42.tags: mofumofu, portrait, sample, tongue, whiskers
 photo.43: cwdc://WxN6y8FADQE.jpg
 photo.43.author: itsuak
@@ -233,7 +233,7 @@ photo.43.tags: itchy, paws, portrait, sample
 photo.44: cwdc://WxN6y8FADQF.jpg
 photo.44.author: itsuak
 photo.44.commitdate: 2025/7/16
-photo.44.link: ig://B0oJo7yh2yz
+photo.44.link: ig://B0oJo7yh2yy?img_index=2
 photo.44.tags: itchy, paws, portrait, sample, techitechi
 photo.45: cwdc://Wyppfs7ADQH.jpg
 photo.45.author: itsuak
@@ -253,17 +253,17 @@ photo.47.tags: bamboo, laying down, paws, sample, techitechi
 photo.48: cwdc://W_xq2QwADQB.jpg
 photo.48.author: kojikoji2011
 photo.48.commitdate: 2025/7/16
-photo.48.link: ig://B76BqmIF3lo
+photo.48.link: ig://B76BqmIF3ln?img_index=2
 photo.48.tags: bamboo, laying down, paws, tail
 photo.49: cwdc://W_xq2QwADQC.jpg
 photo.49.author: kojikoji2011
 photo.49.commitdate: 2025/7/16
-photo.49.link: ig://B76BqmIF3lp
+photo.49.link: ig://B76BqmIF3ln?img_index=3
 photo.49.tags: eye, laying down, paws, sample, smile
 photo.50: cwdc://XJk-HQSADQA.jpg
 photo.50.author: minatomirai215
 photo.50.commitdate: 2025/7/16
-photo.50.link: ig://CAzrTF5BKb-
+photo.50.link: ig://CAzrTF5BKbx?img_index=4
 photo.50.tags: eye, grooming, paws, portrait, sample, tail, tongue
 photo.51: cwdc://XJk-HQSADQB.jpg
 photo.51.author: minatomirai215
@@ -273,12 +273,12 @@ photo.51.tags: apple time, paws, portrait, sample, whiskers
 photo.52: cwdc://XJk-HQSADQC.jpg
 photo.52.author: minatomirai215
 photo.52.commitdate: 2025/7/16
-photo.52.link: ig://CAzrTF5BKby
+photo.52.link: ig://CAzrTF5BKbx?img_index=2
 photo.52.tags: apple time, mofumofu, paws, portrait, sample, tongue
 photo.53: cwdc://XJk-HQSADQD.jpg
 photo.53.author: minatomirai215
 photo.53.commitdate: 2025/7/16
-photo.53.link: ig://CAzrTF5BKbz
+photo.53.link: ig://CAzrTF5BKbx?img_index=3
 photo.53.tags: bamboo, paws, portrait, sample, tongue
 photo.54: cwdc://YOHKM5nADQE.jpg
 photo.54.author: minatomirai215
@@ -288,37 +288,37 @@ photo.54.tags: laying down, portrait, sample
 photo.55: cwdc://YOHKM5nADQF.jpg
 photo.55.author: minatomirai215
 photo.55.commitdate: 2025/7/16
-photo.55.link: ig://CjExV6jvXcB
+photo.55.link: ig://CjExV6jvXcA?img_index=2
 photo.55.tags: paws, portrait, sample, smile
 photo.56: cwdc://YOHKM5nADQG.jpg
 photo.56.author: minatomirai215
 photo.56.commitdate: 2025/7/16
-photo.56.link: ig://CjExV6jvXcC
+photo.56.link: ig://CjExV6jvXcA?img_index=3
 photo.56.tags: apple time, keeper, paws, peek, portrait, sample
 photo.57: cwdc://YOHKM5nADQH.jpg
 photo.57.author: minatomirai215
 photo.57.commitdate: 2025/7/16
-photo.57.link: ig://CjExV6jvXcD
+photo.57.link: ig://CjExV6jvXcA?img_index=4
 photo.57.tags: grooming, paws, portrait, tail
 photo.58: cwdc://YOHKM5nADQI.jpg
 photo.58.author: minatomirai215
 photo.58.commitdate: 2025/7/16
-photo.58.link: ig://CjExV6jvXcE
+photo.58.link: ig://CjExV6jvXcA?img_index=5
 photo.58.tags: eye, mofumofu, paws, portrait, sample, tail
 photo.59: cwdc://YOHKM5nADQJ.jpg
 photo.59.author: minatomirai215
 photo.59.commitdate: 2025/7/16
-photo.59.link: ig://CjExV6jvXcF
+photo.59.link: ig://CjExV6jvXcA?img_index=6
 photo.59.tags: apple time, bamboo, paws, portrait, sample
 photo.60: cwdc://YOHKM5nADQK.jpg
 photo.60.author: minatomirai215
 photo.60.commitdate: 2025/7/16
-photo.60.link: ig://CjExV6jvXcG
+photo.60.link: ig://CjExV6jvXcA?img_index=7
 photo.60.tags: apple time, bamboo, bite, paws, portrait, sample
 photo.61: cwdc://YOHKM5nADQM.jpg
 photo.61.author: minatomirai215
 photo.61.commitdate: 2025/7/16
-photo.61.link: ig://CjExV6jvXcI
+photo.61.link: ig://CjExV6jvXcA?img_index=9
 photo.61.tags: itchy, mofumofu, paws, portrait
 photo.62: cwdc://YOTQZC7ADQD.jpg
 photo.62.author: kojikoji2011
@@ -328,7 +328,7 @@ photo.62.tags: eye, paws, peek, portrait, sample
 photo.63: cwdc://YOTQZC7ADQE.jpg
 photo.63.author: kojikoji2011
 photo.63.commitdate: 2025/7/16
-photo.63.link: ig://CjK0b_NvWzV
+photo.63.link: ig://CjK0b_NvWzU?img_index=2
 photo.63.tags: bamboo, eye, paws, portrait, sample, tail
 species: 2
 studbook.id: 0660
