@@ -1039,3 +1039,23 @@ photo.204.tags: portrait, sample, tree, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22
+photo.205: cwdc://YX4cwaBADQA.jpg
+photo.205.author: pantasanzoo1
+photo.205.commitdate: 2025/7/17
+photo.205.link: ig://Cn9anqwvZx8
+photo.205.tags: distance, paws, tongue, tree
+photo.206: cwdc://YX4cwaBADQB.jpg
+photo.206.author: pantasanzoo1
+photo.206.commitdate: 2025/7/17
+photo.206.link: ig://Cn9anqwvZx-
+photo.206.tags: distance, peek, tree
+photo.207: cwdc://YX4cwaBADQC.jpg
+photo.207.author: pantasanzoo1
+photo.207.commitdate: 2025/7/17
+photo.207.link: ig://Cn9anqwvZx_
+photo.207.tags: bamboo, peek, wet
+photo.208: cwdc://YX4cwaBADQD.jpg
+photo.208.author: pantasanzoo1
+photo.208.commitdate: 2025/7/17
+photo.208.link: ig://Cn9anqwvZyA
+photo.208.tags: bamboo, peek, sample, tongue, wet
