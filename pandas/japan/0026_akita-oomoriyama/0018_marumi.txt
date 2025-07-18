@@ -2828,31 +2828,31 @@ photo.562.author: miis_98
 photo.562.commitdate: 2024/3/14
 photo.562.link: ig://C4bsn1nhYv3
 photo.562.tags: apple time, paws, portrait, sample, tongue
-photo.563: cwdc://ZRqCCeNADQA.jpg
-photo.563.author: cattail.sapporo
-photo.563.commitdate: 2025/3/14
-photo.563.link: ig://DE2NQs2vidM
-photo.563.tags: baby, paws, portrait, sample, snow
-species: 2
-studbook.id: 1676
-zoo: 26
-photo.564: cwdc://ZOUDx0_ADQA.jpg
+photo.563: cwdc://ZOUDx0_ADQA.jpg
+photo.563.author: mini_cochi
+photo.563.commitdate: 2025/7/17
+photo.563.link: ig://DDLOIYPhx_a
+photo.563.tags: apple time, bite, paws, portrait, sample, tree, whiskers
+photo.564: cwdc://ZOUDx0_ADQB.jpg
 photo.564.author: mini_cochi
 photo.564.commitdate: 2025/7/17
-photo.564.link: ig://DDLOIYPhx_a
+photo.564.link: ig://DDLOIYPhx_b
 photo.564.tags: apple time, bite, paws, portrait, sample, tree, whiskers
-photo.565: cwdc://ZOUDx0_ADQB.jpg
-photo.565.author: mini_cochi
+photo.565: cwdc://ZRAsUwVADQB.jpg
+photo.565.author: cattail.sapporo
 photo.565.commitdate: 2025/7/17
-photo.565.link: ig://DDLOIYPhx_b
-photo.565.tags: apple time, bite, paws, portrait, sample, tree, whiskers
-photo.566: cwdc://ZRAsUwVADQB.jpg
+photo.565.link: ig://DEhiZ16vanB
+photo.565.tags: baby, keeper, mofumofu, paws, portrait, tail
+photo.566: cwdc://ZRqCCeNADQA.jpg
 photo.566.author: cattail.sapporo
-photo.566.commitdate: 2025/7/17
-photo.566.link: ig://DEhiZ16vanB
-photo.566.tags: baby, keeper, mofumofu, paws, portrait, tail
+photo.566.commitdate: 2025/3/14
+photo.566.link: ig://DE2NQs2vidM
+photo.566.tags: baby, paws, portrait, sample, snow
 photo.567: cwdc://Ze47zgxADQA.jpg
 photo.567.author: cattail.sapporo
 photo.567.commitdate: 2025/7/17
 photo.567.link: ig://DLdqJOIhKg0
 photo.567.tags: mofumofu, portrait, sample, whiskers
+species: 2
+studbook.id: 1676
+zoo: 26

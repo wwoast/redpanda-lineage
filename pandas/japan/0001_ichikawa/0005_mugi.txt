@@ -2285,9 +2285,6 @@ photo.454.author: firefoxpanda88
 photo.454.commitdate: 2024/11/11
 photo.454.link: ig://CzME165P39w
 photo.454.tags: close-up, mofumofu, paws, portrait, sample, whiskers
-species: 2
-studbook.id: 15152
-zoo: 1
 photo.455: cwdc://ZN7kWIXADQA.jpg
 photo.455.author: na.mo.pan
 photo.455.commitdate: 2025/7/17
@@ -2303,3 +2300,6 @@ photo.457.author: na.mo.pan
 photo.457.commitdate: 2025/7/17
 photo.457.link: ig://DC--ah7zriD
 photo.457.tags: lips, sample, smile, whiskers
+species: 2
+studbook.id: 15152
+zoo: 1

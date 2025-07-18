@@ -70,323 +70,321 @@ photo.11.author: tamazoowalking
 photo.11.commitdate: 2023/1/11
 photo.11.link: ig://CmY3Xb-PBO0
 photo.11.tags: baby, peek, portrait, sample
-photo.12: cwdc://YWbdakeADQA.jpg
-photo.12.author: alto0908
-photo.12.commitdate: 2023/3/23
-photo.12.link: ig://CnO68v_P-2W
-photo.12.tags: baby, bamboo, mofumofu, portrait, sample
-photo.13: cwdc://YXI8SSuADQE.jpg
-photo.13.author: tamazoowalking
-photo.13.commitdate: 2023/3/6
-photo.13.link: ig://CnlqYnHPcYb
-photo.13.tags: climb, paws, portrait, sample, spider, tail, upside-down
-photo.14: cwdc://YXe7tjmADQA.jpg
+photo.12: cwdc://YV3nZubADQA.jpg
+photo.12.author: mini_cochi
+photo.12.commitdate: 2025/7/17
+photo.12.link: ig://Cm8_8U9v0aF
+photo.12.tags: paws, portrait, sample, whiskers
+photo.13: cwdc://YV3nZubADQB.jpg
+photo.13.author: mini_cochi
+photo.13.commitdate: 2025/7/17
+photo.13.link: ig://Cm8_8U9v0aG
+photo.13.tags: paws, portrait, sample
+photo.14: cwdc://YV3nZubADQC.jpg
 photo.14.author: mini_cochi
-photo.14.commitdate: 2023/2/25
-photo.14.link: ig://CnwqGPjPPQX
-photo.14.tags: baby, bamboo, close-up, portrait, profile, sample
-photo.15: cwdc://YYRhywcADQF.jpg
-photo.15.author: tamazoowalking
-photo.15.commitdate: 2023/2/24
-photo.15.link: ig://CoJ9I1-Ppjn
-photo.15.tags: baby, paws, sample, standing
-photo.16: cwdc://YZFcL3MADQB.jpg
-photo.16.author: kotata_513
-photo.16.commitdate: 2023/4/9
-photo.16.link: ig://Coj6VZWPknO
-photo.16.tags: baby, bridge, mofumofu, portrait, sample, upside-down
-photo.17: cwdc://YZUqsMRADQA.jpg
-photo.17.author: ck.chie
-photo.17.commitdate: 2023/4/8
-photo.17.link: ig://Corhlj4vw9r
-photo.17.tags: baby, portrait, sample, tail, upside-down
-photo.18: cwdc://YbvS7fGADQC.jpg
-photo.18.author: kotata_513
-photo.18.commitdate: 2023/10/18
-photo.18.link: ig://Cp41tNTPIsV
-photo.18.tags: baby, bamboo, sample
-photo.19: cwdc://Yb21WylADQB.jpg
-photo.19.author: alto0908
-photo.19.commitdate: 2023/10/4
-photo.19.link: ig://Cp8m63ChOTf
-photo.19.tags: baby, peek, portrait, snow, whiskers
-photo.20: cwdc://Yb21WylADQC.jpg
-photo.20.author: alto0908
-photo.20.commitdate: 2024/8/31
-photo.20.link: ig://Cp8m63ChOTh
-photo.20.tags: baby, peek, portrait, snow, techitechi, whiskers
-photo.21: cwdc://YdqxsvrADQG.jpg
-photo.21.author: tamazoowalking
-photo.21.commitdate: 2023/11/18
-photo.21.link: ig://Cq2lF1lvT1p
-photo.21.tags: sample, smile, whiskers
-photo.22: cwdc://YdrCnwKADQH.jpg
-photo.22.author: tamazoowalking
-photo.22.commitdate: 2023/11/18
-photo.22.link: ig://Cq2tjV1Pqye
-photo.22.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.23: cwdc://Yd5lX8kADQI.jpg
-photo.23.author: tamazoowalking
-photo.23.commitdate: 2023/11/18
-photo.23.link: ig://Cq9-7cCPpB9
-photo.23.tags: bamboo, bite, portrait, sample, teeth
-photo.24: cwdc://Yd5lX8kADQJ.jpg
+photo.14.commitdate: 2025/7/17
+photo.14.link: ig://Cm8_8U9v0aH
+photo.14.tags: peek, portrait, sample, window
+photo.15: cwdc://YWbdakeADQA.jpg
+photo.15.author: alto0908
+photo.15.commitdate: 2023/3/23
+photo.15.link: ig://CnO68v_P-2W
+photo.15.tags: baby, bamboo, mofumofu, portrait, sample
+photo.16: cwdc://YXI8SSuADQE.jpg
+photo.16.author: tamazoowalking
+photo.16.commitdate: 2023/3/6
+photo.16.link: ig://CnlqYnHPcYb
+photo.16.tags: climb, paws, portrait, sample, spider, tail, upside-down
+photo.17: cwdc://YXe7tjmADQA.jpg
+photo.17.author: mini_cochi
+photo.17.commitdate: 2023/2/25
+photo.17.link: ig://CnwqGPjPPQX
+photo.17.tags: baby, bamboo, close-up, portrait, profile, sample
+photo.18: cwdc://YYRhywcADQF.jpg
+photo.18.author: tamazoowalking
+photo.18.commitdate: 2023/2/24
+photo.18.link: ig://CoJ9I1-Ppjn
+photo.18.tags: baby, paws, sample, standing
+photo.19: cwdc://YZFcL3MADQB.jpg
+photo.19.author: kotata_513
+photo.19.commitdate: 2023/4/9
+photo.19.link: ig://Coj6VZWPknO
+photo.19.tags: baby, bridge, mofumofu, portrait, sample, upside-down
+photo.20: cwdc://YZUqsMRADQA.jpg
+photo.20.author: ck.chie
+photo.20.commitdate: 2023/4/8
+photo.20.link: ig://Corhlj4vw9r
+photo.20.tags: baby, portrait, sample, tail, upside-down
+photo.21: cwdc://YbvS7fGADQC.jpg
+photo.21.author: kotata_513
+photo.21.commitdate: 2023/10/18
+photo.21.link: ig://Cp41tNTPIsV
+photo.21.tags: baby, bamboo, sample
+photo.22: cwdc://Yb21WylADQB.jpg
+photo.22.author: alto0908
+photo.22.commitdate: 2023/10/4
+photo.22.link: ig://Cp8m63ChOTf
+photo.22.tags: baby, peek, portrait, snow, whiskers
+photo.23: cwdc://Yb21WylADQC.jpg
+photo.23.author: alto0908
+photo.23.commitdate: 2024/8/31
+photo.23.link: ig://Cp8m63ChOTh
+photo.23.tags: baby, peek, portrait, snow, techitechi, whiskers
+photo.24: cwdc://YdqxsvrADQG.jpg
 photo.24.author: tamazoowalking
-photo.24.commitdate: 2024/8/31
-photo.24.link: ig://Cq9-7cCPpB-
-photo.24.tags: portrait, sample, tongue
-photo.25: cwdc://Yd_vALCADQK.jpg
+photo.24.commitdate: 2023/11/18
+photo.24.link: ig://Cq2lF1lvT1p
+photo.24.tags: sample, smile, whiskers
+photo.25: cwdc://YdrCnwKADQH.jpg
 photo.25.author: tamazoowalking
 photo.25.commitdate: 2023/11/18
-photo.25.link: ig://CrBDvjRPl6P
-photo.25.tags: laying down, peek, portrait, sample, whiskers
-photo.26: cwdc://YeOI338ADQL.jpg
+photo.25.link: ig://Cq2tjV1Pqye
+photo.25.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.26: cwdc://Yd5lX8kADQI.jpg
 photo.26.author: tamazoowalking
-photo.26.commitdate: 2023/5/13
-photo.26.link: ig://CrIQrZuPpQI
-photo.26.tags: baby, mofumofu, portrait, sample, wet
-photo.27: cwdc://YeOJenEADQM.jpg
+photo.26.commitdate: 2023/11/18
+photo.26.link: ig://Cq9-7cCPpB9
+photo.26.tags: bamboo, bite, portrait, sample, teeth
+photo.27: cwdc://Yd5lX8kADQJ.jpg
 photo.27.author: tamazoowalking
-photo.27.commitdate: 2023/5/13
-photo.27.link: ig://CrIQ-xSPC-y
-photo.27.tags: baby, portrait, sample, tree, wet
-photo.28: cwdc://Yejt33vADQO.jpg
+photo.27.commitdate: 2024/8/31
+photo.27.link: ig://Cq9-7cCPpB-
+photo.27.tags: portrait, sample, tongue
+photo.28: cwdc://Yd_vALCADQK.jpg
 photo.28.author: tamazoowalking
-photo.28.commitdate: 2023/8/10
-photo.28.link: ig://CrTDLZnvKD3
-photo.28.tags: smile, whiskers
-photo.29: cwdc://Yejt33vADQP.jpg
+photo.28.commitdate: 2023/11/18
+photo.28.link: ig://CrBDvjRPl6P
+photo.28.tags: laying down, peek, portrait, sample, whiskers
+photo.29: cwdc://YeOI338ADQL.jpg
 photo.29.author: tamazoowalking
-photo.29.commitdate: 2024/8/31
-photo.29.link: ig://CrTDLZnvKD5
-photo.29.tags: close-up, tongue, whiskers
-photo.30: cwdc://YeuNE5VADQA.jpg
-photo.30.author: mari_neko3
-photo.30.commitdate: 2023/8/11
-photo.30.link: ig://CrYSx6avK3T
-photo.30.tags: paws, portrait, window
-photo.31: cwdc://YeuNE5VADQB.jpg
-photo.31.author: mari_neko3
-photo.31.commitdate: 2024/8/31
-photo.31.link: ig://CrYSx6avK3U
-photo.31.tags: close-up, paws, portrait, sample, window
-photo.32: cwdc://YfGtPFHADQN.jpg
+photo.29.commitdate: 2023/5/13
+photo.29.link: ig://CrIQrZuPpQI
+photo.29.tags: baby, mofumofu, portrait, sample, wet
+photo.30: cwdc://YeOJenEADQM.jpg
+photo.30.author: tamazoowalking
+photo.30.commitdate: 2023/5/13
+photo.30.link: ig://CrIQ-xSPC-y
+photo.30.tags: baby, portrait, sample, tree, wet
+photo.31: cwdc://Yejt33vADQO.jpg
+photo.31.author: tamazoowalking
+photo.31.commitdate: 2023/8/10
+photo.31.link: ig://CrTDLZnvKD3
+photo.31.tags: smile, whiskers
+photo.32: cwdc://Yejt33vADQP.jpg
 photo.32.author: tamazoowalking
-photo.32.commitdate: 2023/5/3
-photo.32.link: ig://Crki3ATvnQ1
-photo.32.tags: paws, portrait, sample, slobber, whiskers
-photo.33: cwdc://Yhr_fntADQR.jpg
-photo.33.author: tamazoowalking
-photo.33.commitdate: 2023/6/20
-photo.33.link: ig://Cs3L_Rmv1Gw
-photo.33.tags: bamboo, close-up, peek, sample
-photo.34: cwdc://YhsF4zbADQB.jpg
-photo.34.author: osopanda551
-photo.34.commitdate: 2023/6/20
-photo.34.link: ig://Cs3PL3dvrTH
-photo.34.tags: bamboo, paws, portrait, sample
-photo.35: cwdc://YhsdasVADQQ.jpg
+photo.32.commitdate: 2024/8/31
+photo.32.link: ig://CrTDLZnvKD5
+photo.32.tags: close-up, tongue, whiskers
+photo.33: cwdc://YeuNE5VADQA.jpg
+photo.33.author: mari_neko3
+photo.33.commitdate: 2023/8/11
+photo.33.link: ig://CrYSx6avK3T
+photo.33.tags: paws, portrait, window
+photo.34: cwdc://YeuNE5VADQB.jpg
+photo.34.author: mari_neko3
+photo.34.commitdate: 2024/8/31
+photo.34.link: ig://CrYSx6avK3U
+photo.34.tags: close-up, paws, portrait, sample, window
+photo.35: cwdc://YfGtPFHADQN.jpg
 photo.35.author: tamazoowalking
-photo.35.commitdate: 2023/7/3
-photo.35.link: ig://Cs3a8z6vSXF
-photo.35.tags: bamboo, peek, sample
-photo.36: cwdc://YiQ1ARRADQA.jpg
-photo.36.author: alto0908
-photo.36.commitdate: 2024/10/6
-photo.36.link: ig://CtJmvmYvKr6
-photo.36.tags: peek, sample, tail
-photo.37: cwdc://YjECUZWADQT.jpg
-photo.37.author: tamazoowalking
-photo.37.commitdate: 2023/6/25
-photo.37.link: ig://CtjNZqbPy7Q
-photo.37.tags: bamboo, mofumofu, portrait, sample
-photo.38: cwdc://YjOntlJADQB.jpg
-photo.38.author: redpan22
-photo.38.commitdate: 2023/8/10
-photo.38.link: ig://CtogGQUvQxG
-photo.38.tags: laying down, paws, tail, upside-down
-photo.39: cwdc://YjqYBJsADQS.jpg
-photo.39.author: tamazoowalking
-photo.39.commitdate: 2023/8/10
-photo.39.link: ig://Ct2YQCmBpCL
-photo.39.tags: smile, whiskers
-photo.40: cwdc://Ymm2MD-ADQE.jpg
-photo.40.author: mini_cochi
-photo.40.commitdate: 2023/7/31
-photo.40.link: ig://CvUnVfvP40W
-photo.40.tags: peek, portrait, tongue, tree
-photo.41: cwdc://YnVItLNADQU.jpg
-photo.41.author: tamazoowalking
-photo.41.commitdate: 2023/8/23
-photo.41.link: ig://CvrwmDWxvIh
-photo.41.tags: portrait, sample
-photo.42: cwdc://Yn5y_XHADQC.jpg
-photo.42.author: redpan22
-photo.42.commitdate: 2023/11/18
-photo.42.link: ig://Cv-FvJTvYKz
-photo.42.tags: flowers, sample, whiskers
-photo.43: cwdc://Yoles23ADQY.jpg
-photo.43.author: tamazoowalking
-photo.43.commitdate: 2023/11/18
-photo.43.link: ig://CwT7l5Lv2Xw
-photo.43.tags: long-tongue, portrait, sample, tongue, whiskers
-photo.44: cwdc://YolfbKqADQZ.jpg
+photo.35.commitdate: 2023/5/3
+photo.35.link: ig://Crki3ATvnQ1
+photo.35.tags: paws, portrait, sample, slobber, whiskers
+photo.36: cwdc://Yhr_fntADQR.jpg
+photo.36.author: tamazoowalking
+photo.36.commitdate: 2023/6/20
+photo.36.link: ig://Cs3L_Rmv1Gw
+photo.36.tags: bamboo, close-up, peek, sample
+photo.37: cwdc://YhsF4zbADQB.jpg
+photo.37.author: osopanda551
+photo.37.commitdate: 2023/6/20
+photo.37.link: ig://Cs3PL3dvrTH
+photo.37.tags: bamboo, paws, portrait, sample
+photo.38: cwdc://YhsdasVADQQ.jpg
+photo.38.author: tamazoowalking
+photo.38.commitdate: 2023/7/3
+photo.38.link: ig://Cs3a8z6vSXF
+photo.38.tags: bamboo, peek, sample
+photo.39: cwdc://YiQ1ARRADQA.jpg
+photo.39.author: alto0908
+photo.39.commitdate: 2024/10/6
+photo.39.link: ig://CtJmvmYvKr6
+photo.39.tags: peek, sample, tail
+photo.40: cwdc://YjECUZWADQT.jpg
+photo.40.author: tamazoowalking
+photo.40.commitdate: 2023/6/25
+photo.40.link: ig://CtjNZqbPy7Q
+photo.40.tags: bamboo, mofumofu, portrait, sample
+photo.41: cwdc://YjOntlJADQB.jpg
+photo.41.author: redpan22
+photo.41.commitdate: 2023/8/10
+photo.41.link: ig://CtogGQUvQxG
+photo.41.tags: laying down, paws, tail, upside-down
+photo.42: cwdc://YjqYBJsADQS.jpg
+photo.42.author: tamazoowalking
+photo.42.commitdate: 2023/8/10
+photo.42.link: ig://Ct2YQCmBpCL
+photo.42.tags: smile, whiskers
+photo.43: cwdc://Ymm2MD-ADQE.jpg
+photo.43.author: mini_cochi
+photo.43.commitdate: 2023/7/31
+photo.43.link: ig://CvUnVfvP40W
+photo.43.tags: peek, portrait, tongue, tree
+photo.44: cwdc://YnVItLNADQU.jpg
 photo.44.author: tamazoowalking
-photo.44.commitdate: 2023/11/18
-photo.44.link: ig://CwT79DFP05U
-photo.44.tags: portrait, sample, whiskers
-photo.45: cwdc://YollGbUADQa.jpg
-photo.45.author: tamazoowalking
+photo.44.commitdate: 2023/8/23
+photo.44.link: ig://CvrwmDWxvIh
+photo.44.tags: portrait, sample
+photo.45: cwdc://Yn5y_XHADQC.jpg
+photo.45.author: redpan22
 photo.45.commitdate: 2023/11/18
-photo.45.link: ig://CwT-yraPtDD
-photo.45.tags: flowers, paws, peek, sample, standing
-photo.46: cwdc://YpfsN-wADQC.jpg
-photo.46.author: osopanda551
-photo.46.commitdate: 2023/9/15
-photo.46.link: ig://CwxCWdIPi7X
-photo.46.tags: bamboo, flowers, peek, portrait, sample
-photo.47: cwdc://YptqS0vADQV.jpg
+photo.45.link: ig://Cv-FvJTvYKz
+photo.45.tags: flowers, sample, whiskers
+photo.46: cwdc://Yoles23ADQY.jpg
+photo.46.author: tamazoowalking
+photo.46.commitdate: 2023/11/18
+photo.46.link: ig://CwT7l5Lv2Xw
+photo.46.tags: long-tongue, portrait, sample, tongue, whiskers
+photo.47: cwdc://YolfbKqADQZ.jpg
 photo.47.author: tamazoowalking
-photo.47.commitdate: 2023/9/15
-photo.47.link: ig://Cw4BY4Hvmz7
-photo.47.tags: paws, portrait, sample, smile, tree, whiskers
-photo.48: cwdc://Yp0XLY3ADQW.jpg
+photo.47.commitdate: 2023/11/18
+photo.47.link: ig://CwT79DFP05U
+photo.47.tags: portrait, sample, whiskers
+photo.48: cwdc://YollGbUADQa.jpg
 photo.48.author: tamazoowalking
-photo.48.commitdate: 2023/9/15
-photo.48.link: ig://Cw7X1KLvBTq
-photo.48.tags: paws, portrait, sample, smile, whiskers
-photo.49: cwdc://Yp5anVXADQX.jpg
-photo.49.author: tamazoowalking
+photo.48.commitdate: 2023/11/18
+photo.48.link: ig://CwT-yraPtDD
+photo.48.tags: flowers, paws, peek, sample, standing
+photo.49: cwdc://YpfsN-wADQC.jpg
+photo.49.author: osopanda551
 photo.49.commitdate: 2023/9/15
-photo.49.link: ig://Cw95jIbvpk6
-photo.49.tags: door, peek, portrait, sample, tail
-photo.50: cwdc://YuO8rXUADQc.jpg
+photo.49.link: ig://CwxCWdIPi7X
+photo.49.tags: bamboo, flowers, peek, portrait, sample
+photo.50: cwdc://YptqS0vADQV.jpg
 photo.50.author: tamazoowalking
-photo.50.commitdate: 2023/11/8
-photo.50.link: ig://CzIqlJaPvwf
-photo.50.tags: portrait, sample, whiskers
-photo.51: cwdc://Yu4QScOADQb.jpg
+photo.50.commitdate: 2023/9/15
+photo.50.link: ig://Cw4BY4Hvmz7
+photo.50.tags: paws, portrait, sample, smile, tree, whiskers
+photo.51: cwdc://Yp0XLY3ADQW.jpg
 photo.51.author: tamazoowalking
-photo.51.commitdate: 2024/8/31
-photo.51.link: ig://CzdUYr3PhTv
-photo.51.tags: bamboo, bite, paws, portrait, sample
-photo.52: cwdc://Yz87K_hADQB.jpg
+photo.51.commitdate: 2023/9/15
+photo.51.link: ig://Cw7X1KLvBTq
+photo.51.tags: paws, portrait, sample, smile, whiskers
+photo.52: cwdc://Yp5anVXADQX.jpg
 photo.52.author: tamazoowalking
-photo.52.commitdate: 2025/3/14
-photo.52.link: ig://C1_p09gv9cU
-photo.52.tags: bamboo, bite, paws, sample, whiskers
-photo.53: cwdc://Y0MsiZhADQC.jpg
+photo.52.commitdate: 2023/9/15
+photo.52.link: ig://Cw95jIbvpk6
+photo.52.tags: door, peek, portrait, sample, tail
+photo.53: cwdc://YuO8rXUADQc.jpg
 photo.53.author: tamazoowalking
-photo.53.commitdate: 2025/3/14
-photo.53.link: ig://C2HigqgvXwp
-photo.53.tags: peek, tree
-photo.54: cwdc://Y0MszmXADQA.jpg
+photo.53.commitdate: 2023/11/8
+photo.53.link: ig://CzIqlJaPvwf
+photo.53.tags: portrait, sample, whiskers
+photo.54: cwdc://Yu4QScOADQb.jpg
 photo.54.author: tamazoowalking
-photo.54.commitdate: 2025/3/14
-photo.54.link: ig://C2HipQ7vpe9
-photo.54.tags: paws, sample, standing, tail, tree
-photo.55: cwdc://Y8TOuBiADQC.jpg
+photo.54.commitdate: 2024/8/31
+photo.54.link: ig://CzdUYr3PhTv
+photo.54.tags: bamboo, bite, paws, portrait, sample
+photo.55: cwdc://YyvrR1hADQB.jpg
 photo.55.author: tamazoowalking
-photo.55.commitdate: 2024/10/6
-photo.55.link: ig://C6KzmehP6dT
-photo.55.tags: door, peek, portrait, sample, whiskers
-photo.56: cwdc://Y8tpqVOADQA.jpg
-photo.56.author: ssc6105
-photo.56.commitdate: 2024/8/31
-photo.56.link: ig://C6YBEoXPlDd
-photo.56.tags: paws, sample, whiskers
-photo.57: cwdc://Y83Qh2gADQA.jpg
+photo.55.commitdate: 2025/7/17
+photo.55.link: ig://C1ZB4YgvGlw
+photo.55.tags: door, laying down, paws, sample, whiskers
+photo.56: cwdc://Yz87K_hADQB.jpg
+photo.56.author: tamazoowalking
+photo.56.commitdate: 2025/3/14
+photo.56.link: ig://C1_p09gv9cU
+photo.56.tags: bamboo, bite, paws, sample, whiskers
+photo.57: cwdc://Y0MsiZhADQC.jpg
 photo.57.author: tamazoowalking
-photo.57.commitdate: 2024/10/6
-photo.57.link: ig://C6c0gZAPNr1
-photo.57.tags: bite, sample, tongue, whiskers
-photo.58: cwdc://Y83RaioADQB.jpg
+photo.57.commitdate: 2025/3/14
+photo.57.link: ig://C2HigqgvXwp
+photo.57.tags: peek, tree
+photo.58: cwdc://Y0MszmXADQA.jpg
 photo.58.author: tamazoowalking
-photo.58.commitdate: 2024/10/6
-photo.58.link: ig://C6c08vEP3AW
-photo.58.tags: peek, sample, whiskers
-photo.59: cwdc://Y92bF6OADQH.jpg
+photo.58.commitdate: 2025/3/14
+photo.58.link: ig://C2HipQ7vpe9
+photo.58.tags: paws, sample, standing, tail, tree
+photo.59: cwdc://Y4JkJlyADQD.jpg
 photo.59.author: tamazoowalking
-photo.59.commitdate: 2024/10/6
-photo.59.link: ig://C68Zya3P36G
-photo.59.tags: playing, portrait, sample, tail, whiskers
-photo.60: cwdc://Y92bF6OADQI.jpg
+photo.59.commitdate: 2025/7/17
+photo.59.link: ig://C4F-UQpPdnz
+photo.59.tags: portrait, sample, whiskers
+photo.60: cwdc://Y8TOuBiADQC.jpg
 photo.60.author: tamazoowalking
 photo.60.commitdate: 2024/10/6
-photo.60.link: ig://C68Zya3P36H
-photo.60.tags: playing, portrait, sample, tail, whiskers
-photo.61: cwdc://Y92w4aLADQG.jpg
-photo.61.author: tamazoowalking
-photo.61.commitdate: 2024/10/6
-photo.61.link: ig://C68krq1vqtn
-photo.61.tags: sample, tail
-photo.62: cwdc://Y-LzGBSADQA.jpg
-photo.62.author: cocochi_redpanda
+photo.60.link: ig://C6KzmehP6dT
+photo.60.tags: door, peek, portrait, sample, whiskers
+photo.61: cwdc://Y8tpqVOADQA.jpg
+photo.61.author: ssc6105
+photo.61.commitdate: 2024/8/31
+photo.61.link: ig://C6YBEoXPlDd
+photo.61.tags: paws, sample, whiskers
+photo.62: cwdc://Y83Qh2gADQA.jpg
+photo.62.author: tamazoowalking
 photo.62.commitdate: 2024/10/6
-photo.62.link: ig://C7HFyeZBp2f
-photo.62.tags: laying down, sample, tree, whiskers
-photo.63: cwdc://Y-LzGBSADQB.jpg
-photo.63.author: cocochi_redpanda
+photo.62.link: ig://C6c0gZAPNr1
+photo.62.tags: bite, sample, tongue, whiskers
+photo.63: cwdc://Y83RaioADQB.jpg
+photo.63.author: tamazoowalking
 photo.63.commitdate: 2024/10/6
-photo.63.link: ig://C7HFyeZBp2g
-photo.63.tags: laying down, sample, tree, whiskers
-photo.64: cwdc://ZAUi6a2ADQD.jpg
+photo.63.link: ig://C6c08vEP3AW
+photo.63.tags: peek, sample, whiskers
+photo.64: cwdc://Y92bF6OADQH.jpg
 photo.64.author: tamazoowalking
 photo.64.commitdate: 2024/10/6
-photo.64.link: ig://C8LdsrLSoXs
-photo.64.tags: bamboo, close-up, sample, whiskers, window
-photo.65: cwdc://ZAUi6a2ADQE.jpg
+photo.64.link: ig://C68Zya3P36G
+photo.64.tags: playing, portrait, sample, tail, whiskers
+photo.65: cwdc://Y92bF6OADQI.jpg
 photo.65.author: tamazoowalking
 photo.65.commitdate: 2024/10/6
-photo.65.link: ig://C8LdsrLSoXt
-photo.65.tags: itchy, paws, sample, whiskers, window
-photo.66: cwdc://ZAUi6a2ADQF.jpg
+photo.65.link: ig://C68Zya3P36H
+photo.65.tags: playing, portrait, sample, tail, whiskers
+photo.66: cwdc://Y92w4aLADQG.jpg
 photo.66.author: tamazoowalking
 photo.66.commitdate: 2024/10/6
-photo.66.link: ig://C8LdsrLSoXu
-photo.66.tags: sample, smile, whiskers, window
-photo.67: cwdc://ZCxeCLdADQA.jpg
-photo.67.author: alto0908
-photo.67.commitdate: 2024/11/2
-photo.67.link: ig://C9Z7QjeyoUb
-photo.67.tags: door, laying down, sample
-photo.68: cwdc://ZCxeCLdADQB.jpg
-photo.68.author: alto0908
-photo.68.commitdate: 2024/11/2
-photo.68.link: ig://C9Z7QjeyoUX
-photo.68.tags: door, paws, sample, smile, whiskers
-species: 2
-zoo: 24
-photo.69: cwdc://Y4JkJlyADQD.jpg
-photo.69.author: tamazoowalking
-photo.69.commitdate: 2025/7/17
-photo.69.link: ig://C4F-UQpPdnz
-photo.69.tags: portrait, sample, whiskers
-photo.70: cwdc://YV3nZubADQA.jpg
-photo.70.author: mini_cochi
-photo.70.commitdate: 2025/7/17
-photo.70.link: ig://Cm8_8U9v0aF
-photo.70.tags: paws, portrait, sample, whiskers
-photo.71: cwdc://YV3nZubADQB.jpg
-photo.71.author: mini_cochi
-photo.71.commitdate: 2025/7/17
-photo.71.link: ig://Cm8_8U9v0aG
-photo.71.tags: paws, portrait, sample
-photo.72: cwdc://YV3nZubADQC.jpg
-photo.72.author: mini_cochi
-photo.72.commitdate: 2025/7/17
-photo.72.link: ig://Cm8_8U9v0aH
-photo.72.tags: peek, portrait, sample, window
-photo.73: cwdc://Y_OhKJZADQC.jpg
-photo.73.author: tamazoowalking
-photo.73.commitdate: 2025/7/17
-photo.73.link: ig://C7oc0icvHYp
-photo.73.tags: sample, tongue, whiskers, window
-photo.74: cwdc://YyvrR1hADQB.jpg
-photo.74.author: tamazoowalking
-photo.74.commitdate: 2025/7/17
-photo.74.link: ig://C1ZB4YgvGlw
-photo.74.tags: door, laying down, paws, sample, whiskers
+photo.66.link: ig://C68krq1vqtn
+photo.66.tags: sample, tail
+photo.67: cwdc://Y_OhKJZADQC.jpg
+photo.67.author: tamazoowalking
+photo.67.commitdate: 2025/7/17
+photo.67.link: ig://C7oc0icvHYp
+photo.67.tags: sample, tongue, whiskers, window
+photo.68: cwdc://Y-LzGBSADQA.jpg
+photo.68.author: cocochi_redpanda
+photo.68.commitdate: 2024/10/6
+photo.68.link: ig://C7HFyeZBp2f
+photo.68.tags: laying down, sample, tree, whiskers
+photo.69: cwdc://Y-LzGBSADQB.jpg
+photo.69.author: cocochi_redpanda
+photo.69.commitdate: 2024/10/6
+photo.69.link: ig://C7HFyeZBp2g
+photo.69.tags: laying down, sample, tree, whiskers
+photo.70: cwdc://ZAUi6a2ADQD.jpg
+photo.70.author: tamazoowalking
+photo.70.commitdate: 2024/10/6
+photo.70.link: ig://C8LdsrLSoXs
+photo.70.tags: bamboo, close-up, sample, whiskers, window
+photo.71: cwdc://ZAUi6a2ADQE.jpg
+photo.71.author: tamazoowalking
+photo.71.commitdate: 2024/10/6
+photo.71.link: ig://C8LdsrLSoXt
+photo.71.tags: itchy, paws, sample, whiskers, window
+photo.72: cwdc://ZAUi6a2ADQF.jpg
+photo.72.author: tamazoowalking
+photo.72.commitdate: 2024/10/6
+photo.72.link: ig://C8LdsrLSoXu
+photo.72.tags: sample, smile, whiskers, window
+photo.73: cwdc://ZCxeCLdADQA.jpg
+photo.73.author: alto0908
+photo.73.commitdate: 2024/11/2
+photo.73.link: ig://C9Z7QjeyoUb
+photo.73.tags: door, laying down, sample
+photo.74: cwdc://ZCxeCLdADQB.jpg
+photo.74.author: alto0908
+photo.74.commitdate: 2024/11/2
+photo.74.link: ig://C9Z7QjeyoUX
+photo.74.tags: door, paws, sample, smile, whiskers
 photo.75: cwdc://ZFLrVDcADQE.jpg
 photo.75.author: tamazoowalking
 photo.75.commitdate: 2025/7/17
@@ -397,3 +395,5 @@ photo.76.author: tamazoowalking
 photo.76.commitdate: 2025/7/17
 photo.76.link: ig://DAiQIYHS5M7
 photo.76.tags: paws, portrait, sample, smile, whiskers
+species: 2
+zoo: 24

@@ -1971,9 +1971,6 @@ photo.391.author: leonard_redmof
 photo.391.commitdate: 2024/12/4
 photo.391.link: ig://C9W9EZ-Sj2Y
 photo.391.tags: bite, mofumofu, portrait, sample, whiskers
-species: 2
-studbook.id: 0554
-zoo: 7
 photo.392: cwdc://ZOC9xH2ADQA.jpg
 photo.392.author: yuredpanda
 photo.392.commitdate: 2025/7/17
@@ -1984,3 +1981,6 @@ photo.393.author: yuredpanda
 photo.393.commitdate: 2025/7/17
 photo.393.link: ig://DDEpwu8S7w5
 photo.393.tags: peek, tail
+species: 2
+studbook.id: 0554
+zoo: 7
