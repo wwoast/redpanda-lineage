@@ -10,11 +10,11 @@ photo.1.tags: family, mother's day, siblings, sisters, twins
 photo.1.tags.147.location: 190, 330
 photo.1.tags.955.location: 660, 675
 photo.1.tags.956.location: 355, 760
-photo.2: ig://B4r7y_bh5Ab/l
+photo.2: cwdc://W5VfHDXADQA.jpg
 photo.2.author: miltama_fam_sugarglider
 photo.2.commitdate: 2019/12/5
-photo.2.link: https://www.instagram.com/miltama_fam_sugarglider/
-photo.2.tags: family, peek, siblings, sisters, twins
+photo.2.link: ig://B4r7y_bh5Ab
+photo.2.tags: door, family, peek, siblings, sisters, tail, twins
 photo.2.tags.147.location: 120, 285
 photo.2.tags.955.location: 865, 210
 photo.2.tags.956.location: 535, 415
@@ -119,3 +119,6 @@ photo.15.author: fetorus_mami
 photo.15.commitdate: 2025/7/20
 photo.15.link: ig://CIPX_63BW93
 photo.15.tags: bamboo, bite, family, paws
+photo.15.tags.147.location: 180, 310
+photo.15.tags.955.location: 430, 270
+photo.15.tags.956.location: 700, 135
