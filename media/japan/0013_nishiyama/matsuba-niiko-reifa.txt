@@ -18,10 +18,10 @@ photo.2.tags: family, peek, siblings, sisters, twins
 photo.2.tags.147.location: 120, 285
 photo.2.tags.955.location: 865, 210
 photo.2.tags.956.location: 535, 415
-photo.3: ig://B5NwdooBZ-P/l
+photo.3: cwdc://W6ZIcVwADQA.jpg
 photo.3.author: nakacchi_desu
 photo.3.commitdate: 2019/11/27
-photo.3.link: https://www.instagram.com/nakacchi_desu/
+photo.3.link: ig://B5NwdooBZ-P
 photo.3.tags: family, siblings, sisters, train, twins
 photo.3.tags.147.location: 275, 590
 photo.3.tags.955.location: 500, 370
@@ -82,11 +82,11 @@ photo.10.tags: bridge, family, home, portrait, siblings, twins
 photo.10.tags.147.location: 530, 260
 photo.10.tags.955.location: 165, 330
 photo.10.tags.956.location: 365, 300
-photo.11: ig://CIPX_63BW9x/l
+photo.11: cwdc://XYcXg6OADQA.jpg
 photo.11.author: fetorus_mami
 photo.11.commitdate: 2021/5/30
-photo.11.link: https://www.instagram.com/fetorus_mami/
-photo.11.tags: family, home
+photo.11.link: ig://CIPX_63BW9x
+photo.11.tags: family, home, siblings, sisters, twins
 photo.11.tags.147.location: 270, 120
 photo.11.tags.955.location: 135, 105
 photo.11.tags.956.location: 405, 130
@@ -114,3 +114,8 @@ photo.14.tags: baby, mofumofu, mother's day, playing, sisters, twins
 photo.14.tags.147.location: 280, 410
 photo.14.tags.955.location: 685, 500
 photo.14.tags.956.location: 420, 385
+photo.15: cwdc://XYcXg6OADQB.jpg
+photo.15.author: fetorus_mami
+photo.15.commitdate: 2025/7/20
+photo.15.link: ig://CIPX_63BW93
+photo.15.tags: bamboo, bite, family, paws
