@@ -312,3 +312,23 @@ species: 2
 studbook.id: 13163
 uncertainty: location.3 move date (exhibit start is 2021/1/2)
 zoo: 62
+photo.59: cwdc://XJBfOZWADQE.jpg
+photo.59.author: chankunvv
+photo.59.commitdate: 2025/7/21
+photo.59.link: ig://CAh72qbHK_Q
+photo.59.tags: portrait, sample, smile, whiskers
+photo.60: cwdc://XSwZ4MkADQD.jpg
+photo.60.author: chankunvv
+photo.60.commitdate: 2025/7/21
+photo.60.link: ig://CFZZLkCBCQu
+photo.60.tags: portrait, sample
+photo.61: cwdc://XVarQtBADQF.jpg
+photo.61.author: chankunvv
+photo.61.commitdate: 2025/7/21
+photo.61.link: ig://CGuh30QhP2e
+photo.61.tags: paws, portrait, sample
+photo.62: cwdc://XXqeEGGADQB.jpg
+photo.62.author: chankunvv
+photo.62.commitdate: 2025/7/21
+photo.62.link: ig://CH2bRgzB994
+photo.62.tags: home, paws, portrait, sample
