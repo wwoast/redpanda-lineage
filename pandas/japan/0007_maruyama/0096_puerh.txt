@@ -602,54 +602,51 @@ photo.117.author: leonard_redmof
 photo.117.commitdate: 2025/1/6
 photo.117.link: ig://C3crkDRP_8-
 photo.117.tags: apple time, keeper, paws, portrait, sample, snow, tail
-photo.118: cwdc://ZCIBWhXADQD.jpg
-photo.118.author: leonard_redmof
-photo.118.commitdate: 2025/1/6
-photo.118.link: ig://C9FM6uby_74
-photo.118.tags: peek
-photo.119: cwdc://ZCrhp4cADQB.jpg
-photo.119.author: leonard_redmof
-photo.119.commitdate: 2025/1/6
-photo.119.link: ig://C9W9EZ-Sj2c
-photo.119.tags: apple time, paws, sample
-photo.120: cwdc://ZCrhp4cADQC.jpg
-photo.120.author: leonard_redmof
-photo.120.commitdate: 2025/1/6
-photo.120.link: ig://C9W9EZ-Sj2d
-photo.120.tags: flowers, paws, portrait, sample, tree
-photo.121: cwdc://ZCrhp4cADQD.jpg
-photo.121.author: leonard_redmof
-photo.121.commitdate: 2025/1/6
-photo.121.link: ig://C9W9EZ-Sj2e
-photo.121.tags: apple time, dish, paws, portrait
-species: 2
-studbook.id: 15134
-zoo: 7
-photo.122: cwdc://Y-uOXFeADQD.jpg
+photo.118: cwdc://Y-uOXFeADQD.jpg
+photo.118.author: komabazoophoto
+photo.118.commitdate: 2025/7/21
+photo.118.link: ig://C7YTbAfSRKC
+photo.118.tags: dish, portrait, sample, smile, snow, whiskers
+photo.119: cwdc://Y-uOXFeADQE.jpg
+photo.119.author: komabazoophoto
+photo.119.commitdate: 2025/7/21
+photo.119.link: ig://C7YTbAfSRKD
+photo.119.tags: peek, portrait, snow
+photo.120: cwdc://Y-uOXFeADQF.jpg
+photo.120.author: komabazoophoto
+photo.120.commitdate: 2025/7/21
+photo.120.link: ig://C7YTbAfSRKE
+photo.120.tags: paws, portrait, sample, snow
+photo.121: cwdc://Y-uOXFeADQG.jpg
+photo.121.author: komabazoophoto
+photo.121.commitdate: 2025/7/21
+photo.121.link: ig://C7YTbAfSRKF
+photo.121.tags: paws, portrait, sample, snow, whiskers
+photo.122: cwdc://Y-uOXFeADQH.jpg
 photo.122.author: komabazoophoto
 photo.122.commitdate: 2025/7/21
-photo.122.link: ig://C7YTbAfSRKC
-photo.122.tags: dish, portrait, sample, smile, snow, whiskers
-photo.123: cwdc://Y-uOXFeADQE.jpg
-photo.123.author: komabazoophoto
-photo.123.commitdate: 2025/7/21
-photo.123.link: ig://C7YTbAfSRKD
-photo.123.tags: peek, portrait, snow
-photo.124: cwdc://Y-uOXFeADQF.jpg
-photo.124.author: komabazoophoto
-photo.124.commitdate: 2025/7/21
-photo.124.link: ig://C7YTbAfSRKE
-photo.124.tags: paws, portrait, sample, snow
-photo.125: cwdc://Y-uOXFeADQG.jpg
-photo.125.author: komabazoophoto
-photo.125.commitdate: 2025/7/21
-photo.125.link: ig://C7YTbAfSRKF
-photo.125.tags: paws, portrait, sample, snow, whiskers
-photo.126: cwdc://Y-uOXFeADQH.jpg
-photo.126.author: komabazoophoto
-photo.126.commitdate: 2025/7/21
-photo.126.link: ig://C7YTbAfSRKI
-photo.126.tags: dish, portrait, snow
+photo.122.link: ig://C7YTbAfSRKI
+photo.122.tags: dish, portrait, snow
+photo.123: cwdc://ZCIBWhXADQD.jpg
+photo.123.author: leonard_redmof
+photo.123.commitdate: 2025/1/6
+photo.123.link: ig://C9FM6uby_74
+photo.123.tags: peek
+photo.124: cwdc://ZCrhp4cADQB.jpg
+photo.124.author: leonard_redmof
+photo.124.commitdate: 2025/1/6
+photo.124.link: ig://C9W9EZ-Sj2c
+photo.124.tags: apple time, paws, sample
+photo.125: cwdc://ZCrhp4cADQC.jpg
+photo.125.author: leonard_redmof
+photo.125.commitdate: 2025/1/6
+photo.125.link: ig://C9W9EZ-Sj2d
+photo.125.tags: flowers, paws, portrait, sample, tree
+photo.126: cwdc://ZCrhp4cADQD.jpg
+photo.126.author: leonard_redmof
+photo.126.commitdate: 2025/1/6
+photo.126.link: ig://C9W9EZ-Sj2e
+photo.126.tags: apple time, dish, paws, portrait
 photo.127: cwdc://ZR5GCCqADQA.jpg
 photo.127.author: komabazoophoto
 photo.127.commitdate: 2025/7/21
@@ -665,3 +662,6 @@ photo.129.author: komabazoophoto
 photo.129.commitdate: 2025/7/21
 photo.129.link: ig://DE9vQfFSaU1
 photo.129.tags: portrait, sample, snow, whiskers
+species: 2
+studbook.id: 15134
+zoo: 7

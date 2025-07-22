@@ -375,30 +375,30 @@ photo.72.author: tamazoowalking
 photo.72.commitdate: 2024/10/6
 photo.72.link: ig://C8LdsrLSoXu
 photo.72.tags: sample, smile, whiskers, window
-photo.73: cwdc://ZCxeCLdADQA.jpg
-photo.73.author: alto0908
-photo.73.commitdate: 2024/11/2
-photo.73.link: ig://C9Z7QjeyoUb
-photo.73.tags: door, laying down, sample
-photo.74: cwdc://ZCxeCLdADQB.jpg
+photo.73: cwdc://ZAzuOXSADQA.jpg
+photo.73.author: tamazoowalking
+photo.73.commitdate: 2025/7/21
+photo.73.link: ig://C8bDWpZSocg
+photo.73.tags: laying down, portrait, sample, whiskers
+photo.74: cwdc://ZCxeCLdADQA.jpg
 photo.74.author: alto0908
 photo.74.commitdate: 2024/11/2
-photo.74.link: ig://C9Z7QjeyoUX
-photo.74.tags: door, paws, sample, smile, whiskers
-photo.75: cwdc://ZFLrVDcADQE.jpg
-photo.75.author: tamazoowalking
-photo.75.commitdate: 2025/7/17
-photo.75.link: ig://C-nB5_eSjdt
-photo.75.tags: sample, smile, tail
-photo.76: cwdc://ZJCHx0uADQA.jpg
+photo.74.link: ig://C9Z7QjeyoUb
+photo.74.tags: door, laying down, sample
+photo.75: cwdc://ZCxeCLdADQB.jpg
+photo.75.author: alto0908
+photo.75.commitdate: 2024/11/2
+photo.75.link: ig://C9Z7QjeyoUX
+photo.75.tags: door, paws, sample, smile, whiskers
+photo.76: cwdc://ZFLrVDcADQE.jpg
 photo.76.author: tamazoowalking
 photo.76.commitdate: 2025/7/17
-photo.76.link: ig://DAiQIYHS5M7
-photo.76.tags: paws, portrait, sample, smile, whiskers
+photo.76.link: ig://C-nB5_eSjdt
+photo.76.tags: sample, smile, tail
+photo.77: cwdc://ZJCHx0uADQA.jpg
+photo.77.author: tamazoowalking
+photo.77.commitdate: 2025/7/17
+photo.77.link: ig://DAiQIYHS5M7
+photo.77.tags: paws, portrait, sample, smile, whiskers
 species: 2
 zoo: 24
-photo.77: cwdc://ZAzuOXSADQA.jpg
-photo.77.author: tamazoowalking
-photo.77.commitdate: 2025/7/21
-photo.77.link: ig://C8bDWpZSocg
-photo.77.tags: laying down, portrait, sample, whiskers
