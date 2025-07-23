@@ -46,16 +46,51 @@ photo.6.author: fetorus_mami
 photo.6.commitdate: 2019/7/11
 photo.6.link: ig://BzxKW6aBjVT
 photo.6.tags: portrait, sample, whiskers, white face
-photo.7: cwdc://WvpFKYxADQE.jpg
+photo.7: cwdc://Wvf8O5UADQH.jpg
 photo.7.author: fetorus_mami
-photo.7.commitdate: 2019/7/14
-photo.7.link: ig://Bz1u0qIhuwy
-photo.7.tags: blink, portrait, sample, whiskers, white face
-photo.8: cwdc://WwZerd0ADQA.jpg
+photo.7.commitdate: 2025/7/22
+photo.7.link: ig://BzxKW6aBjVU
+photo.7.tags: paws, portrait, sample, whiskers, white face
+photo.8: cwdc://Wvf8O5UADQI.jpg
 photo.8.author: fetorus_mami
-photo.8.commitdate: 2019/7/28
-photo.8.link: ig://B0N7lMqBpjG
-photo.8.tags: home, portrait, tail, white face
+photo.8.commitdate: 2025/7/22
+photo.8.link: ig://BzxKW6aBjVV
+photo.8.tags: peek, portrait, tail
+photo.9: cwdc://Wvf8O5UADQJ.jpg
+photo.9.author: fetorus_mami
+photo.9.commitdate: 2025/7/22
+photo.9.link: ig://BzxKW6aBjVY
+photo.9.tags: home, paws, peek, portrait, tail
+photo.10: cwdc://WvpFKYxADQC.jpg
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2025/7/22
+photo.10.link: ig://Bz1u0qIhuw1
+photo.10.tags: blink, portrait, sample, white face
+photo.11: cwdc://WvpFKYxADQD.jpg
+photo.11.author: fetorus_mami
+photo.11.commitdate: 2025/7/22
+photo.11.link: ig://Bz1u0qIhuw2
+photo.11.tags: portrait, sample, tongue, whiskers, white face
+photo.12: cwdc://WvpFKYxADQE.jpg
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2019/7/14
+photo.12.link: ig://Bz1u0qIhuwy
+photo.12.tags: blink, portrait, sample, whiskers, white face
+photo.13: cwdc://WvpFKYxADQF.jpg
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2025/7/22
+photo.13.link: ig://Bz1u0qIhuwz
+photo.13.tags: portrait, sample, whiskers, white face
+photo.14: cwdc://WwZerd0ADQA.jpg
+photo.14.author: fetorus_mami
+photo.14.commitdate: 2019/7/28
+photo.14.link: ig://B0N7lMqBpjG
+photo.14.tags: home, portrait, tail, white face
+photo.15: cwdc://WwZerd0ADQB.jpg
+photo.15.author: fetorus_mami
+photo.15.commitdate: 2025/7/22
+photo.15.link: ig://B0N7lMqBpjI
+photo.15.tags: home, paws, portrait, tail
 ru.name: Зейн
 ru.nicknames: none
 ru.othernames: none
@@ -63,38 +98,3 @@ species: 1
 studbook.id: 13128
 uncertainty: death exact month and date (+/- 6mos)
 zoo: 149
-photo.9: cwdc://Wvf8O5UADQH.jpg
-photo.9.author: fetorus_mami
-photo.9.commitdate: 2025/7/22
-photo.9.link: ig://BzxKW6aBjVU
-photo.9.tags: paws, portrait, sample, whiskers, white face
-photo.10: cwdc://Wvf8O5UADQI.jpg
-photo.10.author: fetorus_mami
-photo.10.commitdate: 2025/7/22
-photo.10.link: ig://BzxKW6aBjVV
-photo.10.tags: peek, portrait, tail
-photo.11: cwdc://Wvf8O5UADQJ.jpg
-photo.11.author: fetorus_mami
-photo.11.commitdate: 2025/7/22
-photo.11.link: ig://BzxKW6aBjVY
-photo.11.tags: home, paws, peek, portrait, tail
-photo.12: cwdc://WvpFKYxADQC.jpg
-photo.12.author: fetorus_mami
-photo.12.commitdate: 2025/7/22
-photo.12.link: ig://Bz1u0qIhuw1
-photo.12.tags: blink, portrait, sample, white face
-photo.13: cwdc://WvpFKYxADQD.jpg
-photo.13.author: fetorus_mami
-photo.13.commitdate: 2025/7/22
-photo.13.link: ig://Bz1u0qIhuw2
-photo.13.tags: portrait, sample, tongue, whiskers, white face
-photo.14: cwdc://WvpFKYxADQF.jpg
-photo.14.author: fetorus_mami
-photo.14.commitdate: 2025/7/22
-photo.14.link: ig://Bz1u0qIhuwz
-photo.14.tags: portrait, sample, whiskers, white face
-photo.15: cwdc://WwZerd0ADQB.jpg
-photo.15.author: fetorus_mami
-photo.15.commitdate: 2025/7/22
-photo.15.link: ig://B0N7lMqBpjI
-photo.15.tags: home, paws, portrait, tail
