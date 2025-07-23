@@ -9,16 +9,17 @@ language.order: ru, en
 latitude: 55.7641493
 longitude: 37.5674998
 map: https://goo.gl/maps/KR9xSj6sJfu
-photo.1: ig://BZx1NpPh7CE/m
+photo.1: cwdc://V7hR8W_ADQA.jpg
 photo.1.author: moscow_zoo_official
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/moscow_zoo_official/
-photo.2: ig://BzwXzcjBJ6n/m
+photo.1.link: ig://BZx1NpPh7CE
+photo.2: cwdc://WveXH9mADQA.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/7/11
-photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.link: ig://BzwXzcjBJ6n
 photo.2.tags: profile
 ru.address: Б. Грузинская ул., 1, Москва, 123242
 ru.location: Москва
 ru.name: Московский зоопарк
 website: https://moscowzoo.ru
+photo.1.tags: portrait

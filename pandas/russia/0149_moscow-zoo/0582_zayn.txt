@@ -16,45 +16,45 @@ language.order: ru, en, ja
 litter: 682
 location.1: 150, 2013/7/14
 location.2: 149, 2014/10/4
-photo.1: ig://vn9wbcGF-_/m
+photo.1: cwdc://UnNjB7YADQE.jpg
 photo.1.author: moscow_zoo_official
 photo.1.commitdate: 2019/3/17
-photo.1.link: https://www.instagram.com/moscow_zoo_official/
-photo.1.tags: tongue, white face
-photo.2: ig://6CG2LNGFwa/m
+photo.1.link: ig://vn9wbcGF-_
+photo.1.tags: sample, tongue, white face
+photo.2: cwdc://U8B1Na6ADQA.jpg
 photo.2.author: moscow_zoo_official
 photo.2.commitdate: 2019/3/17
-photo.2.link: https://www.instagram.com/moscow_zoo_official/
-photo.2.tags: tree, white face
-photo.3: ig://BBjqF2GGF9F/m
+photo.2.link: ig://6CG2LNGFwa
+photo.2.tags: portrait, sample, tree, white face
+photo.3: cwdc://VLE7swsADQB.jpg
 photo.3.author: moscow_zoo_official
 photo.3.commitdate: 2019/3/17
-photo.3.link: https://www.instagram.com/moscow_zoo_official/
-photo.3.tags: snow, white face
-photo.4: ig://BOzH5IVhPNU/m
+photo.3.link: ig://BBjqF2GGF9F
+photo.3.tags: portrait, sample, smile, snow, tail, white face
+photo.4: cwdc://Vlj3TVLADQC.jpg
 photo.4.author: moscow_zoo_official
 photo.4.commitdate: 2019/3/17
-photo.4.link: https://www.instagram.com/moscow_zoo_official/
-photo.4.tags: lunch time, keeper
-photo.5: ig://BrUHlnmAt5P/m
+photo.4.link: ig://BOzH5IVhPNU
+photo.4.tags: keeper, lunch time
+photo.5: cwdc://Wel2sTsADQD.jpg
 photo.5.author: moscow_zoo_official
 photo.5.commitdate: 2019/3/15
-photo.5.link: https://www.instagram.com/moscow_zoo_official/
-photo.5.tags: profile, white face
-photo.6: ig://BzxKW6aBjVT/m
+photo.5.link: ig://BrUHlnmAt5P
+photo.5.tags: portrait, profile, sample, techitechi, whiskers, white face
+photo.6: cwdc://Wvf8O5UADQG.jpg
 photo.6.author: fetorus_mami
 photo.6.commitdate: 2019/7/11
-photo.6.link: https://www.instagram.com/fetorus_mami/
-photo.6.tags: portrait, white face
-photo.7: ig://Bz1u0qIhuwy/m
+photo.6.link: ig://BzxKW6aBjVT
+photo.6.tags: portrait, sample, whiskers, white face
+photo.7: cwdc://WvpFKYxADQE.jpg
 photo.7.author: fetorus_mami
 photo.7.commitdate: 2019/7/14
-photo.7.link: https://www.instagram.com/fetorus_mami/
-photo.7.tags: blink, portrait, white face
-photo.8: ig://B0N7lMqBpjG/m
+photo.7.link: ig://Bz1u0qIhuwy
+photo.7.tags: blink, portrait, sample, whiskers, white face
+photo.8: cwdc://WwZerd0ADQA.jpg
 photo.8.author: fetorus_mami
 photo.8.commitdate: 2019/7/28
-photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.8.link: ig://B0N7lMqBpjG
 photo.8.tags: home, portrait, tail, white face
 ru.name: Зейн
 ru.nicknames: none
@@ -63,3 +63,38 @@ species: 1
 studbook.id: 13128
 uncertainty: death exact month and date (+/- 6mos)
 zoo: 149
+photo.9: cwdc://Wvf8O5UADQH.jpg
+photo.9.author: fetorus_mami
+photo.9.commitdate: 2025/7/22
+photo.9.link: ig://BzxKW6aBjVU
+photo.9.tags: paws, portrait, sample, whiskers, white face
+photo.10: cwdc://Wvf8O5UADQI.jpg
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2025/7/22
+photo.10.link: ig://BzxKW6aBjVV
+photo.10.tags: peek, portrait, tail
+photo.11: cwdc://Wvf8O5UADQJ.jpg
+photo.11.author: fetorus_mami
+photo.11.commitdate: 2025/7/22
+photo.11.link: ig://BzxKW6aBjVY
+photo.11.tags: home, paws, peek, portrait, tail
+photo.12: cwdc://WvpFKYxADQC.jpg
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2025/7/22
+photo.12.link: ig://Bz1u0qIhuw1
+photo.12.tags: blink, portrait, sample, white face
+photo.13: cwdc://WvpFKYxADQD.jpg
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2025/7/22
+photo.13.link: ig://Bz1u0qIhuw2
+photo.13.tags: portrait, sample, tongue, whiskers, white face
+photo.14: cwdc://WvpFKYxADQF.jpg
+photo.14.author: fetorus_mami
+photo.14.commitdate: 2025/7/22
+photo.14.link: ig://Bz1u0qIhuwz
+photo.14.tags: portrait, sample, whiskers, white face
+photo.15: cwdc://WwZerd0ADQB.jpg
+photo.15.author: fetorus_mami
+photo.15.commitdate: 2025/7/22
+photo.15.link: ig://B0N7lMqBpjI
+photo.15.tags: home, paws, portrait, tail
