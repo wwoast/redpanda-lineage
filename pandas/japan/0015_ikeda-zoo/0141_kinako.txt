@@ -370,9 +370,6 @@ photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2024/10/18
 photo.71.link: ig://C-i6zMDSVbJ
 photo.71.tags: close-up, lips, mofumofu, portrait, sample, smile
-species: 2
-studbook.id: 14147
-zoo: 15
 photo.72: cwdc://W-ejn95ADQD.jpg
 photo.72.author: chankunvv
 photo.72.commitdate: 2025/3/14
@@ -413,3 +410,6 @@ photo.79.author: chankunvv
 photo.79.commitdate: 2025/3/14
 photo.79.link: ig://Cp954OEPpcz
 photo.79.tags: bamboo, bite, portrait, sample
+species: 2
+studbook.id: 14147
+zoo: 15

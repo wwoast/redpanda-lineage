@@ -42,6 +42,7 @@ photo.6: cwdc://WC7bRyYADQB.jpg
 photo.6.author: hanamaru_redpanda
 photo.6.commitdate: 2018/12/23
 photo.6.link: ig://Bde54W8FVog
+photo.6.tags: portrait, sample, white face
 photo.7: cwdc://WLDaUIgADQA.jpg
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/12/15
@@ -188,4 +189,3 @@ photo.35.tags: paws, portrait, sample
 species: 1
 studbook.id: 16100
 zoo: 59
-photo.6.tags: portrait, sample, white face

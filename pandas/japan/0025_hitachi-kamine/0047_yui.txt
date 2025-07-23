@@ -54,6 +54,7 @@ photo.8: cwdc://WKfkXnNADQB.jpg
 photo.8.author: hanamaru_redpanda
 photo.8.commitdate: 2018/7/22
 photo.8.link: ig://BhQ-bRWlgmH
+photo.8.tags: close-up, portrait, sample, whiskers
 photo.9: ig://BiVP23_HCgk/m
 photo.9.author: rie_panda55
 photo.9.commitdate: 2018/7/22
@@ -239,4 +240,3 @@ photo.45.tags: close-up, sample, whiskers
 species: 2
 studbook.id: 15142
 zoo: 25
-photo.8.tags: close-up, portrait, sample, whiskers

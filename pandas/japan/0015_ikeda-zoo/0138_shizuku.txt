@@ -311,9 +311,6 @@ photo.60.author: makimaru18
 photo.60.commitdate: 2024/4/13
 photo.60.link: ig://Cnjjeb5PV4p
 photo.60.tags: apple time, portrait, toys
-species: 2
-studbook.id: 12100
-zoo: 15
 photo.61: cwdc://YW1iPbLADQE.jpg
 photo.61.author: chankunvv
 photo.61.commitdate: 2025/3/14
@@ -339,3 +336,6 @@ photo.65.author: chankunvv
 photo.65.commitdate: 2025/3/14
 photo.65.link: ig://C7rJslDP_I8
 photo.65.tags: blink, peek, portrait, techitechi
+species: 2
+studbook.id: 12100
+zoo: 15

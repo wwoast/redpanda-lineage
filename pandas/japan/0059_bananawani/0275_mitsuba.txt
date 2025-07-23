@@ -47,6 +47,7 @@ photo.7: cwdc://WCxOkV_ADQB.jpg
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/10/24
 photo.7.link: ig://BdZzhovlfM5
+photo.7.tags: close-up, portrait, sample, whiskers
 photo.8: ig://BepscrQBlnd/m
 photo.8.author: miis_98
 photo.8.commitdate: 2019/10/8
@@ -184,4 +185,3 @@ photo.34.tags: laying down, whiskers
 species: 1
 studbook.id: 1699
 zoo: 59
-photo.7.tags: close-up, portrait, sample, whiskers

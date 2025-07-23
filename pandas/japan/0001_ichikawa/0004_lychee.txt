@@ -388,9 +388,6 @@ photo.75.author: kaoru_a358
 photo.75.commitdate: 2024/10/21
 photo.75.link: ig://CCFeDN2Bn-h
 photo.75.tags: portrait, sample, whiskers
-species: 2
-studbook.id: 0558
-zoo: 1
 photo.76: cwdc://VvOSSC-ADQD.jpg
 photo.76.author: jas_forever_love
 photo.76.commitdate: 2024/11/11
@@ -581,3 +578,6 @@ photo.113.author: wumpwoast
 photo.113.commitdate: 2025/6/17
 photo.113.link: ig://Bv0qBMCFYYi
 photo.113.tags: itchy, paws
+species: 2
+studbook.id: 0558
+zoo: 1

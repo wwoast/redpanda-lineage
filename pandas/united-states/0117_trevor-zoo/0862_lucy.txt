@@ -58,12 +58,12 @@ photo.8.author: wumpwoast
 photo.8.commitdate: 2024/6/25
 photo.8.link: ig://Cz6oQkyxpX6
 photo.8.tags: peek, portrait, sample, whiskers
-species: 1
-studbook.id: 1820
-uncertainty: location.3.date
-zoo: 117
 photo.9: cwdc://ZBRw4N7ADQA.jpg
 photo.9.author: philadelphiazoo
 photo.9.commitdate: 2025/3/14
 photo.9.link: ig://C8qErktuM3c
 photo.9.tags: paws, sample, standing, tree
+species: 1
+studbook.id: 1820
+uncertainty: location.3.date
+zoo: 117

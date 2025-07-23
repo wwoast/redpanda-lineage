@@ -308,10 +308,6 @@ photo.58.author: kisshan324
 photo.58.commitdate: 2024/4/7
 photo.58.link: https://www.instagram.com/p/B-SJNnfh3nM
 photo.58.tags: dish, home, portrait, sample, tail
-species: 2
-studbook.id: 13163
-uncertainty: location.3 move date (exhibit start is 2021/1/2)
-zoo: 62
 photo.59: cwdc://XJBfOZWADQE.jpg
 photo.59.author: chankunvv
 photo.59.commitdate: 2025/7/21
@@ -332,3 +328,7 @@ photo.62.author: chankunvv
 photo.62.commitdate: 2025/7/21
 photo.62.link: ig://CH2bRgzB994
 photo.62.tags: home, paws, portrait, sample
+species: 2
+studbook.id: 13163
+uncertainty: location.3 move date (exhibit start is 2021/1/2)
+zoo: 62
