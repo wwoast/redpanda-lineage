@@ -4,13 +4,14 @@ birthday: 2014/6/14
 birthplace: 151
 children: none
 commitdate: 2019/3/16
-en.name: Chan
+death: 2025/7/21
+en.name: Ryzhik
 en.nicknames: none
-en.othernames: none
+en.othernames: Chan
 gender: m
-ja.name: ちゃん
+ja.name: リジク
 ja.nicknames: none
-ja.othernames: none
+ja.othernames: ちゃん
 language.order: ru, en, ja
 litter: none
 location.1: 151, 2014/6/14
@@ -60,9 +61,9 @@ photo.9.author: druidessgem
 photo.9.commitdate: 2021/2/24
 photo.9.link: https://www.instagram.com/druidessgem/
 photo.9.tags: portrait
-ru.name: Чхэн
+ru.name: Рыжик
 ru.nicknames: none
-ru.othernames: none
+ru.othernames: Чхэн
 species: 1
 studbook.id: 14116
 zoo: 149
