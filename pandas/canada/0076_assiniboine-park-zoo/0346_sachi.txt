@@ -17,26 +17,46 @@ litter: 215
 location.1: 10, 2012/6/18
 location.2: 17, 2013/12/16
 location.3: 76, 2014/7/15
-photo.1: ig://lPQ182OR5U/m
+photo.1: cwdc://UScJM-MADQA.jpg
 photo.1.author: masa_polarbear
 photo.1.commitdate: 2020/4/25
-photo.1.link: https://www.instagram.com/masa_polarbear/
-photo.1.tags: mofumofu, portrait, tail
-photo.2: ig://BVuJ_3PlDE3/m
+photo.1.link: ig://lPQ182OR5U
+photo.1.tags: mofumofu, portrait, sample, tail, whiskers
+photo.2: cwdc://VzZ7gy_ADQA.jpg
 photo.2.author: rdpnzoo
 photo.2.commitdate: 2018/12/14
-photo.2.link: https://www.instagram.com/rdpnzoo/
+photo.2.link: ig://BVuJ_3PlDE3
 photo.2.tags: apple time
 photo.3: cwdc://V58J8HjADQA.jpg
 photo.3.author: assiniboineparkzoo
 photo.3.commitdate: 2018/11/25
 photo.3.link: https://www.instagram.com/p/BY_RNhhnNOI
 photo.3.tags: bridge, laying down, portrait, profile, sample, tail, tree
-photo.4: ig://BnmKSEhHTsC/m
+photo.4: cwdc://WXJ8FNiADQA.jpg
 photo.4.author: ryanmcgibbon
 photo.4.commitdate: 2018/12/14
-photo.4.link: https://www.instagram.com/ryanmcgibbon/
-photo.4.tags: lunch time, portrait
+photo.4.link: ig://BnmKSEhHTsC
+photo.4.tags: keeper, lunch time, portrait, sample
 species: 2
 studbook.id: 1299
 zoo: 76
+photo.5: cwdc://ZhSZrClADQA.jpg
+photo.5.author: assiniboineparkzoo
+photo.5.commitdate: 2025/7/29
+photo.5.link: ig://DMqZE_CuCnD
+photo.5.tags: portrait, sample, whiskers
+photo.6: cwdc://ZhSZrClADQB.jpg
+photo.6.author: assiniboineparkzoo
+photo.6.commitdate: 2025/7/29
+photo.6.link: ig://DMqZE_CuCnD?img_index=3
+photo.6.tags: portrait, sample, tail, toys, whiskers
+photo.7: cwdc://ZhSZrClADQC.jpg
+photo.7.author: assiniboineparkzoo
+photo.7.commitdate: 2025/7/29
+photo.7.link: ig://DMqZE_CuCnD?img_index=4
+photo.7.tags: close-up, portrait, sample, whiskers
+photo.8: cwdc://ZhSZrClADQD.jpg
+photo.8.author: assiniboineparkzoo
+photo.8.commitdate: 2025/7/29
+photo.8.link: ig://DMqZE_CuCnD?img_index=5
+photo.8.tags: mofumofu, peek, portrait
