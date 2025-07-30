@@ -613,35 +613,35 @@ photo.120.author: minatomirai215
 photo.120.commitdate: 2024/4/16
 photo.120.link: ig://C3xNkZTP05D?img_index=2
 photo.120.tags: hammock, laying down, paws, tail, window
-photo.121: cwdc://ZB8-SUKADQA.jpg
-photo.121.author: seaparadise_official
-photo.121.commitdate: 2024/11/2
-photo.121.link: ig://C8_rYn1MjDV
-photo.121.tags: bamboo, bite, close-up, door, portrait, sample, whiskers
-photo.122: cwdc://ZDQanIYADQA.jpg
-photo.122.author: yuredpanda
-photo.122.commitdate: 2025/7/21
-photo.122.link: ig://C9pZjB8SWz0
-photo.122.tags: grooming, sample, tail
-photo.123: cwdc://ZIUj6AwADQA.jpg
-photo.123.author: seaparadise_official
-photo.123.commitdate: 2025/3/14
-photo.123.link: ig://DALeMeIIC9G
-photo.123.tags: close-up, laying down, mofumofu, paws, sample, whiskers
-species: 2
-zoo: 190
-photo.124: cwdc://Y5rGOUhADQA.jpg
+photo.121: cwdc://Y5rGOUhADQA.jpg
+photo.121.author: minatomirai215
+photo.121.commitdate: 2025/7/30
+photo.121.link: ig://C42vWoAvPbj
+photo.121.tags: mofumofu, portrait, sample, whiskers
+photo.122: cwdc://ZB8-SUKADQA.jpg
+photo.122.author: seaparadise_official
+photo.122.commitdate: 2024/11/2
+photo.122.link: ig://C8_rYn1MjDV
+photo.122.tags: bamboo, bite, close-up, door, portrait, sample, whiskers
+photo.123: cwdc://ZCOgcs_ADQA.jpg
+photo.123.author: minatomirai215
+photo.123.commitdate: 2025/7/30
+photo.123.link: ig://C9Icd0Py2Pz
+photo.123.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+photo.124: cwdc://ZCOgcs_ADQB.jpg
 photo.124.author: minatomirai215
 photo.124.commitdate: 2025/7/30
-photo.124.link: ig://C42vWoAvPbj
-photo.124.tags: mofumofu, portrait, sample, whiskers
-photo.125: cwdc://ZCOgcs_ADQA.jpg
-photo.125.author: minatomirai215
-photo.125.commitdate: 2025/7/30
-photo.125.link: ig://C9Icd0Py2Pz
-photo.125.tags: laying down, mofumofu, paws, portrait, sample, whiskers
-photo.126: cwdc://ZCOgcs_ADQB.jpg
-photo.126.author: minatomirai215
-photo.126.commitdate: 2025/7/30
-photo.126.link: ig://C9Icd0Py2Px
-photo.126.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+photo.124.link: ig://C9Icd0Py2Px
+photo.124.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+photo.125: cwdc://ZDQanIYADQA.jpg
+photo.125.author: yuredpanda
+photo.125.commitdate: 2025/7/21
+photo.125.link: ig://C9pZjB8SWz0
+photo.125.tags: grooming, sample, tail
+photo.126: cwdc://ZIUj6AwADQA.jpg
+photo.126.author: seaparadise_official
+photo.126.commitdate: 2025/3/14
+photo.126.link: ig://DALeMeIIC9G
+photo.126.tags: close-up, laying down, mofumofu, paws, sample, whiskers
+species: 2
+zoo: 190
