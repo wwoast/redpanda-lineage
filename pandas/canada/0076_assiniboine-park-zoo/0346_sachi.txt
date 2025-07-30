@@ -37,9 +37,6 @@ photo.4.author: ryanmcgibbon
 photo.4.commitdate: 2018/12/14
 photo.4.link: ig://BnmKSEhHTsC
 photo.4.tags: keeper, lunch time, portrait, sample
-species: 2
-studbook.id: 1299
-zoo: 76
 photo.5: cwdc://ZhSZrClADQA.jpg
 photo.5.author: assiniboineparkzoo
 photo.5.commitdate: 2025/7/29
@@ -60,3 +57,6 @@ photo.8.author: assiniboineparkzoo
 photo.8.commitdate: 2025/7/29
 photo.8.link: ig://DMqZE_CuCnD?img_index=5
 photo.8.tags: mofumofu, peek, portrait
+species: 2
+studbook.id: 1299
+zoo: 76
