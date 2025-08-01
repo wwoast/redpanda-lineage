@@ -2,120 +2,120 @@
 _id: media.17.fujimaru-ranmaru
 commitdate: 2022/12/11
 panda.tags: 1383, 1384
-photo.1: cwdc://YRryyKwADQC.jpg
-photo.1.author: kotata_513
-photo.1.commitdate: 2022/12/11
-photo.1.link: ig://Ck3FojIPnAF
-photo.1.tags: baby, brothers, hammock, peek, siblings, tail, twins
-photo.1.tags.1383.location: 180, 320
-photo.1.tags.1384.location: 350, 100
-photo.2: cwdc://YVTcy-0ADQA.jpg
-photo.2.author: tamazoowalking
-photo.2.commitdate: 2023/1/14
-photo.2.link: ig://Cmq6o9KPlPe
-photo.2.tags: baby, brothers, hammock, playing, siblings, twins
-photo.2.tags.1383.location: 425, 210
-photo.2.tags.1384.location: 270, 280
-photo.3: cwdc://YWp5MCFADQB.jpg
+photo.1: cwdc://YRQ76KPADQA.jpg
+photo.1.author: tamazoowalking
+photo.1.commitdate: 2025/7/31
+photo.1.link: ig://CkpqMi3vB1u
+photo.1.tags: brothers, portrait, siblings, twins, window
+photo.2: cwdc://YRryyKwADQC.jpg
+photo.2.author: kotata_513
+photo.2.commitdate: 2022/12/11
+photo.2.link: ig://Ck3FojIPnAF
+photo.2.tags: baby, brothers, hammock, peek, siblings, tail, twins
+photo.2.tags.1383.location: 180, 320
+photo.2.tags.1384.location: 350, 100
+photo.3: cwdc://YVTcy-0ADQA.jpg
 photo.3.author: tamazoowalking
-photo.3.commitdate: 2023/8/22
-photo.3.link: ig://CnWI1eyvmMd
-photo.3.tags: baby, close-up, whiskers, window
-photo.3.tags.1383.location: 145, 430
-photo.3.tags.1384.location: 160, 180
-photo.4: cwdc://YWp5MCFADQC.jpg
+photo.3.commitdate: 2023/1/14
+photo.3.link: ig://Cmq6o9KPlPe
+photo.3.tags: baby, brothers, hammock, playing, siblings, twins
+photo.3.tags.1383.location: 425, 210
+photo.3.tags.1384.location: 270, 280
+photo.4: cwdc://YWp5MCFADQB.jpg
 photo.4.author: tamazoowalking
-photo.4.commitdate: 2024/8/31
-photo.4.link: ig://CnWI1eyvmMe
-photo.4.tags: baby, brothers, close-up, siblings, twins, window
-photo.4.tags.1383.location: 225, 580
-photo.4.tags.1384.location: 250, 190
-photo.5: cwdc://YW1TwUYADQA.jpg
-photo.5.author: alto0908
-photo.5.commitdate: 2023/3/9
-photo.5.link: ig://Cnb2Hn8PVHx
-photo.5.tags: baby, brothers, portrait, siblings, twins
-photo.5.tags.1383.location: 90, 245
-photo.5.tags.1384.location: 390, 325
-photo.6: cwdc://YW1TwUYADQB.jpg
+photo.4.commitdate: 2023/8/22
+photo.4.link: ig://CnWI1eyvmMd
+photo.4.tags: baby, close-up, whiskers, window
+photo.4.tags.1383.location: 145, 430
+photo.4.tags.1384.location: 160, 180
+photo.5: cwdc://YWp5MCFADQC.jpg
+photo.5.author: tamazoowalking
+photo.5.commitdate: 2024/8/31
+photo.5.link: ig://CnWI1eyvmMe
+photo.5.tags: baby, brothers, close-up, siblings, twins, window
+photo.5.tags.1383.location: 225, 580
+photo.5.tags.1384.location: 250, 190
+photo.6: cwdc://YW1TwUYADQA.jpg
 photo.6.author: alto0908
-photo.6.commitdate: 2024/8/31
-photo.6.link: ig://Cnb2Hn8PVHy
+photo.6.commitdate: 2023/3/9
+photo.6.link: ig://Cnb2Hn8PVHx
 photo.6.tags: baby, brothers, portrait, siblings, twins
-photo.6.tags.1383.location: 200, 320
-photo.6.tags.1384.location: 650, 385
-photo.7: cwdc://YY2jnOqADQA.jpg
-photo.7.author: fetorus_mami
-photo.7.commitdate: 2023/8/27
-photo.7.link: ig://CoceDFFPYeC
-photo.7.tags: brothers, hammock, siblings, twins, window
-photo.7.tags.1383.location: 135, 215
-photo.7.tags.1384.location: 370, 140
-photo.8: cwdc://YY2jnOqADQB.jpg
+photo.6.tags.1383.location: 90, 245
+photo.6.tags.1384.location: 390, 325
+photo.7: cwdc://YW1TwUYADQB.jpg
+photo.7.author: alto0908
+photo.7.commitdate: 2024/8/31
+photo.7.link: ig://Cnb2Hn8PVHy
+photo.7.tags: baby, brothers, portrait, siblings, twins
+photo.7.tags.1383.location: 200, 320
+photo.7.tags.1384.location: 650, 385
+photo.8: cwdc://YY2jnOqADQA.jpg
 photo.8.author: fetorus_mami
-photo.8.commitdate: 2024/8/31
-photo.8.link: ig://CoceDFFPYeE
+photo.8.commitdate: 2023/8/27
+photo.8.link: ig://CoceDFFPYeC
 photo.8.tags: brothers, hammock, siblings, twins, window
-photo.8.tags.1383.location: 340, 420
-photo.8.tags.1384.location: 435, 230
-photo.9: cwdc://YY2jnOqADQC.jpg
+photo.8.tags.1383.location: 135, 215
+photo.8.tags.1384.location: 370, 140
+photo.9: cwdc://YY2jnOqADQB.jpg
 photo.9.author: fetorus_mami
 photo.9.commitdate: 2024/8/31
-photo.9.link: ig://CoceDFFPYeF
-photo.9.tags: brothers, hammock, mofumofu, siblings, twins, upside-down
-photo.9.tags.1383.location: 315, 530
-photo.9.tags.1384.location: 250, 370
-photo.10: cwdc://YY2jnOqADQD.jpg
+photo.9.link: ig://CoceDFFPYeE
+photo.9.tags: brothers, hammock, siblings, twins, window
+photo.9.tags.1383.location: 340, 420
+photo.9.tags.1384.location: 435, 230
+photo.10: cwdc://YY2jnOqADQC.jpg
 photo.10.author: fetorus_mami
 photo.10.commitdate: 2024/8/31
-photo.10.link: ig://CoceDFFPYeG
-photo.10.tags: brothers, hammock, siblings, twins, window
-photo.10.tags.1383.location: 260, 345
-photo.10.tags.1384.location: 430, 325
-photo.11: cwdc://YZP6PIBADQB.jpg
-photo.11.author: kotata_513
-photo.11.commitdate: 2023/4/9
-photo.11.link: ig://CopJXBwv2Mr
-photo.11.tags: baby, brothers, peek, portrait, siblings, snow, twins
-photo.11.tags.1383.location: 225, 160
-photo.11.tags.1384.location: 365, 205
-photo.12: cwdc://YZP6PIBADQC.jpg
+photo.10.link: ig://CoceDFFPYeF
+photo.10.tags: brothers, hammock, mofumofu, siblings, twins, upside-down
+photo.10.tags.1383.location: 315, 530
+photo.10.tags.1384.location: 250, 370
+photo.11: cwdc://YY2jnOqADQD.jpg
+photo.11.author: fetorus_mami
+photo.11.commitdate: 2024/8/31
+photo.11.link: ig://CoceDFFPYeG
+photo.11.tags: brothers, hammock, siblings, twins, window
+photo.11.tags.1383.location: 260, 345
+photo.11.tags.1384.location: 430, 325
+photo.12: cwdc://YZP6PIBADQB.jpg
 photo.12.author: kotata_513
-photo.12.commitdate: 2024/8/31
-photo.12.link: ig://CopJXBwv2Ms
-photo.12.tags: baby, brothers, mofumofu, portrait, tail
-photo.12.tags.1383.location: 440, 270
-photo.12.tags.1384.location: 560, 320
-photo.13: cwdc://YZP6PIBADQD.jpg
+photo.12.commitdate: 2023/4/9
+photo.12.link: ig://CopJXBwv2Mr
+photo.12.tags: baby, brothers, peek, portrait, siblings, snow, twins
+photo.12.tags.1383.location: 225, 160
+photo.12.tags.1384.location: 365, 205
+photo.13: cwdc://YZP6PIBADQC.jpg
 photo.13.author: kotata_513
 photo.13.commitdate: 2024/8/31
-photo.13.link: ig://CopJXBwv2Mt
-photo.13.tags: brothers, laying down, playing, siblings, snow, twins
-photo.13.tags.1383.location: 555, 515
-photo.13.tags.1384.location: 225, 505
-photo.14: cwdc://YolpT54ADQD.jpg
-photo.14.author: tamazoowalking
-photo.14.commitdate: 2023/11/18
-photo.14.link: ig://CwUA5asP79g
-photo.14.tags: brothers, playing, siblings, twins
-photo.14.tags.1383.location: 400, 260
-photo.14.tags.1384.location: 255, 105
-photo.15: cwdc://YolpT54ADQE.jpg
+photo.13.link: ig://CopJXBwv2Ms
+photo.13.tags: baby, brothers, mofumofu, portrait, tail
+photo.13.tags.1383.location: 440, 270
+photo.13.tags.1384.location: 560, 320
+photo.14: cwdc://YZP6PIBADQD.jpg
+photo.14.author: kotata_513
+photo.14.commitdate: 2024/8/31
+photo.14.link: ig://CopJXBwv2Mt
+photo.14.tags: brothers, laying down, playing, siblings, snow, twins
+photo.14.tags.1383.location: 555, 515
+photo.14.tags.1384.location: 225, 505
+photo.15: cwdc://YolpT54ADQD.jpg
 photo.15.author: tamazoowalking
-photo.15.commitdate: 2024/8/31
-photo.15.link: ig://CwUA5asP79h
-photo.15.tags: brothers, paws, playing, siblings, tail, twins
-photo.15.tags.1383.location: 620, 470
-photo.15.tags.1384.location: 385, 180
-photo.16: cwdc://YolpT54ADQF.jpg
+photo.15.commitdate: 2023/11/18
+photo.15.link: ig://CwUA5asP79g
+photo.15.tags: brothers, playing, siblings, twins
+photo.15.tags.1383.location: 400, 260
+photo.15.tags.1384.location: 255, 105
+photo.16: cwdc://YolpT54ADQE.jpg
 photo.16.author: tamazoowalking
 photo.16.commitdate: 2024/8/31
-photo.16.link: ig://CwUA5asP79i
-photo.16.tags: brothers, paws, playing, siblings, twins
-photo.16.tags.1383.location: 645, 445
-photo.16.tags.1384.location: 225, 165
-photo.17: cwdc://YRQ76KPADQA.jpg
+photo.16.link: ig://CwUA5asP79h
+photo.16.tags: brothers, paws, playing, siblings, tail, twins
+photo.16.tags.1383.location: 620, 470
+photo.16.tags.1384.location: 385, 180
+photo.17: cwdc://YolpT54ADQF.jpg
 photo.17.author: tamazoowalking
-photo.17.commitdate: 2025/7/31
-photo.17.link: ig://CkpqMi3vB1u
-photo.17.tags: brothers, portrait, siblings, twins, window
+photo.17.commitdate: 2024/8/31
+photo.17.link: ig://CwUA5asP79i
+photo.17.tags: brothers, paws, playing, siblings, twins
+photo.17.tags.1383.location: 645, 445
+photo.17.tags.1384.location: 225, 165
