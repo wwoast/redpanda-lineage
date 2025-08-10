@@ -1,0 +1,17 @@
+[panda]
+_id: 1454
+birthday: 2025/8/4
+birthplace: 10
+children: none
+commitdate: 2025/8/10
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
+litter: none
+species: 2
+zoo: 10
