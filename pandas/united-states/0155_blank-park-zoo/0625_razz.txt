@@ -4,6 +4,7 @@ birthday: 2011/6/14
 birthplace: 122
 children: none
 commitdate: 2019/10/20
+death: 2025/8/8
 en.name: Razz
 en.nicknames: none
 en.oldnames: Dato, Starr
@@ -84,19 +85,16 @@ photo.13.author: blankparkzoo
 photo.13.commitdate: 2022/9/10
 photo.13.link: ig://CVX6tl4Mpxw
 photo.13.tags: paws, sample, standing, whiskers
-photo.14: ig://CXTvqJILYGn/m
+photo.14: cwdc://X2lG1WwADQA.jpg
 photo.14.author: worldthathesees
 photo.14.commitdate: 2021/12/26
-photo.14.link: https://www.instagram.com/worldthathesees/
-photo.14.tags: laying down, whiskers, white face
+photo.14.link: ig://CXTvqJILYGn
+photo.14.tags: laying down, sample, whiskers, white face
 photo.15: cwdc://X90WDCcADQC.jpg
 photo.15.author: blankparkzoo
 photo.15.commitdate: 2022/6/20
 photo.15.link: ig://Ca7XQ--KlHS
 photo.15.tags: bite, close-up, lunch time, sample, whiskers
-species: 1
-studbook.id: 1126
-zoo: 155
 photo.16: cwdc://X90WDCcADQB.jpg
 photo.16.author: blankparkzoo
 photo.16.commitdate: 2025/8/16
@@ -152,3 +150,51 @@ photo.26.author: blankparkzoo
 photo.26.commitdate: 2025/8/16
 photo.26.link: ig://C1ez-HSuoRZ
 photo.26.tags: sample, standing, whiskers, white face
+species: 1
+studbook.id: 1126
+zoo: 155
+photo.27: cwdc://X2lG1WwADQB.jpg
+photo.27.author: worldthathesees
+photo.27.commitdate: 2025/8/16
+photo.27.link: ig://CXTvqJILYGo
+photo.27.tags: peek, sample, whiskers, white face
+photo.28: cwdc://X2lG1WwADQC.jpg
+photo.28.author: worldthathesees
+photo.28.commitdate: 2025/8/16
+photo.28.link: ig://CXTvqJILYGp
+photo.28.tags: laying down, paws
+photo.29: cwdc://X2lG1WwADQD.jpg
+photo.29.author: worldthathesees
+photo.29.commitdate: 2025/8/16
+photo.29.link: ig://CXTvqJILYGq
+photo.29.tags: peek, snow, tail
+photo.30: cwdc://X2lG1WwADQE.jpg
+photo.30.author: worldthathesees
+photo.30.commitdate: 2025/8/16
+photo.30.link: ig://CXTvqJILYGr
+photo.30.tags: lunch time, paws, peek, snow, whiskers
+photo.31: cwdc://X2lG1WwADQF.jpg
+photo.31.author: worldthathesees
+photo.31.commitdate: 2025/8/16
+photo.31.link: ig://CXTvqJILYGs
+photo.31.tags: ear, sample, whiskers
+photo.32: cwdc://X2lG1WwADQG.jpg
+photo.32.author: worldthathesees
+photo.32.commitdate: 2025/8/16
+photo.32.link: ig://CXTvqJILYGt
+photo.32.tags: paws, sample, tree
+photo.33: cwdc://X2lG1WwADQH.jpg
+photo.33.author: worldthathesees
+photo.33.commitdate: 2025/8/16
+photo.33.link: ig://CXTvqJILYGu
+photo.33.tags: door, laying down, peek, tail
+photo.34: cwdc://X2lG1WwADQI.jpg
+photo.34.author: worldthathesees
+photo.34.commitdate: 2025/8/16
+photo.34.link: ig://CXTvqJILYGv
+photo.34.tags: laying down, paws, tree
+photo.35: cwdc://X2lG1WwADQJ.jpg
+photo.35.author: worldthathesees
+photo.35.commitdate: 2025/8/16
+photo.35.link: ig://CXTvqJILYGw
+photo.35.tags: tail, white face
