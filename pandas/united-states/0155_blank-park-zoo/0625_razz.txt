@@ -19,81 +19,136 @@ location.1: 122, 2011/6/14
 location.2: 155, 2012/9/6
 location.3: 156, 2017/4/27
 location.4: 155, 2021/5/18
-photo.1: ig://BTh2YiQF03E/m
+photo.1: cwdc://VvBUSJAADQF.jpg
 photo.1.author: hemkerzoo
 photo.1.commitdate: 2019/10/20
-photo.1.link: https://www.instagram.com/hemkerzoo/
-photo.1.tags: portrait, tail
-photo.2: ig://BUCWfYMl0e2/m
+photo.1.link: ig://BTh2YiQF03E
+photo.1.tags: portrait, sample, tail
+photo.2: cwdc://VwCUf05ADQG.jpg
 photo.2.author: hemkerzoo
 photo.2.commitdate: 2019/10/20
-photo.2.link: https://www.instagram.com/hemkerzoo/
-photo.2.tags: peek, tree
-photo.3: ig://BVS0sz-lChX/m
+photo.2.link: ig://BUCWfYMl0e2
+photo.2.tags: paws, peek, sample, tree
+photo.3: cwdc://VyjQ6sdADQH.jpg
 photo.3.author: hemkerzoo
 photo.3.commitdate: 2019/10/20
-photo.3.link: https://www.instagram.com/hemkerzoo/
-photo.3.tags: portrait, smile, tongue
-photo.4: ig://BWfUboKlGge/m
+photo.3.link: ig://BVS0sz-lChX
+photo.3.tags: ear, portrait, sample, smile, tongue, whiskers
+photo.4: cwdc://V08QYU1ADQI.jpg
 photo.4.author: hemkerzoo
 photo.4.commitdate: 2019/10/20
-photo.4.link: https://www.instagram.com/hemkerzoo/
-photo.4.tags: peek, portrait, tree
-photo.5: ig://BYd0-fjHxvS/m
+photo.4.link: ig://BWfUboKlGge
+photo.4.tags: mofumofu, peek, portrait, sample, tree, whiskers
+photo.5: cwdc://V45ReDmADQJ.jpg
 photo.5.author: hemkerzoo
 photo.5.commitdate: 2019/10/20
-photo.5.link: https://www.instagram.com/hemkerzoo/
-photo.5.tags: smile
-photo.6: ig://BZRezRwHuhi/m
+photo.5.link: ig://BYd0-fjHxvS
+photo.5.tags: sample, smile
+photo.6: cwdc://V6glHoAADQL.jpg
 photo.6.author: hemkerzoo
 photo.6.commitdate: 2019/10/20
-photo.6.link: https://www.instagram.com/hemkerzoo/
-photo.6.tags: tail
-photo.7: ig://BgULa6JhI-S/m
+photo.6.link: ig://BZRezRwHuhi
+photo.6.tags: sample, tail
+photo.7: cwdc://WIl-W4zADQD.jpg
 photo.7.author: hemkerzoo
 photo.7.commitdate: 2019/10/20
-photo.7.link: https://www.instagram.com/hemkerzoo/
-photo.7.tags: tail, tree
-photo.8: ig://BqqGjwnDE2p/m
+photo.7.link: ig://BgULa6JhI-S
+photo.7.tags: peek, tail, tree
+photo.8: cwdc://WdR0oluADQE.jpg
 photo.8.author: hemkerzoo
 photo.8.commitdate: 2019/10/20
-photo.8.link: https://www.instagram.com/hemkerzoo/
-photo.8.tags: portrait, white face
-photo.9: ig://Bys9iu3B_WD/m
+photo.8.link: ig://BqqGjwnDE2p
+photo.8.tags: ear, portrait, sample, white face
+photo.9: cwdc://WtXimiOADQK.jpg
 photo.9.author: hemkerzoo
 photo.9.commitdate: 2019/10/20
-photo.9.link: https://www.instagram.com/hemkerzoo/
-photo.9.tags: laying down, portrait, smile, tail, tongue, tree
-photo.10: ig://B0Ow6lfBp_5/m
+photo.9.link: ig://Bys9iu3B_WD
+photo.9.tags: laying down, portrait, sample, smile, tail, tongue, tree
+photo.10: cwdc://WwbJWPeADQA.jpg
 photo.10.author: hemkerzoo
 photo.10.commitdate: 2019/10/20
-photo.10.link: https://www.instagram.com/hemkerzoo/
-photo.10.tags: laying down, portrait, tree
-photo.11: ig://B3mfmawh6tD/m
+photo.10.link: ig://B0Ow6lfBp_5
+photo.10.tags: laying down, portrait, sleeping, tree
+photo.11: cwdc://W3Kmt6BADQB.jpg
 photo.11.author: hemkerzoo
 photo.11.commitdate: 2020/5/17
-photo.11.link: https://www.instagram.com/hemkerzoo/
-photo.11.tags: laying down, portrait, sleeping, tail, tree
-photo.12: ig://B90NByGh7ro/m
+photo.11.link: ig://B3mfmawh6tD
+photo.11.tags: laying down, portrait, sample, sleeping, tail, tree
+photo.12: cwdc://XDmBkotADQC.jpg
 photo.12.author: hemkerzoo
 photo.12.commitdate: 2020/5/17
-photo.12.link: https://www.instagram.com/hemkerzoo/
-photo.12.tags: portrait, snow
-photo.13: ig://CVX6tl4Mpxw/m
+photo.12.link: ig://B90NByGh7ro
+photo.12.tags: portrait, sample, snow, whiskers
+photo.13: cwdc://Xytc8QQADQK.jpg
 photo.13.author: blankparkzoo
 photo.13.commitdate: 2022/9/10
-photo.13.link: https://www.instagram.com/blankparkzoo/
-photo.13.tags: paws, standing, whiskers
+photo.13.link: ig://CVX6tl4Mpxw
+photo.13.tags: paws, sample, standing, whiskers
 photo.14: ig://CXTvqJILYGn/m
 photo.14.author: worldthathesees
 photo.14.commitdate: 2021/12/26
 photo.14.link: https://www.instagram.com/worldthathesees/
 photo.14.tags: laying down, whiskers, white face
-photo.15: ig://Ca7XQ--KlHS/m
+photo.15: cwdc://X90WDCcADQC.jpg
 photo.15.author: blankparkzoo
 photo.15.commitdate: 2022/6/20
-photo.15.link: https://www.instagram.com/blankparkzoo/
+photo.15.link: ig://Ca7XQ--KlHS
 photo.15.tags: bite, close-up, lunch time, sample, whiskers
 species: 1
 studbook.id: 1126
 zoo: 155
+photo.16: cwdc://X90WDCcADQB.jpg
+photo.16.author: blankparkzoo
+photo.16.commitdate: 2025/8/16
+photo.16.link: ig://Ca7XQ--KlHa
+photo.16.tags: blink, smile, whiskers, white face
+photo.17: cwdc://X90WDCcADQD.jpg
+photo.17.author: blankparkzoo
+photo.17.commitdate: 2025/8/16
+photo.17.link: ig://Ca7XQ--KlHT
+photo.17.tags: blink, sample, techitechi, whiskers
+photo.18: cwdc://X90WDCcADQE.jpg
+photo.18.author: blankparkzoo
+photo.18.commitdate: 2025/8/16
+photo.18.link: ig://Ca7XQ--KlHU
+photo.18.tags: blink, lunch time, sample, techitechi
+photo.19: cwdc://X90WDCcADQF.jpg
+photo.19.author: blankparkzoo
+photo.19.commitdate: 2025/8/16
+photo.19.link: ig://Ca7XQ--KlHV
+photo.19.tags: bite, lunch time, sample, whiskers
+photo.20: cwdc://X90WDCcADQG.jpg
+photo.20.author: blankparkzoo
+photo.20.commitdate: 2025/8/16
+photo.20.link: ig://Ca7XQ--KlHW
+photo.20.tags: lunch time, peek, whiskers
+photo.21: cwdc://X90WDCcADQH.jpg
+photo.21.author: blankparkzoo
+photo.21.commitdate: 2025/8/16
+photo.21.link: ig://Ca7XQ--KlHX
+photo.21.tags: bite, lunch time, techitechi
+photo.22: cwdc://X90WDCcADQI.jpg
+photo.22.author: blankparkzoo
+photo.22.commitdate: 2025/8/16
+photo.22.link: ig://Ca7XQ--KlHY
+photo.22.tags: bite, sample, whiskers, white face
+photo.23: cwdc://X90WDCcADQJ.jpg
+photo.23.author: blankparkzoo
+photo.23.commitdate: 2025/8/16
+photo.23.link: ig://Ca7XQ--KlHZ
+photo.23.tags: bite, lunch time, sample, wink
+photo.24: cwdc://Xytc8QQADQL.jpg
+photo.24.author: blankparkzoo
+photo.24.commitdate: 2025/8/16
+photo.24.link: ig://CVX6tl4Mpxx
+photo.24.tags: close-up, sample, standing, whiskers, white face
+photo.25: cwdc://Xytc8QQADQM.jpg
+photo.25.author: blankparkzoo
+photo.25.commitdate: 2025/8/16
+photo.25.link: ig://CVX6tl4Mpxy
+photo.25.tags: paws, sample, standing, whiskers, white face
+photo.26: cwdc://Yy7PdTFADQA.jpg
+photo.26.author: blankparkzoo
+photo.26.commitdate: 2025/8/16
+photo.26.link: ig://C1ez-HSuoRZ
+photo.26.tags: sample, standing, whiskers, white face
