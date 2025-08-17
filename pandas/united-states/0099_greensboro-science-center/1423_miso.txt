@@ -4,6 +4,7 @@ birthday: 2023/6/10
 birthplace: 114
 children: none
 commitdate: 2023/8/15
+death: 2025/8/17
 en.name: Miso
 en.nicknames: none
 en.othernames: none
@@ -317,4 +318,5 @@ photo.60.link: ig://C_YdM5WttlT
 photo.60.tags: mofumofu, paws, sample, whiskers, white face
 species: 1
 studbook.id: unknown
+uncertainty: death exact date of week
 zoo: 99
