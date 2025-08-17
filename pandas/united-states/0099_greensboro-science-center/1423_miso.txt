@@ -15,289 +15,286 @@ language.order: en, ja
 litter: none
 location.1: 114, 2023/6/10
 location.2: 99, 2023/8/11
-photo.1: cwdc://YnmG_noADQE.jpg
-photo.1.author: greensborosciencecenter
-photo.1.commitdate: 2023/8/15
-photo.1.link: ig://Cv0PvRkOcfr
-photo.1.tags: baby, close-up, sample, whiskers
-species: 1
-studbook.id: unknown
-zoo: 99
-photo.2: cwdc://Y0xyWN1ADQK.jpg
-photo.2.author: rossifari
-photo.2.commitdate: 2025/8/16
-photo.2.link: ig://C2aFakqgBC-
-photo.2.tags: baby, laying down, mofumofu, sample, tail
-photo.3: cwdc://Y0xyWN1ADQL.jpg
-photo.3.author: rossifari
+photo.1: cwdc://Ynlahv6ADQU.jpg
+photo.1.author: rossifari
+photo.1.commitdate: 2025/8/16
+photo.1.link: ig://Cvz5gVtAfKt
+photo.1.tags: baby, close-up, keeper, paws, portrait, sample, white face
+photo.2: cwdc://YnmG_noADQE.jpg
+photo.2.author: greensborosciencecenter
+photo.2.commitdate: 2023/8/15
+photo.2.link: ig://Cv0PvRkOcfr
+photo.2.tags: baby, close-up, sample, whiskers
+photo.3: cwdc://YoYLk8OADQF.jpg
+photo.3.author: greensborosciencecenter
 photo.3.commitdate: 2025/8/16
-photo.3.link: ig://C2aFakqgBC_
-photo.3.tags: laying down, mofumofu, tongue, white face
-photo.4: cwdc://Y3B0w5iADQM.jpg
+photo.3.link: ig://CwNSB73Nvqu
+photo.3.tags: baby, bamboo, close-up, keeper, sample, whiskers, white face
+photo.4: cwdc://Yotp-xyADQY.jpg
 photo.4.author: rossifari
 photo.4.commitdate: 2025/8/16
-photo.4.link: ig://C3iGn6hAdYg
-photo.4.tags: mofumofu, sample, whiskers, white face
-photo.5: cwdc://Y3B0w5iADQN.jpg
+photo.4.link: ig://CwYBO2pAsEB
+photo.4.tags: baby, bamboo, close-up, sample, whiskers, white face
+photo.5: cwdc://Yotp-xyADQZ.jpg
 photo.5.author: rossifari
 photo.5.commitdate: 2025/8/16
-photo.5.link: ig://C3iGn6hAdYh
-photo.5.tags: paws, peek, sample, whiskers, white face
-photo.6: cwdc://Y3B0w5iADQO.jpg
+photo.5.link: ig://CwYBO2pAsEC
+photo.5.tags: baby, bamboo, keeper, sample, white face
+photo.6: cwdc://Yotp-xyADQa.jpg
 photo.6.author: rossifari
 photo.6.commitdate: 2025/8/16
-photo.6.link: ig://C3iGn6hAdYi
-photo.6.tags: paws, peek, tail
-photo.7: cwdc://Y8Fns0LADQP.jpg
+photo.6.link: ig://CwYBO2pAsED
+photo.6.tags: baby, bamboo, close-up, sample, whiskers, white face
+photo.7: cwdc://YpvCPVqADQV.jpg
 photo.7.author: rossifari
 photo.7.commitdate: 2025/8/16
-photo.7.link: ig://C6EAF31gvw0
-photo.7.tags: baby, keeper, paws, sample, white face
-photo.8: cwdc://Y8Fns0LADQQ.jpg
+photo.7.link: ig://Cw4tXIlOK7O
+photo.7.tags: keeper, paws, sample, whiskers, white face
+photo.8: cwdc://YpvCPVqADQW.jpg
 photo.8.author: rossifari
 photo.8.commitdate: 2025/8/16
-photo.8.link: ig://C6EAF31gvw1
-photo.8.tags: baby, keeper, paws, sample, white face
-photo.9: cwdc://Y8Fns0LADQR.jpg
+photo.8.link: ig://Cw4tXIlOK7P
+photo.8.tags: keeper, paws, sample, whiskers, white face
+photo.9: cwdc://YpvCPVqADQX.jpg
 photo.9.author: rossifari
 photo.9.commitdate: 2025/8/16
-photo.9.link: ig://C6EAF31gvw2
-photo.9.tags: baby, bamboo, sample, white face
-photo.10: cwdc://Y8Fns0LADQS.jpg
+photo.9.link: ig://Cw4tXIlOK7Q
+photo.9.tags: close-up, keeper, paws, sample, white face
+photo.10: cwdc://YqO7DEPADQb.jpg
 photo.10.author: rossifari
 photo.10.commitdate: 2025/8/16
-photo.10.link: ig://C6EAF31gvw3
-photo.10.tags: baby, bottle, keeper, sample
-photo.11: cwdc://Y8Fns0LADQT.jpg
+photo.10.link: ig://CxIpw_3gO52
+photo.10.tags: baby, close-up, keeper, paws, sample, tongue, whiskers, white face
+photo.11: cwdc://YqO7DEPADQc.jpg
 photo.11.author: rossifari
 photo.11.commitdate: 2025/8/16
-photo.11.link: ig://C6EAF31gvw4
-photo.11.tags: baby, bamboo, keeper, sample, tail
-photo.12: cwdc://Y9OpsYcADQA.jpg
-photo.12.author: greensborosciencecenter
+photo.11.link: ig://CxIpw_3gO53
+photo.11.tags: baby, bottle, keeper, white face
+photo.12: cwdc://YqO7DEPADQd.jpg
+photo.12.author: rossifari
 photo.12.commitdate: 2025/8/16
-photo.12.link: ig://C6ohFp-Oj-3
-photo.12.tags: peek, pumpkin, white face
-photo.13: cwdc://Ynlahv6ADQU.jpg
-photo.13.author: rossifari
+photo.12.link: ig://CxIpw_3gO54
+photo.12.tags: baby, bottle, keeper, white face
+photo.13: cwdc://YqZfNWPADQG.jpg
+photo.13.author: greensborosciencecenter
 photo.13.commitdate: 2025/8/16
-photo.13.link: ig://Cvz5gVtAfKt
-photo.13.tags: baby, close-up, keeper, paws, portrait, sample, white face
-photo.14: cwdc://YoYLk8OADQF.jpg
+photo.13.link: ig://CxN72I3utLm
+photo.13.tags: baby, bamboo, white face
+photo.14: cwdc://YqZfNWPADQH.jpg
 photo.14.author: greensborosciencecenter
 photo.14.commitdate: 2025/8/16
-photo.14.link: ig://CwNSB73Nvqu
-photo.14.tags: baby, bamboo, close-up, keeper, sample, whiskers, white face
-photo.15: cwdc://Yotp-xyADQY.jpg
-photo.15.author: rossifari
+photo.14.link: ig://CxN72I3utLn
+photo.14.tags: baby, bamboo, bite, paws, sample, white face
+photo.15: cwdc://YqZfNWPADQI.jpg
+photo.15.author: greensborosciencecenter
 photo.15.commitdate: 2025/8/16
-photo.15.link: ig://CwYBO2pAsEB
-photo.15.tags: baby, bamboo, close-up, sample, whiskers, white face
-photo.16: cwdc://Yotp-xyADQZ.jpg
-photo.16.author: rossifari
+photo.15.link: ig://CxN72I3utLo
+photo.15.tags: baby, bamboo, paws, sample, white face
+photo.16: cwdc://YqoYN-QADQJ.jpg
+photo.16.author: greensborosciencecenter
 photo.16.commitdate: 2025/8/16
-photo.16.link: ig://CwYBO2pAsEC
-photo.16.tags: baby, bamboo, keeper, sample, white face
-photo.17: cwdc://Yotp-xyADQa.jpg
-photo.17.author: rossifari
+photo.16.link: ig://CxVYWc4Oe-r
+photo.16.tags: laying down, paws, white face
+photo.17: cwdc://YqoYN-QADQK.jpg
+photo.17.author: greensborosciencecenter
 photo.17.commitdate: 2025/8/16
-photo.17.link: ig://CwYBO2pAsED
-photo.17.tags: baby, bamboo, close-up, sample, whiskers, white face
-photo.18: cwdc://YpvCPVqADQV.jpg
+photo.17.link: ig://CxVYWc4Oe-s
+photo.17.tags: close-up, sample, whiskers, white face
+photo.18: cwdc://Ys9q4LUADQe.jpg
 photo.18.author: rossifari
 photo.18.commitdate: 2025/8/16
-photo.18.link: ig://Cw4tXIlOK7O
-photo.18.tags: keeper, paws, sample, whiskers, white face
-photo.19: cwdc://YpvCPVqADQW.jpg
+photo.18.link: ig://CygBrjaAgSm
+photo.18.tags: baby, laying down, mofumofu, paws, sample, tail, white face
+photo.19: cwdc://Ys9q4LUADQf.jpg
 photo.19.author: rossifari
 photo.19.commitdate: 2025/8/16
-photo.19.link: ig://Cw4tXIlOK7P
-photo.19.tags: keeper, paws, sample, whiskers, white face
-photo.20: cwdc://YpvCPVqADQX.jpg
+photo.19.link: ig://CygBrjaAgSn
+photo.19.tags: baby, mofumofu, peek, white face
+photo.20: cwdc://Ys9q4LUADQg.jpg
 photo.20.author: rossifari
 photo.20.commitdate: 2025/8/16
-photo.20.link: ig://Cw4tXIlOK7Q
-photo.20.tags: close-up, keeper, paws, sample, white face
-photo.21: cwdc://YqO7DEPADQb.jpg
+photo.20.link: ig://CygBrjaAgSo
+photo.20.tags: baby, laying down, mofumofu, sample, white face
+photo.21: cwdc://Ys9q4LUADQh.jpg
 photo.21.author: rossifari
 photo.21.commitdate: 2025/8/16
-photo.21.link: ig://CxIpw_3gO52
-photo.21.tags: baby, close-up, keeper, paws, sample, tongue, whiskers, white face
-photo.22: cwdc://YqO7DEPADQc.jpg
+photo.21.link: ig://CygBrjaAgSp
+photo.21.tags: close-up, sample, whiskers, white face
+photo.22: cwdc://YulhLdaADQj.jpg
 photo.22.author: rossifari
 photo.22.commitdate: 2025/8/16
-photo.22.link: ig://CxIpw_3gO53
-photo.22.tags: baby, bottle, keeper, white face
-photo.23: cwdc://YqO7DEPADQd.jpg
+photo.22.link: ig://CzT81MdRJ2-
+photo.22.tags: baby, bamboo, close-up, sample, whiskers, white face
+photo.23: cwdc://YulhLdaADQk.jpg
 photo.23.author: rossifari
 photo.23.commitdate: 2025/8/16
-photo.23.link: ig://CxIpw_3gO54
-photo.23.tags: baby, bottle, keeper, white face
-photo.24: cwdc://YqZfNWPADQG.jpg
-photo.24.author: greensborosciencecenter
+photo.23.link: ig://CzT81MdRJ2_
+photo.23.tags: baby, bamboo, paws, sample, whiskers, white face
+photo.24: cwdc://YulhLdaADQl.jpg
+photo.24.author: rossifari
 photo.24.commitdate: 2025/8/16
-photo.24.link: ig://CxN72I3utLm
-photo.24.tags: baby, bamboo, white face
-photo.25: cwdc://YqZfNWPADQH.jpg
-photo.25.author: greensborosciencecenter
+photo.24.link: ig://CzT81MdRJ3A
+photo.24.tags: baby, keeper, paws, sample, tongue, white face
+photo.25: cwdc://YulhLdaADQm.jpg
+photo.25.author: rossifari
 photo.25.commitdate: 2025/8/16
-photo.25.link: ig://CxN72I3utLn
-photo.25.tags: baby, bamboo, bite, paws, sample, white face
-photo.26: cwdc://YqZfNWPADQI.jpg
-photo.26.author: greensborosciencecenter
+photo.25.link: ig://CzT81MdRJ3B
+photo.25.tags: baby, bamboo, bite, laying down, paws, sample, white face
+photo.26: cwdc://YulhLdaADQn.jpg
+photo.26.author: rossifari
 photo.26.commitdate: 2025/8/16
-photo.26.link: ig://CxN72I3utLo
-photo.26.tags: baby, bamboo, paws, sample, white face
-photo.27: cwdc://YqoYN-QADQJ.jpg
-photo.27.author: greensborosciencecenter
+photo.26.link: ig://CzT81MdRJ3C
+photo.26.tags: baby, keeper, paws, sample, white face
+photo.27: cwdc://YulhLdaADQo.jpg
+photo.27.author: rossifari
 photo.27.commitdate: 2025/8/16
-photo.27.link: ig://CxVYWc4Oe-r
-photo.27.tags: laying down, paws, white face
-photo.28: cwdc://YqoYN-QADQK.jpg
-photo.28.author: greensborosciencecenter
+photo.27.link: ig://CzT81MdRJ3D
+photo.27.tags: baby, dish, home, paws, sample, tail, white face
+photo.28: cwdc://YulhLdaADQp.jpg
+photo.28.author: rossifari
 photo.28.commitdate: 2025/8/16
-photo.28.link: ig://CxVYWc4Oe-s
-photo.28.tags: close-up, sample, whiskers, white face
-photo.29: cwdc://Ys9q4LUADQe.jpg
+photo.28.link: ig://CzT81MdRJ27
+photo.28.tags: baby, keeper, paws, sample, whiskers, white face
+photo.29: cwdc://YulhLdaADQq.jpg
 photo.29.author: rossifari
 photo.29.commitdate: 2025/8/16
-photo.29.link: ig://CygBrjaAgSm
-photo.29.tags: baby, laying down, mofumofu, paws, sample, tail, white face
-photo.30: cwdc://Ys9q4LUADQf.jpg
+photo.29.link: ig://CzT81MdRJ28
+photo.29.tags: baby, bite, keeper, paws, sample, whiskers, white face
+photo.30: cwdc://YulhLdaADQr.jpg
 photo.30.author: rossifari
 photo.30.commitdate: 2025/8/16
-photo.30.link: ig://CygBrjaAgSn
-photo.30.tags: baby, mofumofu, peek, white face
-photo.31: cwdc://Ys9q4LUADQg.jpg
-photo.31.author: rossifari
+photo.30.link: ig://CzT81MdRJ29
+photo.30.tags: baby, bamboo, paws, sample, whiskers, white face
+photo.31: cwdc://YvOIm6cADQN.jpg
+photo.31.author: greensborosciencecenter
 photo.31.commitdate: 2025/8/16
-photo.31.link: ig://CygBrjaAgSo
-photo.31.tags: baby, laying down, mofumofu, sample, white face
-photo.32: cwdc://Ys9q4LUADQh.jpg
-photo.32.author: rossifari
+photo.31.link: ig://CzoQi6-NLRC
+photo.31.tags: bamboo, home, paws, white face
+photo.32: cwdc://YvOIm6cADQO.jpg
+photo.32.author: greensborosciencecenter
 photo.32.commitdate: 2025/8/16
-photo.32.link: ig://CygBrjaAgSp
-photo.32.tags: close-up, sample, whiskers, white face
-photo.33: cwdc://YulhLdaADQj.jpg
-photo.33.author: rossifari
+photo.32.link: ig://CzoQi6-NLRD
+photo.32.tags: bamboo, paws, sample, whiskers, white face
+photo.33: cwdc://YvOIm6cADQP.jpg
+photo.33.author: greensborosciencecenter
 photo.33.commitdate: 2025/8/16
-photo.33.link: ig://CzT81MdRJ2-
-photo.33.tags: baby, bamboo, close-up, sample, whiskers, white face
-photo.34: cwdc://YulhLdaADQk.jpg
+photo.33.link: ig://CzoQi6-NLRE
+photo.33.tags: close-up, paws, whiskers, white face
+photo.34: cwdc://YvtLr6KADQi.jpg
 photo.34.author: rossifari
 photo.34.commitdate: 2025/8/16
-photo.34.link: ig://CzT81MdRJ2_
-photo.34.tags: baby, bamboo, paws, sample, whiskers, white face
-photo.35: cwdc://YulhLdaADQl.jpg
-photo.35.author: rossifari
+photo.34.link: ig://Cz3yFa1AR24
+photo.34.tags: nose, paws
+photo.35: cwdc://Yv8wMtLADQM.jpg
+photo.35.author: greensborosciencecenter
 photo.35.commitdate: 2025/8/16
-photo.35.link: ig://CzT81MdRJ3A
-photo.35.tags: baby, keeper, paws, sample, tongue, white face
-photo.36: cwdc://YulhLdaADQm.jpg
+photo.35.link: ig://Cz_kV0VuCSb
+photo.35.tags: lunch time, peek, white face
+photo.36: cwdc://YzFTs8lADQA.jpg
 photo.36.author: rossifari
 photo.36.commitdate: 2025/8/16
-photo.36.link: ig://CzT81MdRJ3B
+photo.36.link: ig://C1j2F8CgDfa
 photo.36.tags: baby, bamboo, bite, laying down, paws, sample, white face
-photo.37: cwdc://YulhLdaADQn.jpg
+photo.37: cwdc://YzFTs8lADQB.jpg
 photo.37.author: rossifari
 photo.37.commitdate: 2025/8/16
-photo.37.link: ig://CzT81MdRJ3C
+photo.37.link: ig://C1j2F8CgDfb
 photo.37.tags: baby, keeper, paws, sample, white face
-photo.38: cwdc://YulhLdaADQo.jpg
+photo.38: cwdc://YzFTs8lADQC.jpg
 photo.38.author: rossifari
 photo.38.commitdate: 2025/8/16
-photo.38.link: ig://CzT81MdRJ3D
-photo.38.tags: baby, dish, home, paws, sample, tail, white face
-photo.39: cwdc://YulhLdaADQp.jpg
+photo.38.link: ig://C1j2F8CgDfc
+photo.38.tags: baby, bamboo, sample, whiskers, white face
+photo.39: cwdc://YzFTs8lADQD.jpg
 photo.39.author: rossifari
 photo.39.commitdate: 2025/8/16
-photo.39.link: ig://CzT81MdRJ27
-photo.39.tags: baby, keeper, paws, sample, whiskers, white face
-photo.40: cwdc://YulhLdaADQq.jpg
+photo.39.link: ig://C1j2F8CgDfd
+photo.39.tags: baby, bamboo, baws, sample, white face
+photo.40: cwdc://YzFTs8lADQE.jpg
 photo.40.author: rossifari
 photo.40.commitdate: 2025/8/16
-photo.40.link: ig://CzT81MdRJ28
-photo.40.tags: baby, bite, keeper, paws, sample, whiskers, white face
-photo.41: cwdc://YulhLdaADQr.jpg
+photo.40.link: ig://C1j2F8CgDfe
+photo.40.tags: baby, bamboo, sample, whiskers, white face
+photo.41: cwdc://YzFTs8lADQF.jpg
 photo.41.author: rossifari
 photo.41.commitdate: 2025/8/16
-photo.41.link: ig://CzT81MdRJ29
-photo.41.tags: baby, bamboo, paws, sample, whiskers, white face
-photo.42: cwdc://Yv8wMtLADQM.jpg
-photo.42.author: greensborosciencecenter
+photo.41.link: ig://C1j2F8CgDff
+photo.41.tags: baby, close-up, paws, sample, whiskers, white face
+photo.42: cwdc://YzFTs8lADQG.jpg
+photo.42.author: rossifari
 photo.42.commitdate: 2025/8/16
-photo.42.link: ig://Cz_kV0VuCSb
-photo.42.tags: lunch time, peek, white face
-photo.43: cwdc://YvOIm6cADQN.jpg
-photo.43.author: greensborosciencecenter
+photo.42.link: ig://C1j2F8CgDfg
+photo.42.tags: baby, keeper, paws, sample, white face
+photo.43: cwdc://YzFTs8lADQH.jpg
+photo.43.author: rossifari
 photo.43.commitdate: 2025/8/16
-photo.43.link: ig://CzoQi6-NLRC
-photo.43.tags: bamboo, home, paws, white face
-photo.44: cwdc://YvOIm6cADQO.jpg
-photo.44.author: greensborosciencecenter
+photo.43.link: ig://C1j2F8CgDfh
+photo.43.tags: baby, keeper, paws, sample, tongue, white face
+photo.44: cwdc://YzFTs8lADQI.jpg
+photo.44.author: rossifari
 photo.44.commitdate: 2025/8/16
-photo.44.link: ig://CzoQi6-NLRD
-photo.44.tags: bamboo, paws, sample, whiskers, white face
-photo.45: cwdc://YvOIm6cADQP.jpg
-photo.45.author: greensborosciencecenter
+photo.44.link: ig://C1j2F8CgDfi
+photo.44.tags: mofumofu, sample, whiskers, white face
+photo.45: cwdc://YzFTs8lADQJ.jpg
+photo.45.author: rossifari
 photo.45.commitdate: 2025/8/16
-photo.45.link: ig://CzoQi6-NLRE
-photo.45.tags: close-up, paws, whiskers, white face
-photo.46: cwdc://YvtLr6KADQi.jpg
+photo.45.link: ig://C1j2F8CgDfj
+photo.45.tags: baby, door, keeper, mofumofu, sample, tail
+photo.46: cwdc://Y0xyWN1ADQK.jpg
 photo.46.author: rossifari
 photo.46.commitdate: 2025/8/16
-photo.46.link: ig://Cz3yFa1AR24
-photo.46.tags: nose, paws
-photo.47: cwdc://YzFTs8lADQA.jpg
+photo.46.link: ig://C2aFakqgBC-
+photo.46.tags: baby, laying down, mofumofu, sample, tail
+photo.47: cwdc://Y0xyWN1ADQL.jpg
 photo.47.author: rossifari
 photo.47.commitdate: 2025/8/16
-photo.47.link: ig://C1j2F8CgDfa
-photo.47.tags: baby, bamboo, bite, laying down, paws, sample, white face
-photo.48: cwdc://YzFTs8lADQB.jpg
+photo.47.link: ig://C2aFakqgBC_
+photo.47.tags: laying down, mofumofu, tongue, white face
+photo.48: cwdc://Y3B0w5iADQM.jpg
 photo.48.author: rossifari
 photo.48.commitdate: 2025/8/16
-photo.48.link: ig://C1j2F8CgDfb
-photo.48.tags: baby, keeper, paws, sample, white face
-photo.49: cwdc://YzFTs8lADQC.jpg
+photo.48.link: ig://C3iGn6hAdYg
+photo.48.tags: mofumofu, sample, whiskers, white face
+photo.49: cwdc://Y3B0w5iADQN.jpg
 photo.49.author: rossifari
 photo.49.commitdate: 2025/8/16
-photo.49.link: ig://C1j2F8CgDfc
-photo.49.tags: baby, bamboo, sample, whiskers, white face
-photo.50: cwdc://YzFTs8lADQD.jpg
+photo.49.link: ig://C3iGn6hAdYh
+photo.49.tags: paws, peek, sample, whiskers, white face
+photo.50: cwdc://Y3B0w5iADQO.jpg
 photo.50.author: rossifari
 photo.50.commitdate: 2025/8/16
-photo.50.link: ig://C1j2F8CgDfd
-photo.50.tags: baby, bamboo, baws, sample, white face
-photo.51: cwdc://YzFTs8lADQE.jpg
+photo.50.link: ig://C3iGn6hAdYi
+photo.50.tags: paws, peek, tail
+photo.51: cwdc://Y8Fns0LADQP.jpg
 photo.51.author: rossifari
 photo.51.commitdate: 2025/8/16
-photo.51.link: ig://C1j2F8CgDfe
-photo.51.tags: baby, bamboo, sample, whiskers, white face
-photo.52: cwdc://YzFTs8lADQF.jpg
+photo.51.link: ig://C6EAF31gvw0
+photo.51.tags: baby, keeper, paws, sample, white face
+photo.52: cwdc://Y8Fns0LADQQ.jpg
 photo.52.author: rossifari
 photo.52.commitdate: 2025/8/16
-photo.52.link: ig://C1j2F8CgDff
-photo.52.tags: baby, close-up, paws, sample, whiskers, white face
-photo.53: cwdc://YzFTs8lADQG.jpg
+photo.52.link: ig://C6EAF31gvw1
+photo.52.tags: baby, keeper, paws, sample, white face
+photo.53: cwdc://Y8Fns0LADQR.jpg
 photo.53.author: rossifari
 photo.53.commitdate: 2025/8/16
-photo.53.link: ig://C1j2F8CgDfg
-photo.53.tags: baby, keeper, paws, sample, white face
-photo.54: cwdc://YzFTs8lADQH.jpg
+photo.53.link: ig://C6EAF31gvw2
+photo.53.tags: baby, bamboo, sample, white face
+photo.54: cwdc://Y8Fns0LADQS.jpg
 photo.54.author: rossifari
 photo.54.commitdate: 2025/8/16
-photo.54.link: ig://C1j2F8CgDfh
-photo.54.tags: baby, keeper, paws, sample, tongue, white face
-photo.55: cwdc://YzFTs8lADQI.jpg
+photo.54.link: ig://C6EAF31gvw3
+photo.54.tags: baby, bottle, keeper, sample
+photo.55: cwdc://Y8Fns0LADQT.jpg
 photo.55.author: rossifari
 photo.55.commitdate: 2025/8/16
-photo.55.link: ig://C1j2F8CgDfi
-photo.55.tags: mofumofu, sample, whiskers, white face
-photo.56: cwdc://YzFTs8lADQJ.jpg
-photo.56.author: rossifari
+photo.55.link: ig://C6EAF31gvw4
+photo.55.tags: baby, bamboo, keeper, sample, tail
+photo.56: cwdc://Y9OpsYcADQA.jpg
+photo.56.author: greensborosciencecenter
 photo.56.commitdate: 2025/8/16
-photo.56.link: ig://C1j2F8CgDfj
-photo.56.tags: baby, door, keeper, mofumofu, sample, tail
+photo.56.link: ig://C6ohFp-Oj-3
+photo.56.tags: peek, pumpkin, white face
 photo.57: cwdc://ZB4ruP2ADQB.jpg
 photo.57.author: greensborosciencecenter
 photo.57.commitdate: 2025/8/16
@@ -318,3 +315,6 @@ photo.60.author: greensborosciencecenter
 photo.60.commitdate: 2025/8/16
 photo.60.link: ig://C_YdM5WttlT
 photo.60.tags: mofumofu, paws, sample, whiskers, white face
+species: 1
+studbook.id: unknown
+zoo: 99
