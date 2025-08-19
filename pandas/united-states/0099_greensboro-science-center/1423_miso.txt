@@ -226,41 +226,36 @@ photo.42.author: rossifari
 photo.42.commitdate: 2025/8/16
 photo.42.link: ig://C3iGn6hAdYg?img_index=3
 photo.42.tags: paws, peek, tail
-photo.43: cwdc://Y8Fns0LADQR.jpg
+photo.43: cwdc://Y8Fns0LADQT.jpg
 photo.43.author: rossifari
 photo.43.commitdate: 2025/8/16
-photo.43.link: ig://C6EAF31gvw0?img_index=3
-photo.43.tags: baby, bamboo, sample, white face
-photo.44: cwdc://Y8Fns0LADQT.jpg
-photo.44.author: rossifari
+photo.43.link: ig://C6EAF31gvw0?img_index=5
+photo.43.tags: baby, bamboo, keeper, sample, tail
+photo.44: cwdc://Y9OpsYcADQA.jpg
+photo.44.author: greensborosciencecenter
 photo.44.commitdate: 2025/8/16
-photo.44.link: ig://C6EAF31gvw0?img_index=5
-photo.44.tags: baby, bamboo, keeper, sample, tail
-photo.45: cwdc://Y9OpsYcADQA.jpg
+photo.44.link: ig://C6ohFp-Oj-3
+photo.44.tags: peek, pumpkin, white face
+photo.45: cwdc://ZB4ruP2ADQB.jpg
 photo.45.author: greensborosciencecenter
 photo.45.commitdate: 2025/8/16
-photo.45.link: ig://C6ohFp-Oj-3
-photo.45.tags: peek, pumpkin, white face
-photo.46: cwdc://ZB4ruP2ADQB.jpg
+photo.45.link: ig://C89iGlrMIJs
+photo.45.tags: bamboo, bite, home, paws, standing
+photo.46: cwdc://ZB4ruP2ADQC.jpg
 photo.46.author: greensborosciencecenter
 photo.46.commitdate: 2025/8/16
-photo.46.link: ig://C89iGlrMIJs
-photo.46.tags: bamboo, bite, home, paws, standing
-photo.47: cwdc://ZB4ruP2ADQC.jpg
+photo.46.link: ig://C89iGlrMIJs?img_index=2
+photo.46.tags: bamboo, home, paws, standing
+photo.47: cwdc://ZB4ruP2ADQD.jpg
 photo.47.author: greensborosciencecenter
 photo.47.commitdate: 2025/8/16
-photo.47.link: ig://C89iGlrMIJs?img_index=2
-photo.47.tags: bamboo, home, paws, standing
-photo.48: cwdc://ZB4ruP2ADQD.jpg
+photo.47.link: ig://C89iGlrMIJs?img_index=3
+photo.47.tags: white face
+photo.48: cwdc://ZGuh63NADQL.jpg
 photo.48.author: greensborosciencecenter
 photo.48.commitdate: 2025/8/16
-photo.48.link: ig://C89iGlrMIJs?img_index=3
-photo.48.tags: white face
-photo.49: cwdc://ZGuh63NADQL.jpg
-photo.49.author: greensborosciencecenter
-photo.49.commitdate: 2025/8/16
-photo.49.link: ig://C_YdM5WttlT
-photo.49.tags: mofumofu, paws, sample, whiskers, white face
+photo.48.link: ig://C_YdM5WttlT
+photo.48.tags: mofumofu, paws, sample, whiskers, white face
 species: 1
 studbook.id: unknown
 uncertainty: death exact date of week
