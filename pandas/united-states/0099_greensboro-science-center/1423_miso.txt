@@ -100,7 +100,7 @@ photo.17: cwdc://YqoYN-QADQK.jpg
 photo.17.author: greensborosciencecenter
 photo.17.commitdate: 2025/8/16
 photo.17.link: ig://CxVYWc4Oe-r?img_index=2
-photo.17.tags: close-up, sample, whiskers, white face
+photo.17.tags: close-up, portrait, sample, whiskers, white face
 photo.18: cwdc://Ys9q4LUADQe.jpg
 photo.18.author: rossifari
 photo.18.commitdate: 2025/8/16
@@ -125,7 +125,7 @@ photo.22: cwdc://YulhLdaADQm.jpg
 photo.22.author: rossifari
 photo.22.commitdate: 2025/8/16
 photo.22.link: ig://CzT81MdRJ27?img_index=7
-photo.22.tags: baby, bamboo, bite, laying down, paws, sample, white face
+photo.22.tags: baby, bamboo, bite, laying down, paws, portrait, sample, white face
 photo.23: cwdc://YulhLdaADQo.jpg
 photo.23.author: rossifari
 photo.23.commitdate: 2025/8/16
@@ -200,7 +200,7 @@ photo.37: cwdc://Y8Fns0LADQT.jpg
 photo.37.author: rossifari
 photo.37.commitdate: 2025/8/16
 photo.37.link: ig://C6EAF31gvw0?img_index=5
-photo.37.tags: baby, bamboo, keeper, sample, tail
+photo.37.tags: baby, bamboo, keeper, portrait, sample, tail
 photo.38: cwdc://Y9OpsYcADQA.jpg
 photo.38.author: greensborosciencecenter
 photo.38.commitdate: 2025/8/16
@@ -225,7 +225,7 @@ photo.42: cwdc://ZGuh63NADQL.jpg
 photo.42.author: greensborosciencecenter
 photo.42.commitdate: 2025/8/16
 photo.42.link: ig://C_YdM5WttlT
-photo.42.tags: mofumofu, paws, sample, whiskers, white face
+photo.42.tags: mofumofu, paws, portrait, sample, whiskers, white face
 species: 1
 studbook.id: unknown
 uncertainty: death exact date of week
