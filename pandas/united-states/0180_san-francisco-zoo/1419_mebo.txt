@@ -22,19 +22,16 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2024/8/12
 photo.1.link: ig://CxvYtuGuhke
 photo.1.tags: baby
-species: 2
-uncertainty: location.2 exact date
-zoo: 180
-photo.2: cwdc://Zi-8RCyADQB.jpg
+photo.2: cwdc://Zi6Um7lADQA.jpg
 photo.2.author: wumpwoast
 photo.2.commitdate: 2025/8/23
-photo.2.link: ig://DNgqX_JSPnl
-photo.2.tags: bite, paws, sample, tree, whiskers
-photo.3: cwdc://Zi6Um7lADQA.jpg
+photo.2.link: ig://DNeWi7iyune
+photo.2.tags: portrait, sample, whiskers
+photo.3: cwdc://Zi-8RCyADQB.jpg
 photo.3.author: wumpwoast
 photo.3.commitdate: 2025/8/23
-photo.3.link: ig://DNeWi7iyune
-photo.3.tags: portrait, sample, whiskers
+photo.3.link: ig://DNgqX_JSPnl
+photo.3.tags: bite, paws, sample, tree, whiskers
 photo.4: cwdc://ZjEXAykADQC.jpg
 photo.4.author: wumpwoast
 photo.4.commitdate: 2025/8/23
@@ -45,3 +42,6 @@ photo.5.author: wumpwoast
 photo.5.commitdate: 2025/8/23
 photo.5.link: ig://DNqwjFNB_eK
 photo.5.tags: portrait, sample, smile, whiskers
+species: 2
+uncertainty: location.2 exact date
+zoo: 180
