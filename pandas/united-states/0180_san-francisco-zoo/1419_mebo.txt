@@ -45,3 +45,28 @@ photo.5.tags: portrait, sample, smile, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 180
+photo.6: cwdc://ZLK2Q_gARQF.jpg
+photo.6.author: Elyas Cauchy
+photo.6.commitdate: 2025/8/23
+photo.6.link: https://www.instagram.com/Elyas Cauchy
+photo.6.tags: 
+photo.7: cwdc://ZLK2sVgARQE.jpg
+photo.7.author: Elyas Cauchy
+photo.7.commitdate: 2025/8/23
+photo.7.link: https://www.instagram.com/Elyas Cauchy
+photo.7.tags: 
+photo.8: cwdc://ZLK3EQwARQA.jpg
+photo.8.author: Elyas Cauchy
+photo.8.commitdate: 2025/8/23
+photo.8.link: https://www.instagram.com/Elyas Cauchy
+photo.8.tags: 
+photo.9: cwdc://ZLK3L1IARQD.jpg
+photo.9.author: Elyas Cauchy
+photo.9.commitdate: 2025/8/23
+photo.9.link: https://www.instagram.com/Elyas Cauchy
+photo.9.tags: 
+photo.10: cwdc://ZLK3sygARQC.jpg
+photo.10.author: Elyas Cauchy
+photo.10.commitdate: 2025/8/23
+photo.10.link: https://www.instagram.com/Elyas Cauchy
+photo.10.tags: 
