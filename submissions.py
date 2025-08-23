@@ -27,6 +27,7 @@ from datetime import datetime
 import git
 import json
 import os
+import shlex
 import subprocess
 import sys
 
@@ -189,11 +190,12 @@ def copy_across_configs(in_data, in_section, in_key, out_data, out_section, out_
 def copy_images_to_image_server(results):
     """Use scp to put photo files on an image server"""
     photo_paths = flatten_comprehension([p["photos"] for p in results])
+    quoted_paths = [shlex.quote(p) for p in photo_paths]
     server = config.get("submissions", "image_hosting_server")
     destination_folder = config.get("submissions", "image_hosting_server_folder")
     user = config.get("submissions", "image_hosting_user")
-    scp_command = 'scp {photo_paths} {user}@{server}:{destination_folder}'.format(
-        photo_paths=" ".join(photo_paths),
+    scp_command = 'scp {quoted_paths} {user}@{server}:{destination_folder}'.format(
+        quoted_paths=" ".join(quoted_paths),
         user=user,
         server=server,
         destination_folder=destination_folder
