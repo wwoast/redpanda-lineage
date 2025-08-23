@@ -218,10 +218,6 @@ photo.40.author: rossifari
 photo.40.commitdate: 2025/7/12
 photo.40.link: ig://C5yQOtdAAKW?img_index=4
 photo.40.tags: paws, portrait, sample, tail, whiskers
-species: 1
-studbook.id: 1309
-uncertainty: death exact date (w/in one week)
-zoo: 180
 photo.41: cwdc://ZLKFStwARQC.jpg
 photo.41.author: Elyas Cauchy
 photo.41.commitdate: 2025/8/23
@@ -242,3 +238,7 @@ photo.44.author: Elyas Cauchy
 photo.44.commitdate: 2025/8/23
 photo.44.link: https://www.instagram.com/Elyas Cauchy
 photo.44.tags: 
+species: 1
+studbook.id: 1309
+uncertainty: death exact date (w/in one week)
+zoo: 180
