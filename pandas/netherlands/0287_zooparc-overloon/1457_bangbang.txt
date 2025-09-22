@@ -1,0 +1,13 @@
+[panda]
+_id: 1457
+birthday: 2018/06/17
+birthplace: 227
+children: 1461, 1462
+commitdate: 2025/09/18
+en.name: Bangbang
+gender: m
+language.order: en
+location.1: 227, 2018/06/17
+location.2: 287, 2019/07/01
+species: 1
+zoo: 287

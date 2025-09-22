@@ -1,0 +1,12 @@
+[panda]
+_id: 1461
+birthday: 2021/06/01
+birthplace: 287
+commitdate: 2025/09/18
+litter: 1462
+en.name: Billy
+gender: m
+language.order: en
+location.1: 287, 2021/06/01
+species: 1
+zoo: 287

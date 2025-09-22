@@ -1,0 +1,10 @@
+[panda]
+_id: 1460
+commitdate: 2025/09/18
+children: 1461, 1462
+en.name: Bahini
+gender: f
+language.order: en
+location.1: 287, 2018/04/01
+species: 1
+zoo: 287

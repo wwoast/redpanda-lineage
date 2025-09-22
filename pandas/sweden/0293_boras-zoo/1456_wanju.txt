@@ -1,0 +1,13 @@
+[panda]
+_id: 1456
+birthday: 2015/06/04
+birthplace: 227
+commitdate: 2025/09/18
+en.name: Wánjù
+en.othernames: Wanju
+gender: f
+language.order: en
+location.1: 227, 2015/06/04
+location.2: 293, 2016/06/10
+species: 1
+zoo: 293

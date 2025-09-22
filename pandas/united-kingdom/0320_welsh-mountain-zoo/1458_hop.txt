@@ -1,0 +1,12 @@
+[panda]
+_id: 1458
+birthday: 2020/08/01
+birthplace: 227
+commitdate: 2025/09/17
+en.name: Hop
+gender: m
+language.order: en
+location.1: 227, 2020/08/01
+location.2: 320, 2022/03/01
+species: 1
+zoo: 320
