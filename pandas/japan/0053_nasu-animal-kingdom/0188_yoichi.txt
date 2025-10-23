@@ -166,11 +166,11 @@ photo.31.author: hamiiiii831_
 photo.31.commitdate: 2020/1/28
 photo.31.link: ig://B70UG77BKVo
 photo.31.tags: dish, paws, portrait, sample, whiskers
-photo.32: ig://B8rwHmKB3nV/m
+photo.32: cwdc://XBVHwQ0ADQF.jpg
 photo.32.author: sasapan34
 photo.32.commitdate: 2020/2/28
-photo.32.link: https://www.instagram.com/sasapan34/
-photo.32.tags: whiskers
+photo.32.link: ig://B8rwHmKB3nV
+photo.32.tags: sample, whiskers
 photo.33: cwdc://XDyFRoqADQU.jpg
 photo.33.author: hamiiiii831_
 photo.33.commitdate: 2020/3/20
@@ -346,12 +346,6 @@ photo.67.author: hamiiiii831_
 photo.67.commitdate: 2024/10/6
 photo.67.link: ig://C70SPRIyCgR
 photo.67.tags: laying down, paws, sample, techitechi
-species: 2
-studbook.id: 13141
-video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
-video.1.author: 963293 ride
-video.1.link: https://www.youtube.com/channel/UCZL5yR-wkotXFOlM-jS-Zwg
-zoo: 53
 photo.68: cwdc://Vd2Sf6PADQA.jpg
 photo.68.author: rnrirhrh
 photo.68.commitdate: 2025/10/22
@@ -790,3 +784,54 @@ photo.154.author: hamiiiii831_
 photo.154.commitdate: 2025/10/22
 photo.154.link: ig://DEeto5vSJR7
 photo.154.tags: sample, snow
+species: 2
+studbook.id: 13141
+video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
+video.1.author: 963293 ride
+video.1.link: https://www.youtube.com/channel/UCZL5yR-wkotXFOlM-jS-Zwg
+zoo: 53
+photo.155: cwdc://XBVHwQ0ADQA.jpg
+photo.155.author: sasapan34
+photo.155.commitdate: 2025/10/22
+photo.155.link: ig://B8rwHmKB3na
+photo.155.tags: paws, sample, tail
+photo.156: cwdc://XBVHwQ0ADQB.jpg
+photo.156.author: sasapan34
+photo.156.commitdate: 2025/10/22
+photo.156.link: ig://B8rwHmKB3nb
+photo.156.tags: laying down, mofumofu, sample, tail
+photo.157: cwdc://XBVHwQ0ADQC.jpg
+photo.157.author: sasapan34
+photo.157.commitdate: 2025/10/22
+photo.157.link: ig://B8rwHmKB3nc
+photo.157.tags: laying down, mofumofu, sample, tail
+photo.158: cwdc://XBVHwQ0ADQD.jpg
+photo.158.author: sasapan34
+photo.158.commitdate: 2025/10/22
+photo.158.link: ig://B8rwHmKB3nd
+photo.158.tags: door, sample, tail
+photo.159: cwdc://XBVHwQ0ADQE.jpg
+photo.159.author: sasapan34
+photo.159.commitdate: 2025/10/22
+photo.159.link: ig://B8rwHmKB3ne
+photo.159.tags: door, sample, tail
+photo.160: cwdc://XBVHwQ0ADQG.jpg
+photo.160.author: sasapan34
+photo.160.commitdate: 2025/10/22
+photo.160.link: ig://B8rwHmKB3nW
+photo.160.tags: mofumofu, sample, whiskers
+photo.161: cwdc://XBVHwQ0ADQH.jpg
+photo.161.author: sasapan34
+photo.161.commitdate: 2025/10/22
+photo.161.link: ig://B8rwHmKB3nX
+photo.161.tags: peek, tongue
+photo.162: cwdc://XBVHwQ0ADQI.jpg
+photo.162.author: sasapan34
+photo.162.commitdate: 2025/10/22
+photo.162.link: ig://B8rwHmKB3nY
+photo.162.tags: dish, paws, sample
+photo.163: cwdc://XBVHwQ0ADQJ.jpg
+photo.163.author: sasapan34
+photo.163.commitdate: 2025/10/22
+photo.163.link: ig://B8rwHmKB3nZ
+photo.163.tags: snow
