@@ -148,26 +148,21 @@ photo.27.author: mini_cochi
 photo.27.commitdate: 2025/7/17
 photo.27.link: ig://DDmXB7dS3jN
 photo.27.tags: paws, portrait, sample
-photo.28: cwdc://ZQPqIRkADQC.jpg
-photo.28.author: mini_cochi
-photo.28.commitdate: 2025/7/17
-photo.28.link: ig://DEJBTmiB6Z0
-photo.28.tags: portrait, sample, whiskers
-photo.29: cwdc://ZRUQgb8ADQA.webp
+photo.28: cwdc://ZRUQgb8ADQA.webp
+photo.28.author: fetorus_mami
+photo.28.commitdate: 2025/3/14
+photo.28.link: ig://DErUfruSGdD
+photo.28.tags: bamboo, paws, window
+photo.29: cwdc://ZRUQgb8ADQB.webp
 photo.29.author: fetorus_mami
 photo.29.commitdate: 2025/3/14
-photo.29.link: ig://DErUfruSGdD
-photo.29.tags: bamboo, paws, window
-photo.30: cwdc://ZRUQgb8ADQB.webp
+photo.29.link: ig://DErUfruSGdE
+photo.29.tags: close-up, paws, sample
+photo.30: cwdc://ZRUQgb8ADQC.webp
 photo.30.author: fetorus_mami
 photo.30.commitdate: 2025/3/14
-photo.30.link: ig://DErUfruSGdE
+photo.30.link: ig://DErUfruSGdF
 photo.30.tags: close-up, paws, sample
-photo.31: cwdc://ZRUQgb8ADQC.webp
-photo.31.author: fetorus_mami
-photo.31.commitdate: 2025/3/14
-photo.31.link: ig://DErUfruSGdF
-photo.31.tags: close-up, paws, sample
 species: 2
 studbook.id: unknown
 zoo: 69
