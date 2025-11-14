@@ -1,0 +1,17 @@
+[panda]
+_id: 1463
+birthday: 2024/6/13
+birthplace: 166
+children: none
+commitdate: 2025/11/14
+en.name: Jupiter
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: 木星
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1464
+species: 1
+zoo: 166

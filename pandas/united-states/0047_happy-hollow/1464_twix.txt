@@ -1,0 +1,19 @@
+[panda]
+_id: 1464
+birthday: 2024/6/13
+birthplace: 166
+children: none
+commitdate: 2025/11/14
+en.name: Twix
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: ツイックス
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1463
+location.1: 166, 2024/6/13
+location.2: 47, 2025/11/5
+species: 1
+zoo: 166
