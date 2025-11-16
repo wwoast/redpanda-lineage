@@ -25,7 +25,7 @@ photo.1.tags: bamboo, portrait, sample
 photo.2: cwdc://WfW18koADQC.jpg
 photo.2.author: memphiszoo
 photo.2.commitdate: 2025/11/16
-photo.2.link: ig://BrsnNwEB4AI
+photo.2.link: ig://BrsnNwEB4AH?img_index=2
 photo.2.tags: bamboo, portrait, sample
 photo.3: cwdc://WiBcBxZADQD.jpg
 photo.3.author: memphiszoo
@@ -65,7 +65,7 @@ photo.9.tags: climb, paws, portrait, sample, tree, whiskers
 photo.10: cwdc://XPayg7bADQE.jpg
 photo.10.author: worldthathesees
 photo.10.commitdate: 2025/11/16
-photo.10.link: ig://CDulf7dhBCS
+photo.10.link: ig://CDulf7dhBCR?img_index=2
 photo.10.tags: climb, paws, portrait, sample, tree, whiskers
 species: 1
 studbook.id: 1318
