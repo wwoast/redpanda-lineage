@@ -15,8 +15,6 @@ language.order: en, ja
 litter: 1463
 location.1: 166, 2024/6/13
 location.2: 47, 2025/11/5
-species: 1
-zoo: 47
 photo.1: cwdc://ZqDhuY6ADQA.jpg
 photo.1.author: hhpzoo
 photo.1.commitdate: 2025/11/16
@@ -47,3 +45,5 @@ photo.6.author: hhpzoo
 photo.6.commitdate: 2025/11/16
 photo.6.link: ig://DRC9GqNDWCF
 photo.6.tags: peek, tree
+species: 1
+zoo: 47

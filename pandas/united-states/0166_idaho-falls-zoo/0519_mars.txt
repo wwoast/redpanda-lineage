@@ -22,51 +22,51 @@ photo.1.author: memphiszoo
 photo.1.commitdate: 2019/3/12
 photo.1.link: ig://BrsnNwEB4AH
 photo.1.tags: bamboo, portrait, sample
-photo.2: cwdc://WiBcBxZADQD.jpg
+photo.2: cwdc://WfW18koADQC.jpg
 photo.2.author: memphiszoo
-photo.2.commitdate: 2019/3/12
-photo.2.link: ig://BtB6QWchWKh
-photo.2.tags: paws, portrait, sample, smile, standing
-photo.3: cwdc://WvuKJ4XADQB.jpg
-photo.3.author: worldthathesees
-photo.3.commitdate: 2019/7/14
-photo.3.link: ig://Bz4RUZ7h84l
-photo.3.tags: laying down, sample, smile, tongue, tree, whiskers
-photo.4: cwdc://Wy_c5I7ADQA.jpg
-photo.4.author: memphiszoo
-photo.4.commitdate: 2019/11/29
-photo.4.link: ig://B1g6sCNgAqJ
-photo.4.tags: portrait, sample, whiskers
-photo.5: cwdc://W2r12rVADQA.jpg
-photo.5.author: worldthathesees
-photo.5.commitdate: 2019/10/16
-photo.5.link: ig://B3XHKzahn5F
-photo.5.tags: laying down, portrait, profile, sleeping, tree
-photo.6: cwdc://XEsbgwJADQE.jpg
-photo.6.author: memphiszoo
-photo.6.commitdate: 2021/6/14
-photo.6.link: ig://B-XZ_10gg3y
-photo.6.tags: bamboo, peek, portrait, sample, whiskers
-photo.7: cwdc://XNezFZuADQC.jpg
-photo.7.author: worldthathesees
-photo.7.commitdate: 2020/9/12
-photo.7.link: ig://CCwlyKnBqap
-photo.7.tags: paws, portrait, sample, smile, tongue, tree
-photo.8: cwdc://XPayg7bADQD.jpg
+photo.2.commitdate: 2025/11/16
+photo.2.link: ig://BrsnNwEB4AI
+photo.2.tags: bamboo, portrait, sample
+photo.3: cwdc://WiBcBxZADQD.jpg
+photo.3.author: memphiszoo
+photo.3.commitdate: 2019/3/12
+photo.3.link: ig://BtB6QWchWKh
+photo.3.tags: paws, portrait, sample, smile, standing
+photo.4: cwdc://WvuKJ4XADQB.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/7/14
+photo.4.link: ig://Bz4RUZ7h84l
+photo.4.tags: laying down, sample, smile, tongue, tree, whiskers
+photo.5: cwdc://Wy_c5I7ADQA.jpg
+photo.5.author: memphiszoo
+photo.5.commitdate: 2019/11/29
+photo.5.link: ig://B1g6sCNgAqJ
+photo.5.tags: portrait, sample, whiskers
+photo.6: cwdc://W2r12rVADQA.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/10/16
+photo.6.link: ig://B3XHKzahn5F
+photo.6.tags: laying down, portrait, profile, sleeping, tree
+photo.7: cwdc://XEsbgwJADQE.jpg
+photo.7.author: memphiszoo
+photo.7.commitdate: 2021/6/14
+photo.7.link: ig://B-XZ_10gg3y
+photo.7.tags: bamboo, peek, portrait, sample, whiskers
+photo.8: cwdc://XNezFZuADQC.jpg
 photo.8.author: worldthathesees
-photo.8.commitdate: 2020/9/7
-photo.8.link: ig://CDulf7dhBCR
-photo.8.tags: climb, paws, portrait, sample, tree, whiskers
-species: 1
-studbook.id: 1318
-zoo: 166
-photo.9: cwdc://WfW18koADQC.jpg
-photo.9.author: memphiszoo
-photo.9.commitdate: 2025/11/16
-photo.9.link: ig://BrsnNwEB4AI
-photo.9.tags: bamboo, portrait, sample
+photo.8.commitdate: 2020/9/12
+photo.8.link: ig://CCwlyKnBqap
+photo.8.tags: paws, portrait, sample, smile, tongue, tree
+photo.9: cwdc://XPayg7bADQD.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2020/9/7
+photo.9.link: ig://CDulf7dhBCR
+photo.9.tags: climb, paws, portrait, sample, tree, whiskers
 photo.10: cwdc://XPayg7bADQE.jpg
 photo.10.author: worldthathesees
 photo.10.commitdate: 2025/11/16
 photo.10.link: ig://CDulf7dhBCS
 photo.10.tags: climb, paws, portrait, sample, tree, whiskers
+species: 1
+studbook.id: 1318
+zoo: 166
