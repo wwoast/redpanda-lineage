@@ -17,3 +17,33 @@ location.1: 166, 2024/6/13
 location.2: 47, 2025/11/5
 species: 1
 zoo: 47
+photo.1: cwdc://ZqDhuY6ADQA.jpg
+photo.1.author: hhpzoo
+photo.1.commitdate: 2025/11/16
+photo.1.link: ig://DRC9GqNDWB_
+photo.1.tags: bamboo, mofumofu, sample
+photo.2: cwdc://ZqDhuY6ADQB.jpg
+photo.2.author: hhpzoo
+photo.2.commitdate: 2025/11/16
+photo.2.link: ig://DRC9GqNDWCA
+photo.2.tags: bamboo, peek
+photo.3: cwdc://ZqDhuY6ADQC.jpg
+photo.3.author: hhpzoo
+photo.3.commitdate: 2025/11/16
+photo.3.link: ig://DRC9GqNDWCB
+photo.3.tags: sample, whiskers
+photo.4: cwdc://ZqDhuY6ADQD.jpg
+photo.4.author: hhpzoo
+photo.4.commitdate: 2025/11/16
+photo.4.link: ig://DRC9GqNDWCC
+photo.4.tags: bamboo, sample, whiskers
+photo.5: cwdc://ZqDhuY6ADQE.jpg
+photo.5.author: hhpzoo
+photo.5.commitdate: 2025/11/16
+photo.5.link: ig://DRC9GqNDWCE
+photo.5.tags: bamboo, paws, peek, sample, whiskers
+photo.6: cwdc://ZqDhuY6ADQF.jpg
+photo.6.author: hhpzoo
+photo.6.commitdate: 2025/11/16
+photo.6.link: ig://DRC9GqNDWCF
+photo.6.tags: peek, tree
