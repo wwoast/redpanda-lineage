@@ -4,6 +4,7 @@ birthday: 2014/7/1
 birthplace: 10
 children: 1016
 commitdate: 2018/6/23
+death: 2025/11/9
 en.name: Jaja
 en.nicknames: none
 en.othernames: Jia-Jia, Ja-Ja, Zsazsa, Zsa-Zsa
@@ -374,71 +375,66 @@ photo.72.author: love__mitarashi
 photo.72.commitdate: 2022/4/5
 photo.72.link: https://www.instagram.com/love__mitarashi/
 photo.72.tags: peek, portrait, sample
-photo.73: ig://CciZG3LvbAE/m
-photo.73.author: _rifa_p
-photo.73.commitdate: 2022/6/6
-photo.73.link: https://www.instagram.com/_rifa_p/
-photo.73.tags: close-up, paws, portrait, sample, whiskers
-photo.74: ig://Cdxqa3WvjjK/m
+photo.73: ig://Cdxqa3WvjjK/m
+photo.73.author: colette.jp
+photo.73.commitdate: 2022/7/3
+photo.73.link: https://www.instagram.com/colette.jp/
+photo.73.tags: paws, portrait, sample, smile, tail
+photo.74: ig://Cg9A9oZhKYb/m
 photo.74.author: colette.jp
-photo.74.commitdate: 2022/7/3
+photo.74.commitdate: 2022/8/11
 photo.74.link: https://www.instagram.com/colette.jp/
-photo.74.tags: paws, portrait, sample, smile, tail
-photo.75: ig://Cg9A9oZhKYb/m
+photo.74.tags: bamboo, home, laying down, mofumofu, portrait, sample
+photo.75: ig://Ch11Ge7BHzX/m
 photo.75.author: colette.jp
-photo.75.commitdate: 2022/8/11
+photo.75.commitdate: 2022/9/7
 photo.75.link: https://www.instagram.com/colette.jp/
-photo.75.tags: bamboo, home, laying down, mofumofu, portrait, sample
-photo.76: ig://Ch11Ge7BHzX/m
+photo.75.tags: paws, portrait, sample, smile
+photo.76: ig://CiHx6MLBa3K/m
 photo.76.author: colette.jp
-photo.76.commitdate: 2022/9/7
+photo.76.commitdate: 2022/9/10
 photo.76.link: https://www.instagram.com/colette.jp/
-photo.76.tags: paws, portrait, sample, smile
-photo.77: ig://CiHx6MLBa3K/m
+photo.76.tags: paws, portrait, sample, smile, whiskers
+photo.77: ig://CicdUlbvCc6/m
 photo.77.author: colette.jp
-photo.77.commitdate: 2022/9/10
+photo.77.commitdate: 2022/10/13
 photo.77.link: https://www.instagram.com/colette.jp/
 photo.77.tags: paws, portrait, sample, smile, whiskers
-photo.78: ig://CicdUlbvCc6/m
+photo.78: ig://CjIZiggvUNe/m
 photo.78.author: colette.jp
 photo.78.commitdate: 2022/10/13
 photo.78.link: https://www.instagram.com/colette.jp/
-photo.78.tags: paws, portrait, sample, smile, whiskers
-photo.79: ig://CjIZiggvUNe/m
+photo.78.tags: paws, peek, portrait, sample, standing, tail
+photo.79: ig://Ck0Tboivkz0/m
 photo.79.author: colette.jp
-photo.79.commitdate: 2022/10/13
+photo.79.commitdate: 2022/12/24
 photo.79.link: https://www.instagram.com/colette.jp/
-photo.79.tags: paws, peek, portrait, sample, standing, tail
-photo.80: ig://Ck0Tboivkz0/m
+photo.79.tags: apple time, laying down, paws, portrait, sample, tongue, whiskers
+photo.80: ig://ClTTVAgLo22/m
 photo.80.author: colette.jp
-photo.80.commitdate: 2022/12/24
+photo.80.commitdate: 2023/2/4
 photo.80.link: https://www.instagram.com/colette.jp/
-photo.80.tags: apple time, laying down, paws, portrait, sample, tongue, whiskers
-photo.81: ig://ClTTVAgLo22/m
+photo.80.tags: paws, portrait, sample, tongue, whiskers
+photo.81: ig://ClvjL_5PMzL/m
 photo.81.author: colette.jp
 photo.81.commitdate: 2023/2/4
 photo.81.link: https://www.instagram.com/colette.jp/
-photo.81.tags: paws, portrait, sample, tongue, whiskers
-photo.82: ig://ClvjL_5PMzL/m
+photo.81.tags: paws, portrait, sample, standing
+photo.82: ig://CneZ-nWPB_Y/m
 photo.82.author: colette.jp
-photo.82.commitdate: 2023/2/4
+photo.82.commitdate: 2023/3/9
 photo.82.link: https://www.instagram.com/colette.jp/
-photo.82.tags: paws, portrait, sample, standing
-photo.83: ig://CneZ-nWPB_Y/m
+photo.82.tags: peek, portrait, sample, whiskers
+photo.83: ig://CnrEodsPBVV/m
 photo.83.author: colette.jp
 photo.83.commitdate: 2023/3/9
 photo.83.link: https://www.instagram.com/colette.jp/
-photo.83.tags: peek, portrait, sample, whiskers
-photo.84: ig://CnrEodsPBVV/m
+photo.83.tags: climb, flowers, portrait, standing, tail
+photo.84: ig://CuCHB4XPX8C/m
 photo.84.author: colette.jp
-photo.84.commitdate: 2023/3/9
+photo.84.commitdate: 2023/8/11
 photo.84.link: https://www.instagram.com/colette.jp/
-photo.84.tags: climb, flowers, portrait, standing, tail
-photo.85: ig://CuCHB4XPX8C/m
-photo.85.author: colette.jp
-photo.85.commitdate: 2023/8/11
-photo.85.link: https://www.instagram.com/colette.jp/
-photo.85.tags: paws, portrait, sample, tongue, whiskers
+photo.84.tags: paws, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 14151
 zoo: 14
