@@ -345,10 +345,10 @@ photo.66.author: gloryeui
 photo.66.commitdate: 2022/1/14
 photo.66.link: ig://CYRM2uYr4di
 photo.66.tags: home, laying down, portrait, sample
-photo.67: ig://CYTQKZfv6rj/m
+photo.67: cwdc://X4kH13fADQA.jpg
 photo.67.author: grskus_tk
 photo.67.commitdate: 2022/1/14
-photo.67.link: https://www.instagram.com/grskus_tk/
+photo.67.link: ig://CYTQKZfv6rj
 photo.67.tags: nose
 photo.68: cwdc://X4k82jSADQK.jpg
 photo.68.author: gloryeui
@@ -2439,3 +2439,8 @@ photo.484.author: colette.jp
 photo.484.commitdate: 2025/11/23
 photo.484.link: ig://DEpJOOqSL4o
 photo.484.tags: mofumofu, paws, portrait, sample, window
+photo.485: cwdc://X4kH13fADQB.jpg
+photo.485.author: grskus_tk
+photo.485.commitdate: 2025/11/23
+photo.485.link: ig://CYTQKZfv6rk
+photo.485.tags: bridge, paws, sample
