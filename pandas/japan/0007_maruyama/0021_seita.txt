@@ -1946,74 +1946,71 @@ photo.386.author: leonard_redmof
 photo.386.commitdate: 2025/1/6
 photo.386.link: ig://C3crkDRP_1-
 photo.386.tags: paws, portrait, sample, snow
-photo.387: cwdc://ZCIBWhXADQA.jpg
-photo.387.author: leonard_redmof
-photo.387.commitdate: 2024/12/4
-photo.387.link: ig://C9FM6uby_71
-photo.387.tags: mofumofu, portrait, sample, smile, whiskers
-photo.388: cwdc://ZCIBWhXADQB.jpg
+photo.387: cwdc://ZBJycgXADQE.jpg
+photo.387.author: minatomirai215
+photo.387.commitdate: 2025/11/25
+photo.387.link: ig://C8mFdt7yiDn
+photo.387.tags: paws, portrait, sample, snow, whiskers
+photo.388: cwdc://ZCIBWhXADQA.jpg
 photo.388.author: leonard_redmof
 photo.388.commitdate: 2024/12/4
-photo.388.link: ig://C9FM6uby_72
-photo.388.tags: flowers, mofumofu, portrait, sample
-photo.389: cwdc://ZCIBWhXADQC.jpg
+photo.388.link: ig://C9FM6uby_71
+photo.388.tags: mofumofu, portrait, sample, smile, whiskers
+photo.389: cwdc://ZCIBWhXADQB.jpg
 photo.389.author: leonard_redmof
 photo.389.commitdate: 2024/12/4
-photo.389.link: ig://C9FM6uby_73
-photo.389.tags: bite, flowers, sample, tongue
-photo.390: cwdc://ZCrhp4cADQO.jpg
+photo.389.link: ig://C9FM6uby_72
+photo.389.tags: flowers, mofumofu, portrait, sample
+photo.390: cwdc://ZCIBWhXADQC.jpg
 photo.390.author: leonard_redmof
 photo.390.commitdate: 2024/12/4
-photo.390.link: ig://C9W9EZ-Sj2W
-photo.390.tags: blink, dig, mofumofu, paws, portrait, whiskers
-photo.391: cwdc://ZCrhp4cADQP.jpg
+photo.390.link: ig://C9FM6uby_73
+photo.390.tags: bite, flowers, sample, tongue
+photo.391: cwdc://ZCrhp4cADQO.jpg
 photo.391.author: leonard_redmof
 photo.391.commitdate: 2024/12/4
-photo.391.link: ig://C9W9EZ-Sj2X
-photo.391.tags: bite, flowers, mofumofu, portrait, sample
-photo.392: cwdc://ZCrhp4cADQQ.jpg
+photo.391.link: ig://C9W9EZ-Sj2W
+photo.391.tags: blink, dig, mofumofu, paws, portrait, whiskers
+photo.392: cwdc://ZCrhp4cADQP.jpg
 photo.392.author: leonard_redmof
 photo.392.commitdate: 2024/12/4
-photo.392.link: ig://C9W9EZ-Sj2Y
-photo.392.tags: bite, mofumofu, portrait, sample, whiskers
-photo.393: cwdc://ZOC9xH2ADQA.jpg
-photo.393.author: yuredpanda
-photo.393.commitdate: 2025/7/17
-photo.393.link: ig://DDCrIBrSXjo
-photo.393.tags: laying down, portrait, sample, whiskers
-photo.394: cwdc://ZOG7CiYADQB.jpg
-photo.394.author: yuredpanda
-photo.394.commitdate: 2025/7/17
-photo.394.link: ig://DDEpwu8S7w5
-photo.394.tags: peek, tail
-species: 2
-studbook.id: 0554
-zoo: 7
-photo.395: cwdc://ZBJycgXADQE.jpg
-photo.395.author: minatomirai215
+photo.392.link: ig://C9W9EZ-Sj2X
+photo.392.tags: bite, flowers, mofumofu, portrait, sample
+photo.393: cwdc://ZCrhp4cADQQ.jpg
+photo.393.author: leonard_redmof
+photo.393.commitdate: 2024/12/4
+photo.393.link: ig://C9W9EZ-Sj2Y
+photo.393.tags: bite, mofumofu, portrait, sample, whiskers
+photo.394: cwdc://ZMHEo8sADQA.jpg
+photo.394.author: miis_98
+photo.394.commitdate: 2025/11/25
+photo.394.link: ig://DCEuj8GSZ2I
+photo.394.tags: bite, mofumofu, portrait, sample
+photo.395: cwdc://ZMHEo8sADQB.jpg
+photo.395.author: miis_98
 photo.395.commitdate: 2025/11/25
-photo.395.link: ig://C8mFdt7yiDn
-photo.395.tags: paws, portrait, sample, snow, whiskers
-photo.396: cwdc://ZMHEo8sADQA.jpg
+photo.395.link: ig://DCEuj8GSZ2H
+photo.395.tags: autumn, mofumofu, paws, portrait, sample, tail
+photo.396: cwdc://ZMHEo8sADQC.jpg
 photo.396.author: miis_98
 photo.396.commitdate: 2025/11/25
-photo.396.link: ig://DCEuj8GSZ2I
-photo.396.tags: bite, mofumofu, portrait, sample
-photo.397: cwdc://ZMHEo8sADQB.jpg
-photo.397.author: miis_98
+photo.396.link: ig://DCEuj8GSZ2G
+photo.396.tags: mofumofu, paws, portrait, sample
+photo.397: cwdc://ZOCam5KADQE.jpg
+photo.397.author: cattail.sapporo
 photo.397.commitdate: 2025/11/25
-photo.397.link: ig://DCEuj8GSZ2H
-photo.397.tags: autumn, mofumofu, paws, portrait, sample, tail
-photo.398: cwdc://ZMHEo8sADQC.jpg
-photo.398.author: miis_98
-photo.398.commitdate: 2025/11/25
-photo.398.link: ig://DCEuj8GSZ2G
-photo.398.tags: mofumofu, paws, portrait, sample
-photo.399: cwdc://ZOCam5KADQE.jpg
-photo.399.author: cattail.sapporo
-photo.399.commitdate: 2025/11/25
-photo.399.link: ig://DDCZi6VPckO
-photo.399.tags: sample, tail
+photo.397.link: ig://DDCZi6VPckO
+photo.397.tags: sample, tail
+photo.398: cwdc://ZOC9xH2ADQA.jpg
+photo.398.author: yuredpanda
+photo.398.commitdate: 2025/7/17
+photo.398.link: ig://DDCrIBrSXjo
+photo.398.tags: laying down, portrait, sample, whiskers
+photo.399: cwdc://ZOG7CiYADQB.jpg
+photo.399.author: yuredpanda
+photo.399.commitdate: 2025/7/17
+photo.399.link: ig://DDEpwu8S7w5
+photo.399.tags: peek, tail
 photo.400: cwdc://ZOPi7oAADQA.jpg
 photo.400.author: minatomirai215
 photo.400.commitdate: 2025/11/25
@@ -2049,13 +2046,16 @@ photo.406.author: cattail.sapporo
 photo.406.commitdate: 2025/11/25
 photo.406.link: ig://DESPg5-PByO
 photo.406.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.407: cwdc://ZR5a1VKADQC.jpg
+photo.407: cwdc://ZRLLyoWADQF.jpg
 photo.407.author: cattail.sapporo
 photo.407.commitdate: 2025/11/25
-photo.407.link: ig://DE95qIVP52o
-photo.407.tags: apple time, paws, portrait, sample, standing, wave
-photo.408: cwdc://ZRLLyoWADQF.jpg
+photo.407.link: ig://DEmyIx7PgxA
+photo.407.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.408: cwdc://ZR5a1VKADQC.jpg
 photo.408.author: cattail.sapporo
 photo.408.commitdate: 2025/11/25
-photo.408.link: ig://DEmyIx7PgxA
-photo.408.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.408.link: ig://DE95qIVP52o
+photo.408.tags: apple time, paws, portrait, sample, standing, wave
+species: 2
+studbook.id: 0554
+zoo: 7
