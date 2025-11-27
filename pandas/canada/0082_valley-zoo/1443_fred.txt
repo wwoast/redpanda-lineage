@@ -13,8 +13,6 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1444
-species: 2
-zoo: 82
 photo.1: cwdc://Zq4PrZUpwcA.png
 photo.1.author: westcoast_kathy
 photo.1.commitdate: 2025/11/26
@@ -30,3 +28,5 @@ photo.3.author: westcoast_kathy
 photo.3.commitdate: 2025/11/26
 photo.3.link: https://www.instagram.com/westcoast_kathy
 photo.3.tags: peek
+species: 2
+zoo: 82
