@@ -51,10 +51,6 @@ photo.7.author: edmontonvalleyzoo
 photo.7.commitdate: 2021/6/16
 photo.7.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.7.tags: laying down, portrait, whiskers
-species: 2
-studbook.id: 1548
-uncertainty: location.3 exact date
-zoo: 82
 photo.8: cwdc://Zq4as7zpwcA.png
 photo.8.author: gloam_trp
 photo.8.commitdate: 2025/11/26
@@ -70,3 +66,7 @@ photo.10.author: gloam_trp
 photo.10.commitdate: 2025/11/26
 photo.10.link: https://www.instagram.com/gloam_trp
 photo.10.tags: paws, whiskers
+species: 2
+studbook.id: 1548
+uncertainty: location.3 exact date
+zoo: 82

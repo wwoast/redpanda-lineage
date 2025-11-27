@@ -130,8 +130,6 @@ photo.23.author: worldthathesees
 photo.23.commitdate: 2023/5/3
 photo.23.link: https://www.instagram.com/worldthathesees/
 photo.23.tags: portrait, smile, whiskers
-species: 2
-zoo: 82
 photo.24: cwdc://Zq4Wp0cpwcA.png
 photo.24.author: gloam_trp
 photo.24.commitdate: 2025/11/26
@@ -152,3 +150,5 @@ photo.27.author: gloam_trp
 photo.27.commitdate: 2025/11/26
 photo.27.link: https://www.instagram.com/gloam_trp
 photo.27.tags: peek, sample, whiskers
+species: 2
+zoo: 82
