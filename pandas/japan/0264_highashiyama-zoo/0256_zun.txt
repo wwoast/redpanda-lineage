@@ -62,7 +62,7 @@ photo.9.tags: baby, paws, portrait, sample, whiskers
 photo.10: cwdc://WdeAeK5ADQL.jpg
 photo.10.author: ck.chie
 photo.10.commitdate: 2018/11/29
-photo.10.link: https://www.instagram.com/p/BqwMejMlYVU
+photo.10.link: ig://BqwMejMlYVU
 photo.10.tags: baby, hammock, portrait, sample
 photo.11: cwdc://Wdh1lfFADQD.jpg
 photo.11.author: craig_craig_craig
@@ -145,7 +145,7 @@ photo.26.tags: autumn, portrait, sample
 photo.27: cwdc://WiUeRQQADQN.jpg
 photo.27.author: ck.chie
 photo.27.commitdate: 2019/1/30
-photo.27.link: https://www.instagram.com/p/BtLbYF4F98I
+photo.27.link: ig://BtLbYF4F98I
 photo.27.tags: apple time, portrait, pull-up, sample, whiskers
 photo.28: cwdc://WiYEgmiADQX.jpg
 photo.28.author: kotata_513
@@ -154,7 +154,7 @@ photo.28.link: ig://BtNOfxBFjzo
 photo.29: cwdc://Wi7mvKCADQM.jpg
 photo.29.author: ck.chie
 photo.29.commitdate: 2019/2/17
-photo.29.link: https://www.instagram.com/p/Bte_nCxFtb-
+photo.29.link: ig://Bte_nCxFtb-
 photo.29.tags: bridge, portrait, sample, tongue
 photo.30: cwdc://WkH_CafADQA.jpg
 photo.30.author: rie_panda55
@@ -184,7 +184,7 @@ photo.34.tags: paws, portrait, sample, smile, standing, tail
 photo.35: cwdc://WnHY_ZvADQQ.jpg
 photo.35.author: ck.chie
 photo.35.commitdate: 2022/5/13
-photo.35.link: https://www.instagram.com/p/Bvk4vKnluNR
+photo.35.link: ig://Bvk4vKnluNR
 photo.35.tags: bamboo, bite, paws, portrait, sample, tongue
 photo.36: cwdc://WoFKCmqADQF.jpg
 photo.36.author: ifumoto88
@@ -204,7 +204,7 @@ photo.38.tags: portrait, smile, tree
 photo.39: cwdc://WouYwGzADQR.jpg
 photo.39.author: ck.chie
 photo.39.commitdate: 2019/4/22
-photo.39.link: https://www.instagram.com/p/BwYYnhJl8GJ
+photo.39.link: ig://BwYYnhJl8GJ
 photo.39.tags: bridge, portrait, sample, tree
 photo.40: cwdc://WqBttbuADQG.jpg
 photo.40.author: panda.daisuki
@@ -214,12 +214,12 @@ photo.40.tags: apple time, close-up, portrait, sample, tree
 photo.41: cwdc://WqajdarADQS.jpg
 photo.41.author: ck.chie
 photo.41.commitdate: 2019/5/9
-photo.41.link: https://www.instagram.com/p/BxOd-LFlkQj
+photo.41.link: ig://BxOd-LFlkQj
 photo.41.tags: paws, portrait, sample, smile, tree
 photo.42: cwdc://Wr-A4xaADQT.jpg
 photo.42.author: ck.chie
 photo.42.commitdate: 2019/5/31
-photo.42.link: https://www.instagram.com/p/ByAMr2dB2c0
+photo.42.link: ig://ByAMr2dB2c0
 photo.42.tags: distance, peek, portrait, smile
 photo.43: cwdc://WsD7HUdADQG.jpg
 photo.43.author: ifumoto88
@@ -281,11 +281,11 @@ photo.54.author: osopanda551
 photo.54.commitdate: 2019/11/7
 photo.54.link: ig://B1tlM2wBzJw
 photo.54.tags: climb, door, paws, portrait, smile, tree
-photo.55: ig://B1yUpeSB1M4/m
+photo.55: cwdc://WziQ0BEADQA.jpg
 photo.55.author: osopanda551
 photo.55.commitdate: 2019/11/7
-photo.55.link: https://www.instagram.com/osopanda551/
-photo.55.tags: bridge, paws, portrait, smile
+photo.55.link: ig://B1yUpeSB1M4
+photo.55.tags: bridge, paws, portrait, sample, smile, whiskers
 photo.56: cwdc://WzxrcQAADQA.jpg
 photo.56.author: kaoru_a358
 photo.56.commitdate: 2019/9/3
@@ -319,12 +319,13 @@ photo.61.tags: mofumofu, sample, smile, whiskers
 photo.62: cwdc://W4j5K4OADQA.jpg
 photo.62.author: ck.chie
 photo.62.commitdate: 2019/11/2
-photo.62.link: https://www.instagram.com/p/B4TI053BuCg
+photo.62.link: ig://B4TI053BuCg
 photo.62.tags: climb, tree
 photo.63: cwdc://W44mKHwADQA.jpg
 photo.63.author: kotata_513
 photo.63.commitdate: 2019/11/7
 photo.63.link: ig://B4dfUhoBDw0
+photo.63.tags: peek
 photo.64: cwdc://W49g5wAADQA.jpg
 photo.64.author: kipekaila
 photo.64.commitdate: 2019/11/7
@@ -337,7 +338,7 @@ photo.65.link: ig://B4rpUYXB67R
 photo.66: cwdc://W5YZO_pADQB.jpg
 photo.66.author: ck.chie
 photo.66.commitdate: 2019/11/18
-photo.66.link: https://www.instagram.com/p/B4tY29khLyi
+photo.66.link: ig://B4tY29khLyi
 photo.66.tags: bamboo
 photo.67: cwdc://W5ouOTrADQL.jpg
 photo.67.author: kotata_513
@@ -347,7 +348,7 @@ photo.67.tags: peek, sample, tail, tree
 photo.68: cwdc://W6LH5rmADQC.jpg
 photo.68.author: ck.chie
 photo.68.commitdate: 2019/12/5
-photo.68.link: https://www.instagram.com/p/B5GwMTjBwoC
+photo.68.link: ig://B5GwMTjBwoC
 photo.68.tags: climb, paws, portrait, standing, tree
 photo.69: cwdc://W6VTARvADQC.jpg
 photo.69.author: sasapan34
@@ -382,7 +383,7 @@ photo.74.tags: mofumofu, portrait, sample, smile, techitechi
 photo.75: cwdc://W9L1HF5ADQD.jpg
 photo.75.author: ck.chie
 photo.75.commitdate: 2019/12/30
-photo.75.link: https://www.instagram.com/p/B6nGzAshZMk
+photo.75.link: ig://B6nGzAshZMk
 photo.75.tags: peek, tree
 photo.76: cwdc://W9w0TTkADQI.jpg
 photo.76.author: sasapan34
@@ -392,12 +393,12 @@ photo.76.tags: autumn, sample, smile
 photo.77: cwdc://W-HQmUwADQF.jpg
 photo.77.author: ck.chie
 photo.77.commitdate: 2020/1/19
-photo.77.link: https://www.instagram.com/p/B7E0ioIB1ex
+photo.77.link: ig://B7E0ioIB1ex
 photo.77.tags: climb, paws, sample, standing, tail
 photo.78: cwdc://W-4bUzBADQE.jpg
 photo.78.author: ck.chie
 photo.78.commitdate: 2020/1/19
-photo.78.link: https://www.instagram.com/p/B7dZ53QhAuC
+photo.78.link: ig://B7dZ53QhAuC
 photo.78.tags: bamboo, portrait, sample, snow, tree, wet
 photo.79: cwdc://W-72PqaADQF.jpg
 photo.79.author: sunnylettuce_2024
@@ -422,7 +423,7 @@ photo.82.tags: paws, sample, smile, whiskers
 photo.83: cwdc://W_WyJHgADQG.jpg
 photo.83.author: ck.chie
 photo.83.commitdate: 2020/1/26
-photo.83.link: https://www.instagram.com/p/B7slUBgBX94
+photo.83.link: ig://B7slUBgBX94
 photo.83.tags: bamboo, bite, sample, snow, tail, tree, wet
 photo.84: cwdc://W_gqZzRADQH.jpg
 photo.84.author: sunnylettuce_2024
@@ -461,7 +462,7 @@ photo.90.tags: mofumofu, paws, portrait, sample, smile, tail
 photo.91: cwdc://XB5S4cuADQJ.jpg
 photo.91.author: ck.chie
 photo.91.commitdate: 2020/11/28
-photo.91.link: https://www.instagram.com/p/B891rsHBUsM
+photo.91.link: ig://B891rsHBUsM
 photo.91.tags: bamboo, paws, sample, smile
 photo.92: cwdc://XCJOpdnADQJ.jpg
 photo.92.author: sunnylettuce_2024
@@ -481,7 +482,7 @@ photo.94.tags: paws, portrait, sample, smile, whiskers
 photo.95: cwdc://XCszTaaADQH.jpg
 photo.95.author: ck.chie
 photo.95.commitdate: 2020/11/28
-photo.95.link: https://www.instagram.com/p/B9Xl5K9B7wO
+photo.95.link: ig://B9Xl5K9B7wO
 photo.95.tags: bamboo, bite, sample, tail, tongue
 photo.96: cwdc://XC_CnWxADQC.jpg
 photo.96.author: alto0908
@@ -501,7 +502,7 @@ photo.98.tags: bamboo, portrait, smile, tongue
 photo.99: cwdc://XDv83qTADQI.jpg
 photo.99.author: ck.chie
 photo.99.commitdate: 2020/11/28
-photo.99.link: https://www.instagram.com/p/B95KrS5hQvg
+photo.99.link: ig://B95KrS5hQvg
 photo.99.tags: bamboo, paws, standing
 photo.100: cwdc://XDw2E-SADQC.jpg
 photo.100.author: fetorus_mami
@@ -521,7 +522,7 @@ photo.102.tags: paws, portrait, sample, techitechi, whiskers
 photo.103: cwdc://XEMlYBAADQK.jpg
 photo.103.author: ck.chie
 photo.103.commitdate: 2020/11/28
-photo.103.link: https://www.instagram.com/p/B-He7eQBPs5
+photo.103.link: ig://B-He7eQBPs5
 photo.103.tags: air tasting, sample, tongue
 photo.104: cwdc://XEcan42ADQA.jpg
 photo.104.author: ifumoto88
@@ -541,12 +542,12 @@ photo.106.tags: flowers, nose, portrait, tail
 photo.107: cwdc://XGkGiAmADQO.jpg
 photo.107.author: ck.chie
 photo.107.commitdate: 2020/11/28
-photo.107.link: https://www.instagram.com/p/B_TPgeDBM2q
+photo.107.link: ig://B_TPgeDBM2q
 photo.107.tags: bamboo, paws, standing
 photo.108: cwdc://XGpTrTzADQP.jpg
 photo.108.author: ck.chie
 photo.108.commitdate: 2020/11/28
-photo.108.link: https://www.instagram.com/p/B_V2FHphsC1
+photo.108.link: ig://B_V2FHphsC1
 photo.108.tags: peek, portrait, whiskers
 photo.109: cwdc://XHVfsEJADQQ.jpg
 photo.109.author: kotata_513
@@ -683,15 +684,15 @@ photo.135.author: kotata_513
 photo.135.commitdate: 2020/11/6
 photo.135.link: ig://CHAbEYhhdAp
 photo.135.tags: sample, smile, tail
-photo.136: ig://CHH7nNFhiCd/m
+photo.136: cwdc://XWNeverADQB.jpg
 photo.136.author: osopanda551
 photo.136.commitdate: 2020/11/6
-photo.136.link: https://www.instagram.com/osopanda551/
-photo.136.tags: nose, portrait, tree
+photo.136.link: ig://CHH7nNFhiCd
+photo.136.tags: nose, peek, portrait, tree
 photo.137: cwdc://XWsJa4VADQU.jpg
 photo.137.author: ck.chie
 photo.137.commitdate: 2020/11/28
-photo.137.link: https://www.instagram.com/p/CHXQ856hr0u
+photo.137.link: ig://CHXQ856hr0u
 photo.137.tags: paws, portrait, sample, smile
 photo.138: cwdc://XX5w4WDADQL.jpg
 photo.138.author: osopanda551
@@ -731,7 +732,7 @@ photo.144.tags: door, portrait, sample
 photo.145: cwdc://XYgmQFsADQX.jpg
 photo.145.author: ck.chie
 photo.145.commitdate: 2020/12/8
-photo.145.link: https://www.instagram.com/p/CIRfXgmBUQi
+photo.145.link: ig://CIRfXgmBUQi
 photo.145.tags: paws, sample, tongue
 photo.146: cwdc://XYok308ADQq.jpg
 photo.146.author: kotata_513
@@ -751,7 +752,7 @@ photo.148.tags: bamboo, peek
 photo.149: cwdc://XY6SNmmADQV.jpg
 photo.149.author: ck.chie
 photo.149.commitdate: 2020/12/20
-photo.149.link: https://www.instagram.com/p/CIeVWRDBOgL
+photo.149.link: ig://CIeVWRDBOgL
 photo.149.tags: paws, sample
 photo.150: cwdc://XY8zILdADQR.jpg
 photo.150.author: osopanda551
@@ -771,7 +772,7 @@ photo.152.tags: distance, tree
 photo.153: cwdc://XY_fHQtADQW.jpg
 photo.153.author: ck.chie
 photo.153.commitdate: 2020/12/20
-photo.153.link: https://www.instagram.com/p/CIg7zGGh6pi
+photo.153.link: ig://CIg7zGGh6pi
 photo.153.tags: sample, smile
 photo.154: cwdc://XY_qWvzADQQ.jpg
 photo.154.author: alto0908
@@ -791,7 +792,7 @@ photo.156.tags: mofumofu, portrait, sample, snow, tree, wet, whiskers
 photo.157: cwdc://XcSlYbdADQY.jpg
 photo.157.author: ck.chie
 photo.157.commitdate: 2021/1/30
-photo.157.link: https://www.instagram.com/p/CKKe7rehJnn
+photo.157.link: ig://CKKe7rehJnn
 photo.157.tags: sample, smile
 photo.158: cwdc://XfjXohyADQr.jpg
 photo.158.author: kotata_513
@@ -896,7 +897,7 @@ photo.177.tags: close-up, portrait, sample, smile, tongue, whiskers
 photo.178: cwdc://XnY6yZZADQA.jpg
 photo.178.author: hamamatsu.chiita
 photo.178.commitdate: 2021/7/9
-photo.178.link: https://www.instagram.com/p/CPtpoqchfrh
+photo.178.link: ig://CPtpoqchfrh
 photo.178.tags: peek, portrait, profile, sample, whiskers
 photo.179: cwdc://XoCPVuPADQj.jpg
 photo.179.author: hamamatsu.chiita
@@ -1071,17 +1072,13 @@ photo.212.tags: apple time, keeper, paws, portrait, sample, whiskers
 photo.213: cwdc://YUNuPrPADQZ.jpg
 photo.213.author: ck.chie
 photo.213.commitdate: 2023/9/25
-photo.213.link: https://www.instagram.com/p/CmIDXTXyibV
+photo.213.link: ig://CmIDXTXyibV
 photo.213.tags: climb, paws, sample, standing, tail, whiskers
 photo.214: cwdc://YXzzWr9ADQU.jpg
 photo.214.author: fetorus_mami
 photo.214.commitdate: 2023/2/25
 photo.214.link: ig://Cn7F6zuvC22
 photo.214.tags: apple time, bite, keeper, paws, standing, whiskers
-species: 2
-studbook.id: unknown
-zoo: 264
-photo.63.tags: peek
 photo.215: cwdc://W44mKHwADQB.jpg
 photo.215.author: kotata_513
 photo.215.commitdate: 2025/11/29
@@ -2543,3 +2540,6 @@ photo.505.author: hamamatsu.chiita
 photo.505.commitdate: 2025/11/30
 photo.505.link: ig://DCJlsU2So0A
 photo.505.tags: apple time, bite, portrait, sample, whiskers
+species: 2
+studbook.id: unknown
+zoo: 264
