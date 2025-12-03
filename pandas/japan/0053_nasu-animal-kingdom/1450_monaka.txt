@@ -4,13 +4,13 @@ birthday: 2025/7/11
 birthplace: 53
 children: none
 commitdate: 2025/8/5
-en.name: Baby
+en.name: Monaka
 en.nicknames: none
 en.othernames: none
-gender: unknown
-ja.name: 赤ちゃん
+gender: f
+ja.name: 最中
 ja.nicknames: none
-ja.othernames: none
+ja.othernames: モナカ
 language.order: ja, en
 litter: none
 species: 2
