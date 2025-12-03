@@ -206,9 +206,6 @@ photo.38.author: cattail.sapporo
 photo.38.commitdate: 2025/3/14
 photo.38.link: ig://DE7XiUpvgW-
 photo.38.tags: laying down, mofumofu, portrait, sample, snow, tail, tree
-species: 2
-studbook.id: 12115
-zoo: 11
 photo.39: cwdc://ZSI8niRADQA.jpg
 photo.39.author: cattail.sapporo
 photo.39.commitdate: 2025/12/2
@@ -234,3 +231,6 @@ photo.43.author: cattail.sapporo
 photo.43.commitdate: 2025/12/2
 photo.43.link: ig://DQWov29DzI8
 photo.43.tags: apple time, lips, paws, portrait, sample, techitechi, whiskers
+species: 2
+studbook.id: 12115
+zoo: 11

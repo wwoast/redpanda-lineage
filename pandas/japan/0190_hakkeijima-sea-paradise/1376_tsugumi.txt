@@ -538,8 +538,6 @@ photo.105.author: seaparadise_official
 photo.105.commitdate: 2025/2/27
 photo.105.link: ig://DD66aL7s1hc
 photo.105.tags: christmas, paws, sample, whiskers
-species: 2
-zoo: 190
 photo.106: cwdc://ZnczPhfADQA.jpg
 photo.106.author: seaparadise_official
 photo.106.commitdate: 2025/12/2
@@ -560,3 +558,5 @@ photo.109.author: pecha_camera
 photo.109.commitdate: 2025/12/2
 photo.109.link: ig://DQwbU_PkwAY
 photo.109.tags: dish, paws, sample, tongue, whiskers
+species: 2
+zoo: 190

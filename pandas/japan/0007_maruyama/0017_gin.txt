@@ -1202,9 +1202,6 @@ photo.237.author: cattail.sapporo
 photo.237.commitdate: 2025/2/27
 photo.237.link: ig://DExCYwkv2L7
 photo.237.tags: apple time, bite, paws, portrait, sample, snow, whiskers
-species: 2
-studbook.id: 12116
-zoo: 7
 photo.238: cwdc://ZSONL5WADQA.jpg
 photo.238.author: cattail.sapporo
 photo.238.commitdate: 2025/12/2
@@ -1220,3 +1217,6 @@ photo.240.author: cattail.sapporo
 photo.240.commitdate: 2025/12/2
 photo.240.link: ig://DQfobH9kqdj
 photo.240.tags: close-up, mofumofu, portrait, sample, whiskers
+species: 2
+studbook.id: 12116
+zoo: 7

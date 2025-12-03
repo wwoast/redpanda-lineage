@@ -2091,19 +2091,16 @@ photo.415.author: komabazoophoto
 photo.415.commitdate: 2025/10/9
 photo.415.link: ig://DB3oK9Ty-lB
 photo.415.tags: home, laying down, paws, peek, portrait, sample
-photo.416: cwdc://ZRQM-BuADQA.jpg
+photo.416: cwdc://ZQmy6IdADQA.jpg
 photo.416.author: cattail.sapporo
-photo.416.commitdate: 2025/3/14
-photo.416.link: ig://DEpSuenPVyV
-photo.416.tags: paws, portrait, sample, snow, tail, techitechi
-species: 2
-studbook.id: 0674
-zoo: 7
-photo.417: cwdc://ZQmy6IdADQA.jpg
+photo.416.commitdate: 2025/12/2
+photo.416.link: ig://DEUlsh-vwv3
+photo.416.tags: paws, portrait, sample, smile, snow, whiskers
+photo.417: cwdc://ZRQM-BuADQA.jpg
 photo.417.author: cattail.sapporo
-photo.417.commitdate: 2025/12/2
-photo.417.link: ig://DEUlsh-vwv3
-photo.417.tags: paws, portrait, sample, smile, snow, whiskers
+photo.417.commitdate: 2025/3/14
+photo.417.link: ig://DEpSuenPVyV
+photo.417.tags: paws, portrait, sample, snow, tail, techitechi
 photo.418: cwdc://Zm-sHTwADQA.jpg
 photo.418.author: cattail.sapporo
 photo.418.commitdate: 2025/12/2
@@ -2139,3 +2136,6 @@ photo.424.author: cattail.sapporo
 photo.424.commitdate: 2025/12/2
 photo.424.link: ig://DQxMbDKkyWc
 photo.424.tags: itchy, paws, portrait, sample
+species: 2
+studbook.id: 0674
+zoo: 7

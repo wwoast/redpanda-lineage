@@ -920,11 +920,6 @@ photo.181.author: fetorus_mami
 photo.181.commitdate: 2025/7/21
 photo.181.link: ig://DE7gzBpyxpe?img_index=8
 photo.181.tags: mofumofu, paws, sample, tail
-species: 2
-video.1: https://youtu.be/TUNBGBRlvvg
-video.1.author: mmovies21
-video.1.link: https://www.youtube.com/user/Mmovies21
-zoo: 29
 photo.182: cwdc://ZpH4VWgADQA.webp
 photo.182.author: chankunvv
 photo.182.commitdate: 2025/12/2
@@ -955,3 +950,8 @@ photo.187.author: chankunvv
 photo.187.commitdate: 2025/12/2
 photo.187.link: ig://DQlIaJAEU9i
 photo.187.tags: bamboo, bridge, mofumofu, portrait, sample, smile, tongue
+species: 2
+video.1: https://youtu.be/TUNBGBRlvvg
+video.1.author: mmovies21
+video.1.link: https://www.youtube.com/user/Mmovies21
+zoo: 29
