@@ -1066,31 +1066,21 @@ photo.210.author: minatomirai215
 photo.210.commitdate: 2025/2/27
 photo.210.link: ig://C9SKL9zSpAO
 photo.210.tags: paws, portrait, sample, standing
-photo.211: cwdc://ZRkyA5sADQA.jpg
+photo.211: cwdc://ZQNI9OpADQB.jpg
 photo.211.author: cattail.sapporo
-photo.211.commitdate: 2025/3/14
-photo.211.link: ig://DEzlP6mSFzx
-photo.211.tags: close-up, portrait, sample, smile, snow
-species: 2
-studbook.id: 14161
-uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
-video.1: https://youtu.be/t1SITm45Rc8
-video.1.author: mmovies21
-video.1.link: https://www.youtube.com/user/Mmovies21
-video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
-video.2.author: cattail.sapporo
-video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
-zoo: 28
+photo.211.commitdate: 2025/12/4
+photo.211.link: ig://DEHwuFEvw4e
+photo.211.tags: baby, climb, paws, portrait, snow
 photo.212: cwdc://ZQ7mZ1xADQA.jpg
 photo.212.author: cattail.sapporo
 photo.212.commitdate: 2025/12/4
 photo.212.link: ig://DEe_cYov75l
 photo.212.tags: baby, mofumofu, paws, portrait, snow, tongue
-photo.213: cwdc://ZQNI9OpADQB.jpg
+photo.213: cwdc://ZRkyA5sADQA.jpg
 photo.213.author: cattail.sapporo
-photo.213.commitdate: 2025/12/4
-photo.213.link: ig://DEHwuFEvw4e
-photo.213.tags: baby, climb, paws, portrait, snow
+photo.213.commitdate: 2025/3/14
+photo.213.link: ig://DEzlP6mSFzx
+photo.213.tags: close-up, portrait, sample, smile, snow
 photo.214: cwdc://ZSTQmsPADQA.jpg
 photo.214.author: cattail.sapporo
 photo.214.commitdate: 2025/12/4
@@ -1101,3 +1091,13 @@ photo.215.author: cattail.sapporo
 photo.215.commitdate: 2025/12/4
 photo.215.link: ig://DMpq6RGPSal
 photo.215.tags: grumpy, mofumofu, paws, portrait, sample, whiskers
+species: 2
+studbook.id: 14161
+uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
+video.1: https://youtu.be/t1SITm45Rc8
+video.1.author: mmovies21
+video.1.link: https://www.youtube.com/user/Mmovies21
+video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
+video.2.author: cattail.sapporo
+video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
+zoo: 28

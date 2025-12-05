@@ -365,8 +365,6 @@ photo.70.author: lesserpanda_shizuokacity_cp
 photo.70.commitdate: 2025/6/4
 photo.70.link: ig://C5xrzjKPKKB
 photo.70.tags: apple time, portrait, tongue
-species: 2
-zoo: 289
 photo.71: cwdc://ZnydCXtADQA.webp
 photo.71.author: fetorus_mami
 photo.71.commitdate: 2025/12/4
@@ -377,3 +375,5 @@ photo.72.author: fetorus_mami
 photo.72.commitdate: 2025/12/4
 photo.72.link: ig://DP6awpmk1_I
 photo.72.tags: keeper, paws, sample, standing
+species: 2
+zoo: 289

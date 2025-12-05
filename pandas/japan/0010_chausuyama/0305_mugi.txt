@@ -1755,15 +1755,6 @@ photo.348.author: colette.jp
 photo.348.commitdate: 2025/6/4
 photo.348.link: ig://DBJGQ-OSVWb
 photo.348.tags: mofumofu, portrait, sample, smile, whiskers
-species: 2
-studbook.id: unknown
-video.1: https://youtu.be/rYd6QptEbU0
-video.1.author: d_mover
-video.1.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
-video.2: https://youtu.be/3aUnsJ0Xa4k
-video.2.author: d_mover
-video.2.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
-zoo: 10
 photo.349: cwdc://ZVqsP40ADQA.jpg
 photo.349.author: chausuyamazoo
 photo.349.commitdate: 2025/12/4
@@ -1799,3 +1790,12 @@ photo.355.author: taka__3428
 photo.355.commitdate: 2025/12/4
 photo.355.link: ig://DNaZun1x62s
 photo.355.tags: bamboo, bite
+species: 2
+studbook.id: unknown
+video.1: https://youtu.be/rYd6QptEbU0
+video.1.author: d_mover
+video.1.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
+video.2: https://youtu.be/3aUnsJ0Xa4k
+video.2.author: d_mover
+video.2.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
+zoo: 10

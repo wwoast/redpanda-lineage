@@ -366,9 +366,6 @@ photo.70.author: fetorus_mami
 photo.70.commitdate: 2025/2/21
 photo.70.link: ig://C-C1IaeSEKi?img_index=3
 photo.70.tags: bridge, laying down, mofumofu, peek, sample
-species: 2
-studbook.id: 15160
-zoo: 58
 photo.71: cwdc://ZoersvgADQA.jpg
 photo.71.author: sakikukeco
 photo.71.commitdate: 2025/12/4
@@ -384,3 +381,6 @@ photo.73.author: sakikukeco
 photo.73.commitdate: 2025/12/4
 photo.73.link: ig://DQQiF1gCRjn
 photo.73.tags: mofumofu, portrait, sample
+species: 2
+studbook.id: 15160
+zoo: 58

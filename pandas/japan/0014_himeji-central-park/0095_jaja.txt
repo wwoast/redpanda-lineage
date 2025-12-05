@@ -2441,9 +2441,6 @@ photo.485.author: colette.jp
 photo.485.commitdate: 2025/11/23
 photo.485.link: ig://DEpJOOqSL4o
 photo.485.tags: mofumofu, paws, portrait, sample, window
-species: 2
-studbook.id: 14151
-zoo: 14
 photo.486: cwdc://ZnvLBQbADQA.webp
 photo.486.author: miis_98
 photo.486.commitdate: 2025/12/4
@@ -2454,3 +2451,6 @@ photo.487.author: miis_98
 photo.487.commitdate: 2025/12/4
 photo.487.link: ig://DP4xwF9kvKG
 photo.487.tags: bamboo, paws, sample, standing
+species: 2
+studbook.id: 14151
+zoo: 14
