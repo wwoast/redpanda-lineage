@@ -13,28 +13,26 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-species: 2
-zoo: 16
-photo.1: cwdc://Zm-MxZ6ADQC.webp
+photo.1: cwdc://Zm4leKGADQA.webp
 photo.1.author: resapanlove
 photo.1.commitdate: 2025/12/14
-photo.1.link: ig://DPgSoKtEozQ
-photo.1.tags: baby, paws, sample, smile
-photo.2: cwdc://Zm-MxZ6ADQD.webp
+photo.1.link: ig://DPde-izDqIf
+photo.1.tags: baby, mofumofu, paws, sample, white face
+photo.2: cwdc://Zm4leKGADQB.webp
 photo.2.author: resapanlove
 photo.2.commitdate: 2025/12/14
-photo.2.link: ig://DPgSoKtEozR
-photo.2.tags: baby, mofumofu, sample
-photo.3: cwdc://Zm4leKGADQA.webp
+photo.2.link: ig://DPde-izDqIi
+photo.2.tags: baby, close-up, mofumofu, sample, white face
+photo.3: cwdc://Zm-MxZ6ADQC.webp
 photo.3.author: resapanlove
 photo.3.commitdate: 2025/12/14
-photo.3.link: ig://DPde-izDqIf
-photo.3.tags: baby, mofumofu, paws, sample, white face
-photo.4: cwdc://Zm4leKGADQB.webp
+photo.3.link: ig://DPgSoKtEozQ
+photo.3.tags: baby, paws, sample, smile
+photo.4: cwdc://Zm-MxZ6ADQD.webp
 photo.4.author: resapanlove
 photo.4.commitdate: 2025/12/14
-photo.4.link: ig://DPde-izDqIi
-photo.4.tags: baby, close-up, mofumofu, sample, white face
+photo.4.link: ig://DPgSoKtEozR
+photo.4.tags: baby, mofumofu, sample
 photo.5: cwdc://ZnIiQseADQE.webp
 photo.5.author: resapanlove
 photo.5.commitdate: 2025/12/14
@@ -55,21 +53,21 @@ photo.8.author: resapanlove
 photo.8.commitdate: 2025/12/14
 photo.8.link: ig://DPldXz_EtJl
 photo.8.tags: baby, mofumofu, peek, sample
-photo.9: cwdc://ZnN6D-IADQI.webp
-photo.9.author: resapanlove
+photo.9: cwdc://ZnNnzLdADQB.jpg
+photo.9.author: hamamatsu.chiita
 photo.9.commitdate: 2025/12/14
-photo.9.link: ig://DPoJRc0EpLa
-photo.9.tags: baby, climb, sample, whiskers
-photo.10: cwdc://ZnNnzLdADQB.jpg
+photo.9.link: ig://DPoAJDegeGg
+photo.9.tags: baby, close-up, mofumofu, portrait, sample, whiskers
+photo.10: cwdc://ZnNnzLdADQC.jpg
 photo.10.author: hamamatsu.chiita
 photo.10.commitdate: 2025/12/14
-photo.10.link: ig://DPoAJDegeGg
-photo.10.tags: baby, close-up, mofumofu, portrait, sample, whiskers
-photo.11: cwdc://ZnNnzLdADQC.jpg
-photo.11.author: hamamatsu.chiita
+photo.10.link: ig://DPoAJDegeGh
+photo.10.tags: baby, dish, mofumofu, portrait, sample, whiskers
+photo.11: cwdc://ZnN6D-IADQI.webp
+photo.11.author: resapanlove
 photo.11.commitdate: 2025/12/14
-photo.11.link: ig://DPoAJDegeGh
-photo.11.tags: baby, dish, mofumofu, portrait, sample, whiskers
+photo.11.link: ig://DPoJRc0EpLa
+photo.11.tags: baby, climb, sample, whiskers
 photo.12: cwdc://ZneDqIuADQA.jpg
 photo.12.author: roko_mm
 photo.12.commitdate: 2025/12/14
@@ -120,36 +118,36 @@ photo.21.author: mini_cochi
 photo.21.commitdate: 2025/12/14
 photo.21.link: ig://DQJcwU7kkOZ
 photo.21.tags: baby, mofumofu, sample, whiskers
-photo.22: cwdc://Zq63GBdADQA.jpg
-photo.22.author: joy93_redpanda
+photo.22: cwdc://ZqMZCXaADQA.jpg
+photo.22.author: taka__3428
 photo.22.commitdate: 2025/12/14
-photo.22.link: ig://DRenyeej7mS
-photo.22.tags: baby, paws, sample, whiskers
-photo.23: cwdc://ZqMZCXaADQA.jpg
+photo.22.link: ig://DRHYwpdEa07
+photo.22.tags: baby, close-up, paws, sample, techitechi, tree
+photo.23: cwdc://ZqMZCXaADQB.jpg
 photo.23.author: taka__3428
 photo.23.commitdate: 2025/12/14
-photo.23.link: ig://DRHYwpdEa07
-photo.23.tags: baby, close-up, paws, sample, techitechi, tree
-photo.24: cwdc://ZqMZCXaADQB.jpg
+photo.23.link: ig://DRHYwpdEa08
+photo.23.tags: baby, mofumofu, sample, tongue, whiskers, white face
+photo.24: cwdc://ZqMZCXaADQC.jpg
 photo.24.author: taka__3428
 photo.24.commitdate: 2025/12/14
-photo.24.link: ig://DRHYwpdEa08
-photo.24.tags: baby, mofumofu, sample, tongue, whiskers, white face
-photo.25: cwdc://ZqMZCXaADQC.jpg
+photo.24.link: ig://DRHYwpdEa09
+photo.24.tags: baby, mofumofu, paws, sample, whiskers, white face
+photo.25: cwdc://ZqXF0PJADQA.jpg
 photo.25.author: taka__3428
 photo.25.commitdate: 2025/12/14
-photo.25.link: ig://DRHYwpdEa09
-photo.25.tags: baby, mofumofu, paws, sample, whiskers, white face
-photo.26: cwdc://ZqXF0PJADQA.jpg
+photo.25.link: ig://DRMvJlUks4Q
+photo.25.tags: baby, close-up, mofumofu, sample, techitechi
+photo.26: cwdc://ZqXF0PJADQB.jpg
 photo.26.author: taka__3428
 photo.26.commitdate: 2025/12/14
-photo.26.link: ig://DRMvJlUks4Q
-photo.26.tags: baby, close-up, mofumofu, sample, techitechi
-photo.27: cwdc://ZqXF0PJADQB.jpg
-photo.27.author: taka__3428
+photo.26.link: ig://DRMvJlUks4R
+photo.26.tags: baby, mofumofu, sample, techitechi, whiskers
+photo.27: cwdc://Zq63GBdADQA.jpg
+photo.27.author: joy93_redpanda
 photo.27.commitdate: 2025/12/14
-photo.27.link: ig://DRMvJlUks4R
-photo.27.tags: baby, mofumofu, sample, techitechi, whiskers
+photo.27.link: ig://DRenyeej7mS
+photo.27.tags: baby, paws, sample, whiskers
 photo.28: cwdc://ZrAB2zdADQB.jpg
 photo.28.author: joy93_redpanda
 photo.28.commitdate: 2025/12/14
@@ -170,3 +168,5 @@ photo.31.author: joy93_redpanda
 photo.31.commitdate: 2025/12/14
 photo.31.link: ig://DRjx-cQD_sQ
 photo.31.tags: baby, paws, sample, tree, whiskers
+species: 2
+zoo: 16
