@@ -53,54 +53,51 @@ photo.8.author: idallkwan
 photo.8.commitdate: 2025/5/11
 photo.8.link: https://www.instagram.com/idallkwan
 photo.8.tags: home, tree
-species: 2
-studbook.id: unknown
-zoo: 96
-photo.9: cwdc://Zsx-ofIT1gP.png
+photo.9: cwdc://Zsx_c-gT1gO.png
 photo.9.author: idallkwan
 photo.9.commitdate: 2025/12/18
 photo.9.link: https://www.instagram.com/idallkwan
-photo.9.tags: snow, tail
-photo.10: cwdc://Zsx_2H4T1gJ.png
+photo.9.tags: bamboo, peek, sample, tail, whiskers
+photo.10: cwdc://Zsx_hnYT1gN.png
 photo.10.author: idallkwan
 photo.10.commitdate: 2025/12/18
 photo.10.link: https://www.instagram.com/idallkwan
-photo.10.tags: bamboo, close-up, sample, smile, snow, whiskers
-photo.11: cwdc://Zsx_6RgT1gI.png
+photo.10.tags: bamboo, peek, smaple, snow
+photo.11: cwdc://Zsx_o8IT1gM.png
 photo.11.author: idallkwan
 photo.11.commitdate: 2025/12/18
 photo.11.link: https://www.instagram.com/idallkwan
-photo.11.tags: bamboo, bite, peek, snow, whiskers
-photo.12: cwdc://Zsx_9sQT1gH.png
+photo.11.tags: bamboo, sample, snow, whiskers
+photo.12: cwdc://Zsx_s2IT1gL.png
 photo.12.author: idallkwan
 photo.12.commitdate: 2025/12/18
 photo.12.link: https://www.instagram.com/idallkwan
-photo.12.tags: bamboo, bite, sample, snow, whiskers
-photo.13: cwdc://Zsx_c-gT1gO.png
+photo.12.tags: bamboo, sample, snow, whiskers
+photo.13: cwdc://Zsx_xPYT1gK.png
 photo.13.author: idallkwan
 photo.13.commitdate: 2025/12/18
 photo.13.link: https://www.instagram.com/idallkwan
-photo.13.tags: bamboo, peek, sample, tail, whiskers
-photo.14: cwdc://Zsx_hnYT1gN.png
+photo.13.tags: bamboo, sample, smile, whiskers
+photo.14: cwdc://Zsx_2H4T1gJ.png
 photo.14.author: idallkwan
 photo.14.commitdate: 2025/12/18
 photo.14.link: https://www.instagram.com/idallkwan
-photo.14.tags: bamboo, peek, smaple, snow
-photo.15: cwdc://Zsx_o8IT1gM.png
+photo.14.tags: bamboo, close-up, sample, smile, snow, whiskers
+photo.15: cwdc://Zsx_6RgT1gI.png
 photo.15.author: idallkwan
 photo.15.commitdate: 2025/12/18
 photo.15.link: https://www.instagram.com/idallkwan
-photo.15.tags: bamboo, sample, snow, whiskers
-photo.16: cwdc://Zsx_s2IT1gL.png
+photo.15.tags: bamboo, bite, peek, snow, whiskers
+photo.16: cwdc://Zsx_9sQT1gH.png
 photo.16.author: idallkwan
 photo.16.commitdate: 2025/12/18
 photo.16.link: https://www.instagram.com/idallkwan
-photo.16.tags: bamboo, sample, snow, whiskers
-photo.17: cwdc://Zsx_xPYT1gK.png
+photo.16.tags: bamboo, bite, sample, snow, whiskers
+photo.17: cwdc://Zsx-ofIT1gP.png
 photo.17.author: idallkwan
 photo.17.commitdate: 2025/12/18
 photo.17.link: https://www.instagram.com/idallkwan
-photo.17.tags: bamboo, sample, smile, whiskers
+photo.17.tags: snow, tail
 photo.18: cwdc://ZsyABmQT1gG.png
 photo.18.author: idallkwan
 photo.18.commitdate: 2025/12/18
@@ -136,3 +133,6 @@ photo.24.author: idallkwan
 photo.24.commitdate: 2025/12/18
 photo.24.link: https://www.instagram.com/idallkwan
 photo.24.tags: bamboo, bite, sample, snow, whiskers
+species: 2
+studbook.id: unknown
+zoo: 96
