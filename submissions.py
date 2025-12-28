@@ -588,7 +588,7 @@ def process_entity(contribution_path, entity_path, entity_type):
                 "status": "remove"
             }
         else:
-            editor_command = 'vim {config_path}'.format(config_path = config_path)
+            editor_command = 'vim "+call cursor(8, 1000)" {config_path}'.format(config_path = config_path)
             os.system(editor_command)
             xli.kill()
             return {
