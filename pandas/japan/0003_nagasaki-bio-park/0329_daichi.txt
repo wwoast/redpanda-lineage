@@ -15,74 +15,74 @@ language.order: ja, en
 litter: 330
 location.1: 40, 2006/8/1
 location.2: 3, 2009/11/19
-photo.1: ig://np3Vr0HuOn/m
+photo.1: cwdc://UXRWMcIADQA.jpg
 photo.1.author: neco_lion
 photo.1.commitdate: 2018/12/26
-photo.1.link: https://www.instagram.com/neco_lion/
-photo.1.tags: tail
-photo.2: ig://oALvsUnuEv/m
+photo.1.link: ig://np3Vr0HuOn
+photo.1.tags: paws, sample, tail, tongue
+photo.2: cwdc://UX9_AdJADQB.jpg
 photo.2.author: neco_lion
 photo.2.commitdate: 2018/12/26
-photo.2.link: https://www.instagram.com/neco_lion/
-photo.2.tags: laying down
+photo.2.link: ig://oALvsUnuEv
+photo.2.tags: laying down, paws, sample, whiskers
 photo.3: cwdc://UZVAfQCADQA.jpg
 photo.3.author: neco_lion
 photo.3.commitdate: 2018/12/26
 photo.3.link: ig://orsfFxHuCd
 photo.3.tags: air tasting, portrait, profile, tail, tongue
-photo.4: ig://BrPXkEnFHFL/m
+photo.4: cwdc://WecWpNuADQA.jpg
 photo.4.author: tk_ani_photo
 photo.4.commitdate: 2018/12/26
-photo.4.link: https://www.instagram.com/tk_ani_photo/
-photo.4.tags: close-up, portrait
-photo.5: ig://B8yhpVChChk/m
+photo.4.link: ig://BrPXkEnFHFL
+photo.4.tags: close-up, portrait, sample, whiskers
+photo.5: cwdc://XBiqzulADQA.jpg
 photo.5.author: kisshan324
 photo.5.commitdate: 2020/2/29
-photo.5.link: https://www.instagram.com/kisshan324/
-photo.5.tags: paws, portrait, tongue, yawn
-photo.6: ig://B9S_PDbhmrV/m
+photo.5.link: ig://B8yhpVChChk
+photo.5.tags: paws, portrait, tongue, whiskers, yawn
+photo.6: cwdc://XCjl_LXADQA.jpg
 photo.6.author: ngsbiopark
 photo.6.commitdate: 2021/8/14
-photo.6.link: https://www.instagram.com/ngsbiopark/
-photo.6.tags: laying down, paws, portrait, tongue, yawn
-photo.7: ig://B_YtV18hyhR/m
+photo.6.link: ig://B9S_PDbhmrV
+photo.6.tags: close-up, laying down, paws, portrait, tongue, yawn
+photo.7: cwdc://XGvCMwZADQB.jpg
 photo.7.author: ngsbiopark
 photo.7.commitdate: 2020/11/1
-photo.7.link: https://www.instagram.com/ngsbiopark/
-photo.7.tags: close-up, laying down, paws
-photo.8: ig://CG1FR9aBy3V/m
+photo.7.link: ig://B_YtV18hyhR
+photo.7.tags: close-up, laying down, paws, portrait, sample, whiskers
+photo.8: cwdc://XVnyE_UADQD.jpg
 photo.8.author: ngsbiopark
 photo.8.commitdate: 2020/11/1
-photo.8.link: https://www.instagram.com/ngsbiopark/
-photo.9: ig://CT4H2kvB66F/m
+photo.8.link: ig://CG1FR9aBy3V
+photo.9: cwdc://Xvt3ON-ADQE.jpg
 photo.9.author: ngsbiopark
 photo.9.commitdate: 2022/1/15
-photo.9.link: https://www.instagram.com/ngsbiopark/
-photo.9.tags: paws, peek
-photo.10: ig://CYgEsSMPRbt/m
+photo.9.link: ig://CT4H2kvB66F
+photo.9.tags: paws, peek, sample
+photo.10: cwdc://X49w5o4ADQD.jpg
 photo.10.author: grskus_tk
 photo.10.commitdate: 2022/4/12
-photo.10.link: https://www.instagram.com/grskus_tk/
+photo.10.link: ig://CYgEsSMPRbt
 photo.10.tags: sample, whiskers
-photo.11: ig://CY3Dt8GvfZ7/m
+photo.11: cwdc://X5ru88tADQA.jpg
 photo.11.author: grskus_tk
 photo.11.commitdate: 2022/2/18
-photo.11.link: https://www.instagram.com/grskus_tk/
+photo.11.link: ig://CY3Dt8GvfZ7
 photo.11.tags: paws, whiskers
-photo.12: ig://CbqtvIPBQMS/m
+photo.12: cwdc://X_TC_U-ADQC.jpg
 photo.12.author: ngsbiopark
 photo.12.commitdate: 2022/7/11
-photo.12.link: https://www.instagram.com/ngsbiopark/
+photo.12.link: ig://CbqtvIPBQMS
 photo.12.tags: sample, whiskers
-photo.13: ig://CkDEd1ohadR/m
+photo.13: cwdc://YQDwcvxADQA.jpg
 photo.13.author: monmon_redpanda
 photo.13.commitdate: 2023/9/21
-photo.13.link: https://www.instagram.com/monmon_redpanda/
+photo.13.link: ig://CkDEd1ohadR
 photo.13.tags: apple time, paws, portrait, sample, whiskers
-photo.14: ig://CydwaZPPA4B/m
+photo.14: cwdc://Ys5IV2-ADQA.jpg
 photo.14.author: miis_98
 photo.14.commitdate: 2023/10/24
-photo.14.link: https://www.instagram.com/miis_98/
+photo.14.link: ig://CydwaZPPA4B
 photo.14.tags: laying down, paws, portrait, sample, whiskers
 photo.15: cwdc://Yyl3C8RADQA.jpg
 photo.15.author: hamiiiii831_
@@ -137,3 +137,49 @@ photo.24.tags: paws, peek, sample, whiskers
 species: 2
 studbook.id: 0686
 zoo: 3
+photo.25: cwdc://X49w5o4ADQE.jpg
+photo.25.author: grskus_tk
+photo.25.commitdate: 2026/1/7
+photo.25.link: ig://CYgEsSMPRbu
+photo.25.tags: paws, smile, whiskers, window
+photo.26: cwdc://X49w5o4ADQF.jpg
+photo.26.author: grskus_tk
+photo.26.commitdate: 2026/1/7
+photo.26.link: ig://CYgEsSMPRbv
+photo.26.tags: peek, tail
+photo.27: cwdc://X5ru88tADQB.jpg
+photo.27.author: grskus_tk
+photo.27.commitdate: 2026/1/7
+photo.27.link: ig://CY3Dt8GvfZ8
+photo.27.tags: itchy, paws, whiskers, window
+photo.28: cwdc://X5ru88tADQC.jpg
+photo.28.author: grskus_tk
+photo.28.commitdate: 2026/1/7
+photo.28.link: ig://CY3Dt8GvfZ9
+photo.28.tags: itchy, paws, sample, smile, whiskers
+photo.29: cwdc://XBiqzulADQB.jpg
+photo.29.author: kisshan324
+photo.29.commitdate: 2026/1/7
+photo.29.link: ig://B8yhpVChChq
+photo.29.tags: paws, portrait, sample
+photo.8.tags: distance
+photo.30: cwdc://YNIqumzADQA.jpg
+photo.30.author: ngsbiopark
+photo.30.commitdate: 2026/1/7
+photo.30.link: ig://CilhmxJhrum
+photo.30.tags: paws, portrait, profile, sample, smile, whiskers
+photo.31: cwdc://YRPeffRADQB.jpg
+photo.31.author: ngsbiopark
+photo.31.commitdate: 2026/1/7
+photo.31.link: ig://Cko7fNYvhDW
+photo.31.tags: laying down, paws, sample
+photo.32: cwdc://YSiM-vqADQC.jpg
+photo.32.author: ngsbiopark
+photo.32.commitdate: 2026/1/7
+photo.32.link: ig://ClSSu1lL4Pi
+photo.32.tags: bridge, paws, sample, tail
+photo.33: cwdc://Ys5IV2-ADQB.jpg
+photo.33.author: miis_98
+photo.33.commitdate: 2026/1/7
+photo.33.link: ig://CydwaZPPA4C
+photo.33.tags: paws, portrait, sample, smile, tail, whiskers
