@@ -4,11 +4,9 @@ import json
 import os
 import sys
 import random
-import requests
 import time
 
 from collections import OrderedDict
-from urllib.parse import urlparse
 
 # Shared Python information for the Red Panda Lineage scripts
 LINKS_PATH = "./links"
