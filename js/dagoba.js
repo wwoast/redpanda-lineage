@@ -110,11 +110,6 @@ Dagoba.G.findVertices = function (args) {
   else return this.findVerticesByIds(args);
 };
 
-// Dagoba.G.findVertices = function(ids) {                           // our general vertex finding function
-//   return typeof ids[0] == 'object' ? this.searchVertices(ids[0])
-//        : ids.length == 0 ? this.vertices.slice()                  // OPT: slice is costly with lots of vertices
-//        : this.findVerticesByIds(ids) }
-
 Dagoba.G.findVerticesByIds = function (ids) {
   if (ids.length == 1) {
     var maybe_vertex = this.findVertexById(ids[0]); // maybe_vertex is either a vertex or undefined
@@ -123,11 +118,6 @@ Dagoba.G.findVerticesByIds = function (ids) {
 
   return ids.map(this.findVertexById.bind(this)).filter(Boolean);
 };
-
-// Dagoba.G.findVerticesByIds = function(ids) {
-//   return ids.length == 1
-//          ? [].concat( this.findVertexById(ids[0]) || [] )
-//          : ids.map( this.findVertexById.bind(this) ).filter(Boolean) }
 
 Dagoba.G.findVertexById = function (vertex_id) {
   return this.vertexIndex[vertex_id];
@@ -139,13 +129,6 @@ Dagoba.G.searchVertices = function (filter) {
     return Dagoba.objectFilter(vertex, filter);
   });
 };
-
-// Dagoba.G.searchVertices = function(obj) {                         // find vertices that match obj's key-value pairs
-//   return this.vertices.filter(
-//     function(vertex) {
-//       return Object.keys(obj).reduce(
-//         function(acc, key) {
-//           return acc && obj[key] == vertex[key] }, true ) } ) }
 
 Dagoba.G.findOutEdges = function (vertex) {
   return vertex._out;
@@ -314,80 +297,6 @@ Dagoba.addPipetype('in', Dagoba.simpleTraversal('in'));
 Dagoba.addPipetype('out', Dagoba.simpleTraversal('out'));
 Dagoba.addPipetype('both', Dagoba.simpleTraversal('both'));
 
-Dagoba.addPipetype('outAllN', function (graph, args, gremlin, state) {
-
-  //// THIS PIPETYPE IS GOING AWAY DON'T READ IT
-
-  var filter = args[0];
-  var limit = args[1] - 1;
-
-  if (!state.edgeList) {
-    // initialize
-    if (!gremlin) return 'pull';
-    state.edgeList = [];
-    state.current = 0;
-    state.edgeList[0] = graph.findOutEdges(gremlin.vertex).filter(Dagoba.filterEdges(filter));
-  }
-
-  if (!state.edgeList[state.current].length) {
-    // finished this round
-    if (state.current >= limit || !state.edgeList[state.current + 1] // totally done, or the next round has no items
-    || !state.edgeList[state.current + 1].length) {
-      state.edgeList = false;
-      return 'pull';
-    }
-    state.current++; // go to next round
-    state.edgeList[state.current + 1] = [];
-  }
-
-  var vertex = state.edgeList[state.current].pop()._in;
-
-  if (state.current < limit) {
-    // add all our matching edges to the next level
-    if (!state.edgeList[state.current + 1]) state.edgeList[state.current + 1] = [];
-    state.edgeList[state.current + 1] = state.edgeList[state.current + 1].concat(graph.findOutEdges(vertex).filter(Dagoba.filterEdges(filter)));
-  }
-
-  return Dagoba.gotoVertex(gremlin, vertex);
-});
-
-Dagoba.addPipetype('inAllN', function (graph, args, gremlin, state) {
-
-  //// THIS PIPETYPE IS GOING AWAY DON'T READ IT
-
-  var filter = args[0];
-  var limit = args[1] - 1;
-
-  if (!state.edgeList) {
-    // initialize
-    if (!gremlin) return 'pull';
-    state.edgeList = [];
-    state.current = 0;
-    state.edgeList[0] = graph.findInEdges(gremlin.vertex).filter(Dagoba.filterEdges(filter));
-  }
-
-  if (!state.edgeList[state.current].length) {
-    // finished this round
-    if (state.current >= limit || !state.edgeList[state.current + 1] // totally done, or the next round has no items
-    || !state.edgeList[state.current + 1].length) {
-      state.edgeList = false;
-      return 'pull';
-    }
-    state.current++; // go to next round
-    state.edgeList[state.current + 1] = [];
-  }
-
-  var vertex = state.edgeList[state.current].pop()._out;
-
-  if (state.current < limit) {
-    // add all our matching edges to the next level
-    if (!state.edgeList[state.current + 1]) state.edgeList[state.current + 1] = [];
-    state.edgeList[state.current + 1] = state.edgeList[state.current + 1].concat(graph.findInEdges(vertex).filter(Dagoba.filterEdges(filter)));
-  }
-
-  return Dagoba.gotoVertex(gremlin.state, vertex);
-});
-
 Dagoba.addPipetype('property', function (graph, args, gremlin, state) {
   if (!gremlin) return 'pull'; // query initialization
   gremlin.result = gremlin.vertex[args[0]];
@@ -492,12 +401,6 @@ Dagoba.filterEdges = function (filter) {
     return Dagoba.objectFilter(edge, filter); // try the filter as an object
   };
 };
-// Dagoba.filterEdges = function(arg) {
-//   return function(thing) {
-//     return !arg ? true                                            // nothing is true
-//          : arg+'' === arg ? thing._label == arg                   // check the label
-//          : Array.isArray(arg) ? !!~arg.indexOf(thing._label)      // or a list of labels
-//          : Dagoba.objectFilter(thing, arg) } }                    // try it as an object
 
 Dagoba.objectFilter = function (thing, filter) {
   // thing has to match all of filter's properties
@@ -582,10 +485,6 @@ Dagoba.addAlias = function (newname, newprogram) {
       if (step[0] != newname) return acc.concat([step]);
       return acc.concat(newprogram);
     }, []);
-    // return program.map(function(step) {
-    //   if(step[0] != newname) return step
-    //   return [oldname, Dagoba.extend(step[1], defaults)]       // THINK: we need a way to thread alias params through
-    // })
   }, 100); // these need to run early, so they get a high priority
 };
 
@@ -600,44 +499,3 @@ Dagoba.extend = function (list, defaults) {
 Dagoba.remove = function (list, item) {
   return list.splice(list.indexOf(item), 1);
 };
-
-// more todos
-// - tune gremlins (collisions, history, etc)
-// - interface: show query pieces and params,
-// - interface: resumable queries
-// - generational queries
-// - intersections
-// - adverbs
-
-// TODO: show how to refactor 'out', 'outN', and 'outAllN' using adverbs. also the 'in' equivalents. also make adverbs.
-// TODO: deal with gremlin paths / history and gremlin "collisions"
-// THINK: the user may retain a pointer to vertex, which they might mutate later >.<
-// can take away user's ability to set _id and lose the index cache hash, because building it causes big rebalancing slowdowns and runs the GC hard. (or does it?) [this was with a million items, indexed by consecutive ints. generally we need settable _id because we need to grab vertices quickly by external key]
-
-
-/*
-        ---> no edge _id stuff
-        ---> simplify driver loop helpers
-        ---> refactor outAllN etc (mmm but adverbs?)
-        ---> leo's queries !
-*/
-
-// re: Dagoba.Q.addPipetype
-// TODO: accept string fun and allow extra params, for building quick aliases like
-//       Dagoba.addPipetype('children', 'out') <-- if all out edges are kids
-//       Dagoba.addPipetype('nthGGP', 'inN', 'parent')
-// var methods = ['out', 'in', 'take', 'property', 'outAllN', 'inAllN', 'unique', 'filter', 'outV', 'outE', 'inV', 'inE', 'both', 'bothV', 'bothE']
-
-
-// what if instead of mutating the query object for each new 'method' we create a new one? then you can have something like
-// x = G.v(1).out().out()
-// q = x.take(1)
-// y = x.take(10)
-// and it will do what you want instead of exploding.
-
-// or....
-// x = g.v(1).out().out()
-// y = D.clone(x).take(1)
-// x.take(1).run()
-// y.run() // same answer
-//# sourceMappingURL=dagoba.js.map
