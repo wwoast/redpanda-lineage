@@ -200,11 +200,11 @@ photo.37.author: kotata_513
 photo.37.commitdate: 2021/6/18
 photo.37.link: https://www.instagram.com/kotata_513/
 photo.37.tags: paws, sample, smile, tree
-photo.38: ig://CQOEb1MhlPR/m
+photo.38: cwdc://XoZwYu5ADQF.jpg
 photo.38.author: osopanda551
 photo.38.commitdate: 2021/6/18
-photo.38.link: https://www.instagram.com/osopanda551/
-photo.38.tags: door, laying down, playing, paws, portrait, smile, upside-down
+photo.38.link: ig://CQOEb1MhlPR
+photo.38.tags: door, laying down, paws, playing, portrait, smile, upside-down
 photo.39: ig://CQQX8PMBpRT/m
 photo.39.author: pink.b22
 photo.39.commitdate: 2021/6/18
@@ -240,11 +240,11 @@ photo.45.author: alto0908
 photo.45.commitdate: 2021/7/3
 photo.45.link: https://www.instagram.com/alto0908/
 photo.45.tags: paws, tail, upside-down
-photo.46: ig://CQiS5qphLb2/m
+photo.46: cwdc://XpCNUZzADQE.jpg
 photo.46.author: osopanda551
 photo.46.commitdate: 2021/7/3
-photo.46.link: https://www.instagram.com/osopanda551/
-photo.46.tags: bridge, laying down, paws, portrait, smile, wink
+photo.46.link: ig://CQiS5qphLb2
+photo.46.tags: bridge, laying down, paws, portrait, sample, smile, wink
 photo.47: ig://CQixKGvB2-a/m
 photo.47.author: redpan22
 photo.47.commitdate: 2021/7/3
@@ -275,11 +275,11 @@ photo.52.author: redpan22
 photo.52.commitdate: 2021/7/8
 photo.52.link: https://www.instagram.com/redpan22/
 photo.52.tags: bamboo, bite, portrait, sample
-photo.53: ig://CRC2AKWBJpO/m
+photo.53: cwdc://XqDThZMADQD.jpg
 photo.53.author: osopanda551
 photo.53.commitdate: 2021/7/9
-photo.53.link: https://www.instagram.com/osopanda551/
-photo.53.tags: door, portrait
+photo.53.link: ig://CRC2AKWBJpO
+photo.53.tags: door, portrait, sample
 photo.54: ig://CRJX4EqBpg4/m
 photo.54.author: kotata_513
 photo.54.commitdate: 2021/8/22
@@ -295,10 +295,10 @@ photo.56.author: mariten1119
 photo.56.commitdate: 2021/7/13
 photo.56.link: https://www.instagram.com/mariten1119/
 photo.56.tags: smile, tree
-photo.57: ig://CRScIjbhjRM/m
+photo.57: cwdc://XqifyLXADQC.jpg
 photo.57.author: osopanda551
 photo.57.commitdate: 2021/8/20
-photo.57.link: https://www.instagram.com/osopanda551/
+photo.57.link: ig://CRScIjbhjRM
 photo.57.tags: bridge, laying down, paws, portrait, sample, smile
 photo.58: ig://CRY5wp6hN4U/m
 photo.58.author: mini_cochi
@@ -792,3 +792,28 @@ photo.155.link: https://www.instagram.com/hamiiiii831_/
 photo.155.tags: bridge, laying down, paws, playing, sample
 species: 2
 zoo: 289
+photo.156: cwdc://X-FwpT_ADQA.jpg
+photo.156.author: osopanda551
+photo.156.commitdate: 2026/1/15
+photo.156.link: ig://CbEEkHvpkU0
+photo.156.tags: laying down, paws, portrait, tail, tree
+photo.157: cwdc://XXA6UNQADQB.jpg
+photo.157.author: osopanda551
+photo.157.commitdate: 2026/1/15
+photo.157.link: ig://CHhpZkYB7Wp
+photo.157.tags: baby, mofumofu, portrait, sample, whiskers
+photo.158: cwdc://XoPu0FGADQI.jpg
+photo.158.author: osopanda551
+photo.158.commitdate: 2026/1/15
+photo.158.link: ig://CQJDpgTBzba
+photo.158.tags: laying down, paws, portrait, sample, tail, tree
+photo.159: cwdc://XoZwYu5ADQG.jpg
+photo.159.author: osopanda551
+photo.159.commitdate: 2026/1/15
+photo.159.link: ig://CQOEb1MhlPS
+photo.159.tags: door, laying down, paws, playing, portrait, upside-down
+photo.160: cwdc://XoZwYu5ADQH.jpg
+photo.160.author: osopanda551
+photo.160.commitdate: 2026/1/15
+photo.160.link: ig://CQOEb1MhlPT
+photo.160.tags: door, laying down, paws, portrait, sample
