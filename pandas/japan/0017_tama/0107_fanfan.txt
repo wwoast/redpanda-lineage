@@ -45,21 +45,21 @@ photo.6.author: ssc6105
 photo.6.commitdate: 2019/12/23
 photo.6.link: https://www.instagram.com/ssc6105/
 photo.6.tags: portrait
-photo.7: ig://B52u1cSBxdg/m
+photo.7: cwdc://W7rFL9EADQE.jpg
 photo.7.author: osopanda551
 photo.7.commitdate: 2019/12/27
-photo.7.link: https://www.instagram.com/osopanda551/
-photo.7.tags: bamboo, laying down, portrait, tail, white face
+photo.7.link: ig://B52u1cSBxdg
+photo.7.tags: bamboo, laying down, portrait, sample, tail, white face
 photo.8: ig://B60ogWjBQ6B/m
 photo.8.author: mini_cochi
 photo.8.commitdate: 2020/1/30
 photo.8.link: https://www.instagram.com/mini_cochi/
 photo.8.tags: bamboo, portrait, smile, tongue
-photo.9: ig://B7I1JKmhOMz/m
+photo.9: cwdc://W-PRzZtADQA.jpg
 photo.9.author: osopanda551
 photo.9.commitdate: 2020/1/14
-photo.9.link: https://www.instagram.com/osopanda551/
-photo.9.tags: bamboo, mofumofu, old, portrait
+photo.9.link: ig://B7I1JKmhOMz
+photo.9.tags: bamboo, mofumofu, old, portrait, sample
 photo.10: cwdc://W-Y-RqTADQA.jpg
 photo.10.author: ck.chie
 photo.10.commitdate: 2020/1/14
@@ -266,3 +266,23 @@ video.1: https://youtu.be/AnjnjrW-9iw
 video.1.author: ガメ
 video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
 zoo: 17
+photo.50: cwdc://W-PRzZtADQB.jpg
+photo.50.author: osopanda551
+photo.50.commitdate: 2026/1/16
+photo.50.link: ig://B7I1JKmhOM1
+photo.50.tags: mofumofu, old, portrait, sample, tongue
+photo.51: cwdc://W-PRzZtADQC.jpg
+photo.51.author: osopanda551
+photo.51.commitdate: 2026/1/16
+photo.51.link: ig://B7I1JKmhOM2
+photo.51.tags: bamboo, mofumofu, old, portrait, sample, tongue
+photo.52: cwdc://W-PRzZtADQD.jpg
+photo.52.author: osopanda551
+photo.52.commitdate: 2026/1/16
+photo.52.link: ig://B7I1JKmhOM3
+photo.52.tags: bamboo, mofumofu, old, portrait, sample, techitechi
+photo.53: cwdc://XSleiypADQG.jpg
+photo.53.author: osopanda551
+photo.53.commitdate: 2026/1/16
+photo.53.link: ig://CFT7g3Ehdrm
+photo.53.tags: bamboo, mofumofu, old, portrait, sample

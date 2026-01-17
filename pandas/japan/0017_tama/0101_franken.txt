@@ -133,11 +133,11 @@ photo.24.author: osopanda551
 photo.24.commitdate: 2019/11/26
 photo.24.link: ig://BzzE1bYhFVh
 photo.24.tags: bridge, paws, portrait, sample, whiskers
-photo.25: ig://B0R_dNyBIms/m
+photo.25: cwdc://WwhmbgEADQA.jpg
 photo.25.author: osopanda551
 photo.25.commitdate: 2019/11/26
-photo.25.link: https://www.instagram.com/osopanda551/
-photo.25.tags: portrait
+photo.25.link: ig://B0R_dNyBIms
+photo.25.tags: portrait, sample, whiskers
 photo.26: ig://B0f3hlbhEmb/m
 photo.26.author: sasapan34
 photo.26.commitdate: 2019/7/31
@@ -328,11 +328,11 @@ photo.63.author: mini_cochi
 photo.63.commitdate: 2020/6/10
 photo.63.link: https://www.instagram.com/mini_cochi/
 photo.63.tags: door, paws, portrait, smile
-photo.64: ig://CAdB6qRBXzE/m
+photo.64: cwdc://XI3rWZCADQA.jpg
 photo.64.author: osopanda551
 photo.64.commitdate: 2020/6/10
-photo.64.link: https://www.instagram.com/osopanda551/
-photo.64.tags: laying down, portrait, sleeping, tail, tree
+photo.64.link: ig://CAdB6qRBXzE
+photo.64.tags: laying down, portrait, sleeping, tail, tree, wet
 photo.65: ig://CBMXNZRhYuZ/m
 photo.65.author: otenba_redpanda
 photo.65.commitdate: 2021/10/1
@@ -468,16 +468,16 @@ photo.91.author: otenba_redpanda
 photo.91.commitdate: 2021/10/2
 photo.91.link: https://www.instagram.com/otenba_redpanda/
 photo.91.tags: close-up, whiskers
-photo.92: ig://CKDVo6KBqzR/m
+photo.92: cwdc://XcESy40ADQA.jpg
 photo.92.author: osopanda551
 photo.92.commitdate: 2021/1/16
-photo.92.link: https://www.instagram.com/osopanda551/
-photo.92.tags: portrait, smile
-photo.93: ig://CPSb8CEBifg/m
+photo.92.link: ig://CKDVo6KBqzR
+photo.92.tags: portrait, sample, smile, whiskers
+photo.93: cwdc://XmifZIoADQA.jpg
 photo.93.author: osopanda551
 photo.93.commitdate: 2021/6/7
-photo.93.link: https://www.instagram.com/osopanda551/
-photo.93.tags: paws, portrait, whiskers
+photo.93.link: ig://CPSb8CEBifg
+photo.93.tags: paws, portrait, sample, whiskers
 photo.94: ig://CP8n2ynB3nv/m
 photo.94.author: eos1089
 photo.94.commitdate: 2021/7/3

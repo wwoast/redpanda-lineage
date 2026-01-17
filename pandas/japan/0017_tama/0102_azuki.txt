@@ -62,11 +62,11 @@ photo.10.author: sasapan34
 photo.10.commitdate: 2019/6/16
 photo.10.link: https://www.instagram.com/sasapan34/
 photo.10.tags: smile
-photo.11: ig://BzuEJ8rF71o/m
+photo.11: cwdc://WvZv092ADQQ.jpg
 photo.11.author: osopanda551
 photo.11.commitdate: 2019/11/26
-photo.11.link: https://www.instagram.com/osopanda551/
-photo.11.tags: portrait
+photo.11.link: ig://BzuEJ8rF71o
+photo.11.tags: peek, portrait, sample, whiskers
 photo.12: ig://B0VXtoQhjh0/m
 photo.12.author: ssc6105
 photo.12.commitdate: 2019/7/28
@@ -97,11 +97,11 @@ photo.17.author: mariten1119
 photo.17.commitdate: 2019/10/10
 photo.17.link: https://www.instagram.com/mariten1119/
 photo.17.tags: bamboo, lips
-photo.18: ig://B4gy2t6BO7F/m
+photo.18: cwdc://W4_NOgUADQO.jpg
 photo.18.author: osopanda551
 photo.18.commitdate: 2019/11/8
-photo.18.link: https://www.instagram.com/osopanda551/
-photo.18.tags: bamboo, paws, tongue
+photo.18.link: ig://B4gy2t6BO7F
+photo.18.tags: bamboo, bite, paws, portrait, sample, tongue, whiskers
 photo.19: ig://B4iuBTtnh0A/m
 photo.19.author: kipekaila
 photo.19.commitdate: 2019/11/8
@@ -112,11 +112,11 @@ photo.20.author: kotata_513
 photo.20.commitdate: 2019/11/8
 photo.20.link: https://www.instagram.com/kotata_513/
 photo.20.tags: paws, smile
-photo.21: ig://B5KaHWFBAU-/m
+photo.21: cwdc://W6SbvwqADQM.jpg
 photo.21.author: osopanda551
 photo.21.commitdate: 2019/11/24
-photo.21.link: https://www.instagram.com/osopanda551/
-photo.21.tags: bamboo, portrait, smile
+photo.21.link: ig://B5KaHWFBAU-
+photo.21.tags: bamboo, portrait, sample, smile, whiskers
 photo.22: ig://B5Kbpm2BvuS/m
 photo.22.author: ssc6105
 photo.22.commitdate: 2019/11/24
@@ -131,11 +131,11 @@ photo.24: ig://B5ma7nuBqOK/m
 photo.24.author: sasapan34
 photo.24.commitdate: 2019/12/7
 photo.24.link: https://www.instagram.com/sasapan34/
-photo.25: ig://B57q3DKB07V/m
+photo.25: cwdc://W709PK0ADQJ.jpg
 photo.25.author: osopanda551
 photo.25.commitdate: 2019/12/30
-photo.25.link: https://www.instagram.com/osopanda551/
-photo.25.tags: portrait
+photo.25.link: ig://B57q3DKB07V
+photo.25.tags: portrait, sample, whiskers
 photo.26: ig://B62Z8KMhUqn/m
 photo.26.author: ssc6105
 photo.26.commitdate: 2020/1/10
@@ -389,3 +389,78 @@ photo.75.tags: hammock, mofumofu, paws, portrait, sample
 species: 2
 studbook.id: 1091
 zoo: 17
+photo.76: cwdc://W-CunIbADQC.jpg
+photo.76.author: osopanda551
+photo.76.commitdate: 2026/1/16
+photo.76.link: ig://B7CjjB9hnLU
+photo.76.tags: paws, portrait, sample, whiskers
+photo.77: cwdc://W-CunIbADQD.jpg
+photo.77.author: osopanda551
+photo.77.commitdate: 2026/1/16
+photo.77.link: ig://B7CjjB9hnLV
+photo.77.tags: paws, peek, portrait, whiskers
+photo.78: cwdc://W-CunIbADQE.jpg
+photo.78.author: osopanda551
+photo.78.commitdate: 2026/1/16
+photo.78.link: ig://B7CjjB9hnLW
+photo.78.tags: bamboo, paws, portrait, whiskers
+photo.79: cwdc://W-CunIbADQF.jpg
+photo.79.author: osopanda551
+photo.79.commitdate: 2026/1/16
+photo.79.link: ig://B7CjjB9hnLX
+photo.79.tags: autumn, peek, portrait, sample
+photo.80: cwdc://W-CunIbADQG.jpg
+photo.80.author: osopanda551
+photo.80.commitdate: 2026/1/16
+photo.80.link: ig://B7CjjB9hnLY
+photo.80.tags: paws, portrait, sample, whiskers
+photo.81: cwdc://W-CunIbADQH.jpg
+photo.81.author: osopanda551
+photo.81.commitdate: 2026/1/16
+photo.81.link: ig://B7CjjB9hnLZ
+photo.81.tags: paws, portrait, sample, whiskers
+photo.82: cwdc://W4_NOgUADQP.jpg
+photo.82.author: osopanda551
+photo.82.commitdate: 2026/1/16
+photo.82.link: ig://B4gy2t6BO7G
+photo.82.tags: paws, portrait, sample, tree, whiskers
+photo.83: cwdc://W6SbvwqADQN.jpg
+photo.83.author: osopanda551
+photo.83.commitdate: 2026/1/16
+photo.83.link: ig://B5KaHWFBAU_
+photo.83.tags: bamboo, bite, portrait, tongue, whiskers
+photo.84: cwdc://W709PK0ADQK.jpg
+photo.84.author: osopanda551
+photo.84.commitdate: 2026/1/16
+photo.84.link: ig://B57q3DKB07W
+photo.84.tags: bamboo, bite, lips, portrait, sample
+photo.85: cwdc://W709PK0ADQL.jpg
+photo.85.author: osopanda551
+photo.85.commitdate: 2026/1/16
+photo.85.link: ig://B57q3DKB07X
+photo.85.tags: autumn, portrait
+photo.86: cwdc://W8XFGG_ADQI.jpg
+photo.86.author: osopanda551
+photo.86.commitdate: 2026/1/16
+photo.86.link: ig://B6MuyhPh651
+photo.86.tags: autumn, paws, tail
+photo.87: cwdc://WvXQNCvADQR.jpg
+photo.87.author: osopanda551
+photo.87.commitdate: 2026/1/16
+photo.87.link: ig://Bzs0V_HlgYX
+photo.87.tags: bamboo, peek, portrait
+photo.88: cwdc://XSleiypADQB.jpg
+photo.88.author: osopanda551
+photo.88.commitdate: 2026/1/16
+photo.88.link: ig://CFT7g3Ehdrp
+photo.88.tags: bamboo, portrait, sample, whiskers
+photo.89: cwdc://XfoRcjBADQA.jpg
+photo.89.author: osopanda551
+photo.89.commitdate: 2026/1/16
+photo.89.link: ig://CL1U9vQhSYJ
+photo.89.tags: portrait, tail, tongue, tree, upside-down
+photo.90: cwdc://ZMfCoZeADQA.jpg
+photo.90.author: osopanda551
+photo.90.commitdate: 2026/1/16
+photo.90.link: ig://DCQtjqfSE-E
+photo.90.tags: paws, portrait, sample, whiskers
