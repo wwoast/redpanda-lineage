@@ -13,8 +13,6 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1449
-species: 2
-zoo: 12
 photo.1: cwdc://ZrZvhW6ADQA.jpg
 photo.1.author: pantasanzoo1
 photo.1.commitdate: 2026/1/17
@@ -35,3 +33,5 @@ photo.4.author: pantasanzoo1
 photo.4.commitdate: 2026/1/17
 photo.4.link: ig://DRuEAJND8xX
 photo.4.tags: bamboo, mofumofu, wink
+species: 2
+zoo: 12
