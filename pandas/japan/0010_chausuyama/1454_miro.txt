@@ -4,11 +4,11 @@ birthday: 2025/8/4
 birthplace: 10
 children: none
 commitdate: 2025/8/10
-en.name: Baby
+en.name: Miró
 en.nicknames: none
-en.othernames: none
-gender: unknown
-ja.name: 赤ちゃん
+en.othernames: Milo, Miro
+gender: m
+ja.name: ミロ
 ja.nicknames: none
 ja.othernames: none
 language.order: ja, en

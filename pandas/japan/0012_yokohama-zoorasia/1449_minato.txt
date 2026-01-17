@@ -1,17 +1,17 @@
 [panda]
-_id: 1448
+_id: 1449
 birthday: 2025/6/25
 birthplace: 12
 children: none
 commitdate: 2025/8/5
-en.name: Baby
+en.name: Minato
 en.nicknames: none
 en.othernames: none
-gender: unknown
-ja.name: 赤ちゃん
+gender: m
+ja.name: ミナト
 ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
-litter: 1449
+litter: 1448
 species: 2
 zoo: 12
