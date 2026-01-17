@@ -20,7 +20,7 @@ ZOO_PATH = "./zoos"
 COMMIT_AGE = 7 * 24 * 60 * 60   # 7 days
 
 # IG alphabet for hashes, time ordering oldest to newest
-HASH_ORDER = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
+HASH_ORDER = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
 
 # Time conversion utility functions
 def current_date_to_unixtime():
