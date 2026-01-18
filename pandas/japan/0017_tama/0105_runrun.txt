@@ -352,9 +352,6 @@ photo.68.author: tamazoowalking
 photo.68.commitdate: 2023/8/23
 photo.68.link: https://www.instagram.com/tamazoowalking/
 photo.68.tags: grumpy, peek, portrait, sample, techitechi, whiskers
-species: 2
-studbook.id: 0770
-zoo: 17
 photo.69: cwdc://W1jswaTADQI.jpg
 photo.69.author: osopanda551
 photo.69.commitdate: 2026/1/16
@@ -375,33 +372,31 @@ photo.72.author: osopanda551
 photo.72.commitdate: 2026/1/16
 photo.72.link: ig://CFT7g3Ehdro
 photo.72.tags: close-up, portrait, sample, whiskers
-photo.73: cwdc://Xhy3RSJADQF.jpg
+photo.73: cwdc://Xks6NBxADQE.jpg
 photo.73.author: osopanda551
 photo.73.commitdate: 2026/1/16
-photo.73.link: ig://CM6n4G0hLak
-photo.73.tags: laying down, portrait, sleeping
-photo.74: cwdc://Xks6NBxADQE.jpg
+photo.73.link: ig://COXpV-ohxqY
+photo.73.tags: laying down, portrait, sample, tongue, whiskers
+photo.74: cwdc://YA55_YgADQC.jpg
 photo.74.author: osopanda551
 photo.74.commitdate: 2026/1/16
-photo.74.link: ig://COXpV-ohxqY
-photo.74.tags: laying down, portrait, sample, tongue, whiskers
-photo.75: cwdc://YA55_YgADQC.jpg
+photo.74.link: ig://CceJPKAP71p
+photo.74.tags: flowers, peek, portrait
+photo.75: cwdc://YAdNNO1ADQD.jpg
 photo.75.author: osopanda551
 photo.75.commitdate: 2026/1/16
-photo.75.link: ig://CceJPKAP71p
-photo.75.tags: flowers, peek, portrait
-photo.76: cwdc://YAdNNO1ADQD.jpg
+photo.75.link: ig://CcPy2FKrs-a
+photo.75.tags: laying down, paws, portrait, sample, sleeping
+photo.76: cwdc://YCtfSApADQB.jpg
 photo.76.author: osopanda551
 photo.76.commitdate: 2026/1/16
-photo.76.link: ig://CcPy2FKrs-a
-photo.76.tags: laying down, paws, portrait, sample, sleeping
-photo.77: cwdc://YCtfSApADQB.jpg
+photo.76.link: ig://CdX74eEr3s2
+photo.76.tags: grooming, paws, portrait, sample, tail, tongue
+photo.77: cwdc://YZZ8FEDADQA.jpg
 photo.77.author: osopanda551
 photo.77.commitdate: 2026/1/16
-photo.77.link: ig://CdX74eEr3s2
-photo.77.tags: grooming, paws, portrait, sample, tail, tongue
-photo.78: cwdc://YZZ8FEDADQA.jpg
-photo.78.author: osopanda551
-photo.78.commitdate: 2026/1/16
-photo.78.link: ig://CouKR_xv9Er
-photo.78.tags: bamboo, close-up, portrait, sample, wink
+photo.77.link: ig://CouKR_xv9Er
+photo.77.tags: bamboo, close-up, portrait, sample, wink
+species: 2
+studbook.id: 0770
+zoo: 17
