@@ -260,12 +260,6 @@ photo.49.author: mariten1119
 photo.49.commitdate: 2022/10/13
 photo.49.link: https://www.instagram.com/mariten1119/
 photo.49.tags: mofumofu, whiskers
-species: 2
-studbook.id: 9991
-video.1: https://youtu.be/AnjnjrW-9iw
-video.1.author: ガメ
-video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
-zoo: 17
 photo.50: cwdc://W-PRzZtADQB.jpg
 photo.50.author: osopanda551
 photo.50.commitdate: 2026/1/16
@@ -281,8 +275,9 @@ photo.52.author: osopanda551
 photo.52.commitdate: 2026/1/16
 photo.52.link: ig://B7I1JKmhOM3
 photo.52.tags: bamboo, mofumofu, old, portrait, sample, techitechi
-photo.53: cwdc://XSleiypADQG.jpg
-photo.53.author: osopanda551
-photo.53.commitdate: 2026/1/16
-photo.53.link: ig://CFT7g3Ehdrm
-photo.53.tags: bamboo, mofumofu, old, portrait, sample
+species: 2
+studbook.id: 9991
+video.1: https://youtu.be/AnjnjrW-9iw
+video.1.author: ガメ
+video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
+zoo: 17
