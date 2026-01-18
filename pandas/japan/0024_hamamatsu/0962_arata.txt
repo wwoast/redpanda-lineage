@@ -288,51 +288,51 @@ photo.55.author: tetusara.ki_
 photo.55.commitdate: 2020/1/6
 photo.55.link: ig://B6zL0fPBbqI
 photo.55.tags: portrait, sample, whiskers
-photo.56: cwdc://W_KqzxXADQD.jpg
-photo.56.author: fetorus_mami
-photo.56.commitdate: 2020/2/11
-photo.56.link: ig://B7mhpWbhYkk
-photo.56.tags: paws, peek, portrait, sample
-photo.57: cwdc://W_KqzxXADQE.jpg
-photo.57.author: fetorus_mami
-photo.57.commitdate: 2024/4/28
-photo.57.link: ig://B7mhpWbhYks
-photo.57.tags: paws, peek, portrait, sample
-photo.58: cwdc://W_KqzxXADQF.jpg
+photo.56: cwdc://W-KDXX9ADQQ.jpg
+photo.56.author: taka__3428
+photo.56.commitdate: 2024/4/28
+photo.56.link: ig://B7GN7Juhl0i
+photo.56.tags: home
+photo.57: cwdc://W-uVYIiADQR.jpg
+photo.57.author: taka__3428
+photo.57.commitdate: 2020/1/19
+photo.57.link: ig://B7YW7iBBqU-
+photo.57.tags: home, laying down
+photo.58: cwdc://W_KqzxXADQD.jpg
 photo.58.author: fetorus_mami
-photo.58.commitdate: 2024/4/28
-photo.58.link: ig://B7mhpWbhYkt
-photo.58.tags: blink, paws, portrait, techitechi, tongue
-photo.59: cwdc://W_MKPDjADQA.jpg
-photo.59.author: kisshan324
-photo.59.commitdate: 2020/2/13
-photo.59.link: ig://B7nRW_hhD8N
-photo.59.tags: bamboo, laying down, paws
-photo.60: cwdc://W_MKPDjADQB.jpg
-photo.60.author: kisshan324
+photo.58.commitdate: 2020/2/11
+photo.58.link: ig://B7mhpWbhYkk
+photo.58.tags: paws, peek, portrait, sample
+photo.59: cwdc://W_KqzxXADQE.jpg
+photo.59.author: fetorus_mami
+photo.59.commitdate: 2024/4/28
+photo.59.link: ig://B7mhpWbhYks
+photo.59.tags: paws, peek, portrait, sample
+photo.60: cwdc://W_KqzxXADQF.jpg
+photo.60.author: fetorus_mami
 photo.60.commitdate: 2024/4/28
-photo.60.link: ig://B7nRW_hhD8R
-photo.60.tags: bridge, mofumofu, portrait, sample
-photo.61: cwdc://W_eX9uhADQI.jpg
-photo.61.author: tetusara.ki_
-photo.61.commitdate: 2020/3/7
-photo.61.link: ig://B7wYOVAngqh
-photo.61.tags: keeper, mofumofu, portrait
-photo.62: cwdc://W_wxezmADQX.jpg
-photo.62.author: taka__3428
-photo.62.commitdate: 2020/2/13
-photo.62.link: ig://B75k-3jB5cC
-photo.62.tags: bamboo, paws, sample
-photo.63: cwdc://W-KDXX9ADQQ.jpg
-photo.63.author: taka__3428
-photo.63.commitdate: 2024/4/28
-photo.63.link: ig://B7GN7Juhl0i
-photo.63.tags: home
-photo.64: cwdc://W-uVYIiADQR.jpg
+photo.60.link: ig://B7mhpWbhYkt
+photo.60.tags: blink, paws, portrait, techitechi, tongue
+photo.61: cwdc://W_MKPDjADQA.jpg
+photo.61.author: kisshan324
+photo.61.commitdate: 2020/2/13
+photo.61.link: ig://B7nRW_hhD8N
+photo.61.tags: bamboo, laying down, paws
+photo.62: cwdc://W_MKPDjADQB.jpg
+photo.62.author: kisshan324
+photo.62.commitdate: 2024/4/28
+photo.62.link: ig://B7nRW_hhD8R
+photo.62.tags: bridge, mofumofu, portrait, sample
+photo.63: cwdc://W_eX9uhADQI.jpg
+photo.63.author: tetusara.ki_
+photo.63.commitdate: 2020/3/7
+photo.63.link: ig://B7wYOVAngqh
+photo.63.tags: keeper, mofumofu, portrait
+photo.64: cwdc://W_wxezmADQX.jpg
 photo.64.author: taka__3428
-photo.64.commitdate: 2020/1/19
-photo.64.link: ig://B7YW7iBBqU-
-photo.64.tags: home, laying down
+photo.64.commitdate: 2020/2/13
+photo.64.link: ig://B75k-3jB5cC
+photo.64.tags: bamboo, paws, sample
 photo.65: cwdc://XAQIKnIADQS.jpg
 photo.65.author: taka__3428
 photo.65.commitdate: 2020/2/13
@@ -1323,10 +1323,10 @@ photo.262.author: hamamatsu.chiita
 photo.262.commitdate: 2025/7/17
 photo.262.link: ig://DB9rtIhzAxe
 photo.262.tags: portrait, sample, whiskers
-species: 2
-zoo: 24
 photo.263: cwdc://ZNX-hylADQA.jpg
 photo.263.author: osopanda551
 photo.263.commitdate: 2026/1/17
 photo.263.link: ig://DCtLgXCyvxg
 photo.263.tags: paws, portrait, sample, tongue, whiskers
+species: 2
+zoo: 24
