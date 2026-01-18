@@ -163,11 +163,11 @@ photo.32.author: ayusuke56
 photo.32.commitdate: 2019/9/5
 photo.32.link: https://www.instagram.com/ayusuke56/
 photo.32.tags: air tasting, portrait, tongue, window
-photo.33: ig://B2Bg2hAhcW_/m
+photo.33: cwdc://W0ApOGhADQA.jpg
 photo.33.author: osopanda551
 photo.33.commitdate: 2019/11/6
-photo.33.link: https://www.instagram.com/osopanda551/
-photo.33.tags: portrait, techitechi, whiskers, white face
+photo.33.link: ig://B2Bg2hAhcW_
+photo.33.tags: close-up, portrait, sample, techitechi, whiskers, white face
 photo.34: ig://B2G4PJVBkKg/m
 photo.34.author: ayusuke56
 photo.34.commitdate: 2019/9/10
@@ -450,3 +450,8 @@ photo.89.tags: mofumofu, tail, whiskers
 species: 2
 studbook.id: 15156
 zoo: 10
+photo.90: cwdc://W0ApOGhADQB.jpg
+photo.90.author: osopanda551
+photo.90.commitdate: 2026/1/17
+photo.90.link: ig://B2Bg2hAhcXA
+photo.90.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers

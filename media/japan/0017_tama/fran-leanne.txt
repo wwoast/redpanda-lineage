@@ -37,11 +37,11 @@ photo.5.link: https://www.instagram.com/hamiiiii831_/
 photo.5.tags: door, paws, siblings, sisters, twins
 photo.5.tags.1197.location: 110, 200
 photo.5.tags.1198.location: 325, 220
-photo.6: ig://CQBNYpEBdp_/l
+photo.6: cwdc://XoACSWoADQD.jpg
 photo.6.author: osopanda551
 photo.6.commitdate: 2022/3/4
-photo.6.link: https://www.instagram.com/osopanda551/
-photo.6.tags: playing, portrait, smile, siblings, sisters, smile, tail, twins
+photo.6.link: ig://CQBNYpEBdp_
+photo.6.tags: playing, portrait, siblings, sisters, smile, tail, twins
 photo.6.tags.1197.location: 350, 360
 photo.6.tags.1198.location: 500, 260
 photo.7: ig://CQa-_gJhJTs/l
@@ -58,10 +58,10 @@ photo.8.link: https://www.instagram.com/panda.daisuki/
 photo.8.tags: playing, portrait, siblings, sisters, smile, twins
 photo.8.tags.1197.location: 400, 120
 photo.8.tags.1198.location: 130, 280
-photo.9: ig://CQj7dT2BaIF/l
+photo.9: cwdc://XpFebsMADQE.jpg
 photo.9.author: osopanda551
 photo.9.commitdate: 2022/3/4
-photo.9.link: https://www.instagram.com/osopanda551/
+photo.9.link: ig://CQj7dT2BaIF
 photo.9.tags: playing, portrait, siblings, sisters, smile, tail, twins
 photo.9.tags.1197.location: 190, 220
 photo.9.tags.1198.location: 310, 235
@@ -72,10 +72,10 @@ photo.10.link: https://www.instagram.com/na.mo.pan/
 photo.10.tags: playing, siblings, sisters, twins
 photo.10.tags.1197.location: 350, 170
 photo.10.tags.1198.location: 220, 320
-photo.11: ig://CQ5oRWmBAMm/l
+photo.11: cwdc://Xpw4DxsADQC.jpg
 photo.11.author: osopanda551
 photo.11.commitdate: 2021/7/9
-photo.11.link: https://www.instagram.com/osopanda551/
+photo.11.link: ig://CQ5oRWmBAMm
 photo.11.tags: playing, siblings, sisters, twins
 photo.11.tags.1197.location: 330, 175
 photo.11.tags.1198.location: 365, 255
@@ -93,10 +93,10 @@ photo.13.link: https://www.instagram.com/miis_98/
 photo.13.tags: laying down, siblings, sisters, tree, twins
 photo.13.tags.1197.location: 340, 115
 photo.13.tags.1198.location: 300, 425
-photo.14: ig://CRL8HoZBzrc/l
+photo.14: cwdc://XqVfwVSADQF.jpg
 photo.14.author: osopanda551
 photo.14.commitdate: 2021/7/13
-photo.14.link: https://www.instagram.com/osopanda551/
+photo.14.link: ig://CRL8HoZBzrc
 photo.14.tags: laying down, paws, playing, portrait, siblings, sisters, twins
 photo.14.tags.1197.location: 295, 150
 photo.14.tags.1198.location: 105, 295
@@ -156,10 +156,40 @@ photo.22.link: https://www.instagram.com/ssc6105/
 photo.22.tags: paws, playing, siblings, sisters, tail, twins
 photo.22.tags.1197.location: 290, 360
 photo.22.tags.1198.location: 420, 225
-photo.23: ig://CauJSOzLrFA/l
+photo.23: cwdc://X9Z6FiGADQA.jpg
 photo.23.author: osopanda551
 photo.23.commitdate: 2022/4/10
-photo.23.link: https://www.instagram.com/osopanda551/
-photo.23.tags: door, laying down, portrait, siblings, sisters, smile, twins
+photo.23.link: ig://CauJSOzLrFA
+photo.23.tags: door, laying down, portrait, sample, siblings, sisters, smile, twins
 photo.23.tags.1197.location: 425, 305
 photo.23.tags.1198.location: 225, 300
+photo.24: cwdc://Xn7A67tADQB.jpg
+photo.24.author: osopanda551
+photo.24.commitdate: 2026/1/17
+photo.24.link: ig://CP-ss7mhDaN
+photo.24.tags: door, laying down, portrait, sample, siblings, smile, sisters, twins
+photo.25: cwdc://XqVfwVSADQG.jpg
+photo.25.author: osopanda551
+photo.25.commitdate: 2026/1/17
+photo.25.link: ig://CRL8HoZBzrd
+photo.25.tags: laying down, paws, playing, portrait, siblings, twins
+photo.26: cwdc://XqVfwVSADQH.jpg
+photo.26.author: osopanda551
+photo.26.commitdate: 2026/1/17
+photo.26.link: ig://CRL8HoZBzre
+photo.26.tags: laying down, paws, playing, portrait, siblings, twins
+photo.27: cwdc://XrYI6_wADQI.jpg
+photo.27.author: osopanda551
+photo.27.commitdate: 2026/1/17
+photo.27.link: ig://CRtQs9oBrlD
+photo.27.tags: playing, portrait, siblings, twins, wet
+photo.28: cwdc://XrYI6_wADQJ.jpg
+photo.28.author: osopanda551
+photo.28.commitdate: 2026/1/17
+photo.28.link: ig://CRtQs9oBrlE
+photo.28.tags: playing, portrait, siblings, sisters, twins
+photo.29: cwdc://Xzqq6KoADQK.jpg
+photo.29.author: osopanda551
+photo.29.commitdate: 2026/1/17
+photo.29.link: ig://CV2hsjEBIIc
+photo.29.tags: paws, playing, portrait, siblings, sisters, twins

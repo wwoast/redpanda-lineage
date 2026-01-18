@@ -172,11 +172,11 @@ photo.32.author: minatomirai215
 photo.32.commitdate: 2020/7/14
 photo.32.link: https://www.instagram.com/minatomirai215/
 photo.32.tags: apple time, mofumofu, paws, portrait, smile
-photo.33: ig://CCdYci-BIoN/m
+photo.33: cwdc://XM4YaKcADQA.jpg
 photo.33.author: osopanda551
 photo.33.commitdate: 2020/7/13
-photo.33.link: https://www.instagram.com/osopanda551/
-photo.33.tags: bamboo, lips, portrait
+photo.33.link: ig://CCdYci-BIoN
+photo.33.tags: bamboo, lips, mofumofu, portrait, sample, whiskers
 photo.34: ig://CC11A3bBjC5/m
 photo.34.author: otenba_redpanda
 photo.34.commitdate: 2021/10/2
@@ -378,3 +378,8 @@ video.1: https://youtu.be/Mnfw3xe6c6Y
 video.1.author: ガメ
 video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
 zoo: 12
+photo.73: cwdc://XM4YaKcADQB.jpg
+photo.73.author: osopanda551
+photo.73.commitdate: 2026/1/17
+photo.73.link: ig://CCdYci-BIoO
+photo.73.tags: bamboo, lips, mofumofu, portrait, sample, tongue

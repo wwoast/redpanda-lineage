@@ -219,11 +219,11 @@ photo.41.author: pantasanzoo1
 photo.41.commitdate: 2019/8/23
 photo.41.link: https://www.instagram.com/pantasanzoo1/
 photo.41.tags: apple time, paws, whiskers, window
-photo.42: ig://B1dett7BWHh/m
+photo.42: cwdc://Wy4k8gWADQA.jpg
 photo.42.author: osopanda551
 photo.42.commitdate: 2019/11/6
-photo.42.link: https://www.instagram.com/osopanda551/
-photo.42.tags: apple time, paws, portrait, standing, smile
+photo.42.link: ig://B1dett7BWHh
+photo.42.tags: apple time, paws, portrait, sample, smile, standing
 photo.43: ig://B1lqz6zhu9_/m
 photo.43.author: minatomirai215
 photo.43.commitdate: 2019/8/29
@@ -239,11 +239,11 @@ photo.45.author: ck.chie
 photo.45.commitdate: 2019/9/10
 photo.45.link: ig://B2L2rgdBZ5G
 photo.45.tags: keeper, smile, tongue
-photo.46: ig://B2Mcw1aBod6/m
+photo.46: cwdc://W0WhCvUADQC.jpg
 photo.46.author: osopanda551
 photo.46.commitdate: 2019/11/6
-photo.46.link: https://www.instagram.com/osopanda551/
-photo.46.tags: portrait, smile, tree, whiskers
+photo.46.link: ig://B2Mcw1aBod6
+photo.46.tags: portrait, sample, smile, tree, whiskers
 photo.47: ig://B23GePJBiog/m
 photo.47.author: pantasanzoo1
 photo.47.commitdate: 2019/10/6
@@ -672,3 +672,18 @@ photo.131.tags: blink, portrait, tail, yawn
 species: 2
 studbook.id: 1683
 zoo: 12
+photo.132: cwdc://W22DL9pADQD.jpg
+photo.132.author: osopanda551
+photo.132.commitdate: 2026/1/17
+photo.132.link: ig://B3cN1ckh0PV
+photo.132.tags: apple time, paws, portrait, sample, tongue, whiskers
+photo.133: cwdc://Wy4k8gWADQB.jpg
+photo.133.author: osopanda551
+photo.133.commitdate: 2026/1/17
+photo.133.link: ig://B1dett7BWHi
+photo.133.tags: apple time, paws, portrait, sample, standing, whiskers
+photo.134: cwdc://XE__D1nADQE.jpg
+photo.134.author: osopanda551
+photo.134.commitdate: 2026/1/17
+photo.134.link: ig://B-hLxYjhUKC
+photo.134.tags: apple time, paws, portrait, sample, smile, standing, whiskers

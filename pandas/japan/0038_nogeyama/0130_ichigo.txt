@@ -211,16 +211,16 @@ photo.39.author: minatomirai215
 photo.39.commitdate: 2019/10/12
 photo.39.link: https://www.instagram.com/minatomirai215/
 photo.39.tags: paws, portrait
-photo.40: ig://B3b2jkhHkZ_/m
+photo.40: cwdc://W21UoNiADQD.jpg
 photo.40.author: osopanda551
 photo.40.commitdate: 2019/12/5
-photo.40.link: https://www.instagram.com/osopanda551/
-photo.40.tags: paws, portrait, smile, standing
-photo.41: ig://B3jkpSgBbSy/m
+photo.40.link: ig://B3b2jkhHkZ_
+photo.40.tags: keeper, paws, portrait, sample, smile, standing
+photo.41: cwdc://W3EwzpgADQF.jpg
 photo.41.author: osopanda551
 photo.41.commitdate: 2019/12/5
-photo.41.link: https://www.instagram.com/osopanda551/
-photo.41.tags: apple time, blink, portrait, smile, standing
+photo.41.link: ig://B3jkpSgBbSy
+photo.41.tags: apple time, blink, paws, portrait, smile, standing, whiskers
 photo.42: ig://B36_tq3BFwH/m
 photo.42.author: yakko____
 photo.42.commitdate: 2019/10/23
@@ -874,3 +874,28 @@ photo.171.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 12117
 zoo: 38
+photo.172: cwdc://W21UoNiADQA.jpg
+photo.172.author: osopanda551
+photo.172.commitdate: 2026/1/17
+photo.172.link: ig://B3b2jkhHkaA
+photo.172.tags: paws, portrait, sample, standing, tail, whiskers
+photo.173: cwdc://W21UoNiADQB.jpg
+photo.173.author: osopanda551
+photo.173.commitdate: 2026/1/17
+photo.173.link: ig://B3b2jkhHkaB
+photo.173.tags: apple time, paws, keeper, portrait, sample, standing, whiskers
+photo.174: cwdc://W21UoNiADQC.jpg
+photo.174.author: osopanda551
+photo.174.commitdate: 2026/1/17
+photo.174.link: ig://B3b2jkhHkaC
+photo.174.tags: apple time, keeper, paws, portrait, sample, standing, whiskers
+photo.175: cwdc://W3EwzpgADQE.jpg
+photo.175.author: osopanda551
+photo.175.commitdate: 2026/1/17
+photo.175.link: ig://B3jkpSgBbS1
+photo.175.tags: apple time, paws, portrait, sample, standing
+photo.176: cwdc://W3EwzpgADQG.jpg
+photo.176.author: osopanda551
+photo.176.commitdate: 2026/1/17
+photo.176.link: ig://B3jkpSgBbSz
+photo.176.tags: apple time, keeper, paws, portrait, sample, standing, whiskers
