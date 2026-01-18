@@ -21,6 +21,8 @@ photo.3.author: osopanda551
 photo.3.commitdate: 2026/1/17
 photo.3.link: ig://Clif5ViORJ3
 photo.3.tags: baby, brothers, portrait, sample, siblings, twins
+photo.3.tags.1383.location: 260, 480
+photo.3.tags.1384.location: 595, 210
 photo.4: cwdc://YVTcy-0ADQA.jpg
 photo.4.author: tamazoowalking
 photo.4.commitdate: 2023/1/14
@@ -110,31 +112,43 @@ photo.16.author: osopanda551
 photo.16.commitdate: 2026/1/17
 photo.16.link: ig://CrmsHgvvcog
 photo.16.tags: brothers, paws, portrait, sample, siblngs, twins
+photo.16.tags.1383.location: 190, 435
+photo.16.tags.1384.location: 480, 250
 photo.17: cwdc://YgOeQbxADQE.jpg
 photo.17.author: osopanda551
 photo.17.commitdate: 2026/1/17
 photo.17.link: ig://CsIbXrovDfp
 photo.17.tags: brothers, paws, playing, portrait, siblings, twins
+photo.17.tags.1383.location: 35, 520
+photo.17.tags.1384.location: 590, 350
 photo.18: cwdc://Ygo0SbIADQF.jpg
 photo.18.author: osopanda551
 photo.18.commitdate: 2026/1/17
 photo.18.link: ig://CsVmYrUPsL1
 photo.18.tags: brothers, playing, portrait, siblings, twins
+photo.18.tags.1383.location: 455, 325
+photo.18.tags.1384.location: 645, 605
 photo.19: cwdc://YiPwmcKADQG.jpg
 photo.19.author: osopanda551
 photo.19.commitdate: 2026/1/17
 photo.19.link: ig://CtJEir1Pk5A
 photo.19.tags: brothers, paws, playing, portrait, siblings, smile, twins, whiskers
+photo.19.tags.1383.location: 600, 550
+photo.19.tags.1384.location: 370, 230
 photo.20: cwdc://YiPwmcKADQH.jpg
 photo.20.author: osopanda551
 photo.20.commitdate: 2026/1/17
 photo.20.link: ig://CtJEir1Pk5B
 photo.20.tags: brothers, playing, portrait, siblings, twins
+photo.20.tags.1383.location: 230, 455
+photo.20.tags.1384.location: 530, 300
 photo.21: cwdc://YiPwmcKADQI.jpg
 photo.21.author: osopanda551
 photo.21.commitdate: 2026/1/17
 photo.21.link: ig://CtJEir1Pk5C
 photo.21.tags: brothers, paws, playing, portrait, sample, siblings, twins, whiskers
+photo.21.tags.1383.location: 210, 480
+photo.21.tags.1384.location: 605, 185
 photo.22: cwdc://YolpT54ADQD.jpg
 photo.22.author: tamazoowalking
 photo.22.commitdate: 2023/11/18
@@ -161,8 +175,12 @@ photo.25.author: osopanda551
 photo.25.commitdate: 2026/1/17
 photo.25.link: ig://C3jT63xPJtK
 photo.25.tags: brothers, portrait, siblings, snow, twins
+photo.25.tags.1383.location: 335, 390
+photo.25.tags.1384.location: 485, 165
 photo.26: cwdc://Y3LqR47ADQB.jpg
 photo.26.author: osopanda551
 photo.26.commitdate: 2026/1/17
 photo.26.link: ig://C3nBYaNv1jB
 photo.26.tags: brothers, playing, portrait, siblings, snow, tail, twins, wet
+photo.26.tags.1383.location: 460, 575
+photo.26.tags.1384.location: 230, 200
