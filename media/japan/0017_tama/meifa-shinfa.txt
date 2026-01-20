@@ -135,25 +135,25 @@ photo.19.link: https://www.instagram.com/kotata_513/
 photo.19.tags: siblings, sisters, tree, twins
 photo.19.tags.948.location: 720, 210
 photo.19.tags.949.location: 500, 400
-photo.20: ig://B8gjQmFh_iM/m
+photo.20: cwdc://XA-uCQrADQA.jpg
 photo.20.author: alto0908
 photo.20.commitdate: 2020/3/6
-photo.20.link: https://www.instagram.com/alto0908/
-photo.20.tags: siblings, sisters, tree, twins
+photo.20.link: ig://B8gjQmFh_iM
+photo.20.tags: portrait, sample, siblings, sisters, tree, twins
 photo.20.tags.948.location: 235, 215
 photo.20.tags.949.location: 210, 110
-photo.21: ig://B8iIDrRBC16/m
+photo.21: cwdc://XBB3obCADQC.jpg
 photo.21.author: alto0908
 photo.21.commitdate: 2020/3/6
-photo.21.link: https://www.instagram.com/alto0908/
-photo.21.tags: siblings, sisters, tree, twins
+photo.21.link: ig://B8iIDrRBC16
+photo.21.tags: mofumofu, portrait, sample, siblings, sisters, tree, twins
 photo.21.tags.948.location: 115, 35
 photo.21.tags.949.location: 175, 135
-photo.22: ig://B8iJSKmBvEP/m
+photo.22: cwdc://XBB6FZsADQF.jpg
 photo.22.author: alto0908
 photo.22.commitdate: 2020/3/6
-photo.22.link: https://www.instagram.com/alto0908/
-photo.22.tags: siblings, sisters, tail, tree, twins
+photo.22.link: ig://B8iJSKmBvEP
+photo.22.tags: mofumofu, portrait, sample, siblings, sisters, tail, tree, twins
 photo.22.tags.948.location: 135, 35
 photo.22.tags.949.location: 155, 130
 photo.23: cwdc://XBNNvaHADQC.jpg
@@ -205,11 +205,11 @@ photo.29.link: ig://B9aevByBD0f
 photo.29.tags: autumn, portrait, sample, siblings, sisters, tail, twins
 photo.29.tags.948.location: 95, 165
 photo.29.tags.949.location: 275, 240
-photo.30: ig://B9aigGmhMe_/m
+photo.30: cwdc://XCyshRtADQG.jpg
 photo.30.author: alto0908
 photo.30.commitdate: 2020/3/10
-photo.30.link: https://www.instagram.com/alto0908/
-photo.30.tags: playing, siblings, sisters, tail, twins
+photo.30.link: ig://B9aigGmhMe_
+photo.30.tags: paws, playing, portrait, sample siblings, siblings, sisters, tail, twins, whiskers
 photo.30.tags.948.location: 120, 85
 photo.30.tags.949.location: 220, 110
 photo.31: ig://CBmQxHdJC0c/l
@@ -226,11 +226,11 @@ photo.32.link: https://www.instagram.com/mini_cochi/
 photo.32.tags: door, portrait, siblings, sisters, twins
 photo.32.tags.948.location: 265, 215
 photo.32.tags.949.location: 490, 275
-photo.33: ig://CPsmd4uBt_h/l
+photo.33: cwdc://XnW0c18ADQA.jpg
 photo.33.author: fetorus_mami
 photo.33.commitdate: 2021/8/11
-photo.33.link: https://www.instagram.com/fetorus_mami/
-photo.33.tags: door, portrait, siblings, sisters, twins
+photo.33.link: ig://CPsmd4uBt_h
+photo.33.tags: autumn, door, portrait, sample, siblings, sisters, twins, whiskers
 photo.33.tags.948.location: 300, 245
 photo.33.tags.949.location: 155, 200
 photo.34: ig://CQTKWLKh5Xm/l
@@ -688,3 +688,28 @@ photo.98.link: ig://CfXsDZWp8wL
 photo.98.tags: paws, playing, portrait, siblings, sisters, snow, twins, whiskers
 photo.98.tags.948.location: 480, 250
 photo.98.tags.949.location: 185, 535
+photo.99: cwdc://XA-uCQrADQB.jpg
+photo.99.author: alto0908
+photo.99.commitdate: 2026/1/20
+photo.99.link: ig://B8gjQmFh_iN
+photo.99.tags: mofumofu, portrait, sample, siblings, tree, twins, whiskers
+photo.100: cwdc://XBB3obCADQD.jpg
+photo.100.author: alto0908
+photo.100.commitdate: 2026/1/20
+photo.100.link: ig://B8iIDrRBC17
+photo.100.tags: mofumofu, portrait, sample, siblings, smile, tree, twins, whiskers
+photo.101: cwdc://XBB3obCADQE.jpg
+photo.101.author: alto0908
+photo.101.commitdate: 2026/1/20
+photo.101.link: ig://B8iIDrRBC18
+photo.101.tags: bridge, peek, portrait, sample, siblings, tree, twins
+photo.102: cwdc://XCv_fTGADQH.jpg
+photo.102.author: alto0908
+photo.102.commitdate: 2026/1/20
+photo.102.link: ig://B9ZL_HTB8sy
+photo.102.tags: mofumofu, portrait, siblings, sisters, twins
+photo.103: cwdc://XCv_fTGADQI.jpg
+photo.103.author: alto0908
+photo.103.commitdate: 2026/1/20
+photo.103.link: ig://B9ZL_HTB8sz
+photo.103.tags: mofumofu, paws, portrait, siblings, sisters, twins

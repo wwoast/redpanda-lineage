@@ -42,11 +42,11 @@ photo.5.tags: family, door
 photo.5.tags.103.location: 180, 220
 photo.5.tags.948.location: 100, 180
 photo.5.tags.949.location: 235, 195
-photo.6: ig://B8uj1T-hQ6q/l
+photo.6: cwdc://XBavLsdADQA.jpg
 photo.6.author: alto0908
 photo.6.commitdate: 2020/3/6
-photo.6.link: https://www.instagram.com/alto0908/
-photo.6.tags: bamboo, bridge, family
+photo.6.link: ig://B8uj1T-hQ6q
+photo.6.tags: bamboo, bridge, family, portrait
 photo.6.tags.103.location: 375, 500
 photo.6.tags.948.location: 260, 360
 photo.6.tags.949.location: 1000, 675
@@ -58,27 +58,27 @@ photo.7.tags: family, tail
 photo.7.tags.103.location: 825, 120
 photo.7.tags.948.location: 490, 240
 photo.7.tags.949.location: 195, 470
-photo.8: ig://B9J6mxjBCRh/m
+photo.8: cwdc://XCRcunmADQB.jpg
 photo.8.author: alto0908
 photo.8.commitdate: 2020/3/10
-photo.8.link: https://www.instagram.com/alto0908/
-photo.8.tags: door, family
+photo.8.link: ig://B9J6mxjBCRh
+photo.8.tags: door, family, peek, portrait
 photo.8.tags.103.location: 185, 210
 photo.8.tags.948.location: 155, 205
 photo.8.tags.949.location: 255, 205
-photo.9: ig://B9SqbmJBbDR/m
+photo.9: cwdc://XCi8YQyADQC.jpg
 photo.9.author: alto0908
 photo.9.commitdate: 2020/3/10
-photo.9.link: https://www.instagram.com/alto0908/
-photo.9.tags: family, tree
+photo.9.link: ig://B9SqbmJBbDR
+photo.9.tags: family, portrait, tail, tree
 photo.9.tags.103.location: 150, 130
 photo.9.tags.948.location: 135, 95
 photo.9.tags.949.location: 130, 30
-photo.10: ig://B9XzIWshq4U/l
+photo.10: cwdc://XCtNxx5ADQD.jpg
 photo.10.author: alto0908
 photo.10.commitdate: 2020/3/10
-photo.10.link: https://www.instagram.com/alto0908/
-photo.10.tags: family, playing
+photo.10.link: ig://B9XzIWshq4U
+photo.10.tags: family, playing, portrait, smile
 photo.10.tags.103.location: 210, 550
 photo.10.tags.948.location: 855, 535
 photo.10.tags.949.location: 440, 420
@@ -186,3 +186,8 @@ photo.23.tags: door, family, paws, portrait, sample, siblings, sisters, twins, w
 photo.23.tags.103.location: 520, 565
 photo.23.tags.948.location: 165, 295
 photo.23.tags.949.location: 625, 375
+photo.24: cwdc://XCtNxx5ADQE.jpg
+photo.24.author: alto0908
+photo.24.commitdate: 2026/1/20
+photo.24.link: ig://B9XzIWshq4V
+photo.24.tags: family, paws, playing, portrait, smile, tail
