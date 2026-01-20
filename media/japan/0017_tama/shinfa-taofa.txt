@@ -2,11 +2,11 @@
 _id: media.17.shinfa-taofa
 commitdate: 2021/10/3
 panda.tags: 103, 948
-photo.1: ig://CTqQTPyBqm0/m
+photo.1: cwdc://XvSIHkEADQA.jpg
 photo.1.author: otenba_redpanda
 photo.1.commitdate: 2021/10/3
-photo.1.link: https://www.instagram.com/otenba_redpanda/
-photo.1.tags: door, mother's day, portrait, whiskers
+photo.1.link: ig://CTqQTPyBqm0
+photo.1.tags: door, mother's day, paws, portrait, sample, whiskers
 photo.1.tags.103.location: 75, 160
 photo.1.tags.948.location: 200, 130
 photo.2: ig://CWhH-PnhT4l/l
@@ -44,3 +44,8 @@ photo.6.link: ig://CClKHo-BwBj
 photo.6.tags: mother's day, paws, playing, portrait
 photo.6.tags.103.location: 300, 230
 photo.6.tags.948.location: 610, 335
+photo.7: cwdc://X9vPhkBADQA.jpg
+photo.7.author: mini_cochi
+photo.7.commitdate: 2026/1/20
+photo.7.link: ig://Ca40APwr7PW
+photo.7.tags: door, mother's day, paws, portrait, sample, whiskers

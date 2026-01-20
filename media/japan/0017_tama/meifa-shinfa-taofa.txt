@@ -2,10 +2,10 @@
 _id: media.17.meifa-shinfa-taofa
 commitdate: 2020/3/6
 panda.tags: 103, 948, 949
-photo.1: ig://B8PiYH9h2v6/l
+photo.1: cwdc://XAcsRUbADQA.jpg
 photo.1.author: kotata_513
 photo.1.commitdate: 2020/3/6
-photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.link: ig://B8PiYH9h2v6
 photo.1.tags: door, family
 photo.1.tags.103.location: 645, 545
 photo.1.tags.948.location: 390, 555
@@ -18,10 +18,10 @@ photo.2.tags: bamboo, family, tree
 photo.2.tags.103.location: 645, 410
 photo.2.tags.948.location: 100, 500
 photo.2.tags.949.location: 240, 270
-photo.3: ig://B8gzcwmB4pS/l
+photo.3: cwdc://XA_OalsADQA.jpg
 photo.3.author: mini_cochi
 photo.3.commitdate: 2020/3/6
-photo.3.link: https://www.instagram.com/mini_cochi/
+photo.3.link: ig://B8gzcwmB4pS
 photo.3.tags: family
 photo.3.tags.103.location: 770, 880
 photo.3.tags.948.location: 415, 250
@@ -90,11 +90,11 @@ photo.11.tags: family, siblings, sisters, tail, twins, whiskers
 photo.11.tags.103.location: 5, 65
 photo.11.tags.948.location: 165, 205
 photo.11.tags.949.location: 35, 130
-photo.12: ig://CHoSquah0d0/m
+photo.12: cwdc://XXOM2hVADQA.jpg
 photo.12.author: otenba_redpanda
 photo.12.commitdate: 2021/10/3
-photo.12.link: https://www.instagram.com/otenba_redpanda/
-photo.12.tags: door, family, portrait, whiskers
+photo.12.link: ig://CHoSquah0d0
+photo.12.tags: door, family, paws, portrait, sample, whiskers
 photo.12.tags.103.location: 50, 155
 photo.12.tags.948.location: 175, 145
 photo.12.tags.949.location: 255, 120
@@ -191,3 +191,18 @@ photo.24.author: alto0908
 photo.24.commitdate: 2026/1/20
 photo.24.link: ig://B9XzIWshq4V
 photo.24.tags: family, paws, playing, portrait, smile, tail
+photo.25: cwdc://X-NYZBrADQA.jpg
+photo.25.author: mini_cochi
+photo.25.commitdate: 2026/1/20
+photo.25.link: ig://CbH4b-lr0qF
+photo.25.tags: family, portrait, sample, tail, tree
+photo.26: cwdc://X589EytADQA.jpg
+photo.26.author: mini_cochi
+photo.26.commitdate: 2026/1/20
+photo.26.link: ig://CY_qx3Glj3v
+photo.26.tags: door, family, portrait, sample, tongue, whiskers
+photo.27: cwdc://XXOM2hVADQB.jpg
+photo.27.author: otenba_redpanda
+photo.27.commitdate: 2026/1/20
+photo.27.link: ig://CHoSquah0d2
+photo.27.tags: door, paws, portrait, sample, siblings, sisters, twins, whiskers
