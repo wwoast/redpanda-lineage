@@ -16,11 +16,11 @@ photo.2.link: https://www.instagram.com/rie_panda55/
 photo.2.tags: baby, bamboo, home, siblings, sisters, twins
 photo.2.tags.948.location: 280, 135
 photo.2.tags.949.location: 420, 495
-photo.3: ig://B4R3BLaBg_I/m
+photo.3: cwdc://W4hVjbUADQA.jpg
 photo.3.author: osopanda551
 photo.3.commitdate: 2019/11/6
-photo.3.link: https://www.instagram.com/osopanda551/
-photo.3.tags: baby, siblings, sisters, twins
+photo.3.link: ig://B4R3BLaBg_I
+photo.3.tags: baby, hammock, portrait, siblings, sisters, twins
 photo.3.tags.948.location: 145, 125
 photo.3.tags.949.location: 205, 175
 photo.4: ig://B4cH2QiFMr7/m
@@ -170,18 +170,18 @@ photo.24.link: https://www.instagram.com/mini_cochi/
 photo.24.tags: door, siblings, sisters, twins
 photo.24.tags.948.location: 105, 185
 photo.24.tags.949.location: 230, 175
-photo.25: ig://B8_gx6MB69w/m
+photo.25: cwdc://XB8pE44ADQA.jpg
 photo.25.author: osopanda551
 photo.25.commitdate: 2020/3/6
-photo.25.link: https://www.instagram.com/osopanda551/
-photo.25.tags: front-to-back, siblings, sisters, twins
+photo.25.link: ig://B8_gx6MB69w
+photo.25.tags: front-to-back, portrait, sample, siblings, sisters, twins, whiskers
 photo.25.tags.948.location: 60, 120
 photo.25.tags.949.location: 190, 200
-photo.26: ig://B9RPfEKB3Cs/m
+photo.26: cwdc://XCgGfM0ADQE.jpg
 photo.26.author: osopanda551
 photo.26.commitdate: 2020/3/10
-photo.26.link: https://www.instagram.com/osopanda551/
-photo.26.tags: bamboo, paws, siblings, sisters, twins
+photo.26.link: ig://B9RPfEKB3Cs
+photo.26.tags: bamboo, paws, portrait, sample, siblings, sisters, twins
 photo.26.tags.948.location: 135, 150
 photo.26.tags.949.location: 235, 135
 photo.27: ig://B9U2AvghRil/m
@@ -198,11 +198,11 @@ photo.28.link: https://www.instagram.com/pink.b22/
 photo.28.tags: playing, siblings, sisters, tail, twins
 photo.28.tags.948.location: 140, 110
 photo.28.tags.949.location: 125, 150
-photo.29: ig://B9aevByBD0f/m
+photo.29: cwdc://XCyk_IEADQB.jpg
 photo.29.author: osopanda551
 photo.29.commitdate: 2020/3/10
-photo.29.link: https://www.instagram.com/osopanda551/
-photo.29.tags: siblings, sisters, tail, twins
+photo.29.link: ig://B9aevByBD0f
+photo.29.tags: autumn, portrait, sample, siblings, sisters, tail, twins
 photo.29.tags.948.location: 95, 165
 photo.29.tags.949.location: 275, 240
 photo.30: ig://B9aigGmhMe_/m
@@ -282,3 +282,298 @@ photo.40.link: https://www.instagram.com/eos1089/
 photo.40.tags: paws, playing, portrait, siblings, sisters, twins
 photo.40.tags.948.location: 135, 300
 photo.40.tags.949.location: 305, 155
+photo.41: cwdc://X0CQz1yADQx.jpg
+photo.41.author: osopanda551
+photo.41.commitdate: 2026/1/19
+photo.41.link: ig://CWCUpYpJEno
+photo.41.tags: paws, playing, portrait, whiskers
+photo.42: cwdc://X3xlLpEADQy.jpg
+photo.42.author: osopanda551
+photo.42.commitdate: 2026/1/19
+photo.42.link: ig://CX5-1SSLYs6
+photo.42.tags: autumn, paws, playing, portrait, standing, whiskers
+photo.43: cwdc://X4PpQ6KADQ0.jpg
+photo.43.author: osopanda551
+photo.43.commitdate: 2026/1/19
+photo.43.link: ig://CYJA361L3gB
+photo.43.tags: autumn, laying down, paws, playing, portrait, sample, siblings, sisters, twins
+photo.44: cwdc://X5dvDXgADQ1.jpg
+photo.44.author: osopanda551
+photo.44.commitdate: 2026/1/19
+photo.44.link: ig://CYwDxJgLxDT
+photo.44.tags: autumn, playing, portrait, siblings, sisters, twins
+photo.45: cwdc://X5qpHgeADQz.jpg
+photo.45.author: osopanda551
+photo.45.commitdate: 2026/1/19
+photo.45.link: ig://CY2gzN_JkCP
+photo.45.tags: paws, playing, standing, whiskers
+photo.46: cwdc://X6BraPhADQ3.jpg
+photo.46.author: osopanda551
+photo.46.commitdate: 2026/1/19
+photo.46.link: ig://CZCB8lgrGIN
+photo.46.tags: laying down, paws, playing, portrait, smile, snow, whiskers
+photo.47: cwdc://X6gWllcADQ4.jpg
+photo.47.author: osopanda551
+photo.47.commitdate: 2026/1/19
+photo.47.link: ig://CZRXiQeLS6f
+photo.47.tags: autumn, paws, playing, portrait, wave, whiskers
+photo.48: cwdc://X8Hi-N0ADQD.jpg
+photo.48.author: osopanda551
+photo.48.commitdate: 2026/1/19
+photo.48.link: ig://CaE9ukqFHrx
+photo.48.tags: autumn, grooming, peek, portrait, whiskers
+photo.49: cwdc://X8bVnWdADQE.jpg
+photo.49.author: osopanda551
+photo.49.commitdate: 2026/1/19
+photo.49.link: ig://CaO3DI-rxn7
+photo.49.tags: bite, playing, paws, portrait, tail
+photo.50: cwdc://X8rl9ZzADQH.jpg
+photo.50.author: osopanda551
+photo.50.commitdate: 2026/1/19
+photo.50.link: ig://CaW_OKplOg_
+photo.50.tags: paws, playing, portrait, standing, whiskers
+photo.51: cwdc://X9Pqx1UADQF.jpg
+photo.51.author: osopanda551
+photo.51.commitdate: 2026/1/19
+photo.51.link: ig://CapBoYaLXgs
+photo.51.tags: laying down, siblings, sisters, tree
+photo.52: cwdc://XD3lWNMADQA.jpg
+photo.52.author: osopanda551
+photo.52.commitdate: 2026/1/19
+photo.52.link: ig://B98-6kWBE6s
+photo.52.tags: portrait, sample, siblings, sisters, smile, tail, twins, whiskers
+photo.53: cwdc://XDHgcUmADQC.jpg
+photo.53.author: osopanda551
+photo.53.commitdate: 2026/1/19
+photo.53.link: ig://B9k8doDBvkC
+photo.53.tags: playing, portrait, siblings, twins
+photo.54: cwdc://XDHgcUmADQD.jpg
+photo.54.author: osopanda551
+photo.54.commitdate: 2026/1/19
+photo.54.link: ig://B9k8doDBvkF
+photo.54.tags: paws, playing, portrait, siblings, sisters, twins, whiskers
+photo.55: cwdc://XDHgcUmADQE.jpg
+photo.55.author: osopanda551
+photo.55.commitdate: 2026/1/19
+photo.55.link: ig://B9k8doDBvkF
+photo.55.tags: paws, playing, portrait, siblings, sisters, twins, whiskers
+photo.56: cwdc://XEwwANBADQC.jpg
+photo.56.author: osopanda551
+photo.56.commitdate: 2026/1/19
+photo.56.link: ig://B-ZkPkQh02q
+photo.56.tags: paws, playing, portrait, sisters, twins, whiskers
+photo.57: cwdc://XGNkNzMADQB.jpg
+photo.57.author: osopanda551
+photo.57.commitdate: 2026/1/19
+photo.57.link: ig://B_H-WXWBoUD
+photo.57.tags: bite, portrait, sisters, tail, twins
+photo.58: cwdc://XIcwkE4ADQG.jpg
+photo.58.author: osopanda551
+photo.58.commitdate: 2026/1/19
+photo.58.link: ig://CAPkhgMBlIe
+photo.58.tags: playing, portrait, siblings, sisters, twins
+photo.59: cwdc://XK8chk6ADQK.jpg
+photo.59.author: osopanda551
+photo.59.commitdate: 2026/1/19
+photo.59.link: ig://CBfagQNBUVZ
+photo.59.tags: paws, playing, portrait, standing, tail
+photo.60: cwdc://XKEKxVxADQJ.jpg
+photo.60.author: osopanda551
+photo.60.commitdate: 2026/1/19
+photo.60.link: ig://CBDRoIoh0qx
+photo.60.tags: door, laying down, paws, playing, portrait, smile, whiskers
+photo.61: cwdc://XKPFks6ADQL.jpg
+photo.61.author: osopanda551
+photo.61.commitdate: 2026/1/19
+photo.61.link: ig://CBIvB0NBw-P
+photo.61.tags: paws, playing, portrait, tail, whiskers
+photo.62: cwdc://XKys1xVADQI.jpg
+photo.62.author: osopanda551
+photo.62.commitdate: 2026/1/19
+photo.62.link: ig://CBaiqWahJb-
+photo.62.tags: laying down, paws, playing, portrait, tail, upside-down
+photo.63: cwdc://XL68xI9ADQO.jpg
+photo.63.author: osopanda551
+photo.63.commitdate: 2026/1/19
+photo.63.link: ig://CB-qoCOhJS8
+photo.63.tags: paws, playing, portrait, sibling, sisters, tail, twins
+photo.64: cwdc://XL68xI9ADQP.jpg
+photo.64.author: osopanda551
+photo.64.commitdate: 2026/1/19
+photo.64.link: ig://CB-qoCOhJS9
+photo.64.tags: playing, portrait, siblings, sisters, tail, twins
+photo.65: cwdc://XLJ-CmlADQM.jpg
+photo.65.author: osopanda551
+photo.65.commitdate: 2026/1/19
+photo.65.link: ig://CBmLQxCpvnY
+photo.65.tags: portrait, siblings, sisters, tail, twins
+photo.66: cwdc://XLLyeYBADQN.jpg
+photo.66.author: osopanda551
+photo.66.commitdate: 2026/1/19
+photo.66.link: ig://CBnFepwh0vl
+photo.66.tags: bite, portrait, siblings, sisters, tail, twins
+photo.67: cwdc://XMo5_lTADQQ.jpg
+photo.67.author: osopanda551
+photo.67.commitdate: 2026/1/19
+photo.67.link: ig://CCVpPQZhXa0
+photo.67.tags: door, paws, portrait, siblings, sisters, twins
+photo.68: cwdc://XTZlRASADQT.jpg
+photo.68.author: osopanda551
+photo.68.commitdate: 2026/1/19
+photo.68.link: ig://CFt-395BRCo
+photo.68.tags: paws, playing, portrait, siblings, sisters, twins, whiskers
+photo.69: cwdc://XTZlRASADQU.jpg
+photo.69.author: osopanda551
+photo.69.commitdate: 2026/1/19
+photo.69.link: ig://CFt-395BRCp
+photo.69.tags: paws, playing, portrait, siblings, sisters, tail, tongue, twins
+photo.70: cwdc://XTuEi3nADQS.jpg
+photo.70.author: osopanda551
+photo.70.commitdate: 2026/1/19
+photo.70.link: ig://CF4Og5jhiZ8
+photo.70.tags: door, portrait, siblings, sisters, twins
+photo.71: cwdc://XVFFVUIADQX.jpg
+photo.71.author: osopanda551
+photo.71.commitdate: 2026/1/19
+photo.71.link: ig://CGju6H0BdLd
+photo.71.tags: paws, playing, portrait, siblings, sisters, tail, twins
+photo.72: cwdc://XVs-d9LADQW.jpg
+photo.72.author: osopanda551
+photo.72.commitdate: 2026/1/19
+photo.72.link: ig://CG3recVh3OP
+photo.72.tags: portrait, sample, siblings, sisters, twins
+photo.73: cwdc://XWiiX6AADQc.jpg
+photo.73.author: osopanda551
+photo.73.commitdate: 2026/1/19
+photo.73.link: ig://CHSdbawBbB_
+photo.73.tags: paws, playing, portrait, siblings, sisters, twins, whiskers
+photo.74: cwdc://XXBl7fPADQZ.jpg
+photo.74.author: osopanda551
+photo.74.commitdate: 2026/1/19
+photo.74.link: ig://CHh_NNXhkWL
+photo.74.tags: door, paws, portrait, siblings, sisters, standing, twins
+photo.75: cwdc://XXBl7fPADQa.jpg
+photo.75.author: osopanda551
+photo.75.commitdate: 2026/1/19
+photo.75.link: ig://CHh_NNXhkWN
+photo.75.tags: door, paws, portrait, siblings, sisters, standing, twins
+photo.76: cwdc://XXP6KDCADQb.jpg
+photo.76.author: osopanda551
+photo.76.commitdate: 2026/1/19
+photo.76.link: ig://CHpJUfRB38i
+photo.76.tags: portrait, sample, siblings, sisters, twins, whiskers
+photo.77: cwdc://XXbaOqmADQd.jpg
+photo.77.author: osopanda551
+photo.77.commitdate: 2026/1/19
+photo.77.link: ig://CHu5WzDBPkT
+photo.77.tags: paws, playing, portrait, siblings, sisters, tail, twins
+photo.78: cwdc://XXqkXxkADQY.jpg
+photo.78.author: osopanda551
+photo.78.commitdate: 2026/1/19
+photo.78.link: ig://CH2ebWiBwr2
+photo.78.tags: portrait, siblings, sisters, twins, whiskers
+photo.79: cwdc://XY2gnewADQe.jpg
+photo.79.author: osopanda551
+photo.79.commitdate: 2026/1/19
+photo.79.link: ig://CIccjNIBLkO
+photo.79.tags: portrait, siblings, sisters, twins, whiskers
+photo.80: cwdc://XY2gnewADQf.jpg
+photo.80.author: osopanda551
+photo.80.commitdate: 2026/1/19
+photo.80.link: ig://CIccjNIBLkP
+photo.80.tags: autumn, playing, portrait, siblings, sisters, tail, twins, whiskers
+photo.81: cwdc://XY2gnewADQg.jpg
+photo.81.author: osopanda551
+photo.81.commitdate: 2026/1/19
+photo.81.link: ig://CIccjNIBLkQ
+photo.81.tags: autumn, paws, playing, portrait, siblings, tail, twins, whiskers
+photo.82: cwdc://XY9ArwfADQh.jpg
+photo.82.author: osopanda551
+photo.82.commitdate: 2026/1/19
+photo.82.link: ig://CIfslV_hHZd
+photo.82.tags: autumn, carry, paws, portrait, sample, siblings, tail, twins, whiskers
+photo.83: cwdc://XY9ArwfADQi.jpg
+photo.83.author: osopanda551
+photo.83.commitdate: 2026/1/19
+photo.83.link: ig://CIfslV_hHZf
+photo.83.tags: autumn, carry, paws, portrait, sample, siblings, sisters, tail, twins, whiskers
+photo.84: cwdc://XYtTnVtADQj.jpg
+photo.84.author: osopanda551
+photo.84.commitdate: 2026/1/19
+photo.84.link: ig://CIX2DImhzGR
+photo.84.tags: autumn, carry, portrait, sample, siblings, sisters, twins, whiskers
+photo.85: cwdc://XZlh_MCADQk.jpg
+photo.85.author: osopanda551
+photo.85.commitdate: 2026/1/19
+photo.85.link: ig://CIz9PDxBvQS
+photo.85.tags: paws, plyaing, portrait, sample, siblings, sisters, twins, whiskers
+photo.86: cwdc://XZlh_MCADQl.jpg
+photo.86.author: osopanda551
+photo.86.commitdate: 2026/1/19
+photo.86.link: ig://CIz9PDxBvQT
+photo.86.tags: autumn, playing, portrait, siblings, sisters, twins, whiskers
+photo.87: cwdc://XZlh_MCADQm.jpg
+photo.87.author: osopanda551
+photo.87.commitdate: 2026/1/19
+photo.87.link: ig://CIz9PDxBvQV
+photo.87.tags: autumn, paws, playing, portrait, siblings, sisters, tail, twins
+photo.88: cwdc://Xa7ymkRADQn.jpg
+photo.88.author: osopanda551
+photo.88.commitdate: 2026/1/19
+photo.88.link: ig://CJfFiv4hRwk
+photo.88.tags: paws, playing, portrait, siblings, sisters, twins
+photo.89: cwdc://XfJMOJ8ADQo.jpg
+photo.89.author: osopanda551
+photo.89.commitdate: 2026/1/19
+photo.89.link: ig://CLlyWiuBdmH
+photo.89.tags: paws, portrait, sample, siblings, sisters, tail, twins, whiskers
+photo.90: cwdc://XgqxWqdADQp.jpg
+photo.90.author: osopanda551
+photo.90.commitdate: 2026/1/19
+photo.90.link: ig://CMWk6y-hXQz
+photo.90.tags: autumn, blink, paws, playing, portrait, siblings, sisters, twins
+photo.91: cwdc://Xi0bMZWADQq.jpg
+photo.91.author: osopanda551
+photo.91.commitdate: 2026/1/19
+photo.91.link: ig://CNbZ1qbB7rW
+photo.91.tags: paws, playing, portrait, siblings, sisters, twins
+photo.92: cwdc://Xo7OsgmADQr.jpg
+photo.92.author: osopanda551
+photo.92.commitdate: 2026/1/19
+photo.92.link: ig://CQezluDBJ2v
+photo.92.tags: portrait, siblings, sisters, tail, twins
+photo.93: cwdc://XpW3gFUADQs.jpg
+photo.93.author: osopanda551
+photo.93.commitdate: 2026/1/19
+photo.93.link: ig://CQsn_gaBBEe
+photo.93.tags: paws, portrait, siblings, sisters, twins, whiskers
+photo.94: cwdc://XpgJ3z8ADQt.jpg
+photo.94.author: osopanda551
+photo.94.commitdate: 2026/1/19
+photo.94.link: ig://CQxRLXuBD1z
+photo.94.tags: door, paws, siblings, sisters, tail, twins
+photo.95: cwdc://Xqpu4hEADQu.jpg
+photo.95.author: osopanda551
+photo.95.commitdate: 2026/1/19
+photo.95.link: ig://CRWDruSBtPm
+photo.95.tags: paws, playing, portrait, siblings, sisters, tail, twins
+photo.96: cwdc://Xt1wfDwADQv.jpg
+photo.96.author: osopanda551
+photo.96.commitdate: 2026/1/19
+photo.96.link: ig://CS8Ee_oFGBY
+photo.96.tags: paws, portrait, sample, siblings, sisters, twins, whiskers
+photo.97: cwdc://XwK0aF-ADQw.jpg
+photo.97.author: osopanda551
+photo.97.commitdate: 2026/1/19
+photo.97.link: ig://CUGmcgvJCFK
+photo.97.tags: portrait, siblings, sisters, smile, twins
+photo.98: cwdc://YEAOeAdADQR.jpg
+photo.98.author: osopanda551
+photo.98.commitdate: 2026/1/19
+photo.98.link: ig://CeBTed-vR6x
+photo.98.tags: close-up, paws, playing, portrait, siblings, sisters, twins, whiskers
+photo.99: cwdc://YGs_n3NADQV.jpg
+photo.99.author: osopanda551
+photo.99.commitdate: 2026/1/19
+photo.99.link: ig://CfXsDZWp8wL
+photo.99.tags: paws, playing, portrait, siblings, sisters, snow, twins, whiskers
