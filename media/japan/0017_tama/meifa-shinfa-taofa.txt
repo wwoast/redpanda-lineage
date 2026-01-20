@@ -13,7 +13,7 @@ photo.1.tags.949.location: 510, 530
 photo.2: cwdc://XA0MfVQADQA.jpg
 photo.2.author: ck.chie
 photo.2.commitdate: 2020/3/6
-photo.2.link: https://www.instagram.com/p/B8bSfIYBBkJ
+photo.2.link: ig://B8bSfIYBBkJ
 photo.2.tags: bamboo, family, tree
 photo.2.tags.103.location: 645, 410
 photo.2.tags.948.location: 100, 500
@@ -29,16 +29,16 @@ photo.3.tags.949.location: 480, 555
 photo.4: cwdc://XBC8-3gADQB.jpg
 photo.4.author: ck.chie
 photo.4.commitdate: 2020/3/6
-photo.4.link: https://www.instagram.com/p/B8iqu5gBEOj
+photo.4.link: ig://B8iqu5gBEOj
 photo.4.tags: family, playing
 photo.4.tags.103.location: 235, 135
 photo.4.tags.948.location: 95, 140
 photo.4.tags.949.location: 180, 125
-photo.5: ig://B8qioRrh9tA/m
+photo.5: cwdc://XBSsxn3ADQA.jpg
 photo.5.author: daniele.tokyo
 photo.5.commitdate: 2020/3/6
-photo.5.link: https://www.instagram.com/daniele.tokyo/
-photo.5.tags: family, door
+photo.5.link: ig://B8qioRrh9tA
+photo.5.tags: door, family
 photo.5.tags.103.location: 180, 220
 photo.5.tags.948.location: 100, 180
 photo.5.tags.949.location: 235, 195
@@ -50,11 +50,11 @@ photo.6.tags: bamboo, bridge, family, portrait
 photo.6.tags.103.location: 375, 500
 photo.6.tags.948.location: 260, 360
 photo.6.tags.949.location: 1000, 675
-photo.7: ig://B88yHnVB5u2/l
+photo.7: cwdc://XB3LwTKADQA.jpg
 photo.7.author: craig_craig_craig
 photo.7.commitdate: 2020/3/6
-photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: family, tail
+photo.7.link: ig://B88yHnVB5u2
+photo.7.tags: bamboo, family, sample, tail
 photo.7.tags.103.location: 825, 120
 photo.7.tags.948.location: 490, 240
 photo.7.tags.949.location: 195, 470

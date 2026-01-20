@@ -9,11 +9,11 @@ photo.1.link: ig://CTqQTPyBqm0
 photo.1.tags: door, mother's day, paws, portrait, sample, whiskers
 photo.1.tags.103.location: 75, 160
 photo.1.tags.948.location: 200, 130
-photo.2: ig://CWhH-PnhT4l/l
+photo.2: cwdc://X0_3djvADQA.jpg
 photo.2.author: tamazoowalking
 photo.2.commitdate: 2023/1/11
-photo.2.link: https://www.instagram.com/tamazoowalking/
-photo.2.tags: mother's day, sample, tail, whiskers
+photo.2.link: ig://CWhH-PnhT4l
+photo.2.tags: mother's day, sample, tail, tree, whiskers
 photo.2.tags.103.location: 415, 90
 photo.2.tags.948.location: 245, 125
 photo.3: cwdc://X72hwW6ADQ2.jpg
@@ -49,3 +49,8 @@ photo.7.author: mini_cochi
 photo.7.commitdate: 2026/1/20
 photo.7.link: ig://Ca40APwr7PW
 photo.7.tags: door, mother's day, paws, portrait, sample, whiskers
+photo.8: cwdc://XCqV-cWADQA.jpg
+photo.8.author: pink.b22
+photo.8.commitdate: 2026/1/20
+photo.8.link: ig://B9WXOr7BlBA
+photo.8.tags: autumn, mother's day, paws, playing, portrait, tail
