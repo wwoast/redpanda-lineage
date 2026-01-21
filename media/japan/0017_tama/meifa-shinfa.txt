@@ -61,7 +61,7 @@ photo.8.tags.949.location: 120, 95
 photo.9: cwdc://W6kp7XyADQA.jpg
 photo.9.author: ck.chie
 photo.9.commitdate: 2019/11/29
-photo.9.link: https://www.instagram.com/p/B5ThNJpB5Te
+photo.9.link: ig://B5ThNJpB5Te
 photo.9.tags: baby, hammock, siblings, sisters, twins
 photo.9.tags.948.location: 175, 160
 photo.9.tags.949.location: 100, 170
@@ -693,63 +693,89 @@ photo.99.author: alto0908
 photo.99.commitdate: 2026/1/20
 photo.99.link: ig://B8gjQmFh_iN
 photo.99.tags: mofumofu, portrait, sample, siblings, tree, twins, whiskers
+photo.99.tags.948.location: 480, 225
+photo.99.tags.949.location: 490, 580
 photo.100: cwdc://XBB3obCADQD.jpg
 photo.100.author: alto0908
 photo.100.commitdate: 2026/1/20
 photo.100.link: ig://B8iIDrRBC17
 photo.100.tags: mofumofu, portrait, sample, siblings, smile, tree, twins, whiskers
+photo.100.tags.948.location: 300, 105
+photo.100.tags.949.location: 465, 390
 photo.101: cwdc://XBB3obCADQE.jpg
 photo.101.author: alto0908
 photo.101.commitdate: 2026/1/20
 photo.101.link: ig://B8iIDrRBC18
 photo.101.tags: bridge, peek, portrait, sample, siblings, tree, twins
+photo.101.tags.948.location: 330, 185
+photo.101.tags.949.location: 405, 285
 photo.102: cwdc://XCv_fTGADQH.jpg
 photo.102.author: alto0908
 photo.102.commitdate: 2026/1/20
 photo.102.link: ig://B9ZL_HTB8sy
 photo.102.tags: mofumofu, portrait, siblings, sisters, twins
+photo.102.tags.948.location: 460, 430
+photo.102.tags.949.location: 200, 350
 photo.103: cwdc://XCv_fTGADQI.jpg
 photo.103.author: alto0908
 photo.103.commitdate: 2026/1/20
 photo.103.link: ig://B9ZL_HTB8sz
 photo.103.tags: mofumofu, paws, portrait, siblings, sisters, twins
+photo.103.tags.948.location: 440, 535
+photo.103.tags.949.location: 200, 370
 photo.104: cwdc://W92A9gWADQF.jpg
 photo.104.author: mini_cochi
 photo.104.commitdate: 2026/1/20
 photo.104.link: ig://B68MuN7BQbT
 photo.104.tags: hamock, portrait, siblings, sisters, twins
+photo.104.tags.948.location: 70, 370
+photo.104.tags.949.location: 695, 310
 photo.105: cwdc://W92A9gWADQG.jpg
 photo.105.author: mini_cochi
 photo.105.commitdate: 2026/1/20
 photo.105.link: ig://B68MuN7BQbU
 photo.105.tags: hammock, portrait, siblings, sisters, twins
+photo.105.tags.948.location: 120, 390
+photo.105.tags.949.location: 675, 475
 photo.106: cwdc://W9mzPG_ADQD.jpg
 photo.106.author: mini_cochi
 photo.106.commitdate: 2026/1/20
 photo.106.link: ig://B60l3BPh5q8
 photo.106.tags: baby, bamboo, mofumofu, portrait, sample, tail
+photo.106.tags.948.location: 110, 520
+photo.106.tags.949.location: 595, 180
 photo.107: cwdc://XALat6SADQC.jpg
 photo.107.author: mini_cochi
 photo.107.commitdate: 2026/1/20
 photo.107.link: ig://B8G5ma5BYNK
 photo.107.tags: paws, portrait, sample, siblings, sisters, twins, whiskers
+photo.107.tags.948.location: 290, 520
+photo.107.tags.949.location: 720, 545
 photo.108: cwdc://W3uPAGrADQB.jpg
 photo.108.author: rie_panda55
 photo.108.commitdate: 2026/1/20
 photo.108.link: ig://B34TvhFhGnh
 photo.108.tags: baby, hammock, portrait, siblings, sisters, twins
+photo.108.tags.948.location: 360, 230
+photo.108.tags.949.location: 370, 480
 photo.109: cwdc://W5xJDH7ADQB.jpg
 photo.109.author: nakacchi_desu
 photo.109.commitdate: 2026/1/20
 photo.109.link: ig://B45wxBthtjR
 photo.109.tags: baby, hammock, siblings, sisters, twins, window
+photo.109.tags.948.location: 305, 305
+photo.109.tags.949.location: 390, 120
 photo.110: cwdc://W5xJDH7ADQC.jpg
 photo.110.author: nakacchi_desu
 photo.110.commitdate: 2026/1/20
 photo.110.link: ig://B45wxBthtjS
 photo.110.tags: baby, hammock, sample, siblings, sisters, twins
+photo.110.tags.948.location: 130, 255
+photo.110.tags.949.location: 630, 250
 photo.111: cwdc://W5xJDH7ADQD.jpg
 photo.111.author: nakacchi_desu
 photo.111.commitdate: 2026/1/20
 photo.111.link: ig://B45wxBthtjT
 photo.111.tags: baby, peek, siblings, sisters, twins
+photo.111.tags.948.location: 475, 115
+photo.111.tags.949.location: 525, 380

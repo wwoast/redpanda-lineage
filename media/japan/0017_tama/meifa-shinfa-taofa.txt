@@ -87,6 +87,9 @@ photo.11.author: alto0908
 photo.11.commitdate: 2026/1/20
 photo.11.link: ig://B9XzIWshq4V
 photo.11.tags: family, paws, playing, portrait, smile, tail
+photo.11.tags.103.location: 115, 285
+photo.11.tags.948.location: 675, 280
+photo.11.tags.949.location: 315, 230
 photo.12: cwdc://XCvfT_vADQA.jpg
 photo.12.author: osopanda551
 photo.12.commitdate: 2020/3/10
@@ -201,8 +204,14 @@ photo.26.author: mini_cochi
 photo.26.commitdate: 2026/1/20
 photo.26.link: ig://CY_qx3Glj3v
 photo.26.tags: door, family, portrait, sample, tongue, whiskers
+photo.26.tags.103.location: 365, 515
+photo.26.tags.948.location: 585, 510
+photo.26.tags.949.location: 115, 520
 photo.27: cwdc://X-NYZBrADQA.jpg
 photo.27.author: mini_cochi
 photo.27.commitdate: 2026/1/20
 photo.27.link: ig://CbH4b-lr0qF
 photo.27.tags: family, portrait, sample, tail, tree
+photo.27.tags.103.location: 280, 220
+photo.27.tags.948.location: 80, 290
+photo.27.tags.949.location: 525, 600
