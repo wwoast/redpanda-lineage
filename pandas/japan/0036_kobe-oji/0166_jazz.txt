@@ -147,10 +147,10 @@ photo.27.author: panda.daisuki
 photo.27.commitdate: 2018/11/23
 photo.27.link: https://www.instagram.com/panda.daisuki/
 photo.27.tags: dish, keeper
-photo.28: ig://BqrBzsLlB7y/m
+photo.28: cwdc://WdTrIc3ADQF.jpg
 photo.28.author: love__mitarashi
 photo.28.commitdate: 2018/11/27
-photo.28.link: https://www.instagram.com/love__mitarashi/
+photo.28.link: ig://BqrBzsLlB7y
 photo.29: ig://BquCvQaF1GP/m
 photo.29.author: colette.jp
 photo.29.commitdate: 2018/11/28
@@ -314,16 +314,16 @@ photo.61.author: colette.jp
 photo.61.commitdate: 2019/4/6
 photo.61.link: https://www.instagram.com/colette.jp/
 photo.61.tags: smile, tree
-photo.62: ig://BwEw76-lZVS/m
+photo.62: cwdc://WoHJY6dADQG.jpg
 photo.62.author: love__mitarashi
 photo.62.commitdate: 2019/4/12
-photo.62.link: https://www.instagram.com/love__mitarashi/
-photo.62.tags: smile, tail, tree
-photo.63: ig://BwKAa40lX40/m
+photo.62.link: ig://BwEw76-lZVS
+photo.62.tags: autumn, peek, portrait, sample, smile, tail, tree, whiskers
+photo.63: cwdc://WoRoW2JADQH.jpg
 photo.63.author: love__mitarashi
 photo.63.commitdate: 2019/4/15
-photo.63.link: https://www.instagram.com/love__mitarashi/
-photo.63.tags: keeper, paws
+photo.63.link: ig://BwKAa40lX40
+photo.63.tags: keeper, paws, sample, whiskers
 photo.64: ig://BwR8tOelvv8/m
 photo.64.author: minatomirai215
 photo.64.commitdate: 2019/4/22
@@ -1512,3 +1512,29 @@ photo.300.author: osopanda551
 photo.300.commitdate: 2026/1/17
 photo.300.link: ig://C8wEyCKy3bU
 photo.300.tags: paws, portrait, sample, smile, whiskers
+photo.301: cwdc://WAqVD1CADQA.jpg
+photo.301.author: love__mitarashi
+photo.301.commitdate: 2026/1/27
+photo.301.link: ig://BcWWxYRBsG3
+photo.301.tags: baby, portrait, sample, whiskers
+photo.302: cwdc://WH_CvKcADQB.jpg
+photo.302.author: love__mitarashi
+photo.302.commitdate: 2026/1/27
+photo.302.link: ig://BgAtnC-FLyc
+photo.302.tags: apple time, keeper, paws, sample
+photo.303: cwdc://WIM12kXADQC.jpg
+photo.303.author: love__mitarashi
+photo.303.commitdate: 2026/1/27
+photo.303.link: ig://BgHnKv7lo6k
+photo.303.tags: grooming, laying down, mofumofu, paws, portrait, sample
+photo.304: cwdc://WOvr1M2ADQD.jpg
+photo.304.author: love__mitarashi
+photo.304.commitdate: 2026/1/27
+photo.304.link: ig://BjZCKELFMwW
+photo.304.tags: keeper, paws, playing, tail
+photo.305: cwdc://WSH1szTADQE.jpg
+photo.305.author: love__mitarashi
+photo.305.commitdate: 2026/1/27
+photo.305.link: ig://BlFHF3ZlVgO
+photo.305.tags: paws, portrait, sample
+photo.28.tags: peek, sample

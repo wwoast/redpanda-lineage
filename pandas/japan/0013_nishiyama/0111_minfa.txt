@@ -186,11 +186,11 @@ photo.34.author: i.satosato
 photo.34.commitdate: 2019/1/9
 photo.34.link: https://www.instagram.com/i.satosato/
 photo.34.tags: lunch time, keeper, portrait
-photo.35: ig://Bsk6zCDF3v5/m
+photo.35: cwdc://WhHdHImADQT.jpg
 photo.35.author: love__mitarashi
 photo.35.commitdate: 2019/1/18
-photo.35.link: https://www.instagram.com/love__mitarashi/
-photo.35.tags: tail, tree
+photo.35.link: ig://Bsk6zCDF3v5
+photo.35.tags: paws, portrait, sample, tail, tree
 photo.36: ig://BsuF0rkF7jj/m
 photo.36.author: redpan22
 photo.36.commitdate: 2019/1/19
@@ -241,11 +241,11 @@ photo.45.author: kotata_513
 photo.45.commitdate: 2019/3/2
 photo.45.link: https://www.instagram.com/kotata_513/
 photo.45.tags: grooming, itchy, portrait, tongue, tree
-photo.46: ig://BuGl5gwlkj9/m
+photo.46: cwdc://WkKzUGBADQV.jpg
 photo.46.author: love__mitarashi
 photo.46.commitdate: 2019/3/2
-photo.46.link: https://www.instagram.com/love__mitarashi/
-photo.46.tags: laying down, tree
+photo.46.link: ig://BuGl5gwlkj9
+photo.46.tags: laying down, peek, sample, tree
 photo.47: ig://BuXO_vnFe2-/m
 photo.47.author: tomo3700
 photo.47.commitdate: 2019/3/9
@@ -325,11 +325,11 @@ photo.62.author: gloryeui
 photo.62.commitdate: 2019/6/13
 photo.62.link: https://www.instagram.com/gloryeui/
 photo.62.tags: dish, lunch time, tail
-photo.63: ig://BzB-7nphg6b/m
+photo.63: cwdc://WuBlYTzADQc.jpg
 photo.63.author: love__mitarashi
 photo.63.commitdate: 2019/6/23
-photo.63.link: https://www.instagram.com/love__mitarashi/
-photo.63.tags: portrait, smile
+photo.63.link: ig://BzB-7nphg6b
+photo.63.tags: portrait, sample, smile, whiskers
 photo.64: ig://BzCy5vkhLYu/m
 photo.64.author: falcon_tenor
 photo.64.commitdate: 2019/6/23
@@ -380,11 +380,11 @@ photo.73.author: minato.yokohama4416
 photo.73.commitdate: 2019/7/31
 photo.73.link: https://www.instagram.com/minato.yokohama4416/
 photo.73.tags: laying down, paws, portrait
-photo.74: ig://B0nOD2ZhV1X/m
+photo.74: cwdc://WxMDoxTADQA.jpg
 photo.74.author: love__mitarashi
 photo.74.commitdate: 2019/8/2
-photo.74.link: https://www.instagram.com/love__mitarashi/
-photo.74.tags: paws, portrait
+photo.74.link: ig://B0nOD2ZhV1X
+photo.74.tags: paws, portrait, sample, whiskers
 photo.75: ig://B1Ahk2DBGLE/m
 photo.75.author: ayusuke56
 photo.75.commitdate: 2019/8/13
@@ -693,3 +693,138 @@ photo.135.tags: bamboo, climb, portrait
 species: 2
 studbook.id: 0672
 zoo: 13
+photo.136: cwdc://V0_jFx8ADQa.jpg
+photo.136.author: love__mitarashi
+photo.136.commitdate: 2026/1/27
+photo.136.link: ig://BWg9yWuBCxk
+photo.136.tags: portrait, sample, tree
+photo.137: cwdc://V2cPGL_ADQb.jpg
+photo.137.author: love__mitarashi
+photo.137.commitdate: 2026/1/27
+photo.137.link: ig://BXPTyjvhB53
+photo.137.tags: portrait, sample, smile
+photo.138: cwdc://V8o3hx3ADQB.jpg
+photo.138.author: love__mitarashi
+photo.138.commitdate: 2026/1/27
+photo.138.link: ig://BaVoAWrhWdP
+photo.138.tags: bamboo, bite, portrait, tree
+photo.139: cwdc://VfIESOJADQL.jpg
+photo.139.author: love__mitarashi
+photo.139.commitdate: 2026/1/27
+photo.139.link: ig://BLlOYk0h_JV
+photo.139.tags: paws, portrait, sample, tongue
+photo.140: cwdc://VfWZOE-ADQM.jpg
+photo.140.author: love__mitarashi
+photo.140.commitdate: 2026/1/27
+photo.140.link: ig://BLsY2gPBSG4
+photo.140.tags: bamboo, bridge, distance
+photo.141: cwdc://VfkJG4MADQN.jpg
+photo.141.author: love__mitarashi
+photo.141.commitdate: 2026/1/27
+photo.141.link: ig://BLzQy52BsDI
+photo.141.tags: portrait, sample, whiskers
+photo.142: cwdc://VftCKS7ADQK.jpg
+photo.142.author: love__mitarashi
+photo.142.commitdate: 2026/1/27
+photo.142.link: ig://BL3tUnNhd2x
+photo.142.tags: paws, peek, sample, tail
+photo.143: cwdc://VocNbjWADQQ.jpg
+photo.143.author: love__mitarashi
+photo.143.commitdate: 2026/1/27
+photo.143.link: ig://BQPS9PbBeAB
+photo.143.tags: peek, portrait, sample
+photo.144: cwdc://Vp97Eu-ADQR.jpg
+photo.144.author: love__mitarashi
+photo.144.commitdate: 2026/1/27
+photo.144.link: ig://BRAJx1PBKmh
+photo.144.tags: portrait, sample, tree
+photo.145: cwdc://VwqLdX0ADQX.jpg
+photo.145.author: love__mitarashi
+photo.145.commitdate: 2026/1/27
+photo.145.link: ig://BUWR-JqBj7k
+photo.145.tags: apple time, paws, portrait, sample, tongue, whiskers
+photo.146: cwdc://VwzxPUfADQU.jpg
+photo.146.author: love__mitarashi
+photo.146.commitdate: 2026/1/27
+photo.146.link: ig://BUbE3H_hzeB
+photo.146.tags: bamboo, bridge, laying down, sleeping
+photo.147: cwdc://VxFd_OPADQW.jpg
+photo.147.author: love__mitarashi
+photo.147.commitdate: 2026/1/27
+photo.147.link: ig://BUj7PE3hQpT
+photo.147.tags: sample, tail
+photo.148: cwdc://VzQUp8yADQY.jpg
+photo.148.author: love__mitarashi
+photo.148.commitdate: 2026/1/27
+photo.148.link: ig://BVpWkcJBtUW
+photo.148.tags: laying down, portrait, sample, smile, whiskers
+photo.149: cwdc://VzVgn9wADQZ.jpg
+photo.149.author: love__mitarashi
+photo.149.commitdate: 2026/1/27
+photo.149.link: ig://BVr8jcoBAjS
+photo.149.tags: laying down, sleeping, tree
+photo.150: cwdc://WAlJBjXADQC.jpg
+photo.150.author: love__mitarashi
+photo.150.commitdate: 2026/1/27
+photo.150.link: ig://BcTwwPbhbSQ
+photo.150.tags: bamboo, portrait, sample, smile
+photo.151: cwdc://WC8VeNhADQD.jpg
+photo.151.author: love__mitarashi
+photo.151.commitdate: 2026/1/27
+photo.151.link: ig://BdfW-kghs9i
+photo.151.tags: portrait, sample, tail
+photo.152: cwdc://WDep03JADQE.jpg
+photo.152.author: love__mitarashi
+photo.152.commitdate: 2026/1/27
+photo.152.link: ig://BdwhJ5Uhtgu
+photo.152.tags: mofumofu, portrait, sample, whiskers
+photo.153: cwdc://WH56-ufADQF.jpg
+photo.153.author: love__mitarashi
+photo.153.commitdate: 2026/1/27
+photo.153.link: ig://Bf-Ju0_hQza
+photo.153.tags: paws, sample, whiskers
+photo.154: cwdc://WIJHoLBADQG.jpg
+photo.154.author: love__mitarashi
+photo.154.commitdate: 2026/1/27
+photo.154.link: ig://BgFwDjQlNDL
+photo.154.tags: peek, sample, tongue, whiskers
+photo.155: cwdc://WOqgV_NADQH.jpg
+photo.155.author: love__mitarashi
+photo.155.commitdate: 2026/1/27
+photo.155.link: ig://BjWcadWl_qD
+photo.155.tags: peek, sample, tree
+photo.156: cwdc://WPeAOThADQI.jpg
+photo.156.author: love__mitarashi
+photo.156.commitdate: 2026/1/27
+photo.156.link: ig://BjwMWngl_w3
+photo.156.tags: ear, sample, smile, tail
+photo.157: cwdc://WQrBVycADQJ.jpg
+photo.157.author: love__mitarashi
+photo.157.commitdate: 2026/1/27
+photo.157.link: ig://BkWs6W-FIxV
+photo.157.tags: ear, portrait, sample, smile, tree, whiskers
+photo.158: cwdc://WVL3HL5ADQO.jpg
+photo.158.author: love__mitarashi
+photo.158.commitdate: 2026/1/27
+photo.158.link: ig://BmnHzDsldsd
+photo.158.tags: apple time, blink, paws, portrait, sample, smile
+photo.159: cwdc://Wc_kBiCADQP.jpg
+photo.159.author: love__mitarashi
+photo.159.commitdate: 2026/1/27
+photo.159.link: ig://Bqg-QOxFVY7
+photo.159.tags: portrait, shake
+photo.160: cwdc://WeIuixgADQS.jpg
+photo.160.author: love__mitarashi
+photo.160.commitdate: 2026/1/27
+photo.160.link: ig://BrFjg2gFUWH
+photo.160.tags: laying down, portrait, sample, tree
+photo.161: cwdc://Xo4yBdnADQd.jpg
+photo.161.author: love__mitarashi
+photo.161.commitdate: 2026/1/27
+photo.161.link: ig://CQdlQMjhbCF
+photo.161.tags: portriat, sample
+photo.162: cwdc://YjoDNniADQe.jpg
+photo.162.author: love__mitarashi
+photo.162.commitdate: 2026/1/27
+photo.162.link: ig://Ct1N2RhPHxV
+photo.162.tags: paws, sample

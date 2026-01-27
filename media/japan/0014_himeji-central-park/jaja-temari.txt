@@ -2,18 +2,18 @@
 _id: media.14.jaja-temari
 commitdate: 2019/11/15
 panda.tags: 95, 1016
-photo.1: ig://B4eIyqMB-OM/m
+photo.1: cwdc://W455GY4ADQA.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2019/11/15
-photo.1.link: https://www.instagram.com/love__mitarashi/
-photo.1.tags: baby, mother's day
+photo.1.link: ig://B4eIyqMB-OM
+photo.1.tags: baby, bamboo, mother's day, sample
 photo.1.tags.95.location: 200, 85
 photo.1.tags.1016.location: 115, 105
-photo.2: ig://B4riQd7hIGk/m
+photo.2: cwdc://W5UsCAXADQB.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2019/11/24
-photo.2.link: https://www.instagram.com/love__mitarashi/
-photo.2.tags: baby, mother's day
+photo.2.link: ig://B4riQd7hIGk
+photo.2.tags: baby, mother's day, portrait, sample, tail
 photo.2.tags.95.location: 225, 100
 photo.2.tags.1016.location: 110, 130
 photo.3: ig://B4yFNiaBl6W/m
@@ -58,11 +58,11 @@ photo.8.link: https://www.instagram.com/tomo3700/
 photo.8.tags: mother's day, playing
 photo.8.tags.95.location: 120, 255
 photo.8.tags.1016.location: 220, 75
-photo.9: ig://B5J8Wx-BXNx/m
+photo.9: cwdc://W6RgOocADQC.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2019/11/24
-photo.9.link: https://www.instagram.com/love__mitarashi/
-photo.9.tags: baby, mother's day
+photo.9.link: ig://B5J8Wx-BXNx
+photo.9.tags: baby, mother's day, sample
 photo.9.tags.95.location: 145, 55
 photo.9.tags.1016.location: 165, 135
 photo.10: ig://B5jfpQBh_WZ/m
@@ -142,11 +142,11 @@ photo.20.link: https://www.instagram.com/tomo3700/
 photo.20.tags: bamboo, home, portrait, tail
 photo.20.tags.95.location: 430, 430
 photo.20.tags.1016.location: 700, 560
-photo.21: ig://CAhWNlRHYYp/l
+photo.21: cwdc://XJAT8PCADQE.jpg
 photo.21.author: love__mitarashi
 photo.21.commitdate: 2020/6/9
-photo.21.link: https://www.instagram.com/love__mitarashi/
-photo.21.tags: bridge, mother's day
+photo.21.link: ig://CAhWNlRHYYp
+photo.21.tags: bridge, mofumofu, mother's day, paws, sample, tail
 photo.21.tags.95.location: 790, 345
 photo.21.tags.1016.location: 315, 160
 photo.22: ig://CAmyjCxnB9E/m
@@ -156,18 +156,18 @@ photo.22.link: https://www.instagram.com/colette.jp/
 photo.22.tags: mother's day, smile, standing
 photo.22.tags.95.location: 100, 60
 photo.22.tags.1016.location: 225, 110
-photo.23: ig://CApj_pBnm0F/m
+photo.23: cwdc://XJQvgWjADQF.jpg
 photo.23.author: love__mitarashi
 photo.23.commitdate: 2020/6/9
-photo.23.link: https://www.instagram.com/love__mitarashi/
-photo.23.tags: door, mother's day, portrait
+photo.23.link: ig://CApj_pBnm0F
+photo.23.tags: door, mother's day, paws, portrait
 photo.23.tags.95.location: 150, 90
 photo.23.tags.1016.location: 105, 160
-photo.24: ig://CAsPVzfBxwP/l
+photo.24: cwdc://XJWGMreADQG.jpg
 photo.24.author: love__mitarashi
 photo.24.commitdate: 2020/6/9
-photo.24.link: https://www.instagram.com/love__mitarashi/
-photo.24.tags: home, laying down, mother's day, smile, tail
+photo.24.link: ig://CAsPVzfBxwP
+photo.24.tags: home, laying down, mother's day, sample, smile, tail
 photo.24.tags.95.location: 330, 155
 photo.24.tags.1016.location: 750, 385
 photo.25: ig://CA2QWHth7K7/m
@@ -205,3 +205,28 @@ photo.29.link: https://www.instagram.com/colette.jp/
 photo.29.tags: apple time, bite, lips, mother's day, paws, peek
 photo.29.tags.95.location: 205, 275
 photo.29.tags.1016.location: 355, 220
+photo.30: cwdc://W8yjDhwADQD.jpg
+photo.30.author: love__mitarashi
+photo.30.commitdate: 2026/1/27
+photo.30.link: ig://B6adxOoBaln
+photo.30.tags: baby, mofumofu, mother's day, sample, tail
+photo.31: cwdc://XSpeVVAADQH.jpg
+photo.31.author: love__mitarashi
+photo.31.commitdate: 2026/1/27
+photo.31.link: ig://CFV7aIQBNEa
+photo.31.tags: bamboo, home, laying down, mother's day
+photo.32: cwdc://Xr6pRmlADQI.jpg
+photo.32.author: love__mitarashi
+photo.32.commitdate: 2026/1/27
+photo.32.link: ig://CR-g4RCrwZY
+photo.32.tags: bridge, home, laying down, mother's day, sample, tail
+photo.33: cwdc://Yld-ZloADQJ.jpg
+photo.33.author: love__mitarashi
+photo.33.commitdate: 2026/1/27
+photo.33.link: ig://CuwLcQkPQ1q
+photo.33.tags: home, laying down, mother's day
+photo.34: cwdc://YrMRaOQADQK.jpg
+photo.34.author: love__mitarashi
+photo.34.commitdate: 2026/1/27
+photo.34.link: ig://CxnU8k4PAzk
+photo.34.tags: home, laying down, mother's day, sample

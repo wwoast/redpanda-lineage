@@ -150,11 +150,11 @@ photo.27.author: i.satosato
 photo.27.commitdate: 2018/11/23
 photo.27.link: https://www.instagram.com/i.satosato/
 photo.27.tags: standing, window
-photo.28: ig://BqpJPDqlqLc/m
+photo.28: cwdc://WdP5_L1ADQG.jpg
 photo.28.author: love__mitarashi
 photo.28.commitdate: 2018/11/26
-photo.28.link: https://www.instagram.com/love__mitarashi/
-photo.28.tags: grumpy, portrait
+photo.28.link: ig://BqpJPDqlqLc
+photo.28.tags: grumpy, paws, portrait, sample, whiskers
 photo.29: ig://BqupAyNlw17/m
 photo.29.author: i.satosato
 photo.29.commitdate: 2018/11/28
@@ -402,11 +402,11 @@ photo.78.author: tomo3700
 photo.78.commitdate: 2019/4/7
 photo.78.link: https://www.instagram.com/tomo3700/
 photo.78.tags: flowers, portrait, smile
-photo.79: ig://Bv-y0e1l3R4/m
+photo.79: cwdc://Wn7NKCLADQI.jpg
 photo.79.author: love__mitarashi
 photo.79.commitdate: 2019/4/8
-photo.79.link: https://www.instagram.com/love__mitarashi/
-photo.79.tags: smile
+photo.79.link: ig://Bv-y0e1l3R4
+photo.79.tags: peek, sample, smile, tail
 photo.80: ig://Bv_hpngFJCd/m
 photo.80.author: jas_forever_love
 photo.80.commitdate: 2019/4/8
@@ -437,11 +437,11 @@ photo.85.author: fetorus_mami
 photo.85.commitdate: 2019/4/12
 photo.85.link: https://www.instagram.com/fetorus_mami/
 photo.85.tags: mofumofu, tree
-photo.86: ig://BwG_qPVFFuq/m
+photo.86: cwdc://WoLm1jKADQJ.jpg
 photo.86.author: love__mitarashi
 photo.86.commitdate: 2019/4/12
-photo.86.link: https://www.instagram.com/love__mitarashi/
-photo.86.tags: smile, tail
+photo.86.link: ig://BwG_qPVFFuq
+photo.86.tags: paws, sample, smile, tail
 photo.87: ig://BwJqz8DFc-O/m
 photo.87.author: i.satosato
 photo.87.commitdate: 2019/4/15
@@ -1160,3 +1160,53 @@ photo.229.tags: peek, sample
 species: 2
 studbook.id: 1779
 zoo: 20
+photo.230: cwdc://WAseyR9ADQA.jpg
+photo.230.author: love__mitarashi
+photo.230.commitdate: 2026/1/27
+photo.230.link: ig://BcXbomuhxUB
+photo.230.tags: baby, mofumofu, portrait, sample, whiskers
+photo.231: cwdc://WDscC1hADQB.jpg
+photo.231.author: love__mitarashi
+photo.231.commitdate: 2026/1/27
+photo.231.link: ig://Bd3aQ4gh5FG
+photo.231.tags: sample, whiskers
+photo.232: cwdc://WICiYKXADQC.jpg
+photo.232.author: love__mitarashi
+photo.232.commitdate: 2026/1/27
+photo.232.link: ig://BgCdbi7lTKJ
+photo.232.tags: bamboo, close-up, sample
+photo.233: cwdc://WSLqz4pADQD.jpg
+photo.233.author: love__mitarashi
+photo.233.commitdate: 2026/1/27
+photo.233.link: ig://BlHBpaElhLl
+photo.233.tags: close-up, grumpy, mofumofu, portrait, sample, smile
+photo.234: cwdc://WVAPjEMADQE.jpg
+photo.234.author: love__mitarashi
+photo.234.commitdate: 2026/1/27
+photo.234.link: ig://BmhUA_2FIxn
+photo.234.tags: mofumofu, portrait, sample, smile, whiskers
+photo.235: cwdc://WVPXEK0ADQF.jpg
+photo.235.author: love__mitarashi
+photo.235.commitdate: 2026/1/27
+photo.235.link: ig://Bmo3xjKFR5d
+photo.235.tags: climb, keeper, portrait, smile, tail
+photo.236: cwdc://Wn347H1ADQH.jpg
+photo.236.author: love__mitarashi
+photo.236.commitdate: 2026/1/27
+photo.236.link: ig://Bv9ItBqlNEK
+photo.236.tags: mofumofu, portrait, sample, whiskers
+photo.237: cwdc://WomOwLgADQK.jpg
+photo.237.author: love__mitarashi
+photo.237.commitdate: 2026/1/27
+photo.237.link: ig://BwUTnjgFgPj
+photo.237.tags: door, portrait, smile, whiskers
+photo.238: cwdc://WorL72KADQL.jpg
+photo.238.author: love__mitarashi
+photo.238.commitdate: 2026/1/27
+photo.238.link: ig://BwWyNY1Fs7C
+photo.238.tags: laying down, portrait
+photo.239: cwdc://Wov9tRYADQM.jpg
+photo.239.author: love__mitarashi
+photo.239.commitdate: 2026/1/27
+photo.239.link: ig://BwZLGGcFNYd
+photo.239.tags: mofumofu, portrait, sample

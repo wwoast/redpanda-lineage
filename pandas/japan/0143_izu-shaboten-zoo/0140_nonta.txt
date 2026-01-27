@@ -22,11 +22,11 @@ photo.1.author: i.satosato
 photo.1.commitdate: 2019/6/1
 photo.1.link: https://www.instagram.com/i.satosato/
 photo.1.tags: mofumofu, portrait
-photo.2: ig://BN32CVOBgWh/m
+photo.2: cwdc://VjtTlu8ADQB.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2018/10/28
-photo.2.link: https://www.instagram.com/love__mitarashi/
-photo.2.tags: bridge, portrait
+photo.2.link: ig://BN32CVOBgWh
+photo.2.tags: bridge, portrait, sample, whiskers
 photo.3: ig://BZddkCzBF0M/m
 photo.3.author: miis_98
 photo.3.commitdate: 2020/4/1
@@ -77,11 +77,11 @@ photo.12.author: makimaru18
 photo.12.commitdate: 2019/7/2
 photo.12.link: https://www.instagram.com/makimaru18/
 photo.12.tags: portrait, tongue
-photo.13: ig://BzUJIh7BhFP/m
+photo.13: cwdc://Wul5yIWADQE.jpg
 photo.13.author: love__mitarashi
 photo.13.commitdate: 2019/7/2
-photo.13.link: https://www.instagram.com/love__mitarashi/
-photo.13.tags: bridge, blink, paws, tongue
+photo.13.link: ig://BzUJIh7BhFP
+photo.13.tags: blink, bridge, itchy, paws, sample, tongue, wave, whiskers
 photo.14: ig://BzUxnvQh0f9/m
 photo.14.author: makimaru18
 photo.14.commitdate: 2019/7/2
@@ -535,3 +535,28 @@ photo.103.tags: apple time, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 12102
 zoo: 143
+photo.104: cwdc://V7K97RxADQD.jpg
+photo.104.author: love__mitarashi
+photo.104.commitdate: 2026/1/27
+photo.104.link: ig://BZmrNGohN-W
+photo.104.tags: bridge, paws, sample, tongue, wave
+photo.105: cwdc://VPvC5qdADQA.jpg
+photo.105.author: love__mitarashi
+photo.105.commitdate: 2026/1/27
+photo.105.link: ig://BD4tsS-muWA
+photo.105.tags: bridge, mofumofu, paws, portrait, sample, tail, techitechi, tongue, whiskers
+photo.106: cwdc://VmdgqEnADQC.jpg
+photo.106.author: love__mitarashi
+photo.106.commitdate: 2026/1/27
+photo.106.link: ig://BPP8kgDhFRu
+photo.106.tags: bridge, paws, sample, wave, whiskers
+photo.107: cwdc://YPMQYwAADQF.jpg
+photo.107.author: love__mitarashi
+photo.107.commitdate: 2026/1/27
+photo.107.link: ig://CjnUb1wL_LF
+photo.107.tags: bridge, paws, sample, smile, tongue, wave, whiskers
+photo.108: cwdc://YPMQYwAADQG.jpg
+photo.108.author: love__mitarashi
+photo.108.commitdate: 2026/1/27
+photo.108.link: ig://CjnUb1wL_LG
+photo.108.tags: mofumofu, sample, tongue
