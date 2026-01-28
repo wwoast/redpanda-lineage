@@ -23,11 +23,11 @@ photo.3.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.3.tags: baby, mother's day, tail
 photo.3.tags.95.location: 130, 130
 photo.3.tags.1016.location: 145, 220
-photo.4: ig://B4zMYtJhIqS/m
+photo.4: cwdc://W5kASezADQA.jpg
 photo.4.author: colette.jp
 photo.4.commitdate: 2019/12/5
-photo.4.link: https://www.instagram.com/colette.jp/
-photo.4.tags: baby, mother's day, smile
+photo.4.link: ig://B4zMYtJhIqS
+photo.4.tags: baby, mother's day, portrait, sample, smile
 photo.4.tags.95.location: 250, 195
 photo.4.tags.1016.location: 95, 105
 photo.5: ig://B4zRGkCheOp/m
@@ -107,10 +107,10 @@ photo.15.link: https://www.instagram.com/yakkooo24/
 photo.15.tags: mother's day, smile
 photo.15.tags.95.location: 215, 175
 photo.15.tags.1016.location: 125, 130
-photo.16: ig://B6F1_JTBBqS/m
+photo.16: cwdc://W8JTfXGADQC.jpg
 photo.16.author: colette.jp
 photo.16.commitdate: 2020/1/7
-photo.16.link: https://www.instagram.com/colette.jp/
+photo.16.link: ig://B6F1_JTBBqS
 photo.16.tags: grooming, home, mother's day, playing
 photo.16.tags.95.location: 135, 185
 photo.16.tags.1016.location: 165, 115
@@ -149,10 +149,10 @@ photo.21.link: ig://CAhWNlRHYYp
 photo.21.tags: bridge, mofumofu, mother's day, paws, sample, tail
 photo.21.tags.95.location: 790, 345
 photo.21.tags.1016.location: 315, 160
-photo.22: ig://CAmyjCxnB9E/m
+photo.22: cwdc://XJLMnKDADQG.jpg
 photo.22.author: colette.jp
 photo.22.commitdate: 2020/6/9
-photo.22.link: https://www.instagram.com/colette.jp/
+photo.22.link: ig://CAmyjCxnB9E
 photo.22.tags: mother's day, smile, standing
 photo.22.tags.95.location: 100, 60
 photo.22.tags.1016.location: 225, 110
@@ -170,39 +170,39 @@ photo.24.link: ig://CAsPVzfBxwP
 photo.24.tags: home, laying down, mother's day, sample, smile, tail
 photo.24.tags.95.location: 330, 155
 photo.24.tags.1016.location: 750, 385
-photo.25: ig://CA2QWHth7K7/m
+photo.25: cwdc://XJqINT7ADQD.jpg
 photo.25.author: colette.jp
 photo.25.commitdate: 2020/6/9
-photo.25.link: https://www.instagram.com/colette.jp/
-photo.25.tags: mother's day, surprise, tail
+photo.25.link: ig://CA2QWHth7K7
+photo.25.tags: mother's day, playing, surprise, tail
 photo.25.tags.95.location: 245, 160
 photo.25.tags.1016.location: 220, 55
-photo.26: ig://CA7ilC0BsQl/m
+photo.26: cwdc://XJ0srKIADQF.jpg
 photo.26.author: colette.jp
 photo.26.commitdate: 2020/6/9
-photo.26.link: https://www.instagram.com/colette.jp/
+photo.26.link: ig://CA7ilC0BsQl
 photo.26.tags: mother's day, tail
 photo.26.tags.95.location: 165, 65
 photo.26.tags.1016.location: 140, 90
-photo.27: ig://CBAuTJ1ByPH/m
+photo.27: cwdc://XJ_EHYKADQH.jpg
 photo.27.author: colette.jp
 photo.27.commitdate: 2020/8/6
-photo.27.link: https://www.instagram.com/colette.jp/
-photo.27.tags: mofumofu, mother's day, portrait
+photo.27.link: ig://CBAuTJ1ByPH
+photo.27.tags: mofumofu, mother's day, portrait, sample
 photo.27.tags.95.location: 230, 140
 photo.27.tags.1016.location: 125, 100
-photo.28: ig://CBDRIENhhO1/m
+photo.28: cwdc://XKEJxM7ADQI.jpg
 photo.28.author: colette.jp
 photo.28.commitdate: 2020/8/6
-photo.28.link: https://www.instagram.com/colette.jp/
+photo.28.link: ig://CBDRIENhhO1
 photo.28.tags: mofumofu, mother's day, playing, tail
 photo.28.tags.95.location: 220, 180
 photo.28.tags.1016.location: 180, 90
-photo.29: ig://CmTqfKNvW4z/l
+photo.29: cwdc://YUk8fY7ADQJ.jpg
 photo.29.author: colette.jp
 photo.29.commitdate: 2023/1/20
-photo.29.link: https://www.instagram.com/colette.jp/
-photo.29.tags: apple time, bite, lips, mother's day, paws, peek
+photo.29.link: ig://CmTqfKNvW4z
+photo.29.tags: apple time, bite, lips, mother's day, paws, peek, portrait
 photo.29.tags.95.location: 205, 275
 photo.29.tags.1016.location: 355, 220
 photo.30: cwdc://W8yjDhwADQD.jpg
@@ -240,3 +240,38 @@ photo.34.link: ig://CxnU8k4PAzk
 photo.34.tags: home, laying down, mother's day, sample
 photo.34.tags.95.location: 595, 350
 photo.34.tags.1016.location: 285, 340
+photo.35: cwdc://W5kASezADQB.jpg
+photo.35.author: colette.jp
+photo.35.commitdate: 2026/1/28
+photo.35.link: ig://B4zMYtJhIqT
+photo.35.tags: baby, mother's day, sample, smile
+photo.36: cwdc://XJqINT7ADQE.jpg
+photo.36.author: colette.jp
+photo.36.commitdate: 2026/1/28
+photo.36.link: ig://CA2QWHth7K8
+photo.36.tags: mother's day, playing
+photo.37: cwdc://Xu_sTZYADQM.jpg
+photo.37.author: colette.jp
+photo.37.commitdate: 2026/1/28
+photo.37.link: ig://CThCZKcBdkP
+photo.37.tags: mother's day, paws, playing, portrait
+photo.38: cwdc://YUk8fY7ADQK.jpg
+photo.38.author: colette.jp
+photo.38.commitdate: 2026/1/28
+photo.38.link: ig://CmTqfKNvW41
+photo.38.tags: apple time, bite, lips, mother's day, paws, portrait
+photo.39: cwdc://YWV1TEVADQM.jpg
+photo.39.author: colette.jp
+photo.39.commitdate: 2026/1/28
+photo.39.link: ig://CnMG4_6vmI2
+photo.39.tags: apple time, laying down, mother's day, portrait, sample
+photo.40: cwdc://YkG4hhYADQN.jpg
+photo.40.author: colette.jp
+photo.40.commitdate: 2026/1/28
+photo.40.link: ig://CuEogOcPI-N
+photo.40.tags: apple time, bite, paws, portrait, standing, tongue
+photo.41: cwdc://ZJM7ILlADQO.jpg
+photo.41.author: colette.jp
+photo.41.commitdate: 2026/1/28
+photo.41.link: ig://DAnpzjiygl9
+photo.41.tags: apple time, paws, portrait, window, wink
