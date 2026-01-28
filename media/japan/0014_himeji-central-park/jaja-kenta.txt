@@ -2,18 +2,18 @@
 _id: media.14.jaja-kenta
 commitdate: 2020/2/16
 panda.tags: 29, 95
-photo.1: ig://B7YVzVuhX4Y/l
+photo.1: cwdc://W-uTHv9ADQA.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2020/2/16
-photo.1.link: https://www.instagram.com/love__mitarashi/
-photo.1.tags: couple, tail
+photo.1.link: ig://B7YVzVuhX4Y
+photo.1.tags: couple, portrait, tail
 photo.1.tags.29.location: 40, 130
 photo.1.tags.95.location: 225, 220
-photo.2: ig://B98Hc7nhJgI/l
+photo.2: cwdc://XD12a7vADQB.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2020/5/17
-photo.2.link: https://www.instagram.com/love__mitarashi/
-photo.2.tags: couple, home
+photo.2.link: ig://B98Hc7nhJgI
+photo.2.tags: couple, home, peek
 photo.2.tags.29.location: 260, 220
 photo.2.tags.95.location: 630, 435
 photo.3: ig://CbPaIrTvh1-/l
@@ -23,11 +23,11 @@ photo.3.link: https://www.instagram.com/colette.jp/
 photo.3.tags: couple, home, portrait, sample
 photo.3.tags.29.location: 160, 230
 photo.3.tags.95.location: 375, 280
-photo.4: ig://CjSjOegL1Ex/l
+photo.4: cwdc://YOit-BgADQK.jpg
 photo.4.author: love__mitarashi
 photo.4.commitdate: 2022/10/20
-photo.4.link: https://www.instagram.com/love__mitarashi/
-photo.4.tags: bridge, couple, smile, tail
+photo.4.link: ig://CjSjOegL1Ex
+photo.4.tags: bridge, couple, paws, sample, smile, tail
 photo.4.tags.29.location: 150, 205
 photo.4.tags.95.location: 470, 135
 photo.5: cwdc://Y4JZoZNADQA.jpg
@@ -58,3 +58,83 @@ photo.8.link: ig://C9AF1csSoVe
 photo.8.tags: couple, home, mofumofu, sample, tail
 photo.8.tags.29.location: 490, 285
 photo.8.tags.95.location: 130, 290
+photo.9: cwdc://WfPT7_2ADQC.jpg
+photo.9.author: love__mitarashi
+photo.9.commitdate: 2026/1/27
+photo.9.link: ig://Bro2NdrF0vM
+photo.9.tags: bamboo, couple, home, techitechi
+photo.10: cwdc://WffbvKRADQD.jpg
+photo.10.author: love__mitarashi
+photo.10.commitdate: 2026/1/27
+photo.10.link: ig://Brw6HC4l7T8
+photo.10.tags: bamboo, couple, home, laying down
+photo.11: cwdc://WhLWPJLADQE.jpg
+photo.11.author: love__mitarashi
+photo.11.commitdate: 2026/1/27
+photo.11.link: ig://Bsm3XCVllxK
+photo.11.tags: bamboo, couple, home, sample, tail, tongue
+photo.12: cwdc://WhhfIJrADQF.jpg
+photo.12.author: love__mitarashi
+photo.12.commitdate: 2026/1/27
+photo.12.link: ig://Bsx7zillVY7
+photo.12.tags: bamboo, couple, home, laying down, sample, sleeping
+photo.13: cwdc://WnStan0ADQH.jpg
+photo.13.author: love__mitarashi
+photo.13.commitdate: 2026/1/27
+photo.13.link: ig://Bvqi8xqFrSv
+photo.13.tags: couple, home, itchy, paws, portrait
+photo.14: cwdc://Wntlx9cADQG.jpg
+photo.14.author: love__mitarashi
+photo.14.commitdate: 2026/1/27
+photo.14.link: ig://Bv3_IceFUQf
+photo.14.tags: couple, home, paws, tail, tongue
+photo.15: cwdc://WqvhuJwADQI.jpg
+photo.15.author: love__mitarashi
+photo.15.commitdate: 2026/1/27
+photo.15.link: ig://BxY9GioF8Zk
+photo.15.tags: bamboo, couple, home, laying down
+photo.16: cwdc://XeWCU2bADQM.jpg
+photo.16.author: love__mitarashi
+photo.16.commitdate: 2026/1/27
+photo.16.link: ig://CLMNZ49hpU9
+photo.16.tags: bamboo, couple, home, laying down
+photo.17: cwdc://XkTQdXYADQN.jpg
+photo.17.author: love__mitarashi
+photo.17.commitdate: 2026/1/27
+photo.17.link: ig://COK0eJcBRpM
+photo.17.tags: bamboo, couple, home, laying down, tail, yawn
+photo.18: cwdc://XtnuANbADQO.jpg
+photo.18.author: love__mitarashi
+photo.18.commitdate: 2026/1/27
+photo.18.link: ig://CS1DPkdg4gs
+photo.18.tags: apple time, couple, distance, portrait, standing, tail, tongue
+photo.19: cwdc://YRW2cWsADQL.jpg
+photo.19.author: love__mitarashi
+photo.19.commitdate: 2026/1/27
+photo.19.link: ig://CksndpGL6Kp
+photo.19.tags: bridge, couple, paws, tail
+photo.20: cwdc://Ypk80fBADQQ.jpg
+photo.20.author: love__mitarashi
+photo.20.commitdate: 2026/1/27
+photo.20.link: ig://CwzqptQvLhy
+photo.20.tags: couple, lips, paws, portrait, sample
+photo.21: cwdc://Ypp6UEWADQP.jpg
+photo.21.author: love__mitarashi
+photo.21.commitdate: 2026/1/27
+photo.21.link: ig://Cw2JZf7PK1t
+photo.21.tags: apple time, couple, paws, sample, tail
+photo.22: cwdc://YspIcLgADQR.jpg
+photo.22.author: love__mitarashi
+photo.22.commitdate: 2026/1/27
+photo.22.link: ig://CyVwdjgPb6j
+photo.22.tags: couple, paws, sample
+photo.23: cwdc://YvijXq_ADQS.jpg
+photo.23.author: love__mitarashi
+photo.23.commitdate: 2026/1/27
+photo.23.link: ig://Czyd7TPvzG3
+photo.23.tags: couple, paws, sample
+photo.24: cwdc://Yygy2pvADQJ.jpg
+photo.24.author: love__mitarashi
+photo.24.commitdate: 2026/1/27
+photo.24.link: ig://C1RlqynvnFm
+photo.24.tags: couple, sample, tail
