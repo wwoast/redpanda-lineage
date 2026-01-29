@@ -7,31 +7,49 @@ photo.1.author: colette.jp
 photo.1.commitdate: 2026/1/28
 photo.1.link: ig://CRi4c44hdyg
 photo.1.tags: apple time, bridge, family, portrait
+photo.1.tags.29.location: 180, 595
+photo.1.tags.95.location: 600, 475
+photo.1.tags.1016.location: 260, 435
 photo.2: cwdc://YWV1TEVADQA.jpg
 photo.2.author: colette.jp
 photo.2.commitdate: 2026/1/28
 photo.2.link: ig://CnMG4_6vmIy
 photo.2.tags: family, paws, portrait, sample
+photo.2.tags.29.location: 405, 185
+photo.2.tags.95.location: 110, 200
+photo.2.tags.1016.location: 665, 410
 photo.3: cwdc://YWV1TEVADQB.jpg
 photo.3.author: colette.jp
 photo.3.commitdate: 2026/1/28
 photo.3.link: ig://CnMG4_6vmIz
 photo.3.tags: family, portrait, tail
+photo.3.tags.29.location: 590, 470
+photo.3.tags.95.location: 580, 605
+photo.3.tags.1016.location: 160, 165
 photo.4: cwdc://YljgwdJADQD.jpg
 photo.4.author: colette.jp
 photo.4.commitdate: 2026/1/28
 photo.4.link: ig://Cuy8nsUvwL0
 photo.4.tags: family, paws, portrait, standing
+photo.4.tags.29.location: 165, 460
+photo.4.tags.95.location: 615, 220
+photo.4.tags.1016.location: 260, 440
 photo.5: cwdc://YljgwdJADQE.jpg
 photo.5.author: colette.jp
 photo.5.commitdate: 2026/1/28
 photo.5.link: ig://Cuy8nsUvwL1
 photo.5.tags: family, paws, portrait, standing, tail
+photo.5.tags.29.location: 115, 380
+photo.5.tags.95.location: 690, 350
+photo.5.tags.1016.location: 235, 335
 photo.6: cwdc://YljgwdJADQF.jpg
 photo.6.author: colette.jp
 photo.6.commitdate: 2026/1/28
 photo.6.link: ig://Cuy8nsUvwL3
 photo.6.tags: bridge, family, sample, smile
+photo.6.tags.29.location: 100, 425
+photo.6.tags.95.location: 435, 435
+photo.6.tags.1016.location: 585, 460
 photo.7: cwdc://YrGdzGbADQB.jpg
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2026/1/27
@@ -53,3 +71,6 @@ photo.9.author: colette.jp
 photo.9.commitdate: 2026/1/28
 photo.9.link: ig://DAnpzjiygmA
 photo.9.tags: family, paws, portrait, sample
+photo.9.tags.29.location: 290, 290
+photo.9.tags.95.location: 635, 315
+photo.9.tags.1016.location: 90, 300

@@ -56,6 +56,8 @@ photo.8.author: colette.jp
 photo.8.commitdate: 2026/1/28
 photo.8.link: ig://Bxwv1axltrC
 photo.8.tags: bamboo, bear worm, couple, home laying down, paws
+photo.8.tags.29.location: 410, 485
+photo.8.tags.95.location: 680, 385
 photo.9: cwdc://W-uTHv9ADQA.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2020/2/16
@@ -82,6 +84,8 @@ photo.12.author: colette.jp
 photo.12.commitdate: 2026/1/28
 photo.12.link: ig://CMzLC2RhvbZ
 photo.12.tags: couple, home, portrait
+photo.12.tags.29.location: 150, 490
+photo.12.tags.95.location: 605, 330
 photo.13: cwdc://XkTQdXYADQN.jpg
 photo.13.author: love__mitarashi
 photo.13.commitdate: 2026/1/27
@@ -108,6 +112,8 @@ photo.16.author: colette.jp
 photo.16.commitdate: 2026/1/28
 photo.16.link: ig://CdAoHoIPuzj
 photo.16.tags: apple time, couple
+photo.16.tags.29.location: 555, 100
+photo.16.tags.95.location: 410, 600
 photo.17: cwdc://YOit-BgADQK.jpg
 photo.17.author: love__mitarashi
 photo.17.commitdate: 2022/10/20
@@ -127,21 +133,29 @@ photo.19.author: colette.jp
 photo.19.commitdate: 2026/1/28
 photo.19.link: ig://ClQ5VKGvXad
 photo.19.tags: apple time, bridge, couple, keeper, paws, portrait, sample
+photo.19.tags.29.location: 280, 300
+photo.19.tags.95.location: 450, 350
 photo.20: cwdc://YSfaLYtADQJ.jpg
 photo.20.author: colette.jp
 photo.20.commitdate: 2026/1/28
 photo.20.link: ig://ClQ5VKGvXag
 photo.20.tags: climb, couple, keeper, portrait, standing, tail
+photo.20.tags.29.location: 470, 105
+photo.20.tags.95.location: 330, 245
 photo.21: cwdc://YWV1TEVADQL.jpg
 photo.21.author: colette.jp
 photo.21.commitdate: 2026/1/28
 photo.21.link: ig://CnMG4_6vmI1
 photo.21.tags: couple, paws, portrait, sample
+photo.21.tags.29.location: 230, 520
+photo.21.tags.95.location: 395, 220
 photo.22: cwdc://Ye9nsbLADQM.jpg
 photo.22.author: colette.jp
 photo.22.commitdate: 2026/1/28
 photo.22.link: ig://CrgAFrVvPqC
 photo.22.tags: couple, portrait, tail
+photo.22.tags.29.location: 680, 540
+photo.22.tags.95.location: 510, 320
 photo.23: cwdc://Ypk80fBADQQ.jpg
 photo.23.author: love__mitarashi
 photo.23.commitdate: 2026/1/27
@@ -161,16 +175,22 @@ photo.25.author: colette.jp
 photo.25.commitdate: 2026/1/28
 photo.25.link: ig://Cx7whtbvdDX
 photo.25.tags: couple, paws, portrait, tail
+photo.25.tags.29.location: 310, 140
+photo.25.tags.95.location: 325, 625
 photo.26: cwdc://Yr1IkfXADQO.jpg
 photo.26.author: colette.jp
 photo.26.commitdate: 2026/1/28
 photo.26.link: ig://Cx7whtbvdDY
 photo.26.tags: couple, lips, portrait, sample
+photo.26.tags.29.location: 340, 240
+photo.26.tags.95.location: 660, 430
 photo.27: cwdc://Yr1IkfXADQP.jpg
 photo.27.author: colette.jp
 photo.27.commitdate: 2026/1/28
 photo.27.link: ig://Cx7whtbvdDZ
 photo.27.tags: home, itchy, paws, portrait, sample, tail
+photo.27.tags.29.location: 345, 380
+photo.27.tags.95.location: 365, 85
 photo.28: cwdc://YspIcLgADQC.jpg
 photo.28.author: love__mitarashi
 photo.28.commitdate: 2026/1/27
@@ -204,6 +224,8 @@ photo.32.author: colette.jp
 photo.32.commitdate: 2026/1/28
 photo.32.link: ig://Cz8jKMZvAB0
 photo.32.tags: couple, home, portrait, sample, tail
+photo.32.tags.29.location: 590, 290
+photo.32.tags.95.location: 120, 290
 photo.33: cwdc://Yygy2pvADQJ.jpg
 photo.33.author: love__mitarashi
 photo.33.commitdate: 2026/1/27
@@ -223,21 +245,29 @@ photo.35.author: colette.jp
 photo.35.commitdate: 2026/1/28
 photo.35.link: ig://C4afHXSPhhO
 photo.35.tags: apple time, couple, paws, portrait, standing, tail, tongue
+photo.35.tags.29.location: 235, 460
+photo.35.tags.95.location: 425, 100
 photo.36: cwdc://Y4ylvzEADQC.jpg
 photo.36.author: colette.jp
 photo.36.commitdate: 2026/1/28
 photo.36.link: ig://C4afHXSPhhP
 photo.36.tags: couple, itchy, paws, portrait
+photo.36.tags.29.location: 475, 330
+photo.36.tags.95.location: 280, 210
 photo.37: cwdc://ZBUQjMrADQD.jpg
 photo.37.author: colette.jp
 photo.37.commitdate: 2026/1/28
 photo.37.link: ig://C8rUhEFygvP
 photo.37.tags: apple time, couple, paws, portrait, sample, standing, window
+photo.37.tags.29.location: 140, 210
+photo.37.tags.95.location: 640, 200
 photo.38: cwdc://ZBuD3NzADQE.jpg
 photo.38.author: colette.jp
 photo.38.commitdate: 2026/1/28
 photo.38.link: ig://C84OLEpy-u5
 photo.38.tags: apple time, close-up, couple, lips, paws, portrait, sample, whiskers
+photo.38.tags.29.location: 230, 380
+photo.38.tags.95.location: 550, 370
 photo.39: cwdc://ZB9zL94ADQB.jpg
 photo.39.author: love__mitarashi
 photo.39.commitdate: 2026/1/27
@@ -250,8 +280,12 @@ photo.40.author: colette.jp
 photo.40.commitdate: 2026/1/28
 photo.40.link: ig://C-cnXoUy6M_
 photo.40.tags: couple, paws, portrait, sample, standing
+photo.40.tags.29.location: 280, 370
+photo.40.tags.95.location: 520, 150
 photo.41: cwdc://ZPUQPirADQR.jpg
 photo.41.author: colette.jp
 photo.41.commitdate: 2026/1/28
 photo.41.link: ig://DDrUXPFy6S9
 photo.41.tags: couple, paws, portrait, sample, whiskers
+photo.41.tags.29.location: 525, 370
+photo.41.tags.95.location: 205, 380
