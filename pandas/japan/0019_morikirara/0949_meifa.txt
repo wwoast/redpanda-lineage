@@ -1894,8 +1894,6 @@ photo.376.author: osopanda551
 photo.376.commitdate: 2026/1/16
 photo.376.link: ig://CedxRjHLKhZ
 photo.376.tags: portrait, sample, whiskers
-species: 2
-zoo: 19
 photo.377: cwdc://W-460nEADQA.jpg
 photo.377.author: craig_craig_craig
 photo.377.commitdate: 2026/1/29
@@ -2481,3 +2479,5 @@ photo.493.author: miis_98
 photo.493.commitdate: 2026/1/29
 photo.493.link: ig://Cydt5GYvRiK
 photo.493.tags: close-up, sample, whiskers
+species: 2
+zoo: 19
