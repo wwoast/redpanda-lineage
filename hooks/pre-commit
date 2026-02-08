@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Rather than require GitHub CI, do all local checks prior to merging a
+# commit. This means any changes could update the `index.html` file with
+# new characters for names, or `export/redpanda.json` with new data.
+./build.py --publish
