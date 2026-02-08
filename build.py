@@ -896,7 +896,6 @@ def vitamin():
     with open("index.html", mode='r', encoding='utf-8') as rfh:
         page = rfh.read()
         page = re.sub(start, finish, page, count=1)
-        print(page)
     with open("index.html", mode='w', encoding="utf-8") as wfh:
         wfh.write(page)
 
