@@ -871,8 +871,8 @@ def vitamin():
     display in the lineage interface. This character set is necessary to instruct 
     TypeSquare on which characters we want to download in our font.
     """
-    # Starts as '<div class="vitamin"><p>${vitamins}</p></div>'
-    start = r'<div class="vitamin"><p>.*</p></div>'
+    # Starts as '<div class="vitamins"><p>${vitamins}</p></div>'
+    start = r'<div class="vitamins"><p>.*</p></div>'
     vitamin = "&amp;&copy;&lsquo;&rsquo;&ldquo;&rdquo;&nacute;"  # &-encoded HTML characters to start
     lists = []
     manifest = [
@@ -891,11 +891,12 @@ def vitamin():
     lists = list(set(lists))   # Uniquify lists of values
     lists.sort()
     vitamin += ''.join(lists).replace("\n", "")
-    finish = r'<div class="vitamin"><p>' + vitamin + r'</p></div>'
+    finish = r'<div class="vitamins"><p>' + vitamin + r'</p></div>'
     page = ""
     with open("index.html", mode='r', encoding='utf-8') as rfh:
         page = rfh.read()
         page = re.sub(start, finish, page, count=1)
+        print(page)
     with open("index.html", mode='w', encoding="utf-8") as wfh:
         wfh.write(page)
 
