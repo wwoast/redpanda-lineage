@@ -45,8 +45,6 @@ photo.6.author: hhpzoo
 photo.6.commitdate: 2025/11/16
 photo.6.link: ig://DRC9GqNDWB_?img_index=7
 photo.6.tags: peek, tree
-species: 1
-zoo: 47
 photo.7: cwdc://ZqQAk4NADQB.jpg
 photo.7.author: wumpwoast
 photo.7.commitdate: 2026/2/8
@@ -87,3 +85,5 @@ photo.14.author: wumpwoast
 photo.14.commitdate: 2026/2/8
 photo.14.link: ig://DT0blsBEUUF
 photo.14.tags: bamboo, peek, portrait
+species: 1
+zoo: 47
