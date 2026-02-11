@@ -726,7 +726,6 @@ class UpdateFromCommits:
                 # Don't care about files removed
                 continue
             else:
-                print(change)
                 # New photo. Track photo on its own
                 for hunk in change:
                     for line in hunk:
