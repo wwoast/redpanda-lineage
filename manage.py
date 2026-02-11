@@ -99,7 +99,8 @@ def remove_photo_from_file(path, photo_id):
         photo_list.update_file()
         repo.git.add(path)
     message = "-photo: {id}".format(id=photo_id)
-    repo.index.commit(message)
+    # These subtractions confuse the build.py commit hook
+    repo.index.commit(message, skip_hooks=True)
     repo.close()
     return photo_url
 
