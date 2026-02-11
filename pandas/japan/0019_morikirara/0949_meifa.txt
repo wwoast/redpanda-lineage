@@ -90,10 +90,10 @@ photo.15.author: mini_cochi
 photo.15.commitdate: 2020/1/30
 photo.15.link: ig://B7Q6afnBLN1
 photo.15.tags: baby, close-up, portrait, upside-down
-photo.16: ig://B7vcs3XhAFK/m
+photo.16: cwdc://W_cg6zPADQc.jpg
 photo.16.author: ssc6105
 photo.16.commitdate: 2020/1/26
-photo.16.link: https://www.instagram.com/ssc6105/
+photo.16.link: ig://B7vcs3XhAFK
 photo.16.tags: climb, smile
 photo.17: cwdc://W_vX71bADQZ.jpg
 photo.17.author: osopanda551
@@ -150,11 +150,11 @@ photo.27.author: osopanda551
 photo.27.commitdate: 2020/3/5
 photo.27.link: ig://B8thP-vhxou
 photo.27.tags: climb, paws, portrait, sample, smile, tail
-photo.28: ig://B8vCTd0BK1F/m
+photo.28: cwdc://XBbsIAIADQa.jpg
 photo.28.author: ssc6105
 photo.28.commitdate: 2020/3/5
-photo.28.link: https://www.instagram.com/ssc6105/
-photo.28.tags: bamboo, whiskers
+photo.28.link: ig://B8vCTd0BK1F
+photo.28.tags: bamboo, sample, whiskers
 photo.29: cwdc://XBdAJSQADQA.jpg
 photo.29.author: pink.b22
 photo.29.commitdate: 2020/3/5
@@ -205,11 +205,11 @@ photo.38.author: redpan22
 photo.38.commitdate: 2020/3/5
 photo.38.link: ig://B9EqAjiBeny
 photo.38.tags: bite, mofumofu, paws, portrait, sample
-photo.39: ig://B9GEHQlBcux/m
+photo.39: cwdc://XCJvvlqADQX.jpg
 photo.39.author: ssc6105
 photo.39.commitdate: 2020/3/5
-photo.39.link: https://www.instagram.com/ssc6105/
-photo.39.tags: bite, paws, smile
+photo.39.link: ig://B9GEHQlBcux
+photo.39.tags: bamboo, bite, paws, sample, smile, whiskers
 photo.40: cwdc://XCMXAvdADQE.jpg
 photo.40.author: osopanda551
 photo.40.commitdate: 2020/3/5
@@ -330,15 +330,15 @@ photo.63.author: osopanda551
 photo.63.commitdate: 2020/6/19
 photo.63.link: ig://B-E9VbMBlrA
 photo.63.tags: bite, portrait, sample, smile, tail
-photo.64: ig://B-GFA08BU7M/m
+photo.64: cwdc://XEJxiuYADQW.jpg
 photo.64.author: ssc6105
 photo.64.commitdate: 2020/6/19
-photo.64.link: https://www.instagram.com/ssc6105/
-photo.64.tags: paws, smile, standing, tail
-photo.65: ig://B-McluCBnnt/m
+photo.64.link: ig://B-GFA08BU7M
+photo.64.tags: paws, sample, smile, standing, tail
+photo.65: cwdc://XEWgsgkADQV.jpg
 photo.65.author: ssc6105
 photo.65.commitdate: 2020/6/19
-photo.65.link: https://www.instagram.com/ssc6105/
+photo.65.link: ig://B-McluCBnnt
 photo.66: cwdc://XEamRnbADQA.jpg
 photo.66.author: osopanda551
 photo.66.commitdate: 2020/6/19
@@ -349,11 +349,11 @@ photo.67.author: kotata_513
 photo.67.commitdate: 2020/6/19
 photo.67.link: ig://B-RnbgvhnQK
 photo.67.tags: bamboo, paws, sample, smile
-photo.68: ig://B-T6xIfBSWY/m
+photo.68: cwdc://XEldDVeADQT.jpg
 photo.68.author: ssc6105
 photo.68.commitdate: 2020/6/19
-photo.68.link: https://www.instagram.com/ssc6105/
-photo.68.tags: close-up, paws, standing
+photo.68.link: ig://B-T6xIfBSWY
+photo.68.tags: close-up, paws, sample, standing, whiskers
 photo.69: cwdc://XEowHIhADQU.jpg
 photo.69.author: alto0908
 photo.69.commitdate: 2020/6/19
@@ -374,16 +374,16 @@ photo.72.author: pink.b22
 photo.72.commitdate: 2020/6/19
 photo.72.link: ig://CACwafzHSv-
 photo.72.tags: portrait, sample, tail
-photo.73: ig://CAUi4mKBMVk/m
+photo.73: cwdc://XImtSQ0ADQM.jpg
 photo.73.author: ssc6105
 photo.73.commitdate: 2020/6/19
-photo.73.link: https://www.instagram.com/ssc6105/
+photo.73.link: ig://CAUi4mKBMVk
 photo.73.tags: bridge, tail
-photo.74: ig://CAfBP-cn8QO/m
+photo.74: cwdc://XI7qBBZADQL.jpg
 photo.74.author: ssc6105
 photo.74.commitdate: 2020/6/19
-photo.74.link: https://www.instagram.com/ssc6105/
-photo.74.tags: bamboo, portrait, tail, tongue
+photo.74.link: ig://CAfBP-cn8QO
+photo.74.tags: bamboo, portrait, sample, tail, tongue, whiskers
 photo.75: cwdc://XI7xDhRADQH.jpg
 photo.75.author: pink.b22
 photo.75.commitdate: 2020/6/19
@@ -399,16 +399,16 @@ photo.77.author: ck.chie
 photo.77.commitdate: 2020/6/19
 photo.77.link: ig://CAoRX0hBwJ4
 photo.77.tags: bamboo, bridge, paws, tail
-photo.78: ig://CAppOEmHZoD/m
+photo.78: cwdc://XJQ59NsADQK.jpg
 photo.78.author: ssc6105
 photo.78.commitdate: 2020/6/19
-photo.78.link: https://www.instagram.com/ssc6105/
-photo.78.tags: portrait, smile
-photo.79: ig://CAzcPoqhuLr/m
+photo.78.link: ig://CAppOEmHZoD
+photo.78.tags: paws, portrait, sample, smile, whiskers
+photo.79: cwdc://XJkgAV1ADQJ.jpg
 photo.79.author: ssc6105
 photo.79.commitdate: 2020/6/19
-photo.79.link: https://www.instagram.com/ssc6105/
-photo.79.tags: bamboo, portrait, smile
+photo.79.link: ig://CAzcPoqhuLr
+photo.79.tags: bamboo, portrait, sample, smile, tongue, whiskers
 photo.80: cwdc://XNGKtYIADQA.jpg
 photo.80.author: otenba_redpanda
 photo.80.commitdate: 2021/10/1
@@ -2481,3 +2481,99 @@ photo.493.link: ig://Cydt5GYvRiK
 photo.493.tags: close-up, sample, whiskers
 species: 2
 zoo: 19
+photo.494: cwdc://W_qP0ulADQb.jpg
+photo.494.author: ssc6105
+photo.494.commitdate: 2026/2/10
+photo.494.link: ig://B72UJ1Chuse
+photo.494.tags: mofumofu, sample, tail, whiskers
+photo.495: cwdc://XB2iiArADQZ.jpg
+photo.495.author: ssc6105
+photo.495.commitdate: 2026/2/10
+photo.495.link: ig://B88dgeFhdxT
+photo.495.tags: autumn, paws, playing, tail
+photo.496: cwdc://XCJvvlqADQY.jpg
+photo.496.author: ssc6105
+photo.496.commitdate: 2026/2/10
+photo.496.link: ig://B9GEHQlBcuz
+photo.496.tags: paws, sample, smile, whiskers
+photo.65.tags: paws, sample, whiskers
+photo.497: cwdc://XEZQwJtADQU.jpg
+photo.497.author: ssc6105
+photo.497.commitdate: 2026/2/10
+photo.497.link: ig://B-N0nimhe6G
+photo.497.tags: nose, paws, smile, whiskers
+photo.498: cwdc://XF228GmADQP.jpg
+photo.498.author: ssc6105
+photo.498.commitdate: 2026/2/10
+photo.498.link: ig://B-8nthDBh0J
+photo.498.tags: bamboo, mofumofu, paws, portrait, sample, tongue, whiskers
+photo.499: cwdc://XFMO1TuADQS.jpg
+photo.499.author: ssc6105
+photo.499.commitdate: 2026/2/10
+photo.499.link: ig://B-nTqHnBUAy
+photo.499.tags: bamboo, bite, paws, sample, tail
+photo.500: cwdc://XFWr1UyADQR.jpg
+photo.500.author: ssc6105
+photo.500.commitdate: 2026/2/10
+photo.500.link: ig://B-siKIJBV1k
+photo.500.tags: mofumofu, paws, sample
+photo.501: cwdc://XFl2QsoADQQ.jpg
+photo.501.author: ssc6105
+photo.501.commitdate: 2026/2/10
+photo.501.link: ig://B-0HX0EBliL
+photo.501.tags: bamboo, bite, paws, portrait, sample, whiskers
+photo.502: cwdc://XHT4UloADQO.jpg
+photo.502.author: ssc6105
+photo.502.commitdate: 2026/2/10
+photo.502.link: ig://B_rIZwkHAHv
+photo.502.tags: paws, tail
+photo.503: cwdc://XHz9IbbADQN.jpg
+photo.503.author: ssc6105
+photo.503.commitdate: 2026/2/10
+photo.503.link: ig://B_7KzrdnJL6
+photo.503.tags: climb, paws, sample, smile, whiskers
+photo.504: cwdc://XJxzMeAADQI.jpg
+photo.504.author: ssc6105
+photo.504.commitdate: 2026/2/10
+photo.504.link: ig://CA6F1swBtIi
+photo.504.tags: bamboo, bite, mofumofu, portrait
+photo.505: cwdc://XLGUkdZADQH.jpg
+photo.505.author: ssc6105
+photo.505.commitdate: 2026/2/10
+photo.505.link: ig://CBkWhschB7x
+photo.505.tags: hammock, peek, tail
+photo.506: cwdc://XLY79-qADQG.jpg
+photo.506.author: ssc6105
+photo.506.commitdate: 2026/2/10
+photo.506.link: ig://CBtqOdFBUT7
+photo.506.tags: paws, sample, smile, tongue, whiskers
+photo.507: cwdc://XLd3hGRADQF.jpg
+photo.507.author: ssc6105
+photo.507.commitdate: 2026/2/10
+photo.507.link: ig://CBwIAA4h-gp
+photo.507.tags: bamboo, climb, paws, tail
+photo.508: cwdc://XLe-lg-ADQE.jpg
+photo.508.author: ssc6105
+photo.508.commitdate: 2026/2/10
+photo.508.link: ig://CBwriOPBeQu
+photo.508.tags: bite, sample, tongue, whiskers
+photo.509: cwdc://XLrTdz2ADQC.jpg
+photo.509.author: ssc6105
+photo.509.commitdate: 2026/2/10
+photo.509.link: ig://CB21-XrBBaO
+photo.509.tags: bamboo, paws, sample, whiskers
+photo.510: cwdc://XLrTdz2ADQD.jpg
+photo.510.author: ssc6105
+photo.510.commitdate: 2026/2/10
+photo.510.link: ig://CB21-XrBBaP
+photo.510.tags: bamboo, paws, sample, smile, whiskers
+photo.511: cwdc://XMJcHvQADQB.jpg
+photo.511.author: ssc6105
+photo.511.commitdate: 2026/2/10
+photo.511.link: ig://CCF6TVYB3j7
+photo.511.tags: portrait, sample, smile, tail
+photo.512: cwdc://XMPUvgJADQA.jpg
+photo.512.author: ssc6105
+photo.512.commitdate: 2026/2/10
+photo.512.link: ig://CCI2nN0hPy8
+photo.512.tags: bridge, laying down, paws, portrait, tail
