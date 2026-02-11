@@ -90,11 +90,11 @@ photo.15.author: fetorus_mami
 photo.15.commitdate: 2020/1/1
 photo.15.link: https://www.instagram.com/fetorus_mami/
 photo.15.tags: baby, bite, playing
-photo.16: ig://B5zqsPkh7J1/m
+photo.16: cwdc://W7k85jpADQA.jpg
 photo.16.author: ssc6105
 photo.16.commitdate: 2019/12/16
-photo.16.link: https://www.instagram.com/ssc6105/
-photo.16.tags: baby, bamboo, white face
+photo.16.link: ig://B5zqsPkh7J1
+photo.16.tags: baby, bamboo, portrait, sample, white face
 photo.17: ig://B6qBcPIhSAd/m
 photo.17.author: mini_cochi
 photo.17.commitdate: 2020/1/30
@@ -150,11 +150,11 @@ photo.27.author: minatomirai215
 photo.27.commitdate: 2020/3/5
 photo.27.link: https://www.instagram.com/minatomirai215/
 photo.27.tags: mofumofu, paws, standing, tail
-photo.28: ig://B8GTcStBpwk/m
+photo.28: cwdc://XAKOZp6ADQB.jpg
 photo.28.author: ssc6105
 photo.28.commitdate: 2020/2/7
-photo.28.link: https://www.instagram.com/ssc6105/
-photo.28.tags: bite, mofumofu, whiskers
+photo.28.link: ig://B8GTcStBpwk
+photo.28.tags: bite, mofumofu, peek, whiskers
 photo.29: ig://B8GlntHByi7/m
 photo.29.author: kaoru_a358
 photo.29.commitdate: 2020/2/7
@@ -300,10 +300,10 @@ photo.57.author: osopanda551
 photo.57.commitdate: 2020/6/19
 photo.57.link: ig://B9eZvEHBWSO
 photo.57.tags: autumn, portrait, sample, tail, whiskers
-photo.58: ig://B9fEWpABOYN/m
+photo.58: cwdc://XC7wOWgADQD.jpg
 photo.58.author: ssc6105
 photo.58.commitdate: 2020/6/19
-photo.58.link: https://www.instagram.com/ssc6105/
+photo.58.link: ig://B9fEWpABOYN
 photo.58.tags: paws, standing, tail
 photo.59: ig://B9m3jrQBBcd/m
 photo.59.author: run.swim.shingo
@@ -340,11 +340,11 @@ photo.65.author: osopanda551
 photo.65.commitdate: 2020/6/19
 photo.65.link: ig://B-sxNsIBcjD
 photo.65.tags: paws, portrait, sample, smile, tree
-photo.66: ig://B-wielkBfqL/m
+photo.66: cwdc://XFesePoADQH.jpg
 photo.66.author: ssc6105
 photo.66.commitdate: 2020/6/19
-photo.66.link: https://www.instagram.com/ssc6105/
-photo.66.tags: bamboo, paws, smile, tail
+photo.66.link: ig://B-wielkBfqL
+photo.66.tags: bamboo, laying down, paws, sample, smile, tail
 photo.67: cwdc://XFe28aIADQA.jpg
 photo.67.author: osopanda551
 photo.67.commitdate: 2020/6/19
@@ -405,11 +405,11 @@ photo.78.author: run.swim.shingo
 photo.78.commitdate: 2020/9/12
 photo.78.link: https://www.instagram.com/run.swim.shingo/
 photo.78.tags: portrait, smile
-photo.79: ig://CEGIHeqhpvS/m
+photo.79: cwdc://XQJ3wB1ADQb.jpg
 photo.79.author: ssc6105
 photo.79.commitdate: 2020/8/28
-photo.79.link: https://www.instagram.com/ssc6105/
-photo.79.tags: portrait, tail
+photo.79.link: ig://CEGIHeqhpvS
+photo.79.tags: portrait, sample, tail
 photo.80: ig://CES_laPBORC/m
 photo.80.author: otenba_redpanda
 photo.80.commitdate: 2021/10/2
@@ -501,10 +501,10 @@ photo.97.author: osopanda551
 photo.97.commitdate: 2021/8/14
 photo.97.link: ig://CHxRdhfhDtb
 photo.97.tags: portrait, sample, smile, whiskers
-photo.98: ig://CHze_LNBvg_/m
+photo.98: cwdc://XXklfa6ADQj.jpg
 photo.98.author: ssc6105
 photo.98.commitdate: 2021/8/14
-photo.98.link: https://www.instagram.com/ssc6105/
+photo.98.link: ig://CHze_LNBvg_
 photo.99: ig://CIKx3BEh5Za/m
 photo.99.author: otenba_redpanda
 photo.99.commitdate: 2021/10/3
@@ -690,30 +690,30 @@ photo.135.author: mini_cochi
 photo.135.commitdate: 2022/9/25
 photo.135.link: https://www.instagram.com/mini_cochi/
 photo.135.tags: bamboo, bite, portrait, sample
-photo.136: ig://CYkT39IBKiz/m
+photo.136: cwdc://X5GPQ-wADQu.jpg
 photo.136.author: ssc6105
 photo.136.commitdate: 2022/4/12
-photo.136.link: https://www.instagram.com/ssc6105/
+photo.136.link: ig://CYkT39IBKiz
 photo.136.tags: peek, sample, tail, tree
-photo.137: ig://CYn7udYvJcR/m
+photo.137: cwdc://X5Ne9_RADQv.jpg
 photo.137.author: ssc6105
 photo.137.commitdate: 2022/1/30
-photo.137.link: https://www.instagram.com/ssc6105/
+photo.137.link: ig://CYn7udYvJcR
 photo.137.tags: smile, tail
 photo.138: ig://CYovkSHvlNO/m
 photo.138.author: eos1089
 photo.138.commitdate: 2022/1/30
 photo.138.link: https://www.instagram.com/eos1089/
 photo.138.tags: paws, portrait, sample, smile, snow, standing, tail
-photo.139: ig://CYqbyMZvisb/m
+photo.139: cwdc://X5SfFdTADQw.jpg
 photo.139.author: ssc6105
 photo.139.commitdate: 2022/1/23
-photo.139.link: https://www.instagram.com/ssc6105/
+photo.139.link: ig://CYqbyMZvisb
 photo.139.tags: sample, smile, whiskers
-photo.140: ig://CYukiOehNly/m
+photo.140: cwdc://X5awlhdADQx.jpg
 photo.140.author: ssc6105
 photo.140.commitdate: 2022/3/19
-photo.140.link: https://www.instagram.com/ssc6105/
+photo.140.link: ig://CYukiOehNly
 photo.140.tags: climb, paws, peek, sample, tree, whiskers
 photo.141: ig://CY_d9GhPS8e/m
 photo.141.author: sb23megumi
@@ -740,26 +740,26 @@ photo.145.author: redpan22
 photo.145.commitdate: 2022/4/4
 photo.145.link: https://www.instagram.com/redpan22/
 photo.145.tags: bamboo, bite, close-up, mofumofu, sample, tongue, whiskers
-photo.146: ig://CamYJCjvuln/m
+photo.146: cwdc://X9KXzJnADQL.jpg
 photo.146.author: ssc6105
 photo.146.commitdate: 2022/3/10
-photo.146.link: https://www.instagram.com/ssc6105/
-photo.146.tags: bamboo, bite, snow, tail
-photo.147: ig://Ca0dTQ2B1FL/m
+photo.146.link: ig://CamYJCjvuln
+photo.146.tags: bamboo, bite, sample, snow, tail
+photo.147: cwdc://X9miHmMADQI.jpg
 photo.147.author: ssc6105
 photo.147.commitdate: 2022/4/10
-photo.147.link: https://www.instagram.com/ssc6105/
+photo.147.link: ig://Ca0dTQ2B1FL
 photo.147.tags: blink, laying down, tongue, tree
 photo.148: ig://Ca7NjvTLo_9/m
 photo.148.author: mini_cochi
 photo.148.commitdate: 2022/4/5
 photo.148.link: https://www.instagram.com/mini_cochi/
 photo.148.tags: climb, paws, portrait, smile, tree, whiskers
-photo.149: ig://Ca8D_ItBIt4/m
+photo.149: cwdc://X91vfV6ADQJ.jpg
 photo.149.author: ssc6105
 photo.149.commitdate: 2022/4/5
-photo.149.link: https://www.instagram.com/ssc6105/
-photo.149.tags: peek, sample, tail
+photo.149.link: ig://Ca8D_ItBIt4
+photo.149.tags: bridge, paws, peek, sample, tail
 photo.150: ig://Ca8OMfFr2xr/m
 photo.150.author: otenba_redpanda
 photo.150.commitdate: 2022/4/10
@@ -1570,10 +1570,201 @@ photo.311.author: osopanda551
 photo.311.commitdate: 2026/1/15
 photo.311.link: ig://CUd5VSJJkxX
 photo.311.tags: climb, paws, portrait, sample, standing, tree, whiskers
-photo.312: ig://B9BpLYihlgV/m
+photo.312: cwdc://XCA531lADQC.jpg
 photo.312.author: ssc6105
 photo.312.commitdate: 2020/3/5
-photo.312.link: https://www.instagram.com/ssc6105/
-photo.312.tags: paws, tail
+photo.312.link: ig://B9BpLYihlgV
+photo.312.tags: paws, portrait, sample, tail
 species: 2
 zoo: 306
+photo.313: cwdc://X2cCiDpADQs.jpg
+photo.313.author: ssc6105
+photo.313.commitdate: 2026/2/11
+photo.313.link: ig://CXPNgfkh8Xt
+photo.313.tags: paws, standing
+photo.314: cwdc://X3xM7yNADQr.jpg
+photo.314.author: ssc6105
+photo.314.commitdate: 2026/2/11
+photo.314.link: ig://CX5ytW2vbDV
+photo.314.tags: autumn, paws, playing, portrait
+photo.315: cwdc://X4pl1OCADQy.jpg
+photo.315.author: ssc6105
+photo.315.commitdate: 2026/2/11
+photo.315.link: ig://CYV_KExPP_j
+photo.315.tags: paws, sample, standing
+photo.316: cwdc://X53NYIOADQt.jpg
+photo.316.author: ssc6105
+photo.316.commitdate: 2026/2/11
+photo.316.link: ig://CY8y7h3PiW_
+photo.316.tags: paws, peek
+photo.317: cwdc://X6YtR09ADQz.jpg
+photo.317.author: ssc6105
+photo.317.commitdate: 2026/2/11
+photo.317.link: ig://CZNi4YOhWXw
+photo.317.tags: laying down, paws, sample, tail, tree
+photo.318: cwdc://XE1jQV4ADQF.jpg
+photo.318.author: ssc6105
+photo.318.commitdate: 2026/2/11
+photo.318.link: ig://B-b93osBAKT
+photo.318.tags: blink, paws, smile
+photo.319: cwdc://XEMKxsEADQG.jpg
+photo.319.author: ssc6105
+photo.319.commitdate: 2026/2/11
+photo.319.link: ig://B-HRoTyBEJF
+photo.319.tags: bamboo, bite, laying down, tail, tree
+photo.320: cwdc://XHpkfPZADQE.jpg
+photo.320.author: ssc6105
+photo.320.commitdate: 2026/2/11
+photo.320.link: ig://B_1-fFcnxc7
+photo.320.tags: climb, paws, tail
+photo.321: cwdc://XJAXx86ADQK.jpg
+photo.321.author: ssc6105
+photo.321.commitdate: 2026/2/11
+photo.321.link: ig://CAhYIcNFAbQ
+photo.321.tags: paws, tail
+photo.322: cwdc://XJf_jDAADQM.jpg
+photo.322.author: ssc6105
+photo.322.commitdate: 2026/2/11
+photo.322.link: ig://CAxMA_QBUfU
+photo.322.tags: bamboo, laying down, paws
+photo.323: cwdc://XL_uxKgADQT.jpg
+photo.323.author: ssc6105
+photo.323.commitdate: 2026/2/11
+photo.323.link: ig://CCBDoDABkLE
+photo.323.tags: bamboo, laying down, paws, portrait, tail
+photo.324: cwdc://XLd2iNyADQN.jpg
+photo.324.author: ssc6105
+photo.324.commitdate: 2026/2/11
+photo.324.link: ig://CBwHgkpB08_
+photo.324.tags: bamboo, paws, portrait, sample, tail
+photo.325: cwdc://XMJo5rHADQU.jpg
+photo.325.author: ssc6105
+photo.325.commitdate: 2026/2/11
+photo.325.link: ig://CCGAsTThygn
+photo.325.tags: portrait, sample, smile, whiskers
+photo.326: cwdc://XMzDYTnADQR.jpg
+photo.326.author: ssc6105
+photo.326.commitdate: 2026/2/11
+photo.326.link: ig://CCat7njh5pK
+photo.326.tags: bamboo, peek, sample, smile
+photo.327: cwdc://XMzDYTnADQS.jpg
+photo.327.author: ssc6105
+photo.327.commitdate: 2026/2/11
+photo.327.link: ig://CCat7njh5pL
+photo.327.tags: laying down, paws, peek, tail, tree
+photo.328: cwdc://XNQfUD5ADQV.jpg
+photo.328.author: ssc6105
+photo.328.commitdate: 2026/2/11
+photo.328.link: ig://CCpb5fshVOu
+photo.328.tags: blink, yawn
+photo.329: cwdc://XNwyHOFADQO.jpg
+photo.329.author: ssc6105
+photo.329.commitdate: 2026/2/11
+photo.329.link: ig://CC5lTEyhAgW
+photo.329.tags: sample, smile, whiskers
+photo.330: cwdc://XNzKSoRADQP.jpg
+photo.330.author: ssc6105
+photo.330.commitdate: 2026/2/11
+photo.330.link: ig://CC6xYx4hXtq
+photo.330.tags: laying down, paws, sample, tail, tree
+photo.331: cwdc://XNzKSoRADQQ.jpg
+photo.331.author: ssc6105
+photo.331.commitdate: 2026/2/11
+photo.331.link: ig://CC6xYx4hXtr
+photo.331.tags: laying down, paws, sample, tail, tree
+photo.332: cwdc://XP5IJPQADQW.jpg
+photo.332.author: ssc6105
+photo.332.commitdate: 2026/2/11
+photo.332.link: ig://CD9wUFYBPlS
+photo.332.tags: paws, peek, tail, tree
+photo.333: cwdc://XP_LdB8ADQY.jpg
+photo.333.author: ssc6105
+photo.333.commitdate: 2026/2/11
+photo.333.link: ig://CEAx9-uBv4n
+photo.333.tags: paws
+photo.334: cwdc://XP_LdB8ADQZ.jpg
+photo.334.author: ssc6105
+photo.334.commitdate: 2026/2/11
+photo.334.link: ig://CEAx9-uBv4o
+photo.334.tags: flowers, mofumofu, paws, sample
+photo.335: cwdc://XPaHyRXADQX.jpg
+photo.335.author: ssc6105
+photo.335.commitdate: 2026/2/11
+photo.335.link: ig://CDuQImbhp_-
+photo.335.tags: laying down, paws, tail, tree
+photo.336: cwdc://XQ0_onzADQa.jpg
+photo.336.author: ssc6105
+photo.336.commitdate: 2026/2/11
+photo.336.link: ig://CEbsDxph7gx
+photo.336.tags: paws, sample, tree
+photo.337: cwdc://XQqc98EADQd.jpg
+photo.337.author: ssc6105
+photo.337.commitdate: 2026/2/11
+photo.337.link: ig://CEWaubyBvYO
+photo.337.tags: climb, paws, tail
+photo.338: cwdc://XRR-pw0ADQc.jpg
+photo.338.author: ssc6105
+photo.338.commitdate: 2026/2/11
+photo.338.link: ig://CEqLkWKBaDY
+photo.338.tags: peek, tail
+photo.339: cwdc://XSjFRtvADQg.jpg
+photo.339.author: ssc6105
+photo.339.commitdate: 2026/2/11
+photo.339.link: ig://CFSu4UnhSEG
+photo.339.tags: paws, sample
+photo.340: cwdc://XTd9UoxADQh.jpg
+photo.340.author: ssc6105
+photo.340.commitdate: 2026/2/11
+photo.340.link: ig://CFwK5yIhK3d
+photo.340.tags: peek, tongue
+photo.341: cwdc://XTrGvhBADQe.jpg
+photo.341.author: ssc6105
+photo.341.commitdate: 2026/2/11
+photo.341.link: ig://CF2vnOQh-BE
+photo.341.tags: paws, standing, whiskers
+photo.342: cwdc://XTzk_edADQf.jpg
+photo.342.author: ssc6105
+photo.342.commitdate: 2026/2/11
+photo.342.link: ig://CF6-vM-h7E7
+photo.342.tags: grooming, paws, peek, tail, tongue, tree
+photo.343: cwdc://XXKFf4LADQi.jpg
+photo.343.author: ssc6105
+photo.343.commitdate: 2026/2/11
+photo.343.link: ig://CHmO_Z1hGSA
+photo.343.tags: paws, playing, portrait, sample, tail
+photo.98.tags: paws, smile, standing, tail
+photo.344: cwdc://XY2JQALADQk.jpg
+photo.344.author: ssc6105
+photo.344.commitdate: 2026/2/11
+photo.344.link: ig://CIcQ3d1henN
+photo.344.tags: autumn, laying down, paws, playing, tail, upside-down, whiskers
+photo.345: cwdc://XZOpEngADQl.jpg
+photo.345.author: ssc6105
+photo.345.commitdate: 2026/2/11
+photo.345.link: ig://CIogxxgBFTX
+photo.345.tags: paws, peek, tail, tree
+photo.346: cwdc://XaHN2zFADQn.jpg
+photo.346.author: ssc6105
+photo.346.commitdate: 2026/2/11
+photo.346.link: ig://CJEzK3Sh2yg
+photo.346.tags: paws, tail, tree
+photo.347: cwdc://XbqGdEGADQm.jpg
+photo.347.author: ssc6105
+photo.347.commitdate: 2026/2/11
+photo.347.link: ig://CJ2Pd_zBWwo
+photo.347.tags: peek
+photo.348: cwdc://XjcrcW9ADQo.jpg
+photo.348.author: ssc6105
+photo.348.commitdate: 2026/2/11
+photo.348.link: ig://CNvh9pOhcEE
+photo.348.tags: laying down, tail, tree
+photo.349: cwdc://XpVt-zwADQp.jpg
+photo.349.author: ssc6105
+photo.349.commitdate: 2026/2/11
+photo.349.link: ig://CQsDO3oBLdJ
+photo.349.tags: laying down, paws, tail, tree
+photo.350: cwdc://XsqS6l9ADQq.jpg
+photo.350.author: ssc6105
+photo.350.commitdate: 2026/2/11
+photo.350.link: ig://CSWVswuhpIB
+photo.350.tags: laying down, paws, sample, tail, tree
