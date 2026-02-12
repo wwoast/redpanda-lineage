@@ -1575,8 +1575,6 @@ photo.312.author: ssc6105
 photo.312.commitdate: 2020/3/5
 photo.312.link: ig://B9BpLYihlgV
 photo.312.tags: paws, portrait, sample, tail
-species: 2
-zoo: 306
 photo.313: cwdc://X2cCiDpADQs.jpg
 photo.313.author: ssc6105
 photo.313.commitdate: 2026/2/11
@@ -1768,3 +1766,5 @@ photo.350.author: ssc6105
 photo.350.commitdate: 2026/2/11
 photo.350.link: ig://CSWVswuhpIB
 photo.350.tags: laying down, paws, sample, tail, tree
+species: 2
+zoo: 306
