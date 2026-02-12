@@ -501,16 +501,16 @@ photo.97.author: nishicotolo
 photo.97.commitdate: 2020/1/9
 photo.97.link: ig://B62bDnahV-l
 photo.97.tags: whiskers
-photo.98: cwdc://W_r8-qqADQF.jpg
+photo.98: cwdc://W-j1A58ADQC.jpg
 photo.98.author: nishicotolo
-photo.98.commitdate: 2020/1/28
-photo.98.link: ig://B73KuzFB9oe
-photo.98.tags: sample, smile
-photo.99: cwdc://W-j1A58ADQC.jpg
+photo.98.commitdate: 2020/1/16
+photo.98.link: ig://B7TGv6uBxXP
+photo.98.tags: paws
+photo.99: cwdc://W_r8-qqADQF.jpg
 photo.99.author: nishicotolo
-photo.99.commitdate: 2020/1/16
-photo.99.link: ig://B7TGv6uBxXP
-photo.99.tags: paws
+photo.99.commitdate: 2020/1/28
+photo.99.link: ig://B73KuzFB9oe
+photo.99.tags: sample, smile
 photo.100: cwdc://XApNVMLADQA.jpg
 photo.100.author: monmon_redpanda
 photo.100.commitdate: 2020/2/16
@@ -771,326 +771,346 @@ photo.151.author: minatomirai215
 photo.151.commitdate: 2021/1/16
 photo.151.link: ig://CJ8cU6zBOy8
 photo.151.tags: paws, portrait, sample
-photo.152: cwdc://XcfTTHUADQG.jpg
+photo.152: cwdc://XcfTTHUADQA.jpg
 photo.152.author: ssc6105
-photo.152.commitdate: 2021/3/2
-photo.152.link: ig://CKQ15BaBSlj
-photo.152.tags: blink, paws, sample
-photo.153: cwdc://XdqQyPwADQC.jpg
-photo.153.author: ck.chie
-photo.153.commitdate: 2021/2/20
-photo.153.link: ig://CK2UoloBa6K
-photo.153.tags: paws, portrait, sample
-photo.154: cwdc://Xemclu5ADQD.jpg
-photo.154.author: fetorus_mami
-photo.154.commitdate: 2021/2/15
-photo.154.link: ig://CLUaiVMhsfi
-photo.154.tags: close-up, sample, whiskers
-photo.155: cwdc://Xem7qA1ADQE.jpg
-photo.155.author: eos1089
-photo.155.commitdate: 2021/2/28
-photo.155.link: ig://CLUqEeKhY4U
-photo.155.tags: portrait, sample, smile, whiskers
-photo.156: cwdc://XfO3ZUXADQC.jpg
+photo.152.commitdate: 2026/2/11
+photo.152.link: ig://CKQ15BaBSlk
+photo.152.tags: paws, sample, whiskers
+photo.153: cwdc://XcfTTHUADQB.jpg
+photo.153.author: ssc6105
+photo.153.commitdate: 2026/2/11
+photo.153.link: ig://CKQ15BaBSll
+photo.153.tags: bamboo, laying down, paws, smile
+photo.154: cwdc://XcfTTHUADQG.jpg
+photo.154.author: ssc6105
+photo.154.commitdate: 2021/3/2
+photo.154.link: ig://CKQ15BaBSlj
+photo.154.tags: blink, paws, sample
+photo.155: cwdc://XdqQyPwADQC.jpg
+photo.155.author: ck.chie
+photo.155.commitdate: 2021/2/20
+photo.155.link: ig://CK2UoloBa6K
+photo.155.tags: paws, portrait, sample
+photo.156: cwdc://Xemclu5ADQD.jpg
 photo.156.author: fetorus_mami
-photo.156.commitdate: 2021/3/21
-photo.156.link: ig://CLon8H7hdK0
-photo.156.tags: portrait, sample, smile, tree, whiskers
-photo.157: cwdc://XfUVlSaADQF.jpg
-photo.157.author: mini_cochi
-photo.157.commitdate: 2021/3/21
-photo.157.link: ig://CLrXCG9BMx9
-photo.157.tags: peek, portrait, sample
-photo.158: cwdc://Xf0vNrEADQJ.jpg
-photo.158.author: cattail.sapporo
-photo.158.commitdate: 2021/3/7
-photo.158.link: ig://CL7j2TSA9nA
-photo.158.tags: peek, portrait, sample
-photo.159: cwdc://XgYKN1nADQw.jpg
-photo.159.author: minatomirai215
-photo.159.commitdate: 2022/4/5
-photo.159.link: ig://CMNRWYjhGoW
-photo.159.tags: door, tail, videolink
-photo.160: cwdc://XgxezGBADQx.jpg
-photo.160.author: minatomirai215
-photo.160.commitdate: 2021/4/2
-photo.160.link: ig://CMZ7pAwhMmj
-photo.160.tags: laying down, sample, sleeping, tail, tree
-photo.161: cwdc://XhD2tt0ADQK.jpg
-photo.161.author: cattail.sapporo
-photo.161.commitdate: 2021/3/29
-photo.161.link: ig://CMjHmUqA3VZ
-photo.161.tags: paws, playing, portrait, snow, upside-down
-photo.162: cwdc://XiM24d2ADQA.jpg
-photo.162.author: _sah_ax7
+photo.156.commitdate: 2021/2/15
+photo.156.link: ig://CLUaiVMhsfi
+photo.156.tags: close-up, sample, whiskers
+photo.157: cwdc://Xem7qA1ADQE.jpg
+photo.157.author: eos1089
+photo.157.commitdate: 2021/2/28
+photo.157.link: ig://CLUqEeKhY4U
+photo.157.tags: portrait, sample, smile, whiskers
+photo.158: cwdc://XfO3ZUXADQC.jpg
+photo.158.author: fetorus_mami
+photo.158.commitdate: 2021/3/21
+photo.158.link: ig://CLon8H7hdK0
+photo.158.tags: portrait, sample, smile, tree, whiskers
+photo.159: cwdc://XfUVlSaADQF.jpg
+photo.159.author: mini_cochi
+photo.159.commitdate: 2021/3/21
+photo.159.link: ig://CLrXCG9BMx9
+photo.159.tags: peek, portrait, sample
+photo.160: cwdc://Xf0vNrEADQJ.jpg
+photo.160.author: cattail.sapporo
+photo.160.commitdate: 2021/3/7
+photo.160.link: ig://CL7j2TSA9nA
+photo.160.tags: peek, portrait, sample
+photo.161: cwdc://XgYKN1nADQw.jpg
+photo.161.author: minatomirai215
+photo.161.commitdate: 2022/4/5
+photo.161.link: ig://CMNRWYjhGoW
+photo.161.tags: door, tail, videolink
+photo.162: cwdc://XgxezGBADQx.jpg
+photo.162.author: minatomirai215
 photo.162.commitdate: 2021/4/2
-photo.162.link: ig://CNHnrsrBtGB
-photo.162.tags: cherry blossoms, window
-photo.163: cwdc://XiM9GXjADQL.jpg
+photo.162.link: ig://CMZ7pAwhMmj
+photo.162.tags: laying down, sample, sleeping, tail, tree
+photo.163: cwdc://XhD2tt0ADQK.jpg
 photo.163.author: cattail.sapporo
-photo.163.commitdate: 2021/4/2
-photo.163.link: ig://CNHqyphgHbC
-photo.163.tags: blink, laying down, portrait, sample, smile
-photo.164: cwdc://XiSDaXNADQD.jpg
-photo.164.author: izu_108
-photo.164.commitdate: 2021/4/3
-photo.164.link: ig://CNKN8pWhceJ
-photo.164.tags: sample, smile, tongue, whiskers
-photo.165: cwdc://XiSNSAwADQM.jpg
+photo.163.commitdate: 2021/3/29
+photo.163.link: ig://CMjHmUqA3VZ
+photo.163.tags: paws, playing, portrait, snow, upside-down
+photo.164: cwdc://XiM24d2ADQA.jpg
+photo.164.author: _sah_ax7
+photo.164.commitdate: 2021/4/2
+photo.164.link: ig://CNHnrsrBtGB
+photo.164.tags: cherry blossoms, window
+photo.165: cwdc://XiM9GXjADQL.jpg
 photo.165.author: cattail.sapporo
-photo.165.commitdate: 2021/4/3
-photo.165.link: ig://CNKS4eIACkl
-photo.165.tags: close-up, portrait, sample, smile, whiskers
-photo.166: cwdc://XiSNbm4ADQN.jpg
-photo.166.author: cattail.sapporo
+photo.165.commitdate: 2021/4/2
+photo.165.link: ig://CNHqyphgHbC
+photo.165.tags: blink, laying down, portrait, sample, smile
+photo.166: cwdc://XiSDaXNADQD.jpg
+photo.166.author: izu_108
 photo.166.commitdate: 2021/4/3
-photo.166.link: ig://CNKS9RMAwfy
-photo.166.tags: nose, portrait, snow, techitechi
-photo.167: cwdc://XiSNjaJADQO.jpg
+photo.166.link: ig://CNKN8pWhceJ
+photo.166.tags: sample, smile, tongue, whiskers
+photo.167: cwdc://XiSNSAwADQM.jpg
 photo.167.author: cattail.sapporo
 photo.167.commitdate: 2021/4/3
-photo.167.link: ig://CNKTBK0gq1u
-photo.167.tags: paws, playing, portrait, snow
-photo.168: cwdc://XiSvRtRADQF.jpg
-photo.168.author: craig_craig_craig
+photo.167.link: ig://CNKS4eIACkl
+photo.167.tags: close-up, portrait, sample, smile, whiskers
+photo.168: cwdc://XiSNbm4ADQN.jpg
+photo.168.author: cattail.sapporo
 photo.168.commitdate: 2021/4/3
-photo.168.link: ig://CNKj4UYpASJ
-photo.168.tags: portrait, whiskers
-photo.169: cwdc://XiSv4H9ADQH.jpg
-photo.169.author: ssc6105
-photo.169.commitdate: 2021/4/2
-photo.169.link: ig://CNKkLhuhd5V
-photo.169.tags: portrait, sample
-photo.170: cwdc://XiTAG6dADQG.jpg
-photo.170.author: mini_cochi
+photo.168.link: ig://CNKS9RMAwfy
+photo.168.tags: nose, portrait, snow, techitechi
+photo.169: cwdc://XiSNjaJADQO.jpg
+photo.169.author: cattail.sapporo
+photo.169.commitdate: 2021/4/3
+photo.169.link: ig://CNKTBK0gq1u
+photo.169.tags: paws, playing, portrait, snow
+photo.170: cwdc://XiSvRtRADQF.jpg
+photo.170.author: craig_craig_craig
 photo.170.commitdate: 2021/4/3
-photo.170.link: ig://CNKsS6-hnMp
-photo.170.tags: portrait, sample, whiskers
-photo.171: cwdc://XiTKUv5ADQA.jpg
-photo.171.author: wumpwoast
-photo.171.commitdate: 2021/4/2
-photo.171.link: ig://CNKxZ1shv7d
-photo.171.tags: peek, portrait, tail
-photo.172: cwdc://XiUePHsADQC.jpg
-photo.172.author: pink.b22
-photo.172.commitdate: 2021/4/3
-photo.172.link: ig://CNLbXBmBZNn
-photo.172.tags: paws, portrait, sample, smile, tree
-photo.173: cwdc://XiUr6x0ADQB.jpg
-photo.173.author: kotume4935
-photo.173.commitdate: 2021/4/4
-photo.173.link: ig://CNLiM2qBK0I
-photo.173.tags: paws, peek, portrait, sample, tree
-photo.174: cwdc://XiVCIMtADQA.jpg
-photo.174.author: ho0oipo
+photo.170.link: ig://CNKj4UYpASJ
+photo.170.tags: portrait, whiskers
+photo.171: cwdc://XiSv4H9ADQC.jpg
+photo.171.author: ssc6105
+photo.171.commitdate: 2026/2/11
+photo.171.link: ig://CNKkLhuhd5W
+photo.171.tags: bridge, paws, portrait, sample, smile, tail
+photo.172: cwdc://XiSv4H9ADQD.jpg
+photo.172.author: ssc6105
+photo.172.commitdate: 2026/2/11
+photo.172.link: ig://CNKkLhuhd5X
+photo.172.tags: bamboo, portrait, sample, whiskers
+photo.173: cwdc://XiSv4H9ADQH.jpg
+photo.173.author: ssc6105
+photo.173.commitdate: 2021/4/2
+photo.173.link: ig://CNKkLhuhd5V
+photo.173.tags: portrait, sample
+photo.174: cwdc://XiTAG6dADQG.jpg
+photo.174.author: mini_cochi
 photo.174.commitdate: 2021/4/3
-photo.174.link: ig://CNLtTkGhvId
-photo.174.tags: bridge, peek, sample, smile
-photo.175: cwdc://XiVluRtADQA.jpg
-photo.175.author: _rifa_p
-photo.175.commitdate: 2021/4/3
-photo.175.link: ig://CNL_GmmhXrp
-photo.175.tags: apple time, paws, standing, tail
-photo.176: cwdc://XiXIdOeADQR.jpg
-photo.176.author: nishicotolo
+photo.174.link: ig://CNKsS6-hnMp
+photo.174.tags: portrait, sample, whiskers
+photo.175: cwdc://XiTKUv5ADQA.jpg
+photo.175.author: wumpwoast
+photo.175.commitdate: 2021/4/2
+photo.175.link: ig://CNKxZ1shv7d
+photo.175.tags: peek, portrait, tail
+photo.176: cwdc://XiUePHsADQC.jpg
+photo.176.author: pink.b22
 photo.176.commitdate: 2021/4/3
-photo.176.link: ig://CNMweE_BkAv
-photo.176.tags: sample, smile, tail
-photo.177: cwdc://XiXuWNlADQG.jpg
-photo.177.author: craig_craig_craig
-photo.177.commitdate: 2021/4/3
-photo.177.link: ig://CNNDakihxN7
-photo.177.tags: laying down, portrait, sleeping, tail, tree
-photo.178: cwdc://XiYBnFbADQA.jpg
-photo.178.author: chiyo_redpanda
-photo.178.commitdate: 2022/1/15
-photo.178.link: ig://CNNNDAdpxty
-photo.178.tags: nose, portrait, techitechi
-photo.179: cwdc://XifV9IFADQA.jpg
-photo.179.author: motohin
-photo.179.commitdate: 2021/4/28
-photo.179.link: ig://CNQ3OByhPX8
-photo.179.tags: bamboo, portrait, sample, snow
-photo.180: cwdc://Xihv8kWADQS.jpg
+photo.176.link: ig://CNLbXBmBZNn
+photo.176.tags: paws, portrait, sample, smile, tree
+photo.177: cwdc://XiUr6x0ADQB.jpg
+photo.177.author: kotume4935
+photo.177.commitdate: 2021/4/4
+photo.177.link: ig://CNLiM2qBK0I
+photo.177.tags: paws, peek, portrait, sample, tree
+photo.178: cwdc://XiVCIMtADQA.jpg
+photo.178.author: ho0oipo
+photo.178.commitdate: 2021/4/3
+photo.178.link: ig://CNLtTkGhvId
+photo.178.tags: bridge, peek, sample, smile
+photo.179: cwdc://XiVluRtADQA.jpg
+photo.179.author: _rifa_p
+photo.179.commitdate: 2021/4/3
+photo.179.link: ig://CNL_GmmhXrp
+photo.179.tags: apple time, paws, standing, tail
+photo.180: cwdc://XiXIdOeADQR.jpg
 photo.180.author: nishicotolo
-photo.180.commitdate: 2021/4/28
-photo.180.link: ig://CNSENv7BpL7
-photo.180.tags: bamboo, close-up, whiskers
-photo.181: cwdc://XjyPlMEADQA.jpg
-photo.181.author: wumpwoast
-photo.181.commitdate: 2021/5/19
-photo.181.link: ig://CN6UCDyBZyr
-photo.181.tags: portrait
-photo.182: cwdc://XlDWaVYADQA.jpg
-photo.182.author: wumpwoast
-photo.182.commitdate: 2021/6/15
-photo.182.link: ig://COi3cocBIjl
-photo.182.tags: portrait, sample, smile, snow
-photo.183: cwdc://XqM3PbSADQG.jpg
-photo.183.author: eos1089
-photo.183.commitdate: 2021/7/11
-photo.183.link: ig://CRHn3LZBxl0
-photo.183.tags: laying down, portrait, sample, whiskers
-photo.184: cwdc://XqVVLxMADQT.jpg
+photo.180.commitdate: 2021/4/3
+photo.180.link: ig://CNMweE_BkAv
+photo.180.tags: sample, smile, tail
+photo.181: cwdc://XiXuWNlADQG.jpg
+photo.181.author: craig_craig_craig
+photo.181.commitdate: 2021/4/3
+photo.181.link: ig://CNNDakihxN7
+photo.181.tags: laying down, portrait, sleeping, tail, tree
+photo.182: cwdc://XiYBnFbADQA.jpg
+photo.182.author: chiyo_redpanda
+photo.182.commitdate: 2022/1/15
+photo.182.link: ig://CNNNDAdpxty
+photo.182.tags: nose, portrait, techitechi
+photo.183: cwdc://XifV9IFADQA.jpg
+photo.183.author: motohin
+photo.183.commitdate: 2021/4/28
+photo.183.link: ig://CNQ3OByhPX8
+photo.183.tags: bamboo, portrait, sample, snow
+photo.184: cwdc://Xihv8kWADQS.jpg
 photo.184.author: nishicotolo
-photo.184.commitdate: 2021/7/13
-photo.184.link: ig://CRL21WWBE4s
-photo.184.tags: bamboo, peek, portrait, sample
-photo.185: cwdc://XqWAQ09ADQz.jpg
-photo.185.author: minatomirai215
-photo.185.commitdate: 2021/7/11
-photo.185.link: ig://CRMMX4OhKqu
-photo.185.tags: close-up, portrait, sample, whiskers, window
-photo.186: cwdc://Xt3xH0wADQP.jpg
-photo.186.author: cattail.sapporo
-photo.186.commitdate: 2021/9/11
-photo.186.link: ig://CS9EzYIPlqZ
-photo.186.tags: laying down, paws, playing, portrait, tail
-photo.187: cwdc://XwNKkRTADQQ.jpg
-photo.187.author: cattail.sapporo
-photo.187.commitdate: 2021/9/25
-photo.187.link: ig://CUHxhmZlpBj
-photo.187.tags: blink, paws, portrait, tree, wet
-photo.188: cwdc://X1HKHNMADQR.jpg
-photo.188.author: cattail.sapporo
-photo.188.commitdate: 2021/11/27
-photo.188.link: ig://CWkxTEWFLj4
-photo.188.tags: baby, close-up, mofumofu, paws, playing, portrait, sample, smile, snow, techitechi
-photo.189: cwdc://X10StYCADQA.jpg
-photo.189.author: wumpwoast
-photo.189.commitdate: 2022/3/13
-photo.189.link: ig://CW7VmJxLiqP
-photo.189.tags: portrait, smile, whiskers
-photo.190: cwdc://X45QTkCADQS.jpg
+photo.184.commitdate: 2021/4/28
+photo.184.link: ig://CNSENv7BpL7
+photo.184.tags: bamboo, close-up, whiskers
+photo.185: cwdc://XjyPlMEADQA.jpg
+photo.185.author: wumpwoast
+photo.185.commitdate: 2021/5/19
+photo.185.link: ig://CN6UCDyBZyr
+photo.185.tags: portrait
+photo.186: cwdc://XlDWaVYADQA.jpg
+photo.186.author: wumpwoast
+photo.186.commitdate: 2021/6/15
+photo.186.link: ig://COi3cocBIjl
+photo.186.tags: portrait, sample, smile, snow
+photo.187: cwdc://XqM3PbSADQG.jpg
+photo.187.author: eos1089
+photo.187.commitdate: 2021/7/11
+photo.187.link: ig://CRHn3LZBxl0
+photo.187.tags: laying down, portrait, sample, whiskers
+photo.188: cwdc://XqVVLxMADQT.jpg
+photo.188.author: nishicotolo
+photo.188.commitdate: 2021/7/13
+photo.188.link: ig://CRL21WWBE4s
+photo.188.tags: bamboo, peek, portrait, sample
+photo.189: cwdc://XqWAQ09ADQz.jpg
+photo.189.author: minatomirai215
+photo.189.commitdate: 2021/7/11
+photo.189.link: ig://CRMMX4OhKqu
+photo.189.tags: close-up, portrait, sample, whiskers, window
+photo.190: cwdc://Xt3xH0wADQP.jpg
 photo.190.author: cattail.sapporo
-photo.190.commitdate: 2022/2/21
-photo.190.link: ig://CYd0ZPxLef4
-photo.190.tags: paws, portrait, sample, smile, snow, tail, whiskers
-photo.191: cwdc://X6qdZ2jADQT.jpg
+photo.190.commitdate: 2021/9/11
+photo.190.link: ig://CS9EzYIPlqZ
+photo.190.tags: laying down, paws, playing, portrait, tail
+photo.191: cwdc://XwNKkRTADQQ.jpg
 photo.191.author: cattail.sapporo
-photo.191.commitdate: 2022/3/17
-photo.191.link: ig://CZWa8ZBr1AR
-photo.191.tags: bridge, mofumofu, peek, portrait, sample, smile, whiskers
-photo.192: cwdc://X8k77SYADQA.jpg
-photo.192.author: wumpwoast
-photo.192.commitdate: 2022/3/13
-photo.192.link: ig://CaTqNG8Lx0h
-photo.192.tags: autumn, portrait, sample, tail
-photo.193: cwdc://X-h04EcADQH.jpg
-photo.193.author: cattail.sapporo
-photo.193.commitdate: 2022/4/29
-photo.193.link: ig://CbSGrf-LI-C
-photo.193.tags: close-up, flowers, peek, portrait, sample, whiskers
-photo.194: cwdc://YHoqPZLADQC.jpg
-photo.194.author: eos1089
-photo.194.commitdate: 2022/7/31
-photo.194.link: ig://Cf1hXKVv1cQ
-photo.194.tags: door, paws, sample, standing, tail
-photo.195: cwdc://YHsn2ImADQu.jpg
-photo.195.author: minatomirai215
-photo.195.commitdate: 2022/7/31
-photo.195.link: ig://Cf3gKiDPwZI
-photo.195.tags: peek, portrait, sample, tree, whiskers
-photo.196: cwdc://YHw6b-VADQA.jpg
+photo.191.commitdate: 2021/9/25
+photo.191.link: ig://CUHxhmZlpBj
+photo.191.tags: blink, paws, portrait, tree, wet
+photo.192: cwdc://X1HKHNMADQR.jpg
+photo.192.author: cattail.sapporo
+photo.192.commitdate: 2021/11/27
+photo.192.link: ig://CWkxTEWFLj4
+photo.192.tags: baby, close-up, mofumofu, paws, playing, portrait, sample, smile, snow, techitechi
+photo.193: cwdc://X10StYCADQA.jpg
+photo.193.author: wumpwoast
+photo.193.commitdate: 2022/3/13
+photo.193.link: ig://CW7VmJxLiqP
+photo.193.tags: portrait, smile, whiskers
+photo.194: cwdc://X45QTkCADQS.jpg
+photo.194.author: cattail.sapporo
+photo.194.commitdate: 2022/2/21
+photo.194.link: ig://CYd0ZPxLef4
+photo.194.tags: paws, portrait, sample, smile, snow, tail, whiskers
+photo.195: cwdc://X6qdZ2jADQT.jpg
+photo.195.author: cattail.sapporo
+photo.195.commitdate: 2022/3/17
+photo.195.link: ig://CZWa8ZBr1AR
+photo.195.tags: bridge, mofumofu, peek, portrait, sample, smile, whiskers
+photo.196: cwdc://X8k77SYADQA.jpg
 photo.196.author: wumpwoast
-photo.196.commitdate: 2022/7/31
-photo.196.link: ig://Cf5pdc6u-NL
-photo.196.tags: portrait, smile
-photo.197: cwdc://Yc-RmiwADQF.jpg
-photo.197.author: eos1089
-photo.197.commitdate: 2023/5/16
-photo.197.link: ig://CqgVCvIBZwT
-photo.197.tags: portrait, sample, whiskers
-photo.198: cwdc://YdBvYbHADQy.jpg
-photo.198.author: minatomirai215
-photo.198.commitdate: 2023/5/16
-photo.198.link: ig://CqiD7rTvV0u
-photo.198.tags: bridge, portrait, sample, smile
-photo.199: cwdc://Y6a1JQeADQA.jpg
-photo.199.author: eos1089
-photo.199.commitdate: 2024/10/6
-photo.199.link: ig://C5Om0F_SQu6
-photo.199.tags: laying down, peek, portrait, sample, whiskers
-photo.200: cwdc://Y6a1JQeADQB.jpg
-photo.200.author: eos1089
-photo.200.commitdate: 2024/10/6
-photo.200.link: ig://C5Om0F_SQu7
-photo.200.tags: door, portrait, sample, tail, wet
-photo.201: cwdc://Y6a1JQeADQC.jpg
+photo.196.commitdate: 2022/3/13
+photo.196.link: ig://CaTqNG8Lx0h
+photo.196.tags: autumn, portrait, sample, tail
+photo.197: cwdc://X-h04EcADQH.jpg
+photo.197.author: cattail.sapporo
+photo.197.commitdate: 2022/4/29
+photo.197.link: ig://CbSGrf-LI-C
+photo.197.tags: close-up, flowers, peek, portrait, sample, whiskers
+photo.198: cwdc://YHoqPZLADQC.jpg
+photo.198.author: eos1089
+photo.198.commitdate: 2022/7/31
+photo.198.link: ig://Cf1hXKVv1cQ
+photo.198.tags: door, paws, sample, standing, tail
+photo.199: cwdc://YHsn2ImADQu.jpg
+photo.199.author: minatomirai215
+photo.199.commitdate: 2022/7/31
+photo.199.link: ig://Cf3gKiDPwZI
+photo.199.tags: peek, portrait, sample, tree, whiskers
+photo.200: cwdc://YHw6b-VADQA.jpg
+photo.200.author: wumpwoast
+photo.200.commitdate: 2022/7/31
+photo.200.link: ig://Cf5pdc6u-NL
+photo.200.tags: portrait, smile
+photo.201: cwdc://Yc-RmiwADQF.jpg
 photo.201.author: eos1089
-photo.201.commitdate: 2024/10/6
-photo.201.link: ig://C5Om0F_SQu8
+photo.201.commitdate: 2023/5/16
+photo.201.link: ig://CqgVCvIBZwT
 photo.201.tags: portrait, sample, whiskers
-photo.202: cwdc://Y6a1JQeADQD.jpg
-photo.202.author: eos1089
-photo.202.commitdate: 2024/10/6
-photo.202.link: ig://C5Om0F_SQu9
-photo.202.tags: bamboo, peek, portrait, sample, whiskers
-photo.203: cwdc://Y6a1JQeADQE.jpg
+photo.202: cwdc://YdBvYbHADQy.jpg
+photo.202.author: minatomirai215
+photo.202.commitdate: 2023/5/16
+photo.202.link: ig://CqiD7rTvV0u
+photo.202.tags: bridge, portrait, sample, smile
+photo.203: cwdc://Y6a1JQeADQA.jpg
 photo.203.author: eos1089
 photo.203.commitdate: 2024/10/6
-photo.203.link: ig://C5Om0F_SQu-
-photo.203.tags: paws, portrait, sample, smile, tree, whiskers
-photo.204: cwdc://Y6a1JQeADQF.jpg
+photo.203.link: ig://C5Om0F_SQu6
+photo.203.tags: laying down, peek, portrait, sample, whiskers
+photo.204: cwdc://Y6a1JQeADQB.jpg
 photo.204.author: eos1089
 photo.204.commitdate: 2024/10/6
-photo.204.link: ig://C5Om0F_SQu_
-photo.204.tags: door, paws, portrait, sample, standing, tail, whiskers
-photo.205: cwdc://Y6a1JQeADQG.jpg
+photo.204.link: ig://C5Om0F_SQu7
+photo.204.tags: door, portrait, sample, tail, wet
+photo.205: cwdc://Y6a1JQeADQC.jpg
 photo.205.author: eos1089
 photo.205.commitdate: 2024/10/6
-photo.205.link: ig://C5Om0F_SQvA
-photo.205.tags: keeper, paws, portrait, sample, whiskers
-photo.206: cwdc://Y6a1JQeADQH.jpg
+photo.205.link: ig://C5Om0F_SQu8
+photo.205.tags: portrait, sample, whiskers
+photo.206: cwdc://Y6a1JQeADQD.jpg
 photo.206.author: eos1089
 photo.206.commitdate: 2024/10/6
-photo.206.link: ig://C5Om0F_SQvB
-photo.206.tags: door, peek, portrait
-photo.207: cwdc://Y6a1JQeADQI.jpg
+photo.206.link: ig://C5Om0F_SQu9
+photo.206.tags: bamboo, peek, portrait, sample, whiskers
+photo.207: cwdc://Y6a1JQeADQE.jpg
 photo.207.author: eos1089
 photo.207.commitdate: 2024/10/6
-photo.207.link: ig://C5Om0F_SQvC
-photo.207.tags: peek, portrait, sample, smile, whiskers
-photo.208: cwdc://Y6a1JQeADQJ.jpg
+photo.207.link: ig://C5Om0F_SQu-
+photo.207.tags: paws, portrait, sample, smile, tree, whiskers
+photo.208: cwdc://Y6a1JQeADQF.jpg
 photo.208.author: eos1089
 photo.208.commitdate: 2024/10/6
-photo.208.link: ig://C5Om0F_SQvD
-photo.208.tags: apple time, bite, keeper, portrait, sample, tree
-photo.209: cwdc://ZCh75AGADQA.jpg
-photo.209.author: minatomirai215
-photo.209.commitdate: 2025/2/27
-photo.209.link: ig://C9SKL9zSpAN
-photo.209.tags: portrait, sample, whiskers
-photo.210: cwdc://ZCh75AGADQB.jpg
-photo.210.author: minatomirai215
-photo.210.commitdate: 2025/2/27
-photo.210.link: ig://C9SKL9zSpAO
-photo.210.tags: paws, portrait, sample, standing
-photo.211: cwdc://ZQNI9OpADQB.jpg
-photo.211.author: cattail.sapporo
-photo.211.commitdate: 2025/12/4
-photo.211.link: ig://DEHwuFEvw4e
-photo.211.tags: baby, climb, paws, portrait, snow
-photo.212: cwdc://ZQ7mZ1xADQA.jpg
-photo.212.author: cattail.sapporo
-photo.212.commitdate: 2025/12/4
-photo.212.link: ig://DEe_cYov75l
-photo.212.tags: baby, mofumofu, paws, portrait, snow, tongue
-photo.213: cwdc://ZRkyA5sADQA.jpg
-photo.213.author: cattail.sapporo
-photo.213.commitdate: 2025/3/14
-photo.213.link: ig://DEzlP6mSFzx
-photo.213.tags: close-up, portrait, sample, smile, snow
-photo.214: cwdc://ZSTQmsPADQA.jpg
-photo.214.author: cattail.sapporo
-photo.214.commitdate: 2025/12/4
-photo.214.link: ig://DFK0iz3voiv
-photo.214.tags: baby, bite, mofumofu, portrait, sample, snow, techitechi
-photo.215: cwdc://ZhQ9VmsADQB.jpg
+photo.208.link: ig://C5Om0F_SQu_
+photo.208.tags: door, paws, portrait, sample, standing, tail, whiskers
+photo.209: cwdc://Y6a1JQeADQG.jpg
+photo.209.author: eos1089
+photo.209.commitdate: 2024/10/6
+photo.209.link: ig://C5Om0F_SQvA
+photo.209.tags: keeper, paws, portrait, sample, whiskers
+photo.210: cwdc://Y6a1JQeADQH.jpg
+photo.210.author: eos1089
+photo.210.commitdate: 2024/10/6
+photo.210.link: ig://C5Om0F_SQvB
+photo.210.tags: door, peek, portrait
+photo.211: cwdc://Y6a1JQeADQI.jpg
+photo.211.author: eos1089
+photo.211.commitdate: 2024/10/6
+photo.211.link: ig://C5Om0F_SQvC
+photo.211.tags: peek, portrait, sample, smile, whiskers
+photo.212: cwdc://Y6a1JQeADQJ.jpg
+photo.212.author: eos1089
+photo.212.commitdate: 2024/10/6
+photo.212.link: ig://C5Om0F_SQvD
+photo.212.tags: apple time, bite, keeper, portrait, sample, tree
+photo.213: cwdc://ZCh75AGADQA.jpg
+photo.213.author: minatomirai215
+photo.213.commitdate: 2025/2/27
+photo.213.link: ig://C9SKL9zSpAN
+photo.213.tags: portrait, sample, whiskers
+photo.214: cwdc://ZCh75AGADQB.jpg
+photo.214.author: minatomirai215
+photo.214.commitdate: 2025/2/27
+photo.214.link: ig://C9SKL9zSpAO
+photo.214.tags: paws, portrait, sample, standing
+photo.215: cwdc://ZQNI9OpADQB.jpg
 photo.215.author: cattail.sapporo
 photo.215.commitdate: 2025/12/4
-photo.215.link: ig://DMpq6RGPSal
-photo.215.tags: grumpy, mofumofu, paws, portrait, sample, whiskers
+photo.215.link: ig://DEHwuFEvw4e
+photo.215.tags: baby, climb, paws, portrait, snow
+photo.216: cwdc://ZQ7mZ1xADQA.jpg
+photo.216.author: cattail.sapporo
+photo.216.commitdate: 2025/12/4
+photo.216.link: ig://DEe_cYov75l
+photo.216.tags: baby, mofumofu, paws, portrait, snow, tongue
+photo.217: cwdc://ZRkyA5sADQA.jpg
+photo.217.author: cattail.sapporo
+photo.217.commitdate: 2025/3/14
+photo.217.link: ig://DEzlP6mSFzx
+photo.217.tags: close-up, portrait, sample, smile, snow
+photo.218: cwdc://ZSTQmsPADQA.jpg
+photo.218.author: cattail.sapporo
+photo.218.commitdate: 2025/12/4
+photo.218.link: ig://DFK0iz3voiv
+photo.218.tags: baby, bite, mofumofu, portrait, sample, snow, techitechi
+photo.219: cwdc://ZhQ9VmsADQB.jpg
+photo.219.author: cattail.sapporo
+photo.219.commitdate: 2025/12/4
+photo.219.link: ig://DMpq6RGPSal
+photo.219.tags: grumpy, mofumofu, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 14161
 uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
@@ -1101,23 +1121,3 @@ video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
 video.2.author: cattail.sapporo
 video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
 zoo: 28
-photo.216: cwdc://XcfTTHUADQA.jpg
-photo.216.author: ssc6105
-photo.216.commitdate: 2026/2/11
-photo.216.link: ig://CKQ15BaBSlk
-photo.216.tags: paws, sample, whiskers
-photo.217: cwdc://XcfTTHUADQB.jpg
-photo.217.author: ssc6105
-photo.217.commitdate: 2026/2/11
-photo.217.link: ig://CKQ15BaBSll
-photo.217.tags: bamboo, laying down, paws, smile
-photo.218: cwdc://XiSv4H9ADQC.jpg
-photo.218.author: ssc6105
-photo.218.commitdate: 2026/2/11
-photo.218.link: ig://CNKkLhuhd5W
-photo.218.tags: bridge, paws, portrait, sample, smile, tail
-photo.219: cwdc://XiSv4H9ADQD.jpg
-photo.219.author: ssc6105
-photo.219.commitdate: 2026/2/11
-photo.219.link: ig://CNKkLhuhd5X
-photo.219.tags: bamboo, portrait, sample, whiskers
