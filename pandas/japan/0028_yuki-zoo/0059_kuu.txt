@@ -290,21 +290,21 @@ photo.55.author: _sah_ax7
 photo.55.commitdate: 2020/9/28
 photo.55.link: https://www.instagram.com/_sah_ax7/
 photo.55.tags: wink
-photo.56: ig://CFY9moRBqsy/m
+photo.56: cwdc://XSviuVCADQD.jpg
 photo.56.author: ssc6105
 photo.56.commitdate: 2020/9/21
-photo.56.link: https://www.instagram.com/ssc6105/
-photo.56.tags: laying down, mofumofu, portrait
-photo.57: ig://CFauWmOBvqT/m
+photo.56.link: ig://CFY9moRBqsy
+photo.56.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.57: cwdc://XSzEOQ8ADQA.jpg
 photo.57.author: ssc6105
 photo.57.commitdate: 2020/9/21
-photo.57.link: https://www.instagram.com/ssc6105/
-photo.57.tags: paws, peek, tail
-photo.58: ig://CFg4qPoBcrY/m
+photo.57.link: ig://CFauWmOBvqT
+photo.57.tags: paws, peek, sample, tail
+photo.58: cwdc://XS_Y1jwADQB.jpg
 photo.58.author: ssc6105
 photo.58.commitdate: 2020/9/24
-photo.58.link: https://www.instagram.com/ssc6105/
-photo.58.tags: laying down, peek
+photo.58.link: ig://CFg4qPoBcrY
+photo.58.tags: laying down, peek, sample
 photo.59: ig://CG4cwpbhk47/m
 photo.59.author: pink.b22
 photo.59.commitdate: 2020/11/1
@@ -345,16 +345,16 @@ photo.66.author: ck.chie
 photo.66.commitdate: 2020/12/30
 photo.66.link: ig://CI1jHgkBPkc
 photo.66.tags: mofumofu, sample
-photo.67: ig://CJiZdq0BDRR/m
+photo.67: cwdc://XbCacaIADQH.jpg
 photo.67.author: ssc6105
 photo.67.commitdate: 2021/1/3
-photo.67.link: https://www.instagram.com/ssc6105/
-photo.67.tags: mofumofu
-photo.68: ig://CJqSN55BWe8/m
+photo.67.link: ig://CJiZdq0BDRR
+photo.67.tags: mofumofu, paws
+photo.68: cwdc://XbSL84SADQI.jpg
 photo.68.author: ssc6105
 photo.68.commitdate: 2021/1/13
-photo.68.link: https://www.instagram.com/ssc6105/
-photo.68.tags: peek, tree
+photo.68.link: ig://CJqSN55BWe8
+photo.68.tags: mofumofu, peek, sample, tree
 photo.69: ig://CJrloVQBEtr/m
 photo.69.author: otenba_redpanda
 photo.69.commitdate: 2021/10/1
@@ -370,10 +370,10 @@ photo.71.author: pink.b22
 photo.71.commitdate: 2021/1/16
 photo.71.link: https://www.instagram.com/pink.b22/
 photo.71.tags: portrait, tail
-photo.72: ig://CJ-5diwhetA/m
+photo.72: cwdc://Xb7acKBADQE.jpg
 photo.72.author: ssc6105
 photo.72.commitdate: 2021/2/19
-photo.72.link: https://www.instagram.com/ssc6105/
+photo.72.link: ig://CJ-5diwhetA
 photo.72.tags: mofumofu
 photo.73: ig://CKBM7yKhkvl/m
 photo.73.author: pink.b22
@@ -395,11 +395,11 @@ photo.76.author: eos1089
 photo.76.commitdate: 2021/2/15
 photo.76.link: https://www.instagram.com/eos1089/
 photo.76.tags: mofumofu, portrait
-photo.77: ig://CLgpUsThn79/m
+photo.77: cwdc://Xe-6KdHADQM.jpg
 photo.77.author: ssc6105
 photo.77.commitdate: 2021/3/18
-photo.77.link: https://www.instagram.com/ssc6105/
-photo.77.tags: door, mofumofu
+photo.77.link: ig://CLgpUsThn79
+photo.77.tags: door, mofumofu, sample
 photo.78: ig://CLg8Jp6Bndi/m
 photo.78.author: mini_cochi
 photo.78.commitdate: 2021/3/18
@@ -463,3 +463,33 @@ photo.89.tags: bamboo, portrait, sample
 species: 2
 studbook.id: 0865
 zoo: 28
+photo.90: cwdc://XS_Y1jwADQC.jpg
+photo.90.author: ssc6105
+photo.90.commitdate: 2026/2/11
+photo.90.link: ig://CFg4qPoBcrZ
+photo.90.tags: laying down, paws, sample
+photo.91: cwdc://Xb7acKBADQF.jpg
+photo.91.author: ssc6105
+photo.91.commitdate: 2026/2/11
+photo.91.link: ig://CJ-5diwhetB
+photo.91.tags: mofumofu, paws, tail
+photo.92: cwdc://Xb7acKBADQG.jpg
+photo.92.author: ssc6105
+photo.92.commitdate: 2026/2/11
+photo.92.link: ig://CJ-5diwhetC
+photo.92.tags: mofumofu, paws, tail
+photo.93: cwdc://Xe-6KdHADQJ.jpg
+photo.93.author: ssc6105
+photo.93.commitdate: 2026/2/11
+photo.93.link: ig://CLgpUsThn7-
+photo.93.tags: paws, tail, tree
+photo.94: cwdc://Xe-6KdHADQK.jpg
+photo.94.author: ssc6105
+photo.94.commitdate: 2026/2/11
+photo.94.link: ig://CLgpUsThn7_
+photo.94.tags: laying down
+photo.95: cwdc://Xe-6KdHADQL.jpg
+photo.95.author: ssc6105
+photo.95.commitdate: 2026/2/11
+photo.95.link: ig://CLgpUsThn8B
+photo.95.tags: paws, sample, smile
