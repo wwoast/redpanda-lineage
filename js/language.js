@@ -1207,7 +1207,7 @@ Language.L.messages = {
            " project, but linked media remains property of its creators. ",
            "Layout and design ©" +
            "\xa0" +
-           "2025 Justin Fairchild."],
+           "2026 Justin Fairchild."],
     "es": ["Si te encantan los pandas rojos, apoya a ",
            "<INSERTLINK_RPN>",
            " y a los zoológicos locales. Los datos sobre el linaje son cortesía del proyecto ",
@@ -1215,25 +1215,25 @@ Language.L.messages = {
            " pero los medios vinculados siguen siendo propiedad de sus creadores. ",
            " Maquetación y diseño ©" +
            "\xa0" + 
-           "2025 Justin Fairchild."],
+           "2026 Justin Fairchild."],
     "ja": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
            "<INSERTLINK_RPN>",
            "もサポートしてください。系統データは",
            "<INSERTLINK_RPF>",
            "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
-           "設計©2025 Justin Fairchild"],
+           "設計©2026 Justin Fairchild"],
     "ko": ["레서판다를 사랑한다면, 꼭 응원과 후원을 부탁드려요! ",
            "<INSERTLINK_RPN>",
            " 여러분이 가까이에서 방문할 수 있는 지역 동물원도 응원해 주세요.",
            "<INSERTLINK_RPF>",
            " 데이터는 본 프로젝트의 협조로 제공되며, 연결된 미디어 자료의 저작권은 각 제작자에게 있습니다.",
-           "레이아웃 및 디자인 ©" + "\xa0" + "2025 Justin Fairchild."],
+           "레이아웃 및 디자인 ©" + "\xa0" + "2026 Justin Fairchild."],
     "ne": ["यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया ",
            "<INSERTLINK_RPN>",
            " साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। ",
            "<INSERTLINK_RPF>",
            " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
-           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२५ Justin Fairchild द्वारा।"],
+           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२६ Justin Fairchild द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
            " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
@@ -1241,14 +1241,14 @@ Language.L.messages = {
            ", mas as mídias linkadas seguem sendo propriedade de seus criadores. ",
            "Layout e design ©" +
            "\xa0" +
-           "2025 Justin Fairchild."],
+           "2026 Justin Fairchild."],
     "zh": ["如果你喜爱小熊猫，请支持小熊猫网络（",
            "<INSERTLINK_RPN>",
            "）以及你当地的动物园。",
            "族谱数据归属于",
            "<INSERTLINK_RPF>",
            "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©2025 Justin Fairchild"]
+           "布局与设计©2026 Justin Fairchild"]
   },
   "found_animal": {
     "en": [Language.L.emoji.flower, " ",
