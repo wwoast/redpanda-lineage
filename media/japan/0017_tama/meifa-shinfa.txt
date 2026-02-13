@@ -23,10 +23,10 @@ photo.3.link: ig://B4R3BLaBg_I
 photo.3.tags: baby, hammock, portrait, siblings, sisters, twins
 photo.3.tags.948.location: 145, 125
 photo.3.tags.949.location: 205, 175
-photo.4: ig://B4cH2QiFMr7/m
+photo.4: cwdc://W413NlkADQA.jpg
 photo.4.author: ssc6105
 photo.4.commitdate: 2019/12/5
-photo.4.link: https://www.instagram.com/ssc6105/
+photo.4.link: ig://B4cH2QiFMr7
 photo.4.tags: baby, bridge, climb, siblings, sisters, twins
 photo.4.tags.948.location: 185, 165
 photo.4.tags.949.location: 90, 35
@@ -772,3 +772,28 @@ photo.110.link: ig://B45wxBthtjT
 photo.110.tags: baby, peek, siblings, sisters, twins
 photo.110.tags.948.location: 475, 115
 photo.110.tags.949.location: 525, 380
+photo.111: cwdc://W6YHqtXADQE.jpg
+photo.111.author: fetorus_mami
+photo.111.commitdate: 2026/2/13
+photo.111.link: ig://B5NQE0bhJnx
+photo.111.tags: baby, mofumofu, portrait, tail
+photo.112: cwdc://X4lIIgqADQA.jpg
+photo.112.author: mini_cochi
+photo.112.commitdate: 2026/2/13
+photo.112.link: ig://CYTwTuFL27h
+photo.112.tags: autumn, laying down, paws, playing, portrait, siblings, sisters, tail, twins
+photo.113: cwdc://XKvTMjyADQB.jpg
+photo.113.author: ssc6105
+photo.113.commitdate: 2026/2/13
+photo.113.link: ig://CBY11vpBwFw
+photo.113.tags: portrait, siblings, sisters, tail, twins
+photo.114: cwdc://XLWdajEADQC.jpg
+photo.114.author: ssc6105
+photo.114.commitdate: 2026/2/13
+photo.114.link: ig://CBsa8vSBbly
+photo.114.tags: bamboo, peek, sample, whiskers
+photo.115: cwdc://XSl7HWbADQA.jpg
+photo.115.author: roko_mm
+photo.115.commitdate: 2026/2/13
+photo.115.link: ig://CFUJzI9hh3h
+photo.115.tags: bamboo, paws, siblings, sisters, tongue, twins, whiskers
