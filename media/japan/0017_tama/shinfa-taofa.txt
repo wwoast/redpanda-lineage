@@ -7,6 +7,8 @@ photo.1.author: roko_mm
 photo.1.commitdate: 2026/2/13
 photo.1.link: ig://B78LV7kho3b
 photo.1.tags: bamboo, mofumofu, mother's day, paws
+photo.1.tags.103.location: 355, 90
+photo.1.tags.948.location: 375, 430
 photo.2: cwdc://XCqV-cWADQA.jpg
 photo.2.author: pink.b22
 photo.2.commitdate: 2026/1/20
@@ -19,6 +21,8 @@ photo.3.author: ssc6105
 photo.3.commitdate: 2026/2/13
 photo.3.link: ig://B_vX00yBxtz
 photo.3.tags: autumn, laying down, mother's day, portrait, tail
+photo.3.tags.103.location: 290, 300
+photo.3.tags.948.location: 380, 525
 photo.4: cwdc://XKecAOpADQA.jpg
 photo.4.author: osopanda551
 photo.4.commitdate: 2026/1/19
@@ -38,6 +42,8 @@ photo.6.author: ssc6105
 photo.6.commitdate: 2026/2/13
 photo.6.link: ig://CCI2QoDBMHo
 photo.6.tags: bamboo, mother's day, sample, whiskers
+photo.6.tags.103.location: 170, 290
+photo.6.tags.948.location: 585, 410
 photo.7: cwdc://XNH7wWcADQC.jpg
 photo.7.author: osopanda551
 photo.7.commitdate: 2026/1/19

@@ -84,6 +84,8 @@ photo.12.author: fetorus_mami
 photo.12.commitdate: 2026/2/13
 photo.12.link: ig://B5NQE0bhJnx
 photo.12.tags: baby, mofumofu, portrait, tail
+photo.12.tags.948.location: 290, 205
+photo.12.tags.949.location: 265, 580
 photo.13: cwdc://W6Y-J5iADQA.jpg
 photo.13.author: sunnylettuce_2024
 photo.13.commitdate: 2019/11/27
@@ -362,6 +364,8 @@ photo.52.author: ssc6105
 photo.52.commitdate: 2026/2/13
 photo.52.link: ig://CBY11vpBwFw
 photo.52.tags: portrait, siblings, sisters, tail, twins
+photo.52.tags.948.location: 420, 320
+photo.52.tags.949.location: 170, 540
 photo.53: cwdc://XKys1xVADQI.jpg
 photo.53.author: osopanda551
 photo.53.commitdate: 2026/1/19
@@ -402,6 +406,8 @@ photo.58.author: ssc6105
 photo.58.commitdate: 2026/2/13
 photo.58.link: ig://CBsa8vSBbly
 photo.58.tags: bamboo, peek, sample, whiskers
+photo.58.tags.948.location: 245, 340
+photo.58.tags.949.location: 490, 395
 photo.59: cwdc://XL68xI9ADQO.jpg
 photo.59.author: osopanda551
 photo.59.commitdate: 2026/1/19
@@ -428,6 +434,8 @@ photo.62.author: roko_mm
 photo.62.commitdate: 2026/2/13
 photo.62.link: ig://CFUJzI9hh3h
 photo.62.tags: bamboo, paws, siblings, sisters, tongue, twins, whiskers
+photo.62.tags.948.location: 530, 195
+photo.62.tags.949.location: 230, 460
 photo.63: cwdc://XTZlRASADQT.jpg
 photo.63.author: osopanda551
 photo.63.commitdate: 2026/1/19
@@ -692,6 +700,8 @@ photo.100.author: mini_cochi
 photo.100.commitdate: 2026/2/13
 photo.100.link: ig://CYTwTuFL27h
 photo.100.tags: autumn, laying down, paws, playing, portrait, siblings, sisters, tail, twins
+photo.100.tags.948.location: 615, 520
+photo.100.tags.949.location: 410, 480
 photo.101: cwdc://X430JHxADQB.jpg
 photo.101.author: ifumoto88
 photo.101.commitdate: 2022/4/12
