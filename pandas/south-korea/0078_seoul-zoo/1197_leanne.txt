@@ -903,8 +903,6 @@ photo.177.author: tamazoowalking
 photo.177.commitdate: 2024/5/4
 photo.177.link: ig://CzoEVGlvxq8
 photo.177.tags: portrait, sample, tree, whiskers
-species: 2
-zoo: 78
 photo.178: cwdc://XXA6UNQADQA.jpg
 photo.178.author: osopanda551
 photo.178.commitdate: 2026/1/15
@@ -1095,3 +1093,5 @@ photo.215.author: osopanda551
 photo.215.commitdate: 2026/1/15
 photo.215.link: ig://Csf6bqiPOcc
 photo.215.tags: peek, portrait, sample
+species: 2
+zoo: 78

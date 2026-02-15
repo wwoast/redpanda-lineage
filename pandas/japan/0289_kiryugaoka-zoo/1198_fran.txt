@@ -790,8 +790,6 @@ photo.155.author: hamiiiii831_
 photo.155.commitdate: 2023/9/16
 photo.155.link: https://www.instagram.com/hamiiiii831_/
 photo.155.tags: bridge, laying down, paws, playing, sample
-species: 2
-zoo: 289
 photo.156: cwdc://X-FwpT_ADQA.jpg
 photo.156.author: osopanda551
 photo.156.commitdate: 2026/1/15
@@ -817,3 +815,5 @@ photo.160.author: osopanda551
 photo.160.commitdate: 2026/1/15
 photo.160.link: ig://CQOEb1MhlPT
 photo.160.tags: door, laying down, paws, portrait, sample
+species: 2
+zoo: 289
