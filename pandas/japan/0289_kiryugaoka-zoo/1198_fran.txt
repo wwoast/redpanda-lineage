@@ -175,10 +175,10 @@ photo.32.author: kotata_513
 photo.32.commitdate: 2021/6/18
 photo.32.link: ig://CP79OZGhRr_
 photo.32.tags: bridge, laying down, paws, peek, playing, tail, tree, upside-down
-photo.33: ig://CP-boVNBFio/m
+photo.33: cwdc://Xn6exu6ADQA.jpg
 photo.33.author: alto0908
 photo.33.commitdate: 2021/10/7
-photo.33.link: https://www.instagram.com/alto0908/
+photo.33.link: ig://CP-boVNBFio
 photo.33.tags: laying down, portrait, tail
 photo.34: cwdc://XoPRLHGADQF.jpg
 photo.34.author: ifumoto88
@@ -210,20 +210,20 @@ photo.39.author: kotata_513
 photo.39.commitdate: 2021/6/18
 photo.39.link: ig://CQQnDHIhRKa
 photo.39.tags: bite, blink, bridge, laying down, tree
-photo.40: ig://CQUVUdwrB45/m
+photo.40: cwdc://XomSKABADQA.jpg
 photo.40.author: alto0908
 photo.40.commitdate: 2021/7/3
-photo.40.link: https://www.instagram.com/alto0908/
+photo.40.link: ig://CQUVUdwrB45
 photo.40.tags: portrait, sample, smile, tree
 photo.41: cwdc://XomaoAcADQA.jpg
 photo.41.author: panda.daisuki
 photo.41.commitdate: 2021/7/3
 photo.41.link: ig://CQUZjd-BqWy
 photo.41.tags: mofumofu, portrait, sample, smile, tail
-photo.42: ig://CQWCkppBG_A/m
+photo.42: cwdc://XopsqXyADQA.jpg
 photo.42.author: alto0908
 photo.42.commitdate: 2021/6/23
-photo.42.link: https://www.instagram.com/alto0908/
+photo.42.link: ig://CQWCkppBG_A
 photo.42.tags: paws, portrait, sample, smile, tree
 photo.43: cwdc://Xo03B6sADQA.jpg
 photo.43.author: nakacchi_desu
@@ -305,10 +305,10 @@ photo.58.author: redpan22
 photo.58.commitdate: 2021/7/19
 photo.58.link: ig://CRZCTVtBu63
 photo.58.tags: bridge, laying down, paws, portrait, sample
-photo.59: ig://CRwMkCvB5qP/m
+photo.59: cwdc://XreApJ-ADQA.jpg
 photo.59.author: alto0908
 photo.59.commitdate: 2021/8/7
-photo.59.link: https://www.instagram.com/alto0908/
+photo.59.link: ig://CRwMkCvB5qP
 photo.59.tags: crow, portrait, toys
 photo.60: cwdc://Xrxy4RGADQF.jpg
 photo.60.author: kotata_513
@@ -410,10 +410,10 @@ photo.79.author: redpan22
 photo.79.commitdate: 2021/10/7
 photo.79.link: ig://CUC22C7Bd1E
 photo.79.tags: laying down, peek, sample
-photo.80: ig://CUF0k1OBs_7/m
+photo.80: cwdc://XwJQqu8ADQA.jpg
 photo.80.author: alto0908
 photo.80.commitdate: 2021/10/7
-photo.80.link: https://www.instagram.com/alto0908/
+photo.80.link: ig://CUF0k1OBs_7
 photo.80.tags: apple time, close-up, mofumofu, portrait, sample
 photo.81: cwdc://XwfGMZ3ADQX.jpg
 photo.81.author: alto0908
@@ -675,11 +675,11 @@ photo.132.author: ssc6105
 photo.132.commitdate: 2022/6/29
 photo.132.link: ig://CeDmNjEP6da
 photo.132.tags: door, paws, sample, whiskers
-photo.133: ig://Ce52Ws1v7jw/m
+photo.133: cwdc://YFxUOeLADQA.jpg
 photo.133.author: alto0908
 photo.133.commitdate: 2023/8/8
-photo.133.link: https://www.instagram.com/alto0908/
-photo.133.tags: apple time, paws, sample
+photo.133.link: ig://Ce52Ws1v7jw
+photo.133.tags: apple time, paws, sample, whiskers
 photo.134: cwdc://YGacLkMADQG.jpg
 photo.134.author: otenba_redpanda
 photo.134.commitdate: 2022/8/22
@@ -755,15 +755,15 @@ photo.148.author: ssc6105
 photo.148.commitdate: 2023/2/24
 photo.148.link: ig://CoqMo8qhx6o
 photo.148.tags: keeper, paws, standing, tail
-photo.149: ig://CpYes9eB86l/m
+photo.149: cwdc://Yauk6_cADQA.jpg
 photo.149.author: alto0908
 photo.149.commitdate: 2023/11/19
-photo.149.link: https://www.instagram.com/alto0908/
+photo.149.link: ig://CpYes9eB86l
 photo.149.tags: air tasting, close-up, laying down, sample, tongue, whiskers
-photo.150: ig://CpYrGRrBTcg/m
+photo.150: cwdc://Yau9tn2ADQC.jpg
 photo.150.author: alto0908
 photo.150.commitdate: 2023/11/19
-photo.150.link: https://www.instagram.com/alto0908/
+photo.150.link: ig://CpYrGRrBTcg
 photo.150.tags: bridge, portrait, sample, whiskers
 photo.151: cwdc://YbImVViADQD.jpg
 photo.151.author: ck.chie
@@ -1542,3 +1542,63 @@ photo.305.link: ig://DP6cVAOE9jH
 photo.305.tags: apple time, keeper, paws, sample, whiskers
 species: 2
 zoo: 289
+photo.306: cwdc://Xn6exu6ADQB.jpg
+photo.306.author: alto0908
+photo.306.commitdate: 2026/2/16
+photo.306.link: ig://CP-boVNBFir
+photo.306.tags: laying down, peek, portrait, tail
+photo.307: cwdc://XomSKABADQB.jpg
+photo.307.author: alto0908
+photo.307.commitdate: 2026/2/16
+photo.307.link: ig://CQUVUdwrB46
+photo.307.tags: paws, portrait, sample, smile, tree
+photo.308: cwdc://XomSKABADQC.jpg
+photo.308.author: alto0908
+photo.308.commitdate: 2026/2/16
+photo.308.link: ig://CQUVUdwrB47
+photo.308.tags: paws, portrait, sample, smile, standing, tree, whiskers
+photo.309: cwdc://XopsqXyADQB.jpg
+photo.309.author: alto0908
+photo.309.commitdate: 2026/2/16
+photo.309.link: ig://CQWCkppBG_B
+photo.309.tags: bridge, paws, portrait, sample, smile, whiskers
+photo.310: cwdc://XopsqXyADQC.jpg
+photo.310.author: alto0908
+photo.310.commitdate: 2026/2/16
+photo.310.link: ig://CQWCkppBG_C
+photo.310.tags: bridge, paws, portrait, sample, smile, tail, tree, whiskers
+photo.311: cwdc://XreApJ-ADQB.jpg
+photo.311.author: alto0908
+photo.311.commitdate: 2026/2/16
+photo.311.link: ig://CRwMkCvB5qQ
+photo.311.tags: crow, portrait, toys
+photo.312: cwdc://XreApJ-ADQC.jpg
+photo.312.author: alto0908
+photo.312.commitdate: 2026/2/16
+photo.312.link: ig://CRwMkCvB5qS
+photo.312.tags: bite, crow, paws, portrait, toys
+photo.313: cwdc://XreApJ-ADQD.jpg
+photo.313.author: alto0908
+photo.313.commitdate: 2026/2/16
+photo.313.link: ig://CRwMkCvB5qX
+photo.313.tags: crow, paws, portrait, toys, whiskers
+photo.314: cwdc://XwJQqu8ADQB.jpg
+photo.314.author: alto0908
+photo.314.commitdate: 2026/2/16
+photo.314.link: ig://CUF0k1OBtAC
+photo.314.tags: mofumofu, paws, portrait, sample
+photo.315: cwdc://Yau9tn2ADQD.jpg
+photo.315.author: alto0908
+photo.315.commitdate: 2026/2/16
+photo.315.link: ig://CpYrGRrBTci
+photo.315.tags: bridge, paws, portrait, sample, whiskers
+photo.316: cwdc://Yau9tn2ADQE.jpg
+photo.316.author: alto0908
+photo.316.commitdate: 2026/2/16
+photo.316.link: ig://CpYrGRrBTcj
+photo.316.tags: bridge, paws, portrait, sample, whiskers
+photo.317: cwdc://Yauk6_cADQB.jpg
+photo.317.author: alto0908
+photo.317.commitdate: 2026/2/16
+photo.317.link: ig://CpYes9eB86m
+photo.317.tags: laying down, portrait, sleeping, whiskers
