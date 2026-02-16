@@ -45,10 +45,10 @@ photo.6.author: tamazoowalking
 photo.6.commitdate: 2023/1/12
 photo.6.link: https://www.instagram.com/tamazoowalking/
 photo.6.tags: climb, hammock, paws, peek, portrait
-photo.7: ig://CHiB5VmBCe6/m
+photo.7: cwdc://XXBrTvsADQH.jpg
 photo.7.author: alto0908
 photo.7.commitdate: 2020/11/21
-photo.7.link: https://www.instagram.com/alto0908/
+photo.7.link: ig://CHiB5VmBCe6
 photo.7.tags: baby, mofumofu, portrait, sample
 photo.8: ig://CHkT9_Vh2R0/m
 photo.8.author: sb23megumi
@@ -75,11 +75,11 @@ photo.12.author: tamazoowalking
 photo.12.commitdate: 2023/1/12
 photo.12.link: https://www.instagram.com/tamazoowalking/
 photo.12.tags: baby, mofumofu, portrait, sample, tail
-photo.13: ig://CHxN8vFBm1-/m
+photo.13: cwdc://XXgDaiqADQA.jpg
 photo.13.author: daniele.tokyo
 photo.13.commitdate: 2020/11/21
-photo.13.link: https://www.instagram.com/daniele.tokyo/
-photo.13.tags: baby, laying down, paws, portrait, tail
+photo.13.link: ig://CHxN8vFBm1-
+photo.13.tags: baby, laying down, paws, portrait, sample, tail, whiskers
 photo.14: ig://CH7rB8GhVlh/m
 photo.14.author: tamazoowalking
 photo.14.commitdate: 2023/4/3
@@ -115,11 +115,11 @@ photo.20.author: kaoru_a358
 photo.20.commitdate: 2020/12/25
 photo.20.link: https://www.instagram.com/kaoru_a358/
 photo.20.tags: baby, laying down, paws, portrait
-photo.21: ig://CIdC5fNBX42/m
+photo.21: cwdc://XY3tUC6ADQB.jpg
 photo.21.author: daniele.tokyo
 photo.21.commitdate: 2020/12/25
-photo.21.link: https://www.instagram.com/daniele.tokyo/
-photo.21.tags: baby, close-up, paws, portrait, smile
+photo.21.link: ig://CIdC5fNBX42
+photo.21.tags: baby, close-up, paws, portrait, sample, smile, whiskers
 photo.22: ig://CIj3wiaBRwB/m
 photo.22.author: mariten1119
 photo.22.commitdate: 2021/4/27
@@ -155,10 +155,10 @@ photo.28.author: mini_cochi
 photo.28.commitdate: 2021/6/18
 photo.28.link: https://www.instagram.com/mini_cochi/
 photo.28.tags: portrait, sample, tail, wet
-photo.29: ig://CP1cwQ-hT9D/m
+photo.29: cwdc://XnohBmdADQK.jpg
 photo.29.author: alto0908
 photo.29.commitdate: 2021/6/18
-photo.29.link: https://www.instagram.com/alto0908/
+photo.29.link: ig://CP1cwQ-hT9D
 photo.29.tags: close-up, portrait, sample, smile, whiskers
 photo.30: cwdc://XnouQr3ADQC.jpg
 photo.30.author: ck.chie
@@ -190,11 +190,11 @@ photo.35.author: ifumoto88
 photo.35.commitdate: 2021/6/18
 photo.35.link: https://www.instagram.com/ifumoto88/
 photo.35.tags: paws, standing, tree
-photo.36: ig://CQKJnYkhqtI/m
+photo.36: cwdc://XoR6v1pADQR.jpg
 photo.36.author: alto0908
 photo.36.commitdate: 2021/6/18
-photo.36.link: https://www.instagram.com/alto0908/
-photo.36.tags: bridge, climb, paws, smile
+photo.36.link: ig://CQKJnYkhqtI
+photo.36.tags: bridge, climb, paws, sample, smile, whiskers
 photo.37: ig://CQN7-0qB6pC/m
 photo.37.author: kotata_513
 photo.37.commitdate: 2021/6/18
@@ -235,10 +235,10 @@ photo.44.author: nakacchi_desu
 photo.44.commitdate: 2021/6/23
 photo.44.link: https://www.instagram.com/nakacchi_desu/
 photo.44.tags: butterfly, portrait, sample
-photo.45: ig://CQhScDKBDpg/m
+photo.45: cwdc://XpAMZK0ADQP.jpg
 photo.45.author: alto0908
 photo.45.commitdate: 2021/7/3
-photo.45.link: https://www.instagram.com/alto0908/
+photo.45.link: ig://CQhScDKBDpg
 photo.45.tags: paws, tail, upside-down
 photo.46: cwdc://XpCNUZzADQE.jpg
 photo.46.author: osopanda551
@@ -370,10 +370,10 @@ photo.71.author: redpan22
 photo.71.commitdate: 2021/8/24
 photo.71.link: https://www.instagram.com/redpan22/
 photo.71.tags: peek, portrait, whiskers
-photo.72: ig://CTIy4czh-wC/m
+photo.72: cwdc://XuPNR-HADQT.jpg
 photo.72.author: alto0908
 photo.72.commitdate: 2021/10/7
-photo.72.link: https://www.instagram.com/alto0908/
+photo.72.link: ig://CTIy4czh-wC
 photo.72.tags: door, laying down, paws, upside-down
 photo.73: ig://CTNLK5HBJZ6/m
 photo.73.author: eos1089
@@ -420,11 +420,11 @@ photo.81.author: alto0908
 photo.81.commitdate: 2021/10/7
 photo.81.link: https://www.instagram.com/alto0908/
 photo.81.tags: apple time, close-up, mofumofu, portrait, sample
-photo.82: ig://CUQvVqrh3_d/m
+photo.82: cwdc://XwfGMZ3ADQX.jpg
 photo.82.author: alto0908
 photo.82.commitdate: 2021/10/9
-photo.82.link: https://www.instagram.com/alto0908/
-photo.82.tags: laying down, portrait, sample
+photo.82.link: ig://CUQvVqrh3_d
+photo.82.tags: laying down, portrait, sample, whiskers
 photo.83: ig://CUUhjF0hGdJ/m
 photo.83.author: ssc6105
 photo.83.commitdate: 2021/10/9
@@ -705,25 +705,25 @@ photo.138.author: ssc6105
 photo.138.commitdate: 2022/11/11
 photo.138.link: https://www.instagram.com/ssc6105/
 photo.138.tags: close-up, keeper, whiskers
-photo.139: ig://CgNh33fhr0T/m
+photo.139: cwdc://YIYrQzfADQF.jpg
 photo.139.author: alto0908
 photo.139.commitdate: 2022/7/25
-photo.139.link: https://www.instagram.com/alto0908/
+photo.139.link: ig://CgNh33fhr0T
 photo.139.tags: close-up, portrait, sample, whiskers
-photo.140: ig://Cg7IiudhTUT/m
+photo.140: cwdc://YJz4mhbADQC.jpg
 photo.140.author: alto0908
 photo.140.commitdate: 2022/8/11
-photo.140.link: https://www.instagram.com/alto0908/
+photo.140.link: ig://Cg7IiudhTUT
 photo.140.tags: bamboo, close-up, paws, portrait, sample, whiskers
 photo.141: ig://ChBCYaNrvhT/m
 photo.141.author: otenba_redpanda
 photo.141.commitdate: 2022/9/24
 photo.141.link: https://www.instagram.com/otenba_redpanda/
 photo.141.tags: paws, portrait, sample
-photo.142: ig://ChlO5zdBMsd/m
+photo.142: cwdc://YLIFUraADQI.jpg
 photo.142.author: alto0908
 photo.142.commitdate: 2022/8/26
-photo.142.link: https://www.instagram.com/alto0908/
+photo.142.link: ig://ChlO5zdBMsd
 photo.142.tags: close-up, portrait, sample, whiskers
 photo.143: ig://CiHy811hk-a/m
 photo.143.author: ssc6105
@@ -817,3 +817,103 @@ photo.160.link: ig://CQOEb1MhlPT
 photo.160.tags: door, laying down, paws, portrait, sample
 species: 2
 zoo: 289
+photo.161: cwdc://XnohBmdADQL.jpg
+photo.161.author: alto0908
+photo.161.commitdate: 2026/2/16
+photo.161.link: ig://CP1cwQ-hT9E
+photo.161.tags: mofumofu, portrait, sample, smile
+photo.162: cwdc://XnohBmdADQM.jpg
+photo.162.author: alto0908
+photo.162.commitdate: 2026/2/16
+photo.162.link: ig://CP1cwQ-hT9F
+photo.162.tags: mofumofu, portrait, sample, smile, whiskers
+photo.163: cwdc://XnohBmdADQN.jpg
+photo.163.author: alto0908
+photo.163.commitdate: 2026/2/16
+photo.163.link: ig://CP1cwQ-hT9G
+photo.163.tags: mofumofu, portrait, sample, smile, whiskers
+photo.164: cwdc://XnohBmdADQO.jpg
+photo.164.author: alto0908
+photo.164.commitdate: 2026/2/16
+photo.164.link: ig://CP1cwQ-hT9H
+photo.164.tags: mofumofu, portrait, sample
+photo.165: cwdc://XpAMZK0ADQQ.jpg
+photo.165.author: alto0908
+photo.165.commitdate: 2026/2/16
+photo.165.link: ig://CQhScDKBDpi
+photo.165.tags: portrait, sample, tail, tongue, upside-down
+photo.166: cwdc://Xq_iE_HADQS.jpg
+photo.166.author: alto0908
+photo.166.commitdate: 2026/2/16
+photo.166.link: ig://CRg9R9ThIGE
+photo.166.tags: door, mofumofu, portrait, sample
+photo.167: cwdc://XuPNR-HADQU.jpg
+photo.167.author: alto0908
+photo.167.commitdate: 2026/2/16
+photo.167.link: ig://CTIy4czh-wF
+photo.167.tags: door, laying down, smile
+photo.168: cwdc://XuPNR-HADQV.jpg
+photo.168.author: alto0908
+photo.168.commitdate: 2026/2/16
+photo.168.link: ig://CTIy4czh-wI
+photo.168.tags: door, paws, playing, portrait, techitechi, upside-down
+photo.169: cwdc://XuPNR-HADQW.jpg
+photo.169.author: alto0908
+photo.169.commitdate: 2026/2/16
+photo.169.link: ig://CTIy4czh-wK
+photo.169.tags: door, paws, portrait, sample, whiskers
+photo.170: cwdc://XwfGMZ3ADQY.jpg
+photo.170.author: alto0908
+photo.170.commitdate: 2026/2/16
+photo.170.link: ig://CUQvVqrh3_f
+photo.170.tags: laying down, paws, portrait, sample, tail
+photo.171: cwdc://Y6rGZUtADQA.jpg
+photo.171.author: alto0908
+photo.171.commitdate: 2026/2/16
+photo.171.link: ig://C5WvcIGhsaD
+photo.171.tags: bamboo, home, lips, paws, sample, whiskers
+photo.172: cwdc://Y8-lt7WADQB.jpg
+photo.172.author: alto0908
+photo.172.commitdate: 2026/2/16
+photo.172.link: ig://C6gfGbbPP1h
+photo.172.tags: home, mofumofu, peek, sample, whiskers
+photo.173: cwdc://YIYrQzfADQG.jpg
+photo.173.author: alto0908
+photo.173.commitdate: 2026/2/16
+photo.173.link: ig://CgNh33fhr0V
+photo.173.tags: peek, portrait, sample, whiskers
+photo.174: cwdc://YJz4mhbADQD.jpg
+photo.174.author: alto0908
+photo.174.commitdate: 2026/2/16
+photo.174.link: ig://Cg7IiudhTUV
+photo.174.tags: bamboo, paws, sample, whiskers
+photo.175: cwdc://YJz4mhbADQE.jpg
+photo.175.author: alto0908
+photo.175.commitdate: 2026/2/16
+photo.175.link: ig://Cg7IiudhTUW
+photo.175.tags: bamboo, mofumofu, peek, portrait, sample, whiskers
+photo.176: cwdc://YLIFUraADQJ.jpg
+photo.176.author: alto0908
+photo.176.commitdate: 2026/2/16
+photo.176.link: ig://ChlO5zdBMse
+photo.176.tags: bamboo, bite, portrait, sample, whiskers
+photo.177: cwdc://Yl920j6ADQZ.jpg
+photo.177.author: alto0908
+photo.177.commitdate: 2026/2/16
+photo.177.link: ig://CvAHpvtPp-p
+photo.177.tags: close-up, mofumofu, sample, whiskers
+photo.178: cwdc://YmALvroADQa.jpg
+photo.178.author: alto0908
+photo.178.commitdate: 2026/2/16
+photo.178.link: ig://CvBSHTkBmwM
+photo.178.tags: apple time, keeper, peek, whiskers
+photo.179: cwdc://YmNGQBDADQb.jpg
+photo.179.author: alto0908
+photo.179.commitdate: 2026/2/16
+photo.179.link: ig://CvHvXeRvBF5
+photo.179.tags: laying down, paws, portrait, sample, whiskers
+photo.180: cwdc://YqYw4TCADQc.jpg
+photo.180.author: alto0908
+photo.180.commitdate: 2026/2/16
+photo.180.link: ig://CxNkrnRPHk7
+photo.180.tags: bridge, paws, sample, whiskers
