@@ -18,10 +18,10 @@ language.order: ko, ja, en
 litter: 1198
 location.1: 17, 2020/7/20
 location.2: 78, 2023/11/27
-photo.1: ig://CHaQQJhB1BB/m
+photo.1: cwdc://XWyIBXiADQH.jpg
 photo.1.author: tamazoowalking
 photo.1.commitdate: 2023/1/12
-photo.1.link: https://www.instagram.com/tamazoowalking/
+photo.1.link: ig://CHaQQJhB1BB
 photo.1.tags: baby, dish, portrait, sample
 photo.2: cwdc://XW79F45ADQH.jpg
 photo.2.author: tamazoowalking
@@ -53,10 +53,10 @@ photo.7.author: otenba_redpanda
 photo.7.commitdate: 2021/10/1
 photo.7.link: ig://CHlq2xDhVGW
 photo.7.tags: baby, mofumofu, portrait, sample, whiskers
-photo.8: ig://CH8x3knhffs/m
+photo.8: cwdc://XX3LQNvADQE.jpg
 photo.8.author: craig_craig_craig
 photo.8.commitdate: 2020/11/29
-photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.link: ig://CH8x3knhffs
 photo.8.tags: baby, mofumofu, portrait
 photo.9: cwdc://XX4Su8bADQA.jpg
 photo.9.author: kaoru_a358
@@ -253,10 +253,10 @@ photo.47.author: redpan22
 photo.47.commitdate: 2021/9/25
 photo.47.link: ig://CSJycQ3h2NS
 photo.47.tags: portrait, sample, smile, tongue, window
-photo.48: ig://CSLbVEYBtTo/m
+photo.48: cwdc://XsUeLNQADQA.jpg
 photo.48.author: tokyo_zoogram
 photo.48.commitdate: 2021/9/10
-photo.48.link: https://www.instagram.com/tokyo_zoogram/
+photo.48.link: ig://CSLbVEYBtTo
 photo.48.tags: portrait, sample
 photo.49: cwdc://XtoXjcrADQM.jpg
 photo.49.author: kotata_513
@@ -413,10 +413,10 @@ photo.79.author: otenba_redpanda
 photo.79.commitdate: 2022/4/26
 photo.79.link: ig://CbZnrx6LpXK
 photo.79.tags: laying down, portrait, sample, whiskers
-photo.80: ig://CbfFJidvH2e/m
+photo.80: cwdc://X-7x0JbADQA.jpg
 photo.80.author: osopanda551
 photo.80.commitdate: 2022/6/11
-photo.80.link: https://www.instagram.com/osopanda551/
+photo.80.link: ig://CbfFJidvH2e
 photo.80.tags: laying down, paws, portrait, sleeping, tree
 photo.81: cwdc://X_Gn_v0ADQi.jpg
 photo.81.author: alto0908
@@ -453,10 +453,10 @@ photo.87.author: mini_cochi
 photo.87.commitdate: 2022/6/6
 photo.87.link: ig://CdBMChZrxdS
 photo.87.tags: peek, portrait, sample, tail, tree
-photo.88: ig://CdI6QR-LztC/m
+photo.88: cwdc://YCPcBocADQA.jpg
 photo.88.author: mini_cochi
 photo.88.commitdate: 2022/6/11
-photo.88.link: https://www.instagram.com/mini_cochi/
+photo.88.link: ig://CdI6QR-LztC
 photo.88.tags: door, paws, portrait, sample, whiskers
 photo.89: cwdc://YCY9g_GADQD.jpg
 photo.89.author: redpan22
@@ -516,7 +516,7 @@ photo.99.tags: climb, paws, sample, tail
 photo.100: cwdc://YHjOcc6ADQA.jpg
 photo.100.author: redpan22
 photo.100.commitdate: 2022/8/11
-photo.100.link: https://www.instagram.com/p/CfyzdsNPlPR
+photo.100.link: ig://CfyzdsNPlPR
 photo.100.tags: portrait, profile, sample, smile, whiskers
 photo.101: ig://Cf31bLHrv2H/m
 photo.101.author: mini_cochi
@@ -533,10 +533,10 @@ photo.103.author: alto0908
 photo.103.commitdate: 2022/7/25
 photo.103.link: ig://CgNhxx2BAwi
 photo.103.tags: door, paws, portrait, sample, whiskers
-photo.104: ig://CgO81p0ryLA/m
+photo.104: cwdc://YIbhMYJADQA.jpg
 photo.104.author: mini_cochi
 photo.104.commitdate: 2022/7/25
-photo.104.link: https://www.instagram.com/mini_cochi/
+photo.104.link: ig://CgO81p0ryLA
 photo.104.tags: door, paws, portrait, sample, whiskers
 photo.105: cwdc://YIbjEZDADQN.jpg
 photo.105.author: kotata_513
@@ -1940,3 +1940,23 @@ photo.384.author: kotata_513
 photo.384.commitdate: 2026/2/17
 photo.384.link: ig://C0G5dvIviZE
 photo.384.tags: paws, portrait, sample, standing, surprise, whiskers
+photo.385: cwdc://XX3LQNvADQF.jpg
+photo.385.author: craig_craig_craig
+photo.385.commitdate: 2026/2/17
+photo.385.link: ig://CH8x3knhffw
+photo.385.tags: baby, mofumofu, portrait
+photo.386: cwdc://XsUeLNQADQB.jpg
+photo.386.author: tokyo_zoogram
+photo.386.commitdate: 2026/2/17
+photo.386.link: ig://CSLbVEYBtTp
+photo.386.tags: portrait, standing, tail
+photo.387: cwdc://YCPcBocADQB.jpg
+photo.387.author: mini_cochi
+photo.387.commitdate: 2026/2/17
+photo.387.link: ig://CdI6QR-LztD
+photo.387.tags: door, paws, portrait, sample, whiskers
+photo.388: cwdc://YCPcBocADQC.jpg
+photo.388.author: mini_cochi
+photo.388.commitdate: 2026/2/17
+photo.388.link: ig://CdI6QR-LztE
+photo.388.tags: door, paws, portrait, sample, whiskers
