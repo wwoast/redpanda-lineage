@@ -498,15 +498,15 @@ photo.96.author: fetorus_mami
 photo.96.commitdate: 2022/6/21
 photo.96.link: ig://Cen05-uvVfA
 photo.96.tags: portrait, sample, smile, whiskers
-photo.97: ig://Ce8oIYYr8y9/m
+photo.97: cwdc://YF23x1RADQA.webp
 photo.97.author: mini_cochi
 photo.97.commitdate: 2023/8/8
-photo.97.link: https://www.instagram.com/mini_cochi/
+photo.97.link: ig://Ce8oIYYr8y9
 photo.97.tags: paws, portrait, sample, smile, tree, whiskers
-photo.98: ig://CfP8QKHpgXm/m
+photo.98: cwdc://YGdgBYvADQA.jpg
 photo.98.author: mini_cochi
 photo.98.commitdate: 2022/7/9
-photo.98.link: https://www.instagram.com/mini_cochi/
+photo.98.link: ig://CfP8QKHpgXm
 photo.98.tags: door, paws, portrait, sample, smile
 photo.99: cwdc://YHD8GsAADQF.jpg
 photo.99.author: redpan22
@@ -518,11 +518,11 @@ photo.100.author: redpan22
 photo.100.commitdate: 2022/8/11
 photo.100.link: ig://CfyzdsNPlPR
 photo.100.tags: portrait, profile, sample, smile, whiskers
-photo.101: ig://Cf31bLHrv2H/m
+photo.101: cwdc://YHtSXavADQA.jpg
 photo.101.author: mini_cochi
 photo.101.commitdate: 2022/7/31
-photo.101.link: https://www.instagram.com/mini_cochi/
-photo.101.tags: portrait, sample, smile
+photo.101.link: ig://Cf31bLHrv2H
+photo.101.tags: portrait, sample, smile, tree
 photo.102: cwdc://YIYlbiKADQR.jpg
 photo.102.author: otenba_redpanda
 photo.102.commitdate: 2022/7/28
@@ -1960,3 +1960,8 @@ photo.388.author: mini_cochi
 photo.388.commitdate: 2026/2/17
 photo.388.link: ig://CdI6QR-LztE
 photo.388.tags: door, paws, portrait, sample, whiskers
+photo.389: cwdc://YHtSXavADQB.jpg
+photo.389.author: mini_cochi
+photo.389.commitdate: 2026/2/17
+photo.389.link: ig://Cf31bLHrv2I
+photo.389.tags: mofumofu, peek, portrait, sample, smile, whiskers
