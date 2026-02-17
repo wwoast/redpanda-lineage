@@ -18,8 +18,6 @@ photo.1.author: _sah_ax7
 photo.1.commitdate: 2026/1/17
 photo.1.link: ig://DSw0_hRkXwW
 photo.1.tags: profile, sample
-species: 2
-zoo: 12
 photo.2: cwdc://ZwtuGSmADQA.jpg
 photo.2.author: redpan22
 photo.2.commitdate: 2026/2/16
@@ -35,3 +33,5 @@ photo.4.author: redpan22
 photo.4.commitdate: 2026/2/16
 photo.4.link: ig://DUYDSnDEvWR
 photo.4.tags: bamboo, sample
+species: 2
+zoo: 12
