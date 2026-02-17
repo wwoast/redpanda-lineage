@@ -1237,21 +1237,21 @@ photo.244.author: cattail.sapporo
 photo.244.commitdate: 2026/2/16
 photo.244.link: ig://DTYtfy5k0XA
 photo.244.tags: paws, portrait, sample, snow, tongue
-photo.245: cwdc://ZxOYh9YADQA.jpg
+photo.245: cwdc://ZuvCgqTADQA.jpg
 photo.245.author: cattail.sapporo
 photo.245.commitdate: 2026/2/16
-photo.245.link: ig://DUoYgccE3os
-photo.245.tags: paws, portrait, sample, snow, tail, tongue
-species: 2
-studbook.id: 12116
-zoo: 7
-photo.246: cwdc://ZuvCgqTADQA.jpg
+photo.245.link: ig://DTYtfy5k0XA
+photo.245.tags: paws, portrait, sample, snow, tongue
+photo.246: cwdc://ZxOYh9YADQA.jpg
 photo.246.author: cattail.sapporo
 photo.246.commitdate: 2026/2/16
-photo.246.link: ig://DTYtfy5k0XA
-photo.246.tags: paws, portrait, sample, snow, tongue
+photo.246.link: ig://DUoYgccE3os
+photo.246.tags: paws, portrait, sample, snow, tail, tongue
 photo.247: cwdc://ZxOYh9YADQA.jpg
 photo.247.author: cattail.sapporo
 photo.247.commitdate: 2026/2/16
 photo.247.link: ig://DUoYgccE3os
 photo.247.tags: paws, portrait, sample, snow, tail, tongue
+species: 2
+studbook.id: 12116
+zoo: 7
