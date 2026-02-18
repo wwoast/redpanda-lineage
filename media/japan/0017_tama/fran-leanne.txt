@@ -14,7 +14,7 @@ photo.2.author: mini_cochi
 photo.2.commitdate: 2020/11/21
 photo.2.link: ig://CHnNghdB_1d
 photo.2.tags: baby, peek, siblings, sisters, tail, twins
-photo.2.tags.1197.location: 285, 180
+photo.2.tags.1197.location: 285, 180h
 photo.2.tags.1198.location: 210, 160
 photo.3: cwdc://XYg0ghMADQA.jpg
 photo.3.author: firefoxpanda88
@@ -56,6 +56,8 @@ photo.8.author: kotata_513
 photo.8.commitdate: 2026/2/17
 photo.8.link: ig://CQQnDHIhRKb
 photo.8.tags: laying down, paws, siblings, sisters, tail, techitechi, twins
+photo.8.tags.1197.location: 425, 510 
+photo.8.tags.1198.location: 540, 105
 photo.9: cwdc://XozlgEzADQA.jpg
 photo.9.author: nakacchi_desu
 photo.9.commitdate: 2021/7/22
@@ -75,11 +77,15 @@ photo.11.author: panda.daisuki
 photo.11.commitdate: 2026/2/17
 photo.11.link: ig://CQhLm4NhM5G
 photo.11.tags: paws, playing, portrait, siblings, sisters, twins
+photo.11.tags.1197.location: 685, 370
+photo.11.tags.1198.location: 140, 540
 photo.12: cwdc://Xo_-u07ADQC.jpg
 photo.12.author: panda.daisuki
 photo.12.commitdate: 2026/2/17
 photo.12.link: ig://CQhLm4NhM5H
 photo.12.tags: paws, playing, portrait, siblings, sisters, twins
+photo.12.tags.1197.location: 510, 350
+photo.12.tags.1198.location: 630, 160
 photo.13: cwdc://XpFebsMADQE.jpg
 photo.13.author: osopanda551
 photo.13.commitdate: 2022/3/4
@@ -120,6 +126,8 @@ photo.18.author: alto0908
 photo.18.commitdate: 2026/2/17
 photo.18.link: ig://CRFZJ_aB_bD
 photo.18.tags: door, paws, portrait, sample, siblings, sisters, twins, whiskers
+photo.18.tags.1197.location: 485, 500
+photo.18.tags.1198.location: 240, 350
 photo.19: cwdc://XqVfwVSADQF.jpg
 photo.19.author: osopanda551
 photo.19.commitdate: 2021/7/13
@@ -153,11 +161,15 @@ photo.23.author: alto0908
 photo.23.commitdate: 2026/2/17
 photo.23.link: ig://CRg9R9ThIGC
 photo.23.tags: door, paws, portrait, sample, siblings, sisters, twins, whiskers
+photo.23.tags.1197.location: 185, 290
+photo.23.tags.1198.location: 640, 405
 photo.24: cwdc://Xq_iE_HADQF.jpg
 photo.24.author: alto0908
 photo.24.commitdate: 2026/2/17
 photo.24.link: ig://CRg9R9ThIGD
 photo.24.tags: climb, mofumofu, paws, siblings, sisters, twins
+photo.24.tags.1197.location: 385, 605
+photo.24.tags.1198.location: 355, 200
 photo.25: cwdc://XrDlax-ADQC.jpg
 photo.25.author: kotata_513
 photo.25.commitdate: 2021/12/22
@@ -191,6 +203,8 @@ photo.29.author: ssc6105
 photo.29.commitdate: 2026/2/17
 photo.29.link: ig://CSkfpvhBJH6
 photo.29.tags: bridge, siblings, sisters, tail, twins, wet, whiskers
+photo.29.tags.1197.location: 290, 140
+photo.29.tags.1198.location: 355, 575
 photo.30: cwdc://XuZL7xaADQB.jpg
 photo.30.author: otenba_redpanda
 photo.30.commitdate: 2022/3/4
@@ -224,6 +238,8 @@ photo.34.author: ssc6105
 photo.34.commitdate: 2026/2/17
 photo.34.link: ig://CWP4a0jBgt3
 photo.34.tags: bamboo, paws, playing, siblings, sisters, twins, whiskers
+photo.34.tags.1197.location: 295, 225
+photo.34.tags.1198.location: 395, 590
 photo.35: cwdc://X5TdZcLADQD.jpg
 photo.35.author: kotata_513
 photo.35.commitdate: 2022/1/18
@@ -243,6 +259,8 @@ photo.37.author: firefoxpanda88
 photo.37.commitdate: 2026/2/17
 photo.37.link: ig://CafjEVEBQjE
 photo.37.tags: door, portrait, sample, siblings, sisters, twins
+photo.37.tags.1197.location: 405, 210
+photo.37.tags.1198.location: 495, 460
 photo.38: cwdc://X9Z6FiGADQA.jpg
 photo.38.author: osopanda551
 photo.38.commitdate: 2022/4/10
@@ -255,33 +273,47 @@ photo.39.author: otenba_redpanda
 photo.39.commitdate: 2026/2/17
 photo.39.link: ig://Cc1MOc3BK-c
 photo.39.tags: bridge, paws, sample, siblings, sisters, tail, twins
+photo.39.tags.1197.location: 720, 125
+photo.39.tags.1198.location: 500, 220
 photo.40: cwdc://YIYrEoMADQG.jpg
 photo.40.author: alto0908
 photo.40.commitdate: 2026/2/17
 photo.40.link: ig://CgNhxx2BAwl
 photo.40.tags: door, paws, portrait, sample, siblings, sisters, twins
+photo.40.tags.1197.location: 535, 365
+photo.40.tags.1198.location: 320, 350
 photo.41: cwdc://YIYrEoMADQH.jpg
 photo.41.author: alto0908
 photo.41.commitdate: 2026/2/17
 photo.41.link: ig://CgNhxx2BAwn
 photo.41.tags: door, paws, portrait, sample, siblings, sisters, twins
+photo.41.tags.1197.location: 535, 380
+photo.41.tags.1198.location: 365, 310
 photo.42: cwdc://YIYrQzfADQB.jpg
 photo.42.author: alto0908
 photo.42.commitdate: 2026/2/17
 photo.42.link: ig://CgNh33fhr0W
 photo.42.tags: door, paws, portrait, sample, siblings, sisters, twins
+photo.42.tags.1197.location: 535, 400
+photo.42.tags.1198.location: 400, 320
 photo.43: cwdc://YIYrQzfADQC.jpg
 photo.43.author: alto0908
 photo.43.commitdate: 2026/2/17
 photo.43.link: ig://CgNh33fhr0X
 photo.43.tags: door, paws, portrait, siblings, sisters, twins
+photo.43.tags.1197.location: 530, 365
+photo.43.tags.1198.location: 300, 340
 photo.44: cwdc://YIbhMYJADQB.jpg
 photo.44.author: mini_cochi
 photo.44.commitdate: 2026/2/17
 photo.44.link: ig://CgO81p0ryLC
 photo.44.tags: door, paws, portrait, siblings, sisters, twins
+photo.44.tags.1197.location: 640, 395
+photo.44.tags.1198.location: 170, 280
 photo.45: cwdc://YlvDj9nADQA.jpg
 photo.45.author: eos1089
 photo.45.commitdate: 2026/2/17
 photo.45.link: ig://Cu4uBcjvK1R
 photo.45.tags: bridge, peek, portrait, sample, siblings, sisters, tail, twins
+photo.45.tags.1197.location: 665, 255
+photo.45.tags.1198.location: 325, 335
