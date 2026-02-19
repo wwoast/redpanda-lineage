@@ -139,14 +139,11 @@ photo.25.author: mini_cochi
 photo.25.commitdate: 2020/1/30
 photo.25.link: ig://B5c42dOhCtT
 photo.25.tags: laying down, old, paws, portrait, sample
-photo.26: ig://B5eb99qBkmr/m
+photo.26: cwdc://W66fc_0ADQA.jpg
 photo.26.author: pantasanzoo1
 photo.26.commitdate: 2019/12/3
-photo.26.link: https://www.instagram.com/pantasanzoo1/
-photo.26.tags: mofumofu, old, paws
-species: 2
-studbook.id: 97111
-zoo: 17
+photo.26.link: ig://B5eb99qBkmr
+photo.26.tags: mofumofu, old, paws, sample
 photo.2.tags: old, paws, peek, sample
 photo.27: cwdc://W63ZN-9ADQC.jpg
 photo.27.author: mini_cochi
@@ -224,3 +221,11 @@ photo.41.author: kotata_513
 photo.41.commitdate: 2026/2/18
 photo.41.link: ig://B10O8QRhTRP
 photo.41.tags: dish, lunch time
+species: 2
+studbook.id: 97111
+zoo: 17
+photo.42: cwdc://W66fc_0ADQB.jpg
+photo.42.author: pantasanzoo1
+photo.42.commitdate: 2026/2/18
+photo.42.link: ig://B5eb99qBkms
+photo.42.tags: grooming, mofumofu, paws
