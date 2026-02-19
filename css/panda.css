@@ -557,6 +557,14 @@ span.navigator.threeDigits {
     letter-spacing: -1px;
 }
 
+span.navigator.fourDigits {
+    font-size: 18pt;
+    line-height: 1.7;
+    padding-left: 0px;
+    padding-right: 26px;
+    letter-spacing: -1px;
+}
+
 /* Copy toasts or other on-element toasts */
 span.notifier {
     position: fixed;
