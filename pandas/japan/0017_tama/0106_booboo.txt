@@ -16,40 +16,40 @@ language.order: ja, en
 litter: none
 location.1: 52, 1997/7/13
 location.2: 17, 2001/2/16
-photo.1: ig://BILC56nj6s_/m
+photo.1: cwdc://VYTtU5vADQB.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/3
-photo.1.link: https://www.instagram.com/minatomirai215/
-photo.1.tags: grumpy, old
-photo.2: ig://BLUHkEfjcyg/m
+photo.1.link: ig://BILC56nj6s_
+photo.1.tags: door, grumpy, old, sample, whiskers
+photo.2: cwdc://Vel2pNfADQB.jpg
 photo.2.author: rdpnzoo
 photo.2.commitdate: 2021/9/23
-photo.2.link: https://www.instagram.com/rdpnzoo/
-photo.3: ig://BPSrHgOgWD3/m
+photo.2.link: ig://BLUHkEfjcyg
+photo.3: cwdc://Vmi9wE9ADQA.jpg
 photo.3.author: panda.daisuki
 photo.3.commitdate: 2019/7/14
-photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: autumn, paws
-photo.4: ig://BTl1ZYIj6jS/m
+photo.3.link: ig://BPSrHgOgWD3
+photo.3.tags: autumn, old, paws, sample, tail
+photo.4: cwdc://VvJST0xADQA.jpg
 photo.4.author: take_421
 photo.4.commitdate: 2021/9/23
-photo.4.link: https://www.instagram.com/take_421/
-photo.4.tags: smile, whiskers
+photo.4.link: ig://BTl1ZYIj6jS
+photo.4.tags: sample, smile, whiskers
 photo.5: cwdc://WF_cA8KADQA.jpg
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/12/23
 photo.5.link: ig://BfA6P71FZYK
 photo.5.tags: old, paws, portrait, sample, snow, tongue
-photo.6: ig://Bi75F3ilxuO/m
+photo.6: cwdc://WN1ZszlADQA.jpg
 photo.6.author: rie_panda55
 photo.6.commitdate: 2018/7/21
-photo.6.link: https://www.instagram.com/rie_panda55/
-photo.6.tags: grooming, old
-photo.7: ig://BjCiqSFFTVV/m
+photo.6.link: ig://Bi75F3ilxuO
+photo.6.tags: grooming, laying down, mofumofu, old
+photo.7: cwdc://WOCs1oqADQA.jpg
 photo.7.author: rdpnzoo
 photo.7.commitdate: 2018/7/21
-photo.7.link: https://www.instagram.com/rdpnzoo/
-photo.7.tags: old, tongue
+photo.7.link: ig://BjCiqSFFTVV
+photo.7.tags: old, sample, tongue
 photo.8: cwdc://WOWjJSLADQB.jpg
 photo.8.author: hanamaru_redpanda
 photo.8.commitdate: 2018/7/21
@@ -60,85 +60,85 @@ photo.9.author: kotata_513
 photo.9.commitdate: 2018/7/21
 photo.9.link: ig://BlKNqr2Fy0P
 photo.9.tags: grooming, old, paws, profile, sample
-photo.10: ig://BlK71RTF1eV/m
+photo.10: cwdc://WSTfLnGADQC.jpg
 photo.10.author: minatomirai215
 photo.10.commitdate: 2018/12/15
-photo.10.link: https://www.instagram.com/minatomirai215/
-photo.10.tags: old
-photo.11: ig://Bn6xYuqFy8e/m
+photo.10.link: ig://BlK71RTF1eV
+photo.10.tags: old, paws, sample
+photo.11: cwdc://WXzKSh0ADQF.jpg
 photo.11.author: minatomirai215
 photo.11.commitdate: 2018/12/15
-photo.11.link: https://www.instagram.com/minatomirai215/
-photo.11.tags: old, portrait
-photo.12: ig://BqD-3lLlgXb/m
+photo.11.link: ig://Bn6xYuqFy8e
+photo.11.tags: close-up, mofumofu, old, portrait, sample
+photo.12: cwdc://WcFlQO3ADQA.jpg
 photo.12.author: mariten1119
 photo.12.commitdate: 2018/11/12
-photo.12.link: https://www.instagram.com/mariten1119/
-photo.12.tags: old, paws, tongue
+photo.12.link: ig://BqD-3lLlgXb
+photo.12.tags: old, paws, sample, tongue
 photo.13: cwdc://WdD0J45ADQA.jpg
 photo.13.author: wumpwoast
 photo.13.commitdate: 2018/11/23
 photo.13.link: ig://BqjGUaMl_4i
 photo.13.tags: old, portrait
-photo.14: ig://BrIf56HlhR6/m
+photo.14: cwdc://WeOnU4vADQI.jpg
 photo.14.author: minatomirai215
 photo.14.commitdate: 2018/12/9
-photo.14.link: https://www.instagram.com/minatomirai215/
+photo.14.link: ig://BrIf56HlhR6
 photo.14.tags: grooming, old, paws
-photo.15: ig://BvFdps0Fj9K/m
+photo.15: cwdc://WmIi0eIADQA.jpg
 photo.15.author: mofu_pan
 photo.15.commitdate: 2019/3/17
-photo.15.link: https://www.instagram.com/mofu_pan/
-photo.15.tags: bamboo, paws, portrait
-photo.16: ig://BwMeWi0lM3k/m
+photo.15.link: ig://BvFdps0Fj9K
+photo.15.tags: bamboo, paws, portrait, sample
+photo.16: cwdc://WoWkOKJADQB.jpg
 photo.16.author: mofu_pan
 photo.16.commitdate: 2019/4/15
-photo.16.link: https://www.instagram.com/mofu_pan/
-photo.16.tags: bamboo, laying down, paws
-photo.17: ig://BzsJRdkhYnw/m
+photo.16.link: ig://BwMeWi0lM3k
+photo.16.tags: bamboo, bite, laying down, paws
+photo.17: cwdc://WvV6D_pADQB.jpg
 photo.17.author: sasapan34
 photo.17.commitdate: 2019/7/10
-photo.17.link: https://www.instagram.com/sasapan34/
-photo.17.tags: laying down, paws, tail
+photo.17.link: ig://BzsJRdkhYnw
+photo.17.tags: laying down, paws, sleeping, tail
 photo.18: cwdc://WxnBnfSADQA.jpg
 photo.18.author: osopanda551
 photo.18.commitdate: 2019/11/7
 photo.18.link: ig://B00tDNZBwZc
 photo.18.tags: grooming, laying down, old, paws, upside-down
-photo.19: ig://B10O8QRhTRN/m
+photo.19: cwdc://WzmFZlDADQA.jpg
 photo.19.author: kotata_513
 photo.19.commitdate: 2019/8/31
-photo.19.link: https://www.instagram.com/kotata_513/
-photo.20: ig://B3S4Hlmh6Hc/m
+photo.19.link: ig://B10O8QRhTRN
+photo.20: cwdc://W2jXwPtADQA.jpg
 photo.20.author: sasapan34
 photo.20.commitdate: 2019/10/15
-photo.20.link: https://www.instagram.com/sasapan34/
-photo.20.tags: bamboo, laying down, old, paws
-photo.21: ig://B3j0lgIBAxY/m
+photo.20.link: ig://B3S4Hlmh6Hc
+photo.20.tags: bamboo, laying down, old, paws, sample
+photo.21: cwdc://W3FQsEwADQA.jpg
 photo.21.author: mini_cochi
 photo.21.commitdate: 2020/1/30
-photo.21.link: https://www.instagram.com/mini_cochi/
-photo.21.tags: grooming, old, paws, portrait
-photo.22: ig://B5Z-KithRFw/m
+photo.21.link: ig://B3j0lgIBAxY
+photo.21.tags: grooming, old, paws, portrait, sample
+photo.22: cwdc://W6xj2J7ADQA.jpg
 photo.22.author: daniele.tokyo
 photo.22.commitdate: 2019/12/29
-photo.22.link: https://www.instagram.com/daniele.tokyo/
-photo.22.tags: old, paws
-photo.23: ig://B5aBtH4Btk-/m
+photo.22.link: ig://B5Z-KithRFw
+photo.22.tags: laying down, old, paws, sample
+photo.23: cwdc://W6xq7UQADQA.jpg
 photo.23.author: kaoru_a358
 photo.23.commitdate: 2019/11/29
-photo.23.link: https://www.instagram.com/kaoru_a358/
-photo.23.tags: portrait
-photo.24: ig://B5aF2GuhFqU/m
+photo.23.link: ig://B5aBtH4Btk-
+photo.23.tags: portrait, sample
+photo.24: cwdc://W6xzNR9ADQA.jpg
 photo.24.author: minatomirai215
 photo.24.commitdate: 2020/5/2
-photo.24.link: https://www.instagram.com/minatomirai215/
-photo.24.tags: bamboo, old, paws, portrait
-photo.25: ig://B5c42dOhCtT/m
+photo.24.link: ig://B5aF2GuhFqU
+photo.24.tags: bamboo, old, paws, portrait, sample
+photo.25: cwdc://W63ZN-9ADQB.jpg
 photo.25.author: mini_cochi
 photo.25.commitdate: 2020/1/30
-photo.25.link: https://www.instagram.com/mini_cochi/
-photo.25.tags: laying down, old, paws, portrait
+photo.25.link: ig://B5c42dOhCtT
+photo.25.tags: laying down, old, paws, portrait, sample
 photo.26: ig://B5eb99qBkmr/m
 photo.26.author: pantasanzoo1
 photo.26.commitdate: 2019/12/3
@@ -147,3 +147,80 @@ photo.26.tags: mofumofu, old, paws
 species: 2
 studbook.id: 97111
 zoo: 17
+photo.2.tags: old, paws, peek, sample
+photo.27: cwdc://W63ZN-9ADQC.jpg
+photo.27.author: mini_cochi
+photo.27.commitdate: 2026/2/18
+photo.27.link: ig://B5c42dOhCtU
+photo.27.tags: dish, paws, portrait
+photo.28: cwdc://W63ZN-9ADQD.jpg
+photo.28.author: mini_cochi
+photo.28.commitdate: 2026/2/18
+photo.28.link: ig://B5c42dOhCtV
+photo.28.tags: paws, portrait, sample, tail
+photo.29: cwdc://W63ZN-9ADQE.jpg
+photo.29.author: mini_cochi
+photo.29.commitdate: 2026/2/18
+photo.29.link: ig://B5c42dOhCtX
+photo.29.tags: grooming, mofumofu, old, paws, portrait, sample
+photo.30: cwdc://WSTfLnGADQD.jpg
+photo.30.author: minatomirai215
+photo.30.commitdate: 2026/2/18
+photo.30.link: ig://BlK71RTF1eW
+photo.30.tags: laying down, mofumofu, paws
+photo.31: cwdc://WSTfLnGADQE.jpg
+photo.31.author: minatomirai215
+photo.31.commitdate: 2026/2/18
+photo.31.link: ig://BlK71RTF1eX
+photo.31.tags: itchy, sample, smile, tail
+photo.32: cwdc://WXzKSh0ADQG.jpg
+photo.32.author: minatomirai215
+photo.32.commitdate: 2026/2/18
+photo.32.link: ig://Bn6xYuqFy8f
+photo.32.tags: close-up, mofumofu, old, portrait, sample
+photo.33: cwdc://WXzKSh0ADQH.jpg
+photo.33.author: minatomirai215
+photo.33.commitdate: 2026/2/18
+photo.33.link: ig://Bn6xYuqFy8g
+photo.33.tags: close-up, mofumofu, old, portrait, sample, tongue
+photo.34: cwdc://WcFlQO3ADQB.jpg
+photo.34.author: mariten1119
+photo.34.commitdate: 2026/2/18
+photo.34.link: ig://BqD-3lLlgXc
+photo.34.tags: old, paws, sample
+photo.35: cwdc://WeOnU4vADQJ.jpg
+photo.35.author: minatomirai215
+photo.35.commitdate: 2026/2/18
+photo.35.link: ig://BrIf56HlhR7
+photo.35.tags: laying down, paws
+photo.36: cwdc://WeOnU4vADQK.jpg
+photo.36.author: minatomirai215
+photo.36.commitdate: 2026/2/18
+photo.36.link: ig://BrIf56HlhR8
+photo.36.tags: grooming, laying down
+photo.37: cwdc://WeOnU4vADQL.jpg
+photo.37.author: minatomirai215
+photo.37.commitdate: 2026/2/18
+photo.37.link: ig://BrIf56HlhR9
+photo.37.tags: grooming, laying down, paws
+photo.38: cwdc://WeOnU4vADQM.jpg
+photo.38.author: minatomirai215
+photo.38.commitdate: 2026/2/18
+photo.38.link: ig://BrIf56HlhR-
+photo.38.tags: grooming, laying down, paws
+photo.39: cwdc://WvV6D_pADQC.jpg
+photo.39.author: sasapan34
+photo.39.commitdate: 2026/2/18
+photo.39.link: ig://BzsJRdkhYnx
+photo.39.tags: laying down, paws, sample, sleeping
+photo.19.tags: close-up, sample, tongue
+photo.40: cwdc://WzmFZlDADQB.jpg
+photo.40.author: kotata_513
+photo.40.commitdate: 2026/2/18
+photo.40.link: ig://B10O8QRhTRO
+photo.40.tags: close-up, sample
+photo.41: cwdc://WzmFZlDADQC.jpg
+photo.41.author: kotata_513
+photo.41.commitdate: 2026/2/18
+photo.41.link: ig://B10O8QRhTRP
+photo.41.tags: dish, lunch time
