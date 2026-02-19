@@ -323,14 +323,18 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
 
 // Take a dogear and change the style based on how large the inner number is
 Gallery.condenseDogEar = function(nav) {
-  nav.classList.remove("threeDigits", "fourDigits")
   switch (nav.innerText.length) {
     case 3:
+      nav.classList.remove("fourDigits");
       nav.classList.add("threeDigits");
       break;
     case 4:
+      nav.classList.remove("threeDigits");
       nav.classList.add("fourDigits");
       break;
+    default:
+      nav.classList.remove("threeDigits");
+      nav.classList.remove("fourDigits");
   }
 }
 
