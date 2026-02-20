@@ -1,8 +1,7 @@
 # Red Panda Lineage
 
-[![Build Status](https://github.com/wwoast/redpanda-lineage/actions/workflows/publish.yml/badge.svg?master)](https://github.com/wwoast/redpanda-lineage/actions/workflows/publish.yml)
-[![Red Pandas](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.pandas&label=red%20pandas&uri=https%3A%2F%2Fwwoast.github.io%2Fredpanda-lineage%2Fexport%2Fredpanda.json)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
-[![Zoos](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.zoos&label=zoos&uri=https%3A%2F%2Fwwoast.github.io%2Fredpanda-lineage%2Fexport%2Fredpanda.json)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
+[![Red Pandas](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.pandas&label=red%20pandas&uri=https%3A%2F%2Fredpandafinder.com%2Fexport%2Fredpanda.json)](https://redpandafinder.com/export/redpanda.json)
+[![Zoos](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.zoos&label=zoos&uri=https%3A%2F%2Fredpandafinder.com%2Fexport%2Fredpanda.json)](https://redpandafinder.com/export/redpanda.json)
 
 [![Kokin](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/readme/header.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0011_kushiro/0023_kokin.txt)
 
