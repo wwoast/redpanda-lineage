@@ -715,26 +715,26 @@ photo.140.author: ayusuke56
 photo.140.commitdate: 2020/1/10
 photo.140.link: ig://B60ct6QB_8U
 photo.140.tags: paws, portrait, praying, sample, smile
-photo.141: cwdc://W_MKPDjADQD.jpg
-photo.141.author: kisshan324
-photo.141.commitdate: 2024/5/4
-photo.141.link: ig://B7nRW_hhD8T
-photo.141.tags: home, portrait
-photo.142: cwdc://W_dpukOADQV.jpg
-photo.142.author: taka__3428
-photo.142.commitdate: 2020/1/26
-photo.142.link: ig://B7wBGv3BFqX
-photo.142.tags: portrait, sample, whiskers
-photo.143: cwdc://W_zuCqXADQA.jpg
-photo.143.author: miis_98
-photo.143.commitdate: 2020/2/5
-photo.143.link: ig://B77DQy7g8T5
-photo.143.tags: paws, portrait, sample
-photo.144: cwdc://W-e0R1cADQU.jpg
-photo.144.author: taka__3428
-photo.144.commitdate: 2020/1/17
-photo.144.link: ig://B7QmYYeBlMl
-photo.144.tags: apple time, dish, paws, tail
+photo.141: cwdc://W-e0R1cADQU.jpg
+photo.141.author: taka__3428
+photo.141.commitdate: 2020/1/17
+photo.141.link: ig://B7QmYYeBlMl
+photo.141.tags: apple time, dish, paws, tail
+photo.142: cwdc://W_MKPDjADQD.jpg
+photo.142.author: kisshan324
+photo.142.commitdate: 2024/5/4
+photo.142.link: ig://B7nRW_hhD8T
+photo.142.tags: home, portrait
+photo.143: cwdc://W_dpukOADQV.jpg
+photo.143.author: taka__3428
+photo.143.commitdate: 2020/1/26
+photo.143.link: ig://B7wBGv3BFqX
+photo.143.tags: portrait, sample, whiskers
+photo.144: cwdc://W_zuCqXADQA.jpg
+photo.144.author: miis_98
+photo.144.commitdate: 2020/2/5
+photo.144.link: ig://B77DQy7g8T5
+photo.144.tags: paws, portrait, sample
 photo.145: cwdc://XAVABdTADQX.jpg
 photo.145.author: taka__3428
 photo.145.commitdate: 2020/2/8
@@ -1540,14 +1540,14 @@ photo.305.author: taka__3428
 photo.305.commitdate: 2025/7/17
 photo.305.link: ig://DFCr6_mSVBP
 photo.305.tags: close-up, laying down, paws, portrait, sleeping
+photo.306: cwdc://Zyaj1LPADQD.jpg
+photo.306.author: sakikukeco
+photo.306.commitdate: 2026/2/28
+photo.306.link: ig://DVOeKDXiX8N
+photo.306.tags: home, portrait, sample
 species: 2
 studbook.id: 0869
 video.1: https://youtu.be/-WMjIqoEK1U
 video.1.author: しもだちゃんねる
 video.1.link: https://www.youtube.com/channel/UCFMJwoHneCPsn_c0I-XaEYw
 zoo: 24
-photo.306: cwdc://Zyaj1LPADQD.jpg
-photo.306.author: sakikukeco
-photo.306.commitdate: 2026/2/28
-photo.306.link: ig://DVOeKDXiX8N
-photo.306.tags: home, portrait, sample

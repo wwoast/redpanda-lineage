@@ -123,8 +123,6 @@ photo.22.author: shigeko0531
 photo.22.commitdate: 2026/1/17
 photo.22.link: ig://DTaE2m7ky0Q
 photo.22.tags: baby, mofumofu, portrait, sample, snow, tail
-species: 2
-zoo: 10
 photo.23: cwdc://ZwTa9i-ADQA.jpg
 photo.23.author: shigeko0531
 photo.23.commitdate: 2026/2/28
@@ -175,3 +173,5 @@ photo.32.author: alto0908
 photo.32.commitdate: 2026/2/28
 photo.32.link: ig://DVMFkWzkoFz
 photo.32.tags: mofumofu, portrait, sample, smile, whiskers
+species: 2
+zoo: 10

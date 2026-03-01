@@ -635,36 +635,36 @@ photo.124.author: taka__3428
 photo.124.commitdate: 2019/12/30
 photo.124.link: ig://B6iKad-hlNA
 photo.124.tags: bamboo, paws, smile
-photo.125: cwdc://W_C3tXcADQX.jpg
+photo.125: cwdc://W-W1jN8ADQY.jpg
 photo.125.author: taka__3428
-photo.125.commitdate: 2020/1/22
-photo.125.link: ig://B7ioGJeBUmp
-photo.125.tags: portrait, sample, whiskers, white face
-photo.126: cwdc://W_SLL6EADQZ.jpg
+photo.125.commitdate: 2020/1/25
+photo.125.link: ig://B7MnBEuBccv
+photo.125.tags: climb, peek, standing
+photo.126: cwdc://W-iu8G1ADQa.jpg
 photo.126.author: taka__3428
-photo.126.commitdate: 2020/1/31
-photo.126.link: ig://B7qR1ayB0vb
-photo.126.tags: bamboo, paws, standing
-photo.127: cwdc://W-W1jN8ADQY.jpg
+photo.126.commitdate: 2020/1/25
+photo.126.link: ig://B7SjthKhBc6
+photo.126.tags: paws, sample
+photo.127: cwdc://W-iu8G1ADQb.jpg
 photo.127.author: taka__3428
-photo.127.commitdate: 2020/1/25
-photo.127.link: ig://B7MnBEuBccv
-photo.127.tags: climb, peek, standing
-photo.128: cwdc://W-iu8G1ADQa.jpg
+photo.127.commitdate: 2024/4/8
+photo.127.link: ig://B7SjthKhBc7
+photo.127.tags: paws, tail, whiskers
+photo.128: cwdc://W-os17IADQc.jpg
 photo.128.author: taka__3428
-photo.128.commitdate: 2020/1/25
-photo.128.link: ig://B7SjthKhBc6
-photo.128.tags: paws, sample
-photo.129: cwdc://W-iu8G1ADQb.jpg
+photo.128.commitdate: 2020/1/17
+photo.128.link: ig://B7ViqbUBj_t
+photo.128.tags: bamboo, paws, portrait, sample, standing, tail
+photo.129: cwdc://W_C3tXcADQX.jpg
 photo.129.author: taka__3428
-photo.129.commitdate: 2024/4/8
-photo.129.link: ig://B7SjthKhBc7
-photo.129.tags: paws, tail, whiskers
-photo.130: cwdc://W-os17IADQc.jpg
+photo.129.commitdate: 2020/1/22
+photo.129.link: ig://B7ioGJeBUmp
+photo.129.tags: portrait, sample, whiskers, white face
+photo.130: cwdc://W_SLL6EADQZ.jpg
 photo.130.author: taka__3428
-photo.130.commitdate: 2020/1/17
-photo.130.link: ig://B7ViqbUBj_t
-photo.130.tags: bamboo, paws, portrait, sample, standing, tail
+photo.130.commitdate: 2020/1/31
+photo.130.link: ig://B7qR1ayB0vb
+photo.130.tags: bamboo, paws, standing
 photo.131: cwdc://XJ_Rc6FADRa.jpg
 photo.131.author: taka__3428
 photo.131.commitdate: 2020/6/20
@@ -1420,11 +1420,11 @@ photo.281.author: hamamatsu.chiita
 photo.281.commitdate: 2025/7/17
 photo.281.link: ig://DCH_g0MTZAv
 photo.281.tags: portrait, sample, whiskers
-species: 2
-studbook.id: 14135
-zoo: 24
 photo.282: cwdc://Zyaj1LPADQC.jpg
 photo.282.author: sakikukeco
 photo.282.commitdate: 2026/2/28
 photo.282.link: ig://DVOeKDXiX8S
 photo.282.tags: close-up, portrait, sample, whiskers
+species: 2
+studbook.id: 14135
+zoo: 24

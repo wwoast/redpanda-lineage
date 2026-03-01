@@ -2968,94 +2968,91 @@ photo.590.author: minatomirai215
 photo.590.commitdate: 2025/12/2
 photo.590.link: ig://DRwmhrPCV3C
 photo.590.tags: autumn, portrait, sample, whiskers
-photo.591: cwdc://ZxY991mADQA.jpg
-photo.591.author: cattail.sapporo
-photo.591.commitdate: 2026/2/16
-photo.591.link: ig://DUtrOYjE35m
-photo.591.tags: baby, mofumofu, portrait, sample, snow, tail
-species: 2
-studbook.id: 1676
-zoo: 26
-photo.592: cwdc://ZscibDAADQA.webp
+photo.591: cwdc://ZscibDAADQA.webp
+photo.591.author: fetorus_mami
+photo.591.commitdate: 2026/2/28
+photo.591.link: ig://DSPdc_QE4Mx
+photo.591.tags: apple time, paws, sample, smile, standing
+photo.592: cwdc://ZscibDAADQB.webp
 photo.592.author: fetorus_mami
 photo.592.commitdate: 2026/2/28
-photo.592.link: ig://DSPdc_QE4Mx
-photo.592.tags: apple time, paws, sample, smile, standing
-photo.593: cwdc://ZscibDAADQB.webp
+photo.592.link: ig://DSPdc_QE4My
+photo.592.tags: apple time, paws, sample, standing, tail, tree, whiskers
+photo.593: cwdc://ZscibDAADQC.webp
 photo.593.author: fetorus_mami
 photo.593.commitdate: 2026/2/28
-photo.593.link: ig://DSPdc_QE4My
+photo.593.link: ig://DSPdc_QE4Mz
 photo.593.tags: apple time, paws, sample, standing, tail, tree, whiskers
-photo.594: cwdc://ZscibDAADQC.webp
+photo.594: cwdc://ZscibDAADQD.webp
 photo.594.author: fetorus_mami
 photo.594.commitdate: 2026/2/28
-photo.594.link: ig://DSPdc_QE4Mz
+photo.594.link: ig://DSPdc_QE4M1
 photo.594.tags: apple time, paws, sample, standing, tail, tree, whiskers
-photo.595: cwdc://ZscibDAADQD.webp
+photo.595: cwdc://ZscibDAADQE.webp
 photo.595.author: fetorus_mami
 photo.595.commitdate: 2026/2/28
-photo.595.link: ig://DSPdc_QE4M1
-photo.595.tags: apple time, paws, sample, standing, tail, tree, whiskers
-photo.596: cwdc://ZscibDAADQE.webp
+photo.595.link: ig://DSPdc_QE4M2
+photo.595.tags: apple time, paws, sample, standing, tree, whiskers
+photo.596: cwdc://Zu1eMQiADQA.webp
 photo.596.author: fetorus_mami
 photo.596.commitdate: 2026/2/28
-photo.596.link: ig://DSPdc_QE4M2
-photo.596.tags: apple time, paws, sample, standing, tree, whiskers
-photo.597: cwdc://Zu1eMQiADQA.webp
+photo.596.link: ig://DTb7VmBE3d6
+photo.596.tags: apple time, mofumofu, paws, sample, whiskers
+photo.597: cwdc://Zu1eMQiADQF.webp
 photo.597.author: fetorus_mami
 photo.597.commitdate: 2026/2/28
-photo.597.link: ig://DTb7VmBE3d6
-photo.597.tags: apple time, mofumofu, paws, sample, whiskers
-photo.598: cwdc://Zu1eMQiADQF.webp
+photo.597.link: ig://DTb7VmBE3d7
+photo.597.tags: mofumofu, paws, sample, whiskers
+photo.598: cwdc://Zu1eMQiADQG.webp
 photo.598.author: fetorus_mami
 photo.598.commitdate: 2026/2/28
-photo.598.link: ig://DTb7VmBE3d7
-photo.598.tags: mofumofu, paws, sample, whiskers
-photo.599: cwdc://Zu1eMQiADQG.webp
+photo.598.link: ig://DTb7VmBE3d8
+photo.598.tags: apple time, paws, sample, whiskers
+photo.599: cwdc://Zu1eMQiADQH.webp
 photo.599.author: fetorus_mami
 photo.599.commitdate: 2026/2/28
-photo.599.link: ig://DTb7VmBE3d8
-photo.599.tags: apple time, paws, sample, whiskers
-photo.600: cwdc://Zu1eMQiADQH.webp
-photo.600.author: fetorus_mami
+photo.599.link: ig://DTb7VmBE3d9
+photo.599.tags: paws, sample, whiskers
+photo.600: cwdc://ZvV-GY5ADQA.webp
+photo.600.author: resapanlove
 photo.600.commitdate: 2026/2/28
-photo.600.link: ig://DTb7VmBE3d9
+photo.600.link: ig://DTsLSqMkkcP
 photo.600.tags: paws, sample, whiskers
-photo.601: cwdc://ZvV-GY5ADQA.webp
+photo.601: cwdc://ZvV-GY5ADQB.webp
 photo.601.author: resapanlove
 photo.601.commitdate: 2026/2/28
-photo.601.link: ig://DTsLSqMkkcP
-photo.601.tags: paws, sample, whiskers
-photo.602: cwdc://ZvV-GY5ADQB.webp
+photo.601.link: ig://DTsLSqMkkcQ
+photo.601.tags: bamboo, paws, sample, whiskers
+photo.602: cwdc://ZvV-GY5ADQC.webp
 photo.602.author: resapanlove
 photo.602.commitdate: 2026/2/28
-photo.602.link: ig://DTsLSqMkkcQ
-photo.602.tags: bamboo, paws, sample, whiskers
-photo.603: cwdc://ZvV-GY5ADQC.webp
+photo.602.link: ig://DTsLSqMkkcR
+photo.602.tags: sample, smile, tongue, whiskers
+photo.603: cwdc://ZvV-GY5ADQD.webp
 photo.603.author: resapanlove
 photo.603.commitdate: 2026/2/28
-photo.603.link: ig://DTsLSqMkkcR
-photo.603.tags: sample, smile, tongue, whiskers
-photo.604: cwdc://ZvV-GY5ADQD.webp
+photo.603.link: ig://DTsLSqMkkcS
+photo.603.tags: home, sample, whiskers
+photo.604: cwdc://ZvV-GY5ADQE.webp
 photo.604.author: resapanlove
 photo.604.commitdate: 2026/2/28
-photo.604.link: ig://DTsLSqMkkcS
-photo.604.tags: home, sample, whiskers
-photo.605: cwdc://ZvV-GY5ADQE.webp
+photo.604.link: ig://DTsLSqMkkcT
+photo.604.tags: apple time, paws, sample, whiskers
+photo.605: cwdc://ZvV-GY5ADQF.webp
 photo.605.author: resapanlove
 photo.605.commitdate: 2026/2/28
-photo.605.link: ig://DTsLSqMkkcT
-photo.605.tags: apple time, paws, sample, whiskers
-photo.606: cwdc://ZvV-GY5ADQF.webp
-photo.606.author: resapanlove
+photo.605.link: ig://DTsLSqMkkcU
+photo.605.tags: apple time, bite, paws, sample, tongue, whiskers
+photo.606: cwdc://ZvnnmRdADQA.jpg
+photo.606.author: cattail.sapporo
 photo.606.commitdate: 2026/2/28
-photo.606.link: ig://DTsLSqMkkcU
-photo.606.tags: apple time, bite, paws, sample, tongue, whiskers
-photo.607: cwdc://ZvnnmRdADQA.jpg
+photo.606.link: ig://DT1ACmekwRp
+photo.606.tags: baby, mofumofu, paws, portrait, sample, snow, whiskers
+photo.607: cwdc://ZxY991mADQA.jpg
 photo.607.author: cattail.sapporo
-photo.607.commitdate: 2026/2/28
-photo.607.link: ig://DT1ACmekwRp
-photo.607.tags: baby, mofumofu, paws, portrait, sample, snow, whiskers
+photo.607.commitdate: 2026/2/16
+photo.607.link: ig://DUtrOYjE35m
+photo.607.tags: baby, mofumofu, portrait, sample, snow, tail
 photo.608: cwdc://ZyYBkCuADQA.webp
 photo.608.author: hidehaya_biei
 photo.608.commitdate: 2026/2/28
@@ -3126,3 +3123,6 @@ photo.621.author: zoowfreedom299
 photo.621.commitdate: 2026/2/28
 photo.621.link: ig://DVQ-Gldki5-
 photo.621.tags: apple time, paws, sample, whiskers
+species: 2
+studbook.id: 1676
+zoo: 26
