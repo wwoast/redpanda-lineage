@@ -140,16 +140,16 @@ photo.25.author: sasapan34
 photo.25.commitdate: 2019/12/9
 photo.25.link: ig://B5rWVZ4hTcn
 photo.25.tags: sample
-photo.26: cwdc://W_XjS-yADQB.jpg
-photo.26.author: komabazoophoto
-photo.26.commitdate: 2022/9/24
-photo.26.link: ig://B7s949JB_p2
-photo.26.tags: paws, portrait, sample, standing, window
-photo.27: cwdc://W-ulSLFADQA.jpg
-photo.27.author: framereim
-photo.27.commitdate: 2020/1/18
-photo.27.link: https://www.instagram.com/p/B7Ye4jShige
-photo.27.tags: portrait, profile, sample, snow, techitechi
+photo.26: cwdc://W-ulSLFADQA.jpg
+photo.26.author: framereim
+photo.26.commitdate: 2020/1/18
+photo.26.link: https://www.instagram.com/p/B7Ye4jShige
+photo.26.tags: portrait, profile, sample, snow, techitechi
+photo.27: cwdc://W_XjS-yADQB.jpg
+photo.27.author: komabazoophoto
+photo.27.commitdate: 2022/9/24
+photo.27.link: ig://B7s949JB_p2
+photo.27.tags: paws, portrait, sample, standing, window
 photo.28: cwdc://XBbJa3YADQA.jpg
 photo.28.author: minatomirai215
 photo.28.commitdate: 2020/3/25
@@ -580,11 +580,11 @@ photo.113.author: sasapan34
 photo.113.commitdate: 2024/6/19
 photo.113.link: ig://C8J5MEFylZ6
 photo.113.tags: paws, sample, smile, whiskers
-species: 2
-studbook.id: unknown
-zoo: 69
 photo.114: cwdc://ZyPBU_vADQA.jpg
 photo.114.author: k.rd.19p
 photo.114.commitdate: 2026/3/14
 photo.114.link: ig://DVIs59njEC7
 photo.114.tags: bridge, peek
+species: 2
+studbook.id: unknown
+zoo: 69
