@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1374
+location.1: 12, 2022/7/1
+location.2: 7, 2026/3/15
 photo.1: ig://CmbfeZbPDeW/m
 photo.1.author: pantasanzoo1
 photo.1.commitdate: 2023/1/6
@@ -128,4 +130,4 @@ photo.23.commitdate: 2024/11/2
 photo.23.link: ig://C9AG7RVSFEq
 photo.23.tags: apple time, bite, bridge, paws, portrait, sample, whiskers
 species: 2
-zoo: 12
+zoo: 7
