@@ -45,6 +45,7 @@ photo.5: cwdc://WaF5LduADQD.jpg
 photo.5.author: gloryeui
 photo.5.commitdate: 2018/10/18
 photo.5.link: ig://BpEI1MnFL-t
+photo.5.tags: portrait, tail, tongue
 photo.6: cwdc://WaGxT0LADQI.jpg
 photo.6.author: minato.yokohama4416
 photo.6.commitdate: 2018/10/18
@@ -64,6 +65,7 @@ photo.9: cwdc://WcmfUMCADQK.jpg
 photo.9.author: minato.yokohama4416
 photo.9.commitdate: 2018/11/18
 photo.9.link: ig://BqUb5jxFf8z
+photo.9.tags: bamboo, paws, standing, tail
 photo.10: cwdc://WdXH3ByADQC.jpg
 photo.10.author: tomo3700
 photo.10.commitdate: 2018/11/28
@@ -112,7 +114,7 @@ photo.18.tags: close-up, portrait, sample, whiskers
 photo.19: cwdc://Wh_XHgdADQA.jpg
 photo.19.author: gloryeui
 photo.19.commitdate: 2019/1/26
-photo.19.link: https://www.instagram.com/p/BtA3zN-lsZd
+photo.19.link: ig://BtA3zN-lsZd
 photo.19.tags: mofumofu, portrait, profile, sample, whiskers
 photo.20: cwdc://WiJQJ-aADQN.jpg
 photo.20.author: minato.yokohama4416
@@ -294,419 +296,412 @@ photo.55.author: mifko55
 photo.55.commitdate: 2022/7/13
 photo.55.link: ig://CT9HtDoBFUt
 photo.55.tags: home, mofumofu, paws, portrait, sample
-photo.56: ig://CiabWzgppoP/m
-photo.56.author: sakikukeco
-photo.56.commitdate: 2022/10/13
-photo.56.link: https://www.instagram.com/sakikukeco/
-photo.56.tags: close-up, portrait, sample, smile, whiskers
-photo.57: cwdc://XEh58TfADQA.jpg
-photo.57.author: kisshan324
-photo.57.commitdate: 2024/4/7
-photo.57.link: https://www.instagram.com/p/B-SJNnfh3nM
-photo.57.tags: dish, home, portrait, sample, tail
-photo.58: cwdc://XJBfOZWADQE.jpg
+photo.56: cwdc://XEh58TfADQA.jpg
+photo.56.author: kisshan324
+photo.56.commitdate: 2024/4/7
+photo.56.link: ig://B-SJNnfh3nM
+photo.56.tags: dish, home, portrait, sample, tail
+photo.57: cwdc://XJBfOZWADQE.jpg
+photo.57.author: chankunvv
+photo.57.commitdate: 2025/7/21
+photo.57.link: ig://CAh72qbHK_Q
+photo.57.tags: portrait, sample, smile, whiskers
+photo.58: cwdc://XSwZ4MkADQD.jpg
 photo.58.author: chankunvv
 photo.58.commitdate: 2025/7/21
-photo.58.link: ig://CAh72qbHK_Q
-photo.58.tags: portrait, sample, smile, whiskers
-photo.59: cwdc://XSwZ4MkADQD.jpg
+photo.58.link: ig://CFZZLkCBCQu
+photo.58.tags: portrait, sample
+photo.59: cwdc://XVarQtBADQF.jpg
 photo.59.author: chankunvv
 photo.59.commitdate: 2025/7/21
-photo.59.link: ig://CFZZLkCBCQu
-photo.59.tags: portrait, sample
-photo.60: cwdc://XVarQtBADQF.jpg
+photo.59.link: ig://CGuh30QhP2e
+photo.59.tags: paws, portrait, sample
+photo.60: cwdc://XXqeEGGADQB.jpg
 photo.60.author: chankunvv
 photo.60.commitdate: 2025/7/21
-photo.60.link: ig://CGuh30QhP2e
-photo.60.tags: paws, portrait, sample
-photo.61: cwdc://XXqeEGGADQB.jpg
-photo.61.author: chankunvv
-photo.61.commitdate: 2025/7/21
-photo.61.link: ig://CH2bRgzB994
-photo.61.tags: home, paws, portrait, sample
+photo.60.link: ig://CH2bRgzB994
+photo.60.tags: home, paws, portrait, sample
+photo.61: cwdc://W-zwtJZADQB.jpg
+photo.61.author: kai.kuniko
+photo.61.commitdate: 2026/3/22
+photo.61.link: ig://B7bEmCchkUk
+photo.61.tags: itchy, mofumofu, paws, portrait, sample, tail
+photo.62: cwdc://W-zwtJZADQC.jpg
+photo.62.author: kai.kuniko
+photo.62.commitdate: 2026/3/22
+photo.62.link: ig://B7bEmCchkUl
+photo.62.tags: itchy, mofumofu, paws, portrait, tail
+photo.63: cwdc://W38ndMJADQB.jpg
+photo.63.author: monmon_redpanda
+photo.63.commitdate: 2026/3/22
+photo.63.link: ig://B3_f-D0hCLw
+photo.63.tags: laying down, paws, portrait, sample, tail
+photo.64: cwdc://W38ndMJADQC.jpg
+photo.64.author: monmon_redpanda
+photo.64.commitdate: 2026/3/22
+photo.64.link: ig://B3_f-D0hCLx
+photo.64.tags: laying down, portrait, sample, tail
+photo.65: cwdc://W4r1f49ADQA.jpg
+photo.65.author: jas_forever_love
+photo.65.commitdate: 2026/3/22
+photo.65.link: ig://B4XG_aOhdCa
+photo.65.tags: bamboo, portrait
+photo.66: cwdc://W4r1f49ADQC.jpg
+photo.66.author: jas_forever_love
+photo.66.commitdate: 2026/3/22
+photo.66.link: ig://B4XG_aOhdCY
+photo.66.tags: portrait, sample, tail
+photo.67: cwdc://W4r1f49ADQD.jpg
+photo.67.author: jas_forever_love
+photo.67.commitdate: 2026/3/22
+photo.67.link: ig://B4XG_aOhdCZ
+photo.67.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.68: cwdc://W7QXdn5ADQC.jpg
+photo.68.author: gloryeui
+photo.68.commitdate: 2026/3/22
+photo.68.link: ig://B5pX-RshyFL
+photo.68.tags: paws, peek, portrait
+photo.69: cwdc://W9oVNRyADQC.jpg
+photo.69.author: minato.yokohama4416
+photo.69.commitdate: 2026/3/22
+photo.69.link: ig://B61W2GpBx1A
+photo.69.tags: door, paws, portrait, tongue
+photo.70: cwdc://W9oVNRyADQD.jpg
+photo.70.author: minato.yokohama4416
+photo.70.commitdate: 2026/3/22
+photo.70.link: ig://B61W2GpBx1B
+photo.70.tags: apple time, bite, keeper, paws, portrait
+photo.71: cwdc://W_1FgbtADQB.jpg
+photo.71.author: makimaru18
+photo.71.commitdate: 2026/3/22
+photo.71.link: ig://B77u_rmhCKD
+photo.71.tags: paws, peek, portrait
+photo.72: cwdc://W_1FgbtADQC.jpg
+photo.72.author: makimaru18
+photo.72.commitdate: 2026/3/22
+photo.72.link: ig://B77u_rmhCKE
+photo.72.tags: climb, head-first, portrait
+photo.73: cwdc://W_1FgbtADQD.jpg
+photo.73.author: makimaru18
+photo.73.commitdate: 2026/3/22
+photo.73.link: ig://B77u_rmhCKF
+photo.73.tags: portrait, sample, tree
+photo.74: cwdc://WaWHoBEADQB.jpg
+photo.74.author: framereim
+photo.74.commitdate: 2026/3/22
+photo.74.link: ig://BpMQDeSF59x
+photo.74.tags: mofumofu, paws, portrait, sample, whiskers
+photo.75: cwdc://WdtboANADQB.jpg
+photo.75.author: yakko____
+photo.75.commitdate: 2026/3/22
+photo.75.link: ig://Bq36Dd2n8MQ
+photo.75.tags: home, laying down, portrait, tail
+photo.76: cwdc://WdtboANADQC.jpg
+photo.76.author: yakko____
+photo.76.commitdate: 2026/3/22
+photo.76.link: ig://Bq36Dd2n8MR
+photo.76.tags: bamboo, portrait, sample, smile
+photo.77: cwdc://WiJQJ-aADQO.jpg
+photo.77.author: minato.yokohama4416
+photo.77.commitdate: 2026/3/22
+photo.77.link: ig://BtF0Uc9H7I9
+photo.77.tags: portrait
+photo.78: cwdc://Wq7EIS1ADQD.jpg
+photo.78.author: framereim
+photo.78.commitdate: 2026/3/22
+photo.78.link: ig://BxeuTnKlRrA
+photo.78.tags: apple time, ite, dish, keeper, paws, portrait, standing, tail
+photo.79: cwdc://Wq7EIS1ADQE.jpg
+photo.79.author: framereim
+photo.79.commitdate: 2026/3/22
+photo.79.link: ig://BxeuTnKlRrB
+photo.79.tags: apple time, bite, close-up, keeper, paws, portrait, sample, whiskers
+photo.80: cwdc://WqXanjhADQB.jpg
+photo.80.author: apple_jasmine33
+photo.80.commitdate: 2026/3/22
+photo.80.link: ig://BxM5jPgj65X
+photo.80.tags: apple time, bite, home, portrait
+photo.81: cwdc://WqXanjhADQC.jpg
+photo.81.author: apple_jasmine33
+photo.81.commitdate: 2026/3/22
+photo.81.link: ig://BxM5jPgj65Y
+photo.81.tags: portrait, tail
+photo.82: cwdc://WyNjevBADQB.jpg
+photo.82.author: ayusuke56
+photo.82.commitdate: 2026/3/22
+photo.82.link: ig://B1H9-1Qhepg
+photo.82.tags: paws, sample, tail, tongue
+photo.83: cwdc://WyNjevBADQC.jpg
+photo.83.author: ayusuke56
+photo.83.commitdate: 2026/3/22
+photo.83.link: ig://B1H9-1Qheph
+photo.83.tags: paws, peek
+photo.84: cwdc://WyNjevBADQD.jpg
+photo.84.author: ayusuke56
+photo.84.commitdate: 2026/3/22
+photo.84.link: ig://B1H9-1Qhepi
+photo.84.tags: laying down, paws, sample, smile
+photo.85: cwdc://XBntbukADQF.jpg
+photo.85.author: jas_forever_love
+photo.85.commitdate: 2026/3/22
+photo.85.link: ig://B81C9VCBVe6
+photo.85.tags: apple time, bamboo, dish, home, paws, sample, smile, whiskers
+photo.86: cwdc://XBntbukADQG.jpg
+photo.86.author: jas_forever_love
+photo.86.commitdate: 2026/3/22
+photo.86.link: ig://B81C9VCBVe7
+photo.86.tags: keeper, whiskers
+photo.87: cwdc://XCEB-XsADQB.jpg
+photo.87.author: tomo3700
+photo.87.commitdate: 2026/3/22
+photo.87.link: ig://B9DNOpmBYTz
+photo.87.tags: mofumofu, peek, portrait, sample
+photo.88: cwdc://XDFVF56ADQB.jpg
+photo.88.author: kisshan324
+photo.88.commitdate: 2026/3/22
+photo.88.link: ig://B9j2yatBvqO
+photo.88.tags: apple time, bamboo, dish, home, portrait, sample
+photo.89: cwdc://XMP6lrzADQH.jpg
+photo.89.author: hamiiiii831_
+photo.89.commitdate: 2026/3/22
+photo.89.link: ig://CCJJiTphHaY
+photo.89.tags: paws, peek, whiskers
+photo.90: cwdc://XOqTWwJADQB.jpg
+photo.90.author: nakacchi_desu
+photo.90.commitdate: 2026/3/22
+photo.90.link: ig://CDWV610h8tF
+photo.90.tags: sample, whiskers
+photo.91: cwdc://XOqTWwJADQC.jpg
+photo.91.author: nakacchi_desu
+photo.91.commitdate: 2026/3/22
+photo.91.link: ig://CDWV610h8tG
+photo.91.tags: sample
+photo.92: cwdc://XOqTWwJADQD.jpg
+photo.92.author: nakacchi_desu
+photo.92.commitdate: 2026/3/22
+photo.92.link: ig://CDWV610h8tH
+photo.92.tags: peek, sample, tree
+photo.93: cwdc://XVbJ8WWADQB.jpg
+photo.93.author: sakikukeco
+photo.93.commitdate: 2026/3/22
+photo.93.link: ig://CGuxNo7BZ-N
+photo.93.tags: keeper, mofumofu, paws, portrait, sample
+photo.94: cwdc://XVbJ8WWADQC.jpg
+photo.94.author: sakikukeco
+photo.94.commitdate: 2026/3/22
+photo.94.link: ig://CGuxNo7BZ-O
+photo.94.tags: paws, portrait, standing, tail
+photo.95: cwdc://XVbJ8WWADQD.jpg
+photo.95.author: sakikukeco
+photo.95.commitdate: 2026/3/22
+photo.95.link: ig://CGuxNo7BZ-Q
+photo.95.tags: climb, paws, portrait, sample, tail, tree
+photo.96: cwdc://XVbJ8WWADQE.jpg
+photo.96.author: sakikukeco
+photo.96.commitdate: 2026/3/22
+photo.96.link: ig://CGuxNo7BZ-R
+photo.96.tags: climb, paws, portrait, sample, tail, tree
+photo.97: cwdc://XVbJ8WWADQF.jpg
+photo.97.author: sakikukeco
+photo.97.commitdate: 2026/3/22
+photo.97.link: ig://CGuxNo7BZ-S
+photo.97.tags: paws, portrait, sample, tail
+photo.98: cwdc://XVbJ8WWADQG.jpg
+photo.98.author: sakikukeco
+photo.98.commitdate: 2026/3/22
+photo.98.link: ig://CGuxNo7BZ-T
+photo.98.tags: mofumofu, paws, portrait, sample, tail
+photo.99: cwdc://XVbJ8WWADQH.jpg
+photo.99.author: sakikukeco
+photo.99.commitdate: 2026/3/22
+photo.99.link: ig://CGuxNo7BZ-U
+photo.99.tags: home, mofumofu, paws, portrait, sample, tail, tongue
+photo.100: cwdc://XbHMmY8ADQE.jpg
+photo.100.author: kisshan324
+photo.100.commitdate: 2026/3/22
+photo.100.link: ig://CJkyiqOB4Xc
+photo.100.tags: distance, portrait, sample, tail, tree
+photo.101: cwdc://XbHMmY8ADQF.jpg
+photo.101.author: kisshan324
+photo.101.commitdate: 2026/3/22
+photo.101.link: ig://CJkyiqOB4Xd
+photo.101.tags: distance, paws, peek, portrait, tail, tree
+photo.102: cwdc://XbHMmY8ADQG.jpg
+photo.102.author: kisshan324
+photo.102.commitdate: 2026/3/22
+photo.102.link: ig://CJkyiqOB4Xe
+photo.102.tags: dish, home, portrait, tail
+photo.103: cwdc://XbHMmY8ADQH.jpg
+photo.103.author: kisshan324
+photo.103.commitdate: 2026/3/22
+photo.103.link: ig://CJkyiqOB4Xf
+photo.103.tags: dish, home, portrait
+photo.104: cwdc://XbHMmY8ADQI.jpg
+photo.104.author: kisshan324
+photo.104.commitdate: 2026/3/22
+photo.104.link: ig://CJkyiqOB4Xg
+photo.104.tags: dish, home, portrait, sample, tail
+photo.105: cwdc://XbHMmY8ADQJ.jpg
+photo.105.author: kisshan324
+photo.105.commitdate: 2026/3/22
+photo.105.link: ig://CJkyiqOB4Xh
+photo.105.tags: home, paws, portrait, sample
+photo.106: cwdc://XbHMmY8ADQK.jpg
+photo.106.author: kisshan324
+photo.106.commitdate: 2026/3/22
+photo.106.link: ig://CJkyiqOB4Xi
+photo.106.tags: peek, portrait, sample, tail
+photo.107: cwdc://XbHMmY8ADQL.jpg
+photo.107.author: kisshan324
+photo.107.commitdate: 2026/3/22
+photo.107.link: ig://CJkyiqOB4Xj
+photo.107.tags: dish, home, paws, peek, portrait, sample
+photo.108: cwdc://Y2EGjCxADQA.jpg
+photo.108.author: yuredpanda
+photo.108.commitdate: 2026/3/22
+photo.108.link: ig://C3DPg_Ivm5B
+photo.108.tags: bamboo, close-up, portrait, sample, whiskers
+photo.109: cwdc://Y2HxNuYADQB.jpg
+photo.109.author: yuredpanda
+photo.109.commitdate: 2026/3/22
+photo.109.link: ig://C3FE2U8PfdL
+photo.109.tags: bamboo, close-up, portrait, sample, whiskers
+photo.110: cwdc://Y2LkVfkADQC.jpg
+photo.110.author: yuredpanda
+photo.110.commitdate: 2026/3/22
+photo.110.link: ig://C3G-aNiPnqY
+photo.110.tags: home, laying down, portrait, sample, whiskers
+photo.111: cwdc://ZJC3RFiADQA.jpg
+photo.111.author: tomo3700
+photo.111.commitdate: 2026/3/22
+photo.111.link: ig://DAin4AhSgLg
+photo.111.tags: portrait, sample, whiskers
+photo.112: cwdc://ZJC3RFiADQB.jpg
+photo.112.author: tomo3700
+photo.112.commitdate: 2026/3/22
+photo.112.link: ig://DAin4AhSgLh
+photo.112.tags: portrait, sample
+photo.113: cwdc://ZJC3RFiADQC.jpg
+photo.113.author: tomo3700
+photo.113.commitdate: 2026/3/22
+photo.113.link: ig://DAin4AhSgLi
+photo.113.tags: bamboo, portrait, sample, smile, whiskers
+photo.114: cwdc://ZJC3RFiADQD.jpg
+photo.114.author: tomo3700
+photo.114.commitdate: 2026/3/22
+photo.114.link: ig://DAin4AhSgLj
+photo.114.tags: dish, portrait, sample, whiskers
+photo.115: cwdc://ZJC3RFiADQE.jpg
+photo.115.author: tomo3700
+photo.115.commitdate: 2026/3/22
+photo.115.link: ig://DAin4AhSgLk
+photo.115.tags: peek, portrait, sample, whiskers
+photo.116: cwdc://ZJC3RFiADQF.jpg
+photo.116.author: tomo3700
+photo.116.commitdate: 2026/3/22
+photo.116.link: ig://DAin4AhSgLl
+photo.116.tags: portrait, sample, tree
+photo.117: cwdc://ZJC3RFiADQG.jpg
+photo.117.author: tomo3700
+photo.117.commitdate: 2026/3/22
+photo.117.link: ig://DAin4AhSgLm
+photo.117.tags: peek, portrait, standing, tree
+photo.118: cwdc://ZnRY-7fADQA.jpg
+photo.118.author: yuredpanda
+photo.118.commitdate: 2026/3/22
+photo.118.link: ig://DPp4u7fko1I
+photo.118.tags: dish, paws, portrait, sample, whiskers
+photo.119: cwdc://ZnRY-7fADQB.jpg
+photo.119.author: yuredpanda
+photo.119.commitdate: 2026/3/22
+photo.119.link: ig://DPp4u7fko1J
+photo.119.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.120: cwdc://ZnRY-7fADQC.jpg
+photo.120.author: yuredpanda
+photo.120.commitdate: 2026/3/22
+photo.120.link: ig://DPp4u7fko1K
+photo.120.tags: dish, peek, portrait
+photo.121: cwdc://ZnRY-7fADQD.jpg
+photo.121.author: yuredpanda
+photo.121.commitdate: 2026/3/22
+photo.121.link: ig://DPp4u7fko1L
+photo.121.tags: dish, peek, portrait
+photo.122: cwdc://ZnRY-7fADQE.jpg
+photo.122.author: yuredpanda
+photo.122.commitdate: 2026/3/22
+photo.122.link: ig://DPp4u7fko1M
+photo.122.tags: dish, peek, portrait, sample
+photo.123: cwdc://ZnRY-7fADQF.jpg
+photo.123.author: yuredpanda
+photo.123.commitdate: 2026/3/22
+photo.123.link: ig://DPp4u7fko1N
+photo.123.tags: dish, peek, portrait, sample
+photo.124: cwdc://ZnTG0x0ADQG.jpg
+photo.124.author: yuredpanda
+photo.124.commitdate: 2026/3/22
+photo.124.link: ig://DPqvp2qEsG6
+photo.124.tags: bamboo, portrait, sample, whiskers
+photo.125: cwdc://ZnTG0x0ADQH.jpg
+photo.125.author: yuredpanda
+photo.125.commitdate: 2026/3/22
+photo.125.link: ig://DPqvp2qEsG7
+photo.125.tags: close-up, portrait, sample, whiskers
+photo.126: cwdc://ZnTG0x0ADQI.jpg
+photo.126.author: yuredpanda
+photo.126.commitdate: 2026/3/22
+photo.126.link: ig://DPqvp2qEsG8
+photo.126.tags: bamboo, peek, portrait, sample, tongue
+photo.127: cwdc://ZnTG0x0ADQJ.jpg
+photo.127.author: yuredpanda
+photo.127.commitdate: 2026/3/22
+photo.127.link: ig://DPqvp2qEsG9
+photo.127.tags: bamboo, peek, portrait, sample
+photo.128: cwdc://ZnTG0x0ADQK.jpg
+photo.128.author: yuredpanda
+photo.128.commitdate: 2026/3/22
+photo.128.link: ig://DPqvp2qEsHA
+photo.128.tags: bamboo, laying down, portrait
+photo.129: cwdc://ZnXhEXUADQL.jpg
+photo.129.author: yuredpanda
+photo.129.commitdate: 2026/3/22
+photo.129.link: ig://DPs8xpaEm4E
+photo.129.tags: close-up, dish, mofumofu, portrait, sample, whiskers
+photo.130: cwdc://ZnXhEXUADQM.jpg
+photo.130.author: yuredpanda
+photo.130.commitdate: 2026/3/22
+photo.130.link: ig://DPs8xpaEm4F
+photo.130.tags: close-up, dish, mofumofu, portrait, whiskers
+photo.131: cwdc://ZnXhEXUADQN.jpg
+photo.131.author: yuredpanda
+photo.131.commitdate: 2026/3/22
+photo.131.link: ig://DPs8xpaEm4G
+photo.131.tags: close-up, dish, mofumofu, portrait, sample, whiskers
+photo.132: cwdc://ZnXhEXUADQO.jpg
+photo.132.author: yuredpanda
+photo.132.commitdate: 2026/3/22
+photo.132.link: ig://DPs8xpaEm4H
+photo.132.tags: close-up, dish, mofumofu, portrait, sample, smile, whiskers
+photo.133: cwdc://ZnXhEXUADQP.jpg
+photo.133.author: yuredpanda
+photo.133.commitdate: 2026/3/22
+photo.133.link: ig://DPs8xpaEm4I
+photo.133.tags: close-up, dish, mofumofu, peek, portrait, whiskers
+photo.134: cwdc://ZnbCRITADQQ.jpg
+photo.134.author: yuredpanda
+photo.134.commitdate: 2026/3/22
+photo.134.link: ig://DPutYB5knJ4
+photo.134.tags: bamboo, sample, tail
+photo.135: cwdc://ZnbCRITADQR.jpg
+photo.135.author: yuredpanda
+photo.135.commitdate: 2026/3/22
+photo.135.link: ig://DPutYB5knJ5
+photo.135.tags: bamboo, eye, peek, sample
+photo.136: cwdc://ZnbCRITADQS.jpg
+photo.136.author: yuredpanda
+photo.136.commitdate: 2026/3/22
+photo.136.link: ig://DPutYB5knJ6
+photo.136.tags: bamboo, sample, tail
 species: 2
 studbook.id: 13163
 uncertainty: location.3 move date (exhibit start is 2021/1/2)
 zoo: 62
-photo.62: cwdc://W-zwtJZADQB.jpg
-photo.62.author: kai.kuniko
-photo.62.commitdate: 2026/3/22
-photo.62.link: ig://B7bEmCchkUk
-photo.62.tags: itchy, mofumofu, paws, portrait, sample, tail
-photo.63: cwdc://W-zwtJZADQC.jpg
-photo.63.author: kai.kuniko
-photo.63.commitdate: 2026/3/22
-photo.63.link: ig://B7bEmCchkUl
-photo.63.tags: itchy, mofumofu, paws, portrait, tail
-photo.64: cwdc://W38ndMJADQB.jpg
-photo.64.author: monmon_redpanda
-photo.64.commitdate: 2026/3/22
-photo.64.link: ig://B3_f-D0hCLw
-photo.64.tags: laying down, paws, portrait, sample, tail
-photo.65: cwdc://W38ndMJADQC.jpg
-photo.65.author: monmon_redpanda
-photo.65.commitdate: 2026/3/22
-photo.65.link: ig://B3_f-D0hCLx
-photo.65.tags: laying down, portrait, sample, tail
-photo.66: cwdc://W4r1f49ADQA.jpg
-photo.66.author: jas_forever_love
-photo.66.commitdate: 2026/3/22
-photo.66.link: ig://B4XG_aOhdCa
-photo.66.tags: bamboo, portrait
-photo.67: cwdc://W4r1f49ADQC.jpg
-photo.67.author: jas_forever_love
-photo.67.commitdate: 2026/3/22
-photo.67.link: ig://B4XG_aOhdCY
-photo.67.tags: portrait, sample, tail
-photo.68: cwdc://W4r1f49ADQD.jpg
-photo.68.author: jas_forever_love
-photo.68.commitdate: 2026/3/22
-photo.68.link: ig://B4XG_aOhdCZ
-photo.68.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.69: cwdc://W7QXdn5ADQC.jpg
-photo.69.author: gloryeui
-photo.69.commitdate: 2026/3/22
-photo.69.link: ig://B5pX-RshyFL
-photo.69.tags: paws, peek, portrait
-photo.70: cwdc://W9oVNRyADQC.jpg
-photo.70.author: minato.yokohama4416
-photo.70.commitdate: 2026/3/22
-photo.70.link: ig://B61W2GpBx1A
-photo.70.tags: door, paws, portrait, tongue
-photo.71: cwdc://W9oVNRyADQD.jpg
-photo.71.author: minato.yokohama4416
-photo.71.commitdate: 2026/3/22
-photo.71.link: ig://B61W2GpBx1B
-photo.71.tags: apple time, bite, keeper, paws, portrait
-photo.72: cwdc://W_1FgbtADQB.jpg
-photo.72.author: makimaru18
-photo.72.commitdate: 2026/3/22
-photo.72.link: ig://B77u_rmhCKD
-photo.72.tags: paws, peek, portrait
-photo.73: cwdc://W_1FgbtADQC.jpg
-photo.73.author: makimaru18
-photo.73.commitdate: 2026/3/22
-photo.73.link: ig://B77u_rmhCKE
-photo.73.tags: climb, head-first, portrait
-photo.74: cwdc://W_1FgbtADQD.jpg
-photo.74.author: makimaru18
-photo.74.commitdate: 2026/3/22
-photo.74.link: ig://B77u_rmhCKF
-photo.74.tags: portrait, sample, tree
-photo.5.tags: portrait, tail, tongue
-photo.75: cwdc://WaWHoBEADQB.jpg
-photo.75.author: framereim
-photo.75.commitdate: 2026/3/22
-photo.75.link: ig://BpMQDeSF59x
-photo.75.tags: mofumofu, paws, portrait, sample, whiskers
-photo.9.tags: bamboo, paws, standing, tail
-photo.76: cwdc://WdtboANADQB.jpg
-photo.76.author: yakko____
-photo.76.commitdate: 2026/3/22
-photo.76.link: ig://Bq36Dd2n8MQ
-photo.76.tags: home, laying down, portrait, tail
-photo.77: cwdc://WdtboANADQC.jpg
-photo.77.author: yakko____
-photo.77.commitdate: 2026/3/22
-photo.77.link: ig://Bq36Dd2n8MR
-photo.77.tags: bamboo, portrait, sample, smile
-photo.78: cwdc://WiJQJ-aADQO.jpg
-photo.78.author: minato.yokohama4416
-photo.78.commitdate: 2026/3/22
-photo.78.link: ig://BtF0Uc9H7I9
-photo.78.tags: portrait
-photo.79: cwdc://Wq7EIS1ADQD.jpg
-photo.79.author: framereim
-photo.79.commitdate: 2026/3/22
-photo.79.link: ig://BxeuTnKlRrA
-photo.79.tags: apple time, ite, dish, keeper, paws, portrait, standing, tail
-photo.80: cwdc://Wq7EIS1ADQE.jpg
-photo.80.author: framereim
-photo.80.commitdate: 2026/3/22
-photo.80.link: ig://BxeuTnKlRrB
-photo.80.tags: apple time, bite, close-up, keeper, paws, portrait, sample, whiskers
-photo.81: cwdc://WqXanjhADQB.jpg
-photo.81.author: apple_jasmine33
-photo.81.commitdate: 2026/3/22
-photo.81.link: ig://BxM5jPgj65X
-photo.81.tags: apple time, bite, home, portrait
-photo.82: cwdc://WqXanjhADQC.jpg
-photo.82.author: apple_jasmine33
-photo.82.commitdate: 2026/3/22
-photo.82.link: ig://BxM5jPgj65Y
-photo.82.tags: portrait, tail
-photo.83: cwdc://WyNjevBADQB.jpg
-photo.83.author: ayusuke56
-photo.83.commitdate: 2026/3/22
-photo.83.link: ig://B1H9-1Qhepg
-photo.83.tags: paws, sample, tail, tongue
-photo.84: cwdc://WyNjevBADQC.jpg
-photo.84.author: ayusuke56
-photo.84.commitdate: 2026/3/22
-photo.84.link: ig://B1H9-1Qheph
-photo.84.tags: paws, peek
-photo.85: cwdc://WyNjevBADQD.jpg
-photo.85.author: ayusuke56
-photo.85.commitdate: 2026/3/22
-photo.85.link: ig://B1H9-1Qhepi
-photo.85.tags: laying down, paws, sample, smile
-photo.86: cwdc://XBntbukADQF.jpg
-photo.86.author: jas_forever_love
-photo.86.commitdate: 2026/3/22
-photo.86.link: ig://B81C9VCBVe6
-photo.86.tags: apple time, bamboo, dish, home, paws, sample, smile, whiskers
-photo.87: cwdc://XBntbukADQG.jpg
-photo.87.author: jas_forever_love
-photo.87.commitdate: 2026/3/22
-photo.87.link: ig://B81C9VCBVe7
-photo.87.tags: keeper, whiskers
-photo.88: cwdc://XCEB-XsADQB.jpg
-photo.88.author: tomo3700
-photo.88.commitdate: 2026/3/22
-photo.88.link: ig://B9DNOpmBYTz
-photo.88.tags: mofumofu, peek, portrait, sample
-photo.89: cwdc://XDFVF56ADQB.jpg
-photo.89.author: kisshan324
-photo.89.commitdate: 2026/3/22
-photo.89.link: ig://B9j2yatBvqO
-photo.89.tags: apple time, bamboo, dish, home, portrait, sample
-photo.90: cwdc://XMP6lrzADQH.jpg
-photo.90.author: hamiiiii831_
-photo.90.commitdate: 2026/3/22
-photo.90.link: ig://CCJJiTphHaY
-photo.90.tags: paws, peek, whiskers
-photo.91: cwdc://XOqTWwJADQB.jpg
-photo.91.author: nakacchi_desu
-photo.91.commitdate: 2026/3/22
-photo.91.link: ig://CDWV610h8tF
-photo.91.tags: sample, whiskers
-photo.92: cwdc://XOqTWwJADQC.jpg
-photo.92.author: nakacchi_desu
-photo.92.commitdate: 2026/3/22
-photo.92.link: ig://CDWV610h8tG
-photo.92.tags: sample
-photo.93: cwdc://XOqTWwJADQD.jpg
-photo.93.author: nakacchi_desu
-photo.93.commitdate: 2026/3/22
-photo.93.link: ig://CDWV610h8tH
-photo.93.tags: peek, sample, tree
-photo.94: cwdc://XVbJ8WWADQB.jpg
-photo.94.author: sakikukeco
-photo.94.commitdate: 2026/3/22
-photo.94.link: ig://CGuxNo7BZ-N
-photo.94.tags: keeper, mofumofu, paws, portrait, sample
-photo.95: cwdc://XVbJ8WWADQC.jpg
-photo.95.author: sakikukeco
-photo.95.commitdate: 2026/3/22
-photo.95.link: ig://CGuxNo7BZ-O
-photo.95.tags: paws, portrait, standing, tail
-photo.96: cwdc://XVbJ8WWADQD.jpg
-photo.96.author: sakikukeco
-photo.96.commitdate: 2026/3/22
-photo.96.link: ig://CGuxNo7BZ-Q
-photo.96.tags: climb, paws, portrait, sample, tail, tree
-photo.97: cwdc://XVbJ8WWADQE.jpg
-photo.97.author: sakikukeco
-photo.97.commitdate: 2026/3/22
-photo.97.link: ig://CGuxNo7BZ-R
-photo.97.tags: climb, paws, portrait, sample, tail, tree
-photo.98: cwdc://XVbJ8WWADQF.jpg
-photo.98.author: sakikukeco
-photo.98.commitdate: 2026/3/22
-photo.98.link: ig://CGuxNo7BZ-S
-photo.98.tags: paws, portrait, sample, tail
-photo.99: cwdc://XVbJ8WWADQG.jpg
-photo.99.author: sakikukeco
-photo.99.commitdate: 2026/3/22
-photo.99.link: ig://CGuxNo7BZ-T
-photo.99.tags: mofumofu, paws, portrait, sample, tail
-photo.100: cwdc://XVbJ8WWADQH.jpg
-photo.100.author: sakikukeco
-photo.100.commitdate: 2026/3/22
-photo.100.link: ig://CGuxNo7BZ-U
-photo.100.tags: home, mofumofu, paws, portrait, sample, tail, tongue
-photo.101: cwdc://XbHMmY8ADQE.jpg
-photo.101.author: kisshan324
-photo.101.commitdate: 2026/3/22
-photo.101.link: ig://CJkyiqOB4Xc
-photo.101.tags: distance, portrait, sample, tail, tree
-photo.102: cwdc://XbHMmY8ADQF.jpg
-photo.102.author: kisshan324
-photo.102.commitdate: 2026/3/22
-photo.102.link: ig://CJkyiqOB4Xd
-photo.102.tags: distance, paws, peek, portrait, tail, tree
-photo.103: cwdc://XbHMmY8ADQG.jpg
-photo.103.author: kisshan324
-photo.103.commitdate: 2026/3/22
-photo.103.link: ig://CJkyiqOB4Xe
-photo.103.tags: dish, home, portrait, tail
-photo.104: cwdc://XbHMmY8ADQH.jpg
-photo.104.author: kisshan324
-photo.104.commitdate: 2026/3/22
-photo.104.link: ig://CJkyiqOB4Xf
-photo.104.tags: dish, home, portrait
-photo.105: cwdc://XbHMmY8ADQI.jpg
-photo.105.author: kisshan324
-photo.105.commitdate: 2026/3/22
-photo.105.link: ig://CJkyiqOB4Xg
-photo.105.tags: dish, home, portrait, sample, tail
-photo.106: cwdc://XbHMmY8ADQJ.jpg
-photo.106.author: kisshan324
-photo.106.commitdate: 2026/3/22
-photo.106.link: ig://CJkyiqOB4Xh
-photo.106.tags: home, paws, portrait, sample
-photo.107: cwdc://XbHMmY8ADQK.jpg
-photo.107.author: kisshan324
-photo.107.commitdate: 2026/3/22
-photo.107.link: ig://CJkyiqOB4Xi
-photo.107.tags: peek, portrait, sample, tail
-photo.108: cwdc://XbHMmY8ADQL.jpg
-photo.108.author: kisshan324
-photo.108.commitdate: 2026/3/22
-photo.108.link: ig://CJkyiqOB4Xj
-photo.108.tags: dish, home, paws, peek, portrait, sample
-photo.109: cwdc://Y2EGjCxADQA.jpg
-photo.109.author: yuredpanda
-photo.109.commitdate: 2026/3/22
-photo.109.link: ig://C3DPg_Ivm5B
-photo.109.tags: bamboo, close-up, portrait, sample, whiskers
-photo.110: cwdc://Y2HxNuYADQB.jpg
-photo.110.author: yuredpanda
-photo.110.commitdate: 2026/3/22
-photo.110.link: ig://C3FE2U8PfdL
-photo.110.tags: bamboo, close-up, portrait, sample, whiskers
-photo.111: cwdc://Y2LkVfkADQC.jpg
-photo.111.author: yuredpanda
-photo.111.commitdate: 2026/3/22
-photo.111.link: ig://C3G-aNiPnqY
-photo.111.tags: home, laying down, portrait, sample, whiskers
-photo.112: cwdc://ZJC3RFiADQA.jpg
-photo.112.author: tomo3700
-photo.112.commitdate: 2026/3/22
-photo.112.link: ig://DAin4AhSgLg
-photo.112.tags: portrait, sample, whiskers
-photo.113: cwdc://ZJC3RFiADQB.jpg
-photo.113.author: tomo3700
-photo.113.commitdate: 2026/3/22
-photo.113.link: ig://DAin4AhSgLh
-photo.113.tags: portrait, sample
-photo.114: cwdc://ZJC3RFiADQC.jpg
-photo.114.author: tomo3700
-photo.114.commitdate: 2026/3/22
-photo.114.link: ig://DAin4AhSgLi
-photo.114.tags: bamboo, portrait, sample, smile, whiskers
-photo.115: cwdc://ZJC3RFiADQD.jpg
-photo.115.author: tomo3700
-photo.115.commitdate: 2026/3/22
-photo.115.link: ig://DAin4AhSgLj
-photo.115.tags: dish, portrait, sample, whiskers
-photo.116: cwdc://ZJC3RFiADQE.jpg
-photo.116.author: tomo3700
-photo.116.commitdate: 2026/3/22
-photo.116.link: ig://DAin4AhSgLk
-photo.116.tags: peek, portrait, sample, whiskers
-photo.117: cwdc://ZJC3RFiADQF.jpg
-photo.117.author: tomo3700
-photo.117.commitdate: 2026/3/22
-photo.117.link: ig://DAin4AhSgLl
-photo.117.tags: portrait, sample, tree
-photo.118: cwdc://ZJC3RFiADQG.jpg
-photo.118.author: tomo3700
-photo.118.commitdate: 2026/3/22
-photo.118.link: ig://DAin4AhSgLm
-photo.118.tags: peek, portrait, standing, tree
-photo.119: cwdc://ZnRY-7fADQA.jpg
-photo.119.author: yuredpanda
-photo.119.commitdate: 2026/3/22
-photo.119.link: ig://DPp4u7fko1I
-photo.119.tags: dish, paws, portrait, sample, whiskers
-photo.120: cwdc://ZnRY-7fADQB.jpg
-photo.120.author: yuredpanda
-photo.120.commitdate: 2026/3/22
-photo.120.link: ig://DPp4u7fko1J
-photo.120.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.121: cwdc://ZnRY-7fADQC.jpg
-photo.121.author: yuredpanda
-photo.121.commitdate: 2026/3/22
-photo.121.link: ig://DPp4u7fko1K
-photo.121.tags: dish, peek, portrait
-photo.122: cwdc://ZnRY-7fADQD.jpg
-photo.122.author: yuredpanda
-photo.122.commitdate: 2026/3/22
-photo.122.link: ig://DPp4u7fko1L
-photo.122.tags: dish, peek, portrait
-photo.123: cwdc://ZnRY-7fADQE.jpg
-photo.123.author: yuredpanda
-photo.123.commitdate: 2026/3/22
-photo.123.link: ig://DPp4u7fko1M
-photo.123.tags: dish, peek, portrait, sample
-photo.124: cwdc://ZnRY-7fADQF.jpg
-photo.124.author: yuredpanda
-photo.124.commitdate: 2026/3/22
-photo.124.link: ig://DPp4u7fko1N
-photo.124.tags: dish, peek, portrait, sample
-photo.125: cwdc://ZnTG0x0ADQG.jpg
-photo.125.author: yuredpanda
-photo.125.commitdate: 2026/3/22
-photo.125.link: ig://DPqvp2qEsG6
-photo.125.tags: bamboo, portrait, sample, whiskers
-photo.126: cwdc://ZnTG0x0ADQH.jpg
-photo.126.author: yuredpanda
-photo.126.commitdate: 2026/3/22
-photo.126.link: ig://DPqvp2qEsG7
-photo.126.tags: close-up, portrait, sample, whiskers
-photo.127: cwdc://ZnTG0x0ADQI.jpg
-photo.127.author: yuredpanda
-photo.127.commitdate: 2026/3/22
-photo.127.link: ig://DPqvp2qEsG8
-photo.127.tags: bamboo, peek, portrait, sample, tongue
-photo.128: cwdc://ZnTG0x0ADQJ.jpg
-photo.128.author: yuredpanda
-photo.128.commitdate: 2026/3/22
-photo.128.link: ig://DPqvp2qEsG9
-photo.128.tags: bamboo, peek, portrait, sample
-photo.129: cwdc://ZnTG0x0ADQK.jpg
-photo.129.author: yuredpanda
-photo.129.commitdate: 2026/3/22
-photo.129.link: ig://DPqvp2qEsHA
-photo.129.tags: bamboo, laying down, portrait
-photo.130: cwdc://ZnXhEXUADQL.jpg
-photo.130.author: yuredpanda
-photo.130.commitdate: 2026/3/22
-photo.130.link: ig://DPs8xpaEm4E
-photo.130.tags: close-up, dish, mofumofu, portrait, sample, whiskers
-photo.131: cwdc://ZnXhEXUADQM.jpg
-photo.131.author: yuredpanda
-photo.131.commitdate: 2026/3/22
-photo.131.link: ig://DPs8xpaEm4F
-photo.131.tags: close-up, dish, mofumofu, portrait, whiskers
-photo.132: cwdc://ZnXhEXUADQN.jpg
-photo.132.author: yuredpanda
-photo.132.commitdate: 2026/3/22
-photo.132.link: ig://DPs8xpaEm4G
-photo.132.tags: close-up, dish, mofumofu, portrait, sample, whiskers
-photo.133: cwdc://ZnXhEXUADQO.jpg
-photo.133.author: yuredpanda
-photo.133.commitdate: 2026/3/22
-photo.133.link: ig://DPs8xpaEm4H
-photo.133.tags: close-up, dish, mofumofu, portrait, sample, smile, whiskers
-photo.134: cwdc://ZnXhEXUADQP.jpg
-photo.134.author: yuredpanda
-photo.134.commitdate: 2026/3/22
-photo.134.link: ig://DPs8xpaEm4I
-photo.134.tags: close-up, dish, mofumofu, peek, portrait, whiskers
-photo.135: cwdc://ZnbCRITADQQ.jpg
-photo.135.author: yuredpanda
-photo.135.commitdate: 2026/3/22
-photo.135.link: ig://DPutYB5knJ4
-photo.135.tags: bamboo, sample, tail
-photo.136: cwdc://ZnbCRITADQR.jpg
-photo.136.author: yuredpanda
-photo.136.commitdate: 2026/3/22
-photo.136.link: ig://DPutYB5knJ5
-photo.136.tags: bamboo, eye, peek, sample
-photo.137: cwdc://ZnbCRITADQS.jpg
-photo.137.author: yuredpanda
-photo.137.commitdate: 2026/3/22
-photo.137.link: ig://DPutYB5knJ6
-photo.137.tags: bamboo, sample, tail
