@@ -81,18 +81,18 @@ photo.13.author: redpanda_tata
 photo.13.commitdate: 2026/3/24
 photo.13.link: ig://B9j763MhBCB
 photo.13.tags: mofumofu, peek, portrait, whiskers
-photo.14: cwdc://X59ERitADQM.jpg
+photo.14: cwdc://XSSNh1LADQA.jpg
 photo.14.author: redpanda_tata
-photo.14.commitdate: 2022/8/25
-photo.14.link: ig://CY_uYPGvXZ1
-photo.14.tags: peek, portrait, sample, whiskers
+photo.14.commitdate: 2026/3/24
+photo.14.link: ig://CFKTAYVhoUR
+photo.14.tags: close-up, portrait, profile, sample, tongue, whiskers
+photo.15: cwdc://X59ERitADQM.jpg
+photo.15.author: redpanda_tata
+photo.15.commitdate: 2022/8/25
+photo.15.link: ig://CY_uYPGvXZ1
+photo.15.tags: peek, portrait, sample, whiskers
 species: 2
 zh.name: 柔柔
 zh.nicknames: none
 zh.othernames: none
 zoo: 196
-photo.15: cwdc://XSSNh1LADQA.jpg
-photo.15.author: redpanda_tata
-photo.15.commitdate: 2026/3/24
-photo.15.link: ig://CFKTAYVhoUR
-photo.15.tags: close-up, portrait, profile, sample, tongue, whiskers
