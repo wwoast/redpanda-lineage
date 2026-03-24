@@ -54,26 +54,26 @@ photo.8.author: redpanda_tata
 photo.8.commitdate: 2019/9/18
 photo.8.link: ig://B2hIPP0h7XS
 photo.8.tags: portrait, sample, tongue
-photo.9: ig://B59vRpXh5rO/m
+photo.9: cwdc://W75GEXPADQC.jpg
 photo.9.author: redpanda_tata
 photo.9.commitdate: 2020/2/16
-photo.9.link: https://www.instagram.com/redpanda_tata/
-photo.9.tags: apple time, dish, keeper, smile, standing, tail
-photo.10: ig://B65Sw5KhzX9/m
+photo.9.link: ig://B59vRpXh5rO
+photo.9.tags: apple time, dish, keeper, sample, smile, standing, tail, whiskers
+photo.10: cwdc://W9wNC21ADQD.jpg
 photo.10.author: redpanda_tata
 photo.10.commitdate: 2020/1/11
-photo.10.link: https://www.instagram.com/redpanda_tata/
-photo.10.tags: smile, whiskers
-photo.11: ig://B8YWzuJhs2O/m
+photo.10.link: ig://B65Sw5KhzX9
+photo.10.tags: sample, smile, whiskers
+photo.11: cwdc://XAuVIgzADQA.jpg
 photo.11.author: redpanda_tata
 photo.11.commitdate: 2020/2/23
-photo.11.link: https://www.instagram.com/redpanda_tata/
+photo.11.link: ig://B8YWzuJhs2O
 photo.11.tags: bamboo, paws, portrait, whiskers
-photo.12: ig://CFKTAYVhoUQ/m
+photo.12: cwdc://XSSNh1LADQB.jpg
 photo.12.author: redpanda_tata
 photo.12.commitdate: 2020/9/20
-photo.12.link: https://www.instagram.com/redpanda_tata/
-photo.12.tags: portrait, smile, whiskers
+photo.12.link: ig://CFKTAYVhoUQ
+photo.12.tags: peek, portrait, sample, smile, whiskers
 photo.13: cwdc://W0_3_kJADQC.jpg
 photo.13.author: redpanda_tata
 photo.13.commitdate: 2026/3/24
@@ -110,3 +110,28 @@ zh.name: 泰山
 zh.nicknames: none
 zh.othernames: none
 zoo: 196
+photo.19: cwdc://W9wNC21ADQE.jpg
+photo.19.author: redpanda_tata
+photo.19.commitdate: 2026/3/24
+photo.19.link: ig://B65Sw5KhzX-
+photo.19.tags: sample, smile, whiskers
+photo.20: cwdc://W9wNC21ADQF.jpg
+photo.20.author: redpanda_tata
+photo.20.commitdate: 2026/3/24
+photo.20.link: ig://B65Sw5KhzX_
+photo.20.tags: sample, techitechi, whiskers
+photo.21: cwdc://W9wNC21ADQG.jpg
+photo.21.author: redpanda_tata
+photo.21.commitdate: 2026/3/24
+photo.21.link: ig://B65Sw5KhzYA
+photo.21.tags: apple time, bite, sample, whiskers
+photo.22: cwdc://W9wNC21ADQH.jpg
+photo.22.author: redpanda_tata
+photo.22.commitdate: 2026/3/24
+photo.22.link: ig://B65Sw5KhzYB
+photo.22.tags: keeper, smile, whiskers
+photo.23: cwdc://XAuVIgzADQB.jpg
+photo.23.author: redpanda_tata
+photo.23.commitdate: 2026/3/24
+photo.23.link: ig://B8YWzuJhs2P
+photo.23.tags: paws, portrait, sample, whiskers
