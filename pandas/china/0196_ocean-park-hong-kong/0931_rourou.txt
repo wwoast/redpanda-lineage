@@ -16,43 +16,78 @@ language.order: zh, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
-photo.1: ig://BzaSdqzH-jc/m
+photo.1: cwdc://WuyMcaGADQI.jpg
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2019/7/10
-photo.1.link: https://www.instagram.com/redpanda_tata/
-photo.1.tags: nose, paws
-photo.2: ig://Bze04_tDTTa/m
+photo.1.link: ig://BzaSdqzH-jc
+photo.1.tags: keeper, nose, paws
+photo.2: cwdc://Wu7RTD6ADQK.jpg
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2019/7/10
-photo.2.link: https://www.instagram.com/redpanda_tata/
-photo.2.tags: paws, portrait, tail
+photo.2.link: ig://Bze04_tDTTa
+photo.2.tags: mofumofu, paws, portrait, tail
 photo.3: cwdc://WvHpuxlADQA.jpg
 photo.3.author: redpanda_tata
 photo.3.commitdate: 2019/7/10
 photo.3.link: https://www.instagram.com/p/BzlBG2in8Nc
 photo.3.tags: bamboo, eye, paws, portrait, profile, sample
-photo.4: ig://B0OGIwFBCbn/m
+photo.4: cwdc://WwZzykqADQA.jpg
 photo.4.author: redpanda_tata
 photo.4.commitdate: 2019/7/22
-photo.4.link: https://www.instagram.com/redpanda_tata/
-photo.4.tags: mofumofu, portrait
-photo.5: ig://B393s8tBZLg/m
+photo.4.link: ig://B0OGIwFBCbn
+photo.4.tags: close-up, mofumofu, portrait, whiskers
+photo.5: cwdc://W35W696ADQG.jpg
 photo.5.author: redpanda_tata
 photo.5.commitdate: 2019/10/25
-photo.5.link: https://www.instagram.com/redpanda_tata/
+photo.5.link: ig://B393s8tBZLg
 photo.5.tags: keeper, paws
-photo.6: ig://B9j763MhBB_/m
+photo.6: cwdc://XDFfWy5ADQB.jpg
 photo.6.author: redpanda_tata
 photo.6.commitdate: 2020/3/12
-photo.6.link: https://www.instagram.com/redpanda_tata/
-photo.6.tags: mofumofu, portrait
-photo.7: ig://CY_uYPGvXZ1/m
+photo.6.link: ig://B9j763MhBB_
+photo.6.tags: mofumofu, peek, portrait
+photo.7: cwdc://X59ERitADQM.jpg
 photo.7.author: redpanda_tata
 photo.7.commitdate: 2022/8/25
-photo.7.link: https://www.instagram.com/redpanda_tata/
-photo.7.tags: peek, portrait, whiskers
+photo.7.link: ig://CY_uYPGvXZ1
+photo.7.tags: peek, portrait, sample, whiskers
 species: 2
 zh.name: 柔柔
 zh.nicknames: none
 zh.othernames: none
 zoo: 196
+photo.8: cwdc://W35W696ADQH.jpg
+photo.8.author: redpanda_tata
+photo.8.commitdate: 2026/3/24
+photo.8.link: ig://B393s8tBZLh
+photo.8.tags: keeper, paws
+photo.9: cwdc://W9rNVhKADQE.jpg
+photo.9.author: redpanda_tata
+photo.9.commitdate: 2026/3/24
+photo.9.link: ig://B62y6OVBWeM
+photo.9.tags: mofumofu, peek, sample, whiskers
+photo.10: cwdc://W9rNVhKADQF.jpg
+photo.10.author: redpanda_tata
+photo.10.commitdate: 2026/3/24
+photo.10.link: ig://B62y6OVBWeN
+photo.10.tags: mofumofu, paws, sample, whiskers
+photo.11: cwdc://Wu7RTD6ADQL.jpg
+photo.11.author: redpanda_tata
+photo.11.commitdate: 2026/3/24
+photo.11.link: ig://Bze04_tDTTb
+photo.11.tags: mofumofu, paws, peek, portrait, sample, whiskers
+photo.12: cwdc://WuyMcaGADQJ.jpg
+photo.12.author: redpanda_tata
+photo.12.commitdate: 2026/3/24
+photo.12.link: ig://BzaSdqzH-jd
+photo.12.tags: keeper, paws
+photo.13: cwdc://XDFfWy5ADQC.jpg
+photo.13.author: redpanda_tata
+photo.13.commitdate: 2026/3/24
+photo.13.link: ig://B9j763MhBCA
+photo.13.tags: mofumofu, peek, portrait, tail
+photo.14: cwdc://XDFfWy5ADQD.jpg
+photo.14.author: redpanda_tata
+photo.14.commitdate: 2026/3/24
+photo.14.link: ig://B9j763MhBCB
+photo.14.tags: mofumofu, peek, portrait, whiskers

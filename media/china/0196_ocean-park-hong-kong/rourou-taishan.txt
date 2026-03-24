@@ -2,17 +2,52 @@
 _id: media.196.rourou-taishan
 commitdate: 2019/7/18
 panda.tags: 930, 931
-photo.1: ig://Bzk_snnHapm/m
+photo.1: cwdc://WvHm6TuADQH.jpg
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2019/7/18
-photo.1.link: https://www.instagram.com/redpanda_tata/
-photo.1.tags: bridge, paws
+photo.1.link: ig://Bzk_snnHapm
+photo.1.tags: bridge, couple, paws, portrait, sample, whiskers
 photo.1.tags.930.location: 225, 205
 photo.1.tags.931.location: 70, 75
-photo.2: ig://B62y6OVBWeI/m
+photo.2: cwdc://W9rNVhKADQC.jpg
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2020/1/11
-photo.2.link: https://www.instagram.com/redpanda_tata/
-photo.2.tags: keeper, paws, whiskers
+photo.2.link: ig://B62y6OVBWeI
+photo.2.tags: couple, keeper, paws, whiskers
 photo.2.tags.930.location: 225, 145
 photo.2.tags.931.location: 95, 75
+photo.3: cwdc://W35W696ADQI.jpg
+photo.3.author: redpanda_tata
+photo.3.commitdate: 2026/3/24
+photo.3.link: ig://B393s8tBZLi
+photo.3.tags: couple, keeper, paws, whiskers
+photo.4: cwdc://W9rNVhKADQD.jpg
+photo.4.author: redpanda_tata
+photo.4.commitdate: 2026/3/24
+photo.4.link: ig://B62y6OVBWeJ
+photo.4.tags: paws, sample, whiskers
+photo.5: cwdc://W9rNVhKADQG.jpg
+photo.5.author: redpanda_tata
+photo.5.commitdate: 2026/3/24
+photo.5.link: ig://B62y6OVBWeL
+photo.5.tags: couple, paws, sample, whiskers
+photo.6: cwdc://WvHm6TuADQI.jpg
+photo.6.author: redpanda_tata
+photo.6.commitdate: 2026/3/24
+photo.6.link: ig://Bzk_snnHapn
+photo.6.tags: bridge, keeper, mofumofu, paws, portrait, sample, whiskers
+photo.7: cwdc://XDFfWy5ADQA.jpg
+photo.7.author: redpanda_tata
+photo.7.commitdate: 2026/3/24
+photo.7.link: ig://B9j763MhBCC
+photo.7.tags: bridge, couple, paws, portrait, sample, whiskers
+photo.8: cwdc://XDFfWy5ADQE.jpg
+photo.8.author: redpanda_tata
+photo.8.commitdate: 2026/3/24
+photo.8.link: ig://B9j763MhBCD
+photo.8.tags: bridge, couple, portrait, whiskers
+photo.9: cwdc://XgxdfWVADQJ.jpg
+photo.9.author: redpanda_tata
+photo.9.commitdate: 2026/3/24
+photo.9.link: ig://CMZ6_I6hVZ0
+photo.9.tags: couple, keeper, paws, portrait, whiskers

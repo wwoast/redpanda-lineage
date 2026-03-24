@@ -15,45 +15,45 @@ language.order: zh, en, ja
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
-photo.1: ig://BdHXqOuFBCM/m
+photo.1: cwdc://WCMW1h8ADQA.jpg
 photo.1.author: hkoceanpark
 photo.1.commitdate: 2019/7/15
-photo.1.link: https://www.instagram.com/hkoceanpark/
-photo.2: ig://BzaUA51HHW3/m
+photo.1.link: ig://BdHXqOuFBCM
+photo.2: cwdc://WuyPi4KADQE.jpg
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2019/7/10
-photo.2.link: https://www.instagram.com/redpanda_tata/
-photo.2.tags: smile
-photo.3: ig://Bzb6rEjH3eg/m
+photo.2.link: ig://BzaUA51HHW3
+photo.2.tags: sample, smile, whiskers
+photo.3: cwdc://Wu1c3NmADQF.jpg
 photo.3.author: redpanda_tata
 photo.3.commitdate: 2019/7/10
-photo.3.link: https://www.instagram.com/redpanda_tata/
-photo.3.tags: whiskers
+photo.3.link: ig://Bzb6rEjH3eg
+photo.3.tags: close-up, sample, whiskers
 photo.4: cwdc://WvC8dWcADQA.jpg
 photo.4.author: redpanda_tata
 photo.4.commitdate: 2019/7/10
 photo.4.link: https://www.instagram.com/p/BziqeI-HBCs
 photo.4.tags: lunch time, paws, portrait, profile
-photo.5: ig://BzqN-NoHRhP/m
+photo.5: cwdc://WvSDdfwADQG.jpg
 photo.5.author: redpanda_tata
 photo.5.commitdate: 2019/7/10
-photo.5.link: https://www.instagram.com/redpanda_tata/
-photo.5.tags: keeper, paws, portrait, smile, standing
-photo.6: ig://Bzsq-gVntUO/m
+photo.5.link: ig://BzqN-NoHRhP
+photo.5.tags: keeper, paws, portrait, sample, smile, standing, whiskers
+photo.6: cwdc://WvW9eFLADQH.jpg
 photo.6.author: redpanda_tata
 photo.6.commitdate: 2019/7/10
-photo.6.link: https://www.instagram.com/redpanda_tata/
-photo.6.tags: laying down, surprise, upside-down
-photo.7: ig://B0X7Y0HhWPH/m
+photo.6.link: ig://Bzsq-gVntUO
+photo.6.tags: laying down, surprise, tail, upside-down
+photo.7: cwdc://WwteSsvADQA.jpg
 photo.7.author: redpanda_tata
 photo.7.commitdate: 2019/7/28
-photo.7.link: https://www.instagram.com/redpanda_tata/
+photo.7.link: ig://B0X7Y0HhWPH
 photo.7.tags: laying down, paws
-photo.8: ig://B2hIPP0h7XS/m
+photo.8: cwdc://W0_3_kJADQB.jpg
 photo.8.author: redpanda_tata
 photo.8.commitdate: 2019/9/18
-photo.8.link: https://www.instagram.com/redpanda_tata/
-photo.8.tags: portrait, tongue
+photo.8.link: ig://B2hIPP0h7XS
+photo.8.tags: portrait, sample, tongue
 photo.9: ig://B59vRpXh5rO/m
 photo.9.author: redpanda_tata
 photo.9.commitdate: 2020/2/16
@@ -79,3 +79,34 @@ zh.name: 泰山
 zh.nicknames: none
 zh.othernames: none
 zoo: 196
+photo.13: cwdc://W0_3_kJADQC.jpg
+photo.13.author: redpanda_tata
+photo.13.commitdate: 2026/3/24
+photo.13.link: ig://B2hIPP0h7XT
+photo.13.tags: laying down, paws, portrait, sample, whiskers
+photo.14: cwdc://W0_3_kJADQD.jpg
+photo.14.author: redpanda_tata
+photo.14.commitdate: 2026/3/24
+photo.14.link: ig://B2hIPP0h7XU
+photo.14.tags: laying down, paws, portrait, sample, whiskers
+photo.1.tags: whiskers
+photo.15: cwdc://WvW9eFLADQI.jpg
+photo.15.author: redpanda_tata
+photo.15.commitdate: 2026/3/24
+photo.15.link: ig://Bzsq-gVntUP
+photo.15.tags: keeper, laying down, surprise, tail, upside-down
+photo.16: cwdc://WvW9eFLADQJ.jpg
+photo.16.author: redpanda_tata
+photo.16.commitdate: 2026/3/24
+photo.16.link: ig://Bzsq-gVntUQ
+photo.16.tags: keeper, laying down, surprise, tail, upside-down
+photo.17: cwdc://WvW9eFLADQK.jpg
+photo.17.author: redpanda_tata
+photo.17.commitdate: 2026/3/24
+photo.17.link: ig://Bzsq-gVntUR
+photo.17.tags: keeper, laying down, paws, surprise, tail, upside-down
+photo.18: cwdc://XvuxKElADQL.jpg
+photo.18.author: redpanda_tata
+photo.18.commitdate: 2026/3/24
+photo.18.link: ig://CT4k0gChXYy
+photo.18.tags: keeper, paws

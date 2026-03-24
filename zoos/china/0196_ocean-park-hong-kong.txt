@@ -9,10 +9,10 @@ language.order: zh, en
 latitude: 22.2466457
 longitude: 114.1056835
 map: https://goo.gl/maps/cyhJE1HGhYUayvBv7
-photo.1: ig://ByAMx3UnQbt/m
+photo.1: cwdc://Wr-BEzJADQA.jpg
 photo.1.author: hkoceanpark
 photo.1.commitdate: 2019/7/10
-photo.1.link: https://www.instagram.com/hkoceanpark/
+photo.1.link: ig://ByAMx3UnQbt
 photo.1.tags: profile
 website: https://www.oceanpark.com.hk/tc
 zh.address: 香港仔 中華人民共和國香港特別行政區
