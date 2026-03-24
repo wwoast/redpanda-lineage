@@ -205,6 +205,31 @@ photo.38.author: redpanda_tata
 photo.38.commitdate: 2026/3/24
 photo.38.link: ig://CO-eScFh7ks
 photo.38.tags: paws, portrait, sample, standing, whiskers
+photo.39: cwdc://WvC8dWcADQA.jpg
+photo.39.author: redpanda_tata
+photo.39.commitdate: 2019/7/10
+photo.39.link: ig://BziqeI-HBCs
+photo.39.tags: lunch time, paws, portrait
+photo.40: cwdc://WvW9eFLADQH.jpg
+photo.40.author: redpanda_tata
+photo.40.commitdate: 2019/7/10
+photo.40.link: ig://Bzsq-gVntUO
+photo.40.tags: laying down, surprise, tail, upside-down
+photo.41: cwdc://W9wNC21ADQD.jpg
+photo.41.author: redpanda_tata
+photo.41.commitdate: 2020/1/11
+photo.41.link: ig://B65Sw5KhzX9
+photo.41.tags: sample, smile, whiskers
+photo.42: cwdc://W9wNC21ADQE.jpg
+photo.42.author: redpanda_tata
+photo.42.commitdate: 2026/3/24
+photo.42.link: ig://B65Sw5KhzX-
+photo.42.tags: sample, smile, whiskers
+photo.43: cwdc://W9wNC21ADQF.jpg
+photo.43.author: redpanda_tata
+photo.43.commitdate: 2026/3/24
+photo.43.link: ig://B65Sw5KhzX_
+photo.43.tags: sample, techitechi, whiskers
 species: 2
 zh.name: 聰聰
 zh.nicknames: none
