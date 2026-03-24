@@ -32,7 +32,7 @@ photo.3.tags: close-up, sample, whiskers
 photo.4: cwdc://WvC8dWcADQA.jpg
 photo.4.author: redpanda_tata
 photo.4.commitdate: 2019/7/10
-photo.4.link: https://www.instagram.com/p/BziqeI-HBCs
+photo.4.link: ig://BziqeI-HBCs
 photo.4.tags: lunch time, paws, portrait, profile
 photo.5: cwdc://WvSDdfwADQG.jpg
 photo.5.author: redpanda_tata
@@ -74,11 +74,6 @@ photo.12.author: redpanda_tata
 photo.12.commitdate: 2020/9/20
 photo.12.link: https://www.instagram.com/redpanda_tata/
 photo.12.tags: portrait, smile, whiskers
-species: 2
-zh.name: 泰山
-zh.nicknames: none
-zh.othernames: none
-zoo: 196
 photo.13: cwdc://W0_3_kJADQC.jpg
 photo.13.author: redpanda_tata
 photo.13.commitdate: 2026/3/24
@@ -110,3 +105,8 @@ photo.18.author: redpanda_tata
 photo.18.commitdate: 2026/3/24
 photo.18.link: ig://CT4k0gChXYy
 photo.18.tags: keeper, paws
+species: 2
+zh.name: 泰山
+zh.nicknames: none
+zh.othernames: none
+zoo: 196

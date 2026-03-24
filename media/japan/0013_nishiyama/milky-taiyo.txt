@@ -7,21 +7,29 @@ photo.1.author: framereim
 photo.1.commitdate: 2026/3/24
 photo.1.link: ig://BpMQDeSF59y
 photo.1.tags: couple, portrait, sample, smile, whiskers
+photo.1.tags.114.location: 140, 240
+photo.1.tags.117.location: 680, 340
 photo.2: cwdc://WetGHW1ADQA.jpg
 photo.2.author: makimaru18
 photo.2.commitdate: 2026/3/24
 photo.2.link: ig://BrXvTJKlgN1
 photo.2.tags: bridge, couple, paws, portrait
+photo.2.tags.114.location: 720, 440
+photo.2.tags.117.location: 350, 300
 photo.3: cwdc://WetGHW1ADQB.jpg
 photo.3.author: makimaru18
 photo.3.commitdate: 2026/3/24
 photo.3.link: ig://BrXvTJKlgN2
 photo.3.tags: couple, paws, portrait, sample, whiskers
+photo.3.tags.114.location: 700, 210
+photo.3.tags.117.location: 130, 560
 photo.4: cwdc://WetGHW1ADQC.jpg
 photo.4.author: makimaru18
 photo.4.commitdate: 2026/3/24
 photo.4.link: ig://BrXvTJKlgN3
 photo.4.tags: couple, portrait, sleeping
+photo.4.tags.114.location: 210, 260
+photo.4.tags.117.location: 320, 475
 photo.5: cwdc://XFom4QiADQA.jpg
 photo.5.author: minato.yokohama4416
 photo.5.commitdate: 2020/5/9
