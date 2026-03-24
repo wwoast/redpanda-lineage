@@ -90,21 +90,16 @@ photo.15.author: redpanda_tata
 photo.15.commitdate: 2020/2/23
 photo.15.link: ig://B8YWzuJhs2O
 photo.15.tags: bamboo, paws, portrait, whiskers
-photo.16: cwdc://XAuVIgzADQB.jpg
+photo.16: cwdc://XSSNh1LADQB.jpg
 photo.16.author: redpanda_tata
-photo.16.commitdate: 2026/3/24
-photo.16.link: ig://B8YWzuJhs2P
-photo.16.tags: paws, portrait, sample, whiskers
-photo.17: cwdc://XSSNh1LADQB.jpg
+photo.16.commitdate: 2020/9/20
+photo.16.link: ig://CFKTAYVhoUQ
+photo.16.tags: peek, portrait, sample, smile, whiskers
+photo.17: cwdc://XvuxKElADQL.jpg
 photo.17.author: redpanda_tata
-photo.17.commitdate: 2020/9/20
-photo.17.link: ig://CFKTAYVhoUQ
-photo.17.tags: peek, portrait, sample, smile, whiskers
-photo.18: cwdc://XvuxKElADQL.jpg
-photo.18.author: redpanda_tata
-photo.18.commitdate: 2026/3/24
-photo.18.link: ig://CT4k0gChXYy
-photo.18.tags: keeper, paws
+photo.17.commitdate: 2026/3/24
+photo.17.link: ig://CT4k0gChXYy
+photo.17.tags: keeper, paws
 species: 2
 zh.name: 泰山
 zh.nicknames: none
