@@ -2,30 +2,30 @@
 _id: media.13.milky-taiyo
 commitdate: 2020/5/9
 panda.tags: 114, 117
-photo.1: cwdc://XFom4QiADQA.jpg
-photo.1.author: minato.yokohama4416
-photo.1.commitdate: 2020/5/9
-photo.1.link: ig://B-1frmBB9Db
-photo.1.tags: couple, front-to-back, portrait, whiskers
-photo.1.tags.114.location: 230, 105
-photo.1.tags.117.location: 110, 105
-photo.2: cwdc://WaWHoBEADQC.jpg
-photo.2.author: framereim
+photo.1: cwdc://WaWHoBEADQC.jpg
+photo.1.author: framereim
+photo.1.commitdate: 2026/3/24
+photo.1.link: ig://BpMQDeSF59y
+photo.1.tags: couple, portrait, sample, smile, whiskers
+photo.2: cwdc://WetGHW1ADQA.jpg
+photo.2.author: makimaru18
 photo.2.commitdate: 2026/3/24
-photo.2.link: ig://BpMQDeSF59y
-photo.2.tags: couple, portrait, sample, smile, whiskers
-photo.3: cwdc://WetGHW1ADQA.jpg
+photo.2.link: ig://BrXvTJKlgN1
+photo.2.tags: bridge, couple, paws, portrait
+photo.3: cwdc://WetGHW1ADQB.jpg
 photo.3.author: makimaru18
 photo.3.commitdate: 2026/3/24
-photo.3.link: ig://BrXvTJKlgN1
-photo.3.tags: bridge, couple, paws, portrait
-photo.4: cwdc://WetGHW1ADQB.jpg
+photo.3.link: ig://BrXvTJKlgN2
+photo.3.tags: couple, paws, portrait, sample, whiskers
+photo.4: cwdc://WetGHW1ADQC.jpg
 photo.4.author: makimaru18
 photo.4.commitdate: 2026/3/24
-photo.4.link: ig://BrXvTJKlgN2
-photo.4.tags: couple, paws, portrait, sample, whiskers
-photo.5: cwdc://WetGHW1ADQC.jpg
-photo.5.author: makimaru18
-photo.5.commitdate: 2026/3/24
-photo.5.link: ig://BrXvTJKlgN3
-photo.5.tags: couple, portrait, sleeping
+photo.4.link: ig://BrXvTJKlgN3
+photo.4.tags: couple, portrait, sleeping
+photo.5: cwdc://XFom4QiADQA.jpg
+photo.5.author: minato.yokohama4416
+photo.5.commitdate: 2020/5/9
+photo.5.link: ig://B-1frmBB9Db
+photo.5.tags: couple, front-to-back, portrait, whiskers
+photo.5.tags.114.location: 230, 105
+photo.5.tags.117.location: 110, 105
