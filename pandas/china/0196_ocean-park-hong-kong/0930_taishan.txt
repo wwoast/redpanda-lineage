@@ -95,41 +95,36 @@ photo.16.author: redpanda_tata
 photo.16.commitdate: 2026/3/24
 photo.16.link: ig://B65Sw5KhzX-
 photo.16.tags: sample, smile, whiskers
-photo.17: cwdc://W9wNC21ADQF.jpg
+photo.17: cwdc://W9wNC21ADQG.jpg
 photo.17.author: redpanda_tata
 photo.17.commitdate: 2026/3/24
-photo.17.link: ig://B65Sw5KhzX_
-photo.17.tags: sample, techitechi, whiskers
-photo.18: cwdc://W9wNC21ADQG.jpg
+photo.17.link: ig://B65Sw5KhzYA
+photo.17.tags: apple time, bite, sample, whiskers
+photo.18: cwdc://W9wNC21ADQH.jpg
 photo.18.author: redpanda_tata
 photo.18.commitdate: 2026/3/24
-photo.18.link: ig://B65Sw5KhzYA
-photo.18.tags: apple time, bite, sample, whiskers
-photo.19: cwdc://W9wNC21ADQH.jpg
+photo.18.link: ig://B65Sw5KhzYB
+photo.18.tags: keeper, smile, whiskers
+photo.19: cwdc://XAuVIgzADQA.jpg
 photo.19.author: redpanda_tata
-photo.19.commitdate: 2026/3/24
-photo.19.link: ig://B65Sw5KhzYB
-photo.19.tags: keeper, smile, whiskers
-photo.20: cwdc://XAuVIgzADQA.jpg
+photo.19.commitdate: 2020/2/23
+photo.19.link: ig://B8YWzuJhs2O
+photo.19.tags: bamboo, paws, portrait, whiskers
+photo.20: cwdc://XAuVIgzADQB.jpg
 photo.20.author: redpanda_tata
-photo.20.commitdate: 2020/2/23
-photo.20.link: ig://B8YWzuJhs2O
-photo.20.tags: bamboo, paws, portrait, whiskers
-photo.21: cwdc://XAuVIgzADQB.jpg
+photo.20.commitdate: 2026/3/24
+photo.20.link: ig://B8YWzuJhs2P
+photo.20.tags: paws, portrait, sample, whiskers
+photo.21: cwdc://XSSNh1LADQB.jpg
 photo.21.author: redpanda_tata
-photo.21.commitdate: 2026/3/24
-photo.21.link: ig://B8YWzuJhs2P
-photo.21.tags: paws, portrait, sample, whiskers
-photo.22: cwdc://XSSNh1LADQB.jpg
+photo.21.commitdate: 2020/9/20
+photo.21.link: ig://CFKTAYVhoUQ
+photo.21.tags: peek, portrait, sample, smile, whiskers
+photo.22: cwdc://XvuxKElADQL.jpg
 photo.22.author: redpanda_tata
-photo.22.commitdate: 2020/9/20
-photo.22.link: ig://CFKTAYVhoUQ
-photo.22.tags: peek, portrait, sample, smile, whiskers
-photo.23: cwdc://XvuxKElADQL.jpg
-photo.23.author: redpanda_tata
-photo.23.commitdate: 2026/3/24
-photo.23.link: ig://CT4k0gChXYy
-photo.23.tags: keeper, paws
+photo.22.commitdate: 2026/3/24
+photo.22.link: ig://CT4k0gChXYy
+photo.22.tags: keeper, paws
 species: 2
 zh.name: 泰山
 zh.nicknames: none
