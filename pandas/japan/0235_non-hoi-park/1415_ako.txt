@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: 杏香
 language.order: ja, en
 litter: none
+location.1: 306, 2023/6/1
+location.2: 235, 2026/3/24
 photo.1: cwdc://Yjmeq3fADQA.jpg
 photo.1.author: kumamoto_doushokubutsuen
 photo.1.commitdate: 2025/6/10
@@ -1169,4 +1171,4 @@ photo.231.commitdate: 2025/6/10
 photo.231.link: ig://DE3DgzSzH-h
 photo.231.tags: portrait, sample, smile, whiskers
 species: 2
-zoo: 306
+zoo: 235
