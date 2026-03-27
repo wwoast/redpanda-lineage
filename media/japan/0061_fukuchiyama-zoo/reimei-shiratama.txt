@@ -415,59 +415,31 @@ photo.59.link: ig://CXAmsO5BS_L
 photo.59.tags: bite, mother's day, playing, whiskers
 photo.59.tags.285.location: 520, 460
 photo.59.tags.959.location: 500, 260
-photo.60: cwdc://YAsa4cxADQA.webp
-photo.60.author: kisshan324
+photo.60: cwdc://YCL-4ANADQC.jpg
+photo.60.author: redpanda_nippon_takashi
 photo.60.commitdate: 2026/3/26
-photo.60.link: ig://CcXZrsIvIwp
-photo.60.tags: brothers, paws, playing, siblings, tail
-photo.61: cwdc://YAsa4cxADQB.webp
-photo.61.author: kisshan324
-photo.61.commitdate: 2026/3/26
-photo.61.link: ig://CcXZrsIvIwq
-photo.61.tags: brothers, paws, playing, siblings, standing, tongue, whiskers
-photo.62: cwdc://YAsa4cxADQC.webp
-photo.62.author: kisshan324
-photo.62.commitdate: 2026/3/26
-photo.62.link: ig://CcXZrsIvIwr
-photo.62.tags: brothers, laying down, playing, siblings, tail
-photo.63: cwdc://YAsa4cxADQD.webp
-photo.63.author: kisshan324
-photo.63.commitdate: 2026/3/26
-photo.63.link: ig://CcXZrsIvIws
-photo.63.tags: brothers, laying down, paws, playing, siblings, tail, whiskers
-photo.64: cwdc://YAsa4cxADQE.webp
-photo.64.author: kisshan324
-photo.64.commitdate: 2026/3/26
-photo.64.link: ig://CcXZrsIvIwt
-photo.64.tags: brothers, laying down, paws, playing, siblings, tail
-photo.65: cwdc://YAsa4cxADQF.webp
-photo.65.author: kisshan324
-photo.65.commitdate: 2026/3/26
-photo.65.link: ig://CcXZrsIvIww
-photo.65.tags: brothers, laying down, paws, playing, siblings, tail
-photo.66: cwdc://YCL-4ANADQC.jpg
-photo.66.author: redpanda_nippon_takashi
-photo.66.commitdate: 2026/3/26
-photo.66.link: ig://CdHLrd2h90v
-photo.66.tags: door, flowers, mother's day, paws, portrait, sample, whiskers
-photo.67: cwdc://YTTHsQCADQK.jpg
-photo.67.author: love__mitarashi
-photo.67.commitdate: 2024/3/28
-photo.67.link: ig://ClqwFlxLIQi
-photo.67.tags: laying down, sleeping
-photo.67.tags.285.location: 620, 310
-photo.67.tags.959.location: 120, 270
-photo.68: cwdc://YuufseJADQN.jpg
-photo.68.author: love__mitarashi
-photo.68.commitdate: 2024/3/28
-photo.68.link: ig://CzYcFs0vjkR
-photo.68.tags: door, mother's day, sample, whiskers
-photo.68.tags.285.location: 520, 340
-photo.68.tags.959.location: 355, 360
-photo.69: cwdc://YvxvTEtADQM.jpg
-photo.69.author: love__mitarashi
-photo.69.commitdate: 2024/3/28
-photo.69.link: ig://Cz6D5AGvySA
-photo.69.tags: mother's day, peek
-photo.69.tags.285.location: 460, 210
-photo.69.tags.959.location: 220, 105
+photo.60.link: ig://CdHLrd2h90v
+photo.60.tags: door, flowers, mother's day, paws, portrait, sample, whiskers
+photo.60.tags.285.location: 480, 230
+photo.60.tags.959.location: 270, 420
+photo.61: cwdc://YTTHsQCADQK.jpg
+photo.61.author: love__mitarashi
+photo.61.commitdate: 2024/3/28
+photo.61.link: ig://ClqwFlxLIQi
+photo.61.tags: laying down, sleeping
+photo.61.tags.285.location: 620, 310
+photo.61.tags.959.location: 120, 270
+photo.62: cwdc://YuufseJADQN.jpg
+photo.62.author: love__mitarashi
+photo.62.commitdate: 2024/3/28
+photo.62.link: ig://CzYcFs0vjkR
+photo.62.tags: door, mother's day, sample, whiskers
+photo.62.tags.285.location: 520, 340
+photo.62.tags.959.location: 355, 360
+photo.63: cwdc://YvxvTEtADQM.jpg
+photo.63.author: love__mitarashi
+photo.63.commitdate: 2024/3/28
+photo.63.link: ig://Cz6D5AGvySA
+photo.63.tags: mother's day, peek
+photo.63.tags.285.location: 460, 210
+photo.63.tags.959.location: 220, 105
