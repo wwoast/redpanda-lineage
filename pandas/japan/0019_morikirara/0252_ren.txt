@@ -90,11 +90,11 @@ photo.15: cwdc://WmgDz1eADQP.jpg
 photo.15.author: re_ichimaru
 photo.15.commitdate: 2019/3/22
 photo.15.link: ig://BvROJYfFGy3
-photo.16: ig://Byy-D2ElXsU/m
+photo.16: cwdc://WtjjowpADQA.jpg
 photo.16.author: v_kiki_v
 photo.16.commitdate: 2019/6/28
-photo.16.link: https://www.instagram.com/v_kiki_v/
-photo.16.tags: paws, smile
+photo.16.link: ig://Byy-D2ElXsU
+photo.16.tags: paws, sample, smile, tail
 photo.17: cwdc://Wwzdn0NADQA.jpg
 photo.17.author: re_ichimaru
 photo.17.commitdate: 2019/7/28
@@ -245,9 +245,6 @@ photo.46.author: morikirara
 photo.46.commitdate: 2024/10/6
 photo.46.link: ig://C8MZQMiSgiV
 photo.46.tags: apple time, birthday, sample, smile, whiskers
-species: 2
-studbook.id: 0760
-zoo: 19
 photo.47: cwdc://WaHjK1fADQB.jpg
 photo.47.author: nakacchi_desu
 photo.47.commitdate: 2026/3/30
@@ -639,3 +636,6 @@ photo.124.author: morikirara
 photo.124.commitdate: 2026/3/30
 photo.124.link: ig://C-2Vq-2pDnE
 photo.124.tags: bamboo, sample, whiskers
+species: 2
+studbook.id: 0760
+zoo: 19
