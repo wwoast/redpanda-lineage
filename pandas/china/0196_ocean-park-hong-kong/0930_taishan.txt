@@ -1,6 +1,6 @@
 [panda]
 _id: 930
-birthday: unknown
+birthday: 2008/6/14
 birthplace: 195
 children: unknown
 commitdate: 2019/7/10
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: 泰山
 language.order: zh, en, ja
 litter: unknown
-location.1: 195, unknown
+location.1: 195, 2008/6/14
 location.2: 196, 2009/3/22
 photo.1: cwdc://WCMW1h8ADQA.jpg
 photo.1.author: hkoceanpark
