@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1300
+location.1: 10, 2021/7/1
+location.2: 190, 2026/3/31
 photo.1: ig://CS_XmG7rU-G/m
 photo.1.author: chausuyamazoo
 photo.1.commitdate: 2021/10/9
@@ -399,4 +401,4 @@ photo.77.commitdate: 2023/9/15
 photo.77.link: https://www.instagram.com/chausuyamazoo/
 photo.77.tags: laying down, mofumofu, portrait, sample, tail
 species: 2
-zoo: 10
+zoo: 190
