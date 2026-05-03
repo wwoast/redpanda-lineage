@@ -4,6 +4,7 @@ birthday: 2015/7/19
 birthplace: 10
 children: 1300, 1301
 commitdate: 2018/6/23
+death: 2026/4/26
 en.name: Hibiki
 en.nicknames: none
 en.othernames: none
@@ -70,11 +71,11 @@ photo.13.author: redpan22
 photo.13.commitdate: 2018/12/16
 photo.13.link: https://www.instagram.com/redpan22/
 photo.13.tags: techitechi
-photo.14: ig://BrwRz6lF78z/m
+photo.14: cwdc://WfeLI5qADQa.jpg
 photo.14.author: ayusuke56
 photo.14.commitdate: 2018/12/25
-photo.14.link: https://www.instagram.com/ayusuke56/
-photo.14.tags: bamboo
+photo.14.link: ig://BrwRz6lF78z
+photo.14.tags: bamboo, bite, close-up, portrait, sample, whiskers
 photo.15: ig://Br2YoJeldjd/m
 photo.15.author: daniele.tokyo
 photo.15.commitdate: 2018/12/26
@@ -84,11 +85,11 @@ photo.16.author: redpan22
 photo.16.commitdate: 2018/12/26
 photo.16.link: https://www.instagram.com/redpan22/
 photo.16.tags: bamboo
-photo.17: ig://Br-NKHFF9oe/m
+photo.17: cwdc://Wf6B1SqADQY.jpg
 photo.17.author: ayusuke56
 photo.17.commitdate: 2018/12/30
-photo.17.link: https://www.instagram.com/ayusuke56/
-photo.17.tags: grooming, tongue
+photo.17.link: ig://Br-NKHFF9oe
+photo.17.tags: grooming, portrait, sample, tongue, whiskers
 photo.18: ig://BsdB9RvlGaX/m
 photo.18.author: perie1027vivi
 photo.18.commitdate: 2019/1/14
@@ -153,26 +154,26 @@ photo.30.author: taka__3428
 photo.30.commitdate: 2019/8/31
 photo.30.link: https://www.instagram.com/taka__3428/
 photo.30.tags: peek
-photo.31: ig://B185yPSheLz/m
+photo.31: cwdc://Wz3bFjFADQX.jpg
 photo.31.author: ayusuke56
 photo.31.commitdate: 2019/9/5
-photo.31.link: https://www.instagram.com/ayusuke56/
-photo.31.tags: air tasting, portrait, tongue, window
+photo.31.link: ig://B185yPSheLz
+photo.31.tags: air tasting, portrait, sample, tongue, whiskers, window
 photo.32: cwdc://W0ApOGhADQA.jpg
 photo.32.author: osopanda551
 photo.32.commitdate: 2019/11/6
 photo.32.link: ig://B2Bg2hAhcW_
 photo.32.tags: close-up, portrait, sample, techitechi, whiskers, white face
-photo.33: ig://B2G4PJVBkKg/m
+photo.33: cwdc://W0LX_XKADQA.jpg
 photo.33.author: ayusuke56
 photo.33.commitdate: 2019/9/10
-photo.33.link: https://www.instagram.com/ayusuke56/
-photo.33.tags: laying down, peek, portrait
-photo.34: ig://B2JoEDhB0pc/m
+photo.33.link: ig://B2G4PJVBkKg
+photo.33.tags: laying down, mofumofu, peek, portrait, sample, whiskers
+photo.34: cwdc://W0Q3pLiADQG.jpg
 photo.34.author: ayusuke56
 photo.34.commitdate: 2019/9/10
-photo.34.link: https://www.instagram.com/ayusuke56/
-photo.34.tags: laying down, peek, portrait
+photo.34.link: ig://B2JoEDhB0pc
+photo.34.tags: laying down, peek, portrait, sample, whiskers
 photo.35: ig://B2wb9yOBNY_/m
 photo.35.author: redpan22
 photo.35.commitdate: 2019/9/27
@@ -232,11 +233,11 @@ photo.46.author: redpan22
 photo.46.commitdate: 2019/11/5
 photo.46.link: https://www.instagram.com/redpan22/
 photo.46.tags: smile, tongue, white face
-photo.47: ig://B6l_p1hB1wZ/m
+photo.47: cwdc://W9Jm0viADQG.jpg
 photo.47.author: alto0908
 photo.47.commitdate: 2019/12/30
-photo.47.link: https://www.instagram.com/alto0908/
-photo.47.tags: laying down, portrait, whiskers
+photo.47.link: ig://B6l_p1hB1wZ
+photo.47.tags: laying down, mofumofu, portrait, sample, whiskers
 photo.48: ig://B7Dbpvahp4g/m
 photo.48.author: shigeko0531
 photo.48.commitdate: 2020/1/12
@@ -337,11 +338,11 @@ photo.67.author: jas_forever_love
 photo.67.commitdate: 2021/10/30
 photo.67.link: https://www.instagram.com/jas_forever_love/
 photo.67.tags: mofumofu, smile, white face
-photo.68: ig://CVaNFoJB_Wv/m
+photo.68: cwdc://XyyBsUyADQL.jpg
 photo.68.author: alto0908
 photo.68.commitdate: 2021/10/27
-photo.68.link: https://www.instagram.com/alto0908/
-photo.68.tags: portrait, tree, whiskers
+photo.68.link: ig://CVaNFoJB_Wv
+photo.68.tags: portrait, sample, tree, whiskers
 photo.69: cwdc://Xy8b96eADQA.jpg
 photo.69.author: ck.chie
 photo.69.commitdate: 2021/11/20
@@ -357,11 +358,11 @@ photo.71.author: shigeko0531
 photo.71.commitdate: 2021/12/17
 photo.71.link: https://www.instagram.com/shigeko0531/
 photo.71.tags: peek, tree
-photo.72: ig://CWzPkcJhxWg/m
+photo.72: cwdc://X1kGp8zADQQ.jpg
 photo.72.author: alto0908
 photo.72.commitdate: 2022/1/29
-photo.72.link: https://www.instagram.com/alto0908/
-photo.72.tags: portrait, snow, tree, whiskers
+photo.72.link: ig://CWzPkcJhxWg
+photo.72.tags: portrait, sample, snow, tree, whiskers
 photo.73: ig://CYbN8Ajv_zN/m
 photo.73.author: _sah_ax7
 photo.73.commitdate: 2022/2/23
@@ -432,10 +433,10 @@ photo.86.author: _sah_ax7
 photo.86.commitdate: 2023/10/18
 photo.86.link: https://www.instagram.com/_sah_ax7/
 photo.86.tags: laying down, mofumofu
-photo.87: ig://CqROEwwh0mN/m
+photo.87: cwdc://YcgDqmBADQI.jpg
 photo.87.author: alto0908
 photo.87.commitdate: 2023/6/18
-photo.87.link: https://www.instagram.com/alto0908/
+photo.87.link: ig://CqROEwwh0mN
 photo.87.tags: close-up, mofumofu, sample, techitechi
 photo.88: ig://CqSf_uuP6Kq/m
 photo.88.author: daniele.tokyo
@@ -450,3 +451,218 @@ photo.89.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 15156
 zoo: 10
+photo.90: cwdc://W0LX_XKADQB.jpg
+photo.90.author: ayusuke56
+photo.90.commitdate: 2026/5/2
+photo.90.link: ig://B2G4PJVBkKh
+photo.90.tags: bite, paws, peek, portrait
+photo.91: cwdc://W0LX_XKADQC.jpg
+photo.91.author: ayusuke56
+photo.91.commitdate: 2026/5/2
+photo.91.link: ig://B2G4PJVBkKi
+photo.91.tags: laying down, mofumofu, paws, portrait, sample
+photo.92: cwdc://W0LX_XKADQD.jpg
+photo.92.author: ayusuke56
+photo.92.commitdate: 2026/5/2
+photo.92.link: ig://B2G4PJVBkKj
+photo.92.tags: close-up, mofumofu, peek, portrait, whiskers
+photo.93: cwdc://W0LX_XKADQE.jpg
+photo.93.author: ayusuke56
+photo.93.commitdate: 2026/5/2
+photo.93.link: ig://B2G4PJVBkKk
+photo.93.tags: bite, mofumofu, portrait, whiskers
+photo.94: cwdc://W0LX_XKADQF.jpg
+photo.94.author: ayusuke56
+photo.94.commitdate: 2026/5/2
+photo.94.link: ig://B2G4PJVBkKl
+photo.94.tags: bite, mofumofu, portrait, sample, whiskers
+photo.95: cwdc://W0Q3pLiADQH.jpg
+photo.95.author: ayusuke56
+photo.95.commitdate: 2026/5/2
+photo.95.link: ig://B2JoEDhB0pd
+photo.95.tags: mofumofu, paws, portrait, sample, whiskers
+photo.96: cwdc://W0Q3pLiADQI.jpg
+photo.96.author: ayusuke56
+photo.96.commitdate: 2026/5/2
+photo.96.link: ig://B2JoEDhB0pe
+photo.96.tags: paws, portrait, tongue, whiskers
+photo.97: cwdc://W0Q3pLiADQJ.jpg
+photo.97.author: ayusuke56
+photo.97.commitdate: 2026/5/2
+photo.97.link: ig://B2JoEDhB0pf
+photo.97.tags: bite, portrait, sample, whiskers
+photo.98: cwdc://W0Q3pLiADQK.jpg
+photo.98.author: ayusuke56
+photo.98.commitdate: 2026/5/2
+photo.98.link: ig://B2JoEDhB0pg
+photo.98.tags: paws, peek, portrait
+photo.99: cwdc://W0Q3pLiADQL.jpg
+photo.99.author: ayusuke56
+photo.99.commitdate: 2026/5/2
+photo.99.link: ig://B2JoEDhB0ph
+photo.99.tags: paws, portrait, tongue, toys
+photo.100: cwdc://W0Q3pLiADQM.jpg
+photo.100.author: ayusuke56
+photo.100.commitdate: 2026/5/2
+photo.100.link: ig://B2JoEDhB0pi
+photo.100.tags: paws, portrait
+photo.101: cwdc://W0Q3pLiADQN.jpg
+photo.101.author: ayusuke56
+photo.101.commitdate: 2026/5/2
+photo.101.link: ig://B2JoEDhB0pj
+photo.101.tags: mofumofu, paws, portrait, whiskers
+photo.102: cwdc://W0Q3pLiADQO.jpg
+photo.102.author: ayusuke56
+photo.102.commitdate: 2026/5/2
+photo.102.link: ig://B2JoEDhB0pk
+photo.102.tags: paws, portrait
+photo.103: cwdc://W0Q3pLiADQP.jpg
+photo.103.author: ayusuke56
+photo.103.commitdate: 2026/5/2
+photo.103.link: ig://B2JoEDhB0pl
+photo.103.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.104: cwdc://W9Jm0viADQA.jpg
+photo.104.author: alto0908
+photo.104.commitdate: 2026/5/2
+photo.104.link: ig://B6l_p1hB1wb
+photo.104.tags: mofumofu, portrait, sample, whiskers
+photo.105: cwdc://W9Jm0viADQB.jpg
+photo.105.author: alto0908
+photo.105.commitdate: 2026/5/2
+photo.105.link: ig://B6l_p1hB1wd
+photo.105.tags: close-up, mofumofu, peek, portrait, tongue
+photo.106: cwdc://W9Jm0viADQC.jpg
+photo.106.author: alto0908
+photo.106.commitdate: 2026/5/2
+photo.106.link: ig://B6l_p1hB1we
+photo.106.tags: portrait, sample, tongue, whiskers
+photo.107: cwdc://W9Jm0viADQD.jpg
+photo.107.author: alto0908
+photo.107.commitdate: 2026/5/2
+photo.107.link: ig://B6l_p1hB1wf
+photo.107.tags: mofumofu, peek, portrait, sample, whiskers
+photo.108: cwdc://W9Jm0viADQE.jpg
+photo.108.author: alto0908
+photo.108.commitdate: 2026/5/2
+photo.108.link: ig://B6l_p1hB1wg
+photo.108.tags: bamboo, portrait, tongue, whiskers
+photo.109: cwdc://W9Jm0viADQF.jpg
+photo.109.author: alto0908
+photo.109.commitdate: 2026/5/2
+photo.109.link: ig://B6l_p1hB1wh
+photo.109.tags: bamboo, close-up, peek, portrait, sample, tongue, whiskers
+photo.110: cwdc://Wf6B1SqADQZ.jpg
+photo.110.author: ayusuke56
+photo.110.commitdate: 2026/5/2
+photo.110.link: ig://Br-NKHFF9of
+photo.110.tags: close-up, grooming, paws, portrait, whiskers
+photo.111: cwdc://WfeLI5qADQb.jpg
+photo.111.author: ayusuke56
+photo.111.commitdate: 2026/5/2
+photo.111.link: ig://BrwRz6lF781
+photo.111.tags: bamboo, mofumofu, portrait, sample, whiskers
+photo.112: cwdc://WfeLI5qADQc.jpg
+photo.112.author: ayusuke56
+photo.112.commitdate: 2026/5/2
+photo.112.link: ig://BrwRz6lF782
+photo.112.tags: bamboo, mofumofu, paws, portrait, sample, whiskers
+photo.113: cwdc://WfeLI5qADQd.jpg
+photo.113.author: ayusuke56
+photo.113.commitdate: 2026/5/2
+photo.113.link: ig://BrwRz6lF783
+photo.113.tags: bamboo, bite, mofumofu, peek, portrait, sample, whiskers
+photo.114: cwdc://WfeLI5qADQe.jpg
+photo.114.author: ayusuke56
+photo.114.commitdate: 2026/5/2
+photo.114.link: ig://BrwRz6lF784
+photo.114.tags: bamboo, bite, peek, portrait
+photo.115: cwdc://WfeLI5qADQf.jpg
+photo.115.author: ayusuke56
+photo.115.commitdate: 2026/5/2
+photo.115.link: ig://BrwRz6lF785
+photo.115.tags: bamboo, bite, peek, portrait, sample
+photo.116: cwdc://WfeLI5qADQg.jpg
+photo.116.author: ayusuke56
+photo.116.commitdate: 2026/5/2
+photo.116.link: ig://BrwRz6lF786
+photo.116.tags: bamboo, bite, mofumofu, paws, portrait
+photo.117: cwdc://WfeLI5qADQh.jpg
+photo.117.author: ayusuke56
+photo.117.commitdate: 2026/5/2
+photo.117.link: ig://BrwRz6lF787
+photo.117.tags: bamboo, mofumofu, peek, portrait, sample, tongue, whiskers
+photo.118: cwdc://Wz3bFjFADQQ.jpg
+photo.118.author: ayusuke56
+photo.118.commitdate: 2026/5/2
+photo.118.link: ig://B185yPSheL1
+photo.118.tags: portrait, sample, whiskers
+photo.119: cwdc://Wz3bFjFADQR.jpg
+photo.119.author: ayusuke56
+photo.119.commitdate: 2026/5/2
+photo.119.link: ig://B185yPSheL2
+photo.119.tags: portrait, sample, techitechi, whiskers
+photo.120: cwdc://Wz3bFjFADQS.jpg
+photo.120.author: ayusuke56
+photo.120.commitdate: 2026/5/2
+photo.120.link: ig://B185yPSheL3
+photo.120.tags: portrait, sample, whiskers
+photo.121: cwdc://Wz3bFjFADQT.jpg
+photo.121.author: ayusuke56
+photo.121.commitdate: 2026/5/2
+photo.121.link: ig://B185yPSheL4
+photo.121.tags: portrait, sample, tongue, whiskers
+photo.122: cwdc://Wz3bFjFADQU.jpg
+photo.122.author: ayusuke56
+photo.122.commitdate: 2026/5/2
+photo.122.link: ig://B185yPSheL5
+photo.122.tags: grooming, paws, portrait, window
+photo.123: cwdc://Wz3bFjFADQV.jpg
+photo.123.author: ayusuke56
+photo.123.commitdate: 2026/5/2
+photo.123.link: ig://B185yPSheL6
+photo.123.tags: paws, portrait
+photo.124: cwdc://Wz3bFjFADQW.jpg
+photo.124.author: ayusuke56
+photo.124.commitdate: 2026/5/2
+photo.124.link: ig://B185yPSheL7
+photo.124.tags: grooming, paws, portrait, tongue, window
+photo.125: cwdc://X1kGp8zADQR.jpg
+photo.125.author: alto0908
+photo.125.commitdate: 2026/5/2
+photo.125.link: ig://CWzPkcJhxWi
+photo.125.tags: peek, portrait, snow, tree, whiskers
+photo.126: cwdc://XPBP4R9ADQH.jpg
+photo.126.author: alto0908
+photo.126.commitdate: 2026/5/2
+photo.126.link: ig://CDh0Lmuh0fC
+photo.126.tags: close-up, dish, laying down, mofumofu, sample, whiskers
+photo.127: cwdc://XyyBsUyADQM.jpg
+photo.127.author: alto0908
+photo.127.commitdate: 2026/5/2
+photo.127.link: ig://CVaNFoJB_Ww
+photo.127.tags: paws, portrait, sample, whiskers
+photo.128: cwdc://XzJXMivADQN.jpg
+photo.128.author: alto0908
+photo.128.commitdate: 2026/5/2
+photo.128.link: ig://CVl31vHhiJN
+photo.128.tags: portrait, sample, smile, whiskers
+photo.129: cwdc://XzJXMivADQO.jpg
+photo.129.author: alto0908
+photo.129.commitdate: 2026/5/2
+photo.129.link: ig://CVl31vHhiJO
+photo.129.tags: peek, portrait, sample, smile, tongue, whiskers
+photo.130: cwdc://XzJXMivADQP.jpg
+photo.130.author: alto0908
+photo.130.commitdate: 2026/5/2
+photo.130.link: ig://CVl31vHhiJP
+photo.130.tags: portrait, sample, tree, whiskers
+photo.131: cwdc://YcgDqmBADQJ.jpg
+photo.131.author: alto0908
+photo.131.commitdate: 2026/5/2
+photo.131.link: ig://CqROEwwh0mO
+photo.131.tags: bamboo, close-up, sample, whiskers
+photo.132: cwdc://YcgDqmBADQK.jpg
+photo.132.author: alto0908
+photo.132.commitdate: 2026/5/2
+photo.132.link: ig://CqROEwwh0mP
+photo.132.tags: bamboo, close-up, sample, whiskers
