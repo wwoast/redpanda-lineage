@@ -22,101 +22,211 @@ photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
 photo.1.link: ig://BYLLC5clC5t
 photo.1.tags: peek, portrait, sample, whiskers
-photo.2: ig://BZ7wuLzBJ4X/m
+photo.2: cwdc://V71I9cGADQE.jpg
 photo.2.author: miis_98
 photo.2.commitdate: 2020/4/6
-photo.2.link: https://www.instagram.com/miis_98/
-photo.2.tags: paws, portrait, whiskers
+photo.2.link: ig://BZ7wuLzBJ4X
+photo.2.tags: paws, portrait, sample, whiskers
 photo.3: cwdc://V-BquV3ADQA.jpg
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2020/3/11
 photo.3.link: ig://BbCBmorlpVD
 photo.3.tags: portrait, sample, smile, whiskers
-photo.4: ig://BfAxrNkh31v/m
+photo.4: cwdc://WF_K3fpADQA.jpg
 photo.4.author: miis_98
 photo.4.commitdate: 2020/4/6
-photo.4.link: https://www.instagram.com/miis_98/
-photo.4.tags: apple time, paws, portrait, tongue, whiskers
-photo.5: ig://BfHWHq9hlf7/m
+photo.4.link: ig://BfAxrNkh31v
+photo.4.tags: apple time, paws, portrait, sample, tongue, whiskers
+photo.5: cwdc://WGMTwabADQB.jpg
 photo.5.author: miis_98
 photo.5.commitdate: 2020/4/6
-photo.5.link: https://www.instagram.com/miis_98/
-photo.5.tags: paws, portrait, tail
-photo.6: ig://BgM3orFFfEa/m
+photo.5.link: ig://BfHWHq9hlf7
+photo.5.tags: itchy, paws, portrait, sample, tail
+photo.6: cwdc://WIXWyaqADQA.jpg
 photo.6.author: _rifa_p
 photo.6.commitdate: 2018/8/12
-photo.6.link: https://www.instagram.com/_rifa_p/
-photo.6.tags: itchy, portrait
-photo.7: ig://Br1BTyJF5kq/m
+photo.6.link: ig://BgM3orFFfEa
+photo.6.tags: blink, itchy, paws, portrait, sample, whiskers
+photo.7: cwdc://WfnqIoyADQC.jpg
 photo.7.author: miis_98
 photo.7.commitdate: 2018/12/26
-photo.7.link: https://www.instagram.com/miis_98/
-photo.7.tags: apple time, dish, keeper, portrait
-photo.8: ig://BsBvI-WF4Y_/m
+photo.7.link: ig://Br1BTyJF5kq
+photo.7.tags: apple time, dish, keeper, portrait, sample, whiskers
+photo.8: cwdc://WgBFzBMADQA.jpg
 photo.8.author: kipekaila
 photo.8.commitdate: 2018/12/30
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: bamboo, portrait
+photo.8.link: ig://BsBvI-WF4Y_
+photo.8.tags: bamboo, lips, portrait, sample, techitechi, whiskers
 photo.9: cwdc://XFQI49lADQA.jpg
 photo.9.author: miis_98
 photo.9.commitdate: 2020/4/6
 photo.9.link: ig://B-pQr8ihs1E
 photo.9.tags: bamboo, portrait, profile, sample, snow
-photo.10: ig://CDM_zdDBzn3/m
+photo.10: cwdc://XOXnH-mADQH.jpg
 photo.10.author: miis_98
 photo.10.commitdate: 2020/7/28
-photo.10.link: https://www.instagram.com/miis_98/
-photo.10.tags: paws, portrait, smile
-photo.11: ig://CKlXEothvw-/m
+photo.10.link: ig://CDM_zdDBzn3
+photo.10.tags: paws, portrait, sample, smile, whiskers
+photo.11: cwdc://XdIVqV7ADQC.jpg
 photo.11.author: fetorus_mami
 photo.11.commitdate: 2021/1/28
-photo.11.link: https://www.instagram.com/fetorus_mami/
-photo.11.tags: portrait, smile
-photo.12: ig://COc8UItBDRB/m
+photo.11.link: ig://CKlXEothvw-
+photo.11.tags: portrait, sample, smile, whiskers
+photo.12: cwdc://Xk3gJV6ADQI.jpg
 photo.12.author: miis_98
 photo.12.commitdate: 2021/6/4
-photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: peek, paws, portrait, tongue
-photo.13: ig://CPYQtNXhQvz/m
+photo.12.link: ig://COc8UItBDRB
+photo.12.tags: paws, peek, portrait, sample, tongue, whiskers
+photo.13: cwdc://XmuI7fPADQL.jpg
 photo.13.author: miis_98
 photo.13.commitdate: 2021/6/18
-photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: home, mofumofu, portrait
-photo.14: ig://CRXc5b7BNPz/m
+photo.13.link: ig://CPYQtNXhQvz
+photo.13.tags: home, laying down, mofumofu, portrait, sample, teeth, whiskers
+photo.14: cwdc://XqshT8WADQM.jpg
 photo.14.author: miis_98
 photo.14.commitdate: 2021/7/18
-photo.14.link: https://www.instagram.com/miis_98/
-photo.14.tags: bamboo, home, portrait, smile, techitechi
-photo.15: ig://CUU8yQXFxAa/m
+photo.14.link: ig://CRXc5b7BNPz
+photo.14.tags: bamboo, bite, home, portrait, sample, smile, techitechi, teeth
+photo.15: cwdc://XwnhFlOADQN.jpg
 photo.15.author: miis_98
 photo.15.commitdate: 2021/10/9
-photo.15.link: https://www.instagram.com/miis_98/
-photo.15.tags: home, portrait, tail
-photo.16: ig://CbH2Y65PW_b/m
+photo.15.link: ig://CUU8yQXFxAa
+photo.15.tags: home, portrait, sample, tail
+photo.16: cwdc://X-NUS6SADQF.webp
 photo.16.author: miis_98
 photo.16.commitdate: 2022/3/20
-photo.16.link: https://www.instagram.com/miis_98/
-photo.16.tags: bamboo, home, portrait, smile, whiskers
-photo.17: ig://CcgqzgPP76u/m
+photo.16.link: ig://CbH2Y65PW_b
+photo.16.tags: bamboo, home, portrait, sample, smile, teeth, whiskers
+photo.17: cwdc://YA-9IE-ADQG.webp
 photo.17.author: miis_98
 photo.17.commitdate: 2022/6/6
-photo.17.link: https://www.instagram.com/miis_98/
-photo.17.tags: peek, portrait, sample, whiskers
-photo.18: ig://CgNQjM1B1bt/m
+photo.17.link: ig://CcgqzgPP76u
+photo.17.tags: lips, peek, portrait, sample, whiskers
+photo.18: cwdc://YIYIneKADQE.jpg
 photo.18.author: hamamatsu.chiita
 photo.18.commitdate: 2022/7/28
-photo.18.link: https://www.instagram.com/hamamatsu.chiita/
+photo.18.link: ig://CgNQjM1B1bt
 photo.18.tags: lips, mofumofu, portrait, sample
-photo.19: ig://ConvoyAhzn-/m
+photo.19: cwdc://YZNGyohADQJ.webp
 photo.19.author: miis_98
 photo.19.commitdate: 2023/2/24
-photo.19.link: https://www.instagram.com/miis_98/
-photo.19.tags: portrait, sample, tail, whiskers
-photo.20: ig://CqVNCjLvWn5/m
+photo.19.link: ig://ConvoyAhzn-
+photo.19.tags: portrait, sample, tail, teeth, whiskers
+photo.20: cwdc://YcoBmK3ADQA.webp
 photo.20.author: ayusuke56
 photo.20.commitdate: 2023/4/22
-photo.20.link: https://www.instagram.com/ayusuke56/
-photo.20.tags: bamboo, home, lips, paws, portrait, sample, whiskers
+photo.20.link: ig://CqVNCjLvWn5
+photo.20.tags: bamboo, bite, home, lips, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0683
 zoo: 23
+photo.21: cwdc://V0I-csZADQB.jpg
+photo.21.author: love__mitarashi
+photo.21.commitdate: 2026/5/14
+photo.21.link: ig://BWFrdz8hzwX
+photo.21.tags: door
+photo.22: cwdc://Vj9_r9qADQA.jpg
+photo.22.author: love__mitarashi
+photo.22.commitdate: 2026/5/14
+photo.22.link: ig://BOAMFclBcA5
+photo.22.tags: portrait, sample, techitechi, whiskers
+photo.23: cwdc://WfnqIoyADQD.jpg
+photo.23.author: miis_98
+photo.23.commitdate: 2026/5/14
+photo.23.link: ig://Br1BTyJF5kr
+photo.23.tags: apple time, lips, paws, portrait, sample, whiskers
+photo.24: cwdc://XSHgXxfADQC.jpg
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2026/5/14
+photo.24.link: ig://CFE8bWfh-YL
+photo.24.tags: paws, sample, smile
+photo.25: cwdc://XdIVqV7ADQD.jpg
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2026/5/14
+photo.25.link: ig://CKlXEothvw_
+photo.25.tags: blink, flowers, portrait, sample, smile, tongue, whiskers
+photo.26: cwdc://XdIVqV7ADQE.jpg
+photo.26.author: fetorus_mami
+photo.26.commitdate: 2026/5/14
+photo.26.link: ig://CKlXEothvxA
+photo.26.tags: flowers, portrait, tongue, whiskers
+photo.27: cwdc://XdIVqV7ADQF.jpg
+photo.27.author: fetorus_mami
+photo.27.commitdate: 2026/5/14
+photo.27.link: ig://CKlXEothvxB
+photo.27.tags: flowers, paws, portrait, sample, tongue, whiskers
+photo.28: cwdc://XdIVqV7ADQG.jpg
+photo.28.author: fetorus_mami
+photo.28.commitdate: 2026/5/14
+photo.28.link: ig://CKlXEothvxC
+photo.28.tags: flowers, portrait, sample, tongue, whiskers
+photo.29: cwdc://XdIVqV7ADQH.jpg
+photo.29.author: fetorus_mami
+photo.29.commitdate: 2026/5/14
+photo.29.link: ig://CKlXEothvxD
+photo.29.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.30: cwdc://XdIVqV7ADQI.jpg
+photo.30.author: fetorus_mami
+photo.30.commitdate: 2026/5/14
+photo.30.link: ig://CKlXEothvxE
+photo.30.tags: flowers, paws, portrait, sample, tongue, whiskers
+photo.31: cwdc://XdIVqV7ADQJ.jpg
+photo.31.author: fetorus_mami
+photo.31.commitdate: 2026/5/14
+photo.31.link: ig://CKlXEothvxF
+photo.31.tags: paws, peek, portrait, sample, tongue, whiskers
+photo.32: cwdc://Y5GUR6HADQA.jpg
+photo.32.author: fuji_safari
+photo.32.commitdate: 2026/5/14
+photo.32.link: ig://C4kWYazvhA4
+photo.32.tags: bamboo, blink, paws, portrait, sample, smile, tail
+photo.33: cwdc://YEucIYZADQD.jpg
+photo.33.author: hamamatsu.chiita
+photo.33.commitdate: 2026/5/14
+photo.33.link: ig://CeYaTp8vyjz
+photo.33.tags: bamboo, bite, close-up, mofumofu, portrait, sample, whiskers
+photo.34: cwdc://YIYIneKADQF.jpg
+photo.34.author: hamamatsu.chiita
+photo.34.commitdate: 2026/5/14
+photo.34.link: ig://CgNQjM1B1bu
+photo.34.tags: close-up, lips, mofumofu, sample, whiskers
+photo.35: cwdc://YZNGyohADQK.webp
+photo.35.author: miis_98
+photo.35.commitdate: 2026/5/14
+photo.35.link: ig://ConvoyAhzn_
+photo.35.tags: blink, laying down, sample, tail, whiskers
+photo.36: cwdc://YcoBmK3ADQB.webp
+photo.36.author: ayusuke56
+photo.36.commitdate: 2026/5/14
+photo.36.link: ig://CqVNCjLvWn6
+photo.36.tags: bamboo, bite, paws, portrait, sample, tongue, whiskers
+photo.37: cwdc://YcoBmK3ADQC.webp
+photo.37.author: ayusuke56
+photo.37.commitdate: 2026/5/14
+photo.37.link: ig://CqVNCjLvWn7
+photo.37.tags: bamboo, bite, paws, portrait, sample, whiskers
+photo.38: cwdc://YcoBmK3ADQD.webp
+photo.38.author: ayusuke56
+photo.38.commitdate: 2026/5/14
+photo.38.link: ig://CqVNCjLvWn8
+photo.38.tags: bamboo, bite, blink, paws, peek, portrait, sample
+photo.39: cwdc://YcoBmK3ADQE.webp
+photo.39.author: ayusuke56
+photo.39.commitdate: 2026/5/14
+photo.39.link: ig://CqVNCjLvWn9
+photo.39.tags: bamboo, bite, home, paws, portrait, sample, teeth, whiskers
+photo.40: cwdc://Yqopu3OADQO.webp
+photo.40.author: miis_98
+photo.40.commitdate: 2026/5/14
+photo.40.link: ig://CxVhG5XPSjA
+photo.40.tags: bamboo, paws, sample, whiskers
+photo.41: cwdc://Yqopu3OADQP.webp
+photo.41.author: miis_98
+photo.41.commitdate: 2026/5/14
+photo.41.link: ig://CxVhG5XPSjB
+photo.41.tags: laying down, sample, tail, whiskers
+photo.42: cwdc://YvMyEGyADQB.jpg
+photo.42.author: fuji_safari
+photo.42.commitdate: 2026/5/14
+photo.42.link: ig://CznlRhJPY8i
+photo.42.tags: blink, itchy, paws, portrait
