@@ -15,91 +15,171 @@ language.order: ja, en
 litter: 54, 487
 location.1: 10, 2006/6/20
 location.2: 64, 2007/7/18
-photo.1: ig://BUyjgP1BUr3/m
+photo.1: cwdc://VxiuhkKADQA.jpg
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/1
-photo.1.link: https://www.instagram.com/miis_98/
-photo.1.tags: bamboo, smile
-photo.2: ig://BVht6nDAkz5/m
+photo.1.link: ig://BUyjgP1BUr3
+photo.1.tags: bamboo, mofumofu, sample, smile
+photo.2: cwdc://VzBDWSmADQB.jpg
 photo.2.author: panda.daisuki
 photo.2.commitdate: 2019/6/21
-photo.2.link: https://www.instagram.com/panda.daisuki/
-photo.2.tags: portrait
-photo.3: ig://BkP7vbjllZL/m
+photo.2.link: ig://BVht6nDAkz5
+photo.2.tags: close-up, peek, portrait, sample, whiskers
+photo.3: cwdc://WQde_7nADQA.jpg
 photo.3.author: panda.daisuki
 photo.3.commitdate: 2018/9/8
-photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: lunch time
+photo.3.link: ig://BkP7vbjllZL
+photo.3.tags: birthday, dish, lunch time, paws, portrait, sample, whiskers
 photo.4: cwdc://WTMDTF2ADQA.jpg
 photo.4.author: craig_craig_craig
 photo.4.commitdate: 2018/9/8
 photo.4.link: https://www.instagram.com/p/BlnN5ArFEbH
 photo.4.tags: bamboo, paws, portrait, profile, sample
-photo.5: ig://B7zWkoohdE9/m
+photo.5: cwdc://W_kUqVxADQA.jpg
 photo.5.author: grskus_tk
 photo.5.commitdate: 2020/1/28
-photo.5.link: https://www.instagram.com/grskus_tk/
-photo.5.tags: bamboo, dish, paws, portrait
-photo.6: ig://B76ER0RBzJJ/m
+photo.5.link: ig://B7zWkoohdE9
+photo.5.tags: bamboo, bite, dish, paws, portrait, sample
+photo.6: cwdc://W_xwEtCADQE.jpg
 photo.6.author: grskus_tk
 photo.6.commitdate: 2020/2/3
-photo.6.link: https://www.instagram.com/grskus_tk/
+photo.6.link: ig://B76ER0RBzJJ
 photo.6.tags: peek, portrait
-photo.7: ig://B-8a9t_hqv3/m
+photo.7: cwdc://XF2dcgfADQG.jpg
 photo.7.author: grskus_tk
 photo.7.commitdate: 2020/5/2
-photo.7.link: https://www.instagram.com/grskus_tk/
-photo.7.tags: lunch time, portrait
-photo.8: ig://B_ybN-Lp4VJ/m
+photo.7.link: ig://B-8a9t_hqv3
+photo.7.tags: dish, lunch time, portrait, sample, whiskers
+photo.8: cwdc://XHid9A3ADQA.jpg
 photo.8.author: kipekaila
 photo.8.commitdate: 2020/5/5
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: bamboo, bite, portrait
-photo.9: ig://CBn5fMMBv1X/m
+photo.8.link: ig://B_ybN-Lp4VJ
+photo.8.tags: bamboo, bite, close-up, portrait, sample, whiskers
+photo.9: cwdc://XLNafc4ADQC.jpg
 photo.9.author: panda.daisuki
 photo.9.commitdate: 2020/6/24
-photo.9.link: https://www.instagram.com/panda.daisuki
-photo.9.tags: portrait
-photo.10: ig://CQUb9AmBKDO/m
+photo.9.link: ig://CBn5fMMBv1X
+photo.9.tags: close-up, peek, portrait, sample, whiskers
+photo.10: cwdc://XomfbFsADQU.jpg
 photo.10.author: grskus_tk
 photo.10.commitdate: 2021/7/14
-photo.10.link: https://www.instagram.com/grskus_tk/
-photo.10.tags: dish, paws
-photo.11: ig://CWvWPTJh6Rt/m
+photo.10.link: ig://CQUb9AmBKDO
+photo.10.tags: dish, mofumofu, paws, sample
+photo.11: cwdc://X1cT_qzADQX.jpg
 photo.11.author: grskus_tk
 photo.11.commitdate: 2022/1/7
-photo.11.link: https://www.instagram.com/grskus_tk/
-photo.11.tags: apple time, close-up, lips
-photo.12: ig://Cd20qcRJJuq/m
+photo.11.link: ig://CWvWPTJh6Rt
+photo.11.tags: apple time, close-up, lips, tongue, whiskers
+photo.12: cwdc://YDrQ19CADQJ.jpg
 photo.12.author: grskus_tk
 photo.12.commitdate: 2023/3/26
-photo.12.link: https://www.instagram.com/grskus_tk/
-photo.12.tags: apple time, dish, paws, tongue
-photo.13: ig://CeCz1czvege/m
+photo.12.link: ig://Cd20qcRJJuq
+photo.12.tags: apple time, dish, paws, sample, tongue
+photo.13: cwdc://YEDPL-HADQL.jpg
 photo.13.author: grskus_tk
 photo.13.commitdate: 2022/6/29
-photo.13.link: https://www.instagram.com/grskus_tk/
-photo.13.tags: peek
-photo.14: ig://CjxO31aB6sm/m
+photo.13.link: ig://CeCz1czvege
+photo.13.tags: paws, peek, sample
+photo.14: cwdc://YPgFQvUADQA.jpg
 photo.14.author: monmon_redpanda
 photo.14.commitdate: 2022/11/4
-photo.14.link: https://www.instagram.com/monmon_redpanda/
+photo.14.link: ig://CjxO31aB6sm
 photo.14.tags: close-up, portrait, sample, tongue
-photo.15: ig://Cmx81kbvxvB/m
+photo.15: cwdc://YVhhMNXADQR.jpg
 photo.15.author: grskus_tk
 photo.15.commitdate: 2023/3/17
-photo.15.link: https://www.instagram.com/grskus_tk/
+photo.15.link: ig://Cmx81kbvxvB
 photo.15.tags: apple time, dish
-photo.16: ig://CmyvIXbPGAt/m
+photo.16: cwdc://YVjFxzWADQT.jpg
 photo.16.author: grskus_tk
 photo.16.commitdate: 2023/3/17
-photo.16.link: https://www.instagram.com/grskus_tk/
-photo.16.tags: bamboo, peek, portrait, tail
-photo.17: ig://Cm5f34Xv86m/m
+photo.16.link: ig://CmyvIXbPGAt
+photo.16.tags: bamboo, peek, portrait, sample, tail
+photo.17: cwdc://YVwnQ1PADQQ.jpg
 photo.17.author: grskus_tk
 photo.17.commitdate: 2023/3/17
-photo.17.link: https://www.instagram.com/grskus_tk/
+photo.17.link: ig://Cm5f34Xv86m
 photo.17.tags: paws, peek, sample
 species: 2
 studbook.id: 0669
 zoo: 64
+photo.18: cwdc://W_kUqVxADQB.jpg
+photo.18.author: grskus_tk
+photo.18.commitdate: 2026/5/22
+photo.18.link: ig://B7zWkoohdE-
+photo.18.tags: bite, lips, portrait, tongue
+photo.19: cwdc://W_kUqVxADQC.jpg
+photo.19.author: grskus_tk
+photo.19.commitdate: 2026/5/22
+photo.19.link: ig://B7zWkoohdE_
+photo.19.tags: dish, mofumofu, portrait, sample, techitechi
+photo.20: cwdc://W_kUqVxADQD.jpg
+photo.20.author: grskus_tk
+photo.20.commitdate: 2026/5/22
+photo.20.link: ig://B7zWkoohdFA
+photo.20.tags: dish, peek, portrait
+photo.21: cwdc://W_xwEtCADQF.jpg
+photo.21.author: grskus_tk
+photo.21.commitdate: 2026/5/22
+photo.21.link: ig://B76ER0RBzJK
+photo.21.tags: portrait, sample, whiskers
+photo.22: cwdc://XF2dcgfADQH.jpg
+photo.22.author: grskus_tk
+photo.22.commitdate: 2026/5/22
+photo.22.link: ig://B-8a9t_hqv4
+photo.22.tags: peek, portrait, sample, tongue, whiskers
+photo.23: cwdc://XF2dcgfADQI.jpg
+photo.23.author: grskus_tk
+photo.23.commitdate: 2026/5/22
+photo.23.link: ig://B-8a9t_hqv5
+photo.23.tags: apple time, lips, paws, portrait, sample, whiskers
+photo.24: cwdc://XomfbFsADQV.jpg
+photo.24.author: grskus_tk
+photo.24.commitdate: 2026/5/22
+photo.24.link: ig://CQUb9AmBKDP
+photo.24.tags: sample, whiskers
+photo.25: cwdc://XomfbFsADQW.jpg
+photo.25.author: grskus_tk
+photo.25.commitdate: 2026/5/22
+photo.25.link: ig://CQUb9AmBKDQ
+photo.25.tags: dish, peek
+photo.26: cwdc://YDrQ19CADQK.jpg
+photo.26.author: grskus_tk
+photo.26.commitdate: 2026/5/22
+photo.26.link: ig://Cd20qcRJJur
+photo.26.tags: dish, sample, tongue
+photo.27: cwdc://YEDPL-HADQM.jpg
+photo.27.author: grskus_tk
+photo.27.commitdate: 2026/5/22
+photo.27.link: ig://CeCz1czvegf
+photo.27.tags: paws, peek, sample
+photo.28: cwdc://YEDPL-HADQN.jpg
+photo.28.author: grskus_tk
+photo.28.commitdate: 2026/5/22
+photo.28.link: ig://CeCz1czvegg
+photo.28.tags: sample, whiskers
+photo.29: cwdc://YF-uceGADQO.jpg
+photo.29.author: grskus_tk
+photo.29.commitdate: 2026/5/22
+photo.29.link: ig://CfAjdszPDs1
+photo.29.tags: paws, peek, sample
+photo.30: cwdc://YF-uceGADQP.jpg
+photo.30.author: grskus_tk
+photo.30.commitdate: 2026/5/22
+photo.30.link: ig://CfAjdszPDs2
+photo.30.tags: peek, sample
+photo.31: cwdc://YVhhMNXADQS.jpg
+photo.31.author: grskus_tk
+photo.31.commitdate: 2026/5/22
+photo.31.link: ig://Cmx81kbvxvC
+photo.31.tags: apple time, dish, sample
+photo.32: cwdc://YjdnJF6ADQA.jpg
+photo.32.author: oshimabranchoffice
+photo.32.commitdate: 2026/5/22
+photo.32.link: ig://Ctv_0AtBJ9J
+photo.32.tags: apple time, dish, paws, portrait, sample
+photo.33: cwdc://YqvfYDnADQB.jpg
+photo.33.author: monmon_redpanda
+photo.33.commitdate: 2026/5/22
+photo.33.link: ig://CxY77fjhjiM
+photo.33.tags: paws, portrait, sample, smile, whiskers
