@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   T = Touch.init();
   G = Dagoba.graph();
   F = Geo.init();
+  ScrollTop.init();
 
   Options.init();
 

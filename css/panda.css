@@ -19,7 +19,7 @@ body.profile {
 div.topMenu, div.bottomMenu {
     display: table;
     text-align: center;
-    height: 64px;
+    max-height: 64px; /* Hides bottom menu when there are no visible elements */
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -28,6 +28,12 @@ div.topMenu, div.bottomMenu {
     width: 100%;
     vertical-align: middle;
     border-bottom: 2px solid yellowgreen;
+}
+
+div#pageTop {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
 }
 
 div.languageMenu {
@@ -1452,6 +1458,53 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     letter-spacing: -2.5px;
 }
 
+.floatingTopBtn {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 56px;
+    height: 56px;
+
+    border-radius: 999px;
+    border: 1px solid #fff3;
+
+    background: #2b532de0;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+
+    transition: opacity 0.2s ease, transform 0.2s ease;
+
+    z-index: 9999;
+}
+
+.floatingTopBtn.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.floatingTopBtn:hover {
+    background: #264b28ec;
+}
+
+body.profile .floatingTopBtn {
+    background: #633537e0;
+}
+
+body.profile .floatingTopBtn:hover {
+    background: #532d2fec;
+}
+
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
@@ -1812,5 +1865,24 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     div.photoSample.halfPage h5.caption,
     div.photoSample.fullPage h5.caption {
         width: 95%;
+    }
+
+    .floatingTopBtn {
+        width: 48px;
+        height: 48px;
+        right: 10px;
+        margin-bottom:4px
+    }
+}
+
+/* Reduce padding between top menu icons on smaller screens */
+@media screen and (max-width: 415px) {
+    div.topMenu div.shrinker button.menu {
+        width: fit-content
+    }
+    div.topMenu div.shrinker button.menu div.buttonContent {
+        margin-left: 16px;
+        margin-right: 16px;
+
     }
 }
