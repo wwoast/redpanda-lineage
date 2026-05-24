@@ -27,11 +27,11 @@ photo.2.author: tomo3700
 photo.2.commitdate: 2018/7/25
 photo.2.link: ig://BgM3bSalvEc
 photo.2.tags: portrait, profile, sample, whiskers
-photo.3: ig://Bh_TJlGlkZw/m
+photo.3: cwdc://WL8N0OtADQA.jpg
 photo.3.author: colette.jp
 photo.3.commitdate: 2018/7/25
-photo.3.link: https://www.instagram.com/colette.jp/
-photo.3.tags: ear, portrait
+photo.3.link: ig://Bh_TJlGlkZw
+photo.3.tags: blink, ear, portrait, sample, smile, whiskers
 photo.4: ig://Bit8CB8FHfo/m
 photo.4.author: tomo3700
 photo.4.commitdate: 2018/7/25
@@ -888,3 +888,8 @@ photo.174.tags: apple time, dish, paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 0672
 zoo: 13
+photo.175: cwdc://WL8N0OtADQB.jpg
+photo.175.author: ayusuke56
+photo.175.commitdate: 2026/5/23
+photo.175.link: ig://Bh_TJlGlkZx
+photo.175.tags: ear, paws, portrait, sample, smile, whiskers
