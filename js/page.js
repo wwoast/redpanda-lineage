@@ -110,7 +110,7 @@ Page.about.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.language();
-  Show["results"].menus.top();
+  Show["about"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
   // Re-enable scroll restoration for just the about page
@@ -322,7 +322,7 @@ Page.home.render = function() {
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
   Show["results"].menus.language();
-  Show["results"].menus.top();
+  Show["landing"].menus.top();
   // Special homepage headers
   if (P.db != undefined) {
     var new_content = document.createElement('div');
