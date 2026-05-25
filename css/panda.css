@@ -1539,6 +1539,7 @@ body.profile .floatingTopBtn:hover {
     div.buttonText {
         display: table-row;
         font-size: 10pt;
+        letter-spacing: -0.1ex;
         padding: 0 0 0 0;
         text-align: center;
         word-break: keep-all;  /* Fix iPhone text overflow for "Random" ja */
