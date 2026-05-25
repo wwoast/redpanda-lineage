@@ -4,6 +4,7 @@ birthday: 2006/6/23
 birthplace: 1
 children: 26, 109, 124, 79, 114, 120, 166, 167
 commitdate: 2018/6/25
+death: 2026/5/21
 en.name: Min-Fa
 en.nicknames: Sweet smile
 en.othernames: Minfa
@@ -885,9 +886,7 @@ photo.174.author: tomo3700
 photo.174.commitdate: 2026/2/16
 photo.174.link: ig://DUvXFWUj4sE
 photo.174.tags: apple time, dish, paws, portrait, sample, smile, whiskers
-species: 2
-studbook.id: 0672
-zoo: 13
+
 photo.175: cwdc://WL8N0OtADQB.jpg
 photo.175.author: ayusuke56
 photo.175.commitdate: 2026/5/23
@@ -1338,3 +1337,6 @@ photo.264.author: hamamatsu.chiita
 photo.264.commitdate: 2026/5/24
 photo.264.link: ig://CyePorih4Ex
 photo.264.tags: close-up, portrait, sample, whiskers
+species: 2
+studbook.id: 0672
+zoo: 13
