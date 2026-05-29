@@ -16,6 +16,7 @@ litter: 254
 location.1: 19, 2014/7/13
 location.2: 8, 2017/11/7
 location.3: 289, 2022/2/28
+location.4: 143, 2026/5/27
 photo.1: ig://BdEtWryAHrE/m
 photo.1.author: peek_a_boo00
 photo.1.commitdate: 2020/5/12
@@ -730,11 +731,11 @@ photo.143.author: hamiiiii831_
 photo.143.commitdate: 2023/9/16
 photo.143.link: https://www.instagram.com/hamiiiii831_/
 photo.143.tags: sample, smile, whiskers
-species: 2
-studbook.id: 14165
-zoo: 289
 photo.144: cwdc://ZxfjFmvADQC.jpg
 photo.144.author: kiryuzoo
 photo.144.commitdate: 2026/2/16
 photo.144.link: ig://DUw9yRHiZnb
 photo.144.tags: apple time, paws, sample, snow
+species: 2
+studbook.id: 14165
+zoo: 143
