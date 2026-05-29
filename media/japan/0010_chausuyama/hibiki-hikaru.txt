@@ -2,11 +2,11 @@
 _id: media.10.hibiki-hikaru
 commitdate: 2019/6/9
 panda.tags: 97, 98
-photo.1: ig://BFr3QTLvi59/m
+photo.1: cwdc://VTVWBq3ADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2019/7/20
-photo.1.link: https://www.instagram.com/panda.daisuki/
-photo.1.tags: brothers, laying down, siblings, twins
+photo.1.link: ig://BFr3QTLvi59
+photo.1.tags: brothers, laying down, portrait, sample, siblings, twins
 photo.1.tags.97.location: 85, 185
 photo.1.tags.98.location: 250, 185
 photo.2: ig://Buh3sl0FWe6/m
@@ -16,73 +16,138 @@ photo.2.link: https://www.instagram.com/mofu_pan/
 photo.2.tags: brothers, bridge, siblings, twins
 photo.2.tags.97.location: 225, 105
 photo.2.tags.98.location: 125, 95
-photo.3: ig://Bycc0tyBZcE/m
+photo.3: cwdc://Ws2hKgEADQC.jpg
 photo.3.author: shigeko0531
 photo.3.commitdate: 2019/6/9
-photo.3.link: https://www.instagram.com/shigeko0531/
+photo.3.link: ig://Bycc0tyBZcE
 photo.3.tags: apple time, brothers, dish, siblings, twins
 photo.3.tags.97.location: 155, 130
 photo.3.tags.98.location: 45, 80
-photo.4: ig://B0dYMQHh3qE/m
+photo.4: cwdc://Ww4X5kvADQA.jpg
 photo.4.author: hamiiiii831_
 photo.4.commitdate: 2019/7/30
-photo.4.link: https://www.instagram.com/hamiiiii831_/
-photo.4.tags: apple time, brothers, dish, siblings, twins
+photo.4.link: ig://B0dYMQHh3qE
+photo.4.tags: apple time, brothers, dish, sample, siblings, twins, whiskers
 photo.4.tags.97.location: 220, 140
 photo.4.tags.98.location: 100, 125
-photo.5: ig://B1R8rujBgdJ/l
+photo.5: cwdc://Wyhg4hmADQA.jpg
 photo.5.author: shigeko0531
 photo.5.commitdate: 2022/1/7
-photo.5.link: https://www.instagram.com/shigeko0531/
-photo.5.tags: brothers, laying down, siblings, twins
+photo.5.link: ig://B1R8rujBgdJ
+photo.5.tags: brothers, laying down, sample, siblings, twins
 photo.5.tags.97.location: 80, 195
 photo.5.tags.98.location: 350, 110
-photo.6: ig://B4CITnGBEqC/l
+photo.6: cwdc://W4B4ISsADQA.jpg
 photo.6.author: nozo.mari
 photo.6.commitdate: 2019/10/25
-photo.6.link: https://www.instagram.com/nozo.mari/
-photo.6.tags: brothers, siblings, twins
+photo.6.link: ig://B4CITnGBEqC
+photo.6.tags: bamboo, bridge, brothers, siblings, twins
 photo.6.tags.97.location: 765, 510
 photo.6.tags.98.location: 290, 195
-photo.7: ig://B4vugdDhJSB/m
+photo.7: cwdc://W5dEh-nADQB.jpg
 photo.7.author: shigeko0531
 photo.7.commitdate: 2019/12/5
-photo.7.link: https://www.instagram.com/shigeko0531/
-photo.7.tags: brothers, tongue, siblings, twins
+photo.7.link: ig://B4vugdDhJSB
+photo.7.tags: brothers, sample, siblings, tongue, twins
 photo.7.tags.97.location: 235, 135
 photo.7.tags.98.location: 105, 185
-photo.8: ig://B418vefh06Z/m
+photo.8: cwdc://W5phABfADQC.jpg
 photo.8.author: kaoru_a358
 photo.8.commitdate: 2019/11/27
-photo.8.link: https://www.instagram.com/kaoru_a358/
-photo.8.tags: brothers, tongue, siblings, twins
+photo.8.link: ig://B418vefh06Z
+photo.8.tags: brothers, portrait, sample, siblings, tongue, twins
 photo.8.tags.97.location: 195, 120
 photo.8.tags.98.location: 65, 200
-photo.9: ig://B98J1qThIEM/m
+photo.9: cwdc://XD17MZHADQA.jpg
 photo.9.author: craig_craig_craig
 photo.9.commitdate: 2020/5/17
-photo.9.link: https://www.instagram.com/craig_craig_craig/
+photo.9.link: ig://B98J1qThIEM
 photo.9.tags: bamboo, brothers, siblings, twins
 photo.9.tags.97.location: 215, 160
 photo.9.tags.98.location: 105, 140
-photo.10: ig://CCx1XlnBU62/l
+photo.10: cwdc://XNhSQPuADQD.jpg
 photo.10.author: shigeko0531
 photo.10.commitdate: 2020/12/5
-photo.10.link: https://www.instagram.com/shigeko0531/
-photo.10.tags: brothers, laying down, siblings, twins
+photo.10.link: ig://CCx1XlnBU62
+photo.10.tags: brothers, laying down, sample, siblings, twins
 photo.10.tags.97.location: 110, 265
 photo.10.tags.98.location: 480, 135
-photo.11: ig://CCz7kX7Bcfk/m
+photo.11: cwdc://XNlep0WADQB.jpg
 photo.11.author: panda.daisuki
 photo.11.commitdate: 2020/12/5
-photo.11.link: https://www.instagram.com/panda.daisuki/
-photo.11.tags: brothers, laying down, portrait, siblings, twins
+photo.11.link: ig://CCz7kX7Bcfk
+photo.11.tags: brothers, laying down, mofumofu, portrait, sample, siblings, twins
 photo.11.tags.97.location: 115, 170
 photo.11.tags.98.location: 260, 160
-photo.12: ig://CRh8OHShWNg/l
+photo.12: cwdc://XrBf9TFADQG.jpg
 photo.12.author: shigeko0531
 photo.12.commitdate: 2022/2/23
-photo.12.link: https://www.instagram.com/shigeko0531/
-photo.12.tags: brothers, laying down, siblings, twins
+photo.12.link: ig://CRh8OHShWNg
+photo.12.tags: brothers, laying down, portrait, siblings, twins
 photo.12.tags.97.location: 65, 300
 photo.12.tags.98.location: 450, 140
+photo.13: cwdc://V2TZYIWADQA.jpg
+photo.13.author: perie1027vivi
+photo.13.commitdate: 2026/5/28
+photo.13.link: ig://BXK47h7BLpt
+photo.13.tags: brothers, portrait, siblings, twins
+photo.14: cwdc://W5-Q0RUADQA.jpg
+photo.14.author: ssc6105
+photo.14.commitdate: 2026/5/28
+photo.14.link: ig://B5AUpmaBf4R
+photo.14.tags: bite, brothers, playing, siblings, tail, twins
+photo.15: cwdc://W5phABfADQA.jpg
+photo.15.author: kaoru_a358
+photo.15.commitdate: 2026/5/28
+photo.15.link: ig://B418vefh06a
+photo.15.tags: brothers, paws, playing, portrait, siblings, twins
+photo.16: cwdc://W5phABfADQB.jpg
+photo.16.author: kaoru_a358
+photo.16.commitdate: 2026/5/28
+photo.16.link: ig://B418vefh06b
+photo.16.tags: brothers, paws, playing, portrait, siblings, twins
+photo.17: cwdc://WLDzudXADQC.jpg
+photo.17.author: takashi_8310iyo
+photo.17.commitdate: 2026/5/28
+photo.17.link: ig://BhjGGsblWER
+photo.17.tags: bamboo, brothers, siblings, twins
+photo.18: cwdc://WdSV555ADQB.jpg
+photo.18.author: yakko____
+photo.18.commitdate: 2026/5/28
+photo.18.link: ig://BqqXMasng-1
+photo.18.tags: brothers, paws, portrait, siblings, twins, wave
+photo.19: cwdc://WtGLlBRADQC.jpg
+photo.19.author: roko_mm
+photo.19.commitdate: 2026/5/28
+photo.19.link: ig://BykSB-Yhiae
+photo.19.tags: brothers, laying down, siblings, twins
+photo.20: cwdc://Ww4X5kvADQB.jpg
+photo.20.author: hamiiiii831_
+photo.20.commitdate: 2026/5/28
+photo.20.link: ig://B0dYMQHh3qF
+photo.20.tags: brothers, dish, paws, sample, siblings, twins, whiskers
+photo.21: cwdc://Ww4X5kvADQC.jpg
+photo.21.author: hamiiiii831_
+photo.21.commitdate: 2026/5/28
+photo.21.link: ig://B0dYMQHh3qG
+photo.21.tags: brothers, dish, paws, siblings, twins
+photo.22: cwdc://XBdpuWnADQH.jpg
+photo.22.author: nakacchi_desu
+photo.22.commitdate: 2026/5/28
+photo.22.link: ig://B8wBGpDh3Qy
+photo.22.tags: brothers, portrait, siblings, tail, twins
+photo.23: cwdc://XNlep0WADQC.jpg
+photo.23.author: panda.daisuki
+photo.23.commitdate: 2026/5/28
+photo.23.link: ig://CCz7kX7Bcfl
+photo.23.tags: brothers, kissing, laying down, portrait, siblings, twins
+photo.24: cwdc://XNlep0WADQD.jpg
+photo.24.author: panda.daisuki
+photo.24.commitdate: 2026/5/28
+photo.24.link: ig://CCz7kX7Bcfm
+photo.24.tags: bite, brothers, laying down, mofumofu, portrait, siblings, twins
+photo.25: cwdc://YIU75vZADQF.jpg
+photo.25.author: shigeko0531
+photo.25.commitdate: 2026/5/28
+photo.25.link: ig://CgLqMVcufcq
+photo.25.tags: brothers, sample, siblings, twins
