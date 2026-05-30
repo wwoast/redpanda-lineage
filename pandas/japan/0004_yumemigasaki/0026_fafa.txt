@@ -85,11 +85,11 @@ photo.14.author: rie_panda55
 photo.14.commitdate: 2018/10/28
 photo.14.link: ig://BpePAitF-dQ
 photo.14.tags: bamboo, portrait, sample, whiskers
-photo.15: ig://BsIpDWnFkST/m
+photo.15: cwdc://WgO5nxuADQA.jpg
 photo.15.author: perie1027vivi
 photo.15.commitdate: 2019/1/3
-photo.15.link: https://www.instagram.com/perie1027vivi/
-photo.15.tags: climb, portrait, tree
+photo.15.link: ig://BsIpDWnFkST
+photo.15.tags: climb, portrait, sample, surprise, tree
 photo.16: cwdc://WjNZEHHADQA.jpg
 photo.16.author: na.mo.pan
 photo.16.commitdate: 2019/2/18
@@ -215,9 +215,6 @@ photo.40.author: miis_98
 photo.40.commitdate: 2022/12/7
 photo.40.link: ig://Clmjg_rBPjH
 photo.40.tags: mofumofu, paws, portrait, sample, tail, whiskers
-species: 2
-studbook.id: 10103
-zoo: 4
 photo.41: cwdc://VzsqhMiADQD.jpg
 photo.41.author: perie1027vivi
 photo.41.commitdate: 2026/5/29
@@ -358,3 +355,26 @@ photo.68.author: tamazoowalking
 photo.68.commitdate: 2026/5/29
 photo.68.link: ig://C183PlGPCly
 photo.68.tags: mofumofu, paws, sample, whiskers
+species: 2
+studbook.id: 10103
+zoo: 4
+photo.69: cwdc://WgO5nxuADQB.jpg
+photo.69.author: perie1027vivi
+photo.69.commitdate: 2026/5/29
+photo.69.link: ig://BsIpDWnFkSU
+photo.69.tags: bamboo, climb, paws, portrait, whiskers
+photo.70: cwdc://ZI190vsADQB.jpg
+photo.70.author: wumpwoast
+photo.70.commitdate: 2026/5/29
+photo.70.link: ig://DAcLJ1mSYn4
+photo.70.tags: dish, lunch time, mofumofu, paws, portrait, sample, tongue
+photo.71: cwdc://ZIwoYAjADQC.jpg
+photo.71.author: wumpwoast
+photo.71.commitdate: 2026/5/29
+photo.71.link: ig://DAZgbeBytWa
+photo.71.tags: bamboo, laying down, sample, sleeping
+photo.72: cwdc://ZJvYS0YADQA.jpg
+photo.72.author: wumpwoast
+photo.72.commitdate: 2026/5/29
+photo.72.link: ig://DA44Y38JmEn
+photo.72.tags: bamboo, bite, mofumofu, portrait
