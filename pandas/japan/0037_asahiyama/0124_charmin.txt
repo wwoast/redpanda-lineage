@@ -131,11 +131,11 @@ photo.23.author: sasapan34
 photo.23.commitdate: 2021/8/18
 photo.23.link: ig://CR93dFfhX5J
 photo.23.tags: sample, smile, tail
-photo.24: ig://CSspbtrhege/m
+photo.24: cwdc://XtW6Yf3ADQE.jpg
 photo.24.author: hamiiiii831_
 photo.24.commitdate: 2021/8/18
-photo.24.link: https://www.instagram.com/hamiiiii831_/
-photo.24.tags: paws, smile, standing, toys
+photo.24.link: ig://CSspbtrhege
+photo.24.tags: paws, sample, smile, standing, toys
 photo.25: cwdc://Xt2j3e1ADQC.jpg
 photo.25.author: asahiyamazoo1
 photo.25.commitdate: 2021/8/24
@@ -196,12 +196,6 @@ photo.36.author: sasapan34
 photo.36.commitdate: 2022/8/31
 photo.36.link: ig://ChjO3uouvce
 photo.36.tags: peek, sample
-species: 2
-studbook.id: 11108
-video.1: https://youtu.be/T0UIB96RKQI
-video.1.author: harry
-video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
-zoo: 37
 photo.37: cwdc://W1qz3w4ADQH.jpg
 photo.37.author: sasapan34
 photo.37.commitdate: 2026/6/3
@@ -312,3 +306,14 @@ photo.58.author: sasapan34
 photo.58.commitdate: 2026/6/3
 photo.58.link: ig://ChjO3uouvcf
 photo.58.tags: bridge, peek, sample
+species: 2
+studbook.id: 11108
+video.1: https://youtu.be/T0UIB96RKQI
+video.1.author: harry
+video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
+zoo: 37
+photo.59: cwdc://XtW6Yf3ADQF.jpg
+photo.59.author: hamiiiii831_
+photo.59.commitdate: 2026/6/3
+photo.59.link: ig://CSspbtrhegg
+photo.59.tags: sample, smile, toys
