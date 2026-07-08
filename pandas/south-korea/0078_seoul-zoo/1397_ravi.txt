@@ -60,10 +60,10 @@ photo.8.author: lovely_fluffys
 photo.8.commitdate: 2026/7/8
 photo.8.link: ig://C57o1krPJF0
 photo.8.tags: close-up, mofumofu, paws, sample, sleeping, whiskers
-species: 2
-zoo: 78
 photo.9: cwdc://Y705MN2ADQB.jpg
 photo.9.author: lovely_fluffys
 photo.9.commitdate: 2026/7/7
-photo.9.link: ig://C57o1krPJF4
+photo.9.link: ig://C57o1krPJF0?img_index=5
 photo.9.tags: close-up, mofumofu, paws, sample, whiskers, wink
+species: 2
+zoo: 78
