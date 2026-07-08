@@ -427,10 +427,15 @@ photo.82.author: motohin
 photo.82.commitdate: 2025/7/2
 photo.82.link: ig://B3zEv6MBhsr
 photo.82.tags: baby, bamboo, mofumofu, portrait, sample, tail
-photo.83: ig://DJIxI9Ryev2/m
+photo.83: cwdc://ZaPJy_DADQB.jpg
 photo.83.author: lovely_fluffys
 photo.83.commitdate: 2026/7/8
-photo.83.link: https://www.instagram.com/lovely_fluffys/
-photo.83.tags: bamboo, mofumofu, close-up
+photo.83.link: ig://DJIxI9Ryev2
+photo.83.tags: bamboo, close-up, mofumofu, sample, smile
 species: 2
 zoo: 78
+photo.84: cwdc://ZNnsujuADQA.jpg
+photo.84.author: lovely_fluffys
+photo.84.commitdate: 2026/7/7
+photo.84.link: ig://DC1CmvnSRYx
+photo.84.tags: home, sample, whiskers

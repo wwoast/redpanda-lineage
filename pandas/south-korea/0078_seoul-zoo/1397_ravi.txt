@@ -40,25 +40,30 @@ photo.4.author: thecalgaryzoo
 photo.4.commitdate: 2023/9/28
 photo.4.link: https://www.instagram.com/thecalgaryzoo/
 photo.4.tags: portrait, sample, snow, tree
-photo.5: ig://DFrsdniSTgx/m
+photo.5: cwdc://ZTVAcTkADQE.jpg
 photo.5.author: lovely_fluffys
 photo.5.commitdate: 2026/7/8
-photo.5.link: https://www.instagram.com/lovely_fluffys/
-photo.5.tags: mofumofu, whiskers, snow
-photo.6: ig://DFrrt-lS4kV/m
+photo.5.link: ig://DFrsdniSTgx
+photo.5.tags: mofumofu, peek, snow, tail, whiskers
+photo.6: cwdc://ZTU-9BqADQD.jpg
 photo.6.author: lovely_fluffys
 photo.6.commitdate: 2026/7/8
-photo.6.link: https://www.instagram.com/lovely_fluffys/
-photo.6.tags: mofumofu, whiskers, snow, close-up, portrait
-photo.7: ig://C-kF4GgS7kS/m
+photo.6.link: ig://DFrrt-lS4kV
+photo.6.tags: close-up, mofumofu, paws, portrait, sample, snow, whiskers
+photo.7: cwdc://ZFFzRRgADQC.jpg
 photo.7.author: lovely_fluffys
 photo.7.commitdate: 2026/7/8
-photo.7.link: https://www.instagram.com/lovely_fluffys/
-photo.7.tags: mofumofu, close-up, tree, portrait
-photo.8: ig://C57o1krPJF0/m
+photo.7.link: ig://C-kF4GgS7kS
+photo.7.tags: close-up, mofumofu, portrait, tree
+photo.8: cwdc://Y705MN2ADQA.jpg
 photo.8.author: lovely_fluffys
 photo.8.commitdate: 2026/7/8
-photo.8.link: https://www.instagram.com/lovely_fluffys/
-photo.8.tags: mofumofu, close-up, sleeping, whiskers
+photo.8.link: ig://C57o1krPJF0
+photo.8.tags: close-up, mofumofu, paws, sample, sleeping, whiskers
 species: 2
 zoo: 78
+photo.9: cwdc://Y705MN2ADQB.jpg
+photo.9.author: lovely_fluffys
+photo.9.commitdate: 2026/7/7
+photo.9.link: ig://C57o1krPJF4
+photo.9.tags: close-up, mofumofu, paws, sample, whiskers, wink
