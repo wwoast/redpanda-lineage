@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Emoji:wght@400;500;700&display=swap');
+
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
 }
@@ -8,7 +10,7 @@ body {
     overflow-x: hidden;
     line-height: 1.4;
     font-size: 14pt;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     background: #366938;
 }
 
@@ -24,7 +26,7 @@ div.topMenu, div.bottomMenu {
     margin-right: auto;
     color: white;
     background-color: #366938;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     width: 100%;
     vertical-align: middle;
     border-bottom: 2px solid yellowgreen;
@@ -44,7 +46,7 @@ div.languageMenu {
     margin-right: auto;
     color: white;
     background-color: #366938;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     width: 100%;
     vertical-align: middle;
     border-bottom: 2px dotted yellowgreen;
@@ -125,7 +127,7 @@ button.logo {
     color: white;
     line-height: 1.4;
     font-size: 14pt;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     background-color: #366938;
     height: 64px;
     float: left;
@@ -141,7 +143,7 @@ button.menu {
     color: white;
     line-height: 1.4;
     font-size: 14pt;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     background-color: #366938;
     height: 64px;
     width: 142px;  /* Fixed width keeps them looking consistent across languages */
@@ -154,7 +156,7 @@ button.menu.flag {
     color: white;
     line-height: 1.4;
     font-size: 14pt;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     background-color: #366938;
     height: 64px;
     width: 64px;
@@ -263,7 +265,7 @@ button.sectionButton {
     border: 1px solid #002200;
     line-height: 1.4;
     font-size: 12pt;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     background-color: yellowgreen;
     height: 5ex;   /* One lines of 12pt text */
     color: black;
@@ -307,7 +309,7 @@ div.topSearch, div.bottomSearch {
     vertical-align: middle;
     height: 64px;
     background-color: white;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -439,7 +441,7 @@ div.qrcodeFrame {
 
 span.qrcodeText {
     color: black;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
     font-size: 10pt;
     font-weight: bold;
     line-height: 1.5;
@@ -646,7 +648,7 @@ div.pandaName, div.zooName, div.gender {
 
 div.pandaName.profile {
     font-size: 34pt;
-    font-family: "Jun 201", sans-serif;
+    font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
 }
 
 div.gender {
@@ -1886,4 +1888,1074 @@ body.profile .floatingTopBtn:hover {
         margin-right: 16px;
 
     }
+}
+
+/* ================================================================
+   v5 UI RESTYLE — appended override block (visual only, no DOM/JS
+   changes). Everything above is the original structural base.
+   Source of truth: design/panda-v5.css
+   ================================================================ */
+/* ============================================================
+   Red Panda Finder — panda-v5.css  (rev 2)
+   In-place UI restyle of the EXISTING landing DOM.
+   Same elements, same ids/classes, zero functional change.
+   rev 2: v4 color energy — visible blobs, lime primary action,
+   grape/apple accents, white-framed hero photo, tagline stamp.
+   ============================================================ */
+/* Everything below OVERRIDES the base sheet. When porting, this whole
+   block appends to css/panda.css (or ships as a second stylesheet). */
+
+:root{
+  --green-deep:#0E2E22; --green:#134C39; --green-800:#103F30;
+  --lime:#C6F24E; --lime-2:#B4E63A; --lime-soft:#E7F7AE;
+  --grape:#8E57C6; --grape-soft:#EBDDFA; --grape-deep:#6E3FA6;
+  --apple:#E45140; --apple-soft:#FBD8D0;
+  --cream:#F6F1E3; --white:#FFFFFF;
+  --dim-dark:#9FBAA8; --ink-green:#123A2C;
+  --ease:cubic-bezier(.34,1.4,.5,1);
+}
+
+html { -webkit-text-size-adjust: 100%; height: 100%; }
+
+body {
+  margin: 0; padding: 0;
+  overflow-x: hidden;
+  min-height: 100%;
+  line-height: 1.4;
+  font-size: 14pt;
+  font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", system-ui, sans-serif;
+  background-color: var(--green-deep);
+  /* v4 blobs — big, bright, unmistakable */
+  background-image:
+    radial-gradient(circle 420px at 92% -80px,  #1E7A58 0%, transparent 68%),
+    radial-gradient(circle 360px at -100px 88%, rgba(198,242,78,.34) 0%, transparent 68%),
+    radial-gradient(circle 330px at 100% 44%,   rgba(142,87,198,.5)  0%, transparent 68%),
+    radial-gradient(circle 280px at 22% 58%,    rgba(228,81,64,.34)  0%, transparent 68%),
+    radial-gradient(circle 240px at 55% 8%,     rgba(87,183,194,.28) 0%, transparent 68%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* ---------- sticky header zone ---------- */
+div#pageTop { position: sticky; top: 0px; z-index: 99999; }
+
+/* ---------- top menu: floating pill bar ---------- */
+div.topMenu, div.bottomMenu {
+  display: block;
+  text-align: center;
+  max-height: none;
+  margin: 12px auto 0;
+  padding: 0 14px;
+  color: white;
+  background: transparent;
+  border-bottom: 0;
+  width: auto;
+  max-width: 900px;
+}
+
+div.topMenu > div.shrinker, div.bottomMenu > div.shrinker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  max-width: 868px;
+  margin: 0 auto;
+  padding: 7px;
+  background: rgba(16,63,48,.78);
+  border: 1px solid rgba(198,242,78,.35);   /* lime edge, not gray */
+  border-radius: 999px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 14px 30px rgba(0,0,0,.28);
+}
+
+button.logo {
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 2px solid var(--lime);
+  color: white;
+  line-height: 1;
+  font-size: 15pt;
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  background: var(--green-800);
+  height: 46px; width: 56px;
+  border-radius: 999px;
+  float: none;
+  margin-right: 2px;
+  cursor: pointer;
+  transform: rotate(-3deg);
+  transition: transform .18s var(--ease);
+}
+button.logo:hover { transform: rotate(3deg) scale(1.06); background: var(--green); }
+
+button.menu, button.menu.flag {
+  display: inline-flex; align-items: center; justify-content: center;
+  border: none;
+  color: #EAF4EC;
+  line-height: 1;
+  font-size: 12.5pt;
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-weight: 600;
+  letter-spacing: .2px;
+  background: rgba(255,255,255,.07);
+  height: 46px;
+  width: auto;
+  padding: 0 16px;
+  border-radius: 999px;
+  transition: transform .18s var(--ease), background .15s, color .15s;
+  cursor: pointer;
+}
+/* language picker entries: icons.js swaps the flag emoji for the
+   language's native name (English / 日本語 …) — style as text pills */
+button.menu.flag { width: auto; min-width: 52px; padding: 0 18px; background: rgba(255,255,255,.07); }
+span.langName { font-weight: 700; letter-spacing: .3px; }
+
+/* each action gets its own v4 accent */
+button#randomButton {
+  background: var(--lime);
+  color: var(--green-deep);
+  transform: rotate(-1.5deg);          /* the playful primary, like v4's badge */
+}
+button#randomButton:hover { background: var(--lime-2); transform: rotate(1deg) scale(1.04); }
+button#aboutButton:hover   { background: var(--grape); color: #fff; }
+button#linksButton:hover   { background: var(--apple); color: #fff; }
+button#refreshButton:hover, button#languageButton:hover { background: var(--lime); color: var(--green-deep); }
+button.menu:hover, button.menu.flag:hover { animation: none; }
+button.menu:active, button.menu.flag:active, button.logo:active {
+  animation: none;
+  transform: scale(.95);
+}
+
+button.menu.disabled { background: transparent; color: #5e7a6b; }
+button.menu.hidden { display: none; }
+
+div.buttonContent { display: inline-flex; align-items: center; gap: 7px; border: none; margin: 0;
+  user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; }
+div.buttonIcon { display: block; font-size: 15pt; padding: 0; text-align: center;
+  user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; }
+div.buttonText { display: block; text-align: left;
+  user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; }
+div.buttonText.condensed { letter-spacing: -1px; font-size: 12pt; }
+button.menu.flag > div.buttonContent > div.buttonIcon { padding: 0; }
+
+/* ---------- language menu ---------- */
+div.languageMenu {
+  display: none;               /* unchanged: JS toggles it */
+  text-align: center;
+  margin: 8px auto 0;
+  padding: 0 14px;
+  background: transparent;
+  border-bottom: 0;
+  width: auto;
+  max-width: 900px;
+}
+div.languageMenu > div.shrinker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px;
+  background: rgba(16,63,48,.85);
+  border: 2px dotted var(--lime);
+  border-radius: 999px;
+  backdrop-filter: blur(12px);
+}
+
+/* ---------- search: floating white pill + lime submit ---------- */
+div.topSearch, div.bottomSearch {
+  display: block;
+  height: auto;
+  background: transparent;
+  width: auto;
+  margin: 16px auto 0;
+  padding: 0 14px;
+  max-width: 900px;
+}
+div.bottomSearch { display: none; }
+
+div.topSearch > div.shrinker {
+  max-width: 868px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 999px;
+  padding: 6px;
+  box-shadow: 0 18px 38px rgba(0,0,0,.3);
+}
+div.topSearch form {
+  display: flex;
+  align-items: center;
+  margin: 0; padding: 0;
+}
+
+input.search {
+  font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
+  font-weight: 700;
+  border-radius: 999px;
+  -webkit-appearance: none;
+  font-size: 21px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0 8px 0 22px;
+  height: 52px;
+  color: var(--ink-green);
+  background: transparent;
+}
+input.search::placeholder { color: #9aab9d; font-weight: 700; }
+input.search[disabled] { background: transparent; color: transparent; }
+input.search[disabled]::placeholder { background: transparent; color: #c9d4c6; }
+
+/* the submit input becomes the visible lime search button */
+input#searchSubmit {
+  display: block;
+  order: 2;                    /* sits at the right end of the pill */
+  flex: none;
+  width: 52px; height: 52px;
+  border: 0;
+  border-radius: 999px;
+  font-size: 0;                /* hide the browser's "Submit" text */
+  color: transparent;
+  cursor: pointer;
+  background-color: var(--lime);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='11' cy='11' r='6.5' fill='none' stroke='%230E2E22' stroke-width='2.6'/><path d='M16 16l4.5 4.5' stroke='%230E2E22' stroke-width='2.6' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  transition: transform .18s var(--ease), background-color .15s;
+}
+input#searchSubmit:hover  { background-color: var(--lime-2); transform: scale(1.05); }
+input#searchSubmit:active { transform: scale(.94); }
+
+/* ---------- landing photo: white-framed hero card, full color ---------- */
+/* NOTE: the source photo is BLACK & WHITE — the old sheet tinted it with
+   opacity .4 over a gradient. Keep the tint idea, push it to v4 colors:
+   green→lime duotone instead of a washed-out gray. */
+img.fullFrame {
+  display: block;
+  width: calc(100% - 44px);
+  max-width: 1060px;
+  height: min(52vh, 540px);
+  margin: 24px auto 0;
+  object-fit: cover;
+  opacity: 1;
+  background: var(--green-800);
+  /* B/W source → rich green duotone */
+  filter: sepia(1) hue-rotate(58deg) saturate(1.35) brightness(.8) contrast(1.1);
+  border: 10px solid var(--white);          /* v4 white card frame */
+  border-radius: 30px;
+  box-shadow: 0 24px 48px rgba(0,0,0,.4);
+  transform: rotate(-.6deg);                /* a hint of the v4 sticker tilt */
+}
+
+/* ---------- tagline: the hidden site slug becomes a stamp on the photo ----------
+   Real content that was always in the page ("Learn about red pandas at your
+   local zoo!") — shown only while the landing photo is on screen. */
+body:has(img.fullFrame) div.hiddenSlug {
+  display: block;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin: -30px auto 0;
+  padding: 0 14px;
+}
+body:has(img.fullFrame) div.hiddenSlug p {
+  display: inline-block;
+  margin: 0;
+  background: var(--apple);
+  color: #fff;
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-weight: 600;
+  font-size: 16.5pt;
+  padding: 12px 26px;
+  border-radius: 999px;
+  transform: rotate(1.8deg);
+  box-shadow: 0 14px 28px rgba(0,0,0,.35);
+}
+div.hiddenSlug { display: none; }           /* everywhere else: hidden as before */
+div.vitamins { display: none; }
+
+/* ============================================================
+   RESULTS VIEW — same DOM (pandaResult / pandaDossier / family),
+   v4 card language instead of the table-strip look.
+   ============================================================ */
+
+/* contentFrame becomes a transparent column; blobs show through */
+div#contentFrame {
+  padding: 1.5ex 14px 4ex;
+  margin: 0 auto;
+  max-width: 900px;
+  z-index: 1;
+  background: transparent;
+}
+div#hiddenContentFrame { display: none; z-index: -1; background: transparent; }
+
+/* result card: green table w/ khaki cells → white rounded card */
+div.pandaResult, div.zooResult {
+  display: flex;
+  align-items: stretch;
+  clear: both;
+  margin: 18px auto;
+  max-width: 868px;
+  border: 0;
+  background-color: var(--white);
+  color: var(--ink-green);
+  text-align: left;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,.32);
+}
+
+/* photo cell: black slab → soft green frame area */
+div.pandaPhoto, div.zooPhoto {
+  display: block;
+  flex: none;
+  align-self: stretch;
+  background-color: var(--green-800);
+  position: relative;
+  user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;
+}
+div.pandaPhoto img, div.zooPhoto img {
+  width: 320px;
+  height: 100%;
+  min-height: 280px;
+  max-width: 320px;
+  max-height: none;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* photo counter: hard black box → rounded pill */
+span.navigator {
+  position: absolute;
+  top: 10px; left: 10px;
+  height: auto;
+  z-index: 2;
+  background-color: rgba(0,0,0,.55);
+  color: white;
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-size: 13pt;
+  border: 0;
+  border-radius: 999px;
+  text-align: center;
+  padding: 3px 14px;
+  width: auto;
+  backdrop-filter: blur(6px);
+}
+span.navigator.threeDigits, span.navigator.fourDigits {
+  font-size: 12pt; line-height: 1.5; padding: 3px 12px; letter-spacing: 0;
+}
+
+/* dossier cell */
+div.pandaDossier, div.zooDossier {
+  display: block;
+  flex: 1;
+  vertical-align: top;
+  background-color: var(--white);   /* pink lady → white */
+  border-left: 0;
+  min-width: 0;
+}
+
+/* title: yellowgreen strip → roomy Fredoka header */
+div.pandaTitle, div.zooTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  min-width: 0;
+  min-height: 0;
+  background-color: transparent;
+  padding: 16px 20px 4px;
+}
+div.pandaTitle:hover { animation: none; background-color: transparent; }
+div.pandaTitle:hover div.pandaName { color: var(--grape-deep); }
+div.pandaName, div.zooName {
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-size: 20pt;
+  color: var(--ink-green);
+  transition: color .15s;
+}
+p.furigana { display: inline; font-size: 60%; margin-left: 1ex; color: #7C8A78; }
+
+/* details: solid grape stripe → soft grape chip row */
+div.pandaDetails, div.zooDetails {
+  display: block;
+  min-width: 0;
+  background-color: transparent;
+  padding: 6px 14px 4px;
+}
+div.pandaDetails p, div.zooDetails p {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 14px;
+  background: var(--grape-soft);
+  color: var(--grape-deep);
+  font-weight: 700;
+  font-size: 12pt;
+  border-radius: 999px;
+}
+div.pandaDetails p a, div.zooDetails p a { color: var(--grape-deep) !important; }
+
+/* family: pink block → cream card with mini headings */
+div.family {
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: var(--cream);
+  border-radius: 18px;
+  margin: 10px 18px 18px;
+  padding: 6px 8px 10px;
+}
+div.parents, div.litter, div.siblings, div.children, div.names {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  flex-grow: 0.1;
+  min-width: 0;
+}
+/* Layout.js sometimes picks a "vertical" column layout whose fixed 30%
+   column widths overflow the new card (4 cols = 120%). Force row+wrap
+   with natural widths — the pill lists handle wrapping fine. */
+div.family.vertical, div.family.vertical.onlyDesktop { flex-direction: row; }
+div.family.vertical.onlyDesktop > div,
+div.family.vertical.onlyDesktop > div.double,
+div.family.vertical.onlyDesktop > div.triple { width: auto; }
+h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
+  font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
+  font-size: 10.5pt;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #7C8A78;
+  margin: 10px 0 4px;
+}
+ul.pandaList li > a, ul.linkList li > a, ul.tagList li > a {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-bottom: 2px;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: background .15s;
+}
+ul.pandaList li > a:hover { background: var(--lime-soft); }
+ul.pandaList li a.passedAway { color: #6e695f; }
+
+/* links inside cards stay ink, not harsh black */
+div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a,
+div.profileDossier a, div.zooHistory a {
+  text-decoration: none !important;
+  color: var(--ink-green);
+}
+
+/* empty result: keep the joke image, frame it like everything else */
+div.emptyResult {
+  display: block;
+  position: relative;
+  clear: both;
+  height: auto;
+  max-height: none;
+  margin: 18px auto;
+  max-width: 640px;
+  text-align: center;
+  border: 0;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,.32);
+}
+div.emptyResult img { height: auto; width: 100%; max-height: 520px; object-fit: cover; }
+div.emptyResult div.overlay {
+  position: absolute;
+  font-size: 20pt;
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  color: white;
+  top: auto; bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,.5);
+  padding: 8px 22px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+
+/* results on phones: photo on top, dossier below */
+@media (max-width: 700px) {
+  div.pandaResult, div.zooResult { flex-direction: column; margin: 14px auto; }
+  div.pandaPhoto img, div.zooPhoto img {
+    width: 100%; max-width: none; height: 260px; min-height: 0;
+  }
+}
+
+/* ============================================================
+   PROFILE VIEW — v4 "PART 2": red-brown theme → cream + white
+   cards + grape accents. Compound .profile selectors need
+   explicit overrides (they out-rank the generic rules).
+   ============================================================ */
+body.profile {
+  background-color: var(--cream);
+  background-image:
+    radial-gradient(circle 320px at -70px -70px,  rgba(198,242,78,.4)  0%, transparent 68%),
+    radial-gradient(circle 280px at 105% 30%,     rgba(142,87,198,.22) 0%, transparent 68%),
+    radial-gradient(circle 260px at -60px 75%,    rgba(228,81,64,.16)  0%, transparent 68%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: var(--ink-green);
+}
+
+/* menus keep the same dark pill bar on cream */
+div.topMenu.profile, div.bottomMenu.profile, div.languageMenu.profile {
+  background: transparent;
+  border-bottom: 0;
+}
+button.menu.profile, button.menu.flag.profile { background: rgba(255,255,255,.07); color: #EAF4EC; }
+button.logo.profile { background: var(--green-800); }
+button.menu.profile:hover, button.menu.flag.profile:hover, button.logo.profile:hover {
+  animation: none;
+  background: var(--lime);
+  color: var(--green-deep);
+}
+
+/* goldenrod radial → let the cream body show */
+div#contentFrame.profile { background: transparent; }
+
+/* pink name strip → white hero card */
+div.profile.nameBar {
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-size: 30pt;
+  width: auto;
+  max-width: 868px;
+  margin: 14px auto 0;
+  padding: 10px 18px;
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: 0 14px 32px rgba(18,58,44,.12);
+}
+
+/* khaki table frames → white cards */
+div.profileFrame {
+  display: block;
+  margin: 14px auto;
+  max-width: 868px;
+  border: 0;
+  background-color: var(--white);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 14px 32px rgba(18,58,44,.1);
+}
+div.profileFrame.zoos { background-color: transparent; border: 0; box-shadow: none; }
+div.profileDossier {
+  display: block;
+  width: auto;
+  background-color: var(--white);
+  border-left: 0;
+  padding: 4px 12px 10px;
+}
+
+/* profile dossier card: 320px photo cell on the left, info fills the right
+   (same grid as the results cards; small photos no longer blow up full-width) */
+div.profileFrame:has(> div.pandaPhoto) {
+  display: flex;
+  align-items: stretch;
+}
+div.profileFrame div.profileDossier {
+  flex: 1;
+  min-width: 0;
+}
+@media (max-width: 700px) {
+  div.profileFrame:has(> div.pandaPhoto) { flex-direction: column; }
+}
+
+/* section menu: yellowgreen blocks → pills, plum selected → grape */
+div.sectionMenu { margin: 12px auto 4px; text-align: center; }
+button.sectionButton {
+  display: inline-block;
+  border: 0;
+  line-height: 1.3;
+  font-size: 12pt;
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-weight: 600;
+  background-color: var(--white);
+  color: var(--ink-green);
+  height: auto;
+  padding: 10px 18px;
+  margin: 3px 2px;
+  border-radius: 999px;
+  box-shadow: 0 6px 14px rgba(18,58,44,.12);
+  cursor: pointer;
+  transition: transform .18s var(--ease), background .15s, color .15s;
+}
+button.sectionButton:hover { animation: none; background-color: var(--lime); color: var(--green-deep); }
+button.sectionButton:active { animation: none; transform: scale(.95); }
+button.sectionButton.selected { background-color: var(--grape); color: #fff; }
+
+/* detail strips: grays → soft cards */
+div.detailsNameTitle { background-color: var(--cream); border-radius: 10px 10px 0 0; font-weight: 800; }
+div.detailsName { background-color: var(--white); border: 0; }
+div.detailsLocation { background-color: var(--cream-2, #FBF7EC); margin-bottom: 1ex; border-radius: 0 0 10px 10px; }
+div.detailsVideo { background-color: var(--green-800); border: 0; border-radius: 14px; overflow: hidden; }
+
+/* profile back-to-top: brown → grape */
+body.profile .floatingTopBtn { background: var(--grape); color: #fff; }
+body.profile .floatingTopBtn:hover { background: var(--grape-deep); }
+
+/* ============================================================
+   ABOUT / LINKS / SUMMARIES / GALLERY CARDS
+   ============================================================ */
+div#contentFrame.about, div#contentFrame.links { background: transparent; }
+
+/* summary chips: bordered grape/salmon blocks → v4 soft pills */
+div.arrivalsHeader p, div.birthdaySummary p, div.creditSummary p,
+div.departuresHeader p, div.frontPageSummary p, div.memorialSummary p,
+div.profileSummary p, div.residentsHeader p, div.tagSummary p {
+  display: inline-block;
+  background-color: var(--grape-soft);
+  background-image: none;
+  color: var(--grape-deep);
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 18px;
+  margin: 1ex 0.5ex;
+  font-weight: 700;
+}
+div.arrivalsHeader p, div.departuresHeader p, div.residentsHeader p {
+  background-color: var(--apple-soft);
+  color: #C43A2C;
+  min-width: 0;
+}
+p.summaryEmphasis > a { color: inherit; text-decoration: none !important; }
+div.birthdaySummary p.summaryEmphasis {
+  background-image: none; background-color: var(--grape); color: #fff;
+}
+div.frontPageSummary p.summaryEmphasis {
+  background-image: none;
+  background-color: var(--lime);
+  color: var(--green-deep);
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-size: 17pt;
+  border-radius: 999px;
+  padding: 10px 24px;
+}
+div.frontPageSummary a:hover > p.summaryEmphasis {
+  animation: none;
+  background: var(--lime-2);
+}
+div.birthdaySummary a:hover > p, div.memorialSummary a:hover > p, div.tagSummary a:hover > p {
+  animation: none;
+  background-color: var(--grape);
+  color: #fff;
+}
+
+/* gallery cards (front-page updates, tag pages, memorials) */
+div.photoSample {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+}
+div.photoSample > img, div.photoSample > a > img {
+  border: 0;
+  border-radius: 14px;
+  width: 100%;
+  aspect-ratio: 1 / 1;          /* uniform card heights → captions line up */
+  object-fit: cover;
+  box-shadow: 0 10px 22px rgba(0,0,0,.3);
+}
+div.photoSample > a { width: 100%; display: block; }
+/* the old sheet forces width:100% on these caption variants with higher
+   specificity — pin them all back to a consistent pill width */
+div.photoSample h5.caption.groupMediaAuthor,
+div.photoSample h5.caption.groupMediaName,
+div.photoSample h5.caption.updateName,
+div.photoSample h5.caption.updateAuthor,
+div.photoSample h5.caption.updateAuthorCredit,
+div.photoSample h5.caption.updateTagName,
+div.photoSample h5.caption.birthdayMessage,
+div.photoSample h5.caption.halloweenMessage,
+div.photoSample h5.caption.memorialMessage,
+div.photoSample h5.caption.authorCredit {
+  width: 92%;
+  overflow-x: hidden;
+}
+div.photoSample h5 { margin-top: 5px; margin-bottom: 0; }
+div.photoSample h5 + h5, div.photoSample a + h5 { margin-top: 3px; }
+div.photoSample h5 {
+  border: 0;
+  border-radius: 999px;
+  font-family: "M PLUS Rounded 1c", "Jun 201", "Noto Emoji", sans-serif;
+  font-weight: 800;
+  width: 92%;
+  padding: 2px 6px;
+}
+div.photoSample h5.caption.familyName, div.photoSample h5.caption.groupMediaName,
+div.photoSample h5.caption.updateName, div.photoSample h5.caption.pandaName,
+div.photoSample h5.caption.zooName, div.photoSample h5.caption.updateTagName {
+  background-color: var(--lime-soft);
+  color: var(--green);
+}
+div.photoSample h5.caption.familyTitle, div.photoSample h5.caption.groupMediaAuthor,
+div.photoSample h5.caption.updateAuthor, div.photoSample h5.caption.updateAuthorCredit,
+div.photoSample h5.caption.authorCredit {
+  background-color: rgba(255,255,255,.9);
+  color: var(--ink-green);
+  border-top: 0;
+  /* the base sheet pins margin-top:0 on these author pills with 0-3-2
+     specificity, which glued them to the name pill above — match the
+     specificity here (later in cascade wins) to restore the gap */
+  margin-top: 6px;
+}
+div.photoSample h5.caption.newContributor { background-color: var(--grape-soft); color: var(--grape-deep); }
+div.photoSample a:hover > h5.caption.familyName,
+div.photoSample a:hover > h5.caption.groupMediaName,
+div.photoSample a:hover > h5.caption.memorialMessage,
+div.photoSample a:hover > h5.caption.pandaName,
+div.photoSample a:hover > h5.caption.updateName,
+div.photoSample a:hover > h5.caption.updateTagName,
+div.photoSample a:hover > h5.caption.zooName {
+  animation: none;
+  background-color: var(--lime);
+}
+div.photoSample a:hover > h5.caption.groupMediaAuthor,
+div.photoSample a:hover > h5.caption.updateAuthor {
+  animation: none;
+  background-color: var(--white);
+}
+
+/* ------------------------------------------------------------
+   v4-style wave section divider (landing page)
+   The last child of div#contentFrame.birthdayPandas is always the
+   "new photos this week" gallery (banner + photoSample cards) —
+   see Page.home.render + Gallery.updatedNewPhotoCredits. Turn it
+   into a full-bleed cream band with the prototype-v4 wave edges.
+   birthdayPandas is only ever set on the landing frame, so this
+   cannot leak into results/profile views. CSS-only, zero DOM/JS.
+   ------------------------------------------------------------ */
+div#contentFrame.birthdayPandas > div:last-child {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100vw;                        /* break out of the 900px column */
+  margin-left: calc(50% - 50vw);       /* body has overflow-x:hidden */
+  margin-top: 88px;                    /* breathing room for the top wave */
+  margin-bottom: 76px;                 /* …and the bottom wave */
+  /* keep inner content aligned to the same 900px column */
+  padding: 6px max(14px, calc(50vw - 436px)) 30px;
+  background: var(--cream);
+}
+div#contentFrame.birthdayPandas > div:last-child::before,
+div#contentFrame.birthdayPandas > div:last-child::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  pointer-events: none;
+  /* same curve as prototype-v4-mobile.html's .wave svg */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0 40 C 240 80 480 0 720 30 C 960 60 1200 10 1440 34 L1440 70 L0 70 Z" fill="%23F6F1E3"/></svg>') center / 100% 100% no-repeat;
+}
+div#contentFrame.birthdayPandas > div:last-child::before { top: -63px; }
+div#contentFrame.birthdayPandas > div:last-child::after { bottom: -63px; transform: scaleY(-1); }
+/* on the cream band, soften the dark-background card shadows */
+div#contentFrame.birthdayPandas > div:last-child div.photoSample > img,
+div#contentFrame.birthdayPandas > div:last-child div.photoSample > a > img {
+  box-shadow: 0 10px 22px rgba(18,58,44,.16);
+}
+div#contentFrame.birthdayPandas > div:last-child div.photoSample h5.caption.updateAuthor,
+div#contentFrame.birthdayPandas > div:last-child div.photoSample h5.caption.updateAuthorCredit {
+  background-color: var(--white);
+  box-shadow: 0 3px 8px rgba(18,58,44,.10);
+}
+
+/* zoo count blocks: pink/bordered → soft cards */
+ul.zooCounts { background-color: var(--cream); border-radius: 14px; }
+ul.zooList { border: 0; background-color: var(--white); border-radius: 14px; box-shadow: 0 8px 18px rgba(18,58,44,.08); }
+
+/* qr code frame */
+div.qrcodeFrame button { background-color: var(--white); border: 4px solid var(--lime); border-radius: 20px; }
+div.qrcodeFrame button:hover { border-color: var(--lime-2); }
+
+/* bottom menu (Options / paging): hug its buttons, don't span the page */
+div.bottomMenu > div.shrinker {
+  width: fit-content;
+  min-width: 0;
+  margin: 0 auto 14px;
+  padding: 7px 10px;
+}
+/* no visible buttons → no empty pill (old sheet used a max-height hack) */
+div.bottomMenu:not(:has(button:not(.hidden))) { display: none; }
+
+/* footer: solid green/brown strip → quiet transparent line */
+div.footer, div.footer.profile {
+  display: block;
+  width: auto;
+  text-align: center;
+  font-size: 10pt;
+  background-color: transparent;
+  color: var(--dim-dark);
+  padding: 14px 0 20px;
+}
+div.footer.profile { color: #7C8A78; }
+div.footer a { color: inherit; font-weight: 700; }
+div.footer p { padding: 0.5ex 14px; }
+
+/* ---------- back-to-top ---------- */
+.floatingTopBtn {
+  position: fixed;
+  right: 18px; bottom: 18px;
+  width: 52px; height: 52px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--lime);
+  color: var(--green-deep);
+  display: grid; place-items: center;
+  box-shadow: 0 12px 26px rgba(0,0,0,.35);
+  cursor: pointer;
+  transition: transform .18s var(--ease);
+  z-index: 999;
+}
+.floatingTopBtn:hover { transform: translateY(-2px) scale(1.05); background: var(--lime-2); }
+.floatingTopBtn:active { transform: scale(.94); }
+
+/* ---------- mobile ---------- */
+@media (max-width: 640px) {
+  div.topMenu > div.shrinker { gap: 2px; }
+  button.menu { padding: 0 11px; font-size: 12pt; }
+  div.buttonText { display: none; }        /* icon-only pills on phones */
+  button.logo { width: 46px; }
+  div.buttonIcon { font-size: 16pt; }
+  input.search { font-size: 17px; height: 46px; padding-left: 16px; }
+  input#searchSubmit { width: 46px; height: 46px; background-size: 21px; }
+  img.fullFrame { width: calc(100% - 28px); height: 48vh; border-radius: 22px; border-width: 7px; margin-top: 16px; }
+  body:has(img.fullFrame) div.hiddenSlug p { font-size: 13pt; padding: 10px 18px; }
+  body:has(img.fullFrame) div.hiddenSlug { margin-top: -24px; }
+}
+
+/* ---- Lucide inline icons (js/icons.js) ------------------------
+   span.lx wraps each replaced emoji; svg inherits currentColor.  */
+span.lx {
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  vertical-align: -0.15em;
+}
+span.lx svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+div.buttonIcon span.lx {          /* nav buttons: bigger, centered */
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+}
+span.lx.lxe {                     /* native color emoji (🌈 deceased marker) */
+  width: auto;
+  height: 1em;                    /* don't inflate the row line box */
+  line-height: 1;
+  margin: 0 0.12em;
+  vertical-align: -0.1em;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+}
+/* dossier info chips: solid icons so they read as icons, not glyphs */
+div.pandaDossier span.lx svg,
+div.zooDossier span.lx svg,
+div.profileDossier span.lx svg { fill: currentColor; }
+div.family span.lx svg { fill: none; }
+
+/* ================================================================
+   ENTITY PAGES: native color emoji  (2026-07 revert)
+   Panda/zoo result cards and profile pages go back to the original
+   color emoji (location 🏡/🗺️, family 👩🏻/👨🏻, birthday 🐣, etc.).
+   The monochrome "Noto Emoji" font stays for the site chrome only,
+   so it is simply dropped from the stack inside entity containers —
+   emoji then fall back to the system color emoji font.
+   ================================================================ */
+div.pandaResult, div.pandaResult *,
+div.zooResult, div.zooResult *,
+div.profileFrame, div.profileFrame *,
+div.mediaFrame, div.mediaFrame *,
+div.profilePhotos, div.profilePhotos *,
+div.zooHistory, div.zooHistory * {
+  font-family: "M PLUS Rounded 1c", "Jun 201", system-ui, sans-serif;
+}
+/* restate the display-font elements the wildcard above clobbered
+   (same look as before, just without the mono emoji font) */
+span.navigator,
+div.pandaName, div.zooName,
+div.emptyResult div.overlay,
+button.sectionButton {
+  font-family: "Baloo 2", "Jun 201", sans-serif;
+}
+/* caption pills: "div.photoSample h5" outranks the wildcard above,
+   so drop the mono emoji font at matching specificity here */
+div.profilePhotos div.photoSample h5,
+div.profileFrame div.photoSample h5,
+div.mediaFrame div.photoSample h5 {
+  font-family: "M PLUS Rounded 1c", "Jun 201", sans-serif;
+}
+
+/* ================================================================
+   GENDER BADGES: make sex readable at a glance.
+   The bare ♂/♀ glyph images are hard to tell apart, so each one
+   becomes a white symbol on a color-coded pill:
+   male = blue, female = pink, unknown = gray.
+   ================================================================ */
+/* Filtering the <img> would also invert its background, so the pill
+   color lives on the parent div.gender via :has(). Browsers without
+   :has() keep the plain black glyphs (no white-on-white risk). */
+@supports selector(div:has(img)) {
+  div.gender {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 2.5pt 4.5pt;
+  }
+  div.gender img { filter: brightness(0) invert(1); }  /* glyph → white */
+  div.gender:has(img[src="images/male.svg"])    { background: #2F6DC9; }
+  div.gender:has(img[src="images/female.svg"])  { background: #D6448C; }
+  div.gender:has(img[src="images/unknown.svg"]) { background: #8A9A8F; }
+  div.gender.profile { padding: 4pt 7pt; }
+  div.gender.caption { padding: 1.5pt 2.5pt; }
+}
+
+/* ================================================================
+   ABOUT PAGE — typography polish + playful tag capsules
+   (CSS-only, no DOM/JS changes. Scoped to div#contentFrame.about
+   and div.aboutTags so nothing leaks into other views.)
+   ================================================================ */
+
+/* ---------- typography ---------- */
+div#contentFrame.about div.pandaAbout {
+  color: #EAF4EC;                    /* softer than pure white */
+  max-width: 760px;                  /* comfortable reading measure */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+div#contentFrame.about div.pandaAbout h2 {
+  font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
+  font-size: 25pt;
+  font-weight: 700;
+  letter-spacing: .01em;
+  color: #fff;
+  margin: 1.2em 0 0.4em;
+  line-height: 1.2;
+}
+/* lime brush-stroke under each heading */
+div#contentFrame.about div.pandaAbout h2::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 6px;
+  margin-top: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--lime), var(--lime-2));
+}
+div#contentFrame.about div.pandaAbout p {
+  line-height: 1.7;
+  margin: 0.7em 0;
+}
+div#contentFrame.about div.pandaAbout > ul:not(.tagList) {
+  margin-top: 0.8ex;
+  margin-bottom: 1.2ex;
+  padding-left: 1.2em;
+}
+div#contentFrame.about div.pandaAbout > ul:not(.tagList) > li {
+  line-height: 1.6;
+  margin-bottom: 0.7em;
+  padding-left: 0.3em;
+}
+div#contentFrame.about div.pandaAbout > ul:not(.tagList) > li::marker {
+  content: "🐾 ";
+  font-size: 90%;
+}
+/* body links: lime underline accent instead of default blue-ish */
+div#contentFrame.about div.pandaAbout > p > a,
+div#contentFrame.about div.pandaAbout > ul:not(.tagList) > li > a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration-color: var(--lime);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+div#contentFrame.about div.pandaAbout > p > a:hover,
+div#contentFrame.about div.pandaAbout > ul:not(.tagList) > li > a:hover {
+  color: var(--lime);
+}
+/* italic keywords (Search, Enter, Random) → little cream keycap chips */
+div#contentFrame.about div.pandaAbout > ul:not(.tagList) > li > i {
+  font-style: normal;
+  font-weight: 700;
+  background: rgba(255,255,255,.14);
+  border-radius: 7px;
+  padding: 0 7px;
+  margin: 0 1px;
+}
+/* photo captions */
+div#contentFrame.about div.pandaAbout h5.caption {
+  color: var(--dim-dark);
+  font-size: 11pt;
+  font-weight: 500;
+  line-height: 1.5;
+}
+div#contentFrame.about div.pandaAbout h5.caption > a { color: var(--dim-dark); font-weight: 700; }
+/* author credit under "About Red Pandas" */
+div#contentFrame.about div.pandaAbout h4 > a {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  background: var(--grape-soft);
+  color: var(--grape-deep);
+  border-radius: 999px;
+  padding: 3px 14px;
+}
+
+/* ---------- Search Tips tag capsules ---------- */
+/* the JS fills div.aboutTags with ul.tagList.multiColumn; flex-wrap
+   beats the 3-column layout for pills (column-count is ignored on
+   flex containers, so the old rules are harmless) */
+div.aboutTags {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 820px;
+}
+div.aboutTags ul.tagList,
+div.aboutTags ul.tagList.multiColumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px 8px;
+  margin: 1.5ex 0 3ex;
+  padding: 0;
+}
+div.aboutTags ul.tagList li { line-height: 1.2; }
+div.aboutTags ul.tagList li > a {
+  display: inline-block;
+  padding: 6px 15px;
+  margin: 0;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 12.5pt;
+  text-decoration: none !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,.22);
+  transition: transform .18s var(--ease), filter .15s;
+}
+div.aboutTags ul.tagList li > a:hover {
+  transform: translateY(-2px) scale(1.05) rotate(-1deg);
+  filter: brightness(1.06);
+}
+div.aboutTags ul.tagList li > a:active { transform: scale(.94); }
+/* 5-color candy cycle from the v5 palette */
+div.aboutTags ul.tagList li:nth-child(5n+1) > a { background: var(--lime-soft);  color: var(--green-deep); }
+div.aboutTags ul.tagList li:nth-child(5n+2) > a { background: var(--grape-soft); color: var(--grape-deep); }
+div.aboutTags ul.tagList li:nth-child(5n+3) > a { background: var(--apple-soft); color: #B33325; }
+div.aboutTags ul.tagList li:nth-child(5n+4) > a { background: var(--cream);      color: var(--ink-green); }
+div.aboutTags ul.tagList li:nth-child(5n+5) > a { background: #CDEFF2;           color: #23616B; }
+
+/* ---------- mobile ---------- */
+@media (max-width: 640px) {
+  div#contentFrame.about div.pandaAbout h2 { font-size: 20pt; }
+  div.aboutTags ul.tagList li > a { font-size: 11.5pt; padding: 5px 12px; }
 }
