@@ -170,7 +170,8 @@ interface EntityPanda {
   uncertainty?: string,
   /** 
    * The wild identifier (a `wild.\d+` string ID) that indicates the region a
-   * wild red panda was witnessed at.
+   * wild red panda was witnessed at. Any given panda indicates its current
+   * location either with a single `wild` property or a single `zoo` property.
    */
   wild?: string
   /** The zoo identifier (a numeric string ID) the animal currently lives at */
