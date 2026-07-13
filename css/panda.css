@@ -1915,7 +1915,16 @@ body.profile .floatingTopBtn:hover {
   --ease:cubic-bezier(.34,1.4,.5,1);
 }
 
-html { -webkit-text-size-adjust: 100%; height: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  /* body{overflow-x:hidden} alone doesn't stop iOS Safari from panning
+     horizontally when something overflows (the 100vw wave bands rely on
+     clipping) — the viewport clip must live on html too. `clip` avoids
+     creating a scroll container where supported; `hidden` is the fallback. */
+  overflow-x: hidden;
+  overflow-x: clip;
+}
 
 body {
   margin: 0; padding: 0;
@@ -2071,8 +2080,16 @@ div.topSearch, div.bottomSearch {
   max-width: 900px;
 }
 div.bottomSearch { display: none; }
+/* profile pages: Show.searchBar.toggle reveals #bottomSearch with an
+   inline `display:table` — force full width so the table-mode box
+   still spans the column like the top bar does */
+div.bottomSearch {
+  width: 100%;
+  box-sizing: border-box;
+}
 
-div.topSearch > div.shrinker {
+div.topSearch > div.shrinker,
+div.bottomSearch > div.shrinker {
   max-width: 868px;
   margin: 0 auto;
   background: var(--white);
@@ -2080,7 +2097,11 @@ div.topSearch > div.shrinker {
   padding: 6px;
   box-shadow: 0 18px 38px rgba(0,0,0,.3);
 }
-div.topSearch form {
+/* the flex row is what pins #searchSubmit (first in the form's DOM) to
+   the right end — without it the lime button stacks ABOVE the input,
+   which is exactly what happened on the profile bottom bar */
+div.topSearch form,
+div.bottomSearch form {
   display: flex;
   align-items: center;
   margin: 0; padding: 0;
@@ -2719,7 +2740,7 @@ div.footer p { padding: 0.5ex 14px; }
 
 /* ---------- mobile ---------- */
 @media (max-width: 640px) {
-  div.topMenu > div.shrinker { gap: 2px; }
+  div.topMenu > div.shrinker { gap: 2px; flex-wrap: wrap; }
   button.menu { padding: 0 11px; font-size: 12pt; }
   div.buttonText { display: none; }        /* icon-only pills on phones */
   button.logo { width: 46px; }
@@ -2729,6 +2750,18 @@ div.footer p { padding: 0.5ex 14px; }
   img.fullFrame { width: calc(100% - 28px); height: 48vh; border-radius: 22px; border-width: 7px; margin-top: 16px; }
   body:has(img.fullFrame) div.hiddenSlug p { font-size: 13pt; padding: 10px 18px; }
   body:has(img.fullFrame) div.hiddenSlug { margin-top: -24px; }
+}
+
+/* neutralize the base sheet's ≤415px table-era menu rules: their
+   0,3,3-specificity selectors beat the v5 pill styles above and blew
+   each button up by 32px of buttonContent margin, overflowing both
+   the top-menu oval and the viewport on small phones (iPhone mini). */
+@media screen and (max-width: 415px) {
+  div.topMenu div.shrinker button.menu { width: auto; }
+  div.topMenu div.shrinker button.menu div.buttonContent {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /* ---- Lucide inline icons (js/icons.js) ------------------------
