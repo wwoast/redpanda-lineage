@@ -1,0 +1,18 @@
+[panda]
+_id: 1465
+birthday: 2026/6/28
+birthplace: 69
+children: none
+commitdate: 2026/7/13
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: ja, en
+litter: none
+species: 2
+studbook.id: unknown
+zoo: 69
