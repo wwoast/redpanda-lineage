@@ -2741,7 +2741,7 @@ div.footer p { padding: 0.5ex 14px; }
 /* ---------- mobile ---------- */
 @media (max-width: 640px) {
   div.topMenu > div.shrinker { gap: 2px; flex-wrap: wrap; }
-  button.menu { padding: 0 11px; font-size: 12pt; }
+  button.menu { padding: 0 11px; font-size: 12pt; flex: 1; }
   div.buttonText { display: none; }        /* icon-only pills on phones */
   button.logo { width: 46px; }
   div.buttonIcon { font-size: 16pt; }
