@@ -14,7 +14,7 @@ export function init() {
   window.addEventListener("hashchange", update)
   window.addEventListener("panda_data", update)
   btn.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" })
   })
   update();
 }
@@ -27,7 +27,7 @@ function update() {
   if (!btn) return
   btn.classList.toggle("visible", window.scrollY > 200)
   const footer = document.getElementById("footer")   // ALWAYS re-fetch
-  const baseOffset = 24;
+  const baseOffset = 24
   if (!footer) {
     btn.style.bottom = `${baseOffset}px`
     return

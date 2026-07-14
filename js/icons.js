@@ -5,9 +5,7 @@
     Icon SVGs: lucide-static v1.24.0 (ISC license, https://lucide.dev)
 */
 
-var Icons = {};   /* namespace */
-
-Icons.svg = {
+const iconSvg = {
  "angry": "<svg  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\" /><path d=\"M16 16s-1.5-2-4-2-4 2-4 2\" /><path d=\"M7.5 8 10 9\" /><path d=\"m14 9 2.5-1\" /><path d=\"M9 10h.01\" /><path d=\"M15 10h.01\" /></svg>",
  "annoyed": "<svg  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\" /><path d=\"M8 15h8\" /><path d=\"M8 9h2\" /><path d=\"M14 9h2\" /></svg>",
  "apple": "<svg  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 6.528V3a1 1 0 0 1 1-1h0\" /><path d=\"M18.237 21A15 15 0 0 0 22 11a6 6 0 0 0-10-4.472A6 6 0 0 0 2 11a15.1 15.1 0 0 0 3.763 10 3 3 0 0 0 3.648.648 5.5 5.5 0 0 1 5.178 0A3 3 0 0 0 18.237 21\" /></svg>",
@@ -106,7 +104,7 @@ Icons.svg = {
  "worm": "<svg  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m19 12-1.5 3\" /><path d=\"M19.63 18.81 22 20\" /><path d=\"M6.47 8.23a1.68 1.68 0 0 1 2.44 1.93l-.64 2.08a6.76 6.76 0 0 0 10.16 7.67l.42-.27a1 1 0 1 0-2.73-4.21l-.42.27a1.76 1.76 0 0 1-2.63-1.99l.64-2.08A6.66 6.66 0 0 0 3.94 3.9l-.7.4a1 1 0 1 0 2.55 4.34z\" /></svg>"
 };
 
-Icons.map = {
+iconMap = {
  "🐯🐻": "panda",
  "🌿🍎": "gift",
  "👦👦": "users",
@@ -241,29 +239,42 @@ Icons.map = {
  "🌿": "leaf"
 };
 
-
-Icons.keys = Object.keys(Icons.map).sort(function(a, b) {
+const keys = Object.keys(iconMap).sort(function(a, b) {
   return b.length - a.length;   // longest sequences match first
 });
-Icons.regex = new RegExp(Icons.keys.map(function(k) {
+
+const regex = new RegExp(keys.map(function(k) {
   return k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }).join("|"), "g");
 
 /* Emoji that should stay as native color emoji. The wrapper span exists
    only to escape the monochrome "Noto Emoji" font stack via CSS. */
-Icons.emoji = {};
+const emoji = {};
 
-Icons.node = function(key) {
-  var span = document.createElement("span");
-  if (Icons.emoji[key] == 1) {
-    span.className = "lx lxe";
-    span.textContent = key;
-    return span;
+function iconLangSpan(context) {
+  var span = document.createElement("span")
+  if (context == "button") {
+    span.className = "lx lx-languages"
+    span.setAttribute("aria-hidden", "true")
+    span.innerHTML = iconSvg["languages"]
+  } else {
+    span.className = "langName";
+    span.textContent = langNames[context] || context.toUpperCase();
   }
-  span.className = "lx lx-" + Icons.map[key];
-  span.setAttribute("aria-hidden", "true");
-  span.innerHTML = Icons.svg[Icons.map[key]];
   return span;
+}
+
+function iconSpan(key) {
+  var span = document.createElement("span");
+  if (emoji[key] == 1) {
+    span.className = "lx lxe"
+    span.textContent = key
+    return span
+  }
+  span.className = "lx lx-" + iconMap[key]
+  span.setAttribute("aria-hidden", "true")
+  span.innerHTML = iconSvg[iconMap[key]]
+  return span
 }
 
 /*
@@ -272,158 +283,144 @@ Icons.node = function(key) {
     (language picker menu). Country flags anywhere else on the site
     (zoo chips etc.) are left alone.
 */
-Icons.flagRegex = /(?:\uD83C[\uDDE6-\uDDFF]){2}/g;   /* regional-indicator pair */
-Icons.langNames = {
+const flagRegex = /(?:\uD83C[\uDDE6-\uDDFF]){2}/g;   /* regional-indicator pair */
+
+const langNames = {
   "en": "English", "ja": "日本語", "zh": "中文", "ko": "한국어",
   "ne": "नेपाली", "pt": "Português", "es": "Español"
-};
-Icons.langContext = function(node) {
+}
+
+function langContext(node) {
   // "button" when inside the top-menu #languageButton or an element
   // opted-in via class="langKey" (e.g. the About-page usage guide),
   // a language code when inside a picker entry (e.g. enLanguageFlag),
   // null elsewhere.
-  var p = node.parentNode;
+  var p = node.parentNode
   while (p != null && p.nodeType == Node.ELEMENT_NODE) {
-    if (p.id == "languageButton") { return "button"; }
-    if (p.classList != null && p.classList.contains("langKey")) { return "button"; }
+    if (p.id == "languageButton") { return "button" }
+    if (p.classList != null && p.classList.contains("langKey")) { return "button" }
     if (p.tagName == "BUTTON" && /LanguageFlag$/.test(p.id)) {
-      return p.id.replace("LanguageFlag", "");
+      return p.id.replace("LanguageFlag", "")
     }
     p = p.parentNode;
   }
   return null;
 }
-Icons.langNode = function(context) {
-  var span = document.createElement("span");
-  if (context == "button") {
-    span.className = "lx lx-languages";
-    span.setAttribute("aria-hidden", "true");
-    span.innerHTML = Icons.svg["languages"];
-  } else {
-    span.className = "langName";
-    span.textContent = Icons.langNames[context] || context.toUpperCase();
-  }
-  return span;
-}
-Icons.processLangText = function(node, context) {
-  var text = node.nodeValue;
-  if (text == null || text.length == 0) { return false; }
-  Icons.flagRegex.lastIndex = 0;
-  if (!Icons.flagRegex.test(text)) { return false; }
-  var frag = document.createDocumentFragment();
-  var last = 0;
-  var match = null;
-  Icons.flagRegex.lastIndex = 0;
-  while ((match = Icons.flagRegex.exec(text)) !== null) {
+
+function processLangText(node, context) {
+  var text = node.nodeValue
+  if (text == null || text.length == 0) { return false }
+  flagRegex.lastIndex = 0
+  if (!flagRegex.test(text)) { return false }
+  var frag = document.createDocumentFragment()
+  var last = 0
+  var match = null
+  flagRegex.lastIndex = 0
+  while ((match = flagRegex.exec(text)) !== null) {
     if (match.index > last) {
-      frag.appendChild(document.createTextNode(text.slice(last, match.index)));
+      frag.appendChild(document.createTextNode(text.slice(last, match.index)))
     }
-    frag.appendChild(Icons.langNode(context));
-    last = match.index + match[0].length;
+    frag.appendChild(iconLangSpan(context))
+    last = match.index + match[0].length
   }
   if (last < text.length) {
-    frag.appendChild(document.createTextNode(text.slice(last)));
+    frag.appendChild(document.createTextNode(text.slice(last)))
   }
   if (node.parentNode != null) {
-    node.parentNode.replaceChild(frag, node);
+    node.parentNode.replaceChild(frag, node)
   }
-  return true;
+  return true
 }
 
-Icons.processText = function(node) {
+function processText(node) {
   var text = node.nodeValue;
-  if (text == null || text.length == 0) { return; }
-  var lang_context = Icons.langContext(node);
-  if (lang_context != null && Icons.processLangText(node, lang_context)) { return; }
-  Icons.regex.lastIndex = 0;
-  if (!Icons.regex.test(text)) { return; }
-  var frag = document.createDocumentFragment();
-  var last = 0;
-  var match = null;
-  Icons.regex.lastIndex = 0;
-  while ((match = Icons.regex.exec(text)) !== null) {
+  if (text == null || text.length == 0) { return }
+  var lang_context = langContext(node)
+  if (lang_context != null && processLangText(node, lang_context)) { return }
+  regex.lastIndex = 0
+  if (!regex.test(text)) { return }
+  var frag = document.createDocumentFragment()
+  var last = 0
+  var match = null
+  regex.lastIndex = 0
+  while ((match = regex.exec(text)) !== null) {
     if (match.index > last) {
-      frag.appendChild(document.createTextNode(text.slice(last, match.index)));
+      frag.appendChild(document.createTextNode(text.slice(last, match.index)))
     }
-    frag.appendChild(Icons.node(match[0]));
-    last = match.index + match[0].length;
+    frag.appendChild(iconSpan(match[0]))
+    last = match.index + match[0].length
   }
   if (last < text.length) {
-    frag.appendChild(document.createTextNode(text.slice(last)));
+    frag.appendChild(document.createTextNode(text.slice(last)))
   }
   if (node.parentNode != null) {
-    node.parentNode.replaceChild(frag, node);
+    node.parentNode.replaceChild(frag, node)
   }
 }
 
-Icons.skip = { "SCRIPT": 1, "STYLE": 1, "TEXTAREA": 1, "INPUT": 1, "svg": 1, "SVG": 1 };
+const skip = { "SCRIPT": 1, "STYLE": 1, "TEXTAREA": 1, "INPUT": 1, "svg": 1, "SVG": 1 };
 
 /* Containers whose text keeps its native emoji (entity/zoo/profile
    result content). Icon replacement only applies to the site chrome. */
-Icons.skipClass = { "lx": 1, "pandaResult": 1, "zooResult": 1, "profileFrame": 1,
-                    "zooHistory": 1, "profilePhotos": 1, "mediaFrame": 1 };
+const skipClass = { "lx": 1, "pandaResult": 1, "zooResult": 1, "profileFrame": 1,
+                    "zooHistory": 1, "profilePhotos": 1, "mediaFrame": 1 }
 
-Icons.skipElement = function(el) {
-  if (Icons.skip[el.nodeName] == 1) { return true; }
+function skipElement(el) {
+  if (skip[el.nodeName] == 1) { return true; }
   if (el.classList == null) { return false; }
-  for (var cls in Icons.skipClass) {
-    if (el.classList.contains(cls)) { return true; }
+  for (const cls in skipClass) {
+    if (el.classList.contains(cls)) { return true }
   }
-  return false;
+  return false
 }
 
-Icons.walk = function(root) {
+export function walk(root) {
   if (root.nodeType == Node.TEXT_NODE) {
-    var p = root.parentNode;
+    let p = root.parentNode
     while (p != null && p.nodeType == Node.ELEMENT_NODE) {
-      if (Icons.skipElement(p)) { return; }
-      p = p.parentNode;
+      if (skipElement(p)) { return }
+      p = p.parentNode
     }
-    Icons.processText(root);
-    return;
+    processText(root)
+    return
   }
   if (root.nodeType != Node.ELEMENT_NODE) { return; }
-  if (Icons.skipElement(root)) { return; }
-  var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+  if (skipElement(root)) { return; }
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode: function(n) {
-      var p = n.parentNode;
+      let p = n.parentNode
       while (p != null && p.nodeType == Node.ELEMENT_NODE) {
-        if (Icons.skipElement(p)) { return NodeFilter.FILTER_REJECT; }
-        p = p.parentNode;
+        if (skipElement(p)) { return NodeFilter.FILTER_REJECT }
+        p = p.parentNode
       }
-      return NodeFilter.FILTER_ACCEPT;
+      return NodeFilter.FILTER_ACCEPT
     }
-  });
-  var nodes = [];
-  while (walker.nextNode()) { nodes.push(walker.currentNode); }
-  nodes.forEach(Icons.processText);
+  })
+  const nodes = []
+  while (walker.nextNode()) { nodes.push(walker.currentNode) }
+  nodes.forEach(processText)
 }
 
-Icons.observer = new MutationObserver(function(mutations) {
-  Icons.observer.disconnect();   // our own edits must not re-trigger
+const observer = new MutationObserver(function(mutations) {
+  observer.disconnect()   // our own edits must not re-trigger
   mutations.forEach(function(mu) {
     if (mu.type == "characterData") {
-      Icons.walk(mu.target);
+      walk(mu.target)
     }
     if (mu.addedNodes != null) {
-      for (var i = 0; i < mu.addedNodes.length; i++) {
-        Icons.walk(mu.addedNodes[i]);
+      for (let i = 0; i < mu.addedNodes.length; i++) {
+        walk(mu.addedNodes[i])
       }
     }
   });
-  Icons.observer.takeRecords();
-  Icons.observe();
-});
+  observer.takeRecords()
+  observe()
+})
 
-Icons.observe = function() {
-  Icons.observer.observe(document.body, {
+export function observe() {
+  observer.observe(document.body, {
     childList: true,
     subtree: true,
     characterData: true
-  });
+  })
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-  Icons.walk(document.body);
-  Icons.observe();
-});

@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import * as Icons from './icons.js'
 import * as Options from './options.js'
 import * as ScrollTop from './scrollTop.js'
 
@@ -38,6 +39,8 @@ document.addEventListener("DOMContentLoaded", function() {
   GeoInit()
   ScrollTop.init()
   Options.init()
+  Icons.walk(document.body)   // Replace emojis with SVG icons
+  Icons.observe()   // More SVG emoji replacements on page mutate
 
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
