@@ -1,4 +1,4 @@
-import { getNaiveLocation } from './geolocate.js'
+import * as Geo from './geolocate.js'
 import * as Options from './options.js'
 
 /** Presentation-level data, separated out from final website layout */
@@ -701,7 +701,7 @@ Show.button.flag.action = function() {
     L.update();
     // Redraw the nearby page if necessary
     if (Query.env.output_mode == "nearby") {
-      getNaiveLocation();
+      Geo.getNaiveLocation();
     }
     Page.redraw(Page.current);
   }
@@ -760,7 +760,7 @@ Show.button.language.altAction = function(e) {
   L.update();
   // Redraw the nearby page if necessary
   if (Query.env.output_mode == "nearby") {
-    getNaiveLocation();
+    Geo.getNaiveLocation();
   }
   Page.redraw(Page.current);
   Show.button.language.hide();   // If language menu open, hide it

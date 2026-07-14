@@ -1,3 +1,5 @@
+import * as Touch from './touch.js'
+
 /*
    Operations and state related to photo galleries.
 
@@ -45,7 +47,7 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // Firefox has a bug when touch handlers register on browsers that don't have them,
   // so try to limit touch events to only browsers that have it.
   if ('ontouchstart' in document.documentElement) {
-    Touch.addSwipeHandler(gallery.image, T.processPhoto);
+    Touch.addSwipeHandler(gallery.image, Touch.processPhoto)
   }
   return gallery;
 }

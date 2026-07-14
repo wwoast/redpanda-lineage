@@ -1,4 +1,4 @@
-import { geo, getNaiveLocation } from './geolocate.js'
+import * as Geo from './geolocate.js'
 
 /*
     Query processing for the search box. Translates operators and parameters
@@ -291,8 +291,8 @@ Query.resolver.single = function(set_node, singular_node) {
     }
     if (Parse.group.nearby.indexOf(search_word) != -1) {
       Query.env.output_mode = "nearby";
-      if (Geo.resolved == false) {
-        getNaiveLocation()
+      if (Geo.state.resolved == false) {
+        Geo.getNaiveLocation()
       }
       // If we're still on a query page and another action hasn't occurred,
       // display the zoo results when we're done.

@@ -1,192 +1,197 @@
-// TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
-// Heavily adapted from original code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
-var Touch = {};   // Namespace
+/** 
+ * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
+ * Heavily adapted from original code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
+ */
 
-Touch.T = {};     // Prototype
-
-Touch.init = function() {
-  var touch = Object.create(Touch.T);
-  touch.fingerCount = 0;
-  touch.startX = 0;
-  touch.startY = 0;
-  touch.startTime = 0;
-  touch.endTime = 0;
-  touch.curX = 0;
-  touch.curY = 0;
-  touch.deltaX = 0;
-  touch.xTurn = 0;
-  touch.turnCount = 0;
-  touch.horzDiff = 0;
-  touch.vertDiff = 0;
-  touch.minLength = 64;   // the shortest distance the user may swipe
-  touch.swipeLength = 0;
-  touch.swipeAngle = null;
-  touch.swipeDirection = null;
-  return touch;
+/** State defaults to initial values at page load */
+const touch = {
+  fingerCount: 0,
+  startX: 0,
+  startY: 0,
+  startTime: 0,
+  endTime: 0,
+  curX: 0,
+  curY: 0,
+  deltaX: 0,
+  xTurn: 0,
+  turnCount: 0,
+  horzDiff: 0,
+  vertDiff: 0,
+  minLength: 64,   // the shortest distance the user may swipe
+  swipeLength: 0,
+  swipeAngle: null,
+  swipeDirection: null
 }
 
 // The 4 Touch Event Handlers
-Touch.T.start = function(event) {
+function start(event) {
   // get the total number of fingers touching the screen
-  this.fingerCount = event.touches.length;
+  touch.fingerCount = event.touches.length;
   // timer for long press events
-  this.startTime = new Date().getTime();
+  touch.startTime = new Date().getTime();
   // since we're looking for a swipe (single finger) and not a gesture (multiple fingers),
   // check that only one finger was used
-  if (this.fingerCount == 1) {
+  if (touch.fingerCount == 1) {
     // get the coordinates of the touch
-    this.startX = event.touches[0].pageX;
-    this.startY = event.touches[0].pageY;
+    touch.startX = event.touches[0].pageX;
+    touch.startY = event.touches[0].pageY;
   } else {
     // more than one finger touched so cancel
-    this.cancel();
+    cancel()
   }
 }
 
-Touch.T.move = function(event) {
-  // event.preventDefault();
+function move(event) {
   if (event.touches.length == 1) {
-    this.curX = event.touches[0].pageX;
-    this.curY = event.touches[0].pageY;
+    touch.curX = event.touches[0].pageX
+    touch.curY = event.touches[0].pageY
     // Gesture length calculation
-    if (this.xTurn == 0) {
-      var newDeltaX = Math.abs(this.curX - this.startX);
-      if (newDeltaX > this.deltaX) {
-        this.deltaX = newDeltaX;
+    if (touch.xTurn == 0) {
+      const newDeltaX = Math.abs(touch.curX - touch.startX)
+      if (newDeltaX > touch.deltaX) {
+        touch.deltaX = newDeltaX;
       } else {
-        this.xTurn = this.curX;
-        this.horzDiff = this.horzDiff + this.deltaX;
-        this.deltaX = 0;
-        this.turnCount = this.turnCount + 1;
+        touch.xTurn = touch.curX
+        touch.horzDiff = touch.horzDiff + touch.deltaX;
+        touch.deltaX = 0
+        touch.turnCount = touch.turnCount + 1
       }
     } else {
-      var newDeltaX = Math.abs(this.xTurn - this.curX);
+      const newDeltaX = Math.abs(touch.xTurn - touch.curX)
       if (newDeltaX > this.deltaX) {
-        this.deltaX = newDeltaX;
+        touch.deltaX = newDeltaX
       } else {
         // We turned again, so cancel
-        this.horzDiff = this.horzDiff + this.deltaX;
-        this.xTurn = 0;
-        this.deltaX = 0;
-        this.turnCount = this.turnCount + 1;
+        touch.horzDiff = touch.horzDiff + touch.deltaX;
+        touch.xTurn = 0;
+        touch.deltaX = 0;
+        touch.turnCount = touch.turnCount + 1;
       }
     }
   } else {
-    this.cancel();
+    cancel()
   }
 }
 
-Touch.T.swipeEnd = function(event, element_id, callback) {
+function swipeEnd(event, elementId, callback) {
   event.preventDefault();
-  this.endTime = new Date().getTime();
-  if (this.fingerCount == 1 && this.curX != 0) {
+  touch.endTime = new Date().getTime();
+  if (touch.fingerCount == 1 && touch.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
-    this.swipeLength = Math.round(Math.sqrt(Math.pow(this.curX - this.startX,2) + 
-                                            Math.pow(this.curY - this.startY,2)));
+    touch.swipeLength = Math.round(
+      Math.sqrt(Math.pow(touch.curX - touch.startX,2) + 
+                Math.pow(touch.curY - touch.startY,2)))
     // If the swipe is longer than the minimum length, or if the
     // length of the swipe is long enough, do an interface task
-    if ((this.swipeLength >= this.minLength) || 
-        (this.horzDiff > 2*this.minLength)) {
-      this.angle();
-      this.determine();   // What the swipe direction and angle are
+    if ((touch.swipeLength >= touch.minLength) || 
+        (touch.horzDiff > 2*touch.minLength)) {
+      angle()
+      determine()   // What the swipe direction and angle are
       // Do something in the RPF interface.
       // Must be scoped to the touch handler
-      callback.apply(this, [element_id]);
-      this.cancel();      // Reset the variables
+      callback.apply(this, [elementId]);
+      cancel()      // Reset the variables
     } else {
-      this.cancel();
+      cancel()
     }
   } else {
-    this.cancel();
+    cancel()
   }
 }
 
-Touch.T.cancel = function() {
-  // reset the variables back to default values
-  this.fingerCount = 0;
-  this.startX = 0;
-  this.startY = 0;
-  this.startTime = 0;
-  this.endTime = 0;
-  this.curX = 0;
-  this.curY = 0;
-  this.deltaX = 0;
-  this.xTurn = 0;
-  this.turnCount = 0;
-  this.horzDiff = 0;
-  this.vertDiff = 0;
-  this.swipeLength = 0;
-  this.swipeAngle = null;
-  this.swipeDirection = null;
+/** Reset the touch state variables back to default values */
+function cancel() {
+  touch = {...{
+    fingerCount: 0,
+    startX: 0,
+    startY: 0,
+    startTime: 0,
+    endTime: 0,
+    curX: 0,
+    curY: 0,
+    deltaX: 0,
+    xTurn: 0,
+    turnCount: 0,
+    horzDiff: 0,
+    vertDiff: 0,
+    swipeLength: 0,
+    swipeAngle: null,
+    swipeDirection: null
+  }}
 }
 
-Touch.T.angle = function() {
-  var X = this.startX - this.curX;
-  var Y = this.curY - this.startY;
-  // var Z = Math.round(Math.sqrt(Math.pow(X,2) + Math.pow(Y,2))); // the distance - rounded - in pixels
-  var r = Math.atan2(Y,X); // angle in radians (Cartesian system)
-  this.swipeAngle = Math.round(r*180/Math.PI); // angle in degrees
-  if (this.swipeAngle < 0) { 
-    this.swipeAngle = 360 - Math.abs(this.swipeAngle);
+/** Calculate the angle of a particular swipe */
+function angle() {
+  const X = touch.startX - touch.curX
+  const Y = touch.curY - touch.startY
+  const r = Math.atan2(Y,X)   // angle in radians (Cartesian system)
+  touch.swipeAngle = Math.round(r*180/Math.PI)   // angle in degrees
+  if (touch.swipeAngle < 0) { 
+    touch.swipeAngle = 360 - Math.abs(touch.swipeAngle)
   }
 }
 
-Touch.T.determine = function() {
-  if ((this.swipeAngle <= 45) && (this.swipeAngle >= 0)) {
-    this.swipeDirection = 'left';
-  } else if ((T.swipeAngle <= 360) && (this.swipeAngle >= 315)) {
-    this.swipeDirection = 'left';
-  } else if ((T.swipeAngle >= 135) && (this.swipeAngle <= 225)) {
-    this.swipeDirection = 'right';
-  } else if ((T.swipeAngle > 45) && (this.swipeAngle < 135)) {
-    this.swipeDirection = 'down';
+/** Decide the primary cardinal direction of a swipe is based on the angle */
+function determine() {
+  if ((touch.swipeAngle <= 45) && (touch.swipeAngle >= 0)) {
+    touch.swipeDirection = 'left'
+  } else if ((touch.swipeAngle <= 360) && (touch.swipeAngle >= 315)) {
+    touch.swipeDirection = 'left'
+  } else if ((touch.swipeAngle >= 135) && (touch.swipeAngle <= 225)) {
+    touch.swipeDirection = 'right'
+  } else if ((touch.swipeAngle > 45) && (touch.swipeAngle < 135)) {
+    touch.swipeDirection = 'down'
   } else {
-    this.swipeDirection = 'up';
+    touch.swipeDirection = 'up'
   }
 }
 
-// Callback to change the photo based on where the touch event happened
-Touch.T.processPhoto = function(element_id) {
-  var animal_id = element_id.split('/')[0];
-  var navigator_id = animal_id + "/navigator";
-  var navigator = document.getElementById(navigator_id);
-  var span = navigator.childNodes[0];
-  if (((this.horzDiff > 2*this.minLength) && (this.turnCount > 0)) &&
-      ((this.swipeDirection == 'right') || (this.swipeDirection == 'left'))) {
+// TODO ES6 move this somewhere else?
+/** Callback to change the photo based on where the touch event happened */
+export function processPhoto(elementId) {
+  const animalId = elementId.split('/')[0]
+  const navigatorId = `${animalId}/navigator`
+  const navigator = document.getElementById(navigatorId)
+  const span = navigator.childNodes[0]
+  if (((touch.horzDiff > 2*touch.minLength) && (touch.turnCount > 0)) &&
+      ((touch.swipeDirection == 'right') || (touch.swipeDirection == 'left'))) {
+    // TODO ES6
     // At least one direction turn, and a swipe twice as long as a normal
     // left-right directional swipe
-    Gallery.G.photoRandom(animal_id);
-    Gallery.condenseDogEar(span);
-    Show.fade(navigator);
-    window.dispatchEvent(Page.profile.qr_update);
-  } else if (this.swipeDirection == 'right') {
-    Gallery.G.photoPrevious(animal_id);
-    Gallery.condenseDogEar(span);
-    Show.fade(navigator);
-    window.dispatchEvent(Page.profile.qr_update);
-  } else if (this.swipeDirection == 'left') {
-    Gallery.G.photoNext(animal_id);
-    Gallery.condenseDogEar(span);
-    Show.fade(navigator);
-    window.dispatchEvent(Page.profile.qr_update);
+    Gallery.G.photoRandom(animalId)
+    Gallery.condenseDogEar(span)
+    Show.fade(navigator)
+    window.dispatchEvent(Page.profile.qr_update)
+  } else if (touch.swipeDirection == 'right') {
+    Gallery.G.photoPrevious(animalId)
+    Gallery.condenseDogEar(span)
+    Show.fade(navigator)
+    window.dispatchEvent(Page.profile.qr_update)
+  } else if (touch.swipeDirection == 'left') {
+    Gallery.G.photoNext(animalId)
+    Gallery.condenseDogEar(span)
+    Show.fade(navigator)
+    window.dispatchEvent(Page.profile.qr_update)
   }
 }
 
-// Swipe/gesture event handler. 
-// Adds a listener for touch events on the photo carousels,
-// and defines a callback function for when that touch element is finished.
-Touch.addSwipeHandler = function(input_elem, callback) {
-  input_elem.addEventListener('touchstart', function(event) {
-    T.start(event);
+/**
+ * Swipe/gesture event handler. 
+ * Adds a listener for touch events on the photo carousels,
+ * and defines a callback function for when that touch element is finished.
+ */
+export function addSwipeHandler(inputElement, callback) {
+  inputElement.addEventListener('touchstart', function(event) {
+    start(event);
   }, true);
-  input_elem.addEventListener('touchend', function(event) {
-    T.swipeEnd(event, input_elem.id, callback);
+  inputElement.addEventListener('touchend', function(event) {
+    swipeEnd(event, inputElement.id, callback);
   }, true);
-  input_elem.addEventListener('touchmove', function(event) {
-    T.move(event);
+  inputElement.addEventListener('touchmove', function(event) {
+    move(event);
   }, true);
-  input_elem.addEventListener('touchcancel', function() {
-    T.cancel();
+  inputElement.addEventListener('touchcancel', function() {
+    cancel();
   }, true);
 }

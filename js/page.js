@@ -1,4 +1,4 @@
-import { geo } from './geolocate.js'
+import * as Geo from './geolocate.js'
 import * as Options from './options.js'
 
 var Page = {};   // Namespace
@@ -893,7 +893,7 @@ Page.results.render = function() {
       new_content.style.textAlign = "center";   // Align photos centered in each row
       break;
     case "nearby":
-      content_divs = Page.results.nearby(geo.results);
+      content_divs = Page.results.nearby(Geo.state.results);
       break;
   }
   var shrinker = document.createElement('div');

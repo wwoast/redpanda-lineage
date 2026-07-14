@@ -1,4 +1,4 @@
-import { Geo, init as GeoInit } from './geolocate.js'
+import * as Geo from './geolocate.js'
 import * as Options from './options.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('hashchange', function() {
   // Any time the page changes, forget location details
   // in case we might have moved around
-  Geo.resolved = false;
+  Geo.state.resolved = false;
   // And forget how many pages we have shown
   Query.env.paging.shown_pages = 1;
   var mode = window.location.hash.split("/")[0];

@@ -8,7 +8,7 @@
  */
 
 /** Internal geolocation state */
-export const Geo = {
+export const state = {
   /** Coarse (IP-based) or Fine (GPS-based) */
   accuracy: false,
   /**
@@ -62,7 +62,7 @@ function findClosest(maxDistance, maxResults) {
     // TODO ES6
     // Compare distance with where you are
     const z = Pandas.searchZooId(i)[0]
-    const d = haversine(geo.latitude, geo.longitude, 
+    const d = haversine(state.latitude, state.longitude, 
                         parseFloat(z.latitude), parseFloat(z.longitude))
     if (d < maxDistance) {
       // For printing, use units and convert to a fixed-point number
@@ -71,13 +71,13 @@ function findClosest(maxDistance, maxResults) {
     }
   }
   // Iterate through distances in ascending order
-  var closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)
+  const closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)
   for (let distance of closest) {
     hitList.push(zoos[distance])
   }
   hitList = hitList.slice(0, maxResults);   // Only keep the desired results
   // Return a dict similar to the results of the query parse responses
-  geo.results = {
+  state.results = {
     "hits": hitList,
     "parsed": "set_zoo_id",
     "type": "nearby"
@@ -89,9 +89,9 @@ function findClosest(maxDistance, maxResults) {
 export function getNaiveLocation() {
   renderGeoLookupStart()
   navigator.geolocation.getCurrentPosition(position => {
-    geo.latitude = position.coords.latitude;
-    geo.longitude = position.coords.longitude;
-    geo.resolved = true;
+    state.latitude = position.coords.latitude;
+    state.longitude = position.coords.longitude;
+    state.resolved = true;
     window.dispatchEvent(geoEvents.resolvedLocation);
   });
 }
@@ -105,9 +105,9 @@ function getPreciseLocation() {
   }
   const error_noop = function() {};
   navigator.geolocation.getCurrentPosition(position => {
-    geo.latitude = position.coords.latitude;
-    geo.longitude = position.coords.longitude;
-    geo.resolved = true;
+    state.latitude = position.coords.latitude;
+    state.longitude = position.coords.longitude;
+    state.resolved = true;
     window.dispatchEvent(geoEvents.resolvedLocation);
   }, error_noop, options);
 }
@@ -118,7 +118,7 @@ function getPreciseLocation() {
  * browser locale, use either miles or kilometers.
  */
 function haversine(myLat, myLon, targetLat, targetLon) {
-  const R = geo.earth
+  const R = state.earth
   const lat1 = toRadians(myLat)
   const lon1 = toRadians(myLon)
   const lat2 = toRadians(targetLat)
@@ -160,11 +160,11 @@ function renderGeoLookupStart() {
 
 function setUnits() {
   if (navigator.language == "en-US") {
-    geo.earth = 3961;
-    geo.units = "mi";
+    state.earth = 3961;
+    state.units = "mi";
   } else {
-    geo.earth = 6373;
-    geo.units = "km";
+    state.earth = 6373;
+    state.units = "km";
   }
 }
 
@@ -177,15 +177,15 @@ function toRadians(degrees) {
  * completed a geo-lookup yet or not
  */
 function toggleAccuracy() {
-  geo.accuracy = !(geo.accuracy);
-  if (geo.accuracy == true) {
+  state.accuracy = !(state.accuracy);
+  if (state.accuracy == true) {
     // Fine-grained control with GPS
-    geo.resolved = false;
+    state.resolved = false;
     getPreciseLocation();
   } else {
     // Do a follow-up naive lookup. Our location may have changed,
     // so this isn't a waste of time if a toggle is performed.
-    geo.resolved = false;
+    state.resolved = false;
     getNaiveLocation();
   }
 }
@@ -196,7 +196,7 @@ window.addEventListener('found_zoos', function() {
   // If this is a normal results/query page
   Page.results.render();
   Page.current = Page.results.render;
-  if (geo.results.hits.length >= geo.close_results) {
+  if (state.results.hits.length >= state.close_results) {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
     toggleAccuracy()
   }
@@ -204,5 +204,5 @@ window.addEventListener('found_zoos', function() {
 
 window.addEventListener('resolved_location', function() {
   // Find 20 closest zoos within 100 (mi/km), and return the 5 closest
-  findClosest(geo.radius, geo.maxResults)
+  findClosest(state.radius, state.maxResults)
 })
