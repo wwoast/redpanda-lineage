@@ -431,9 +431,9 @@ interface ResultZoo {
   photoIndex: number,
   /** The link to the original source of this photo */
   photoLink: string,
-  /** 
+  /**
    * The set of all pandas resolved to have lived at this zoo either
-   * currently, or at some point in the past. 
+   * currently, or at some point in the past.
    */
   recorded: Set<EntityPanda>,
   /** The total tally of red pandas that have ever lived at this zoo */
