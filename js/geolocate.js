@@ -1,40 +1,48 @@
-/*
-    Allows queries for nearby zoos, using the browser Geolocation API.
-    
-    Do not initialize the Geolocation details unless there has been a user
-    action prompting for finding the closest zoo. So Geo.init() should be
-    part of the callback for submitting a "nearby" search, or clicking on
-    a "Find Zoos" button.
-*/
+/**
+ * Allows queries for nearby zoos, using the browser Geolocation API.
+ *  
+ * Do not initialize the Geolocation details unless there has been a user
+ * action prompting for finding the closest zoo. So Geo.init() should be part
+ * of the callback for submitting a "nearby" search, or clicking on a
+ * "Find Zoos" button.
+ */
 
-var Geo = {};   // Namespace
-
-Geo.G = {};   // Prototype
-
-Geo.init = function() {
-  var geo = Object.create(Geo.G);
-  geo.resolved = false;    // Has a successful lookup completed?
-  // List of zoos that match our search criteria
-  geo.results = {
+/** Internal geolocation state */
+export const Geo = {
+  /** Coarse (IP-based) or Fine (GPS-based) */
+  accuracy: false,
+  /**
+   * If radius has more than 2*maxResults nearby, try to offer better results
+   * by using GPS positioning instead of IP location
+   */
+  closeResults: 10,
+  /** Radius of the Earth, for calculations */
+  earth: 0.0,
+  latitude: 0.0,
+  longitude: 0.0,
+  /** Number of results to return by default */
+  maxResults: 5,
+  /** Has a successful lookup completed? */
+  resolved: false,
+  /** List of zoos that match our search criteria */
+  results: {
     "hits": [],
     "parsed": "geolookup_in_progress",
     "type": "nearby"
-  };
-  geo.accuracy = false;   // Coarse (IP-based) or Fine (GPS-based)
-  geo.latitude = 0.0;
-  geo.longitude = 0.0;
-  geo.earth = 0;
-  geo.units = "km";
-  // Determine the locale (whether to use kilometers or miles)
-  geo.setUnits();
-  // Default nearby search radius (100 km/mi)
-  geo.radius = 100;
-  // Default max results
-  geo.max_results = 5;
-  // If radius has more than 2*max_results nearby, try to offer better results
-  // by using GPS positioning instead of IP location
-  geo.close_results = geo.max_results * 2;
-  return geo;
+  },
+  /** Default search radius (100km or 100mi) */
+  radius: 100,
+  /** Units for the radius of the earth, either kilometers or miles */
+  units: "km"
+}
+
+const geoEvents = {
+  foundZoos: new Event('found_zoos'),
+  resolvedLocation: new Event('resolved_location')
+}
+
+export function init() {
+  setUnits()
 }
 
 /*
@@ -45,150 +53,156 @@ Geo.init = function() {
  * the case and too many results were found in the current radius and
  * the ordering may be inaccurate, use GPS location instead (if available).
  */
-Geo.G.findClosest = function(max_distance, max_results) {
-  var zoos = {};     // k=distance, v=zoo. Sort by keys ascending
-  var hit_list = [];   // Get max_results items
+function findClosest(maxDistance, maxResults) {
+  const zoos = {};     // k=distance, v=zoo. Sort by keys ascending
+  const hitList = [];   // Get max_results items
   // Iterating across zoos is silly
-  for(var i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
+  // TODO ES6
+  for(let i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
+    // TODO ES6
     // Compare distance with where you are
-    var z = Pandas.searchZooId(i)[0];
-    var d = this.haversine(this.latitude, this.longitude, 
-                           parseFloat(z.latitude), parseFloat(z.longitude));
-    if (d < max_distance) {
+    const z = Pandas.searchZooId(i)[0]
+    const d = haversine(geo.latitude, geo.longitude, 
+                        parseFloat(z.latitude), parseFloat(z.longitude))
+    if (d < maxDistance) {
       // For printing, use units and convert to a fixed-point number
       z["distance"] = d.toFixed(1).toString() + this.units;
-      zoos[d] = z;
+      zoos[d] = z
     }
   }
   // Iterate through distances in ascending order
-  var closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1);
+  var closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)
   for (let distance of closest) {
-    hit_list.push(zoos[distance]);
+    hitList.push(zoos[distance])
   }
-  hit_list = hit_list.slice(0, max_results);   // Only keep the desired results
+  hitList = hitList.slice(0, maxResults);   // Only keep the desired results
   // Return a dict similar to the results of the query parse responses
-  this.results = {
-    "hits": hit_list,
+  geo.results = {
+    "hits": hitList,
     "parsed": "set_zoo_id",
     "type": "nearby"
   }
-  window.dispatchEvent(Geo.event.foundZoos);  
+  window.dispatchEvent(geoEvents.foundZoos);  
 }
 
-// Naive geolocation for getting the quickest possible answer. 
-Geo.G.getNaiveLocation = function() {
-  Geo.renderGeoLookupStart();
+/** Naive geolocation for getting the quickest possible answer. */
+export function getNaiveLocation() {
+  renderGeoLookupStart()
   navigator.geolocation.getCurrentPosition(position => {
-    this.latitude = position.coords.latitude;
-    this.longitude = position.coords.longitude;
-    this.resolved = true;
-    window.dispatchEvent(Geo.event.resolvedLocation);
+    geo.latitude = position.coords.latitude;
+    geo.longitude = position.coords.longitude;
+    geo.resolved = true;
+    window.dispatchEvent(geoEvents.resolvedLocation);
   });
 }
 
 // Set API options to use more precision if desired or useful
-Geo.G.getPreciseLocation = function() {
-  var options = {
+function getPreciseLocation() {
+  const options = {
     enableHighAccuracy: true,
     timeout: 5000,
     maximumAge: 0
   }
-  var error_noop = function() {};
+  const error_noop = function() {};
   navigator.geolocation.getCurrentPosition(position => {
-    this.latitude = position.coords.latitude;
-    this.longitude = position.coords.longitude;
-    this.resolved = true;
-    window.dispatchEvent(Geo.event.resolvedLocation);
+    geo.latitude = position.coords.latitude;
+    geo.longitude = position.coords.longitude;
+    geo.resolved = true;
+    window.dispatchEvent(geoEvents.resolvedLocation);
   }, error_noop, options);
 }
 
+
 /*
- * Figure out the distance between current location and a zoo.
- * Given the browser locale, use miles or kilometers.
+ * Figure out the distance between current location and a zoo. Given the
+ * browser locale, use either miles or kilometers.
  */
-Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
-  var R = this.earth;
-  var lat1 = Geo.toRadians(myLat);
-  var lon1 = Geo.toRadians(myLon);
-  var lat2 = Geo.toRadians(targetLat);
-  var lon2 = Geo.toRadians(targetLon);
-  var dlon = lon2 - lon1;
-  var dlat = lat2 - lat1;
-  var a = Math.pow(Math.sin(dlat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(dlon/2), 2);
-  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-  var d = R * c;
-  return d;
+function haversine(myLat, myLon, targetLat, targetLon) {
+  const R = geo.earth
+  const lat1 = toRadians(myLat)
+  const lon1 = toRadians(myLon)
+  const lat2 = toRadians(targetLat)
+  const lon2 = toRadians(targetLon)
+  const dlon = lon2 - lon1
+  const dlat = lat2 - lat1
+  const a = 
+    Math.pow(Math.sin(dlat/2), 2) + 
+    Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(dlon/2), 2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
+  const d = R * c
+  return d
 }
 
-// Determine what units for displaying distance
-// Radius of earth is 3961mi, and 6373km
-Geo.G.setUnits = function() {
+/** The interstitial message to draw if blocked on location permissions */
+function renderGeoLookupStart() {
+  const newContent = document.createElement('div')
+  newContent.id = "hiddenContentFrame"
+  const shrinker = document.createElement('div')
+  shrinker.className = "shrinker"
+  // TODO ES6
+  const message = Message.geolocationStart(L.display)
+  shrinker.appendChild(message)
+  newContent.appendChild(shrinker)
+  // TODO ES6
+  // Redraw the search bar if necessary
+  Show["results"].searchBar()
+  // Append the new content into the page and then swap it in
+  const oldContent = document.getElementById('contentFrame')
+  // TODO ES6
+  Page.swap(oldContent, newContent)
+  // TODO ES6
+  // Call layout adjustment functions to shrink any names that are too long
+  Show["results"].menus.language()
+  Show["results"].menus.top()
+  Page.footer.redraw("results")
+  Page.color("results")
+}
+
+function setUnits() {
   if (navigator.language == "en-US") {
-    this.earth = 3961;
-    this.units = "mi";
+    geo.earth = 3961;
+    geo.units = "mi";
   } else {
-    this.earth = 6373;
-    this.units = "km";
+    geo.earth = 6373;
+    geo.units = "km";
   }
 }
 
-// When changing the accuracy rating, un-toggle the flag tracking
-// whether we completed a geo-lookup yet or not
-Geo.G.toggleAccuracy = function() {
-  this.accuracy = !(this.accuracy);
-  if (this.accuracy == true) {
+function toRadians(degrees) {
+  return degrees * (Math.PI/180)
+}
+
+/** 
+ * When changing the accuracy rating, un-toggle the flag tracking whether w
+ * completed a geo-lookup yet or not
+ */
+function toggleAccuracy() {
+  geo.accuracy = !(geo.accuracy);
+  if (geo.accuracy == true) {
     // Fine-grained control with GPS
-    this.resolved = false;
-    this.getPreciseLocation();
+    geo.resolved = false;
+    getPreciseLocation();
   } else {
     // Do a follow-up naive lookup. Our location may have changed,
     // so this isn't a waste of time if a toggle is performed.
-    this.resolved = false;
-    this.getNaiveLocation();
+    geo.resolved = false;
+    getNaiveLocation();
   }
 }
 
-Geo.event = {};
-Geo.event.foundZoos = new Event('found_zoos')
-Geo.event.resolvedLocation = new Event('resolved_location');
-
-// The interstitial message to draw if blocked on location permissions
-Geo.renderGeoLookupStart = function() {
-  var new_content = document.createElement('div');
-  new_content.id = "hiddenContentFrame";
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  var message = Message.geolocationStart(L.display);
-  shrinker.appendChild(message);
-  new_content.appendChild(shrinker);
-  // Redraw the search bar if necessary
-  Show["results"].searchBar();
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  Page.swap(old_content, new_content);
-  // Call layout adjustment functions to shrink any names that are too long
-  Show["results"].menus.language();
-  Show["results"].menus.top();
-  Page.footer.redraw("results");
-  Page.color("results");
-}
-
-Geo.toRadians = function(degrees) {
-  return degrees * (Math.PI/180);
-}
-
 window.addEventListener('found_zoos', function() {
+  // TODO ES6
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
   Page.results.render();
   Page.current = Page.results.render;
-  if (F.results.hits.length >= F.close_results) {
+  if (geo.results.hits.length >= geo.close_results) {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
-    F.toggleAccuracy();
+    toggleAccuracy()
   }
-});
+})
 
 window.addEventListener('resolved_location', function() {
   // Find 20 closest zoos within 100 (mi/km), and return the 5 closest
-  F.findClosest(F.radius, F.max_results);
-});
+  findClosest(geo.radius, geo.maxResults)
+})

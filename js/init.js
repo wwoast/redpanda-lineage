@@ -1,3 +1,4 @@
+import { Geo, init as GeoInit } from './geolocate.js'
 import * as Options from './options.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
@@ -24,7 +25,6 @@ var Q;   // Query stack
 var L;   // Language methods and current language
 var T;   // Touch object
 var G;   // Lineage graph
-var F;   // Geo-location "finder"
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Q = Query.init();
   T = Touch.init();
   G = Dagoba.graph();
-  F = Geo.init();
+  GeoInit();
   ScrollTop.init();
   Options.init();
 
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('hashchange', function() {
   // Any time the page changes, forget location details
   // in case we might have moved around
-  F.resolved = false;
+  Geo.resolved = false;
   // And forget how many pages we have shown
   Query.env.paging.shown_pages = 1;
   var mode = window.location.hash.split("/")[0];
