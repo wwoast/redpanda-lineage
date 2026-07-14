@@ -1,3 +1,5 @@
+import * as Options from './options.js'
+
 var Page = {};   // Namespace
 
 /*

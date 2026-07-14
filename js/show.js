@@ -1,6 +1,6 @@
-/*
-    Presentation-level data, separated out from final website layout
-*/
+import * as Options from './options.js'
+
+/** Presentation-level data, separated out from final website layout */
 var Show = {};   /* Namespace */
 
 // Given an animal and a language, obtain the immediate information that would

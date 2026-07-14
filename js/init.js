@@ -1,6 +1,6 @@
-/*
-    Mobile meta-tag support for various phone/tablet font scales
-*/
+import * as Options from './options.js'
+
+/** Mobile meta-tag support for various phone/tablet font scales */
 (function() {
   if ( navigator.platform === "iPad" ) {
     var scale = 1.2;
