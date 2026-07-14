@@ -28,13 +28,10 @@ var L;   // Language methods and current language
 var T;   // Touch object
 var G;   // Lineage graph
 
-/*
-    Once page has loaded, add new event listeners for search processing
-*/
+/** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
   Q = Query.init();
-  T = Touch.init();
   G = Dagoba.graph();
   GeoInit()
   ScrollTop.init()
