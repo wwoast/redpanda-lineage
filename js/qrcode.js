@@ -61,7 +61,7 @@ QR8bitByte.prototype = {
 // QRCode
 //---------------------------------------------------------------------
 
-function QRCode(typeNumber, errorCorrectLevel) {
+export function QRCode(typeNumber, errorCorrectLevel) {
 	this.typeNumber = typeNumber;
 	this.errorCorrectLevel = errorCorrectLevel;
 	this.modules = null;

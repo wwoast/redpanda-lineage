@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import { showQRCode } from './html5-qrcode.js'
 import * as Options from './options.js'
 
 /** Presentation-level data, separated out from final website layout */
@@ -556,7 +557,7 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   if ((photo_index != null) && (animal_index != null)) {
     safe_url = "https://" + window.location.host + "/#profile/" + animal_index + "/photo/" + photo_index;
   }
-  var img = showQRCode(safe_url);
+  var img = showQRCode(safe_url)
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
   var button = document.createElement('button');

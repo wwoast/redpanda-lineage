@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import * as Options from './options.js'
+import * as ScrollTop from './scrollTop.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
 (function() {
@@ -34,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function() {
   Q = Query.init();
   T = Touch.init();
   G = Dagoba.graph();
-  GeoInit();
-  ScrollTop.init();
-  Options.init();
+  GeoInit()
+  ScrollTop.init()
+  Options.init()
 
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
