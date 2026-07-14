@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import * as Message from './message.js'
 import * as Options from './options.js'
 
 var Page = {};   // Namespace

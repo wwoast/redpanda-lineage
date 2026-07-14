@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import { showQRCode } from './html5-qrcode.js'
+import * as Message from './message.js'
 import * as Options from './options.js'
 
 /** Presentation-level data, separated out from final website layout */

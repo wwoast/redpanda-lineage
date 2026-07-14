@@ -1,3 +1,4 @@
+import * as Message from './message.js'
 import * as Touch from './touch.js'
 
 /*

@@ -1,3 +1,5 @@
+import * as Message from './message.js'
+
 /**
  * Allows queries for nearby zoos, using the browser Geolocation API.
  *  
@@ -139,7 +141,6 @@ function renderGeoLookupStart() {
   newContent.id = "hiddenContentFrame"
   const shrinker = document.createElement('div')
   shrinker.className = "shrinker"
-  // TODO ES6
   const message = Message.geolocationStart(L.display)
   shrinker.appendChild(message)
   newContent.appendChild(shrinker)
