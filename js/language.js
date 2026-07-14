@@ -209,6 +209,7 @@ Language.L.emoji = {
       "no_emoji": "⚪",
        "no_more": "🚫",
           "nose": "👃",
+       "options": "⚙️",
         "paging": "⏬",
          "panda": "🐼",
           "paws": "🐾",
@@ -263,7 +264,6 @@ Language.L.emoji = {
          "worry": "😢",
           "yawn": "😪",
            "zoo": "🦁",
-       "options": "⚙️"
 }
 
 // TODO: key on other language versions of country names

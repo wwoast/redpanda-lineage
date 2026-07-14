@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
   F = Geo.init();
   ScrollTop.init();
-
   Options.init();
 
   L.defaultDisplayLanguage();   // Set default display language
