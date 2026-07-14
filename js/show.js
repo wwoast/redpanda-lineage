@@ -12,7 +12,7 @@ Show.acquirePandaInfo = function(animal, language) {
   var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
-     "birthplace": Pandas.myZoo(animal, "birthplace", language),
+     "birthplace": Pandas.myZoo(animal, "birthplace"),
        "children": Pandas.searchPandaChildren(animal["_id"]),
           "death": Pandas.date(animal, "death", language),
             "dad": Pandas.searchPandaDad(animal["_id"]),
@@ -55,14 +55,11 @@ Show.acquireLocationList = function(animal, language) {
 
 Show.getZooBundle = function(location, language) {
   var zoos = Pandas.searchZooId(location["zoo"]);
-
   if (zoos.length === 0) {
     return Show.getUnknownZooBundle(location, language);
   }
-
   if (zoos.length > 0) {
     var zoo = L.fallbackEntity(zoos[0]); // Do language fallback strings
-
     return {
         "end_date": Pandas.formatDate(location["end_date"], language),
               "id": Pandas.zooField(zoo, "_id"),
