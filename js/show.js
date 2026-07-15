@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import { showQRCode } from './html5-qrcode.js'
+import Layout from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
 
@@ -2034,8 +2035,8 @@ Show.results.children = function(info) {
 Show.results.family = function(info) {
   // Display lists of family information, starting with parents,
   // then adding immediate littermates, and finally including the
-  // other siblings, ordered by birthday. This is the pink stripe
-  // at the bottom of a family dossier.
+  // other siblings, ordered by birthday. This is the tan stripe
+  // at the bottom of a family dossier in a search-result card
   var family = document.createElement('div');
   family.className = "family";
   if ((info.dad.length == 0 && info.mom.length == 0) &&
@@ -2060,9 +2061,8 @@ Show.results.family = function(info) {
   if (info.children.length > 0) {
     children = Show.results.children(info);
   }
-  var layout = Layout.init(family, info, parents, litter, siblings, children);
-  family = layout.layout();
-  return family;
+  family = new Layout(family, info, parents, litter, siblings, children)
+  return family
 }
 Show.results.groupGallery = function(id_list) {
   var gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"];

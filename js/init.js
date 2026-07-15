@@ -25,7 +25,6 @@ import * as ScrollTop from './scrollTop.js'
 var P;   // Pandas
 var Q;   // Query stack
 var L;   // Language methods and current language
-var T;   // Touch object
 var G;   // Lineage graph
 
 /** Once page has loaded, add new event listeners for search processing */
