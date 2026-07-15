@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import { mediaQuery, shrinkNames } from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
 
@@ -78,8 +79,8 @@ Page.about.hashchange = function() {
     // Default: usage instructions appear non-hidden.
     Page.about.sections.show(Page.stored.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
-    Page.about.instructions(Layout.media);
-    Layout.media.addListener(Page.about.instructions);
+    Page.about.instructions();
+    mediaQuery.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();
     Page.current = Page.about.render;
@@ -88,7 +89,7 @@ Page.about.hashchange = function() {
 }
 Page.about.instructions = function() {
   // Event listener callback for showing either mobile, or PC-mode instructions
-  if (Layout.media.matches) {
+  if (mediaQuery.matches) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
     document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
   } else {
@@ -365,7 +366,7 @@ Page.home.render = function() {
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
     Page.swap(old_content, new_content);
-    Layout.shrinkNames();
+    shrinkNames();
     Page.footer.redraw("landing");
   } else {
     var new_content = document.createElement('img');
@@ -546,7 +547,7 @@ Page.media.render = function() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
-  Layout.shrinkNames();
+  shrinkNames();
   Show["media"].menus.language();
   var result_id = results["hits"][0]["_id"];
   Show["media"].menus.top(result_id);
@@ -909,7 +910,7 @@ Page.results.render = function() {
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
-  Layout.shrinkNames();
+  shrinkNames();
   Show["results"].menus.language();
   Show["results"].menus.top();
   Page.footer.redraw("results");

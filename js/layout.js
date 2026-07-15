@@ -9,7 +9,7 @@
  */
 
 /** Tells JS to do operations on either a mobile or desktop size window */
-const mediaQuery = window.matchMedia("(max-width: 670px)")
+export const mediaQuery = window.matchMedia("(max-width: 670px)")
 
 /** 
  * Media-query height adjustment listeners, plus making sure the height
@@ -17,7 +17,6 @@ const mediaQuery = window.matchMedia("(max-width: 670px)")
  */
 mediaQuery.addListener(shrinkNames)
 mediaQuery.addListener(recomputeHeight)
-document.addEventListener("DOMContentLoaded", recomputeHeight)
 
 /** 
  * Create a divider. This is a horizontal rule element with 100% width. Works
@@ -115,7 +114,7 @@ function recomputeHeight(e) {
  * Look for span elements that are children of links, in the family bars. Any
  * of these displayed in the page larger than 100px will get shrunk.
  */
-function shrinkNames() {
+export function shrinkNames() {
   const width_check = function(span, element, width_select) {
     let width = element.offsetWidth   // Default to outer width
     if (width_select == "inner") {

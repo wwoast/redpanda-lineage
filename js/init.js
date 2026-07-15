@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import * as Icons from './icons.js'
+import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as ScrollTop from './scrollTop.js'
 
@@ -37,12 +38,12 @@ document.addEventListener("DOMContentLoaded", function() {
   Options.init()
   Icons.walk(document.body)   // Replace emojis with SVG icons
   Icons.observe()   // More SVG emoji replacements on page mutate
-
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
-
+  // If rendering any search results for families, update the div height
+  recomputeHeight()
   // Most RPF pages won't save your place on the page on purpose,
   // because refresh events don't put you at the top of page properly
   // work properly when this is enabled. However, leave it on for the
@@ -83,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // When all webfonts have rendered, recalculate text shrinks
     // Couldn't get typesquare events working :(
-    setTimeout(Layout.shrinkNames, 1000);
+    setTimeout(shrinkNames, 1000);
   });
 
   // Fetch the about page contents for each language
@@ -146,8 +147,8 @@ window.addEventListener('about_loaded', function() {
     // Default: usage instructions appear non-hidden.
     Page.about.sections.show(Page.stored.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
-    Page.about.instructions(Layout.media);
-    Layout.media.addListener(Page.about.instructions);
+    Page.about.instructions();
+    mediaQuery.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();  
     Page.current = Page.about.render;
