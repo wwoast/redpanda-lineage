@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import { showQRCode } from './html5-qrcode.js'
+import * as Language from './language.js'
 import Layout from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
@@ -41,7 +42,7 @@ Show.acquirePandaInfo = function(animal, language) {
            "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  bundle = L.fallbackInfo(bundle, animal);  // Any defaults here?
+  bundle = Language.fallbackInfo(bundle, animal);  // Any defaults here?
   // HACK: revert search context
   animal["search_context"] = undefined;
   return bundle;
@@ -64,7 +65,7 @@ Show.getZooBundle = function(location, language) {
     return Show.getUnknownZooBundle(location, language);
   }
   if (zoos.length > 0) {
-    var zoo = L.fallbackEntity(zoos[0]); // Do language fallback strings
+    var zoo = Language.fallbackEntity(zoos[0]); // Do language fallback strings
     return {
         "end_date": Pandas.formatDate(location["end_date"], language),
               "id": Pandas.zooField(zoo, "_id"),
@@ -112,8 +113,8 @@ Show.acquireZooInfo = function(zoo, language) {
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
   }
-  bundle = L.fallbackInfo(bundle, zoo);  // Any defaults here?
-  return bundle;
+  bundle = Language.fallbackInfo(bundle, zoo)  // Any defaults here?
+  return bundle
 }
 
 // Construct an animal link as per parameters. Options include
@@ -162,7 +163,7 @@ Show.animalLink = function(animal, link_text, language, options) {
   }
   // Multiple possible moms or dads?
   if (options.indexOf("question_icon") != -1) {
-    gender_text = gender_text.replace("\xa0", "") + Language.L.emoji.question + "\xa0";
+    gender_text = gender_text.replace("\xa0", "") + Language.emoji.question + "\xa0";
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
@@ -702,7 +703,7 @@ Show.button.flag.action = function() {
   // changed from the current display language.
   if ((choice > -1) && (language != L.display)) {
     L.display = language;
-    L.update();
+    Language.update();
     // Redraw the nearby page if necessary
     if (Query.env.output_mode == "nearby") {
       Geo.getNaiveLocation();
@@ -721,7 +722,7 @@ Show.button.flag.render = function(language, class_color) {
   content.className = "buttonContent";
   var icon = document.createElement('div');
   icon.className = "buttonIcon";
-  icon.innerText = Language.L.gui.flag[language];
+  icon.innerText = Language.gui.flag[language];
   content.appendChild(icon);
   button.appendChild(content);
   button.addEventListener("click", Show.button.flag.action);
@@ -761,7 +762,7 @@ Show.button.language.altAction = function(e) {
   var count = options.length;
   var choice = (options.indexOf(language) + 1) % count;
   L.display = options[choice];
-  L.update();
+  Language.update();
   // Redraw the nearby page if necessary
   if (Query.env.output_mode == "nearby") {
     Geo.getNaiveLocation();
@@ -1090,7 +1091,7 @@ Show.options.content.render = function() {
 Show.options.content.header = function() {
   var header = document.createElement('h3');
 
-  header.innerText = Language.L.gui['options'][L.display];
+  header.innerText = Language.gui['options'][L.display];
 
   return header;
 }
@@ -1113,7 +1114,7 @@ Show.options.content.deadPandas.render = function() {
 
   var label = document.createElement('label');
   label.htmlFor = 'dead-pandas';
-  label.innerText = Language.L.gui['opt_hide_dead_pandas'][L.display];
+  label.innerText = Language.gui['opt_hide_dead_pandas'][L.display];
 
   container.appendChild(label);
 
@@ -1185,7 +1186,7 @@ Show.links.flags = function(order) {
   // Convert the language order string into a list of flag emojis
   var flags = "";
   if (order.length > 0) {
-    flags = order.map(l => Language.L.gui.flag[l]).join(" ");
+    flags = order.map(l => Language.gui.flag[l]).join(" ");
   }
   return flags;
 }
@@ -1226,7 +1227,7 @@ Show.links.menus.section = function(subpage) {
     if (btn_name == subpage) {
       btn_class = btn_class + " selected";
     }
-    var text = Language.L.gui[btn_id][L.display];
+    var text = Language.gui[btn_id][L.display];
     var button = Show.button.section.render(btn_class, btn_id, text);
     menu.appendChild(button);
   }
@@ -1260,7 +1261,7 @@ Show.links.order.given = function(links) {
   var output = {};
   output.counts = {};
   // Count the hits for each language that we support in the display modes
-  for (let language of Language.L.default.order) {
+  for (let language of Language.fallback.order) {
     output.counts[language] = 0;
   }
   // Grab the icon from the links values
@@ -1272,9 +1273,9 @@ Show.links.order.given = function(links) {
     // Fallback language order
     var language_order = links[field_name + ".language.order"];
     if (links[field_name + ".language.order"] == undefined) {
-      language_order = Language.L.default.order;
+      language_order = Language.fallback.order
     } else {
-      language_order = language_order.split(", ");
+      language_order = language_order.split(", ")
     }
     // Fallback name selection, if (like the instagram names) we don't
     // have language-specific names. Start with a generic name field if
@@ -1416,9 +1417,9 @@ Show.links.sections.instagramLinks = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.L.gui["instagramLinks_header"][L.display];
+  h2.innerText = Language.gui["instagramLinks_header"][L.display];
   var body = document.createElement('p');
-  body.innerText = Language.L.gui["instagramLinks_body"][L.display];
+  body.innerText = Language.gui["instagramLinks_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add("multiColumn");
@@ -1444,9 +1445,9 @@ Show.links.sections.redPandaCommunity = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.L.gui["redPandaCommunity_header"][L.display];
+  h2.innerText = Language.gui["redPandaCommunity_header"][L.display];
   var body = document.createElement('p');
-  body.innerText = Language.L.gui["redPandaCommunity_body"][L.display];
+  body.innerText = Language.gui["redPandaCommunity_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1471,9 +1472,9 @@ Show.links.sections.specialThanksLinks = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.L.gui["specialThanksLinks_header"][L.display];
+  h2.innerText = Language.gui["specialThanksLinks_header"][L.display];
   var body = document.createElement('p');
-  body.innerText = Language.L.gui["specialThanksLinks_body"][L.display];
+  body.innerText = Language.gui["specialThanksLinks_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1497,9 +1498,9 @@ Show.links.sections.zooLinks = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.L.gui["zooLinks_header"][L.display];
+  h2.innerText = Language.gui["zooLinks_header"][L.display];
   var body = document.createElement('p');
-  body.innerText = Language.L.gui["zooLinks_body"][L.display];
+  body.innerText = Language.gui["zooLinks_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -2204,7 +2205,7 @@ Show.results.pandaDetails = function(info) {
     var target_zoo = Pandas.searchZooId(info.search_context.from)[0];
     var target_date = Pandas.formatDate(info.search_context.move_date, language);
     // Custom language templates for this
-    var icon = Language.L.emoji.truck;
+    var icon = Language.emoji.truck;
     var target_text = Message.arrived_from_zoo(target_zoo[language + ".name"], target_date, language);
     var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
@@ -2223,7 +2224,7 @@ Show.results.pandaDetails = function(info) {
     var target_zoo = Pandas.searchZooId(info.search_context.to)[0];
     var target_date = Pandas.formatDate(info.search_context.move_date, language);
     // Custom language templates for this
-    var icon = Language.L.emoji.truck;
+    var icon = Language.emoji.truck;
     var target_text = Message.departed_to_zoo(target_zoo[language + ".name"], target_date, language);
     var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
@@ -2240,12 +2241,12 @@ Show.results.pandaDetails = function(info) {
     var zoo = document.createElement('p');
     var target_zoo = Pandas.searchZooId(info.search_context.at)[0];
     var target_date = Pandas.formatDate(info.search_context.move_date, language);
-    var icon = Language.L.emoji.born_at;
+    var icon = Language.emoji.born_at;
     var target_text = target_zoo[language + ".name"];
     var compare_text = info.zoo[language + ".name"];
     if (target_text == compare_text && info.death == Pandas.def.unknown[language]) {
       squelch_home_zoo = true;
-      icon = icon + " " + Language.L.emoji.home;
+      icon = icon + " " + Language.emoji.home;
     }
     if (info.death != Pandas.def.unknown[language]) {
       squelch_home_zoo = true;
@@ -2265,12 +2266,12 @@ Show.results.pandaDetails = function(info) {
     var zoo = document.createElement('p');
     var target_zoo = Pandas.searchZooId(info.search_context.at)[0];
     var target_date = Pandas.formatDate(info.search_context.move_date, language);
-    var icon = Language.L.emoji.zoo;
+    var icon = Language.emoji.zoo;
     var target_text = target_zoo[language + ".name"];
     var compare_text = info.zoo[language + ".name"];
     if (target_text == compare_text) {
       squelch_home_zoo = true;
-      icon = Language.L.emoji.home;
+      icon = Language.emoji.home;
     }
     var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
@@ -2284,9 +2285,9 @@ Show.results.pandaDetails = function(info) {
     // Next, show the date ranges this is valid for
     for (let range of info.search_context.ranges) {
         var entry = document.createElement('p');
-      var icon = Language.L.emoji.range_previous;
+      var icon = Language.emoji.range_previous;
       if (range.length < 2 && info.death == Pandas.def.unknown[language]) {
-        icon = Language.L.emoji.truck;   // When they arrived, haven't left
+        icon = Language.emoji.truck;   // When they arrived, haven't left
       }
       var start_range = Pandas.formatDate(range.shift(), language);
       var end_range = range.shift();
@@ -2634,7 +2635,7 @@ Show.results.zooCounts = function(info) {
       }
     }
     if (died_count > 0) {
-      output_text = output_text.concat(" " + Language.L.emoji.died);
+      output_text = output_text.concat(" " + Language.emoji.died);
     }
     output_text = Language.unpluralize([output_text])[0];
     var text_node = document.createTextNode(output_text);

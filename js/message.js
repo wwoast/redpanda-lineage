@@ -1,3 +1,5 @@
+import * as Language from './language.js'
+
 /**
  * Functions used to generate translated heading snippets in various page modes
  */
@@ -19,7 +21,7 @@ export function arrivals(zoo, born, language) {
     p.appendChild(msg)
   }
   if (born.length > 0) {
-    const suffix = document.createTextNode(" " + Language.L.emoji.baby)
+    const suffix = document.createTextNode(" " + Language.emoji.baby)
     p.appendChild(suffix)
   }
   link.appendChild(p)
@@ -219,7 +221,7 @@ export function departures(zoo, deaths, leaving, language) {
     p.appendChild(msg)
   }
   if ((deaths.length > 0) && (leaving.length == deaths.length)) {
-    const suffix = document.createTextNode(" " + Language.L.emoji.died)
+    const suffix = document.createTextNode(" " + Language.emoji.died)
     p.appendChild(suffix)
   }
   link.appendChild(p)
@@ -412,7 +414,7 @@ export function new_photos(language) {
   } else {
     section_order = ["photos", "suffix"]
   }
-  const lookup = Language.L.messages.new_photos
+  const lookup = Language.messages.new_photos
   const pieces = []
   for (const part of section_order) {
     const count = counts[part];
@@ -643,10 +645,10 @@ export function tag_object(num, name, emoji, tag, language) {
   // Need to look up "baby" info as well from the polyglot list of things
   // that can be either keywords or tags.
   let near_tag = undefined
-  if (tag in Language.L.tags) {
-    near_tag = Language.L.tags[tag][language][0]
+  if (tag in Language.tags) {
+    near_tag = Language.tags[tag][language][0]
   } else {
-    near_tag = Language.L.polyglots[tag][language][0]
+    near_tag = Language.polyglots[tag][language][0]
   }
   const p = document.createElement('p');
   for (const i in L.messages.tag_subject[language]) {

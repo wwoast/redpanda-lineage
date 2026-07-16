@@ -1,7 +1,5 @@
+import * as Language from './language.js'
 import * as jsleri from './jsleri-1.1.13.min.js'
-
-// TODO ES6
-L = Language.init()   // Initialize the language methods for proper parser building
 
 /**
  * Get a list of valid operators (the leaf children) of the different keyword
@@ -37,14 +35,14 @@ export function searchTag(search_tag) {
   if (latin == true)
     search_tag = search_tag.toLowerCase()
   // Now search the tags list for a match
-  for (const key of Object.keys(Language.L.tags)) {
-    const terms = values(Language.L.tags[key])
+  for (const key of Object.keys(Language.tags)) {
+    const terms = values(Language.tags[key])
     if (terms.includes(search_tag))
       return key
   }
   // Search things that could be tags in the right context
-  for (const key of Object.keys(Language.L.polyglots)) {
-    const terms = values(Language.L.polyglots[key])
+  for (const key of Object.keys(Language.polyglots)) {
+    const terms = values(Language.polyglots[key])
     if (terms.includes(search_tag))
       return key
   }
@@ -268,13 +266,13 @@ export const group = {
   panda: values([keyword.panda]),
   /** Aggregate of all possible tag values */
   // TODO ES6
-  tags: values([Language.L.tags]),
+  tags: values([Language.tags]),
   /** Keywords that take some kind of author or contributor name */
   takes_subject_author: values([keyword.credit]),
   /** Keywords that take some form of arbitrary string name */
   // TODO ES6
   takes_subject_name: values([
-    Language.L.tags,
+    Language.tags,
     keyword.baby,
     keyword.credit,
     keyword.family,
@@ -283,7 +281,7 @@ export const group = {
   ]),
   /** Keywords that take some form of numeric ID value */
   takes_subject_number: values([
-    Language.L.tags,
+    Language.tags,
     keyword.born_at,
     keyword.died_at,
     keyword.lived_at,
@@ -306,7 +304,7 @@ export const group = {
   /** Single keywords that represent queries on their own */
   // TODO ES6
   zeroary: values([
-    Language.L.tags,
+    Language.tags,
     keyword.baby,
     keyword.dead,
     keyword.nearby
@@ -425,7 +423,6 @@ class Lexer {
         for (let i = 0; i < input_split.length - n; i++) {
           let token = input_split.slice(i, i+n+1).join(' ');
           // Name matching needs to use locale-specific normalizing
-          // TODO ES6
           if (list_name == "names")
             token = Language.capitalNames(token)
           tokenlist.push(token)

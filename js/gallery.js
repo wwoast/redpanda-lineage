@@ -1,3 +1,4 @@
+import * as Language from './language.js'
 import * as Message from './message.js'
 import * as Query from './query.js'
 import * as Touch from './touch.js'
@@ -377,7 +378,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=3, max_animals=5) 
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
       var caption_span = document.createElement('span');
-      caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      caption_span.innerText = Language.emoji.camera + " " + photo["photo.author"];
       // TODO: condenser
       caption.appendChild(caption_span);
       caption_link.appendChild(caption);
@@ -616,7 +617,7 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   var caption_credit = document.createElement('h5');
   caption_credit.className = "caption groupMediaAuthor";
   var caption_credit_span = document.createElement('span');
-  caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
+  caption_credit_span.innerText = Language.emoji.apple + " " + author;
   caption_credit.appendChild(caption_credit_span);
   caption_credit_link.appendChild(caption_credit);
   // Put it all in a frame
@@ -670,7 +671,7 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
       var caption = document.createElement('h5');
       caption.className = "caption memorialMessage";
       var caption_span = document.createElement('span');
-      caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      caption_span.innerText = Language.emoji.camera + " " + photo["photo.author"];
       // TODO: condenser
       caption.appendChild(caption_span);
       caption_link.appendChild(caption);
@@ -710,7 +711,7 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
       var caption = document.createElement('h5');
       caption.className = "caption memorialMessage";
       var caption_span = document.createElement('span');
-      caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      caption_span.innerText = Language.emoji.camera + " " + photo["photo.author"];
       // TODO: condenser
       caption.appendChild(caption_span);
       caption_link.appendChild(caption);
@@ -761,7 +762,7 @@ Gallery.memorialPhotoCreditsGroup = function(language, group_id, id_list, photo_
     var caption = document.createElement('h5');
     caption.className = "caption memorialMessage";
     var caption_span = document.createElement('span');
-    caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+    caption_span.innerText = Language.emoji.camera + " " + photo["photo.author"];
     // TODO: condenser
     caption.appendChild(caption_span);
     caption_link.appendChild(caption);
@@ -903,21 +904,21 @@ Gallery.tagPhotoMessage = function(results, hit_count) {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
-                                      Language.L.tags[ctag]["emoji"], 
+                                      Language.tags[ctag]["emoji"], 
                                       ctag, L.display);
   } else if (results["parsed"] == "set_baby_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
-                           Language.L.polyglots[ctag]["emoji"], 
+                           Language.polyglots[ctag]["emoji"], 
                            ctag, L.display);
   } else if (results["parsed"] == "set_tag_intersection") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
+    var emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"]);
     header = Message.tag_combo(hit_count, emojis, L.display);
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
+    var emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"]);
     header = Message.tag_combo(hit_count, emojis, L.display);
   } else {
     header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
@@ -957,7 +958,7 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
     caption.innerText = info.name;
   }
   // Prefix caption with an emoji if we can get one
-  var tag_lookup = Language.L.tags[result["photo.tags"][0]];
+  var tag_lookup = Language.tags[result["photo.tags"][0]];
   if ((tag_lookup != undefined) && (add_emoji == true)) {
     var emoji = tag_lookup["emoji"];
     caption.innerText = emoji + "\xa0" + caption.innerText;
@@ -1028,7 +1029,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=7) {
       caption.classList.add("newContributor");
     }
     else {
-      author_span.innerText = Language.L.emoji.camera + "\xa0" + item.credit;
+      author_span.innerText = Language.emoji.camera + "\xa0" + item.credit;
     }
     author.appendChild(author_span);
     caption_link.appendChild(caption);
@@ -1113,11 +1114,11 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     }
     // New author added, so make sure it gets the giftwrap
     if (author_photos_all.map(photo => photo.credit).indexOf(zoo_photo.credit) != -1) {
-      zoo_photo.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
+      zoo_photo.credit_icon = Language.emoji.giftwrap;   // new panda and author!
     }
     // Give it giftwrap if only one photo attributed to this author
     if (P.db._photo.credit[zoo_photo.credit] == 1) {
-      zoo_photo.credit_icon = Language.L.emoji.giftwrap;
+      zoo_photo.credit_icon = Language.emoji.giftwrap;
     }
     var class_list = ["zoo", zoo_classes[zoo_class_index % zoo_classes.length]];
     zoo_photo.classes = class_list;
@@ -1137,13 +1138,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     zoo_pandas = Pandas.unique(zoo_pandas, "id");
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
     for (let zoo_panda of zoo_pandas) {
-      zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
+      zoo_panda.name_icon = Language.emoji.profile;   // heart_panel
       if (author_photos_all.map(photo => photo.credit).indexOf(zoo_panda.credit) != -1) {
-        zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
+        zoo_panda.credit_icon = Language.emoji.giftwrap;   // new panda and author!
       }
       // Give it giftwrap if only one photo attributed to this author
       if (P.db._photo.credit[zoo_panda.credit] == 1) {
-        zoo_panda.credit_icon = Language.L.emoji.giftwrap;
+        zoo_panda.credit_icon = Language.emoji.giftwrap;
       }
       zoo_panda.classes = class_list;
       output_photos.push(zoo_panda);
@@ -1166,9 +1167,9 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     // New panda added, so make sure it gets the heart icon
     if ((panda_photos.map(panda => panda.id).indexOf(author_photo.id) != -1) &&
         (author_photo.id.indexOf("media") == -1)) {
-      author_photo.name_icon = Language.L.emoji.profile;
+      author_photo.name_icon = Language.emoji.profile;
     }
-    author_photo.credit_icon = Language.L.emoji.giftwrap;
+    author_photo.credit_icon = Language.emoji.giftwrap;
     output_photos.push(author_photo);
     photo_count = photo_count - 1;
   }
@@ -1183,7 +1184,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       continue;
     }
     // New panda added, so make sure it gets the heart icon
-    new_panda_photo.name_icon = Language.L.emoji.profile;
+    new_panda_photo.name_icon = Language.emoji.profile;
     output_photos.push(new_panda_photo);
     photo_count = photo_count - 1;
   }
@@ -1339,7 +1340,7 @@ Gallery.special.pumpkin = function(language, photo_count=5) {
     var credit_caption = document.createElement('h5');
     credit_caption.className = "caption updateAuthor halloweenMessage";
     var credit_caption_span = document.createElement('span');
-    credit_caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+    credit_caption_span.innerText = Language.emoji.camera + " " + photo["photo.author"];
     // TODO: condenser
     credit_caption.appendChild(credit_caption_span);
     credit_caption_link.appendChild(credit_caption);
@@ -1397,7 +1398,7 @@ Gallery.special.taglist = function(language, photo_count=5, taglist, message_fun
     var credit_caption = document.createElement('h5');
     credit_caption.className = "caption updateAuthor";
     var credit_caption_span = document.createElement('span');
-    credit_caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+    credit_caption_span.innerText = Language.emoji.camera + " " + photo["photo.author"];
     // TODO: condenser
     credit_caption.appendChild(credit_caption_span);
     credit_caption_link.appendChild(credit_caption);

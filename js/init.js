@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import * as Icons from './icons.js'
+import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as Query from './query.js'
@@ -25,7 +26,6 @@ import * as ScrollTop from './scrollTop.js'
     Global objects usable by forms, and things that operate as the page loads
 */
 var P;   // Pandas
-var L;   // Language methods and current language
 var G;   // Lineage graph
 
 /** Once page has loaded, add new event listeners for search processing */
@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
   Options.init()
   Icons.walk(document.body)   // Replace emojis with SVG icons
   Icons.observe()   // More SVG emoji replacements on page mutate
-  L.defaultDisplayLanguage();   // Set default display language
+  Language.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
-  L.update();      // Update buttons, displayed results, and cookie state
+  Language.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
   // If rendering any search results for families, update the div height
   recomputeHeight()

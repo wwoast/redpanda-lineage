@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
@@ -204,17 +205,17 @@ Page.about.tags = function() {
   var tagList = document.createElement('ul');
   tagList.classList.add("tagList");
   tagList.classList.add("multiColumn");
-  var tagKeys = Object.keys(Language.L.tags);
+  var tagKeys = Object.keys(Language.tags);
   var primaryTags = {};
   for (let key of tagKeys) {
-    var primaryTag = Language.L.tags[key][Page.about.language][0];
+    var primaryTag = Language.tags[key][Page.about.language][0];
     // Index by primaryTag, while the value is the key to the tagList
     primaryTags[primaryTag] = key;
   }
   var sortedTags = Object.keys(primaryTags).sort();
   for (let thisTag of sortedTags) {
     let lookup = primaryTags[thisTag];
-    let thisEmoji = Language.L.tags[lookup]["emoji"];
+    let thisEmoji = Language.tags[lookup]["emoji"];
     var tagLi = document.createElement('li');
     var tagLink = document.createElement('a');
     tagLink.href = "#query/" + thisTag;

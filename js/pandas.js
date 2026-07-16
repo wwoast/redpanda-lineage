@@ -1,3 +1,4 @@
+import * as Language from './language.js'
 import * as Parse from './parse.js'
 
 /*
@@ -1752,7 +1753,7 @@ Pandas.sortByNameJapanese = function(nodes) {
   var othername_field = "ja.othernames";
   var sort_name = "ja.sortname";
 
-  var connector = Language.L.messages["and"][L.display]
+  var connector = Language.messages["and"][L.display]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
@@ -2030,23 +2031,23 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
   animals = animals.sort((a, b) => a['x'] > b['x'] ? 1: -1);
   // Read off their names into the output string and return
   if (animals.length > 0) {
-    var connector = Language.L.messages["and"][L.display];
+    var connector = Language.messages["and"][L.display];
     // HACK: Assume latin languages do comma-replacement the same way
     if ((animals.length > 2) && (Language.alphabets.latin.indexOf(L.display) != -1)) {
-      connector = Language.L.messages["comma"][L.display];
+      connector = Language.messages["comma"][L.display];
       output_string = animals.map(x => x.name).join(connector);
       var last_animal = animals[animals.length-1];
       var match = new RegExp(connector + last_animal.name + "$");
-      var replace = Language.L.messages["and"][L.display] + last_animal.name;
+      var replace = Language.messages["and"][L.display] + last_animal.name;
       output_string = output_string.replace(match, replace);
     } else {  
       output_string = animals.map(x => x.name).join(connector);
     }
   }
   // Replace "baby, baby, baby" with group term
-  if ((Parse.values(Language.L.polyglots["baby"]).includes(animals[0].name)) &&
+  if ((Parse.values(Language.polyglots["baby"]).includes(animals[0].name)) &&
       (Pandas.unique(animals, "name").length == 1)) {
-    output_string = Language.L.gui["babies"][L.display]
+    output_string = Language.gui["babies"][L.display]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"
   return output_string;
@@ -2123,11 +2124,11 @@ Pandas.indeterminateSiblings = function(animal_id, sibling_id) {
 
 // Return the language order as an array
 Pandas.language_order = function(entity) {
-  var ordering = entity["language.order"];
+  var ordering = entity["language.order"]
   if (ordering == undefined) {
-    return Language.L.default.order;
+    return Language.fallback.order
   } else {
-    return ordering.split(", ");
+    return ordering.split(", ")
   }
 }
 
@@ -2312,7 +2313,7 @@ Pandas.parseDate = function(date, language) {
       return {"year": nums[1], "month": nums[0], "day": "any"};
     } else {
       // no four-digit year, so assume MM/DD based on locale
-      var locale = Language.L.date_locale["mm_dd"][language].split("_");
+      var locale = Language.date_locale["mm_dd"][language].split("_");
       if (locale[0] == "mm") {
         return {"year": "any", "month": nums[0], "day": nums[1]};
       } else {
@@ -2321,7 +2322,7 @@ Pandas.parseDate = function(date, language) {
     }
   } else if (nums.length == 3) {
     // Some form of month/day/year
-    var locale = Language.L.date_locale["yy_mm_dd"][language].split("_");
+    var locale = Language.date_locale["yy_mm_dd"][language].split("_");
     if (nums[0] > 31) {    // Almost certainly YYYY/MM/DD
       return {"year": nums[0], "month": nums[1], "day": nums[2]};
     } else if (nums[2] > 31) {
@@ -2337,7 +2338,7 @@ Pandas.parseDate = function(date, language) {
         }
       }
     } else {   // All two-digit values for dates, so use the locale
-      var locale = Language.L.date_locale["yy_mm_dd"][language].split("_");
+      var locale = Language.date_locale["yy_mm_dd"][language].split("_");
       if (locale[0] == "mm") {
         return {"year": nums[2], "month": nums[0], "day": nums[1]};
       } else if (locale[0] == "dd") {

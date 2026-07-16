@@ -4,39 +4,50 @@ import * as Query from './query.js'
     Language fallback methods
 */
 
-var Language = {};   // Namespace
-
-Language.L = {};     // Prototype
-
+// TODO ES6: get rid of Language.L and just use state here, as well as in
+// localStorage
 Language.init = function() {
-  var language = Object.create(Language.L);
+  var language = Object.create(Language.L)
   // The current displayed language in the page, and stored in the 
   // browser's localStorage API
-  language.display = undefined;
-  language.storage = window.localStorage;
+  language.display = undefined
+  language.storage = window.localStorage
   // Construct tag lists with arbitrary capitalization
   for (let tag in language.tags) {
-    var en_tags = language.tags[tag]["en"];
-    var first_cap = en_tags.map(x => Language.capitalize(x, "first"));
-    var all_cap = en_tags.map(y => Language.capitalize(y, "all"));
-    language.tags[tag]["en"] = en_tags.concat(first_cap)
-                                      .concat(all_cap)
-                                      .filter(function(value, index, self) {
-                                        return self.indexOf(value) === index;
-                                      });
+    var en_tags = language.tags[tag]["en"]
+    var first_cap = en_tags.map(x => capitalize(x, "first"))
+    var all_cap = en_tags.map(y => capitalize(y, "all"))
+    language.tags[tag]["en"] = en_tags
+      .concat(first_cap)
+      .concat(all_cap)
+      .filter((value, index, self) => self.indexOf(value) === index)
   }
-  return language;
+  return language
 }
 
 /*
    Language elements translatable in the GUI
 */
-// Bias values. This helps choose what the most likely second-language
-// for a given display language might be. This was added due to the
-// likelihood that Chinese speakers may be able to read English characters,
-// but not Japanese -- so we should fall back to English for them, despite
-// what an entity's preferred language order might be.
-Language.L.bias = {
+
+/**
+ * Types of alphabets, so we can fall back to an alphabet that someone is
+ * capable of reading based on their language skills. In practice, we opt to
+ * fall back to latin languages since that alphabet is more widely understood
+ */
+export const alphabets = {
+  "cjk": ["ja", "ko", "zh"],
+  "cyrillic": ["ru"],
+  "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "sv"],
+}
+
+/**
+ * Bias values. This helps choose what the most likely second-language for a
+ * given display language might be. This was added due to the likelihood that
+ * Chinese speakers may be able to read English characters, but not Japanese.
+ * So for them we should fall back to English, despite what an entity's
+ * preferred language order might be.
+ */
+const bias = {
   "en": [],
   "es": ["latin"],
   "ja": ["latin"],
@@ -45,19 +56,9 @@ Language.L.bias = {
   "pt": ["latin"],
   "zh": ["latin"]
 }
-// Types of alphabets, so we can fall back to an alphabet that someone
-// is capable of reading based on their language skills. In practice,
-// we opt to fall back to latin languages since that alphabet is more
-// widely understood
-Language.alphabets = {
-  "cjk": ["ja", "ko", "zh"],
-  "cyrillic": ["ru"],
-  "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "sv"],
-}
 
-// Character translation tables per language. Just hiragana/katakana.
-// Define this for all objects, not just for the instance.
-Language.charset = {
+/** Character translation tables per language. Just hiragana/katakana. */
+const charset = {
   "ja": {
     "hiragana":
       ["あ", "い", "う", "え", "お",
@@ -100,9 +101,11 @@ Language.charset = {
   }
 }
 
-// Date formats for parsing support fallbacks, if there
-// would otherwise be ambiguity in the dates
-Language.L.date_locale = {
+/**
+ * Date formats for parsing support fallbacks, if there would otherwise be
+ * ambiguity in the dates
+ */
+export const date_locale = {
   "mm_dd": {
     "en": "mm_dd",
     "es": "dd_mm",
@@ -132,13 +135,12 @@ Language.L.date_locale = {
   }
 }
 
-// Default parameters for entities that lack language information
-Language.L.default = {
+/** Default parameters for entities that lack language information */
+export const fallback = {
   "order": ["en", "ja"]
 }
 
-// TODO: do we need localized emojis for various things?
-Language.L.emoji = {
+export const emoji = {
          "alert": "🚨",
         "animal": "🐼",
          "alien": "👽",
@@ -268,8 +270,10 @@ Language.L.emoji = {
            "zoo": "🦁",
 }
 
-// TODO: key on other language versions of country names
-Language.L.flags = {
+/** For fallback functions, don't replace these fields */
+const fallback_blacklist = ["othernames", "nicknames"]
+
+const flags = {
      "Argentina": "🇦🇷",
      "Australia": "🇦🇺",
        "Austria": "🇦🇹",
@@ -312,7 +316,7 @@ Language.L.flags = {
            "USA": "🇺🇸"
 }
 
-Language.L.gui = {
+export const gui = {
   "about": {
     "en": "About",
     "es": "Acerca\xa0de",
@@ -399,13 +403,13 @@ Language.L.gui = {
     "zh": "父亲"
   },
   "flag": {
-    "en": Language.L.flags["USA"],
-    "es": Language.L.flags["Spain"],
-    "ja": Language.L.flags["Japan"],
-    "ko": Language.L.flags["South Korea"],
-    "ne": Language.L.flags["Nepal"],
-    "pt": Language.L.flags["Portugal"],
-    "zh": Language.L.flags["China"]
+    "en": flags["USA"],
+    "es": flags["Spain"],
+    "ja": flags["Japan"],
+    "ko": flags["South Korea"],
+    "ne": flags["Nepal"],
+    "pt": flags["Portugal"],
+    "zh": flags["China"]
   },
   "footerLink_rpf": {
     "en": "Red Panda Lineage",
@@ -927,7 +931,7 @@ Language.L.gui = {
   }
 }
 
-Language.L.messages = {
+export const messages = {
   "and": {
     "en": " & ",
     "es": " y ",
@@ -971,102 +975,102 @@ Language.L.messages = {
            "<INSERTZOO>"]
   },
   "autumn": {
-    "en": [Language.L.emoji.autumn,
+    "en": [emoji.autumn,
            " Season of changing colors ",
-           Language.L.emoji.autumn],
-    "es": [Language.L.emoji.autumn,
+           emoji.autumn],
+    "es": [emoji.autumn,
            " Temporada de colores cambiantes ",
-           Language.L.emoji.autumn],
-    "ja": [Language.L.emoji.autumn,
+           emoji.autumn],
+    "ja": [emoji.autumn,
            " 色が変わる季節 ",
-           Language.L.emoji.autumn],
-    "ko": [Language.L.emoji.autumn,
+           emoji.autumn],
+    "ko": [emoji.autumn,
            "색이 변하는 계절 ",
-           Language.L.emoji.autumn],
-    "ne": [Language.L.emoji.autumn, 
+           emoji.autumn],
+    "ne": [emoji.autumn, 
            " रंग परिवर्तन को मौसम ",
-           Language.L.emoji.autumn],
-    "pt": [Language.L.emoji.autumn,
+           emoji.autumn],
+    "pt": [emoji.autumn,
            " Estação de mudança de cores ",
-           Language.L.emoji.autumn],
-    "zh": [Language.L.emoji.autumn, 
+           emoji.autumn],
+    "zh": [emoji.autumn, 
            " 变色的季节 ",
-           Language.L.emoji.autumn]
+           emoji.autumn]
   },
   "baby_photos": {
-    "en": [Language.L.emoji.baby,
+    "en": [emoji.baby,
            " Precious little angels ",
-           Language.L.emoji.baby],
-    "es": [Language.L.emoji.baby,
+           emoji.baby],
+    "es": [emoji.baby,
            " Angelitos preciosos ",
-           Language.L.emoji.baby],
-    "ja": [Language.L.emoji.baby,
+           emoji.baby],
+    "ja": [emoji.baby,
            " 貴重な小さな天使 ",
-           Language.L.emoji.baby],
-    "ko": [Language.L.emoji.baby,
+           emoji.baby],
+    "ko": [emoji.baby,
            "소중한 작은 천사들 ",
-           Language.L.emoji.baby],
-    "ne": [Language.L.emoji.baby,
+           emoji.baby],
+    "ne": [emoji.baby,
            " बहुमूल्य साना स्वर्गदूतहरू ",
-           Language.L.emoji.baby],
-    "pt": [Language.L.emoji.baby,
+           emoji.baby],
+    "pt": [emoji.baby,
            " Anjinhos preciosos ",
-           Language.L.emoji.baby],
-    "zh": [Language.L.emoji.baby,
+           emoji.baby],
+    "zh": [emoji.baby,
            " 珍贵的小天使 ",
-           Language.L.emoji.baby]
+           emoji.baby]
   },
   "birthday_overflow": {
-    "en": [Language.L.emoji.fireworks,
+    "en": [emoji.fireworks,
            " ",
            "<INSERTCOUNT>",
            " birthdays today!"],
-    "es": [Language.L.emoji.fireworks,
+    "es": [emoji.fireworks,
            " ¡",
            "<INSERTCOUNT>",
            " cumpleaños hoy!"],
-    "ja": [Language.L.emoji.fireworks,
+    "ja": [emoji.fireworks,
            " 今日は",
            "<INSERTCOUNT>",
            "歳の誕生日！"],
-    "ko": [Language.L.emoji.fireworks,
+    "ko": [emoji.fireworks,
            " 오늘 ",
            "<INSERTCOUNT>",
            " 생일!"],
-    "ne": [Language.L.emoji.fireworks,
+    "ne": [emoji.fireworks,
            " आज ",
            "<INSERTCOUNT>",
            " जन्मदिन!"],
-    "pt": [Language.L.emoji.fireworks,
+    "pt": [emoji.fireworks,
            " ",
            "<INSERTCOUNT>",
            " aniversários hoje!"],
-    "zh": [Language.L.emoji.fireworks,
+    "zh": [emoji.fireworks,
            " 今天",
            "<INSERTCOUNT>",
            "个生日！"]
   },
   "closed": {
-    "en": [Language.L.emoji.closed + " ", 
+    "en": [emoji.closed + " ", 
            "Permanently closed on ",
            "<INSERTDATE>"],
-    "es": [Language.L.emoji.closed + " ",
+    "es": [emoji.closed + " ",
            "Cerrado permanentemente el ",
            "<INSERTDATE>"],
-    "ja": [Language.L.emoji.closed + " ",
+    "ja": [emoji.closed + " ",
            "<INSERTDATE>",
            "に閉業"],
-    "ko": [Language.L.emoji.closed + " ",
+    "ko": [emoji.closed + " ",
            "<INSERTDATE>",
            " 영구 폐쇄"],
-    "ne": [Language.L.emoji.closed + " ",
+    "ne": [emoji.closed + " ",
            "स्थायी रूपमा ",
            "<INSERTDATE>",
            "बन्द भयो"],
-    "pt": [Language.L.emoji.closed + " ", 
+    "pt": [emoji.closed + " ", 
            "Permanentemente fechado em ",
            "<INSERTDATE>"],
-    "zh": [Language.L.emoji.closed + " ",
+    "zh": [emoji.closed + " ",
            "<INSERTDATE>",
            "永久关闭"]
   },
@@ -1080,86 +1084,86 @@ Language.L.messages = {
     "zh": "及"
   },
   "credit": {
-    "en": [Language.L.emoji.gift + " ",
+    "en": [emoji.gift + " ",
            "<INSERTUSER>",
            " has contributed ",
            "<INSERTNUMBER>",
            " photos."],
-    "es": [Language.L.emoji.gift + " ",
+    "es": [emoji.gift + " ",
            "<INSERTUSER>",
            " ha contribuido con ",
            "<INSERTNUMBER>",
            " fotos."],
-    "ja": [Language.L.emoji.gift + " ",
+    "ja": [emoji.gift + " ",
            "<INSERTUSER>",
            "は",
            "<INSERTNUMBER>",
            "枚の写真を寄稿しました。"],
-    "ko": [Language.L.emoji.gift + " ",
+    "ko": [emoji.gift + " ",
            "<INSERTUSER>",
            "이(가) ",
            "<INSERTNUMBER>",
            "장의 사진을 제공했습니다."],
-    "ne": [Language.L.emoji.gift + " ",
+    "ne": [emoji.gift + " ",
            "<INSERTUSER>",
            " ले ",
            "<INSERTNUMBER>",
            " फोटो योगदान गरेको छ"],
-    "pt": [Language.L.emoji.gift + " ",
+    "pt": [emoji.gift + " ",
            "<INSERTUSER>",
            " contribuiu com ",
            "<INSERTNUMBER>",
            " fotos."],
-    "zh": [Language.L.emoji.gift + " ",
+    "zh": [emoji.gift + " ",
            "<INSERTUSER>",
            "提供了",
            "<INSERTNUMBER>",
            "张照片。"]
   },
   "credit_animal_filter_single": {
-    "en": [Language.L.emoji.gift + " ",
+    "en": [emoji.gift + " ",
            "<INSERTUSER>",
            " has contributed ",
            "<INSERTNUMBER>",
            " photos of ",
            "<INSERTNAME>",
            "."],
-    "es": [Language.L.emoji.gift + " ",
+    "es": [emoji.gift + " ",
            "<INSERTUSER>",
            " ha contribuido con ",
            "<INSERTNUMBER>",
            " fotos de ",
            "<INSERTNAME>",
            "."],
-    "ja": [Language.L.emoji.gift + " ",
+    "ja": [emoji.gift + " ",
            "<INSERTUSER>",
            "が",
            "<INSERTNAME>",
            "の写真を",
            "<INSERTNUMBER>",
            "枚投稿しました。"],
-    "ko": [Language.L.emoji.gift + " ",
+    "ko": [emoji.gift + " ",
            "<INSERTUSER>",
            "이(가) ",
            "<INSERTNAME>",
            "의 사진을",
            "<INSERTNUMBER>",
            "장 제공했습니다."],   
-    "ne": [Language.L.emoji.gift + " ",
+    "ne": [emoji.gift + " ",
            "<INSERTUSER>",
            " ",
            "<INSERTNUMBER>",
            " ",
            "<INSERTNAME>",
            " फोटोहरु योगदान गरेको छ"],
-    "pt": [Language.L.emoji.gift + " ",
+    "pt": [emoji.gift + " ",
            "<INSERTUSER>",
            " contribuiu com ",
            "<INSERTNUMBER>",
            " fotos de ",
            "<INSERTNAME>",
            "."],
-    "zh": [Language.L.emoji.gift + " ",
+    "zh": [emoji.gift + " ",
            "<INSERTUSER>",
            "提供了",
            "<INSERTNUMBER>",
@@ -1193,13 +1197,13 @@ Language.L.messages = {
            "<INSERTZOO>"]
   },
   "find_a_nearby_zoo": {
-    "en": [Language.L.emoji.globe_americas, " Find a zoo nearby!"],
-    "es": [Language.L.emoji.globe_americas, " ¡Encuentra un zoológico cerca de ti!"],
-    "ja": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"],
-    "ko": [Language.L.emoji.globe_asia, " 주변 동물원 찾기"],
-    "ne": [Language.L.emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"],
-    "pt": [Language.L.emoji.globe_americas, " Encontre um zoológico próximo!"],
-    "zh": [Language.L.emoji.globe_asia, " 寻找附近的动物园"]
+    "en": [emoji.globe_americas, " Find a zoo nearby!"],
+    "es": [emoji.globe_americas, " ¡Encuentra un zoológico cerca de ti!"],
+    "ja": [emoji.globe_asia, " 近くの動物園を見つける"],
+    "ko": [emoji.globe_asia, " 주변 동물원 찾기"],
+    "ne": [emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"],
+    "pt": [emoji.globe_americas, " Encontre um zoológico próximo!"],
+    "zh": [emoji.globe_asia, " 寻找附近的动物园"]
   },
   "footer": {
     "en": ["If you love red pandas, please support ",
@@ -1253,38 +1257,38 @@ Language.L.messages = {
            "布局与设计©2026 Justin Fairchild"]
   },
   "found_animal": {
-    "en": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
+    "en": [emoji.flower, " ",
+           emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
            " has been found and is safe!"],
-    "es": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say,
+    "es": [emoji.flower, " ",
+           emoji.see_and_say,
            " ¡",
            "<INSERTNAME>",
            " ha sido encontrado y está a salvo!"],
-    "ja": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
+    "ja": [emoji.flower, " ",
+           emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
            " has been found and is safe!"],
-    "ko": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
+    "ko": [emoji.flower, " ",
+           emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
            "이(가) 발견되었습니다!"],
-    "ne": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
+    "ne": [emoji.flower, " ",
+           emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
            " has been found and is safe!"],
-    "pt": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
+    "pt": [emoji.flower, " ",
+           emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
            " foi encontrado(a) e está a salvo!"],
-    "zh": [Language.L.emoji.flower, " ",
-           Language.L.emoji.see_and_say, 
+    "zh": [emoji.flower, " ",
+           emoji.see_and_say, 
            " ",
            "<INSERTNAME>",
            " has been found and is safe!"]
@@ -1293,7 +1297,7 @@ Language.L.messages = {
     "en": ["Good-bye, ",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1302,7 +1306,7 @@ Language.L.messages = {
     "es": ["Hasta siempre, ",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1311,7 +1315,7 @@ Language.L.messages = {
     "ja": ["ありがとう, ",
            "<INSERTNAME>",
            "。",
-           Language.L.emoji.died, 
+           emoji.died, 
            "（",
            "<INSERTBIRTH>",
            " — ",
@@ -1320,7 +1324,7 @@ Language.L.messages = {
     "ko": ["안녕... 잘 가,",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1329,7 +1333,7 @@ Language.L.messages = {
     "ne": ["विदाई, ",
            "<INSERTNAME>",
            " ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1338,7 +1342,7 @@ Language.L.messages = {
     "pt": ["Adeus, ",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1347,7 +1351,7 @@ Language.L.messages = {
     "zh": ["后会有期, ",
            "<INSERTNAME>",
            "。",
-           Language.L.emoji.died,
+           emoji.died,
            "（",
            "<INSERTBIRTH>",
            " — ",
@@ -1355,43 +1359,43 @@ Language.L.messages = {
            "）"]
   },
   "happy_birthday": {
-    "en": [Language.L.emoji.birthday,
+    "en": [emoji.birthday,
            " Happy Birthday, ",
            "<INSERTNAME>",
            "! (",
            "<INSERTNUMBER>",
            ")"],
-    "es": [Language.L.emoji.birthday,
+    "es": [emoji.birthday,
            " ¡Feliz cumpleaños, ",
            "<INSERTNAME>",
            "! (",
            "<INSERTNUMBER>",
            ")"],
-    "ja": [Language.L.emoji.birthday,
+    "ja": [emoji.birthday,
            " ",
            "<INSERTNAME>",
            "、誕生日おめでとう！（",
            "<INSERTNUMBER>",
            "歳）"],
-    "ko": [Language.L.emoji.birthday,
+    "ko": [emoji.birthday,
            "<INSERTNAME>",
            "의 생일을 축하합니다! (",
            "<INSERTNUMBER>",
            "세)"],
-    "ne": [Language.L.emoji.birthday,
+    "ne": [emoji.birthday,
            " ",
            "जन्मदिनको शुभकामना, ",
            "<INSERTNAME>",
            "! (",
            "<INSERTNUMBER>",
            ")"],
-    "pt": [Language.L.emoji.birthday,
+    "pt": [emoji.birthday,
            " Feliz aniversário, ",
            "<INSERTNAME>",
            "! (",
            "<INSERTNUMBER>",
            ")"],
-    "zh": [Language.L.emoji.birthday,
+    "zh": [emoji.birthday,
            "<INSERTNAME>",
            "生日快乐！（",
            "<INSERTNUMBER>",
@@ -1416,56 +1420,56 @@ Language.L.messages = {
     "zh": "、",
   },
   "lost_animal": {
-    "en": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
+    "en": [emoji.alert, " ",
+           emoji.see_and_say, 
            " If you see ",
            "<INSERTNAME>",
            ", contact ",
            "<ZOONAME>",
            ": ",
            "<ZOOCONTACT>"],
-    "es": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say,
+    "es": [emoji.alert, " ",
+           emoji.see_and_say,
            " Si ves a ",
            "<INSERTNAME>",
            " contacta a ",
            "<ZOONAME>",
            ": ",
            "<ZOOCONTACT>"],
-    "ja": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
+    "ja": [emoji.alert, " ",
+           emoji.see_and_say, 
            " If you see ",
            "<INSERTNAME>",
            ", contact ",
            "<ZOONAME>",
            ": ",
            "<ZOOCONTACT>"],
-    "ko": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
+    "ko": [emoji.alert, " ",
+           emoji.see_and_say, 
            " If you see ",
            "<INSERTNAME>",
            ", contact ",
            "<ZOONAME>",
            ": ",
            "<ZOOCONTACT>"],
-    "ne": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
+    "ne": [emoji.alert, " ",
+           emoji.see_and_say, 
            " If you see ",
            "<INSERTNAME>",
            ", contact ",
            "<ZOONAME>",
            ": ",
            "<ZOOCONTACT>"],
-    "pt": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
+    "pt": [emoji.alert, " ",
+           emoji.see_and_say, 
            " Se vir ",
            "<INSERTNAME>",
            ", contacte ",
            "<ZOONAME>",
            ": ",
            "<ZOOCONTACT>"],
-    "zh": [Language.L.emoji.alert, " ",
-           Language.L.emoji.see_and_say, 
+    "zh": [emoji.alert, " ",
+           emoji.see_and_say, 
            " If you see ",
            "<INSERTNAME>",
            ", contact ",
@@ -1474,33 +1478,33 @@ Language.L.messages = {
            "<ZOOCONTACT>"]
   },
   "lunch_time": {
-    "en": [Language.L.emoji.paws, " ",
+    "en": [emoji.paws, " ",
            "What's for lunch?", " ",
-           Language.L.emoji.greens],
-    "es": [Language.L.emoji.paws, " ",
+           emoji.greens],
+    "es": [emoji.paws, " ",
            "¿Qué hay de comer?", " ",
-           Language.L.emoji.greens],
-    "ja": [Language.L.emoji.paws, " ",
+           emoji.greens],
+    "ja": [emoji.paws, " ",
            "昼食は何ですか？", " ",
-           Language.L.emoji.greens],
-    "ko": [Language.L.emoji.paws, " ",
+           emoji.greens],
+    "ko": [emoji.paws, " ",
            "오늘 점심 메뉴는 무엇인가요?", " ",
-           Language.L.emoji.greens],
-    "ne": [Language.L.emoji.paws, " ",
+           emoji.greens],
+    "ne": [emoji.paws, " ",
            "खाजाको लागि के हो?", " ",
-           Language.L.emoji.greens],
-    "pt": [Language.L.emoji.paws, " ",
+           emoji.greens],
+    "pt": [emoji.paws, " ",
            "O que tem para o almoço?", " ",
-           Language.L.emoji.greens],
-    "zh": [Language.L.emoji.paws, " ",
+           emoji.greens],
+    "zh": [emoji.paws, " ",
            "午饭吃什么？", " ",
-           Language.L.emoji.greens]
+           emoji.greens]
   },
   "missing_you": {
     "en": ["We miss you, ",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1509,7 +1513,7 @@ Language.L.messages = {
     "es": ["Te extrañamos, ",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1518,7 +1522,7 @@ Language.L.messages = {
     "ja": ["あなたがいなくてとても寂しい, ",
            "<INSERTNAME>",
            "。",
-           Language.L.emoji.died, 
+           emoji.died, 
            "（",
            "<INSERTBIRTH>",
            " — ",
@@ -1527,7 +1531,7 @@ Language.L.messages = {
     "ko": ["보고 싶어,",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1536,7 +1540,7 @@ Language.L.messages = {
     "ne": ["हामी तिमीलाई सम्झिन्छौं",
            "<INSERTNAME>",
            " ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1545,7 +1549,7 @@ Language.L.messages = {
     "pt": ["Saudades de você, ",
            "<INSERTNAME>",
            ". ",
-           Language.L.emoji.died,
+           emoji.died,
            " (",
            "<INSERTBIRTH>",
            " — ",
@@ -1554,7 +1558,7 @@ Language.L.messages = {
     "zh": ["我们想你, ",
            "<INSERTNAME>",
            "。",
-           Language.L.emoji.died,
+           emoji.died,
            "（",
            "<INSERTBIRTH>",
            " — ",
@@ -1562,103 +1566,103 @@ Language.L.messages = {
            "）"]
   },
   "nearby_zoos": {
-    "en": [Language.L.emoji.website,
+    "en": [emoji.website,
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " Finding nearby zoos. ",
            "If geolocation fails, try ",
            "searching for your city."],
-    "es": [Language.L.emoji.website,
+    "es": [emoji.website,
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " Encontrar zoológicos cercanos. ", 
            "Si la geolocalización falla, intente ",
            " buscar su ciudad."],
-    "ja": [Language.L.emoji.website,
+    "ja": [emoji.website,
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " 近くの動物園を見上げます。",
            "ジオロケーションが失敗した場合は、",
            "都市を検索してみてください。"],
-    "ko": [Language.L.emoji.website,
+    "ko": [emoji.website,
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " 가까운 동물원을 찾고 있어요. ",
            "위치 정보가 실패하면,",
            "도시 이름으로 검색해보세요."],   
-    "ne": [Language.L.emoji.website, 
+    "ne": [emoji.website, 
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " नजिकका चिडियाखानाहरू भेट्टाउँदै।",
            " यदि भौगोलिक स्थान असफल भयो भने,",
            " आफ्नो शहरको लागि खोजी प्रयास गर्नुहोस्।"],
-    "pt": [Language.L.emoji.website,
+    "pt": [emoji.website,
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " Procurando zoológicos próximos. ",
            "Se a geolocalização falhar, ",
            "tente pesquisar sua cidade."],
-    "zh": [Language.L.emoji.website,
+    "zh": [emoji.website,
            " ",
-           Language.L.emoji.home,
+           emoji.home,
            " 查找附近的动物园。",
            "如果地理位置失败，",
            "请尝试搜索您的城市。"]
   },
   "new_photos": {
     "contributors": {
-      "en": [Language.L.emoji.giftwrap,
+      "en": [emoji.giftwrap,
              " ",
              "<INSERTCOUNT>",
              " new contributors"],
-      "es": [Language.L.emoji.giftwrap,
+      "es": [emoji.giftwrap,
             " ",
             "<INSERTCOUNT>",
             " nuevos contribuyentes"],
-      "ja": [Language.L.emoji.giftwrap,
+      "ja": [emoji.giftwrap,
              "<INSERTCOUNT>",
              "人の新しい貢献者"],
-      "ko": [Language.L.emoji.giftwrap,
+      "ko": [emoji.giftwrap,
              "<INSERTCOUNT>",
              "새 기여자"],
-      "ne": [Language.L.emoji.giftwrap,
+      "ne": [emoji.giftwrap,
              " ",
              "<INSERTCOUNT>",
              " योगदानकर्ताहरू नयाँ"],
-      "pt": [Language.L.emoji.giftwrap,
+      "pt": [emoji.giftwrap,
              " ",
              "<INSERTCOUNT>",
              " novos contribuintes"],
-      "zh": [Language.L.emoji.giftwrap,
+      "zh": [emoji.giftwrap,
              "<INSERTCOUNT>",
              "新贡献者"]
     },
     "pandas": {
-      "en": [Language.L.emoji.profile,
+      "en": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              " new red pandas"],
-      "es": [Language.L.emoji.profile,
+      "es": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              " nuevos pandas rojos"],
-      "ja": [Language.L.emoji.profile,
+      "ja": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              "つの新しいレッサーパンダ"],
-      "ko": [Language.L.emoji.profile,
+      "ko": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              " 새로운 레서판다가 찾아왔어요!"],
-      "ne": [Language.L.emoji.profile,
+      "ne": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              " निगल्य पोन्या नयाँ"],
-      "pt": [Language.L.emoji.profile,
+      "pt": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              " novos pandas-vermelhos"],
-      "zh": [Language.L.emoji.profile,
+      "zh": [emoji.profile,
              " ",
              "<INSERTCOUNT>",
              "只新小熊猫"]
@@ -1689,30 +1693,30 @@ Language.L.messages = {
       "zh": ["本星期！"]
     },
     "zoos": {
-      "en": [Language.L.emoji.zoo,
+      "en": [emoji.zoo,
              " ",
              "<INSERTCOUNT>",
              " new zoos"],
-      "es": [Language.L.emoji.zoo,
+      "es": [emoji.zoo,
              " ",
              "<INSERTCOUNT>",
              " nuevos zoológicos"],
-      "ja": [Language.L.emoji.zoo,
+      "ja": [emoji.zoo,
              "<INSERTCOUNT>",
              "つの新しい動物園"],
-      "ko": [Language.L.emoji.zoo,
+      "ko": [emoji.zoo,
              " ",
              "<INSERTCOUNT>",
              "새로운 동물원"],
-      "ne": [Language.L.emoji.zoo,
+      "ne": [emoji.zoo,
              " ",
              "<INSERTCOUNT>",
              " नयाँ चिडियाखाना"],
-      "pt": [Language.L.emoji.zoo,
+      "pt": [emoji.zoo,
              " ",
              "<INSERTCOUNT>",
              " novos zoológicos"],
-      "zh": [Language.L.emoji.zoo,
+      "zh": [emoji.zoo,
              "<INSERTCOUNT>",
              "个新动物园"]
     }
@@ -2424,57 +2428,57 @@ Language.L.messages = {
            "住在哪里？"]
   },
   "remembering_you_together": {
-    "en": [Language.L.emoji.hearts, " ",
+    "en": [emoji.hearts, " ",
            "<INSERTNAMES>",
            ": We will never forget you. ",
-           " ", Language.L.emoji.paws],
-    "es": [Language.L.emoji.hearts, " ",
+           " ", emoji.paws],
+    "es": [emoji.hearts, " ",
            "<INSERTNAMES>",
            ": Nosotros nunca te olvidaremos. ",
-           " ", Language.L.emoji.paws],
-    "ja": [Language.L.emoji.hearts, " ",
+           " ", emoji.paws],
+    "ja": [emoji.hearts, " ",
            "<INSERTNAMES>",
            "〜私たちは君を決して忘れません。",
-           Language.L.emoji.paws],
-    "ko": [Language.L.emoji.hearts, " ",
+           emoji.paws],
+    "ko": [emoji.hearts, " ",
            "<INSERTNAMES>",
            ": 우리는 너를 절대 잊지 않을 거야.",
-           Language.L.emoji.paws],
-    "ne": [Language.L.emoji.hearts, " ",
+           emoji.paws],
+    "ne": [emoji.hearts, " ",
            "<INSERTNAMES>",
            ": हामी तिमीलाई कहिल्यै बिर्सिने छैनौं। ",
-           Language.L.emoji.paws],
-    "pt": [Language.L.emoji.hearts, " ",
+           emoji.paws],
+    "pt": [emoji.hearts, " ",
            "<INSERTNAMES>",
            ": Nunca esqueceremos de você. ",
-           " ", Language.L.emoji.paws],
-    "zh": [Language.L.emoji.hearts, " ",
+           " ", emoji.paws],
+    "zh": [emoji.hearts, " ",
            "<INSERTNAMES>",
            ": 我们永远不会忘记你。",
-           Language.L.emoji.paws]
+           emoji.paws]
   },
   "shovel_pandas": {
-    "en": [Language.L.emoji.dig, " ",
+    "en": [emoji.dig, " ",
            "Searching for buried treasure!", " ",
-           Language.L.emoji.treasure],
-    "es": [Language.L.emoji.dig, " ",
+           emoji.treasure],
+    "es": [emoji.dig, " ",
            "¡Buscando tesoros enterrados!", " ",
-           Language.L.emoji.treasure],
-    "ja": [Language.L.emoji.dig, " ",
+           emoji.treasure],
+    "ja": [emoji.dig, " ",
            "埋蔵金を探す", " ",
-           Language.L.emoji.treasure],
-    "ko": [Language.L.emoji.dig, " ",
+           emoji.treasure],
+    "ko": [emoji.dig, " ",
            "숨겨진 보물을 찾고 있어요!", " ",
-           Language.L.emoji.treasure],
-    "ne": [Language.L.emoji.dig, " ",
+           emoji.treasure],
+    "ne": [emoji.dig, " ",
            "गाडिएको खजाना खोजी गर्दै", " ",
-           Language.L.emoji.treasure],
-    "pt": [Language.L.emoji.dig, " ",
+           emoji.treasure],
+    "pt": [emoji.dig, " ",
            "Procurando o tesouro enterrado!", " ",
-           Language.L.emoji.treasure],
-    "zh": [Language.L.emoji.dig, " ",
+           emoji.treasure],
+    "zh": [emoji.dig, " ",
            "寻找埋藏的宝藏", " ",
-           Language.L.emoji.treasure]
+           emoji.treasure]
   },
   "tag_combo": {
     "en": [" combo: ",
@@ -2553,62 +2557,62 @@ Language.L.messages = {
            "的照片"]
   },
   "trick_or_treat": {
-    "en": [Language.L.emoji.pumpkin, " ",
+    "en": [emoji.pumpkin, " ",
            "Trick or Treat", " ",
-           Language.L.emoji.pumpkin],
-    "es": [Language.L.emoji.pumpkin, " ",
+           emoji.pumpkin],
+    "es": [emoji.pumpkin, " ",
            "¡Truco o trato!", " ",
-           Language.L.emoji.pumpkin],
-    "ja": [Language.L.emoji.pumpkin, " ",
+           emoji.pumpkin],
+    "ja": [emoji.pumpkin, " ",
            "不気味なカボチャ", " ",
-           Language.L.emoji.pumpkin],
-    "ko": [Language.L.emoji.pumpkin, " ",
+           emoji.pumpkin],
+    "ko": [emoji.pumpkin, " ",
            "사탕 안 주면 장난칠 거야!", " ",
-           Language.L.emoji.pumpkin],
-    "ne": [Language.L.emoji.pumpkin, " ",
+           emoji.pumpkin],
+    "ne": [emoji.pumpkin, " ",
            "डरलाग्दो कद्दु", " ",
-           Language.L.emoji.pumpkin],
-    "pt": [Language.L.emoji.pumpkin, " ",
+           emoji.pumpkin],
+    "pt": [emoji.pumpkin, " ",
            "Gostosuras ou travessuras", " ",
-           Language.L.emoji.pumpkin],
-    "zh": [Language.L.emoji.pumpkin, " ",
+           emoji.pumpkin],
+    "zh": [emoji.pumpkin, " ",
            "怪异的南瓜", " ",
-           Language.L.emoji.pumpkin]
+           emoji.pumpkin]
   },
   "zoo_details_babies": {
-    "en": [Language.L.emoji.baby,
+    "en": [emoji.baby,
            " ",
            "<INSERTBABIES>",
            " cubs born since ",
            "<INSERTYEAR>"],
-    "es": [Language.L.emoji.baby,
+    "es": [emoji.baby,
            " ",
            "<INSERTBABIES>",
            " cachorros nacidos desde ",
            "<INSERTYEAR>"],
-    "ja": [Language.L.emoji.baby,
+    "ja": [emoji.baby,
            " ",
            "<INSERTYEAR>",
            "年から生まれた",
            "<INSERTBABIES>",
            "人の赤ちゃん"],
-    "ko": [Language.L.emoji.baby,
+    "ko": [emoji.baby,
            " ",
            "<INSERTYEAR>",
            "년에 태어난 아기는 ",
            "<INSERTBABIES>",
            "마리예요."],
-    "ne": [Language.L.emoji.baby,
+    "ne": [emoji.baby,
            " ",
            "<INSERTBABIES>",
            " पछि बच्चा जन्मे ",
            "<INSERTYEAR>"],
-    "pt": [Language.L.emoji.baby,
+    "pt": [emoji.baby,
            " ",
            "<INSERTBABIES>",
            " filhotes nascidos desde ",
            "<INSERTYEAR>"],
-    "zh": [Language.L.emoji.baby,
+    "zh": [emoji.baby,
            " ",
            "自",
            "<INSERTYEAR>",
@@ -2617,125 +2621,125 @@ Language.L.messages = {
            "名婴儿"]
   },
   "zoo_details_departures": {
-    "en": [Language.L.emoji.truck,
+    "en": [emoji.truck,
            " ",
            "<INSERTNUM>", 
            " recent departures"],
-    "es": [Language.L.emoji.truck,
+    "es": [emoji.truck,
            " ",
            "<INSERTNUM>",
            " partidas recientes."],
-    "ja": [Language.L.emoji.truck,
+    "ja": [emoji.truck,
            " ",
            "最近の",
            "<INSERTNUM>",
            "回の出発"],
-    "ko": [Language.L.emoji.truck,
+    "ko": [emoji.truck,
            " ",
            "최근에 이동한 ",
            "<INSERTNUM>",
            "마리의 레서판다"],
-    "ne": [Language.L.emoji.truck,
+    "ne": [emoji.truck,
            " ",
            "<INSERTNUM>",
            " भर्खरको प्रस्थान"],
-    "pt": [Language.L.emoji.truck,
+    "pt": [emoji.truck,
            " ",
            "<INSERTNUM>", 
            " partidas recentes"],
-    "zh": [Language.L.emoji.truck,
+    "zh": [emoji.truck,
            " ",
            "<INSERTNUM>",
            "最近出发"]
   },
   "zoo_details_pandas_live_here": {
-    "en": [Language.L.emoji.panda,
+    "en": [emoji.panda,
            " ",
            "<INSERTNUM>",
            " red pandas live here"],
-    "es": [Language.L.emoji.panda,
+    "es": [emoji.panda,
            " Hay ",
            "<INSERTNUM>",
            " panda rojos en este zoológico"],
-    "ja": [Language.L.emoji.panda,
+    "ja": [emoji.panda,
            " ",
            "ここに",
            "<INSERTNUM>",
            "匹のレッサーパンダが住んでいます"],
-    "ko": [Language.L.emoji.panda,
+    "ko": [emoji.panda,
            " ",
            "이곳에는 ",
            "<INSERTNUM>",
            "마리의 레서판다가 살고 있어요."],
-    "ne": [Language.L.emoji.panda,
+    "ne": [emoji.panda,
            " ",
            "<INSERTNUM>",
            " पांडा यहाँ बस्छन्"],
-    "pt": [Language.L.emoji.panda,
+    "pt": [emoji.panda,
            " ",
            "<INSERTNUM>",
            " pandas-vermelhos moram aqui"],
-    "zh": [Language.L.emoji.panda,
+    "zh": [emoji.panda,
            " ",
            "<INSERTNUM>",
            "只大熊猫住在这里"]
   },
   "zoo_details_no_pandas_live_here": {
-    "en": [Language.L.emoji.panda,
+    "en": [emoji.panda,
            " ",
            "No red pandas currently here"],
-    "es": [Language.L.emoji.panda,
+    "es": [emoji.panda,
            " ",
            "Por ahora aquí no hay pandas rojos."],
-    "ja": [Language.L.emoji.panda,
+    "ja": [emoji.panda,
            " ",
            "パンダが見つかりません"],
-    "ko": [Language.L.emoji.panda,
+    "ko": [emoji.panda,
            " ",
            "이곳에는 레서판다가 없어요."],
-    "ne": [Language.L.emoji.panda,
+    "ne": [emoji.panda,
            " ",
            "कुनै निगल्य पोन्या फेला परेन"],
-    "pt": [Language.L.emoji.panda,
+    "pt": [emoji.panda,
            " ",
            "Nenhum panda-vermelho atualmente aqui"],
-    "zh": [Language.L.emoji.panda,
+    "zh": [emoji.panda,
            " ",
            "没有找到这只小熊猫"]
   },
   "zoo_details_records": {
-    "en": [Language.L.emoji.recordbook,
+    "en": [emoji.recordbook,
            " ",
            "<INSERTNUM>",
            " recorded in the database since ",
            "<INSERTYEAR>"],
-    "es": [Language.L.emoji.recordbook,
+    "es": [emoji.recordbook,
            " ",
            "<INSERTNUM>",
            " registrados aquí desde ",
            "<INSERTYEAR>"],
-    "ja": [Language.L.emoji.recordbook,
+    "ja": [emoji.recordbook,
            " ",
            "<INSERTYEAR>",
            "年からデータベースに記録された",
            "<INSERTNUM>"],
-    "ko": [Language.L.emoji.recordbook,
+    "ko": [emoji.recordbook,
            " ",
            "<INSERTYEAR>",
            "년부터 데이터베이스에 저장된 ",
            "<INSERTNUM>",
            "개의 기록이 있어요."],      
-    "ne": [Language.L.emoji.recordbook,
+    "ne": [emoji.recordbook,
            " ",
            "<INSERTNUM>",
            " रेचोर्ड्स इन द दताबसे सिन्के ",
            "<INSERTYEAR>"],
-    "pt": [Language.L.emoji.recordbook,
+    "pt": [emoji.recordbook,
            " ",
            "<INSERTNUM>",
            " registrados na base de dados desde ",
            "<INSERTYEAR>"],
-    "zh": [Language.L.emoji.recordbook,
+    "zh": [emoji.recordbook,
            " ",
            "自",
            "<INSERTYEAR>",
@@ -2744,87 +2748,87 @@ Language.L.messages = {
            "个记录在数据库中"]
   },
   "zoo_header_new_arrivals": {
-    "en": [Language.L.emoji.fireworks,
+    "en": [emoji.fireworks,
            " ",
            "New Arrivals"],
-    "es": [Language.L.emoji.fireworks,
+    "es": [emoji.fireworks,
            " ",
            "Los recién llegados"],
-    "ja": [Language.L.emoji.fireworks,
+    "ja": [emoji.fireworks,
            " ",
            "新着"],
-    "ko": [Language.L.emoji.fireworks,
+    "ko": [emoji.fireworks,
            " ",
            "새로운 친구들"],
-    "ne": [Language.L.emoji.fireworks,
+    "ne": [emoji.fireworks,
            " ",
            "नयाँ आगमन"],
-    "pt": [Language.L.emoji.fireworks,
+    "pt": [emoji.fireworks,
            " ",
            "Novas chegadas"],
-    "zh": [Language.L.emoji.fireworks,
+    "zh": [emoji.fireworks,
            " ",
            "新来的"]
   },
   "zoo_header_other_pandas": {
-    "en": [Language.L.emoji.panda,
+    "en": [emoji.panda,
            " ",
            "Other Pandas at ",
            "<INSERTZOO>"],
-    "es": [Language.L.emoji.panda,
+    "es": [emoji.panda,
            " ",
            "Otros pandas en ",
            "<INSERTZOO>"],
-    "ja": [Language.L.emoji.panda,
+    "ja": [emoji.panda,
            " ",
            "<INSERTZOO>",
            "の他のパンダ"],
-    "ko": [Language.L.emoji.panda,
+    "ko": [emoji.panda,
            " ",
            "<INSERTZOO>",
            "의 다른 레서판다들"],   
-    "ne": [Language.L.emoji.panda,
+    "ne": [emoji.panda,
            " ",
            "<INSERTZOO>",
            " अन्य पोन्या"],
-    "pt": [Language.L.emoji.panda,
+    "pt": [emoji.panda,
            " ",
            "Outros pandas em ",
            "<INSERTZOO>"],
-    "zh": [Language.L.emoji.panda,
+    "zh": [emoji.panda,
            " ",
            "<INSERTZOO>",
            "里的其他小熊猫"]
   },
   "zoo_header_recently_departed": {
-    "en": [Language.L.emoji.truck,
+    "en": [emoji.truck,
            " ",
            "Recently Departed"],
-    "es": [Language.L.emoji.truck,
+    "es": [emoji.truck,
            " ",
            "Hace poco se fueron"],
-    "ja": [Language.L.emoji.truck,
+    "ja": [emoji.truck,
            " ",
            "最近出発しました"],
-    "ko": [Language.L.emoji.truck,
+    "ko": [emoji.truck,
            " ",
            "최근에 떠난 친구들"],
-    "ne": [Language.L.emoji.truck,
+    "ne": [emoji.truck,
            " ",
            "भर्खर प्रस्थान"],
-    "pt": [Language.L.emoji.truck,
+    "pt": [emoji.truck,
            " ",
            "Partiram recentemente"],
-    "zh": [Language.L.emoji.truck,
+    "zh": [emoji.truck,
            " ",
            "最近离开"]
   }
 }
 
 // These are tags in some contexts, and keywords in others
-Language.L.polyglots = {
+export const polyglots = {
   "baby": {
- "emoji": [Language.L.emoji.baby],
+ "emoji": [emoji.baby],
     "en": ["baby", "babies", "Baby", "Aka-chan", "Akachan"],
     "es": ["bebé", "bebe", "bebés", "bebes"],
     "ja": ["赤", "赤ちゃん"],
@@ -2840,10 +2844,10 @@ Language.L.polyglots = {
 // have to be the same 100 returned each time.
 // TODO: duplicate tag management (baby)
 // TODO: romanji for japanese terms
-Language.L.tags = {
+export const tags = {
   "air tasting": {
-    "emoji": [Language.L.emoji.tongue + 
-              Language.L.emoji.butterfly],
+    "emoji": [emoji.tongue + 
+              emoji.butterfly],
        "en": ["air tasting", 
               "air taste"],
        "es": ["saboreando el aire"],
@@ -2854,7 +2858,7 @@ Language.L.tags = {
        "zh": ["尝尝空气"]
   },
   "apple time": {
-    "emoji": [Language.L.emoji.apple],
+    "emoji": [emoji.apple],
        "en": ["apple time", "apple"],
        "es": ["hora de la manazana", "manzana"],
        "ja": ["りんごタイム", "りんご"],
@@ -2864,7 +2868,7 @@ Language.L.tags = {
        "zh": ["苹果时间", "苹果"]
   },
   "autumn": {
-    "emoji": [Language.L.emoji.autumn],
+    "emoji": [emoji.autumn],
        "en": ["autumn", "fall"],
        "es": ["otoño"],
        "ja": ["秋"],
@@ -2874,7 +2878,7 @@ Language.L.tags = {
        "zh": ["秋天"]
   },
   "bamboo": {
-    "emoji": [Language.L.emoji.bamboo],
+    "emoji": [emoji.bamboo],
        "en": ["bamboo"],
        "es": ["bambú", "bambu"],
        "ja": ["笹", "竹"],
@@ -2884,7 +2888,7 @@ Language.L.tags = {
        "zh": ["竹子", "竹"]
   },
   "bear worm": {
-    "emoji": [Language.L.emoji.caterpillar],
+    "emoji": [emoji.caterpillar],
        "en": ["bear worm", "bear-worm"],
        "es": ["gusan-oso", "gusanoso"],
        "ja": ["のびのび"],
@@ -2894,7 +2898,7 @@ Language.L.tags = {
        "zh": ["蠕动"]
   },
   "bite": {
-    "emoji": [Language.L.emoji.tooth],
+    "emoji": [emoji.tooth],
        "en": ["bite"],
        "es": ["morder"],
        "ja": ["一口"],
@@ -2904,7 +2908,7 @@ Language.L.tags = {
        "zh": ["咬", "吃"]
   },
   "blink": {
-    "emoji": [Language.L.emoji.blink],
+    "emoji": [emoji.blink],
        "en": ["blink", "blinking"],
        "es": ["parpadear", "parpadeo"],
        "ja": ["まばたき"],
@@ -2914,7 +2918,7 @@ Language.L.tags = {
        "zh": ["眨眼"]
   },
   "bridge": {
-    "emoji": [Language.L.emoji.bridge],
+    "emoji": [emoji.bridge],
        "en": ["bridge"],
        "es": ["puente"],
        "ja": ["吊り橋・渡し木", "架け橋"],
@@ -2924,7 +2928,7 @@ Language.L.tags = {
        "zh": ["吊桥", "桥"]
   },
   "brothers": {
-    "emoji": [Language.L.emoji.brothers],
+    "emoji": [emoji.brothers],
        "en": ["brothers", "bros"],
        "es": ["hermanos"],
        "ja": ["男兄弟"],
@@ -2934,7 +2938,7 @@ Language.L.tags = {
        "zh": ["兄弟"]
   },
   "carry": {
-    "emoji": [Language.L.emoji.carry],
+    "emoji": [emoji.carry],
        "en": ["carry", "holding"],
        "es": ["llevando", "sosteniendo"],
        "ja": ["笹運び", "枝運び", "運ぶ"],
@@ -2944,7 +2948,7 @@ Language.L.tags = {
        "zh": ["运", "拿"]
   },
   "cherry blossoms": {
-    "emoji": [Language.L.emoji.cherry_blossom],
+    "emoji": [emoji.cherry_blossom],
        "en": ["cherry blossoms", "cherry blossom"],
        "es": ["flor de cerezo", "flores de cerezo"],
        "ja": ["桜"],
@@ -2954,7 +2958,7 @@ Language.L.tags = {
        "zh": ["樱花"]
   },
   "climb": {
-    "emoji": [Language.L.emoji.climb],
+    "emoji": [emoji.climb],
        "en": ["climb", "climbing"],
        "es": ["trepando", "escalando"],
        "ja": ["木登り", "登る"],
@@ -2964,7 +2968,7 @@ Language.L.tags = {
        "zh": ["爬"]
   },
   "close-up": {
-    "emoji": [Language.L.emoji.close_up],
+    "emoji": [emoji.close_up],
        "en": ["close-up", "closeup", "close"],
        "es": ["de cerca", "cerca"],
        "ja": ["閉じる"],
@@ -2974,7 +2978,7 @@ Language.L.tags = {
        "zh": ["特写"]
   },
   "couple": {
-    "emoji": [Language.L.emoji.couple],
+    "emoji": [emoji.couple],
        "en": ["couple", "partners"],
        "es": ["pareja"],
        "ja": ["カップル", "夫婦", "ふうふ"],
@@ -2984,7 +2988,7 @@ Language.L.tags = {
        "zh": ["夫妇", "情侣"]
   },
   "destruction": {
-    "emoji": [Language.L.emoji.tornado],
+    "emoji": [emoji.tornado],
        "en": ["chaos", "destruction", "mess"],
        "es": ["caos", "destrucción", "destruccion", "desorden"],
        "ja": ["破壊"],
@@ -2994,7 +2998,7 @@ Language.L.tags = {
        "zh": ["破坏"]
   },
   "dig": {
-    "emoji": [Language.L.emoji.dig],
+    "emoji": [emoji.dig],
        "en": ["dig", "digging", "digs"],
        "es": ["cavando", "excavando"],
        "ja": ["穴掘り"],
@@ -3004,7 +3008,7 @@ Language.L.tags = {
        "zh": ["挖"]
   },
   "dish": {
-    "emoji": [Language.L.emoji.dish],
+    "emoji": [emoji.dish],
        "en": ["dish", "plate"],
        "es": ["plato"],
        "ja": ["ごはん"],
@@ -3014,7 +3018,7 @@ Language.L.tags = {
        "zh": ["盘子"]
   },
   "door": {
-    "emoji": [Language.L.emoji.door],
+    "emoji": [emoji.door],
        "en": ["door"],
        "es": ["puerta"],
        "ja": ["扉", "戸"],
@@ -3024,7 +3028,7 @@ Language.L.tags = {
        "zh": ["门"]
   },
   "ear": {
-    "emoji": [Language.L.emoji.ear],
+    "emoji": [emoji.ear],
        "en": ["ear", "ears"],
        "es": ["oreja", "orejas"],
        "ja": ["耳"],
@@ -3034,7 +3038,7 @@ Language.L.tags = {
        "zh": ["耳"]
   },
   "eye": {
-    "emoji": [Language.L.emoji.eye],
+    "emoji": [emoji.eye],
        "en": ["eye", "eyes"],
        "es": ["ojo", "ojos"],
        "ja": ["目"],
@@ -3044,7 +3048,7 @@ Language.L.tags = {
        "zh": ["眼睛", "眼"]
   },
   "flowers": {
-    "emoji": [Language.L.emoji.flower],
+    "emoji": [emoji.flower],
        "en": ["flower", "flowers"],
        "es": ["flor", "flores"],
        "ja": ["花"],
@@ -3054,7 +3058,7 @@ Language.L.tags = {
        "zh": ["花"]
   },
   "grooming": {
-    "emoji": [Language.L.emoji.shower],
+    "emoji": [emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
        "es": ["limpiándose", "limpiandose", "lamiéndose", "lamiendose", "lavándose", "lavandose"],
        "ja": ["毛づくろい"],
@@ -3064,7 +3068,7 @@ Language.L.tags = {
        "zh": ["梳毛"]
   },
   "grumpy": {
-    "emoji": [Language.L.emoji.grumpy],
+    "emoji": [emoji.grumpy],
        "en": ["grumpy", "grouchy"],
        "es": ["gruñona", "gruñón", "grunona", "grunon"],
        "ja": ["ご機嫌ナナメ"],
@@ -3074,7 +3078,7 @@ Language.L.tags = {
        "zh": ["牢骚满腹"]
   },
   "hammock": {
-    "emoji": [Language.L.emoji.camping],
+    "emoji": [emoji.camping],
        "en": ["hammock"],
        "es": ["hamaca"],
        "ja": ["ハンモック"],
@@ -3084,7 +3088,7 @@ Language.L.tags = {
        "zh": ["吊床"]
   },
   "home": {
-    "emoji": [Language.L.emoji.home],
+    "emoji": [emoji.home],
        "en": ["home"],
        "es": ["casa", "en casa"],
        "ja": ["お家"],
@@ -3094,7 +3098,7 @@ Language.L.tags = {
        "zh": ["家"]
   },
   "in love": {
-    "emoji": [Language.L.emoji.hearts],
+    "emoji": [emoji.hearts],
        "en": ["in love", "love"],
        "es": ["enamorado"],
        "ja": ["恋"],
@@ -3104,7 +3108,7 @@ Language.L.tags = {
        "zh": ["热恋", "恋爱"]
   },
   "itchy": {
-    "emoji": [Language.L.emoji.itch],
+    "emoji": [emoji.itch],
        "en": ["itchy", "scratchy"],
        "es": ["rascándose", "rascandose"],
        "ja": ["カイカイ", "かゆい"],
@@ -3114,7 +3118,7 @@ Language.L.tags = {
        "zh": ["挠痒", "抓痒"]
   },
   "jizo": {
-    "emoji": [Language.L.emoji.jizo],
+    "emoji": [emoji.jizo],
        "en": ["jizo", "jizo statue", "statue"],
        "es": ["estatua"],
        "ja": ["お地蔵さん"],
@@ -3124,7 +3128,7 @@ Language.L.tags = {
        "zh": ["地藏菩萨"]
   },
   "keeper": {
-    "emoji": [Language.L.emoji.weary],
+    "emoji": [emoji.weary],
        "en": ["keeper", "zookeeper"],
        "es": ["cuidador", "cuidadora"],
        "ja": ["飼育員"],
@@ -3134,7 +3138,7 @@ Language.L.tags = {
        "zh": ["饲养员"]
   },
   "kiss": {
-    "emoji": [Language.L.emoji.kiss],
+    "emoji": [emoji.kiss],
        "en": ["kissing", "kiss"],
        "es": ["beso", "besos"],
        "ja": ["接吻", "せっぷん", "キス"],
@@ -3144,7 +3148,7 @@ Language.L.tags = {
        "zh": ["接吻", "亲亲", "吻"]
   },
   "laying down": {
-    "emoji": [Language.L.emoji.bed],
+    "emoji": [emoji.bed],
        "en": ["lay down", "laying down"],
        "es": ["acostado", "recostado"],
        "ja": ["寝そべっている"],
@@ -3154,7 +3158,7 @@ Language.L.tags = {
        "zh": ["躺"]
   },
   "lips": {
-    "emoji": [Language.L.emoji.lips],
+    "emoji": [emoji.lips],
        "en": ["lips"],
        "es": ["labios"],
        "ja": ["くちびる"],
@@ -3164,8 +3168,8 @@ Language.L.tags = {
        "zh": ["唇"]
   },
   "long-tongue": {
-    "emoji": [Language.L.emoji.tongue +
-              Language.L.emoji.tongue],
+    "emoji": [emoji.tongue +
+              emoji.tongue],
        "en": ["long tongue", "long-tongue"],
        "es": ["sacando la lengua"],
        "ja": ["長い舌"],
@@ -3175,7 +3179,7 @@ Language.L.tags = {
        "zh": ["伸长舌头"]
   },
   "lunch time": {
-    "emoji": [Language.L.emoji.bento],
+    "emoji": [emoji.bento],
        "en": ["lunch time", "lunch"],
        "es": ["hora de comer", "almuerzo"],
        "ja": ["ランチの時間"],
@@ -3185,7 +3189,7 @@ Language.L.tags = {
        "zh": ["午餐时间"]
   },
   "mofumofu": {
-     "emoji": [Language.L.emoji.teddybear],
+     "emoji": [emoji.teddybear],
         "en": ["mofumofu", "fluffy", "punchy"],
         "es": ["rechoncho", "rechoncha", "esponjoso", "esponjosa"],
         "ja": ["モフモフ"],
@@ -3195,7 +3199,7 @@ Language.L.tags = {
         "zh": ["软软"]
   },
   "muzzle": {
-     "emoji": [Language.L.emoji.muzzle],
+     "emoji": [emoji.muzzle],
         "en": ["muzzle", "snout"],
         "es": ["hocico", "trompa"],
         "ja": ["マズル"],
@@ -3205,7 +3209,7 @@ Language.L.tags = {
         "zh": ["口鼻套"]
   },
   "night": {
-     "emoji": [Language.L.emoji.moon],
+     "emoji": [emoji.moon],
         "en": ["night"],
         "es": ["noche"],
         "ja": ["夜"],
@@ -3215,7 +3219,7 @@ Language.L.tags = {
         "zh": ["夜", "晚上"]
   },
   "nose": {
-     "emoji": [Language.L.emoji.nose],
+     "emoji": [emoji.nose],
         "en": ["nose", "snout"],
         "es": ["nariz", "hocico"],
         "ja": ["鼻"],
@@ -3225,7 +3229,7 @@ Language.L.tags = {
         "zh": ["鼻子"]
   },
   "old": {
-     "emoji": [Language.L.emoji.grandpa],
+     "emoji": [emoji.grandpa],
         "en": ["old"],
         "es": ["viejo", "vieja"],
         "ja": ["シニアパンダさん", "年老いた"],
@@ -3235,8 +3239,8 @@ Language.L.tags = {
         "zh": ["老人"]
   },
   "panda bowl": {
-     "emoji": [Language.L.emoji.panda + 
-               Language.L.emoji.bowl],
+     "emoji": [emoji.panda + 
+               emoji.bowl],
         "en": ["panda bowl", "bowl"],
         "es": ["bola de panda", "bola"],
         "ja": ["エサ鉢"],
@@ -3246,7 +3250,7 @@ Language.L.tags = {
         "zh": ["碗"]
   },
   "paws": {
-     "emoji": [Language.L.emoji.paws],
+     "emoji": [emoji.paws],
         "en": ["paws", "feet"],
         "es": ["patas", "pies"],
         "ja": ["足"],
@@ -3256,7 +3260,7 @@ Language.L.tags = {
         "zh": ["爪"]
   },
   "peek": {
-     "emoji": [Language.L.emoji.monocle],
+     "emoji": [emoji.monocle],
         "en": ["peek", "peeking"],
         "es": ["ojeando", "mirando", "curioseando"],
         "ja": ["チラ見"],
@@ -3266,7 +3270,7 @@ Language.L.tags = {
         "zh": ["偷窥"]
   },
   "playing": {
-     "emoji": [Language.L.emoji.playing],
+     "emoji": [emoji.playing],
         "en": ["playing", "play"],
         "es": ["jugando", "jugar"],
         "ja": ["拝み食い", "両手食い"],
@@ -3276,29 +3280,29 @@ Language.L.tags = {
         "zh": ["玩耍"]
   },
   "poop": {
-     "emoji": [Language.L.emoji.poop],
+     "emoji": [emoji.poop],
         "en": ["poop"],
         "es": ["heces", "caca", "mierda"],
-        "ja": [Language.L.emoji.poop],
+        "ja": [emoji.poop],
         "ko": ["응가"],
-        "ne": [Language.L.emoji.poop],
+        "ne": [emoji.poop],
         "pt": ["cocô", "cocó", "caca"],
         "zh": ["便便"]
   },
   "pooping": {
-     "emoji": [Language.L.emoji.panda +
-               Language.L.emoji.poop],
+     "emoji": [emoji.panda +
+               emoji.poop],
         "en": ["pooping"],
         "es": ["defecando", "haciendo caca", "cagando"],
         "ja": ["💩している"],
         "ko": ["응가 중"],
-        "ne": [Language.L.emoji.panda +
-               Language.L.emoji.poop],
+        "ne": [emoji.panda +
+               emoji.poop],
         "pt": ["fazendo cocô", "fazendo caca"],
         "zh": ["便便"]
   },
   "portrait": {
-     "emoji": [Language.L.emoji.portrait],
+     "emoji": [emoji.portrait],
         "en": ["portrait", "square"],
         "es": ["retrato", "cuadrada"],
         "ja": ["顔写真"],
@@ -3308,7 +3312,7 @@ Language.L.tags = {
         "zh": ["肖像"]
   },
   "praying": {
-     "emoji": [Language.L.emoji.pray],
+     "emoji": [emoji.pray],
         "en": ["praying", "pray"],
         "es": ["rezando", "orando"],
         "ja": ["お祈りしている"],
@@ -3318,7 +3322,7 @@ Language.L.tags = {
         "zh": ["祈祷"]
   },
   "profile": {
-     "emoji": [Language.L.emoji.profile],
+     "emoji": [emoji.profile],
         "en": ["profile"],
         "es": ["perfil"],
         "ja": ["プロフィール画像"],
@@ -3328,7 +3332,7 @@ Language.L.tags = {
         "zh": ["资料"]
   },
   "pull-up": {
-     "emoji": [Language.L.emoji.weight],
+     "emoji": [emoji.weight],
         "en": ["pull-up", "pull-ups", "pullup"],
         "es": ["flexiones", "dominadas"],
         "ja": ["鉄棒", "懸垂"],
@@ -3338,7 +3342,7 @@ Language.L.tags = {
         "zh": ["引体向上"]
   },
   "pumpkin": {
-     "emoji": [Language.L.emoji.pumpkin],
+     "emoji": [emoji.pumpkin],
         "en": ["pumpkin", "halloween"],
         "es": ["calabaza"],
         "ja": ["かぼちゃ", "南瓜"],
@@ -3348,17 +3352,17 @@ Language.L.tags = {
         "zh": ["南瓜"]
   },
   "reiwa": {
-     "emoji": [Language.L.emoji.reiwa],
+     "emoji": [emoji.reiwa],
         "en": ["reiwa"],
         "es": ["reiwa"],
         "ja": ["令和"],
         "ko": ["레이와"],
-        "ne": [Language.L.emoji.reiwa],
+        "ne": [emoji.reiwa],
         "pt": ["reiwa"],
         "zh": ["令和"]
   },
   "sample": {
-     "emoji": [Language.L.emoji.panda],
+     "emoji": [emoji.panda],
         "en": ["sample"],
         "es": ["muestra"],
         "ja": ["見本", "試料", "試供品"],
@@ -3368,7 +3372,7 @@ Language.L.tags = {
         "zh": ["样本", "样品", "样"]
   },
   "scale": {
-     "emoji": [Language.L.emoji.scale],
+     "emoji": [emoji.scale],
         "en": ["scale", "weigh-in", "weight"],
         "es": ["balanza", "pesa"],
         "ja": ["体重計", "たいじゅうけい"],
@@ -3378,7 +3382,7 @@ Language.L.tags = {
         "zh": ["测体重"]
   },
   "shake": {
-     "emoji": [Language.L.emoji.cyclone],
+     "emoji": [emoji.cyclone],
         "en": ["shake", "shaking"],
         "es": ["sacudiéndose", "sacudiendose"],
         "ja": ["ドリパン", "ブルブル", "ゆらゆら"],
@@ -3388,7 +3392,7 @@ Language.L.tags = {
         "zh": ["摇晃"]
   },
   "shedding": {
-     "emoji": [Language.L.emoji.worry],
+     "emoji": [emoji.worry],
         "en": ["shedding", "changing fur", "losing fur", "losing hair"],
         "es": ["mudando", "mudando el pelo", "cambiando el pelo"],
         "ja": ["換毛", "泣いている"],
@@ -3398,7 +3402,7 @@ Language.L.tags = {
         "zh": ["换毛"]
   },
   "shoots": {
-     "emoji": [Language.L.emoji.bamboo],
+     "emoji": [emoji.bamboo],
         "en": ["shoots", "shoot"],
         "es": ["brotes"],
         "ja": ["竹の子", "たけのこ"],
@@ -3408,7 +3412,7 @@ Language.L.tags = {
         "zh": ["竹笋"]
   },
   "siblings": {
-     "emoji": [Language.L.emoji.siblings],
+     "emoji": [emoji.siblings],
         "en": ["siblings"],
         "es": ["hermanos"],
         "ja": ["兄弟", "きょうだい"],
@@ -3418,7 +3422,7 @@ Language.L.tags = {
         "zh": ["同胞"]
   },
   "sisters": {
-     "emoji": [Language.L.emoji.sisters],
+     "emoji": [emoji.sisters],
         "en": ["sisters"],
         "es": ["hermanas"],
         "ja": ["姉妹"],
@@ -3428,7 +3432,7 @@ Language.L.tags = {
         "zh": ["姐妹"]
   },
   "sleeping": {
-     "emoji": [Language.L.emoji.sleeping],
+     "emoji": [emoji.sleeping],
         "en": ["sleeping", "sleep", "asleep"],
         "es": ["durmiendo", "dormido", "dormida", "durmiéndose", "durmiendose", "dormir"],
         "ja": ["寝ている"],
@@ -3438,7 +3442,7 @@ Language.L.tags = {
         "zh": ["睡觉"]
   },
   "slobber": {
-     "emoji": [Language.L.emoji.slobber],
+     "emoji": [emoji.slobber],
         "en": ["slobber", "slobbering"],
         "es": ["babeándo", "babeando", "baba"],
         "ja": ["よだれをたらしている"],
@@ -3448,7 +3452,7 @@ Language.L.tags = {
         "zh": ["口水", "流口水"]
   },
   "smile": {
-     "emoji": [Language.L.emoji.smile],
+     "emoji": [emoji.smile],
         "en": ["smile", "smiling"],
         "es": ["sonriéndo", "sonriendo", "sonreír", "sonreir", "sonriente", "sonrisa"],
         "ja": ["スマイル"],
@@ -3458,7 +3462,7 @@ Language.L.tags = {
         "zh": ["笑", "微笑"]
   },
   "snow": {
-     "emoji": [Language.L.emoji.snow],
+     "emoji": [emoji.snow],
         "en": ["snow"],
         "es": ["nieve"],
         "ja": ["雪"],
@@ -3468,7 +3472,7 @@ Language.L.tags = {
         "zh": ["雪"]
   },
   "spider": {
-     "emoji": [Language.L.emoji.spider],
+     "emoji": [emoji.spider],
         "en": ["spider", "spider-bear", "spider bear"],
         "es": ["araña", "arana"],
         "ja": ["スパイダー"],
@@ -3478,7 +3482,7 @@ Language.L.tags = {
         "zh": ["蜘蛛"]
   },
   "standing": {
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [emoji.no_emoji],
         "en": ["standing", "stand"],
         "es": ["de pie", "parado"],
         "ja": ["立っている"],
@@ -3488,7 +3492,7 @@ Language.L.tags = {
         "zh": ["站立"]
   },
   "stretching": {
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [emoji.no_emoji],
         "en": ["stretching", "stretch"],
         "es": ["estirándose", "estirandose"],
         "ja": ["ストレッチしている"],
@@ -3498,7 +3502,7 @@ Language.L.tags = {
         "zh": ["拉伸"]
   },
   "surprise": {
-     "emoji": [Language.L.emoji.fireworks],
+     "emoji": [emoji.fireworks],
         "en": ["surprise", "surprised"],
         "es": ["sorpresa", "sorprendido", "sorprendida"],
         "ja": ["びっくり"],
@@ -3508,7 +3512,7 @@ Language.L.tags = {
         "zh": ["惊喜"]
   },
   "tail": {
-     "emoji": [Language.L.emoji.snake],
+     "emoji": [emoji.snake],
         "en": ["tail"],
         "es": ["cola"],
         "ja": ["しっぽ"],
@@ -3518,7 +3522,7 @@ Language.L.tags = {
         "zh": ["尾巴"]
   },
   "techitechi": {
-     "emoji": [Language.L.emoji.target],
+     "emoji": [emoji.target],
         "en": ["techitechi", "spot", "cute spot"],
         "es": ["lunares", "lunar"],
         "ja": ["テチテチ"],
@@ -3528,7 +3532,7 @@ Language.L.tags = {
         "zh": ["目标"]
   },
   "tongue": {
-     "emoji": [Language.L.emoji.tongue],
+     "emoji": [emoji.tongue],
         "en": ["tongue"],
         "es": ["lengua"],
         "ja": ["べろ"],
@@ -3538,7 +3542,7 @@ Language.L.tags = {
         "zh": ["舌"]
   },
   "toys": {
-     "emoji": [Language.L.emoji.football],
+     "emoji": [emoji.football],
         "en": ["toy", "toys"],
         "es": ["juguete", "juguetes"],
         "ja": ["遊具", "おもちゃ", "おもちゃ"],
@@ -3548,7 +3552,7 @@ Language.L.tags = {
         "zh": ["玩具"]
   },
   "tree": {
-     "emoji": [Language.L.emoji.tree],
+     "emoji": [emoji.tree],
         "en": ["tree", "trees"],
         "es": ["árbol", "arbol", "árboles", "arboles"],
         "ja": ["木"],
@@ -3558,7 +3562,7 @@ Language.L.tags = {
         "zh": ["树"]
   },
   "upside-down": {
-     "emoji": [Language.L.emoji.upside_down],
+     "emoji": [emoji.upside_down],
         "en": ["upside-down", "upside down"],
         "es": ["al revés", "al reves", "cabeza abajo"],
         "ja": ["逆さま"],
@@ -3568,7 +3572,7 @@ Language.L.tags = {
         "zh": ["翻转"]
   },
   "wink": {
-     "emoji": [Language.L.emoji.wink],
+     "emoji": [emoji.wink],
         "en": ["wink", "winking"],
         "es": ["guiño", "guino"],
         "ja": ["ウィンク"],
@@ -3578,7 +3582,7 @@ Language.L.tags = {
         "zh": ["眨眼"]
   },
   "wet": {
-     "emoji": [Language.L.emoji.raincloud],
+     "emoji": [emoji.raincloud],
         "en": ["wet"],
         "es": ["mojado", "mojada"],
         "ja": ["濡れた"],
@@ -3588,7 +3592,7 @@ Language.L.tags = {
         "zh": ["湿"]
   },
   "white face": {
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [emoji.no_emoji],
         "en": ["white face", "light face"],
         "es": ["cara blanca"],
         "ja": ["色白さん", "しろめん", "白面", "白めん"],
@@ -3598,7 +3602,7 @@ Language.L.tags = {
         "zh": ["浅色的脸"]
   },
   "window": {
-     "emoji": [Language.L.emoji.window],
+     "emoji": [emoji.window],
         "en": ["window"],
         "es": ["ventana"],
         "ja": ["窓", "まど"],
@@ -3608,7 +3612,7 @@ Language.L.tags = {
         "zh": ["窗"]
   },
   "whiskers": {
-     "emoji": [Language.L.emoji.whiskers],
+     "emoji": [emoji.whiskers],
         "en": ["whiskers", "whisker"],
         "es": ["bigotes", "bigote"],
         "ja": ["ひげ"],
@@ -3618,7 +3622,7 @@ Language.L.tags = {
         "zh": ["晶須"]
   },
   "yawn": {
-     "emoji": [Language.L.emoji.yawn],
+     "emoji": [emoji.yawn],
         "en": ["yawn", "yawning"],
         "es": ["bostezo", "bostezando"],
         "ja": ["あくび"],
@@ -3629,144 +3633,143 @@ Language.L.tags = {
   }
 }
 
-/*
-   Language selection functions
-*/
-// Map a browser specified language to one of our supported options.
-Language.L.defaultDisplayLanguage = function() {
+/** Map a browser specified language to one of our supported options. */
+// TODO ES6: this saves or sets state here. Figure out how it works
+export function defaultDisplayLanguage() {
   // Read language settings from browser's Accept-Language header
   Pandas.def.languages.forEach(function(option) {
     if ((navigator.languages.indexOf(option) != -1) &&
         (this.display == undefined)) {
-      this.display = option;
+      this.display = option
     }
-  });
+  })
   // Read language cookie if it's there
-  var test = this.storage.getItem("language");
+  var test = this.storage.getItem("language")
   if (test != null) {
     if (Pandas.def.languages.indexOf(test) != -1) {
-      this.display = test;
+      this.display = test
     }
   }  
   // Fallback to English
   if (this.display == undefined) {
-    this.display = "en";
+    this.display = "en"
   }
   // Adjust flags. For UK locales, make the English language flag
   // a union-jack. For mainland China locales, make Taiwan flag
   // look like a Chinese flag.
-  this.fallbackFlags();
+  fallbackFlags()
 }
 
-// Do language fallback for anything reporting as "unknown" or "empty" in a zoo or animal object
-Language.L.fallbackEntity = function(entity) {
-  var output = entity;
-  var order = Language.currentOrder(Pandas.language_order(entity), this.display);
+/**
+ * Do language fallback for anything reporting as `unknown` or _empty_ in a zoo
+ * or animal object
+ */
+export function fallbackEntity(entity) {
+  const output = entity
+  const order = currentOrder(Pandas.language_order(entity), this.display)
   // Default values that we want to ignore if we can
-  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
-  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
-  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
+  const default_animal = saveEntityKeys(Pandas.def.animal, order)
+  const default_zoo = saveEntityKeys(Pandas.def.zoo, order)
+  const empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
                                 .concat(Object.values(default_animal))
-                                .concat(Object.values(default_zoo));
+                                .concat(Object.values(default_zoo))
   // Derive the zoo/panda language-translatable keys by getting a list of
   // the separate language keys from the original object, and adding a
   // synthetic list of keys that would apply for the current display language
-  var language_entity = Language.listDisplayKeys(entity, order, this.display);
+  const language_entity = listDisplayKeys(entity, order, this.display)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
-  for (var key of language_entity) {
-    var blacklist_key = key.split(".")[1];   // No language suffix
-    if (Language.fallback_blacklist.indexOf(blacklist_key) != -1) {
-      continue;  // Ignore blacklist fields
-    }
-    if (empty_values.indexOf(entity[key]) != -1) {
+  for (const key of language_entity) {
+    const blacklist_key = key.split(".")[1]   // No language suffix
+    if (fallback_blacklist.includes(blacklist_key))
+      continue  // Ignore blacklist fields
+    if (empty_values.includes(entity[key])) {
       for (language of order) {
-        if (language == L.display) {
-          continue;  // Don't take replacement values from current language
-        }
-        [ _, desired ] = key.split('.');
-        var new_key = language + "." + desired;
-        if (empty_values.indexOf(entity[new_key]) == -1) {
+        if (language == L.display)
+          continue  // Don't take replacement values from current language
+        const [ _, desired ] = key.split('.')
+        var new_key = `${language}.${desired}`
+        if (!empty_values.includes(entity[new_key])) {
           // Put this language's value in the displayed output
-          output[key] = entity[new_key];
-          break;
+          output[key] = entity[new_key]
+          break
         }
       } // If no available non-empty strings in other languages, do nothing
     }
   }
-  return output;
+  return output
 }
 
-// Do locale adjustments for which flags appear as language flags
-Language.L.fallbackFlags = function() {
+/** Do locale adjustments for which flags appear as language flags */
+function fallbackFlags() {
   // If an English locale other than USA, or if no English locale
   // defined at all, default the "english" language flag to UK flag.
-  var us = navigator.languages.indexOf("en-US");
-  if (us == -1) {
-    Language.L.gui.flag["en"] = Language.L.flags["UK"];
+  const us = "en-US"
+  if (!navigator.languages.includes(us)) {
+    gui.flag["en"] = flags["UK"]
   } else {
-    for (let lang of navigator.languages) {
+    for (const lang of navigator.languages) {
       if (lang.indexOf("en") == 0) {
-        commonwealth = navigator.languages.indexOf(lang);
+        const commonwealth = navigator.languages.indexOf(lang)
         if (commonwealth < us) {
-          Language.L.gui.flag["en"] = Language.L.flags["UK"];
-          break;
+          gui.flag["en"] = flags["UK"]
+          break
         }
       }
     }
   }
   // If a Chinese locale other than Taiwan, default the "chinese"
   // language flag to the China flag.
-  var china = "zh-CN";
-  var taiwan = "zh-TW";
-  if ((navigator.languages.indexOf(taiwan) != -1) &&
-      (navigator.languages.indexOf(china) != -1) &&
+  const china = "zh-CN"
+  const taiwan = "zh-TW"
+  if ((navigator.languages.includes(taiwan)) &&
+      (navigator.languages.includes(china)) &&
       (navigator.languages.indexOf(taiwan) < navigator.languages.indexOf(china))) {
-    Language.L.gui.flag["zh"] = Language.L.flags["Taiwan"];        
+    gui.flag["zh"] = flags["Taiwan"]
   }
   // Korean locale flag
-  var korean = "ko-KR";
-  if (navigator.languages.indexOf(korean) != -1) {
-    Language.L.gui.flag["ko"] = Language.L.flags["South Korea"];
+  const korean = "ko-KR"
+  if (navigator.languages.includes(korean)) {
+    gui.flag["ko"] = flags["South Korea"]
   }
-
   // TODO: Portuguese vs. Brazil flags
-  var brazil = "pt-BR";
-  if (navigator.languages.indexOf(brazil) != -1) {
-    Language.L.gui.flag["pt"] = Language.L.flags["Brazil"];
+  const brazil = "pt-BR"
+  if (navigator.languages.includes(brazil)) {
+    gui.flag["pt"] = flags["Brazil"]
   }
 }
 
-// Do language fallback for anything reporting as "unknown" or "empty" in an info block
-Language.L.fallbackInfo = function(info, original) {
-  var bundle = info;
-  var order = Language.currentOrder(info.language_order, this.display);
+/**
+ * Do language fallback for anything reporting as `unknown` or _empty_ in an
+ * info block
+ */
+export function fallbackInfo(info, original) {
+  var bundle = info
+  var order = currentOrder(info.language_order, this.display)
   // Default values that we want to ignore if we can
-  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
-  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
-  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
-                                .concat(Object.values(default_animal))
-                                .concat(Object.values(default_zoo));
+  var default_animal = saveEntityKeys(Pandas.def.animal, order)
+  var default_zoo = saveEntityKeys(Pandas.def.zoo, order)
+  const empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
+                                  .concat(Object.values(default_animal))
+                                  .concat(Object.values(default_zoo))
   // Derive the info-block language-translatable keys by getting a list of
   // the separate language keys from the original object, slicing off
   // the lanugage prefix, and de-duplicating.
-  var language_info = Language.listInfoKeys(original, order);
+  const language_info = listInfoKeys(original, order)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original info blob's key.
-  for (var key of language_info) {
-    if (Language.fallback_blacklist.indexOf(key) != -1) {
-      continue;  // Ignore blacklist fields
-    }
-    if (empty_values.indexOf(info[key]) != -1) {
-      for (language of order) {
-        if (language == this.display) {
-          continue;  // Don't take replacement values from current language
-        }
-        var new_key = language + "." + key;
-        if (empty_values.indexOf(original[new_key]) == -1) {
+  for (const key of language_info) {
+    if (fallback_blacklist.includes(key))
+      continue  // Ignore blacklist fields
+    if (empty_values.includes(info[key])) {
+      for (const language of order) {
+        if (language == this.display)
+          continue  // Don't take replacement values from current language
+        const new_key = `${language}.${key}`
+        if (!empty_values.includes(original[new_key])) {
           // Put this language's value in the displayed output
-          bundle[key] = original[new_key];
-          break;
+          bundle[key] = original[new_key]
+          break
         }
       } // If no available non-empty strings in other languages, do nothing
     }
@@ -3774,388 +3777,352 @@ Language.L.fallbackInfo = function(info, original) {
 
   // Replace nested zoo or birthplace text for panda entities similarly
   if ((info.zoo != undefined) && (info.zoo != Pandas.def.zoo)) {
-    bundle.zoo = this.fallbackEntity(info.zoo);
+    bundle.zoo = fallbackEntity(info.zoo)
   }
   if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
-    bundle.birthplace = this.fallbackEntity(info.birthplace);
+    bundle.birthplace = fallbackEntity(info.birthplace)
   }
-  for (let index in info.mom) {
+  for (const index in info.mom) {
     if ((info.mom[index] != undefined) && 
         (info.mom[index] != Pandas.def.animal)) {
-      info.mom[index] = this.fallbackEntity(info.mom[index]);
+      info.mom[index] = fallbackEntity(info.mom[index])
     }
   }
-  for (let index in info.dad) {
+  for (const index in info.dad) {
     if ((info.dad[index] != undefined) && 
         (info.dad[index] != Pandas.def.animal)) {
-      info.dad[index] = this.fallbackEntity(info.dad[index]);
+      info.dad[index] = fallbackEntity(info.dad[index])
     }      
   }
-  for (let index in info.litter) {
+  for (const index in info.litter) {
     if ((info.litter[index] != undefined) && 
         (info.litter[index] != Pandas.def.animal)) {
-       info.litter[index] = this.fallbackEntity(info.litter[index]);
+       info.litter[index] = fallbackEntity(info.litter[index])
     }
   }
-  for (let index in info.siblings) {
+  for (const index in info.siblings) {
     if ((info.siblings[index] != undefined) && 
         (info.siblings[index] != Pandas.def.animal)) {
-       info.siblings[index] = this.fallbackEntity(info.siblings[index]);
+       info.siblings[index] = fallbackEntity(info.siblings[index])
     }
   }
-  for (let index in info.children) {
+  for (const index in info.children) {
     if ((info.children[index] != undefined) && 
         (info.children[index] != Pandas.def.animal)) {
-       info.children[index] = this.fallbackEntity(info.children[index]);
+       info.children[index] = fallbackEntity(info.children[index])
     }
   }
-  return bundle;
+  return bundle
 }
 
-// Update all GUI elements based on the currently chosen language
-Language.L.update = function() {
-  // Update menu buttons. TODO: grab these buttons by class
-  var menu_button_ids = ['languageButton', 'aboutButton', 'randomButton',
-                         'linksButton', 'profileButton', 'mediaButton', 
-                         'timelineButton'];
-  var menu_button_elements = menu_button_ids.map(x => 
-    document.getElementById(x)).filter(x => x != undefined);
-  // Any buttons in the page? Redraw with correct language settings
-  for (let element of menu_button_elements) {
-    var id = element.id;
-    var lookup = id.replace("Button", "");
-    [icon, text] = element.childNodes[0].childNodes;
-    if (id == "languageButton") {
-      icon.innerText = this.gui.flag[this.display];   // Replace flag icon
-      text.innerText = this.gui[lookup][this.display][this.display]   // Replace language icon text
-    } else {
-      text.innerText = this.gui[lookup][this.display];   // Replace icon text
-    }
-  }
-  // On the Links page? Redraw it
-  if ((window.location.hash == "#links") && (P.db != undefined)) {
-    Page.links.render();
-  }
-  // Update the placeholder text for a search bar
-  if (document.forms['searchForm'] != undefined) {
-    if (P.db == undefined) {
-      document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
-    } else {
-      document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
-    }
-  }
-  // Change the page title
-  document.title = this.gui.title[this.display];
-  // Write localStorage for your chosen language. This is better than a cookie
-  // since the server never has to see what language you're using in each request.
-  this.storage.setItem('language', this.display);
-}
-
-/*
-    Language helper and utility functions
-*/
-// For names stored in Roman characters, they often start with a capital letter.
-// So input queries not capitalized need to be corrected for searching.
-Language.capitalNames = function(input) {
-  var words = [];
-  var output = [];
-  if (input.indexOf(' ') != -1) {
-    words = input.split(' ');
+/** 
+ * For names stored in Roman characters, they often start with a capital
+ * letter. So input queries not capitalized need to be corrected for searching.
+ */
+export function capitalNames(input) {
+  const words = []
+  const output = []
+  if (input.includes(' ')) {
+    words = input.split(' ')
   } else {
-    words.push(input);
+    words.push(input)
   }
   words.forEach(function(word) {
-    latin = Language.testString(input, "Latin");
+    const latin = testString(input, "Latin")
     if ((latin == true) && (Query.env.preserve_case == false)) {
-      word = word.replace(/^\w/, function(chr) {
-        return chr.toUpperCase();
-      });
-      word = word.replace(/-./, function(chr) {
-        return chr.toUpperCase();
-      });
-      word = word.replace(/ ./, function(chr) {
-        return chr.toUpperCase();
-      });
+      word = word.replace(/^\w/, (chr) => chr.toUpperCase())
+      word = word.replace(/-./, (chr) => chr.toUpperCase())
+      word = word.replace(/ ./, (chr) => chr.toUpperCase())
     }
     // Return either the modified or unmodified word to the list
-    output.push(word);
-  });
-  return output.join(' ');   // Recombine terms with spaces
+    output.push(word)
+  })
+  return output.join(' ')   // Recombine terms with spaces
 }
 
-// Capitalize words in a string
-Language.capitalize = function(input, mode) {
-  var output = "";
-  var words = input.split(" ").length;
-  if ((mode == "first") || (words == 1)) {
-    output = input.charAt(0).toUpperCase() + input.slice(1);
-  } else {
-    output = input.replace(/(?:^|\s)\S/g, function(a) {
-      return a.toUpperCase();
-    });
-  }
-  return output;
+/** Capitalize words in a string */
+function capitalize(input, mode) {
+  const words = input.split(" ").length
+  const ouptut = ((mode == "first") || (words == 1))
+    ? input.charAt(0).toUpperCase() + input.slice(1)
+    : input.replace(/(?:^|\s)\S/g, (a) => a.toUpperCase())
+  return output
 }
 
-// Make a phrase out of parts, with commas and terminal "and"
-Language.commaPhrase = function(pieces) {
-  var p = document.createElement('p');
-  for (var i = 0; i < pieces.length; i++) {
-    var m = document.createTextNode(pieces[i]);
-    var c = document.createTextNode(Language.L.messages.comma[L.display]);
-    var a = document.createTextNode(Language.L.messages.and_words[L.display]);
-    p.appendChild(m);
+/** Make a phrase out of parts, with commas and terminal _and_ */
+export function commaPhrase(pieces) {
+  const p = document.createElement('p')
+  for (let i = 0; i < pieces.length; i++) {
+    const m = document.createTextNode(pieces[i])
+    const c = document.createTextNode(messages.comma[L.display])
+    const a = document.createTextNode(messages.and_words[L.display])
+    p.appendChild(m)
     // Commas
     if ((i < pieces.length - 3) && (pieces.length > 3)) {
-      p.appendChild(c);
+      p.appendChild(c)
     }
     // Comma and "and" for long phrases
     if ((i == pieces.length - 3) && (pieces.length > 3)) {
-      p.appendChild(c);
-      p.appendChild(a);
+      p.appendChild(c)
+      p.appendChild(a)
     }
     // No commas, but just the "and"
     if ((i == pieces.length - 3) && (pieces.length <= 3)) {
-      p.appendChild(a);
+      p.appendChild(a)
     }
   }
-  return p;
+  return p
 }
 
-// Same as above but for just raw text
-Language.commaPhraseBare = function(pieces) {
-  var o = "";
-  for (var i = 0; i < pieces.length; i++) {
-    var m = pieces[i];
-    var c = Language.L.messages.comma[L.display] + " ";
-    var a = Language.L.messages.and_words[L.display];
-    o = o.concat(m);
+/** Same as above but for just raw text */
+export function commaPhraseBare(pieces) {
+  let o = ""
+  for (let i = 0; i < pieces.length; i++) {
+    const m = pieces[i]
+    const c = messages.comma[L.display] + " "
+    const a = messages.and_words[L.display]
+    o = o.concat(m)
     // Commas
     if ((i < pieces.length - 2) && (pieces.length > 2)) {
-      o = o.concat(c);
+      o = o.concat(c)
     }
     // Comma and "and" for long phrases
     if ((i == pieces.length - 2) && (pieces.length > 2)) {
-      o = o.concat(c);
-      o = o.concat(a);
+      o = o.concat(c)
+      o = o.concat(a)
     }
     // No commas, but just the "and"
     if ((i == pieces.length - 2) && (pieces.length <= 2)) {
-      o = o.concat(a);
+      o = o.concat(a)
     }
   }
   // The fragments may concatenate spaces together, so kill these
-  o = o.replace(/\s\s+/g, ' ');
-  return o;
+  o = o.replace(/\s\s+/g, ' ')
+  return o
 }
 
-// Calculate the current fallback language order for a given info block or entity.
-// Key here is adding the current display language to the list, so that if a dataset
-// doesn't include info for a language, we can overwrite that info anyways!
-Language.currentOrder = function(current_list, current_language) {
-  var bias = L.bias[current_language];
-  if (bias == "latin") {
-    bias = [];
+/**
+ * Calculate the current fallback language order for a given info block or
+ * entity. Key here is adding the current display language to the list, so that
+ * if a dataset doesn't include info for a language, we can overwrite that info
+ * anyways!
+ */
+function currentOrder(current_list, current_language) {
+  const currentBias = bias[current_language]
+  if (currentBias[0] == "latin") {
+    currentBias = []
     // Iterate through the current list of languages. If one has a latin
     // writing system, use it as an option. This will usually fall back to
     // English, but not always.
-    for (let lang of current_list) {
-      if (Language.alphabets["latin"].indexOf(lang) != -1) {
-        bias.push(lang);
+    for (const lang of current_list) {
+      if (alphabets["latin"].includes(lang)) {
+        currentBias.push(lang)
       }
     }
   }
-  return bias.concat(current_list)
-             .concat(current_language)
-             .filter(function(value, index, self) { 
-    return self.indexOf(value) === index;  // Remove duplicates in the array
-  });
+  return currentBias
+    .concat(current_list)
+    .concat(current_language)
+    // Remove duplicates in the array
+    .filter((value, index, self) => self.indexOf(value) === index)
 }
 
-// Determine if altname is not worth displaying for furigana by calculating
-// its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
-Language.editDistance = function(a, b){
-  if(!a || !b) return (a || b).length;
-  var m = [];
-  for(var i = 0; i <= b.length; i++){
-    m[i] = [i];
-    if(i === 0) continue;
-    for(var j = 0; j <= a.length; j++){
-      m[0][j] = j;
-      if(j === 0) continue;
+/**
+ * Determine if altname is not worth displaying for furigana by calculating
+ * its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
+ */
+export function editDistance(a, b) {
+  if (!a || !b)
+    return (a || b).length
+  const m = []
+  for (let i = 0; i <= b.length; i++) {
+    m[i] = [i]
+    if (i === 0)
+      continue
+    for (var j = 0; j <= a.length; j++) {
+      m[0][j] = j
+      if (j === 0)
+        continue
       m[i][j] = b.charAt(i - 1) == a.charAt(j - 1) ? m[i - 1][j - 1] : Math.min(
         m[i-1][j-1] + 1,
         m[i][j-1] + 1,
         m[i-1][j] + 1
-      );
+      )
     }
   }
-  return m[b.length][a.length];
-};
+  return m[b.length][a.length]
+}
 
-// For fallback functions, don't replace these fields
-Language.fallback_blacklist = ["othernames", "nicknames"];
-
-Language.fallback_name = function(entity) {
-  var entity_order = entity["language.order"].split(", ");
-  var order = Language.currentOrder(entity_order, L.display);
-  order.unshift(L.display);   // Display language always comes first
+/** 
+ * Use the language order of the entity, and the current display language,
+ * to determine the most relevant available name for the animal shown, even if
+ * it's not in the current display language.
+ */
+export function fallback_name(entity) {
+  const entity_order = entity["language.order"].split(", ")
+  const order = currentOrder(entity_order, L.display)
+  order.unshift(L.display)   // Display language always comes first
   for (let language of order) {
-    var name = entity[language + ".name"]
+    const name = entity[language + ".name"]
     if (name != undefined) {
-      return name; 
+      return name 
     }
   }
   // Fallback default name
-  return Pandas.def.animal[L.display + ".name"];
+  // TODO ES6
+  return Pandas.def.animal[L.display + ".name"]
 }
 
-Language.hiraganaToKatakana = function(input) {
-  var source_range = Pandas.def.ranges['ja'][1];   // Hiragana range regex
-  var test = source_range.test(input);
+/**
+ * For Japanese language searches, whenever a hiragana string is searched, we
+ * try to support also searching for the katakana equivalent characters.
+ */
+export function hiraganaToKatakana(input) {
+  const source_range = Pandas.def.ranges['ja'][1]   // Hiragana range regex
+  const test = source_range.test(input)
+  let output = ""
   if (test == false) {
-    return input;
+    return input
   } else {
-    var output = "";
     for (let char of input) {
-      var index = Language.charset["ja"].hiragana.indexOf(char); 
+      const index = charset["ja"].hiragana.indexOf(char)
       if (index > -1) { 
-        var swap = Language.charset["ja"].katakana[index];
-        output += swap;
+        const swap = charset["ja"].katakana[index]
+        output += swap
       } else {
-        output += char;
+        output += char
       }
     }
   }
-  return output;
+  return output
 }
 
-Language.katakanaToHiragana = function(input) {
-  var source_range = Pandas.def.ranges['ja'][2];   // Katakana range regex
-  var test = source_range.test(input);
+/**
+ * For Japanese language searches, whenever a katakana string is searched, we
+ * try to support also searching for the hiragana equivalent characters.
+ */
+export function katakanaToHiragana(input) {
+  const source_range = Pandas.def.ranges['ja'][2]   // Katakana range regex
+  const test = source_range.test(input)
+  let output = ""
   if (test == false) {
-    return input;
+    return input
   } else {
-    var output = "";
     for (let char of input) {
-      var index = Language.charset["ja"].katakana.indexOf(char); 
+      const index = charset["ja"].katakana.indexOf(char)
       if (index > -1) { 
-        var swap = Language.charset["ja"].hiragana[index];
-        output += swap;
+        const swap = charset["ja"].hiragana[index]
+        output += swap
       } else {
-        output += char;
+        output += char
       }
     }
-    return output;
+    return output
   }
 }
 
-// Given a list of keys we're doing language translations for, add a set
-// for the current displayed language
-Language.listDisplayKeys = function(entity, order, current_language) {
-  var entity_keys = Language.listEntityKeys(entity, order);
-  var language_keys = entity_keys.map(function(key) {
-    [_, primary] = key.split('.');
-    return current_language + "." + primary;
-  });
-  return entity_keys.concat(language_keys).filter(function(value, index, self) {
-    return self.indexOf(value) === index;  // De-duplicate language keys
-  });
+/**
+ * Given a list of keys we're doing language translations for, add a set
+ * for the current displayed language
+ */
+function listDisplayKeys(entity, order, current_language) {
+  const entity_keys = listEntityKeys(entity, order)
+  const language_keys = entity_keys.map(function(key) {
+    const [_, primary] = key.split('.')
+    return current_language + "." + primary
+  })
+  // De-duplicate language keys
+  return entity_keys.concat(language_keys)
+    .filter((value, index, self) => self.indexOf(value) === index)
 }
 
-// Get the valid language-translatable keys in a zoo or animal object
-// like the ones in the Pandas.* methods
-Language.listEntityKeys = function(entity, order) {
-  var obj_langs = order.concat(Pandas.def.languages);  // Dupes not important
-  var filtered = Object.keys(entity).filter(function(key) {
+/**
+ * Get the valid language-translatable keys in a zoo or animal object
+ * like the ones in the `Pandas.*` methods
+ */
+function listEntityKeys(entity, order) {
+  const obj_langs = order.concat(Pandas.def.languages)  // Dupes not important
+  const filtered = Object.keys(entity).filter(function(key) {
     // List the language-specific keys in a zoo or animal
-    [lang, primary] = key.split('.');
-    return (obj_langs.indexOf(lang) != -1);
-  });
-  return filtered;
+    const [lang, primary] = key.split('.')
+    return (obj_langs.indexOf(lang) != -1)
+  })
+  return filtered
 }
 
-// Get the valid language-translatable keys in an info block from one of
-// its panda/zoo entities, like you have in blocks created by Show.acquire*Info
-Language.listInfoKeys = function(entity, order) {
-  return Language.listEntityKeys(entity, order).map(function(key) {
-    [language, desired] = key.split('.');
-    return desired;
-  }).filter(function(value, index, self) {
-    return self.indexOf(value) === index;
-  });
+/**
+ * Get the valid language-translatable keys in an info block from one of its
+ * panda/zoo entities, like you have in blocks created by `Show.acquire*Info`
+ */
+function listInfoKeys(entity, order) {
+  return listEntityKeys(entity, order).map(function(key) {
+    const [language, desired] = key.split('.')
+    return desired
+  }).filter((value, index, self) => self.indexOf(value) === index)
 }
 
-// Only keep the keys in a panda or zoo object that are meaningfully 
-// translatable to different languages
-Language.saveEntityKeys = function(entity, order) {
-  var filtered = Language.listEntityKeys(entity, order).reduce(function(obj, key) {
+/**
+ * Only keep the keys in a panda or zoo object that are meaningfully
+ * translatable to different languages
+ */
+function saveEntityKeys(entity, order) {
+  return listEntityKeys(entity, order).reduce(function(obj, key) {
     // Only keep JSON values with those matching keys
-    obj[key] = entity[key];
-    return obj;
-  }, {});
-  return filtered; 
+    obj[key] = entity[key]
+    return obj
+  }, {})
 }
 
-// Only keep the keys in an info block that are meaningfully 
-// translatable to different languages
-Language.saveInfoKeys = function(info, order) {
-  var filtered = Language.listInfoKeys(info, order).reduce(function(obj, key) {
-    // Only keep JSON values with those matching keys
-    obj[key] = info[key];
-    return obj;
-  }, {});
-  return filtered;
-}
-
-// Find the canonical tag given something being parsed as a tag.
-// i.e. for "climbing", return "climb".
-Language.tagPrimary = function(input) {
-  var lang_values = Pandas.def.languages.concat("emoji");
-  for (let ctag in Language.L.tags) {
-    for (let lang of lang_values) {
-      if (Language.L.tags[ctag][lang].indexOf(input) != -1) {
-        return ctag;
+/**
+ * Find the canonical tag given something being parsed as a tag, i.e. for
+ * _climbing_, return _climb_.
+ */
+export function tagPrimary(input) {
+  const lang_values = Pandas.def.languages.concat("emoji")
+  for (const ctag in tags) {
+    for (const lang of lang_values) {
+      if (tags[ctag][lang].includes(input)) {
+        return ctag
       }
     }
   }
   // Need to search polyglots too, for things like "baby"
-  for (let ctag in Language.L.polyglots) {
-    for (let lang of lang_values) {
-      if (Language.L.polyglots[ctag][lang].indexOf(input) != -1) {
-        return ctag;
+  for (const ctag in polyglots) {
+    for (const lang of lang_values) {
+      if (polyglots[ctag][lang].includes(input)) {
+        return ctag
       }
     }
   }
 }
 
-// Language test functions. If the string is in the given range,
-// return true. Depending on the mode, this may be an "all" match
-// or an "any" match.
-Language.testString = function(input, test_name) {
+/**
+ * Language test functions. If the string is in the given range,
+ * return true. Depending on the mode, this may be an "all" match
+ * or an "any" match.
+ */
+export function testString(input, test_name) {
   if (test_name == "Hiragana") {
-    var range = Pandas.def.ranges['ja'][1];
-    return range.test(input);   // True if any characters match the hiragana range
+    const range = Pandas.def.ranges['ja'][1]
+    return range.test(input)   // True if any characters match the hiragana range
   }
   if (test_name == "Katakana") {
-    var range = Pandas.def.ranges['ja'][2];
-    return range.test(input);   // True if any characters match the katakana range
+    const range = Pandas.def.ranges['ja'][2]
+    return range.test(input)   // True if any characters match the katakana range
   }
   if ((test_name == "Latin") || (test_name == "English")) {
-    var ranges = Pandas.def.ranges['en'];
-    var latin = ranges.some(function(range) {
-      return range.test(input);
-    });
-    return latin;   // True if any characters match the latin range
+    const ranges = Pandas.def.ranges['en']
+    const latin = ranges.some((range) => range.test(input))
+    return latin   // True if any characters match the latin range
   }
-  return false;   // The test doesn't exist
+  return false   // The test doesn't exist
 }
 
-// Take specific english words and unpluralize them if necessary
-Language.unpluralize = function(pieces) {
-  var output = [];
+/** Take specific english words and unpluralize them if necessary */
+export function unpluralize(pieces) {
+  const output = []
   if (L.display == "en") {
-    for (var input of pieces) {
+    for (let input of pieces) {
       input = input.replace(/\b1 photos/, "one photo")
                    .replace(/\b1 new photos/, "one new photo")
                    .replace(/\b1 boys/, "one boy")
@@ -4176,12 +4143,12 @@ Language.unpluralize = function(pieces) {
                    .replace(/\bcombo: 1 photos/, "combo: one photo")
                    .replace(/\bphotos tagged/, "photo tagged")
                    .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
-                   .replace(/^one\s/, "One ");
-      output.push(input);
+                   .replace(/^one\s/, "One ")
+      output.push(input)
     }
-    return output;
+    return output
   } else if (L.display == "es") {
-    for (var input of pieces) {
+    for (let input of pieces) {
       input = input.replace(/\b1 fotos/, "una foto")
                    .replace(/\b1 niños/, "un niño")
                    .replace(/\b1 niñas/, "una niña")
@@ -4206,22 +4173,22 @@ Language.unpluralize = function(pieces) {
                    .replace(/^([^A-Za-z0-9]+)una\s/, "$1 Una ")
                    .replace(/^un\s/, "Un ")
                    .replace(/^uno\s/, "Uno ")
-                   .replace(/^una\s/, "Una ");
-      output.push(input);
+                   .replace(/^una\s/, "Una ")
+      output.push(input)
     }
-    return output;
+    return output
   } else if (L.display == "ko") {
-    for (var input of pieces) {
+    for (let input of pieces) {
       input = input.replace(/(\d+) 사진들/, "$1 사진")
                    .replace(/(\d+) 동물들/, "$1 동물")
                    .replace(/(\d+) 판다들/, "$1 판다")
                    .replace(/새로운 (\d+) 기여자들/, "새로운 $1 기여자")
-                   .replace(/사진 태그들/, "사진 태그");      
-      output.push(input);
+                   .replace(/사진 태그들/, "사진 태그")  
+      output.push(input)
     }
-    return output;
+    return output
   } else if (L.display == "pt") {
-    for (var input of pieces) {
+    for (let input of pieces) {
       input = input.replace(/\b1 fotos/, "uma foto")
                    .replace(/\b1 novas fotos/, "uma nova foto")
                    .replace(/\b1 meninos/, "um menino")
@@ -4244,11 +4211,52 @@ Language.unpluralize = function(pieces) {
                    .replace(/^([^A-Za-z0-9]+)um\s/, "$1 Um ")
                    .replace(/^([^A-Za-z0-9]+)uma\s/, "$1 Uma ")
                    .replace(/^um\s/, "Um ")
-                   .replace(/^uma\s/, "Uma ");
-      output.push(input);
+                   .replace(/^uma\s/, "Uma ")
+      output.push(input)
     }
-    return output;
+    return output
   } else {
-           return pieces;
+    return pieces
   }
+}
+
+/** Update all GUI elements based on the currently chosen language */
+export function update() {
+  // Update menu buttons. TODO: grab these buttons by class
+  const menu_button_ids = ['languageButton', 'aboutButton', 'randomButton',
+                         'linksButton', 'profileButton', 'mediaButton', 
+                         'timelineButton']
+  const menu_button_elements = menu_button_ids.map(x => 
+    document.getElementById(x)).filter(x => x != undefined)
+  // Any buttons in the page? Redraw with correct language settings
+  for (const element of menu_button_elements) {
+    const id = element.id
+    const lookup = id.replace("Button", "")
+    const [icon, text] = element.childNodes[0].childNodes
+    if (id == "languageButton") {
+      icon.innerText = gui.flag[this.display]   // Replace flag icon
+      text.innerText = gui[lookup][this.display][this.display]   // Replace language icon text
+    } else {
+      text.innerText = gui[lookup][this.display]   // Replace icon text
+    }
+  }
+  // On the Links page? Redraw it
+  if ((window.location.hash == "#links") && (P.db != undefined)) {
+    Page.links.render()
+  }
+  // Update the placeholder text for a search bar
+  if (document.forms['searchForm'] != undefined) {
+    if (P.db == undefined) {
+      document.forms['searchForm']['searchInput'].placeholder =
+        gui.loading[this.display]
+    } else {
+      document.forms['searchForm']['searchInput'].placeholder =
+        "➤ " + gui.search[this.display]
+    }
+  }
+  // Change the page title
+  document.title = gui.title[this.display]
+  // Write localStorage for your chosen language. This is better than a cookie
+  // since the server never has to see what language you're using in each request.
+  this.storage.setItem('language', this.display)
 }
