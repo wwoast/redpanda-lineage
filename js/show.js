@@ -3,6 +3,7 @@ import { showQRCode } from './html5-qrcode.js'
 import Layout from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
+import * as Query from './query.js'
 
 /** Presentation-level data, separated out from final website layout */
 var Show = {};   /* Namespace */

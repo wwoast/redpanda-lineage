@@ -2,6 +2,7 @@ import * as Geo from './geolocate.js'
 import * as Icons from './icons.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
+import * as Query from './query.js'
 import * as ScrollTop from './scrollTop.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
@@ -24,14 +25,12 @@ import * as ScrollTop from './scrollTop.js'
     Global objects usable by forms, and things that operate as the page loads
 */
 var P;   // Pandas
-var Q;   // Query stack
 var L;   // Language methods and current language
 var G;   // Lineage graph
 
 /** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
-  Q = Query.init();
   G = Dagoba.graph();
   Geo.init()   // Set units for distance tracking based on browser locale
   ScrollTop.init()
@@ -104,7 +103,7 @@ window.addEventListener('hashchange', function() {
   // in case we might have moved around
   Geo.state.resolved = false;
   // And forget how many pages we have shown
-  Query.env.paging.shown_pages = 1;
+  Query.env.paging.shown_pages = 1
   var mode = window.location.hash.split("/")[0];
   if (window.location.hash.length == 0 || mode == "#home") {
     Page.home.render();

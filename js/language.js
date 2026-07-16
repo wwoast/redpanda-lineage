@@ -1,3 +1,5 @@
+import * as Query from './query.js'
+
 /*
     Language fallback methods
 */

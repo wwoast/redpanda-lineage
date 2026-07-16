@@ -2,6 +2,7 @@ import * as Geo from './geolocate.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
+import * as Query from './query.js'
 
 var Page = {};   // Namespace
 
@@ -693,7 +694,7 @@ Page.routes.behavior = function(input) {
     return false;
   }
   // Run the query through the parser and return results
-  return Query.resolver.begin(query_string);
+  return Query.result(query_string);
 }
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
@@ -870,7 +871,7 @@ Page.results.photos = function(results) {
     content_divs = Gallery.creditPhotos(results, L.display, max_hits);
   }
   // HACK: revert to results mode
-  Query.env.clear();
+  Query.clear();
   return content_divs;
 }
 Page.results.render = function() {

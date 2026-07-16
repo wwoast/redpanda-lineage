@@ -1,4 +1,5 @@
 import * as Message from './message.js'
+import * as Query from './query.js'
 import * as Touch from './touch.js'
 
 /*
