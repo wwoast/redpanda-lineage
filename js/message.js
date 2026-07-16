@@ -15,8 +15,8 @@ export function arrivals(zoo, born, language) {
     document.getElementById(linkId).scrollIntoView(true)
   });
   const p = document.createElement('p')
-  for (const i in L.messages.zoo_header_new_arrivals[language]) {
-    const field = L.messages.zoo_header_new_arrivals[language][i]
+  for (const i in Language.messages.zoo_header_new_arrivals[language]) {
+    const field = Language.messages.zoo_header_new_arrivals[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -31,8 +31,8 @@ export function arrivals(zoo, born, language) {
 export function arrived_from_zoo(zoo, date, language) {
   // Text to go into the Show.zooLink function
   let text = ""
-  for (const i in L.messages.arrived_from_zoo[language]) {
-    const field = L.messages.arrived_from_zoo[language][i]
+  for (const i in Language.messages.arrived_from_zoo[language]) {
+    const field = Language.messages.arrived_from_zoo[language][i]
     if (field == "<INSERTDATE>") {
       field = date
       text = text + field
@@ -50,8 +50,8 @@ export function autumn(language) {
   const link = document.createElement('a')
   link.href = "#query/autumn"
   const p = document.createElement('p')
-  for (const i in L.messages.autumn[language]) {
-    const field = L.messages.autumn[language][i]
+  for (const i in Language.messages.autumn[language]) {
+    const field = Language.messages.autumn[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -63,8 +63,8 @@ export function baby_photos(language) {
   const link = document.createElement('a')
   link.href = "#query/baby";
   const p = document.createElement('p')
-  for (const i in L.messages.baby_photos[language]) {
-    const field = L.messages.baby_photos[language][i]
+  for (const i in Language.messages.baby_photos[language]) {
+    const field = Language.messages.baby_photos[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -76,8 +76,8 @@ export function birthday(name, animalId, years, language) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in L.messages.happy_birthday[language]) {
-    let field = L.messages.happy_birthday[language][i]
+  for (const i in Language.messages.happy_birthday[language]) {
+    let field = Language.messages.happy_birthday[language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -98,8 +98,8 @@ export function birthday(name, animalId, years, language) {
 export function birthday_overflow(count, language) {
   const p = document.createElement('p')
   p.className = "summaryEmphasis"
-  for (const i in L.messages.birthday_overflow[language]) {
-    let field = L.messages.birthday_overflow[language][i]
+  for (const i in Language.messages.birthday_overflow[language]) {
+    let field = Language.messages.birthday_overflow[language][i]
     if (field == "<INSERTCOUNT>") {
       field = count
       const msg = document.createTextNode(field)
@@ -114,8 +114,8 @@ export function birthday_overflow(count, language) {
 
 export function closed(date, language) {
   const p = document.createElement('p');
-  for (const i in L.messages.closed[language]) {
-    let field = L.messages.closed[language][i]
+  for (const i in Language.messages.closed[language]) {
+    let field = Language.messages.closed[language][i]
     if (field == "<INSERTDATE>") {
       field = date
       const msg = document.createTextNode(field);
@@ -132,8 +132,8 @@ export function credit(credit, count, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   const p = document.createElement('p')
-  for (const i in L.messages.credit[language]) {
-    let field = L.messages.credit[language][i]
+  for (const i in Language.messages.credit[language]) {
+    let field = Language.messages.credit[language][i]
     if (field == "<INSERTUSER>") {
       field = credit
       const msg = document.createElement('i')
@@ -144,8 +144,8 @@ export function credit(credit, count, language) {
       const msg = document.createElement('b')
       msg.innerText = field
       p.appendChild(msg)
-    } else if ((field == L.emoji.gift + " ") && (count >= 1000)) {
-      field = L.emoji.megagift + " "
+    } else if ((field == Language.emoji.gift + " ") && (count >= 1000)) {
+      field = Language.emoji.megagift + " "
       const msg = document.createTextNode(field)
       p.appendChild(msg)
     } else {
@@ -161,8 +161,8 @@ export function creditSingleFilter(credit, filter, count, language) {
   // with the correct language
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
-  for (const i in L.messages.credit_animal_filter_single[language]) {
-    let field = L.messages.credit_animal_filter_single[language][i]
+  for (const i in Language.messages.credit_animal_filter_single[language]) {
+    let field = Language.messages.credit_animal_filter_single[language][i]
     if (field == "<INSERTUSER>") {
       field = credit
       const msg = document.createElement('i')
@@ -189,8 +189,8 @@ export function creditSingleFilter(credit, filter, count, language) {
 export function departed_to_zoo(zoo, date, language) {
   // Text to go into the Show.zooLink function
   let text = "";
-  for (const i in L.messages.departed_to_zoo[language]) {
-    let field = L.messages.departed_to_zoo[language][i]
+  for (const i in Language.messages.departed_to_zoo[language]) {
+    let field = Language.messages.departed_to_zoo[language][i]
     if (field == "<INSERTDATE>") {
       field = date
       text = text + field
@@ -215,8 +215,8 @@ export function departures(zoo, deaths, leaving, language) {
     document.getElementById(linkId).scrollIntoView(true)
   })
   const p = document.createElement('p')
-  for (const i in L.messages.zoo_header_recently_departed[language]) {
-    const field = L.messages.zoo_header_recently_departed[language][i]
+  for (const i in Language.messages.zoo_header_recently_departed[language]) {
+    const field = Language.messages.zoo_header_recently_departed[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -233,8 +233,8 @@ export function findNearbyZoo(language) {
   link.href = "#query/nearby"
   const p = document.createElement('p')
   p.className = "summaryEmphasis"
-  for (const i in L.messages.find_a_nearby_zoo[language]) {
-    const field = L.messages.find_a_nearby_zoo[language][i]
+  for (const i in Language.messages.find_a_nearby_zoo[language]) {
+    const field = Language.messages.find_a_nearby_zoo[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -246,8 +246,8 @@ export function foundAnimal(name, animalId, language) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in L.messages.found_animal[language]) {
-    let field = L.messages.found_animal[language][i]
+  for (const i in Language.messages.found_animal[language]) {
+    let field = Language.messages.found_animal[language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -263,8 +263,8 @@ export function foundAnimal(name, animalId, language) {
 
 export function geolocationStart(language) {
   const p = document.createElement('p')
-  for (const i in L.messages.nearby_zoos[language]) {
-    const field = L.messages.nearby_zoos[language][i]
+  for (const i in Language.messages.nearby_zoos[language]) {
+    const field = Language.messages.nearby_zoos[language][i]
     const msg = document.createTextNode(field);
     p.appendChild(msg);
   }
@@ -275,8 +275,8 @@ export function lostAnimal(name, animalId, zooName, zooContact, language) {
   const link = document.createElement('a')
   link.href = `#profile/${animalId}`
   const p = document.createElement('p')
-  for (const i in L.messages.lost_animal[language]) {
-    let field = L.messages.lost_animal[language][i]
+  for (const i in Language.messages.lost_animal[language]) {
+    let field = Language.messages.lost_animal[language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -304,8 +304,8 @@ export function lunch_time(language) {
   const link = document.createElement('a')
   link.href = "#query/lunch time"
   const p = document.createElement('p')
-  for (const i in L.messages.lunch_time[language]) {
-    const field = L.messages.lunch_time[language][i]
+  for (const i in Language.messages.lunch_time[language]) {
+    const field = Language.messages.lunch_time[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -317,8 +317,8 @@ export function memorial(name, animalId, birth, death, language) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in L.messages.goodbye[language]) {
-    let field = L.messages.goodbye[language][i]
+  for (const i in Language.messages.goodbye[language]) {
+    let field = Language.messages.goodbye[language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -344,8 +344,8 @@ export function memorial(name, animalId, birth, death, language) {
   const link = document.createElement('a')
   link.href = `#group/${idString}`
   const p = document.createElement('p')
-  for (const i in L.messages.remembering_you_together[language]) {
-    let field = L.messages.remembering_you_together[language][i]
+  for (const i in Language.messages.remembering_you_together[language]) {
+    let field = Language.messages.remembering_you_together[language][i]
     if (field == "<INSERTNAMES>") {
       field = nameString
       const msg = document.createTextNode(field)
@@ -363,8 +363,8 @@ export function missing_you(name, animalId, birth, death, language) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in L.messages.missing_you[language]) {
-    let field = L.messages.missing_you[language][i]
+  for (const i in Language.messages.missing_you[language]) {
+    let field = Language.messages.missing_you[language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -449,21 +449,21 @@ export function profile_children(name, childrenCount, daughters, sons, language)
   // Choose the type of message
   let message = undefined;
   if (daughters > 0 && sons > 0 && babies > 0) {
-    message = L.messages.profile_children_babies;
+    message = Language.messages.profile_children_babies;
   } else if (daughters > 0 && sons > 0) {
-    message = L.messages.profile_children;
+    message = Language.messages.profile_children;
   } else if (daughters > 0 && babies > 0) {
-    message = L.messages.profile_daughters_babies;
+    message = Language.messages.profile_daughters_babies;
   } else if (sons > 0 && babies > 0) {
-    message = L.messages.profile_sons_babies;
+    message = Language.messages.profile_sons_babies;
   } else if (daughters > 0) {
-    message = L.messages.profile_daughters;
+    message = Language.messages.profile_daughters;
   } else if (sons > 0) {
-    message = L.messages.profile_sons;
+    message = Language.messages.profile_sons;
   } else if (babies > 0) {
-    message = L.messages.profile_babies_children;
+    message = Language.messages.profile_babies_children;
   } else {
-    message = L.messages.profile_children;
+    message = Language.messages.profile_children;
   }
   let output_text = ""
   // Do string replacement
@@ -490,8 +490,8 @@ export function profile_children(name, childrenCount, daughters, sons, language)
 
 export function profile_family(name, language) {
   const p = document.createElement('p');
-  for (const i in L.messages.profile_family[language]) {
-    const field = L.messages.profile_family[language][i]
+  for (const i in Language.messages.profile_family[language]) {
+    const field = Language.messages.profile_family[language][i]
     if (field == "<INSERTNAME>") {
       const msg = document.createTextNode(name)
       p.appendChild(msg)
@@ -515,21 +515,21 @@ export function profile_siblings(name, siblingCount, sisters, brothers, language
   // Choose the type of message
   let message = undefined
   if (sisters > 0 && brothers > 0 && babies > 0) {
-    message = L.messages.profile_siblings_babies
+    message = Language.messages.profile_siblings_babies
   } else if (sisters > 0 && brothers > 0) {
-    message = L.messages.profile_siblings
+    message = Language.messages.profile_siblings
   } else if (sisters > 0 && babies > 0) {
-    message = L.messages.profile_sisters_babies
+    message = Language.messages.profile_sisters_babies
   } else if (brothers > 0 && babies > 0) {
-    message = L.messages.profile_brothers_babies
+    message = Language.messages.profile_brothers_babies
   } else if (sisters > 0) {
-    message = L.messages.profile_sisters
+    message = Language.messages.profile_sisters
   } else if (brothers > 0) {
-    message = L.messages.profile_brothers
+    message = Language.messages.profile_brothers
   } else if (babies > 0) {
-    message = L.messages.profile_babies_siblings
+    message = Language.messages.profile_babies_siblings
   } else {
-    message = L.messages.profile_siblings
+    message = Language.messages.profile_siblings
   }
   let output_text = ""
   for (const i in message[language]) {
@@ -555,8 +555,8 @@ export function profile_siblings(name, siblingCount, sisters, brothers, language
 
 export function profile_where(name, language) {
   const p = document.createElement('p')
-  for (const i in L.messages.profile_where[language]) {
-    const field = L.messages.profile_where[language][i]
+  for (const i in Language.messages.profile_where[language]) {
+    const field = Language.messages.profile_where[language][i]
     if (field == "<INSERTNAME>") {
       const msg = document.createTextNode(name)
       p.appendChild(msg)
@@ -581,8 +581,8 @@ export function residents(zoo, language) {
   // TODO ES6
   const info = Show.acquireZooInfo(zoo, language)
   const p = document.createElement('p')
-  for (const i in L.messages.zoo_header_other_pandas[language]) {
-    const field = L.messages.zoo_header_other_pandas[language][i]
+  for (const i in Language.messages.zoo_header_other_pandas[language]) {
+    const field = Language.messages.zoo_header_other_pandas[language][i]
     if (field == "<INSERTZOO>") {
       const msg = document.createTextNode(info.name)
       p.appendChild(msg)
@@ -599,8 +599,8 @@ export function shovel_pandas(language) {
   const link = document.createElement('a')
   link.href = "#query/dig"
   const p = document.createElement('p')
-  for (const i in L.messages.shovel_pandas[language]) {
-    const field = L.messages.shovel_pandas[language][i]
+  for (const i in Language.messages.shovel_pandas[language]) {
+    const field = Language.messages.shovel_pandas[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -615,8 +615,8 @@ export function tag_combo(num, emojis, language) {
     p.appendChild(document.createTextNode(emoji + " "));
   }
   let output_text = "";
-  for (const i in L.messages.tag_combo[language]) {
-    let field = L.messages.tag_combo[language][i];
+  for (const i in Language.messages.tag_combo[language]) {
+    let field = Language.messages.tag_combo[language][i];
     if (field == "<INSERTNUM>") {
       output_text = output_text.concat(num);
     } else {
@@ -651,8 +651,8 @@ export function tag_object(num, name, emoji, tag, language) {
     near_tag = Language.polyglots[tag][language][0]
   }
   const p = document.createElement('p');
-  for (const i in L.messages.tag_subject[language]) {
-    let field = L.messages.tag_subject[language][i]
+  for (const i in Language.messages.tag_subject[language]) {
+    let field = Language.messages.tag_subject[language][i]
     if (field == "<INSERTNUM>") {
       const msg = document.createTextNode(num)
       p.appendChild(msg);
@@ -689,8 +689,8 @@ export function trick_or_treat(language) {
   const link = document.createElement('a')
   link.href = "#query/pumpkin"
   const p = document.createElement('p')
-  for (const i in L.messages.trick_or_treat[language]) {
-    const field = L.messages.trick_or_treat[language][i]
+  for (const i in Language.messages.trick_or_treat[language]) {
+    const field = Language.messages.trick_or_treat[language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }

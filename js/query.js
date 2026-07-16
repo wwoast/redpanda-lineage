@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import * as Language from './language.js'
 import * as Parse from './parse.js'
 
 /**

@@ -87,7 +87,7 @@ Gallery.G.displayPhotoNavigation = function() {
   span.className = "navigator";
   // Clickable dogears when you have a carousel of more than one photo
   if (this.photoCount() < 2) {
-      span.innerText = L.emoji.no_more;
+      span.innerText = Language.emoji.no_more;
       // Consistent widget behavior on mouse clicks for non-functional
       // navigators as well (disable normal right/middle click behavior)
       span_link.addEventListener('contextmenu', function(e) {   // Right click event
@@ -236,7 +236,7 @@ Gallery.G.singlePhotoCredit = function(photo_info, current_index, new_index) {
     credit_link.removeAttribute("href");   // No more link
   }
   credit_link.target = "_blank";   // Open in new tab
-  credit_link.innerText = L.emoji.camera + " " + photo_info["credit"];
+  credit_link.innerText = Language.emoji.camera + " " + photo_info["credit"];
 }
 
 // Replace the photographer's apple points (number of photos on the site)
@@ -247,9 +247,9 @@ Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
   if (Object.keys(Pandas.def.authors).indexOf(photo_info.credit) == -1) {
     var apple_count = P.db._photo.credit[photo_info["credit"]];
     apple_link.href = "#credit/" + photo_info["credit"];
-    apple_link.innerText = L.emoji.gift + " " + apple_count;
+    apple_link.innerText = Language.emoji.gift + " " + apple_count;
     if (parseInt(apple_count) >= 1000) {
-      apple_link.innerText = L.emoji.megagift + " " + apple_count;
+      apple_link.innerText = Language.emoji.megagift + " " + apple_count;
     }
   } else {
     apple_link.innerText = "";
@@ -303,21 +303,21 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     var text = document.createTextNode(relationship);
     // TODO: cinch for any strings longer than X characters
     // TODO: cinch/make text smaller if also emojis exist
-    if (relationship == L.gui.quadruplet["en"]) {
+    if (relationship == Language.gui.quadruplet["en"]) {
       span.classList.add("condensed");
     }
     span.appendChild(text);
     relation_text.appendChild(span);
     // Emoji separation not cinched
     var emojis = "";
-    if (relationship == L.gui.me[language]) {
-      emojis = "\u200A" + L.emoji.profile;
+    if (relationship == Language.gui.me[language]) {
+      emojis = "\u200A" + Language.emoji.profile;
     }
     if (multiple == true) {
-      emojis = L.emoji.question;
+      emojis = Language.emoji.question;
     }
     if (animal["death"] != undefined) {
-      emojis = emojis + "\u200A" + L.emoji.died;
+      emojis = emojis + "\u200A" + Language.emoji.died;
     }
     var emoji_text = document.createTextNode(emojis);
     relation_text.appendChild(emoji_text);
@@ -823,7 +823,7 @@ Gallery.pandaPhotoCreditSingle = function(item) {
     caption_link.href = "#group/" + panda_route;
   } else {
     var animal = Pandas.searchPandaId(id)[0];
-    var info = Show.acquirePandaInfo(animal, L.display);
+    var info = Show.acquirePandaInfo(animal, Language.Displayed);
     caption.innerText = info.name;
   }
   caption_link.appendChild(caption);
@@ -898,30 +898,30 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
 Gallery.tagPhotoMessage = function(results, hit_count) {
   var header = undefined;
   if (hit_count == 0) {
-    header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
+    header = Show.emptyResult(Language.messages.no_subject_tag_result, Language.Displayed);
   } else if ((results["parsed"] == "set_tag") ||
              (results["parsed"] == "set_tag_subject")) {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
                                       Language.tags[ctag]["emoji"], 
-                                      ctag, L.display);
+                                      ctag, Language.Displayed);
   } else if (results["parsed"] == "set_baby_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
                            Language.polyglots[ctag]["emoji"], 
-                           ctag, L.display);
+                           ctag, Language.Displayed);
   } else if (results["parsed"] == "set_tag_intersection") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"]);
-    header = Message.tag_combo(hit_count, emojis, L.display);
+    header = Message.tag_combo(hit_count, emojis, Language.Displayed);
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"]);
-    header = Message.tag_combo(hit_count, emojis, L.display);
+    header = Message.tag_combo(hit_count, emojis, Language.Displayed);
   } else {
-    header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
+    header = Show.emptyResult(Language.messages.no_subject_tag_result, Language.Displayed);
   }
   return header;
 }
@@ -1013,7 +1013,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=7) {
       caption_link.href = "#group/" + panda_route;
   
     } else {
-      var info = Show.acquirePandaInfo(animal, L.display);
+      var info = Show.acquirePandaInfo(animal, Language.Displayed);
       updateName = info.name;
     }
     if ("name_icon" in item) {
@@ -1275,7 +1275,7 @@ Gallery.zooPhotoCreditSingle = function(item) {
   var img_link = document.createElement('a');
   var id = item.id;
   var entity = Pandas.searchZooId(id)[0];
-  var info = Show.acquireZooInfo(entity, L.display);
+  var info = Show.acquireZooInfo(entity, Language.Displayed);
   // Link to the original instagram media
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
@@ -1327,7 +1327,7 @@ Gallery.special.pumpkin = function(language, photo_count=5) {
       var panda_route = animal["panda.tags"].split(", ").join("/");
       name_caption_link.href = "#group/" + panda_route;
     } else {
-      var info = Show.acquirePandaInfo(animal, L.display);
+      var info = Show.acquirePandaInfo(animal, Language.Displayed);
       updateName = info.name;
     }
     name_caption_span.innerText = updateName;
@@ -1385,7 +1385,7 @@ Gallery.special.taglist = function(language, photo_count=5, taglist, message_fun
       var panda_route = animal["panda.tags"].split(", ").join("/");
       name_caption_link.href = "#group/" + panda_route;
     } else {
-      var info = Show.acquirePandaInfo(animal, L.display);
+      var info = Show.acquirePandaInfo(animal, Language.Displayed);
       updateName = info.name;
     }
     name_caption_span.innerText = updateName;

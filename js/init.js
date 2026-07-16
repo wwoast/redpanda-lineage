@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Options.init()
   Icons.walk(document.body)   // Replace emojis with SVG icons
   Icons.observe()   // More SVG emoji replacements on page mutate
-  Language.defaultDisplayLanguage();   // Set default display language
+  Language.defaultDisplayLanguage()   // Set default display language
   Page.routes.check();   // See if we started on the about page
   Language.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.

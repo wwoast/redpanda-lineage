@@ -1,3 +1,4 @@
+import * as Language from './language.js'
 import * as Message from './message.js'
 
 /**
@@ -141,7 +142,7 @@ function renderGeoLookupStart() {
   newContent.id = "hiddenContentFrame"
   const shrinker = document.createElement('div')
   shrinker.className = "shrinker"
-  const message = Message.geolocationStart(L.display)
+  const message = Message.geolocationStart(LanguageLanguage.Displayed)
   shrinker.appendChild(message)
   newContent.appendChild(shrinker)
   // TODO ES6

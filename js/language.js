@@ -4,25 +4,24 @@ import * as Query from './query.js'
     Language fallback methods
 */
 
+/** The current display language for redpandafinder */
+export let Displayed = undefined
+
+
 // TODO ES6: get rid of Language.L and just use state here, as well as in
-// localStorage
+// localStorage. Still need init to do the tag list processing, but
+// TODO: do it for all the latin languages, not just english
 Language.init = function() {
-  var language = Object.create(Language.L)
-  // The current displayed language in the page, and stored in the 
-  // browser's localStorage API
-  language.display = undefined
-  language.storage = window.localStorage
   // Construct tag lists with arbitrary capitalization
-  for (let tag in language.tags) {
-    var en_tags = language.tags[tag]["en"]
+  for (let tag in tags) {
+    var en_tags = tags[tag]["en"]
     var first_cap = en_tags.map(x => capitalize(x, "first"))
     var all_cap = en_tags.map(y => capitalize(y, "all"))
-    language.tags[tag]["en"] = en_tags
+    tags[tag]["en"] = en_tags
       .concat(first_cap)
       .concat(all_cap)
       .filter((value, index, self) => self.indexOf(value) === index)
   }
-  return language
 }
 
 /*
@@ -3634,26 +3633,25 @@ export const tags = {
 }
 
 /** Map a browser specified language to one of our supported options. */
-// TODO ES6: this saves or sets state here. Figure out how it works
 export function defaultDisplayLanguage() {
   // Read language settings from browser's Accept-Language header
+  // TODO ES6
   Pandas.def.languages.forEach(function(option) {
-    if ((navigator.languages.indexOf(option) != -1) &&
-        (this.display == undefined)) {
-      this.display = option
+    if ((navigator.languages.includes(option)) &&
+        (Displayed == undefined)) {
+      Displayed = option
     }
   })
-  // Read language cookie if it's there
-  var test = this.storage.getItem("language")
+  // Read language setting if it's there
+  const test = window.localStorage.getItem("language")
   if (test != null) {
-    if (Pandas.def.languages.indexOf(test) != -1) {
-      this.display = test
+    if (Pandas.def.languages.includes(test)) {
+      Displayed = test
     }
   }  
   // Fallback to English
-  if (this.display == undefined) {
-    this.display = "en"
-  }
+  if (Displayed == undefined)
+    Displayed = "en"
   // Adjust flags. For UK locales, make the English language flag
   // a union-jack. For mainland China locales, make Taiwan flag
   // look like a Chinese flag.
@@ -3666,17 +3664,17 @@ export function defaultDisplayLanguage() {
  */
 export function fallbackEntity(entity) {
   const output = entity
-  const order = currentOrder(Pandas.language_order(entity), this.display)
+  const order = currentOrder(Pandas.language_order(entity), Displayed)
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Pandas.def.animal, order)
   const default_zoo = saveEntityKeys(Pandas.def.zoo, order)
   const empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
-                                .concat(Object.values(default_animal))
-                                .concat(Object.values(default_zoo))
+                                  .concat(Object.values(default_animal))
+                                  .concat(Object.values(default_zoo))
   // Derive the zoo/panda language-translatable keys by getting a list of
   // the separate language keys from the original object, and adding a
   // synthetic list of keys that would apply for the current display language
-  const language_entity = listDisplayKeys(entity, order, this.display)
+  const language_entity = listDisplayKeys(entity, order, Displayed)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
   for (const key of language_entity) {
@@ -3685,7 +3683,7 @@ export function fallbackEntity(entity) {
       continue  // Ignore blacklist fields
     if (empty_values.includes(entity[key])) {
       for (language of order) {
-        if (language == L.display)
+        if (language == Displayed)
           continue  // Don't take replacement values from current language
         const [ _, desired ] = key.split('.')
         var new_key = `${language}.${desired}`
@@ -3745,7 +3743,7 @@ function fallbackFlags() {
  */
 export function fallbackInfo(info, original) {
   var bundle = info
-  var order = currentOrder(info.language_order, this.display)
+  var order = currentOrder(info.language_order, Displayed)
   // Default values that we want to ignore if we can
   var default_animal = saveEntityKeys(Pandas.def.animal, order)
   var default_zoo = saveEntityKeys(Pandas.def.zoo, order)
@@ -3763,7 +3761,7 @@ export function fallbackInfo(info, original) {
       continue  // Ignore blacklist fields
     if (empty_values.includes(info[key])) {
       for (const language of order) {
-        if (language == this.display)
+        if (language == Displayed)
           continue  // Don't take replacement values from current language
         const new_key = `${language}.${key}`
         if (!empty_values.includes(original[new_key])) {
@@ -3854,8 +3852,8 @@ export function commaPhrase(pieces) {
   const p = document.createElement('p')
   for (let i = 0; i < pieces.length; i++) {
     const m = document.createTextNode(pieces[i])
-    const c = document.createTextNode(messages.comma[L.display])
-    const a = document.createTextNode(messages.and_words[L.display])
+    const c = document.createTextNode(messages.comma[Displayed])
+    const a = document.createTextNode(messages.and_words[Displayed])
     p.appendChild(m)
     // Commas
     if ((i < pieces.length - 3) && (pieces.length > 3)) {
@@ -3879,8 +3877,8 @@ export function commaPhraseBare(pieces) {
   let o = ""
   for (let i = 0; i < pieces.length; i++) {
     const m = pieces[i]
-    const c = messages.comma[L.display] + " "
-    const a = messages.and_words[L.display]
+    const c = messages.comma[Displayed] + " "
+    const a = messages.and_words[Displayed]
     o = o.concat(m)
     // Commas
     if ((i < pieces.length - 2) && (pieces.length > 2)) {
@@ -3960,8 +3958,8 @@ export function editDistance(a, b) {
  */
 export function fallback_name(entity) {
   const entity_order = entity["language.order"].split(", ")
-  const order = currentOrder(entity_order, L.display)
-  order.unshift(L.display)   // Display language always comes first
+  const order = currentOrder(entity_order, Displayed)
+  order.unshift(Displayed)   // Display language always comes first
   for (let language of order) {
     const name = entity[language + ".name"]
     if (name != undefined) {
@@ -3970,7 +3968,7 @@ export function fallback_name(entity) {
   }
   // Fallback default name
   // TODO ES6
-  return Pandas.def.animal[L.display + ".name"]
+  return Pandas.def.animal[Displayed + ".name"]
 }
 
 /**
@@ -4121,7 +4119,7 @@ export function testString(input, test_name) {
 /** Take specific english words and unpluralize them if necessary */
 export function unpluralize(pieces) {
   const output = []
-  if (L.display == "en") {
+  if (Displayed == "en") {
     for (let input of pieces) {
       input = input.replace(/\b1 photos/, "one photo")
                    .replace(/\b1 new photos/, "one new photo")
@@ -4147,7 +4145,7 @@ export function unpluralize(pieces) {
       output.push(input)
     }
     return output
-  } else if (L.display == "es") {
+  } else if (Displayed == "es") {
     for (let input of pieces) {
       input = input.replace(/\b1 fotos/, "una foto")
                    .replace(/\b1 niños/, "un niño")
@@ -4177,7 +4175,7 @@ export function unpluralize(pieces) {
       output.push(input)
     }
     return output
-  } else if (L.display == "ko") {
+  } else if (Displayed == "ko") {
     for (let input of pieces) {
       input = input.replace(/(\d+) 사진들/, "$1 사진")
                    .replace(/(\d+) 동물들/, "$1 동물")
@@ -4187,7 +4185,7 @@ export function unpluralize(pieces) {
       output.push(input)
     }
     return output
-  } else if (L.display == "pt") {
+  } else if (Displayed == "pt") {
     for (let input of pieces) {
       input = input.replace(/\b1 fotos/, "uma foto")
                    .replace(/\b1 novas fotos/, "uma nova foto")
@@ -4234,10 +4232,10 @@ export function update() {
     const lookup = id.replace("Button", "")
     const [icon, text] = element.childNodes[0].childNodes
     if (id == "languageButton") {
-      icon.innerText = gui.flag[this.display]   // Replace flag icon
-      text.innerText = gui[lookup][this.display][this.display]   // Replace language icon text
+      icon.innerText = gui.flag[Displayed]   // Replace flag icon
+      text.innerText = gui[lookup][Displayed][Displayed]   // Replace language icon text
     } else {
-      text.innerText = gui[lookup][this.display]   // Replace icon text
+      text.innerText = gui[lookup][Displayed]   // Replace icon text
     }
   }
   // On the Links page? Redraw it
@@ -4248,15 +4246,15 @@ export function update() {
   if (document.forms['searchForm'] != undefined) {
     if (P.db == undefined) {
       document.forms['searchForm']['searchInput'].placeholder =
-        gui.loading[this.display]
+        gui.loading[Displayed]
     } else {
       document.forms['searchForm']['searchInput'].placeholder =
-        "➤ " + gui.search[this.display]
+        "➤ " + gui.search[Displayed]
     }
   }
   // Change the page title
-  document.title = gui.title[this.display]
+  document.title = gui.title[Displayed]
   // Write localStorage for your chosen language. This is better than a cookie
-  // since the server never has to see what language you're using in each request.
-  this.storage.setItem('language', this.display)
+  // since the server doesn't see what language you're using in each request.
+  window.localStorage.setItem('language', Displayed)
 }

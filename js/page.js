@@ -43,7 +43,7 @@ Page.about.content = undefined;    // About page content
 // load different sections of the about page.
 Page.about.fetch = function() {
   var base = "/fragments/";
-  var specific = L.display + "/about.html";
+  var specific = Language.Displayed + "/about.html";
   var fetch_url = base + specific;
   var request = new XMLHttpRequest();
   request.open('GET', fetch_url);
@@ -51,7 +51,7 @@ Page.about.fetch = function() {
   request.send();
   request.onload = function() {
     Page.about.content = request.response.getElementById('hiddenContentFrame');
-    Page.about.language = L.display;   // What language the content was loaded in
+    Page.about.language = Language.Displayed;   // What language the content was loaded in
     window.dispatchEvent(Page.about.loaded);   // Report the data has loaded
   }
 }
@@ -71,7 +71,7 @@ Page.about.hashchange = function() {
   // The about page hashchange results in needing to draw or fetch the
   // about page and initialize its menus, or at the very least, scroll
   // to the top of the page.
-  if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
+  if ((Page.about.language != Language.Displayed) && (Page.about.language != undefined)) {
     Page.about.fetch();
   } else {
     Page.about.render();
@@ -108,7 +108,7 @@ Page.about.render = function() {
   // file based on the given language, and display it in a #contentFrame.about
   if (Page.about.language == undefined) {
     Page.about.fetch();   // Direct link
-  } else if (Page.about.language != L.display) {
+  } else if (Page.about.language != Language.Displayed) {
     Page.about.fetch();   // Language change event
   } else {
     Page.about.sections.menuDefaults();   // Initialize submenus if necessary
@@ -243,13 +243,13 @@ Page.footer.redraw = function(page_mode="results") {
   var footer_test = document.getElementById("footer")
   if (footer_test == null) {
     // No footer exists, and no bottom menu either. Add both
-    var footer = Page.footer.render(L.display, page_mode);
+    var footer = Page.footer.render(Language.Displayed, page_mode);
     var menu = Show[page_mode].menus.bottom();
     body.appendChild(menu);
     body.appendChild(footer);
   } else {
     // Redraw the footer for language event changes
-    var footer = Page.footer.render(L.display, page_mode);
+    var footer = Page.footer.render(Language.Displayed, page_mode);
     var bottomMenu = Show[page_mode].menus.bottom();
     // If bottom menu isn't there, add it
     if (footer_test.previousElementSibling.id != "pageBottom") {
@@ -283,21 +283,21 @@ Page.footer.render = function(language, class_name) {
   rpn_logo.src = "images/rpn-logo.png";
   rpn_logo_link.appendChild(rpn_logo);
   p.appendChild(rpn_logo_link);
-  for (var i in L.messages.footer[language]) {
-    var field = L.messages.footer[language][i];
+  for (var i in Language.messages.footer[language]) {
+    var field = Language.messages.footer[language][i];
     if (field == "<INSERTLINK_RPF>") {
       var rpf = document.createElement('a');
       rpf.href = "https://github.com/wwoast/redpanda-lineage";
       rpf.target = "_blank"; // Open link in a new tab
       rpf.rel = "noopener noreferrer"; // Security best practice: prevent access to window.opener
-      rpf.innerText = L.gui.footerLink_rpf[language];
+      rpf.innerText = Language.gui.footerLink_rpf[language];
       p.appendChild(rpf);
     } else if (field == "<INSERTLINK_RPN>") {
       var rpn = document.createElement('a');
       rpn.href = rpn_url;
       rpn.target = "_blank"; // Open link in a new tab
       rpn.rel = "noopener noreferrer"; // Security best practice: prevent access to window.opener
-      rpn.innerText = L.gui.footerLink_rpn[language];
+      rpn.innerText = Language.gui.footerLink_rpn[language];
       p.appendChild(rpn);
     } else if (field === "") {
       // If the field is an empty string, insert a line break in the footer
@@ -336,26 +336,26 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Halloween
-    // var halloween = Gallery.special.pumpkin(L.display, 3);
+    // var halloween = Gallery.special.pumpkin(Language.Displayed, 3);
     // new_content.appendChild(halloween);
     // Kin Gin special
-    // var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    // var kingin = Gallery.memorialPhotoCreditsGroup(Language.Displayed, "media.7.gin-kin", ["22", "17"], 3);
     // new_content.appendChild(kingin);
     // Current memorials
     var memorial_ids = [];
-    if (!Options.data.hideDeadPandas) {
-      var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
+    if (!Options.Data.hideDeadPandas) {
+      var departed = Gallery.memorialPhotoCredits(Language.Displayed, memorial_ids, 3, Message.memorial);
       new_content.appendChild(departed);
     }
     // Please remember these pandas
-    // var memorial = Gallery.memorialPhotoCredits(L.display, ["59"], 3, Message.missing_you);
+    // var memorial = Gallery.memorialPhotoCredits(Language.Displayed, ["59"], 3, Message.missing_you);
     // new_content.appendChild(memorial);
     // Birthday logic
     var min_photo_count = 3;
     var max_birthday_animals = 5;
     var birthday_count = Pandas.searchBirthdayToday(true, min_photo_count).length;
     if (birthday_count > 0) {
-      var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count, max_birthday_animals);
+      var birthday = Gallery.birthdayPhotoCredits(Language.Displayed, min_photo_count, max_birthday_animals);
       new_content.appendChild(birthday);
     }
     // Special galleries
@@ -363,9 +363,9 @@ Page.home.render = function() {
       var special_galleries = Page.home.special_galleries();
       new_content.appendChild(special_galleries);
     }
-    var nearby = Message.findNearbyZoo(L.display);
+    var nearby = Message.findNearbyZoo(Language.Displayed);
     new_content.appendChild(nearby);
-    var new_photos = Gallery.updatedNewPhotoCredits(L.display);
+    var new_photos = Gallery.updatedNewPhotoCredits(Language.Displayed);
     new_content.appendChild(new_photos);
     Page.swap(old_content, new_content);
     shrinkNames();
@@ -425,7 +425,7 @@ Page.home.special_tag_galleries = function() {
   ];
   var choice = Query.env.paging.seed % special_galleries.length;
   var special = Gallery.special.taglist(
-    L.display, 
+    Language.Displayed, 
     special_galleries[choice].photo_count,
     special_galleries[choice].taglist,
     special_galleries[choice].message);
@@ -435,17 +435,17 @@ Page.home.special_memorial = function() {
   // Special memorials that are important to redpandafinder
   var choice = Query.env.paging.seed;
   if (choice % 7 == 0) {
-    var laila = Gallery.memorialPhotoCredits(L.display, ["60"], 3, Message.missing_you);
+    var laila = Gallery.memorialPhotoCredits(Language.Displayed, ["60"], 3, Message.missing_you);
     return laila;
   } else if (choice % 5 == 0) {
-    var kokin = Gallery.memorialPhotoCredits(L.display, ["23"], 3, Message.missing_you);
+    var kokin = Gallery.memorialPhotoCredits(Language.Displayed, ["23"], 3, Message.missing_you);
     return kokin;
   } else if (choice % 3 == 0) {
-    var hokuto = Gallery.memorialPhotoCredits(L.display, ["58"], 3, Message.missing_you);
+    var hokuto = Gallery.memorialPhotoCredits(Language.Displayed, ["58"], 3, Message.missing_you);
     return hokuto;
   } else {
     // Group memorial for Kin and Gin, temporarily Hokuto
-    var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    var kingin = Gallery.memorialPhotoCreditsGroup(Language.Displayed, "media.7.gin-kin", ["22", "17"], 3);
     return kingin;
   }
 }
@@ -541,7 +541,7 @@ Page.media.render = function() {
   // TODO: count results and display a next page button if necessary
   Query.env.paging.display_button = true;
   // Generate new content frames
-  var gallery_div = Show.media.gallery(results["hits"][0], L.display);
+  var gallery_div = Show.media.gallery(results["hits"][0], Language.Displayed);
   var new_content = document.createElement('div');
   new_content.className = "profile";
   new_content.id = "contentFrame";
@@ -573,11 +573,11 @@ Page.profile.render = function() {
   Query.env.paging.display_button = false;
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  var profile_div = Show.profile.panda(results["hits"][0], L.display);
-  var where_divs = Show.profile.where(results["hits"][0], L.display);
-  var family_divs = Show.profile.family(results["hits"][0], L.display);
-  var children_divs = Show.profile.children(results["hits"][0], L.display);
-  var siblings_divs = Show.profile.siblings(results["hits"][0], L.display);
+  var profile_div = Show.profile.panda(results["hits"][0], Language.Displayed);
+  var where_divs = Show.profile.where(results["hits"][0], Language.Displayed);
+  var family_divs = Show.profile.family(results["hits"][0], Language.Displayed);
+  var children_divs = Show.profile.children(results["hits"][0], Language.Displayed);
+  var siblings_divs = Show.profile.siblings(results["hits"][0], Language.Displayed);
   // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
@@ -774,16 +774,16 @@ Page.results.entities = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.messages.no_result, L.display));
+    content_divs.push(Show.emptyResult(Language.messages.no_result, Language.Displayed));
   }
   results["hits"].forEach(function(entity) {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.results.zoo(entity, L.display));
-      content_divs = content_divs.concat(Show.results.zooAnimals(entity, L.display));
+      content_divs.push(Show.results.zoo(entity, Language.Displayed));
+      content_divs = content_divs.concat(Show.results.zooAnimals(entity, Language.Displayed));
       content_divs.push(Show.zooDivider("bear-bamboo"));
     } else {
-      content_divs.push(Show.results.panda(entity, L.display));
+      content_divs.push(Show.results.panda(entity, Language.Displayed));
     }
   });
   // Remove the last element if it's a divider
@@ -801,7 +801,7 @@ Page.results.group = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // Push an error message
-    content_divs.push(Show.emptyResult(L.messages.no_group_media_result, L.display));
+    content_divs.push(Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed));
     return content_divs;
   }
   // Then, start displaying a list of group photos paged out
@@ -815,7 +815,7 @@ Page.results.group = function(results) {
   var animal_results = [];
   for (let id of animal_ids) {
     var entity = Pandas.searchPandaId(id)[0];
-    animal_results.push(Show.results.panda(entity, L.display));
+    animal_results.push(Show.results.panda(entity, Language.Displayed));
   }
   // Let some photos appear first, unless we don't have very many photos
   var insert = 0;
@@ -833,16 +833,16 @@ Page.results.nearby = function(results) {
   var content_divs = [];
   if (results.parsed == "geolookup_in_progress") {
     // Stuck at the interstitial after a language transition
-    content_divs.push(Message.geolocationStart(L.display));
+    content_divs.push(Message.geolocationStart(Language.Displayed));
     return content_divs;
   }
   // Zoo results
   results["hits"].forEach(function(entity) {
     // Zoos get the Zoo div and pandas for this zoo
-    content_divs.push(Show.results.zoo(entity, L.display));
+    content_divs.push(Show.results.zoo(entity, Language.Displayed));
     animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
     animals.forEach(function(animal) {
-      content_divs.push(Show.results.panda(animal, L.display));
+      content_divs.push(Show.results.panda(animal, Language.Displayed));
     });
     content_divs.push(Show.zooDivider("bear-bamboo"));
   });
@@ -863,13 +863,13 @@ Page.results.photos = function(results) {
       (results["parsed"] == "set_tag_subject") ||
       (results["parsed"] == "set_baby_subject")) {
     // Basic tag views with emoji in the name field
-    content_divs = Gallery.tagPhotos(results, L.display, max_hits, true);
+    content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, true);
   } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
     // Combo tag views, no emoji in the name field
-    content_divs = Gallery.tagPhotos(results, L.display, max_hits, false);
+    content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, false);
   } else if ((results["parsed"] == "set_credit_photos") || 
              (results["parsed"] == "set_credit_photos_filtered")) {
-    content_divs = Gallery.creditPhotos(results, L.display, max_hits);
+    content_divs = Gallery.creditPhotos(results, Language.Displayed, max_hits);
   }
   // HACK: revert to results mode
   Query.clear();

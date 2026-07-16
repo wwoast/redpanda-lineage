@@ -1,5 +1,5 @@
 /** All available options / default values */
-export const data = {
+export const Data = {
   hideDeadPandas: false
 }
 
@@ -11,21 +11,21 @@ export function init() {
 /** Call a function to update the options */
 export function update(func) {
   // Run the given function to update the data
-  func(data)
+  func(Data)
   save()
   // Report options have been updated
-  window.dispatchEvent(new Event('options_updated'));
+  window.dispatchEvent(new Event('options_updated'))
 }
 
 /** Save current option values to local storage */ 
 function save() {
-  window.localStorage.setItem('options', JSON.stringify(data))
+  window.localStorage.setItem('options', JSON.stringify(Data))
 } 
 
 /** Load option values from local storage */
 function load() {
   const localSavedOptions = window.localStorage.getItem('options')
   if (localSavedOptions !== null) {
-    data = JSON.parse(localSavedOptions);
+    Data = JSON.parse(localSavedOptions)
   }
 }

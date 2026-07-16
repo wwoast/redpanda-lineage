@@ -130,12 +130,12 @@ Show.animalLink = function(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
   if (animal['_id'] == Pandas.def.animal['_id']) {
-    var alien = L.emoji.alien;
+    var alien = Language.emoji.alien;
     if (options.indexOf("mom_icon") != -1) {
-      alien = L.emoji.star_mom;
+      alien = Language.emoji.star_mom;
     }
     if (options.indexOf("dad_icon") != -1) {
-      alien = L.emoji.star_dad;
+      alien = Language.emoji.star_dad;
     }
     return Show.emptyLink(alien + "\xa0" + link_text);
   }
@@ -156,10 +156,10 @@ Show.animalLink = function(animal, link_text, language, options) {
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    gender_text = L.emoji.mother + "\xa0";
+    gender_text = Language.emoji.mother + "\xa0";
   }
   if (options.indexOf("dad_icon") != -1) {
-    gender_text = L.emoji.father + "\xa0";
+    gender_text = Language.emoji.father + "\xa0";
   }
   // Multiple possible moms or dads?
   if (options.indexOf("question_icon") != -1) {
@@ -171,7 +171,7 @@ Show.animalLink = function(animal, link_text, language, options) {
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.classList.add("passedAway");
-    trailing_text = trailing_text + "\u200A" + L.emoji.died;
+    trailing_text = trailing_text + "\u200A" + Language.emoji.died;
   }
   name_span.innerText = inner_text;
   a.append(gender_text);
@@ -203,9 +203,9 @@ Show.appleLink = function(info, container_element) {
   } else {
     // Otherwise make an apple link with # of photos contributed
     var apple_count = P.db._photo.credit[info.photo_credit];
-    credit_count_link.innerText = L.emoji.gift + " " + apple_count;
+    credit_count_link.innerText = Language.emoji.gift + " " + apple_count;
     if (parseInt(apple_count) >= 1000) {
-      credit_count_link.innerText = L.emoji.megagift + " " + apple_count;
+      credit_count_link.innerText = Language.emoji.megagift + " " + apple_count;
     }
   }
   other_photos.appendChild(credit_count_link);
@@ -215,13 +215,13 @@ Show.appleLink = function(info, container_element) {
 // Display the birthday and either age/date of death for an animal.
 // Returns two text nodes that can be inserted into other elements
 Show.birthday = function(info, language) {
-  var birthday = L.emoji.born + " " + info.birthday;
+  var birthday = Language.emoji.born + " " + info.birthday;
   // If still alive, print their current age
   var parentheses = undefined;
   if (info.death == Pandas.def.unknown[language]) {
     parentheses = "(" + info.age + ")";
   } else {
-    parentheses = L.emoji.died + " " + info.death;
+    parentheses = Language.emoji.died + " " + info.death;
   }
   return [birthday, parentheses];
 }
@@ -230,11 +230,11 @@ Show.birthday = function(info, language) {
 // This uses unlocalized m/f/unknown gender values
 Show.childIcon = function(gender) {
   if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
-    return L.emoji.boy;
+    return Language.emoji.boy;
   } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
-    return L.emoji.girl;
+    return Language.emoji.girl;
   } else {
-    return L.emoji.baby;
+    return Language.emoji.baby;
   }
 }
 
@@ -246,15 +246,15 @@ Show.creditLink = function(info, container_element) {
   credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link);
   if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
     // Uncredited / anonymous photos get no href, and are not links
-    credit_link.innerText = L.emoji.camera + " " + Pandas.def.authors[info.photo_credit][L.display];
+    credit_link.innerText = Language.emoji.camera + " " + Pandas.def.authors[info.photo_credit][Language.Displayed];
     credit_link.removeAttribute("href");
   } else if (info.photo_credit != undefined) {
     // Attribute photo to someone
-    credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
+    credit_link.innerText = Language.emoji.camera + " " + info.photo_credit;
   } else {
     // Ask users to submit through a Google Form
-    credit_link.innerText = L.emoji.camera + " " + L.gui.contribute[L.display] + "\xa0";
-    credit_link.href = L.gui.contribute_link[L.display];
+    credit_link.innerText = Language.emoji.camera + " " + Language.gui.contribute[Language.Displayed] + "\xa0";
+    credit_link.href = Language.gui.contribute_link[Language.Displayed];
   }
   var container = document.createElement(container_element);
   container.appendChild(credit_link);
@@ -274,7 +274,7 @@ Show.emptyLink = function(output_text) {
 
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
-Show.emptyResult = function(chosen_message=L.messages.no_result, language) {
+Show.emptyResult = function(chosen_message=Language.messages.no_result, language) {
   var message = document.createElement('div');
   message.className = 'overlay';
   message.innerText = chosen_message[language];
@@ -382,17 +382,17 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
   }
   var output_text = desired_text;
   if (options.indexOf("map_icon") != -1) {
-    output_text = L.emoji.map + " " + output_text;
+    output_text = Language.emoji.map + " " + output_text;
   }
   if ("country_flag" in options) {
     // Replace any country names in location details with a flag
-    var countries = Object.keys(L.flags).filter(function(key) {
+    var countries = Object.keys(Language.flags).filter(function(key) {
       if (output_text.indexOf(key) != -1) {
         return key;
       }
     });
     countries.forEach(function(place) {
-      output_text.replace(place, L.flags[place]);
+      output_text.replace(place, Language.flags[place]);
     });
   }
   return output_text;
@@ -406,12 +406,12 @@ Show.locationLink = function(zoo, language, mode="icons_only") {
   if (zoo['_id'] == Pandas.def.zoo['_id']) {
     return Pandas.def.zoo[language + ".location"];
   }
-  var link_text = L.emoji.map;
+  var link_text = Language.emoji.map;
   if (mode != "icons_only") {
     link_text += " " + zoo[language + ".location"];
   }
   if (zoo.flag) {
-    link_text += " " + L.flags[zoo.flag];
+    link_text += " " + Language.flags[zoo.flag];
   }
   var a = document.createElement('a');
   if (zoo['map']) {
@@ -435,7 +435,7 @@ Show.nicknames = function(animal) {
     }
     var nicknames_list = [];
     var nicknames_li = document.createElement('li');
-    nicknames_li.innerText = L.gui.language[L.display][language] + ": ";
+    nicknames_li.innerText = Language.gui.language[Language.Displayed][language] + ": ";
     // Nicknames for this animal
     for (let name of nicknames.split(", ")) {
       nicknames_list.push(name);
@@ -460,7 +460,7 @@ Show.othernames = function(animal, current_language) {
   for (let language of animal["language.order"].split(", ")) {
     var othername_list = [];
     var othername_li = document.createElement('li');
-    othername_li.innerText = L.gui.language[L.display][language] + ": ";
+    othername_li.innerText = Language.gui.language[Language.Displayed][language] + ": ";
     // Animal's name in other languages
     if (language != current_language) {
       var name = animal[language + ".name"];
@@ -598,7 +598,7 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   var copy_notice = document.createElement('span');
   copy_notice.className = "notifier condensed";
   copy_notice.id = "copyToast";
-  copy_notice.innerText = L.gui.copied[L.display];
+  copy_notice.innerText = Language.gui.copied[Language.Displayed];
   qrcode.appendChild(copy_notice);
   return qrcode;
 }
@@ -690,7 +690,7 @@ Show.button.about.action = function() {
   Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.about.render = function(class_name="results") {
-  var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
+  var about = Show.button.render("aboutButton", Language.emoji.bamboo, Language.gui.about[Language.Displayed], class_name);
   about.addEventListener("click", Show.button.about.action);
   return about;
 }
@@ -701,8 +701,8 @@ Show.button.flag.action = function() {
   var choice = options.indexOf(language);
   // Don't redraw unless the language exists, or has
   // changed from the current display language.
-  if ((choice > -1) && (language != L.display)) {
-    L.display = language;
+  if ((choice > -1) && (language != Language.Displayed)) {
+    Language.Displayed = language;
     Language.update();
     // Redraw the nearby page if necessary
     if (Query.env.output_mode == "nearby") {
@@ -741,7 +741,7 @@ Show.button.home.action = function() {
   window.scrollTo(0, 0);   // Go to the top of the page
 };
 Show.button.home.render = function(class_name="results") {
-  var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display], class_name);
+  var home = Show.button.render("homeButton", Language.emoji.home, Language.gui.home[Language.Displayed], class_name);
   home.addEventListener("click", Show.button.home.action);
   return home;
 }
@@ -757,11 +757,11 @@ Show.button.language.action = function() {
 }
 Show.button.language.altAction = function(e) {
   e.preventDefault();
-  var language = L.display;
+  var language = Language.Displayed;
   var options = Pandas.def.languages;
   var count = options.length;
   var choice = (options.indexOf(language) + 1) % count;
-  L.display = options[choice];
+  Language.Displayed = options[choice];
   Language.update();
   // Redraw the nearby page if necessary
   if (Query.env.output_mode == "nearby") {
@@ -775,7 +775,7 @@ Show.button.language.hide = function() {
   language_menu.style.display = "none";
 }
 Show.button.language.render = function(class_name="results") {
-  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
+  var language = Show.button.render("languageButton", Language.gui.flag[Language.Displayed], Language.gui.language[Language.Displayed][Language.Displayed], class_name);
   language.addEventListener("click", Show.button.language.action);
   language.addEventListener("contextmenu", Show.button.language.altAction);
   return language;
@@ -786,7 +786,7 @@ Show.button.links.action = function() {
   Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.links.render = function(class_name="results") {
-  var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display], class_name);
+  var links = Show.button.render("linksButton", Language.emoji.link, Language.gui.links[Language.Displayed], class_name);
   links.addEventListener("click", Show.button.links.action);
   return links;
 }
@@ -794,7 +794,7 @@ Show.button.logo = {};
 // The logo button and home button do the same thing, but appear in different spots
 Show.button.logo.action = Show.button.home.action;
 Show.button.logo.render = function(class_name="results") {
-  var logo = Show.button.render("logoButton", L.emoji.logo, undefined, class_name);
+  var logo = Show.button.render("logoButton", Language.emoji.logo, undefined, class_name);
   logo.classList.add("logo");
   logo.classList.remove("menu");
   logo.addEventListener("click", Show.button.logo.action);
@@ -821,7 +821,7 @@ Show.button.media.altAction = function(e) {
 }
 // Work in progress button, doesn't do anything yet
 Show.button.media.render = function(class_name="profile", panda_id) {
-  var media = Show.button.render("mediaButton", L.emoji.media, L.gui.media[L.display], class_name);
+  var media = Show.button.render("mediaButton", Language.emoji.media, Language.gui.media[Language.Displayed], class_name);
   media.addEventListener("click", function() {
     Show.button.media.action(panda_id);
   });
@@ -869,7 +869,7 @@ Show.button.paging.action = function(callback, parameters, frame_id, class_name)
   Query.env.paging.shown_pages = Query.env.paging.shown_pages + 1;
 }
 Show.button.paging.render = function(class_name) {
-  var paging = Show.button.render("pagingButton", L.emoji.paging, L.gui.paging[L.display], class_name);
+  var paging = Show.button.render("pagingButton", Language.emoji.paging, Language.gui.paging[Language.Displayed], class_name);
   // Get callback function and arguments from Query.env
   var callback = Query.env.paging.callback.function;
   var parameters = Query.env.paging.callback.arguments;
@@ -879,7 +879,7 @@ Show.button.paging.render = function(class_name) {
   });
   // English and Japanese text is too wide
   var text = paging.childNodes[0].childNodes[1];
-  if (L.display == "ja") {
+  if (Language.Displayed == "ja") {
     text.classList.add("condensed");
   } else {
     text.classList.remove("condensed");
@@ -909,14 +909,14 @@ Show.button.profile.altAction = function(e) {
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.profile.render = function(class_name="profile", panda_id) {  
-  var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
+  var profile = Show.button.render("profileButton", Language.emoji.profile, Language.gui.profile[Language.Displayed], class_name);
   profile.addEventListener("click", function() {
     Show.button.profile.action(panda_id);
   });
   profile.addEventListener("contextmenu", Show.button.profile.altAction);
   // Japanese text is too wide
   var text = profile.childNodes[0].childNodes[1];
-  if (L.display == "ja") {
+  if (Language.Displayed == "ja") {
     text.classList.add("condensed");
   } else {
     text.classList.remove("condensed");
@@ -956,7 +956,7 @@ Show.button.random.action = function() {
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.random.render = function(class_name="results") {
-  var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display], class_name);
+  var random = Show.button.render("randomButton", Language.emoji.random, Language.gui.random[Language.Displayed], class_name);
   random.addEventListener("click", Show.button.random.action);
   return random;
 }
@@ -969,7 +969,7 @@ Show.button.refresh.altAction = function(e) {
   location.reload(true);    // Reload from server
 }
 Show.button.refresh.render = function(class_name="results") {
-  var refresh = Show.button.render("refreshButton", L.emoji.refresh, L.gui.refresh[L.display], class_name);
+  var refresh = Show.button.render("refreshButton", Language.emoji.refresh, Language.gui.refresh[Language.Displayed], class_name);
   refresh.addEventListener("click", Show.button.refresh.action);
   refresh.addEventListener("contextmenu", Show.button.refresh.altAction);
   return refresh;
@@ -979,7 +979,7 @@ Show.button.options.action = function() {
   window.location = "#options";
 }
 Show.button.options.render = function(class_name="results") {
-  var options = Show.button.render("optionsButton", L.emoji.options, L.gui.options[L.display], class_name, "brightness-150");
+  var options = Show.button.render("optionsButton", Language.emoji.options, Language.gui.options[Language.Displayed], class_name, "brightness-150");
   options.addEventListener("click", Show.button.options.action);
   return options;
 }
@@ -1017,8 +1017,8 @@ Show.button.search.action = function() {
   }
 }
 Show.button.search.render = function(class_name="profile") {
-  var buttonText = L.gui.search[L.display].replace("...", "");   // No ellipses
-  var search = Show.button.render("searchButton", L.emoji.search, buttonText, class_name);
+  var buttonText = Language.gui.search[Language.Displayed].replace("...", "");   // No ellipses
+  var search = Show.button.render("searchButton", Language.emoji.search, buttonText, class_name);
   search.addEventListener("click", Show.button.search.action);
   return search;
 }
@@ -1043,17 +1043,17 @@ Show.button.top.action = function() {
   window.scrollTo(0, 0);
 }
 Show.button.top.render = function(class_name="results") {
-  var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display], class_name);
+  var top = Show.button.render("topButton", Language.emoji.top, Language.gui.top[Language.Displayed], class_name);
   top.addEventListener("click", Show.button.top.action);
   return top;
 }
 Show.button.tree = {};
 // Work in progress button, doesn't do anything yet
 Show.button.tree.render = function(class_name="profile") {
-  var tree = Show.button.render("treeButton", L.emoji.wip, L.gui.family[L.display], class_name);
+  var tree = Show.button.render("treeButton", Language.emoji.wip, Language.gui.family[Language.Displayed], class_name);
   // Japanese text is too wide
   var text = tree.childNodes[0].childNodes[1];
-  if (L.display == "ja") {
+  if (Language.Displayed == "ja") {
     text.classList.add("condensed");
   } else {
     text.classList.remove("condensed");
@@ -1091,7 +1091,7 @@ Show.options.content.render = function() {
 Show.options.content.header = function() {
   var header = document.createElement('h3');
 
-  header.innerText = Language.gui['options'][L.display];
+  header.innerText = Language.gui['options'][Language.Displayed];
 
   return header;
 }
@@ -1107,14 +1107,14 @@ Show.options.content.deadPandas.render = function() {
   input.id = 'dead-pandas';
   input.name = 'dead-pandas';
   input.value = 'dead-pandas';
-  input.checked = Options.data.hideDeadPandas;
+  input.checked = Options.Data.hideDeadPandas;
   input.addEventListener('change', Show.options.content.deadPandas.action);
 
   container.appendChild(input);
 
   var label = document.createElement('label');
   label.htmlFor = 'dead-pandas';
-  label.innerText = Language.gui['opt_hide_dead_pandas'][L.display];
+  label.innerText = Language.gui['opt_hide_dead_pandas'][Language.Displayed];
 
   container.appendChild(label);
 
@@ -1227,7 +1227,7 @@ Show.links.menus.section = function(subpage) {
     if (btn_name == subpage) {
       btn_class = btn_class + " selected";
     }
-    var text = Language.gui[btn_id][L.display];
+    var text = Language.gui[btn_id][Language.Displayed];
     var button = Show.button.section.render(btn_class, btn_id, text);
     menu.appendChild(button);
   }
@@ -1282,10 +1282,10 @@ Show.links.order.given = function(links) {
     // the links are actually generic.
     var link_name = links[field_name + ".name"];
     if (link_name == undefined) {
-      link_name = links[field_name + "." + L.display + ".name"]; 
+      link_name = links[field_name + "." + Language.Displayed + ".name"]; 
     }
     if (link_name == undefined) {
-      check_languages = language_order.filter(l => l != L.display);
+      check_languages = language_order.filter(l => l != Language.Displayed);
       for (let l of check_languages) {
         link_name = links[field_name + "." + l + ".name"];
         if (link_name != undefined) {
@@ -1294,9 +1294,9 @@ Show.links.order.given = function(links) {
       }
     }
     var link = {
-      "first": links[field_name + "." + L.display + ".first"],
+      "first": links[field_name + "." + Language.Displayed + ".first"],
       "href": links[field_name],
-      "last": links[field_name + "." + L.display + ".last"],
+      "last": links[field_name + "." + Language.Displayed + ".last"],
       "order": language_order,
       "text": link_name
     }
@@ -1349,8 +1349,8 @@ Show.links.order.language = function(links) {
   output.list = output.list.sort(function(a, b) {
     // If the primary (zeroth) language for the link is the 
     // display language, prioritize that.
-    var aHasLang = a.order.indexOf(L.display);
-    var bHasLang = b.order.indexOf(L.display);
+    var aHasLang = a.order.indexOf(Language.Displayed);
+    var bHasLang = b.order.indexOf(Language.Displayed);
     if (aHasLang == bHasLang) {
       // Either the zeroth index, or neither entry has the language
       return 0;
@@ -1389,8 +1389,8 @@ Show.links.order.languageAndAlphabet = function(links) {
   }).sort(function(a, b) {
     // If the primary (zeroth) language for the link is the 
     // display language, prioritize that.
-    var aHasLang = a.order.indexOf(L.display);
-    var bHasLang = b.order.indexOf(L.display);
+    var aHasLang = a.order.indexOf(Language.Displayed);
+    var bHasLang = b.order.indexOf(Language.Displayed);
     if (aHasLang == bHasLang) {
       // Either the zeroth index, or neither entry has the language
       return 0;
@@ -1417,9 +1417,9 @@ Show.links.sections.instagramLinks = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.gui["instagramLinks_header"][L.display];
+  h2.innerText = Language.gui["instagramLinks_header"][Language.Displayed];
   var body = document.createElement('p');
-  body.innerText = Language.gui["instagramLinks_body"][L.display];
+  body.innerText = Language.gui["instagramLinks_body"][Language.Displayed];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add("multiColumn");
@@ -1445,9 +1445,9 @@ Show.links.sections.redPandaCommunity = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.gui["redPandaCommunity_header"][L.display];
+  h2.innerText = Language.gui["redPandaCommunity_header"][Language.Displayed];
   var body = document.createElement('p');
-  body.innerText = Language.gui["redPandaCommunity_body"][L.display];
+  body.innerText = Language.gui["redPandaCommunity_body"][Language.Displayed];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1472,9 +1472,9 @@ Show.links.sections.specialThanksLinks = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.gui["specialThanksLinks_header"][L.display];
+  h2.innerText = Language.gui["specialThanksLinks_header"][Language.Displayed];
   var body = document.createElement('p');
-  body.innerText = Language.gui["specialThanksLinks_body"][L.display];
+  body.innerText = Language.gui["specialThanksLinks_body"][Language.Displayed];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1498,9 +1498,9 @@ Show.links.sections.zooLinks = function() {
   sub_container.className = "pandaLinks";
   var h2 = document.createElement('h2');
   h2.className = "linksHeader";
-  h2.innerText = Language.gui["zooLinks_header"][L.display];
+  h2.innerText = Language.gui["zooLinks_header"][Language.Displayed];
   var body = document.createElement('p');
-  body.innerText = Language.gui["zooLinks_body"][L.display];
+  body.innerText = Language.gui["zooLinks_body"][Language.Displayed];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1690,8 +1690,8 @@ Show.profile.dossier = function(animal, info, language) {
   nicknames_container.className = "nicknameContainer";
   var nicknames_heading = document.createElement('h4');
   nicknames_heading.className = "nicknamesHeading";
-  nicknames_heading.classList.add(L.display);
-  nicknames_heading.innerText = L.gui.nicknames[L.display];
+  nicknames_heading.classList.add(Language.Displayed);
+  nicknames_heading.innerText = Language.gui.nicknames[Language.Displayed];
   var nicknames = Show.nicknames(animal);
   if (nicknames.childNodes.length > 0) {
     nicknames_container.appendChild(nicknames_heading);
@@ -1703,9 +1703,9 @@ Show.profile.dossier = function(animal, info, language) {
   othernames_container.className = "othernamesContainer";
   var othernames_heading = document.createElement('h4');
   othernames_heading.className = "othernamesHeading";
-  othernames_heading.classList.add(L.display);
-  othernames_heading.innerText = L.gui.othernames[L.display];
-  var othernames = Show.othernames(animal, L.display);
+  othernames_heading.classList.add(Language.Displayed);
+  othernames_heading.innerText = Language.gui.othernames[Language.Displayed];
+  var othernames = Show.othernames(animal, Language.Displayed);
   if (othernames.childNodes.length > 0) {
     othernames_container.appendChild(othernames_heading);
     othernames_container.appendChild(othernames);
@@ -1728,7 +1728,7 @@ Show.profile.family = function(animal, language) {
       var mom_photo = photos.filter(x => x["id"] == mom["_id"])[0];
       mom_photos = mom_photos.concat(mom_photo);
       var mom_entry = Gallery.familyProfilePhoto(
-        mom, mom_photo, language, L.gui.mother[language],
+        mom, mom_photo, language, Language.gui.mother[language],
         "immediateFamily", info.mom.length > 1);
       photo_divs.push(mom_entry);
     }
@@ -1739,13 +1739,13 @@ Show.profile.family = function(animal, language) {
       var dad_photo = photos.filter(x => x["id"] == dad["_id"])[0];
       dad_photos = dad_photos.concat(dad_photo);
       var dad_entry = Gallery.familyProfilePhoto(
-        dad, dad_photo, language, L.gui.father[language],
+        dad, dad_photo, language, Language.gui.father[language],
         "immediateFamily", info.dad.length > 1);
       photo_divs.push(dad_entry);
     }
   }
   var me_photo = photos.filter(x => x["id"] == info["id"])[0];
-  var me = Gallery.familyProfilePhoto(animal, me_photo, language, L.gui.me[language], "immediateFamily");
+  var me = Gallery.familyProfilePhoto(animal, me_photo, language, Language.gui.me[language], "immediateFamily");
   photo_divs.push(me);
   var other_family_ids = mom_photos.concat(dad_photos).concat(me_photo).map(x => x.id);
   var litter_photos = photos.filter(function(photo) {
@@ -1754,12 +1754,12 @@ Show.profile.family = function(animal, language) {
     }
   });
   for (let litter_photo of litter_photos) {
-    var subHeading = L.gui.twin[language];
+    var subHeading = Language.gui.twin[language];
     if (litter_photos.length == 2) {
-      subHeading = L.gui.triplet[language];
+      subHeading = Language.gui.triplet[language];
     }
     if (litter_photos.length >= 3) {
-      subHeading = L.gui.quadruplet[language];
+      subHeading = Language.gui.quadruplet[language];
     }
     var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
     var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, subHeading, "immediateFamily");
@@ -1915,7 +1915,7 @@ Show.profile.species = function(animal, language) {
   var italics = document.createElement('i');
   italics.appendChild(species_text);
   var heading = document.createElement('h4');
-  var emoji = document.createTextNode(L.emoji.animal + " ");
+  var emoji = document.createTextNode(Language.emoji.animal + " ");
   heading.appendChild(emoji);
   heading.appendChild(italics);
   var species_div = document.createElement('div');
@@ -1935,26 +1935,26 @@ Show.profile.where = function(animal, language) {
   var container = document.createElement('div');
   container.className = "zooHistory";
   for (let zoo of history.reverse()) {
-    var zoo_icon = L.emoji.zoo;
+    var zoo_icon = Language.emoji.zoo;
     // Different date string logic for zoos versus wild animal sightings.
     if (zoo["id"].indexOf("wild.") == -1) {
       var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
       if (zoo["end_date"] == Pandas.def.unknown[language]) {
-        date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
-        zoo_icon = L.emoji.home;
+        date_string = Language.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
+        zoo_icon = Language.emoji.home;
       }
     } else {
-      zoo_icon = L.emoji.tree;
-      date_string = L.gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"]);
+      zoo_icon = Language.emoji.tree;
+      date_string = Language.gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"]);
     }
     if ((zoo["end_date"] != Pandas.def.unknown[language]) && 
-    (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
-      zoo_icon = L.emoji.died;
+    (zoo["end_date"] == Pandas.date(animal, "death", Language.Displayed))) {
+      zoo_icon = Language.emoji.died;
     }
     if ((zoo["start_date"] != Pandas.def.unknown[language]) &&
     (zoo["start_date"] == Pandas.formatDate(animal["birthday"], language)) &&
-    (zoo_icon != L.emoji.home)) {
-      zoo_icon = L.emoji.born_at;
+    (zoo_icon != Language.emoji.home)) {
+      zoo_icon = Language.emoji.born_at;
     }
     var zoo_info = Pandas.searchZooId(zoo["id"])[0];
     var zoo_entry = document.createElement('ul');
@@ -1996,7 +1996,7 @@ Show.media.gallery = function(animal, language) {
     result.appendChild(photo);
   }
   if (gallery.length < 1) {
-    result.appendChild(Show.emptyResult(L.messages.no_group_media_result, L.display));
+    result.appendChild(Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed));
   }
   return result;
 }
@@ -2012,7 +2012,7 @@ Show.results.children = function(info) {
   // Display panda children in the family section
   var heading = document.createElement('h4');
   heading.className = "childrenHeading" + " " + info.language;
-  heading.innerText = L.gui.children[info.language];
+  heading.innerText = Language.gui.children[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.children)) {
@@ -2070,7 +2070,7 @@ Show.results.groupGallery = function(id_list) {
   var gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"];
   var results = [];
   if (gallery.length < 1) {
-    results.push(Show.emptyResult(L.messages.no_group_media_result, L.display));
+    results.push(Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed));
   } else {
     results = gallery;
   }
@@ -2082,7 +2082,7 @@ Show.results.litter = function(info) {
   var heading = document.createElement('h4');
   heading.className = "litterHeading" + " " + info.language;
   heading.classList.add(language);
-  heading.innerText = L.gui.litter[info.language];
+  heading.innerText = Language.gui.litter[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.litter)) {
@@ -2310,7 +2310,7 @@ Show.results.pandaDetails = function(info) {
   // or if the born_at zoo is the same as the current zoo
   if (info.zoo != undefined && squelch_home_zoo == false) {
     var zoo = document.createElement('p');
-    var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
+    var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, Language.emoji.home);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
@@ -2323,7 +2323,7 @@ Show.results.pandaDetails = function(info) {
   // Wild animals, don't do context things for
   if (info.wild != undefined) {
     var wild = document.createElement('p');
-    wild.innerText = L.flags[info.wild["flag"]] + " " + info.wild[language + ".name"];
+    wild.innerText = Language.flags[info.wild["flag"]] + " " + info.wild[language + ".name"];
     details.appendChild(wild);
   }
   // Give credit for the person that took this photo
@@ -2365,7 +2365,7 @@ Show.results.parents = function(info) {
   // Do mom and dad's info in the family section
   var heading = document.createElement('h4');
   heading.className = "parentsHeading" + " " + info.language;
-  heading.innerText = L.gui.parents[info.language];
+  heading.innerText = Language.gui.parents[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   var mom_links = [];
@@ -2431,7 +2431,7 @@ Show.results.siblings = function(info) {
   // Do the non-litter siblings info in the family section
   var heading = document.createElement('h4');
   heading.className = "siblingsHeading" + " " + info.language;
-  heading.innerText = L.gui.siblings[info.language];
+  heading.innerText = Language.gui.siblings[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
@@ -2500,7 +2500,7 @@ Show.results.zooAnimals = function(zoo, language) {
   var animals_to_divs = function(animals) {
     var output_divs = [];
     animals.forEach(function(animal) {
-      output_divs.push(Show.results.panda(animal, L.display));
+      output_divs.push(Show.results.panda(animal, Language.Displayed));
     });
     return output_divs;
   }
@@ -2568,16 +2568,16 @@ Show.results.zooCounts = function(info) {
   var at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length;
   if (at_zoo < 1) {
     var output_text = "";
-    for (var i in L.messages.zoo_details_no_pandas_live_here[language]) {
-      var field = L.messages.zoo_details_no_pandas_live_here[language][i];
+    for (var i in Language.messages.zoo_details_no_pandas_live_here[language]) {
+      var field = Language.messages.zoo_details_no_pandas_live_here[language][i];
       var output_text = output_text.concat(field);
     }
     var text_node = document.createTextNode(output_text);
     li_items["living"].appendChild(text_node);
   } else {
     var output_text = "";
-    for (var i in L.messages.zoo_details_pandas_live_here[language]) {
-      var field = L.messages.zoo_details_pandas_live_here[language][i];
+    for (var i in Language.messages.zoo_details_pandas_live_here[language]) {
+      var field = Language.messages.zoo_details_pandas_live_here[language][i];
       if (field == "<INSERTNUM>") {
         output_text = output_text.concat(at_zoo);        
       } else {
@@ -2597,8 +2597,8 @@ Show.results.zooCounts = function(info) {
   if (born_count > 0) {
     var earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0];
     var output_text = "";
-    for (var i in L.messages.zoo_details_babies[language]) {
-      var field = L.messages.zoo_details_babies[language][i];
+    for (var i in Language.messages.zoo_details_babies[language]) {
+      var field = Language.messages.zoo_details_babies[language][i];
       if (field == "<INSERTBABIES>") {
         output_text = output_text.concat(born_count);
       } else if (field == "<INSERTYEAR>") {
@@ -2626,8 +2626,8 @@ Show.results.zooCounts = function(info) {
   var total_departed = departed_count + died_count;
   if (total_departed > 0) {
     var output_text = "";
-    for (var i in L.messages.zoo_details_departures[language]) {
-      var field = L.messages.zoo_details_departures[language][i];
+    for (var i in Language.messages.zoo_details_departures[language]) {
+      var field = Language.messages.zoo_details_departures[language][i];
       if (field == "<INSERTNUM>") {
         output_text = output_text.concat(total_departed);
       } else {
@@ -2667,8 +2667,8 @@ Show.results.zooCounts = function(info) {
     var total_link = document.createElement('a');
     total_link.href = "#query/lived at " + info.id;
     var output_text = "";
-    for (var i in L.messages.zoo_details_records[language]) {
-      var field = L.messages.zoo_details_records[language][i];
+    for (var i in Language.messages.zoo_details_records[language]) {
+      var field = Language.messages.zoo_details_records[language][i];
       if (field == "<INSERTNUM>") {
         output_text = output_text.concat(total_count);
       } else if (field == "<INSERTYEAR>") {
@@ -2694,7 +2694,7 @@ Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
   var address = document.createElement('p');
   var address_link = document.createElement('a');
-  address_link.innerText = L.emoji.travel + " " + info.address;
+  address_link.innerText = Language.emoji.travel + " " + info.address;
   address_link.href = info.map;
   address_link.target = "_blank";   // Open in new tab
   address.appendChild(address_link);
@@ -2702,13 +2702,13 @@ Show.results.zooDetails = function(info) {
   var zoo_link = document.createElement('a');
   zoo_link.href = info.website;
   zoo_link.target = "_blank";   // Open in new tab
-  zoo_link.innerText = L.emoji.website + " " + info.name;
+  zoo_link.innerText = Language.emoji.website + " " + info.name;
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
   if (info.closed != Pandas.def.zoo.closed) {
-    var date = Pandas.formatDate(info.closed, L.display);
-    var closed = Message.closed(date, L.display);
+    var date = Pandas.formatDate(info.closed, Language.Displayed);
+    var closed = Message.closed(date, Language.Displayed);
     details.appendChild(closed);
   }
   details.appendChild(address);
@@ -2753,7 +2753,7 @@ Show.searchBar.enable = function() {
   // search bar, do nothing.
   if (document.forms['searchForm'] != undefined) {
     document.forms['searchForm']['searchInput'].disabled = false;
-    var placeholder = "➤ " + L.gui.search[L.display];
+    var placeholder = "➤ " + Language.gui.search[Language.Displayed];
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
     Show.searchBar.action();
   }
@@ -2783,7 +2783,7 @@ Show.searchBar.render = function(frame_class, frame_id) {
   var text_input = document.createElement('input');
   text_input.id = "searchInput";
   text_input.className = "search";
-  text_input.placeholder = "➤ " + L.gui.search[L.display];
+  text_input.placeholder = "➤ " + Language.gui.search[Language.Displayed];
   text_input.type = "search";
   var form = document.createElement('form');
   form.id = "searchForm";

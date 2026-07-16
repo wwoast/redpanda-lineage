@@ -798,7 +798,7 @@ Pandas.searchBirthdayList = function(input_date) {
   // Find all pandas that have a certain birthday.
   // Used for date searches, unlike other birthday functions which
   // are for showing birthday pandas on the front page.
-  var input_ymd = Pandas.parseDate(input_date, L.display);
+  var input_ymd = Pandas.parseDate(input_date, Language.Displayed);
   // Make sure we're using a 4-digit year, assume > 2000
   if (input_ymd["year"] < 2000) {
     input_ymd["year"] = input_ymd["year"] + 2000;
@@ -969,7 +969,7 @@ Pandas.searchDead = function(year) {
 }
 
 Pandas.searchDiedList = function(input_date) {
-  var died_date_ymd = Pandas.parseDate(input_date, L.display);
+  var died_date_ymd = Pandas.parseDate(input_date, Language.Displayed);
   // Make sure we're using a 4-digit year, assume > 2000
   if (died_date_ymd["year"] < 2000) {
     died_date_ymd["year"] = died_date_ymd["year"] + 2000;
@@ -1271,10 +1271,10 @@ Pandas.searchPandaPhotoTagsUnion = function(animal, tags, mode) {
       var empty_bundle = {
         "id": animal["_id"],
         "photo": Pandas.def.animal["photo.1"],
-        "photo.author": Pandas.def.unknown[L.display],
+        "photo.author": Pandas.def.unknown[Language.Displayed],
         "photo.index": Pandas.def.animal["_id"],
-        "photo.link": Pandas.def.unknown[L.display],
-        "photo.tags": Pandas.def.unknown[L.display]
+        "photo.link": Pandas.def.unknown[Language.Displayed],
+        "photo.tags": Pandas.def.unknown[Language.Displayed]
       }
       output.push(empty_bundle);
     }
@@ -1753,7 +1753,7 @@ Pandas.sortByNameJapanese = function(nodes) {
   var othername_field = "ja.othernames";
   var sort_name = "ja.sortname";
 
-  var connector = Language.messages["and"][L.display]
+  var connector = Language.messages["and"][Language.Displayed]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
@@ -1810,7 +1810,7 @@ Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
     }
     return node;
   });
-  if (L.display == "ja") {
+  if (Language.Displayed == "ja") {
     return Pandas.sortByNameJapanese(nodes);
   } else {
     return Pandas.sortByName(nodes, name_field);
@@ -1966,7 +1966,7 @@ Pandas.formatDate = function(date, language) {
     return Pandas.def.unknown[language];
   }
   if ((date.split("/").length == 2) &&
-      (L.gui[date.split("/")[1].toLowerCase()] != undefined)) {
+      (Language.gui[date.split("/")[1].toLowerCase()] != undefined)) {
     return Pandas.formatSeason(date, language);
   }
   var format = Pandas.def.date[language];
@@ -1986,7 +1986,7 @@ Pandas.formatSeason = function(date, language) {
   season = season.toLowerCase();
   var format = Pandas.def.date_season[language];
   format = format.replace("YYYY", year);
-  format = format.replace("SEASON", L.gui[season][language]);
+  format = format.replace("SEASON", Language.gui[season][language]);
   return format;
 }
 
@@ -2012,7 +2012,7 @@ Pandas.gender = function(animal, language) {
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
   var pandaTags = entity["panda.tags"].split(", ");
-  var output_string = Pandas.def.animal[L.display + ".name"];
+  var output_string = Pandas.def.animal[Language.Displayed + ".name"];
   var animals = [];
   for (let id of pandaTags) {
     // Must be a numeric non-negative panda ID
@@ -2031,14 +2031,14 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
   animals = animals.sort((a, b) => a['x'] > b['x'] ? 1: -1);
   // Read off their names into the output string and return
   if (animals.length > 0) {
-    var connector = Language.messages["and"][L.display];
+    var connector = Language.messages["and"][Language.Displayed];
     // HACK: Assume latin languages do comma-replacement the same way
-    if ((animals.length > 2) && (Language.alphabets.latin.indexOf(L.display) != -1)) {
-      connector = Language.messages["comma"][L.display];
+    if ((animals.length > 2) && (Language.alphabets.latin.indexOf(Language.Displayed) != -1)) {
+      connector = Language.messages["comma"][Language.Displayed];
       output_string = animals.map(x => x.name).join(connector);
       var last_animal = animals[animals.length-1];
       var match = new RegExp(connector + last_animal.name + "$");
-      var replace = Language.messages["and"][L.display] + last_animal.name;
+      var replace = Language.messages["and"][Language.Displayed] + last_animal.name;
       output_string = output_string.replace(match, replace);
     } else {  
       output_string = animals.map(x => x.name).join(connector);
@@ -2047,7 +2047,7 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
   // Replace "baby, baby, baby" with group term
   if ((Parse.values(Language.polyglots["baby"]).includes(animals[0].name)) &&
       (Pandas.unique(animals, "name").length == 1)) {
-    output_string = Language.gui["babies"][L.display]
+    output_string = Language.gui["babies"][Language.Displayed]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"
   return output_string;
@@ -2072,15 +2072,15 @@ Pandas.halfSiblings = function(animal, sibling) {
   // someone is a half-sibling or not.
   var sibling_year = -1;
   if (sibling["birthday"] != Pandas.def.animal["birthday"]) {
-    sibling_year = parseInt(Pandas.formatYear(sibling["birthday"], L.display));
+    sibling_year = parseInt(Pandas.formatYear(sibling["birthday"], Language.Displayed));
   }
   var mymom_year = -2;
   if (animal_mom != undefined) {
-    mymom_year = parseInt(Pandas.formatYear(animal_mom["birthday"], L.display));
+    mymom_year = parseInt(Pandas.formatYear(animal_mom["birthday"], Language.Displayed));
   }
   var mydad_year = -2;
   if (animal_dad != undefined) {
-    mydad_year = parseInt(Pandas.formatYear(animal_dad["birthday"], L.display));
+    mydad_year = parseInt(Pandas.formatYear(animal_dad["birthday"], Language.Displayed));
   }
   // Conditions where you can defer half-sibling relationships based on whether
   // your siblings are older than either your mom or dad
