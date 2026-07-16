@@ -1,11 +1,12 @@
 /**
- * Layout functionality for doing CSS and JS conditionals of panda families
- * displayed on the search results pages. A layout object should exist for each 
- * panda we work with, so there's no global version of this.
+ * Layout calculation for optimizing the visual space taken by panda families
+ * in the search result cards. A layout object should exist for each panda we
+ * work with, so instead of tracking state internal to this module, this is
+ * implemented as a class. Just call the constructor, and your family data will
+ * be arranged and styled in a space-optimal way. 
  * 
- * Optimize for the amount of screen space used, clarity in unordered-list
- * logical ordering (by birthday), and for unambiguousness in vertical list
- * order (no 2x2 lists)
+ * Other than space, this tries to preserve clarity in unordered-list logical
+ * ordering (by birthday), and unambiguous vertical lists (no 2x2 lists)
  */
 
 /** Tells JS to do operations on either a mobile or desktop size window */

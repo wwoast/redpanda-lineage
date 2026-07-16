@@ -1,4 +1,5 @@
 import * as Geo from './geolocate.js'
+import * as Parse from './parse.js'
 
 /*
     Query processing for the search box. Translates operators and parameters
@@ -52,7 +53,7 @@ Query.env.clear = function() {
 Query.resolver = {};
 Query.resolver.begin = function(input_string) {
   // Take the input string and lex it out into tokens
-  var lexed_input = Parse.lexer.generate(input_string);
+  var lexed_input = Parse.lexer.generate(input_string)
   // Parse the lexed input
   var parse_tree = Parse.tree.generate(lexed_input);
   // Build result sets. For now, this should just be very simple result sets
@@ -184,10 +185,10 @@ Query.resolver.pair = function(set_node) {
   }
   var tag = undefined;
   if (set_node.type == "set_keyword_date") {
-    if (Parse.group.born.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.born.includes(keyword_node.str)) {
       hits = Pandas.searchBirthdayList(search_word);
     }
-    if (Parse.group.dead.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.dead.includes(keyword_node.str)) {
       hits = Pandas.searchDiedList(search_word);
     }
   }
@@ -195,22 +196,22 @@ Query.resolver.pair = function(set_node) {
     // Go through what all the possible keywords might be that we care about here.
     // Subject may be ambiguous (number as either id or year) but is clarified by
     // the additional keyword that is provided
-    if (Parse.group.born_at.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.born_at.includes(keyword_node.str)) {
       hits = Pandas.searchPandaZooBornRecords(search_word, true);
     }
-    if (Parse.group.died_at.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.died_at.includes(keyword_node.str)) {
       hits = Pandas.searchPandaZooDied(search_word, 0);
     }
-    if (Parse.group.lived_at.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.lived_at.includes(keyword_node.str)) {
       hits = Pandas.searchPandaZooBornLived(search_word, true);
     }
-    if (Parse.group.zoo.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.zoo.includes(keyword_node.str)) {
       hits = Pandas.searchZooName(search_word);
     }
-    if (Parse.group.panda.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.panda.includes(keyword_node.str)) {
       hits = Pandas.searchPandaName(search_word);
     }
-    if (Parse.group.dead.indexOf(keyword_node.str) != -1) {
+    if (Parse.group.dead.includes(keyword_node.str)) {
       hits = Pandas.searchDead(search_word);
     }
   }
@@ -286,10 +287,10 @@ Query.resolver.single = function(set_node, singular_node) {
     // subject_year isn't valid on its own
   }
   if (set_node.type == "set_keyword") {
-    if (Parse.group.baby.indexOf(search_word) != -1) {
+    if (Parse.group.baby.includes(search_word)) {
       hits = Pandas.searchBabies();
     }
-    if (Parse.group.nearby.indexOf(search_word) != -1) {
+    if (Parse.group.nearby.includes(search_word)) {
       Query.env.output_mode = "nearby";
       if (Geo.state.resolved == false) {
         Geo.getNaiveLocation()
@@ -297,12 +298,12 @@ Query.resolver.single = function(set_node, singular_node) {
       // If we're still on a query page and another action hasn't occurred,
       // display the zoo results when we're done.
     }
-    if (Parse.group.dead.indexOf(search_word) != -1) {
+    if (Parse.group.dead.includes(search_word)) {
       hits = Pandas.searchDead();
     }
   }
   if (set_node.type == "set_tag") {
-    if (Parse.group.tags.indexOf(search_word) != -1) {
+    if (Parse.group.tags.includes(search_word)) {
       Query.env.output_mode = "photos";
       Query.env.paging.display_button = true;
       // Find the canonical tag to do the searching by

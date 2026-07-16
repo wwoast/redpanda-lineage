@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
   Q = Query.init();
   G = Dagoba.graph();
-  GeoInit()
+  Geo.init()   // Set units for distance tracking based on browser locale
   ScrollTop.init()
   Options.init()
   Icons.walk(document.body)   // Replace emojis with SVG icons
@@ -60,8 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
     
-    // Build a helper for the lexer from all terms with spaces
-    Parse.lexer.build_wordlist();
     // If available on the page, enable search bar once the page has loaded
     Show.searchBar.enable();
 

@@ -1,3 +1,5 @@
+import * as Parse from './parse.js'
+
 /*
     Logic for a Red Panda database search form.
     Built with love and Dagoba.js :)  
@@ -2042,9 +2044,9 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     }
   }
   // Replace "baby, baby, baby" with group term
-  if ((Parse.values(Language.L.polyglots["baby"]).indexOf(animals[0].name) != -1) &&
+  if ((Parse.values(Language.L.polyglots["baby"]).includes(animals[0].name)) &&
       (Pandas.unique(animals, "name").length == 1)) {
-    output_string = Language.L.gui["babies"][L.display];
+    output_string = Language.L.gui["babies"][L.display]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"
   return output_string;
