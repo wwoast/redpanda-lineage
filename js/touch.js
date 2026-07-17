@@ -1,3 +1,5 @@
+import * as Gallery from './gallery.js'
+
 /** 
  * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
  * Heavily adapted from original code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
@@ -73,8 +75,8 @@ function move(event) {
   }
 }
 
-function swipeEnd(event, elementId, callback) {
-  event.preventDefault();
+function swipeEnd(event, gallery, elementId, callback) {
+  event.preventDefault()
   touch.endTime = new Date().getTime();
   if (touch.fingerCount == 1 && touch.curX != 0) {
     // A swipe just happened. Use the distance formula
@@ -88,9 +90,8 @@ function swipeEnd(event, elementId, callback) {
         (touch.horzDiff > 2*touch.minLength)) {
       angle()
       determine()   // What the swipe direction and angle are
-      // Do something in the RPF interface.
-      // Must be scoped to the touch handler
-      callback.apply(this, [elementId]);
+      // Do something in the RPF interface
+      callback.apply(null, [gallery, elementId]);
       cancel()      // Reset the variables
     } else {
       cancel()
@@ -147,9 +148,8 @@ function determine() {
   }
 }
 
-// TODO ES6 move this somewhere else?
 /** Callback to change the photo based on where the touch event happened */
-export function processPhoto(elementId) {
+export function processPhoto(gallery, elementId) {
   const animalId = elementId.split('/')[0]
   const navigatorId = `${animalId}/navigator`
   const navigator = document.getElementById(navigatorId)
@@ -159,17 +159,17 @@ export function processPhoto(elementId) {
     // TODO ES6
     // At least one direction turn, and a swipe twice as long as a normal
     // left-right directional swipe
-    Gallery.G.photoRandom(animalId)
+    gallery.photoRandom(animalId)
     Gallery.condenseDogEar(span)
     Show.fade(navigator)
     window.dispatchEvent(Page.profile.qr_update)
   } else if (touch.swipeDirection == 'right') {
-    Gallery.G.photoPrevious(animalId)
+    gallery.photoPrevious(animalId)
     Gallery.condenseDogEar(span)
     Show.fade(navigator)
     window.dispatchEvent(Page.profile.qr_update)
   } else if (touch.swipeDirection == 'left') {
-    Gallery.G.photoNext(animalId)
+    gallery.photoNext(animalId)
     Gallery.condenseDogEar(span)
     Show.fade(navigator)
     window.dispatchEvent(Page.profile.qr_update)
@@ -177,21 +177,16 @@ export function processPhoto(elementId) {
 }
 
 /**
- * Swipe/gesture event handler. 
- * Adds a listener for touch events on the photo carousels,
- * and defines a callback function for when that touch element is finished.
+ * Swipe/gesture event handler. Adds a listener for touch events on the photo
+ * carousels, and defines a callback function for when the touch ends.
  */
-export function addSwipeHandler(inputElement, callback) {
-  inputElement.addEventListener('touchstart', function(event) {
-    start(event);
-  }, true);
-  inputElement.addEventListener('touchend', function(event) {
-    swipeEnd(event, inputElement.id, callback);
-  }, true);
-  inputElement.addEventListener('touchmove', function(event) {
-    move(event);
-  }, true);
-  inputElement.addEventListener('touchcancel', function() {
-    cancel();
-  }, true);
+export function addSwipeHandler(gallery, inputElement, callback) {
+  inputElement.addEventListener('touchstart', (event) => start(event), true)
+  inputElement.addEventListener(
+    'touchend', 
+    (event) => swipeEnd(event, gallery, inputElement.id, callback),
+    true
+  )
+  inputElement.addEventListener('touchmove', (event) => move(event), true)
+  inputElement.addEventListener('touchcancel', cancel, true)
 }

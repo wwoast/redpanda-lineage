@@ -1,3 +1,4 @@
+import * as Gallery from './gallery.js'
 import * as Geo from './geolocate.js'
 import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
@@ -336,7 +337,7 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Halloween
-    // var halloween = Gallery.special.pumpkin(Language.Displayed, 3);
+    // var halloween = Gallery.pumpkin(Language.Displayed, 3);
     // new_content.appendChild(halloween);
     // Kin Gin special
     // var kingin = Gallery.memorialPhotoCreditsGroup(Language.Displayed, "media.7.gin-kin", ["22", "17"], 3);
@@ -424,7 +425,7 @@ Page.home.special_tag_galleries = function() {
     }
   ];
   var choice = Query.env.paging.seed % special_galleries.length;
-  var special = Gallery.special.taglist(
+  var special = Gallery.taglist(
     Language.Displayed, 
     special_galleries[choice].photo_count,
     special_galleries[choice].taglist,
