@@ -7,18 +7,21 @@ import * as Touch from './touch.js'
  * Operations and state related to photo galleries.
  *
  * This module, given a list of photos, will create many types of photo
- * galleries -- single frame ones with dogear navigation widgets and swipe
- * controls, as well as larger page-long galleries.
+ * galleries, including single frame _Carousel_ views with dogear navigation
+ * widgets and swipe controls, as well as larger pageable galleries.
  *
  * The Gallery instance has two types of methods: photo methods (for dealing
  * with single-photo panda info), and media methods (for dealing with photos
  * with multiple pandas).
- *
- * TODO: oh fuck, there are multiple galleries. We need to instance these.
- * Turn state into a Gallery class, init into a constructor.
  */
 
-class Gallery {
+/** 
+ * On the panda results card, a single photo is shown. On mobile, this photo
+ * can be swiped left and right, and on computers, a dog ear appears when the
+ * mouse pointer hovers on the photo. In this way, many hundreds of photos
+ * are viewable, from within a single `<img>` frame on a single results card.
+ */
+export class Carousel {
   /** `animal` or `zoo`, used to set the `element_class` */
   carousel_type =  "animal"
   /** `pandaPhoto` or `zooPhoto` */

@@ -1776,7 +1776,7 @@ Show.profile.family = function(animal, language) {
 }
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
-  var gallery = Gallery.init(info, 'animal');
+  const gallery = new Gallery.Carousel(info, 'animal')
   gallery.displayPhoto();
   var frame = document.createElement('div');
   frame.className = "pandaPhoto";
@@ -2147,7 +2147,7 @@ Show.results.panda = function(animal, language) {
   // Most missing elements should not be displayed, but 
   // a few should be printed regardless (birthday / death)
   var info = Show.acquirePandaInfo(animal, language);
-  var gallery = Gallery.init(info, 'animal');
+  const gallery = new Gallery.Carousel(info, 'animal')
   gallery.displayPhoto();
   var frame = document.createElement('div');
   frame.className = "pandaPhoto";
@@ -2460,7 +2460,7 @@ Show.results.siblings = function(info) {
 Show.results.zoo = function(zoo, language) {
   // Display information for a zoo relevant to the red pandas
   var info = Show.acquireZooInfo(zoo, language);
-  var gallery = Gallery.init(info, 'zoo', 'images/no-zoo.jpg');
+  const gallery = new Gallery.Carousel(info, 'zoo', 'images/no-zoo.jpg')
   gallery.displayPhoto();
   var frame = document.createElement('div');
   frame.className = "zooPhoto";
