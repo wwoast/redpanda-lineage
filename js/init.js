@@ -3,6 +3,7 @@ import * as Icons from './icons.js'
 import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
+import * as Page from './page.js'
 import * as Query from './query.js'
 import * as ScrollTop from './scrollTop.js'
 
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Language.defaultDisplayLanguage()   // Set default display language
   Page.routes.check();   // See if we started on the about page
   Language.update();      // Update buttons, displayed results, and cookie state
-  Page.redraw(Page.current);   // Ready to redraw? Let's go.
+  Page.redraw(Page.Current);   // Ready to redraw? Let's go.
   // If rendering any search results for families, update the div height
   recomputeHeight()
   // Most RPF pages won't save your place on the page on purpose,
@@ -101,30 +102,30 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('hashchange', function() {
   // Any time the page changes, forget location details
   // in case we might have moved around
-  Geo.state.resolved = false;
+  Geo.state.resolved = false
   // And forget how many pages we have shown
   Query.env.paging.shown_pages = 1
-  var mode = window.location.hash.split("/")[0];
+  const mode = window.location.hash.split("/")[0]
   if (window.location.hash.length == 0 || mode == "#home") {
-    Page.home.render();
-    Page.current = Page.home.render;
+    Page.home.render()
+    Page.Current = Page.home.render
   } else if (mode == "#about") {
-    Page.about.hashchange();
+    Page.about.hashchange()
   } else if (mode == "#links") {
-    Page.links.hashchange();
+    Page.links.hashchange()
   } else if (mode == "#options") {
-    Page.options.hashchange();
+    Page.options.hashchange()
   } else if (Page.routes.results.includes(mode)) {
-    Page.results.render();
-    Page.current = Page.results.render;
+    Page.results.render()
+    Page.Current = Page.results.render
   } else if (Page.routes.profile.includes(mode)) {
-    Page.profile.render();
-    Page.current = Page.profile.render;
+    Page.profile.render()
+    Page.Current = Page.profile.render
   } else if (Page.routes.media.includes(mode)) {
-    Page.media.render();
-    Page.current = Page.media.render;
+    Page.media.render()
+    Page.Current = Page.media.render
   }
-  window.localStorage.setItem("last_seen", window.location.hash);
+  window.localStorage.setItem("last_seen", window.location.hash)
 
   // Most RPF pages won't save your place on the page on purpose.
   // because refresh events don't work properly when this is enabled.
@@ -148,6 +149,6 @@ window.addEventListener('about_loaded', function() {
     mediaQuery.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();  
-    Page.current = Page.about.render;
+    Page.Current = Page.about.render;
   }
 });

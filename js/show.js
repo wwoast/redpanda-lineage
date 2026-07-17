@@ -710,7 +710,7 @@ Show.button.flag.action = function() {
     if (Query.env.output_mode == "nearby") {
       Geo.getNaiveLocation();
     }
-    Page.redraw(Page.current);
+    Page.redraw(Page.Current);
   }
   Show.button.language.hide();   // If language menu open, hide it
 }
@@ -737,7 +737,7 @@ Show.button.home.action = function() {
   Page.home.render();
   window.location = "#home";
   Show.button.language.hide();   // If language menu open, hide it
-  Page.current = Page.home.render;
+  Page.Current = Page.home.render
   // If bottom search bar is showing, remove it
   Show.searchBar.remove("bottomSearch");
   window.scrollTo(0, 0);   // Go to the top of the page
@@ -769,7 +769,7 @@ Show.button.language.altAction = function(e) {
   if (Query.env.output_mode == "nearby") {
     Geo.getNaiveLocation();
   }
-  Page.redraw(Page.current);
+  Page.redraw(Page.Current);
   Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.language.hide = function() {
@@ -807,11 +807,11 @@ Show.button.media.action = function(panda_id) {
   Page.media.render();
   window.location = "#media/" + panda_id;
   Show.button.language.hide();   // If language menu open, hide it
-  Page.current = Page.media.render;
+  Page.Current = Page.media.render;
 }
 Show.button.media.altAction = function(e) {
   e.preventDefault();       // Prevent normal right-click menu from firing
-  Page.current = Page.media.render;
+  Page.Current = Page.media.render;
   var pandaIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                               .filter(entity => entity["photo.1"] != undefined)
                               .map(entity => entity["panda.tags"])
@@ -897,11 +897,11 @@ Show.button.profile.action = function(panda_id) {
   Page.profile.render();
   window.location = "#profile/" + panda_id;
   Show.button.language.hide();   // If language menu open, hide it
-  Page.current = Page.profile.render;
+  Page.Current = Page.profile.render;
 }
 Show.button.profile.altAction = function(e) {
   e.preventDefault();       // Prevent normal right-click menu from firing
-  Page.current = Page.profile.render;
+  Page.Current = Page.profile.render;
   var pandaIds = P.db.vertices.filter(entity => entity._id > 0)
                               .filter(entity => entity["photo.1"] != undefined)
                               .filter(entity => entity.death == undefined)
@@ -928,7 +928,7 @@ Show.button.profile.render = function(class_name="profile", panda_id) {
 Show.button.random = {};
 Show.button.random.action = function() {
   // Show a random panda or group set from the database when the dice is clicked
-  Page.current = Page.results.render;
+  Page.Current = Page.results.render;
   var zooIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                             .filter(entity => entity._id < 0)
                             .filter(entity => entity["photo.1"] != undefined)
@@ -2806,7 +2806,7 @@ Show.searchBar.render = function(frame_class, frame_id) {
 }
 Show.searchBar.submit = function() {
   // JS actions for submiting a search
-  Page.current = Page.results.render;
+  Page.Current = Page.results.render;
   // Make iOS keyboard disappear after submitting.
   document.getElementById('searchInput').blur();
   var query = (document.getElementById('searchInput').value).replace(/\s+$/, '');

@@ -23,42 +23,54 @@ export let Current = results.render
  */
 export let LastSearch = "#home"
 
-/** 
- * Logic related to the "Options" page. Like all objects representing page
- * state, they are singleton objects for the current browser tab.
+/**
+ * Manage the background color of the page. Profiles/Results page have different 
+ * colors. This mostly impacts how things look when you try and scroll on mobile
+ * and you reach the end of touch-scrolling content.
  */
-class Options {
-  /** The page body to render or restore for the Options page */
-  content = undefined
-
-  /** Call this in a `hashchange` handler to make the Options page appear */
-  hashchange() {
-    this.render()
-    Current = this.render
-    window.scrollTo(0, 0)   // Go to the top of the page
-  }
-
-  /** Render the options page, and replace the exisitng page content */
-  render() {
-    // Disable paging from another page rendering mode
-    Query.env.paging.display_button = false
-    this.content = Show.options.body()
-    // Replace existing content frame with the Options page
-    document.querySelector('#contentFrame').replaceWith(this.content)
-    // Add event listeners to the newly created Links page buttons
-    Page.footer.redraw("results")
-    Show["results"].menus.language()
-    Show["links"].menus.top()
-    Show["results"].searchBar()   // Ensure the search bar comes back
-    color("results")
-  }
+export function color(class_name) {
+  const body = document.getElementsByTagName('body')[0]
+  body.classList.remove("results")
+  body.classList.remove("profile")
+  body.classList.add(class_name)
 }
 
-/**
- * Singleton class representing the Options page with settings for changing
- * what content a user sees by default in redpandafinder.
+/** 
+ * Redraw page after an updateLanguage event or similar. Redisplay results in
+ * the correct language, but only if the Pandas content has already loaded.
+ * 
+ * TODO: rewrite this logic to be less tied to results/profile callback checks
  */
-export const options = new Options()
+export function redraw(callback) {
+  if ((window.location.hash.length > 0) &&
+      (P.db != undefined) &&
+      (callback == results.render)) {
+    callback()
+  }
+  // Redisplay profile info in the correct language, but only if the Pandas
+  // content has already been loaded.
+  if ((window.location.hash.length > 0) &&
+      (P.db != undefined) &&
+      (callback == profile.render)) {
+    callback()
+  }
+  if ((window.location.hash.length > 0) &&
+      (P.db != undefined) &&
+      (callback == media.render)) {
+    callback()
+  }
+  // For non-panda-results page, don't worry if the database is there or not
+  if ((window.location.hash.length > 0) && 
+      (callback != results.render) && 
+      (callback != profile.render) &&
+      (callback != media.render) &&
+      (callback != links.render)) {
+    callback()
+  }
+  if ((window.location.hash.length == 0) && (callback == home.render)) {
+    callback()
+  }
+}
 
 /** 
  * Logic related to the "About" page. This loads language-specific static
@@ -159,7 +171,7 @@ class About {
     else {
       this.sections.menuDefaults()   // Initialize submenus if necessary
       document.getElementById('contentFrame').replaceWith(this.content)
-      Page.footer.redraw("results")
+      footer.redraw("results")
     }
     Show["results"].menus.language()
     Show["about"].menus.top()
@@ -186,7 +198,7 @@ class About {
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (routes.fixed.includes(window.location.hash) == false) {
-        Page.lastSearch = window.location.hash;
+        LastSearch = window.location.hash;
       }
       window.location = "#about"
     }
@@ -263,7 +275,7 @@ class About {
     const tagKeys = Object.keys(Language.tags)
     const primaryTags = {}
     for (const key of tagKeys) {
-      const primaryTag = Language.tags[key][Page.about.language][0];
+      const primaryTag = Language.tags[key][this.language][0];
       // Index by primaryTag, while the value is the key to the tagList
       primaryTags[primaryTag] = key
     }
@@ -283,578 +295,614 @@ class About {
 }
 
 /**
- * Manage the background color of the page. Profiles/Results page have different 
- * colors. This mostly impacts how things look when you try and scroll on mobile
- * and you reach the end of touch-scrolling content.
+ * Singleton class representing the About page with settings for which
+ * submenu of the About page was last viewed.
  */
-export function color(class_name) {
-  const body = document.getElementsByTagName('body')[0]
-  body.classList.remove("results")
-  body.classList.remove("profile")
-  body.classList.add(class_name)
-}
+export const about = new About()
 
-const footer = {}
-Page.footer = {};
-Page.footer.redraw = function(page_mode="results") {
-  // Add the footer at the bottom of the page
-  var body = document.getElementsByTagName('body')[0];
-  var footer_test = document.getElementById("footer")
-  if (footer_test == null) {
-    // No footer exists, and no bottom menu either. Add both
-    var footer = Page.footer.render(Language.Displayed, page_mode);
-    var menu = Show[page_mode].menus.bottom();
-    body.appendChild(menu);
-    body.appendChild(footer);
-  } else {
-    // Redraw the footer for language event changes
-    var footer = Page.footer.render(Language.Displayed, page_mode);
-    var bottomMenu = Show[page_mode].menus.bottom();
-    // If bottom menu isn't there, add it
-    if (footer_test.previousElementSibling.id != "pageBottom") {
-      body.insertBefore(bottomMenu, footer_test);
-    }
-    // Replace footer menu itself
-    body.replaceChild(footer, footer_test);
-  }
-}
-Page.footer.remove = function() {
-  // Remove the footer and bottom menu if returning to the home page
-  var body = document.getElementsByTagName('body')[0];
-  var footer_test = body.lastElementChild;
-  if (footer_test.id == "footer") {
-    // TODO: top and bottom menu operations should be by id
-    var bottomMenu_test = document.getElementsByClassName("bottomMenu")[0];
-    body.removeChild(bottomMenu_test);
-    body.removeChild(footer_test);
-  }
-}
-Page.footer.render = function(language, class_name) {
-  // Draw a footer with the correct language and color (class)
-  var p = document.createElement('p');
-  var rpn_url = "https://www.redpandanetwork.org";
-  var rpn_logo_link = document.createElement('a');
-  rpn_logo_link.href = rpn_url;
-  rpn_logo_link.target = "_blank";
-  rpn_logo_link.rel = "noopener noreferrer";
-  var rpn_logo = document.createElement('img');
-  rpn_logo.className = "footerRpnLogo";
-  rpn_logo.src = "images/rpn-logo.png";
-  rpn_logo_link.appendChild(rpn_logo);
-  p.appendChild(rpn_logo_link);
-  for (var i in Language.messages.footer[language]) {
-    var field = Language.messages.footer[language][i];
-    if (field == "<INSERTLINK_RPF>") {
-      var rpf = document.createElement('a');
-      rpf.href = "https://github.com/wwoast/redpanda-lineage";
-      rpf.target = "_blank"; // Open link in a new tab
-      rpf.rel = "noopener noreferrer"; // Security best practice: prevent access to window.opener
-      rpf.innerText = Language.gui.footerLink_rpf[language];
-      p.appendChild(rpf);
-    } else if (field == "<INSERTLINK_RPN>") {
-      var rpn = document.createElement('a');
-      rpn.href = rpn_url;
-      rpn.target = "_blank"; // Open link in a new tab
-      rpn.rel = "noopener noreferrer"; // Security best practice: prevent access to window.opener
-      rpn.innerText = Language.gui.footerLink_rpn[language];
-      p.appendChild(rpn);
-    } else if (field === "") {
-      // If the field is an empty string, insert a line break in the footer
-      p.appendChild(document.createElement('br'));
+class Footer {
+  /** Add or refresh the footer at the bottom of the page */
+  redraw(page_mode="results") {
+    const body = document.getElementsByTagName('body')[0]
+    const footer_test = document.getElementById("footer")
+    if (footer_test == null) {
+      // No footer exists, and no bottom menu either. Add both
+      const footer = this.render(Language.Displayed, page_mode)
+      const menu = Show[page_mode].menus.bottom()
+      body.appendChild(menu)
+      body.appendChild(footer)
     } else {
-      // For normal text, add it as a text node
-      var msg = document.createTextNode(field);
-      p.appendChild(msg);
+      // Redraw the footer for language event changes
+      const footer = this.render(Language.Displayed, page_mode)
+      const bottomMenu = Show[page_mode].menus.bottom()
+      // If bottom menu isn't there, add it
+      if (footer_test.previousElementSibling.id != "pageBottom") {
+        body.insertBefore(bottomMenu, footer_test)
+      }
+      // Replace footer menu itself
+      body.replaceChild(footer, footer_test)
     }
   }
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  shrinker.appendChild(p);
-  var footer = document.createElement('div');
-  footer.className = "footer";
-  footer.classList.add(class_name);
-  footer.id = "footer";
-  footer.appendChild(shrinker);
-  return footer;
-}
 
-/*
-    Logic for drawing the landing page. Nothing much here yet. TODO: add more! :)
-*/
-Page.home = {};
-Page.home.render = function() {
-  // No need for paging on the home page
-  Query.env.paging.display_button = false;
-  // Output just the base search bar with no footer.
-  var old_content = document.getElementById('contentFrame');
-  Show["results"].menus.language();
-  Show["landing"].menus.top();
-  // Special homepage headers
-  if (P.db != undefined) {
-    var new_content = document.createElement('div');
-    new_content.className = "results birthdayPandas";
-    new_content.id = "contentFrame";
-    // Halloween
-    // var halloween = Gallery.pumpkin(Language.Displayed, 3);
-    // new_content.appendChild(halloween);
-    // Kin Gin special
-    // var kingin = Gallery.memorialPhotoCreditsGroup(Language.Displayed, "media.7.gin-kin", ["22", "17"], 3);
-    // new_content.appendChild(kingin);
-    // Current memorials
-    var memorial_ids = [];
-    if (!Options.Data.hideDeadPandas) {
-      var departed = Gallery.memorialPhotoCredits(Language.Displayed, memorial_ids, 3, Message.memorial);
-      new_content.appendChild(departed);
+  /** Remove the footer and bottom menu if returning to the home page */
+  remove() {
+    const body = document.getElementsByTagName('body')[0]
+    const footer_test = body.lastElementChild
+    if (footer_test.id == "footer") {
+      // TODO: top and bottom menu operations should be by id
+      const bottomMenu_test = document.getElementsByClassName("bottomMenu")[0]
+      body.removeChild(bottomMenu_test)
+      body.removeChild(footer_test)
     }
-    // Please remember these pandas
-    // var memorial = Gallery.memorialPhotoCredits(Language.Displayed, ["59"], 3, Message.missing_you);
-    // new_content.appendChild(memorial);
-    // Birthday logic
-    var min_photo_count = 3;
-    var max_birthday_animals = 5;
-    var birthday_count = Pandas.searchBirthdayToday(true, min_photo_count).length;
-    if (birthday_count > 0) {
-      var birthday = Gallery.birthdayPhotoCredits(Language.Displayed, min_photo_count, max_birthday_animals);
-      new_content.appendChild(birthday);
-    }
-    // Special galleries
-    if (birthday_count + memorial_ids.length < 2) {
-      var special_galleries = Page.home.special_galleries();
-      new_content.appendChild(special_galleries);
-    }
-    var nearby = Message.findNearbyZoo(Language.Displayed);
-    new_content.appendChild(nearby);
-    var new_photos = Gallery.updatedNewPhotoCredits(Language.Displayed);
-    new_content.appendChild(new_photos);
-    Page.swap(old_content, new_content);
-    shrinkNames();
-    Page.footer.redraw("landing");
-  } else {
-    var new_content = document.createElement('img');
-    new_content.src = "images/jiuzhaigou.jpg";
-    new_content.className = "fullFrame";
-    new_content.id = "contentFrame";
-    Page.swap(old_content, new_content);
-    Page.footer.remove();
   }
-  Show["results"].searchBar();   // Ensure the search bar comes back
-  Page.color("results");
-  window.scrollTo(0, 0);   // Scroll to the top of the page
-}
-Page.home.special_galleries = function() {
-  // Front page galleries to use whenever there are not lots of other
-  // content to display.
-  var date = new Date();
-  var choice = Query.env.paging.seed;
-  if (date.getDay() == choice % 7) {
-    // Sunday has a special memorial
-    return Page.home.special_memorial();
-  } else {
-    return Page.home.special_tag_galleries();
-  }
-}
-Page.home.special_tag_galleries = function() {
-  // Tag-based special galleries
-  var special_galleries = [
-    {
-      "message": Message.lunch_time,
-      "photo_count": 3,
-      "taglist": ["bamboo", "bite", "portrait"],
-    },
-    {
-      "message": Message.lunch_time,
-      "photo_count": 3,
-      "taglist": ["apple time", "dish", "portrait"]
-    },
-    {
-      "message": Message.lunch_time,
-      "photo_count": 3,
-      "taglist": ["apple time", "portrait", "snow"]
-    },
-    {
-      "message": Message.autumn,
-      "photo_count": 3,
-      "taglist": ["autumn", "portrait"]
-    },
-    {
-      "message": Message.baby_photos,
-      "photo_count": 3,
-      "taglist": ["baby", "portrait"]
+
+  /** Draw a footer with the correct language and color (class) */
+  render(language, class_name) {
+    const p = document.createElement('p')
+    const rpn_url = "https://www.redpandanetwork.org"
+    const rpn_logo_link = document.createElement('a')
+    rpn_logo_link.href = rpn_url
+    rpn_logo_link.target = "_blank"
+    rpn_logo_link.rel = "noopener noreferrer"
+    const rpn_logo = document.createElement('img')
+    rpn_logo.className = "footerRpnLogo"
+    rpn_logo.src = "images/rpn-logo.png"
+    rpn_logo_link.appendChild(rpn_logo)
+    p.appendChild(rpn_logo_link)
+    for (const i in Language.messages.footer[language]) {
+      const field = Language.messages.footer[language][i];
+      if (field == "<INSERTLINK_RPF>") {
+        const rpf = document.createElement('a')
+        rpf.href = "https://github.com/wwoast/redpanda-lineage"
+        rpf.target = "_blank"   // Open link in a new tab
+        // Security best practice: prevent access to window.opener
+        rpf.rel = "noopener noreferrer"
+        rpf.innerText = Language.gui.footerLink_rpf[language]
+        p.appendChild(rpf)
+      } else if (field == "<INSERTLINK_RPN>") {
+        const rpn = document.createElement('a')
+        rpn.href = rpn_url
+        rpn.target = "_blank"   // Open link in a new tab
+        // Security best practice: prevent access to window.opener
+        rpn.rel = "noopener noreferrer"
+        rpn.innerText = Language.gui.footerLink_rpn[language]
+        p.appendChild(rpn)
+      } else if (field === "") {
+        // If the field is an empty string, insert a line break in the footer
+        p.appendChild(document.createElement('br'))
+      } else {
+        // For normal text, add it as a text node
+        const msg = document.createTextNode(field)
+        p.appendChild(msg);
+      }
     }
-  ];
-  var choice = Query.env.paging.seed % special_galleries.length;
-  var special = Gallery.taglist(
-    Language.Displayed, 
-    special_galleries[choice].photo_count,
-    special_galleries[choice].taglist,
-    special_galleries[choice].message);
-  return special;
-}
-Page.home.special_memorial = function() {
-  // Special memorials that are important to redpandafinder
-  var choice = Query.env.paging.seed;
-  if (choice % 7 == 0) {
-    var laila = Gallery.memorialPhotoCredits(Language.Displayed, ["60"], 3, Message.missing_you);
-    return laila;
-  } else if (choice % 5 == 0) {
-    var kokin = Gallery.memorialPhotoCredits(Language.Displayed, ["23"], 3, Message.missing_you);
-    return kokin;
-  } else if (choice % 3 == 0) {
-    var hokuto = Gallery.memorialPhotoCredits(Language.Displayed, ["58"], 3, Message.missing_you);
-    return hokuto;
-  } else {
-    // Group memorial for Kin and Gin, temporarily Hokuto
-    var kingin = Gallery.memorialPhotoCreditsGroup(Language.Displayed, "media.7.gin-kin", ["22", "17"], 3);
-    return kingin;
+    const shrinker = document.createElement('div')
+    shrinker.className = "shrinker";
+    shrinker.appendChild(p)
+    const footer = document.createElement('div')
+    footer.className = "footer"
+    footer.classList.add(class_name)
+    footer.id = "footer"
+    footer.appendChild(shrinker)
+    return footer
   }
 }
 
-/*
-    Logic related to the Links page.
-*/
-Page.links = {};
-Page.links.content = undefined;    // Links page content
-Page.links.hashchange = function() {
-  // The links page hashchange results in needing to draw or fetch the
-  // links page and initialize its menus, or at the very least, scroll
-  // to the top of the page.
-  Page.links.render();
-  Page.current = Page.links.render;
-  window.scrollTo(0, 0);   // Go to the top of the page
-}
-Page.links.render = function() {
-  // No need for paging on the links page
-  Query.env.paging.display_button = false;
-  // Initialize submenus if necessary
-  Page.links.sections.menuDefaults();
-  var chosen = window.sessionStorage.getItem("linksPageMenu")
-  Page.links.content = Show.links.body(chosen);
-  var old_content = document.getElementById('contentFrame');
-  Page.swap(old_content, Page.links.content);
-  // Add event listeners to the newly created Links page buttons
-  Page.links.sections.buttonEventHandlers();
-  Page.footer.redraw("results");
-  Show["results"].menus.language();
-  Show["links"].menus.top();
-  Show["results"].searchBar();   // Ensure the search bar comes back
-  Page.color("results");
-}
-Page.links.routing = function() {
-  // Handle when someone clicks the links button
-  if (Page.current == Page.links.render) {
-    // Check the last query done and return to it, if it was a query
-    if (routes.fixed.includes(Page.lastSearch) == false) {
-      window.location = Page.lastSearch;
+/**
+ * Singleton class representing the Footer that gets drawn at the bottom of
+ * most (but not all) modes for redpandafinder.
+ */
+export const footer = new Footer()
+
+/** Logic for drawing the redpandafinder landing page. */
+class Home {
+  /** 
+   * Render an instance of the redpandafinder landing/home page with
+   * randomized content from the `redpanda.json` database */
+  render() {
+    // No need for paging on the home page
+    Query.env.paging.display_button = false
+    // Output just the base search bar with no footer.
+    const old_content = document.getElementById('contentFrame')
+    Show["results"].menus.language()
+    Show["landing"].menus.top()
+    // Special homepage headers
+    if (P.db != undefined) {
+      const new_content = document.createElement('div')
+      new_content.className = "results birthdayPandas"
+      new_content.id = "contentFrame"
+      // Halloween
+      // const halloween = Gallery.pumpkin(Language.Displayed, 3)
+      // new_content.appendChild(halloween);
+      // Kin Gin special
+      // const kingin = Gallery.memorialPhotoCreditsGroup(
+      //   Language.Displayed, "media.7.gin-kin", ["22", "17"], 3)
+      // new_content.appendChild(kingin)
+      // Current memorials
+      const memorial_ids = []
+      if (!Options.Data.hideDeadPandas) {
+        var departed =
+          Gallery.memorialPhotoCredits(
+            Language.Displayed, memorial_ids, 3, Message.memorial)
+        new_content.appendChild(departed)
+      }
+      // Please remember these pandas
+      // const memorial = 
+      //   Gallery.memorialPhotoCredits(
+      //     Language.Displayed, ["59"], 3, Message.missing_you)
+      // new_content.appendChild(memorial)
+      // Birthday logic
+      const min_photo_count = 3
+      const max_birthday_animals = 5
+      const birthday_count =
+        Pandas.searchBirthdayToday(true, min_photo_count).length
+      if (birthday_count > 0) {
+        const birthday = Gallery.birthdayPhotoCredits(
+          Language.Displayed, min_photo_count, max_birthday_animals)
+        new_content.appendChild(birthday)
+      }
+      // Special galleries
+      if (birthday_count + memorial_ids.length < 2) {
+        const special_galleries = this.special_galleries()
+        new_content.appendChild(special_galleries)
+      }
+      const nearby = Message.findNearbyZoo(Language.Displayed)
+      new_content.appendChild(nearby)
+      const new_photos = Gallery.updatedNewPhotoCredits(Language.Displayed)
+      new_content.appendChild(new_photos)
+      old_content.replaceWith(new_content)
+      shrinkNames()
+      footer.redraw("landing")
     } else {
-      window.location = "#home";
+      const new_content = document.createElement('img')
+      new_content.src = "images/jiuzhaigou.jpg"
+      new_content.className = "fullFrame"
+      new_content.id = "contentFrame"
+      old_content.replaceWith(new_content)
+      footer.remove()
     }
-  } else {
-    // Only save the last page if it wasn't one of the other fixed buttons
-    if (routes.fixed.includes(window.location.hash) == false) {
-      Page.lastSearch = window.location.hash;
+    Show["results"].searchBar()   // Ensure the search bar comes back
+    color("results")
+    window.scrollTo(0, 0)   // Scroll to the top of the page
+  }
+
+  /**
+   * Front page galleries to use whenever there are not lots of other
+   * content to display.
+   * TODO: for memorials, use Option.Data to hide this
+   */
+  special_galleries() {
+    const date = new Date()
+    const choice = Query.env.paging.seed
+    if (date.getDay() == choice % 7) {
+      // Sunday has a special memorial
+      return this.special_memorial()
+    } else {
+      return this.special_tag_galleries()
     }
-    window.location = "#links";
+  }
+
+  /** Special memorials that are important to redpandafinder */
+  special_memorial() {
+    const choice = Query.env.paging.seed
+    if (choice % 7 == 0) {
+      const laila = Gallery.memorialPhotoCredits(
+        Language.Displayed, ["60"], 3, Message.missing_you)
+      return laila
+    } else if (choice % 5 == 0) {
+      const kokin = Gallery.memorialPhotoCredits(
+        Language.Displayed, ["23"], 3, Message.missing_you)
+      return kokin
+    } else if (choice % 3 == 0) {
+      const hokuto = Gallery.memorialPhotoCredits(
+        Language.Displayed, ["58"], 3, Message.missing_you);
+      return hokuto
+    } else {
+      // Group memorial for Kin and Gin, temporarily Hokuto
+      const kingin = Gallery.memorialPhotoCreditsGroup(
+        Language.Displayed, "media.7.gin-kin", ["22", "17"], 3)
+      return kingin
+    }
+  }
+
+  /** Tag-based special galleries */
+  special_tag_galleries() {
+    const special_galleries = [
+      {
+        "message": Message.lunch_time,
+        "photo_count": 3,
+        "taglist": ["bamboo", "bite", "portrait"],
+      },
+      {
+        "message": Message.lunch_time,
+        "photo_count": 3,
+        "taglist": ["apple time", "dish", "portrait"]
+      },
+      {
+        "message": Message.lunch_time,
+        "photo_count": 3,
+        "taglist": ["apple time", "portrait", "snow"]
+      },
+      {
+        "message": Message.autumn,
+        "photo_count": 3,
+        "taglist": ["autumn", "portrait"]
+      },
+      {
+        "message": Message.baby_photos,
+        "photo_count": 3,
+        "taglist": ["baby", "portrait"]
+      }
+    ]
+    const choice = Query.env.paging.seed % special_galleries.length
+    const special = Gallery.taglist(
+      Language.Displayed, 
+      special_galleries[choice].photo_count,
+      special_galleries[choice].taglist,
+      special_galleries[choice].message)
+    return special
   }
 }
-Page.links.sections = {};
-Page.links.sections.buttonEventHandlers = function() {
-  // Find all button subelements of the menu
-  var buttons = document.getElementsByClassName("sectionButton");
-  // For each button, add an event handler to show the section
-  // related to the button's id. Example:
-  //    redPandaCommunity_button => shows redPandaCommunity page
-  for (var button of buttons) {
-    button.addEventListener('click', function() {
-      var old_section = window.sessionStorage.getItem("linksPageMenu")
-      var show_section_id = this.id.split("_")[0];
+
+/** Singleton class representing the Home / landing page for redpandafinder */
+export const home = new Home()
+
+/** Logic related to the Links page. */
+class Links {
+  /** The page body to render or restore for the Links page */
+  content = undefined
+
+  /**
+   * The links page hashchange results in needing to draw or fetch the
+   * links page and initialize its menus, or at the very least, scroll
+   * to the top of the page.
+   */
+  hashchange() {
+    this.render()
+    Current = this.render
+    window.scrollTo(0, 0)   // Go to the top of the page
+  }
+
+  render() {
+    // No need for paging on the links page
+    Query.env.paging.display_button = false;
+    // Initialize submenus if necessary
+    this.sectionMenuDefaults()
+    var chosen = window.sessionStorage.getItem("linksPageMenu")
+    this.content = Show.links.body(chosen)
+    document.getElementById('contentFrame').replaceWith(this.content)
+    // Add event listeners to the newly created Links page buttons
+    this.sectionButtonEventHandlers()
+    footer.redraw("results")
+    Show["results"].menus.language()
+    Show["links"].menus.top()
+    Show["results"].searchBar()   // Ensure the search bar comes back
+    color("results")
+  }
+
+  /** Handle when someone clicks the links button */
+  routing() {
+    if (Current == this.render) {
+      // Check the last query done and return to it, if it was a query
+      if (routes.fixed.includes(LastSearch) == false)
+        window.location = LastSearch
+      else
+        window.location = "#home"
+    } else {
+      // Only save the last page if it wasn't one of the other fixed buttons
+      if (!routes.fixed.includes(window.location.hash)) {
+        LastSearch = window.location.hash
+      }
+      window.location = "#links"
+    }
+  }
+
+  sectionButtonEventHandlers() {
+    // Find all button subelements of the menu
+    const buttons = document.getElementsByClassName("sectionButton")
+    // For each button, add an event handler to show the section
+    // related to the button's id. Example:
+    //    redPandaCommunity_button => shows redPandaCommunity page
+    buttons.forEach(button => button.addEventListener('click', function() {
+      const old_section = window.sessionStorage.getItem("linksPageMenu")
+      const show_section_id = this.id.split("_")[0]
       // Draw new links page content, and erase the old
-      Page.links.content = Show.links.sections[show_section_id]();
-      var old_content = document.getElementById(old_section);
+      this.content = Show.links.sections[show_section_id]()
+      const old_content = document.getElementById(old_section)
       // Erase the old content and bring the new content into the page
-      old_content.parentNode.replaceChild(Page.links.content, old_content);
+      old_content.replaceWith(this.content)
       window.sessionStorage.setItem("linksPageMenu", show_section_id)
-      var old_button = document.getElementById(old_section + "_button");
-      this.classList.add("selected");
+      const old_button = document.getElementById(`${old_section}_button`)
+      button.classList.add("selected");
       old_button.classList.remove("selected");
-    });
+    }))
   }
-}
-Page.links.sections.menuDefaults = function() {
-  if (window.sessionStorage.getItem("linksPageMenu") == null) {
-    window.sessionStorage.setItem("linksPageMenu", "redPandaCommunity");
-  }
-}
 
-/*
-    The media page displays group photos for an individual panda. It's part of the
-    "profile" group of pages that show information about a specific animal.
-*/
-Page.media = {};
-Page.media.render = function() {
-  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
-  var input = decodeURIComponent(window.location.hash);
-  // Start by just displaying info for one panda by id search
-  var results = routes.behavior(input)
-  // TODO: count results and display a next page button if necessary
-  Query.env.paging.display_button = true;
-  // Generate new content frames
-  var gallery_div = Show.media.gallery(results["hits"][0], Language.Displayed);
-  var new_content = document.createElement('div');
-  new_content.className = "profile";
-  new_content.id = "contentFrame";
-  new_content.appendChild(gallery_div);
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  Page.swap(old_content, new_content);
-  shrinkNames();
-  Show["media"].menus.language();
-  var result_id = results["hits"][0]["_id"];
-  Show["media"].menus.top(result_id);
-  Page.footer.redraw("profile");
-  Page.color("profile");
-  // Add a search bar but hide it until the bottomMenu search button is clicked
-  Show.media.search.render();
-  // Move to the top of the page
-  window.scrollTo(0, 0);
-}
-
-/*
-    The profiles page display details for an individual panda
-*/
-Page.profile = {};
-Page.profile.qr_update = new Event('qr_update');
-Page.profile.render = function() {
-  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
-  var input = decodeURIComponent(window.location.hash);
-  // Profile pages never have additional content to load
-  Query.env.paging.display_button = false;
-  // Start by just displaying info for one panda by id search
-  var results = routes.behavior(input);
-  var profile_div = Show.profile.panda(results["hits"][0], Language.Displayed);
-  var where_divs = Show.profile.where(results["hits"][0], Language.Displayed);
-  var family_divs = Show.profile.family(results["hits"][0], Language.Displayed);
-  var children_divs = Show.profile.children(results["hits"][0], Language.Displayed);
-  var siblings_divs = Show.profile.siblings(results["hits"][0], Language.Displayed);
-  // Generate new content frames
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  shrinker.appendChild(profile_div);
-  for (let content_div of where_divs.concat(family_divs)
-                                    .concat(children_divs)
-                                    .concat(siblings_divs)) {
-    shrinker.appendChild(content_div);
-  }
-  var new_content = document.createElement('div');
-  new_content.className = "profile";
-  new_content.id = "contentFrame";
-  new_content.appendChild(shrinker);
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  Page.swap(old_content, new_content);
-  Show["profile"].menus.language();
-  var result_id = results["hits"][0]["_id"];
-  Show["profile"].menus.top(result_id);   // TOWRITE: need to take id of panda for buttons
-  Page.footer.redraw("profile");
-  Page.color("profile");
-  // Add a search bar but hide it until the bottomMenu search button is clicked
-  Show.profile.search.render();
-  // Update the QR code based on the displayed photo
-  window.dispatchEvent(Page.profile.qr_update);
-  // Move to the top of the page
-  window.scrollTo(0, 0);
-}
-
-/*
-    Logic related to the results page output. The main render function chooses between
-    other results rendering modes, and we'll likely add many more as time goes on.
-*/
-Page.results = {};
-// Given a search for pandas or zoos, output entity divs
-Page.results.entities = function(results) {
-  var content_divs = [];
-  if (results["hits"].length == 0) {
-    // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(Language.messages.no_result, Language.Displayed));
-  }
-  results["hits"].forEach(function(entity) {
-    if (entity["_id"] < 0) {
-      // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.results.zoo(entity, Language.Displayed));
-      content_divs = content_divs.concat(Show.results.zooAnimals(entity, Language.Displayed));
-      content_divs.push(Show.zooDivider("bear-bamboo"));
-    } else {
-      content_divs.push(Show.results.panda(entity, Language.Displayed));
+  sectionMenuDefaults() {
+    if (window.sessionStorage.getItem("linksPageMenu") == null) {
+      window.sessionStorage.setItem("linksPageMenu", "redPandaCommunity")
     }
-  });
-  // Remove the last element if it's a divider
-  var last_element = content_divs[content_divs.length - 1];
-  if (last_element.className == 'zooDivider') {
-    content_divs.pop();
   }
-  return content_divs;
 }
-// Given a search for N panda ids, return first the list of media photos all of them 
-// are in, or an error message saying they haven't been seen together. Then, display 
-// the results for each one. This doesn't work yet for names due to space/tokenizing 
-// and name resolution issues for duplicate names... that will be much more work!
-Page.results.group = function(results) {
-  var content_divs = [];
-  if (results["hits"].length == 0) {
-    // Push an error message
-    content_divs.push(Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed));
-    return content_divs;
+
+/** Singleton class representing the Links pagefor redpandafinder */
+export const links = new Links()
+
+/**
+ * The media page displays group photos for an individual panda. It's part of
+ * the "profile" group of pages that show information about a specific animal.
+ * We have no state to track here, so this isn't encapsulated in a class.
+ */
+export const media = {
+  render: function() {
+    // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+    const input = decodeURIComponent(window.location.hash)
+    // Start by just displaying info for one panda by id search
+    const results = routes.behavior(input)
+    // TODO: count results and display a next page button if necessary
+    Query.env.paging.display_button = true
+    // Generate new content frames
+    const gallery_div = Show.media.gallery(results["hits"][0], Language.Displayed)
+    const new_content = document.createElement('div')
+    new_content.className = "profile"
+    new_content.id = "contentFrame"
+    new_content.appendChild(gallery_div)
+    // Swap the new content into the page
+    document.getElementById('contentFrame').replaceWith(new_content)
+    shrinkNames()
+    Show["media"].menus.language()
+    const result_id = results["hits"][0]["_id"]
+    Show["media"].menus.top(result_id)
+    footer.redraw("profile")
+    color("profile")
+    // Add a search bar but hide it until the bottomMenu search button is clicked
+    Show.media.search.render()
+    // Move to the top of the page
+    window.scrollTo(0, 0)
   }
-  // Then, start displaying a list of group photos paged out
-  var animal_ids = results["query"].split(" ");
-  if (results["hits"].length > 0) {
-    // Show all photos with these animals, along with a message.
-    // No container div here so just concat.
-    content_divs = content_divs.concat(Show.results.groupGallery(animal_ids));
-  }
-  // Give a list of results for each individual animal
-  var animal_results = [];
-  for (let id of animal_ids) {
-    var entity = Pandas.searchPandaId(id)[0];
-    animal_results.push(Show.results.panda(entity, Language.Displayed));
-  }
-  // Let some photos appear first, unless we don't have very many photos
-  var insert = 0;
-  if (content_divs.length > 4) {
-    insert = 2;
-  }
-  for (let result of animal_results) {
-    content_divs.splice(insert, 0, result);
-  }
-  return content_divs;  
-}
-// Given a search for nearest zoos, add zoo divs and the pandas that live there,
-// along with a header message of the zoos by proximity.
-Page.results.nearby = function(results) {
-  var content_divs = [];
-  if (results.parsed == "geolookup_in_progress") {
-    // Stuck at the interstitial after a language transition
-    content_divs.push(Message.geolocationStart(Language.Displayed));
-    return content_divs;
-  }
-  // Zoo results
-  results["hits"].forEach(function(entity) {
-    // Zoos get the Zoo div and pandas for this zoo
-    content_divs.push(Show.results.zoo(entity, Language.Displayed));
-    animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
-    animals.forEach(function(animal) {
-      content_divs.push(Show.results.panda(animal, Language.Displayed));
-    });
-    content_divs.push(Show.zooDivider("bear-bamboo"));
-  });
-  // Remove the last element if it's a divider
-  var last_element = content_divs[content_divs.length - 1];
-  if (last_element.className == 'zooDivider') {
-    content_divs.pop();
-  }
-  // HACK: return to entity mode
-  Query.env.output_mode = "entities";
-  return content_divs;
-}
-Page.results.photos = function(results) {
-  // Photo results have a slightly different structure from panda/zoo results
-  var content_divs = [];
-  var max_hits = Query.env.paging.results_count;
-  if ((results["parsed"] == "set_tag") || 
-      (results["parsed"] == "set_tag_subject") ||
-      (results["parsed"] == "set_baby_subject")) {
-    // Basic tag views with emoji in the name field
-    content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, true);
-  } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
-    // Combo tag views, no emoji in the name field
-    content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, false);
-  } else if ((results["parsed"] == "set_credit_photos") || 
-             (results["parsed"] == "set_credit_photos_filtered")) {
-    content_divs = Gallery.creditPhotos(results, Language.Displayed, max_hits);
-  }
-  // HACK: revert to results mode
-  Query.clear();
-  return content_divs;
-}
-Page.results.render = function() {
-  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
-  var input = decodeURIComponent(window.location.hash);
-  // Don't assume a paging button is necessary until shown otherwise
-  Query.env.paging.display_button = false;
-  var results = routes.behavior(input);
-  var content_divs = [];
-  var new_content = document.createElement('div');
-  new_content.id = "hiddenContentFrame";
-  switch(Query.env.output_mode) {
-    case "entities":
-      content_divs = Page.results.entities(results);
-      break;
-    case "photos":
-      content_divs = Page.results.photos(results);
-      new_content.style.textAlign = "center";   // Align photos centered in each row
-      break;
-    case "group":
-      content_divs = Page.results.group(results);
-      new_content.style.textAlign = "center";   // Align photos centered in each row
-      break;
-    case "nearby":
-      content_divs = Page.results.nearby(Geo.state.results);
-      break;
-  }
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  content_divs.forEach(function(content_div) {
-    shrinker.appendChild(content_div);
-  });
-  new_content.appendChild(shrinker);
-  // Redraw the search bar if necessary
-  Show["results"].searchBar();
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  Page.swap(old_content, new_content);
-  // Call layout adjustment functions to shrink any names that are too long
-  shrinkNames();
-  Show["results"].menus.language();
-  Show["results"].menus.top();
-  Page.footer.redraw("results");
-  Page.color("results");
-  // Move to the top of the page
-  window.scrollTo(0, 0);
 }
 
 /** 
- * Redraw page after an updateLanguage event or similar. Redisplay results in
- * the correct language, but only if the Pandas content has already loaded.
- * 
- * TODO: rewrite this logic to be less tied to results/profile callback checks
+ * Logic related to the "Options" page. Like all objects representing page
+ * state, they are singleton objects for the current browser tab.
  */
-export function redraw(callback) {
-  if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
-      (callback == results.render)) {
-    callback()
+class Options {
+  /** The page body to render or restore for the Options page */
+  content = undefined
+
+  /** Call this in a `hashchange` handler to make the Options page appear */
+  hashchange() {
+    this.render()
+    Current = this.render
+    window.scrollTo(0, 0)   // Go to the top of the page
   }
-  // Redisplay profile info in the correct language, but only if the Pandas
-  // content has already been loaded.
-  if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
-      (callback == profile.render)) {
-    callback()
+
+  /** Render the options page, and replace the exisitng page content */
+  render() {
+    // Disable paging from another page rendering mode
+    Query.env.paging.display_button = false
+    this.content = Show.options.body()
+    // Replace existing content frame with the Options page
+    document.querySelector('#contentFrame').replaceWith(this.content)
+    // Add event listeners to the newly created Links page buttons
+    footer.redraw("results")
+    Show["results"].menus.language()
+    Show["links"].menus.top()
+    Show["results"].searchBar()   // Ensure the search bar comes back
+    color("results")
   }
-  if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
-      (callback == media.render)) {
-    callback()
+}
+
+/**
+ * Singleton class representing the Options page with settings for changing
+ * what content a user sees by default in redpandafinder.
+ */
+export const options = new Options()
+
+/** The profiles page display details for an individual panda */
+export const profile = {
+  qr_update: new Event('qr_update'),
+  render: function () {
+    // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+    const input = decodeURIComponent(window.location.hash)
+    // Profile pages never have additional content to load
+    Query.env.paging.display_button = false
+    // Start by just displaying info for one panda by id search
+    const results = routes.behavior(input)
+    const profile_div = Show.profile.panda(results["hits"][0], Language.Displayed)
+    const where_divs = Show.profile.where(results["hits"][0], Language.Displayed)
+    const family_divs = Show.profile.family(results["hits"][0], Language.Displayed)
+    const children_divs = Show.profile.children(results["hits"][0], Language.Displayed)
+    const siblings_divs = Show.profile.siblings(results["hits"][0], Language.Displayed)
+    // Generate new content frames
+    const shrinker = document.createElement('div')
+    shrinker.className = "shrinker"
+    shrinker.appendChild(profile_div)
+    for (let content_div of where_divs.concat(family_divs)
+                                      .concat(children_divs)
+                                      .concat(siblings_divs)) {
+      shrinker.appendChild(content_div)
+    }
+    const new_content = document.createElement('div')
+    new_content.className = "profile"
+    new_content.id = "contentFrame"
+    new_content.appendChild(shrinker)
+    // Swap the new content into the page
+    document.getElementById('contentFrame').replaceWith(new_content)
+    Show["profile"].menus.language()
+    const result_id = results["hits"][0]["_id"]
+    // TODO TOWRITE: need to take id of panda for buttons
+    Show["profile"].menus.top(result_id)
+    footer.redraw("profile")
+    color("profile")
+    // Add a search bar but hide it until the bottomMenu search button is clicked
+    Show.profile.search.render()
+    // Update the QR code based on the displayed photo
+    window.dispatchEvent(this.qr_update)
+    // Move to the top of the page
+    window.scrollTo(0, 0)
   }
-  // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && 
-      (callback != results.render) && 
-      (callback != profile.render) &&
-      (callback != media.render) &&
-      (callback != links.render)) {
-    callback()
-  }
-  if ((window.location.hash.length == 0) && (callback == home.render)) {
-    callback()
+}
+
+/** 
+ * Logic related to the results page output. The main render function chooses
+ * between other results rendering modes, and we'll likely add many more as
+ * time goes on.
+ */
+export const results = {
+  /** Given a search for pandas or zoos, output entity divs */
+  entities: function(results) {
+    let content_divs = []
+    if (results["hits"].length == 0) {
+      // No results? On desktop, bring up a sad panda
+      content_divs.push(
+        Show.emptyResult(Language.messages.no_result, Language.Displayed))
+    }
+    results["hits"].forEach(function(entity) {
+      // Zoos get the Zoo div and pandas for this zoo
+      if (entity["_id"] < 0) {
+        content_divs.push(Show.results.zoo(entity, Language.Displayed))
+        content_divs = content_divs.concat(
+          Show.results.zooAnimals(entity, Language.Displayed))
+        content_divs.push(Show.zooDivider("bear-bamboo"))
+      } else
+        content_divs.push(Show.results.panda(entity, Language.Displayed))
+    });
+    // Remove the last element if it's a divider
+    const last_element = content_divs[content_divs.length - 1]
+    if (last_element.className == 'zooDivider') {
+      content_divs.pop()
+    }
+    return content_divs
+  },
+  /** 
+   * Given a search for N panda ids, return first the list of media photos all
+   * of them  are in, or an error message saying they haven't been seen
+   * together. Then, display the results for each one. This doesn't work yet
+   * for names due to space/tokenizing and name resolution issues for duplicate
+   * names... that will be much more work!
+   */
+  group: function(results) {
+    let content_divs = []
+    if (results["hits"].length == 0) {
+      // Push an error message
+      content_divs.push(
+        Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed))
+      return content_divs
+    }
+    // Then, start displaying a list of group photos paged out
+    const animal_ids = results["query"].split(" ")
+    // Show all photos with these animals, along with a message.
+    // No container div here so just concat.
+    if (results["hits"].length > 0)
+      content_divs = content_divs.concat(Show.results.groupGallery(animal_ids))
+    // Give a list of results for each individual animal
+    const animal_results = []
+    for (const id of animal_ids) {
+      const entity = Pandas.searchPandaId(id)[0];
+      animal_results.push(Show.results.panda(entity, Language.Displayed))
+    }
+    // Let some photos appear first, unless we don't have very many photos
+    let insert = 0
+    if (content_divs.length > 4)
+      insert = 2
+    for (const result of animal_results) {
+      content_divs.splice(insert, 0, result)
+    }
+    return content_divs
+  },
+  /**
+   * Given a search for nearest zoos, add zoo divs and the pandas that live there,
+   * along with a header message of the zoos by proximity.
+   */
+  nearby: function(results) {
+    let content_divs = []
+    if (results.parsed == "geolookup_in_progress") {
+      // Stuck at the interstitial after a language transition
+      content_divs.push(Message.geolocationStart(Language.Displayed))
+      return content_divs
+    }
+    // Zoo results
+    results["hits"].forEach(function(entity) {
+      // Zoos get the Zoo div and pandas for this zoo
+      content_divs.push(Show.results.zoo(entity, Language.Displayed))
+      animals = Pandas.sortOldestToYoungest(
+        Pandas.searchPandaZooCurrent(entity["_id"]))
+      animals.forEach(function(animal) {
+        content_divs.push(Show.results.panda(animal, Language.Displayed))
+      })
+      content_divs.push(Show.zooDivider("bear-bamboo"))
+    })
+    // Remove the last element if it's a divider
+    const last_element = content_divs[content_divs.length - 1]
+    if (last_element.className == 'zooDivider')
+      content_divs.pop()
+    // HACK: return to entity mode
+    Query.env.output_mode = "entities"
+    return content_divs
+  },
+  /** Photo results have a different structure from panda/zoo results */
+  photos: function(results) {
+    let content_divs = []
+    const max_hits = Query.env.paging.results_count
+    if ((results["parsed"] == "set_tag") || 
+        (results["parsed"] == "set_tag_subject") ||
+        (results["parsed"] == "set_baby_subject")) {
+      // Basic tag views with emoji in the name field
+      content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, true)
+    } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
+      // Combo tag views, no emoji in the name field
+      content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, false)
+    } else if ((results["parsed"] == "set_credit_photos") || 
+               (results["parsed"] == "set_credit_photos_filtered")) {
+      content_divs = Gallery.creditPhotos(results, Language.Displayed, max_hits)
+    }
+    // HACK: revert to results mode
+    Query.clear()
+    return content_divs
+  },
+  render: function() {
+    // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+    const input = decodeURIComponent(window.location.hash)
+    // Don't assume a paging button is necessary until shown otherwise
+    Query.env.paging.display_button = false
+    const results = routes.behavior(input)
+    let content_divs = []
+    const new_content = document.createElement('div')
+    new_content.id = "contentFrame"
+    switch(Query.env.output_mode) {
+      case "entities":
+        content_divs = this.entities(results)
+        break
+      case "photos":
+        content_divs = this.photos(results)
+        new_content.style.textAlign = "center"   // Align photos centered in each row
+        break
+      case "group":
+        content_divs = this.group(results)
+        new_content.style.textAlign = "center"   // Align photos centered in each row
+        break
+      case "nearby":
+        content_divs = this.nearby(Geo.state.results)
+        break
+    }
+    const shrinker = document.createElement('div')
+    shrinker.className = "shrinker"
+    content_divs.forEach(function(content_div) {
+      shrinker.appendChild(content_div)
+    });
+    new_content.appendChild(shrinker)
+    // Redraw the search bar if necessary
+    Show["results"].searchBar()
+    // Append the new content into the page and then swap it in
+    document.getElementById('contentFrame').replaceWith(new_content)
+    // Call layout adjustment functions to shrink any names that are too long
+    shrinkNames()
+    Show["results"].menus.language()
+    Show["results"].menus.top()
+    footer.redraw("results")
+    color("results")
+    window.scrollTo(0, 0)   // Move to the top of the page
   }
 }
 
@@ -990,7 +1038,7 @@ class Routes {
     else if (this.dynamic.includes(mode))
       Current = results.render
     else
-      Current = Page.home.render
+      Current = home.render
   }
 
   /**
@@ -1009,21 +1057,3 @@ class Routes {
 
 /** Singleton class representing the redpandafinder routing behavior */
 export const routes = new Routes()
-
-
-// Swap in a new contents frame for an old contents frame. 
-// After calling this, double-check that the footer 
-// is still the bottom of the page.
-// TODO ES6: use `replaceWith` instead
-/*
-Page.swap = function(old_content, new_content) {
-  // Append the new content into the page and then swap it in
-  var body = document.getElementsByTagName('body')[0];
-  // Place the new content right after the old content
-  old_content.parentNode.insertBefore(new_content, old_content.nextSibling);
-  old_content.style.display = "none";
-  new_content.style.display = "block";
-  body.removeChild(old_content);
-  new_content.id = 'contentFrame';
-}
-*/

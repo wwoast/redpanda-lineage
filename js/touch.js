@@ -1,4 +1,5 @@
 import * as Gallery from './gallery.js'
+import * as Page from './page.js'
 
 /** 
  * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT

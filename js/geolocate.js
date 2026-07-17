@@ -1,5 +1,6 @@
 import * as Language from './language.js'
 import * as Message from './message.js'
+import * as Page from './page.js'
 
 /**
  * Allows queries for nearby zoos, using the browser Geolocation API.
@@ -139,7 +140,7 @@ function haversine(myLat, myLon, targetLat, targetLon) {
 /** The interstitial message to draw if blocked on location permissions */
 function renderGeoLookupStart() {
   const newContent = document.createElement('div')
-  newContent.id = "hiddenContentFrame"
+  newContent.id = "contentFrame"
   const shrinker = document.createElement('div')
   shrinker.className = "shrinker"
   const message = Message.geolocationStart(LanguageLanguage.Displayed)
@@ -148,10 +149,8 @@ function renderGeoLookupStart() {
   // TODO ES6
   // Redraw the search bar if necessary
   Show["results"].searchBar()
-  // Append the new content into the page and then swap it in
-  const oldContent = document.getElementById('contentFrame')
-  // TODO ES6
-  Page.swap(oldContent, newContent)
+  // Swap the old content frame for new content
+  document.getElementById('contentFrame').replaceWith(newContent)
   // TODO ES6
   // Call layout adjustment functions to shrink any names that are too long
   Show["results"].menus.language()
@@ -197,7 +196,7 @@ window.addEventListener('found_zoos', function() {
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
   Page.results.render();
-  Page.current = Page.results.render;
+  Page.Current = Page.results.render;
   if (state.results.hits.length >= state.close_results) {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
     toggleAccuracy()
