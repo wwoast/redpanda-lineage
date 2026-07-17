@@ -5,6 +5,7 @@ import * as Language from './language.js'
 import Layout from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
+import * as Page from './page.js'
 import * as Query from './query.js'
 
 /** Presentation-level data, separated out from final website layout */
@@ -732,7 +733,7 @@ Show.button.flag.render = function(language, class_color) {
 Show.button.home = {};
 Show.button.home.action = function() {
   // Return to the empty search page
-  Page.lastSearch = "#home";
+  Page.LastSearch = "#home"
   Page.home.render();
   window.location = "#home";
   Show.button.language.hide();   // If language menu open, hide it

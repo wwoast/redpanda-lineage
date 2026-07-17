@@ -6,237 +6,295 @@ import * as Message from './message.js'
 import * as Options from './options.js'
 import * as Query from './query.js'
 
-var Page = {};   // Namespace
+/** 
+ * Module for rendering all sectional pages of redpandafinder, some of which
+ * are smaller modes with their own encapsulated state.
+ */
 
-/*
-    Logic related to the "Options" page.
-    
-*/
-Page.options = {};
-Page.options.content = undefined;
-Page.options.hashchange = function() {
-  // Render the options page
-  Page.options.render();
-  Page.current = Page.options.render;
-  window.scrollTo(0, 0);   // Go to the top of the page
-}
-Page.options.render = function() {
-  // Disable paging
-  Query.env.paging.display_button = false;
-  Page.options.content = Show.options.body();
-  var old_content = document.getElementById('contentFrame');
-  Page.swap(old_content, Page.options.content);
-  // Add event listeners to the newly created Links page buttons
-  Page.footer.redraw("results");
-  Show["results"].menus.language();
-  Show["links"].menus.top();
-  Show["results"].searchBar();   // Ensure the search bar comes back
-  Page.color("results");
-}
+/** 
+ * Stores callback to the current page render function for redraws.
+ * Default mode is to show panda results.
+ */
+export let Current = results.render
 
-/*
-    Logic related to the "About" page.
-    Loads language-specific content over an XHR
-*/
-Page.about = {};
-Page.about.content = undefined;    // About page content
-// Fetch the about page contents, and add the event listeners for how buttons
-// load different sections of the about page.
-Page.about.fetch = function() {
-  var base = "/fragments/";
-  var specific = Language.Displayed + "/about.html";
-  var fetch_url = base + specific;
-  var request = new XMLHttpRequest();
-  request.open('GET', fetch_url);
-  request.responseType = 'document';
-  request.send();
-  request.onload = function() {
-    Page.about.content = request.response.getElementById('hiddenContentFrame');
-    Page.about.language = Language.Displayed;   // What language the content was loaded in
-    window.dispatchEvent(Page.about.loaded);   // Report the data has loaded
+/** 
+ * When un-clicking Links/About, go back to the last page viewed, or possibly
+ * the last panda you searched for.
+ */
+export let LastSearch = "#home"
+
+/** 
+ * Logic related to the "Options" page. Like all objects representing page
+ * state, they are singleton objects for the current browser tab.
+ */
+class Options {
+  /** The page body to render or restore for the Options page */
+  content = undefined
+
+  /** Call this in a `hashchange` handler to make the Options page appear */
+  hashchange() {
+    this.render()
+    Current = this.render
+    window.scrollTo(0, 0)   // Go to the top of the page
+  }
+
+  /** Render the options page, and replace the exisitng page content */
+  render() {
+    // Disable paging from another page rendering mode
+    Query.env.paging.display_button = false
+    this.content = Show.options.body()
+    // Replace existing content frame with the Options page
+    document.querySelector('#contentFrame').replaceWith(this.content)
+    // Add event listeners to the newly created Links page buttons
+    Page.footer.redraw("results")
+    Show["results"].menus.language()
+    Show["links"].menus.top()
+    Show["results"].searchBar()   // Ensure the search bar comes back
+    color("results")
   }
 }
-Page.about.fetchImages = function() {
-  // Find all image links on instagram, and replace their URIs with fetches
-  var replace_images = document.getElementsByClassName("replace");
-  for (var img of replace_images) {
-    if (img.src.indexOf("https://www.instagram.com/p/") == 0) {
-      var shortcode = img.src.split("/")[4];
-      var size = img.src.split("/")[6].split("=")[1];
-      var ig_url = "ig://" + shortcode + "/" + size;
-      Gallery.url.process(img, ig_url);
+
+/**
+ * Singleton class representing the Options page with settings for changing
+ * what content a user sees by default in redpandafinder.
+ */
+export const options = new Options()
+
+/** 
+ * Logic related to the "About" page. This loads language-specific static
+ * content using an XHR. Like all objects representing page state, this is a
+ * singleton object for the current browser tab.
+ */
+class About {
+  /** The page body to render or restore for the About page */
+  content = undefined
+
+  /** Language the current page is displayed in */
+  language = undefined
+
+  /** Event representing the About page was successfully fetched */
+  loaded = new Event('about_loaded');
+
+  /** 
+   * Fetch the about page contents, and add the event listeners for how section
+   * buttons load different parts of the about page.
+   */
+  fetch() {
+    const fetch_url = `/fragments/${Language.Displayed}/about.html`
+    const request = new XMLHttpRequest()
+    request.open('GET', fetch_url)
+    request.responseType = 'document'
+    request.send()
+    request.onload = function() {
+      this.content = request.response.getElementById('hiddenContentFrame')
+      this.language = Language.Displayed   // Language the content was loaded in
+      window.dispatchEvent(this.loaded)   // Report the data has loaded
     }
   }
-}
-Page.about.hashchange = function() {
-  // The about page hashchange results in needing to draw or fetch the
-  // about page and initialize its menus, or at the very least, scroll
-  // to the top of the page.
-  if ((Page.about.language != Language.Displayed) && (Page.about.language != undefined)) {
-    Page.about.fetch();
-  } else {
-    Page.about.render();
-    // Add event listeners to the newly created About page buttons
-    Page.about.sections.buttonEventHandlers();
-    // Display correct subsection of the about page (class swaps)
-    // Default: usage instructions appear non-hidden.
-    Page.about.sections.show(Page.stored.getItem("aboutPageMenu"));
-    // Determine desktop or mobile, and display relevant instructions
-    Page.about.instructions();
-    mediaQuery.addListener(Page.about.instructions);
-    // Add a tag list
-    Page.about.tags();
-    Page.current = Page.about.render;
+
+  /** Find all image links on instagram, and replace their URIs with fetches */
+  fetchImages() {
+    // TODO ES6: get rid of this code and replace with direct image links
+    const replace_images = document.getElementsByClassName("replace");
+    for (const img of replace_images) {
+      if (img.src.indexOf("https://www.instagram.com/p/") == 0) {
+        const shortcode = img.src.split("/")[4];
+        const size = img.src.split("/")[6].split("=")[1]
+        const ig_url = `ig://${shortcode}/${size}`
+        Gallery.url.process(img, ig_url)
+      }
+    }
   }
-  window.scrollTo(0, 0);   // Go to the top of the page
-}
-Page.about.instructions = function() {
-  // Event listener callback for showing either mobile, or PC-mode instructions
-  if (mediaQuery.matches) {
-    document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
-    document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
-  } else {
-    document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "none";
-    document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "block";
+
+  /** 
+   * The about page hashchange results in needing to draw or fetch the page
+   * initialize its menus, or at the very least, scroll to the top of the page
+   */
+  hashchange() {
+    if ((this.language != Language.Displayed) && (this.language != undefined))
+      this.fetch()
+    else {
+      this.render()
+      // Add event listeners to the newly created About page buttons
+      // TODO ES6
+      this.sections.buttonEventHandlers()
+      // Display correct subsection of the about page (class swaps)
+      // Default: usage instructions appear non-hidden.
+      this.sections.show(window.sessionStorage.getItem("aboutPageMenu"))
+      // Determine desktop or mobile, and display relevant instructions
+      this.instructions()
+      mediaQuery.addListener(this.instructions)
+      // Add a tag list
+      this.tags();
+      Current = this.render
+    }
+    window.scrollTo(0, 0)  // Go to the top of the page
   }
-}
-Page.about.language = undefined;   // Language the content was loaded in
-Page.about.loaded = new Event('about_loaded');
-Page.about.render = function() {
-  // No need for paging on the about page
-  Query.env.paging.display_button = false;
-  // Displays the about page when the button is clicked. Load content from a static
-  // file based on the given language, and display it in a #contentFrame.about
-  if (Page.about.language == undefined) {
-    Page.about.fetch();   // Direct link
-  } else if (Page.about.language != Language.Displayed) {
-    Page.about.fetch();   // Language change event
-  } else {
-    Page.about.sections.menuDefaults();   // Initialize submenus if necessary
-    var old_content = document.getElementById('contentFrame');
-    Page.swap(old_content, Page.about.content);
-    Page.footer.redraw("results");
-  }
-  Show["results"].menus.language();
-  Show["about"].menus.top();
-  Show["results"].searchBar();   // Ensure the search bar comes back
-  Page.color("results");
-  // Re-enable scroll restoration for just the about page
-  if (history.scrollRestoration) {
-    history.scrollRestoration = 'auto';
-  }
-}
-Page.about.routing = function() {
-  // When someone clicks the about button, either show the about page,
-  // or return to the last page shown before the about page
-  if (Page.current == Page.about.render) {
-    // Check the last query done and return to it, if it was a query
-    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-      window.location = Page.lastSearch;
+
+  /** 
+   * Use media queries to determine whether to display instructions for mobile
+   * visitors or for PC visitors
+   */
+  instructions() {  
+    if (mediaQuery.matches) {
+      document.querySelector(".pandaAbout.onlyDesktop").style.display = "none"
+      document.querySelector(".pandaAbout.onlyMobile").style.display = "block"
     } else {
-      window.location = "#home";
+      document.querySelector(".pandaAbout.onlyMobile").style.display = "none"
+      document.querySelector(".pandaAbout.onlyDesktop").style.display = "block"
     }
-  } else {
-    // Only save the last page if it wasn't one of the other fixed buttons
-    if (Page.routes.fixed.includes(window.location.hash) == false) {
-      Page.lastSearch = window.location.hash;
-    }
-    window.location = "#about";
   }
-}
-Page.about.sections = {};
-Page.about.sections.buttonEventHandlers = function() {
-  // Find all button subelements of the menu
-  var buttons = document.getElementsByClassName("sectionButton");
-  // For each button, add an event handler to show the section
-  // related to the button's id. Example:
-  //    aboutPage_button => shows aboutPage
-  for (var button of buttons) {
-    button.addEventListener('click', function() {
-      var show_section_id = this.id.split("_")[0];
-      Page.about.sections.show(show_section_id);
+
+  /** 
+   * Displays the about page when the button is clicked. Load content from a
+   * static file based on the given language, and display it in a frame with
+   * `#contentFrame.about`
+   */
+  render() {
+    // No need for media paging on the about page
+    Query.env.paging.display_button = false
+    // Direct link / server refresh, or language change event
+    if (!this.language || this.language != Language.Displayed)
+      this.fetch()
+    else {
+      this.sections.menuDefaults()   // Initialize submenus if necessary
+      document.getElementById('contentFrame').replaceWith(this.content)
+      Page.footer.redraw("results")
+    }
+    Show["results"].menus.language()
+    Show["about"].menus.top()
+    Show["results"].searchBar()   // Ensure the search bar comes back
+    color("results")
+    // Re-enable scroll restoration for just the about page
+    if (history.scrollRestoration) {
+      history.scrollRestoration = 'auto'
+    }
+  }
+
+  /**
+   * When someone clicks the about button, either show the about page, or
+   * return to the last page shown before the about page
+   */
+  routing() {
+    if (this.current == this.render) {
+      // Check the last query done and return to it, if it was a query
+      if (routes.fixed.includes(LastSearch) == false) {
+        window.location = LastSearch
+      } else {
+        window.location = "#home"
+      }
+    } else {
+      // Only save the last page if it wasn't one of the other fixed buttons
+      if (routes.fixed.includes(window.location.hash) == false) {
+        Page.lastSearch = window.location.hash;
+      }
+      window.location = "#about"
+    }
+  }
+
+  /** 
+   * Hydrate the section buttons on the About page, to change between a
+   * handful of section views with different information
+   */
+  sectionButtonEventHandlers() {
+    const buttons = document.getElementsByClassName("sectionButton")
+    buttons.forEach(button => button.addEventListener('click', function() {
+      const show_section_id = this.id.split("_")[0]
+      this.sectionShow(show_section_id)
       // TODO: set new uri representing sub-page
-      // Set subMenu state. This is used to validate
-      // what page to show and how the menu will be colored.
-      Page.stored.setItem("aboutPageMenu", show_section_id);
-    });
+      // Set subMenu state, to to validate what page to show and how the menu
+      // will be colored.
+      window.sessionStorage.setItem("aboutPageMenu", show_section_id)
+    }))
   }
-}
-// Use session storage (lost when browser closes) for menu state.
-// Potential values are for the menus on the about and links page, so the
-// chosen sub-page will reappear when theses pages are regenerated.
-//   "aboutPageMenu" can be set to (usage|pandas|contributions)
-//   "linksPageMenu" can be set to (community|zoos|friends)
-Page.about.sections.menuDefaults = function() {
-  if (Page.stored.getItem("aboutPageMenu") == null) {
-    Page.stored.setItem("aboutPageMenu", "usageGuide");
+
+  /**
+   * Use session storage (lost when browser closes) for menu state.
+   * Potential values are for the menus on the about and links page, so the
+   * chosen sub-page will reappear when theses pages are regenerated.
+   *  "aboutPageMenu" can be set to (usage|pandas|contributions)
+   *   "linksPageMenu" can be set to (community|zoos|friends)
+   */
+  sectionMenuDefaults() {
+    if (window.sessionStorage.getItem("aboutPageMenu") == null) {
+      window.sessionStorage.setItem("aboutPageMenu", "usageGuide")
+    }
   }
-}
-Page.about.sections.show = function(section_id) {
-  // For pages with hidden sections, get a list of the section
-  // containers, and hide all of them but the one provided.
-  // This requires an id convention where sections are id'ed "name" and the
-  // buttons that activate those sections are id'ed "name_button"
-  var desired = document.getElementById(section_id);
-  var desired_button = document.getElementById(section_id + "_button");
-  // Find currently shown section and hide it
-  var sections = document.getElementsByClassName("section");
-  var shown = [].filter.call(sections, function(el) {
-    return el.classList.contains("hidden") == false;
-  })[0];
-  // Turn off the existing shown section, and "unselect" its button
-  if (shown != undefined) {
-    var shown_button = document.getElementById(shown.id + "_button");
-    shown.classList.add("hidden");
-    shown_button.classList.remove("selected");
+
+  /** 
+   * For pages with hidden sections, get a list of the section containers, and
+   * hide all of them but the one provided. This requires an id convention
+   * where sections are id'ed `name` and the buttons that activate those
+   * sections are id'ed `name_button`
+   */
+  sectionShow(section_id) {
+    const desired = document.getElementById(section_id)
+    const desired_button = document.getElementById(`${section_id}_button`)
+    // Find currently shown section and hide it
+    const sections = document.getElementsByClassName("section")
+    const shown = [].filter.call(sections, function(el) {
+      return el.classList.contains("hidden") == false
+    })[0]
+    // Turn off the existing shown section, and "unselect" its button
+    if (shown != undefined) {
+      const shown_button = document.getElementById(`${shown.id}_button`)
+      shown.classList.add("hidden")
+      shown_button.classList.remove("selected")
+    }
+    // Remove the hidden class on the desired section, and "select" its button
+    desired.classList.remove("hidden")
+    desired_button.classList.add("selected")
+    // Fetch images from IG if necessary
+    this.fetchImages()
   }
-  // Remove the hidden class on the desired section, and "select" its button
-  desired.classList.remove("hidden");
-  desired_button.classList.add("selected");
-  // Fetch images from IG if necessary
-  Page.about.fetchImages();
-}
-Page.about.tags = function() {
-  // Take all available tags for this language, and draw a sorted list of tags
-  // by the current Page.about.language
-  var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
-  if (container.hasChildNodes() == true) {
-    return;
+
+  /** 
+   * Take all available tags for this language, and draw a sorted list of tags
+   * by the current `this.language`
+   */
+  tags() {
+    const container = document.querySelector(".pandaAbout.aboutTags")
+    // The tag menu already exists, so we're good to go
+    if (container.hasChildNodes() == true)
+      return
+    const tagList = document.createElement('ul')
+    tagList.classList.add("tagList")
+    tagList.classList.add("multiColumn")
+    const tagKeys = Object.keys(Language.tags)
+    const primaryTags = {}
+    for (const key of tagKeys) {
+      const primaryTag = Language.tags[key][Page.about.language][0];
+      // Index by primaryTag, while the value is the key to the tagList
+      primaryTags[primaryTag] = key
+    }
+    const sortedTags = Object.keys(primaryTags).sort()
+    for (const thisTag of sortedTags) {
+      const lookup = primaryTags[thisTag]
+      const thisEmoji = Language.tags[lookup]["emoji"]
+      const tagLi = document.createElement('li')
+      const tagLink = document.createElement('a')
+      tagLink.href = `#query/${thisTag}`
+      tagLink.innerText = `${thisEmoji} ${thisTag}`
+      tagLi.appendChild(tagLink)
+      tagList.appendChild(tagLi)
+    }
+    container.appendChild(tagList)
   }
-  var tagList = document.createElement('ul');
-  tagList.classList.add("tagList");
-  tagList.classList.add("multiColumn");
-  var tagKeys = Object.keys(Language.tags);
-  var primaryTags = {};
-  for (let key of tagKeys) {
-    var primaryTag = Language.tags[key][Page.about.language][0];
-    // Index by primaryTag, while the value is the key to the tagList
-    primaryTags[primaryTag] = key;
-  }
-  var sortedTags = Object.keys(primaryTags).sort();
-  for (let thisTag of sortedTags) {
-    let lookup = primaryTags[thisTag];
-    let thisEmoji = Language.tags[lookup]["emoji"];
-    var tagLi = document.createElement('li');
-    var tagLink = document.createElement('a');
-    tagLink.href = "#query/" + thisTag;
-    tagLink.innerText = thisEmoji + " " + thisTag;
-    tagLi.appendChild(tagLink);
-    tagList.appendChild(tagLi);
-  }
-  container.appendChild(tagList);
 }
 
-/* Manage the background color of the page. Profiles/Results page have different 
-   colors. This mostly impacts how things look when you try and scroll on mobile
-   and you reach the end of touch-scrolling content. */
-Page.color = function(class_name) {
-  var body = document.getElementsByTagName('body')[0];
-  body.classList.remove("results");
-  body.classList.remove("profile");
-  body.classList.add(class_name);
+/**
+ * Manage the background color of the page. Profiles/Results page have different 
+ * colors. This mostly impacts how things look when you try and scroll on mobile
+ * and you reach the end of touch-scrolling content.
+ */
+export function color(class_name) {
+  const body = document.getElementsByTagName('body')[0]
+  body.classList.remove("results")
+  body.classList.remove("profile")
+  body.classList.add(class_name)
 }
 
+const footer = {}
 Page.footer = {};
 Page.footer.redraw = function(page_mode="results") {
   // Add the footer at the bottom of the page
@@ -451,8 +509,6 @@ Page.home.special_memorial = function() {
   }
 }
 
-Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
-
 /*
     Logic related to the Links page.
 */
@@ -471,7 +527,7 @@ Page.links.render = function() {
   Query.env.paging.display_button = false;
   // Initialize submenus if necessary
   Page.links.sections.menuDefaults();
-  var chosen = Page.stored.getItem("linksPageMenu");
+  var chosen = window.sessionStorage.getItem("linksPageMenu")
   Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
@@ -487,14 +543,14 @@ Page.links.routing = function() {
   // Handle when someone clicks the links button
   if (Page.current == Page.links.render) {
     // Check the last query done and return to it, if it was a query
-    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+    if (routes.fixed.includes(Page.lastSearch) == false) {
       window.location = Page.lastSearch;
     } else {
       window.location = "#home";
     }
   } else {
     // Only save the last page if it wasn't one of the other fixed buttons
-    if (Page.routes.fixed.includes(window.location.hash) == false) {
+    if (routes.fixed.includes(window.location.hash) == false) {
       Page.lastSearch = window.location.hash;
     }
     window.location = "#links";
@@ -509,14 +565,14 @@ Page.links.sections.buttonEventHandlers = function() {
   //    redPandaCommunity_button => shows redPandaCommunity page
   for (var button of buttons) {
     button.addEventListener('click', function() {
-      var old_section = Page.stored.getItem("linksPageMenu");
+      var old_section = window.sessionStorage.getItem("linksPageMenu")
       var show_section_id = this.id.split("_")[0];
       // Draw new links page content, and erase the old
       Page.links.content = Show.links.sections[show_section_id]();
       var old_content = document.getElementById(old_section);
       // Erase the old content and bring the new content into the page
       old_content.parentNode.replaceChild(Page.links.content, old_content);
-      Page.stored.setItem("linksPageMenu", show_section_id);
+      window.sessionStorage.setItem("linksPageMenu", show_section_id)
       var old_button = document.getElementById(old_section + "_button");
       this.classList.add("selected");
       old_button.classList.remove("selected");
@@ -524,8 +580,8 @@ Page.links.sections.buttonEventHandlers = function() {
   }
 }
 Page.links.sections.menuDefaults = function() {
-  if (Page.stored.getItem("linksPageMenu") == null) {
-    Page.stored.setItem("linksPageMenu", "redPandaCommunity");
+  if (window.sessionStorage.getItem("linksPageMenu") == null) {
+    window.sessionStorage.setItem("linksPageMenu", "redPandaCommunity");
   }
 }
 
@@ -538,7 +594,7 @@ Page.media.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
-  var results = Page.routes.behavior(input);
+  var results = routes.behavior(input)
   // TODO: count results and display a next page button if necessary
   Query.env.paging.display_button = true;
   // Generate new content frames
@@ -573,7 +629,7 @@ Page.profile.render = function() {
   // Profile pages never have additional content to load
   Query.env.paging.display_button = false;
   // Start by just displaying info for one panda by id search
-  var results = Page.routes.behavior(input);
+  var results = routes.behavior(input);
   var profile_div = Show.profile.panda(results["hits"][0], Language.Displayed);
   var where_divs = Show.profile.where(results["hits"][0], Language.Displayed);
   var family_divs = Show.profile.family(results["hits"][0], Language.Displayed);
@@ -606,163 +662,6 @@ Page.profile.render = function() {
   window.dispatchEvent(Page.profile.qr_update);
   // Move to the top of the page
   window.scrollTo(0, 0);
-}
-
-/*
-    Logic related to checking page routes, which are all implemented as #hashlinks
-*/
-Page.routes = {};
-Page.routes.behavior = function(input) {
-  // Each hashlink determines a different behavior for the page rendering.
-  // Do a task based on what the route is.
-  // TODO: add tag search URIs
-  var query_string = undefined;
-  if ((input.indexOf("#credit/") == 0) && 
-  (input.split("/").length == 3)) {
-    // link for a page of photo credits for a specific author,
-    // including only a specific animal.
-    var uri_items = input.slice(8);
-    var [ author, filter ] = uri_items.split("/");
-    // Don't adjust case for author searches, but eventually we
-    // still need to do case-adjustment for the panda name itself
-    Query.env.preserve_case = true;
-    Query.env.output_mode = "photos";   // Set output mode for a photo list
-    query_string = "credit" + " " + author + " " + filter;
-  } else if ((input.indexOf("#credit/") == 0) && 
-      (input.split("/").length == 2)) {
-    // link for a page of photo credits for a specific author
-    var photo_author = input.slice(8);
-    Query.env.preserve_case = true;     // Don't adjust case for author searches
-    Query.env.output_mode = "photos";   // Set output mode for a photo list
-    query_string = "credit" + " " + photo_author;
-  } else if ((input.indexOf("#panda/") == 0) &&
-             (input.split("/").length == 4)) {
-    // link for a panda result with a chosen photo.
-    var uri_items = input.slice(7);
-    var [ panda, _, photo_id ] = uri_items.split("/");
-    Query.env.output_mode = "entities";
-    Query.env.specific_photo = photo_id;
-    query_string = "panda" + " " + panda;
-  } else if ((input.indexOf("#panda/") == 0) &&
-             (input.split("/").length == 2)) {
-    // link for a single panda result.
-    var panda = input.slice(7);
-    Query.env.output_mode = "entities";
-    query_string = "panda" + " " + panda;
-  } else if ((input.indexOf("#group") == 0) &&
-             (input.split("/").length >= 2) &&
-             (input.split("/").length <= P.db["_photo"]["group_max"] + 1)) {
-    // group display modes (just searching multiple ids for now)
-    var id_list = input.slice(7).split("/");
-    Query.env.output_mode = "group";
-    query_string = id_list.join(" ");
-  } else if ((input.indexOf("#profile/") == 0) &&
-             (input.split("/").length == 4)) {
-    // link for a panda profile result with a chosen photo.
-    var uri_items = input.slice(9);
-    var [ panda, _, photo_id ] = uri_items.split("/");
-    Query.env.specific_photo = photo_id;
-    query_string = "panda" + " " + panda;
-  } else if ((input.indexOf("#profile/") == 0) &&
-             (input.split("/").length == 2)) {
-    // link for a single panda profile result.
-    var panda = input.slice(9);
-    query_string = "panda" + " " + panda;
-  } else if ((input.indexOf("#media/") == 0) &&
-             (input.split("/").length == 2)) {
-    var panda = input.slice(7);
-    query_string = "panda" + " " + panda;
-  } else if (input.indexOf("#query/") == 0) {
-    // process a query.
-    query_string = input.slice(7);
-    // Reset defaults to entity
-    Query.env.output_mode = "entities";  
-  } else if ((input.indexOf("#zoo/") == 0) &&
-             (input.split("/").length == 4)) {
-    // link for a panda result with a chosen photo.
-    var uri_items = input.slice(5);
-    var [ zoo, _, zoo_id ] = uri_items.split("/");
-    Query.env.output_mode = "entities";
-    Query.env.specific_photo = zoo_id;
-    query_string = "zoo" + " " + zoo;
-  } else if ((input.indexOf("#zoo/") == 0) &&
-             (input.split("/").length == 2)) {
-    // link for a single zoo result.
-    var zoo = input.slice(5);
-    Query.env.output_mode = "entities";
-    query_string = "zoo" + " " + zoo;
-  } else {
-    // Don't know how to process the hashlink, so do nothing
-    return false;
-  }
-  // Run the query through the parser and return results
-  return Query.result(query_string);
-}
-Page.routes.check = function() {
-  // On initial page load, look for specific hashes that represent special buttons
-  // and immediately load that page if necessary.
-  var mode = window.location.hash.split('/')[0];
-  if (Page.routes.profile.includes(mode)) {
-    Page.current = Page.profile.render;
-  } else if (Page.routes.media.includes(mode)) {
-      Page.current = Page.media.render;  
-  } else if (window.location.hash == "#about") {
-    Page.current = Page.about.render;
-  } else if (window.location.hash == "#links") {
-    Page.current = Page.links.render;
-  } else if (window.location.hash == "#options") {
-    Page.current = Page.options.render;
-  } else if (Page.routes.dynamic.includes(mode)) {
-    Page.current = Page.results.render;
-  } else {
-    Page.current = Page.home.render;
-  }
-}
-Page.routes.dynamic = [
-  "#credit",
-  "#group",
-  "#links",
-  "#media",
-  "#panda",
-  "#profile",
-  "#query",
-  "#timeline",
-  "#zoo"
-];
-Page.routes.fixed = [
-  "#about",    // The about page
-  "#home",     // The empty query page
-  "#options"   // The options page
-];
-Page.routes.media = [
-  "#media"
-];
-Page.routes.no_footer = [
-  "#home"
-];
-Page.routes.profile = [
-  "#profile",
-  "#timeline"
-];
-Page.routes.results = [
-  "#about",
-  "#credit",
-  "#group",
-  "#home",
-  "#links",
-  "#panda",
-  "#query",
-  "#zoo"
-];
-Page.routes.memberOf = function(routeList, current_route) {
-  // Determine if the current page route includes one of the routes
-  // specified in the different routes lists above.
-  for (let route of routeList) {
-    if (current_route.indexOf(route) != -1) {
-      return true;
-    }
-  }
-  return false;
 }
 
 /*
@@ -881,7 +780,7 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Don't assume a paging button is necessary until shown otherwise
   Query.env.paging.display_button = false;
-  var results = Page.routes.behavior(input);
+  var results = routes.behavior(input);
   var content_divs = [];
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
@@ -922,49 +821,201 @@ Page.results.render = function() {
   window.scrollTo(0, 0);
 }
 
-/*
-    Miscellaneous stuff that I don't know how to organize yet
-*/
-// Stores callback to the current page render function for redraws.
-// Default mode is to show panda results.
-Page.current = Page.results.render;
-
-// The window.session variable that stores submenu state for about/links
-Page.stored = window.sessionStorage;
-
-// Redraw page after an updateLanguage event or similar
-Page.redraw = function(callback) {
-  // TODO: rewrite this logic to be less tied to results/profile callback function checks
-  // Redisplay results in the correct language, but only if the Pandas
-  // content has already been loaded.
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
-    callback();
+/** 
+ * Redraw page after an updateLanguage event or similar. Redisplay results in
+ * the correct language, but only if the Pandas content has already loaded.
+ * 
+ * TODO: rewrite this logic to be less tied to results/profile callback checks
+ */
+export function redraw(callback) {
+  if ((window.location.hash.length > 0) &&
+      (P.db != undefined) &&
+      (callback == results.render)) {
+    callback()
   }
   // Redisplay profile info in the correct language, but only if the Pandas
   // content has already been loaded.
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.profile.render)) {
-    callback();
+  if ((window.location.hash.length > 0) &&
+      (P.db != undefined) &&
+      (callback == profile.render)) {
+    callback()
   }
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.media.render)) {
-    callback();
+  if ((window.location.hash.length > 0) &&
+      (P.db != undefined) &&
+      (callback == media.render)) {
+    callback()
   }
   // For non-panda-results page, don't worry if the database is there or not
   if ((window.location.hash.length > 0) && 
-      (callback != Page.results.render) && 
-      (callback != Page.profile.render) &&
-      (callback != Page.media.render) &&
-      (callback != Page.links.render)) {
-    callback();
+      (callback != results.render) && 
+      (callback != profile.render) &&
+      (callback != media.render) &&
+      (callback != links.render)) {
+    callback()
   }
-  if ((window.location.hash.length == 0) && (callback == Page.home.render)) {
-    callback();
+  if ((window.location.hash.length == 0) && (callback == home.render)) {
+    callback()
   }
 }
+
+/**
+ * Logic related to redpandafidner page routing, implemented as behavior around
+ * `#fragment` client-side-routed URLs.
+ */
+class Routes {
+  /** Flexible layout pages */
+  dynamic = [
+    "#credit",
+    "#group",
+    "#links",
+    "#media",
+    "#panda",
+    "#profile",
+    "#query",
+    "#timeline",
+    "#zoo"
+  ]
+  /** Fixed layout pages: about page, empty query page, and options page */
+  fixed = ["#about", "#home", "#options"]
+  media = ["#media"]
+  no_footer = ["#home"]
+  profile = ["#profile", "#timeline"]
+  results = [
+    "#about",
+    "#credit",
+    "#group",
+    "#home",
+    "#links",
+    "#panda",
+    "#query",
+    "#zoo"
+  ]
+
+  /**
+   * Each hashlink determines a different behavior for the page rendering. Do a
+   * task based on what the route is. TODO: add tag search URIs
+   */
+  behavior(input) {
+    let query_string = undefined
+    if ((input.indexOf("#credit/") == 0) && (input.split("/").length == 3)) {
+      // link for a page of photo credits for a specific author,
+      // including only a specific animal.
+      const uri_items = input.slice(8)
+      const [ author, filter ] = uri_items.split("/")
+      // Don't adjust case for author searches, but eventually we
+      // still need to do case-adjustment for the panda name itself
+      Query.env.preserve_case = true;
+      Query.env.output_mode = "photos";   // Set output mode for a photo list
+      query_string = `credit ${author} ${filter}`
+    } else if ((input.indexOf("#credit/") == 0) && (input.split("/").length == 2)) {
+      // link for a page of photo credits for a specific author
+      const photo_author = input.slice(8);
+      Query.env.preserve_case = true     // Don't adjust case for author searches
+      Query.env.output_mode = "photos"   // Set output mode for a photo list
+      query_string = `credit ${photo_author}`
+    } else if ((input.indexOf("#panda/") == 0) && (input.split("/").length == 4)) {
+      // link for a panda result with a chosen photo.
+      const uri_items = input.slice(7)
+      const [ panda, _, photo_id ] = uri_items.split("/")
+      Query.env.output_mode = "entities"
+      Query.env.specific_photo = photo_id
+      query_string = `panda ${panda}`
+    } else if ((input.indexOf("#panda/") == 0) && (input.split("/").length == 2)) {
+      // link for a single panda result.
+      const panda = input.slice(7)
+      Query.env.output_mode = "entities"
+      query_string = `panda ${panda}`
+    } else if ((input.indexOf("#group") == 0) &&
+               (input.split("/").length >= 2) &&
+               (input.split("/").length <= P.db["_photo"]["group_max"] + 1)) {
+      // group display modes (just searching multiple ids for now)
+      const id_list = input.slice(7).split("/")
+      Query.env.output_mode = "group"
+      query_string = id_list.join(" ")
+    } else if ((input.indexOf("#profile/") == 0) && (input.split("/").length == 4)) {
+      // link for a panda profile result with a chosen photo.
+      const uri_items = input.slice(9)
+      const [ panda, _, photo_id ] = uri_items.split("/")
+      Query.env.specific_photo = photo_id
+      query_string = `panda ${panda}`
+    } else if ((input.indexOf("#profile/") == 0) && (input.split("/").length == 2)) {
+      // link for a single panda profile result.
+      const panda = input.slice(9)
+      query_string = `panda ${panda}`
+    } else if ((input.indexOf("#media/") == 0) && (input.split("/").length == 2)) {
+      const panda = input.slice(7)
+      query_string = `panda ${panda}`
+    } else if (input.indexOf("#query/") == 0) {
+      // process a query.
+      query_string = input.slice(7)
+      // Reset defaults to entity
+      Query.env.output_mode = "entities"
+    } else if ((input.indexOf("#zoo/") == 0) && (input.split("/").length == 4)) {
+      // link for a panda result with a chosen photo.
+      const uri_items = input.slice(5)
+      const [ zoo, _, zoo_id ] = uri_items.split("/")
+      Query.env.output_mode = "entities"
+      Query.env.specific_photo = zoo_id
+      query_string = `zoo ${zoo}`
+    } else if ((input.indexOf("#zoo/") == 0) && (input.split("/").length == 2)) {
+      // link for a single zoo result.
+      const zoo = input.slice(5)
+      Query.env.output_mode = "entities"
+      query_string = `zoo ${zoo}`
+    } else {
+      // Don't know how to process the hashlink, so do nothing
+      return false
+    }
+    // Run the query through the parser and return results
+    return Query.result(query_string)
+  }
+
+  /**
+   * On initial page load, look for specific hashes that represent special
+   * buttons and queue up that page for loading if necessary.
+   */
+  check() {
+    // TODO ES6: refer to methods on singleton classes
+    const mode = window.location.hash.split('/')[0]
+    if (this.profile.includes(mode))
+      Current = profile.render
+    else if (this.media.includes(mode))
+      Current = media.render
+    else if (window.location.hash == "#about")
+      Current = about.render
+    else if (window.location.hash == "#links")
+      Current = links.render
+    else if (window.location.hash == "#options")
+      Current = options.render
+    else if (this.dynamic.includes(mode))
+      Current = results.render
+    else
+      Current = Page.home.render
+  }
+
+  /**
+   * Determine if the current page route includes one of the routes
+   * specified in the different routes lists above.
+   */
+  memberOf(routeList, current_route) {
+    for (let route of routeList) {
+      if (current_route.includes(route)) {
+        return true;
+      }
+    }
+    return false
+  }
+}
+
+/** Singleton class representing the redpandafinder routing behavior */
+export const routes = new Routes()
+
 
 // Swap in a new contents frame for an old contents frame. 
 // After calling this, double-check that the footer 
 // is still the bottom of the page.
-// TODO: use `replaceWith` instead
+// TODO ES6: use `replaceWith` instead
+/*
 Page.swap = function(old_content, new_content) {
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];
@@ -975,3 +1026,4 @@ Page.swap = function(old_content, new_content) {
   body.removeChild(old_content);
   new_content.id = 'contentFrame';
 }
+*/

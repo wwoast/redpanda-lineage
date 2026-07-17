@@ -142,7 +142,7 @@ window.addEventListener('about_loaded', function() {
     Page.about.sections.buttonEventHandlers("aboutPageMenu");
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
-    Page.about.sections.show(Page.stored.getItem("aboutPageMenu"));
+    Page.about.sections.show(window.sessionStorage.getItem("aboutPageMenu"))
     // Determine desktop or mobile, and display relevant instructions
     Page.about.instructions();
     mediaQuery.addListener(Page.about.instructions);
