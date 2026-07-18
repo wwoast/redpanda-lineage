@@ -1,3 +1,4 @@
+import Dagoba from './dagoba.js'
 import * as Language from './language.js'
 import * as Parse from './parse.js'
 
@@ -11,6 +12,9 @@ const loaded = new Event('panda_data')
 
 /** Object with all the `redpanda.json` data backs redpandafinder */
 export default P = {}
+
+/** The Dagoba graph is private to the `pandas.js` module */
+let G = {}
 
 /** 
  * Create a Pandas search object, and do the initial database import,
@@ -30,6 +34,9 @@ export function init() {
   request.send()
   request.onload = function() {
     P.db = request.response   // Set the panda database for importing
+    P.db.vertices.forEach(G.addVertex.bind(G))
+    P.db.edges.forEach(G.addEdge.bind(G))
+    // G = Dagoba.graph(P.db.vertices, P.db.edges)
     window.dispatchEvent(loaded)   // Report the data has loaded
   }
 }

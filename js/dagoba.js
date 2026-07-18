@@ -38,7 +38,7 @@
     version 0.3.4
 */
 
-var Dagoba = {}; // the namespace
+export default Dagoba = {}  // the namespace
 
 Dagoba.G = {}; // the prototype
 

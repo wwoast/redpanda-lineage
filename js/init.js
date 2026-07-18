@@ -27,12 +27,10 @@ import * as ScrollTop from './scrollTop.js'
 /*
     Global objects usable by forms, and things that operate as the page loads
 */
-var G;   // Lineage graph
 
 /** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
   Pandas.init()
-  G = Dagoba.graph();
   Geo.init()   // Set units for distance tracking based on browser locale
   ScrollTop.init()
   Options.init()
@@ -56,13 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   /** 
-   * Once the panda data is loaded, create the graph. This leverages how once
-   * the `panda_data` event has fired, we know 
+   * Once the panda data is loaded, render the page proper.
    */
-  window.addEventListener('panda_data', function() {
-    P.db.vertices.forEach(G.addVertex.bind(G));
-    P.db.edges   .forEach(G.addEdge  .bind(G));
-    
+  window.addEventListener('panda_data', function() {    
     // If available on the page, enable search bar once the page has loaded
     Show.searchBar.enable();
 
