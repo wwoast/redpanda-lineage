@@ -1,3 +1,5 @@
+import * as Pandas from './pandas.js'
+
 /**
  * Layout calculation for optimizing the visual space taken by panda families
  * in the search result cards. A layout object should exist for each panda we

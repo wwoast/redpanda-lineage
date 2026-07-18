@@ -4,6 +4,7 @@ import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
+import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 
 /** 
@@ -188,7 +189,7 @@ class About {
    * return to the last page shown before the about page
    */
   routing() {
-    if (this.current == this.render) {
+    if (Current == this.render) {
       // Check the last query done and return to it, if it was a query
       if (routes.fixed.includes(LastSearch) == false) {
         window.location = LastSearch
@@ -613,8 +614,8 @@ class Links {
       old_content.replaceWith(this.content)
       window.sessionStorage.setItem("linksPageMenu", show_section_id)
       const old_button = document.getElementById(`${old_section}_button`)
-      button.classList.add("selected");
-      old_button.classList.remove("selected");
+      button.classList.add("selected")
+      old_button.classList.remove("selected")
     }))
   }
 
@@ -767,7 +768,7 @@ export const results = {
         content_divs.push(Show.zooDivider("bear-bamboo"))
       } else
         content_divs.push(Show.results.panda(entity, Language.Displayed))
-    });
+    })
     // Remove the last element if it's a divider
     const last_element = content_divs[content_divs.length - 1]
     if (last_element.className == 'zooDivider') {
@@ -799,7 +800,7 @@ export const results = {
     // Give a list of results for each individual animal
     const animal_results = []
     for (const id of animal_ids) {
-      const entity = Pandas.searchPandaId(id)[0];
+      const entity = Pandas.searchPandaId(id)[0]
       animal_results.push(Show.results.panda(entity, Language.Displayed))
     }
     // Let some photos appear first, unless we don't have very many photos
@@ -828,9 +829,8 @@ export const results = {
       content_divs.push(Show.results.zoo(entity, Language.Displayed))
       animals = Pandas.sortOldestToYoungest(
         Pandas.searchPandaZooCurrent(entity["_id"]))
-      animals.forEach(function(animal) {
-        content_divs.push(Show.results.panda(animal, Language.Displayed))
-      })
+      animals.forEach(animal =>
+        content_divs.push(Show.results.panda(animal, Language.Displayed)))
       content_divs.push(Show.zooDivider("bear-bamboo"))
     })
     // Remove the last element if it's a divider
@@ -888,9 +888,7 @@ export const results = {
     }
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
-    content_divs.forEach(function(content_div) {
-      shrinker.appendChild(content_div)
-    });
+    content_divs.forEach(content_div => shrinker.appendChild(content_div))
     new_content.appendChild(shrinker)
     // Redraw the search bar if necessary
     Show["results"].searchBar()

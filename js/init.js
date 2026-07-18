@@ -4,6 +4,7 @@ import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
+import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 import * as ScrollTop from './scrollTop.js'
 
@@ -26,12 +27,11 @@ import * as ScrollTop from './scrollTop.js'
 /*
     Global objects usable by forms, and things that operate as the page loads
 */
-var P;   // Pandas
 var G;   // Lineage graph
 
 /** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
-  P = Pandas.init();
+  Pandas.init()
   G = Dagoba.graph();
   Geo.init()   // Set units for distance tracking based on browser locale
   ScrollTop.init()
@@ -55,7 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  // Once the panda data is loaded, create the graph
+  /** 
+   * Once the panda data is loaded, create the graph. This leverages how once
+   * the `panda_data` event has fired, we know 
+   */
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));

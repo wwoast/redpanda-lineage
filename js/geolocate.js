@@ -1,6 +1,8 @@
 import * as Language from './language.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
+import * as Pandas from './pandas.js'
+
 
 /**
  * Allows queries for nearby zoos, using the browser Geolocation API.

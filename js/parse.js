@@ -1,5 +1,6 @@
 import * as jsleri from './jsleri-1.1.13.min.js'
 import * as Language from './language.js'
+import P, * as Pandas from './pandas.js'
 
 /**
  * Get a list of valid operators (the leaf children) of the different keyword

@@ -1,4 +1,5 @@
 import * as Page from './page.js'
+import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 
 /*

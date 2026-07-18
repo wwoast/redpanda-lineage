@@ -6,6 +6,7 @@ import Layout from './layout.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
+import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 
 /** Presentation-level data, separated out from final website layout */

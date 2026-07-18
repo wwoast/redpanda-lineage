@@ -1,4 +1,5 @@
 import * as Language from './language.js'
+import P, * as Pandas from './pandas.js'
 
 /**
  * Functions used to generate translated heading snippets in various page modes
@@ -387,7 +388,6 @@ export function missing_you(name, animalId, birth, death, language) {
 }
 
 export function new_photos(language) {
-  // TODO ES6
   // Grab update counts
   const counts = {
     "contributors": P.db._totals.updates.authors,

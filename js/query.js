@@ -1,5 +1,6 @@
 import * as Geo from './geolocate.js'
 import * as Language from './language.js'
+import * as Pandas from './pandas.js'
 import * as Parse from './parse.js'
 
 /**
@@ -111,7 +112,6 @@ function filter_set(set_node) {
     filter_word = filter_node.str
     env.output_mode = "photos"
     env.paging.display_button = true
-    // TODO ES6
     const filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n["_id"])
     if (filter_ids.length == 0) {
       // Fall back to normal credit photo search
@@ -119,12 +119,10 @@ function filter_set(set_node) {
       filter_word = undefined
     } else {
       // If idnum given, show name instead
-      // TODO ES6
       if (parseInt(filter_word) > 0) {
         filter_word = Language.fallback_name(Pandas.searchPanda(filter_word)[0])
       }
     }
-    // TODO ES6
     hits = Pandas.searchPhotoCredit(search_word, filter_ids)
   }
   return {
