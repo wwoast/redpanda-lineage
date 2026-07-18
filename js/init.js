@@ -10,19 +10,19 @@ import * as ScrollTop from './scrollTop.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
 (function() {
-  if ( navigator.platform === "iPad" ) {
-    var scale = 1.2;
-    document.write('<meta name="viewport" content="width=device-width, initial-scale='+scale+', minimum-scale='+scale+', maximum-scale='+scale+', user-scalable=0" />');
-  } else if ( navigator.platform === "iPhone" ) {
-    var scale = 1.0;
-    document.write('<meta name="viewport" content="width=device-width, initial-scale='+scale+', minimum-scale='+scale+', maximum-scale='+scale+', user-scalable=0" />');
-  } else if ( navigator.userAgent.indexOf("Android") != -1 ) {
-    var scale = 1.0;
-    document.write('<meta name="viewport" content="width=device-width, initial-scale-'+scale+', minimum-scale='+scale+', maximum-scale='+scale+', user-scalable=0, target-densitydpi="device-dpi" />');
+  if (navigator.platform === "iPad") {
+    const scale = 1.2
+    document.write(`<meta name="viewport" content="width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0" />`)
+  } else if (navigator.platform === "iPhone") {
+    const scale = 1.0
+    document.write(`<meta name="viewport" content="width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0" />`)
+  } else if (navigator.userAgent.includes("Android")) {
+    const scale = 1.0
+    document.write(`<meta name="viewport" content="width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0, target-densitydpi="device-dpi" />`)
   } else {
-    return;
+    return
   }
-})();
+})()
 
 /*
     Global objects usable by forms, and things that operate as the page loads
@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
   Icons.walk(document.body)   // Replace emojis with SVG icons
   Icons.observe()   // More SVG emoji replacements on page mutate
   Language.defaultDisplayLanguage()   // Set default display language
-  Page.routes.check();   // See if we started on the about page
-  Language.update();      // Update buttons, displayed results, and cookie state
-  Page.redraw(Page.Current);   // Ready to redraw? Let's go.
+  Page.routes.check()   // See if we started on the about page
+  Language.update()     // Update buttons, displayed results, and cookie state
+  Page.redraw(Page.Current)   // Ready to redraw? Let's go.
   // If rendering any search results for families, update the div height
   recomputeHeight()
   // Most RPF pages won't save your place on the page on purpose,
@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // work properly when this is enabled. However, leave it on for the
   // #about page.
   if (history.scrollRestoration) {
-    history.scrollRestoration = 'auto';
+    history.scrollRestoration = 'auto'
     if (window.location.hash.indexOf("#about") == -1) {
-      history.scrollRestoration = 'manual';
+      history.scrollRestoration = 'manual'
     }
   }
 
@@ -58,40 +58,40 @@ document.addEventListener("DOMContentLoaded", function() {
    */
   window.addEventListener('panda_data', function() {    
     // If available on the page, enable search bar once the page has loaded
-    Show.searchBar.enable();
+    Show.searchBar.enable()
 
     // Determine what page content to display
     if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
-      Page.profile.render();
+      Page.profile.render()
     } else if (Page.routes.memberOf(Page.routes.media, window.location.hash)) {
-      Page.media.render();
+      Page.media.render()
     } else if (window.location.hash == "#links") {
-      Page.links.render();
+      Page.links.render()
     } else if (window.location.hash == "#options") {
-      Page.options.render();
+      Page.options.render()
     } else if ((window.location.hash.length > 0) && 
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
-      Page.results.render();
+      Page.results.render()
     } else if ((window.location.hash.length == 0) || 
         (window.location.hash == "#home")) {
-      Page.home.render();
+      Page.home.render()
     }
 
     // When all webfonts have rendered, recalculate text shrinks
     // Couldn't get typesquare events working :(
-    setTimeout(shrinkNames, 1000);
-  });
+    setTimeout(shrinkNames, 1000)
+  })
 
   // Fetch the about page contents for each language
-  Page.about.fetch();
+  Page.about.fetch()
 
   // If a previous page was seen, load it
-  var last_seen = window.localStorage.getItem("last_seen");
-  var current_hash = window.location.hash;
+  const last_seen = window.localStorage.getItem("last_seen")
+  const current_hash = window.location.hash
   if ((last_seen != null) && (current_hash.length == 0)) {
-    window.location.hash = last_seen;
+    window.location.hash = last_seen
   }  
-});
+})
 
 // When a hashlink is clicked from a non-links or non-about page, it should
 // output results for pandas. Save the hashlink as a value to be loaded if the page
@@ -127,25 +127,25 @@ window.addEventListener('hashchange', function() {
   // Most RPF pages won't save your place on the page on purpose.
   // because refresh events don't work properly when this is enabled.
   if ((history.scrollRestoration) && (mode != "#about")) {
-    history.scrollRestoration = 'manual';
+    history.scrollRestoration = 'manual'
   }
-});
+})
 
 // Once the about-page content is loaded, decide whether to display the
 // contents or just keep them stashed.
 window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
-    Page.about.render();
+    Page.about.render()
     // Add event listeners to the newly created About page buttons
-    Page.about.sections.buttonEventHandlers("aboutPageMenu");
+    Page.about.sections.buttonEventHandlers("aboutPageMenu")
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
     Page.about.sections.show(window.sessionStorage.getItem("aboutPageMenu"))
     // Determine desktop or mobile, and display relevant instructions
-    Page.about.instructions();
-    mediaQuery.addListener(Page.about.instructions);
+    Page.about.instructions()
+    mediaQuery.addListener(Page.about.instructions)
     // Add a tag list
-    Page.about.tags();  
-    Page.Current = Page.about.render;
+    Page.about.tags()
+    Page.Current = Page.about.render
   }
-});
+})
