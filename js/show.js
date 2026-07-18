@@ -9,16 +9,17 @@ import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 
-/** Presentation-level data, separated out from final website layout */
-var Show = {};   /* Namespace */
-
-// Given an animal and a language, obtain the immediate information that would
-// be displayed in an information card about the panda, including its zoo and
-// its relatives.
-Show.acquirePandaInfo = function(animal, language) {
-  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_photo;
-  var picture = Pandas.profilePhoto(animal, chosen_index, "animal");   // TODO: all photos for carousel
-  var bundle = {
+/**
+ * Given an animal and a language, obtain the immediate information that would
+ * be displayed in an information card about the panda, including its zoo and
+ * its relatives.
+ */
+export function acquirePandaInfo(animal, language) {
+  const chosen_index = (Query.env.specific_photo == undefined)
+    ? "random"
+    : Query.env.specific_photo
+  const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
+  const bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace"),
@@ -45,42 +46,42 @@ Show.acquirePandaInfo = function(animal, language) {
            "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  bundle = Language.fallbackInfo(bundle, animal);  // Any defaults here?
+  bundle = Language.fallbackInfo(bundle, animal)   // Any defaults here?
   // HACK: revert search context
-  animal["search_context"] = undefined;
-  return bundle;
+  animal["search_context"] = undefined
+  return bundle
 }
 
-// Given an animal, return an array of location info translated correctly.
-Show.acquireLocationList = function(animal, language) {
-  var history = [];
-  var raw_locations = Pandas.locationList(animal);
-  for (let location of raw_locations) {
-    var bundle = Show.getZooBundle(location, language);
-    history.push(bundle);
+/** Given an animal, return an array of location info translated correctly. */
+function acquireLocationList(animal, language) {
+  const history = []
+  const raw_locations = Pandas.locationList(animal)
+  for (const location of raw_locations) {
+    const bundle = Show.getZooBundle(location, language)
+    history.push(bundle)
   }
-  return history;
+  return history
 }
 
-Show.getZooBundle = function(location, language) {
-  var zoos = Pandas.searchZooId(location["zoo"]);
+function getZooBundle(location, language) {
+  const zoos = Pandas.searchZooId(location["zoo"])
   if (zoos.length === 0) {
-    return Show.getUnknownZooBundle(location, language);
+    return getUnknownZooBundle(location, language)
   }
   if (zoos.length > 0) {
-    var zoo = Language.fallbackEntity(zoos[0]); // Do language fallback strings
+    const zoo = Language.fallbackEntity(zoos[0])   // Do language fallback strings
     return {
         "end_date": Pandas.formatDate(location["end_date"], language),
               "id": Pandas.zooField(zoo, "_id"),
   "language_order": Pandas.language_order(zoo),
         "location": Pandas.zooField(zoo, language + ".location"),
             "name": Pandas.zooField(zoo, language + ".name"),
-      "start_date": Pandas.formatDate(location["start_date"], language),
+      "start_date": Pandas.formatDate(location["start_date"], language)
     }
   }
 }
 
-Show.getUnknownZooBundle = function(location, language) {
+function getUnknownZooBundle(location, language) {
   return {
     "end_date": Pandas.formatDate(location["end_date"], language),
     "id": "0",
@@ -89,13 +90,17 @@ Show.getUnknownZooBundle = function(location, language) {
   }
 }
 
-// Given a zoo, return an address, location, link to a website, and information
-// about the number of pandas (living) that are at the zoo
-Show.acquireZooInfo = function(zoo, language) {
-  var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
-  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_photo;
-  var picture = Pandas.profilePhoto(zoo, chosen_index, "zoo");   // TODO: all photos for carousel
-  var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
+/**
+ * Given a zoo, return an address, location, link to a website, and information
+ * about the number of pandas (living) that are at the zoo
+ */
+export function acquireZooInfo(zoo, language) {
+  const animals = Pandas.searchPandaZooCurrent(zoo["_id"])
+  const chosen_index = (Query.env.specific_photo == undefined)
+    ? "random"
+    : Query.env.specific_photo
+  const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
+  const recorded = Pandas.searchPandaZooBornLived(zoo["_id"])
   var bundle = {
        "animals": animals,
        "address": Pandas.zooField(zoo, language + ".address"),
@@ -116,571 +121,547 @@ Show.acquireZooInfo = function(zoo, language) {
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
   }
-  bundle = Language.fallbackInfo(bundle, zoo)  // Any defaults here?
+  bundle = Language.fallbackInfo(bundle, zoo)   // Any defaults here?
   return bundle
 }
 
-// Construct an animal link as per parameters. Options include
-// whether to do a mom/dad/boy/girl icon, or whether to do a 
-// link within the page, versus a page wipe and redisplay.
-// Default link text requires a language translation.
-// Examples:
-//    https://domain/index.html#panda/Lychee
-//    https://domain/index.html#panda/4
-// Animal links now use Unicode non-breaking spaces between
-// the gender icon and the name.
-Show.animalLink = function(animal, link_text, language, options) {
+/**
+ * Construct an animal link as per parameters. Options include whether to do a
+ * mom/dad/boy/girl icon, or whether to do a link within the page, versus a
+ * page wipe and redisplay. Default link text requires a language translation.
+ * Examples:
+ * 
+ *    `https://domain/index.html#panda/Lychee`
+ *    `https://domain/index.html#panda/4`
+ * 
+ * Animal links now use Unicode non-breaking spaces between the gender icon and
+ * the name.
+ */
+function animalLink(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
   if (animal['_id'] == Pandas.def.animal['_id']) {
-    var alien = Language.emoji.alien;
-    if (options.indexOf("mom_icon") != -1) {
-      alien = Language.emoji.star_mom;
-    }
-    if (options.indexOf("dad_icon") != -1) {
-      alien = Language.emoji.star_dad;
-    }
-    return Show.emptyLink(alien + "\xa0" + link_text);
+    let alien = Language.emoji.alien
+    if (options.indexOf("mom_icon") != -1)
+      alien = Language.emoji.star_mom
+    if (options.indexOf("dad_icon") != -1)
+      alien = Language.emoji.star_dad
+    return emptyLink(alien + "\xa0" + link_text)
   }
-
   // Set up values for other functions working properly
   // Gender search requires doing a table search by language.
-  var gender = Pandas.gender(animal, language);
-  var a = document.createElement('a');
-  a.className = 'geneaologyListName';
+  const gender = Pandas.gender(animal, language)
+  const a = document.createElement('a')
+  a.className = 'geneaologyListName'
   // Put the name itself in a span, in case we want to squeeze it width-wise
-  var name_span = document.createElement('span');
-  var inner_text = link_text;
-  var gender_text = "";
-  var trailing_text = "";
+  const name_span = document.createElement('span')
+  const inner_text = link_text
+  let gender_text = ""
+  let trailing_text = ""
   // Option to display gender face
-  if (options.indexOf("child_icon") != -1) {
-    gender_text = Show.childIcon(gender) + "\xa0";
-  }
+  if (options.includes("child_icon"))
+    gender_text = childIcon(gender) + "\xa0"
   // Moms and dads have older faces
-  if (options.indexOf("mom_icon") != -1) {
-    gender_text = Language.emoji.mother + "\xa0";
-  }
-  if (options.indexOf("dad_icon") != -1) {
-    gender_text = Language.emoji.father + "\xa0";
-  }
+  if (options.includes("mom_icon"))
+    gender_text = Language.emoji.mother + "\xa0"
+  if (options.includes("dad_icon"))
+    gender_text = Language.emoji.father + "\xa0"
   // Multiple possible moms or dads?
-  if (options.indexOf("question_icon") != -1) {
-    gender_text = gender_text.replace("\xa0", "") + Language.emoji.question + "\xa0";
-  }
+  if (options.includes("question_icon"))
+    gender_text = gender_text.replace("\xa0", "") + Language.emoji.question + "\xa0"
   // Half siblings indicator
-  if (options.indexOf("half_icon") != -1) {
-    trailing_text = trailing_text + "\u200A" + "½"
-  }
+  if (options.indexOf("half_icon") != -1)
+    trailing_text = trailing_text + "\u200A" + '½'
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
-    a.classList.add("passedAway");
-    trailing_text = trailing_text + "\u200A" + Language.emoji.died;
+    a.classList.add("passedAway")
+    trailing_text = trailing_text + "\u200A" + Language.emoji.died
   }
-  name_span.innerText = inner_text;
+  name_span.innerText = inner_text
   a.append(gender_text);
   a.appendChild(name_span);
   a.append(trailing_text);
   if (options.indexOf("in_link") != -1) {
     // in_link: that finds a location on the displayed data
-    a.href = "#panda" + "_" + animal['_id'];
+    a.href = "#panda" + "_" + animal['_id']
   } else {
     // go_link: creates a new results frame based on desired data
-    a.href = "#panda" + "/" + animal['_id'];
+    a.href = "#panda" + "/" + animal['_id']
     // Force page to scroll to the top after a reload event
-    a.addEventListener("click", Show.button.top.action);
+    a.addEventListener("click", Show.button.top.action)
   }
-  return a;
+  return a
 }
 
-// See how many other panda photos this user has posted. 
-// Links to the credit page
-Show.appleLink = function(info, container_element) {
-  var other_photos = document.createElement(container_element);
-  var credit_count_link = document.createElement('a');
-  credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
-  credit_count_link.href = "#credit/" + info.photo_credit;
-  if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
+/**
+ * See how many other panda photos this user has posted.  Links to the credit
+ * page for a particular author, with all of their contributed photos
+ */
+function appleLink(info, container_element) {
+  const other_photos = document.createElement(container_element)
+  const credit_count_link = document.createElement('a')
+  credit_count_link.id = `${info.id}/counts/${info.photo_index}`   // Carousel
+  credit_count_link.href = `#credit/${info.photo_credit}`
+  if (Object.keys(Pandas.def.authors).includes(info.photo_credit)) {
     // Anonymous/uncredited photos get no apple link
-    credit_count_link.removeAttribute("href");
-    credit_count_link.innerText = "";
+    credit_count_link.removeAttribute("href")
+    credit_count_link.innerText = ""
   } else {
     // Otherwise make an apple link with # of photos contributed
-    var apple_count = P.db._photo.credit[info.photo_credit];
-    credit_count_link.innerText = Language.emoji.gift + " " + apple_count;
-    if (parseInt(apple_count) >= 1000) {
-      credit_count_link.innerText = Language.emoji.megagift + " " + apple_count;
-    }
+    const apple_count = parseInt(P.db._photo.credit[info.photo_credit])
+    credit_count_link.innerText = `${Language.emoji.gift} ${apple_count}`
+    if (apple_count >= 1000)
+      credit_count_link.innerText = `${Language.emoji.megagift}  ${apple_count}`
   }
-  other_photos.appendChild(credit_count_link);
-  return other_photos;
+  other_photos.appendChild(credit_count_link)
+  return other_photos
 }
 
-// Display the birthday and either age/date of death for an animal.
-// Returns two text nodes that can be inserted into other elements
-Show.birthday = function(info, language) {
-  var birthday = Language.emoji.born + " " + info.birthday;
+/**
+ * Display the birthday and either age/date of death for an animal. Returns two
+ * text nodes that can be inserted into other elements
+ */
+function birthday(info, language) {
+  const birthday = `${Language.emoji.born} ${info.birthday}`
   // If still alive, print their current age
-  var parentheses = undefined;
-  if (info.death == Pandas.def.unknown[language]) {
-    parentheses = "(" + info.age + ")";
-  } else {
-    parentheses = Language.emoji.died + " " + info.death;
-  }
-  return [birthday, parentheses];
+  let parentheses = undefined
+  if (info.death == Pandas.def.unknown[language])
+    parentheses = `(${info.age})`
+  else
+    parentheses = `${Language.emoji.died} ${info.death}`
+  return [birthday, parentheses]
 }
 
-// Male and female icons next to pandas used for panda links.
-// This uses unlocalized m/f/unknown gender values
-Show.childIcon = function(gender) {
-  if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
-    return Language.emoji.boy;
-  } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
-    return Language.emoji.girl;
-  } else {
-    return Language.emoji.baby;
-  }
+/**
+ * Male and female icons next to pandas used for panda links. This uses
+ * unlocalized m/f/unknown gender values
+ */
+function childIcon(gender) {
+  if (Object.values(Pandas.def.gender.Male).includes(gender))
+    return Language.emoji.boy
+  else if (Object.values(Pandas.def.gender.Female).includes(gender))
+    return Language.emoji.girl
+  else
+    return Language.emoji.baby
 }
 
-// Display a link to a photo credit on Instagram or elsewhere
-Show.creditLink = function(info, container_element) {
-  var credit_link = document.createElement('a');
-  credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
-  credit_link.target = "_blank";   // Open in new tab
-  credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link);
-  if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
+/** Display a link to a photo credit on Instagram or elsewhere */
+function creditLink(info, container_element) {
+  const credit_link = document.createElement('a')
+  credit_link.id = `${info.id}/author/${info.photo_index}`   // Carousel
+  credit_link.target = "_blank"   // Open in new tab
+  credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link)
+  if (Object.keys(Pandas.def.authors).includes(info.photo_credit)) {
     // Uncredited / anonymous photos get no href, and are not links
-    credit_link.innerText = Language.emoji.camera + " " + Pandas.def.authors[info.photo_credit][Language.Displayed];
-    credit_link.removeAttribute("href");
+    credit_link.innerText =
+      `${Language.emoji.camera} ${Pandas.def.authors[info.photo_credit][Language.Displayed]}`
+    credit_link.removeAttribute("href")
   } else if (info.photo_credit != undefined) {
     // Attribute photo to someone
-    credit_link.innerText = Language.emoji.camera + " " + info.photo_credit;
+    credit_link.innerText = `${Language.emoji.camera} ${info.photo_credit}`
   } else {
     // Ask users to submit through a Google Form
-    credit_link.innerText = Language.emoji.camera + " " + Language.gui.contribute[Language.Displayed] + "\xa0";
-    credit_link.href = Language.gui.contribute_link[Language.Displayed];
+    credit_link.innerText =
+      `${Language.emoji.camera} ${Language.gui.contribute[Language.Displayed]}` + "\xa0"
+    credit_link.href = Language.gui.contribute_link[Language.Displayed]
   }
-  var container = document.createElement(container_element);
-  container.appendChild(credit_link);
-  return container;
+  const container = document.createElement(container_element)
+  container.appendChild(credit_link)
+  return container
 }
 
-// If link is to an undefined item or the zero ID, return a spacer
-// TODO: final page layout
-Show.emptyLink = function(output_text) {
-  var a = document.createElement('a');
-  var span = document.createElement('span');
-  span.innerText = output_text;
-  a.appendChild(span);
-  a.href = '#not_sure_yet';
-  return a;
+/** If link is to an undefined item or the zero ID, return a spacer */
+function emptyLink(output_text) {
+  const a = document.createElement('a')
+  const span = document.createElement('span')
+  span.innerText = output_text
+  a.appendChild(span)
+  a.href = '#not_sure_yet'   // TODO: or just remove the href?
+  return a
 }
 
-// If the panda search result returned nothing, output a card
-// with special "no results" formatting.
-Show.emptyResult = function(chosen_message=Language.messages.no_result, language) {
-  var message = document.createElement('div');
-  message.className = 'overlay';
-  message.innerText = chosen_message[language];
-  var image = document.createElement('img');
-  image.src = "images/no-panda.jpg";
-  var result = document.createElement('div');
-  result.className = 'emptyResult';
-  result.appendChild(image);
-  result.appendChild(message);
-  return result;
+/**
+ * If the panda search result returned nothing, output a card with special
+ * _no results_ formatting.
+ */
+export function emptyResult(chosen_message=Language.messages.no_result, language) {
+  const message = document.createElement('div')
+  message.className = 'overlay'
+  message.innerText = chosen_message[language]
+  const image = document.createElement('img')
+  image.src = "images/no-panda.jpg"
+  const result = document.createElement('div')
+  result.className = 'emptyResult'
+  result.appendChild(image)
+  result.appendChild(message)
+  return result
 }
 
-// Used to fade the dogear menu for selecting photos
-Show.fade = function(el) {
-  var op = 1;  // initial opacity
-  if (el.style.display == "none" || el.style.display == "") {
-    el.style.display = "block";
-  } else {
-    el.style.opacity = op;  // Reset the opacity and let exisitng fade just run
-    return;
+/** Used to fade the dogear menu for selecting photos */
+export function fade(el) {
+  const op = 1  // initial opacity
+  if (el.style.display == "none" || el.style.display == "")
+    el.style.display = "block"
+  else {
+    el.style.opacity = op  // Reset the opacity and let exisitng fade just run
+    return
   }
-  var timer = setInterval(function () {
-    if (op <= 0.05){
-      clearInterval(timer);
-      el.style.display = 'none';
+  const timer = setInterval(function () {
+    if (op <= 0.05) {
+      clearInterval(timer)
+      el.style.display = 'none'
     }
-    el.style.opacity = op;
-    el.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    op -= 0.10;
-  }, 40);
+    el.style.opacity = op
+    el.style.filter = `alpha(opacity=${op * 100})`
+    op -= 0.10
+  }, 40)
 }
 
-// Read from info.othernames, and if it's not a language default, 
-// add an alternate spelling to the name information.
-Show.furigana = function(name, othernames) {
-  if (othernames == Pandas.def.animal["ja.othernames"]) {
-    return false;
-  }
+/** 
+ * Read from `info.othernames`, and if it's not a language default, add an
+ * alternate add an alternate spelling to the name information.
+ */
+function furigana(name, othernames) {
+  if (othernames == Pandas.def.animal["ja.othernames"])
+    return false
   othernames = othernames.split(", ");   // Guarantee array
   othernames = othernames.filter(function(option) {
     if (Language.editDistance(name, option) > 1) {
       return option;
     }
-  });
-  if (othernames.length == 0) {
-    return false;
-  }
-  var chosen = othernames[0];
-  var p = document.createElement('p');
-  p.className = "furigana";
-  p.innerText = "(" + chosen + ")";
-  return p;
+  })
+  if (othernames.length == 0)
+    return false
+  const chosen = othernames[0]
+  const p = document.createElement('p')
+  p.className = "furigana"
+  p.innerText = `(${chosen})`
+  return p
 }
 
-// Use localized alt-text, and display SVG gender information
-// so that padding can work consistently on mobile.
-Show.gender = function(info, frame_class) {
-  var language = info.language;
-  var img = document.createElement('img');
-  if (info.gender == Pandas.def.gender.Male[language]) {
-    img.src = "images/male.svg";
-  } else if (info.gender == Pandas.def.gender.Female[language]) {
-    img.src = "images/female.svg";
-  } else {
-    img.src = "images/unknown.svg";
-  }
-  img.alt = info.gender;
-  var gender = document.createElement('div');
-  gender.className = "gender";
-  if (frame_class != undefined) {
-    gender.classList.add(frame_class);
-  }
-  gender.appendChild(img);
-  return gender;
+/** 
+ * Use localized alt-text, and display SVG gender information so that padding
+ * can work consistently on mobile.
+ */
+export function gender(info, frame_class) {
+  const language = info.language
+  const img = document.createElement('img')
+  if (info.gender == Pandas.def.gender.Male[language])
+    img.src = "images/male.svg"
+  else if (info.gender == Pandas.def.gender.Female[language])
+    img.src = "images/female.svg"
+  else
+    img.src = "images/unknown.svg"
+  img.alt = info.gender
+  const gender = document.createElement('div')
+  gender.className = "gender"
+  if (frame_class != undefined)
+    gender.classList.add(frame_class)
+  gender.appendChild(img)
+  return gender
 }
 
-// Alternate gender function for if you only have an animal value and not 
-// an info block value available.
-Show.genderAnimal = function(animal, language, frame_class) {
-  var gender = document.createElement('div');
-  gender.className = frame_class;
-  var img = document.createElement('img');
+/** 
+ * Alternate gender function for if you only have an animal value and not an
+ * info block value available.
+ */
+export function genderAnimal(animal, language, frame_class) {
+  const gender = document.createElement('div')
+  gender.className = frame_class
+  const img = document.createElement('img')
   if (animal["gender"] == "Male") {
-    img.src = "images/male.svg";
-    img.alt = Pandas.def.gender.Male[language];
+    img.src = "images/male.svg"
+    img.alt = Pandas.def.gender.Male[language]
   } else if (animal["gender"] == "Female") {
-    img.src = "images/female.svg";
-    img.alt = Pandas.def.gender.Male[language];
+    img.src = "images/female.svg"
+    img.alt = Pandas.def.gender.Male[language]
   } else {
-    img.src = "images/unknown.svg";
-    img.alt = Pandas.def.unknown[language];
+    img.src = "images/unknown.svg"
+    img.alt = Pandas.def.unknown[language]
   }
-  gender.appendChild(img);
-  return gender;
+  gender.appendChild(img)
+  return gender
 }
 
-// Construct a location string based on recorded location info for a zoo.
-// This will optionally replace a country name with a flag, which takes
-// less horizontal space and conforms to the general in-flow emoji style
-// of the display logic elsewhere in the search results.
-Show.homeLocation = function(zoo, desired_text, language, options) {
+/** Create a link to a location in Google Maps */
+function locationLink(zoo, language, mode="icons_only") {
+  const languageLocation = `${language}.location`
   // Don't print content if the input id is zero
-  if (zoo['_id'] == Pandas.def.zoo['_id']) {
-    return Pandas.def.zoo[language + ".location"];
-  }
-  var output_text = desired_text;
-  if (options.indexOf("map_icon") != -1) {
-    output_text = Language.emoji.map + " " + output_text;
-  }
-  if ("country_flag" in options) {
-    // Replace any country names in location details with a flag
-    var countries = Object.keys(Language.flags).filter(function(key) {
-      if (output_text.indexOf(key) != -1) {
-        return key;
-      }
-    });
-    countries.forEach(function(place) {
-      output_text.replace(place, Language.flags[place]);
-    });
-  }
-  return output_text;
-}
-
-// Create a link to a location in Google Maps. This replaces the
-// older content from Show.homeLocation, but I may want to make use
-// of that function in the future.
-Show.locationLink = function(zoo, language, mode="icons_only") {
-  // Don't print content if the input id is zero
-  if (zoo['_id'] == Pandas.def.zoo['_id']) {
-    return Pandas.def.zoo[language + ".location"];
-  }
-  var link_text = Language.emoji.map;
-  if (mode != "icons_only") {
-    link_text += " " + zoo[language + ".location"];
-  }
+  if (zoo['_id'] == Pandas.def.zoo['_id'])
+    return Pandas.def.zoo[languageLocation]
+  let link_text = Language.emoji.map
+  if (mode != "icons_only")
+    link_text += ` ${zoo[languageLocation]}`
   if (zoo.flag) {
-    link_text += " " + Language.flags[zoo.flag];
+    link_text += ` ${Language.flags[zoo.flag]}`
   }
-  var a = document.createElement('a');
+  const a = document.createElement('a')
   if (zoo['map']) {
-    a.href = zoo['map'];
+    a.href = zoo['map']
   }
-  a.innerText = link_text;
-  a.target = "_blank";   // Open in new tab
-  a.rel = "noopener noreferrer";  // rel="noopener noreferrer" is recommended for security reasons.  // Open in new tab
-  return a;
+  a.innerText = link_text
+  a.target = "_blank"   // Open in new tab
+  // rel="noopener noreferrer" is recommended for security reasons
+  a.rel = "noopener noreferrer"
+  return a
 }
 
-// Give a list of nicknames in all languages, in priority of the
-// current animal's language order
-Show.nicknames = function(animal) {
-  var container = document.createElement('ul');
-  container.className = "nicknameList";
+/**
+ * Give a list of nicknames in all languages, in priority of the current
+ * animal's language order
+ */
+function nicknames(animal) {
+  const container = document.createElement('ul')
+  container.className = "nicknameList"
   for (let language of animal["language.order"].split(", ")) {
-    var nicknames = animal[language + ".nicknames"];
-    if (nicknames == undefined) {
-      continue;
-    }
-    var nicknames_list = [];
-    var nicknames_li = document.createElement('li');
-    nicknames_li.innerText = Language.gui.language[Language.Displayed][language] + ": ";
+    const nicknames = animal[language + ".nicknames"]
+    if (nicknames == undefined)
+      continue
+    const nicknames_list = []
+    const nicknames_li = document.createElement('li')
+    nicknames_li.innerText =
+      `${Language.gui.language[Language.Displayed][language]}: `
     // Nicknames for this animal
-    for (let name of nicknames.split(", ")) {
-      nicknames_list.push(name);
-    }
+    for (let name of nicknames.split(", "))
+      nicknames_list.push(name)
     // Did we have any extra names? If so, add them
     if (nicknames_list.length > 0) {
-      nicknames_li.innerText += nicknames_list.join(", ");
-      container.appendChild(nicknames_li);
+      nicknames_li.innerText += nicknames_list.join(", ")
+      container.appendChild(nicknames_li)
     }    
   }
-  return container;
+  return container
 }
 
-// Give a list of othernames in all languages, in priority of the
-// current animal's language order. Include their regular names in
-// other languages, but not the current language
-Show.othernames = function(animal, current_language) {
-  var container = document.createElement('ul');
-  container.className = "nicknameList";  
+/**
+ * Give a list of othernames in all languages, in priority of the current
+ * animal's language order. Include their regular names in other languages,
+ * but not the current language
+ */
+function othernames(animal, current_language) {
+  const container = document.createElement('ul')
+  container.className = "nicknameList"
   // Cycle through other languages to get their names and other
   // spellings for their names
   for (let language of animal["language.order"].split(", ")) {
-    var othername_list = [];
-    var othername_li = document.createElement('li');
-    othername_li.innerText = Language.gui.language[Language.Displayed][language] + ": ";
+    const othername_list = []
+    const othername_li = document.createElement('li')
+    othername_li.innerText =
+      `${Language.gui.language[Language.Displayed][language]}: `
     // Animal's name in other languages
     if (language != current_language) {
-      var name = animal[language + ".name"];
-      if (name != undefined) {      
-        othername_list.push(name);
-      }
+      const name = animal[`${language}.name`]
+      if (name != undefined)
+        othername_list.push(name)
     }
     // Othernames / spellings for this animal
-    var othernames = animal[language + ".othernames"];
+    const othernames = animal[`${language}.othernames`]
     if (othernames != undefined) {
-      for (let name of othernames.split(", ")) {
-        othername_list.push(name);
-      }
+      for (let name of othernames.split(", "))
+        othername_list.push(name)
     }
     // Old names that were previously valid for this animal
-    var oldnames = animal[language + ".oldnames"];
+    const oldnames = animal[`${language}.oldnames`]
     if (oldnames != undefined) {
-      for (let name of oldnames.split(", ")) {
-        othername_list.push(name);
-      }
+      for (let name of oldnames.split(", "))
+        othername_list.push(name)
     }
     // Did we have any extra names? If so, add them
     if (othername_list.length > 0) {
-      othername_li.innerText += othername_list.join(", ");
-      container.appendChild(othername_li);
+      othername_li.innerText += othername_list.join(", ")
+      container.appendChild(othername_li)
     }
   }
-  return container;
+  return container
 }
 
-// Guarantee after calling this function that a menu, or a footer,
-// exist in the page where they should be.
-Show.update = function(new_contents, container=undefined, container_class, container_id) {
+/**
+ * Guarantee after calling this function that a menu, or a footer, exist in the
+ * page where they should be.
+ */
+function update(new_contents, container=undefined, container_class, container_id) {
   if (container == undefined) {
-    container = document.createElement('div');
-    container.appendChild(new_contents);
+    container = document.createElement('div')
+    container.appendChild(new_contents)
   } else {
-    var old_contents = container.childNodes[0];
-    container.replaceChild(new_contents, old_contents);
+    const old_contents = container.childNodes[0]
+    container.replaceChild(new_contents, old_contents)
   }
-  container.className = container_class;   // Regardless, set the corret container class. TODO: list?
-  container.id = container_id;
-  return container;
+  // Regardless, set the corret container class. TODO: list?
+  container.className = container_class
+  container.id = container_id
+  return container
 }
 
-// Make a safe URL (no reflection issues)
-Show.qrcodeHashSafe = function(short=false) {
-  var in_hash = window.location.hash;
-  var out_hash = undefined;
-  var parts = in_hash.split("/");
-  var profile = undefined;
-  var panda_id = undefined;
-  var sub_hash = undefined;
-  var photo_id = undefined;
+/** Make a safe URL (no reflection issues) */
+function qrcodeHashSafe(short=false) {
+  const in_hash = window.location.hash
+  let out_hash = undefined
+  const parts = in_hash.split("/")
+  let profile = undefined
+  let panda_id = undefined
+  let sub_hash = undefined
+  let photo_id = undefined
   if (parts.length >= 4) {
-    profile = parts[0];
-    panda_id = parts[1];
-    sub_hash = parts[2];
-    if (sub_hash != "photo") {
-      sub_hash = "photo";
-    }
-    photo_id = parts[3];
+    profile = parts[0]
+    panda_id = parts[1]
+    sub_hash = "photo"
+    photo_id = parts[3]
     if ((parseInt(panda_id) <= 0) || 
         (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
-      panda_id = '1';
+      panda_id = '1'
     }
     if ((parseInt(photo_id) <= 0) ||
         (parseInt(photo_id) > parseInt(P.db["_photo"].entity_max))) {
       photo_id = '1'
     }
-    if (short == false) {
-      out_hash = profile + "/" + panda_id + "/" + sub_hash + "/" + photo_id;
-    } else {
-      out_hash = profile + "/" + panda_id;
-    }
+    if (short == false)
+      out_hash = `${profile}/${panda_id}/${sub_hash}/${photo_id}`
+    else
+      out_hash = `${profile}/${panda_id}`
   }
   else if ((parts.length <= 3) && (parts.length >= 2)) {
-    profile = parts[0];
-    panda_id = parts[1];
-    sub_hash = '';
-    photo_id = '';
+    profile = parts[0]
+    panda_id = parts[1]
+    sub_hash = ''
+    photo_id = ''
     if ((parseInt(panda_id) <= 0) || 
         (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
-      panda_id = '1';
+      panda_id = '1'
     }
-    out_hash = profile + "/" + panda_id;
+    out_hash = `${profile}/${panda_id}`
   } else {
-    out_hash = '';
+    out_hash = ''
   }
-  return out_hash;
+  return out_hash
 }
 
-// Construct a QR code out of the current page URL
-Show.qrcodeImage = function(animal_index=null, photo_index=null) {
+/** 
+ * Construct a QR code out of the current page URL. When clicked, it copies a
+ * link to the URL the QRCode is representing.
+ */
+function qrcodeImage(animal_index=null, photo_index=null) {
   // Shorten the hash if there's a photo index included
-  var safe_hash = Show.qrcodeHashSafe(photo_index == null);
-  var safe_url = "https://" + window.location.host + "/" + safe_hash;
+  const safe_hash = qrcodeHashSafe(photo_index == null)
+  let safe_url = `https://${window.location.host}/${safe_hash}`
   if ((photo_index != null) && (animal_index != null)) {
-    safe_url = "https://" + window.location.host + "/#profile/" + animal_index + "/photo/" + photo_index;
+    safe_url =
+      `https://${window.location.host}/#profile/${animal_index}/photo/${photo_index}`
   }
-  var img = showQRCode(safe_url)
-  var qrcode = document.createElement('div');
-  qrcode.className = "qrcodeFrame";
-  var button = document.createElement('button');
-  var tld = document.createElement('span');
-  tld.className = "qrcodeText";
-  tld.innerText = "https://" + window.location.host + "/";
-  button.appendChild(tld);
-  qrimg = document.createElement('img');
-  qrimg.id = "qrcodeUri";
-  qrimg.src = img.src;
-  button.appendChild(qrimg);
-  qrcode.appendChild(button);
+  const img = showQRCode(safe_url)
+  const qrcode = document.createElement('div')
+  qrcode.className = "qrcodeFrame"
+  const button = document.createElement('button')
+  const tld = document.createElement('span')
+  tld.className = "qrcodeText"
+  tld.innerText = `https://${window.location.host}/`
+  button.appendChild(tld)
+  const qrimg = document.createElement('img')
+  qrimg.id = "qrcodeUri"
+  qrimg.src = img.src
+  button.appendChild(qrimg)
+  qrcode.appendChild(button)
   // Click qrcode and copy its url
   button.addEventListener("click", function(event) {
-    event.preventDefault();
-    const text_class = "qrcodeText";
+    event.preventDefault()
+    const text_class = "qrcodeText"
     // Join the text blocks above and below the QR Code image
     const qrcode_url = Array.from(document.getElementsByClassName(text_class))
       .map(span => span.innerText)
-      .join("");
+      .join("")
     // Copy it into the clipboard
-    navigator.clipboard.writeText(qrcode_url);
+    navigator.clipboard.writeText(qrcode_url)
     // Make the Copied toast appear
-    Show.fade(document.getElementById("copyToast"));
-  });
-  var qrHashLink = document.createElement('span');
-  qrHashLink.className = "qrcodeText";
-  if ((photo_index == null) && (animal_index == null)) {
-    qrHashLink.innerText = safe_hash;
-  } else {
-    qrHashLink.innerText = "#profile/" + animal_index + "/photo/" + photo_index;
-  }
-  button.appendChild(qrHashLink);
-  var copy_notice = document.createElement('span');
-  copy_notice.className = "notifier condensed";
-  copy_notice.id = "copyToast";
-  copy_notice.innerText = Language.gui.copied[Language.Displayed];
-  qrcode.appendChild(copy_notice);
-  return qrcode;
+    fade(document.getElementById("copyToast"))
+  })
+  const qrHashLink = document.createElement('span')
+  qrHashLink.className = "qrcodeText"
+  if ((photo_index == null) && (animal_index == null))
+    qrHashLink.innerText = safe_hash
+  else
+    qrHashLink.innerText = `#profile/${animal_index}/photo/${photo_index}`
+  button.appendChild(qrHashLink)
+  const copy_notice = document.createElement('span')
+  copy_notice.className = "notifier condensed"
+  copy_notice.id = "copyToast"
+  copy_notice.innerText = Language.gui.copied[Language.Displayed]
+  qrcode.appendChild(copy_notice)
+  return qrcode
 }
 
-// When the gallery loads, swap the qrcode url so that it includes
-// info about the photo that's currently being displayed. This means
-// that the QRCode and the displayed page don't exactly match the
-// #hash_code, but the contents will be guaranteed consistent.
-// I didn't want back/forward browser buttons to ever modify the gallery
-// photos themselves, because for the results pages with multiple galleries
-// there is no sensible way to support this.
-Show.qrcodeSwap = function() {
-  var old_qrcode = document.getElementsByClassName('qrcodeFrame')[0];
-  if (old_qrcode == undefined) {
-    return;
-  }
-  var gallery = document.getElementsByClassName('pandaPhoto')[0];
-  var gallery_id = gallery.childNodes[0].id;
-  var animal_id = gallery_id.split("/photo/")[0].split("_")[1];
-  var photo_index = gallery_id.split("/photo/").pop();
-  var new_qrcode = Show.qrcodeImage(animal_id, photo_index);
-  old_qrcode.parentNode.replaceChild(new_qrcode, old_qrcode);
+/** 
+ * When the carousel image loads, swap the qrcode url so that it includes info
+ * about the photo that's currently being displayed. This means that the QRCode
+ * and the displayed page don't exactly match the `#hash_code`, but the
+ * contents will be guaranteed consistent. I didn't want back/forward browser
+ * buttons to ever modify the gallery photos themselves, because for the result
+ * pages with multiple galleries there is no sensible way to support this.
+ */
+function qrcodeSwap() {
+  const old_qrcode = document.getElementsByClassName('qrcodeFrame')[0]
+  if (old_qrcode == undefined)
+    return
+  const gallery = document.getElementsByClassName('pandaPhoto')[0]
+  const gallery_id = gallery.childNodes[0].id
+  const animal_id = gallery_id.split("/photo/")[0].split("_")[1]
+  const photo_index = gallery_id.split("/photo/").pop()
+  const new_qrcode = Show.qrcodeImage(animal_id, photo_index)
+  old_qrcode.replaceWith(new_qrcode)
 }
 
-// Construct a zoo divider, for when you search a place name and
-// get multiple results worth of zoos
-Show.zooDivider = function(mode="bear-bamboo") {
-  var divider = document.createElement('div');
-  var modes = ["bamboo", "bear", "bear-bamboo", "fruit"];
-  if (mode == "random") {
-    mode = Pandas.randomChoice(modes, 1);
-  }
-  divider.className = 'zooDivider';
-  if (mode == "bamboo") {
-    divider.innerText = '- 🎍 — 🎋 — 🎍 -';
-  } else if (mode == "bear") {
-    divider.innerText = '🌿 🐯 🐻 🌿';
-  } else if (mode == "bear-bamboo") {
-    divider.innerText = '🌿 🎍 🐯🐻 🎍 🌿';
-  } else if (mode == "fruit") {
-    divider.innerText = '🌿 🍎 🍇 🍎 🌿';
-  } else {
-    divider.innerText = '🌿 🍎 🍇 🍎 🌿';
-  }
-  return divider;
+/** 
+ * Construct a zoo divider, for when you search a place name and get multiple
+ * results worth of zoos
+ */
+export function zooDivider(mode="bear-bamboo") {
+  const divider = document.createElement('div');
+  const modes = ["bamboo", "bear", "bear-bamboo", "fruit"]
+  if (mode == "random")
+    mode = Pandas.randomChoice(modes, 1)
+  divider.className = 'zooDivider'
+  if (mode == "bamboo")
+    divider.innerText = '- 🎍 — 🎋 — 🎍 -'
+  else if (mode == "bear")
+    divider.innerText = '🌿 🐯 🐻 🌿'
+  else if (mode == "bear-bamboo")
+    divider.innerText = '🌿 🎍 🐯🐻 🎍 🌿'
+  else if (mode == "fruit")
+    divider.innerText = '🌿 🍎 🍇 🍎 🌿'
+  else
+    divider.innerText = '🌿 🍎 🍇 🍎 🌿'
+  return divider
 }
 
 
-// Construct a zoo link as per design docs. Examples:
-//    https://domain/index.html#zoo/1
-// Show.zooLink = function(zoo, link_text, icon) {
-Show.zooLink = function(zoo, link_text, language, icon=undefined) {
+/** 
+ * Construct a zoo link as per design docs. Example:
+ *    `https://domain/index.html#zoo/1`
+ */
+function zooLink(zoo, link_text, language, icon=undefined) {
   // Don't print content if the input id is zero
-  if (zoo['_id'] == Pandas.def.zoo['_id']) {
-    return Show.emptyLink(Pandas.def.zoo[language + ".name"]);
-  }
-  var a = document.createElement('a');
-  var inner_text = link_text;
+  if (zoo['_id'] == Pandas.def.zoo['_id'])
+    return emptyLink(Pandas.def.zoo[`${language}.name`])
+  const a = document.createElement('a')
+  let inner_text = link_text
   // Options processing
-  if (icon != undefined) {
-    inner_text = icon + " " + inner_text;
-  }
-  a.innerText = inner_text;
-  a.href = "#zoo" + "/" + zoo['_id'];
+  if (icon != undefined)
+    inner_text = `${icon} ${inner_text}`
+  a.innerText = inner_text
+  a.href = `#zoo/${zoo['_id']}`
   // Force page to scroll to the top after a reload event
-  a.addEventListener("click", Show.button.top.action);
-  return a;
+  a.addEventListener("click", Show.button.top.action)
+  return a
 }
 
-// Display the name of a zoo in the "title bar"
-Show.zooTitle = function(info) {
-  var name_div = document.createElement('div');
-  name_div.className = 'zooName';
+/** Display the name of a zoo in the "title bar" */
+function zooTitle(info) {
+  const name_div = document.createElement('div')
+  name_div.className = 'zooName'
   // No furigana for zoo names
-  name_div.innerText = info.name;
-  var title_div = document.createElement('div');
-  title_div.className = "zooTitle";
-  title_div.appendChild(name_div);
-  return title_div;
+  name_div.innerText = info.name
+  const title_div = document.createElement('div')
+  title_div.className = "zooTitle"
+  title_div.appendChild(name_div)
+  return title_div
 }
 
 /*
@@ -1210,7 +1191,7 @@ Show.links.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  menu = update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -1249,7 +1230,7 @@ Show.links.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  menu = update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -1538,7 +1519,7 @@ Show.landing.menus.language = function(class_color) {
   }
   // Swap updated menu into the page when rendering
   var menu = document.getElementsByClassName("languageMenu")[0];
-  menu = Show.update(shrinker, menu, "languageMenu", "languageTop");
+  menu = update(shrinker, menu, "languageMenu", "languageTop");
   menu.classList.remove("results", "profile");
   menu.classList.add(class_color);
 }
@@ -1553,7 +1534,7 @@ Show.landing.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  menu = update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -1575,7 +1556,7 @@ Show.landing.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  menu = update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -1598,7 +1579,7 @@ Show.about.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  menu = update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -1663,10 +1644,8 @@ Show.profile.dossier = function(animal, info, language) {
   birthday.appendChild(second_item);
   // Display a QR code, and manage updates
   var qrcode = Show.qrcodeImage();
-  window.addEventListener('qr_update', function() {
-    // Swap qr_code with one representing current profile page contents
-    Show.qrcodeSwap();
-  });
+  // Swap qr_code with one representing current profile page contents
+  window.addEventListener('qr_update', qrcodeSwap)
   // Lay it all out
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
@@ -1695,7 +1674,7 @@ Show.profile.dossier = function(animal, info, language) {
   nicknames_heading.className = "nicknamesHeading";
   nicknames_heading.classList.add(Language.Displayed);
   nicknames_heading.innerText = Language.gui.nicknames[Language.Displayed];
-  var nicknames = Show.nicknames(animal);
+  var nicknames = nicknames(animal);
   if (nicknames.childNodes.length > 0) {
     nicknames_container.appendChild(nicknames_heading);
     nicknames_container.appendChild(nicknames);
@@ -1708,7 +1687,7 @@ Show.profile.dossier = function(animal, info, language) {
   othernames_heading.className = "othernamesHeading";
   othernames_heading.classList.add(Language.Displayed);
   othernames_heading.innerText = Language.gui.othernames[Language.Displayed];
-  var othernames = Show.othernames(animal, Language.Displayed);
+  var othernames = othernames(animal, Language.Displayed);
   if (othernames.childNodes.length > 0) {
     othernames_container.appendChild(othernames_heading);
     othernames_container.appendChild(othernames);
@@ -1807,7 +1786,7 @@ Show.profile.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  menu = update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
   menu.classList.add("profile");
   menu.classList.remove("results");
@@ -1829,7 +1808,7 @@ Show.profile.menus.top = function(panda_id) {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  menu = update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.add("profile");
   menu.classList.remove("results");
@@ -1963,7 +1942,7 @@ Show.profile.where = function(animal, language) {
     var zoo_entry = document.createElement('ul');
     zoo_entry.className = "zooList";
     var zoo_name = document.createElement('li');
-    var zoo_link = Show.zooLink(zoo_info, zoo_info[language + ".name"], language, zoo_icon);
+    var zoo_link = zooLink(zoo_info, zoo_info[language + ".name"], language, zoo_icon);
     var zoo_date = document.createElement('span');
     zoo_date.className = "detail";
     zoo_date.innerText = date_string;
@@ -1975,7 +1954,7 @@ Show.profile.where = function(animal, language) {
     var zoo_location = document.createElement('li');
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field  
-    var location_link = Show.locationLink(zoo_info, language, "text");
+    var location_link = locationLink(zoo_info, language, "text");
     zoo_location.appendChild(location_link);
     zoo_entry.appendChild(zoo_location);
     container.appendChild(zoo_entry);
@@ -2115,7 +2094,7 @@ Show.results.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  menu = update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -2137,7 +2116,7 @@ Show.results.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  menu = update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.add("results");
   menu.classList.remove("profile");
@@ -2210,12 +2189,12 @@ Show.results.pandaDetails = function(info) {
     // Custom language templates for this
     var icon = Language.emoji.truck;
     var target_text = Message.arrived_from_zoo(target_zoo[language + ".name"], target_date, language);
-    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    var zoo_link = zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
     var location = document.createElement('p');
-    var location_link = Show.locationLink(target_zoo, language);
+    var location_link = locationLink(target_zoo, language);
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
@@ -2229,12 +2208,12 @@ Show.results.pandaDetails = function(info) {
     // Custom language templates for this
     var icon = Language.emoji.truck;
     var target_text = Message.departed_to_zoo(target_zoo[language + ".name"], target_date, language);
-    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    var zoo_link = zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
     var location = document.createElement('p');
-    var location_link = Show.locationLink(target_zoo, language);
+    var location_link = locationLink(target_zoo, language);
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
@@ -2254,12 +2233,12 @@ Show.results.pandaDetails = function(info) {
     if (info.death != Pandas.def.unknown[language]) {
       squelch_home_zoo = true;
     }
-    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    var zoo_link = zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
     var location = document.createElement('p');
-    var location_link = Show.locationLink(target_zoo, language);
+    var location_link = locationLink(target_zoo, language);
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
@@ -2276,12 +2255,12 @@ Show.results.pandaDetails = function(info) {
       squelch_home_zoo = true;
       icon = Language.emoji.home;
     }
-    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    var zoo_link = zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
     var location = document.createElement('p');
-    var location_link = Show.locationLink(target_zoo, language);
+    var location_link = locationLink(target_zoo, language);
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
@@ -2313,12 +2292,12 @@ Show.results.pandaDetails = function(info) {
   // or if the born_at zoo is the same as the current zoo
   if (info.zoo != undefined && squelch_home_zoo == false) {
     var zoo = document.createElement('p');
-    var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, Language.emoji.home);
+    var zoo_link = zooLink(info.zoo, info.zoo[language + ".name"], language, Language.emoji.home);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
     var location = document.createElement('p');
-    var location_link = Show.locationLink(info.zoo, language);
+    var location_link = locationLink(info.zoo, language)
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
@@ -2476,7 +2455,7 @@ Show.results.zoo = function(zoo, language) {
   frame.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
-  title = Show.zooTitle(info);
+  title = zooTitle(info);
   var details = Show.results.zooDetails(info);
   var counts = Show.results.zooCounts(info);
   var dossier = document.createElement('div');
