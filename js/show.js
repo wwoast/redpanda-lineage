@@ -1285,11 +1285,9 @@ Show.links.menus.bottom = function() {
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them.
   // Since the theme is green, leverage the "results" render type
-  for (let btn_id of Show.links.menus.bottomButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = undefined;
-    button = Show.button[btn_type].render("results");
-    new_contents.appendChild(button);
+  for (const buttonType of Show.links.menus.bottomButtons) {
+    const button = buttonType.render("results")
+    new_contents.appendChild(button)
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
@@ -1314,7 +1312,7 @@ Show.links.menus.section = function(subpage) {
       btn_class = btn_class + " selected";
     }
     var text = Language.gui[btn_id][Language.Displayed];
-    var button = Show.button.section.render(btn_class, btn_id, text);
+    var button = sectionButton.render(btn_class, btn_id, text);
     menu.appendChild(button);
   }
   return menu;
@@ -1325,9 +1323,8 @@ Show.links.menus.top = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.links.menus.topButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("results");
+  for (const buttonType of Show.links.menus.topButtons) {
+    const button = buttonType.render("results")
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
@@ -1338,7 +1335,7 @@ Show.links.menus.top = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.links.menus.topButtons = ['homeButton', 'languageButton', 'aboutButton', 'randomButton'];
+Show.links.menus.topButtons = [homeButton, languageButton, aboutButton, randomButton]
 Show.links.order = {};
 Show.links.order.given = function(links) {
   // Go through a set of links, and return an object with all details necessary
@@ -1629,10 +1626,9 @@ Show.landing.menus.top = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.landing.menus.topButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("results");
-    new_contents.appendChild(button);
+  for (const buttonType of Show.landing.menus.topButtons) {
+    const button = buttonType.render("results")
+    new_contents.appendChild(button)
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
@@ -1642,7 +1638,8 @@ Show.landing.menus.top = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.landing.menus.topButtons = ['refreshButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+Show.landing.menus.topButtons =
+  [refreshButton, languageButton, aboutButton, randomButton, linksButton]
 Show.landing.menus.bottom = function() {
   // Return to a green menu bar: Top, and a Message Button 
   // for if the landing page is in a special mode.
@@ -1650,11 +1647,9 @@ Show.landing.menus.bottom = function() {
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them.
   // Since the theme is green, leverage the "results" render type
-  for (let btn_id of Show.landing.menus.bottomButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = undefined;
-    button = Show.button[btn_type].render("results");
-    new_contents.appendChild(button);
+  for (const buttonType of Show.landing.menus.bottomButtons) {
+    const button = buttonType.render("results")
+    new_contents.appendChild(button)
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
@@ -1664,7 +1659,7 @@ Show.landing.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.landing.menus.bottomButtons = ['optionsButton'];
+Show.landing.menus.bottomButtons = [optionsButton]
 
 /*
     Remove 'About' from header on about page
@@ -1674,9 +1669,8 @@ Show.about.menus.top = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.about.menus.topButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("results");
+  for (const buttonType of Show.about.menus.topButtons) {
+    const button = buttonType.render("results")
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
@@ -1687,7 +1681,7 @@ Show.about.menus.top = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.about.menus.topButtons = ['homeButton', 'languageButton', 'randomButton', 'linksButton'];
+Show.about.menus.topButtons = [homeButton, languageButton, randomButton, linksButton]
 
 /*
     Show functions used by the profile page for a single animal
@@ -1881,10 +1875,9 @@ Show.profile.menus.bottom = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them
-  for (let btn_id of Show.profile.menus.bottomButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("profile");
-    new_contents.appendChild(button);
+  for (const buttonType of Show.profile.menus.bottomButtons) {
+    const button = buttonType.render("profile")
+    new_contents.appendChild(button)
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
@@ -1894,7 +1887,7 @@ Show.profile.menus.bottom = function() {
   menu.classList.remove("results");
   return menu;
 }
-Show.profile.menus.bottomButtons = ['pagingButton', 'randomButton', 'searchButton'];
+Show.profile.menus.bottomButtons = [pagingButton, randomButton, searchButton]
 Show.profile.menus.language = function() {
   return Show.landing.menus.language("profile");
 }
@@ -1903,9 +1896,8 @@ Show.profile.menus.top = function(panda_id) {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.profile.menus.topButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("profile", panda_id);
+  for (const buttonType of Show.profile.menus.topButtons) {
+    const button = buttonType.render("profile", panda_id)
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
@@ -1916,7 +1908,7 @@ Show.profile.menus.top = function(panda_id) {
   menu.classList.remove("results");
   return menu;
 }
-Show.profile.menus.topButtons = ['homeButton', 'languageButton', 'profileButton', 'mediaButton', 'treeButton'];
+Show.profile.menus.topButtons = [homeButton, languageButton, profileButton, mediaButton, treeButton]
 Show.profile.nameBar = function(info) {
   // Replace the search bar with something that displays the animal's name and gender
   var gender = Show.gender(info, "profile");
@@ -2189,10 +2181,9 @@ Show.results.menus.bottom = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them
-  for (let btn_id of Show.results.menus.bottomButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("results");
-    new_contents.appendChild(button);
+  for (const buttonType of Show.results.menus.bottomButtons) {
+    const button = buttonType.render("results")
+    new_contents.appendChild(button)
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
@@ -2202,7 +2193,7 @@ Show.results.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.results.menus.bottomButtons = ['pagingButton'];
+Show.results.menus.bottomButtons = [pagingButton]
 Show.results.menus.language = function() {
   return Show.landing.menus.language("results");
 }
@@ -2224,7 +2215,8 @@ Show.results.menus.top = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.results.menus.topButtons = ['homeButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+Show.results.menus.topButtons =
+  [homeButton, languageButton, aboutButton, randomButton, linksButton]
 Show.results.panda = function(animal, language) {
   // Display a block of information for a single panda.
   // Most missing elements should not be displayed, but 
