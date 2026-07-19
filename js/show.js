@@ -474,24 +474,6 @@ function othernames(animal, current_language) {
   return container
 }
 
-/**
- * Guarantee after calling this function that a menu, or a footer, exist in the
- * page where they should be.
- */
-function update(new_contents, container=undefined, container_class, container_id) {
-  if (container == undefined) {
-    container = document.createElement('div')
-    container.appendChild(new_contents)
-  } else {
-    const old_contents = container.childNodes[0]
-    container.replaceChild(new_contents, old_contents)
-  }
-  // Regardless, set the corret container class. TODO: list?
-  container.className = container_class
-  container.id = container_id
-  return container
-}
-
 /** Make a safe URL (no reflection issues) */
 function qrcodeHashSafe(short=false) {
   const in_hash = window.location.hash
@@ -606,6 +588,24 @@ function qrcodeSwap() {
   const photo_index = gallery_id.split("/photo/").pop()
   const new_qrcode = Show.qrcodeImage(animal_id, photo_index)
   old_qrcode.replaceWith(new_qrcode)
+}
+
+/**
+ * Guarantee after calling this function that a menu, or a footer, exist in the
+ * page where they should be.
+ */
+function update(new_contents, container=undefined, container_class, container_id) {
+  if (container == undefined) {
+    container = document.createElement('div')
+    container.appendChild(new_contents)
+  } else {
+    const old_contents = container.childNodes[0]
+    container.replaceChild(new_contents, old_contents)
+  }
+  // Regardless, set the corret container class
+  container.className = container_class
+  container.id = container_id
+  return container
 }
 
 /** 
@@ -1147,456 +1147,456 @@ const treeButton = {
   }
 }
 
-/*
-    Show functions used to generate content for the options page.
-*/
-Show.options = {};
-Show.options.body = function() {
-  var container = document.createElement('div');
-  container.id = "contentFrame";
-  container.className = "options";
+/** 
+ * Currently it is poorly defined what ends up in `show.js` and in `page.js`,
+ * but the hope is that moving to JSX components is an opportunity to put
+ * code in sensible places, and not in these poorly split-up dictionaries.
+ */
 
-  container.appendChild(Show.options.content.render());
-
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-
-  container.appendChild(shrinker);
-  return container;
-}
-Show.options.content = {};
-Show.options.content.render = function() {
-  var container = document.createElement('div');
-  container.className = 'shrinker';
-
-  container.appendChild(Show.options.content.header());
-  container.appendChild(Show.options.content.deadPandas.render());
-
-  return container;
-}
-Show.options.content.header = function() {
-  var header = document.createElement('h3');
-
-  header.innerText = Language.gui['options'][Language.Displayed];
-
-  return header;
-}
-
-// Render functions for individual options
-Show.options.content.deadPandas = {};
-Show.options.content.deadPandas.render = function() {
-  var container = document.createElement('div');
-
-  var input = document.createElement('input');
-
-  input.type = 'checkbox';
-  input.id = 'dead-pandas';
-  input.name = 'dead-pandas';
-  input.value = 'dead-pandas';
-  input.checked = Options.Data.hideDeadPandas;
-  input.addEventListener('change', Show.options.content.deadPandas.action);
-
-  container.appendChild(input);
-
-  var label = document.createElement('label');
-  label.htmlFor = 'dead-pandas';
-  label.innerText = Language.gui['opt_hide_dead_pandas'][Language.Displayed];
-
-  container.appendChild(label);
-
-  return container;
-}
-Show.options.content.deadPandas.action = function(e) {
-  Options.update(data => data.hideDeadPandas = e.currentTarget.checked);
-}
-
-/*
-    Show functions used to generate content for the links page. Each links
-    page has slightly different content and styles.
-*/
-Show.links = {};
-Show.links.body = function(subpage) {
-  // Draw a links page with menus and content based on the last
-  // clicked version of a links menu button.
-  var container = document.createElement('div');
-  container.id = "contentFrame";
-  container.className = "links";
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  // Draw the section menus
-  var menu = Show.links.menus.section(subpage);
-  // Draw the links-page content
-  var content = Show.links.sections[subpage]();
-  shrinker.appendChild(menu);
-  shrinker.appendChild(content);
-  container.appendChild(shrinker);
-  return container;
-}
-Show.links.create = function(element, href, text, suffix, before=undefined, after=undefined) {
-  // Draw a link for the links page. Many modes will want
-  // to suffix specific data as part of the link text
-  var container = document.createElement(element);
-  var anchor = document.createElement('a');
-  anchor.href = href;
-  anchor.innerText = text + " " + suffix;
-  anchor.target = "_blank";
-  anchor.rel = "noopener noreferrer";
-  if (before != undefined) {
-    // Before text is for the special-thanks page.
-    // Trailing spaces get eaten from config, so add it back.
-    var text_before = document.createTextNode(before);
-    container.appendChild(text_before);
-  }
-  if (href == "underline") {
-    // Non-link links for the special-thanks page.
-    // Do not process any suffix for this, and hack
-    // in leading and trailing space.
-    var leading = document.createTextNode(" ");
-    var trailing = document.createTextNode(" ");
-    anchor = document.createElement('u');
-    anchor.innerText = text;
-    container.appendChild(leading);
-    container.appendChild(anchor);
-    container.appendChild(trailing);    
-  } else {
-    container.appendChild(anchor);
-  }
-  if (after != undefined) {
-    // After text is for the special-thanks page
-    var text_after = document.createTextNode(after);
-    container.appendChild(text_after);
-  }
-  return container;
-}
-Show.links.flags = function(order) {
-  // Convert the language order string into a list of flag emojis
-  var flags = "";
-  if (order.length > 0) {
-    flags = order.map(l => Language.gui.flag[l]).join(" ");
-  }
-  return flags;
-}
-Show.links.menus = {};
-Show.links.menus.bottom = function() {
-  // Return to a green menu bar.
-  // TODO: only show the top button if the page height is larger
-  // than the viewport by a certain amount
-  var new_contents = document.createElement('div');
-  new_contents.className = "shrinker";
-  // Take the list of bottom-menu buttons and render them.
-  // Since the theme is green, leverage the "results" render type
-  for (const buttonType of Show.links.menus.bottomButtons) {
-    const button = buttonType.render("results")
-    new_contents.appendChild(button)
-  }
-  // Remove exisitng contents and replace with new.
-  var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = update(new_contents, menu, "bottomMenu", "pageBottom");
-  // Remove any previous menu class modifiers
-  menu.classList.add("results");
-  menu.classList.remove("profile");
-  return menu;
-}
-Show.links.menus.bottomButtons = [];
-Show.links.menus.section = function(subpage) {
-  // Draw the links page subsection menus
-  // Highlight the button for the currently displayed subpage
-  var menu = document.createElement('div');
-  menu.id = "linksPageMenu";
-  menu.className = "sectionMenu";
-  // Draw each button based on its id and language.js lookups
-  for (let btn_name of Show.links.menus.sectionButtons) {
-    var btn_id = btn_name + "_button";
-    var btn_class = "sectionButton four";
-    if (btn_name == subpage) {
-      btn_class = btn_class + " selected";
+/** The `About` page only has a top menu */
+export const aboutMenu = {
+  buttons: [homeButton, languageButton, randomButton, linksButton],
+  render: function() {
+    const new_contents = document.createElement('div')
+    new_contents.className = "shrinker"
+    // Take the list of top-menu buttons and render them
+    for (const buttonType of this.buttons) {
+      const button = buttonType.render("results")
+      new_contents.appendChild(button)
     }
-    var text = Language.gui[btn_id][Language.Displayed];
-    var button = sectionButton.render(btn_class, btn_id, text);
-    menu.appendChild(button);
+    // Remove exisitng contents and replace with new.
+    const menu = document.querySelector(".topMenu")
+    menu = update(new_contents, menu, "topMenu", "pageTop")
+    // Remove any previous menu class modifiers
+    menu.classList.add("results")
+    menu.classList.remove("profile")
+    return menu
   }
-  return menu;
 }
-Show.links.menus.sectionButtons = ['redPandaCommunity', 'zooLinks', 'instagramLinks', 'specialThanksLinks'];
-Show.links.menus.top = function() {
-  // Return to a green menu bar: Logo/Home, Language, About, Random, Links
-  var new_contents = document.createElement('div');
-  new_contents.className = "shrinker";
-  // Take the list of top-menu buttons and render them
-  for (const buttonType of Show.links.menus.topButtons) {
-    const button = buttonType.render("results")
-    new_contents.appendChild(button);
-  }
-  // Remove exisitng contents and replace with new.
-  var menu = document.getElementsByClassName("topMenu")[0];
-  menu = update(new_contents, menu, "topMenu", "pageTop");
-  // Remove any previous menu class modifiers
-  menu.classList.add("results");
-  menu.classList.remove("profile");
-  return menu;
-}
-Show.links.menus.topButtons = [homeButton, languageButton, aboutButton, randomButton]
-Show.links.order = {};
-Show.links.order.given = function(links) {
-  // Go through a set of links, and return an object with all details necessary
-  // to construct links in the page, along with any counts that will assist in
-  // sorting, should sorting be necessary elsewhere.
-  var output = {};
-  output.counts = {};
-  // Count the hits for each language that we support in the display modes
-  for (let language of Language.fallback.order) {
-    output.counts[language] = 0;
-  }
-  // Grab the icon from the links values
-  output.icon = links.icon;
-  // The list of links themselves
-  output.list = [];
-  var link_fields = Pandas.linkGeneratorEntity;
-  for (let field_name of link_fields(links)) {
-    // Fallback language order
-    var language_order = links[field_name + ".language.order"];
-    if (links[field_name + ".language.order"] == undefined) {
-      language_order = Language.fallback.order
-    } else {
-      language_order = language_order.split(", ")
-    }
-    // Fallback name selection, if (like the instagram names) we don't
-    // have language-specific names. Start with a generic name field if
-    // the links are actually generic.
-    var link_name = links[field_name + ".name"];
-    if (link_name == undefined) {
-      link_name = links[field_name + "." + Language.Displayed + ".name"]; 
-    }
-    if (link_name == undefined) {
-      check_languages = language_order.filter(l => l != Language.Displayed);
-      for (let l of check_languages) {
-        link_name = links[field_name + "." + l + ".name"];
-        if (link_name != undefined) {
-          break;
-        }
+
+/** Generate the options page and its input-controls for changing settings */
+const optionsPage = {
+  body: function() {
+    const container = document.createElement('div')
+    container.id = "contentFrame"
+    container.className = "options"
+    container.appendChild(this.content.render())
+    const shrinker = document.createElement('div')
+    shrinker.className = "shrinker"
+    container.appendChild(shrinker)
+    return container
+  },
+  content: {
+    deadPandas: {
+      action: function(e) {
+        Options.update(data => data.hideDeadPandas = e.currentTarget.checked);
+      },
+      render: function() {
+        const container = document.createElement('div')
+        const input = document.createElement('input')
+        input.type = 'checkbox'
+        input.id = 'dead-pandas'
+        input.name = 'dead-pandas';
+        input.value = 'dead-pandas'
+        input.checked = Options.Data.hideDeadPandas
+        input.addEventListener('change', this.action)
+        container.appendChild(input)
+        const label = document.createElement('label');
+        label.htmlFor = 'dead-pandas';
+        label.innerText = Language.gui['opt_hide_dead_pandas'][Language.Displayed]
+        container.appendChild(label)
+        return container
       }
     }
-    var link = {
-      "first": links[field_name + "." + Language.Displayed + ".first"],
-      "href": links[field_name],
-      "last": links[field_name + "." + Language.Displayed + ".last"],
-      "order": language_order,
-      "text": link_name
-    }
-    for (let language of link.order) {
-      output.counts[language] = output.counts[language] + 1;
-    }
-    output.list.push(link);
+  },
+  header: function() {
+    const header = document.createElement('h3')
+    header.innerText = Language.gui['options'][Language.Displayed]
+    return header
+  },
+  render: function() {
+    const container = document.createElement('div')
+    container.className = 'shrinker'
+    container.appendChild(this.header())
+    container.appendChild(this.deadPandas.render())
+    return container
   }
-  return output;
 }
-Show.links.order.hits = function(links) {
-  // Display links in language order, and then order by which language
-  // has the most recorded hits in the links.
-  var output = Show.links.order.given(links);
-  output.list = output.list.sort(function(a, b) {
-    // Do a pass of alphabetical sorting by name, without underscores
-    // changing the sort order.
-    var aText = a.text.replace("_", "");
-    var bText = b.text.replace("_", "");    
-    if (aText > bText) {
-      return 1;
-    } else if (aText < bText) {
-      return -1;
-    } else {
-      return 0;
+
+/** The button menus for each subsection in the links page */
+export const linksMenu = {
+  bottom: {
+    buttons: [],
+    /** Share the green color of the results page content for the links page */
+    render: function() {
+      const new_contents = document.createElement('div')
+      new_contents.className = "shrinker"
+      for (const buttonType of this.buttons) {
+        const button = buttonType.render("results")
+        new_contents.appendChild(button)
+      }
+      // Remove exisitng contents and replace with new
+      const menu = document.querySelector(".bottomMenu")
+      menu = update(new_contents, menu, "bottomMenu", "pageBottom")
+      // Remove any previous menu class modifiers
+      menu.classList.add("results")
+      menu.classList.remove("profile")
+      return menu
     }
-  }).sort(function(a, b) {
-    // Finally, do a pass of sorting by language hits count for the primary
-    // language of each object
-    var aLangCount = output.counts[a.order[0]];
-    var bLangCount = output.counts[b.order[0]];
-    if (aLangCount > bLangCount) {
-      return -1;
-    } else if (aLangCount < bLangCount) {
-      return 1;
-    } else {
-      return 0;
+  },
+  sections: {
+    buttons: ['redPandaCommunity', 'zooLinks', 'instagramLinks', 'specialThanksLinks'],
+    /** 
+     * Draw the links page subsection menus, highlighting the button for the 
+     * currently-displayed subpage
+     */
+    render: function(subpage) {
+      const menu = document.createElement('div');
+      menu.id = "linksPageMenu"
+      menu.className = "sectionMenu"
+      // Draw each button based on its id and `language.js` lookups
+      for (const btn_name of this.buttons) {
+        const btn_id = `${btn_name}__button`
+        const btn_class = "sectionButton four"
+        if (btn_name == subpage) {
+          btn_class = `${btn_class} selected`
+        }
+        const text = Language.gui[btn_id][Language.Displayed]
+        const button = sectionButton.render(btn_class, btn_id, text)
+        menu.appendChild(button);
+      }
+      return menu;
     }
-  });
-  return output;
+  },
+  top: {
+    buttons: [homeButton, languageButton, aboutButton, randomButton],
+    render: function () {
+      // Return to a green menu bar: Logo/Home, Language, About, Random, Links
+      const new_contents = document.createElement('div')
+      new_contents.className = "shrinker"
+      // Take the list of top-menu buttons and render them
+      for (const buttonType of this.buttons) {
+        const button = buttonType.render("results")
+        new_contents.appendChild(button)
+      }
+      // Remove exisitng contents and replace with new.
+      var menu = document.querySelector(".topMenu")
+      menu = update(new_contents, menu, "topMenu", "pageTop")
+      // Remove any previous menu class modifiers
+      menu.classList.add("results")
+      menu.classList.remove("profile")
+      return menu
+    }
+  }
 }
-Show.links.order.language = function(links) {
-  // Display links in language order, but otherwise preserving the list
-  // order of the underlying links dataset. This means that other than
-  // language sorting, the zoo lists will still prioritize the original
-  // list order, which is generally done by how many animals that zoo is
-  // known for.
-  // Return the links page content as an array with the desired ordering.
-  var output = Show.links.order.given(links);  
-  output.list = output.list.sort(function(a, b) {
-    // If the primary (zeroth) language for the link is the 
-    // display language, prioritize that.
-    var aHasLang = a.order.indexOf(Language.Displayed);
-    var bHasLang = b.order.indexOf(Language.Displayed);
+
+/** Methods for sorting links displayed in the Links pages */
+const linksOrder = {
+  /** 
+   * Go through a set of links, and return an object with all details necessary
+   * to construct links in the page, along with any counts that will assist in
+   * sorting, should sorting be necessary elsewhere.
+   */
+  given: function(links) {
+    const output = {}
+    output.counts = {}
+    // Count the hits for each language that we support in the display modes
+    for (let language of Language.fallback.order)
+      output.counts[language] = 0
+    // Grab the icon from the links values
+    output.icon = links.icon
+    // The list of links themselves
+    output.list = []
+    const link_fields = Pandas.linkGeneratorEntity
+    for (const field_name of link_fields(links)) {
+      // Fallback language order
+      let language_order = links[`${field_name}.language.order`]
+      if (language_order == undefined) {
+        language_order = Language.fallback.order
+      } else {
+        language_order = language_order.split(", ")
+      }
+      // Fallback name selection, if (like the instagram names) we don't
+      // have language-specific names. Start with a generic name field if
+      // the links are actually generic.
+      let link_name = links[`${field_name}.name`]
+      if (link_name == undefined)
+        link_name = links[`${field_name}.${Language.Displayed}.name`] 
+      if (link_name == undefined) {
+        const check_languages = language_order.filter(l => l != Language.Displayed)
+        for (let l of check_languages) {
+          link_name = links[`${field_name}.${l}.name`]
+          if (link_name != undefined)
+            break
+        }
+      }
+      const link = {
+        "first": links[`${field_name}.${Language.Displayed}.first`],
+        "href": links[field_name],
+        "last": links[`${field_name}.${Language.Displayed}.last`],
+        "order": language_order,
+        "text": link_name
+      }
+      for (const language of link.order)
+        output.counts[language] = output.counts[language] + 1
+      output.list.push(link)
+    }
+    return output
+  },
+  /**
+   * Display links in language order, and then order by which language has the
+   * most recorded hits in the links.
+   */
+  hits: function(links) {
+    const output = this.given(links)
+    output.list = output.list
+      .sort(this.sortLinkTextWithoutUnderscores)
+      .sort(this.sortLinkByLanguagePrevalence)
+    return output
+  },
+  /** 
+   * Display links in language order, but otherwise preserving the list order
+   * of the underlying links dataset. This means that other than language
+   * sorting, the zoo lists will still prioritize the original list order,
+   * which is generally done by how many animals that zoo is known for. Return
+   * the links page content as an array with the desired ordering.
+   */
+  language: function(links) {
+    const output = this.given(links)
+    output.list = output.list
+      .sort(this.sortLinkByCurrentLanguageAndOrder)
+    return output
+  },
+  /** 
+   * Display links in language order. Any link with the current language as the
+   * 1st in the link's language.order will be treated as a primary language
+   * link and appear first. All primary links will be arranged in
+   * lexicographical order. Next, order the other links by whether the desired
+   * language is a secondary value for the given link. Return the links page
+   * content as an array with the desired ordering.
+   */
+  languageAndAlphabet: function(links) {
+    const output = this.given(links)
+    output.list = output.list
+      .sort(this.sortLinkTextWithoutUnderscores)
+      .sort(this.sortLinkByCurrentLanguageAndOrder)
+    return output;
+  },
+  /** 
+   * Do a pass of alphabetical sorting by name, without underscores changing
+   * the sort order.
+   */
+  sortLinkTextWithoutUnderscores: function(a, b) {
+    const aText = a.text.replace("_", "")
+    const bText = b.text.replace("_", "")
+    if (aText > bText) return 1
+    else if (aText < bText) return -1
+    else return 0
+  },
+  /**
+   * If the primary (zeroth) language for the link is the display language,
+   * prioritize that.
+   */
+  sortLinkByCurrentLanguageAndOrder: function(a, b) {
+    const aHasLang = a.order.indexOf(Language.Displayed)
+    const bHasLang = b.order.indexOf(Language.Displayed)
     if (aHasLang == bHasLang) {
       // Either the zeroth index, or neither entry has the language
-      return 0;
+      return 0
     } else if (bHasLang == -1) {
       // One of the entries is missing the desired language 
-      return -1;
+      return -1
     } else if (aHasLang == 0) {
       // Zeroth index is the primary language, so it comes first
-      return -1;
+      return -1
     } else {
-      return 1;
+      return 1
     }
-  });
-  return output;
+  },
+  /** 
+   * Do a pass of sorting by how prevalent any given language is in the
+   * list of links being reviewed.
+   */
+  sortLinkByLanguagePrevalence: function(a, b) {
+    const aLangCount = output.counts[a.order[0]]
+    const bLangCount = output.counts[b.order[0]]
+    if (aLangCount > bLangCount) return -1
+    else if (aLangCount < bLangCount) return 1
+    else return 0
+  }
 }
-Show.links.order.languageAndAlphabet = function(links) {
-  // Display links in language order. Any link with the current language
-  // as the 1st in the link's language.order will be treated as a primary
-  // language link and appear first. All primary links will be arranged
-  // in lexicographical order. Next, order the other links by whether the
-  // desired language is a secondary value for the given link.
-  // Return the links page content as an array with the desired ordering.
-  var output = Show.links.order.given(links);  
-  output.list = output.list.sort(function(a, b) {
-    // Do a pass of alphabetical sorting by name, without underscores
-    // changing the sort order.
-    var aText = a.text.replace("_", "");
-    var bText = b.text.replace("_", "");
-    if (aText > bText) {
-      return 1;
-    } else if (aText < bText) {
-      return -1;
+
+/** Generate the links page, and subsections with different content + styles */
+export const linksPage = {
+  body: function(subpage) {
+    // Draw a links page with menus and content based on the last
+    // clicked version of a links menu button.
+    const container = document.createElement('div')
+    container.id = "contentFrame"
+    container.className = "links"
+    const shrinker = document.createElement('div')
+    shrinker.className = "shrinker"
+    // Draw the section menus
+    const menu = linksMenus.sections.render(subpage)
+    // Draw the links-page content
+    const content = linksSections[subpage]()
+    shrinker.appendChild(menu)
+    shrinker.appendChild(content)
+    container.appendChild(shrinker)
+    return container
+  },
+  /** Draw a link, with optional suffix data for the link text */
+  create: function(element, href, text, suffix, before=undefined, after=undefined) {
+    const container = document.createElement(element)
+    const anchor = document.createElement('a')
+    anchor.href = href;
+    anchor.innerText = `${text} ${suffix}`
+    anchor.target = "_blank"
+    anchor.rel = "noopener noreferrer"
+    // Before text is for the special-thanks page. Trailing spaces get eaten
+    // from config, so add it back.
+    if (before != undefined) {
+      const text_before = document.createTextNode(before)
+      container.appendChild(text_before)
+    }
+    if (href == "underline") {
+      // Non-link links for the special-thanks page. Do not process any suffix
+      // for these, and hack in leading and trailing space.
+      const leading = document.createTextNode(" ")
+      const trailing = document.createTextNode(" ")
+      anchor = document.createElement('u')
+      anchor.innerText = text
+      container.appendChild(leading)
+      container.appendChild(anchor)
+      container.appendChild(trailing)    
     } else {
-      return 0;
+      container.appendChild(anchor)
     }
-  }).sort(function(a, b) {
-    // If the primary (zeroth) language for the link is the 
-    // display language, prioritize that.
-    var aHasLang = a.order.indexOf(Language.Displayed);
-    var bHasLang = b.order.indexOf(Language.Displayed);
-    if (aHasLang == bHasLang) {
-      // Either the zeroth index, or neither entry has the language
-      return 0;
-    } else if (bHasLang == -1) {
-      // One of the entries is missing the desired language 
-      return -1;
-    } else if (aHasLang == 0) {
-      // Zeroth index is the primary language, so it comes first
-      return -1;
-    } else {
-      return 1;
+    // After text is for the special-thanks page
+    if (after != undefined) {
+      var text_after = document.createTextNode(after)
+      container.appendChild(text_after)
     }
-  });
-  return output;
-}
-Show.links.sections = {};
-Show.links.sections.instagramLinks = function() {
-  var data = 'instagram';
-  var links = Show.links.order.languageAndAlphabet(Pandas.searchLinks(data));
-  var container = document.createElement('div');
-  container.id = "instagramLinks";
-  container.className = "section";
-  var sub_container = document.createElement('div');
-  sub_container.className = "pandaLinks";
-  var h2 = document.createElement('h2');
-  h2.className = "linksHeader";
-  h2.innerText = Language.gui["instagramLinks_header"][Language.Displayed];
-  var body = document.createElement('p');
-  body.innerText = Language.gui["instagramLinks_body"][Language.Displayed];
-  var ul = document.createElement("ul");
-  ul.classList.add("linkList");
-  ul.classList.add("multiColumn");
-  ul.classList.add(links.icon);
-  for (let link of links.list) {
-    var suffix = Show.links.flags(link.order);
-    var li = Show.links.create('li', link.href, link.text, suffix);
-    ul.appendChild(li);
+    return container
+  },
+  /** Convert the language order string into a list of flag emojis */
+  flags: function(order) {
+    return (order.length > 0)
+      ? order.map(l => Language.gui.flag[l]).join(" ")
+      : ""
   }
-  sub_container.appendChild(h2);
-  sub_container.appendChild(body);
-  sub_container.appendChild(ul);
-  container.appendChild(sub_container);
-  return container;
 }
-Show.links.sections.redPandaCommunity = function() {
-  var data = 'community';
-  var links = Show.links.order.language(Pandas.searchLinks(data));
-  var container = document.createElement('div');
-  container.id = "redPandaCommunity";
-  container.className = "section";
-  var sub_container = document.createElement('div');
-  sub_container.className = "pandaLinks";
-  var h2 = document.createElement('h2');
-  h2.className = "linksHeader";
-  h2.innerText = Language.gui["redPandaCommunity_header"][Language.Displayed];
-  var body = document.createElement('p');
-  body.innerText = Language.gui["redPandaCommunity_body"][Language.Displayed];
-  var ul = document.createElement("ul");
-  ul.classList.add("linkList");
-  ul.classList.add(links.icon);
-  for (let link of links.list) {
-    var suffix = Show.links.flags(link.order);
-    var li = Show.links.create('li', link.href, link.text, suffix);
-    ul.appendChild(li);
+
+/** Rendering and sorting links on different sections of the _Links_ page */
+export const linksSections = {
+  instagramLinks: function() {
+    const data = 'instagram'
+    const links = linksOrder.languageAndAlphabet(Pandas.searchLinks(data))
+    const container = document.createElement('div')
+    container.id = "instagramLinks"
+    container.className = "section"
+    const sub_container = document.createElement('div')
+    sub_container.className = "pandaLinks"
+    const h2 = document.createElement('h2')
+    h2.className = "linksHeader"
+    h2.innerText = Language.gui["instagramLinks_header"][Language.Displayed]
+    const body = document.createElement('p')
+    body.innerText = Language.gui["instagramLinks_body"][Language.Displayed]
+    const ul = document.createElement("ul")
+    ul.classList.add("linkList")
+    ul.classList.add("multiColumn")
+    ul.classList.add(links.icon)
+    for (const link of links.list) {
+      const suffix = linksMenu.flags(link.order)
+      const li = linksPage.create('li', link.href, link.text, suffix)
+      ul.appendChild(li)
+    }
+    sub_container.appendChild(h2)
+    sub_container.appendChild(body)
+    sub_container.appendChild(ul)
+    container.appendChild(sub_container)
+    return container
+  },
+  redPandaCommunity: function() {
+    const data = 'community'
+    const links = linksOrder.language(Pandas.searchLinks(data))
+    const container = document.createElement('div')
+    container.id = "redPandaCommunity"
+    container.className = "section"
+    const sub_container = document.createElement('div')
+    sub_container.className = "pandaLinks"
+    var h2 = document.createElement('h2')
+    h2.className = "linksHeader"
+    h2.innerText = Language.gui["redPandaCommunity_header"][Language.Displayed]
+    var body = document.createElement('p')
+    body.innerText = Language.gui["redPandaCommunity_body"][Language.Displayed]
+    var ul = document.createElement("ul")
+    ul.classList.add("linkList")
+    ul.classList.add(links.icon)
+    for (const link of links.list) {
+      const suffix = linksPage.flags(link.order);
+      const li = linksPage.create('li', link.href, link.text, suffix)
+      ul.appendChild(li)
+    }
+    sub_container.appendChild(h2)
+    sub_container.appendChild(body)
+    sub_container.appendChild(ul)
+    container.appendChild(sub_container)
+    return container
+  },
+  specialThanksLinks: function() {
+    const data = 'special-thanks'
+    const links = linksOrder.given(Pandas.searchLinks(data))
+    const container = document.createElement('div')
+    container.id = "specialThanksLinks"
+    container.className = "section"
+    const sub_container = document.createElement('div')
+    sub_container.className = "pandaLinks"
+    const h2 = document.createElement('h2')
+    h2.className = "linksHeader"
+    h2.innerText = Language.gui["specialThanksLinks_header"][Language.Displayed]
+    const body = document.createElement('p')
+    body.innerText = Language.gui["specialThanksLinks_body"][Language.Displayed]
+    const ul = document.createElement("ul")
+    ul.classList.add("linkList")
+    ul.classList.add(links.icon)
+    for (const link of links.list) {
+      const li = linksPage.create('li', link.href, link.text, "", link.first, link.last)
+      ul.appendChild(li);
+    }
+    sub_container.appendChild(h2);
+    sub_container.appendChild(body);
+    sub_container.appendChild(ul);
+    container.appendChild(sub_container);
+    return container;
+  },
+  zooLinks: function() {
+    const data = 'zoos';
+    const links = linksOrder.language(Pandas.searchLinks(data))
+    const container = document.createElement('div')
+    container.id = "zooLinks"
+    container.className = "section"
+    const sub_container = document.createElement('div')
+    sub_container.className = "pandaLinks"
+    const h2 = document.createElement('h2')
+    h2.className = "linksHeader"
+    h2.innerText = Language.gui["zooLinks_header"][Language.Displayed]
+    const body = document.createElement('p')
+    body.innerText = Language.gui["zooLinks_body"][Language.Displayed]
+    const ul = document.createElement("ul")
+    ul.classList.add("linkList");
+    ul.classList.add(links.icon);
+    for (const link of links.list) {
+      const suffix = linksPage.flags(link.order)
+      const li = linksPage.create('li', link.href, link.text, suffix)
+      ul.appendChild(li)
+    }
+    sub_container.appendChild(h2)
+    sub_container.appendChild(body)
+    sub_container.appendChild(ul)
+    container.appendChild(sub_container)
+    return container
   }
-  sub_container.appendChild(h2);
-  sub_container.appendChild(body);
-  sub_container.appendChild(ul);
-  container.appendChild(sub_container);
-  return container;
-}
-Show.links.sections.specialThanksLinks = function() {
-  var data = 'special-thanks';
-  var links = Show.links.order.given(Pandas.searchLinks(data));
-  var container = document.createElement('div');
-  container.id = "specialThanksLinks";
-  container.className = "section";
-  var sub_container = document.createElement('div');
-  sub_container.className = "pandaLinks";
-  var h2 = document.createElement('h2');
-  h2.className = "linksHeader";
-  h2.innerText = Language.gui["specialThanksLinks_header"][Language.Displayed];
-  var body = document.createElement('p');
-  body.innerText = Language.gui["specialThanksLinks_body"][Language.Displayed];
-  var ul = document.createElement("ul");
-  ul.classList.add("linkList");
-  ul.classList.add(links.icon);
-  for (let link of links.list) {
-    var li = Show.links.create('li', link.href, link.text, "", link.first, link.last);
-    ul.appendChild(li);
-  }
-  sub_container.appendChild(h2);
-  sub_container.appendChild(body);
-  sub_container.appendChild(ul);
-  container.appendChild(sub_container);
-  return container;
-}
-Show.links.sections.zooLinks = function() {
-  var data = 'zoos';
-  var links = Show.links.order.language(Pandas.searchLinks(data));
-  var container = document.createElement('div');
-  container.id = "zooLinks";
-  container.className = "section";
-  var sub_container = document.createElement('div');
-  sub_container.className = "pandaLinks";
-  var h2 = document.createElement('h2');
-  h2.className = "linksHeader";
-  h2.innerText = Language.gui["zooLinks_header"][Language.Displayed];
-  var body = document.createElement('p');
-  body.innerText = Language.gui["zooLinks_body"][Language.Displayed];
-  var ul = document.createElement("ul");
-  ul.classList.add("linkList");
-  ul.classList.add(links.icon);
-  for (let link of links.list) {
-    var suffix = Show.links.flags(link.order);
-    var li = Show.links.create('li', link.href, link.text, suffix);
-    ul.appendChild(li);
-  }
-  sub_container.appendChild(h2);
-  sub_container.appendChild(body);
-  sub_container.appendChild(ul);
-  container.appendChild(sub_container);
-  return container;
 }
 
 /*
@@ -1660,28 +1660,6 @@ Show.landing.menus.bottom = function() {
   return menu;
 }
 Show.landing.menus.bottomButtons = [optionsButton]
-
-/*
-    Remove 'About' from header on about page
-*/
-Show.about = {menus:{}};
-Show.about.menus.top = function() {
-  var new_contents = document.createElement('div');
-  new_contents.className = "shrinker";
-  // Take the list of top-menu buttons and render them
-  for (const buttonType of Show.about.menus.topButtons) {
-    const button = buttonType.render("results")
-    new_contents.appendChild(button);
-  }
-  // Remove exisitng contents and replace with new.
-  var menu = document.getElementsByClassName("topMenu")[0];
-  menu = update(new_contents, menu, "topMenu", "pageTop");
-  // Remove any previous menu class modifiers
-  menu.classList.add("results");
-  menu.classList.remove("profile");
-  return menu;
-}
-Show.about.menus.topButtons = [homeButton, languageButton, randomButton, linksButton]
 
 /*
     Show functions used by the profile page for a single animal
@@ -2072,7 +2050,7 @@ Show.media.gallery = function(animal, language) {
     result.appendChild(photo);
   }
   if (gallery.length < 1) {
-    result.appendChild(Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed));
+    result.appendChild(emptyResult(Language.messages.no_group_media_result, Language.Displayed));
   }
   return result;
 }
@@ -2146,7 +2124,7 @@ Show.results.groupGallery = function(id_list) {
   var gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"];
   var results = [];
   if (gallery.length < 1) {
-    results.push(Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed));
+    results.push(emptyResult(Language.messages.no_group_media_result, Language.Displayed))
   } else {
     results = gallery;
   }

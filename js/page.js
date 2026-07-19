@@ -6,6 +6,7 @@ import * as Message from './message.js'
 import * as Options from './options.js'
 import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
+import * as Show from './show.js'
 
 /** 
  * Module for rendering all sectional pages of redpandafinder, some of which
@@ -175,7 +176,7 @@ class About {
       footer.redraw("results")
     }
     Show["results"].menus.language()
-    Show["about"].menus.top()
+    Show.aboutMenu.render()
     Show["results"].searchBar()   // Ensure the search bar comes back
     color("results")
     // Re-enable scroll restoration for just the about page
@@ -570,13 +571,13 @@ class Links {
     // Initialize submenus if necessary
     this.sectionMenuDefaults()
     var chosen = window.sessionStorage.getItem("linksPageMenu")
-    this.content = Show.links.body(chosen)
+    this.content = Show.linksPage.body(chosen)
     document.getElementById('contentFrame').replaceWith(this.content)
     // Add event listeners to the newly created Links page buttons
     this.sectionButtonEventHandlers()
     footer.redraw("results")
     Show["results"].menus.language()
-    Show["links"].menus.top()
+    Show.linksMenu.top.render()
     Show["results"].searchBar()   // Ensure the search bar comes back
     color("results")
   }
@@ -608,7 +609,7 @@ class Links {
       const old_section = window.sessionStorage.getItem("linksPageMenu")
       const show_section_id = this.id.split("_")[0]
       // Draw new links page content, and erase the old
-      this.content = Show.links.sections[show_section_id]()
+      this.content = Show.linksSections[show_section_id]()
       const old_content = document.getElementById(old_section)
       // Erase the old content and bring the new content into the page
       old_content.replaceWith(this.content)
