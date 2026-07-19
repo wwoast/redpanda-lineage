@@ -2202,10 +2202,9 @@ Show.results.menus.top = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.results.menus.topButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("results");
-    new_contents.appendChild(button);
+  for (const buttonType of Show.results.menus.topButtons) {
+    const button = buttonType.render("results")
+    new_contents.appendChild(button)
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];

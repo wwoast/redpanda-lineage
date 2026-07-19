@@ -632,10 +632,9 @@ export const links = new Links()
 /**
  * The media page displays group photos for an individual panda. It's part of
  * the "profile" group of pages that show information about a specific animal.
- * We have no state to track here, so this isn't encapsulated in a class.
  */
-export const media = {
-  render: function() {
+class Media {
+  render() {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Start by just displaying info for one panda by id search
@@ -662,6 +661,12 @@ export const media = {
     window.scrollTo(0, 0)
   }
 }
+
+/**
+ * Singleton class representing the Media page, mostly for consistency with the
+ * other class-based page objects.
+ */
+export const media = new Media()
 
 /** 
  * Logic related to the "Options" page. Like all objects representing page
@@ -701,9 +706,10 @@ class Options {
 export const options = new Options()
 
 /** The profiles page display details for an individual panda */
-export const profile = {
-  qr_update: new Event('qr_update'),
-  render: function () {
+class Profile {
+  qr_update = new Event('qr_update')
+
+  render() {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Profile pages never have additional content to load
@@ -745,14 +751,20 @@ export const profile = {
   }
 }
 
+/**
+ * Singleton class representing the Profile page, mostly for consistency with
+ * the other class-based page objects.
+ */
+export const profile = new Profile()
+
 /** 
  * Logic related to the results page output. The main render function chooses
  * between other results rendering modes, and we'll likely add many more as
  * time goes on.
  */
-export const results = {
+class Results {
   /** Given a search for pandas or zoos, output entity divs */
-  entities: function(results) {
+  entities(results) {
     let content_divs = []
     if (results["hits"].length == 0) {
       // No results? On desktop, bring up a sad panda
@@ -775,7 +787,7 @@ export const results = {
       content_divs.pop()
     }
     return content_divs
-  },
+  }
   /** 
    * Given a search for N panda ids, return first the list of media photos all
    * of them  are in, or an error message saying they haven't been seen
@@ -783,7 +795,7 @@ export const results = {
    * for names due to space/tokenizing and name resolution issues for duplicate
    * names... that will be much more work!
    */
-  group: function(results) {
+  group(results) {
     let content_divs = []
     if (results["hits"].length == 0) {
       // Push an error message
@@ -811,12 +823,12 @@ export const results = {
       content_divs.splice(insert, 0, result)
     }
     return content_divs
-  },
+  }
   /**
    * Given a search for nearest zoos, add zoo divs and the pandas that live there,
    * along with a header message of the zoos by proximity.
    */
-  nearby: function(results) {
+  nearby(results) {
     let content_divs = []
     if (results.parsed == "geolookup_in_progress") {
       // Stuck at the interstitial after a language transition
@@ -840,9 +852,9 @@ export const results = {
     // HACK: return to entity mode
     Query.env.output_mode = "entities"
     return content_divs
-  },
+  }
   /** Photo results have a different structure from panda/zoo results */
-  photos: function(results) {
+  photos(results) {
     let content_divs = []
     const max_hits = Query.env.paging.results_count
     if ((results["parsed"] == "set_tag") || 
@@ -860,8 +872,8 @@ export const results = {
     // HACK: revert to results mode
     Query.clear()
     return content_divs
-  },
-  render: function() {
+  }
+  render() {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Don't assume a paging button is necessary until shown otherwise
@@ -903,6 +915,12 @@ export const results = {
     window.scrollTo(0, 0)   // Move to the top of the page
   }
 }
+
+/**
+ * Singleton class representing the Results page, mostly for consistency with
+ * the other class-based page objects.
+ */
+export const results = new Results()
 
 /**
  * Logic related to redpandafidner page routing, implemented as behavior around
