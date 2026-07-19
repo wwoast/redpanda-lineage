@@ -187,7 +187,7 @@ function animalLink(animal, link_text, language, options) {
     // go_link: creates a new results frame based on desired data
     a.href = "#panda" + "/" + animal['_id']
     // Force page to scroll to the top after a reload event
-    a.addEventListener("click", Show.button.top.action)
+    a.addEventListener("click", topButton.action)
   }
   return a
 }
@@ -648,7 +648,7 @@ function zooLink(zoo, link_text, language, icon=undefined) {
   a.innerText = inner_text
   a.href = `#zoo/${zoo['_id']}`
   // Force page to scroll to the top after a reload event
-  a.addEventListener("click", Show.button.top.action)
+  a.addEventListener("click", topButton.action)
   return a
 }
 
@@ -664,385 +664,487 @@ function zooTitle(info) {
   return title_div
 }
 
-/*
-    Show functions related to buttons and their event handlers
-*/
-Show.button = {};
-Show.button.about = {};
-Show.button.about.action = function() {
-  Page.about.routing();
-  Show.button.language.hide();   // If language menu open, hide it
+/** Show functions related to buttons and their event handlers */
+// Was show.button.render
+
+/** Render a menu button for redpandafinder, with desired classes and ids */
+function renderButton(id, button_icon, button_text, class_name, icon_class="") {
+  const button = document.createElement('button')
+  button.className = "menu"
+  button.classList.add(class_name)
+  button.id = id
+  const content = document.createElement('div')
+  content.className = "buttonContent"
+  const icon_div = document.createElement('div')
+  icon_div.className = 'buttonIcon'
+  if (icon_class)
+    icon_div.classList.add(icon_class)
+  icon_div.innerText = button_icon
+  content.appendChild(icon_div)
+  if (button_text != undefined) {
+    const text_div = document.createElement('div')
+    text_div.className = 'buttonText'
+    text_div.innerText = button_text
+    content.appendChild(text_div)
+  }
+  button.appendChild(content)
+  return button
 }
-Show.button.about.render = function(class_name="results") {
-  var about = Show.button.render("aboutButton", Language.emoji.bamboo, Language.gui.about[Language.Displayed], class_name);
-  about.addEventListener("click", Show.button.about.action);
-  return about;
+
+/** 
+ * When the _about_ button is clicked, we either show the `#about` page, or
+ * return to the last shown results or the `#home` page. If the language menu
+ * is open, we hide it.
+ */
+const aboutButton = {
+  /** Toggle the visibility of the `#about` page */
+  action: function() {
+    Page.about.routing()
+    languageButton.hide()
+  },
+  /** Draw the _about_ button */
+  render: function(class_name="results") {
+    const button = renderButton(
+      "aboutButton",
+      Language.emoji.bamboo,
+      Language.gui.about[Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action)
+    return button
+  }
 }
-Show.button.flag = {};
-Show.button.flag.action = function() {
-  var language = this.id.replace("LanguageFlag", "");
-  var options = Pandas.def.languages;
-  var choice = options.indexOf(language);
-  // Don't redraw unless the language exists, or has
-  // changed from the current display language.
-  if ((choice > -1) && (language != Language.Displayed)) {
-    Language.Displayed = language;
+
+/** The language menu's flag buttons change the current `Language.Displayed` */
+const flagButton = {
+  action: function(button) {
+    const language = button.id.replace("LanguageFlag", "")
+    const options = Pandas.def.languages
+    const choice = options.indexOf(language)
+    // Don't redraw unless the language exists, or has changed from the current
+    // display language.
+    if ((choice > -1) && (language != Language.Displayed)) {
+      Language.Displayed = language
+      Language.update()
+      // Redraw the nearby page if necessary
+      if (Query.env.output_mode == "nearby")
+        Geo.getNaiveLocation()
+      Page.redraw(Page.Current)
+    }
+    // If language menu is open, hide it
+    languageButton.hide()
+  },
+  /** Draw one of the language-select flag buttons */
+  render: function(language, class_color) {
+    const button = document.createElement('button')
+    button.classList.add("menu")
+    button.classList.add("flag")
+    button.classList.add(class_color)
+    button.id = language + "LanguageFlag"
+    var content = document.createElement('div')
+    content.className = "buttonContent"
+    var icon = document.createElement('div')
+    icon.className = "buttonIcon"
+    icon.innerText = Language.gui.flag[language]
+    content.appendChild(icon)
+    button.appendChild(content)
+    button.addEventListener("click", (e) => this.action(e.target))
+    return button
+  }
+}
+
+/** 
+ * Return to the `#home` landing page when clicked, and re-render all the
+ * randomized content displayed
+ */
+const homeButton = {
+  action: function() {
+    Page.LastSearch = "#home"
+    Page.home.render()
+    window.location = "#home"
+    // If language menu is open, hide it
+    languageButton.hide()
+    Page.Current = Page.home.render
+    // If bottom search bar is showing, remove it
+    Show.searchBar.remove("bottomSearch")
+    window.scrollTo(0, 0)   // Go to the top of the page
+  },
+  /** Draw the _home_ button that takes you to the landing page */
+  render: function(class_name="results") {
+    const button = renderButton(
+      "homeButton",
+      Language.emoji.home,
+      Language.gui.home[Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action)
+    return button
+  }
+}
+
+/** 
+ * The language button has two modes. When you left-click, it makes the flag
+ * buttons show up above the top menu, and clicking a flag changes which
+ * `Language.Displayed` redpandafinder is drawn in.
+ * 
+ * When you right-click the language button, it immediately changes the
+ * `Language.Displayed` to the next language in `Pandas.def.languages`.
+ */
+const languageButton = {
+  /** Make the flag menu buttons appear above the top menu */
+  action: function() {
+    const language_menu = document.getElementsByClassName("languageMenu")[0]
+    if ((language_menu.style.display == "none") ||
+        (language_menu.style.display == "")) {
+      language_menu.style.display = "table"
+    } else {
+      language_menu.style.display = "none"
+    }
+  },
+  /** Immediately change the displayed language to the next one in the list */
+  altAction: function(e) {
+    e.preventDefault();
+    const language = Language.Displayed
+    const options = Pandas.def.languages
+    const count = options.length
+    const choice = (options.indexOf(language) + 1) % count
+    Language.Displayed = options[choice]
     Language.update();
     // Redraw the nearby page if necessary
-    if (Query.env.output_mode == "nearby") {
-      Geo.getNaiveLocation();
+    if (Query.env.output_mode == "nearby")
+      Geo.getNaiveLocation()
+    Page.redraw(Page.Current)
+    // If language menu is open, hide it
+    languageButton.hide()
+  },
+  hide: function() {
+    const language_menu = document.querySelector(".languageMenu")
+    language_menu.style.display = "none"
+  },
+  render: function(class_name="results") {
+    const button = renderButton(
+      "languageButton",
+      Language.gui.flag[Language.Displayed],
+      Language.gui.language[Language.Displayed][Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action)
+    button.addEventListener("contextmenu", this.altAction)
+    return button
+  }
+}
+
+/** Navigate to the _links_ section of redpandafinder */
+const linksButton = {
+  action: function() {
+    Page.links.routing()
+    // If language menu is open, hide it
+    languageButton.hide()
+  },
+  render: function(class_name="results") {
+    const button = renderButton(
+      "linksButton",
+      Language.emoji.link,
+      Language.gui.links[Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action);
+    return button
+  }
+}
+
+/**
+ * The media button shows group photos with the given animal. If right-clicked,
+ * it shows group photos of a random animal, like a hidden _random_ button.
+ */
+const mediaButton = {
+  action: function(panda_id) {
+    Page.media.render()
+    window.location = `#media/${panda_id}`
+    // If language menu is open, hide it
+    languageButton.hide()
+    Page.Current = Page.media.render;
+  },
+  altAction: function(e) {
+    e.preventDefault()   // Prevent normal right-click menu from firing
+    Page.Current = Page.media.render
+    const pandaIds = 
+      P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+                   .filter(entity => entity["photo.1"] != undefined)
+                   .map(entity => entity["panda.tags"])
+                   .map(tag_ids => tag_ids.split(", "))
+    pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds))
+    window.location =
+      `#media/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
+    // If language menu is open, hide it
+    languageButton.hide()
+    window.scrollTo(0, 0)   // Go to the top of the page
+  },
+  render: function(class_name="profile", panda_id) {
+    const button = renderButton(
+      "mediaButton",
+      Language.emoji.media,
+      Language.gui.media[Language.Displayed],
+      class_name)
+    button.addEventListener("click", () => this.action(panda.id))
+    button.addEventListener("contextmenu", this.altAction)
+    return button
+  }
+}
+
+/** 
+ * The _Options_ button opens a menu where you can toggle on filters
+ * related to the panda search results you see.
+ */
+const optionsButton = {
+  action: function() {
+    window.location = '#options'
+  },
+  render: function(class_name="results") {
+    const button = renderButton(
+      "optionsButton",
+      Language.emoji.options,
+      Language.gui.options[Language.Displayed],
+      class_name, 
+      "brightness-150")
+    button.addEventListener("click", this.action)
+    return button
+  }
+}
+
+/** 
+ * On photo gallery and other media pages, this is the button that pages in 
+ * more content to look at. 
+ */
+const pagingButton = {
+  action: function(callback, parameters, frame_id, class_name) {
+    // If language menu is open, hide it
+    languageButton.hide()
+    const paging_data = callback.apply(null, parameters)
+    const new_photos = paging_data["output"]
+    // Append content into the page. 
+    // HACK: always the first child of the container frame
+    const frame = document.getElementById(frame_id).childNodes[0];
+    for (const new_photo of new_photos)
+      frame.appendChild(new_photo)
+    // Update the page count for the next button to use
+    parameters[0] = parameters[0] + 1
+    // Redraw the footer with the next action, with the correct color (class_name)
+    Page.footer.redraw(class_name)
+    // Increment the shown page counter, in case we want to refresh
+    // after changing the shown language 
+    Query.env.paging.shown_pages = Query.env.paging.shown_pages + 1
+  },
+  render: function(class_name) {
+    const button = renderButton(
+      "pagingButton",
+      Language.emoji.paging,
+      Language.gui.paging[Language.Displayed],
+      class_name)
+    // Get callback function and arguments from Query.env
+    const callback = Query.env.paging.callback.function
+    const parameters = Query.env.paging.callback.arguments
+    const frame_id = Query.env.paging.callback.frame_id;
+    button.addEventListener("click",
+      () => this.action(callback, parameters, frame_id, class_name))
+    // English and Japanese text is too wide
+    const text = button.childNodes[0].childNodes[1];
+    if (Language.Displayed == "ja")
+      text.classList.add("condensed")
+    else
+      text.classList.remove("condensed")
+    // If we're not on a page that needs a "next page" button, hide it
+    if (Query.env.paging.display_button == false)
+      button.classList.add("hidden")
+    return button
+  }
+}
+
+/** 
+ * When clicked, view the profile of a specific animal. When right-clicked,
+ * view the profile of a random animal, similar to a hidden _random_ button.
+ */
+const profileButton = {
+  action: function(panda_id) {
+    Page.profile.render()
+    window.location = `#profile/${panda_id}`
+    languageButton.hide()   // If language menu is open, hide it
+    Page.Current = Page.profile.render
+  },
+  altAction: function(e) {
+    e.preventDefault()   // Prevent normal right-click menu from firing
+    Page.Current = Page.profile.render
+    var pandaIds =
+      P.db.vertices.filter(entity => entity._id > 0)
+                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.death == undefined)
+                   .map(entity => entity._id);
+    window.location =
+      `#profile/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
+    languageButton.hide()   // If language menu open, hide it
+    window.scrollTo(0, 0)   // Go to the top of the page
+  },
+  render: function(class_name="profile", panda_id) {  
+    const button = renderButton(
+      "profileButton",
+      Language.emoji.profile,
+      Language.gui.profile[Language.Displayed],
+      class_name)
+    button.addEventListener("click", () => this.action(panda_id))
+    button.addEventListener("contextmenu", this.altAction)
+    // Japanese text is too wide
+    const text = button.childNodes[0].childNodes[1]
+    if (Language.Displayed == "ja")
+      text.classList.add("condensed")
+    else
+      text.classList.remove("condensed")
+    return button
+  }
+}
+
+/** The _random_ dice button, for viewing random panda search results! */
+const randomButton = {
+  action: function() {
+    Page.Current = Page.results.render
+    const zooIds =
+      P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
+                   .filter(entity => entity._id < 0)
+                   .filter(entity => entity["photo.1"] != undefined)
+                   .map(entity => entity._id)
+                   .filter(id => Pandas.searchPandaZooCurrent(id).length > 0)
+    const pandaIds =
+      P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
+                   .filter(entity => entity._id > 0)
+                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.death == undefined)
+                   .map(entity => entity._id);
+    const groupIds =
+      P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+                   .map(entity => entity["panda.tags"])
+                   .map(tags => tags.split(", ").join(" "))
+                   .filter(function(tags) {
+                      // If all animals in the group photo are dead, don't present
+                      var alive = tags.split(" ")
+                        .map(id => Pandas.searchPandaId(id).death != undefined)
+                      if (alive.every(id => id === true))
+                        return false
+                      else
+                        return true
+                    })
+    const randomChoices = pandaIds.concat(groupIds).concat(zooIds);
+    window.location = 
+      `#query/${randomChoices[Math.floor(Math.random() * randomChoices.length)]}`
+    languageButton.hide()   // If language menu open, hide it
+    Show.searchBar.remove("bottomSearch")   // When clicked, kill this search bar
+    window.scrollTo(0, 0)   // Go to the top of the page
+  },
+  render: function(class_name="results") {
+    const button = renderButton(
+      "randomButton",
+      Language.emoji.random,
+      Language.gui.random[Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action)
+    return button
+  }
+}
+
+/** 
+ * The refresh button has a hidden dual-feature. Clicking it normally just
+ * reloads content from the browser cache. Right-clicking it reloads content
+ * from the server, similar to a CTRL+SHIFT+R hard-refresh browser event
+ */
+const refreshButton = {
+  action: function() {
+    location.reload(false)   // Reload from cache
+  },
+  altAction: function(e) {
+    e.preventDefault()       // Prevent normal right-click menu from firing
+    location.reload(true)    // Reload from server
+  },
+  render: function(class_name="results") {
+    const button = renderButton(
+      "refreshButton",
+      Language.emoji.refresh,
+      Language.gui.refresh[Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action)
+    button.addEventListener("contextmenu", this.altAction)
+    return button
+  }
+}
+
+/** Button for drawing a search bar, on `#profile` pages' bottom menu bar */
+const searchButton = {
+  action: function() {
+    // Used on pages where the search bar normally doesn't appear
+    const active = Show.searchBar.toggle("bottomSearch")
+    if (active == true) {
+      window.scrollTo(0, document.getElementById("searchInput").offsetTop)
+      document.getElementById("searchInput").focus()
     }
-    Page.redraw(Page.Current);
-  }
-  Show.button.language.hide();   // If language menu open, hide it
-}
-Show.button.flag.render = function(language, class_color) {
-  var button = document.createElement('button');
-  button.classList.add("menu");
-  button.classList.add("flag");
-  button.classList.add(class_color);
-  button.id = language + "LanguageFlag";
-  var content = document.createElement('div');
-  content.className = "buttonContent";
-  var icon = document.createElement('div');
-  icon.className = "buttonIcon";
-  icon.innerText = Language.gui.flag[language];
-  content.appendChild(icon);
-  button.appendChild(content);
-  button.addEventListener("click", Show.button.flag.action);
-  return button;
-}
-Show.button.home = {};
-Show.button.home.action = function() {
-  // Return to the empty search page
-  Page.LastSearch = "#home"
-  Page.home.render();
-  window.location = "#home";
-  Show.button.language.hide();   // If language menu open, hide it
-  Page.Current = Page.home.render
-  // If bottom search bar is showing, remove it
-  Show.searchBar.remove("bottomSearch");
-  window.scrollTo(0, 0);   // Go to the top of the page
-};
-Show.button.home.render = function(class_name="results") {
-  var home = Show.button.render("homeButton", Language.emoji.home, Language.gui.home[Language.Displayed], class_name);
-  home.addEventListener("click", Show.button.home.action);
-  return home;
-}
-Show.button.language = {};
-Show.button.language.action = function() {
-  var language_menu = document.getElementsByClassName("languageMenu")[0];
-  if ((language_menu.style.display == "none") ||
-      (language_menu.style.display == "")) {
-    language_menu.style.display = "table";
-  } else {
-    language_menu.style.display = "none";
+  },
+  render: function(class_name="profile") {
+    const searchButtontext = 
+      Language.gui.search[Language.Displayed].replace("...", "");   // No ellipses
+    const button = renderButton(
+      "searchButton",
+      Language.emoji.search,
+      searchButtonText,
+      class_name)
+    button.addEventListener("click", this.action)
+    return button
   }
 }
-Show.button.language.altAction = function(e) {
-  e.preventDefault();
-  var language = Language.Displayed;
-  var options = Pandas.def.languages;
-  var count = options.length;
-  var choice = (options.indexOf(language) + 1) % count;
-  Language.Displayed = options[choice];
-  Language.update();
-  // Redraw the nearby page if necessary
-  if (Query.env.output_mode == "nearby") {
-    Geo.getNaiveLocation();
-  }
-  Page.redraw(Page.Current);
-  Show.button.language.hide();   // If language menu open, hide it
-}
-Show.button.language.hide = function() {
-  var language_menu = document.getElementsByClassName("languageMenu")[0];
-  language_menu.style.display = "none";
-}
-Show.button.language.render = function(class_name="results") {
-  var language = Show.button.render("languageButton", Language.gui.flag[Language.Displayed], Language.gui.language[Language.Displayed][Language.Displayed], class_name);
-  language.addEventListener("click", Show.button.language.action);
-  language.addEventListener("contextmenu", Show.button.language.altAction);
-  return language;
-}
-Show.button.links = {};
-Show.button.links.action = function() {
-  Page.links.routing();
-  Show.button.language.hide();   // If language menu open, hide it
-}
-Show.button.links.render = function(class_name="results") {
-  var links = Show.button.render("linksButton", Language.emoji.link, Language.gui.links[Language.Displayed], class_name);
-  links.addEventListener("click", Show.button.links.action);
-  return links;
-}
-Show.button.logo = {};
-// The logo button and home button do the same thing, but appear in different spots
-Show.button.logo.action = Show.button.home.action;
-Show.button.logo.render = function(class_name="results") {
-  var logo = Show.button.render("logoButton", Language.emoji.logo, undefined, class_name);
-  logo.classList.add("logo");
-  logo.classList.remove("menu");
-  logo.addEventListener("click", Show.button.logo.action);
-  return logo;
-}
-Show.button.media = {};
-Show.button.media.action = function(panda_id) {
-  Page.media.render();
-  window.location = "#media/" + panda_id;
-  Show.button.language.hide();   // If language menu open, hide it
-  Page.Current = Page.media.render;
-}
-Show.button.media.altAction = function(e) {
-  e.preventDefault();       // Prevent normal right-click menu from firing
-  Page.Current = Page.media.render;
-  var pandaIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
-                              .filter(entity => entity["photo.1"] != undefined)
-                              .map(entity => entity["panda.tags"])
-                              .map(tag_ids => tag_ids.split(", "));
-  pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds));
-  window.location = "#media/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
-  Show.button.language.hide();   // If language menu open, hide it
-  window.scrollTo(0, 0);   // Go to the top of the page
-}
-// Work in progress button, doesn't do anything yet
-Show.button.media.render = function(class_name="profile", panda_id) {
-  var media = Show.button.render("mediaButton", Language.emoji.media, Language.gui.media[Language.Displayed], class_name);
-  media.addEventListener("click", function() {
-    Show.button.media.action(panda_id);
-  });
-  media.addEventListener("contextmenu", Show.button.media.altAction);
-  return media;
-}
-Show.button.message = {};
-// Menu bar content that may have an arbitrary icon and arbitrary text after it.
-Show.button.message.render = function(id, button_icon, button_text, class_name="results") {
-  var button = document.createElement('button');
-  button.className = "menu message";
-  button.classList.add(class_name);
-  button.id = id;
-  var content = document.createElement('div');
-  content.className = "buttonContent message";
-  var icon_div = document.createElement('div');
-  icon_div.className = 'buttonIcon';
-  icon_div.innerText = button_icon;
-  content.appendChild(icon_div);
-  if (button_text != undefined) {
-    var text_div = document.createElement('div');
-    text_div.className = 'buttonText message';
-    text_div.innerText = button_text;
-    content.appendChild(text_div);
-  }
-  button.appendChild(content);
-  return button;  
-}
-Show.button.paging = {};
-Show.button.paging.action = function(callback, parameters, frame_id, class_name) {
-  Show.button.language.hide();   // If language menu open, hide it
-  var paging_data = callback.apply(null, parameters);
-  var new_photos = paging_data["output"];
-  // Append content into the page. HACK: always the first child of the container frame
-  var frame = document.getElementById(frame_id).childNodes[0];
-  for (let new_photo of new_photos) {
-    frame.appendChild(new_photo);
-  }
-  // Update the page count for the next button to use
-  parameters[0] = parameters[0] + 1;
-  // Redraw the footer with the next action, with the correct color (class_name)
-  Page.footer.redraw(class_name)
-  // Increment the shown page counter, in case we want to refresh
-  // after changing the shown language 
-  Query.env.paging.shown_pages = Query.env.paging.shown_pages + 1;
-}
-Show.button.paging.render = function(class_name) {
-  var paging = Show.button.render("pagingButton", Language.emoji.paging, Language.gui.paging[Language.Displayed], class_name);
-  // Get callback function and arguments from Query.env
-  var callback = Query.env.paging.callback.function;
-  var parameters = Query.env.paging.callback.arguments;
-  var frame_id = Query.env.paging.callback.frame_id;
-  paging.addEventListener("click", function() {
-    Show.button.paging.action(callback, parameters, frame_id, class_name);
-  });
-  // English and Japanese text is too wide
-  var text = paging.childNodes[0].childNodes[1];
-  if (Language.Displayed == "ja") {
-    text.classList.add("condensed");
-  } else {
-    text.classList.remove("condensed");
-  }
-  // If we're on a page that needs a "next page" button, display it
-  if (Query.env.paging.display_button == false) {
-    paging.classList.add("hidden");
-  }   
-  return paging;
-}
-Show.button.profile = {};
-Show.button.profile.action = function(panda_id) {
-  Page.profile.render();
-  window.location = "#profile/" + panda_id;
-  Show.button.language.hide();   // If language menu open, hide it
-  Page.Current = Page.profile.render;
-}
-Show.button.profile.altAction = function(e) {
-  e.preventDefault();       // Prevent normal right-click menu from firing
-  Page.Current = Page.profile.render;
-  var pandaIds = P.db.vertices.filter(entity => entity._id > 0)
-                              .filter(entity => entity["photo.1"] != undefined)
-                              .filter(entity => entity.death == undefined)
-                              .map(entity => entity._id);
-  window.location = "#profile/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
-  Show.button.language.hide();   // If language menu open, hide it
-  window.scrollTo(0, 0);   // Go to the top of the page
-}
-Show.button.profile.render = function(class_name="profile", panda_id) {  
-  var profile = Show.button.render("profileButton", Language.emoji.profile, Language.gui.profile[Language.Displayed], class_name);
-  profile.addEventListener("click", function() {
-    Show.button.profile.action(panda_id);
-  });
-  profile.addEventListener("contextmenu", Show.button.profile.altAction);
-  // Japanese text is too wide
-  var text = profile.childNodes[0].childNodes[1];
-  if (Language.Displayed == "ja") {
-    text.classList.add("condensed");
-  } else {
-    text.classList.remove("condensed");
-  }
-  return profile;
-}
-Show.button.random = {};
-Show.button.random.action = function() {
-  // Show a random panda or group set from the database when the dice is clicked
-  Page.Current = Page.results.render;
-  var zooIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
-                            .filter(entity => entity._id < 0)
-                            .filter(entity => entity["photo.1"] != undefined)
-                            .map(entity => entity._id)
-                            .filter(id => Pandas.searchPandaZooCurrent(id).length > 0)
-  var pandaIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
-                              .filter(entity => entity._id > 0)
-                              .filter(entity => entity["photo.1"] != undefined)
-                              .filter(entity => entity.death == undefined)
-                              .map(entity => entity._id);
-  var groupIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
-                              .map(entity => entity["panda.tags"])
-                              .map(tags => tags.split(", ").join(" "))
-                              .filter(function(tags){
-                                // If all animals in the group photo are dead, don't present
-                                var alive = tags.split(" ").map(id => Pandas.searchPandaId(id).death != undefined);
-                                if (alive.every(id => id === true)) {
-                                  return false;
-                                } else {
-                                  return true;
-                                }
-                              });
-  var randomChoices = pandaIds.concat(groupIds).concat(zooIds);
-  window.location = "#query/" + randomChoices[Math.floor(Math.random() * randomChoices.length)];
-  Show.button.language.hide();   // If language menu open, hide it
-  Show.searchBar.remove("bottomSearch");   // When clicked, kill this search bar
-  window.scrollTo(0, 0);   // Go to the top of the page
-}
-Show.button.random.render = function(class_name="results") {
-  var random = Show.button.render("randomButton", Language.emoji.random, Language.gui.random[Language.Displayed], class_name);
-  random.addEventListener("click", Show.button.random.action);
-  return random;
-}
-Show.button.refresh = {};
-Show.button.refresh.action = function() {
-  location.reload(false);   // Reload from cache
-}
-Show.button.refresh.altAction = function(e) {
-  e.preventDefault();       // Prevent normal right-click menu from firing
-  location.reload(true);    // Reload from server
-}
-Show.button.refresh.render = function(class_name="results") {
-  var refresh = Show.button.render("refreshButton", Language.emoji.refresh, Language.gui.refresh[Language.Displayed], class_name);
-  refresh.addEventListener("click", Show.button.refresh.action);
-  refresh.addEventListener("contextmenu", Show.button.refresh.altAction);
-  return refresh;
-}
-Show.button.options = {};
-Show.button.options.action = function() {
-  window.location = "#options";
-}
-Show.button.options.render = function(class_name="results") {
-  var options = Show.button.render("optionsButton", Language.emoji.options, Language.gui.options[Language.Displayed], class_name, "brightness-150");
-  options.addEventListener("click", Show.button.options.action);
-  return options;
-}
-Show.button.render = function(id, button_icon, button_text, class_name, icon_class="") {
-  // Draw menu buttons for the bottom menu, or potentially elsewhere.
-  var button = document.createElement('button');
-  button.className = "menu";
-  button.classList.add(class_name);
-  button.id = id;
-  var content = document.createElement('div');
-  content.className = "buttonContent";
-  var icon_div = document.createElement('div');
-  icon_div.className = 'buttonIcon';
-  if (icon_class) {
-    icon_div.classList.add(icon_class);
-  }
-  icon_div.innerText = button_icon;
-  content.appendChild(icon_div);
-  if (button_text != undefined) {
-    var text_div = document.createElement('div');
-    text_div.className = 'buttonText';
-    text_div.innerText = button_text;
-    content.appendChild(text_div);
-  }
-  button.appendChild(content);
-  return button;
-}
-Show.button.search = {};
-Show.button.search.action = function() {
-  // Used on pages where the search bar normally doesn't appear
-  var active = Show.searchBar.toggle("bottomSearch");
-  if (active == true) {
-    window.scrollTo(0, document.getElementById("searchInput").offsetTop);
-    document.getElementById("searchInput").focus();
+
+/** 
+ * Generate buttons for inside the links page, or for other sectional pages 
+ * that need to be live-generated by Javascript
+ */
+const sectionButton = {
+  render: function(classes, id, body_text) {   
+    const button = document.createElement('button')
+    button.className = classes   // Space-delimited classes == multiple classes
+    button.id = id
+    const button_text = document.createElement('div')
+    button_text.className = "sectionMenuItem"
+    button_text.innerText = body_text
+    button.appendChild(button_text)
+    return button
   }
 }
-Show.button.search.render = function(class_name="profile") {
-  var buttonText = Language.gui.search[Language.Displayed].replace("...", "");   // No ellipses
-  var search = Show.button.render("searchButton", Language.emoji.search, buttonText, class_name);
-  search.addEventListener("click", Show.button.search.action);
-  return search;
-}
-Show.button.section = {};
-Show.button.section.render = function(classes, id, body_text) {
-  // Generate buttons for inside the links page, or for other sectional pages 
-  // that need to be live-generated by Javascript
-  var button = document.createElement('button');
-  button.className = classes;   // Space-delimited classes == multiple classes
-  button.id = id;
-  var button_text = document.createElement('div');
-  button_text.className = "sectionMenuItem";
-  button_text.innerText = body_text;
-  button.appendChild(button_text);
-  return button;
-}
-Show.button.top = {};
-Show.button.top.action = function() {
-  // anchor tags get used for JS redraws, so don't use an anchor tag for
-  // top-of-page scroll events. This fixes the language button after clicking pageTop.
-  Show.button.language.hide();   // If language menu open, hide it
-  window.scrollTo(0, 0);
-}
-Show.button.top.render = function(class_name="results") {
-  var top = Show.button.render("topButton", Language.emoji.top, Language.gui.top[Language.Displayed], class_name);
-  top.addEventListener("click", Show.button.top.action);
-  return top;
-}
-Show.button.tree = {};
-// Work in progress button, doesn't do anything yet
-Show.button.tree.render = function(class_name="profile") {
-  var tree = Show.button.render("treeButton", Language.emoji.wip, Language.gui.family[Language.Displayed], class_name);
-  // Japanese text is too wide
-  var text = tree.childNodes[0].childNodes[1];
-  if (Language.Displayed == "ja") {
-    text.classList.add("condensed");
-  } else {
-    text.classList.remove("condensed");
+
+/** The top-button for scrolling back to the top of a page */
+export const topButton = {
+  action: function() {
+    // anchor tags get used for JS redraws, so don't use an anchor tag for
+    // top-of-page scroll events. This fixes the language button after clicking pageTop.
+    languageButton.hide()   // If language menu open, hide it
+    window.scrollTo(0, 0)
+  },
+  render: function(class_name="results") {
+    const button = renderButton(
+      "topButton",
+      Language.emoji.top,
+      Language.gui.top[Language.Displayed],
+      class_name)
+    button.addEventListener("click", this.action)
+    return button
   }
-  return tree;
+}
+
+/** The family tree button in the `#profile` page doesn't do anything yet */
+const treeButton = {
+  render: function(class_name="profile") {
+    const button = renderButton(
+      "treeButton",
+      Language.emoji.wip,
+      Language.gui.family[Language.Displayed],
+      class_name)
+    // Japanese text is too wide
+    const text = button.childNodes[0].childNodes[1]
+    if (Language.Displayed == "ja")
+      text.classList.add("condensed")
+    else
+      text.classList.remove("condensed")
+    return button
+  }
 }
 
 /*
@@ -1514,7 +1616,7 @@ Show.landing.menus.language = function(class_color) {
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   for (let language of languages) {
-    var button = Show.button.flag.render(language, class_color);
+    var button = flagButton.render(language, class_color);
     shrinker.appendChild(button);
   }
   // Swap updated menu into the page when rendering
@@ -2800,7 +2902,7 @@ Show.searchBar.submit = function() {
       document.getElementById('searchInput').focus({preventScroll: true});
     }, 0);
   }
-  Show.button.language.hide();   // If language menu open, hide it
+  languageButton.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.searchBar.toggle = function(frame_id) {

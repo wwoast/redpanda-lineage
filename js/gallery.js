@@ -487,7 +487,7 @@ export function familyProfilePhoto(
   animal_text.className = "caption familyName"
   animal_text.innerText = info["name"]
   animal_name.appendChild(animal_text)
-  animal_name.addEventListener("click", Show.button.top.action)
+  animal_name.addEventListener("click", Show.topButton.action)
   container.appendChild(animal_name)
   // Family title caption.
   if (relationship != undefined) {
