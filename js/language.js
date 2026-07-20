@@ -2836,12 +2836,17 @@ export const polyglots = {
   }
 }
 
-// Search tag translations for searching photos by metadata.
-// Limit to 100 photos returned by default, but they don't 
-// have to be the same 100 returned each time.
-// TODO: duplicate tag management (baby)
-// TODO: romanji for japanese terms
-export const tags = {
+/**
+ * Search tag translations for searching photos by metadata. Use `init()` to
+ * ensure alternate capitalizations here. Use `var` to ensure it is hoisted
+ * above parser logic when importing.
+ * 
+ * Limit to 100 photos returned by default, but they don't 
+ * have to be the same 100 returned each time.
+ * TODO: duplicate tag management (baby)
+ * TODO: romanji for japanese terms
+ */
+export var tags = {
   "air tasting": {
     "emoji": [emoji.tongue + 
               emoji.butterfly],

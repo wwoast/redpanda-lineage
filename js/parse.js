@@ -362,12 +362,8 @@ class Lexer {
     },
   }
 
-  constructor() {
-    build_wordlist()
-  }
-
   /** Build a wordlist of terms with spaces in them */
-  build_wordlist() {
+  constructor() {
     /** 
      * Filter for terms with spaces, and track which term has the
      * most spaces in it, so the lexer knows how many terms to grab

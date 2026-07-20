@@ -49,7 +49,7 @@ export const env = {
   /** Credit for photos being shown */
   preserve_case: false,
   /** If a URI indicates a specific photo, indicate which one here */
-  specific_photo: undefined
+  specific_photo: undefined,
 }
 
 /** Resolve the query string into something */
