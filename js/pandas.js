@@ -1877,8 +1877,8 @@ export function sortPhotosByName(photo_list, name_field) {
 
 export function sortOldestToYoungest(nodes) {
   return nodes.sort(function(a, b) {
-    time_a = parseInt(new Date(a.birthday).getTime())
-    time_b = parseInt(new Date(b.birthday).getTime())
+    const time_a = parseInt(new Date(a.birthday).getTime())
+    const time_b = parseInt(new Date(b.birthday).getTime())
     if (time_a > time_b) {
       return 1
     } else if (time_a < time_b) {
@@ -1891,8 +1891,8 @@ export function sortOldestToYoungest(nodes) {
 
 export function sortYoungestToOldest(nodes) {
   return nodes.sort(function(a, b) {
-    time_a = parseInt(new Date(a.birthday).getTime())
-    time_b = parseInt(new Date(b.birthday).getTime())
+    const time_a = parseInt(new Date(a.birthday).getTime())
+    const time_b = parseInt(new Date(b.birthday).getTime())
     if (time_a < time_b) {
       return 1
     } else if (time_a > time_b) {
