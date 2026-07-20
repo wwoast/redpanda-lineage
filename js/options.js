@@ -1,5 +1,5 @@
 /** All available options / default values */
-export const Data = {
+export let Data = {
   hideDeadPandas: false
 }
 
