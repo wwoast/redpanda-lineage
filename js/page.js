@@ -13,18 +13,6 @@ import * as Show from './show.js'
  * are smaller modes with their own encapsulated state.
  */
 
-/** 
- * Stores callback to the current page render function for redraws.
- * Default mode is to show panda results.
- */
-export let Current = results.render
-
-/** 
- * When un-clicking Links/About, go back to the last page viewed, or possibly
- * the last panda you searched for.
- */
-export let LastSearch = "#home"
-
 /**
  * Manage the background color of the page. Profiles/Results page have different 
  * colors. This mostly impacts how things look when you try and scroll on mobile
@@ -1077,3 +1065,15 @@ class Routes {
 
 /** Singleton class representing the redpandafinder routing behavior */
 export const routes = new Routes()
+
+/** 
+ * When un-clicking Links/About, go back to the last page viewed, or possibly
+ * the last panda you searched for.
+ */
+export var LastSearch = "#home"
+
+/** 
+ * Stores callback to the current page render function for redraws.
+ * Default mode is to show panda results.
+ */
+export var Current = results.render
