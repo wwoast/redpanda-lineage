@@ -86,7 +86,7 @@ function permutations(input) {
  * For now, these vertical flow details only exist in mobile mode, so we can
  * turn them off when setting height values outside mobile.
  */
-function recomputeHeight(e) {
+export function recomputeHeight(e) {
   const families = document.getElementsByClassName("family")
   if ((e.matches == false) || (e.type == "DOMContentLoaded")) {
     // Not in a mobile mode

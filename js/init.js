@@ -1,7 +1,7 @@
 import * as Geo from './geolocate.js'
 import * as Icons from './icons.js'
 import * as Language from './language.js'
-import { mediaQuery, recomputeHeight, shrinkNames } from './layout.js'
+import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
 import * as Pandas from './pandas.js'
@@ -42,8 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
   Page.routes.check()   // See if we started on the about page
   Language.update()     // Update buttons, displayed results, and cookie state
   Page.redraw(Page.Current)   // Ready to redraw? Let's go.
-  // If rendering any search results for families, update the div height
-  recomputeHeight()
   // Most RPF pages won't save your place on the page on purpose,
   // because refresh events don't put you at the top of page properly
   // work properly when this is enabled. However, leave it on for the
