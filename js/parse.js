@@ -242,7 +242,7 @@ const keyword = {
  * Groups of language-independent parser keywords indexed by the primary
  * English example of that keyword.
  */
-export var group = {
+export const group = {
   /** Valid _baby_ keywords */
   baby: values([keyword.baby]),
   /** Valid _born_ keywords */
@@ -270,7 +270,6 @@ export var group = {
   /** Keywords that take some kind of author or contributor name */
   takes_subject_author: values([keyword.credit]),
   /** Keywords that take some form of arbitrary string name */
-  // TODO ES6
   takes_subject_name: values([
     Language.tags,
     keyword.baby,

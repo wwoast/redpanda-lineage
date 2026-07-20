@@ -2,17 +2,14 @@ import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 
-/*
-    Language fallback methods
-*/
-
 /** The current display language for redpandafinder */
 export let Displayed = undefined
 
-
-// TODO: do it for all the latin languages, not just english
+/** 
+ * Construct tag lists with arbitrary capitalization. TODO: do this for other
+ * latin-alphabet languages (not just English)
+ */
 export function init() {
-  // Construct tag lists with arbitrary capitalization
   for (let tag in tags) {
     var en_tags = tags[tag]["en"]
     var first_cap = en_tags.map(x => capitalize(x, "first"))
@@ -2846,7 +2843,7 @@ export const polyglots = {
  * TODO: duplicate tag management (baby)
  * TODO: romanji for japanese terms
  */
-export var tags = {
+export const tags = {
   "air tasting": {
     "emoji": [emoji.tongue + 
               emoji.butterfly],
@@ -4242,9 +4239,8 @@ export function update() {
     }
   }
   // On the Links page? Redraw it
-  if ((window.location.hash == "#links") && (P.db != undefined)) {
+  if ((window.location.hash == "#links") && (P.db != undefined))
     Page.links.render()
-  }
   // Update the placeholder text for a search bar
   if (document.forms['searchForm'] != undefined) {
     if (P.db == undefined) {
