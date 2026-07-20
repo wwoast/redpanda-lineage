@@ -20,7 +20,7 @@ function values(input) {
       }
     })
   }
-  return results;
+  return results
 }
 
 /**
@@ -266,7 +266,6 @@ export const group = {
   /** Valid _panda_ keywords */
   panda: values([keyword.panda]),
   /** Aggregate of all possible tag values */
-  // TODO ES6
   tags: values([Language.tags]),
   /** Keywords that take some kind of author or contributor name */
   takes_subject_author: values([keyword.credit]),

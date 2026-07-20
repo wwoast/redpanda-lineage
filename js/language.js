@@ -10,10 +10,8 @@ import * as Query from './query.js'
 export let Displayed = undefined
 
 
-// TODO ES6: get rid of Language.L and just use state here, as well as in
-// localStorage. Still need init to do the tag list processing, but
 // TODO: do it for all the latin languages, not just english
-Language.init = function() {
+export function init() {
   // Construct tag lists with arbitrary capitalization
   for (let tag in tags) {
     var en_tags = tags[tag]["en"]
@@ -26,9 +24,7 @@ Language.init = function() {
   }
 }
 
-/*
-   Language elements translatable in the GUI
-*/
+/** Language elements translatable in the GUI */
 
 /**
  * Types of alphabets, so we can fall back to an alphabet that someone is
