@@ -1667,31 +1667,6 @@ export const linksSections = {
   }
 }
 
-/** The media page's menus are equivalent to the profile page */
-export const mediaMenus = profileMenus
-
-/**
- * Show functions used by the media page for a single animal (group photos).
- * Has to be defined after the profiles page since it refers to that logic
- */
-export const mediaPage = {
-  gallery: function(animal, language) {
-    const gallery = Gallery.groupPhotosPage(0, [animal["_id"]], 10)["output"]
-    const info = acquirePandaInfo(animal, language)
-    this.nameBar(info)
-    const result = document.createElement('div')
-    result.className = "mediaFrame"
-    for (const photo of gallery)
-      result.appendChild(photo)
-    if (gallery.length < 1)
-      result.appendChild(
-        emptyResult(Language.messages.no_group_media_result, Language.Displayed))
-    return result
-  },
-  nameBar: profilePage.nameBar,
-  searchBar: profilePage.searchBar
-}
-
 /** 
  * The menus used by the profile page for a single animal. Our language menu
  * behaves consistently with the landing page language menu, so just adopt it
@@ -2119,6 +2094,35 @@ export const resultsMenus = {
       return menu
     }
   }
+}
+
+/** 
+ * The media page's menus are equivalent to the profile page. This means we
+ * need to define the mediaPage stuff after the profilePage stuff, so we don't
+ * end up in a temporal dead-zone (TDZ)
+ */
+export const mediaMenus = profileMenus
+
+/**
+ * Show functions used by the media page for a single animal (group photos).
+ * Has to be defined after the profiles page since it refers to that logic
+ */
+export const mediaPage = {
+  gallery: function(animal, language) {
+    const gallery = Gallery.groupPhotosPage(0, [animal["_id"]], 10)["output"]
+    const info = acquirePandaInfo(animal, language)
+    this.nameBar(info)
+    const result = document.createElement('div')
+    result.className = "mediaFrame"
+    for (const photo of gallery)
+      result.appendChild(photo)
+    if (gallery.length < 1)
+      result.appendChild(
+        emptyResult(Language.messages.no_group_media_result, Language.Displayed))
+    return result
+  },
+  nameBar: profilePage.nameBar,
+  searchBar: profilePage.searchBar
 }
 
 /** Show functions used by the search results cards / pages */
