@@ -2843,7 +2843,7 @@ export const polyglots = {
  * TODO: duplicate tag management (baby)
  * TODO: romanji for japanese terms
  */
-export const tags = {
+export var tags = {
   "air tasting": {
     "emoji": [emoji.tongue + 
               emoji.butterfly],
