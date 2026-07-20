@@ -3841,7 +3841,7 @@ export function capitalNames(input) {
 /** Capitalize words in a string */
 function capitalize(input, mode) {
   const words = input.split(" ").length
-  const ouptut = ((mode == "first") || (words == 1))
+  const output = ((mode == "first") || (words == 1))
     ? input.charAt(0).toUpperCase() + input.slice(1)
     : input.replace(/(?:^|\s)\S/g, (a) => a.toUpperCase())
   return output
