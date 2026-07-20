@@ -79,7 +79,7 @@ export function redraw(callback) {
  * content using an XHR. Like all objects representing page state, this is a
  * singleton object for the current browser tab.
  */
-class About {
+class AboutPage {
   /** The page body to render or restore for the About page */
   content = undefined
 
@@ -300,9 +300,9 @@ class About {
  * Singleton class representing the About page with settings for which
  * submenu of the About page was last viewed.
  */
-export const about = new About()
+export const about = new AboutPage()
 
-class Footer {
+class FooterComponent {
   /** Add or refresh the footer at the bottom of the page */
   redraw(page_mode="results") {
     const body = document.getElementsByTagName('body')[0]
@@ -396,13 +396,14 @@ class Footer {
  * Singleton class representing the Footer that gets drawn at the bottom of
  * most (but not all) modes for redpandafinder.
  */
-export const footer = new Footer()
+export const footer = new FooterComponent()
 
 /** Logic for drawing the redpandafinder landing page. */
-class Home {
+class HomePage {
   /** 
    * Render an instance of the redpandafinder landing/home page with
-   * randomized content from the `redpanda.json` database */
+   * randomized content from the `redpanda.json` database
+   */
   render() {
     // No need for paging on the home page
     Query.env.paging.display_button = false
@@ -549,10 +550,10 @@ class Home {
 }
 
 /** Singleton class representing the Home / landing page for redpandafinder */
-export const home = new Home()
+export const home = new HomePage()
 
 /** Logic related to the Links page. */
-class Links {
+class LinksPage {
   /** The page body to render or restore for the Links page */
   content = undefined
 
@@ -630,13 +631,13 @@ class Links {
 }
 
 /** Singleton class representing the Links pagefor redpandafinder */
-export const links = new Links()
+export const links = new LinksPage()
 
 /**
  * The media page displays group photos for an individual panda. It's part of
  * the "profile" group of pages that show information about a specific animal.
  */
-class Media {
+class MediaPage {
   render() {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
@@ -669,13 +670,13 @@ class Media {
  * Singleton class representing the Media page, mostly for consistency with the
  * other class-based page objects.
  */
-export const media = new Media()
+export const media = new MediaPage()
 
 /** 
  * Logic related to the "Options" page. Like all objects representing page
  * state, they are singleton objects for the current browser tab.
  */
-class Options {
+class OptionsPage {
   /** The page body to render or restore for the Options page */
   content = undefined
 
@@ -706,10 +707,10 @@ class Options {
  * Singleton class representing the Options page with settings for changing
  * what content a user sees by default in redpandafinder.
  */
-export const options = new Options()
+export const options = new OptionsPage()
 
 /** The profiles page display details for an individual panda */
-class Profile {
+class ProfilePage {
   qr_update = new Event('qr_update')
 
   render() {
@@ -758,14 +759,14 @@ class Profile {
  * Singleton class representing the Profile page, mostly for consistency with
  * the other class-based page objects.
  */
-export const profile = new Profile()
+export const profile = new ProfilePage()
 
 /** 
  * Logic related to the results page output. The main render function chooses
  * between other results rendering modes, and we'll likely add many more as
  * time goes on.
  */
-class Results {
+class ResultsPage {
   /** Given a search for pandas or zoos, output entity divs */
   entities(results) {
     let content_divs = []
@@ -923,7 +924,7 @@ class Results {
  * Singleton class representing the Results page, mostly for consistency with
  * the other class-based page objects.
  */
-export const results = new Results()
+export const results = new ResultsPage()
 
 /**
  * Logic related to redpandafidner page routing, implemented as behavior around
