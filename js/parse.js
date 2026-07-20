@@ -528,7 +528,7 @@ class Tree {
   }
 
   constructor() {
-    build_grammar()
+    this.build_grammar()
   }
 
   /** Build a grammar for making parse trees with. */
