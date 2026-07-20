@@ -38,7 +38,7 @@
     version 0.3.4
 */
 
-export default Dagoba = {}  // the namespace
+const Dagoba = {}  // the namespace
 
 Dagoba.G = {}; // the prototype
 
@@ -499,3 +499,5 @@ Dagoba.extend = function (list, defaults) {
 Dagoba.remove = function (list, item) {
   return list.splice(list.indexOf(item), 1);
 };
+
+export default Dagoba;
