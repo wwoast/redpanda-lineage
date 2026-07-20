@@ -4,7 +4,7 @@ import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
-import { init as initPandas } from './pandas.js'
+import * as Pandas from './pandas.js'
 import * as Query from './query.js'
 import * as ScrollTop from './scrollTop.js'
 import * as Show from './show.js'
@@ -31,7 +31,7 @@ import * as Show from './show.js'
 
 /** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
-  initPandas()
+  Pandas.init()
   Geo.init()   // Set units for distance tracking based on browser locale
   ScrollTop.init()
   Options.init()

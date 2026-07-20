@@ -145,7 +145,7 @@ function renderGeoLookupStart() {
   newContent.id = "contentFrame"
   const shrinker = document.createElement('div')
   shrinker.className = "shrinker"
-  const message = Message.geolocationStart(LanguageLanguage.Displayed)
+  const message = Message.geolocationStart(Language.Displayed)
   shrinker.appendChild(message)
   newContent.appendChild(shrinker)
   // Redraw the search bar if necessary

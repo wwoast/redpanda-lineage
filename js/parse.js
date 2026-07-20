@@ -3,27 +3,6 @@ import * as Language from './language.js'
 import P, * as Pandas from './pandas.js'
 
 /**
- * Get a list of valid operators (the leaf children) of the different keyword
- * arrays. Return the result as a single-level array.
- * TODO: use Javascript sets instead?
- */
-function values(input) {
-  let results = []
-  if (typeof input != "object") {
-    results = results.concat(input)
-  } else {
-    Object.values(input).forEach(function(subinput) {
-      if (typeof subinput != "object") {
-        results = results.concat(subinput)
-      } else {
-        results = results.concat(values(subinput))
-      }
-    })
-  }
-  return results
-}
-
-/**
  * Given a search tag, find the equivalent term for that tag that is
  * standardized on in the panda files, and return results for that tag.
  * Searches all language keywords for a tag.
@@ -37,13 +16,13 @@ export function searchTag(search_tag) {
     search_tag = search_tag.toLowerCase()
   // Now search the tags list for a match
   for (const key of Object.keys(Language.tags)) {
-    const terms = values(Language.tags[key])
+    const terms = Pandas.values(Language.tags[key])
     if (terms.includes(search_tag))
       return key
   }
   // Search things that could be tags in the right context
   for (const key of Object.keys(Language.polyglots)) {
-    const terms = values(Language.polyglots[key])
+    const terms = Pandas.values(Language.polyglots[key])
     if (terms.includes(search_tag))
       return key
   }
@@ -244,33 +223,33 @@ const keyword = {
  */
 export const group = {
   /** Valid _baby_ keywords */
-  baby: values([keyword.baby]),
+  baby: Pandas.values([keyword.baby]),
   /** Valid _born_ keywords */
-  born: values([keyword.born]),
+  born: Pandas.values([keyword.born]),
   /** Valid _born at_ keywords */
-  born_at: values([keyword.born_at]),
+  born_at: Pandas.values([keyword.born_at]),
   /** Valid _credit_ keywords */
-  credit: values([keyword.credit]),
+  credit: Pandas.values([keyword.credit]),
   /** Valid _dead_ keywords */
-  dead: values([keyword.dead]),
+  dead: Pandas.values([keyword.dead]),
   /** Valid _died at_ keywords */
-  died_at: values([keyword.died_at]),
+  died_at: Pandas.values([keyword.died_at]),
   /** Valid _family_ keywords */
-  family: values([keyword.family]),
+  family: Pandas.values([keyword.family]),
   /** Valid keywords _of any type_ */
-  keywords: values([keyword]),
+  keywords: Pandas.values([keyword]),
   /** Valid _lived at_ keywords */
-  lived_at: values([keyword.lived_at]),
+  lived_at: Pandas.values([keyword.lived_at]),
   /** Valid _nearby_ keywords */
-  nearby: values([keyword.nearby]),
+  nearby: Pandas.values([keyword.nearby]),
   /** Valid _panda_ keywords */
-  panda: values([keyword.panda]),
+  panda: Pandas.values([keyword.panda]),
   /** Aggregate of all possible tag values */
-  tags: values([Language.tags]),
+  tags: Pandas.values([Language.tags]),
   /** Keywords that take some kind of author or contributor name */
-  takes_subject_author: values([keyword.credit]),
+  takes_subject_author: Pandas.values([keyword.credit]),
   /** Keywords that take some form of arbitrary string name */
-  takes_subject_name: values([
+  takes_subject_name: Pandas.values([
     Language.tags,
     keyword.baby,
     keyword.credit,
@@ -279,7 +258,7 @@ export const group = {
     keyword.zoo
   ]),
   /** Keywords that take some form of numeric ID value */
-  takes_subject_number: values([
+  takes_subject_number: Pandas.values([
     Language.tags,
     keyword.born_at,
     keyword.died_at,
@@ -289,27 +268,26 @@ export const group = {
     keyword.zoo
   ]),
   /** Keywords that take some kind of numeric year value */
-  takes_subject_year: values([
+  takes_subject_year: Pandas.values([
     keyword.baby,
     keyword.born,
     keyword.dead
   ]),
   /** Keywords that take some kind of full date string */
-  takes_subject_date: values([
+  takes_subject_date: Pandas.values([
     keyword.baby,
     keyword.born,
     keyword.dead
   ]),
   /** Single keywords that represent queries on their own */
-  // TODO ES6
-  zeroary: values([
+  zeroary: Pandas.values([
     Language.tags,
     keyword.baby,
     keyword.dead,
     keyword.nearby
   ]),
   /** Valid _zoo_ keywords */
-  zoo: values([keyword.zoo])
+  zoo: Pandas.values([keyword.zoo])
 }
 
 /** Namespace collecting types of strings we parse with regular expressions */
@@ -416,7 +394,7 @@ class Lexer {
       const input_split = this.split(input)
       for (let n = max_spaces; n > 0; n--) {
         for (let i = 0; i < input_split.length - n; i++) {
-          let token = input_split.slice(i, i+n+1).join(' ');
+          let token = input_split.slice(i, i+n+1).join(' ')
           // Name matching needs to use locale-specific normalizing
           if (list_name == "names")
             token = Language.capitalNames(token)

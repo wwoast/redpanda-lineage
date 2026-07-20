@@ -1,6 +1,5 @@
 import Dagoba from './dagoba.js'
 import * as Language from './language.js'
-import * as Parse from './parse.js'
 
 /** 
  * Logic for a Red Panda database search form.
@@ -756,6 +755,31 @@ export function unique(array, field) {
     }
   }
   return array
+}
+
+/**
+ * Get a list of valid values (the leaf children) of the different keyword
+ * arrays. Return the result as a single-level array.
+ * 
+ * This is used to build lists of operators in `parse.js` but is in `pandas.js`
+ * to account for import cycles in classes.
+ * 
+ * TODO: use Javascript sets instead?
+ */
+export function values(input) {
+  let results = []
+  if (typeof input != "object") {
+    results = results.concat(input)
+  } else {
+    Object.values(input).forEach(function(subinput) {
+      if (typeof subinput != "object") {
+        results = results.concat(subinput)
+      } else {
+        results = results.concat(values(subinput))
+      }
+    })
+  }
+  return results
 }
 
 /** Methods for searching on Red Pandas */
@@ -2064,7 +2088,7 @@ export function groupMediaCaption(entity, photo_index) {
     }
   }
   // Replace "baby, baby, baby" with group term
-  if ((Parse.values(Language.polyglots["baby"]).includes(animals[0].name)) &&
+  if ((values(Language.polyglots["baby"]).includes(animals[0].name)) &&
       (unique(animals, "name").length == 1)) {
     output_string = Language.gui["babies"][Language.Displayed]
   }
