@@ -2750,7 +2750,7 @@ export const resultsPage = {
     return ul
   },
   /** This is the purple "dossier" information stripe for a zoo. */
-  zooDetails = function(info) {
+  zooDetails: function(info) {
     const address = document.createElement('p')
     const address_link = document.createElement('a')
     address_link.innerText = `${Language.emoji.travel} ${info.address}`
