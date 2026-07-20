@@ -2560,7 +2560,7 @@ export const resultsPage = {
    *   -- order them oldest to youngest
    */
   zooAnimals: function(zoo, language) {
-    function animals_to_divs(animals) {
+    const animals_to_divs = (animals) => {
       const output_divs = []
       // TODO ES6: this scope here
       animals.forEach(animal =>

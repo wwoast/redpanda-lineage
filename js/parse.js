@@ -369,7 +369,7 @@ class Lexer {
      * most spaces in it, so the lexer knows how many terms to grab
      * at once when it starts with its greediest matches
      */
-    function word_filter(token, list_name) {
+    const word_filter = (token, list_name) => {
       if (token.includes(' ')) {
         const space_count = token.replace(/\S/g, '').length
         if (space_count > this.terms[list_name].max_spaces) {
