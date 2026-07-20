@@ -340,7 +340,7 @@ class Lexer {
   }
 
   /** Build a wordlist of terms with spaces in them */
-  constructor() {
+  build_wordlist() {
     /** 
      * Filter for terms with spaces, and track which term has the
      * most spaces in it, so the lexer knows how many terms to grab
@@ -360,7 +360,6 @@ class Lexer {
     this.terms.tags.list = group.tags
       .filter(tag => word_filter(tag, "tags")).sort()
     // It's sorted in Python but this gets us word counts
-    // TODO ES6
     this.terms.names.list = P.db['_lexer'].names
       .filter(name => word_filter(name, "names")).sort()
   }
@@ -371,6 +370,16 @@ class Lexer {
    * doesn't support newlines, so that's a natural delimiter to use here
    */
   generate(input) {
+    // Validate we have built our wordlists to draw from. We can't do this in
+    // a constructor because the class instantiates at module load time, and
+    // `language.js` lookup tables may not be finished loading
+    const wordListLength =  
+      this.terms.keywords.list.length + 
+      this.terms.names.list.length +
+      this.terms.tags.list.length
+    if (wordListLength == 0)
+      this.build_wordlist()
+    // Now process the input
     const split_input = this.split(input)
     let delimited_input = split_input.join('\n')
     const space_tokens = this.process(input)

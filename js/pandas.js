@@ -762,7 +762,7 @@ export function unique(array, field) {
  * arrays. Return the result as a single-level array.
  * 
  * This is used to build lists of operators in `parse.js` but is in `pandas.js`
- * to account for import cycles in classes.
+ * to avoid circular imports between those classes.
  * 
  * TODO: use Javascript sets instead?
  */
