@@ -24,14 +24,14 @@ export const env = {
    * However, other output modes are supported based on the supplied types. The
    * _credit_ search shows a spread of photos credited to a particular user.
    */
-  output_mode = "entities",
+  output_mode: "entities",
   /** Details about paging through search results */
   paging: {
     /** 
      * Callback for how the next button loads new content on this page,
      * and what frame DIV it spools that content into.
      */
-    callback = {
+    callback: {
       /** Page number must always come first in the arguments list */
       arguments: [],
       function: undefined,
@@ -49,7 +49,7 @@ export const env = {
   /** Credit for photos being shown */
   preserve_case: false,
   /** If a URI indicates a specific photo, indicate which one here */
-  specific_photo: undefined,
+  specific_photo: undefined
 }
 
 /** Resolve the query string into something */
