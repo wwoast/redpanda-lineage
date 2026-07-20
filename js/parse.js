@@ -1,4 +1,4 @@
-import * as jsleri from './jsleri-1.1.13.min.js'
+import * as Jsleri from './jsleri-1.1.15.js'
 import * as Language from './language.js'
 import P, * as Pandas from './pandas.js'
 
@@ -533,13 +533,13 @@ class Tree {
 
   /** Build a grammar for making parse trees with. */
   build_grammar() {
-    const Choice = jsleri.Choice
-    const Grammar = jsleri.Grammar
-    const Keyword = jsleri.Keyword
-    const Prio = jsleri.Prio
-    const Regex = jsleri.Regex
-    const Repeat = jsleri.Repeat
-    const Sequence = jsleri.Sequence
+    const Choice = Jsleri.Choice
+    const Grammar = Jsleri.Grammar
+    const Keyword = Jsleri.Keyword
+    const Prio = Jsleri.Prio
+    const Regex = Jsleri.Regex
+    const Repeat = Jsleri.Repeat
+    const Sequence = Jsleri.Sequence
     // Take a list of keywords/operators and turn it into a choice
     // NOTE: Choice.apply(Choice, keyword) == Choice(...keyword)
     function Choices(keyword_list) {
