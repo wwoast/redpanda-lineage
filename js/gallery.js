@@ -405,8 +405,7 @@ export function creditPhotos(results, language, max_hits) {
  */
 function creditPhotosPage(page, results, language, max_hits) {
   let grab_photos = []
-  let content_photos = [];
-  let content_divs = [];
+  let content_divs = []
   const initial_max_hits = max_hits
   // We must unspool the results because each entity we query here can have multiple
   // results returned, and the paging must only return the first max_hits content.
@@ -417,9 +416,9 @@ function creditPhotosPage(page, results, language, max_hits) {
       : grab_photos.concat(
           pandaPhotoCredits(entity, results["subject"], language))
   }
-  const starting_point = page * Query.env.paging.results_count;
+  const starting_point = page * Query.env.paging.results_count
   // Working copy of photo set, starting at the nth page of photos
-  const content_photos = grab_photos.slice(starting_point);
+  let content_photos = grab_photos.slice(starting_point)
   const hit_count = content_photos.length
   // Refresh, but show more than just the normal photo_count
   // TODO: this may not work across history changes
