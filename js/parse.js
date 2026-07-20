@@ -520,7 +520,7 @@ class Tree {
   tests = {
     composite: this.types.composite.map(t => ({"type": t})),
     keyword: this.types.keyword.map(t => ({"type": t})),
-    sets: this.types.sets.map(t => ({"type": t})),
+    sets: this.sets.map(t => ({"type": t})),
     singular: this.types.singular.map(t => ({"type": t})),
     subject: this.types.subject.map(t => ({"type": t})),
     subject_author: this.types.subject_author.map(t => ({"type": t})),
