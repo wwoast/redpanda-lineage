@@ -214,7 +214,7 @@ export default class Layout {
      * Cutoffs for the number of columns in a multi-column list. `m[2] = 4`
      * here means a two-column list must have greater than 4 items in it.
      */ 
-    cutoffs = [0, 0, 4, 8, 16],
+    cutoffs: [0, 0, 4, 8, 16],
     /**
      * Distance in list-count since the last divider. When this gets to two,
      * or after a flat element, a divider should be added
