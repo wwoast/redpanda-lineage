@@ -242,7 +242,7 @@ const keyword = {
  * Groups of language-independent parser keywords indexed by the primary
  * English example of that keyword.
  */
-export const group = {
+export var group = {
   /** Valid _baby_ keywords */
   baby: values([keyword.baby]),
   /** Valid _born_ keywords */
@@ -381,11 +381,11 @@ class Lexer {
     this.terms.keywords.list = group.keywords
       .filter(kw => word_filter(kw, "keywords")).sort()
     this.terms.tags.list = group.tags
-      .filter(kw => word_filter(kw, "tags")).sort()
+      .filter(tag => word_filter(tag, "tags")).sort()
     // It's sorted in Python but this gets us word counts
     // TODO ES6
     this.terms.names.list = P.db['_lexer'].names
-      .filter(kw => word_filter(kw, "names")).sort()
+      .filter(name => word_filter(name, "names")).sort()
   }
 
   /**
