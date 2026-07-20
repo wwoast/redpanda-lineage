@@ -10,7 +10,7 @@
  *  copyright 2015, Jeroen van der Heijden (Cesbit)
  */
 
-var version = process.env.VERSION || '';
+var version = '1.1.15'
 
 // dummy function which can be used as alternative for onEnter and onExit methods
 var noop = function () {};
