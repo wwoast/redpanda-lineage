@@ -10,7 +10,7 @@ import * as Language from './language.js'
 const loaded = new Event('panda_data')
 
 /** Object with all the `redpanda.json` data backs redpandafinder */
-export default P = {}
+let P = {}
 
 /** The Dagoba graph built from the panda data is private to this module */
 let G = {}
@@ -2494,3 +2494,6 @@ export function zooName(zoo, language) {
 export function zooField(zoo, field) {
   return zoo[field] == undefined ? def.zoo[field] : zoo[field]
 }
+
+/** Export the red panda data for anything to use */
+export default P
