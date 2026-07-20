@@ -75,7 +75,7 @@ class AboutPage {
   language = undefined
 
   /** Event representing the About page was successfully fetched */
-  loaded = new Event('about_loaded');
+  loaded = new Event('about_loaded')
 
   /** 
    * Fetch the about page contents, and add the event listeners for how section
@@ -87,7 +87,7 @@ class AboutPage {
     request.open('GET', fetch_url)
     request.responseType = 'document'
     request.send()
-    request.onload = function() {
+    request.onload = () => {
       this.content = request.response.getElementById('hiddenContentFrame')
       this.language = Language.Displayed   // Language the content was loaded in
       window.dispatchEvent(this.loaded)   // Report the data has loaded
@@ -97,7 +97,7 @@ class AboutPage {
   /** Find all image links on instagram, and replace their URIs with fetches */
   fetchImages() {
     // TODO ES6: get rid of this code and replace with direct image links
-    const replace_images = document.getElementsByClassName("replace");
+    const replace_images = document.getElementsByClassName("replace")
     for (const img of replace_images) {
       if (img.src.indexOf("https://www.instagram.com/p/") == 0) {
         const shortcode = img.src.split("/")[4];
@@ -1076,4 +1076,4 @@ export var LastSearch = "#home"
  * Stores callback to the current page render function for redraws.
  * Default mode is to show panda results.
  */
-export var Current = results.render
+export let Current = results.render
