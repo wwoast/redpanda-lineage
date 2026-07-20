@@ -2,7 +2,7 @@ import * as Language from './language.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
 import * as Pandas from './pandas.js'
-
+import * as Show from './show.js'
 
 /**
  * Allows queries for nearby zoos, using the browser Geolocation API.
@@ -148,15 +148,13 @@ function renderGeoLookupStart() {
   const message = Message.geolocationStart(LanguageLanguage.Displayed)
   shrinker.appendChild(message)
   newContent.appendChild(shrinker)
-  // TODO ES6
   // Redraw the search bar if necessary
-  Show["results"].searchBar()
+  Show.resultsPage.searchBar()
   // Swap the old content frame for new content
   document.getElementById('contentFrame').replaceWith(newContent)
-  // TODO ES6
   // Call layout adjustment functions to shrink any names that are too long
-  Show["results"].menus.language()
-  Show["results"].menus.top()
+  Show.resultsMenus.language()
+  Show.resultsMenus.top.render()
   Page.footer.redraw("results")
   Page.color("results")
 }

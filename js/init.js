@@ -7,6 +7,7 @@ import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
 import * as ScrollTop from './scrollTop.js'
+import * as Show from './show.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
 (function() {
@@ -53,13 +54,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  /** 
-   * Once the panda data is loaded, render the page proper.
-   */
-  window.addEventListener('panda_data', function() {    
+  // Once the panda data is loaded, render the page proper
+  window.addEventListener('panda_data', function() {
     // If available on the page, enable search bar once the page has loaded
     Show.searchBar.enable()
-
     // Determine what page content to display
     if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
       Page.profile.render()
@@ -70,21 +68,17 @@ document.addEventListener("DOMContentLoaded", function() {
     } else if (window.location.hash == "#options") {
       Page.options.render()
     } else if ((window.location.hash.length > 0) && 
-        (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
+               (!Page.routes.memberOf(Page.routes.fixed, window.location.hash))) {
       Page.results.render()
-    } else if ((window.location.hash.length == 0) || 
-        (window.location.hash == "#home")) {
+    } else if ((window.location.hash.length == 0) || (window.location.hash == "#home")) {
       Page.home.render()
     }
-
     // When all webfonts have rendered, recalculate text shrinks
     // Couldn't get typesquare events working :(
     setTimeout(shrinkNames, 1000)
   })
-
   // Fetch the about page contents for each language
   Page.about.fetch()
-
   // If a previous page was seen, load it
   const last_seen = window.localStorage.getItem("last_seen")
   const current_hash = window.location.hash

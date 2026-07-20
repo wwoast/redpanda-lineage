@@ -1,5 +1,6 @@
 import * as Language from './language.js'
 import P, * as Pandas from './pandas.js'
+import * as Show from './show.js'
 
 /**
  * Functions used to generate translated heading snippets in various page modes
@@ -578,7 +579,6 @@ export function residents(zoo, language) {
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
   })
-  // TODO ES6
   const info = Show.acquireZooInfo(zoo, language)
   const p = document.createElement('p')
   for (const i in Language.messages.zoo_header_other_pandas[language]) {

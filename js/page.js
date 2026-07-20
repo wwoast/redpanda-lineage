@@ -175,9 +175,9 @@ class About {
       document.getElementById('contentFrame').replaceWith(this.content)
       footer.redraw("results")
     }
-    Show["results"].menus.language()
+    Show.resultsMenus.language()
     Show.aboutMenu.render()
-    Show["results"].searchBar()   // Ensure the search bar comes back
+    Show.resultsPage.searchBar()   // Ensure the search bar comes back
     color("results")
     // Re-enable scroll restoration for just the about page
     if (history.scrollRestoration) {
@@ -316,7 +316,9 @@ class Footer {
     } else {
       // Redraw the footer for language event changes
       const footer = this.render(Language.Displayed, page_mode)
-      const bottomMenu = Show[page_mode].menus.bottom()
+      const bottomMenu = (page_mode == "profile")
+        ? Show.profileMenus.bottom.render()
+        : Show.resultsMenus.bottom.render()
       // If bottom menu isn't there, add it
       if (footer_test.previousElementSibling.id != "pageBottom") {
         body.insertBefore(bottomMenu, footer_test)
@@ -406,8 +408,8 @@ class Home {
     Query.env.paging.display_button = false
     // Output just the base search bar with no footer.
     const old_content = document.getElementById('contentFrame')
-    Show["results"].menus.language()
-    Show["landing"].menus.top()
+    Show.resultsMenus.language()
+    Show.landingMenus.top.render()
     // Special homepage headers
     if (P.db != undefined) {
       const new_content = document.createElement('div')
@@ -463,7 +465,7 @@ class Home {
       old_content.replaceWith(new_content)
       footer.remove()
     }
-    Show["results"].searchBar()   // Ensure the search bar comes back
+    Show.resultsPage.searchBar()   // Ensure the search bar comes back
     color("results")
     window.scrollTo(0, 0)   // Scroll to the top of the page
   }
@@ -567,7 +569,7 @@ class Links {
 
   render() {
     // No need for paging on the links page
-    Query.env.paging.display_button = false;
+    Query.env.paging.display_button = false
     // Initialize submenus if necessary
     this.sectionMenuDefaults()
     var chosen = window.sessionStorage.getItem("linksPageMenu")
@@ -576,9 +578,9 @@ class Links {
     // Add event listeners to the newly created Links page buttons
     this.sectionButtonEventHandlers()
     footer.redraw("results")
-    Show["results"].menus.language()
-    Show.linksMenu.top.render()
-    Show["results"].searchBar()   // Ensure the search bar comes back
+    Show.resultsMenus.language()
+    Show.linksMenus.top.render()
+    Show.resultsPage.searchBar()   // Ensure the search bar comes back
     color("results")
   }
 
@@ -643,7 +645,7 @@ class Media {
     // TODO: count results and display a next page button if necessary
     Query.env.paging.display_button = true
     // Generate new content frames
-    const gallery_div = Show.media.gallery(results["hits"][0], Language.Displayed)
+    const gallery_div = Show.mediaPage.gallery(results["hits"][0], Language.Displayed)
     const new_content = document.createElement('div')
     new_content.className = "profile"
     new_content.id = "contentFrame"
@@ -651,13 +653,13 @@ class Media {
     // Swap the new content into the page
     document.getElementById('contentFrame').replaceWith(new_content)
     shrinkNames()
-    Show["media"].menus.language()
+    Show.mediaMenus.language()
     const result_id = results["hits"][0]["_id"]
-    Show["media"].menus.top(result_id)
+    Show.mediaMenus.top.render(result_id)
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
-    Show.media.search.render()
+    Show.mediaPage.searchBar()
     // Move to the top of the page
     window.scrollTo(0, 0)
   }
@@ -693,9 +695,9 @@ class Options {
     document.querySelector('#contentFrame').replaceWith(this.content)
     // Add event listeners to the newly created Links page buttons
     footer.redraw("results")
-    Show["results"].menus.language()
-    Show["links"].menus.top()
-    Show["results"].searchBar()   // Ensure the search bar comes back
+    Show.resultsMenus.language()
+    Show.linksMenus.top.render()
+    Show.resultsPage.searchBar()   // Ensure the search bar comes back
     color("results")
   }
 }
@@ -717,16 +719,16 @@ class Profile {
     Query.env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
-    const profile_div = Show.profile.panda(results["hits"][0], Language.Displayed)
-    const where_divs = Show.profile.where(results["hits"][0], Language.Displayed)
-    const family_divs = Show.profile.family(results["hits"][0], Language.Displayed)
-    const children_divs = Show.profile.children(results["hits"][0], Language.Displayed)
-    const siblings_divs = Show.profile.siblings(results["hits"][0], Language.Displayed)
+    const profile_div = Show.profilePage.panda(results["hits"][0], Language.Displayed)
+    const where_divs = Show.profilePage.where(results["hits"][0], Language.Displayed)
+    const family_divs = Show.profilePage.family(results["hits"][0], Language.Displayed)
+    const children_divs = Show.profilePage.children(results["hits"][0], Language.Displayed)
+    const siblings_divs = Show.profilePage.siblings(results["hits"][0], Language.Displayed)
     // Generate new content frames
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
     shrinker.appendChild(profile_div)
-    for (let content_div of where_divs.concat(family_divs)
+    for (const content_div of where_divs.concat(family_divs)
                                       .concat(children_divs)
                                       .concat(siblings_divs)) {
       shrinker.appendChild(content_div)
@@ -737,14 +739,14 @@ class Profile {
     new_content.appendChild(shrinker)
     // Swap the new content into the page
     document.getElementById('contentFrame').replaceWith(new_content)
-    Show["profile"].menus.language()
+    Show.profileMenus.language()
     const result_id = results["hits"][0]["_id"]
     // TODO TOWRITE: need to take id of panda for buttons
-    Show["profile"].menus.top(result_id)
+    Show.profileMenus.top.render(result_id)
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
-    Show.profile.search.render()
+    Show.profilePage.searchBar()
     // Update the QR code based on the displayed photo
     window.dispatchEvent(this.qr_update)
     // Move to the top of the page
@@ -775,12 +777,12 @@ class Results {
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
       if (entity["_id"] < 0) {
-        content_divs.push(Show.results.zoo(entity, Language.Displayed))
+        content_divs.push(Show.resultsPage.zoo(entity, Language.Displayed))
         content_divs = content_divs.concat(
-          Show.results.zooAnimals(entity, Language.Displayed))
+          Show.resultsPage.zooAnimals(entity, Language.Displayed))
         content_divs.push(Show.zooDivider("bear-bamboo"))
       } else
-        content_divs.push(Show.results.panda(entity, Language.Displayed))
+        content_divs.push(Show.resultsPage.panda(entity, Language.Displayed))
     })
     // Remove the last element if it's a divider
     const last_element = content_divs[content_divs.length - 1]
@@ -809,12 +811,12 @@ class Results {
     // Show all photos with these animals, along with a message.
     // No container div here so just concat.
     if (results["hits"].length > 0)
-      content_divs = content_divs.concat(Show.results.groupGallery(animal_ids))
+      content_divs = content_divs.concat(Show.resultsPage.groupGallery(animal_ids))
     // Give a list of results for each individual animal
     const animal_results = []
     for (const id of animal_ids) {
       const entity = Pandas.searchPandaId(id)[0]
-      animal_results.push(Show.results.panda(entity, Language.Displayed))
+      animal_results.push(Show.resultsPage.panda(entity, Language.Displayed))
     }
     // Let some photos appear first, unless we don't have very many photos
     let insert = 0
@@ -839,11 +841,11 @@ class Results {
     // Zoo results
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.results.zoo(entity, Language.Displayed))
+      content_divs.push(Show.resultsPage.zoo(entity, Language.Displayed))
       animals = Pandas.sortOldestToYoungest(
         Pandas.searchPandaZooCurrent(entity["_id"]))
       animals.forEach(animal =>
-        content_divs.push(Show.results.panda(animal, Language.Displayed)))
+        content_divs.push(Show.resultsPage.panda(animal, Language.Displayed)))
       content_divs.push(Show.zooDivider("bear-bamboo"))
     })
     // Remove the last element if it's a divider
@@ -904,13 +906,13 @@ class Results {
     content_divs.forEach(content_div => shrinker.appendChild(content_div))
     new_content.appendChild(shrinker)
     // Redraw the search bar if necessary
-    Show["results"].searchBar()
+    Show.resultsPage.searchBar()
     // Append the new content into the page and then swap it in
     document.getElementById('contentFrame').replaceWith(new_content)
     // Call layout adjustment functions to shrink any names that are too long
     shrinkNames()
-    Show["results"].menus.language()
-    Show["results"].menus.top()
+    Show.resultsMenus.language()
+    Show.resultsMenus.top.render()
     footer.redraw("results")
     color("results")
     window.scrollTo(0, 0)   // Move to the top of the page
