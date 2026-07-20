@@ -1,7 +1,7 @@
 import * as Geo from './geolocate.js'
 import * as Icons from './icons.js'
 import * as Language from './language.js'
-import { mediaQuery, shrinkNames } from './layout.js'
+import { mediaQuery, recomputeHeight, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
 import * as Pandas from './pandas.js'
