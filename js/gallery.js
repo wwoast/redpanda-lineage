@@ -1,5 +1,6 @@
 import Env from './environment.js'
 import * as Language from './language.js'
+import { Defaults, Polyglots, Tags } from './lookup.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
@@ -106,7 +107,7 @@ export class Carousel {
     span.className = "navigator"
     // Clickable dogears when you have a carousel of more than one photo
     if (this.photoCount() < 2) {
-        span.innerText = Language.emoji.no_more;
+        span.innerText = Emoji.no_more;
         // Consistent widget behavior on mouse clicks for non-functional
         // navigators as well (disable normal right/middle click behavior)
         span_link.addEventListener('contextmenu', function(e) {   // Right click event
@@ -245,13 +246,13 @@ export class Carousel {
     const credit_link =
       document.getElementById(`${animal_id}/author/${current_index}`)
     credit_link.id = `${animal_id}/author/${new_index}`
-    if (!Object.keys(Pandas.def.authors).includes(photo_info.credit)) {
+    if (!Object.keys(Defaults.authors).includes(photo_info.credit)) {
       credit_link.href = photo_info["link"]
     } else {
       credit_link.removeAttribute("href")   // No more link
     }
     credit_link.target = "_blank"   // Open in new tab
-    credit_link.innerText = `${Language.emoji.camera} ${photo_info["credit"]}`
+    credit_link.innerText = `${Emoji.camera} ${photo_info["credit"]}`
   }
 
   /** Replace the photographer's apple points (number of photos on the site) */
@@ -259,12 +260,12 @@ export class Carousel {
     const animal_id = photo_info.id;
     const apple_link = document.getElementById(`${animal_id}/counts/${current_index}`)
     apple_link.id = `${animal_id}/counts/${new_index}`
-    if (!Object.keys(Pandas.def.authors).includes(photo_info.credit)) {
+    if (!Object.keys(Defaults.authors).includes(photo_info.credit)) {
       const apple_count = P.db._photo.credit[photo_info["credit"]]
       apple_link.href = `#credit/${photo_info["credit"]}`
-      apple_link.innerText = `${Language.emoji.gift} ${apple_count}`
+      apple_link.innerText = `${Emoji.gift} ${apple_count}`
       if (parseInt(apple_count) >= 1000) {
-        apple_link.innerText = `${Language.emoji.megagift} ${apple_count}`
+        apple_link.innerText = `${Emoji.megagift} ${apple_count}`
       }
     } else {
       apple_link.innerText = "";
@@ -297,7 +298,7 @@ const url = {
       const cwdc_locator = uri.split("/")[2]
       return `https://www.codaworry.com/images/submitted/${cwdc_locator}`
     } else { 
-      return Pandas.def.animal["photo.1"]
+      return Defaults.animal["photo.1"]
     }
   },
   /** 
@@ -310,7 +311,7 @@ const url = {
     } else if (uri.indexOf("cwdc") == 0) {
       url.codaworry(image, uri)
     } else {
-      image.src = Pandas.def.animal["photo.1"];   // Default image
+      image.src = Defaults.animal["photo.1"];   // Default image
     }
   }
 }
@@ -352,7 +353,7 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
       const caption = document.createElement('h5')
       caption.className = "caption birthdayMessage"
       const caption_span = document.createElement('span')
-      caption_span.innerText = `${Language.emoji.camera} ${photo["photo.author"]}`
+      caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
       // TODO: condenser
       caption.appendChild(caption_span)
       caption_link.appendChild(caption)
@@ -473,7 +474,7 @@ export function familyProfilePhoto(
   // Photo container
   const clickable_photo = document.createElement('a')
   clickable_photo.target = "_blank"
-  if (chosen_photo != Pandas.def.animal["photo.1"])   // No link if no photo defined
+  if (chosen_photo != Defaults.animal["photo.1"])   // No link if no photo defined
     clickable_photo.href = url.href(chosen_photo["photo"])
   const image = document.createElement('img')
   image.setAttribute("loading", "lazy")
@@ -503,18 +504,18 @@ export function familyProfilePhoto(
     const text = document.createTextNode(relationship)
     // TODO: cinch for any strings longer than X characters
     // TODO: cinch/make text smaller if also emojis exist
-    if (relationship == Language.gui.quadruplet["en"])
+    if (relationship == Gui.quadruplet["en"])
       span.classList.add("condensed")
     span.appendChild(text)
     relation_text.appendChild(span)
     // Emoji separation not cinched
     let emojis = ""
-    if (relationship == Language.gui.me[language])
-      emojis = "\u200A" + Language.emoji.profile
+    if (relationship == Gui.me[language])
+      emojis = "\u200A" + Emoji.profile
     if (multiple == true)
-      emojis = Language.emoji.question
+      emojis = Emoji.question
     if (animal["death"] != undefined)
-      emojis = emojis + "\u200A" + Language.emoji.died
+      emojis = emojis + "\u200A" + Emoji.died
     const emoji_text = document.createTextNode(emojis)
     relation_text.appendChild(emoji_text)
     animal_name.appendChild(relation_text)
@@ -680,7 +681,7 @@ function groupPhotoSingle(entity, photo_key, imgUrl) {
   const caption_credit = document.createElement('h5')
   caption_credit.className = "caption groupMediaAuthor"
   const caption_credit_span = document.createElement('span')
-  caption_credit_span.innerText = `${Language.emoji.apple} ${author}`
+  caption_credit_span.innerText = `${Emoji.apple} ${author}`
   caption_credit.appendChild(caption_credit_span)
   caption_credit_link.appendChild(caption_credit)
   // Put it all in a frame
@@ -738,7 +739,7 @@ export function genericPhotoCredits(
       const caption = document.createElement('h5')
       caption.className = "caption memorialMessage"
       const caption_span = document.createElement('span')
-      caption_span.innerText = `${Language.emoji.camera} ${photo["photo.author"]}`
+      caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
       // TODO: condenser
       caption.appendChild(caption_span)
       caption_link.appendChild(caption)
@@ -783,7 +784,7 @@ export function memorialPhotoCredits(
       const caption = document.createElement('h5');
       caption.className = "caption memorialMessage"
       const caption_span = document.createElement('span')
-      caption_span.innerText = `${Language.emoji.camera} ${photo["photo.author"]}`
+      caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
       // TODO: condenser
       caption.appendChild(caption_span)
       caption_link.appendChild(caption)
@@ -839,7 +840,7 @@ export function memorialPhotoCreditsGroup(
     const caption = document.createElement('h5')
     caption.className = "caption memorialMessage"
     const caption_span = document.createElement('span')
-    caption_span.innerText = `${Language.emoji.camera} ${photo["photo.author"]}`
+    caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
     // TODO: condenser
     caption.appendChild(caption_span);
     caption_link.appendChild(caption);
@@ -981,31 +982,31 @@ function tagPhotoMessage(results, hit_count) {
   let header = undefined
   if (hit_count == 0) {
     header =
-      Show.emptyResult(Language.messages.no_subject_tag_result, Env.language)
+      Show.emptyResult(Message.Text.no_subject_tag_result, Env.language)
   } else if ((results["parsed"] == "set_tag") ||
              (results["parsed"] == "set_tag_subject")) {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
-                                 Language.tags[ctag]["emoji"], 
+                                 Tags[ctag]["emoji"], 
                                  ctag, Env.language)
   } else if (results["parsed"] == "set_baby_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
-                                 Language.polyglots[ctag]["emoji"], 
+                                 Polyglots[ctag]["emoji"], 
                                  ctag, Env.language)
   } else if (results["parsed"] == "set_tag_intersection") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    const emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"])
+    const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis, Env.language)
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
-    const emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"])
+    const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis, Env.language)
   } else {
     header =
-      Show.emptyResult(Language.messages.no_subject_tag_result, Env.language)
+      Show.emptyResult(Message.Text.no_subject_tag_result, Env.language)
   }
   return header
 }
@@ -1042,7 +1043,7 @@ function tagPhotoSingle(result, language, add_emoji) {
     caption.innerText = info.name
   }
   // Prefix caption with an emoji if we can get one
-  const tag_lookup = Language.tags[result["photo.tags"][0]]
+  const tag_lookup = Tags[result["photo.tags"][0]]
   if ((tag_lookup != undefined) && (add_emoji == true)) {
     const emoji = tag_lookup["emoji"]
     caption.innerText = emoji + "\xa0" + caption.innerText
@@ -1111,7 +1112,7 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
       caption.classList.add("newContributor")
     }
     else
-      author_span.innerText = Language.emoji.camera + "\xa0" + item.credit
+      author_span.innerText = Emoji.camera + "\xa0" + item.credit
     author.appendChild(author_span)
     caption_link.appendChild(caption)
     caption_link.appendChild(author)
@@ -1140,7 +1141,7 @@ function updatedPhotoOrdering(language, photo_count) {
         .filter(panda => "photo.1" in panda);
       return pandas.length > 0
     }).filter(function(photo) {
-      return (!Object.keys(Pandas.def.authors).includes(photo.credit))
+      return (!Object.keys(Defaults.authors).includes(photo.credit))
     })
   let zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count)
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, `${language}.name`)
@@ -1148,7 +1149,7 @@ function updatedPhotoOrdering(language, photo_count) {
   const author_locators = P.db["_updates"].authors
   const author_photos_all = Pandas.locatorsToPhotos(author_locators)
     .filter(function(photo) {
-      return (!Object.keys(Pandas.def.authors).includes(photo.credit))
+      return (!Object.keys(Defaults.authors).includes(photo.credit))
     })
   const author_photos = Pandas.unique(author_photos_all, "id")
   let author_chosen = author_photos.slice()
@@ -1166,7 +1167,7 @@ function updatedPhotoOrdering(language, photo_count) {
   const new_panda_photos = 
     Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id")
       .filter(function(photo) {
-        return (!Object.keys(Pandas.def.authors).includes(photo.credit))
+        return (!Object.keys(Defaults.authors).includes(photo.credit))
       })
   let new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count)
   new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, `${language}.name`)
@@ -1183,7 +1184,7 @@ function updatedPhotoOrdering(language, photo_count) {
   let update_photos =
     Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id")
       .filter(function(photo) {
-        return (!Object.keys(Pandas.def.authors).includes(photo.credit))
+        return (!Object.keys(Defaults.authors).includes(photo.credit))
       })
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
@@ -1199,11 +1200,11 @@ function updatedPhotoOrdering(language, photo_count) {
     }
     // New author added, so make sure it gets the giftwrap
     if (author_photos_all.map(photo => photo.credit).includes(zoo_photo.credit)) {
-      zoo_photo.credit_icon = Language.emoji.giftwrap   // new panda and author!
+      zoo_photo.credit_icon = Emoji.giftwrap   // new panda and author!
     }
     // Give it giftwrap if only one photo attributed to this author
     if (P.db._photo.credit[zoo_photo.credit] == 1) {
-      zoo_photo.credit_icon = Language.emoji.giftwrap
+      zoo_photo.credit_icon = Emoji.giftwrap
     }
     const class_list = ["zoo", zoo_classes[zoo_class_index % zoo_classes.length]]
     zoo_photo.classes = class_list
@@ -1223,13 +1224,13 @@ function updatedPhotoOrdering(language, photo_count) {
     zoo_pandas = Pandas.unique(zoo_pandas, "id")
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, `${language}.name`)
     for (const zoo_panda of zoo_pandas) {
-      zoo_panda.name_icon = Language.emoji.profile   // heart_panel
+      zoo_panda.name_icon = Emoji.profile   // heart_panel
       if (author_photos_all.map(photo => photo.credit).includes(zoo_panda.credit)) {
-        zoo_panda.credit_icon = Language.emoji.giftwrap   // new panda and author!
+        zoo_panda.credit_icon = Emoji.giftwrap   // new panda and author!
       }
       // Give it giftwrap if only one photo attributed to this author
       if (P.db._photo.credit[zoo_panda.credit] == 1) {
-        zoo_panda.credit_icon = Language.emoji.giftwrap
+        zoo_panda.credit_icon = Emoji.giftwrap
       }
       zoo_panda.classes = class_list
       output_photos.push(zoo_panda)
@@ -1252,9 +1253,9 @@ function updatedPhotoOrdering(language, photo_count) {
     // New panda added, so make sure it gets the heart icon
     if ((panda_photos.map(panda => panda.id).includes(author_photo.id)) &&
         (!author_photo.id.includes("media"))) {
-      author_photo.name_icon = Language.emoji.profile
+      author_photo.name_icon = Emoji.profile
     }
-    author_photo.credit_icon = Language.emoji.giftwrap
+    author_photo.credit_icon = Emoji.giftwrap
     output_photos.push(author_photo)
     photo_count = photo_count - 1
   }
@@ -1269,7 +1270,7 @@ function updatedPhotoOrdering(language, photo_count) {
       continue
     }
     // New panda added, so make sure it gets the heart icon
-    new_panda_photo.name_icon = Language.emoji.profile
+    new_panda_photo.name_icon = Emoji.profile
     output_photos.push(new_panda_photo)
     photo_count = photo_count - 1
   }
@@ -1383,7 +1384,7 @@ export function pumpkin(language, photo_count=5) {
     const credit_caption = document.createElement('h5')
     credit_caption.className = "caption updateAuthor halloweenMessage"
     const credit_caption_span = document.createElement('span')
-    credit_caption_span.innerText = `${Language.emoji.camera} ${photo["photo.author"]}`
+    credit_caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
     // TODO: condenser
     credit_caption.appendChild(credit_caption_span)
     credit_caption_link.appendChild(credit_caption)
@@ -1444,7 +1445,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     const credit_caption = document.createElement('h5')    
     credit_caption.className = "caption updateAuthor"
     const credit_caption_span = document.createElement('span')
-    credit_caption_span.innerText = `${Language.emoji.camera} ${photo["photo.author"]}`
+    credit_caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
     // TODO: condenser
     credit_caption.appendChild(credit_caption_span)
     credit_caption_link.appendChild(credit_caption)

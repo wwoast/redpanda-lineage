@@ -1,8 +1,7 @@
 import * as Jsleri from './jsleri-1.1.15.js'
-import { capitalNames,
-         polyglots as Polyglots,
-         tags as Tags } from './language.js'
-import P, { def, values } from './pandas.js'
+import { capitalNames } from './language.js'
+import { Defaults, Polyglots, Tags } from './lookup.js'
+import P, { values } from './pandas.js'
 
 /**
  * Given a search tag, find the equivalent term for that tag that is
@@ -11,8 +10,7 @@ import P, { def, values } from './pandas.js'
  */
 export function searchTag(search_tag) {
   // Lowercase any search terms in the latin character range
-  // TODO ES6
-  const ranges = def.ranges['en']
+  const ranges = Defaults.ranges['en']
   const latin = ranges.some(range => range.test(search_tag))
   if (latin == true)
     search_tag = search_tag.toLowerCase()

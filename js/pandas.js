@@ -1,6 +1,8 @@
 import Dagoba from './dagoba.js'
 import Env from './environment.js'
 import * as Language from './language.js'
+import { DateLocale, Fallback, Gui } from './lookup.js'
+import { Text } from './message.js'
 
 /** 
  * Logic for a Red Panda database search form.
@@ -38,446 +40,6 @@ export function init() {
     // P.db.edges.forEach(G.addEdge.bind(G))
     G = Dagoba.graph(P.db.vertices, P.db.edges)
     window.dispatchEvent(loaded)   // Report the data has loaded
-  }
-}
-
-/** Defaults for panda or zoo object fields, or date formats */
-export const def = {
-  age: {
-    "en": {
-      "year": "year",
-      "years": "years",
-      "month": "month",
-      "months": "months",
-      "day": "day",
-      "days": "days"
-    },
-    "es": {
-      "year": "año",
-      "years": "años",
-      "month": "mes",
-      "months": "meses",
-      "day": "día",
-      "days": "días"
-    },
-    "ja": {
-      "year": "歳",
-      "years": "歳",
-      "month": "月",
-      "months": "月",
-      "day": "日",
-      "days": "日"
-    },
-    "ko": {
-      "year": "세",
-      "years": "세",
-      "month": "개월",
-      "months": "개월",
-      "day": "일",
-      "days": "일"
-    },
-    "ne": {
-      "year": "बर्ष",
-      "years": "बर्ष",
-      "month": "महिना",
-      "months": "महिना",
-      "day": "दिन",
-      "days": "दिनहरु"
-    },
-    "pt": {
-      "year": "ano",
-      "years": "anos",
-      "month": "mês",
-      "months": "meses",
-      "day": "dia",
-      "days": "dias"
-    },
-    "zh": {
-      "year": "年",
-      "years": "年",
-      "month": "月",
-      "months": "月",
-      "day": "天",
-      "days": "天"
-    }
-  },
-  animal: {
-    "_id": "0",
-    "birthday": "1970/1/1",
-    "birthplace": "0",
-    "children": "0",
-    "death": "1970/1/1",
-    "en.name": "Panda Not Found",
-    "en.nicknames": "No Nicknames Recorded",
-    "en.othernames": "No Alternate Names Recorded",
-    "es.name": "Panda no encontrado",
-    "es.nicknames": "No se registraron apodos",
-    "es.othernames": "No se registraron nombres alternativos",
-    "gender": "Unknown",
-    "ja.name": "パンダが見つかりませんでした",
-    "ja.nicknames": "ニックネームは記録されていません",
-    "ja.othernames": "代わりのスペルは記録されていません",
-    "ko.name": "판다를 찾을 수 없습니다",
-    "ko.nicknames": "등록된 별명이 없습니다",
-    "ko.othernames": "등록된 다른 이름이 없습니다",
-    "litter": "0",
-    "ne.name": "निगल्या पोनिया फेला परेन",
-    "ne.nicknames": "उपनामहरू फेला परेन",
-    "ne.othernames": "अरु नामहरु फेला परेन",
-    "photo.1": "images/no-panda-portrait.jpg",
-    "pt.name": "Panda não encontrado",
-    "pt.nicknames": "Nenhum apelido registrado",
-    "pt.othernames": "Nenhum nome alternativo registrado",
-    "species": "-1",
-    "video.1": "images/no-panda-portrait.jpg",
-    "zh.name": "TOWRITE",
-    "zh.nicknames": "TOWRITE",
-    "zh.othernames": "TOWRITE",
-    "zoo": "0"
-  },
-  /** Missing or undescribed authors / photo credits */
-  authors: {
-    "anonymous": {
-      "en": "anonymous",
-      "es": "anónimo",
-      "ja": "匿名",
-      "ko": "익명",
-      "ne": "बेनामी",
-      "pt": "anônimo",
-      "zh": "匿名"
-    },
-    "uncredited": {
-      "en": "uncredited",
-      "es": "sin acreditar",
-      "ja": "信用されていない",
-      "ko": "공로 미기재",
-      "ne": "अप्रत्याशित",
-      "pt": "não creditado",
-      "zh": "沒有信用"
-    }
-  },
-  date: {
-    "earliest_year": "1970",
-    "en": "MM/DD/YYYY",
-    "es": "DD/MM/YYYY",
-    "ja": "YYYY年MM月DD日",
-    "ko": "YYYY년MM월DD일",
-    "ne": "YYYY-MM-DD",
-    "pt": "DD/MM/YYYY",
-    "zh": "YYYY-MM-DD"
-  },
-  date_season: {
-    "earliest_year": "1970",
-    "en": "SEASON YYYY",
-    "es": "SEASON YYYY",
-    "ja": "SEASON YYYY",
-    "ko": "SEASON YYYY",
-    "ne": "SEASON YYYY",
-    "pt": "SEASON YYYY",
-    "zh": "SEASON YYYY"
-  },
-  gender: {
-    "Female": {
-      "en": "female",
-      "es": "hembra",
-      "ja": "メス",
-      "ko": "여",
-      "ne": "महिला",
-      "pt": "fêmea",
-      "zh": "女"
-    },
-    "Male": {
-      "en": "male",
-      "es": "macho",
-      "ja": "オス",
-      "ko": "남",
-      "ne": "नर",
-      "pt": "macho",
-      "zh": "男"
-    }
-  },
-  /** 
-   * Used for determining what languages are selectable. Don't add new
-   * languages to this set until we're ready with panda data in that language.
-   * We look for ISO-639-1 codes in the navigator.languages value, and map it
-   * to a language definition used within this project's code. The ordering
-   * here determines the appearance of the buttons in the language menu.
-   */
-  languages: ["en", "ja", "zh", "ne", "pt", "es", "ko"],
-  /** Used for missing mothers and fathers, where capitalization is needed */
-  no_name: {
-    "en": "Unknown",
-    "es": "Desconocido",
-    "ja": "未詳",
-    "ko": "알 수 없음",
-    "ne": "अज्ञात",
-    "pt": "Desconhecido(a)",
-    "zh": "不明"
-  },
-  /** Character ranges */
-  ranges: {
-    "en": [
-      /[\u0020-\u007f]/,   // Basic Latin
-      /[\u00a0-\u00ff]/,   // Latin-1 Supplement
-      /[\u0100-\u017f]/,   // Latin Supplement A,
-      /[\u0180-\u024f]/    // Latin Supplement B
-    ],
-    "ja": [
-      /[\u3000-\u303f]/,   // Japanese punctuation
-      /[\u3040-\u309f]/,   // Japanese hiragana
-      /[\u30a0-\u30ff]/,   // Japanese katakana,
-      /[\uff00-\uffef]/,   // Japanese full-width romanji and half-width katakana
-      /[\u4e00-\u9faf]/    // CJK unified Kanji set
-    ],
-    "ko": [
-      /[\uAC00-\uD7AF]/,  // Hangul Syllables (가-힣)
-      /[\u1100-\u11FF]/,  // Hangul Jamo (초성, 중성, 종성)
-      /[\u3130-\u318F]/,  // Hangul Compatibility Jamo
-      /[\u3200-\u33FF]/,  // Korean symbols and punctuation
-    ],
-    "ne": [
-      /[\u0900-\u0954]/    // Devanghari unicode range
-    ]
-  },
-  /** Used for slip-ins in Panda dossiers for brothers/sisters/moms */
-  relations: {
-    "aunt": {
-      "en": "aunt",
-      "es": "tía",
-      "ja": "叔母",
-      "ko": "이모",
-      "ne": "काकी",
-      "pt": "tia",
-      "zh": "姑媽"
-    },
-    "brother": {
-      "en": "brother",
-      "es": "hermano",
-      "ja": "兄",
-      "ko": "형제",
-      "ne": "भाई",
-      "pt": "irmão",
-      "zh": "兄"
-    },
-    "children": {
-      "en": "children",
-      "es": "niños",
-      "ja": "子供",
-      "ko": "자녀",
-      "ne": "बच्चाहरु",
-      "pt": "filhos(as)",
-      "zh": "孩子"
-    },
-    "cousin": {
-      "en": "cousin",
-      "es": "primo",
-      "ja": "いとこ",
-      "ko": "사촌",
-      "ne": "भान्जा",
-      "pt": "primo(a)",
-      "zh": "表姐"
-    },
-    "father": {
-      "en": "father",
-      "es": "padre",
-      "ja": "父",
-      "ko": "아빠",
-      "ne": "बुबा",
-      "pt": "pai",
-      "zh": "父"
-    },
-    "grandfather": {
-      "en": "grandfather",
-      "es": "abuelo",
-      "ja": "おじいちゃん",
-      "ko": "할아버지",
-      "ne": "हजुरबुबा",
-      "pt": "avô",
-      "zh": "祖父"
-    },
-    "grandmother": {
-      "en": "grandmother",
-      "es": "abuela",
-      "ja": "おばあちゃん",
-      "ko": "할머니",
-      "ne": "हजुरआमा",
-      "pt": "avó",
-      "zh": "祖母"
-    },
-    "litter": {
-      "en": "litter",
-      "es": "camada",
-      "ja": "双子",   /* "同腹仔" */
-      "ko": "쌍둥이",
-      "ne": "रोटी",
-      "pt": "ninhada",
-      "zh": "轿子"
-    },
-    "mother": {
-      "en": "mother",
-      "es": "madre",
-      "ja": "母",
-      "ko": "엄마",
-      "ne": "आमा",
-      "pt": "mãe",
-      "zh": "母"
-    },
-    "nephew": {
-      "en": "nephew",
-      "es": "sobrino",
-      "ja": "甥",
-      "ko": "조카(남)",
-      "ne": "भतिजा",
-      "pt": "sobrinho",
-      "zh": "外甥"
-    },
-    "niece": {
-      "en": "niece",
-      "es": "sobrina",
-      "ja": "姪",
-      "ko": "조카(여)",
-      "ne": "भान्जी",
-      "pt": "sobrinha",
-      "zh": "侄女"
-    },
-    "parents": {
-      "en": "parents",
-      "es": "padres",
-      "ja": "両親",
-      "ko": "부모",
-      "ne": "अभिभावक",
-      "pt": "pais",
-      "zh": "父母"
-    },
-    "sister": {
-      "en": "sister",
-      "es": "hermana",
-      "ja": "姉",
-      "ko": "자매",
-      "ne": "बहिनी",
-      "pt": "irmã",
-      "zh": "妹妹"
-    },
-    "siblings": {
-      "en": "siblings",
-      "es": "hermanos",
-      "ja": "兄弟",
-      "ko": "형제·자매",
-      "ne": "भाइबहिनीहरू",
-      "pt": "irmãos(ãs)",
-      "zh": "兄弟姐妹"
-    },
-    "uncle": {
-      "en": "uncle",
-      "es": "tío",
-      "ja": "叔父",
-      "ko": "삼촌",
-      "ne": "काका",
-      "pt": "tio",
-      "zh": "叔叔"
-    }
-  },
-  species: {
-    "en": [
-      "Ailurus fulgens fulgens",
-      "Ailurus fulgens styani",
-      "Ailurus fulgens"
-    ],
-    "es": [
-      "Ailurus fulgens fulgens",
-      "Ailurus fulgens styani",
-      "Ailurus fulgens"
-    ],
-    "ja": [
-      "西レッサーパンダ",
-      "シセンレッサーパンダ",
-      "未詳レッサーパンダ"
-    ],
-    "ko": [
-      "Ailurus fulgens fulgens",
-      "Ailurus fulgens styani",
-      "Ailurus fulgens"
-    ],
-    "ne": [
-      "Ailurus fulgens fulgens",
-      "Ailurus fulgens styani",
-      "Ailurus fulgens"
-    ],
-    "pt": [
-      "Ailurus fulgens fulgens",
-      "Ailurus fulgens styani",
-      "Ailurus fulgens"
-    ],
-    "zh": [
-      "Ailurus fulgens fulgens",
-      "Ailurus fulgens styani",
-      "Ailurus fulgens"
-    ]
-  },
-  unknown: {
-    "en": "unknown",
-    "es": "desconocido",
-    "ja": "未詳",
-    "ko": "알 수 없음",
-    "ne": "अज्ञात",
-    "pt": "desconhecido",
-    "zh": "不明"
-  },
-  /** Slightly different default zoo listing, for wild-born animals */
-  wild: {
-    "_id": "wild.0",
-    "en.address": "Captured or Rescued Wild Animal",
-    "en.location": "No City, District, or State Info Listed",
-    "en.name": "Zoo Not Found",
-    "es.address": "Animal Salvaje Capturado o Rescatado",
-    "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
-    "es.name": "Zoo No Encontrado",
-    "ja.address": "TOWRITE",
-    "ja.location": "市区町村の情報が表示されていない",
-    "ja.name": "動物園が見つかりません",
-    "ko.address": "포획되거나 구조된 야생 동물",
-    "ko.location": "도시, 지역 또는 주 정보가 없습니다",
-    "ko.name": "동물원을 찾을 수 없습니다",
-    "ne.address": "जंगली जनावर कब्जा वा बचाव",
-    "ne.location": "कुनै स्थान जानकारी छैन",
-    "ne.name": "चिडियाखाना फेला परेन",
-    "photo.1": "images/no-zoo.jpg",
-    "pt.address": "Animal selvagem capturado ou resgatado",
-    "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
-    "pt.name": "Zoológico não encontrado",
-    "video.1": "images/no-zoo.jpg",
-    "website": "https://www.worldwildlife.org/",
-    "zh.address": "TOWRITE",
-    "zh.location": "TOWRITE",
-    "zh.name": "TOWRITE"
-  },
-  zoo: {
-    "_id": "0",
-    "closed": "1970/1/1",
-    "en.address": "No Google Maps Address Recorded",
-    "en.location": "No City, District, or State Info Listed",
-    "en.name": "Zoo Not Found",
-    "es.address": "No Se Registró Ninguna Dirección de Google Maps",
-    "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
-    "es.name": "Zoo No Encontrado",
-    "ja.address": "Googleマップのアドレスが記録されていません",
-    "ja.location": "市区町村の情報が表示されていない",
-    "ja.name": "動物園が見つかりません",
-    "ko.address": "Google 지도 주소가 기록되지 않았습니다",
-    "ko.location": "도시, 지역 또는 주 정보가 없습니다",
-    "ko.name": "동물원을 찾을 수 없습니다",
-    "ne.address": "कुनै ठेगाना सूचीबद्ध छैन",
-    "ne.location": "कुनै स्थान जानकारी छैन",
-    "ne.name": "चिडियाखाना फेला परेन",
-    "photo.1": "images/no-zoo.jpg",
-    "pt.address": "Nenhum endereço do Google Maps registrado",
-    "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
-    "pt.name": "Zoológico não encontrado",
-    "video.1": "images/no-zoo.jpg",
-    "website": "https://www.worldwildlife.org/",
-    "zh.address": "TOWRITE",
-    "zh.location": "TOWRITE",
-    "zh.name": "TOWRITE"
   }
 }
 
@@ -1785,7 +1347,7 @@ function sortByNameJapanese(nodes) {
   const name_field = "ja.name"
   const othername_field = "ja.othernames"
   const sort_name = "ja.sortname"
-  const connector = Language.messages["and"][Env.language]
+  const connector = Text["and"][Env.language]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
@@ -2010,7 +1572,7 @@ export function formatDate(date, language) {
   if ((date == undefined) || (date == "unknown"))
     return def.unknown[language]
   if ((date.split("/").length == 2) &&
-      (Language.gui[date.split("/")[1].toLowerCase()] != undefined)) {
+      (Gui[date.split("/")[1].toLowerCase()] != undefined)) {
     return formatSeason(date, language)
   }
   let format = def.date[language]
@@ -2029,7 +1591,7 @@ function formatSeason(date, language) {
   season = season.toLowerCase()
   const format = def.date_season[language]
   format = format.replace("YYYY", year)
-  format = format.replace("SEASON", Language.gui[season][language])
+  format = format.replace("SEASON", Gui[season][language])
   return format
 }
 
@@ -2074,15 +1636,15 @@ export function groupMediaCaption(entity, photo_index) {
   animals = animals.sort((a, b) => a['x'] > b['x'] ? 1: -1)
   // Read off their names into the output string and return
   if (animals.length > 0) {
-    const connector = Language.messages["and"][Env.language]
+    const connector = Text["and"][Env.language]
     // HACK: Assume latin languages do comma-replacement the same way
     if ((animals.length > 2) && 
         (Language.alphabets.latin.includes(Env.language))) {
-      connector = Language.messages["comma"][Env.language]
+      connector = Text["comma"][Env.language]
       output_string = animals.map(x => x.name).join(connector)
       const last_animal = animals[animals.length-1]
       const match = new RegExp(connector + last_animal.name + "$")
-      const replace = Language.messages["and"][Env.language] + last_animal.name
+      const replace = Text["and"][Env.language] + last_animal.name
       output_string = output_string.replace(match, replace)
     } else {  
       output_string = animals.map(x => x.name).join(connector)
@@ -2091,7 +1653,7 @@ export function groupMediaCaption(entity, photo_index) {
   // Replace "baby, baby, baby" with group term
   if ((values(Language.polyglots["baby"]).includes(animals[0].name)) &&
       (unique(animals, "name").length == 1)) {
-    output_string = Language.gui["babies"][Env.language]
+    output_string = Gui["babies"][Env.language]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"
   return output_string
@@ -2171,7 +1733,7 @@ export function indeterminateSiblings(animal_id, sibling_id) {
 export function language_order(entity) {
   const ordering = entity["language.order"]
   if (ordering == undefined) {
-    return Language.fallback.order
+    return Fallback.order
   } else {
     return ordering.split(", ")
   }
@@ -2367,7 +1929,7 @@ function parseDate(date, language) {
       return {"year": nums[1], "month": nums[0], "day": "any"}
     } else {
       // no four-digit year, so assume MM/DD based on locale
-      var locale = Language.date_locale["mm_dd"][language].split("_")
+      var locale = DateLocale["mm_dd"][language].split("_")
       if (locale[0] == "mm") {
         return {"year": "any", "month": nums[0], "day": nums[1]}
       } else {
@@ -2376,7 +1938,7 @@ function parseDate(date, language) {
     }
   } else if (nums.length == 3) {
     // Some form of month/day/year
-    const locale = Language.date_locale["yy_mm_dd"][language].split("_")
+    const locale = DateLocale["yy_mm_dd"][language].split("_")
     if (nums[0] > 31) {    // Almost certainly YYYY/MM/DD
       return {"year": nums[0], "month": nums[1], "day": nums[2]}
     } else if (nums[2] > 31) {
@@ -2392,7 +1954,7 @@ function parseDate(date, language) {
         }
       }
     } else {   // All two-digit values for dates, so use the locale
-      const locale = Language.date_locale["yy_mm_dd"][language].split("_")
+      const locale = DateLocale["yy_mm_dd"][language].split("_")
       if (locale[0] == "mm") {
         return {"year": nums[2], "month": nums[0], "day": nums[1]}
       } else if (locale[0] == "dd") {

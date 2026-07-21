@@ -1,4 +1,4 @@
-import * as Pandas from './pandas.js'
+import { Defaults } from './lookup.js'
 
 /**
  * Layout calculation for optimizing the visual space taken by panda families
@@ -141,10 +141,10 @@ export function shrinkNames() {
     // TODO: ES6
     // Fix the spacing for strings that have mixed character sets.
     // Fixes long mixed-range strings like "Erin Curry博士"
-    const latin = Pandas.def.ranges['en'].some(function(range) {
+    const latin = Defaults.ranges['en'].some(function(range) {
       return range.test(span.innerText);
     });
-    const cjk = Pandas.def.ranges['ja'].some(function(range) {
+    const cjk = Defaults.ranges['ja'].some(function(range) {
       return range.test(span.innerText);
     });
     if (latin && cjk) {

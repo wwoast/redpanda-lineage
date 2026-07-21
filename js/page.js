@@ -3,6 +3,7 @@ import * as Gallery from './gallery.js'
 import * as Geo from './geolocate.js'
 import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
+import { Gui, Tags } from './lookup.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
 import P, * as Pandas from './pandas.js'
@@ -261,17 +262,17 @@ class AboutPage {
     const tagList = document.createElement('ul')
     tagList.classList.add("tagList")
     tagList.classList.add("multiColumn")
-    const tagKeys = Object.keys(Language.tags)
+    const tagKeys = Object.keys(Tags)
     const primaryTags = {}
     for (const key of tagKeys) {
-      const primaryTag = Language.tags[key][this.language][0];
+      const primaryTag = Tags[key][this.language][0];
       // Index by primaryTag, while the value is the key to the tagList
       primaryTags[primaryTag] = key
     }
     const sortedTags = Object.keys(primaryTags).sort()
     for (const thisTag of sortedTags) {
       const lookup = primaryTags[thisTag]
-      const thisEmoji = Language.tags[lookup]["emoji"]
+      const thisEmoji = Tags[lookup]["emoji"]
       const tagLi = document.createElement('li')
       const tagLink = document.createElement('a')
       tagLink.href = `#query/${thisTag}`
@@ -341,15 +342,15 @@ class FooterComponent {
     rpn_logo.src = "images/rpn-logo.png"
     rpn_logo_link.appendChild(rpn_logo)
     p.appendChild(rpn_logo_link)
-    for (const i in Language.messages.footer[language]) {
-      const field = Language.messages.footer[language][i];
+    for (const i in Message.Text.footer[language]) {
+      const field = Message.Text.footer[language][i];
       if (field == "<INSERTLINK_RPF>") {
         const rpf = document.createElement('a')
         rpf.href = "https://github.com/wwoast/redpanda-lineage"
         rpf.target = "_blank"   // Open link in a new tab
         // Security best practice: prevent access to window.opener
         rpf.rel = "noopener noreferrer"
-        rpf.innerText = Language.gui.footerLink_rpf[language]
+        rpf.innerText = Gui.footerLink_rpf[language]
         p.appendChild(rpf)
       } else if (field == "<INSERTLINK_RPN>") {
         const rpn = document.createElement('a')
@@ -357,7 +358,7 @@ class FooterComponent {
         rpn.target = "_blank"   // Open link in a new tab
         // Security best practice: prevent access to window.opener
         rpn.rel = "noopener noreferrer"
-        rpn.innerText = Language.gui.footerLink_rpn[language]
+        rpn.innerText = Gui.footerLink_rpn[language]
         p.appendChild(rpn)
       } else if (field === "") {
         // If the field is an empty string, insert a line break in the footer
@@ -761,7 +762,7 @@ class ResultsPage {
     if (results["hits"].length == 0) {
       // No results? On desktop, bring up a sad panda
       content_divs.push(
-        Show.emptyResult(Language.messages.no_result, Env.language))
+        Show.emptyResult(Message.Text.no_result, Env.language))
     }
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
@@ -792,7 +793,7 @@ class ResultsPage {
     if (results["hits"].length == 0) {
       // Push an error message
       content_divs.push(
-        Show.emptyResult(Language.messages.no_group_media_result, Env.language))
+        Show.emptyResult(Message.Text.no_group_media_result, Env.language))
       return content_divs
     }
     // Then, start displaying a list of group photos paged out

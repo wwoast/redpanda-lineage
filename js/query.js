@@ -1,6 +1,6 @@
 import Env from './environment.js'
 import * as Geo from './geolocate.js'
-import * as Language from './language.js'
+import { fallbackName } from './language.js'
 import * as Pandas from './pandas.js'
 import * as Parse from './parse.js'
 
@@ -86,7 +86,7 @@ function filter_set(set_node) {
     } else {
       // If idnum given, show name instead
       if (parseInt(filter_word) > 0) {
-        filter_word = Language.fallback_name(Pandas.searchPanda(filter_word)[0])
+        filter_word = fallback_name(Pandas.searchPanda(filter_word)[0])
       }
     }
     hits = Pandas.searchPhotoCredit(search_word, filter_ids)

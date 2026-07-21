@@ -4,6 +4,7 @@ import * as Geo from './geolocate.js'
 import { showQRCode } from './html5-qrcode.js'
 import * as Language from './language.js'
 import Layout from './layout.js'
+import { Defaults, Emoji, Fallback, Flags, Gui } from './lookup.js'
 import * as Message from './message.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
@@ -147,12 +148,12 @@ export function acquireZooInfo(zoo, language) {
 function animalLink(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
-  if (animal['_id'] == Pandas.def.animal['_id']) {
-    let alien = Language.emoji.alien
+  if (animal['_id'] == Defaults.animal['_id']) {
+    let alien = Emoji.alien
     if (options.indexOf("mom_icon") != -1)
-      alien = Language.emoji.star_mom
+      alien = Emoji.star_mom
     if (options.indexOf("dad_icon") != -1)
-      alien = Language.emoji.star_dad
+      alien = Emoji.star_dad
     return emptyLink(alien + "\xa0" + link_text)
   }
   // Set up values for other functions working properly
@@ -170,18 +171,18 @@ function animalLink(animal, link_text, language, options) {
     gender_text = childIcon(gender) + "\xa0"
   // Moms and dads have older faces
   if (options.includes("mom_icon"))
-    gender_text = Language.emoji.mother + "\xa0"
+    gender_text = Emoji.mother + "\xa0"
   if (options.includes("dad_icon"))
-    gender_text = Language.emoji.father + "\xa0"
+    gender_text = Emoji.father + "\xa0"
   // Multiple possible moms or dads?
   if (options.includes("question_icon"))
-    gender_text = gender_text.replace("\xa0", "") + Language.emoji.question + "\xa0"
+    gender_text = gender_text.replace("\xa0", "") + Emoji.question + "\xa0"
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1)
     trailing_text = trailing_text + "\u200A" + '½'
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.classList.add("passedAway")
-    trailing_text = trailing_text + "\u200A" + Language.emoji.died
+    trailing_text = trailing_text + "\u200A" + Emoji.died
   }
   name_span.innerText = inner_text
   a.append(gender_text)
@@ -208,16 +209,16 @@ function appleLink(info, container_element) {
   const credit_count_link = document.createElement('a')
   credit_count_link.id = `${info.id}/counts/${info.photo_index}`   // Carousel
   credit_count_link.href = `#credit/${info.photo_credit}`
-  if (Object.keys(Pandas.def.authors).includes(info.photo_credit)) {
+  if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
     // Anonymous/uncredited photos get no apple link
     credit_count_link.removeAttribute("href")
     credit_count_link.innerText = ""
   } else {
     // Otherwise make an apple link with # of photos contributed
     const apple_count = parseInt(P.db._photo.credit[info.photo_credit])
-    credit_count_link.innerText = `${Language.emoji.gift} ${apple_count}`
+    credit_count_link.innerText = `${Emoji.gift} ${apple_count}`
     if (apple_count >= 1000)
-      credit_count_link.innerText = `${Language.emoji.megagift}  ${apple_count}`
+      credit_count_link.innerText = `${Emoji.megagift}  ${apple_count}`
   }
   other_photos.appendChild(credit_count_link)
   return other_photos
@@ -228,13 +229,13 @@ function appleLink(info, container_element) {
  * text nodes that can be inserted into other elements
  */
 function birthday(info, language) {
-  const birthday = `${Language.emoji.born} ${info.birthday}`
+  const birthday = `${Emoji.born} ${info.birthday}`
   // If still alive, print their current age
   let parentheses = undefined
-  if (info.death == Pandas.def.unknown[language])
+  if (info.death == Defaults.unknown[language])
     parentheses = `(${info.age})`
   else
-    parentheses = `${Language.emoji.died} ${info.death}`
+    parentheses = `${Emoji.died} ${info.death}`
   return [birthday, parentheses]
 }
 
@@ -243,12 +244,12 @@ function birthday(info, language) {
  * unlocalized m/f/unknown gender values
  */
 function childIcon(gender) {
-  if (Object.values(Pandas.def.gender.Male).includes(gender))
-    return Language.emoji.boy
-  else if (Object.values(Pandas.def.gender.Female).includes(gender))
-    return Language.emoji.girl
+  if (Object.values(Defaults.gender.Male).includes(gender))
+    return Emoji.boy
+  else if (Object.values(Defaults.gender.Female).includes(gender))
+    return Emoji.girl
   else
-    return Language.emoji.baby
+    return Emoji.baby
 }
 
 /** Display a link to a photo credit on Instagram or elsewhere */
@@ -257,19 +258,19 @@ function creditLink(info, container_element) {
   credit_link.id = `${info.id}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab
   credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link)
-  if (Object.keys(Pandas.def.authors).includes(info.photo_credit)) {
+  if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
     // Uncredited / anonymous photos get no href, and are not links
     credit_link.innerText =
-      `${Language.emoji.camera} ${Pandas.def.authors[info.photo_credit][Env.language]}`
+      `${Emoji.camera} ${Defaults.authors[info.photo_credit][Env.language]}`
     credit_link.removeAttribute("href")
   } else if (info.photo_credit != undefined) {
     // Attribute photo to someone
-    credit_link.innerText = `${Language.emoji.camera} ${info.photo_credit}`
+    credit_link.innerText = `${Emoji.camera} ${info.photo_credit}`
   } else {
     // Ask users to submit through a Google Form
     credit_link.innerText =
-      `${Language.emoji.camera} ${Language.gui.contribute[Env.language]}` + "\xa0"
-    credit_link.href = Language.gui.contribute_link[Env.language]
+      `${Emoji.camera} ${Gui.contribute[Env.language]}` + "\xa0"
+    credit_link.href = Gui.contribute_link[Env.language]
   }
   const container = document.createElement(container_element)
   container.appendChild(credit_link)
@@ -290,7 +291,7 @@ function emptyLink(output_text) {
  * If the panda search result returned nothing, output a card with special
  * _no results_ formatting.
  */
-export function emptyResult(chosen_message=Language.messages.no_result, language) {
+export function emptyResult(chosen_message=Message.Text.no_result, language) {
   const message = document.createElement('div')
   message.className = 'overlay'
   message.innerText = chosen_message[language]
@@ -328,7 +329,7 @@ export function fade(el) {
  * alternate add an alternate spelling to the name information.
  */
 function furigana(name, othernames) {
-  if (othernames == Pandas.def.animal["ja.othernames"])
+  if (othernames == Defaults.animal["ja.othernames"])
     return false
   othernames = othernames.split(", ")   // Guarantee array
   othernames = othernames.filter(function(option) {
@@ -352,9 +353,9 @@ function furigana(name, othernames) {
 export function gender(info, frame_class) {
   const language = info.language
   const img = document.createElement('img')
-  if (info.gender == Pandas.def.gender.Male[language])
+  if (info.gender == Defaults.gender.Male[language])
     img.src = "images/male.svg"
-  else if (info.gender == Pandas.def.gender.Female[language])
+  else if (info.gender == Defaults.gender.Female[language])
     img.src = "images/female.svg"
   else
     img.src = "images/unknown.svg"
@@ -377,13 +378,13 @@ export function genderAnimal(animal, language, frame_class) {
   const img = document.createElement('img')
   if (animal["gender"] == "Male") {
     img.src = "images/male.svg"
-    img.alt = Pandas.def.gender.Male[language]
+    img.alt = Defaults.gender.Male[language]
   } else if (animal["gender"] == "Female") {
     img.src = "images/female.svg"
-    img.alt = Pandas.def.gender.Male[language]
+    img.alt = Defaults.gender.Male[language]
   } else {
     img.src = "images/unknown.svg"
-    img.alt = Pandas.def.unknown[language]
+    img.alt = Defaults.unknown[language]
   }
   gender.appendChild(img)
   return gender
@@ -393,13 +394,13 @@ export function genderAnimal(animal, language, frame_class) {
 function locationLink(zoo, language, mode="icons_only") {
   const languageLocation = `${language}.location`
   // Don't print content if the input id is zero
-  if (zoo['_id'] == Pandas.def.zoo['_id'])
-    return Pandas.def.zoo[languageLocation]
-  let link_text = Language.emoji.map
+  if (zoo['_id'] == Defaults.zoo['_id'])
+    return Defaults.zoo[languageLocation]
+  let link_text = Emoji.map
   if (mode != "icons_only")
     link_text += ` ${zoo[languageLocation]}`
   if (zoo.flag) {
-    link_text += ` ${Language.flags[zoo.flag]}`
+    link_text += ` ${Flags[zoo.flag]}`
   }
   const a = document.createElement('a')
   if (zoo['map']) {
@@ -426,7 +427,7 @@ function nicknames(animal) {
     const nicknames_list = []
     const nicknames_li = document.createElement('li')
     nicknames_li.innerText =
-      `${Language.gui.language[Env.language][language]}: `
+      `${Gui.language[Env.language][language]}: `
     // Nicknames for this animal
     for (let name of nicknames.split(", "))
       nicknames_list.push(name)
@@ -453,7 +454,7 @@ function othernames(animal, current_language) {
     const othername_list = []
     const othername_li = document.createElement('li')
     othername_li.innerText =
-      `${Language.gui.language[Env.language][language]}: `
+      `${Gui.language[Env.language][language]}: `
     // Animal's name in other languages
     if (language != current_language) {
       const name = animal[`${language}.name`]
@@ -572,7 +573,7 @@ function qrcodeImage(animal_index=null, photo_index=null) {
   const copy_notice = document.createElement('span')
   copy_notice.className = "notifier condensed"
   copy_notice.id = "copyToast"
-  copy_notice.innerText = Language.gui.copied[Env.language]
+  copy_notice.innerText = Gui.copied[Env.language]
   qrcode.appendChild(copy_notice)
   return qrcode
 }
@@ -645,8 +646,8 @@ export function zooDivider(mode="bear-bamboo") {
  */
 function zooLink(zoo, link_text, language, icon=undefined) {
   // Don't print content if the input id is zero
-  if (zoo['_id'] == Pandas.def.zoo['_id'])
-    return emptyLink(Pandas.def.zoo[`${language}.name`])
+  if (zoo['_id'] == Defaults.zoo['_id'])
+    return emptyLink(Defaults.zoo[`${language}.name`])
   const a = document.createElement('a')
   let inner_text = link_text
   // Options processing
@@ -713,8 +714,8 @@ const aboutButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "aboutButton",
-      Language.emoji.bamboo,
-      Language.gui.about[Env.language],
+      Emoji.bamboo,
+      Gui.about[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -725,7 +726,7 @@ const aboutButton = {
 const flagButton = {
   action: function(button) {
     const language = button.id.replace("LanguageFlag", "")
-    const options = Pandas.def.languages
+    const options = Defaults.languages
     const choice = options.indexOf(language)
     // Don't redraw unless the language exists, or has changed from the current
     // display language.
@@ -751,7 +752,7 @@ const flagButton = {
     content.className = "buttonContent"
     var icon = document.createElement('div')
     icon.className = "buttonIcon"
-    icon.innerText = Language.gui.flag[language]
+    icon.innerText = Gui.flag[language]
     content.appendChild(icon)
     button.appendChild(content)
     button.addEventListener("click", (e) => this.action(e.target))
@@ -779,8 +780,8 @@ const homeButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "homeButton",
-      Language.emoji.home,
-      Language.gui.home[Env.language],
+      Emoji.home,
+      Gui.home[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -793,7 +794,7 @@ const homeButton = {
  * `Env.language` redpandafinder is drawn in.
  * 
  * When you right-click the language button, it immediately changes the
- * `Env.language` to the next language in `Pandas.def.languages`.
+ * `Env.language` to the next language in `Defaults.languages`.
  */
 const languageButton = {
   /** Make the flag menu buttons appear above the top menu */
@@ -810,7 +811,7 @@ const languageButton = {
   altAction: function(e) {
     e.preventDefault()
     const language = Env.language
-    const options = Pandas.def.languages
+    const options = Defaults.languages
     const count = options.length
     const choice = (options.indexOf(language) + 1) % count
     Env.language = options[choice]
@@ -829,8 +830,8 @@ const languageButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "languageButton",
-      Language.gui.flag[Env.language],
-      Language.gui.language[Env.language][Env.language],
+      Gui.flag[Env.language],
+      Gui.language[Env.language][Env.language],
       class_name)
     button.addEventListener("click", this.action)
     button.addEventListener("contextmenu", this.altAction)
@@ -848,8 +849,8 @@ const linksButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "linksButton",
-      Language.emoji.link,
-      Language.gui.links[Env.language],
+      Emoji.link,
+      Gui.links[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -886,8 +887,8 @@ const mediaButton = {
   render: function(class_name="profile", panda_id) {
     const button = renderButton(
       "mediaButton",
-      Language.emoji.media,
-      Language.gui.media[Env.language],
+      Emoji.media,
+      Gui.media[Env.language],
       class_name)
     button.addEventListener("click", () => this.action(panda.id))
     button.addEventListener("contextmenu", this.altAction)
@@ -906,8 +907,8 @@ const optionsButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "optionsButton",
-      Language.emoji.options,
-      Language.gui.options[Env.language],
+      Emoji.options,
+      Gui.options[Env.language],
       class_name, 
       "brightness-150")
     button.addEventListener("click", this.action)
@@ -941,8 +942,8 @@ const pagingButton = {
   render: function(class_name) {
     const button = renderButton(
       "pagingButton",
-      Language.emoji.paging,
-      Language.gui.paging[Env.language],
+      Emoji.paging,
+      Gui.paging[Env.language],
       class_name)
     // Get callback function and arguments from Query.env
     const callback = Env.paging.callback.function
@@ -990,8 +991,8 @@ const profileButton = {
   render: function(class_name="profile", panda_id) {  
     const button = renderButton(
       "profileButton",
-      Language.emoji.profile,
-      Language.gui.profile[Env.language],
+      Emoji.profile,
+      Gui.profile[Env.language],
       class_name)
     button.addEventListener("click", () => this.action(panda_id))
     button.addEventListener("contextmenu", this.altAction)
@@ -1044,8 +1045,8 @@ const randomButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "randomButton",
-      Language.emoji.random,
-      Language.gui.random[Env.language],
+      Emoji.random,
+      Gui.random[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -1068,8 +1069,8 @@ const refreshButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "refreshButton",
-      Language.emoji.refresh,
-      Language.gui.refresh[Env.language],
+      Emoji.refresh,
+      Gui.refresh[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     button.addEventListener("contextmenu", this.altAction)
@@ -1089,10 +1090,10 @@ const searchButton = {
   },
   render: function(class_name="profile") {
     const searchButtontext = 
-      Language.gui.search[Env.language].replace("...", "");   // No ellipses
+      Gui.search[Env.language].replace("...", "");   // No ellipses
     const button = renderButton(
       "searchButton",
-      Language.emoji.search,
+      Emoji.search,
       searchButtonText,
       class_name)
     button.addEventListener("click", this.action)
@@ -1128,8 +1129,8 @@ export const topButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "topButton",
-      Language.emoji.top,
-      Language.gui.top[Env.language],
+      Emoji.top,
+      Gui.top[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -1141,8 +1142,8 @@ const treeButton = {
   render: function(class_name="profile") {
     const button = renderButton(
       "treeButton",
-      Language.emoji.wip,
-      Language.gui.family[Env.language],
+      Emoji.wip,
+      Gui.family[Env.language],
       class_name)
     // Japanese text is too wide
     const text = button.childNodes[0].childNodes[1]
@@ -1210,7 +1211,7 @@ const optionsPage = {
         container.appendChild(input)
         const label = document.createElement('label')
         label.htmlFor = 'dead-pandas'
-        label.innerText = Language.gui['opt_hide_dead_pandas'][Env.language]
+        label.innerText = Gui['opt_hide_dead_pandas'][Env.language]
         container.appendChild(label)
         return container
       }
@@ -1218,7 +1219,7 @@ const optionsPage = {
   },
   header: function() {
     const header = document.createElement('h3')
-    header.innerText = Language.gui['options'][Env.language]
+    header.innerText = Gui['options'][Env.language]
     return header
   },
   render: function() {
@@ -1259,7 +1260,7 @@ export const landingMenus = {
   },
   /** Draw the language (flags) select menu, but it will be hidden initially */
   language: function(class_color) {
-    const languages = Pandas.def.languages
+    const languages = Defaults.languages
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
     for (const language of languages) {
@@ -1330,7 +1331,7 @@ export const linksMenus = {
         if (btn_name == subpage) {
           btn_class = `${btn_class} selected`
         }
-        const text = Language.gui[btn_id][Env.language]
+        const text = Gui[btn_id][Env.language]
         const button = sectionButton.render(btn_class, btn_id, text)
         menu.appendChild(button)
       }
@@ -1370,7 +1371,7 @@ const linksOrder = {
     const output = {}
     output.counts = {}
     // Count the hits for each language that we support in the display modes
-    for (let language of Language.fallback.order)
+    for (let language of Fallback.order)
       output.counts[language] = 0
     // Grab the icon from the links values
     output.icon = links.icon
@@ -1381,7 +1382,7 @@ const linksOrder = {
       // Fallback language order
       let language_order = links[`${field_name}.language.order`]
       if (language_order == undefined) {
-        language_order = Language.fallback.order
+        language_order = Fallback.order
       } else {
         language_order = language_order.split(", ")
       }
@@ -1551,7 +1552,7 @@ export const linksPage = {
   /** Convert the language order string into a list of flag emojis */
   flags: function(order) {
     return (order.length > 0)
-      ? order.map(l => Language.gui.flag[l]).join(" ")
+      ? order.map(l => Gui.flag[l]).join(" ")
       : ""
   }
 }
@@ -1568,9 +1569,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     const h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["instagramLinks_header"][Env.language]
+    h2.innerText = Gui["instagramLinks_header"][Env.language]
     const body = document.createElement('p')
-    body.innerText = Language.gui["instagramLinks_body"][Env.language]
+    body.innerText = Gui["instagramLinks_body"][Env.language]
     const ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add("multiColumn")
@@ -1596,9 +1597,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     var h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["redPandaCommunity_header"][Env.language]
+    h2.innerText = Gui["redPandaCommunity_header"][Env.language]
     var body = document.createElement('p')
-    body.innerText = Language.gui["redPandaCommunity_body"][Env.language]
+    body.innerText = Gui["redPandaCommunity_body"][Env.language]
     var ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add(links.icon)
@@ -1623,9 +1624,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     const h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["specialThanksLinks_header"][Env.language]
+    h2.innerText = Gui["specialThanksLinks_header"][Env.language]
     const body = document.createElement('p')
-    body.innerText = Language.gui["specialThanksLinks_body"][Env.language]
+    body.innerText = Gui["specialThanksLinks_body"][Env.language]
     const ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add(links.icon)
@@ -1650,9 +1651,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     const h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["zooLinks_header"][Env.language]
+    h2.innerText = Gui["zooLinks_header"][Env.language]
     const body = document.createElement('p')
-    body.innerText = Language.gui["zooLinks_body"][Env.language]
+    body.innerText = Gui["zooLinks_body"][Env.language]
     const ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add(links.icon)
@@ -1819,7 +1820,7 @@ export const profilePage = {
     const nicknames_heading = document.createElement('h4')
     nicknames_heading.className = "nicknamesHeading"
     nicknames_heading.classList.add(Env.language)
-    nicknames_heading.innerText = Language.gui.nicknames[Env.language]
+    nicknames_heading.innerText = Gui.nicknames[Env.language]
     const dossierNicknames = nicknames(animal)
     if (dossierNicknames.childNodes.length > 0) {
       nicknames_container.appendChild(nicknames_heading)
@@ -1832,7 +1833,7 @@ export const profilePage = {
     const othernames_heading = document.createElement('h4')
     othernames_heading.className = "othernamesHeading"
     othernames_heading.classList.add(Env.language)
-    othernames_heading.innerText = Language.gui.othernames[Env.language]
+    othernames_heading.innerText = Gui.othernames[Env.language]
     const dossierOthernames = othernames(animal, Env.language)
     if (dossierOthernames.childNodes.length > 0) {
       othernames_container.appendChild(othernames_heading)
@@ -1856,7 +1857,7 @@ export const profilePage = {
         const mom_photo = photos.filter(x => x["id"] == mom["_id"])[0]
         mom_photos.push(mom_photo)
         const mom_entry = Gallery.familyProfilePhoto(
-          mom, mom_photo, language, Language.gui.mother[language],
+          mom, mom_photo, language, Gui.mother[language],
           "immediateFamily", info.mom.length > 1)
         photo_divs.push(mom_entry)
       }
@@ -1867,25 +1868,25 @@ export const profilePage = {
         const dad_photo = photos.filter(x => x["id"] == dad["_id"])[0]
         dad_photos.push(dad_photo)
         var dad_entry = Gallery.familyProfilePhoto(
-          dad, dad_photo, language, Language.gui.father[language],
+          dad, dad_photo, language, Gui.father[language],
           "immediateFamily", info.dad.length > 1)
         photo_divs.push(dad_entry)
       }
     }
     const me_photo = photos.filter(x => x["id"] == info["id"])[0]
     const me = Gallery.familyProfilePhoto(
-      animal, me_photo, language, Language.gui.me[language], "immediateFamily")
+      animal, me_photo, language, Gui.me[language], "immediateFamily")
     photo_divs.push(me)
     const other_family_ids =
       mom_photos.concat(dad_photos).concat(me_photo).map(x => x.id)
     const litter_photos =
       photos.filter(photo => !other_family_ids.includes(photo["id"]))
     for (const litter_photo of litter_photos) {
-      let subHeading = Language.gui.twin[language]
+      let subHeading = Gui.twin[language]
       if (litter_photos.length == 2)
-        subHeading = Language.gui.triplet[language]
+        subHeading = Gui.triplet[language]
       if (litter_photos.length >= 3)
-        subHeading = Language.gui.quadruplet[language]
+        subHeading = Gui.quadruplet[language]
       const litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0]
       const gallery = Gallery.familyProfilePhoto(
         litter_mate, litter_photo, language, subHeading, "immediateFamily")
@@ -1983,7 +1984,7 @@ export const profilePage = {
     const italics = document.createElement('i')
     italics.appendChild(species_text)
     const heading = document.createElement('h4')
-    const emoji = document.createTextNode(Language.emoji.animal + " ")
+    const emoji = document.createTextNode(Emoji.animal + " ")
     heading.appendChild(emoji)
     heading.appendChild(italics)
     const species_div = document.createElement('div')
@@ -2005,28 +2006,28 @@ export const profilePage = {
     const container = document.createElement('div')
     container.className = "zooHistory"
     for (const zoo of history.reverse()) {
-      let zoo_icon = Language.emoji.zoo
+      let zoo_icon = Emoji.zoo
       // Different date string logic for zoos versus wild animal sightings.
       let date_string = zoo["start_date"] + "\u2014" + zoo["end_date"]
       if (!zoo["id"].includes("wild.")) {
-        if (zoo["end_date"] == Pandas.def.unknown[language]) {
+        if (zoo["end_date"] == Defaults.unknown[language]) {
           date_string = 
-            Language.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"])
-          zoo_icon = Language.emoji.home
+            Gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"])
+          zoo_icon = Emoji.home
         }
       } else {
-        zoo_icon = Language.emoji.tree
+        zoo_icon = Emoji.tree
         date_string =
-          Language.gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"])
+          Gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"])
       }
-      if ((zoo["end_date"] != Pandas.def.unknown[language]) && 
+      if ((zoo["end_date"] != Defaults.unknown[language]) && 
           (zoo["end_date"] == Pandas.date(animal, "death", Env.language))) {
-        zoo_icon = Language.emoji.died
+        zoo_icon = Emoji.died
       }
-      if ((zoo["start_date"] != Pandas.def.unknown[language]) &&
+      if ((zoo["start_date"] != Defaults.unknown[language]) &&
           (zoo["start_date"] == Pandas.formatDate(animal["birthday"], language)) &&
-          (zoo_icon != Language.emoji.home)) {
-        zoo_icon = Language.emoji.born_at
+          (zoo_icon != Emoji.home)) {
+        zoo_icon = Emoji.born_at
       }
       const zoo_info = Pandas.searchZooId(zoo["id"])[0]
       const zoo_entry = document.createElement('ul')
@@ -2037,7 +2038,7 @@ export const profilePage = {
       zoo_date.className = "detail"
       zoo_date.innerText = date_string
       zoo_name.appendChild(zoo_link)
-      if (zoo["start_date"] != Pandas.def.unknown[language])
+      if (zoo["start_date"] != Defaults.unknown[language])
         zoo_name.appendChild(zoo_date)
       zoo_entry.appendChild(zoo_name)
       const zoo_location = document.createElement('li')
@@ -2120,7 +2121,7 @@ export const mediaPage = {
       result.appendChild(photo)
     if (gallery.length < 1)
       result.appendChild(
-        emptyResult(Language.messages.no_group_media_result, Env.language))
+        emptyResult(Message.Text.no_group_media_result, Env.language))
     return result
   },
   nameBar: profilePage.nameBar,
@@ -2133,7 +2134,7 @@ export const resultsPage = {
   children: function(info) {
     const heading = document.createElement('h4')
     heading.className = `childrenHeading  ${info.language}`
-    heading.innerText = Language.gui.children[info.language]
+    heading.innerText = Gui.children[info.language]
     const ul = document.createElement('ul')
     ul.className = `pandaList ${info.language}`
     for (const index in Pandas.sortOldestToYoungest(info.children)) {
@@ -2189,7 +2190,7 @@ export const resultsPage = {
     const results = []
     if (gallery.length < 1) {
       results.push(
-        emptyResult(Language.messages.no_group_media_result, Env.language))
+        emptyResult(Message.Text.no_group_media_result, Env.language))
     } else {
       results = gallery
     }
@@ -2201,7 +2202,7 @@ export const resultsPage = {
     const heading = document.createElement('h4')
     heading.className = `litterHeading ${info.language}`
     heading.classList.add(language)
-    heading.innerText = Language.gui.litter[info.language]
+    heading.innerText = Gui.litter[info.language]
     const ul = document.createElement('ul')
     ul.className = `pandaList ${info.language}`
     for (const index in Pandas.sortOldestToYoungest(info.litter)) {
@@ -2278,7 +2279,7 @@ export const resultsPage = {
       const target_zoo = Pandas.searchZooId(info.search_context.from)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
       // Custom language templates for this
-      const icon = Language.emoji.truck
+      const icon = Emoji.truck
       const target_text =
         Message.arrived_from_zoo(target_zoo[`${language}.name`], target_date, language)
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
@@ -2298,7 +2299,7 @@ export const resultsPage = {
       const target_zoo = Pandas.searchZooId(info.search_context.to)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
       // Custom language templates for this
-      const icon = Language.emoji.truck
+      const icon = Emoji.truck
       const target_text =
         Message.departed_to_zoo(target_zoo[`${language}.name`], target_date, language)
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
@@ -2316,14 +2317,14 @@ export const resultsPage = {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
-      let icon = Language.emoji.born_at
+      let icon = Emoji.born_at
       const target_text = target_zoo[`${language}.name`]
       const compare_text = info.zoo[`${language}.name`]
-      if (target_text == compare_text && info.death == Pandas.def.unknown[language]) {
+      if (target_text == compare_text && info.death == Defaults.unknown[language]) {
         squelch_home_zoo = true
-        icon = `${icon} ${Language.emoji.home}`
+        icon = `${icon} ${Emoji.home}`
       }
-      if (info.death != Pandas.def.unknown[language])
+      if (info.death != Defaults.unknown[language])
         squelch_home_zoo = true
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
       zoo.appendChild(zoo_link)
@@ -2340,12 +2341,12 @@ export const resultsPage = {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
-      const icon = Language.emoji.zoo
+      const icon = Emoji.zoo
       const target_text = target_zoo[`${language}.name`]
       const compare_text = info.zoo[`${language}.name`]
       if (target_text == compare_text) {
         squelch_home_zoo = true
-        icon = Language.emoji.home
+        icon = Emoji.home
       }
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
       zoo.appendChild(zoo_link)
@@ -2359,12 +2360,12 @@ export const resultsPage = {
       // Next, show the date ranges this is valid for
       for (const range of info.search_context.ranges) {
         const entry = document.createElement('p')
-        let icon = Language.emoji.range_previous
-        if (range.length < 2 && info.death == Pandas.def.unknown[language])
-          icon = Language.emoji.truck   // When they arrived, haven't left
+        let icon = Emoji.range_previous
+        if (range.length < 2 && info.death == Defaults.unknown[language])
+          icon = Emoji.truck   // When they arrived, haven't left
         const start_range = Pandas.formatDate(range.shift(), language)
         let end_range = range.shift()
-        if (end_range == undefined && info.death != Pandas.def.unknown[language])
+        if (end_range == undefined && info.death != Defaults.unknown[language])
           end_range = " \u2014 " + info.death
         else if (end_range == undefined)
           end_range = ""
@@ -2374,7 +2375,7 @@ export const resultsPage = {
         details.appendChild(entry)
       }
       // Don't show the home zoo if the animal is dead
-      if (info.death != Pandas.def.unknown[language])
+      if (info.death != Defaults.unknown[language])
         squelch_home_zoo = true
     }
     // Which zoo is the animal at now. Ignore if just arrived/departed,
@@ -2382,7 +2383,7 @@ export const resultsPage = {
     if (info.zoo != undefined && squelch_home_zoo == false) {
       const zoo = document.createElement('p')
       const zoo_link =
-        zooLink(info.zoo, info.zoo[`${language}.name`], language, Language.emoji.home)
+        zooLink(info.zoo, info.zoo[`${language}.name`], language, Emoji.home)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
       // a Google Maps search for the "<language>.address" field
@@ -2396,7 +2397,7 @@ export const resultsPage = {
     if (info.wild != undefined) {
       const wild = document.createElement('p')
       wild.innerText =
-        Language.flags[info.wild["flag"]] + " " + info.wild[`${language}.name`]
+        Flags[info.wild["flag"]] + " " + info.wild[`${language}.name`]
       details.appendChild(wild)
     }
     // Give credit for the person that took this photo
@@ -2440,7 +2441,7 @@ export const resultsPage = {
   parents: function(info) {
     const heading = document.createElement('h4')
     heading.className = `parentsHeading ${info.language}`
-    heading.innerText = Language.gui.parents[info.language]
+    heading.innerText = Gui.parents[info.language]
     const ul = document.createElement('ul')
     ul.className = `pandaList ${info.language}`
     const mom_links = []
@@ -2455,7 +2456,7 @@ export const resultsPage = {
       }
     } else {
       const mom_link = animalLink(
-        Pandas.def.animal, Pandas.def.no_name[info.language], info.language, ["mom_icon"])
+        Defaults.animal, Defaults.no_name[info.language], info.language, ["mom_icon"])
       mom_links.push(mom_link)
     }
     for (const mom_link of mom_links) {
@@ -2475,7 +2476,7 @@ export const resultsPage = {
       }
     } else {
       const dad_link = animalLink(
-        Pandas.def.animal, Pandas.def.no_name[info.language], info.language, ["dad_icon"])
+        Defaults.animal, Defaults.no_name[info.language], info.language, ["dad_icon"])
       dad_links.push(dad_link)
     }
     for (const dad_link of dad_links) {
@@ -2504,7 +2505,7 @@ export const resultsPage = {
   siblings: function(info) {
     const heading = document.createElement('h4')
     heading.className = `siblingsHeading ${info.language}`
-    heading.innerText = Language.gui.siblings[info.language]
+    heading.innerText = Gui.siblings[info.language]
     const ul = document.createElement('ul')
     ul.className = `pandaList ${info.language}`
     for (const index in Pandas.sortOldestToYoungest(info.siblings)) {
@@ -2638,16 +2639,16 @@ export const resultsPage = {
     const at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length
     if (at_zoo < 1) {
       let output_text = ""
-      for (const i in Language.messages.zoo_details_no_pandas_live_here[language]) {
-        const field = Language.messages.zoo_details_no_pandas_live_here[language][i]
+      for (const i in Message.Text.zoo_details_no_pandas_live_here[language]) {
+        const field = Message.Text.zoo_details_no_pandas_live_here[language][i]
         output_text = output_text.concat(field)
       }
       const text_node = document.createTextNode(output_text)
       li_items["living"].appendChild(text_node)
     } else {
       let output_text = ""
-      for (const i in Language.messages.zoo_details_pandas_live_here[language]) {
-        const field = Language.messages.zoo_details_pandas_live_here[language][i]
+      for (const i in Message.Text.zoo_details_pandas_live_here[language]) {
+        const field = Message.Text.zoo_details_pandas_live_here[language][i]
         if (field == "<INSERTNUM>")
           output_text = output_text.concat(at_zoo)
         else
@@ -2666,8 +2667,8 @@ export const resultsPage = {
     if (born_count > 0) {
       const earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0]
       let output_text = ""
-      for (const i in Language.messages.zoo_details_babies[language]) {
-        const field = Language.messages.zoo_details_babies[language][i]
+      for (const i in Message.Text.zoo_details_babies[language]) {
+        const field = Message.Text.zoo_details_babies[language][i]
         if (field == "<INSERTBABIES>")
           output_text = output_text.concat(born_count)
         else if (field == "<INSERTYEAR>")
@@ -2694,15 +2695,15 @@ export const resultsPage = {
     const total_departed = departed_count + died_count
     if (total_departed > 0) {
       let output_text = ""
-      for (const i in Language.messages.zoo_details_departures[language]) {
-        const field = Language.messages.zoo_details_departures[language][i]
+      for (const i in Message.Text.zoo_details_departures[language]) {
+        const field = Message.Text.zoo_details_departures[language][i]
         if (field == "<INSERTNUM>")
           output_text = output_text.concat(total_departed)
         else
           output_text = output_text.concat(field)
       }
       if (died_count > 0)
-        output_text = output_text.concat(" " + Language.emoji.died)
+        output_text = output_text.concat(" " + Emoji.died)
       output_text = Language.unpluralize([output_text])[0]
       const text_node = document.createTextNode(output_text)
       departed_link.appendChild(text_node)
@@ -2733,8 +2734,8 @@ export const resultsPage = {
       const total_link = document.createElement('a')
       total_link.href = `#query/lived at ${info.id}`
       let output_text = ""
-      for (const i in Language.messages.zoo_details_records[language]) {
-        const field = Language.messages.zoo_details_records[language][i]
+      for (const i in Message.Text.zoo_details_records[language]) {
+        const field = Message.Text.zoo_details_records[language][i]
         if (field == "<INSERTNUM>")
           output_text = output_text.concat(total_count)
         else if (field == "<INSERTYEAR>")
@@ -2759,7 +2760,7 @@ export const resultsPage = {
   zooDetails: function(info) {
     const address = document.createElement('p')
     const address_link = document.createElement('a')
-    address_link.innerText = `${Language.emoji.travel} ${info.address}`
+    address_link.innerText = `${Emoji.travel} ${info.address}`
     address_link.href = info.map
     address_link.target = "_blank"   // Open in new tab
     address.appendChild(address_link)
@@ -2767,11 +2768,11 @@ export const resultsPage = {
     const zoo_link = document.createElement('a')
     zoo_link.href = info.website
     zoo_link.target = "_blank"   // Open in new tab
-    zoo_link.innerText = `${Language.emoji.website} ${info.name}`
+    zoo_link.innerText = `${Emoji.website} ${info.name}`
     zoo_page.appendChild(zoo_link)
     const details = document.createElement('div')
     details.className = "zooDetails"
-    if (info.closed != Pandas.def.zoo.closed) {
+    if (info.closed != Defaults.zoo.closed) {
       const date = Pandas.formatDate(info.closed, Env.language)
       const closed = Message.closed(date, Env.language)
       details.appendChild(closed)
@@ -2780,7 +2781,7 @@ export const resultsPage = {
     details.appendChild(zoo_page)
     // Photo details are optional for zoos, so don't show the
     // photo link if there's no photo included in the dataset
-    if (info.photo != Pandas.def.zoo["photo.1"]) {
+    if (info.photo != Defaults.zoo["photo.1"]) {
       // Give credit for the person that took this photo
       const credit = creditLink(info, 'p')
       details.appendChild(credit)
@@ -2816,7 +2817,7 @@ export const searchBar = {
   enable: function() {
     if (document.forms['searchForm'] != undefined) {
       document.forms['searchForm']['searchInput'].disabled = false
-      const placeholder = "➤ " + Language.gui.search[Env.language]
+      const placeholder = "➤ " + Gui.search[Env.language]
       document.forms['searchForm']['searchInput'].placeholder = placeholder
       this.action()
     }
@@ -2848,7 +2849,7 @@ export const searchBar = {
     const text_input = document.createElement('input')
     text_input.id = "searchInput"
     text_input.className = "search"
-    text_input.placeholder = "➤ " + Language.gui.search[Env.language]
+    text_input.placeholder = "➤ " + Gui.search[Env.language]
     text_input.type = "search"
     const form = document.createElement('form')
     form.id = "searchForm"
