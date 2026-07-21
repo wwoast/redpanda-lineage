@@ -1552,12 +1552,12 @@ export function date(animal, field, language) {
 export function field(animal, field, mode="animal") {
   if (animal[field] != undefined)
     return animal[field]
-  else if (def[mode][field] != undefined)
-    return def[mode][field]
+  else if (Defaults[mode][field] != undefined)
+    return Defaults[mode][field]
   else if (field.indexOf("photo.") == 0)
-    return def[mode]["photo.1"]
+    return Defaults[mode]["photo.1"]
   else if (field.indexOf("video.") == 0)
-    return def[mode]["video.1"]
+    return Defaults[mode]["video.1"]
   else
     return undefined
 }
