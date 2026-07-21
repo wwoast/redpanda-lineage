@@ -14,7 +14,7 @@ export default env = {
   /** 
    * The current display language for redpandafinder. Default is set by
    * `language.js#defaultDisplayLanguage`. */
-  language = undefined,
+  language: undefined,
   /** 
    * When un-clicking Links/About, go back to the last page viewed, or possibly
    * the last panda you searched for.
