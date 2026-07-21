@@ -92,9 +92,9 @@ export class Carousel {
     } else {
       this.image.id = `${this.unique}_${id}/photo/${index}`   // For carousel
       this.image.className = `${this.unique}_${id}/photo`
-      url.process(image, photoUrl)
+      url.process(this.image, photoUrl)
     }
-    image.onerror = `this.src='${this.fallback_url}'`
+    this.image.onerror = `this.src='${this.fallback_url}'`
   }
 
   /** The hover over or swipe menu for photo navigation */
