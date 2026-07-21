@@ -811,7 +811,6 @@ export default class Layout {
       // values to calculate the final box-height.
       const line_height = "35px"
       const list_count_height = "22px"
-      let longest = 0
       // Our desired order and spacing. Split at the middle by default, rounded down
       let minimum_space = Math.pow(2, 32) - 1
       let minimum_split = Math.floor(valid_list.length / 2)
@@ -842,8 +841,8 @@ export default class Layout {
             // If perfect balance, great! We're done
             this.layout.list_order = list_order
             minimum_split = split_point
-            longest = (left_sum > right_sum) ? left_sum : right_sum
-            longest_list_count = (left_lists.length > right_lists.length)
+            const longest = (left_sum > right_sum) ? left_sum : right_sum
+            const longest_list_count = (left_lists.length > right_lists.length)
               ? left_lists.length
               : right_lists.length
             // Account for item line height, and the heading/gap height as well
@@ -856,8 +855,8 @@ export default class Layout {
             this.layout.list_order = list_order
             minimum_space = difference
             minimum_split = split_point
-            longest = (left_sum > right_sum) ? left_sum : right_sum;
-            longest_list_count = (left_lists.length > right_lists.length)
+            const longest = (left_sum > right_sum) ? left_sum : right_sum;
+            const longest_list_count = (left_lists.length > right_lists.length)
               ? left_lists.length
               : right_lists.length
             // Account for item line height, and the heading/gap height as well
