@@ -1,5 +1,7 @@
 import * as Jsleri from './jsleri-1.1.15.js'
-import { capitalNames, polyglots, tags } from './language.js'
+import { capitalNames,
+         polyglots as Polyglots,
+         tags as Tags } from './language.js'
 import P, { def, values } from './pandas.js'
 
 /**
@@ -15,14 +17,14 @@ export function searchTag(search_tag) {
   if (latin == true)
     search_tag = search_tag.toLowerCase()
   // Now search the tags list for a match
-  for (const key of Object.keys(Language.tags)) {
-    const terms = values(Language.tags[key])
+  for (const key of Object.keys(Tags)) {
+    const terms = values(Tags[key])
     if (terms.includes(search_tag))
       return key
   }
   // Search things that could be tags in the right context
-  for (const key of Object.keys(Language.polyglots)) {
-    const terms = values(Language.polyglots[key])
+  for (const key of Object.keys(Polyglots)) {
+    const terms = values(Polyglots[key])
     if (terms.includes(search_tag))
       return key
   }
@@ -245,12 +247,12 @@ export const group = {
   /** Valid _panda_ keywords */
   panda: values([keyword.panda]),
   /** Aggregate of all possible tag values */
-  tags: values([Language.tags]),
+  tags: values([Tags]),
   /** Keywords that take some kind of author or contributor name */
   takes_subject_author: values([keyword.credit]),
   /** Keywords that take some form of arbitrary string name */
   takes_subject_name: values([
-    Language.tags,
+    Tags,
     keyword.baby,
     keyword.credit,
     keyword.family,
@@ -259,7 +261,7 @@ export const group = {
   ]),
   /** Keywords that take some form of numeric ID value */
   takes_subject_number: values([
-    Language.tags,
+    Tags,
     keyword.born_at,
     keyword.died_at,
     keyword.lived_at,
@@ -281,7 +283,7 @@ export const group = {
   ]),
   /** Single keywords that represent queries on their own */
   zeroary: values([
-    Language.tags,
+    Tags,
     keyword.baby,
     keyword.dead,
     keyword.nearby
@@ -406,7 +408,7 @@ class Lexer {
           let token = input_split.slice(i, i+n+1).join(' ')
           // Name matching needs to use locale-specific normalizing
           if (list_name == "names")
-            token = Language.capitalNames(token)
+            token = capitalNames(token)
           tokenlist.push(token)
         }
       }
