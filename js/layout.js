@@ -306,7 +306,7 @@ export default class Layout {
     for (const order of orders) {
       this.layout.list_order = order
       const test = `div${sum}_${order.map(list => this.num[list]).join("_")}`
-      if (test in switchboard) {
+      if (test in this.switchboard) {
         arrangeId = test
         break
       }
@@ -314,11 +314,11 @@ export default class Layout {
     // Call an arrangement function if it exists. If not, use a default layout heuristic.
     // This will result in an updated this.arrangement.family div getting written.
     if (arrangeId != undefined) {
-      switchboard[arrangeId]();
+      this.switchboard[arrangeId]()
     } else {
-      this.arrange.default();
+      this.arrange.default()
     }
-    return this.section.family;
+    return this.section.family
   }
 
   /** Get the number of non-empty columns */
@@ -924,152 +924,147 @@ export default class Layout {
       return 2   // Split at the third column
     }
   }
-} 
 
-/**
- * The arrangement switchboard, a shortcut for specific arrangements that
- * are known to be good and working for specific panda result cards.
- * 
- * These are defined outside the Layout class, because they need to call
- * instanced methods and modify values in the class, but I didn't want this
- * whole bundle of function routing in each instance of the class.
- */
-const switchboard = {
-  /** One list item? Simple column layout is fine. */
-  div1_1_0_0_0: (layout) => layout.arrange.columns(),
-  /** Two list items, flattened to save space. TEST: Harumaki (0001) */
-  div2_2_0_0_0: (layout) => layout.arrange.flattenSimple("both"),
-  /** Two list items, in their own columns. */
-  div2_1_1_0_0: (layout) => layout.arrange.columns(),
-  /** Three list item arrangements all use column mode. */
-  div3_2_1_0_0: (layout) => layout.arrange.columns(),
-  div3_0_1_1_1: (layout) => layout.arrange.columns(),
-  div3_0_0_3_0: (layout) => layout.arrange.columns(),
-  div3_3_0_0_0: (layout) => layout.arrange.columns(),
-  /** 
-   * Four list items. Two parents and two in a second column. 
-   * TEST: Shizuku (0138)
-   */
-  div4_2_2_0_0: (layout) => layout.arrange.columns(),
-  /** Four list items. Two in one category and singles. */
-  div4_2_1_1_0: (layout) => layout.arrange.longRun("onlyMobile"),
-  // Four list items. Three in one category
-  div4_0_0_3_1: (layout) => layout.arrange.columns(),
-  /** Four list items. Longer lists will get multiColumn'ed. */
-  div4_0_0_4_0: (layout) => layout.arrange.columns(),
-  /** Four list items. Possible parents */
-  div4_4_0_0_0: (layout) => layout.arrange.columns(),
-  /** Five list items. Two parents and three in a second column. TEST: Keti */
-  div5_2_0_3_0: (layout) => layout.arrange.columns(),
-  /** 
-   * Five list items. Two parents and a two/one split.
-   * TODO: consider flattenTop for this style of layout
-   */
-  div5_2_2_1_0: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Five list items. Two parents and three other columns */
-  div5_2_1_1_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Five list items. Four in one list, and a fifth */
-  div5_0_0_4_1: (layout) => layout.arrange.columns(),
-  /** Six list items. Two parents and others in a single column */
-  div6_2_0_4_0: (layout) => layout.arrange.columns(),
-  /** Six list items. Two parents and a short split */
-  div6_2_1_3_0: (layout) => layout.arrange.longRun("onlyMobile"), 
-  /** Six list items. Two parents and even columns. TEST: Asahi (0261) */
-  div6_2_2_2_0: (layout) => layout.arrange.flattenSimple("onlyMobile"),
-  /** Six list items. Two parents and spread */
-  div6_2_2_1_1: (layout) => layout.arrange.columns(),
-  /** Six list items. Mostly or all in one column */
-  div6_0_0_5_1: (layout) => layout.arrange.oneMultiColumn(2),
-  /** Six list items. All in two columns */
-  div6_0_0_3_3: (layout) => layout.arrange.columns(),
-  /** Seven list items. Parents, litter, and three siblings */
-  div7_2_2_3_0: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Seven list items. parents/litter/siblings/children, straight columns */
-  div7_2_2_2_1: (layout) => layout.arrange.columns(),
-  /** 
-   * Seven list items. A predominant list with parents. The three item list is
-   * last, but we can shift it up a little. TEST: Gin (0017)
-   */
-  div7_2_1_3_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** 
-   * Seven list items. A predominant list with no litter. Place the one below
-   * the parents, and the four kicked right.
-   */
-  div7_2_0_4_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Eight list items. Two animals per list type */
-  div8_2_2_2_2: (layout) => layout.arrange.columns(),
-  /** Eight list items. Mostly balanced but a three-and-one on the right */
-  div8_2_2_3_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Eight list items, a long column and two shorties */
-  div8_2_2_4_0: (layout) => layout.arrange.longRun("onlyMobile"),
-  div8_2_1_5_0: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** 
-   * Eight list items. Do the four column below the one, but kick it up.
-   * TEST: Mitarashi (0282)
-   */
-  div8_2_1_4_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Nine items. Do a balancing act. TEST: Shiratama (0285) */
-  div9_2_1_4_2: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Nine list items. Two single columns sneaking on the left */
-  div9_2_1_5_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** 
-   * Nine list items. A long column goes multiColumn. On mobile the broader
-   * multicolumn lists should shrink down to two columns
-   */
-  div9_2_2_5_0: (layout) =>
-    layout.arrange.oneMultiColumn(2, "onlyMobile", "onlyMobile"),
-  /** 
-   * Nine list items. Parents and two similar length lists. TEST: Mugi (0005)
-   */
-  div9_2_0_3_4: (layout) => layout.arrange.flattenSimple("onlyMobile"),
-  /** 
-   * Nine list items. Multi-column, and flow the smaller ones left.
-   * TEST: Furin (0085)
-   */
-  div9_2_1_6_0: (layout) => layout.arrange.threeListOneLong("onlyDesktop"),
-  /** Wouldn't normally flatten the one. Might not need this */
-  div9_0_0_8_1: (layout) => layout.arrange.flattenPlusMultiColumn(3),
-  /** Ten list items. Parents and balanced elsewhere */
-  div10_2_0_4_4: (layout) => layout.arrange.flattenSimple("onlyMobile"),
-  /** Ten list items. Spread out evenly and wide */
-  div10_2_2_3_3: (layout) => layout.arrange.columns(),
-  /** Ten list items. Balance these */
-  div10_2_1_4_3: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Ten list items. Flatten the top, and multicolumn the largest one */
-  div10_2_2_5_1: (layout) => layout.arrange.flattenPlusMultiColumn(2),
-  /** Another arrangement of that 10 looks better a different way */
-  div10_2_1_5_2: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** 
-   * Ten list items. Balanced lists and a muticolumn
-   * TODO: On mobile, flatten all the short columns.
-   */
-  div10_2_2_6_0: (layout) => layout.arrange.threeListOneLong("onlyDesktop"),
-  /** Ten list items. Sneak the singles down the left */
-  div10_2_1_6_1: (layout) => layout.arrange.longRun("onlyMobile"),
-  /** Ten list items. Too long to be a long run. TEST: Fuuna (0045) */
-  div10_2_0_7_1: (layout) => layout.arrange.threeListOneLong("onlyDesktop"),
-  /** Ten list items. No parents layout, even stevens. Spread out on desktop */
-  div10_0_0_5_5: (layout) => layout.arrange.oneMultiColumn(2, 'onlyDesktop'),
   /**
-   * Ten list items. On mobile this looks fine as two columns.
-   * On desktop the multicolumn div needs to be split out.
+   * The arrangement switchboard, a shortcut for specific arrangements that
+   * are known to be good and working for specific panda result cards.
    */
-  div10_0_0_6_4: (layout) => layout.arrange.oneMultiColumn(2, 'onlyDesktop'),
-  /** Ten list items. Seven-long columns are too much. */
-  div10_0_0_7_3: (layout) => layout.arrange.flattenPlusMultiColumn(2, 'onlyMobile'),
-  /** 
-   * Eleven items: force a two-column flatten, since 9 will default to 3
-   * columns otherwise
-   */
-  div11_2_0_9_0: (layout) => layout.arrange.flattenPlusMultiColumn(2),
-  div11_2_2_7_0: (layout) => layout.arrange.threeListOneLong("onlyDesktop"),
-  /**
-   * Eleven items: do a vertical flow on desktop and mobile
-   * TODO: vertical flow on desktop and mobile. Different heights stored.
-   * Adjust other code to use special heights for mobile versus desktop.
-   * TEST: Yan-Yan (0112)
-   */
-  // div11_2_1_3_5: (layout) => layout.arrange.verticalFlow(),
-  /** Twelve items: Force multicolumns to be just two wide */
-  div12_2_1_9_0: (layout) => layout.arrange.threeListOneLong("onlyDesktop")
+  switchboard = {
+    /** One list item? Simple column layout is fine. */
+    div1_1_0_0_0: () => this.arrange.columns(),
+    /** Two list items, flattened to save space. TEST: Harumaki (0001) */
+    div2_2_0_0_0: () => this.arrange.flattenSimple("both"),
+    /** Two list items, in their own columns. */
+    div2_1_1_0_0: () => this.arrange.columns(),
+    /** Three list item arrangements all use column mode. */
+    div3_2_1_0_0: () => this.arrange.columns(),
+    div3_0_1_1_1: () => this.arrange.columns(),
+    div3_0_0_3_0: () => this.arrange.columns(),
+    div3_3_0_0_0: () => this.arrange.columns(),
+    /** 
+     * Four list items. Two parents and two in a second column. 
+     * TEST: Shizuku (0138)
+     */
+    div4_2_2_0_0: () => this.arrange.columns(),
+    /** Four list items. Two in one category and singles. */
+    div4_2_1_1_0: () => this.arrange.longRun("onlyMobile"),
+    // Four list items. Three in one category
+    div4_0_0_3_1: () => this.arrange.columns(),
+    /** Four list items. Longer lists will get multiColumn'ed. */
+    div4_0_0_4_0: () => this.arrange.columns(),
+    /** Four list items. Possible parents */
+    div4_4_0_0_0: () => this.arrange.columns(),
+    /** Five list items. Two parents and three in a second column. TEST: Keti */
+    div5_2_0_3_0: () => this.arrange.columns(),
+    /** 
+     * Five list items. Two parents and a two/one split.
+     * TODO: consider flattenTop for this style of layout
+     */
+    div5_2_2_1_0: () => this.arrange.longRun("onlyMobile"),
+    /** Five list items. Two parents and three other columns */
+    div5_2_1_1_1: () => this.arrange.longRun("onlyMobile"),
+    /** Five list items. Four in one list, and a fifth */
+    div5_0_0_4_1: () => this.arrange.columns(),
+    /** Six list items. Two parents and others in a single column */
+    div6_2_0_4_0: () => this.arrange.columns(),
+    /** Six list items. Two parents and a short split */
+    div6_2_1_3_0: () => this.arrange.longRun("onlyMobile"), 
+    /** Six list items. Two parents and even columns. TEST: Asahi (0261) */
+    div6_2_2_2_0: () => this.arrange.flattenSimple("onlyMobile"),
+    /** Six list items. Two parents and spread */
+    div6_2_2_1_1: () => this.arrange.columns(),
+    /** Six list items. Mostly or all in one column */
+    div6_0_0_5_1: () => this.arrange.oneMultiColumn(2),
+    /** Six list items. All in two columns */
+    div6_0_0_3_3: () => this.arrange.columns(),
+    /** Seven list items. Parents, litter, and three siblings */
+    div7_2_2_3_0: () => this.arrange.longRun("onlyMobile"),
+    /** Seven list items. parents/litter/siblings/children, straight columns */
+    div7_2_2_2_1: () => this.arrange.columns(),
+    /** 
+     * Seven list items. A predominant list with parents. The three item list is
+     * last, but we can shift it up a little. TEST: Gin (0017)
+     */
+    div7_2_1_3_1: () => this.arrange.longRun("onlyMobile"),
+    /** 
+     * Seven list items. A predominant list with no litter. Place the one below
+     * the parents, and the four kicked right.
+     */
+    div7_2_0_4_1: () => this.arrange.longRun("onlyMobile"),
+    /** Eight list items. Two animals per list type */
+    div8_2_2_2_2: () => this.arrange.columns(),
+    /** Eight list items. Mostly balanced but a three-and-one on the right */
+    div8_2_2_3_1: () => this.arrange.longRun("onlyMobile"),
+    /** Eight list items, a long column and two shorties */
+    div8_2_2_4_0: () => this.arrange.longRun("onlyMobile"),
+    div8_2_1_5_0: () => this.arrange.longRun("onlyMobile"),
+    /** 
+     * Eight list items. Do the four column below the one, but kick it up.
+     * TEST: Mitarashi (0282)
+     */
+    div8_2_1_4_1: () => this.arrange.longRun("onlyMobile"),
+    /** Nine items. Do a balancing act. TEST: Shiratama (0285) */
+    div9_2_1_4_2: () => this.arrange.longRun("onlyMobile"),
+    /** Nine list items. Two single columns sneaking on the left */
+    div9_2_1_5_1: () => this.arrange.longRun("onlyMobile"),
+    /** 
+     * Nine list items. A long column goes multiColumn. On mobile the broader
+     * multicolumn lists should shrink down to two columns
+     */
+    div9_2_2_5_0: () => this.arrange.oneMultiColumn(2, "onlyMobile", "onlyMobile"),
+    /** 
+     * Nine list items. Parents and two similar length lists. TEST: Mugi (0005)
+     */
+    div9_2_0_3_4: () => this.arrange.flattenSimple("onlyMobile"),
+    /** 
+     * Nine list items. Multi-column, and flow the smaller ones left.
+     * TEST: Furin (0085)
+     */
+    div9_2_1_6_0: () => this.arrange.threeListOneLong("onlyDesktop"),
+    /** Wouldn't normally flatten the one. Might not need this */
+    div9_0_0_8_1: () => this.arrange.flattenPlusMultiColumn(3),
+    /** Ten list items. Parents and balanced elsewhere */
+    div10_2_0_4_4: () => this.arrange.flattenSimple("onlyMobile"),
+    /** Ten list items. Spread out evenly and wide */
+    div10_2_2_3_3: () => this.arrange.columns(),
+    /** Ten list items. Balance these */
+    div10_2_1_4_3: () => this.arrange.longRun("onlyMobile"),
+    /** Ten list items. Flatten the top, and multicolumn the largest one */
+    div10_2_2_5_1: () => this.arrange.flattenPlusMultiColumn(2),
+    /** Another arrangement of that 10 looks better a different way */
+    div10_2_1_5_2: () => this.arrange.longRun("onlyMobile"),
+    /** 
+     * Ten list items. Balanced lists and a muticolumn
+     * TODO: On mobile, flatten all the short columns.
+     */
+    div10_2_2_6_0: () => this.arrange.threeListOneLong("onlyDesktop"),
+    /** Ten list items. Sneak the singles down the left */
+    div10_2_1_6_1: () => this.arrange.longRun("onlyMobile"),
+    /** Ten list items. Too long to be a long run. TEST: Fuuna (0045) */
+    div10_2_0_7_1: () => this.arrange.threeListOneLong("onlyDesktop"),
+    /** Ten list items. No parents layout, even stevens. Spread out on desktop */
+    div10_0_0_5_5: () => this.arrange.oneMultiColumn(2, 'onlyDesktop'),
+    /**
+     * Ten list items. On mobile this looks fine as two columns.
+     * On desktop the multicolumn div needs to be split out.
+     */
+    div10_0_0_6_4: () => this.arrange.oneMultiColumn(2, 'onlyDesktop'),
+    /** Ten list items. Seven-long columns are too much. */
+    div10_0_0_7_3: () => this.arrange.flattenPlusMultiColumn(2, 'onlyMobile'),
+    /** 
+     * Eleven items: force a two-column flatten, since 9 will default to 3
+     * columns otherwise
+     */
+    div11_2_0_9_0: () => this.arrange.flattenPlusMultiColumn(2),
+    div11_2_2_7_0: () => this.arrange.threeListOneLong("onlyDesktop"),
+    /**
+     * Eleven items: do a vertical flow on desktop and mobile
+     * TODO: vertical flow on desktop and mobile. Different heights stored.
+     * Adjust other code to use special heights for mobile versus desktop.
+     * TEST: Yan-Yan (0112)
+     */
+    // div11_2_1_3_5: () => this.arrange.verticalFlow(),
+    /** Twelve items: Force multicolumns to be just two wide */
+    div12_2_1_9_0: () => this.arrange.threeListOneLong("onlyDesktop")
+  }
 }
