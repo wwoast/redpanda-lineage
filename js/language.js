@@ -147,11 +147,11 @@ export function fallbackEntity(entity) {
     if (fallback_blacklist.includes(blacklist_key))
       continue  // Ignore blacklist fields
     if (empty_values.includes(entity[key])) {
-      for (language of order) {
+      for (const language of order) {
         if (language == Env.language)
           continue  // Don't take replacement values from current language
         const [ _, desired ] = key.split('.')
-        var new_key = `${language}.${desired}`
+        const new_key = `${language}.${desired}`
         if (!empty_values.includes(entity[new_key])) {
           // Put this language's value in the displayed output
           output[key] = entity[new_key]
@@ -425,11 +425,10 @@ export function fallback_name(entity) {
   const entity_order = entity["language.order"].split(", ")
   const order = currentOrder(entity_order, Env.language)
   order.unshift(Env.language)   // Display language always comes first
-  for (let language of order) {
-    const name = entity[language + ".name"]
-    if (name != undefined) {
+  for (const language of order) {
+    const name = entity[`${language}.name`]
+    if (name != undefined)
       return name 
-    }
   }
   // Fallback default name
   return Defaults.animal[`${Env.language}.name`]
