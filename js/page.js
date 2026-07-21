@@ -151,9 +151,10 @@ class AboutPage {
   /** 
    * Displays the about page when the button is clicked. Load content from a
    * static file based on the given language, and display it in a frame with
-   * `#contentFrame.about`
+   * `#contentFrame.about`. By defining as an arrow function, we guarantee
+   * `this` is scoped to the `AboutPage` class if invoked as a callback.
    */
-  render() {
+  render = () => {
     // No need for media paging on the about page
     Env.paging.display_button = false
     // Direct link / server refresh, or language change event
@@ -390,9 +391,11 @@ export const footer = new FooterComponent()
 class HomePage {
   /** 
    * Render an instance of the redpandafinder landing/home page with
-   * randomized content from the `redpanda.json` database
+   * randomized content from the `redpanda.json` database. By defining as an
+   * arrow function, we guarantee `this` is scoped to the `HomePage` class if
+   * invoked as a callback.
    */
-  render() {
+  render = () => {
     // No need for paging on the home page
     Env.paging.display_button = false
     // Output just the base search bar with no footer.
@@ -556,7 +559,11 @@ class LinksPage {
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
-  render() {
+  /** 
+   * By defining as an arrow function, we guarantee `this` is scoped to the
+   * `LinksPage` class if invoked as a callback.
+   */
+  render = () => {
     // No need for paging on the links page
     Env.paging.display_button = false
     // Initialize submenus if necessary
@@ -626,7 +633,11 @@ export const links = new LinksPage()
  * the "profile" group of pages that show information about a specific animal.
  */
 class MediaPage {
-  render() {
+  /** 
+   * By defining as an arrow function, we guarantee `this` is scoped to the
+   * `MediaPage` class if invoked as a callback.
+   */
+  render = () => {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Start by just displaying info for one panda by id search
@@ -675,8 +686,11 @@ class OptionsPage {
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
-  /** Render the options page, and replace the exisitng page content */
-  render() {
+  /** Render the options page, and replace the exisitng page content. By
+   * defining as an arrow function, we guarantee `this` is scoped to the
+   * `OptionsPage` class if invoked as a callback.
+   */
+  render = () => {
     // Disable paging from another page rendering mode
     Env.paging.display_button = false
     this.content = Show.options.body()
@@ -701,7 +715,11 @@ export const options = new OptionsPage()
 class ProfilePage {
   qr_update = new Event('qr_update')
 
-  render() {
+  /** 
+   * By defining as an arrow function, we guarantee `this` is scoped to the
+   * `ProfilePage` class if invoked as a callback.
+   */
+  render = () => {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Profile pages never have additional content to load
@@ -865,7 +883,11 @@ class ResultsPage {
     Query.clear()
     return content_divs
   }
-  render() {
+  /** 
+   * By defining as an arrow function, we guarantee `this` is scoped to the
+   * `ResultsPage` class if invoked as a callback.
+   */
+  render = () => {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Don't assume a paging button is necessary until shown otherwise
