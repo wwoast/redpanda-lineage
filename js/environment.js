@@ -3,7 +3,7 @@
  * current browser tab, acting as a readable and writable "global environment"
  * for other modules.
  */
-export default env = {
+const env = {
   /** 
    * Stores callback to the current page render function for redraws.
    * Default mode is to show panda results, pointing to the `resultsPage`
@@ -52,3 +52,5 @@ export default env = {
   /** If a URI indicates a specific photo, indicate which one here */
   specific_photo: undefined,
 }
+
+export default env
