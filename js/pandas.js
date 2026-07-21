@@ -1706,7 +1706,7 @@ export function halfSiblings(animal, sibling) {
  */
 export function indeterminateParent(parent_id, child_id) {
   const parent_gender = searchPandaId(parent_id)[0].gender
-  if (parent_gender = "m") {
+  if (parent_gender == "m") {
     return searchPandaDad(child_id).length > 1
   } else {
     return searchPandaMom(child_id).length > 1
