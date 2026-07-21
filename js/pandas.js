@@ -1183,7 +1183,7 @@ export function searchPhotoCredit(author, filter_ids=[]) {
 /** Find profile photos for all animals listed */
 export function searchPhotoProfile(animal_list) {
   return searchPhotoTags(
-    animal_list, ["profile"], mode="singleton", fallback="first")
+    animal_list, ["profile"], "singleton", "first")
 }
 
 /** Find profile photos for an animal's children */
