@@ -1,5 +1,5 @@
 import Env from './environment.js'
-import { Defaults, Polyglots, Tags } from './lookup.js'
+import { Defaults, Flags, Gui, Polyglots, Tags } from './lookup.js'
 import { Text } from './message.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
@@ -169,13 +169,13 @@ function fallbackFlags() {
   // defined at all, default the "english" language flag to UK flag.
   const us = "en-US"
   if (!navigator.languages.includes(us)) {
-    gui.flag["en"] = flags["UK"]
+    Gui.flag["en"] = Flags["UK"]
   } else {
     for (const lang of navigator.languages) {
       if (lang.indexOf("en") == 0) {
         const commonwealth = navigator.languages.indexOf(lang)
         if (commonwealth < us) {
-          gui.flag["en"] = flags["UK"]
+          Gui.flag["en"] = Flags["UK"]
           break
         }
       }
@@ -188,17 +188,17 @@ function fallbackFlags() {
   if ((navigator.languages.includes(taiwan)) &&
       (navigator.languages.includes(china)) &&
       (navigator.languages.indexOf(taiwan) < navigator.languages.indexOf(china))) {
-    gui.flag["zh"] = flags["Taiwan"]
+    Gui.flag["zh"] = Flags["Taiwan"]
   }
   // Korean locale flag
   const korean = "ko-KR"
   if (navigator.languages.includes(korean)) {
-    gui.flag["ko"] = flags["South Korea"]
+    Gui.flag["ko"] = Flags["South Korea"]
   }
   // TODO: Portuguese vs. Brazil flags
   const brazil = "pt-BR"
   if (navigator.languages.includes(brazil)) {
-    gui.flag["pt"] = flags["Brazil"]
+    Gui.flag["pt"] = Flags["Brazil"]
   }
 }
 
@@ -696,10 +696,10 @@ export function update() {
     const lookup = id.replace("Button", "")
     const [icon, text] = element.childNodes[0].childNodes
     if (id == "languageButton") {
-      icon.innerText = gui.flag[Env.language]   // Replace flag icon
-      text.innerText = gui[lookup][Env.language][Env.language]   // Replace language icon text
+      icon.innerText = Gui.flag[Env.language]   // Replace flag icon
+      text.innerText = Gui[lookup][Env.language][Env.language]   // Replace language icon text
     } else {
-      text.innerText = gui[lookup][Env.language]   // Replace icon text
+      text.innerText = Gui[lookup][Env.language]   // Replace icon text
     }
   }
   // On the Links page? Redraw it
@@ -709,14 +709,14 @@ export function update() {
   if (document.forms['searchForm'] != undefined) {
     if (P.db == undefined) {
       document.forms['searchForm']['searchInput'].placeholder =
-        gui.loading[Env.language]
+        Gui.loading[Env.language]
     } else {
       document.forms['searchForm']['searchInput'].placeholder =
-        "➤ " + gui.search[Env.language]
+        "➤ " + Gui.search[Env.language]
     }
   }
   // Change the page title
-  document.title = gui.title[Env.language]
+  document.title = Gui.title[Env.language]
   // Write localStorage for your chosen language. This is better than a cookie
   // since the server doesn't see what language you're using in each request.
   window.localStorage.setItem('language', Env.language)
