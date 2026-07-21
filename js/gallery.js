@@ -227,7 +227,7 @@ export class Carousel {
       span_link.childNodes[0].innerText = new_index.toString()
     else
       return  // No carousel, no need to actually swap photos
-    const chosen = `photo.${newIndex}`
+    const chosen = `photo.${new_index}`
     const new_choice = photo_manifest[chosen]
     // Update displayed photo
     this.displayPhoto(photo, new_choice, carousel_id, new_index.toString())
