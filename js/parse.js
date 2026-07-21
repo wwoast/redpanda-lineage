@@ -429,8 +429,9 @@ class Lexer {
       // Don't deal with testing against possible space-holding keywords
       // that have more spaces than the input query did!
       lexlist = lexlist.filter(l => l.replace(/\S/g, '').length <= max_spaces)
-      const tokens = possible_tokens(input, max_spaces, list_name)
-        .filter(t => lexlist.includes(t))
+      const tokens = 
+        this.possible_tokens(input, max_spaces, list_name)
+            .filter(t => lexlist.includes(t))
       found_tokens = found_tokens.concat(tokens)
     }
     return found_tokens
