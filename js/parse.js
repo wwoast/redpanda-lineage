@@ -1,6 +1,6 @@
 import * as Jsleri from './jsleri-1.1.15.js'
-import * as Language from './language.js'
-import P, * as Pandas from './pandas.js'
+import { capitalNames, polyglots, tags } from './language.js'
+import P, { def, values } from './pandas.js'
 
 /**
  * Given a search tag, find the equivalent term for that tag that is
@@ -10,19 +10,19 @@ import P, * as Pandas from './pandas.js'
 export function searchTag(search_tag) {
   // Lowercase any search terms in the latin character range
   // TODO ES6
-  const ranges = Pandas.def.ranges['en']
+  const ranges = def.ranges['en']
   const latin = ranges.some(range => range.test(search_tag))
   if (latin == true)
     search_tag = search_tag.toLowerCase()
   // Now search the tags list for a match
   for (const key of Object.keys(Language.tags)) {
-    const terms = Pandas.values(Language.tags[key])
+    const terms = values(Language.tags[key])
     if (terms.includes(search_tag))
       return key
   }
   // Search things that could be tags in the right context
   for (const key of Object.keys(Language.polyglots)) {
-    const terms = Pandas.values(Language.polyglots[key])
+    const terms = values(Language.polyglots[key])
     if (terms.includes(search_tag))
       return key
   }
@@ -223,33 +223,33 @@ const keyword = {
  */
 export const group = {
   /** Valid _baby_ keywords */
-  baby: Pandas.values([keyword.baby]),
+  baby: values([keyword.baby]),
   /** Valid _born_ keywords */
-  born: Pandas.values([keyword.born]),
+  born: values([keyword.born]),
   /** Valid _born at_ keywords */
-  born_at: Pandas.values([keyword.born_at]),
+  born_at: values([keyword.born_at]),
   /** Valid _credit_ keywords */
-  credit: Pandas.values([keyword.credit]),
+  credit: values([keyword.credit]),
   /** Valid _dead_ keywords */
-  dead: Pandas.values([keyword.dead]),
+  dead: values([keyword.dead]),
   /** Valid _died at_ keywords */
-  died_at: Pandas.values([keyword.died_at]),
+  died_at: values([keyword.died_at]),
   /** Valid _family_ keywords */
-  family: Pandas.values([keyword.family]),
+  family: values([keyword.family]),
   /** Valid keywords _of any type_ */
-  keywords: Pandas.values([keyword]),
+  keywords: values([keyword]),
   /** Valid _lived at_ keywords */
-  lived_at: Pandas.values([keyword.lived_at]),
+  lived_at: values([keyword.lived_at]),
   /** Valid _nearby_ keywords */
-  nearby: Pandas.values([keyword.nearby]),
+  nearby: values([keyword.nearby]),
   /** Valid _panda_ keywords */
-  panda: Pandas.values([keyword.panda]),
+  panda: values([keyword.panda]),
   /** Aggregate of all possible tag values */
-  tags: Pandas.values([Language.tags]),
+  tags: values([Language.tags]),
   /** Keywords that take some kind of author or contributor name */
-  takes_subject_author: Pandas.values([keyword.credit]),
+  takes_subject_author: values([keyword.credit]),
   /** Keywords that take some form of arbitrary string name */
-  takes_subject_name: Pandas.values([
+  takes_subject_name: values([
     Language.tags,
     keyword.baby,
     keyword.credit,
@@ -258,7 +258,7 @@ export const group = {
     keyword.zoo
   ]),
   /** Keywords that take some form of numeric ID value */
-  takes_subject_number: Pandas.values([
+  takes_subject_number: values([
     Language.tags,
     keyword.born_at,
     keyword.died_at,
@@ -268,26 +268,26 @@ export const group = {
     keyword.zoo
   ]),
   /** Keywords that take some kind of numeric year value */
-  takes_subject_year: Pandas.values([
+  takes_subject_year: values([
     keyword.baby,
     keyword.born,
     keyword.dead
   ]),
   /** Keywords that take some kind of full date string */
-  takes_subject_date: Pandas.values([
+  takes_subject_date: values([
     keyword.baby,
     keyword.born,
     keyword.dead
   ]),
   /** Single keywords that represent queries on their own */
-  zeroary: Pandas.values([
+  zeroary: values([
     Language.tags,
     keyword.baby,
     keyword.dead,
     keyword.nearby
   ]),
   /** Valid _zoo_ keywords */
-  zoo: Pandas.values([keyword.zoo])
+  zoo: values([keyword.zoo])
 }
 
 /** Namespace collecting types of strings we parse with regular expressions */
@@ -527,10 +527,6 @@ class Tree {
     subject_filter: this.types.subject_filter.map(t => ({"type": t}))
   }
 
-  constructor() {
-    this.build_grammar()
-  }
-
   /** Build a grammar for making parse trees with. */
   build_grammar() {
     const Choice = Jsleri.Choice
@@ -715,15 +711,12 @@ class Tree {
    * own node details and formatting, based on jsleri's
    */
   generate(parse_input) {
-    if (this.grammar == undefined) {
-      console.error("No query grammar defined")
-      return {}
-    }
+    if (this.grammar == undefined)
+      this.build_grammar()
     const result = this.grammar.parse(parse_input)
     const start = result.tree
-    if (result.tree.hasOwnProperty("children")) {
+    if (result.tree.hasOwnProperty("children"))
       start = result.tree.children[0]
-    }
     const tree = this.node_props(
       start, this.get_children(start.children))
     // Double-link nodes in this tree to their parents
@@ -819,14 +812,14 @@ class Tree {
     }
     // Handle binary parse structures
     if (singulars.length > 2) {
-      if (Pandas.distinct(singulars).length == 1 && singulars[0] == "tag")
+      if (distinct(singulars).length == 1 && singulars[0] == "tag")
         return "set_tag_intersection"
-      if (Pandas.distinct(singulars).length == 2 && 
+      if (distinct(singulars).length == 2 && 
           singulars[0].indexOf("subject") == 0 &&
           singulars[1] == "tag") {
         return "set_tag_intersection_subject"
       }
-      if (Pandas.distinct(singulars).length == 1 && singulars[0].indexOf("subject") == 0)
+      if (distinct(singulars).length == 1 && singulars[0].indexOf("subject") == 0)
         return "set_only_subjects"
     }
     // Fallback for things we don't recognize
