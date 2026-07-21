@@ -1152,16 +1152,9 @@ export function searchPandaZooDied(idnum, months=6) {
 export function searchPhotoCredit(author, filter_ids=[]) {
   const photo_fields = photoGeneratorMax
   let nodes = []
-  // Gets zoo photos
   const query = {}
-  query["photo.author"] = author
-  var search = G.v(query).run()
-  if (search != [])
-    nodes = nodes.concat(search)
-  // Gets panda photos
   for (const field_name of photo_fields()) {
-    query = {}
-    query[field_name + ".author"] = author
+    query[`${field_name}.author`] = author
     const search = G.v(query).run()
     if (search != []) {
       nodes = nodes.concat(search)
