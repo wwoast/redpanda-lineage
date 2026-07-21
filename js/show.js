@@ -1776,8 +1776,8 @@ export const profilePage = {
     const species = this.species(animal, language)
     // Next, display birthday info. TODO: do better than list items
     const [first_string, second_string] = birthday(info, language)
-    const birthday = document.createElement('ul')
-    birthday.className = "pandaList"
+    const dossierBirthday = document.createElement('ul')
+    dossierBirthday.className = "pandaList"
     const first_item = document.createElement('li')
     first_item.style.display = "inline-block"
     first_item.style.paddingBottom = "0.25ex"
@@ -1787,8 +1787,8 @@ export const profilePage = {
     second_item.style.display = "inline-block"
     second_item.style.marginTop = "0.25ex"
     second_item.innerText = second_string
-    birthday.appendChild(first_item)
-    birthday.appendChild(second_item)
+    dossierBirthday.appendChild(first_item)
+    dossierBirthday.appendChild(second_item)
     // Display a QR code, and manage updates
     const qrcode = qrcodeImage()
     // Swap qr_code with one representing current profile page contents
@@ -1797,7 +1797,7 @@ export const profilePage = {
     const dossier = document.createElement('div')
     dossier.className = "profileDossier"
     dossier.appendChild(species)
-    dossier.appendChild(birthday)
+    dossier.appendChild(dossierBirthday)
     if (info.photo_credit != undefined) {
       // Display photo credit content if a photo exists
       // TODO: factor out into CSS, and do similar with birthday
