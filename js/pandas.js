@@ -1023,7 +1023,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
 export function searchPandaZooBornRecords(idnum, search_context=false) {
   if (idnum > 0) 
     idnum = idnum * -1;   // HACK: zoo records
-  const nodes = G.v(idnum).in("birthplace").filter(function(vertex) {
+  let nodes = G.v(idnum).in("birthplace").filter(function(vertex) {
     if (search_context == true) {
       vertex["search_context"] = {
         "query": "born_at",
