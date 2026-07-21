@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Gallery from './gallery.js'
 import * as Geo from './geolocate.js'
 import { showQRCode } from './html5-qrcode.js'
