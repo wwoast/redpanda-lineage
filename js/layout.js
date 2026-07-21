@@ -645,7 +645,7 @@ export default class Layout {
           multiColumn(cur_list)
         }
         cur_list.style.order = this.layout.boxOrder++;   // Force to show last
-        this.section.family.append(this[list_name])
+        this.section.family.appendChild(this[list_name])
       }
       // Set height of the container div based on balancing info.
       if (mediaQuery().matches == false) {
@@ -753,7 +753,6 @@ export default class Layout {
         return this.arrange.longRun("onlyMobile");
       } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) && 
                 (this.sum() - this.longestList() >= this.longestList())) {
-        // TEST: Seita
         return this.arrange.fourListTwoLong("onlyDesktop");
       } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) &&
                 (this.sum() - this.longestList() <= 5)) {
@@ -766,6 +765,7 @@ export default class Layout {
       } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
         return this.arrange.longRun("onlyMobile");
       } else if ((this.longestList() > 9) && (this.existingColumns() == 4)) {
+        // TEST: Seita
         return this.arrange.fourListTwoLong("onlyDesktop");
       } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
         return this.arrange.threeListOneLong("onlyDesktop");
@@ -773,10 +773,12 @@ export default class Layout {
                 (this.sum() - this.longestList() - 2 >= 3)) {
         // TEST: Futa, Beilei 2010. 
         // TODO: layout mode that can triple a long column underneath balanced top ones
-        return this.arrange.longRun("onlyMobile");
-      } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() - this.longestList() <= 2)) {
+        return this.arrange.longRun("onlyMobile")
+      } else if ((this.longestList() > 5) && 
+                 (this.existingColumns() == 2) &&
+                 (this.sum() - this.longestList() <= 2)) {
         // Two parents, and a long multicolumn below. TEST: Fan-Fan, Marimo
-        return this.arrange.flattenPlusMultiColumn(2);
+        return this.arrange.flattenPlusMultiColumn(2)
       } else {
         // Fallback: just treat everything like a single column
         return this.arrange.columns();
