@@ -107,31 +107,31 @@ export class Carousel {
     span.className = "navigator"
     // Clickable dogears when you have a carousel of more than one photo
     if (this.photoCount() < 2) {
-        span.innerText = Emoji.no_more;
+        span.innerText = Emoji.no_more
         // Consistent widget behavior on mouse clicks for non-functional
         // navigators as well (disable normal right/middle click behavior)
         span_link.addEventListener('contextmenu', function(e) {   // Right click event
           e.preventDefault()   // Prevent normal context menu from firing
-        });
+        })
         span_link.addEventListener('auxclick', function(e) {   // Middle click event
           if (e.which == 2) {
             e.preventDefault()   // Prevent middle click opening a new tab
           }
-        });
+        })
     } else {
       span.innerText = this.index;
-      span_link.addEventListener('click', function() {  // Left click event
+      span_link.addEventListener('click', () => {  // Left click event
         this.photoNext(this.info.id)
         condenseDogEar(span)
         window.dispatchEvent(Page.profile.qr_update)
       });
-      span_link.addEventListener('contextmenu', function(e) {   // Right click event
+      span_link.addEventListener('contextmenu', (e) => {   // Right click event
         e.preventDefault()   // Prevent normal context menu from firing
         this.photoPrevious(this.info.id)
         condenseDogEar(span)
         window.dispatchEvent(Page.profile.qr_update)
       });
-      span_link.addEventListener('auxclick', function(e) {   // Middle click event
+      span_link.addEventListener('auxclick', (e) => {   // Middle click event
         if (e.which == 2) {
           e.preventDefault();   // Prevent middle click opening a new tab
           this.photoRandom(this.info.id);
@@ -862,7 +862,7 @@ function pandaPhotoCredits(animal, credit, language) {
   const photos = []
   const photo_indexes = Pandas.photoGeneratorEntity
   for (const field_name of photo_indexes(animal, 0)) {
-    if (animal[field_name + ".author"] == credit) {
+    if (animal[`${field_name}.author`] == credit) {
       photos.push({
         "id": animal["_id"],
         "image": animal[field_name], 
@@ -1190,8 +1190,8 @@ function updatedPhotoOrdering(language, photo_count) {
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
   // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
   // display remaining new pandas from the update_photos list in alphabetical order.
-  const output_photos = [];
-  const all_zoo_pandas = [];
+  const output_photos = []
+  const all_zoo_pandas = []
   const zoo_classes = ["one", "two", "three", "four"]
   let zoo_class_index = 0;
   for (const zoo_photo of zoo_chosen) {
