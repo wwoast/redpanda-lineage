@@ -298,8 +298,10 @@ class FooterComponent {
     if (footer_test == null) {
       // No footer exists, and no bottom menu either. Add both
       const footer = this.render(Language.Displayed, page_mode)
-      const menu = Show[page_mode].menus.bottom()
-      body.appendChild(menu)
+      const bottomMenu = (page_mode == "profile")
+        ? Show.profileMenus.bottom.render()
+        : Show.resultsMenus.bottom.render()
+      body.appendChild(bottomMenu)
       body.appendChild(footer)
     } else {
       // Redraw the footer for language event changes
@@ -308,9 +310,8 @@ class FooterComponent {
         ? Show.profileMenus.bottom.render()
         : Show.resultsMenus.bottom.render()
       // If bottom menu isn't there, add it
-      if (footer_test.previousElementSibling.id != "pageBottom") {
+      if (footer_test.previousElementSibling.id != "pageBottom")
         body.insertBefore(bottomMenu, footer_test)
-      }
       // Replace footer menu itself
       body.replaceChild(footer, footer_test)
     }
