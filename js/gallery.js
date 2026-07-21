@@ -82,10 +82,6 @@ export class Carousel {
     id=this.info.id,
     index=this.index
   ) {
-    // Using current information from the Gallery state...
-    const photoUrl = this.info.photo
-    const id = this.info.id
-    const index = this.index
     // Fill in details of the image we are displaying
     if (photoUrl == undefined) {
       image.src = this.fallback_url
