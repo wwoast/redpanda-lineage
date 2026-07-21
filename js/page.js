@@ -199,7 +199,7 @@ class AboutPage {
    * handful of section views with different information
    */
   sectionButtonEventHandlers() {
-    const buttons = document.getElementsByClassName("sectionButton")
+    const buttons = Array.from(document.querySelectorAll(".sectionButton"))
     buttons.forEach(button => button.addEventListener('click', function() {
       const show_section_id = this.id.split("_")[0]
       this.sectionShow(show_section_id)
