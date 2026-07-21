@@ -392,26 +392,27 @@ class Lexer {
     return delimited_input
   }
 
+  possible_tokens(input, max_spaces, list_name) {
+    const tokenlist = []
+    const input_split = this.split(input)
+    for (let n = max_spaces; n > 0; n--) {
+      for (let i = 0; i < input_split.length - n; i++) {
+        let token = input_split.slice(i, i+n+1).join(' ')
+        // Name matching needs to use locale-specific normalizing
+        if (list_name == "names")
+          token = capitalNames(token)
+        tokenlist.push(token)
+      }
+    }
+    return tokenlist
+  }
+
   /**
    * Find all valid tokens in the search input that have spaces, and return
    * them in a newline-separated way. Also convert Japanese ideographic (wide)
    * spaces. Prioritize panda names, then tag names, then keywords.
    */
   process(input) {
-    function possible_tokens(input, max_spaces, list_name) {
-      const tokenlist = []
-      const input_split = this.split(input)
-      for (let n = max_spaces; n > 0; n--) {
-        for (let i = 0; i < input_split.length - n; i++) {
-          let token = input_split.slice(i, i+n+1).join(' ')
-          // Name matching needs to use locale-specific normalizing
-          if (list_name == "names")
-            token = capitalNames(token)
-          tokenlist.push(token)
-        }
-      }
-      return tokenlist
-    }
     const ordering = ["names", "tags", "keywords"]
     const input_spaces = input.replace(/\S/g, '').length
     // Find all contiguous strings with max_spaces and see
