@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Geo from './geolocate.js'
 import * as Icons from './icons.js'
 import * as Language from './language.js'
@@ -31,6 +32,7 @@ import * as Show from './show.js'
 
 /** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
+  Page.routes.check()   // See what page we should be rendering
   Pandas.init()
   Geo.init()   // Set units for distance tracking based on browser locale
   ScrollTop.init()
@@ -39,9 +41,8 @@ document.addEventListener("DOMContentLoaded", function() {
   Icons.observe()   // More SVG emoji replacements on page mutate
   Language.init()   // Some tag generation stuff
   Language.defaultDisplayLanguage()   // Set default display language
-  Page.routes.check()   // See if we started on the about page
   Language.update()     // Update buttons, displayed results, and cookie state
-  Page.redraw(Page.env.current)   // Ready to redraw? Let's go.
+  Page.redraw(Env.current)   // Ready to redraw? Let's go.
   // Most RPF pages won't save your place on the page on purpose,
   // because refresh events don't put you at the top of page properly
   // work properly when this is enabled. However, leave it on for the
@@ -94,11 +95,11 @@ window.addEventListener('hashchange', function() {
   // in case we might have moved around
   Geo.state.resolved = false
   // And forget how many pages we have shown
-  Query.env.paging.shown_pages = 1
+  Env.paging.shown_pages = 1
   const mode = window.location.hash.split("/")[0]
   if (window.location.hash.length == 0 || mode == "#home") {
     Page.home.render()
-    Page.env.current = Page.home.render
+    Env.current = Page.home.render
   } else if (mode == "#about") {
     Page.about.hashchange()
   } else if (mode == "#links") {
@@ -107,13 +108,13 @@ window.addEventListener('hashchange', function() {
     Page.options.hashchange()
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render()
-    Page.env.current = Page.results.render
+    Env.current = Page.results.render
   } else if (Page.routes.profile.includes(mode)) {
     Page.profile.render()
-    Page.env.current = Page.profile.render
+    Env.current = Page.profile.render
   } else if (Page.routes.media.includes(mode)) {
     Page.media.render()
-    Page.env.current = Page.media.render
+    Env.current = Page.media.render
   }
   window.localStorage.setItem("last_seen", window.location.hash)
 
@@ -139,6 +140,6 @@ window.addEventListener('about_loaded', function() {
     mediaQuery.addListener(Page.about.instructions)
     // Add a tag list
     Page.about.tags()
-    Page.env.current = Page.about.render
+    Env.current = Page.about.render
   }
 })

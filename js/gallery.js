@@ -416,30 +416,30 @@ function creditPhotosPage(page, results, language, max_hits) {
       : grab_photos.concat(
           pandaPhotoCredits(entity, results["subject"], language))
   }
-  const starting_point = page * Query.env.paging.results_count
+  const starting_point = page * Env.paging.results_count
   // Working copy of photo set, starting at the nth page of photos
   let content_photos = grab_photos.slice(starting_point)
   const hit_count = content_photos.length
   // Refresh, but show more than just the normal photo_count
   // TODO: this may not work across history changes
-  if (page == 0 && Query.env.paging.shown_pages > 1)
-    max_hits = Query.env.paging.shown_pages * max_hits
+  if (page == 0 && Env.paging.shown_pages > 1)
+    max_hits = Env.paging.shown_pages * max_hits
   if (hit_count <= max_hits) {
     // Last page of content. Hide Next button
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
   } else {
     // Limit to just photo_count of the output
     content_photos = content_photos.slice(0, max_hits)
     // Set callbacks for next button, and redraw footer
-    Query.env.paging.callback.function = creditPhotosPage
-    var pages_shown = initial_max_hits / Query.env.paging.results_count
-    Query.env.paging.callback.arguments = [
+    Env.paging.callback.function = creditPhotosPage
+    const pages_shown = initial_max_hits / Env.paging.results_count
+    Env.paging.callback.arguments = [
       page + pages_shown,
       results,
       language,
-      Query.env.paging.results_count
+      Env.paging.results_count
     ]
-    Query.env.paging.callback.frame_id = "contentFrame"
+    Env.paging.callback.frame_id = "contentFrame"
   }
   // Take the desired content_photos and convert them to divs
   content_photos.forEach(function(photo) {
@@ -548,7 +548,7 @@ function groupPhotos(id_list) {
       }
     }
   }
-  return Pandas.shuffleWithSeed(photo_list, Query.env.paging.seed)
+  return Pandas.shuffleWithSeed(photo_list, Env.paging.seed)
 }
 
 /**
@@ -558,25 +558,25 @@ function groupPhotos(id_list) {
  */
 export function groupPhotosPage(page, id_list, photo_count) {
   const initial_photo_count = photo_count
-  if (page == 0 && Query.env.paging.shown_pages > 1) { 
+  if (page == 0 && Env.paging.shown_pages > 1) { 
     // Refresh, but show more than just the normal photo_count
-    photo_count = Query.env.paging.shown_pages * photo_count
+    photo_count = Env.paging.shown_pages * photo_count
   }
   const photos = groupPhotos(id_list)   // All photos
   const chosen = photos.slice(page * photo_count)   // Choose just this page
   // Last page of content. Hide Next button
   if (chosen.length <= photo_count)
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
   else {
     // Limit to just photo_count of the output
     chosen = chosen.slice(0, photo_count)
-    Query.env.paging.callback.function = groupPhotosPage
-    Query.env.paging.callback.arguments = [
+    Env.paging.callback.function = groupPhotosPage
+    Env.paging.callback.arguments = [
       page + 1,
       id_list,
       initial_photo_count
     ]
-    Query.env.paging.callback.frame_id = "contentFrame"
+    Env.paging.callback.frame_id = "contentFrame"
   }
   // Now that photos are whittled down, make divs
   const output = []
@@ -621,23 +621,23 @@ function groupPhotosIntersect(id_list) {
 export function groupPhotosIntersectPage(page, id_list, photo_count) {
   const initial_photo_count = photo_count
   // Refresh, but show more than just the normal photo_count
-  if (page == 0 && Query.env.paging.shown_pages > 1)
-    photo_count = Query.env.paging.shown_pages * photo_count
+  if (page == 0 && Env.paging.shown_pages > 1)
+    photo_count = Env.paging.shown_pages * photo_count
   const photos = groupPhotosIntersect(id_list)   // All photos
   const chosen = photos.slice(page * photo_count)   // Choose just this page
   // Last page of content. Hide Next button
   if (chosen.length <= photo_count)
-    Query.env.paging.display_button = false;
+    Env.paging.display_button = false;
   else {
     // Limit to just photo_count of the output
     chosen = chosen.slice(0, photo_count)
-    Query.env.paging.callback.function = groupPhotosIntersectPage
-    Query.env.paging.callback.arguments = [
+    Env.paging.callback.function = groupPhotosIntersectPage
+    Env.paging.callback.arguments = [
       page + 1,
       id_list,
       initial_photo_count
     ]
-    Query.env.paging.callback.frame_id = "contentFrame"
+    Env.paging.callback.frame_id = "contentFrame"
   }
   // Now that photos are whittled down, make divs
   const output = []
@@ -931,33 +931,33 @@ export function tagPhotos(results, language, max_hits, add_emoji) {
 function tagPhotosPage(page, results, language, max_hits, add_emoji) {
   let content_divs = []
   const initial_max_hits = max_hits
-  const starting_point = page * Query.env.paging.results_count
+  const starting_point = page * Env.paging.results_count
   // Working copy of photo set, shuffled
   let page_results = results["hits"].slice()
-  page_results = Pandas.shuffleWithSeed(page_results, Query.env.paging.seed)
+  page_results = Pandas.shuffleWithSeed(page_results, Env.paging.seed)
   page_results = page_results.slice(starting_point)
   const hit_count = page_results.length
-  if (page == 0 && Query.env.paging.shown_pages > 1) {
+  if (page == 0 && Env.paging.shown_pages > 1) {
     // Refresh, but show more than just the normal photo_count
-    max_hits = Query.env.paging.shown_pages * max_hits
+    max_hits = Env.paging.shown_pages * max_hits
   }
   // Last page of content. Hide Next button
   if (hit_count <= max_hits)
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
   else {
     // Limit to just photo_count of the output
     page_results = page_results.slice(0, max_hits)
     // Set callbacks for next button, and redraw footer
-    Query.env.paging.callback.function = tagPhotosPage
-    const pages_shown = initial_max_hits / Query.env.paging.results_count
-    Query.env.paging.callback.arguments = [
+    Env.paging.callback.function = tagPhotosPage
+    const pages_shown = initial_max_hits / Env.paging.results_count
+    Env.paging.callback.arguments = [
       page + pages_shown,
       results,
       language,
-      Query.env.paging.results_count,
+      Env.paging.results_count,
       add_emoji
     ]
-    Query.env.paging.callback.frame_id = "contentFrame"
+    Env.paging.callback.frame_id = "contentFrame"
   }
   // Redraw footer to update the paging button
   Page.footer.redraw("results")

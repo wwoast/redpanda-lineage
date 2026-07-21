@@ -196,7 +196,7 @@ window.addEventListener('found_zoos', function() {
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
   Page.results.render();
-  Page.env.current = Page.results.render;
+  Env.current = Page.results.render;
   if (state.results.hits.length >= state.close_results) {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
     toggleAccuracy()

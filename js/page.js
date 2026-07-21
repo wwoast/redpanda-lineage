@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Gallery from './gallery.js'
 import * as Geo from './geolocate.js'
 import * as Language from './language.js'
@@ -154,7 +155,7 @@ class AboutPage {
    */
   render() {
     // No need for media paging on the about page
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
     // Direct link / server refresh, or language change event
     if (!this.language || this.language != Language.Displayed)
       this.fetch()
@@ -395,7 +396,7 @@ class HomePage {
    */
   render() {
     // No need for paging on the home page
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
     // Output just the base search bar with no footer.
     const old_content = document.getElementById('contentFrame')
     Show.resultsMenus.language()
@@ -467,7 +468,7 @@ class HomePage {
    */
   special_galleries() {
     const date = new Date()
-    const choice = Query.env.paging.seed
+    const choice = Env.paging.seed
     if (date.getDay() == choice % 7) {
       // Sunday has a special memorial
       return this.special_memorial()
@@ -478,7 +479,7 @@ class HomePage {
 
   /** Special memorials that are important to redpandafinder */
   special_memorial() {
-    const choice = Query.env.paging.seed
+    const choice = Env.paging.seed
     if (choice % 7 == 0) {
       const laila = Gallery.memorialPhotoCredits(
         Language.Displayed, ["60"], 3, Message.missing_you)
@@ -528,7 +529,7 @@ class HomePage {
         "taglist": ["baby", "portrait"]
       }
     ]
-    const choice = Query.env.paging.seed % special_galleries.length
+    const choice = Env.paging.seed % special_galleries.length
     const special = Gallery.taglist(
       Language.Displayed, 
       special_galleries[choice].photo_count,
@@ -559,7 +560,7 @@ class LinksPage {
 
   render() {
     // No need for paging on the links page
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
     // Initialize submenus if necessary
     this.sectionMenuDefaults()
     var chosen = window.sessionStorage.getItem("linksPageMenu")
@@ -576,16 +577,16 @@ class LinksPage {
 
   /** Handle when someone clicks the links button */
   routing() {
-    if (env.current == this.render) {
+    if (Env.current == this.render) {
       // Check the last query done and return to it, if it was a query
-      if (routes.fixed.includes(env.lastSearch) == false)
-        window.location = env.lastSearch
+      if (routes.fixed.includes(Env.lastSearch) == false)
+        window.location = Env.lastSearch
       else
         window.location = "#home"
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (!routes.fixed.includes(window.location.hash)) {
-        env.lastSearch = window.location.hash
+        Env.lastSearch = window.location.hash
       }
       window.location = "#links"
     }
@@ -633,9 +634,9 @@ class MediaPage {
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
     // TODO: count results and display a next page button if necessary
-    Query.env.paging.display_button = true
+    Env.paging.display_button = true
     // Generate new content frames
-    const gallery_div = Show.mediaPage.gallery(results["hits"][0], Language.Displayed)
+    const gallery_div = Show.mediaPage.gallery(results["hits"][0], Env.language)
     const new_content = document.createElement('div')
     new_content.className = "profile"
     new_content.id = "contentFrame"
@@ -672,14 +673,14 @@ class OptionsPage {
   /** Call this in a `hashchange` handler to make the Options page appear */
   hashchange() {
     this.render()
-    env.current = this.render
+    Env.current = this.render
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
   /** Render the options page, and replace the exisitng page content */
   render() {
     // Disable paging from another page rendering mode
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
     this.content = Show.options.body()
     // Replace existing content frame with the Options page
     document.querySelector('#contentFrame').replaceWith(this.content)
@@ -706,7 +707,7 @@ class ProfilePage {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Profile pages never have additional content to load
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
     const profile_div = Show.profilePage.panda(results["hits"][0], Language.Displayed)
@@ -843,13 +844,13 @@ class ResultsPage {
     if (last_element.className == 'zooDivider')
       content_divs.pop()
     // HACK: return to entity mode
-    Query.env.output_mode = "entities"
+    Env.output_mode = "entities"
     return content_divs
   }
   /** Photo results have a different structure from panda/zoo results */
   photos(results) {
     let content_divs = []
-    const max_hits = Query.env.paging.results_count
+    const max_hits = Env.paging.results_count
     if ((results["parsed"] == "set_tag") || 
         (results["parsed"] == "set_tag_subject") ||
         (results["parsed"] == "set_baby_subject")) {
@@ -870,12 +871,12 @@ class ResultsPage {
     // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
     const input = decodeURIComponent(window.location.hash)
     // Don't assume a paging button is necessary until shown otherwise
-    Query.env.paging.display_button = false
+    Env.paging.display_button = false
     const results = routes.behavior(input)
     let content_divs = []
     const new_content = document.createElement('div')
     new_content.id = "contentFrame"
-    switch(Query.env.output_mode) {
+    switch(Env.output_mode) {
       case "entities":
         content_divs = this.entities(results)
         break
@@ -961,39 +962,39 @@ class Routes {
       const [ author, filter ] = uri_items.split("/")
       // Don't adjust case for author searches, but eventually we
       // still need to do case-adjustment for the panda name itself
-      Query.env.preserve_case = true;
-      Query.env.output_mode = "photos";   // Set output mode for a photo list
+      Env.preserve_case = true
+      Env.output_mode = "photos"   // Set output mode for a photo list
       query_string = `credit ${author} ${filter}`
     } else if ((input.indexOf("#credit/") == 0) && (input.split("/").length == 2)) {
       // link for a page of photo credits for a specific author
       const photo_author = input.slice(8);
-      Query.env.preserve_case = true     // Don't adjust case for author searches
-      Query.env.output_mode = "photos"   // Set output mode for a photo list
+      Env.preserve_case = true     // Don't adjust case for author searches
+      Env.output_mode = "photos"   // Set output mode for a photo list
       query_string = `credit ${photo_author}`
     } else if ((input.indexOf("#panda/") == 0) && (input.split("/").length == 4)) {
       // link for a panda result with a chosen photo.
       const uri_items = input.slice(7)
       const [ panda, _, photo_id ] = uri_items.split("/")
-      Query.env.output_mode = "entities"
-      Query.env.specific_photo = photo_id
+      Env.output_mode = "entities"
+      Env.specific_photo = photo_id
       query_string = `panda ${panda}`
     } else if ((input.indexOf("#panda/") == 0) && (input.split("/").length == 2)) {
       // link for a single panda result.
       const panda = input.slice(7)
-      Query.env.output_mode = "entities"
+      Env.output_mode = "entities"
       query_string = `panda ${panda}`
     } else if ((input.indexOf("#group") == 0) &&
                (input.split("/").length >= 2) &&
                (input.split("/").length <= P.db["_photo"]["group_max"] + 1)) {
       // group display modes (just searching multiple ids for now)
       const id_list = input.slice(7).split("/")
-      Query.env.output_mode = "group"
+      Env.output_mode = "group"
       query_string = id_list.join(" ")
     } else if ((input.indexOf("#profile/") == 0) && (input.split("/").length == 4)) {
       // link for a panda profile result with a chosen photo.
       const uri_items = input.slice(9)
       const [ panda, _, photo_id ] = uri_items.split("/")
-      Query.env.specific_photo = photo_id
+      Env.specific_photo = photo_id
       query_string = `panda ${panda}`
     } else if ((input.indexOf("#profile/") == 0) && (input.split("/").length == 2)) {
       // link for a single panda profile result.
@@ -1006,18 +1007,18 @@ class Routes {
       // process a query.
       query_string = input.slice(7)
       // Reset defaults to entity
-      Query.env.output_mode = "entities"
+      Env.output_mode = "entities"
     } else if ((input.indexOf("#zoo/") == 0) && (input.split("/").length == 4)) {
       // link for a panda result with a chosen photo.
       const uri_items = input.slice(5)
       const [ zoo, _, zoo_id ] = uri_items.split("/")
-      Query.env.output_mode = "entities"
-      Query.env.specific_photo = zoo_id
+      Env.output_mode = "entities"
+      Env.specific_photo = zoo_id
       query_string = `zoo ${zoo}`
     } else if ((input.indexOf("#zoo/") == 0) && (input.split("/").length == 2)) {
       // link for a single zoo result.
       const zoo = input.slice(5)
-      Query.env.output_mode = "entities"
+      Env.output_mode = "entities"
       query_string = `zoo ${zoo}`
     } else {
       // Don't know how to process the hashlink, so do nothing
@@ -1035,19 +1036,19 @@ class Routes {
     // TODO ES6: refer to methods on singleton classes
     const mode = window.location.hash.split('/')[0]
     if (this.profile.includes(mode))
-      env.current = profile.render
+      Env.current = profile.render
     else if (this.media.includes(mode))
-      env.current = media.render
+      Env.current = media.render
     else if (window.location.hash == "#about")
-      env.current = about.render
+      Env.current = about.render
     else if (window.location.hash == "#links")
-      env.current = links.render
+      Env.current = links.render
     else if (window.location.hash == "#options")
-      env.current = options.render
+      Env.current = options.render
     else if (this.dynamic.includes(mode))
-      env.current = results.render
+      Env.current = results.render
     else
-      env.current = home.render
+      Env.current = home.render
   }
 
   /**
@@ -1067,20 +1068,3 @@ class Routes {
 /** Singleton class representing the redpandafinder routing behavior */
 export const routes = new Routes()
 
-/** 
- * Since primitive values are read-only across import boundaries, these
- * mutable items are considered "page environment" for all the page objects.
- * Defined at the bottom so we can use any of the singleton classes above us.
- */
-export var env = {
-  /** 
-   * When un-clicking Links/About, go back to the last page viewed, or possibly
-   * the last panda you searched for.
-   */  
-  lastSearch: "#home",
-  /** 
-   * Stores callback to the current page render function for redraws.
-   * Default mode is to show panda results.
-   */
-  current: results.render
-}

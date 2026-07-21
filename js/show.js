@@ -21,9 +21,9 @@ import * as Query from './query.js'
  * its relatives.
  */
 export function acquirePandaInfo(animal, language) {
-  const chosen_index = (Query.env.specific_photo == undefined)
+  const chosen_index = (Env.specific_photo == undefined)
     ? "random"
-    : Query.env.specific_photo
+    : Env.specific_photo
   const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
   let bundle = {
             "age": Pandas.age(animal, language),
@@ -102,9 +102,9 @@ function getUnknownZooBundle(location, language) {
  */
 export function acquireZooInfo(zoo, language) {
   const animals = Pandas.searchPandaZooCurrent(zoo["_id"])
-  const chosen_index = (Query.env.specific_photo == undefined)
+  const chosen_index = (Env.specific_photo == undefined)
     ? "random"
-    : Query.env.specific_photo
+    : Env.specific_photo
   const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
   const recorded = Pandas.searchPandaZooBornLived(zoo["_id"])
   let bundle = {
@@ -732,9 +732,9 @@ const flagButton = {
       Language.Displayed = language
       Language.update()
       // Redraw the nearby page if necessary
-      if (Query.env.output_mode == "nearby")
+      if (Env.output_mode == "nearby")
         Geo.getNaiveLocation()
-      Page.redraw(Page.env.current)
+      Page.redraw(Env.current)
     }
     // If language menu is open, hide it
     languageButton.hide()
@@ -764,12 +764,12 @@ const flagButton = {
  */
 const homeButton = {
   action: function() {
-    Page.env.lastSearch = "#home"
+    Env.lastSearch = "#home"
     Page.home.render()
     window.location = "#home"
     // If language menu is open, hide it
     languageButton.hide()
-    Page.env.current = Page.home.render
+    Env.current = Page.home.render
     // If bottom search bar is showing, remove it
     searchBar.remove("bottomSearch")
     window.scrollTo(0, 0)   // Go to the top of the page
@@ -815,9 +815,9 @@ const languageButton = {
     Language.Displayed = options[choice]
     Language.update()
     // Redraw the nearby page if necessary
-    if (Query.env.output_mode == "nearby")
+    if (Env.output_mode == "nearby")
       Geo.getNaiveLocation()
-    Page.redraw(Page.env.current)
+    Page.redraw(Env.current)
     // If language menu is open, hide it
     languageButton.hide()
   },
@@ -865,11 +865,11 @@ const mediaButton = {
     window.location = `#media/${panda_id}`
     // If language menu is open, hide it
     languageButton.hide()
-    Page.env.current = Page.media.render
+    Env.current = Page.media.render
   },
   altAction: function(e) {
     e.preventDefault()   // Prevent normal right-click menu from firing
-    Page.env.current = Page.media.render
+    Env.current = Page.media.render
     const pandaIds = 
       P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                    .filter(entity => entity["photo.1"] != undefined)
@@ -935,7 +935,7 @@ const pagingButton = {
     Page.footer.redraw(class_name)
     // Increment the shown page counter, in case we want to refresh
     // after changing the shown language 
-    Query.env.paging.shown_pages = Query.env.paging.shown_pages + 1
+    Env.paging.shown_pages = Env.paging.shown_pages + 1
   },
   render: function(class_name) {
     const button = renderButton(
@@ -944,9 +944,9 @@ const pagingButton = {
       Language.gui.paging[Language.Displayed],
       class_name)
     // Get callback function and arguments from Query.env
-    const callback = Query.env.paging.callback.function
-    const parameters = Query.env.paging.callback.arguments
-    const frame_id = Query.env.paging.callback.frame_id
+    const callback = Env.paging.callback.function
+    const parameters = Env.paging.callback.arguments
+    const frame_id = Env.paging.callback.frame_id
     button.addEventListener("click",
       () => this.action(callback, parameters, frame_id, class_name))
     // English and Japanese text is too wide
@@ -956,7 +956,7 @@ const pagingButton = {
     else
       text.classList.remove("condensed")
     // If we're not on a page that needs a "next page" button, hide it
-    if (Query.env.paging.display_button == false)
+    if (Env.paging.display_button == false)
       button.classList.add("hidden")
     return button
   }
@@ -971,11 +971,11 @@ const profileButton = {
     Page.profile.render()
     window.location = `#profile/${panda_id}`
     languageButton.hide()   // If language menu is open, hide it
-    Page.env.current = Page.profile.render
+    Env.current = Page.profile.render
   },
   altAction: function(e) {
     e.preventDefault()   // Prevent normal right-click menu from firing
-    Page.env.current = Page.profile.render
+    Env.current = Page.profile.render
     var pandaIds =
       P.db.vertices.filter(entity => entity._id > 0)
                    .filter(entity => entity["photo.1"] != undefined)
@@ -1007,7 +1007,7 @@ const profileButton = {
 /** The _random_ dice button, for viewing random panda search results! */
 const randomButton = {
   action: function() {
-    Page.env.current = Page.results.render
+    Env.current = Page.results.render
     const zooIds =
       P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                    .filter(entity => entity._id < 0)
@@ -2868,7 +2868,7 @@ export const searchBar = {
   },
   /** JS actions for submiting a search */
   submit: function() {
-    Page.env.current = Page.results.render
+    Env.current = Page.results.render
     // Make iOS keyboard disappear after submitting.
     document.getElementById('searchInput').blur()
     const query = (document.getElementById('searchInput').value).replace(/\s+$/, '')

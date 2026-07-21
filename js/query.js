@@ -17,41 +17,6 @@ export function clear() {
   env.specific_photo = undefined
 }
 
-/** Settings for redpandafinder search queries in the current browser tab */
-export const env = {
-  /**
-   * When displaying results, by default we display zoo and panda _entities_.
-   * However, other output modes are supported based on the supplied types. The
-   * _credit_ search shows a spread of photos credited to a particular user.
-   */
-  output_mode: "entities",
-  /** Details about paging through search results */
-  paging: {
-    /** 
-     * Callback for how the next button loads new content on this page,
-     * and what frame DIV it spools that content into.
-     */
-    callback: {
-      /** Page number must always come first in the arguments list */
-      arguments: [],
-      function: undefined,
-      frame_id: undefined
-    },
-    /** If a query has enough results for multiple pages, display the button */
-    display_button: false,
-    media_count: 10,
-    results_count: 15,
-    /** Paging seed, set to when the page was last loaded */
-    seed: Date.now(),
-    /** Shown counter, for page refreshes */
-    shown_pages: 1
-  },
-  /** Credit for photos being shown */
-  preserve_case: false,
-  /** If a URI indicates a specific photo, indicate which one here */
-  specific_photo: undefined,
-}
-
 /** Resolve the query string into something */
 export function result(input_string) {
   // Take the input string and lex it out into tokens

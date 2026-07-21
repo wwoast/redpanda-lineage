@@ -1,9 +1,7 @@
+import Env from './environment.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
 import * as Query from './query.js'
-
-/** The current display language for redpandafinder */
-export let Displayed = undefined
 
 /** 
  * Construct tag lists with arbitrary capitalization. TODO: do this for other
@@ -3638,7 +3636,7 @@ export function defaultDisplayLanguage() {
   // TODO ES6
   Pandas.def.languages.forEach(function(option) {
     if ((navigator.languages.includes(option)) &&
-        (Displayed == undefined)) {
+        (Env == undefined)) {
       Displayed = option
     }
   })
@@ -3827,7 +3825,7 @@ export function capitalNames(input) {
   }
   words.forEach(function(word) {
     const latin = testString(input, "Latin")
-    if ((latin == true) && (Query.env.preserve_case == false)) {
+    if ((latin == true) && (Env.preserve_case == false)) {
       word = word.replace(/^\w/, (chr) => chr.toUpperCase())
       word = word.replace(/-./, (chr) => chr.toUpperCase())
       word = word.replace(/ ./, (chr) => chr.toUpperCase())
