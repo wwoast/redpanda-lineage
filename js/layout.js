@@ -645,7 +645,7 @@ export default class Layout {
           multiColumn(cur_list)
         }
         cur_list.style.order = this.layout.boxOrder++;   // Force to show last
-        this.section.family.appendChild(this[list_name])
+        this.section.family.append(cur_list)
       }
       // Set height of the container div based on balancing info.
       if (mediaQuery().matches == false) {
