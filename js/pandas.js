@@ -1611,7 +1611,7 @@ export function groupMediaCaption(entity, photo_index) {
   const tag_index = `${photo_index}.tags`
   const pandaTags = entity["panda.tags"].split(", ")
   const  output_string = Defaults.animal[`${Env.language}.name`]
-  const animals = []
+  let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
     const panda = searchPandaId(id)[0]
