@@ -802,7 +802,7 @@ export default class Layout {
         .filter(x => this.num[x] != 0)
       // Always keep parents first, or whatever the earliest valid entry is
       // Litter should never come last unless... TODO
-      const permutations = permutations(valid_list)
+      const listPermutations = permutations(valid_list)
         .filter(x => x[0] == valid_list[0])
       // How many lines worth of space do we count the gap between lists?
       // Two lines, since it's spacing and a column header
@@ -815,7 +815,7 @@ export default class Layout {
       // Our desired order and spacing. Split at the middle by default, rounded down
       let minimum_space = Math.pow(2, 32) - 1
       let minimum_split = Math.floor(valid_list.length / 2)
-      for (const list_order of permutations) {
+      for (const list_order of listPermutations) {
         for (const list_name of list_order) {
           if (list_name == list_order[list_order.length - 1]) {
             break;   // Exit the inner loop
