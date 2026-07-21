@@ -1,7 +1,7 @@
 import Dagoba from './dagoba.js'
 import Env from './environment.js'
 import * as Language from './language.js'
-import { DateLocale, Fallback, Gui } from './lookup.js'
+import { DateLocale, Defaults, Fallback, Gui } from './lookup.js'
 import { Text } from './message.js'
 
 /** 
@@ -82,7 +82,7 @@ export function authorLink(author, link) {
 
 /** Valid panda IDs are numeric and non-zero */
 export function checkId(input) {
-  return (isFinite(input) && input != def.animal['_id'])
+  return (isFinite(input) && input != Defaults.animal['_id'])
 }
 
 /** 
@@ -368,7 +368,7 @@ export function searchBabies(year) {
   // Default search is for the most recent year we recorded a birth in
   const baby_year = P.db["_totals"]["last_born"]
   // Process whatever comes in as a year value. If > 1970, call it a year
-  if (parseInt(year) > parseInt(def.date.earliest_year)) {
+  if (parseInt(year) > parseInt(Defaults.date.earliest_year)) {
     baby_year = year
   }
   const nodes = G.v().filter(function(vertex) {
@@ -550,7 +550,7 @@ export function searchDead(year) {
   // Default search is for the most recent year we recorded a birth in
   const died_year = P.db["_totals"]["last_died"]
   // Process whatever comes in as a year value. If > 1970, call it a year
-  if (parseInt(year) > parseInt(def.date.earliest_year))
+  if (parseInt(year) > parseInt(Defaults.date.earliest_year))
     died_year = year
   const nodes = G.v().filter(function(vertex) {
     const their_date = new Date(vertex.death)
@@ -645,7 +645,7 @@ function searchPandaNameFields(input, name_fields=undefined) {
     name_fields = ["name", "oldnames", "othernames"]
   }
   const nodes = G.v().filter(function(animal) {
-    const languages = def.languages
+    const languages = Defaults.languages
     // Valid per-language name fields
     let collected_fields = []
     for (const name_field of name_fields) {
@@ -853,11 +853,11 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
     if (mode != "animal") {
       const empty_bundle = {
         "id": animal["_id"],
-        "photo": def.animal["photo.1"],
-        "photo.author": def.unknown[Env.language],
-        "photo.index": def.animal["_id"],
-        "photo.link": def.unknown[Env.language],
-        "photo.tags": def.unknown[Env.language]
+        "photo": Defaults.animal["photo.1"],
+        "photo.author": Defaults.unknown[Env.language],
+        "photo.index": Defaults.animal["_id"],
+        "photo.link": Defaults.unknown[Env.language],
+        "photo.tags": Defaults.unknown[Env.language]
       }
       output.push(empty_bundle)
     }
@@ -1238,12 +1238,12 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
     if (fallback == "first") {
       // Fallback to profile photo if possible
       if ((set.length == 1) && 
-          (Object.values(def.unknown).includes(set[0]["photo.author"]))) {
+          (Object.values(Defaults.unknown).includes(set[0]["photo.author"]))) {
         set = [profilePhoto(animal, "1")]
       }
       // If no profile photo either, return empty set
       if ((set.length == 1) &&
-          (Object.values(def.unknown).includes(set[0]["photo.author"]))) {
+          (Object.values(Defaults.unknown).includes(set[0]["photo.author"]))) {
         set = []
       }
     }
@@ -1269,7 +1269,7 @@ function searchSiblings(idnum) {
 export function searchZooId(idnum) {
   // Wild animals or other situations may have id == 0
   if (parseInt(idnum) == 0) {
-    return [def.wild]
+    return [Defaults.wild]
   }
   if (parseInt(idnum) > 0) {
     idnum = parseInt(idnum * -1).toString()
@@ -1287,7 +1287,7 @@ export function searchZooName(zoo_name_str) {
     zoo_name_str = Language.capitalNames(zoo_name_str)
   }
   // Get the matches against any of the valid zoo strings we care about
-  const languages = def.languages
+  const languages = Defaults.languages
   const fields = ["location", "name"]
   const wants = []
   // Convolve the desired fields with the possible language options
@@ -1325,8 +1325,8 @@ export function searchZooName(zoo_name_str) {
  */
 function sortByNameJapanese(nodes) {
   function hiragana_generate(name) {
-    const hiragana = def.ranges['ja'][1]   // Hiragana range regex
-    const katakana = def.ranges['ja'][2]   // Katakana range regex
+    const hiragana = Defaults.ranges['ja'][1]   // Hiragana range regex
+    const katakana = Defaults.ranges['ja'][2]   // Katakana range regex
     if (hiragana.test(name) == true) {
       return name
     }
@@ -1478,13 +1478,13 @@ export function sortYoungestToOldest(nodes) {
 export function age(animal, language) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
-    return def.unknown[language]
+    return Defaults.unknown[language]
   const birthday = new Date(birth)
   const death = animal['death']
   // If the animal's date of death is listed as "unknown", this means the animal
   // passed at an undetermined date, so its age is also unknown.
   if (death == "unknown")
-    return def.unknown[language]
+    return Defaults.unknown[language]
   const endday = (death == undefined ? new Date() : new Date(death))
   const ms_per_day = 1000 * 60 * 60 * 24
   const age_days = (endday - birthday)/ms_per_day
@@ -1492,8 +1492,8 @@ export function age(animal, language) {
   const age_months = Math.floor(age_days / 31)
   // Specify whether you say "day" or "days" in the age string
   function pluralize(count, time_word, language) {
-    return (count < 2) ? def.age[language][time_word]
-                       : def.age[language][time_word + "s"]
+    return (count < 2) ? Defaults.age[language][time_word]
+                       : Defaults.age[language][time_word + "s"]
   }
   function spacing(language) {
     return (language == "ja") ? '' : " "
@@ -1504,15 +1504,15 @@ export function age(animal, language) {
   if (age_days <= 100) {
     return (Math.floor(age_days)).toString() + spacing(language) + pluralize(age_days, "day", language)
   } else if (age_days <= 365) {
-    return age_months.toString() + spacing(language) + def.age[language]['months']
+    return age_months.toString() + spacing(language) + Defaults.age[language]['months']
   } else if (age_days <= 403) {
     // 403/31 == 13, lowest number that is still cleanly one year and less than one month
-    return "1" + spacing(language) + def.age[language]['year']
+    return "1" + spacing(language) + Defaults.age[language]['year']
   } else if (age_days <= 730) {
-    return "1" + spacing(language) + def.age[language]['year'] + " " + 
+    return "1" + spacing(language) + Defaults.age[language]['year'] + " " + 
            (age_months - 12).toString() + spacing(language) + pluralize((age_months - 12).toString(), "month", language)
   } else {
-    return age_years.toString() + spacing(language) + def.age[language]['years']
+    return age_years.toString() + spacing(language) + Defaults.age[language]['years']
   }
 }
 
@@ -1520,7 +1520,7 @@ export function age(animal, language) {
 export function ageYears(animal) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
-    return def.unknown[language]
+    return Defaults.unknown[language]
   const birthday = new Date(birth)
   const endday = new Date()
   const ms_per_day = 1000 * 60 * 60 * 24
@@ -1541,7 +1541,7 @@ export function birthday(animal, language) {
 export function date(animal, field, language) {
   const date = animal[field]
   if ((date == undefined) || (date == "unknown"))
-    return def.unknown[language]
+    return Defaults.unknown[language]
   return formatDate(date, language)
 }
 
@@ -1570,12 +1570,12 @@ export function field(animal, field, mode="animal") {
  */
 export function formatDate(date, language) {
   if ((date == undefined) || (date == "unknown"))
-    return def.unknown[language]
+    return Defaults.unknown[language]
   if ((date.split("/").length == 2) &&
       (Gui[date.split("/")[1].toLowerCase()] != undefined)) {
     return formatSeason(date, language)
   }
-  let format = def.date[language]
+  let format = Defaults.date[language]
   const [ year, month, day ] = date.split("/")
   format = format.replace("YYYY", year)
   format = format.replace("MM", month)
@@ -1586,10 +1586,10 @@ export function formatDate(date, language) {
 /** Given a date string with a year and a season, format that date */
 function formatSeason(date, language) {
   if ((date == undefined) || (date == "unknown"))
-    return def.unknown[language]
+    return Defaults.unknown[language]
   const [ year, season ] = date.split("/")
   season = season.toLowerCase()
-  const format = def.date_season[language]
+  const format = Defaults.date_season[language]
   format = format.replace("YYYY", year)
   format = format.replace("SEASON", Gui[season][language])
   return format
@@ -1598,7 +1598,7 @@ function formatSeason(date, language) {
 /** Given a date string, return just the year */
 export function formatYear(date, language) {
   if ((date == undefined) || (date == "unknown"))
-    return def.unknown[language]
+    return Defaults.unknown[language]
   const [ year, month, day ] = date.split("/")
   return year
 }
@@ -1606,8 +1606,8 @@ export function formatYear(date, language) {
 /** Given an animal and a language, return the proper gender string. */
 export function gender(animal, language) {
   const gender = animal["gender"]
-  return gender == undefined ? def.unknown[language] 
-                             : def.gender[gender][language]
+  return gender == undefined ? Defaults.unknown[language] 
+                             : Defaults.gender[gender][language]
 }
 
 /** 
@@ -1617,7 +1617,7 @@ export function gender(animal, language) {
 export function groupMediaCaption(entity, photo_index) {
   const tag_index = `${photo_index}.tags`
   const pandaTags = entity["panda.tags"].split(", ")
-  const  output_string = def.animal[`${Env.language}.name`]
+  const  output_string = Defaults.animal[`${Env.language}.name`]
   const animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
@@ -1678,7 +1678,7 @@ export function halfSiblings(animal, sibling) {
   // sibling. If one of the parents is missing, do this as a heuristic to
   // determine whether someone is a half-sibling or not.
   let sibling_year = -1
-  if (sibling["birthday"] != def.animal["birthday"])
+  if (sibling["birthday"] != Defaults.animal["birthday"])
     sibling_year = parseInt(formatYear(sibling["birthday"], Env.language))
   let mymom_year = -2
   if (animal_mom != undefined)
@@ -1759,8 +1759,8 @@ export function locationList(animal) {
     let [zoo_index, start_date] = animal[location_field].split(", ")
     // If there was a wild animal, fill in defaults for the dates
     if (zoo_index == 0) {
-      start_date = def.animal["birthday"]
-      end_date = def.animal["birthday"]
+      start_date = Defaults.animal["birthday"]
+      end_date = Defaults.animal["birthday"]
     }
     const location = {
           "zoo": zoo_index,
@@ -1800,8 +1800,8 @@ function locationWild(animal) {
   }
   const locations = [{
     "zoo": myWild(animal, "wild"),
-    "start_date": def.date[Env.language],
-    "end_date": def.date[Env.language]
+    "start_date": Defaults.date[Env.language],
+    "end_date": Defaults.date[Env.language]
   }]
   return locations
 }
@@ -1869,7 +1869,7 @@ function locatorToPhoto(locator) {
 /** Given an animal and a chosen language, return details for a red panda. */
 export function myName(animal, language) {
   const field = `${language}.name`
-  return animal[field] == undefined ? def.animal[field] : animal[field]
+  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
 }
 
 /** 
@@ -1880,7 +1880,7 @@ export function myName(animal, language) {
  */
 export function myWild(animal, field) {
   const wild = G.v(animal['_id']).out(field).run()
-  return wild == [] ? def.wild : wild[0]
+  return wild == [] ? Defaults.wild : wild[0]
 }
 
 /**
@@ -1891,13 +1891,13 @@ export function myWild(animal, field) {
  */
 export function myZoo(animal, field) {
   const zoo = G.v(animal['_id']).out(field).run()
-  return zoo == [] ? def.zoo : zoo[0]
+  return zoo == [] ? Defaults.zoo : zoo[0]
 }
 
 /** Given an animal and a chosen language, return nicknames. */
 export function nicknames(animal, language) {
   const field = `${language}.nicknames`
-  return animal[field] == undefined ? def.animal[field] : animal[field]
+  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
 }
 
 /**
@@ -1906,7 +1906,7 @@ export function nicknames(animal, language) {
  */
 export function othernames(animal, language) {
   const field = `${language}.othernames`
-  return animal[field] == undefined ? def.animal[field] : animal[field]
+  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
 }
 
 /** 
@@ -1979,8 +1979,8 @@ export function photoManifest(entity, mode="animal") {
   // Filter out any keys that have the default value for either
   // an animal or a zoo
   photos = Object.keys(photos).reduce(function(filtered, key) {
-    if ((photos[key] != def.animal[key]) && 
-        (photos[key] != def.zoo[key])) {
+    if ((photos[key] != Defaults.animal[key]) && 
+        (photos[key] != Defaults.zoo[key])) {
       filtered[key] = photos[key]
     }
     return filtered
@@ -2020,20 +2020,20 @@ export function profilePhoto(animal, index, mode="animal") {
 
 /** Given an animal species id, return the full species name */
 export function species(animal, language) {
-  // 0th value in `def.species` is fulgens
-  // 1th vlue in `def.species` is styani
+  // 0th value in `Defaults.species` is fulgens
+  // 1th vlue in `Defaults.species` is styani
   // The panda files list the species as a number that is off by one from this
   if (animal["species"] == undefined) {
-    return def.unknown[language]
+    return Defaults.unknown[language]
   }
   const idx = parseInt(animal["species"]) - 1
-  return def.species[language][idx]
+  return Defaults.species[language][idx]
 }
 
 /** Given a wild location found with `location()`, return the location name. */
 export function wildName(wild, language) {
   const field = `${language}.name`
-  return wild[field] == undefined ? def.wild[field] : wild[field]
+  return wild[field] == undefined ? Defaults.wild[field] : wild[field]
 }
 
 /**
@@ -2041,13 +2041,13 @@ export function wildName(wild, language) {
  * Useful for anything that's just a URI, like videos or photos.
  */
 export function wildField(wild, field) {
-  return wild[field] == undefined ? def.wild[field] : wild[field]
+  return wild[field] == undefined ? Defaults.wild[field] : wild[field]
 }
 
 /** Given a zoo found with `location()`, return the name of the zoo. */
 export function zooName(zoo, language) {
   const field = `${language}.name`
-  return zoo[field] == undefined ? def.zoo[field] : zoo[field]
+  return zoo[field] == undefined ? Defaults.zoo[field] : zoo[field]
 }
 
 /** 
@@ -2055,7 +2055,7 @@ export function zooName(zoo, language) {
  * anything that's just a URI, like videos or photos.
  */
 export function zooField(zoo, field) {
-  return zoo[field] == undefined ? def.zoo[field] : zoo[field]
+  return zoo[field] == undefined ? Defaults.zoo[field] : zoo[field]
 }
 
 /** Export the red panda data for anything to use */
