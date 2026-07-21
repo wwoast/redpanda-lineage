@@ -410,7 +410,7 @@ class Lexer {
           tokenlist.push(token)
         }
       }
-      return tokenlist;
+      return tokenlist
     }
     const ordering = ["names", "tags", "keywords"]
     const input_spaces = input.replace(/\S/g, '').length
@@ -418,10 +418,10 @@ class Lexer {
     // if they're in one of the word lists
     let found_tokens = []
     for (const list_name of ordering) {
-      const lexlist = this.terms[list_name].list
+      let lexlist = this.terms[list_name].list
       // Count spaces in the input, so we can determine whether
       // tokens with N-spaces exist in the input
-      const max_spaces = this.terms[list_name].max_spaces
+      let max_spaces = this.terms[list_name].max_spaces
       if (max_spaces > input_spaces) {
         max_spaces = input_spaces
       }
@@ -595,7 +595,7 @@ class Tree {
     const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags, 2)), r_name)
     const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags, 2)), r_id)
     // Binary keywords
-    // var c_k_binary_logical = Choices(group.binary_logic);
+    // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries
     const START = Prio(
       r_id,
@@ -623,7 +623,7 @@ class Tree {
       // Sequence('(', THIS, ')'),   // Bracketed expressions
       // Sequence(THIS, c_k_binary_logical, THIS),
       r_name
-    );
+    )
     // Keywords are newline separated
     this.grammar = new Grammar(START, '^[^\n]+')
   }
@@ -677,13 +677,12 @@ class Tree {
     const array = []
     while(input.length) {
       const value = input.shift()
-      if (Array.isArray(value)) {
-        input = value.concat(input);
-      } else {
-        array.push(value);
-      }
+      if (Array.isArray(value))
+        input = value.concat(input)
+      else
+        array.push(value)
     }
-    return array;
+    return array
   }
 
   /**
@@ -842,7 +841,7 @@ class Tree {
    */
   node_type_specific_ids(container_node, value_nodes) {
     if (container_node.type == "set_keywords") {
-      const keywords = value_nodes.map(n => n.str);
+      const keywords = value_nodes.map(n => n.str)
       // Many keyword combinations will not have valid results, but we want to
       // do some processing if we see certain types together. Examples:
       // 1) If all are tags: search set should be intersection of all tags
@@ -931,7 +930,7 @@ class Tree {
    */
   walk_to_subject_container(node) {
     const parent_type = this.node_type_composite_ids(node.parent)
-    node.parent.type = parent_type;   // Set parent node types as we walk
+    node.parent.type = parent_type   // Set parent node types as we walk
     if (parent_type.indexOf("contains") == 0) {
       return this.walk_to_subject_container(node.parent)
     } else {
