@@ -140,9 +140,9 @@ export class Carousel {
         }
       });
     }
-    span_link.appendChild(span);
-    condenseDogEar(span);   // More than three digits?
-    return span_link;
+    span_link.appendChild(span)
+    condenseDogEar(span)   // More than three digits?
+    return span_link
   }
 
   /** Utility function to get the current number of photos */
@@ -210,7 +210,7 @@ export class Carousel {
   photoSwap(photo, desired_index) {
     const span_link =
       photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1]
-    const [carousel_id, _, photo_id] = photo.id.split("/")
+    const [carousel_id, _, last_index] = photo.id.split("/")
     const entity_id = carousel_id.split("_").pop()
     const entity = this.photoEntity(entity_id)
     const photo_manifest = Pandas.photoManifest(entity, this.carousel_type)
@@ -222,30 +222,30 @@ export class Carousel {
       new_index = (desired_index % max_index)
     else
       new_index = desired_index
+    // Update the photo index we are tracking so other method calls DTRT
+    this.index = new_index.toString()
     // Replace the span navigation id if we have an actual carousel
     if (max_index > 1)
-      span_link.childNodes[0].innerText = new_index.toString()
+      span_link.childNodes[0].innerText = this.index
     else
       return  // No carousel, no need to actually swap photos
-    const chosen = `photo.${new_index}`
+    const chosen = `photo.${this.index}`
     const new_choice = photo_manifest[chosen]
     // Update displayed photo
-    this.displayPhoto(photo, new_choice, carousel_id, new_index.toString())
-    const photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type)
+    this.displayPhoto()
+    const photo_info = Pandas.profilePhoto(entity, this.index, this.carousel_type)
     // Replace the animal credit info
-    this.singlePhotoCredit(photo_info, photo_id, new_index)
+    this.singlePhotoCredit(photo_info, last_index, this.index)
     // And the photographer credit's apple points
-    this.userApplePoints(photo_info, photo_id, new_index)
-    // Finally, set the carousel's index value
-    this.index = new_index.toString()
+    this.userApplePoints(photo_info, last_index, this.index)
   }
 
   /** Replace the photographer's credit info for a panda's photo */
-  singlePhotoCredit(photo_info, current_index, new_index) {
-    const animal_id = photo_info.id;
+  singlePhotoCredit(photo_info, last_index, current_index) {
+    const animal_id = photo_info.id
     const credit_link =
-      document.getElementById(`${animal_id}/author/${current_index}`)
-    credit_link.id = `${animal_id}/author/${new_index}`
+      document.getElementById(`${animal_id}/author/${last_index}`)
+    credit_link.id = `${animal_id}/author/${current_index}`
     if (!Object.keys(Defaults.authors).includes(photo_info.credit)) {
       credit_link.href = photo_info["link"]
     } else {
@@ -256,10 +256,10 @@ export class Carousel {
   }
 
   /** Replace the photographer's apple points (number of photos on the site) */
-  userApplePoints(photo_info, current_index, new_index) {
-    const animal_id = photo_info.id;
-    const apple_link = document.getElementById(`${animal_id}/counts/${current_index}`)
-    apple_link.id = `${animal_id}/counts/${new_index}`
+  userApplePoints(photo_info, last_index, current_index) {
+    const animal_id = photo_info.id
+    const apple_link = document.getElementById(`${animal_id}/counts/${last_index}`)
+    apple_link.id = `${animal_id}/counts/${current_index}`
     if (!Object.keys(Defaults.authors).includes(photo_info.credit)) {
       const apple_count = P.db._photo.credit[photo_info["credit"]]
       apple_link.href = `#credit/${photo_info["credit"]}`
@@ -268,7 +268,7 @@ export class Carousel {
         apple_link.innerText = `${Emoji.megagift} ${apple_count}`
       }
     } else {
-      apple_link.innerText = "";
+      apple_link.innerText = ""
     }
   }
 }

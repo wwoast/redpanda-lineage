@@ -2536,7 +2536,7 @@ export const resultsPage = {
     const frame = document.createElement('div')
     frame.className = "zooPhoto"
     const image = carousel.image
-    const dogEar = gallery.displayPhotoNavigation()
+    const dogEar = carousel.displayPhotoNavigation()
     frame.appendChild(image)
     frame.appendChild(dogEar)
     frame.addEventListener('mouseover', () => dogEar.style.display = "block")
