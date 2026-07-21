@@ -2259,7 +2259,7 @@ export const resultsPage = {
     const details = document.createElement('div')
     details.className = "pandaDetails"
     // Modes for arrived/deparated animals based on query context
-    const search_context = undefined
+    let search_context = undefined
     if (info.search_context != undefined)
       search_context = info.search_context.query
     let squelch_home_zoo = false
