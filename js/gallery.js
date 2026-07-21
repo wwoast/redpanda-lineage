@@ -76,25 +76,30 @@ export class Carousel {
    * Support using class variables by default, but allow the `photoSwap` function
    * to use unique parameters as it needs.
    */
-  displayPhoto() {
+  displayPhoto(
+    image=this.image,
+    photoUrl=this.info.photo,
+    id=this.info.id,
+    index=this.index
+  ) {
     // Using current information from the Gallery state...
     const photoUrl = this.info.photo
     const id = this.info.id
     const index = this.index
     // Fill in details of the image we are displaying
     if (photoUrl == undefined) {
-      this.image.src = this.fallback_url
-    } else if (id.indexOf("_") != -1) {
+      image.src = this.fallback_url
+    } else if (id.includes("_")) {
       // HACK: passing carousel id from touch handlers
-      this.image.id = `${id}/photo/${index}`
-      this.image.className = `${id}/photo`
-      url.process(this.image, photoUrl)
+      image.id = `${id}/photo/${index}`
+      image.className = `${id}/photo`
+      url.process(image, photoUrl)
     } else {
-      this.image.id = `${this.unique}_${id}/photo/${index}`   // For carousel
-      this.image.className = `${this.unique}_${id}/photo`
-      url.process(this.image, photoUrl)
+      image.id = `${this.unique}_${id}/photo/${index}`   // For carousel
+      image.className = `${this.unique}_${id}/photo`
+      url.process(image, photoUrl)
     }
-    this.image.onerror = `this.src='${this.fallback_url}'`
+    image.onerror = `this.src='${this.fallback_url}'`
   }
 
   /** The hover over or swipe menu for photo navigation */
@@ -232,11 +237,10 @@ export class Carousel {
     const chosen = `photo.${this.index}`
     const new_choice = photo_manifest[chosen]
     // Update displayed photo
-    this.displayPhoto()
+    this.displayPhoto(photo, new_choice, carousel_id, this.index)
+    // Update animal credit info and the photographer credit's apple points
     const photo_info = Pandas.profilePhoto(entity, this.index, this.carousel_type)
-    // Replace the animal credit info
     this.singlePhotoCredit(photo_info, last_index, this.index)
-    // And the photographer credit's apple points
     this.userApplePoints(photo_info, last_index, this.index)
   }
 
