@@ -120,11 +120,10 @@ class AboutPage {
     else {
       this.render()
       // Add event listeners to the newly created About page buttons
-      // TODO ES6
-      this.sections.buttonEventHandlers()
+      this.sectionButtonEventHandlers()
       // Display correct subsection of the about page (class swaps)
       // Default: usage instructions appear non-hidden.
-      this.sections.show(window.sessionStorage.getItem("aboutPageMenu"))
+      this.sectionShow(window.sessionStorage.getItem("aboutPageMenu"))
       // Determine desktop or mobile, and display relevant instructions
       this.instructions()
       mediaQuery.addListener(this.instructions)
@@ -161,7 +160,7 @@ class AboutPage {
     if (!this.language || this.language != Env.language)
       this.fetch()
     else {
-      this.sections.menuDefaults()   // Initialize submenus if necessary
+      this.sectionMenuDefaults()   // Initialize submenus if necessary
       document.getElementById('contentFrame').replaceWith(this.content)
       footer.redraw("results")
     }
@@ -265,7 +264,7 @@ class AboutPage {
     const tagKeys = Object.keys(Tags)
     const primaryTags = {}
     for (const key of tagKeys) {
-      const primaryTag = Tags[key][this.language][0];
+      const primaryTag = Tags[key][this.language][0]
       // Index by primaryTag, while the value is the key to the tagList
       primaryTags[primaryTag] = key
     }
