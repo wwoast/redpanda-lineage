@@ -317,8 +317,8 @@ export function commaPhrase(pieces) {
   const p = document.createElement('p')
   for (let i = 0; i < pieces.length; i++) {
     const m = document.createTextNode(pieces[i])
-    const c = document.createTextNode(messages.comma[Env.language])
-    const a = document.createTextNode(messages.and_words[Env.language])
+    const c = document.createTextNode(Text.comma[Env.language])
+    const a = document.createTextNode(Text.and_words[Env.language])
     p.appendChild(m)
     // Commas
     if ((i < pieces.length - 3) && (pieces.length > 3)) {
@@ -342,8 +342,8 @@ export function commaPhraseBare(pieces) {
   let o = ""
   for (let i = 0; i < pieces.length; i++) {
     const m = pieces[i]
-    const c = messages.comma[Env.language] + " "
-    const a = messages.and_words[Env.language]
+    const c = Text.comma[Env.language] + " "
+    const a = Text.and_words[Env.language]
     o = o.concat(m)
     // Commas
     if ((i < pieces.length - 2) && (pieces.length > 2)) {
