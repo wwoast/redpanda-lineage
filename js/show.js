@@ -1089,7 +1089,7 @@ const searchButton = {
     }
   },
   render: function(class_name="profile") {
-    const searchButtontext = 
+    const searchButtonText = 
       Gui.search[Env.language].replace("...", "");   // No ellipses
     const button = renderButton(
       "searchButton",
