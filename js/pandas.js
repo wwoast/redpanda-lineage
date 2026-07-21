@@ -974,7 +974,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
     }
     return false
   }).run()
-  const nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
+  let nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
     return self.indexOf(value) === index  // Am I the first value in the array?
   })
   if (search_context == true) {
