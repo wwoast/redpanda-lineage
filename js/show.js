@@ -2715,7 +2715,7 @@ export const resultsPage = {
     if (total_count > 0) {
       // Find the first location marker matching the zoo for this animal
       // Get the year from this value.
-      const earliest_year = -1
+      let earliest_year = -1
       const compare_id = info["id"] * -1
       for (const animal of total_zoo) {
         const location_fields = Pandas.locationGeneratorEntity
