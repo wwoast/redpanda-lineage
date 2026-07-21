@@ -1077,4 +1077,4 @@ export var LastSearch = "#home"
  * Stores callback to the current page render function for redraws.
  * Default mode is to show panda results.
  */
-export let Current = results.render
+export var Current = results.render
