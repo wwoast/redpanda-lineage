@@ -1610,7 +1610,7 @@ export function gender(animal, language) {
 export function groupMediaCaption(entity, photo_index) {
   const tag_index = `${photo_index}.tags`
   const pandaTags = entity["panda.tags"].split(", ")
-  const  output_string = Defaults.animal[`${Env.language}.name`]
+  let output_string = Defaults.animal[`${Env.language}.name`]
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
