@@ -653,7 +653,7 @@ function searchPandaNameFields(input, name_fields=undefined) {
         languages.map(l => `${l}.${name_field}`)
       )
     }
-    for (let field of collected_fields) {
+    for (const field of collected_fields) {
       if (animal[field] != undefined) {
         const name_list = animal[field].split(", ")
         for (let wanted of inputs) {
@@ -874,7 +874,7 @@ export function searchPandaZoo(idnum) {
 /** Find all pandas at a given zoo that are alive, and arrived recently */
 export function searchPandaZooArrived(idnum, months=6) {
   const compare_id = idnum * -1
-  const nodes = G.v(idnum).in("zoo").filter(function(vertex) {
+  let nodes = G.v(idnum).in("zoo").filter(function(vertex) {
     return vertex.death == undefined   // Gotta be alive
   }).filter(function(vertex) {
     // If their arrival date was within six months, keep in the list
@@ -1113,7 +1113,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
 export function searchPandaZooDied(idnum, months=6) {
   if (idnum > 0)
     idnum = idnum * -1;   // HACK: zoo records
-  const nodes = G.v(idnum).in("zoo").filter(function(vertex) {
+  let nodes = G.v(idnum).in("zoo").filter(function(vertex) {
     return vertex.death != undefined   // Gotta be dead
   }).filter(function(vertex) {
     // Compare all panda anniversary dates with current time.
