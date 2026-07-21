@@ -216,24 +216,22 @@ export class Carousel {
     const photo_manifest = Pandas.photoManifest(entity, this.carousel_type)
     const max_index = Object.values(photo_manifest).length
     let new_index = 1   // Fallback value
-    if (desired_index < 1) {
+    if (desired_index < 1)
       new_index = max_index
-    } else if (desired_index > max_index) {
+    else if (desired_index > max_index)
       new_index = (desired_index % max_index)
-    } else {
+    else
       new_index = desired_index
-    }
     // Replace the span navigation id if we have an actual carousel
-    if (max_index > 1) {
+    if (max_index > 1)
       span_link.childNodes[0].innerText = new_index.toString()
-    } else {
+    else
       return  // No carousel, no need to actually swap photos
-    }
-    var chosen = `photo.${newIndex}`
-    var new_choice = photo_manifest[chosen];
+    const chosen = `photo.${newIndex}`
+    const new_choice = photo_manifest[chosen]
     // Update displayed photo
     this.displayPhoto(photo, new_choice, carousel_id, new_index.toString())
-    var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type)
+    const photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type)
     // Replace the animal credit info
     this.singlePhotoCredit(photo_info, photo_id, new_index)
     // And the photographer credit's apple points
