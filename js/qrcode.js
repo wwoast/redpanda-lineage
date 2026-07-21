@@ -487,7 +487,7 @@ var QRMode = {
 // QRErrorCorrectLevel
 //---------------------------------------------------------------------
  
-var QRErrorCorrectLevel = {
+export var QRErrorCorrectLevel = {
 	L : 1,
 	M : 0,
 	Q : 3,

@@ -1,4 +1,4 @@
-import { QRCode } from './qrcode.js'
+import { QRCode, QRErrorCorrectLevel } from './qrcode.js'
 
 //---------------------------------------------------------------------
 // JavaScript-HTML5 QRCode Generator
