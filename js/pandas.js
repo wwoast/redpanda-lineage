@@ -1,7 +1,7 @@
 import Dagoba from './dagoba.js'
 import Env from './environment.js'
 import * as Language from './language.js'
-import { DateLocale, Defaults, Fallback, Gui } from './lookup.js'
+import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.js'
 import { Text } from './message.js'
 
 /** 
@@ -1644,7 +1644,7 @@ export function groupMediaCaption(entity, photo_index) {
     }
   }
   // Replace "baby, baby, baby" with group term
-  if ((values(Language.polyglots["baby"]).includes(animals[0].name)) &&
+  if ((values(Polyglots["baby"]).includes(animals[0].name)) &&
       (unique(animals, "name").length == 1)) {
     output_string = Gui["babies"][Env.language]
   }
