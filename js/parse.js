@@ -690,7 +690,7 @@ class Tree {
    * want.
    */
   filter(node, tests) {
-    const results = []
+    let results = []
     outer: for (const test of tests) {
       for (const field in test) {
         if (node.hasOwnProperty(field)) {
