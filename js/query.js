@@ -1,6 +1,6 @@
 import Env from './environment.js'
 import * as Geo from './geolocate.js'
-import { fallbackName } from './language.js'
+import { fallback_name } from './language.js'
 import * as Pandas from './pandas.js'
 import * as Parse from './parse.js'
 
