@@ -283,7 +283,7 @@ export function fallbackInfo(info, original) {
  * letter. So input queries not capitalized need to be corrected for searching.
  */
 export function capitalNames(input) {
-  const words = []
+  let words = []
   const output = []
   if (input.includes(' ')) {
     words = input.split(' ')
