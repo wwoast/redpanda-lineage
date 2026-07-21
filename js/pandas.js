@@ -966,8 +966,8 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
     // Gets panda locations and finds zoo matches
     const location_fields = locationGeneratorEntity
     for (const field_name of location_fields(vertex)) {
-      var location = field(vertex, field_name)
-      var zoo_id = location.split(", ")[0]
+      const location = field(vertex, field_name)
+      const zoo_id = location.split(", ")[0]
       // Matching zoo values will be positive ids in location fields
       if (zoo_id == compare_id)
         return vertex
@@ -983,7 +983,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
       const location_fields = locationGeneratorEntity
       const date_ranges = []
       let current_range = undefined
-      for (let field_name of location_fields(vertex)) {
+      for (const field_name of location_fields(vertex)) {
         const location = field(vertex, field_name)
         const [zoo_id, date] = location.split(", ")
         // Matching zoo values will be positive ids in location fields
