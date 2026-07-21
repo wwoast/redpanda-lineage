@@ -1340,7 +1340,7 @@ function sortByNameJapanese(nodes) {
   const name_field = "ja.name"
   const othername_field = "ja.othernames"
   const sort_name = "ja.sortname"
-  const connector = Text["and"][Env.language]
+  let connector = Text["and"][Env.language]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
@@ -1629,7 +1629,7 @@ export function groupMediaCaption(entity, photo_index) {
   animals = animals.sort((a, b) => a['x'] > b['x'] ? 1: -1)
   // Read off their names into the output string and return
   if (animals.length > 0) {
-    const connector = Text["and"][Env.language]
+    let connector = Text["and"][Env.language]
     // HACK: Assume latin languages do comma-replacement the same way
     if ((animals.length > 2) && 
         (Language.alphabets.latin.includes(Env.language))) {
