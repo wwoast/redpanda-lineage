@@ -371,7 +371,7 @@ export function commaPhraseBare(pieces) {
  * anyways!
  */
 function currentOrder(current_list, current_language) {
-  const currentBias = bias[current_language]
+  let currentBias = bias[current_language]
   if (currentBias[0] == "latin") {
     currentBias = []
     // Iterate through the current list of languages. If one has a latin
