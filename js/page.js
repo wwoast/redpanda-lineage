@@ -126,7 +126,7 @@ class AboutPage {
       this.sectionShow(window.sessionStorage.getItem("aboutPageMenu"))
       // Determine desktop or mobile, and display relevant instructions
       this.instructions()
-      mediaQuery.addListener(this.instructions)
+      mediaQuery().addListener(this.instructions)
       // Add a tag list
       this.tags();
       Env.current = this.render
@@ -139,7 +139,7 @@ class AboutPage {
    * visitors or for PC visitors
    */
   instructions() {  
-    if (mediaQuery.matches) {
+    if (mediaQuery().matches) {
       document.querySelector(".pandaAbout.onlyDesktop").style.display = "none"
       document.querySelector(".pandaAbout.onlyMobile").style.display = "block"
     } else {

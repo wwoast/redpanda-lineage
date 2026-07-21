@@ -131,13 +131,13 @@ window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
     Page.about.render()
     // Add event listeners to the newly created About page buttons
-    Page.about.sections.buttonEventHandlers("aboutPageMenu")
+    Page.about.sectionButtonEventHandlers("aboutPageMenu")
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
-    Page.about.sections.show(window.sessionStorage.getItem("aboutPageMenu"))
+    Page.about.sectionShow(window.sessionStorage.getItem("aboutPageMenu"))
     // Determine desktop or mobile, and display relevant instructions
     Page.about.instructions()
-    mediaQuery.addListener(Page.about.instructions)
+    mediaQuery().addListener(Page.about.instructions)
     // Add a tag list
     Page.about.tags()
     Env.current = Page.about.render

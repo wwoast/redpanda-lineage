@@ -12,14 +12,14 @@ import { Defaults } from './lookup.js'
  */
 
 /** Tells JS to do operations on either a mobile or desktop size window */
-export const mediaQuery = window.matchMedia("(max-width: 670px)")
+export const mediaQuery = () => window.matchMedia("(max-width: 670px)")
 
 /** 
  * Media-query height adjustment listeners, plus making sure the height
  * adjustment works on the initial page load.
  */
-mediaQuery.addListener(shrinkNames)
-mediaQuery.addListener(recomputeHeight)
+mediaQuery().addListener(shrinkNames)
+mediaQuery().addListener(recomputeHeight)
 
 /** 
  * Create a divider. This is a horizontal rule element with 100% width. Works
@@ -171,7 +171,7 @@ export function shrinkNames() {
     }
   }
   let action = shrinker
-  if (mediaQuery.matches == false)
+  if (mediaQuery().matches == false)
     action = expander
   const link_nodes = document.getElementsByClassName("geneaologyListName")
   const birthday_nodes = document.getElementsByClassName("caption birthdayMessage")
@@ -648,7 +648,7 @@ export default class Layout {
         this.section.family.append(this[list_name])
       }
       // Set height of the container div based on balancing info.
-      if (mediaQuery.matches == false) {
+      if (mediaQuery().matches == false) {
         // Use the desktop height in desktop mode
         this.section.family.style.height = this.layout.height_desktop;
         // Store this value on the div for later use
@@ -682,7 +682,7 @@ export default class Layout {
       }
       // Set height of the container div based on balancing info
       // Make sure it applies immediately
-      if (mediaQuery.matches == true)
+      if (mediaQuery().matches == true)
         this.section.family.style.height = this.layout.height_mobile
       // Store this value on the div for later use
       this.section.family.dataset.height_mobile = this.layout.height_mobile
@@ -721,7 +721,7 @@ export default class Layout {
       }
       // Set height of the container div based on balancing info
       // Make sure it applies immediately
-      if (mediaQuery.matches == false)
+      if (mediaQuery().matches == false)
         this.section.family.style.height = this.layout.height_desktop
       // Store this value on the div for later use
       this.section.family.dataset.height_desktop = this.layout.height_desktop
