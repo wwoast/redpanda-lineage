@@ -237,7 +237,7 @@ export class Carousel {
     // And the photographer credit's apple points
     this.userApplePoints(photo_info, photo_id, new_index)
     // Finally, set the carousel's index value
-    this.index = this.new_index.toString()
+    this.index = new_index.toString()
   }
 
   /** Replace the photographer's credit info for a panda's photo */
