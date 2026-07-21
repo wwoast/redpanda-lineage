@@ -2504,22 +2504,22 @@ export function shovel_pandas(language) {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function tag_combo(num, Emoji., language) {
+export function tag_combo(num, emojis, language) {
   const p = document.createElement('p');
   // Emojis come first!
-  for (const Emoji.of Emoji.) {
-    p.appendChild(document.createTextNode(Emoji.+ " "));
+  for (const emoji of emojis) {
+    p.appendChild(document.createTextNode(emoji + " "))
   }
-  let output_text = "";
+  let output_text = ""
   for (const i in Text.tag_combo[language]) {
-    let field = Text.tag_combo[language][i];
+    let field = Text.tag_combo[language][i]
     if (field == "<INSERTNUM>") {
-      output_text = output_text.concat(num);
+      output_text = output_text.concat(num)
     } else {
       if (num == 1) {
-        field = Language.unpluralize([field]);
+        field = Language.unpluralize([field])
       }
-      output_text = output_text.concat(field);
+      output_text = output_text.concat(field)
     }
   }
   output_text = Language.unpluralize([output_text])[0]
@@ -2527,31 +2527,30 @@ export function tag_combo(num, Emoji., language) {
   return shrinkBoxMessage("tagSummary", p)
 }
 
-export function tag_object(num, name, Emoji. tag, language) {
-  // If there was an id as part of a tagExpression, rewrite this message
-  // using the panda's localized name instead.
-  if (Pandas.checkId(name) == true) {
-    name = Pandas.searchPandaId(name)[0][language + ".name"]
-  }
-  if (name != undefined) {
+/** 
+ * If there was an id as part of a tagExpression, rewrite this message using
+ * the panda's localized name instead.
+ */
+export function tag_subject(num, name, emoji, tag, language) {
+  if (Pandas.checkId(name) == true)
+    name = Pandas.searchPandaId(name)[0][`${language}.name`]
+  if (name != undefined)
     name = Language.capitalNames(name)
-  }
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
   // Need to look up "baby" info as well from the polyglot list of things
   // that can be either keywords or tags.
   let near_tag = undefined
-  if (tag in Tags) {
+  if (tag in Tags)
     near_tag = Tags[tag][language][0]
-  } else {
+  else
     near_tag = Language.polyglots[tag][language][0]
-  }
-  const p = document.createElement('p');
+  const p = document.createElement('p')
   for (const i in Text.tag_subject[language]) {
     let field = Text.tag_subject[language][i]
     if (field == "<INSERTNUM>") {
       const msg = document.createTextNode(num)
-      p.appendChild(msg);
+      p.appendChild(msg)
     } else if (field == "<INSERTNAME>") {
       const msg = document.createElement('i')
       const text = document.createTextNode(name)
@@ -2560,7 +2559,7 @@ export function tag_object(num, name, Emoji. tag, language) {
         p.appendChild(msg)
       }
     } else if (field == "<INSERTEMOJI>") {
-      const msg = document.createTextNode(Emoji.
+      const msg = document.createTextNode(emoji)
       p.appendChild(msg)
     } else if (field == "<INSERTTAG>") {
       const msg = document.createElement('b')
