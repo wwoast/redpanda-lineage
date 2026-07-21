@@ -259,7 +259,7 @@ function creditLink(info, container_element) {
   if (Object.keys(Pandas.def.authors).includes(info.photo_credit)) {
     // Uncredited / anonymous photos get no href, and are not links
     credit_link.innerText =
-      `${Language.emoji.camera} ${Pandas.def.authors[info.photo_credit][Language.Displayed]}`
+      `${Language.emoji.camera} ${Pandas.def.authors[info.photo_credit][Env.language]}`
     credit_link.removeAttribute("href")
   } else if (info.photo_credit != undefined) {
     // Attribute photo to someone
@@ -267,8 +267,8 @@ function creditLink(info, container_element) {
   } else {
     // Ask users to submit through a Google Form
     credit_link.innerText =
-      `${Language.emoji.camera} ${Language.gui.contribute[Language.Displayed]}` + "\xa0"
-    credit_link.href = Language.gui.contribute_link[Language.Displayed]
+      `${Language.emoji.camera} ${Language.gui.contribute[Env.language]}` + "\xa0"
+    credit_link.href = Language.gui.contribute_link[Env.language]
   }
   const container = document.createElement(container_element)
   container.appendChild(credit_link)
@@ -425,7 +425,7 @@ function nicknames(animal) {
     const nicknames_list = []
     const nicknames_li = document.createElement('li')
     nicknames_li.innerText =
-      `${Language.gui.language[Language.Displayed][language]}: `
+      `${Language.gui.language[Env.language][language]}: `
     // Nicknames for this animal
     for (let name of nicknames.split(", "))
       nicknames_list.push(name)
@@ -452,7 +452,7 @@ function othernames(animal, current_language) {
     const othername_list = []
     const othername_li = document.createElement('li')
     othername_li.innerText =
-      `${Language.gui.language[Language.Displayed][language]}: `
+      `${Language.gui.language[Env.language][language]}: `
     // Animal's name in other languages
     if (language != current_language) {
       const name = animal[`${language}.name`]
@@ -571,7 +571,7 @@ function qrcodeImage(animal_index=null, photo_index=null) {
   const copy_notice = document.createElement('span')
   copy_notice.className = "notifier condensed"
   copy_notice.id = "copyToast"
-  copy_notice.innerText = Language.gui.copied[Language.Displayed]
+  copy_notice.innerText = Language.gui.copied[Env.language]
   qrcode.appendChild(copy_notice)
   return qrcode
 }
@@ -713,14 +713,14 @@ const aboutButton = {
     const button = renderButton(
       "aboutButton",
       Language.emoji.bamboo,
-      Language.gui.about[Language.Displayed],
+      Language.gui.about[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
   }
 }
 
-/** The language menu's flag buttons change the current `Language.Displayed` */
+/** The language menu's flag buttons change the current `Env.language` */
 const flagButton = {
   action: function(button) {
     const language = button.id.replace("LanguageFlag", "")
@@ -728,8 +728,8 @@ const flagButton = {
     const choice = options.indexOf(language)
     // Don't redraw unless the language exists, or has changed from the current
     // display language.
-    if ((choice > -1) && (language != Language.Displayed)) {
-      Language.Displayed = language
+    if ((choice > -1) && (language != Env.language)) {
+      Env.language = language
       Language.update()
       // Redraw the nearby page if necessary
       if (Env.output_mode == "nearby")
@@ -779,7 +779,7 @@ const homeButton = {
     const button = renderButton(
       "homeButton",
       Language.emoji.home,
-      Language.gui.home[Language.Displayed],
+      Language.gui.home[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -789,10 +789,10 @@ const homeButton = {
 /** 
  * The language button has two modes. When you left-click, it makes the flag
  * buttons show up above the top menu, and clicking a flag changes which
- * `Language.Displayed` redpandafinder is drawn in.
+ * `Env.language` redpandafinder is drawn in.
  * 
  * When you right-click the language button, it immediately changes the
- * `Language.Displayed` to the next language in `Pandas.def.languages`.
+ * `Env.language` to the next language in `Pandas.def.languages`.
  */
 const languageButton = {
   /** Make the flag menu buttons appear above the top menu */
@@ -808,11 +808,11 @@ const languageButton = {
   /** Immediately change the displayed language to the next one in the list */
   altAction: function(e) {
     e.preventDefault()
-    const language = Language.Displayed
+    const language = Env.language
     const options = Pandas.def.languages
     const count = options.length
     const choice = (options.indexOf(language) + 1) % count
-    Language.Displayed = options[choice]
+    Env.language = options[choice]
     Language.update()
     // Redraw the nearby page if necessary
     if (Env.output_mode == "nearby")
@@ -828,8 +828,8 @@ const languageButton = {
   render: function(class_name="results") {
     const button = renderButton(
       "languageButton",
-      Language.gui.flag[Language.Displayed],
-      Language.gui.language[Language.Displayed][Language.Displayed],
+      Language.gui.flag[Env.language],
+      Language.gui.language[Env.language][Env.language],
       class_name)
     button.addEventListener("click", this.action)
     button.addEventListener("contextmenu", this.altAction)
@@ -848,7 +848,7 @@ const linksButton = {
     const button = renderButton(
       "linksButton",
       Language.emoji.link,
-      Language.gui.links[Language.Displayed],
+      Language.gui.links[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -886,7 +886,7 @@ const mediaButton = {
     const button = renderButton(
       "mediaButton",
       Language.emoji.media,
-      Language.gui.media[Language.Displayed],
+      Language.gui.media[Env.language],
       class_name)
     button.addEventListener("click", () => this.action(panda.id))
     button.addEventListener("contextmenu", this.altAction)
@@ -906,7 +906,7 @@ const optionsButton = {
     const button = renderButton(
       "optionsButton",
       Language.emoji.options,
-      Language.gui.options[Language.Displayed],
+      Language.gui.options[Env.language],
       class_name, 
       "brightness-150")
     button.addEventListener("click", this.action)
@@ -941,7 +941,7 @@ const pagingButton = {
     const button = renderButton(
       "pagingButton",
       Language.emoji.paging,
-      Language.gui.paging[Language.Displayed],
+      Language.gui.paging[Env.language],
       class_name)
     // Get callback function and arguments from Query.env
     const callback = Env.paging.callback.function
@@ -951,7 +951,7 @@ const pagingButton = {
       () => this.action(callback, parameters, frame_id, class_name))
     // English and Japanese text is too wide
     const text = button.childNodes[0].childNodes[1]
-    if (Language.Displayed == "ja")
+    if (Env.language == "ja")
       text.classList.add("condensed")
     else
       text.classList.remove("condensed")
@@ -990,13 +990,13 @@ const profileButton = {
     const button = renderButton(
       "profileButton",
       Language.emoji.profile,
-      Language.gui.profile[Language.Displayed],
+      Language.gui.profile[Env.language],
       class_name)
     button.addEventListener("click", () => this.action(panda_id))
     button.addEventListener("contextmenu", this.altAction)
     // Japanese text is too wide
     const text = button.childNodes[0].childNodes[1]
-    if (Language.Displayed == "ja")
+    if (Env.language == "ja")
       text.classList.add("condensed")
     else
       text.classList.remove("condensed")
@@ -1044,7 +1044,7 @@ const randomButton = {
     const button = renderButton(
       "randomButton",
       Language.emoji.random,
-      Language.gui.random[Language.Displayed],
+      Language.gui.random[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -1068,7 +1068,7 @@ const refreshButton = {
     const button = renderButton(
       "refreshButton",
       Language.emoji.refresh,
-      Language.gui.refresh[Language.Displayed],
+      Language.gui.refresh[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     button.addEventListener("contextmenu", this.altAction)
@@ -1088,7 +1088,7 @@ const searchButton = {
   },
   render: function(class_name="profile") {
     const searchButtontext = 
-      Language.gui.search[Language.Displayed].replace("...", "");   // No ellipses
+      Language.gui.search[Env.language].replace("...", "");   // No ellipses
     const button = renderButton(
       "searchButton",
       Language.emoji.search,
@@ -1128,7 +1128,7 @@ export const topButton = {
     const button = renderButton(
       "topButton",
       Language.emoji.top,
-      Language.gui.top[Language.Displayed],
+      Language.gui.top[Env.language],
       class_name)
     button.addEventListener("click", this.action)
     return button
@@ -1141,11 +1141,11 @@ const treeButton = {
     const button = renderButton(
       "treeButton",
       Language.emoji.wip,
-      Language.gui.family[Language.Displayed],
+      Language.gui.family[Env.language],
       class_name)
     // Japanese text is too wide
     const text = button.childNodes[0].childNodes[1]
-    if (Language.Displayed == "ja")
+    if (Env.language == "ja")
       text.classList.add("condensed")
     else
       text.classList.remove("condensed")
@@ -1209,7 +1209,7 @@ const optionsPage = {
         container.appendChild(input)
         const label = document.createElement('label')
         label.htmlFor = 'dead-pandas'
-        label.innerText = Language.gui['opt_hide_dead_pandas'][Language.Displayed]
+        label.innerText = Language.gui['opt_hide_dead_pandas'][Env.language]
         container.appendChild(label)
         return container
       }
@@ -1217,7 +1217,7 @@ const optionsPage = {
   },
   header: function() {
     const header = document.createElement('h3')
-    header.innerText = Language.gui['options'][Language.Displayed]
+    header.innerText = Language.gui['options'][Env.language]
     return header
   },
   render: function() {
@@ -1329,7 +1329,7 @@ export const linksMenus = {
         if (btn_name == subpage) {
           btn_class = `${btn_class} selected`
         }
-        const text = Language.gui[btn_id][Language.Displayed]
+        const text = Language.gui[btn_id][Env.language]
         const button = sectionButton.render(btn_class, btn_id, text)
         menu.appendChild(button)
       }
@@ -1389,9 +1389,9 @@ const linksOrder = {
       // the links are actually generic.
       let link_name = links[`${field_name}.name`]
       if (link_name == undefined)
-        link_name = links[`${field_name}.${Language.Displayed}.name`] 
+        link_name = links[`${field_name}.${Env.language}.name`] 
       if (link_name == undefined) {
-        const check_languages = language_order.filter(l => l != Language.Displayed)
+        const check_languages = language_order.filter(l => l != Env.language)
         for (let l of check_languages) {
           link_name = links[`${field_name}.${l}.name`]
           if (link_name != undefined)
@@ -1399,9 +1399,9 @@ const linksOrder = {
         }
       }
       const link = {
-        "first": links[`${field_name}.${Language.Displayed}.first`],
+        "first": links[`${field_name}.${Env.language}.first`],
         "href": links[field_name],
-        "last": links[`${field_name}.${Language.Displayed}.last`],
+        "last": links[`${field_name}.${Env.language}.last`],
         "order": language_order,
         "text": link_name
       }
@@ -1455,8 +1455,8 @@ const linksOrder = {
    * prioritize that.
    */
   sortLinkByCurrentLanguageAndOrder: function(a, b) {
-    const aHasLang = a.order.indexOf(Language.Displayed)
-    const bHasLang = b.order.indexOf(Language.Displayed)
+    const aHasLang = a.order.indexOf(Env.language)
+    const bHasLang = b.order.indexOf(Env.language)
     if (aHasLang == bHasLang) {
       // Either the zeroth index, or neither entry has the language
       return 0
@@ -1567,9 +1567,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     const h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["instagramLinks_header"][Language.Displayed]
+    h2.innerText = Language.gui["instagramLinks_header"][Env.language]
     const body = document.createElement('p')
-    body.innerText = Language.gui["instagramLinks_body"][Language.Displayed]
+    body.innerText = Language.gui["instagramLinks_body"][Env.language]
     const ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add("multiColumn")
@@ -1595,9 +1595,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     var h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["redPandaCommunity_header"][Language.Displayed]
+    h2.innerText = Language.gui["redPandaCommunity_header"][Env.language]
     var body = document.createElement('p')
-    body.innerText = Language.gui["redPandaCommunity_body"][Language.Displayed]
+    body.innerText = Language.gui["redPandaCommunity_body"][Env.language]
     var ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add(links.icon)
@@ -1622,9 +1622,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     const h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["specialThanksLinks_header"][Language.Displayed]
+    h2.innerText = Language.gui["specialThanksLinks_header"][Env.language]
     const body = document.createElement('p')
-    body.innerText = Language.gui["specialThanksLinks_body"][Language.Displayed]
+    body.innerText = Language.gui["specialThanksLinks_body"][Env.language]
     const ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add(links.icon)
@@ -1649,9 +1649,9 @@ export const linksSections = {
     sub_container.className = "pandaLinks"
     const h2 = document.createElement('h2')
     h2.className = "linksHeader"
-    h2.innerText = Language.gui["zooLinks_header"][Language.Displayed]
+    h2.innerText = Language.gui["zooLinks_header"][Env.language]
     const body = document.createElement('p')
-    body.innerText = Language.gui["zooLinks_body"][Language.Displayed]
+    body.innerText = Language.gui["zooLinks_body"][Env.language]
     const ul = document.createElement("ul")
     ul.classList.add("linkList")
     ul.classList.add(links.icon)
@@ -1817,8 +1817,8 @@ export const profilePage = {
     nicknames_container.className = "nicknameContainer"
     const nicknames_heading = document.createElement('h4')
     nicknames_heading.className = "nicknamesHeading"
-    nicknames_heading.classList.add(Language.Displayed)
-    nicknames_heading.innerText = Language.gui.nicknames[Language.Displayed]
+    nicknames_heading.classList.add(Env.language)
+    nicknames_heading.innerText = Language.gui.nicknames[Env.language]
     const dossierNicknames = nicknames(animal)
     if (dossierNicknames.childNodes.length > 0) {
       nicknames_container.appendChild(nicknames_heading)
@@ -1830,9 +1830,9 @@ export const profilePage = {
     othernames_container.className = "othernamesContainer"
     const othernames_heading = document.createElement('h4')
     othernames_heading.className = "othernamesHeading"
-    othernames_heading.classList.add(Language.Displayed)
-    othernames_heading.innerText = Language.gui.othernames[Language.Displayed]
-    const dossierOthernames = othernames(animal, Language.Displayed)
+    othernames_heading.classList.add(Env.language)
+    othernames_heading.innerText = Language.gui.othernames[Env.language]
+    const dossierOthernames = othernames(animal, Env.language)
     if (dossierOthernames.childNodes.length > 0) {
       othernames_container.appendChild(othernames_heading)
       othernames_container.appendChild(dossierOthernames)
@@ -2019,7 +2019,7 @@ export const profilePage = {
           Language.gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"])
       }
       if ((zoo["end_date"] != Pandas.def.unknown[language]) && 
-          (zoo["end_date"] == Pandas.date(animal, "death", Language.Displayed))) {
+          (zoo["end_date"] == Pandas.date(animal, "death", Env.language))) {
         zoo_icon = Language.emoji.died
       }
       if ((zoo["start_date"] != Pandas.def.unknown[language]) &&
@@ -2119,7 +2119,7 @@ export const mediaPage = {
       result.appendChild(photo)
     if (gallery.length < 1)
       result.appendChild(
-        emptyResult(Language.messages.no_group_media_result, Language.Displayed))
+        emptyResult(Language.messages.no_group_media_result, Env.language))
     return result
   },
   nameBar: profilePage.nameBar,
@@ -2188,7 +2188,7 @@ export const resultsPage = {
     const results = []
     if (gallery.length < 1) {
       results.push(
-        emptyResult(Language.messages.no_group_media_result, Language.Displayed))
+        emptyResult(Language.messages.no_group_media_result, Env.language))
     } else {
       results = gallery
     }
@@ -2569,7 +2569,7 @@ export const resultsPage = {
       const output_divs = []
       // TODO ES6: this scope here
       animals.forEach(animal =>
-        output_divs.push(this.panda(animal, Language.Displayed)))
+        output_divs.push(this.panda(animal, Env.language)))
       return output_divs
     }
     const id = zoo["_id"]
@@ -2771,8 +2771,8 @@ export const resultsPage = {
     const details = document.createElement('div')
     details.className = "zooDetails"
     if (info.closed != Pandas.def.zoo.closed) {
-      const date = Pandas.formatDate(info.closed, Language.Displayed)
-      const closed = Message.closed(date, Language.Displayed)
+      const date = Pandas.formatDate(info.closed, Env.language)
+      const closed = Message.closed(date, Env.language)
       details.appendChild(closed)
     }
     details.appendChild(address)
@@ -2815,7 +2815,7 @@ export const searchBar = {
   enable: function() {
     if (document.forms['searchForm'] != undefined) {
       document.forms['searchForm']['searchInput'].disabled = false
-      const placeholder = "➤ " + Language.gui.search[Language.Displayed]
+      const placeholder = "➤ " + Language.gui.search[Env.language]
       document.forms['searchForm']['searchInput'].placeholder = placeholder
       this.action()
     }
@@ -2847,7 +2847,7 @@ export const searchBar = {
     const text_input = document.createElement('input')
     text_input.id = "searchInput"
     text_input.className = "search"
-    text_input.placeholder = "➤ " + Language.gui.search[Language.Displayed]
+    text_input.placeholder = "➤ " + Language.gui.search[Env.language]
     text_input.type = "search"
     const form = document.createElement('form')
     form.id = "searchForm"

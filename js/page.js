@@ -83,14 +83,14 @@ class AboutPage {
    * buttons load different parts of the about page.
    */
   fetch() {
-    const fetch_url = `/fragments/${Language.Displayed}/about.html`
+    const fetch_url = `/fragments/${Env.language}/about.html`
     const request = new XMLHttpRequest()
     request.open('GET', fetch_url)
     request.responseType = 'document'
     request.send()
     request.onload = () => {
       this.content = request.response.getElementById('hiddenContentFrame')
-      this.language = Language.Displayed   // Language the content was loaded in
+      this.language = Env.language   // Language the content was loaded in
       window.dispatchEvent(this.loaded)   // Report the data has loaded
     }
   }
@@ -114,7 +114,7 @@ class AboutPage {
    * initialize its menus, or at the very least, scroll to the top of the page
    */
   hashchange() {
-    if ((this.language != Language.Displayed) && (this.language != undefined))
+    if ((this.language != Env.language) && (this.language != undefined))
       this.fetch()
     else {
       this.render()
@@ -157,7 +157,7 @@ class AboutPage {
     // No need for media paging on the about page
     Env.paging.display_button = false
     // Direct link / server refresh, or language change event
-    if (!this.language || this.language != Language.Displayed)
+    if (!this.language || this.language != Env.language)
       this.fetch()
     else {
       this.sections.menuDefaults()   // Initialize submenus if necessary
@@ -296,7 +296,7 @@ class FooterComponent {
     const footer_test = document.getElementById("footer")
     if (footer_test == null) {
       // No footer exists, and no bottom menu either. Add both
-      const footer = this.render(Language.Displayed, page_mode)
+      const footer = this.render(Env.language, page_mode)
       const bottomMenu = (page_mode == "profile")
         ? Show.profileMenus.bottom.render()
         : Show.resultsMenus.bottom.render()
@@ -304,7 +304,7 @@ class FooterComponent {
       body.appendChild(footer)
     } else {
       // Redraw the footer for language event changes
-      const footer = this.render(Language.Displayed, page_mode)
+      const footer = this.render(Env.language, page_mode)
       const bottomMenu = (page_mode == "profile")
         ? Show.profileMenus.bottom.render()
         : Show.resultsMenus.bottom.render()
@@ -405,24 +405,24 @@ class HomePage {
       new_content.className = "results birthdayPandas"
       new_content.id = "contentFrame"
       // Halloween
-      // const halloween = Gallery.pumpkin(Language.Displayed, 3)
+      // const halloween = Gallery.pumpkin(Env.language, 3)
       // new_content.appendChild(halloween);
       // Kin Gin special
       // const kingin = Gallery.memorialPhotoCreditsGroup(
-      //   Language.Displayed, "media.7.gin-kin", ["22", "17"], 3)
+      //   Env.language, "media.7.gin-kin", ["22", "17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
       const memorial_ids = []
       if (!Options.Data.hideDeadPandas) {
         var departed =
           Gallery.memorialPhotoCredits(
-            Language.Displayed, memorial_ids, 3, Message.memorial)
+            Env.language, memorial_ids, 3, Message.memorial)
         new_content.appendChild(departed)
       }
       // Please remember these pandas
       // const memorial = 
       //   Gallery.memorialPhotoCredits(
-      //     Language.Displayed, ["59"], 3, Message.missing_you)
+      //     Env.language, ["59"], 3, Message.missing_you)
       // new_content.appendChild(memorial)
       // Birthday logic
       const min_photo_count = 3
@@ -431,7 +431,7 @@ class HomePage {
         Pandas.searchBirthdayToday(true, min_photo_count).length
       if (birthday_count > 0) {
         const birthday = Gallery.birthdayPhotoCredits(
-          Language.Displayed, min_photo_count, max_birthday_animals)
+          Env.language, min_photo_count, max_birthday_animals)
         new_content.appendChild(birthday)
       }
       // Special galleries
@@ -439,9 +439,9 @@ class HomePage {
         const special_galleries = this.special_galleries()
         new_content.appendChild(special_galleries)
       }
-      const nearby = Message.findNearbyZoo(Language.Displayed)
+      const nearby = Message.findNearbyZoo(Env.language)
       new_content.appendChild(nearby)
-      const new_photos = Gallery.updatedNewPhotoCredits(Language.Displayed)
+      const new_photos = Gallery.updatedNewPhotoCredits(Env.language)
       new_content.appendChild(new_photos)
       old_content.replaceWith(new_content)
       shrinkNames()
@@ -480,20 +480,20 @@ class HomePage {
     const choice = Env.paging.seed
     if (choice % 7 == 0) {
       const laila = Gallery.memorialPhotoCredits(
-        Language.Displayed, ["60"], 3, Message.missing_you)
+        Env.language, ["60"], 3, Message.missing_you)
       return laila
     } else if (choice % 5 == 0) {
       const kokin = Gallery.memorialPhotoCredits(
-        Language.Displayed, ["23"], 3, Message.missing_you)
+        Env.language, ["23"], 3, Message.missing_you)
       return kokin
     } else if (choice % 3 == 0) {
       const hokuto = Gallery.memorialPhotoCredits(
-        Language.Displayed, ["58"], 3, Message.missing_you);
+        Env.language, ["58"], 3, Message.missing_you);
       return hokuto
     } else {
       // Group memorial for Kin and Gin, temporarily Hokuto
       const kingin = Gallery.memorialPhotoCreditsGroup(
-        Language.Displayed, "media.7.gin-kin", ["22", "17"], 3)
+        Env.language, "media.7.gin-kin", ["22", "17"], 3)
       return kingin
     }
   }
@@ -529,7 +529,7 @@ class HomePage {
     ]
     const choice = Env.paging.seed % special_galleries.length
     const special = Gallery.taglist(
-      Language.Displayed, 
+      Env.language, 
       special_galleries[choice].photo_count,
       special_galleries[choice].taglist,
       special_galleries[choice].message)
@@ -708,11 +708,11 @@ class ProfilePage {
     Env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
-    const profile_div = Show.profilePage.panda(results["hits"][0], Language.Displayed)
-    const where_divs = Show.profilePage.where(results["hits"][0], Language.Displayed)
-    const family_divs = Show.profilePage.family(results["hits"][0], Language.Displayed)
-    const children_divs = Show.profilePage.children(results["hits"][0], Language.Displayed)
-    const siblings_divs = Show.profilePage.siblings(results["hits"][0], Language.Displayed)
+    const profile_div = Show.profilePage.panda(results["hits"][0], Env.language)
+    const where_divs = Show.profilePage.where(results["hits"][0], Env.language)
+    const family_divs = Show.profilePage.family(results["hits"][0], Env.language)
+    const children_divs = Show.profilePage.children(results["hits"][0], Env.language)
+    const siblings_divs = Show.profilePage.siblings(results["hits"][0], Env.language)
     // Generate new content frames
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
@@ -761,17 +761,17 @@ class ResultsPage {
     if (results["hits"].length == 0) {
       // No results? On desktop, bring up a sad panda
       content_divs.push(
-        Show.emptyResult(Language.messages.no_result, Language.Displayed))
+        Show.emptyResult(Language.messages.no_result, Env.language))
     }
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
       if (entity["_id"] < 0) {
-        content_divs.push(Show.resultsPage.zoo(entity, Language.Displayed))
+        content_divs.push(Show.resultsPage.zoo(entity, Env.language))
         content_divs = content_divs.concat(
-          Show.resultsPage.zooAnimals(entity, Language.Displayed))
+          Show.resultsPage.zooAnimals(entity, Env.language))
         content_divs.push(Show.zooDivider("bear-bamboo"))
       } else
-        content_divs.push(Show.resultsPage.panda(entity, Language.Displayed))
+        content_divs.push(Show.resultsPage.panda(entity, Env.language))
     })
     // Remove the last element if it's a divider
     const last_element = content_divs[content_divs.length - 1]
@@ -792,7 +792,7 @@ class ResultsPage {
     if (results["hits"].length == 0) {
       // Push an error message
       content_divs.push(
-        Show.emptyResult(Language.messages.no_group_media_result, Language.Displayed))
+        Show.emptyResult(Language.messages.no_group_media_result, Env.language))
       return content_divs
     }
     // Then, start displaying a list of group photos paged out
@@ -805,7 +805,7 @@ class ResultsPage {
     const animal_results = []
     for (const id of animal_ids) {
       const entity = Pandas.searchPandaId(id)[0]
-      animal_results.push(Show.resultsPage.panda(entity, Language.Displayed))
+      animal_results.push(Show.resultsPage.panda(entity, Env.language))
     }
     // Let some photos appear first, unless we don't have very many photos
     let insert = 0
@@ -824,17 +824,17 @@ class ResultsPage {
     let content_divs = []
     if (results.parsed == "geolookup_in_progress") {
       // Stuck at the interstitial after a language transition
-      content_divs.push(Message.geolocationStart(Language.Displayed))
+      content_divs.push(Message.geolocationStart(Env.language))
       return content_divs
     }
     // Zoo results
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.resultsPage.zoo(entity, Language.Displayed))
+      content_divs.push(Show.resultsPage.zoo(entity, Env.language))
       animals = Pandas.sortOldestToYoungest(
         Pandas.searchPandaZooCurrent(entity["_id"]))
       animals.forEach(animal =>
-        content_divs.push(Show.resultsPage.panda(animal, Language.Displayed)))
+        content_divs.push(Show.resultsPage.panda(animal, Env.language)))
       content_divs.push(Show.zooDivider("bear-bamboo"))
     })
     // Remove the last element if it's a divider
@@ -853,13 +853,13 @@ class ResultsPage {
         (results["parsed"] == "set_tag_subject") ||
         (results["parsed"] == "set_baby_subject")) {
       // Basic tag views with emoji in the name field
-      content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, true)
+      content_divs = Gallery.tagPhotos(results, Env.language, max_hits, true)
     } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
       // Combo tag views, no emoji in the name field
-      content_divs = Gallery.tagPhotos(results, Language.Displayed, max_hits, false)
+      content_divs = Gallery.tagPhotos(results, Env.language, max_hits, false)
     } else if ((results["parsed"] == "set_credit_photos") || 
                (results["parsed"] == "set_credit_photos_filtered")) {
-      content_divs = Gallery.creditPhotos(results, Language.Displayed, max_hits)
+      content_divs = Gallery.creditPhotos(results, Env.language, max_hits)
     }
     // HACK: revert to results mode
     Query.clear()

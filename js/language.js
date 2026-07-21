@@ -3637,19 +3637,19 @@ export function defaultDisplayLanguage() {
   Pandas.def.languages.forEach(function(option) {
     if ((navigator.languages.includes(option)) &&
         (Env == undefined)) {
-      Displayed = option
+      Env.language = option
     }
   })
   // Read language setting if it's there
   const test = window.localStorage.getItem("language")
   if (test != null) {
     if (Pandas.def.languages.includes(test)) {
-      Displayed = test
+      Env.language = test
     }
   }  
   // Fallback to English
-  if (Displayed == undefined)
-    Displayed = "en"
+  if (Env.language == undefined)
+    Env.language = "en"
   // Adjust flags. For UK locales, make the English language flag
   // a union-jack. For mainland China locales, make Taiwan flag
   // look like a Chinese flag.
@@ -3662,7 +3662,7 @@ export function defaultDisplayLanguage() {
  */
 export function fallbackEntity(entity) {
   const output = entity
-  const order = currentOrder(Pandas.language_order(entity), Displayed)
+  const order = currentOrder(Pandas.language_order(entity), Env.language)
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Pandas.def.animal, order)
   const default_zoo = saveEntityKeys(Pandas.def.zoo, order)
@@ -3672,7 +3672,7 @@ export function fallbackEntity(entity) {
   // Derive the zoo/panda language-translatable keys by getting a list of
   // the separate language keys from the original object, and adding a
   // synthetic list of keys that would apply for the current display language
-  const language_entity = listDisplayKeys(entity, order, Displayed)
+  const language_entity = listDisplayKeys(entity, order, Env.language)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
   for (const key of language_entity) {
@@ -3681,7 +3681,7 @@ export function fallbackEntity(entity) {
       continue  // Ignore blacklist fields
     if (empty_values.includes(entity[key])) {
       for (language of order) {
-        if (language == Displayed)
+        if (language == Env.language)
           continue  // Don't take replacement values from current language
         const [ _, desired ] = key.split('.')
         var new_key = `${language}.${desired}`
@@ -3741,7 +3741,7 @@ function fallbackFlags() {
  */
 export function fallbackInfo(info, original) {
   var bundle = info
-  var order = currentOrder(info.language_order, Displayed)
+  var order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
   var default_animal = saveEntityKeys(Pandas.def.animal, order)
   var default_zoo = saveEntityKeys(Pandas.def.zoo, order)
@@ -3759,7 +3759,7 @@ export function fallbackInfo(info, original) {
       continue  // Ignore blacklist fields
     if (empty_values.includes(info[key])) {
       for (const language of order) {
-        if (language == Displayed)
+        if (language == Env.language)
           continue  // Don't take replacement values from current language
         const new_key = `${language}.${key}`
         if (!empty_values.includes(original[new_key])) {
@@ -3850,8 +3850,8 @@ export function commaPhrase(pieces) {
   const p = document.createElement('p')
   for (let i = 0; i < pieces.length; i++) {
     const m = document.createTextNode(pieces[i])
-    const c = document.createTextNode(messages.comma[Displayed])
-    const a = document.createTextNode(messages.and_words[Displayed])
+    const c = document.createTextNode(messages.comma[Env.language])
+    const a = document.createTextNode(messages.and_words[Env.language])
     p.appendChild(m)
     // Commas
     if ((i < pieces.length - 3) && (pieces.length > 3)) {
@@ -3875,8 +3875,8 @@ export function commaPhraseBare(pieces) {
   let o = ""
   for (let i = 0; i < pieces.length; i++) {
     const m = pieces[i]
-    const c = messages.comma[Displayed] + " "
-    const a = messages.and_words[Displayed]
+    const c = messages.comma[Env.language] + " "
+    const a = messages.and_words[Env.language]
     o = o.concat(m)
     // Commas
     if ((i < pieces.length - 2) && (pieces.length > 2)) {
@@ -3956,8 +3956,8 @@ export function editDistance(a, b) {
  */
 export function fallback_name(entity) {
   const entity_order = entity["language.order"].split(", ")
-  const order = currentOrder(entity_order, Displayed)
-  order.unshift(Displayed)   // Display language always comes first
+  const order = currentOrder(entity_order, Env.language)
+  order.unshift(Env.language)   // Display language always comes first
   for (let language of order) {
     const name = entity[language + ".name"]
     if (name != undefined) {
@@ -3965,8 +3965,7 @@ export function fallback_name(entity) {
     }
   }
   // Fallback default name
-  // TODO ES6
-  return Pandas.def.animal[Displayed + ".name"]
+  return Pandas.def.animal[`${Env.language}.name`]
 }
 
 /**
@@ -4117,7 +4116,7 @@ export function testString(input, test_name) {
 /** Take specific english words and unpluralize them if necessary */
 export function unpluralize(pieces) {
   const output = []
-  if (Displayed == "en") {
+  if (Env.language == "en") {
     for (let input of pieces) {
       input = input.replace(/\b1 photos/, "one photo")
                    .replace(/\b1 new photos/, "one new photo")
@@ -4143,7 +4142,7 @@ export function unpluralize(pieces) {
       output.push(input)
     }
     return output
-  } else if (Displayed == "es") {
+  } else if (Env.language == "es") {
     for (let input of pieces) {
       input = input.replace(/\b1 fotos/, "una foto")
                    .replace(/\b1 niños/, "un niño")
@@ -4173,7 +4172,7 @@ export function unpluralize(pieces) {
       output.push(input)
     }
     return output
-  } else if (Displayed == "ko") {
+  } else if (Env.language == "ko") {
     for (let input of pieces) {
       input = input.replace(/(\d+) 사진들/, "$1 사진")
                    .replace(/(\d+) 동물들/, "$1 동물")
@@ -4183,7 +4182,7 @@ export function unpluralize(pieces) {
       output.push(input)
     }
     return output
-  } else if (Displayed == "pt") {
+  } else if (Env.language == "pt") {
     for (let input of pieces) {
       input = input.replace(/\b1 fotos/, "uma foto")
                    .replace(/\b1 novas fotos/, "uma nova foto")
@@ -4230,10 +4229,10 @@ export function update() {
     const lookup = id.replace("Button", "")
     const [icon, text] = element.childNodes[0].childNodes
     if (id == "languageButton") {
-      icon.innerText = gui.flag[Displayed]   // Replace flag icon
-      text.innerText = gui[lookup][Displayed][Displayed]   // Replace language icon text
+      icon.innerText = gui.flag[Env.language]   // Replace flag icon
+      text.innerText = gui[lookup][Env.language][Env.language]   // Replace language icon text
     } else {
-      text.innerText = gui[lookup][Displayed]   // Replace icon text
+      text.innerText = gui[lookup][Env.language]   // Replace icon text
     }
   }
   // On the Links page? Redraw it
@@ -4243,15 +4242,15 @@ export function update() {
   if (document.forms['searchForm'] != undefined) {
     if (P.db == undefined) {
       document.forms['searchForm']['searchInput'].placeholder =
-        gui.loading[Displayed]
+        gui.loading[Env.language]
     } else {
       document.forms['searchForm']['searchInput'].placeholder =
-        "➤ " + gui.search[Displayed]
+        "➤ " + gui.search[Env.language]
     }
   }
   // Change the page title
-  document.title = gui.title[Displayed]
+  document.title = gui.title[Env.language]
   // Write localStorage for your chosen language. This is better than a cookie
   // since the server doesn't see what language you're using in each request.
-  window.localStorage.setItem('language', Displayed)
+  window.localStorage.setItem('language', Env.language)
 }

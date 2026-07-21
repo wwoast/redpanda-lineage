@@ -821,7 +821,7 @@ export function searchBabies(year) {
  * other functions which are for showing birthday pandas on the front page.
  */
 export function searchBirthdayList(input_date) {
-  const input_ymd = parseDate(input_date, Language.Displayed)
+  const input_ymd = parseDate(input_date, Env.language)
   // Make sure we're using a 4-digit year, assume > 2000
   if (input_ymd["year"] < 2000) {
     input_ymd["year"] = input_ymd["year"] + 2000
@@ -998,7 +998,7 @@ export function searchDead(year) {
 }
 
 export function searchDiedList(input_date) {
-  let died_date_ymd = parseDate(input_date, Language.Displayed)
+  let died_date_ymd = parseDate(input_date, Env.language)
   // Make sure we're using a 4-digit year, assume > 2000
   if (died_date_ymd["year"] < 2000)
     died_date_ymd["year"] = died_date_ymd["year"] + 2000
@@ -1291,10 +1291,10 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
       const empty_bundle = {
         "id": animal["_id"],
         "photo": def.animal["photo.1"],
-        "photo.author": def.unknown[Language.Displayed],
+        "photo.author": def.unknown[Env.language],
         "photo.index": def.animal["_id"],
-        "photo.link": def.unknown[Language.Displayed],
-        "photo.tags": def.unknown[Language.Displayed]
+        "photo.link": def.unknown[Env.language],
+        "photo.tags": def.unknown[Env.language]
       }
       output.push(empty_bundle)
     }
@@ -1784,7 +1784,7 @@ function sortByNameJapanese(nodes) {
   const name_field = "ja.name"
   const othername_field = "ja.othernames"
   const sort_name = "ja.sortname"
-  const connector = Language.messages["and"][Language.Displayed]
+  const connector = Language.messages["and"][Env.language]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
@@ -1846,7 +1846,7 @@ function sortByNameWithGroups(nodes, photo_list, name_field) {
     }
     return node
   })
-  if (Language.Displayed == "ja") {
+  if (Env.language == "ja") {
     return sortByNameJapanese(nodes)
   } else {
     return sortByName(nodes, name_field)
@@ -2054,7 +2054,7 @@ export function gender(animal, language) {
 export function groupMediaCaption(entity, photo_index) {
   const tag_index = `${photo_index}.tags`
   const pandaTags = entity["panda.tags"].split(", ")
-  const  output_string = def.animal[`${Language.Displayed}.name`]
+  const  output_string = def.animal[`${Env.language}.name`]
   const animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
@@ -2073,15 +2073,15 @@ export function groupMediaCaption(entity, photo_index) {
   animals = animals.sort((a, b) => a['x'] > b['x'] ? 1: -1)
   // Read off their names into the output string and return
   if (animals.length > 0) {
-    const connector = Language.messages["and"][Language.Displayed]
+    const connector = Language.messages["and"][Env.language]
     // HACK: Assume latin languages do comma-replacement the same way
     if ((animals.length > 2) && 
-        (Language.alphabets.latin.includes(Language.Displayed))) {
-      connector = Language.messages["comma"][Language.Displayed]
+        (Language.alphabets.latin.includes(Env.language))) {
+      connector = Language.messages["comma"][Env.language]
       output_string = animals.map(x => x.name).join(connector)
       const last_animal = animals[animals.length-1]
       const match = new RegExp(connector + last_animal.name + "$")
-      const replace = Language.messages["and"][Language.Displayed] + last_animal.name
+      const replace = Language.messages["and"][Env.language] + last_animal.name
       output_string = output_string.replace(match, replace)
     } else {  
       output_string = animals.map(x => x.name).join(connector)
@@ -2090,7 +2090,7 @@ export function groupMediaCaption(entity, photo_index) {
   // Replace "baby, baby, baby" with group term
   if ((values(Language.polyglots["baby"]).includes(animals[0].name)) &&
       (unique(animals, "name").length == 1)) {
-    output_string = Language.gui["babies"][Language.Displayed]
+    output_string = Language.gui["babies"][Env.language]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"
   return output_string
@@ -2116,13 +2116,13 @@ export function halfSiblings(animal, sibling) {
   // determine whether someone is a half-sibling or not.
   let sibling_year = -1
   if (sibling["birthday"] != def.animal["birthday"])
-    sibling_year = parseInt(formatYear(sibling["birthday"], Language.Displayed))
+    sibling_year = parseInt(formatYear(sibling["birthday"], Env.language))
   let mymom_year = -2
   if (animal_mom != undefined)
-    mymom_year = parseInt(formatYear(animal_mom["birthday"], Language.Displayed))
+    mymom_year = parseInt(formatYear(animal_mom["birthday"], Env.language))
   let mydad_year = -2
   if (animal_dad != undefined)
-    mydad_year = parseInt(formatYear(animal_dad["birthday"], Language.Displayed))
+    mydad_year = parseInt(formatYear(animal_dad["birthday"], Env.language))
   // Conditions where you can defer half-sibling relationships based on whether
   // your siblings are older than either your mom or dad
   if (((animal_mom == undefined) || (animal_dad == undefined) || 
@@ -2237,8 +2237,8 @@ function locationWild(animal) {
   }
   const locations = [{
     "zoo": myWild(animal, "wild"),
-    "start_date": def.date[Language.Displayed],
-    "end_date": def.date[Language.Displayed]
+    "start_date": def.date[Env.language],
+    "end_date": def.date[Env.language]
   }]
   return locations
 }

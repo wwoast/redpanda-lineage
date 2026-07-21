@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Language from './language.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
@@ -900,7 +901,7 @@ function pandaPhotoCreditSingle(item) {
     caption_link.href = `#group/${panda_route}`
   } else {
     const animal = Pandas.searchPandaId(id)[0]
-    const info = Show.acquirePandaInfo(animal, Language.Displayed)
+    const info = Show.acquirePandaInfo(animal, Env.language)
     caption.innerText = info.name
   }
   caption_link.appendChild(caption)
@@ -980,31 +981,31 @@ function tagPhotoMessage(results, hit_count) {
   let header = undefined
   if (hit_count == 0) {
     header =
-      Show.emptyResult(Language.messages.no_subject_tag_result, Language.Displayed)
+      Show.emptyResult(Language.messages.no_subject_tag_result, Env.language)
   } else if ((results["parsed"] == "set_tag") ||
              (results["parsed"] == "set_tag_subject")) {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
                                  Language.tags[ctag]["emoji"], 
-                                 ctag, Language.Displayed)
+                                 ctag, Env.language)
   } else if (results["parsed"] == "set_baby_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const ctag = Language.tagPrimary(tag);
     header = Message.tag_subject(hit_count, results["subject"],
                                  Language.polyglots[ctag]["emoji"], 
-                                 ctag, Language.Displayed)
+                                 ctag, Env.language)
   } else if (results["parsed"] == "set_tag_intersection") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"];
     const emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"])
-    header = Message.tag_combo(hit_count, emojis, Language.Displayed)
+    header = Message.tag_combo(hit_count, emojis, Env.language)
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const emojis = tag.split(", ").map(tag => Language.tags[tag]["emoji"])
-    header = Message.tag_combo(hit_count, emojis, Language.Displayed)
+    header = Message.tag_combo(hit_count, emojis, Env.language)
   } else {
     header =
-      Show.emptyResult(Language.messages.no_subject_tag_result, Language.Displayed)
+      Show.emptyResult(Language.messages.no_subject_tag_result, Env.language)
   }
   return header
 }
@@ -1095,7 +1096,7 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
       caption_link.href = `#group/${panda_route}`
   
     } else {
-      const info = Show.acquirePandaInfo(animal, Language.Displayed)
+      const info = Show.acquirePandaInfo(animal, Env.language)
       updateName = info.name
     }
     if ("name_icon" in item)
@@ -1318,7 +1319,7 @@ function zooPhotoCreditSingle(item) {
   const img_link = document.createElement('a')
   const id = item.id
   const entity = Pandas.searchZooId(id)[0]
-  const info = Show.acquireZooInfo(entity, Language.Displayed)
+  const info = Show.acquireZooInfo(entity, Env.language)
   // Link to the original instagram media
   img_link.href = url.href(photo)
   img_link.target = "_blank"   // Open in new tab
@@ -1369,7 +1370,7 @@ export function pumpkin(language, photo_count=5) {
       const panda_route = animal["panda.tags"].split(", ").join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(animal, Language.Displayed)
+      const info = Show.acquirePandaInfo(animal, Env.language)
       updateName = info.name
     }
     name_caption_span.innerText = updateName
@@ -1430,7 +1431,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
       const panda_route = animal["panda.tags"].split(", ").join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(animal, Language.Displayed)
+      const info = Show.acquirePandaInfo(animal, Env.language)
       updateName = info.name
     }
     name_caption_span.innerText = updateName

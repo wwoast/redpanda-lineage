@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Language from './language.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
@@ -145,7 +146,7 @@ function renderGeoLookupStart() {
   newContent.id = "contentFrame"
   const shrinker = document.createElement('div')
   shrinker.className = "shrinker"
-  const message = Message.geolocationStart(Language.Displayed)
+  const message = Message.geolocationStart(Env.language)
   shrinker.appendChild(message)
   newContent.appendChild(shrinker)
   // Redraw the search bar if necessary
