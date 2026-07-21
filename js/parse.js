@@ -716,7 +716,7 @@ class Tree {
     if (this.grammar == undefined)
       this.build_grammar()
     const result = this.grammar.parse(parse_input)
-    const start = result.tree
+    let start = result.tree
     if (result.tree.hasOwnProperty("children"))
       start = result.tree.children[0]
     const tree = this.node_props(
