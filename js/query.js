@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Geo from './geolocate.js'
 import * as Language from './language.js'
 import * as Pandas from './pandas.js'
@@ -12,9 +13,9 @@ import * as Parse from './parse.js'
 // browser history work?
 /** Reset query environment to defaults, typically after a search is run */
 export function clear() {
-  env.preserve_case = false
-  env.output_mode = "entities"
-  env.specific_photo = undefined
+  Env.preserve_case = false
+  Env.output_mode = "entities"
+  Env.specific_photo = undefined
 }
 
 /** Resolve the query string into something */
@@ -75,8 +76,8 @@ function filter_set(set_node) {
     const filter_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_filter)[0]
     search_word = author_node.str
     filter_word = filter_node.str
-    env.output_mode = "photos"
-    env.paging.display_button = true
+    Env.output_mode = "photos"
+    Env.paging.display_button = true
     const filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n["_id"])
     if (filter_ids.length == 0) {
       // Fall back to normal credit photo search
@@ -107,8 +108,8 @@ function group_one_set(set_node) {
   if (set_node.type == "set_tag_intersection_subject") {
     const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0]
     search_word = subject_node.str
-    env.output_mode = "photos"
-    env.paging.display_button = true
+    Env.output_mode = "photos"
+    Env.paging.display_button = true
     const tags = keyword_nodes
       .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
     tag = tags.join(", ")   // For query output
@@ -118,8 +119,8 @@ function group_one_set(set_node) {
     )
   }
   if (set_node.type == "set_tag_intersection") {
-    env.output_mode = "photos"
-    env.paging.display_button = true
+    Env.output_mode = "photos"
+    Env.paging.display_button = true
     tags = keyword_nodes
       .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
     tag = tags.join(", ")   // For query output
@@ -131,11 +132,11 @@ function group_one_set(set_node) {
     )
   }
   if (set_node.type == "set_only_subjects") {
-    env.output_mode = "group"
+    Env.output_mode = "group"
     const ids = set_node.str.split("\n")
     hits = Pandas.searchPandaMediaIntersect(ids)
     if (hits.length > 0) {
-      env.paging.display_button = true
+      Env.paging.display_button = true
     }
   }
   return {
@@ -194,8 +195,8 @@ function pair(set_node) {
     hits = Pandas.searchZooId(search_word)
   }
   if (set_node.type == "set_credit_photos") {
-    env.output_mode = "photos"
-    env.paging.display_button = true
+    Env.output_mode = "photos"
+    Env.paging.display_button = true
     hits = Pandas.searchPhotoCredit(search_word)
   }
   if (set_node.type == "set_babies_year_list") {
@@ -203,15 +204,15 @@ function pair(set_node) {
   }
   if ((set_node.type == "set_tag_subject") ||
       (set_node.type == "set_baby_subject")) {
-    env.output_mode = "photos"
-    env.paging.display_button = true
+    Env.output_mode = "photos"
+    Env.paging.display_button = true
     tag = Parse.searchTag(keyword_node.str)
     const animals = Pandas.searchPandaMedia(search_word)
     hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none")
   }
   if (set_node.type == "set_tag_intersection") {
-    env.output_mode = "photos"
-    env.paging.display_button = true
+    Env.output_mode = "photos"
+    Env.paging.display_button = true
     tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
       .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
     tag = tags.join(", ")   // For query output
@@ -223,11 +224,11 @@ function pair(set_node) {
     )
   }
   if (set_node.type == "set_only_subjects") {
-    env.output_mode = "group"
+    Env.output_mode = "group"
     const ids = set_node.str.split("\n")
     hits = Pandas.searchPandaMediaIntersect(ids)
     if (hits.length > 0) {
-      env.paging.display_button = true
+      Env.paging.display_button = true
     }
   }
   return {
@@ -266,7 +267,7 @@ function single(set_node, singular_node) {
       hits = Pandas.searchBabies()
     }
     if (Parse.group.nearby.includes(search_word)) {
-      env.output_mode = "nearby"
+      Env.output_mode = "nearby"
       if (Geo.state.resolved == false) {
         Geo.getNaiveLocation()
       }
@@ -279,8 +280,8 @@ function single(set_node, singular_node) {
   }
   if (set_node.type == "set_tag") {
     if (Parse.group.tags.includes(search_word)) {
-      env.output_mode = "photos"
-      env.paging.display_button = true
+      Env.output_mode = "photos"
+      Env.paging.display_button = true
       // Find the canonical tag to do the searching by
       const tag = Parse.searchTag(search_word)
       // TODO: search media photos for all the animals by id, and include

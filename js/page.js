@@ -129,7 +129,7 @@ class AboutPage {
       mediaQuery.addListener(this.instructions)
       // Add a tag list
       this.tags();
-      env.current = this.render
+      Env.current = this.render
     }
     window.scrollTo(0, 0)  // Go to the top of the page
   }
@@ -179,18 +179,16 @@ class AboutPage {
    * return to the last page shown before the about page
    */
   routing() {
-    if (env.current == this.render) {
+    if (Env.current == this.render) {
       // Check the last query done and return to it, if it was a query
-      if (routes.fixed.includes(env.lastSearch) == false) {
-        window.location = env.lastSearch
-      } else {
+      if (routes.fixed.includes(Env.lastSearch) == false)
+        window.location = Env.lastSearch
+      else
         window.location = "#home"
-      }
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
-      if (routes.fixed.includes(window.location.hash) == false) {
-        env.lastSearch = window.location.hash;
-      }
+      if (routes.fixed.includes(window.location.hash) == false)
+        Env.lastSearch = window.location.hash
       window.location = "#about"
     }
   }
@@ -554,7 +552,7 @@ class LinksPage {
    */
   hashchange() {
     this.render()
-    env.current = this.render
+    Env.current = this.render
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
