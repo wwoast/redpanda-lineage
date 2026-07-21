@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Language.defaultDisplayLanguage()   // Set default display language
   Page.routes.check()   // See if we started on the about page
   Language.update()     // Update buttons, displayed results, and cookie state
-  Page.redraw(Page.Current)   // Ready to redraw? Let's go.
+  Page.redraw(Page.env.current)   // Ready to redraw? Let's go.
   // Most RPF pages won't save your place on the page on purpose,
   // because refresh events don't put you at the top of page properly
   // work properly when this is enabled. However, leave it on for the
@@ -98,7 +98,7 @@ window.addEventListener('hashchange', function() {
   const mode = window.location.hash.split("/")[0]
   if (window.location.hash.length == 0 || mode == "#home") {
     Page.home.render()
-    Page.Current = Page.home.render
+    Page.env.current = Page.home.render
   } else if (mode == "#about") {
     Page.about.hashchange()
   } else if (mode == "#links") {
@@ -107,13 +107,13 @@ window.addEventListener('hashchange', function() {
     Page.options.hashchange()
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render()
-    Page.Current = Page.results.render
+    Page.env.current = Page.results.render
   } else if (Page.routes.profile.includes(mode)) {
     Page.profile.render()
-    Page.Current = Page.profile.render
+    Page.env.current = Page.profile.render
   } else if (Page.routes.media.includes(mode)) {
     Page.media.render()
-    Page.Current = Page.media.render
+    Page.env.current = Page.media.render
   }
   window.localStorage.setItem("last_seen", window.location.hash)
 
@@ -139,6 +139,6 @@ window.addEventListener('about_loaded', function() {
     mediaQuery.addListener(Page.about.instructions)
     // Add a tag list
     Page.about.tags()
-    Page.Current = Page.about.render
+    Page.env.current = Page.about.render
   }
 })

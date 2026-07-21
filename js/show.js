@@ -734,7 +734,7 @@ const flagButton = {
       // Redraw the nearby page if necessary
       if (Query.env.output_mode == "nearby")
         Geo.getNaiveLocation()
-      Page.redraw(Page.Current)
+      Page.redraw(Page.env.current)
     }
     // If language menu is open, hide it
     languageButton.hide()
@@ -764,12 +764,12 @@ const flagButton = {
  */
 const homeButton = {
   action: function() {
-    Page.LastSearch = "#home"
+    Page.env.lastSearch = "#home"
     Page.home.render()
     window.location = "#home"
     // If language menu is open, hide it
     languageButton.hide()
-    Page.Current = Page.home.render
+    Page.env.current = Page.home.render
     // If bottom search bar is showing, remove it
     searchBar.remove("bottomSearch")
     window.scrollTo(0, 0)   // Go to the top of the page
@@ -817,7 +817,7 @@ const languageButton = {
     // Redraw the nearby page if necessary
     if (Query.env.output_mode == "nearby")
       Geo.getNaiveLocation()
-    Page.redraw(Page.Current)
+    Page.redraw(Page.env.current)
     // If language menu is open, hide it
     languageButton.hide()
   },
@@ -865,11 +865,11 @@ const mediaButton = {
     window.location = `#media/${panda_id}`
     // If language menu is open, hide it
     languageButton.hide()
-    Page.Current = Page.media.render
+    Page.env.current = Page.media.render
   },
   altAction: function(e) {
     e.preventDefault()   // Prevent normal right-click menu from firing
-    Page.Current = Page.media.render
+    Page.env.current = Page.media.render
     const pandaIds = 
       P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                    .filter(entity => entity["photo.1"] != undefined)
@@ -971,11 +971,11 @@ const profileButton = {
     Page.profile.render()
     window.location = `#profile/${panda_id}`
     languageButton.hide()   // If language menu is open, hide it
-    Page.Current = Page.profile.render
+    Page.env.current = Page.profile.render
   },
   altAction: function(e) {
     e.preventDefault()   // Prevent normal right-click menu from firing
-    Page.Current = Page.profile.render
+    Page.env.current = Page.profile.render
     var pandaIds =
       P.db.vertices.filter(entity => entity._id > 0)
                    .filter(entity => entity["photo.1"] != undefined)
@@ -1007,7 +1007,7 @@ const profileButton = {
 /** The _random_ dice button, for viewing random panda search results! */
 const randomButton = {
   action: function() {
-    Page.Current = Page.results.render
+    Page.env.current = Page.results.render
     const zooIds =
       P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                    .filter(entity => entity._id < 0)
@@ -2868,7 +2868,7 @@ export const searchBar = {
   },
   /** JS actions for submiting a search */
   submit: function() {
-    Page.Current = Page.results.render
+    Page.env.current = Page.results.render
     // Make iOS keyboard disappear after submitting.
     document.getElementById('searchInput').blur()
     const query = (document.getElementById('searchInput').value).replace(/\s+$/, '')

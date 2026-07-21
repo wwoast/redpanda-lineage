@@ -128,7 +128,7 @@ class AboutPage {
       mediaQuery.addListener(this.instructions)
       // Add a tag list
       this.tags();
-      Current = this.render
+      env.current = this.render
     }
     window.scrollTo(0, 0)  // Go to the top of the page
   }
@@ -178,17 +178,17 @@ class AboutPage {
    * return to the last page shown before the about page
    */
   routing() {
-    if (Current == this.render) {
+    if (env.current == this.render) {
       // Check the last query done and return to it, if it was a query
-      if (routes.fixed.includes(LastSearch) == false) {
-        window.location = LastSearch
+      if (routes.fixed.includes(env.lastSearch) == false) {
+        window.location = env.lastSearch
       } else {
         window.location = "#home"
       }
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (routes.fixed.includes(window.location.hash) == false) {
-        LastSearch = window.location.hash;
+        env.lastSearch = window.location.hash;
       }
       window.location = "#about"
     }
@@ -553,7 +553,7 @@ class LinksPage {
    */
   hashchange() {
     this.render()
-    Current = this.render
+    env.current = this.render
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
@@ -576,16 +576,16 @@ class LinksPage {
 
   /** Handle when someone clicks the links button */
   routing() {
-    if (Current == this.render) {
+    if (env.current == this.render) {
       // Check the last query done and return to it, if it was a query
-      if (routes.fixed.includes(LastSearch) == false)
-        window.location = LastSearch
+      if (routes.fixed.includes(env.lastSearch) == false)
+        window.location = env.lastSearch
       else
         window.location = "#home"
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (!routes.fixed.includes(window.location.hash)) {
-        LastSearch = window.location.hash
+        env.lastSearch = window.location.hash
       }
       window.location = "#links"
     }
@@ -672,7 +672,7 @@ class OptionsPage {
   /** Call this in a `hashchange` handler to make the Options page appear */
   hashchange() {
     this.render()
-    Current = this.render
+    env.current = this.render
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
@@ -1035,19 +1035,19 @@ class Routes {
     // TODO ES6: refer to methods on singleton classes
     const mode = window.location.hash.split('/')[0]
     if (this.profile.includes(mode))
-      Current = profile.render
+      env.current = profile.render
     else if (this.media.includes(mode))
-      Current = media.render
+      env.current = media.render
     else if (window.location.hash == "#about")
-      Current = about.render
+      env.current = about.render
     else if (window.location.hash == "#links")
-      Current = links.render
+      env.current = links.render
     else if (window.location.hash == "#options")
-      Current = options.render
+      env.current = options.render
     else if (this.dynamic.includes(mode))
-      Current = results.render
+      env.current = results.render
     else
-      Current = home.render
+      env.current = home.render
   }
 
   /**
@@ -1068,13 +1068,19 @@ class Routes {
 export const routes = new Routes()
 
 /** 
- * When un-clicking Links/About, go back to the last page viewed, or possibly
- * the last panda you searched for.
+ * Since primitive values are read-only across import boundaries, these
+ * mutable items are considered "page environment" for all the page objects.
+ * Defined at the bottom so we can use any of the singleton classes above us.
  */
-export var LastSearch = "#home"
-
-/** 
- * Stores callback to the current page render function for redraws.
- * Default mode is to show panda results.
- */
-export var Current = results.render
+export var env = {
+  /** 
+   * When un-clicking Links/About, go back to the last page viewed, or possibly
+   * the last panda you searched for.
+   */  
+  lastSearch: "#home",
+  /** 
+   * Stores callback to the current page render function for redraws.
+   * Default mode is to show panda results.
+   */
+  current: results.render
+}
