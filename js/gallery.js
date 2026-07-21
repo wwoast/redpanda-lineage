@@ -90,8 +90,8 @@ export class Carousel {
       this.image.className = `${id}/photo`
       url.process(this.image, photoUrl)
     } else {
-      image.id = `${this.unique}_${id}/photo/${index}`   // For carousel
-      image.className = `${this.unique}_${id}/photo`
+      this.image.id = `${this.unique}_${id}/photo/${index}`   // For carousel
+      this.image.className = `${this.unique}_${id}/photo`
       url.process(image, photoUrl)
     }
     image.onerror = `this.src='${this.fallback_url}'`
