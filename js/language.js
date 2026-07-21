@@ -1,5 +1,5 @@
 import Env from './environment.js'
-import { Defaults, Flags, Gui, Polyglots, Tags } from './lookup.js'
+import { Defaults, Emoji, Flags, Gui, Polyglots, Tags } from './lookup.js'
 import { Text } from './message.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'

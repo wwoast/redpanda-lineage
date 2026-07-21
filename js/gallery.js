@@ -1,6 +1,6 @@
 import Env from './environment.js'
 import * as Language from './language.js'
-import { Defaults, Polyglots, Tags } from './lookup.js'
+import { Defaults, Emoji, Polyglots, Tags } from './lookup.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
