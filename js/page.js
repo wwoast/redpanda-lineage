@@ -200,7 +200,7 @@ class AboutPage {
    */
   sectionButtonEventHandlers() {
     const buttons = Array.from(document.querySelectorAll(".sectionButton"))
-    buttons.forEach(button => button.addEventListener('click', function() {
+    buttons.forEach(button => button.addEventListener('click', () => {
       const show_section_id = this.id.split("_")[0]
       this.sectionShow(show_section_id)
       // TODO: set new uri representing sub-page
