@@ -73,7 +73,7 @@ function findClosest(maxDistance, maxResults) {
                         parseFloat(z.latitude), parseFloat(z.longitude))
     if (d < maxDistance) {
       // For printing, use units and convert to a fixed-point number
-      z["distance"] = d.toFixed(1).toString() + this.units;
+      z["distance"] = d.toFixed(1).toString() + this.units
       zoos[d] = z
     }
   }
@@ -96,29 +96,28 @@ function findClosest(maxDistance, maxResults) {
 export function getNaiveLocation() {
   renderGeoLookupStart()
   navigator.geolocation.getCurrentPosition(position => {
-    state.latitude = position.coords.latitude;
-    state.longitude = position.coords.longitude;
-    state.resolved = true;
-    window.dispatchEvent(geoEvents.resolvedLocation);
-  });
+    state.latitude = position.coords.latitude
+    state.longitude = position.coords.longitude
+    state.resolved = true
+    window.dispatchEvent(geoEvents.resolvedLocation)
+  })
 }
 
-// Set API options to use more precision if desired or useful
+/** Set API options to use more precision if desired or useful */
 function getPreciseLocation() {
   const options = {
     enableHighAccuracy: true,
     timeout: 5000,
     maximumAge: 0
   }
-  const error_noop = function() {};
+  const error_noop = function() {}
   navigator.geolocation.getCurrentPosition(position => {
-    state.latitude = position.coords.latitude;
-    state.longitude = position.coords.longitude;
-    state.resolved = true;
-    window.dispatchEvent(geoEvents.resolvedLocation);
-  }, error_noop, options);
+    state.latitude = position.coords.latitude
+    state.longitude = position.coords.longitude
+    state.resolved = true
+    window.dispatchEvent(geoEvents.resolvedLocation)
+  }, error_noop, options)
 }
-
 
 /*
  * Figure out the distance between current location and a zoo. Given the
@@ -162,11 +161,11 @@ function renderGeoLookupStart() {
 
 function setUnits() {
   if (navigator.language == "en-US") {
-    state.earth = 3961;
-    state.units = "mi";
+    state.earth = 3961
+    state.units = "mi"
   } else {
-    state.earth = 6373;
-    state.units = "km";
+    state.earth = 6373
+    state.units = "km"
   }
 }
 
@@ -179,16 +178,16 @@ function toRadians(degrees) {
  * completed a geo-lookup yet or not
  */
 function toggleAccuracy() {
-  state.accuracy = !(state.accuracy);
+  state.accuracy = !(state.accuracy)
   if (state.accuracy == true) {
     // Fine-grained control with GPS
-    state.resolved = false;
-    getPreciseLocation();
+    state.resolved = false
+    getPreciseLocation()
   } else {
     // Do a follow-up naive lookup. Our location may have changed,
     // so this isn't a waste of time if a toggle is performed.
-    state.resolved = false;
-    getNaiveLocation();
+    state.resolved = false
+    getNaiveLocation()
   }
 }
 
@@ -196,12 +195,11 @@ window.addEventListener('found_zoos', function() {
   // TODO ES6
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
-  Page.results.render();
-  Env.current = Page.results.render;
-  if (state.results.hits.length >= state.close_results) {
-    // Search fine-tuned results with GPS if there's a lot of nearby zoos
+  Page.results.render()
+  Env.current = Page.results.render
+  // Search fine-tuned results with GPS if there's a lot of nearby zoos
+  if (state.results.hits.length >= state.close_results)
     toggleAccuracy()
-  }
 })
 
 window.addEventListener('resolved_location', function() {
