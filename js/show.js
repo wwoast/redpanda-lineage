@@ -2189,7 +2189,7 @@ export const resultsPage = {
   },
   groupGallery: function(id_list) {
     const gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"]
-    const results = []
+    let results = []
     if (gallery.length < 1) {
       results.push(
         emptyResult(Message.Text.no_group_media_result, Env.language))
