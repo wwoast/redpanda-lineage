@@ -616,9 +616,9 @@ class LinksPage {
     // For each button, add an event handler to show the section
     // related to the button's id. Example:
     //    redPandaCommunity_button => shows redPandaCommunity page
-    buttons.forEach(button => button.addEventListener('click', function() {
+    buttons.forEach(button => button.addEventListener('click', () => {
       const old_section = window.sessionStorage.getItem("linksPageMenu")
-      const show_section_id = this.id.split("_")[0]
+      const show_section_id = button.id.split("_")[0]
       // Draw new links page content, and erase the old
       this.content = Show.linksSections[show_section_id]()
       const old_content = document.getElementById(old_section)
