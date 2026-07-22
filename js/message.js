@@ -334,7 +334,7 @@ export const Text = {
            "<INSERTLINK_WASHIMUMU>",
            " र ",
            "<INSERTLINK_WUMPWOAST>",
-           "द्वारा।"],
+           " द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
            " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
