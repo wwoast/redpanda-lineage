@@ -1,37 +1,31 @@
-/*
-    Options helper methods
-*/
-var Options = {};   // Namespace
-
-Options.init = function() {
-  Options.load();
-}
-
-// All available options
-Options.data = {
+/** All available options / default values */
+export let Data = {
   hideDeadPandas: false
-};
+}
 
-Options.update = function(func) {
-  // Run the update func
-  func(Options.data);
+/** On page refresh, load the options settings from `LocalStorage` */
+export function init() {
+  load()
+}
 
-  Options.save();
-
+/** Call a function to update the options */
+export function update(func) {
+  // Run the given function to update the data
+  func(Data)
+  save()
   // Report options have been updated
-  window.dispatchEvent(new Event('options_updated'));
+  window.dispatchEvent(new Event('options_updated'))
 }
 
-// Save current option values to local storage
-Options.save = function() {
-  window.localStorage.setItem('options', JSON.stringify(Options.data));
-}
+/** Save current option values to local storage */ 
+function save() {
+  window.localStorage.setItem('options', JSON.stringify(Data))
+} 
 
-// Load option values from local storage
-Options.load = function() {
-  var localData = window.localStorage.getItem('options');
-
-  if (localData !== null) {
-    Options.data = JSON.parse(localData);
+/** Load option values from local storage */
+function load() {
+  const localSavedOptions = window.localStorage.getItem('options')
+  if (localSavedOptions !== null) {
+    Data = JSON.parse(localSavedOptions)
   }
 }

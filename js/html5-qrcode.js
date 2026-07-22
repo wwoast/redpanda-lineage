@@ -1,3 +1,5 @@
+import { QRCode, QRErrorCorrectLevel } from './qrcode.js'
+
 //---------------------------------------------------------------------
 // JavaScript-HTML5 QRCode Generator
 //
@@ -8,11 +10,11 @@
 //
 //---------------------------------------------------------------------
 
-// Generates a QRCode of text provided.
-// First QRCode is rendered to a canvas.
-// The canvas is then turned to an image PNG
-// before being returned as an <img> tag.
-function showQRCode(text) {
+/** 
+ * Generates a QRCode of text provided. First QRCode is rendered to a canvas.
+ * The canvas is rendered to an image PNG and shown through an `<img>` tag.
+ */
+export function showQRCode(text) {
     var dotsize = 5;  // size of box drawn on canvas
     var padding = 10; // (white area around your QRCode)
     var black = "rgb(0,0,0)";
