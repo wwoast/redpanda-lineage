@@ -1,7 +1,7 @@
 import * as Jsleri from './jsleri-1.1.15.js'
 import { capitalNames } from './language.js'
 import { Defaults, Polyglots, Tags } from './lookup.js'
-import P, { values } from './pandas.js'
+import P, { distinct, values } from './pandas.js'
 
 /**
  * Given a search tag, find the equivalent term for that tag that is
