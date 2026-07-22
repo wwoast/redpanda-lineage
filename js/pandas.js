@@ -826,7 +826,7 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
       const photo_index = field_name.split(".")[1]
       if (animal[photo_tags] == undefined)
         continue
-      if (!animal[photo_tags].split(", ").includes(tag)) {
+      if (animal[photo_tags].split(", ").includes(tag)) {
         if (mode == "animal") {
           return [animal]
         } else {
