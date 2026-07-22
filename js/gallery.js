@@ -278,7 +278,7 @@ export class Carousel {
  * Take a gallery photo. If it's a special URL format, process it into a final
  * photo URI.
  */
-const url = {
+export const url = {
   /** Get the thumbnail uri from self-hosting */
   codaworry: (image, input_uri) => {
     const uri_split = input_uri.split("/")
