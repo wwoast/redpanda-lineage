@@ -377,7 +377,7 @@ export default class Layout {
   arrange = {
     /** 
      * This may be the basis of a basic layout which takes arguments:
-     * flattenTop, multiColumn, others.
+     * _flattenTop_, _multiColumn_, _others_.
      * Take all inputs and display as straight columns.
      */
     columns: (nobreak=false) => {

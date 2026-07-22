@@ -748,9 +748,9 @@ const flagButton = {
     button.classList.add("flag")
     button.classList.add(class_color)
     button.id = language + "LanguageFlag"
-    var content = document.createElement('div')
+    const content = document.createElement('div')
     content.className = "buttonContent"
-    var icon = document.createElement('div')
+    const icon = document.createElement('div')
     icon.className = "buttonIcon"
     icon.innerText = Gui.flag[language]
     content.appendChild(icon)
@@ -1120,9 +1120,12 @@ const sectionButton = {
 
 /** The top-button for scrolling back to the top of a page */
 export const topButton = {
+  /**
+   * anchor tags get used for JS redraws, so don't use an anchor tag for
+   * top-of-page scroll events. This fixes the language button after clicking
+   * _pageTop_.
+   */
   action: function() {
-    // anchor tags get used for JS redraws, so don't use an anchor tag for
-    // top-of-page scroll events. This fixes the language button after clicking pageTop.
     languageButton.hide()   // If language menu open, hide it
     window.scrollTo(0, 0)
   },

@@ -685,8 +685,8 @@ export function unpluralize(pieces) {
 export function update() {
   // Update menu buttons. TODO: grab these buttons by class
   const menu_button_ids = ['languageButton', 'aboutButton', 'randomButton',
-                         'linksButton', 'profileButton', 'mediaButton', 
-                         'timelineButton']
+                           'linksButton', 'profileButton', 'mediaButton', 
+                           'timelineButton']
   const menu_button_elements = menu_button_ids.map(x => 
     document.getElementById(x)).filter(x => x != undefined)
   // Any buttons in the page? Redraw with correct language settings
@@ -706,13 +706,12 @@ export function update() {
     Page.links.render()
   // Update the placeholder text for a search bar
   if (document.forms['searchForm'] != undefined) {
-    if (P.db == undefined) {
+    if (P.db == undefined)
       document.forms['searchForm']['searchInput'].placeholder =
         Gui.loading[Env.language]
-    } else {
+    else
       document.forms['searchForm']['searchInput'].placeholder =
         "➤ " + Gui.search[Env.language]
-    }
   }
   // Change the page title
   document.title = Gui.title[Env.language]

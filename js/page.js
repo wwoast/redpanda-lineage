@@ -114,7 +114,7 @@ class AboutPage {
    * The about page hashchange results in needing to draw or fetch the page
    * initialize its menus, or at the very least, scroll to the top of the page
    */
-  hashchange() {
+  hashchange = () => {
     if ((this.language != Env.language) && (this.language != undefined))
       this.fetch()
     else {
@@ -128,7 +128,7 @@ class AboutPage {
       this.instructions()
       mediaQuery().addListener(this.instructions)
       // Add a tag list
-      this.tags();
+      this.tags()
       Env.current = this.render
     }
     window.scrollTo(0, 0)  // Go to the top of the page
@@ -549,11 +549,10 @@ class LinksPage {
   content = undefined
 
   /**
-   * The links page hashchange results in needing to draw or fetch the
-   * links page and initialize its menus, or at the very least, scroll
-   * to the top of the page.
+   * The links page hashchange results in needing to draw or fetch the links
+   * page and initialize its menus, or at the very least, scroll to the top.
    */
-  hashchange() {
+  hashchange = () => {
     this.render()
     Env.current = this.render
     window.scrollTo(0, 0)   // Go to the top of the page
@@ -680,7 +679,7 @@ class OptionsPage {
   content = undefined
 
   /** Call this in a `hashchange` handler to make the Options page appear */
-  hashchange() {
+  hashchange = () => {
     this.render()
     Env.current = this.render
     window.scrollTo(0, 0)   // Go to the top of the page
