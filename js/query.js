@@ -123,7 +123,7 @@ function group_one_set(set_node) {
   if (set_node.type == "set_tag_intersection") {
     Env.output_mode = "photos"
     Env.paging.display_button = true
-    tags = keyword_nodes
+    const tags = keyword_nodes
       .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
     tag = tags.join(", ")   // For query output
     hits = Pandas.searchPhotoTags(
@@ -215,7 +215,7 @@ function pair(set_node) {
   if (set_node.type == "set_tag_intersection") {
     Env.output_mode = "photos"
     Env.paging.display_button = true
-    tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
+    const tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
       .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
     tag = tags.join(", ")   // For query output
     hits = Pandas.searchPhotoTags(
@@ -243,13 +243,12 @@ function pair(set_node) {
 }
 // The parse tree found only a single term for searching
 function single(set_node, singular_node) {
-  let hits = [];
-  const search_word = singular_node.str;
+  let hits = []
+  const search_word = singular_node.str
   if (set_node.type == "set_subject") {
     // subject_id on its own should be a panda
-    if (singular_node.type == "subject_id") {
+    if (singular_node.type == "subject_id")
       hits = Pandas.searchPandaId(search_word)
-    }
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
       const panda_hits = Pandas.searchPandaName(search_word)
@@ -259,26 +258,22 @@ function single(set_node, singular_node) {
                 : zoo_hits;
     }
     // subject_date is treated like a birthday on its own
-    if (singular_node.type == "subject_date") {
+    if (singular_node.type == "subject_date")
       hits = Pandas.searchBirthdayList(search_word)
-    }
     // subject_year isn't valid on its own
   }
   if (set_node.type == "set_keyword") {
-    if (Parse.group.baby.includes(search_word)) {
+    if (Parse.group.baby.includes(search_word))
       hits = Pandas.searchBabies()
-    }
     if (Parse.group.nearby.includes(search_word)) {
       Env.output_mode = "nearby"
-      if (Geo.state.resolved == false) {
+      if (Geo.state.resolved == false)
         Geo.getNaiveLocation()
-      }
       // If we're still on a query page and another action hasn't occurred,
       // display the zoo results when we're done.
     }
-    if (Parse.group.dead.includes(search_word)) {
+    if (Parse.group.dead.includes(search_word))
       hits = Pandas.searchDead()
-    }
   }
   if (set_node.type == "set_tag") {
     if (Parse.group.tags.includes(search_word)) {
