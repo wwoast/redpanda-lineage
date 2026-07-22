@@ -1579,7 +1579,7 @@ export const linksSections = {
     ul.classList.add("multiColumn")
     ul.classList.add(links.icon)
     for (const link of links.list) {
-      const suffix = linksMenu.flags(link.order)
+      const suffix = linksPage.flags(link.order)
       const li = linksPage.create('li', link.href, link.text, suffix)
       ul.appendChild(li)
     }
