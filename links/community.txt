@@ -25,3 +25,9 @@ link.6.language.order: en
 link.7: http://www.redpandalife.com/
 link.7.en.name: Red Panda Life
 link.7.language.order: en
+link.8: https://ressapanda.com/
+link.8.en.name: Red Panda Encyclopedia
+link.8.ja.name: レッサーパンダ図鑑
+link.8.ko.name: 레서판다 도감
+link.8.zh.name: 小熊貓圖鑑
+link.8.language.order: zh, en, ja, ko
