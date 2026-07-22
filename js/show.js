@@ -2798,8 +2798,9 @@ export const resultsPage = {
 export const searchBar = {
   /** Set event listeners for the search bar */
   action: function() {
+    // Needs class scope, so listener uses arrow function
     if (document.forms['searchForm'] != undefined)
-      document.forms['searchForm'].addEventListener("submit", this.submit)
+      document.forms['searchForm'].addEventListener("submit", () => this.submit())
     // Fix problems with Typesquare input box styling
     if (document.getElementById('searchInput') != undefined)
       document.getElementById('searchInput').style.fontFamily = "sans-serif"
