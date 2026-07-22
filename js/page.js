@@ -612,7 +612,7 @@ class LinksPage {
 
   sectionButtonEventHandlers() {
     // Find all button subelements of the menu
-    const buttons = document.getElementsByClassName("sectionButton")
+    const buttons = Array.from(document.getElementsByClassName("sectionButton"))
     // For each button, add an event handler to show the section
     // related to the button's id. Example:
     //    redPandaCommunity_button => shows redPandaCommunity page
