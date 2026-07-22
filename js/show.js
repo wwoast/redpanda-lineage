@@ -673,7 +673,6 @@ function zooTitle(info) {
 }
 
 /** Show functions related to buttons and their event handlers */
-// Was show.button.render
 
 /** Render a menu button for redpandafinder, with desired classes and ids */
 function renderButton(id, button_icon, button_text, class_name, icon_class="") {
@@ -755,7 +754,7 @@ const flagButton = {
     icon.innerText = Gui.flag[language]
     content.appendChild(icon)
     button.appendChild(content)
-    button.addEventListener("click", (e) => this.action(e.target))
+    button.addEventListener("click", () => this.action(button))
     return button
   }
 }
