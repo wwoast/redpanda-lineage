@@ -12,15 +12,20 @@ import * as Show from './show.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
 (function() {
+  const meta = document.createElement('meta')
+  meta.name = "viewport"
   if (navigator.platform === "iPad") {
     const scale = 1.2
-    document.write(`<meta name="viewport" content="width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0" />`)
+    meta.content = `width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0"`
+    document.head.appendChild(meta)
   } else if (navigator.platform === "iPhone") {
     const scale = 1.0
-    document.write(`<meta name="viewport" content="width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0" />`)
+    meta.content = `width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0"`
+    document.head.appendChild(meta)
   } else if (navigator.userAgent.includes("Android")) {
     const scale = 1.0
-    document.write(`<meta name="viewport" content="width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0, target-densitydpi="device-dpi" />`)
+    meta.content = `width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0, target-densitydpi="device-dpi"`
+    document.head.appendChild(meta)
   } else {
     return
   }
