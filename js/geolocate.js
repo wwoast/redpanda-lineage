@@ -192,7 +192,6 @@ function toggleAccuracy() {
 }
 
 window.addEventListener('found_zoos', function() {
-  // TODO ES6
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
   Page.results.render()
