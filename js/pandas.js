@@ -2002,11 +2002,11 @@ export function profilePhoto(animal, index, mode="animal") {
   }
   // Return not just the chosen photo but the author and link as well
   const desired = {
-        "id": animal["_id"],
-     "photo": photos[choice],
-    "credit": animal[choice + ".author"],
-     "index": choice.replace("photo.", ""),
-      "link": authorLink(animal[choice + ".author"], animal[choice + ".link"])
+    "id": animal["_id"],
+    "photo": photos[choice],
+    "photo.author": animal[choice + ".author"],
+    "photo.index": choice.replace("photo.", ""),
+    "photo.link": authorLink(animal[choice + ".author"], animal[choice + ".link"])
   }
   return desired
 }

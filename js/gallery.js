@@ -235,34 +235,33 @@ export class Carousel {
     // Update displayed photo
     this.displayPhoto(photo, new_choice, carousel_id, this.index)
     // Update animal credit info and the photographer credit's apple points
-    const photo_info = Pandas.profilePhoto(entity, this.index, this.carousel_type)
-    this.singlePhotoCredit(photo_info, last_index, this.index)
-    this.userApplePoints(photo_info, last_index, this.index)
+    const info = Pandas.profilePhoto(entity, this.index, this.carousel_type)
+    this.singlePhotoCredit(info, last_index, this.index)
+    this.userApplePoints(info, last_index, this.index)
   }
 
   /** Replace the photographer's credit info for a panda's photo */
-  singlePhotoCredit(photo_info, last_index, current_index) {
-    const animal_id = photo_info.id
+  singlePhotoCredit(info, last_index, current_index) {
+    const animal_id = info.id
     const credit_link =
       document.getElementById(`${animal_id}/author/${last_index}`)
     credit_link.id = `${animal_id}/author/${current_index}`
-    if (!Object.keys(Defaults.authors).includes(photo_info.credit)) {
-      credit_link.href = photo_info["link"]
-    } else {
+    if (!Object.keys(Defaults.authors).includes(info["photo.author"]))
+      credit_link.href = info["photo.link"]
+    else
       credit_link.removeAttribute("href")   // No more link
-    }
     credit_link.target = "_blank"   // Open in new tab
-    credit_link.innerText = `${Emoji.camera} ${photo_info["credit"]}`
+    credit_link.innerText = `${Emoji.camera} ${info["photo.author"]}`
   }
 
   /** Replace the photographer's apple points (number of photos on the site) */
-  userApplePoints(photo_info, last_index, current_index) {
-    const animal_id = photo_info.id
+  userApplePoints(info, last_index, current_index) {
+    const animal_id = info.id
     const apple_link = document.getElementById(`${animal_id}/counts/${last_index}`)
     apple_link.id = `${animal_id}/counts/${current_index}`
-    if (!Object.keys(Defaults.authors).includes(photo_info.credit)) {
-      const apple_count = P.db._photo.credit[photo_info["credit"]]
-      apple_link.href = `#credit/${photo_info["credit"]}`
+    if (!Object.keys(Defaults.authors).includes(info["photo.author"])) {
+      const apple_count = P.db._photo.credit[info["photo.author"]]
+      apple_link.href = `#credit/${info["photo.author"]}`
       apple_link.innerText = `${Emoji.gift} ${apple_count}`
       if (parseInt(apple_count) >= 1000) {
         apple_link.innerText = `${Emoji.megagift} ${apple_count}`
