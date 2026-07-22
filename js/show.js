@@ -1328,7 +1328,7 @@ export const linksMenus = {
       menu.className = "sectionMenu"
       // Draw each button based on its id and `language.js` lookups
       for (const btn_name of this.buttons) {
-        const btn_id = `${btn_name}__button`
+        const btn_id = `${btn_name}_button`
         let btn_class = "sectionButton four"
         if (btn_name == subpage) {
           btn_class = `${btn_class} selected`
