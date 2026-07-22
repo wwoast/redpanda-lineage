@@ -1536,17 +1536,17 @@ export const linksPage = {
       // for these, and hack in leading and trailing space.
       const leading = document.createTextNode(" ")
       const trailing = document.createTextNode(" ")
-      anchor = document.createElement('u')
-      anchor.innerText = text
+      const underline = document.createElement('u')
+      underline.innerText = text
       container.appendChild(leading)
-      container.appendChild(anchor)
+      container.appendChild(underline)
       container.appendChild(trailing)    
     } else {
       container.appendChild(anchor)
     }
     // After text is for the special-thanks page
     if (after != undefined) {
-      var text_after = document.createTextNode(after)
+      const text_after = document.createTextNode(after)
       container.appendChild(text_after)
     }
     return container
