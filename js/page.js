@@ -365,14 +365,14 @@ class FooterComponent {
         washimumu.href = `https://ressapanda.com/${Env.language}`
         washimumu.target = "_blank"
         washimumu.rel = "noopener noreferrer"
-        washimumu.innerText = Gui.footerlink_washimumu[language]
+        washimumu.innerText = Gui.footerLink_washimumu[language]
         p.appendChild(washimumu)
       } else if (field == "<INSERTLINK_WUMPWOAST>") {
         const wumpwoast = document.createElement('a')
         wumpwoast.href = `https://www.instagram.com/wumpwoast`
         wumpwoast.target = "_blank"
         wumpwoast.rel = "noopener noreferrer"
-        wumpwoast.innerText = Gui.footerlink_wumpwoast[language]
+        wumpwoast.innerText = Gui.footerLink_wumpwoast[language]
         p.appendChild(wumpwoast) 
       } else if (field === "") {
         // If the field is an empty string, insert a line break in the footer
