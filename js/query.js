@@ -115,7 +115,9 @@ function group_one_set(set_node) {
     tag = tags.join(", ")   // For query output
     hits = Pandas.searchPhotoTags(
       Pandas.searchPandaMedia(search_word), 
-      tags, mode="intersect", fallback="none"
+      tags,
+      "intersect",
+      "none"
     )
   }
   if (set_node.type == "set_tag_intersection") {
@@ -127,8 +129,8 @@ function group_one_set(set_node) {
     hits = Pandas.searchPhotoTags(
       Pandas.allAnimalsAndMedia(), 
       tags,
-      mode="intersect",
-      fallback="none"
+      "intersect",
+      "none"
     )
   }
   if (set_node.type == "set_only_subjects") {
@@ -208,7 +210,7 @@ function pair(set_node) {
     Env.paging.display_button = true
     tag = Parse.searchTag(keyword_node.str)
     const animals = Pandas.searchPandaMedia(search_word)
-    hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none")
+    hits = Pandas.searchPhotoTags(animals, [tag], "photos", "none")
   }
   if (set_node.type == "set_tag_intersection") {
     Env.output_mode = "photos"
@@ -219,8 +221,8 @@ function pair(set_node) {
     hits = Pandas.searchPhotoTags(
       Pandas.allAnimalsAndMedia(), 
       tags,
-      mode="intersect",
-      fallback="none"
+      "intersect",
+      "none"
     )
   }
   if (set_node.type == "set_only_subjects") {
@@ -289,8 +291,8 @@ function single(set_node, singular_node) {
       hits = Pandas.searchPhotoTags(
         Pandas.allAnimalsAndMedia(), 
         [tag],
-        mode="photos",
-        fallback="none"
+        "photos",
+        "none"
       )
     }
   }
