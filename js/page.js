@@ -90,7 +90,7 @@ class AboutPage {
     request.responseType = 'document'
     request.send()
     request.onload = () => {
-      this.content = request.response.getElementById('hiddenContentFrame')
+      this.content = request.response.getElementById('contentFrame')
       this.language = Env.language   // Language the content was loaded in
       window.dispatchEvent(this.loaded)   // Report the data has loaded
     }

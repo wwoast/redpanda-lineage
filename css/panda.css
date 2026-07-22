@@ -402,12 +402,6 @@ div#contentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
-div#hiddenContentFrame {
-    display: none;
-    z-index: -1;
-    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
-}
-
 div#contentFrame.mothersDay, div#contentFrame.birthdayPandas, div.mediaFrame {
     text-align: center;
 }
@@ -2209,7 +2203,6 @@ div#contentFrame {
   z-index: 1;
   background: transparent;
 }
-div#hiddenContentFrame { display: none; z-index: -1; background: transparent; }
 
 /* result card: green table w/ khaki cells → white rounded card */
 div.pandaResult, div.zooResult {
