@@ -23,4 +23,4 @@ When a commit is accepted, Github Actions will run the bundled Python scripts, a
 
 ## Credits
 
-This Red Panda Lineage dataset was started by _wumpwoast_ (Justin Fairchild) in June 2018, with the help and support of _firefoxpanda88_ and _daniele.tokyo_, and dedication of Red Panda fans in Japan and world-wide on Instagram and YouTube.
+This Red Panda Lineage dataset was started by _wumpwoast_ (Justin Fairchild) in June 2018, with the help and support of _firefoxpanda88_ and _daniele.tokyo_, a beautiful redesign by _[washimumu](https://ressapanda.com)_, and dedication of Red Panda fans in Japan and world-wide on Instagram and YouTube.
