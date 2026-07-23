@@ -2,14 +2,14 @@
   "imports": {
     "dagoba": "./js/dagoba.js",
     "diff": "npm:diff@^9.0.0",
-    "git": "jsr:@roka/git@^0.4.0",
+    "@roka/git": "jsr:@roka/git@^0.4.0",
     "@std/fs": "jsr:@std/fs@^1.0.24",
     "@std/ini": "jsr:@std/ini@^0.225.2",
     "@std/path": "jsr:@std/path@^1.1.6"
   },
   "tasks": {
     "build": {
-      "command": "deno run -A --no-config build.ts"
+      "command": "deno run -A --no-config ./data/build.ts"
     }
   }
 }

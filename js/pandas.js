@@ -36,8 +36,6 @@ export function init() {
   request.send()
   request.onload = function() {
     P.db = request.response   // Set the panda database for importing
-    // P.db.vertices.forEach(G.addVertex.bind(G))
-    // P.db.edges.forEach(G.addEdge.bind(G))
     G = Dagoba.graph(P.db.vertices, P.db.edges)
     window.dispatchEvent(loaded)   // Report the data has loaded
   }
