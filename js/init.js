@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function() {
       Page.home.render()
     }
     // When all webfonts have rendered, recalculate text shrinks
-    // Couldn't get typesquare events working :(
     setTimeout(shrinkNames, 1000)
   })
   // Fetch the about page contents for each language

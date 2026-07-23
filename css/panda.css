@@ -1002,10 +1002,7 @@ a.emojiLink {
     text-decoration: none !important;   /* iPhone seems to require the !important */
 }
 
-div.hiddenSlug, div.vitamins {
-    /* A slug of characters to make webfonts load all necessary glyphs.
-       Otherwise Typesquare, the Morisawa foundry service, won't properly load
-       all the glyphs one of the search result pages might need. */
+div.hiddenSlug {
     display: none;
 }
 
@@ -2188,7 +2185,6 @@ body:has(img.fullFrame) div.hiddenSlug p {
   box-shadow: 0 14px 28px rgba(0,0,0,.35);
 }
 div.hiddenSlug { display: none; }           /* everywhere else: hidden as before */
-div.vitamins { display: none; }
 
 /* ============================================================
    RESULTS VIEW — same DOM (pandaResult / pandaDossier / family),

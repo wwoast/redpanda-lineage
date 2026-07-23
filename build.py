@@ -864,41 +864,6 @@ class UpdateFromCommits:
         # If CI does a shallow clone, use the oldest commit we have
         return oldest_commit
 
-def vitamin():
-    """
-    Based on a completed Red Panda database, and on the contents of all 
-    Javascript and HTML sources here, build a unique set of characters for 
-    display in the lineage interface. This character set is necessary to instruct 
-    TypeSquare on which characters we want to download in our font.
-    """
-    # Starts as '<div class="vitamins"><p>${vitamins}</p></div>'
-    start = r'<div class="vitamins"><p>.*</p></div>'
-    vitamin = "&amp;&copy;&lsquo;&rsquo;&ldquo;&rdquo;&nacute;"  # &-encoded HTML characters to start
-    lists = []
-    manifest = [
-        "export/redpanda.json",
-        "index.html",
-        "js/pandas.js",
-        "js/show.js",
-        "js/language.js",
-        "fragments/en/about.html",
-        "fragments/ja/about.html"
-    ]
-    for fn in manifest:
-        with open(fn, 'r') as rfh:
-            raw = rfh.read()
-            lists += list(set(raw))  # Uniquify values
-    lists = list(set(lists))   # Uniquify lists of values
-    lists.sort()
-    vitamin += ''.join(lists).replace("\n", "")
-    finish = r'<div class="vitamins"><p>' + vitamin + r'</p></div>'
-    page = ""
-    with open("index.html", mode='r', encoding='utf-8') as rfh:
-        page = rfh.read()
-        page = re.sub(start, finish, page, count=1)
-    with open("index.html", mode='w', encoding="utf-8") as wfh:
-        wfh.write(page)
-
 if __name__ == '__main__':
     """Initialize all library settings, build, and export the database."""
     p = RedPandaGraph()
@@ -907,7 +872,3 @@ if __name__ == '__main__':
     u.new_contributors(p.photo["credit"])
     p.set_updates(u.updates)
     p.export_json_graph(OUTPUT_PATH)
-    # Only do this in CI when publishing a real page
-    if len(sys.argv) > 1:
-        if sys.argv[1] == "--publish":
-            vitamin()
