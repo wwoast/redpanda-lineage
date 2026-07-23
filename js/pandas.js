@@ -1164,11 +1164,10 @@ export function searchPhotoCredit(author, filter_ids=[]) {
     return self.indexOf(value) === index
   }).filter(function(value, index, self) {
     // Filter by desired panda ids
-    if (filter_ids.length == 0) {
+    if (filter_ids.length == 0)
       return true
-    } else {
+    else
       return filter_ids.includes(value["_id"])
-    }
   })
 }
 

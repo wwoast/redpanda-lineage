@@ -21,7 +21,7 @@ class RedPandaGraph:
 
     The database is an array of vertices and edges in the graph of red panda
     relationships. A supplemental list of zoos rounds out the red panda data.
-    Upon export, these arrays of dicts become a JSON blob.
+    Upon export, these arrays of dicts become a JSON blob.self.patchself.patch
         
     Vertices represent a panda and their info, while edges represent parent
     and child relationships between animals. In the example below, Karin is
