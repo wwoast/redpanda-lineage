@@ -1,9 +1,8 @@
 import * as ini from '@std/ini'
 import { join } from '@std/path'
 import { git } from '@roka/git'
-import { List } from "../js/jsleri-1.1.15.js";
 
-/** 
+/**
  * Build a JSON file that is a consolidated summary of all the text files
  * tracked in the _redpanda-lineage_ repository.
  */
@@ -44,7 +43,7 @@ const Paths: Record<string, string> = {
   pandas: "./pandas",
   wild: "./wild",
   zoos: "./zoos"
-} 
+}
 
 interface PhotoMetrics {
   /** Index of author to number of photos contributed */
@@ -90,8 +89,8 @@ interface RedPandaFinderMetrics {
   last_born: string,
   last_died: string,
   lexer_names: string[],
-  links: EntityLinks[],
-  media: EntityMedia[],
+  links: NodeLinks[],
+  media: NodeMedia[],
   photos: PhotoMetrics,
   totals: Record<string, number>,
   updates: Record<string, number>
@@ -104,9 +103,9 @@ const rpf: RedPandaFinderMetrics = {
   last_died: "",
   /** Complex names with spaces which the lexer needs to handle */
   lexer_names: [],
-  /** EntityLinks vertices */
+  /** NodeLinks vertices */
   links: [],
-  /** EntityMedia vertices */
+  /** NodeMedia vertices */
   media: [],
   /** Indices or counters of relevant photo data */
   photos: photoMetrics,
@@ -150,7 +149,7 @@ class Dataset {
     this.buildGraph()
   }
 
-  assertNoDuplicateDatasetIds(vertices: Entity[]) {
+  assertNoDuplicateDatasetIds(vertices: GraphNode[]) {
     const duplicateIds = vertices
       .map(v => v._id)
       .filter((id, _, list) => list.indexOf(id) != list.lastIndexOf(id))
@@ -166,21 +165,21 @@ class Dataset {
     this.importTree(Paths.links, this.importLinks, this.verifyLinks)
   }
 
-  /** 
+  /**
    * Take a single links file and add it to the dataset.
-   * 
+   *
    * Links files are expected to have a header of `[links]`. Any fields defined
    * under that header will be consumed into the list of links. We keep all
    * fields in the `[links]` section as strings.
    */
   importLinks(path: string) {
     const ingest = ini.parse(Deno.readTextFileSync(path))
-    this.rpf.links.push(ingest.links as EntityLinks)
-    this.data.vertices.push(ingest.links as EntityLinks)
+    this.rpf.links.push(ingest.links as NodeLinks)
+    this.data.vertices.push(ingest.links as NodeLinks)
     this.files.links.push(path)
   }
 
-  /** 
+  /**
    * Given a starting path, import all files into the graph. By adjusting path
    * and import method, this is used to import either the panda data or the
    * zoo data.
@@ -224,10 +223,6 @@ class Dataset {
   }
 }
 
-
-
 if (import.meta.main) {
   const dataset = new Dataset()
 }
-
-

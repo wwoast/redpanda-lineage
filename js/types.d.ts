@@ -15,25 +15,6 @@ declare enum SupportedLanguages {
 
 type Language = keyof typeof SupportedLanguages
 
-/** 
- * The backbone of the RPF graph are these a handful of different
- * `EntityObject` interfaces, such as `EntityPanda` and `EntityZoo`. The main
- * commonality these objects share, are fields such as _en.name_ that are keyed
- * by language.
- * 
- * Most of these objects make referencs to photo content to render in the UI. All
- * of these entities use the `type` property as a discriminator, so code can
- * easily understand what kind of object they need to render things of.
- * 
- * The `links` type refers to URLs on the links page in redpandafinder, not to
- * the _edges_ that connect nodes in the Dagobah graph. These don't have photos
- * but they have language-keyed items similar enough to other 
- * 
- * The `media` type refers to entities containing a list of photos for multiple
- * animals at a specific zoo.
- */
-type EntityType = "links" | "media" | "panda" | "wild" | "zoo"
-
 /** Gender values in the underlying `[panda]` `.ini` text files */
 type Gender = "f" | "m" | "unknown"
 
@@ -144,11 +125,30 @@ type URLLink = {
   url: string
 }
 
+/**
+ * The nodes in the redpandafinder graph are a handful of `NodeObject`
+ * interfaces, such as `NodePanda` and `NodeZoo`.
+ * 
+ * The main commonalities these objects share, are unique `_id` values for the
+ * graph, fields such as _name_ that are keyed by language, and a _type_ field
+ * that lets us discriminate between these different entities in TypeScript.
+ * Most objects point to photo URLs to render in redpandafinder.
+ *
+ * The `links` type refers to URLs on the links page in redpandafinder, not to
+ * the _edges_ that connect nodes in the Dagobah graph. These don't have photos
+ * but they have language-keyed items similar enough to other entities, so they
+ * are shluffed into the graph.
+ *
+ * The `media` type refers to entities containing a list of photos for multiple
+ * animals at a specific zoo.
+ */
+type NodeType = "links" | "media" | "panda" | "wild" | "zoo"
+
 /** 
  * The typescript representation of the text contents of
  * `links/<category>.txt` files with a `[links]` header.
  */
-interface EntityLinks {
+interface NodeLinks {
   /** Fixed string id prefixed with the word `links` */
   _id: string,
   link: URLLink,
@@ -159,7 +159,7 @@ interface EntityLinks {
  * The typescript representation of the text contents of
  * `media/<country>/<zoo>/<name1-name2.txt>` files with a `[media]` header.
  */
-interface EntityMedia {
+interface NodeMedia {
   /** 
    * Fixed string id starting with `media.` and containing the zoo ID where
    * the photo was taken, and two panda names (in English)
@@ -189,7 +189,7 @@ interface EntityMedia {
  * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
  * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
  */
-interface EntityPanda {
+interface NodePanda {
   /** Numeric fixed identifier that we increment each time a panda is added */
   _id: string,
   /** YYYY/MM/DD birthday string */
@@ -280,7 +280,7 @@ type LocationByLanguage = {
  * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
  * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
  */
-interface EntityWild {
+interface NodeWild {
   /** 
    * Numeric fixed identifier that we increment for each place a wild panda
    * has been documented by science.
@@ -313,7 +313,7 @@ interface EntityWild {
  * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
  * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
  */
-interface EntityZoo {
+interface NodeZoo {
   /** Numeric fixed identifier that we increment each time a zoo is added */
   _id: string,
   /** Street address string, represented in our supported languages */
@@ -372,7 +372,7 @@ interface EntityZoo {
   website: string,
 }
 
-type Entity = EntityLinks | EntityMedia | EntityPanda | EntityWild | EntityZoo
+type GraphNode = NodeLinks | NodeMedia | NodePanda | NodeWild | NodeZoo
 
 /** 
  * Panda results are an enrichment of the panda entity info tracked in the
@@ -393,18 +393,18 @@ interface ResultPanda {
    * _unknown_ default value.
    */
   birthday: string,
-  /** Resolve the birthplace numeric string ID to a full `EntityZoo` */
-  birthplace: EntityZoo,
-  /** Reoslve the children numeric string IDs to an `EntityPanda` set */
-  children: Set<EntityPanda>,
+  /** Resolve the birthplace numeric string ID to a full `NodeZoo` */
+  birthplace: NodeZoo,
+  /** Reoslve the children numeric string IDs to an `NodePanda` set */
+  children: Set<NodePanda>,
   /**
    * Death string with years, months, and days, formatted to a locale based
    * on the `Pandas.def.date` value in `pandas.js`, and falling back to an
    * _unknown_ default value.
    */
   death: string,
-  /** Resolve the father's numeric string ID to a full `EntityPanda` */
-  dad: EntityPanda,
+  /** Resolve the father's numeric string ID to a full `NodePanda` */
+  dad: NodePanda,
   /** Translated string for the animal's gender (or unknown) */
   gender: string,
   /** The numeric string ID for the `ResultPanda` animal */
@@ -417,10 +417,10 @@ interface ResultPanda {
    * order into the set reflects the order of the `language.order` values
    */
   languageOrder: Set<Language>,
-  /** Resolve the litter mates numeric string IDs to an `EntityPanda` set */
-  litter: Set<EntityPanda>,
-  /** Resolve the mother's numeric string ID to a full `EntityPanda` */
-  mom: EntityPanda,
+  /** Resolve the litter mates numeric string IDs to an `NodePanda` set */
+  litter: Set<NodePanda>,
+  /** Resolve the mother's numeric string ID to a full `NodePanda` */
+  mom: NodePanda,
   /** The panda's primary name, in the current display language */
   name: string,
   /** The panda's other names, in the current display language */
@@ -446,19 +446,19 @@ interface ResultPanda {
   searchContext: Record<string, any>
   /** 
    * Resolve the numeric string IDs of all siblings of this animal who are not
-   * immediate litter-mates, into a set of `EntityPanda` organized from oldest
+   * immediate litter-mates, into a set of `NodePanda` organized from oldest
    * to youngest. This will include half-siblings.
    */
-  siblings: Set<EntityPanda>,
+  siblings: Set<NodePanda>,
   /** The language-translated species name for this red panda */
   species: string,
   /** 
    * If the panda lives in the wild, resolve its current location into an
-   * `EntityWild` object.
+   * `NodeWild` object.
    */
-  wild: EntityWild,
-  /** If the panda lives at a zoo, resolve its location into an `EntityZoo` */
-  zoo: EntityZoo
+  wild: NodeWild,
+  /** If the panda lives at a zoo, resolve its location into an `NodeZoo` */
+  zoo: NodeZoo
 }
 
 /** 
@@ -476,7 +476,7 @@ interface ResultZoo {
    * The set of all pandas resolved from their numeric string entity ID,
    * that currently live at this zoo.
    */
-  animals: Set<EntityPanda>,
+  animals: Set<NodePanda>,
   /** The YYYY/MM/DD string for when this zoo closed. TODO: locale */
   closed: string,
   /** The numeric string ID for the `ResultZoo` zoo */
@@ -507,7 +507,7 @@ interface ResultZoo {
    * The set of all pandas resolved to have lived at this zoo either
    * currently, or at some point in the past.
    */
-  recorded: Set<EntityPanda>,
+  recorded: Set<NodePanda>,
   /** The total tally of red pandas that have ever lived at this zoo */
   recordedCount: number,
   /** The URL of the zoo's website */
@@ -522,5 +522,5 @@ type Edge = {
 
 interface Graph {
   edges: Edge[],
-  vertices: (EntityLinks | EntityMedia | EntityPanda | EntityWild | EntityZoo)[]
+  vertices: GraphNode[]
 }
