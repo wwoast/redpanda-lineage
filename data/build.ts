@@ -1,49 +1,15 @@
 import * as ini from '@std/ini'
 import { join } from '@std/path'
 import { git } from '@roka/git'
+import { Paths,
+         ensureLanguage,
+         ensureNodeType,
+         existsDirSync, existsFileSync } from './shared.ts'
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
  * tracked in the _redpanda-lineage_ repository.
  */
-
-/** Check whether or not the given path exists as a directory. */
-export function existsDirSync(path: string): boolean | Error {
-  try {
-    const fi = Deno.lstatSync(path)
-    if (fi.isDirectory)
-      return true
-    return false
-  } catch (err) {
-    if (err instanceof Deno.errors.NotFound)
-      return false
-    throw err
-  }
-}
-
-/** Check whether or not the given path exists as regular file. */
-export function existsFileSync(path: string): boolean {
-  try {
-    const fi = Deno.lstatSync(path)
-    if (fi.isFile)
-      return true
-    return false
-  } catch (err) {
-    if (err instanceof Deno.errors.NotFound)
-      return false
-    throw err
-  }
-}
-
-/** Where to import or export red panda data from */
-const Paths: Record<string, string> = {
-  links: "./links",
-  media: "./media",
-  output: "./export/redpanda.json",
-  pandas: "./pandas",
-  wild: "./wild",
-  zoos: "./zoos"
-}
 
 interface PhotoMetrics {
   /** Index of author to number of photos contributed */
@@ -156,7 +122,9 @@ class Dataset {
     if (duplicateIds.length > 0) {
       const duplicateNames = vertices
         .filter(v => duplicateIds.includes(v._id))
-        .map(v => v["en.name"])
+        .map(v => v.name["en"])
+      throw new Error(
+        `ERR: duplicate ids for en.names: ${duplicateNames.join(", ")}`)
     }
   }
 
@@ -173,7 +141,7 @@ class Dataset {
    * fields in the `[links]` section as strings.
    */
   importLinks(path: string) {
-    const ingest = ini.parse(Deno.readTextFileSync(path))
+    const ingest = ini.parse(Deno.readTextFileSync(path), {reviver: this.reviveNode})
     this.rpf.links.push(ingest.links as NodeLinks)
     this.data.vertices.push(ingest.links as NodeLinks)
     this.files.links.push(path)
@@ -218,6 +186,43 @@ class Dataset {
     verifyMethod()
   }
 
+  /**
+   * When importing data from plaintext files, convert language-prefixed fields
+   * like _address_, _location_, _name_, _nicknames_, and _othernames_, and
+   * make them language-keyed properties instead.
+   */
+  reviveNode(key: string, value: unknown, section?: string): any {
+    if (!section || !ensureNodeType(section))
+      return value   // Shouldn't happen
+    if (key.includes(".")) {
+      const split = key.split(".")
+      const prefix = split[0]
+      const suffix = split.slice(1).join(".")
+      if (ensureLanguage(prefix))
+        return this.reviveNodeLanguage(key, value)
+
+    }
+  }
+
+  // TODO: I need to set a new value on the ingest, so maybe reviver no worky
+  reviveNodeLanguage(suffix: string, value: unknown) {
+    switch(suffix) {
+      case "address":
+        return this.reviveNodeAddress(suffix, value)
+      case "name":
+        return this.reviveNodeName(suffix, value)
+      case "nicknames":
+        return this.reviveNodeNicknames(suffix, value)
+      default:
+        return value      
+    }
+  }
+
+  // TODO: need access to all the other key/value things
+  reviveNodeName(key: string, value: unknown): NameByLanguage {
+    
+  }
+
   verifyLinks() {
     this.assertNoDuplicateDatasetIds(this.rpf.links)
   }
@@ -226,3 +231,4 @@ class Dataset {
 if (import.meta.main) {
   const dataset = new Dataset()
 }
+/
