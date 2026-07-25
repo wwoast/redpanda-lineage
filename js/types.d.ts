@@ -16,18 +16,29 @@ declare enum SupportedLanguages {
 type Language = keyof typeof SupportedLanguages
 
 /** 
- * Photos may be rendered for a handful of different `EntityObject` interfaces
- * in RPF, such as `EntityPanda`, `EntityWild`, and `EntityZoo`. These entities
- * use the `type` property as a discriminator, so code can easily understand
- * what kind of entity the photos are for.
+ * The backbone of the RPF graph are these a handful of different
+ * `EntityObject` interfaces, such as `EntityPanda` and `EntityZoo`. The main
+ * commonality these objects share, are fields such as _en.name_ that are keyed
+ * by language.
+ * 
+ * Most of these objects make referencs to photo content to render in the UI. All
+ * of these entities use the `type` property as a discriminator, so code can
+ * easily understand what kind of object they need to render things of.
+ * 
+ * The `links` type refers to URLs on the links page in redpandafinder, not to
+ * the _edges_ that connect nodes in the Dagobah graph. These don't have photos
+ * but they have language-keyed items similar enough to other 
+ * 
+ * The `media` type refers to entities containing a list of photos for multiple
+ * animals at a specific zoo.
  */
-type EntityType = "panda" | "wild" | "zoo"
+type EntityType = "links" | "media" | "panda" | "wild" | "zoo"
 
-/** Gender values in the underlying panda `.ini` text files */
+/** Gender values in the underlying `[panda]` `.ini` text files */
 type Gender = "f" | "m" | "unknown"
 
 /** 
- * Species values from the underlying panda `.ini` text files:
+ * Species values from the underlying `[panda]` `.ini` text files:
  * 
  * -1 is _unknown_ / just Ailurus fulgens
  *
@@ -83,6 +94,18 @@ type Photo = {
   url: string
 }
 
+/** Tags with x-y coordinates of the animal's face, in a group photo */
+interface MediaPhoto extends Photo {
+  coordinateTag: {
+    /** The animal fixed string id */
+    _id: string,
+    /** The X-coordinate in the photo pointing to the animal's face / body */
+    x: number,
+    /** The Y-coordinate in the photo pointing to the animal's face / body */
+    y: number
+  } 
+}
+
 /** 
  * Use Browser canvas features to introspect on the size of particular images,
  * and then adjust how panda or zoo information is displayed.
@@ -106,6 +129,53 @@ type PandaLocation = {
   arrivalDate: string,
   /** The numeric string zoo ID the `PandaLocation` arrival date refers to */
   zoo: string
+}
+
+/** Comma-separated list of fixed string panda IDs */
+type PandaTags = string[]
+
+/** 
+ * Collection of items related to a link displayed on the `Links` page in
+ * redpandafinder.
+ */
+type URLLink = {
+  names: Record<Language, string>,
+  languageOrder: Set<Language>,
+  url: string
+}
+
+/** 
+ * The typescript representation of the text contents of
+ * `links/<category>.txt` files with a `[links]` header.
+ */
+interface EntityLinks {
+  /** Fixed string id prefixed with the word `links` */
+  _id: string,
+  link: URLLink,
+  type: "link"
+}
+
+/** 
+ * The typescript representation of the text contents of
+ * `media/<country>/<zoo>/<name1-name2.txt>` files with a `[media]` header.
+ */
+interface EntityMedia {
+  /** 
+   * Fixed string id starting with `media.` and containing the zoo ID where
+   * the photo was taken, and two panda names (in English)
+   */
+  _id: string,
+  /**
+   * YYYY/MM/DD representing the day this panda was added to redpandafinder,
+   * for the sake of showing newly-added pandas on the front page.
+   */
+  commitdate: string,
+  /** Comma-separated list of numeric fixed identifiers for animals in the photo */
+  "panda.tags": PandaTags,
+  /** A set of photos of multiple animals */
+  photos: MediaPhoto[]
+  /** Type discriminator to quickly deduce what kind of photo-containing object */
+  type: "media"
 }
 
 /**
@@ -302,6 +372,8 @@ interface EntityZoo {
   website: string,
 }
 
+type Entity = EntityLinks | EntityMedia | EntityPanda | EntityWild | EntityZoo
+
 /** 
  * Panda results are an enrichment of the panda entity info tracked in the
  * Dagobah graph.
@@ -440,4 +512,15 @@ interface ResultZoo {
   recordedCount: number,
   /** The URL of the zoo's website */
   website: string
+}
+
+type Edge = {
+  _in: string,
+  _out: string,
+  _label: string
+}
+
+interface Graph {
+  edges: Edge[],
+  vertices: (EntityLinks | EntityMedia | EntityPanda | EntityWild | EntityZoo)[]
 }

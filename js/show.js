@@ -35,7 +35,7 @@ export function acquirePandaInfo(animal, language) {
           "death": Pandas.date(animal, "death", language),
             "dad": Pandas.searchPandaDad(animal["_id"]),
          "gender": Pandas.gender(animal, language),
-       "get_name": language + ".name",
+       "get_name": `${language}.name`,
              "id": animal["_id"],
        "language": language,
  "language_order": Pandas.language_order(animal),
@@ -82,8 +82,8 @@ function getZooBundle(location, language) {
         "end_date": Pandas.formatDate(location["end_date"], language),
               "id": Pandas.zooField(zoo, "_id"),
   "language_order": Pandas.language_order(zoo),
-        "location": Pandas.zooField(zoo, language + ".location"),
-            "name": Pandas.zooField(zoo, language + ".name"),
+        "location": Pandas.zooField(zoo, `${language}.location`),
+            "name": Pandas.zooField(zoo, `${language}.name`),
       "start_date": Pandas.formatDate(location["start_date"], language)
     }
   }
@@ -111,16 +111,16 @@ export function acquireZooInfo(zoo, language) {
   const recorded = Pandas.searchPandaZooBornLived(zoo["_id"])
   let bundle = {
        "animals": animals,
-       "address": Pandas.zooField(zoo, language + ".address"),
+       "address": Pandas.zooField(zoo, `${language}.address`),
   "animal_count": animals.length,
         "closed": Pandas.zooField(zoo, "closed"),
-      "get_name": language + ".name",
+      "get_name": `${language}.name`,
             "id": zoo["_id"],
       "language": language,
 "language_order": Pandas.language_order(zoo),
-      "location": Pandas.zooField(zoo, language + ".location"),
+      "location": Pandas.zooField(zoo, `${language}.location`),
            "map": Pandas.zooField(zoo, "map"),
-          "name": Pandas.zooField(zoo, language + ".name"),
+          "name": Pandas.zooField(zoo, `${language}.name`),
          "photo": picture['photo'],
   "photo_credit": picture['photo.author'],
    "photo_index": picture['photo.index'],
@@ -421,7 +421,7 @@ function nicknames(animal) {
   const container = document.createElement('ul')
   container.className = "nicknameList"
   for (let language of animal["language.order"].split(", ")) {
-    const nicknames = animal[language + ".nicknames"]
+    const nicknames = animal[`${language}.nicknames`]
     if (nicknames == undefined)
       continue
     const nicknames_list = []
