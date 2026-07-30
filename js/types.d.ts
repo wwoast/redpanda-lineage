@@ -34,13 +34,11 @@ type NameByLanguage = {
   [L in Language]?: string;
 }
 
-/** Nicknames for pandas or zoos, in each of our supported languages */
-type NicknamesByLanguage = {
-  [L in Language]?: string[];
-}
-
-/** Searchable alternate names for pandas or zoos, in a supported language */
-type OthernamesByLanguage = {
+/** 
+ * Nicknames, othernames, or oldnames for pandas or zoos, in each of our
+ * supported languages
+ */
+type NameListByLanguage = {
   [L in Language]?: string[];
 }
 
@@ -226,12 +224,12 @@ interface NodePanda {
    * Cute nicknames that fans might know this animal by. You cannot search for
    * these names in the redpandafinder search form.
    */
-  nicknames: NicknamesByLanguage,
+  nicknames: NameListByLanguage,
   /**
    * Previous names, or commonly used names for this panda. These _are_
    * searchable in the redpandafinder search form.
    */
-  othernames: OthernamesByLanguage,
+  othernames: NameListByLanguage,
   /** A panda likely has some set of photos and attributions */
   photos: Photo[],
   /** 
@@ -359,7 +357,7 @@ interface NodeZoo {
    * Previous names, or commonly used names for this zoo. These _are_
    * searchable in the redpandafinder search form.
    */
-  othernames: OthernamesByLanguage,
+  othernames: NameListByLanguage,
   /** A zoo likely has some set of photos and attributions */
   photos: Photo[],
   /** 
@@ -520,7 +518,17 @@ type Edge = {
   _label: string
 }
 
+/** The `Dagoba.G` graph object */
 interface Graph {
+  /** auto-incrementing id assigned when a vertex is inserted into the graph */
+  autoid: number
+  /** 
+   * In the graph, a gremlin finds search results by traversing edges to find
+   * nodes with the desired properties.
+   */
   edges: Edge[],
-  vertices: GraphNode[]
+  /** pandas and zoos, as well as extraneous things to search for */
+  vertices: GraphNode[],
+  /** Index of vertices by their auto-id */
+  vertexIndex: Record<number, GraphNode>,
 }

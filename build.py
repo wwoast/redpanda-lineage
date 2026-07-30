@@ -73,35 +73,6 @@ class RedPandaGraph:
         # TODO: graph traverse and date checking
         pass
 
-    def check_dataset_children_ids(self):
-        """Check the panda children IDs to ensure they form a family tree.
-
-        - The children IDs should be valid for only one red panda file
-        - There should be no loops / I'm my own grandpa situations
-        - Each child should have a mother and a father
-
-        This requires the entire children edge dataset to have been read.
-        We make stacks of child -> parent -> grandparent ... paths,
-        and look for any duplicate IDs in the stacks.
-
-        Only run this check on nodes just added to the dataset.
-        """
-        # Start with the set of pandas that have no children
-        childless_ids = [p['_id'] for p in self.vertices
-                       if (p['children'] == "none" 
-                           or p['children'] == "unknown")]
-        # Finish with the pandas that have no recorded parents
-        all_child_ids = [x['_out'] for x in self.edges]
-        parentless_ids = [y for y in range(1, self.sum_pandas())
-                            if y not in all_child_ids]
-        # Sets of edges we can start or finish on
-        starting_edges = [s for s in self.edges 
-                            if s['_out'] in childless_ids]
-        finishing_edges = [f for f in self.edges
-                             if f['in'] in parentless_ids]
-        # This is hard to write :)
-        pass
-
     def check_dataset_litter_ids(self):
         """Check that pandas in the same litter have the same birthday."""
         litter_edges = [a for a in self.edges if a['_label'] == "litter"]

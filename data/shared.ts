@@ -1,15 +1,15 @@
+/** Keep consistent with the `NodeType` type definition */
+export const nodeTypes: NodeType[] = ["links", "media", "panda", "wild", "zoo"]
+/** Keep consistent with the `SupportedLanguages` enum definition */
+export const supportedLanguages: Language[] = ["en", "es", "ja", "ko", "ne", "pt", "zh"]
+
 export function ensureNodeType(input: string) {
-  /** Keep consistent with the `NodeType` type definition */
-  const nodeTypes: string[] = ["links", "media", "panda", "wild", "zoo"]
-  if (nodeTypes.includes(input))
+  if ((nodeTypes as string[]).includes(input))
     return input as NodeType
 }
 
 export function ensureLanguage(input: string) {
-  /** Keep consistent with the `SupportedLanguages` enum definition */
-  const supportedLanguages: string[] =
-    ["en", "es", "ja", "ko", "ne", "pt", "zh"]
-  if (supportedLanguages.includes(input))
+  if ((supportedLanguages as string[]).includes(input))
     return input as Language
 }
 
