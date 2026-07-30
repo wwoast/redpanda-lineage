@@ -518,17 +518,13 @@ type Edge = {
   _label: string
 }
 
-/** The `Dagoba.G` graph object */
+/** The serialized output of a _Dagoba_ graph object */
 interface Graph {
-  /** auto-incrementing id assigned when a vertex is inserted into the graph */
-  autoid: number
   /** 
    * In the graph, a gremlin finds search results by traversing edges to find
    * nodes with the desired properties.
    */
   edges: Edge[],
   /** pandas and zoos, as well as extraneous things to search for */
-  vertices: GraphNode[],
-  /** Index of vertices by their auto-id */
-  vertexIndex: Record<number, GraphNode>,
+  vertices: GraphNode[]
 }

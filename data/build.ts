@@ -100,13 +100,14 @@ const files: Record<string, string[]> = {
  * primitive and object types for use in TypeScript.
  */
 class Dataset {
-  data: Graph = Dagoba.graph()
+  data = <Graph>{}
   /** Lists of files ingested during an ingest */
   files = files
   /** Pre-calculated metrics for the redpandafinder dataset */
   rpf = rpf
 
   constructor() {
+    
     this.buildGraph()
   }
 
