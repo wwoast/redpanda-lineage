@@ -100,14 +100,15 @@ const files: Record<string, string[]> = {
  * primitive and object types for use in TypeScript.
  */
 class Dataset {
-  data = <Graph>{}
+  /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
+  graph: undefined
   /** Lists of files ingested during an ingest */
   files = files
   /** Pre-calculated metrics for the redpandafinder dataset */
   rpf = rpf
 
   constructor() {
-    
+    this.graph = Dagoba.graph() 
     this.buildGraph()
   }
 
@@ -126,7 +127,7 @@ class Dataset {
    * Only run this check on nodes just added to the dataset.
    */
   assertCorrectChildrenIds() { 
-    const pandas = this.data.vertices.filter(v => v.type == "panda")
+    const pandas = this.graph.vertices.filter(v => v.type == "panda")
     /*
       def check_dataset_children_ids(self):
           # Start with the set of pandas that have no children
