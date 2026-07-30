@@ -39,22 +39,83 @@
     ported away from 'code golf' to es6 and classes/typescript by Justin Fairchild, 2026
 */
 
+/** Edges submitted as arguments may just have references to vertexes by id */
+type DanglingEdge = {
+  _in: number,
+  _label: string,
+  _out: number,
+  [k: string]: any
+}
+
+/** 
+ * Real edges in the graph have one in-vertex, one out-vertex, one label, and
+ * any other string-keyed properties you want.
+ */
+type Edge = {
+  _in: Vertex,
+  _label: string
+  _out: Vertex,
+  [k: string]: any
+}
+
+/**
+ * Vertices have a numeric private ID number, any number of incoming and
+ * outgoing edges, and any other string-indexed properties you want.
+ */
+type Vertex = {
+  _id: number,
+  _in: Edge[],
+  _out: Edge[],
+  [k: string]: any
+}
+
+/** Wanderers through the graph */
+type Gremlin = {
+  vertex: Vertex,
+  result?: any,
+  state: State
+}
+
+type MaybeGremlin = false | 'done' | 'pull' | Gremlin
+
+type PipetypeFunction = (...args: any[]) => MaybeGremlin
+
+/** The name of a pipetype, and the arguments to that function */
+type Step = [pipeType: string, args: any[]]
+
+/** A filter or result. Edges or vertices can match on any properties. */
+type Result = {
+  [k: string]: any
+}
+type Filter = Result
+
+/** Arbitrary state for the Gremlin to track. Always points at vertices */
+type State = {
+  edges?: Vertex[],
+  vertices?: Vertex[],
+  [k: string]: any
+}
+
+/** When traversing the graph, you can return nodes in either direction */
+type Direction = "in" | "out" | "both"
+
 class Graph {
   autoid = 1
-  edges = []
-  vertices = []
-  vertexIndex = {}
+  edges: Edge[] = []
+  vertices: Vertex[] = []
+  vertexIndex: Record<string, Vertex> = {}
 
-  constructor(V, E) {
+  constructor(V: Vertex[], E: DanglingEdge[]) {
     if (Array.isArray(V)) this.addVertices(V)   // arrays only, because you wouldn't
     if (Array.isArray(E)) this.addEdges(E)      // call this with singular V and E
   }
 
   /** accepts an edge-like object, with properties */
-  // TODO TS: define edge type by _in and _out and _label
-  addEdge(edge) {
-    edge._in = this.findVertexById(edge._in)
-    edge._out = this.findVertexById(edge._out)
+  addEdge(input: DanglingEdge) {
+    const edge = {...input, ...{
+      _in: this.findVertexById(input._in),
+      _out: this.findVertexById(input._out)
+    }}
     if (!(edge._in && edge._out))
       return error(`That edge's ${edge._in ? 'out' : 'in'} vertex wasn't found`)
     edge._out._out.push(edge)   // add edge to the edge's out vertex's out edges
@@ -62,13 +123,13 @@ class Graph {
     this.edges.push(edge)
   }
 
-  addEdges(edges) {
+  addEdges(edges: DanglingEdge[]) {
     edges.forEach(edge => this.addEdge(edge))
   }
 
   /** accepts a vertex-like object, with properties */
   // TODO TS: id | undefined, rather than truthiness around id
-  addVertex(vertex) {
+  addVertex(vertex: Vertex) {
     // ensure autoid doesn't overwrite
     if (vertex._id >= this.autoid)
       this.autoid = vertex._id + 1
@@ -84,33 +145,34 @@ class Graph {
     return vertex._id
   }
 
-  addVertices(vertices) {
+  addVertices(vertices: Vertex[]) {
     vertices.forEach(vertex => this.addVertex(vertex))
   }
 
-  findInEdges(vertex) {
+  findInEdges(vertex: Vertex) {
     return vertex._in
   }
 
-  findOutEdges(vertex) {
+  findOutEdges(vertex: Vertex) {
     return vertex._out
   }
 
-  findVertexById(vertex_id) {
+  findVertexById(vertex_id: number) {
     return this.vertexIndex[vertex_id]
   }
 
   /** our general vertex finding function */
-  findVertices(args) {
+  findVertices(args: Filter[] | number[]) {
     if (typeof args[0] == 'object')
       return this.searchVertices(args[0])
+    // OPT: slice is costly with lots of vertices
     else if (args.length == 0)
-      return this.vertices.slice() // OPT: slice is costly with lots of vertices
+      return this.vertices.slice()
     else
-      return this.findVerticesByIds(args)
+      return this.findVerticesByIds(args as number[])
   }
 
-  findVerticesByIds(ids) {
+  findVerticesByIds(ids: number[]) {
     if (ids.length == 1) {
       // maybe_vertex is either a vertex or undefined
       const maybe_vertex = this.findVertexById(ids[0])
@@ -119,13 +181,13 @@ class Graph {
     return ids.map(id => this.findVertexById(id)).filter(Boolean)
   }
 
-  removeEdge(edge) {
+  removeEdge(edge: Edge) {
     remove(edge._in._in, edge)
     remove(edge._out._out, edge)
     remove(this.edges, edge)
   }
 
-  removeVertex(vertex) {
+  removeVertex(vertex: Vertex) {
     vertex._in.slice().forEach(edge => this.removeEdge(edge))
     vertex._out.slice().forEach(edge => this.removeEdge(edge))
     remove(this.vertices, vertex)
@@ -133,10 +195,8 @@ class Graph {
   }
 
   /** find vertices that match obj's key-value pairs */
-  searchVertices(filter) {
-    return this.vertices.filter(function (vertex) {
-      return objectFilter(vertex, filter)
-    })
+  searchVertices(filter: Filter) {
+    return this.vertices.filter((vertex) => objectFilter(vertex, filter))
   }
 
   /** serialization */
@@ -145,40 +205,60 @@ class Graph {
   }
 
   /** A query initializer: g.v() -> query */
-  v() {
+  v(...args: any[]) {
     const query = new Query(this)
-    query.add('vertex', [].slice.call(arguments))   // add vertex as first query pipe
+    query.add('vertex', args)   // add vertex as first query pipe
     return query
   }
 }
 
+/** The `Query` class also has pipetype functions instantiated against it, so */
+interface Query {
+  /** add a new step to the query */
+  add: (pipetype: string, args: any[]) => Query,
+  /** The dagoba graph a query operates on */
+  graph: Graph,
+  /** List of gremlins for each step */
+  gremlins: Gremlin[],
+  /** List of steps to take (pipeType names and function arguments) */
+  program: Step[],
+  /** Our virtual machine for query processing */
+  run: () => (Vertex | Result)[],
+  /** List of state values for each step in this query */
+  state: State[],
+  /** 
+   * Support defining pipetype functions on the query class. This is the
+   * secret sauce primitive that makes `G.v().output().output().run()`-style
+   * methods chaining work.
+   */
+  [k: string]: any
+}
+
 class Query {
-  graph = undefined
-  gremlins = []   // gremlins for each step
-  program = []   // list of steps to take
-  state = []   // state for each step
+  graph
+  gremlins: Gremlin[] = []
+  program: Step[] = []
+  state: State[] = []
 
   /** factory (only called by a graph's query initializers) */
-  constructor(graph) {
-    query.graph = graph   // the graph itself
-    return query;
+  constructor(graph: Graph) {
+    this.graph = graph
+    return this
   }
 
-  /** add a new step to the query */
-  add(pipetype, args) {
-    const step = [pipetype, args]
+  add = (pipetype: string, args: any[]): Query => {
+    const step = [pipetype, args] as Step
     this.program.push(step)   // step is an array: first the pipe type, then its args
     return this
   }
 
-  /** our virtual machine for query processing */
-  run() {
+  run = (): (Vertex | Result)[] => {
     // activate the transformers
     this.program = transform(this.program)
     // last step in the program
     const max = this.program.length - 1
     // a gremlin, a signal string, or false
-    let maybe_gremlin = false
+    let maybe_gremlin: MaybeGremlin = false
     // results for this particular run
     let results = []
     // behind which things have finished
@@ -230,79 +310,85 @@ class Query {
 
 // PIPE TYPES
 
-const Pipetypes = {}   // every pipe has a type
+const Pipetypes: Record<string, PipetypeFunction> = {}   // every pipe has a type
 
-function addPipetype(name, fun) {
+function addPipetype(name: string, fun: PipetypeFunction) {
   // adds a new method to our query object
-  // TODO: WAT (classes?)
   Pipetypes[name] = fun
-  Dagoba.Q[name] = function () {
-    return this.add(name, [].slice.apply(arguments))
-  }   // capture the pipetype and args
+  Query.prototype[name] = function(...args: any[]) {
+    return this.add(name, args)   // capture the pipetype and args
+  }
 }
 
 /** if you can't find a pipe type */
-function fauxPipetype(_graph, _args, maybe_gremlin) {
+function fauxPipetype(_graph: Graph, _args: any[], maybe_gremlin: MaybeGremlin, _state: State) {
   return maybe_gremlin || 'pull'   // just keep things flowing along
 }
 
-function getPipetype(name) {
+function getPipetype(name: string): PipetypeFunction {
   const pipetype = Pipetypes[name]   // a pipe type is just a function
-  if (!pipetype) error(`Unrecognized pipe type: ${name}`)
+  if (!pipetype)
+    error(`Unrecognized pipe type: ${name}`)
   return pipetype || fauxPipetype
 }
 
 // BUILT-IN PIPE TYPES
 
-addPipetype('vertex', function (graph, args, gremlin, state) {
+addPipetype('vertex', function(graph: Graph, args: any[], gremlin: Gremlin, state: State) {
   // state initialization
-  if (!state.vertices) state.vertices = graph.findVertices(args)
+  if (!state.vertices)
+    state.vertices = graph.findVertices(args)
   // all done
   if (!state.vertices.length)
     return 'done'
-  const vertex = state.vertices.pop()   // OPT: this relies on cloning the vertices
-  return makeGremlin(vertex, gremlin.state)   // we can have incoming gremlins from as/back queries
+  // OPT: this relies on cloning the vertices
+  const vertex = state.vertices.pop() as Vertex
+  // we can have incoming gremlins from as/back queries
+  return makeGremlin(vertex, gremlin.state)
 })
 
-function simpleTraversal(dir) {
+function simpleTraversal(dir: Direction) {
   // handles basic in, out and both pipetypes
-  function get_edges(graph, dir, vertex, filter) {
+  function get_edges(graph: Graph, dir: Direction, vertex: Vertex, filter: Filter) {
     // get edges that match our query
     const find_method = dir === 'out' ? 'findOutEdges' : 'findInEdges'
     const other_side = dir === 'out' ? '_in' : '_out'
     return graph[find_method](vertex)
       .filter(filterEdges(filter))
-        .map((edge) => edge[other_side])
+        .map((edge: Edge) => edge[other_side])
   }
-  return function (graph, args, gremlin, state) {
+  return function (graph: Graph, args: any[], gremlin: Gremlin, state: State) {
     if (!gremlin && (!state.edges || !state.edges.length))   // query initialization
       return 'pull'
     // state initialization
     if (!state.edges || !state.edges.length) {
-      state.gremlin = gremlin;
-      state.edges = get_edges(graph, dir, gremlin.vertex, args[0]);
+      state.gremlin = gremlin
+      state.edges = get_edges(graph, dir, gremlin.vertex, args[0])
       if (dir === 'both')
         state.edges = state.edges.concat(get_edges(graph, 'out', gremlin.vertex, args[0]))
     }
     // all done
     if (!state.edges.length)
       return 'pull'
-    const vertex = state.edges.pop()   // use up an edge
+    // use up an edge
+    // TODO: clearly define edges vs vertexes
+    const vertex = state.edges.pop() as Vertex
     return gotoVertex(state.gremlin, vertex)
   }
 }
 
-addPipetype('in', Dagoba.simpleTraversal('in'))
-addPipetype('out', Dagoba.simpleTraversal('out'))
-addPipetype('both', Dagoba.simpleTraversal('both'))
-addPipetype('property', function (_graph, args, gremlin, _state) {
+addPipetype('in', simpleTraversal('in'))
+addPipetype('out', simpleTraversal('out'))
+addPipetype('both', simpleTraversal('both'))
+addPipetype('property', function(_graph: Graph, args: any[], gremlin: Gremlin, _state: State) {
   // query initialization
   if (!gremlin) return 'pull'
-  gremlin.result = gremlin.vertex[args[0]]
+  gremlin.result = (gremlin.vertex)
+    ? gremlin.vertex[args[0]] : null
   // undefined or null properties kill the gremlin
   return gremlin.result == null ? false : gremlin
 })
-addPipetype('unique', function (_graph, _args, gremlin, state) {
+addPipetype('unique', function(_graph: Graph, _args: any[], gremlin: Gremlin, state: State) {
   // query initialization
   if (!gremlin) return 'pull'
   // we've seen this gremlin, so get another instead
@@ -310,9 +396,10 @@ addPipetype('unique', function (_graph, _args, gremlin, state) {
   state[gremlin.vertex._id] = true
   return gremlin
 });
-addPipetype('filter', function (_graph, args, gremlin, _state) {
+addPipetype('filter', function(_graph: Graph, args: any[], gremlin: Gremlin, _state: State) {
   // query initialization
   if (!gremlin) return 'pull'
+  if (!gremlin.vertex) return false
   // filter by object
   if (typeof args[0] == 'object')
     return objectFilter(gremlin.vertex, args[0]) ? gremlin : 'pull'
@@ -325,7 +412,7 @@ addPipetype('filter', function (_graph, args, gremlin, _state) {
     return 'pull'
   return gremlin
 })
-addPipetype('take', function (_graph, args, gremlin, state) {
+addPipetype('take', function(_graph: Graph, args: any[], gremlin: Gremlin, state: State) {
   // state initialization
   state.taken = state.taken || 0
   // all done
@@ -338,7 +425,7 @@ addPipetype('take', function (_graph, args, gremlin, state) {
   state.taken++   // THINK: if this didn't mutate state, we could be more
   return gremlin  // cavalier about state management (but run the GC hotter)
 })
-addPipetype('as', function (_graph, args, gremlin, _state) {
+addPipetype('as', function(_graph: Graph, args: any[], gremlin: Gremlin, _state: State) {
   // query initialization
   if (!gremlin) return 'pull'
   // initialize gremlin's 'as' state
@@ -347,20 +434,20 @@ addPipetype('as', function (_graph, args, gremlin, _state) {
   gremlin.state.as[args[0]] = gremlin.vertex
   return gremlin
 })
-addPipetype('back', function (_graph, args, gremlin, _state) {
+addPipetype('back', function(_graph: Graph, args: any[], gremlin: Gremlin, _state: State) {
   // query initialization
   if (!gremlin) return 'pull'
   // TODO: check for nulls
   return gotoVertex(gremlin, gremlin.state.as[args[0]])
 })
-addPipetype('except', function (_graph, args, gremlin, _state) {
+addPipetype('except', function(_graph: Graph, args: any[], gremlin: Gremlin, _state: State) {
   // query initialization
   if (!gremlin) return 'pull'
   // TODO: check for nulls
   if (gremlin.vertex == gremlin.state.as[args[0]]) return 'pull'
   return gremlin
 });
-addPipetype('merge', function (_graph, args, gremlin, state) {
+addPipetype('merge', function(_graph: Graph, args: number[], gremlin: Gremlin, state: State) {
   //// THINK: merge and back are very similar...
   // query initialization
   if (!state.vertices && !gremlin) return 'pull'
@@ -372,23 +459,29 @@ addPipetype('merge', function (_graph, args, gremlin, state) {
   // done with this batch
   if (!state.vertices.length)
     return 'pull'
-  const vertex = state.vertices.pop()
+  const vertex = state.vertices.pop() as Vertex
   return makeGremlin(vertex, gremlin.state)
 })
 
 // TRANSFORMER FUNCTIONS (to optimize queries)
 
-const Transformers = []
+type Transformer = {
+  fun: Function,
+  priority: number
+}
 
-function addTransformer(fun, priority) {
+const Transformers: Transformer[] = []
+
+export function addTransformer(fun: Function, priority: number) {
   if (typeof fun != 'function') return error('Invalid transformer function')
-  for (let i = 0; i < Transformers.length; i++) // OPT: binary search
+  let i
+  for (i = 0; i < Transformers.length; i++) // OPT: binary search
     if (priority > Transformers[i].priority)
       break
   Transformers.splice(i, 0, { priority: priority, fun: fun })
 }
 
-function transform(program) {
+function transform(program: Step[]) {
   return Transformers.reduce(function (acc, transformer) {
     return transformer.fun(acc)
   }, program)
@@ -396,29 +489,13 @@ function transform(program) {
 
 // HELPER FUNCTIONS
 
-function clone(graph) {
-  const G = cloneflat(graph)
-  return new Graph(G.V, G.E)
-}
-
-function cloneflat(graph) {
-  return parseJSON(jsonify(graph))
-}
-
-/** Read the graph out from localStorage */
-function depersist(name) {
-  name = 'DAGOBA::' + (name || 'graph')
-  const flatgraph = localStorage.getItem(name)
-  return Dagoba.fromString(flatgraph)
-}
-
-function error(msg) {
+function error(msg: string) {
   console.log(msg)
   return false
 }
 
-function filterEdges(filter) {
-  return function (edge) {
+function filterEdges(filter: Filter) {
+  return function(edge: Edge) {
     // if there's no filter, everything is valid
     if (!filter)
       return true
@@ -427,30 +504,32 @@ function filterEdges(filter) {
       return edge._label == filter
     // if the filter is an array, the label must be in it
     if (Array.isArray(filter))
-      return !!~filter.indexOf(edge._label)
+      return filter.includes(edge._label)
     // try the filter as an object
     return objectFilter(edge, filter)
   }
 }
 
 /** another graph constructor */
-function fromString(str) {
+export function fromString(str: string) {
   const obj = parseJSON(str)   // this could throw
   if (!obj) return null
-  return Dagoba.graph(obj.V, obj.E)
+  return new Graph(obj.V, obj.E)
 }
 
-function gotoVertex(gremlin, vertex) {
+function gotoVertex(gremlin: Gremlin, vertex: Vertex) {
   // clone the gremlin
   return makeGremlin(vertex, gremlin.state)   // THINK: add path tracking here?
 }
 
 /** kids, don't hand code JSON */
-function jsonify(graph) {
-  function cleanEdge(key, value) {
+function jsonify(graph: Graph) {
+  /** convert vertexes to just their ids */
+  function cleanEdge(key: string, value: Vertex) {
     return key == '_in' || key == '_out' ? value._id : value
   }
-  function cleanVertex(key, value) {
+  /** remove edges from vertexes */
+  function cleanVertex(key: string, value: Edge) {
     return key == '_in' || key == '_out' ? undefined : value
   }
   return '{"V":' + JSON.stringify(graph.vertices, cleanVertex) +
@@ -459,37 +538,31 @@ function jsonify(graph) {
 }
 
 /** Gremlins are simple creatures: a current vertex, and some state */
-function makeGremlin(vertex, state) {
+function makeGremlin(vertex: Vertex, state: State): Gremlin {
   return { 
     vertex: vertex,
-    state: state || {} 
+    state: state || {}
   }
 }
 
 /** thing has to match all of filter's properties */
-function objectFilter(thing, filter) {
+function objectFilter(thing: Edge | Vertex, filter: Filter) {
   for (const key in filter) if (thing[key] !== filter[key]) return false
   return true
 }
 
-function parseJSON(str) {
+function parseJSON(str: string) {
   try {
     return JSON.parse(str)
   } catch (err) {
-    error('Invalid JSON', err)
+    error(`Invalid JSON: ${err}`)
     return null
   }
 }
 
-/** Write the graph into localStorage */
-function persist(graph, name) {
-  name = name || 'graph'
-  localStorage.setItem('DAGOBA::' + name, graph)
-}
-
 /** Remove an item from a list of nodes or edges */
-function remove(list, item) {
+function remove(list: any[], item: any) {
   return list.splice(list.indexOf(item), 1)
 }
 
-export default Dagoba
+export default Graph
