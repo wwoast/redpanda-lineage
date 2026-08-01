@@ -39,6 +39,14 @@
     ported away from 'code golf' to es6 and classes/typescript by Justin Fairchild, 2026
 */
 
+/** Vertices submitted as arguments may not have ids, or edges defined yet. */
+type CandidateVertex = {
+  _id?: number | string,
+  _in?: Edge[],
+  _out?: Edge[],
+  [k: string]: any
+}
+
 /** Edges submitted as arguments may just have references to vertexes by id */
 type DanglingEdge = {
   _in: number,
@@ -105,7 +113,7 @@ class Graph {
   vertices: Vertex[] = []
   vertexIndex: Record<string, Vertex> = {}
 
-  constructor(V: Vertex[], E: DanglingEdge[]) {
+  constructor(V?: CandidateVertex[], E?: DanglingEdge[]) {
     if (Array.isArray(V)) this.addVertices(V)   // arrays only, because you wouldn't
     if (Array.isArray(E)) this.addEdges(E)      // call this with singular V and E
   }
@@ -128,24 +136,24 @@ class Graph {
   }
 
   /** accepts a vertex-like object, with properties */
-  // TODO TS: id | undefined, rather than truthiness around id
-  addVertex(vertex: Vertex) {
+  addVertex(vertex: CandidateVertex) {
     // ensure autoid doesn't overwrite
-    if (vertex._id >= this.autoid)
+    if (typeof vertex._id == 'number' && vertex._id >= this.autoid)
       this.autoid = vertex._id + 1
     if (!vertex._id)
-      this.autoid++
+      vertex._id = ++this.autoid
     else if (this.findVertexById(vertex._id))
       return error(`A vertex with id ${vertex._id} already exists`)
-    this.vertices.push(vertex)
-    this.vertexIndex[vertex._id] = vertex
     // placeholders for edge pointers
     vertex._out = []
     vertex._in = []
+    // now the CandidateVertex is a full Vertex
+    this.vertices.push(vertex as Vertex)
+    this.vertexIndex[`${vertex._id}`] = vertex as Vertex
     return vertex._id
   }
 
-  addVertices(vertices: Vertex[]) {
+  addVertices(vertices: CandidateVertex[]) {
     vertices.forEach(vertex => this.addVertex(vertex))
   }
 
@@ -157,8 +165,8 @@ class Graph {
     return vertex._out
   }
 
-  findVertexById(vertex_id: number) {
-    return this.vertexIndex[vertex_id]
+  findVertexById(vertex_id: number | string) {
+    return this.vertexIndex[`${vertex_id}`]
   }
 
   /** our general vertex finding function */
@@ -212,7 +220,10 @@ class Graph {
   }
 }
 
-/** The `Query` class also has pipetype functions instantiated against it, so */
+/**
+ * The `Query` class also has pipetype functions instantiated against it at
+ * runtime, so it needs to support arbitrary string entries on the object.
+ */
 interface Query {
   /** add a new step to the query */
   add: (pipetype: string, args: any[]) => Query,
@@ -233,7 +244,6 @@ interface Query {
    */
   [k: string]: any
 }
-
 class Query {
   graph
   gremlins: Gremlin[] = []
@@ -399,7 +409,6 @@ addPipetype('unique', function(_graph: Graph, _args: any[], gremlin: Gremlin, st
 addPipetype('filter', function(_graph: Graph, args: any[], gremlin: Gremlin, _state: State) {
   // query initialization
   if (!gremlin) return 'pull'
-  if (!gremlin.vertex) return false
   // filter by object
   if (typeof args[0] == 'object')
     return objectFilter(gremlin.vertex, args[0]) ? gremlin : 'pull'
@@ -474,7 +483,7 @@ const Transformers: Transformer[] = []
 
 export function addTransformer(fun: Function, priority: number) {
   if (typeof fun != 'function') return error('Invalid transformer function')
-  let i
+  let i: number
   for (i = 0; i < Transformers.length; i++) // OPT: binary search
     if (priority > Transformers[i].priority)
       break

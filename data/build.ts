@@ -1,4 +1,4 @@
-import Dagoba from '../js/dagoba.js'
+import Graph from './dagoba.ts'
 import * as ini from '@std/ini'
 import { join } from '@std/path'
 import { git } from '@roka/git'
@@ -93,72 +93,62 @@ const files: Record<string, string[]> = {
   zoo: []
 }
 
-/** 
+/**
  * This Red Panda Lineage dataset builder takes all source input data and
  * creates a JSON file intended for family tree querying. It deserializes all
  * input strings from the ConfigParser-format `.ini` files into the intended
- * primitive and object types for use in TypeScript.
+ * primitive and object types for use in TypeScript. It also canonicalizes
+ * many of the values, and removes null content to save space.
+ * 
+ * In general, any validity checks we can enforce on single pandas or zoos in
+ * the graph, we do as the data is imported. TOWRITE: `validate.ts` to do
+ * full graph validation logic. 
  */
-class Dataset {
+interface Dataset {
   /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
-  graph: undefined
+  graph: Graph,
   /** Lists of files ingested during an ingest */
-  files = files
+  files: Record<string, string[]>,
   /** Pre-calculated metrics for the redpandafinder dataset */
+  rpf: RedPandaFinderMetrics
+}
+class Dataset {
+  graph
+  files = files
   rpf = rpf
 
+  /** 
+   * Read in all files to build a red panda graph. Verification of panda data
+   * requires location records to be read first.
+   */
   constructor() {
-    this.graph = Dagoba.graph() 
-    this.buildGraph()
+    this.graph = new Graph()
+    this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
+    this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
+    this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
+    this.importTree(Paths.media, this.importMedia, this.verifyMedia)
+    this.importTree(Paths.links, this.importLinks, this.verifyLinks)
   }
 
   /**
-   * Check the panda children IDs to ensure they form a family tree.
-   * 
-   * - The children IDs should be valid for only one red panda file
-   * 
-   * - There should be no loops / I'm my own grandpa situations
-   * 
-   * - Each child should have a mother and a father
-   * 
-   * We make stacks of child -> parent -> grandparent ... paths,
-   * and look for any duplicate IDs in the stacks.
-   * 
-   * Only run this check on nodes just added to the dataset.
+   * The reviver functions convert fields that should be dates into `Date()`
+   * objects, but we assert valid dates in the `process*` functions so that
+   * the debugging output doesn't suck.
    */
-  assertCorrectChildrenIds() { 
-    const pandas = this.graph.vertices.filter(v => v.type == "panda")
-    /*
-      def check_dataset_children_ids(self):
-          # Start with the set of pandas that have no children
-          childless_ids = [p['_id'] for p in self.vertices
-                        if (p['children'] == "none" 
-                            or p['children'] == "unknown")]
-          # Finish with the pandas that have no recorded parents
-          all_child_ids = [x['_out'] for x in self.edges]
-          parentless_ids = [y for y in range(1, self.sum_pandas())
-                              if y not in all_child_ids]
-          # Sets of edges we can start or finish on
-          starting_edges = [s for s in self.edges 
-                              if s['_out'] in childless_ids]
-          finishing_edges = [f for f in self.edges
-                              if f['in'] in parentless_ids]
-          # This is hard to write :)
-          pass
-    */  
+  assertDateExistsAndIsValid(path: string, key: string, value: Date) {
+    if (value.toString() == 'Invalid Date')
+      throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}`)
+    if (!value)
+      throw new Error(`ERR: ${path}: missing date: ${key}`)
   }
 
-  /** 
-   * TODO: Run checks against the complete tree of red panda dates.
-   *
-   *   - Birth date and date of death should not be reversed.
-   * 
-   *   - Child pandas should not be born before the parent.
-   * 
-   *   - Child pandas should not be born after the parent died.
-   */
-  assertDatasetDates() {
-    const pandas = this.data.vertices.filter(v => v.type == "panda")
+  /** If the link for an author is not a recognized URL format, throw */
+  assertImportedAuthorLink(path: string, link: string) {
+    const validLinkProtocols = ["http://", "https://", "ig://"]
+    const match = validLinkProtocols.filter(
+      protocol => link.indexOf(protocol) == 0)
+    if (match.length == 0)
+      throw new Error(`ERR: ${path}: ${link}: not a valid URL`)
   }
 
   /** Any animal name is limited to 100 characters in length at import */
@@ -167,7 +157,26 @@ class Dataset {
       throw new Error(`ERR: ${path}: name too long: ${name}`)
   }
 
+  /** 
+   * Panda date checks for a single animal:
+   *
+   *   - All dates for an animal should be valid
+   * 
+   *   - Birth date and date of death should not be reversed.
+   */
+  assertIndividualPandaDates(path: string, vertex: Record<string, any>) {
+    this.assertDateExistsAndIsValid(path, "birthday", vertex.birthday)
+    this.assertDateExistsAndIsValid(path, "commitdate", vertex.commitdate)
+    // Animals that passed away need valid dates of death
+    if (vertex.death) {
+      this.assertDateExistsAndIsValid(path, "death", vertex.death)
+      if (vertex.birthday > vertex.death)
+        throw new Error(`ERR: ${path}: birthday occurs after date of death`)
+    }
+  }
+
   /** Complain if two vertices in the graph have the same `_id` value */
+  // TODO: unify GraphNode types with Vertex types
   assertNoDuplicateDatasetIds(vertices: GraphNode[]) {
     const duplicateIds = vertices
       .map(v => v._id)
@@ -187,16 +196,34 @@ class Dataset {
     }
   }
 
+  /** Panda and Zoo ids must be integers */
+  assertValidPandaOrZooId(path: string, key: string, value: string) {
+    if (isNaN(parseInt(value)))
+      throw new Error(`ERR: ${path}: ${key}: invalid id: ${value}`)
+  }
+
+  /** Unknown genders are inferred by their omission */
+  canonicalizeGender(vertex: Record<string, any>) {
+    if (vertex.gender == "f") vertex.gender = "Female"
+    if (vertex.gender == "m") vertex.gender = "Male"
+  }
+
   /** 
-   * Read in all files to build a red panda graph. Verification of panda data
-   * requires location records to be read first.
+   * Print a warning, and return true if the field has a URL. Assert functions
+   * can wrap this to enforce / throw if they like.
    */
-  buildGraph() {
-    this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
-    this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
-    this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
-    this.importTree(Paths.media, this.importMedia, this.verifyMedia)
-    this.importTree(Paths.links, this.importLinks, this.verifyLinks)
+  checkFieldIsAUrl(path: string, key: string, value: string, warn: boolean) {
+    const urlCheck = (value.indexOf("http") == 0)
+    if (urlCheck == true && warn)
+      console.warn(`WARN: ${path}: ${key} should not be a URL`)
+    return urlCheck
+  }
+
+  /** Shrink export JSON by eliding any unkown/none values where possible */
+  deleteNoneOrUnknownFields(vertex: Record<string, any>) {
+    const undesirables = ["none", "unknown"]
+    Object.keys(vertex).forEach(key =>
+      undesirables.includes(vertex[key]) && delete vertex[key])
   }
 
   /**
@@ -213,7 +240,7 @@ class Dataset {
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.links, "links") as NodeLinks
-    this.data.   // TODO Oh shit, let's just make this a class
+    this.graph.addVertex(node)
     this.files.links.push(path)
   }
 
@@ -232,7 +259,7 @@ class Dataset {
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
-    this.data.vertices.push(node)
+    this.graph.addVertex(node)
     this.files.links.push(path)
   }
 
@@ -253,7 +280,7 @@ class Dataset {
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.panda, "panda") as NodeMedia
-    this.data.vertices.push(node)
+    this.graph.addVertex(node)
     this.files.links.push(path)
   }
 
@@ -311,7 +338,7 @@ class Dataset {
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.wild, "wild") as NodeMedia
-    this.data.vertices.push(node)
+    this.graph.addVertex(node)
     this.files.links.push(path)
   }
 
@@ -330,8 +357,20 @@ class Dataset {
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.zoo, "zoo") as NodeMedia
-    this.data.vertices.push(node)
+    this.graph.addVertex(node)
     this.files.links.push(path)
+  }
+
+  /** Increment the panda/zoo/media/wild counts */
+  incrementEntityMetrics(vertex: Record<string, any>) {
+    const entityMetric = 
+      (vertex.type == "panda") ? "pandas" :
+      (vertex.type == "zoo") ? "zoos" :
+      (vertex.type == "media") ? "media" :
+      (vertex.type == "wild") ? "wild" :
+      undefined
+    if (entityMetric != undefined)
+      this.rpf.totals[entityMetric]++
   }
 
   /**
@@ -356,15 +395,30 @@ class Dataset {
    * and automatically validate.
    */
   processNode(path: string, vertex: Record<string, any>, type: NodeType): GraphNode {
-    this.processNodeLanguageKeys(path, vertex)
-    switch(type) {
-      case "links":
-      case "media":
-      case "panda":
-      case "wild":
-      case "zoo":
-    }
+    // Ship the type with the graph node prior to processing
     vertex.type = type
+    this.processNodeLanguageKeys(path, vertex)
+    this.incrementEntityMetrics(vertex)
+    // No processing for links nodes _shrug_
+    switch(vertex.type) {
+      case "media":
+        this.processNodePhotos(path, vertex)
+        break
+      case "panda":
+        this.processNodePhotos(path, vertex)
+        this.processNodeLocations(path, vertex)
+        this.deleteNoneOrUnknownFields(vertex)
+        this.canonicalizeGender(vertex)
+        break
+      case "wild":
+        this.processNodePhotos(path, vertex)
+        break
+      case "zoo":
+        this.processNodePhotos(path, vertex)
+        break
+      default:
+        break
+    }
     return vertex as GraphNode
   }
 
@@ -429,6 +483,8 @@ class Dataset {
     const name: NameByLanguage = {}
     name[language] = vertex[field]
     vertex[suffix] = {...vertex[suffix], ...name}
+    // Once `name[en]` is written, delete `en.name`
+    delete vertex[`${language}.${field}`]
   }
 
   /** 
@@ -445,6 +501,82 @@ class Dataset {
     const nameList: NameListByLanguage = {}
     nameList[language] = vertex[field].split(", ")
     vertex[suffix] = {...vertex[suffix], ...{nameList}}
+    // Once `nicknames[en] is written, delete `en.nicknames`
+    delete vertex[`${language}.${field}`]
+  }
+
+  /** 
+   * For a panda, convert `location.X` blocks to an array of locations the
+   * panda has lived at. Throws if dates or zoo ids are malformed, or if the
+   * `birthday` field of the panda doesn't match.
+   */
+  processNodeLocations(path: string, vertex: Record<string, any>) {
+    vertex.locations = []
+    // Iterate on just the `location.X` fields
+    Object.keys(vertex).filter(key => key.match(/location\.\d+$/)).forEach(locationKey => {
+      const [zoo, dateString] = vertex[locationKey].split(", ")
+      const date = new Date(dateString)
+      this.assertValidPandaOrZooId(path, locationKey, zoo)
+      this.assertDateExistsAndIsValid(path, locationKey, date)
+      if (date != vertex.birthday)
+        throw new Error(`ERR: ${path}: ${locationKey}: doesn't match birthday ${vertex.birthday}`)
+      const location = {
+        zoo: zoo,
+        date: date
+      }
+      vertex.locations.push(location)
+      // TODO: check the last location matches the most recent zoo
+      // Once location[] is written, delete the old location key
+      delete vertex[locationKey]
+    })
+  }
+
+  /** 
+   * Convert `photo.X` blocks to an array of photo values. Warns if any of the
+   * author fields are URLs and not straight strings, and throws if the
+   * commitdate is not valid.
+   */
+  processNodePhotos(path: string, vertex: Record<string, any>) {
+    vertex.photos = []
+    // Iterate on just the `photo.X:` fields
+    Object.keys(vertex).filter(key => key.match(/photo\.\d+$/)).forEach(photoKey => {
+      // Increment photo and author credits, if the author field isn't borked
+      const author = vertex[`${photoKey}.author`]
+      if (this.checkFieldIsAUrl(path, `${photoKey}.author`, author, true) == false) {
+        this.rpf.photos.credit[author]++
+        this.rpf.totals.photos++
+      }
+      // Throw if the commitdate is missing or fat-fingered
+      const commitdate = vertex[`${photoKey}.commitdate`]
+      this.assertDateExistsAndIsValid(path, `${photoKey}.commitdate`, commitdate)
+      // Turn `photo.1` into the first item in the photos array
+      const photo = <Photo>{
+        author: author,
+        commitdate: commitdate,
+        source: vertex[`${photoKey}.link`],
+        tags: vertex[`${photoKey}.tags`].split(", "),
+        url: vertex[`${photoKey}`]
+      }
+      vertex.photos.push(photo)
+    })
+    // Once photos[] is written, delete all old photo keys
+    Object.keys(vertex).filter(key => key.match(/photo\./))
+      .forEach(oldPhotoKey => delete vertex[oldPhotoKey])
+  }
+
+    /**
+   * For each `photo.X.author` field in a vertex, increment the counters
+   * for an author and for totals. Requires `processNodePhotos` to run
+   * for the metric collecting to work.
+   */
+  incrementPhotoMetrics(vertex: Record<string, any>) {
+    Object.keys(vertex)
+      .filter(field => field.endsWith(".author"))
+        .map(field => {
+          const author = vertex[field] as string
+          this.rpf.photos.credit[author]++
+          this.rpf.totals.photos++
+        })
   }
 
   /**
@@ -540,27 +672,27 @@ class Dataset {
 
   verifyLinks() {
     this.assertNoDuplicateDatasetIds(
-      this.data.vertices.filter(v => v.type == "link"))
+      this.graph.vertices.filter(v => v.type == "link"))
   }
 
   verifyMedia() {
     this.assertNoDuplicateDatasetIds(
-      this.data.vertices.filter(v => v.type == "media"))
+      this.graph.vertices.filter(v => v.type == "media"))
   }
 
   verifyPanda() {
     this.assertNoDuplicateDatasetIds(
-      this.data.vertices.filter(v => v.type == "panda"))
+      this.graph.vertices.filter(v => v.type == "panda"))
   }
 
   verifyWilds() {
     this.assertNoDuplicateDatasetIds(
-      this.data.vertices.filter(v => v.type == "wild"))
+      this.graph.vertices.filter(v => v.type == "wild"))
   }
 
   verifyZoos() {
     this.assertNoDuplicateDatasetIds(
-      this.data.vertices.filter(v => v.type == "zoo"))
+      this.graph.vertices.filter(v => v.type == "zoo"))
   }
 }
 
