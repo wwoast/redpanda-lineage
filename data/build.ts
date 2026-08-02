@@ -110,7 +110,9 @@ const files: Record<string, string[]> = {
  * 
  * TODO: treat all RPF ids as numbers, and use the type discriminator plus
  * the id number to determine the full identifier of all items. This means ids
- * might be missing if there's a conflict between zoos and wilds. 
+ * might be missing if there's a conflict between zoos and wilds, or zoos and
+ * pandas. But this should be OK as long as the ids themselves don't encode
+ * type information. 
  */
 interface Dataset {
   /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
@@ -155,6 +157,47 @@ class Dataset {
   assertDateIsValid(path: string, key: string, value: string) {
     if (!value) return   // no check
     else return this.assertDateExistsAndIsValid(path, key, value)
+  }
+
+  /** 
+   * All litters should be born to the same parents, no more than two days
+   * apart from each other. Will also complain if any litter id values don't
+   * point to an actual panda.
+   */
+  assertGraphHasFeasibleLitters() {
+    function compareLittermateBirthdays(a: string, b: string): boolean {
+      // wild-caught litters may not have known birthdays
+      if ((a == "unknown") || (b == "unknown"))
+        return true
+      const dateA = new Date(a)
+      const dateB = new Date(b)
+      const maxLitterDifference = 60 * 60 * 24   // one day, in seconds
+      // If either date is invalid, this will return false
+      return (Math.abs(dateB.getTime() - dateA.getTime()) > maxLitterDifference)
+    }
+    const litterEdges = this.graph.edges.filter(edge => edge._label == "litter")
+    const seen_pairs: [number, number][] = []
+    litterEdges.map(edge => {
+      // in the graph, edges point to vertexes
+      const pair: [number, number] = [edge._in._id, edge._out._id]
+      if (pair.filter(value => value == undefined).length > 0)
+        throw new Error(`ERR: possible misrecorded litter value: ${edge}`)
+      if (!seen_pairs.includes(pair))
+        if (!compareLittermateBirthdays(edge._in.birthday, edge._out.birthday))
+          throw new Error(
+            `ERR: litter birthdays don't match: ` + 
+            `${edge._in._id}: ${edge._in.name["en"]}, ` + 
+            `${edge._out._id}: ${edge._out.name["en"]}`)
+    })
+  }
+
+  /** 
+   * For each panda, verify it has no children who are their own parents or
+   * grandparents. Also verify children weren't born more than 48 hours after
+   * the mother passed away (fathers can pass away before the child is born).
+   */
+  assertGraphHasNoCycles() {
+    // TODO TOWRITE
   }
 
   /** If the link for an author is not a recognized URL format, throw */
@@ -791,6 +834,8 @@ class Dataset {
   verifyPanda() {
     const pandaNodes = this.graph.vertices.filter(v => v.type == "panda")
     this.assertNoDuplicateDatasetIds(pandaNodes)
+    this.assertGraphHasFeasibleLitters()
+    this.assertGraphHasNoCycles()
   }
 
   verifyWilds() {
