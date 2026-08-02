@@ -49,7 +49,7 @@ type CandidateVertex = {
 
 /** Edges submitted as arguments may just have references to vertexes by id */
 type DanglingEdge = {
-  _in: number,
+  _in: number | string,
   _label: string,
   _out: number,
   [k: string]: any

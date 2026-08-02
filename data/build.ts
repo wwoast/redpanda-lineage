@@ -11,7 +11,11 @@ import { Paths,
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
- * tracked in the _redpanda-lineage_ repository.
+ * tracked in the _redpanda-lineage_ repository. Unlike previous Python
+ * versions of the redpandafinder JSON-dataset build script, the export of
+ * this process is the Dagoba graph database serialized to disk. This gives
+ * our builder script the ability to use graph queries to determine correctness
+ * of the input data.
  */
 
 interface PhotoMetrics {
@@ -102,7 +106,11 @@ const files: Record<string, string[]> = {
  * 
  * In general, any validity checks we can enforce on single pandas or zoos in
  * the graph, we do as the data is imported. TOWRITE: `validate.ts` to do
- * full graph validation logic. 
+ * full graph validation logic.
+ * 
+ * TODO: treat all RPF ids as numbers, and use the type discriminator plus
+ * the id number to determine the full identifier of all items. This means ids
+ * might be missing if there's a conflict between zoos and wilds. 
  */
 interface Dataset {
   /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
@@ -140,6 +148,12 @@ class Dataset {
       throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}`)
     if (!value)
       throw new Error(`ERR: ${path}: missing date: ${key}`)
+  }
+
+  /** If date is present, assure it is checked */
+  assertDateIsValid(path: string, key: string, value: Date) {
+    if (!value) return   // no check
+    else return this.assertDateExistsAndIsValid(path, key, value)
   }
 
   /** If the link for an author is not a recognized URL format, throw */
@@ -202,6 +216,17 @@ class Dataset {
       throw new Error(`ERR: ${path}: ${key}: invalid id: ${value}`)
   }
 
+  /** 
+   * Animals w/o location fields need birthplace and current zoo to match.
+   * Unknown birthplaces (-1) are omitted from this check.
+   */
+  assertYoungPandaLocation(path: string, vertex: Record<string, any>) {
+    if (!vertex.locations && vertex.birthplace != -1)
+      if (vertex.birthplace != vertex.zoo)
+        throw new Error(
+          `ERR: ${path}: for new pandas, birthplace and zoo should be the same`)
+  }
+
   /** Unknown genders are inferred by their omission */
   canonicalizeGender(vertex: Record<string, any>) {
     if (vertex.gender == "f") vertex.gender = "Female"
@@ -224,6 +249,77 @@ class Dataset {
     const undesirables = ["none", "unknown"]
     Object.keys(vertex).forEach(key =>
       undesirables.includes(vertex[key]) && delete vertex[key])
+  }
+
+  /**
+   * For pandas, litter/siblings/children relationships get edges. Eventually
+   * the parent relationships may as well. The tracking of panda ids in these
+   * lists as numbers, happens here.
+   */
+  edgesForPandaFamilies(vertex: Record<string, any>) {
+    if (vertex.children) {
+      vertex.children.map((item: string) => {
+        if (item.includes("/")) {
+          const [childId, childPercent] = vertex.children.trim().split(" ")
+          this.graph.addEdge({
+            "_in": parseInt(childId),
+            "_label": "family",
+            "_out": vertex._id,
+            "probability": childPercent
+          })
+        } else {
+          const childId = item
+          this.graph.addEdge({
+            "_in": parseInt(childId),
+            "_label": "family",
+            "_out": vertex._id
+          })
+        }
+      })
+    }
+    if (vertex.litter) {
+      vertex.litter.map((litterId: string) => this.graph.addEdge({
+        "_in": parseInt(litterId),
+        "_label": "litter",
+        "_out": vertex._id
+      }))
+    }
+  }
+
+  /** 
+   * Turn birthplace and zoo into edges that point from a panda, to a zoo
+   * entity. Zoo edges have negative numbers
+   */
+  edgesForPandaLocations(vertex: Record<string, any>) {
+    if (vertex.birthplace) {
+      // Wild locations are string IDs
+      if (vertex.birthplace.indexOf("wild") == 0) {
+        this.graph.addEdge({
+          "_in": vertex.birthplace,
+          "_label": "birthplace",
+          "_out": vertex._id
+        })
+      // Zoo IDs are cast to negative numbers when added to the graph
+      } else {
+        this.graph.addEdge({
+          "_in": parseInt(vertex.birthplace) * -1,
+          "_label": "birthplace",
+          "_out": vertex._id
+        })
+      }
+      // Now tracked as an edge, not a vertex property
+      delete vertex.birthplace
+    }
+    // Zoo IDs are cast to negative numbers when added to the graph
+    if (vertex.zoo) {
+      this.graph.addEdge({
+        "_in": parseInt(vertex.zoo) * -1,
+        "_label": "zoo",
+        "_out": vertex._id
+      })
+      // Now tracked as an edge, not a vertex property
+      delete vertex.zoo
+    }
   }
 
   /**
@@ -407,6 +503,9 @@ class Dataset {
       case "panda":
         this.processNodePhotos(path, vertex)
         this.processNodeLocations(path, vertex)
+        this.assertYoungPandaLocation(path, vertex)
+        this.edgesForPandaFamilies(vertex)
+        this.edgesForPandaLocations(vertex)
         this.deleteNoneOrUnknownFields(vertex)
         this.canonicalizeGender(vertex)
         break
@@ -415,6 +514,7 @@ class Dataset {
         break
       case "zoo":
         this.processNodePhotos(path, vertex)
+        this.assertDateIsValid(path, "closed", vertex.closed)
         break
       default:
         break
@@ -513,7 +613,8 @@ class Dataset {
   processNodeLocations(path: string, vertex: Record<string, any>) {
     vertex.locations = []
     // Iterate on just the `location.X` fields
-    Object.keys(vertex).filter(key => key.match(/location\.\d+$/)).forEach(locationKey => {
+    const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
+    locationKeys.forEach(locationKey => {
       const [zoo, dateString] = vertex[locationKey].split(", ")
       const date = new Date(dateString)
       this.assertValidPandaOrZooId(path, locationKey, zoo)
@@ -525,7 +626,10 @@ class Dataset {
         date: date
       }
       vertex.locations.push(location)
-      // TODO: check the last location matches the most recent zoo
+      // Check the last location matches the most recent zoo
+      if (locationKeys.indexOf(locationKey) == locationKeys.length - 1)
+        if (location.zoo != vertex.zoo)
+          throw new Error(`ERR: ${path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
       // Once location[] is written, delete the old location key
       delete vertex[locationKey]
     })
@@ -620,10 +724,15 @@ class Dataset {
     if (section != "panda")
       return value   // Shouldn't happen
     switch (true) {
+      case (key.includes("_id")):
+        return parseInt(value as string)
       case (key.includes("birthday")):
       case (key.includes("commitdate")):
       case (key.includes("death")):
         return new Date(value as string)
+      case (key.includes("children")):
+      case (key.includes("litter")):
+        return (value as string).split(", ")
       case (key == "language.order"):
         return (value as string).split(", ") as Language[]
       case (key.includes("tags")):
@@ -653,11 +762,16 @@ class Dataset {
   /**
    * When importing data from plaintext files with `[zoo]` data, convert any
    * primitive values into types we can better use or validate in TypeScript.
+   *
+   * Note the hack for ensuring all connected graph data has integers while
+   * zoo IDs and panda IDs don't collide -- zoo IDs become negative numbers!
    */
   reviveZooNode(key: string, value: unknown, section?: string): any {
     if (section != "zoo")
       return value   // Shouldn't happen
     switch (true) {
+      case (key.includes("_id")):
+        return parseInt(value as string) * -1
       case (key.includes("closed")):
       case (key.includes("commitdate")):
         return new Date(value as string)
