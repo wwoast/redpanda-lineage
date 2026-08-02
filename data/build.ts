@@ -143,15 +143,16 @@ class Dataset {
    * objects, but we assert valid dates in the `process*` functions so that
    * the debugging output doesn't suck.
    */
-  assertDateExistsAndIsValid(path: string, key: string, value: Date) {
-    if (value.toString() == 'Invalid Date')
-      throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}`)
+  assertDateExistsAndIsValid(path: string, key: string, value: string) {
     if (!value)
       throw new Error(`ERR: ${path}: missing date: ${key}`)
+    const date = new Date(value)
+    if (date.toString() == 'Invalid Date')
+      throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}: ${value}`)
   }
 
   /** If date is present, assure it is checked */
-  assertDateIsValid(path: string, key: string, value: Date) {
+  assertDateIsValid(path: string, key: string, value: string) {
     if (!value) return   // no check
     else return this.assertDateExistsAndIsValid(path, key, value)
   }
@@ -616,14 +617,13 @@ class Dataset {
     const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
     locationKeys.forEach(locationKey => {
       const [zoo, dateString] = vertex[locationKey].split(", ")
-      const date = new Date(dateString)
       this.assertValidPandaOrZooId(path, locationKey, zoo)
-      this.assertDateExistsAndIsValid(path, locationKey, date)
-      if (date != vertex.birthday)
-        throw new Error(`ERR: ${path}: ${locationKey}: doesn't match birthday ${vertex.birthday}`)
+      this.assertDateExistsAndIsValid(path, locationKey, dateString)
+      if (dateString != vertex.birthday)
+        throw new Error(`ERR: ${path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       const location = {
         zoo: zoo,
-        date: date
+        date: dateString
       }
       vertex.locations.push(location)
       // Check the last location matches the most recent zoo
@@ -706,8 +706,6 @@ class Dataset {
     if (section != "media")
       return value   // Shouldn't happen
     switch (true) {
-      case (key.includes("commitdate")):
-        return new Date(value as string)
       case (key.includes("location")):
       case (key.includes("tags")):
         return (value as string).split(", ")
@@ -726,10 +724,6 @@ class Dataset {
     switch (true) {
       case (key.includes("_id")):
         return parseInt(value as string)
-      case (key.includes("birthday")):
-      case (key.includes("commitdate")):
-      case (key.includes("death")):
-        return new Date(value as string)
       case (key.includes("children")):
       case (key.includes("litter")):
         return (value as string).split(", ")
@@ -750,8 +744,6 @@ class Dataset {
     if (section != "wild")
       return value   // Shouldn't happen
     switch (true) {
-      case (key.includes("commitdate")):
-        return new Date(value as string)
       case (key == "language.order"):
         return (value as string).split(", ") as Language[]
       default:
@@ -772,9 +764,6 @@ class Dataset {
     switch (true) {
       case (key.includes("_id")):
         return parseInt(value as string) * -1
-      case (key.includes("closed")):
-      case (key.includes("commitdate")):
-        return new Date(value as string)
       case (key == "language.order"):
         return (value as string).split(", ") as Language[]
       case (key.includes("tags")):
@@ -785,28 +774,28 @@ class Dataset {
   }
 
   verifyLinks() {
-    this.assertNoDuplicateDatasetIds(
-      this.graph.vertices.filter(v => v.type == "link"))
+    const linksNodes = this.graph.vertices.filter(v => v.type == "link")
+    this.assertNoDuplicateDatasetIds(linksNodes)
   }
 
   verifyMedia() {
-    this.assertNoDuplicateDatasetIds(
-      this.graph.vertices.filter(v => v.type == "media"))
+    const mediaNodes = this.graph.vertices.filter(v => v.type == "media")
+    this.assertNoDuplicateDatasetIds(mediaNodes)
   }
 
   verifyPanda() {
-    this.assertNoDuplicateDatasetIds(
-      this.graph.vertices.filter(v => v.type == "panda"))
+    const pandaNodes = this.graph.vertices.filter(v => v.type == "panda")
+    this.assertNoDuplicateDatasetIds(pandaNodes)
   }
 
   verifyWilds() {
-    this.assertNoDuplicateDatasetIds(
-      this.graph.vertices.filter(v => v.type == "wild"))
+    const wildNodes = this.graph.vertices.filter(v => v.type == "wild")
+    this.assertNoDuplicateDatasetIds(wildNodes)
   }
 
   verifyZoos() {
-    this.assertNoDuplicateDatasetIds(
-      this.graph.vertices.filter(v => v.type == "zoo"))
+    const zooNodes = this.graph.vertices.filter(v => v.type == "zoo")
+    this.assertNoDuplicateDatasetIds(zooNodes)
   }
 }
 
