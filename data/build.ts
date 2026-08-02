@@ -179,14 +179,14 @@ class Dataset {
    * 
    *   - Birth date and date of death should not be reversed.
    */
-  assertIndividualPandaDates(path: string, vertex: Record<string, any>) {
-    this.assertDateExistsAndIsValid(path, "birthday", vertex.birthday)
-    this.assertDateExistsAndIsValid(path, "commitdate", vertex.commitdate)
+  assertIndividualPandaDates(vertex: Record<string, any>) {
+    this.assertDateExistsAndIsValid(vertex.path, "birthday", vertex.birthday)
+    this.assertDateExistsAndIsValid(vertex.path, "commitdate", vertex.commitdate)
     // Animals that passed away need valid dates of death
     if (vertex.death) {
-      this.assertDateExistsAndIsValid(path, "death", vertex.death)
+      this.assertDateExistsAndIsValid(vertex.path, "death", vertex.death)
       if (vertex.birthday > vertex.death)
-        throw new Error(`ERR: ${path}: birthday occurs after date of death`)
+        throw new Error(`ERR: ${vertex.path}: birthday occurs after date of death`)
     }
   }
 
@@ -221,11 +221,11 @@ class Dataset {
    * Animals w/o location fields need birthplace and current zoo to match.
    * Unknown birthplaces (-1) are omitted from this check.
    */
-  assertYoungPandaLocation(path: string, vertex: Record<string, any>) {
+  assertYoungPandaLocation(vertex: Record<string, any>) {
     if (!vertex.locations && vertex.birthplace != -1)
       if (vertex.birthplace != vertex.zoo)
         throw new Error(
-          `ERR: ${path}: for new pandas, birthplace and zoo should be the same`)
+          `ERR: ${vertex.path}: for new pandas, birthplace and zoo should be the same`)
   }
 
   /** Unknown genders are inferred by their omission */
@@ -492,29 +492,32 @@ class Dataset {
    * and automatically validate.
    */
   processNode(path: string, vertex: Record<string, any>, type: NodeType): GraphNode {
+    // For easier diagnostics, record the path a node's data originated from
+    vertex.path = path
     // Ship the type with the graph node prior to processing
     vertex.type = type
-    this.processNodeLanguageKeys(path, vertex)
+    this.processNodeLanguageKeys(vertex)
     this.incrementEntityMetrics(vertex)
     // No processing for links nodes _shrug_
     switch(vertex.type) {
       case "media":
-        this.processNodePhotos(path, vertex)
+        this.processNodePhotos(vertex)
         break
       case "panda":
-        this.processNodePhotos(path, vertex)
-        this.processNodeLocations(path, vertex)
-        this.assertYoungPandaLocation(path, vertex)
+        this.assertIndividualPandaDates(vertex)
+        this.processNodePhotos(vertex)
+        this.processNodeLocations(vertex)
+        this.assertYoungPandaLocation(vertex)
         this.edgesForPandaFamilies(vertex)
         this.edgesForPandaLocations(vertex)
         this.deleteNoneOrUnknownFields(vertex)
         this.canonicalizeGender(vertex)
         break
       case "wild":
-        this.processNodePhotos(path, vertex)
+        this.processNodePhotos(vertex)
         break
       case "zoo":
-        this.processNodePhotos(path, vertex)
+        this.processNodePhotos(vertex)
         this.assertDateIsValid(path, "closed", vertex.closed)
         break
       default:
@@ -533,7 +536,7 @@ class Dataset {
    *                         }
    * ```
    */
-  processNodeLanguageKeys(path: string, vertex: Record<string, any>) {
+  processNodeLanguageKeys(vertex: Record<string, any>) {
     const languageKeyedFields =
       ["address", "location", "name", "nicknames", "oldnames", "othernames"]
     const possibleLanguageVertexFields = languageKeyedFields
@@ -552,14 +555,14 @@ class Dataset {
         case "name":
           this.processNodeLanguageString(vertex, field, suffix, language as Language)
           const name = vertex[suffix][language] as string
-          this.processName(path, name)
+          this.processName(vertex.path, name)
           break
         case "nicknames":
         case "oldnames":
         case "othernames":
           this.processNodeLanguageList(vertex, field, suffix, language as Language)
           const nameList = vertex[suffix][language] as string[]
-          nameList.forEach(name => this.processName(path, name))
+          nameList.forEach(name => this.processName(vertex.path, name))
           break
         default:
           throw new Error(`ERR: unrecognized input field: ${field}`)
@@ -611,16 +614,17 @@ class Dataset {
    * panda has lived at. Throws if dates or zoo ids are malformed, or if the
    * `birthday` field of the panda doesn't match.
    */
-  processNodeLocations(path: string, vertex: Record<string, any>) {
+  processNodeLocations(vertex: Record<string, any>) {
     vertex.locations = []
     // Iterate on just the `location.X` fields
     const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
     locationKeys.forEach(locationKey => {
       const [zoo, dateString] = vertex[locationKey].split(", ")
-      this.assertValidPandaOrZooId(path, locationKey, zoo)
-      this.assertDateExistsAndIsValid(path, locationKey, dateString)
+      this.assertValidPandaOrZooId(vertex.path, locationKey, zoo)
+      this.assertDateExistsAndIsValid(vertex.path, locationKey, dateString)
       if (dateString != vertex.birthday)
-        throw new Error(`ERR: ${path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
+        throw new Error(
+          `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       const location = {
         zoo: zoo,
         date: dateString
@@ -629,7 +633,8 @@ class Dataset {
       // Check the last location matches the most recent zoo
       if (locationKeys.indexOf(locationKey) == locationKeys.length - 1)
         if (location.zoo != vertex.zoo)
-          throw new Error(`ERR: ${path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
+          throw new Error(
+            `ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
       // Once location[] is written, delete the old location key
       delete vertex[locationKey]
     })
@@ -640,19 +645,19 @@ class Dataset {
    * author fields are URLs and not straight strings, and throws if the
    * commitdate is not valid.
    */
-  processNodePhotos(path: string, vertex: Record<string, any>) {
+  processNodePhotos(vertex: Record<string, any>) {
     vertex.photos = []
     // Iterate on just the `photo.X:` fields
     Object.keys(vertex).filter(key => key.match(/photo\.\d+$/)).forEach(photoKey => {
       // Increment photo and author credits, if the author field isn't borked
       const author = vertex[`${photoKey}.author`]
-      if (this.checkFieldIsAUrl(path, `${photoKey}.author`, author, true) == false) {
+      if (this.checkFieldIsAUrl(vertex.path, `${photoKey}.author`, author, true) == false) {
         this.rpf.photos.credit[author]++
         this.rpf.totals.photos++
       }
       // Throw if the commitdate is missing or fat-fingered
       const commitdate = vertex[`${photoKey}.commitdate`]
-      this.assertDateExistsAndIsValid(path, `${photoKey}.commitdate`, commitdate)
+      this.assertDateExistsAndIsValid(vertex.path, `${photoKey}.commitdate`, commitdate)
       // Turn `photo.1` into the first item in the photos array
       const photo = <Photo>{
         author: author,
