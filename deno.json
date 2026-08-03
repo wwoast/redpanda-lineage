@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "types": ["./data/types.d.ts"]
+  },
   "imports": {
     "dagoba": "./ts/dagoba.ts",
     "diff": "npm:diff@^9.0.0",
@@ -11,6 +14,5 @@
     "build": {
       "command": "deno run -A --no-config ./data/build.ts"
     }
-  },
-  "types": ["./data/types.d.ts"]
+  }
 }

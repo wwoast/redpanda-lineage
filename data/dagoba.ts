@@ -39,6 +39,29 @@
     ported away from 'code golf' to es6 and classes/typescript by Justin Fairchild, 2026
 */
 
+/** 
+ * Real edges in the graph have one in-vertex, one out-vertex, one label, and
+ * any other string-keyed properties you want.
+ */
+export type Edge = {
+  _in: Vertex,
+  _label: string
+  _out: Vertex,
+  [k: string]: any
+}
+
+/** 
+ * All node types in the graph should implement this vertex interafce. Vertices
+ * have a numeric or string private ID, and any number of incoming and outgoing
+ * edges. Extend this to add other kinds of typed fields.
+ */
+export interface Vertex {
+  _id: number | string,
+  _in: Edge[],
+  _out: Edge[],
+  [k: string]: any
+}
+
 /** Vertices submitted as arguments may not have ids, or edges defined yet. */
 type CandidateVertex = {
   _id?: number | string,
@@ -52,28 +75,6 @@ type DanglingEdge = {
   _in: number | string,
   _label: string,
   _out: number,
-  [k: string]: any
-}
-
-/** 
- * Real edges in the graph have one in-vertex, one out-vertex, one label, and
- * any other string-keyed properties you want.
- */
-export type Edge = {
-  _in: Vertex,
-  _label: string
-  _out: Vertex,
-  [k: string]: any
-}
-
-/**
- * Vertices have a numeric private ID number, any number of incoming and
- * outgoing edges, and any other string-indexed properties you want.
- */
-export type Vertex = {
-  _id: number | string,
-  _in: Edge[],
-  _out: Edge[],
   [k: string]: any
 }
 

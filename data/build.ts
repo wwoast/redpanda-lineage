@@ -3,11 +3,15 @@ import * as ini from '@std/ini'
 import { join } from '@std/path'
 import { git } from '@roka/git'
 import { Paths,
-         ensureLanguage,
-         ensureNodeType,
+         byIdAscending,
          existsDirSync,
          existsFileSync, 
-         supportedLanguages } from './shared.ts'
+         supportedLanguages,
+         toLinks,
+         toMedia,
+         toPandas,
+         toWilds,
+         toZoos } from './shared.ts'
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -203,9 +207,7 @@ class Dataset {
     const reviewedIds = new Set<number>()
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
-    const pandas =
-      this.graph.vertices.filter(vertex => vertex.type == "panda")
-        .sort((v1, v2) => v1._id - v2._id)
+    const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
     const cycleCheck = (seen: Set<number>, panda: NodePanda): NodePanda[] => {
       const parents = this.graph.v(panda).in("family").run() as NodePanda[]
       if (parents.length > 0) {
@@ -240,9 +242,7 @@ class Dataset {
    * away (fathers can pass away before the child is born).
    */
   assertGraphHasNoZombieChildren() {
-    const pandas =
-      this.graph.vertices.filter(vertex => vertex.type == "panda")
-        .sort((v1, v2) => v1._id - v2._id)
+    const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
     const zombies = pandas.map(panda =>
       this.graph.v(panda).in("family")
         .filter((relative: NodePanda) => relative.gender == "Female")
@@ -298,7 +298,6 @@ class Dataset {
   }
 
   /** Complain if two vertices in the graph have the same `_id` value */
-  // TODO: unify GraphNode types with Vertex types
   assertNoDuplicateDatasetIds(vertices: GraphNode[]) {
     const duplicateIds = vertices
       .map(v => v._id)
@@ -886,17 +885,17 @@ class Dataset {
   }
 
   verifyLinks() {
-    const linksNodes = this.graph.vertices.filter(v => v.type == "link")
+    const linksNodes = this.graph.vertices.reduce(toLinks, [])
     this.assertNoDuplicateDatasetIds(linksNodes)
   }
 
   verifyMedia() {
-    const mediaNodes = this.graph.vertices.filter(v => v.type == "media")
+    const mediaNodes = this.graph.vertices.reduce(toMedia, [])
     this.assertNoDuplicateDatasetIds(mediaNodes)
   }
 
   verifyPanda() {
-    const pandaNodes = this.graph.vertices.filter(v => v.type == "panda")
+    const pandaNodes = this.graph.vertices.reduce(toPandas, [])
     this.assertNoDuplicateDatasetIds(pandaNodes)
     this.assertGraphHasFeasibleLitters()
     this.assertGraphHasNoZombieChildren()
@@ -904,12 +903,12 @@ class Dataset {
   }
 
   verifyWilds() {
-    const wildNodes = this.graph.vertices.filter(v => v.type == "wild")
+    const wildNodes = this.graph.vertices.reduce(toWilds, [])
     this.assertNoDuplicateDatasetIds(wildNodes)
   }
 
   verifyZoos() {
-    const zooNodes = this.graph.vertices.filter(v => v.type == "zoo")
+    const zooNodes = this.graph.vertices.reduce(toZoos, [])
     this.assertNoDuplicateDatasetIds(zooNodes)
   }
 }
