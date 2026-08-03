@@ -194,18 +194,42 @@ class Dataset {
 
   /** 
    * For each panda, verify it has no children who are their own parents or
-   * grandparents.
+   * grandparents. TODO: cycle detection inside Dagoba itself
    */
   assertGraphHasNoCycles() {
-    const reviewedIds = new Set<string>()
+    const reviewedIds = new Set<number>()
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
     const pandas =
       this.graph.vertices.filter(vertex => vertex.type == "panda")
         .sort((v1, v2) => v1._id - v2._id)
-    // Detect children to mothers who were dead more than 48 hours before the
-    // panda themselves were born
-    
+    const cycleCheck = (seen: Set<number>, panda: NodePanda): NodePanda[] => {
+      const parents = this.graph.v(panda).in("family").run() as NodePanda[]
+      if (parents.length > 0) {
+        // True if someone was their own parent
+        const hasSeen = parents.map(p => p._id)
+          .map(id => seen.has(id))
+          .reduce((a, b) => a || b, false)
+        if (hasSeen)
+          return parents.filter(animal => seen.has(animal._id))
+        else {
+          parents.map(animal => seen.add(animal._id))
+          return parents.flatMap(animal => cycleCheck(seen, animal))
+        }          
+      }
+      return []   // No more parents to look through
+    }
+    const selfParents = pandas.flatMap(panda => {
+      const seen = new Set<number>()
+      seen.add(panda._id)
+      return cycleCheck(seen, panda)   // TODO: make NodePanda and Vertex consistent
+    })
+    if (selfParents.length > 0) {
+      throw new Error(
+        `ERR: ensure these animals are not their own parents:\n` +
+        selfParents.map(animal => `\t${animal._id}: ${animal.name["en"]}\n`)
+      )
+    }
   }
 
   /**
@@ -228,6 +252,7 @@ class Dataset {
           if (childBirthdate - motherDeathdate > maxWindow)
             return true
         })
+        .run()
     )
     if (zombies.length > 0) {
       throw new Error(
@@ -871,6 +896,7 @@ class Dataset {
     const pandaNodes = this.graph.vertices.filter(v => v.type == "panda")
     this.assertNoDuplicateDatasetIds(pandaNodes)
     this.assertGraphHasFeasibleLitters()
+    this.assertGraphHasNoZombieChildren()
     this.assertGraphHasNoCycles()
   }
 

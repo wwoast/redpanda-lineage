@@ -189,7 +189,7 @@ interface NodeMedia {
  */
 interface NodePanda {
   /** Numeric fixed identifier that we increment each time a panda is added */
-  _id: string,
+  _id: number,
   /** YYYY/MM/DD birthday string */
   birthday: string,
   /** Birthplace is the numeric string ID for where the animal was born */
@@ -315,7 +315,7 @@ interface NodeWild {
  */
 interface NodeZoo {
   /** Numeric fixed identifier that we increment each time a zoo is added */
-  _id: string,
+  _id: number,
   /** Street address string, represented in our supported languages */
   address: AddressByLanguage,
   /** When a zoo closes permanently, we record the date in YYYY/MM/DD format */
