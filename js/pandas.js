@@ -612,7 +612,7 @@ export function searchNonLitterSiblings(idnum) {
         const their_date = new Date(vertex.birthday)
         const timeDiff = Math.abs(my_date.getTime() - their_date.getTime())
         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24))
-        if ( diffDays > 2 )
+        if (diffDays > 2)
           return true
         else
           return false

@@ -171,7 +171,8 @@ class Dataset {
         return true
       const dateA = new Date(a)
       const dateB = new Date(b)
-      const maxLitterDifference = 60 * 60 * 24   // one day, in seconds
+      // one day, in milliseconds
+      const maxLitterDifference =  1000 * 60 * 60 * 24
       // If either date is invalid, this will return false
       return (Math.abs(dateB.getTime() - dateA.getTime()) > maxLitterDifference)
     }
@@ -193,11 +194,46 @@ class Dataset {
 
   /** 
    * For each panda, verify it has no children who are their own parents or
-   * grandparents. Also verify children weren't born more than 48 hours after
-   * the mother passed away (fathers can pass away before the child is born).
+   * grandparents.
    */
   assertGraphHasNoCycles() {
-    // TODO TOWRITE
+    const reviewedIds = new Set<string>()
+    // Family _out edges indicate pandas have a child. Family _in edges
+    // indicate that the panda is someone else's child.
+    const pandas =
+      this.graph.vertices.filter(vertex => vertex.type == "panda")
+        .sort((v1, v2) => v1._id - v2._id)
+    // Detect children to mothers who were dead more than 48 hours before the
+    // panda themselves were born
+    
+  }
+
+  /**
+   * Verify children weren't born more than 48 hours after the mother passed
+   * away (fathers can pass away before the child is born).
+   */
+  assertGraphHasNoZombieChildren() {
+    const pandas =
+      this.graph.vertices.filter(vertex => vertex.type == "panda")
+        .sort((v1, v2) => v1._id - v2._id)
+    const zombies = pandas.map(panda =>
+      this.graph.v(panda).in("family")
+        .filter((relative: NodePanda) => relative.gender == "Female")
+        .filter((mother: NodePanda) => {
+          const motherDeathdate = new Date(mother.death ?? panda.birthday).getTime()
+          const childBirthdate = new Date(panda.birthday).getTime()
+          const maxWindow = 1000 * 60 * 60 * 24 * 2   // two days, in millisenconds
+          if (isNaN(childBirthdate) || isNaN(motherDeathdate))
+            return false
+          if (childBirthdate - motherDeathdate > maxWindow)
+            return true
+        })
+    )
+    if (zombies.length > 0) {
+      throw new Error(
+        `ERR: Mothers died before children were born:\n` +
+        zombies.map(zombie => `\t${zombie.id}: ${zombie.name["en"]}\n`))
+    }
   }
 
   /** If the link for an author is not a recognized URL format, throw */

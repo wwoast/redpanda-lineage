@@ -203,6 +203,8 @@ interface NodePanda {
   commitdate: string,
   /** YYYY/MM/DD date of the animal's passing */
   death?: string,
+  /** Gender of the panda, omitted from the graph node if it is unknown */
+  gender?: "Female" | "Male"
   /**
    * Language order for how to prioritize displaying names when the current
    * display language doesn't have information for this animal. The insertion
