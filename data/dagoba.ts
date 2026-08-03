@@ -59,7 +59,7 @@ type DanglingEdge = {
  * Real edges in the graph have one in-vertex, one out-vertex, one label, and
  * any other string-keyed properties you want.
  */
-type Edge = {
+export type Edge = {
   _in: Vertex,
   _label: string
   _out: Vertex,
@@ -70,8 +70,8 @@ type Edge = {
  * Vertices have a numeric private ID number, any number of incoming and
  * outgoing edges, and any other string-indexed properties you want.
  */
-type Vertex = {
-  _id: number,
+export type Vertex = {
+  _id: number | string,
   _in: Edge[],
   _out: Edge[],
   [k: string]: any

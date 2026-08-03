@@ -1,3 +1,5 @@
+import type { Vertex } from '../data/dagoba.ts'
+
 /** 
  * Types in redpandafinder, organized in order from minor property types, to
  * larger principal objects that employ those property types.
@@ -146,7 +148,7 @@ type NodeType = "links" | "media" | "panda" | "wild" | "zoo"
  * The typescript representation of the text contents of
  * `links/<category>.txt` files with a `[links]` header.
  */
-interface NodeLinks {
+interface NodeLinks extends Vertex {
   /** Fixed string id prefixed with the word `links` */
   _id: string,
   link: URLLink,
@@ -157,7 +159,7 @@ interface NodeLinks {
  * The typescript representation of the text contents of
  * `media/<country>/<zoo>/<name1-name2.txt>` files with a `[media]` header.
  */
-interface NodeMedia {
+interface NodeMedia extends Vertex {
   /** 
    * Fixed string id starting with `media.` and containing the zoo ID where
    * the photo was taken, and two panda names (in English)
@@ -187,7 +189,7 @@ interface NodeMedia {
  * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
  * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
  */
-interface NodePanda {
+interface NodePanda extends Vertex {
   /** Numeric fixed identifier that we increment each time a panda is added */
   _id: number,
   /** YYYY/MM/DD birthday string */
@@ -280,7 +282,7 @@ type LocationByLanguage = {
  * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
  * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
  */
-interface NodeWild {
+interface NodeWild extends Vertex {
   /** 
    * Numeric fixed identifier that we increment for each place a wild panda
    * has been documented by science.
@@ -313,7 +315,7 @@ interface NodeWild {
  * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
  * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
  */
-interface NodeZoo {
+interface NodeZoo extends Vertex {
   /** Numeric fixed identifier that we increment each time a zoo is added */
   _id: number,
   /** Street address string, represented in our supported languages */
@@ -512,21 +514,4 @@ interface ResultZoo {
   recordedCount: number,
   /** The URL of the zoo's website */
   website: string
-}
-
-type Edge = {
-  _in: string,
-  _out: string,
-  _label: string
-}
-
-/** The serialized output of a _Dagoba_ graph object */
-interface Graph {
-  /** 
-   * In the graph, a gremlin finds search results by traversing edges to find
-   * nodes with the desired properties.
-   */
-  edges: Edge[],
-  /** pandas and zoos, as well as extraneous things to search for */
-  vertices: GraphNode[]
 }

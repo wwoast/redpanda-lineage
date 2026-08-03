@@ -1,6 +1,6 @@
 {
   "imports": {
-    "dagoba": "./js/dagoba.js",
+    "dagoba": "./ts/dagoba.ts",
     "diff": "npm:diff@^9.0.0",
     "@roka/git": "jsr:@roka/git@^0.4.0",
     "@std/fs": "jsr:@std/fs@^1.0.24",
@@ -11,5 +11,6 @@
     "build": {
       "command": "deno run -A --no-config ./data/build.ts"
     }
-  }
+  },
+  "types": ["./data/types.d.ts"]
 }

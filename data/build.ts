@@ -180,7 +180,10 @@ class Dataset {
     const seen_pairs: [number, number][] = []
     litterEdges.map(edge => {
       // in the graph, edges point to vertexes
-      const pair: [number, number] = [edge._in._id, edge._out._id]
+      const pair: [number, number] = [
+        (edge._in as NodePanda)._id,
+        (edge._out as NodePanda)._id
+      ]
       if (pair.filter(value => value == undefined).length > 0)
         throw new Error(`ERR: possible misrecorded litter value: ${edge}`)
       if (!seen_pairs.includes(pair))
