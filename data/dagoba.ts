@@ -499,6 +499,15 @@ function transform(program: Step[]) {
 
 // HELPER FUNCTIONS
 
+/** convert vertexes to just their ids */
+export function cleanEdge(key: string, value: Vertex) {
+  return key == '_in' || key == '_out' ? value._id : value
+}
+/** remove edges from vertexes */
+export function cleanVertex(key: string, value: Edge) {
+  return key == '_in' || key == '_out' ? undefined : value
+}
+
 function error(msg: string) {
   console.log(msg)
   return false
@@ -534,14 +543,6 @@ function gotoVertex(gremlin: Gremlin, vertex: Vertex) {
 
 /** kids, don't hand code JSON */
 function jsonify(graph: Graph) {
-  /** convert vertexes to just their ids */
-  function cleanEdge(key: string, value: Vertex) {
-    return key == '_in' || key == '_out' ? value._id : value
-  }
-  /** remove edges from vertexes */
-  function cleanVertex(key: string, value: Edge) {
-    return key == '_in' || key == '_out' ? undefined : value
-  }
   return '{"V":' + JSON.stringify(graph.vertices, cleanVertex) +
          ',"E":' + JSON.stringify(graph.edges, cleanEdge) + 
          '}'

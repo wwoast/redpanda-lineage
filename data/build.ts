@@ -1,4 +1,4 @@
-import Graph from './dagoba.ts'
+import Graph, { cleanEdge, cleanVertex } from './dagoba.ts'
 import * as ini from '@std/ini'
 import { join } from '@std/path'
 import { git } from '@roka/git'
@@ -43,12 +43,8 @@ const totalsMetrics: Record<string, number> = {
   credit: 0,
   /** Total number of entities tracked */
   entities: 0,
-  /** Total number of pandas in redpandafinder */
-  pandas: 0,
   /** Total number of photos in redpandafinder */
   photos: 0,
-  /** Total number of zoos in redpandafinder */
-  zoos: 0
 }
 
 const updatesMetrics: Record<string, number> = {
@@ -430,6 +426,54 @@ class Dataset {
   }
 
   /**
+   * Write a JSON representation of the red panda graph. The serial format of
+   * the Dagoba graph is just writing cleaned vertexes and edges as lists. When
+   * deserialized, Dagoba re-hydrates vertex ids with references to actual
+   * vertex nodes.
+   * 
+   * Redpandafinder supplements this with various counters and indexes for
+   * use in dataset metrics and searching.
+   */
+  exportJsonGraph(exportPath: string) {
+    Deno.writeTextFileSync(exportPath,
+      JSON.stringify({
+        edges: JSON.stringify(this.graph.edges, cleanEdge),
+        lexer: {
+          names: Array.from(this.rpf.lexer_names).sort()
+        },
+        photo: {
+          credit: this.rpf.photos.credit,
+          entity_max: this.rpf.photos.max,
+          group_max: this.rpf.photos.group
+        },
+        totals: {
+          credit: this.rpf.totals.credit,
+          last_born: this.rpf.last_born,
+          last_died: this.rpf.last_died,
+          media: this.files.media.length,
+          pandas: this.files.panda.length,
+          photos: this.rpf.totals.photo,
+          updates: {
+            authors: null,
+            entities: null,
+            pandas: null,
+            photos: null,
+            zoos: null
+          },
+          wilds: this.files.wild.length,
+          zoos: this.files.zoos.length,
+        },
+        updates: {
+          authors: null,
+          entities: null,
+          zoos: null
+        },
+        vertices: JSON.stringify(this.graph.vertices, cleanVertex)
+      })
+    )
+  }
+
+  /**
    * Take a single links file and add it to the graph (just vertices).
    *
    * Links files are expected to have a header of `[links]`. Any fields defined
@@ -463,7 +507,7 @@ class Dataset {
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
     this.graph.addVertex(node)
-    this.files.links.push(path)
+    this.files.media.push(path)
   }
 
   /**
@@ -484,7 +528,7 @@ class Dataset {
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.panda, "panda") as NodeMedia
     this.graph.addVertex(node)
-    this.files.links.push(path)
+    this.files.panda.push(path)
   }
 
   /**
@@ -542,7 +586,7 @@ class Dataset {
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.wild, "wild") as NodeMedia
     this.graph.addVertex(node)
-    this.files.links.push(path)
+    this.files.wild.push(path)
   }
 
   /**
@@ -561,19 +605,7 @@ class Dataset {
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.zoo, "zoo") as NodeMedia
     this.graph.addVertex(node)
-    this.files.links.push(path)
-  }
-
-  /** Increment the panda/zoo/media/wild counts */
-  incrementEntityMetrics(vertex: Record<string, any>) {
-    const entityMetric = 
-      (vertex.type == "panda") ? "pandas" :
-      (vertex.type == "zoo") ? "zoos" :
-      (vertex.type == "media") ? "media" :
-      (vertex.type == "wild") ? "wild" :
-      undefined
-    if (entityMetric != undefined)
-      this.rpf.totals[entityMetric]++
+    this.files.zoo.push(path)
   }
 
   /**
@@ -603,7 +635,6 @@ class Dataset {
     // Ship the type with the graph node prior to processing
     vertex.type = type
     this.processNodeLanguageKeys(vertex)
-    this.incrementEntityMetrics(vertex)
     // No processing for links nodes _shrug_
     switch(vertex.type) {
       case "media":
@@ -915,4 +946,5 @@ class Dataset {
 
 if (import.meta.main) {
   const dataset = new Dataset()
+  dataset.exportJsonGraph('./export/redpanda.json')
 }
