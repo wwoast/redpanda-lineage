@@ -1,5 +1,5 @@
 import Graph, { cleanEdge, cleanVertex } from './dagoba.ts'
-import * as ini from '@std/ini'
+import { IniMap } from '@std/ini'
 import { join } from '@std/path'
 import { git } from '@roka/git'
 import { Paths,
@@ -115,16 +115,19 @@ const files: Record<string, string[]> = {
  * type information. 
  */
 interface Dataset {
-  /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
-  graph: Graph,
   /** Lists of files ingested during an ingest */
   files: Record<string, string[]>,
+  /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
+  graph: Graph,
+  /** The default ini parser is stupid */
+  ini: IniMap,
   /** Pre-calculated metrics for the redpandafinder dataset */
   rpf: RedPandaFinderMetrics
 }
 class Dataset {
   graph
   files = files
+  ini = new IniMap({assignment: ":", deduplicate: false})
   rpf = rpf
 
   /** 
@@ -200,7 +203,6 @@ class Dataset {
    * grandparents. TODO: cycle detection inside Dagoba itself
    */
   assertGraphHasNoCycles() {
-    const reviewedIds = new Set<number>()
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
     const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
@@ -485,29 +487,11 @@ class Dataset {
    * Take a single links file and add it to the graph (just vertices).
    *
    * Links files are expected to have a header of `[links]`. Any fields defined
-   * under that header will be consumed into the list of links. We keep all
-   * fields in the `[links]` section as either `string` or `string[]`.
+   * under that header will be consumed into the list of links. All fields in
+   * the `[links]` section becomes `string` or `string[]`.
    */
   importLinks(path: string) {
-    const ingest = ini.parse(
-      Deno.readTextFileSync(path), {
-        /**
-         * When importing data from plaintext files with `[links]` data,
-         * convert any primitive values into more ergonomic TypeScript types.
-         */
-        reviver(key: string, value: unknown, section?: string): any {
-          if (section != "links")
-            return value   // Shouldn't happen
-          switch (key) {
-            case "language.order":
-              return (value as string).split(", ") as Language[]
-            default:
-              return value
-          }
-        }
-
-      }
-    ) as Record<"links", Record<string, string | string[]>>
+    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveLinksNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.links, "links") as NodeLinks
@@ -520,29 +504,10 @@ class Dataset {
    *
    * Media files are expected to have a header of `[media]`. Any fields defined
    * under that header will be consumed into the list of nodes with group panda
-   * photos. All fields in the `[media]` section become either `Date`,
-   * `string`, or `string[]`.
+   * photos. All fields in the `[media]` section become `string` or `string[]`.
    */
   importMedia(path: string) {
-    const ingest = ini.parse(
-      Deno.readTextFileSync(path), {
-        /**
-         * When importing data from plaintext files with `[media]` data, convert any
-         * primitive values into types we can better use or validate in TypeScript.
-         */
-        reviver(key: string, value: unknown, section?: string): any {
-          if (section != "media")
-            return value   // Shouldn't happen
-          switch (true) {
-            case (key.includes("location")):
-            case (key.includes("tags")):
-              return (value as string).split(", ")
-            default:
-              return value
-          }
-        }
-      }
-    ) as Record<"media", Record<string, Date | string | string[]>>
+    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveMediaNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
@@ -558,34 +523,10 @@ class Dataset {
    * Panda files are expected to have a header of `[panda]`. Any fields defined
    * under that header will be consumed into the list of graph nodes connected
    * to other family member and zoo nodes, with Dagoba edges. All fields in the
-   * `[panda]` section become either `Date`, `string`, or `string[]`.
+   * `[panda]` section become one of `number`, `string`, or `string[]`.
    */
   importPanda(path: string) {
-    const ingest = ini.parse(
-      Deno.readTextFileSync(path), {
-        /**
-         * When importing data from plaintext files with `[panda]` data,
-         * convert primitive values into more ergonomic TypeScript types.
-         */
-        reviver(key: string, value: unknown, section?: string): any {
-          if (section != "panda")
-            return value   // Shouldn't happen
-          switch (true) {
-            case (key.includes("_id")):
-              return parseInt(value as string)
-            case (key.includes("children")):
-            case (key.includes("litter")):
-              return (value as string).split(", ")
-            case (key == "language.order"):
-              return (value as string).split(", ") as Language[]
-            case (key.includes("tags")):
-              return (value as string).split(", ")
-            default:
-              return value
-          }
-        }
-      }
-    ) as Record<"panda", Record<string, Date | string | string[]>>
+    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.revivePandaNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.panda, "panda") as NodeMedia
@@ -635,30 +576,13 @@ class Dataset {
   /**
    * Take a single wild location record and add it to the dataset.
    *
-   * Zoo files are expected to have a header of `[zoo]`. Any fields defined
-   * under that header will be consumed into the list of graph nodes connected
-   * to other family member and zoo nodes, with Dagoba edges. All fields in the
-   * `[zoo]` section become either `Date`, single strings, or string[].
+   * Wild location files are expected to have a header of `[wild]`. Any fields
+   * defined under that header will be consumed into the list of graph nodes
+   * connected to other family member and zoo nodes, with Dagoba edges. All
+   * fields in the `[wild]` section become either `string` or `string[]`.
    */
   importWilds(path: string) {
-    const ingest = ini.parse(
-      Deno.readTextFileSync(path), {
-        /**
-         * When importing data from plaintext files with `[wild]` data, convert
-         * any primitive values into more ergonomic TypeScript types.
-         */
-        reviver(key: string, value: unknown, section?: string): any {
-          if (section != "wild")
-            return value   // Shouldn't happen
-          switch (true) {
-            case (key == "language.order"):
-              return (value as string).split(", ") as Language[]
-            default:
-              return value
-          }
-        }
-      }
-    ) as Record<"wild", Record<string, Date | string | string[]>>
+    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveWildNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.wild, "wild") as NodeMedia
@@ -672,35 +596,12 @@ class Dataset {
    * Zoo files are expected to have a header of `[zoo]`. Any fields defined
    * under that header will be consumed into the list of graph nodes connected
    * to other family member and zoo nodes, with Dagoba edges. All fields in the
-   * `[zoo]` section become either `Date`, single strings, or string[].
+   * `[zoo]` section become one of `number`, `string` or `string[]`.
    */
   importZoos(path: string) {
     console.log(path)
-    const ingest = ini.parse(
-      Deno.readTextFileSync(path), {
-        /**
-         * When importing data from plaintext files with `[zoo]` data, convert
-         * any primitive values into more ergonomic TypeScript types.
-         *
-         * The hack for ensuring integers for all connected nodes is making
-         * panda IDs positive integers, and zoo IDs negative integers!
-         */
-        reviver(key: string, value: unknown, section?: string): any {
-          if (section != "zoo")
-            return value   // Shouldn't happen
-          switch (true) {
-            case (key.includes("_id")):
-              return parseInt(value as string) * -1
-            case (key == "language.order"):
-              return (value as string).split(", ") as Language[]
-            case (key.includes("tags")):
-              return (value as string).split(", ")
-            default:
-              return value
-          }
-        }
-      }
-    ) as Record<"zoo", Record<string, Date | string | string[]>>
+    const ingest = this.ini.parse(
+      Deno.readTextFileSync(path), this.reviveZooNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.zoo, "zoo") as NodeMedia
@@ -910,19 +811,94 @@ class Dataset {
       .forEach(oldPhotoKey => delete vertex[oldPhotoKey])
   }
 
-    /**
-   * For each `photo.X.author` field in a vertex, increment the counters
-   * for an author and for totals. Requires `processNodePhotos` to run
-   * for the metric collecting to work.
+  /**
+   * When importing data from plaintext files with `[links]` data, convert any
+   * primitive values into more ergonomic TypeScript types.
    */
-  incrementPhotoMetrics(vertex: Record<string, any>) {
-    Object.keys(vertex)
-      .filter(field => field.endsWith(".author"))
-        .map(field => {
-          const author = vertex[field] as string
-          this.rpf.photos.credit[author]++
-          this.rpf.totals.photos++
-        })
+  reviveLinksNode(key: string, value: unknown, section?: string): any {
+    if (section != "links")
+      return value   // Shouldn't happen
+    switch (key) {
+      case "language.order":
+        return (value as string).split(", ") as Language[]
+      default:
+        return value
+    }
+  }
+
+  /**
+   * When importing data from plaintext files with `[media]` data, convert any
+   * primitive values into types we can better use or validate in TypeScript.
+   */
+  reviveMediaNode(key: string, value: unknown, section?: string): any {
+    if (section != "media")
+      return value   // Shouldn't happen
+    switch (true) {
+      case (key.includes("location")):
+      case (key.includes("tags")):
+        return (value as string).split(", ")
+      default:
+        return value
+    }
+  }
+
+  /**
+   * When importing data from plaintext files with `[panda]` data, convert
+   * primitive values into more ergonomic TypeScript types.
+   */
+  revivePandaNode(key: string, value: unknown, section?: string): any {
+    if (section != "panda")
+      return value   // Shouldn't happen
+    switch (true) {
+      case (key.includes("_id")):
+        return parseInt(value as string)
+      case (key.includes("children")):
+      case (key.includes("litter")):
+        return (value as string).split(", ")
+      case (key == "language.order"):
+        return (value as string).split(", ") as Language[]
+      case (key.includes("tags")):
+        return (value as string).split(", ")
+      default:
+        return value
+    }
+  }
+
+  /**
+   * When importing data from plaintext files with `[wild]` data, convert any
+   * primitive values into more ergonomic TypeScript types.
+   */
+  reviveWildNode(key: string, value: unknown, section?: string): any {
+    if (section != "wild")
+      return value   // Shouldn't happen
+    switch (true) {
+      case (key == "language.order"):
+        return (value as string).split(", ") as Language[]
+      default:
+        return value
+    }
+  }
+
+  /**
+   * When importing data from plaintext files with `[zoo]` data, convert any
+   * primitive values into more ergonomic TypeScript types.
+   *
+   * The hack for ensuring integers for all connected nodes is making panda
+   * IDs positive integers, and zoo IDs negative integers!
+   */
+  reviveZooNode(key: string, value: unknown, section?: string): any {
+    if (section != "zoo")
+      return value   // Shouldn't happen
+    switch (true) {
+      case (key.includes("_id")):
+        return parseInt(value as string) * -1
+      case (key == "language.order"):
+        return (value as string).split(", ") as Language[]
+      case (key.includes("tags")):
+        return (value as string).split(", ")
+      default:
+        return value
+    }
   }
 
   verifyLinks() {
