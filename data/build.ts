@@ -1,5 +1,5 @@
 import Graph, { cleanEdge, cleanVertex } from './dagoba.ts'
-import { IniMap } from '@std/ini'
+import { IniMap } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import { git } from '@roka/git'
 import { Paths,
@@ -119,7 +119,7 @@ interface Dataset {
   files: Record<string, string[]>,
   /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
   graph: Graph,
-  /** The default ini parser is stupid */
+  /** The default ini parser can't handle colon-delimited key-value pairs */
   ini: IniMap,
   /** Pre-calculated metrics for the redpandafinder dataset */
   rpf: RedPandaFinderMetrics
@@ -127,7 +127,7 @@ interface Dataset {
 class Dataset {
   graph
   files = files
-  ini = new IniMap({assignment: ":", deduplicate: false})
+  ini
   rpf = rpf
 
   /** 
@@ -136,6 +136,7 @@ class Dataset {
    */
   constructor() {
     this.graph = new Graph()
+    this.ini = new IniMap({assignment: ":", deduplicate: false})
     this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
     this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
     this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
