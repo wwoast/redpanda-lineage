@@ -476,9 +476,8 @@ class Dataset {
       }, null, 4)
     )
     console.log(
-      `Dataset exported:\n` +
-      `\t${pandas} pandas at ${locations} locations` +
-      `\t(${wilds} wild, ${zoos} zoo)`
+      `Dataset exported: ${pandas} pandas at ${locations} locations ` +
+      `(${wilds} wild, ${zoos} zoo)`
     )
   }
 
