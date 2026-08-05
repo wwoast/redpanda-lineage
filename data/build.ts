@@ -435,9 +435,13 @@ class Dataset {
    * use in dataset metrics and searching.
    */
   exportJsonGraph(exportPath: string) {
+    const pandas = this.files.panda.length
+    const wilds = this.files.wild.length
+    const zoos = this.files.zoo.length
+    const locations = wilds + zoos
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
-        edges: JSON.stringify(this.graph.edges, cleanEdge),
+        edges: JSON.stringify(this.graph.edges, cleanEdge, 4),
         lexer: {
           names: Array.from(this.rpf.lexer_names).sort()
         },
@@ -451,7 +455,7 @@ class Dataset {
           last_born: this.rpf.last_born,
           last_died: this.rpf.last_died,
           media: this.files.media.length,
-          pandas: this.files.panda.length,
+          pandas: pandas,
           photos: this.rpf.totals.photo,
           updates: {
             authors: null,
@@ -460,16 +464,21 @@ class Dataset {
             photos: null,
             zoos: null
           },
-          wilds: this.files.wild.length,
-          zoos: this.files.zoos.length,
+          wilds: wilds,
+          zoos: zoos,
         },
         updates: {
           authors: null,
           entities: null,
           zoos: null
         },
-        vertices: JSON.stringify(this.graph.vertices, cleanVertex)
-      })
+        vertices: JSON.stringify(this.graph.vertices, cleanVertex, 4)
+      }, null, 4)
+    )
+    console.log(
+      `Dataset exported:\n` +
+      `\t${pandas} pandas at ${locations} locations` +
+      `\t(${wilds} wild, ${zoos} zoo)`
     )
   }
 
