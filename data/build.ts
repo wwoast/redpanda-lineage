@@ -490,7 +490,23 @@ class Dataset {
    */
   importLinks(path: string) {
     const ingest = ini.parse(
-      Deno.readTextFileSync(path), {reviver: this.reviveLinksNode}
+      Deno.readTextFileSync(path), {
+        /**
+         * When importing data from plaintext files with `[links]` data,
+         * convert any primitive values into more ergonomic TypeScript types.
+         */
+        reviver(key: string, value: unknown, section?: string): any {
+          if (section != "links")
+            return value   // Shouldn't happen
+          switch (key) {
+            case "language.order":
+              return (value as string).split(", ") as Language[]
+            default:
+              return value
+          }
+        }
+
+      }
     ) as Record<"links", Record<string, string | string[]>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -509,7 +525,23 @@ class Dataset {
    */
   importMedia(path: string) {
     const ingest = ini.parse(
-      Deno.readTextFileSync(path), {reviver: this.reviveMediaNode}
+      Deno.readTextFileSync(path), {
+        /**
+         * When importing data from plaintext files with `[media]` data, convert any
+         * primitive values into types we can better use or validate in TypeScript.
+         */
+        reviver(key: string, value: unknown, section?: string): any {
+          if (section != "media")
+            return value   // Shouldn't happen
+          switch (true) {
+            case (key.includes("location")):
+            case (key.includes("tags")):
+              return (value as string).split(", ")
+            default:
+              return value
+          }
+        }
+      }
     ) as Record<"media", Record<string, Date | string | string[]>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -530,7 +562,29 @@ class Dataset {
    */
   importPanda(path: string) {
     const ingest = ini.parse(
-      Deno.readTextFileSync(path), {reviver: this.revivePandaNode}
+      Deno.readTextFileSync(path), {
+        /**
+         * When importing data from plaintext files with `[panda]` data,
+         * convert primitive values into more ergonomic TypeScript types.
+         */
+        reviver(key: string, value: unknown, section?: string): any {
+          if (section != "panda")
+            return value   // Shouldn't happen
+          switch (true) {
+            case (key.includes("_id")):
+              return parseInt(value as string)
+            case (key.includes("children")):
+            case (key.includes("litter")):
+              return (value as string).split(", ")
+            case (key == "language.order"):
+              return (value as string).split(", ") as Language[]
+            case (key.includes("tags")):
+              return (value as string).split(", ")
+            default:
+              return value
+          }
+        }
+      }
     ) as Record<"panda", Record<string, Date | string | string[]>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -588,7 +642,22 @@ class Dataset {
    */
   importWilds(path: string) {
     const ingest = ini.parse(
-      Deno.readTextFileSync(path), {reviver: this.reviveWildNode}
+      Deno.readTextFileSync(path), {
+        /**
+         * When importing data from plaintext files with `[wild]` data, convert
+         * any primitive values into more ergonomic TypeScript types.
+         */
+        reviver(key: string, value: unknown, section?: string): any {
+          if (section != "wild")
+            return value   // Shouldn't happen
+          switch (true) {
+            case (key == "language.order"):
+              return (value as string).split(", ") as Language[]
+            default:
+              return value
+          }
+        }
+      }
     ) as Record<"wild", Record<string, Date | string | string[]>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -606,8 +675,31 @@ class Dataset {
    * `[zoo]` section become either `Date`, single strings, or string[].
    */
   importZoos(path: string) {
+    console.log(path)
     const ingest = ini.parse(
-      Deno.readTextFileSync(path), {reviver: this.reviveZooNode}
+      Deno.readTextFileSync(path), {
+        /**
+         * When importing data from plaintext files with `[zoo]` data, convert
+         * any primitive values into more ergonomic TypeScript types.
+         *
+         * The hack for ensuring integers for all connected nodes is making
+         * panda IDs positive integers, and zoo IDs negative integers!
+         */
+        reviver(key: string, value: unknown, section?: string): any {
+          if (section != "zoo")
+            return value   // Shouldn't happen
+          switch (true) {
+            case (key.includes("_id")):
+              return parseInt(value as string) * -1
+            case (key == "language.order"):
+              return (value as string).split(", ") as Language[]
+            case (key.includes("tags")):
+              return (value as string).split(", ")
+            default:
+              return value
+          }
+        }
+      }
     ) as Record<"zoo", Record<string, Date | string | string[]>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -831,96 +923,6 @@ class Dataset {
           this.rpf.photos.credit[author]++
           this.rpf.totals.photos++
         })
-  }
-
-  /**
-   * When importing data from plaintext files with `[links]` data, convert any
-   * primitive values into types we can better use or validate in TypeScript.
-   */
-  reviveLinksNode(key: string, value: unknown, section?: string): any {
-    if (section != "links")
-      return value   // Shouldn't happen
-    switch (key) {
-      case "language.order":
-        return (value as string).split(", ") as Language[]
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[media]` data, convert any
-   * primitive values into types we can better use or validate in TypeScript.
-   */
-  reviveMediaNode(key: string, value: unknown, section?: string): any {
-    if (section != "media")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("location")):
-      case (key.includes("tags")):
-        return (value as string).split(", ")
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[panda]` data, convert any
-   * primitive values into types we can better use or validate in TypeScript.
-   */
-  revivePandaNode(key: string, value: unknown, section?: string): any {
-    if (section != "panda")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("_id")):
-        return parseInt(value as string)
-      case (key.includes("children")):
-      case (key.includes("litter")):
-        return (value as string).split(", ")
-      case (key == "language.order"):
-        return (value as string).split(", ") as Language[]
-      case (key.includes("tags")):
-        return (value as string).split(", ")
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[wild]` data, convert any
-   * primitive values into types we can better use or validate in TypeScript.
-   */
-  reviveWildNode(key: string, value: unknown, section?: string): any {
-    if (section != "wild")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key == "language.order"):
-        return (value as string).split(", ") as Language[]
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[zoo]` data, convert any
-   * primitive values into types we can better use or validate in TypeScript.
-   *
-   * Note the hack for ensuring all connected graph data has integers while
-   * zoo IDs and panda IDs don't collide -- zoo IDs become negative numbers!
-   */
-  reviveZooNode(key: string, value: unknown, section?: string): any {
-    if (section != "zoo")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("_id")):
-        return parseInt(value as string) * -1
-      case (key == "language.order"):
-        return (value as string).split(", ") as Language[]
-      case (key.includes("tags")):
-        return (value as string).split(", ")
-      default:
-        return value
-    }
   }
 
   verifyLinks() {
