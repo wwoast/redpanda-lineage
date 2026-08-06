@@ -375,7 +375,7 @@ class Dataset {
     if (vertex.children) {
       vertex.children.map((item: string) => {
         if (item.includes("/")) {
-          const [childId, childPercent] = vertex.children.trim().split(" ")
+          const [childId, childPercent] = item.trim().split(" ")
           this.graph.addEdge({
             "_in": parseInt(childId),
             "_label": "family",
