@@ -136,7 +136,7 @@ class Dataset {
    */
   constructor() {
     this.graph = new Graph()
-    this.ini = new IniMap({assignment: ":", deduplicate: false})
+    this.ini = new IniMap({assignment: ":"})
     this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
     this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
     this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
@@ -149,7 +149,7 @@ class Dataset {
    * objects, but we assert valid dates in the `process*` functions so that
    * the debugging output doesn't suck.
    */
-  assertDateExistsAndIsValid(path: string, key: string, value: string) {
+  assertDateExistsAndIsValid = (path: string, key: string, value: string) => {
     if (!value)
       throw new Error(`ERR: ${path}: missing date: ${key}`)
     const date = new Date(value)
@@ -158,7 +158,7 @@ class Dataset {
   }
 
   /** If date is present, assure it is checked */
-  assertDateIsValid(path: string, key: string, value: string) {
+  assertDateIsValid = (path: string, key: string, value: string) => {
     if (!value) return   // no check
     else return this.assertDateExistsAndIsValid(path, key, value)
   }
@@ -168,7 +168,7 @@ class Dataset {
    * apart from each other. Will also complain if any litter id values don't
    * point to an actual panda.
    */
-  assertGraphHasFeasibleLitters() {
+  assertGraphHasFeasibleLitters = () => {
     function compareLittermateBirthdays(a: string, b: string): boolean {
       // wild-caught litters may not have known birthdays
       if ((a == "unknown") || (b == "unknown"))
@@ -199,11 +199,8 @@ class Dataset {
     })
   }
 
-  /** 
-   * For each panda, verify it has no children who are their own parents or
-   * grandparents. TODO: cycle detection inside Dagoba itself
-   */
-  assertGraphHasNoCycles() {
+  /** Verify no pandas exist who are their own parents or grandparents */
+  assertGraphHasNoCycles = () => {
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
     const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
@@ -240,7 +237,7 @@ class Dataset {
    * Verify children weren't born more than 48 hours after the mother passed
    * away (fathers can pass away before the child is born).
    */
-  assertGraphHasNoZombieChildren() {
+  assertGraphHasNoZombieChildren = () => {
     const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
     const zombies = pandas.map(panda =>
       this.graph.v(panda).in("family")
@@ -264,7 +261,7 @@ class Dataset {
   }
 
   /** If the link for an author is not a recognized URL format, throw */
-  assertImportedAuthorLink(path: string, link: string) {
+  assertImportedAuthorLink = (path: string, link: string) => {
     const validLinkProtocols = ["http://", "https://", "ig://"]
     const match = validLinkProtocols.filter(
       protocol => link.indexOf(protocol) == 0)
@@ -273,7 +270,7 @@ class Dataset {
   }
 
   /** Any animal name is limited to 100 characters in length at import */
-  assertImportedName(path: string, name: string) {
+  assertImportedName = (path: string, name: string) => {
     if (name.length > 100)
       throw new Error(`ERR: ${path}: name too long: ${name}`)
   }
@@ -285,7 +282,7 @@ class Dataset {
    * 
    *   - Birth date and date of death should not be reversed.
    */
-  assertIndividualPandaDates(vertex: Record<string, any>) {
+  assertIndividualPandaDates = (vertex: Record<string, any>) => {
     this.assertDateExistsAndIsValid(vertex.path, "birthday", vertex.birthday)
     this.assertDateExistsAndIsValid(vertex.path, "commitdate", vertex.commitdate)
     // Animals that passed away need valid dates of death
@@ -297,7 +294,7 @@ class Dataset {
   }
 
   /** Complain if two vertices in the graph have the same `_id` value */
-  assertNoDuplicateDatasetIds(vertices: GraphNode[]) {
+  assertNoDuplicateDatasetIds = (vertices: GraphNode[]) => {
     const duplicateIds = vertices
       .map(v => v._id)
       .filter((id, _, list) => list.indexOf(id) != list.lastIndexOf(id))
@@ -317,7 +314,7 @@ class Dataset {
   }
 
   /** Panda and Zoo ids must be integers */
-  assertValidPandaOrZooId(path: string, key: string, value: string) {
+  assertValidPandaOrZooId = (path: string, key: string, value: string) => {
     if (isNaN(parseInt(value)))
       throw new Error(`ERR: ${path}: ${key}: invalid id: ${value}`)
   }
@@ -326,7 +323,7 @@ class Dataset {
    * Animals w/o location fields need birthplace and current zoo to match.
    * Unknown birthplaces (-1) are omitted from this check.
    */
-  assertYoungPandaLocation(vertex: Record<string, any>) {
+  assertYoungPandaLocation = (vertex: Record<string, any>) => {
     if (!vertex.locations && vertex.birthplace != -1)
       if (vertex.birthplace != vertex.zoo)
         throw new Error(
@@ -334,7 +331,7 @@ class Dataset {
   }
 
   /** Unknown genders are inferred by their omission */
-  canonicalizeGender(vertex: Record<string, any>) {
+  canonicalizeGender = (vertex: Record<string, any>) => {
     if (vertex.gender == "f") vertex.gender = "Female"
     if (vertex.gender == "m") vertex.gender = "Male"
   }
@@ -343,7 +340,7 @@ class Dataset {
    * Print a warning, and return true if the field has a URL. Assert functions
    * can wrap this to enforce / throw if they like.
    */
-  checkFieldIsAUrl(path: string, key: string, value: string, warn: boolean) {
+  checkFieldIsAUrl = (path: string, key: string, value: string, warn: boolean) => {
     const urlCheck = (value.indexOf("http") == 0)
     if (urlCheck == true && warn)
       console.warn(`WARN: ${path}: ${key} should not be a URL`)
@@ -351,7 +348,7 @@ class Dataset {
   }
 
   /** Shrink export JSON by eliding any unkown/none values where possible */
-  deleteNoneOrUnknownFields(vertex: Record<string, any>) {
+  deleteNoneOrUnknownFields = (vertex: Record<string, any>) => {
     const undesirables = ["none", "unknown"]
     Object.keys(vertex).forEach(key =>
       undesirables.includes(vertex[key]) && delete vertex[key])
@@ -362,7 +359,7 @@ class Dataset {
    * the parent relationships may as well. The tracking of panda ids in these
    * lists as numbers, happens here.
    */
-  edgesForPandaFamilies(vertex: Record<string, any>) {
+  edgesForPandaFamilies = (vertex: Record<string, any>) => {
     if (vertex.children) {
       vertex.children.map((item: string) => {
         if (item.includes("/")) {
@@ -396,7 +393,7 @@ class Dataset {
    * Turn birthplace and zoo into edges that point from a panda, to a zoo
    * entity. Zoo edges have negative numbers
    */
-  edgesForPandaLocations(vertex: Record<string, any>) {
+  edgesForPandaLocations = (vertex: Record<string, any>) => {
     if (vertex.birthplace) {
       // Wild locations are string IDs
       if (vertex.birthplace.indexOf("wild") == 0) {
@@ -437,7 +434,7 @@ class Dataset {
    * Redpandafinder supplements this with various counters and indexes for
    * use in dataset metrics and searching.
    */
-  exportJsonGraph(exportPath: string) {
+  exportJsonGraph = (exportPath: string) => {
     const pandas = this.files.panda.length
     const wilds = this.files.wild.length
     const zoos = this.files.zoo.length
@@ -491,7 +488,7 @@ class Dataset {
    * under that header will be consumed into the list of links. All fields in
    * the `[links]` section becomes `string` or `string[]`.
    */
-  importLinks(path: string) {
+  importLinks = (path: string) => {
     const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveLinksNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -507,7 +504,7 @@ class Dataset {
    * under that header will be consumed into the list of nodes with group panda
    * photos. All fields in the `[media]` section become `string` or `string[]`.
    */
-  importMedia(path: string) {
+  importMedia = (path: string) => {
     const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveMediaNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -526,7 +523,7 @@ class Dataset {
    * to other family member and zoo nodes, with Dagoba edges. All fields in the
    * `[panda]` section become one of `number`, `string`, or `string[]`.
    */
-  importPanda(path: string) {
+  importPanda = (path: string) => {
     const ingest = this.ini.parse(Deno.readTextFileSync(path), this.revivePandaNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -540,11 +537,7 @@ class Dataset {
    * and import method, this is used to import either the panda data or the
    * zoo data.
    */
-  importTree(
-    path: string,
-    importMethod: Function,
-    verifyMethod: Function
-  ) {
+  importTree = (path: string, importMethod: Function, verifyMethod: Function) => {
     for (const entry of Deno.readDirSync(path)) {
       const subPath = join(path, entry.name)
       if (existsFileSync(subPath) && subPath.toLowerCase().endsWith(".txt")) {
@@ -582,7 +575,7 @@ class Dataset {
    * connected to other family member and zoo nodes, with Dagoba edges. All
    * fields in the `[wild]` section become either `string` or `string[]`.
    */
-  importWilds(path: string) {
+  importWilds = (path: string) => {
     const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveWildNode)
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -599,7 +592,7 @@ class Dataset {
    * to other family member and zoo nodes, with Dagoba edges. All fields in the
    * `[zoo]` section become one of `number`, `string` or `string[]`.
    */
-  importZoos(path: string) {
+  importZoos = (path: string) => {
     console.log(path)
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path), this.reviveZooNode)
@@ -615,7 +608,7 @@ class Dataset {
    * 
    * - Add names with spaces as lexer token keys, for later searchability
    */
-  processName(path: string, name: string) {
+  processName = (path: string, name: string) => {
     this.assertImportedName(path, name)
     if (name.includes(" "))
       this.rpf.lexer_names.add(name)
@@ -631,7 +624,11 @@ class Dataset {
    * intended to be easy to enforce type constraints on, infer properties of,
    * and automatically validate.
    */
-  processNode(path: string, vertex: Record<string, any>, type: NodeType): GraphNode {
+  processNode = (
+    path: string,
+    vertex: Record<string, any>,
+    type: NodeType
+  ): GraphNode => {
     // For easier diagnostics, record the path a node's data originated from
     vertex.path = path
     // Ship the type with the graph node prior to processing
@@ -675,7 +672,7 @@ class Dataset {
    *                         }
    * ```
    */
-  processNodeLanguageKeys(vertex: Record<string, any>) {
+  processNodeLanguageKeys = (vertex: Record<string, any>) => {
     const languageKeyedFields =
       ["address", "location", "name", "nicknames", "oldnames", "othernames"]
     const possibleLanguageVertexFields = languageKeyedFields
@@ -717,12 +714,12 @@ class Dataset {
    * `name` field on this vertex. The `address` and `location` fiels use very
    * similar logic.
    */
-  processNodeLanguageString(
+  processNodeLanguageString = (
     vertex: Record<string, any>,
     field: string,
     suffix: string,
     language: Language
-  ) {
+  ) => {
     const name: NameByLanguage = {}
     name[language] = vertex[field]
     vertex[suffix] = {...vertex[suffix], ...name}
@@ -735,12 +732,12 @@ class Dataset {
    * `nicknames` field on this vertex. The `oldnames` and `othernames` fields
    * use very similar logic.
    */
-  processNodeLanguageList(
+  processNodeLanguageList = (
     vertex: Record<string, any>,
     field: string,
     suffix: string,
     language: Language
-  ) {
+  ) => {
     const nameList: NameListByLanguage = {}
     nameList[language] = vertex[field].split(", ")
     vertex[suffix] = {...vertex[suffix], ...{nameList}}
@@ -753,7 +750,7 @@ class Dataset {
    * panda has lived at. Throws if dates or zoo ids are malformed, or if the
    * `birthday` field of the panda doesn't match.
    */
-  processNodeLocations(vertex: Record<string, any>) {
+  processNodeLocations = (vertex: Record<string, any>) => {
     vertex.locations = []
     // Iterate on just the `location.X` fields
     const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
@@ -784,7 +781,7 @@ class Dataset {
    * author fields are URLs and not straight strings, and throws if the
    * commitdate is not valid.
    */
-  processNodePhotos(vertex: Record<string, any>) {
+  processNodePhotos = (vertex: Record<string, any>) => {
     vertex.photos = []
     // Iterate on just the `photo.X:` fields
     Object.keys(vertex).filter(key => key.match(/photo\.\d+$/)).forEach(photoKey => {
@@ -816,7 +813,7 @@ class Dataset {
    * When importing data from plaintext files with `[links]` data, convert any
    * primitive values into more ergonomic TypeScript types.
    */
-  reviveLinksNode(key: string, value: unknown, section?: string): any {
+  reviveLinksNode = (key: string, value: unknown, section?: string): any => {
     if (section != "links")
       return value   // Shouldn't happen
     switch (key) {
@@ -831,7 +828,7 @@ class Dataset {
    * When importing data from plaintext files with `[media]` data, convert any
    * primitive values into types we can better use or validate in TypeScript.
    */
-  reviveMediaNode(key: string, value: unknown, section?: string): any {
+  reviveMediaNode = (key: string, value: unknown, section?: string): any => {
     if (section != "media")
       return value   // Shouldn't happen
     switch (true) {
@@ -847,7 +844,7 @@ class Dataset {
    * When importing data from plaintext files with `[panda]` data, convert
    * primitive values into more ergonomic TypeScript types.
    */
-  revivePandaNode(key: string, value: unknown, section?: string): any {
+  revivePandaNode = (key: string, value: unknown, section?: string): any => {
     if (section != "panda")
       return value   // Shouldn't happen
     switch (true) {
@@ -869,7 +866,7 @@ class Dataset {
    * When importing data from plaintext files with `[wild]` data, convert any
    * primitive values into more ergonomic TypeScript types.
    */
-  reviveWildNode(key: string, value: unknown, section?: string): any {
+  reviveWildNode = (key: string, value: unknown, section?: string): any => {
     if (section != "wild")
       return value   // Shouldn't happen
     switch (true) {
@@ -887,7 +884,7 @@ class Dataset {
    * The hack for ensuring integers for all connected nodes is making panda
    * IDs positive integers, and zoo IDs negative integers!
    */
-  reviveZooNode(key: string, value: unknown, section?: string): any {
+  reviveZooNode = (key: string, value: unknown, section?: string): any => {
     if (section != "zoo")
       return value   // Shouldn't happen
     switch (true) {
@@ -902,17 +899,17 @@ class Dataset {
     }
   }
 
-  verifyLinks() {
+  verifyLinks = () => {
     const linksNodes = this.graph.vertices.reduce(toLinks, [])
     this.assertNoDuplicateDatasetIds(linksNodes)
   }
 
-  verifyMedia() {
+  verifyMedia = () => {
     const mediaNodes = this.graph.vertices.reduce(toMedia, [])
     this.assertNoDuplicateDatasetIds(mediaNodes)
   }
 
-  verifyPanda() {
+  verifyPanda = () => {
     const pandaNodes = this.graph.vertices.reduce(toPandas, [])
     this.assertNoDuplicateDatasetIds(pandaNodes)
     this.assertGraphHasFeasibleLitters()
@@ -920,12 +917,12 @@ class Dataset {
     this.assertGraphHasNoCycles()
   }
 
-  verifyWilds() {
+  verifyWilds = () => {
     const wildNodes = this.graph.vertices.reduce(toWilds, [])
     this.assertNoDuplicateDatasetIds(wildNodes)
   }
 
-  verifyZoos() {
+  verifyZoos = () => {
     const zooNodes = this.graph.vertices.reduce(toZoos, [])
     this.assertNoDuplicateDatasetIds(zooNodes)
   }
