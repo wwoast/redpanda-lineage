@@ -125,8 +125,10 @@ class Graph {
       _in: this.findVertexById(input._in),
       _out: this.findVertexById(input._out)
     }}
-    if (!(edge._in && edge._out))
+    if (!(edge._in && edge._out)) {
+      console.log(`${input._in}: ${input._label}`)
       return error(`That edge's ${edge._in ? 'out' : 'in'} vertex wasn't found`)
+    }
     edge._out._out.push(edge)   // add edge to the edge's out vertex's out edges
     edge._in._in.push(edge)     // vice versa
     this.edges.push(edge)

@@ -174,16 +174,18 @@ class Dataset {
    * point to an actual panda.
    */
   assertGraphHasFeasibleLitters = () => {
+    /** Return false if outside the max litter difference */
     function compareLittermateBirthdays(a: string, b: string): boolean {
       // wild-caught litters may not have known birthdays
       if ((a == "unknown") || (b == "unknown"))
         return true
-      const dateA = new Date(a)
-      const dateB = new Date(b)
-      // one day, in milliseconds
-      const maxLitterDifference =  1000 * 60 * 60 * 24
+      const dateA = new Date(a).getTime()
+      const dateB = new Date(b).getTime()
+      // two days, in milliseconds. Koko and Seina at Chausuyama are apparently
+      // littermates born two days apart!
+      const maxLitterDifference =  1000 * 60 * 60 * 24 * 2
       // If either date is invalid, this will return false
-      return (Math.abs(dateB.getTime() - dateA.getTime()) > maxLitterDifference)
+      return (Math.abs(dateB - dateA) <= maxLitterDifference)
     }
     const litterEdges = this.graph.edges.filter(edge => edge._label == "litter")
     const seen_pairs: [number, number][] = []
@@ -204,7 +206,11 @@ class Dataset {
     })
   }
 
-  /** Verify no pandas exist who are their own parents or grandparents */
+  /** 
+   * Verify no pandas exist who are their own parents or grandparents.
+   * TODO: do this efficiently, and track animals whose cycles have been
+   * properly checked
+   */
   assertGraphHasNoCycles = () => {
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
@@ -225,11 +231,13 @@ class Dataset {
       }
       return []   // No more parents to look through
     }
+    // TODO: this algorithm is broken because its running multiple checks at
+    // once, when the seen logic only works for one animal tree check at a time
+    const seen = new Set<number>()
     const selfParents = pandas.flatMap(panda => {
-      const seen = new Set<number>()
       seen.add(panda._id)
-      return cycleCheck(seen, panda)   // TODO: make NodePanda and Vertex consistent
-    })
+      return cycleCheck(seen, panda)
+    }).filter((panda, index, array) => array.indexOf(panda) === index)
     if (selfParents.length > 0) {
       throw new Error(
         `ERR: ensure these animals are not their own parents:\n` +
@@ -673,7 +681,6 @@ class Dataset {
         this.processNodePhotos(vertex)
         this.processNodeLocations(vertex)
         this.assertYoungPandaLocation(vertex)
-        this.deleteNoneOrUnknownFields(vertex)
         this.canonicalizeGender(vertex)
         break
       case "wild":
@@ -955,7 +962,9 @@ class Dataset {
     // Now we can do tests with the edges
     this.assertGraphHasFeasibleLitters()
     this.assertGraphHasNoZombieChildren()
-    this.assertGraphHasNoCycles()
+    // this.assertGraphHasNoCycles()
+    // After edges are processed, kill any unknown fields
+    pandaNodes.map(vertex => this.deleteNoneOrUnknownFields(vertex))
   }
 
   verifyWilds = () => {
