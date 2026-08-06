@@ -59,28 +59,27 @@ const updatesMetrics: Record<string, number> = {
 }
 
 interface RedPandaFinderMetrics {
+  /** Most recently born animal being tracked */
   last_born: number,
+  /** Most recently passed-away animal being tracked */
   last_died: number,
+  /** Complex names with spaces which the lexer needs to handle */
   lexer_names: Set<string>,
+  /** Indices or counters of relevant photo data */
   photos: PhotoMetrics,
+  /** Tracking totals */
   totals: Record<string, number>,
+  /** Tracking update counts */
   updates: Record<string, number>
 }
 /** Data specifically for redpandafinder use */
 const rpf: RedPandaFinderMetrics = {
-  /** Most recently born animal being tracked */
   last_born: 1970,
-  /** Most recently passed-away animal being tracked */
   last_died: 1970,
-  /** Complex names with spaces which the lexer needs to handle */
   lexer_names: new Set<string>(),
-  /** Indices or counters of relevant photo data */
   photos: photoMetrics,
-  /** Tracking totals */
   totals: totalsMetrics,
-  /** Tracking update counts */
   updates: updatesMetrics,
-
 }
 
 /** Lists of files ingested during an ingest */
@@ -297,7 +296,7 @@ class Dataset {
    * 
    *   - Birth date and date of death should not be reversed.
    */
-  assertIndividualPandaDates = (vertex: Record<string, any>) => {
+  assertIndividualPandaDates = (vertex: NodePanda) => {
     this.assertDateExistsAndIsValid(vertex.path, "birthday", vertex.birthday)
     this.assertDateExistsAndIsValid(vertex.path, "commitdate", vertex.commitdate)
     // Animals that passed away need valid dates of death
@@ -348,15 +347,15 @@ class Dataset {
    * Animals w/o location fields need birthplace and current zoo to match.
    * Unknown birthplaces (-1) are omitted from this check.
    */
-  assertYoungPandaLocation = (vertex: Record<string, any>) => {
-    if (!vertex.locations && vertex.birthplace != -1)
+  assertYoungPandaLocation = (vertex: NodePanda) => {
+    if (!vertex.locations && vertex.birthplace != "unknown")
       if (vertex.birthplace != vertex.zoo)
         throw new Error(
           `ERR: ${vertex.path}: for new pandas, birthplace and zoo should be the same`)
   }
 
   /** Unknown genders are inferred by their omission */
-  canonicalizeGender = (vertex: Record<string, any>) => {
+  canonicalizeGender = (vertex: NodePanda) => {
     if (vertex.gender == "f") vertex.gender = "Female"
     if (vertex.gender == "m") vertex.gender = "Male"
   }
@@ -384,7 +383,7 @@ class Dataset {
   }
 
   /** Shrink export JSON by eliding any unkown/none values where possible */
-  deleteNoneOrUnknownFields = (vertex: Record<string, any>) => {
+  deleteNoneOrUnknownFields = (vertex: GraphNode) => {
     const undesirables = ["none", "unknown"]
     Object.keys(vertex).forEach(key =>
       undesirables.includes(vertex[key]) && delete vertex[key])
@@ -395,7 +394,7 @@ class Dataset {
    * the parent relationships may as well. The tracking of panda ids in these
    * lists as numbers, happens here.
    */
-  edgesForPandaFamilies = (vertex: Record<string, any>) => {
+  edgesForPandaFamilies = (vertex: NodePanda) => {
     if (vertex.children) {
       vertex.children.map((item: string) => {
         if (item.includes("/")) {
@@ -429,7 +428,7 @@ class Dataset {
    * Turn birthplace and zoo into edges that point from a panda, to a zoo
    * entity. Zoo edges have negative numbers
    */
-  edgesForPandaLocations = (vertex: Record<string, any>) => {
+  edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
       // Wild locations are string IDs
       if (vertex.birthplace.indexOf("wild") == 0) {
@@ -540,7 +539,7 @@ class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path),
       this.reviveLinksNode
-    ).toObject() as Record<"links", Record<string, any>>
+    ).toObject() as Record<"links", NodeLinks>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.links, "links") as NodeLinks
@@ -559,7 +558,7 @@ class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path),
       this.reviveMediaNode
-    ).toObject() as Record<"media", Record<string, any>>
+    ).toObject() as Record<"media", NodeMedia>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
@@ -581,10 +580,10 @@ class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path),
       this.revivePandaNode
-    ).toObject() as Record<"panda", Record<string, any>>
+    ).toObject() as Record<"panda", NodePanda>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
-    const node = this.processNode(path, ingest.panda, "panda") as NodeMedia
+    const node = this.processNode(path, ingest.panda, "panda") as NodePanda
     this.graph.addVertex(node)
     this.files.panda.push(path)
   }
@@ -636,10 +635,10 @@ class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path),
       this.reviveWildNode
-    ).toObject() as Record<"wild", Record<string, any>>
+    ).toObject() as Record<"wild", NodeWild>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
-    const node = this.processNode(path, ingest.wild, "wild") as NodeMedia
+    const node = this.processNode(path, ingest.wild, "wild") as NodeWild
     this.graph.addVertex(node)
     this.files.wild.push(path)
   }
@@ -657,10 +656,10 @@ class Dataset {
       this.ini.parse(
         Deno.readTextFileSync(path),
         this.reviveZooNode
-      ).toObject() as Record<"zoo", Record<string, any>>
+      ).toObject() as Record<"zoo", NodeZoo>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
-    const node = this.processNode(path, ingest.zoo, "zoo") as NodeMedia
+    const node = this.processNode(path, ingest.zoo, "zoo") as NodeZoo
     this.graph.addVertex(node)
     this.files.zoo.push(path)
   }
@@ -688,7 +687,7 @@ class Dataset {
    */
   processNode = (
     path: string,
-    vertex: Record<string, any>,
+    vertex: GraphNode,
     type: NodeType
   ): GraphNode => {
     // For easier diagnostics, record the path a node's data originated from
@@ -731,7 +730,7 @@ class Dataset {
    *                         }
    * ```
    */
-  processNodeLanguageKeys = (vertex: Record<string, any>) => {
+  processNodeLanguageKeys = (vertex: GraphNode) => {
     const languageKeyedFields =
       ["address", "location", "name", "nicknames", "oldnames", "othernames"]
     const possibleLanguageVertexFields = languageKeyedFields
@@ -773,7 +772,7 @@ class Dataset {
    * similar logic.
    */
   processNodeLanguageString = (
-    vertex: Record<string, any>,
+    vertex: GraphNode,
     field: string,
     suffix: string,
     language: Language
@@ -791,7 +790,7 @@ class Dataset {
    * use very similar logic.
    */
   processNodeLanguageList = (
-    vertex: Record<string, any>,
+    vertex: GraphNode,
     field: string,
     suffix: string,
     language: Language
@@ -808,7 +807,7 @@ class Dataset {
    * panda has lived at. Throws if dates or zoo ids are malformed, or if the
    * `birthday` field of the panda doesn't match.
    */
-  processNodeLocations = (vertex: Record<string, any>) => {
+  processNodeLocations = (vertex: NodePanda) => {
     vertex.locations = []
     // Iterate on just the `location.X` fields
     const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
@@ -845,7 +844,7 @@ class Dataset {
    * author fields are URLs and not straight strings, and throws if the
    * commitdate is not valid.
    */
-  processNodePhotos = (vertex: Record<string, any>) => {
+  processNodePhotos = (vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) => {
     vertex.photos = []
     // Iterate on just the `photo.X:` fields
     Object.keys(vertex).filter(key => key.match(/photo\.\d+$/)).forEach(photoKey => {

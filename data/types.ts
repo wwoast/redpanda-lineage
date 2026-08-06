@@ -24,7 +24,7 @@ declare global {
   export type Language = keyof typeof SupportedLanguages
 
   /** Gender values in the underlying `[panda]` `.ini` text files */
-  type Gender = "f" | "m" | "unknown"
+  type Gender = "f" | "m" | "unknown" | "Female" | "Male"
 
   /** 
    * Species values from the underlying `[panda]` `.ini` text files:
@@ -158,7 +158,7 @@ declare global {
     /** Fixed string id prefixed with the word `links` */
     _id: string,
     link: URLLink,
-    type: "link"
+    type: "links"
   }
 
   /** 
@@ -201,7 +201,7 @@ declare global {
     /** YYYY/MM/DD birthday string */
     birthday: string,
     /** Birthplace is the numeric string ID for where the animal was born */
-    birthplace: string,
+    birthplace?: string,
     /** Numeric string ids for any children of this animal */
     children: string[],
     /**
@@ -212,7 +212,7 @@ declare global {
     /** YYYY/MM/DD date of the animal's passing */
     death?: string,
     /** Gender of the panda, omitted from the graph node if it is unknown */
-    gender?: "Female" | "Male"
+    gender?: Gender,
     /**
      * Language order for how to prioritize displaying names when the current
      * display language doesn't have information for this animal. The insertion
@@ -220,7 +220,7 @@ declare global {
      */
     languageOrder: Set<Language>,
     /** Animals born in the same litter as this one, by numeric string ID */
-    litter: string,
+    litter: string[],
     /** List from oldest to newest, of zoo locations the panda has lived at */
     location: PandaLocation[], 
     /** 
