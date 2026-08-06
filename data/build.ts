@@ -498,7 +498,7 @@ class Dataset {
         },
         // Clean the vertices but save final string formatting to the end
         vertices: JSON.parse(JSON.stringify(this.graph.vertices, cleanVertex))
-      }, null, 4)
+      })
     )
     console.log(
       `Dataset exported: ${pandas} pandas at ${locations} locations ` +
