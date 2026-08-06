@@ -150,10 +150,13 @@ class Dataset {
    * the debugging output doesn't suck.
    */
   assertDateExistsAndIsValid = (path: string, key: string, value: string) => {
+    const seasons = ["Spring", "Summer", "Fall", "Winter"]
     if (!value)
       throw new Error(`ERR: ${path}: missing date: ${key}`)
     if (value == "unknown")
       return   // We don't know what we don't know
+    if (seasons.includes(value.split("/")[1]))
+      return   // Rough season value
     const date = new Date(value)
     if (date.toString() == 'Invalid Date')
       throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}: ${value}`)
@@ -241,7 +244,7 @@ class Dataset {
    */
   assertGraphHasNoZombieChildren = () => {
     const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
-    const zombies = pandas.map(panda =>
+    const zombies = pandas.flatMap(panda =>
       this.graph.v(panda).in("family")
         .filter((relative: NodePanda) => relative.gender == "Female")
         .filter((mother: NodePanda) => {
@@ -787,7 +790,7 @@ class Dataset {
       this.assertValidPandaOrZooId(vertex.path, locationKey, zoo)
       this.assertDateExistsAndIsValid(vertex.path, locationKey, dateString)
       const location = {
-        zoo: zoo,
+        id: zoo,
         date: dateString
       }
       vertex.locations.push(location)
@@ -796,11 +799,15 @@ class Dataset {
         if (dateString != vertex.birthday)
           throw new Error(
             `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
-      // Check the last location matches the most recent zoo
-      if (locationKeys.indexOf(locationKey) == locationKeys.length - 1)
-        if (location.zoo != vertex.zoo)
+      // Check the last location matches the most recent zoo or wild id
+      if (locationKeys.indexOf(locationKey) == locationKeys.length - 1) {
+        if (vertex.wild && location.id != vertex.wild)
+          throw new Error(
+            `ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
+        if (vertex.zoo && location.id != vertex.zoo)
           throw new Error(
             `ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
+      }
       // Once location[] is written, delete the old location key
       delete vertex[locationKey]
     })
