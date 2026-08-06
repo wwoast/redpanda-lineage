@@ -706,14 +706,16 @@ class Dataset {
         case "name":
           this.processNodeLanguageString(vertex, field, suffix, language as Language)
           const name = vertex[suffix][language] as string
-          this.processName(vertex.path, name)
+          if (name)
+            this.processName(vertex.path, name)
           break
         case "nicknames":
         case "oldnames":
         case "othernames":
           this.processNodeLanguageList(vertex, field, suffix, language as Language)
-          const nameList = vertex[suffix][language] as string[]
-          nameList.forEach(name => this.processName(vertex.path, name))
+          const nameList: string[] = vertex[suffix][language] ?? []
+          if (nameList.length > 0)
+            nameList.forEach(name => this.processName(vertex.path, name))
           break
         default:
           throw new Error(`ERR: unrecognized input field: ${field}`)
@@ -814,7 +816,7 @@ class Dataset {
         author: author,
         commitdate: commitdate,
         source: vertex[`${photoKey}.link`],
-        tags: vertex[`${photoKey}.tags`].split(", "),
+        tags: vertex[`${photoKey}.tags`],
         url: vertex[`${photoKey}`]
       }
       vertex.photos.push(photo)
