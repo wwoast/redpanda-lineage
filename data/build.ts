@@ -673,8 +673,6 @@ class Dataset {
         this.processNodePhotos(vertex)
         this.processNodeLocations(vertex)
         this.assertYoungPandaLocation(vertex)
-        this.edgesForPandaFamilies(vertex)
-        this.edgesForPandaLocations(vertex)
         this.deleteNoneOrUnknownFields(vertex)
         this.canonicalizeGender(vertex)
         break
@@ -949,6 +947,12 @@ class Dataset {
   verifyPanda = () => {
     const pandaNodes = this.graph.vertices.reduce(toPandas, [])
     this.assertNoDuplicateDatasetIds(pandaNodes)
+    // No more nodes left to process, so the edges will have real pointers
+    pandaNodes.map(vertex => {
+      this.edgesForPandaFamilies(vertex)
+      this.edgesForPandaLocations(vertex)
+    })
+    // Now we can do tests with the edges
     this.assertGraphHasFeasibleLitters()
     this.assertGraphHasNoZombieChildren()
     this.assertGraphHasNoCycles()
