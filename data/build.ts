@@ -464,7 +464,8 @@ class Dataset {
     const locations = wilds + zoos
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
-        edges: JSON.stringify(this.graph.edges, cleanEdge, 4),
+        // Clean the edges but save final string formatting to the end
+        edges: JSON.parse(JSON.stringify(this.graph.edges, cleanEdge)),
         lexer: {
           names: Array.from(this.rpf.lexer_names).sort()
         },
@@ -495,7 +496,8 @@ class Dataset {
           entities: null,
           zoos: null
         },
-        vertices: JSON.stringify(this.graph.vertices, cleanVertex, 4)
+        // Clean the vertices but save final string formatting to the end
+        vertices: JSON.parse(JSON.stringify(this.graph.vertices, cleanVertex))
       }, null, 4)
     )
     console.log(
