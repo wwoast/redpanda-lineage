@@ -464,17 +464,15 @@ class Dataset {
     const locations = wilds + zoos
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
-        // Clean the edges but save final string formatting to the end
-        edges: JSON.parse(JSON.stringify(this.graph.edges, cleanEdge)),
-        lexer: {
+        _lexer: {
           names: Array.from(this.rpf.lexer_names).sort()
         },
-        photo: {
+        _photo: {
           credit: this.rpf.photos.credit,
           entity_max: this.rpf.photos.max,
           group_max: this.rpf.photos.group
         },
-        totals: {
+        _totals: {
           credit: this.rpf.totals.credit,
           last_born: this.rpf.last_born,
           last_died: this.rpf.last_died,
@@ -491,11 +489,13 @@ class Dataset {
           wilds: wilds,
           zoos: zoos,
         },
-        updates: {
+        _updates: {
           authors: null,
           entities: null,
           zoos: null
         },
+        // Clean the edges but save final string formatting to the end
+        edges: JSON.parse(JSON.stringify(this.graph.edges, cleanEdge)),
         // Clean the vertices but save final string formatting to the end
         vertices: JSON.parse(JSON.stringify(this.graph.vertices, cleanVertex))
       })
@@ -742,9 +742,6 @@ class Dataset {
           throw new Error(`ERR: unrecognized input field: ${field}`)
       }
     })
-    // Once all language fields are processed, delete the input fields that
-    // correspond to contents from the flat-text files
-    inputLanguageVertexFields.forEach(field => { delete vertex[field] })
   }
 
   /** 
@@ -762,7 +759,7 @@ class Dataset {
     name[language] = vertex[field]
     vertex[suffix] = {...vertex[suffix], ...name}
     // Once `name[en]` is written, delete `en.name`
-    delete vertex[`${language}.${field}`]
+    delete vertex[`${language}.${suffix}`]
   }
 
   /** 
@@ -780,7 +777,7 @@ class Dataset {
     nameList[language] = vertex[field].split(", ")
     vertex[suffix] = {...vertex[suffix], ...{nameList}}
     // Once `nicknames[en] is written, delete `en.nicknames`
-    delete vertex[`${language}.${field}`]
+    delete vertex[`${language}.${suffix}`]
   }
 
   /** 
