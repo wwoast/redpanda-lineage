@@ -59,8 +59,8 @@ const updatesMetrics: Record<string, number> = {
 }
 
 interface RedPandaFinderMetrics {
-  last_born: string,
-  last_died: string,
+  last_born: number,
+  last_died: number,
   lexer_names: Set<string>,
   photos: PhotoMetrics,
   totals: Record<string, number>,
@@ -69,9 +69,9 @@ interface RedPandaFinderMetrics {
 /** Data specifically for redpandafinder use */
 const rpf: RedPandaFinderMetrics = {
   /** Most recently born animal being tracked */
-  last_born: "",
+  last_born: 1970,
   /** Most recently passed-away animal being tracked */
-  last_died: "",
+  last_died: 1970,
   /** Complex names with spaces which the lexer needs to handle */
   lexer_names: new Set<string>(),
   /** Indices or counters of relevant photo data */
@@ -160,6 +160,8 @@ class Dataset {
     const date = new Date(value)
     if (date.toString() == 'Invalid Date')
       throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}: ${value}`)
+    // When we have valid dates, try to update our most recently born/died year
+    this.checkBirthAndDeathDates(key, date)
   }
 
   /** If date is present, assure it is checked */
@@ -359,6 +361,17 @@ class Dataset {
     if (vertex.gender == "m") vertex.gender = "Male"
   }
 
+  /**
+   * Track which year the most recent panda was born or died. This informs how the
+   * `born` or `died` keywords work when no year argument is provided.
+   */
+  checkBirthAndDeathDates(key: string, date: Date) {
+    if (key == "birthday" && this.rpf.last_born < date.getFullYear())
+      this.rpf.last_born = date.getFullYear()
+    if (key == "death" && this.rpf.last_died < date.getFullYear())
+      this.rpf.last_died = date.getFullYear()
+  }
+
   /** 
    * Print a warning, and return true if the field has a URL. Assert functions
    * can wrap this to enforce / throw if they like.
@@ -462,23 +475,33 @@ class Dataset {
     const wilds = this.files.wild.length
     const zoos = this.files.zoo.length
     const locations = wilds + zoos
+    // Sort the keys in the photo credits set
+    const photoCredits: Record<string, number> = Object.keys(this.rpf.photos.credit)
+      .sort()
+      .reduce((accumulator: Record<string, number>, key) => {
+        accumulator[key] = this.rpf.photos.credit[key]
+        return accumulator
+      }, {})
+    const totalCredits = Object.keys(this.rpf.photos.credit).length
+    // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
         _lexer: {
           names: Array.from(this.rpf.lexer_names).sort()
         },
         _photo: {
-          credit: this.rpf.photos.credit,
+          credit: photoCredits,
           entity_max: this.rpf.photos.max,
           group_max: this.rpf.photos.group
         },
         _totals: {
-          credit: this.rpf.totals.credit,
+          credit: totalCredits,
           last_born: this.rpf.last_born,
           last_died: this.rpf.last_died,
+          locations: locations,
           media: this.files.media.length,
           pandas: pandas,
-          photos: this.rpf.totals.photo,
+          photos: this.rpf.totals.photos,
           updates: {
             authors: null,
             entities: null,
@@ -829,7 +852,7 @@ class Dataset {
       // Increment photo and author credits, if the author field isn't borked
       const author = vertex[`${photoKey}.author`]
       if (this.checkFieldIsAUrl(vertex.path, `${photoKey}.author`, author, true) == false) {
-        this.rpf.photos.credit[author]++
+        this.rpf.photos.credit[author] = (this.rpf.photos.credit[author] ?? 0) + 1
         this.rpf.totals.photos++
       }
       // Throw if the commitdate is missing or fat-fingered
