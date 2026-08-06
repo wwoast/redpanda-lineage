@@ -489,7 +489,10 @@ class Dataset {
    * the `[links]` section becomes `string` or `string[]`.
    */
   importLinks = (path: string) => {
-    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveLinksNode)
+    const ingest = this.ini.parse(
+      Deno.readTextFileSync(path),
+      this.reviveLinksNode
+    ).toObject() as Record<"links", Record<string, any>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.links, "links") as NodeLinks
@@ -505,7 +508,10 @@ class Dataset {
    * photos. All fields in the `[media]` section become `string` or `string[]`.
    */
   importMedia = (path: string) => {
-    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveMediaNode)
+    const ingest = this.ini.parse(
+      Deno.readTextFileSync(path),
+      this.reviveMediaNode
+    ).toObject() as Record<"media", Record<string, any>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
@@ -524,7 +530,10 @@ class Dataset {
    * `[panda]` section become one of `number`, `string`, or `string[]`.
    */
   importPanda = (path: string) => {
-    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.revivePandaNode)
+    const ingest = this.ini.parse(
+      Deno.readTextFileSync(path),
+      this.revivePandaNode
+    ).toObject() as Record<"panda", Record<string, any>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.panda, "panda") as NodeMedia
@@ -576,7 +585,10 @@ class Dataset {
    * fields in the `[wild]` section become either `string` or `string[]`.
    */
   importWilds = (path: string) => {
-    const ingest = this.ini.parse(Deno.readTextFileSync(path), this.reviveWildNode)
+    const ingest = this.ini.parse(
+      Deno.readTextFileSync(path),
+      this.reviveWildNode
+    ).toObject() as Record<"wild", Record<string, any>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.wild, "wild") as NodeMedia
@@ -594,8 +606,11 @@ class Dataset {
    */
   importZoos = (path: string) => {
     console.log(path)
-    const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), this.reviveZooNode)
+    const ingest =
+      this.ini.parse(
+        Deno.readTextFileSync(path),
+        this.reviveZooNode
+      ).toObject() as Record<"zoo", Record<string, any>>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.zoo, "zoo") as NodeMedia
