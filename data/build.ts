@@ -290,7 +290,9 @@ class Dataset {
     // Animals that passed away need valid dates of death
     if (vertex.death) {
       this.assertDateExistsAndIsValid(vertex.path, "death", vertex.death)
-      if (vertex.birthday > vertex.death)
+      if (vertex.birthday == "unknown" || vertex.death == "unknown")
+        return   // We don't know what we don't know
+      if (new Date(vertex.birthday).getTime() > new Date(vertex.death).getTime())
         throw new Error(`ERR: ${vertex.path}: birthday occurs after date of death`)
     }
   }
@@ -783,8 +785,8 @@ class Dataset {
         date: dateString
       }
       vertex.locations.push(location)
-      // Check the first location date matches the birthday
-      if (locationKeys.indexOf(locationKey) == 0)
+      // Check the first location date matches the birthday, if the birthday is known
+      if ((locationKeys.indexOf(locationKey) == 0) && (vertex.birthday != "unknown"))
         if (dateString != vertex.birthday)
           throw new Error(
             `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
