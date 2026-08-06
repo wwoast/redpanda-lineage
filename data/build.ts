@@ -152,6 +152,8 @@ class Dataset {
   assertDateExistsAndIsValid = (path: string, key: string, value: string) => {
     if (!value)
       throw new Error(`ERR: ${path}: missing date: ${key}`)
+    if (value == "unknown")
+      return   // We don't know what we don't know
     const date = new Date(value)
     if (date.toString() == 'Invalid Date')
       throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}: ${value}`)
@@ -774,14 +776,16 @@ class Dataset {
       const [zoo, dateString] = vertex[locationKey].split(", ")
       this.assertValidPandaOrZooId(vertex.path, locationKey, zoo)
       this.assertDateExistsAndIsValid(vertex.path, locationKey, dateString)
-      if (dateString != vertex.birthday)
-        throw new Error(
-          `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       const location = {
         zoo: zoo,
         date: dateString
       }
       vertex.locations.push(location)
+      // Check the first location date matches the birthday
+      if (locationKeys.indexOf(locationKey) == 0)
+        if (dateString != vertex.birthday)
+          throw new Error(
+            `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       // Check the last location matches the most recent zoo
       if (locationKeys.indexOf(locationKey) == locationKeys.length - 1)
         if (location.zoo != vertex.zoo)
