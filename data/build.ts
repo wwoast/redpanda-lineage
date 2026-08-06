@@ -315,8 +315,10 @@ class Dataset {
     }
   }
 
-  /** Panda and Zoo ids must be integers */
+  /** Panda and Zoo ids must be integers, or `unknown` */
   assertValidPandaOrZooId = (path: string, key: string, value: string) => {
+    if (value == "unknown")
+      return   // We don't know what we don't know
     if (isNaN(parseInt(value)))
       throw new Error(`ERR: ${path}: ${key}: invalid id: ${value}`)
   }
