@@ -26142,11 +26142,6 @@
             "_out": "1112"
         },
         {
-            "_in": "-112",
-            "_label": "zoo",
-            "_out": "1112"
-        },
-        {
             "_in": "-118",
             "_label": "birthplace",
             "_out": "1123"
@@ -302091,7 +302086,7 @@
             "ja.name": "ランディ",
             "language.order": "en, ja",
             "location.1": "108, 2014/6/23",
-            "location.2": "115, 2016/3/8",
+            "location.2": "119, 2016/3/8",
             "photo.1": "cwdc://WI0HMwoADQA.jpg",
             "photo.1.author": "greatplainszoo",
             "photo.1.commitdate": "2020/1/25",
@@ -307524,7 +307519,7 @@
             "ja.name": "のり",
             "language.order": "en, ja",
             "location.1": "146, 2009/6/18",
-            "location.2": "157, 2010/4/26",
+            "location.2": "158, 2010/4/26",
             "species": "1",
             "studbook.id": "0924"
         },

@@ -317,10 +317,16 @@ class Dataset {
     }
   }
 
-  /** Panda and Zoo ids must be integers, or `unknown` */
+  /** 
+   * Checks the id value of a `location.X` field. Must be a positive integer
+   * for a panda, negative integer for a zoo, `wild.X` for a wild location, or
+   * `unknown` if we don't know.
+   */
   assertValidPandaOrZooId = (path: string, key: string, value: string) => {
     if (value == "unknown")
       return   // We don't know what we don't know
+    if (value.indexOf("wild") == 0)
+      return   // Born in a wild place
     if (isNaN(parseInt(value)))
       throw new Error(`ERR: ${path}: ${key}: invalid id: ${value}`)
   }
