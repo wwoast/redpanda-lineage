@@ -775,7 +775,7 @@ class Dataset {
   ) => {
     const nameList: NameListByLanguage = {}
     nameList[language] = vertex[field].split(", ")
-    vertex[suffix] = {...vertex[suffix], ...{nameList}}
+    vertex[suffix] = {...vertex[suffix], ...nameList}
     // Once `nicknames[en] is written, delete `en.nicknames`
     delete vertex[`${language}.${suffix}`]
   }
