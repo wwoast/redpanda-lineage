@@ -605,7 +605,6 @@ class Dataset {
    * `[zoo]` section become one of `number`, `string` or `string[]`.
    */
   importZoos = (path: string) => {
-    console.log(path)
     const ingest =
       this.ini.parse(
         Deno.readTextFileSync(path),

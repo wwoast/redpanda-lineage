@@ -49,7 +49,7 @@ export const Paths: Record<string, string> = {
   media: "./media",
   output: "./export/redpanda.json",
   pandas: "./pandas",
-  wild: "./wild",
+  wilds: "./wild",
   zoos: "./zoos"
 }
 
