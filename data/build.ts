@@ -11,6 +11,7 @@ import { Paths,
          toLinks,
          toMedia,
          toPandas,
+         toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
 
@@ -470,7 +471,7 @@ class Dataset {
    * Redpandafinder supplements this with various counters and indexes for
    * use in dataset metrics and searching.
    */
-  exportJsonGraph = (exportPath: string) => {
+  exportJsonGraph = (exportPath: string, updates: Updates) => {
     const pandas = this.files.panda.length
     const wilds = this.files.wild.length
     const zoos = this.files.zoo.length
@@ -483,6 +484,11 @@ class Dataset {
         return accumulator
       }, {})
     const totalCredits = Object.keys(this.rpf.photos.credit).length
+    // Track entities by `<type>.id` in a single list
+    const entityLocators =
+      Array.from(updates.recent.media.values()).concat(
+        Array.from(updates.recent.panda.values())).concat(
+          Array.from(updates.recent.zoo.values()))
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
@@ -503,19 +509,19 @@ class Dataset {
           pandas: pandas,
           photos: this.rpf.totals.photos,
           updates: {
-            authors: null,
-            entities: null,
-            pandas: null,
-            photos: null,
-            zoos: null
+            authors: updates.tallies.author,
+            entities: entityLocators.length,
+            pandas: updates.tallies.panda,
+            photos: updates.tallies.photo,
+            zoos: updates.tallies.zoo
           },
           wilds: wilds,
           zoos: zoos,
         },
         _updates: {
-          authors: null,
-          entities: null,
-          zoos: null
+          authors: updates.recent.authors,
+          entities: entityLocators,
+          photos: updates.recent.photos
         },
         // Clean the edges but save final string formatting to the end
         edges: JSON.parse(JSON.stringify(this.graph.edges, cleanEdge)),
@@ -1000,22 +1006,30 @@ class Dataset {
   }
 }
 
+/** 
+ * On the redpandafinder front page, we want to show content contributed in the
+ * last week. Some of this we can determine from doing a git diff on the last
+ * seven days of commits. For authors, we lean into the entity graph. 
+ */
 interface Updates {
   /** The most recent `HEAD` commit in the _redpanda-lineage_ git repository */
   currentCommit: Commit | undefined
-  entityToCommitDate: Record<string, string>
-  /** An index of entity-resolved photo locators to photo information */
-  locatorToPhoto: Record<string, PhotoEntry>
+  /** The current epoch in milliseconds, for seeing what is a week old */
+  currentTime: number,
+  /** The earliest clock time for something to be considered fresh */
+  earliestTime: number,
   /** The patch diff between the current commit and the prior commit */
   patches: Patch[]
-  /** Time range for changes to be considered current (7 days by default) */
+  /** Time range for updates to be fresh (7 days in ms by default) */
   period: number
   /** The most recent commit newer than the `period` time range. */
   priorCommit: Commit | undefined
+  /** Tracking which entities or photo locators have new content */
+  recent: Record<string, Set<string>>
   /** The git repo to iterate on */
   repo: Git
-  /** Tracking which photo locators have been seen already */
-  seen: Record<string, string[]>
+  /** Tallies for updated content */
+  tallies: Record<string, number>
 }
 class Updates {
   currentCommit: Commit | undefined
@@ -1025,20 +1039,34 @@ class Updates {
 
   constructor() {
     this.repo = git()
+    this.currentTime = new Date().getTime()
+    this.earliestTime = this.currentTime - this.period
+    // Create sets and tallies for any content we want track updates about
+    const updateTypes = ["authors", "media", "panda", "photos", "wild", "zoo"]
+    updateTypes.map(type => {
+      this.recent[type] = new Set<string>
+      this.tallies[type] = 0
+    })
   }
 
   /** 
-   * Initialization post-constructor that relies on async methods. `@roka/git`
-   * heavily uses async logic, which is not permitted in the constructor method
+   * `@roka/git` heavily uses async logic, which is not permitted in the
+   * constructor method. So we "build" the diff results instead.
    */
-  init = async () => {
+  build = async (graph: Graph) => {
     this.currentCommit = await this.repo.commit.get("HEAD")
     this.priorCommit = await this.#startingCommit()
     this.patches = await this.repo.diff.patch(
       {from: this.priorCommit, to: this.currentCommit})
+    // Simultaneously process update determination from git commits, and the
+    // full graph processing for determining who the new contributors are.
+    await Promise.all([
+      this.#determineUpdates(),
+      this.#newContributors(graph)
+    ])
   }
 
-  createUpdates = async () => {
+  #determineUpdates = async () => {
     for (const change of this.patches) {
       const filename = change.path
       // Don't care about non-data files
@@ -1062,12 +1090,41 @@ class Updates {
   }
 
   /**
+   * To correctly determine whether a contributor is new to redpandafinder,
+   * we need to look at commitdates on every single photo they've sumbitted,
+   * across all entities, and then see if their contributions this week match
+   * the number of contributions they've had total.
+   */
+  #newContributors = async (graph: Graph) => {
+    // Map of photo locator to PhotoEntry object
+    const authorToEarliestCommit: Record<string, number> = {}
+    const nodes = graph.vertices.reduce(toPhotoEntities, [])
+    nodes.map(node => {
+      node.photos.map(photo => {
+        const { author, commitdate } = photo
+        const committime = new Date(commitdate).getTime()
+        // Set the oldest posisble time for a photo commit date per author
+        if (!Object.keys(authorToEarliestCommit).includes(author))
+          authorToEarliestCommit[author] = committime
+        else if (authorToEarliestCommit[author] > committime)
+          authorToEarliestCommit[author] = committime          
+      })
+    })
+    const newContributors = Object.keys(authorToEarliestCommit)
+      .filter(author => authorToEarliestCommit[author] > this.earliestTime)
+    this.recent.authors = new Set(newContributors)
+    this.tallies.authors = newContributors.length
+  }
+
+  /**
    * Annoying code where we use the PhotoEntry object to create locators for
    * where an entity or a photo might already exist in our lookup caches for
    * entities and photos.
    *
-   * Add to the entity cache for files we haven't seen before, and add to the
-   * photo cache for lines representing a facet of a photo we haven't seen.
+   * If the photoCommitDate is new enough, track the new photo locator in
+   * `this.recent.photos`. If the entityCommitDate is new enough, track the
+   * entity in `this.recent[entityType]`. Increment tallies for photos and
+   * entities as we go.
    */
   #processRawLine = (filename: string, raw: string) => {
     // Only match photo lines that were added
@@ -1076,23 +1133,28 @@ class Updates {
     raw = raw.trim()
     const photo = new PhotoEntry(filename, raw)
     const entity = photo.entityLocator()
+    const entityType = photo.entityType
     const locator = photo.photoLocator()
-    this.locatorToPhoto[locator] = photo
-    if (!Object.keys(this.seen).includes(entity)) {
-      this.seen[entity] = []
-      this.entityToCommitDate[locator] = photo.entityCommitDate
+    // Recent enough photos are tracked by photo locator
+    const photoCommitTime = new Date(photo.photoCommitDate).getTime()
+    if (photoCommitTime >= this.earliestTime) {
+      this.recent.photos.add(locator)
+      this.tallies.photos++
     }
-    this.seen[entity].push(locator) 
+    // Recent enough entities are tracked by entity locator
+    const entityCommitTime = new Date(photo.entityCommitDate).getTime()
+    if (!this.recent[entityType].has(entity) && entityCommitTime >= this.earliestTime) {
+      this.recent[entityType].add(entity)
+      this.tallies[entityType]++
+    }
   }
 
   /** Determine the earliest commit newer than the `period` value (7 days) */
   #startingCommit = async () => {
-    const currentTime = new Date().getTime()
-    const earliestTime = currentTime - this.period
     const iterateCommits = (await this.repo.commit.log()).values()
     let oldestCommit = await this.repo.commit.get("HEAD")
     for (const commit of iterateCommits)
-      if (commit.author.date.epochMilliseconds > earliestTime)
+      if (commit.author.date.epochMilliseconds > this.earliestTime)
         oldestCommit = commit
     return oldestCommit
   }
@@ -1100,5 +1162,7 @@ class Updates {
 
 if (import.meta.main) {
   const dataset = new Dataset()
-  dataset.exportJsonGraph(Paths.output)
+  const updates = new Updates()
+  updates.build(dataset.graph)
+  dataset.exportJsonGraph(Paths.output, updates)
 }

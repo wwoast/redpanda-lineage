@@ -76,6 +76,22 @@ export function toPandas(accumulator: NodePanda[], vertex: Vertex) {
   return accumulator
 }
 
+export function toPhotoEntities(
+  accumulator: (NodeMedia | NodePanda | NodeWild | NodeZoo)[],
+  vertex: Vertex
+) {
+  const photoEntityVertices = ['media', 'panda', 'wild', 'zoo']
+  if (vertex.type == 'media')
+    accumulator.push(vertex as NodeMedia)
+  else if (vertex.type == 'panda')
+    accumulator.push(vertex as NodePanda)
+  else if (vertex.type == 'wild')
+    accumulator.push(vertex as NodeWild)
+  else if (vertex.type == 'zoo')
+    accumulator.push(vertex as NodeZoo)
+  return accumulator
+}
+
 /** Take the input vertices and keep just wild locations */
 export function toWilds(accumulator: NodeWild[], vertex: Vertex) {
   if (vertex.type == 'wild')
