@@ -14,7 +14,6 @@ import { Paths,
          toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
-         import { stringify } from "@std/ini/stringify";
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -1035,7 +1034,7 @@ interface Updates {
 }
 class Updates {
   currentCommit: Commit | undefined
-  period = 1000 * 60 * 60 * 24 * 7   // 7 days in milliseconds
+  period = 1000 * 60 * 60 * 24 * 7  // 7 days in milliseconds
   priorCommit: Commit | undefined
   repo: Git
 
@@ -1060,8 +1059,13 @@ class Updates {
   build = async (graph: Graph) => {
     this.currentCommit = await this.repo.commit.get("HEAD")
     this.priorCommit = await this.#startingCommit()
-    this.patches = await this.repo.diff.patch(
-      {from: this.priorCommit, to: this.currentCommit})
+    // Memory use quickly gets out of hand when commits get busy, especially with
+    // redpanda.json being on the path. So restrict the possible paths
+    this.patches = await this.repo.diff.patch({
+      from: this.priorCommit,
+      to: this.currentCommit,
+      path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
+    })
     // Simultaneously process update determination from git commits, and the
     // full graph processing for determining who the new contributors are.
     await Promise.all([
