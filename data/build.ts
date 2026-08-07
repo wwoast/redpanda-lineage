@@ -1043,6 +1043,7 @@ class Updates {
     this.currentTime = new Date().getTime()
     this.earliestTime = this.currentTime - this.period
     this.recent = {}
+    this.tallies = {}
     // Create sets and tallies for any content we want track updates about
     const updateTypes = ["authors", "media", "panda", "photos", "wild", "zoo"]
     updateTypes.map(type => {
