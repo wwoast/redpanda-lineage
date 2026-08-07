@@ -1,7 +1,8 @@
 import Graph, { cleanEdge, cleanVertex } from './dagoba.ts'
 import { IniMap } from '@std/ini/ini-map'
 import { join } from '@std/path'
-import { git } from '@roka/git'
+import { Commit, Git, Patch, git } from '@roka/git'
+import { PhotoEntry } from './photos.ts'
 import { Paths,
          byIdAscending,
          existsDirSync,
@@ -999,7 +1000,105 @@ class Dataset {
   }
 }
 
+interface Updates {
+  /** The most recent `HEAD` commit in the _redpanda-lineage_ git repository */
+  currentCommit: Commit | undefined
+  entityToCommitDate: Record<string, string>
+  /** An index of entity-resolved photo locators to photo information */
+  locatorToPhoto: Record<string, PhotoEntry>
+  /** The patch diff between the current commit and the prior commit */
+  patches: Patch[]
+  /** Time range for changes to be considered current (7 days by default) */
+  period: number
+  /** The most recent commit newer than the `period` time range. */
+  priorCommit: Commit | undefined
+  /** The git repo to iterate on */
+  repo: Git
+  /** Tracking which photo locators have been seen already */
+  seen: Record<string, string[]>
+}
+class Updates {
+  currentCommit: Commit | undefined
+  period = 1000 * 60 * 60 * 24 * 7   // 7 days in milliseconds
+  priorCommit: Commit | undefined
+  repo: Git
+
+  constructor() {
+    this.repo = git()
+  }
+
+  /** 
+   * Initialization post-constructor that relies on async methods. `@roka/git`
+   * heavily uses async logic, which is not permitted in the constructor method
+   */
+  init = async () => {
+    this.currentCommit = await this.repo.commit.get("HEAD")
+    this.priorCommit = await this.#startingCommit()
+    this.patches = await this.repo.diff.patch(
+      {from: this.priorCommit, to: this.currentCommit})
+  }
+
+  createUpdates = async () => {
+    for (const change of this.patches) {
+      const filename = change.path
+      // Don't care about non-data files
+      if (!filename.endsWith(".txt"))
+        continue
+      // Don't care about lines we removed
+      else if (change.stats && change.stats.added == 0)
+        continue
+      // Don't care about files removed
+      else if (!existsFileSync(change.path))
+        continue
+      // Don't care if there are no hunks
+      else if (!change.hunks)
+        continue
+      else
+        for (const hunk of change.hunks)
+          for (const line of hunk.lines)
+            if (line.type == "added")
+              this.#processRawLine(filename, line.content)
+    }
+  }
+
+  /**
+   * Annoying code where we use the PhotoEntry object to create locators for
+   * where an entity or a photo might already exist in our lookup caches for
+   * entities and photos.
+   *
+   * Add to the entity cache for files we haven't seen before, and add to the
+   * photo cache for lines representing a facet of a photo we haven't seen.
+   */
+  #processRawLine = (filename: string, raw: string) => {
+    // Only match photo lines that were added
+    if (!raw.match(/^photo\.\d+:/))
+      return
+    raw = raw.trim()
+    const photo = new PhotoEntry(filename, raw)
+    const entity = photo.entityLocator()
+    const locator = photo.photoLocator()
+    this.locatorToPhoto[locator] = photo
+    if (!Object.keys(this.seen).includes(entity)) {
+      this.seen[entity] = []
+      this.entityToCommitDate[locator] = photo.entityCommitDate
+    }
+    this.seen[entity].push(locator) 
+  }
+
+  /** Determine the earliest commit newer than the `period` value (7 days) */
+  #startingCommit = async () => {
+    const currentTime = new Date().getTime()
+    const earliestTime = currentTime - this.period
+    const iterateCommits = (await this.repo.commit.log()).values()
+    let oldestCommit = await this.repo.commit.get("HEAD")
+    for (const commit of iterateCommits)
+      if (commit.author.date.epochMilliseconds > earliestTime)
+        oldestCommit = commit
+    return oldestCommit
+  }
+}
+
 if (import.meta.main) {
   const dataset = new Dataset()
-  dataset.exportJsonGraph('./export/redpanda.json')
+  dataset.exportJsonGraph(Paths.output)
 }
