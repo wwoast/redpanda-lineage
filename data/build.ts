@@ -485,11 +485,12 @@ class Dataset {
         return accumulator
       }, {})
     const totalCredits = Object.keys(this.rpf.photos.credit).length
-    // Track entities by `<type>.id` in a single list
-    const entityLocators =
-      Array.from(updates.recent.media.values()).concat(
-        Array.from(updates.recent.panda.values())).concat(
-          Array.from(updates.recent.zoo.values()))
+    // Track entities by `<type>.id` in a single concatenated list
+    const entityLocators = [
+      ...updates.recent.media,
+      ...updates.recent.panda,
+      ...updates.recent.zoo
+    ]
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
@@ -520,9 +521,9 @@ class Dataset {
           zoos: zoos,
         },
         _updates: {
-          authors: updates.recent.authors,
+          authors: [...updates.recent.authors],
           entities: entityLocators,
-          photos: updates.recent.photos
+          photos: [...updates.recent.photos]
         },
         // Clean the edges but save final string formatting to the end
         edges: JSON.parse(JSON.stringify(this.graph.edges, cleanEdge)),
