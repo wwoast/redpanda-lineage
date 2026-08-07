@@ -14,6 +14,7 @@ import { Paths,
          toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
+         import { stringify } from "@std/ini/stringify";
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -1041,6 +1042,7 @@ class Updates {
     this.repo = git()
     this.currentTime = new Date().getTime()
     this.earliestTime = this.currentTime - this.period
+    this.recent = {}
     // Create sets and tallies for any content we want track updates about
     const updateTypes = ["authors", "media", "panda", "photos", "wild", "zoo"]
     updateTypes.map(type => {
