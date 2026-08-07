@@ -1059,8 +1059,8 @@ class Updates {
   build = async (graph: Graph) => {
     this.currentCommit = await this.repo.commit.get("HEAD")
     this.priorCommit = await this.#startingCommit()
-    // Memory use quickly gets out of hand when commits get busy, especially with
-    // redpanda.json being on the path. So restrict the possible paths
+    // Memory use quickly gets out of hand when diff tries to process
+    // `redpanda.json`, so restrict the possible paths
     this.patches = await this.repo.diff.patch({
       from: this.priorCommit,
       to: this.currentCommit,
