@@ -1718,13 +1718,13 @@ export function indeterminateSiblings(animal_id, sibling_id) {
   return false
 }
 
-/** Return the language order as an array */
+/** Return the array of languages prioritized for the given entity */
 export function language_order(entity) {
   const ordering = entity["language.order"]
-  if (ordering == undefined) {
+  if (ordering == undefined || ordering.length == 0) {
     return Fallback.order
   } else {
-    return ordering.split(", ")
+    return ordering
   }
 }
 
