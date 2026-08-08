@@ -919,8 +919,6 @@ class Dataset {
     if (section != "panda")
       return value   // Shouldn't happen
     switch (true) {
-      case (key.includes("_id")):
-        return parseInt(value as string)
       case (key.includes("children")):
       case (key.includes("litter")):
         return (value as string).split(", ")
@@ -960,7 +958,7 @@ class Dataset {
       return value   // Shouldn't happen
     switch (true) {
       case (key.includes("_id")):
-        return parseInt(value as string) * -1
+        return (parseInt(value as string) * -1).toString()
       case (key == "language.order"):
         return (value as string).split(", ") as Language[]
       case (key.includes("tags")):
