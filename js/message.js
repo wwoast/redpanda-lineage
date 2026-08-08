@@ -2341,7 +2341,7 @@ export function new_photos(language) {
     section_order = ["photos", "suffix"]
   }
   const lookup = Text.new_photos
-  const pieces = []
+  let pieces = []
   for (const part of section_order) {
     const count = counts[part];
     if (count == 0) {
