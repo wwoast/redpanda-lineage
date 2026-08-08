@@ -327,9 +327,9 @@ export function fade(el) {
  * alternate add an alternate spelling to the name information.
  */
 function furigana(name, othernames) {
-  if (othernames == Defaults.animal["ja.othernames"])
+  if (othernames == Defaults.animal.othernames["ja"])
     return false
-  othernames = othernames.split(", ")   // Guarantee array
+  othernames = othernames   // Guarantee array
   othernames = othernames.filter(function(option) {
     if (Language.editDistance(name, option) > 1) {
       return option
@@ -417,7 +417,7 @@ function locationLink(zoo, language, mode="icons_only") {
 function nicknames(animal) {
   const container = document.createElement('ul')
   container.className = "nicknameList"
-  for (let language of animal["language.order"].split(", ")) {
+  for (let language of animal["language.order"]) {
     const nicknames = animal.nicknames[language]
     if (nicknames == undefined)
       continue
@@ -426,7 +426,7 @@ function nicknames(animal) {
     nicknames_li.innerText =
       `${Gui.language[Env.language][language]}: `
     // Nicknames for this animal
-    for (let name of nicknames.split(", "))
+    for (let name of nicknames)
       nicknames_list.push(name)
     // Did we have any extra names? If so, add them
     if (nicknames_list.length > 0) {
@@ -447,7 +447,7 @@ function othernames(animal, current_language) {
   container.className = "nicknameList"
   // Cycle through other languages to get their names and other
   // spellings for their names
-  for (let language of animal["language.order"].split(", ")) {
+  for (let language of animal["language.order"]) {
     const othername_list = []
     const othername_li = document.createElement('li')
     othername_li.innerText =
@@ -461,13 +461,13 @@ function othernames(animal, current_language) {
     // Othernames / spellings for this animal
     const othernames = animal.othernames[language]
     if (othernames != undefined) {
-      for (let name of othernames.split(", "))
+      for (let name of othernames)
         othername_list.push(name)
     }
     // Old names that were previously valid for this animal
     const oldnames = animal.oldnames[language]
     if (oldnames != undefined) {
-      for (let name of oldnames.split(", "))
+      for (let name of oldnames)
         othername_list.push(name)
     }
     // Did we have any extra names? If so, add them
@@ -1378,11 +1378,8 @@ const linksOrder = {
     for (const field_name of link_fields(links)) {
       // Fallback language order
       let language_order = links[`${field_name}.language.order`]
-      if (language_order == undefined) {
+      if (language_order == undefined)
         language_order = Fallback.order
-      } else {
-        language_order = language_order.split(", ")
-      }
       // Fallback name selection, if (like the instagram names) we don't
       // have language-specific names. Start with a generic name field if
       // the links are actually generic.

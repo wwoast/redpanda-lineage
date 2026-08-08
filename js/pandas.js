@@ -644,19 +644,16 @@ function searchPandaNameFields(input, name_fields=undefined) {
   }
   const nodes = G.v().filter(function(animal) {
     const languages = Defaults.languages
-    // Valid per-language name fields
-    let collected_fields = []
-    for (const name_field of name_fields) {
-      collected_fields = collected_fields.concat(
-        languages.map(l => `${l}.${name_field}`)
-      )
-    }
-    for (const field of collected_fields) {
-      if (animal[field] != undefined) {
-        const name_list = animal[field].split(", ")
-        for (let wanted of inputs) {
-          if (name_list.includes(wanted)) {
-            return animal
+    for (const field of name_fields) {
+      for (const language of Defaults.languages) {
+        if (animal[field][language] != undefined) {
+          const nameOrList = animal[field][language]
+          const name_list = (typeof nameOrList === "string")
+            ? [nameOrList] : nameOrList
+          for (let wanted of inputs) {
+            if (name_list.includes(wanted)) {
+              return animal
+            }
           }
         }
       }
@@ -786,7 +783,7 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
     const photo_index = field_name.split(".")[1]
     if (animal[photo_tags] == undefined)
       continue
-    const photo_tag_list = animal[photo_tags].split(", ")
+    const photo_tag_list = animal[photo_tags]
     // Is the search tag list a subset of the photo_tag_list
     const contains = !(tags.some(val => !photo_tag_list.includes(val)))
     if (contains == true) {
@@ -823,7 +820,7 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
       const photo_index = field_name.split(".")[1]
       if (animal[photo_tags] == undefined)
         continue
-      if (animal[photo_tags].split(", ").includes(tag)) {
+      if (animal[photo_tags].includes(tag)) {
         if (mode == "animal") {
           return [animal]
         } else {
@@ -1330,38 +1327,32 @@ function sortByNameJapanese(nodes) {
       name_list = name_list.concat(node.othernames['ja'])
     return name_list
   }
-  const name_field = "ja.name"
-  const othername_field = "ja.othernames"
-  const sort_name = "ja.sortname"
-  let connector = Text["and"][Env.language]
+  const connector = Text["and"][Env.language]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
     if (node["_id"].indexOf("media.") == 0) {
       const panda_ids = node["panda.tags"]
-      const animals = panda_ids.map(function(id) {
-        const panda = searchPandaId(id)[0]
-        return panda
-      })
+      const animals = panda_ids.map(id => searchPandaId(id)[0])
       // Sort only by the first name in the photo
-      const first_group_name = node[name_field].split(connector)[0]
+      const first_group_name = node.name['ja'].split(connector)[0]
       const animal = animals.filter(
-        animal => animal[name_field] == first_group_name)[0]
-      const name_list = build_name_list(animal, name_field, othername_field)
-      node[sort_name] = name_list
+        animal => animal.name.ja == first_group_name)[0]
+      const name_list = build_name_list(animal)
+      node.sortname = name_list
         .map(name => hiragana_generate(name))
         .filter(name => name != undefined)[0]
     } else {
       // Sort by the first hiragana name, from the "othernames"
       // list if necessary. Find the first hiragana or katakana string.
-      const name_list = build_name_list(node, name_field, othername_field)
+      const name_list = build_name_list(node)
       node[sort_name] = name_list
         .map(name => hiragana_generate(name))
         .filter(name => name != undefined)[0]
     }
     return node
   })
-  return sortByName(nodes, sort_name)
+  return sortByName(nodes, "sortname")
 }
 
 /** 
@@ -1395,11 +1386,10 @@ function sortByNameWithGroups(nodes, photo_list, language) {
     }
     return node
   })
-  if (Env.language == "ja") {
+  if (Env.language == "ja")
     return sortByNameJapanese(nodes)
-  } else {
-    return sortByName(nodes, name_field)
-  }
+  else
+    return sortByName(nodes, "name")
 }
 
 export function sortByDate(nodes, field_name, mode="descending") {
