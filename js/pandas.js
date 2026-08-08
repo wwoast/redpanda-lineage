@@ -725,7 +725,7 @@ export function searchPandaMedia(query, only_media=false) {
       // searchPanda list.
       const nodes = G.v().filter(function(vertex) {
         if (Object.keys(vertex).includes("panda.tags")) {
-          return vertex["panda.tags"].split(", ").includes(id)
+          return vertex["panda.tags"].includes(id)
         }
       }).run()
       return nodes
@@ -747,8 +747,7 @@ export function searchPandaMediaIntersect(id_list) {
   // searchPanda list.
   const nodes = G.v().filter(function(vertex) {
     if (Object.keys(vertex).includes("panda.tags")) {
-      const panda_tags = vertex["panda.tags"].split(", ")
-      return arrayContentsEqual(id_list, panda_tags)
+      return arrayContentsEqual(id_list, vertex["panda.tags"])
     }
   }).run()
   return nodes
@@ -1339,7 +1338,7 @@ function sortByNameJapanese(nodes) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
     if (node["_id"].indexOf("media.") == 0) {
-      const panda_ids = node["panda.tags"].split(", ")
+      const panda_ids = node["panda.tags"]
       const animals = panda_ids.map(function(id) {
         const panda = searchPandaId(id)[0]
         return panda
@@ -1603,8 +1602,8 @@ export function gender(animal, language) {
  */
 export function groupMediaCaption(entity, photo_index) {
   const tag_index = `${photo_index}.tags`
-  const pandaTags = entity["panda.tags"].split(", ")
-  let output_string = Defaults.animal[`${Env.language}.name`]
+  const pandaTags = entity["panda.tags"]
+  let output_string = Defaults.animal.name[Env.language]
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID

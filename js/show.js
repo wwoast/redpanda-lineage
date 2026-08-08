@@ -868,11 +868,10 @@ const mediaButton = {
   altAction: function(e) {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.media.render
-    const pandaIds = 
+    let pandaIds = 
       P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                    .filter(entity => entity["photo.1"] != undefined)
                    .map(entity => entity["panda.tags"])
-                   .map(tag_ids => tag_ids.split(", "))
     pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds))
     window.location =
       `#media/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
@@ -1021,11 +1020,10 @@ const randomButton = {
     const groupIds =
       P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                    .map(entity => entity["panda.tags"])
-                   .map(tags => tags.split(", ").join(" "))
-                   .filter(function(tags) {
-                      // If all animals in the group photo are dead, don't present
-                      var alive = tags.split(" ")
-                        .map(id => Pandas.searchPandaId(id).death != undefined)
+                   .filter(function(pandaIds) {
+                      // If all animals in a media node are dead, don't present
+                      const alive = pandaIds.map(
+                        id => Pandas.searchPandaId(id).death != undefined)
                       if (alive.every(id => id === true))
                         return false
                       else

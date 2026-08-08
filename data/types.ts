@@ -118,9 +118,6 @@ declare global {
     zoo: string
   }
 
-  /** Comma-separated list of fixed string panda IDs */
-  type PandaTags = string[]
-
   /** 
    * Collection of items related to a link displayed on the `Links` page in
    * redpandafinder.
@@ -177,7 +174,7 @@ declare global {
      */
     commitdate: string,
     /** Comma-separated list of numeric fixed identifiers for animals in the photo */
-    "panda.tags": PandaTags,
+    "panda.tags": string[],
     /** A set of photos of multiple animals */
     photos: MediaPhoto[]
     /** Type discriminator to quickly deduce what kind of photo-containing object */
