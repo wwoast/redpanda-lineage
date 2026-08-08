@@ -385,8 +385,6 @@ declare global {
   /** 
    * Panda results are an enrichment of the panda entity info tracked in the
    * Dagobah graph.
-   * 
-   * TODO: use local storage language to avoid the get_name
    */
   interface ResultPanda {
     /** 
@@ -472,8 +470,6 @@ declare global {
   /** 
    * Zoo results are an enrichment of the zoo entity info tracked in the Dagobah
    * graph.
-   * 
-   * TODO: use local storage language to avoid the get_name
    */
   interface ResultZoo {
     /** The address of this zoo, translated into the current display language. */

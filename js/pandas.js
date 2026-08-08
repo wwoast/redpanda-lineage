@@ -1323,14 +1323,12 @@ function sortByNameJapanese(nodes) {
       return Language.katakanaToHiragana(name)
     }
   }
-  function build_name_list(node, name_field, othername_field) {
+  function build_name_list(node) {
     let name_list = []
-    if (name_field in node) {
-      name_list = name_list.concat(node[name_field])
-    }
-    if (othername_field in node) {
-      name_list = name_list.concat(node[othername_field].split(", "))
-    }
+    if (node.name['ja'])
+      name_list = name_list.concat(node.name['ja'])
+    if (node.othernames['ja'])
+      name_list = name_list.concat(node.othernames['ja'])
     return name_list
   }
   const name_field = "ja.name"
@@ -1388,13 +1386,13 @@ function sortByName(nodes, name_field) {
  * specific photos you're pulling out of the group file, because the group
  * name is based on the arrangement of pandas in the photo.
  */
-function sortByNameWithGroups(nodes, photo_list, name_field) {
+function sortByNameWithGroups(nodes, photo_list, language) {
   nodes = nodes.map(function(node) {
     if (node["_id"].indexOf("media.") == 0) {
       // Media file. Get the group caption based on your desired photo in the list
       desired_index = photo_list.filter(photo => 
         photo.photo == node["photo." + photo.index])[0].index
-      node[name_field] = groupMediaCaption(node, "photo." + desired_index)
+      node.name[language] = groupMediaCaption(node, "photo." + desired_index)
     }
     return node
   })
@@ -1419,9 +1417,9 @@ export function sortByDate(nodes, field_name, mode="descending") {
  * photo lists don't have names. So rebuild the animals list and then arrange
  * the set of items based on the animal list.
  */
-export function sortPhotosByName(photo_list, name_field) {
+export function sortPhotosByName(photo_list, language) {
   let animals = photo_list.map(photo => searchPandaId(photo.id)[0])
-  animals = sortByNameWithGroups(animals, photo_list, name_field)
+  animals = sortByNameWithGroups(animals, photo_list, language)
   const output_list = animals.map(animal =>
     photo_list.filter(photo => photo.id == animal["_id"])[0])
   return output_list
@@ -1857,8 +1855,9 @@ function locatorToPhoto(locator) {
 
 /** Given an animal and a chosen language, return details for a red panda. */
 export function myName(animal, language) {
-  const field = `${language}.name`
-  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
+  return animal.name[language] == undefined 
+    ? Defaults.animal.name[language]
+    : animal.name[language]
 }
 
 /** 
@@ -1885,8 +1884,9 @@ export function myZoo(animal, field) {
 
 /** Given an animal and a chosen language, return nicknames. */
 export function nicknames(animal, language) {
-  const field = `${language}.nicknames`
-  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
+  return animal.nicknames[language] == undefined
+    ? Defaults.animal.nicknames[language]
+    : animal[field]
 }
 
 /**
@@ -1894,8 +1894,9 @@ export function nicknames(animal, language) {
  * alternative Hiragana/Katakana/Kanji spellings of names.
  */
 export function othernames(animal, language) {
-  const field = `${language}.othernames`
-  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
+  return animal.othernames[language] == undefined
+    ? Defaults.animal.othernames[language]
+    : animal.othernames[language]
 }
 
 /** 
@@ -2021,8 +2022,9 @@ export function species(animal, language) {
 
 /** Given a wild location found with `location()`, return the location name. */
 export function wildName(wild, language) {
-  const field = `${language}.name`
-  return wild[field] == undefined ? Defaults.wild[field] : wild[field]
+  return wild.name[language] == undefined
+    ? Defaults.wild.name[language]
+    : wild.name[language]
 }
 
 /**
@@ -2035,8 +2037,9 @@ export function wildField(wild, field) {
 
 /** Given a zoo found with `location()`, return the name of the zoo. */
 export function zooName(zoo, language) {
-  const field = `${language}.name`
-  return zoo[field] == undefined ? Defaults.zoo[field] : zoo[field]
+  return zoo.name[language] == undefined
+    ? Defaults.zoo.name[language]
+    : zoo.name[language]
 }
 
 /** 

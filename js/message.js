@@ -2562,7 +2562,7 @@ export function tag_combo(num, emojis, language) {
  */
 export function tag_subject(num, name, emoji, tag, language) {
   if (Pandas.checkId(name) == true)
-    name = Pandas.searchPandaId(name)[0][`${language}.name`]
+    name = Pandas.searchPandaId(name)[0].name[language]
   if (name != undefined)
     name = Language.capitalNames(name)
   // For translating a tag between languages, we need the first value in

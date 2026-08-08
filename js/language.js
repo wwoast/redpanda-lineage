@@ -426,12 +426,12 @@ export function fallback_name(entity) {
   const order = currentOrder(entity_order, Env.language)
   order.unshift(Env.language)   // Display language always comes first
   for (const language of order) {
-    const name = entity[`${language}.name`]
+    const name = entity.name[language]
     if (name != undefined)
       return name 
   }
   // Fallback default name
-  return Defaults.animal[`${Env.language}.name`]
+  return Defaults.animal.name[language]
 }
 
 /**

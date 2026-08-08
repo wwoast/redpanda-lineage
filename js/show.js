@@ -35,7 +35,6 @@ export function acquirePandaInfo(animal, language) {
           "death": Pandas.date(animal, "death", language),
             "dad": Pandas.searchPandaDad(animal["_id"]),
          "gender": Pandas.gender(animal, language),
-       "get_name": `${language}.name`,
              "id": animal["_id"],
        "language": language,
  "language_order": Pandas.language_order(animal),
@@ -82,8 +81,8 @@ function getZooBundle(location, language) {
         "end_date": Pandas.formatDate(location["end_date"], language),
               "id": Pandas.zooField(zoo, "_id"),
   "language_order": Pandas.language_order(zoo),
-        "location": Pandas.zooField(zoo, `${language}.location`),
-            "name": Pandas.zooField(zoo, `${language}.name`),
+        "location": Pandas.zooField(zoo, "location")[language],
+            "name": Pandas.zooField(zoo, "name")[language],
       "start_date": Pandas.formatDate(location["start_date"], language)
     }
   }
@@ -111,16 +110,15 @@ export function acquireZooInfo(zoo, language) {
   const recorded = Pandas.searchPandaZooBornLived(zoo["_id"])
   let bundle = {
        "animals": animals,
-       "address": Pandas.zooField(zoo, `${language}.address`),
+       "address": Pandas.zooField(zoo, "address")[language],
   "animal_count": animals.length,
         "closed": Pandas.zooField(zoo, "closed"),
-      "get_name": `${language}.name`,
             "id": zoo["_id"],
       "language": language,
 "language_order": Pandas.language_order(zoo),
-      "location": Pandas.zooField(zoo, `${language}.location`),
+      "location": Pandas.zooField(zoo, "location")[language],
            "map": Pandas.zooField(zoo, "map"),
-          "name": Pandas.zooField(zoo, `${language}.name`),
+          "name": Pandas.zooField(zoo, "name")[language],
          "photo": picture['photo'],
   "photo_credit": picture['photo.author'],
    "photo_index": picture['photo.index'],
@@ -392,13 +390,12 @@ export function genderAnimal(animal, language, frame_class) {
 
 /** Create a link to a location in Google Maps */
 function locationLink(zoo, language, mode="icons_only") {
-  const languageLocation = `${language}.location`
   // Don't print content if the input id is zero
   if (zoo['_id'] == Defaults.zoo['_id'])
-    return Defaults.zoo[languageLocation]
+    return Defaults.zoo.location[language]
   let link_text = Emoji.map
   if (mode != "icons_only")
-    link_text += ` ${zoo[languageLocation]}`
+    link_text += ` ${zoo.location[language]}`
   if (zoo.flag) {
     link_text += ` ${Flags[zoo.flag]}`
   }
@@ -421,7 +418,7 @@ function nicknames(animal) {
   const container = document.createElement('ul')
   container.className = "nicknameList"
   for (let language of animal["language.order"].split(", ")) {
-    const nicknames = animal[`${language}.nicknames`]
+    const nicknames = animal.nicknames[language]
     if (nicknames == undefined)
       continue
     const nicknames_list = []
@@ -457,18 +454,18 @@ function othernames(animal, current_language) {
       `${Gui.language[Env.language][language]}: `
     // Animal's name in other languages
     if (language != current_language) {
-      const name = animal[`${language}.name`]
+      const name = animal.name[language]
       if (name != undefined)
         othername_list.push(name)
     }
     // Othernames / spellings for this animal
-    const othernames = animal[`${language}.othernames`]
+    const othernames = animal.othernames[language]
     if (othernames != undefined) {
       for (let name of othernames.split(", "))
         othername_list.push(name)
     }
     // Old names that were previously valid for this animal
-    const oldnames = animal[`${language}.oldnames`]
+    const oldnames = animal.oldnames[language]
     if (oldnames != undefined) {
       for (let name of oldnames.split(", "))
         othername_list.push(name)
@@ -647,7 +644,7 @@ export function zooDivider(mode="bear-bamboo") {
 function zooLink(zoo, link_text, language, icon=undefined) {
   // Don't print content if the input id is zero
   if (zoo['_id'] == Defaults.zoo['_id'])
-    return emptyLink(Defaults.zoo[`${language}.name`])
+    return emptyLink(Defaults.zoo.name[language])
   const a = document.createElement('a')
   let inner_text = link_text
   // Options processing
@@ -2035,7 +2032,7 @@ export const profilePage = {
       const zoo_entry = document.createElement('ul')
       zoo_entry.className = "zooList"
       const zoo_name = document.createElement('li')
-      const zoo_link = zooLink(zoo_info, zoo_info[`${language}.name`], language, zoo_icon)
+      const zoo_link = zooLink(zoo_info, zoo_info.name[language], language, zoo_icon)
       const zoo_date = document.createElement('span')
       zoo_date.className = "detail"
       zoo_date.innerText = date_string
@@ -2146,7 +2143,7 @@ export const resultsPage = {
       if (Pandas.indeterminateParent(info.id, animal["_id"]) == true)
         icon_list.push("question_icon")
       const children_link = animalLink(
-        animal, animal[info.get_name], info.language, icon_list)
+        animal, animal.name[info.language], info.language, icon_list)
       const li = document.createElement('li')
       li.appendChild(children_link)
       ul.appendChild(li)
@@ -2210,7 +2207,7 @@ export const resultsPage = {
     for (const index in Pandas.sortOldestToYoungest(info.litter)) {
       const animal = info.litter[index]
       const litter_link = animalLink(
-        animal, animal[info.get_name], info.language, ["child_icon", "live_icon"])
+        animal, animal.name[info.language], info.language, ["child_icon", "live_icon"])
       const li = document.createElement('li')
       li.appendChild(litter_link)
       ul.appendChild(li)
@@ -2283,7 +2280,7 @@ export const resultsPage = {
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
-        Message.arrived_from_zoo(target_zoo[`${language}.name`], target_date, language)
+        Message.arrived_from_zoo(target_zoo.name[language], target_date, language)
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
@@ -2303,7 +2300,7 @@ export const resultsPage = {
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
-        Message.departed_to_zoo(target_zoo[`${language}.name`], target_date, language)
+        Message.departed_to_zoo(target_zoo.name[language], target_date, language)
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
@@ -2320,8 +2317,8 @@ export const resultsPage = {
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
       let icon = Emoji.born_at
-      const target_text = target_zoo[`${language}.name`]
-      const compare_text = info.zoo[`${language}.name`]
+      const target_text = target_zoo.name[language]
+      const compare_text = info.zoo.name[language]
       if (target_text == compare_text && info.death == Defaults.unknown[language]) {
         squelch_home_zoo = true
         icon = `${icon} ${Emoji.home}`
@@ -2344,8 +2341,8 @@ export const resultsPage = {
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
       const icon = Emoji.zoo
-      const target_text = target_zoo[`${language}.name`]
-      const compare_text = info.zoo[`${language}.name`]
+      const target_text = target_zoo.name[language]
+      const compare_text = info.zoo.name[language]
       if (target_text == compare_text) {
         squelch_home_zoo = true
         icon = Emoji.home
@@ -2385,7 +2382,7 @@ export const resultsPage = {
     if (info.zoo != undefined && squelch_home_zoo == false) {
       const zoo = document.createElement('p')
       const zoo_link =
-        zooLink(info.zoo, info.zoo[`${language}.name`], language, Emoji.home)
+        zooLink(info.zoo, info.zoo.name[language], language, Emoji.home)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
       // a Google Maps search for the "<language>.address" field
@@ -2399,7 +2396,7 @@ export const resultsPage = {
     if (info.wild != undefined) {
       const wild = document.createElement('p')
       wild.innerText =
-        Flags[info.wild["flag"]] + " " + info.wild[`${language}.name`]
+        Flags[info.wild["flag"]] + " " + info.wild.name[language]
       details.appendChild(wild)
     }
     // Give credit for the person that took this photo
@@ -2453,7 +2450,7 @@ export const resultsPage = {
         if (info.mom.length > 1)
           icon_list.push("question_icon")
         const mom_link = animalLink(
-          mom, mom[info.get_name], info.language, icon_list)
+          mom, mom.name[info.language], info.language, icon_list)
         mom_links.push(mom_link)
       }
     } else {
@@ -2473,7 +2470,7 @@ export const resultsPage = {
         if (info.dad.length > 1)
           icon_list.push("question_icon")
         var dad_link = animalLink(
-          dad, dad[info.get_name], info.language, icon_list)
+          dad, dad.name[info.language], info.language, icon_list)
         dad_links.push(dad_link)
       }
     } else {
@@ -2519,7 +2516,7 @@ export const resultsPage = {
       if (Pandas.indeterminateSiblings(info.id, animal["_id"]) == true)
         icon_list.push("question_icon")
       const siblings_link = animalLink(
-        animal, animal[info.get_name], info.language, icon_list)
+        animal, animal.name[info.language], info.language, icon_list)
       const li = document.createElement('li')
       li.appendChild(siblings_link)
       ul.appendChild(li)
