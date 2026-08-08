@@ -2330,7 +2330,7 @@ export function new_photos(language) {
     return document.createElement('br')   // No message to display
   }
   // Zoo counts are too much information
-  const section_order = []
+  let section_order = []
   if (counts["pandas"] > 0 && counts["photos"] > 0) {
     section_order = ["pandas", "photos", "suffix"]
   } else if (counts["pandas"] > 0 ) {
