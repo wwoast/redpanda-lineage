@@ -2712,12 +2712,10 @@ export const resultsPage = {
       let earliest_year = -1
       const compare_id = info["id"] * -1
       for (const animal of total_zoo) {
-        const location_fields = Pandas.locationGeneratorEntity
-        for (const field_name of location_fields(animal)) {
-          const location = Pandas.field(animal, field_name)
-          const [loc_id, loc_date] = location.split(", ")
-          if ((loc_date != undefined) && (loc_id == compare_id)) {
-            const year = parseInt(location.split(", ")[1].split("/")[0])
+        for (const location of animal.locations) {
+          const { id, date } = location
+          if ((date != undefined) && (id == compare_id)) {
+            const year = parseInt(date.split("/")[0])
             if ((earliest_year == -1) || (year < earliest_year)) {
               earliest_year = year
             }

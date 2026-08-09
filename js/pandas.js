@@ -860,7 +860,7 @@ export function searchPandaZooArrived(idnum, months=6) {
     let last_location = null
     for (const location of vertex.locations) {
       if (location.id != compare_id) {
-        last_location = zoo_id
+        last_location = location.id
         continue   // Ignore location values not at this zoo
       }
       // Compare all zoo node dates with current time.
@@ -970,9 +970,9 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
         date_ranges.push(current_range)
       // Sort by first arrival time in the list
       if (date_ranges.length == 0) {
-        vertex["sort_time"] = new Date(vertex.birthday)
+        vertex["sort_time"] = vertex.birthday
       } else {
-        vertex["sort_time"] = new Date(date_ranges[0][0])
+        vertex["sort_time"] = date_ranges[0][0]
       }
       vertex["search_context"] = {
         "query": "born_or_lived",
@@ -1028,15 +1028,12 @@ export function searchPandaZooDeparted(idnum, months=6) {
     // the animal was based at. If that date is less than 6 months 
     // ago, return in list.
     let at_zoo_previously = false
-    let zoo_post_move = ''
     for (const location of vertex.locations) {
       if (location.id != compare_id && at_zoo_previously == false)
         continue
       if (zoo_id == compare_id) {
         at_zoo_previously = true
         continue
-      } else {
-        zoo_post_move = location.date
       }
       // Compare all zoo node dates with current time.
       const current_time = new Date().getTime()
@@ -1045,7 +1042,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
       const ms_in_period = months * ms_per_month
       if (ms_in_period == 0) {
         // Get all departed if months == 0
-        vertex["sort_time"] = move_time
+        vertex["sort_time"] = location.date
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "departed",
@@ -1060,7 +1057,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
         vertex["search_context"] = {
           "query": "departed",
           "to": parseInt(zoo_id) * -1,
-          "move_date": move_date
+          "move_date": location.date
         }
         return vertex   // Less than N months?
       } else {
@@ -1068,7 +1065,6 @@ export function searchPandaZooDeparted(idnum, months=6) {
         // calculations from scratch again, continuing through
         // the list of animal locations
         at_zoo_previously = false
-        zoo_post_move = ''
       }
     }
   }).run()
@@ -1084,13 +1080,13 @@ export function searchPandaZooDied(idnum, months=6) {
     return vertex.death != undefined   // Gotta be dead
   }).filter(function(vertex) {
     // Compare all panda anniversary dates with current time.
-    const current_time = new Date()
-    const anniversary = new Date(vertex["death"])
+    const current_time = new Date().getTime()
+    const anniversary = new Date(vertex["death"]).getTime()
     const ms_per_month = 1000 * 60 * 60 * 24 * 31
     const ms_in_period = months * ms_per_month
     if (ms_in_period == 0) {
       // Get all died if months == 0
-      vertex["sort_time"] = anniversary
+      vertex["sort_time"] = vertex["death"]
       // Info about why this animal appeared in results
       vertex["search_context"] = {
         "query": "died"
@@ -1098,7 +1094,7 @@ export function searchPandaZooDied(idnum, months=6) {
       return vertex
     }
     if (current_time - anniversary < ms_in_period) {
-      vertex["sort_time"] = anniversary
+      vertex["sort_time"] = vertex["death"]
       // Info about why this animal appeared in results
       vertex["search_context"] = {
         "query": "died"
@@ -1571,7 +1567,7 @@ export function groupMediaCaption(entity, photo_index) {
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
     const panda = searchPandaId(id)[0]
-    const [x, y] = entity[tag_index + "." + id + ".location"].split(", ")
+    const [x, y] = entity[tag_index + "." + id + ".location"]
     const name = Language.fallback_name(panda)
     var info = {
       "name": name,
@@ -1740,14 +1736,10 @@ function locationWild(animal) {
  * use the zoo, birthday, and date of death to fill in needed details
  */
 function locationZoo(animal) {
-  let end_date = undefined
-  if (animal["death"] != undefined) {
-    end_date = animal["death"]
-  }
   const locations = [{
     "zoo": myZoo(animal, "zoo"),
     "start_date": animal["birthday"],
-    "end_date": animal["death"]
+    "end_date": animal["death"]   // Fall back to undefined
   }]
   return locations
 }

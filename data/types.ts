@@ -263,12 +263,9 @@ declare global {
     zoo?: string
   }
 
-  /** All zoos record their street address, in each supported language */
-  type AddressByLanguage = {
-    [L in Language]?: string;
-  }
-  /** All zoos record a city/state/province/country summary, in each language */
-  type LocationByLanguage = {
+  /** All zoos record their street address, and their general
+   * city/state/province/country summary, in each supported language */
+  type StringPerLanguage = {
     [L in Language]?: string;
   }
 
@@ -292,9 +289,9 @@ declare global {
      */
     _id: string,
     /** A stub address to match what similar zoo addresses strings look like */
-    address: AddressByLanguage
+    address: StringPerLanguage
     /** A stub location to match what similar zoo location strings look like */
-    location: LocationByLanguage,
+    location: StringPerLanguage,
     /** Each wild sighting location has a single primary name per language */
     name: NameByLanguage,
     /** 
@@ -322,7 +319,7 @@ declare global {
     /** Numeric fixed identifier that we increment each time a zoo is added */
     _id: number,
     /** Street address string, represented in our supported languages */
-    address: AddressByLanguage,
+    address: StringPerLanguage,
     /** When a zoo closes permanently, we record the date in YYYY/MM/DD format */
     closed: string,
     /**
@@ -350,7 +347,7 @@ declare global {
      * A short string summarizing what city / state / province / country a
      * zoo is located in, in our supported languages.
      */
-    location: LocationByLanguage,
+    location: StringPerLanguage,
     /**
      * The longitude of the zoo, for determining whether a zoo is close to the
      * redpandafinder user with browser LocationServices.
