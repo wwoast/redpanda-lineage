@@ -135,21 +135,6 @@ export function* linkGeneratorEntity(entity, index=0) {
   }
 }
 
-/**
- * Generates a valid index to a location for a panda entity, up to the point
- * that said entity doesn't have a defined historical location in its data.
- */
-export function* locationGeneratorEntity(entity, index=0) {
-  if (entity == undefined)
-    return
-  while (index < index + 1) {
-    index++
-    if (entity["location." + index] == undefined)
-      return
-    yield "location." + index
-  }
-}
-
 /** 
  * Generates a valid index to a photo for a panda entity, up to the point that
  * said entity doesn't have a defined photo in its data.
@@ -872,18 +857,15 @@ export function searchPandaZooArrived(idnum, months=6) {
     return vertex.death == undefined   // Gotta be alive
   }).filter(function(vertex) {
     // If their arrival date was within six months, keep in the list
-    const location_fields = locationGeneratorEntity
     let last_location = null
-    for (let field_name of location_fields(vertex)) {
-      const location = field(vertex, field_name)
-      const [zoo_id, move_date] = location.split(", ")
-      if (zoo_id != compare_id) {
+    for (const location of vertex.locations) {
+      if (location.id != compare_id) {
         last_location = zoo_id
         continue   // Ignore location values not at this zoo
       }
       // Compare all zoo node dates with current time.
-      const current_time = new Date()
-      const move_time = new Date(move_date)
+      const current_time = new Date().getTime()
+      const move_time = new Date(location.date).getTime()
       const ms_per_month = 1000 * 60 * 60 * 24 * 31
       const ms_in_period = months * ms_per_month
       if (ms_in_period == 0) {
@@ -893,7 +875,7 @@ export function searchPandaZooArrived(idnum, months=6) {
         vertex["search_context"] = {
           "query": "arrived",
           "from": parseInt(last_location) * -1,
-          "move_date": move_date
+          "move_date": location.date
         }
         return vertex
       }
@@ -903,11 +885,11 @@ export function searchPandaZooArrived(idnum, months=6) {
         vertex["search_context"] = {
           "query": "arrived",
           "from": parseInt(last_location) * -1,
-          "move_date": move_date
+          "move_date": location.date
         }
         return vertex   // Less than N months?
       }
-      last_location = zoo_id
+      last_location = location.id
     }
   }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
@@ -958,12 +940,9 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
   const born = G.v(idnum).in("birthplace").run()
   const was_here = G.v().filter(function(vertex) {
     // Gets panda locations and finds zoo matches
-    const location_fields = locationGeneratorEntity
-    for (const field_name of location_fields(vertex)) {
-      const location = field(vertex, field_name)
-      const zoo_id = location.split(", ")[0]
+    for (const location of vertex.locations) {
       // Matching zoo values will be positive ids in location fields
-      if (zoo_id == compare_id)
+      if (location.id == compare_id)
         return vertex
     }
     return false
@@ -974,17 +953,14 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
   if (search_context == true) {
     // Inject valid date ranges for this animal at the given zoo
     nodes = nodes.filter(function(vertex) {
-      const location_fields = locationGeneratorEntity
       const date_ranges = []
       let current_range = undefined
-      for (const field_name of location_fields(vertex)) {
-        const location = field(vertex, field_name)
-        const [zoo_id, date] = location.split(", ")
+      for (const locaiton of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (zoo_id == compare_id) {
-          current_range = [date]
+        if (location.id == compare_id) {
+          current_range = [location.date]
         } else if (current_range != undefined) {
-          current_range.push(date)
+          current_range.push(location.date)
           date_ranges.push(current_range)
           current_range = undefined
         }
@@ -1053,21 +1029,18 @@ export function searchPandaZooDeparted(idnum, months=6) {
     // ago, return in list.
     let at_zoo_previously = false
     let zoo_post_move = ''
-    const location_fields = locationGeneratorEntity
-    for (const field_name of location_fields(vertex)) {
-      const location = field(vertex, field_name)
-      const [zoo_id, move_date] = location.split(", ")
-      if (zoo_id != compare_id && at_zoo_previously == false)
+    for (const location of vertex.locations) {
+      if (location.id != compare_id && at_zoo_previously == false)
         continue
       if (zoo_id == compare_id) {
         at_zoo_previously = true
         continue
       } else {
-        zoo_post_move = move_date
+        zoo_post_move = location.date
       }
       // Compare all zoo node dates with current time.
-      const current_time = new Date()
-      const move_time = new Date(zoo_post_move)
+      const current_time = new Date().getTime()
+      const move_time = new Date(location.date).getTime()
       const ms_per_month = 1000 * 60 * 60 * 24 * 31
       const ms_in_period = months * ms_per_month
       if (ms_in_period == 0) {
@@ -1077,7 +1050,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
         vertex["search_context"] = {
           "query": "departed",
           "to": parseInt(zoo_id) * -1,
-          "move_date": move_date
+          "move_date": location.date
         }
         return vertex
       }
@@ -1718,28 +1691,19 @@ export function language_order(entity) {
 /** Returns a list of locations valid for a zoo animal */
 export function locationList(animal) {
   const locations = []
-  const location_fields = locationManifest(animal)
   // Return not just the chosen photo but the author and link as well
-  for (const location_field in location_fields) {
-    const [field_name, index] = location_field.split(".")
-    const next_field = `${field_name}.${(parseInt(index) + 1)}`
-    let end_date = undefined
-    if (animal[next_field] != undefined) {
-      const [_, next_start] = animal[next_field].split(", ")
-      end_date = next_start
-    } else {
-      if (animal["death"] != undefined) {
-        end_date = animal["death"]
-      }
-    }
-    let [zoo_index, start_date] = animal[location_field].split(", ")
-    // If there was a wild animal, fill in defaults for the dates
-    if (zoo_index == 0) {
-      start_date = Defaults.animal["birthday"]
-      end_date = Defaults.animal["birthday"]
-    }
+  for (const [index, location] of animal.locations.entries()) {
+    const nextLocation = animal.locations[index + 1]
+    const end_date = (nextLocation == undefined)
+      ? animal["death"] ?? undefined
+      : (location.zoo == 0)
+        ? Defaults.animal["birthday"]
+        : nextLocation.date
+    const start_date = (location.zoo == 0)
+      ? Defaults.animal["birthday"]
+      : location.date
     const location = {
-          "zoo": zoo_index,
+          "zoo": index,
    "start_date": start_date,
      "end_date": end_date,
     }
@@ -1751,17 +1715,6 @@ export function locationList(animal) {
     locations = locationWild(animal)
   if ((locations.length == 0) && (myZoo(animal, "zoo") != undefined))
     locations = locationZoo(animal)
-  return locations
-}
-
-/** Return a list of location fields an animal has for historical zoo info */
-function locationManifest(animal) {
-  const locations = {}
-  const location_fields = locationGeneratorEntity
-  // Gets panda locations
-  for (const field_name of location_fields(animal)) {
-    locations[field_name] = field(animal, field_name)
-  }
   return locations
 }
 

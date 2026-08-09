@@ -113,7 +113,7 @@ declare global {
      * Wild-captured zoo animals will have a mix of wild arrival dates and zoo
      * arrival dates.
      */
-    arrivalDate: string,
+    date: string,
     /** The numeric string zoo ID the `PandaLocation` arrival date refers to */
     zoo: string
   }
