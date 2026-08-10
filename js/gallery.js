@@ -32,7 +32,7 @@ export class Carousel {
   /** `pandaPhoto` or `zooPhoto` */
   element_class = "pandaPhoto"
   /** Default image to load for a photo in this gallery */
-  fallback_url = 'images/no-panda-portrait.jpg'
+  fallback_url = Defaults.photo.url
   /** `<img>` element we load photos into */
   image = document.createElement('img')
   /** photo index of the photo being shown */
@@ -149,9 +149,7 @@ export class Carousel {
   /** Utility function to get the current number of photos */
   photoCount() {
     const entity = this.photoEntity()
-    const photo_manifest = Pandas.photoManifest(entity, this.carousel_type)
-    const max_index = Object.values(photo_manifest).length
-    return max_index
+    return entity.photos.length
   }
 
   /** Utility function to get the proper entity for photo counts */
@@ -197,13 +195,13 @@ export class Carousel {
       document.getElementsByClassName(`${carousel_id}/photo`)[0]
     const current_photo_id = current_photo_element.id.split("/")[2]
     // Randomly choose the next id
-    const photo_indexes = Object.keys(
-      Pandas.photoManifest(Pandas.searchPandaId(entity_id)[0], "animal"))
-        .map(x => x.split(".")[1])
+    const entity = Pandas.searchPandaId(entity_id)[0]
     let next_id = current_photo_id
-    if (photo_indexes.length > 1)
-      while (next_id == current_photo_id)
-        next_id = Pandas.randomChoice(photo_indexes, 1)
+    if (entity.photos.length > 1)
+      while (next_id == current_photo_id) {
+        const nextPhoto = Pandas.randomChoice(entity.photos, 1)
+        next_id = nextPhoto.id
+      }
     this.photoSwap(current_photo_element, parseInt(next_id))
   }
 
@@ -212,10 +210,7 @@ export class Carousel {
     const span_link =
       photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1]
     const [carousel_id, _, last_index] = photo.id.split("/")
-    const entity_id = carousel_id.split("_").pop()
-    const entity = this.photoEntity(entity_id)
-    const photo_manifest = Pandas.photoManifest(entity, this.carousel_type)
-    const max_index = Object.values(photo_manifest).length
+    const max_index = this.photoCount()
     let new_index = 1   // Fallback value
     if (desired_index < 1)
       new_index = max_index
@@ -230,10 +225,12 @@ export class Carousel {
       span_link.childNodes[0].innerText = this.index
     else
       return  // No carousel, no need to actually swap photos
-    const chosen = `photo.${this.index}`
-    const new_choice = photo_manifest[chosen]
+    // Grab the photo
+    const entity_id = carousel_id.split("_").pop()
+    const entity = this.photoEntity(entity_id)
+    const newChoice = entity.photos[new_index]
     // Update displayed photo
-    this.displayPhoto(photo, new_choice, carousel_id, this.index)
+    this.displayPhoto(photo, newChoice, carousel_id, this.index)
     // Update animal credit info and the photographer credit's apple points
     const info = Pandas.profilePhoto(entity, this.index, this.carousel_type)
     this.singlePhotoCredit(info, last_index, this.index)
@@ -246,12 +243,12 @@ export class Carousel {
     const credit_link =
       document.getElementById(`${animal_id}/author/${last_index}`)
     credit_link.id = `${animal_id}/author/${current_index}`
-    if (!Object.keys(Defaults.authors).includes(info["photo.author"]))
-      credit_link.href = info["photo.link"]
+    if (!Object.keys(Defaults.authors).includes(info.author))
+      credit_link.href = info.reference
     else
       credit_link.removeAttribute("href")   // No more link
     credit_link.target = "_blank"   // Open in new tab
-    credit_link.innerText = `${Emoji.camera} ${info["photo.author"]}`
+    credit_link.innerText = `${Emoji.camera} ${info.author}`
   }
 
   /** Replace the photographer's apple points (number of photos on the site) */
@@ -259,9 +256,9 @@ export class Carousel {
     const animal_id = info.id
     const apple_link = document.getElementById(`${animal_id}/counts/${last_index}`)
     apple_link.id = `${animal_id}/counts/${current_index}`
-    if (!Object.keys(Defaults.authors).includes(info["photo.author"])) {
-      const apple_count = P.db._photo.credit[info["photo.author"]]
-      apple_link.href = `#credit/${info["photo.author"]}`
+    if (!Object.keys(Defaults.authors).includes(info.author)) {
+      const apple_count = P.db._photo.credit[info.author]
+      apple_link.href = `#credit/${info.author}`
       apple_link.innerText = `${Emoji.gift} ${apple_count}`
       if (parseInt(apple_count) >= 1000) {
         apple_link.innerText = `${Emoji.megagift} ${apple_count}`
@@ -533,19 +530,12 @@ function groupPhotos(id_list) {
   for (const id of id_list) {
     const entities = Pandas.searchPandaMedia(id, only_media=true)
     for (const entity of entities) {
-      const photos = Pandas.photoManifest(entity)
-      for (const photo_key in photos) {
-        const url = photos[photo_key]
-        if (seen[url] == true)
-          continue   // Skip photos we've already trakced
-        else {
-          seen[url] = true
-          photo_list.push({
-            "entity": entity,
-            "photo_key": photo_key,
-            "url": url
-          })
-        }
+      const photos = entity.photos
+      for (const photo of photos) {
+        photo_list.push({
+          "entity": entity,
+          "photo": photo
+        })
       }
     }
   }
@@ -563,8 +553,8 @@ export function groupPhotosPage(page, id_list, photo_count) {
     // Refresh, but show more than just the normal photo_count
     photo_count = Env.paging.shown_pages * photo_count
   }
-  const photos = groupPhotos(id_list)   // All photos
-  const chosen = photos.slice(page * photo_count)   // Choose just this page
+  const entityPhotos = groupPhotos(id_list)   // All photos
+  const chosen = entityPhotos.slice(page * photo_count)   // Choose just this page
   // Last page of content. Hide Next button
   if (chosen.length <= photo_count)
     Env.paging.display_button = false
@@ -581,10 +571,9 @@ export function groupPhotosPage(page, id_list, photo_count) {
   }
   // Now that photos are whittled down, make divs
   const output = []
-  for (const shot of chosen) {
-    const container =
-      groupPhotoSingle(shot["entity"], shot["photo_key"], shot["url"])
-    output.push(container);        
+  for (const entityPhoto of chosen) {
+    const container = groupPhotoSingle(entityPhoto)
+    output.push(container)      
   }
   // Redraw the footer menu to update the paging button
   Page.footer.redraw("profile")
@@ -601,12 +590,11 @@ function groupPhotosIntersect(id_list) {
   const output = []
   const entities = Pandas.searchPandaMediaIntersect(id_list)
   for (const entity of entities) {
-    const photos = Pandas.photoManifest(entity)
-    for (const photo_key in photos) {
+    const photos = entity.photos
+    for (const photo of photos) {
       output.push({
         "entity": entity,
-        "photo_key": photo_key,
-        "url": photos[photo_key]
+        "photo": photo
       })
     }
   }
@@ -615,17 +603,16 @@ function groupPhotosIntersect(id_list) {
 
 /**
  * Clone of `groupPhotosPage`, with the constraint that all photos must be of
- * the entire list of animals in the id_list. Since this is a callback I had to
- * conform to the existing arity of the other functions, rather than pass
- * `groupPhotosIntersect` itself as a callback.
+ * the entire list of animals in the id_list. This is a callback that has to
+ * conform to the other group*Page function arity.
  */
 export function groupPhotosIntersectPage(page, id_list, photo_count) {
   const initial_photo_count = photo_count
   // Refresh, but show more than just the normal photo_count
   if (page == 0 && Env.paging.shown_pages > 1)
     photo_count = Env.paging.shown_pages * photo_count
-  const photos = groupPhotosIntersect(id_list)   // All photos
-  let chosen = photos.slice(page * photo_count)   // Choose just this page
+  const entityPhotos = groupPhotosIntersect(id_list)
+  let chosen = entityPhotos.slice(page * photo_count)   // Choose just this page
   // Last page of content. Hide Next button
   if (chosen.length <= photo_count)
     Env.paging.display_button = false
@@ -642,9 +629,8 @@ export function groupPhotosIntersectPage(page, id_list, photo_count) {
   }
   // Now that photos are whittled down, make divs
   const output = []
-  for (const shot of chosen) {
-    const container =
-      groupPhotoSingle(shot["entity"], shot["photo_key"], shot["url"])
+  for (const entityPhoto of chosen) {
+    const container = groupPhotoSingle(entityPhoto)
     output.push(container)
   }
   // Redraw the footer menu to update the paging button
@@ -654,7 +640,7 @@ export function groupPhotosIntersectPage(page, id_list, photo_count) {
   }
 }
 
-function groupPhotoSingle(entity, photo_key, imgUrl) {
+function groupPhotoSingle(entityPhoto) {
   // TOWRITE: image styles based on url being medium or large
   const img_link = document.createElement('a')
   img_link.href = url.href(imgUrl)
@@ -667,14 +653,15 @@ function groupPhotoSingle(entity, photo_key, imgUrl) {
   const caption_names = document.createElement('h5')
   caption_names.className = "caption groupMediaName"
   const caption_names_span = document.createElement('span')
-  caption_names_span.innerText = Pandas.groupMediaCaption(entity, photo_key)
+  caption_names_span.innerText =
+    Pandas.groupMediaCaption(entityPhoto.entity, entityPhoto.photo.index)
   caption_names.appendChild(caption_names_span)
   const caption_names_link = document.createElement('a')
   const panda_route = entity["panda.tags"].join("/")
   caption_names_link.href = `#group/${panda_route}`
   caption_names_link.appendChild(caption_names)
   // Credit for the group photos
-  const author = entity[`${photo_key}.author`]
+  const author = entity.photo.author
   const caption_credit_link = document.createElement('a')
   caption_credit_link.href = `#credit/${author}`   // build from author info
   const caption_credit = document.createElement('h5')
@@ -1137,18 +1124,18 @@ function updatedPhotoOrdering(language, photo_count) {
   const zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "id")
     .filter(function(photo) {
       const pandas = Pandas.searchPandaZoo(photo.id)
-        .filter(panda => "photo.1" in panda)
+        .filter(panda => "photos" in panda)
       return pandas.length > 0
     }).filter(function(photo) {
-      return (!Object.keys(Defaults.authors).includes(photo.credit))
+      return (!Object.keys(Defaults.authors).includes(photo.author))
     })
   let zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count)
-  zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, `${language}.name`)
+  zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language)
   // Photos from new contributors just for pandas, not for zoos
   const author_locators = P.db["_updates"].authors
   const author_photos_all = Pandas.locatorsToPhotos(author_locators)
     .filter(function(photo) {
-      return (!Object.keys(Defaults.authors).includes(photo.credit))
+      return (!Object.keys(Defaults.authors).includes(photo.author))
     })
   const author_photos = Pandas.unique(author_photos_all, "id")
   let author_chosen = author_photos.slice()
@@ -1158,7 +1145,7 @@ function updatedPhotoOrdering(language, photo_count) {
     // If too many new people contributing photos, reduce down to one per contributor
     author_chosen = Pandas.unique(author_chosen, "credit")
   }
-  author_chosen = Pandas.sortPhotosByName(author_chosen, `${language}.name`)
+  author_chosen = Pandas.sortPhotosByName(author_chosen, language)
   // Photos of newly introduced pandas
   const new_panda_locators = P.db["_updates"].entities
     .filter(locator => locator.indexOf("panda.") == 0)
@@ -1169,7 +1156,7 @@ function updatedPhotoOrdering(language, photo_count) {
         return (!Object.keys(Defaults.authors).includes(photo.credit))
       })
   let new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count)
-  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, `${language}.name`)
+  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language)
   // New pandas, or new panda group photos
   const panda_locators = P.db["_updates"].entities
     .filter(locator => (!zoo_locators.includes(locator)))
@@ -1183,7 +1170,7 @@ function updatedPhotoOrdering(language, photo_count) {
   let update_photos =
     Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id")
       .filter(function(photo) {
-        return (!Object.keys(Defaults.authors).includes(photo.credit))
+        return (!Object.keys(Defaults.authors).includes(photo.author))
       })
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
@@ -1221,7 +1208,7 @@ function updatedPhotoOrdering(language, photo_count) {
         return (currenttime - commitdate > ms_per_week)
       })
     zoo_pandas = Pandas.unique(zoo_pandas, "id")
-    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, `${language}.name`)
+    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language)
     for (const zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Emoji.profile   // heart_panel
       if (author_photos_all.map(photo => photo.credit).includes(zoo_panda.credit)) {
@@ -1281,7 +1268,7 @@ function updatedPhotoOrdering(language, photo_count) {
       .map(others => others["id"])
       .includes(photo["id"])))
   let update_chosen = Pandas.randomChoice(update_photos, photo_count)
-  update_chosen = Pandas.sortPhotosByName(update_chosen, `${language}.name`)
+  update_chosen = Pandas.sortPhotosByName(update_chosen, language)
   for (const update_photo of update_chosen) {
     if (photo_count == 0) {
       return output_photos
@@ -1300,14 +1287,14 @@ function updatedPhotoOrdering(language, photo_count) {
  */
 function zooPhotoCredits(zoo, credit, language) {
   const photos = []
-  const photo_indexes = Pandas.photoGeneratorEntity
-  for (const field_name of photo_indexes(zoo, 0)) {
-    if (zoo[field_name + ".author"] == credit) {
+  for (const photo of zoo.photos) {
+    if (photo.author == credit) {
       photos.push({
         "id": zoo["_id"],
-        "image": zoo[field_name],
-        "index": field_name,
-        "type": "zoo"})
+        "image": photo.uri,
+        "index": photo.index,
+        "type": "zoo"
+      })
     }
   }
   return photos

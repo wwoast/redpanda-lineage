@@ -127,9 +127,8 @@ export const Defaults = {
       "pt": "Nenhum nome alternativo registrado",
       "zh": "TOWRITE"
     },
-    "photo.1": "images/no-panda-portrait.jpg",
     "species": "-1",
-    "video.1": "images/no-panda-portrait.jpg",
+    "video": "images/no-panda-portrait.jpg",
     "zoo": "0"
   },
   /** Missing or undescribed authors / photo credits */
@@ -210,6 +209,13 @@ export const Defaults = {
     "ne": "अज्ञात",
     "pt": "Desconhecido(a)",
     "zh": "不明"
+  },
+  photo: {
+    "author": this.no_name,
+    "commitdate": "1970/1/1",
+    "source": "https://redpandafinder.com",
+    "tags": [],
+    "url": "images/no-panda-portrait.jpg"
   },
   /** Character ranges */
   ranges: {
@@ -450,8 +456,7 @@ export const Defaults = {
       "pt": "Zoológico não encontrado",
       "zh": "TOWRITE"
     },
-    "photo.1": "images/no-zoo.jpg",
-    "video.1": "images/no-zoo.jpg",
+    "video": "images/no-zoo.jpg",
     "website": "https://www.worldwildlife.org/",
   },
   zoo: {
@@ -484,8 +489,7 @@ export const Defaults = {
       "pt": "Zoológico não encontrado",
       "zh": "TOWRITE"
     },
-    "photo.1": "images/no-zoo.jpg",
-    "video.1": "images/no-zoo.jpg",
+    "video": "images/no-zoo.jpg",
     "website": "https://www.worldwildlife.org/",
   }
 }

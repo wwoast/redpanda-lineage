@@ -377,6 +377,18 @@ declare global {
   type GraphNode = NodeLinks | NodeMedia | NodePanda | NodeWild | NodeZoo
 
   /** 
+   * For displaying a photo, collect information from the node and present it
+   * in a form suitable for consumption by the `Carousel` component or others.
+   */
+  interface ResultPhoto {
+    author: string,
+    id: string,
+    index: number,
+    reference: string,
+    url: string
+  }
+
+  /** 
    * Panda results are an enrichment of the panda entity info tracked in the
    * Dagobah graph.
    */

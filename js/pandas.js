@@ -151,21 +151,6 @@ export function* photoGeneratorEntity(entity, index=0) {
 }
 
 /** 
- * Generates a valid index to a photo for a panda entity, up to the max index.
- */
-function* photoGeneratorMax() {
-  let index = 0
-  const max = P.db["_photo"]["entity_max"]
-  while (index < index + 1) {
-    index++
-    if (index > max) {
-      return
-    }
-    yield "photo." + index
-  }
-}
-
-/** 
  * If given no argument, return a random number. Otherwise return a repeatable
  * random value.
  */
@@ -757,28 +742,20 @@ export function searchPandaName(name) {
  * photo info only.
  */
 function searchPandaPhotoTagsIntersect(animal, tags) {
-  const photo_fields = photoGeneratorMax
   const output = []
-  for (const field_name of photo_fields()) {
-    if (animal[field_name] == undefined)
-      break
-    const photo_author = `${field_name}.author`
-    const photo_link = `${field_name}.link`
-    const photo_tags = `${field_name}.tags`
-    const photo_index = field_name.split(".")[1]
-    if (animal[photo_tags] == undefined)
+  for (const [index, photo] of animal.photos.entries()) {
+    if (photo.tags == undefined)
       continue
-    const photo_tag_list = animal[photo_tags]
     // Is the search tag list a subset of the photo_tag_list
-    const contains = !(tags.some(val => !photo_tag_list.includes(val)))
+    const contains = !(tags.some(val => !photo.tags.includes(val)))
     if (contains == true) {
       const bundle = {
+        "author": photo.author,
         "id": animal["_id"],
-        "photo": animal[field_name],
-        "photo.author": animal[photo_author],
-        "photo.index": photo_index,
-        "photo.link": authorLink(animal[photo_author], animal[photo_link]),
-        "photo.tags": tags   // Not the original tags, but the ones searched for
+        "index": index + 1,   // Natural number index
+        "reference": authorLink(photo.author, photo.source),
+        "url": photo.url,
+        "tags": tags   // Not the original tags, but the ones searched for
       }
       output.push(bundle)
     }
@@ -792,54 +769,32 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
  * TODO: usable for zoo entities too, fix
  */
 function searchPandaPhotoTagsUnion(animal, tags, mode) {
-  const photo_fields = photoGeneratorMax
   const output = []
   // Gets panda photos
-  for (const field_name of photo_fields()) {
-    if (animal[field_name] == undefined)
-      break
-    for (const tag of tags) {
-      const photo_author = `${field_name}.author`
-      const photo_link = `${field_name}.link`
-      const photo_tags = `${field_name}.tags`
-      const photo_index = field_name.split(".")[1]
-      if (animal[photo_tags] == undefined)
-        continue
-      if (animal[photo_tags].includes(tag)) {
-        if (mode == "animal") {
-          return [animal]
-        } else {
-          const bundle = {
-            "id": animal["_id"],
-            "photo": animal[field_name],
-            "photo.author": animal[photo_author],
-            "photo.index": photo_index,
-            "photo.link": authorLink(animal[photo_author], animal[photo_link]),
-            "photo.tags": tags   // Not the original tags, but the ones searched for
-          }
-          output.push(bundle)
-          if (mode == "singleton") {
-            // Only want the first photo of each tag found
-            return output
-          }
+  for (const [index, photo] of animal.photos.entries()) {
+    if (photo.tags == undefined)
+      continue
+    // Any tag can match
+    const matches = tags.some(tag => photo.tags.includes(tag))
+    if (matches) {
+      if (mode == "animal") {
+        return [animal]
+      } else {
+        const bundle = {
+          "author": photo.author,
+          "id": animal["_id"],
+          "index": index + 1,
+          "reference": authorLink(photo.author, photo.source),
+          "tags": tags,   // Not the original tags, but the ones searched for
+          "url": photo.url
         }
-      }  
-    }
-  }
-  // If no photos exist, we need default information to feed the photo
-  // generators. Make sure the empty bundle still tracks the valid panda id.
-  if (output.length == 0) {
-    if (mode != "animal") {
-      const empty_bundle = {
-        "id": animal["_id"],
-        "photo": Defaults.animal["photo.1"],
-        "photo.author": Defaults.unknown[Env.language],
-        "photo.index": Defaults.animal["_id"],
-        "photo.link": Defaults.unknown[Env.language],
-        "photo.tags": Defaults.unknown[Env.language]
+        output.push(bundle)
+        if (mode == "singleton") {
+          // Only want the first photo of each tag found
+          return output
+        }
       }
-      output.push(empty_bundle)
-    }
+    }  
   }
   return output
 }
@@ -1192,19 +1147,17 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
     if (fallback == "first") {
       // Fallback to profile photo if possible
       if ((set.length == 1) && 
-          (Object.values(Defaults.unknown).includes(set[0]["photo.author"]))) {
+          (Object.values(Defaults.unknown).includes(set[0].author))) {
         set = [profilePhoto(animal, "1")]
       }
       // If no profile photo either, return empty set
       if ((set.length == 1) &&
-          (Object.values(Defaults.unknown).includes(set[0]["photo.author"]))) {
+          (Object.values(Defaults.unknown).includes(set[0].author))) {
         set = []
       }
     }
     output = output.concat(set)
   }
-  // Filter out any cases where photo results with no matches were returned
-  return output.filter(x => x["photo.index"] != "0")
 }
 
 /** 
@@ -1351,7 +1304,7 @@ function sortByNameWithGroups(nodes, photo_list, language) {
       // Media file. Get the group caption based on your desired photo in the list
       desired_index = photo_list.filter(photo => 
         photo.photo == node["photo." + photo.index])[0].index
-      node.name[language] = groupMediaCaption(node, "photo." + desired_index)
+      node.name[language] = groupMediaCaption(node, desired_index)
     }
     return node
   })
@@ -1499,10 +1452,10 @@ export function field(animal, field, mode="animal") {
     return animal[field]
   else if (Defaults[mode][field] != undefined)
     return Defaults[mode][field]
-  else if (field.indexOf("photo.") == 0)
-    return Defaults[mode]["photo.1"]
+  else if (field == "photos")
+    return [Defaults.photo]
   else if (field.indexOf("video.") == 0)
-    return Defaults[mode]["video.1"]
+    return Defaults[mode]["video"]
   else
     return undefined
 }
@@ -1569,7 +1522,7 @@ export function groupMediaCaption(entity, photo_index) {
     const panda = searchPandaId(id)[0]
     const [x, y] = entity[tag_index + "." + id + ".location"]
     const name = Language.fallback_name(panda)
-    var info = {
+    const info = {
       "name": name,
       "x": parseInt(x),
       "y": parseInt(y)
@@ -1775,14 +1728,14 @@ function locatorToPhoto(locator) {
     entity = searchPandaId(entity_id)[0]
   }
   // Get the photo for this entity
-  const choice = "photo." + photo_id
+  const choice = entity.photos[photo_id]
   const desired = {
+    "author": choice.author,
         "id": entity["_id"],
-     "photo": entity[choice],
-    "credit": entity[choice + ".author"],
-     "index": photo_id,
-      "link": authorLink(entity[choice + ".author"], entity[choice + ".link"]),
-      "type": entity_type
+     "index": choice.index,
+ "reference": authorLink(choice.author, choice.link),
+      "type": entity_type,
+       "url": entity[choice],
   }
   return desired
 }
@@ -1892,52 +1845,30 @@ function parseDate(date, language) {
   }
 }
 
-/** Find all available photos for a specific animal */
-export function photoManifest(entity, mode="animal") {
-  let photos = {}
-  const photo_fields = photoGeneratorEntity
-  // Gets panda or zoo photos
-  for (const field_name of photo_fields(entity)) {
-    photos[field_name] = field(entity, field_name, mode)
-  }
-  // Filter out any keys that have the default value for either
-  // an animal or a zoo
-  photos = Object.keys(photos).reduce(function(filtered, key) {
-    if ((photos[key] != Defaults.animal[key]) && 
-        (photos[key] != Defaults.zoo[key])) {
-      filtered[key] = photos[key]
-    }
-    return filtered
-  }, {})
-  return photos
-}
-
 /** Given an animal, choose a single photo to display as its profile photo. */
 export function profilePhoto(animal, index, mode="animal") {
-  // Find the available photo indexes
-  const photos = photoManifest(animal, mode)
-  // If photo.(index) not in the photos dict, choose one of the available keys
+  let choice = animal.photos[index]
+  // If (index) not in the photos array, choose one of the available keys
   // at random from the set of remaining valid images.
-  let choice = `photo.${index}`
-  if (photos[choice] == undefined) {
-    const space = Object.keys(photos).length
+  if (choice == undefined) {
+    const space = animal.photos.length
     index = Math.floor(Math.random() * space)
-    choice = Object.keys(photos)[index]
+    choice = animal.photos[index]
   }
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one. Cannot check if == {} because
   // Javascript is ridiculous
-  if (Object.keys(photos).length === 0) {
-    choice = "photo.1"
-    photos[choice] = field(animal, choice, mode)
+  if (photos.length === 0) {
+    index = 0
+    choice = field(animal, "photos", mode)[0]
   }
   // Return not just the chosen photo but the author and link as well
   const desired = {
-    "id": animal["_id"],
-    "photo": photos[choice],
-    "photo.author": animal[choice + ".author"],
-    "photo.index": choice.replace("photo.", ""),
-    "photo.link": authorLink(animal[choice + ".author"], animal[choice + ".link"])
+    "author": choice.author,
+    "id": animal._id,
+    "index": index + 1,   // Natural number display index
+    "reference": authorLink(choice.author, choice.source),
+    "url": choice.url
   }
   return desired
 }
