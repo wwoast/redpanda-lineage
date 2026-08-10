@@ -1197,29 +1197,23 @@ export function searchZooName(zoo_name_str) {
   }
   // Get the matches against any of the valid zoo strings we care about
   const languages = Defaults.languages
-  const fields = ["location", "name"]
-  const wants = []
-  // Convolve the desired fields with the possible language options
-  languages.forEach(lang =>
-    fields.forEach(field =>
-      wants.push(`${lang}.${field}`)))
+  const searchFields = ["location", "name"]
   const location_nodes = G.v().filter(function(vertex) {
     // Start with just the zoo ID nodes
     if (vertex._id > 0)
       return false
     // Match the input string against any of the possible zoo name or location fields
     const matches = []
-    wants.forEach(function(want) {
-      if (vertex[want] != undefined) {  // Node doesn't exist? We don't care
-        if (vertex[want].includes(zoo_name_str)) {
-          matches.push(vertex)
+    searchFields.forEach(searchField => {
+      languages.forEach(language => {
+        const testField = vertex[searchField][language]
+        if (testField && testField.includes(zoo_name_str)) {
+          return true
         }
-      }
+      })
     })
-    return (matches.length > 0)
+    return false
   }).run()
-  // TODO: Have a counting heuristic. Zoos in both sets that match
-  // should be returned. For now just try returning the nodes we have.
   return location_nodes
 }
 
@@ -1302,10 +1296,10 @@ function sortByName(nodes, name_field) {
  */
 function sortByNameWithGroups(nodes, photo_list, language) {
   nodes = nodes.map(function(node) {
-    if (node._id.indexOf("media.") == 0) {
+    if (node.type == "media") {
       // Media file. Get the group caption based on your desired photo in the list
       desired_index = photo_list.filter(photo => 
-        photo.photo == node["photo." + photo.index])[0].index
+        photo == node.photos[photo.index])[0].index
       node.name[language] = groupMediaCaption(node, desired_index)
     }
     return node
