@@ -743,11 +743,13 @@ export function searchPandaName(name) {
  */
 function searchPandaPhotoTagsIntersect(animal, tags) {
   const output = []
+  if (tags.length == 0)
+    return output
   for (const [index, photo] of animal.photos.entries()) {
     if (photo.tags == undefined)
       continue
     // Is the search tag list a subset of the photo_tag_list
-    const contains = !(tags.some(val => !photo.tags.includes(val)))
+    const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
       const bundle = {
         "author": photo.author,
@@ -775,8 +777,8 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
     if (photo.tags == undefined)
       continue
     // Any tag can match
-    const matches = tags.some(tag => photo.tags.includes(tag))
-    if (matches) {
+    const contains = tags.some(tag => photo.tags.includes(tag))
+    if (contains) {
       if (mode == "animal") {
         return [animal]
       } else {
