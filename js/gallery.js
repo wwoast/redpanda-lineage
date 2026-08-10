@@ -200,7 +200,8 @@ export class Carousel {
     if (entity.photos.length > 1)
       while (next_id == current_photo_id) {
         const nextPhoto = Pandas.randomChoice(entity.photos, 1)[0]
-        next_id = entity.photos.indexOf(nextPhoto)
+        // Natural number index
+        next_id = entity.photos.indexOf(nextPhoto) + 1
       }
     this.photoSwap(current_photo_element, parseInt(next_id))
   }
@@ -228,7 +229,8 @@ export class Carousel {
     // Grab the photo
     const entity_id = carousel_id.split("_").pop()
     const entity = this.photoEntity(entity_id)
-    const newChoice = entity.photos[new_index]
+    // Array index starts from zero
+    const newChoice = entity.photos[new_index - 1]
     // Update displayed photo
     this.displayPhoto(photo, newChoice.url, carousel_id, this.index)
     // Update animal credit info and the photographer credit's apple points
