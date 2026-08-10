@@ -971,11 +971,13 @@ class Dataset {
   verifyLinks = () => {
     const linksNodes = this.graph.vertices.reduce(toLinks, [])
     this.assertNoDuplicateDatasetIds(linksNodes)
+    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyMedia = () => {
     const mediaNodes = this.graph.vertices.reduce(toMedia, [])
     this.assertNoDuplicateDatasetIds(mediaNodes)
+    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyPanda = () => {
@@ -992,16 +994,19 @@ class Dataset {
     // this.assertGraphHasNoCycles()
     // After edges are processed, kill any unknown fields
     pandaNodes.map(vertex => this.deleteNoneOrUnknownFields(vertex))
+    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyWilds = () => {
     const wildNodes = this.graph.vertices.reduce(toWilds, [])
     this.assertNoDuplicateDatasetIds(wildNodes)
+    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyZoos = () => {
     const zooNodes = this.graph.vertices.reduce(toZoos, [])
     this.assertNoDuplicateDatasetIds(zooNodes)
+    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 }
 
