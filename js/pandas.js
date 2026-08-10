@@ -642,19 +642,19 @@ export function searchPanda(input_string) {
 
 /** Find any panda entry with photos */
 export function searchPandaAnyPhoto() {
-  const nodes = G.v().filter(function(vertex) {
-    return ((vertex.photos.length > 0) && 
-            (vertex["gender"] != undefined))
-  }).run()
+  const nodes = G.v()
+    .filter(vertex => vertex.type == "panda")
+    .filter(vertex => vertex.photos.length > 0)
+    .run()
   return nodes
 }
 
 /** Find any panda or media entry with photos */
 export function searchPandaAnyPhotoMedia() {
-  const nodes = G.v().filter(function(vertex) {
-    return ((vertex.photos.length > 0) && 
-            (vertex["website"] == undefined))
-  }).run()
+  const nodes = G.v()
+    .filter(vertex => ["media", "panda"].includes(vertex.type))
+    .filter(vertex => vertex.photos.length > 0)
+    .run()
   return nodes
 }
 
