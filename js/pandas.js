@@ -1198,22 +1198,24 @@ export function searchZooName(zoo_name_str) {
   // Get the matches against any of the valid zoo strings we care about
   const languages = Defaults.languages
   const searchFields = ["location", "name"]
-  const location_nodes = G.v().filter(function(vertex) {
-    // Start with just the zoo ID nodes
-    if (vertex._id > 0)
-      return false
-    // Match the input string against any of the possible zoo name or location fields
-    const matches = []
-    searchFields.forEach(searchField => {
-      languages.forEach(language => {
-        const testField = vertex[searchField][language]
-        if (testField && testField.includes(zoo_name_str)) {
-          return true
-        }
+  const location_nodes = G.v()
+    .filter(vertex => vertex.type == "zoo")
+    .filter(vertex => {
+      // Start with just the zoo ID nodes
+      if (vertex._id > 0)
+        return false
+      // Match the input string against any of the possible zoo name or location fields
+      const matches = []
+      searchFields.forEach(searchField => {
+        languages.forEach(language => {
+          const testField = vertex[searchField][language]
+          if (testField && testField.includes(zoo_name_str))
+            return true
+        })
       })
+      return false
     })
-    return false
-  }).run()
+    .run()
   return location_nodes
 }
 
