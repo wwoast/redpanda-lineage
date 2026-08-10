@@ -109,7 +109,8 @@ export class PhotoEntry {
       this.photoIndex = parseInt(photoIndex)
       this.photoUri = photoUri
     } else {
-      console.error("ERR: PhotoEntry: Not a known entity type")
+      console.error(`ERR: PhotoEntry: Not a known entity type: ${this.entityType}`)
+      console.error(raw)
     }
   }
 }

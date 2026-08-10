@@ -45,12 +45,12 @@ export function existsFileSync(path: string): boolean {
 
 /** Where to import or export red panda data from */
 export const Paths: Record<string, string> = {
-  links: "./links",
-  media: "./media",
-  output: "./export/redpanda.json",
-  pandas: "./pandas",
-  wilds: "./wild",
-  zoos: "./zoos"
+  links: "links/",
+  media: "media/",
+  output: "export/redpanda.json",
+  pandas: "pandas/",
+  wilds: "wild/",
+  zoos: "zoos/"
 }
 
 /** Reducer functions for type narrowing of vertex lists */

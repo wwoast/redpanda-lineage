@@ -1936,7 +1936,7 @@ export function arrivals(zoo, born, language) {
   // If any animals were born, this message gets a baby icon suffix
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `arrivals/zoo/${zoo["_id"]}`
+  const linkId = `arrivals/zoo/${zoo._id}`
   link.id = linkId;
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
@@ -2136,7 +2136,7 @@ export function departures(zoo, deaths, leaving, language) {
   // If any animals passed away, this message gets a rainbow icon suffix
   const link = document.createElement('a');
   link.href = "javascript:";
-  const linkId = `departures/zoo/${zoo["_id"]}`
+  const linkId = `departures/zoo/${zoo._id}`
   link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
@@ -2499,7 +2499,7 @@ export function residents(zoo, language) {
   // that didn't recently leave or arrive
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `residents/zoo/${zoo["_id"]}`
+  const linkId = `residents/zoo/${zoo._id}`
   link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)

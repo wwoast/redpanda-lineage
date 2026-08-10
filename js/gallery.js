@@ -410,7 +410,7 @@ function creditPhotosPage(page, results, language, max_hits) {
   // We must unspool the results because each entity we query here can have multiple
   // results returned, and the paging must only return the first max_hits content.
   for (const entity of results["hits"]) {
-    grab_photos = (entity["_id"] < 0)
+    grab_photos = (entity._id < 0)
       ? grab_photos.concat(
           zooPhotoCredits(entity, results["subject"], language))
       : grab_photos.concat(
@@ -482,7 +482,7 @@ export function familyProfilePhoto(
   container.appendChild(clickable_photo)
   // Family name caption
   const animal_name = document.createElement('a')
-  animal_name.href = `#profile/${animal["_id"]}`
+  animal_name.href = `#profile/${animal._id}`
   const animal_text = document.createElement('h5')
   animal_text.className = "caption familyName"
   animal_text.innerText = info["name"]
@@ -492,7 +492,7 @@ export function familyProfilePhoto(
   // Family title caption.
   if (relationship != undefined) {
     const animal_relation = document.createElement('a')
-    animal_relation.href = `#profile/${animal["_id"]}`
+    animal_relation.href = `#profile/${animal._id}`
     const relation_text = document.createElement('h5')
     relation_text.className = "caption familyTitle"
     const gender = Show.genderAnimal(animal, language, "caption gender")
@@ -852,7 +852,7 @@ function pandaPhotoCredits(animal, credit, language) {
   for (const field_name of photo_indexes(animal, 0)) {
     if (animal[`${field_name}.author`] == credit) {
       photos.push({
-        "id": animal["_id"],
+        "id": animal._id,
         "image": animal[field_name], 
         "index": field_name,
         "type": "panda"}
@@ -1198,7 +1198,7 @@ function updatedPhotoOrdering(language, photo_count) {
     zoo_photo.classes = class_list
     output_photos.push(zoo_photo)
     // Display updated photos for animals at this zoo first
-    const zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda["_id"])
+    const zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda._id)
     let zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
       .filter(panda => zoo_panda_ids.includes(panda.id))
       .filter(function(panda) {
@@ -1292,7 +1292,7 @@ function zooPhotoCredits(zoo, credit, language) {
   for (const photo of zoo.photos) {
     if (photo.author == credit) {
       photos.push({
-        "id": zoo["_id"],
+        "id": zoo._id,
         "image": photo.uri,
         "index": photo.index,
         "type": "zoo"

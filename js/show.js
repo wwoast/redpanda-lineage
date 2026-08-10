@@ -31,15 +31,15 @@ export function acquirePandaInfo(animal, language) {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace"),
-       "children": Pandas.searchPandaChildren(animal["_id"]),
+       "children": Pandas.searchPandaChildren(animal._id),
           "death": Pandas.date(animal, "death", language),
-            "dad": Pandas.searchPandaDad(animal["_id"]),
+            "dad": Pandas.searchPandaDad(animal._id),
          "gender": Pandas.gender(animal, language),
-             "id": animal["_id"],
+             "id": animal._id,
        "language": language,
  "language_order": Pandas.language_order(animal),
-         "litter": Pandas.searchLitter(animal["_id"]),
-            "mom": Pandas.searchPandaMom(animal["_id"]),
+         "litter": Pandas.searchLitter(animal._id),
+            "mom": Pandas.searchPandaMom(animal._id),
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
           "photo": picture.url,
@@ -48,8 +48,8 @@ export function acquirePandaInfo(animal, language) {
      "photo_link": picture.reference,
          "photos": animal.photos,
  "search_context": animal["search_context"],
-       "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
-        "species": Pandas.species(animal["_id"]),
+       "siblings": Pandas.searchNonLitterSiblings(animal._id),
+        "species": Pandas.species(animal._id),
            "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
@@ -102,18 +102,18 @@ function getUnknownZooBundle(location, language) {
  * about the number of pandas (living) that are at the zoo
  */
 export function acquireZooInfo(zoo, language) {
-  const animals = Pandas.searchPandaZooCurrent(zoo["_id"])
+  const animals = Pandas.searchPandaZooCurrent(zoo._id)
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"
     : Env.specific_photo
   const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
-  const recorded = Pandas.searchPandaZooBornLived(zoo["_id"])
+  const recorded = Pandas.searchPandaZooBornLived(zoo._id)
   let bundle = {
        "animals": animals,
        "address": Pandas.zooField(zoo, "address")[language],
   "animal_count": animals.length,
         "closed": Pandas.zooField(zoo, "closed"),
-            "id": zoo["_id"],
+            "id": zoo._id,
       "language": language,
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, "location")[language],
@@ -1744,12 +1744,12 @@ export const profilePage = {
       Message.profile_children(
         info["name"], children_count, daughters_count, sons_count, language)
     elements.push(message)
-    const photos = Pandas.searchPhotoProfileChildren(animal["_id"])
+    const photos = Pandas.searchPhotoProfileChildren(animal._id)
     for (const photo of photos) {
-      const child = info.children.filter(x => x["_id"] == photo["id"])[0]
+      const child = info.children.filter(x => x._id == photo.id)[0]
       const birth_year = Pandas.formatYear(child["birthday"])
       const indeterminate =
-        Pandas.indeterminateParent(animal["_id"], child["_id"])
+        Pandas.indeterminateParent(animal._id, child._id)
       const gallery = Gallery.familyProfilePhoto(
         child, photo, language, birth_year, undefined, indeterminate)
       photo_divs.push(gallery)
@@ -1844,12 +1844,12 @@ export const profilePage = {
     const photo_divs = []
     const message = Message.profile_family(info["name"], language)
     elements.push(message)
-    const photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"])
+    const photos = Pandas.searchPhotoProfileImmediateFamily(animal._id)
     // Start with mom and dad, and then a self photo, and then littermates.
     const mom_photos = []
     for (const mom of info.mom) {
       if (mom != undefined) {
-        const mom_photo = photos.filter(x => x["id"] == mom["_id"])[0]
+        const mom_photo = photos.filter(x => x._id == mom._id)[0]
         mom_photos.push(mom_photo)
         const mom_entry = Gallery.familyProfilePhoto(
           mom, mom_photo, language, Gui.mother[language],
@@ -1860,7 +1860,7 @@ export const profilePage = {
     const dad_photos = []
     for (const dad of info.dad) {
       if (dad != undefined) {
-        const dad_photo = photos.filter(x => x["id"] == dad["_id"])[0]
+        const dad_photo = photos.filter(x => x._id == dad._id)[0]
         dad_photos.push(dad_photo)
         var dad_entry = Gallery.familyProfilePhoto(
           dad, dad_photo, language, Gui.father[language],
@@ -1868,21 +1868,21 @@ export const profilePage = {
         photo_divs.push(dad_entry)
       }
     }
-    const me_photo = photos.filter(x => x["id"] == info["id"])[0]
+    const me_photo = photos.filter(x => x._id == info.id)[0]
     const me = Gallery.familyProfilePhoto(
       animal, me_photo, language, Gui.me[language], "immediateFamily")
     photo_divs.push(me)
     const other_family_ids =
       mom_photos.concat(dad_photos).concat(me_photo).map(x => x.id)
     const litter_photos =
-      photos.filter(photo => !other_family_ids.includes(photo["id"]))
+      photos.filter(photo => !other_family_ids.includes(photo.id))
     for (const litter_photo of litter_photos) {
       let subHeading = Gui.twin[language]
       if (litter_photos.length == 2)
         subHeading = Gui.triplet[language]
       if (litter_photos.length >= 3)
         subHeading = Gui.quadruplet[language]
-      const litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0]
+      const litter_mate = info.litter.filter(x => x._id == litter_photo["id"])[0]
       const gallery = Gallery.familyProfilePhoto(
         litter_mate, litter_photo, language, subHeading, "immediateFamily")
       photo_divs.push(gallery)
@@ -1954,14 +1954,14 @@ export const profilePage = {
       Message.profile_siblings(
         info["name"], siblings_count, sisters_count, brothers_count, language)
     elements.push(message)
-    const photos = Pandas.searchPhotoProfileSiblings(animal["_id"])
+    const photos = Pandas.searchPhotoProfileSiblings(animal._id)
     for (const photo of photos) {
-      const sibling = total_siblings.filter(x => x["_id"] == photo["id"])[0]
+      const sibling = total_siblings.filter(x => x._id == photo.id)[0]
       let subHeading = Pandas.formatYear(sibling["birthday"])
       if (Pandas.halfSiblings(animal, sibling))
         subHeading = subHeading + "\u200A" + "(½)"
       const indeterminate =
-        Pandas.indeterminateSiblings(animal["_id"], sibling["_id"])
+        Pandas.indeterminateSiblings(animal._id, sibling._id)
       const gallery = Gallery.familyProfilePhoto(
         sibling, photo, language, subHeading, undefined, indeterminate)
       photo_divs.push(gallery)
@@ -2107,7 +2107,7 @@ export const mediaMenus = profileMenus
  */
 export const mediaPage = {
   gallery: function(animal, language) {
-    const gallery = Gallery.groupPhotosPage(0, [animal["_id"]], 10)["output"]
+    const gallery = Gallery.groupPhotosPage(0, [animal._id], 10)["output"]
     const info = acquirePandaInfo(animal, language)
     this.nameBar(info)
     const result = document.createElement('div')
@@ -2136,7 +2136,7 @@ export const resultsPage = {
       const animal = info.children[index]
       // Check if animal has multiple possible moms/dads
       const icon_list = ["child_icon", "live_icon"]
-      if (Pandas.indeterminateParent(info.id, animal["_id"]) == true)
+      if (Pandas.indeterminateParent(info.id, animal._id) == true)
         icon_list.push("question_icon")
       const children_link = animalLink(
         animal, animal.name[info.language], info.language, icon_list)
@@ -2509,7 +2509,7 @@ export const resultsPage = {
       const icon_list = ["child_icon", "live_icon"]
       if (Pandas.halfSiblings(myself, animal))
         icon_list.push("half_icon")
-      if (Pandas.indeterminateSiblings(info.id, animal["_id"]) == true)
+      if (Pandas.indeterminateSiblings(info.id, animal._id) == true)
         icon_list.push("question_icon")
       const siblings_link = animalLink(
         animal, animal.name[info.language], info.language, icon_list)
@@ -2569,7 +2569,7 @@ export const resultsPage = {
         output_divs.push(this.panda(animal, Env.language)))
       return output_divs
     }
-    const id = zoo["_id"]
+    const id = zoo._id
     // Death list takes precedence over all others. 
     // No panda in this list should appear in the other lists.
     const deaths = Pandas.searchPandaZooDied(id, 9)

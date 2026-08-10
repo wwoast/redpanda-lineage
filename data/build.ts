@@ -1074,7 +1074,7 @@ class Updates {
 
   #determineUpdates = async () => {
     for (const change of this.patches) {
-      const filename = change.path
+      const filename = join(this.repo.path(), change.path)
       // Don't care about non-data files
       if (!filename.endsWith(".txt"))
         continue
@@ -1166,6 +1166,10 @@ class Updates {
   }
 }
 
+/** 
+ * `deno task` runs this script relative from the root of the
+ * `redpanda-lineage` project source code, where `deno.json` is found.
+ */
 if (import.meta.main) {
   const dataset = new Dataset()
   const updates = new Updates()

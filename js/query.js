@@ -78,7 +78,7 @@ function filter_set(set_node) {
     filter_word = filter_node.str
     Env.output_mode = "photos"
     Env.paging.display_button = true
-    const filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n["_id"])
+    const filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n._id)
     if (filter_ids.length == 0) {
       // Fall back to normal credit photo search
       parsed = "set_credit_photos"

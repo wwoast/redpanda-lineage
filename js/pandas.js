@@ -318,15 +318,15 @@ export function values(input) {
 /** Shorthand for getting all the animals */
 export function allAnimals() {
   const animals = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0
+    return vertex._id > 0
   }).run()
   return animals
 }
 
 export function allAnimalsAndMedia() {
   const vertices = G.v().filter(function(vertex) {
-    return ((vertex["_id"] > 0) || 
-            (vertex["_id"].indexOf("media") != -1))
+    return ((vertex._id > 0) || 
+            (vertex._id.indexOf("media") == 0))
   }).run()
   return vertices
 }
@@ -358,7 +358,7 @@ export function searchBirthdayList(input_date) {
     input_ymd["year"] = input_ymd["year"] + 2000
   }
   const nodes = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0;   // Just animals
+    return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
     const birthday = new Date(vertex.birthday)
     const birthday_ymd = date_to_ymd(birthday)
@@ -377,7 +377,7 @@ export function searchBirthdayList(input_date) {
 export function searchBirthdayToday(keep_living=true, photo_count=20) {
   const today = new Date()
   const nodes = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0;   // Just animals
+    return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
     const birthday = new Date(vertex.birthday)
     return ((birthday.getDate() == today.getDate()) &&
@@ -401,7 +401,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
 function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
   const today = new Date()
   const litter_ids = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0;   // Just animals
+    return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
     const birthday = new Date(vertex.birthday)
     return ((birthday.getDate() == today.getDate()) &&
@@ -561,7 +561,7 @@ export function searchLitter(idnum) {
 /** Find all links stored in a single panda database `[links]` file */
 export function searchLinks(idstr) {
   const nodes = G.v().filter(function(vertex) {
-    return (vertex["_id"] == "links." + idstr)
+    return (vertex._id == "links." + idstr)
   }).run()
   // Instead of returning the nodes, return a dictionary 
   // corresponding to all the links in that file.
@@ -751,7 +751,7 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
     if (contains == true) {
       const bundle = {
         "author": photo.author,
-        "id": animal["_id"],
+        "id": animal._id,
         "index": index + 1,   // Natural number index
         "reference": authorLink(photo.author, photo.source),
         "url": photo.url,
@@ -783,7 +783,7 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
       } else {
         const bundle = {
           "author": photo.author,
-          "id": animal["_id"],
+          "id": animal._id,
           "index": index + 1,   // Natural number index
           "reference": authorLink(photo.author, photo.source),
           "tags": tags,   // Not the original tags, but the ones searched for
@@ -1086,7 +1086,7 @@ export function searchPhotoCredit(author, filter_ids=[]) {
     if (filter_ids.length == 0)
       return true
     else
-      return filter_ids.includes(value["_id"])
+      return filter_ids.includes(value._id)
   })
 }
 
@@ -1200,12 +1200,12 @@ export function searchZooName(zoo_name_str) {
   const fields = ["location", "name"]
   const wants = []
   // Convolve the desired fields with the possible language options
-  languages.forEach(lang => 
-    fields.forEach(field => 
+  languages.forEach(lang =>
+    fields.forEach(field =>
       wants.push(`${lang}.${field}`)))
   const location_nodes = G.v().filter(function(vertex) {
     // Start with just the zoo ID nodes
-    if (vertex["_id"] > 0)
+    if (vertex._id > 0)
       return false
     // Match the input string against any of the possible zoo name or location fields
     const matches = []
@@ -1255,7 +1255,7 @@ function sortByNameJapanese(nodes) {
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
-    if (node["_id"].indexOf("media.") == 0) {
+    if (node._id.indexOf("media.") == 0) {
       const panda_ids = node["panda.tags"]
       const animals = panda_ids.map(id => searchPandaId(id)[0])
       // Sort only by the first name in the photo
@@ -1302,7 +1302,7 @@ function sortByName(nodes, name_field) {
  */
 function sortByNameWithGroups(nodes, photo_list, language) {
   nodes = nodes.map(function(node) {
-    if (node["_id"].indexOf("media.") == 0) {
+    if (node._id.indexOf("media.") == 0) {
       // Media file. Get the group caption based on your desired photo in the list
       desired_index = photo_list.filter(photo => 
         photo.photo == node["photo." + photo.index])[0].index
@@ -1334,7 +1334,7 @@ export function sortPhotosByName(photo_list, language) {
   let animals = photo_list.map(photo => searchPandaId(photo.id)[0])
   animals = sortByNameWithGroups(animals, photo_list, language)
   const output_list = animals.map(animal =>
-    photo_list.filter(photo => photo.id == animal["_id"])[0])
+    photo_list.filter(photo => photo.id == animal._id)[0])
   return output_list
 }
 
@@ -1568,12 +1568,12 @@ export function groupMediaCaption(entity, photo_index) {
 export function halfSiblings(animal, sibling) {
   // Indeterminate mom/dad check means your half sibling calculations
   // are impossible. You just can't know for sure.
-  if (indeterminateSiblings(animal["_id"], sibling["_id"]) == true)
+  if (indeterminateSiblings(animal._id, sibling._id) == true)
     return false
-  const animal_mom = searchPandaMom(animal["_id"])[0]
-  const animal_dad = searchPandaDad(animal["_id"])[0]
-  const sibling_mom = searchPandaMom(sibling["_id"])[0]
-  const sibling_dad = searchPandaDad(sibling["_id"])[0]
+  const animal_mom = searchPandaMom(animal._id)[0]
+  const animal_dad = searchPandaDad(animal._id)[0]
+  const sibling_mom = searchPandaMom(sibling._id)[0]
+  const sibling_dad = searchPandaDad(sibling._id)[0]
   // If the sibling is older than one of your parents, they must be a half
   // sibling. If one of the parents is missing, do this as a heuristic to
   // determine whether someone is a half-sibling or not.
@@ -1733,7 +1733,7 @@ function locatorToPhoto(locator) {
   const choice = entity.photos[photo_id]
   const desired = {
     "author": choice.author,
-        "id": entity["_id"],
+        "id": entity._id,
      "index": choice.index,
  "reference": authorLink(choice.author, choice.link),
       "type": entity_type,
