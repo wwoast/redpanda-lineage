@@ -199,8 +199,8 @@ export class Carousel {
     let next_id = current_photo_id
     if (entity.photos.length > 1)
       while (next_id == current_photo_id) {
-        const nextPhoto = Pandas.randomChoice(entity.photos, 1)
-        next_id = nextPhoto.id
+        const nextPhoto = Pandas.randomChoice(entity.photos, 1)[0]
+        next_id = entity.photos.indexOf(nextPhoto)
       }
     this.photoSwap(current_photo_element, parseInt(next_id))
   }
