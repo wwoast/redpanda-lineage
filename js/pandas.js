@@ -379,7 +379,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
   const nodes = G.v().filter(function(vertex) {
     return vertex["_id"] > 0;   // Just animals
   }).filter(function(vertex) {
-    var birthday = new Date(vertex.birthday)
+    const birthday = new Date(vertex.birthday)
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()))
   }).filter(function(vertex) {
@@ -389,9 +389,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
       return true   // Get everyone
     }
   }).filter(function(vertex) {
-    if (photo_count > 0) {
-      return vertex["photo." + photo_count] != undefined
-    }
+    return vertex.photos.length >= photo_count
   }).run()
   return sortOldestToYoungest(nodes)
 }
@@ -409,9 +407,7 @@ function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()))
   }).filter(function(vertex) {
-    if (photo_count > 0) {
-      return vertex["photo." + photo_count] != undefined
-    }
+    return vertex.photos.length >= photo_count
   }).in("litter").filter(function(vertex) {
     // Litter mates for this search must have the exact same
     // birthday as today. Sometimes they're born a day apart

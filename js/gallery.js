@@ -340,7 +340,7 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
-      url.process(img, photo["photo"])
+      url.process(img, photo.url)
       img_link.appendChild(img)
       // Link to the original instagram media
       const caption_link = document.createElement('a')
@@ -1403,7 +1403,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
-    url.process(img, photo["photo"])
+    url.process(img, photo.url)
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
