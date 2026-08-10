@@ -748,7 +748,7 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
   for (const [index, photo] of animal.photos.entries()) {
     if (photo.tags == undefined)
       continue
-    // Is the search tag list a subset of the photo_tag_list
+    // All search tags must be in the photo tags list
     const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
       const bundle = {
@@ -772,7 +772,8 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
  */
 function searchPandaPhotoTagsUnion(animal, tags, mode) {
   const output = []
-  // Gets panda photos
+  if (tags.length == 0)
+    return output
   for (const [index, photo] of animal.photos.entries()) {
     if (photo.tags == undefined)
       continue
@@ -785,7 +786,7 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
         const bundle = {
           "author": photo.author,
           "id": animal["_id"],
-          "index": index + 1,
+          "index": index + 1,   // Natural number index
           "reference": authorLink(photo.author, photo.source),
           "tags": tags,   // Not the original tags, but the ones searched for
           "url": photo.url
@@ -1160,6 +1161,7 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
     }
     output = output.concat(set)
   }
+  return output
 }
 
 /** 
