@@ -307,7 +307,7 @@ export const url = {
     } else if (uri.indexOf("cwdc") == 0) {
       url.codaworry(image, uri)
     } else {
-      image.src = Defaults.animal["photo.1"];   // Default image
+      image.src = Defaults.photo.url   // Default image
     }
   }
 }
