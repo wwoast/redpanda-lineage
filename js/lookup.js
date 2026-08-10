@@ -1,3 +1,13 @@
+const unknownName = {
+  "en": "Unknown",
+  "es": "Desconocido",
+  "ja": "未詳",
+  "ko": "알 수 없음",
+  "ne": "अज्ञात",
+  "pt": "Desconhecido(a)",
+  "zh": "不明"
+}
+
 /**
  * Date formats for parsing support fallbacks, if there would otherwise be
  * ambiguity in the dates
@@ -201,17 +211,9 @@ export const Defaults = {
    */
   languages: ["en", "ja", "zh", "ne", "pt", "es", "ko"],
   /** Used for missing mothers and fathers, where capitalization is needed */
-  no_name: {
-    "en": "Unknown",
-    "es": "Desconocido",
-    "ja": "未詳",
-    "ko": "알 수 없음",
-    "ne": "अज्ञात",
-    "pt": "Desconhecido(a)",
-    "zh": "不明"
-  },
+  no_name: unknownName,
   photo: {
-    "author": this.no_name,
+    "author": unknownName,
     "commitdate": "1970/1/1",
     "source": "https://redpandafinder.com",
     "tags": [],
