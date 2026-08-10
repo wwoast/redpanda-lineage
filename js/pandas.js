@@ -1858,7 +1858,7 @@ export function profilePhoto(animal, index, mode="animal") {
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one. Cannot check if == {} because
   // Javascript is ridiculous
-  if (photos.length === 0) {
+  if (animal.photos.length === 0) {
     index = 0
     choice = field(animal, "photos", mode)[0]
   }
