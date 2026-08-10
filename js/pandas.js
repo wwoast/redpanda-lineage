@@ -588,7 +588,7 @@ export function searchNonLitterSiblings(idnum) {
 
 /** 
  * Replaced `searchOldnames` and `searchOthernames` with a more generic
- * function that can eventually support hiragana/katakana swapping.
+ * function that also supports hiragana/katakana swapping.
  */
 function searchPandaNameFields(input, name_fields=undefined) {
   const inputs = []
@@ -608,23 +608,25 @@ function searchPandaNameFields(input, name_fields=undefined) {
     // Add "nicknames" if you want to search for that too.
     name_fields = ["name", "oldnames", "othernames"]
   }
-  const nodes = G.v().filter(function(animal) {
-    const languages = Defaults.languages
-    for (const field of name_fields) {
-      for (const language of Defaults.languages) {
-        if (animal[field][language] != undefined) {
-          const nameOrList = animal[field][language]
-          const name_list = (typeof nameOrList === "string")
-            ? [nameOrList] : nameOrList
-          for (let wanted of inputs) {
-            if (name_list.includes(wanted)) {
-              return animal
+  const nodes = G.v()
+    .filter(vertex => vertex.type == "panda")
+    .filter(function(animal) {
+      const languages = Defaults.languages
+      for (const field of name_fields) {
+        for (const language of Defaults.languages) {
+          if (animal[field] && animal[field][language]) {
+            const nameOrList = animal[field][language]
+            const name_list = (typeof nameOrList === "string")
+              ? [nameOrList] : nameOrList
+            for (let wanted of inputs) {
+              if (name_list.includes(wanted)) {
+                return animal
+              }
             }
           }
         }
       }
-    }
-  }).run()
+    }).run()
   return nodes
 }
 

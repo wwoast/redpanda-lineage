@@ -1153,7 +1153,7 @@ function updatedPhotoOrdering(language, photo_count) {
   const new_panda_photos = 
     Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id")
       .filter(function(photo) {
-        return (!Object.keys(Defaults.authors).includes(photo.credit))
+        return (!Object.keys(Defaults.authors).includes(photo.author))
       })
   let new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count)
   new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language)
@@ -1185,7 +1185,7 @@ function updatedPhotoOrdering(language, photo_count) {
       return output_photos
     }
     // New author added, so make sure it gets the giftwrap
-    if (author_photos_all.map(photo => photo.credit).includes(zoo_photo.credit)) {
+    if (author_photos_all.map(photo => photo.author).includes(zoo_photo.author)) {
       zoo_photo.credit_icon = Emoji.giftwrap   // new panda and author!
     }
     // Give it giftwrap if only one photo attributed to this author
@@ -1211,11 +1211,11 @@ function updatedPhotoOrdering(language, photo_count) {
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language)
     for (const zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Emoji.profile   // heart_panel
-      if (author_photos_all.map(photo => photo.credit).includes(zoo_panda.credit)) {
+      if (author_photos_all.map(photo => photo.author).includes(zoo_panda.author)) {
         zoo_panda.credit_icon = Emoji.giftwrap   // new panda and author!
       }
       // Give it giftwrap if only one photo attributed to this author
-      if (P.db._photo.credit[zoo_panda.credit] == 1) {
+      if (P.db._photo.credit[zoo_panda.author] == 1) {
         zoo_panda.credit_icon = Emoji.giftwrap
       }
       zoo_panda.classes = class_list
@@ -1338,7 +1338,7 @@ export function pumpkin(language, photo_count=5) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo.id}/photo/${photo["photo.index"]}`
+    img_link.href = `#panda/${photo.id}/photo/${photo.index}`
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
@@ -1346,14 +1346,14 @@ export function pumpkin(language, photo_count=5) {
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
-    name_caption_link.href = `#panda/${photo.id}/photo/${photo["photo.index"]}`
+    name_caption_link.href = `#panda/${photo.id}/photo/${photo.index}`
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName halloweenMessage"
     const name_caption_span = document.createElement('span')
     const animal = Pandas.searchPandaId(photo.id)[0]
     let updateName = undefined
     if (photo.id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, `photo.${photo["photo.index"]}`)
+      updateName = Pandas.groupMediaCaption(animal, photo.index)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
@@ -1365,12 +1365,12 @@ export function pumpkin(language, photo_count=5) {
     name_caption_link.appendChild(name_caption)
     // Link to the original instagram media
     const credit_caption_link = document.createElement('a')
-    credit_caption_link.href = url.href(photo["photo"])
+    credit_caption_link.href = url.href(photo.url)
     credit_caption_link.target = "_blank"   // Open in new tab
     const credit_caption = document.createElement('h5')
     credit_caption.className = "caption updateAuthor halloweenMessage"
     const credit_caption_span = document.createElement('span')
-    credit_caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
+    credit_caption_span.innerText = `${Emoji.camera} ${photo.author}`
     // TODO: condenser
     credit_caption.appendChild(credit_caption_span)
     credit_caption_link.appendChild(credit_caption)
@@ -1399,7 +1399,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo.id}/photo/${photo["photo.index"]}`
+    img_link.href = `#panda/${photo.id}/photo/${photo.index}}`
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
@@ -1407,14 +1407,14 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
-    name_caption_link.href = `#panda/${photo.id}/photo/${photo["photo.index"]}`
+    name_caption_link.href = `#panda/${photo.id}/photo/${photo.index}`
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName"
     const name_caption_span = document.createElement('span')
     const animal = Pandas.searchPandaId(photo.id)[0]
     let updateName = undefined
     if (photo.id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, `photo.${photo["photo.index"]}`)
+      updateName = Pandas.groupMediaCaption(animal, photo.index)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
@@ -1426,12 +1426,12 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     name_caption_link.appendChild(name_caption)
     // Link to the original instagram media
     const credit_caption_link = document.createElement('a')
-    credit_caption_link.href = url.href(photo["photo"])
+    credit_caption_link.href = url.href(photo.url)
     credit_caption_link.target = "_blank"   // Open in new tab
     const credit_caption = document.createElement('h5')    
     credit_caption.className = "caption updateAuthor"
     const credit_caption_span = document.createElement('span')
-    credit_caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
+    credit_caption_span.innerText = `${Emoji.camera} ${photo.author}`
     // TODO: condenser
     credit_caption.appendChild(credit_caption_span)
     credit_caption_link.appendChild(credit_caption)
