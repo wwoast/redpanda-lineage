@@ -61,7 +61,6 @@ export function acquirePandaInfo(animal, language) {
 
 /** Given an animal, return an array of location info translated correctly. */
 function acquireLocationList(animal, language) {
-  // Order from oldest to newest
   const raw_locations = Pandas.locationList(animal)
   const history = raw_locations.map(location =>
     getZooBundle(location, language))
@@ -1998,7 +1997,7 @@ export const profilePage = {
     // Start at the current zoo, and work backwards
     const container = document.createElement('div')
     container.className = "zooHistory"
-    for (const zoo of history.reverse()) {
+    for (const zoo of history) {
       let zoo_icon = Emoji.zoo
       // Different date string logic for zoos versus wild animal sightings.
       let date_string = zoo.start_date + "\u2014" + zoo.end_date
