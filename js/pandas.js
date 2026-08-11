@@ -1651,7 +1651,7 @@ export function locationList(animal) {
       ? Defaults.animal["birthday"]
       : location.date
     locations.push({
-             "zoo": index,
+             "zoo": location.id,
       "start_date": start_date,
         "end_date": end_date,
     })
