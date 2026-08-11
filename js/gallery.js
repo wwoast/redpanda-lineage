@@ -556,7 +556,7 @@ export function groupPhotosPage(page, id_list, photo_count) {
     photo_count = Env.paging.shown_pages * photo_count
   }
   const entityPhotos = groupPhotos(id_list)   // All photos
-  const chosen = entityPhotos.slice(page * photo_count)   // Choose just this page
+  let chosen = entityPhotos.slice(page * photo_count)   // Choose just this page
   // Last page of content. Hide Next button
   if (chosen.length <= photo_count)
     Env.paging.display_button = false
