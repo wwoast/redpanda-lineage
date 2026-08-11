@@ -952,7 +952,7 @@ function tagPhotosPage(page, results, language, max_hits, add_emoji) {
   // Redraw footer to update the paging button
   Page.footer.redraw("results")
   for (const photo of page_results) {
-    if (photo["photo.index"] != "0")   // Not a null photo result
+    if (photo.index != "0")   // Not a null photo result
       content_divs = content_divs.concat(tagPhotoSingle(photo, language, add_emoji))
     else
       page_results.pop(page_results.indexOf(photo))
@@ -1000,14 +1000,13 @@ function tagPhotoMessage(results, hit_count) {
 }
 
 /** Take a photo that matches a tag, and display it along with the tag emoji */
-function tagPhotoSingle(result, language, add_emoji) {
+function tagPhotoSingle(photo, language, add_emoji) {
   const content_divs = []
-  const animal = Pandas.searchPandaId(result._id)[0]
+  const animal = Pandas.searchPandaId(photo._id)[0]
   const info = Show.acquirePandaInfo(animal, language)
-  const photo = result["photo"]
   const img_link = document.createElement('a')
   // Link to the original instagram media
-  img_link.href = url.href(photo)
+  img_link.href = url.href(photo.url)
   img_link.target = "_blank"   // Open in new tab
   const img = document.createElement('img')
   img.setAttribute("loading", "lazy")
@@ -1017,21 +1016,21 @@ function tagPhotoSingle(result, language, add_emoji) {
   const caption_link = document.createElement('a')
   // TODO: better handling of group photos
   if (animal._id.indexOf("media.") != 0)
-    caption_link.href = `#panda/${animal._id}/photo/${result.index}`
+    caption_link.href = `#panda/${animal._id}/photo/${photo.index}`
   const caption = document.createElement('h5')
   caption.className = "caption updateTagName"
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
     caption.innerText =
-      Pandas.groupMediaCaption(animal, result.index)
+      Pandas.groupMediaCaption(animal, photo.index)
     const panda_route = animal["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
     caption.innerText = info.name
   }
   // Prefix caption with an emoji if we can get one
-  const tag_lookup = Tags[result["photo.tags"][0]]
+  const tag_lookup = Tags[photo.tags[0]]
   if ((tag_lookup != undefined) && (add_emoji == true)) {
     const emoji = tag_lookup["emoji"]
     caption.innerText = emoji + "\xa0" + caption.innerText
