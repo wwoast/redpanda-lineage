@@ -1650,12 +1650,11 @@ export function locationList(animal) {
     const start_date = (location.zoo == 0)
       ? Defaults.animal["birthday"]
       : location.date
-    const location = {
-          "zoo": index,
-   "start_date": start_date,
-     "end_date": end_date,
-    }
-    locations.push(location)
+    locations.push({
+             "zoo": index,
+      "start_date": start_date,
+        "end_date": end_date,
+    })
   }
   // If there were no location. fields, use the zoo field, birthday, and date
   // of death. If a wild animal, use a wild field instead of the zoo field
