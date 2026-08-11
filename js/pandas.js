@@ -992,7 +992,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
       for (const location of vertex.locations) {
         if (location.id != compare_id && at_zoo_previously == false)
           continue
-        if (zoo_id == compare_id) {
+        if (location.id == compare_id) {
           at_zoo_previously = true
           continue
         }
@@ -1007,7 +1007,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(zoo_id) * -1,
+            "to": parseInt(location.id) * -1,
             "move_date": location.date
           }
           return true
@@ -1017,7 +1017,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(zoo_id) * -1,
+            "to": parseInt(location.id) * -1,
             "move_date": location.date
           }
           return true   // Less than N months?
