@@ -179,7 +179,7 @@ export class Carousel {
       : entity_id
     const current_photo_element =
       document.getElementsByClassName(`${carousel_id}/photo`)[0]
-    const current_photo_id = current_photo_element.split("/")[2]
+    const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1)
   }
 
