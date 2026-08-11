@@ -530,7 +530,7 @@ function groupPhotos(id_list) {
   const seen = {}
   const photo_list = []
   for (const id of id_list) {
-    const entities = Pandas.searchPandaMedia(id, only_media=true)
+    const entities = Pandas.searchPandaMedia(id, true)
     for (const entity of entities) {
       const photos = entity.photos
       for (const photo of photos) {
