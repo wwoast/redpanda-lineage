@@ -1201,9 +1201,6 @@ export function searchZooName(zoo_name_str) {
   const location_nodes = G.v()
     .filter(vertex => vertex.type == "zoo")
     .filter(vertex => {
-      // Start with just the zoo ID nodes
-      if (vertex._id > 0)
-        return false
       // Match the input string against any of the possible zoo name or location fields
       const matches = []
       searchFields.forEach(searchField => {
