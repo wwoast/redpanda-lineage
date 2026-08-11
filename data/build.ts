@@ -824,7 +824,7 @@ class Dataset {
       this.assertValidPandaOrZooId(vertex.path, locationKey, zoo)
       this.assertDateExistsAndIsValid(vertex.path, locationKey, dateString)
       const location = {
-        id: zoo,
+        _id: zoo,
         date: dateString
       }
       vertex.locations.push(location)
@@ -835,10 +835,10 @@ class Dataset {
             `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       // Check the last location matches the most recent zoo or wild id
       if (locationKeys.indexOf(locationKey) == locationKeys.length - 1) {
-        if (vertex.wild && location.id != vertex.wild)
+        if (vertex.wild && location._id != vertex.wild)
           throw new Error(
             `ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
-        if (vertex.zoo && location.id != vertex.zoo)
+        if (vertex.zoo && location._id != vertex.zoo)
           throw new Error(
             `ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
       }
