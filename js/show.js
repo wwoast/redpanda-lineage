@@ -62,7 +62,8 @@ export function acquirePandaInfo(animal, language) {
 /** Given an animal, return an array of location info translated correctly. */
 function acquireLocationList(animal, language) {
   const history = []
-  const raw_locations = Pandas.locationList(animal)
+  // Order from oldest to newest
+  const raw_locations = Pandas.locationList(animal).reverse()
   for (const location of raw_locations) {
     const bundle = getZooBundle(location, language)
     history.push(bundle)
