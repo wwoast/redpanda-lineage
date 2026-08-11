@@ -644,6 +644,7 @@ export function groupPhotosIntersectPage(page, id_list, photo_count) {
 
 function groupPhotoSingle(entityPhoto) {
   // TOWRITE: image styles based on url being medium or large
+  const imgUrl = entityPhoto.photo.url
   const img_link = document.createElement('a')
   img_link.href = url.href(imgUrl)
   const img = document.createElement('img')
@@ -675,10 +676,10 @@ function groupPhotoSingle(entityPhoto) {
   // Put it all in a frame
   const container = document.createElement('div')
   container.className = "photoSample"
-  if ((imgUrl.indexOf("/l") == imgUrl.length - 2) && 
+  if ((imgUrl.indexOf("/l") == imgUrl - 2) && 
       (imgUrl.indexOf("ig://") == 0)) {
     container.classList.add("halfPage")
-  } else if ((imgUrl.indexOf("/m") == imgUrl.length - 2) &&
+  } else if ((imgUrl.indexOf("/m") == imgUrl - 2) &&
              (imgUrl.indexOf("ig://") == 0)) {
     container.classList.add("quarterPage")
   } else if (imgUrl.indexOf("ig://") == -1) {
