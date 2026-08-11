@@ -459,13 +459,13 @@ function othernames(animal, current_language) {
     // Othernames / spellings for this animal
     const othernames = animal.othernames
     if (othernames && othernames[language] != undefined) {
-      for (let name of othernames[language])
+      for (const name of othernames[language])
         othername_list.push(name)
     }
     // Old names that were previously valid for this animal
     const oldnames = animal.oldnames
     if (oldnames && oldnames[language] != undefined) {
-      for (let name of oldnames[language])
+      for (const name of oldnames[language])
         othername_list.push(name)
     }
     // Did we have any extra names? If so, add them
