@@ -427,7 +427,7 @@ function nicknames(animal) {
     nicknames_li.innerText =
       `${Gui.language[Env.language][language]}: `
     // Nicknames for this animal
-    for (let name of nicknames)
+    for (let name of nicknames[language])
       nicknames_list.push(name)
     // Did we have any extra names? If so, add them
     if (nicknames_list.length > 0) {
