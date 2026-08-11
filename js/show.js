@@ -2336,7 +2336,7 @@ export const resultsPage = {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
       const target_date = Pandas.formatDate(info.search_context.move_date, language)
-      const icon = Emoji.zoo
+      let icon = Emoji.zoo
       const target_text = target_zoo.name[language]
       const compare_text = info.zoo.name[language]
       if (target_text == compare_text) {
