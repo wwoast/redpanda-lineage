@@ -454,7 +454,7 @@ function othernames(animal, current_language) {
     if (language != current_language) {
       const name = animal.name
       if (name[language] != undefined)
-        othername_list.push(name)
+        othername_list.push(name[language])
     }
     // Othernames / spellings for this animal
     const othernames = animal.othernames
