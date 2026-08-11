@@ -874,16 +874,17 @@ class Dataset {
         url: vertex[`${photoKey}`]
       }
       if (vertex.type == "media") {
-        photo.locations = vertex["panda.tags"].map(pandaId => {
-          const field = `${photoKey}.tags.${pandaId}.location`
-          if (!vertex[field])
-            throw new Error(`ERR: ${vertex._id}: missing one or more location tags: ${photoKey}`)
-          return {
-            _id: pandaId,
-            x: parseInt(vertex[field][0]),
-            y: parseInt(vertex[field][1])
-          }
-        })
+        photo.locations = Object.fromEntries(
+          vertex["panda.tags"].map(pandaId => {
+            const field = `${photoKey}.tags.${pandaId}.location`
+            if (!vertex[field])
+              throw new Error(`ERR: ${vertex._id}: missing one or more location tags: ${photoKey}`)
+            return [pandaId, [
+              parseInt(vertex[field][0]),
+              parseInt(vertex[field][1])
+            ]]
+          })
+        )
       }
       vertex.photos.push(photo)
     })

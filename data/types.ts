@@ -69,14 +69,7 @@ declare global {
      * For media/group photos, identify with a pixel where in the photo each
      * animal can be found
      */
-    locations?: {
-      /** The animal id */
-      _id: string,
-      /** The X-coordinate in the photo pointing to the animal's face / body */
-      x: number,
-      /** The Y-coordinate in the photo pointing to the animal's face / body */
-      y: number
-    }[]
+    locations?: Record<string, [number, number]>
     /**
      * When clicking the author's name in redpandafinder, we attempt to link
      * to the original social media post this photo was sourced from. This can be
@@ -176,7 +169,7 @@ declare global {
     /** Comma-separated list of numeric fixed identifiers for animals in the photo */
     "panda.tags": string[],
     /** A set of photos of multiple animals */
-    photos: MediaPhoto[]
+    photos: Photo[]
     /** Type discriminator to quickly deduce what kind of photo-containing object */
     type: "media"
   }

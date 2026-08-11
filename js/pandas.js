@@ -1511,15 +1511,14 @@ export function gender(animal, language) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity, photo_index) {
-  const tag_index = `${photo_index}.tags`
+export function groupMediaCaption(entity, photo) {
   const pandaTags = entity["panda.tags"]
   let output_string = Defaults.animal.name[Env.language]
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
     const panda = searchPandaId(id)[0]
-    const [x, y] = entity[tag_index + "." + id + ".location"]
+    const [x, y] = photo.locations[id]
     const name = Language.fallback_name(panda)
     const info = {
       "name": name,

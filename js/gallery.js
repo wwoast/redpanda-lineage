@@ -656,14 +656,14 @@ function groupPhotoSingle(entityPhoto) {
   caption_names.className = "caption groupMediaName"
   const caption_names_span = document.createElement('span')
   caption_names_span.innerText =
-    Pandas.groupMediaCaption(entityPhoto.entity, entityPhoto.photo.index)
+    Pandas.groupMediaCaption(entityPhoto.entity, entityPhoto.photo)
   caption_names.appendChild(caption_names_span)
   const caption_names_link = document.createElement('a')
   const panda_route = entity["panda.tags"].join("/")
   caption_names_link.href = `#group/${panda_route}`
   caption_names_link.appendChild(caption_names)
   // Credit for the group photos
-  const author = entity.photo.author
+  const author = entityPhoto.photo.author
   const caption_credit_link = document.createElement('a')
   caption_credit_link.href = `#credit/${author}`   // build from author info
   const caption_credit = document.createElement('h5')
@@ -885,7 +885,7 @@ function pandaPhotoCreditSingle(item) {
   // TODO: handling of names of group pandas
   if (id.indexOf("media.") == 0) {
     const entity = Pandas.searchPandaId(id)[0]
-    caption.innerText = Pandas.groupMediaCaption(entity, item.index)
+    caption.innerText = Pandas.groupMediaCaption(entity, photo)
     const panda_route = entity["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
@@ -1021,8 +1021,7 @@ function tagPhotoSingle(photo, language, add_emoji) {
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
   if (node.type == "media") {
-    caption.innerText =
-      Pandas.groupMediaCaption(animal, photo.index)
+    caption.innerText = Pandas.groupMediaCaption(animal, photo)
     const panda_route = animal["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
@@ -1079,7 +1078,7 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
     const animal = Pandas.searchPandaId(item._id)[0]
     let updateName = undefined
     if (item._id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, item.index)
+      updateName = Pandas.groupMediaCaption(animal, item)
       const panda_route = animal["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
   
@@ -1353,7 +1352,7 @@ export function pumpkin(language, photo_count=5) {
     const animal = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
     if (photo._id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, photo.index)
+      updateName = Pandas.groupMediaCaption(animal, photo)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
@@ -1414,7 +1413,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     const animal = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
     if (photo._id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, photo.index)
+      updateName = Pandas.groupMediaCaption(animal, photo)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
