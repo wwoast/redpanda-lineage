@@ -876,7 +876,8 @@ class Dataset {
       if (vertex.type == "media") {
         photo.locations = vertex["panda.tags"].map(pandaId => {
           const field = `${photoKey}.tags.${pandaId}.location`
-          console.log(field)
+          if (!vertex[field])
+            throw new Error(`ERR: ${vertex._id}: missing one or more location tags: ${photoKey}`)
           return {
             _id: pandaId,
             x: parseInt(vertex[field][0]),
