@@ -472,12 +472,12 @@ export function familyProfilePhoto(
   // Photo container
   const clickable_photo = document.createElement('a')
   clickable_photo.target = "_blank"
-  if (chosen_photo != Defaults.animal["photo.1"])   // No link if no photo defined
-    clickable_photo.href = url.href(chosen_photo["photo"])
+  if (chosen_photo.url != Defaults.photo.url)   // No link if no photo defined
+    clickable_photo.href = url.href(chosen_photo.url)
   const image = document.createElement('img')
   image.setAttribute("loading", "lazy")
   // Set the photo, even if it takes an extra XHR
-  url.process(image, chosen_photo["photo"])
+  url.process(image, chosen_photo.url)
   clickable_photo.appendChild(image)
   container.appendChild(clickable_photo)
   // Family name caption
@@ -485,7 +485,7 @@ export function familyProfilePhoto(
   animal_name.href = `#profile/${animal._id}`
   const animal_text = document.createElement('h5')
   animal_text.className = "caption familyName"
-  animal_text.innerText = info["name"]
+  animal_text.innerText = info.name
   animal_name.appendChild(animal_text)
   animal_name.addEventListener("click", Show.topButton.action)
   container.appendChild(animal_name)
@@ -512,7 +512,7 @@ export function familyProfilePhoto(
       emojis = "\u200A" + Emoji.profile
     if (multiple == true)
       emojis = Emoji.question
-    if (animal["death"] != undefined)
+    if (animal.death != undefined)
       emojis = emojis + "\u200A" + Emoji.died
     const emoji_text = document.createTextNode(emojis)
     relation_text.appendChild(emoji_text)
@@ -714,20 +714,20 @@ export function genericPhotoCredits(
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
       // Link to the original instagram media
-      img_link.href = `#panda/${animal._id}/photo/${photo["photo.index"]}`
+      img_link.href = `#panda/${animal._id}/photo/${photo.index}`
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
-      url.process(img, photo["photo"])
+      url.process(img, photo.url)
       img_link.appendChild(img)
       // Link to the original instagram media
       const caption_link = document.createElement('a')
-      caption_link.href = url.href(photo["photo.link"])
+      caption_link.href = url.href(photo.reference)
       caption_link.target = "_blank"   // Open in new tab
       const caption = document.createElement('h5')
       caption.className = "caption memorialMessage"
       const caption_span = document.createElement('span')
-      caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
+      caption_span.innerText = `${Emoji.camera} ${photo.author}`
       // TODO: condenser
       caption.appendChild(caption_span)
       caption_link.appendChild(caption)
@@ -759,20 +759,20 @@ export function memorialPhotoCredits(
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
       // Link to the original instagram media
-      img_link.href = `#panda/${animal._id}/photo/${photo["photo.index"]}`
+      img_link.href = `#panda/${animal._id}/photo/${photo.index}`
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
-      url.process(img, photo["photo"])
+      url.process(img, photo.url)
       img_link.appendChild(img)
       // Link to the original instagram media
       const caption_link = document.createElement('a')
-      caption_link.href = url.href(photo["photo.link"])
+      caption_link.href = url.href(photo.reference)
       caption_link.target = "_blank"   // Open in new tab
       const caption = document.createElement('h5')
       caption.className = "caption memorialMessage"
       const caption_span = document.createElement('span')
-      caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
+      caption_span.innerText = `${Emoji.camera} ${photo.author}`
       // TODO: condenser
       caption.appendChild(caption_span)
       caption_link.appendChild(caption)
@@ -819,16 +819,16 @@ export function memorialPhotoCreditsGroup(
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
-    url.process(img, photo["photo"])
+    url.process(img, photo.url)
     img_link.appendChild(img)
     // Link to the original instagram media
     const caption_link = document.createElement('a')
-    caption_link.href = url.href(photo["photo.link"])
+    caption_link.href = url.href(photo.reference)
     caption_link.target = "_blank"   // Open in new tab
     const caption = document.createElement('h5')
     caption.className = "caption memorialMessage"
     const caption_span = document.createElement('span')
-    caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
+    caption_span.innerText = `${Emoji.camera} ${photo.author}`
     // TODO: condenser
     caption.appendChild(caption_span)
     caption_link.appendChild(caption)
@@ -1344,7 +1344,7 @@ export function pumpkin(language, photo_count=5) {
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
-    url.process(img, photo["photo"])
+    url.process(img, photo.url)
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
