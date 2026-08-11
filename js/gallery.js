@@ -13,7 +13,7 @@ import * as Touch from './touch.js'
  *
  * This module, given a list of photos, will create many types of photo
  * galleries, including single frame _Carousel_ views with dogear navigation
- * widgets and swipe controls, as well as larger pageable galleries.
+ * gets and swipe controls, as well as larger pageable galleries.
  *
  * The Gallery instance has two types of methods: photo methods (for dealing
  * with single-photo panda info), and media methods (for dealing with photos
@@ -79,7 +79,7 @@ export class Carousel {
   displayPhoto(
     image=this.image,
     photoUrl=this.info.photo,
-    id=this.info.id,
+    id=this.info._id,
     index=this.index
   ) {
     // Fill in details of the image we are displaying
@@ -102,7 +102,7 @@ export class Carousel {
   displayPhotoNavigation() {
     const span_link = document.createElement('a')
     span_link.className = "navigatorLink"
-    span_link.id = `${this.unique}_${this.info.id}/navigator`
+    span_link.id = `${this.unique}_${this.info._id}/navigator`
     span_link.href = "javascript:;"
     const span = document.createElement('span')
     span.className = "navigator"
@@ -122,20 +122,20 @@ export class Carousel {
     } else {
       span.innerText = this.index
       span_link.addEventListener('click', () => {  // Left click event
-        this.photoNext(this.info.id)
+        this.photoNext(this.info._id)
         condenseDogEar(span)
         window.dispatchEvent(Page.profile.qr_update)
       })
       span_link.addEventListener('contextmenu', (e) => {   // Right click event
         e.preventDefault()   // Prevent normal context menu from firing
-        this.photoPrevious(this.info.id)
+        this.photoPrevious(this.info._id)
         condenseDogEar(span)
         window.dispatchEvent(Page.profile.qr_update)
       })
       span_link.addEventListener('auxclick', (e) => {   // Middle click event
         if (e.which == 2) {
           e.preventDefault()   // Prevent middle click opening a new tab
-          this.photoRandom(this.info.id)
+          this.photoRandom(this.info._id)
           condenseDogEar(span)
           window.dispatchEvent(Page.profile.qr_update)
         }
@@ -153,14 +153,14 @@ export class Carousel {
   }
 
   /** Utility function to get the proper entity for photo counts */
-  photoEntity(entity_id=this.info.id) {
+  photoEntity(entity_id=this.info._id) {
     return (this.carousel_type == "zoo")
       ? Pandas.searchZooId(entity_id)[0]
       : Pandas.searchPandaId(entity_id)[0]
   }
 
   /** Navigation input event -- load the next photo in the carousel */
-  photoNext = function(entity_id=this.info.id) {
+  photoNext = function(entity_id=this.info._id) {
     // HACK: from touch handlers, it has a carousel id
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${entity_id}`
@@ -172,19 +172,19 @@ export class Carousel {
   }
 
   /** Navigation input event -- load the previous photo in the carousel */
-  photoPrevious(entity_id=this.info.id) {
+  photoPrevious(entity_id=this.info._id) {
     // HACK: from touch handlers, it has a carousel id
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${entity_id}`
       : entity_id
     const current_photo_element =
       document.getElementsByClassName(`${carousel_id}/photo`)[0]
-    const current_photo_id = current_photo_element.id.split("/")[2]
+    const current_photo_id = current_photo_element.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1)
   }
 
   /** Navigation input event -- load a random-index photo of this animal */
-  photoRandom(entity_id=this.info.id) {
+  photoRandom(entity_id=this.info._id) {
     // HACK: from touch handlers, it has a carousel id
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${entity_id}`
@@ -241,7 +241,7 @@ export class Carousel {
 
   /** Replace the photographer's credit info for a panda's photo */
   singlePhotoCredit(info, last_index, current_index) {
-    const animal_id = info.id
+    const animal_id = info._id
     const credit_link =
       document.getElementById(`${animal_id}/author/${last_index}`)
     credit_link.id = `${animal_id}/author/${current_index}`
@@ -255,7 +255,7 @@ export class Carousel {
 
   /** Replace the photographer's apple points (number of photos on the site) */
   userApplePoints(info, last_index, current_index) {
-    const animal_id = info.id
+    const animal_id = info._id
     const apple_link = document.getElementById(`${animal_id}/counts/${last_index}`)
     apple_link.id = `${animal_id}/counts/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author)) {
@@ -332,7 +332,7 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
     const info = Show.acquirePandaInfo(animal, language)
     const years_old = Pandas.ageYears(animal)
     // Post the birthday message (with age in years)
-    const message = Message.birthday(info.name, info.id, years_old, language)
+    const message = Message.birthday(info.name, info._id, years_old, language)
     birthday_div.appendChild(message)
     const photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
@@ -753,7 +753,7 @@ export function memorialPhotoCredits(
     const animal = Pandas.searchPandaId(id)[0]
     const info = Show.acquirePandaInfo(animal, language)
     const message =
-      message_function(info.name, info.id, info.birthday, info.death, language)
+      message_function(info.name, info._id, info.birthday, info.death, language)
     memorial_div.appendChild(message)
     const photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
@@ -852,7 +852,7 @@ function pandaPhotoCredits(animal, credit, language) {
   for (const field_name of photo_indexes(animal, 0)) {
     if (animal[`${field_name}.author`] == credit) {
       photos.push({
-        "id": animal._id,
+        "_id": animal._id,
         "image": animal[field_name], 
         "index": field_name,
         "type": "panda"}
@@ -867,7 +867,7 @@ function pandaPhotoCreditSingle(item) {
   const photo = item.image
   const index = item.index.split(".")[1]
   const img_link = document.createElement('a')
-  const id = item.id
+  const id = item._id
   // Link to the original instagram media
   img_link.href = url.href(photo)
   img_link.target = "_blank";   // Open in new tab
@@ -1002,7 +1002,7 @@ function tagPhotoMessage(results, hit_count) {
 /** Take a photo that matches a tag, and display it along with the tag emoji */
 function tagPhotoSingle(result, language, add_emoji) {
   const content_divs = []
-  const animal = Pandas.searchPandaId(result.id)[0]
+  const animal = Pandas.searchPandaId(result._id)[0]
   const info = Show.acquirePandaInfo(animal, language)
   const photo = result["photo"]
   const img_link = document.createElement('a')
@@ -1017,14 +1017,14 @@ function tagPhotoSingle(result, language, add_emoji) {
   const caption_link = document.createElement('a')
   // TODO: better handling of group photos
   if (animal._id.indexOf("media.") != 0)
-    caption_link.href = `#panda/${animal._id}/photo/${result["photo.index"]}`
+    caption_link.href = `#panda/${animal._id}/photo/${result.index}`
   const caption = document.createElement('h5')
   caption.className = "caption updateTagName"
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
     caption.innerText =
-      Pandas.groupMediaCaption(animal, `photo.${result["photo.index"]}`)
+      Pandas.groupMediaCaption(animal, result.index)
     const panda_route = animal["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
@@ -1069,18 +1069,18 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
     img_link.appendChild(img)
     const caption_link = document.createElement('a')
     // TODO: better handling of group photos
-    if (item.id.indexOf("media.") != 0)
-      caption_link.href = `#panda/${item.id}/photo/${item.index}`
+    if (item._id.indexOf("media.") != 0)
+      caption_link.href = `#panda/${item._id}/photo/${item.index}`
     const caption = document.createElement('h5')
     caption.className = "caption updateName"
     // Color any zoo-related animals in the summary info
     if ("classes" in item)
       for (let caption_class of item.classes)
         caption.classList.add(caption_class)
-    const animal = Pandas.searchPandaId(item.id)[0]
+    const animal = Pandas.searchPandaId(item._id)[0]
     let updateName = undefined
-    if (item.id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, `photo.${item.index}`)
+    if (item._id.indexOf("media.") == 0) {
+      updateName = Pandas.groupMediaCaption(animal, item.index)
       const panda_route = animal["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
   
@@ -1125,7 +1125,7 @@ function updatedPhotoOrdering(language, photo_count) {
     .filter(locator => locator.indexOf("zoo.") == 0)
   const zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "id")
     .filter(function(photo) {
-      const pandas = Pandas.searchPandaZoo(photo.id)
+      const pandas = Pandas.searchPandaZoo(photo._id)
         .filter(panda => "photos" in panda)
       return pandas.length > 0
     }).filter(function(photo) {
@@ -1198,18 +1198,18 @@ function updatedPhotoOrdering(language, photo_count) {
     zoo_photo.classes = class_list
     output_photos.push(zoo_photo)
     // Display updated photos for animals at this zoo first
-    const zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda._id)
+    const zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo._id).map(panda => panda._id)
     let zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
-      .filter(panda => zoo_panda_ids.includes(panda.id))
+      .filter(panda => zoo_panda_ids.includes(panda._id))
       .filter(function(panda) {
         // If the commitdate of the animal isn't recent, it's not new and
         // shouldn't be listed in the new zoo info, or with a heart panel
         const currenttime = new Date()
-        const commitdate = Pandas.searchPandaId(panda.id)[0].commitdate
+        const commitdate = Pandas.searchPandaId(panda._id)[0].commitdate
         const ms_per_week = 1000 * 60 * 60 * 24 * 7
         return (currenttime - commitdate > ms_per_week)
       })
-    zoo_pandas = Pandas.unique(zoo_pandas, "id")
+    zoo_pandas = Pandas.unique(zoo_pandas, "_id")
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language)
     for (const zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Emoji.profile   // heart_panel
@@ -1232,15 +1232,14 @@ function updatedPhotoOrdering(language, photo_count) {
     if (photo_count == 0) {
       return output_photos
     }
-    const all_zoo_panda_ids = all_zoo_pandas.map(x => x.id)
-    const author_photo_id = author_photo.id
-    if (all_zoo_panda_ids.includes(author_photo_id)) {
+    const all_zoo_panda_ids = all_zoo_pandas.map(x => x._id)
+    if (all_zoo_panda_ids.includes(author_photo._id)) {
       // Zoo pandas don't show in the new authors section
       continue
     }
     // New panda added, so make sure it gets the heart icon
-    if ((panda_photos.map(panda => panda.id).includes(author_photo.id)) &&
-        (!author_photo.id.includes("media"))) {
+    if ((panda_photos.map(panda => panda._id).includes(author_photo._id)) &&
+        (!author_photo._id.includes("media"))) {
       author_photo.name_icon = Emoji.profile
     }
     author_photo.credit_icon = Emoji.giftwrap
@@ -1251,8 +1250,8 @@ function updatedPhotoOrdering(language, photo_count) {
     if (photo_count == 0) {
       return output_photos
     }
-    const all_zoo_panda_ids = all_zoo_pandas.map(x => x.id)
-    const new_panda_photo_id = new_panda_photo.id
+    const all_zoo_panda_ids = all_zoo_pandas.map(x => x._id)
+    const new_panda_photo_id = new_panda_photo._id
     if (all_zoo_panda_ids.includes(new_panda_photo_id)) {
       // Zoo pandas don't show in the new authors section
       continue
@@ -1267,8 +1266,8 @@ function updatedPhotoOrdering(language, photo_count) {
   // animals shown.
   update_photos = update_photos.filter(photo => 
     (!author_photos.concat(panda_photos)
-      .map(others => others["id"])
-      .includes(photo["id"])))
+      .map(others => others._id)
+      .includes(photo._id)))
   let update_chosen = Pandas.randomChoice(update_photos, photo_count)
   update_chosen = Pandas.sortPhotosByName(update_chosen, language)
   for (const update_photo of update_chosen) {
@@ -1292,7 +1291,7 @@ function zooPhotoCredits(zoo, credit, language) {
   for (const photo of zoo.photos) {
     if (photo.author == credit) {
       photos.push({
-        "id": zoo._id,
+        "_id": zoo._id,
         "image": photo.uri,
         "index": photo.index,
         "type": "zoo"
@@ -1306,7 +1305,7 @@ function zooPhotoCreditSingle(item) {
   const photo = item.image
   const index = item.index.split(".")[1]
   const img_link = document.createElement('a')
-  const id = item.id
+  const id = item._id
   const entity = Pandas.searchZooId(id)[0]
   const info = Show.acquireZooInfo(entity, Env.language)
   // Link to the original instagram media
@@ -1340,7 +1339,7 @@ export function pumpkin(language, photo_count=5) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo.id}/photo/${photo.index}`
+    img_link.href = `#panda/${photo._id}/photo/${photo.index}`
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
@@ -1348,13 +1347,13 @@ export function pumpkin(language, photo_count=5) {
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
-    name_caption_link.href = `#panda/${photo.id}/photo/${photo.index}`
+    name_caption_link.href = `#panda/${photo._id}/photo/${photo.index}`
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName halloweenMessage"
     const name_caption_span = document.createElement('span')
-    const animal = Pandas.searchPandaId(photo.id)[0]
+    const animal = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
-    if (photo.id.indexOf("media.") == 0) {
+    if (photo._id.indexOf("media.") == 0) {
       updateName = Pandas.groupMediaCaption(animal, photo.index)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
@@ -1401,7 +1400,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo.id}/photo/${photo.index}}`
+    img_link.href = `#panda/${photo._id}/photo/${photo.index}}`
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
@@ -1409,13 +1408,13 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
-    name_caption_link.href = `#panda/${photo.id}/photo/${photo.index}`
+    name_caption_link.href = `#panda/${photo._id}/photo/${photo.index}`
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName"
     const name_caption_span = document.createElement('span')
-    const animal = Pandas.searchPandaId(photo.id)[0]
+    const animal = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
-    if (photo.id.indexOf("media.") == 0) {
+    if (photo._id.indexOf("media.") == 0) {
       updateName = Pandas.groupMediaCaption(animal, photo.index)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`

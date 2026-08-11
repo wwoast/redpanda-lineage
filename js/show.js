@@ -28,6 +28,7 @@ export function acquirePandaInfo(animal, language) {
     : Env.specific_photo
   const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
   let bundle = {
+            "_id": animal._id,
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace"),
@@ -35,7 +36,6 @@ export function acquirePandaInfo(animal, language) {
           "death": Pandas.date(animal, "death", language),
             "dad": Pandas.searchPandaDad(animal._id),
          "gender": Pandas.gender(animal, language),
-             "id": animal._id,
        "language": language,
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal._id),
@@ -78,8 +78,8 @@ function getZooBundle(location, language) {
   if (zoos.length > 0) {
     const zoo = Language.fallbackEntity(zoos[0])   // Do language fallback strings
     return {
+             "_id": Pandas.zooField(zoo, "_id"),
         "end_date": Pandas.formatDate(location["end_date"], language),
-              "id": Pandas.zooField(zoo, "_id"),
   "language_order": Pandas.language_order(zoo),
         "location": Pandas.zooField(zoo, "location")[language],
             "name": Pandas.zooField(zoo, "name")[language],
@@ -90,8 +90,8 @@ function getZooBundle(location, language) {
 
 function getUnknownZooBundle(location, language) {
   return {
+    "_id": "0",
     "end_date": Pandas.formatDate(location["end_date"], language),
-    "id": "0",
     "language_order": [],
     "start_date": Pandas.formatDate(location["start_date"], language)
   }
@@ -109,11 +109,11 @@ export function acquireZooInfo(zoo, language) {
   const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
   const recorded = Pandas.searchPandaZooBornLived(zoo._id)
   let bundle = {
+           "_id": zoo._id,
        "animals": animals,
        "address": Pandas.zooField(zoo, "address")[language],
   "animal_count": animals.length,
         "closed": Pandas.zooField(zoo, "closed"),
-            "id": zoo._id,
       "language": language,
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, "location")[language],
@@ -147,7 +147,7 @@ export function acquireZooInfo(zoo, language) {
 function animalLink(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
-  if (animal['_id'] == Defaults.animal['_id']) {
+  if (animal._id == Defaults.animal._id) {
     let alien = Emoji.alien
     if (options.indexOf("mom_icon") != -1)
       alien = Emoji.star_mom
@@ -206,7 +206,7 @@ function animalLink(animal, link_text, language, options) {
 function appleLink(info, container_element) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
-  credit_count_link.id = `${info.id}/counts/${info.photo_index}`   // Carousel
+  credit_count_link.id = `${info._id}/counts/${info.photo_index}`   // Carousel
   credit_count_link.href = `#credit/${info.photo_credit}`
   if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
     // Anonymous/uncredited photos get no apple link
@@ -254,7 +254,7 @@ function childIcon(gender) {
 /** Display a link to a photo credit on Instagram or elsewhere */
 function creditLink(info, container_element) {
   const credit_link = document.createElement('a')
-  credit_link.id = `${info.id}/author/${info.photo_index}`   // Carousel
+  credit_link.id = `${info._id}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab
   credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link)
   if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
@@ -886,7 +886,7 @@ const mediaButton = {
       Emoji.media,
       Gui.media[Env.language],
       class_name)
-    button.addEventListener("click", () => this.action(panda.id))
+    button.addEventListener("click", () => this.action(panda_id))
     button.addEventListener("contextmenu", this.altAction)
     return button
   }
@@ -1746,7 +1746,7 @@ export const profilePage = {
     elements.push(message)
     const photos = Pandas.searchPhotoProfileChildren(animal._id)
     for (const photo of photos) {
-      const child = info.children.filter(x => x._id == photo.id)[0]
+      const child = info.children.filter(x => x._id == photo._id)[0]
       const birth_year = Pandas.formatYear(child["birthday"])
       const indeterminate =
         Pandas.indeterminateParent(animal._id, child._id)
@@ -1849,7 +1849,7 @@ export const profilePage = {
     const mom_photos = []
     for (const mom of info.mom) {
       if (mom != undefined) {
-        const mom_photo = photos.filter(x => x.id == mom._id)[0]
+        const mom_photo = photos.filter(x => x._id == mom._id)[0]
         mom_photos.push(mom_photo)
         const mom_entry = Gallery.familyProfilePhoto(
           mom, mom_photo, language, Gui.mother[language],
@@ -1860,7 +1860,7 @@ export const profilePage = {
     const dad_photos = []
     for (const dad of info.dad) {
       if (dad != undefined) {
-        const dad_photo = photos.filter(x => x.id == dad._id)[0]
+        const dad_photo = photos.filter(x => x._id == dad._id)[0]
         dad_photos.push(dad_photo)
         var dad_entry = Gallery.familyProfilePhoto(
           dad, dad_photo, language, Gui.father[language],
@@ -1868,21 +1868,21 @@ export const profilePage = {
         photo_divs.push(dad_entry)
       }
     }
-    const me_photo = photos.filter(x => x.id == info.id)[0]
+    const me_photo = photos.filter(x => x._id == info._id)[0]
     const me = Gallery.familyProfilePhoto(
       animal, me_photo, language, Gui.me[language], "immediateFamily")
     photo_divs.push(me)
     const other_family_ids =
-      mom_photos.concat(dad_photos).concat(me_photo).map(x => x.id)
+      mom_photos.concat(dad_photos).concat(me_photo).map(x => x._id)
     const litter_photos =
-      photos.filter(photo => !other_family_ids.includes(photo.id))
+      photos.filter(photo => !other_family_ids.includes(photo._id))
     for (const litter_photo of litter_photos) {
       let subHeading = Gui.twin[language]
       if (litter_photos.length == 2)
         subHeading = Gui.triplet[language]
       if (litter_photos.length >= 3)
         subHeading = Gui.quadruplet[language]
-      const litter_mate = info.litter.filter(x => x._id == litter_photo.id)[0]
+      const litter_mate = info.litter.filter(x => x._id == litter_photo._id)[0]
       const gallery = Gallery.familyProfilePhoto(
         litter_mate, litter_photo, language, subHeading, "immediateFamily")
       photo_divs.push(gallery)
@@ -1956,7 +1956,7 @@ export const profilePage = {
     elements.push(message)
     const photos = Pandas.searchPhotoProfileSiblings(animal._id)
     for (const photo of photos) {
-      const sibling = total_siblings.filter(x => x._id == photo.id)[0]
+      const sibling = total_siblings.filter(x => x._id == photo._id)[0]
       let subHeading = Pandas.formatYear(sibling["birthday"])
       if (Pandas.halfSiblings(animal, sibling))
         subHeading = subHeading + "\u200A" + "(½)"
@@ -2136,7 +2136,7 @@ export const resultsPage = {
       const animal = info.children[index]
       // Check if animal has multiple possible moms/dads
       const icon_list = ["child_icon", "live_icon"]
-      if (Pandas.indeterminateParent(info.id, animal._id) == true)
+      if (Pandas.indeterminateParent(info._id, animal._id) == true)
         icon_list.push("question_icon")
       const children_link = animalLink(
         animal, animal.name[info.language], info.language, icon_list)
@@ -2424,7 +2424,7 @@ export const resultsPage = {
       name_div.innerText = info.name
     }
     const a = document.createElement('a')
-    a.href = `#profile/${info.id}`
+    a.href = `#profile/${info._id}`
     const title_div = document.createElement('div')
     title_div.className = "pandaTitle"
     title_div.appendChild(pandaGender)
@@ -2504,12 +2504,12 @@ export const resultsPage = {
     const ul = document.createElement('ul')
     ul.className = `pandaList ${info.language}`
     for (const index in Pandas.sortOldestToYoungest(info.siblings)) {
-      const myself = Pandas.searchPandaId(info.id)[0]
+      const myself = Pandas.searchPandaId(info._id)[0]
       const animal = info.siblings[index]
       const icon_list = ["child_icon", "live_icon"]
       if (Pandas.halfSiblings(myself, animal))
         icon_list.push("half_icon")
-      if (Pandas.indeterminateSiblings(info.id, animal._id) == true)
+      if (Pandas.indeterminateSiblings(info._id, animal._id) == true)
         icon_list.push("question_icon")
       const siblings_link = animalLink(
         animal, animal.name[info.language], info.language, icon_list)
@@ -2656,7 +2656,7 @@ export const resultsPage = {
     // Other messages may disappear if they aren't meaningful for the data
     // How many pandas were born at this zoo
     const born_link = document.createElement('a')
-    born_link.href = `#query/born at ${info.id}`
+    born_link.href = `#query/born at ${info._id}`
     const born_at_zoo = Pandas.searchPandaZooBornRecords(info["id"], false)
     const born_count = born_at_zoo.length
     if (born_count > 0) {
@@ -2679,7 +2679,7 @@ export const resultsPage = {
     // How many pandas have recently departed this zoo
     const departed_link = document.createElement('a')
     departed_link.href = "javascript:"
-    const departed_link_id = `departures/zoo/${info.id}`
+    const departed_link_id = `departures/zoo/${info._id}`
     departed_link.addEventListener("click", function() {
       document.getElementById(departed_link_id).scrollIntoView(true)
     })
@@ -2725,7 +2725,7 @@ export const resultsPage = {
       }
       // Now for the message
       const total_link = document.createElement('a')
-      total_link.href = `#query/lived at ${info.id}`
+      total_link.href = `#query/lived at ${info._id}`
       let output_text = ""
       for (const i in Message.Text.zoo_details_records[language]) {
         const field = Message.Text.zoo_details_records[language][i]

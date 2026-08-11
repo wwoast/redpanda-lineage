@@ -750,8 +750,8 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
     const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
       const bundle = {
+        "_id": animal._id,
         "author": photo.author,
-        "id": animal._id,
         "index": index + 1,   // Natural number index
         "reference": authorLink(photo.author, photo.source),
         "url": photo.url,
@@ -782,8 +782,8 @@ function searchPandaPhotoTagsUnion(animal, tags, mode) {
         return [animal]
       } else {
         const bundle = {
+          "_id": animal._id,
           "author": photo.author,
-          "id": animal._id,
           "index": index + 1,   // Natural number index
           "reference": authorLink(photo.author, photo.source),
           "tags": tags,   // Not the original tags, but the ones searched for
@@ -815,8 +815,8 @@ export function searchPandaZooArrived(idnum, months=6) {
     // If their arrival date was within six months, keep in the list
     let last_location = null
     for (const location of vertex.locations) {
-      if (location.id != compare_id) {
-        last_location = location.id
+      if (location._id != compare_id) {
+        last_location = location._id
         continue   // Ignore location values not at this zoo
       }
       // Compare all zoo node dates with current time.
@@ -845,7 +845,7 @@ export function searchPandaZooArrived(idnum, months=6) {
         }
         return vertex   // Less than N months?
       }
-      last_location = location.id
+      last_location = location._id
     }
   }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
@@ -900,7 +900,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
       // Gets panda locations and finds zoo matches
       for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (location.id == compare_id)
+        if (location._id == compare_id)
           return vertex
       }
       return false
@@ -916,7 +916,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
       let current_range = undefined
       for (const locaiton of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (location.id == compare_id) {
+        if (location._id == compare_id) {
           current_range = [location.date]
         } else if (current_range != undefined) {
           current_range.push(location.date)
@@ -990,9 +990,9 @@ export function searchPandaZooDeparted(idnum, months=6) {
       // ago, return in list.
       let at_zoo_previously = false
       for (const location of vertex.locations) {
-        if (location.id != compare_id && at_zoo_previously == false)
+        if (location._id != compare_id && at_zoo_previously == false)
           continue
-        if (location.id == compare_id) {
+        if (location._id == compare_id) {
           at_zoo_previously = true
           continue
         }
@@ -1007,7 +1007,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(location.id) * -1,
+            "to": parseInt(location._id) * -1,
             "move_date": location.date
           }
           return true
@@ -1017,7 +1017,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(location.id) * -1,
+            "to": parseInt(location._id) * -1,
             "move_date": location.date
           }
           return true   // Less than N months?
@@ -1330,10 +1330,10 @@ export function sortByDate(nodes, field_name, mode="descending") {
  * the set of items based on the animal list.
  */
 export function sortPhotosByName(photo_list, language) {
-  let animals = photo_list.map(photo => searchPandaId(photo.id)[0])
+  let animals = photo_list.map(photo => searchPandaId(photo._id)[0])
   animals = sortByNameWithGroups(animals, photo_list, language)
   const output_list = animals.map(animal =>
-    photo_list.filter(photo => photo.id == animal._id)[0])
+    photo_list.filter(photo => photo._id == animal._id)[0])
   return output_list
 }
 
@@ -1651,7 +1651,7 @@ export function locationList(animal) {
       ? Defaults.animal["birthday"]
       : location.date
     locations.push({
-             "zoo": location.id,
+             "zoo": location._id,
       "start_date": start_date,
         "end_date": end_date,
     })
@@ -1728,8 +1728,8 @@ function locatorToPhoto(locator) {
   // Get the photo for this entity
   const choice = entity.photos[photo_id]
   const desired = {
+       "_id": entity._id,
     "author": choice.author,
-        "id": entity._id,
      "index": choice.index,
  "reference": authorLink(choice.author, choice.link),
       "type": entity_type,
@@ -1862,8 +1862,8 @@ export function profilePhoto(animal, index, mode="animal") {
   }
   // Return not just the chosen photo but the author and link as well
   const desired = {
+    "_id": animal._id,
     "author": choice.author,
-    "id": animal._id,
     "index": index + 1,   // Natural number display index
     "reference": authorLink(choice.author, choice.source),
     "url": choice.url

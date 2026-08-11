@@ -381,8 +381,8 @@ declare global {
    * in a form suitable for consumption by the `Carousel` component or others.
    */
   interface ResultPhoto {
+    _id: string,
     author: string,
-    id: string,
     index: number,
     reference: string,
     url: string
@@ -393,6 +393,8 @@ declare global {
    * Dagobah graph.
    */
   interface ResultPanda {
+    /** The numeric string ID for the `ResultPanda` animal */
+    _id: string,
     /** 
      * String describing the panda's age. Birthdates are not more granular than
      * one day of accuracy, so the calculations track number of days. Prior to
@@ -419,8 +421,6 @@ declare global {
     dad: NodePanda,
     /** Translated string for the animal's gender (or unknown) */
     gender: string,
-    /** The numeric string ID for the `ResultPanda` animal */
-    id: string,
     /** The current display language of this result */
     language: Language,
     /**
@@ -478,6 +478,8 @@ declare global {
    * graph.
    */
   interface ResultZoo {
+    /** The numeric string ID for the `ResultZoo` zoo */
+    _id: string,
     /** The address of this zoo, translated into the current display language. */
     address: string,
     /** The number of animals currently living at this zoo */
@@ -489,8 +491,6 @@ declare global {
     animals: Set<NodePanda>,
     /** The YYYY/MM/DD string for when this zoo closed. TODO: locale */
     closed: string,
-    /** The numeric string ID for the `ResultZoo` zoo */
-    id: string,
     /** The current display language of this result */
     language: Language,
     /**
