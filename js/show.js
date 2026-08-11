@@ -1849,7 +1849,7 @@ export const profilePage = {
     const mom_photos = []
     for (const mom of info.mom) {
       if (mom != undefined) {
-        const mom_photo = photos.filter(x => x._id == mom._id)[0]
+        const mom_photo = photos.filter(x => x.id == mom.id)[0]
         mom_photos.push(mom_photo)
         const mom_entry = Gallery.familyProfilePhoto(
           mom, mom_photo, language, Gui.mother[language],
@@ -1860,7 +1860,7 @@ export const profilePage = {
     const dad_photos = []
     for (const dad of info.dad) {
       if (dad != undefined) {
-        const dad_photo = photos.filter(x => x._id == dad._id)[0]
+        const dad_photo = photos.filter(x => x.id == dad.id)[0]
         dad_photos.push(dad_photo)
         var dad_entry = Gallery.familyProfilePhoto(
           dad, dad_photo, language, Gui.father[language],
@@ -1868,7 +1868,7 @@ export const profilePage = {
         photo_divs.push(dad_entry)
       }
     }
-    const me_photo = photos.filter(x => x._id == info.id)[0]
+    const me_photo = photos.filter(x => x.id == info.id)[0]
     const me = Gallery.familyProfilePhoto(
       animal, me_photo, language, Gui.me[language], "immediateFamily")
     photo_divs.push(me)
@@ -1882,7 +1882,7 @@ export const profilePage = {
         subHeading = Gui.triplet[language]
       if (litter_photos.length >= 3)
         subHeading = Gui.quadruplet[language]
-      const litter_mate = info.litter.filter(x => x._id == litter_photo["id"])[0]
+      const litter_mate = info.litter.filter(x => x.id == litter_photo.id)[0]
       const gallery = Gallery.familyProfilePhoto(
         litter_mate, litter_photo, language, subHeading, "immediateFamily")
       photo_divs.push(gallery)
