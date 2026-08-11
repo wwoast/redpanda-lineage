@@ -660,7 +660,7 @@ function groupPhotoSingle(entityPhoto) {
     Pandas.groupMediaCaption(entityPhoto.entity, entityPhoto.photo)
   caption_names.appendChild(caption_names_span)
   const caption_names_link = document.createElement('a')
-  const panda_route = entity["panda.tags"].join("/")
+  const panda_route = entityPhoto.entity["panda.tags"].join("/")
   caption_names_link.href = `#group/${panda_route}`
   caption_names_link.appendChild(caption_names)
   // Credit for the group photos
