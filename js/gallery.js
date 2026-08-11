@@ -1002,8 +1002,7 @@ function tagPhotoMessage(results, hit_count) {
 /** Take a photo that matches a tag, and display it along with the tag emoji */
 function tagPhotoSingle(photo, language, add_emoji) {
   const content_divs = []
-  const animal = Pandas.searchPandaId(photo._id)[0]
-  const info = Show.acquirePandaInfo(animal, language)
+  const node = Pandas.searchPandaId(photo._id)[0]   // animal or media
   const img_link = document.createElement('a')
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
@@ -1011,22 +1010,23 @@ function tagPhotoSingle(photo, language, add_emoji) {
   const img = document.createElement('img')
   img.setAttribute("loading", "lazy")
   // Set the photo, even if it takes an extra XHR
-  url.process(img, photo)
+  url.process(img, photo.url)
   img_link.appendChild(img)
   const caption_link = document.createElement('a')
   // TODO: better handling of group photos
-  if (animal._id.indexOf("media.") != 0)
+  if (node.type == "media")
     caption_link.href = `#panda/${animal._id}/photo/${photo.index}`
   const caption = document.createElement('h5')
   caption.className = "caption updateTagName"
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
-  if (animal._id.indexOf("media.") == 0) {
+  if (node.type == "media") {
     caption.innerText =
       Pandas.groupMediaCaption(animal, photo.index)
     const panda_route = animal["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
+    const info = Show.acquirePandaInfo(animal, language)
     caption.innerText = info.name
   }
   // Prefix caption with an emoji if we can get one
