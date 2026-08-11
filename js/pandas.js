@@ -894,15 +894,18 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
   const compare_id = idnum * -1
   const lives = G.v(idnum).in("zoo").run()
   const born = G.v(idnum).in("birthplace").run()
-  const was_here = G.v().filter(function(vertex) {
-    // Gets panda locations and finds zoo matches
-    for (const location of vertex.locations) {
-      // Matching zoo values will be positive ids in location fields
-      if (location.id == compare_id)
-        return vertex
-    }
-    return false
-  }).run()
+  const was_here = G.v()
+    .filter(vertex => vertex.type == "zoo")
+    .filter(vertex => {
+      // Gets panda locations and finds zoo matches
+      for (const location of vertex.locations) {
+        // Matching zoo values will be positive ids in location fields
+        if (location.id == compare_id)
+          return vertex
+      }
+      return false
+    })
+    .run()
   let nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
     return self.indexOf(value) === index  // Am I the first value in the array?
   })
@@ -978,7 +981,7 @@ export function searchPandaZooDeparted(idnum, months=6) {
   const compare_id = idnum * -1
   let nodes = G.v().filter(function(vertex) {
     // Departed animals aren't at the desired zoo currently
-    return vertex["zoo"] != idnum
+    return vertex.zoo != idnum
   }).filter(function(vertex) {
     // Gets panda locations. We want the date of the next zoo
     // the animal was based at. If that date is less than 6 months 
