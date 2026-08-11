@@ -419,8 +419,8 @@ function nicknames(animal) {
   const container = document.createElement('ul')
   container.className = "nicknameList"
   for (let language of animal["language.order"]) {
-    const nicknames = animal.nicknames[language]
-    if (nicknames == undefined)
+    const nicknames = animal.nicknames
+    if (!nicknames || nicknames[language] == undefined)
       continue
     const nicknames_list = []
     const nicknames_li = document.createElement('li')
@@ -455,19 +455,19 @@ function othernames(animal, current_language) {
       `${Gui.language[Env.language][language]}: `
     // Animal's name in other languages
     if (language != current_language) {
-      const name = animal.name[language]
-      if (name != undefined)
+      const name = animal.name
+      if (name[language] != undefined)
         othername_list.push(name)
     }
     // Othernames / spellings for this animal
-    const othernames = animal.othernames[language]
-    if (othernames != undefined) {
+    const othernames = animal.othernames
+    if (othernames && othernames[language] != undefined) {
       for (let name of othernames)
         othername_list.push(name)
     }
     // Old names that were previously valid for this animal
-    const oldnames = animal.oldnames[language]
-    if (oldnames != undefined) {
+    const oldnames = animal.oldnames
+    if (oldnames && oldnames[language] != undefined) {
       for (let name of oldnames)
         othername_list.push(name)
     }

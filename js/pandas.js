@@ -1449,14 +1449,12 @@ export function date(animal, field, language) {
  * return either the field if it exists, or some reasonable default.
  */
 export function field(animal, field, mode="animal") {
-  if (animal[field] != undefined)
+  if (animal[field] != undefined && typeof animal[field] === 'string')
     return animal[field]
   else if (Defaults[mode][field] != undefined)
     return Defaults[mode][field]
   else if (field == "photos")
     return [Defaults.photo]
-  else if (field.indexOf("video.") == 0)
-    return Defaults[mode]["video"]
   else
     return undefined
 }
