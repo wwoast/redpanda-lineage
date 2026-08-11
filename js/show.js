@@ -2001,28 +2001,28 @@ export const profilePage = {
     for (const zoo of history.reverse()) {
       let zoo_icon = Emoji.zoo
       // Different date string logic for zoos versus wild animal sightings.
-      let date_string = zoo["start_date"] + "\u2014" + zoo["end_date"]
-      if (!zoo["id"].includes("wild.")) {
-        if (zoo["end_date"] == Defaults.unknown[language]) {
+      let date_string = zoo.start_date + "\u2014" + zoo.end_date
+      if (!zoo._id.includes("wild.")) {
+        if (zoo.end_date == Defaults.unknown[language]) {
           date_string = 
-            Gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"])
+            Gui.since_date[language].replace("<INSERTDATE>", zoo.start_date)
           zoo_icon = Emoji.home
         }
       } else {
         zoo_icon = Emoji.tree
         date_string =
-          Gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"])
+          Gui.seen_date[language].replace("<INSERTDATE>", zoo.start_date)
       }
-      if ((zoo["end_date"] != Defaults.unknown[language]) && 
-          (zoo["end_date"] == Pandas.date(animal, "death", Env.language))) {
+      if ((zoo.end_date != Defaults.unknown[language]) && 
+          (zoo.end_date == Pandas.date(animal, "death", Env.language))) {
         zoo_icon = Emoji.died
       }
-      if ((zoo["start_date"] != Defaults.unknown[language]) &&
-          (zoo["start_date"] == Pandas.formatDate(animal["birthday"], language)) &&
+      if ((zoo.start_date != Defaults.unknown[language]) &&
+          (zoo.start_date == Pandas.formatDate(animal["birthday"], language)) &&
           (zoo_icon != Emoji.home)) {
         zoo_icon = Emoji.born_at
       }
-      const zoo_info = Pandas.searchZooId(zoo["id"])[0]
+      const zoo_info = Pandas.searchZooId(zoo._id)[0]
       const zoo_entry = document.createElement('ul')
       zoo_entry.className = "zooList"
       const zoo_name = document.createElement('li')
@@ -2031,7 +2031,7 @@ export const profilePage = {
       zoo_date.className = "detail"
       zoo_date.innerText = date_string
       zoo_name.appendChild(zoo_link)
-      if (zoo["start_date"] != Defaults.unknown[language])
+      if (zoo.start_date != Defaults.unknown[language])
         zoo_name.appendChild(zoo_date)
       zoo_entry.appendChild(zoo_name)
       const zoo_location = document.createElement('li')
@@ -2629,7 +2629,7 @@ export const resultsPage = {
       "recorded": document.createElement('li')
     }
     // Animals living at this zoo today
-    const at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length
+    const at_zoo = Pandas.searchPandaZooCurrent(info._id).length
     if (at_zoo < 1) {
       let output_text = ""
       for (const i in Message.Text.zoo_details_no_pandas_live_here[language]) {
@@ -2655,7 +2655,7 @@ export const resultsPage = {
     // How many pandas were born at this zoo
     const born_link = document.createElement('a')
     born_link.href = `#query/born at ${info._id}`
-    const born_at_zoo = Pandas.searchPandaZooBornRecords(info["id"], false)
+    const born_at_zoo = Pandas.searchPandaZooBornRecords(info._id, false)
     const born_count = born_at_zoo.length
     if (born_count > 0) {
       const earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0]
@@ -2681,8 +2681,8 @@ export const resultsPage = {
     departed_link.addEventListener("click", function() {
       document.getElementById(departed_link_id).scrollIntoView(true)
     })
-    const departed_zoo = Pandas.searchPandaZooDeparted(info["id"], 9)
-    const died_at_zoo = Pandas.searchPandaZooDied(info["id"], 9)
+    const departed_zoo = Pandas.searchPandaZooDeparted(info._id, 9)
+    const died_at_zoo = Pandas.searchPandaZooDied(info._id, 9)
     const departed_count = departed_zoo.length
     const died_count = died_at_zoo.length
     const total_departed = departed_count + died_count
@@ -2703,13 +2703,13 @@ export const resultsPage = {
       li_items["departed"].appendChild(departed_link)
     }
     // How many pandas total have been recorded here
-    const total_zoo = Pandas.searchPandaZooBornLived(info["id"])
+    const total_zoo = Pandas.searchPandaZooBornLived(info._id)
     const total_count = total_zoo.length
     if (total_count > 0) {
       // Find the first location marker matching the zoo for this animal
       // Get the year from this value.
       let earliest_year = -1
-      const compare_id = info["id"] * -1
+      const compare_id = info._id * -1
       for (const animal of total_zoo) {
         for (const location of animal.locations) {
           const { id, date } = location
