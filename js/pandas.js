@@ -975,58 +975,62 @@ export function searchPandaZooCurrent(idnum) {
 }
 
 /**
- * Find all pandas that left a zoo in the last six months. Use the location tag
+ * Find all pandas that relocated away from a zoo in the last six months. Use
+ * the locations value (animals without one haven't relocated)
  */
 export function searchPandaZooDeparted(idnum, months=6) {
   const compare_id = idnum * -1
-  let nodes = G.v().filter(function(vertex) {
+  let nodes = G.v()
     // Departed animals aren't at the desired zoo currently
-    return vertex.zoo != idnum
-  }).filter(function(vertex) {
-    // Gets panda locations. We want the date of the next zoo
-    // the animal was based at. If that date is less than 6 months 
-    // ago, return in list.
-    let at_zoo_previously = false
-    for (const location of vertex.locations) {
-      if (location.id != compare_id && at_zoo_previously == false)
-        continue
-      if (zoo_id == compare_id) {
-        at_zoo_previously = true
-        continue
-      }
-      // Compare all zoo node dates with current time.
-      const current_time = new Date().getTime()
-      const move_time = new Date(location.date).getTime()
-      const ms_per_month = 1000 * 60 * 60 * 24 * 31
-      const ms_in_period = months * ms_per_month
-      if (ms_in_period == 0) {
-        // Get all departed if months == 0
-        vertex["sort_time"] = location.date
-        // Info about why this animal appeared in results
-        vertex["search_context"] = {
-          "query": "departed",
-          "to": parseInt(zoo_id) * -1,
-          "move_date": location.date
+    .filter(vertex => vertex.locations && vertex.locations.length > 0)
+    .filter(vertex => vertex.zoo != idnum)
+    .filter(vertex => {
+      // Gets panda locations. We want the date of the next zoo
+      // the animal was based at. If that date is less than 6 months 
+      // ago, return in list.
+      let at_zoo_previously = false
+      for (const location of vertex.locations) {
+        if (location.id != compare_id && at_zoo_previously == false)
+          continue
+        if (zoo_id == compare_id) {
+          at_zoo_previously = true
+          continue
         }
-        return vertex
-      }
-      if (current_time - move_time < ms_in_period) {
-        vertex["sort_time"] = move_time
-        // Info about why this animal appeared in results
-        vertex["search_context"] = {
-          "query": "departed",
-          "to": parseInt(zoo_id) * -1,
-          "move_date": location.date
+        // Compare all zoo node dates with current time.
+        const current_time = new Date().getTime()
+        const move_time = new Date(location.date).getTime()
+        const ms_per_month = 1000 * 60 * 60 * 24 * 31
+        const ms_in_period = months * ms_per_month
+        if (ms_in_period == 0) {
+          // Get all departed if months == 0
+          vertex["sort_time"] = location.date
+          // Info about why this animal appeared in results
+          vertex["search_context"] = {
+            "query": "departed",
+            "to": parseInt(zoo_id) * -1,
+            "move_date": location.date
+          }
+          return true
         }
-        return vertex   // Less than N months?
-      } else {
-        // This move didn't happen recently. Start the move
-        // calculations from scratch again, continuing through
-        // the list of animal locations
-        at_zoo_previously = false
+        if (current_time - move_time < ms_in_period) {
+          vertex["sort_time"] = move_time
+          // Info about why this animal appeared in results
+          vertex["search_context"] = {
+            "query": "departed",
+            "to": parseInt(zoo_id) * -1,
+            "move_date": location.date
+          }
+          return true   // Less than N months?
+        } else {
+          // This move didn't happen recently. Start the move
+          // calculations from scratch again, continuing through
+          // the list of animal locations
+          at_zoo_previously = false
+        }
       }
-    }
-  }).run()
+      return false
+    })
+    .run()
   nodes = sortByDate(nodes, "sort_time", "descending")
   // TODO: does this logic work with multiple arrival/returns?
   return nodes
