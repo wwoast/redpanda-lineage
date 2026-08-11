@@ -873,6 +873,17 @@ class Dataset {
         tags: vertex[`${photoKey}.tags`],
         url: vertex[`${photoKey}`]
       }
+      if (vertex.type == "media") {
+        photo.locations = vertex["panda.tags"].map(pandaId => {
+          const field = `${photoKey}.tags.${pandaId}.location`
+          console.log(field)
+          return {
+            _id: pandaId,
+            x: parseInt(vertex[field][0]),
+            y: parseInt(vertex[field][1])
+          }
+        })
+      }
       vertex.photos.push(photo)
     })
     // Once photos[] is written, delete all old photo keys

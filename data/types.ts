@@ -65,6 +65,18 @@ declare global {
      * for the sake of showing the most recent photos on the front page.
      */
     commitdate: string,
+    /** 
+     * For media/group photos, identify with a pixel where in the photo each
+     * animal can be found
+     */
+    locations?: {
+      /** The animal id */
+      _id: string,
+      /** The X-coordinate in the photo pointing to the animal's face / body */
+      x: number,
+      /** The Y-coordinate in the photo pointing to the animal's face / body */
+      y: number
+    }[]
     /**
      * When clicking the author's name in redpandafinder, we attempt to link
      * to the original social media post this photo was sourced from. This can be
@@ -79,18 +91,6 @@ declare global {
      * pointing at a URL that serves a small image thumbnail.
      */
     url: string
-  }
-
-  /** Tags with x-y coordinates of the animal's face, in a group photo */
-  interface MediaPhoto extends Photo {
-    coordinateTag: {
-      /** The animal fixed string id */
-      _id: string,
-      /** The X-coordinate in the photo pointing to the animal's face / body */
-      x: number,
-      /** The Y-coordinate in the photo pointing to the animal's face / body */
-      y: number
-    } 
   }
 
   /** 
