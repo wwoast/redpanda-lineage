@@ -1959,7 +1959,7 @@ export function arrived_from_zoo(zoo, date, language) {
   // Text to go into the Show.zooLink function
   let text = ""
   for (const i in Text.arrived_from_zoo[language]) {
-    const field = Text.arrived_from_zoo[language][i]
+    let field = Text.arrived_from_zoo[language][i]
     if (field == "<INSERTDATE>") {
       field = date
       text = text + field
