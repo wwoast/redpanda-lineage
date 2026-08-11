@@ -1882,7 +1882,7 @@ export const profilePage = {
         subHeading = Gui.triplet[language]
       if (litter_photos.length >= 3)
         subHeading = Gui.quadruplet[language]
-      const litter_mate = info.litter.filter(x => x.id == litter_photo.id)[0]
+      const litter_mate = info.litter.filter(x => x._id == litter_photo.id)[0]
       const gallery = Gallery.familyProfilePhoto(
         litter_mate, litter_photo, language, subHeading, "immediateFamily")
       photo_divs.push(gallery)
