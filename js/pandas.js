@@ -1202,14 +1202,13 @@ export function searchZooName(zoo_name_str) {
     .filter(vertex => vertex.type == "zoo")
     .filter(vertex => {
       // Match the input string against any of the possible zoo name or location fields
-      const matches = []
-      searchFields.forEach(searchField => {
-        languages.forEach(language => {
+      for (const searchField of searchFields) {
+        for (const language of Defaults.languages) {
           const testField = vertex[searchField][language]
           if (testField && testField.includes(zoo_name_str))
             return true
-        })
-      })
+        }
+      }
       return false
     })
     .run()
