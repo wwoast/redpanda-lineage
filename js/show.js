@@ -1849,7 +1849,7 @@ export const profilePage = {
     const mom_photos = []
     for (const mom of info.mom) {
       if (mom != undefined) {
-        const mom_photo = photos.filter(x => x.id == mom.id)[0]
+        const mom_photo = photos.filter(x => x.id == mom._id)[0]
         mom_photos.push(mom_photo)
         const mom_entry = Gallery.familyProfilePhoto(
           mom, mom_photo, language, Gui.mother[language],
@@ -1860,7 +1860,7 @@ export const profilePage = {
     const dad_photos = []
     for (const dad of info.dad) {
       if (dad != undefined) {
-        const dad_photo = photos.filter(x => x.id == dad.id)[0]
+        const dad_photo = photos.filter(x => x.id == dad._id)[0]
         dad_photos.push(dad_photo)
         var dad_entry = Gallery.familyProfilePhoto(
           dad, dad_photo, language, Gui.father[language],
