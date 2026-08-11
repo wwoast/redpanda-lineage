@@ -895,7 +895,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
   const lives = G.v(idnum).in("zoo").run()
   const born = G.v(idnum).in("birthplace").run()
   const was_here = G.v()
-    .filter(vertex => vertex.type == "zoo")
+    .filter(vertex => vertex.locations && vertex.locations.length > 0)
     .filter(vertex => {
       // Gets panda locations and finds zoo matches
       for (const location of vertex.locations) {
