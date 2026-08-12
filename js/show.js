@@ -325,9 +325,10 @@ export function fade(el) {
  * alternate add an alternate spelling to the name information.
  */
 function furigana(name, othernames) {
+  if (!othernames.ja || othernames.ja.length == 0)
+    return false
   if (othernames == Defaults.animal.othernames["ja"])
     return false
-  othernames = othernames   // Guarantee array
   othernames = othernames.filter(function(option) {
     if (Language.editDistance(name, option) > 1) {
       return option
