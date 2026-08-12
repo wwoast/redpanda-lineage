@@ -1007,19 +1007,19 @@ const randomButton = {
     const zooIds =
       P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                    .filter(entity => entity._id < 0)
-                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.photos && entity.photos.length > 0)
                    .map(entity => entity._id)
                    .filter(id => Pandas.searchPandaZooCurrent(id).length > 0)
     const pandaIds =
       P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                    .filter(entity => entity._id > 0)
-                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.photos && entity.photos.length > 0)
                    .filter(entity => entity.death == undefined)
                    .map(entity => entity._id)
     const groupIds =
-      P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+      P.db.vertices.filter(entity => entity.type == "media")
                    .map(entity => entity["panda.tags"])
-                   .filter(function(pandaIds) {
+                   .filter(pandaIds => {
                       // If all animals in a media node are dead, don't present
                       const alive = pandaIds.map(
                         id => Pandas.searchPandaId(id).death != undefined)
