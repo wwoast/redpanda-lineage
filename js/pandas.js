@@ -1720,7 +1720,7 @@ function locatorToPhoto(locator) {
 
 /** Given an animal and a chosen language, return details for a red panda. */
 export function myName(animal, language) {
-  return animal.name[language] == undefined 
+  return (!animal.name || animal.name[language] == undefined)
     ? Defaults.animal.name[language]
     : animal.name[language]
 }
