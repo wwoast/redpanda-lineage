@@ -1,16 +1,11 @@
-FROM python:3-slim AS build
+FROM denoland/deno:2.9.5 AS build
 
 WORKDIR /build
 
 RUN apt-get update && \
     apt-get install git -y
 
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-RUN python ./build.py --publish && \
-    rm .gitignore
+RUN deno task build
 
 FROM nginx:alpine-slim
 COPY --from=build /build/export /usr/share/nginx/html/export
