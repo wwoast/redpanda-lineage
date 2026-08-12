@@ -510,10 +510,10 @@ class Dataset {
           pandas: pandas,
           photos: this.rpf.totals.photos,
           updates: {
-            authors: updates.tallies.author,
+            authors: updates.tallies.authors,
             entities: entityLocators.length,
             pandas: updates.tallies.panda,
-            photos: updates.tallies.photo,
+            photos: updates.tallies.photos,
             zoos: updates.tallies.zoo
           },
           wilds: wilds,
