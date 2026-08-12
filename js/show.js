@@ -1021,13 +1021,14 @@ const randomButton = {
                    .map(entity => entity["panda.tags"])
                    .filter(pandaIds => {
                       // If all animals in a media node are dead, don't present
-                      const alive = pandaIds.map(
+                      const alive = pandaIds.every(
                         id => Pandas.searchPandaId(id).death != undefined)
-                      if (alive.every(id => id === true))
+                      if (alive)
                         return false
                       else
                         return true
                     })
+                    .join(" ")
     const randomChoices = pandaIds.concat(groupIds).concat(zooIds)
     window.location = 
       `#query/${randomChoices[Math.floor(Math.random() * randomChoices.length)]}`
