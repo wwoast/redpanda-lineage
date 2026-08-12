@@ -750,7 +750,7 @@ function searchPandaPhotoTagsIntersect(node, tags) {
     const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
       const bundle = {
-        "_id": animal._id,
+        "_id": node._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
         "location": photo.locations ?? {},
@@ -783,7 +783,7 @@ function searchPandaPhotoTagsUnion(node, tags, mode) {
         return [node]
       } else {
         const bundle = {
-          "_id": animal._id,
+          "_id": node._id,
           "author": photo.author,
           "index": index + 1,   // Natural number index
           "locations": photo.locations ?? {},
