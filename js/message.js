@@ -1936,7 +1936,7 @@ export function arrivals(zoo, born, language) {
   // If any animals were born, this message gets a baby icon suffix
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `arrivals/zoo/${zoo["_id"]}`
+  const linkId = `arrivals/zoo/${zoo._id}`
   link.id = linkId;
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
@@ -1959,7 +1959,7 @@ export function arrived_from_zoo(zoo, date, language) {
   // Text to go into the Show.zooLink function
   let text = ""
   for (const i in Text.arrived_from_zoo[language]) {
-    const field = Text.arrived_from_zoo[language][i]
+    let field = Text.arrived_from_zoo[language][i]
     if (field == "<INSERTDATE>") {
       field = date
       text = text + field
@@ -2136,7 +2136,7 @@ export function departures(zoo, deaths, leaving, language) {
   // If any animals passed away, this message gets a rainbow icon suffix
   const link = document.createElement('a');
   link.href = "javascript:";
-  const linkId = `departures/zoo/${zoo["_id"]}`
+  const linkId = `departures/zoo/${zoo._id}`
   link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
@@ -2330,7 +2330,7 @@ export function new_photos(language) {
     return document.createElement('br')   // No message to display
   }
   // Zoo counts are too much information
-  const section_order = []
+  let section_order = []
   if (counts["pandas"] > 0 && counts["photos"] > 0) {
     section_order = ["pandas", "photos", "suffix"]
   } else if (counts["pandas"] > 0 ) {
@@ -2341,7 +2341,7 @@ export function new_photos(language) {
     section_order = ["photos", "suffix"]
   }
   const lookup = Text.new_photos
-  const pieces = []
+  let pieces = []
   for (const part of section_order) {
     const count = counts[part];
     if (count == 0) {
@@ -2499,7 +2499,7 @@ export function residents(zoo, language) {
   // that didn't recently leave or arrive
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `residents/zoo/${zoo["_id"]}`
+  const linkId = `residents/zoo/${zoo._id}`
   link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
@@ -2562,7 +2562,7 @@ export function tag_combo(num, emojis, language) {
  */
 export function tag_subject(num, name, emoji, tag, language) {
   if (Pandas.checkId(name) == true)
-    name = Pandas.searchPandaId(name)[0][`${language}.name`]
+    name = Pandas.searchPandaId(name)[0].name[language]
   if (name != undefined)
     name = Language.capitalNames(name)
   // For translating a tag between languages, we need the first value in
@@ -2599,7 +2599,7 @@ export function tag_subject(num, name, emoji, tag, language) {
       if (num == 1) {
         field = Language.unpluralize([field])
       }
-      const msg = document.createTextNode(field)
+      let msg = document.createTextNode(field)
       if ((language == "ja") && (i == 1) && (name == undefined)) {
         msg = document.createTextNode("枚")
       }

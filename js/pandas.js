@@ -36,8 +36,6 @@ export function init() {
   request.send()
   request.onload = function() {
     P.db = request.response   // Set the panda database for importing
-    // P.db.vertices.forEach(G.addVertex.bind(G))
-    // P.db.edges.forEach(G.addEdge.bind(G))
     G = Dagoba.graph(P.db.vertices, P.db.edges)
     window.dispatchEvent(loaded)   // Report the data has loaded
   }
@@ -134,51 +132,6 @@ export function* linkGeneratorEntity(entity, index=0) {
     if (entity["link." + index] == undefined)
       return
     yield "link." + index
-  }
-}
-
-/**
- * Generates a valid index to a location for a panda entity, up to the point
- * that said entity doesn't have a defined historical location in its data.
- */
-export function* locationGeneratorEntity(entity, index=0) {
-  if (entity == undefined)
-    return
-  while (index < index + 1) {
-    index++
-    if (entity["location." + index] == undefined)
-      return
-    yield "location." + index
-  }
-}
-
-/** 
- * Generates a valid index to a photo for a panda entity, up to the point that
- * said entity doesn't have a defined photo in its data.
- */
-export function* photoGeneratorEntity(entity, index=0) {
-  if (entity == undefined)
-    return
-  while (index < index + 1) {
-    index++
-    if (entity["photo." + index] == undefined)
-      return
-    yield "photo." + index
-  }
-}
-
-/** 
- * Generates a valid index to a photo for a panda entity, up to the max index.
- */
-function* photoGeneratorMax() {
-  let index = 0
-  const max = P.db["_photo"]["entity_max"]
-  while (index < index + 1) {
-    index++
-    if (index > max) {
-      return
-    }
-    yield "photo." + index
   }
 }
 
@@ -350,15 +303,15 @@ export function values(input) {
 /** Shorthand for getting all the animals */
 export function allAnimals() {
   const animals = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0
+    return vertex._id > 0
   }).run()
   return animals
 }
 
 export function allAnimalsAndMedia() {
   const vertices = G.v().filter(function(vertex) {
-    return ((vertex["_id"] > 0) || 
-            (vertex["_id"].indexOf("media") != -1))
+    return ((vertex._id > 0) || 
+            (vertex._id.indexOf("media") == 0))
   }).run()
   return vertices
 }
@@ -390,7 +343,7 @@ export function searchBirthdayList(input_date) {
     input_ymd["year"] = input_ymd["year"] + 2000
   }
   const nodes = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0;   // Just animals
+    return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
     const birthday = new Date(vertex.birthday)
     const birthday_ymd = date_to_ymd(birthday)
@@ -409,9 +362,9 @@ export function searchBirthdayList(input_date) {
 export function searchBirthdayToday(keep_living=true, photo_count=20) {
   const today = new Date()
   const nodes = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0;   // Just animals
+    return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
-    var birthday = new Date(vertex.birthday)
+    const birthday = new Date(vertex.birthday)
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()))
   }).filter(function(vertex) {
@@ -421,9 +374,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
       return true   // Get everyone
     }
   }).filter(function(vertex) {
-    if (photo_count > 0) {
-      return vertex["photo." + photo_count] != undefined
-    }
+    return vertex.photos.length >= photo_count
   }).run()
   return sortOldestToYoungest(nodes)
 }
@@ -435,15 +386,13 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
 function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
   const today = new Date()
   const litter_ids = G.v().filter(function(vertex) {
-    return vertex["_id"] > 0;   // Just animals
+    return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
     const birthday = new Date(vertex.birthday)
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()))
   }).filter(function(vertex) {
-    if (photo_count > 0) {
-      return vertex["photo." + photo_count] != undefined
-    }
+    return vertex.photos.length >= photo_count
   }).in("litter").filter(function(vertex) {
     // Litter mates for this search must have the exact same
     // birthday as today. Sometimes they're born a day apart
@@ -597,7 +546,7 @@ export function searchLitter(idnum) {
 /** Find all links stored in a single panda database `[links]` file */
 export function searchLinks(idstr) {
   const nodes = G.v().filter(function(vertex) {
-    return (vertex["_id"] == "links." + idstr)
+    return (vertex._id == "links." + idstr)
   }).run()
   // Instead of returning the nodes, return a dictionary 
   // corresponding to all the links in that file.
@@ -614,7 +563,7 @@ export function searchNonLitterSiblings(idnum) {
         const their_date = new Date(vertex.birthday)
         const timeDiff = Math.abs(my_date.getTime() - their_date.getTime())
         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24))
-        if ( diffDays > 2 )
+        if (diffDays > 2)
           return true
         else
           return false
@@ -624,7 +573,7 @@ export function searchNonLitterSiblings(idnum) {
 
 /** 
  * Replaced `searchOldnames` and `searchOthernames` with a more generic
- * function that can eventually support hiragana/katakana swapping.
+ * function that also supports hiragana/katakana swapping.
  */
 function searchPandaNameFields(input, name_fields=undefined) {
   const inputs = []
@@ -644,26 +593,25 @@ function searchPandaNameFields(input, name_fields=undefined) {
     // Add "nicknames" if you want to search for that too.
     name_fields = ["name", "oldnames", "othernames"]
   }
-  const nodes = G.v().filter(function(animal) {
-    const languages = Defaults.languages
-    // Valid per-language name fields
-    let collected_fields = []
-    for (const name_field of name_fields) {
-      collected_fields = collected_fields.concat(
-        languages.map(l => `${l}.${name_field}`)
-      )
-    }
-    for (const field of collected_fields) {
-      if (animal[field] != undefined) {
-        const name_list = animal[field].split(", ")
-        for (let wanted of inputs) {
-          if (name_list.includes(wanted)) {
-            return animal
+  const nodes = G.v()
+    .filter(vertex => vertex.type == "panda")
+    .filter(function(animal) {
+      const languages = Defaults.languages
+      for (const field of name_fields) {
+        for (const language of Defaults.languages) {
+          if (animal[field] && animal[field][language]) {
+            const nameOrList = animal[field][language]
+            const name_list = (typeof nameOrList === "string")
+              ? [nameOrList] : nameOrList
+            for (let wanted of inputs) {
+              if (name_list.includes(wanted)) {
+                return animal
+              }
+            }
           }
         }
       }
-    }
-  }).run()
+    }).run()
   return nodes
 }
 
@@ -677,19 +625,19 @@ export function searchPanda(input_string) {
 
 /** Find any panda entry with photos */
 export function searchPandaAnyPhoto() {
-  const nodes = G.v().filter(function(vertex) {
-    return ((vertex["photo.1"] != undefined) && 
-            (vertex["gender"] != undefined))
-  }).run()
+  const nodes = G.v()
+    .filter(vertex => vertex.type == "panda")
+    .filter(vertex => vertex.photos.length > 0)
+    .run()
   return nodes
 }
 
 /** Find any panda or media entry with photos */
 export function searchPandaAnyPhotoMedia() {
-  const nodes = G.v().filter(function(vertex) {
-    return ((vertex["photo.1"] != undefined) && 
-            (vertex["website"] == undefined))
-  }).run()
+  const nodes = G.v()
+    .filter(vertex => ["media", "panda"].includes(vertex.type))
+    .filter(vertex => vertex.photos.length > 0)
+    .run()
   return nodes
 }
 
@@ -727,7 +675,7 @@ export function searchPandaMedia(query, only_media=false) {
       // searchPanda list.
       const nodes = G.v().filter(function(vertex) {
         if (Object.keys(vertex).includes("panda.tags")) {
-          return vertex["panda.tags"].split(", ").includes(id)
+          return vertex["panda.tags"].includes(id)
         }
       }).run()
       return nodes
@@ -749,8 +697,7 @@ export function searchPandaMediaIntersect(id_list) {
   // searchPanda list.
   const nodes = G.v().filter(function(vertex) {
     if (Object.keys(vertex).includes("panda.tags")) {
-      const panda_tags = vertex["panda.tags"].split(", ")
-      return arrayContentsEqual(id_list, panda_tags)
+      return arrayContentsEqual(id_list, vertex["panda.tags"])
     }
   }).run()
   return nodes
@@ -777,29 +724,25 @@ export function searchPandaName(name) {
  * Given a panda, search for photos searched with ALL of a list of tags. Returns
  * photo info only.
  */
-function searchPandaPhotoTagsIntersect(animal, tags) {
-  const photo_fields = photoGeneratorMax
+function searchPandaPhotoTagsIntersect(node, tags) {
   const output = []
-  for (const field_name of photo_fields()) {
-    if (animal[field_name] == undefined)
-      break
-    const photo_author = `${field_name}.author`
-    const photo_link = `${field_name}.link`
-    const photo_tags = `${field_name}.tags`
-    const photo_index = field_name.split(".")[1]
-    if (animal[photo_tags] == undefined)
+  if (tags.length == 0)
+    return output
+  for (const [index, photo] of node.photos.entries()) {
+    if (photo.tags == undefined)
       continue
-    const photo_tag_list = animal[photo_tags].split(", ")
-    // Is the search tag list a subset of the photo_tag_list
-    const contains = !(tags.some(val => !photo_tag_list.includes(val)))
+    // All search tags must be in the photo tags list
+    const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
       const bundle = {
-        "id": animal["_id"],
-        "photo": animal[field_name],
-        "photo.author": animal[photo_author],
-        "photo.index": photo_index,
-        "photo.link": authorLink(animal[photo_author], animal[photo_link]),
-        "photo.tags": tags   // Not the original tags, but the ones searched for
+        "_id": node._id,
+        "author": photo.author,
+        "index": index + 1,   // Natural number index
+        "locations": photo.locations ?? {},
+        "reference": authorLink(photo.author, photo.source),
+        "tags": tags,   // Not the original tags, but the ones searched for
+        "type": node.type,
+        "url": photo.url,
       }
       output.push(bundle)
     }
@@ -812,55 +755,36 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
  * return photo info only, or the entire animal.
  * TODO: usable for zoo entities too, fix
  */
-function searchPandaPhotoTagsUnion(animal, tags, mode) {
-  const photo_fields = photoGeneratorMax
+function searchPandaPhotoTagsUnion(node, tags, mode) {
   const output = []
-  // Gets panda photos
-  for (const field_name of photo_fields()) {
-    if (animal[field_name] == undefined)
-      break
-    for (const tag of tags) {
-      const photo_author = `${field_name}.author`
-      const photo_link = `${field_name}.link`
-      const photo_tags = `${field_name}.tags`
-      const photo_index = field_name.split(".")[1]
-      if (animal[photo_tags] == undefined)
-        continue
-      if (animal[photo_tags].split(", ").includes(tag)) {
-        if (mode == "animal") {
-          return [animal]
-        } else {
-          const bundle = {
-            "id": animal["_id"],
-            "photo": animal[field_name],
-            "photo.author": animal[photo_author],
-            "photo.index": photo_index,
-            "photo.link": authorLink(animal[photo_author], animal[photo_link]),
-            "photo.tags": tags   // Not the original tags, but the ones searched for
-          }
-          output.push(bundle)
-          if (mode == "singleton") {
-            // Only want the first photo of each tag found
-            return output
-          }
+  if (tags.length == 0)
+    return output
+  for (const [index, photo] of node.photos.entries()) {
+    if (photo.tags == undefined)
+      continue
+    // Any tag can match
+    const contains = tags.some(tag => photo.tags.includes(tag))
+    if (contains) {
+      if (mode == "animal") {
+        return [node]
+      } else {
+        const bundle = {
+          "_id": node._id,
+          "author": photo.author,
+          "index": index + 1,   // Natural number index
+          "locations": photo.locations ?? {},
+          "reference": authorLink(photo.author, photo.source),
+          "tags": tags,   // Not the original tags, but the ones searched for
+          "type": node.type,
+          "url": photo.url
         }
-      }  
-    }
-  }
-  // If no photos exist, we need default information to feed the photo
-  // generators. Make sure the empty bundle still tracks the valid panda id.
-  if (output.length == 0) {
-    if (mode != "animal") {
-      const empty_bundle = {
-        "id": animal["_id"],
-        "photo": Defaults.animal["photo.1"],
-        "photo.author": Defaults.unknown[Env.language],
-        "photo.index": Defaults.animal["_id"],
-        "photo.link": Defaults.unknown[Env.language],
-        "photo.tags": Defaults.unknown[Env.language]
+        output.push(bundle)
+        if (mode == "singleton") {
+          // Only want the first photo of each tag found
+          return output
+        }
       }
-      output.push(empty_bundle)
-    }
+    }  
   }
   return output
 }
@@ -878,18 +802,15 @@ export function searchPandaZooArrived(idnum, months=6) {
     return vertex.death == undefined   // Gotta be alive
   }).filter(function(vertex) {
     // If their arrival date was within six months, keep in the list
-    const location_fields = locationGeneratorEntity
     let last_location = null
-    for (let field_name of location_fields(vertex)) {
-      const location = field(vertex, field_name)
-      const [zoo_id, move_date] = location.split(", ")
-      if (zoo_id != compare_id) {
-        last_location = zoo_id
+    for (const location of vertex.locations) {
+      if (location._id != compare_id) {
+        last_location = location._id
         continue   // Ignore location values not at this zoo
       }
       // Compare all zoo node dates with current time.
-      const current_time = new Date()
-      const move_time = new Date(move_date)
+      const current_time = new Date().getTime()
+      const move_time = new Date(location.date).getTime()
       const ms_per_month = 1000 * 60 * 60 * 24 * 31
       const ms_in_period = months * ms_per_month
       if (ms_in_period == 0) {
@@ -899,7 +820,7 @@ export function searchPandaZooArrived(idnum, months=6) {
         vertex["search_context"] = {
           "query": "arrived",
           "from": parseInt(last_location) * -1,
-          "move_date": move_date
+          "move_date": location.date
         }
         return vertex
       }
@@ -909,11 +830,11 @@ export function searchPandaZooArrived(idnum, months=6) {
         vertex["search_context"] = {
           "query": "arrived",
           "from": parseInt(last_location) * -1,
-          "move_date": move_date
+          "move_date": location.date
         }
         return vertex   // Less than N months?
       }
-      last_location = zoo_id
+      last_location = location._id
     }
   }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
@@ -962,35 +883,32 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
   const compare_id = idnum * -1
   const lives = G.v(idnum).in("zoo").run()
   const born = G.v(idnum).in("birthplace").run()
-  const was_here = G.v().filter(function(vertex) {
-    // Gets panda locations and finds zoo matches
-    const location_fields = locationGeneratorEntity
-    for (const field_name of location_fields(vertex)) {
-      const location = field(vertex, field_name)
-      const zoo_id = location.split(", ")[0]
-      // Matching zoo values will be positive ids in location fields
-      if (zoo_id == compare_id)
-        return vertex
-    }
-    return false
-  }).run()
+  const was_here = G.v()
+    .filter(vertex => vertex.locations && vertex.locations.length > 0)
+    .filter(vertex => {
+      // Gets panda locations and finds zoo matches
+      for (const location of vertex.locations) {
+        // Matching zoo values will be positive ids in location fields
+        if (location._id == compare_id)
+          return vertex
+      }
+      return false
+    })
+    .run()
   let nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
     return self.indexOf(value) === index  // Am I the first value in the array?
   })
   if (search_context == true) {
     // Inject valid date ranges for this animal at the given zoo
     nodes = nodes.filter(function(vertex) {
-      const location_fields = locationGeneratorEntity
       const date_ranges = []
       let current_range = undefined
-      for (const field_name of location_fields(vertex)) {
-        const location = field(vertex, field_name)
-        const [zoo_id, date] = location.split(", ")
+      for (const locaiton of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (zoo_id == compare_id) {
-          current_range = [date]
+        if (location._id == compare_id) {
+          current_range = [location.date]
         } else if (current_range != undefined) {
-          current_range.push(date)
+          current_range.push(location.date)
           date_ranges.push(current_range)
           current_range = undefined
         }
@@ -1000,9 +918,9 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
         date_ranges.push(current_range)
       // Sort by first arrival time in the list
       if (date_ranges.length == 0) {
-        vertex["sort_time"] = new Date(vertex.birthday)
+        vertex["sort_time"] = vertex.birthday
       } else {
-        vertex["sort_time"] = new Date(date_ranges[0][0])
+        vertex["sort_time"] = date_ranges[0][0]
       }
       vertex["search_context"] = {
         "query": "born_or_lived",
@@ -1046,65 +964,62 @@ export function searchPandaZooCurrent(idnum) {
 }
 
 /**
- * Find all pandas that left a zoo in the last six months. Use the location tag
+ * Find all pandas that relocated away from a zoo in the last six months. Use
+ * the locations value (animals without one haven't relocated)
  */
 export function searchPandaZooDeparted(idnum, months=6) {
   const compare_id = idnum * -1
-  let nodes = G.v().filter(function(vertex) {
+  let nodes = G.v()
     // Departed animals aren't at the desired zoo currently
-    return vertex["zoo"] != idnum
-  }).filter(function(vertex) {
-    // Gets panda locations. We want the date of the next zoo
-    // the animal was based at. If that date is less than 6 months 
-    // ago, return in list.
-    let at_zoo_previously = false
-    let zoo_post_move = ''
-    const location_fields = locationGeneratorEntity
-    for (const field_name of location_fields(vertex)) {
-      const location = field(vertex, field_name)
-      const [zoo_id, move_date] = location.split(", ")
-      if (zoo_id != compare_id && at_zoo_previously == false)
-        continue
-      if (zoo_id == compare_id) {
-        at_zoo_previously = true
-        continue
-      } else {
-        zoo_post_move = move_date
-      }
-      // Compare all zoo node dates with current time.
-      const current_time = new Date()
-      const move_time = new Date(zoo_post_move)
-      const ms_per_month = 1000 * 60 * 60 * 24 * 31
-      const ms_in_period = months * ms_per_month
-      if (ms_in_period == 0) {
-        // Get all departed if months == 0
-        vertex["sort_time"] = move_time
-        // Info about why this animal appeared in results
-        vertex["search_context"] = {
-          "query": "departed",
-          "to": parseInt(zoo_id) * -1,
-          "move_date": move_date
+    .filter(vertex => vertex.locations && vertex.locations.length > 0)
+    .filter(vertex => vertex.zoo != idnum)
+    .filter(vertex => {
+      // Gets panda locations. We want the date of the next zoo
+      // the animal was based at. If that date is less than 6 months 
+      // ago, return in list.
+      let at_zoo_previously = false
+      for (const location of vertex.locations) {
+        if (location._id != compare_id && at_zoo_previously == false)
+          continue
+        if (location._id == compare_id) {
+          at_zoo_previously = true
+          continue
         }
-        return vertex
-      }
-      if (current_time - move_time < ms_in_period) {
-        vertex["sort_time"] = move_time
-        // Info about why this animal appeared in results
-        vertex["search_context"] = {
-          "query": "departed",
-          "to": parseInt(zoo_id) * -1,
-          "move_date": move_date
+        // Compare all zoo node dates with current time.
+        const current_time = new Date().getTime()
+        const move_time = new Date(location.date).getTime()
+        const ms_per_month = 1000 * 60 * 60 * 24 * 31
+        const ms_in_period = months * ms_per_month
+        if (ms_in_period == 0) {
+          // Get all departed if months == 0
+          vertex["sort_time"] = location.date
+          // Info about why this animal appeared in results
+          vertex["search_context"] = {
+            "query": "departed",
+            "to": parseInt(location._id) * -1,
+            "move_date": location.date
+          }
+          return true
         }
-        return vertex   // Less than N months?
-      } else {
-        // This move didn't happen recently. Start the move
-        // calculations from scratch again, continuing through
-        // the list of animal locations
-        at_zoo_previously = false
-        zoo_post_move = ''
+        if (current_time - move_time < ms_in_period) {
+          vertex["sort_time"] = move_time
+          // Info about why this animal appeared in results
+          vertex["search_context"] = {
+            "query": "departed",
+            "to": parseInt(location._id) * -1,
+            "move_date": location.date
+          }
+          return true   // Less than N months?
+        } else {
+          // This move didn't happen recently. Start the move
+          // calculations from scratch again, continuing through
+          // the list of animal locations
+          at_zoo_previously = false
+        }
       }
-    }
-  }).run()
+      return false
+    })
+    .run()
   nodes = sortByDate(nodes, "sort_time", "descending")
   // TODO: does this logic work with multiple arrival/returns?
   return nodes
@@ -1117,13 +1032,13 @@ export function searchPandaZooDied(idnum, months=6) {
     return vertex.death != undefined   // Gotta be dead
   }).filter(function(vertex) {
     // Compare all panda anniversary dates with current time.
-    const current_time = new Date()
-    const anniversary = new Date(vertex["death"])
+    const current_time = new Date().getTime()
+    const anniversary = new Date(vertex["death"]).getTime()
     const ms_per_month = 1000 * 60 * 60 * 24 * 31
     const ms_in_period = months * ms_per_month
     if (ms_in_period == 0) {
       // Get all died if months == 0
-      vertex["sort_time"] = anniversary
+      vertex["sort_time"] = vertex["death"]
       // Info about why this animal appeared in results
       vertex["search_context"] = {
         "query": "died"
@@ -1131,7 +1046,7 @@ export function searchPandaZooDied(idnum, months=6) {
       return vertex
     }
     if (current_time - anniversary < ms_in_period) {
-      vertex["sort_time"] = anniversary
+      vertex["sort_time"] = vertex["death"]
       // Info about why this animal appeared in results
       vertex["search_context"] = {
         "query": "died"
@@ -1150,26 +1065,19 @@ export function searchPandaZooDied(idnum, months=6) {
  * of panda ids.
  */
 export function searchPhotoCredit(author, filter_ids=[]) {
-  const photo_fields = photoGeneratorMax
-  let nodes = []
-  for (const field_name of photo_fields()) {
-    const query = {}
-    query[`${field_name}.author`] = author
-    const search = G.v(query).run()
-    if (search != [])
-      nodes = nodes.concat(search)
-  }
-  return nodes.filter(function(value, index, self) {
-    // Return any unique nodes that matched one of these searches
-    return self.indexOf(value) === index
-  }).filter(function(value, index, self) {
-    // Filter by desired panda ids
-    if (filter_ids.length == 0) {
-      return true
-    } else {
-      return filter_ids.includes(value["_id"])
-    }
-  })
+  const photoTypes = ["media", "panda", "wild", "zoo"]
+  const nodes = G.v()
+    .filter(vertex => photoTypes.includes(vertex.type))
+    .filter(vertex => vertex.photos.length > 0)
+    .filter(vertex => vertex.photos.some(photo => photo.author == author))
+    .filter(vertex => {
+      if (filter_ids.length == 0)
+        return true
+      else
+        return filter_ids.includes(vertex._id)
+    })
+    .run()
+  return nodes
 }
 
 /** Find profile photos for all animals listed */
@@ -1230,19 +1138,18 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
     if (fallback == "first") {
       // Fallback to profile photo if possible
       if ((set.length == 1) && 
-          (Object.values(Defaults.unknown).includes(set[0]["photo.author"]))) {
+          (Object.values(Defaults.unknown).includes(set[0].author))) {
         set = [profilePhoto(animal, "1")]
       }
       // If no profile photo either, return empty set
       if ((set.length == 1) &&
-          (Object.values(Defaults.unknown).includes(set[0]["photo.author"]))) {
+          (Object.values(Defaults.unknown).includes(set[0].author))) {
         set = []
       }
     }
     output = output.concat(set)
   }
-  // Filter out any cases where photo results with no matches were returned
-  return output.filter(x => x["photo.index"] != "0")
+  return output
 }
 
 /** 
@@ -1280,29 +1187,21 @@ export function searchZooName(zoo_name_str) {
   }
   // Get the matches against any of the valid zoo strings we care about
   const languages = Defaults.languages
-  const fields = ["location", "name"]
-  const wants = []
-  // Convolve the desired fields with the possible language options
-  languages.forEach(lang => 
-    fields.forEach(field => 
-      wants.push(`${lang}.${field}`)))
-  const location_nodes = G.v().filter(function(vertex) {
-    // Start with just the zoo ID nodes
-    if (vertex["_id"] > 0)
-      return false
-    // Match the input string against any of the possible zoo name or location fields
-    const matches = []
-    wants.forEach(function(want) {
-      if (vertex[want] != undefined) {  // Node doesn't exist? We don't care
-        if (vertex[want].includes(zoo_name_str)) {
-          matches.push(vertex)
+  const searchFields = ["location", "name"]
+  const location_nodes = G.v()
+    .filter(vertex => vertex.type == "zoo")
+    .filter(vertex => {
+      // Match the input string against any of the possible zoo name or location fields
+      for (const searchField of searchFields) {
+        for (const language of Defaults.languages) {
+          const testField = vertex[searchField][language]
+          if (testField && testField.includes(zoo_name_str))
+            return true
         }
       }
+      return false
     })
-    return (matches.length > 0)
-  }).run()
-  // TODO: Have a counting heuristic. Zoos in both sets that match
-  // should be returned. For now just try returning the nodes we have.
+    .run()
   return location_nodes
 }
 
@@ -1326,48 +1225,40 @@ function sortByNameJapanese(nodes) {
       return Language.katakanaToHiragana(name)
     }
   }
-  function build_name_list(node, name_field, othername_field) {
+  function build_name_list(node) {
     let name_list = []
-    if (name_field in node) {
-      name_list = name_list.concat(node[name_field])
-    }
-    if (othername_field in node) {
-      name_list = name_list.concat(node[othername_field].split(", "))
-    }
+    if (node.name['ja'])
+      name_list = name_list.concat(node.name['ja'])
+    if (node.othernames['ja'])
+      name_list = name_list.concat(node.othernames['ja'])
     return name_list
   }
-  const name_field = "ja.name"
-  const othername_field = "ja.othernames"
-  const sort_name = "ja.sortname"
-  let connector = Text["and"][Env.language]
+  const connector = Text["and"][Env.language]
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
-    if (node["_id"].indexOf("media.") == 0) {
-      const panda_ids = node["panda.tags"].split(", ")
-      const animals = panda_ids.map(function(id) {
-        const panda = searchPandaId(id)[0]
-        return panda
-      })
+    if (node._id.indexOf("media.") == 0) {
+      const panda_ids = node["panda.tags"]
+      const animals = panda_ids.map(id => searchPandaId(id)[0])
       // Sort only by the first name in the photo
-      const first_group_name = node[name_field].split(connector)[0]
+      const first_group_name = node.name['ja'].split(connector)[0]
       const animal = animals.filter(
-        animal => animal[name_field] == first_group_name)[0]
-      const name_list = build_name_list(animal, name_field, othername_field)
-      node[sort_name] = name_list
+        animal => animal.name.ja == first_group_name)[0]
+      const name_list = build_name_list(animal)
+      node.sortname = name_list
         .map(name => hiragana_generate(name))
         .filter(name => name != undefined)[0]
     } else {
       // Sort by the first hiragana name, from the "othernames"
       // list if necessary. Find the first hiragana or katakana string.
-      const name_list = build_name_list(node, name_field, othername_field)
+      const name_list = build_name_list(node)
       node[sort_name] = name_list
         .map(name => hiragana_generate(name))
         .filter(name => name != undefined)[0]
     }
     return node
   })
-  return sortByName(nodes, sort_name)
+  return sortByName(nodes, "sortname")
 }
 
 /** 
@@ -1391,21 +1282,20 @@ function sortByName(nodes, name_field) {
  * specific photos you're pulling out of the group file, because the group
  * name is based on the arrangement of pandas in the photo.
  */
-function sortByNameWithGroups(nodes, photo_list, name_field) {
+function sortByNameWithGroups(nodes, photo_list, language) {
   nodes = nodes.map(function(node) {
-    if (node["_id"].indexOf("media.") == 0) {
+    if (node.type == "media") {
       // Media file. Get the group caption based on your desired photo in the list
       desired_index = photo_list.filter(photo => 
-        photo.photo == node["photo." + photo.index])[0].index
-      node[name_field] = groupMediaCaption(node, "photo." + desired_index)
+        photo == node.photos[photo.index])[0].index
+      node.name[language] = groupMediaCaption(node, desired_index)
     }
     return node
   })
-  if (Env.language == "ja") {
+  if (Env.language == "ja")
     return sortByNameJapanese(nodes)
-  } else {
-    return sortByName(nodes, name_field)
-  }
+  else
+    return sortByName(nodes, "name")
 }
 
 export function sortByDate(nodes, field_name, mode="descending") {
@@ -1422,11 +1312,11 @@ export function sortByDate(nodes, field_name, mode="descending") {
  * photo lists don't have names. So rebuild the animals list and then arrange
  * the set of items based on the animal list.
  */
-export function sortPhotosByName(photo_list, name_field) {
-  let animals = photo_list.map(photo => searchPandaId(photo.id)[0])
-  animals = sortByNameWithGroups(animals, photo_list, name_field)
+export function sortPhotosByName(photo_list, language) {
+  let animals = photo_list.map(photo => searchPandaId(photo._id)[0])
+  animals = sortByNameWithGroups(animals, photo_list, language)
   const output_list = animals.map(animal =>
-    photo_list.filter(photo => photo.id == animal["_id"])[0])
+    photo_list.filter(photo => photo._id == animal._id)[0])
   return output_list
 }
 
@@ -1542,14 +1432,12 @@ export function date(animal, field, language) {
  * return either the field if it exists, or some reasonable default.
  */
 export function field(animal, field, mode="animal") {
-  if (animal[field] != undefined)
+  if (animal[field] != undefined && typeof animal[field] === 'string')
     return animal[field]
   else if (Defaults[mode][field] != undefined)
     return Defaults[mode][field]
-  else if (field.indexOf("photo.") == 0)
-    return Defaults[mode]["photo.1"]
-  else if (field.indexOf("video.") == 0)
-    return Defaults[mode]["video.1"]
+  else if (field == "photos")
+    return [Defaults.photo]
   else
     return undefined
 }
@@ -1606,17 +1494,16 @@ export function gender(animal, language) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity, photo_index) {
-  const tag_index = `${photo_index}.tags`
-  const pandaTags = entity["panda.tags"].split(", ")
-  let output_string = Defaults.animal[`${Env.language}.name`]
+export function groupMediaCaption(entity, photo) {
+  const pandaTags = entity["panda.tags"]
+  let output_string = Defaults.animal.name[Env.language]
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
     const panda = searchPandaId(id)[0]
-    const [x, y] = entity[tag_index + "." + id + ".location"].split(", ")
+    const [x, y] = photo.locations[id]
     const name = Language.fallback_name(panda)
-    var info = {
+    const info = {
       "name": name,
       "x": parseInt(x),
       "y": parseInt(y)
@@ -1660,12 +1547,12 @@ export function groupMediaCaption(entity, photo_index) {
 export function halfSiblings(animal, sibling) {
   // Indeterminate mom/dad check means your half sibling calculations
   // are impossible. You just can't know for sure.
-  if (indeterminateSiblings(animal["_id"], sibling["_id"]) == true)
+  if (indeterminateSiblings(animal._id, sibling._id) == true)
     return false
-  const animal_mom = searchPandaMom(animal["_id"])[0]
-  const animal_dad = searchPandaDad(animal["_id"])[0]
-  const sibling_mom = searchPandaMom(sibling["_id"])[0]
-  const sibling_dad = searchPandaDad(sibling["_id"])[0]
+  const animal_mom = searchPandaMom(animal._id)[0]
+  const animal_dad = searchPandaDad(animal._id)[0]
+  const sibling_mom = searchPandaMom(sibling._id)[0]
+  const sibling_dad = searchPandaDad(sibling._id)[0]
   // If the sibling is older than one of your parents, they must be a half
   // sibling. If one of the parents is missing, do this as a heuristic to
   // determine whether someone is a half-sibling or not.
@@ -1721,45 +1608,35 @@ export function indeterminateSiblings(animal_id, sibling_id) {
   return false
 }
 
-/** Return the language order as an array */
+/** Return the array of languages prioritized for the given entity */
 export function language_order(entity) {
   const ordering = entity["language.order"]
-  if (ordering == undefined) {
+  if (ordering == undefined || ordering.length == 0) {
     return Fallback.order
   } else {
-    return ordering.split(", ")
+    return ordering
   }
 }
 
 /** Returns a list of locations valid for a zoo animal */
 export function locationList(animal) {
   const locations = []
-  const location_fields = locationManifest(animal)
   // Return not just the chosen photo but the author and link as well
-  for (const location_field in location_fields) {
-    const [field_name, index] = location_field.split(".")
-    const next_field = `${field_name}.${(parseInt(index) + 1)}`
-    let end_date = undefined
-    if (animal[next_field] != undefined) {
-      const [_, next_start] = animal[next_field].split(", ")
-      end_date = next_start
-    } else {
-      if (animal["death"] != undefined) {
-        end_date = animal["death"]
-      }
-    }
-    let [zoo_index, start_date] = animal[location_field].split(", ")
-    // If there was a wild animal, fill in defaults for the dates
-    if (zoo_index == 0) {
-      start_date = Defaults.animal["birthday"]
-      end_date = Defaults.animal["birthday"]
-    }
-    const location = {
-          "zoo": zoo_index,
-   "start_date": start_date,
-     "end_date": end_date,
-    }
-    locations.push(location)
+  for (const [index, location] of animal.locations.entries()) {
+    const nextLocation = animal.locations[index + 1]
+    const end_date = (nextLocation == undefined)
+      ? animal["death"] ?? undefined
+      : (location.zoo == 0)
+        ? Defaults.animal["birthday"]
+        : nextLocation.date
+    const start_date = (location.zoo == 0)
+      ? Defaults.animal["birthday"]
+      : location.date
+    locations.push({
+             "zoo": location._id,
+      "start_date": start_date,
+        "end_date": end_date,
+    })
   }
   // If there were no location. fields, use the zoo field, birthday, and date
   // of death. If a wild animal, use a wild field instead of the zoo field
@@ -1767,17 +1644,6 @@ export function locationList(animal) {
     locations = locationWild(animal)
   if ((locations.length == 0) && (myZoo(animal, "zoo") != undefined))
     locations = locationZoo(animal)
-  return locations
-}
-
-/** Return a list of location fields an animal has for historical zoo info */
-function locationManifest(animal) {
-  const locations = {}
-  const location_fields = locationGeneratorEntity
-  // Gets panda locations
-  for (const field_name of location_fields(animal)) {
-    locations[field_name] = field(animal, field_name)
-  }
   return locations
 }
 
@@ -1803,14 +1669,10 @@ function locationWild(animal) {
  * use the zoo, birthday, and date of death to fill in needed details
  */
 function locationZoo(animal) {
-  let end_date = undefined
-  if (animal["death"] != undefined) {
-    end_date = animal["death"]
-  }
   const locations = [{
     "zoo": myZoo(animal, "zoo"),
     "start_date": animal["birthday"],
-    "end_date": animal["death"]
+    "end_date": animal["death"]   // Fall back to undefined
   }]
   return locations
 }
@@ -1846,22 +1708,23 @@ function locatorToPhoto(locator) {
     entity = searchPandaId(entity_id)[0]
   }
   // Get the photo for this entity
-  const choice = "photo." + photo_id
+  const choice = entity.photos[photo_id]
   const desired = {
-        "id": entity["_id"],
-     "photo": entity[choice],
-    "credit": entity[choice + ".author"],
-     "index": photo_id,
-      "link": authorLink(entity[choice + ".author"], entity[choice + ".link"]),
-      "type": entity_type
+       "_id": entity._id,
+    "author": choice.author,
+     "index": choice.index,
+ "reference": authorLink(choice.author, choice.link),
+      "type": entity_type,
+       "url": entity[choice],
   }
   return desired
 }
 
 /** Given an animal and a chosen language, return details for a red panda. */
 export function myName(animal, language) {
-  const field = `${language}.name`
-  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
+  return (!animal.name || animal.name[language] == undefined)
+    ? Defaults.animal.name[language]
+    : animal.name[language]
 }
 
 /** 
@@ -1888,8 +1751,9 @@ export function myZoo(animal, field) {
 
 /** Given an animal and a chosen language, return nicknames. */
 export function nicknames(animal, language) {
-  const field = `${language}.nicknames`
-  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
+  return animal.nicknames[language] == undefined
+    ? Defaults.animal.nicknames[language]
+    : animal[field]
 }
 
 /**
@@ -1897,8 +1761,9 @@ export function nicknames(animal, language) {
  * alternative Hiragana/Katakana/Kanji spellings of names.
  */
 export function othernames(animal, language) {
-  const field = `${language}.othernames`
-  return animal[field] == undefined ? Defaults.animal[field] : animal[field]
+  return animal.othernames[language] == undefined
+    ? Defaults.animal.othernames[language]
+    : animal.othernames[language]
 }
 
 /** 
@@ -1960,52 +1825,30 @@ function parseDate(date, language) {
   }
 }
 
-/** Find all available photos for a specific animal */
-export function photoManifest(entity, mode="animal") {
-  let photos = {}
-  const photo_fields = photoGeneratorEntity
-  // Gets panda or zoo photos
-  for (const field_name of photo_fields(entity)) {
-    photos[field_name] = field(entity, field_name, mode)
-  }
-  // Filter out any keys that have the default value for either
-  // an animal or a zoo
-  photos = Object.keys(photos).reduce(function(filtered, key) {
-    if ((photos[key] != Defaults.animal[key]) && 
-        (photos[key] != Defaults.zoo[key])) {
-      filtered[key] = photos[key]
-    }
-    return filtered
-  }, {})
-  return photos
-}
-
 /** Given an animal, choose a single photo to display as its profile photo. */
 export function profilePhoto(animal, index, mode="animal") {
-  // Find the available photo indexes
-  const photos = photoManifest(animal, mode)
-  // If photo.(index) not in the photos dict, choose one of the available keys
+  let choice = animal.photos[index]
+  // If (index) not in the photos array, choose one of the available keys
   // at random from the set of remaining valid images.
-  let choice = `photo.${index}`
-  if (photos[choice] == undefined) {
-    const space = Object.keys(photos).length
+  if (choice == undefined) {
+    const space = animal.photos.length
     index = Math.floor(Math.random() * space)
-    choice = Object.keys(photos)[index]
+    choice = animal.photos[index]
   }
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one. Cannot check if == {} because
   // Javascript is ridiculous
-  if (Object.keys(photos).length === 0) {
-    choice = "photo.1"
-    photos[choice] = field(animal, choice, mode)
+  if (animal.photos.length === 0) {
+    index = 0
+    choice = field(animal, "photos", mode)[0]
   }
   // Return not just the chosen photo but the author and link as well
   const desired = {
-    "id": animal["_id"],
-    "photo": photos[choice],
-    "photo.author": animal[choice + ".author"],
-    "photo.index": choice.replace("photo.", ""),
-    "photo.link": authorLink(animal[choice + ".author"], animal[choice + ".link"])
+    "_id": animal._id,
+    "author": choice.author,
+    "index": index + 1,   // Natural number display index
+    "reference": authorLink(choice.author, choice.source),
+    "url": choice.url
   }
   return desired
 }
@@ -2024,8 +1867,9 @@ export function species(animal, language) {
 
 /** Given a wild location found with `location()`, return the location name. */
 export function wildName(wild, language) {
-  const field = `${language}.name`
-  return wild[field] == undefined ? Defaults.wild[field] : wild[field]
+  return wild.name[language] == undefined
+    ? Defaults.wild.name[language]
+    : wild.name[language]
 }
 
 /**
@@ -2038,8 +1882,9 @@ export function wildField(wild, field) {
 
 /** Given a zoo found with `location()`, return the name of the zoo. */
 export function zooName(zoo, language) {
-  const field = `${language}.name`
-  return zoo[field] == undefined ? Defaults.zoo[field] : zoo[field]
+  return zoo.name[language] == undefined
+    ? Defaults.zoo.name[language]
+    : zoo.name[language]
 }
 
 /** 

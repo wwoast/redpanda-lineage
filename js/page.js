@@ -667,7 +667,7 @@ class MediaPage {
     document.getElementById('contentFrame').replaceWith(new_content)
     shrinkNames()
     Show.mediaMenus.language()
-    const result_id = results["hits"][0]["_id"]
+    const result_id = results["hits"][0]._id
     Show.mediaMenus.top.render(result_id)
     footer.redraw("profile")
     color("profile")
@@ -760,7 +760,7 @@ class ProfilePage {
     // Swap the new content into the page
     document.getElementById('contentFrame').replaceWith(new_content)
     Show.profileMenus.language()
-    const result_id = results["hits"][0]["_id"]
+    const result_id = results.hits[0]._id
     // TODO TOWRITE: need to take id of panda for buttons
     Show.profileMenus.top.render(result_id)
     footer.redraw("profile")
@@ -796,7 +796,7 @@ class ResultsPage {
     }
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
-      if (entity["_id"] < 0) {
+      if (entity._id < 0) {
         content_divs.push(Show.resultsPage.zoo(entity, Env.language))
         content_divs = content_divs.concat(
           Show.resultsPage.zooAnimals(entity, Env.language))
@@ -863,7 +863,7 @@ class ResultsPage {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.resultsPage.zoo(entity, Env.language))
       animals = Pandas.sortOldestToYoungest(
-        Pandas.searchPandaZooCurrent(entity["_id"]))
+        Pandas.searchPandaZooCurrent(entity._id))
       animals.forEach(animal =>
         content_divs.push(Show.resultsPage.panda(animal, Env.language)))
       content_divs.push(Show.zooDivider("bear-bamboo"))

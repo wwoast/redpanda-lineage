@@ -359,7 +359,6 @@ class Lexer {
       .filter(kw => word_filter(kw, "keywords")).sort()
     this.terms.tags.list = group.tags
       .filter(tag => word_filter(tag, "tags")).sort()
-    // It's sorted in Python but this gets us word counts
     this.terms.names.list = P.db['_lexer'].names
       .filter(name => word_filter(name, "names")).sort()
   }
