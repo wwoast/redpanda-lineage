@@ -2717,7 +2717,7 @@ export const resultsPage = {
       const compare_id = info._id * -1
       for (const animal of total_zoo) {
         for (const location of animal.locations) {
-          const { id, date } = location
+          const { _id: id, date } = location
           if ((date != undefined) && (id == compare_id)) {
             const year = parseInt(date.split("/")[0])
             if ((earliest_year == -1) || (year < earliest_year)) {
