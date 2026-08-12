@@ -739,11 +739,11 @@ export function searchPandaName(name) {
  * Given a panda, search for photos searched with ALL of a list of tags. Returns
  * photo info only.
  */
-function searchPandaPhotoTagsIntersect(animal, tags) {
+function searchPandaPhotoTagsIntersect(node, tags) {
   const output = []
   if (tags.length == 0)
     return output
-  for (const [index, photo] of animal.photos.entries()) {
+  for (const [index, photo] of node.photos.entries()) {
     if (photo.tags == undefined)
       continue
     // All search tags must be in the photo tags list
@@ -753,9 +753,10 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
         "_id": animal._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
+        "location": photo.locations ?? {},
         "reference": authorLink(photo.author, photo.source),
+        "tags": tags,   // Not the original tags, but the ones searched for
         "url": photo.url,
-        "tags": tags   // Not the original tags, but the ones searched for
       }
       output.push(bundle)
     }
@@ -768,23 +769,24 @@ function searchPandaPhotoTagsIntersect(animal, tags) {
  * return photo info only, or the entire animal.
  * TODO: usable for zoo entities too, fix
  */
-function searchPandaPhotoTagsUnion(animal, tags, mode) {
+function searchPandaPhotoTagsUnion(node, tags, mode) {
   const output = []
   if (tags.length == 0)
     return output
-  for (const [index, photo] of animal.photos.entries()) {
+  for (const [index, photo] of node.photos.entries()) {
     if (photo.tags == undefined)
       continue
     // Any tag can match
     const contains = tags.some(tag => photo.tags.includes(tag))
     if (contains) {
       if (mode == "animal") {
-        return [animal]
+        return [node]
       } else {
         const bundle = {
           "_id": animal._id,
           "author": photo.author,
           "index": index + 1,   // Natural number index
+          "locations": photo.locations ?? {},
           "reference": authorLink(photo.author, photo.source),
           "tags": tags,   // Not the original tags, but the ones searched for
           "url": photo.url
