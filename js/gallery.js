@@ -849,7 +849,7 @@ export function memorialPhotoCreditsGroup(
  */
 function pandaPhotoCredits(node, credit, language) {
   const photos = []
-  for (const [index, photo] of animal.photos.entries()) {
+  for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
       photos.push({
         "_id": node._id,
