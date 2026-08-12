@@ -2657,6 +2657,7 @@ export const resultsPage = {
     const born_link = document.createElement('a')
     born_link.href = `#query/born at ${info._id}`
     const born_at_zoo = Pandas.searchPandaZooBornRecords(info._id, false)
+      .filter(panda => panda.birthday != "unknown")
     const born_count = born_at_zoo.length
     if (born_count > 0) {
       const earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0]
