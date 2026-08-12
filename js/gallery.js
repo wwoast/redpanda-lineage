@@ -867,7 +867,7 @@ function pandaPhotoCredits(node, credit, language) {
 /** Format a panda credit photo into displayable content */
 function pandaPhotoCreditSingle(photo) {
   const img_link = document.createElement('a')
-  const id = item._id
+  const id = photo._id
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
   img_link.target = "_blank";   // Open in new tab
@@ -1040,7 +1040,7 @@ function tagPhotoSingle(photo, language, add_emoji) {
 
 /**
  * Make a gallery out of newly added photos, for the front page. Choose some
- * Choose some pandas from the list of updated photos at random.
+ * pandas from the list of updated photos at random.
  */
 export function updatedNewPhotoCredits(language, photo_count=7) {
   const new_photos_div = document.createElement('div')
@@ -1049,51 +1049,49 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
   // Build a set of photos in the desired sort order: zoos, zoo(pandas),
   // new contributors, and finally new photos.
   const display_photos = updatedPhotoOrdering(language, photo_count)
-  for (const item of display_photos) {
-    const photo = item.photo
+  for (const photo of display_photos) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = url.href(photo)
+    img_link.href = url.href(photo.url)
     img_link.target = "_blank"   // Open in new tab
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
-    url.process(img, photo)
+    url.process(img, photo.url)
     img_link.appendChild(img)
     const caption_link = document.createElement('a')
     // TODO: better handling of group photos
-    if (item._id.indexOf("media.") != 0)
-      caption_link.href = `#panda/${item._id}/photo/${item.index}`
+    if (photo.type != "media")
+      caption_link.href = `#panda/${photo._id}/photo/${photo.index}`
     const caption = document.createElement('h5')
     caption.className = "caption updateName"
     // Color any zoo-related animals in the summary info
-    if ("classes" in item)
+    if ("classes" in photo)
       for (let caption_class of item.classes)
         caption.classList.add(caption_class)
-    const animal = Pandas.searchPandaId(item._id)[0]
+    const node = Pandas.searchPandaId(item._id)[0]
     let updateName = undefined
-    if (item._id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, item)
-      const panda_route = animal["panda.tags"].join("/")
+    if (photo.type == "media") {
+      updateName = Pandas.groupMediaCaption(node, photo)
+      const panda_route = node["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
-  
     } else {
       const info = Show.acquirePandaInfo(animal, Env.language)
       updateName = info.name
     }
-    if ("name_icon" in item)
-      updateName = `${item.name_icon} ${updateName}`
+    if ("name_icon" in photo)
+      updateName = `${photo.name_icon} ${updateName}`
     caption.innerText = updateName
     const author = document.createElement('h5')
     // Not separate links like the front page header credits
     author.className = "caption updateAuthorCredit"
     const author_span = document.createElement('span')
-    if ("credit_icon" in item) {
-      author_span.innerText = item.credit_icon + "\xa0" + item.credit
+    if ("credit_icon" in photo) {
+      author_span.innerText = photo.credit_icon + "\xa0" + photo.author
       caption.classList.add("newContributor")
     }
     else
-      author_span.innerText = Emoji.camera + "\xa0" + item.credit
+      author_span.innerText = Emoji.camera + "\xa0" + photo.author
     author.appendChild(author_span)
     caption_link.appendChild(caption)
     caption_link.appendChild(author)
