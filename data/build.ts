@@ -885,9 +885,13 @@ class Dataset {
             ]]
           })
         )
+        if (vertex["panda.tags"].length > this.rpf.photos.group)
+          this.rpf.photos.group = vertex["panda.tags"].length
       }
       vertex.photos.push(photo)
     })
+    if (vertex.photos.length > this.rpf.photos.max)
+      this.rpf.photos.max = vertex.photos.length
     // Once photos[] is written, delete all old photo keys
     Object.keys(vertex).filter(key => key.match(/photo\./))
       .forEach(oldPhotoKey => delete vertex[oldPhotoKey])
