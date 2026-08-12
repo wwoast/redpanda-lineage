@@ -409,7 +409,7 @@ function creditPhotosPage(page, results, language, max_hits) {
   // We must unspool the results because each entity we query here can have
   // multiple results returned, and the paging must only return the first
   // max_hits content.
-  const grab_photos = results["hits"].map(entity => 
+  const grab_photos = results["hits"].flatMap(entity => 
     nodePhotoCredits(entity, results["subject"], language))
   const starting_point = page * Env.paging.results_count
   // Working copy of photo set, starting at the nth page of photos
