@@ -1366,7 +1366,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo._id}/photo/${photo.index}`
+    img_link.href = photo.url
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
@@ -1393,7 +1393,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     name_caption_link.appendChild(name_caption)
     // Link to the original instagram media
     const credit_caption_link = document.createElement('a')
-    credit_caption_link.href = url.href(photo.url)
+    credit_caption_link.href = url.href(photo.reference)
     credit_caption_link.target = "_blank"   // Open in new tab
     const credit_caption = document.createElement('h5')    
     credit_caption.className = "caption updateAuthor"

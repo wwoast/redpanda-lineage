@@ -1192,6 +1192,5 @@ if (import.meta.main) {
   const dataset = new Dataset()
   const updates = new Updates()
   updates.build(dataset.graph)
-  console.log(updates.tallies)
   dataset.exportJsonGraph(Paths.output, updates)
 }
