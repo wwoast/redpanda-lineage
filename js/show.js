@@ -2663,7 +2663,7 @@ export const resultsPage = {
     const born_known_count = born_known_birthdays.length
     if (born_count > 0) {
       const earliest_born_year =
-        born_known_birthdays[born_known_count]["birthday"].split("/")[0]
+        born_known_birthdays[born_known_count - 1]["birthday"].split("/")[0]
       let output_text = ""
       for (const i in Message.Text.zoo_details_babies[language]) {
         const field = Message.Text.zoo_details_babies[language][i]
