@@ -136,21 +136,6 @@ export function* linkGeneratorEntity(entity, index=0) {
 }
 
 /** 
- * Generates a valid index to a photo for a panda entity, up to the point that
- * said entity doesn't have a defined photo in its data.
- */
-export function* photoGeneratorEntity(entity, index=0) {
-  if (entity == undefined)
-    return
-  while (index < index + 1) {
-    index++
-    if (entity["photo." + index] == undefined)
-      return
-    yield "photo." + index
-  }
-}
-
-/** 
  * If given no argument, return a random number. Otherwise return a repeatable
  * random value.
  */
@@ -1078,25 +1063,19 @@ export function searchPandaZooDied(idnum, months=6) {
  * of panda ids.
  */
 export function searchPhotoCredit(author, filter_ids=[]) {
-  const photo_fields = photoGeneratorMax
-  let nodes = []
-  for (const field_name of photo_fields()) {
-    const query = {}
-    query[`${field_name}.author`] = author
-    const search = G.v(query).run()
-    if (search != [])
-      nodes = nodes.concat(search)
-  }
-  return nodes.filter(function(value, index, self) {
-    // Return any unique nodes that matched one of these searches
-    return self.indexOf(value) === index
-  }).filter(function(value, index, self) {
-    // Filter by desired panda ids
-    if (filter_ids.length == 0)
-      return true
-    else
-      return filter_ids.includes(value._id)
-  })
+  const photoTypes = ["media", "panda", "wild", "zoo"]
+  const nodes = G.v()
+    .filter(vertex => photoTypes.includes(vertex.type))
+    .filter(vertex => vertex.photos.length > 0)
+    .filter(vertex => vertex.photos.some(photo => photo.author == author))
+    .filter(vertex => {
+      if (filter_ids.length == 0)
+        return true
+      else
+        return filter_ids.includes(vertex._id)
+    })
+    .run()
+  return nodes
 }
 
 /** Find profile photos for all animals listed */

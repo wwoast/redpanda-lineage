@@ -847,17 +847,18 @@ export function memorialPhotoCreditsGroup(
  * that match the username that was searched. Used for making reports of all
  * the photos in the website contributed by a single author.
  */
-function pandaPhotoCredits(animal, credit, language) {
+function pandaPhotoCredits(node, credit, language) {
   const photos = []
-  const photo_indexes = Pandas.photoGeneratorEntity
-  for (const field_name of photo_indexes(animal, 0)) {
-    if (animal[`${field_name}.author`] == credit) {
+  for (const [index, photo] of animal.photos.entries()) {
+    if (photo.author == credit) {
       photos.push({
-        "_id": animal._id,
-        "image": animal[field_name], 
-        "index": field_name,
-        "type": "panda"}
-      )
+        "_id": node._id,
+        "author": photo.author,
+        "index": index + 1,   // Natural number index
+        "reference": Pandas.authorLink(photo.author, photo.link),
+        "type": node.type,
+        "url": photo.url
+      })
     }
   }
   return photos
