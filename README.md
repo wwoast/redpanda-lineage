@@ -25,14 +25,14 @@ When a commit is accepted, Github Actions will run the bundled Python scripts, a
 
 As of August 12, 2026, the `redpanda.json` format has seen significant changes.
 
-* `.txt` fields with a numeric suffixes become arrays of values
+* `.txt` fields with numeric suffixes become arrays of values
   *  `location.X` => an array of `location` objects
   *  `photo.X` and `photo.X.subfield` => array of `photo` objects 
 * `.txt` fields with a language prefix become objects keyed by language values
   * `en.name` and `ja.name` => one `name` object with `en` and `ja` values
   * `en.othernames` and `ja.othernames` => one `othernames` object with `en` and `ja` lists
 * Nodes in the graph now have a `type` parameter for _type discrimination_
-  * TypeScript knows whether branching logic uses `NodePanda`, `NodeZoo`, or other node types
+  * TypeScript can infer when code uses `NodePanda`, `NodeZoo`, or other node types
 
 The underlying `.txt` file format is unchanged, because that format is simple to hand-type and manually review. But the JSON file now has a much simpler structure, intended for processing into consistent objects by a strongly-typed language, such as TypeScript.
 
