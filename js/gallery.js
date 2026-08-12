@@ -1014,20 +1014,17 @@ function tagPhotoSingle(photo, language, add_emoji) {
   url.process(img, photo.url)
   img_link.appendChild(img)
   const caption_link = document.createElement('a')
-  // TODO: better handling of group photos
-  if (node.type == "media")
-    caption_link.href = `#panda/${animal._id}/photo/${photo.index}`
   const caption = document.createElement('h5')
   caption.className = "caption updateTagName"
-  // TODO: handling of names of group pandas
-  // TODO: support multiple tags
   if (node.type == "media") {
-    caption.innerText = Pandas.groupMediaCaption(animal, photo)
-    const panda_route = animal["panda.tags"].join("/")
+    caption.innerText = Pandas.groupMediaCaption(node, photo)
+    const panda_route = node["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
-    const info = Show.acquirePandaInfo(animal, language)
+    // TODO: other node types
+    const info = Show.acquirePandaInfo(node, language)
     caption.innerText = info.name
+    caption_link.href = `#panda/${node._id}/photo/${photo.index}`
   }
   // Prefix caption with an emoji if we can get one
   const tag_lookup = Tags[photo.tags[0]]
