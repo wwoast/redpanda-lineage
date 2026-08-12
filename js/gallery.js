@@ -404,18 +404,13 @@ export function creditPhotos(results, language, max_hits) {
  * to prevent loading the entire image set each time you only want `set/N`
  */
 function creditPhotosPage(page, results, language, max_hits) {
-  let grab_photos = []
   let content_divs = []
   const initial_max_hits = max_hits
-  // We must unspool the results because each entity we query here can have multiple
-  // results returned, and the paging must only return the first max_hits content.
-  for (const entity of results["hits"]) {
-    grab_photos = (entity._id < 0)
-      ? grab_photos.concat(
-          zooPhotoCredits(entity, results["subject"], language))
-      : grab_photos.concat(
-          pandaPhotoCredits(entity, results["subject"], language))
-  }
+  // We must unspool the results because each entity we query here can have
+  // multiple results returned, and the paging must only return the first
+  // max_hits content.
+  const grab_photos = results["hits"].map(entity => 
+    nodePhotoCredits(entity, results["subject"], language))
   const starting_point = page * Env.paging.results_count
   // Working copy of photo set, starting at the nth page of photos
   let content_photos = grab_photos.slice(starting_point)
@@ -443,9 +438,9 @@ function creditPhotosPage(page, results, language, max_hits) {
   }
   // Take the desired content_photos and convert them to divs
   content_photos.forEach(function(photo) {
-    if (photo["type"] == "panda")
+    if (photo.type == "panda" || photo.type == "media")
       content_divs = content_divs.concat(pandaPhotoCreditSingle(photo))
-    if (photo["type"] == "zoo")
+    if (photo.type == "zoo")
       content_divs = content_divs.concat(zooPhotoCreditSingle(photo))
   })
   // Redraw footer to update the paging button
@@ -843,11 +838,11 @@ export function memorialPhotoCreditsGroup(
 }
 
 /**
- * Take an animal, and return a list of divs for all the photos of that animal
+ * Take a node, and return a list of divs for all the photos of that animal
  * that match the username that was searched. Used for making reports of all
  * the photos in the website contributed by a single author.
  */
-function pandaPhotoCredits(node, credit, language) {
+function nodePhotoCredits(node, credit, language) {
   const photos = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
@@ -855,6 +850,7 @@ function pandaPhotoCredits(node, credit, language) {
         "_id": node._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
+        "locations": photo.locations ?? {},
         "reference": Pandas.authorLink(photo.author, photo.link),
         "type": node.type,
         "url": photo.url
@@ -1272,40 +1268,19 @@ function updatedPhotoOrdering(language, photo_count) {
   return output_photos
 }
 
-/** 
- * Take a zoo, and return the photo. Assumes that you have a match that matches
- * the username that was searched. Used for making reports of all the photos in
- * the website contributed by a single author.
- */
-function zooPhotoCredits(zoo, credit, language) {
-  const photos = []
-  for (const photo of zoo.photos) {
-    if (photo.author == credit) {
-      photos.push({
-        "_id": zoo._id,
-        "image": photo.uri,
-        "index": photo.index,
-        "type": "zoo"
-      })
-    }
-  }
-  return photos
-}
-
-function zooPhotoCreditSingle(item) {
-  const photo = item.image
-  const index = item.index.split(".")[1]
+function zooPhotoCreditSingle(photo) {
+  const index = photo.index
   const img_link = document.createElement('a')
-  const id = item._id
+  const id = photo._id
   const entity = Pandas.searchZooId(id)[0]
   const info = Show.acquireZooInfo(entity, Env.language)
   // Link to the original instagram media
-  img_link.href = url.href(photo)
+  img_link.href = url.href(photo.url)
   img_link.target = "_blank"   // Open in new tab
   const img = document.createElement('img')
   img.setAttribute("loading", "lazy")
   // Set the photo, even if it takes an extra XHR
-  url.process(img, photo)
+  url.process(img, photo.url)
   img_link.appendChild(img)
   const caption_link = document.createElement('a')
   caption_link.href = `#zoo/${id}/photo/${index}`
