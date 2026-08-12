@@ -738,9 +738,10 @@ function searchPandaPhotoTagsIntersect(node, tags) {
         "_id": node._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
-        "location": photo.locations ?? {},
+        "locations": photo.locations ?? {},
         "reference": authorLink(photo.author, photo.source),
         "tags": tags,   // Not the original tags, but the ones searched for
+        "type": node.type,
         "url": photo.url,
       }
       output.push(bundle)
@@ -774,6 +775,7 @@ function searchPandaPhotoTagsUnion(node, tags, mode) {
           "locations": photo.locations ?? {},
           "reference": authorLink(photo.author, photo.source),
           "tags": tags,   // Not the original tags, but the ones searched for
+          "type": node.type,
           "url": photo.url
         }
         output.push(bundle)
