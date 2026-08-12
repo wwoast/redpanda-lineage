@@ -1378,14 +1378,14 @@ export function taglist(language, photo_count=5, taglist, message_function) {
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName"
     const name_caption_span = document.createElement('span')
-    const animal = Pandas.searchPandaId(photo._id)[0]
+    const node = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
-    if (photo._id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, photo)
-      const panda_route = animal["panda.tags"].join("/")
+    if (photo.type == "media") {
+      updateName = Pandas.groupMediaCaption(node, photo)
+      const panda_route = node["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(animal, Env.language)
+      const info = Show.acquirePandaInfo(node, Env.language)
       updateName = info.name
     }
     name_caption_span.innerText = updateName
