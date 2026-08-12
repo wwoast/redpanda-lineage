@@ -2599,7 +2599,7 @@ export function tag_subject(num, name, emoji, tag, language) {
       if (num == 1) {
         field = Language.unpluralize([field])
       }
-      const msg = document.createTextNode(field)
+      let msg = document.createTextNode(field)
       if ((language == "ja") && (i == 1) && (name == undefined)) {
         msg = document.createTextNode("枚")
       }
