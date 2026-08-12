@@ -16,11 +16,11 @@ language.order: ja, en
 litter: none
 location.1: 73, 2005/7/8
 location.2: 64, 2007/7/18
-photo.1: ig://BUykD4lBMUr/m
+photo.1: cwdc://Vxivo1qADQA.jpg
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/3
-photo.1.link: https://www.instagram.com/miis_98/
-photo.1.tags: smile, whiskers
+photo.1.link: ig://BUykD4lBMUr
+photo.1.tags: sample, smile, whiskers
 photo.2: cwdc://WDvQHxMADQA.jpg
 photo.2.author: hanamaru_redpanda
 photo.2.commitdate: 2020/3/11
@@ -31,66 +31,126 @@ photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/7/19
 photo.3.link: ig://Bkr0RjglPjP
 photo.3.tags: laying down, paws, portrait, sleeping
-photo.4: ig://Bxh4TlTFxUl/m
+photo.4: cwdc://WrBYIPGADQA.jpg
 photo.4.author: craig_craig_craig
 photo.4.commitdate: 2019/5/18
-photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.4.tags: lips
-photo.5: ig://B6swaunhJTy/m
+photo.4.link: ig://Bxh4TlTFxUl
+photo.4.tags: lips, peek, sample
+photo.5: cwdc://W9XIWhvADQA.jpg
 photo.5.author: grskus_tk
 photo.5.commitdate: 2019/12/31
-photo.5.link: https://www.instagram.com/grskus_tk/
-photo.5.tags: paws, portrait
-photo.6: ig://B-4a9behpvC/m
+photo.5.link: ig://B6swaunhJTy
+photo.5.tags: bridge, paws, portrait
+photo.6: cwdc://XFudb7dADQA.jpg
 photo.6.author: kisshan324
 photo.6.commitdate: 2020/4/15
-photo.6.link: https://www.instagram.com/kisshan324/
-photo.6.tags: portrait
-photo.7: ig://B_wVN4xHgyF/m
+photo.6.link: ig://B-4a9behpvC
+photo.6.tags: portrait, sample, whiskers
+photo.7: cwdc://XHeR82CADQA.jpg
 photo.7.author: kipekaila
 photo.7.commitdate: 2020/5/5
-photo.7.link: https://www.instagram.com/kipekaila/
-photo.7.tags: portrait
-photo.8: ig://CFTKq_2hfZJ/m
+photo.7.link: ig://B_wVN4xHgyF
+photo.7.tags: portrait, sample, whiskers
+photo.8: cwdc://XSj83ENADQC.jpg
 photo.8.author: grskus_tk
 photo.8.commitdate: 2020/9/20
-photo.8.link: https://www.instagram.com/grskus_tk/
-photo.8.tags: laying down, peek
-photo.9: ig://CFVuDgSBNLe/m
+photo.8.link: ig://CFTKq_2hfZJ
+photo.8.tags: laying down, peek, portrait, whiskers, window
+photo.9: cwdc://XSpDoFEADQE.jpg
 photo.9.author: grskus_tk
 photo.9.commitdate: 2020/9/20
-photo.9.link: https://www.instagram.com/grskus_tk/
-photo.9.tags: laying down, smile
-photo.10: ig://CGuaAF3hWVj/m
+photo.9.link: ig://CFVuDgSBNLe
+photo.9.tags: laying down, paws, sample, smile, tongue
+photo.10: cwdc://XVabhQPADQF.jpg
 photo.10.author: grskus_tk
 photo.10.commitdate: 2020/10/31
-photo.10.link: https://www.instagram.com/grskus_tk/
-photo.10.tags: bamboo, paws, smile
-photo.11: ig://CWVLdXVhUeF/m
+photo.10.link: ig://CGuaAF3hWVj
+photo.10.tags: bamboo, paws, sample, smile
+photo.11: cwdc://X0n-bzLADQJ.jpg
 photo.11.author: grskus_tk
 photo.11.commitdate: 2021/11/28
-photo.11.link: https://www.instagram.com/grskus_tk/
+photo.11.link: ig://CWVLdXVhUeF
 photo.11.tags: bamboo, smile
-photo.12: ig://CXUUHadB1Ci/m
+photo.12: cwdc://X2mPv5aADQA.jpg
 photo.12.author: rie_panda55
 photo.12.commitdate: 2021/12/19
-photo.12.link: https://www.instagram.com/rie_panda55/
-photo.12.tags: portrait, sample, tail
-photo.13: ig://CXn8s2CvWTC/m
+photo.12.link: ig://CXUUHadB1Ci
+photo.12.tags: paws, portrait, sample, tail, whiskers
+photo.13: cwdc://X3Ng6wlADQL.jpg
 photo.13.author: grskus_tk
 photo.13.commitdate: 2021/12/22
-photo.13.link: https://www.instagram.com/grskus_tk/
-photo.13.tags: nose, wink, whiskers
+photo.13.link: ig://CXn8s2CvWTC
+photo.13.tags: blink, nose, whiskers, wink
 photo.14: cwdc://X3YOoh_ADQA.jpg
 photo.14.author: miis_98
 photo.14.commitdate: 2022/1/4
 photo.14.link: https://www.instagram.com/p/CXtTjuvl1zH
 photo.14.tags: portrait, profile, sample, tail
-photo.15: ig://CzGWYcGvkVO/m
+photo.15: cwdc://YuKUR8tADQO.jpg
 photo.15.author: grskus_tk
 photo.15.commitdate: 2023/11/8
-photo.15.link: https://www.instagram.com/grskus_tk/
+photo.15.link: ig://CzGWYcGvkVO
 photo.15.tags: sample, techitechi, whiskers
 species: 2
 studbook.id: 0573
 zoo: 64
+photo.16: cwdc://W_xwEtCADQB.jpg
+photo.16.author: grskus_tk
+photo.16.commitdate: 2026/8/12
+photo.16.link: ig://B76ER0RBzJL
+photo.16.tags: peek, portrait, sample, whiskers
+photo.17: cwdc://X0n-bzLADQK.jpg
+photo.17.author: grskus_tk
+photo.17.commitdate: 2026/8/12
+photo.17.link: ig://CWVLdXVhUeG
+photo.17.tags: bamboo, blink, smile, tail, tongue
+photo.18: cwdc://X2mPv5aADQB.jpg
+photo.18.author: rie_panda55
+photo.18.commitdate: 2026/8/12
+photo.18.link: ig://CXUUHadB1Cj
+photo.18.tags: paws, portrait, sample, smile, tail, tongue, tree
+photo.19: cwdc://X3Ng6wlADQM.jpg
+photo.19.author: grskus_tk
+photo.19.commitdate: 2026/8/12
+photo.19.link: ig://CXn8s2CvWTD
+photo.19.tags: itchy, smile
+photo.20: cwdc://X3Ng6wlADQN.jpg
+photo.20.author: grskus_tk
+photo.20.commitdate: 2026/8/12
+photo.20.link: ig://CXn8s2CvWTE
+photo.20.tags: sample
+photo.21: cwdc://XFudb7dADQB.jpg
+photo.21.author: kisshan324
+photo.21.commitdate: 2026/8/12
+photo.21.link: ig://B-4a9behpvD
+photo.21.tags: peek, portrait, sign
+photo.22: cwdc://XFudb7dADQC.jpg
+photo.22.author: kisshan324
+photo.22.commitdate: 2026/8/12
+photo.22.link: ig://B-4a9behpvE
+photo.22.tags: close-up, portrait, sample, whiskers
+photo.23: cwdc://XFudb7dADQD.jpg
+photo.23.author: kisshan324
+photo.23.commitdate: 2026/8/12
+photo.23.link: ig://B-4a9behpvF
+photo.23.tags: bridge, paws, portrait, tail
+photo.24: cwdc://XSj83ENADQD.jpg
+photo.24.author: grskus_tk
+photo.24.commitdate: 2026/8/12
+photo.24.link: ig://CFTKq_2hfZK
+photo.24.tags: laying down, paws, peek, portrait, sample, tongue, whiskers, window
+photo.25: cwdc://XVabhQPADQG.jpg
+photo.25.author: grskus_tk
+photo.25.commitdate: 2026/8/12
+photo.25.link: ig://CGuaAF3hWVk
+photo.25.tags: bamboo, lips, sample
+photo.26: cwdc://XVabhQPADQH.jpg
+photo.26.author: grskus_tk
+photo.26.commitdate: 2026/8/12
+photo.26.link: ig://CGuaAF3hWVl
+photo.26.tags: bamboo, sample
+photo.27: cwdc://XVabhQPADQI.jpg
+photo.27.author: grskus_tk
+photo.27.commitdate: 2026/8/12
+photo.27.link: ig://CGuaAF3hWVm
+photo.27.tags: laying down, sample
