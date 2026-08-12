@@ -186,10 +186,10 @@ function animalLink(animal, link_text, language, options) {
   a.append(trailing_text)
   if (options.indexOf("in_link") != -1) {
     // in_link: that finds a location on the displayed data
-    a.href = `#panda_${animal['_id']}`
+    a.href = `#panda_${animal._id}`
   } else {
     // go_link: creates a new results frame based on desired data
-    a.href = `#panda/${animal['_id']}`
+    a.href = `#panda/${animal._id}`
     // Force page to scroll to the top after a reload event
     a.addEventListener("click", topButton.action)
   }

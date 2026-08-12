@@ -338,7 +338,7 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
       // Link to the original instagram media
-      img_link.href = `#panda/${animal._id}/photo/${photo["photo.index"]}`
+      img_link.href = `#panda/${animal._id}/photo/${photo.index}`
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
@@ -346,12 +346,12 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
       img_link.appendChild(img)
       // Link to the original instagram media
       const caption_link = document.createElement('a')
-      caption_link.href = url.href(photo["photo.link"])
+      caption_link.href = url.href(photo.reference)
       caption_link.target = "_blank";   // Open in new tab
       const caption = document.createElement('h5')
       caption.className = "caption birthdayMessage"
       const caption_span = document.createElement('span')
-      caption_span.innerText = `${Emoji.camera} ${photo["photo.author"]}`
+      caption_span.innerText = `${Emoji.camera} ${photo.author}`
       // TODO: condenser
       caption.appendChild(caption_span)
       caption_link.appendChild(caption)
@@ -1366,7 +1366,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo._id}/photo/${photo.index}}`
+    img_link.href = `#panda/${photo._id}/photo/${photo.index}`
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
