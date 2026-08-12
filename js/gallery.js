@@ -1366,7 +1366,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = photo.url
+    img_link.href = url.href(photo.url)
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
