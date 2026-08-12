@@ -865,35 +865,31 @@ function pandaPhotoCredits(node, credit, language) {
 }
 
 /** Format a panda credit photo into displayable content */
-function pandaPhotoCreditSingle(item) {
-  const photo = item.image
-  const index = item.index.split(".")[1]
+function pandaPhotoCreditSingle(photo) {
   const img_link = document.createElement('a')
   const id = item._id
   // Link to the original instagram media
-  img_link.href = url.href(photo)
+  img_link.href = url.href(photo.url)
   img_link.target = "_blank";   // Open in new tab
   const img = document.createElement('img')
   img.setAttribute("loading", "lazy")
   // Set the photo, even if it takes an extra XHR
-  url.process(img, photo)
+  url.process(img, photo.url)
   img_link.appendChild(img)
   const caption_link = document.createElement('a')
-  // TODO: better handling of group photos
-  if (id.indexOf("media.") != 0)
-    caption_link.href = `#panda/${id}/photo/${index}`
   const caption = document.createElement('h5')
   caption.className = "caption pandaName"
-  // TODO: handling of names of group pandas
-  if (id.indexOf("media.") == 0) {
+  if (photo.type == "media") {
     const entity = Pandas.searchPandaId(id)[0]
     caption.innerText = Pandas.groupMediaCaption(entity, photo)
     const panda_route = entity["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
+    // TODO: handle non-panda photos
     const animal = Pandas.searchPandaId(id)[0]
     const info = Show.acquirePandaInfo(animal, Env.language)
     caption.innerText = info.name
+    caption_link.href = `#panda/${id}/photo/${photo.index}`
   }
   caption_link.appendChild(caption)
   const container = document.createElement('div')
