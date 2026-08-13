@@ -1,13 +1,13 @@
 [panda]
 _id: 1468
-birthday: 2026/6/4
+birthday: 2026/5/27
 birthplace: 13
 children: none
 commitdate: 2026/7/13
 en.name: Baby
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 ja.name: 赤ちゃん
 ja.nicknames: none
 ja.othernames: none
