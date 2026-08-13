@@ -25,7 +25,7 @@ import * as Query from './query.js'
 export function acquirePandaInfo(animal, language) {
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"
-    : Env.specific_photo
+    : parseInt(Env.specific_photo)
   const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
   let bundle = {
             "_id": animal._id,
@@ -102,7 +102,7 @@ export function acquireZooInfo(zoo, language) {
   const animals = Pandas.searchPandaZooCurrent(zoo._id)
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"
-    : Env.specific_photo
+    : parseInt(Env.specific_photo)
   const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
   const recorded = Pandas.searchPandaZooBornLived(zoo._id)
   let bundle = {

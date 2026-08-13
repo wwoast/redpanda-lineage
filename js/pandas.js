@@ -1139,7 +1139,7 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
       // Fallback to profile photo if possible
       if ((set.length == 1) && 
           (Object.values(Defaults.unknown).includes(set[0].author))) {
-        set = [profilePhoto(animal, "1")]
+        set = [profilePhoto(animal, 1)]
       }
       // If no profile photo either, return empty set
       if ((set.length == 1) &&
@@ -1826,27 +1826,28 @@ function parseDate(date, language) {
 }
 
 /** Given an animal, choose a single photo to display as its profile photo. */
-export function profilePhoto(animal, index, mode="animal") {
-  let choice = animal.photos[index]
+export function profilePhoto(animal, naturalIndex, mode="animal") {
+  const arrayIndex = parseInt(naturalIndex - 1)   // possibly NaN
+  let choice = animal.photos[arrayIndex]   // possibly undefined
   // If (index) not in the photos array, choose one of the available keys
   // at random from the set of remaining valid images.
   if (choice == undefined) {
     const space = animal.photos.length
-    index = Math.floor(Math.random() * space)
-    choice = animal.photos[index]
+    arrayIndex = Math.floor(Math.random() * space)
+    choice = animal.photos[arrayIndex]
   }
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one. Cannot check if == {} because
   // Javascript is ridiculous
   if (animal.photos.length === 0) {
-    index = 0
+    arrayIndex = 0
     choice = field(animal, "photos", mode)[0]
   }
   // Return not just the chosen photo but the author and link as well
   const desired = {
     "_id": animal._id,
     "author": choice.author,
-    "index": index + 1,   // Natural number display index
+    "index": arrayIndex + 1,   // Natural number display index
     "reference": authorLink(choice.author, choice.source),
     "url": choice.url
   }
