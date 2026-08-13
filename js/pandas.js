@@ -1827,7 +1827,7 @@ function parseDate(date, language) {
 
 /** Given an animal, choose a single photo to display as its profile photo. */
 export function profilePhoto(animal, naturalIndex, mode="animal") {
-  const arrayIndex = parseInt(naturalIndex - 1)   // possibly NaN
+  let arrayIndex = parseInt(naturalIndex - 1)   // possibly NaN
   let choice = animal.photos[arrayIndex]   // possibly undefined
   // If (index) not in the photos array, choose one of the available keys
   // at random from the set of remaining valid images.
