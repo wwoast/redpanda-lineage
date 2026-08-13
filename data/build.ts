@@ -386,9 +386,26 @@ class Dataset {
 
   /** Shrink export JSON by eliding any unkown/none values where possible */
   deleteNoneOrUnknownFields = (vertex: GraphNode) => {
+    const languageKeyedFields =
+      ["address", "location", "name", "nicknames", "oldnames", "othernames"]
     const undesirables = ["none", "unknown"]
     Object.keys(vertex).forEach(key =>
       undesirables.includes(vertex[key]) && delete vertex[key])
+    // Don't keep any none/unknown values in language-keyed lists either
+    languageKeyedFields.forEach(key => {
+      supportedLanguages.forEach(language => {
+        if (vertex[key] && vertex[key][language]) {
+          if (typeof vertex[key][language] === "string")
+            undesirables.includes(vertex[key][language]) && delete vertex[key][language]
+          else {   // array
+            vertex[key][language] = vertex[key][language]
+              .filter((value: string) => !(undesirables.includes(value)))
+            if (vertex[key][language].length == 0)
+              delete vertex[key][language]
+          }
+        }
+      })
+    })
   }
 
   /**

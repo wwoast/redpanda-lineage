@@ -446,7 +446,7 @@ function othernames(animal, current_language) {
   container.className = "nicknameList"
   // Cycle through other languages to get their names and other
   // spellings for their names
-  for (let language of animal["language.order"]) {
+  for (const language of animal["language.order"]) {
     const othername_list = []
     const othername_li = document.createElement('li')
     othername_li.innerText =
