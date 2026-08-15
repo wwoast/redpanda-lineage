@@ -1072,7 +1072,7 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
       const panda_route = node["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(animal, Env.language)
+      const info = Show.acquirePandaInfo(node, Env.language)
       updateName = info.name
     }
     if ("name_icon" in photo)
