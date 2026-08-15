@@ -1690,7 +1690,7 @@ export function locatorsToPhotos(locators) {
 // corresponding animal photo.
 function locatorToPhoto(locator) {
   const parts = locator.split(".")
-  const photo_id = parts[parts.length - 1]
+  const photo_index = parts[parts.length - 1]
   // Given the entity type, convert to the proper media/panda/zoo
   const entity_type = parts[0]
   let entity_id = undefined
@@ -1708,7 +1708,8 @@ function locatorToPhoto(locator) {
     entity = searchPandaId(entity_id)[0]
   }
   // Get the photo for this entity
-  const choice = entity.photos[photo_id]
+  // Turn the natural number index to an array index
+  const choice = entity.photos[photo_index - 1]
   const desired = {
        "_id": entity._id,
     "author": choice.author,
