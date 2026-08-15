@@ -1063,9 +1063,9 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
     caption.className = "caption updateName"
     // Color any zoo-related animals in the summary info
     if ("classes" in photo)
-      for (let caption_class of item.classes)
+      for (let caption_class of photo.classes)
         caption.classList.add(caption_class)
-    const node = Pandas.searchPandaId(item._id)[0]
+    const node = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
     if (photo.type == "media") {
       updateName = Pandas.groupMediaCaption(node, photo)
