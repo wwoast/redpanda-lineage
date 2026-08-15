@@ -1110,7 +1110,7 @@ function updatedPhotoOrdering(language, photo_count) {
   // budgeted to show in this section
   const zoo_locators = P.db["_updates"].entities
     .filter(locator => locator.indexOf("zoo.") == 0)
-  const zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "id")
+  const zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "_id")
     .filter(function(photo) {
       const pandas = Pandas.searchPandaZoo(photo._id)
         .filter(panda => "photos" in panda)
@@ -1126,7 +1126,7 @@ function updatedPhotoOrdering(language, photo_count) {
     .filter(function(photo) {
       return (!Object.keys(Defaults.authors).includes(photo.author))
     })
-  const author_photos = Pandas.unique(author_photos_all, "id")
+  const author_photos = Pandas.unique(author_photos_all, "_id")
   let author_chosen = author_photos.slice()
   author_chosen = author_chosen.filter(photo => photo.type != "zoo")
   author_chosen = Pandas.randomChoice(author_chosen, photo_count)
@@ -1140,7 +1140,7 @@ function updatedPhotoOrdering(language, photo_count) {
     .filter(locator => locator.indexOf("panda.") == 0)
     .filter(locator => (!author_locators.includes(locator)))
   const new_panda_photos = 
-    Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id")
+    Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "_id")
       .filter(function(photo) {
         return (!Object.keys(Defaults.authors).includes(photo.author))
       })
@@ -1149,7 +1149,7 @@ function updatedPhotoOrdering(language, photo_count) {
   // New pandas, or new panda group photos
   const panda_locators = P.db["_updates"].entities
     .filter(locator => (!zoo_locators.includes(locator)))
-  const panda_photos = Pandas.unique(Pandas.locatorsToPhotos(panda_locators), "id")
+  const panda_photos = Pandas.unique(Pandas.locatorsToPhotos(panda_locators), "_id")
   // Remaining new photos for exisitng pandas. If any photo locators also describe 
   // a new author/new entity, only display those in their own section. Filter them out here.
   const update_locators = P.db["_updates"].photos
@@ -1157,7 +1157,7 @@ function updatedPhotoOrdering(language, photo_count) {
     .filter(locator => (!P.db["_updates"].authors.includes(locator)))
     .filter(locator => (!locator.includes("zoo.")))
   let update_photos =
-    Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id")
+    Pandas.unique(Pandas.locatorsToPhotos(update_locators), "_id")
       .filter(function(photo) {
         return (!Object.keys(Defaults.authors).includes(photo.author))
       })
