@@ -278,26 +278,26 @@ photo.53.author: chankunvv
 photo.53.commitdate: 2025/7/21
 photo.53.link: ig://B6z1JNOhP2s
 photo.53.tags: laying down, portrait, sample, white face
-photo.54: cwdc://W_scSnMADQA.jpg
-photo.54.author: fetorus_mami
-photo.54.commitdate: 2024/4/7
-photo.54.link: ig://B73aYxWBpqL
-photo.54.tags: laying down, mofumofu, peek, portrait, tree
-photo.55: cwdc://W-r6vy4ADQA.jpg
+photo.54: cwdc://W-r6vy4ADQA.jpg
+photo.54.author: sasapan34
+photo.54.commitdate: 2020/1/16
+photo.54.link: ig://B7XJnXMB34Q
+photo.54.tags: apple time, bamboo, home, paws
+photo.55: cwdc://W-r6vy4ADQB.jpg
 photo.55.author: sasapan34
-photo.55.commitdate: 2020/1/16
-photo.55.link: ig://B7XJnXMB34Q
-photo.55.tags: apple time, bamboo, home, paws
-photo.56: cwdc://W-r6vy4ADQB.jpg
-photo.56.author: sasapan34
-photo.56.commitdate: 2024/4/4
-photo.56.link: ig://B7XJnXMB34R
-photo.56.tags: close-up, sample, whiskers
-photo.57: cwdc://W-9y8ftADQB.jpg
-photo.57.author: chankunvv
+photo.55.commitdate: 2024/4/4
+photo.55.link: ig://B7XJnXMB34R
+photo.55.tags: close-up, sample, whiskers
+photo.56: cwdc://W-9y8ftADQB.jpg
+photo.56.author: chankunvv
+photo.56.commitdate: 2024/4/7
+photo.56.link: ig://B7gFttmh5B0
+photo.56.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.57: cwdc://W_scSnMADQA.jpg
+photo.57.author: fetorus_mami
 photo.57.commitdate: 2024/4/7
-photo.57.link: ig://B7gFttmh5B0
-photo.57.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.57.link: ig://B73aYxWBpqL
+photo.57.tags: laying down, mofumofu, peek, portrait, tree
 photo.58: cwdc://XAAwOTfADQC.jpg
 photo.58.author: chankunvv
 photo.58.commitdate: 2020/2/9
@@ -528,16 +528,16 @@ photo.103.author: chankunvv
 photo.103.commitdate: 2022/3/6
 photo.103.link: ig://CajUjJpP0qS
 photo.103.tags: apple time, blink, paws, portrait, smile, tail
-photo.104: cwdc://X_K7B4RADQA.jpg
-photo.104.author: grskus_tk
-photo.104.commitdate: 2022/5/13
-photo.104.link: ig://CbmpwZ4h3wX
-photo.104.tags: tongue
-photo.105: cwdc://X-nOtJ_ADQC.jpg
-photo.105.author: sasapan34
-photo.105.commitdate: 2022/5/18
-photo.105.link: ig://CbUzmCvvYlG
-photo.105.tags: sample, tail, whiskers
+photo.104: cwdc://X-nOtJ_ADQC.jpg
+photo.104.author: sasapan34
+photo.104.commitdate: 2022/5/18
+photo.104.link: ig://CbUzmCvvYlG
+photo.104.tags: sample, tail, whiskers
+photo.105: cwdc://X_K7B4RADQA.jpg
+photo.105.author: grskus_tk
+photo.105.commitdate: 2022/5/13
+photo.105.link: ig://CbmpwZ4h3wX
+photo.105.tags: tongue
 photo.106: cwdc://YW1dUFCADQD.jpg
 photo.106.author: chankunvv
 photo.106.commitdate: 2025/7/21
@@ -623,8 +623,6 @@ photo.122.author: chankunvv
 photo.122.commitdate: 2025/7/21
 photo.122.link: ig://DBd3vPtSuPq
 photo.122.tags: peek, whiskers
-species: 2
-zoo: 29
 photo.123: cwdc://Z-4IfIWADQA.webp
 photo.123.author: chankunvv
 photo.123.commitdate: 2026/8/14
@@ -640,3 +638,5 @@ photo.125.author: chankunvv
 photo.125.commitdate: 2026/8/14
 photo.125.link: ig://DbdQfB7GPXs
 photo.125.tags: laying down, paws, portrait, sign, tail
+species: 2
+zoo: 29
