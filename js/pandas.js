@@ -1252,7 +1252,7 @@ function sortByNameJapanese(nodes) {
       // Sort by the first hiragana name, from the "othernames"
       // list if necessary. Find the first hiragana or katakana string.
       const name_list = build_name_list(node)
-      node[sort_name] = name_list
+      node.sortname = name_list
         .map(name => hiragana_generate(name))
         .filter(name => name != undefined)[0]
     }
