@@ -1675,9 +1675,6 @@ photo.332.author: daniele.tokyo
 photo.332.commitdate: 2025/7/1
 photo.332.link: ig://DE7JqIhS3Lu
 photo.332.tags: bite, standing, tail, toys
-species: 2
-studbook.id: unknown
-zoo: 34
 photo.333: cwdc://Z7FrdFhADQA.jpg
 photo.333.author: daniele.tokyo
 photo.333.commitdate: 2026/8/14
@@ -1698,3 +1695,6 @@ photo.336.author: daniele.tokyo
 photo.336.commitdate: 2026/8/14
 photo.336.link: ig://Dah0y6VzlIL
 photo.336.tags: laying down, mofumofu, paws, portrait, sample, whiskers
+species: 2
+studbook.id: unknown
+zoo: 34
