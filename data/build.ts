@@ -1212,6 +1212,6 @@ class Updates {
 if (import.meta.main) {
   const dataset = new Dataset()
   const updates = new Updates()
-  updates.build(dataset.graph)
+  await updates.build(dataset.graph)
   dataset.exportJsonGraph(Paths.output, updates)
 }
