@@ -429,7 +429,7 @@ class HomePage {
       //   Env.language, "media.7.gin-kin", ["22", "17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
-      const memorial_ids = ["290"]
+      const memorial_ids = ["285", "290"]
       if (!Options.Data.hideDeadPandas) {
         var departed =
           Gallery.memorialPhotoCredits(
