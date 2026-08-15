@@ -921,8 +921,8 @@ class Dataset {
   reviveLinksNode = (key: string, value: unknown, section?: string): any => {
     if (section != "links")
       return value   // Shouldn't happen
-    switch (key) {
-      case "language.order":
+    switch (true) {
+      case (key.includes("language.order")):
         return (value as string).split(", ") as Language[]
       default:
         return value
