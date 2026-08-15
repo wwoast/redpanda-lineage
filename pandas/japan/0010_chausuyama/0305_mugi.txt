@@ -700,61 +700,61 @@ photo.137.author: framereim
 photo.137.commitdate: 2020/1/9
 photo.137.link: ig://B7BFSIBhjOp
 photo.137.tags: dish, lunch time, paws, sample, smile, standing
-photo.138: cwdc://W_Lp7msADQB.jpg
-photo.138.author: adventureworld_official
-photo.138.commitdate: 2020/3/20
-photo.138.link: ig://B7nBNRGBVvU
-photo.138.tags: bridge, portrait, tail
-photo.139: cwdc://W_SMYUeADQC.jpg
-photo.139.author: framereim
-photo.139.commitdate: 2020/1/25
-photo.139.link: ig://B7qSbn_BZGa
-photo.139.tags: keeper, lunch time, paws, sample, standing
-photo.140: cwdc://W_SMYUeADQD.jpg
-photo.140.author: framereim
-photo.140.commitdate: 2024/4/7
-photo.140.link: ig://B7qSbn_BZGa
-photo.140.tags: apple time, bite, keeper, paws, standing
-photo.141: cwdc://W_YBpWJADQN.jpg
-photo.141.author: fetorus_mami
-photo.141.commitdate: 2020/1/26
-photo.141.link: ig://B7tNEI0hZj8
-photo.141.tags: paws, standing
-photo.142: cwdc://W_YBpWJADQO.jpg
-photo.142.author: fetorus_mami
+photo.138: cwdc://W-y9P-aADQA.jpg
+photo.138.author: sasapan34
+photo.138.commitdate: 2020/1/19
+photo.138.link: ig://B7aq3c9Bqxe
+photo.138.tags: peek, sample
+photo.139: cwdc://W-9y8ftADQC.jpg
+photo.139.author: chankunvv
+photo.139.commitdate: 2020/1/21
+photo.139.link: ig://B7gFttmh5B0
+photo.139.tags: portrait, sample, techitechi, whiskers
+photo.140: cwdc://W_Lp7msADQB.jpg
+photo.140.author: adventureworld_official
+photo.140.commitdate: 2020/3/20
+photo.140.link: ig://B7nBNRGBVvU
+photo.140.tags: bridge, portrait, tail
+photo.141: cwdc://W_SMYUeADQC.jpg
+photo.141.author: framereim
+photo.141.commitdate: 2020/1/25
+photo.141.link: ig://B7qSbn_BZGa
+photo.141.tags: keeper, lunch time, paws, sample, standing
+photo.142: cwdc://W_SMYUeADQD.jpg
+photo.142.author: framereim
 photo.142.commitdate: 2024/4/7
-photo.142.link: ig://B7tNEI0hZj8
-photo.142.tags: apple time, dish, lunch time, peek, sample, whiskers
-photo.143: cwdc://W_YBpWJADQP.jpg
+photo.142.link: ig://B7qSbn_BZGa
+photo.142.tags: apple time, bite, keeper, paws, standing
+photo.143: cwdc://W_YBpWJADQN.jpg
 photo.143.author: fetorus_mami
-photo.143.commitdate: 2024/4/7
-photo.143.link: ig://B7tNEI0hZja
-photo.143.tags: dish, lunch time, sample, whiskers
-photo.144: cwdc://W_b40yhADQQ.jpg
+photo.143.commitdate: 2020/1/26
+photo.143.link: ig://B7tNEI0hZj8
+photo.143.tags: paws, standing
+photo.144: cwdc://W_YBpWJADQO.jpg
 photo.144.author: fetorus_mami
-photo.144.commitdate: 2020/1/25
-photo.144.link: ig://B7vIp3Ahr2v
-photo.144.tags: apple time, dish, paws, sample, smile
-photo.145: cwdc://W_b40yhADQR.jpg
+photo.144.commitdate: 2024/4/7
+photo.144.link: ig://B7tNEI0hZj8
+photo.144.tags: apple time, dish, lunch time, peek, sample, whiskers
+photo.145: cwdc://W_YBpWJADQP.jpg
 photo.145.author: fetorus_mami
 photo.145.commitdate: 2024/4/7
-photo.145.link: ig://B7vIp3Ahr2v
+photo.145.link: ig://B7tNEI0hZja
 photo.145.tags: dish, lunch time, sample, whiskers
-photo.146: cwdc://W_scSnMADQW.jpg
+photo.146: cwdc://W_b40yhADQQ.jpg
 photo.146.author: fetorus_mami
-photo.146.commitdate: 2020/1/28
-photo.146.link: ig://B73aYxWBpqL
-photo.146.tags: mofumofu, portrait, sample, tongue, whiskers
-photo.147: cwdc://W-y9P-aADQA.jpg
-photo.147.author: sasapan34
-photo.147.commitdate: 2020/1/19
-photo.147.link: ig://B7aq3c9Bqxe
-photo.147.tags: peek, sample
-photo.148: cwdc://W-9y8ftADQC.jpg
-photo.148.author: chankunvv
-photo.148.commitdate: 2020/1/21
-photo.148.link: ig://B7gFttmh5B0
-photo.148.tags: portrait, sample, techitechi, whiskers
+photo.146.commitdate: 2020/1/25
+photo.146.link: ig://B7vIp3Ahr2v
+photo.146.tags: apple time, dish, paws, sample, smile
+photo.147: cwdc://W_b40yhADQR.jpg
+photo.147.author: fetorus_mami
+photo.147.commitdate: 2024/4/7
+photo.147.link: ig://B7vIp3Ahr2v
+photo.147.tags: dish, lunch time, sample, whiskers
+photo.148: cwdc://W_scSnMADQW.jpg
+photo.148.author: fetorus_mami
+photo.148.commitdate: 2020/1/28
+photo.148.link: ig://B73aYxWBpqL
+photo.148.tags: mofumofu, portrait, sample, tongue, whiskers
 photo.149: cwdc://XAFF5OwADQA.jpg
 photo.149.author: pink.b22
 photo.149.commitdate: 2020/2/13
@@ -1790,6 +1790,11 @@ photo.355.author: taka__3428
 photo.355.commitdate: 2025/12/4
 photo.355.link: ig://DNaZun1x62s
 photo.355.tags: bamboo, bite
+photo.356: cwdc://Z7p44mLADQA.jpg
+photo.356.author: chausuyamazoo
+photo.356.commitdate: 2026/8/14
+photo.356.link: ig://DZ2Irw1iTgC
+photo.356.tags: laying down, sample, whiskers
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/rYd6QptEbU0
@@ -1799,8 +1804,3 @@ video.2: https://youtu.be/3aUnsJ0Xa4k
 video.2.author: d_mover
 video.2.link: https://www.youtube.com/channel/UCZXYK9zxWfCHETjc4pgjHVA
 zoo: 10
-photo.356: cwdc://Z7p44mLADQA.jpg
-photo.356.author: chausuyamazoo
-photo.356.commitdate: 2026/8/14
-photo.356.link: ig://DZ2Irw1iTgC
-photo.356.tags: laying down, sample, whiskers
