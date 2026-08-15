@@ -1713,10 +1713,10 @@ function locatorToPhoto(locator) {
   const desired = {
        "_id": entity._id,
     "author": choice.author,
-     "index": choice.index,
- "reference": authorLink(choice.author, choice.link),
+     "index": photo_index,
+ "reference": authorLink(choice.author, choice.source),
       "type": entity_type,
-       "url": entity[choice],
+       "url": choice.url,
   }
   return desired
 }
