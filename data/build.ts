@@ -486,7 +486,7 @@ class Dataset {
    * Redpandafinder supplements this with various counters and indexes for
    * use in dataset metrics and searching.
    */
-  exportJsonGraph = (exportPath: string, updates: Updates) => {
+  exportJsonGraph = async (exportPath: string, repo: Git, updates: Updates) => {
     const pandas = this.files.panda.length
     const wilds = this.files.wild.length
     const zoos = this.files.zoo.length
@@ -506,12 +506,13 @@ class Dataset {
       ...updates.recent.zoo
     ]
     // Track the most recent commit hash this dataset was built from
-    if (!updates.currentCommit || !updates.currentCommit.hash)
+    const currentCommit = await repo.commit.get("HEAD")
+    if (!currentCommit || !currentCommit.hash)
       throw new Error("ERR: no git commit hash to track for the dataset")
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
-        _commit: updates.currentCommit.hash,
+        _commit: currentCommit.hash,
         _lexer: {
           names: Array.from(this.rpf.lexer_names).sort()
         },
@@ -1052,30 +1053,21 @@ class Dataset {
  * seven days of commits. For authors, we lean into the entity graph. 
  */
 interface Updates {
-  /** The most recent `HEAD` commit in the _redpanda-lineage_ git repository */
-  currentCommit: Commit | undefined
   /** The current epoch in milliseconds, for seeing what is a week old */
   currentTime: number,
   /** The earliest clock time for something to be considered fresh */
   earliestTime: number,
-  /** The patch diff between the current commit and the prior commit */
-  patches: Patch[]
   /** Time range for updates to be fresh (7 days in ms by default) */
   period: number
-  /** The most recent commit newer than the `period` time range. */
-  priorCommit: Commit | undefined
   /** Tracking which entities or photo locators have new content */
   recent: Record<string, Set<string>>
-  /** The git repo to iterate on */
-  repo: Git
   /** Tallies for updated content */
   tallies: Record<string, number>
 }
 class Updates {
   period = 1000 * 60 * 60 * 24 * 7  // 7 days in milliseconds
 
-  constructor(repo: Git) {
-    this.repo = repo
+  constructor() {
     this.currentTime = new Date().getTime()
     this.earliestTime = this.currentTime - this.period
     this.recent = {}
@@ -1092,27 +1084,27 @@ class Updates {
    * `@roka/git` heavily uses async logic, which is not permitted in the
    * constructor method. So we "build" the diff results instead.
    */
-  build = async (graph: Graph) => {
-    this.currentCommit = await this.repo.commit.get("HEAD")
-    this.priorCommit = await this.#startingCommit()
-    // Memory use quickly gets out of hand when diff tries to process
-    // `redpanda.json`, so restrict the possible paths
-    this.patches = await this.repo.diff.patch({
-      from: this.priorCommit,
-      to: this.currentCommit,
-      path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
-    })
+  build = async (repo: Git, graph: Graph) => {
     // Simultaneously process update determination from git commits, and the
     // full graph processing for determining who the new contributors are.
     await Promise.all([
-      this.#determineUpdates(),
+      this.#determineUpdates(repo),
       this.#newContributors(graph)
     ])
   }
 
-  #determineUpdates = async () => {
-    for (const change of this.patches) {
-      const filename = join(this.repo.path(), change.path)
+  #determineUpdates = async (repo: Git) => {
+    const currentCommit = await repo.commit.get("HEAD")
+    const priorCommit = await this.#startingCommit(repo)
+    // Memory use quickly gets out of hand when diff tries to process
+    // `redpanda.json`, so restrict the possible paths
+    const patches = await repo.diff.patch({
+      from: priorCommit,
+      to: currentCommit,
+      path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
+    })
+    for (const change of patches) {
+      const filename = join(repo.path(), change.path)
       // Don't care about non-data files
       if (!filename.endsWith(".txt"))
         continue
@@ -1194,10 +1186,10 @@ class Updates {
   }
 
   /** Determine the earliest commit newer than the `period` value (7 days) */
-  #startingCommit = async () => {
+  #startingCommit = async (repo: Git) => {
     // commits are returned newest to oldest
-    const iterateCommits = (await this.repo.commit.log()).values()
-    let oldestCommit = await this.repo.commit.get("HEAD")
+    const iterateCommits = (await repo.commit.log()).values()
+    let oldestCommit = await repo.commit.get("HEAD")
     for (const commit of iterateCommits) {
       if (commit.author.date.epochMilliseconds > this.earliestTime)
         oldestCommit = commit
@@ -1211,23 +1203,24 @@ class Updates {
 /** 
  * `deno task` runs this script relative from the root of the
  * `redpanda-lineage` project source code, where `deno.json` is found.
+ * The Git CLI is a runtime dependency of this script and it has locking, so
+ * we pass a singleton instance of the Git object instead of storing it in
+ * the classes that need it.
  */
 if (import.meta.main) {
   const repo = git()
   // Create a JS object from the redpandafinder `.txt` files
   const dataset = new Dataset()
   // Determine what changed in the last week of Git commits
-  const updates = new Updates(repo)
-  await updates.build(dataset.graph)
+  const updates = new Updates()
+  await updates.build(repo, dataset.graph)
   // Generate the ouptut JSON file
-  dataset.exportJsonGraph(Paths.output, updates)
+  await dataset.exportJsonGraph(Paths.output, repo, updates)
   // Add the newly built dataset and make a commit
   await repo.index.add(Paths.output)
-  // Each call to repo objects is a git commandline call, so we need
-  /*
-  const shortCommit = (updates.currentCommit)
-    ? updates.currentCommit.short ?? "HEAD~1"
+  const currentCommit = await repo.commit.get("HEAD")
+  const shortCommit = (currentCommit && currentCommit.short)
+    ? currentCommit.short
     : "HEAD~1"
   await repo.commit.create({ subject: `build dataset from ${shortCommit}`})
-  */
 }
