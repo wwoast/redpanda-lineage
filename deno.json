@@ -4,6 +4,7 @@
   },
   "imports": {
     "@roka/git": "jsr:@roka/git@^0.4.0",
+    "@std/cli": "jsr:@std/cli@^1.0.32",
     "@std/fs": "jsr:@std/fs@^1.0.24",
     "@std/ini": "jsr:@std/ini@^0.225.2",
     "@std/path": "jsr:@std/path@^1.1.6"
@@ -11,6 +12,9 @@
   "tasks": {
     "build": {
       "command": "deno run -A ./data/build.ts"
+    },
+    "manage": {
+      "command": "deno run -A ./data/manage.ts"
     }
   }
 }
