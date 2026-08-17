@@ -1,3 +1,4 @@
+import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 
 const helpMessage = `

@@ -126,9 +126,7 @@ interface Dataset {
   rpf: RedPandaFinderMetrics
 }
 class Dataset {
-  graph
   files = files
-  ini
   rpf = rpf
 
   /** 
@@ -507,9 +505,13 @@ class Dataset {
       ...updates.recent.panda,
       ...updates.recent.zoo
     ]
+    // Track the most recent commit hash this dataset was built from
+    if (!updates.currentCommit || !updates.currentCommit.hash)
+      throw new Error("ERR: no git commit hash to track for the dataset")
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
+        _commit: updates.currentCommit.hash,
         _lexer: {
           names: Array.from(this.rpf.lexer_names).sort()
         },
@@ -1070,13 +1072,10 @@ interface Updates {
   tallies: Record<string, number>
 }
 class Updates {
-  currentCommit: Commit | undefined
   period = 1000 * 60 * 60 * 24 * 7  // 7 days in milliseconds
-  priorCommit: Commit | undefined
-  repo: Git
 
-  constructor() {
-    this.repo = git()
+  constructor(repo: Git) {
+    this.repo = repo
     this.currentTime = new Date().getTime()
     this.earliestTime = this.currentTime - this.period
     this.recent = {}
@@ -1196,11 +1195,15 @@ class Updates {
 
   /** Determine the earliest commit newer than the `period` value (7 days) */
   #startingCommit = async () => {
+    // commits are returned newest to oldest
     const iterateCommits = (await this.repo.commit.log()).values()
     let oldestCommit = await this.repo.commit.get("HEAD")
-    for (const commit of iterateCommits)
+    for (const commit of iterateCommits) {
       if (commit.author.date.epochMilliseconds > this.earliestTime)
         oldestCommit = commit
+      else
+        break
+    }
     return oldestCommit
   }
 }
@@ -1210,8 +1213,21 @@ class Updates {
  * `redpanda-lineage` project source code, where `deno.json` is found.
  */
 if (import.meta.main) {
+  const repo = git()
+  // Create a JS object from the redpandafinder `.txt` files
   const dataset = new Dataset()
-  const updates = new Updates()
+  // Determine what changed in the last week of Git commits
+  const updates = new Updates(repo)
   await updates.build(dataset.graph)
+  // Generate the ouptut JSON file
   dataset.exportJsonGraph(Paths.output, updates)
+  // Add the newly built dataset and make a commit
+  await repo.index.add(Paths.output)
+  // Each call to repo objects is a git commandline call, so we need
+  /*
+  const shortCommit = (updates.currentCommit)
+    ? updates.currentCommit.short ?? "HEAD~1"
+    : "HEAD~1"
+  await repo.commit.create({ subject: `build dataset from ${shortCommit}`})
+  */
 }
