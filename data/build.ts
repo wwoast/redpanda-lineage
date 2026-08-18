@@ -1,7 +1,7 @@
 import Graph, { cleanEdge, cleanVertex } from './dagoba.ts'
 import { IniMap } from '@std/ini/ini-map'
 import { join } from '@std/path'
-import { Commit, Git, Patch, git } from '@roka/git'
+import { Git, git } from '@roka/git'
 import { PhotoEntry } from './photos.ts'
 import { Paths,
          byIdAscending,
@@ -22,6 +22,13 @@ import { Paths,
  * this process is the Dagoba graph database serialized to disk. This gives
  * our builder script the ability to use graph queries to determine correctness
  * of the input data.
+ * 
+ * As of August 2026, git commits inside the _redpanda-lineage_ no longer run
+ * the dataset build script itself. Instead, running the dataset build script
+ * commits the latest dataset version to the repository. Unfortunately the
+ * `@roka/git` library doesn't appear to have a way to ignore the pre-commit
+ * hooks (`git --no-verify commit`), and as a result `git().commit.create()`
+ * would indefinitely hang.
  */
 
 interface PhotoMetrics {
@@ -1203,6 +1210,7 @@ class Updates {
 /** 
  * `deno task` runs this script relative from the root of the
  * `redpanda-lineage` project source code, where `deno.json` is found.
+ * 
  * The Git CLI is a runtime dependency of this script and it has locking, so
  * we pass a singleton instance of the Git object instead of storing it in
  * the classes that need it.
