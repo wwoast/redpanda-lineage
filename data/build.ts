@@ -585,7 +585,7 @@ class Dataset {
    */
   importJsonGraph = () => {
     const inputJson = JSON.parse(Deno.readTextFileSync(Paths.output))
-    this.graph = new Graph(inputJson.graph.vertices, inputJson.graph.edges)
+    this.graph = new Graph(inputJson.vertices, inputJson.edges)
     this.rpf = {
       last_born: inputJson._totals.last_born,
       last_died: inputJson._totals.last_died,

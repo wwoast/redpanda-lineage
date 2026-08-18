@@ -44,7 +44,7 @@ if (import.meta.main) {
   // TODO: check CLI arguments with options that enforce data types
   const { _: args, ...flags } = parseArgs(Deno.args)
   // If no arguments, don't try and build the dataset
-  if (Object.keys(flags).length > 0) {
+  if (Object.keys(flags).length == 0) {
     console.log(helpMessage)
     Deno.exit(0)
   }
