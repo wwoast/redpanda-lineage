@@ -1306,9 +1306,10 @@ export async function buildDataset(metrics: boolean, paths: boolean): Promise<Da
 export async function importDataset(): Promise<Dataset> {
   const dataset = new Dataset().importJsonGraph()
   const pathsPresent = dataset.graph.vertices.every(vertex => vertex.path)
-  if (pathsPresent)
+  if (pathsPresent) {
+    console.log(`[build] imported graph is fresh`)
     return dataset
-  else {
+  } else {
     console.log(`[build] vertexes lack file paths, so rebuild`)
     return await buildDataset(false, true)
   }
@@ -1341,8 +1342,6 @@ export async function isDatasetFresh() {
     const buildNeeded = patches
       .map(change => join(repo.path(), change.path))
       .some(path => path.endsWith(".txt"))
-    if (!buildNeeded)
-      console.log(`[build] dataset is fresh and didn't need rebuilding`)
     return buildNeeded
   } catch(_err) {
     console.log(`[build] problem with existing dataset, so rebuilding`)
