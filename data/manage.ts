@@ -45,6 +45,9 @@ if (import.meta.main) {
       await buildDataset(false)
   else
     console.log(`[manage] fresh dataset didn't need rebuilding`)
+  // Now we can assume `export/redpanda.json` exactly represents the underlying
+  // data, and our other checks can make decisions about processing entirely on
+  // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
     case (flags["deduplicate-photo-uris"]):
       // removeDuplicatePhotoUrisPerFile()

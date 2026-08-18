@@ -1217,6 +1217,10 @@ class Updates {
  * Construct a new `export/redpanda.json` file, calculate updates for all
  * commits in the last week, and git-commit the new dataset to the repo.
  * 
+ * The Git CLI is a runtime dependency of this script and it has locking, so
+ * we create and pass around a singleton instance of the Git object instead of
+ * storing it inside the classes that use it.
+ * 
  * @param metrics print the current count of pandas / zoos to the console
  */
 export async function buildDataset(metrics: boolean) {
@@ -1268,10 +1272,6 @@ export async function isDatasetFresh() {
 /** 
  * `deno task` runs this script relative from the root of the
  * `redpanda-lineage` project source code, where `deno.json` is found.
- * 
- * The Git CLI is a runtime dependency of this script and it has locking, so
- * we pass a singleton instance of the Git object instead of storing it in
- * the classes that need it.
  */
 if (import.meta.main) {
   await buildDataset(true)
