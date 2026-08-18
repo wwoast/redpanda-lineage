@@ -1222,9 +1222,7 @@ if (import.meta.main) {
   const shortCommit = (currentCommit && currentCommit.short)
     ? currentCommit.short
     : "HEAD~1"
-  console.log(shortCommit)
-  await repo.commit.create({
-    all: true,
-    subject: `build dataset from ${shortCommit}`
-  })
+  const commitMessage = `build dataset from ${shortCommit}`
+  await repo.commit.create({ all: true, subject: commitMessage })
+  console.log(`[commit]: ${commitMessage}`)
 }
