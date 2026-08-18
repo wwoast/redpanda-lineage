@@ -1,12 +1,12 @@
-import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
+import { buildDataset, isDatasetFresh } from './build.ts'
 
 const helpMessage = `
 Usage:
   deno task manage <subcommand> [arguments]
 
 Manage the contents of the redpanda-lineage flat file database files. Each of
-the subcommands generates a Git commit to the redpanda-lineage current branch.
+the subcommands may generate a commit to the redpanda-lineage current branch.
 
 Subcommands:
   --deduplicate-photo-uris
@@ -39,6 +39,11 @@ Subcommands:
 if (import.meta.main) {
   // TODO: check CLI arguments with options that enforce data types
   const { _: args, ...flags } = parseArgs(Deno.args)
+  // Make sure dataset is up to date
+  if (!isDatasetFresh())
+    await buildDataset(false)
+  else
+    console.log(`[manage] fresh dataset didn't need rebuilding`)
   switch (true) {
     case (flags["deduplicate-photo-uris"]):
       // removeDuplicatePhotoUrisPerFile()

@@ -158,14 +158,14 @@ class Dataset {
   assertDateExistsAndIsValid = (path: string, key: string, value: string) => {
     const seasons = ["Spring", "Summer", "Fall", "Winter"]
     if (!value)
-      throw new Error(`ERR: ${path}: missing date: ${key}`)
+      throw new Error(`[build] ERR: ${path}: missing date: ${key}`)
     if (value == "unknown")
       return   // We don't know what we don't know
     if (seasons.includes(value.split("/")[1]))
       return   // Rough season value
     const date = new Date(value)
     if (date.toString() == 'Invalid Date')
-      throw new Error(`ERR: ${path}: invalid YYYY/MM/DD date: ${key}: ${value}`)
+      throw new Error(`[build] ERR: ${path}: invalid YYYY/MM/DD date: ${key}: ${value}`)
     // When we have valid dates, try to update our most recently born/died year
     this.checkBirthAndDeathDates(key, date)
   }
@@ -204,11 +204,11 @@ class Dataset {
         (edge._out as NodePanda)._id
       ]
       if (pair.filter(value => value == undefined).length > 0)
-        throw new Error(`ERR: possible misrecorded litter value: ${edge}`)
+        throw new Error(`[build] ERR: possible misrecorded litter value: ${edge}`)
       if (!seen_pairs.includes(pair))
         if (!compareLittermateBirthdays(edge._in.birthday, edge._out.birthday))
           throw new Error(
-            `ERR: litter birthdays don't match: ` + 
+            `[build] ERR: litter birthdays don't match: ` + 
             `${edge._in._id}: ${edge._in.name["en"]}, ` + 
             `${edge._out._id}: ${edge._out.name["en"]}`)
     })
@@ -248,7 +248,7 @@ class Dataset {
     }).filter((panda, index, array) => array.indexOf(panda) === index)
     if (selfParents.length > 0) {
       throw new Error(
-        `ERR: ensure these animals are not their own parents:\n` +
+        `[build] ERR: ensure these animals are not their own parents:\n` +
         selfParents.map(animal => `\t${animal._id}: ${animal.name["en"]}\n`)
       )
     }
@@ -276,7 +276,7 @@ class Dataset {
     )
     if (zombies.length > 0) {
       throw new Error(
-        `ERR: Mothers died before children were born:\n` +
+        `[build] ERR: Mothers died before children were born:\n` +
         zombies.map(zombie => `\t${zombie.id}: ${zombie.name["en"]}\n`))
     }
   }
@@ -287,13 +287,13 @@ class Dataset {
     const match = validLinkProtocols.filter(
       protocol => link.indexOf(protocol) == 0)
     if (match.length == 0)
-      throw new Error(`ERR: ${path}: ${link}: not a valid URL`)
+      throw new Error(`[build] ERR: ${path}: ${link}: not a valid URL`)
   }
 
   /** Any animal name is limited to 100 characters in length at import */
   assertImportedName = (path: string, name: string) => {
     if (name.length > 100)
-      throw new Error(`ERR: ${path}: name too long: ${name}`)
+      throw new Error(`[build] ERR: ${path}: name too long: ${name}`)
   }
 
   /** 
@@ -312,7 +312,7 @@ class Dataset {
       if (vertex.birthday == "unknown" || vertex.death == "unknown")
         return   // We don't know what we don't know
       if (new Date(vertex.birthday).getTime() > new Date(vertex.death).getTime())
-        throw new Error(`ERR: ${vertex.path}: birthday occurs after date of death`)
+        throw new Error(`[build] ERR: ${vertex.path}: birthday occurs after date of death`)
     }
   }
 
@@ -332,7 +332,7 @@ class Dataset {
         ? namedDuplicates.map(v => v.name["en"])
         : duplicateIds
       throw new Error(
-        `ERR: duplicate ids for: ${diagnosticStrings.join(", ")}`)
+        `[build] ERR: duplicate ids for: ${diagnosticStrings.join(", ")}`)
     }
   }
 
@@ -347,7 +347,7 @@ class Dataset {
     if (value.indexOf("wild") == 0)
       return   // Born in a wild place
     if (isNaN(parseInt(value)))
-      throw new Error(`ERR: ${path}: ${key}: invalid id: ${value}`)
+      throw new Error(`[build] ERR: ${path}: ${key}: non-numeric id: ${value}`)
   }
 
   /** 
@@ -358,7 +358,7 @@ class Dataset {
     if (!vertex.locations && vertex.birthplace != "unknown")
       if (vertex.birthplace != vertex.zoo)
         throw new Error(
-          `ERR: ${vertex.path}: for new pandas, birthplace and zoo should be the same`)
+          `[build] ERR: ${vertex.path}: for new pandas, birthplace and zoo must match`)
   }
 
   /** Unknown genders are inferred by their omission */
@@ -385,7 +385,7 @@ class Dataset {
   checkFieldIsAUrl = (path: string, key: string, value: string, warn: boolean) => {
     const urlCheck = (value.indexOf("http") == 0)
     if (urlCheck == true && warn)
-      console.warn(`WARN: ${path}: ${key} should not be a URL`)
+      console.warn(`[build] WARN: ${path}: ${key} should not be a URL`)
     return urlCheck
   }
 
@@ -493,7 +493,12 @@ class Dataset {
    * Redpandafinder supplements this with various counters and indexes for
    * use in dataset metrics and searching.
    */
-  exportJsonGraph = async (exportPath: string, repo: Git, updates: Updates) => {
+  exportJsonGraph = async (
+    exportPath: string,
+    repo: Git,
+    updates: Updates,
+    output: boolean
+  ) => {
     const pandas = this.files.panda.length
     const wilds = this.files.wild.length
     const zoos = this.files.zoo.length
@@ -515,7 +520,7 @@ class Dataset {
     // Track the most recent commit hash this dataset was built from
     const currentCommit = await repo.commit.get("HEAD")
     if (!currentCommit || !currentCommit.hash)
-      throw new Error("ERR: no git commit hash to track for the dataset")
+      throw new Error("[build] ERR: no git commit hash to track for the dataset")
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
@@ -557,9 +562,10 @@ class Dataset {
         vertices: JSON.parse(JSON.stringify(this.graph.vertices, cleanVertex))
       })
     )
-    console.log(
-      `Dataset exported: ${pandas} pandas at ${locations} locations ` +
-      `(${wilds} wild, ${zoos} zoo)`
+    if (output)
+      console.log(
+        `[build] metrics: ${pandas} pandas at ${locations} locations ` +
+        `(${wilds} wild, ${zoos} zoo)`
     )
   }
 
@@ -796,7 +802,7 @@ class Dataset {
             nameList.forEach(name => this.processName(vertex.path, name))
           break
         default:
-          throw new Error(`ERR: unrecognized input field: ${field}`)
+          throw new Error(`[build] ERR: unrecognized input field: ${field}`)
       }
     })
   }
@@ -859,15 +865,15 @@ class Dataset {
       if ((locationKeys.indexOf(locationKey) == 0) && (vertex.birthday != "unknown"))
         if (dateString != vertex.birthday)
           throw new Error(
-            `ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
+            `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       // Check the last location matches the most recent zoo or wild id
       if (locationKeys.indexOf(locationKey) == locationKeys.length - 1) {
         if (vertex.wild && location._id != vertex.wild)
           throw new Error(
-            `ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
+            `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
         if (vertex.zoo && location._id != vertex.zoo)
           throw new Error(
-            `ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
+            `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
       }
       // Once location[] is written, delete the old location key
       delete vertex[locationKey]
@@ -905,7 +911,7 @@ class Dataset {
           vertex["panda.tags"].map(pandaId => {
             const field = `${photoKey}.tags.${pandaId}.location`
             if (!vertex[field])
-              throw new Error(`ERR: ${vertex._id}: missing one or more location tags: ${photoKey}`)
+              throw new Error(`[build] ERR: ${vertex._id}: missing one or more location tags: ${photoKey}`)
             return [pandaId, [
               parseInt(vertex[field][0]),
               parseInt(vertex[field][1])
@@ -1208,6 +1214,58 @@ class Updates {
 }
 
 /** 
+ * Construct a new `export/redpanda.json` file, calculate updates for all
+ * commits in the last week, and git-commit the new dataset to the repo.
+ * 
+ * @param metrics print the current count of pandas / zoos to the console
+ */
+export async function buildDataset(metrics: boolean) {
+  const repo = git()
+  // Create a JS object from the redpandafinder `.txt` files
+  const dataset = new Dataset()
+  // Determine what changed in the last week of Git commits
+  const updates = new Updates()
+  await updates.build(repo, dataset.graph)
+  // Generate the ouptut JSON file
+  await dataset.exportJsonGraph(Paths.output, repo, updates, metrics)
+  // Add the newly built dataset and make a commit
+  await repo.index.add(Paths.output)
+  const currentCommit = await repo.commit.get("HEAD")
+  const shortCommit = (currentCommit && currentCommit.short)
+    ? currentCommit.short
+    : "HEAD~1"
+  const commitMessage = `dataset from ${shortCommit}`
+  await repo.commit.create({ all: true, subject: commitMessage })
+  console.log(`[build]: commit: ${commitMessage}`)
+}
+
+/** 
+ * Technically, every time you build a new dataset, it will give you current
+ * data for commits in the last week from the current time. So any time you
+ * want a new dataset, it's not unreasonable to make one.
+ * 
+ * However, for `manage.ts` and other tools that deal with dataset management,
+ * we only want to build a new dataset if there were changes to the underlying
+ * red panda data since the last commit. So determine if the dataset is _fresh_
+ * or represents the current state of the underlying `.txt` files.
+ */
+export async function isDatasetFresh() {
+  const repo = git()
+  const datasetCommitish = JSON.parse(Deno.readTextFileSync(Paths.output))._commit
+  const currentCommit = await repo.commit.get("HEAD")
+  const datasetCommit = await repo.commit.get(datasetCommitish)
+  const patches = await repo.diff.patch({
+    from: datasetCommit,
+    to: currentCommit,
+    path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
+  })
+  // If any `.txt` files in the patch set, the dataset should be rebuilt 
+  return patches
+    .map(change => join(repo.path(), change.path))
+    .some(path => path.endsWith(".txt"))
+}
+
+/** 
  * `deno task` runs this script relative from the root of the
  * `redpanda-lineage` project source code, where `deno.json` is found.
  * 
@@ -1216,21 +1274,5 @@ class Updates {
  * the classes that need it.
  */
 if (import.meta.main) {
-  const repo = git()
-  // Create a JS object from the redpandafinder `.txt` files
-  const dataset = new Dataset()
-  // Determine what changed in the last week of Git commits
-  const updates = new Updates()
-  await updates.build(repo, dataset.graph)
-  // Generate the ouptut JSON file
-  await dataset.exportJsonGraph(Paths.output, repo, updates)
-  // Add the newly built dataset and make a commit
-  await repo.index.add(Paths.output)
-  const currentCommit = await repo.commit.get("HEAD")
-  const shortCommit = (currentCommit && currentCommit.short)
-    ? currentCommit.short
-    : "HEAD~1"
-  const commitMessage = `build dataset from ${shortCommit}`
-  await repo.commit.create({ all: true, subject: commitMessage })
-  console.log(`[commit]: ${commitMessage}`)
+  await buildDataset(true)
 }
