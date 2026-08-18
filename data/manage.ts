@@ -39,9 +39,10 @@ Subcommands:
 if (import.meta.main) {
   // TODO: check CLI arguments with options that enforce data types
   const { _: args, ...flags } = parseArgs(Deno.args)
-  // Make sure dataset is up to date
-  if (!isDatasetFresh())
-    await buildDataset(false)
+  // Make sure dataset is up to date (if there are some kind of flags)
+  if (Object.keys(flags).length > 0)
+    if (!isDatasetFresh())
+      await buildDataset(false)
   else
     console.log(`[manage] fresh dataset didn't need rebuilding`)
   switch (true) {

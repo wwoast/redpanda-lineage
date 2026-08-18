@@ -15,6 +15,9 @@
     },
     "manage": {
       "command": "deno run -A ./data/manage.ts"
+    },
+    "view": {
+      "command": "jq '.' ./export/redpanda.json"
     }
   }
 }
