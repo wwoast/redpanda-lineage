@@ -49,7 +49,8 @@ if (import.meta.main) {
     Deno.exit(0)
   }
   // Either build a new dataset, or import an existing one
-  const dataset = (await isDatasetFresh()) 
+  const buildNeeded = await isDatasetFresh()
+  const dataset = (!buildNeeded)
     ? importDataset()
     : await buildDataset(false, true)
   // Now we can assume `export/redpanda.json` exactly represents the underlying

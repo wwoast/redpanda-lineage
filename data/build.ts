@@ -1291,9 +1291,9 @@ export async function buildDataset(metrics: boolean, paths: boolean): Promise<Da
       : "HEAD~1"
     const commitMessage = `dataset from ${shortCommit}`
     await repo.commit.create({ all: true, subject: commitMessage })
-    console.log(`[build]: commit: ${commitMessage}`)
+    console.log(`[build] commit: ${commitMessage}`)
   } else {
-    console.log(`[build]: dataset with file paths built for management tasks`)
+    console.log(`[build] dataset with file paths built for management tasks`)
   }
   return dataset
 }
@@ -1308,8 +1308,10 @@ export async function importDataset(): Promise<Dataset> {
   const pathsPresent = dataset.graph.vertices.every(vertex => vertex.path)
   if (pathsPresent)
     return dataset
-  else
+  else {
+    console.log(`[build] vertexes lack file paths, so rebuild`)
     return await buildDataset(false, true)
+  }
 }
 
 /** 
@@ -1336,12 +1338,12 @@ export async function isDatasetFresh() {
       path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
     })
     // If any `.txt` files in the patch set, the dataset should be rebuilt 
-    const build = patches
+    const buildNeeded = patches
       .map(change => join(repo.path(), change.path))
       .some(path => path.endsWith(".txt"))
-    if (!build)
+    if (!buildNeeded)
       console.log(`[build] dataset is fresh and didn't need rebuilding`)
-    return build
+    return buildNeeded
   } catch(_err) {
     console.log(`[build] problem with existing dataset, so rebuilding`)
     return false
