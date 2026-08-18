@@ -1,5 +1,5 @@
 import { parseArgs } from '@std/cli/parse-args'
-import { buildDataset, isDatasetFresh } from './build.ts'
+import { buildDataset, importDataset, isDatasetFresh } from './build.ts'
 
 const helpMessage = `
 Usage:
@@ -32,6 +32,10 @@ Subcommands:
         Sort image locators for all .txt files changed since the last commit.
 `
 
+function removeDuplicatePhotoUrisPerPanda() {
+
+}
+
 /** 
  * `deno task` runs this script relative from the root of the
  * `redpanda-lineage` project source code, where `deno.json` is found.
@@ -39,18 +43,21 @@ Subcommands:
 if (import.meta.main) {
   // TODO: check CLI arguments with options that enforce data types
   const { _: args, ...flags } = parseArgs(Deno.args)
-  // Make sure dataset is up to date (if there are some kind of flags)
-  if (Object.keys(flags).length > 0)
-    if (!isDatasetFresh())
-      await buildDataset(false)
-  else
-    console.log(`[manage] fresh dataset didn't need rebuilding`)
+  // If no arguments, don't try and build the dataset
+  if (Object.keys(flags).length > 0) {
+    console.log(helpMessage)
+    Deno.exit(0)
+  }
+  // Either build a new dataset, or import an existing one
+  const dataset = (await isDatasetFresh()) 
+    ? importDataset()
+    : await buildDataset(false, true)
   // Now we can assume `export/redpanda.json` exactly represents the underlying
   // data, and our other checks can make decisions about processing entirely on
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
     case (flags["deduplicate-photo-uris"]):
-      // removeDuplicatePhotoUrisPerFile()
+      // removeDuplicatePhotoUrisPerPanda()
       break
     case (flags["remove-author"]):
       // removeAuthorFromLineage(flags["remove-author"])
@@ -85,5 +92,6 @@ if (import.meta.main) {
       break
     default:
       console.log(helpMessage)
+      Deno.exit(1)
   }
 }

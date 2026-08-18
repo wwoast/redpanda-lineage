@@ -143,11 +143,7 @@ class Dataset {
   constructor() {
     this.graph = new Graph()
     this.ini = new IniMap({assignment: ":"})
-    this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
-    this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
-    this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
-    this.importTree(Paths.media, this.importMedia, this.verifyMedia)
-    this.importTree(Paths.links, this.importLinks, this.verifyLinks)
+    return this
   }
 
   /**
@@ -361,6 +357,16 @@ class Dataset {
           `[build] ERR: ${vertex.path}: for new pandas, birthplace and zoo must match`)
   }
 
+  /** Build the dataset from `.txt` files in the redpanda-lineage dataset */
+  build = () => {
+    this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
+    this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
+    this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
+    this.importTree(Paths.media, this.importMedia, this.verifyMedia)
+    this.importTree(Paths.links, this.importLinks, this.verifyLinks)
+    return this
+  }
+
   /** Unknown genders are inferred by their omission */
   canonicalizeGender = (vertex: NodePanda) => {
     if (vertex.gender == "f") vertex.gender = "Female"
@@ -497,7 +503,8 @@ class Dataset {
     exportPath: string,
     repo: Git,
     updates: Updates,
-    output: boolean
+    output: boolean,
+    paths: boolean
   ) => {
     const pandas = this.files.panda.length
     const wilds = this.files.wild.length
@@ -521,6 +528,9 @@ class Dataset {
     const currentCommit = await repo.commit.get("HEAD")
     if (!currentCommit || !currentCommit.hash)
       throw new Error("[build] ERR: no git commit hash to track for the dataset")
+    // Manage scripts like having the paths available
+    if (paths == false)
+      this.graph.vertices.forEach(vertex => delete vertex.path)
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({
@@ -567,6 +577,42 @@ class Dataset {
         `[build] metrics: ${pandas} pandas at ${locations} locations ` +
         `(${wilds} wild, ${zoos} zoo)`
     )
+  }
+
+  /** 
+   * Alternate constructor. Import from an existing graph located at
+   * `export/redpanda.json`
+   */
+  importJsonGraph = () => {
+    const inputJson = JSON.parse(Deno.readTextFileSync(Paths.output))
+    this.graph = new Graph(inputJson.graph.vertices, inputJson.graph.edges)
+    this.rpf = {
+      last_born: inputJson._totals.last_born,
+      last_died: inputJson._totals.last_died,
+      lexer_names: inputJson._lexer,
+      photos: {
+        credit: inputJson._photo.credit,
+        max: inputJson._photo.entity_max,
+        group: inputJson._photo.group_max
+      },
+      totals: {
+        credit: inputJson._totals.credit,
+        entities: this.graph.vertices.length,
+        photos: inputJson._totals.photos
+      },
+      updates: {
+        authors: inputJson._totals.updates.authors,
+        pandas: inputJson._totals.updates.pandas,
+        photos: inputJson._totals.updates.photos,
+        zoos: inputJson._totals.updates.zoos
+      }
+    }
+    // If the existing dataset has them, define the file path references that
+    // would be generated on import, consistent with `new Dataset().build()`.
+    this.files = {}
+    if (this.graph.vertices.every(vertex => vertex.path))
+      this.graph.vertices.map(vertex => this.files[vertex._id] = vertex.path)
+    return this
   }
 
   /**
@@ -1021,13 +1067,11 @@ class Dataset {
   verifyLinks = () => {
     const linksNodes = this.graph.vertices.reduce(toLinks, [])
     this.assertNoDuplicateDatasetIds(linksNodes)
-    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyMedia = () => {
     const mediaNodes = this.graph.vertices.reduce(toMedia, [])
     this.assertNoDuplicateDatasetIds(mediaNodes)
-    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyPanda = () => {
@@ -1044,19 +1088,16 @@ class Dataset {
     // this.assertGraphHasNoCycles()
     // After edges are processed, kill any unknown fields
     pandaNodes.map(vertex => this.deleteNoneOrUnknownFields(vertex))
-    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyWilds = () => {
     const wildNodes = this.graph.vertices.reduce(toWilds, [])
     this.assertNoDuplicateDatasetIds(wildNodes)
-    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 
   verifyZoos = () => {
     const zooNodes = this.graph.vertices.reduce(toZoos, [])
     this.assertNoDuplicateDatasetIds(zooNodes)
-    this.graph.vertices.forEach(vertex => delete vertex.path)
   }
 }
 
@@ -1091,6 +1132,7 @@ class Updates {
       this.recent[type] = new Set<string>
       this.tallies[type] = 0
     })
+    return this
   }
 
   /** 
@@ -1104,6 +1146,7 @@ class Updates {
       this.#determineUpdates(repo),
       this.#newContributors(graph)
     ])
+    return this
   }
 
   #determineUpdates = async (repo: Git) => {
@@ -1222,25 +1265,51 @@ class Updates {
  * storing it inside the classes that use it.
  * 
  * @param metrics print the current count of pandas / zoos to the console
+ * @param paths each object tracks the filename it represents
+ * 
+ * For publishing, you want `metrics` true and `paths` false, and for making
+ * scripted dataset changes, you want `metrics` false and `paths` true.
+ * 
+ * TODO: if the dataset exists and no .txt file changes, but paths are false,
+ * make this a no-op?
  */
-export async function buildDataset(metrics: boolean) {
+export async function buildDataset(metrics: boolean, paths: boolean): Promise<Dataset> {
   const repo = git()
   // Create a JS object from the redpandafinder `.txt` files
-  const dataset = new Dataset()
+  const dataset = new Dataset().build()
   // Determine what changed in the last week of Git commits
-  const updates = new Updates()
-  await updates.build(repo, dataset.graph)
+  const updates = await new Updates().build(repo, dataset.graph)
   // Generate the ouptut JSON file
-  await dataset.exportJsonGraph(Paths.output, repo, updates, metrics)
-  // Add the newly built dataset and make a commit
-  await repo.index.add(Paths.output)
-  const currentCommit = await repo.commit.get("HEAD")
-  const shortCommit = (currentCommit && currentCommit.short)
-    ? currentCommit.short
-    : "HEAD~1"
-  const commitMessage = `dataset from ${shortCommit}`
-  await repo.commit.create({ all: true, subject: commitMessage })
-  console.log(`[build]: commit: ${commitMessage}`)
+  await dataset.exportJsonGraph(Paths.output, repo, updates, metrics, paths)
+  // If the new dataset was not built with paths, we can commit it to the
+  // repository. Otherwise, wait until we're done making adjustments
+  if (!paths) {
+    await repo.index.add(Paths.output)
+    const currentCommit = await repo.commit.get("HEAD")
+    const shortCommit = (currentCommit && currentCommit.short)
+      ? currentCommit.short
+      : "HEAD~1"
+    const commitMessage = `dataset from ${shortCommit}`
+    await repo.commit.create({ all: true, subject: commitMessage })
+    console.log(`[build]: commit: ${commitMessage}`)
+  } else {
+    console.log(`[build]: dataset with file paths built for management tasks`)
+  }
+  return dataset
+}
+
+/** 
+ * Read in an existing version of the `export/redpanda.json` dataset for doing
+ * management tasks with. If the file paths aren't included in each vertex,
+ * perform a rebuild task so that the paths are included.
+ */
+export async function importDataset(): Promise<Dataset> {
+  const dataset = new Dataset().importJsonGraph()
+  const pathsPresent = dataset.graph.vertices.every(vertex => vertex.path)
+  if (pathsPresent)
+    return dataset
+  else
+    return await buildDataset(false, true)
 }
 
 /** 
@@ -1252,21 +1321,31 @@ export async function buildDataset(metrics: boolean) {
  * we only want to build a new dataset if there were changes to the underlying
  * red panda data since the last commit. So determine if the dataset is _fresh_
  * or represents the current state of the underlying `.txt` files.
+ * 
+ * If any error happens here, assume the dataset should be rebuild
  */
 export async function isDatasetFresh() {
-  const repo = git()
-  const datasetCommitish = JSON.parse(Deno.readTextFileSync(Paths.output))._commit
-  const currentCommit = await repo.commit.get("HEAD")
-  const datasetCommit = await repo.commit.get(datasetCommitish)
-  const patches = await repo.diff.patch({
-    from: datasetCommit,
-    to: currentCommit,
-    path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
-  })
-  // If any `.txt` files in the patch set, the dataset should be rebuilt 
-  return patches
-    .map(change => join(repo.path(), change.path))
-    .some(path => path.endsWith(".txt"))
+  try {
+    const repo = git()
+    const datasetCommitish = JSON.parse(Deno.readTextFileSync(Paths.output))._commit
+    const currentCommit = await repo.commit.get("HEAD")
+    const datasetCommit = await repo.commit.get(datasetCommitish)
+    const patches = await repo.diff.patch({
+      from: datasetCommit,
+      to: currentCommit,
+      path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
+    })
+    // If any `.txt` files in the patch set, the dataset should be rebuilt 
+    const build = patches
+      .map(change => join(repo.path(), change.path))
+      .some(path => path.endsWith(".txt"))
+    if (!build)
+      console.log(`[build] dataset is fresh and didn't need rebuilding`)
+    return build
+  } catch(_err) {
+    console.log(`[build] problem with existing dataset, so rebuilding`)
+    return false
+  } 
 }
 
 /** 
@@ -1274,5 +1353,5 @@ export async function isDatasetFresh() {
  * `redpanda-lineage` project source code, where `deno.json` is found.
  */
 if (import.meta.main) {
-  await buildDataset(true)
+  await buildDataset(true, false)
 }
