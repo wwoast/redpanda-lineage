@@ -147,7 +147,7 @@ export class Dataset {
    */
   constructor() {
     this.graph = new Graph()
-    this.ini = new IniMap({assignment: ":"})
+    this.ini = new IniMap({assignment: ": "})
     return this
   }
 

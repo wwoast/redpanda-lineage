@@ -74,6 +74,22 @@ export function processObject(entity: Vertex, edges: Edge[]) {
       working[`location.${naturalIndex}`] = `${location._id}, ${location.date}`
     })
   }
+  if ("name" in working) {
+    Object.keys(working.name).map(language =>
+      working[`${language}.name`] = working.name[language])
+  }
+  if ("nicknames" in working) {
+    Object.keys(working.nicknames).map(language =>
+      working[`${language}.nicknames`] = working.nicknames[language].join(", "))
+  }
+  if ("oldnames" in working) {
+    Object.keys(working.oldnames).map(language =>
+      working[`${language}.oldnames`] = working.oldnames[language].join(", "))
+  }
+  if ("othernames" in working) {
+    Object.keys(working.othernames).map(language =>
+      working[`${language}.othernames`] = working.othernames[language].join(", "))
+  }
   if ("photos" in working) {
     working.photos.map((photo: Photo, index: number) => {
       const naturalIndex = index + 1
@@ -102,15 +118,21 @@ export function processObject(entity: Vertex, edges: Edge[]) {
         break
       case "family":
         if (working.children == "none")
-          working.children = [edge._in._id]
-        else
-          working.children.push(edge._in._id)
+          working.children = edge._in._id
+        else {
+          const children = working.children.split(", ")
+          children.push(edge._in._id)
+          working.children = children.join(", ")
+        }
         break
       case "litter":
         if (working.litter == "none")
-          working.litter = [edge._in._id]
-        else
-          working.litter.push(edge._in._id)
+          working.litter = edge._in._id
+        else {
+          const litter = working.litter.split(", ")
+          litter.push(edge._in._id)
+          working.litter = litter.join(", ")
+        }
         break
       case "zoo":
         working.zoo = parseInt(edge._in._id) * -1
@@ -120,7 +142,15 @@ export function processObject(entity: Vertex, edges: Edge[]) {
     }
   })
   // Set the top-level key that will be treated as the section header
+  //@ts-ignore
+  delete working._in
+  //@ts-ignore
+  delete working._out
   delete working.locations
+  delete working.name
+  delete working.nicknames
+  delete working.oldnames
+  delete working.othernames
   delete working.path
   delete working.photos
   delete working.type

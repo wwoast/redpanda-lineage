@@ -106,8 +106,13 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       duplicateIndexes.forEach(index => entity.photos.splice(index, 1))
       const path = entity.path
       const processed = processObject(entity, relevantEdges)
-      const ini = dataset.ini.set(entity.type, processed)
-      Deno.writeTextFileSync(path, ini.toString())
+      // Set keys one at a time in the ini map
+      Object.keys(processed).sort().map(key =>
+        dataset.ini.set(entity.type, key, processed[key]))
+      // TODO: replace first colon on a line with colon-space, since ini-map
+      // can't reasonably handle multiple-character assignment characters
+      Deno.writeTextFileSync(path, dataset.ini.toString())
+      dataset.ini.clear()
       console.log(
         `[manage]: ${entityId}: ${url} resolved to single index: ${newIndex}\n` +
         `\tRemoved indexes: ${duplicateIndexes.join(', ')}\n`
