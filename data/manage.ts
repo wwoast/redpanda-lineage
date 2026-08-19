@@ -1,12 +1,16 @@
 import { parseArgs } from '@std/cli/parse-args'
-import { buildDataset, importDataset, isDatasetFresh } from './build.ts'
+import { Dataset,
+         buildDataset,
+         importDataset,
+         isDatasetFresh } from './build.ts'
+         import { init } from "../js/pandas.js";
 
 const helpMessage = `
 Usage:
   deno task manage <subcommand> [arguments]
 
-Manage the contents of the redpanda-lineage flat file database files. Each of
-the subcommands may generate a commit to the redpanda-lineage current branch.
+Manage the contents of the redpanda-lineage flat file database. Each of the
+subcommands may generate a commit to the redpanda-lineage current branch.
 
 Subcommands:
   --deduplicate-photo-uris
@@ -32,8 +36,66 @@ Subcommands:
         Sort image locators for all .txt files changed since the last commit.
 `
 
-function removeDuplicatePhotoUrisPerPanda() {
-
+/**
+ * If a file has the same photo URI multiple times, make a new photo entry with
+ * a union of the tags for each one, and the earlier commitdate.
+ *
+ * TODO: support media duplicates
+ */
+function resolveDuplicatePhotoUris(dataset: Dataset) {
+  interface PhotoAndPath extends Photo {
+    _id: number | string,
+    index: number,
+    path: string
+  }
+  const urlToPhotos: Record<string, PhotoAndPath[]> = {}
+  const idToVertex: Record<number | string, any> = {}
+  // Only links entities are incapable of having photos
+  const entities = dataset.graph.vertices.filter(vertex => vertex.type != "links")
+  // Lookup list for vertexes by id, for writing these entities back to disk
+  entities.map(vertex => idToVertex[vertex._id] = vertex)
+  // Collect all photo URLs and record each .txt file path and photo index
+  // where they are found
+  entities
+    .flatMap(vertex => vertex.photos.map((photo: PhotoAndPath, index: number) => {
+      photo._id = vertex._id
+      photo.index = index
+      photo.path = vertex.path
+    }))
+    .map((photo: PhotoAndPath) => {
+      if (photo.url in urlToPhotos)
+        urlToPhotos[photo.url].push(photo)
+      else
+        urlToPhotos[photo.url] = [photo]
+    })
+  // If a given url has multiple photo definitions, urlToPhotos[url] will point
+  // at multiple items. Delete anything that points at single items
+  Object.keys(urlToPhotos)
+    .filter(url => urlToPhotos[url] && urlToPhotos[url].length == 1)
+    .forEach(url => delete urlToPhotos[url])
+  // Now urlToPhotos points at any photo that is a duplicate
+  Object.keys(urlToPhotos).map(url => {
+    const photos = urlToPhotos[url]
+    const tagList = [...new Set(photos.flatMap(photo => photo.tags).sort())]
+    const pathList = [...new Set(photos.flatMap(photo => photo.path))]
+    if (pathList.length > 1)
+      console.log(
+        `[manage] manually review: multiple paths for photo: ${url}\n` +
+        pathList.map(path => `\t${path}\n`)
+      )
+    else {
+      // Find the lowest index and update the photo info
+      const duplicateIndexes = photos.map(photo => photo.index).sort()
+      const newIndex = duplicateIndexes[0]
+      const entityId = photos[newIndex]._id
+      // Delete the photo entries not matching this index
+      duplicateIndexes.forEach(index => photos.splice(index, 1))
+      // Update the photos setting 
+      const text = this.ini.stringify(idToVertex[entityId], replacePandaNode)
+      // Then for this photo path, rehydrate the vertex into the dataset
+      // TOWRITE
+    }
+  })
 }
 
 /** 
@@ -58,7 +120,7 @@ if (import.meta.main) {
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
     case (flags["deduplicate-photo-uris"]):
-      // removeDuplicatePhotoUrisPerPanda()
+      // resolveDuplicatePhotoUris(dataset)
       break
     case (flags["remove-author"]):
       // removeAuthorFromLineage(flags["remove-author"])

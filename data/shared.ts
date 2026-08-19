@@ -53,6 +53,104 @@ export const Paths: Record<string, string> = {
   zoos: "zoos/"
 }
 
+/**
+ * Replacer functions for particular entities, converting from a GraphNode
+ * or Vertex object in a dataset, back to a `.txt` INI-format file.
+ */
+
+/** 
+ * Reviver functions for particular node types, converting from `.txt`
+ * INI-format to the Dataset class object.
+ */
+
+/**
+ * When importing data from plaintext files with `[links]` data, convert any
+ * primitive values into more ergonomic TypeScript types.
+ */
+export function reviveLinksNode(key: string, value: unknown, section?: string): any {
+  if (section != "links")
+    return value   // Shouldn't happen
+  switch (true) {
+    case (key.includes("language.order")):
+      return (value as string).split(", ") as Language[]
+    default:
+      return value
+  }
+}
+
+/**
+ * When importing data from plaintext files with `[media]` data, convert any
+ * primitive values into types we can better use or validate in TypeScript.
+ */
+export function reviveMediaNode(key: string, value: unknown, section?: string) {
+  if (section != "media")
+    return value   // Shouldn't happen
+  switch (true) {
+    case (key.includes("location")):
+    case (key.includes("tags")):
+      return (value as string).split(", ")
+    default:
+      return value
+  }
+}
+
+/**
+ * When importing data from plaintext files with `[panda]` data, convert
+ * primitive values into more ergonomic TypeScript types.
+ */
+export function revivePandaNode(key: string, value: unknown, section?: string): any {
+  if (section != "panda")
+    return value   // Shouldn't happen
+  switch (true) {
+    case (key.includes("children")):
+    case (key.includes("litter")):
+      return (value as string).split(", ")
+    case (key == "language.order"):
+      return (value as string).split(", ") as Language[]
+    case (key.includes("tags")):
+      return (value as string).split(", ")
+    default:
+      return value
+  }
+}
+
+/**
+ * When importing data from plaintext files with `[wild]` data, convert any
+ * primitive values into more ergonomic TypeScript types.
+ */
+export function reviveWildNode(key: string, value: unknown, section?: string): any {
+  if (section != "wild")
+    return value   // Shouldn't happen
+  switch (true) {
+    case (key == "language.order"):
+      return (value as string).split(", ") as Language[]
+    default:
+      return value
+  }
+}
+
+  /**
+   * When importing data from plaintext files with `[zoo]` data, convert any
+   * primitive values into more ergonomic TypeScript types.
+   *
+   * The hack for ensuring integers for all connected nodes is making panda
+   * IDs positive integers, and zoo IDs negative integers!
+   */
+export function reviveZooNode(key: string, value: unknown, section?: string): any {
+  if (section != "zoo")
+    return value   // Shouldn't happen
+  switch (true) {
+    case (key.includes("_id")):
+      return (parseInt(value as string) * -1).toString()
+    case (key == "language.order"):
+      return (value as string).split(", ") as Language[]
+    case (key.includes("tags")):
+      return (value as string).split(", ")
+    default:
+      return value
+  }
+}
+
 /** Reducer functions for type narrowing of vertex lists */
 
 /** Take the input vertices and keep just links */

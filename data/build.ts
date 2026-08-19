@@ -6,7 +6,12 @@ import { PhotoEntry } from './photos.ts'
 import { Paths,
          byIdAscending,
          existsDirSync,
-         existsFileSync, 
+         existsFileSync,
+         reviveLinksNode,
+         reviveMediaNode,
+         revivePandaNode,
+         reviveWildNode,
+         reviveZooNode,
          supportedLanguages,
          toLinks,
          toMedia,
@@ -122,7 +127,7 @@ const files: Record<string, string[]> = {
  * pandas. But this should be OK as long as the ids themselves don't encode
  * type information. 
  */
-interface Dataset {
+export interface Dataset {
   /** Lists of files ingested during an ingest */
   files: Record<string, string[]>,
   /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
@@ -132,7 +137,7 @@ interface Dataset {
   /** Pre-calculated metrics for the redpandafinder dataset */
   rpf: RedPandaFinderMetrics
 }
-class Dataset {
+export class Dataset {
   files = files
   rpf = rpf
 
@@ -624,8 +629,7 @@ class Dataset {
    */
   importLinks = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path),
-      this.reviveLinksNode
+      Deno.readTextFileSync(path), reviveLinksNode
     ).toObject() as Record<"links", NodeLinks>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -643,8 +647,7 @@ class Dataset {
    */
   importMedia = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path),
-      this.reviveMediaNode
+      Deno.readTextFileSync(path), reviveMediaNode
     ).toObject() as Record<"media", NodeMedia>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -665,8 +668,7 @@ class Dataset {
    */
   importPanda = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path),
-      this.revivePandaNode
+      Deno.readTextFileSync(path), revivePandaNode
     ).toObject() as Record<"panda", NodePanda>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -720,8 +722,7 @@ class Dataset {
    */
   importWilds = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path),
-      this.reviveWildNode
+      Deno.readTextFileSync(path), reviveWildNode
     ).toObject() as Record<"wild", NodeWild>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -741,8 +742,7 @@ class Dataset {
   importZoos = (path: string) => {
     const ingest =
       this.ini.parse(
-        Deno.readTextFileSync(path),
-        this.reviveZooNode
+        Deno.readTextFileSync(path), reviveZooNode
       ).toObject() as Record<"zoo", NodeZoo>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
@@ -974,94 +974,6 @@ class Dataset {
     // Once photos[] is written, delete all old photo keys
     Object.keys(vertex).filter(key => key.match(/photo\./))
       .forEach(oldPhotoKey => delete vertex[oldPhotoKey])
-  }
-
-  /**
-   * When importing data from plaintext files with `[links]` data, convert any
-   * primitive values into more ergonomic TypeScript types.
-   */
-  reviveLinksNode = (key: string, value: unknown, section?: string): any => {
-    if (section != "links")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("language.order")):
-        return (value as string).split(", ") as Language[]
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[media]` data, convert any
-   * primitive values into types we can better use or validate in TypeScript.
-   */
-  reviveMediaNode = (key: string, value: unknown, section?: string): any => {
-    if (section != "media")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("location")):
-      case (key.includes("tags")):
-        return (value as string).split(", ")
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[panda]` data, convert
-   * primitive values into more ergonomic TypeScript types.
-   */
-  revivePandaNode = (key: string, value: unknown, section?: string): any => {
-    if (section != "panda")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("children")):
-      case (key.includes("litter")):
-        return (value as string).split(", ")
-      case (key == "language.order"):
-        return (value as string).split(", ") as Language[]
-      case (key.includes("tags")):
-        return (value as string).split(", ")
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[wild]` data, convert any
-   * primitive values into more ergonomic TypeScript types.
-   */
-  reviveWildNode = (key: string, value: unknown, section?: string): any => {
-    if (section != "wild")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key == "language.order"):
-        return (value as string).split(", ") as Language[]
-      default:
-        return value
-    }
-  }
-
-  /**
-   * When importing data from plaintext files with `[zoo]` data, convert any
-   * primitive values into more ergonomic TypeScript types.
-   *
-   * The hack for ensuring integers for all connected nodes is making panda
-   * IDs positive integers, and zoo IDs negative integers!
-   */
-  reviveZooNode = (key: string, value: unknown, section?: string): any => {
-    if (section != "zoo")
-      return value   // Shouldn't happen
-    switch (true) {
-      case (key.includes("_id")):
-        return (parseInt(value as string) * -1).toString()
-      case (key == "language.order"):
-        return (value as string).split(", ") as Language[]
-      case (key.includes("tags")):
-        return (value as string).split(", ")
-      default:
-        return value
-    }
   }
 
   verifyLinks = () => {
