@@ -95,8 +95,6 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       const resolvedPhoto =
         photos.filter(photo => photo.index == newIndex).pop() as PhotoAndPath
       const entityId = resolvedPhoto._id
-      // Delete the photo entries not matching this index
-      duplicateIndexes.forEach(index => photos.splice(index, 1))
       // Unify the tags for all the photos we deduplicated
       resolvedPhoto.tags = tagList
       // Take the updated entity and put it back on disk. Some of the node data
@@ -104,6 +102,8 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       const relevantEdges =
         dataset.graph.edges.filter(edge => edge._out._id == entityId)
       const entity = idToVertex[entityId]
+      // Delete the photo entries not matching this index
+      duplicateIndexes.forEach(index => entity.photos.splice(index, 1))
       const path = entity.path
       const processed = processObject(entity, relevantEdges)
       const ini = dataset.ini.set(entity.type, processed)
