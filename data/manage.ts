@@ -62,6 +62,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       photo._id = vertex._id
       photo.index = index
       photo.path = vertex.path
+      return photo
     }))
     .map((photo: PhotoAndPath) => {
       if (photo.url in urlToPhotos)
@@ -82,25 +83,30 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
     if (pathList.length > 1) {
       console.log(
         `[manage] WARN: manually review: multiple paths for photo: ${url}\n` +
-        pathList.map(path => `\t${path}\n`)
+        pathList.sort().map(path => `\t${path}`).join("\n") + "\n"
       )
     } else {
       // Find the lowest index and update the photo info
       const duplicateIndexes = photos.map(photo => photo.index).sort()
       const newIndex = duplicateIndexes.shift() as number
-      const entityId = photos[newIndex]._id
+      /* console.log(`new: ${newIndex}, duplicated: ${duplicateIndexes}`)
+      console.log(`${url}: ${photos[newIndex]}`)
+      console.log(JSON.stringify(photos)) */
+      const resolvedPhoto =
+        photos.filter(photo => photo.index == newIndex).pop() as PhotoAndPath
+      const entityId = resolvedPhoto._id
       // Delete the photo entries not matching this index
       duplicateIndexes.forEach(index => photos.splice(index, 1))
       // Unify the tags for all the photos we deduplicated
-      photos[newIndex].tags = tagList
+      resolvedPhoto.tags = tagList
       // Take the updated entity and put it back on disk. Some of the node data
       // becomes edges in the graph, so put those back as well.
       const relevantEdges =
         dataset.graph.edges.filter(edge => edge._out._id == entityId)
       const entity = idToVertex[entityId]
       const path = entity.path
-      const ini = dataset.ini.set(
-        entity.type, processObject(entity, relevantEdges))
+      const processed = processObject(entity, relevantEdges)
+      const ini = dataset.ini.set(entity.type, processed)
       Deno.writeTextFileSync(path, ini.toString())
       console.log(
         `[manage]: ${entityId}: ${url} resolved to single index: ${newIndex}\n` +

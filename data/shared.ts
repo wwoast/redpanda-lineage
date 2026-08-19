@@ -91,8 +91,10 @@ export function processObject(entity: Vertex, edges: Edge[]) {
     })
   }
   // Add back the data from the edges
-  working.litter = "none"
+  working.birthplace = "unknown"
   working.children = "none"
+  working.litter = "none"
+  working.zoo = "unknown"
   edges.map(edge => {
     switch (edge._label) {
       case "birthplace":
