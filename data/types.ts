@@ -99,6 +99,8 @@ declare global {
    * this information is a "best guess".
    */
   type PandaLocation = {
+    /** The numeric string zoo ID the `PandaLocation` arrival date refers to */
+    _id: string,
     /** 
      * The arrival date for a panda at a particular zoo. For zoos, this is a
      * exact YYYY/MM/DD date, or sometimes, a best guess to the 1st of the month.
@@ -106,9 +108,7 @@ declare global {
      * Wild-captured zoo animals will have a mix of wild arrival dates and zoo
      * arrival dates.
      */
-    date: string,
-    /** The numeric string zoo ID the `PandaLocation` arrival date refers to */
-    zoo: string
+    date: string
   }
 
   /** 
@@ -212,7 +212,7 @@ declare global {
     /** Animals born in the same litter as this one, by numeric string ID */
     litter: string[],
     /** List from oldest to newest, of zoo locations the panda has lived at */
-    location: PandaLocation[], 
+    locations: PandaLocation[], 
     /** 
      * Primary name for this animal, in each language. These tend to be direct
      * translations, but occasionally animals are renamed when they change zoos.

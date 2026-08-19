@@ -1,9 +1,10 @@
+import { IniMap } from '@std/ini/ini-map'
 import { parseArgs } from '@std/cli/parse-args'
 import { Dataset,
          buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
-         import { init } from "../js/pandas.js";
+import { processObject } from './shared.ts'
 
 const helpMessage = `
 Usage:
@@ -38,9 +39,9 @@ Subcommands:
 
 /**
  * If a file has the same photo URI multiple times, make a new photo entry with
- * a union of the tags for each one, and the earlier commitdate.
- *
- * TODO: support media duplicates
+ * a union of the tags for each one, and the earlier commitdate. We track
+ * duplicates across the entire dataset now, but if a photos is in two or more
+ * distinct entity files
  */
 function resolveDuplicatePhotoUris(dataset: Dataset) {
   interface PhotoAndPath extends Photo {
@@ -78,24 +79,36 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
     const photos = urlToPhotos[url]
     const tagList = [...new Set(photos.flatMap(photo => photo.tags).sort())]
     const pathList = [...new Set(photos.flatMap(photo => photo.path))]
-    if (pathList.length > 1)
+    if (pathList.length > 1) {
       console.log(
-        `[manage] manually review: multiple paths for photo: ${url}\n` +
+        `[manage] WARN: manually review: multiple paths for photo: ${url}\n` +
         pathList.map(path => `\t${path}\n`)
       )
-    else {
+    } else {
       // Find the lowest index and update the photo info
       const duplicateIndexes = photos.map(photo => photo.index).sort()
-      const newIndex = duplicateIndexes[0]
+      const newIndex = duplicateIndexes.shift() as number
       const entityId = photos[newIndex]._id
       // Delete the photo entries not matching this index
       duplicateIndexes.forEach(index => photos.splice(index, 1))
-      // Update the photos setting 
-      const text = this.ini.stringify(idToVertex[entityId], replacePandaNode)
-      // Then for this photo path, rehydrate the vertex into the dataset
-      // TOWRITE
+      // Unify the tags for all the photos we deduplicated
+      photos[newIndex].tags = tagList
+      // Take the updated entity and put it back on disk. Some of the node data
+      // becomes edges in the graph, so put those back as well.
+      const relevantEdges =
+        dataset.graph.edges.filter(edge => edge._out._id == entityId)
+      const entity = idToVertex[entityId]
+      const path = entity.path
+      const ini = dataset.ini.set(
+        entity.type, processObject(entity, relevantEdges))
+      Deno.writeTextFileSync(path, ini.toString())
+      console.log(
+        `[manage]: ${entityId}: ${url} resolved to single index: ${newIndex}\n` +
+        `\tRemoved indexes: ${duplicateIndexes.join(', ')}\n`
+      )
     }
   })
+  console.log(`[manage] ${Object.keys(urlToPhotos).length} total duplicated photos.`)
 }
 
 /** 
@@ -113,14 +126,14 @@ if (import.meta.main) {
   // Either build a new dataset, or import an existing one
   const buildNeeded = await isDatasetFresh()
   const dataset = (!buildNeeded)
-    ? importDataset()
+    ? await importDataset()
     : await buildDataset(false, true)
   // Now we can assume `export/redpanda.json` exactly represents the underlying
   // data, and our other checks can make decisions about processing entirely on
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
     case (flags["deduplicate-photo-uris"]):
-      // resolveDuplicatePhotoUris(dataset)
+      resolveDuplicatePhotoUris(dataset)
       break
     case (flags["remove-author"]):
       // removeAuthorFromLineage(flags["remove-author"])
@@ -157,4 +170,5 @@ if (import.meta.main) {
       console.log(helpMessage)
       Deno.exit(1)
   }
+  // TODO: once we've done all this, build an updated dataset
 }

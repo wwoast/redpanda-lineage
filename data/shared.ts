@@ -1,4 +1,4 @@
-import type { Vertex } from './dagoba.ts'
+import type { Edge, Vertex } from './dagoba.ts'
 
 /** Keep consistent with the `NodeType` type definition */
 export const nodeTypes: NodeType[] = ["links", "media", "panda", "wild", "zoo"]
@@ -57,6 +57,73 @@ export const Paths: Record<string, string> = {
  * Replacer functions for particular entities, converting from a GraphNode
  * or Vertex object in a dataset, back to a `.txt` INI-format file.
  */
+
+/** 
+ * Prepare an entity drawn from the JSON graph, to be reserialized to a
+ * `.txt` INI-format file. The vertex type is made the top-level object key,
+ * locations and photos values are unspooled into key/value fields, where
+ * each value is a string.
+ */
+export function processObject(entity: Vertex, edges: Edge[]) {
+  const working = structuredClone(entity)
+  if ("language.order" in working)
+    working['language.order'] = working['language.order'].join(', ')
+  if ("locations" in working) {
+    working.locations.map((location: PandaLocation, index: number) => {
+      const naturalIndex = index + 1
+      working[`location.${naturalIndex}`] = `${location._id}, ${location.date}`
+    })
+  }
+  if ("photos" in working) {
+    working.photos.map((photo: Photo, index: number) => {
+      const naturalIndex = index + 1
+      working[`photo.${naturalIndex}`] = photo.url
+      working[`photo.${naturalIndex}.author`] = photo.author
+      working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
+      working[`photo.${naturalIndex}.link`] = photo.source
+      working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
+      if (photo.locations) {
+        Object.entries(photo.locations).map((entry: [string, [number, number]]) => {
+          const [pandaId, coordinates] = entry
+          working[`photo.${naturalIndex}.tags.${pandaId}.location`] = coordinates.join(', ')
+        })
+      }
+    })
+  }
+  // Add back the data from the edges
+  working.litter = "none"
+  working.children = "none"
+  edges.map(edge => {
+    switch (edge._label) {
+      case "birthplace":
+        working.birthplace = parseInt(edge._in._id) * -1
+        break
+      case "family":
+        if (working.children == "none")
+          working.children = [edge._in._id]
+        else
+          working.children.push(edge._in._id)
+        break
+      case "litter":
+        if (working.litter == "none")
+          working.litter = [edge._in._id]
+        else
+          working.litter.push(edge._in._id)
+        break
+      case "zoo":
+        working.zoo = parseInt(edge._in._id) * -1
+        break
+      default:
+        console.log(`[shared] unknown edge type: ${edge._label}`)
+    }
+  })
+  // Set the top-level key that will be treated as the section header
+  delete working.locations
+  delete working.path
+  delete working.photos
+  delete working.type
+  return working
+}
 
 /** 
  * Reviver functions for particular node types, converting from `.txt`
@@ -178,7 +245,6 @@ export function toPhotoEntities(
   accumulator: (NodeMedia | NodePanda | NodeWild | NodeZoo)[],
   vertex: Vertex
 ) {
-  const photoEntityVertices = ['media', 'panda', 'wild', 'zoo']
   if (vertex.type == 'media')
     accumulator.push(vertex as NodeMedia)
   else if (vertex.type == 'panda')
