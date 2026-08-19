@@ -631,12 +631,13 @@ export class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path), reviveLinksNode
     ).toObject() as Record<"links", NodeLinks>
+    // Don't keep state on the ini map / cross-contaminate nodes
+    this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.links, "links") as NodeLinks
     this.graph.addVertex(node)
     this.files.links.push(path)
-    this.ini.clear()
   }
 
   /**
@@ -650,12 +651,13 @@ export class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path), reviveMediaNode
     ).toObject() as Record<"media", NodeMedia>
+    // Don't keep state on the ini map / cross-contaminate nodes
+    this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
     this.graph.addVertex(node)
     this.files.media.push(path)
-    this.ini.clear()
   }
 
   /**
@@ -672,12 +674,13 @@ export class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path), revivePandaNode
     ).toObject() as Record<"panda", NodePanda>
+    // Don't keep state on the ini map / cross-contaminate nodes
+    this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.panda, "panda") as NodePanda
     this.graph.addVertex(node)
     this.files.panda.push(path)
-    this.ini.clear()
   }
 
   /**
@@ -727,12 +730,13 @@ export class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path), reviveWildNode
     ).toObject() as Record<"wild", NodeWild>
+    // Don't keep state on the ini map / cross-contaminate nodes
+    this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.wild, "wild") as NodeWild
     this.graph.addVertex(node)
     this.files.wild.push(path)
-    this.ini.clear()
   }
 
   /**
@@ -747,12 +751,13 @@ export class Dataset {
     const ingest = this.ini.parse(
       Deno.readTextFileSync(path), reviveZooNode
     ).toObject() as Record<"zoo", NodeZoo>
+    // Don't keep state on the ini map / cross-contaminate nodes
+    this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.zoo, "zoo") as NodeZoo
     this.graph.addVertex(node)
     this.files.zoo.push(path)
-    this.ini.clear()
   }
 
   /**
