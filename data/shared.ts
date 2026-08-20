@@ -69,17 +69,14 @@ export const Paths: Record<string, string> = {
 export function processObject(entity: GraphNode, edges: Edge[]) {
   switch (entity.type) {
     case "panda":
-      processPandaObject(entity, edges)
-      break
+      return processPandaObject(entity, edges)
     case "media":
-      processMediaObject(entity)
-      break
+      return processMediaObject(entity)
     case "wild":
     case "zoo":
-      processZooObject(entity)
-      break
+      return processZooObject(entity)
     default:
-      console.log(`[manage] ${entity._id}: unknown node object type: ${entity.type}`)
+      throw new Error(`[manage] ${entity._id}: unknown node object type: ${entity.type}`)
   }
 }
 
