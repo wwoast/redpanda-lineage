@@ -412,7 +412,7 @@ export function byFieldName(v1: string, v2: string) {
   const v1s = v1.split(".")
   const v2s = v2.split(".")
   // No splits in the key
-  if (v1s.length == 1 || v2s.length == 1)
+  if (v1s.length == 1 && v2s.length == 1)
     return valueSort(v1, v2)
   // OK, one of the keys have a split
   for (const [i, p1] of v1s.entries()) {
@@ -428,11 +428,12 @@ export function byFieldName(v1: string, v2: string) {
     // Treat these as numbers
     const n1 = parseInt(p1)
     const n2 = parseInt(p2)
-    if (n1 != n2)
+    if (n1 == n2)
+      return valueSort(v1s.length, v2s.length)
+    else if (n1 != n2) 
       return valueSort(n1, n2)
     else
       continue
   }
-  // Do alphabetic sort otherwise
   return valueSort(v1, v2)
 }
