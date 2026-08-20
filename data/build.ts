@@ -966,7 +966,7 @@ export class Dataset {
           vertex["panda.tags"].map(pandaId => {
             const field = `${photoKey}.tags.${pandaId}.location`
             if (!vertex[field])
-              throw new Error(`[build] ERR: ${vertex._id}: missing one or more location tags: ${photoKey}`)
+              throw new Error(`[build] ERR: ${vertex._id}: missing: ${field}`)
             return [pandaId, [
               parseInt(vertex[field][0]),
               parseInt(vertex[field][1])

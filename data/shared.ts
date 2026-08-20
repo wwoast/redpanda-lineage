@@ -64,8 +64,60 @@ export const Paths: Record<string, string> = {
  * `.txt` INI-format file. The vertex type is made the top-level object key,
  * locations and photos values are unspooled into key/value fields, where
  * each value is a string.
+ * 
  */
-export function processObject(entity: Vertex, edges: Edge[]) {
+export function processObject(entity: GraphNode, edges: Edge[]) {
+  switch (entity.type) {
+    case "panda":
+      processPandaObject(entity, edges)
+      break
+    case "media":
+      processMediaObject(entity)
+      break
+    case "wild":
+    case "zoo":
+      processZooObject(entity)
+      break
+    default:
+      console.log(`[manage] ${entity._id}: unknown node object type: ${entity.type}`)
+  }
+}
+
+/** TODO: stricter typing on entity, oldnames in PandaNode */
+export function processMediaObject(entity: Vertex) {
+  const working = structuredClone(entity)
+  if ("panda.tags" in working)
+    working['panda.tags'] = working['panda.tags'].join(', ')
+  if ("language.order" in working)
+    working['language.order'] = working['language.order'].join(', ')
+  if ("photos" in working) {
+    working.photos.map((photo: Photo, index: number) => {
+      const naturalIndex = index + 1
+      working[`photo.${naturalIndex}`] = photo.url
+      working[`photo.${naturalIndex}.author`] = photo.author
+      working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
+      working[`photo.${naturalIndex}.link`] = photo.source
+      working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
+      if (photo.locations) {
+        Object.entries(photo.locations).map((entry: [string, [number, number]]) => {
+          const [pandaId, coordinates] = entry
+          working[`photo.${naturalIndex}.tags.${pandaId}.location`] = coordinates.join(', ')
+        })
+      }
+    })
+  }
+  //@ts-ignore
+  delete working._in
+  //@ts-ignore
+  delete working._out
+  delete working.path
+  delete working.photos
+  delete working.type
+  return working
+}
+
+/** TODO: stricter typing on entity, oldnames in PandaNode */
+export function processPandaObject(entity: Vertex, edges: Edge[]) {
   const working = structuredClone(entity)
   if ("language.order" in working)
     working['language.order'] = working['language.order'].join(', ')
@@ -99,15 +151,10 @@ export function processObject(entity: Vertex, edges: Edge[]) {
       working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
       working[`photo.${naturalIndex}.link`] = photo.source
       working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
-      if (photo.locations) {
-        Object.entries(photo.locations).map((entry: [string, [number, number]]) => {
-          const [pandaId, coordinates] = entry
-          working[`photo.${naturalIndex}.tags.${pandaId}.location`] = coordinates.join(', ')
-        })
-      }
     })
   }
   // Add back the data from the edges
+  // TODO: differentiate between media, panda objects, wild  objects, and zoo objects
   working.birthplace = "unknown"
   working.children = "none"
   working.litter = "none"
@@ -157,6 +204,51 @@ export function processObject(entity: Vertex, edges: Edge[]) {
   delete working.type
   return working
 }
+
+/** TODO: stricter typing on entity, oldnames in PandaNode */
+export function processZooObject(entity: Vertex) {
+  const working = structuredClone(entity)
+  if ("address" in working) {
+    Object.keys(working.address).map(language =>
+      working[`${language}.address`] = working.address[language])
+  }
+  if ("language.order" in working)
+    working['language.order'] = working['language.order'].join(', ')
+  if ("location" in working) {
+    Object.keys(working.location).map(language =>
+      working[`${language}.location`] = working.location[language])
+  }
+  if ("name" in working) {
+    Object.keys(working.name).map(language =>
+      working[`${language}.name`] = working.name[language])
+  }
+  if ("othernames" in working) {
+    Object.keys(working.othernames).map(language =>
+      working[`${language}.othernames`] = working.othernames[language].join(", "))
+  }
+  if ("photos" in working) {
+    working.photos.map((photo: Photo, index: number) => {
+      const naturalIndex = index + 1
+      working[`photo.${naturalIndex}`] = photo.url
+      working[`photo.${naturalIndex}.author`] = photo.author
+      working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
+      working[`photo.${naturalIndex}.link`] = photo.source
+      working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
+    })
+  }
+  // Set the top-level key that will be treated as the section header
+  //@ts-ignore
+  delete working._in
+  //@ts-ignore
+  delete working._out
+  delete working.name
+  delete working.othernames
+  delete working.path
+  delete working.photos
+  delete working.type
+  return working
+}
+
 
 /** 
  * Reviver functions for particular node types, converting from `.txt`
