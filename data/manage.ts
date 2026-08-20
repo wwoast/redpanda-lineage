@@ -77,9 +77,9 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
     .forEach(url => delete urlToPhotos[url])
   // Now urlToPhotos points at any photo that is a duplicate
   Object.keys(urlToPhotos).map(url => {
-    const photos = urlToPhotos[url]
-    const tagList = [...new Set(photos.flatMap(photo => photo.tags).sort())]
-    const pathList = [...new Set(photos.flatMap(photo => photo.path))]
+    const dupes = urlToPhotos[url]
+    const tagList = [...new Set(dupes.flatMap(photo => photo.tags).sort())]
+    const pathList = [...new Set(dupes)]
     if (pathList.length > 1) {
       console.log(
         `[manage] WARN: manually review: multiple paths for photo: ${url}\n` +
@@ -87,16 +87,25 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       )
     } else {
       // Find the lowest index and update the photo info
-      const duplicateIndexes = photos.map(photo => photo.index).sort()
+      const duplicateIndexes = dupes.map(photo => photo.index).sort()
       const newIndex = duplicateIndexes.shift() as number
       /* console.log(`new: ${newIndex}, duplicated: ${duplicateIndexes}`)
       console.log(`${url}: ${photos[newIndex]}`)
       console.log(JSON.stringify(photos)) */
       const resolvedPhoto =
-        photos.filter(photo => photo.index == newIndex).pop() as PhotoAndPath
+        dupes.filter(photo => photo.index == newIndex).pop() as PhotoAndPath
       const entityId = resolvedPhoto._id
       // Unify the tags for all the photos we deduplicated
       resolvedPhoto.tags = tagList
+      // Pick the lowest commitdate for the duplicate photo
+      resolvedPhoto.commitdate = dupes
+        .map(photo => photo.commitdate)
+        .reduce((earliestDate: string, commitDate: string) => {
+          const earliestTime = new Date(earliestDate).getTime()
+          const commitTime = new Date(commitDate).getTime()
+          return (commitTime < earliestTime)
+            ? commitDate : earliestDate
+        }, "9999/9/9")
       // Take the updated entity and put it back on disk. Some of the node data
       // becomes edges in the graph, so put those back as well.
       const relevantEdges =
