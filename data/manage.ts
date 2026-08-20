@@ -109,9 +109,11 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       // Set keys one at a time in the ini map
       Object.keys(processed).sort().map(key =>
         dataset.ini.set(entity.type, key, processed[key]))
-      // TODO: replace first colon on a line with colon-space, since ini-map
-      // can't reasonably handle multiple-character assignment characters
-      Deno.writeTextFileSync(path, dataset.ini.toString())
+      // Replace first colon on a line with colon-space, since ini-map
+      // can't reasonably handle multiple-character assignment symbols
+      const output = dataset.ini.toString()
+        .split("\n").map(line => line.replace(":", ": ")).join("\n")
+      Deno.writeTextFileSync(path, output)
       dataset.ini.clear()
       console.log(
         `[manage]: ${entityId}: ${url} resolved to single index: ${newIndex}\n` +
