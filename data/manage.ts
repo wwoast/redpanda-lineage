@@ -79,11 +79,11 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
   Object.keys(urlToPhotos).map(url => {
     const dupes = urlToPhotos[url]
     const tagList = [...new Set(dupes.flatMap(photo => photo.tags).sort())]
-    const pathList = [...new Set(dupes)]
+    const pathList = [...new Set(dupes.map(photo => photo.path).sort())]
     if (pathList.length > 1) {
       console.log(
         `[manage] WARN: manually review: multiple paths for photo: ${url}\n` +
-        pathList.sort().map(path => `\t${path}`).join("\n") + "\n"
+        pathList.map(path => `\t${path}`).join("\n") + "\n"
       )
     } else {
       // Find the lowest index and update the photo info
