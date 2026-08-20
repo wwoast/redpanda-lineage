@@ -428,12 +428,15 @@ export function byFieldName(v1: string, v2: string) {
     // Treat these as numbers
     const n1 = parseInt(p1)
     const n2 = parseInt(p2)
+    // Put "photo.1" before "photo.1.author"
     if (n1 == n2)
       return valueSort(v1s.length, v2s.length)
+    // Put "photo.1" before "photo.2"
     else if (n1 != n2) 
       return valueSort(n1, n2)
     else
       continue
   }
+  // Fallback
   return valueSort(v1, v2)
 }
