@@ -1,10 +1,10 @@
-import { IniMap } from '@std/ini/ini-map'
 import { parseArgs } from '@std/cli/parse-args'
 import { Dataset,
          buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
-import { processObject } from './shared.ts'
+import { byFieldName,
+         processObject } from './shared.ts'
 
 const helpMessage = `
 Usage:
@@ -107,7 +107,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       const path = entity.path
       const processed = processObject(entity, relevantEdges)
       // Set keys one at a time in the ini map
-      Object.keys(processed).sort().map(key =>
+      Object.keys(processed).sort(byFieldName).map(key =>
         dataset.ini.set(entity.type, key, processed[key]))
       // Replace first colon on a line with colon-space, since ini-map
       // can't reasonably handle multiple-character assignment symbols

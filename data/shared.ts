@@ -1,3 +1,4 @@
+import { version } from "../js/jsleri-1.1.15.js";
 import type { Edge, Vertex } from './dagoba.ts'
 
 /** Keep consistent with the `NodeType` type definition */
@@ -307,4 +308,42 @@ export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
 /** Sort numeric IDs from lowest to highest */
 export function byIdAscending(v1: Record<string, any>, v2: Record<string, any>) {
   return v1._id - v2._id
+}
+
+/** 
+ * Sort all keys in a redpandafinder `.txt` database file. Alphabetic sort,
+ * except for if any of the components of the key are numbers, numeric sort.
+ */
+export function byFieldName(v1: string, v2: string) {
+  function valueSort(a: string | number, b: string | number) {
+    if (a < b) return -1
+    else if (a > b) return 1
+    else return 0
+  }
+  const v1s = v1.split(".")
+  const v2s = v2.split(".")
+  // No splits in the key
+  if (v1s.length == 1 || v2s.length == 1)
+    return valueSort(v1, v2)
+  // OK, one of the keys have a split
+  for (const [i, p1] of v1s.entries()) {
+    const p2 = v2s[i]
+    if (p2 == undefined)   // p1 is longer
+      return -1   // p1 wins
+    if (isNaN(parseInt(p1)) || isNaN(parseInt(p2))) {
+      if (p1 != p2)
+        return valueSort(p1, p2)
+      else
+        continue
+    }
+    // Treat these as numbers
+    const n1 = parseInt(p1)
+    const n2 = parseInt(p2)
+    if (n1 != n2)
+      return valueSort(n1, n2)
+    else
+      continue
+  }
+  // Do alphabetic sort otherwise
+  return valueSort(v1, v2)
 }
