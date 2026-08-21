@@ -4,6 +4,7 @@ import { Dataset,
          importDataset,
          isDatasetFresh } from './build.ts'
 import { byFieldName,
+         existsFileSync,
          processObject } from './shared.ts'
 
 const helpMessage = `
@@ -36,6 +37,34 @@ Subcommands:
   --sort-image-updates
         Sort image locators for all .txt files changed since the last commit.
 `
+
+/** 
+ * Given a file path and a photo index ID, remove the photo and renumber all
+ * photos inside the file. Determine which of the argument inputs are valid
+ * photo indices, and then delete them from highest-index to lowest-index, so
+ * that deleting the higher indexes doesn't cause the lower ones to be shifted.
+ * 
+ * Returns a map of _id to the list of photo indexes that were removed, in case
+ * we want to not just remove these photos from our listing, but also wish to
+ * delete them from the server they're stored on.
+ */
+function removePhotoFromEntity(path: string, indexes: any[]): Record<string, number[]> {
+  if (!existsFileSync(path))
+    throw new Error(`[manage] ${path}: file doesn't exist`)
+  const removeIndices: number[] = indexes.map((index: any) => {
+    if (isNaN(parseInt(index)) || index < 1)
+      throw new Error(`[manage] index ${index}: must be a natural number.`)
+    else
+      return index
+  })
+  // Open the file with an ini mapper. The section is the file type, and the _id
+  // value is going to be the value in the graph (times -1 if a zoo).
+  const split = path.split("/")
+  const entityType = split[1].replace(/s$/, "")
+  const idString = split[split.length - 1].split("_")[0].replace(/^0*/, "")
+  const entityId = (entityType == "zoo") ? parseInt(idString) * -1 : parseInt(idString)
+}
+
 
 /**
  * If a file has the same photo URI multiple times, make a new photo entry with
@@ -89,9 +118,6 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       // Find the lowest index and update the photo info
       const duplicateIndexes = dupes.map(photo => photo.index).sort()
       const newIndex = duplicateIndexes.shift() as number
-      /* console.log(`new: ${newIndex}, duplicated: ${duplicateIndexes}`)
-      console.log(`${url}: ${photos[newIndex]}`)
-      console.log(JSON.stringify(photos)) */
       const resolvedPhoto =
         dupes.filter(photo => photo.index == newIndex).pop() as PhotoAndPath
       const entityId = resolvedPhoto._id
@@ -133,19 +159,28 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
   console.log(`[manage] ${Object.keys(urlToPhotos).length} total duplicated photos.`)
 }
 
+/**
+ * Sorting image locators is just a matter of tracking an entity, and making
+ * sure when it's reserialized, 
+ */
+
 /** 
  * `deno task` runs this script relative from the root of the
  * `redpanda-lineage` project source code, where `deno.json` is found.
  */
 if (import.meta.main) {
   // TODO: check CLI arguments with options that enforce data types
-  const { _: args, ...flags } = parseArgs(Deno.args)
+  const { _: args, ...flags } = parseArgs(Deno.args, {
+    boolean: ["deduplicate-photo-uris", "sort-image-updates"],
+    string: ["remove-author", "remove-duplicate", "remove-photo", "restore-author"]
+  })
   // If no arguments, don't try and build the dataset
   if (Object.keys(flags).length == 0) {
     console.log(helpMessage)
     Deno.exit(0)
   }
-  // Either build a new dataset, or import an existing one
+  // Either build a new dataset, or import an existing one. Make sure we have
+  // file paths represented on every vertex.
   const buildNeeded = await isDatasetFresh()
   const dataset = (!buildNeeded)
     ? await importDataset()
@@ -154,40 +189,26 @@ if (import.meta.main) {
   // data, and our other checks can make decisions about processing entirely on
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
-    case (flags["deduplicate-photo-uris"]):
+    case ("deduplicate-photo-uris" in flags):
       resolveDuplicatePhotoUris(dataset)
       await buildDataset(true, false)   // ready to publish
       break
-    case (flags["remove-author"]):
+    case ("remove-author" in flags):
       // removeAuthorFromLineage(flags["remove-author"])
       break
-    case (flags["remove-duplicate"]):
-      // TODO: get file path (first argument) and photo id (second argument)
+    case ("remove-duplicate" in flags):
+      // removePhotoFromEntity(flags["remove-duplicate"], args)
+      // deletePhotoFromServer()
       break
-    case (flags["remove-photo"]):
-      // TODO: get file path (first argument) and photo id (second argument)
+    case ("remove-photo" in flags):
+      // removePhotoFromEntity(flags["remove-photo"], args[0])
       break
-    case (flags["restore-author"]): {
-      // handle the case with a commit, and without a commit
-      // restoreAuthorToLineage(flags["restore-author"])
-      break
-    }
-    case (flags["sort-image-locators"]): {
-      const filePath = flags["sort-image-locators"]
-      // sortImageLocators(filePath)
-      // TODO: check ^^ returns false / has non cwdc urls
-      /**            
-       * Inner functions don't manage their git commits, so do it here
-            repo = git.Repo(".")
-            repo.git.add(file_path)
-            message = "sorted path: {path}".format(path=file_path)
-            repo.index.commit(message)
-            repo.close()
-       */
+    case ("restore-author" in flags): {
+      // restoreAuthorToLineage(flags["restore-author"], args[0])
       break
     }
-    case (flags["sort-image-updates"]):
-      // sortImageUpdates()
+    case ("sort-image-updates" in flags):
+      // sortImageUpdates(dataset)
       break
     default:
       console.log(helpMessage)
