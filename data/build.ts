@@ -44,33 +44,6 @@ interface PhotoMetrics {
   /** Most animals in a single group photo */
   group: number
 }
-/** List of metrics related to photos ingested by this script */
-const photoMetrics: PhotoMetrics = {
-  credit: {},
-  max: 0,
-  group: 0
-}
-
-/** Total contributors, pandas, zoos, photos, and entity counters */
-const totalsMetrics: Record<string, number> = {
-  /** Number of photo contributors to redpandafinder */
-  credit: 0,
-  /** Total number of entities tracked */
-  entities: 0,
-  /** Total number of photos in redpandafinder */
-  photos: 0,
-}
-
-const updatesMetrics: Record<string, number> = {
-  /** Number of new authors in the latest git update */
-  authors: 0,
-  /** Number of new pandas in the latest git update */
-  pandas: 0,
-  /** Number of new photos in the latest git update */
-  photos: 0,
-  /** Number of new zoos in the latest git update */
-  zoos: 0
-}
 
 interface RedPandaFinderMetrics {
   /** Most recently born animal being tracked */
@@ -85,29 +58,6 @@ interface RedPandaFinderMetrics {
   totals: Record<string, number>,
   /** Tracking update counts */
   updates: Record<string, number>
-}
-/** Data specifically for redpandafinder use */
-const rpf: RedPandaFinderMetrics = {
-  last_born: 1970,
-  last_died: 1970,
-  lexer_names: new Set<string>(),
-  photos: photoMetrics,
-  totals: totalsMetrics,
-  updates: updatesMetrics,
-}
-
-/** Lists of files ingested during an ingest */
-const files: Record<string, string[]> = {
-  /** Files containing list of links in a handful of categories */
-  links: [],
-  /** Files representing photos of sets of multiple pandas */
-  media: [],
-  /** Files representing a single panda id */
-  panda: [],
-  /** Files representing a wild animal sighting location */
-  wild: [],
-  /** Files representing specific zoos */
-  zoo: []
 }
 
 /**
@@ -138,8 +88,48 @@ export interface Dataset {
   rpf: RedPandaFinderMetrics
 }
 export class Dataset {
-  files = files
-  rpf = rpf
+  /** Files containing list of links in a handful of categories */
+  files: Record<string, string[]> = {
+    /** Files containing list of links in a handful of categories */
+    links: [],
+    /** Files representing photos of sets of multiple pandas */
+    media: [],
+    /** Files representing a single panda id */
+    panda: [],
+    /** Files representing a wild animal sighting location */
+    wild: [],
+    /** Files representing specific zoos */
+    zoo: []
+  }
+  rpf: RedPandaFinderMetrics = {
+    last_born: 1970,
+    last_died: 1970,
+    lexer_names: new Set<string>(),
+    photos: {
+      credit: {},
+      max: 0,
+      group: 0
+    },
+    /** Total contributors, pandas, zoos, photos, and entity counters */
+    totals: {
+      /** Number of photo contributors to redpandafinder */
+      credit: 0,
+      /** Total number of entities tracked */
+      entities: 0,
+      /** Total number of photos in redpandafinder */
+      photos: 0,
+    },
+    updates: {
+      /** Number of new authors in the latest git update */
+      authors: 0,
+      /** Number of new pandas in the latest git update */
+      pandas: 0,
+      /** Number of new photos in the latest git update */
+      photos: 0,
+      /** Number of new zoos in the latest git update */
+      zoos: 0
+    }
+  }
 
   /** 
    * Read in all files to build a red panda graph. Verification of panda data
