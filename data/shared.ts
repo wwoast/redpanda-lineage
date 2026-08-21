@@ -116,6 +116,11 @@ export function processMediaObject(entity: Vertex) {
 /** TODO: stricter typing on entity, oldnames in PandaNode */
 export function processPandaObject(entity: Vertex, edges: Edge[]) {
   const working = structuredClone(entity)
+  // Unknown gender is just elided in the JSON. Add it back
+  if ("gender" in working)
+    working.gender = (working.gender == "Female") ? "f" : "m"
+  else
+    working.gender = "unknown"
   if ("language.order" in working)
     working['language.order'] = working['language.order'].join(', ')
   if ("locations" in working) {

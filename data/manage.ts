@@ -95,8 +95,6 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       const resolvedPhoto =
         dupes.filter(photo => photo.index == newIndex).pop() as PhotoAndPath
       const entityId = resolvedPhoto._id
-      // Unify the tags for all the photos we deduplicated
-      resolvedPhoto.tags = tagList
       // Pick the lowest commitdate for the duplicate photo
       resolvedPhoto.commitdate = dupes
         .map(photo => photo.commitdate)
@@ -106,6 +104,8 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
           return (commitTime < earliestTime)
             ? commitDate : earliestDate
         }, "9999/9/9")
+      // Unify the tags for all the photos we deduplicated
+      resolvedPhoto.tags = tagList
       // Take the updated entity and put it back on disk. Some of the node data
       // becomes edges in the graph, so put those back as well.
       const relevantEdges =
