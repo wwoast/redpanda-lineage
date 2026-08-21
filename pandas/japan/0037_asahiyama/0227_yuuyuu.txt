@@ -5,13 +5,12 @@ birthplace: 5
 children: 149, 225, 226, 233, 234, 235, 236, 1189, 1190, 1370, 1371
 commitdate: 2018/7/27
 en.name: Yuu-Yuu
-en.nicknames: none
 en.othernames: Yuyu, Yū-Yū, Yuuyuu
 gender: f
 ja.name: 渝渝
-ja.nicknames: none
 ja.othernames: ユーユー
 language.order: ja, en
+litter: none
 location.1: 5, 2011/5/28
 location.2: 2, 2013/3/30
 location.3: 37, 2013/7/10
@@ -184,47 +183,42 @@ photo.34: cwdc://XzREHBdADQA.jpg
 photo.34.author: ho0oipo
 photo.34.commitdate: 2021/11/15
 photo.34.link: ig://CVpuS-esi2l
-photo.34.tags: apple time, portrait, tail, toys, upside-down
-photo.35: cwdc://XzREHBdADQA.jpg
-photo.35.author: ho0oipo
-photo.35.commitdate: 2024/5/29
-photo.35.link: ig://CVpuS-esi2l
-photo.35.tags: bamboo, tail, toys
-photo.36: cwdc://YCUBDH7ADQA.jpg
+photo.34.tags: apple time, bamboo, portrait, tail, toys, upside-down
+photo.35: cwdc://YCUBDH7ADQA.jpg
+photo.35.author: leonard_redmof
+photo.35.commitdate: 2022/7/23
+photo.35.link: ig://CdLMxBtraTC
+photo.35.tags: bridge, itchy, paws, tail
+photo.36: cwdc://YCUBDH7ADQB.jpg
 photo.36.author: leonard_redmof
-photo.36.commitdate: 2022/7/23
-photo.36.link: ig://CdLMxBtraTC
-photo.36.tags: bridge, itchy, paws, tail
-photo.37: cwdc://YCUBDH7ADQB.jpg
-photo.37.author: leonard_redmof
-photo.37.commitdate: 2024/5/29
-photo.37.link: ig://CdLMxBtraTD
-photo.37.tags: bamboo, paws, portrait, tongue, whiskers
-photo.38: cwdc://YDFNmf_ADQB.jpg
-photo.38.author: mari_neko3
-photo.38.commitdate: 2022/6/6
-photo.38.link: ig://CdjzCtvvmX2
-photo.38.tags: close-up, portrait, sample, smile, whiskers
-photo.39: cwdc://Yb4oxQzADQA.jpg
+photo.36.commitdate: 2024/5/29
+photo.36.link: ig://CdLMxBtraTD
+photo.36.tags: bamboo, paws, portrait, tongue, whiskers
+photo.37: cwdc://YDFNmf_ADQB.jpg
+photo.37.author: mari_neko3
+photo.37.commitdate: 2022/6/6
+photo.37.link: ig://CdjzCtvvmX2
+photo.37.tags: close-up, portrait, sample, smile, whiskers
+photo.38: cwdc://Yb4oxQzADQA.jpg
+photo.38.author: yuredpanda
+photo.38.commitdate: 2023/6/20
+photo.38.link: ig://Cp9goGJrajK
+photo.38.tags: close-up, portrait, portrati, smile, snow, tongue
+photo.39: cwdc://Yb4oxQzADQB.jpg
 photo.39.author: yuredpanda
-photo.39.commitdate: 2023/6/20
-photo.39.link: ig://Cp9goGJrajK
-photo.39.tags: close-up, portrait, portrati, smile, snow, tongue
-photo.40: cwdc://Yb4oxQzADQB.jpg
-photo.40.author: yuredpanda
+photo.39.commitdate: 2024/5/29
+photo.39.link: ig://Cp9goGJrajL
+photo.39.tags: portrait, sample, smile, snow, tongue
+photo.40: cwdc://Ydbj5_6ADQH.jpg
+photo.40.author: sasapan34
 photo.40.commitdate: 2024/5/29
-photo.40.link: ig://Cp9goGJrajL
-photo.40.tags: portrait, sample, smile, snow, tongue
-photo.41: cwdc://Ydbj5_6ADQH.jpg
-photo.41.author: sasapan34
-photo.41.commitdate: 2024/5/29
-photo.41.link: ig://Cqu-MdtPdA6
-photo.41.tags: apple time, lips, paws, sample
-photo.42: cwdc://YoIndPqADQB.jpg
-photo.42.author: leonard_redmof
-photo.42.commitdate: 2024/3/14
-photo.42.link: ig://CwFf-FlPlHt
-photo.42.tags: mofumofu
+photo.40.link: ig://Cqu-MdtPdA6
+photo.40.tags: apple time, lips, paws, sample
+photo.41: cwdc://YoIndPqADQB.jpg
+photo.41.author: leonard_redmof
+photo.41.commitdate: 2024/3/14
+photo.41.link: ig://CwFf-FlPlHt
+photo.41.tags: mofumofu
 species: 2
 studbook.id: 11130
 zoo: 37

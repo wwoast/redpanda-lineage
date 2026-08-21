@@ -6,11 +6,8 @@ children: none
 commitdate: 2018/7/28
 death: 2019/9/4
 en.name: Asahi
-en.nicknames: none
-en.othernames: none
 gender: m
 ja.name: 朝日
-ja.nicknames: none
 ja.othernames: あさひ
 language.order: ja, en
 litter: 262, 263
@@ -436,142 +433,137 @@ photo.84: cwdc://W0KpPK3ADQA.jpg
 photo.84.author: nakacchi_desu
 photo.84.commitdate: 2019/9/9
 photo.84.link: ig://B2Gg3DLglhL
-photo.84.tags: close-up, lips, portrait, profile, sample
-photo.85: cwdc://W0KpPK3ADQA.jpg
+photo.84.tags: close-up, lips, paws, portrait, profile, sample, whiskers
+photo.85: cwdc://W0KpPK3ADQB.jpg
 photo.85.author: nakacchi_desu
 photo.85.commitdate: 2025/2/28
-photo.85.link: ig://B2Gg3DLglhL?img_index=2
-photo.85.tags: lips, paws, portrait, sample, whiskers
-photo.86: cwdc://W0KpPK3ADQB.jpg
-photo.86.author: nakacchi_desu
-photo.86.commitdate: 2025/2/28
-photo.86.link: ig://B2Gg3DLglhL?img_index=3
-photo.86.tags: paws, portrait, sample, smile, standing, whiskers
-photo.87: cwdc://W0QHAlsADQD.jpg
-photo.87.author: roko_mm
+photo.85.link: ig://B2Gg3DLglhL?img_index=3
+photo.85.tags: paws, portrait, sample, smile, standing, whiskers
+photo.86: cwdc://W0QHAlsADQD.jpg
+photo.86.author: roko_mm
+photo.86.commitdate: 2019/9/9
+photo.86.link: ig://B2JPvwmBIUq
+photo.86.tags: portrait, sample, whiskers
+photo.87: cwdc://W0XSJLHADQA.jpg
+photo.87.author: take_421
 photo.87.commitdate: 2019/9/9
-photo.87.link: ig://B2JPvwmBIUq
-photo.87.tags: portrait, sample, whiskers
-photo.88: cwdc://W0XSJLHADQA.jpg
+photo.87.link: ig://B2M1UDThdZW
+photo.87.tags: bridge
+photo.88: cwdc://W0XSJLHADQB.jpg
 photo.88.author: take_421
-photo.88.commitdate: 2019/9/9
-photo.88.link: ig://B2M1UDThdZW
-photo.88.tags: bridge
-photo.89: cwdc://W0XSJLHADQB.jpg
+photo.88.commitdate: 2025/2/28
+photo.88.link: ig://B2M1UDThdZW?img_index=2
+photo.88.tags: paws, portrait, sample, smile, whiskers
+photo.89: cwdc://W0XSJLHADQC.jpg
 photo.89.author: take_421
 photo.89.commitdate: 2025/2/28
-photo.89.link: ig://B2M1UDThdZW?img_index=2
-photo.89.tags: paws, portrait, sample, smile, whiskers
-photo.90: cwdc://W0XSJLHADQC.jpg
+photo.89.link: ig://B2M1UDThdZW?img_index=3
+photo.89.tags: apple time, mofumofu, portrait, sample, tongue, whiskers
+photo.90: cwdc://W0XSJLHADQD.jpg
 photo.90.author: take_421
 photo.90.commitdate: 2025/2/28
-photo.90.link: ig://B2M1UDThdZW?img_index=3
-photo.90.tags: apple time, mofumofu, portrait, sample, tongue, whiskers
-photo.91: cwdc://W0XSJLHADQD.jpg
-photo.91.author: take_421
+photo.90.link: ig://B2M1UDThdZW?img_index=4
+photo.90.tags: close-up, lips, portrait, sample, whiskers
+photo.91: cwdc://W0g7lPXADQB.jpg
+photo.91.author: minatomirai215
 photo.91.commitdate: 2025/2/28
-photo.91.link: ig://B2M1UDThdZW?img_index=4
-photo.91.tags: close-up, lips, portrait, sample, whiskers
-photo.92: cwdc://W0g7lPXADQB.jpg
+photo.91.link: ig://B2RqCFbhVzo?img_index=2
+photo.91.tags: home, portrait, sample, whiskers
+photo.92: cwdc://W0g7lPXADQC.jpg
 photo.92.author: minatomirai215
 photo.92.commitdate: 2025/2/28
-photo.92.link: ig://B2RqCFbhVzo?img_index=2
-photo.92.tags: home, portrait, sample, whiskers
-photo.93: cwdc://W0g7lPXADQC.jpg
+photo.92.link: ig://B2RqCFbhVzo?img_index=3
+photo.92.tags: bridge, laying down, paws, portrait, sleeping
+photo.93: cwdc://W0g7lPXADQD.jpg
 photo.93.author: minatomirai215
 photo.93.commitdate: 2025/2/28
-photo.93.link: ig://B2RqCFbhVzo?img_index=3
-photo.93.tags: bridge, laying down, paws, portrait, sleeping
-photo.94: cwdc://W0g7lPXADQD.jpg
+photo.93.link: ig://B2RqCFbhVzo?img_index=4
+photo.93.tags: mofumofu, portrait, sample, window
+photo.94: cwdc://W0g7lPXADQE.jpg
 photo.94.author: minatomirai215
 photo.94.commitdate: 2025/2/28
-photo.94.link: ig://B2RqCFbhVzo?img_index=4
-photo.94.tags: mofumofu, portrait, sample, window
-photo.95: cwdc://W0g7lPXADQE.jpg
+photo.94.link: ig://B2RqCFbhVzo?img_index=5
+photo.94.tags: portrait, sample, smile
+photo.95: cwdc://W0g7lPXADQF.jpg
 photo.95.author: minatomirai215
 photo.95.commitdate: 2025/2/28
-photo.95.link: ig://B2RqCFbhVzo?img_index=5
-photo.95.tags: portrait, sample, smile
-photo.96: cwdc://W0g7lPXADQF.jpg
+photo.95.link: ig://B2RqCFbhVzo?img_index=6
+photo.95.tags: mofumofu, portrait, sample, whiskers
+photo.96: cwdc://W0g7lPXADQH.jpg
 photo.96.author: minatomirai215
 photo.96.commitdate: 2025/2/28
-photo.96.link: ig://B2RqCFbhVzo?img_index=6
-photo.96.tags: mofumofu, portrait, sample, whiskers
-photo.97: cwdc://W0g7lPXADQH.jpg
+photo.96.link: ig://B2RqCFbhVzo?img_index=8
+photo.96.tags: apple time, bamboo, ice treat, keeper, paws, portrait, sample
+photo.97: cwdc://W0g7lPXADQI.jpg
 photo.97.author: minatomirai215
 photo.97.commitdate: 2025/2/28
-photo.97.link: ig://B2RqCFbhVzo?img_index=8
-photo.97.tags: apple time, bamboo, ice treat, keeper, paws, portrait, sample
-photo.98: cwdc://W0g7lPXADQI.jpg
-photo.98.author: minatomirai215
-photo.98.commitdate: 2025/2/28
-photo.98.link: ig://B2RqCFbhVzo?img_index=9
-photo.98.tags: mofumofu, portrait, sample, tail, whiskers
-photo.99: cwdc://W11bSWzADQA.jpg
-photo.99.author: wumpwoast
-photo.99.commitdate: 2019/10/1
-photo.99.link: ig://B2754pJhlLX
-photo.99.tags: portrait, tongue
-photo.100: cwdc://XRZKHiXADQf.jpg
+photo.97.link: ig://B2RqCFbhVzo?img_index=9
+photo.97.tags: mofumofu, portrait, sample, tail, whiskers
+photo.98: cwdc://W11bSWzADQA.jpg
+photo.98.author: wumpwoast
+photo.98.commitdate: 2019/10/1
+photo.98.link: ig://B2754pJhlLX
+photo.98.tags: portrait, tongue
+photo.99: cwdc://XRZKHiXADQf.jpg
+photo.99.author: minatomirai215
+photo.99.commitdate: 2025/2/28
+photo.99.link: ig://CEtxTO7hKGp?img_index=2
+photo.99.tags: paws, peek, portrait, sample
+photo.100: cwdc://XRZKHiXADQg.jpg
 photo.100.author: minatomirai215
 photo.100.commitdate: 2025/2/28
-photo.100.link: ig://CEtxTO7hKGp?img_index=2
-photo.100.tags: paws, peek, portrait, sample
-photo.101: cwdc://XRZKHiXADQg.jpg
+photo.100.link: ig://CEtxTO7hKGp?img_index=3
+photo.100.tags: paws, peek, portrait, sample, tail, whiskers
+photo.101: cwdc://XRZKHiXADQh.jpg
 photo.101.author: minatomirai215
 photo.101.commitdate: 2025/2/28
-photo.101.link: ig://CEtxTO7hKGp?img_index=3
-photo.101.tags: paws, peek, portrait, sample, tail, whiskers
-photo.102: cwdc://XRZKHiXADQh.jpg
+photo.101.link: ig://CEtxTO7hKGp?img_index=4
+photo.101.tags: apple time, portrait
+photo.102: cwdc://XRZKHiXADQi.jpg
 photo.102.author: minatomirai215
 photo.102.commitdate: 2025/2/28
-photo.102.link: ig://CEtxTO7hKGp?img_index=4
-photo.102.tags: apple time, portrait
-photo.103: cwdc://XRZKHiXADQi.jpg
+photo.102.link: ig://CEtxTO7hKGp?img_index=5
+photo.102.tags: apple time, paws, portrait, sample, standing
+photo.103: cwdc://XRZKHiXADQj.jpg
 photo.103.author: minatomirai215
 photo.103.commitdate: 2025/2/28
-photo.103.link: ig://CEtxTO7hKGp?img_index=5
-photo.103.tags: apple time, paws, portrait, sample, standing
-photo.104: cwdc://XRZKHiXADQj.jpg
+photo.103.link: ig://CEtxTO7hKGp?img_index=6
+photo.103.tags: apple time, paws, portrait, standing, wave
+photo.104: cwdc://XRZKHiXADQk.jpg
 photo.104.author: minatomirai215
 photo.104.commitdate: 2025/2/28
-photo.104.link: ig://CEtxTO7hKGp?img_index=6
-photo.104.tags: apple time, paws, portrait, standing, wave
-photo.105: cwdc://XRZKHiXADQk.jpg
+photo.104.link: ig://CEtxTO7hKGp?img_index=7
+photo.104.tags: portrait, sample, whiskers
+photo.105: cwdc://XRZKHiXADQl.jpg
 photo.105.author: minatomirai215
 photo.105.commitdate: 2025/2/28
-photo.105.link: ig://CEtxTO7hKGp?img_index=7
-photo.105.tags: portrait, sample, whiskers
-photo.106: cwdc://XRZKHiXADQl.jpg
+photo.105.link: ig://CEtxTO7hKGp?img_index=8
+photo.105.tags: mofumofu, paws, portrait, sample, smile, whiskers
+photo.106: cwdc://XRZRum0ADQW.jpg
 photo.106.author: minatomirai215
-photo.106.commitdate: 2025/2/28
-photo.106.link: ig://CEtxTO7hKGp?img_index=8
-photo.106.tags: mofumofu, paws, portrait, sample, smile, whiskers
-photo.107: cwdc://XRZRum0ADQW.jpg
+photo.106.commitdate: 2020/9/14
+photo.106.link: ig://CEt1GxKBx97
+photo.106.tags: apple time, peek, portrait, toys
+photo.107: cwdc://XRZRum0ADQX.jpg
 photo.107.author: minatomirai215
-photo.107.commitdate: 2020/9/14
-photo.107.link: ig://CEt1GxKBx97
-photo.107.tags: apple time, peek, portrait, toys
-photo.108: cwdc://XRZRum0ADQX.jpg
+photo.107.commitdate: 2025/2/28
+photo.107.link: ig://CEt1GxKBx97?img_index=2
+photo.107.tags: apple time, paws, peek, portrait, toys
+photo.108: cwdc://XRZRum0ADQY.jpg
 photo.108.author: minatomirai215
 photo.108.commitdate: 2025/2/28
-photo.108.link: ig://CEt1GxKBx97?img_index=2
-photo.108.tags: apple time, paws, peek, portrait, toys
-photo.109: cwdc://XRZRum0ADQY.jpg
+photo.108.link: ig://CEt1GxKBx97?img_index=3
+photo.108.tags: apple time, ice treat, peek, portrait, sample, tongue, window
+photo.109: cwdc://XRZRum0ADQa.jpg
 photo.109.author: minatomirai215
 photo.109.commitdate: 2025/2/28
-photo.109.link: ig://CEt1GxKBx97?img_index=3
-photo.109.tags: apple time, ice treat, peek, portrait, sample, tongue, window
-photo.110: cwdc://XRZRum0ADQa.jpg
+photo.109.link: ig://CEt1GxKBx97?img_index=7
+photo.109.tags: door, mofumofu, portrait, sample, smile, whiskers, window
+photo.110: cwdc://XRZRum0ADQb.jpg
 photo.110.author: minatomirai215
 photo.110.commitdate: 2025/2/28
-photo.110.link: ig://CEt1GxKBx97?img_index=7
-photo.110.tags: door, mofumofu, portrait, sample, smile, whiskers, window
-photo.111: cwdc://XRZRum0ADQb.jpg
-photo.111.author: minatomirai215
-photo.111.commitdate: 2025/2/28
-photo.111.link: ig://CEt1GxKBx97?img_index=8
-photo.111.tags: paws, portrait, sample, whiskers
+photo.110.link: ig://CEt1GxKBx97?img_index=8
+photo.110.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 15143
 zoo: 190
