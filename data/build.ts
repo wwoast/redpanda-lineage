@@ -614,9 +614,9 @@ export class Dataset {
    * the `[links]` section becomes `string` or `string[]`.
    */
   importLinks = (path: string) => {
-    const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveNode
-    ).toObject() as Record<"links", NodeLinks>
+    const ingest =
+      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
+        .toObject() as Record<"links", NodeLinks>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
@@ -634,9 +634,9 @@ export class Dataset {
    * photos. All fields in the `[media]` section become `string` or `string[]`.
    */
   importMedia = (path: string) => {
-    const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveNode
-    ).toObject() as Record<"media", NodeMedia>
+    const ingest = 
+      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
+        .toObject() as Record<"media", NodeMedia>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
@@ -657,9 +657,9 @@ export class Dataset {
    * `[panda]` section become one of `number`, `string`, or `string[]`.
    */
   importPanda = (path: string) => {
-    const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveNode
-    ).toObject() as Record<"panda", NodePanda>
+    const ingest = 
+      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
+        .toObject() as Record<"panda", NodePanda>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
@@ -713,9 +713,9 @@ export class Dataset {
    * fields in the `[wild]` section become either `string` or `string[]`.
    */
   importWilds = (path: string) => {
-    const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveNode
-    ).toObject() as Record<"wild", NodeWild>
+    const ingest =
+      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
+        .toObject() as Record<"wild", NodeWild>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but
@@ -734,9 +734,9 @@ export class Dataset {
    * `[zoo]` section become one of `number`, `string` or `string[]`.
    */
   importZoos = (path: string) => {
-    const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveNode
-    ).toObject() as Record<"zoo", NodeZoo>
+    const ingest =
+      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
+        .toObject() as Record<"zoo", NodeZoo>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
     // Revivers are good for establishing property types of existing keys, but

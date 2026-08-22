@@ -1,10 +1,28 @@
-import { version } from "../js/jsleri-1.1.15.js";
+import { Dataset } from "./build.ts";
 import type { Edge, Vertex } from './dagoba.ts'
 
 /** Keep consistent with the `NodeType` type definition */
 export const nodeTypes: NodeType[] = ["links", "media", "panda", "wild", "zoo"]
 /** Keep consistent with the `SupportedLanguages` enum definition */
 export const supportedLanguages: Language[] = ["en", "es", "ja", "ko", "ne", "pt", "zh"]
+
+export function ensureNode(entity: Record<string, unknown>, path: string) {
+  const type = Object.keys(entity)[0]   // The IniMap section header
+  switch (type) {
+    case "links":
+      return entity.links as NodeLinks
+    case "media":
+      return entity.media as NodeMedia
+    case "panda":
+      return entity.panda as NodePanda
+    case "wild":
+      return entity.wild as NodeWild
+    case "zoo":
+      return entity.zoo as NodeZoo
+    default: 
+      throw new Error(`[manage] ${path}: unknown node type: ${entity.type}`)
+  }
+}
 
 export function ensureNodeType(input: string) {
   if ((nodeTypes as string[]).includes(input))
@@ -252,7 +270,7 @@ export function processZooObject(entity: Vertex) {
 }
 
 /** 
- * Reviver functions for particular node types, converting from `.txt`
+ * Reviver function for particular node types, converting from `.txt`
  * INI-format to the Dataset class object.
  */
 export function reviveNode(key: string, value: unknown, section?: string) {
@@ -276,7 +294,7 @@ export function reviveNode(key: string, value: unknown, section?: string) {
  * When importing data from plaintext files with `[links]` data, convert any
  * primitive values into more ergonomic TypeScript types.
  */
-export function reviveLinksNode(key: string, value: unknown, section?: string): any {
+function reviveLinksNode(key: string, value: unknown, section?: string): any {
   if (section != "links")
     return value   // Shouldn't happen
   switch (true) {
@@ -291,7 +309,7 @@ export function reviveLinksNode(key: string, value: unknown, section?: string): 
  * When importing data from plaintext files with `[media]` data, convert any
  * primitive values into types we can better use or validate in TypeScript.
  */
-export function reviveMediaNode(key: string, value: unknown, section?: string) {
+function reviveMediaNode(key: string, value: unknown, section?: string) {
   if (section != "media")
     return value   // Shouldn't happen
   switch (true) {
@@ -307,7 +325,7 @@ export function reviveMediaNode(key: string, value: unknown, section?: string) {
  * When importing data from plaintext files with `[panda]` data, convert
  * primitive values into more ergonomic TypeScript types.
  */
-export function revivePandaNode(key: string, value: unknown, section?: string): any {
+function revivePandaNode(key: string, value: unknown, section?: string): any {
   if (section != "panda")
     return value   // Shouldn't happen
   switch (true) {
@@ -327,7 +345,7 @@ export function revivePandaNode(key: string, value: unknown, section?: string): 
  * When importing data from plaintext files with `[wild]` data, convert any
  * primitive values into more ergonomic TypeScript types.
  */
-export function reviveWildNode(key: string, value: unknown, section?: string): any {
+function reviveWildNode(key: string, value: unknown, section?: string): any {
   if (section != "wild")
     return value   // Shouldn't happen
   switch (true) {
@@ -338,14 +356,14 @@ export function reviveWildNode(key: string, value: unknown, section?: string): a
   }
 }
 
-  /**
-   * When importing data from plaintext files with `[zoo]` data, convert any
-   * primitive values into more ergonomic TypeScript types.
-   *
-   * The hack for ensuring integers for all connected nodes is making panda
-   * IDs positive integers, and zoo IDs negative integers!
-   */
-export function reviveZooNode(key: string, value: unknown, section?: string): any {
+/**
+ * When importing data from plaintext files with `[zoo]` data, convert any
+ * primitive values into more ergonomic TypeScript types.
+ *
+ * The hack for ensuring integers for all connected nodes is making panda
+ * IDs positive integers, and zoo IDs negative integers!
+ */
+function reviveZooNode(key: string, value: unknown, section?: string): any {
   if (section != "zoo")
     return value   // Shouldn't happen
   switch (true) {
@@ -459,4 +477,20 @@ export function byFieldName(v1: string, v2: string) {
   }
   // Fallback
   return valueSort(v1, v2)
+}
+
+/** Writing a node back to disk in the `.txt` INI format */
+export function writeEntityToDisk(dataset: Dataset, entity: GraphNode) {
+  const path = entity.path
+  const relevantEdges =
+    dataset.graph.edges.filter(edge => edge._out._id == entity._id)
+  const processed = processObject(entity, relevantEdges)
+  // Set keys one at a time in the ini map
+  Object.keys(processed).sort(byFieldName).map(key =>
+    dataset.ini.set(entity.type, key, processed[key]))
+  // Replace first colon on a line with colon-space, since ini-map
+  // can't reasonably handle multiple-character assignment symbols
+  const output = dataset.ini.toString()
+    .split("\n").map(line => line.replace(":", ": ")).join("\n")
+  Deno.writeTextFileSync(path, output)
 }

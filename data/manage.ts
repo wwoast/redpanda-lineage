@@ -5,8 +5,11 @@ import { Dataset,
          importDataset,
          isDatasetFresh } from './build.ts'
 import { byFieldName,
+         ensureNode,
          existsFileSync,
-         processObject } from './shared.ts'
+         processObject,
+         reviveNode, 
+         writeEntityToDisk} from './shared.ts'
 
 const helpMessage = `
 Usage:
@@ -32,11 +35,10 @@ Subcommands:
         Restore all references to <author>'s removed photos, sorted by the
         "photo hash" of the photo file name. With [commitish], only restore
         <author>'s photos removed in that specific Git commit. 
-  --sort-image-locators <path>
-        Take all photo files with a "photo hash" in the name, and sort them in
-        order of oldest-published to newest-published.
   --sort-image-updates
         Sort image locators for all .txt files changed since the last commit.
+        Use photo names with a "timestamp hash" and sort them in order of
+        oldest-published to newest-published.
 `
 
 /** 
@@ -49,23 +51,41 @@ Subcommands:
  * we want to not just remove these photos from our listing, but also wish to
  * delete them from the server they're stored on.
  */
-function removePhotoFromEntity(path: string, indexes: any[]): Record<string, number[]> {
-  const ini = new IniMap({assignment: ": "})
+function removePhotoFromEntity(
+  dataset: Dataset,
+  path: string,
+  indexes: any[]
+): Record<string, number[]> {
   if (!existsFileSync(path))
     throw new Error(`[manage] ${path}: file doesn't exist`)
-  const removeIndices: number[] = indexes.map((index: any) => {
+  const targetIndices: number[] = indexes.map((index: any) => {
     if (isNaN(parseInt(index)) || index < 1)
       throw new Error(`[manage] index ${index}: must be a natural number.`)
     else
       return index
-  })
+  }).sort((a: number, b: number) => b - a)   // Highest to lowest
   // Open the file with an ini mapper. The section is the file type, and the _id
   // value is going to be the value in the graph (times -1 if a zoo).
-  const config = ini.parse(path)
-  const type = Object.keys(config)[0]   // The section
+  const contents = Deno.readTextFileSync(path)
+  const type = Object.keys(dataset.ini.parse(contents))[0]   // The section
   if (!path.includes(type))
     throw new Error(`[manage] ERR: ${type}: incorrect for path: ${path}`)
   // Now read the file with the correct type
+  const ingest = dataset.ini.parse(contents, reviveNode).toObject()
+  const entity = ensureNode(ingest, path)
+  if (!("photos" in entity))
+    throw new Error(`[manage] ERR: ${path}: no photos to remove`)
+  // Remove photos by index if they are present in the photos list
+  const removedIndices = targetIndices
+    .filter(index => index > -1 && index < entity.photos.length)
+  removedIndices.forEach(index => entity.photos.splice(index, 1))
+  // Rewrite the file to disk
+  writeEntityToDisk(dataset, entity)
+  // Return the list of entities removed
+  const removedPerId: Record<string, number[]> = {}
+  removedPerId[entity._id] = removedIndices.sort()
+  console.log(`[manage] ${entity._id}: removed photos: ${removedIndices.sort()}`)
+  return removedPerId
 }
 
 
@@ -135,23 +155,12 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
         }, "9999/9/9")
       // Unify the tags for all the photos we deduplicated
       resolvedPhoto.tags = tagList
-      // Take the updated entity and put it back on disk. Some of the node data
-      // becomes edges in the graph, so put those back as well.
-      const relevantEdges =
-        dataset.graph.edges.filter(edge => edge._out._id == entityId)
-      const entity = idToVertex[entityId]
       // Delete the photo entries not matching this index
+      const entity = idToVertex[entityId]
       duplicateIndexes.forEach(index => entity.photos.splice(index, 1))
-      const path = entity.path
-      const processed = processObject(entity, relevantEdges)
-      // Set keys one at a time in the ini map
-      Object.keys(processed).sort(byFieldName).map(key =>
-        dataset.ini.set(entity.type, key, processed[key]))
-      // Replace first colon on a line with colon-space, since ini-map
-      // can't reasonably handle multiple-character assignment symbols
-      const output = dataset.ini.toString()
-        .split("\n").map(line => line.replace(":", ": ")).join("\n")
-      Deno.writeTextFileSync(path, output)
+      // Take the updated entity and put it back on disk
+      writeEntityToDisk(dataset, entity)
+      // Clear out the ini map in case we need to use it again for processing
       dataset.ini.clear()
       console.log(
         `[manage]: ${entityId}: ${url} resolved to single index: ${newIndex}\n` +
@@ -200,11 +209,11 @@ if (import.meta.main) {
       // removeAuthorFromLineage(flags["remove-author"])
       break
     case ("remove-duplicate" in flags):
-      // removePhotoFromEntity(flags["remove-duplicate"], args)
+      // removePhotoFromEntity(dataset, flags["remove-duplicate"], args)
       // deletePhotoFromServer()
       break
     case ("remove-photo" in flags):
-      // removePhotoFromEntity(flags["remove-photo"], args[0])
+      removePhotoFromEntity(dataset, flags["remove-photo"], args)
       break
     case ("restore-author" in flags): {
       // restoreAuthorToLineage(flags["restore-author"], args[0])
