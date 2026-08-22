@@ -1,3 +1,4 @@
+import { IniMap } from '@std/ini/ini-map'
 import { parseArgs } from '@std/cli/parse-args'
 import { Dataset,
          buildDataset,
@@ -49,6 +50,7 @@ Subcommands:
  * delete them from the server they're stored on.
  */
 function removePhotoFromEntity(path: string, indexes: any[]): Record<string, number[]> {
+  const ini = new IniMap({assignment: ": "})
   if (!existsFileSync(path))
     throw new Error(`[manage] ${path}: file doesn't exist`)
   const removeIndices: number[] = indexes.map((index: any) => {
@@ -59,10 +61,11 @@ function removePhotoFromEntity(path: string, indexes: any[]): Record<string, num
   })
   // Open the file with an ini mapper. The section is the file type, and the _id
   // value is going to be the value in the graph (times -1 if a zoo).
-  const split = path.split("/")
-  const entityType = split[1].replace(/s$/, "")
-  const idString = split[split.length - 1].split("_")[0].replace(/^0*/, "")
-  const entityId = (entityType == "zoo") ? parseInt(idString) * -1 : parseInt(idString)
+  const config = ini.parse(path)
+  const type = Object.keys(config)[0]   // The section
+  if (!path.includes(type))
+    throw new Error(`[manage] ERR: ${type}: incorrect for path: ${path}`)
+  // Now read the file with the correct type
 }
 
 

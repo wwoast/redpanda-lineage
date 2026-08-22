@@ -7,11 +7,7 @@ import { Paths,
          byIdAscending,
          existsDirSync,
          existsFileSync,
-         reviveLinksNode,
-         reviveMediaNode,
-         revivePandaNode,
-         reviveWildNode,
-         reviveZooNode,
+         reviveNode,
          supportedLanguages,
          toLinks,
          toMedia,
@@ -619,7 +615,7 @@ export class Dataset {
    */
   importLinks = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveLinksNode
+      Deno.readTextFileSync(path), reviveNode
     ).toObject() as Record<"links", NodeLinks>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
@@ -639,7 +635,7 @@ export class Dataset {
    */
   importMedia = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveMediaNode
+      Deno.readTextFileSync(path), reviveNode
     ).toObject() as Record<"media", NodeMedia>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
@@ -662,7 +658,7 @@ export class Dataset {
    */
   importPanda = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), revivePandaNode
+      Deno.readTextFileSync(path), reviveNode
     ).toObject() as Record<"panda", NodePanda>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
@@ -718,7 +714,7 @@ export class Dataset {
    */
   importWilds = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveWildNode
+      Deno.readTextFileSync(path), reviveNode
     ).toObject() as Record<"wild", NodeWild>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()
@@ -739,7 +735,7 @@ export class Dataset {
    */
   importZoos = (path: string) => {
     const ingest = this.ini.parse(
-      Deno.readTextFileSync(path), reviveZooNode
+      Deno.readTextFileSync(path), reviveNode
     ).toObject() as Record<"zoo", NodeZoo>
     // Don't keep state on the ini map / cross-contaminate nodes
     this.ini.clear()

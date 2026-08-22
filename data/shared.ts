@@ -251,11 +251,26 @@ export function processZooObject(entity: Vertex) {
   return working
 }
 
-
 /** 
  * Reviver functions for particular node types, converting from `.txt`
  * INI-format to the Dataset class object.
  */
+export function reviveNode(key: string, value: unknown, section?: string) {
+  switch (section) {
+    case "links":
+      return reviveLinksNode(key, value, section)
+    case "media":
+      return reviveMediaNode(key, value, section)
+    case "panda":
+      return revivePandaNode(key, value, section)
+    case "wild":
+      return reviveWildNode(key, value, section)
+    case "zoo":
+      return reviveZooNode(key, value, section)
+    default:
+      throw new Error(`[manage]: section ${section}: not a valid redpandafinder node`)
+  }
+}
 
 /**
  * When importing data from plaintext files with `[links]` data, convert any
