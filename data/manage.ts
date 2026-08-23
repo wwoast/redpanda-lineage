@@ -59,12 +59,16 @@ function removePhotoFromEntity(
       throw new Error(`[manage] index ${index}: must be a natural number.`)
     else
       return index
-  }).sort((a: number, b: number) => b - a)   // Highest to lowest
+  })
+  .map((index: number) => index - 1)   // Array indexing instead of natural number
+  .sort((a: number, b: number) => b - a)   // Highest to lowest
   // Open the file with an ini mapper. The section is the file type, and the _id
   // value is going to be the value in the graph (times -1 if a zoo).
   const contents = Deno.readTextFileSync(path)
   const ingest = dataset.ini.parse(contents, reviveNode).toObject()
-  const entity = ensureNode(ingest, path)
+  const type = Object.keys(ingest)[0] as NodeType
+  const node = ingest[type] as GraphNode
+  const entity = dataset.processNode(path, node, type)
   if (!("photos" in entity))
     throw new Error(`[manage] ERR: ${path}: no photos to remove`)
   // Remove photos by index if they are present in the photos list
@@ -76,7 +80,9 @@ function removePhotoFromEntity(
   // Return the list of entities removed
   const removedPerId: Record<string, number[]> = {}
   removedPerId[entity._id] = removedIndices.sort()
-  console.log(`[manage] ${entity._id}: removed photos: ${removedIndices.sort()}`)
+  // Natural numbers for the indexes in the files
+  const displayIndices = removedIndices.map((index: number) => index + 1)
+  console.log(`[manage] ${entity._id}: removed photos: ${displayIndices.sort().join(", ")}`)
   return removedPerId
 }
 
