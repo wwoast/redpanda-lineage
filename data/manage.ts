@@ -1,13 +1,10 @@
-import { IniMap } from '@std/ini/ini-map'
 import { parseArgs } from '@std/cli/parse-args'
-import { Dataset,
-         buildDataset,
+import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
-import { byFieldName,
-         ensureNode,
+import { Dataset } from './dataset.ts'
+import { ensureNode,
          existsFileSync,
-         processObject,
          reviveNode, 
          writeEntityToDisk} from './shared.ts'
 
@@ -67,10 +64,6 @@ function removePhotoFromEntity(
   // Open the file with an ini mapper. The section is the file type, and the _id
   // value is going to be the value in the graph (times -1 if a zoo).
   const contents = Deno.readTextFileSync(path)
-  const type = Object.keys(dataset.ini.parse(contents))[0]   // The section
-  if (!path.includes(type))
-    throw new Error(`[manage] ERR: ${type}: incorrect for path: ${path}`)
-  // Now read the file with the correct type
   const ingest = dataset.ini.parse(contents, reviveNode).toObject()
   const entity = ensureNode(ingest, path)
   if (!("photos" in entity))
@@ -187,7 +180,7 @@ if (import.meta.main) {
     string: ["remove-author", "remove-duplicate", "remove-photo", "restore-author"]
   })
   // If no arguments, don't try and build the dataset
-  if (Object.keys(flags).length == 0) {
+  if (Deno.args.length == 0) {
     console.log(helpMessage)
     Deno.exit(0)
   }
@@ -201,25 +194,26 @@ if (import.meta.main) {
   // data, and our other checks can make decisions about processing entirely on
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
-    case ("deduplicate-photo-uris" in flags):
+    case (flags["deduplicate-photo-uris"] == true):
       resolveDuplicatePhotoUris(dataset)
       await buildDataset(true, false)   // ready to publish
       break
-    case ("remove-author" in flags):
+    case (typeof flags["remove-author"] === "string"):
       // removeAuthorFromLineage(flags["remove-author"])
       break
-    case ("remove-duplicate" in flags):
+    case (typeof flags["remove-duplicate"] === "string"):
       // removePhotoFromEntity(dataset, flags["remove-duplicate"], args)
       // deletePhotoFromServer()
       break
-    case ("remove-photo" in flags):
+    case (typeof flags["remove-photo"] === "string"):
       removePhotoFromEntity(dataset, flags["remove-photo"], args)
+      await buildDataset(true, false)   // ready to publish
       break
-    case ("restore-author" in flags): {
+    case (typeof flags["restore-author"] === "string"): {
       // restoreAuthorToLineage(flags["restore-author"], args[0])
       break
     }
-    case ("sort-image-updates" in flags):
+    case (flags["sort-image-updates"] == true):
       // sortImageUpdates(dataset)
       break
     default:
