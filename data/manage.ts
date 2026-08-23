@@ -3,8 +3,7 @@ import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
 import { Dataset } from './dataset.ts'
-import { ensureNode,
-         existsFileSync,
+import { existsFileSync,
          reviveNode } from './shared.ts'
 
 const helpMessage = `
@@ -64,8 +63,7 @@ function removePhotoFromEntity(
   .sort((a: number, b: number) => b - a)   // Highest to lowest
   // Open the file with an ini mapper. The section is the file type, and the _id
   // value is going to be the value in the graph (times -1 if a zoo).
-  const contents = Deno.readTextFileSync(path)
-  const ingest = dataset.ini.parse(contents, reviveNode).toObject()
+  const ingest = dataset.ingest(path, reviveNode)
   const type = Object.keys(ingest)[0] as NodeType
   const node = ingest[type] as GraphNode
   const entity = dataset.processNode(path, node, type)

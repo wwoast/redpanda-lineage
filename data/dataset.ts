@@ -1,5 +1,5 @@
 import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
-import { IniMap } from '@std/ini/ini-map'
+import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import { Git } from '@roka/git'
 import { PhotoEntry } from './photos.ts'
@@ -566,7 +566,7 @@ export class Dataset {
     )
     if (output)
       console.log(
-        `[build] metrics: ${pandas} pandas at ${locations} locations ` +
+        `[dataset] ${pandas} pandas at ${locations} locations ` +
         `(${wilds} wild, ${zoos} zoo)`
     )
   }
@@ -615,11 +615,7 @@ export class Dataset {
    * the `[links]` section becomes `string` or `string[]`.
    */
   importLinks = (path: string) => {
-    const ingest =
-      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
-        .toObject() as Record<"links", NodeLinks>
-    // Don't keep state on the ini map / cross-contaminate nodes
-    this.ini.clear()
+    const ingest = this.ingest(path, reviveNode) as Record<"links", NodeLinks>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.links, "links") as NodeLinks
@@ -635,11 +631,7 @@ export class Dataset {
    * photos. All fields in the `[media]` section become `string` or `string[]`.
    */
   importMedia = (path: string) => {
-    const ingest = 
-      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
-        .toObject() as Record<"media", NodeMedia>
-    // Don't keep state on the ini map / cross-contaminate nodes
-    this.ini.clear()
+    const ingest = this.ingest(path, reviveNode) as Record<"media", NodeMedia>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.media, "media") as NodeMedia
@@ -658,11 +650,7 @@ export class Dataset {
    * `[panda]` section become one of `number`, `string`, or `string[]`.
    */
   importPanda = (path: string) => {
-    const ingest = 
-      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
-        .toObject() as Record<"panda", NodePanda>
-    // Don't keep state on the ini map / cross-contaminate nodes
-    this.ini.clear()
+    const ingest = this.ingest(path, reviveNode) as Record<"panda", NodePanda>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.panda, "panda") as NodePanda
@@ -714,11 +702,7 @@ export class Dataset {
    * fields in the `[wild]` section become either `string` or `string[]`.
    */
   importWilds = (path: string) => {
-    const ingest =
-      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
-        .toObject() as Record<"wild", NodeWild>
-    // Don't keep state on the ini map / cross-contaminate nodes
-    this.ini.clear()
+    const ingest = this.ingest(path, reviveNode) as Record<"wild", NodeWild>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.wild, "wild") as NodeWild
@@ -735,16 +719,24 @@ export class Dataset {
    * `[zoo]` section become one of `number`, `string` or `string[]`.
    */
   importZoos = (path: string) => {
-    const ingest =
-      this.ini.parse(Deno.readTextFileSync(path), reviveNode)
-        .toObject() as Record<"zoo", NodeZoo>
-    // Don't keep state on the ini map / cross-contaminate nodes
-    this.ini.clear()
+    const ingest = this.ingest(path, reviveNode) as Record<"zoo", NodeZoo>
     // Revivers are good for establishing property types of existing keys, but
     // do processing to rearrange or set new-keys after parsing
     const node = this.processNode(path, ingest.zoo, "zoo") as NodeZoo
     this.graph.addVertex(node)
     this.files.zoo.push(path)
+  }
+
+  /** 
+   * Read data in from a single entity file, and clear the underlying IniMap
+   * afterwards. This avoids heisenbugs from stale data in the IniMap after you
+   * deserialize to JSON and researialize back to `.txt` INI-format files.
+   */
+  ingest(path: string, reviver: ReviverFunction) {
+    const ingest =
+      this.ini.parse(Deno.readTextFileSync(path), reviver).toObject()
+    this.ini.clear()   // Don't reuse the IniMap without clearing it
+    return ingest
   }
 
   /**
@@ -1101,7 +1093,7 @@ export class Dataset {
           working.zoo = parseInt(edge._in._id) * -1
           break
         default:
-          console.log(`[shared] unknown edge type: ${edge._label}`)
+          console.log(`[dataset] unknown edge type: ${edge._label}`)
       }
     })
     // Set the top-level key that will be treated as the section header
@@ -1205,6 +1197,7 @@ export class Dataset {
    * to disk in the entity's dataset path.
    */
   writeEntityToDisk = (entity: GraphNode) => {
+    const path = join(Deno.cwd(), entity.path)
     const relevantEdges =
       this.graph.edges.filter(edge => edge._out._id == entity._id)
     const processed = this.renderObject(entity, relevantEdges)
@@ -1215,7 +1208,7 @@ export class Dataset {
     // can't reasonably handle multiple-character assignment symbols
     const output = this.ini.toString()
       .split("\n").map(line => line.replace(":", ": ")).join("\n")
-    Deno.writeTextFileSync(entity.path, output)
+    Deno.writeTextFileSync(path, output)
   }
 }
 
@@ -1278,7 +1271,7 @@ export class Updates {
       path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
     })
     for (const change of patches) {
-      const filename = join(repo.path(), change.path)
+      const filename = join(Deno.cwd(), change.path)
       // Don't care about non-data files
       if (!filename.endsWith(".txt"))
         continue

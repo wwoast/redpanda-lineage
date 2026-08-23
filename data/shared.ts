@@ -1,32 +1,7 @@
 import type { Vertex } from './dagoba.ts'
 
-/** Keep consistent with the `NodeType` type definition */
-export const nodeTypes: NodeType[] = ["links", "media", "panda", "wild", "zoo"]
 /** Keep consistent with the `SupportedLanguages` enum definition */
 export const supportedLanguages: Language[] = ["en", "es", "ja", "ko", "ne", "pt", "zh"]
-
-export function ensureNode(entity: Record<string, unknown>, path: string) {
-  const type = Object.keys(entity)[0]   // The IniMap section header
-  switch (type) {
-    case "links":
-      return entity.links as NodeLinks
-    case "media":
-      return entity.media as NodeMedia
-    case "panda":
-      return entity.panda as NodePanda
-    case "wild":
-      return entity.wild as NodeWild
-    case "zoo":
-      return entity.zoo as NodeZoo
-    default: 
-      throw new Error(`[manage] ${path}: unknown node type: ${entity.type}`)
-  }
-}
-
-export function ensureNodeType(input: string) {
-  if ((nodeTypes as string[]).includes(input))
-    return input as NodeType
-}
 
 export function ensureLanguage(input: string) {
   if ((supportedLanguages as string[]).includes(input))
