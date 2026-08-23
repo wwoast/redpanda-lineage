@@ -5,8 +5,7 @@ import { buildDataset,
 import { Dataset } from './dataset.ts'
 import { ensureNode,
          existsFileSync,
-         reviveNode, 
-         writeEntityToDisk} from './shared.ts'
+         reviveNode } from './shared.ts'
 
 const helpMessage = `
 Usage:
@@ -73,7 +72,7 @@ function removePhotoFromEntity(
     .filter(index => index > -1 && index < entity.photos.length)
   removedIndices.forEach(index => entity.photos.splice(index, 1))
   // Rewrite the file to disk
-  writeEntityToDisk(dataset, entity)
+  dataset.writeEntityToDisk(entity)
   // Return the list of entities removed
   const removedPerId: Record<string, number[]> = {}
   removedPerId[entity._id] = removedIndices.sort()
@@ -152,7 +151,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       const entity = idToVertex[entityId]
       duplicateIndexes.forEach(index => entity.photos.splice(index, 1))
       // Take the updated entity and put it back on disk
-      writeEntityToDisk(dataset, entity)
+      dataset.writeEntityToDisk(entity)
       // Clear out the ini map in case we need to use it again for processing
       dataset.ini.clear()
       console.log(

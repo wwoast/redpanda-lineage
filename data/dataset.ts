@@ -5,6 +5,7 @@ import { Git } from '@roka/git'
 import { PhotoEntry } from './photos.ts'
 import { Paths,
          byIdAscending,
+         byFieldName,
          existsDirSync,
          existsFileSync,
          reviveNode,
@@ -1197,6 +1198,24 @@ export class Dataset {
   verifyZoos = () => {
     const zooNodes = this.graph.vertices.reduce(toZoos, [])
     this.assertNoDuplicateDatasetIds(zooNodes)
+  }
+
+  /** 
+   * Take an entity, render it to the `.txt` INI-format, and write it back
+   * to disk in the entity's dataset path.
+   */
+  writeEntityToDisk = (entity: GraphNode) => {
+    const relevantEdges =
+      this.graph.edges.filter(edge => edge._out._id == entity._id)
+    const processed = this.renderObject(entity, relevantEdges)
+    // Set keys one at a time in the ini map
+    Object.keys(processed).sort(byFieldName).map(key =>
+      this.ini.set(entity.type, key, processed[key]))
+    // Replace first colon on a line with colon-space, since ini-map
+    // can't reasonably handle multiple-character assignment symbols
+    const output = this.ini.toString()
+      .split("\n").map(line => line.replace(":", ": ")).join("\n")
+    Deno.writeTextFileSync(entity.path, output)
   }
 }
 

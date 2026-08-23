@@ -1,5 +1,4 @@
-import type { Edge, Vertex } from './dagoba.ts'
-import { Dataset } from "./dataset.ts"
+import type { Vertex } from './dagoba.ts'
 
 /** Keep consistent with the `NodeType` type definition */
 export const nodeTypes: NodeType[] = ["links", "media", "panda", "wild", "zoo"]
@@ -285,20 +284,4 @@ export function byFieldName(v1: string, v2: string) {
   }
   // Fallback
   return valueSort(v1, v2)
-}
-
-/** Writing a node back to disk in the `.txt` INI format */
-export function writeEntityToDisk(dataset: Dataset, entity: GraphNode) {
-  const path = entity.path
-  const relevantEdges =
-    dataset.graph.edges.filter(edge => edge._out._id == entity._id)
-  const processed = dataset.renderObject(entity, relevantEdges)
-  // Set keys one at a time in the ini map
-  Object.keys(processed).sort(byFieldName).map(key =>
-    dataset.ini.set(entity.type, key, processed[key]))
-  // Replace first colon on a line with colon-space, since ini-map
-  // can't reasonably handle multiple-character assignment symbols
-  const output = dataset.ini.toString()
-    .split("\n").map(line => line.replace(":", ": ")).join("\n")
-  Deno.writeTextFileSync(path, output)
 }
