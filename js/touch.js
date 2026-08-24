@@ -183,6 +183,6 @@ export function addSwipeHandler(gallery, inputElement, callback) {
     (event) => end(event, touch, gallery, inputElement.id, callback),
     true
   )
-  inputElement.addEventListener('touchmove', (event) => move(even, touch), true)
+  inputElement.addEventListener('touchmove', (event) => move(event, touch), true)
   inputElement.addEventListener('touchcancel', (event) => cancel(touch), true)
 }
