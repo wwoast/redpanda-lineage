@@ -6,33 +6,14 @@ import * as Show from './show.js'
  * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
  * Heavily adapted from original code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
  */
-
-/** State defaults to initial values at page load */
-const touch = {
-  fingerCount: 0,
-  startX: 0,
-  startY: 0,
-  startTime: 0,
-  endTime: 0,
-  curX: 0,
-  curY: 0,
-  deltaX: 0,
-  xTurn: 0,
-  turnCount: 0,
-  horzDiff: 0,
-  vertDiff: 0,
-  minLength: 64,   // the shortest distance the user may swipe
-  swipeLength: 0,
-  swipeAngle: null,
-  swipeDirection: null
-}
+const MinLength = 64   // the shortest distance the user may swipe
 
 // The 4 Touch Event Handlers
-function start(event) {
+function start(event, touch) {
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length
   // timer for long press events
-  touch.startTime = new Date().getTime()
+  touch.timeStart = new Date().getTime()
   // since we're looking for a swipe (single finger) and not a gesture (multiple fingers),
   // check that only one finger was used
   if (touch.fingerCount == 1) {
@@ -41,11 +22,11 @@ function start(event) {
     touch.startY = event.touches[0].pageY
   } else {
     // more than one finger touched so cancel
-    cancel()
+    cancel(touch)
   }
 }
 
-function move(event) {
+function move(event, touch) {
   event.preventDefault()
   if (event.touches.length == 1) {
     touch.curX = event.touches[0].pageX
@@ -57,7 +38,7 @@ function move(event) {
         touch.deltaX = newDeltaX
       } else {
         touch.xTurn = touch.curX
-        touch.horzDiff = touch.horzDiff + touch.deltaX
+        touch.diffHorz = touch.diffHorz + touch.deltaX
         touch.deltaX = 0
         touch.turnCount = touch.turnCount + 1
       }
@@ -67,18 +48,18 @@ function move(event) {
         touch.deltaX = newDeltaX
       } else {
         // We turned again, so cancel
-        touch.horzDiff = touch.horzDiff + touch.deltaX
+        touch.diffHorz = touch.diffHorz + touch.deltaX
         touch.xTurn = 0
         touch.deltaX = 0
         touch.turnCount = touch.turnCount + 1
       }
     }
   } else {
-    cancel()
+    cancel(touch)
   }
 }
 
-function end(event, gallery, elementId, callback) {
+function end(event, touch, gallery, elementId, callback) {
   event.preventDefault()
   touch.endTime = new Date().getTime()
   if (touch.fingerCount == 1 && touch.curX != 0) {
@@ -89,40 +70,39 @@ function end(event, gallery, elementId, callback) {
                 Math.pow(touch.curY - touch.startY,2)))
     // If the swipe is longer than the minimum length, or if the
     // length of the swipe is long enough, do an interface task
-    if ((touch.swipeLength >= touch.minLength) || 
-        (touch.horzDiff > 2*touch.minLength)) {
-      angle()
-      determine()   // What the swipe direction and angle are
+    if ((touch.swipeLength >= MinLength) || 
+        (touch.diffHorz > 2*MinLength)) {
+      angle(touch)
+      determine(touch)   // What the swipe direction and angle are
       // Do something in the RPF interface
-      callback.apply(null, [gallery, elementId])
+      callback.apply(null, [touch, gallery, elementId])
     }
   }
-  cancel()      // Reset the variables
+  cancel(touch)      // Reset the variables
 }
 
 /** Reset the touch state variables back to default values */
-function cancel() {
+function cancel(touch) {
   touch = {...{
-    fingerCount: 0,
-    startX: 0,
-    startY: 0,
-    startTime: 0,
-    endTime: 0,
     curX: 0,
     curY: 0,
     deltaX: 0,
-    xTurn: 0,
-    turnCount: 0,
-    horzDiff: 0,
-    vertDiff: 0,
-    swipeLength: 0,
+    diffHorz: 0,
+    fingerCount: 0,
+    startX: 0,
+    startY: 0,
     swipeAngle: null,
-    swipeDirection: null
+    swipeDirection: null,
+    swipeLength: 0,
+    timeEnd: 0,
+    timeStart: 0,
+    turnCount: 0,
+    xTurn: 0
   }}
 }
 
 /** Calculate the angle of a particular swipe */
-function angle() {
+function angle(touch) {
   const X = touch.startX - touch.curX
   const Y = touch.curY - touch.startY
   const r = Math.atan2(Y,X)   // angle in radians (Cartesian system)
@@ -133,7 +113,7 @@ function angle() {
 }
 
 /** Decide the primary cardinal direction of a swipe is based on the angle */
-function determine() {
+function determine(touch) {
   if ((touch.swipeAngle <= 45) && (touch.swipeAngle >= 0)) {
     touch.swipeDirection = 'left'
   } else if ((touch.swipeAngle <= 360) && (touch.swipeAngle >= 315)) {
@@ -148,12 +128,12 @@ function determine() {
 }
 
 /** Callback to change the photo based on where the touch event happened */
-export function processPhoto(gallery, elementId) {
+export function processPhoto(touch, gallery, elementId) {
   const animalId = elementId.split('/')[0]
   const navigatorId = `${animalId}/navigator`
   const navigator = document.getElementById(navigatorId)
   const span = navigator.childNodes[0]
-  if (((touch.horzDiff > 2*touch.minLength) && (touch.turnCount > 0)) &&
+  if (((touch.horzDiff > 2*MinLength) && (touch.turnCount > 0)) &&
       ((touch.swipeDirection == 'right') || (touch.swipeDirection == 'left'))) {
     // TODO ES6
     // At least one direction turn, and a swipe twice as long as a normal
@@ -180,12 +160,29 @@ export function processPhoto(gallery, elementId) {
  * carousels, and defines a callback function for when the touch ends.
  */
 export function addSwipeHandler(gallery, inputElement, callback) {
-  inputElement.addEventListener('touchstart', (event) => start(event), true)
+  /** Initial values when creating a listener */
+  const touch = {
+    curX: 0,
+    curY: 0,
+    deltaX: 0,
+    diffHorz: 0,
+    fingerCount: 0,
+    startX: 0,
+    startY: 0,
+    swipeAngle: null,
+    swipeDirection: null,
+    swipeLength: 0,
+    timeEnd: 0,
+    timeStart: 0,
+    turnCount: 0,
+    xTurn: 0
+  }
+  inputElement.addEventListener('touchstart', (event) => start(event, touch), true)
   inputElement.addEventListener(
     'touchend', 
-    (event) => end(event, gallery, inputElement.id, callback),
+    (event) => end(event, touch, gallery, inputElement.id, callback),
     true
   )
-  inputElement.addEventListener('touchmove', (event) => move(event), true)
-  inputElement.addEventListener('touchcancel', cancel, true)
+  inputElement.addEventListener('touchmove', (event) => move(even, touch), true)
+  inputElement.addEventListener('touchcancel', (event) => cancel(touch), true)
 }
