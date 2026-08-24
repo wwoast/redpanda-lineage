@@ -91,12 +91,13 @@ function removePhotoFromEntity(
  * duplicates across the entire dataset now, but if a photos is in two or more
  * distinct entity files
  */
-function resolveDuplicatePhotoUris(dataset: Dataset) {
+function resolveDuplicatePhotoUris(dataset: Dataset): number {
   interface PhotoAndPath extends Photo {
     _id: number | string,
     index: number,
     path: string
   }
+  let removedDuplicatesCount = 0
   const urlToPhotos: Record<string, PhotoAndPath[]> = {}
   const idToVertex: Record<number | string, any> = {}
   // Only links entities are incapable of having photos
@@ -124,7 +125,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
     .filter(url => urlToPhotos[url] && urlToPhotos[url].length == 1)
     .forEach(url => delete urlToPhotos[url])
   // Now urlToPhotos points at any photo that is a duplicate
-  Object.keys(urlToPhotos).map(url => {
+  Object.keys(urlToPhotos).forEach(url => {
     const dupes = urlToPhotos[url]
     const tagList = [...new Set(dupes.flatMap(photo => photo.tags).sort())]
     const pathList = [...new Set(dupes.map(photo => photo.path).sort())]
@@ -158,13 +159,19 @@ function resolveDuplicatePhotoUris(dataset: Dataset) {
       dataset.writeEntityToDisk(entity)
       // Clear out the ini map in case we need to use it again for processing
       dataset.ini.clear()
+      // Increment the duplicated count
+      removedDuplicatesCount = removedDuplicatesCount + duplicateIndexes.length
       console.log(
         `[manage]: ${entityId}: ${url} resolved to single index: ${newIndex}\n` +
         `\tRemoved indexes: ${duplicateIndexes.join(', ')}\n`
       )
     }
   })
-  console.log(`[manage] ${Object.keys(urlToPhotos).length} total duplicated photos.`)
+  console.log(
+    `[manage] ${removedDuplicatesCount} auto-resolved ` +
+    `out of ${Object.keys(urlToPhotos).length} duplicates.`
+  )
+  return removedDuplicatesCount
 }
 
 /**
@@ -198,8 +205,9 @@ if (import.meta.main) {
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
     case (flags["deduplicate-photo-uris"] == true):
-      resolveDuplicatePhotoUris(dataset)
-      await buildDataset(true, true)   // ready to publish
+      const autoResolved = resolveDuplicatePhotoUris(dataset)
+      if (autoResolved > 0)   // build and commit if the dataset changed
+        await buildDataset(true, true)
       break
     case (typeof flags["remove-author"] === "string"):
       // removeAuthorFromLineage(flags["remove-author"])
