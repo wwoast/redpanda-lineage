@@ -75,6 +75,8 @@ interface RedPandaFinderMetrics {
  * type information. 
  */
 export interface Dataset {
+  /** The commit the most recent dataset is built from */
+  commit: string,
   /** Lists of files ingested during an ingest */
   files: Record<string, string[]>,
   /** The actual _Dagobah_ graph and methods, with vertex and edge lists */
@@ -133,6 +135,7 @@ export class Dataset {
    * requires location records to be read first.
    */
   constructor() {
+    this.commit = "HEAD"
     this.graph = new Graph()
     this.ini = new IniMap({assignment: ": "})
     return this
@@ -595,11 +598,10 @@ export class Dataset {
         zoos: inputJson._totals.updates.zoos
       }
     }
-    // If the existing dataset has them, define the file path references that
-    // would be generated on import, consistent with `new Dataset().build()`.
+    // Files map is built from vertex paths
     this.files = {}
-    if (this.graph.vertices.every(vertex => vertex.path))
-      this.graph.vertices.map(vertex => this.files[vertex._id] = vertex.path)
+    this.graph.vertices.map(vertex => this.files[vertex._id] = vertex.path)
+    this.commit = inputJson._commit
     return this
   }
 
@@ -1192,7 +1194,7 @@ export class Dataset {
    * Take an entity, render it to the `.txt` INI-format, and write it back
    * to disk in the entity's dataset path.
    */
-  writeEntityToDisk = (entity: GraphNode) => {
+  writeEntityToDisk = (entity: GraphNode): string => {
     const path = join(Deno.cwd(), entity.path)
     const relevantEdges =
       this.graph.edges.filter(edge => edge._out._id == entity._id)
@@ -1205,6 +1207,9 @@ export class Dataset {
     const output = this.ini.toString()
       .split("\n").map(line => line.replace(":", ": ")).join("\n")
     Deno.writeTextFileSync(path, output)
+    // If you write a file out and re-sort it, compare with the
+    // previous content to determine whether anything changed
+    return output
   }
 }
 

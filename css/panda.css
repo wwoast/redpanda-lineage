@@ -2253,7 +2253,10 @@ span.navigator {
   backdrop-filter: blur(6px);
 }
 span.navigator.threeDigits, span.navigator.fourDigits {
-  font-size: 12pt; line-height: 1.5; padding: 3px 12px; letter-spacing: 0;
+  font-size: 12pt;
+  letter-spacing: 0;
+  line-height: 1.5;
+  padding: 3px 12px;
 }
 
 /* dossier cell */

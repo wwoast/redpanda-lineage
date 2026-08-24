@@ -1,9 +1,12 @@
+import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
+import { join } from '@std/path'
 import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
 import { Dataset } from './dataset.ts'
-import { existsFileSync,
+import { Paths,
+         existsFileSync,
          reviveNode } from './shared.ts'
 
 const helpMessage = `
@@ -175,9 +178,43 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
 }
 
 /**
- * Sorting image locators is just a matter of tracking an entity, and making
- * sure when it's reserialized, 
+ * Sorting image locators is just a matter of tracking changes to text files,
+ * and making sure they get reserialized to reorder the photo indexes.
  */
+async function sortImageUpdates(dataset: Dataset): number {
+  const repo = git()
+  const currentCommit = await repo.commit.get("HEAD")
+  const datasetCommit = await repo.commit.get(dataset.commit)
+  const patches = await repo.diff.patch({
+    from: datasetCommit,
+    to: currentCommit,
+    path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
+  })
+  // If any `.txt` files in the patch set, the dataset should be rebuilt 
+  const pathsUpdated = patches
+    .map(change => join(repo.path(), change.path))
+    .filter(path => path.endsWith(".txt"))
+  if (pathsUpdated.length == 0)
+    return 0   // No changes needed
+  const pathsResorted: string[] = []
+  pathsUpdated.forEach(path => {
+    const input = Deno.readTextFileSync(path)
+    // Open the file with an ini mapper. The section is the file type, and the
+    // _id value is going to be the value in the graph (times -1 if a zoo).
+    const ingest = dataset.ingest(path, reviveNode)
+    const type = Object.keys(ingest)[0] as NodeType
+    const node = ingest[type] as GraphNode
+    const entity = dataset.processNode(path, node, type)
+    // Take the updated entity and put it back on disk
+    const output = dataset.writeEntityToDisk(entity)
+    if (input != output)
+      pathsResorted.push(path)
+  })
+  console.log(
+    `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated files needed key sort:\n` +
+    pathsResorted.map(path => `\t${path}\n`) + "\n"
+  )
+}
 
 /** 
  * `deno task` runs this script relative from the root of the
@@ -225,7 +262,9 @@ if (import.meta.main) {
       break
     }
     case (flags["sort-image-updates"] == true):
-      // sortImageUpdates(dataset)
+      const count = sortImageUpdates(dataset)
+      if (count > 0)
+        await buildDataset(true, true)   // ready to publish
       break
     default:
       console.log(helpMessage)
