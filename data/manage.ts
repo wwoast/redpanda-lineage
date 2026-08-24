@@ -199,7 +199,7 @@ if (import.meta.main) {
   switch (true) {
     case (flags["deduplicate-photo-uris"] == true):
       resolveDuplicatePhotoUris(dataset)
-      await buildDataset(true, false)   // ready to publish
+      // await buildDataset(true, false)   // ready to publish
       break
     case (typeof flags["remove-author"] === "string"):
       // removeAuthorFromLineage(flags["remove-author"])
