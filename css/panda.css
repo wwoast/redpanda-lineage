@@ -2241,7 +2241,7 @@ span.navigator {
   top: 10px; left: 10px;
   height: auto;
   z-index: 2;
-  background-color: rgba(0,0,0,0.55);
+  background-color: rgba(0,0,0,.55);
   color: white;
   font-family: "Baloo 2", "Jun 201", "Noto Emoji", sans-serif;
   font-size: 13pt;

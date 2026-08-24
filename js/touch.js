@@ -30,15 +30,15 @@ const touch = {
 // The 4 Touch Event Handlers
 function start(event) {
   // get the total number of fingers touching the screen
-  touch.fingerCount = event.touches.length;
+  touch.fingerCount = event.touches.length
   // timer for long press events
-  touch.startTime = new Date().getTime();
+  touch.startTime = new Date().getTime()
   // since we're looking for a swipe (single finger) and not a gesture (multiple fingers),
   // check that only one finger was used
   if (touch.fingerCount == 1) {
     // get the coordinates of the touch
-    touch.startX = event.touches[0].pageX;
-    touch.startY = event.touches[0].pageY;
+    touch.startX = event.touches[0].pageX
+    touch.startY = event.touches[0].pageY
   } else {
     // more than one finger touched so cancel
     cancel()
@@ -46,6 +46,7 @@ function start(event) {
 }
 
 function move(event) {
+  event.preventDefault()
   if (event.touches.length == 1) {
     touch.curX = event.touches[0].pageX
     touch.curY = event.touches[0].pageY
@@ -53,10 +54,10 @@ function move(event) {
     if (touch.xTurn == 0) {
       const newDeltaX = Math.abs(touch.curX - touch.startX)
       if (newDeltaX > touch.deltaX) {
-        touch.deltaX = newDeltaX;
+        touch.deltaX = newDeltaX
       } else {
         touch.xTurn = touch.curX
-        touch.horzDiff = touch.horzDiff + touch.deltaX;
+        touch.horzDiff = touch.horzDiff + touch.deltaX
         touch.deltaX = 0
         touch.turnCount = touch.turnCount + 1
       }
@@ -66,10 +67,10 @@ function move(event) {
         touch.deltaX = newDeltaX
       } else {
         // We turned again, so cancel
-        touch.horzDiff = touch.horzDiff + touch.deltaX;
-        touch.xTurn = 0;
-        touch.deltaX = 0;
-        touch.turnCount = touch.turnCount + 1;
+        touch.horzDiff = touch.horzDiff + touch.deltaX
+        touch.xTurn = 0
+        touch.deltaX = 0
+        touch.turnCount = touch.turnCount + 1
       }
     }
   } else {
@@ -79,7 +80,7 @@ function move(event) {
 
 function swipeEnd(event, gallery, elementId, callback) {
   event.preventDefault()
-  touch.endTime = new Date().getTime();
+  touch.endTime = new Date().getTime()
   if (touch.fingerCount == 1 && touch.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
@@ -93,7 +94,7 @@ function swipeEnd(event, gallery, elementId, callback) {
       angle()
       determine()   // What the swipe direction and angle are
       // Do something in the RPF interface
-      callback.apply(null, [gallery, elementId]);
+      callback.apply(null, [gallery, elementId])
       cancel()      // Reset the variables
     } else {
       cancel()
