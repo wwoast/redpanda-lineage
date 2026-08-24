@@ -29,7 +29,7 @@ const touch = {
 
 // The 4 Touch Event Handlers
 function start(event) {
-  event.preventDefault()
+  cancel()   // reset the touch counters
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length
   // timer for long press events
@@ -96,13 +96,9 @@ function end(event, gallery, elementId, callback) {
       determine()   // What the swipe direction and angle are
       // Do something in the RPF interface
       callback.apply(null, [gallery, elementId])
-      cancel()      // Reset the variables
-    } else {
-      cancel()
     }
-  } else {
-    cancel()
   }
+  cancel()      // Reset the variables
 }
 
 /** Reset the touch state variables back to default values */
