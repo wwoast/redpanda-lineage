@@ -44,7 +44,7 @@ function move(event, touch) {
       }
     } else {
       const newDeltaX = Math.abs(touch.xTurn - touch.curX)
-      if (newDeltaX > this.deltaX) {
+      if (newDeltaX > touch.deltaX) {
         touch.deltaX = newDeltaX
       } else {
         // We turned again, so cancel
