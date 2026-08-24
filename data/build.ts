@@ -81,7 +81,7 @@ export async function isDatasetFresh() {
     const buildNeeded = patches
       .map(change => join(repo.path(), change.path))
       .some(path => path.endsWith(".txt"))
-    return buildNeeded
+    return !buildNeeded
   } catch(_err) {
     console.log(`[build] problem with existing dataset, so rebuilding`)
     return false

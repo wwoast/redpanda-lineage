@@ -189,8 +189,8 @@ if (import.meta.main) {
   }
   // Either build a new dataset, or import an existing one. Make sure we have
   // file paths represented on every vertex.
-  const buildNeeded = await isDatasetFresh()
-  const dataset = (!buildNeeded)
+  const fresh = await isDatasetFresh()
+  const dataset = (fresh == true)
     ? importDataset()
     : await buildDataset(false, false)
   // Now we can assume `export/redpanda.json` exactly represents the underlying
