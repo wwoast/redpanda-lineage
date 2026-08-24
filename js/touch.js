@@ -29,7 +29,6 @@ const touch = {
 
 // The 4 Touch Event Handlers
 function start(event) {
-  cancel()   // reset the touch counters
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length
   // timer for long press events
