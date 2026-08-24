@@ -194,8 +194,10 @@ async function sortImageUpdates(dataset: Dataset): number {
   const pathsUpdated = patches
     .map(change => join(repo.path(), change.path))
     .filter(path => path.endsWith(".txt"))
-  if (pathsUpdated.length == 0)
+  if (pathsUpdated.length == 0) {
+    console.log(`[manage] No dataset files were updated, so none sorted.\n`)
     return 0   // No changes needed
+  }
   const pathsResorted: string[] = []
   pathsUpdated.forEach(path => {
     const input = Deno.readTextFileSync(path)
@@ -214,6 +216,7 @@ async function sortImageUpdates(dataset: Dataset): number {
     `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated files needed key sort:\n` +
     pathsResorted.map(path => `\t${path}\n`) + "\n"
   )
+  return pathsResorted.length
 }
 
 /** 
