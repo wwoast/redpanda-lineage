@@ -83,22 +83,20 @@ function end(event, touch, gallery, elementId, callback) {
 
 /** Reset the touch state variables back to default values */
 function cancel(touch) {
-  touch = {...{
-    curX: 0,
-    curY: 0,
-    deltaX: 0,
-    diffHorz: 0,
-    fingerCount: 0,
-    startX: 0,
-    startY: 0,
-    swipeAngle: null,
-    swipeDirection: null,
-    swipeLength: 0,
-    timeEnd: 0,
-    timeStart: 0,
-    turnCount: 0,
-    xTurn: 0
-  }}
+  touch.curX = 0
+  touch.curY = 0
+  touch.deltaX = 0
+  touch.diffHorz = 0
+  touch.fingerCount = 0
+  touch.startX = 0
+  touch.startY = 0
+  touch.swipeAngle = null
+  touch.swipeDirection = null
+  touch.swipeLength = 0
+  touch.timeEnd = 0
+  touch.timeStart = 0
+  touch.turnCount = 0
+  touch.xTurn = 0
 }
 
 /** Calculate the angle of a particular swipe */
