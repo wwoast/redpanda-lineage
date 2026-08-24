@@ -495,8 +495,7 @@ export class Dataset {
     exportPath: string,
     repo: Git,
     updates: Updates,
-    output: boolean,
-    paths: boolean
+    output: boolean
   ) => {
     const pandas = this.files.panda.length
     const wilds = this.files.wild.length
@@ -520,9 +519,6 @@ export class Dataset {
     const currentCommit = await repo.commit.get("HEAD")
     if (!currentCommit || !currentCommit.hash)
       throw new Error("[build] ERR: no git commit hash to track for the dataset")
-    // Manage scripts like having the paths available
-    if (paths == false)
-      this.graph.vertices.forEach(vertex => delete vertex.path)
     // Anything not in a Dagoba graph object is keyed with an underscore
     Deno.writeTextFileSync(exportPath,
       JSON.stringify({

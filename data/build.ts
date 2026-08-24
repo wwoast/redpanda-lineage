@@ -20,17 +20,16 @@ import { Paths } from './shared.ts'
  * TODO: if the dataset exists and no .txt file changes, but paths are false,
  * make this a no-op?
  */
-export async function buildDataset(metrics: boolean, paths: boolean): Promise<Dataset> {
+export async function buildDataset(metrics: boolean, commit: boolean): Promise<Dataset> {
   const repo = git()
   // Create a JS object from the redpandafinder `.txt` files
   const dataset = new Dataset().build()
   // Determine what changed in the last week of Git commits
   const updates = await new Updates().build(repo, dataset.graph)
   // Generate the ouptut JSON file
-  await dataset.exportJsonGraph(Paths.output, repo, updates, metrics, paths)
-  // If the new dataset was not built with paths, we can commit it to the
-  // repository. Otherwise, wait until we're done making adjustments
-  if (!paths) {
+  await dataset.exportJsonGraph(Paths.output, repo, updates, metrics)
+  // Commit the output JSON file to the repository if desired
+  if (commit) {
     await repo.index.add(Paths.output)
     const currentCommit = await repo.commit.get("HEAD")
     const shortCommit = (currentCommit && currentCommit.short)
@@ -38,9 +37,7 @@ export async function buildDataset(metrics: boolean, paths: boolean): Promise<Da
       : "HEAD~1"
     const commitMessage = `dataset from ${shortCommit}`
     await repo.commit.create({ all: true, subject: commitMessage })
-    console.log(`[build] commit: ${commitMessage}`)
-  } else {
-    console.log(`[build] dataset with file paths built for management tasks`)
+    console.log(`[build] committed: ${commitMessage}`)
   }
   return dataset
 }
@@ -50,16 +47,11 @@ export async function buildDataset(metrics: boolean, paths: boolean): Promise<Da
  * management tasks with. If the file paths aren't included in each vertex,
  * perform a rebuild task so that the paths are included.
  */
-export async function importDataset(): Promise<Dataset> {
+export function importDataset(): Dataset {
   const dataset = new Dataset().importJsonGraph()
-  const pathsPresent = dataset.graph.vertices.every(vertex => vertex.path)
-  if (pathsPresent) {
-    console.log(`[build] imported graph is fresh`)
-    return dataset
-  } else {
-    console.log(`[build] vertexes lack file paths, so rebuild`)
-    return await buildDataset(false, true)
-  }
+  // TODO: better freshness check based on commit
+  console.log(`[build] imported graph is fresh`)
+  return dataset
 }
 
 /** 
@@ -101,5 +93,5 @@ export async function isDatasetFresh() {
  * `redpanda-lineage` project source code, where `deno.json` is found.
  */
 if (import.meta.main) {
-  await buildDataset(true, false)
+  await buildDataset(true, true)
 }

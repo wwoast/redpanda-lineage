@@ -191,15 +191,15 @@ if (import.meta.main) {
   // file paths represented on every vertex.
   const buildNeeded = await isDatasetFresh()
   const dataset = (!buildNeeded)
-    ? await importDataset()
-    : await buildDataset(false, true)
+    ? importDataset()
+    : await buildDataset(false, false)
   // Now we can assume `export/redpanda.json` exactly represents the underlying
   // data, and our other checks can make decisions about processing entirely on
   // the JSON file, rather than reading all the `.txt` files one by one
   switch (true) {
     case (flags["deduplicate-photo-uris"] == true):
       resolveDuplicatePhotoUris(dataset)
-      // await buildDataset(true, false)   // ready to publish
+      await buildDataset(true, true)   // ready to publish
       break
     case (typeof flags["remove-author"] === "string"):
       // removeAuthorFromLineage(flags["remove-author"])
@@ -210,7 +210,7 @@ if (import.meta.main) {
       break
     case (typeof flags["remove-photo"] === "string"):
       removePhotoFromEntity(dataset, flags["remove-photo"], args)
-      await buildDataset(true, false)   // ready to publish
+      await buildDataset(true, true)   // ready to publish
       break
     case (typeof flags["restore-author"] === "string"): {
       // restoreAuthorToLineage(flags["restore-author"], args[0])
