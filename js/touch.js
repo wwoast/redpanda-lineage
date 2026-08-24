@@ -29,6 +29,7 @@ const touch = {
 
 // The 4 Touch Event Handlers
 function start(event) {
+  event.preventDefault()
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length
   // timer for long press events
@@ -78,7 +79,7 @@ function move(event) {
   }
 }
 
-function swipeEnd(event, gallery, elementId, callback) {
+function end(event, gallery, elementId, callback) {
   event.preventDefault()
   touch.endTime = new Date().getTime()
   if (touch.fingerCount == 1 && touch.curX != 0) {
@@ -187,7 +188,7 @@ export function addSwipeHandler(gallery, inputElement, callback) {
   inputElement.addEventListener('touchstart', (event) => start(event), true)
   inputElement.addEventListener(
     'touchend', 
-    (event) => swipeEnd(event, gallery, inputElement.id, callback),
+    (event) => end(event, gallery, inputElement.id, callback),
     true
   )
   inputElement.addEventListener('touchmove', (event) => move(event), true)
