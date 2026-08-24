@@ -309,7 +309,7 @@ export function fade(el) {
     el.style.opacity = op  // Reset the opacity and let exisitng fade just run
     return
   }
-  const timer = setInterval(function () {
+  const timer = setInterval(() => {
     if (op <= 0.05) {
       clearInterval(timer)
       el.style.display = 'none'
