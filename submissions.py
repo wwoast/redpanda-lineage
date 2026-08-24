@@ -708,6 +708,6 @@ if __name__ == '__main__':
     results = iterate_through_contributions(processing_folder)
     copy_images_to_image_server(results)
     create_submissions_branch(results)
-    sort_image_updates()
+    # sort_image_updates()
     migrate_submissions_to_submitted()
     print("Please merge submissions to master when ready.")
