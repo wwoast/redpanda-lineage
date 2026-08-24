@@ -135,7 +135,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
     if (pathList.length > 1) {
       console.log(
         `[manage] WARN: manually review: multiple paths for photo: ${url}\n` +
-        pathList.map(path => `\t${path}`).join("\n") + "\n"
+        pathList.map(path => `\t${path}`).join("\n")
       )
     } else {
       // Find the lowest index and update the photo info
@@ -181,7 +181,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
  * Sorting image locators is just a matter of tracking changes to text files,
  * and making sure they get reserialized to reorder the photo indexes.
  */
-async function sortImageUpdates(dataset: Dataset): number {
+async function sortImageUpdates(dataset: Dataset): Promise<number> {
   const repo = git()
   const currentCommit = await repo.commit.get("HEAD")
   const datasetCommit = await repo.commit.get(dataset.commit)
@@ -214,7 +214,7 @@ async function sortImageUpdates(dataset: Dataset): number {
   })
   console.log(
     `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated files needed key sort:\n` +
-    pathsResorted.map(path => `\t${path}\n`) + "\n"
+    pathsResorted.map(path => `\t${path}`).join("\n")
   )
   return pathsResorted.length
 }
@@ -265,7 +265,7 @@ if (import.meta.main) {
       break
     }
     case (flags["sort-image-updates"] == true):
-      const count = sortImageUpdates(dataset)
+      const count = await sortImageUpdates(dataset)
       if (count > 0)
         await buildDataset(true, true)   // ready to publish
       break
