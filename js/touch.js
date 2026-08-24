@@ -133,7 +133,7 @@ export function processPhoto(touch, gallery, elementId) {
   const navigatorId = `${animalId}/navigator`
   const navigator = document.getElementById(navigatorId)
   const span = navigator.childNodes[0]
-  if (((touch.horzDiff > 2*MinLength) && (touch.turnCount > 0)) &&
+  if (((touch.diffHorz > 2*MinLength) && (touch.turnCount > 0)) &&
       ((touch.swipeDirection == 'right') || (touch.swipeDirection == 'left'))) {
     // TODO ES6
     // At least one direction turn, and a swipe twice as long as a normal
