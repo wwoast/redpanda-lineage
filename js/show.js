@@ -302,7 +302,7 @@ export function emptyResult(chosen_message=Message.Text.no_result, language) {
 
 /** Used to fade the dogear menu for selecting photos */
 export function fade(el) {
-  const op = 1  // initial opacity
+  let op = 1  // initial opacity
   if (el.style.display == "none" || el.style.display == "")
     el.style.display = "block"
   else {
