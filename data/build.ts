@@ -79,7 +79,7 @@ export async function isDatasetFresh() {
     })
     // If any `.txt` files in the patch set, the dataset should be rebuilt 
     const buildNeeded = patches
-      .map(change => join(repo.path(), change.path))
+      .map(change => change.path)
       .some(path => path.endsWith(".txt"))
     return !buildNeeded
   } catch(_err) {

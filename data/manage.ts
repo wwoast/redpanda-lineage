@@ -198,9 +198,11 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
     to: currentCommit,
     path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
   })
-  // If any `.txt` files in the patch set, the dataset should be rebuilt 
+  // If any unique `.txt` files get resorted, rebuild the dataset 
   const pathsUpdated = patches
     .map(change => change.path)
+    .filter((value: string, index: number, array: string[]) =>
+      array.indexOf(value) === index)
     .filter(path => path.endsWith(".txt"))
   if (pathsUpdated.length == 0) {
     console.log(`[manage] No dataset files were updated, so none sorted.\n`)
@@ -208,15 +210,16 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
   }
   const pathsResorted: string[] = []
   pathsUpdated.forEach(path => {
-    const input = Deno.readTextFileSync(path)
     console.log(path)
     // Open the file with an ini mapper. The section is the file type, and the
     // _id value is going to be the value in the graph (times -1 if a zoo).
     const ingest = dataset.ingest(path, reviveNode)
+    console.log(ingest)
     const type = Object.keys(ingest)[0] as NodeType
     const node = ingest[type] as GraphNode
     const entity = dataset.processNode(path, node, type)
     // Take the updated entity and put it back on disk
+    const input = Deno.readTextFileSync(path)
     const output = dataset.writeEntityToDisk(entity)
     if (input != output)
       pathsResorted.push(path)

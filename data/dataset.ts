@@ -580,7 +580,7 @@ export class Dataset {
     this.rpf = {
       last_born: inputJson._totals.last_born,
       last_died: inputJson._totals.last_died,
-      lexer_names: inputJson._lexer,
+      lexer_names: new Set(inputJson._lexer.names),
       photos: {
         credit: inputJson._photo.credit,
         max: inputJson._photo.entity_max,
@@ -939,7 +939,6 @@ export class Dataset {
         url: vertex[`${photoKey}`]
       }
       if (vertex.type == "media") {
-        console.log(JSON.stringify(vertex))
         photo.locations = Object.fromEntries(
           vertex["panda.tags"].map(pandaId => {
             const field = `${photoKey}.tags.${pandaId}.location`
@@ -1207,6 +1206,8 @@ export class Dataset {
     const output = this.ini.toString()
       .split("\n").map(line => line.replace(":", ": ")).join("\n")
     Deno.writeTextFileSync(entity.path, output)
+    // Again, clear out the ini map after using it as a serde buffer
+    this.ini.clear()
     // If you write a file out and re-sort it, compare with the
     // previous content to determine whether anything changed
     return output
