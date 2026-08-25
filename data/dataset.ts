@@ -1263,7 +1263,7 @@ export class Updates {
 
   #determineUpdates = async (repo: Git) => {
     const currentCommit = await repo.commit.get("HEAD")
-    const priorCommit = await this.#startingCommit(repo)
+    const priorCommit = await this.startingCommit(repo)
     // Memory use quickly gets out of hand when diff tries to process
     // `redpanda.json`, so restrict the possible paths
     const patches = await repo.diff.patch({
