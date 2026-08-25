@@ -978,9 +978,21 @@ export class Dataset {
       case "wild":
       case "zoo":
         return this.renderZooObject(entity)
+      case "links":
+        return this.renderLinksObject(entity)
       default:
+        //@ts-ignore
         throw new Error(`[manage] ${entity._id}: unknown node object type: ${entity.type}`)
     }
+  }
+
+  renderLinksObject = (entity: Vertex) => {
+    const working = structuredClone(entity)
+    Object.keys(working).map(key => {
+      if (key.includes("language.order"))
+        working[key] = working[key].join(", ")
+    })
+    return working
   }
 
   /** TODO: stricter typing on entity, oldnames in PandaNode */
