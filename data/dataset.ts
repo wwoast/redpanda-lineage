@@ -1151,6 +1151,8 @@ export class Dataset {
     delete working._in
     //@ts-ignore
     delete working._out
+    delete working.address
+    delete working.location
     delete working.name
     delete working.othernames
     delete working.path
