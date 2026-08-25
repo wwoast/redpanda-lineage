@@ -997,7 +997,8 @@ export class Dataset {
         working[`photo.${naturalIndex}.author`] = photo.author
         working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
         working[`photo.${naturalIndex}.link`] = photo.source
-        working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
+        if (photo.tags)
+          working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
         if (photo.locations) {
           Object.entries(photo.locations).map((entry: [string, [number, number]]) => {
             const [pandaId, coordinates] = entry
@@ -1055,7 +1056,8 @@ export class Dataset {
         working[`photo.${naturalIndex}.author`] = photo.author
         working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
         working[`photo.${naturalIndex}.link`] = photo.source
-        working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
+        if (photo.tags)
+          working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
       })
     }
     // Add back the data from the edges
@@ -1138,7 +1140,8 @@ export class Dataset {
         working[`photo.${naturalIndex}.author`] = photo.author
         working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
         working[`photo.${naturalIndex}.link`] = photo.source
-        working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
+        if (photo.tags)
+          working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
       })
     }
     // Set the top-level key that will be treated as the section header
