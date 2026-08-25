@@ -201,7 +201,7 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
   })
   // If any `.txt` files in the patch set, the dataset should be rebuilt 
   const pathsUpdated = patches
-    .map(change => join(repo.path(), change.path))
+    .map(change => change.path)
     .filter(path => path.endsWith(".txt"))
   if (pathsUpdated.length == 0) {
     console.log(`[manage] No dataset files were updated, so none sorted.\n`)

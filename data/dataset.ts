@@ -1195,7 +1195,6 @@ export class Dataset {
    * to disk in the entity's dataset path.
    */
   writeEntityToDisk = (entity: GraphNode): string => {
-    const path = join(Deno.cwd(), entity.path)
     const relevantEdges =
       this.graph.edges.filter(edge => edge._out._id == entity._id)
     const processed = this.renderObject(entity, relevantEdges)
@@ -1206,7 +1205,7 @@ export class Dataset {
     // can't reasonably handle multiple-character assignment symbols
     const output = this.ini.toString()
       .split("\n").map(line => line.replace(":", ": ")).join("\n")
-    Deno.writeTextFileSync(path, output)
+    Deno.writeTextFileSync(entity.path, output)
     // If you write a file out and re-sort it, compare with the
     // previous content to determine whether anything changed
     return output
@@ -1272,7 +1271,7 @@ export class Updates {
       path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
     })
     for (const change of patches) {
-      const filename = join(Deno.cwd(), change.path)
+      const filename = change.path
       // Don't care about non-data files
       if (!filename.endsWith(".txt"))
         continue
