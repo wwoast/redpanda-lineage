@@ -75,7 +75,7 @@ interface RedPandaFinderMetrics {
  * type information. 
  */
 export interface Dataset {
-  /** The commit the most recent dataset is built from */
+  /** The commit this dataset was built from */
   commit: string,
   /** Lists of files ingested during an ingest */
   files: Record<string, string[]>,
@@ -1354,7 +1354,7 @@ export class Updates {
   }
 
   /** Determine the earliest commit newer than the `period` value (7 days) */
-  #startingCommit = async (repo: Git) => {
+  startingCommit = async (repo: Git) => {
     // commits are returned newest to oldest
     const iterateCommits = (await repo.commit.log()).values()
     let oldestCommit = await repo.commit.get("HEAD")

@@ -4,9 +4,10 @@ import { join } from '@std/path'
 import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
-import { Dataset } from './dataset.ts'
+import { Dataset, Updates } from './dataset.ts'
 import { Paths,
          existsFileSync,
+         firstCommit,
          reviveNode } from './shared.ts'
 
 const helpMessage = `
@@ -32,11 +33,13 @@ Subcommands:
   --restore-author <author> [commitish]
         Restore all references to <author>'s removed photos, sorted by the
         "photo hash" of the photo file name. With [commitish], only restore
-        <author>'s photos removed in that specific Git commit. 
-  --sort-image-updates
-        Sort image locators for all .txt files changed since the last commit.
-        Use photo names with a "timestamp hash" and sort them in order of
-        oldest-published to newest-published.
+        <author>'s photos removed in that specific Git commit.
+  --sort-entities
+        Sort image locators, and other keys, for any .txt file in the dataset.
+        For images locators, use the "timestamp hash" in each photo URL and
+        sort them in order of oldest-published to newest-published.
+  --sort-updates
+        Sort image locators for all .txt files changed in the last week.
 `
 
 /** 
@@ -180,13 +183,19 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
 /**
  * Sorting image locators is just a matter of tracking changes to text files,
  * and making sure they get reserialized to reorder the photo indexes.
+ * 
+ * Use the same time window as the Updates object uses (one week). We need to
+ * build the dataset every time the manage tools are run, so you can't rely on
+ * `dataset.commit` for anything other than freshness of the dataset.
  */
-async function sortImageUpdates(dataset: Dataset): Promise<number> {
+async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<number> {
   const repo = git()
   const currentCommit = await repo.commit.get("HEAD")
-  const datasetCommit = await repo.commit.get(dataset.commit)
+  const previousCommit = (mode == "all")
+    ? await repo.commit.get(firstCommit)
+    : await new Updates().startingCommit(repo)
   const patches = await repo.diff.patch({
-    from: datasetCommit,
+    from: previousCommit,
     to: currentCommit,
     path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
   })
@@ -226,7 +235,7 @@ async function sortImageUpdates(dataset: Dataset): Promise<number> {
 if (import.meta.main) {
   // TODO: check CLI arguments with options that enforce data types
   const { _: args, ...flags } = parseArgs(Deno.args, {
-    boolean: ["deduplicate-photo-uris", "sort-image-updates"],
+    boolean: ["deduplicate-photo-uris", "sort-all", "sort-updates"],
     string: ["remove-author", "remove-duplicate", "remove-photo", "restore-author"]
   })
   // If no arguments, don't try and build the dataset
@@ -240,14 +249,18 @@ if (import.meta.main) {
   const dataset = (fresh == true)
     ? importDataset()
     : await buildDataset(false, false)
-  // Now we can assume `export/redpanda.json` exactly represents the underlying
-  // data, and our other checks can make decisions about processing entirely on
-  // the JSON file, rather than reading all the `.txt` files one by one
+  /* 
+   * Now we can assume `export/redpanda.json` exactly represents the underlying
+   * data, and our other checks can make decisions about processing entirely on
+   * the JSON file, rather than reading all the `.txt` files one by one.
+   * 
+   * Since switch cases are all one scope, you can't redeclare const in these,
+   * so I just avoid variable definitions.
+   */
   switch (true) {
     case (flags["deduplicate-photo-uris"] == true):
-      const autoResolved = resolveDuplicatePhotoUris(dataset)
-      if (autoResolved > 0)   // build and commit if the dataset changed
-        await buildDataset(true, true)
+      if (resolveDuplicatePhotoUris(dataset) > 0)
+        await buildDataset(true, true)   // build and commit if the dataset changed
       break
     case (typeof flags["remove-author"] === "string"):
       // removeAuthorFromLineage(flags["remove-author"])
@@ -264,9 +277,12 @@ if (import.meta.main) {
       // restoreAuthorToLineage(flags["restore-author"], args[0])
       break
     }
-    case (flags["sort-image-updates"] == true):
-      const count = await sortImageUpdates(dataset)
-      if (count > 0)
+    case (flags["sort-all"] == true):
+      if (await sortEntities(dataset, "all") > 0)
+        await buildDataset(true, true)   // ready to publish
+      break
+    case (flags["sort-updates"] == true):
+      if (await sortEntities(dataset, "updates") > 0)
         await buildDataset(true, true)   // ready to publish
       break
     default:

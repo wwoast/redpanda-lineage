@@ -1,5 +1,7 @@
 import type { Vertex } from './dagoba.ts'
 
+export const firstCommit = "832f3469e61901ebf9a38a6c2da1f427cf64e188"
+
 /** Keep consistent with the `SupportedLanguages` enum definition */
 export const supportedLanguages: Language[] = ["en", "es", "ja", "ko", "ne", "pt", "zh"]
 
