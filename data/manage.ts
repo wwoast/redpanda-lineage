@@ -208,7 +208,6 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
     console.log(`[manage] No dataset files were updated, so none sorted.\n`)
     return 0   // No changes needed
   }
-  console.log(`[manage] Key-sorting ${pathsUpdated.length} modified entity files.\n`)
   const pathsResorted: string[] = []
   pathsUpdated.forEach(path => {
     // Open the file with an ini mapper. The section is the file type, and the
@@ -224,7 +223,7 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
       pathsResorted.push(path)
   })
   console.log(
-    `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated files were key-sorted:\n` +
+    `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated dataset needed sorting:\n` +
     pathsResorted.map(path => `\t${path}`).join("\n")
   )
   return pathsResorted.length
