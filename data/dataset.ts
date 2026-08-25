@@ -1115,6 +1115,8 @@ export class Dataset {
   /** TODO: stricter typing on entity, oldnames in PandaNode */
   renderZooObject = (entity: Vertex) => {
     const working = structuredClone(entity)
+    if (entity.type == "zoo")
+      working._id = parseInt(working._id) * -1
     if ("address" in working) {
       Object.keys(working.address).map(language =>
         working[`${language}.address`] = working.address[language])
