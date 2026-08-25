@@ -222,10 +222,13 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
     if (input != output)
       pathsResorted.push(path)
   })
-  console.log(
-    `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated dataset needed sorting:\n` +
-    pathsResorted.map(path => `\t${path}`).join("\n")
-  )
+  if (pathsResorted.length > 0)
+    console.log(
+      `[manage] ${pathsResorted.length}/${pathsUpdated.length} updated dataset(s) needed sorting:\n` +
+      pathsResorted.map(path => `\t${path}`).join("\n")
+    )
+  else
+    console.log(`[manage] No updated dataset files required sorting.\n`)
   return pathsResorted.length
 }
 
