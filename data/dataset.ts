@@ -939,6 +939,7 @@ export class Dataset {
         url: vertex[`${photoKey}`]
       }
       if (vertex.type == "media") {
+        console.log(JSON.stringify(vertex))
         photo.locations = Object.fromEntries(
           vertex["panda.tags"].map(pandaId => {
             const field = `${photoKey}.tags.${pandaId}.location`

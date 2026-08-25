@@ -1,6 +1,5 @@
 import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
-import { join } from '@std/path'
 import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
@@ -210,6 +209,7 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
   const pathsResorted: string[] = []
   pathsUpdated.forEach(path => {
     const input = Deno.readTextFileSync(path)
+    console.log(path)
     // Open the file with an ini mapper. The section is the file type, and the
     // _id value is going to be the value in the graph (times -1 if a zoo).
     const ingest = dataset.ingest(path, reviveNode)

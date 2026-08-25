@@ -22,6 +22,7 @@ export interface PhotoEntry {
   entityId: string
   entityType: "media" | "panda" | "wild" | "zoo"
   filename: string
+  ini: IniMap
   photoCommitDate: string
   photoIndex: number
   photoUri: string
@@ -31,11 +32,19 @@ export class PhotoEntry {
   /** Read a raw line of config for a photo */
   constructor(filename: string, raw: string) {
     this.filename = filename
+    this.ini = new IniMap({assignment: ":"})
     this.#readUpdatedEntityId(raw)
   }
   /** Entity locator to track which animals have photos or not */
   entityLocator() {
     return `${this.entityType}.${this.entityId}`
+  }
+  /** Clear the ini map between entity reads */
+  ingest() {
+    const ingest =
+      this.ini.parse(Deno.readTextFileSync(this.filename)).toObject()
+    this.ini.clear()
+    return ingest
   }
   /** Photo locator unique to a given entity */
   photoLocator() {
@@ -60,11 +69,8 @@ export class PhotoEntry {
       this.entityId = this.filename.split("/")[-1].split("_")[0].replace(/^0+/, "")
       return
     }
-    const ini = new IniMap({assignment: ":"})
     if (this.filename.includes(Paths.media)) {
-      const ingest = ini.parse(
-        Deno.readTextFileSync(this.filename)
-      ).toObject() as Record<"media", Record<string, string>>
+      const ingest = this.ingest() as Record<"media", Record<string, string>>
       const entity = ingest.media._id
       this.entityType = "media"
       this.entityId = entity.slice(this.entityType.length)
@@ -74,9 +80,7 @@ export class PhotoEntry {
       this.photoIndex = parseInt(photoIndex)
       this.photoUri = photoUri
     } else if (this.filename.includes(Paths.pandas)) {
-      const ingest = ini.parse(
-        Deno.readTextFileSync(this.filename)
-      ).toObject() as Record<"panda", Record<string, string>>
+      const ingest = this.ingest() as Record<"panda", Record<string, string>>
       this.entityType = "panda"
       this.entityId = ingest.panda._id
       this.entityCommitDate = ingest.panda.commitdate
@@ -86,9 +90,7 @@ export class PhotoEntry {
       this.photoUri = photoUri
       this.species = ingest.panda.species
     } else if (this.filename.includes(Paths.wilds)) {
-      const ingest = ini.parse(
-        Deno.readTextFileSync(this.filename)
-      ).toObject() as Record<"wild", Record<string, string>>
+      const ingest = this.ingest() as Record<"wild", Record<string, string>>
       const entity = ingest.wild._id
       this.entityType = "wild"
       this.entityId = entity.slice(this.entityType.length)
@@ -98,9 +100,7 @@ export class PhotoEntry {
       this.photoIndex = parseInt(photoIndex)
       this.photoUri = photoUri
     } else if (this.filename.includes(Paths.zoos)) {
-      const ingest = ini.parse(
-        Deno.readTextFileSync(this.filename)
-      ).toObject() as Record<"zoo", Record<string, string>>
+      const ingest = this.ingest() as Record<"zoo", Record<string, string>>
       this.entityType = "zoo"
       this.entityId = ingest.zoo._id
       this.entityCommitDate = ingest.zoo.commitdate
