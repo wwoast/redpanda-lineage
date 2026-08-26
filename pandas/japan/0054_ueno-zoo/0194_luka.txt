@@ -965,9 +965,6 @@ photo.190.author: ck.chie
 photo.190.commitdate: 2023/11/18
 photo.190.link: ig://Cq6_H5kPwWp
 photo.190.tags: paws, peek, sample, whiskers
-species: 2
-studbook.id: 1677
-zoo: 54
 photo.191: cwdc://ZvlkyyRADQA.jpg
 photo.191.author: redpan22
 photo.191.commitdate: 2026/2/16
@@ -988,3 +985,6 @@ photo.194.author: framereim
 photo.194.commitdate: 2026/8/25
 photo.194.link: ig://DZmmoO_k3zQ
 photo.194.tags: baby, portrait, sample, whiskers
+species: 2
+studbook.id: 1677
+zoo: 54

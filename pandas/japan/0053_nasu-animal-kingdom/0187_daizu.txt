@@ -283,9 +283,6 @@ photo.54.author: fetorus_mami
 photo.54.commitdate: 2023/8/11
 photo.54.link: https://www.instagram.com/fetorus_mami/
 photo.54.tags: lips, mofumofu, sample
-species: 2
-studbook.id: 1090
-zoo: 53
 photo.55: cwdc://W9MEnD_ADQA.jpg
 photo.55.author: fetorus_mami
 photo.55.commitdate: 2026/8/25
@@ -321,3 +318,6 @@ photo.61.author: fetorus_mami
 photo.61.commitdate: 2026/8/25
 photo.61.link: ig://DZl6NQ4E4j5
 photo.61.tags: bamboo, mofumofu, sample, smile, whiskers
+species: 2
+studbook.id: 1090
+zoo: 53

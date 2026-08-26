@@ -566,8 +566,6 @@ photo.110.author: fetorus_mami
 photo.110.commitdate: 2024/5/4
 photo.110.link: ig://C157qY8P6H_
 photo.110.tags: bamboo, paws, sample
-species: 2
-zoo: 9
 photo.111: cwdc://Z7d7oB-ADQA.jpg
 photo.111.author: fetorus_mami
 photo.111.commitdate: 2026/8/25
@@ -588,3 +586,5 @@ photo.114.author: fetorus_mami
 photo.114.commitdate: 2026/8/25
 photo.114.link: ig://DZwKDevE_HX
 photo.114.tags: bamboo, bite, close-up, paws, shoots
+species: 2
+zoo: 9

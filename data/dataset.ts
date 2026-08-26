@@ -1221,7 +1221,7 @@ export class Dataset {
     Object.keys(processed).sort(byFieldName).map(key =>
       this.ini.set(entity.type, key, processed[key]))
     // Replace first colon on a line with colon-space, since ini-map
-    // can't reasonably handle multiple-character assignment symbols
+  // can't reasonably handle multiple-character assignment symbols
     const output = this.ini.toString()
       .split("\n").map(line => line.replace(":", ": ")).join("\n") + "\n"
     Deno.writeTextFileSync(entity.path, output)
