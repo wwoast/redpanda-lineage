@@ -1223,7 +1223,7 @@ export class Dataset {
     // Replace first colon on a line with colon-space, since ini-map
     // can't reasonably handle multiple-character assignment symbols
     const output = this.ini.toString()
-      .split("\n").map(line => line.replace(":", ": ")).join("\n")
+      .split("\n").map(line => line.replace(":", ": ")).join("\n") + "\n"
     Deno.writeTextFileSync(entity.path, output)
     // Again, clear out the ini map after using it as a serde buffer
     this.ini.clear()
