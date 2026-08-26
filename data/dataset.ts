@@ -390,14 +390,19 @@ export class Dataset {
     return urlCheck
   }
 
-  /** Shrink export JSON by eliding any unkown/none values where possible */
+  /** 
+   * Shrink export JSON by eliding any unknown values where possible. Do not
+   * elide "none" for children or litters, as this is a statement of fact.
+   */
   deleteNoneOrUnknownFields = (vertex: GraphNode) => {
     const languageKeyedFields =
       ["address", "location", "name", "nicknames", "oldnames", "othernames"]
-    const undesirables = ["none", "unknown"]
+    // For arbitrary fields, "none" is a statement of fact
+    const elided = ["unknown"]
     Object.keys(vertex).forEach(key =>
-      undesirables.includes(vertex[key]) && delete vertex[key])
-    // Don't keep any none/unknown values in language-keyed lists either
+      elided.includes(vertex[key]) && delete vertex[key])
+    // Keep neither none or unknown values in language-keyed lists
+    const undesirables = ["none", "unknown"]
     languageKeyedFields.forEach(key => {
       supportedLanguages.forEach(language => {
         if (vertex[key] && vertex[key][language]) {
