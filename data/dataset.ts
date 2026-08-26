@@ -186,7 +186,10 @@ export class Dataset {
       // If either date is invalid, this will return false
       return (Math.abs(dateB - dateA) <= maxLitterDifference)
     }
-    const litterEdges = this.graph.edges.filter(edge => edge._label == "litter")
+    // Get litter edges that don't refer to "none"
+    const litterEdges = this.graph.edges
+      .filter(edge => edge._label == "litter")
+      .filter(edge => edge._in._id != 0)
     const seen_pairs: [number, number][] = []
     litterEdges.map(edge => {
       // in the graph, edges point to vertexes
