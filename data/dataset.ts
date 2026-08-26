@@ -189,7 +189,7 @@ export class Dataset {
     // Get litter edges that don't refer to "none"
     const litterEdges = this.graph.edges
       .filter(edge => edge._label == "litter")
-      .filter(edge => edge._in._id != 0)
+      .filter(edge => edge._in._id != "none")
     const seen_pairs: [number, number][] = []
     litterEdges.map(edge => {
       // in the graph, edges point to vertexes
@@ -200,7 +200,6 @@ export class Dataset {
       if (pair.filter(value => value == undefined).length > 0)
         throw new Error(`[build] ERR: possible misrecorded litter value: ${edge}`)
       if (!seen_pairs.includes(pair))
-        console.log(pair)
         if (!compareLittermateBirthdays(edge._in.birthday, edge._out.birthday))
           throw new Error(
             `[build] ERR: litter birthdays don't match: ` + 
