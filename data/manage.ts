@@ -282,8 +282,8 @@ if (import.meta.main) {
       break
     }
     case (flags["sort-all"] == true):
-      // if (await sortEntities(dataset, "all") > 0)
-      //  await buildDataset(true, true)   // ready to publish
+      if (await sortEntities(dataset, "all") > 0)
+        await buildDataset(true, true)   // ready to publish
       break
     case (flags["sort-updates"] == true):
       if (await sortEntities(dataset, "updates") > 0)

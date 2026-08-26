@@ -900,12 +900,13 @@ export class Dataset {
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match birthday: ${vertex.birthday}`)
       // Check the last location matches the most recent zoo or wild id
       if (locationKeys.indexOf(locationKey) == locationKeys.length - 1) {
-        if (vertex.wild && location._id != vertex.wild)
+        if (vertex.wild && vertex.wild != "unknown" && location._id != vertex.wild)
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
-        if (vertex.zoo && location._id != vertex.zoo)
+        if (vertex.zoo && vertex.zoo != "unknown" && location._id != vertex.zoo) {
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
+        }
       }
       // Once location[] is written, delete the old location key
       delete vertex[locationKey]
