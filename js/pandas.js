@@ -1717,6 +1717,7 @@ function locatorToPhoto(locator) {
        "_id": entity._id,
     "author": choice.author,
      "index": photo_index,
+ "locations": choice.locations,
  "reference": authorLink(choice.author, choice.source),
       "type": entity_type,
        "url": choice.url,

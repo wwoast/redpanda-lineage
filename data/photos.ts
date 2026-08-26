@@ -1,4 +1,5 @@
 import { IniMap } from '@std/ini/ini-map'
+import { basename } from '@std/path'
 import { Paths, existsFileSync } from './shared.ts'
 
 /** 
@@ -66,14 +67,14 @@ export class PhotoEntry {
         ? "zoo"
         : "panda"
       // Take id from the filename, and eat the leading zeroes
-      this.entityId = this.filename.split("/")[-1].split("_")[0].replace(/^0+/, "")
+      this.entityId = basename(this.filename).split("_")[0].replace(/^0+/, "")
       return
     }
     if (this.filename.includes(Paths.media)) {
       const ingest = this.ingest() as Record<"media", Record<string, string>>
       const entity = ingest.media._id
       this.entityType = "media"
-      this.entityId = entity.slice(this.entityType.length)
+      this.entityId = entity.slice(this.entityType.length + 1)   // up to the first .
       this.entityCommitDate = ingest.media.commitdate
       this.authorName = ingest.media[`${key}.author`]
       this.photoCommitDate = ingest.media[`${key}.commitdate`]
