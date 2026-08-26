@@ -16,6 +16,7 @@ import { Paths,
          toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
+         import { profile_family } from "../js/message.js";
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -427,7 +428,13 @@ export class Dataset {
   edgesForPandaFamilies = (vertex: NodePanda) => {
     if (vertex.children) {
       vertex.children.map((item: string) => {
-        if (item.includes("/")) {
+        if (item == "none") {
+          this.graph.addEdge({
+            "_in": 0,
+            "_label": "family",
+            "_out": vertex._id
+          })
+        } else if (item.includes("/")) {
           const [childId, childPercent] = item.trim().split(" ")
           this.graph.addEdge({
             "_in": parseInt(childId),
@@ -436,9 +443,9 @@ export class Dataset {
             "probability": childPercent
           })
         } else {
-          const childId = item
+          const childId = parseInt(item)
           this.graph.addEdge({
-            "_in": parseInt(childId),
+            "_in": childId,
             "_label": "family",
             "_out": vertex._id
           })
@@ -446,11 +453,22 @@ export class Dataset {
       })
     }
     if (vertex.litter) {
-      vertex.litter.map((litterId: string) => this.graph.addEdge({
-        "_in": parseInt(litterId),
-        "_label": "litter",
-        "_out": vertex._id
-      }))
+      vertex.litter.map((item: string) => {
+        if (item == "none") {
+          this.graph.addEdge({
+            "_in": 0,
+            "_label": "litter",
+            "_out": vertex._id
+          })
+        } else {
+          const litterId = parseInt(item)
+          this.graph.addEdge({
+            "_in": litterId,
+            "_label": "litter",
+            "_out": vertex._id
+          })
+        }
+      })
     }
   }
 
@@ -1081,33 +1099,26 @@ export class Dataset {
       })
     }
     // Add back the data from the edges
-    // TODO: differentiate between media, panda objects, wild  objects, and zoo objects
+    // TODO: differentiate between media, panda objects, wild objects, and zoo objects
     working.birthplace = "unknown"
-    working.children = "none"
-    working.litter = "none"
-    working.zoo = "unknown"
+    working.children = []
+    working.litter = []
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
           working.birthplace = parseInt(edge._in._id) * -1
           break
         case "family":
-          if (working.children == "none")
-            working.children = edge._in._id
-          else {
-            const children = working.children.split(", ")
-            children.push(edge._in._id)
-            working.children = children.join(", ")
-          }
+          if (edge._in._id == 0)
+            working.children.push("none")
+          else
+            working.children.push(edge._in._id)
           break
         case "litter":
-          if (working.litter == "none")
-            working.litter = edge._in._id
-          else {
-            const litter = working.litter.split(", ")
-            litter.push(edge._in._id)
-            working.litter = litter.join(", ")
-          }
+          if (edge._in._id == 0)
+            working.litter.push("none")
+          else
+            working.litter.push(edge._in._id)
           break
         case "zoo":
           working.zoo = parseInt(edge._in._id) * -1
@@ -1116,6 +1127,16 @@ export class Dataset {
           console.log(`[dataset] unknown edge type: ${edge._label}`)
       }
     })
+    function arrayFromEdges(list: (number| string)[]) {
+      if (list.length == 0)
+        return "unknown"
+      else if (list.length > 1)
+        return list.filter(item => item != "none").join(", ")
+      else
+        return list.join(", ")
+    }
+    working.children = arrayFromEdges(working.children)
+    working.litter = arrayFromEdges(working.litter)
     // Set the top-level key that will be treated as the section header
     //@ts-ignore
     delete working._in
