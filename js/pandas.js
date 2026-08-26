@@ -1286,9 +1286,11 @@ function sortByNameWithGroups(nodes, photo_list, language) {
   nodes = nodes.map(function(node) {
     if (node.type == "media") {
       // Media file. Get the group caption based on your desired photo in the list
-      desired_index = photo_list.filter(photo => 
-        photo == node.photos[photo.index])[0].index
-      node.name[language] = groupMediaCaption(node, desired_index)
+      desired_url = photo_list
+        .map(photo => photo.url)
+        .filter(url => node.photos.map(photo => photo.url).includes(url))[0]
+      desired_photo = node.photos.filter(photo => photo.url == desired_url)
+      node.name[language] = groupMediaCaption(node, desired_photo)
     }
     return node
   })
