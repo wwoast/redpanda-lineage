@@ -16,7 +16,6 @@ import { Paths,
          toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
-         import { profile_family } from "../js/message.js";
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -355,6 +354,10 @@ export class Dataset {
 
   /** Build the dataset from `.txt` files in the redpanda-lineage dataset */
   build = () => {
+    // Let edges pointing at id 0 (the "none" edges) actually resolve a vertex
+    this.graph.addVertex({"_id": 0, "type": "none"})
+    // Then import everything else, starting with locations, which the other
+    // node types will have edges that need to resolve
     this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
     this.importTree(Paths.wilds, this.importWilds, this.verifyWilds)
     this.importTree(Paths.pandas, this.importPanda, this.verifyPanda)
@@ -403,7 +406,7 @@ export class Dataset {
     Object.keys(vertex).forEach(key =>
       elided.includes(vertex[key]) && delete vertex[key])
     // Keep neither none or unknown values in language-keyed lists
-    const undesirables = ["none", "unknown"]
+    const undesirables = ["none"]
     languageKeyedFields.forEach(key => {
       supportedLanguages.forEach(language => {
         if (vertex[key] && vertex[key][language]) {
@@ -1251,7 +1254,7 @@ export class Dataset {
     Object.keys(processed).sort(byFieldName).map(key =>
       this.ini.set(entity.type, key, processed[key]))
     // Replace first colon on a line with colon-space, since ini-map
-  // can't reasonably handle multiple-character assignment symbols
+    // can't reasonably handle multiple-character assignment symbols
     const output = this.ini.toString()
       .split("\n").map(line => line.replace(":", ": ")).join("\n") + "\n"
     Deno.writeTextFileSync(entity.path, output)

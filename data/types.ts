@@ -137,8 +137,13 @@ declare global {
    *
    * The `media` type refers to entities containing a list of photos for multiple
    * animals at a specific zoo.
+   * 
+   * The `none` type is a special vertex for things to refer to when you have
+   * no children, or no litter mates. This lets us treat any non-unknown value
+   * in "children" as an edge in the graph. Otherwise, when doing serde back
+   * and forth from JSON, we can't tell "none" values from "unknown" ones
    */
-  type NodeType = "links" | "media" | "panda" | "wild" | "zoo"
+  type NodeType = "links" | "media" | "none" | "panda" | "wild" | "zoo"
 
   /** 
    * The typescript representation of the text contents of
@@ -172,6 +177,16 @@ declare global {
     photos: Photo[]
     /** Type discriminator to quickly deduce what kind of photo-containing object */
     type: "media"
+  }
+
+  /** 
+   * Special node to represent the vertex connecting to edges that represent a
+   * "none" relationship. When round-trip serde operations happen between .txt
+   * and JSON and back, its important to distinguish "none" from "unknown"
+   */
+  interface NodeNone extends Vertex {
+    _id: 0,
+    type: "none"
   }
 
   /**
@@ -367,7 +382,7 @@ declare global {
     website: string,
   }
 
-  type GraphNode = NodeLinks | NodeMedia | NodePanda | NodeWild | NodeZoo
+  type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodeWild | NodeZoo
 
   /** 
    * For displaying a photo, collect information from the node and present it
