@@ -1009,7 +1009,8 @@ export class Dataset {
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
         working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
-        working[`photo.${naturalIndex}.link`] = photo.source
+        if (photo.source)
+          working[`photo.${naturalIndex}.link`] = photo.source
         if (photo.tags)
           working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
         if (photo.locations) {
@@ -1068,7 +1069,8 @@ export class Dataset {
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
         working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
-        working[`photo.${naturalIndex}.link`] = photo.source
+        if (photo.source)
+          working[`photo.${naturalIndex}.link`] = photo.source
         if (photo.tags)
           working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
       })
@@ -1154,7 +1156,8 @@ export class Dataset {
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
         working[`photo.${naturalIndex}.commitdate`] = photo.commitdate
-        working[`photo.${naturalIndex}.link`] = photo.source
+        if (photo.source)
+          working[`photo.${naturalIndex}.link`] = photo.source
         if (photo.tags)
           working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
       })
