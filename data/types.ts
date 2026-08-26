@@ -185,7 +185,7 @@ declare global {
    * and JSON and back, its important to distinguish "none" from "unknown"
    */
   interface NodeNone extends Vertex {
-    _id: 0,
+    _id: "none",
     type: "none"
   }
 

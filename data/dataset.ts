@@ -200,6 +200,7 @@ export class Dataset {
       if (pair.filter(value => value == undefined).length > 0)
         throw new Error(`[build] ERR: possible misrecorded litter value: ${edge}`)
       if (!seen_pairs.includes(pair))
+        console.log(pair)
         if (!compareLittermateBirthdays(edge._in.birthday, edge._out.birthday))
           throw new Error(
             `[build] ERR: litter birthdays don't match: ` + 
@@ -358,7 +359,7 @@ export class Dataset {
   /** Build the dataset from `.txt` files in the redpanda-lineage dataset */
   build = () => {
     // Let edges pointing at id 0 (the "none" edges) actually resolve a vertex
-    this.graph.addVertex({"_id": 0, "type": "none"})
+    this.graph.addVertex({"_id": "none", "type": "none"})
     // Then import everything else, starting with locations, which the other
     // node types will have edges that need to resolve
     this.importTree(Paths.zoos, this.importZoos, this.verifyZoos)
@@ -436,7 +437,7 @@ export class Dataset {
       vertex.children.map((item: string) => {
         if (item == "none") {
           this.graph.addEdge({
-            "_in": 0,
+            "_in": "none",
             "_label": "family",
             "_out": vertex._id
           })
@@ -462,7 +463,7 @@ export class Dataset {
       vertex.litter.map((item: string) => {
         if (item == "none") {
           this.graph.addEdge({
-            "_in": 0,
+            "_in": "none",
             "_label": "litter",
             "_out": vertex._id
           })
@@ -1115,16 +1116,10 @@ export class Dataset {
           working.birthplace = parseInt(edge._in._id) * -1
           break
         case "family":
-          if (edge._in._id == 0)
-            working.children.push("none")
-          else
-            working.children.push(edge._in._id)
+          working.children.push(edge._in._id)
           break
         case "litter":
-          if (edge._in._id == 0)
-            working.litter.push("none")
-          else
-            working.litter.push(edge._in._id)
+          working.litter.push(edge._in._id)
           break
         case "zoo":
           working.zoo = parseInt(edge._in._id) * -1
