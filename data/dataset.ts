@@ -371,8 +371,16 @@ export class Dataset {
 
   /** Unknown genders are inferred by their omission */
   canonicalizeGender = (vertex: NodePanda) => {
-    if (vertex.gender == "f") vertex.gender = "Female"
-    if (vertex.gender == "m") vertex.gender = "Male"
+    switch (vertex.gender) {
+      case "f":
+        vertex.gender = "Female"
+        break
+      case "m":
+        vertex.gender = "Male"
+        break
+      default:
+        delete vertex.gender
+    }
   }
 
   /**
