@@ -1289,7 +1289,7 @@ function sortByNameWithGroups(nodes, photo_list, language) {
       const desired_url = photo_list
         .map(photo => photo.url)
         .filter(url => node.photos.map(photo => photo.url).includes(url))[0]
-      const desired_photo = node.photos.filter(photo => photo.url == desired_url)
+      const desired_photo = node.photos.filter(photo => photo.url == desired_url)[0]
       node.name[language] = groupMediaCaption(node, desired_photo)
     }
     return node
