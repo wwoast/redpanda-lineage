@@ -557,7 +557,13 @@ export function searchLinks(idstr) {
 export function searchNonLitterSiblings(idnum) {
   const birthday = G.v(idnum).run()[0].birthday
   const nodes =
-    G.v(idnum).as("me").in("family").out("family").unique().except("me")
+    G.v(idnum)
+      .as("me")
+      .in("family")
+      .out("family")
+      .filter(vertex => vertex.type != "none")
+      .unique()
+      .except("me")
       .filter(function(vertex) {
         const my_date = new Date(birthday)
         const their_date = new Date(vertex.birthday)
@@ -643,7 +649,8 @@ export function searchPandaAnyPhotoMedia() {
 
 /** Find a panda's children */
 export function searchPandaChildren(idnum) {
-  const nodes = G.v(idnum).out("family").run()
+  const nodes =
+    G.v(idnum).out("family").filter(vertex => vertex.type != "none").run()
   return nodes
 }
 
@@ -1157,7 +1164,14 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
  * mother and father panda, but excluding the initial panda we started from.
  */
 function searchSiblings(idnum) {
-  const nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").run()
+  const nodes = G.v(idnum)
+    .as("me")
+    .in("family")
+    .out("family")
+    .filter(vertex => vertex.type != "none")
+    .unique()
+    .except("me")
+    .run()
   return nodes
 }
 
