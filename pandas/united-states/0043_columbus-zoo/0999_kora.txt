@@ -305,9 +305,6 @@ photo.58.author: nusserator
 photo.58.commitdate: 2024/2/15
 photo.58.link: https://www.instagram.com/nusserator
 photo.58.tags: bamboo, paws, sample, tail, tongue, whiskers
-species: 2
-studbook.id: 1818
-zoo: 43
 photo.59: cwdc://X5uNn11ADQF.jpg
 photo.59.author: carsontheredpanda
 photo.59.commitdate: 2026/8/27
@@ -368,3 +365,6 @@ photo.70.author: columbuszoo
 photo.70.commitdate: 2026/8/27
 photo.70.link: ig://DD3iqmksk1R
 photo.70.tags: sample, whiskers
+species: 2
+studbook.id: 1818
+zoo: 43

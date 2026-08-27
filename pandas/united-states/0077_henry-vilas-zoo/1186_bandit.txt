@@ -225,8 +225,6 @@ photo.42.author: rossifari
 photo.42.commitdate: 2023/9/16
 photo.42.link: ig://CvFaaMmgC2Z
 photo.42.tags: close-up, sample, whiskers
-species: 2
-zoo: 77
 photo.43: cwdc://X83OpjaADQN.jpg
 photo.43.author: carsontheredpanda
 photo.43.commitdate: 2026/8/27
@@ -322,3 +320,5 @@ photo.61.author: rossifari
 photo.61.commitdate: 2026/8/27
 photo.61.link: ig://CvFaaMmgC2d
 photo.61.tags: close-up, sample, whiskers
+species: 2
+zoo: 77

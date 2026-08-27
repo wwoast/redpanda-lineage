@@ -98,8 +98,6 @@ photo.17.author: rossifari
 photo.17.commitdate: 2023/8/21
 photo.17.link: ig://ConIbLeOJBR
 photo.17.tags: peek, sample, whiskers
-species: 2
-zoo: 43
 photo.18: cwdc://XoLrnaGADQH.jpg
 photo.18.author: columbuszoo
 photo.18.commitdate: 2026/8/27
@@ -135,3 +133,5 @@ photo.24.author: rossifari
 photo.24.commitdate: 2026/8/27
 photo.24.link: ig://CyLtQ6Xgx_U
 photo.24.tags: sample, tongue, whiskers
+species: 2
+zoo: 43
