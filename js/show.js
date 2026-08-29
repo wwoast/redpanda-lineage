@@ -1807,7 +1807,8 @@ export const profilePage = {
       // Display an apple link too
       const apple_inner = appleLink(info, 'li')
       apple_inner.style.display = "inline-block"
-      credit.appendChild(apple_inner)
+      if (apple_inner.children.length > 0)
+        credit.appendChild(apple_inner)
       dossier.appendChild(credit)
     }
     dossier.appendChild(qrcode)
@@ -2403,7 +2404,8 @@ export const resultsPage = {
     if (info.photo_credit != undefined) {
       // See how many other panda photos this user has posted
       const other_photos = appleLink(info, 'p')
-      details.appendChild(other_photos)
+      if (other_photos.children.length > 0)
+        details.appendChild(other_photos)
     }
     return details
   },
@@ -2785,7 +2787,8 @@ export const resultsPage = {
       const credit = creditLink(info, 'p')
       details.appendChild(credit)
       const other_photos = appleLink(info, 'p')
-      details.appendChild(other_photos)
+      if (other_photos.children.length > 0)
+        details.appendChild(other_photos)
     }
     return details
   }
