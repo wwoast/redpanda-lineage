@@ -200,7 +200,7 @@ function animalLink(animal, link_text, language, options) {
  * See how many other panda photos this user has posted.  Links to the credit
  * page for a particular author, with all of their contributed photos
  */
-function appleLink(info, language, container_element) {
+function appleLink(info, container_element) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
   credit_count_link.id = `${info._id}/counts/${info.photo_index}`   // Carousel
@@ -1805,7 +1805,7 @@ export const profilePage = {
       credit_inner.style.paddingRight = "1em"
       credit.appendChild(credit_inner)
       // Display an apple link too
-      const apple_inner = appleLink(info, language, 'li')
+      const apple_inner = appleLink(info, 'li')
       apple_inner.style.display = "inline-block"
       credit.appendChild(apple_inner)
       dossier.appendChild(credit)
