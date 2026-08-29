@@ -1856,21 +1856,29 @@ export function profilePhoto(animal, naturalIndex, mode="animal") {
     choice = animal.photos[arrayIndex]
   }
   // If there were still no valid photos, because the panda has no photos
-  // listed, return the default for one. Cannot check if == {} because
-  // Javascript is ridiculous
+  // listed, return the default for one.
   if (animal.photos.length === 0) {
     arrayIndex = 0
     choice = field(animal, "photos", mode)[0]
-  }
+    const language = localStorage.getItem("language") ?? "en"
+    const contributeLink = Gui.contribute_link[language] ?? Gui.contribute_link["en"]
+    return {
+      "_id": animal._id,
+      "author": Gui.contribute[language],
+      "index": arrayIndex + 1,
+      "reference": authorLink(Gui.contribute[language], contributeLink),
+      "url": choice.url
+    }
+  } else {
   // Return not just the chosen photo but the author and link as well
-  const desired = {
-    "_id": animal._id,
-    "author": choice.author,
-    "index": arrayIndex + 1,   // Natural number display index
-    "reference": authorLink(choice.author, choice.source),
-    "url": choice.url
+    return {
+      "_id": animal._id,
+      "author": choice.author,
+      "index": arrayIndex + 1,   // Natural number display index
+      "reference": authorLink(choice.author, choice.source),
+      "url": choice.url
+    }
   }
-  return desired
 }
 
 /** Given an animal species id, return the full species name */
