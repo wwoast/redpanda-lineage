@@ -319,7 +319,7 @@ export function allAnimalsAndMedia() {
 /** Find all panda babies born within a calendar year. */
 export function searchBabies(year) {
   // Default search is for the most recent year we recorded a birth in
-  const baby_year = P.db["_totals"]["last_born"]
+  let baby_year = P.db["_totals"]["last_born"]
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (parseInt(year) > parseInt(Defaults.date.earliest_year)) {
     baby_year = year
