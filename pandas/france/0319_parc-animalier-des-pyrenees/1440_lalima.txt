@@ -1,6 +1,8 @@
 [panda]
 _id: 1440
 birthday: 2023/6/24
+birthplace: unknown
+children: unknown
 commitdate: 2024/10/25
 en.name: Lalima
 en.nicknames: none
@@ -10,5 +12,6 @@ fr.nicknames: none
 fr.othernames: none
 gender: f
 language.order: fr, en
+litter: unknown
 species: 1
 zoo: 319

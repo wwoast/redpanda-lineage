@@ -1123,7 +1123,10 @@ export class Dataset {
           working.birthplace = parseInt(edge._in._id) * -1
           break
         case "family":
-          working.children.push(edge._in._id)
+          if (edge.probability)
+            working.children.push(`${edge._in._id} ${edge.probability}`)
+          else
+            working.children.push(edge._in._id)
           break
         case "litter":
           working.litter.push(edge._in._id)

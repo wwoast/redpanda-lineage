@@ -2,6 +2,7 @@
 _id: 1294
 birthday: 2021/6/4
 birthplace: 208
+children: unknown
 commitdate: 2021/7/1
 en.name: (no name)
 en.nicknames: none
@@ -11,6 +12,7 @@ ja.name: (無名)
 ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
+litter: unknown
 species: 2
 video.1: https://twitter.com/ANI/status/1401223907730853888
 video.1.author: ANI

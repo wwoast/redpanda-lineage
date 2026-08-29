@@ -33,3 +33,5 @@ link.8: http://www.city.sapporo.jp/zoo/index.html
 link.8.en.name: Sapporo Maruyama Zoo
 link.8.ja.name: 札幌市円山動物園
 link.8.language.order: ja
+path: links/zoos.txt
+type: links

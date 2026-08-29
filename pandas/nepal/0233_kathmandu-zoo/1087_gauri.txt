@@ -1,7 +1,7 @@
 [panda]
 _id: 1087
 birthday: 2011/6/1
-birthplace: wild.6
+birthplace: NaN
 children: unknown
 commitdate: 2019/12/31
 en.name: Gauri

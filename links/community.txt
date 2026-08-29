@@ -31,3 +31,5 @@ link.8.ja.name: レッサーパンダ図鑑
 link.8.ko.name: 레서판다 도감
 link.8.zh.name: 小熊貓圖鑑
 link.8.language.order: zh, en, ja, ko
+path: links/community.txt
+type: links

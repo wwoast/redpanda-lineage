@@ -2,10 +2,12 @@
 _id: 1459
 birthday: 2023/06/30
 birthplace: 227
+children: unknown
 commitdate: 2025/09/17
 en.name: Babu
 gender: m
 language.order: en
+litter: unknown
 location.1: 227, 2023/06/30
 species: 1
 zoo: 227

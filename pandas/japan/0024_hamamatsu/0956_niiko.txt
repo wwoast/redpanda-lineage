@@ -485,8 +485,6 @@ photo.94.author: sakikukeco
 photo.94.commitdate: 2025/6/4
 photo.94.link: ig://C4ieYyRvP66
 photo.94.tags: bamboo, paws, sample, standing
-species: 2
-zoo: 24
 photo.95: cwdc://Zykjg79ADQA.jpg
 photo.95.author: taka__3428
 photo.95.commitdate: 2026/2/28
@@ -527,3 +525,5 @@ photo.102.author: taka__3428
 photo.102.commitdate: 2026/2/28
 photo.102.link: ig://DVTd_7ukubM
 photo.102.tags: apple time, paws, sample, whiskers
+species: 2
+zoo: 24

@@ -76,10 +76,6 @@ photo.12.author: worldthathesees
 photo.12.commitdate: 2023/5/3
 photo.12.link: https://www.instagram.com/worldthathesees/
 photo.12.tags: paws, portrait, sample, whiskers
-species: 2
-studbook.id: 1212
-uncertainty: location.3.date
-zoo: 96
 photo.13: cwdc://Zs0VZaYT1gA.png
 photo.13.author: idallkwan
 photo.13.commitdate: 2025/12/18
@@ -125,3 +121,7 @@ photo.21.author: idallkwan
 photo.21.commitdate: 2025/12/18
 photo.21.link: https://www.instagram.com/idallkwan
 photo.21.tags: paws, sample, tail
+species: 2
+studbook.id: 1212
+uncertainty: location.3.date
+zoo: 96

@@ -411,9 +411,6 @@ photo.79.author: hamamatsu.chiita
 photo.79.commitdate: 2024/11/2
 photo.79.link: ig://C9NuyrwyAAw
 photo.79.tags: mofumofu, paws, portrait, sample
-species: 2
-studbook.id: 0663
-zoo: 6
 photo.80: cwdc://Y1_-_bBADQA.jpg
 photo.80.author: hamamatsu.chiita
 photo.80.commitdate: 2026/2/16
@@ -544,3 +541,6 @@ photo.105.author: hamamatsu.chiita
 photo.105.commitdate: 2026/2/16
 photo.105.link: ig://DUTzK8tk5bI
 photo.105.tags: mofumofu, paws, portrait, sample
+species: 2
+studbook.id: 0663
+zoo: 6

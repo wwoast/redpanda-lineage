@@ -18,9 +18,11 @@ link.4.en.name: miyanomayu
 link.4.en.last: , for growing my heart three sizes
 link.4.ja.name: miyanomayu
 link.5: underline
-link.5.en.first: To red panda supporters worldwide: 
+link.5.en.first: To red panda supporters worldwide:
 link.5.en.name: thank you for visiting
 link.5.en.last: 😊
 link.5.ja.first: レッサーパンダのオタク:
 link.5.ja.name: 本当に、ありがとうございました
 link.5.ja.last: 😊
+path: links/special-thanks.txt
+type: links

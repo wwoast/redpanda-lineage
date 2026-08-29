@@ -492,9 +492,6 @@ photo.96.author: oomoriyamazoo
 photo.96.commitdate: 2023/11/5
 photo.96.link: https://www.instagram.com/omoriyamazoo/
 photo.96.tags: peek, sample, tree, whiskers
-species: 2
-studbook.id: unknown
-zoo: 26
 photo.97: cwdc://Zyaaum_ADQA.jpg
 photo.97.author: zoowfreedom299
 photo.97.commitdate: 2026/2/28
@@ -505,3 +502,6 @@ photo.98.author: zoowfreedom299
 photo.98.commitdate: 2026/2/28
 photo.98.link: ig://DVOZmxPkgrH
 photo.98.tags: apple time, paws, sample, snow, standing
+species: 2
+studbook.id: unknown
+zoo: 26

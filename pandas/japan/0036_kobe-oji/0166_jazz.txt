@@ -151,6 +151,7 @@ photo.28: cwdc://WdTrIc3ADQF.jpg
 photo.28.author: love__mitarashi
 photo.28.commitdate: 2018/11/27
 photo.28.link: ig://BqrBzsLlB7y
+photo.28.tags: peek, sample
 photo.29: ig://BquCvQaF1GP/m
 photo.29.author: colette.jp
 photo.29.commitdate: 2018/11/28
@@ -1504,9 +1505,6 @@ photo.299.author: otogami76
 photo.299.commitdate: 2025/10/9
 photo.299.link: ig://Cu-gA0GhfMB
 photo.299.tags: paws, sample, smile, whiskers
-species: 2
-studbook.id: 1778
-zoo: 36
 photo.300: cwdc://ZBdxFI1ADQA.jpg
 photo.300.author: osopanda551
 photo.300.commitdate: 2026/1/17
@@ -1537,4 +1535,6 @@ photo.305.author: love__mitarashi
 photo.305.commitdate: 2026/1/27
 photo.305.link: ig://BlFHF3ZlVgO
 photo.305.tags: paws, portrait, sample
-photo.28.tags: peek, sample
+species: 2
+studbook.id: 1778
+zoo: 36

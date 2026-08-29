@@ -12,6 +12,7 @@ ja.name: シュウナ
 ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
+litter: unknown
 location.1: 16, 2006/7/4
 location.2: 22, 2007/4/2
 photo.1: ig://BB0t12WPi7_/m
@@ -583,14 +584,14 @@ photo.114.author: sakikukeco
 photo.114.commitdate: 2023/9/12
 photo.114.link: https://www.instagram.com/sakikukeco/
 photo.114.tags: mofumofu, portrait, sample, whiskers
+photo.115: cwdc://ZqXP_z_ADQA.jpg
+photo.115.author: osopanda551
+photo.115.commitdate: 2026/1/17
+photo.115.link: ig://DRM0PXvk8nq
+photo.115.tags: mofumofu, paws, portrait, sample
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo
 video.1.author: okoanMEW0504
 video.1.link: https://www.youtube.com/channel/UCOJ8l1xydKKP0jw70d4T7-Q
 zoo: 22
-photo.115: cwdc://ZqXP_z_ADQA.jpg
-photo.115.author: osopanda551
-photo.115.commitdate: 2026/1/17
-photo.115.link: ig://DRM0PXvk8nq
-photo.115.tags: mofumofu, paws, portrait, sample

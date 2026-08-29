@@ -2,6 +2,7 @@
 _id: 1295
 birthday: unknown
 birthplace: 266
+children: unknown
 commitdate: 2021/7/1
 en.name: Nanu
 en.nicknames: none
@@ -11,6 +12,7 @@ ja.name: ナヌ
 ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
+litter: unknown
 location.1: 266, unknown
 location.2: 200, 2020/6/13
 species: 1

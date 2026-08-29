@@ -18,11 +18,6 @@ photo.1.author: yuredpanda
 photo.1.commitdate: 2022/8/30
 photo.1.link: https://www.instagram.com/yuredpanda/
 photo.1.tags: portrait, profile
-species: 2
-zh.name: 可樂果
-zh.nicknames: none
-zh.othernames: none
-zoo: 55
 photo.2: cwdc://Y10GjHUADQA.jpg
 photo.2.author: yuredpanda
 photo.2.commitdate: 2025/10/9
@@ -33,3 +28,8 @@ photo.3.author: yuredpanda
 photo.3.commitdate: 2025/10/9
 photo.3.link: ig://C78NrHBSFk4
 photo.3.tags: bamboo, portrait, sample, whiskers
+species: 2
+zh.name: 可樂果
+zh.nicknames: none
+zh.othernames: none
+zoo: 55

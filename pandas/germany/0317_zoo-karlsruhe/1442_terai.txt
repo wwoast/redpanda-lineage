@@ -1,12 +1,15 @@
 [panda]
 _id: 1442
 birthday: 2021/7/3
+birthplace: unknown
+children: unknown
 commitdate: 2024/11/26
 en.name: Terai
 en.nicknames: none
 en.othernames: none
 gender: m
 language.order: en
+litter: unknown
 photo.1: cwdc://ZM6bVUA3dMA.jpg
 photo.1.author: __man.ja__
 photo.1.commitdate: 2024/11/26

@@ -669,9 +669,6 @@ photo.131.author: kotata_513
 photo.131.commitdate: 2023/7/31
 photo.131.link: https://www.instagram.com/kotata_513/
 photo.131.tags: blink, portrait, tail, yawn
-species: 2
-studbook.id: 1683
-zoo: 12
 photo.132: cwdc://W22DL9pADQD.jpg
 photo.132.author: osopanda551
 photo.132.commitdate: 2026/1/17
@@ -687,3 +684,6 @@ photo.134.author: osopanda551
 photo.134.commitdate: 2026/1/17
 photo.134.link: ig://B-hLxYjhUKC
 photo.134.tags: apple time, paws, portrait, sample, smile, standing, whiskers
+species: 2
+studbook.id: 1683
+zoo: 12

@@ -410,9 +410,6 @@ photo.79.author: chankunvv
 photo.79.commitdate: 2025/3/14
 photo.79.link: ig://Cp954OEPpcz
 photo.79.tags: bamboo, bite, portrait, sample
-species: 2
-studbook.id: 14147
-zoo: 15
 photo.80: cwdc://Yj0RZ0pADQA.jpg
 photo.80.author: hamamatsu.chiita
 photo.80.commitdate: 2025/7/30
@@ -428,3 +425,6 @@ photo.82.author: makimaru18
 photo.82.commitdate: 2025/7/30
 photo.82.link: ig://Ct6fx2nPCwT
 photo.82.tags: bamboo, bear worm, laying down, mofumofu, paws, portrait, sample, tongue
+species: 2
+studbook.id: 14147
+zoo: 15

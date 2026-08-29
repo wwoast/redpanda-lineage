@@ -503,9 +503,6 @@ photo.98.author: tamazoowalking
 photo.98.commitdate: 2023/8/23
 photo.98.link: https://www.instagram.com/tamazoowalking/
 photo.98.tags: paws, sample, standing
-species: 2
-studbook.id: 0864
-zoo: 17
 photo.99: cwdc://W3JUttnADQG.jpg
 photo.99.author: osopanda551
 photo.99.commitdate: 2026/1/16
@@ -566,3 +563,6 @@ photo.110.author: osopanda551
 photo.110.commitdate: 2026/1/16
 photo.110.link: ig://Cn4IquevCGu
 photo.110.tags: paws, portrait, sample, white face
+species: 2
+studbook.id: 0864
+zoo: 17

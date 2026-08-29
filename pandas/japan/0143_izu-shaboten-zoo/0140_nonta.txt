@@ -532,9 +532,6 @@ photo.103.author: fetorus_mami
 photo.103.commitdate: 2023/7/19
 photo.103.link: https://www.instagram.com/fetorus_mami/
 photo.103.tags: apple time, sample, smile, tongue, whiskers
-species: 2
-studbook.id: 12102
-zoo: 143
 photo.104: cwdc://V7K97RxADQD.jpg
 photo.104.author: love__mitarashi
 photo.104.commitdate: 2026/1/27
@@ -560,3 +557,6 @@ photo.108.author: love__mitarashi
 photo.108.commitdate: 2026/1/27
 photo.108.link: ig://CjnUb1wL_LG
 photo.108.tags: mofumofu, sample, tongue
+species: 2
+studbook.id: 12102
+zoo: 143

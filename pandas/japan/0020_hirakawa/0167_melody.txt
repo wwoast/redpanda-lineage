@@ -1157,9 +1157,6 @@ photo.229.author: yossi929
 photo.229.commitdate: 2024/11/2
 photo.229.link: ig://C9D8xAEyvwl
 photo.229.tags: peek, sample
-species: 2
-studbook.id: 1779
-zoo: 20
 photo.230: cwdc://WAseyR9ADQA.jpg
 photo.230.author: love__mitarashi
 photo.230.commitdate: 2026/1/27
@@ -1210,3 +1207,6 @@ photo.239.author: love__mitarashi
 photo.239.commitdate: 2026/1/27
 photo.239.link: ig://BwZLGGcFNYd
 photo.239.tags: mofumofu, portrait, sample
+species: 2
+studbook.id: 1779
+zoo: 20

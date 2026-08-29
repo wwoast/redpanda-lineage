@@ -129,6 +129,7 @@ photo.23: cwdc://WZNzOh1ADQX.jpg
 photo.23.author: love__mitarashi
 photo.23.commitdate: 2018/10/9
 photo.23.link: ig://BooF2uqlLLc
+photo.23.tags: sample, whiskers
 photo.24: cwdc://WZWHRToADQY.jpg
 photo.24.author: love__mitarashi
 photo.24.commitdate: 2018/10/9
@@ -148,6 +149,7 @@ photo.27: cwdc://We7f_7TADQc.jpg
 photo.27.author: love__mitarashi
 photo.27.commitdate: 2018/12/17
 photo.27.link: ig://Bre8PbZlshS
+photo.27.tags: bridge, paws, sample, smile, tail
 photo.28: cwdc://Wf6yugvADQd.jpg
 photo.28.author: love__mitarashi
 photo.28.commitdate: 2018/12/30
@@ -227,6 +229,7 @@ photo.43: cwdc://W4mopl4ADQJ.jpg
 photo.43.author: love__mitarashi
 photo.43.commitdate: 2019/11/2
 photo.43.link: ig://B4UgkQsB35X
+photo.43.tags: peek, sample
 photo.44: ig://B4hvgd6h2Mc/m
 photo.44.author: kai.kuniko
 photo.44.commitdate: 2019/11/8
@@ -587,12 +590,6 @@ photo.115.author: colette.jp
 photo.115.commitdate: 2023/7/31
 photo.115.link: https://www.instagram.com/colette.jp/
 photo.115.tags: paws, portrait, sample, smile, tongue
-species: 2
-studbook.id: 15129
-video.1: https://youtu.be/ByBVD2actpA
-video.1.author: Candy Green
-video.1.link: https://www.youtube.com/channel/UCZvqG_-TOzfRM5yQHgFC7AQ
-zoo: 14
 photo.116: cwdc://YNSsjF8ADR4.jpg
 photo.116.author: love__mitarashi
 photo.116.commitdate: 2026/1/26
@@ -613,7 +610,6 @@ photo.119.author: love__mitarashi
 photo.119.commitdate: 2026/1/27
 photo.119.link: ig://B3g289zhzjM
 photo.119.tags: itchy, paws, peek
-photo.43.tags: peek, sample
 photo.120: cwdc://W8sR1bMADQL.jpg
 photo.120.author: love__mitarashi
 photo.120.commitdate: 2026/1/27
@@ -624,13 +620,11 @@ photo.121.author: love__mitarashi
 photo.121.commitdate: 2026/1/27
 photo.121.link: ig://BkFlk-xlUIB
 photo.121.tags: bamboo, home, paws
-photo.23.tags: sample, whiskers
 photo.122: cwdc://WZmwsgfADQW.jpg
 photo.122.author: love__mitarashi
 photo.122.commitdate: 2026/1/27
 photo.122.link: ig://Bo0klt_l_Va
 photo.122.tags: paws, portrait, sample, smile, tongue, whiskers
-photo.27.tags: bridge, paws, sample, smile, tail
 photo.123: cwdc://WfKjwagADQe.jpg
 photo.123.author: love__mitarashi
 photo.123.commitdate: 2026/1/27
@@ -1311,3 +1305,9 @@ photo.258.author: love__mitarashi
 photo.258.commitdate: 2026/1/27
 photo.258.link: ig://C_VJDfnSOY3
 photo.258.tags: bear worm, bridge, laying down, sample
+species: 2
+studbook.id: 15129
+video.1: https://youtu.be/ByBVD2actpA
+video.1.author: Candy Green
+video.1.link: https://www.youtube.com/channel/UCZvqG_-TOzfRM5yQHgFC7AQ
+zoo: 14

@@ -386,9 +386,6 @@ photo.75.author: tamazoowalking
 photo.75.commitdate: 2023/9/21
 photo.75.link: https://www.instagram.com/tamazoowalking/
 photo.75.tags: hammock, mofumofu, paws, portrait, sample
-species: 2
-studbook.id: 1091
-zoo: 17
 photo.76: cwdc://W-CunIbADQC.jpg
 photo.76.author: osopanda551
 photo.76.commitdate: 2026/1/16
@@ -464,3 +461,6 @@ photo.90.author: osopanda551
 photo.90.commitdate: 2026/1/16
 photo.90.link: ig://DCQtjqfSE-E
 photo.90.tags: paws, portrait, sample, whiskers
+species: 2
+studbook.id: 1091
+zoo: 17

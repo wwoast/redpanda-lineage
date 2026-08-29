@@ -2,11 +2,12 @@
 _id: 1460
 birthday: unknown
 birthplace: unknown
-commitdate: 2025/09/18
 children: 1461, 1462
+commitdate: 2025/09/18
 en.name: Bahini
 gender: f
 language.order: en
+litter: unknown
 location.1: 287, 2018/4/01
 species: 1
 zoo: 287

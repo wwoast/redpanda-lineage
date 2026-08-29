@@ -1,7 +1,7 @@
 [panda]
 _id: 455
 birthday: unknown
-birthplace: wild.3
+birthplace: NaN
 children: 211, 338, 210, 365, 478, 304, 453, 457
 commitdate: 2018/11/26
 death: 2012/7/21
