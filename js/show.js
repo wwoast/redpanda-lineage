@@ -209,7 +209,7 @@ function appleLink(info, language, container_element) {
     // Anonymous/uncredited photos get no apple link
     credit_count_link.removeAttribute("href")
     credit_count_link.innerText = ""
-  } else if (Object.keys(Gui.contribute).includes(info.photo_credit)) {
+  } else if (Object.values(Gui.contribute).includes(info.photo_credit)) {
     // No apple link
     return other_photos
   } else {
