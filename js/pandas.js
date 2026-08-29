@@ -1860,13 +1860,12 @@ export function profilePhoto(animal, naturalIndex, mode="animal") {
   if (animal.photos.length === 0) {
     arrayIndex = 0
     choice = field(animal, "photos", mode)[0]
-    const language = localStorage.getItem("language") ?? "en"
-    const contributeLink = Gui.contribute_link[language] ?? Gui.contribute_link["en"]
+    const contributeLink = Gui.contribute_link[Env.language] ?? Gui.contribute_link["en"]
     return {
       "_id": animal._id,
-      "author": Gui.contribute[language],
+      "author": Gui.contribute[Env.language],
       "index": arrayIndex + 1,
-      "reference": authorLink(Gui.contribute[language], contributeLink),
+      "reference": authorLink(Gui.contribute[Env.language], contributeLink),
       "url": choice.url
     }
   } else {

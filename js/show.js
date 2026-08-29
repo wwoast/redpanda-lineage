@@ -209,6 +209,9 @@ function appleLink(info, language, container_element) {
     // Anonymous/uncredited photos get no apple link
     credit_count_link.removeAttribute("href")
     credit_count_link.innerText = ""
+  } else if (Object.keys(Gui.contribute).includes(info.photo_credit)) {
+    // No apple link
+    return other_photos
   } else {
     // Otherwise make an apple link with # of photos contributed
     const apple_count = parseInt(P.db._photo.credit[info.photo_credit])
