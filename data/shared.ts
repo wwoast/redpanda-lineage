@@ -346,6 +346,11 @@ function reduceInstagramLocatorToTimestamp(locator: string): number {
 /** 
  * Similar to the instagram locator reducer's base64 alphabet, but for RPF the
  * the epoch is the standard Unix epoch (1/1/1970-00:00).
+ * 
+ * TODO: Since I've decided to stick with the 41-bit timestamp thing from IG,
+ * 2^41 milliseconds is only around 70 years. Starting from the epoch, that
+ * means my filenames will roll over in 2040, which is terrible and I should
+ * consider renaming all the files with cwdc urls.
  */
 function reduceRpfsLocatorToTimestamp(locator: string): number {
   const locatorNumber = Array.from(locator).map((x: string, i: number) => {
