@@ -1486,7 +1486,7 @@ function formatSeason(date, language) {
     return Defaults.unknown[language]
   let [ year, season ] = date.split("/")
   season = season.toLowerCase()
-  const format = Defaults.date_season[language]
+  let format = Defaults.date_season[language]
   format = format.replace("YYYY", year)
   format = format.replace("SEASON", Gui[season][language])
   return format
