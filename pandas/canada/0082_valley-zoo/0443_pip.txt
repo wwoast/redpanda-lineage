@@ -14,26 +14,26 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 383
-photo.1: ig://Bi7L-TqDlQJ/m
-photo.1.author: edmontonvalleyzoo
-photo.1.commitdate: 2018/12/8
-photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
-photo.1.tags: portrait
+photo.1: ig://BRKHmiFD1GJ/m
+photo.1.author: buildingourzoo
+photo.1.commitdate: 2019/4/8
+photo.1.link: https://www.instagram.com/buildingourzoo/
+photo.1.tags: portrait, whiskers
 photo.2: ig://BZHaifDApAe/m
 photo.2.author: buildingourzoo
 photo.2.commitdate: 2019/4/8
 photo.2.link: https://www.instagram.com/buildingourzoo/
 photo.2.tags: portrait, smile, tongue
-photo.3: ig://BqulPf2D-XO/m
-photo.3.author: buildingourzoo
-photo.3.commitdate: 2019/4/8
-photo.3.link: https://www.instagram.com/buildingourzoo/
-photo.3.tags: laying down
-photo.4: ig://BRKHmiFD1GJ/m
+photo.3: ig://Bi7L-TqDlQJ/m
+photo.3.author: edmontonvalleyzoo
+photo.3.commitdate: 2018/12/8
+photo.3.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.3.tags: portrait
+photo.4: ig://BqulPf2D-XO/m
 photo.4.author: buildingourzoo
 photo.4.commitdate: 2019/4/8
 photo.4.link: https://www.instagram.com/buildingourzoo/
-photo.4.tags: portrait, whiskers
+photo.4.tags: laying down
 photo.5: ig://B7RCZi8g1Ek/m
 photo.5.author: edmontonvalleyzoo
 photo.5.commitdate: 2020/1/16

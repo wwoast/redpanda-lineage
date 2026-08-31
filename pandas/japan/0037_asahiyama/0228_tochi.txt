@@ -23,16 +23,16 @@ photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
 photo.1.link: ig://Bb1pg4hFRGS
 photo.1.tags: bamboo, lips, old, portrait, sample, snow
-photo.2: cwdc://WYvo8SNADQA.jpg
-photo.2.author: miis_98
-photo.2.commitdate: 2018/10/1
-photo.2.link: ig://BoZAtm2lHTo
-photo.2.tags: old, paws, portrait, profile, sample
-photo.3: ig://BlndgLpncPP/m
-photo.3.author: craig_craig_craig
-photo.3.commitdate: 2018/9/8
-photo.3.link: https://www.instagram.com/craig_craig_craig/
-photo.3.tags: old
+photo.2: ig://BlndgLpncPP/m
+photo.2.author: craig_craig_craig
+photo.2.commitdate: 2018/9/8
+photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.2.tags: old
+photo.3: cwdc://WYvo8SNADQA.jpg
+photo.3.author: miis_98
+photo.3.commitdate: 2018/10/1
+photo.3.link: ig://BoZAtm2lHTo
+photo.3.tags: old, paws, portrait, profile, sample
 photo.4: ig://Bq_Y9x6Fnv4/m
 photo.4.author: mifko55
 photo.4.commitdate: 2018/12/6

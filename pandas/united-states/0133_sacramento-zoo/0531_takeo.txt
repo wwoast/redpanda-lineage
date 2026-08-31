@@ -17,40 +17,40 @@ litter: 530
 location.1: 131, 2008/6/29
 location.2: 122, 2009/4/30
 location.3: 133, 2012/2/8
-photo.1: https://www.codaworry.com/images/rpf/takeo-1-sacramento.jpg
-photo.1.author: worldthathesees
-photo.1.commitdate: 2019/4/9
-photo.1.link: http://www.instagram.com/worldthathesees
-photo.1.tags: mofumofu
-photo.2: https://www.codaworry.com/images/rpf/takeo-2-sacramento.jpg
-photo.2.author: worldthathesees
-photo.2.commitdate: 2019/4/9
-photo.2.link: http://www.instagram.com/worldthathesees
-photo.2.tags: laying down
-photo.3: https://www.codaworry.com/images/rpf/takeo-3-sacramento.jpg
-photo.3.author: worldthathesees
-photo.3.commitdate: 2019/4/9
-photo.3.link: http://www.instagram.com/worldthathesees
-photo.3.tags: sleeping
-photo.4: https://www.codaworry.com/images/rpf/takeo-4-sacramento.jpg
+photo.1: ig://BLb7drPjlq_/m
+photo.1.author: sacramentozoo
+photo.1.commitdate: 2019/12/7
+photo.1.link: https://www.instagram.com/sacramentozoo/
+photo.1.tags: portrait, paws
+photo.2: ig://BZhOew7lDHG/m
+photo.2.author: sacramentozoo
+photo.2.commitdate: 2019/12/7
+photo.2.link: https://www.instagram.com/sacramentozoo/
+photo.2.tags: portrait
+photo.3: ig://BoXiofCl8JT/m
+photo.3.author: sacramentozoo
+photo.3.commitdate: 2019/6/16
+photo.3.link: https://www.instagram.com/sacramentozoo/
+photo.3.tags: art, smile, tongue
+photo.4: https://www.codaworry.com/images/rpf/takeo-1-sacramento.jpg
 photo.4.author: worldthathesees
 photo.4.commitdate: 2019/4/9
 photo.4.link: http://www.instagram.com/worldthathesees
-photo.5: ig://BLb7drPjlq_/m
-photo.5.author: sacramentozoo
-photo.5.commitdate: 2019/12/7
-photo.5.link: https://www.instagram.com/sacramentozoo/
-photo.5.tags: portrait, paws
-photo.6: ig://BZhOew7lDHG/m
-photo.6.author: sacramentozoo
-photo.6.commitdate: 2019/12/7
-photo.6.link: https://www.instagram.com/sacramentozoo/
-photo.6.tags: portrait
-photo.7: ig://BoXiofCl8JT/m
-photo.7.author: sacramentozoo
-photo.7.commitdate: 2019/6/16
-photo.7.link: https://www.instagram.com/sacramentozoo/
-photo.7.tags: art, smile, tongue
+photo.4.tags: mofumofu
+photo.5: https://www.codaworry.com/images/rpf/takeo-2-sacramento.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/9
+photo.5.link: http://www.instagram.com/worldthathesees
+photo.5.tags: laying down
+photo.6: https://www.codaworry.com/images/rpf/takeo-3-sacramento.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/9
+photo.6.link: http://www.instagram.com/worldthathesees
+photo.6.tags: sleeping
+photo.7: https://www.codaworry.com/images/rpf/takeo-4-sacramento.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/9
+photo.7.link: http://www.instagram.com/worldthathesees
 photo.8: ig://B49EHLKgXx8/m
 photo.8.author: ohmygoat1
 photo.8.commitdate: 2019/11/26

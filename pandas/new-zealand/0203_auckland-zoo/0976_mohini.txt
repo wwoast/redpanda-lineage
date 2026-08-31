@@ -13,15 +13,15 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 977
-photo.1: ig://BnvDux8nuJt/m
-photo.1.author: adventuresoflilotinistitch
-photo.1.commitdate: 2019/8/23
-photo.1.link: https://www.instagram.com/adventuresoflilotinistitch/
-photo.1.tags: profile
-photo.2: ig://BfF1kgTFD0F/m
-photo.2.author: zookeepersd
-photo.2.commitdate: 2020/3/20
-photo.2.link: https://www.instagram.com/zookeepersd/
-photo.2.tags: dish, laying down, tongue, white face
+photo.1: ig://BfF1kgTFD0F/m
+photo.1.author: zookeepersd
+photo.1.commitdate: 2020/3/20
+photo.1.link: https://www.instagram.com/zookeepersd/
+photo.1.tags: dish, laying down, tongue, white face
+photo.2: ig://BnvDux8nuJt/m
+photo.2.author: adventuresoflilotinistitch
+photo.2.commitdate: 2019/8/23
+photo.2.link: https://www.instagram.com/adventuresoflilotinistitch/
+photo.2.tags: profile
 species: 1
 zoo: 203

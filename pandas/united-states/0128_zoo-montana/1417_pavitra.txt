@@ -20,21 +20,21 @@ photo.1.author: sandiegozoo
 photo.1.commitdate: 2023/9/16
 photo.1.link: https://www.instagram.com/sandiegozoo/
 photo.1.tags: baby, close-up, sample, whiskers
-photo.2: ig://CyMJpdnxNnU/m
+photo.2: cwdc://YqevIfDADQA.jpg
 photo.2.author: sandiegozoo
-photo.2.commitdate: 2023/10/24
-photo.2.link: https://www.instagram.com/sandiegozoo/
-photo.2.tags: baby, close-up, paws, portrait, sample, tree
-photo.3: cwdc://Y2PdOZOADQA.jpg
+photo.2.commitdate: 2024/4/13
+photo.2.link: ig://CxQjztRrxFP
+photo.2.tags: baby, mofumofu, sample, whiskers
+photo.3: ig://CyMJpdnxNnU/m
 photo.3.author: sandiegozoo
-photo.3.commitdate: 2024/3/10
-photo.3.link: https://www.instagram.com/p/C3I62qXMsbO
-photo.3.tags: portrait, sample, tree, whiskers
-photo.4: cwdc://YqevIfDADQA.jpg
+photo.3.commitdate: 2023/10/24
+photo.3.link: https://www.instagram.com/sandiegozoo/
+photo.3.tags: baby, close-up, paws, portrait, sample, tree
+photo.4: cwdc://Y2PdOZOADQA.jpg
 photo.4.author: sandiegozoo
-photo.4.commitdate: 2024/4/13
-photo.4.link: ig://CxQjztRrxFP
-photo.4.tags: baby, mofumofu, sample, whiskers
+photo.4.commitdate: 2024/3/10
+photo.4.link: https://www.instagram.com/p/C3I62qXMsbO
+photo.4.tags: portrait, sample, tree, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 128

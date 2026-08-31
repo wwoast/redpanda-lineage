@@ -16,16 +16,16 @@ language.order: ja, en
 litter: 72
 location.1: 8, 2006/6/2
 location.2: 26, 2008/10/18
-photo.1: https://www.codaworry.com/images/rpf/yuuta-1-oomoriyama.jpg
-photo.1.author: oomoriyama_zoo
-photo.1.commitdate: 2018/8/16
-photo.1.link: http://www.city.akita.akita.jp/city/in/zoo/
-photo.1.tags: snow, standing
-photo.2: cwdc://WH0cAgiADQA.jpg
-photo.2.author: miis_98
-photo.2.commitdate: 2020/4/1
-photo.2.link: ig://Bf7aPuBBu2u
-photo.2.tags: eye, portrait, profile, sample
+photo.1: cwdc://WH0cAgiADQA.jpg
+photo.1.author: miis_98
+photo.1.commitdate: 2020/4/1
+photo.1.link: ig://Bf7aPuBBu2u
+photo.1.tags: eye, portrait, profile, sample
+photo.2: https://www.codaworry.com/images/rpf/yuuta-1-oomoriyama.jpg
+photo.2.author: oomoriyama_zoo
+photo.2.commitdate: 2018/8/16
+photo.2.link: http://www.city.akita.akita.jp/city/in/zoo/
+photo.2.tags: snow, standing
 photo.3: ig://Bpxqy2HF0cy/m
 photo.3.author: kipekaila
 photo.3.commitdate: 2018/11/5

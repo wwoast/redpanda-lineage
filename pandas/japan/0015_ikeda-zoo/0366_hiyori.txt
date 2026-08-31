@@ -14,26 +14,26 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 32
-photo.1: https://www.codaworry.com/images/rpf/hiyori-1-ikeda.jpg
-photo.1.author: jilllucaさん
-photo.1.commitdate: 2019/4/9
-photo.1.link: https://4travel.jp/travelogue/10665033
-photo.1.tags: laying down, sleeping
-photo.2: https://www.codaworry.com/images/rpf/hiyori-2-ikeda.jpg
-photo.2.author: shin
+photo.1: ig://Bu6NuHgA3Is/m
+photo.1.author: kanokodori
+photo.1.commitdate: 2019/6/1
+photo.1.link: https://www.instagram.com/kanokodori/
+photo.1.tags: portrait
+photo.2: https://www.codaworry.com/images/rpf/hiyori-1-ikeda.jpg
+photo.2.author: jilllucaさん
 photo.2.commitdate: 2019/4/9
-photo.2.link: http://shinshin.cocolog-nifty.com/redpanda/2013/10/post-9b5c.html
-photo.2.tags: profile, techitechi
-photo.3: https://www.codaworry.com/images/rpf/hiyori-3-ikeda.jpg
+photo.2.link: https://4travel.jp/travelogue/10665033
+photo.2.tags: laying down, sleeping
+photo.3: https://www.codaworry.com/images/rpf/hiyori-2-ikeda.jpg
 photo.3.author: shin
 photo.3.commitdate: 2019/4/9
 photo.3.link: http://shinshin.cocolog-nifty.com/redpanda/2013/10/post-9b5c.html
-photo.3.tags: tongue
-photo.4: ig://Bu6NuHgA3Is/m
-photo.4.author: kanokodori
-photo.4.commitdate: 2019/6/1
-photo.4.link: https://www.instagram.com/kanokodori/
-photo.4.tags: portrait
+photo.3.tags: profile, techitechi
+photo.4: https://www.codaworry.com/images/rpf/hiyori-3-ikeda.jpg
+photo.4.author: shin
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://shinshin.cocolog-nifty.com/redpanda/2013/10/post-9b5c.html
+photo.4.tags: tongue
 photo.5: ig://Bx7DuBiAhgt/m
 photo.5.author: kanokodori
 photo.5.commitdate: 2019/6/1

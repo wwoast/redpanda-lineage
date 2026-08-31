@@ -14,16 +14,16 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-photo.1: cwdc://WZ0se2EADQA.jpg
-photo.1.author: sketchpoet
+photo.1: ig://Bo3-AVynPZr/m
+photo.1.author: assiniboineparkzoo
 photo.1.commitdate: 2018/11/30
-photo.1.link: https://www.instagram.com/p/Bo7ie4yAEFp
-photo.1.tags: baby, grumpy, profile
-photo.2: ig://Bo3-AVynPZr/m
-photo.2.author: assiniboineparkzoo
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: baby, grumpy
+photo.2: cwdc://WZ0se2EADQA.jpg
+photo.2.author: sketchpoet
 photo.2.commitdate: 2018/11/30
-photo.2.link: https://www.instagram.com/assiniboineparkzoo/
-photo.2.tags: baby, grumpy
+photo.2.link: https://www.instagram.com/p/Bo7ie4yAEFp
+photo.2.tags: baby, grumpy, profile
 species: 2
 studbook.id: 1832
 zoo: 76

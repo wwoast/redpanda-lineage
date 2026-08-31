@@ -48,16 +48,16 @@ photo.6.author: kopperheadpix
 photo.6.commitdate: 2020/3/15
 photo.6.link: https://www.instagram.com/kopperheadpix/
 photo.6.tags: paws, portrait, tongue
-photo.7: https://www.codaworry.com/images/rpf/biru-1-capemay.jpg
-photo.7.author: aimless_amos
-photo.7.commitdate: 2020/5/27
-photo.7.link: https://www.instagram.com/aimless_amos/
-photo.7.tags: portrait, tail
-photo.8: ig://Bqmp2kynBfs/m
-photo.8.author: pippin455
-photo.8.commitdate: 2020/9/26
-photo.8.link: https://www.instagram.com/pippin455/
-photo.8.tags: paws, peek
+photo.7: ig://Bqmp2kynBfs/m
+photo.7.author: pippin455
+photo.7.commitdate: 2020/9/26
+photo.7.link: https://www.instagram.com/pippin455/
+photo.7.tags: paws, peek
+photo.8: https://www.codaworry.com/images/rpf/biru-1-capemay.jpg
+photo.8.author: aimless_amos
+photo.8.commitdate: 2020/5/27
+photo.8.link: https://www.instagram.com/aimless_amos/
+photo.8.tags: portrait, tail
 species: 1
 studbook.id: 1022
 zoo: 186

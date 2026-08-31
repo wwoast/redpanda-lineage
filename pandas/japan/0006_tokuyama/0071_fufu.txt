@@ -420,16 +420,16 @@ photo.82.author: kojikoji2011
 photo.82.commitdate: 2023/11/19
 photo.82.link: https://www.instagram.com/kojikoji2011/
 photo.82.tags: apple time, lips, paws, portrait, sample, window
-photo.83: ig://CvUht5WP94e/m
-photo.83.author: kojikoji2011
-photo.83.commitdate: 2023/7/31
-photo.83.link: https://www.instagram.com/kojikoji2011/
-photo.83.tags: paws, portrait, sample, tail
-photo.84: cwdc://Yc8j3IZADQA.jpg
-photo.84.author: gloryeui
-photo.84.commitdate: 2024/5/4
-photo.84.link: ig://CqfeLB8vJ8f
-photo.84.tags: portrait, sample, whiskers
+photo.83: cwdc://Yc8j3IZADQA.jpg
+photo.83.author: gloryeui
+photo.83.commitdate: 2024/5/4
+photo.83.link: ig://CqfeLB8vJ8f
+photo.83.tags: portrait, sample, whiskers
+photo.84: ig://CvUht5WP94e/m
+photo.84.author: kojikoji2011
+photo.84.commitdate: 2023/7/31
+photo.84.link: https://www.instagram.com/kojikoji2011/
+photo.84.tags: paws, portrait, sample, tail
 species: 2
 studbook.id: 14143
 zoo: 6

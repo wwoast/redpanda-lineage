@@ -333,36 +333,36 @@ photo.64.author: fetorus_mami
 photo.64.commitdate: 2022/9/8
 photo.64.link: https://www.instagram.com/fetorus_mami/
 photo.64.tags: mofumofu, sample
-photo.65: ig://ClREL-iv0M9/m
-photo.65.author: fetorus_mami
-photo.65.commitdate: 2023/2/4
-photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: apple time, close-up, sample, techitechi, whiskers
-photo.66: ig://CmiV6s0Pl5L/m
-photo.66.author: hamiiiii831_
-photo.66.commitdate: 2023/9/25
-photo.66.link: https://www.instagram.com/hamiiiii831_/
-photo.66.tags: apple time, paws, sample, whiskers
-photo.67: ig://CpdwEJ6vM2N/m
-photo.67.author: panda.daisuki
-photo.67.commitdate: 2023/11/19
-photo.67.link: https://www.instagram.com/panda.daisuki/
-photo.67.tags: paws, portrait, sample, snow, whiskers
-photo.68: ig://CqEOow1hLeF/m
+photo.65: cwdc://YSOJoA0ADQA.jpg
+photo.65.author: miis_98
+photo.65.commitdate: 2024/5/4
+photo.65.link: ig://ClIRDeKPNk5
+photo.65.tags: portrait, sample, smile
+photo.66: ig://ClREL-iv0M9/m
+photo.66.author: fetorus_mami
+photo.66.commitdate: 2023/2/4
+photo.66.link: https://www.instagram.com/fetorus_mami/
+photo.66.tags: apple time, close-up, sample, techitechi, whiskers
+photo.67: ig://CmiV6s0Pl5L/m
+photo.67.author: hamiiiii831_
+photo.67.commitdate: 2023/9/25
+photo.67.link: https://www.instagram.com/hamiiiii831_/
+photo.67.tags: apple time, paws, sample, whiskers
+photo.68: ig://CpdwEJ6vM2N/m
 photo.68.author: panda.daisuki
-photo.68.commitdate: 2023/10/18
+photo.68.commitdate: 2023/11/19
 photo.68.link: https://www.instagram.com/panda.daisuki/
-photo.68.tags: carry, portrait, sample, smile, whiskers
-photo.69: ig://CvBYahdP5Gf/m
+photo.68.tags: paws, portrait, sample, snow, whiskers
+photo.69: ig://CqEOow1hLeF/m
 photo.69.author: panda.daisuki
-photo.69.commitdate: 2023/7/31
+photo.69.commitdate: 2023/10/18
 photo.69.link: https://www.instagram.com/panda.daisuki/
-photo.69.tags: laying down, paws, portrait, whiskers
-photo.70: cwdc://YSOJoA0ADQA.jpg
-photo.70.author: miis_98
-photo.70.commitdate: 2024/5/4
-photo.70.link: ig://ClIRDeKPNk5
-photo.70.tags: portrait, sample, smile
+photo.69.tags: carry, portrait, sample, smile, whiskers
+photo.70: ig://CvBYahdP5Gf/m
+photo.70.author: panda.daisuki
+photo.70.commitdate: 2023/7/31
+photo.70.link: https://www.instagram.com/panda.daisuki/
+photo.70.tags: laying down, paws, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53

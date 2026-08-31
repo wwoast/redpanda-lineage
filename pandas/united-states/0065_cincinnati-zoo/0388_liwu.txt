@@ -19,16 +19,16 @@ location.2: 104, 2002/2/8
 location.3: 43, 2002/10/28
 location.4: 105, 2003/10/23
 location.5: 65, 2007/10/24
-photo.1: ig://BIf8tMzjI0O/m
-photo.1.author: degersm
+photo.1: cwdc://VJBxYz8ADQA.jpg
+photo.1.author: ericatlady
 photo.1.commitdate: 2018/11/18
-photo.1.link: https://www.instagram.com/degersm/
-photo.1.tags: tongue
-photo.2: cwdc://VJBxYz8ADQA.jpg
-photo.2.author: ericatlady
+photo.1.link: https://www.instagram.com/p/BAiE73uNx1J
+photo.1.tags: home, portrait, profile, sample
+photo.2: ig://BIf8tMzjI0O/m
+photo.2.author: degersm
 photo.2.commitdate: 2018/11/18
-photo.2.link: https://www.instagram.com/p/BAiE73uNx1J
-photo.2.tags: home, portrait, profile, sample
+photo.2.link: https://www.instagram.com/degersm/
+photo.2.tags: tongue
 species: 2
 studbook.id: 0022
 zoo: 65

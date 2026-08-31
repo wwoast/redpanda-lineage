@@ -13,13 +13,13 @@ language.order: de, en
 latitude: 51.1425184
 longitude: 14.9613021
 map: https://goo.gl/maps/xgBoW6RyMht
-photo.1: ig://BxSGh-nhFxn/m
+photo.1: ig://BsDX-b6A3X8/m
 photo.1.author: zoogoerlitz
 photo.1.commitdate: 2019/9/22
 photo.1.link: https://www.instagram.com/zoogoerlitz/
-photo.2: ig://BsDX-b6A3X8/m
+photo.1.tags: profile
+photo.2: ig://BxSGh-nhFxn/m
 photo.2.author: zoogoerlitz
 photo.2.commitdate: 2019/9/22
 photo.2.link: https://www.instagram.com/zoogoerlitz/
-photo.2.tags: profile
 website: https://www.tierpark-goerlitz.de/de/

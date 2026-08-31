@@ -16,16 +16,16 @@ litter: 623
 location.1: 104, 2006/6/27
 location.2: 146, 2007/5/20
 location.3: 153, 2012/4/13
-photo.1: cwdc://W1l9b4CADQA.jpg
-photo.1.author: worldthathesees
-photo.1.commitdate: 2019/9/26
-photo.1.link: https://www.instagram.com/p/B20K9ZxBTud
-photo.1.tags: portrait, profile, sample, whiskers
-photo.2: ig://BBYF-ejJIpS/m
-photo.2.author: evansvilleliving
-photo.2.commitdate: 2019/11/29
-photo.2.link: https://www.instagram.com/evansvilleliving/
-photo.2.tags: bridge, peek, tail, whiskers
+photo.1: ig://BBYF-ejJIpS/m
+photo.1.author: evansvilleliving
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/evansvilleliving/
+photo.1.tags: bridge, peek, tail, whiskers
+photo.2: cwdc://W1l9b4CADQA.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/9/26
+photo.2.link: https://www.instagram.com/p/B20K9ZxBTud
+photo.2.tags: portrait, profile, sample, whiskers
 species: 1
 studbook.id: 0618
 zoo: 153

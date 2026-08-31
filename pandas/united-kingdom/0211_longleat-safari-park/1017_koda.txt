@@ -15,15 +15,15 @@ language.order: en, ja
 litter: 1018
 location.1: 174, 2017/6/27
 location.2: 211, 2018/9/14
-photo.1: ig://B4AiMZEF7UD/m
+photo.1: cwdc://WzJe_VnADQA.jpg
 photo.1.author: longleatofficial
 photo.1.commitdate: 2019/11/4
-photo.1.link: https://www.instagram.com/longleatofficial/
-photo.1.tags: smile, tongue, whiskers
-photo.2: cwdc://WzJe_VnADQA.jpg
+photo.1.link: https://www.instagram.com/p/B1l7vIjl8Ap
+photo.1.tags: close-up, portrait, profile, whiskers
+photo.2: ig://B4AiMZEF7UD/m
 photo.2.author: longleatofficial
 photo.2.commitdate: 2019/11/4
-photo.2.link: https://www.instagram.com/p/B1l7vIjl8Ap
-photo.2.tags: close-up, portrait, profile, whiskers
+photo.2.link: https://www.instagram.com/longleatofficial/
+photo.2.tags: smile, tongue, whiskers
 species: 1
 zoo: 211

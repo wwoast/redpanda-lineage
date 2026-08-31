@@ -13,26 +13,26 @@ ja.nicknames: none
 ja.othernames: 暁
 language.order: ja, en
 litter: 317, 318
-photo.1: https://www.codaworry.com/images/rpf/akatsuki-daniele-tokyo.jpg
-photo.1.author: daniele.tokyo
-photo.1.commitdate: 2019/4/9
-photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: baby, eye
-photo.2: ig://Bsbo9l0lmq_/m
-photo.2.author: nakageo
-photo.2.commitdate: 2020/4/19
-photo.2.link: https://www.instagram.com/nakageo/
-photo.2.tags: baby, tail
-photo.3: ig://BsvFx_gFhG5/m
-photo.3.author: kotume4935
-photo.3.commitdate: 2021/2/28
-photo.3.link: https://www.instagram.com/kotume4935/
-photo.3.tags: baby, close-up, whiskers
-photo.4: ig://BtGBbXvlia0/m
-photo.4.author: fetorus_mami
-photo.4.commitdate: 2019/1/27
-photo.4.link: https://www.instagram.com/fetorus_mami/
-photo.4.tags: baby, eye, tree
+photo.1: ig://Bsbo9l0lmq_/m
+photo.1.author: nakageo
+photo.1.commitdate: 2020/4/19
+photo.1.link: https://www.instagram.com/nakageo/
+photo.1.tags: baby, tail
+photo.2: ig://BsvFx_gFhG5/m
+photo.2.author: kotume4935
+photo.2.commitdate: 2021/2/28
+photo.2.link: https://www.instagram.com/kotume4935/
+photo.2.tags: baby, close-up, whiskers
+photo.3: ig://BtGBbXvlia0/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2019/1/27
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: baby, eye, tree
+photo.4: https://www.codaworry.com/images/rpf/akatsuki-daniele-tokyo.jpg
+photo.4.author: daniele.tokyo
+photo.4.commitdate: 2019/4/9
+photo.4.link: https://www.instagram.com/daniele.tokyo/
+photo.4.tags: baby, eye
 photo.5: ig://Bw6w8WgAYFp/m
 photo.5.author: teru6245
 photo.5.commitdate: 2019/6/9

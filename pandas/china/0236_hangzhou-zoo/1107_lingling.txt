@@ -13,16 +13,16 @@ ja.nicknames: none
 ja.othernames: リンリン
 language.order: zh, en, ja
 litter: unknown
-photo.1: ig://B7DOIayjASf/m
+photo.1: ig://B59kx82jRSA/m
 photo.1.author: mkr0369
 photo.1.commitdate: 2020/2/5
 photo.1.link: https://www.instagram.com/mkr0369/
-photo.1.tags: muzzle, portrait, profile, toys
-photo.2: ig://B59kx82jRSA/m
+photo.1.tags: peek, portrait
+photo.2: ig://B7DOIayjASf/m
 photo.2.author: mkr0369
 photo.2.commitdate: 2020/2/5
 photo.2.link: https://www.instagram.com/mkr0369/
-photo.2.tags: peek, portrait
+photo.2.tags: muzzle, portrait, profile, toys
 species: 2
 zh.name: 玲玲
 zh.nicknames: none

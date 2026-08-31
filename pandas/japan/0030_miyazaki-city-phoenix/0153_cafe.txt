@@ -210,21 +210,21 @@ photo.39.author: fetorus_mami
 photo.39.commitdate: 2023/5/4
 photo.39.link: https://www.instagram.com/fetorus_mami/
 photo.39.tags: apple time, paws, sample, standing
-photo.40: ig://Czz8StjvOZC/m
-photo.40.author: fetorus_mami
-photo.40.commitdate: 2023/12/15
-photo.40.link: https://www.instagram.com/fetorus_mami/
-photo.40.tags: apple time, keeper, paws, sample, standing
-photo.41: cwdc://Y3tQ76OADQA.jpg
-photo.41.author: phoenixzoo1971
-photo.41.commitdate: 2024/3/10
-photo.41.link: ig://C330ta3S_M_
-photo.41.tags: close-up, portrait, sample, whiskers
-photo.42: cwdc://YnI35hJADQA.jpg
+photo.40: cwdc://YnI35hJADQA.jpg
+photo.40.author: phoenixzoo1971
+photo.40.commitdate: 2024/5/4
+photo.40.link: ig://CvloMOUxBHl
+photo.40.tags: laying down, sample, sleeping
+photo.41: ig://Czz8StjvOZC/m
+photo.41.author: fetorus_mami
+photo.41.commitdate: 2023/12/15
+photo.41.link: https://www.instagram.com/fetorus_mami/
+photo.41.tags: apple time, keeper, paws, sample, standing
+photo.42: cwdc://Y3tQ76OADQA.jpg
 photo.42.author: phoenixzoo1971
-photo.42.commitdate: 2024/5/4
-photo.42.link: ig://CvloMOUxBHl
-photo.42.tags: laying down, sample, sleeping
+photo.42.commitdate: 2024/3/10
+photo.42.link: ig://C330ta3S_M_
+photo.42.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13139
 zoo: 30

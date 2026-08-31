@@ -24,15 +24,15 @@ photo.1.author: carsontheredpanda
 photo.1.commitdate: 2019/9/9
 photo.1.link: https://www.instagram.com/carsontheredpanda/
 photo.1.tags: dish, paws, portrait
-photo.2: https://www.codaworry.com/images/rpf/yukiko-1-wpz.jpg
-photo.2.author: geroppa55
-photo.2.commitdate: 2019/4/9
-photo.2.link: https://geroppa55.exblog.jp/i9/
-photo.3: ig://BkZSIjpFB9x/m
-photo.3.author: carsontheredpanda
-photo.3.commitdate: 2018/8/21
-photo.3.link: https://www.instagram.com/carsontheredpanda/
-photo.3.tags: sample
+photo.2: ig://BkZSIjpFB9x/m
+photo.2.author: carsontheredpanda
+photo.2.commitdate: 2018/8/21
+photo.2.link: https://www.instagram.com/carsontheredpanda/
+photo.2.tags: sample
+photo.3: https://www.codaworry.com/images/rpf/yukiko-1-wpz.jpg
+photo.3.author: geroppa55
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://geroppa55.exblog.jp/i9/
 photo.4: ig://BwZuEuSlqEN/m
 photo.4.author: carsontheredpanda
 photo.4.commitdate: 2019/4/23
