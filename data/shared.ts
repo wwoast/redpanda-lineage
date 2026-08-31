@@ -300,15 +300,17 @@ export function byFieldName(v1: string, v2: string) {
  */
 export function byPhotoUri(a: Photo, b: Photo) {
   /** Internally we use getTime() (epoch time in ms) as the sorting comparison */
-  function sortDate(p: Photo): number {
-    return (p.url.startsWith("ig://"))
-        ? reduceInstagramLocatorToTimestamp(p.url.split("/")[2])
-        : (p.url.startsWith("cwdc://"))
-          ? reduceRpfsLocatorToTimestamp(p.url.split("/")[2])
-          : new Date(p.commitdate).getTime()
+  function selectDate(p: Photo): number {
+    return (p.url.startsWith("ig://") && p.url.split("/").length == 5)
+        ? reduceInstagramLocatorToTimestamp(p.url.split("/")[3])
+        : (p.url.startsWith("ig://"))
+          ? reduceInstagramLocatorToTimestamp(p.url.split("/")[2])
+          : (p.url.startsWith("cwdc://"))
+            ? reduceRpfsLocatorToTimestamp(p.url.split("/")[2].split(".")[0])
+            : new Date(p.commitdate).getTime()
   }
   // Numeric ordering of chosen dates
-  return sortDate(a) - sortDate(b)
+  return selectDate(a) - selectDate(b)
 }
 
 /**
@@ -330,7 +332,7 @@ function reduceInstagramLocatorToTimestamp(locator: string): number {
   const instagramEpoch = new Date("2011-08-24T21:07:00.000Z").getTime()
   const locatorNumber = Array.from(locator).map((x: string, i: number) => {
     const j = BigInt(locator.length - i - 1)
-    return base64LookupTable[x] << (6n * j)
+    return BigInt(base64LookupTable[x]) << (6n * j)
   }).reduce((a: bigint, b: bigint) => a + b)
   const bitString = locatorNumber.toString(2).padStart(64, '0')
   const leadingBitsString = bitString.slice(0, 41)
@@ -348,7 +350,7 @@ function reduceInstagramLocatorToTimestamp(locator: string): number {
 function reduceRpfsLocatorToTimestamp(locator: string): number {
   const locatorNumber = Array.from(locator).map((x: string, i: number) => {
     const j = BigInt(locator.length - i - 1)
-    return base64LookupTable[x] << (6n * j)
+    return BigInt(base64LookupTable[x]) << (6n * j)
   }).reduce((a: bigint, b: bigint) => a + b)
   const bitString = locatorNumber.toString(2).padStart(64, '0')
   const leadingBitsString = bitString.slice(0, 41)
