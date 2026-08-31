@@ -12,7 +12,7 @@ import { Paths, existsFileSync } from './shared.ts'
  * way to track whether photos are new or not, but also used for panda info
  * for individual photo samples.
  *
- * In the `build.ts` Updates class, files are read line by line, and added to
+ * In the `dataset.ts` Updates class, files are read line by line, and added to
  * photo entities based on their locator ID (<entity_id>.photo.<photo_id>).
  * The UpdateFromCommits class uses a map of locator ID to photo, to make
  * accurate counts of new photos, new entities, and new contributors.

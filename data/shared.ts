@@ -2,6 +2,28 @@ import type { Vertex } from './dagoba.ts'
 
 export const firstCommit = "832f3469e61901ebf9a38a6c2da1f427cf64e188"
 
+/**
+ * IG locators are A-Za-z0-9-_ 26+26+10+1+1, and we will use a similar modified
+ * base64 scheme but encoding different information and the normal Unix epoch.
+ */
+const base64CharacterSet: string[] = [
+  "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+  "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
+  "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+  "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+  "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "-", "_"
+]
+
+/**
+ * Object mapping numbers to each character above, in order they are listed,
+ * using the array index of each character (starting from zero). Since we are
+ * doing bit-shifting math on Instagram locators, we need to use BigInt since
+ * the bit-shift operators for regular Numbers only work on 32-bit values.
+ */
+const base64LookupTable: Record<string, bigint> = Object.fromEntries(
+  base64CharacterSet.map(character => 
+    [character, BigInt(base64CharacterSet.indexOf(character))]))
+
 /** Keep consistent with the `SupportedLanguages` enum definition */
 export const supportedLanguages: Language[] = ["en", "es", "ja", "ko", "ne", "pt", "zh"]
 
@@ -261,4 +283,78 @@ export function byFieldName(v1: string, v2: string) {
   }
   // Fallback
   return valueSort(v1, v2)
+}
+
+/**
+ * Sort a set of photos, leveraging their publish date (in a base62-formatted
+ * filename), and falling back to the commit date of the photo in RPF.
+ * 
+ * RPF and IG URIs both use a consistent base64 standard for creating URLs
+ * for photos, but the defined epoch time, and the overall format for each one,
+ * is slightly different.
+ * 
+ * Perform the photo sorting as part of reserializing the contents of a JSON
+ * entity to disk. DO NOT perform photo sorting prior to other management tasks
+ * because it means your numeric photo indexes won't be stable! i.e. you would
+ * delete a photo you did not intend to delete!
+ */
+export function byPhotoUri(a: Photo, b: Photo) {
+  /** Internally we use getTime() (epoch time in ms) as the sorting comparison */
+  function sortDate(p: Photo): number {
+    return (p.url.startsWith("ig://"))
+        ? reduceInstagramLocatorToTimestamp(p.url.split("/")[2])
+        : (p.url.startsWith("cwdc://"))
+          ? reduceRpfsLocatorToTimestamp(p.url.split("/")[2])
+          : new Date(p.commitdate).getTime()
+  }
+  // Numeric ordering of chosen dates
+  return sortDate(a) - sortDate(b)
+}
+
+/**
+ * Convert Instagram share link into a locator, and convert the locator's
+ * leading 41 bits into a normal Unix timestamp in milliseconds.
+ * 
+ * Writing this in terms of bit-shifting requires everything to be bigint type
+ * since the bitshift operators in Javascript only work on 32-bit integers and
+ * my bit vectors are larger than this.
+ */
+function reduceInstagramLocatorToTimestamp(locator: string): number {
+  // Comparing known IG locators and publication dates:
+  //   C1bdtpLuDU5 => (wall-clock) Dec 29, 2023 23:48 PST
+  //   C02q-dDJkmC => Dec 14, 2023
+  //   B-02mMUB81- == April 10, 2020
+  //   B_0sxp5JjNl == May 5, 2020
+  // Based on this, I'm estimating this constant to offset how IG's
+  // epoch is not the same as normal Unix time. 
+  const instagramEpoch = new Date("2011-08-24T21:07:00.000Z").getTime()
+  const locatorNumber = Array.from(locator).map((x: string, i: number) => {
+    const j = BigInt(locator.length - i - 1)
+    return base64LookupTable[x] << (6n * j)
+  }).reduce((a: bigint, b: bigint) => a + b)
+  const bitString = locatorNumber.toString(2).padStart(64, '0')
+  const leadingBitsString = bitString.slice(0, 41)
+  const timestampNumber = Array.from(leadingBitsString).map((x: string, i: number) => {
+    const j = BigInt(leadingBitsString.length - i - 1)
+    return BigInt(x) << j
+  }).reduce((a: bigint, b: bigint) => a + b)
+  return Number(timestampNumber) + instagramEpoch
+}
+
+/** 
+ * Similar to the instagram locator reducer's base64 alphabet, but for RPF the
+ * the epoch is the standard Unix epoch (1/1/1970-00:00).
+ */
+function reduceRpfsLocatorToTimestamp(locator: string): number {
+  const locatorNumber = Array.from(locator).map((x: string, i: number) => {
+    const j = BigInt(locator.length - i - 1)
+    return base64LookupTable[x] << (6n * j)
+  }).reduce((a: bigint, b: bigint) => a + b)
+  const bitString = locatorNumber.toString(2).padStart(64, '0')
+  const leadingBitsString = bitString.slice(0, 41)
+  const timestampNumber = Array.from(leadingBitsString).map((x: string, i: number) => {
+    const j = BigInt(leadingBitsString.length - i - 1)
+    return BigInt(x) << j
+  }).reduce((a: bigint, b: bigint) => a + b)
+  return Number(timestampNumber)
 }

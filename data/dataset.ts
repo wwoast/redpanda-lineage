@@ -6,6 +6,7 @@ import { PhotoEntry } from './photos.ts'
 import { Paths,
          byIdAscending,
          byFieldName,
+         byPhotoUri,
          existsDirSync,
          existsFileSync,
          reviveNode,
@@ -1041,7 +1042,7 @@ export class Dataset {
     if ("language.order" in working)
       working['language.order'] = working['language.order'].join(', ')
     if ("photos" in working) {
-      working.photos.map((photo: Photo, index: number) => {
+      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
@@ -1101,7 +1102,9 @@ export class Dataset {
         working[`${language}.othernames`] = working.othernames[language].join(", "))
     }
     if ("photos" in working) {
-      working.photos.map((photo: Photo, index: number) => {
+      // Prior to adding the photos back to the dataset, sort them by either
+      // their URL locators or by their commitdate
+      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
@@ -1191,7 +1194,7 @@ export class Dataset {
         working[`${language}.othernames`] = working.othernames[language].join(", "))
     }
     if ("photos" in working) {
-      working.photos.map((photo: Photo, index: number) => {
+      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
