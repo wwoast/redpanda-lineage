@@ -1120,7 +1120,10 @@ export class Dataset {
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
-          working.birthplace = parseInt(edge._in._id) * -1
+          if (edge._in._id.includes("wild"))
+            working.birthplace = edge._in._id
+          else
+            working.birthplace = parseInt(edge._in._id) * -1
           break
         case "family":
           if (edge.probability)

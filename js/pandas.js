@@ -1484,7 +1484,7 @@ export function formatDate(date, language) {
 function formatSeason(date, language) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[language]
-  const [ year, season ] = date.split("/")
+  let [ year, season ] = date.split("/")
   season = season.toLowerCase()
   const format = Defaults.date_season[language]
   format = format.replace("YYYY", year)
