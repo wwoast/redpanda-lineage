@@ -34,20 +34,25 @@ photo.4.author: kai.kuniko
 photo.4.commitdate: 2019/8/15
 photo.4.link: ig://BwpHzo9gbTZ
 photo.4.tags: peek, portrait, tree
-photo.5: ig://CJ69cJth2Ng/m
+photo.5: cwdc://XbziZX7ADQB.jpg
 photo.5.author: redpandanetwork
 photo.5.commitdate: 2021/1/19
-photo.5.link: https://www.instagram.com/redpandanetwork/
+photo.5.link: ig://CJ69cJth2Ng
 photo.5.tags: laying down, sleeping
-photo.6: ig://CVOK5WuhFoh/m
+photo.6: cwdc://XyZ9Tx9ADQC.jpg
 photo.6.author: redpandanetwork
 photo.6.commitdate: 2021/11/14
-photo.6.link: https://www.instagram.com/redpandanetwork/
-photo.6.tags: portrait, tree
-photo.7: ig://CfNgW-mrVgp/m
+photo.6.link: ig://CVOK5WuhFoh
+photo.6.tags: portrait, sample, tree, whiskers
+photo.7: cwdc://YGYoPBtADQA.jpg
 photo.7.author: redpandanetwork
 photo.7.commitdate: 2022/7/14
-photo.7.link: https://www.instagram.com/redpandanetwork/
-photo.7.tags: laying down, mofumofu, paws, portrait, tree, wet
+photo.7.link: ig://CfNgW-mrVgp
+photo.7.tags: laying down, mofumofu, paws, portrait, sample, tree, wet
 species: 3
 wild: wild.6
+photo.8: cwdc://Y2ev3JnADQA.jpg
+photo.8.author: yossi929
+photo.8.commitdate: 2026/8/30
+photo.8.link: ig://C3QkLCjx5ak
+photo.8.tags: peek, sample, tree, whiskers
