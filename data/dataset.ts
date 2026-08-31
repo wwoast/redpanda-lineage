@@ -1120,7 +1120,7 @@ export class Dataset {
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
-          if (edge._in._id.includes("wild"))
+          if (typeof edge._in._id === "string" && edge._in._id.includes("wild"))
             working.birthplace = edge._in._id
           else
             working.birthplace = parseInt(edge._in._id) * -1
