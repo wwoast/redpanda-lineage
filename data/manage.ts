@@ -1,6 +1,6 @@
-import * as ini from '@std/ini'
 import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
+import { IniMap } from '@std/ini/ini-map'
 import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
@@ -47,8 +47,10 @@ Subcommands:
  * entity file (media/panda/wild/zoo).
  */
 function deletePhotosFromServer(photoFilenames: string[]) {
+  const ini = new IniMap({assignment: ": "})
   const input = Deno.readTextFileSync(Paths.contributions)
-  const config = ini.parse(input) as Record<string, Record<string, string>>
+  const config =
+    ini.parse(input).toObject() as Record<string, Record<string, string>>
   const server = config.submissions.image_hosting_server
   const imageFolder = config.submissions.image_hosting_server_folder
   const userAccount = config.submissions.image_hosting_user
