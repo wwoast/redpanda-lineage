@@ -5,12 +5,8 @@ birthplace: 43
 children: none
 commitdate: 2020/6/30
 en.name: Bandit
-en.nicknames: none
-en.othernames: none
 gender: m
 ja.name: バンディット
-ja.nicknames: none
-ja.othernames: none
 language.order: en, ja
 litter: 1185
 location.1: 43, 2020/6/13
@@ -150,175 +146,170 @@ photo.27.author: carsontheredpanda
 photo.27.commitdate: 2021/9/1
 photo.27.link: ig://CTCzqI8FNgR
 photo.27.tags: portrait, profile, sample, smile, whiskers
-photo.28: cwdc://XuDO1WYADQA.jpg
-photo.28.author: carsontheredpanda
-photo.28.commitdate: 2026/8/27
-photo.28.link: ig://CTCzqI8FNgR
-photo.28.tags: portrait, sample, smile, whiskers
-photo.29: ig://CT-WRE4LA0t/m
+photo.28: ig://CT-WRE4LA0t/m
+photo.28.author: lipscer
+photo.28.commitdate: 2021/9/18
+photo.28.link: https://www.instagram.com/lipscer/
+photo.28.tags: close-up, whiskers
+photo.29: ig://CUBLEAPr7AR/m
 photo.29.author: lipscer
-photo.29.commitdate: 2021/9/18
+photo.29.commitdate: 2021/10/9
 photo.29.link: https://www.instagram.com/lipscer/
-photo.29.tags: close-up, whiskers
-photo.30: ig://CUBLEAPr7AR/m
-photo.30.author: lipscer
-photo.30.commitdate: 2021/10/9
-photo.30.link: https://www.instagram.com/lipscer/
-photo.30.tags: mofumofu, tail, whiskers
-photo.31: cwdc://XwCmDsnADQH.jpg
-photo.31.author: rossifari
-photo.31.commitdate: 2021/10/31
-photo.31.link: ig://CUCfRUDgqgK
-photo.31.tags: laying down, paws, portrait, sample, smile
-photo.32: ig://CUDdkg5rIpO/m
+photo.29.tags: mofumofu, tail, whiskers
+photo.30: cwdc://XwCmDsnADQH.jpg
+photo.30.author: rossifari
+photo.30.commitdate: 2021/10/31
+photo.30.link: ig://CUCfRUDgqgK
+photo.30.tags: laying down, paws, portrait, sample, smile
+photo.31: ig://CUDdkg5rIpO/m
+photo.31.author: lipscer
+photo.31.commitdate: 2021/10/9
+photo.31.link: https://www.instagram.com/lipscer/
+photo.31.tags: close-up, peek, whiskers
+photo.32: ig://CUFztnqLtc8/m
 photo.32.author: lipscer
 photo.32.commitdate: 2021/10/9
 photo.32.link: https://www.instagram.com/lipscer/
-photo.32.tags: close-up, peek, whiskers
-photo.33: ig://CUFztnqLtc8/m
-photo.33.author: lipscer
-photo.33.commitdate: 2021/10/9
-photo.33.link: https://www.instagram.com/lipscer/
-photo.33.tags: portrait, whiskers
-photo.34: cwdc://XweISYcADQA.jpg
-photo.34.author: wumpwoast
-photo.34.commitdate: 2022/3/13
-photo.34.link: ig://CUQQYp-Ptrd
-photo.34.tags: laying down, portrait, smile, whiskers
-photo.35: cwdc://XweNztyADQA.jpg
+photo.32.tags: portrait, whiskers
+photo.33: cwdc://XweISYcADQA.jpg
+photo.33.author: wumpwoast
+photo.33.commitdate: 2022/3/13
+photo.33.link: ig://CUQQYp-Ptrd
+photo.33.tags: laying down, portrait, smile, whiskers
+photo.34: cwdc://XweNztyADQA.jpg
+photo.34.author: lipscer
+photo.34.commitdate: 2026/8/27
+photo.34.link: ig://CUQTJUpLum3
+photo.34.tags: peek, smile, whiskers
+photo.35: cwdc://XweNztyADQC.jpg
 photo.35.author: lipscer
 photo.35.commitdate: 2026/8/27
-photo.35.link: ig://CUQTJUpLum3
-photo.35.tags: peek, smile, whiskers
-photo.36: cwdc://XweNztyADQC.jpg
-photo.36.author: lipscer
-photo.36.commitdate: 2026/8/27
-photo.36.link: ig://CUQTJUpLum4
-photo.36.tags: peek
-photo.37: cwdc://XwyJ1I_ADQA.jpg
-photo.37.author: wumpwoast
+photo.35.link: ig://CUQTJUpLum4
+photo.35.tags: peek
+photo.36: cwdc://XwyJ1I_ADQA.jpg
+photo.36.author: wumpwoast
+photo.36.commitdate: 2021/10/31
+photo.36.link: ig://CUaRKCPllq2
+photo.36.tags: peek, portrait, smile, whiskers
+photo.37: ig://CUc0vbcAKlr/m
+photo.37.author: lipscer
 photo.37.commitdate: 2021/10/31
-photo.37.link: ig://CUaRKCPllq2
-photo.37.tags: peek, portrait, smile, whiskers
-photo.38: ig://CUc0vbcAKlr/m
-photo.38.author: lipscer
-photo.38.commitdate: 2021/10/31
-photo.38.link: https://www.instagram.com/lipscer/
-photo.38.tags: peek, portrait
-photo.39: cwdc://XxbqNQUADQH.jpg
-photo.39.author: carsontheredpanda
-photo.39.commitdate: 2021/10/17
-photo.39.link: ig://CUvBWF6Jeyk
-photo.39.tags: paws, portrait, sample, smile, tree, whiskers
-photo.40: ig://CVEJQAMgHca/m
-photo.40.author: lipscer
-photo.40.commitdate: 2022/3/11
-photo.40.link: https://www.instagram.com/lipscer/
-photo.40.tags: nose, paws, peek
-photo.41: cwdc://X3ql8MBADQA.jpg
-photo.41.author: wumpwoast
+photo.37.link: https://www.instagram.com/lipscer/
+photo.37.tags: peek, portrait
+photo.38: cwdc://XxbqNQUADQH.jpg
+photo.38.author: carsontheredpanda
+photo.38.commitdate: 2021/10/17
+photo.38.link: ig://CUvBWF6Jeyk
+photo.38.tags: paws, portrait, sample, smile, tree, whiskers
+photo.39: ig://CVEJQAMgHca/m
+photo.39.author: lipscer
+photo.39.commitdate: 2022/3/11
+photo.39.link: https://www.instagram.com/lipscer/
+photo.39.tags: nose, paws, peek
+photo.40: cwdc://X3ql8MBADQA.jpg
+photo.40.author: wumpwoast
+photo.40.commitdate: 2022/1/4
+photo.40.link: ig://CX2fNjwre6_
+photo.40.tags: laying down, mofumofu, paws, portrait, smile, whiskers
+photo.41: cwdc://X4ftBkcADQI.jpg
+photo.41.author: rossifari
 photo.41.commitdate: 2022/1/4
-photo.41.link: ig://CX2fNjwre6_
-photo.41.tags: laying down, mofumofu, paws, portrait, smile, whiskers
-photo.42: cwdc://X4ftBkcADQI.jpg
-photo.42.author: rossifari
-photo.42.commitdate: 2022/1/4
-photo.42.link: ig://CYRCwP-Mxkj
-photo.42.tags: climb, close-up, paws, portrait, sample, whiskers
-photo.43: cwdc://X83OpjaADQN.jpg
+photo.41.link: ig://CYRCwP-Mxkj
+photo.41.tags: climb, close-up, paws, portrait, sample, whiskers
+photo.42: cwdc://X83OpjaADQN.jpg
+photo.42.author: carsontheredpanda
+photo.42.commitdate: 2026/8/27
+photo.42.link: ig://CaczkPdJrD8
+photo.42.tags: peek, whiskers
+photo.43: cwdc://X83OpjaADQO.jpg
 photo.43.author: carsontheredpanda
 photo.43.commitdate: 2026/8/27
-photo.43.link: ig://CaczkPdJrD8
+photo.43.link: ig://CaczkPdJrD9
 photo.43.tags: peek, whiskers
-photo.44: cwdc://X83OpjaADQO.jpg
+photo.44: cwdc://X_gnWZVADQI.jpg
 photo.44.author: carsontheredpanda
-photo.44.commitdate: 2026/8/27
-photo.44.link: ig://CaczkPdJrD9
-photo.44.tags: peek, whiskers
-photo.45: cwdc://X_gnWZVADQI.jpg
+photo.44.commitdate: 2022/6/10
+photo.44.link: ig://Cbxf6qarM3g
+photo.44.tags: laying down, portrait, sample, whiskers
+photo.45: cwdc://X_gnWZVADQJ.jpg
 photo.45.author: carsontheredpanda
-photo.45.commitdate: 2022/6/10
-photo.45.link: ig://Cbxf6qarM3g
-photo.45.tags: laying down, portrait, sample, whiskers
-photo.46: cwdc://X_gnWZVADQJ.jpg
+photo.45.commitdate: 2026/8/27
+photo.45.link: ig://Cbxf6qarM3h
+photo.45.tags: laying down, paws, portrait, sample, smile, whiskers
+photo.46: cwdc://YCpu5huADQK.jpg
 photo.46.author: carsontheredpanda
-photo.46.commitdate: 2026/8/27
-photo.46.link: ig://Cbxf6qarM3h
-photo.46.tags: laying down, paws, portrait, sample, smile, whiskers
-photo.47: cwdc://YCpu5huADQK.jpg
+photo.46.commitdate: 2022/7/31
+photo.46.link: ig://CdWDsOnLSaD
+photo.46.tags: door, grooming, home, laying down, mofumofu, paws, portrait, tail
+photo.47: cwdc://YC5DQKhADQL.jpg
 photo.47.author: carsontheredpanda
-photo.47.commitdate: 2022/7/31
-photo.47.link: ig://CdWDsOnLSaD
-photo.47.tags: door, grooming, home, laying down, mofumofu, paws, portrait, tail
-photo.48: cwdc://YC5DQKhADQL.jpg
+photo.47.commitdate: 2022/6/2
+photo.47.link: ig://Cddt3jArcgI
+photo.47.tags: bamboo, close-up, portrait, sample, sample smile, smile
+photo.48: cwdc://YFgEoFiADQM.jpg
 photo.48.author: carsontheredpanda
-photo.48.commitdate: 2022/6/2
-photo.48.link: ig://Cddt3jArcgI
-photo.48.tags: bamboo, close-up, portrait, sample, sample smile, smile
-photo.49: cwdc://YFgEoFiADQM.jpg
-photo.49.author: carsontheredpanda
-photo.49.commitdate: 2022/8/30
-photo.49.link: ig://CexOjghLf55
-photo.49.tags: paws, portrait, sample, standing, tree, wave
-photo.50: ig://Cf9--IFsfQV/m
+photo.48.commitdate: 2022/8/30
+photo.48.link: ig://CexOjghLf55
+photo.48.tags: paws, portrait, sample, standing, tree, wave
+photo.49: ig://Cf9--IFsfQV/m
+photo.49.author: henryvilaszoo
+photo.49.commitdate: 2022/7/31
+photo.49.link: https://www.instagram.com/henryvilaszoo/
+photo.49.tags: paws, portrait, sample, smile, whiskers
+photo.50: ig://CgzVIuDL7CX/m
 photo.50.author: henryvilaszoo
-photo.50.commitdate: 2022/7/31
+photo.50.commitdate: 2022/8/11
 photo.50.link: https://www.instagram.com/henryvilaszoo/
-photo.50.tags: paws, portrait, sample, smile, whiskers
-photo.51: ig://CgzVIuDL7CX/m
+photo.50.tags: laying down, smile, tail, whiskers
+photo.51: ig://CjVbDpZrkLa/m
 photo.51.author: henryvilaszoo
-photo.51.commitdate: 2022/8/11
+photo.51.commitdate: 2022/12/19
 photo.51.link: https://www.instagram.com/henryvilaszoo/
-photo.51.tags: laying down, smile, tail, whiskers
-photo.52: ig://CjVbDpZrkLa/m
-photo.52.author: henryvilaszoo
-photo.52.commitdate: 2022/12/19
-photo.52.link: https://www.instagram.com/henryvilaszoo/
-photo.52.tags: paws, sample, scale, standing, whiskers
-photo.53: cwdc://YaZcmJIADQB.jpg
+photo.51.tags: paws, sample, scale, standing, whiskers
+photo.52: cwdc://YaZcmJIADQB.jpg
+photo.52.author: carsontheredpanda
+photo.52.commitdate: 2026/8/27
+photo.52.link: ig://CpN6iiUJkK1
+photo.52.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.53: cwdc://YaZcmJIADQC.jpg
 photo.53.author: carsontheredpanda
 photo.53.commitdate: 2026/8/27
-photo.53.link: ig://CpN6iiUJkK1
-photo.53.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.54: cwdc://YaZcmJIADQC.jpg
+photo.53.link: ig://CpN6iiUJkK2
+photo.53.tags: paws, portrait, sample, whiskers
+photo.54: cwdc://YaZcmJIADQD.jpg
 photo.54.author: carsontheredpanda
 photo.54.commitdate: 2026/8/27
-photo.54.link: ig://CpN6iiUJkK2
-photo.54.tags: paws, portrait, sample, whiskers
-photo.55: cwdc://YaZcmJIADQD.jpg
+photo.54.link: ig://CpN6iiUJkK3
+photo.54.tags: paws, portrait, sample, smile
+photo.55: cwdc://YaZcmJIADQE.jpg
 photo.55.author: carsontheredpanda
 photo.55.commitdate: 2026/8/27
-photo.55.link: ig://CpN6iiUJkK3
-photo.55.tags: paws, portrait, sample, smile
-photo.56: cwdc://YaZcmJIADQE.jpg
+photo.55.link: ig://CpN6iiUJkK4
+photo.55.tags: peek, portrait, whiskers
+photo.56: cwdc://YaZcmJIADQF.jpg
 photo.56.author: carsontheredpanda
 photo.56.commitdate: 2026/8/27
-photo.56.link: ig://CpN6iiUJkK4
-photo.56.tags: peek, portrait, whiskers
-photo.57: cwdc://YaZcmJIADQF.jpg
-photo.57.author: carsontheredpanda
-photo.57.commitdate: 2026/8/27
-photo.57.link: ig://CpN6iiUJkK5
-photo.57.tags: portrait, sample, smile, whiskers
-photo.58: cwdc://YmIcVdtADQJ.jpg
+photo.56.link: ig://CpN6iiUJkK5
+photo.56.tags: portrait, sample, smile, whiskers
+photo.57: cwdc://YmIcVdtADQJ.jpg
+photo.57.author: rossifari
+photo.57.commitdate: 2023/9/16
+photo.57.link: ig://CvFaaMmgC2Z
+photo.57.tags: close-up, sample, whiskers
+photo.58: cwdc://YmIcVdtADQK.jpg
 photo.58.author: rossifari
-photo.58.commitdate: 2023/9/16
-photo.58.link: ig://CvFaaMmgC2Z
-photo.58.tags: close-up, sample, whiskers
-photo.59: cwdc://YmIcVdtADQK.jpg
+photo.58.commitdate: 2026/8/27
+photo.58.link: ig://CvFaaMmgC2a
+photo.58.tags: sample, whiskers
+photo.59: cwdc://YmIcVdtADQL.jpg
 photo.59.author: rossifari
 photo.59.commitdate: 2026/8/27
-photo.59.link: ig://CvFaaMmgC2a
-photo.59.tags: sample, whiskers
-photo.60: cwdc://YmIcVdtADQL.jpg
+photo.59.link: ig://CvFaaMmgC2c
+photo.59.tags: bite, lips, lunch time, sample, whiskers
+photo.60: cwdc://YmIcVdtADQM.jpg
 photo.60.author: rossifari
 photo.60.commitdate: 2026/8/27
-photo.60.link: ig://CvFaaMmgC2c
-photo.60.tags: bite, lips, lunch time, sample, whiskers
-photo.61: cwdc://YmIcVdtADQM.jpg
-photo.61.author: rossifari
-photo.61.commitdate: 2026/8/27
-photo.61.link: ig://CvFaaMmgC2d
-photo.61.tags: close-up, sample, whiskers
+photo.60.link: ig://CvFaaMmgC2d
+photo.60.tags: close-up, sample, whiskers
 species: 2
 zoo: 77
