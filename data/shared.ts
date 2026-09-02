@@ -244,6 +244,18 @@ export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
 
 /** Sort functions */
 
+export function byNumericHighest(a: number, b: number) {
+  if (a > b) return -1
+  else if (a < b) return 1
+  else return 0
+}
+
+export function byNumericLowest(a: number, b: number) {
+  if (a < b) return -1
+  else if (a > b) return 1
+  else return 0
+}
+
 /** Sort numeric IDs from lowest to highest */
 export function byIdAscending(v1: Record<string, any>, v2: Record<string, any>) {
   return v1._id - v2._id

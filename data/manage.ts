@@ -6,6 +6,7 @@ import { buildDataset,
          isDatasetFresh } from './build.ts'
 import { Dataset, Updates } from './dataset.ts'
 import { Paths,
+         byNumericLowest,
          existsFileSync,
          firstCommit,
          reviveNode } from './shared.ts'
@@ -110,7 +111,7 @@ function removeAuthorFromLineage(dataset: Dataset, author: string) {
     .filter(photo => photo.author == author)
     .forEach(photo => {
       if (!(photo._id in idToPhotos))
-        idToPhotos[photo._id] = photo
+        idToPhotos[photo._id] = [photo]
       else
         idToPhotos[photo._id].push(photo)
     })
@@ -191,7 +192,10 @@ function removePhotosFromEntity(
   removedPerId[entity._id] = removedIndices.sort()
   // Natural numbers for the indexes in the files
   const displayIndices = removedIndices.map((index: number) => index + 1)
-  console.log(`[manage] ${entity._id}: removed photos: ${displayIndices.sort().join(", ")}`)
+  console.log(
+    `[manage] ${entity._id}: removed photos: ` +
+    `${displayIndices.sort(byNumericLowest).join(", ")}`
+  )
   // HACK: Only works with cwdc:// URLs with the protocol removed
   return removedPhotos
     .map(photo => photo.url)
