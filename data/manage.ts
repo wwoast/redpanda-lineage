@@ -1,3 +1,4 @@
+import * as ini from '@std/ini'
 import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 import { buildDataset,
@@ -40,6 +41,45 @@ Subcommands:
   --sort-updates
         Sort image locators for all .txt files changed in the last week.
 `
+/**
+ * Using the `contributions.conf` configuration for where RPF hosts its files,
+ * log into that system over SSH and delete duplicate photos from a single
+ * entity file (media/panda/wild/zoo).
+ */
+function deletePhotosFromServer(photoFilenames: string[]) {
+  const input = Deno.readTextFileSync(Paths.contributions)
+  const config = ini.parse(input) as Record<string, Record<string, string>>
+  const server = config.submissions.image_hosting_server
+  const imageFolder = config.submissions.image_hosting_server_folder
+  const userAccount = config.submissions.image_hosting_user
+  const filesToRemove = photoFilenames.map(file => `${imageFolder}/${file}`)
+  const args = [
+    `${userAccount}@${server}`,
+    "rm"
+  ].concat(filesToRemove)
+  const sshCommand = new Deno.Command("/usr/bin/ssh", {
+    "args": args,
+    "stdout": "piped",
+    "stderr": "piped"
+  })
+  const runStatus = sshCommand.outputSync().code
+  if (runStatus != 0)
+    console.log(`[manage] WARN: problem: ssh ${args.join(" ")}`)
+}
+
+/**
+ * When removing duplicate photos from the server, only do one input photo at a
+ * time, to prevent any events that are difficult to audit or recover from. If
+ * an entity has multiple duplicates of the same photo, this can still return a
+ * list of photos to remove.
+ */
+function removePhotoFromEntity(
+  dataset: Dataset,
+  path: string,
+  index: any
+) {
+  return removePhotosFromEntity(dataset, path, [index])
+}
 
 /** 
  * Given a file path and a photo index ID, remove the photo and renumber all
@@ -51,11 +91,11 @@ Subcommands:
  * we want to not just remove these photos from our listing, but also wish to
  * delete them from the server they're stored on.
  */
-function removePhotoFromEntity(
+function removePhotosFromEntity(
   dataset: Dataset,
   path: string,
   indexes: any[]
-): Record<string, number[]> {
+): string[] {
   if (!existsFileSync(path))
     throw new Error(`[manage] ${path}: file doesn't exist`)
   const targetIndices: number[] = indexes.map((index: any) => {
@@ -75,9 +115,13 @@ function removePhotoFromEntity(
   if (!("photos" in entity))
     throw new Error(`[manage] ERR: ${path}: no photos to remove`)
   // Remove photos by index if they are present in the photos list
+  const removedPhotos: Photo[] = []
   const removedIndices = targetIndices
     .filter(index => index > -1 && index < entity.photos.length)
-  removedIndices.forEach(index => entity.photos.splice(index, 1))
+  // Remove photos from the entity, and put them in a list so we can get the
+  // filenames for later deletion if we want.
+  removedIndices.forEach(index =>
+    removedPhotos.push(entity.photos.splice(index, 1)))
   // Rewrite the file to disk
   dataset.writeEntityToDisk(entity)
   // Return the list of entities removed
@@ -86,7 +130,7 @@ function removePhotoFromEntity(
   // Natural numbers for the indexes in the files
   const displayIndices = removedIndices.map((index: number) => index + 1)
   console.log(`[manage] ${entity._id}: removed photos: ${displayIndices.sort().join(", ")}`)
-  return removedPerId
+  return removedPhotos.map(photo => photo.url)
 }
 
 
@@ -270,11 +314,11 @@ if (import.meta.main) {
       // removeAuthorFromLineage(flags["remove-author"])
       break
     case (typeof flags["remove-duplicate"] === "string"):
-      // removePhotoFromEntity(dataset, flags["remove-duplicate"], args)
-      // deletePhotoFromServer()
+      const removed = removePhotoFromEntity(dataset, flags["remove-duplicate"], args[0])
+      deletePhotosFromServer(removed)
       break
     case (typeof flags["remove-photo"] === "string"):
-      removePhotoFromEntity(dataset, flags["remove-photo"], args)
+      removePhotosFromEntity(dataset, flags["remove-photo"], args)
       await buildDataset(true, true)   // ready to publish
       break
     case (typeof flags["restore-author"] === "string"): {
@@ -293,5 +337,4 @@ if (import.meta.main) {
       console.log(helpMessage)
       Deno.exit(1)
   }
-  // TODO: once we've done all this, build an updated dataset
 }

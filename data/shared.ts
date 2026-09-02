@@ -60,8 +60,13 @@ export function existsFileSync(path: string): boolean {
   }
 }
 
-/** Where to import or export red panda data from */
+/** 
+ * Where to import or export red panda data from, relative to the location that
+ * deno tasks run from. All deno tasks run relative to where `deno.json` is
+ * located, which is the root folder of the _redpanda-lineage_ repository.
+ */
 export const Paths: Record<string, string> = {
+  contributions: "contributions.conf",
   links: "links/",
   media: "media/",
   output: "export/redpanda.json",
