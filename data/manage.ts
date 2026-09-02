@@ -138,7 +138,7 @@ function removePhotosFromEntity(
  * If a file has the same photo URI multiple times, make a new photo entry with
  * a union of the tags for each one, and the earlier commitdate. We track
  * duplicates across the entire dataset now, but if a photos is in two or more
- * distinct entity files
+ * distinct entity files, it will require manual review.
  */
 function resolveDuplicatePhotoUris(dataset: Dataset): number {
   interface PhotoAndPath extends Photo {
@@ -156,6 +156,7 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
   // Collect all photo URLs and record each .txt file path and photo index
   // where they are found
   entities
+    .filter(vertex => vertex.photos && vertex.photos.length > 0)
     .flatMap(vertex => vertex.photos.map((photo: PhotoAndPath, index: number) => {
       photo._id = vertex._id
       photo.index = index
@@ -291,8 +292,7 @@ if (import.meta.main) {
     console.log(helpMessage)
     Deno.exit(0)
   }
-  // Either build a new dataset, or import an existing one. Make sure we have
-  // file paths represented on every vertex.
+  // Either build a new dataset, or import an existing one
   const fresh = await isDatasetFresh()
   const dataset = (fresh == true)
     ? importDataset()
