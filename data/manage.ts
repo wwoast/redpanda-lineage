@@ -47,6 +47,7 @@ Subcommands:
  * entity file (media/panda/wild/zoo).
  */
 function deletePhotosFromServer(photoFilenames: string[]) {
+  if (!photoFilenames || photoFilenames.length == 0) return   // no-op
   const ini = new IniMap({assignment: ": "})
   const input = Deno.readTextFileSync(Paths.contributions)
   const config =
@@ -117,13 +118,13 @@ function removePhotosFromEntity(
   if (!("photos" in entity))
     throw new Error(`[manage] ERR: ${path}: no photos to remove`)
   // Remove photos by index if they are present in the photos list
-  const removedPhotos: Photo[] = []
+  let removedPhotos: Photo[] = []
   const removedIndices = targetIndices
     .filter(index => index > -1 && index < entity.photos.length)
   // Remove photos from the entity, and put them in a list so we can get the
   // filenames for later deletion if we want.
   removedIndices.forEach(index =>
-    removedPhotos.push(entity.photos.splice(index, 1)))
+    removedPhotos = removedPhotos.concat(entity.photos.splice(index, 1)))
   // Rewrite the file to disk
   dataset.writeEntityToDisk(entity)
   // Return the list of entities removed
@@ -132,9 +133,9 @@ function removePhotosFromEntity(
   // Natural numbers for the indexes in the files
   const displayIndices = removedIndices.map((index: number) => index + 1)
   console.log(`[manage] ${entity._id}: removed photos: ${displayIndices.sort().join(", ")}`)
+  console.log(JSON.stringify(removedPhotos))
   return removedPhotos.map(photo => photo.url)
 }
-
 
 /**
  * If a file has the same photo URI multiple times, make a new photo entry with
@@ -316,8 +317,9 @@ if (import.meta.main) {
       // removeAuthorFromLineage(flags["remove-author"])
       break
     case (typeof flags["remove-duplicate"] === "string"):
-      const removed = removePhotoFromEntity(dataset, flags["remove-duplicate"], args[0])
-      deletePhotosFromServer(removed)
+      const removed =
+        removePhotoFromEntity(dataset, flags["remove-duplicate"], args[0])
+      // deletePhotosFromServer(removed)
       break
     case (typeof flags["remove-photo"] === "string"):
       removePhotosFromEntity(dataset, flags["remove-photo"], args)
