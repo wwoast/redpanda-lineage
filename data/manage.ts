@@ -41,6 +41,28 @@ Subcommands:
   --sort-updates
         Sort image locators for all .txt files changed in the last week.
 `
+
+interface PhotoAndPath extends Photo {
+  _id: number | string,
+  index: number,
+  path: string
+}
+
+function commitMessageForAuthor(
+  mode: "remove" | "restore",
+  author: string,
+  commit?: string
+) {
+  switch(mode) {
+    case "remove":
+      return `[author] remove all photos for ${author}`
+    case "restore":
+      return `[author] restore ${author} photos from commit: ${commit}`
+    default:
+      throw new Error(`[manage] author-related commit messages are one of: remove, restore`)
+  }
+}
+
 /**
  * Using the `contributions.conf` configuration for where RPF hosts its files,
  * log into that system over SSH and delete duplicate photos from a single
@@ -68,6 +90,43 @@ function deletePhotosFromServer(photoFilenames: string[]) {
   const runStatus = sshCommand.outputSync().code
   if (runStatus != 0)
     console.log(`[manage] WARN: problem: ssh ${args.join(" ")}`)
+}
+
+/** Remove all photos committed by a particular author */
+function removeAuthorFromLineage(dataset: Dataset, author: string) {
+  // Only links entities are incapable of having photos
+  const entities = dataset.graph.vertices.filter(vertex => vertex.type != "links")
+  // Collect all photo URLs and record each .txt file path and photo index
+  // where they are found
+  const idToPhotos: Record<string | number, PhotoAndPath[]> = {}
+  entities
+    .filter(vertex => vertex.photos && vertex.photos.length > 0)
+    .flatMap(vertex => vertex.photos.map((photo: PhotoAndPath, index: number) => {
+      photo._id = vertex._id
+      photo.index = index
+      photo.path = vertex.path
+      return photo
+    }))
+    .filter(photo => photo.author == author)
+    .forEach(photo => {
+      if (!(photo._id in idToPhotos))
+        idToPhotos[photo._id] = photo
+      else
+        idToPhotos[photo._id].push(photo)
+    })
+  let removedPhotos: string[] = []
+  Object.keys(idToPhotos).forEach(id => {
+    const path = idToPhotos[id][0].path
+    // Natural indexes, not array indexes
+    const indexes = idToPhotos[id].map(photo => photo.index + 1)
+    const removedForThisEntity = removePhotosFromEntity(dataset, path, indexes)
+    removedPhotos = removedPhotos.concat(removedForThisEntity)
+  })
+  // Do a git commit tracking this as a thing we did
+  const repo = git()
+  repo.commit.create({all: true, subject: commitMessageForAuthor("remove", author)})
+  console.log(`[manage]: ${removedPhotos.length} removed for author: ${author}`)
+  return removedPhotos.length
 }
 
 /**
@@ -147,11 +206,6 @@ function removePhotosFromEntity(
  * distinct entity files, it will require manual review.
  */
 function resolveDuplicatePhotoUris(dataset: Dataset): number {
-  interface PhotoAndPath extends Photo {
-    _id: number | string,
-    index: number,
-    path: string
-  }
   let removedDuplicatesCount = 0
   const urlToPhotos: Record<string, PhotoAndPath[]> = {}
   const idToVertex: Record<number | string, any> = {}
@@ -317,12 +371,15 @@ if (import.meta.main) {
         await buildDataset(true, true)   // build and commit if the dataset changed
       break
     case (typeof flags["remove-author"] === "string"):
-      // removeAuthorFromLineage(flags["remove-author"])
+      if (removeAuthorFromLineage(dataset, flags["remove-author"]) > 0)
+        await buildDataset(true, true)   // build and commit again if photos were removed
       break
     case (typeof flags["remove-duplicate"] === "string"):
       const removed =
         removePhotoFromEntity(dataset, flags["remove-duplicate"], args[0])
-        deletePhotosFromServer(removed)
+      deletePhotosFromServer(removed)
+      if (removed.length > 0)
+        await buildDataset(true, true)   // build and commit again if photos were removed
       break
     case (typeof flags["remove-photo"] === "string"):
       removePhotosFromEntity(dataset, flags["remove-photo"], args)

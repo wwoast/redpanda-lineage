@@ -24,8 +24,9 @@ const base64LookupTable: Record<string, bigint> = Object.fromEntries(
   base64CharacterSet.map(character => 
     [character, BigInt(base64CharacterSet.indexOf(character))]))
 
-/** Keep consistent with the `SupportedLanguages` enum definition */
-export const supportedLanguages: Language[] = ["en", "es", "ja", "ko", "ne", "pt", "zh"]
+/** Keep consistent with the `SupportedLanguages` _enum_ definition */
+export const supportedLanguages: Language[] =
+  ["en", "es", "ja", "ko", "ne", "pt", "zh"]
 
 export function ensureLanguage(input: string) {
   if ((supportedLanguages as string[]).includes(input))

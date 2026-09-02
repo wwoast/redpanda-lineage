@@ -1,7 +1,7 @@
-import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
+import { Git } from '@roka/git'
 import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
-import { Git } from '@roka/git'
+import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
 import { PhotoEntry } from './photos.ts'
 import { Paths,
          byIdAscending,
