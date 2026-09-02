@@ -133,8 +133,11 @@ function removePhotosFromEntity(
   // Natural numbers for the indexes in the files
   const displayIndices = removedIndices.map((index: number) => index + 1)
   console.log(`[manage] ${entity._id}: removed photos: ${displayIndices.sort().join(", ")}`)
-  console.log(JSON.stringify(removedPhotos))
-  return removedPhotos.map(photo => photo.url)
+  // HACK: Only works with cwdc:// URLs with the protocol removed
+  return removedPhotos
+    .map(photo => photo.url)
+    .filter(url => url.startsWith("cwdc://"))
+    .map(url => url.replace("cwdc://", ""))
 }
 
 /**
@@ -319,7 +322,7 @@ if (import.meta.main) {
     case (typeof flags["remove-duplicate"] === "string"):
       const removed =
         removePhotoFromEntity(dataset, flags["remove-duplicate"], args[0])
-      // deletePhotosFromServer(removed)
+        deletePhotosFromServer(removed)
       break
     case (typeof flags["remove-photo"] === "string"):
       removePhotosFromEntity(dataset, flags["remove-photo"], args)
