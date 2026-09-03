@@ -1,6 +1,6 @@
 import { git } from '@roka/git'
 import { Dataset, Updates } from './dataset.ts'
-import { Paths } from './shared.ts'
+import { DataPaths, Paths } from './shared.ts'
 
 /** 
  * Construct a new `export/redpanda.json` file, calculate updates for all
@@ -72,10 +72,7 @@ export async function isDatasetFresh() {
     const currentCommit = await repo.commit.get("HEAD")
     const datasetCommit = await repo.commit.get(datasetCommitish)
     const patches = await repo.diff.patch({
-      from: datasetCommit,
-      to: currentCommit,
-      path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
-    })
+      from: datasetCommit, to: currentCommit, path: DataPaths})
     // If any `.txt` files in the patch set, the dataset should be rebuilt 
     const buildNeeded = patches
       .map(change => change.path)

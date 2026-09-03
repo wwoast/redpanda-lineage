@@ -21,7 +21,6 @@
 #
 
 from shared import ProperlyDelimitedConfigParser, read_settings
-from manage import sort_image_updates
 from PIL import Image
 from datetime import datetime
 import git
@@ -708,6 +707,6 @@ if __name__ == '__main__':
     results = iterate_through_contributions(processing_folder)
     copy_images_to_image_server(results)
     create_submissions_branch(results)
-    # sort_image_updates()
+    # sort_image_updates()   # do a deno task instead, until this is ported
     migrate_submissions_to_submitted()
     print("Please merge submissions to master when ready.")

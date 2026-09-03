@@ -1,9 +1,10 @@
-import { Git } from '@roka/git'
+import { Git, Hunk } from '@roka/git'
 import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
 import { PhotoEntry } from './photos.ts'
-import { Paths,
+import { DataPaths,
+         Paths,
          byIdAscending,
          byFieldName,
          byPhotoUri,
@@ -1334,29 +1335,19 @@ export class Updates {
     // Memory use quickly gets out of hand when diff tries to process
     // `redpanda.json`, so restrict the possible paths
     const patches = await repo.diff.patch({
-      from: priorCommit,
-      to: currentCommit,
-      path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
-    })
-    for (const change of patches) {
+      from: priorCommit, to: currentCommit, path: DataPaths})
+    // Don't care about patches without content or pointing at removed files
+    const dataPatches = patches
+      .filter(change => change.path.endsWith(".txt"))
+      .filter(change => change.stats && change.stats.added > 0)
+      .filter(change => existsFileSync(change.path))
+    for (const change of dataPatches) {
       const filename = change.path
-      // Don't care about non-data files
-      if (!filename.endsWith(".txt"))
-        continue
-      // Don't care about lines we removed
-      else if (change.stats && change.stats.added == 0)
-        continue
-      // Don't care about files removed
-      else if (!existsFileSync(change.path))
-        continue
-      // Don't care if there are no hunks
-      else if (!change.hunks)
-        continue
-      else
-        for (const hunk of change.hunks)
-          for (const line of hunk.lines)
-            if (line.type == "added")
-              this.#processRawLine(filename, line.content)
+      change.hunks && change.hunks.forEach(hunk => {
+        for (const line of hunk.lines)
+          if (line.type == "added")
+            this.#processRawLine(filename, line.content)
+      })
     }
   }
 

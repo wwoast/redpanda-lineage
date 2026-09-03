@@ -76,6 +76,13 @@ export const Paths: Record<string, string> = {
   zoos: "zoos/"
 }
 
+/** 
+ * If we look for commits outside the data file repos, the
+ * `export/redpanda.json` file changes cause git to OOM.
+ */
+export const DataPaths =
+  [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
+
 /**
  * Replacer functions for particular entities, converting from a GraphNode
  * or Vertex object in a dataset, back to a `.txt` INI-format file.
@@ -244,21 +251,23 @@ export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
 
 /** Sort functions */
 
+/** Sort numeric IDs from lowest to highest */
+export function byIdAscending(v1: Record<string, any>, v2: Record<string, any>) {
+  return v1._id - v2._id
+}
+
+/** Sort lists of numbers highest to lowest */
 export function byNumericHighest(a: number, b: number) {
   if (a > b) return -1
   else if (a < b) return 1
   else return 0
 }
 
+/** Sort lists of numbers from lowest to highest */
 export function byNumericLowest(a: number, b: number) {
   if (a < b) return -1
   else if (a > b) return 1
   else return 0
-}
-
-/** Sort numeric IDs from lowest to highest */
-export function byIdAscending(v1: Record<string, any>, v2: Record<string, any>) {
-  return v1._id - v2._id
 }
 
 /** 

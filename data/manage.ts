@@ -1,11 +1,12 @@
-import { git } from '@roka/git'
+import { Git, Patch, git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from '@std/ini/ini-map'
 import { buildDataset,
          importDataset,
          isDatasetFresh } from './build.ts'
 import { Dataset, Updates } from './dataset.ts'
-import { Paths,
+import { DataPaths,
+         Paths,
          byNumericLowest,
          existsFileSync,
          firstCommit,
@@ -49,16 +50,28 @@ interface PhotoAndPath extends Photo {
   path: string
 }
 
+/**
+ * When an author's photos are removed (or restored) to redpandafinder, the
+ * commit message follows a standard format.
+ * 
+ * When restoring photos, one of your options for determining which commit to
+ * restore data from, is finding the commit corresponding to a
+ * _remove all photos for -author-_ message, formatted as per this function.
+ */
 function commitMessageForAuthor(
   mode: "remove" | "restore",
   author: string,
   commit?: string
 ) {
+  // For finding a message in the git logs where we don't know the commit
+  // ahead of time, return just the start of the message
+  const message = (!commit)
+    ? `[author] ${mode} photos for ${author}`
+    : `[author] ${mode} photos for ${author} from commit: ${commit}`
   switch(mode) {
     case "remove":
-      return `[author] remove all photos for ${author}`
     case "restore":
-      return `[author] restore ${author} photos from commit: ${commit}`
+      return message
     default:
       throw new Error(`[manage] author-related commit messages are one of: remove, restore`)
   }
@@ -93,8 +106,21 @@ function deletePhotosFromServer(photoFilenames: string[]) {
     console.log(`[manage] WARN: problem: ssh ${args.join(" ")}`)
 }
 
+/** 
+ * Return the commit hash corresponding to a given message. Since the commit
+ * messages we are looking for refer to other commit hashes (which we might
+ * not know yet), do a prefix-match rather than a full equals-match.
+ */
+async function findCommitWithMessage(repo: Git, message: string) {
+  const commit = (await repo.commit.log())
+    .filter(commit => commit.subject.startsWith(message))
+    .shift()   // Off the top of the stack
+  if (commit)
+    return commit.hash
+}
+
 /** Remove all photos committed by a particular author */
-function removeAuthorFromLineage(dataset: Dataset, author: string) {
+async function removeAuthorFromLineage(dataset: Dataset, author: string) {
   // Only links entities are incapable of having photos
   const entities = dataset.graph.vertices.filter(vertex => vertex.type != "links")
   // Collect all photo URLs and record each .txt file path and photo index
@@ -123,9 +149,14 @@ function removeAuthorFromLineage(dataset: Dataset, author: string) {
     const removedForThisEntity = removePhotosFromEntity(dataset, path, indexes)
     removedPhotos = removedPhotos.concat(removedForThisEntity)
   })
-  // Do a git commit tracking this as a thing we did
+  // Do a git commit tracking the author removal. This is the checkpoint if we
+  // decide to restore the photos at a later point.
   const repo = git()
-  repo.commit.create({all: true, subject: commitMessageForAuthor("remove", author)})
+  const hash = (await repo.commit.head()).short
+  repo.commit.create({
+    all: true, 
+    subject: commitMessageForAuthor("remove", author, hash)
+  })
   console.log(`[manage]: ${removedPhotos.length} removed for author: ${author}`)
   return removedPhotos.length
 }
@@ -136,11 +167,7 @@ function removeAuthorFromLineage(dataset: Dataset, author: string) {
  * an entity has multiple duplicates of the same photo, this can still return a
  * list of photos to remove.
  */
-function removePhotoFromEntity(
-  dataset: Dataset,
-  path: string,
-  index: any
-) {
+function removePhotoFromEntity(dataset: Dataset, path: string, index: any) {
   return removePhotosFromEntity(dataset, path, [index])
 }
 
@@ -288,6 +315,47 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
   return removedDuplicatesCount
 }
 
+/** 
+ * Given an author string (and a commit), find all removed photos attributed to
+ * the author, and restore them to _redpanda-lineage_ data.
+ * 
+ * If the commit is not provided, find the most recent `commitMessageForAuthor`
+ * message in the commit history, and use that as the commitish.
+ */
+async function restoreAuthorToLineage(dataset: Dataset, author: string, commitish?: string) {
+  const repo = git()
+  const removeCommitish = commitish ?? 
+    await findCommitWithMessage(repo, commitMessageForAuthor("remove", author))
+  if (!removeCommitish)
+    throw new Error(`[manage] no commit found with removed photos for: ${author}`)
+  const restoreCommitish =
+    await findCommitWithMessage(repo, commitMessageForAuthor("restore", author))
+  // If a restore commit exists, make sure it didn't occur after the existing
+  // removal commit. If it did, restoring this author's data is a no-op.
+  if (restoreCommitish) {
+    const log = await repo.commit.log({from: removeCommitish, to: restoreCommitish})
+    if (log.length != 0)
+      throw new Error(`[manage] restore commit ${restoreCommitish} already exists`)
+    else
+      console.debug(
+        `[manage] restore ${restoreCommitish} predates removal ${removeCommitish}`)
+  }
+  // OK, we have a removal commit. Get all the photos out of it and restore. By
+  // making the patch start at HEAD and proceeding to the commit just before the
+  // removal, we get all the files that were removed.
+  const startCommit = await repo.commit.get("HEAD")
+  const removalCommit = await repo.commit.get(removeCommitish)
+  const endCommitish = (removalCommit)
+    ? removalCommit.parents?.shift() ?? firstCommit
+    : firstCommit
+  if (endCommitish == firstCommit)
+    throw new Error(`[manage] removal commit ${removeCommitish} has no parent`)
+  const endCommit = await repo.commit.get(endCommitish)
+  const patches = await repo.diff.patch({
+    from: startCommit, to: endCommit, path: DataPaths})
+  // TODO: make the Updates class logic simpler
+}
+
 /**
  * Sorting image locators is just a matter of tracking changes to text files,
  * and making sure they get reserialized to reorder the photo indexes.
@@ -303,10 +371,7 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
     ? await repo.commit.get(firstCommit)
     : await new Updates().startingCommit(repo)
   const patches = await repo.diff.patch({
-    from: previousCommit,
-    to: currentCommit,
-    path: [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]
-  })
+    from: previousCommit, to: currentCommit, path: DataPaths})
   // If any unique `.txt` files get resorted, rebuild the dataset 
   const pathsUpdated = patches
     .map(change => change.path)
@@ -375,7 +440,7 @@ if (import.meta.main) {
         await buildDataset(true, true)   // build and commit if the dataset changed
       break
     case (typeof flags["remove-author"] === "string"):
-      if (removeAuthorFromLineage(dataset, flags["remove-author"]) > 0)
+      if (await removeAuthorFromLineage(dataset, flags["remove-author"]) > 0)
         await buildDataset(true, true)   // build and commit again if photos were removed
       break
     case (typeof flags["remove-duplicate"] === "string"):
