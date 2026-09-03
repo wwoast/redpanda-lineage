@@ -61,6 +61,23 @@ export function existsFileSync(path: string): boolean {
   }
 }
 
+export function entityFromFileName(filename: string): Exclude<NodeType, "none"> {
+  switch (true) {
+    case filename.includes(Paths.links):
+      return "links"
+    case filename.includes(Paths.media):
+      return "media"
+    case filename.includes(Paths.panda):
+      return "panda"
+    case filename.includes(Paths.wild):
+      return "wild"
+    case filename.includes(Paths.zoo):
+      return "zoo"
+    default:
+      throw new Error(`[shared] not an entity file: ${filename}\n`)
+  }
+}
+
 /** 
  * Where to import or export red panda data from, relative to the location that
  * deno tasks run from. All deno tasks run relative to where `deno.json` is

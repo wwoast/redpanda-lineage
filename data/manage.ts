@@ -1,4 +1,4 @@
-import { Git, Patch, git } from '@roka/git'
+import { Git, git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from '@std/ini/ini-map'
 import { buildDataset,
@@ -340,20 +340,78 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
       console.debug(
         `[manage] restore ${restoreCommitish} predates removal ${removeCommitish}`)
   }
-  // OK, we have a removal commit. Get all the photos out of it and restore. By
-  // making the patch start at HEAD and proceeding to the commit just before the
-  // removal, we get all the files that were removed.
-  const startCommit = await repo.commit.get("HEAD")
+  // OK, we have a removal commit. Get all the photos out of it and restore
   const removalCommit = await repo.commit.get(removeCommitish)
-  const endCommitish = (removalCommit)
+  const startCommitish = (removalCommit)
     ? removalCommit.parents?.shift() ?? firstCommit
     : firstCommit
-  if (endCommitish == firstCommit)
+  if (startCommitish == firstCommit)
     throw new Error(`[manage] removal commit ${removeCommitish} has no parent`)
-  const endCommit = await repo.commit.get(endCommitish)
+  const startCommit = await repo.commit.get(startCommitish)
+  const endCommit = await repo.commit.get("HEAD")
   const patches = await repo.diff.patch({
     from: startCommit, to: endCommit, path: DataPaths})
-  // TODO: make the Updates class logic simpler
+  // Don't care about patches without content or pointing at removed files
+  const dataPatches = patches
+    .filter(change => change.path.endsWith(".txt"))
+    .filter(change => change.stats && change.stats.deleted > 0)
+    .filter(change => existsFileSync(change.path))
+  for (const change of dataPatches) {
+    const entity = dataset.graph.vertices
+      .filter(vertex => vertex.path == change.path).shift() as GraphNode
+    // Hunks are just changed text between the start and end commit. Hunks may
+    // not map to a specific photo, so process the hunks into per-photo objects
+    // that (with minor enrichment from the dataset) can be turned into
+    // PhotoEntry objects.
+    const indexToPhoto: Record<number, PhotoAndPath> = {}
+    change.hunks && change.hunks.forEach(hunk => {
+      hunk.lines
+        .filter(line => line.type == "deleted")
+        .map(line => line.content)
+        .filter(raw => raw.match(/^photo\.\d+/))
+        .map(raw => raw.trim())
+        .forEach(raw => {
+          // Let's pray: no colon-space outside of the delimiter
+          const [key, value] = raw.split(": ")
+          const index = parseInt(key.split(".")[1])
+          if (!(index in indexToPhoto))
+            indexToPhoto[index] = <PhotoAndPath>{}
+          indexToPhoto[index]._id = entity._id
+          indexToPhoto[index].index = index
+          switch(key.split(".")[2]) {
+            case undefined:
+              indexToPhoto[index].url = value
+              break
+            case "author":
+              indexToPhoto[index].author = value
+              break
+            case "commitdate":
+              indexToPhoto[index].commitdate = value
+              break
+            case "link":
+              indexToPhoto[index].source = value
+              break
+            case "tags": {
+              if (key.split(".").length > 2) {
+                indexToPhoto[index].locations = {}
+                entity["panda.tags"].forEach((pandaId: string) => {
+                  const field = `photo.${index}.tags.${pandaId}.location`
+                  //@ts-ignore how to better guarantee this
+                  const coordinates = value.split(", ") as [number, number]
+                  if (key == field)
+                    indexToPhoto[index].locations[pandaId] = coordinates
+                })
+              } else {
+                indexToPhoto[index].tags = value.split(", ")
+              }
+              break
+            }
+          }
+        })
+    })
+    // TODO: Read in the current entity from disk, add the existing photos
+    // back to the entity, and render it back to disk
+  }
 }
 
 /**

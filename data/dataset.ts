@@ -1343,11 +1343,10 @@ export class Updates {
       .filter(change => existsFileSync(change.path))
     for (const change of dataPatches) {
       const filename = change.path
-      change.hunks && change.hunks.forEach(hunk => {
-        for (const line of hunk.lines)
-          if (line.type == "added")
-            this.#processRawLine(filename, line.content)
-      })
+      change.hunks && change.hunks.forEach(hunk =>
+        hunk.lines
+          .filter(line => line.type == "added")
+          .forEach(line => this.#processRawLine(filename, line.content)))
     }
   }
 
@@ -1393,7 +1392,8 @@ export class Updates {
     if (!raw.match(/^photo\.\d+:/))
       return
     raw = raw.trim()
-    const photo = new PhotoEntry(filename, raw)
+    const photo = new PhotoEntry()
+    photo.fromFile(filename, raw)
     const entity = photo.entityLocator()
     const entityType = photo.entityType
     const locator = photo.photoLocator()

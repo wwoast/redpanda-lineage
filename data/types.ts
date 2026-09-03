@@ -69,7 +69,7 @@ declare global {
      * For media/group photos, identify with a pixel where in the photo each
      * animal can be found
      */
-    locations?: Record<string, [number, number]>
+    locations: Record<string, [number, number]>
     /**
      * When clicking the author's name in redpandafinder, we attempt to link
      * to the original social media post this photo was sourced from. This can be
