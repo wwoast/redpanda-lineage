@@ -8,7 +8,6 @@ import { Dataset, Updates } from './dataset.ts'
 import { DataPaths,
          Paths,
          byNumericLowest,
-         entityTypeFromFileName,
          existsFileSync,
          firstCommit,
          reviveNode } from './shared.ts'
@@ -158,7 +157,7 @@ async function removeAuthorFromLineage(dataset: Dataset, author: string) {
     all: true, 
     subject: commitMessageForAuthor("remove", author, hash)
   })
-  console.log(`[manage]: ${removedPhotos.length} removed for author: ${author}`)
+  console.log(`[manage] author ${author}: ${removedPhotos.length} photos removed`)
   return removedPhotos.length
 }
 
@@ -503,6 +502,8 @@ if (import.meta.main) {
   }
   // Either build a new dataset, or import an existing one
   const fresh = await isDatasetFresh()
+  if (!fresh)
+    console.log(`[manage] graph is stale, so building`)
   const dataset = (fresh == true)
     ? importDataset()
     : await buildDataset(false, false)

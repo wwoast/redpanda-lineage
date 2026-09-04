@@ -122,7 +122,7 @@ export function reviveNode(key: string, value: unknown, section?: string) {
     case "zoo":
       return reviveZooNode(key, value, section)
     default:
-      throw new Error(`[manage]: section ${section}: not a valid redpandafinder node`)
+      throw new Error(`[manage] section ${section}: not a valid redpandafinder node`)
   }
 }
 
