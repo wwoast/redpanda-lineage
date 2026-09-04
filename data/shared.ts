@@ -61,7 +61,7 @@ export function existsFileSync(path: string): boolean {
   }
 }
 
-export function entityFromFileName(filename: string): Exclude<NodeType, "none"> {
+export function entityTypeFromFileName(filename: string): Exclude<NodeType, "none"> {
   switch (true) {
     case filename.includes(Paths.links):
       return "links"

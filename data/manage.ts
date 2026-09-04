@@ -8,6 +8,7 @@ import { Dataset, Updates } from './dataset.ts'
 import { DataPaths,
          Paths,
          byNumericLowest,
+         entityTypeFromFileName,
          existsFileSync,
          firstCommit,
          reviveNode } from './shared.ts'
@@ -322,8 +323,10 @@ function resolveDuplicatePhotoUris(dataset: Dataset): number {
  * If the commit is not provided, find the most recent `commitMessageForAuthor`
  * message in the commit history, and use that as the commitish.
  */
-async function restoreAuthorToLineage(dataset: Dataset, author: string, commitish?: string) {
+async function restoreAuthorToLineage(dataset: Dataset, author: string, commitish?: any) {
   const repo = git()
+  if (typeof commitish !== "string")
+    commitish = undefined
   const removeCommitish = commitish ?? 
     await findCommitWithMessage(repo, commitMessageForAuthor("remove", author))
   if (!removeCommitish)
@@ -356,14 +359,20 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
     .filter(change => change.path.endsWith(".txt"))
     .filter(change => change.stats && change.stats.deleted > 0)
     .filter(change => existsFileSync(change.path))
+  const patchPaths = dataPatches.map(change => change.path)
+  const updatedPatchPaths: string[] = []
+  let updatedPhotoCounts = 0
   for (const change of dataPatches) {
-    const entity = dataset.graph.vertices
-      .filter(vertex => vertex.path == change.path).shift() as GraphNode
+    // Read latest entity from disk, rather than from the dataset
+    const ingest = dataset.ingest(change.path, reviveNode) as GraphNode
+    const type = Object.keys(ingest)[0] as NodeType
+    const node = ingest[type] as GraphNode
+    const entity = dataset.processNode(change.path, node, type)
     // Hunks are just changed text between the start and end commit. Hunks may
     // not map to a specific photo, so process the hunks into per-photo objects
     // that (with minor enrichment from the dataset) can be turned into
     // PhotoEntry objects.
-    const indexToPhoto: Record<number, PhotoAndPath> = {}
+    const indexToPhoto: Record<string, PhotoAndPath> = {}
     change.hunks && change.hunks.forEach(hunk => {
       hunk.lines
         .filter(line => line.type == "deleted")
@@ -373,11 +382,11 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
         .forEach(raw => {
           // Let's pray: no colon-space outside of the delimiter
           const [key, value] = raw.split(": ")
-          const index = parseInt(key.split(".")[1])
+          const index = key.split(".")[1]
           if (!(index in indexToPhoto))
             indexToPhoto[index] = <PhotoAndPath>{}
           indexToPhoto[index]._id = entity._id
-          indexToPhoto[index].index = index
+          indexToPhoto[index].index = parseInt(index)
           switch(key.split(".")[2]) {
             case undefined:
               indexToPhoto[index].url = value
@@ -392,7 +401,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
               indexToPhoto[index].source = value
               break
             case "tags": {
-              if (key.split(".").length > 2) {
+              if (entity.type == "media") {
                 indexToPhoto[index].locations = {}
                 entity["panda.tags"].forEach((pandaId: string) => {
                   const field = `photo.${index}.tags.${pandaId}.location`
@@ -409,9 +418,22 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
           }
         })
     })
-    // TODO: Read in the current entity from disk, add the existing photos
-    // back to the entity, and render it back to disk
+    // Add the existing photos back to the entity, and render it back to disk
+    Object.keys(indexToPhoto).map(index => {
+      entity.photos.push(indexToPhoto[index])
+    })
+    const input = Deno.readTextFileSync(change.path)
+    const output = dataset.writeEntityToDisk(entity)
+    if (input != output) {
+      updatedPatchPaths.push(change.path)
+      updatedPhotoCounts = updatedPhotoCounts + Object.keys(indexToPhoto).length
+    }
   }
+  console.log(
+    `[manage] author ${author}: restored ${updatedPhotoCounts} photos across ` +
+    `${updatedPatchPaths.length}/${patchPaths.length} changed files`
+  )
+  return updatedPatchPaths.length
 }
 
 /**
@@ -513,7 +535,8 @@ if (import.meta.main) {
       await buildDataset(true, true)   // ready to publish
       break
     case (typeof flags["restore-author"] === "string"): {
-      // restoreAuthorToLineage(flags["restore-author"], args[0])
+      if (await restoreAuthorToLineage(dataset, flags["restore-author"], args[0]) > 0)
+        await buildDataset(true, true)   // build and commit again if photos were restored
       break
     }
     case (flags["sort-all"] == true):

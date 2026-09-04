@@ -1,6 +1,8 @@
 import { IniMap } from '@std/ini/ini-map'
 import { basename } from '@std/path'
-import { Paths, entityFromFileName, existsFileSync } from './shared.ts'
+import { Paths,
+         entityTypeFromFileName,
+         existsFileSync } from './shared.ts'
 
 /** 
  * Classes for working with photos stored in the raw redpandafinder `ini`
@@ -61,6 +63,7 @@ export class PhotoEntry {
     return ingest
   }
   /** Process the raw line into all photo-specific metadata */
+  // TODO: simplify code / entity type decisions / ingest[type]
   #readUpdatedEntityId(raw: string) {
     const key = raw.slice(0, raw.indexOf(":"))
     const photoUri = raw.slice(key.length)
@@ -68,7 +71,7 @@ export class PhotoEntry {
     // Fallback to filename id number and path for the entity details, in case
     // we need to refer to some file that was moved in a previous commit
     if (!existsFileSync(this.filename)) {
-      this.entityType = entityFromFileName(this.filename)
+      this.entityType = entityTypeFromFileName(this.filename)
       // Take id from the filename, and eat the leading zeroes
       this.entityId = basename(this.filename).split("_")[0].replace(/^0+/, "")
       return
