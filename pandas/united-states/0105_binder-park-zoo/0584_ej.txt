@@ -19,5 +19,5 @@ location.3: 80, 2016/11/29
 location.4: 105, 2022/6/1
 species: 1
 studbook.id: 1324
-uncertinty: location.4 move date
+uncertainty: location.4 move date
 zoo: 105

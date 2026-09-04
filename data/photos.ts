@@ -18,10 +18,6 @@ import { Paths,
  * photo entities based on their locator ID (<entity_id>.photo.<photo_id>).
  * The UpdateFromCommits class uses a map of locator ID to photo, to make
  * accurate counts of new photos, new entities, and new contributors.
- * 
- * In the `manage.ts` `restoreAuthorToLineage` code, when restoring photos by a
- * particular author, this class is used but values are set one by one, from
- * patches between two files in git.
  */
 export interface PhotoEntry {
   authorName: string
