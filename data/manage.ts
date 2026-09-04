@@ -362,8 +362,9 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
   const updatedPatchPaths: string[] = []
   let updatedPhotoCounts = 0
   for (const change of dataPatches) {
+    console.log(change.path)
     // Read latest entity from disk, rather than from the dataset
-    const ingest = dataset.ingest(change.path, reviveNode) as GraphNode
+    const ingest = dataset.ingest(change.path, reviveNode)
     const type = Object.keys(ingest)[0] as NodeType
     const node = ingest[type] as GraphNode
     const entity = dataset.processNode(change.path, node, type)
@@ -419,7 +420,8 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
     })
     // Add the existing photos back to the entity, and render it back to disk
     Object.keys(indexToPhoto).map(index => {
-      entity.photos.push(indexToPhoto[index])
+      if (indexToPhoto[index].author == author)
+        entity.photos.push(indexToPhoto[index])
     })
     const input = Deno.readTextFileSync(change.path)
     const output = dataset.writeEntityToDisk(entity)
