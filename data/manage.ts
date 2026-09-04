@@ -374,7 +374,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
     const indexToPhoto: Record<string, PhotoAndPath> = {}
     change.hunks && change.hunks.forEach(hunk => {
       hunk.lines
-        .filter(line => line.type == "deleted")
+        .filter(line => ["context", "deleted"].includes(line.type))
         .map(line => line.content)
         .filter(raw => raw.match(/^photo\.\d+/))
         .map(raw => raw.trim())
@@ -421,7 +421,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
     })
     // Add the existing photos back to the entity, and render it back to disk
     Object.keys(indexToPhoto).map(index => {
-      if (indexToPhoto[index].author == author)
+      if (indexToPhoto[index].author == author && indexToPhoto[index].url != undefined)
         entity.photos.push(indexToPhoto[index])
     })
     const input = Deno.readTextFileSync(change.path)
