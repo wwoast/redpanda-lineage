@@ -427,7 +427,9 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
     const output = dataset.writeEntityToDisk(entity)
     if (input != output) {
       updatedPatchPaths.push(change.path)
-      updatedPhotoCounts = updatedPhotoCounts + Object.keys(indexToPhoto).length
+      const newPhotos = Object.keys(indexToPhoto)
+        .filter(index => indexToPhoto[index].author == author)
+      updatedPhotoCounts = updatedPhotoCounts + newPhotos.length
     }
   }
   console.log(
