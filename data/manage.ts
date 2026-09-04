@@ -362,7 +362,6 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
   const updatedPatchPaths: string[] = []
   let updatedPhotoCounts = 0
   for (const change of dataPatches) {
-    console.log(change.path)
     // Read latest entity from disk, rather than from the dataset
     const ingest = dataset.ingest(change.path, reviveNode)
     const type = Object.keys(ingest)[0] as NodeType
@@ -401,8 +400,10 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
               indexToPhoto[index].source = value
               break
             case "tags": {
-              if (entity.type == "media") {
-                indexToPhoto[index].locations = {}
+              if (key.split(".").length > 3) {
+                // media photos have location tags
+                if (indexToPhoto[index].locations == undefined)
+                  indexToPhoto[index].locations = {}
                 entity["panda.tags"].forEach((pandaId: string) => {
                   const field = `photo.${index}.tags.${pandaId}.location`
                   //@ts-ignore how to better guarantee this

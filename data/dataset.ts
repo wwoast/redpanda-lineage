@@ -1,4 +1,4 @@
-import { Git, Hunk } from '@roka/git'
+import { Git } from '@roka/git'
 import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
