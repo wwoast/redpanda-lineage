@@ -1,3 +1,4 @@
+import { IniMap } from '@std/ini/ini-map'
 import type { Vertex } from './dagoba.ts'
 
 export const firstCommit = "832f3469e61901ebf9a38a6c2da1f427cf64e188"
@@ -76,6 +77,14 @@ export function entityTypeFromFileName(filename: string): Exclude<NodeType, "non
     default:
       throw new Error(`[shared] not an entity file: ${filename}\n`)
   }
+}
+
+/** Read the `./contributions.conf` INI-format configuration file */
+export function readConfigForExternalSystems(): ExternalConfig {
+  const ini = new IniMap({assignment: ": "})
+  const input = Deno.readTextFileSync(Paths.contributions)
+  const config = ini.parse(input).toObject() as ExternalConfig
+  return config
 }
 
 /** 

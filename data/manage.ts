@@ -1,14 +1,13 @@
 import { Git, git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
-import { IniMap } from '@std/ini/ini-map'
 import { buildDataset,
          getDataset } from './build.ts'
 import { Dataset, Updates } from './dataset.ts'
 import { DataPaths,
-         Paths,
          byNumericLowest,
          existsFileSync,
          firstCommit,
+         readConfigForExternalSystems,
          reviveNode } from './shared.ts'
 
 /** 
@@ -90,10 +89,7 @@ function commitMessageForAuthor(
  */
 function deletePhotosFromServer(photoFilenames: string[]) {
   if (!photoFilenames || photoFilenames.length == 0) return   // no-op
-  const ini = new IniMap({assignment: ": "})
-  const input = Deno.readTextFileSync(Paths.contributions)
-  const config =
-    ini.parse(input).toObject() as Record<string, Record<string, string>>
+  const config = readConfigForExternalSystems()
   const server = config.submissions.image_hosting_server
   const imageFolder = config.submissions.image_hosting_server_folder
   const userAccount = config.submissions.image_hosting_user

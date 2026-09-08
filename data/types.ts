@@ -11,6 +11,9 @@ import type { Vertex } from './dagoba.ts'
  * the rest of this file work similarly to an ambient-types file.
  */
 declare global {
+  /** The `./contributions.conf` object after having been IniMap'ed */
+  type ExternalConfig = Record<string, Record<string, string>>
+
   enum SupportedLanguages {
     en,
     es,
