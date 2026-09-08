@@ -2,8 +2,7 @@ import { Git, git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from '@std/ini/ini-map'
 import { buildDataset,
-         importDataset,
-         isDatasetFresh } from './build.ts'
+         getDataset } from './build.ts'
 import { Dataset, Updates } from './dataset.ts'
 import { DataPaths,
          Paths,
@@ -15,7 +14,8 @@ import { DataPaths,
 /** 
  * Tools to manage photos and key ordering in the `.txt` INI-format files in
  * the _redpanda-lineage_ repository. Git and SSH CLIs are runtime dependencies
- * of this script.
+ * of this script. SSH uses settings from the root-directory's INI-format
+ * `contributions.conf` file.
  */
 
 const helpMessage = `
@@ -509,9 +509,8 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
  * `redpanda-lineage` project source code, where `deno.json` is found.
  */
 if (import.meta.main) {
-  // TODO: check CLI arguments with options that enforce data types
   const { _: args, ...flags } = parseArgs(Deno.args, {
-    boolean: ["deduplicate-photo-uris", "sort-all", "sort-updates"],
+    boolean: ["deduplicate-photo-uris", "help", "sort-all", "sort-updates"],
     string: ["remove-author", "remove-duplicate", "remove-photo", "restore-author"]
   })
   // If no arguments, don't try and build the dataset
@@ -520,12 +519,7 @@ if (import.meta.main) {
     Deno.exit(0)
   }
   // Either build a new dataset, or import an existing one
-  const fresh = await isDatasetFresh()
-  if (!fresh)
-    console.log(`[manage] graph is stale, so building`)
-  const dataset = (fresh == true)
-    ? importDataset()
-    : await buildDataset(false, false)
+  const dataset = await getDataset()
   /* 
    * Now we can assume `export/redpanda.json` exactly represents the underlying
    * data, and our other checks can make decisions about processing entirely on
@@ -538,7 +532,7 @@ if (import.meta.main) {
     case (flags["deduplicate-photo-uris"] == true):
       if (resolveDuplicatePhotoUris(dataset) > 0)
         await buildDataset(true, true)   // build and commit if the dataset changed
-      break
+      break      
     case (typeof flags["remove-author"] === "string"):
       if (await removeAuthorFromLineage(dataset, flags["remove-author"]) > 0)
         await buildDataset(true, true)   // build and commit again if photos were removed
@@ -567,6 +561,7 @@ if (import.meta.main) {
       if (await sortEntities(dataset, "updates") > 0)
         await buildDataset(true, true)   // ready to publish
       break
+    case (flags["help"] == true):
     default:
       console.log(helpMessage)
       Deno.exit(1)

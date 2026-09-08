@@ -13,7 +13,7 @@ import { DataPaths, Paths } from './shared.ts'
  * storing it inside the classes that use it.
  * 
  * @param metrics print the current count of pandas / zoos to the console
- * @param paths each object tracks the filename it represents
+ * @param commit also commit the newly built dataset to the repository
  * 
  * For publishing, you want `metrics` true and `paths` false, and for making
  * scripted dataset changes, you want `metrics` false and `paths` true.
@@ -40,6 +40,21 @@ export async function buildDataset(metrics: boolean, commit: boolean): Promise<D
   return dataset
 }
 
+/** Get the latest dataset. If it can't be imported, rebuild it first. */
+export async function getDataset() {
+  const state = await isDatasetFresh()
+  if (state == "stale")
+    console.log(`[build] graph is stale, so building`)
+  else if (state == "error")
+    console.log(`[build] problem with existing dataset, so rebuilding`)
+  else
+    console.log(`[build] imported graph is fresh`)
+  const dataset = (state == "fresh")
+    ? importDataset()
+    : await buildDataset(false, false)
+  return dataset
+}
+
 /** 
  * Read in an existing version of the `export/redpanda.json` dataset for doing
  * management tasks with. If the file paths aren't included in each vertex,
@@ -47,8 +62,6 @@ export async function buildDataset(metrics: boolean, commit: boolean): Promise<D
  */
 export function importDataset(): Dataset {
   const dataset = new Dataset().importJsonGraph()
-  // TODO: better freshness check based on commit
-  console.log(`[build] imported graph is fresh`)
   return dataset
 }
 
@@ -62,9 +75,10 @@ export function importDataset(): Dataset {
  * red panda data since the last commit. So determine if the dataset is _fresh_
  * or represents the current state of the underlying `.txt` files.
  * 
- * If any error happens here, assume the dataset should be rebuild
+ * If any error happens here, assume the dataset should be rebuilt.
  */
-export async function isDatasetFresh() {
+type DatasetState = "error" | "fresh" | "stale"
+export async function isDatasetFresh(): Promise<DatasetState> {
   try {
     const repo = git()
     const datasetCommitish = JSON.parse(Deno.readTextFileSync(Paths.output))._commit
@@ -76,10 +90,12 @@ export async function isDatasetFresh() {
     const buildNeeded = patches
       .map(change => change.path)
       .some(path => path.endsWith(".txt"))
-    return !buildNeeded
+    if (buildNeeded)
+      return "stale"
+    else
+      return "fresh"
   } catch(_err) {
-    console.log(`[build] problem with existing dataset, so rebuilding`)
-    return false
+    return "error"
   } 
 }
 
