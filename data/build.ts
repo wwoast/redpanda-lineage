@@ -5,6 +5,8 @@ import { DataPaths, Paths } from './shared.ts'
 /** 
  * Construct a new `export/redpanda.json` file, calculate updates for all
  * commits in the last week, and git-commit the new dataset to the repo.
+ * It is called from other tools, and is also individually callable by running
+ * `deno task build` from the root of the _redpanda_lineage_ folder.
  * 
  * The Git CLI is a runtime dependency of this script and it has locking, so
  * we create and pass around a singleton instance of the Git object instead of
@@ -15,9 +17,6 @@ import { DataPaths, Paths } from './shared.ts'
  * 
  * For publishing, you want `metrics` true and `paths` false, and for making
  * scripted dataset changes, you want `metrics` false and `paths` true.
- * 
- * TODO: if the dataset exists and no .txt file changes, but paths are false,
- * make this a no-op?
  */
 export async function buildDataset(metrics: boolean, commit: boolean): Promise<Dataset> {
   const repo = git()

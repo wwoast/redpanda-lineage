@@ -12,6 +12,12 @@ import { DataPaths,
          firstCommit,
          reviveNode } from './shared.ts'
 
+/** 
+ * Tools to manage photos and key ordering in the `.txt` INI-format files in
+ * the _redpanda-lineage_ repository. Git and SSH CLIs are runtime dependencies
+ * of this script.
+ */
+
 const helpMessage = `
 Usage:
   deno task manage <subcommand> [arguments]
