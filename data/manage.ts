@@ -421,14 +421,16 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
     })
     // Add the existing photos back to the entity, and render it back to disk
     Object.keys(indexToPhoto).map(index => {
-      if (indexToPhoto[index].commitdate == undefined) {
-        console.debug(`[manage] ${change.path}: photo ${index}: no commitdate, reset to today`)
-        const date = new Date()
-        indexToPhoto[index].commitdate =
-          `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
-      }
-      if (indexToPhoto[index].author == author && indexToPhoto[index].url != undefined)
+      if (indexToPhoto[index].author == author && indexToPhoto[index].url != undefined) {
+        // Corner case for restoring really old data
+        if (indexToPhoto[index].commitdate == undefined) {
+          console.debug(`[manage] ${change.path}: photo ${index}: no commitdate, reset to today`)
+          const date = new Date()
+          indexToPhoto[index].commitdate =
+            `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
+        }
         entity.photos.push(indexToPhoto[index])
+      }
     })
     const input = Deno.readTextFileSync(change.path)
     const output = dataset.writeEntityToDisk(entity)
