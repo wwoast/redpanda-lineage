@@ -1,8 +1,7 @@
 import { parseArgs } from '@std/cli/parse-args'
+import { join } from '@std/path'
 import { getDataset } from './build.ts'
-import { readConfigForExternalSystems } from './shared.ts'
-import { copy } from "@std/fs/copy";
-import { symlinkSync } from "@std/fs/unstable-symlink";
+import { existsDirSync, readConfigForExternalSystems } from './shared.ts'
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
@@ -43,7 +42,7 @@ function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
     `${user}@${server}:${reviewFolder}/*`,
     `${processingFolder}`
   ]
-  const rsyncCommand = new Deno.Command("/usr/bin/ssh", {
+  const rsyncCommand = new Deno.Command("/usr/bin/rsync", {
     "args": args,
     "stdout": "piped",
     "stderr": "piped"
@@ -57,19 +56,19 @@ function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
 function deleteEmptySubmissionDirs(config: ExternalConfig) {
   const processingFolder = config.submissions.processing_folder
   const contributions: string[] = []
-  /*
-      for _, submission in enumerate(os.listdir(processing_folder)):
-        submission_path = os.path.join(processing_folder, submission)
-        if not os.path.isdir(submission_path):
-            continue
-        if len(os.listdir(submission_path)) > 0:
-            contributions.append(submission_path)
-        else:
-            os.rmdir(submission_path)
-    if len(contributions) == 0:
-        print("No contributions to process.")
-        sys.exit(-1)
-  */
+  for (const entry of Deno.readDirSync(processingFolder)) {
+    const subPath = join(processingFolder, entry.name)
+    if (!existsDirSync(subPath))
+      continue
+    if (Array.from(Deno.readDirSync(subPath)).length > 0)
+      contributions.push(subPath)
+    else
+      Deno.removeSync(subPath)
+  }
+  if (contributions.length == 0) {
+    console.log('[submissions] No non-empty folders to process.')
+    Deno.exit(-1)
+  }
 }
 
 /** 
@@ -88,7 +87,7 @@ if (import.meta.main) {
     case (flags["local"] == false):
       // Pull remote data from the upstream server, and then continue through
       // to the default-use case of starting a photo-review workflow.
-      await copyReviewDataFromSubmissionsServer(config)
+      copyReviewDataFromSubmissionsServer(config)
     default:
       // Leverage the existing JSON for per-entity file path to ID mapping
       const dataset = await getDataset()
