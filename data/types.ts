@@ -534,4 +534,71 @@ declare global {
     /** The URL of the zoo's website */
     website: string
   }
+
+  /**
+   * Information about a panda not known to redpandafinder. Track which language
+   * the user submitted the data in, as well as any photos submitted.
+   *
+   * When writing the panda data to a JSON file on disk, we use the index number
+   * to guarantee there aren't collisions with previously added zoos or pandas.
+   */
+  type SubmittedPanda = {
+    author: string,
+    birthday: number,
+    gender: Gender,
+    index: number,
+    language: Language,
+    name: string,
+    notes: string | null
+    photo_locators: string[],
+    species: Species,
+    zoo: string | null
+  }
+
+  /** 
+   * Metadata per photo, for tracking provenance, and duplicates in the larger
+   * redpanda dataset. For photos of animals known to redpandafinder, the _id is
+   * a positive number. For photos of zoos known to redpandafinder, the _id is a
+   * negative number. Finally, for new animals or zoos, the _id is set to zero.
+   */
+  type SubmittedPhoto = {
+    _id: string,
+    author: string,
+    file_mtime: number,
+    file_name: string,
+    hash: string,
+    ig_locator: string | null,
+    index: number,
+    orientation: string | null,
+    tags: string[],
+    taken_date: number | null,
+  }
+
+  /**
+   * Information about a zoo not known to redpandafinder. Track which language
+   * the user submitted the data in, as well as any photos submitted. In RPF if
+   * you share your location data from the browser, the latitude and longitude
+   * info per zoo will show you which zoos with red pandas are nearby.
+   * 
+   * When writing the zoo data to a JSON file on disk, we use the index number
+   * to guarantee there aren't collisions with previously added zoos or pandas.
+   * 
+   * The folder parameter is here because the submissions forms and proper
+   * redpandafinder don't share any lookup tables. It's easier to just define
+   * the folder lookup here, and the Python ingest script will just use what
+   * we tell it to.
+   */
+  type SubmittedZoo = {
+    address: string | null,
+    author: string,
+    country: string,
+    folder: string,
+    index: number,
+    latitude: number,
+    language: Language,
+    longitude: number,
+    name: string,
+    photo_locators: string[],
+    website: string | null
+  }
 }

@@ -1,7 +1,10 @@
 import { parseArgs } from '@std/cli/parse-args'
-import { join } from '@std/path'
+import { basename, dirname, join } from '@std/path'
 import { getDataset } from './build.ts'
-import { existsDirSync, readConfigForExternalSystems } from './shared.ts'
+import { Dataset } from './dataset.ts'
+import { existsDirSync,
+         readConfigForExternalSystems,
+         readConfigFragment } from './shared.ts'
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
@@ -50,24 +53,99 @@ function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
   const runStatus = rsyncCommand.outputSync().code
   if (runStatus != 0)
     Deno.exit(runStatus)
-  deleteEmptySubmissionDirs(config)
-}
-
-function deleteEmptySubmissionDirs(config: ExternalConfig) {
-  const processingFolder = config.submissions.processing_folder
+  // Delete any empty folders copied from the server
   const contributions: string[] = []
-  for (const entry of Deno.readDirSync(processingFolder)) {
-    const subPath = join(processingFolder, entry.name)
-    if (!existsDirSync(subPath))
-      continue
-    if (Array.from(Deno.readDirSync(subPath)).length > 0)
-      contributions.push(subPath)
-    else
-      Deno.removeSync(subPath)
-  }
+  Deno.readDirSync(processingFolder)
+    .map(entry => join(processingFolder, entry.name))
+    .filter(subPath => existsDirSync(subPath))
+    .forEach(subPath => {
+      if (Array.from(Deno.readDirSync(subPath)).length > 0)
+        contributions.push(subPath)
+      else
+        Deno.removeSync(subPath)
+    })
+  // If we didn't find any content to add in the folders copied from the server
+  // then there's nothing left to do.
   if (contributions.length == 0) {
     console.log('[submissions] No non-empty folders to process.')
     Deno.exit(-1)
+  }
+}
+
+/** Return the relevant image locators in panda/zoo/photo metadata fragments */
+function getImageLocators(
+  entityPath: string,
+  entityType: "panda" | "photo" | "zoo"
+) {
+  const contributionPath = dirname(entityPath)
+  const entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as Record<string, any>
+  const locators = (entityType == "photo")
+    ? [entityPath.replace(".json", "")]
+    : entity.photo_locators.map(locator => join(contributionPath, locator))
+  const imageName = basename(entityPath).replace(".json", "")
+}
+
+function iterateThroughContributions(dataset: Dataset, config: ExternalConfig) {
+  const results = []
+  const processedPaths: string[] = []
+  const processingFolder = config.submissions.processing_folder
+  const contributions = Array.from(Deno.readDirSync(processingFolder))
+      .map(entry => join(processingFolder, entry.name))
+      .filter(subPath => existsDirSync(subPath))
+  contributions.forEach(subPath => {
+    Array.from(Deno.readDirSync(subPath))
+      .sort()
+      .map(entry => join(subPath, entry.name))
+      // TODO: need to process the pandas and zoos first?
+      .forEach(entityPath => {
+        let result
+        switch (true) {
+          case (entityPath.endsWith(".panda.json")):
+            result = processEntity(entityPath, "panda")
+            processedPaths.push(entityPath)
+            break
+          case (entityPath.endsWith(".zoo.json")):
+            result = processEntity(entityPath, "zoo")
+            processedPaths.push(entityPath)
+            break
+          case (entityPath.endsWith(".json") && (!processedPaths.includes(entityPath))):
+            result = processEntity(entityPath, "photo")
+            processedPaths.push(entityPath)
+            break
+        }
+        if (result && result.status == "keep")
+          results.append(result)
+      })
+  })
+  return results
+}
+
+/**
+ * Show a metadata file converted from json into configparser format, and look
+ * at a carousel of its resized images.
+ * 
+ * You have the option to interactively edit the metadata file before it is
+ * finalized into a Git commit, or delete the metadata prior to the commit.
+ * 
+ * Return an object with the decision, the metadata path, and a list of paths
+ * to the resized-in-place photos.
+ */
+type ProcessedEntity = {
+  config: string,
+  photos: string[],
+  status: "keep" | "remove"
+}
+function processEntity(
+  entityPath: string,
+  entityType: "panda" | "zoo" | "photo"
+): ProcessedEntity {
+  try {
+    const configPath = entityPath.replace(".json", ".txt")
+    const entity = readConfigFragment(configPath, entityType)
+    const photoPaths = getImageLocators(configPath, entity)
+    // TODO
+  } catch(err) {
+    console.log(`[submissions] error reading ${entityPath}`)
   }
 }
 
@@ -91,7 +169,6 @@ if (import.meta.main) {
     default:
       // Leverage the existing JSON for per-entity file path to ID mapping
       const dataset = await getDataset()
-      const processingFolder = config.submissions.processing_folder
       // TODO: iterate_through_contributions
       // TODO: copy_images_to_server
       // TODO: create_submissions_branch

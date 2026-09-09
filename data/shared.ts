@@ -87,6 +87,14 @@ export function readConfigForExternalSystems(): ExternalConfig {
   return config
 }
 
+/** Read a fragment of configuration intended for adding to the dataset */
+export function readConfigFragment(path: string, section: string) {
+  const ini = new IniMap({assignment: ": "})
+  const input = Deno.readTextFileSync(path)
+  const config = ini.parse(input).toObject()
+  return config[section]
+}
+
 /** 
  * Where to import or export red panda data from, relative to the location that
  * deno tasks run from. All deno tasks run relative to where `deno.json` is
