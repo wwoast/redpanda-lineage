@@ -3,6 +3,7 @@
     "types": ["./data/types.d.ts"]
   },
   "imports": {
+    "sharp": "npm:sharp@^0.35.4",
     "@roka/git": "jsr:@roka/git@^0.4.0",
     "@std/cli": "jsr:@std/cli@^1.0.32",
     "@std/fs": "jsr:@std/fs@^1.0.24",

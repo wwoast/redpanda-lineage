@@ -552,6 +552,7 @@ declare global {
     notes: string | null
     photo_locators: string[],
     species: Species,
+    type: "panda",
     zoo: string | null
   }
 
@@ -572,6 +573,7 @@ declare global {
     orientation: string | null,
     tags: string[],
     taken_date: number | null,
+    type: "photo"
   }
 
   /**
@@ -599,6 +601,7 @@ declare global {
     longitude: number,
     name: string,
     photo_locators: string[],
+    type: "zoo",
     website: string | null
   }
 }

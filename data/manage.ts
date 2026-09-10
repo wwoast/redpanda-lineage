@@ -5,6 +5,7 @@ import { buildDataset,
 import { Dataset, Updates } from './dataset.ts'
 import { DataPaths,
          byNumericLowest,
+         currentDate,
          existsFileSync,
          firstCommit,
          readConfigForExternalSystems,
@@ -427,9 +428,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
         // Corner case for restoring really old data
         if (indexToPhoto[index].commitdate == undefined) {
           console.debug(`[manage] ${change.path}: photo ${index}: no commitdate, reset to today`)
-          const date = new Date()
-          indexToPhoto[index].commitdate =
-            `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
+          indexToPhoto[index].commitdate = currentDate()
         }
         entity.photos.push(indexToPhoto[index])
       }

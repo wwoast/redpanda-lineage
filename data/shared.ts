@@ -95,6 +95,16 @@ export function readConfigFragment(path: string, section: string) {
   return config[section]
 }
 
+/** YYYY/MM/DD is the standard date format in redpandafinder */
+export function standardDate(input?: any) {
+  let date = (input)
+    ? new Date(input)
+    : new Date()
+  if (date.toString() == "Invalid Date")
+    date = new Date()
+  return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`
+}
+
 /** 
  * Where to import or export red panda data from, relative to the location that
  * deno tasks run from. All deno tasks run relative to where `deno.json` is
