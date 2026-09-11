@@ -1,6 +1,6 @@
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from "@std/ini/ini-map"
-import { dirname, join } from '@std/path'
+import { basename, dirname, join } from '@std/path'
 import { sharp } from 'sharp'
 import { getDataset } from './build.ts'
 import { Dataset } from './dataset.ts'
@@ -9,6 +9,7 @@ import { byFieldName,
          existsFileSync,
          readConfigForExternalSystems, 
          standardDate} from './shared.ts'
+         import { git } from "@roka/git";
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
@@ -188,6 +189,26 @@ function convertJsonToZoo(
   return {...output, ...photos}
 }
 
+/** After photos are processed / reoriented / resized, put them online */
+function copyImagesToServer(config: ExternalConfig, results: ProcessedEntity[]) {
+  const photoPaths = results.flatMap(result => result.photos)
+  const server = config.submissions.image_hosting_server
+  const destinationFolder = config.submissions.image_hosting_server_folder
+  const user = config.submissions.image_hosting_user
+  const args = photoPaths.concat([
+    `${user}@${server}:${destinationFolder}`
+  ])
+  const scpCommand = new Deno.Command("/usr/bin/scp", {
+    args: args,
+    stdout: "piped",
+    stderr: "piped" 
+  })
+  console.log("[submissions] Copying images to image server...\n")
+  const runStatus = scpCommand.outputSync().code
+  if (runStatus != 0)
+    Deno.exit(runStatus)
+}
+
 /** Use `rsync` to fetch data from the _redpanda-submission_ server */
 function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
   const processingFolder = config.submissions.processing_folder
@@ -201,9 +222,9 @@ function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
     `${processingFolder}`
   ]
   const rsyncCommand = new Deno.Command("/usr/bin/rsync", {
-    "args": args,
-    "stdout": "piped",
-    "stderr": "piped"
+    args: args,
+    stdout: "piped",
+    stderr: "piped"
   })
   const runStatus = rsyncCommand.outputSync().code
   if (runStatus != 0)
@@ -227,12 +248,43 @@ function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
   }
 }
 
+/** Merge all submissions data into files on a new repo branch */
+async function createSubmissionsBranch(results: ProcessedEntity[]) {
+  const messages: string[] = [] 
+  const repo = git()
+  try {
+    const currentTime = new Date().getTime()
+    let branch = await repo.branch.current()
+    if (branch.name == "master") {
+      const newBranchName = `submissions-${currentTime}`
+      branch = await repo.branch.create(newBranchName, {target: "HEAD"})
+      console.log(`[submissions] starting new branch from master: ${newBranchName}`)
+    }
+    const messages: string[] = []
+    const changed = new Set<string>()
+    results.forEach(result => {
+      const merge = mergeConfiguration(result)
+      if (merge) {
+        const message = `+${merge.locator}: ${basename(merge.config)}`
+        messages.push(message)
+        changed.add(merge.config)
+      }
+    })
+    // Any changed files get added to the commit
+    changed.forEach(path => repo.index.add(path))
+  } finally {
+    const commitMessage = messages.join("\n")
+    await repo.commit.create({all: true, subject: commitMessage})
+  }
+}
+
+/** Open an image viewer and display in a carousel, all photo paths given */
 function displayImages(photoPaths: string[]) {
   const fehCommand = new Deno.Command("/usr/bin/feh", {
-    "args": photoPaths,
-    "stdin": "null",
-    "stdout": "null",
-    "stderr": "null"
+    args: photoPaths,
+    stdin: "null",
+    stdout: "null",
+    stderr: "null"
   })
   const childProcess = fehCommand.spawn()
   // Let Deno exit without waiting for the image viewer to close
@@ -252,45 +304,49 @@ function getImageLocators(
   return photoPaths
 }
 
-function iterateThroughContributions(dataset: Dataset, config: ExternalConfig) {
-  const results = []
+async function iterateThroughContributions(dataset: Dataset, config: ExternalConfig) {
+  const results: ProcessedEntity[] = []
   const processedPaths: string[] = []
   const processingFolder = config.submissions.processing_folder
   const contributions = Array.from(Deno.readDirSync(processingFolder))
       .map(entry => join(processingFolder, entry.name))
       .filter(subPath => existsDirSync(subPath))
-  contributions.forEach(subPath => {
+  await Promise.all(contributions.map(subPath => {
     Array.from(Deno.readDirSync(subPath))
       .sort()
       .map(entry => join(subPath, entry.name))
       // TODO: need to process the pandas and zoos first?
-      .forEach(entityPath => {
+      .map(async (entityPath) => {
         let entityJson, result
         switch (true) {
           case (entityPath.endsWith(".panda.json")):
             entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedPanda
             entityJson.type = "panda"
-            result = processEntity(dataset, entityPath, entityJson)
+            result = await processEntity(dataset, entityPath, entityJson)
             processedPaths.push(entityPath)
             break
           case (entityPath.endsWith(".zoo.json")):
             entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedZoo
             entityJson.type = "zoo"
-            result = processEntity(dataset, entityPath, entityJson)
+            result = await processEntity(dataset, entityPath, entityJson)
             processedPaths.push(entityPath)
             break
           case (entityPath.endsWith(".json") && (!processedPaths.includes(entityPath))):
             entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedPhoto
             entityJson.type = "photo"
-            result = processEntity(dataset, entityPath, entityJson)
+            result = await processEntity(dataset, entityPath, entityJson)
             processedPaths.push(entityPath)
             break
         }
         if (result && result.status == "keep")
-          results.append(result)
+          results.push(result)
       })
-  })
+  }))
   return results
+}
+
+function mergeConfiguration() {
+  // TODO
 }
 
 /** See the snippet of the config fragment for the given panda/photo/zoo */
@@ -367,6 +423,7 @@ async function processEntity(
       "status": "remove"
     }
   } else {
+    // Open vim to the point where you would add new tags to a photo
     const editorCommand = new Deno.Command("/usr/bin/vim", {
       args: ["+call cursor(8, 1000)", configPath],
       stdin: "inherit",
@@ -458,9 +515,8 @@ if (import.meta.main) {
     default:
       // Leverage the existing JSON for per-entity file path to ID mapping
       const dataset = await getDataset()
-      iterateThroughContributions(dataset, config)
-      // TODO: iterate_through_contributions
-      // TODO: copy_images_to_server
+      const results = await iterateThroughContributions(dataset, config)
+      copyImagesToServer(config, results)
       // TODO: create_submissions_branch
       // TODO: sort_image_updates from manage.ts
       // TODO: migrate_submissions_to_submitted
