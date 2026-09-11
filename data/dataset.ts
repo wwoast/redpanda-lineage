@@ -610,6 +610,18 @@ export class Dataset {
   }
 
   /** 
+   * Use the dataset's ini-mapper to get an entity directly from the underlying
+   * file on disk. The result is in the vertex format of the graph database,
+   * not the key-value format of the underlying INI-formatted `.txt file.
+   */
+  getEntityFromDisk = (path: string) => {
+    const ingest = this.ingest(path, reviveNode)
+    const type = Object.keys(ingest)[0] as NodeType
+    const node = ingest[type] as GraphNode
+    return this.processNode(path, node, type)
+  }
+
+  /** 
    * Alternate constructor. Import from an existing graph located at
    * `export/redpanda.json`
    */

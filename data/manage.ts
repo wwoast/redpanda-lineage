@@ -201,10 +201,7 @@ function removePhotosFromEntity(
   .sort((a: number, b: number) => b - a)   // Highest to lowest
   // Open the file with an ini mapper. The section is the file type, and the _id
   // value is going to be the value in the graph (times -1 if a zoo).
-  const ingest = dataset.ingest(path, reviveNode)
-  const type = Object.keys(ingest)[0] as NodeType
-  const node = ingest[type] as GraphNode
-  const entity = dataset.processNode(path, node, type)
+  const entity = dataset.getEntityFromDisk(path)
   if (!("photos" in entity))
     throw new Error(`[manage] ERR: ${path}: no photos to remove`)
   // Remove photos by index if they are present in the photos list
@@ -366,10 +363,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
   let updatedPhotoCounts = 0
   for (const change of dataPatches) {
     // Read latest entity from disk, rather than from the dataset
-    const ingest = dataset.ingest(change.path, reviveNode)
-    const type = Object.keys(ingest)[0] as NodeType
-    const node = ingest[type] as GraphNode
-    const entity = dataset.processNode(change.path, node, type)
+    const entity = dataset.getEntityFromDisk(change.path)
     // Hunks are just changed text between the start and end commit. Hunks may
     // not map to a specific photo, so process the hunks into per-photo objects
     // that (with minor enrichment from the dataset) can be turned into
@@ -409,7 +403,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
                   indexToPhoto[index].locations = {}
                 entity["panda.tags"].forEach((pandaId: string) => {
                   const field = `photo.${index}.tags.${pandaId}.location`
-                  //@ts-ignore how to better guarantee this
+                  //@ts-ignore how to better guarantee this?
                   const coordinates = value.split(", ") as [number, number]
                   if (key == field)
                     indexToPhoto[index].locations[pandaId] = coordinates
@@ -479,10 +473,7 @@ async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<
   pathsUpdated.forEach(path => {
     // Open the file with an ini mapper. The section is the file type, and the
     // _id value is going to be the value in the graph (times -1 if a zoo).
-    const ingest = dataset.ingest(path, reviveNode)
-    const type = Object.keys(ingest)[0] as NodeType
-    const node = ingest[type] as GraphNode
-    const entity = dataset.processNode(path, node, type)
+    const entity = dataset.getEntityFromDisk(path)
     // Take the updated entity and put it back on disk
     const input = Deno.readTextFileSync(path)
     const output = dataset.writeEntityToDisk(entity)

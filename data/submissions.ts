@@ -345,7 +345,8 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
   return results
 }
 
-function mergeConfiguration() {
+/** Take a config fragment, and merge any updated facets into the dataset files. */
+function mergeConfiguration(result: ProcessedEntity) {
   // TODO
 }
 
