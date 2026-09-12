@@ -18,6 +18,7 @@ import { DataPaths,
          toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
+         import P from "../js/pandas.js";
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -613,11 +614,18 @@ export class Dataset {
    * Use the dataset's ini-mapper to get an entity directly from the underlying
    * file on disk. The result is in the vertex format of the graph database,
    * not the key-value format of the underlying INI-formatted `.txt file.
+   * 
+   * This is useful not only for reading in "source of truth" configuration
+   * files that are part of the dataset, but also for configuration fragments
+   * you intend to merge into those dataset files.
    */
   getEntityFromDisk = (path: string) => {
+    // Get the INI-file contents as a Javascript object 
     const ingest = this.ingest(path, reviveNode)
+    // The type key is the [section] header of the INI file
     const type = Object.keys(ingest)[0] as NodeType
     const node = ingest[type] as GraphNode
+    // Turn the INI-file object to the idiomatic JSON in `redpanda.json`
     return this.processNode(path, node, type)
   }
 
@@ -808,6 +816,10 @@ export class Dataset {
    * vertexes of the redpandafinder Dagoba graph. These `GraphNode` objects are
    * intended to be easy to enforce type constraints on, infer properties of,
    * and automatically validate.
+   * 
+   * It does things like turn `en.name` and `ja.name` key-value entries, into a
+   * `name[language]` object, or a large list of `photo.1` and `photo.2`
+   * key-value properties, into an array of `Photo` objects.
    */
   processNode = (
     path: string,
@@ -830,6 +842,9 @@ export class Dataset {
         this.processNodeLocations(vertex)
         this.assertYoungPandaLocation(vertex)
         this.canonicalizeGender(vertex)
+        break
+      case "photo":
+        this.processNodePhotos(vertex)
         break
       case "wild":
         this.processNodePhotos(vertex)
@@ -969,7 +984,7 @@ export class Dataset {
    * author fields are URLs and not straight strings, and throws if the
    * commitdate is not valid.
    */
-  processNodePhotos = (vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) => {
+  processNodePhotos = (vertex: NodeMedia | NodePanda | NodePhoto | NodeWild | NodeZoo) => {
     vertex.photos = []
     // Iterate on just the `photo.X:` fields
     Object.keys(vertex).filter(key => key.match(/photo\.\d+$/)).forEach(photoKey => {
@@ -1005,6 +1020,10 @@ export class Dataset {
         if (vertex["panda.tags"].length > this.rpf.photos.group)
           this.rpf.photos.group = vertex["panda.tags"].length
       }
+      // TODO: do similar logic for Photo vertexes of media photos where coordinates
+      // should be identified. This also requires a better workflow than viewing the
+      // candiate images in `feh`, something where I can get image coordinates from
+      // the mouse cursor.
       vertex.photos.push(photo)
     })
     if (vertex.photos.length > this.rpf.photos.max)

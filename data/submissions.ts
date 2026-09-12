@@ -134,14 +134,8 @@ function convertJsonToPhoto(
       return   // continue
     // If photo is based on an ig_locator that already exists in this dataset,
     // merge the existing commitdate and tag information.
-    const datasetEntity = dataset.graph.vertices
-      .filter(vertex => vertex._id == entityJson._id)
-      .shift()
-    const originalPhoto = (datasetEntity && entityJson.ig_locator != null)
-      ? datasetEntity.photos
-        .filter((photo: Photo) => photo.url.endsWith(entityJson.ig_locator as string))
-        .shift()
-      : undefined
+    const originalPhoto =
+      findInstagramLocator(dataset, entityJson._id, entityJson.ig_locator)
     if (originalPhoto) {
       output[`photo.${naturalIndex}.commitdate`] = originalPhoto.commitdate
       output[`photo.${naturalIndex}.tags`] =
@@ -249,7 +243,7 @@ function copyReviewDataFromSubmissionsServer(config: ExternalConfig) {
 }
 
 /** Merge all submissions data into files on a new repo branch */
-async function createSubmissionsBranch(results: ProcessedEntity[]) {
+async function createSubmissionsBranch(dataset: Dataset, results: ProcessedEntity[]) {
   const messages: string[] = [] 
   const repo = git()
   try {
@@ -263,7 +257,7 @@ async function createSubmissionsBranch(results: ProcessedEntity[]) {
     const messages: string[] = []
     const changed = new Set<string>()
     results.forEach(result => {
-      const merge = mergeConfiguration(result)
+      const merge = mergeConfiguration(dataset, result)
       if (merge) {
         const message = `+${merge.locator}: ${basename(merge.config)}`
         messages.push(message)
@@ -290,6 +284,21 @@ function displayImages(photoPaths: string[]) {
   // Let Deno exit without waiting for the image viewer to close
   childProcess.unref()
   return childProcess
+}
+
+/** Get the vertex photo matching the given Instagram locator, if it exists */
+function findInstagramLocator(dataset: Dataset, id: number | string, locator?: string) {
+  if (!locator)
+    return
+  const datasetEntity = dataset.graph.vertices
+    .filter(vertex => vertex._id == id)
+    .shift()
+  if (!datasetEntity || (!("photos" in datasetEntity)))
+    return
+  const originalPhoto = (datasetEntity.photos as Photo[])
+    .filter(photo => photo.url.endsWith(locator as string))
+    .shift()
+  return originalPhoto
 }
 
 /** Return relevant image locators in panda/zoo/photo submitted fragments */
@@ -345,9 +354,54 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
   return results
 }
 
-/** Take a config fragment, and merge any updated facets into the dataset files. */
-function mergeConfiguration(result: ProcessedEntity) {
-  // TODO
+/** 
+ * Take a config fragment, and merge any updated facets into the dataset
+ * files. Leverage the combination of _dataset_ (all entities in JSON
+ * format) and the dataset object's INI-mapper, to merge two bits of
+ * configuration together, prior to spitting out a merged dataset file.
+ */
+function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
+  const fragment = dataset.getEntityFromDisk(result.config)
+  switch(fragment.type) {
+    // TODO: Any panda configuration fragments shouldn't exist yet in the dataset,
+    // so this is less a merging, and more a "put the file where it should go"
+    // operation.
+    case "panda":
+      break
+    case "photo": {
+      const matchingVertex = dataset.graph.vertices
+        .filter(vertex => vertex._id == fragment._id)
+        .shift() as GraphNode
+      // Photo fragments must apply only to entities that already exist
+      if (!matchingVertex)
+        return
+      const matchingPhoto =
+        findInstagramLocator(dataset, fragment._id, fragment._ig_locator)
+      if (matchingPhoto) {
+        // Union-set the tags and clobber most photo properties, but keep commitdate
+        matchingPhoto.author = fragment.photo.author
+        matchingPhoto.source = fragment.photo.source
+        matchingPhoto.tags =
+          Array.from(new Set([...fragment.photo.tags, ...matchingPhoto.tags])).sort()
+        matchingPhoto.url = fragment.photo.url
+      } else {
+        matchingVertex.photos.push(fragment.photo)
+      }
+      // Render the modified entity back to disk
+      dataset.writeEntityToDisk(matchingVertex)
+      return {
+        "config": matchingVertex.path,
+        "locator": fragment.photo.url,
+        "type": "photo"
+      }
+    }
+    // TODO: Any panda configuration fragments shouldn't exist yet in the dataset,
+    // so this is less a merging, and more a "put the file where it should go"
+    // operation.
+    case "zoo":
+      break
+  }
+
 }
 
 /** See the snippet of the config fragment for the given panda/photo/zoo */
@@ -357,21 +411,23 @@ function printConfigFragmentContents(configPath: string) {
   console.log(`${configPath}\n${horizontalRule}\n${configOutput}\n`)
 }
 
+type ProcessedEntity = {
+  config: string,
+  photos: string[],
+  status: "keep" | "remove"
+}
 /**
  * Show a metadata file converted from json into configparser format, and look
  * at a carousel of its resized images.
  * 
  * You have the option to interactively edit the metadata file before it is
  * finalized into a Git commit, or delete the metadata prior to the commit.
+ * As is standard for _redpanda-lineage_, any interface for editing data looks
+ * like the raw INI-format `.txt` database files.
  * 
  * Return an object with the decision, the metadata path, and a list of paths
  * to the resized-in-place photos.
  */
-type ProcessedEntity = {
-  config: string,
-  photos: string[],
-  status: "keep" | "remove"
-}
 async function processEntity(
   dataset: Dataset,
   entityPath: string,
@@ -518,7 +574,7 @@ if (import.meta.main) {
       const dataset = await getDataset()
       const results = await iterateThroughContributions(dataset, config)
       copyImagesToServer(config, results)
-      // TODO: create_submissions_branch
+      createSubmissionsBranch(dataset, results)
       // TODO: sort_image_updates from manage.ts
       // TODO: migrate_submissions_to_submitted
       console.log("Please merge submissions to master when ready.")

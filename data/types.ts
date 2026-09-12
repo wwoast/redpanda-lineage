@@ -40,17 +40,21 @@ declare global {
    */
   type Species = "-1" | "1" | "2"
 
-  /** All pandas may have a single primary name, in each supported language */
-  type NameByLanguage = {
-    [L in Language]?: string;
+  /** 
+   * All pandas record a single primary name per langage. Zoos record their
+   * street address, and their general city/state/province/country summary,
+   * in each supported language
+   */
+  type StringPerLanguage = {
+    [L in Language]?: string
   }
 
   /** 
    * Nicknames, othernames, or oldnames for pandas or zoos, in each of our
    * supported languages
    */
-  type NameListByLanguage = {
-    [L in Language]?: string[];
+  type StringListByLanguage = {
+    [L in Language]?: string[]
   }
 
   /** 
@@ -145,8 +149,12 @@ declare global {
    * no children, or no litter mates. This lets us treat any non-unknown value
    * in "children" as an edge in the graph. Otherwise, when doing serde back
    * and forth from JSON, we can't tell "none" values from "unknown" ones
+   * 
+   * The `photo` type is also a special vertex. It should never appear in the
+   * dataset itself, but it does represent a configuration fragment for a photo
+   * intended for merging into one of the other vertex types.
    */
-  type NodeType = "links" | "media" | "none" | "panda" | "wild" | "zoo"
+  type NodeType = "links" | "media" | "none" | "panda" | "photo" | "wild" | "zoo"
 
   /** 
    * The typescript representation of the text contents of
@@ -237,17 +245,17 @@ declare global {
      * In this case, we try and use the primary name people in each language
      * community would know the animal by.
      */
-    name: NameByLanguage,
+    name: StringPerLanguage,
     /** 
      * Cute nicknames that fans might know this animal by. You cannot search for
      * these names in the redpandafinder search form.
      */
-    nicknames: NameListByLanguage,
+    nicknames: StringListByLanguage,
     /**
      * Previous names, or commonly used names for this panda. These _are_
      * searchable in the redpandafinder search form.
      */
-    othernames: NameListByLanguage,
+    othernames: StringListByLanguage,
     /** A panda likely has some set of photos and attributions */
     photos: Photo[],
     /** 
@@ -256,7 +264,7 @@ declare global {
      * it in the event data ingestion is better automated at some point.
      */
     studbookId: string,
-    /** 
+    /**
      * A type discriminator so that we can reason about whether this is an
      * entity that represents a panda living in a zoo, a zoo, or a wild-seen
      * location. This corresponds to an .ini file's first `[header]` line.
@@ -274,10 +282,24 @@ declare global {
     zoo?: string
   }
 
-  /** All zoos record their street address, and their general
-   * city/state/province/country summary, in each supported language */
-  type StringPerLanguage = {
-    [L in Language]?: string;
+  /**
+   * The typescript representation of a configuration fragment from the
+   * _redpanda-submission_ server for a single photo upload, converted into a
+   * form intended for merging into an existing media, panda, or zoo node.
+   */
+  interface NodePhoto extends Vertex {
+    /** Fixed identifier for either a media, a panda, or a zoo node */
+    _id: number | string,
+    /** Optional Instagram locator this photo represents */
+    _ig_locator?: string,
+    /** The single photo contributed by this fragment */
+    photo: Photo,
+    /**
+     * For code that processes different types of nodes, we use the type
+     * discriminator to ensure the rest of the input node conforms to the
+     * particular Node type.
+     */
+    type: "photo"
   }
 
   /**
@@ -304,7 +326,7 @@ declare global {
     /** A stub location to match what similar zoo location strings look like */
     location: StringPerLanguage,
     /** Each wild sighting location has a single primary name per language */
-    name: NameByLanguage,
+    name: StringPerLanguage,
     /** 
      * A type discriminator so that we can reason about whether this is an
      * entity that represents a panda living in a zoo, a zoo, or a wild-seen
@@ -367,12 +389,12 @@ declare global {
     /** URL representing this zoo in Google Maps */
     map: string,
     /** Each zoo has a single primary name per supported language */
-    name: NameByLanguage,
+    name: StringPerLanguage,
     /**
      * Previous names, or commonly used names for this zoo. These _are_
      * searchable in the redpandafinder search form.
      */
-    othernames: NameListByLanguage,
+    othernames: StringListByLanguage,
     /** A zoo likely has some set of photos and attributions */
     photos: Photo[],
     /** 
@@ -385,7 +407,7 @@ declare global {
     website: string,
   }
 
-  type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodeWild | NodeZoo
+  type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo
 
   /** 
    * For displaying a photo, collect information from the node and present it
