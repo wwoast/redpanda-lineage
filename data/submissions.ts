@@ -117,10 +117,10 @@ function convertJsonToPhoto(
   entityJson: SubmittedPanda | SubmittedPhoto | SubmittedZoo
 ) {
   const locators = (entityJson.type != "photo")
-    ? entityJson.photo_locators 
+    ? entityJson.photo_locators
     : [configPath.replace(".txt", "")]
   const guessLink = (entityJson.type != "photo")
-    ? `ig://${entityJson.author}`
+    ? `https://www.instagram.com/${entityJson.author}`
     : `ig://${entityJson.ig_locator}`
   const output: Record<string, any> = {}
   locators.forEach((locator: string, index: number) => {
@@ -355,6 +355,12 @@ function getNewIdWithLeadingZeroes(dataset: Dataset, type: "panda" | "zoo") {
   return (newEntityId + 1).toString().padStart(4, '0')
 }
 
+/** 
+ * Process any panda, zoo, or photo JSON object coming from the
+ * _redpanda-submissions_ server, into INI-formatted `.txt` config fragments,
+ * intended for later manual touch-up and merging into the _redpanda-lineage_
+ * database.
+ */
 async function iterateThroughContributions(dataset: Dataset, config: ExternalConfig) {
   const results: ProcessedEntity[] = []
   const processedPaths: string[] = []
@@ -462,7 +468,19 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
       }
     }
   }
+}
 
+function migrateSubmissionsToProcessed(config: ExternalConfig) {
+  const submissionsFolder = config.submissions.processing_folder
+  const processedFolder = config.submissions.processed_folder
+  // All content inside the submissions folder should be themselves folders
+  // with unique IDs in the names.
+  Deno.readDirSync(submissionsFolder)
+    .map(entry => join(submissionsFolder, entry.name))
+    .forEach(submissionPath => {
+      const processedPath = submissionPath.replace(submissionsFolder, processedFolder)
+      Deno.renameSync(submissionPath, processedPath)
+    })
 }
 
 /** See the snippet of the config fragment for the given panda/photo/zoo */
@@ -615,7 +633,7 @@ async function resizeAndRotateImage(
 
 /** 
  * `deno task` runs this script relative from the root of the
- * `redpanda-lineage` project source code, where `deno.json` is found.
+ * _redpanda-lineage_ project source code, where `deno.json` is found.
  */
 if (import.meta.main) {
   const { _: args, ...flags } = parseArgs(Deno.args, {
@@ -639,7 +657,8 @@ if (import.meta.main) {
       await createSubmissionsBranch(dataset, results)
       // Make sure all added content has been correctly sorted
       await sortEntities(dataset, "updates")
-      // TODO: migrate_submissions_to_submitted
+      // Migrate all submissions to the processed/ folder
+      migrateSubmissionsToProcessed(config)
       console.log("Please merge submissions to master when ready.")
   }
 }
