@@ -451,7 +451,7 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
  * build the dataset every time the manage tools are run, so you can't rely on
  * `dataset.commit` for anything other than freshness of the dataset.
  */
-async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<number> {
+export async function sortEntities(dataset: Dataset, mode: "all" | "updates"): Promise<number> {
   const repo = git()
   const currentCommit = await repo.commit.get("HEAD")
   const previousCommit = (mode == "all")

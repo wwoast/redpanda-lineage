@@ -283,6 +283,15 @@ declare global {
   }
 
   /**
+   * Panda configuration fragments contain some temporary values that get
+   * rewritten when the NodePanda vertex is written to disk.
+   */
+  interface FragmentPanda extends NodePanda {
+    /** Free-form instructions from the submitter to RPFS about this panda */
+    _notes: string
+  }
+
+  /**
    * The typescript representation of a configuration fragment from the
    * _redpanda-submission_ server for a single photo upload, converted into a
    * form intended for merging into an existing media, panda, or zoo node.
@@ -405,6 +414,28 @@ declare global {
     type: "zoo",
     /** URL to the website for this zoo */
     website: string,
+  }
+
+  /**
+   * Zoo configuration fragments contain some temporary values that get
+   * rewritten when the NodeZoo vertex is written to disk.
+   */
+  interface FragmentZoo extends NodeZoo {
+    /**
+     * A field that appears in fragments that will become Zoo Vertexes, a string
+     * that represents the filename a new zoo entry will get in the database.
+     */
+    _zoofilename: string,
+    /** 
+     * The subfolder under `zoos/` which a new Zoo Entity will be written to,
+     * which are all lowercase.
+     */
+    "country.folder": string,
+    /** 
+     * The name of the country which this zoo is at, which becomes the `flag`
+     * value in the final zoo entity.
+     */
+    "country.name": string
   }
 
   type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo

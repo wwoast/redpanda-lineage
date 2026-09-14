@@ -1,15 +1,16 @@
+import { git } from "@roka/git";
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from "@std/ini/ini-map"
-import { basename, dirname, join } from '@std/path'
+import { basename, dirname, join, parse } from '@std/path'
 import { sharp } from 'sharp'
 import { getDataset } from './build.ts'
 import { Dataset } from './dataset.ts'
+import { sortEntities } from './manage.ts'
 import { byFieldName,
          existsDirSync,
          existsFileSync,
          readConfigForExternalSystems, 
          standardDate} from './shared.ts'
-         import { git } from "@roka/git";
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
@@ -313,6 +314,47 @@ function getImageLocators(
   return photoPaths
 }
 
+/** For new pandas added to _redpanda-lineage_, write to this file path */
+function getLocationPathForNewPanda(dataset: Dataset, panda: NodePanda) {
+  const locationLookupId = (panda.zoo)
+    ? parseInt(panda.zoo) * -1
+    : panda.wild
+  const locationEntity = dataset.graph.vertices
+    .filter(vertex => vertex._id == locationLookupId)
+    .shift()
+  if (!locationEntity)
+    throw new Error(
+      `[submissions] ${panda._id} ${panda.name["en"]}: ` +
+      `location ${locationLookupId} not found`
+    )
+  const [ _, countryName, fileName] = locationEntity.path.split("/")
+  const fileId = getNewIdWithLeadingZeroes(dataset, "panda")
+  const zooFoldername = parse(fileName).name
+  const pandaName = panda.name["en"]?.toLowerCase()
+  return `pandas/${countryName}/${zooFoldername}/${fileId}_${pandaName}.txt`
+}
+
+/** For new zoos added to _redpanda-lineage_, write to this file path */
+function getLocationPathForNewZoo(dataset: Dataset, zoo: FragmentZoo) {
+  const fileId = getNewIdWithLeadingZeroes(dataset, "zoo")
+  return `zoos/${zoo["country.folder"]}/${fileId}_${zoo["_zoofilename"]}.txt`
+}
+
+/** 
+ * All _redpanda-lineage_ panda and zoo entities are in a file that begins
+ * with the entity's ID, zero-padded up to four digits.
+ */
+function getNewIdWithLeadingZeroes(dataset: Dataset, type: "panda" | "zoo") {
+  const newEntityId = dataset.graph.vertices
+    .filter(vertex => vertex.type == type)
+    .map(vertex => Math.abs(vertex._id as number))
+    .reduce((max: number, current: number) => {
+      if (current > max) return current
+      else return max
+    }, 0)
+  return (newEntityId + 1).toString().padStart(4, '0')
+}
+
 async function iterateThroughContributions(dataset: Dataset, config: ExternalConfig) {
   const results: ProcessedEntity[] = []
   const processedPaths: string[] = []
@@ -359,20 +401,30 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
  * files. Leverage the combination of _dataset_ (all entities in JSON
  * format) and the dataset object's INI-mapper, to merge two bits of
  * configuration together, prior to spitting out a merged dataset file.
+ * 
+ * We also delete any temporary values from the fragment that we don't
+ * want landing in the final dataset.
  */
 function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
   const fragment = dataset.getEntityFromDisk(result.config)
   switch(fragment.type) {
-    // TODO: Any panda configuration fragments shouldn't exist yet in the dataset,
-    // so this is less a merging, and more a "put the file where it should go"
-    // operation.
-    case "panda":
-      break
+    // Any panda configuration fragments shouldn't exist yet in the dataset, so
+    // this is a "put the file where it should go" operation.
+    case "panda": {
+      fragment.path = getLocationPathForNewPanda(dataset, fragment)
+      delete fragment._notes
+      dataset.writeEntityToDisk(fragment)
+      return {
+        "config": fragment.path,
+        "locator": "panda",
+        "type": "panda"
+      }
+    }
+    // Photo fragments must merge into entities that already exist
     case "photo": {
       const matchingVertex = dataset.graph.vertices
         .filter(vertex => vertex._id == fragment._id)
         .shift() as GraphNode
-      // Photo fragments must apply only to entities that already exist
       if (!matchingVertex)
         return
       const matchingPhoto =
@@ -395,11 +447,20 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
         "type": "photo"
       }
     }
-    // TODO: Any panda configuration fragments shouldn't exist yet in the dataset,
-    // so this is less a merging, and more a "put the file where it should go"
-    // operation.
-    case "zoo":
-      break
+    // Any zoo configuration fragments shouldn't exist yet in the dataset, so
+    // this is a "put the file where it should go" operation.
+    case "zoo": {
+      fragment.path = getLocationPathForNewZoo(dataset, fragment as FragmentZoo)
+      delete fragment._zoofilename
+      delete fragment["country.folder"]
+      delete fragment["country.name"]
+      dataset.writeEntityToDisk(fragment)
+      return {
+        "config": fragment.path,
+        "locator": "zoo",
+        "type": "zoo"
+      }
+    }
   }
 
 }
@@ -574,8 +635,10 @@ if (import.meta.main) {
       const dataset = await getDataset()
       const results = await iterateThroughContributions(dataset, config)
       copyImagesToServer(config, results)
-      createSubmissionsBranch(dataset, results)
-      // TODO: sort_image_updates from manage.ts
+      // Create a new branch and commit the changes for added content
+      await createSubmissionsBranch(dataset, results)
+      // Make sure all added content has been correctly sorted
+      await sortEntities(dataset, "updates")
       // TODO: migrate_submissions_to_submitted
       console.log("Please merge submissions to master when ready.")
   }
