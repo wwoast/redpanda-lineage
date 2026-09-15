@@ -1,6 +1,4 @@
 /contributions.conf
 /processed
 /submissions
-**.pyc
-__pycache__
 .idea/
