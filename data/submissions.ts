@@ -119,7 +119,7 @@ function convertJsonToPhoto(
   const locators = (entityJson.type != "photo")
     ? entityJson.photo_locators
     : [configPath.replace(".txt", "")]
-  const guessLink = (entityJson.type != "photo")
+  const guessLink = (entityJson.type != "photo" || !entityJson.ig_locator)
     ? `https://www.instagram.com/${entityJson.author}`
     : `ig://${entityJson.ig_locator}`
   const output: Record<string, any> = {}

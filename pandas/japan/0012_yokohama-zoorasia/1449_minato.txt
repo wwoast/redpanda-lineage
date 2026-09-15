@@ -6,12 +6,8 @@ children: none
 commitdate: 2025/8/5
 death: 2026/8/22
 en.name: Minato
-en.nicknames: none
-en.othernames: none
 gender: m
 ja.name: ミナト
-ja.nicknames: none
-ja.othernames: none
 language.order: ja, en
 litter: 1448
 photo.1: cwdc://ZtfRgHDADQA.jpg
@@ -19,20 +15,30 @@ photo.1.author: _sah_ax7
 photo.1.commitdate: 2026/1/17
 photo.1.link: ig://DSw0_hRkXwW
 photo.1.tags: profile, sample
-photo.2: cwdc://ZwtuGSmADQA.jpg
-photo.2.author: redpan22
-photo.2.commitdate: 2026/2/16
-photo.2.link: ig://DUYDSnDEvWP
-photo.2.tags: bamboo, sample, smile
-photo.3: cwdc://ZwtuGSmADQB.jpg
-photo.3.author: redpan22
-photo.3.commitdate: 2026/2/16
-photo.3.link: ig://DUYDSnDEvWQ
-photo.3.tags: bamboo, sample, smile
-photo.4: cwdc://ZwtuGSmADQC.jpg
+photo.2: cwdc://Zujkd6SADQA.jpg
+photo.2.author: minatomirai215
+photo.2.commitdate: 2026/9/15
+photo.2.link: ig://DTS-ea5Egi3
+photo.2.tags: close-up, mofumofu, portrait, profile, sample
+photo.3: cwdc://Zujkd6SADQB.jpg
+photo.3.author: minatomirai215
+photo.3.commitdate: 2026/9/15
+photo.3.link: ig://DTS-ea5Egi4
+photo.3.tags: close-up, mofumofu, portrait, sample
+photo.4: cwdc://ZwtuGSmADQA.jpg
 photo.4.author: redpan22
 photo.4.commitdate: 2026/2/16
-photo.4.link: ig://DUYDSnDEvWR
-photo.4.tags: bamboo, sample
+photo.4.link: ig://DUYDSnDEvWP
+photo.4.tags: bamboo, sample, smile
+photo.5: cwdc://ZwtuGSmADQB.jpg
+photo.5.author: redpan22
+photo.5.commitdate: 2026/2/16
+photo.5.link: ig://DUYDSnDEvWQ
+photo.5.tags: bamboo, sample, smile
+photo.6: cwdc://ZwtuGSmADQC.jpg
+photo.6.author: redpan22
+photo.6.commitdate: 2026/2/16
+photo.6.link: ig://DUYDSnDEvWR
+photo.6.tags: bamboo, sample
 species: 2
 zoo: 12
