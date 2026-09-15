@@ -485,6 +485,7 @@ function migrateSubmissionsToProcessed(config: ExternalConfig) {
     .map(entry => join(submissionsFolder, entry.name))
     .forEach(submissionPath => {
       const processedPath = submissionPath.replace(submissionsFolder, processedFolder)
+      console.log([submissionsFolder, processedFolder, submissionPath, processedPath].join("\n"))
       Deno.renameSync(submissionPath, processedPath)
     })
 }
