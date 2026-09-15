@@ -370,8 +370,8 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
       .filter(subPath => existsDirSync(subPath))
   await Promise.all(contributions.map(subPath => {
     Array.from(Deno.readDirSync(subPath))
-      .sort()
       .map(entry => join(subPath, entry.name))
+      .sort()
       // TODO: need to process the pandas and zoos first?
       .map(async (entityPath) => {
         let entityJson, result
