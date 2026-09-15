@@ -611,18 +611,18 @@ async function resizeAndRotateImage(
   let buffer: Buffer<ArrayBuffer> 
   switch (entityJson.orientation) {
     case 'Mirror horizontal':
-      buffer = await sharp(imagePath).flip().toBuffer()
+      buffer = await sharp(imagePath).flip().raw().toBuffer()
     case 'Rotate 180':
-      buffer = await sharp(imagePath).rotate(180).toBuffer()
+      buffer = await sharp(imagePath).rotate(180).raw().toBuffer()
     case 'Mirror vertical':
-      buffer = await sharp(imagePath).flop().toBuffer()
+      buffer = await sharp(imagePath).flop().raw().toBuffer()
     case 'Mirror horizontal and rotate 270 CW':
-      buffer = await sharp(imagePath).flip().rotate(90).toBuffer()
+      buffer = await sharp(imagePath).flip().rotate(90).raw().toBuffer()
     case 'Mirror horizontal and rotate 90 CW':
-      buffer = await sharp(imagePath).flip().rotate(270).toBuffer()
+      buffer = await sharp(imagePath).flip().rotate(270).raw().toBuffer()
     case 'Horizontal (normal)':
     default:
-      buffer = await sharp(imagePath).toBuffer()
+      buffer = await sharp(imagePath).raw().toBuffer()
   }
   // Proportionally scale the image to match our desired aspect ratio policy
   if (metadata.width >= metadata.height && metadata.width > aspect)
