@@ -3,7 +3,7 @@ import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from "@std/ini/ini-map"
 import { basename, dirname, join, parse } from '@std/path'
 import sharp from 'sharp'
-import { getDataset } from './build.ts'
+import { buildDataset, getDataset } from './build.ts'
 import { Dataset } from './dataset.ts'
 import { sortEntities } from './manage.ts'
 import { byFieldName,
@@ -680,10 +680,14 @@ if (import.meta.main) {
       // Pull remote data from the upstream server, and then continue through
       // to the default-use case of starting a photo-review workflow.
       copyReviewDataFromSubmissionsServer(config)
-    default:
+    default: {
       // Leverage the existing JSON for per-entity file path to ID mapping
       const dataset = await getDataset()
       const results = await iterateThroughContributions(dataset, config)
+      if (results.length == 0) {
+        console.log("[submissions] No config fragments submitted to process.")
+        Deno.exit(-1)
+      }
       copyImagesToServer(config, results)
       // Create a new branch and commit the changes for added content
       await createSubmissionsBranch(dataset, results)
@@ -691,6 +695,9 @@ if (import.meta.main) {
       await sortEntities(dataset, "updates")
       // Migrate all submissions to the processed/ folder
       migrateSubmissionsToProcessed(config)
-      console.log("Please merge submissions to master when ready.")
+      // Rebuild the dataset
+      await buildDataset(true, true)
+      console.log("[submissions] Please merge new branch to master when ready.")
+    }
   }
 }
