@@ -413,7 +413,7 @@ export class Dataset {
    */
   deleteNoneOrUnknownFields = (vertex: GraphNode) => {
     const languageKeyedFields =
-      ["address", "location", "name", "nicknames", "oldnames", "othernames"]
+      ["address", "location", "name", "oldnames"]
     // For arbitrary fields, "none" is a statement of fact
     const elided = ["unknown"]
     Object.keys(vertex).forEach(key =>

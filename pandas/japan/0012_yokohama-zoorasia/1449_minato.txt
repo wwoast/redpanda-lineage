@@ -6,8 +6,12 @@ children: none
 commitdate: 2025/8/5
 death: 2026/8/22
 en.name: Minato
+en.nicknames: none
+en.othernames: none
 gender: m
 ja.name: ミナト
+ja.nicknames: none
+ja.othernames: none
 language.order: ja, en
 litter: 1448
 photo.1: cwdc://ZtfRgHDADQA.jpg
