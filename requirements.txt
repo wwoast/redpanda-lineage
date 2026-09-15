@@ -1,4 +1,0 @@
-gitpython>=2.1.12
-Pillow>=6.2.0
-requests
-unidiff>=0.5.5
