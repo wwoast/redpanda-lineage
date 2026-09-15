@@ -10,7 +10,7 @@ import { byFieldName,
          existsDirSync,
          existsFileSync,
          readConfigForExternalSystems, 
-         standardDate} from './shared.ts'
+         standardDate } from './shared.ts'
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
