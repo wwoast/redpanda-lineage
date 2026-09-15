@@ -8,7 +8,6 @@ import { DataPaths,
          existsFileSync,
          firstCommit,
          readConfigForExternalSystems,
-         reviveNode,
          standardDate } from './shared.ts'
 
 /** 

@@ -258,7 +258,7 @@ async function createSubmissionsBranch(dataset: Dataset, results: ProcessedEntit
     let branch = await repo.branch.current()
     if (branch.name == "master") {
       const newBranchName = `submissions-${currentTime}`
-      branch = await repo.branch.create(newBranchName, {target: "HEAD"})
+      branch = await repo.branch.switch(newBranchName, {create: true})
       console.log(`[submissions] starting new branch from master: ${newBranchName}`)
     }
     const changed = new Set<string>()

@@ -5,8 +5,12 @@ birthplace: 80
 children: none
 commitdate: 2023/10/24
 en.name: Robin
+en.nicknames: none
+en.othernames: none
 gender: m
 ja.name: ロビン
+ja.nicknames: none
+ja.othernames: none
 language.order: en, ja
 litter: 1429
 location.1: 80, 2023/6/25

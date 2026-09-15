@@ -915,7 +915,7 @@ export class Dataset {
     suffix: string,
     language: Language
   ) => {
-    const name: NameByLanguage = {}
+    const name: StringPerLanguage = {}
     name[language] = vertex[field]
     vertex[suffix] = {...vertex[suffix], ...name}
     // Once `name[en]` is written, delete `en.name`
@@ -933,7 +933,7 @@ export class Dataset {
     suffix: string,
     language: Language
   ) => {
-    const nameList: NameListByLanguage = {}
+    const nameList: StringListByLanguage = {}
     nameList[language] = vertex[field].split(", ")
     vertex[suffix] = {...vertex[suffix], ...nameList}
     // Once `nicknames[en] is written, delete `en.nicknames`
