@@ -143,6 +143,7 @@ function convertJsonToPhoto(
     const originalPhoto =
       findInstagramLocator(dataset, entityJson._id, entityJson.ig_locator)
     if (originalPhoto) {
+      output._ig_locator = entityJson.ig_locator
       output[`photo.${naturalIndex}.commitdate`] = originalPhoto.commitdate
       output[`photo.${naturalIndex}.tags`] =
         Array.from(new Set([...entityJson.tags, ...originalPhoto.tags]))
