@@ -63,6 +63,26 @@ photo.10.author: wumpwoast
 photo.10.commitdate: 2025/8/23
 photo.10.link: ig://DNqwjFNB_eK
 photo.10.tags: portrait, sample, smile, whiskers
+photo.11: cwdc://aAJAnkIADQA.jpg
+photo.11.author: wumpwoast
+photo.11.commitdate: 2026/9/15
+photo.11.link: ig://DcFsjP0Seut
+photo.11.tags: peek, portrait, sample, whiskers
+photo.12: cwdc://aAL6dglADQB.jpg
+photo.12.author: wumpwoast
+photo.12.commitdate: 2026/9/15
+photo.12.link: ig://DcHJeOCyFmo
+photo.12.tags: mofumofu, peek, portrait, sample, whiskers
+photo.13: cwdc://aAigECRADQC.jpg
+photo.13.author: wumpwoast
+photo.13.commitdate: 2026/9/15
+photo.13.link: ig://DcScRe4yNV0
+photo.13.tags: home, laying down, mofumofu, portrait, sample, whiskers
+photo.14: cwdc://aBjGNKXADQD.jpg
+photo.14.author: wumpwoast
+photo.14.commitdate: 2026/9/15
+photo.14.link: ig://DcyvWC7yOdp
+photo.14.tags: paws, peek, portrait, sample, smile, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 180
