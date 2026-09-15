@@ -125,7 +125,7 @@ function convertJsonToPhoto(
   const output: Record<string, any> = {}
   locators.forEach((locator: string, index: number) => {
     const naturalIndex = index + 1
-    output[`photo.${naturalIndex}`] = `cwdc://${locator}`
+    output[`photo.${naturalIndex}`] = `cwdc://${basename(locator)}`
     output[`photo.${naturalIndex}.author`] = entityJson.author
     output[`photo.${naturalIndex}.commitdate`] = standardDate()
     output[`photo.${naturalIndex}.link`] = guessLink
@@ -535,7 +535,7 @@ async function processEntity(
   // Print the results of the conversion to the terminal
   printConfigFragmentContents(configPath)
   // Resize and rotate images given the nature of the entity
-  await Promise.all(photoPaths.map(async (path) => resizeAndRotateImage(entityJson, path)))
+  await Promise.all(photoPaths.map(async (path) => await resizeAndRotateImage(entityJson, path)))
   // Display all images from this entity JSON
   const feh = displayImages(photoPaths)
   // Prompt to see whether we should open an editor to modify this config
