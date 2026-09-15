@@ -271,7 +271,8 @@ async function createSubmissionsBranch(dataset: Dataset, results: ProcessedEntit
       }
     })
     // Any changed files get added to the commit
-    changed.forEach(path => repo.index.add(path))
+    for (const path of changed)
+      await repo.index.add(path)
   } finally {
     const commitMessage = messages.join("\n")
     await repo.commit.create({all: true, subject: commitMessage})
