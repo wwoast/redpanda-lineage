@@ -2,7 +2,7 @@ import { git } from "@roka/git";
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from "@std/ini/ini-map"
 import { basename, dirname, join, parse } from '@std/path'
-import { sharp } from 'sharp'
+import sharp from 'sharp'
 import { getDataset } from './build.ts'
 import { Dataset } from './dataset.ts'
 import { sortEntities } from './manage.ts'
