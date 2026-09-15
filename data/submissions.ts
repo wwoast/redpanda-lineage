@@ -123,6 +123,8 @@ function convertJsonToPhoto(
     ? `https://www.instagram.com/${entityJson.author}`
     : `ig://${entityJson.ig_locator}`
   const output: Record<string, any> = {}
+  if (entityJson.type == "photo")
+    output._id = entityJson._id
   locators.forEach((locator: string, index: number) => {
     const naturalIndex = index + 1
     output[`photo.${naturalIndex}`] = `cwdc://${basename(locator)}`
