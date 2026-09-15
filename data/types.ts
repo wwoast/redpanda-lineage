@@ -302,7 +302,7 @@ declare global {
     /** Optional Instagram locator this photo represents */
     _ig_locator?: string,
     /** The single photo contributed by this fragment */
-    photo: Photo,
+    photos: Photo[],
     /**
      * For code that processes different types of nodes, we use the type
      * discriminator to ensure the rest of the input node conforms to the

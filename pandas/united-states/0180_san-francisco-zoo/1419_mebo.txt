@@ -5,14 +5,10 @@ birthplace: 109
 children: none
 commitdate: 2023/8/8
 en.name: Mebo
-en.nicknames: none
 en.oldnames: Doza, Marsala
-en.othernames: none
 gender: f
 ja.name: メボ
-ja.nicknames: none
 ja.oldnames: ドーザ, マサラ
-ja.othernames: none
 language.order: en, ja
 litter: 1418
 location.1: 109, 2023/6/13
@@ -67,6 +63,11 @@ photo.10.author: wumpwoast
 photo.10.commitdate: 2025/8/23
 photo.10.link: ig://DNqwjFNB_eK
 photo.10.tags: portrait, sample, smile, whiskers
+photo.11: cwdc://aAJAnkIADQA.jpg
+photo.11.author: wumpwoast
+photo.11.commitdate: 2026/9/15
+photo.11.link: ig://DcFsjP0Seut
+photo.11.tags: peek, portrait, sample, whiskers
 species: 2
 uncertainty: location.2 exact date
 zoo: 180

@@ -143,7 +143,7 @@ function convertJsonToPhoto(
     const originalPhoto =
       findInstagramLocator(dataset, entityJson._id, entityJson.ig_locator)
     if (originalPhoto) {
-      output._ig_locator = entityJson.ig_locator
+      output._ig_locator = entityJson.ig_locator   // Only when its in the dataset
       output[`photo.${naturalIndex}.commitdate`] = originalPhoto.commitdate
       output[`photo.${naturalIndex}.tags`] =
         Array.from(new Set([...entityJson.tags, ...originalPhoto.tags]))
@@ -418,6 +418,7 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
  */
 function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
   const fragment = dataset.getEntityFromDisk(result.config)
+  console.log(fragment)
   switch(fragment.type) {
     // Any panda configuration fragments shouldn't exist yet in the dataset, so
     // this is a "put the file where it should go" operation.
@@ -448,13 +449,14 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
           Array.from(new Set([...fragment.photo.tags, ...matchingPhoto.tags])).sort()
         matchingPhoto.url = fragment.photo.url
       } else {
-        matchingVertex.photos.push(fragment.photo)
+        fragment.photos.forEach(photo => matchingVertex.photos.push(photo))
       }
       // Render the modified entity back to disk
       dataset.writeEntityToDisk(matchingVertex)
+      const newPhoto = fragment.photos.shift() as Photo
       return {
         "config": matchingVertex.path,
-        "locator": fragment.photo.url,
+        "locator": newPhoto.url,
         "type": "photo"
       }
     }
