@@ -476,16 +476,19 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
   }
 }
 
+/** 
+ * Convert configured submissions/processing paths to full pathnames, so we
+ * can move their locations using a search and replace for src/dst.
+ */
 function migrateSubmissionsToProcessed(config: ExternalConfig) {
-  const submissionsFolder = config.submissions.processing_folder
-  const processedFolder = config.submissions.processed_folder
+  const submissionsFolder = join(Deno.cwd(), config.submissions.processing_folder)
+  const processedFolder = join(Deno.cwd(), config.submissions.processed_folder)
   // All content inside the submissions folder should be themselves folders
   // with unique IDs in the names.
   Deno.readDirSync(submissionsFolder)
     .map(entry => join(submissionsFolder, entry.name))
     .forEach(submissionPath => {
       const processedPath = submissionPath.replace(submissionsFolder, processedFolder)
-      console.log([submissionsFolder, processedFolder, submissionPath, processedPath].join("\n"))
       Deno.renameSync(submissionPath, processedPath)
     })
 }
