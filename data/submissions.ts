@@ -365,40 +365,39 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
   const results: ProcessedEntity[] = []
   const processedPaths: string[] = []
   const processingFolder = config.submissions.processing_folder
+  // One layer deep of folders and files
   const contributions = Array.from(Deno.readDirSync(processingFolder))
-      .map(entry => join(processingFolder, entry.name))
-      .filter(subPath => existsDirSync(subPath))
-  await Promise.all(contributions.map(subPath => {
-    Array.from(Deno.readDirSync(subPath))
-      .map(entry => join(subPath, entry.name))
-      .sort()
-      // TODO: need to process the pandas and zoos first?
-      .map(async (entityPath) => {
-        let entityJson, result
-        switch (true) {
-          case (entityPath.endsWith(".panda.json")):
-            entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedPanda
-            entityJson.type = "panda"
-            result = await processEntity(dataset, entityPath, entityJson)
-            processedPaths.push(entityPath)
-            break
-          case (entityPath.endsWith(".zoo.json")):
-            entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedZoo
-            entityJson.type = "zoo"
-            result = await processEntity(dataset, entityPath, entityJson)
-            processedPaths.push(entityPath)
-            break
-          case (entityPath.endsWith(".json") && (!processedPaths.includes(entityPath))):
-            entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedPhoto
-            entityJson.type = "photo"
-            result = await processEntity(dataset, entityPath, entityJson)
-            processedPaths.push(entityPath)
-            break
-        }
-        if (result && result.status == "keep")
-          results.push(result)
-      })
-  }))
+    .map(entry => join(processingFolder, entry.name))
+    .filter(subPath => existsDirSync(subPath))
+    .flatMap(subPath =>
+      Array.from(Deno.readDirSync(subPath)).map(entry => join(subPath, entry.name)))
+    .sort()
+  // Look at each contribution file one at a time
+  for (const entityPath of contributions) {
+    let entityJson, result
+    switch (true) {
+      case (entityPath.endsWith(".panda.json")):
+        entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedPanda
+        entityJson.type = "panda"
+        result = await processEntity(dataset, entityPath, entityJson)
+        processedPaths.push(entityPath)
+        break
+      case (entityPath.endsWith(".zoo.json")):
+        entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedZoo
+        entityJson.type = "zoo"
+        result = await processEntity(dataset, entityPath, entityJson)
+        processedPaths.push(entityPath)
+        break
+      case (entityPath.endsWith(".json") && (!processedPaths.includes(entityPath))):
+        entityJson = JSON.parse(Deno.readTextFileSync(entityPath)) as SubmittedPhoto
+        entityJson.type = "photo"
+        result = await processEntity(dataset, entityPath, entityJson)
+        processedPaths.push(entityPath)
+        break
+    }
+    if (result && result.status == "keep")
+      results.push(result)
+  }
   return results
 }
 
