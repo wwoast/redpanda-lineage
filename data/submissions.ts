@@ -261,7 +261,6 @@ async function createSubmissionsBranch(dataset: Dataset, results: ProcessedEntit
       branch = await repo.branch.create(newBranchName, {target: "HEAD"})
       console.log(`[submissions] starting new branch from master: ${newBranchName}`)
     }
-    const messages: string[] = []
     const changed = new Set<string>()
     results.forEach(result => {
       const merge = mergeConfiguration(dataset, result)
@@ -418,7 +417,6 @@ async function iterateThroughContributions(dataset: Dataset, config: ExternalCon
  */
 function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
   const fragment = dataset.getEntityFromDisk(result.config)
-  console.log(fragment)
   switch(fragment.type) {
     // Any panda configuration fragments shouldn't exist yet in the dataset, so
     // this is a "put the file where it should go" operation.
