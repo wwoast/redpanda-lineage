@@ -602,24 +602,27 @@ async function resizeAndRotateImage(
   const aspect = (entityJson._id.startsWith("media."))
     ? resizeGroup
     : resizePhoto
-  let buffer = Deno.readFileSync(imagePath)
   // Track width and height of the image prior to burning in the orientation
-  const metadata = await sharp(buffer).metadata()
+  const metadata = await sharp(imagePath).metadata()
   // Burn in the orientation from the JSON entity data. Photo orientations
   // strings are from the exif standard as per the _MikeKovarik/exif_ project's
   // `src/dicts/tiff-ifd0-values.mjs` file. The default case is
   // 'Horizontal (normal)' and requires no processing.
+  let buffer: Buffer<ArrayBuffer> 
   switch (entityJson.orientation) {
     case 'Mirror horizontal':
-      buffer = await sharp(buffer).flip().toBuffer()
+      buffer = await sharp(imagePath).flip().toBuffer()
     case 'Rotate 180':
-      buffer = await sharp(buffer).rotate(180).toBuffer()
+      buffer = await sharp(imagePath).rotate(180).toBuffer()
     case 'Mirror vertical':
-      buffer = await sharp(buffer).flop().toBuffer()
+      buffer = await sharp(imagePath).flop().toBuffer()
     case 'Mirror horizontal and rotate 270 CW':
-      buffer = await sharp(buffer).flip().rotate(90).toBuffer()
+      buffer = await sharp(imagePath).flip().rotate(90).toBuffer()
     case 'Mirror horizontal and rotate 90 CW':
-      buffer = await sharp(buffer).flip().rotate(270).toBuffer()
+      buffer = await sharp(imagePath).flip().rotate(270).toBuffer()
+    case 'Horizontal (normal)':
+    default:
+      buffer = await sharp(imagePath).toBuffer()
   }
   // Proportionally scale the image to match our desired aspect ratio policy
   if (metadata.width >= metadata.height && metadata.width > aspect)
