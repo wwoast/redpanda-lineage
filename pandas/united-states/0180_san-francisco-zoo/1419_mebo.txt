@@ -5,10 +5,14 @@ birthplace: 109
 children: none
 commitdate: 2023/8/8
 en.name: Mebo
+en.nicknames: none
 en.oldnames: Doza, Marsala
+en.othernames: none
 gender: f
 ja.name: メボ
+ja.nicknames: none
 ja.oldnames: ドーザ, マサラ
+ja.othernames: none
 language.order: en, ja
 litter: 1418
 location.1: 109, 2023/6/13
