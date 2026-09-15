@@ -10,12 +10,10 @@ To make contributions to this dataset, you'll be using tools similar to what sof
 
 To work with the Red Panda lineage dataset, you only need three things:
 
- * A [UTF-8 supporting](https://www.wikipedia.org/wiki/UTF-8) text editor with a good file-browsing sidebar.
-   * On Windows, [Notepad++](https://notepad-plus-plus.org) is a good simple choice. Unfortunately the regular Windows Notepad doesn't save Japanese text properly without deep Windows tweaks.
-   * [Atom](https://atom.io/) supports Mac and Windows, but is more complex.
-   * [Visual Studio Code](https://code.visualstudio.com) is nice if you're comfortable with code editors!
+ * A [UTF-8 supporting](https://www.wikipedia.org/wiki/UTF-8) text editor with a good file-browsing sidebar, like [Visual Studio Code](https://code.visualstudio.com)
  * The [GitHub Desktop](https://desktop.github.io) software
- * A free [GitHub Account](https://github.com/join).
+ * A free [GitHub Account](https://github.com/join)
+ * The [deno](https://docs.deno.com/runtime/getting_started/installation/) TypeScript runtime, to perform repository tasks like indexing the `redpanda.json` data
 
 When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account. After you sign up and log into GitHub Desktop, you'll be given the option to check out a repository.
 
@@ -131,12 +129,13 @@ Once the automated checks are done, you still need one of the dataset administra
 
 ## Appendix: Technical / Terminal Users
 
-If you're a command-line user, and you have Git, here's a quick sample of what a typical dataset session might look like
+If you're a command-line user, and you have Git, here's a quick sample of what a typical dataset session might look like:
 
 ```
 git clone https://github.com/wwoast/redpanda-lineage.git
 git checkout -b maruyama-zoo
 vim pandas/0001_ichikawa/0004_lychee.txt
 git commit -a -m "changed lychee's birthday"
+deno task build
 git push origin maruyama-zoo
 ```

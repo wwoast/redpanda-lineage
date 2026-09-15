@@ -13,7 +13,7 @@ The intent is for anyone with a text editor to easily be able to contribute to t
 
 ### Simple Text Format + Schema Expansion
 
-All text files follow a loose standard typically used by `.ini` files, and supported by the Python `configparser` library. This `.ini` standard is limited to `key: value` pairs, without hierarchies or complex data types for values. This is intended to keep the schemas as simple to write and understand as possible, while still supporting enough flexibility for new keys (field types) to be added as the lineage dataset evolves. 
+All text files follow a loose standard typically used by `.ini` files. This `.ini` standard is limited to `key: value` pairs, without hierarchies or complex data types for values. This is intended to keep the schemas as simple to write and understand as possible, while still supporting enough flexibility for new keys (field types) to be added as the lineage dataset evolves. 
 
 ### Community
 
@@ -54,7 +54,7 @@ Taking advantage of a static JSON dataset, and the Dagoba client-side graph data
 
 ## Red Panda Search Forms
 
-A fully usable, GitHub-hosted search page for the Red Panda data is being developed as part of this repository, in the `search/` folder. Being built by red panda fans for red panda fans, the forms should illustrate the family relationships between related animals, and help visitors verify which animals they've taken photos of, or visited in zoos.
+A fully usable, GitHub-hosted search page for the Red Panda data is being developed as part of this repository, with `index.html` and the `js/` folder having most of the contents. Being built by red panda fans for red panda fans, the forms should illustrate the family relationships between related animals, and help visitors verify which animals they've taken photos of, or visited in zoos.
 
 ### Search Query Processing
 
