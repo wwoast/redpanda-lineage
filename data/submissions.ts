@@ -486,7 +486,7 @@ function migrateSubmissionsToProcessed(config: ExternalConfig) {
 function printConfigFragmentContents(configPath: string) {
   const configOutput = Deno.readTextFileSync(configPath)
   const horizontalRule = "-".repeat(configPath.length)
-  console.log(`${configPath}\n${horizontalRule}\n${configOutput}\n`)
+  console.log(`\n${configPath}\n${horizontalRule}\n${configOutput}`)
 }
 
 type ProcessedEntity = {
@@ -579,7 +579,7 @@ async function processEntity(
 /** Prompt to either edit or delete a contributed config fragment */
 function promptForDecision() {
   const options = ["c", "d", "e"]
-  const decision = prompt('(e)dit, (d)elete, or (c)ontinue: ')
+  const decision = prompt('(e)dit, (d)elete, or (c)ontinue:')
   if (decision && !options.includes(decision))
     return promptForDecision()
   else
@@ -602,12 +602,12 @@ async function resizeAndRotateImage(
   const aspect = (entityJson._id.startsWith("media."))
     ? resizeGroup
     : resizePhoto
-  // Burn in the orientation from the JSON entity data. Photo orientations
-  // strings are from the exif standard as per the _MikeKovarik/exif_ project's
-  // `src/dicts/tiff-ifd0-values.mjs` file. The default case is
-  // 'Horizontal (normal)' and requires no processing. Fit 'inside' forces the
-  // image to scale to fit inside `aspect` as the largest dimension.
+  // Sharp pipelines cannot read and write to the same file in one pipeline
   const buffer = Deno.readFileSync(imagePath)
+  // Burn in the orientation from the JSON entity data, and resize the image.
+  // Fit 'inside' forces the image to scale to fit inside `aspect` as the
+  // largest dimension. Photo orientations strings are from the exif standard
+  // in _MikeKovarik/exif_ project's `src/dicts/tiff-ifd0-values.mjs`
   switch (entityJson.orientation) {
     case 'Mirror horizontal':
       await sharp(buffer)
