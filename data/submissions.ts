@@ -309,7 +309,7 @@ function getImageLocators(
 ) {
   const contributionPath = dirname(entityPath)
   const photoPaths = (entityJson.type == "photo")
-    ? [entityPath.replace(".json", "")]
+    ? [entityPath.replace(".txt", "")]
     : entityJson.photo_locators.map(locator => join(contributionPath, locator))
   return photoPaths
 }
@@ -602,35 +602,52 @@ async function resizeAndRotateImage(
   const aspect = (entityJson._id.startsWith("media."))
     ? resizeGroup
     : resizePhoto
-  // Track width and height of the image prior to burning in the orientation
-  const metadata = await sharp(imagePath).metadata()
   // Burn in the orientation from the JSON entity data. Photo orientations
   // strings are from the exif standard as per the _MikeKovarik/exif_ project's
   // `src/dicts/tiff-ifd0-values.mjs` file. The default case is
-  // 'Horizontal (normal)' and requires no processing.
-  let buffer: Buffer<ArrayBuffer> 
+  // 'Horizontal (normal)' and requires no processing. Fit 'inside' forces the
+  // image to scale to fit inside `aspect` as the largest dimension.
+  const buffer = Deno.readFileSync(imagePath)
   switch (entityJson.orientation) {
     case 'Mirror horizontal':
-      buffer = await sharp(imagePath).flip().raw().toBuffer()
+      await sharp(buffer)
+        .flip()
+        .resize({width: aspect, height: aspect, fit: 'inside'})
+        .toFile(imagePath)
+      return
     case 'Rotate 180':
-      buffer = await sharp(imagePath).rotate(180).raw().toBuffer()
+      await sharp(buffer)
+        .rotate(180)
+        .resize({width: aspect, height: aspect, fit: 'inside'})
+        .toFile(imagePath)
+      return
     case 'Mirror vertical':
-      buffer = await sharp(imagePath).flop().raw().toBuffer()
+      await sharp(buffer)
+        .flop()
+        .resize({width: aspect, height: aspect, fit: 'inside'})
+        .toFile(imagePath)
+      return
     case 'Mirror horizontal and rotate 270 CW':
-      buffer = await sharp(imagePath).flip().rotate(90).raw().toBuffer()
+      await sharp(buffer)
+        .flip()
+        .rotate(90)
+        .resize({width: aspect, height: aspect, fit: 'inside'})
+        .toFile(imagePath)
+      return
     case 'Mirror horizontal and rotate 90 CW':
-      buffer = await sharp(imagePath).flip().rotate(270).raw().toBuffer()
+      await sharp(buffer)
+        .flip()
+        .rotate(270)
+        .resize({width: aspect, height: aspect, fit: 'inside'})
+        .toFile(imagePath)
+      return
     case 'Horizontal (normal)':
     default:
-      buffer = await sharp(imagePath).raw().toBuffer()
+      await sharp(buffer)
+        .resize({width: aspect, height: aspect, fit: 'inside'})
+        .toFile(imagePath)
+      return
   }
-  // Proportionally scale the image to match our desired aspect ratio policy
-  if (metadata.width >= metadata.height && metadata.width > aspect)
-    buffer = await sharp(buffer).resize({width: aspect}).toBuffer()
-  else if (metadata.height >= metadata.width && metadata.height > aspect)
-    buffer = await sharp(buffer).resize({height: aspect}).toBuffer()
-  // Write the final file
-  await sharp(buffer).jpeg().toFile(imagePath)
 }
 
 /** 
