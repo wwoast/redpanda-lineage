@@ -483,10 +483,11 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
 function migrateSubmissionsToProcessed(config: ExternalConfig) {
   const submissionsFolder = join(Deno.cwd(), config.submissions.processing_folder)
   const processedFolder = join(Deno.cwd(), config.submissions.processed_folder)
-  // All content inside the submissions folder should be themselves folders
-  // with unique IDs in the names.
+  // All relevant content inside the submissions folder should be themselves
+  // folders with unique IDs, but still filter (.gitkeep needs to stay)
   Deno.readDirSync(submissionsFolder)
     .map(entry => join(submissionsFolder, entry.name))
+    .filter(submissionPath => existsDirSync(submissionPath))
     .forEach(submissionPath => {
       const processedPath = submissionPath.replace(submissionsFolder, processedFolder)
       Deno.renameSync(submissionPath, processedPath)
