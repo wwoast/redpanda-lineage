@@ -33,25 +33,55 @@ photo.4.author: pantasanzoo1
 photo.4.commitdate: 2026/1/17
 photo.4.link: ig://DRuEAJND8xX
 photo.4.tags: bamboo, mofumofu, wink
-photo.5: cwdc://ZwoviSCADQA.jpg
-photo.5.author: redpan22
-photo.5.commitdate: 2026/2/16
-photo.5.link: ig://DUVkAmxEtNl
-photo.5.tags: baby, dish, mofumofu, sample, techitechi
-photo.6: cwdc://ZwoviSCADQB.jpg
+photo.5: cwdc://Zujkd6SADQC.jpg
+photo.5.author: minatomirai215
+photo.5.commitdate: 2026/9/15
+photo.5.link: ig://DTS-ea5Egi6
+photo.5.tags: baby, bamboo, mofumofu, portrait, sample
+photo.6: cwdc://ZwoviSCADQA.jpg
 photo.6.author: redpan22
 photo.6.commitdate: 2026/2/16
-photo.6.link: ig://DUVkAmxEtNm
-photo.6.tags: baby, dish, mofumofu, sample
-photo.7: cwdc://ZwoviSCADQC.jpg
+photo.6.link: ig://DUVkAmxEtNl
+photo.6.tags: baby, dish, mofumofu, sample, techitechi
+photo.7: cwdc://ZwoviSCADQB.jpg
 photo.7.author: redpan22
 photo.7.commitdate: 2026/2/16
-photo.7.link: ig://DUVkAmxEtNn
-photo.7.tags: baby, dish, mofumofu, sample, whiskers
-photo.8: cwdc://ZwoviSCADQD.jpg
+photo.7.link: ig://DUVkAmxEtNm
+photo.7.tags: baby, dish, mofumofu, sample
+photo.8: cwdc://ZwoviSCADQC.jpg
 photo.8.author: redpan22
 photo.8.commitdate: 2026/2/16
-photo.8.link: ig://DUVkAmxEtNo
-photo.8.tags: baby, dish, mofumofu, sample
+photo.8.link: ig://DUVkAmxEtNn
+photo.8.tags: baby, dish, mofumofu, sample, whiskers
+photo.9: cwdc://ZwoviSCADQD.jpg
+photo.9.author: redpan22
+photo.9.commitdate: 2026/2/16
+photo.9.link: ig://DUVkAmxEtNo
+photo.9.tags: baby, dish, mofumofu, sample
+photo.10: cwdc://Z4mK7XPADQC.jpg
+photo.10.author: minatomirai215
+photo.10.commitdate: 2026/9/15
+photo.10.link: ig://DYURtJXiT1-
+photo.10.tags: bamboo, bite, paws, portrait, sample
+photo.11: cwdc://Z4mK7XPADQD.jpg
+photo.11.author: minatomirai215
+photo.11.commitdate: 2026/9/15
+photo.11.link: ig://DYURtJXiT1_
+photo.11.tags: bamboo, bite, paws, portrait, sample
+photo.12: cwdc://Z4mK7XPADQE.jpg
+photo.12.author: minatomirai215
+photo.12.commitdate: 2026/9/15
+photo.12.link: ig://DYURtJXiT2A
+photo.12.tags: bamboo, bite, paws, portrait, sample
+photo.13: cwdc://Z4mK7XPADQF.jpg
+photo.13.author: minatomirai215
+photo.13.commitdate: 2026/9/15
+photo.13.link: ig://DYURtJXiT18
+photo.13.tags: paws, peek, portrait, sample
+photo.14: cwdc://Z4mK7XPADQG.jpg
+photo.14.author: minatomirai215
+photo.14.commitdate: 2026/9/15
+photo.14.link: ig://DYURtJXiT19
+photo.14.tags: bite, paws, portrait, sample
 species: 2
 zoo: 12
