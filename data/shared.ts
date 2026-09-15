@@ -144,12 +144,14 @@ export function reviveNode(key: string, value: unknown, section?: string) {
       return reviveMediaNode(key, value, section)
     case "panda":
       return revivePandaNode(key, value, section)
+    case "photo":
+      return revivePhotoNode(key, value, section)
     case "wild":
       return reviveWildNode(key, value, section)
     case "zoo":
       return reviveZooNode(key, value, section)
     default:
-      console.debug(`${section}: ${key}: ${value}`)
+      console.debug(`[shared] can't revive: ${section}: ${key}: ${value}`)
       throw new Error(`[manage] section ${section}: not a valid redpandafinder node`)
   }
 }
@@ -198,6 +200,21 @@ function revivePandaNode(key: string, value: unknown, section?: string): any {
       return (value as string).split(", ")
     case (key == "language.order"):
       return (value as string).split(", ") as Language[]
+    case (key.includes("tags")):
+      return (value as string).split(", ")
+    default:
+      return value
+  }
+}
+
+/** 
+ * When importing data from plaintext files with `[photo]` data, convert
+ * primitive values into more ergnomoic TypeScript types.
+ */
+function revivePhotoNode(key: string, value: unknown, section?: string): any {
+  if (section != "photo")
+    return value   // Shouldn't happen
+  switch (true) {
     case (key.includes("tags")):
       return (value as string).split(", ")
     default:

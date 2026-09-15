@@ -129,8 +129,11 @@ function convertJsonToPhoto(
     output[`photo.${naturalIndex}.author`] = entityJson.author
     output[`photo.${naturalIndex}.commitdate`] = standardDate()
     output[`photo.${naturalIndex}.link`] = guessLink
-    if (entityJson.type == "photo")
-      output[`photo.${naturalIndex}.tags`] = entityJson.tags.join(", ")
+    if (entityJson.type == "photo") {
+      output[`photo.${naturalIndex}.tags`] = entityJson.tags.length > 0
+        ? entityJson.tags.join(", ")
+        : " "   // makes manual text input for tags slightly easier in vim
+    }
     if (entityJson.type != "photo" || entityJson.ig_locator == null)
       return   // continue
     // If photo is based on an ig_locator that already exists in this dataset,
@@ -541,7 +544,12 @@ async function processEntity(
   // prior to ingesting it into redpandafinder. TODO: for non-photo entities
   // the editing process is required to finalize some details
   const decision = promptForDecision()
-  if (decision == "c") {
+  if (decision == "q") {
+    // Python input() prompts support CTRL+C/sigint.
+    // Deno prompt() does not without bullshit code
+    feh.kill()
+    Deno.exit(0)
+  } else if (decision == "c") {
     feh.kill()
     return {
       "config": configPath,
@@ -578,8 +586,8 @@ async function processEntity(
 
 /** Prompt to either edit or delete a contributed config fragment */
 function promptForDecision() {
-  const options = ["c", "d", "e"]
-  const decision = prompt('(e)dit, (d)elete, or (c)ontinue:')
+  const options = ["c", "d", "e", "q"]
+  const decision = prompt('(e)dit, (d)elete, (q)uit, or (c)ontinue:')
   if (decision && !options.includes(decision))
     return promptForDecision()
   else

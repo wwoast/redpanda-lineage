@@ -18,7 +18,6 @@ import { DataPaths,
          toPhotoEntities,
          toWilds,
          toZoos } from './shared.ts'
-         import P from "../js/pandas.js";
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
