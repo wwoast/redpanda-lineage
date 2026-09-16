@@ -515,6 +515,15 @@ function error(msg: string) {
   return false
 }
 
+/** Add properties to a vertex if they aren't already defined */
+export function extend(list: Vertex, defaults: Vertex) {
+  return Object.keys(defaults).reduce(function (acc, key) {
+    if (typeof list[key] != 'undefined') return acc
+    acc[key] = defaults[key]
+    return acc
+  }, list)
+}
+
 function filterEdges(filter: Filter) {
   return function(edge: Edge) {
     // if there's no filter, everything is valid
