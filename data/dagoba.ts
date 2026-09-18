@@ -501,6 +501,21 @@ function transform(program: Step[]) {
 
 // HELPER FUNCTIONS
 
+/** TODO: test, not sure default-false function is what we want here */
+export function addAlias(newname: string, newprogram: Step[]) {
+  addPipetype(newname, () => false)   // because there's no method catchall in js
+  newprogram = newprogram.map(function (step) {
+    return [step[0], step.slice(1)]; // [['out', 'parent']] => [['out', ['parent']]]
+  });
+  // defaults = defaults || []   // default arguments for the alias
+  addTransformer(function (program: Step[]) {
+    return program.reduce(function (acc: Step[], step) {
+      if (step[0] != newname) return acc.concat([step])
+      return acc.concat(newprogram)
+    }, [])
+  }, 100)   // these need to run early, so they get a high priority
+}
+
 /** convert vertexes to just their ids */
 export function cleanEdge(key: string, value: Vertex) {
   return key == '_in' || key == '_out' ? value._id : value
