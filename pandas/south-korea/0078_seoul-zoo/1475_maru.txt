@@ -4,11 +4,11 @@ birthday: 2026/6/21
 birthplace: 78
 children: none
 commitdate: 2026/8/12
-en.name: Baby
+en.name: Maru
 en.nicknames: none
 en.othernames: none
-gender: unknown
-ja.name: 赤ちゃん
+gender: m
+ja.name: マル
 ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
