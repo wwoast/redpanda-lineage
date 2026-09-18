@@ -4,6 +4,7 @@ birthday: 2012/7/15
 birthplace: 197
 children: 945
 commitdate: 2019/7/15
+death: 2026/8/1
 en.name: Jasper
 en.nicknames: none
 en.othernames: none
@@ -27,4 +28,5 @@ photo.2.commitdate: 2019/7/15
 photo.2.link: https://www.instagram.com/zseabanhamzoo/
 photo.2.tags: paws, techitechi
 species: 1
+uncertainty: death exact date july/august 2026
 zoo: 140
