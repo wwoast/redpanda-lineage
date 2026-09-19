@@ -6,8 +6,11 @@ children: none
 commitdate: 2018/7/28
 death: 2019/9/4
 en.name: Asahi
+en.nicknames: none
+en.othernames: none
 gender: m
 ja.name: 朝日
+ja.nicknames: none
 ja.othernames: あさひ
 language.order: ja, en
 litter: 262, 263

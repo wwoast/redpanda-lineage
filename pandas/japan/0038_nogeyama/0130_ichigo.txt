@@ -6,8 +6,11 @@ children: none
 commitdate: 2018/6/27
 en.name: Ichigo
 en.nicknames: Strawberry-chan
+en.othernames: none
 gender: f
 ja.name: イチゴ
+ja.nicknames: none
+ja.othernames: none
 language.order: ja, en
 litter: 69
 location.1: 6, 2012/7/28

@@ -6,8 +6,11 @@ children: 946, 947
 commitdate: 2018/8/3
 death: 2026/8/20
 en.name: Roppo
+en.nicknames: none
+en.othernames: none
 gender: m
 ja.name: ロッポ
+ja.nicknames: none
 ja.othernames: 六堡
 language.order: ja, en
 litter: 96
