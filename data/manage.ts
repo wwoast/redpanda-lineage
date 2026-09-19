@@ -89,6 +89,15 @@ function commitMessageForAuthor(
  */
 function deletePhotosFromServer(photoFilenames: string[]) {
   if (!photoFilenames || photoFilenames.length == 0) return   // no-op
+  // Only allow simple, single-segment filenames. This blocks path traversal
+  // (e.g. "../../etc/passwd") and shell metacharacters that could otherwise
+  // be interpreted by the remote shell that ssh invokes.
+  const safeFilename = /^[A-Za-z0-9_.-]+$/
+  const invalidFilenames = photoFilenames.filter(file => !safeFilename.test(file) || file.includes(".."))
+  if (invalidFilenames.length > 0) {
+    console.log(`[manage] WARN: refusing unsafe photo filenames: ${invalidFilenames.join(", ")}`)
+    return
+  }
   const config = readConfigForExternalSystems()
   const server = config.submissions.image_hosting_server
   const imageFolder = config.submissions.image_hosting_server_folder
