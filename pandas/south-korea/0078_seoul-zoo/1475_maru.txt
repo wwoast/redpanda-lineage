@@ -11,6 +11,9 @@ gender: m
 ja.name: マル
 ja.nicknames: none
 ja.othernames: none
+ko.name: 마루
+ko.nicknames: none
+ko.othernames: none
 language.order: ja, en
 litter: 1474
 species: 2

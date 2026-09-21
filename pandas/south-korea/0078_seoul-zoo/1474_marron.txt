@@ -11,6 +11,9 @@ gender: f
 ja.name: マロン
 ja.nicknames: none
 ja.othernames: none
+ko.name: 마롱
+ko.nicknames: none
+ko.othernames: none
 language.order: ja, en
 litter: 1475
 species: 2
