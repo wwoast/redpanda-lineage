@@ -311,6 +311,16 @@ export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
   return accumulator
 }
 
+/** Filter functions */
+
+/** 
+ * For scp / ssh / rsync pipelines, sanity-check that filenames don't try
+ * funny characters or directory traversals
+ */
+export function safeFilename(file: string) {
+  return file.match(/^[A-Za-z0-9_.-]+$/) && !file.includes("..")
+}
+
 /** Sort functions */
 
 /** Sort numeric IDs from lowest to highest */

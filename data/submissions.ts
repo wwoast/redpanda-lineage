@@ -9,7 +9,8 @@ import { sortEntities } from './manage.ts'
 import { byFieldName,
          existsDirSync,
          existsFileSync,
-         readConfigForExternalSystems, 
+         readConfigForExternalSystems,
+         safeFilename,
          standardDate } from './shared.ts'
 
 /** 
@@ -192,7 +193,11 @@ function convertJsonToZoo(
 
 /** After photos are processed / reoriented / resized, put them online */
 function copyImagesToServer(config: ExternalConfig, results: ProcessedEntity[]) {
-  const photoPaths = results.flatMap(result => result.photos)
+  // Quietly ignore degenerate photo filenames
+  const photoPaths = results
+    .flatMap(result => result.photos)
+    .filter(file => safeFilename(file))
+  if (photoPaths.length == 0) return
   const server = config.submissions.image_hosting_server
   const destinationFolder = config.submissions.image_hosting_server_folder
   const user = config.submissions.image_hosting_user

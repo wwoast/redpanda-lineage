@@ -1,5 +1,6 @@
 import { Git, git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
+import { join } from '@std/path'
 import { buildDataset,
          getDataset } from './build.ts'
 import { Dataset, Updates } from './dataset.ts'
@@ -8,6 +9,7 @@ import { DataPaths,
          existsFileSync,
          firstCommit,
          readConfigForExternalSystems,
+         safeFilename,
          standardDate } from './shared.ts'
 
 /** 
@@ -93,7 +95,13 @@ function deletePhotosFromServer(photoFilenames: string[]) {
   const server = config.submissions.image_hosting_server
   const imageFolder = config.submissions.image_hosting_server_folder
   const userAccount = config.submissions.image_hosting_user
-  const filesToRemove = photoFilenames.map(file => `${imageFolder}/${file}`)
+  // Quietly be defensive about filename inputs, since this function should
+  // not directly take filename inputs from the CLI, and since we should
+  // sanity check any contributor filenames.
+  const filesToRemove = photoFilenames
+    .filter(file => safeFilename(file))
+    .map(file => join(imageFolder, file))
+  if (filesToRemove.length == 0) return
   const args = [
     `${userAccount}@${server}`,
     "rm"
