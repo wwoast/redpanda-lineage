@@ -1744,7 +1744,7 @@ export const profilePage = {
     const daughters_count = info.children.filter(x => x.gender == "Female").length
     const message =
       Message.profile_children(
-        info["name"], children_count, daughters_count, sons_count, language)
+        info["name"], children_count, daughters_count, sons_count)
     elements.push(message)
     const photos = Pandas.searchPhotoProfileChildren(animal._id)
     for (const photo of photos) {
@@ -1845,7 +1845,7 @@ export const profilePage = {
     const info = acquirePandaInfo(animal, language)
     const elements = []
     const photo_divs = []
-    const message = Message.profile_family(info["name"], language)
+    const message = Message.profile_family(info["name"])
     elements.push(message)
     const photos = Pandas.searchPhotoProfileImmediateFamily(animal._id)
     // Start with mom and dad, and then a self photo, and then littermates.
@@ -1955,7 +1955,7 @@ export const profilePage = {
     const sisters_count = total_siblings.filter(x => x.gender == "Female").length
     const message =
       Message.profile_siblings(
-        info["name"], siblings_count, sisters_count, brothers_count, language)
+        info["name"], siblings_count, sisters_count, brothers_count)
     elements.push(message)
     const photos = Pandas.searchPhotoProfileSiblings(animal._id)
     for (const photo of photos) {
@@ -1998,7 +1998,7 @@ export const profilePage = {
     const elements = []
     const info = acquirePandaInfo(animal, language)
     const history = acquireLocationList(animal, language)
-    const message = Message.profile_where(info["name"], language)
+    const message = Message.profile_where(info["name"])
     elements.push(message)
     // Start at the current zoo, and work backwards
     const container = document.createElement('div')
@@ -2279,7 +2279,7 @@ export const resultsPage = {
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
-        Message.arrived_from_zoo(target_zoo.name[language], target_date, language)
+        Message.arrived_from_zoo(target_zoo.name[Env.language], target_date)
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
@@ -2299,7 +2299,7 @@ export const resultsPage = {
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
-        Message.departed_to_zoo(target_zoo.name[language], target_date, language)
+        Message.departed_to_zoo(target_zoo.name[language], target_date)
       const zoo_link = zooLink(target_zoo, target_text, language, icon)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
@@ -2599,8 +2599,8 @@ export const resultsPage = {
     // Define the per-section messages. There are modifications depending on
     // which of the input lists are non-empty
     var headers = {
-      "arrivals": Message.arrivals(zoo, born, language),
-      "departures": Message.departures(zoo, deaths, leaving, language)
+      "arrivals": Message.arrivals(zoo, born),
+      "departures": Message.departures(zoo, deaths, leaving)
     }
     // Spool it all out
     let content_divs = []
@@ -2616,7 +2616,7 @@ export const resultsPage = {
     // in these lists of zoo animals
     if (residents.length > 0) {
       if ((leaving.length > 0 ) || (coming.length > 0)) {
-        headers["residents"] = Message.residents(zoo, language)
+        headers["residents"] = Message.residents(zoo)
         content_divs = content_divs.concat(headers["residents"])
       }
       content_divs = content_divs.concat(animals_to_divs(residents))
@@ -2775,7 +2775,7 @@ export const resultsPage = {
     details.className = "zooDetails"
     if (info.closed != Defaults.zoo.closed) {
       const date = Pandas.formatDate(info.closed, Env.language)
-      const closed = Message.closed(date, Env.language)
+      const closed = Message.closed(date)
       details.appendChild(closed)
     }
     details.appendChild(address)

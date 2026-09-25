@@ -456,7 +456,7 @@ class HomePage {
         const special_galleries = this.special_galleries()
         new_content.appendChild(special_galleries)
       }
-      const nearby = Message.findNearbyZoo(Env.language)
+      const nearby = Message.findNearbyZoo()
       new_content.appendChild(nearby)
       const new_photos = Gallery.updatedNewPhotoCredits(Env.language)
       new_content.appendChild(new_photos)
@@ -855,7 +855,7 @@ class ResultsPage {
     let content_divs = []
     if (results.parsed == "geolookup_in_progress") {
       // Stuck at the interstitial after a language transition
-      content_divs.push(Message.geolocationStart(Env.language))
+      content_divs.push(Message.geolocationStart())
       return content_divs
     }
     // Zoo results

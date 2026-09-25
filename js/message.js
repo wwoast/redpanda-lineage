@@ -1,3 +1,4 @@
+import Env from './environment.js'
 import * as Language from './language.js'
 import { Emoji, Polyglots, Tags } from './lookup.js'
 import P, * as Pandas from './pandas.js'
@@ -1931,7 +1932,7 @@ export const Text = {
  * Functions used to generate translated heading snippets in various page modes
  */
 
-export function arrivals(zoo, born, language) {
+export function arrivals(zoo, born) {
   // Zoo search: display arriving animals along with ones just born.
   // If any animals were born, this message gets a baby icon suffix
   const link = document.createElement('a')
@@ -1942,8 +1943,8 @@ export function arrivals(zoo, born, language) {
     document.getElementById(linkId).scrollIntoView(true)
   });
   const p = document.createElement('p')
-  for (const i in Text.zoo_header_new_arrivals[language]) {
-    const field = Text.zoo_header_new_arrivals[language][i]
+  for (const i in Text.zoo_header_new_arrivals[Env.language]) {
+    const field = Text.zoo_header_new_arrivals[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -1955,11 +1956,11 @@ export function arrivals(zoo, born, language) {
   return shrinkBoxMessage("arrivalsHeader", link)
 }
 
-export function arrived_from_zoo(zoo, date, language) {
+export function arrived_from_zoo(zoo, date) {
   // Text to go into the Show.zooLink function
   let text = ""
-  for (const i in Text.arrived_from_zoo[language]) {
-    let field = Text.arrived_from_zoo[language][i]
+  for (const i in Text.arrived_from_zoo[Env.language]) {
+    let field = Text.arrived_from_zoo[Env.language][i]
     if (field == "<INSERTDATE>") {
       field = date
       text = text + field
@@ -1973,12 +1974,12 @@ export function arrived_from_zoo(zoo, date, language) {
   return text
 }
 
-export function autumn(language) {
+export function autumn() {
   const link = document.createElement('a')
   link.href = "#query/autumn"
   const p = document.createElement('p')
-  for (const i in Text.autumn[language]) {
-    const field = Text.autumn[language][i]
+  for (const i in Text.autumn[Env.language]) {
+    const field = Text.autumn[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -1986,12 +1987,12 @@ export function autumn(language) {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function baby_photos(language) {
+export function baby_photos() {
   const link = document.createElement('a')
   link.href = "#query/baby";
   const p = document.createElement('p')
-  for (const i in Text.baby_photos[language]) {
-    const field = Text.baby_photos[language][i]
+  for (const i in Text.baby_photos[Env.language]) {
+    const field = Text.baby_photos[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -1999,12 +2000,12 @@ export function baby_photos(language) {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function birthday(name, animalId, years, language) {
+export function birthday(name, animalId, years) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.happy_birthday[language]) {
-    let field = Text.happy_birthday[language][i]
+  for (const i in Text.happy_birthday[Env.language]) {
+    let field = Text.happy_birthday[Env.language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -2022,11 +2023,11 @@ export function birthday(name, animalId, years, language) {
   return shrinkBoxMessage("birthdaySummary", link)
 }
 
-export function birthday_overflow(count, language) {
+export function birthday_overflow(count) {
   const p = document.createElement('p')
   p.className = "summaryEmphasis"
-  for (const i in Text.birthday_overflow[language]) {
-    let field = Text.birthday_overflow[language][i]
+  for (const i in Text.birthday_overflow[Env.language]) {
+    let field = Text.birthday_overflow[Env.language][i]
     if (field == "<INSERTCOUNT>") {
       field = count
       const msg = document.createTextNode(field)
@@ -2039,10 +2040,10 @@ export function birthday_overflow(count, language) {
   return shrinkBoxMessage("birthdaySummary", p)
 }
 
-export function closed(date, language) {
+export function closed(date) {
   const p = document.createElement('p');
-  for (const i in Text.closed[language]) {
-    let field = Text.closed[language][i]
+  for (const i in Text.closed[Env.language]) {
+    let field = Text.closed[Env.language][i]
     if (field == "<INSERTDATE>") {
       field = date
       const msg = document.createTextNode(field);
@@ -2055,12 +2056,12 @@ export function closed(date, language) {
   return p
 }
 
-export function credit(credit, count, language) {
+export function credit(credit, count) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   const p = document.createElement('p')
-  for (const i in Text.credit[language]) {
-    let field = Text.credit[language][i]
+  for (const i in Text.credit[Env.language]) {
+    let field = Text.credit[Env.language][i]
     if (field == "<INSERTUSER>") {
       field = credit
       const msg = document.createElement('i')
@@ -2083,13 +2084,13 @@ export function credit(credit, count, language) {
   return shrinkBoxMessage("creditSummary", p)
 }
 
-export function creditSingleFilter(credit, filter, count, language) {
+export function creditSingleFilter(credit, filter, count) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
-  for (const i in Text.credit_animal_filter_single[language]) {
-    let field = Text.credit_animal_filter_single[language][i]
+  for (const i in Text.credit_animal_filter_single[Env.language]) {
+    let field = Text.credit_animal_filter_single[Env.language][i]
     if (field == "<INSERTUSER>") {
       field = credit
       const msg = document.createElement('i')
@@ -2113,11 +2114,11 @@ export function creditSingleFilter(credit, filter, count, language) {
   return shrinkBoxMessage("creditSummary", p)
 }
 
-export function departed_to_zoo(zoo, date, language) {
+export function departed_to_zoo(zoo, date) {
   // Text to go into the Show.zooLink function
   let text = "";
-  for (const i in Text.departed_to_zoo[language]) {
-    let field = Text.departed_to_zoo[language][i]
+  for (const i in Text.departed_to_zoo[Env.language]) {
+    let field = Text.departed_to_zoo[Env.language][i]
     if (field == "<INSERTDATE>") {
       field = date
       text = text + field
@@ -2131,7 +2132,7 @@ export function departed_to_zoo(zoo, date, language) {
   return text
 }
 
-export function departures(zoo, deaths, leaving, language) {
+export function departures(zoo, deaths, leaving) {
   // Zoo search: display departing animals along with ones that died.
   // If any animals passed away, this message gets a rainbow icon suffix
   const link = document.createElement('a');
@@ -2142,8 +2143,8 @@ export function departures(zoo, deaths, leaving, language) {
     document.getElementById(linkId).scrollIntoView(true)
   })
   const p = document.createElement('p')
-  for (const i in Text.zoo_header_recently_departed[language]) {
-    const field = Text.zoo_header_recently_departed[language][i]
+  for (const i in Text.zoo_header_recently_departed[Env.language]) {
+    const field = Text.zoo_header_recently_departed[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -2155,13 +2156,13 @@ export function departures(zoo, deaths, leaving, language) {
   return shrinkBoxMessage("departuresHeader", link)
 }
 
-export function findNearbyZoo(language) {
+export function findNearbyZoo() {
   const link = document.createElement('a')
   link.href = "#query/nearby"
   const p = document.createElement('p')
   p.className = "summaryEmphasis"
-  for (const i in Text.find_a_nearby_zoo[language]) {
-    const field = Text.find_a_nearby_zoo[language][i]
+  for (const i in Text.find_a_nearby_zoo[Env.language]) {
+    const field = Text.find_a_nearby_zoo[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -2169,12 +2170,12 @@ export function findNearbyZoo(language) {
   return shrinkBoxMessage("frontPageSummary", link)
 }
 
-export function foundAnimal(name, animalId, language) {
+export function foundAnimal(name, animalId) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.found_animal[language]) {
-    let field = Text.found_animal[language][i]
+  for (const i in Text.found_animal[Env.language]) {
+    let field = Text.found_animal[Env.language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -2188,22 +2189,22 @@ export function foundAnimal(name, animalId, language) {
   return shrinkBoxMessage("memorialSummary", link)
 }
 
-export function geolocationStart(language) {
+export function geolocationStart() {
   const p = document.createElement('p')
-  for (const i in Text.nearby_zoos[language]) {
-    const field = Text.nearby_zoos[language][i]
+  for (const i in Text.nearby_zoos[Env.language]) {
+    const field = Text.nearby_zoos[Env.language][i]
     const msg = document.createTextNode(field);
     p.appendChild(msg);
   }
   return shrinkBoxMessage("frontPageSummary", p)
 }
 
-export function lostAnimal(name, animalId, zooName, zooContact, language) {
+export function lostAnimal(name, animalId, zooName, zooContact) {
   const link = document.createElement('a')
   link.href = `#profile/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.lost_animal[language]) {
-    let field = Text.lost_animal[language][i]
+  for (const i in Text.lost_animal[Env.language]) {
+    let field = Text.lost_animal[Env.language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -2227,12 +2228,12 @@ export function lostAnimal(name, animalId, zooName, zooContact, language) {
   return shrinkBoxMessage("memorialSummary", link)
 }
 
-export function lunch_time(language) {
+export function lunch_time() {
   const link = document.createElement('a')
   link.href = "#query/lunch time"
   const p = document.createElement('p')
-  for (const i in Text.lunch_time[language]) {
-    const field = Text.lunch_time[language][i]
+  for (const i in Text.lunch_time[Env.language]) {
+    const field = Text.lunch_time[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -2240,12 +2241,12 @@ export function lunch_time(language) {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function memorial(name, animalId, birth, death, language) {
+export function memorial(name, animalId, birth, death) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.goodbye[language]) {
-    let field = Text.goodbye[language][i]
+  for (const i in Text.goodbye[Env.language]) {
+    let field = Text.goodbye[Env.language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -2267,12 +2268,12 @@ export function memorial(name, animalId, birth, death, language) {
   return shrinkBoxMessage("memorialSummary", link)
 }
 
- export function memorialGroup(nameString, idString, language) {
+ export function memorialGroup(nameString, idString) {
   const link = document.createElement('a')
   link.href = `#group/${idString}`
   const p = document.createElement('p')
-  for (const i in Text.remembering_you_together[language]) {
-    let field = Text.remembering_you_together[language][i]
+  for (const i in Text.remembering_you_together[Env.language]) {
+    let field = Text.remembering_you_together[Env.language][i]
     if (field == "<INSERTNAMES>") {
       field = nameString
       const msg = document.createTextNode(field)
@@ -2286,12 +2287,12 @@ export function memorial(name, animalId, birth, death, language) {
   return shrinkBoxMessage("memorialSummary", link)
 }
 
-export function missing_you(name, animalId, birth, death, language) {
+export function missing_you(name, animalId, birth, death) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.missing_you[language]) {
-    let field = Text.missing_you[language][i]
+  for (const i in Text.missing_you[Env.language]) {
+    let field = Text.missing_you[Env.language][i]
     if (field == "<INSERTNAME>") {
       field = name
       const msg = document.createTextNode(field)
@@ -2313,7 +2314,7 @@ export function missing_you(name, animalId, birth, death, language) {
   return shrinkBoxMessage("memorialSummary", link)
 }
 
-export function new_photos(language) {
+export function new_photos() {
   // Grab update counts
   const counts = {
     "contributors": P.db._totals.updates.authors,
@@ -2348,7 +2349,7 @@ export function new_photos(language) {
       continue
     }
     let output = ""
-    const message = lookup[part][language]
+    const message = lookup[part][Env.language]
     for (const i in message) {
       const field = message[i]
       if (field == "<INSERTCOUNT>") {
@@ -2366,7 +2367,7 @@ export function new_photos(language) {
   return shrinkBoxMessage("frontPageSummary", p)
 }
 
-export function profile_children(name, childrenCount, daughters, sons, language) {
+export function profile_children(name, childrenCount, daughters, sons) {
   const p = document.createElement('p');
   let babies = 0
   if (childrenCount != daughters + sons) {
@@ -2393,8 +2394,8 @@ export function profile_children(name, childrenCount, daughters, sons, language)
   }
   let output_text = ""
   // Do string replacement
-  for (const i in message[language]) {
-    const field = message[language][i];
+  for (const i in message[Env.language]) {
+    const field = message[Env.language][i];
     if (field == "<INSERTNAME>") {
       output_text = output_text.concat(name);
     } else if (field == "<INSERTTOTAL>") {
@@ -2414,10 +2415,10 @@ export function profile_children(name, childrenCount, daughters, sons, language)
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function profile_family(name, language) {
+export function profile_family(name) {
   const p = document.createElement('p');
-  for (const i in Text.profile_family[language]) {
-    const field = Text.profile_family[language][i]
+  for (const i in Text.profile_family[Env.language]) {
+    const field = Text.profile_family[Env.language][i]
     if (field == "<INSERTNAME>") {
       const msg = document.createTextNode(name)
       p.appendChild(msg)
@@ -2432,7 +2433,7 @@ export function profile_family(name, language) {
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function profile_siblings(name, siblingCount, sisters, brothers, language) {
+export function profile_siblings(name, siblingCount, sisters, brothers) {
   const p = document.createElement('p')
   let babies = 0
   if (siblingCount != sisters + brothers) {
@@ -2458,8 +2459,8 @@ export function profile_siblings(name, siblingCount, sisters, brothers, language
     message = Text.profile_siblings
   }
   let output_text = ""
-  for (const i in message[language]) {
-    const field = message[language][i]
+  for (const i in message[Env.language]) {
+    const field = message[Env.language][i]
     if (field == "<INSERTNAME>") {
       output_text = output_text.concat(name)
     } else if (field == "<INSERTTOTAL>") {
@@ -2479,10 +2480,10 @@ export function profile_siblings(name, siblingCount, sisters, brothers, language
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function profile_where(name, language) {
+export function profile_where(name) {
   const p = document.createElement('p')
-  for (const i in Text.profile_where[language]) {
-    const field = Text.profile_where[language][i]
+  for (const i in Text.profile_where[Env.language]) {
+    const field = Text.profile_where[Env.language][i]
     if (field == "<INSERTNAME>") {
       const msg = document.createTextNode(name)
       p.appendChild(msg)
@@ -2494,7 +2495,7 @@ export function profile_where(name, language) {
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function residents(zoo, language) {
+export function residents(zoo) {
   // Zoo search: display a header for the resident animals
   // that didn't recently leave or arrive
   const link = document.createElement('a')
@@ -2504,10 +2505,10 @@ export function residents(zoo, language) {
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
   })
-  const info = Show.acquireZooInfo(zoo, language)
+  const info = Show.acquireZooInfo(zoo, Env.language)
   const p = document.createElement('p')
-  for (const i in Text.zoo_header_other_pandas[language]) {
-    const field = Text.zoo_header_other_pandas[language][i]
+  for (const i in Text.zoo_header_other_pandas[Env.language]) {
+    const field = Text.zoo_header_other_pandas[Env.language][i]
     if (field == "<INSERTZOO>") {
       const msg = document.createTextNode(info.name)
       p.appendChild(msg)
@@ -2520,12 +2521,12 @@ export function residents(zoo, language) {
   return shrinkBoxMessage("residentsHeader", p)
 }
 
-export function shovel_pandas(language) {
+export function shovel_pandas() {
   const link = document.createElement('a')
   link.href = "#query/dig"
   const p = document.createElement('p')
-  for (const i in Text.shovel_pandas[language]) {
-    const field = Text.shovel_pandas[language][i]
+  for (const i in Text.shovel_pandas[Env.language]) {
+    const field = Text.shovel_pandas[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }
@@ -2533,15 +2534,15 @@ export function shovel_pandas(language) {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function tag_combo(num, emojis, language) {
+export function tag_combo(num, emojis) {
   const p = document.createElement('p');
   // Emojis come first!
   for (const emoji of emojis) {
     p.appendChild(document.createTextNode(emoji + " "))
   }
   let output_text = ""
-  for (const i in Text.tag_combo[language]) {
-    let field = Text.tag_combo[language][i]
+  for (const i in Text.tag_combo[Env.language]) {
+    let field = Text.tag_combo[Env.language][i]
     if (field == "<INSERTNUM>") {
       output_text = output_text.concat(num)
     } else {
@@ -2560,9 +2561,9 @@ export function tag_combo(num, emojis, language) {
  * If there was an id as part of a tagExpression, rewrite this message using
  * the panda's localized name instead.
  */
-export function tag_subject(num, name, emoji, tag, language) {
+export function tag_subject(num, name, emoji, tag) {
   if (Pandas.checkId(name) == true)
-    name = Pandas.searchPandaId(name)[0].name[language]
+    name = Pandas.searchPandaId(name)[0].name[Env.language]
   if (name != undefined)
     name = Language.capitalNames(name)
   // For translating a tag between languages, we need the first value in
@@ -2571,12 +2572,12 @@ export function tag_subject(num, name, emoji, tag, language) {
   // that can be either keywords or tags.
   let near_tag = undefined
   if (tag in Tags)
-    near_tag = Tags[tag][language][0]
+    near_tag = Tags[tag][Env.language][0]
   else
-    near_tag = Language.polyglots[tag][language][0]
+    near_tag = Language.polyglots[tag][Env.language][0]
   const p = document.createElement('p')
-  for (const i in Text.tag_subject[language]) {
-    let field = Text.tag_subject[language][i]
+  for (const i in Text.tag_subject[Env.language]) {
+    let field = Text.tag_subject[Env.language][i]
     if (field == "<INSERTNUM>") {
       const msg = document.createTextNode(num)
       p.appendChild(msg)
@@ -2609,12 +2610,12 @@ export function tag_subject(num, name, emoji, tag, language) {
   return shrinkBoxMessage("tagSummary", p)
 }
 
-export function trick_or_treat(language) {
+export function trick_or_treat() {
   const link = document.createElement('a')
   link.href = "#query/pumpkin"
   const p = document.createElement('p')
-  for (const i in Text.trick_or_treat[language]) {
-    const field = Text.trick_or_treat[language][i]
+  for (const i in Text.trick_or_treat[Env.language]) {
+    const field = Text.trick_or_treat[Env.language][i]
     const msg = document.createTextNode(field)
     p.appendChild(msg)
   }

@@ -325,14 +325,14 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
   const birthday_count = birthday_animals.length
   if (birthday_count > max_animals) {
     birthday_animals = Pandas.searchBirthdayLitterBias(true, photo_count, max_animals)
-    const overflow = Message.birthday_overflow(birthday_count, language)
+    const overflow = Message.birthday_overflow(birthday_count)
     birthday_div.appendChild(overflow)
   }
   for (const animal of birthday_animals) {
     const info = Show.acquirePandaInfo(animal, language)
     const years_old = Pandas.ageYears(animal)
     // Post the birthday message (with age in years)
-    const message = Message.birthday(info.name, info._id, years_old, language)
+    const message = Message.birthday(info.name, info._id, years_old)
     birthday_div.appendChild(message)
     const photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
@@ -390,8 +390,8 @@ export function creditPhotos(results, language, max_hits) {
   // Write some HTML with summary information for the user and the photo count
   const header = (results["filter"] != undefined)
     ? Message.creditSingleFilter(
-        results["subject"], results["filter"], photo_count, language)
-    : Message.credit(results["subject"], photo_count, language)
+        results["subject"], results["filter"], photo_count)
+    : Message.credit(results["subject"], photo_count)
   content_divs.unshift(header)
   return content_divs
 }
@@ -796,7 +796,7 @@ export function memorialPhotoCreditsGroup(
   const name_list = id_list.map(x => Pandas.searchPandaId(x)[0])
                            .map(x => Language.fallback_name(x))
   const name_string = Language.commaPhraseBare(name_list)
-  const message = Message.memorialGroup(name_string, id_link_string, language)
+  const message = Message.memorialGroup(name_string, id_link_string)
   memorial_div.appendChild(message)
   // Group photos
   let photos = Pandas.searchPhotoTags([group], ["portrait"], "photos", "first")
@@ -971,21 +971,21 @@ function tagPhotoMessage(results, hit_count) {
     const ctag = Language.tagPrimary(tag)
     header = Message.tag_subject(hit_count, results["subject"],
                                  Tags[ctag]["emoji"], 
-                                 ctag, Env.language)
+                                 ctag)
   } else if (results["parsed"] == "set_baby_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const ctag = Language.tagPrimary(tag)
     header = Message.tag_subject(hit_count, results["subject"],
                                  Polyglots[ctag]["emoji"], 
-                                 ctag, Env.language)
+                                 ctag)
   } else if (results["parsed"] == "set_tag_intersection") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
-    header = Message.tag_combo(hit_count, emojis, Env.language)
+    header = Message.tag_combo(hit_count, emojis)
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
     const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
-    header = Message.tag_combo(hit_count, emojis, Env.language)
+    header = Message.tag_combo(hit_count, emojis)
   } else {
     header =
       Show.emptyResult(Message.Text.no_subject_tag_result, Env.language)
@@ -1040,7 +1040,7 @@ function tagPhotoSingle(photo, language, add_emoji) {
  */
 export function updatedNewPhotoCredits(language, photo_count=7) {
   const new_photos_div = document.createElement('div')
-  const message = Message.new_photos(language)
+  const message = Message.new_photos()
   new_photos_div.appendChild(message)
   // Build a set of photos in the desired sort order: zoos, zoo(pandas),
   // new contributors, and finally new photos.
@@ -1297,7 +1297,7 @@ function zooPhotoCreditSingle(photo) {
 
 export function pumpkin(language, photo_count=5) {
   const pumpkin_div  = document.createElement('div')
-  const message = Message.trick_or_treat(language)
+  const message = Message.trick_or_treat()
   pumpkin_div.appendChild(message)
   const animals_photos = Pandas.searchPandaAnyPhotoMedia()
   const photos =
