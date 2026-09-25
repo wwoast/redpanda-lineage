@@ -29,19 +29,19 @@ export function acquirePandaInfo(animal, language) {
   const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
   let bundle = {
             "_id": animal._id,
-            "age": Pandas.age(animal, language),
-       "birthday": Pandas.birthday(animal, language),
+            "age": Pandas.age(animal),
+       "birthday": Pandas.birthday(animal),
      "birthplace": Pandas.myZoo(animal, "birthplace"),
        "children": Pandas.searchPandaChildren(animal._id),
-          "death": Pandas.date(animal, "death", language),
+          "death": Pandas.date(animal, "death"),
             "dad": Pandas.searchPandaDad(animal._id),
-         "gender": Pandas.gender(animal, language),
+         "gender": Pandas.gender(animal),
        "language": language,
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal._id),
             "mom": Pandas.searchPandaMom(animal._id),
-           "name": Pandas.myName(animal, language),
-     "othernames": Pandas.othernames(animal, language),
+           "name": Pandas.myName(animal),
+     "othernames": Pandas.othernames(animal),
           "photo": picture.url,
    "photo_credit": picture.author,
     "photo_index": picture.index,
@@ -76,11 +76,11 @@ function getZooBundle(location, language) {
     const zoo = Language.fallbackEntity(zoos[0])   // Do language fallback strings
     return {
              "_id": Pandas.zooField(zoo, "_id"),
-        "end_date": Pandas.formatDate(location["end_date"], language),
+        "end_date": Pandas.formatDate(location["end_date"]),
   "language_order": Pandas.language_order(zoo),
         "location": Pandas.zooField(zoo, "location")[language],
             "name": Pandas.zooField(zoo, "name")[language],
-      "start_date": Pandas.formatDate(location["start_date"], language)
+      "start_date": Pandas.formatDate(location["start_date"])
     }
   }
 }
@@ -88,9 +88,9 @@ function getZooBundle(location, language) {
 function getUnknownZooBundle(location, language) {
   return {
     "_id": "0",
-    "end_date": Pandas.formatDate(location["end_date"], language),
+    "end_date": Pandas.formatDate(location["end_date"]),
     "language_order": [],
-    "start_date": Pandas.formatDate(location["start_date"], language)
+    "start_date": Pandas.formatDate(location["start_date"])
   }
 }
 
@@ -154,7 +154,7 @@ function animalLink(animal, link_text, language, options) {
   }
   // Set up values for other functions working properly
   // Gender search requires doing a table search by language.
-  const gender = Pandas.gender(animal, language)
+  const gender = Pandas.gender(animal)
   const a = document.createElement('a')
   a.className = 'geneaologyListName'
   // Put the name itself in a span, in case we want to squeeze it width-wise
@@ -1978,7 +1978,7 @@ export const profilePage = {
   },
   /** Underneath a photo, display the subspecies info for the panda */
   species: function(animal, language) {
-    const species_text = document.createTextNode(Pandas.species(animal, language))
+    const species_text = document.createTextNode(Pandas.species(animal))
     const italics = document.createElement('i')
     italics.appendChild(species_text)
     const heading = document.createElement('h4')
@@ -2019,11 +2019,11 @@ export const profilePage = {
           Gui.seen_date[language].replace("<INSERTDATE>", zoo.start_date)
       }
       if ((zoo.end_date != Defaults.unknown[language]) && 
-          (zoo.end_date == Pandas.date(animal, "death", Env.language))) {
+          (zoo.end_date == Pandas.date(animal, "death"))) {
         zoo_icon = Emoji.died
       }
       if ((zoo.start_date != Defaults.unknown[language]) &&
-          (zoo.start_date == Pandas.formatDate(animal["birthday"], language)) &&
+          (zoo.start_date == Pandas.formatDate(animal["birthday"])) &&
           (zoo_icon != Emoji.home)) {
         zoo_icon = Emoji.born_at
       }
@@ -2275,7 +2275,7 @@ export const resultsPage = {
     if (info.zoo != undefined && search_context == "arrived") {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.from)[0]
-      const target_date = Pandas.formatDate(info.search_context.move_date, language)
+      const target_date = Pandas.formatDate(info.search_context.move_date)
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
@@ -2295,7 +2295,7 @@ export const resultsPage = {
     if (info.zoo != undefined && search_context == "departed") {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.to)[0]
-      const target_date = Pandas.formatDate(info.search_context.move_date, language)
+      const target_date = Pandas.formatDate(info.search_context.move_date)
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
@@ -2314,7 +2314,7 @@ export const resultsPage = {
     if (info.zoo != undefined && search_context == "born_at") {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
-      const target_date = Pandas.formatDate(info.search_context.move_date, language)
+      const target_date = Pandas.formatDate(info.search_context.move_date)
       let icon = Emoji.born_at
       const target_text = target_zoo.name[language]
       const compare_text = info.zoo.name[language]
@@ -2338,7 +2338,7 @@ export const resultsPage = {
     if (info.zoo != undefined && search_context == "born_or_lived" ) {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
-      const target_date = Pandas.formatDate(info.search_context.move_date, language)
+      const target_date = Pandas.formatDate(info.search_context.move_date)
       let icon = Emoji.zoo
       const target_text = target_zoo.name[language]
       const compare_text = info.zoo.name[language]
@@ -2361,14 +2361,14 @@ export const resultsPage = {
         let icon = Emoji.range_previous
         if (range.length < 2 && info.death == Defaults.unknown[language])
           icon = Emoji.truck   // When they arrived, haven't left
-        const start_range = Pandas.formatDate(range.shift(), language)
+        const start_range = Pandas.formatDate(range.shift())
         let end_range = range.shift()
         if (end_range == undefined && info.death != Defaults.unknown[language])
           end_range = " \u2014 " + info.death
         else if (end_range == undefined)
           end_range = ""
         else
-          end_range = " \u2014 " + Pandas.formatDate(end_range, language)
+          end_range = " \u2014 " + Pandas.formatDate(end_range)
         entry.innerText = `${icon} ${start_range}${end_range}`
         details.appendChild(entry)
       }
@@ -2774,7 +2774,7 @@ export const resultsPage = {
     const details = document.createElement('div')
     details.className = "zooDetails"
     if (info.closed != Defaults.zoo.closed) {
-      const date = Pandas.formatDate(info.closed, Env.language)
+      const date = Pandas.formatDate(info.closed)
       const closed = Message.closed(date)
       details.appendChild(closed)
     }

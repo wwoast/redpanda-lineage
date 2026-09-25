@@ -337,7 +337,7 @@ export function searchBabies(year) {
  * other functions which are for showing birthday pandas on the front page.
  */
 export function searchBirthdayList(input_date) {
-  const input_ymd = parseDate(input_date, Env.language)
+  const input_ymd = parseDate(input_date)
   // Make sure we're using a 4-digit year, assume > 2000
   if (input_ymd["year"] < 2000) {
     input_ymd["year"] = input_ymd["year"] + 2000
@@ -510,7 +510,7 @@ export function searchDead(year) {
 }
 
 export function searchDiedList(input_date) {
-  let died_date_ymd = parseDate(input_date, Env.language)
+  let died_date_ymd = parseDate(input_date)
   // Make sure we're using a 4-digit year, assume > 2000
   if (died_date_ymd["year"] < 2000)
     died_date_ymd["year"] = died_date_ymd["year"] + 2000
@@ -1296,7 +1296,7 @@ function sortByName(nodes, name_field) {
  * specific photos you're pulling out of the group file, because the group
  * name is based on the arrangement of pandas in the photo.
  */
-function sortByNameWithGroups(nodes, photo_list, language) {
+function sortByNameWithGroups(nodes, photo_list) {
   nodes = nodes.map(function(node) {
     if (node.type == "media") {
       // Media file. Get the group caption based on your desired photo in the list
@@ -1305,7 +1305,7 @@ function sortByNameWithGroups(nodes, photo_list, language) {
         .filter(url => node.photos.map(photo => photo.url).includes(url))[0]
       const desired_photo = node.photos.filter(photo => photo.url == desired_url)[0]
       node.name = {}   // Add synthetic name field to a media node
-      node.name[language] = groupMediaCaption(node, desired_photo)
+      node.name[Env.language] = groupMediaCaption(node, desired_photo)
     }
     return node
   })
@@ -1329,9 +1329,9 @@ export function sortByDate(nodes, field_name, mode="descending") {
  * photo lists don't have names. So rebuild the animals list and then arrange
  * the set of items based on the animal list.
  */
-export function sortPhotosByName(photo_list, language) {
+export function sortPhotosByName(photo_list) {
   let animals = photo_list.map(photo => searchPandaId(photo._id)[0])
-  animals = sortByNameWithGroups(animals, photo_list, language)
+  animals = sortByNameWithGroups(animals, photo_list)
   const output_list = animals.map(animal =>
     photo_list.filter(photo => photo._id == animal._id)[0])
   return output_list
@@ -1374,44 +1374,44 @@ export function sortYoungestToOldest(nodes) {
  * 
  *   The date of their passing.
  */
-export function age(animal, language) {
+export function age(animal) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   const birthday = new Date(birth)
   const death = animal['death']
   // If the animal's date of death is listed as "unknown", this means the animal
   // passed at an undetermined date, so its age is also unknown.
   if (death == "unknown")
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   const endday = (death == undefined ? new Date() : new Date(death))
   const ms_per_day = 1000 * 60 * 60 * 24
   const age_days = (endday - birthday)/ms_per_day
   const age_years = Math.floor(age_days / 365)
   const age_months = Math.floor(age_days / 31)
   // Specify whether you say "day" or "days" in the age string
-  function pluralize(count, time_word, language) {
-    return (count < 2) ? Defaults.age[language][time_word]
-                       : Defaults.age[language][time_word + "s"]
+  function pluralize(count, time_word) {
+    return (count < 2) ? Defaults.age[Env.language][time_word]
+                       : Defaults.age[Env.language][time_word + "s"]
   }
-  function spacing(language) {
-    return (language == "ja") ? '' : " "
+  function spacing() {
+    return (Env.language == "ja") ? '' : " "
   }
   // Date heuristics: Print the age in days if younger than 100 days old.
   // Otherwise, print the age in terms of months and years, up to two years,
   // where you should just print the age in years.
   if (age_days <= 100) {
-    return (Math.floor(age_days)).toString() + spacing(language) + pluralize(age_days, "day", language)
+    return (Math.floor(age_days)).toString() + spacing() + pluralize(age_days, "day")
   } else if (age_days <= 365) {
-    return age_months.toString() + spacing(language) + Defaults.age[language]['months']
+    return age_months.toString() + spacing() + Defaults.age[Env.language]['months']
   } else if (age_days <= 403) {
     // 403/31 == 13, lowest number that is still cleanly one year and less than one month
-    return "1" + spacing(language) + Defaults.age[language]['year']
+    return "1" + spacing() + Defaults.age[Env.language]['year']
   } else if (age_days <= 730) {
-    return "1" + spacing(language) + Defaults.age[language]['year'] + " " + 
-           (age_months - 12).toString() + spacing(language) + pluralize((age_months - 12).toString(), "month", language)
+    return "1" + spacing() + Defaults.age[Env.language]['year'] + " " +
+           (age_months - 12).toString() + spacing() + pluralize((age_months - 12).toString(), "month")
   } else {
-    return age_years.toString() + spacing(language) + Defaults.age[language]['years']
+    return age_years.toString() + spacing() + Defaults.age[Env.language]['years']
   }
 }
 
@@ -1429,19 +1429,19 @@ export function ageYears(animal) {
 }
 
 /** Given an animal, return their birthday, formatted to the correct locale. */
-export function birthday(animal, language) {
-  return date(animal, 'birthday', language)
+export function birthday(animal) {
+  return date(animal, 'birthday')
 }
 
 /** 
  * Given an animal and a language, return one of the panda's date fields in the
  * local format.
  */
-export function date(animal, field, language) {
+export function date(animal, field) {
   const date = animal[field]
   if ((date == undefined) || (date == "unknown"))
-    return Defaults.unknown[language]
-  return formatDate(date, language)
+    return Defaults.unknown[Env.language]
+  return formatDate(date)
 }
 
 /** 
@@ -1465,14 +1465,14 @@ export function field(animal, field, mode="animal") {
  * sightings, it tracks dates less granularly, since pandas are endangered and
  * we need to protect their whereabouts.
  */
-export function formatDate(date, language) {
+export function formatDate(date) {
   if ((date == undefined) || (date == "unknown"))
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   if ((date.split("/").length == 2) &&
       (Gui[date.split("/")[1].toLowerCase()] != undefined)) {
-    return formatSeason(date, language)
+    return formatSeason(date)
   }
-  let format = Defaults.date[language]
+  let format = Defaults.date[Env.language]
   const [ year, month, day ] = date.split("/")
   format = format.replace("YYYY", year)
   format = format.replace("MM", month)
@@ -1481,30 +1481,30 @@ export function formatDate(date, language) {
 }
 
 /** Given a date string with a year and a season, format that date */
-function formatSeason(date, language) {
+function formatSeason(date) {
   if ((date == undefined) || (date == "unknown"))
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   let [ year, season ] = date.split("/")
   season = season.toLowerCase()
-  let format = Defaults.date_season[language]
+  let format = Defaults.date_season[Env.language]
   format = format.replace("YYYY", year)
-  format = format.replace("SEASON", Gui[season][language])
+  format = format.replace("SEASON", Gui[season][Env.language])
   return format
 }
 
 /** Given a date string, return just the year */
-export function formatYear(date, language) {
+export function formatYear(date) {
   if ((date == undefined) || (date == "unknown"))
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   const [ year, month, day ] = date.split("/")
   return year
 }
 
 /** Given an animal and a language, return the proper gender string. */
-export function gender(animal, language) {
+export function gender(animal) {
   const gender = animal["gender"]
-  return gender == undefined ? Defaults.unknown[language] 
-                             : Defaults.gender[gender][language]
+  return gender == undefined ? Defaults.unknown[Env.language] 
+                             : Defaults.gender[gender][Env.language]
 }
 
 /** 
@@ -1740,10 +1740,10 @@ function locatorToPhoto(locator) {
 }
 
 /** Given an animal and a chosen language, return details for a red panda. */
-export function myName(animal, language) {
-  return (!animal.name || animal.name[language] == undefined)
-    ? Defaults.animal.name[language]
-    : animal.name[language]
+export function myName(animal) {
+  return (!animal.name || animal.name[Env.language] == undefined)
+    ? Defaults.animal.name[Env.language]
+    : animal.name[Env.language]
 }
 
 /** 
@@ -1769,9 +1769,9 @@ export function myZoo(animal, field) {
 }
 
 /** Given an animal and a chosen language, return nicknames. */
-export function nicknames(animal, language) {
-  return animal.nicknames[language] == undefined
-    ? Defaults.animal.nicknames[language]
+export function nicknames(animal) {
+  return animal.nicknames[Env.language] == undefined
+    ? Defaults.animal.nicknames[Env.language]
     : animal[field]
 }
 
@@ -1779,17 +1779,17 @@ export function nicknames(animal, language) {
  * Given an animal and a chosen language, return alternate names, such as
  * alternative Hiragana/Katakana/Kanji spellings of names.
  */
-export function othernames(animal, language) {
+export function othernames(animal) {
   return animal.othernames[language] == undefined
-    ? Defaults.animal.othernames[language]
-    : animal.othernames[language]
+    ? Defaults.animal.othernames[Env.language]
+    : animal.othernames[Env.language]
 }
 
 /** 
  * Parse a date based on the observed values, falling back to a
  * language-specific date format as appropriate.
  */
-function parseDate(date, language) {
+function parseDate(date) {
   // Whatever the non-numeric date delimiters are, replace it with slash.
   // Then chop off any delimiters at the beginning or end of the string.
   date = date.replace(/[^\d]/g, '/')
@@ -1805,7 +1805,7 @@ function parseDate(date, language) {
       return {"year": nums[1], "month": nums[0], "day": "any"}
     } else {
       // no four-digit year, so assume MM/DD based on locale
-      var locale = DateLocale["mm_dd"][language].split("_")
+      var locale = DateLocale["mm_dd"][Env.language].split("_")
       if (locale[0] == "mm") {
         return {"year": "any", "month": nums[0], "day": nums[1]}
       } else {
@@ -1814,7 +1814,7 @@ function parseDate(date, language) {
     }
   } else if (nums.length == 3) {
     // Some form of month/day/year
-    const locale = DateLocale["yy_mm_dd"][language].split("_")
+    const locale = DateLocale["yy_mm_dd"][Env.language].split("_")
     if (nums[0] > 31) {    // Almost certainly YYYY/MM/DD
       return {"year": nums[0], "month": nums[1], "day": nums[2]}
     } else if (nums[2] > 31) {
@@ -1830,7 +1830,7 @@ function parseDate(date, language) {
         }
       }
     } else {   // All two-digit values for dates, so use the locale
-      const locale = DateLocale["yy_mm_dd"][language].split("_")
+      const locale = DateLocale["yy_mm_dd"][Env.language].split("_")
       if (locale[0] == "mm") {
         return {"year": nums[2], "month": nums[0], "day": nums[1]}
       } else if (locale[0] == "dd") {
@@ -1881,22 +1881,22 @@ export function profilePhoto(animal, naturalIndex, mode="animal") {
 }
 
 /** Given an animal species id, return the full species name */
-export function species(animal, language) {
+export function species(animal) {
   // 0th value in `Defaults.species` is fulgens
   // 1th vlue in `Defaults.species` is styani
   // The panda files list the species as a number that is off by one from this
   if (animal["species"] == undefined) {
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   }
   const idx = parseInt(animal["species"]) - 1
-  return Defaults.species[language][idx]
+  return Defaults.species[Env.language][idx]
 }
 
 /** Given a wild location found with `location()`, return the location name. */
-export function wildName(wild, language) {
-  return wild.name[language] == undefined
-    ? Defaults.wild.name[language]
-    : wild.name[language]
+export function wildName(wild) {
+  return wild.name[Env.language] == undefined
+    ? Defaults.wild.name[Env.language]
+    : wild.name[Env.language]
 }
 
 /**
@@ -1908,10 +1908,10 @@ export function wildField(wild, field) {
 }
 
 /** Given a zoo found with `location()`, return the name of the zoo. */
-export function zooName(zoo, language) {
-  return zoo.name[language] == undefined
-    ? Defaults.zoo.name[language]
-    : zoo.name[language]
+export function zooName(zoo) {
+  return zoo.name[Env.language] == undefined
+    ? Defaults.zoo.name[Env.language]
+    : zoo.name[Env.language]
 }
 
 /** 

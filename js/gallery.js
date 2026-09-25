@@ -1119,7 +1119,7 @@ function updatedPhotoOrdering(language, photo_count) {
       return (!Object.keys(Defaults.authors).includes(photo.author))
     })
   let zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count)
-  zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language)
+  zoo_chosen = Pandas.sortPhotosByName(zoo_chosen)
   // Photos from new contributors just for pandas, not for zoos
   const author_locators = P.db["_updates"].authors
   const author_photos_all = Pandas.locatorsToPhotos(author_locators)
@@ -1134,7 +1134,7 @@ function updatedPhotoOrdering(language, photo_count) {
     // If too many new people contributing photos, reduce down to one per contributor
     author_chosen = Pandas.unique(author_chosen, "credit")
   }
-  author_chosen = Pandas.sortPhotosByName(author_chosen, language)
+  author_chosen = Pandas.sortPhotosByName(author_chosen)
   // Photos of newly introduced pandas
   const new_panda_locators = P.db["_updates"].entities
     .filter(locator => locator.indexOf("panda.") == 0)
@@ -1145,7 +1145,7 @@ function updatedPhotoOrdering(language, photo_count) {
         return (!Object.keys(Defaults.authors).includes(photo.author))
       })
   let new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count)
-  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language)
+  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen)
   // New pandas, or new panda group photos
   const panda_locators = P.db["_updates"].entities
     .filter(locator => (!zoo_locators.includes(locator)))
@@ -1197,7 +1197,7 @@ function updatedPhotoOrdering(language, photo_count) {
         return (currenttime - commitdate > ms_per_week)
       })
     zoo_pandas = Pandas.unique(zoo_pandas, "_id")
-    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language)
+    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas)
     for (const zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Emoji.profile   // heart_panel
       if (author_photos_all.map(photo => photo.author).includes(zoo_panda.author)) {
@@ -1256,7 +1256,7 @@ function updatedPhotoOrdering(language, photo_count) {
       .map(others => others._id)
       .includes(photo._id)))
   let update_chosen = Pandas.randomChoice(update_photos, photo_count)
-  update_chosen = Pandas.sortPhotosByName(update_chosen, language)
+  update_chosen = Pandas.sortPhotosByName(update_chosen)
   for (const update_photo of update_chosen) {
     if (photo_count == 0) {
       return output_photos
