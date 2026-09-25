@@ -329,7 +329,7 @@ export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
     birthday_div.appendChild(overflow)
   }
   for (const animal of birthday_animals) {
-    const info = Show.acquirePandaInfo(animal, language)
+    const info = Show.acquirePandaInfo(animal)
     const years_old = Pandas.ageYears(animal)
     // Post the birthday message (with age in years)
     const message = Message.birthday(info.name, info._id, years_old)
@@ -458,7 +458,7 @@ function creditPhotosPage(page, results, language, max_hits) {
 export function familyProfilePhoto(
   animal, chosen_photo, language, relationship, frame_class, multiple=false
 ) {
-  const info = Show.acquirePandaInfo(animal, language)
+  const info = Show.acquirePandaInfo(animal)
   // The overall container
   const container = document.createElement('div')
   container.className = "photoSample"
@@ -490,7 +490,7 @@ export function familyProfilePhoto(
     animal_relation.href = `#profile/${animal._id}`
     const relation_text = document.createElement('h5')
     relation_text.className = "caption familyTitle"
-    const gender = Show.genderAnimal(animal, language, "caption gender")
+    const gender = Show.genderAnimal(animal, "caption gender")
     relation_text.appendChild(gender)
     // Span text can be cinched/tightened if too wide
     const span = document.createElement('span')
@@ -747,7 +747,7 @@ export function memorialPhotoCredits(
   const memorial_div = document.createElement('div')
   for (const id of id_list) {
     const animal = Pandas.searchPandaId(id)[0]
-    const info = Show.acquirePandaInfo(animal, language)
+    const info = Show.acquirePandaInfo(animal)
     const message =
       message_function(info.name, info._id, info.birthday, info.death, language)
     memorial_div.appendChild(message)
@@ -883,7 +883,7 @@ function pandaPhotoCreditSingle(photo) {
   } else {
     // TODO: handle non-panda photos
     const animal = Pandas.searchPandaId(id)[0]
-    const info = Show.acquirePandaInfo(animal, Env.language)
+    const info = Show.acquirePandaInfo(animal)
     caption.innerText = info.name
     caption_link.href = `#panda/${id}/photo/${photo.index}`
   }
@@ -963,8 +963,7 @@ function tagPhotosPage(page, results, language, max_hits, add_emoji) {
 function tagPhotoMessage(results, hit_count) {
   let header = undefined
   if (hit_count == 0) {
-    header =
-      Show.emptyResult(Message.Text.no_subject_tag_result, Env.language)
+    header = Show.emptyResult(Message.Text.no_subject_tag_result)
   } else if ((results["parsed"] == "set_tag") ||
              (results["parsed"] == "set_tag_subject")) {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
@@ -987,8 +986,7 @@ function tagPhotoMessage(results, hit_count) {
     const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else {
-    header =
-      Show.emptyResult(Message.Text.no_subject_tag_result, Env.language)
+    header = Show.emptyResult(Message.Text.no_subject_tag_result)
   }
   return header
 }
@@ -1015,7 +1013,7 @@ function tagPhotoSingle(photo, language, add_emoji) {
     caption_link.href = `#group/${panda_route}`
   } else {
     // TODO: other node types
-    const info = Show.acquirePandaInfo(node, language)
+    const info = Show.acquirePandaInfo(node)
     caption.innerText = info.name
     caption_link.href = `#panda/${node._id}/photo/${photo.index}`
   }
@@ -1072,7 +1070,7 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
       const panda_route = node["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(node, Env.language)
+      const info = Show.acquirePandaInfo(node)
       updateName = info.name
     }
     if ("name_icon" in photo)
@@ -1324,7 +1322,7 @@ export function pumpkin(language, photo_count=5) {
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(animal, Env.language)
+      const info = Show.acquirePandaInfo(animal)
       updateName = info.name
     }
     name_caption_span.innerText = updateName
@@ -1385,7 +1383,7 @@ export function taglist(language, photo_count=5, taglist, message_function) {
       const panda_route = node["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
-      const info = Show.acquirePandaInfo(node, Env.language)
+      const info = Show.acquirePandaInfo(node)
       updateName = info.name
     }
     name_caption_span.innerText = updateName

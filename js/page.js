@@ -658,7 +658,7 @@ class MediaPage {
     // TODO: count results and display a next page button if necessary
     Env.paging.display_button = true
     // Generate new content frames
-    const gallery_div = Show.mediaPage.gallery(results["hits"][0], Env.language)
+    const gallery_div = Show.mediaPage.gallery(results["hits"][0])
     const new_content = document.createElement('div')
     new_content.className = "profile"
     new_content.id = "contentFrame"
@@ -739,18 +739,18 @@ class ProfilePage {
     Env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
-    const profile_div = Show.profilePage.panda(results["hits"][0], Env.language)
-    const where_divs = Show.profilePage.where(results["hits"][0], Env.language)
-    const family_divs = Show.profilePage.family(results["hits"][0], Env.language)
-    const children_divs = Show.profilePage.children(results["hits"][0], Env.language)
-    const siblings_divs = Show.profilePage.siblings(results["hits"][0], Env.language)
+    const profile_div = Show.profilePage.panda(results["hits"][0])
+    const where_divs = Show.profilePage.where(results["hits"][0])
+    const family_divs = Show.profilePage.family(results["hits"][0])
+    const children_divs = Show.profilePage.children(results["hits"][0])
+    const siblings_divs = Show.profilePage.siblings(results["hits"][0])
     // Generate new content frames
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
     shrinker.appendChild(profile_div)
     for (const content_div of where_divs.concat(family_divs)
-                                      .concat(children_divs)
-                                      .concat(siblings_divs)) {
+                                        .concat(children_divs)
+                                        .concat(siblings_divs)) {
       shrinker.appendChild(content_div)
     }
     const new_content = document.createElement('div')
@@ -791,18 +791,17 @@ class ResultsPage {
     let content_divs = []
     if (results["hits"].length == 0) {
       // No results? On desktop, bring up a sad panda
-      content_divs.push(
-        Show.emptyResult(Message.Text.no_result, Env.language))
+      content_divs.push(Show.emptyResult(Message.Text.no_result))
     }
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
       if (entity._id < 0) {
-        content_divs.push(Show.resultsPage.zoo(entity, Env.language))
+        content_divs.push(Show.resultsPage.zoo(entity))
         content_divs = content_divs.concat(
-          Show.resultsPage.zooAnimals(entity, Env.language))
+          Show.resultsPage.zooAnimals(entity))
         content_divs.push(Show.zooDivider("bear-bamboo"))
       } else
-        content_divs.push(Show.resultsPage.panda(entity, Env.language))
+        content_divs.push(Show.resultsPage.panda(entity))
     })
     // Remove the last element if it's a divider
     const last_element = content_divs[content_divs.length - 1]
@@ -822,8 +821,7 @@ class ResultsPage {
     let content_divs = []
     if (results["hits"].length == 0) {
       // Push an error message
-      content_divs.push(
-        Show.emptyResult(Message.Text.no_group_media_result, Env.language))
+      content_divs.push(Show.emptyResult(Message.Text.no_group_media_result))
       return content_divs
     }
     // Then, start displaying a list of group photos paged out
@@ -836,7 +834,7 @@ class ResultsPage {
     const animal_results = []
     for (const id of animal_ids) {
       const entity = Pandas.searchPandaId(id)[0]
-      animal_results.push(Show.resultsPage.panda(entity, Env.language))
+      animal_results.push(Show.resultsPage.panda(entity))
     }
     // Let some photos appear first, unless we don't have very many photos
     let insert = 0
@@ -861,11 +859,11 @@ class ResultsPage {
     // Zoo results
     results["hits"].forEach(function(entity) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.resultsPage.zoo(entity, Env.language))
+      content_divs.push(Show.resultsPage.zoo(entity))
       animals = Pandas.sortOldestToYoungest(
         Pandas.searchPandaZooCurrent(entity._id))
       animals.forEach(animal =>
-        content_divs.push(Show.resultsPage.panda(animal, Env.language)))
+        content_divs.push(Show.resultsPage.panda(animal)))
       content_divs.push(Show.zooDivider("bear-bamboo"))
     })
     // Remove the last element if it's a divider
