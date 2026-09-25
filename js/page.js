@@ -422,24 +422,21 @@ class HomePage {
       new_content.className = "results birthdayPandas"
       new_content.id = "contentFrame"
       // Halloween
-      // const halloween = Gallery.pumpkin(Env.language, 3)
+      // const halloween = Gallery.pumpkin(3)
       // new_content.appendChild(halloween);
       // Kin Gin special
-      // const kingin = Gallery.memorialPhotoCreditsGroup(
-      //   Env.language, "media.7.gin-kin", ["22", "17"], 3)
+      // const kingin =
+      //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
       const memorial_ids = ["6"]
       if (!Options.Data.hideDeadPandas) {
-        var departed =
-          Gallery.memorialPhotoCredits(
-            Env.language, memorial_ids, 3, Message.memorial)
+        const departed = Gallery.memorialPhotoCredits(memorial_ids, 3, Message.memorial)
         new_content.appendChild(departed)
       }
       // Please remember these pandas
       // const memorial = 
-      //   Gallery.memorialPhotoCredits(
-      //     Env.language, ["59"], 3, Message.missing_you)
+      //   Gallery.memorialPhotoCredits(["59"], 3, Message.missing_you)
       // new_content.appendChild(memorial)
       // Birthday logic
       const min_photo_count = 3
@@ -447,8 +444,7 @@ class HomePage {
       const birthday_count =
         Pandas.searchBirthdayToday(true, min_photo_count).length
       if (birthday_count > 0) {
-        const birthday = Gallery.birthdayPhotoCredits(
-          Env.language, min_photo_count, max_birthday_animals)
+        const birthday = Gallery.birthdayPhotoCredits(min_photo_count, max_birthday_animals)
         new_content.appendChild(birthday)
       }
       // Special galleries
@@ -458,7 +454,7 @@ class HomePage {
       }
       const nearby = Message.findNearbyZoo()
       new_content.appendChild(nearby)
-      const new_photos = Gallery.updatedNewPhotoCredits(Env.language)
+      const new_photos = Gallery.updatedNewPhotoCredits()
       new_content.appendChild(new_photos)
       old_content.replaceWith(new_content)
       shrinkNames()
@@ -496,21 +492,18 @@ class HomePage {
   special_memorial() {
     const choice = Env.paging.seed
     if (choice % 7 == 0) {
-      const laila = Gallery.memorialPhotoCredits(
-        Env.language, ["60"], 3, Message.missing_you)
+      const laila = Gallery.memorialPhotoCredits(["60"], 3, Message.missing_you)
       return laila
     } else if (choice % 5 == 0) {
-      const kokin = Gallery.memorialPhotoCredits(
-        Env.language, ["23"], 3, Message.missing_you)
+      const kokin = Gallery.memorialPhotoCredits(["23"], 3, Message.missing_you)
       return kokin
     } else if (choice % 3 == 0) {
-      const hokuto = Gallery.memorialPhotoCredits(
-        Env.language, ["58"], 3, Message.missing_you);
+      const hokuto = Gallery.memorialPhotoCredits(["58"], 3, Message.missing_you)
       return hokuto
     } else {
       // Group memorial for Kin and Gin, temporarily Hokuto
-      const kingin = Gallery.memorialPhotoCreditsGroup(
-        Env.language, "media.7.gin-kin", ["22", "17"], 3)
+      const kingin =
+        Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
       return kingin
     }
   }
@@ -546,7 +539,6 @@ class HomePage {
     ]
     const choice = Env.paging.seed % special_galleries.length
     const special = Gallery.taglist(
-      Env.language, 
       special_galleries[choice].photo_count,
       special_galleries[choice].taglist,
       special_galleries[choice].message)
@@ -882,13 +874,13 @@ class ResultsPage {
         (results["parsed"] == "set_tag_subject") ||
         (results["parsed"] == "set_baby_subject")) {
       // Basic tag views with emoji in the name field
-      content_divs = Gallery.tagPhotos(results, Env.language, max_hits, true)
+      content_divs = Gallery.tagPhotos(results, max_hits, true)
     } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
       // Combo tag views, no emoji in the name field
-      content_divs = Gallery.tagPhotos(results, Env.language, max_hits, false)
+      content_divs = Gallery.tagPhotos(results, max_hits, false)
     } else if ((results["parsed"] == "set_credit_photos") || 
                (results["parsed"] == "set_credit_photos_filtered")) {
-      content_divs = Gallery.creditPhotos(results, Env.language, max_hits)
+      content_divs = Gallery.creditPhotos(results, max_hits)
     }
     // HACK: revert to results mode
     Query.clear()

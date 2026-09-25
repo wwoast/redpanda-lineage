@@ -318,7 +318,7 @@ export const url = {
  * For a panda's birthday, grab a handful of photos (3 by default). Display a
  * birthday header above the photos and credit messages below each one.
  */
-export function birthdayPhotoCredits(language, photo_count=3, max_animals=5) {
+export function birthdayPhotoCredits(photo_count=3, max_animals=5) {
   const birthday_div = document.createElement('div')
   // Pandas must be alive, and have at least photo_count photos
   const birthday_animals = Pandas.searchBirthdayToday(true, photo_count)
@@ -383,8 +383,8 @@ export function condenseDogEar(nav) {
 }
 
 /** `pandaPhotoCredits` and `zooPhotoCredits`, interleaved as results */
-export function creditPhotos(results, language, max_hits) {
-  const photo_results = creditPhotosPage(0, results, language, max_hits)
+export function creditPhotos(results, max_hits) {
+  const photo_results = creditPhotosPage(0, results, max_hits)
   const content_divs = photo_results["output"]
   const photo_count = photo_results["hit_count"]
   // Write some HTML with summary information for the user and the photo count
@@ -403,14 +403,14 @@ export function creditPhotos(results, language, max_hits) {
  * TODO: `zooPhotoCredits` and `pandaPhotoCredits` shouldn't return divs yet,
  * to prevent loading the entire image set each time you only want `set/N`
  */
-function creditPhotosPage(page, results, language, max_hits) {
+function creditPhotosPage(page, results, max_hits) {
   let content_divs = []
   const initial_max_hits = max_hits
   // We must unspool the results because each entity we query here can have
   // multiple results returned, and the paging must only return the first
   // max_hits content.
   const grab_photos = results["hits"].flatMap(entity => 
-    nodePhotoCredits(entity, results["subject"], language))
+    nodePhotoCredits(entity, results["subject"]))
   const starting_point = page * Env.paging.results_count
   // Working copy of photo set, starting at the nth page of photos
   let content_photos = grab_photos.slice(starting_point)
@@ -431,7 +431,6 @@ function creditPhotosPage(page, results, language, max_hits) {
     Env.paging.callback.arguments = [
       page + pages_shown,
       results,
-      language,
       Env.paging.results_count
     ]
     Env.paging.callback.frame_id = "contentFrame"
@@ -456,7 +455,7 @@ function creditPhotosPage(page, results, language, max_hits) {
  * additionally, give it a relationship value.
  */
 export function familyProfilePhoto(
-  animal, chosen_photo, language, relationship, frame_class, multiple=false
+  animal, chosen_photo, relationship, frame_class, multiple=false
 ) {
   const info = Show.acquirePandaInfo(animal)
   // The overall container
@@ -503,7 +502,7 @@ export function familyProfilePhoto(
     relation_text.appendChild(span)
     // Emoji separation not cinched
     let emojis = ""
-    if (relationship == Gui.me[language])
+    if (relationship == Gui.me[Env.language])
       emojis = "\u200A" + Emoji.profile
     if (multiple == true)
       emojis = Emoji.question
@@ -693,13 +692,13 @@ function groupPhotoSingle(entityPhoto) {
  * the basis of having the most tags, and are ideally interesting "action
  * shots" of an individual animal.
  */
-function actionPhotos(language, id_list, photo_count=10) {
+function actionPhotos(id_list, photo_count=10) {
   return   // TOWRITE
 }
 
 /** Generic version of the birthday / memorial logic */
 export function genericPhotoCredits(
-  language, id_list, photo_count, tag_list, message_function, message_params
+  id_list, photo_count, tag_list, message_function, message_params
 ) {
   const generic_div = document.createElement('div')
   for (const id of id_list) {
@@ -741,15 +740,13 @@ export function genericPhotoCredits(
  * Give it manual-compiled lists of animals who died recently. Return a div
  * with the exact desired output.
  */
-export function memorialPhotoCredits(
-  language, id_list, photo_count=5, message_function
-) {
+export function memorialPhotoCredits(id_list, photo_count=5, message_function) {
   const memorial_div = document.createElement('div')
   for (const id of id_list) {
     const animal = Pandas.searchPandaId(id)[0]
     const info = Show.acquirePandaInfo(animal)
     const message =
-      message_function(info.name, info._id, info.birthday, info.death, language)
+      message_function(info.name, info._id, info.birthday, info.death)
     memorial_div.appendChild(message)
     const photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
@@ -787,9 +784,7 @@ export function memorialPhotoCredits(
  * div with the exact desired output. Use manually defined `id_list` to decide
  * the proper aesthetic ordering of names.
  */
-export function memorialPhotoCreditsGroup(
-  language, group_id, id_list, photo_count=5
-) {
+export function memorialPhotoCreditsGroup(group_id, id_list, photo_count=5) {
   const memorial_div = document.createElement('div')
   const group = Pandas.searchPandaId(group_id)[0]
   const id_link_string = id_list.join("/")
@@ -842,7 +837,7 @@ export function memorialPhotoCreditsGroup(
  * that match the username that was searched. Used for making reports of all
  * the photos in the website contributed by a single author.
  */
-function nodePhotoCredits(node, credit, language) {
+function nodePhotoCredits(node, credit) {
   const photos = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
@@ -896,10 +891,10 @@ function pandaPhotoCreditSingle(photo) {
 }
 
 /** Display a gallery of photos with a given tag. */
-export function tagPhotos(results, language, max_hits, add_emoji) {
+export function tagPhotos(results, max_hits, add_emoji) {
   const hit_count = results["hits"].length
   // Get the first page of content
-  const paging_data = tagPhotosPage(0, results, language, max_hits, add_emoji)
+  const paging_data = tagPhotosPage(0, results, max_hits, add_emoji)
   const content_divs = paging_data["output"]
   // Build a summary message based on which tag_photo parser mode we have,
   // and whether we have hits or not.
@@ -912,7 +907,7 @@ export function tagPhotos(results, language, max_hits, add_emoji) {
  * Use a page counter to determine where in the results count to start showing
  * photos. If photos on this page < `max_hits`, hide the next page button
  */
-function tagPhotosPage(page, results, language, max_hits, add_emoji) {
+function tagPhotosPage(page, results, max_hits, add_emoji) {
   let content_divs = []
   const initial_max_hits = max_hits
   const starting_point = page * Env.paging.results_count
@@ -937,7 +932,6 @@ function tagPhotosPage(page, results, language, max_hits, add_emoji) {
     Env.paging.callback.arguments = [
       page + pages_shown,
       results,
-      language,
       Env.paging.results_count,
       add_emoji
     ]
@@ -947,7 +941,7 @@ function tagPhotosPage(page, results, language, max_hits, add_emoji) {
   Page.footer.redraw("results")
   for (const photo of page_results) {
     if (photo.index != "0")   // Not a null photo result
-      content_divs = content_divs.concat(tagPhotoSingle(photo, language, add_emoji))
+      content_divs = content_divs.concat(tagPhotoSingle(photo, add_emoji))
     else
       page_results.pop(page_results.indexOf(photo))
   }
@@ -992,7 +986,7 @@ function tagPhotoMessage(results, hit_count) {
 }
 
 /** Take a photo that matches a tag, and display it along with the tag emoji */
-function tagPhotoSingle(photo, language, add_emoji) {
+function tagPhotoSingle(photo, add_emoji) {
   const content_divs = []
   const node = Pandas.searchPandaId(photo._id)[0]   // animal or media
   const img_link = document.createElement('a')
@@ -1036,13 +1030,13 @@ function tagPhotoSingle(photo, language, add_emoji) {
  * Make a gallery out of newly added photos, for the front page. Choose some
  * pandas from the list of updated photos at random.
  */
-export function updatedNewPhotoCredits(language, photo_count=7) {
+export function updatedNewPhotoCredits(photo_count=7) {
   const new_photos_div = document.createElement('div')
   const message = Message.new_photos()
   new_photos_div.appendChild(message)
   // Build a set of photos in the desired sort order: zoos, zoo(pandas),
   // new contributors, and finally new photos.
-  const display_photos = updatedPhotoOrdering(language, photo_count)
+  const display_photos = updatedPhotoOrdering(photo_count)
   for (const photo of display_photos) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
@@ -1102,7 +1096,7 @@ export function updatedNewPhotoCredits(language, photo_count=7) {
  * Enforce the photo ordering for photos in the updates list, and select not
  * the complete set of updates/pandas/zoos, but just a single photo for each.
  */
-function updatedPhotoOrdering(language, photo_count) {
+function updatedPhotoOrdering(photo_count) {
   // New zoo photos. Include only if there are current pandas at this zoo
   // that have at least one photo. Take no more zoo photos than we have
   // budgeted to show in this section
@@ -1271,7 +1265,7 @@ function zooPhotoCreditSingle(photo) {
   const img_link = document.createElement('a')
   const id = photo._id
   const entity = Pandas.searchZooId(id)[0]
-  const info = Show.acquireZooInfo(entity, Env.language)
+  const info = Show.acquireZooInfo(entity)
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
   img_link.target = "_blank"   // Open in new tab
@@ -1293,7 +1287,7 @@ function zooPhotoCreditSingle(photo) {
   return container
 }
 
-export function pumpkin(language, photo_count=5) {
+export function pumpkin(photo_count=5) {
   const pumpkin_div  = document.createElement('div')
   const message = Message.trick_or_treat()
   pumpkin_div.appendChild(message)
@@ -1354,9 +1348,9 @@ export function pumpkin(language, photo_count=5) {
  * special message styles yet. Iterate on this until it can be a _front page
  * gallery_ generator for anything I might want.
  */
-export function taglist(language, photo_count=5, taglist, message_function) {
+export function taglist(photo_count=5, taglist, message_function) {
   const div = document.createElement('div')
-  const message = message_function(language)
+  const message = message_function()
   div.appendChild(message)
   const animals_photos = Pandas.searchPandaAnyPhotoMedia()
   const photos =

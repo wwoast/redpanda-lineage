@@ -1755,7 +1755,7 @@ export const profilePage = {
       const indeterminate =
         Pandas.indeterminateParent(animal._id, child._id)
       const gallery = Gallery.familyProfilePhoto(
-        child, photo, Env.language, birth_year, undefined, indeterminate)
+        child, photo, birth_year, undefined, indeterminate)
       photo_divs.push(gallery)
     }
     const container = document.createElement('div')
@@ -1857,7 +1857,7 @@ export const profilePage = {
         const mom_photo = photos.filter(x => x._id == mom._id)[0]
         mom_photos.push(mom_photo)
         const mom_entry = Gallery.familyProfilePhoto(
-          mom, mom_photo, Env.language, Gui.mother[Env.language],
+          mom, mom_photo, Gui.mother[Env.language],
           "immediateFamily", info.mom.length > 1)
         photo_divs.push(mom_entry)
       }
@@ -1868,14 +1868,14 @@ export const profilePage = {
         const dad_photo = photos.filter(x => x._id == dad._id)[0]
         dad_photos.push(dad_photo)
         var dad_entry = Gallery.familyProfilePhoto(
-          dad, dad_photo, Env.language, Gui.father[Env.language],
+          dad, dad_photo, Gui.father[Env.language],
           "immediateFamily", info.dad.length > 1)
         photo_divs.push(dad_entry)
       }
     }
     const me_photo = photos.filter(x => x._id == info._id)[0]
     const me = Gallery.familyProfilePhoto(
-      animal, me_photo, Env.language, Gui.me[Env.language], "immediateFamily")
+      animal, me_photo, Gui.me[Env.language], "immediateFamily")
     photo_divs.push(me)
     const other_family_ids =
       mom_photos.concat(dad_photos).concat(me_photo).map(x => x._id)
@@ -1889,7 +1889,7 @@ export const profilePage = {
         subHeading = Gui.quadruplet[Env.language]
       const litter_mate = info.litter.filter(x => x._id == litter_photo._id)[0]
       const gallery = Gallery.familyProfilePhoto(
-        litter_mate, litter_photo, Env.language, subHeading, "immediateFamily")
+        litter_mate, litter_photo, subHeading, "immediateFamily")
       photo_divs.push(gallery)
     }
     const container = document.createElement('div')
@@ -1968,7 +1968,7 @@ export const profilePage = {
       const indeterminate =
         Pandas.indeterminateSiblings(animal._id, sibling._id)
       const gallery = Gallery.familyProfilePhoto(
-        sibling, photo, Env.language, subHeading, undefined, indeterminate)
+        sibling, photo, subHeading, undefined, indeterminate)
       photo_divs.push(gallery)
     }
     const container = document.createElement('div')
