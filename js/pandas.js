@@ -1637,7 +1637,7 @@ export function language_order(entity) {
 
 /** Returns a list of locations valid for a zoo animal */
 export function locationList(animal) {
-  const locations = []
+  let locations = []
   // Return not just the chosen photo but the author and link as well
   for (const [index, location] of animal.locations.entries()) {
     const nextLocation = animal.locations[index + 1]
