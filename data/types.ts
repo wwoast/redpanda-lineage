@@ -485,8 +485,6 @@ declare global {
     dad: NodePanda,
     /** Translated string for the animal's gender (or unknown) */
     gender: string,
-    /** The current display language of this result */
-    language: Language,
     /**
      * Language order for how to prioritize displaying names when the current
      * display language doesn't have information for this animal. The insertion
@@ -555,8 +553,6 @@ declare global {
     animals: Set<NodePanda>,
     /** The YYYY/MM/DD string for when this zoo closed. TODO: locale */
     closed: string,
-    /** The current display language of this result */
-    language: Language,
     /**
      * Language order for how to prioritize displaying names when the current
      * display language doesn't have information for this zoo. The insertion

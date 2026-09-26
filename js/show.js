@@ -36,7 +36,6 @@ export function acquirePandaInfo(animal) {
           "death": Pandas.date(animal, "death"),
             "dad": Pandas.searchPandaDad(animal._id),
          "gender": Pandas.gender(animal),
-       "language": Env.language,
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal._id),
             "mom": Pandas.searchPandaMom(animal._id),
@@ -110,7 +109,6 @@ export function acquireZooInfo(zoo) {
        "address": Pandas.zooField(zoo, "address")[Env.language],
   "animal_count": animals.length,
         "closed": Pandas.zooField(zoo, "closed"),
-      "language": Env.language,
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, "location")[Env.language],
            "map": Pandas.zooField(zoo, "map"),
@@ -2130,10 +2128,10 @@ export const resultsPage = {
   /** Display panda children in the family section */
   children: function(info) {
     const heading = document.createElement('h4')
-    heading.className = `childrenHeading  ${info.language}`
-    heading.innerText = Gui.children[info.language]
+    heading.className = `childrenHeading ${Env.language}`
+    heading.innerText = Gui.children[Env.language]
     const ul = document.createElement('ul')
-    ul.className = `pandaList ${info.language}`
+    ul.className = `pandaList ${Env.language}`
     for (const index in Pandas.sortOldestToYoungest(info.children)) {
       const animal = info.children[index]
       // Check if animal has multiple possible moms/dads
@@ -2141,7 +2139,7 @@ export const resultsPage = {
       if (Pandas.indeterminateParent(info._id, animal._id) == true)
         icon_list.push("question_icon")
       const children_link = animalLink(
-        animal, animal.name[info.language], icon_list)
+        animal, animal.name[Env.language], icon_list)
       const li = document.createElement('li')
       li.appendChild(children_link)
       ul.appendChild(li)
@@ -2194,17 +2192,16 @@ export const resultsPage = {
   },
   /** Do the littermates info in the family section */
   litter: function(info) {
-    const language = info.language
     const heading = document.createElement('h4')
-    heading.className = `litterHeading ${info.language}`
+    heading.className = `litterHeading ${Env.language}`
     heading.classList.add(language)
-    heading.innerText = Gui.litter[info.language]
+    heading.innerText = Gui.litter[Env.language]
     const ul = document.createElement('ul')
-    ul.className = `pandaList ${info.language}`
+    ul.className = `pandaList ${Env.language}`
     for (const index in Pandas.sortOldestToYoungest(info.litter)) {
       const animal = info.litter[index]
       const litter_link = animalLink(
-        animal, animal.name[info.language], ["child_icon", "live_icon"])
+        animal, animal.name[Env.language], ["child_icon", "live_icon"])
       const li = document.createElement('li')
       li.appendChild(litter_link)
       ul.appendChild(li)
@@ -2497,10 +2494,10 @@ export const resultsPage = {
   /** Do the non-litter siblings info in the family section */ 
   siblings: function(info) {
     const heading = document.createElement('h4')
-    heading.className = `siblingsHeading ${info.language}`
-    heading.innerText = Gui.siblings[info.language]
+    heading.className = `siblingsHeading ${Env.language}`
+    heading.innerText = Gui.siblings[Env.language]
     const ul = document.createElement('ul')
-    ul.className = `pandaList ${info.language}`
+    ul.className = `pandaList ${Env.language}`
     for (const index in Pandas.sortOldestToYoungest(info.siblings)) {
       const myself = Pandas.searchPandaId(info._id)[0]
       const animal = info.siblings[index]
@@ -2509,7 +2506,7 @@ export const resultsPage = {
         icon_list.push("half_icon")
       if (Pandas.indeterminateSiblings(info._id, animal._id) == true)
         icon_list.push("question_icon")
-      const siblings_link = animalLink(animal, animal.name[info.language], icon_list)
+      const siblings_link = animalLink(animal, animal.name[Env.language], icon_list)
       const li = document.createElement('li')
       li.appendChild(siblings_link)
       ul.appendChild(li)
