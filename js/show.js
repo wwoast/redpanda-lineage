@@ -2194,7 +2194,7 @@ export const resultsPage = {
   litter: function(info) {
     const heading = document.createElement('h4')
     heading.className = `litterHeading ${Env.language}`
-    heading.classList.add(language)
+    heading.classList.add(Env.language)
     heading.innerText = Gui.litter[Env.language]
     const ul = document.createElement('ul')
     ul.className = `pandaList ${Env.language}`
