@@ -349,11 +349,10 @@ function furigana(name, othernames) {
  * can work consistently on mobile.
  */
 export function gender(info, frame_class) {
-  const language = info.language
   const img = document.createElement('img')
-  if (info.gender == Defaults.gender.Male[language])
+  if (info.gender == Defaults.gender.Male[Env.language])
     img.src = "images/male.svg"
-  else if (info.gender == Defaults.gender.Female[language])
+  else if (info.gender == Defaults.gender.Female[Env.language])
     img.src = "images/female.svg"
   else
     img.src = "images/unknown.svg"
@@ -1372,7 +1371,7 @@ const linksOrder = {
     const output = {}
     output.counts = {}
     // Count the hits for each language that we support in the display modes
-    for (let language of Fallback.order)
+    for (const language of Fallback.order)
       output.counts[language] = 0
     // Grab the icon from the links values
     output.icon = links.icon

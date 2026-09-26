@@ -1419,7 +1419,7 @@ export function age(animal) {
 export function ageYears(animal) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
-    return Defaults.unknown[language]
+    return Defaults.unknown[Env.language]
   const birthday = new Date(birth)
   const endday = new Date()
   const ms_per_day = 1000 * 60 * 60 * 24
@@ -1780,7 +1780,7 @@ export function nicknames(animal) {
  * alternative Hiragana/Katakana/Kanji spellings of names.
  */
 export function othernames(animal) {
-  return animal.othernames[language] == undefined
+  return animal.othernames[Env.language] == undefined
     ? Defaults.animal.othernames[Env.language]
     : animal.othernames[Env.language]
 }
