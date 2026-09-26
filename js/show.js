@@ -95,7 +95,7 @@ function getUnknownZooBundle(location) {
 
 /**
  * Given a zoo, return an address, location, link to a website, and information
- * about the number of pandas (living) that are at the zoo
+ * about the number of pandas (living) that are at the zoo.
  */
 export function acquireZooInfo(zoo) {
   const animals = Pandas.searchPandaZooCurrent(zoo._id)
@@ -138,7 +138,8 @@ export function acquireZooInfo(zoo) {
  *    `https://domain/index.html#panda/4`
  * 
  * Animal links now use Unicode non-breaking spaces between the gender icon and
- * the name.
+ * the name. The called functions know what the display language is by using
+ * the `Env.language` value without us passing that as a parameter.
  */
 function animalLink(animal, link_text, options) {
   // Don't print content if the input id is zero. If these are
@@ -151,8 +152,6 @@ function animalLink(animal, link_text, options) {
       alien = Emoji.star_dad
     return emptyLink(alien + "\xa0" + link_text)
   }
-  // Set up values for other functions working properly
-  // Gender search requires doing a table search by language.
   const gender = Pandas.gender(animal)
   const a = document.createElement('a')
   a.className = 'geneaologyListName'
