@@ -1,4 +1,4 @@
-import type { Vertex } from './dagoba.ts'
+import type { Vertex } from './ts/dagoba.ts'
 
 /** 
  * Types in redpandafinder, organized in order from minor property types, to
