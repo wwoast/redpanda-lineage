@@ -3,6 +3,9 @@
     "types": ["./data/types.ts"]
   },
   "tasks": {
+    "export": {
+      "command": "deno task -f data build"
+    },
     "view": {
       "command": "jq '.' ./export/redpanda.json"
     }
