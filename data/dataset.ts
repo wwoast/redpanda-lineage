@@ -630,7 +630,7 @@ export class Dataset {
 
   /** 
    * Alternate constructor. Import from an existing graph located at
-   * `export/redpanda.json`
+   * `../export/redpanda.json`
    */
   importJsonGraph = () => {
     const inputJson = JSON.parse(Deno.readTextFileSync(Paths.output))

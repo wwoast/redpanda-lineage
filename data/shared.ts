@@ -108,13 +108,14 @@ export function standardDate(input?: any) {
 /** 
  * Where to import or export red panda data from, relative to the location that
  * deno tasks run from. All deno tasks run relative to where `deno.json` is
- * located, which is the root folder of the _redpanda-lineage_ repository.
+ * located, which is the ./data subproject folder of the _redpanda-lineage_
+ * repository.
  */
 export const Paths: Record<string, string> = {
   contributions: "contributions.conf",
   links: "links/",
   media: "media/",
-  output: "export/redpanda.json",
+  output: "../export/redpanda.json",
   pandas: "pandas/",
   wilds: "wild/",
   zoos: "zoos/"
@@ -122,7 +123,7 @@ export const Paths: Record<string, string> = {
 
 /** 
  * If we look for commits outside the data file repos, the
- * `export/redpanda.json` file changes cause git to OOM.
+ * `../export/redpanda.json` file changes cause git to OOM.
  */
 export const DataPaths =
   [Paths.links, Paths.media, Paths.pandas, Paths.wilds, Paths.zoos]

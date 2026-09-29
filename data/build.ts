@@ -3,7 +3,7 @@ import { Dataset, Updates } from './dataset.ts'
 import { DataPaths, Paths } from './shared.ts'
 
 /** 
- * Construct a new `export/redpanda.json` file, calculate updates for all
+ * Construct a new `../export/redpanda.json` file, calculate updates for all
  * commits in the last week, and git-commit the new dataset to the repo.
  * It is called from other tools, and is also individually callable by running
  * `deno task build` from the root of the _redpanda_lineage_ folder.
@@ -56,9 +56,9 @@ export async function getDataset() {
 }
 
 /** 
- * Read in an existing version of the `export/redpanda.json` dataset for doing
- * management tasks with. If the file paths aren't included in each vertex,
- * perform a rebuild task so that the paths are included.
+ * Read in an existing version of the `../export/redpanda.json` dataset for
+ * doing management tasks with. If the file paths aren't included in each
+ * vertex, perform a rebuild task so that the paths are included.
  */
 export function importDataset(): Dataset {
   const dataset = new Dataset().importJsonGraph()

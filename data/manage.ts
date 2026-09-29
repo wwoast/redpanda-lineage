@@ -514,9 +514,9 @@ if (import.meta.main) {
   // Either build a new dataset, or import an existing one
   const dataset = await getDataset()
   /* 
-   * Now we can assume `export/redpanda.json` exactly represents the underlying
-   * data, and our other checks can make decisions about processing entirely on
-   * the JSON file, rather than reading all the `.txt` files one by one.
+   * Now we can assume `../export/redpanda.json` exactly represents the
+   * underlying data, and other checks can make decisions about processing
+   * on the JSON file, rather than reading all of the `.txt` files one-by-one.
    * 
    * Since switch cases are all one scope, you can't redeclare const in these,
    * so I just avoid variable definitions.
