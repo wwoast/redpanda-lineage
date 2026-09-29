@@ -2,7 +2,7 @@
 
 ## How to Contribute to the Red Panda Lineage
 
-[![Get Ready, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/japan/0001_ichikawa/0004_lychee.txt)
+[![Get Ready, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/data/pandas/japan/0001_ichikawa/0004_lychee.txt)
  
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
 
@@ -25,7 +25,7 @@ To recap, you've downloaded GitHub Desktop, signed in with your account, and kno
 
 ## Creating A Branch to Work From
 
-[![Time to Work, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/japan/0001_ichikawa/0004_lychee.txt)
+[![Time to Work, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/data/pandas/japan/0001_ichikawa/0004_lychee.txt)
 
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
@@ -57,9 +57,9 @@ A typical workflow for updating the database is to have three applications open:
 
 ## Adding Pandas to the Dataset
 
-Each panda is a single `.txt` file in the `/pandas` folder, with a unique Panda ID number. Each zoo is a single `.txt` file in the `/zoos` folder, with a unique Zoo ID number. **Adding to the Red Panda Lineage dataset is just a matter of copying an existing panda or zoo file, changing the contents inside of it, and submitting your new files as a branch to GitHub for review.**
+Each panda is a single `.txt` file in the `data/pandas` folder, with a unique Panda ID number. Each zoo is a single `.txt` file in the `data/zoos` folder, with a unique Zoo ID number. **Adding to the Red Panda Lineage dataset is just a matter of copying an existing panda or zoo file, changing the contents inside of it, and submitting your new files as a branch to GitHub for review.**
 
-Let's take a look at one of our panda files, [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Fields are arranged alphabetically, and while some are obvious, let's discuss what each field means. 
+Let's take a look at one of our panda files, [`data/pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/data/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Fields are arranged alphabetically, and while some are obvious, let's discuss what each field means. 
 
 ### `_id`: Red Panda ID Numbers
 
@@ -111,17 +111,11 @@ Be aware that we may need to ask you follow-up questions or recommend changes, s
 
 ## The Peer Review Process
 
-We use GitHub's built-in _continuous integration_ tool, *GitHub Actions*, to run automated checks against every single piece of data pushed to the Red Panda Lineage dataset. If there are problems with your commit, the software will see the problem automatically and suggest what changes are necessary. This tool runs the `build.py` program at the top-level of our repository.
-
-Occasionally your commit will have a problem with your commits after you try and submit your PR, with a red "X" near the *GitHub Actions* status. If you navigate through to see the details, you'll get to a screen where the text output of `build.py` describes what went wrong.
-
-If you have a Mac or Linux system, you can run this tool yourself to validate your data prior to submitting changes upstream, or even making commits. Otherwise, just keep pushing your branches to GitHub, and *GitHub Actions* will happily run the `build.py` checks for you.
-
-Once the automated checks are done, you still need one of the dataset administrators to approve and merge your changes. If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
+You'll need one of the dataset administrators to approve and merge your changes. If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Please comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
 
 ## Troubleshooting
 
-[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/japan/0032_fukuoka/0001_harumaki.txt)
+[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/data/pandas/japan/0032_fukuoka/0001_harumaki.txt)
 
  * If you forget to make a branch...
  * If you need to refactor from the master branch
@@ -133,9 +127,9 @@ If you're a command-line user, and you have Git, here's a quick sample of what a
 
 ```
 git clone https://github.com/wwoast/redpanda-lineage.git
-git checkout -b maruyama-zoo
-vim pandas/0001_ichikawa/0004_lychee.txt
+git checkout -b ichikawa-update
+vim data/pandas/0001_ichikawa/0004_lychee.txt
 git commit -a -m "changed lychee's birthday"
-deno task build
-git push origin maruyama-zoo
+deno task export
+git push origin ichikawa-update
 ```
