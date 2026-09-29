@@ -1,4 +1,6 @@
 {
+  "name": "@redpanda-lineage/data",
+  "exports": "./mod.ts",
   "imports": {
     "sharp": "npm:sharp@^0.35.4",
     "@roka/git": "jsr:@roka/git@^0.4.0",
@@ -7,7 +9,6 @@
     "@std/ini": "jsr:@std/ini@^0.225.2",
     "@std/path": "jsr:@std/path@^1.1.6"
   },
-  "exports": "./mod.ts",
   "tasks": {
     "build": {
       "command": "deno run -A ./ts/build.ts"
