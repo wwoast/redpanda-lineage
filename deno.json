@@ -7,5 +7,5 @@
       "command": "jq '.' ./export/redpanda.json"
     }
   },
-  "workspace": ["./data"]
+  "workspace": ["data"]
 }
