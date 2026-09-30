@@ -466,12 +466,16 @@ export async function sortEntities(dataset: Dataset, mode: "all" | "updates"): P
     : await new Updates().startingCommit(repo)
   const patches = await repo.diff.patch({
     from: previousCommit, to: currentCommit, path: DataPaths})
-  // If any unique `.txt` files get resorted, rebuild the dataset 
+  // If any unique `.txt` files get resorted, rebuild the dataset. The Git
+  // changes for these paths are relative to the repository root, but the
+  // deno tasks for data run relative to the `data/` folder, so snip that
+  // from any paths we are sorting.
   const pathsUpdated = patches
     .map(change => change.path)
     .filter((value: string, index: number, array: string[]) =>
       array.indexOf(value) === index)
     .filter(path => path.endsWith(".txt"))
+    .map(path => path.replace("data/", ""))
   if (pathsUpdated.length == 0) {
     console.log(`[manage] No dataset files were updated, so none sorted.\n`)
     return 0   // No changes needed
