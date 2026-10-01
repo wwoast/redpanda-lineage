@@ -1,0 +1,11 @@
+{
+  "name": "@redpanda-lineage/ui",
+  "imports": {
+    "@nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts"
+  },
+  "tasks": {
+    "build": {
+      "command": "deno bundle -A ./ts/bundle.ts"
+    }
+  }
+}
