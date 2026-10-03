@@ -19,8 +19,11 @@ function formatText(text) {
 }
 */
 
+/** 
+ * TODO-UI: standardize on Record<Language, string>, where <REPLACEME> values
+ * map to the rendering function's argument names
+ */
 /** String representations of all messages we might render in functions */
-/** TODO-UI: make it Record<Language, <string | Function>> to supply arguments directly */
 export const Text: Record<string, Record<Language, string>> = {
   "and": {
     "en": " & ",
@@ -104,323 +107,92 @@ export const Text: Record<string, Record<Language, string>> = {
     "zh": `${Emoji.gift} *<INSERTUSER>*提供了**<INSERTNUMBER>**张照片。`
   },
   "credit_animal_filter_single": {
-    "en": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " has contributed ",
-           "<INSERTNUMBER>",
-           " photos of ",
-           "<INSERTNAME>",
-           "."],
-    "es": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " ha contribuido con ",
-           "<INSERTNUMBER>",
-           " fotos de ",
-           "<INSERTNAME>",
-           "."],
-    "ja": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           "が",
-           "<INSERTNAME>",
-           "の写真を",
-           "<INSERTNUMBER>",
-           "枚投稿しました。"],
-    "ko": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           "이(가) ",
-           "<INSERTNAME>",
-           "의 사진을",
-           "<INSERTNUMBER>",
-           "장 제공했습니다."],   
-    "ne": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " ",
-           "<INSERTNUMBER>",
-           " ",
-           "<INSERTNAME>",
-           " फोटोहरु योगदान गरेको छ"],
-    "pt": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " contribuiu com ",
-           "<INSERTNUMBER>",
-           " fotos de ",
-           "<INSERTNAME>",
-           "."],
-    "zh": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           "提供了",
-           "<INSERTNUMBER>",
-           "张",
-           "<INSERTNAME>",
-           "照片。"]    
+    "en": `${Emoji.gift} *<INSERTUSER>* has contributed **<INSERTNUMBER>** photos of **<INSERTNAME>**.`,
+    "es": `${Emoji.gift} *<INSERTUSER>* ha contribuido con **<INSERTNUMBER>** fotos de **<INSERTNAME>**.`,
+    "ja": `${Emoji.gift} *<INSERTUSER>*が**<INSERTNAME>**の写真を*<INSERTNUMBER>*枚投稿しました。`,
+    "ko": `${Emoji.gift} *<INSERTUSER>*이(가) **<INSERTNAME>**의 사진을**<INSERTNUMBER>**장 제공했습니다.`,   
+    "ne": `${Emoji.gift} *<INSERTUSER>* **<INSERTNUMBER>** **<INSERTNAME>** फोटोहरु योगदान गरेको छ`,
+    "pt": `${Emoji.gift} *<INSERTUSER>* contribuiu com **<INSERTNUMBER>** fotos de **<INSERTNAME>**.`,
+    "zh": `${Emoji.gift} *<INSERTUSER>*提供了**<INSERTNUMBER>**张**<INSERTNAME>**照片。`    
   },
   "departed_to_zoo": {
-    "en": ["<INSERTZOO>",
-           " on ",
-           "<INSERTDATE>"],
-    "es": ["<INSERTZOO>",
-           " al ",
-           "<INSERTDATE>"],
-    "ja": ["<INSERTDATE>",
-           "に",
-           "<INSERTZOO>",
-           "に行きました"],
-    "ko": ["<INSERTZOO>",
-           "에서",
-           "<INSERTDATE>"],
-    "ne": ["<INSERTZOO>",
-           " ",
-           "<INSERTDATE>",
-           " मा"],
-    "pt": ["<INSERTZOO>",
-           " em ",
-           "<INSERTDATE>"],
-    "zh": ["<INSERTDATE>",
-           "去",
-           "<INSERTZOO>"]
+    "en": '<INSERTZOO> on <INSERTDATE>',
+    "es": '<INSERTZOO> al <INSERTDATE>',
+    "ja": '<INSERTDATE>に<INSERTZOO>に行きました',
+    "ko": '<INSERTZOO>에서<INSERTDATE>',
+    "ne": '<INSERTZOO> <INSERTDATE> मा',
+    "pt": '<INSERTZOO> em <INSERTDATE>',
+    "zh": '<INSERTDATE>去<INSERTZOO>'
   },
   "find_a_nearby_zoo": {
-    "en": [Emoji.globe_americas, " Find a zoo nearby!"],
-    "es": [Emoji.globe_americas, " ¡Encuentra un zoológico cerca de ti!"],
-    "ja": [Emoji.globe_asia, " 近くの動物園を見つける"],
-    "ko": [Emoji.globe_asia, " 주변 동물원 찾기"],
-    "ne": [Emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"],
-    "pt": [Emoji.globe_americas, " Encontre um zoológico próximo!"],
-    "zh": [Emoji.globe_asia, " 寻找附近的动物园"]
+    "en": `${Emoji.globe_americas} Find a zoo nearby!`,
+    "es": `${Emoji.globe_americas} ¡Encuentra un zoológico cerca de ti!`,
+    "ja": `${Emoji.globe_asia} 近くの動物園を見つける`,
+    "ko": `${Emoji.globe_asia} 주변 동물원 찾기`,
+    "ne": `${Emoji.globe_asia} नजिकै चिडियाखाना खोज्नुहोस्`,
+    "pt": `${Emoji.globe_americas} Encontre um zoológico próximo!`,
+    "zh": `${Emoji.globe_asia} 寻找附近的动物园`
   },
   "footer": {
-    "en": ["If you love red pandas, please support ",
-           "<INSERTLINK_RPN>",
-           " as well as your local zoos. Lineage data courtesy of the ",
-           "<INSERTLINK_RPF>",
-           " project, but linked media remains property of its creators.",
-           " Design ©",
-           "\xa0",
-           "2026 ", 
-           "<INSERTLINK_WASHIMUMU>",
-           " & ",
-           "<INSERTLINK_WUMPWOAST>",
-           "."],
-    "es": ["Si te encantan los pandas rojos, apoya a ",
-           "<INSERTLINK_RPN>",
-           " y a los zoológicos locales. Los datos sobre el linaje son cortesía del proyecto ",
-           "<INSERTLINK_RPF>",
-           " pero los medios vinculados siguen siendo propiedad de sus creadores.",
-           " Diseño ©",
-           "\xa0",
-           "2026 ",
-           "<INSERTLINK_WASHIMUMU>",
-           " y ",
-           "<INSERTLINK_WUMPWOAST>",
-           "."],
-    "ja": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
-           "<INSERTLINK_RPN>",
-           "もサポートしてください。系統データは",
-           "<INSERTLINK_RPF>",
-           "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
-           "設計©2026",
-           "<INSERTLINK_WASHIMUMU>",
-           "と",
-           "<INSERTLINK_WUMPWOAST>",
-           ],
-    "ko": ["레서판다를 사랑한다면, 꼭 응원과 후원을 부탁드려요! ",
-           "<INSERTLINK_RPN>",
-           " 여러분이 가까이에서 방문할 수 있는 지역 동물원도 응원해 주세요.",
-           "<INSERTLINK_RPF>",
-           " 데이터는 본 프로젝트의 협조로 제공되며, 연결된 미디어 자료의 저작권은 각 제작자에게 있습니다.",
-           "레이아웃 및 디자인 ©",
-           "\xa0",
-           "2026 ",
-           "<INSERTLINK_WASHIMUMU>",
-           " & ",
-           "<INSERTLINK_WUMPWOAST>",
-           "."],
-    "ne": ["यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया ",
-           "<INSERTLINK_RPN>",
-           " साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। ",
-           "<INSERTLINK_RPF>",
-           " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
-           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२६ ",
-           "<INSERTLINK_WASHIMUMU>",
-           " र ",
-           "<INSERTLINK_WUMPWOAST>",
-           " द्वारा।"],
-    "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
-           "<INSERTLINK_RPN>",
-           " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
-           "<INSERTLINK_RPF>",
-           ", mas as mídias linkadas seguem sendo propriedade de seus criadores. ",
-           "Design ©",
-           "\xa0",
-           "2026 ",
-           "<INSERTLINK_WASHIMUMU>",
-           " e ",
-           "<INSERTLINK_WUMPWOAST>",
-           "."],
-    "zh": ["如果你喜爱小熊猫，请支持小熊猫网络（",
-           "<INSERTLINK_RPN>",
-           "）以及你当地的动物园。",
-           "族谱数据归属于",
-           "<INSERTLINK_RPF>",
-           "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©2026",
-           "<INSERTLINK_WASHIMUMU>",
-           "和",
-           "<INSERTLINK_WUMPWOAST>"]
+    "en": `If you love red pandas, please support <INSERTLINK_RPN>, as well as your local zoos. 
+           Lineage data courtesy of the <INSERTLINK_RPF> project, but linked media remains property 
+           of its creators. Design ©\xa02026 <INSERTLINK_WASHIMUMU> & <INSERTLINK_WUMPWOAST>.`,
+    "es": `Si te encantan los pandas rojos, apoya a <INSERTLINK_RPN> y a los zoológicos locales. 
+           Los datos sobre el linaje son cortesía del proyecto <INSERTLINK_RPF> pero los medios ,
+           vinculados siguen siendo propiedad de sus creadores. Diseño ©\xa02026 
+           <INSERTLINK_WASHIMUMU> y <INSERTLINK_WUMPWOAST>.`,
+    "ja": `レッサーパンダが好きな人は、地元の動物園だけでなく<INSERTLINK_RPN>もサポートしてください。系統データは
+           <INSERTLINK_RPF>プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。
+           設計©2026<INSERTLINK_WASHIMUMU>と<INSERTLINK_WUMPWOAST>`,
+    "ko": `레서판다를 사랑한다면, 꼭 응원과 후원을 부탁드려요! <INSERTLINK_RPN> 여러분이 가까이에서 방문할 수 있는 지역 
+           동물원도 응원해 주세요. <INSERTLINK_RPF> 데이터는 본 프로젝트의 협조로 제공되며, 연결된 미디어 자료의 저작권은 
+           각 제작자에게 있습니다. 레이아웃 및 디자인 ©\xa02026 <INSERTLINK_WASHIMUMU> & <INSERTLINK_WUMPWOAST>.`,
+    "ne": `यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया <INSERTLINK_RPN> साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। 
+           <INSERTLINK_RPF> प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ। लेआउट र डिजाइन प्रतिलिपि 
+           अधिकार २०२६ <INSERTLINK_WASHIMUMU> र <INSERTLINK_WUMPWOAST> द्वारा।`,
+    "pt": `Se você ama pandas-vermelhos, por favor apoie a <INSERTLINK_RPN> bem como seus zoológicos 
+           locais. Dados de linhagem são uma cortesia do projeto <INSERTLINK_RPF>, mas as mídias linkadas 
+           seguem sendo propriedade de seus criadores. Design ©\xa02026 <INSERTLINK_WASHIMUMU> e 
+           <INSERTLINK_WUMPWOAST>.`,
+    "zh": `如果你喜爱小熊猫，请支持小熊猫网络（<INSERTLINK_RPN>）以及你当地的动物园。族谱数据归属于<INSERTLINK_RPF>
+           但相关媒介内容（如图片等）版权归属于原作者。布局与设计©2026<INSERTLINK_WASHIMUMU>和<INSERTLINK_WUMPWOAST>`
   },
+  // TODO-UI: translate ja, ne, zh
   "found_animal": {
-    "en": [Emoji.flower, " ",
-           Emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           " has been found and is safe!"],
-    "es": [Emoji.flower, " ",
-           Emoji.see_and_say,
-           " ¡",
-           "<INSERTNAME>",
-           " ha sido encontrado y está a salvo!"],
-    "ja": [Emoji.flower, " ",
-           Emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           " has been found and is safe!"],
-    "ko": [Emoji.flower, " ",
-           Emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           "이(가) 발견되었습니다!"],
-    "ne": [Emoji.flower, " ",
-           Emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           " has been found and is safe!"],
-    "pt": [Emoji.flower, " ",
-           Emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           " foi encontrado(a) e está a salvo!"],
-    "zh": [Emoji.flower, " ",
-           Emoji.see_and_say, 
-           " ",
-           "<INSERTNAME>",
-           " has been found and is safe!"]
+    "en": `${Emoji.flower} ${Emoji.see_and_say} <INSERTNAME> has been found and is safe!`,
+    "es": `${Emoji.flower} ${Emoji.see_and_say} ¡<INSERTNAME> ha sido encontrado y está a salvo!`,
+    "ja": `${Emoji.flower} ${Emoji.see_and_say} <INSERTNAME> has been found and is safe!`,
+    "ko": `${Emoji.flower} ${Emoji.see_and_say} <INSERTNAME>이(가) 발견되었습니다!`,
+    "ne": `${Emoji.flower} ${Emoji.see_and_say} <INSERTNAME> has been found and is safe!`,
+    "pt": `${Emoji.flower} ${Emoji.see_and_say} <INSERTNAME> foi encontrado(a) e está a salvo!`,
+    "zh": `${Emoji.flower} ${Emoji.see_and_say} <INSERTNAME> has been found and is safe!`,
   },
   "goodbye": {
-    "en": ["Good-bye, ",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "es": ["Hasta siempre, ",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "ja": ["ありがとう, ",
-           "<INSERTNAME>",
-           "。",
-           Emoji.died, 
-           "（",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           "）"],
-    "ko": ["안녕... 잘 가,",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],   
-    "ne": ["विदाई, ",
-           "<INSERTNAME>",
-           " ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "pt": ["Adeus, ",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "zh": ["后会有期, ",
-           "<INSERTNAME>",
-           "。",
-           Emoji.died,
-           "（",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           "）"]
+    "en": `Good-bye, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "es": `Hasta siempre, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "ja": `ありがとう, <INSERTNAME>。${Emoji.died}（<INSERTBIRTH> — <INSERTDEATH>）`,
+    "ko": `안녕... 잘 가,<INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,   
+    "ne": `विदाई, <INSERTNAME> ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "pt": `Adeus, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "zh": `后会有期, <INSERTNAME>。${Emoji.died}（<INSERTBIRTH> — <INSERTDEATH>）`
   },
   "happy_birthday": {
-    "en": [Emoji.birthday,
-           " Happy Birthday, ",
-           "<INSERTNAME>",
-           "! (",
-           "<INSERTNUMBER>",
-           ")"],
-    "es": [Emoji.birthday,
-           " ¡Feliz cumpleaños, ",
-           "<INSERTNAME>",
-           "! (",
-           "<INSERTNUMBER>",
-           ")"],
-    "ja": [Emoji.birthday,
-           " ",
-           "<INSERTNAME>",
-           "、誕生日おめでとう！（",
-           "<INSERTNUMBER>",
-           "歳）"],
-    "ko": [Emoji.birthday,
-           "<INSERTNAME>",
-           "의 생일을 축하합니다! (",
-           "<INSERTNUMBER>",
-           "세)"],
-    "ne": [Emoji.birthday,
-           " ",
-           "जन्मदिनको शुभकामना, ",
-           "<INSERTNAME>",
-           "! (",
-           "<INSERTNUMBER>",
-           ")"],
-    "pt": [Emoji.birthday,
-           " Feliz aniversário, ",
-           "<INSERTNAME>",
-           "! (",
-           "<INSERTNUMBER>",
-           ")"],
-    "zh": [Emoji.birthday,
-           "<INSERTNAME>",
-           "生日快乐！（",
-           "<INSERTNUMBER>",
-           "岁）"]
+    "en": `${Emoji.birthday} Happy Birthday, <INSERTNAME>! (<INSERTNUMBER>)`,
+    "es": `${Emoji.birthday} ¡Feliz cumpleaños, <INSERTNAME>! (<INSERTNUMBER>)`,
+    "ja": `${Emoji.birthday} <INSERTNAME>、誕生日おめでとう！（<INSERTNUMBER>歳）`,
+    "ko": `${Emoji.birthday} <INSERTNAME>의 생일을 축하합니다! (<INSERTNUMBER>세)`,
+    "ne": `${Emoji.birthday} जन्मदिनको शुभकामना, <INSERTNAME>! (<INSERTNUMBER>)`,
+    "pt": `${Emoji.birthday} Feliz aniversário, <INSERTNAME>! (<INSERTNUMBER>)`,
+    "zh": `${Emoji.birthday} <INSERTNAME>生日快乐！（<INSERTNUMBER>岁）`
   },
   "landing_mothersday": {
-    "en": ["Happy Mother's Day!"],
-    "es": ["¡Feliz Día de la Madre!"],
-    "ja": ["母の日おめでとう"],
-    "ko": ["어머니의 날!"],
-    "ne": ["खुसी आमाको दिन!"],
-    "pt": ["Feliz Dia das Mães!"],
-    "zh": ["母亲节快乐"]
+    "en": 'Happy Mother’s Day!',
+    "es": '¡Feliz Día de la Madre!',
+    "ja": '母の日おめでとう',
+    "ko": '어머니의 날!',
+    "ne": 'खुसी आमाको दिन!',
+    "pt": 'Feliz Dia das Mães!',
+    "zh": '母亲节快乐'
   },
   "list_comma": {
     "en": ", ",
@@ -1896,20 +1668,11 @@ export function birthday(name: string, animalId: number, years: string) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (let field of Text.happy_birthday[Env.language]) {
-    if (field == "<INSERTNAME>") {
-      field = name
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<INSERTNUMBER>") {
-      field = years
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.happy_birthday[Env.language]
+      .replace('<INSERTNAME>', name)
+      .replace('<INSERTNUMBER>', years))
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("birthdaySummary", link)
 }
@@ -1961,47 +1724,21 @@ export function credit(credit: string, count: number) {
 export function creditSingleFilter(credit: string, filter: string, count: number) {
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
-  for (const i in Text.credit_animal_filter_single[Env.language]) {
-    let field = Text.credit_animal_filter_single[Env.language][i]
-    if (field == "<INSERTUSER>") {
-      field = credit
-      const msg = document.createElement('i')
-      msg.innerText = field
-      p.appendChild(msg)
-    } else if (field == "<INSERTNUMBER>") {
-      field = count
-      const msg = document.createElement('b')
-      msg.innerText = field
-      p.appendChild(msg)
-    } else if (field == "<INSERTNAME>") {
-      field = filter
-      const msg = document.createElement('b')
-      msg.innerText = field
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.credit_animal_filter_single[Env.language]
+      .replace('<INSERTUSER>', credit)
+      .replace('<INSERTNUMBER>', count.toString())
+      .replace('<INSERTNAME>', filter)
+  )
+  p.appendChild(msg)
   return shrinkBoxMessage("creditSummary", p)
 }
 
-export function departed_to_zoo(zoo, date) {
+export function departed_to_zoo(zooName: string, date: string) {
   // Text to go into the Show.zooLink function
-  let text = ""
-  for (const i in Text.departed_to_zoo[Env.language]) {
-    let field = Text.departed_to_zoo[Env.language][i]
-    if (field == "<INSERTDATE>") {
-      field = date
-      text = text + field
-    } else if (field == "<INSERTZOO>") {
-      field = zoo
-      text = text + field
-    } else {
-      text = text + field
-    }
-  }
-  return text
+  return Text.departed_to_zoo[Env.language]
+    .replace('<INSERTDATE>', date)
+    .replace('<INSERTZOO>', zooName)
 }
 
 export function departures(zoo, deaths, leaving) {
@@ -2033,30 +1770,19 @@ export function findNearbyZoo() {
   link.href = "#query/nearby"
   const p = document.createElement('p')
   p.className = "summaryEmphasis"
-  for (const i in Text.find_a_nearby_zoo[Env.language]) {
-    const field = Text.find_a_nearby_zoo[Env.language][i]
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
+  const msg = document.createTextNode(Text.find_a_nearby_zoo[Env.language])
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("frontPageSummary", link)
 }
 
-export function foundAnimal(name, animalId) {
+export function foundAnimal(name: string, animalId: number) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.found_animal[Env.language]) {
-    let field = Text.found_animal[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      field = name
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.found_animal[Env.language].replace("<INSERTNAME>", name))
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("memorialSummary", link)
 }
@@ -2113,29 +1839,17 @@ export function lunch_time() {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function memorial(name, animalId, birth, death) {
+export function memorial(name: string, animalId: number, birth: string, death: string) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.goodbye[Env.language]) {
-    let field = Text.goodbye[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      field = name
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<INSERTBIRTH>") {
-      field = birth
-      var msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<INSERTDEATH>") {
-      field = death
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.goodbye[Env.language]
+      .replace("<INSERTNAME>", name)
+      .replace("<INSERTBIRTH>", birth)
+      .replace("<INSERTDEATH>", death)
+  )
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("memorialSummary", link)
 }

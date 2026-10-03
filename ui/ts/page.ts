@@ -351,6 +351,8 @@ class FooterComponent {
     rpn_logo.src = "images/rpn-logo.png"
     rpn_logo_link.appendChild(rpn_logo)
     p.appendChild(rpn_logo_link)
+    // TODO-UI: strip duplicate whitespace and newlines, and insert links into the
+    // places where there is <INSERT> subsitution text
     for (const i in Message.Text.footer[language]) {
       const field = Message.Text.footer[language][i];
       if (field == "<INSERTLINK_RPF>") {
