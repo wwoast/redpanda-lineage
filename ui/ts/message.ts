@@ -1,10 +1,26 @@
 import Env from './environment.ts'
 import * as Language from '../js/language.js'
-import { Emoji, Tags } from '../js/lookup.js'
+import { Emoji, Tags } from './lookup.ts'
 import P, * as Pandas from '../js/pandas.js'
 import * as Show from '../js/show.js'
 
+/** TODO-UI: make *text* italic and **text** bold with JSX foo:
+function formatText(text) {
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+    if (part.startsWith('*') && part.endsWith('*')) {
+      return <em key={index}>{part.slice(1, -1)}</em>;
+    }
+    return part;
+  });
+}
+*/
+
 /** String representations of all messages we might render in functions */
+/** TODO-UI: make it Record<Language, <string | Function>> to supply arguments directly */
 export const Text: Record<string, Record<Language, string>> = {
   "and": {
     "en": " & ",
@@ -43,81 +59,31 @@ export const Text: Record<string, Record<Language, string>> = {
     "zh": `${Emoji.autumn} 变色的季节 ${Emoji.autumn}`,
   },
   "baby_photos": {
-    "en": [Emoji.baby,
-           " Precious little angels ",
-           Emoji.baby],
-    "es": [Emoji.baby,
-           " Angelitos preciosos ",
-           Emoji.baby],
-    "ja": [Emoji.baby,
-           " 貴重な小さな天使 ",
-           Emoji.baby],
-    "ko": [Emoji.baby,
-           "소중한 작은 천사들 ",
-           Emoji.baby],
-    "ne": [Emoji.baby,
-           " बहुमूल्य साना स्वर्गदूतहरू ",
-           Emoji.baby],
-    "pt": [Emoji.baby,
-           " Anjinhos preciosos ",
-           Emoji.baby],
-    "zh": [Emoji.baby,
-           " 珍贵的小天使 ",
-           Emoji.baby]
+    "en": `${Emoji.baby} Precious little angels ${Emoji.baby}`,
+    "es": `${Emoji.baby} Angelitos preciosos ${Emoji.baby}`,
+    "ja": `${Emoji.baby} 貴重な小さな天使 ${Emoji.baby}`,
+    "ko": `${Emoji.baby} 소중한 작은 천사들 ${Emoji.baby}`,
+    "ne": `${Emoji.baby} बहुमूल्य साना स्वर्गदूतहरू ${Emoji.baby}`,
+    "pt": `${Emoji.baby} Anjinhos preciosos ${Emoji.baby}`,
+    "zh": `${Emoji.baby} 珍贵的小天使 ${Emoji.baby}`
   },
   "birthday_overflow": {
-    "en": [Emoji.fireworks,
-           " ",
-           "<INSERTCOUNT>",
-           " birthdays today!"],
-    "es": [Emoji.fireworks,
-           " ¡",
-           "<INSERTCOUNT>",
-           " cumpleaños hoy!"],
-    "ja": [Emoji.fireworks,
-           " 今日は",
-           "<INSERTCOUNT>",
-           "歳の誕生日！"],
-    "ko": [Emoji.fireworks,
-           " 오늘 ",
-           "<INSERTCOUNT>",
-           " 생일!"],
-    "ne": [Emoji.fireworks,
-           " आज ",
-           "<INSERTCOUNT>",
-           " जन्मदिन!"],
-    "pt": [Emoji.fireworks,
-           " ",
-           "<INSERTCOUNT>",
-           " aniversários hoje!"],
-    "zh": [Emoji.fireworks,
-           " 今天",
-           "<INSERTCOUNT>",
-           "个生日！"]
+    "en": `${Emoji.fireworks} <INSERTCOUNT> birthdays today!`,
+    "es": `${Emoji.fireworks} ¡<INSERTCOUNT> cumpleaños hoy!`,
+    "ja": `${Emoji.fireworks} 今日は<INSERTCOUNT>歳の誕生日！`,
+    "ko": `${Emoji.fireworks} 오늘 <INSERTCOUNT> 생일!`,
+    "ne": `${Emoji.fireworks} आज <INSERTCOUNT> जन्मदिन!"`,
+    "pt": `${Emoji.fireworks} <INSERTCOUNT> aniversários hoje!"`,
+    "zh": `${Emoji.fireworks} 今天<INSERTCOUNT>个生日！"`
   },
   "closed": {
-    "en": [Emoji.closed + " ", 
-           "Permanently closed on ",
-           "<INSERTDATE>"],
-    "es": [Emoji.closed + " ",
-           "Cerrado permanentemente el ",
-           "<INSERTDATE>"],
-    "ja": [Emoji.closed + " ",
-           "<INSERTDATE>",
-           "に閉業"],
-    "ko": [Emoji.closed + " ",
-           "<INSERTDATE>",
-           " 영구 폐쇄"],
-    "ne": [Emoji.closed + " ",
-           "स्थायी रूपमा ",
-           "<INSERTDATE>",
-           "बन्द भयो"],
-    "pt": [Emoji.closed + " ", 
-           "Permanentemente fechado em ",
-           "<INSERTDATE>"],
-    "zh": [Emoji.closed + " ",
-           "<INSERTDATE>",
-           "永久关闭"]
+    "en": `${Emoji.closed} Permanently closed on <INSERTDATE>`,
+    "es": `${Emoji.closed} Cerrado permanentemente el <INSERTDATE>`,
+    "ja": `${Emoji.closed} <INSERTDATE>に閉業`,
+    "ko": `${Emoji.closed} <INSERTDATE> 영구 폐쇄`,
+    "ne": `${Emoji.closed} स्थायी रूपमा <INSERTDATE> बन्द भयो`,
+    "pt": `${Emoji.closed} Permanentemente fechado em <INSERTDATE>`,
+    "zh": `${Emoji.closed} <INSERTDATE>永久关闭`
   },
   "comma": {
     "en": ", ",
@@ -129,41 +95,13 @@ export const Text: Record<string, Record<Language, string>> = {
     "zh": "及"
   },
   "credit": {
-    "en": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " has contributed ",
-           "<INSERTNUMBER>",
-           " photos."],
-    "es": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " ha contribuido con ",
-           "<INSERTNUMBER>",
-           " fotos."],
-    "ja": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           "は",
-           "<INSERTNUMBER>",
-           "枚の写真を寄稿しました。"],
-    "ko": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           "이(가) ",
-           "<INSERTNUMBER>",
-           "장의 사진을 제공했습니다."],
-    "ne": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " ले ",
-           "<INSERTNUMBER>",
-           " फोटो योगदान गरेको छ"],
-    "pt": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           " contribuiu com ",
-           "<INSERTNUMBER>",
-           " fotos."],
-    "zh": [Emoji.gift + " ",
-           "<INSERTUSER>",
-           "提供了",
-           "<INSERTNUMBER>",
-           "张照片。"]
+    "en": `${Emoji.gift} *<INSERTUSER>* has contributed **<INSERTNUMBER>** photos.`,
+    "es": `${Emoji.gift} *<INSERTUSER>* ha contribuido con **<INSERTNUMBER>** fotos.`,
+    "ja": `${Emoji.gift} *<INSERTUSER>*は**<INSERTNUMBER>**枚の写真を寄稿しました。`,
+    "ko": `${Emoji.gift} *<INSERTUSER>*이(가) **<INSERTNUMBER>**장의 사진을 제공했습니다.`,
+    "ne": `${Emoji.gift} *<INSERTUSER>* ले **<INSERTNUMBER>** फोटो योगदान गरेको छ`,
+    "pt": `${Emoji.gift} *<INSERTUSER>* contribuiu com **<INSERTNUMBER>** fotos.`,
+    "zh": `${Emoji.gift} *<INSERTUSER>*提供了**<INSERTNUMBER>**张照片。`
   },
   "credit_animal_filter_single": {
     "en": [Emoji.gift + " ",
@@ -1948,10 +1886,8 @@ export function baby_photos() {
   const link = document.createElement('a')
   link.href = "#query/baby"
   const p = document.createElement('p')
-  for (const field of Text.baby_photos[Env.language]) {
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
+  const msg = document.createTextNode(Text.baby_photos[Env.language])
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("tagSummary", link)
 }
@@ -1978,69 +1914,51 @@ export function birthday(name: string, animalId: number, years: string) {
   return shrinkBoxMessage("birthdaySummary", link)
 }
 
-export function birthday_overflow(count: string) {
+export function birthday_overflow(count: number) {
   const p = document.createElement('p')
   p.className = "summaryEmphasis"
-  for (let field of Text.birthday_overflow[Env.language]) {
-    if (field == "<INSERTCOUNT>") {
-      field = count
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.birthday_overflow[Env.language].replace("<INSERTCOUNT>", count.toString()))
+  p.appendChild(msg)
   return shrinkBoxMessage("birthdaySummary", p)
 }
 
-export function closed(date) {
+export function closed(date: string) {
   const p = document.createElement('p')
-  for (const i in Text.closed[Env.language]) {
-    let field = Text.closed[Env.language][i]
-    if (field == "<INSERTDATE>") {
-      field = date
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.closed[Env.language].replace("<INSERTDATE>", date))
+  p.appendChild(msg)
   return p
 }
 
-export function credit(credit, count) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
+/** 
+ * Draw a header for crediting someone's photos contribution with the correct
+ * language setting, with the name in italics and the photo count in boldface.
+ * If someone has contributed a lot of photos, they get a special emoji header.
+ * 
+ * TODO-UI: pass through post-processing for count (bold) and user (italics)
+ */
+export function credit(credit: string, count: number) {
   const p = document.createElement('p')
-  for (const i in Text.credit[Env.language]) {
-    let field = Text.credit[Env.language][i]
-    if (field == "<INSERTUSER>") {
-      field = credit
-      const msg = document.createElement('i')
-      msg.innerText = field
-      p.appendChild(msg)
-    } else if (field == "<INSERTNUMBER>") {
-      field = count
-      const msg = document.createElement('b')
-      msg.innerText = field
-      p.appendChild(msg)
-    } else if ((field == Emoji.gift + " ") && (count >= 1000)) {
-      field = Emoji.megagift + " "
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      var msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.credit[Env.language]
+      .replace('<INSERTUSER>', credit)
+      .replace('<INSERTNUMBER>', count.toString())
+      .replace(Emoji.gift, () => {
+        if (count >= 1000) return Emoji.megagift
+        else return Emoji.gift
+      }))
+  p.appendChild(msg)
   return shrinkBoxMessage("creditSummary", p)
 }
 
+/** 
+ * Draw a header for crediting someone's photos contribution with the correct
+ * language setting.
+ * 
+ * TODO-UI: 
+ */
 export function creditSingleFilter(credit, filter, count) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
   for (const i in Text.credit_animal_filter_single[Env.language]) {
