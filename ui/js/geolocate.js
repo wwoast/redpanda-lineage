@@ -1,5 +1,4 @@
 import Env from './environment.js'
-import * as Language from './language.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
 import * as Pandas from './pandas.js'
@@ -73,7 +72,7 @@ function findClosest(maxDistance, maxResults) {
                         parseFloat(z.latitude), parseFloat(z.longitude))
     if (d < maxDistance) {
       // For printing, use units and convert to a fixed-point number
-      z["distance"] = d.toFixed(1).toString() + this.units
+      z["distance"] = d.toFixed(1).toString() + state.units
       zoos[d] = z
     }
   }
@@ -197,7 +196,7 @@ window.addEventListener('found_zoos', function() {
   Page.results.render()
   Env.current = Page.results.render
   // Search fine-tuned results with GPS if there's a lot of nearby zoos
-  if (state.results.hits.length >= state.close_results)
+  if (state.results.hits.length >= state.closeResults)
     toggleAccuracy()
 })
 

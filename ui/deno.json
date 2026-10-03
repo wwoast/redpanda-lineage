@@ -8,7 +8,6 @@
       "deno.ns"
     ],
     "jsxFactory": "h",
-    "jsxFactoryFragment": "Fragment",
     "types": ["../data/types.ts"]
   },
   "imports": {

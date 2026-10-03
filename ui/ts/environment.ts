@@ -1,10 +1,35 @@
 type EnvironmentUI = {
+  /** 
+   * Stores callback to the current page render function for redraws.
+   * Default mode is to show panda results, pointing to the `resultsPage`
+   * render function, after the `ResultsPage` class is instantiated, in
+   * `init.js`.
+   */
   current: Function | undefined,
+  /**
+   * The current display language for redpandafinder. Default is set by
+   * `language.js#defaultDisplayLanguage`.
+   */
   language: Language | undefined,
+  /** 
+   * When un-clicking Links/About, go back to the last page viewed, or possibly
+   * the last panda you searched for. Defaults to `#home`.
+   */  
   lastSearch: string,
+  /**
+   * When displaying results, by default we display zoo and panda _entities_.
+   * However, other output modes are supported based on the supplied types. The
+   * _credit_ search shows a spread of photos credited to a particular user.
+   */
   output_mode: "entities" | "group" | "nearby" | "photos",
+  /** Details about paging through search results */
   paging: {
+    /**
+     * Callback for how the next button loads new content on this page,
+     * and what frame DIV it spools that content into.
+     */
     callback: {
+      /** Page number must always come first in the arguments list */
       arguments: any[],
       function: Function | undefined,
       frame_id: string | undefined
@@ -24,36 +49,12 @@ type EnvironmentUI = {
  * for other modules.
  */
 const env: EnvironmentUI = {
-  /** 
-   * Stores callback to the current page render function for redraws.
-   * Default mode is to show panda results, pointing to the `resultsPage`
-   * render function, after the `ResultsPage` class is instantiated, in
-   * `init.js`.
-   */
   current: undefined,
-  /** 
-   * The current display language for redpandafinder. Default is set by
-   * `language.js#defaultDisplayLanguage`. */
   language: undefined,
-  /** 
-   * When un-clicking Links/About, go back to the last page viewed, or possibly
-   * the last panda you searched for.
-   */  
   lastSearch: "#home",
-  /**
-   * When displaying results, by default we display zoo and panda _entities_.
-   * However, other output modes are supported based on the supplied types. The
-   * _credit_ search shows a spread of photos credited to a particular user.
-   */
   output_mode: "entities",
-  /** Details about paging through search results */
   paging: {
-    /** 
-     * Callback for how the next button loads new content on this page,
-     * and what frame DIV it spools that content into.
-     */
     callback: {
-      /** Page number must always come first in the arguments list */
       arguments: [],
       function: undefined,
       frame_id: undefined
