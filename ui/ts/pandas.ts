@@ -1,4 +1,4 @@
-import Dagoba from '@redpanda-lineage/data/dagoba.ts'
+import { Graph as Dagoba } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'

@@ -282,9 +282,9 @@ export function fallbackInfo(info, original) {
  * For names stored in Roman characters, they often start with a capital
  * letter. So input queries not capitalized need to be corrected for searching.
  */
-export function capitalNames(input) {
-  let words = []
-  const output = []
+export function capitalNames(input: string) {
+  let words: string[] = []
+  const output: string[] = []
   if (input.includes(' ')) {
     words = input.split(' ')
   } else {
@@ -304,7 +304,7 @@ export function capitalNames(input) {
 }
 
 /** Capitalize words in a string */
-function capitalize(input, mode) {
+function capitalize(input: string, mode: "first" | "all") {
   const words = input.split(" ").length
   const output = ((mode == "first") || (words == 1))
     ? input.charAt(0).toUpperCase() + input.slice(1)
@@ -438,7 +438,7 @@ export function fallback_name(entity) {
  * For Japanese language searches, whenever a hiragana string is searched, we
  * try to support also searching for the katakana equivalent characters.
  */
-export function hiraganaToKatakana(input) {
+export function hiraganaToKatakana(input: string) {
   const source_range = Defaults.ranges['ja'][1]   // Hiragana range regex
   const test = source_range.test(input)
   let output = ""
@@ -462,7 +462,7 @@ export function hiraganaToKatakana(input) {
  * For Japanese language searches, whenever a katakana string is searched, we
  * try to support also searching for the hiragana equivalent characters.
  */
-export function katakanaToHiragana(input) {
+export function katakanaToHiragana(input: string) {
   const source_range = Defaults.ranges['ja'][2]   // Katakana range regex
   const test = source_range.test(input)
   let output = ""
