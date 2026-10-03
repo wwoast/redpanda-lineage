@@ -3,7 +3,7 @@ import * as Geo from './geolocate.ts'
 import * as Icons from './icons.ts'
 import * as Language from '../js/language.js'
 import { mediaQuery, shrinkNames } from '../js/layout.js'
-import * as Options from '../js/options.js'
+import * as Options from './options.ts'
 import * as Page from '../js/page.js'
 import * as Pandas from '../js/pandas.js'
 import * as ScrollTop from './scrollTop.ts'
@@ -30,9 +30,7 @@ import * as Show from '../js/show.js'
   }
 })()
 
-/*
-    Global objects usable by forms, and things that operate as the page loads
-*/
+/** Global objects usable by forms + things that operate as the page loads */
 
 /** Once page has loaded, add new event listeners for search processing */
 document.addEventListener("DOMContentLoaded", function() {
