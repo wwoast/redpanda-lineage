@@ -4,12 +4,44 @@ import * as Show from './show.ts'
 
 /** 
  * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
- * Heavily adapted from original code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
+ * Heavily adapted from code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
  */
+
+interface TouchStats {
+  /** Current X-coordinate of the finger */
+  curX: number,
+  /** Current Y-coordinate of the finger */
+  curY: number,
+  /** The amount of pixels between startX and curX */
+  deltaX: number,
+  /** Total horizontal distance the finger has travelled */
+  diffHorz: number,
+  /** How many fingers are currently touching the screen */
+  fingerCount: number,
+  /** X-coordinate where finger first touched the screen */
+  startX: number,
+  /** Y-coordinate where finger first touched the screen */
+  startY: number,
+  /** The angle formed between the startXY and curXY coordinates */
+  swipeAngle: number | null,
+  /** Rounded up or down every 45 degrees from the swipeAngle */
+  swipeDirection: "down" | "left" | "right" | "up" | null
+  /** Distance between final curXY and startXY coordinates */
+  swipeLength: number,
+  /** Unix time in MS the swipe ended */
+  timeEnd: number,
+  /** Unix time in MS the started ended */
+  timeStart: number,
+  /** Tally of direction changes during this touch (left to right) */
+  turnCount: number,
+  /** The last X-coordinate where the finger changed direction */
+  xTurn: number
+}
+
 const MinLength = 64   // the shortest distance the user may swipe
 
 // The 4 Touch Event Handlers
-function start(event, touch) {
+function start(event: TouchEvent, touch: TouchStats) {
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length
   // timer for long press events
@@ -26,7 +58,7 @@ function start(event, touch) {
   }
 }
 
-function move(event, touch) {
+function move(event: TouchEvent, touch: TouchStats) {
   event.preventDefault()
   if (event.touches.length == 1) {
     touch.curX = event.touches[0].pageX
@@ -59,9 +91,15 @@ function move(event, touch) {
   }
 }
 
-function end(event, touch, gallery, elementId, callback) {
+function end(
+  event: TouchEvent,
+  touch: TouchStats,
+  gallery,
+  elementId: string,
+  callback: Function
+) {
   event.preventDefault()
-  touch.endTime = new Date().getTime()
+  touch.timeEnd = new Date().getTime()
   if (touch.fingerCount == 1 && touch.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
@@ -82,7 +120,7 @@ function end(event, touch, gallery, elementId, callback) {
 }
 
 /** Reset the touch state variables back to default values */
-function cancel(touch) {
+function cancel(touch: TouchStats) {
   touch.curX = 0
   touch.curY = 0
   touch.deltaX = 0
@@ -100,7 +138,7 @@ function cancel(touch) {
 }
 
 /** Calculate the angle of a particular swipe */
-function angle(touch) {
+function angle(touch: TouchStats) {
   const X = touch.startX - touch.curX
   const Y = touch.curY - touch.startY
   const r = Math.atan2(Y,X)   // angle in radians (Cartesian system)
@@ -111,8 +149,10 @@ function angle(touch) {
 }
 
 /** Decide the primary cardinal direction of a swipe is based on the angle */
-function determine(touch) {
-  if ((touch.swipeAngle <= 45) && (touch.swipeAngle >= 0)) {
+function determine(touch: TouchStats) {
+  if (touch.swipeAngle == null) {
+    return
+  } else if ((touch.swipeAngle <= 45) && (touch.swipeAngle >= 0)) {
     touch.swipeDirection = 'left'
   } else if ((touch.swipeAngle <= 360) && (touch.swipeAngle >= 315)) {
     touch.swipeDirection = 'left'
@@ -126,11 +166,11 @@ function determine(touch) {
 }
 
 /** Callback to change the photo based on where the touch event happened */
-export function processPhoto(touch, gallery, elementId) {
+export function processPhoto(touch: TouchStats, gallery, elementId: string) {
   const animalId = elementId.split('/')[0]
   const navigatorId = `${animalId}/navigator`
   const navigator = document.getElementById(navigatorId)
-  const span = navigator.childNodes[0]
+  const span = navigator?.childNodes[0]
   if (((touch.diffHorz > 2*MinLength) && (touch.turnCount > 0)) &&
       ((touch.swipeDirection == 'right') || (touch.swipeDirection == 'left'))) {
     // TODO ES6
@@ -157,7 +197,11 @@ export function processPhoto(touch, gallery, elementId) {
  * Swipe/gesture event handler. Adds a listener for touch events on the photo
  * carousels, and defines a callback function for when the touch ends.
  */
-export function addSwipeHandler(gallery, inputElement, callback) {
+export function addSwipeHandler(
+  gallery,
+  inputElement: Element,
+  callback: Function
+) {
   /** Initial values when creating a listener */
   const touch = {
     curX: 0,
@@ -175,12 +219,16 @@ export function addSwipeHandler(gallery, inputElement, callback) {
     turnCount: 0,
     xTurn: 0
   }
-  inputElement.addEventListener('touchstart', (event) => start(event, touch), true)
-  inputElement.addEventListener(
-    'touchend', 
-    (event) => end(event, touch, gallery, inputElement.id, callback),
-    true
-  )
-  inputElement.addEventListener('touchmove', (event) => move(event, touch), true)
-  inputElement.addEventListener('touchcancel', (event) => cancel(touch), true)
+  inputElement.addEventListener('touchstart',
+    (event: Event) => start(event, touch),
+    true)
+  inputElement.addEventListener('touchend', 
+    (event: Event) => end(event, touch, gallery, inputElement.id, callback),
+    true)
+  inputElement.addEventListener('touchmove',
+    (event: Event) => move(event, touch),
+    true)
+  inputElement.addEventListener('touchcancel',
+    () => cancel(touch),
+    true)
 }

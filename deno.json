@@ -1,4 +1,5 @@
 {
+  "name": "@redpanda-lineage",
   "compilerOptions": {
     "types": ["./data/types.ts"]
   },

@@ -61,7 +61,7 @@ function move(event, touch) {
 
 function end(event, touch, gallery, elementId, callback) {
   event.preventDefault()
-  touch.endTime = new Date().getTime()
+  touch.timeEnd = new Date().getTime()
   if (touch.fingerCount == 1 && touch.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe

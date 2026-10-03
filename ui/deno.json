@@ -11,7 +11,8 @@
     "types": ["../data/types.ts"]
   },
   "imports": {
-    "@nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts"
+    "@nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts",
+    "@redpanda-lineage": "./"
   },
   "tasks": {
     "build": {
