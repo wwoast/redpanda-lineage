@@ -1,6 +1,6 @@
 import Env from './environment.ts'
-import * as Geo from '../js/geolocate.js'
-import * as Icons from '../js/icons.js'
+import * as Geo from './geolocate.ts'
+import * as Icons from './icons.ts'
 import * as Language from '../js/language.js'
 import { mediaQuery, shrinkNames } from '../js/layout.js'
 import * as Options from '../js/options.js'
