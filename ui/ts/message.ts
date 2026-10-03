@@ -1,8 +1,8 @@
 import Env from './environment.ts'
-import * as Language from '../js/language.js'
+import * as Language from './language.ts'
 import { Emoji, Tags } from './lookup.ts'
-import P, * as Pandas from '../js/pandas.js'
-import * as Show from '../js/show.js'
+import P, * as Pandas from './pandas.ts'
+import * as Show from './show.ts'
 
 /** TODO-UI: make *text* italic and **text** bold with JSX foo:
 function formatText(text) {
@@ -1956,9 +1956,9 @@ export function credit(credit: string, count: number) {
  * Draw a header for crediting someone's photos contribution with the correct
  * language setting.
  * 
- * TODO-UI: 
+ * TODO-UI: pass through post-processing for count (bold) and user (italics)
  */
-export function creditSingleFilter(credit, filter, count) {
+export function creditSingleFilter(credit: string, filter: string, count: number) {
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
   for (const i in Text.credit_animal_filter_single[Env.language]) {

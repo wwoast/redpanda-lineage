@@ -4,7 +4,6 @@ import { Defaults, Emoji, Gui, Polyglots, Tags } from './lookup.js'
 import * as Message from './message.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
-import * as Query from './query.js'
 import * as Show from './show.js'
 import * as Touch from './touch.js'
 

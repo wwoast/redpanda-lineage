@@ -1,13 +1,13 @@
 import Env from './environment.ts'
 import * as Geo from './geolocate.ts'
 import * as Icons from './icons.ts'
-import * as Language from '../js/language.js'
-import { mediaQuery, shrinkNames } from '../js/layout.js'
+import * as Language from './language.ts'
+import { mediaQuery, shrinkNames } from './layout.ts'
 import * as Options from './options.ts'
-import * as Page from '../js/page.js'
-import * as Pandas from '../js/pandas.js'
+import * as Page from './page.ts'
+import * as Pandas from './pandas.ts'
 import * as ScrollTop from './scrollTop.ts'
-import * as Show from '../js/show.js'
+import * as Show from './show.ts'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
 (function() {

@@ -1,7 +1,6 @@
 import Env from './environment.js'
 import * as Gallery from './gallery.js'
 import * as Geo from './geolocate.js'
-import * as Language from './language.js'
 import { mediaQuery, shrinkNames } from './layout.js'
 import { Gui, Tags } from './lookup.js'
 import * as Message from './message.js'

@@ -1,8 +1,8 @@
 import Env from './environment.ts'
 import * as Message from './message.ts'
-import * as Page from '../js/page.js'
-import * as Pandas from '../js/pandas.js'
-import * as Show from '../js/show.js'
+import * as Page from './page.ts'
+import * as Pandas from './pandas.ts'
+import * as Show from './show.ts'
 
 /**
  * Allows queries for nearby zoos, using the browser Geolocation API.

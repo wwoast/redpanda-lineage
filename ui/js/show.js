@@ -9,7 +9,6 @@ import * as Message from './message.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
 import P, * as Pandas from './pandas.js'
-import * as Query from './query.js'
 
 /** 
  * In the old world this was all code for rendering page components in
@@ -595,6 +594,8 @@ function qrcodeSwap() {
 /**
  * Guarantee after calling this function that a menu, or a footer, exist in the
  * page where they should be.
+ * 
+ * TODO-UI: typescript can't reason about this shit
  */
 function update(new_contents, container=undefined, container_class, container_id) {
   if (container == undefined) {
