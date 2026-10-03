@@ -6,7 +6,7 @@ import { mediaQuery, shrinkNames } from '../js/layout.js'
 import * as Options from '../js/options.js'
 import * as Page from '../js/page.js'
 import * as Pandas from '../js/pandas.js'
-import * as ScrollTop from '../js/scrollTop.js'
+import * as ScrollTop from './scrollTop.ts'
 import * as Show from '../js/show.js'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
