@@ -1,6 +1,6 @@
 import Env from './environment.js'
 import * as Language from './language.js'
-import { Emoji, Polyglots, Tags } from './lookup.js'
+import { Emoji, Tags } from './lookup.js'
 import P, * as Pandas from './pandas.js'
 import * as Show from './show.js'
 
@@ -1938,10 +1938,10 @@ export function arrivals(zoo, born) {
   const link = document.createElement('a')
   link.href = "javascript:"
   const linkId = `arrivals/zoo/${zoo._id}`
-  link.id = linkId;
+  link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
-  });
+  })
   const p = document.createElement('p')
   for (const i in Text.zoo_header_new_arrivals[Env.language]) {
     const field = Text.zoo_header_new_arrivals[Env.language][i]
@@ -1989,7 +1989,7 @@ export function autumn() {
 
 export function baby_photos() {
   const link = document.createElement('a')
-  link.href = "#query/baby";
+  link.href = "#query/baby"
   const p = document.createElement('p')
   for (const i in Text.baby_photos[Env.language]) {
     const field = Text.baby_photos[Env.language][i]
@@ -2041,15 +2041,15 @@ export function birthday_overflow(count) {
 }
 
 export function closed(date) {
-  const p = document.createElement('p');
+  const p = document.createElement('p')
   for (const i in Text.closed[Env.language]) {
     let field = Text.closed[Env.language][i]
     if (field == "<INSERTDATE>") {
       field = date
-      const msg = document.createTextNode(field);
+      const msg = document.createTextNode(field)
       p.appendChild(msg)
     } else {
-      const msg = document.createTextNode(field);
+      const msg = document.createTextNode(field)
       p.appendChild(msg)
     }
   }
@@ -2116,7 +2116,7 @@ export function creditSingleFilter(credit, filter, count) {
 
 export function departed_to_zoo(zoo, date) {
   // Text to go into the Show.zooLink function
-  let text = "";
+  let text = ""
   for (const i in Text.departed_to_zoo[Env.language]) {
     let field = Text.departed_to_zoo[Env.language][i]
     if (field == "<INSERTDATE>") {
@@ -2135,8 +2135,8 @@ export function departed_to_zoo(zoo, date) {
 export function departures(zoo, deaths, leaving) {
   // Zoo search: display departing animals along with ones that died.
   // If any animals passed away, this message gets a rainbow icon suffix
-  const link = document.createElement('a');
-  link.href = "javascript:";
+  const link = document.createElement('a')
+  link.href = "javascript:"
   const linkId = `departures/zoo/${zoo._id}`
   link.id = linkId
   link.addEventListener("click", function() {
@@ -2193,8 +2193,8 @@ export function geolocationStart() {
   const p = document.createElement('p')
   for (const i in Text.nearby_zoos[Env.language]) {
     const field = Text.nearby_zoos[Env.language][i]
-    const msg = document.createTextNode(field);
-    p.appendChild(msg);
+    const msg = document.createTextNode(field)
+    p.appendChild(msg)
   }
   return shrinkBoxMessage("frontPageSummary", p)
 }
@@ -2264,7 +2264,7 @@ export function memorial(name, animalId, birth, death) {
       p.appendChild(msg)
     }
   }
-  link.appendChild(p);
+  link.appendChild(p)
   return shrinkBoxMessage("memorialSummary", link)
 }
 
@@ -2344,7 +2344,7 @@ export function new_photos() {
   const lookup = Text.new_photos
   let pieces = []
   for (const part of section_order) {
-    const count = counts[part];
+    const count = counts[part]
     if (count == 0) {
       continue
     }
@@ -2368,46 +2368,46 @@ export function new_photos() {
 }
 
 export function profile_children(name, childrenCount, daughters, sons) {
-  const p = document.createElement('p');
+  const p = document.createElement('p')
   let babies = 0
   if (childrenCount != daughters + sons) {
-    babies = childrenCount - daughters - sons;
+    babies = childrenCount - daughters - sons
   }
   // Choose the type of message
-  let message = undefined;
+  let message = undefined
   if (daughters > 0 && sons > 0 && babies > 0) {
-    message = Text.profile_children_babies;
+    message = Text.profile_children_babies
   } else if (daughters > 0 && sons > 0) {
-    message = Text.profile_children;
+    message = Text.profile_children
   } else if (daughters > 0 && babies > 0) {
-    message = Text.profile_daughters_babies;
+    message = Text.profile_daughters_babies
   } else if (sons > 0 && babies > 0) {
-    message = Text.profile_sons_babies;
+    message = Text.profile_sons_babies
   } else if (daughters > 0) {
-    message = Text.profile_daughters;
+    message = Text.profile_daughters
   } else if (sons > 0) {
-    message = Text.profile_sons;
+    message = Text.profile_sons
   } else if (babies > 0) {
-    message = Text.profile_babies_children;
+    message = Text.profile_babies_children
   } else {
-    message = Text.profile_children;
+    message = Text.profile_children
   }
   let output_text = ""
   // Do string replacement
   for (const i in message[Env.language]) {
-    const field = message[Env.language][i];
+    const field = message[Env.language][i]
     if (field == "<INSERTNAME>") {
-      output_text = output_text.concat(name);
+      output_text = output_text.concat(name)
     } else if (field == "<INSERTTOTAL>") {
-      output_text = output_text.concat(childrenCount);
+      output_text = output_text.concat(childrenCount)
     } else if (field == "<INSERTDAUGHTERS>") {
-      output_text = output_text.concat(daughters);
+      output_text = output_text.concat(daughters)
     } else if (field == "<INSERTSONS>") {
-      output_text = output_text.concat(sons);
+      output_text = output_text.concat(sons)
     } else if (field == "<INSERTBABIES>") {
-      output_text = output_text.concat(babies);
+      output_text = output_text.concat(babies)
     } else {
-      output_text = output_text.concat(field);
+      output_text = output_text.concat(field)
     }
   }
   output_text = Language.unpluralize([output_text])[0]
@@ -2416,7 +2416,7 @@ export function profile_children(name, childrenCount, daughters, sons) {
 }
 
 export function profile_family(name) {
-  const p = document.createElement('p');
+  const p = document.createElement('p')
   for (const i in Text.profile_family[Env.language]) {
     const field = Text.profile_family[Env.language][i]
     if (field == "<INSERTNAME>") {
@@ -2428,7 +2428,7 @@ export function profile_family(name) {
     }
   }
   // Fix s's if it appears
-  const innerText = p.innerText;
+  const innerText = p.innerText
   p.innerText = innerText.replace("s's", "s'")
   return shrinkBoxMessage("profileSummary", p)
 }
@@ -2535,7 +2535,7 @@ export function shovel_pandas() {
 }
 
 export function tag_combo(num, emojis) {
-  const p = document.createElement('p');
+  const p = document.createElement('p')
   // Emojis come first!
   for (const emoji of emojis) {
     p.appendChild(document.createTextNode(emoji + " "))

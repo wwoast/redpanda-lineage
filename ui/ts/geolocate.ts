@@ -1,5 +1,5 @@
 import Env from './environment.ts'
-import * as Message from '../js/message.js'
+import * as Message from './message.ts'
 import * as Page from '../js/page.js'
 import * as Pandas from '../js/pandas.js'
 import * as Show from '../js/show.js'
