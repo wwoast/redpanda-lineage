@@ -126,7 +126,7 @@ class AboutPage {
       this.sectionShow(window.sessionStorage.getItem("aboutPageMenu"))
       // Determine desktop or mobile, and display relevant instructions
       this.instructions()
-      mediaQuery().addListener(this.instructions)
+      mediaQuery().addEventListener("change", this.instructions)
       // Add a tag list
       this.tags()
       Env.current = this.render

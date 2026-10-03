@@ -6,7 +6,6 @@ import { mediaQuery, shrinkNames } from './layout.js'
 import * as Options from './options.js'
 import * as Page from './page.js'
 import * as Pandas from './pandas.js'
-import * as Query from './query.js'
 import * as ScrollTop from './scrollTop.js'
 import * as Show from './show.js'
 
@@ -135,13 +134,13 @@ window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
     Page.about.render()
     // Add event listeners to the newly created About page buttons
-    Page.about.sectionButtonEventHandlers("aboutPageMenu")
+    Page.about.sectionButtonEventHandlers()
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
     Page.about.sectionShow(window.sessionStorage.getItem("aboutPageMenu"))
     // Determine desktop or mobile, and display relevant instructions
     Page.about.instructions()
-    mediaQuery().addListener(Page.about.instructions)
+    mediaQuery().addEventListener("change", Page.about.instructions)
     // Add a tag list
     Page.about.tags()
     Env.current = Page.about.render

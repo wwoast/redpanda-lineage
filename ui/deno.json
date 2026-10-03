@@ -1,11 +1,22 @@
 {
   "name": "@redpanda-lineage/ui",
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ],
+    "jsxFactory": "h",
+    "jsxFactoryFragment": "Fragment",
+    "types": ["../data/types.ts"]
+  },
   "imports": {
     "@nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts"
   },
   "tasks": {
     "build": {
-      "command": "deno bundle -A ./ts/bundle.ts"
+      "command": "deno bundle -A ./ts/init.ts"
     }
   }
 }

@@ -18,8 +18,8 @@ export const mediaQuery = () => window.matchMedia("(max-width: 670px)")
  * Media-query height adjustment listeners, plus making sure the height
  * adjustment works on the initial page load.
  */
-mediaQuery().addListener(shrinkNames)
-mediaQuery().addListener(recomputeHeight)
+mediaQuery().addEventListener("change", shrinkNames)
+mediaQuery().addEventListener("change", recomputeHeight)
 
 /** 
  * Create a divider. This is a horizontal rule element with 100% width. Works

@@ -1,0 +1,148 @@
+import Env from './environment.ts'
+import * as Geo from '../js/geolocate.js'
+import * as Icons from '../js/icons.js'
+import * as Language from '../js/language.js'
+import { mediaQuery, shrinkNames } from '../js/layout.js'
+import * as Options from '../js/options.js'
+import * as Page from '../js/page.js'
+import * as Pandas from '../js/pandas.js'
+import * as ScrollTop from '../js/scrollTop.js'
+import * as Show from '../js/show.js'
+
+/** Mobile meta-tag support for various phone/tablet font scales */
+(function() {
+  const meta = document.createElement('meta')
+  meta.name = "viewport"
+  if (navigator.platform === "iPad") {
+    const scale = 1.2
+    meta.content = `width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0"`
+    document.head.appendChild(meta)
+  } else if (navigator.platform === "iPhone") {
+    const scale = 1.0
+    meta.content = `width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0"`
+    document.head.appendChild(meta)
+  } else if (navigator.userAgent.includes("Android")) {
+    const scale = 1.0
+    meta.content = `width=device-width, initial-scale=${scale}, minimum-scale=${scale}, maximum-scale=${scale}, user-scalable=0, target-densitydpi="device-dpi"`
+    document.head.appendChild(meta)
+  } else {
+    return
+  }
+})()
+
+/*
+    Global objects usable by forms, and things that operate as the page loads
+*/
+
+/** Once page has loaded, add new event listeners for search processing */
+document.addEventListener("DOMContentLoaded", function() {
+  Page.routes.check()   // See what page we should be rendering
+  Pandas.init()
+  Geo.init()   // Set units for distance tracking based on browser locale
+  ScrollTop.init()
+  Options.init()
+  Icons.walk(document.body)   // Replace emojis with SVG icons
+  Icons.observe()   // More SVG emoji replacements on page mutate
+  Language.init()   // Some tag generation stuff
+  Language.defaultDisplayLanguage()   // Set default display language
+  Language.update()     // Update buttons, displayed results, and cookie state
+  Page.redraw(Env.current)   // Ready to redraw? Let's go.
+  // Most RPF pages won't save your place on the page on purpose,
+  // because refresh events don't put you at the top of page properly
+  // work properly when this is enabled. However, leave it on for the
+  // #about page.
+  if (history.scrollRestoration) {
+    history.scrollRestoration = 'auto'
+    if (window.location.hash.indexOf("#about") == -1) {
+      history.scrollRestoration = 'manual'
+    }
+  }
+
+  // Once the panda data is loaded, render the page proper
+  window.addEventListener('panda_data', function() {
+    // If available on the page, enable search bar once the page has loaded
+    Show.searchBar.enable()
+    // Determine what page content to display
+    if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
+      Page.profile.render()
+    } else if (Page.routes.memberOf(Page.routes.media, window.location.hash)) {
+      Page.media.render()
+    } else if (window.location.hash == "#links") {
+      Page.links.render()
+    } else if (window.location.hash == "#options") {
+      Page.options.render()
+    } else if ((window.location.hash.length > 0) && 
+               (!Page.routes.memberOf(Page.routes.fixed, window.location.hash))) {
+      Page.results.render()
+    } else if ((window.location.hash.length == 0) || (window.location.hash == "#home")) {
+      Page.home.render()
+    }
+    // When all webfonts have rendered, recalculate text shrinks
+    setTimeout(shrinkNames, 1000)
+  })
+  // Fetch the about page contents for each language
+  Page.about.fetch()
+  // If a previous page was seen, load it
+  const last_seen = window.localStorage.getItem("last_seen")
+  const current_hash = window.location.hash
+  if ((last_seen != null) && (current_hash.length == 0)) {
+    window.location.hash = last_seen
+  }  
+})
+
+// When a hashlink is clicked from a non-links or non-about page, it should
+// output results for pandas. Save the hashlink as a value to be loaded if the page
+// is closed.
+window.addEventListener('hashchange', function() {
+  // Any time the page changes, forget location details
+  // in case we might have moved around
+  Geo.state.resolved = false
+  // And forget how many pages we have shown
+  Env.paging.shown_pages = 1
+  const mode = window.location.hash.split("/")[0]
+  if (window.location.hash.length == 0 || mode == "#home") {
+    Page.home.render()
+    Env.current = Page.home.render
+  } else if (mode == "#about") {
+    Page.about.hashchange()
+  } else if (mode == "#links") {
+    Page.links.hashchange()
+  } else if (mode == "#options") {
+    Page.options.hashchange()
+  } else if (Page.routes.results.includes(mode)) {
+    Page.results.render()
+    Env.current = Page.results.render
+  } else if (Page.routes.profile.includes(mode)) {
+    Page.profile.render()
+    Env.current = Page.profile.render
+  } else if (Page.routes.media.includes(mode)) {
+    Page.media.render()
+    Env.current = Page.media.render
+  }
+  window.localStorage.setItem("last_seen", window.location.hash)
+
+  // Most RPF pages won't save your place on the page on purpose.
+  // because refresh events don't work properly when this is enabled.
+  if ((history.scrollRestoration) && (mode != "#about")) {
+    history.scrollRestoration = 'manual'
+  }
+})
+
+// Once the about-page content is loaded, decide whether to display the
+// contents or just keep them stashed.
+window.addEventListener('about_loaded', function() {
+  if (window.location.hash == "#about") {
+    Page.about.render()
+    // Add event listeners to the newly created About page buttons
+    Page.about.sectionButtonEventHandlers()
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    Page.about.sectionShow(window.sessionStorage.getItem("aboutPageMenu"))
+    // Determine desktop or mobile, and display relevant instructions
+    Page.about.instructions()
+    mediaQuery().addEventListener("change", Page.about.instructions)
+    // Add a tag list
+    Page.about.tags()
+    Env.current = Page.about.render
+  }
+})
