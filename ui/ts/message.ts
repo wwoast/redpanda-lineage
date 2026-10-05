@@ -1,6 +1,6 @@
 import Env from './environment.ts'
 import * as Language from './language.ts'
-import { Emoji, Tags } from './lookup.ts'
+import { Emoji, Tags, Polyglots } from './lookup.ts'
 import P, * as Pandas from './pandas.ts'
 import * as Show from './show.ts'
 
@@ -1112,7 +1112,7 @@ export function tag_subject(num: number, name: string, emoji: string, tag: strin
   if (tag in Tags)
     near_tag = Tags[tag][Env.language][0]
   else
-    near_tag = Language.polyglots[tag][Env.language][0]
+    near_tag = Polyglots[tag][Env.language][0]
   const p = document.createElement('p')
   for (const i in Text.tag_subject[Env.language]) {
     let field = Text.tag_subject[Env.language][i]
