@@ -5,6 +5,9 @@ import P, * as Pandas from './pandas.ts'
 import * as Show from './show.ts'
 
 /** TODO-UI: make *text* italic and **text** bold with JSX foo:
+ * as well as process the newlines and extra spaces in long lones of text
+ * definitions. For JA and ZH, consciously remove spaces and new lines. For
+ * others, just crunch multiple spaces to a single space.
 function formatText(text) {
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
   return parts.map((part, index) => {
@@ -44,13 +47,13 @@ export const Text: Record<string, Record<Language, string>> = {
     "zh": "和"
   },
   "arrived_from_zoo": {
-    "en": '<INSERTDATE>, from <INSERTZOO>',
-    "es": '<INSERTDATE> desde <INSERTZOO>',
-    "ja": '<INSERTDATE>、<INSERTZOO>から',
-    "ko": '<INSERTDATE>에서<INSERTZOO>',
-    "ne": '<INSERTDATE> बाट <INSERTZOO>',
-    "pt": '<INSERTDATE>, desde <INSERTZOO>',
-    "zh": '<INSERTDATE>，来自<INSERTZOO>'
+    "en": `<INSERTDATE>, from <INSERTZOO>`,
+    "es": `<INSERTDATE> desde <INSERTZOO>`,
+    "ja": `<INSERTDATE>、<INSERTZOO>から`,
+    "ko": `<INSERTDATE>에서<INSERTZOO>`,
+    "ne": `<INSERTDATE> बाट <INSERTZOO>`,
+    "pt": `<INSERTDATE>, desde <INSERTZOO>`,
+    "zh": `<INSERTDATE>，来自<INSERTZOO>`
   },
   "autumn": {
     "en": `${Emoji.autumn} Season of changing colors ${Emoji.autumn}`,
@@ -116,13 +119,13 @@ export const Text: Record<string, Record<Language, string>> = {
     "zh": `${Emoji.gift} *<INSERTUSER>*提供了**<INSERTNUMBER>**张**<INSERTNAME>**照片。`    
   },
   "departed_to_zoo": {
-    "en": '<INSERTZOO> on <INSERTDATE>',
-    "es": '<INSERTZOO> al <INSERTDATE>',
-    "ja": '<INSERTDATE>に<INSERTZOO>に行きました',
-    "ko": '<INSERTZOO>에서<INSERTDATE>',
-    "ne": '<INSERTZOO> <INSERTDATE> मा',
-    "pt": '<INSERTZOO> em <INSERTDATE>',
-    "zh": '<INSERTDATE>去<INSERTZOO>'
+    "en": `<INSERTZOO> on <INSERTDATE>`,
+    "es": `<INSERTZOO> al <INSERTDATE>`,
+    "ja": `<INSERTDATE>に<INSERTZOO>に行きました`,
+    "ko": `<INSERTZOO>에서<INSERTDATE>`,
+    "ne": `<INSERTZOO> <INSERTDATE> मा`,
+    "pt": `<INSERTZOO> em <INSERTDATE>`,
+    "zh": `<INSERTDATE>去<INSERTZOO>`
   },
   "find_a_nearby_zoo": {
     "en": `${Emoji.globe_americas} Find a zoo nearby!`,
@@ -203,197 +206,51 @@ export const Text: Record<string, Record<Language, string>> = {
     "pt": ", ",
     "zh": "、",
   },
+  // TODO-UI: translate ja ko ne zh values
   "lost_animal": {
-    "en": [Emoji.alert, " ",
-           Emoji.see_and_say, 
-           " If you see ",
-           "<INSERTNAME>",
-           ", contact ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
-    "es": [Emoji.alert, " ",
-           Emoji.see_and_say,
-           " Si ves a ",
-           "<INSERTNAME>",
-           " contacta a ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
-    "ja": [Emoji.alert, " ",
-           Emoji.see_and_say, 
-           " If you see ",
-           "<INSERTNAME>",
-           ", contact ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
-    "ko": [Emoji.alert, " ",
-           Emoji.see_and_say, 
-           " If you see ",
-           "<INSERTNAME>",
-           ", contact ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
-    "ne": [Emoji.alert, " ",
-           Emoji.see_and_say, 
-           " If you see ",
-           "<INSERTNAME>",
-           ", contact ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
-    "pt": [Emoji.alert, " ",
-           Emoji.see_and_say, 
-           " Se vir ",
-           "<INSERTNAME>",
-           ", contacte ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"],
-    "zh": [Emoji.alert, " ",
-           Emoji.see_and_say, 
-           " If you see ",
-           "<INSERTNAME>",
-           ", contact ",
-           "<ZOONAME>",
-           ": ",
-           "<ZOOCONTACT>"]
+    "en": `${Emoji.alert} ${Emoji.see_and_say} If you see <INSERTNAME>, contact <ZOONAME>: <ZOOCONTACT>`,
+    "es": `${Emoji.alert} ${Emoji.see_and_say} Si ves a <INSERTNAME> contact a <ZOONAME>: <ZOOCONTACT>`,
+    "ja": `${Emoji.alert} ${Emoji.see_and_say} If you see <INSERTNAME>, contact <ZOONAME>: <ZOOCONTACT>`,
+    "ko": `${Emoji.alert} ${Emoji.see_and_say} If you see <INSERTNAME>, contact <ZOONAME>: <ZOOCONTACT>`,
+    "ne": `${Emoji.alert} ${Emoji.see_and_say} If you see <INSERTNAME>, contact <ZOONAME>: <ZOOCONTACT>`,
+    "pt": `${Emoji.alert} ${Emoji.see_and_say} Se vir <INSERTNAME>, contacte <ZOONAME>: <ZOOCONTACT>`,
+    "zh": `${Emoji.alert} ${Emoji.see_and_say} If you see <INSERTNAME>, contact <ZOONAME>: <ZOOCONTACT>`,
   },
   "lunch_time": {
-    "en": [Emoji.paws, " ",
-           "What's for lunch?", " ",
-           Emoji.greens],
-    "es": [Emoji.paws, " ",
-           "¿Qué hay de comer?", " ",
-           Emoji.greens],
-    "ja": [Emoji.paws, " ",
-           "昼食は何ですか？", " ",
-           Emoji.greens],
-    "ko": [Emoji.paws, " ",
-           "오늘 점심 메뉴는 무엇인가요?", " ",
-           Emoji.greens],
-    "ne": [Emoji.paws, " ",
-           "खाजाको लागि के हो?", " ",
-           Emoji.greens],
-    "pt": [Emoji.paws, " ",
-           "O que tem para o almoço?", " ",
-           Emoji.greens],
-    "zh": [Emoji.paws, " ",
-           "午饭吃什么？", " ",
-           Emoji.greens]
+    "en": `${Emoji.paws} What's for lunch? ${Emoji.greens}`,
+    "es": `${Emoji.paws} ¿Qué hay de comer? ${Emoji.greens}`,
+    "ja": `${Emoji.paws} 昼食は何ですか？ ${Emoji.greens}`,
+    "ko": `${Emoji.paws} 오늘 점심 메뉴는 무엇인가요? ${Emoji.greens}`,
+    "ne": `${Emoji.paws} खाजाको लागि के हो? ${Emoji.greens}`,
+    "pt": `${Emoji.paws} O que tem para o almoço? ${Emoji.greens}`,
+    "zh": `${Emoji.paws} 午饭吃什么？ ${Emoji.greens}`
   },
   "missing_you": {
-    "en": ["We miss you, ",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "es": ["Te extrañamos, ",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "ja": ["あなたがいなくてとても寂しい, ",
-           "<INSERTNAME>",
-           "。",
-           Emoji.died, 
-           "（",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           "）"],
-    "ko": ["보고 싶어,",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "ne": ["हामी तिमीलाई सम्झिन्छौं",
-           "<INSERTNAME>",
-           " ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "pt": ["Saudades de você, ",
-           "<INSERTNAME>",
-           ". ",
-           Emoji.died,
-           " (",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           ")"],
-    "zh": ["我们想你, ",
-           "<INSERTNAME>",
-           "。",
-           Emoji.died,
-           "（",
-           "<INSERTBIRTH>",
-           " — ",
-           "<INSERTDEATH>",
-           "）"]
+    "en": `We miss you, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "es": `Te extrañamos, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "ja": `あなたがいなくてとても寂しい, <INSERTNAME>。${Emoji.died}（<INSERTBIRTH> — <INSERTDEATH>）`,
+    "ko": `보고 싶어, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "ne": `हामी तिमीलाई सम्झिन्छौं <INSERTNAME> ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "pt": `Saudades de você, <INSERTNAME>. ${Emoji.died} (<INSERTBIRTH> — <INSERTDEATH>)`,
+    "zh": `我们想你, <INSERTNAME>。${Emoji.died}（<INSERTBIRTH> — <INSERTDEATH>）`
   },
+  // TODO-UI: crunch newlines and space
   "nearby_zoos": {
-    "en": [Emoji.website,
-           " ",
-           Emoji.home,
-           " Finding nearby zoos. ",
-           "If geolocation fails, try ",
-           "searching for your city."],
-    "es": [Emoji.website,
-           " ",
-           Emoji.home,
-           " Encontrar zoológicos cercanos. ", 
-           "Si la geolocalización falla, intente ",
-           " buscar su ciudad."],
-    "ja": [Emoji.website,
-           " ",
-           Emoji.home,
-           " 近くの動物園を見上げます。",
-           "ジオロケーションが失敗した場合は、",
-           "都市を検索してみてください。"],
-    "ko": [Emoji.website,
-           " ",
-           Emoji.home,
-           " 가까운 동물원을 찾고 있어요. ",
-           "위치 정보가 실패하면,",
-           "도시 이름으로 검색해보세요."],   
-    "ne": [Emoji.website, 
-           " ",
-           Emoji.home,
-           " नजिकका चिडियाखानाहरू भेट्टाउँदै।",
-           " यदि भौगोलिक स्थान असफल भयो भने,",
-           " आफ्नो शहरको लागि खोजी प्रयास गर्नुहोस्।"],
-    "pt": [Emoji.website,
-           " ",
-           Emoji.home,
-           " Procurando zoológicos próximos. ",
-           "Se a geolocalização falhar, ",
-           "tente pesquisar sua cidade."],
-    "zh": [Emoji.website,
-           " ",
-           Emoji.home,
-           " 查找附近的动物园。",
-           "如果地理位置失败，",
-           "请尝试搜索您的城市。"]
+    "en": `${Emoji.website} ${Emoji.home} Finding nearby zoos. If geolocation fails, try 
+           searching for your city.`,
+    "es": `${Emoji.website} ${Emoji.home} Encontrar zoológicos cercanos. Si la 
+           geolocalización falla, intente buscar su ciudad.`,
+    "ja": `${Emoji.website} ${Emoji.home} 近くの動物園を見上げます。ジオロケーションが失敗した場合は、
+           都市を検索してみてください。`,
+    "ko": `${Emoji.website} ${Emoji.home} 가까운 동물원을 찾고 있어요. 위치 정보가 실패하면, 
+           도시 이름으로 검색해보세요.`,   
+    "ne": `${Emoji.website} ${Emoji.home} नजिकका चिडियाखानाहरू भेट्टाउँदै। यदि भौगोलिक स्थान असफल भयो भने, 
+           आफ्नो शहरको लागि खोजी प्रयास गर्नुहोस्।`,
+    "pt": `${Emoji.website} ${Emoji.home} Procurando zoológicos próximos. Se a geolocalização 
+           falhar, tente pesquisar sua cidade.`,
+    "zh": `${Emoji.website} ${Emoji.home} 查找附近的动物园。如果地理位置失败，请尝试搜索您的城市。`
   },
-  /** TODO-UI: flatten new_photos subkeys */
+  /** TODO-UI: flatten new_photos subkeys, come back to refactoring this */
   "new_photos": {
     "contributors": {
       "en": [Emoji.giftwrap,
@@ -507,1106 +364,328 @@ export const Text: Record<string, Record<Language, string>> = {
     }
   },
   "no_result": {
-    "en": ["No Pandas Found"],
-    "es": ["No Se Encontró Ningún Panda"],
-    "ja": ["パンダが見つかりません"],
-    "ko": ["검색된 레서판다가 없습니다."],
-    "ne": ["कुनै निगल्य पोन्या फेला परेन"],
-    "pt": ["Nenhum panda encontrado"],
-    "zh": ["没有找到这只小熊猫"]
+    "en": `No Pandas Found`,
+    "es": `No Se Encontró Ningún Panda`,
+    "ja": `パンダが見つかりません`,
+    "ko": `검색된 레서판다가 없습니다.`,
+    "ne": `कुनै निगल्य पोन्या फेला परेन`,
+    "pt": `Nenhum panda encontrado`,
+    "zh": `没有找到这只小熊猫`
   },
   "no_group_media_result": {
-    "en": ["No Group Photos Found"],
-    "es": ["No Se Encontraron Fotos de Grupos"],
-    "ja": ["集合写真は見つかりませんでした"],
-    "ko": ["검색된 사진이 없습니다."],
-    "ne": ["कुनै निगल्य पोन्या समूह भेटिएन"],
-    "pt": ["Nenhuma foto de grupo encontrada"],
-    "zh": ["找不到合影"]
+    "en": `No Group Photos Found`,
+    "es": `No Se Encontraron Fotos de Grupos`,
+    "ja": `集合写真は見つかりませんでした`,
+    "ko": `검색된 사진이 없습니다.`,
+    "ne": `कुनै निगल्य पोन्या समूह भेटिएन`,
+    "pt": `Nenhuma foto de grupo encontrada`,
+    "zh": `找不到合影`
   },
   "no_subject_tag_result": {
-    "en": ["No Tagged Photos"],
-    "es": ["Sin Fotos Etiquetadas"],
-    "ja": ["このパンダのタグ付けされた写真はありません"],
-    "ko": ["태그된 사진이 없습니다."],
-    "ne": ["कुनै फोटोहरू ट्याग छैनन्"],
-    "pt": ["Nenhuma foto etiquetada"],
-    "zh": ["没有关联照片"]
+    "en": `No Tagged Photos`,
+    "es": `Sin Fotos Etiquetadas`,
+    "ja": `このパンダのタグ付けされた写真はありません`,
+    "ko": `태그된 사진이 없습니다.`,
+    "ne": `कुनै फोटोहरू ट्याग छैनन्`,
+    "pt": `Nenhuma foto etiquetada`,
+    "zh": `没有关联照片`
   },
   "no_zoos_nearby": {
-    "en": ["No Zoos Nearby"],
-    "es": ["No Hay Zoológicos Cerca"],
-    "ja": ["近くに動物園はありません"],
-    "ko": ["검색된 동물원이 없습니다."],
-    "ne": ["नजिकै कुनै चिडियाखाना छैन"],
-    "pt": ["Nenhum zoológico próximo"],
-    "zh": ["附近没有动物园"]
+    "en": `No Zoos Nearby`,
+    "es": `No Hay Zoológicos Cerca`,
+    "ja": `近くに動物園はありません`,
+    "ko": `검색된 동물원이 없습니다.`,
+    "ne": `नजिकै कुनै चिडियाखाना छैन`,
+    "pt": `Nenhum zoológico próximo`,
+    "zh": `附近没有动物园`
   },
+  // TODO-UI: determine if leading space is needed
   "overflow": {
-    "en": [" First ",
-           "<INSERTLIMIT>",
-           " shown."],
-    "es": ["Se muestran los primeros ",
-           "<INSERTLIMIT>",
-           "."],
-    "ja": ["最初の",
-           "<INSERTLIMIT>",
-           "を表示"],
-    "ko": ["처음",
-           "<INSERTLIMIT>",
-           "개만 표시됩니다."],   
-    "ne": [" ",
-           "<INSERTLIMIT>",
-           " मात्र"],
-    "pt": [" Mostrando os primeiros ",
-           "<INSERTLIMIT>",
-           "."],
-    "zh": ["显示前",
-           "<INSERTLIMIT>",
-           "个"]
+    "en": ` First <INSERTLIMIT> shown.`,
+    "es": ` Se muestran los primeros <INSERTLIMIT>.`,
+    "ja": `最初の<INSERTLIMIT>を表示`,
+    "ko": `처음<INSERTLIMIT>개만 표시됩니다.`,   
+    "ne": ` <INSERTLIMIT> मात्र`,
+    "pt": ` Mostrando os primeiros <INSERTLIMIT>.`,
+    "zh": `显示前<INSERTLIMIT>个`
   },
   "profile_babies_children": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTBABIES>",
-           " children."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTBABIES>",
-           " bebés."],
-    "ja": ["<INSERTNAME>",
-           "の子供",
-           "<INSERTBABIES>",
-           "人"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTBABIES>",
-           "마리의 귀여운 자녀가 있어요."],   
-    "ne": ["<INSERTNAME>",
-           " को ",
-           "<INSERTBABIES>",
-           " बच्चाहरु छन्"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTBABIES>",
-           " filhos(as)."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTBABIES>",
-           "个孩子"]
+    "en": `<INSERTNAME> has <INSERTBABIES> children.`,
+    "es": `<INSERTNAME> tiene <INSERTBABIES> bebés.`,
+    "ja": `<INSERTNAME>の子供<INSERTBABIES>人`,
+    "ko": `<INSERTNAME>에게는 <INSERTBABIES>마리의 귀여운 자녀가 있어요.`,
+    "ne": `<INSERTNAME> को <INSERTBABIES> बच्चाहरु छन्`,
+    "pt": `<INSERTNAME> tem <INSERTBABIES> filhos(as).`,
+    "zh": `<INSERTNAME>有<INSERTBABIES>个孩子`
   },
   "profile_babies_siblings": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTBABIES>",
-           " baby siblings."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTBABIES>",
-           " hermanos pequeños."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟がいます"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTBABIES>",
-           "마리의 형제·자매가 있어요."],   
-    "ne": ["<INSERTNAME>",
-           " ",
-           "<INSERTBABIES>",
-           " बच्चाका भाई बहिनीहरू छन्"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTBABIES>",
-           " irmãos(ãs) bebês."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTBABIES>",
-           "个孩子"]
+    "en": `<INSERTNAME> has <INSERTBABIES> baby siblings.`,
+    "es": `<INSERTNAME> tiene <INSERTBABIES> hermanos pequeños.`,
+    "ja": `<INSERTNAME>には<INSERTBABIES>人の赤ちゃんの兄弟がいます`,
+    "ko": `<INSERTNAME>에게는 <INSERTBABIES>마리의 형제·자매가 있어요.`,   
+    "ne": `<INSERTNAME> <INSERTBABIES> बच्चाका भाई बहिनीहरू छन्`,
+    "pt": `<INSERTNAME> tem <INSERTBABIES> irmãos(ãs) bebês.`,
+    "zh": `<INSERTNAME>有<INSERTBABIES>个孩子`
   },
   "profile_brothers": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTBROTHERS>",
-           " brothers."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTBROTHERS>",
-           " hermanos."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTBROTHERS>",
-           "人の兄弟がいます"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTBROTHERS>",
-           "마리의 형제가 있어요."],   
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTBROTHERS>",
-           " भाइहरु"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTBROTHERS>",
-           " irmãos."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTBROTHERS>",
-           "个兄弟"]
+    "en": `<INSERTNAME> has <INSERTBROTHERS> brothers.`,
+    "es": `<INSERTNAME> tiene <INSERTBROTHERS> hermanos.`,
+    "ja": `<INSERTNAME>には<INSERTBROTHERS>人の兄弟がいます`,
+    "ko": `<INSERTNAME>에게는 <INSERTBROTHERS>마리의 형제가 있어요.`,   
+    "ne": `<INSERTNAME> छ <INSERTBROTHERS> भाइहरु`,
+    "pt": `<INSERTNAME> tem <INSERTBROTHERS> irmãos.`,
+    "zh": `<INSERTNAME>有<INSERTBROTHERS>个兄弟`
   },
   "profile_brothers_babies": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTBROTHERS>",
-           " brothers and ",
-           "<INSERTBABIES>",
-           " newborns."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTBROTHERS>",
-           " hermanos y ",
-           "<INSERTBABIES>",
-           " hermanitos."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTBROTHERS>",
-           "人の兄弟と",
-           "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟がいます"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTBROTHERS>",
-           "마리의 형제와 ",
-           "<INSERTBABIES>",
-           "마리의 아기가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTBROTHERS>",
-           " भाइहरु र ",
-           "<INSERTBABIES>",
-           " नवजात शिशुहरू"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTBROTHERS>",
-           " irmãos e ",
-           "<INSERTBABIES>",
-           " irmãos(ãs) bebês."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTBROTHERS>",
-           "个姐妹",
-           "<INSERTBABIES>",
-           "个新生儿"]
+    "en": `<INSERTNAME> has <INSERTBROTHERS> brothers and <INSERTBABIES> newborn siblings.`,
+    "es": `<INSERTNAME> tiene <INSERTBROTHERS> hermanos y <INSERTBABIES> hermanitos.`,
+    "ja": `<INSERTNAME>には<INSERTBROTHERS>人の兄弟と<INSERTBABIES>人の赤ちゃんの兄弟がいます`,
+    "ko": `<INSERTNAME>에게는 <INSERTBROTHERS>마리의 형제와 <INSERTBABIES>마리의 아기가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTBROTHERS> भाइहरु र <INSERTBABIES> नवजात शिशुहरू`,
+    "pt": `<INSERTNAME> tem <INSERTBROTHERS> irmãos e <INSERTBABIES> irmãos(ãs) bebês.`,
+    "zh": `<INSERTNAME>有<INSERTBROTHERS>个姐妹<INSERTBABIES>个新生儿`
   },
   "profile_children": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTTOTAL>",
-           " children: ",
-           "<INSERTDAUGHTERS>",
-           " girls and ",
-           "<INSERTSONS>",
-           " boys!"],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTTOTAL>",
-           " hijos: ",
-           "<INSERTDAUGHTERS>",
-           " niñas y ",
-           "<INSERTSONS>",
-           " niños."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTTOTAL>",
-           "人の子供がいます：",
-           "<INSERTDAUGHTERS>",
-           "人の女の子と",
-           "<INSERTSONS>",
-           "人の男の子"],
-    "ko": ["<INSERTNAME>",
-           "에게는 총 ",
-           "<INSERTTOTAL>",
-           "마리의 자녀가 있어요. ",
-           "<INSERTDAUGHTERS>",
-           "마리의 딸, ",
-           "<INSERTSONS>",
-           "마리의 아들이 있어요!"],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTTOTAL>",
-           " बच्चाहरु: ",
-           "<INSERTDAUGHTERS>",
-           " छोरीहरू र ",
-           "<INSERTSONS>",
-           " छोराहरू!"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTTOTAL>",
-           " filhos: ",
-           "<INSERTDAUGHTERS>",
-           " meninas e ",
-           "<INSERTSONS>",
-           " meninos!"],
-    "zh": ["<INSERTNAME>",
-           "一共有",
-           "<INSERTTOTAL>",
-           "个孩子: ",
-           "<INSERTDAUGHTERS>",
-           "个女儿和",
-           "<INSERTSONS>",
-           "个儿子！"]
+    "en": `<INSERTNAME> has <INSERTTOTAL> children: <INSERTDAUGHTERS> girls and <INSERTSONS> boys!`,
+    "es": `<INSERTNAME> tiene <INSERTTOTAL> hijos: <INSERTDAUGHTERS> niñas y <INSERTSONS> niños.`,
+    "ja": `<INSERTNAME>には<INSERTTOTAL>人の子供がいます：<INSERTDAUGHTERS>人の女の子と<INSERTSONS>人の男の子`,
+    "ko": `<INSERTNAME>에게는 총 <INSERTTOTAL>마리의 자녀가 있어요. <INSERTDAUGHTERS>마리의 딸, 
+           <INSERTSONS>마리의 아들이 있어요!`,
+    "ne": `<INSERTNAME> छ <INSERTTOTAL> बच्चाहरु: <INSERTDAUGHTERS> छोरीहरू र <INSERTSONS> छोराहरू!`,
+    "pt": `<INSERTNAME> tem <INSERTTOTAL> filhos: <INSERTDAUGHTERS> meninas e <INSERTSONS> meninos!`,
+    "zh": `<INSERTNAME>一共有<INSERTTOTAL>个孩子: <INSERTDAUGHTERS>个女儿和<INSERTSONS>个儿子！`
   },
   "profile_children_babies": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTTOTAL>",
-           " children: ",
-           "<INSERTDAUGHTERS>",
-           " girls, ",
-           "<INSERTSONS>",
-           " boys, and ",
-           "<INSERTBABIES>",
-           " newborns!"],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTTOTAL>",
-           " hijos: ",
-           "<INSERTDAUGHTERS>",
-           " niñas, ",
-           "<INSERTSONS>",
-           " niños, y ",
-           "<INSERTBABIES>",
-           " recién nacidos."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTTOTAL>",
-           "人の子供がいます：",
-           "<INSERTDAUGHTERS>",
-           "人の女の子と、",
-           "<INSERTSONS>",
-           "人の男の子、および",
-           "<INSERTBABIES>",
-           "人の子供"],
-    "ko": ["<INSERTNAME>",
-           "에게는 총",
-           "<INSERTTOTAL>",
-           "마리의 자녀가 있어요: ",
-           "<INSERTDAUGHTERS>",
-           "마리의 딸, ",
-           "<INSERTSONS>",
-           "마리의 아들, 그리고 ",
-           "<INSERTBABIES>",
-           "마리의 갓 태어난 아기예요!"],   
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTTOTAL>",
-           " बच्चाहरु: ",
-           "<INSERTDAUGHTERS>",
-           " छोरीहरू, ",
-           "<INSERTSONS>",
-           " छोराहरू र ",
-           "<INSERTBABIES>",
-           " बच्चाहरु!"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTTOTAL>",
-           " filhos: ",
-           "<INSERTDAUGHTERS>",
-           " meninas, ",
-           "<INSERTSONS>",
-           " meninos e ",
-           "<INSERTBABIES>",
-           " recém-nascidos(as)!"],
-    "zh": ["<INSERTNAME>",
-           "一共有",
-           "<INSERTTOTAL>",
-           "个孩子: ",
-           "<INSERTDAUGHTERS>",
-           "个女儿，",
-           "<INSERTSONS>",
-           "个儿子，以及",
-           "<INSERTBABIES>",
-           "个新生儿！"]
+    "en": `<INSERTNAME> has <INSERTTOTAL> children: <INSERTDAUGHTERS> girls, <INSERTSONS> boys, 
+           and <INSERTBABIES> newborns!`,
+    "es": `<INSERTNAME> tiene <INSERTTOTAL> hijos: <INSERTDAUGHTERS> niñas, <INSERTSONS> niños, 
+           y <INSERTBABIES> recién nacidos.`,
+    "ja": `<INSERTNAME>には<INSERTTOTAL>人の子供がいます：<INSERTDAUGHTERS>人の女の子と、
+           <INSERTSONS>人の男の子、および<INSERTBABIES>人の子供`,
+    "ko": `<INSERTNAME>에게는 총 <INSERTTOTAL>마리의 자녀가 있어요: <INSERTDAUGHTERS>마리의 딸, 
+           <INSERTSONS>마리의 아들, 그리고 <INSERTBABIES>마리의 갓 태어난 아기예요!`,
+    "ne": `<INSERTNAME> छ <INSERTTOTAL> बच्चाहरु: <INSERTDAUGHTERS> छोरीहरू, <INSERTSONS> छोराहरू र 
+           <INSERTBABIES> बच्चाहरु!`,
+    "pt": `<INSERTNAME> tem <INSERTTOTAL> filhos: <INSERTDAUGHTERS> meninas, <INSERTSONS> 
+           meninos e <INSERTBABIES> recém-nascidos(as)!`,
+    "zh": `<INSERTNAME>一共有<INSERTTOTAL>个孩子: <INSERTDAUGHTERS>个女儿，<INSERTSONS>个儿子，
+          以及<INSERTBABIES>个新生儿！`
   },
   "profile_daughters": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTDAUGHTERS>",
-           " daughters."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTDAUGHTERS>",
-           " niñas."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTDAUGHTERS>",
-           "人の娘がいます"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTDAUGHTERS>",
-           "마리의 딸이 있어요!"],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTDAUGHTERS>",
-           " छोरीहरू"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTDAUGHTERS>",
-           " filhas."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTDAUGHTERS>",
-           "个女儿"]
+    "en": `<INSERTNAME> has <INSERTDAUGHTERS> daughters.`,
+    "es": `<INSERTNAME> tiene <INSERTDAUGHTERS> niñas.`,
+    "ja": `<INSERTNAME>には<INSERTDAUGHTERS>人の娘がいます`,
+    "ko": `<INSERTNAME>에게는 <INSERTDAUGHTERS>마리의 딸이 있어요!`,
+    "ne": `<INSERTNAME> छ <INSERTDAUGHTERS> छोरीहरू`,
+    "pt": `<INSERTNAME> tem <INSERTDAUGHTERS> filhas.`,
+    "zh": `<INSERTNAME>有<INSERTDAUGHTERS>个女儿`
   },
   "profile_daughters_babies": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTDAUGHTERS>",
-           " daughters and ",
-           "<INSERTBABIES>",
-           " newborns!"],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTDAUGHTERS>",
-           " niñas y ",
-           "<INSERTBABIES>",
-           " recién nacidos."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTDAUGHTERS>",
-           "人の娘と",
-           "<INSERTBABIES>",
-           "人の子供がいます"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTDAUGHTERS>",
-           "마리의 딸과, ",
-           "<INSERTBABIES>",
-           "마리의 갓 태어난 아기가 있어요!"],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTDAUGHTERS>",
-           " छोरीहरू र ",
-           "<INSERTBABIES>",
-           " बच्चाहरु"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTDAUGHTERS>",
-           " filhas e ",
-           "<INSERTBABIES>",
-           " recém-nascidos(as)!"],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTDAUGHTERS>",
-           "个女儿和",
-           "<INSERTBABIES>",
-           "个新生儿！"]
+    "en": `<INSERTNAME> has <INSERTDAUGHTERS> daughters and <INSERTBABIES> newborns!`,
+    "es": `<INSERTNAME> tiene <INSERTDAUGHTERS> niñas y <INSERTBABIES> recién nacidos.`,
+    "ja": `<INSERTNAME>には<INSERTDAUGHTERS>人の娘と<INSERTBABIES>人の子供がいます`,
+    "ko": `<INSERTNAME>에게는 <INSERTDAUGHTERS>마리의 딸과, <INSERTBABIES>마리의 갓 태어난 아기가 있어요!`,
+    "ne": `<INSERTNAME> छ <INSERTDAUGHTERS> छोरीहरू र <INSERTBABIES> बच्चाहरु`,
+    "pt": `<INSERTNAME> tem <INSERTDAUGHTERS> filhas e <INSERTBABIES> recém-nascidos(as)!`,
+    "zh": `<INSERTNAME>有<INSERTDAUGHTERS>个女儿和<INSERTBABIES>个新生儿！`
   },
   "profile_family": {
-    "en": ["<INSERTNAME>",
-           "'s Immediate Family"],
-    "es": ["Familia inmediata de ",
-           "<INSERTNAME>"],
-    "ja": ["<INSERTNAME>",
-           "の直近の家族"],
-    "ko": ["<INSERTNAME>",
-           "의 직계 가족"],
-    "ne": ["<INSERTNAME>",
-           "को निकट परिवार"],
-    "pt": ["Família imediata de ",
-           "<INSERTNAME>"],
-    "zh": ["<INSERTNAME>",
-           "的直系亲属"]
+    "en": `<INSERTNAME>’s Immediate Family`,
+    "es": `Familia inmediata de <INSERTNAME>`,
+    "ja": `<INSERTNAME>の直近の家族`,
+    "ko": `<INSERTNAME>의 직계 가족`,
+    "ne": `<INSERTNAME>को निकट परिवार`,
+    "pt": `Família imediata de <INSERTNAME>`,
+    "zh": `<INSERTNAME>的直系亲属`
   },
   "profile_sisters": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTSISTERS>",
-           " sisters."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTSISTERS>",
-           " hermanas."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTSISTERS>",
-           "の姉妹がいます"],
-    "ko": ["<INSERTNAME>",
-           "에게는 ",
-           "<INSERTSISTERS>",
-           "마리의 자매가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTSISTERS>",
-           " बहिनीहरू"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTSISTERS>",
-           " irmãs."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTSISTERS>",
-           "个姐妹"]
+    "en": `<INSERTNAME> has <INSERTSISTERS> sisters.`,
+    "es": `<INSERTNAME> tiene <INSERTSISTERS> hermanas`,
+    "ja": `<INSERTNAME>には<INSERTSISTERS>の姉妹がいます`,
+    "ko": `<INSERTNAME>에게는 <INSERTSISTERS>마리의 자매가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTSISTERS> बहिनीहरू`,
+    "pt": `<INSERTNAME> tem <INSERTSISTERS> irmãs.`,
+    "zh": `<INSERTNAME>有<INSERTSISTERS>个姐妹`
   },
   "profile_sisters_babies": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTSISTERS>",
-           " sisters and ",
-           "<INSERTBABIES>",
-           " newborns."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTSISTERS>",
-           " hermanas y ",
-           "<INSERTBABIES>",
-           " hermanitos."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTSISTERS>",
-           "の姉妹と",
-           "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟がいます"],
-    "ko": ["<INSERTNAME>",
-           "은(는) ",
-           "<INSERTSISTERS>",
-           "자매와 ",
-           "<INSERTBABIES>",
-           "아이가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTSISTERS>",
-           " बहिनीहरू र ",
-           "<INSERTBABIES>",
-           " बच्चा भाई बहिनीहरू"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTSISTERS>",
-           " irmãs e ",
-           "<INSERTBABIES>",
-           " irmãos(ãs) bebês."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTSISTERS>",
-           "个姐妹和",
-           "<INSERTBABIES>",
-           "个新生儿"]
+    "en": `<INSERTNAME> has <INSERTSISTERS> sisters and <INSERTBABIES> newborn siblings.`,
+    "es": `<INSERTNAME> tiene <INSERTSISTERS> hermanas y <INSERTBABIES> hermanitos.`,
+    "ja": `<INSERTNAME>には<INSERTSISTERS>の姉妹と<INSERTBABIES>人の赤ちゃんの兄弟がいます`,
+    "ko": `<INSERTNAME>은(는) <INSERTSISTERS>자매와 <INSERTBABIES>아이가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTSISTERS> बहिनीहरू र <INSERTBABIES> बच्चा भाई बहिनीहरू`,
+    "pt": `<INSERTNAME> tem <INSERTSISTERS> irmãs e <INSERTBABIES> irmãos(ãs) bebês.`,
+    "zh": `<INSERTNAME>有<INSERTSISTERS>个姐妹和<INSERTBABIES>个新生儿`
   },
   "profile_siblings": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTTOTAL>",
-           " siblings: ",
-           "<INSERTSISTERS>",
-           " sisters and ",
-           "<INSERTBROTHERS>",
-           " brothers!"],
-    "es": ["¡",
-           "<INSERTNAME>",
-           " tiene ",
-           "<INSERTTOTAL>",
-           " hermanos: ",
-           "<INSERTSISTERS>",
-           " hembras y ",
-           "<INSERTBROTHERS>",
-           " machos!"],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTTOTAL>",
-           "人の兄弟がいます。",
-           "<INSERTSISTERS>",
-           "人の姉妹と",
-           "<INSERTBROTHERS>",
-           "人の兄弟"],
-    "ko": ["<INSERTNAME>",
-           "은(는) ",
-           "<INSERTTOTAL>",
-           "형제·자매, ",
-           "<INSERTSISTERS>",
-           "자매와 ",
-           "<INSERTBROTHERS>",
-           "형제가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTTOTAL>",
-           " भाइबहिनीहरू: ",
-           "<INSERTSISTERS>",
-           " बहिनीहरू र ",
-           "<INSERTBROTHERS>",
-           " भाइहरु"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTTOTAL>",
-           " irmãos: ",
-           "<INSERTSISTERS>",
-           " fêmeas e ",
-           "<INSERTBROTHERS>",
-           " machos!"],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTTOTAL>",
-           "个同胞: ",
-           "<INSERTSISTERS>",
-           "个姐妹和",
-           "<INSERTBROTHERS>",
-           "个兄弟！"]
+    "en": `<INSERTNAME> has <INSERTTOTAL> siblings: <INSERTSISTERS> sisters and 
+           <INSERTBROTHERS> brothers!`,
+    "es": `¡<INSERTNAME> tiene <INSERTTOTAL> hermanos: <INSERTSISTERS> hembras y 
+           <INSERTBROTHERS> machos!`,
+    "ja": `<INSERTNAME>には<INSERTTOTAL>人の兄弟がいます。<INSERTSISTERS>人の姉妹と<INSERTBROTHERS>人の兄弟`,
+    "ko": `<INSERTNAME>은(는) <INSERTTOTAL>형제·자매, <INSERTSISTERS>자매와 <INSERTBROTHERS>형제가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTTOTAL> भाइबहिनीहरू: <INSERTSISTERS> बहिनीहरू र <INSERTBROTHERS> भाइहरु`,
+    "pt": `<INSERTNAME> tem <INSERTTOTAL> irmãos: <INSERTSISTERS> fêmeas e <INSERTBROTHERS> machos!`,
+    "zh": `<INSERTNAME>有<INSERTTOTAL>个同胞: <INSERTSISTERS>个姐妹和<INSERTBROTHERS>个兄弟！`
   },
+  // TODO-UI: make the Korean consistent with the others
   "profile_siblings_babies": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTTOTAL>",
-           " siblings: ",
-           "<INSERTSISTERS>",
-           " sisters, ",
-           "<INSERTBROTHERS>",
-           " brothers, and ",
-           "<INSERTBABIES>",
-           " newborns!"],
-    "es": ["¡",
-           "<INSERTNAME>",
-           " tiene ",
-           "<INSERTTOTAL>",
-           " hermanos: ",
-           "<INSERTSISTERS>",
-           " hembras, ",
-           "<INSERTBROTHERS>",
-           " machos, y ",
-           "<INSERTBABIES>",
-           " hermanitos!"],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTTOTAL>",
-           "人の兄弟がいます：",
-           "<INSERTSISTERS>",
-           "人の姉妹、",
-           "<INSERTBROTHERS>",
-           "人の兄弟、および",
-           "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟"],
-    "ko": ["<INSERTNAME>",
-           "은(는) ",
-           "<INSERTTOTAL>",
-           "형제· 자매가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTTOTAL>",
-           " भाइबहिनीहरू: ",
-           "<INSERTSISTERS>",
-           " बहिनीहरू, ",
-           "<INSERTBROTHERS>",
-           " भाइहरु र ",
-           "<INSERTBABIES>",
-           " बच्चाहरु!"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTTOTAL>",
-           " irmãos: ",
-           "<INSERTSISTERS>",
-           " fêmeas, ",
-           "<INSERTBROTHERS>",
-           " machos e ",
-           "<INSERTBABIES>",
-           " irmãos(ãs) bebês!"],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTTOTAL>",
-           "个同胞：",
-           "<INSERTSISTERS>",
-           "个姐妹，",
-           "<INSERTBROTHERS>",
-           "个兄弟，以及",
-           "<INSERTBABIES>",
-           "个新生儿！"]
+    "en": `<INSERTNAME> has <INSERTTOTAL> siblings: <INSERTSISTERS> sisters, <INSERTBROTHERS> 
+           brothers, and <INSERTBABIES> newborn siblings!`,
+    "es": `¡<INSERTNAME> tiene <INSERTTOTAL> hermanos: <INSERTSISTERS> hembras, <INSERTBROTHERS>
+           machos, y <INSERTBABIES> hermanitos!`,
+    "ja": `<INSERTNAME>には<INSERTTOTAL>人の兄弟がいます：<INSERTSISTERS>人の姉妹、<INSERTBROTHERS>
+           人の兄弟、および<INSERTBABIES>人の赤ちゃんの兄弟`,
+    "ko": `<INSERTNAME>은(는) <INSERTTOTAL>형제· 자매가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTTOTAL> भाइबहिनीहरू: <INSERTSISTERS> बहिनीहरू, <INSERTBROTHERS> भाइहरु र 
+           <INSERTBABIES> बच्चाहरु!`,
+    "pt": `<INSERTNAME> tem <INSERTTOTAL> irmãos: <INSERTSISTERS> fêmeas, <INSERTBROTHERS> 
+           machos e <INSERTBABIES> irmãos(ãs) bebês!`,
+    "zh": `<INSERTNAME>有<INSERTTOTAL>个同胞：<INSERTSISTERS>个姐妹，<INSERTBROTHERS>个兄弟，以及
+           <INSERTBABIES>个新生儿！`
   },
   "profile_sons": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTSONS>",
-           " sons."],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTSONS>",
-           " niños."],
-    "ja": ["<INSERTNAME>",
-           "の息子は",
-           "<INSERTSONS>",
-           "人です"],
-    "ko": ["<INSERTNAME>",
-           "은(는) ",
-           "<INSERTSONS>",
-           "남자 아이가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTSONS>",
-           " छोराहरू"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTSONS>",
-           " filhos."],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTSONS>",
-           "个儿子"]
+    "en": `<INSERTNAME> has <INSERTSONS> sons.`,
+    "es": `<INSERTNAME> tiene <INSERTSONS> niños.`,
+    "ja": `<INSERTNAME>の息子は<INSERTSONS>人です`,
+    "ko": `<INSERTNAME>은(는) <INSERTSONS>남자 아이가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTSONS> छोराहरू`,
+    "pt": `<INSERTNAME> tem <INSERTSONS> filhos.`,
+    "zh": `<INSERTNAME>有<INSERTSONS>个儿子`
   },
   "profile_sons_babies": {
-    "en": ["<INSERTNAME>",
-           " has ",
-           "<INSERTSONS>",
-           " sons and ",
-           "<INSERTBABIES>",
-           " newborns!"],
-    "es": ["<INSERTNAME>",
-           " tiene ",
-           "<INSERTSONS>",
-           " niños y ",
-           "<INSERTBABIES>",
-           " recién nacidos."],
-    "ja": ["<INSERTNAME>",
-           "には",
-           "<INSERTSONS>",
-           "人の息子と",
-           "<INSERTBABIES>",
-           "人の子供がいます"],
-    "ko": ["<INSERTNAME>",
-           "은(는) ",
-           "<INSERTSONS>",
-           "남자 아이와 ",
-           "<INSERTBABIES>",
-           "아이가 있어요."],
-    "ne": ["<INSERTNAME>",
-           " छ ",
-           "<INSERTSONS>",
-           " छोराहरू र ",
-           "<INSERTBABIES>",
-           " बच्चाहरु!"],
-    "pt": ["<INSERTNAME>",
-           " tem ",
-           "<INSERTSONS>",
-           " filhos e ",
-           "<INSERTBABIES>",
-           " recém-nascidos(as)!"],
-    "zh": ["<INSERTNAME>",
-           "有",
-           "<INSERTSONS>",
-           "个儿子和",
-           "<INSERTBABIES>",
-           "个新生儿！"]
+    "en": `<INSERTNAME> has <INSERTSONS> sons and <INSERTBABIES> newborns!`,
+    "es": `<INSERTNAME> tiene <INSERTSONS> niños y <INSERTBABIES> recién nacidos.`,
+    "ja": `<INSERTNAME>には<INSERTSONS>人の息子と<INSERTBABIES>人の子供がいます`,
+    "ko": `<INSERTNAME>은(는) <INSERTSONS>남자 아이와 <INSERTBABIES>아이가 있어요.`,
+    "ne": `<INSERTNAME> छ <INSERTSONS> छोराहरू र <INSERTBABIES> बच्चाहरु!`,
+    "pt": `<INSERTNAME> tem <INSERTSONS> filhos e <INSERTBABIES> recém-nascidos(as)!`,
+    "zh": `<INSERTNAME>有<INSERTSONS>个儿子和<INSERTBABIES>个新生儿！`
   },
   "profile_where": {
-    "en": ["Where has ",
-           "<INSERTNAME>",
-           " lived?"],
-    "es": ["Donde ha vivido ",
-           "<INSERTNAME>",
-           "?"],
-    "ja": ["<INSERTNAME>",
-           "はどこに住んでいましたか？"],
-    "ko": ["<INSERTNAME>",
-           "은(는) 어디에서 사나요?"],
-    "ne": ["<INSERTNAME>",
-           " कहाँ बस्यो?"],
-    "pt": ["Onde ",
-           "<INSERTNAME>",
-           " já morou?"],
-    "zh": ["<INSERTNAME>",
-           "住在哪里？"]
+    "en": `Where has <INSERTNAME> lived?`,
+    "es": `Donde ha vivido <INSERTNAME>?`,
+    "ja": `<INSERTNAME>はどこに住んでいましたか？`,
+    "ko": `<INSERTNAME>은(는) 어디에서 사나요?`,
+    "ne": `<INSERTNAME> कहाँ बस्यो?`,
+    "pt": `Onde <INSERTNAME> já morou?`,
+    "zh": `<INSERTNAME>住在哪里？`
   },
   "remembering_you_together": {
-    "en": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": We will never forget you. ",
-           " ", Emoji.paws],
-    "es": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": Nosotros nunca te olvidaremos. ",
-           " ", Emoji.paws],
-    "ja": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           "〜私たちは君を決して忘れません。",
-           Emoji.paws],
-    "ko": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": 우리는 너를 절대 잊지 않을 거야.",
-           Emoji.paws],
-    "ne": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": हामी तिमीलाई कहिल्यै बिर्सिने छैनौं। ",
-           Emoji.paws],
-    "pt": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": Nunca esqueceremos de você. ",
-           " ", Emoji.paws],
-    "zh": [Emoji.hearts, " ",
-           "<INSERTNAMES>",
-           ": 我们永远不会忘记你。",
-           Emoji.paws]
+    "en": `${Emoji.hearts} <INSERTNAMES>: We will never forget you. ${Emoji.paws}`,
+    "es": `${Emoji.hearts} <INSERTNAMES>: Nosotros nunca te olvidaremos. ${Emoji.paws}`,
+    "ja": `${Emoji.hearts} <INSERTNAMES>〜私たちは君を決して忘れません。${Emoji.paws}`,
+    "ko": `${Emoji.hearts} <INSERTNAMES>: 우리는 너를 절대 잊지 않을 거야. ${Emoji.paws}`,
+    "ne": `${Emoji.hearts} <INSERTNAMES>: हामी तिमीलाई कहिल्यै बिर्सिने छैनौं। ${Emoji.paws}`,
+    "pt": `${Emoji.hearts} <INSERTNAMES>: Nunca esqueceremos de você. ${Emoji.paws}`,
+    "zh": `${Emoji.hearts} <INSERTNAMES>: 我们永远不会忘记你。${Emoji.paws}`
   },
   "shovel_pandas": {
-    "en": [Emoji.dig, " ",
-           "Searching for buried treasure!", " ",
-           Emoji.treasure],
-    "es": [Emoji.dig, " ",
-           "¡Buscando tesoros enterrados!", " ",
-           Emoji.treasure],
-    "ja": [Emoji.dig, " ",
-           "埋蔵金を探す", " ",
-           Emoji.treasure],
-    "ko": [Emoji.dig, " ",
-           "숨겨진 보물을 찾고 있어요!", " ",
-           Emoji.treasure],
-    "ne": [Emoji.dig, " ",
-           "गाडिएको खजाना खोजी गर्दै", " ",
-           Emoji.treasure],
-    "pt": [Emoji.dig, " ",
-           "Procurando o tesouro enterrado!", " ",
-           Emoji.treasure],
-    "zh": [Emoji.dig, " ",
-           "寻找埋藏的宝藏", " ",
-           Emoji.treasure]
+    "en": `${Emoji.dig} Searching for buried treasure! ${Emoji.treasure}`,
+    "es": `${Emoji.dig} ¡Buscando tesoros enterrados! ${Emoji.treasure}`,
+    "ja": `${Emoji.dig} 埋蔵金を探す ${Emoji.treasure}`,
+    "ko": `${Emoji.dig} 숨겨진 보물을 찾고 있어요! ${Emoji.treasure}`,
+    "ne": `${Emoji.dig} गाडिएको खजाना खोजी गर्दै ${Emoji.treasure}`,
+    "pt": `${Emoji.dig} Procurando o tesouro enterrado! ${Emoji.treasure}`,
+    "zh": `${Emoji.dig} 寻找埋藏的宝藏 ${Emoji.treasure}`
   },
   "tag_combo": {
-    "en": [" combo: ",
-           "<INSERTNUM>",
-           " photos."],
-    "es": [" combo: ",
-           "<INSERTNUM>",
-           " fotos."],
-    "ja": ["コンボ検索:",
-           "<INSERTNUM>",
-           "写真。"],
-    "ko": ["콤보 검색:",
-           "<INSERTNUM>",
-           "사진."],
-    "ne": ["कम्बो: ",
-           "<INSERTNUM>",
-           " फोटोहरू"],
-    "pt": [" combo: ",
-           "<INSERTNUM>",
-           " fotos."],
-    "zh": ["组合搜索:",
-           "<INSERTNUM>",
-           "相片。"]
+    "en": ` combo: <INSERTNUM> photos.`,
+    "es": ` combo: <INSERTNUM> fotos.`,
+    "ja": `コンボ検索:<INSERTNUM>写真。`,
+    "ko": `콤보 검색:<INSERTNUM>사진.`,
+    "ne": `कम्बो: <INSERTNUM> फोटोहरू`,
+    "pt": ` combo: <INSERTNUM> fotos.`,
+    "zh": `组合搜索:<INSERTNUM>相片。`
   },
   "tag_subject": {
-    "en": ["<INSERTNUM>",
-           " ",
-           "<INSERTNAME>",
-           " photos tagged ",
-           "<INSERTEMOJI>",
-           " ",
-           "<INSERTTAG>",
-           "."],
-    "es": ["<INSERTNUM>",
-           " fotos ",
-           "<INSERTNAME>",
-           " etiquetadas con la palabra ",
-           "<INSERTTAG>",
-           "."],
-    "ja": ["<INSERTNUM>",
-           "枚の",
-           "<INSERTNAME>",
-           "の",
-           "<INSERTEMOJI>",
-           "<INSERTTAG>",
-           "。"],
-    "ko": ["<INSERTNUM>",
-           "장의 ",
-           "<INSERTNAME>",
-           " 사진이 ",
-           "<INSERTEMOJI>",
-           " ",
-           "<INSERTTAG>",
-           "으로(로) 태그되었습니다."],
-    "ne": ["<INSERTNUM>",
-           " ",
-           "<INSERTNAME>",
-           " फोटोहरू ट्याग गरियो ",
-           "<INSERTEMOJI>",
-           " ",
-           "<INSERTTAG>",
-           "।"],
-    "pt": ["<INSERTNUM>",
-           " ",
-           "<INSERTNAME>",
-           " fotos etiquetadas com ",
-           "<INSERTEMOJI>",
-           " ",
-           "<INSERTTAG>",
-           "."],
-    "zh": ["<INSERTNUM>",
-           "张",
-           "<INSERTNAME>",
-           "<INSERTEMOJI>",
-           "<INSERTTAG>",
-           "的照片"]
+    "en": `<INSERTNUM> <INSERTNAME> photos tagged <INSERTEMOJI> <INSERTTAG>.`,
+    "es": `<INSERTNUM> fotos <INSERTNAME> etiquetadas con la palabra <INSERTTAG>.`,
+    "ja": `<INSERTNUM>枚の<INSERTNAME>の<INSERTEMOJI><INSERTTAG>。`,
+    "ko": `<INSERTNUM>장의 <INSERTNAME> 사진이 <INSERTEMOJI> <INSERTTAG>으로(로) 태그되었습니다.`,
+    "ne": `<INSERTNUM> <INSERTNAME> फोटोहरू ट्याग गरियो <INSERTEMOJI> <INSERTTAG>।`,
+    "pt": `<INSERTNUM> <INSERTNAME> fotos etiquetadas com <INSERTEMOJI> <INSERTTAG>.`,
+    "zh": `<INSERTNUM>张<INSERTNAME><INSERTEMOJI><INSERTTAG>的照片`
   },
   "trick_or_treat": {
-    "en": [Emoji.pumpkin, " ",
-           "Trick or Treat", " ",
-           Emoji.pumpkin],
-    "es": [Emoji.pumpkin, " ",
-           "¡Truco o trato!", " ",
-           Emoji.pumpkin],
-    "ja": [Emoji.pumpkin, " ",
-           "不気味なカボチャ", " ",
-           Emoji.pumpkin],
-    "ko": [Emoji.pumpkin, " ",
-           "사탕 안 주면 장난칠 거야!", " ",
-           Emoji.pumpkin],
-    "ne": [Emoji.pumpkin, " ",
-           "डरलाग्दो कद्दु", " ",
-           Emoji.pumpkin],
-    "pt": [Emoji.pumpkin, " ",
-           "Gostosuras ou travessuras", " ",
-           Emoji.pumpkin],
-    "zh": [Emoji.pumpkin, " ",
-           "怪异的南瓜", " ",
-           Emoji.pumpkin]
+    "en": `${Emoji.pumpkin} Trick or Treat! ${Emoji.pumpkin}`,
+    "es": `${Emoji.pumpkin} ¡Truco o trato! ${Emoji.pumpkin}`,
+    "ja": `${Emoji.pumpkin} 不気味なカボチャ ${Emoji.pumpkin}`,
+    "ko": `${Emoji.pumpkin} 사탕 안 주면 장난칠 거야! ${Emoji.pumpkin}`,
+    "ne": `${Emoji.pumpkin} डरलाग्दो कद्दु ${Emoji.pumpkin}`,
+    "pt": `${Emoji.pumpkin} Gostosuras ou travessuras ${Emoji.pumpkin}`,
+    "zh": `${Emoji.pumpkin} 怪异的南瓜 ${Emoji.pumpkin}`
   },
   "zoo_details_babies": {
-    "en": [Emoji.baby,
-           " ",
-           "<INSERTBABIES>",
-           " cubs born since ",
-           "<INSERTYEAR>"],
-    "es": [Emoji.baby,
-           " ",
-           "<INSERTBABIES>",
-           " cachorros nacidos desde ",
-           "<INSERTYEAR>"],
-    "ja": [Emoji.baby,
-           " ",
-           "<INSERTYEAR>",
-           "年から生まれた",
-           "<INSERTBABIES>",
-           "人の赤ちゃん"],
-    "ko": [Emoji.baby,
-           " ",
-           "<INSERTYEAR>",
-           "년에 태어난 아기는 ",
-           "<INSERTBABIES>",
-           "마리예요."],
-    "ne": [Emoji.baby,
-           " ",
-           "<INSERTBABIES>",
-           " पछि बच्चा जन्मे ",
-           "<INSERTYEAR>"],
-    "pt": [Emoji.baby,
-           " ",
-           "<INSERTBABIES>",
-           " filhotes nascidos desde ",
-           "<INSERTYEAR>"],
-    "zh": [Emoji.baby,
-           " ",
-           "自",
-           "<INSERTYEAR>",
-           "年以来出生的",
-           "<INSERTBABIES>",
-           "名婴儿"]
+    "en": `${Emoji.baby} <INSERTBABIES> cubs born since <INSERTYEAR>`,
+    "es": `${Emoji.baby} <INSERTBABIES> cachorros nacidos desde <INSERTYEAR>`,
+    "ja": `${Emoji.baby} <INSERTYEAR>年から生まれた<INSERTBABIES>人の赤ちゃん`,
+    "ko": `${Emoji.baby} <INSERTYEAR>년에 태어난 아기는 <INSERTBABIES>마리예요.`,
+    "ne": `${Emoji.baby} <INSERTBABIES> पछि बच्चा जन्मे <INSERTYEAR>`,
+    "pt": `${Emoji.baby} <INSERTBABIES> filhotes nascidos desde <INSERTYEAR>`,
+    "zh": `${Emoji.baby} 自<INSERTYEAR>年以来出生的<INSERTBABIES>名婴儿`
   },
   "zoo_details_departures": {
-    "en": [Emoji.truck,
-           " ",
-           "<INSERTNUM>", 
-           " recent departures"],
-    "es": [Emoji.truck,
-           " ",
-           "<INSERTNUM>",
-           " partidas recientes."],
-    "ja": [Emoji.truck,
-           " ",
-           "最近の",
-           "<INSERTNUM>",
-           "回の出発"],
-    "ko": [Emoji.truck,
-           " ",
-           "최근에 이동한 ",
-           "<INSERTNUM>",
-           "마리의 레서판다"],
-    "ne": [Emoji.truck,
-           " ",
-           "<INSERTNUM>",
-           " भर्खरको प्रस्थान"],
-    "pt": [Emoji.truck,
-           " ",
-           "<INSERTNUM>", 
-           " partidas recentes"],
-    "zh": [Emoji.truck,
-           " ",
-           "<INSERTNUM>",
-           "最近出发"]
+    "en": `${Emoji.truck} <INSERTNUM> recent departures`,
+    "es": `${Emoji.truck} <INSERTNUM> partidas recientes.`,
+    "ja": `${Emoji.truck} 最近の<INSERTNUM>回の出発`,
+    "ko": `${Emoji.truck} 최근에 이동한 <INSERTNUM>마리의 레서판다`,
+    "ne": `${Emoji.truck} <INSERTNUM> भर्खरको प्रस्थान`,
+    "pt": `${Emoji.truck} <INSERTNUM> partidas recentes`,
+    "zh": `${Emoji.truck} <INSERTNUM>最近出发`
   },
   "zoo_details_pandas_live_here": {
-    "en": [Emoji.panda,
-           " ",
-           "<INSERTNUM>",
-           " red pandas live here"],
-    "es": [Emoji.panda,
-           " Hay ",
-           "<INSERTNUM>",
-           " panda rojos en este zoológico"],
-    "ja": [Emoji.panda,
-           " ",
-           "ここに",
-           "<INSERTNUM>",
-           "匹のレッサーパンダが住んでいます"],
-    "ko": [Emoji.panda,
-           " ",
-           "이곳에는 ",
-           "<INSERTNUM>",
-           "마리의 레서판다가 살고 있어요."],
-    "ne": [Emoji.panda,
-           " ",
-           "<INSERTNUM>",
-           " पांडा यहाँ बस्छन्"],
-    "pt": [Emoji.panda,
-           " ",
-           "<INSERTNUM>",
-           " pandas-vermelhos moram aqui"],
-    "zh": [Emoji.panda,
-           " ",
-           "<INSERTNUM>",
-           "只大熊猫住在这里"]
+    "en": `${Emoji.panda} <INSERTNUM> red pandas live here`,
+    "es": `${Emoji.panda} Hay <INSERTNUM> panda rojos en este zoológico`,
+    "ja": `${Emoji.panda} ここに<INSERTNUM>匹のレッサーパンダが住んでいます`,
+    "ko": `${Emoji.panda} 이곳에는 <INSERTNUM>마리의 레서판다가 살고 있어요.`,
+    "ne": `${Emoji.panda} <INSERTNUM> पांडा यहाँ बस्छन्`,
+    "pt": `${Emoji.panda} <INSERTNUM> pandas-vermelhos moram aqui`,
+    "zh": `${Emoji.panda} <INSERTNUM>只大熊猫住在这里`
   },
   "zoo_details_no_pandas_live_here": {
-    "en": [Emoji.panda,
-           " ",
-           "No red pandas currently here"],
-    "es": [Emoji.panda,
-           " ",
-           "Por ahora aquí no hay pandas rojos."],
-    "ja": [Emoji.panda,
-           " ",
-           "パンダが見つかりません"],
-    "ko": [Emoji.panda,
-           " ",
-           "이곳에는 레서판다가 없어요."],
-    "ne": [Emoji.panda,
-           " ",
-           "कुनै निगल्य पोन्या फेला परेन"],
-    "pt": [Emoji.panda,
-           " ",
-           "Nenhum panda-vermelho atualmente aqui"],
-    "zh": [Emoji.panda,
-           " ",
-           "没有找到这只小熊猫"]
+    "en": `${Emoji.panda} No red pandas currently here`,
+    "es": `${Emoji.panda} Por ahora aquí no hay pandas rojos.`,
+    "ja": `${Emoji.panda} パンダが見つかりません`,
+    "ko": `${Emoji.panda} 이곳에는 레서판다가 없어요.`,
+    "ne": `${Emoji.panda} कुनै निगल्य पोन्या फेला परेन`,
+    "pt": `${Emoji.panda} Nenhum panda-vermelho atualmente aqui`,
+    "zh": `${Emoji.panda} 没有找到这只小熊猫`
   },
   "zoo_details_records": {
-    "en": [Emoji.recordbook,
-           " ",
-           "<INSERTNUM>",
-           " recorded in the database since ",
-           "<INSERTYEAR>"],
-    "es": [Emoji.recordbook,
-           " ",
-           "<INSERTNUM>",
-           " registrados aquí desde ",
-           "<INSERTYEAR>"],
-    "ja": [Emoji.recordbook,
-           " ",
-           "<INSERTYEAR>",
-           "年からデータベースに記録された",
-           "<INSERTNUM>"],
-    "ko": [Emoji.recordbook,
-           " ",
-           "<INSERTYEAR>",
-           "년부터 데이터베이스에 저장된 ",
-           "<INSERTNUM>",
-           "개의 기록이 있어요."],      
-    "ne": [Emoji.recordbook,
-           " ",
-           "<INSERTNUM>",
-           " रेचोर्ड्स इन द दताबसे सिन्के ",
-           "<INSERTYEAR>"],
-    "pt": [Emoji.recordbook,
-           " ",
-           "<INSERTNUM>",
-           " registrados na base de dados desde ",
-           "<INSERTYEAR>"],
-    "zh": [Emoji.recordbook,
-           " ",
-           "自",
-           "<INSERTYEAR>",
-           "年以来",
-           "<INSERTNUM>",
-           "个记录在数据库中"]
+    "en": `${Emoji.recordbook} <INSERTNUM> recorded in the database since <INSERTYEAR>`,
+    "es": `${Emoji.recordbook} <INSERTNUM> registrados aquí desde <INSERTYEAR>`,
+    "ja": `${Emoji.recordbook} <INSERTYEAR>年からデータベースに記録された<INSERTNUM>`,
+    "ko": `${Emoji.recordbook} <INSERTYEAR>년부터 데이터베이스에 저장된 <INSERTNUM>개의 기록이 있어요.`,
+    "ne": `${Emoji.recordbook} <INSERTNUM> रेचोर्ड्स इन द दताबसे सिन्के <INSERTYEAR>`,
+    "pt": `${Emoji.recordbook} <INSERTNUM> registrados na base de dados desde <INSERTYEAR>`,
+    "zh": `${Emoji.recordbook} 自<INSERTYEAR>年以来<INSERTNUM>个记录在数据库中`
   },
   "zoo_header_new_arrivals": {
-    "en": [Emoji.fireworks,
-           " ",
-           "New Arrivals"],
-    "es": [Emoji.fireworks,
-           " ",
-           "Los recién llegados"],
-    "ja": [Emoji.fireworks,
-           " ",
-           "新着"],
-    "ko": [Emoji.fireworks,
-           " ",
-           "새로운 친구들"],
-    "ne": [Emoji.fireworks,
-           " ",
-           "नयाँ आगमन"],
-    "pt": [Emoji.fireworks,
-           " ",
-           "Novas chegadas"],
-    "zh": [Emoji.fireworks,
-           " ",
-           "新来的"]
+    "en": `${Emoji.fireworks} New Arrivals`,
+    "es": `${Emoji.fireworks} Los recién llegados`,
+    "ja": `${Emoji.fireworks} 新着`,
+    "ko": `${Emoji.fireworks} 새로운 친구들`,
+    "ne": `${Emoji.fireworks} नयाँ आगमन`,
+    "pt": `${Emoji.fireworks} Novas chegadas`,
+    "zh": `${Emoji.fireworks} 新来的`
   },
   "zoo_header_other_pandas": {
-    "en": [Emoji.panda,
-           " ",
-           "Other Pandas at ",
-           "<INSERTZOO>"],
-    "es": [Emoji.panda,
-           " ",
-           "Otros pandas en ",
-           "<INSERTZOO>"],
-    "ja": [Emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           "の他のパンダ"],
-    "ko": [Emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           "의 다른 레서판다들"],   
-    "ne": [Emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           " अन्य पोन्या"],
-    "pt": [Emoji.panda,
-           " ",
-           "Outros pandas em ",
-           "<INSERTZOO>"],
-    "zh": [Emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           "里的其他小熊猫"]
+    "en": `${Emoji.panda} Other Pandas at <INSERTZOO>`,
+    "es": `${Emoji.panda} Otros pandas en <INSERTZOO>`,
+    "ja": `${Emoji.panda} <INSERTZOO>の他のパンダ`,
+    "ko": `${Emoji.panda} <INSERTZOO>의 다른 레서판다들`,
+    "ne": `${Emoji.panda} <INSERTZOO> अन्य पोन्या`,
+    "pt": `${Emoji.panda} Outros pandas em <INSERTZOO>`,
+    "zh": `${Emoji.panda} <INSERTZOO>里的其他小熊猫`
   },
   "zoo_header_recently_departed": {
-    "en": [Emoji.truck,
-           " ",
-           "Recently Departed"],
-    "es": [Emoji.truck,
-           " ",
-           "Hace poco se fueron"],
-    "ja": [Emoji.truck,
-           " ",
-           "最近出発しました"],
-    "ko": [Emoji.truck,
-           " ",
-           "최근에 떠난 친구들"],
-    "ne": [Emoji.truck,
-           " ",
-           "भर्खर प्रस्थान"],
-    "pt": [Emoji.truck,
-           " ",
-           "Partiram recentemente"],
-    "zh": [Emoji.truck,
-           " ",
-           "最近离开"]
+    "en": `${Emoji.truck} Recently Departed`,
+    "es": `${Emoji.truck} Hace poco se fueron`,
+    "ja": `${Emoji.truck} 最近出発しました`,
+    "ko": `${Emoji.truck} 최근에 떠난 친구들`,
+    "ne": `${Emoji.truck} भर्खर प्रस्थान`,
+    "pt": `${Emoji.truck} Partiram recentemente`,
+    "zh": `${Emoji.truck} 最近离开`
   }
 }
 
@@ -1789,39 +868,21 @@ export function foundAnimal(name: string, animalId: number) {
 
 export function geolocationStart() {
   const p = document.createElement('p')
-  for (const i in Text.nearby_zoos[Env.language]) {
-    const field = Text.nearby_zoos[Env.language][i]
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
+  const msg = document.createTextNode(Text.nearby_zoos[Env.language])
+  p.appendChild(msg)
   return shrinkBoxMessage("frontPageSummary", p)
 }
 
-export function lostAnimal(name, animalId, zooName, zooContact) {
+export function lostAnimal(name: string, animalId: number, zooName: string, zooContact: string) {
   const link = document.createElement('a')
   link.href = `#profile/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.lost_animal[Env.language]) {
-    let field = Text.lost_animal[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      field = name
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<ZOONAME>") {
-      field = zooName
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<ZOOCONTACT>") {
-      field = zooContact
-      const b = document.createElement('b')
-      const msg = document.createTextNode(field)
-      b.appendChild(msg)
-      p.appendChild(b)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.lost_animal[Env.language]
+      .replace('<INSERTNAME>', name)
+      .replace('<ZOONAME>', zooName)
+      .replace('<ZOOCONTACT>', zooContact))
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("memorialSummary", link)
 }
@@ -1830,11 +891,8 @@ export function lunch_time() {
   const link = document.createElement('a')
   link.href = "#query/lunch time"
   const p = document.createElement('p')
-  for (const i in Text.lunch_time[Env.language]) {
-    const field = Text.lunch_time[Env.language][i]
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
+  const msg = document.createTextNode(Text.lunch_time[Env.language])
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("tagSummary", link)
 }
@@ -1854,48 +912,27 @@ export function memorial(name: string, animalId: number, birth: string, death: s
   return shrinkBoxMessage("memorialSummary", link)
 }
 
- export function memorialGroup(nameString, idString) {
+ export function memorialGroup(nameString: string, idString: string) {
   const link = document.createElement('a')
   link.href = `#group/${idString}`
   const p = document.createElement('p')
-  for (const i in Text.remembering_you_together[Env.language]) {
-    let field = Text.remembering_you_together[Env.language][i]
-    if (field == "<INSERTNAMES>") {
-      field = nameString
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.remembering_you_together[Env.language].replace('<INSERTNAMES>', nameString))
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("memorialSummary", link)
 }
 
-export function missing_you(name, animalId, birth, death) {
+export function missing_you(name: string, animalId: number, birth: string, death: string) {
   const link = document.createElement('a')
   link.href = `#panda/${animalId}`
   const p = document.createElement('p')
-  for (const i in Text.missing_you[Env.language]) {
-    let field = Text.missing_you[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      field = name
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<INSERTBIRTH>") {
-      field = birth
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else if (field == "<INSERTDEATH>") {
-      field = death
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.missing_you[Env.language]
+      .replace('<INSERTNAME>', name)
+      .replace('<INSERTBIRTH>', birth)
+      .replace('<INSERTDEATH>', death))
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("memorialSummary", link)
 }
@@ -2001,24 +1038,18 @@ export function profile_children(name, childrenCount, daughters, sons) {
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function profile_family(name) {
+export function profile_family(name: string) {
   const p = document.createElement('p')
-  for (const i in Text.profile_family[Env.language]) {
-    const field = Text.profile_family[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      const msg = document.createTextNode(name)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.profile_family[Env.language].replace('<INSERTNAME>', name))
+  p.appendChild(msg)
   // Fix s's if it appears
   const innerText = p.innerText
   p.innerText = innerText.replace("s's", "s'")
   return shrinkBoxMessage("profileSummary", p)
 }
 
+// TODO-UI: refactor
 export function profile_siblings(name, siblingCount, sisters, brothers) {
   const p = document.createElement('p')
   let babies = 0
@@ -2066,18 +1097,11 @@ export function profile_siblings(name, siblingCount, sisters, brothers) {
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function profile_where(name) {
+export function profile_where(name: string) {
   const p = document.createElement('p')
-  for (const i in Text.profile_where[Env.language]) {
-    const field = Text.profile_where[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      const msg = document.createTextNode(name)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.profile_where[Env.language].replace('<INSERTNAME>', name))
+  p.appendChild(msg)
   return shrinkBoxMessage("profileSummary", p)
 }
 
@@ -2111,16 +1135,14 @@ export function shovel_pandas() {
   const link = document.createElement('a')
   link.href = "#query/dig"
   const p = document.createElement('p')
-  for (const i in Text.shovel_pandas[Env.language]) {
-    const field = Text.shovel_pandas[Env.language][i]
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
+  const msg = document.createTextNode(Text.shovel_pandas[Env.language])
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("tagSummary", link)
 }
 
-export function tag_combo(num, emojis) {
+// TODO-UI: refactor more thoughtfully
+export function tag_combo(num: number, emojis: string) {
   const p = document.createElement('p')
   // Emojis come first!
   for (const emoji of emojis) {
@@ -2147,7 +1169,7 @@ export function tag_combo(num, emojis) {
  * If there was an id as part of a tagExpression, rewrite this message using
  * the panda's localized name instead.
  */
-export function tag_subject(num, name, emoji, tag) {
+export function tag_subject(num: number, name: string, emoji: string, tag: string) {
   if (Pandas.checkId(name) == true)
     name = Pandas.searchPandaId(name)[0].name[Env.language]
   if (name != undefined)
@@ -2200,11 +1222,8 @@ export function trick_or_treat() {
   const link = document.createElement('a')
   link.href = "#query/pumpkin"
   const p = document.createElement('p')
-  for (const i in Text.trick_or_treat[Env.language]) {
-    const field = Text.trick_or_treat[Env.language][i]
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
+  const msg = document.createTextNode(Text.trick_or_treat[Env.language])
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("halloweenSummary", link)
 }
