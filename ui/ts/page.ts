@@ -987,7 +987,7 @@ class Routes {
    * Each hashlink determines a different behavior for the page rendering. Do a
    * task based on what the route is. TODO: add tag search URIs
    */
-  behavior(input) {
+  behavior(input: string) {
     let query_string = undefined
     if ((input.indexOf("#credit/") == 0) && (input.split("/").length == 3)) {
       // link for a page of photo credits for a specific author,

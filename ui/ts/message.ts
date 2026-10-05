@@ -4,7 +4,7 @@ import { Emoji, Tags } from './lookup.ts'
 import P, * as Pandas from './pandas.ts'
 import * as Show from './show.ts'
 
-/** TODO-UI: make *text* italic and **text** bold with JSX foo:
+/** make *text* italic and **text** bold with JSX foo
  * as well as process the newlines and extra spaces in long lones of text
  * definitions. For JA and ZH, consciously remove spaces and new lines. For
  * others, just crunch multiple spaces to a single space.
@@ -625,7 +625,7 @@ export const Text: Record<string, Record<Language, string>> = {
  * Functions used to generate translated heading snippets in various page modes
  */
 
-export function arrivals(zoo, born) {
+export function arrivals(zoo: NodeZoo, born: NodePanda[]) {
   // Zoo search: display arriving animals along with ones just born.
   // If any animals were born, this message gets a baby icon suffix
   const link = document.createElement('a')
@@ -636,14 +636,10 @@ export function arrivals(zoo, born) {
     document.getElementById(linkId)?.scrollIntoView(true)
   })
   const p = document.createElement('p')
-  for (const field of Text.zoo_header_new_arrivals[Env.language]) {
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
-  if (born.length > 0) {
-    const suffix = document.createTextNode(" " + Emoji.baby)
-    p.appendChild(suffix)
-  }
+  const msgText = (born.length > 0)
+    ? `${Text.zoo_header_new_arrivals[Env.language]} ${Emoji.baby}`
+    : Text.zoo_header_new_arrivals[Env.language]
+  p.appendChild(document.createTextNode(msgText))
   link.appendChild(p)
   return shrinkBoxMessage("arrivalsHeader", link)
 }
@@ -710,7 +706,7 @@ export function closed(date: string) {
  * language setting, with the name in italics and the photo count in boldface.
  * If someone has contributed a lot of photos, they get a special emoji header.
  * 
- * TODO-UI: pass through post-processing for count (bold) and user (italics)
+ * TODO-UI: once JSX is working, post-process for count (bold) and user (italics)
  */
 export function credit(credit: string, count: number) {
   const p = document.createElement('p')
@@ -745,33 +741,30 @@ export function creditSingleFilter(credit: string, filter: string, count: number
   return shrinkBoxMessage("creditSummary", p)
 }
 
+/** Text to go into the `Show.zooLink()` function */
 export function departed_to_zoo(zooName: string, date: string) {
-  // Text to go into the Show.zooLink function
   return Text.departed_to_zoo[Env.language]
     .replace('<INSERTDATE>', date)
     .replace('<INSERTZOO>', zooName)
 }
 
-export function departures(zoo, deaths, leaving) {
-  // Zoo search: display departing animals along with ones that died.
-  // If any animals passed away, this message gets a rainbow icon suffix
+/** 
+ * For zoo search, this displays a heading for departing animals along with
+ * ones that passed away. If all the departed animals passed away, we add a
+ * rainbow-bridge emoji out of respect.
+ */
+export function departures(zoo: NodeZoo, deaths: NodePanda[], leaving: NodePanda[]) {
   const link = document.createElement('a')
   link.href = "javascript:"
   const linkId = `departures/zoo/${zoo._id}`
   link.id = linkId
-  link.addEventListener("click", function() {
-    document.getElementById(linkId).scrollIntoView(true)
-  })
+  link.addEventListener("click",
+    () => document.getElementById(linkId)?.scrollIntoView(true))
   const p = document.createElement('p')
-  for (const i in Text.zoo_header_recently_departed[Env.language]) {
-    const field = Text.zoo_header_recently_departed[Env.language][i]
-    const msg = document.createTextNode(field)
-    p.appendChild(msg)
-  }
-  if ((deaths.length > 0) && (leaving.length == deaths.length)) {
-    const suffix = document.createTextNode(" " + Emoji.died)
-    p.appendChild(suffix)
-  }
+  const msgText = ((deaths.length > 0) && (leaving.length == deaths.length))
+    ? `${Text.zoo_header_recently_departed[Env.language]} ${Emoji.died}`
+    : Text.zoo_header_recently_departed[Env.language]
+  p.appendChild(document.createTextNode(msgText))
   link.appendChild(p)
   return shrinkBoxMessage("departuresHeader", link)
 }
@@ -896,7 +889,7 @@ export function new_photos() {
   } else {
     section_order = ["photos", "suffix"]
   }
-  // TODO: switch to Text[`new_content_${part}`]
+  // TODO-UI: switch to Text[`new_content_${part}`]
   const lookup = Text.new_photos
   let pieces = []
   for (const part of section_order) {
@@ -923,7 +916,12 @@ export function new_photos() {
   return shrinkBoxMessage("frontPageSummary", p)
 }
 
-export function profile_children(name, childrenCount, daughters, sons) {
+export function profile_children(
+  name: string,
+  childrenCount: number,
+  daughters: number,
+  sons: number
+) {
   const p = document.createElement('p')
   let babies = 0
   if (childrenCount != daughters + sons) {
@@ -983,7 +981,12 @@ export function profile_family(name: string) {
 }
 
 // TODO-UI: refactor
-export function profile_siblings(name, siblingCount, sisters, brothers) {
+export function profile_siblings(
+  name: string,
+  siblingCount: number,
+  sisters: number,
+  brothers: number
+) {
   const p = document.createElement('p')
   let babies = 0
   if (siblingCount != sisters + brothers) {
@@ -1038,28 +1041,22 @@ export function profile_where(name: string) {
   return shrinkBoxMessage("profileSummary", p)
 }
 
-export function residents(zoo) {
-  // Zoo search: display a header for the resident animals
-  // that didn't recently leave or arrive
+/**
+ * Zoo search: display a header for the resident animals that have neither
+ * recently arrived at or departed from the zoo. 
+ */
+export function residents(zoo: NodeZoo) {
   const link = document.createElement('a')
   link.href = "javascript:"
   const linkId = `residents/zoo/${zoo._id}`
   link.id = linkId
-  link.addEventListener("click", function() {
-    document.getElementById(linkId).scrollIntoView(true)
-  })
-  const info = Show.acquireZooInfo(zoo, Env.language)
+  link.addEventListener("click",
+    () => document.getElementById(linkId)?.scrollIntoView(true))
+  const info = Show.acquireZooInfo(zoo)
   const p = document.createElement('p')
-  for (const i in Text.zoo_header_other_pandas[Env.language]) {
-    const field = Text.zoo_header_other_pandas[Env.language][i]
-    if (field == "<INSERTZOO>") {
-      const msg = document.createTextNode(info.name)
-      p.appendChild(msg)
-    } else {
-      const msg = document.createTextNode(field)
-      p.appendChild(msg)
-    }
-  }
+  const msg = document.createTextNode(
+    Text.zoo_header_other_pandas[Env.language].replace('<INSERTZOO>', info.name))
+  p.appendChild(msg)
   link.appendChild(p)
   return shrinkBoxMessage("residentsHeader", p)
 }

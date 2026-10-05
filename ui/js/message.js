@@ -2505,7 +2505,7 @@ export function residents(zoo) {
   link.addEventListener("click", function() {
     document.getElementById(linkId).scrollIntoView(true)
   })
-  const info = Show.acquireZooInfo(zoo, Env.language)
+  const info = Show.acquireZooInfo(zoo)
   const p = document.createElement('p')
   for (const i in Text.zoo_header_other_pandas[Env.language]) {
     const field = Text.zoo_header_other_pandas[Env.language][i]
