@@ -250,118 +250,50 @@ export const Text: Record<string, Record<Language, string>> = {
            falhar, tente pesquisar sua cidade.`,
     "zh": `${Emoji.website} ${Emoji.home} 查找附近的动物园。如果地理位置失败，请尝试搜索您的城市。`
   },
-  /** TODO-UI: flatten new_photos subkeys, come back to refactoring this */
-  "new_photos": {
-    "contributors": {
-      "en": [Emoji.giftwrap,
-             " ",
-             "<INSERTCOUNT>",
-             " new contributors"],
-      "es": [Emoji.giftwrap,
-            " ",
-            "<INSERTCOUNT>",
-            " nuevos contribuyentes"],
-      "ja": [Emoji.giftwrap,
-             "<INSERTCOUNT>",
-             "人の新しい貢献者"],
-      "ko": [Emoji.giftwrap,
-             "<INSERTCOUNT>",
-             "새 기여자"],
-      "ne": [Emoji.giftwrap,
-             " ",
-             "<INSERTCOUNT>",
-             " योगदानकर्ताहरू नयाँ"],
-      "pt": [Emoji.giftwrap,
-             " ",
-             "<INSERTCOUNT>",
-             " novos contribuintes"],
-      "zh": [Emoji.giftwrap,
-             "<INSERTCOUNT>",
-             "新贡献者"]
-    },
-    "pandas": {
-      "en": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             " new red pandas"],
-      "es": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             " nuevos pandas rojos"],
-      "ja": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             "つの新しいレッサーパンダ"],
-      "ko": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             " 새로운 레서판다가 찾아왔어요!"],
-      "ne": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             " निगल्य पोन्या नयाँ"],
-      "pt": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             " novos pandas-vermelhos"],
-      "zh": [Emoji.profile,
-             " ",
-             "<INSERTCOUNT>",
-             "只新小熊猫"]
-    },
-    "photos": {
-      "en": ["<INSERTCOUNT>",
-             " new photos"],
-      "es": ["<INSERTCOUNT>",
-             " fotos nuevas "],
-      "ja": ["<INSERTCOUNT>",
-             "枚の新しい写真"],
-      "ko": ["<INSERTCOUNT>",
-             "장의 새로운 사진"],
-      "ne": ["<INSERTCOUNT>",
-             " छवि नयाँ"], 
-      "pt": ["<INSERTCOUNT>",
-             " novas fotos"],
-      "zh": ["<INSERTCOUNT>",
-             "张新照片"]
-    },
-    "suffix": {
-      "en": [" this week!"],
-      "es": [" esta semana."],
-      "ja": ["今週！"],
-      "ko": [" 이번 주에 추가됨!"],
-      "ne": ["यो हप्ता"],
-      "pt": [" esta semana!"],
-      "zh": ["本星期！"]
-    },
-    "zoos": {
-      "en": [Emoji.zoo,
-             " ",
-             "<INSERTCOUNT>",
-             " new zoos"],
-      "es": [Emoji.zoo,
-             " ",
-             "<INSERTCOUNT>",
-             " nuevos zoológicos"],
-      "ja": [Emoji.zoo,
-             "<INSERTCOUNT>",
-             "つの新しい動物園"],
-      "ko": [Emoji.zoo,
-             " ",
-             "<INSERTCOUNT>",
-             "새로운 동물원"],
-      "ne": [Emoji.zoo,
-             " ",
-             "<INSERTCOUNT>",
-             " नयाँ चिडियाखाना"],
-      "pt": [Emoji.zoo,
-             " ",
-             "<INSERTCOUNT>",
-             " novos zoológicos"],
-      "zh": [Emoji.zoo,
-             "<INSERTCOUNT>",
-             "个新动物园"]
-    }
+  "new_content_contributors": {
+    "en": `${Emoji.giftwrap} <INSERTCOUNT> new contributors`,
+    "es": `${Emoji.giftwrap} <INSERTCOUNT> nuevos contribuyentes`,
+    "ja": `${Emoji.giftwrap} <INSERTCOUNT>人の新しい貢献者`,
+    "ko": `${Emoji.giftwrap} <INSERTCOUNT>새 기여자`,
+    "ne": `${Emoji.giftwrap} <INSERTCOUNT> योगदानकर्ताहरू नयाँ`,
+    "pt": `${Emoji.giftwrap} <INSERTCOUNT> novos contribuintes`,
+    "zh": `${Emoji.giftwrap} <INSERTCOUNT>新贡献者`
+  },
+  "new_content_pandas": {
+    "en": `${Emoji.profile} <INSERTCOUNT> new red pandas`,
+    "es": `${Emoji.profile} <INSERTCOUNT> nuevos pandas rojos`,
+    "ja": `${Emoji.profile} <INSERTCOUNT>つの新しいレッサーパンダ`,
+    "ko": `${Emoji.profile} <INSERTCOUNT>새로운 레서판다가 찾아왔어요`,
+    "ne": `${Emoji.profile} <INSERTCOUNT> निगल्य पोन्या नयाँ`,
+    "pt": `${Emoji.profile} <INSERTCOUNT> novos pandas-vermelhos`,
+    "zh": `${Emoji.profile} <INSERTCOUNT>只新小熊猫`
+  },
+  "new_content_photos": {
+    "en": `<INSERTCOUNT> new photos`,
+    "es": `<INSERTCOUNT> fotos nuevas `,
+    "ja": `<INSERTCOUNT>枚の新しい写真`,
+    "ko": `<INSERTCOUNT>장의 새로운 사진`,
+    "ne": `<INSERTCOUNT> छवि नयाँ`, 
+    "pt": `<INSERTCOUNT> novas fotos`,
+    "zh": `<INSERTCOUNT>张新照片`
+  },
+  "new_content_suffix": {
+    "en": ` this week!`,
+    "es": ` esta semana.`,
+    "ja": `今週！`,
+    "ko": ` 이번 주에 추가됨!`,
+    "ne": `यो हप्ता`,
+    "pt": ` esta semana!`,
+    "zh": `本星期！`
+  },
+  "new_content_zoos": {
+    "en": `${Emoji.zoo} <INSERTCOUNT> new zoos`,
+    "es": `${Emoji.zoo} <INSERTCOUNT> nuevos zoológicos`,
+    "ja": `${Emoji.zoo}<INSERTCOUNT>つの新しい動物園`,
+    "ko": `${Emoji.zoo} <INSERTCOUNT>새로운 동물원`,
+    "ne": `${Emoji.zoo} <INSERTCOUNT> नयाँ चिडियाखाना`,
+    "pt": `${Emoji.zoo} <INSERTCOUNT> novos zoológicos`,
+    "zh": `${Emoji.zoo} <INSERTCOUNT>个新动物园`  
   },
   "no_result": {
     "en": `No Pandas Found`,
@@ -964,6 +896,7 @@ export function new_photos() {
   } else {
     section_order = ["photos", "suffix"]
   }
+  // TODO: switch to Text[`new_content_${part}`]
   const lookup = Text.new_photos
   let pieces = []
   for (const part of section_order) {
