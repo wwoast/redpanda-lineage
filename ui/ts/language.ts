@@ -22,12 +22,14 @@ export function init() {
 
 /** Language elements translatable in the GUI */
 
+type Alphabet = "cjk" | "cyrillic" | "latin"
+
 /**
  * Types of alphabets, so we can fall back to an alphabet that someone is
  * capable of reading based on their language skills. In practice, we opt to
  * fall back to latin languages since that alphabet is more widely understood
  */
-export const alphabets = {
+export const alphabets: Record<Alphabet, string[]> = {
   "cjk": ["ja", "ko", "zh"],
   "cyrillic": ["ru"],
   "latin": ["da", "de", "en", "es", "fr", "nl", "pl", "pt", "sv"],
@@ -40,8 +42,8 @@ export const alphabets = {
  * So for them we should fall back to English, despite what an entity's
  * preferred language order might be.
  */
-const bias = {
-  "en": [],
+const bias: Record<Language, Alphabet[]>  = {
+  "en": ["latin"],
   "es": ["latin"],
   "ja": ["latin"],
   "ko": ["latin"],
@@ -102,9 +104,8 @@ export function defaultDisplayLanguage() {
   // Read language settings from browser's Accept-Language header
   // TODO ES6
   Defaults.languages.forEach(function(option) {
-    if ((navigator.languages.includes(option)) &&
-        (Env == undefined)) {
-      Env.language = option
+    if (navigator.languages.includes(option))
+      Env.language = option as 
     }
   })
   // Read language setting if it's there
@@ -370,22 +371,22 @@ export function commaPhraseBare(pieces) {
  * if a dataset doesn't include info for a language, we can overwrite that info
  * anyways!
  */
-function currentOrder(current_list, current_language) {
-  let currentBias = bias[current_language]
+function currentOrder(currentList: Set<Language>, currentLanguage: Language) {
+  let currentBias = bias[currentLanguage]
+  let fallbackLanguages: Language[] = []
   if (currentBias[0] == "latin") {
-    currentBias = []
     // Iterate through the current list of languages. If one has a latin
     // writing system, use it as an option. This will usually fall back to
     // English, but not always.
-    for (const lang of current_list) {
+    for (const lang of currentList) {
       if (alphabets["latin"].includes(lang)) {
-        currentBias.push(lang)
+        fallbackLanguages.push(lang)
       }
     }
   }
-  return currentBias
-    .concat(current_list)
-    .concat(current_language)
+  return [currentLanguage]
+    .concat(Array.from(currentList))
+    .concat(fallbackLanguages)
     // Remove duplicates in the array
     .filter((value, index, self) => self.indexOf(value) === index)
 }
@@ -394,7 +395,7 @@ function currentOrder(current_list, current_language) {
  * Determine if altname is not worth displaying for furigana by calculating
  * its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
  */
-export function editDistance(a, b) {
+export function editDistance(a: string, b: string) {
   if (!a || !b)
     return (a || b).length
   const m = []
@@ -421,7 +422,7 @@ export function editDistance(a, b) {
  * to determine the most relevant available name for the animal shown, even if
  * it's not in the current display language.
  */
-export function fallback_name(entity) {
+export function fallback_name(entity: NodePanda) {
   const entity_order = entity["language.order"]
   const order = currentOrder(entity_order, Env.language)
   order.unshift(Env.language)   // Display language always comes first
@@ -431,7 +432,7 @@ export function fallback_name(entity) {
       return name 
   }
   // Fallback default name
-  return Defaults.animal.name[language]
+  return Defaults.animal.name[Env.language]
 }
 
 /**
@@ -500,12 +501,15 @@ function listDisplayKeys(entity, order, current_language) {
 /**
  * Get the valid language-translatable keys in a zoo or animal object
  * like the ones in the `Pandas.*` methods
+ * 
+ * TODO-UI: think there is a bug here since we don't have language-prefixed
+ * keys on GraphNode objects anymore.
  */
 function listEntityKeys(entity, order) {
   const obj_langs = order.concat(Defaults.languages)  // Dupes not important
   const filtered = Object.keys(entity).filter(function(key) {
     // List the language-specific keys in a zoo or animal
-    const [lang, primary] = key.split('.')
+    const [lang, _primary] = key.split('.')
     return (obj_langs.indexOf(lang) != -1)
   })
   return filtered
@@ -514,6 +518,9 @@ function listEntityKeys(entity, order) {
 /**
  * Get the valid language-translatable keys in an info block from one of its
  * panda/zoo entities, like you have in blocks created by `Show.acquire*Info`
+ * 
+ * TODO-UI: think there is a bug here since we don't have language-prefixed
+ * keys on GraphNode objects anymore.
  */
 function listInfoKeys(entity, order) {
   return listEntityKeys(entity, order).map(function(key) {
@@ -557,21 +564,22 @@ export function tagPrimary(input) {
   }
 }
 
+type LanguageTest = "English" | "Hiragana" | "Katakana" | "Latin"
 /**
  * Language test functions. If the string is in the given range,
  * return true. Depending on the mode, this may be an "all" match
  * or an "any" match.
  */
-export function testString(input, test_name) {
-  if (test_name == "Hiragana") {
+export function testString(input: string, test: LanguageTest) {
+  if (test == "Hiragana") {
     const range = Defaults.ranges['ja'][1]
     return range.test(input)   // True if any characters match the hiragana range
   }
-  if (test_name == "Katakana") {
+  if (test == "Katakana") {
     const range = Defaults.ranges['ja'][2]
     return range.test(input)   // True if any characters match the katakana range
   }
-  if ((test_name == "Latin") || (test_name == "English")) {
+  if ((test == "Latin") || (test == "English")) {
     const ranges = Defaults.ranges['en']
     const latin = ranges.some((range) => range.test(input))
     return latin   // True if any characters match the latin range
@@ -580,7 +588,7 @@ export function testString(input, test_name) {
 }
 
 /** Take specific english words and unpluralize them if necessary */
-export function unpluralize(pieces) {
+export function unpluralize(pieces: string[]) {
   const output = []
   if (Env.language == "en") {
     for (let input of pieces) {

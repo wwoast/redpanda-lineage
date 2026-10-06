@@ -42,8 +42,24 @@ export const DateLocale: Record<string, Record<Language, string>> = {
   }
 }
 
+/** TODO-UI: make a type for defaults */
+type Defaults = {
+  age: Record<Language, Record<string, string>>,
+  animal: NodePanda,
+  authors: Record<string, Record<Language, string>>,
+  date: Record<Language | "earliest_year", string>,
+  date_season: Record<Language | "earliest_year", string>,
+  gender: Record<string, Record<Language, string>>,
+  languages: Language[],
+  no_name: Record<Language, string>,
+  relations: Record<string, Record<Language, string>>,
+  species: Record<Language, string[]>,
+  unknown: Record<Language, string>,
+  wild: NodeWild,
+  zoo: NodeZoo
+}
 /** Defaults for panda or zoo object fields, or date formats */
-export const Defaults = {
+export const Defaults: Defaults = {
   age: {
     "en": {
       "year": "year",
@@ -103,13 +119,18 @@ export const Defaults = {
     }
   },
   animal: {
-    "_id": "0",
+    "_id": 0,
+    "_in": [],
+    "_out": [],
     "birthday": "1970/1/1",
     "birthplace": "0",
-    "children": "0",
+    "children": [],
+    "commitdate": "1970/1/1",
     "death": "1970/1/1",
-    "gender": "Unknown",
-    "litter": "0",
+    "gender": "unknown",
+    "language.order": new Set(["en", "ja"]),
+    "litter": [],
+    "locations": [],
     "name": {
       "en": "Panda Not Found",
       "es": "Panda no encontrado",
@@ -137,7 +158,10 @@ export const Defaults = {
       "pt": ["Nenhum nome alternativo registrado"],
       "zh": ["TOWRITE"]
     },
+    "photos": [],
     "species": "-1",
+    "studbook.id": "-1",
+    "type": "panda",
     "video": "images/no-panda-portrait.jpg",
     "zoo": "0"
   },
@@ -462,7 +486,7 @@ export const Defaults = {
     "website": "https://www.worldwildlife.org/",
   },
   zoo: {
-    "_id": "0",
+    "_id": 0,
     "address": {
       "en": "No Google Maps Address Recorded",
       "es": "No Se Registró Ninguna Dirección de Google Maps",

@@ -124,7 +124,7 @@ declare global {
    */
   type URLLink = {
     names: Record<Language, string>,
-    languageOrder: Set<Language>,
+    "language.order": Set<Language>,
     url: string
   }
 
@@ -234,7 +234,7 @@ declare global {
      * display language doesn't have information for this animal. The insertion
      * order into the set reflects the order of the `language.order` values
      */
-    languageOrder: Set<Language>,
+    "language.order": Set<Language>,
     /** Animals born in the same litter as this one, by numeric string ID */
     litter: string[],
     /** List from oldest to newest, of zoo locations the panda has lived at */
@@ -263,7 +263,7 @@ declare global {
      * isn't necessarily surfaced in redpandafinder, but the recordkeeping tracks
      * it in the event data ingestion is better automated at some point.
      */
-    studbookId: string,
+    "studbook.id": string,
     /**
      * A type discriminator so that we can reason about whether this is an
      * entity that represents a panda living in a zoo, a zoo, or a wild-seen
@@ -379,7 +379,7 @@ declare global {
      * display language doesn't have information for this animal. The insertion
      * order into the set reflects the order of the `language.order` values
      */
-    languageOrder: Set<Language>,
+    "language.order": Set<Language>,
     /**
      * The latitude of the zoo, for determining whether a zoo is close to the
      * redpandafinder user with browser LocationServices.
@@ -490,7 +490,7 @@ declare global {
      * display language doesn't have information for this animal. The insertion
      * order into the set reflects the order of the `language.order` values
      */
-    languageOrder: Set<Language>,
+    "language.order": Set<Language>,
     /** Resolve the litter mates numeric string IDs to an `NodePanda` set */
     litter: Set<NodePanda>,
     /** Resolve the mother's numeric string ID to a full `NodePanda` */
@@ -558,7 +558,7 @@ declare global {
      * display language doesn't have information for this zoo. The insertion
      * order into the set reflects the order of the `language.order` values
      */
-    languageOrder: Set<Language>,
+    "language.order": Set<Language>,
     /** The city / state / province of this zoo, in the display language */
     location: string,
     /** URL representing this zoo in Google Maps */

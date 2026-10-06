@@ -431,7 +431,7 @@ export function fallback_name(entity) {
       return name 
   }
   // Fallback default name
-  return Defaults.animal.name[language]
+  return Defaults.animal.name[Env.language]
 }
 
 /**
