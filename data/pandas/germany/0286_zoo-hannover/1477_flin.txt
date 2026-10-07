@@ -1,0 +1,16 @@
+[panda]
+_id: 1477
+birthday: unknown
+birthplace: unknown
+children: 1476, 1478
+commitdate: 2026/10/07
+en.name: Flin
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: none
+location.1: unknown
+location.2: 286, 2019/04/03
+species: 1
+zoo: 286
