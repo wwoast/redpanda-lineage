@@ -1,0 +1,16 @@
+[panda]
+_id: 1476
+birthday: 2025/6/10
+birthplace: 286
+children: none
+commitdate: 2026/10/07
+death: 2025/11/03
+en.name: Magnus
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: none
+location.1: 286, 2025/6/10
+species: 1
+zoo: 286
