@@ -1,16 +1,15 @@
 [panda]
-_id: 1476
+_id: 1478
 birthday: 2025/6/10
 birthplace: 286
 children: none
 commitdate: 2026/10/07
-death: 2025/11/03
-en.name: Magnus
+en.name: Rasma
 en.nicknames: none
-en.othernames: none
+en.othernames: Rasmus
 gender: m
 language.order: en
-litter: 1478
+litter: 1476
 location.1: 286, 2025/6/10
 species: 1
 zoo: 286
