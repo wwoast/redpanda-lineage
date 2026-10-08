@@ -1,3 +1,47 @@
+/** Defined first so other defaults can refer to these */
+export const Flags: Record<string, string> = {
+     "Argentina": "🇦🇷",
+     "Australia": "🇦🇺",
+       "Austria": "🇦🇹",
+       "Belgium": "🇧🇪",
+        "Bhutan": "🇧🇹",
+        "Brazil": "🇧🇷",
+        "Canada": "🇨🇦",
+         "Chile": "🇨🇱",
+         "China": "🇨🇳",
+       "Croatia": "🇭🇷",
+       "Czechia": "🇨🇿",
+       "Default": "🐼",
+       "Denmark": "🇩🇰",
+        "France": "🇫🇷",
+       "Germany": "🇩🇪",
+     "Hong Kong": "🇭🇰",
+       "Hungary": "🇭🇺",
+       "Ireland": "🇮🇪",
+         "India": "🇮🇳",
+     "Indonesia": "🇮🇩",
+   "Isle of Man": "🇮🇲",
+         "Italy": "🇮🇹",
+         "Japan": "🇯🇵",
+          "Laos": "🇱🇦",
+        "Mexico": "🇲🇽",
+         "Nepal": "🇳🇵",
+   "Netherlands": "🇳🇱",
+   "New Zealand": "🇳🇿",
+        "Poland": "🇵🇱",
+      "Portugal": "🇵🇹",
+        "Russia": "🇷🇺",
+     "Singapore": "🇸🇬",
+      "Slovakia": "🇸🇰",
+   "South Korea": "🇰🇷",
+         "Spain": "🇪🇸",
+        "Sweden": "🇸🇪",
+        "Taiwan": "🇹🇼",
+      "Thailand": "🇹🇭",
+            "UK": "🇬🇧",
+           "USA": "🇺🇸"
+}
+
 const unknownName: Record<Language, string> = {
   "en": "Unknown",
   "es": "Desconocido",
@@ -42,7 +86,14 @@ export const DateLocale: Record<string, Record<Language, string>> = {
   }
 }
 
-/** TODO-UI: make a type for defaults */
+type UnknownPhoto = {
+  author: Record<Language, string>,
+  commitdate: string,
+  locations: Record<string, [number, number]>,
+  source: string,
+  tags: string[],
+  url: string
+}
 type Defaults = {
   age: Record<Language, Record<string, string>>,
   animal: NodePanda,
@@ -52,6 +103,7 @@ type Defaults = {
   gender: Record<string, Record<Language, string>>,
   languages: Language[],
   no_name: Record<Language, string>,
+  photo: UnknownPhoto,
   relations: Record<string, Record<Language, string>>,
   species: Record<Language, string[]>,
   unknown: Record<Language, string>,
@@ -239,6 +291,7 @@ export const Defaults: Defaults = {
   photo: {
     "author": unknownName,
     "commitdate": "1970/1/1",
+    "locations": {},
     "source": "https://redpandafinder.com",
     "tags": [],
     "url": "images/no-panda-portrait.jpg"
@@ -455,6 +508,8 @@ export const Defaults: Defaults = {
   /** Slightly different default zoo listing, for wild-born animals */
   wild: {
     "_id": "wild.0",
+    "_in": [],
+    "_out": [],
     "address": {
       "en": "Captured or Rescued Wild Animal",
       "es": "Animal Salvaje Capturado o Rescatado",
@@ -464,6 +519,8 @@ export const Defaults: Defaults = {
       "pt": "Animal selvagem capturado ou resgatado",
       "zh": "TOWRITE",
     },
+    "commitdate": "1970/1/1",
+    "language.order": new Set(["en", "ja"]),
     "location": {
       "en": "No City, District, or State Info Listed",
       "es": "No Se Incluye Información de Ciudad, Distrito o Estado",
@@ -482,11 +539,15 @@ export const Defaults: Defaults = {
       "pt": "Zoológico não encontrado",
       "zh": "TOWRITE"
     },
+    "photos": [],
+    "type": "wild",
     "video": "images/no-zoo.jpg",
     "website": "https://www.worldwildlife.org/",
   },
   zoo: {
     "_id": 0,
+    "_in": [],
+    "_out": [],
     "address": {
       "en": "No Google Maps Address Recorded",
       "es": "No Se Registró Ninguna Dirección de Google Maps",
@@ -497,6 +558,10 @@ export const Defaults: Defaults = {
       "zh": "TOWRITE",
     },
     "closed": "1970/1/1",
+    "commitdate": "1970/1/1",
+    "flag": Flags["Nepal"],
+    "language.order": new Set(["en", "ja"]),
+    "latitude": "0.0000",
     "location": {
       "en": "No City, District, or State Info Listed",
       "es": "No Se Incluye Información de Ciudad, Distrito o Estado",
@@ -506,6 +571,8 @@ export const Defaults: Defaults = {
       "pt": "Nenhuma informação de cidade, distrito ou estado listada",
       "zh": "TOWRITE",
     },
+    "longitude": "0.0000",
+    "map": "https://maps.google.com/",
     "name": {
       "en": "Zoo Not Found",
       "es": "Zoo No Encontrado",
@@ -515,6 +582,17 @@ export const Defaults: Defaults = {
       "pt": "Zoológico não encontrado",
       "zh": "TOWRITE"
     },
+    "othernames": {
+      "en": ["Zoo Not Found"],
+      "es": ["Zoo No Encontrado"],
+      "ja": ["動物園が見つかりません"],
+      "ko": ["동물원을 찾을 수 없습니다"],
+      "ne": ["चिडियाखाना फेला परेन"],
+      "pt": ["Zoológico não encontrado"],
+      "zh": ["TOWRITE"]
+    },
+    "photos": [],
+    "type": "zoo",
     "video": "images/no-zoo.jpg",
     "website": "https://www.worldwildlife.org/",
   }
@@ -653,49 +731,6 @@ export const Emoji: Record<string, string> = {
 /** Default parameters for entities that lack language information */
 export const Fallback: Record<string, Language[]> = {
   "order": ["en", "ja"]
-}
-
-export const Flags: Record<string, string> = {
-     "Argentina": "🇦🇷",
-     "Australia": "🇦🇺",
-       "Austria": "🇦🇹",
-       "Belgium": "🇧🇪",
-        "Bhutan": "🇧🇹",
-        "Brazil": "🇧🇷",
-        "Canada": "🇨🇦",
-         "Chile": "🇨🇱",
-         "China": "🇨🇳",
-       "Croatia": "🇭🇷",
-       "Czechia": "🇨🇿",
-       "Default": "🐼",
-       "Denmark": "🇩🇰",
-        "France": "🇫🇷",
-       "Germany": "🇩🇪",
-     "Hong Kong": "🇭🇰",
-       "Hungary": "🇭🇺",
-       "Ireland": "🇮🇪",
-         "India": "🇮🇳",
-     "Indonesia": "🇮🇩",
-   "Isle of Man": "🇮🇲",
-         "Italy": "🇮🇹",
-         "Japan": "🇯🇵",
-          "Laos": "🇱🇦",
-        "Mexico": "🇲🇽",
-         "Nepal": "🇳🇵",
-   "Netherlands": "🇳🇱",
-   "New Zealand": "🇳🇿",
-        "Poland": "🇵🇱",
-      "Portugal": "🇵🇹",
-        "Russia": "🇷🇺",
-     "Singapore": "🇸🇬",
-      "Slovakia": "🇸🇰",
-   "South Korea": "🇰🇷",
-         "Spain": "🇪🇸",
-        "Sweden": "🇸🇪",
-        "Taiwan": "🇹🇼",
-      "Thailand": "🇹🇭",
-            "UK": "🇬🇧",
-           "USA": "🇺🇸"
 }
 
 export const Gui = {

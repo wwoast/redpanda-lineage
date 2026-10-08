@@ -862,9 +862,10 @@ export function missing_you(name: string, animalId: number, birth: string, death
   return shrinkBoxMessage("memorialSummary", link)
 }
 
+/** TODO-UI: typing for P.db */
 export function new_photos() {
   // Grab update counts
-  const counts = {
+  const counts: Record<string, number> = {
     "contributors": P.db._totals.updates.authors,
     "entities":  P.db._totals.updates.entities,
     "photos": P.db._totals.updates.photos,
@@ -889,25 +890,15 @@ export function new_photos() {
   } else {
     section_order = ["photos", "suffix"]
   }
-  // TODO-UI: switch to Text[`new_content_${part}`]
-  const lookup = Text.new_photos
   let pieces = []
   for (const part of section_order) {
     const count = counts[part]
     if (count == 0) {
       continue
     }
-    let output = ""
-    const message = lookup[part][Env.language]
-    for (const i in message) {
-      const field = message[i]
-      if (field == "<INSERTCOUNT>") {
-        output = output + count
-      } else {
-        output = output + field
-      }
-    }
-    pieces.push(output)
+    const message = Text[`new_content_${part}`][Env.language]
+      .replace('<INSERTCOUNT>', count.toString())
+    pieces.push(message)
   }
   pieces = Language.unpluralize(pieces)
   // Build a string out of phrases with commas + &
@@ -946,24 +937,13 @@ export function profile_children(
   } else {
     message = Text.profile_children
   }
-  let output_text = ""
   // Do string replacement
-  for (const i in message[Env.language]) {
-    const field = message[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      output_text = output_text.concat(name)
-    } else if (field == "<INSERTTOTAL>") {
-      output_text = output_text.concat(childrenCount)
-    } else if (field == "<INSERTDAUGHTERS>") {
-      output_text = output_text.concat(daughters)
-    } else if (field == "<INSERTSONS>") {
-      output_text = output_text.concat(sons)
-    } else if (field == "<INSERTBABIES>") {
-      output_text = output_text.concat(babies)
-    } else {
-      output_text = output_text.concat(field)
-    }
-  }
+  let output_text = message[Env.language]
+    .replace('<INSERTNAME>', name)
+    .replace('<INSERTTOTAL>', childrenCount.toString())
+    .replace('<INSERTDAUGHTERS>', daughters.toString())
+    .replace('<INSERTSONS>', sons.toString())
+    .replace('<INSERTBABIES>', babies.toString())
   output_text = Language.unpluralize([output_text])[0]
   p.appendChild(document.createTextNode(output_text))
   return shrinkBoxMessage("profileSummary", p)
@@ -980,7 +960,6 @@ export function profile_family(name: string) {
   return shrinkBoxMessage("profileSummary", p)
 }
 
-// TODO-UI: refactor
 export function profile_siblings(
   name: string,
   siblingCount: number,
@@ -1011,23 +990,12 @@ export function profile_siblings(
   } else {
     message = Text.profile_siblings
   }
-  let output_text = ""
-  for (const i in message[Env.language]) {
-    const field = message[Env.language][i]
-    if (field == "<INSERTNAME>") {
-      output_text = output_text.concat(name)
-    } else if (field == "<INSERTTOTAL>") {
-      output_text = output_text.concat(siblingCount)
-    } else if (field == "<INSERTSISTERS>") {
-      output_text = output_text.concat(sisters)
-    } else if (field == "<INSERTBROTHERS>") {
-      output_text = output_text.concat(brothers)
-    } else if (field == "<INSERTBABIES>") {
-      output_text = output_text.concat(babies)
-    } else {
-      output_text = output_text.concat(field)
-    }
-  }
+  let output_text = message[Env.language]
+    .replace('<INSERTNAME>', name)
+    .replace('<INSERTTOTAL>', siblingCount.toString())
+    .replace('<INSERTSISTERS>', sisters.toString())
+    .replace('<INSERTBROTHERS>', brothers.toString())
+    .replace('<INSERTBABIES>', babies.toString())
   output_text = Language.unpluralize([output_text])[0]
   p.appendChild(document.createTextNode(output_text))
   return shrinkBoxMessage("profileSummary", p)
@@ -1071,26 +1039,16 @@ export function shovel_pandas() {
   return shrinkBoxMessage("tagSummary", link)
 }
 
-// TODO-UI: refactor more thoughtfully
-export function tag_combo(num: number, emojis: string) {
+export function tag_combo(num: number, emojis: string[]) {
   const p = document.createElement('p')
-  // Emojis come first!
-  for (const emoji of emojis) {
-    p.appendChild(document.createTextNode(emoji + " "))
-  }
-  let output_text = ""
-  for (const i in Text.tag_combo[Env.language]) {
-    let field = Text.tag_combo[Env.language][i]
-    if (field == "<INSERTNUM>") {
-      output_text = output_text.concat(num)
-    } else {
-      if (num == 1) {
-        field = Language.unpluralize([field])
-      }
-      output_text = output_text.concat(field)
-    }
-  }
-  output_text = Language.unpluralize([output_text])[0]
+  // Start with filling in the number into the lookup string
+  let output_text = Text.tag_combo[Env.language]
+    .replace('<INSERTNUM>', num.toString())
+  // Unpluralize the input string if necessary
+  if (num == 1)
+    output_text = Language.unpluralize([output_text]).join(" ")
+  // Add emojis to the front
+  output_text = `${emojis.join(" ")} ${output_text}`
   p.appendChild(document.createTextNode(output_text))
   return shrinkBoxMessage("tagSummary", p)
 }

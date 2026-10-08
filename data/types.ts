@@ -336,6 +336,8 @@ declare global {
     location: StringPerLanguage,
     /** Each wild sighting location has a single primary name per language */
     name: StringPerLanguage,
+    /** A wild location likely has some set of photos and attributions */
+    photos: Photo[],
     /** 
      * A type discriminator so that we can reason about whether this is an
      * entity that represents a panda living in a zoo, a zoo, or a wild-seen
