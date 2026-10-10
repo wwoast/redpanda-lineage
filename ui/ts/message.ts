@@ -1062,6 +1062,8 @@ export function tag_subject(num: number, name: string, emoji: string, tag: strin
     name = Pandas.searchPandaId(name)[0].name[Env.language]
   if (name != undefined)
     name = Language.capitalNames(name)
+  if ((Env.language == "ja") && (name == undefined))
+    name = "枚"
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
   // Need to look up "baby" info as well from the polyglot list of things
@@ -1072,37 +1074,17 @@ export function tag_subject(num: number, name: string, emoji: string, tag: strin
   else
     near_tag = Polyglots[tag][Env.language][0]
   const p = document.createElement('p')
-  for (const i in Text.tag_subject[Env.language]) {
-    let field = Text.tag_subject[Env.language][i]
-    if (field == "<INSERTNUM>") {
-      const msg = document.createTextNode(num)
-      p.appendChild(msg)
-    } else if (field == "<INSERTNAME>") {
-      const msg = document.createElement('i')
-      const text = document.createTextNode(name)
-      if (name != undefined) {
-        msg.appendChild(text)
-        p.appendChild(msg)
-      }
-    } else if (field == "<INSERTEMOJI>") {
-      const msg = document.createTextNode(emoji)
-      p.appendChild(msg)
-    } else if (field == "<INSERTTAG>") {
-      const msg = document.createElement('b')
-      const text = document.createTextNode(near_tag)
-      msg.appendChild(text)
-      p.appendChild(msg)
-    } else {
-      if (num == 1) {
-        field = Language.unpluralize([field])
-      }
-      let msg = document.createTextNode(field)
-      if ((language == "ja") && (i == 1) && (name == undefined)) {
-        msg = document.createTextNode("枚")
-      }
-      p.appendChild(msg)
-    }
-  }
+  // TODO-UI: name is italics, tag is bold. Use markdown and then postprocess
+  // into bold/italics elements
+  let msgText = Text.tag_subject[Env.language]
+    .replace('<INSERTNUM>', num.toString())
+    .replace('<INSERTNAME>', name)
+    .replace('<INSERTEMOJI>', emoji)
+    .replace('<INSERTTAG>', near_tag)
+  if (num == 1)
+    msgText = Language.unpluralize([msgText]).join(" ")
+  const msg = document.createTextNode(msgText)
+  p.appendChild(msg)
   return shrinkBoxMessage("tagSummary", p)
 }
 

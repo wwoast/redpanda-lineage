@@ -2601,7 +2601,7 @@ export function tag_subject(num, name, emoji, tag) {
         field = Language.unpluralize([field])
       }
       let msg = document.createTextNode(field)
-      if ((language == "ja") && (i == 1) && (name == undefined)) {
+      if ((Env.language == "ja") && (i == 1) && (name == undefined)) {
         msg = document.createTextNode("枚")
       }
       p.appendChild(msg)
