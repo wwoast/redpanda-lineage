@@ -1,5 +1,5 @@
-/** Export the Dagoba graph and types */
-export * from './ts/dagoba.ts'
+export { default as Graph } from './ts/dagoba.ts'
 
-/** Types for all other redpandafinder related things come from this project */
-export * from './types.ts'
+export function test() {
+  console.log("wtf")
+}

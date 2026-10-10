@@ -1,5 +1,4 @@
 {
-  "name": "@redpanda-lineage",
   "compilerOptions": {
     "types": ["./data/types.ts"]
   },
@@ -11,5 +10,8 @@
       "command": "jq '.' ./export/redpanda.json"
     }
   },
-  "workspace": ["data"]
+  "workspace": [
+    "./data",
+    "./ui"
+  ]
 }

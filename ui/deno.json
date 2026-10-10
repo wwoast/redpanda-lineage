@@ -1,5 +1,6 @@
 {
   "name": "@redpanda-lineage/ui",
+  "version": "0.1.0",
   "compilerOptions": {
     "lib": [
       "dom",
@@ -11,8 +12,7 @@
     "types": ["../data/types.ts"]
   },
   "imports": {
-    "@nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts",
-    "@redpanda-lineage": "./"
+    "@nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts"
   },
   "tasks": {
     "build": {

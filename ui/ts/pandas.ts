@@ -1,4 +1,4 @@
-import { Graph as Dagoba } from '@redpanda-lineage/data'
+import { Graph } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'
@@ -16,7 +16,7 @@ const loaded = new Event('panda_data')
 let P = {}
 
 /** The Dagoba graph built from the panda data is private to this module */
-let G = {}
+let G = <Graph>{}
 
 /** 
  * Create a Pandas search object, and do the initial database import,
