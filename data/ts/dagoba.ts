@@ -63,7 +63,7 @@ export interface Vertex {
 }
 
 /** Vertices submitted as arguments may not have ids, or edges defined yet. */
-type CandidateVertex = {
+export type CandidateVertex = {
   _id?: number | string,
   _in?: Edge[],
   _out?: Edge[],
@@ -71,7 +71,7 @@ type CandidateVertex = {
 }
 
 /** Edges submitted as arguments may just have references to vertexes by id */
-type DanglingEdge = {
+export type DanglingEdge = {
   _in: number | string,
   _label: string,
   _out: number,

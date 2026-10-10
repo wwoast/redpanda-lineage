@@ -13,7 +13,9 @@ import { Text } from './message.ts'
 const loaded = new Event('panda_data')
 
 /** Object with all the `redpanda.json` data backs redpandafinder */
-let P = {}
+const P = {
+  db: <ExportJson>{}
+}
 
 /** The Dagoba graph built from the panda data is private to this module */
 let G = <Graph>{}
@@ -35,8 +37,8 @@ export function init() {
   request.responseType = 'json'
   request.send()
   request.onload = function() {
-    P.db = request.response   // Set the panda database for importing
-    G = Dagoba.graph(P.db.vertices, P.db.edges)
+    P.db = request.response
+    G = new Graph(P.db.vertices, P.db.edges)
     window.dispatchEvent(loaded)   // Report the data has loaded
   }
 }

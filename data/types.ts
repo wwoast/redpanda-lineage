@@ -1,4 +1,4 @@
-import type { Vertex } from './ts/dagoba.ts'
+import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
 
 /** 
  * Types in redpandafinder, organized in order from minor property types, to
@@ -654,5 +654,46 @@ declare global {
     photo_locators: string[],
     type: "zoo",
     website: string | null
+  }
+
+  /**
+   * A type for the outputted redpanda.json file, which is a superset of the
+   * Dagoba graph data.
+   */
+  type ExportJson = {
+    _commit: string,
+    _lexer: {
+      names: string[],
+    },
+    _photo: {
+      credit: Record<string, number>,
+      entity_max: number,
+      group_max: number
+    },
+    _totals: {
+      credit: number,
+      last_born: number,
+      last_died: number,
+      locations: number,
+      media: number,
+      pandas: number,
+      photos: number,
+      updates: {
+        authors: number,
+        entities: number,
+        pandas: number,
+        photos: number,
+        zoos: number
+      },
+      wilds: number,
+      zoos: number
+    },
+    _updates: {
+      authors: string[],
+      entities: string[],
+      photos: string[]
+    },
+    edges: DanglingEdge[],
+    vertices: Vertex[]
   }
 }
