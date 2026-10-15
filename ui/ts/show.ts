@@ -21,7 +21,7 @@ import P, * as Pandas from './pandas.ts'
  * be displayed in an information card about the panda, including its zoo and
  * its relatives.
  */
-export function acquirePandaInfo(animal) {
+export function acquirePandaInfo(animal: NodePanda) {
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"
     : parseInt(Env.specific_photo)
@@ -58,7 +58,7 @@ export function acquirePandaInfo(animal) {
 }
 
 /** Given an animal, return an array of location info translated correctly. */
-function acquireLocationList(animal) {
+function acquireLocationList(animal: NodePanda) {
   const raw_locations = Pandas.locationList(animal)
   const history = raw_locations.map(location => getZooBundle(location))
   return history
@@ -95,7 +95,7 @@ function getUnknownZooBundle(location) {
  * Given a zoo, return an address, location, link to a website, and information
  * about the number of pandas (living) that are at the zoo.
  */
-export function acquireZooInfo(zoo) {
+export function acquireZooInfo(zoo: NodeZoo) {
   const animals = Pandas.searchPandaZooCurrent(zoo._id)
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"

@@ -1638,7 +1638,7 @@ export function language_order(entity) {
 }
 
 /** Returns a list of locations valid for a zoo animal */
-export function locationList(animal) {
+export function locationList(animal: NodePanda) {
   let locations = []
   // Return not just the chosen photo but the author and link as well
   for (const [index, location] of animal.locations.entries()) {
@@ -1670,7 +1670,7 @@ export function locationList(animal) {
  * When a panda doesn't have a list of wild locations as `location.X` fields,
  * use the wild field, birthday, and date of death to fill in needed details
  */
-function locationWild(animal) {
+function locationWild(animal: NodePanda) {
   let end_date = undefined
   if (animal["death"] != undefined) {
     end_date = animal["death"]
@@ -1687,7 +1687,7 @@ function locationWild(animal) {
  * When a panda doesn't have a list of zoo locations as `location.X` fields,
  * use the zoo, birthday, and date of death to fill in needed details
  */
-function locationZoo(animal) {
+function locationZoo(animal: NodePanda) {
   const locations = [{
     "zoo": myZoo(animal, "zoo"),
     "start_date": animal["birthday"],
@@ -1742,7 +1742,7 @@ function locatorToPhoto(locator) {
 }
 
 /** Given an animal and a chosen language, return details for a red panda. */
-export function myName(animal) {
+export function myName(animal: NodePanda | NodeZoo | NodeWild) {
   return (!animal.name || animal.name[Env.language] == undefined)
     ? Defaults.animal.name[Env.language]
     : animal.name[Env.language]
@@ -1791,7 +1791,7 @@ export function othernames(animal: NodePanda) {
  * Parse a date based on the observed values, falling back to a
  * language-specific date format as appropriate.
  */
-function parseDate(date) {
+function parseDate(date: string) {
   // Whatever the non-numeric date delimiters are, replace it with slash.
   // Then chop off any delimiters at the beginning or end of the string.
   date = date.replace(/[^\d]/g, '/')
@@ -1847,26 +1847,29 @@ function parseDate(date) {
 }
 
 /** Given an animal, choose a single photo to display as its profile photo. */
-export function profilePhoto(animal, naturalIndex, mode="animal") {
-  let arrayIndex = parseInt(naturalIndex - 1)   // possibly NaN
-  let choice = animal.photos[arrayIndex]   // possibly undefined
-  // If (index) not in the photos array, choose one of the available keys
-  // at random from the set of remaining valid images.
+export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number | string, mode="animal") {
+  let arrayIndex = (typeof naturalIndex !== "number")
+    ? 0
+    : naturalIndex - 1
+  let choice = (typeof naturalIndex !== "number")
+    ? undefined
+    : animal.photos[arrayIndex]
+  // If (index) not in the photos array, or naturalIndex is "random", choose
+  // one of the available keys randomly from the set of remaining valid images.
   if (choice == undefined) {
     const space = animal.photos.length
-    arrayIndex = Math.floor(Math.random() * space)
+    arrayIndex = Math.floor(Math.random() * space) 
     choice = animal.photos[arrayIndex]
   }
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one.
   if (animal.photos.length === 0) {
-    arrayIndex = 0
     choice = field(animal, "photos", mode)[0]
     const contributeLink = Gui.contribute_link[Env.language] ?? Gui.contribute_link["en"]
     return {
       "_id": animal._id,
       "author": Gui.contribute[Env.language],
-      "index": arrayIndex + 1,
+      "index": 1,
       "reference": authorLink(Gui.contribute[Env.language], contributeLink),
       "url": choice.url
     }
@@ -1883,7 +1886,7 @@ export function profilePhoto(animal, naturalIndex, mode="animal") {
 }
 
 /** Given an animal species id, return the full species name */
-export function species(animal) {
+export function species(animal: NodePanda) {
   // 0th value in `Defaults.species` is fulgens
   // 1th vlue in `Defaults.species` is styani
   // The panda files list the species as a number that is off by one from this
@@ -1895,7 +1898,7 @@ export function species(animal) {
 }
 
 /** Given a wild location found with `location()`, return the location name. */
-export function wildName(wild) {
+export function wildName(wild: NodeWild) {
   return wild.name[Env.language] == undefined
     ? Defaults.wild.name[Env.language]
     : wild.name[Env.language]
@@ -1905,12 +1908,12 @@ export function wildName(wild) {
  * Given a wild location found with `location()`, return an arbitrary field.
  * Useful for anything that's just a URI, like videos or photos.
  */
-export function wildField(wild, field) {
+export function wildField(wild: NodeWild, field: string) {
   return wild[field] == undefined ? Defaults.wild[field] : wild[field]
 }
 
 /** Given a zoo found with `location()`, return the name of the zoo. */
-export function zooName(zoo) {
+export function zooName(zoo: NodeZoo) {
   return zoo.name[Env.language] == undefined
     ? Defaults.zoo.name[Env.language]
     : zoo.name[Env.language]
@@ -1920,7 +1923,7 @@ export function zooName(zoo) {
  * Given a zoo found with `location()`, return an arbitrary field. Useful for
  * anything that's just a URI, like videos or photos.
  */
-export function zooField(zoo, field) {
+export function zooField(zoo: NodeZoo, field: string) {
   return zoo[field] == undefined ? Defaults.zoo[field] : zoo[field]
 }
 
