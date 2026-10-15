@@ -1,6 +1,6 @@
 import Env from './environment.ts'
 import * as Language from './language.ts'
-import { Emoji, Tags, Polyglots } from './lookup.ts'
+import { Emoji, Polyglots, Tags } from './lookup.ts'
 import P, * as Pandas from './pandas.ts'
 import * as Show from './show.ts'
 
