@@ -46,7 +46,7 @@ export function init() {
 /** Utility functions and generators for doing panda processing */
 
 /** Check if two arrays have the same contents (not necessarily same order) */
-function arrayContentsEqual(a, b) {
+function arrayContentsEqual(a: any[], b: any[]) {
   // Check if the arrays are the same length
 	if (a.length !== b.length) return false
   // Sort the input arrays so we get consistent comparisons
@@ -65,7 +65,7 @@ function arrayContentsEqual(a, b) {
  * Instagram. The Instagram URLs will fall back to an author profile page if
  * the link is private.
  */
-export function authorLink(author, link) {
+export function authorLink(author: string, link: string) {
   if (!link)
     return link
   else if (link.indexOf("ig://") == 0) {
@@ -81,15 +81,15 @@ export function authorLink(author, link) {
 }
 
 /** Valid panda IDs are numeric and non-zero */
-export function checkId(input) {
-  return (isFinite(input) && input != Defaults.animal['_id'])
+export function checkId(input: number) {
+  return (isFinite(input) && input != Defaults.animal._id)
 }
 
 /** 
  * For wildcard date values, we do some date checks by converting Date objects
  * to year-month-day dicts
  */
-function date_to_ymd(date) {
+function date_to_ymd(date: Date) {
   return {
     "year": date.getFullYear(),
     "month": date.getMonth() + 1,
@@ -116,9 +116,9 @@ function date_ymd_compare(birthday_ymd, input_ymd) {
 }
 
 /** Filter for distinct animals or zoos */
-export function distinct(list) {
+export function distinct(list: any[]) {
   const unique =
-    (value, index, self) => self.indexOf(value) === index
+    (value: any, index: number, self: any[]) => self.indexOf(value) === index
   return list.filter(unique)
 }
 
@@ -141,12 +141,12 @@ export function* linkGeneratorEntity(entity, index=0) {
  * If given no argument, return a random number. Otherwise return a repeatable
  * random value.
  */
-function prngValue(input, count) {
+function prngValue(input: number | undefined, count: number): number {
   let seed = undefined
   // If no inputs given, we want a truly random value
   if (input == undefined)
     return Math.random() 
-  if (count == undefined)
+  if (count == undefined || count < 1)
     count = 1
   // Otherwise, take a chain of random values
   let next_input = input
@@ -155,14 +155,14 @@ function prngValue(input, count) {
     // Since good inputs to prng should be integers, convert to integer
     next_input = parseInt(seed.toString().split(".")[1])
   }
-  return seed
+  return seed as number
 }
 
 /** 
  * Get random items from the array, trying our best not to select the same item 
  * more than once.
  */
-export function randomChoice(array, count) {
+export function randomChoice<T>(array: T[], count: number) {
   // Logic to handle small arrays
   if (array.length <= 1)
     return array
@@ -176,12 +176,12 @@ export function randomChoice(array, count) {
  * Do random choices given an input seed. If seed_input is undefined, choose a
  * random seed instead.
  */
-function randomChoiceSeed(array, seed_input, count) {
+function randomChoiceSeed<T>(array: T[], seed_input: number | undefined, count: number) {
   let seed = undefined
-  const seen = {}
+  const seen: Record<number, T> = {}
   // If you want just all the array items, return a shuffle instead
   if (count >= array.length) {
-    return shuffleWithSeed(array, seed_input)
+    return shuffleWithSeed<T>(array, seed_input)
   }
   let n = count
   for (let i = 1; i <= n; i++) {
@@ -222,7 +222,7 @@ export function removeElementsWithMatchingField(list, removals, field) {
 }
 
 /** Seeded PRNG for the random choice function */
-function seededPrng(input) {
+function seededPrng(input: number) {
   /** 
    * Mulberry32 seeded PRNG for the random choice function. Call using
    * `seededPrng(seed)()`
@@ -237,13 +237,13 @@ function seededPrng(input) {
 }
 
 /** Shuffle an array randomly */
-export function shuffle(array) {
-  return shuffleWithSeed(array, undefined)
+export function shuffle<T>(array: T[]) {
+  return shuffleWithSeed<T>(array, undefined)
 }
 
 /** Shuffle an array with a seed */
-export function shuffleWithSeed(array, seed_input) {
-  // Get a chosen-random value, or a truly random one 
+export function shuffleWithSeed<T>(array: T[], seed_input: number | undefined) {
+  // Get a chosen-random value, or a truly random one
   // if seed_input is undefined
   const seed = prngValue(seed_input, 1)
   for (let i = array.length - 1; i > 0; i--) {
@@ -260,7 +260,7 @@ export function shuffleWithSeed(array, seed_input) {
  * Force a shuffle before choosing unique values, to add variety
  * when displaying unique values
  */
-export function unique(array, field) {
+export function unique(array: Record<string, any>[], field: string) {
   array = shuffle(array)
   const seen = {}
   for (let i = 0; i < array.length; i++) {
@@ -540,7 +540,7 @@ function searchHalfSiblings(idnum) {
  * Find a panda's littermates. Search for all pandas with the same parents and
  * the same (or close, within 48hrs) birthday
  */
-export function searchLitter(idnum) {
+export function searchLitter(idnum: number) {
   const nodes = G.v(idnum).in("litter").run()
   return nodes
 }
@@ -1754,9 +1754,9 @@ export function myName(animal) {
  * Dagoba they become edges to "wild" nodes. Proper "fields" might be
  * `birthplace` or `wild`, but we cannot assume the birthplace of wild animals.
  */
-export function myWild(animal, field) {
+export function myWild(animal: NodePanda, field: string) {
   const wild = G.v(animal['_id']).out(field).run()
-  return wild == [] ? Defaults.wild : wild[0]
+  return (wild.length == 0) ? Defaults.wild : wild[0]
 }
 
 /**
@@ -1765,23 +1765,23 @@ export function myWild(animal, field) {
  * they become edges to zoo nodes. Proper "fields" might be `birthplace` or
  * `zoo`.
  */
-export function myZoo(animal, field) {
+export function myZoo(animal: NodePanda, field: string) {
   const zoo = G.v(animal['_id']).out(field).run()
-  return zoo == [] ? Defaults.zoo : zoo[0]
+  return (zoo.length == 0) ? Defaults.zoo : zoo[0]
 }
 
 /** Given an animal and a chosen language, return nicknames. */
-export function nicknames(animal) {
+export function nicknames(animal: NodePanda) {
   return animal.nicknames[Env.language] == undefined
     ? Defaults.animal.nicknames[Env.language]
-    : animal[field]
+    : animal.nicknames[Env.language]
 }
 
 /**
  * Given an animal and a chosen language, return alternate names, such as
  * alternative Hiragana/Katakana/Kanji spellings of names.
  */
-export function othernames(animal) {
+export function othernames(animal: NodePanda) {
   return animal.othernames[Env.language] == undefined
     ? Defaults.animal.othernames[Env.language]
     : animal.othernames[Env.language]
