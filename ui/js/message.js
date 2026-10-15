@@ -2562,8 +2562,8 @@ export function tag_combo(num, emojis) {
  * the panda's localized name instead.
  */
 export function tag_subject(num, name, emoji, tag) {
-  if (Pandas.checkId(name) == true)
-    name = Pandas.searchPandaId(name)[0].name[Env.language]
+  if (Pandas.checkId(num) == true)
+    name = Pandas.searchPandaId(num)[0].name[Env.language]
   if (name != undefined)
     name = Language.capitalNames(name)
   // For translating a tag between languages, we need the first value in

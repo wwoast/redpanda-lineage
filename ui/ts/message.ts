@@ -1058,8 +1058,8 @@ export function tag_combo(num: number, emojis: string[]) {
  * the panda's localized name instead.
  */
 export function tag_subject(num: number, name: string, emoji: string, tag: string) {
-  if (Pandas.checkId(name) == true)
-    name = Pandas.searchPandaId(name)[0].name[Env.language]
+  if (Pandas.checkId(num) == true)
+    name = Pandas.searchPandaId(num)[0].name[Env.language]
   if (name != undefined)
     name = Language.capitalNames(name)
   if ((Env.language == "ja") && (name == undefined))
