@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1308
+location.1: 11, 2021/8/30
+location.2: 34, 2026/10/15
 photo.1: cwdc://X16hlDnADQA.jpg
 photo.1.author: sasapan34
 photo.1.commitdate: 2021/12/22
@@ -219,4 +221,4 @@ photo.41.commitdate: 2025/12/4
 photo.41.link: ig://DMwS7TuzFBY
 photo.41.tags: door, paws, portrait, sample, smile, whiskers
 species: 2
-zoo: 11
+zoo: 34
