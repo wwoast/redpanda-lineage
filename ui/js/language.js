@@ -149,7 +149,7 @@ export function fallbackEntity(entity) {
       if (entity[key][Env.language] == undefined) {
         if (language == Env.language)
           continue  // Don't take replacement values from current language
-        if (!empty_values.includes(entity[language])) {
+        if (!empty_values.includes(entity[key][language])) {
           // Put this language's value in the displayed output
           output[key][Env.language] = entity[key][language]
           break
