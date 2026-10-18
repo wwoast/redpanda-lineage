@@ -103,9 +103,9 @@ const fallback_blacklist = ["othernames", "nicknames"]
 export function defaultDisplayLanguage() {
   // Read language settings from browser's Accept-Language header
   // TODO ES6
-  Defaults.languages.forEach(function(option) {
-    if (navigator.languages.includes(option))
-      Env.language = option as 
+  Defaults.languages.forEach((option) => {
+    if (navigator.languages.includes(option)) {
+      Env.language = option as Language
     }
   })
   // Read language setting if it's there
@@ -127,6 +127,7 @@ export function defaultDisplayLanguage() {
 /**
  * Do language fallback for anything reporting as `unknown` or _empty_ in a zoo
  * or animal object
+ * // TODO: copy from language.js once tested
  */
 export function fallbackEntity(entity) {
   const output = entity

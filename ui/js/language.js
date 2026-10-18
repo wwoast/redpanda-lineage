@@ -139,22 +139,19 @@ export function fallbackEntity(entity) {
   // Derive the zoo/panda language-translatable keys by getting a list of
   // the separate language keys from the original object, and adding a
   // synthetic list of keys that would apply for the current display language
-  const language_entity = listDisplayKeys(entity, order, Env.language)
+  const translatableKeys = listEntityKeys(entity, order)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
-  for (const key of language_entity) {
-    const blacklist_key = key.split(".")[1]   // No language suffix
-    if (fallback_blacklist.includes(blacklist_key))
+  for (const key of translatableKeys) {
+    if (fallback_blacklist.includes(key))
       continue  // Ignore blacklist fields
-    if (empty_values.includes(entity[key])) {
-      for (const language of order) {
+    for (const language of order) {
+      if (entity[key][Env.language] == undefined) {
         if (language == Env.language)
           continue  // Don't take replacement values from current language
-        const [ _, desired ] = key.split('.')
-        const new_key = `${language}.${desired}`
-        if (!empty_values.includes(entity[new_key])) {
+        if (!empty_values.includes(entity[language])) {
           // Put this language's value in the displayed output
-          output[key] = entity[new_key]
+          output[key][Env.language] = entity[key][language]
           break
         }
       } // If no available non-empty strings in other languages, do nothing
@@ -224,12 +221,12 @@ export function fallbackInfo(info, original) {
     if (fallback_blacklist.includes(key))
       continue  // Ignore blacklist fields
     for (const language of order) {
-      if (info[key][language] == undefined) {
+      if (info[key] == undefined) {
         if (language == Env.language)
           continue  // Don't take replacement values from current language
         if (!empty_values.includes(original[language])) {
           // Put this language's value in the displayed output
-          bundle[key][language] = original[key][language]
+          bundle[key] = original[key][language]
           break
         }
       } // If no available non-empty strings in other languages, do nothing
@@ -478,23 +475,6 @@ export function katakanaToHiragana(input) {
     }
     return output
   }
-}
-
-/**
- * Given a list of keys we're doing language translations for, add a set
- * for the current displayed language
- * 
- * TODO FIX
- */
-function listDisplayKeys(entity, order, current_language) {
-  const entity_keys = listEntityKeys(entity, order)
-  const language_keys = entity_keys.map(function(key) {
-    const [_, primary] = key.split('.')
-    return current_language + "." + primary
-  })
-  // De-duplicate language keys
-  return entity_keys.concat(language_keys)
-    .filter((value, index, self) => self.indexOf(value) === index)
 }
 
 /**
