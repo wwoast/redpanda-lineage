@@ -224,7 +224,7 @@ export function fallbackInfo(info, original) {
       if (info[key] == undefined) {
         if (language == Env.language)
           continue  // Don't take replacement values from current language
-        if (!empty_values.includes(original[language])) {
+        if (!empty_values.includes(original[key][language])) {
           // Put this language's value in the displayed output
           bundle[key] = original[key][language]
           break
