@@ -216,22 +216,20 @@ export function fallbackInfo(info, original) {
                                   .concat(Object.values(default_animal))
                                   .concat(Object.values(default_zoo))
   // Derive the info-block language-translatable keys by getting a list of
-  // the separate language keys from the original object, slicing off
-  // the lanugage prefix, and de-duplicating.
-  const language_info = listEntityKeys(original, order)
+  // the separate language keys from the original object
+  const translatableKeys = listEntityKeys(original, order)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original info blob's key.
-  for (const key of language_info) {
+  for (const key of translatableKeys) {
     if (fallback_blacklist.includes(key))
       continue  // Ignore blacklist fields
-    if (empty_values.includes(info[key])) {
-      for (const language of order) {
+    for (const language of order) {
+      if (info[key][language] == undefined) {
         if (language == Env.language)
           continue  // Don't take replacement values from current language
-        const new_key = `${language}.${key}`
-        if (!empty_values.includes(original[new_key])) {
+        if (!empty_values.includes(original[language])) {
           // Put this language's value in the displayed output
-          bundle[key] = original[new_key]
+          bundle[key][language] = original[key][language]
           break
         }
       } // If no available non-empty strings in other languages, do nothing

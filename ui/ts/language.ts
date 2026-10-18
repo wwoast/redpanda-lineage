@@ -219,9 +219,10 @@ export function fallbackInfo(info, original) {
   // Derive the info-block language-translatable keys by getting a list of
   // the separate language keys from the original object, slicing off
   // the lanugage prefix, and de-duplicating.
-  const language_info = listInfoKeys(original, order)
+  const language_info = listEntityKeys(original, order)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original info blob's key.
+  // TODO: copy from language.js once tested
   for (const key of language_info) {
     if (fallback_blacklist.includes(key))
       continue  // Ignore blacklist fields
