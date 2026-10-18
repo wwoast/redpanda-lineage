@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: 緒海
 language.order: ja, en
 litter: 1377
+location.1: 190, 2022/7/9
+location.2: 20, 2026/10/16
 photo.1: cwdc://YLpIZQDADQB.jpg
 photo.1.author: seaparadise_official
 photo.1.commitdate: 2022/9/4
@@ -559,4 +561,4 @@ photo.109.commitdate: 2025/12/2
 photo.109.link: ig://DQwbU_PkwAY
 photo.109.tags: dish, paws, sample, tongue, whiskers
 species: 2
-zoo: 190
+zoo: 20
