@@ -232,7 +232,6 @@ export function fallbackInfo(info, original) {
       } // If no available non-empty strings in other languages, do nothing
     }
   }
-
   // Replace nested zoo or birthplace text for panda entities similarly
   if ((info.zoo != undefined) && (info.zoo != Defaults.zoo)) {
     bundle.zoo = fallbackEntity(info.zoo)
