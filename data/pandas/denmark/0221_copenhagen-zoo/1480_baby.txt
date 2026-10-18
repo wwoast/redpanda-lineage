@@ -1,0 +1,18 @@
+[panda]
+_id: 1480
+birthday: 2023/1/1
+birthplace: 221
+children: none
+commitdate: 2026/10/18
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: f
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1479
+species: 1
+uncertainty: birthday in 2023
+zoo: 221

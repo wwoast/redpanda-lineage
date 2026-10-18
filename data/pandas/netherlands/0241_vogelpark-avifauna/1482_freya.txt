@@ -1,0 +1,20 @@
+[panda]
+_id: 1482
+birthday: 2024/7/9
+birthplace: 221
+children: none
+commitdate: 2026/10/18
+en.name: Freya
+en.nicknames: none
+en.othernames: none
+gender: f
+ja.name: フレイヤ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: 1481
+location.1: 221, 2024/7/9
+location.2: 241, 2025/4/1
+species: 1
+uncertainty: location.2 exact date
+zoo: 241
