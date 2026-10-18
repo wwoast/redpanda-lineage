@@ -326,7 +326,7 @@ function furigana(name, othernames) {
   if (!othernames || othernames.length == 0)
     return false
   othernames = othernames.filter(option => {
-    if (option == Defaults.animal.othernames.ja)
+    if (Defaults.animal.othernames.ja.includes(option))
       return false
     if (option == "none")
       return false

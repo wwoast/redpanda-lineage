@@ -322,11 +322,13 @@ export function fade(el) {
  * Read from `info.othernames`, and if it's not a language default, add an
  * alternate add an alternate spelling to the name information.
  */
-function furigana(name, othernames) {
+function furigana(name: string, othernames: string[]) {
   if (!othernames || othernames.length == 0)
     return false
   othernames = othernames.filter(option => {
-    if (option == Defaults.animal.othernames.ja)
+    if (Defaults.animal.othernames.ja?.includes(option))
+      return false
+    if (option == "none")
       return false
     if (Language.editDistance(name, option) > 1) {
       return true
