@@ -1,0 +1,17 @@
+[panda]
+_id: 1484
+birthday: 2026/6/27
+birthplace: 241
+children: none
+commitdate: 2026/10/18
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: 赤ちゃん
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: none
+species: 1
+zoo: 241
