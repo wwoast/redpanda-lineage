@@ -208,11 +208,11 @@ function fallbackFlags() {
  * info block
  */
 export function fallbackInfo(info, original) {
-  var bundle = info
-  var order = currentOrder(info.language_order, Env.language)
+  const bundle = info
+  const order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
-  var default_animal = saveEntityKeys(Defaults.animal, order)
-  var default_zoo = saveEntityKeys(Defaults.zoo, order)
+  const default_animal = saveEntityKeys(Defaults.animal, order)
+  const default_zoo = saveEntityKeys(Defaults.zoo, order)
   const empty_values = [undefined].concat(Object.values(Defaults.unknown))
                                   .concat(Object.values(default_animal))
                                   .concat(Object.values(default_zoo))
@@ -501,32 +501,22 @@ function listDisplayKeys(entity, order, current_language) {
 /**
  * Get the valid language-translatable keys in a zoo or animal object
  * like the ones in the `Pandas.*` methods
- * 
- * TODO-UI: think there is a bug here since we don't have language-prefixed
- * keys on GraphNode objects anymore.
  */
-function listEntityKeys(entity, order) {
-  const obj_langs = order.concat(Defaults.languages)  // Dupes not important
-  const filtered = Object.keys(entity).filter(function(key) {
-    // List the language-specific keys in a zoo or animal
-    const [lang, _primary] = key.split('.')
-    return (obj_langs.indexOf(lang) != -1)
+function listEntityKeys(entity: Record<string, any>, order: Language[]) {
+  const languages = new Set(order.concat(Defaults.languages))
+  const filtered = Object.keys(entity).filter((key) => {
+    const subObject = entity[key]
+    if (typeof subObject !== "object")
+      return false
+    const maybeLanguageKeys = new Set(Object.keys(subObject))
+    if (maybeLanguageKeys.size == 0)
+      return false
+    if (maybeLanguageKeys.isSubsetOf(languages))
+      return true
+    else
+      return false
   })
   return filtered
-}
-
-/**
- * Get the valid language-translatable keys in an info block from one of its
- * panda/zoo entities, like you have in blocks created by `Show.acquire*Info`
- * 
- * TODO-UI: think there is a bug here since we don't have language-prefixed
- * keys on GraphNode objects anymore.
- */
-function listInfoKeys(entity, order) {
-  return listEntityKeys(entity, order).map(function(key) {
-    const [language, desired] = key.split('.')
-    return desired
-  }).filter((value, index, self) => self.indexOf(value) === index)
 }
 
 /**

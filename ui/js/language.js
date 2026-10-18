@@ -207,18 +207,18 @@ function fallbackFlags() {
  * info block
  */
 export function fallbackInfo(info, original) {
-  var bundle = info
-  var order = currentOrder(info.language_order, Env.language)
+  const bundle = info
+  const order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
-  var default_animal = saveEntityKeys(Defaults.animal, order)
-  var default_zoo = saveEntityKeys(Defaults.zoo, order)
+  const default_animal = saveEntityKeys(Defaults.animal, order)
+  const default_zoo = saveEntityKeys(Defaults.zoo, order)
   const empty_values = [undefined].concat(Object.values(Defaults.unknown))
                                   .concat(Object.values(default_animal))
                                   .concat(Object.values(default_zoo))
   // Derive the info-block language-translatable keys by getting a list of
   // the separate language keys from the original object, slicing off
   // the lanugage prefix, and de-duplicating.
-  const language_info = listInfoKeys(original, order)
+  const language_info = listEntityKeys(original, order)
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original info blob's key.
   for (const key of language_info) {
@@ -485,6 +485,8 @@ export function katakanaToHiragana(input) {
 /**
  * Given a list of keys we're doing language translations for, add a set
  * for the current displayed language
+ * 
+ * TODO FIX
  */
 function listDisplayKeys(entity, order, current_language) {
   const entity_keys = listEntityKeys(entity, order)
@@ -502,29 +504,27 @@ function listDisplayKeys(entity, order, current_language) {
  * like the ones in the `Pandas.*` methods
  */
 function listEntityKeys(entity, order) {
-  const obj_langs = order.concat(Defaults.languages)  // Dupes not important
-  const filtered = Object.keys(entity).filter(function(key) {
-    // List the language-specific keys in a zoo or animal
-    const [lang, primary] = key.split('.')
-    return (obj_langs.indexOf(lang) != -1)
+  const languages = new Set(order.concat(Defaults.languages))
+  const filtered = Object.keys(entity).filter((key) => {
+    const subObject = entity[key]
+    if (typeof subObject !== "object")
+      return false
+    const maybeLanguageKeys = new Set(Object.keys(subObject))
+    if (maybeLanguageKeys.size == 0)
+      return false
+    if (maybeLanguageKeys.isSubsetOf(languages))
+      return true
+    else
+      return false
   })
   return filtered
 }
 
 /**
- * Get the valid language-translatable keys in an info block from one of its
- * panda/zoo entities, like you have in blocks created by `Show.acquire*Info`
- */
-function listInfoKeys(entity, order) {
-  return listEntityKeys(entity, order).map(function(key) {
-    const [language, desired] = key.split('.')
-    return desired
-  }).filter((value, index, self) => self.indexOf(value) === index)
-}
-
-/**
  * Only keep the keys in a panda or zoo object that are meaningfully
  * translatable to different languages
+ *
+ * TODO-LANG: doesn't reflect rpf language standards
  */
 function saveEntityKeys(entity, order) {
   return listEntityKeys(entity, order).reduce(function(obj, key) {
