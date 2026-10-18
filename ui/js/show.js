@@ -328,6 +328,8 @@ function furigana(name, othernames) {
   othernames = othernames.filter(option => {
     if (option == Defaults.animal.othernames.ja)
       return false
+    if (option == "none")
+      return false
     if (Language.editDistance(name, option) > 1) {
       return true
     }
