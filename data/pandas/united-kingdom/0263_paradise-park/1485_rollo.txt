@@ -1,0 +1,19 @@
+[panda]
+_id: 1485
+birthday: 2025/6/20
+birthplace: 170
+children: none
+commitdate: 2026/10/18
+en.name: Rollo
+en.nicknames: none
+en.othernames: none
+gender: m
+ja.name: ロロ
+ja.nicknames: none
+ja.othernames: none
+language.order: en, ja
+litter: none
+location.1: 170, 2025/6/20
+location.2: 263, 2026/9/9
+species: 1
+zoo: 263

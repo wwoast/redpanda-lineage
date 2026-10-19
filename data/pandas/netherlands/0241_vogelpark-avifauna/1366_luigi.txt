@@ -1,20 +1,22 @@
 [panda]
 _id: 1366
-birthday: 2021/6/1
+birthday: 2021/6/25
 birthplace: 257
-children: none
-commitdate: 2022/6/1
-en.name: Shifu
+children: 1484
+commitdate: 2025/6/25
+en.name: Luigi
 en.nicknames: none
+en.oldnames: Shifu
 en.othernames: none
 gender: m
-ja.name: シフ
+ja.name: ルイージ
 ja.nicknames: none
+ja.oldnames: シフ
 ja.othernames: none
 language.order: en, ja
 litter: 1365
-location.1: 257, 2021/6/1
-location.2: 241, 2022/4/1
+location.1: 257, 2021/6/25
+location.2: 241, 2022/4/13
 photo.1: ig://CY49xpNKPap/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/6/1
@@ -31,5 +33,4 @@ photo.3.commitdate: 2022/6/1
 photo.3.link: https://www.instagram.com/seelviahhtaz/
 photo.3.tags: bamboo, bite, portrait, whiskers
 species: 1
-uncertainty: birthday in june, move date in april
 zoo: 241
