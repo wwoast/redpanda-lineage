@@ -102,14 +102,13 @@ const fallback_blacklist = ["othernames", "nicknames"]
 /** Map a browser specified language to one of our supported options. */
 export function defaultDisplayLanguage() {
   // Read language settings from browser's Accept-Language header
-  // TODO ES6
   Defaults.languages.forEach((option) => {
     if (navigator.languages.includes(option)) {
       Env.language = option as Language
     }
   })
   // Read language setting if it's there
-  const test = window.localStorage.getItem("language")
+  const test = window.localStorage.getItem("language") as Language
   if (test != null) {
     if (Defaults.languages.includes(test)) {
       Env.language = test
@@ -127,9 +126,8 @@ export function defaultDisplayLanguage() {
 /**
  * Do language fallback for anything reporting as `unknown` or _empty_ in a zoo
  * or animal object
- * // TODO: copy from language.js once tested
  */
-export function fallbackEntity(entity) {
+export function fallbackEntity(entity: NodePanda | NodeWild | NodeZoo) {
   const output = entity
   const order = currentOrder(Pandas.language_order(entity), Env.language)
   // Default values that we want to ignore if we can
@@ -172,8 +170,9 @@ function fallbackFlags() {
   } else {
     for (const lang of navigator.languages) {
       if (lang.indexOf("en") == 0) {
-        const commonwealth = navigator.languages.indexOf(lang)
-        if (commonwealth < us) {
+        const commonwealthIndex = navigator.languages.indexOf(lang)
+        const usIndex = navigator.languages.indexOf(us)
+        if (commonwealthIndex < usIndex) {
           Gui.flag["en"] = Flags["UK"]
           break
         }
@@ -205,7 +204,10 @@ function fallbackFlags() {
  * Do language fallback for anything reporting as `unknown` or _empty_ in an
  * info block
  */
-export function fallbackInfo(info, original) {
+export function fallbackInfo(
+  info: ResultPanda | ResultZoo,
+  original: NodePanda | NodeZoo
+) {
   const bundle = info
   const order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
@@ -309,7 +311,7 @@ function capitalize(input: string, mode: "first" | "all") {
 }
 
 /** Make a phrase out of parts, with commas and terminal _and_ */
-export function commaPhrase(pieces) {
+export function commaPhrase(pieces: string[]) {
   const p = document.createElement('p')
   for (let i = 0; i < pieces.length; i++) {
     const m = document.createTextNode(pieces[i])
@@ -334,7 +336,7 @@ export function commaPhrase(pieces) {
 }
 
 /** Same as above but for just raw text */
-export function commaPhraseBare(pieces) {
+export function commaPhraseBare(pieces: string[]) {
   let o = ""
   for (let i = 0; i < pieces.length; i++) {
     const m = pieces[i]
@@ -435,7 +437,8 @@ export function fallback_name(entity: NodePanda) {
  * try to support also searching for the katakana equivalent characters.
  */
 export function hiraganaToKatakana(input: string) {
-  const source_range = Defaults.ranges['ja'][1]   // Hiragana range regex
+  const japaneseCharacters = Defaults.ranges['ja'] as RegExp[]
+  const source_range = japaneseCharacters[1]   // Hiragana range regex
   const test = source_range.test(input)
   let output = ""
   if (test == false) {
@@ -459,7 +462,8 @@ export function hiraganaToKatakana(input: string) {
  * try to support also searching for the hiragana equivalent characters.
  */
 export function katakanaToHiragana(input: string) {
-  const source_range = Defaults.ranges['ja'][2]   // Katakana range regex
+  const japaneseCharacters = Defaults.ranges['ja'] as RegExp[]
+  const source_range = japaneseCharacters[2]   // Katakana range regex
   const test = source_range.test(input)
   let output = ""
   if (test == false) {
@@ -476,21 +480,6 @@ export function katakanaToHiragana(input: string) {
     }
     return output
   }
-}
-
-/**
- * Given a list of keys we're doing language translations for, add a set
- * for the current displayed language
- */
-function listDisplayKeys(entity, order, current_language) {
-  const entity_keys = listEntityKeys(entity, order)
-  const language_keys = entity_keys.map(function(key) {
-    const [_, primary] = key.split('.')
-    return current_language + "." + primary
-  })
-  // De-duplicate language keys
-  return entity_keys.concat(language_keys)
-    .filter((value, index, self) => self.indexOf(value) === index)
 }
 
 /**
@@ -518,20 +507,20 @@ function listEntityKeys(entity: Record<string, any>, order: Language[]) {
  * Only keep the keys in a panda or zoo object that are meaningfully
  * translatable to different languages
  */
-function saveEntityKeys(entity, order) {
+function saveEntityKeys(entity: Record<string, any>, order: Language[]) {
   return listEntityKeys(entity, order).reduce(function(obj, key) {
     // Only keep JSON values with those matching keys
     obj[key] = entity[key]
     return obj
-  }, {})
+  }, {} as Record<string, any>)
 }
 
 /**
  * Find the canonical tag given something being parsed as a tag, i.e. for
  * _climbing_, return _climb_.
  */
-export function tagPrimary(input) {
-  const lang_values = Defaults.languages.concat("emoji")
+export function tagPrimary(input: string) {
+  const lang_values: TagSetKey[] = [...Defaults.languages, "emoji"]
   for (const ctag in Tags) {
     for (const lang of lang_values) {
       if (Tags[ctag][lang].includes(input)) {
@@ -556,17 +545,18 @@ type LanguageTest = "English" | "Hiragana" | "Katakana" | "Latin"
  * or an "any" match.
  */
 export function testString(input: string, test: LanguageTest) {
+  const japaneseCharacters = Defaults.ranges['ja'] as RegExp[]
+  const latinCharacters = Defaults.ranges['en'] as RegExp[]
   if (test == "Hiragana") {
-    const range = Defaults.ranges['ja'][1]
+    const range = japaneseCharacters[1]
     return range.test(input)   // True if any characters match the hiragana range
   }
   if (test == "Katakana") {
-    const range = Defaults.ranges['ja'][2]
+    const range = japaneseCharacters[2]
     return range.test(input)   // True if any characters match the katakana range
   }
   if ((test == "Latin") || (test == "English")) {
-    const ranges = Defaults.ranges['en']
-    const latin = ranges.some((range) => range.test(input))
+    const latin = latinCharacters.some((range) => range.test(input))
     return latin   // True if any characters match the latin range
   }
   return false   // The test doesn't exist

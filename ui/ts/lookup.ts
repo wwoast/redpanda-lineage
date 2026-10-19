@@ -104,6 +104,7 @@ type Defaults = {
   languages: Language[],
   no_name: Record<Language, string>,
   photo: UnknownPhoto,
+  ranges: Partial<Record<Language, RegExp[]>>,
   relations: Record<string, Record<Language, string>>,
   species: Record<Language, string[]>,
   unknown: Record<Language, string>,
@@ -1373,10 +1374,7 @@ export const Gui = {
   }
 }
 
-type TagSetKey = "emoji" | keyof typeof SupportedLanguages
-type TagSet = Record<string, Record<TagSetKey, string[]>>
-
-// These are tags in some contexts, and keywords in others
+/** Polyglots are tags in some contexts, and keywords in others */
 export const Polyglots: TagSet = {
   "baby": {
     "emoji": [Emoji.baby],

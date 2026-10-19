@@ -492,7 +492,7 @@ declare global {
      * display language doesn't have information for this animal. The insertion
      * order into the set reflects the order of the `language.order` values
      */
-    "language.order": Set<Language>,
+    language_order: Set<Language>,
     /** Resolve the litter mates numeric string IDs to an `NodePanda` set */
     litter: Set<NodePanda>,
     /** Resolve the mother's numeric string ID to a full `NodePanda` */
@@ -560,7 +560,7 @@ declare global {
      * display language doesn't have information for this zoo. The insertion
      * order into the set reflects the order of the `language.order` values
      */
-    "language.order": Set<Language>,
+    language_order: Set<Language>,
     /** The city / state / province of this zoo, in the display language */
     location: string,
     /** URL representing this zoo in Google Maps */
@@ -655,6 +655,11 @@ declare global {
     type: "zoo",
     website: string | null
   }
+
+  /** Types for dealing with sets of tags */
+  type TagSetKey = "emoji" | keyof typeof SupportedLanguages
+  type TagSet = Record<string, Record<TagSetKey, string[]>>
+
 
   /**
    * A type for the outputted redpanda.json file, which is a superset of the

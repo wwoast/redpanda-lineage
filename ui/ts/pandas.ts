@@ -700,23 +700,24 @@ export function searchPandaMedia(query, only_media=false) {
  * Find instances of panda media photos for a list of animals. Only return
  * entities that contain all of the animals in the input list.
  */
-export function searchPandaMediaIntersect(id_list) {
+export function searchPandaMediaIntersect(id_list: string[]) {
   // Search for graph nodes that have "panda.tags" values
   // that match the ids of any animal in the original 
   // searchPanda list.
-  const nodes = G.v().filter(function(vertex) {
-    if (Object.keys(vertex).includes("panda.tags")) {
-      return arrayContentsEqual(id_list, vertex["panda.tags"])
-    }
-  }).run()
+  const nodes = G.v()
+    .filter((vertex: NodeMedia) => {
+      if (Object.keys(vertex).includes("panda.tags")) {
+        return arrayContentsEqual(id_list, vertex["panda.tags"])
+      }
+    }).run()
   return nodes
 }
 
 /** Find a panda's mother */
-export function searchPandaMom(idnum) {
-  const nodes = G.v(idnum).in("family").filter(function(vertex) {
-    return vertex.gender == "Female"
-  }).run()
+export function searchPandaMom(idnum: number) {
+  const nodes = G.v(idnum).in("family")
+    .filter((vertex: NodePanda) => vertex.gender == "Female")
+    .run()
   return nodes
 }
 
@@ -1628,7 +1629,7 @@ export function indeterminateSiblings(animal_id, sibling_id) {
 }
 
 /** Return the array of languages prioritized for the given entity */
-export function language_order(entity) {
+export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
   const ordering = entity["language.order"]
   if (ordering == undefined || ordering.length == 0) {
     return Fallback.order
