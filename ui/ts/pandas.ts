@@ -764,8 +764,13 @@ function searchPandaPhotoTagsIntersect(node, tags) {
  * Given a panda, search for photos tagged with any of a list of tags. May
  * return photo info only, or the entire animal.
  * TODO: usable for zoo entities too, fix
+ * TODO: output types
  */
-function searchPandaPhotoTagsUnion(node, tags, mode) {
+function searchPandaPhotoTagsUnion(
+  node: NodePanda | NodeZoo,
+  tags: string[],
+  mode: "animal" | "singleton"
+) {
   const output = []
   if (tags.length == 0)
     return output
@@ -800,53 +805,54 @@ function searchPandaPhotoTagsUnion(node, tags, mode) {
 }
 
 /** Find all pandas at a given zoo. Zoo IDs are negative numbers */
-export function searchPandaZoo(idnum) {
-  const nodes = G.v(idnum).in("zoo").run()
+export function searchPandaZoo(idnum: number) {
+  const nodes = G.v(idnum).in("zoo").run() as NodePanda[]
   return nodes
 }
 
 /** Find all pandas at a given zoo that are alive, and arrived recently */
-export function searchPandaZooArrived(idnum, months=6) {
+export function searchPandaZooArrived(idnum: number, months=6) {
   const compare_id = idnum * -1
-  let nodes = G.v(idnum).in("zoo").filter(function(vertex) {
-    return vertex.death == undefined   // Gotta be alive
-  }).filter(function(vertex) {
+  let nodes = G.v(idnum).in("zoo")
+    // Gotta be alive
+    .filter((vertex: NodePanda) => vertex.death == undefined)
     // If their arrival date was within six months, keep in the list
-    let last_location = null
-    for (const location of vertex.locations) {
-      if (location._id != compare_id) {
+    .filter((vertex: NodePanda) => {
+      let last_location: string | null = null
+      for (const location of vertex.locations) {
+        if (location._id != compare_id.toString()) {
+          last_location = location._id
+          continue   // Ignore location values not at this zoo
+        }
+        // Compare all zoo node dates with current time.
+        const current_time = new Date().getTime()
+        const move_time = new Date(location.date).getTime()
+        const ms_per_month = 1000 * 60 * 60 * 24 * 31
+        const ms_in_period = months * ms_per_month
+        if (ms_in_period == 0) {
+          // Get all arrived if months == 0
+          vertex["sort_time"] = move_time
+          // Info about why this animal appeared in results
+          vertex["search_context"] = {
+            "query": "arrived",
+            "from": parseInt(last_location) * -1,
+            "move_date": location.date
+          }
+          return vertex
+        }
+        if (current_time - move_time < ms_in_period) {
+          vertex["sort_time"] = move_time
+          // Info about why this animal appeared in results
+          vertex["search_context"] = {
+            "query": "arrived",
+            "from": parseInt(last_location) * -1,
+            "move_date": location.date
+          }
+          return vertex   // Less than N months?
+        }
         last_location = location._id
-        continue   // Ignore location values not at this zoo
       }
-      // Compare all zoo node dates with current time.
-      const current_time = new Date().getTime()
-      const move_time = new Date(location.date).getTime()
-      const ms_per_month = 1000 * 60 * 60 * 24 * 31
-      const ms_in_period = months * ms_per_month
-      if (ms_in_period == 0) {
-        // Get all arrived if months == 0
-        vertex["sort_time"] = move_time
-        // Info about why this animal appeared in results
-        vertex["search_context"] = {
-          "query": "arrived",
-          "from": parseInt(last_location) * -1,
-          "move_date": location.date
-        }
-        return vertex
-      }
-      if (current_time - move_time < ms_in_period) {
-        vertex["sort_time"] = move_time
-        // Info about why this animal appeared in results
-        vertex["search_context"] = {
-          "query": "arrived",
-          "from": parseInt(last_location) * -1,
-          "move_date": location.date
-        }
-        return vertex   // Less than N months?
-      }
-      last_location = location._id
-    }
-  }).run()
+    }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
   // TODO: iterating backwards on location fields would fix
   // if there was a quick back-and-forth travel

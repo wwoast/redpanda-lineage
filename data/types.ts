@@ -24,7 +24,7 @@ declare global {
     zh
   }
 
-  export type Language = keyof typeof SupportedLanguages
+  type Language = keyof typeof SupportedLanguages
 
   /** Gender values in the underlying `[panda]` `.ini` text files */
   type Gender = "f" | "m" | "unknown" | "Female" | "Male"
@@ -99,6 +99,9 @@ declare global {
    */
   type PhotoOrientation = "landscape" | "portrait" | "square"
 
+  /** Locations are identified by a Zoo numeric ID or Wild string ID, or `unknown` */
+  type LocationId = number | string
+
   /**
    * The `location.\d+` fields in `pandas/<country>/<zoo>/<id_name.txt>` files.
    * These are notated as comma-separated pairs with a numeric string zoo ID,
@@ -106,8 +109,8 @@ declare global {
    * this information is a "best guess".
    */
   type PandaLocation = {
-    /** The numeric string zoo ID the `PandaLocation` arrival date refers to */
-    _id: string,
+    /** The numeric zoo ID the `PandaLocation` arrival date refers to */
+    _id: LocationId,
     /** 
      * The arrival date for a panda at a particular zoo. For zoos, this is a
      * exact YYYY/MM/DD date, or sometimes, a best guess to the 1st of the month.
@@ -216,8 +219,8 @@ declare global {
     _id: number,
     /** YYYY/MM/DD birthday string */
     birthday: string,
-    /** Birthplace is the numeric string ID for where the animal was born */
-    birthplace?: string,
+    /** Numeric or string ID for where the animal was born, or `unknown` */
+    birthplace?: LocationId,
     /** Numeric string ids for any children of this animal */
     children: string[],
     /**
@@ -278,8 +281,8 @@ declare global {
      * location either with a single `wild` property or a single `zoo` property.
      */
     wild?: string
-    /** The zoo identifier (a numeric string ID) the animal currently lives at */
-    zoo?: string
+    /** The zoo numeric ID where the animal currently lives */
+    zoo?: number
   }
 
   /**

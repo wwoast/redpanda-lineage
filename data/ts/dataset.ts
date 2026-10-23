@@ -351,7 +351,7 @@ export class Dataset {
    * Unknown birthplaces (-1) are omitted from this check.
    */
   assertYoungPandaLocation = (vertex: NodePanda) => {
-    if (!vertex.locations && vertex.birthplace != "unknown")
+    if (!vertex.locations && vertex.birthplace != "unknown" && vertex.zoo)
       if (vertex.birthplace != vertex.zoo)
         throw new Error(
           `[build] ERR: ${vertex.path}: for new pandas, birthplace and zoo must match`)
@@ -495,16 +495,17 @@ export class Dataset {
   edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
       // Wild locations are string IDs
-      if (vertex.birthplace.indexOf("wild") == 0) {
+      if ((typeof vertex.birthplace == "string") && 
+          (vertex.birthplace.indexOf("wild") == 0)) {
         this.graph.addEdge({
           "_in": vertex.birthplace,
           "_label": "birthplace",
           "_out": vertex._id
         })
       // Zoo IDs are cast to negative numbers when added to the graph
-      } else {
+      } else if (typeof vertex.birthplace == "number") {
         this.graph.addEdge({
-          "_in": parseInt(vertex.birthplace) * -1,
+          "_in": vertex.birthplace * -1,
           "_label": "birthplace",
           "_out": vertex._id
         })
@@ -515,7 +516,7 @@ export class Dataset {
     // Zoo IDs are cast to negative numbers when added to the graph
     if (vertex.zoo) {
       this.graph.addEdge({
-        "_in": parseInt(vertex.zoo) * -1,
+        "_in": vertex.zoo * -1,
         "_label": "zoo",
         "_out": vertex._id
       })
@@ -968,7 +969,7 @@ export class Dataset {
         if (vertex.wild && vertex.wild != "unknown" && location._id != vertex.wild)
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
-        if (vertex.zoo && vertex.zoo != "unknown" && location._id != vertex.zoo) {
+        if (vertex.zoo && location._id != vertex.zoo) {
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
         }
@@ -1156,8 +1157,8 @@ export class Dataset {
         case "birthplace":
           if (typeof edge._in._id === "string" && edge._in._id.includes("wild"))
             working.birthplace = edge._in._id
-          else
-            working.birthplace = parseInt(edge._in._id) * -1
+          else if (typeof edge._in._id === "number")
+            working.birthplace = edge._in._id * -1
           break
         case "family":
           if (edge.probability)
@@ -1169,7 +1170,8 @@ export class Dataset {
           working.litter.push(edge._in._id)
           break
         case "zoo":
-          working.zoo = parseInt(edge._in._id) * -1
+          if (typeof edge._in._id === "number")
+            working.zoo = edge._in._id * -1
           break
         default:
           console.log(`[dataset] unknown edge type: ${edge._label}`)
@@ -1204,8 +1206,8 @@ export class Dataset {
   /** TODO: stricter typing on entity, oldnames in PandaNode */
   renderZooObject = (entity: Vertex) => {
     const working = structuredClone(entity)
-    if (entity.type == "zoo")
-      working._id = parseInt(working._id) * -1
+    if ((typeof working._id === "number") && (entity.type == "zoo"))
+      working._id = working._id * -1
     if ("address" in working) {
       Object.keys(working.address).map(language =>
         working[`${language}.address`] = working.address[language])
