@@ -99,9 +99,6 @@ declare global {
    */
   type PhotoOrientation = "landscape" | "portrait" | "square"
 
-  /** Locations are identified by a Zoo numeric ID or Wild string ID, or `unknown` */
-  type LocationId = number | string
-
   /**
    * The `location.\d+` fields in `pandas/<country>/<zoo>/<id_name.txt>` files.
    * These are notated as comma-separated pairs with a numeric string zoo ID,
@@ -109,8 +106,8 @@ declare global {
    * this information is a "best guess".
    */
   type PandaLocation = {
-    /** The numeric zoo ID the `PandaLocation` arrival date refers to */
-    _id: LocationId,
+    /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
+    _id: number | string,
     /** 
      * The arrival date for a panda at a particular zoo. For zoos, this is a
      * exact YYYY/MM/DD date, or sometimes, a best guess to the 1st of the month.
@@ -219,8 +216,8 @@ declare global {
     _id: number,
     /** YYYY/MM/DD birthday string */
     birthday: string,
-    /** Numeric or string ID for where the animal was born, or `unknown` */
-    birthplace?: LocationId,
+    /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
+    birthplace?: number | string,
     /** Numeric string ids for any children of this animal */
     children: string[],
     /**
@@ -300,7 +297,7 @@ declare global {
    * form intended for merging into an existing media, panda, or zoo node.
    */
   interface NodePhoto extends Vertex {
-    /** Fixed identifier for either a media, a panda, or a zoo node */
+    /** Fixed identifier for either a media, panda, wild, or zoo node */
     _id: number | string,
     /** Optional Instagram locator this photo represents */
     _ig_locator?: string,
