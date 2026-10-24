@@ -465,7 +465,7 @@ export function familyProfilePhoto(
   // Photo container
   const clickable_photo = document.createElement('a')
   clickable_photo.target = "_blank"
-  if (chosen_photo.url != Defaults.photo.url)   // No link if no photo defined
+  if (chosen_photo && chosen_photo.url != Defaults.photo.url)
     clickable_photo.href = url.href(chosen_photo.url)
   const image = document.createElement('img')
   image.setAttribute("loading", "lazy")

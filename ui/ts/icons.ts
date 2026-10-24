@@ -249,10 +249,10 @@ const regex = new RegExp(keys.map(function(k) {
 
 /* Emoji that should stay as native color emoji. The wrapper span exists
    only to escape the monochrome "Noto Emoji" font stack via CSS. */
-const emoji = {};
+const emoji: Record<string, number> = {}
 
-function iconLangSpan(context) {
-  var span = document.createElement("span")
+function iconLangSpan(context: Language | "button") {
+  const span = document.createElement("span")
   if (context == "button") {
     span.className = "lx lx-languages"
     span.setAttribute("aria-hidden", "true")
@@ -264,8 +264,8 @@ function iconLangSpan(context) {
   return span;
 }
 
-function iconSpan(key) {
-  var span = document.createElement("span");
+function iconSpan(key: string) {
+  const span = document.createElement("span");
   if (emoji[key] == 1) {
     span.className = "lx lxe"
     span.textContent = key
@@ -285,14 +285,14 @@ function iconSpan(key) {
  */
 const flagRegex = /(?:\uD83C[\uDDE6-\uDDFF]){2}/g;   /* regional-indicator pair */
 
-/** TODO ES6: load from language.ts */
+/** TODO ES6: load from lookup.ts */
 const langNames = {
   "en": "English", "ja": "日本語", "zh": "中文", "ko": "한국어",
   "ne": "नेपाली", "pt": "Português", "es": "Español"
 }
 
 /** TODO-UI: correctly discriminate node types */
-function langContext(node: Node) {
+function langContext(node: Node): Language | "button" | null {
   // "button" when inside the top-menu #languageButton or an element
   // opted-in via class="langKey" (e.g. the About-page usage guide),
   // a language code when inside a picker entry (e.g. enLanguageFlag),
@@ -302,7 +302,7 @@ function langContext(node: Node) {
     if (p.id == "languageButton") { return "button" }
     if (p.classList != null && p.classList.contains("langKey")) { return "button" }
     if (p.tagName == "BUTTON" && /LanguageFlag$/.test(p.id)) {
-      return p.id.replace("LanguageFlag", "")
+      return p.id.replace("LanguageFlag", "") as Language
     }
     p = p.parentNode
   }
@@ -310,14 +310,14 @@ function langContext(node: Node) {
 }
 
 /** TODO-UI: correctly discriminate node types */
-function processLangText(node, context) {
-  var text = node.nodeValue
+function processLangText(node: Node, context: Language | "button") {
+  const text = node.nodeValue
   if (text == null || text.length == 0) { return false }
   flagRegex.lastIndex = 0
   if (!flagRegex.test(text)) { return false }
-  var frag = document.createDocumentFragment()
-  var last = 0
-  var match = null
+  const frag = document.createDocumentFragment()
+  let last = 0
+  let match = null
   flagRegex.lastIndex = 0
   while ((match = flagRegex.exec(text)) !== null) {
     if (match.index > last) {
@@ -336,15 +336,15 @@ function processLangText(node, context) {
 }
 
 function processText(node: Node) {
-  var text = node.nodeValue;
+  const text = node.nodeValue;
   if (text == null || text.length == 0) { return }
-  var lang_context = langContext(node)
+  const lang_context = langContext(node)
   if (lang_context != null && processLangText(node, lang_context)) { return }
   regex.lastIndex = 0
   if (!regex.test(text)) { return }
-  var frag = document.createDocumentFragment()
-  var last = 0
-  var match = null
+  const frag = document.createDocumentFragment()
+  let last = 0
+  let match = null
   regex.lastIndex = 0
   while ((match = regex.exec(text)) !== null) {
     if (match.index > last) {
@@ -362,7 +362,7 @@ function processText(node: Node) {
 }
 
 const skip: Record<string, number> =
-  { "SCRIPT": 1, "STYLE": 1, "TEXTAREA": 1, "INPUT": 1, "svg": 1, "SVG": 1 };
+  { "SCRIPT": 1, "STYLE": 1, "TEXTAREA": 1, "INPUT": 1, "svg": 1, "SVG": 1 }
 
 /**
  * Containers whose text keeps its native emoji (entity/zoo/profile
