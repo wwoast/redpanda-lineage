@@ -13,6 +13,8 @@ ja.nicknames: none
 ja.othernames: キキ, チィチィ
 language.order: zh, en, ja
 litter: 1354
+location.1: 55, 2015/6/22
+location.2: 205, 2026/6/11
 photo.1: cwdc://WzC8goPADQA.jpg
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2022/4/18
@@ -113,4 +115,4 @@ uncertainty: birthday (may have been 23rd)
 zh.name: 奇奇
 zh.nicknames: none
 zh.othernames: 哥哥
-zoo: 55
+zoo: 205
