@@ -470,7 +470,8 @@ export function familyProfilePhoto(
   const image = document.createElement('img')
   image.setAttribute("loading", "lazy")
   // Set the photo, even if it takes an extra XHR
-  url.process(image, chosen_photo.url)
+  if (chosen_photo)
+    url.process(image, chosen_photo.url)
   clickable_photo.appendChild(image)
   container.appendChild(clickable_photo)
   // Family name caption
