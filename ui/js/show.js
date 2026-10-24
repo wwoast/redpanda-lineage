@@ -1877,7 +1877,7 @@ export const profilePage = {
       animal, me_photo, Gui.me[Env.language], "immediateFamily")
     photo_divs.push(me)
     const other_family_ids =
-      mom_photos.concat(dad_photos).concat(me_photo).map(x => x._id)
+      mom_photos.concat(dad_photos).concat(me_photo).filter(x => x).map(x => x._id)
     const litter_photos =
       photos.filter(photo => !other_family_ids.includes(photo._id))
     for (const litter_photo of litter_photos) {
