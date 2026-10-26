@@ -334,6 +334,8 @@ export class Dataset {
 
   assertNoDuplicateStudbookIds = (vertices: NodePanda[]) => {
     const duplicateIds = vertices
+      .filter(v => v["studbook.id"] != undefined)
+      .filter(v => v["studbook.id"] != "unknown")
       .map(v => v["studbook.id"])
       .filter((id, _, list) => list.indexOf(id) != list.lastIndexOf(id))
     if (duplicateIds.length > 0) {
