@@ -332,6 +332,20 @@ export class Dataset {
     }
   }
 
+  assertNoDuplicateStudbookIds = (vertices: NodePanda[]) => {
+    const duplicateIds = vertices
+      .map(v => v["studbook.id"])
+      .filter((id, _, list) => list.indexOf(id) != list.lastIndexOf(id))
+    if (duplicateIds.length > 0) {
+      const duplicateStudbookPandas = vertices
+        .filter(v => duplicateIds.includes(v["studbook.id"]))
+      const diagnosticStrings = duplicateStudbookPandas
+        .map(v => v.name["en"])
+      throw new Error(
+        `[build] ERR: duplicate studbook ids: ${diagnosticStrings.join(", ")}`)
+    }
+  }
+
   /** 
    * Checks the id value of a `location.X` field. Must be a positive integer
    * for a panda, negative integer for a zoo, `wild.X` for a wild location, or
@@ -1266,6 +1280,7 @@ export class Dataset {
   verifyPanda = () => {
     const pandaNodes = this.graph.vertices.reduce(toPandas, [])
     this.assertNoDuplicateDatasetIds(pandaNodes)
+    this.assertNoDuplicateStudbookIds(pandaNodes)
     // No more nodes left to process, so the edges will have real pointers
     pandaNodes.map(vertex => {
       this.edgesForPandaFamilies(vertex)
