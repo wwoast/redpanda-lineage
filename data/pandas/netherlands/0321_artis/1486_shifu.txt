@@ -1,0 +1,15 @@
+[panda]
+_id: 1486
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2026/10/30
+en.name: Shifu
+gender: m
+language.order: en
+litter: unknown
+location.1: unknown, unknown
+location.2: 321, unknown
+species: unknown
+uncertainty: location.2 exact date
+zoo: 321

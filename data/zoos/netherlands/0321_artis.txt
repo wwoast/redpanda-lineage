@@ -1,0 +1,12 @@
+[zoo]
+_id: 321
+commitdate: 2026/10/30
+en.address: Plantage Kerklaan 38-40, 1018 CZ Amsterdam, The Netherlands
+en.location: Amsterdam, Netherlands
+en.name: Artis
+flag: Netherlands
+language.order: en
+latitude: 52.366969
+longitude: 4.914000
+map: https://maps.app.goo.gl/VgX6axQHo4DMbXB66
+website: https://www.artis.nl/
