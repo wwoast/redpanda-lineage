@@ -1,6 +1,6 @@
-import { git } from "@roka/git";
+import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
-import { IniMap } from "@std/ini/ini-map"
+import { IniMap } from '@std/ini/ini-map'
 import { basename, dirname, join, parse } from '@std/path'
 import sharp from 'sharp'
 import { buildDataset, getDataset } from './build.ts'
@@ -302,6 +302,7 @@ function displayImages(photoPaths: string[]) {
 function findInstagramLocator(dataset: Dataset, id: number | string, locator?: string) {
   if (!locator)
     return
+  const searchId = (typeof id === "string")
   const datasetEntity = dataset.graph.vertices
     .filter(vertex => vertex._id == id)
     .shift()
@@ -328,7 +329,7 @@ function getImageLocators(
 /** For new pandas added to _redpanda-lineage_, write to this file path */
 function getLocationPathForNewPanda(dataset: Dataset, panda: NodePanda) {
   const locationLookupId = (panda.zoo)
-    ? parseInt(panda.zoo) * -1
+    ? panda.zoo * -1
     : panda.wild
   const locationEntity = dataset.graph.vertices
     .filter(vertex => vertex._id == locationLookupId)
