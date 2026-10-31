@@ -302,14 +302,14 @@ function displayImages(photoPaths: string[]) {
 function findInstagramLocator(dataset: Dataset, id: number | string, locator?: string) {
   if (!locator)
     return
-  const searchId = (typeof id === "string")
+  // Coerce strings to numbers for now if needed
   const datasetEntity = dataset.graph.vertices
     .filter(vertex => vertex._id == id)
     .shift()
   if (!datasetEntity || (!("photos" in datasetEntity)))
     return
   const originalPhoto = (datasetEntity.photos as Photo[])
-    .filter(photo => photo.url.endsWith(locator as string))
+    .filter(photo => photo.url.includes(locator))
     .shift()
   return originalPhoto
 }
