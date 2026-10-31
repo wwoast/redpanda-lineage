@@ -10,6 +10,7 @@ import { byFieldName,
          existsDirSync,
          existsFileSync,
          readConfigForExternalSystems,
+         safeDirname,
          safeFilename,
          standardDate } from './shared.ts'
 
@@ -196,7 +197,8 @@ function copyImagesToServer(config: ExternalConfig, results: ProcessedEntity[]) 
   // Quietly ignore degenerate photo filenames
   const photoPaths = results
     .flatMap(result => result.photos)
-    .filter(file => safeFilename(file))
+    .filter(filePath =>
+      safeDirname(dirname(filePath)) && safeFilename(basename(filePath)))
   if (photoPaths.length == 0) return
   const server = config.submissions.image_hosting_server
   const destinationFolder = config.submissions.image_hosting_server_folder

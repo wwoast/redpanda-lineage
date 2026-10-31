@@ -315,7 +315,15 @@ export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
 /** Filter functions */
 
 /** 
- * For scp / ssh / rsync pipelines, sanity-check that filenames don't try
+ * For scp / ssh / rsync pipelines, sanity-check that directory paths don't try
+ * funny characters or directory traversals
+ */
+export function safeDirname(dir: string) {
+  return dir.match(/^[\/A-Za-z0-9_.-]+$/) && !dir.includes("..")
+}
+
+/** 
+ * For scp / ssh / rsync pipelines, sanity-check that file paths don't try
  * funny characters or directory traversals
  */
 export function safeFilename(file: string) {
