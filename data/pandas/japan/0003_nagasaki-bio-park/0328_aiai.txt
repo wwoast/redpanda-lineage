@@ -16,31 +16,41 @@ language.order: ja, en
 litter: 76
 location.1: 6, 2002/7/17
 location.2: 3, 2007/1/31
-photo.1: ig://BT6Yj2fFSqn/m
+photo.1: cwdc://VvyYoxeADQA.jpg
 photo.1.author: sbskyy
 photo.1.commitdate: 2018/12/26
-photo.1.link: https://www.instagram.com/sbskyy/
-photo.1.tags: laying down
-photo.2: ig://Bj53fZvAxyM/m
+photo.1.link: ig://BT6Yj2fFSqn
+photo.1.tags: laying down, sample
+photo.2: cwdc://WPxWf3-ADQA.jpg
 photo.2.author: ngsbiopark
 photo.2.commitdate: 2018/12/26
-photo.2.link: https://www.instagram.com/ngsbiopark/
-photo.2.tags: portrait, smile
+photo.2.link: ig://Bj53fZvAxyM
+photo.2.tags: mofumofu, portrait, sample, smile, tongue, whiskers
 photo.3: cwdc://Wqw9KXIADQA.jpg
 photo.3.author: daniele.tokyo
 photo.3.commitdate: 2019/5/16
 photo.3.link: ig://BxZq0pUFfGS
 photo.3.tags: dish, lips, lunch time, portrait, profile, sample, tongue, white face
-photo.4: ig://CYgAW4wvDz5/m
+photo.4: cwdc://X49oO2BADQA.jpg
 photo.4.author: grskus_tk
 photo.4.commitdate: 2022/2/23
-photo.4.link: https://www.instagram.com/grskus_tk/
-photo.4.tags: laying down, paws
-photo.5: ig://CYgSp_jvK8H/m
+photo.4.link: ig://CYgAW4wvDz5
+photo.4.tags: laying down, paws, sample
+photo.5: cwdc://X4-M1DnADQB.jpg
 photo.5.author: grskus_tk
 photo.5.commitdate: 2022/2/5
-photo.5.link: https://www.instagram.com/grskus_tk/
+photo.5.link: ig://CYgSp_jvK8H
 photo.5.tags: close-up, mofumofu, smile, whiskers
+photo.6: cwdc://X4-M1DnADQC.jpg
+photo.6.author: grskus_tk
+photo.6.commitdate: 2026/10/31
+photo.6.link: ig://CYgSp_jvK8I
+photo.6.tags: bamboo, bite, paws, videolink
+photo.7: cwdc://X4-M1DnADQD.jpg
+photo.7.author: grskus_tk
+photo.7.commitdate: 2026/10/31
+photo.7.link: ig://CYgSp_jvK8J
+photo.7.tags: mofumofu, paws, videolink
 species: 2
 studbook.id: 0294
 zoo: 3
