@@ -511,15 +511,21 @@ export class Dataset {
   edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
       // Wild locations are string IDs
-      if ((typeof vertex.birthplace == "string") && 
+      if ((typeof vertex.birthplace === "string") && 
           (vertex.birthplace.indexOf("wild") == 0)) {
         this.graph.addEdge({
           "_in": vertex.birthplace,
           "_label": "birthplace",
           "_out": vertex._id
         })
+      } else if (typeof vertex.birthplace === "string") {
+        this.graph.addEdge({
+          "_in": parseInt(vertex.birthplace) * -1,
+          "_label": "birthplace",
+          "_out": vertex._id
+        })         
       // Zoo IDs are cast to negative numbers when added to the graph
-      } else if (typeof vertex.birthplace == "number") {
+      } else if (typeof vertex.birthplace === "number") {
         this.graph.addEdge({
           "_in": vertex.birthplace * -1,
           "_label": "birthplace",
@@ -1190,8 +1196,6 @@ export class Dataset {
           working.litter.push(edge._in._id)
           break
         case "zoo":
-          console.log("zoo: " + edge._in._id)
-          console.log(typeof edge._in._id)
           if (typeof edge._in._id === "string")
             working.zoo = parseInt(edge._in._id) * -1
           if (typeof edge._in._id === "number")
