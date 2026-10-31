@@ -1,7 +1,7 @@
 [panda]
 _id: 154
 birthday: 2011/7/4
-birthplace: 20
+birthplace: unknown
 children: none
 commitdate: 2018/6/29
 death: 2016/10/12
@@ -16,31 +16,30 @@ language.order: ja, en
 litter: none
 location.1: 20, 2011/7/4
 location.2: 23, 2015/11/26
-photo.1: ig://qOs1NxrpLW/m
+photo.1: cwdc://UcbBLgDADQA.jpg
 photo.1.author: honeyandyogurt
 photo.1.commitdate: 2018/12/30
-photo.1.link: https://www.instagram.com/honeyandyogurt/
-photo.1.tags: portrait
+photo.1.link: ig://qOs1NxrpLW
+photo.1.tags: portrait, sample
 photo.2: cwdc://VXTN1lyADQA.jpg
 photo.2.author: fuji_safari
 photo.2.commitdate: 2020/1/18
 photo.2.link: ig://BHqzKQpA9KN
 photo.2.tags: laying down, portrait, profile, sample, whiskers
-photo.3: ig://BUMyy-0Bt7A/m
+photo.3: cwdc://VwXNHCIADQC.jpg
 photo.3.author: miis_98
 photo.3.commitdate: 2020/4/1
-photo.3.link: https://www.instagram.com/miis_98/
-photo.3.tags: portrait, smile
-photo.4: ig://BUl2NSnhWWV/m
+photo.3.link: ig://BUMyy-0Bt7A
+photo.3.tags: portrait, sample, smile, whiskers
+photo.4: cwdc://VxJT7pvADQB.jpg
 photo.4.author: miis_98
 photo.4.commitdate: 2020/4/1
-photo.4.link: https://www.instagram.com/miis_98/
-photo.4.tags: nose, portrait, tail
-photo.5: ig://BaIESUKhcAj/m
+photo.4.link: ig://BUl2NSnhWWV
+photo.4.tags: nose, peek, portrait, sample, tail
+photo.5: cwdc://V8NwFs1ADQA.jpg
 photo.5.author: miis_98
 photo.5.commitdate: 2020/4/1
-photo.5.link: https://www.instagram.com/miis_98/
-photo.5.tags: portrait, smile, wihskers
+photo.5.link: ig://BaIESUKhcAj
+photo.5.tags: portrait, sample, smile, wihskers
 species: 2
 studbook.id: 11103
-zoo: 23
