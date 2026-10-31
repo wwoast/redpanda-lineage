@@ -1,7 +1,7 @@
 [panda]
 _id: 327
 birthday: 2000/7/13
-birthplace: 40
+birthplace: unknown
 children: 3
 commitdate: 2018/9/8
 death: 2020/1/19
@@ -16,31 +16,31 @@ language.order: ja, en
 litter: 585
 location.1: 40, 2000/7/13
 location.2: 3, 2004/1/7
-photo.1: ig://BQ3A0gajOtF/m
+photo.1: cwdc://VprpKFVADQA.jpg
 photo.1.author: gogomakoto
 photo.1.commitdate: 2018/12/26
-photo.1.link: https://www.instagram.com/gogomakoto/
-photo.1.tags: portrait
-photo.2: ig://BRBRknRji69/m
+photo.1.link: ig://BQ3A0gajOtF
+photo.1.tags: paws, portrait, whiskers
+photo.2: cwdc://VqAKqTDADQA.jpg
 photo.2.author: zednotzee
 photo.2.commitdate: 2018/12/26
-photo.2.link: https://www.instagram.com/zednotzee/
-photo.2.tags: portrait, smile
-photo.3: ig://BUmHK-JF0Oy/m
+photo.2.link: ig://BRBRknRji69
+photo.2.tags: bridge, portrait, smile
+photo.3: cwdc://VxJ13AyADQA.jpg
 photo.3.author: sbskyy
 photo.3.commitdate: 2018/12/26
-photo.3.link: https://www.instagram.com/sbskyy/
+photo.3.link: ig://BUmHK-JF0Oy
 photo.3.tags: laying down, tail
-photo.4: ig://BvZKUXOly1c/m
+photo.4: cwdc://Wmv8Jy9ADQA.jpg
 photo.4.author: craig_craig_craig
 photo.4.commitdate: 2019/4/5
-photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.4.tags: laying down, portrait
-photo.5: ig://BxesN0CgBKl/m
+photo.4.link: ig://BvZKUXOly1c
+photo.4.tags: laying down, portrait, tail
+photo.5: cwdc://Wq6_8slADQB.jpg
 photo.5.author: sbskyy
 photo.5.commitdate: 2019/5/20
-photo.5.link: https://www.instagram.com/sbskyy/
-photo.5.tags: laying down, old
+photo.5.link: ig://BxesN0CgBKl
+photo.5.tags: ear, laying down, old
 photo.6: cwdc://XHN5JOQADQA.jpg
 photo.6.author: ngsbiopark
 photo.6.commitdate: 2020/11/1
