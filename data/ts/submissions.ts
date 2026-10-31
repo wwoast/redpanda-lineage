@@ -459,7 +459,6 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
       } else {
         fragment.photos.forEach(photo => matchingVertex.photos.push(photo))
       }
-      console.log(matchingPhoto)
       // Render the modified entity back to disk
       dataset.writeEntityToDisk(matchingVertex)
       const newPhoto = fragment.photos.shift() as Photo
