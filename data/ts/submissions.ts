@@ -701,7 +701,7 @@ if (import.meta.main) {
         console.log("[submissions] No config fragments submitted to process.")
         Deno.exit(-1)
       }
-      // copyImagesToServer(config, results)
+      copyImagesToServer(config, results)
       // Create a new branch and commit the changes for added content
       await createSubmissionsBranch(dataset, results)
       // Make sure all added content has been correctly sorted
