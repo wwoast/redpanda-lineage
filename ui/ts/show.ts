@@ -1995,7 +1995,7 @@ export const profilePage = {
    * Show the locations this panda has been at. Return an array of HTMLElements
    * to insert into the page
    */
-  where: function(animal) {
+  where: function(animal: NodePanda) {
     const elements = []
     const info = acquirePandaInfo(animal)
     const history = acquireLocationList(animal)
@@ -2110,7 +2110,7 @@ export const mediaMenus = profileMenus
  * Has to be defined after the profiles page since it refers to that logic
  */
 export const mediaPage = {
-  gallery: function(animal) {
+  gallery: function(animal: NodePanda) {
     const gallery = Gallery.groupPhotosPage(0, [animal._id], 10)["output"]
     const info = acquirePandaInfo(animal)
     this.nameBar(info)
