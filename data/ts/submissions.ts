@@ -622,7 +622,7 @@ async function resizeAndRotateImage(
   // Aspect ratio policy for resizing the largest dimension of a photo
   const resizeGroup = 800
   const resizePhoto = 400
-  const aspect = (entityJson._id.startsWith("media."))
+  const aspect = (typeof entityJson._id === "string")   // media.X
     ? resizeGroup
     : resizePhoto
   // Sharp pipelines cannot read and write to the same file in one pipeline
