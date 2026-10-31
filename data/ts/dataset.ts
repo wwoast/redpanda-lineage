@@ -1171,8 +1171,12 @@ export class Dataset {
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
+          console.log("birthplace: " + edge._in._id)
+          console.log(typeof edge._in._id)
           if (typeof edge._in._id === "string" && edge._in._id.includes("wild"))
             working.birthplace = edge._in._id
+          else if (typeof edge._in._id === "string")
+            working.birthplace = parseInt(edge._in._id) * -1
           else if (typeof edge._in._id === "number")
             working.birthplace = edge._in._id * -1
           break
@@ -1186,6 +1190,10 @@ export class Dataset {
           working.litter.push(edge._in._id)
           break
         case "zoo":
+          console.log("zoo: " + edge._in._id)
+          console.log(typeof edge._in._id)
+          if (typeof edge._in._id === "string")
+            working.zoo = parseInt(edge._in._id) * -1
           if (typeof edge._in._id === "number")
             working.zoo = edge._in._id * -1
           break
