@@ -448,7 +448,6 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
         return
       const matchingPhoto =
         findInstagramLocator(dataset, fragment._id, fragment._ig_locator)
-      console.log(matchingPhoto)
       if (matchingPhoto) {
         // Union-set the tags and clobber most photo properties, but keep commitdate
         matchingPhoto.author = fragment.photos[0].author

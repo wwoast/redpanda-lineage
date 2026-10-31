@@ -1177,8 +1177,6 @@ export class Dataset {
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
-          console.log("birthplace: " + edge._in._id)
-          console.log(typeof edge._in._id)
           if (typeof edge._in._id === "string" && edge._in._id.includes("wild"))
             working.birthplace = edge._in._id
           else if (typeof edge._in._id === "string")
