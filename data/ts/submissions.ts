@@ -448,16 +448,18 @@ function mergeConfiguration(dataset: Dataset, result: ProcessedEntity) {
         return
       const matchingPhoto =
         findInstagramLocator(dataset, fragment._id, fragment._ig_locator)
+      console.log(matchingPhoto)
       if (matchingPhoto) {
         // Union-set the tags and clobber most photo properties, but keep commitdate
-        matchingPhoto.author = fragment.photo.author
-        matchingPhoto.source = fragment.photo.source
+        matchingPhoto.author = fragment.photos[0].author
+        matchingPhoto.source = fragment.photos[0].source
         matchingPhoto.tags =
-          Array.from(new Set([...fragment.photo.tags, ...matchingPhoto.tags])).sort()
-        matchingPhoto.url = fragment.photo.url
+          Array.from(new Set([...fragment.photos[0].tags, ...matchingPhoto.tags])).sort()
+        matchingPhoto.url = fragment.photos[0].url
       } else {
         fragment.photos.forEach(photo => matchingVertex.photos.push(photo))
       }
+      console.log(matchingPhoto)
       // Render the modified entity back to disk
       dataset.writeEntityToDisk(matchingVertex)
       const newPhoto = fragment.photos.shift() as Photo
@@ -700,7 +702,7 @@ if (import.meta.main) {
         console.log("[submissions] No config fragments submitted to process.")
         Deno.exit(-1)
       }
-      copyImagesToServer(config, results)
+      // copyImagesToServer(config, results)
       // Create a new branch and commit the changes for added content
       await createSubmissionsBranch(dataset, results)
       // Make sure all added content has been correctly sorted
