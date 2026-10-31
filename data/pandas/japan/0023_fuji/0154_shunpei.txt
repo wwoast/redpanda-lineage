@@ -1,7 +1,7 @@
 [panda]
 _id: 154
 birthday: 2011/7/4
-birthplace: unknown
+birthplace: 20
 children: none
 commitdate: 2018/6/29
 death: 2016/10/12
@@ -43,3 +43,4 @@ photo.5.link: ig://BaIESUKhcAj
 photo.5.tags: portrait, sample, smile, wihskers
 species: 2
 studbook.id: 11103
+zoo: 23
