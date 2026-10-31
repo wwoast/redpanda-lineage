@@ -411,85 +411,80 @@ photo.80.author: otenba_redpanda
 photo.80.commitdate: 2022/8/8
 photo.80.link: https://www.instagram.com/otenba_redpanda/
 photo.80.tags: bamboo, portrait, sample, whiskers
-photo.81: ig://ChgBkkwBr-K/m
+photo.81: cwdc://YK9qqOAADQC.jpg
 photo.81.author: alto0908
 photo.81.commitdate: 2022/8/31
-photo.81.link: https://www.instagram.com/alto0908/
+photo.81.link: ig://ChgBkkwBr-K
 photo.81.tags: peek, portrait, sample, tail, whiskers
-photo.82: cwdc://YK9qqOAADQC.jpg
-photo.82.author: alto0908
-photo.82.commitdate: 2022/8/31
-photo.82.link: ig://ChgBkkwBr-K
-photo.82.tags: peek, portrait, sample, tail, whiskers
-photo.83: ig://Cl3TgdlPXFA/m
-photo.83.author: ssc6105
-photo.83.commitdate: 2023/3/11
-photo.83.link: https://www.instagram.com/ssc6105/
-photo.83.tags: sample, tongue, whiskers
-photo.84: ig://CmeIVSmvqgZ/m
-photo.84.author: mini_cochi
-photo.84.commitdate: 2023/1/11
-photo.84.link: https://www.instagram.com/mini_cochi/
-photo.84.tags: paws, portrait, whiskers
-photo.85: ig://CmlQoVKvYUE/m
+photo.82: ig://Cl3TgdlPXFA/m
+photo.82.author: ssc6105
+photo.82.commitdate: 2023/3/11
+photo.82.link: https://www.instagram.com/ssc6105/
+photo.82.tags: sample, tongue, whiskers
+photo.83: ig://CmeIVSmvqgZ/m
+photo.83.author: mini_cochi
+photo.83.commitdate: 2023/1/11
+photo.83.link: https://www.instagram.com/mini_cochi/
+photo.83.tags: paws, portrait, whiskers
+photo.84: ig://CmlQoVKvYUE/m
+photo.84.author: tamazoowalking
+photo.84.commitdate: 2023/9/25
+photo.84.link: https://www.instagram.com/tamazoowalking/
+photo.84.tags: door, paws, portrait, sample, whiskers
+photo.85: ig://CmlQ6YYvqeg/m
 photo.85.author: tamazoowalking
 photo.85.commitdate: 2023/9/25
 photo.85.link: https://www.instagram.com/tamazoowalking/
-photo.85.tags: door, paws, portrait, sample, whiskers
-photo.86: ig://CmlQ6YYvqeg/m
-photo.86.author: tamazoowalking
-photo.86.commitdate: 2023/9/25
-photo.86.link: https://www.instagram.com/tamazoowalking/
-photo.86.tags: autumn, close-up, paws, portrait, sample, tongue, whiskers
-photo.87: cwdc://YW5AuLoADQD.jpg
-photo.87.author: ck.chie
+photo.85.tags: autumn, close-up, paws, portrait, sample, tongue, whiskers
+photo.86: cwdc://YW5AuLoADQD.jpg
+photo.86.author: ck.chie
+photo.86.commitdate: 2023/3/9
+photo.86.link: ig://CndsmjkPNXf
+photo.86.tags: hammock
+photo.87: ig://CnzB7rlPHd8/m
+photo.87.author: mini_cochi
 photo.87.commitdate: 2023/3/9
-photo.87.link: ig://CndsmjkPNXf
-photo.87.tags: hammock
-photo.88: ig://CnzB7rlPHd8/m
-photo.88.author: mini_cochi
-photo.88.commitdate: 2023/3/9
-photo.88.link: https://www.instagram.com/mini_cochi/
-photo.88.tags: paws, portrait, sample, whiskers
-photo.89: ig://CoWjaihvjdM/m
+photo.87.link: https://www.instagram.com/mini_cochi/
+photo.87.tags: paws, portrait, sample, whiskers
+photo.88: ig://CoWjaihvjdM/m
+photo.88.author: tamazoowalking
+photo.88.commitdate: 2023/2/24
+photo.88.link: https://www.instagram.com/tamazoowalking/
+photo.88.tags: close-up, portrait, sample, whiskers
+photo.89: ig://CrR7RZDveKj/m
 photo.89.author: tamazoowalking
-photo.89.commitdate: 2023/2/24
+photo.89.commitdate: 2023/5/4
 photo.89.link: https://www.instagram.com/tamazoowalking/
-photo.89.tags: close-up, portrait, sample, whiskers
-photo.90: ig://CrR7RZDveKj/m
-photo.90.author: tamazoowalking
-photo.90.commitdate: 2023/5/4
-photo.90.link: https://www.instagram.com/tamazoowalking/
-photo.90.tags: hammock, mofumofu, sample, tail, whiskers
-photo.91: cwdc://YerDHczADQF.jpg
+photo.89.tags: hammock, mofumofu, sample, tail, whiskers
+photo.90: cwdc://YerDHczADQF.jpg
+photo.90.author: alto0908
+photo.90.commitdate: 2023/8/10
+photo.90.link: ig://CrWtzMJh48_
+photo.90.tags: hammock, laying down, sample, tongue, tail
+photo.91: cwdc://YerDHczADQG.jpg
 photo.91.author: alto0908
-photo.91.commitdate: 2023/8/10
-photo.91.link: ig://CrWtzMJh48_
-photo.91.tags: hammock, laying down, sample, tongue, tail
-photo.92: cwdc://YerDHczADQG.jpg
+photo.91.commitdate: 2026/10/30
+photo.91.link: ig://CrWtzMJh49B
+photo.91.tags: hammock, peek
+photo.92: cwdc://YfNZSVVADQE.jpg
 photo.92.author: alto0908
 photo.92.commitdate: 2026/10/30
-photo.92.link: ig://CrWtzMJh49B
-photo.92.tags: hammock, peek
-photo.93: cwdc://YfNZSVVADQE.jpg
-photo.93.author: alto0908
-photo.93.commitdate: 2026/10/30
-photo.93.link: ig://Crn44oavKti
-photo.93.tags: hammock, paws, peek, sample
-photo.94: cwdc://YfVZqkjADQE.jpg
-photo.94.author: ck.chie
-photo.94.commitdate: 2023/5/3
-photo.94.link: ig://Crr5EwBv-Ty
-photo.94.tags: mofumofu, portrait, sample, tail, whiskers
-photo.95: ig://Cw32POVv7A_/m
-photo.95.author: tamazoowalking
-photo.95.commitdate: 2023/9/21
-photo.95.link: https://www.instagram.com/tamazoowalking/
-photo.95.tags: hammock, mofumofu, paws, portrait, sample
-photo.96: cwdc://ZMfCoZeADQA.jpg
-photo.96.author: osopanda551
-photo.96.commitdate: 2026/1/16
-photo.96.link: ig://DCQtjqfSE-E
-photo.96.tags: paws, portrait, sample, whiskers
+photo.92.link: ig://Crn44oavKti
+photo.92.tags: hammock, paws, peek, sample
+photo.93: cwdc://YfVZqkjADQE.jpg
+photo.93.author: ck.chie
+photo.93.commitdate: 2023/5/3
+photo.93.link: ig://Crr5EwBv-Ty
+photo.93.tags: mofumofu, portrait, sample, tail, whiskers
+photo.94: ig://Cw32POVv7A_/m
+photo.94.author: tamazoowalking
+photo.94.commitdate: 2023/9/21
+photo.94.link: https://www.instagram.com/tamazoowalking/
+photo.94.tags: hammock, mofumofu, paws, portrait, sample
+photo.95: cwdc://ZMfCoZeADQA.jpg
+photo.95.author: osopanda551
+photo.95.commitdate: 2026/1/16
+photo.95.link: ig://DCQtjqfSE-E
+photo.95.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1091
