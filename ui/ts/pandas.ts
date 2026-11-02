@@ -169,7 +169,7 @@ export function randomChoice<T>(array: T[], count: number) {
   // Logic to handle when asking for too many items
   if (array.length < count)
     count = array.length
-  return randomChoiceSeed(array, undefined, count)
+  return randomChoiceSeed<T>(array, undefined, count)
 }
 
 /** 
@@ -1645,17 +1645,17 @@ export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
 }
 
 /** Returns a list of locations valid for a zoo animal */
-export function locationList(animal: NodePanda) {
-  let locations = []
+export function locationList(animal: NodePanda): ResultLocation[] {
+  let locations: ResultLocation[] = []
   // Return not just the chosen photo but the author and link as well
   for (const [index, location] of animal.locations.entries()) {
     const nextLocation = animal.locations[index + 1]
     const end_date = (nextLocation == undefined)
       ? animal["death"] ?? undefined
-      : (location.zoo == 0)
+      : (location._id == 0)
         ? Defaults.animal["birthday"]
         : nextLocation.date
-    const start_date = (location.zoo == 0)
+    const start_date = (location._id == 0)
       ? Defaults.animal["birthday"]
       : location.date
     locations.push({

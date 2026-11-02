@@ -26,7 +26,7 @@ export function acquirePandaInfo(animal: NodePanda) {
     ? "random"
     : parseInt(Env.specific_photo)
   const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
-  let bundle = {
+  let bundle = <ResultPanda>{
             "_id": animal._id,
             "age": Pandas.age(animal),
        "birthday": Pandas.birthday(animal),
@@ -47,11 +47,12 @@ export function acquirePandaInfo(animal: NodePanda) {
          "photos": animal.photos,
  "search_context": animal["search_context"],
        "siblings": Pandas.searchNonLitterSiblings(animal._id),
-        "species": Pandas.species(animal._id),
+        "species": Pandas.species(animal),
+           "type": "panda",
            "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  bundle = Language.fallbackInfo(bundle, animal)   // Any defaults here?
+  bundle = Language.fallbackInfo<ResultPanda>(bundle, animal)   // Any defaults here?
   // HACK: revert search context
   animal["search_context"] = undefined
   return bundle
@@ -70,7 +71,7 @@ function getZooBundle(location) {
     return getUnknownZooBundle(location)
   }
   if (zoos.length > 0) {
-    const zoo = Language.fallbackEntity(zoos[0])   // Do language fallback strings
+    const zoo = Language.fallbackEntity<NodeZoo>(zoos[0])   // Do language fallback strings
     return {
              "_id": Pandas.zooField(zoo, "_id"),
         "end_date": Pandas.formatDate(location["end_date"]),
@@ -102,7 +103,7 @@ export function acquireZooInfo(zoo: NodeZoo) {
     : parseInt(Env.specific_photo)
   const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
   const recorded = Pandas.searchPandaZooBornLived(zoo._id)
-  let bundle = {
+  let bundle = <ResultZoo>{
            "_id": zoo._id,
        "animals": animals,
        "address": Pandas.zooField(zoo, "address")[Env.language],
@@ -119,12 +120,16 @@ export function acquireZooInfo(zoo: NodeZoo) {
         "photos": zoo.photos,
       "recorded": recorded,
 "recorded_count": recorded.length,
+          "type": "zoo",
        "website": Pandas.zooField(zoo, "website")
   }
-  bundle = Language.fallbackInfo(bundle, zoo)   // Any defaults here?
+  bundle = Language.fallbackInfo<ResultZoo>(bundle, zoo)   // Any defaults here?
   return bundle
 }
 
+type AnimalLinkOption =
+  "child_icon" | "dad_icon" | "half_icon" | "in_link" | "live_icon" |
+  "mom_icon" | "question_icon"
 /**
  * Construct an animal link as per parameters. Options include whether to do a
  * mom/dad/boy/girl icon, or whether to do a link within the page, versus a
@@ -138,7 +143,7 @@ export function acquireZooInfo(zoo: NodeZoo) {
  * the name. The called functions know what the display language is by using
  * the `Env.language` value without us passing that as a parameter.
  */
-function animalLink(animal, link_text, options) {
+function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOption[]) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
   if (animal._id == Defaults.animal._id) {
@@ -195,7 +200,7 @@ function animalLink(animal, link_text, options) {
  * See how many other panda photos this user has posted.  Links to the credit
  * page for a particular author, with all of their contributed photos
  */
-function appleLink(info, container_element) {
+function appleLink(info: ResultPanda | ResultZoo, container_element: string) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
   credit_count_link.id = `${info._id}/counts/${info.photo_index}`   // Carousel
@@ -222,7 +227,7 @@ function appleLink(info, container_element) {
  * Display the birthday and either age/date of death for an animal. Returns two
  * text nodes that can be inserted into other elements
  */
-function birthday(info) {
+function birthday(info: ResultPanda) {
   const birthday = `${Emoji.born} ${info.birthday}`
   // If still alive, print their current age
   let parentheses = undefined
@@ -237,7 +242,7 @@ function birthday(info) {
  * Male and female icons next to pandas used for panda links. This uses
  * unlocalized m/f/unknown gender values
  */
-function childIcon(gender) {
+function childIcon(gender: string) {
   if (Object.values(Defaults.gender.Male).includes(gender))
     return Emoji.boy
   else if (Object.values(Defaults.gender.Female).includes(gender))
@@ -247,7 +252,7 @@ function childIcon(gender) {
 }
 
 /** Display a link to a photo credit on Instagram or elsewhere */
-function creditLink(info, container_element) {
+function creditLink(info: ResultPanda | ResultZoo, container_element: string) {
   const credit_link = document.createElement('a')
   credit_link.id = `${info._id}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab
@@ -272,7 +277,7 @@ function creditLink(info, container_element) {
 }
 
 /** If link is to an undefined item or the zero ID, return a spacer */
-function emptyLink(output_text) {
+function emptyLink(output_text: string) {
   const a = document.createElement('a')
   const span = document.createElement('span')
   span.innerText = output_text
@@ -299,12 +304,12 @@ export function emptyResult(chosen_message=Message.Text.no_result) {
 }
 
 /** Used to fade the dogear menu for selecting photos */
-export function fade(el) {
+export function fade(el: HTMLElement) {
   let op = 1  // initial opacity
   if (el.style.display == "none" || el.style.display == "")
     el.style.display = "block"
   else {
-    el.style.opacity = op  // Reset the opacity and let exisitng fade just run
+    el.style.opacity = op.toString()  // Reset the opacity and let exisitng fade just run
     return
   }
   const timer = setInterval(() => {
@@ -312,7 +317,7 @@ export function fade(el) {
       clearInterval(timer)
       el.style.display = 'none'
     }
-    el.style.opacity = op
+    el.style.opacity = op.toString()
     el.style.filter = `alpha(opacity=${op * 100})`
     op -= 0.10
   }, 40)
@@ -347,7 +352,7 @@ function furigana(name: string, othernames: string[]) {
  * Use localized alt-text, and display SVG gender information so that padding
  * can work consistently on mobile.
  */
-export function gender(info, frame_class) {
+export function gender(info: ResultPanda, frame_class?: string) {
   const img = document.createElement('img')
   if (info.gender == Defaults.gender.Male[Env.language])
     img.src = "images/male.svg"
@@ -368,7 +373,7 @@ export function gender(info, frame_class) {
  * Alternate gender function for if you only have an animal value and not an
  * info block value available.
  */
-export function genderAnimal(animal, frame_class) {
+export function genderAnimal(animal: NodePanda, frame_class: string) {
   const gender = document.createElement('div')
   gender.className = frame_class
   const img = document.createElement('img')
@@ -387,9 +392,9 @@ export function genderAnimal(animal, frame_class) {
 }
 
 /** Create a link to a location in Google Maps */
-function locationLink(zoo, mode="icons_only") {
+function locationLink(zoo: NodeZoo, mode="icons_only") {
   // Don't print content if the input id is zero
-  if (zoo['_id'] == Defaults.zoo['_id'])
+  if (zoo._id == Defaults.zoo._id)
     return Defaults.zoo.location[Env.language]
   let link_text = Emoji.map
   if (mode != "icons_only")
@@ -412,7 +417,7 @@ function locationLink(zoo, mode="icons_only") {
  * Give a list of nicknames in all languages, in priority of the current
  * animal's language order
  */
-function nicknames(animal) {
+function nicknames(animal: NodePanda) {
   const container = document.createElement('ul')
   container.className = "nicknameList"
   for (const language of animal["language.order"]) {
@@ -440,7 +445,7 @@ function nicknames(animal) {
  * animal's language order. Include their regular names in other languages,
  * but not the current `Env.language`
  */
-function othernames(animal) {
+function othernames(animal: NodePanda) {
   const container = document.createElement('ul')
   container.className = "nicknameList"
   // Cycle through other languages to get their names and other
@@ -492,11 +497,11 @@ function qrcodeHashSafe(short=false) {
     sub_hash = "photo"
     photo_id = parts[3]
     if ((parseInt(panda_id) <= 0) || 
-        (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
+        (parseInt(panda_id) > parseInt(P.db._totals.pandas))) {
       panda_id = '1'
     }
     if ((parseInt(photo_id) <= 0) ||
-        (parseInt(photo_id) > parseInt(P.db["_photo"].entity_max))) {
+        (parseInt(photo_id) > parseInt(P.db._photo.entity_max))) {
       photo_id = '1'
     }
     if (short == false)
@@ -510,7 +515,7 @@ function qrcodeHashSafe(short=false) {
     sub_hash = ''
     photo_id = ''
     if ((parseInt(panda_id) <= 0) || 
-        (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
+        (parseInt(panda_id) > parseInt(P.db._totals.pandas))) {
       panda_id = '1'
     }
     out_hash = `${profile}/${panda_id}`
@@ -613,15 +618,16 @@ function update(new_contents, container=undefined, container_class, container_id
   return container
 }
 
+type Divider = "bamboo" | "bear" | "bear-bamboo" | "fruit" | "random"
 /** 
  * Construct a zoo divider, for when you search a place name and get multiple
  * results worth of zoos
  */
-export function zooDivider(mode="bear-bamboo") {
+export function zooDivider(mode?: Divider) {
   const divider = document.createElement('div')
-  const modes = ["bamboo", "bear", "bear-bamboo", "fruit"]
+  const modes: Divider[] = ["bamboo", "bear", "bear-bamboo", "fruit"]
   if (mode == "random")
-    mode = Pandas.randomChoice(modes, 1)
+    mode = Pandas.randomChoice<Divider>(modes, 1).pop()
   divider.className = 'zooDivider'
   if (mode == "bamboo")
     divider.innerText = '- 🎍 — 🎋 — 🎍 -'
@@ -641,10 +647,10 @@ export function zooDivider(mode="bear-bamboo") {
  * Construct a zoo link as per design docs. Example:
  *    `https://domain/index.html#zoo/1`
  */
-function zooLink(zoo, link_text, icon=undefined) {
+function zooLink(zoo: NodeZoo, link_text: string, icon=undefined) {
   // Don't print content if the input id is zero
-  if (zoo['_id'] == Defaults.zoo['_id'])
-    return emptyLink(Defaults.zoo.name[Env.language])
+  if (zoo._id == Defaults.zoo._id)
+    return emptyLink(Defaults.zoo.name[Env.language] ?? Defaults.unknown[Env.language])
   const a = document.createElement('a')
   let inner_text = link_text
   // Options processing
@@ -658,7 +664,7 @@ function zooLink(zoo, link_text, icon=undefined) {
 }
 
 /** Display the name of a zoo in the "title bar" */
-function zooTitle(info) {
+function zooTitle(info: ResultZoo) {
   const name_div = document.createElement('div')
   name_div.className = 'zooName'
   // No furigana for zoo names

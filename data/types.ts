@@ -460,7 +460,7 @@ declare global {
    */
   interface ResultPanda {
     /** The numeric string ID for the `ResultPanda` animal */
-    _id: string,
+    _id: number | string,
     /** 
      * String describing the panda's age. Birthdates are not more granular than
      * one day of accuracy, so the calculations track number of days. Prior to
@@ -475,16 +475,16 @@ declare global {
     birthday: string,
     /** Resolve the birthplace numeric string ID to a full `NodeZoo` */
     birthplace: NodeZoo,
-    /** Reoslve the children numeric string IDs to an `NodePanda` set */
-    children: Set<NodePanda>,
+    /** Reoslve the children numeric string IDs to an `NodePanda` list */
+    children: NodePanda[],
     /**
      * Death string with years, months, and days, formatted to a locale based
      * on the `Pandas.def.date` value in `pandas.js`, and falling back to an
      * _unknown_ default value.
      */
     death: string,
-    /** Resolve the father's numeric string ID to a full `NodePanda` */
-    dad: NodePanda,
+    /** Resolve potential father's numeric IDs to a full `NodePanda` list */
+    dad: NodePanda[],
     /** Translated string for the animal's gender (or unknown) */
     gender: string,
     /**
@@ -493,10 +493,10 @@ declare global {
      * order into the set reflects the order of the `language.order` values
      */
     language_order: Set<Language>,
-    /** Resolve the litter mates numeric string IDs to an `NodePanda` set */
-    litter: Set<NodePanda>,
-    /** Resolve the mother's numeric string ID to a full `NodePanda` */
-    mom: NodePanda,
+    /** Resolve the litter mates' numeric IDs to a `NodePanda` list */
+    litter: NodePanda[],
+    /** Resolve potential mother's numeric IDs to a full `NodePanda` list */
+    mom: NodePanda[],
     /** The panda's primary name, in the current display language */
     name: string,
     /** The panda's other names, in the current display language */
@@ -504,30 +504,32 @@ declare global {
     /** The URL of the photo being displayed in this panda's result card */
     photo: string,
     /** The author (Instagram username or full name) of the photo */
-    photoCredit: string,
+    photo_credit: string,
     /** The numeric index for this photo in the list of the animal's photos */
-    photoIndex: number,
+    photo_index: number,
     /** The link to the original source of this photo */
-    photoLink: string,
+    photo_link: string,
     /** 
      * A manifest of all possible photo URLs for this animal, indexed by the
      * string `photo.\d+` similar to the underlying panda `.ini` text files.
      */
-    photoManifest: Record<string, string>,
+    photos: Photo[],
     /** 
      * Some panda searches enrich the result vertexes with info about the
      * original search condition that discovered that vertex. TODO: there isn't
      * a consistent format for these objects.
      */
-    searchContext: Record<string, any>
+    search_context: Record<string, any>
     /** 
      * Resolve the numeric string IDs of all siblings of this animal who are not
      * immediate litter-mates, into a set of `NodePanda` organized from oldest
      * to youngest. This will include half-siblings.
      */
-    siblings: Set<NodePanda>,
+    siblings: NodePanda[],
     /** The language-translated species name for this red panda */
     species: string,
+    /** Used to type-narrow for `ResultPanda` objects */
+    type: "panda",
     /** 
      * If the panda lives in the wild, resolve its current location into an
      * `NodeWild` object.
@@ -543,16 +545,16 @@ declare global {
    */
   interface ResultZoo {
     /** The numeric string ID for the `ResultZoo` zoo */
-    _id: string,
+    _id: number | string,
     /** The address of this zoo, translated into the current display language. */
     address: string,
     /** The number of animals currently living at this zoo */
-    animalCount: number,
+    animal_count: number,
     /** 
-     * The set of all pandas resolved from their numeric string entity ID,
+     * The list of all pandas resolved from their numeric string entity ID,
      * that currently live at this zoo.
      */
-    animals: Set<NodePanda>,
+    animals: NodePanda[],
     /** The YYYY/MM/DD string for when this zoo closed. TODO: locale */
     closed: string,
     /**
@@ -570,20 +572,34 @@ declare global {
     /** The URL of the photo being displayed in this zoo's result card */
     photo: string,
     /** The author (Instagram username or full name) of the photo */
-    photoCredit: string,
+    photo_credit: string,
     /** The numeric index for this photo in the list of the zoo's photos */
-    photoIndex: number,
+    photo_index: number,
     /** The link to the original source of this photo */
-    photoLink: string,
+    photo_link: string,
+    /** 
+     * A manifest of all possible photo URLs for this zoo, indexed by the
+     * string `photo.\d+` similar to the underlying zoo `.ini` text files.
+     */
+    photos: Photo[],
     /**
-     * The set of all pandas resolved to have lived at this zoo either
+     * The list of all pandas resolved to have lived at this zoo either
      * currently, or at some point in the past.
      */
-    recorded: Set<NodePanda>,
+    recorded: NodePanda[],
     /** The total tally of red pandas that have ever lived at this zoo */
-    recordedCount: number,
+    recorded_count: number,
+    /** Used to type-narrow for `ResultZoo` objects */
+    type: "zoo",
     /** The URL of the zoo's website */
     website: string
+  }
+
+  /** For rendering the Location boxes on the Profile page */
+  interface ResultLocation {
+    zoo: number | string,
+    start_date: string,
+    end_date: string | undefined
   }
 
   /**

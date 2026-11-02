@@ -47,7 +47,7 @@ export function acquirePandaInfo(animal) {
          "photos": animal.photos,
  "search_context": animal["search_context"],
        "siblings": Pandas.searchNonLitterSiblings(animal._id),
-        "species": Pandas.species(animal._id),
+        "species": Pandas.species(animal),
            "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }

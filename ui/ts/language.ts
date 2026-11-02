@@ -9,10 +9,10 @@ import P, * as Pandas from './pandas.ts'
  * latin-alphabet languages (not just English)
  */
 export function init() {
-  for (let tag in Tags) {
-    var en_tags = Tags[tag]["en"]
-    var first_cap = en_tags.map(x => capitalize(x, "first"))
-    var all_cap = en_tags.map(y => capitalize(y, "all"))
+  for (const tag in Tags) {
+    const en_tags = Tags[tag]["en"]
+    const first_cap = en_tags.map(x => capitalize(x, "first"))
+    const all_cap = en_tags.map(y => capitalize(y, "all"))
     Tags[tag]["en"] = en_tags
       .concat(first_cap)
       .concat(all_cap)
@@ -127,7 +127,9 @@ export function defaultDisplayLanguage() {
  * Do language fallback for anything reporting as `unknown` or _empty_ in a zoo
  * or animal object
  */
-export function fallbackEntity(entity: NodePanda | NodeWild | NodeZoo) {
+export function fallbackEntity<T extends NodePanda | NodeWild | NodeZoo>(
+  entity: T
+): T {
   const output = entity
   const order = currentOrder(Pandas.language_order(entity), Env.language)
   // Default values that we want to ignore if we can
@@ -157,7 +159,7 @@ export function fallbackEntity(entity: NodePanda | NodeWild | NodeZoo) {
       } // If no available non-empty strings in other languages, do nothing
     }
   }
-  return output
+  return output as T
 }
 
 /** Do locale adjustments for which flags appear as language flags */
@@ -204,11 +206,11 @@ function fallbackFlags() {
  * Do language fallback for anything reporting as `unknown` or _empty_ in an
  * info block
  */
-export function fallbackInfo(
-  info: ResultPanda | ResultZoo,
+export function fallbackInfo<T extends ResultPanda | ResultZoo>(
+  info: T,
   original: NodePanda | NodeZoo
-) {
-  const bundle = info
+): T {
+  const bundle = structuredClone(info)
   const order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Defaults.animal, order)
@@ -237,40 +239,42 @@ export function fallbackInfo(
     }
   }
   // Replace nested zoo or birthplace text for panda entities similarly
-  if ((info.zoo != undefined) && (info.zoo != Defaults.zoo)) {
-    bundle.zoo = fallbackEntity(info.zoo)
-  }
-  if ((info.birthplace != undefined) && (info.birthplace != Defaults.zoo)) {
-    bundle.birthplace = fallbackEntity(info.birthplace)
-  }
-  for (const index in info.mom) {
-    if ((info.mom[index] != undefined) && 
-        (info.mom[index] != Defaults.animal)) {
-      info.mom[index] = fallbackEntity(info.mom[index])
+  if (info.type == "panda" && bundle.type == "panda") {
+    if ((info.zoo != undefined) && (info.zoo != Defaults.zoo)) {
+      bundle.zoo = fallbackEntity<NodeZoo>(info.zoo)
     }
-  }
-  for (const index in info.dad) {
-    if ((info.dad[index] != undefined) && 
-        (info.dad[index] != Defaults.animal)) {
-      info.dad[index] = fallbackEntity(info.dad[index])
-    }      
-  }
-  for (const index in info.litter) {
-    if ((info.litter[index] != undefined) && 
-        (info.litter[index] != Defaults.animal)) {
-       info.litter[index] = fallbackEntity(info.litter[index])
+    if ((info.birthplace != undefined) && (info.birthplace != Defaults.zoo)) {
+      bundle.birthplace = fallbackEntity<NodeZoo>(info.birthplace)
     }
-  }
-  for (const index in info.siblings) {
-    if ((info.siblings[index] != undefined) && 
-        (info.siblings[index] != Defaults.animal)) {
-       info.siblings[index] = fallbackEntity(info.siblings[index])
+    for (const index in info.mom) {
+      if ((info.mom[index] != undefined) && 
+          (info.mom[index] != Defaults.animal)) {
+        info.mom[index] = fallbackEntity<NodePanda>(info.mom[index])
+      }
     }
-  }
-  for (const index in info.children) {
-    if ((info.children[index] != undefined) && 
-        (info.children[index] != Defaults.animal)) {
-       info.children[index] = fallbackEntity(info.children[index])
+    for (const index in info.dad) {
+      if ((info.dad[index] != undefined) && 
+          (info.dad[index] != Defaults.animal)) {
+        info.dad[index] = fallbackEntity<NodePanda>(info.dad[index])
+      }      
+    }
+    for (const index in info.litter) {
+      if ((info.litter[index] != undefined) && 
+          (info.litter[index] != Defaults.animal)) {
+        info.litter[index] = fallbackEntity<NodePanda>(info.litter[index])
+      }
+    }
+    for (const index in info.siblings) {
+      if ((info.siblings[index] != undefined) && 
+          (info.siblings[index] != Defaults.animal)) {
+        info.siblings[index] = fallbackEntity<NodePanda>(info.siblings[index])
+      }
+    }
+    for (const index in info.children) {
+      if ((info.children[index] != undefined) && 
+          (info.children[index] != Defaults.animal)) {
+        info.children[index] = fallbackEntity<NodePanda>(info.children[index])
+      }
     }
   }
   return bundle
