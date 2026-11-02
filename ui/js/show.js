@@ -873,7 +873,7 @@ const mediaButton = {
     Env.current = Page.media.render
     let pandaIds = 
       P.db.vertices.filter(entity => entity._id.startsWith("media"))
-                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.photos.length > 0)
                    .flatMap(entity => entity["panda.tags"])
     pandaIds = Pandas.distinct(pandaIds)
     window.location =
