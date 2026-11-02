@@ -2577,7 +2577,7 @@ export const resultsPage = {
    * 3) The other resident animals living at the zoo
    *   -- order them oldest to youngest
    */
-  zooAnimals: function(zoo) {
+  zooAnimals: function(zoo: NodeZoo) {
     const animals_to_divs = (animals) => {
       const output_divs = []
       // TODO ES6: this scope here
@@ -2636,7 +2636,7 @@ export const resultsPage = {
     return content_divs
   },
   /** The pink "animal counts" information stripe for a zoo */
-  zooCounts: function(info) {
+  zooCounts: function(info: ResultZoo) {
     const ul = document.createElement('ul')
     ul.className = "zooCounts"
     const li_items = {
@@ -2769,7 +2769,7 @@ export const resultsPage = {
     return ul
   },
   /** This is the purple "dossier" information stripe for a zoo. */
-  zooDetails: function(info) {
+  zooDetails: function(info: ResultZoo) {
     const address = document.createElement('p')
     const address_link = document.createElement('a')
     address_link.innerText = `${Emoji.travel} ${info.address}`
@@ -2844,9 +2844,8 @@ export const searchBar = {
    * Remove the search bar when leaving profile mode. By default it will be the
    * bottom menu search bar that gets hidden.
    */
-  remove: function(frame_id) {
-    if (document.getElementById(frame_id) != null)
-      document.getElementById(frame_id).parentNode.remove(searchBar)
+  remove: function(frame_id: string) {
+    document.getElementById(frame_id)?.remove()
   },
   /**
    * Generate a search bar. Should be the same kind of bar that would appear
