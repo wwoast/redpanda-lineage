@@ -137,6 +137,7 @@ export const Defaults = {
       "pt": ["Nenhum nome alternativo registrado"],
       "zh": ["TOWRITE"]
     },
+    "photos": [],
     "species": "-1",
     "video": "images/no-panda-portrait.jpg",
     "zoo": "0"

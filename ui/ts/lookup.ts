@@ -216,7 +216,7 @@ export const Defaults: Defaults = {
     "studbook.id": "-1",
     "type": "panda",
     "video": "images/no-panda-portrait.jpg",
-    "zoo": "0"
+    "zoo": 0
   },
   /** Missing or undescribed authors / photo credits */
   authors: {

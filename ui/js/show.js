@@ -976,9 +976,9 @@ const profileButton = {
   altAction: function(e) {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.profile.render
-    var pandaIds =
+    const pandaIds =
       P.db.vertices.filter(entity => entity._id > 0)
-                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.photos.length > 0)
                    .filter(entity => entity.death == undefined)
                    .map(entity => entity._id)
     window.location =
@@ -2774,7 +2774,7 @@ export const resultsPage = {
     details.appendChild(zoo_page)
     // Photo details are optional for zoos, so don't show the
     // photo link if there's no photo included in the dataset
-    if (info.photo != Defaults.zoo["photo.1"]) {
+    if (info.photo != Defaults.photo.url) {
       // Give credit for the person that took this photo
       const credit = creditLink(info, 'p')
       details.appendChild(credit)

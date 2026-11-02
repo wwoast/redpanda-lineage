@@ -986,18 +986,18 @@ const pagingButton = {
  * view the profile of a random animal, similar to a hidden _random_ button.
  */
 const profileButton = {
-  action: function(panda_id) {
+  action: function(panda_id: string) {
     Page.profile.render()
     window.location.href = `#profile/${panda_id}`
     languageButton.hide()   // If language menu is open, hide it
     Env.current = Page.profile.render
   },
-  altAction: function(e) {
+  altAction: function(e: Event) {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.profile.render
-    var pandaIds =
+    const pandaIds =
       P.db.vertices.filter(entity => entity._id > 0)
-                   .filter(entity => entity["photo.1"] != undefined)
+                   .filter(entity => entity.photos.length > 0)
                    .filter(entity => entity.death == undefined)
                    .map(entity => entity._id)
     window.location.href =
@@ -1005,7 +1005,7 @@ const profileButton = {
     languageButton.hide()   // If language menu open, hide it
     window.scrollTo(0, 0)   // Go to the top of the page
   },
-  render: function(class_name="profile", panda_id) {  
+  render: function(class_name="profile", panda_id: string) {  
     const button = renderButton(
       "profileButton",
       Emoji.profile,
@@ -2793,7 +2793,7 @@ export const resultsPage = {
     details.appendChild(zoo_page)
     // Photo details are optional for zoos, so don't show the
     // photo link if there's no photo included in the dataset
-    if (info.photo != Defaults.zoo["photo.1"]) {
+    if (info.photo != Defaults.photo.url) {
       // Give credit for the person that took this photo
       const credit = creditLink(info, 'p')
       details.appendChild(credit)

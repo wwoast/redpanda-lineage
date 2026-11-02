@@ -295,7 +295,7 @@ export const url = {
       const cwdc_locator = uri.split("/")[2]
       return `https://www.codaworry.com/images/submitted/${cwdc_locator}`
     } else { 
-      return Defaults.animal["photo.1"]
+      return Defaults.photo.url
     }
   },
   /** 

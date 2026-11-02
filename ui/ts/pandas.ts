@@ -516,13 +516,13 @@ export function searchDiedList(input_date) {
   // Make sure we're using a 4-digit year, assume > 2000
   if (died_date_ymd["year"] < 2000)
     died_date_ymd["year"] = died_date_ymd["year"] + 2000
-  const nodes = G.v().filter(function(vertex) {
-    return (vertex["photo.1"] != undefined)
-  }).filter(function (vertex) {
-    const their_date = new Date(vertex.death)
-    const their_date_ymd = date_to_ymd(their_date)
-    return date_ymd_compare(their_date_ymd, died_date_ymd)
-  }).unique().run()
+  const nodes = G.v()
+    .filter(vertex => vertex.photos.length > 0)
+    .filter(vertex => {
+      const their_date = new Date(vertex.death)
+      const their_date_ymd = date_to_ymd(their_date)
+      return date_ymd_compare(their_date_ymd, died_date_ymd)
+    }).unique().run()
   return sortYoungestToOldest(nodes)
 }
 
