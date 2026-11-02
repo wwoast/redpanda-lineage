@@ -2658,7 +2658,7 @@ export const resultsPage = {
       panda.birthday && panda.birthday != "unknown")
     const born_count = born_at_zoo.length
     const born_known_count = born_known_birthdays.length
-    if (born_count > 0) {
+    if (born_known_count > 0) {
       const earliest_born_year =
         born_known_birthdays[born_known_count - 1]["birthday"].split("/")[0]
       let output_text = ""
