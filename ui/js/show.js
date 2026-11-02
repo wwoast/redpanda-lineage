@@ -2826,8 +2826,7 @@ export const searchBar = {
    * bottom menu search bar that gets hidden.
    */
   remove: function(frame_id) {
-    if (document.getElementById(frame_id) != null)
-      document.getElementById(frame_id).parentNode.remove(searchBar)
+    document.getElementById(frame_id)?.remove()
   },
   /**
    * Generate a search bar. Should be the same kind of bar that would appear
