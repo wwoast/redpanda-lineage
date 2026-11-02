@@ -872,10 +872,10 @@ const mediaButton = {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.media.render
     let pandaIds = 
-      P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+      P.db.vertices.filter(entity => entity._id.startsWith("media"))
                    .filter(entity => entity["photo.1"] != undefined)
-                   .map(entity => entity["panda.tags"])
-    pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds))
+                   .flatMap(entity => entity["panda.tags"])
+    pandaIds = Pandas.distinct(pandaIds)
     window.location =
       `#media/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
     // If language menu is open, hide it

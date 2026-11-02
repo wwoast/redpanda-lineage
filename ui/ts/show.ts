@@ -542,7 +542,7 @@ function qrcodeImage(animal_index=null, photo_index=null) {
     safe_url =
       `https://${window.location.host}/#profile/${animal_index}/photo/${photo_index}`
   }
-  const img = showQRCode(safe_url)
+  const img = showQRCode(safe_url) as HTMLImageElement
   const qrcode = document.createElement('div')
   qrcode.className = "qrcodeFrame"
   const button = document.createElement('button')
@@ -560,9 +560,10 @@ function qrcodeImage(animal_index=null, photo_index=null) {
     event.preventDefault()
     const text_class = "qrcodeText"
     // Join the text blocks above and below the QR Code image
-    const qrcode_url = Array.from(document.getElementsByClassName(text_class))
-      .map(span => span.innerText)
-      .join("")
+    const qrcode_url =
+      Array.from(document.querySelectorAll<HTMLSpanElement>(`.${text_class}`))
+        .map(span => span.innerText)
+        .join("")
     // Copy it into the clipboard
     navigator.clipboard.writeText(qrcode_url)
     // Make the Copied toast appear
@@ -815,16 +816,16 @@ const homeButton = {
 const languageButton = {
   /** Make the flag menu buttons appear above the top menu */
   action: function() {
-    const language_menu = document.getElementsByClassName("languageMenu")[0]
-    if ((language_menu.style.display == "none") ||
-        (language_menu.style.display == "")) {
+    const language_menu = document.querySelector<HTMLDivElement>(".languageMenu")
+    if (!language_menu)
+      return
+    else if ((language_menu.style.display == "none") || (language_menu.style.display == ""))
       language_menu.style.display = "table"
-    } else {
+    else
       language_menu.style.display = "none"
-    }
   },
   /** Immediately change the displayed language to the next one in the list */
-  altAction: function(e) {
+  altAction: function(e: Event) {
     e.preventDefault()
     const language = Env.language
     const options = Defaults.languages
@@ -840,8 +841,9 @@ const languageButton = {
     languageButton.hide()
   },
   hide: function() {
-    const language_menu = document.querySelector(".languageMenu")
-    language_menu.style.display = "none"
+    const language_menu = document.querySelector<HTMLDivElement>(".languageMenu")
+    if (language_menu)
+      language_menu.style.display = "none"
   },
   render: function(class_name="results") {
     const button = renderButton(
@@ -878,28 +880,28 @@ const linksButton = {
  * it shows group photos of a random animal, like a hidden _random_ button.
  */
 const mediaButton = {
-  action: function(panda_id) {
+  action: function(panda_id: string) {
     Page.media.render()
     window.location.href = `#media/${panda_id}`
     // If language menu is open, hide it
     languageButton.hide()
     Env.current = Page.media.render
   },
-  altAction: function(e) {
+  altAction: function(e: Event) {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.media.render
     let pandaIds = 
-      P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+      P.db.vertices.filter(entity => entity._id.startsWith("media"))
                    .filter(entity => entity["photo.1"] != undefined)
-                   .map(entity => entity["panda.tags"])
-    pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds))
+                   .flatMap(entity => entity["panda.tags"])
+    pandaIds = Pandas.distinct(pandaIds)
     window.location.href =
       `#media/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
     // If language menu is open, hide it
     languageButton.hide()
     window.scrollTo(0, 0)   // Go to the top of the page
   },
-  render: function(class_name="profile", panda_id) {
+  render: function(class_name="profile", panda_id: string) {
     const button = renderButton(
       "mediaButton",
       Emoji.media,
