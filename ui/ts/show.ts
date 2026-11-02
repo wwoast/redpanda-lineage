@@ -2673,8 +2673,8 @@ export const resultsPage = {
     const born_link = document.createElement('a')
     born_link.href = `#query/born at ${info._id}`
     const born_at_zoo = Pandas.searchPandaZooBornRecords(info._id, false)
-    const born_known_birthdays = born_at_zoo.filter(panda =>
-      panda.birthday != "unknown")
+    const born_known_birthdays = born_at_zoo.filter((panda: NodePanda) =>
+      panda.birthday && panda.birthday != "unknown")
     const born_count = born_at_zoo.length
     const born_known_count = born_known_birthdays.length
     if (born_count > 0) {
