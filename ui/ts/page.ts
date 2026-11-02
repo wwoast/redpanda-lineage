@@ -32,7 +32,9 @@ export function color(class_name: string) {
  * 
  * TODO: rewrite this logic to be less tied to results/profile callback checks
  */
-export function redraw(callback: Function) {
+export function redraw(callback?: Function) {
+  if (callback == undefined)
+    return
   if ((window.location.hash.length > 0) &&
       (P.db != undefined) &&
       (callback == results.render)) {
@@ -601,15 +603,15 @@ class LinksPage {
     if (Env.current == this.render) {
       // Check the last query done and return to it, if it was a query
       if (routes.fixed.includes(Env.lastSearch) == false)
-        window.location = Env.lastSearch
+        window.location.href = Env.lastSearch
       else
-        window.location = "#home"
+        window.location.href = "#home"
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (!routes.fixed.includes(window.location.hash)) {
         Env.lastSearch = window.location.hash
       }
-      window.location = "#links"
+      window.location.href = "#links"
     }
   }
 

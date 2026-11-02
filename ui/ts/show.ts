@@ -58,20 +58,25 @@ export function acquirePandaInfo(animal: NodePanda) {
   return bundle
 }
 
-/** Given an animal, return an array of location info translated correctly. */
+/** 
+ * Given an animal, return an array of location info translated correctly.
+ * TODO-Types: have a profile results page type here that can discriminate
+ * wild vs zoo locations.
+ */
 function acquireLocationList(animal: NodePanda) {
   const raw_locations = Pandas.locationList(animal)
   const history = raw_locations.map(location => getZooBundle(location))
   return history
 }
 
-function getZooBundle(location) {
-  const zoos = Pandas.searchZooId(location["zoo"])
+/** TODO-Types: type discriminate between zoo and wild locations */
+function getZooBundle(location: ResultLocation) {
+  const zoos = Pandas.searchZooId(location.zoo.toString())
   if (zoos.length === 0) {
     return getUnknownZooBundle(location)
   }
   if (zoos.length > 0) {
-    const zoo = Language.fallbackEntity<NodeZoo>(zoos[0])   // Do language fallback strings
+    const zoo = Language.fallbackEntity<NodeZoo | NodeWild>(zoos[0])   // Do language fallback strings
     return {
              "_id": Pandas.zooField(zoo, "_id"),
         "end_date": Pandas.formatDate(location["end_date"]),
@@ -83,7 +88,7 @@ function getZooBundle(location) {
   }
 }
 
-function getUnknownZooBundle(location) {
+function getUnknownZooBundle(location: ResultLocation) {
   return {
     "_id": "0",
     "end_date": Pandas.formatDate(location["end_date"]),
@@ -678,7 +683,13 @@ function zooTitle(info: ResultZoo) {
 /** Show functions related to buttons and their event handlers */
 
 /** Render a menu button for redpandafinder, with desired classes and ids */
-function renderButton(id, button_icon, button_text, class_name, icon_class="") {
+function renderButton(
+  id: string,
+  button_icon: string,
+  button_text: string,
+  class_name: string,
+  icon_class=""
+) {
   const button = document.createElement('button')
   button.className = "menu"
   button.classList.add(class_name)
@@ -730,8 +741,8 @@ const aboutButton = {
  * not just the current `Env.language`.
  */
 const flagButton = {
-  action: function(button) {
-    const language = button.id.replace("LanguageFlag", "")
+  action: function(button: HTMLElement) {
+    const language = button.id.replace("LanguageFlag", "") as Language
     const options = Defaults.languages
     const choice = options.indexOf(language)
     // Don't redraw unless the language exists, or has changed from the current
@@ -747,7 +758,7 @@ const flagButton = {
     // If language menu is open, hide it
     languageButton.hide()
   },
-  render: function(language, class_color) {
+  render: function(language: Language, class_color: string) {
     const button = document.createElement('button')
     button.classList.add("menu")
     button.classList.add("flag")
@@ -773,7 +784,7 @@ const homeButton = {
   action: function() {
     Env.lastSearch = "#home"
     Page.home.render()
-    window.location = "#home"
+    window.location.href = "#home"
     // If language menu is open, hide it
     languageButton.hide()
     Env.current = Page.home.render
@@ -869,7 +880,7 @@ const linksButton = {
 const mediaButton = {
   action: function(panda_id) {
     Page.media.render()
-    window.location = `#media/${panda_id}`
+    window.location.href = `#media/${panda_id}`
     // If language menu is open, hide it
     languageButton.hide()
     Env.current = Page.media.render
@@ -882,7 +893,7 @@ const mediaButton = {
                    .filter(entity => entity["photo.1"] != undefined)
                    .map(entity => entity["panda.tags"])
     pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds))
-    window.location =
+    window.location.href =
       `#media/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
     // If language menu is open, hide it
     languageButton.hide()
@@ -906,7 +917,7 @@ const mediaButton = {
  */
 const optionsButton = {
   action: function() {
-    window.location = '#options'
+    window.location.href = '#options'
   },
   render: function(class_name="results") {
     const button = renderButton(
@@ -975,7 +986,7 @@ const pagingButton = {
 const profileButton = {
   action: function(panda_id) {
     Page.profile.render()
-    window.location = `#profile/${panda_id}`
+    window.location.href = `#profile/${panda_id}`
     languageButton.hide()   // If language menu is open, hide it
     Env.current = Page.profile.render
   },
@@ -987,7 +998,7 @@ const profileButton = {
                    .filter(entity => entity["photo.1"] != undefined)
                    .filter(entity => entity.death == undefined)
                    .map(entity => entity._id)
-    window.location =
+    window.location.href =
       `#profile/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
     languageButton.hide()   // If language menu open, hide it
     window.scrollTo(0, 0)   // Go to the top of the page
@@ -1040,7 +1051,7 @@ const randomButton = {
                     })
                     .join(" ")
     const randomChoices = pandaIds.concat(groupIds).concat(zooIds)
-    window.location = 
+    window.location.href = 
       `#query/${randomChoices[Math.floor(Math.random() * randomChoices.length)]}`
     languageButton.hide()   // If language menu open, hide it
     searchBar.remove("bottomSearch")   // When clicked, kill this search bar
@@ -2875,7 +2886,7 @@ export const searchBar = {
     // Make iOS keyboard disappear after submitting.
     document.getElementById('searchInput').blur()
     const query = (document.getElementById('searchInput').value).replace(/\s+$/, '')
-    window.location = `#query/${query}`
+    window.location.href = `#query/${query}`
     // When submitting from the bottomMenu search bar, destroy it and move the
     // focus and query output to the top search bar.
     this.remove("bottomSearch")

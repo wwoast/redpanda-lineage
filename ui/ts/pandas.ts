@@ -1188,16 +1188,16 @@ function searchSiblings(idnum) {
  * Zoos are stored with negative numbers, but are tracked in the database by
  * their positive ID numbers. So convert the ID before searching
  */
-export function searchZooId(idnum) {
+export function searchZooId(idnum: string) {
   // Wild animals or other situations may have id == 0
   if (parseInt(idnum) == 0) {
     return [Defaults.wild]
   }
   if (parseInt(idnum) > 0) {
-    idnum = parseInt(idnum * -1).toString()
+    idnum = (parseInt(idnum) * -1).toString()
   }
   const nodes = G.v(idnum).run()
-  return nodes
+  return nodes as NodeZoo[]
 }
 
 /**
