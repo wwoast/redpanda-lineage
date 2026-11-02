@@ -1861,24 +1861,25 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
   let choice = (typeof naturalIndex !== "number")
     ? undefined
     : animal.photos[arrayIndex]
+  let imageUrl = (choice) ? choice.url : Defaults.photo.url
   // If (index) not in the photos array, or naturalIndex is "random", choose
   // one of the available keys randomly from the set of remaining valid images.
   if (choice == undefined) {
     const space = animal.photos.length
     arrayIndex = Math.floor(Math.random() * space) 
     choice = animal.photos[arrayIndex]
+    imageUrl = (choice) ? choice.url : Defaults.photo.url
   }
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one.
   if (animal.photos.length === 0) {
-    choice = field(animal, "photos", mode)[0]
     const contributeLink = Gui.contribute_link[Env.language] ?? Gui.contribute_link["en"]
     return {
       "_id": animal._id,
       "author": Gui.contribute[Env.language],
       "index": 1,
       "reference": authorLink(Gui.contribute[Env.language], contributeLink),
-      "url": choice.url
+      "url": Defaults.photo.url
     }
   } else {
   // Return not just the chosen photo but the author and link as well
@@ -1887,7 +1888,7 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
       "author": choice.author,
       "index": arrayIndex + 1,   // Natural number display index
       "reference": authorLink(choice.author, choice.source),
-      "url": choice.url
+      "url": imageUrl
     }
   }
 }

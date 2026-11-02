@@ -2854,7 +2854,7 @@ export const searchBar = {
    * 
    * @param frame_class `top_search` or `bottom_search`
    */
-  render: function(frame_class, frame_id) {
+  render: function(frame_class: string, frame_id: string) {
     const hidden_button = document.createElement('input')
     hidden_button.id = "searchSubmit"
     hidden_button.className = "search"
@@ -2903,7 +2903,7 @@ export const searchBar = {
    * mode, it's hidden unless the user opts to search for new pandas using the
    * Search Button at the bottom of the page.
    */
-  toggle: function(frame_id) {
+  toggle: function(frame_id: string) {
     const searchBar = document.getElementById(frame_id)
     if (searchBar == null)
       return false

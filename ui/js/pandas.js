@@ -1848,25 +1848,25 @@ function parseDate(date) {
 export function profilePhoto(animal, naturalIndex, mode="animal") {
   let arrayIndex = parseInt(naturalIndex - 1)   // possibly NaN
   let choice = animal.photos[arrayIndex]   // possibly undefined
+  let imageUrl = (choice) ? choice.url : Defaults.photo.url
   // If (index) not in the photos array, choose one of the available keys
   // at random from the set of remaining valid images.
   if (choice == undefined) {
     const space = animal.photos.length
     arrayIndex = Math.floor(Math.random() * space)
     choice = animal.photos[arrayIndex]
+    imageUrl = (choice) ? choice.url : Defaults.photo.url
   }
   // If there were still no valid photos, because the panda has no photos
   // listed, return the default for one.
   if (animal.photos.length === 0) {
-    arrayIndex = 0
-    choice = field(animal, "photos", mode)[0]
     const contributeLink = Gui.contribute_link[Env.language] ?? Gui.contribute_link["en"]
     return {
       "_id": animal._id,
       "author": Gui.contribute[Env.language],
-      "index": arrayIndex + 1,
+      "index": 1,
       "reference": authorLink(Gui.contribute[Env.language], contributeLink),
-      "url": choice.url
+      "url": Defaults.photo.url
     }
   } else {
   // Return not just the chosen photo but the author and link as well
@@ -1875,7 +1875,7 @@ export function profilePhoto(animal, naturalIndex, mode="animal") {
       "author": choice.author,
       "index": arrayIndex + 1,   // Natural number display index
       "reference": authorLink(choice.author, choice.source),
-      "url": choice.url
+      "url": imageUrl
     }
   }
 }
