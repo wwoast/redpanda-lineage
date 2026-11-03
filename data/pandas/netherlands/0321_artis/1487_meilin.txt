@@ -1,0 +1,15 @@
+[panda]
+_id: 1487
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2026/10/30
+en.name: Meilin
+gender: f
+language.order: en
+litter: unknown
+location.1: unknown, unknown
+location.2: 321, 2026/9/1
+species: unknown
+uncertainty: location.2 exact date, arrived September 2026
+zoo: 321
