@@ -320,7 +320,7 @@ export const url = {
 export function birthdayPhotoCredits(photo_count=3, max_animals=5) {
   const birthday_div = document.createElement('div')
   // Pandas must be alive, and have at least photo_count photos
-  const birthday_animals = Pandas.searchBirthdayToday(true, photo_count)
+  let birthday_animals = Pandas.searchBirthdayToday(true, photo_count)
   const birthday_count = birthday_animals.length
   if (birthday_count > max_animals) {
     birthday_animals = Pandas.searchBirthdayLitterBias(true, photo_count, max_animals)
@@ -523,7 +523,6 @@ export function familyProfilePhoto(
  * for each image.
  */
 function groupPhotos(id_list) {
-  const seen = {}
   const photo_list = []
   for (const id of id_list) {
     const entities = Pandas.searchPandaMedia(id, true)
@@ -689,15 +688,6 @@ function groupPhotoSingle(entityPhoto) {
   return container
 }
 
-/** 
- * Solo photos that can be found in the group gallery. These are chosen on
- * the basis of having the most tags, and are ideally interesting "action
- * shots" of an individual animal.
- */
-function actionPhotos(id_list, photo_count=10) {
-  return   // TOWRITE
-}
-
 /** Generic version of the birthday / memorial logic */
 export function genericPhotoCredits(
   id_list, photo_count, tag_list, message_function, message_params
@@ -848,7 +838,7 @@ function nodePhotoCredits(node, credit) {
         "author": photo.author,
         "index": index + 1,   // Natural number index
         "locations": photo.locations ?? {},
-        "reference": Pandas.authorLink(photo.author, photo.link),
+        "reference": Pandas.authorLink(photo.author, photo.source),
         "type": node.type,
         "url": photo.url
       })

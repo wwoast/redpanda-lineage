@@ -285,7 +285,7 @@ export const url = {
     image.src = cwdc_url
   },
   /** Unroll various custom link formats into things that work as href */
-  href: (uri) => {
+  href: (uri: string) => {
     if (uri.indexOf("http") == 0)
       return uri
     else if (uri.indexOf("ig") == 0) {
@@ -302,7 +302,7 @@ export const url = {
    * Support a colorful cast of formats for getting underlying image hrefs.
    * The `<img>` element is processed and eventually its `src` is updated
    */
-  process: (image, uri) => {
+  process: (image: HTMLImageElement, uri: string) => {
     if (uri.indexOf("http") == 0) {
       image.src = uri
     } else if (uri.indexOf("cwdc") == 0) {
@@ -320,7 +320,7 @@ export const url = {
 export function birthdayPhotoCredits(photo_count=3, max_animals=5) {
   const birthday_div = document.createElement('div')
   // Pandas must be alive, and have at least photo_count photos
-  const birthday_animals = Pandas.searchBirthdayToday(true, photo_count)
+  let birthday_animals = Pandas.searchBirthdayToday(true, photo_count)
   const birthday_count = birthday_animals.length
   if (birthday_count > max_animals) {
     birthday_animals = Pandas.searchBirthdayLitterBias(true, photo_count, max_animals)
@@ -365,7 +365,7 @@ export function birthdayPhotoCredits(photo_count=3, max_animals=5) {
 }
 
 /** Change a dogear text style based on how many digits in the index number */
-export function condenseDogEar(nav) {
+export function condenseDogEar(nav: HTMLSpanElement) {
   switch (nav.innerText.length) {
     case 3:
       nav.classList.remove("fourDigits")
@@ -382,7 +382,7 @@ export function condenseDogEar(nav) {
 }
 
 /** `pandaPhotoCredits` and `zooPhotoCredits`, interleaved as results */
-export function creditPhotos(results, max_hits) {
+export function creditPhotos(results, max_hits: number) {
   const photo_results = creditPhotosPage(0, results, max_hits)
   const content_divs = photo_results["output"]
   const photo_count = photo_results["hit_count"]
@@ -402,7 +402,7 @@ export function creditPhotos(results, max_hits) {
  * TODO: `zooPhotoCredits` and `pandaPhotoCredits` shouldn't return divs yet,
  * to prevent loading the entire image set each time you only want `set/N`
  */
-function creditPhotosPage(page, results, max_hits) {
+function creditPhotosPage(page, results, max_hits: number) {
   let content_divs = []
   const initial_max_hits = max_hits
   // We must unspool the results because each entity we query here can have
@@ -454,7 +454,11 @@ function creditPhotosPage(page, results, max_hits) {
  * additionally, give it a relationship value.
  */
 export function familyProfilePhoto(
-  animal, chosen_photo, relationship, frame_class, multiple=false
+  animal: NodePanda,
+  chosen_photo,
+  relationship,
+  frame_class,
+  multiple=false
 ) {
   const info = Show.acquirePandaInfo(animal)
   // The overall container
@@ -522,8 +526,7 @@ export function familyProfilePhoto(
  * animal. Return a set of divs that includes both images and the titles
  * for each image.
  */
-function groupPhotos(id_list) {
-  const seen = {}
+function groupPhotos(id_list: string[]) {
   const photo_list = []
   for (const id of id_list) {
     const entities = Pandas.searchPandaMedia(id, true)
@@ -545,7 +548,7 @@ function groupPhotos(id_list) {
  * in general, I figure this is OK to write in terms of the older groupPhotos
  * which parses all photos and writes name tags and such.
  */
-export function groupPhotosPage(page, id_list, photo_count) {
+export function groupPhotosPage(page, id_list: string[], photo_count: number) {
   const initial_photo_count = photo_count
   if (page == 0 && Env.paging.shown_pages > 1) { 
     // Refresh, but show more than just the normal photo_count
@@ -584,7 +587,7 @@ export function groupPhotosPage(page, id_list, photo_count) {
  * Similar to `groupPhotos`, but each photo must have all animals represented
  * in the input id list.
  */
-function groupPhotosIntersect(id_list) {
+function groupPhotosIntersect(id_list: string[]) {
   const output = []
   const entities = Pandas.searchPandaMediaIntersect(id_list)
   for (const entity of entities) {
@@ -604,7 +607,7 @@ function groupPhotosIntersect(id_list) {
  * the entire list of animals in the id_list. This is a callback that has to
  * conform to the other group*Page function arity.
  */
-export function groupPhotosIntersectPage(page, id_list, photo_count) {
+export function groupPhotosIntersectPage(page, id_list: string[], photo_count: number) {
   const initial_photo_count = photo_count
   // Refresh, but show more than just the normal photo_count
   if (page == 0 && Env.paging.shown_pages > 1)
@@ -689,15 +692,6 @@ function groupPhotoSingle(entityPhoto) {
   return container
 }
 
-/** 
- * Solo photos that can be found in the group gallery. These are chosen on
- * the basis of having the most tags, and are ideally interesting "action
- * shots" of an individual animal.
- */
-function actionPhotos(id_list, photo_count=10) {
-  return   // TOWRITE
-}
-
 /** Generic version of the birthday / memorial logic */
 export function genericPhotoCredits(
   id_list, photo_count, tag_list, message_function, message_params
@@ -742,7 +736,11 @@ export function genericPhotoCredits(
  * Give it manual-compiled lists of animals who died recently. Return a div
  * with the exact desired output.
  */
-export function memorialPhotoCredits(id_list, photo_count=5, message_function) {
+export function memorialPhotoCredits(
+  id_list: string[], 
+  photo_count=5, 
+  message_function: (...args: unknown[]) => string
+) {
   const memorial_div = document.createElement('div')
   for (const id of id_list) {
     const animal = Pandas.searchPandaId(id)[0]
@@ -786,7 +784,7 @@ export function memorialPhotoCredits(id_list, photo_count=5, message_function) {
  * div with the exact desired output. Use manually defined `id_list` to decide
  * the proper aesthetic ordering of names.
  */
-export function memorialPhotoCreditsGroup(group_id, id_list, photo_count=5) {
+export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], photo_count=5) {
   const memorial_div = document.createElement('div')
   const group = Pandas.searchPandaId(group_id)[0]
   const id_link_string = id_list.join("/")
@@ -839,7 +837,7 @@ export function memorialPhotoCreditsGroup(group_id, id_list, photo_count=5) {
  * that match the username that was searched. Used for making reports of all
  * the photos in the website contributed by a single author.
  */
-function nodePhotoCredits(node, credit) {
+function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, credit: string) {
   const photos = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
@@ -848,7 +846,7 @@ function nodePhotoCredits(node, credit) {
         "author": photo.author,
         "index": index + 1,   // Natural number index
         "locations": photo.locations ?? {},
-        "reference": Pandas.authorLink(photo.author, photo.link),
+        "reference": Pandas.authorLink(photo.author, photo.source),
         "type": node.type,
         "url": photo.url
       })
