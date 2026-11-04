@@ -135,9 +135,12 @@ export function fallbackEntity<T extends NodePanda | NodeWild | NodeZoo>(
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Defaults.animal, order)
   const default_zoo = saveEntityKeys(Defaults.zoo, order)
-  const empty_values = [undefined].concat(Object.values(Defaults.unknown))
-                                  .concat(Object.values(default_animal))
-                                  .concat(Object.values(default_zoo))
+  const empty_values: (string | undefined)[] = [
+    ...[undefined],
+    ...Object.values(Defaults.unknown), 
+    ...Object.values(default_animal),
+    ...Object.values(default_zoo)
+  ]
   // Derive the zoo/panda language-translatable keys by getting a list of
   // the separate language keys from the original object, and adding a
   // synthetic list of keys that would apply for the current display language
@@ -215,9 +218,12 @@ export function fallbackInfo<T extends ResultPanda | ResultZoo>(
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Defaults.animal, order)
   const default_zoo = saveEntityKeys(Defaults.zoo, order)
-  const empty_values = [undefined].concat(Object.values(Defaults.unknown))
-                                  .concat(Object.values(default_animal))
-                                  .concat(Object.values(default_zoo))
+const empty_values: (string | undefined)[] = [
+    ...[undefined],
+    ...Object.values(Defaults.unknown), 
+    ...Object.values(default_animal),
+    ...Object.values(default_zoo)
+  ]
   // Derive the info-block language-translatable keys by getting a list of
   // the separate language keys from the original object
   const translatableKeys = listEntityKeys(original, order)
