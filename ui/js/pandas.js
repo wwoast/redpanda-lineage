@@ -193,6 +193,12 @@ function randomChoiceSeed(array, seed_input, count) {
   return Object.values(seen)
 }
 
+export function removeElementsWithMatchingField(list, removals, field) {
+  const removals_field = removals.map(x => x[field])
+  // If the field exists on the removals list, remove `item` from `list`
+  return list.filter(item => !removals_field.includes(item[field]))
+}
+
 /** Seeded PRNG for the random choice function */
 function seededPrng(input) {
   /** 
