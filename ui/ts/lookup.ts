@@ -734,7 +734,7 @@ export const Fallback: Record<string, Language[]> = {
   "order": ["en", "ja"]
 }
 
-export const Gui = {
+export const Gui: Record<string, Record<Language, string>> = {
   "about": {
     "en": "About",
     "es": "Acerca\xa0de",
@@ -908,135 +908,6 @@ export const Gui = {
     "ne": "Instagram निगल्य पोन्या",
     "pt": "Pandas-vermelhos no Instagram",
     "zh": "Instagram 小熊猫"
-  },
-  /** TODO-UI: this fucks up the Gui typing */
-  "language": {
-    "en": {
-      "de": "German",
-      "en": "English",
-      "es": "Spanish",
-      "ko": "Korean",
-      "fr": "French",
-      "ja": "Japanese",
-      "ne": "Nepalese",
-      "pl": "Polish",
-      "pt": "Portuguese",
-      "ru": "Russian",
-      "sv": "Swedish",
-      "zh": "Chinese"
-    },
-    "es": {
-      "de": "Alemán",
-      "en": "Ingles",
-      "es": "Español",
-      "fr": "Francés",
-      "ja": "Japonés",
-      "ko": "Coreano",
-      "ne": "Nepalés",
-      "pl": "Polaco",
-      "pt": "Portugués",
-      "ru": "Ruso",
-      "sv": "Sueco",
-      "zh": "Chino"
-    },
-    "ja": {
-      "de": "ドイツ語",
-      "en": "英語",
-      "es": "スペイン語",
-      "fr": "フランス語",
-      "ja": "日本語",
-      "ko": "韓国語",
-      "ne": "ネパール語",
-      "pl": "ポーランド語",
-      "pt": "ポルトガル語",
-      "ru": "ロシア語",
-      "sv": "スウェーデン",
-      "zh": "中国語"
-    },
-    "ko": {
-      "de": "독일어",
-      "en": "영어",
-      "es": "스페인어",
-      "fr": "프랑스어",
-      "ja": "일본어",
-      "ko": "한국어",
-      "ne": "네팔어",
-      "pl": "폴란드어",
-      "pt": "포르투갈어",
-      "ru": "러시아어",
-      "sv": "스웨덴",
-      "zh": "중국어"
-    }, 
-    "ne": {
-      "de": "जर्मन",
-      "en": "अंग्रेजी",
-      "es": "स्पनिश",
-      "fr": "फ्रेन्च",
-      "ja": "जापानी",
-      "ko": "कोरियन",
-      "ne": "नेपाली",
-      "pl": "पोलिश",
-      "pt": "पोर्तुगाली",
-      "ru": "रसियन",
-      "sv": "स्वीडिश",
-      "zh": "चिनियाँ"
-    },
-    "pt": {
-      "de": "Alemão",
-      "en": "Inglês",
-      "es": "Espanhol",
-      "fr": "Francês",
-      "ja": "Japonês",
-      "ko": "Coreano",
-      "ne": "Nepalês",
-      "pl": "Polonês",
-      "pt": "Português",
-      "ru": "Russo",
-      "sv": "Sueco",
-      "zh": "Chinês"
-    },
-    "ru": {
-      "de": "немецкий",
-      "en": "английский",
-      "es": "испанский",
-      "fr": "французкий",
-      "ja": "японский",
-      "ko": "корейский",
-      "ne": "непальский",
-      "pl": "польский",
-      "pt": "португа́льский",
-      "ru": "русский",
-      "sv": "шведский",
-      "zh": "китайский"
-    },
-    "sv": {
-      "de": "Tyska",
-      "en": "Engelska",
-      "es": "Spanska",
-      "fr": "Franska",
-      "ja": "Japanska",
-      "ko": "Koreanska",
-      "ne": "Nepali",
-      "pl": "Polska",
-      "pt": "Portugisiska",
-      "ru": "Ryska",
-      "sv": "Svenska",
-      "zh": "Kinesiskt"
-    },
-    "zh": {
-       "de": "德语",
-       "en": "英语",
-       "es": "西班牙语",
-       "fr": "法语",
-       "ja": "日语",
-       "ko": "朝鮮语",
-       "ne": "尼泊尔语",
-       "pl": "波兰语",
-       "pt": "葡萄牙语",
-       "ru": "俄语",
-       "sv": "瑞典",
-       "zh": "汉语"
-     }
   },
   "loading": {
     "en": "Loading...",
@@ -1372,6 +1243,136 @@ export const Gui = {
     "pt": "Principais zoológicos com pandas-vermelhos",
     "zh": "小熊猫动物园",
   }
+}
+
+/** Words for different languages, as a superset of supported languages */
+export const LangNames: Record<string, Record<string, string>> = {
+  "en": {
+    "de": "German",
+    "en": "English",
+    "es": "Spanish",
+    "ko": "Korean",
+    "fr": "French",
+    "ja": "Japanese",
+    "ne": "Nepalese",
+    "pl": "Polish",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "sv": "Swedish",
+    "zh": "Chinese"
+  },
+  "es": {
+    "de": "Alemán",
+    "en": "Ingles",
+    "es": "Español",
+    "fr": "Francés",
+    "ja": "Japonés",
+    "ko": "Coreano",
+    "ne": "Nepalés",
+    "pl": "Polaco",
+    "pt": "Portugués",
+    "ru": "Ruso",
+    "sv": "Sueco",
+    "zh": "Chino"
+  },
+  "ja": {
+    "de": "ドイツ語",
+    "en": "英語",
+    "es": "スペイン語",
+    "fr": "フランス語",
+    "ja": "日本語",
+    "ko": "韓国語",
+    "ne": "ネパール語",
+    "pl": "ポーランド語",
+    "pt": "ポルトガル語",
+    "ru": "ロシア語",
+    "sv": "スウェーデン",
+    "zh": "中国語"
+  },
+  "ko": {
+    "de": "독일어",
+    "en": "영어",
+    "es": "스페인어",
+    "fr": "프랑스어",
+    "ja": "일본어",
+    "ko": "한국어",
+    "ne": "네팔어",
+    "pl": "폴란드어",
+    "pt": "포르투갈어",
+    "ru": "러시아어",
+    "sv": "스웨덴",
+    "zh": "중국어"
+  }, 
+  "ne": {
+    "de": "जर्मन",
+    "en": "अंग्रेजी",
+    "es": "स्पनिश",
+    "fr": "फ्रेन्च",
+    "ja": "जापानी",
+    "ko": "कोरियन",
+    "ne": "नेपाली",
+    "pl": "पोलिश",
+    "pt": "पोर्तुगाली",
+    "ru": "रसियन",
+    "sv": "स्वीडिश",
+    "zh": "चिनियाँ"
+  },
+  "pt": {
+    "de": "Alemão",
+    "en": "Inglês",
+    "es": "Espanhol",
+    "fr": "Francês",
+    "ja": "Japonês",
+    "ko": "Coreano",
+    "ne": "Nepalês",
+    "pl": "Polonês",
+    "pt": "Português",
+    "ru": "Russo",
+    "sv": "Sueco",
+    "zh": "Chinês"
+  },
+  "ru": {
+    "de": "немецкий",
+    "en": "английский",
+    "es": "испанский",
+    "fr": "французкий",
+    "ja": "японский",
+    "ko": "корейский",
+    "ne": "непальский",
+    "pl": "польский",
+    "pt": "португа́льский",
+    "ru": "русский",
+    "sv": "шведский",
+    "zh": "китайский"
+  },
+  "sv": {
+    "de": "Tyska",
+    "en": "Engelska",
+    "es": "Spanska",
+    "fr": "Franska",
+    "ja": "Japanska",
+    "ko": "Koreanska",
+    "ne": "Nepali",
+    "pl": "Polska",
+    "pt": "Portugisiska",
+    "ru": "Ryska",
+    "sv": "Svenska",
+    "zh": "Kinesiskt"
+  },
+  "zh": {
+      "de": "德语",
+      "en": "英语",
+      "es": "西班牙语",
+      "fr": "法语",
+      "ja": "日语",
+      "ko": "朝鮮语",
+      "ne": "尼泊尔语",
+      "pl": "波兰语",
+      "pt": "葡萄牙语",
+      "ru": "俄语",
+      "sv": "瑞典",
+      "zh": "汉语"
+    }
 }
 
 /** Polyglots are tags in some contexts, and keywords in others */

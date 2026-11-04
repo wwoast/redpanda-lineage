@@ -4,7 +4,7 @@ import * as Geo from './geolocate.ts'
 import { showQRCode } from '../js/html5-qrcode.js'
 import * as Language from './language.ts'
 import Layout from './layout.ts'
-import { Defaults, Emoji, Fallback, Flags, Gui } from './lookup.ts'
+import { Defaults, Emoji, Fallback, Flags, Gui, LangNames } from './lookup.ts'
 import * as Message from './message.ts'
 import * as Options from './options.ts'
 import * as Page from './page.ts'
@@ -432,7 +432,7 @@ function nicknames(animal: NodePanda) {
     const nicknames_list = []
     const nicknames_li = document.createElement('li')
     nicknames_li.innerText =
-      `${Gui.language[Env.language][language]}: `
+      `${LangNames[Env.language][language]}: `
     // Nicknames for this animal
     for (const name of nicknames[language])
       nicknames_list.push(name)
@@ -459,7 +459,7 @@ function othernames(animal: NodePanda) {
     const othername_list = []
     const othername_li = document.createElement('li')
     othername_li.innerText =
-      `${Gui.language[Env.language][language]}: `
+      `${LangNames[Env.language][language]}: `
     // Animal's name in other languages
     if (language != Env.language) {
       const name = animal.name
@@ -849,7 +849,7 @@ const languageButton = {
     const button = renderButton(
       "languageButton",
       Gui.flag[Env.language],
-      Gui.language[Env.language][Env.language],
+      LangNames[Env.language][Env.language],
       class_name)
     button.addEventListener("click", this.action)
     button.addEventListener("contextmenu", this.altAction)
@@ -1704,7 +1704,7 @@ export const profileMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      let menu = document.querySelector(".bottomMenu")
+      let menu = document.querySelector<HTMLDivElement>(".bottomMenu")
       menu = update(new_contents, menu, "bottomMenu", "pageBottom")
       // Remove any previous menu class modifiers
       menu.classList.add("profile")

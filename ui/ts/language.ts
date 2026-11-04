@@ -1,5 +1,5 @@
 import Env from './environment.ts'
-import { Defaults, Flags, Gui, Polyglots, Tags } from './lookup.ts'
+import { Defaults, Flags, Gui, LangNames, Polyglots, Tags } from './lookup.ts'
 import { Text } from './message.ts'
 import * as Page from './page.ts'
 import P, * as Pandas from './pandas.ts'
@@ -680,10 +680,12 @@ export function update() {
   for (const element of menu_button_elements) {
     const id = element.id
     const lookup = id.replace("Button", "")
-    const [icon, text] = element.childNodes[0].childNodes
-    if (id == "languageButton") {
+    const [icon, text] = 
+      Array.from(element.childNodes[0].childNodes)
+        .filter(node => node instanceof HTMLDivElement)
+    if (lookup == "language") {
       icon.innerText = Gui.flag[Env.language]   // Replace flag icon
-      text.innerText = Gui[lookup][Env.language][Env.language]   // Replace language icon text
+      text.innerText = LangNames[Env.language][Env.language]   // Replace language icon text
     } else {
       text.innerText = Gui[lookup][Env.language]   // Replace icon text
     }

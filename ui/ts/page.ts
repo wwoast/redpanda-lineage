@@ -332,7 +332,7 @@ class FooterComponent {
   remove() {
     const body = document.getElementsByTagName('body')[0]
     const footer_test = body.lastElementChild
-    if (footer_test.id == "footer") {
+    if (footer_test && footer_test.id == "footer") {
       // TODO: top and bottom menu operations should be by id
       const bottomMenu_test = document.getElementsByClassName("bottomMenu")[0]
       body.removeChild(bottomMenu_test)
@@ -341,7 +341,7 @@ class FooterComponent {
   }
 
   /** Draw a footer with the correct language and color (class) */
-  render(language, class_name) {
+  render(language: Language, class_name: string) {
     const p = document.createElement('p')
     const rpn_url = "https://www.redpandanetwork.org"
     const rpn_logo_link = document.createElement('a')
@@ -935,7 +935,7 @@ class ResultsPage {
     // Redraw the search bar if necessary
     Show.resultsPage.searchBar()
     // Append the new content into the page and then swap it in
-    document.getElementById('contentFrame').replaceWith(new_content)
+    document.getElementById('contentFrame')?.replaceWith(new_content)
     // Call layout adjustment functions to shrink any names that are too long
     shrinkNames()
     Show.resultsMenus.language()
@@ -1091,10 +1091,10 @@ class Routes {
    * Determine if the current page route includes one of the routes
    * specified in the different routes lists above.
    */
-  memberOf(routeList, current_route) {
+  memberOf(routeList: string[], current_route: string) {
     for (let route of routeList) {
       if (current_route.includes(route)) {
-        return true;
+        return true
       }
     }
     return false
