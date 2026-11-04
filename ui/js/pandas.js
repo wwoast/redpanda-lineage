@@ -193,21 +193,6 @@ function randomChoiceSeed(array, seed_input, count) {
   return Object.values(seen)
 }
 
-/** 
- * Remove elements from the second list from the first, as long as some
- * dictionary item matches (typically the animal or zoo id)
- */
-export function removeElementsWithMatchingField(list, removals, field) {
-  const removals_field = removals.map(x => x[field])
-  return list.filter(function(item) {
-    if (removals_field.includes(item[field])) {
-      return false
-    } else {
-      return true
-    }
-  })
-}
-
 /** Seeded PRNG for the random choice function */
 function seededPrng(input) {
   /** 
@@ -511,16 +496,6 @@ export function searchDiedList(input_date) {
       return date_ymd_compare(their_date_ymd, died_date_ymd)
     }).unique().run()
   return sortYoungestToOldest(nodes)
-}
-
-/** Find a pandas's direct siblings, with the same mother and same father. */
-function searchDirectSiblings(idnum) {
-  return   // TODO
-}
-
-/** Find family half siblings, not the ones sharing both mother and father */
-function searchHalfSiblings(idnum) {
-  return   // TODO
 }
 
 /** 
@@ -1533,7 +1508,7 @@ export function groupMediaCaption(entity, photo) {
  * If both animals don't share parents, and neither animal's parents are in an
  * undefined/unknown situation, they are half siblings. Also, if a panda has
  * multiple "possible" moms or dads, it's impossible to truly say whether you
- * have a haf sibling or not.
+ * have a half sibling or not.
  */
 export function halfSiblings(animal, sibling) {
   // Indeterminate mom/dad check means your half sibling calculations
@@ -1549,13 +1524,13 @@ export function halfSiblings(animal, sibling) {
   // determine whether someone is a half-sibling or not.
   let sibling_year = -1
   if (sibling["birthday"] != Defaults.animal["birthday"])
-    sibling_year = parseInt(formatYear(sibling["birthday"], Env.language))
+    sibling_year = parseInt(formatYear(sibling["birthday"]))
   let mymom_year = -2
   if (animal_mom != undefined)
-    mymom_year = parseInt(formatYear(animal_mom["birthday"], Env.language))
+    mymom_year = parseInt(formatYear(animal_mom["birthday"]))
   let mydad_year = -2
   if (animal_dad != undefined)
-    mydad_year = parseInt(formatYear(animal_dad["birthday"], Env.language))
+    mydad_year = parseInt(formatYear(animal_dad["birthday"]))
   // Conditions where you can defer half-sibling relationships based on whether
   // your siblings are older than either your mom or dad
   if (((animal_mom == undefined) || (animal_dad == undefined) || 

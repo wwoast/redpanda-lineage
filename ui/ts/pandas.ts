@@ -202,21 +202,6 @@ function randomChoiceSeed<T>(array: T[], seed_input: number | undefined, count: 
   return Object.values(seen)
 }
 
-/** 
- * Remove elements from the second list from the first, as long as some
- * dictionary item matches (typically the animal or zoo id)
- */
-export function removeElementsWithMatchingField(list, removals, field) {
-  const removals_field = removals.map(x => x[field])
-  return list.filter(function(item) {
-    if (removals_field.includes(item[field])) {
-      return false
-    } else {
-      return true
-    }
-  })
-}
-
 /** Seeded PRNG for the random choice function */
 function seededPrng(input: number) {
   /** 
@@ -308,7 +293,7 @@ export function allAnimals() {
 
 export function allAnimalsAndMedia() {
   const vertices = G.v()
-    .filter((vertex: GraphNode) => vertex.type == "panda" || vertex.type =="media")
+    .filter((vertex: GraphNode) => ["media", "panda"].includes(vertex.type))
     .run()
   return vertices as (NodePanda | NodeMedia)[]
 }
@@ -498,7 +483,7 @@ export function searchDead(year: string) {
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (parseInt(year) > parseInt(Defaults.date.earliest_year))
     died_year = parseInt(year)
-  const nodes = G.v().filter(function(vertex) {
+  const nodes = G.v().filter((vertex: GraphNode) => {
     const their_date = new Date(vertex.death)
     const their_year = their_date.getFullYear()
     return their_year == died_year
@@ -506,29 +491,19 @@ export function searchDead(year: string) {
   return sortYoungestToOldest(nodes)
 }
 
-export function searchDiedList(input_date) {
+export function searchDiedList(input_date: string) {
   let died_date_ymd = parseDate(input_date)
   // Make sure we're using a 4-digit year, assume > 2000
-  if (died_date_ymd["year"] < 2000)
+  if (typeof died_date_ymd.year === "number" && died_date_ymd.year < 2000)
     died_date_ymd["year"] = died_date_ymd["year"] + 2000
   const nodes = G.v()
-    .filter(vertex => vertex.photos.length > 0)
-    .filter(vertex => {
+    .filter((vertex: GraphNode) => {
+      if (vertex.photos.length == 0) return false
       const their_date = new Date(vertex.death)
       const their_date_ymd = date_to_ymd(their_date)
       return date_ymd_compare(their_date_ymd, died_date_ymd)
     }).unique().run()
   return sortYoungestToOldest(nodes)
-}
-
-/** Find a pandas's direct siblings, with the same mother and same father. */
-function searchDirectSiblings(idnum) {
-  return   // TODO
-}
-
-/** Find family half siblings, not the ones sharing both mother and father */
-function searchHalfSiblings(idnum) {
-  return   // TODO
 }
 
 /** 
@@ -541,27 +516,27 @@ export function searchLitter(idnum: number) {
 }
 
 /** Find all links stored in a single panda database `[links]` file */
-export function searchLinks(idstr) {
-  const nodes = G.v().filter(function(vertex) {
-    return (vertex._id == "links." + idstr)
-  }).run()
+export function searchLinks(idstr: string) {
+  const nodes = G.v()
+    .filter((vertex: GraphNode) => vertex._id == `links.${idstr}`)
+    .run()
   // Instead of returning the nodes, return a dictionary 
   // corresponding to all the links in that file.
   return nodes[0]
 }
 
 /** Find a panda's siblings, not including littermates. */
-export function searchNonLitterSiblings(idnum) {
+export function searchNonLitterSiblings(idnum: number) {
   const birthday = G.v(idnum).run()[0].birthday
   const nodes =
     G.v(idnum)
       .as("me")
       .in("family")
       .out("family")
-      .filter(vertex => vertex.type != "none")
+      .filter((vertex: GraphNode) => vertex.type == "panda")   // Not "NodeNone"
       .unique()
       .except("me")
-      .filter(function(vertex) {
+      .filter((vertex: NodePanda) => {
         const my_date = new Date(birthday)
         const their_date = new Date(vertex.birthday)
         const timeDiff = Math.abs(my_date.getTime() - their_date.getTime())
@@ -578,8 +553,8 @@ export function searchNonLitterSiblings(idnum) {
  * Replaced `searchOldnames` and `searchOthernames` with a more generic
  * function that also supports hiragana/katakana swapping.
  */
-function searchPandaNameFields(input, name_fields=undefined) {
-  const inputs = []
+function searchPandaNameFields(input: string, name_fields: string[] = []) {
+  const inputs: string[] = []
   // If the name is English, capitalize every space-separated name.
   if (Language.testString(input, "Latin") == true)
     input = Language.capitalNames(input)
@@ -591,14 +566,14 @@ function searchPandaNameFields(input, name_fields=undefined) {
   // Guarantee that we at least have the original input string
   inputs.unshift(input)
   // Choose which name fields to search against
-  if (name_fields == undefined) {
+  if (name_fields == undefined || name_fields.length == 0) {
     // Default searches for one of a Panda's possible names.
     // Add "nicknames" if you want to search for that too.
     name_fields = ["name", "oldnames", "othernames"]
   }
   const nodes = G.v()
-    .filter(vertex => vertex.type == "panda")
-    .filter(function(animal) {
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((animal: NodePanda) => {
       const languages = Defaults.languages
       for (const field of name_fields) {
         for (const language of Defaults.languages) {
@@ -619,18 +594,19 @@ function searchPandaNameFields(input, name_fields=undefined) {
 }
 
 /** Find a panda by either name or id */
-export function searchPanda(input_string) {
-  if (checkId(input_string) == true)
-    return searchPandaId(input_string)
+export function searchPanda(input: string) {
+  const idnum = parseInt(input)
+  if (checkId(idnum) == true)
+    return searchPandaId(idnum)
   else
-    return searchPandaName(input_string)
+    return searchPandaName(input)
 }
 
 /** Find any panda entry with photos */
 export function searchPandaAnyPhoto() {
   const nodes = G.v()
-    .filter(vertex => vertex.type == "panda")
-    .filter(vertex => vertex.photos.length > 0)
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.photos.length > 0)
     .run()
   return nodes
 }
@@ -638,29 +614,35 @@ export function searchPandaAnyPhoto() {
 /** Find any panda or media entry with photos */
 export function searchPandaAnyPhotoMedia() {
   const nodes = G.v()
-    .filter(vertex => ["media", "panda"].includes(vertex.type))
-    .filter(vertex => vertex.photos.length > 0)
+    .filter((vertex: GraphNode) => ["media", "panda"].includes(vertex.type))
+    .filter((vertex: NodeMedia | NodePanda) => vertex.photos.length > 0)
     .run()
   return nodes
 }
 
 /** Find a panda's children */
-export function searchPandaChildren(idnum) {
-  const nodes =
-    G.v(idnum).out("family").filter(vertex => vertex.type != "none").run()
+export function searchPandaChildren(idnum: number) {
+  const nodes = G.v(idnum)
+    .out("family")
+    .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
+    .run()
   return nodes
 }
 
-/** Find a panda's dad */
-export function searchPandaDad(idnum) {
-  const nodes = G.v(idnum).in("family").filter(function(vertex) {
-    return vertex.gender == "Male"
-  }).run()
+/** Find a panda's dad or possible dads */
+export function searchPandaDad(idnum: number) {
+  const nodes = G.v(idnum)
+    .in("family")
+    .filter((vertex: GraphNode) => vertex.gender == "Male")
+    .run()
   return nodes
 }
 
-/** Find a single panda by id number */
-export function searchPandaId(idnum) {
+/** 
+ * Find a single panda by id number.
+ * TODO ES6: how to cast this to a NodePanda?
+ */
+export function searchPandaId(idnum: number) {
   const node = G.v(idnum).run()
   return node
 }
@@ -669,7 +651,7 @@ export function searchPandaId(idnum) {
  * Find instances of a panda's ID in both the animal vertices and in the media
  * (group) photos. Optionally, only return group information for animals.
  */
-export function searchPandaMedia(query, only_media=false) {
+export function searchPandaMedia(query: string, only_media=false) {
   const animals = searchPanda(query)
   // Get an array of graph result arrays, and flatten them
   const media = [].concat.apply([],
@@ -677,7 +659,7 @@ export function searchPandaMedia(query, only_media=false) {
       // Search for graph nodes that have "panda.tags" values
       // that match the ids of any animal in the original 
       // searchPanda list.
-      const nodes = G.v().filter(function(vertex) {
+      const nodes = G.v().filter((vertex: GraphNode) => {
         if (Object.keys(vertex).includes("panda.tags")) {
           return vertex["panda.tags"].includes(id)
         }
@@ -717,7 +699,7 @@ export function searchPandaMom(idnum: number) {
 }
 
 /** Find a panda by any name field. */
-export function searchPandaName(name) {
+export function searchPandaName(name: string) {
   let nodes = searchPandaNameFields(name)
   nodes = nodes.filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
@@ -858,37 +840,38 @@ export function searchPandaZooArrived(idnum: number, months=6) {
  * Find all pandas born (and living) at a given zoo. For interleaving with
  * other results, make a date object from  their birthday for the `sort_time`
  */
-export function searchPandaZooBorn(idnum, months=6) {
-  const born = G.v(idnum).in("birthplace").filter(function(vertex) {
-    return vertex.death == undefined   // Gotta be alive
-  }).filter(function(vertex) {
-    // Compare all panda birthdays node dates with current time.
-    const current_time = new Date()
-    const birth_time = new Date(vertex["birthday"])
-    const ms_per_month = 1000 * 60 * 60 * 24 * 31
-    const ms_in_period = months * ms_per_month
-    if (ms_in_period == 0) {
-      // Get all born if months == 0
-      vertex["sort_time"] = birth_time
-      return vertex
-    }
-    if (current_time - birth_time < ms_in_period) {
-      vertex["sort_time"] = birth_time
-      // Info about why this animal appeared in results
-      vertex["search_context"] = {
-        "query": "born",
-        "at": idnum
+export function searchPandaZooBorn(idnum: number, months=6) {
+  const born = G.v(idnum)
+    .in("birthplace")
+    .filter((vertex: GraphNode) => {
+      if (vertex.death != undefined) return false   // Gotta be alive
+      // Compare all panda birthdays node dates with current time.
+      const current_time = new Date()
+      const birth_time = new Date(vertex["birthday"])
+      const ms_per_month = 1000 * 60 * 60 * 24 * 31
+      const ms_in_period = months * ms_per_month
+      if (ms_in_period == 0) {
+        // Get all born if months == 0
+        vertex["sort_time"] = birth_time
+        return vertex
       }
-      return vertex
-    } else {
-      return false
-    }
-  }).run()
+      if (current_time - birth_time < ms_in_period) {
+        vertex["sort_time"] = birth_time
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "born",
+          "at": idnum
+        }
+        return vertex
+      } else {
+        return false
+      }
+    }).run()
   return born
 }
 
 /** Find all pandas that were either born at, or lived at a given zoo */
-export function searchPandaZooBornLived(idnum, search_context=false) {
+export function searchPandaZooBornLived(idnum: number, search_context=false) {
   if (idnum > 0)
     idnum = idnum * -1
   const compare_id = idnum * -1
@@ -949,10 +932,11 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
  * Find all pandas born at a given zoo any time. Set search_context to `true`
  * if you want the results to add a "born" zoo listing
  */
-export function searchPandaZooBornRecords(idnum, search_context=false) {
+export function searchPandaZooBornRecords(idnum: number, search_context=false) {
   if (idnum > 0) 
     idnum = idnum * -1;   // HACK: zoo records
-  let nodes = G.v(idnum).in("birthplace").filter(function(vertex) {
+  // HACK: you can enrich nodes with filter
+  let nodes = G.v(idnum).in("birthplace").filter((vertex: GraphNode) => {
     if (search_context == true) {
       vertex["search_context"] = {
         "query": "born_at",
@@ -967,10 +951,11 @@ export function searchPandaZooBornRecords(idnum, search_context=false) {
 }
 
 /** Find all pandas at a given zoo that are still alive */
-export function searchPandaZooCurrent(idnum) {
-  const nodes = G.v(idnum).in("zoo").filter(function(vertex) {
-    return vertex.death == undefined
-  }).run()
+export function searchPandaZooCurrent(idnum: number) {
+  const nodes = G.v(idnum)
+    .in("zoo")
+    .filter((vertex: GraphNode) => vertex.death == undefined)
+    .run()
   return nodes
 }
 
@@ -978,13 +963,13 @@ export function searchPandaZooCurrent(idnum) {
  * Find all pandas that relocated away from a zoo in the last six months. Use
  * the locations value (animals without one haven't relocated)
  */
-export function searchPandaZooDeparted(idnum, months=6) {
+export function searchPandaZooDeparted(idnum: number, months=6) {
   const compare_id = idnum * -1
   let nodes = G.v()
     // Departed animals aren't at the desired zoo currently
-    .filter(vertex => vertex.locations && vertex.locations.length > 0)
-    .filter(vertex => vertex.zoo != idnum)
-    .filter(vertex => {
+    .filter((vertex: GraphNode) => vertex.locations && vertex.locations.length > 0)
+    .filter((vertex: NodePanda) => vertex.zoo != idnum)
+    .filter((vertex: NodePanda) => {
       // Gets panda locations. We want the date of the next zoo
       // the animal was based at. If that date is less than 6 months 
       // ago, return in list.
@@ -1036,37 +1021,39 @@ export function searchPandaZooDeparted(idnum, months=6) {
   return nodes
 }
 
-export function searchPandaZooDied(idnum, months=6) {
+export function searchPandaZooDied(idnum: number, months=6) {
   if (idnum > 0)
     idnum = idnum * -1;   // HACK: zoo records
-  let nodes = G.v(idnum).in("zoo").filter(function(vertex) {
-    return vertex.death != undefined   // Gotta be dead
-  }).filter(function(vertex) {
-    // Compare all panda anniversary dates with current time.
-    const current_time = new Date().getTime()
-    const anniversary = new Date(vertex["death"]).getTime()
-    const ms_per_month = 1000 * 60 * 60 * 24 * 31
-    const ms_in_period = months * ms_per_month
-    if (ms_in_period == 0) {
-      // Get all died if months == 0
-      vertex["sort_time"] = vertex["death"]
-      // Info about why this animal appeared in results
-      vertex["search_context"] = {
-        "query": "died"
+  let nodes = G.v(idnum)
+    .in("zoo")
+    .filter((vertex: NodePanda) => {
+      // Gotta be dead
+      if (vertex.death == undefined) return false
+      // Compare all panda anniversary dates with current time.
+      const current_time = new Date().getTime()
+      const anniversary = new Date(vertex.death).getTime()
+      const ms_per_month = 1000 * 60 * 60 * 24 * 31
+      const ms_in_period = months * ms_per_month
+      if (ms_in_period == 0) {
+        // Get all died if months == 0
+        vertex["sort_time"] = vertex["death"]
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "died"
+        }
+        return vertex
       }
-      return vertex
-    }
-    if (current_time - anniversary < ms_in_period) {
-      vertex["sort_time"] = vertex["death"]
-      // Info about why this animal appeared in results
-      vertex["search_context"] = {
-        "query": "died"
+      if (current_time - anniversary < ms_in_period) {
+        vertex["sort_time"] = vertex["death"]
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "died"
+        }
+        return vertex
+      } else {
+        return false
       }
-      return vertex
-    } else {
-      return false
-    }
-  }).run()
+    }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
   return nodes
 }
@@ -1075,13 +1062,15 @@ export function searchPandaZooDied(idnum, months=6) {
  * Find all nodes with a particular photo credit. Optionally, filter by a list
  * of panda ids.
  */
-export function searchPhotoCredit(author, filter_ids=[]) {
+export function searchPhotoCredit(author: string, filter_ids: (number|string)[] = []) {
   const photoTypes = ["media", "panda", "wild", "zoo"]
   const nodes = G.v()
-    .filter(vertex => photoTypes.includes(vertex.type))
-    .filter(vertex => vertex.photos.length > 0)
-    .filter(vertex => vertex.photos.some(photo => photo.author == author))
-    .filter(vertex => {
+    .filter((vertex: GraphNode) => photoTypes.includes(vertex.type))
+    .filter((vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) =>
+      vertex.photos.length > 0)
+    .filter((vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) =>
+      vertex.photos.some(photo => photo.author == author))
+    .filter((vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) => {
       if (filter_ids.length == 0)
         return true
       else
@@ -1098,13 +1087,13 @@ export function searchPhotoProfile(animal_list) {
 }
 
 /** Find profile photos for an animal's children */
-export function searchPhotoProfileChildren(idnum) {
+export function searchPhotoProfileChildren(idnum: number) {
   const children = sortOldestToYoungest(searchPandaChildren(idnum))
   return searchPhotoProfile(children)
 }
 
 /** Find profile photos for an animal's family */
-export function searchPhotoProfileImmediateFamily(idnum) {
+export function searchPhotoProfileImmediateFamily(idnum: number) {
   const me = searchPandaId(idnum)
   const mom = searchPandaMom(idnum)
   const dad = searchPandaDad(idnum)
@@ -1114,7 +1103,7 @@ export function searchPhotoProfileImmediateFamily(idnum) {
 }
 
 /** Find profile photos for an animal's siblings */
-export function searchPhotoProfileSiblings(idnum) {
+export function searchPhotoProfileSiblings(idnum: number) {
   const nonLitterSiblings = searchNonLitterSiblings(idnum)
   const litter = searchLitter(idnum)
   const siblings = sortOldestToYoungest(nonLitterSiblings.concat(litter))
@@ -1167,12 +1156,12 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
  * Find a panda's siblings, defined as the intersection of children by the same
  * mother and father panda, but excluding the initial panda we started from.
  */
-function searchSiblings(idnum) {
+function searchSiblings(idnum: number) {
   const nodes = G.v(idnum)
     .as("me")
     .in("family")
     .out("family")
-    .filter(vertex => vertex.type != "none")
+    .filter((vertex: GraphNode) => vertex.type == "panda")   // Not NodeNone
     .unique()
     .except("me")
     .run()
@@ -1199,7 +1188,7 @@ export function searchZooId(idnum: string) {
  * Search for a word in the Zoo's name or location, and return any nodes that
  * match one of the strings therein.
  */
-export function searchZooName(zoo_name_str) {
+export function searchZooName(zoo_name_str: string) {
   if (Language.testString(zoo_name_str, "Latin") == true) {
     zoo_name_str = Language.capitalNames(zoo_name_str)
   }
@@ -1207,8 +1196,8 @@ export function searchZooName(zoo_name_str) {
   const languages = Defaults.languages
   const searchFields = ["location", "name"]
   const location_nodes = G.v()
-    .filter(vertex => vertex.type == "zoo")
-    .filter(vertex => {
+    .filter((vertex: GraphNode) => vertex.type == "zoo")
+    .filter((vertex: NodeZoo) => {
       // Match the input string against any of the possible zoo name or location fields
       for (const searchField of searchFields) {
         for (const language of Defaults.languages) {
@@ -1283,7 +1272,7 @@ function sortByNameJapanese(nodes) {
  * Sort a list of pandas by their desired "Lang.name" field. Works for
  * non-group entities (pandas and zoos).
  */
-function sortByName(nodes, name_field) {
+function sortByName(nodes, name_field: string) {
   return nodes.sort(function(a, b) {
     if (a[name_field] > b[name_field]) {
       return 1
@@ -1500,13 +1489,13 @@ export function gender(animal: NodePanda) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity: NodeMedia, photo) {
+export function groupMediaCaption(entity: NodeMedia, photo: Photo) {
   const pandaTags = entity["panda.tags"]
   let output_string = Defaults.animal.name[Env.language]
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
-    const panda = searchPandaId(id)[0]
+    const panda = searchPandaId(parseInt(id))[0]
     const [x, y] = photo.locations[id]
     const name = Language.fallback_name(panda)
     const info = {
@@ -1548,9 +1537,9 @@ export function groupMediaCaption(entity: NodeMedia, photo) {
  * If both animals don't share parents, and neither animal's parents are in an
  * undefined/unknown situation, they are half siblings. Also, if a panda has
  * multiple "possible" moms or dads, it's impossible to truly say whether you
- * have a haf sibling or not.
+ * have a half sibling or not.
  */
-export function halfSiblings(animal, sibling) {
+export function halfSiblings(animal: NodePanda, sibling: NodePanda) {
   // Indeterminate mom/dad check means your half sibling calculations
   // are impossible. You just can't know for sure.
   if (indeterminateSiblings(animal._id, sibling._id) == true)
@@ -1564,13 +1553,13 @@ export function halfSiblings(animal, sibling) {
   // determine whether someone is a half-sibling or not.
   let sibling_year = -1
   if (sibling["birthday"] != Defaults.animal["birthday"])
-    sibling_year = parseInt(formatYear(sibling["birthday"], Env.language))
+    sibling_year = parseInt(formatYear(sibling["birthday"]))
   let mymom_year = -2
   if (animal_mom != undefined)
-    mymom_year = parseInt(formatYear(animal_mom["birthday"], Env.language))
+    mymom_year = parseInt(formatYear(animal_mom["birthday"]))
   let mydad_year = -2
   if (animal_dad != undefined)
-    mydad_year = parseInt(formatYear(animal_dad["birthday"], Env.language))
+    mydad_year = parseInt(formatYear(animal_dad["birthday"]))
   // Conditions where you can defer half-sibling relationships based on whether
   // your siblings are older than either your mom or dad
   if (((animal_mom == undefined) || (animal_dad == undefined) || 
@@ -1589,7 +1578,7 @@ export function halfSiblings(animal, sibling) {
  * Check whether this animal's child has more than one parent of the same
  * gender listed.
  */
-export function indeterminateParent(parent_id, child_id) {
+export function indeterminateParent(parent_id: number, child_id: number) {
   const parent_gender = searchPandaId(parent_id)[0].gender
   if (parent_gender == "m") {
     return searchPandaDad(child_id).length > 1
