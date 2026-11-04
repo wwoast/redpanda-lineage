@@ -694,13 +694,12 @@ export function update() {
   if ((window.location.hash == "#links") && (P.db != undefined))
     Page.links.render()
   // Update the placeholder text for a search bar
-  if (document.forms['searchForm'] != undefined) {
+  const form = document.forms.namedItem('searchForm')
+  if (form != null) {
     if (P.db == undefined)
-      document.forms['searchForm']['searchInput'].placeholder =
-        Gui.loading[Env.language]
+      form['searchInput'].placeholder = Gui.loading[Env.language]
     else
-      document.forms['searchForm']['searchInput'].placeholder =
-        "➤ " + Gui.search[Env.language]
+      form['searchInput'].placeholder = "➤ " + Gui.search[Env.language]
   }
   // Change the page title
   document.title = Gui.title[Env.language]
