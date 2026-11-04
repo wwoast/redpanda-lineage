@@ -193,17 +193,6 @@ function randomChoiceSeed(array, seed_input, count) {
   return Object.values(seen)
 }
 
-/** Remove elements from the second list from the first */
-export function removeElements(list, removals) {
-  return list.filter(function(item) {
-    if (removals.includes(item)) {
-      return false
-    } else {
-      return true
-    }
-  })
-}
-
 /** 
  * Remove elements from the second list from the first, as long as some
  * dictionary item matches (typically the animal or zoo id)
@@ -322,7 +311,7 @@ export function searchBabies(year) {
   let baby_year = P.db["_totals"]["last_born"]
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (parseInt(year) > parseInt(Defaults.date.earliest_year)) {
-    baby_year = year
+    baby_year = parseInt(year)
   }
   const nodes = G.v().filter(function(vertex) {
     const their_date = new Date(vertex.birthday)
@@ -497,10 +486,10 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
 /** Find all pandas that died within a calendar year. */
 export function searchDead(year) {
   // Default search is for the most recent year we recorded a birth in
-  const died_year = P.db["_totals"]["last_died"]
+  let died_year = P.db["_totals"]["last_died"]
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (parseInt(year) > parseInt(Defaults.date.earliest_year))
-    died_year = year
+    died_year = parseInt(year)
   const nodes = G.v().filter(function(vertex) {
     const their_date = new Date(vertex.death)
     const their_year = their_date.getFullYear()
@@ -1442,21 +1431,6 @@ export function date(animal, field) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   return formatDate(date)
-}
-
-/** 
- * Given a field that doesn't have language information associated with it,
- * return either the field if it exists, or some reasonable default.
- */
-export function field(animal, field, mode="animal") {
-  if (animal[field] != undefined && typeof animal[field] === 'string')
-    return animal[field]
-  else if (Defaults[mode][field] != undefined)
-    return Defaults[mode][field]
-  else if (field == "photos")
-    return [Defaults.photo]
-  else
-    return undefined
 }
 
 /** 

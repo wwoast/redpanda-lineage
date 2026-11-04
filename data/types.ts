@@ -58,6 +58,17 @@ declare global {
   }
 
   /** 
+   * A dictionary of year/month/day values that that supports optional "any"
+   * values for year and day. This is intended for shorthand date formatting
+   * that might just be MM/DD or YYYY/MM.
+   */
+  type ParsedDate = {
+    year: number | "any",
+    month: number,
+    day: number | "any"
+  }
+
+  /** 
    * Photos in the entity files start with `photo.\d+` and the URL of the photo,
    * but other fields exist with that field name as a prefix.
    */
@@ -537,6 +548,8 @@ declare global {
     wild: NodeWild,
     /** If the panda lives at a zoo, resolve its location into an `NodeZoo` */
     zoo: NodeZoo
+    /** For fallback translation and further enrichment, allow string keys */
+    [key: string]: any
   }
 
   /** 
@@ -592,7 +605,9 @@ declare global {
     /** Used to type-narrow for `ResultZoo` objects */
     type: "zoo",
     /** The URL of the zoo's website */
-    website: string
+    website: string,
+    /** For fallback translation and further enrichment, allow string keys */
+    [key: string]: any
   }
 
   /** For rendering the Location boxes on the Profile page */

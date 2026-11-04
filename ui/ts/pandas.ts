@@ -101,7 +101,9 @@ function date_to_ymd(date: Date) {
  * Match a birthday against a date-ymd dict, allowing for if the check field
  * (y m or d) is "any", match against the other values.
  */
-function date_ymd_compare_field(birthday, input, check) {
+function date_ymd_compare_field(
+  birthday: ParsedDate, input: ParsedDate, check: keyof ParsedDate
+) {
   if (input[check] == "any") {
     return true
   } else {
@@ -109,13 +111,16 @@ function date_ymd_compare_field(birthday, input, check) {
   }
 }
 
-function date_ymd_compare(birthday_ymd, input_ymd) {
+function date_ymd_compare(birthday_ymd: ParsedDate, input_ymd: ParsedDate) {
   return ((date_ymd_compare_field(birthday_ymd, input_ymd, "day")) &&
           (date_ymd_compare_field(birthday_ymd, input_ymd, "month")) &&
           (date_ymd_compare_field(birthday_ymd, input_ymd, "year")))
 }
 
-/** Filter for distinct animals or zoos */
+/** 
+ * Filter for distinct animals or zoos.
+ * TODO: use unique instead from dagoba when dealing with graphs?
+ */
 export function distinct(list: any[]) {
   const unique =
     (value: any, index: number, self: any[]) => self.indexOf(value) === index
@@ -125,6 +130,8 @@ export function distinct(list: any[]) {
 /** 
  * Generates a valid index to a link for a link entity, up to the point that
  * said entity doesn't have a defined link in its data.
+ * 
+ * TODO ES6: get rid of this
  */
 export function* linkGeneratorEntity(entity, index=0) {
   if (entity == undefined)
@@ -193,17 +200,6 @@ function randomChoiceSeed<T>(array: T[], seed_input: number | undefined, count: 
       seen[random] = array[random]
   }
   return Object.values(seen)
-}
-
-/** Remove elements from the second list from the first */
-export function removeElements(list, removals) {
-  return list.filter(function(item) {
-    if (removals.includes(item)) {
-      return false
-    } else {
-      return true
-    }
-  })
 }
 
 /** 
@@ -304,29 +300,29 @@ export function values(input) {
 
 /** Shorthand for getting all the animals */
 export function allAnimals() {
-  const animals = G.v().filter(function(vertex) {
-    return vertex._id > 0
-  }).run()
-  return animals
+  const animals = G.v()
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .run()
+  return animals as NodePanda[]
 }
 
 export function allAnimalsAndMedia() {
-  const vertices = G.v().filter(function(vertex) {
-    return ((vertex._id > 0) || 
-            (vertex._id.indexOf("media") == 0))
-  }).run()
-  return vertices
+  const vertices = G.v()
+    .filter((vertex: GraphNode) => vertex.type == "panda" || vertex.type =="media")
+    .run()
+  return vertices as (NodePanda | NodeMedia)[]
 }
 
 /** Find all panda babies born within a calendar year. */
-export function searchBabies(year) {
+export function searchBabies(year: string) {
   // Default search is for the most recent year we recorded a birth in
   let baby_year = P.db["_totals"]["last_born"]
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (parseInt(year) > parseInt(Defaults.date.earliest_year)) {
-    baby_year = year
+    baby_year = parseInt(year)
   }
-  const nodes = G.v().filter(function(vertex) {
+  const nodes: NodePanda[] = G.v().filter((vertex: GraphNode) => {
+    if (vertex.type != "panda") return false  // Just animals
     const their_date = new Date(vertex.birthday)
     const their_year = their_date.getFullYear()
     return their_year == baby_year
@@ -338,15 +334,14 @@ export function searchBabies(year) {
  * Find all pandas that have a certain birthday. Used for date searches, unlike
  * other functions which are for showing birthday pandas on the front page.
  */
-export function searchBirthdayList(input_date) {
+export function searchBirthdayList(input_date: string) {
   const input_ymd = parseDate(input_date)
   // Make sure we're using a 4-digit year, assume > 2000
-  if (input_ymd["year"] < 2000) {
+  if (typeof input_ymd.year === "number" && input_ymd.year < 2000) {
     input_ymd["year"] = input_ymd["year"] + 2000
   }
-  const nodes = G.v().filter(function(vertex) {
-    return vertex._id > 0   // Just animals
-  }).filter(function(vertex) {
+  const nodes = G.v().filter((vertex: GraphNode) => {
+    if (vertex.type != "panda") return false   // Just animals
     const birthday = new Date(vertex.birthday)
     const birthday_ymd = date_to_ymd(birthday)
     return date_ymd_compare(birthday_ymd, input_ymd)
@@ -497,12 +492,12 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
 }
 
 /** Find all pandas that died within a calendar year. */
-export function searchDead(year) {
+export function searchDead(year: string) {
   // Default search is for the most recent year we recorded a birth in
-  const died_year = P.db["_totals"]["last_died"]
+  let died_year = P.db["_totals"]["last_died"]
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (parseInt(year) > parseInt(Defaults.date.earliest_year))
-    died_year = year
+    died_year = parseInt(year)
   const nodes = G.v().filter(function(vertex) {
     const their_date = new Date(vertex.death)
     const their_year = their_date.getFullYear()
@@ -1360,7 +1355,7 @@ export function sortOldestToYoungest(nodes) {
   })
 }
 
-export function sortYoungestToOldest(nodes) {
+export function sortYoungestToOldest(nodes: NodePanda[]) {
   return nodes.sort(function(a, b) {
     const time_a = parseInt(new Date(a.birthday).getTime())
     const time_b = parseInt(new Date(b.birthday).getTime())
@@ -1383,7 +1378,7 @@ export function sortYoungestToOldest(nodes) {
  * 
  *   The date of their passing.
  */
-export function age(animal) {
+export function age(animal: NodePanda) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
     return Defaults.unknown[Env.language]
@@ -1399,7 +1394,7 @@ export function age(animal) {
   const age_years = Math.floor(age_days / 365)
   const age_months = Math.floor(age_days / 31)
   // Specify whether you say "day" or "days" in the age string
-  function pluralize(count, time_word) {
+  function pluralize(count: number, time_word: string) {
     return (count < 2) ? Defaults.age[Env.language][time_word]
                        : Defaults.age[Env.language][time_word + "s"]
   }
@@ -1425,7 +1420,7 @@ export function age(animal) {
 }
 
 /** Return just a panda's age in years (for birthday messages/etc) */
-export function ageYears(animal) {
+export function ageYears(animal: NodePanda) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
     return Defaults.unknown[Env.language]
@@ -1438,7 +1433,7 @@ export function ageYears(animal) {
 }
 
 /** Given an animal, return their birthday, formatted to the correct locale. */
-export function birthday(animal) {
+export function birthday(animal: NodePanda) {
   return date(animal, 'birthday')
 }
 
@@ -1446,26 +1441,11 @@ export function birthday(animal) {
  * Given an animal and a language, return one of the panda's date fields in the
  * local format.
  */
-export function date(animal, field) {
+export function date(animal: NodePanda, field: string) {
   const date = animal[field]
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   return formatDate(date)
-}
-
-/** 
- * Given a field that doesn't have language information associated with it,
- * return either the field if it exists, or some reasonable default.
- */
-export function field(animal, field, mode="animal") {
-  if (animal[field] != undefined && typeof animal[field] === 'string')
-    return animal[field]
-  else if (Defaults[mode][field] != undefined)
-    return Defaults[mode][field]
-  else if (field == "photos")
-    return [Defaults.photo]
-  else
-    return undefined
 }
 
 /** 
@@ -1474,7 +1454,7 @@ export function field(animal, field, mode="animal") {
  * sightings, it tracks dates less granularly, since pandas are endangered and
  * we need to protect their whereabouts.
  */
-export function formatDate(date) {
+export function formatDate(date: string) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   if ((date.split("/").length == 2) &&
@@ -1490,7 +1470,7 @@ export function formatDate(date) {
 }
 
 /** Given a date string with a year and a season, format that date */
-function formatSeason(date) {
+function formatSeason(date: string) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   let [ year, season ] = date.split("/")
@@ -1502,15 +1482,15 @@ function formatSeason(date) {
 }
 
 /** Given a date string, return just the year */
-export function formatYear(date) {
+export function formatYear(date: string) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
-  const [ year, month, day ] = date.split("/")
+  const [ year ] = date.split("/")
   return year
 }
 
 /** Given an animal and a language, return the proper gender string. */
-export function gender(animal) {
+export function gender(animal: NodePanda) {
   const gender = animal["gender"]
   return gender == undefined ? Defaults.unknown[Env.language] 
                              : Defaults.gender[gender][Env.language]
@@ -1520,7 +1500,7 @@ export function gender(animal) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity, photo) {
+export function groupMediaCaption(entity: NodeMedia, photo) {
   const pandaTags = entity["panda.tags"]
   let output_string = Defaults.animal.name[Env.language]
   let animals = []
@@ -1798,7 +1778,7 @@ export function othernames(animal: NodePanda) {
  * Parse a date based on the observed values, falling back to a
  * language-specific date format as appropriate.
  */
-function parseDate(date: string) {
+function parseDate(date: string): ParsedDate {
   // Whatever the non-numeric date delimiters are, replace it with slash.
   // Then chop off any delimiters at the beginning or end of the string.
   date = date.replace(/[^\d]/g, '/')
