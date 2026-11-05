@@ -68,7 +68,7 @@ declare global {
     day: number | "any"
   }
 
-  /** 
+  /**
    * Photos in the entity files start with `photo.\d+` and the URL of the photo,
    * but other fields exist with that field name as a prefix.
    */
@@ -453,7 +453,11 @@ declare global {
 
   type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo
 
-  interface ResultPhoto extends Omit<Photo, "commitdate" | "source"> {
+  /**
+   * Photos rendered in carousels or returned in search results, need to track
+   * metadata related to how they were found or how they will be displayed.
+   */
+  interface EnrichedPhoto extends Omit<Photo, "commitdate" | "source"> {
     /** The numeric or string ID this photo represents */
     _id: number | string,
     /** Natural number index for displaying in carousels */
@@ -466,7 +470,7 @@ declare global {
     /** What the origin of this photo is */
     type: "media" | "panda" | "wild" | "zoo"
     /** 
-     * Unlike the `Photo` object which tracks tags on a photo, `ResultPhoto`
+     * Unlike the `Photo` object which tracks tags on a photo, `EnrichedPhoto`
      * tracks the tags _queried for_ in RPF that this photo matched.
      */
     tags: string[]
@@ -476,8 +480,8 @@ declare global {
    * Panda results are an enrichment of the panda entity info tracked in the
    * Dagobah graph.
    */
-  interface ResultPanda {
-    /** The numeric string ID for the `ResultPanda` animal */
+  interface EnrichedPanda {
+    /** The numeric string ID for the `EnrichedPanda` animal */
     _id: number | string,
     /** 
      * String describing the panda's age. Birthdates are not more granular than
@@ -546,7 +550,7 @@ declare global {
     siblings: NodePanda[],
     /** The language-translated species name for this red panda */
     species: string,
-    /** Used to type-narrow for `ResultPanda` objects */
+    /** Used to type-narrow for `EnrichedPanda` objects */
     type: "panda",
     /** 
      * If the panda lives in the wild, resolve its current location into an
@@ -563,8 +567,8 @@ declare global {
    * Zoo results are an enrichment of the zoo entity info tracked in the Dagobah
    * graph.
    */
-  interface ResultZoo {
-    /** The numeric string ID for the `ResultZoo` zoo */
+  interface EnrichedZoo {
+    /** The numeric string ID for the `EnrichedZoo` zoo */
     _id: number | string,
     /** The address of this zoo, translated into the current display language. */
     address: string,
@@ -609,7 +613,7 @@ declare global {
     recorded: NodePanda[],
     /** The total tally of red pandas that have ever lived at this zoo */
     recorded_count: number,
-    /** Used to type-narrow for `ResultZoo` objects */
+    /** Used to type-narrow for `EnrichedZoo` objects */
     type: "zoo",
     /** The URL of the zoo's website */
     website: string,
@@ -617,11 +621,11 @@ declare global {
     [key: string]: any
   }
 
-  /** TODO: result wild as well? */
-  type ResultEntity = ResultPanda | ResultZoo
+  /** TODO: enriched wild as well? */
+  type EnrichedEntity = EnrichedPanda | EnrichedZoo
 
   /** For rendering the Location boxes on the Profile page */
-  interface ResultLocation {
+  interface ProfileLocation {
     zoo: number | string,
     start_date: string,
     end_date: string | undefined

@@ -37,7 +37,7 @@ export interface Carousel {
   /** photo index of the photo being shown */
   index: number,
   /** information about the animal or zoo this gallery is for */
-  info: ResultEntity,
+  info: EnrichedEntity,
   /** unique string to add to the gallery to make the widget unique */
   unique: string
 }
@@ -47,10 +47,10 @@ export class Carousel {
   fallback_url = Defaults.photo.url
   image = document.createElement('img')
   index = 1
-  info: ResultEntity
+  info: EnrichedEntity
   unique: string
 
-  constructor(info: ResultEntity, carousel_type: "panda" | "zoo", fallback_url: string) {
+  constructor(info: EnrichedEntity, carousel_type: "panda" | "zoo", fallback_url: string) {
     this.info = info   // Old photo value == info.photo
     // Hacky way to determine the proper element class from whether this is an
     // animal photo carousel or a zoo photo carousel
@@ -251,7 +251,7 @@ export class Carousel {
   }
 
   /** Replace the photographer's credit info for a panda's photo */
-  singlePhotoCredit(info: ResultPhoto, last_index: number, current_index: number) {
+  singlePhotoCredit(info: EnrichedPhoto, last_index: number, current_index: number) {
     const animal_id = info._id
     const credit_link =
       document.querySelector<HTMLAnchorElement>(`#${animal_id}/author/${last_index}`)
@@ -266,7 +266,7 @@ export class Carousel {
   }
 
   /** Replace the photographer's apple points (number of photos on the site) */
-  userApplePoints(info: ResultPhoto, last_index: number, current_index: number) {
+  userApplePoints(info: EnrichedPhoto, last_index: number, current_index: number) {
     const animal_id = info._id
     const apple_link =
       document.querySelector<HTMLAnchorElement>(`#${animal_id}/counts/${last_index}`)
@@ -470,7 +470,7 @@ function creditPhotosPage(page: number, results, max_hits: number) {
  */
 export function familyProfilePhoto(
   animal: NodePanda,
-  chosen_photo: ResultPhoto,
+  chosen_photo: EnrichedPhoto,
   relationship: string,
   frame_class: string,
   multiple=false
@@ -858,7 +858,7 @@ export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], p
  * the photos in the website contributed by a single author.
  */
 function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, credit: string) {
-  const photos: ResultPhoto[] = []
+  const photos: EnrichedPhoto[] = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
       photos.push({
@@ -877,7 +877,7 @@ function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, cred
 }
 
 /** Format a panda credit photo into displayable content */
-function pandaPhotoCreditSingle(photo: ResultPhoto) {
+function pandaPhotoCreditSingle(photo: EnrichedPhoto) {
   const img_link = document.createElement('a')
   const id = photo._id
   // Link to the original instagram media
@@ -1007,7 +1007,7 @@ function tagPhotoMessage(results, hit_count: number) {
 }
 
 /** Take a photo that matches a tag, and display it along with the tag emoji */
-function tagPhotoSingle(photo: ResultPhoto, add_emoji: boolean) {
+function tagPhotoSingle(photo: EnrichedPhoto, add_emoji: boolean) {
   const content_divs = []
   const node = Pandas.searchPandaId(photo._id)[0]   // animal or media
   const img_link = document.createElement('a')
@@ -1282,7 +1282,7 @@ function updatedPhotoOrdering(photo_count: number) {
   return output_photos
 }
 
-function zooPhotoCreditSingle(photo: ResultPhoto) {
+function zooPhotoCreditSingle(photo: EnrichedPhoto) {
   const index = photo.index
   const img_link = document.createElement('a')
   const id = photo._id

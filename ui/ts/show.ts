@@ -26,7 +26,7 @@ export function acquirePandaInfo(animal: NodePanda) {
     ? "random"
     : parseInt(Env.specific_photo)
   const picture = Pandas.profilePhoto(animal, chosen_index)
-  let bundle = <ResultPanda>{
+  let bundle = <EnrichedPanda>{
             "_id": animal._id,
             "age": Pandas.age(animal),
        "birthday": Pandas.birthday(animal),
@@ -52,7 +52,7 @@ export function acquirePandaInfo(animal: NodePanda) {
            "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  bundle = Language.fallbackInfo<ResultPanda>(bundle, animal)   // Any defaults here?
+  bundle = Language.fallbackInfo<EnrichedPanda>(bundle, animal)   // Any defaults here?
   // HACK: revert search context
   animal["search_context"] = undefined
   return bundle
@@ -70,7 +70,7 @@ function acquireLocationList(animal: NodePanda) {
 }
 
 /** TODO-Types: type discriminate between zoo and wild locations */
-function getZooBundle(location: ResultLocation) {
+function getZooBundle(location: ProfileLocation) {
   const zoos = Pandas.searchZooId(location.zoo.toString())
   if (zoos.length === 0) {
     return getUnknownZooBundle(location)
@@ -88,7 +88,7 @@ function getZooBundle(location: ResultLocation) {
   }
 }
 
-function getUnknownZooBundle(location: ResultLocation) {
+function getUnknownZooBundle(location: ProfileLocation) {
   return {
     "_id": "0",
     "end_date": Pandas.formatDate(location["end_date"]),
@@ -108,7 +108,7 @@ export function acquireZooInfo(zoo: NodeZoo) {
     : parseInt(Env.specific_photo)
   const picture = Pandas.profilePhoto(zoo, chosen_index)
   const recorded = Pandas.searchPandaZooBornLived(zoo._id)
-  let bundle = <ResultZoo>{
+  let bundle = <EnrichedZoo>{
            "_id": zoo._id,
        "animals": animals,
        "address": Pandas.zooField(zoo, "address")[Env.language],
@@ -128,7 +128,7 @@ export function acquireZooInfo(zoo: NodeZoo) {
           "type": "zoo",
        "website": Pandas.zooField(zoo, "website")
   }
-  bundle = Language.fallbackInfo<ResultZoo>(bundle, zoo)   // Any defaults here?
+  bundle = Language.fallbackInfo<EnrichedZoo>(bundle, zoo)   // Any defaults here?
   return bundle
 }
 
@@ -205,7 +205,7 @@ function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOpt
  * See how many other panda photos this user has posted.  Links to the credit
  * page for a particular author, with all of their contributed photos
  */
-function appleLink(info: ResultEntity, container_element: string) {
+function appleLink(info: EnrichedEntity, container_element: string) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
   credit_count_link.id = `${info._id}/counts/${info.photo_index}`   // Carousel
@@ -232,7 +232,7 @@ function appleLink(info: ResultEntity, container_element: string) {
  * Display the birthday and either age/date of death for an animal. Returns two
  * text nodes that can be inserted into other elements
  */
-function birthday(info: ResultPanda) {
+function birthday(info: EnrichedPanda) {
   const birthday = `${Emoji.born} ${info.birthday}`
   // If still alive, print their current age
   let parentheses = undefined
@@ -257,7 +257,7 @@ function childIcon(gender: string) {
 }
 
 /** Display a link to a photo credit on Instagram or elsewhere */
-function creditLink(info: ResultEntity, container_element: string) {
+function creditLink(info: EnrichedEntity, container_element: string) {
   const credit_link = document.createElement('a')
   credit_link.id = `${info._id}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab
@@ -358,7 +358,7 @@ function furigana(name: string, othernames: string[]) {
  * Use localized alt-text, and display SVG gender information so that padding
  * can work consistently on mobile.
  */
-export function gender(info: ResultPanda, frame_class?: string) {
+export function gender(info: EnrichedPanda, frame_class?: string) {
   const img = document.createElement('img')
   if (info.gender == Defaults.gender.Male[Env.language])
     img.src = "images/male.svg"
@@ -671,7 +671,7 @@ function zooLink(zoo: NodeZoo, link_text: string, icon=undefined) {
 }
 
 /** Display the name of a zoo in the "title bar" */
-function zooTitle(info: ResultZoo) {
+function zooTitle(info: EnrichedZoo) {
   const name_div = document.createElement('div')
   name_div.className = 'zooName'
   // No furigana for zoo names
@@ -2644,7 +2644,7 @@ export const resultsPage = {
     return content_divs
   },
   /** The pink "animal counts" information stripe for a zoo */
-  zooCounts: function(info: ResultZoo) {
+  zooCounts: function(info: EnrichedZoo) {
     const ul = document.createElement('ul')
     ul.className = "zooCounts"
     const li_items = {
@@ -2777,7 +2777,7 @@ export const resultsPage = {
     return ul
   },
   /** This is the purple "dossier" information stripe for a zoo. */
-  zooDetails: function(info: ResultZoo) {
+  zooDetails: function(info: EnrichedZoo) {
     const address = document.createElement('p')
     const address_link = document.createElement('a')
     address_link.innerText = `${Emoji.travel} ${info.address}`

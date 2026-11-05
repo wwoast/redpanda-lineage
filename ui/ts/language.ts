@@ -209,7 +209,7 @@ function fallbackFlags() {
  * Do language fallback for anything reporting as `unknown` or _empty_ in an
  * info block
  */
-export function fallbackInfo<T extends ResultEntity>(
+export function fallbackInfo<T extends EnrichedEntity>(
   info: T,
   original: NodePanda | NodeZoo
 ): T {

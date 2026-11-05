@@ -735,7 +735,7 @@ function searchPandaPhotoTagsIntersect(node: NodePanda, tags: string[]) {
     // All search tags must be in the photo tags list
     const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
-      const bundle = <ResultPhoto>{
+      const bundle = <EnrichedPhoto>{
         "_id": node._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
@@ -758,7 +758,7 @@ function searchPandaPhotoTagsIntersect(node: NodePanda, tags: string[]) {
  * TODO: output types need to be simplified if using "animal" mode to find 
  * animals with a photo matching the tag.
  * TODO: up to "contains", this previously supported optionally returning a
- * full Node rather than a ResultPhoto, but that code appeared to be unused.
+ * full Node rather than a EnrichedPhoto, but that code appeared to be unused.
  */
 function searchPandaPhotoTagsUnion(
   node: NodePanda | NodeZoo,
@@ -774,7 +774,7 @@ function searchPandaPhotoTagsUnion(
     // Any tag can match
     const contains = tags.some(tag => photo.tags.includes(tag))
     if (contains) {
-      const bundle = <ResultPhoto>{
+      const bundle = <EnrichedPhoto>{
         "_id": node._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
@@ -1147,9 +1147,9 @@ export function searchPhotoTags(
   fallback: PhotoTagFallback
 ) {
   // Iterate per animal
-  let output: ResultPhoto[] = []
+  let output: EnrichedPhoto[] = []
   for (const animal of animal_list) {
-    let set: ResultPhoto[] = []
+    let set: EnrichedPhoto[] = []
     if (mode == "photos" || mode == "union" || mode == "singleton") {
       set = searchPandaPhotoTagsUnion(animal, tags, mode)
     }
@@ -1492,7 +1492,7 @@ export function gender(animal: NodePanda) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity: NodeMedia, photo: ResultPhoto) {
+export function groupMediaCaption(entity: NodeMedia, photo: EnrichedPhoto) {
   const pandaTags = entity["panda.tags"]
   let output_string = Defaults.animal.name[Env.language]
   let animals = []
@@ -1617,8 +1617,8 @@ export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
 }
 
 /** Returns a list of locations valid for a zoo animal */
-export function locationList(animal: NodePanda): ResultLocation[] {
-  let locations: ResultLocation[] = []
+export function locationList(animal: NodePanda): ProfileLocation[] {
+  let locations: ProfileLocation[] = []
   // Return not just the chosen photo but the author and link as well
   for (const [index, location] of animal.locations.entries()) {
     const nextLocation = animal.locations[index + 1]
@@ -1710,7 +1710,7 @@ function locatorToPhoto(locator: string) {
   // Get the photo for this entity
   // Turn the natural number index to an array index
   const choice = entity.photos[photo_index - 1]
-  const desired = <ResultPhoto>{
+  const desired = <EnrichedPhoto>{
        "_id": entity._id,
     "author": choice.author,
      "index": photo_index,
@@ -1849,7 +1849,7 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
   // listed, return the default for one.
   if (animal.photos.length === 0) {
     const contributeLink = Gui.contribute_link[Env.language] ?? Gui.contribute_link["en"]
-    return <ResultPhoto>{
+    return <EnrichedPhoto>{
       "_id": animal._id,
       "author": Gui.contribute[Env.language],
       "index": 1,
@@ -1861,7 +1861,7 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
     }
   } else {
     // Return not just the chosen photo but the author and link as well
-    return <ResultPhoto>{
+    return <EnrichedPhoto>{
       "_id": animal._id,
       "author": choice.author,
       "index": arrayIndex + 1,   // Natural number display index
