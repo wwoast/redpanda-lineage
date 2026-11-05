@@ -261,7 +261,7 @@ export class Carousel {
       const apple_count = P.db._photo.credit[info.author]
       apple_link.href = `#credit/${info.author}`
       apple_link.innerText = `${Emoji.gift} ${apple_count}`
-      if (parseInt(apple_count) >= 1000) {
+      if (apple_count >= 1000) {
         apple_link.innerText = `${Emoji.megagift} ${apple_count}`
       }
     } else {
@@ -696,7 +696,7 @@ export function genericPhotoCredits(
   for (const id of id_list) {
     const animal = Pandas.searchPandaId(id)[0]
     const message = message_function.apply(null, message_params)
-    generic_div.appendChild(message)
+    generic_div.appendChild(document.createTextNode(message))
     const photos = Pandas.searchPhotoTags([animal], tag_list, "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
@@ -1343,7 +1343,7 @@ export function pumpkin(photo_count=5) {
 export function taglist(photo_count=5, taglist, message_function) {
   const div = document.createElement('div')
   const message = message_function()
-  div.appendChild(message)
+  div.appendChild(document.createTextNode(message))
   const animals_photos = Pandas.searchPandaAnyPhotoMedia()
   const photos =
     Pandas.searchPhotoTags(animals_photos, taglist, "intersect", "none")

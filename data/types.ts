@@ -463,6 +463,8 @@ declare global {
      * web URL reference.
      */
     reference: string,
+    /** What the origin of this photo is */
+    type: "media" | "panda" | "wild" | "zoo"
     /** 
      * Unlike the `Photo` object which tracks tags on a photo, `ResultPhoto`
      * tracks the tags _queried for_ in RPF that this photo matched.
@@ -614,6 +616,9 @@ declare global {
     /** For fallback translation and further enrichment, allow string keys */
     [key: string]: any
   }
+
+  /** TODO: result wild as well? */
+  type ResultEntity = ResultPanda | ResultZoo
 
   /** For rendering the Location boxes on the Profile page */
   interface ResultLocation {

@@ -205,7 +205,7 @@ function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOpt
  * See how many other panda photos this user has posted.  Links to the credit
  * page for a particular author, with all of their contributed photos
  */
-function appleLink(info: ResultPanda | ResultZoo, container_element: string) {
+function appleLink(info: ResultEntity, container_element: string) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
   credit_count_link.id = `${info._id}/counts/${info.photo_index}`   // Carousel
@@ -257,7 +257,7 @@ function childIcon(gender: string) {
 }
 
 /** Display a link to a photo credit on Instagram or elsewhere */
-function creditLink(info: ResultPanda | ResultZoo, container_element: string) {
+function creditLink(info: ResultEntity, container_element: string) {
   const credit_link = document.createElement('a')
   credit_link.id = `${info._id}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab

@@ -19,6 +19,16 @@ import * as Touch from './touch.ts'
  * with multiple pandas).
  */
 
+export interface Carousel {
+  carousel_type: "panda" | "zoo",
+  element_class: string,
+  fallback_url: string,
+  image: HTMLImageElement,
+  // TODO: make it a number
+  index: string,
+  info: ResultEntity,
+  unique: string
+}
 /** 
  * On the panda results card, a single photo is shown. On mobile, this photo
  * can be swiped left and right, and on computers, a dog ear appears when the
@@ -27,7 +37,7 @@ import * as Touch from './touch.ts'
  */
 export class Carousel {
   /** `animal` or `zoo`, used to set the `element_class` */
-  carousel_type =  "animal"
+  carousel_type: "panda" | "zoo" = "panda"
   /** `pandaPhoto` or `zooPhoto` */
   element_class = "pandaPhoto"
   /** Default image to load for a photo in this gallery */
@@ -37,11 +47,11 @@ export class Carousel {
   /** photo index of the photo being shown */
   index = "1"
   /** information about the animal or zoo this gallery is for */
-  info = undefined
+  info: ResultEntity
   /** unique string to add to the gallery to make the widget unique */
-  unique = undefined
+  unique: string
 
-  constructor(info, carousel_type, fallback_url) {
+  constructor(info: ResultEntity, carousel_type: "panda" | "zoo", fallback_url: string) {
     this.info = info   // Old photo value == info.photo
     // Hacky way to determine the proper element class from whether this is an
     // animal photo carousel or a zoo photo carousel
@@ -239,10 +249,11 @@ export class Carousel {
   }
 
   /** Replace the photographer's credit info for a panda's photo */
-  singlePhotoCredit(info, last_index, current_index) {
+  singlePhotoCredit(info: ResultPhoto, last_index: number, current_index: number) {
     const animal_id = info._id
     const credit_link =
-      document.getElementById(`${animal_id}/author/${last_index}`)
+      document.querySelector<HTMLAnchorElement>(`#${animal_id}/author/${last_index}`)
+    if (!credit_link) return
     credit_link.id = `${animal_id}/author/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author))
       credit_link.href = info.reference
@@ -253,15 +264,17 @@ export class Carousel {
   }
 
   /** Replace the photographer's apple points (number of photos on the site) */
-  userApplePoints(info, last_index, current_index) {
+  userApplePoints(info: ResultPhoto, last_index: number, current_index: number) {
     const animal_id = info._id
-    const apple_link = document.getElementById(`${animal_id}/counts/${last_index}`)
+    const apple_link =
+      document.querySelector<HTMLAnchorElement>(`#${animal_id}/counts/${last_index}`)
+    if (!apple_link) return
     apple_link.id = `${animal_id}/counts/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author)) {
       const apple_count = P.db._photo.credit[info.author]
       apple_link.href = `#credit/${info.author}`
       apple_link.innerText = `${Emoji.gift} ${apple_count}`
-      if (parseInt(apple_count) >= 1000) {
+      if (apple_count >= 1000) {
         apple_link.innerText = `${Emoji.megagift} ${apple_count}`
       }
     } else {
@@ -278,7 +291,7 @@ export class Carousel {
  */
 export const url = {
   /** Get the thumbnail uri from self-hosting */
-  codaworry: (image, input_uri) => {
+  codaworry: (image: HTMLImageElement, input_uri: string) => {
     const uri_split = input_uri.split("/")
     const cwdc_locator = uri_split.pop()
     const cwdc_url = `https://www.codaworry.com/images/submitted/${cwdc_locator}`
@@ -455,9 +468,9 @@ function creditPhotosPage(page, results, max_hits: number) {
  */
 export function familyProfilePhoto(
   animal: NodePanda,
-  chosen_photo,
-  relationship,
-  frame_class,
+  chosen_photo: ResultPhoto,
+  relationship: string,
+  frame_class: string,
   multiple=false
 ) {
   const info = Show.acquirePandaInfo(animal)
@@ -641,7 +654,7 @@ export function groupPhotosIntersectPage(page, id_list: string[], photo_count: n
   }
 }
 
-function groupPhotoSingle(entityPhoto) {
+function groupPhotoSingle(entityPhoto: NodeMedia) {
   // TOWRITE: image styles based on url being medium or large
   const imgUrl = entityPhoto.photo.url
   const img_link = document.createElement('a')
@@ -694,13 +707,17 @@ function groupPhotoSingle(entityPhoto) {
 
 /** Generic version of the birthday / memorial logic */
 export function genericPhotoCredits(
-  id_list, photo_count, tag_list, message_function, message_params
+  id_list: string[],
+  photo_count: number,
+  tag_list: string[],
+  message_function: (...args: unknown[]) => string,
+  message_params: string[]
 ) {
   const generic_div = document.createElement('div')
   for (const id of id_list) {
-    const animal = Pandas.searchPandaId(id)[0]
+    const animal = Pandas.searchPandaId(id)[0] as NodePanda
     const message = message_function.apply(null, message_params)
-    generic_div.appendChild(message)
+    generic_div.appendChild(document.createTextNode(message))
     const photos = Pandas.searchPhotoTags([animal], tag_list, "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
@@ -743,7 +760,7 @@ export function memorialPhotoCredits(
 ) {
   const memorial_div = document.createElement('div')
   for (const id of id_list) {
-    const animal = Pandas.searchPandaId(id)[0]
+    const animal = Pandas.searchPandaId(id)[0] as NodePanda
     const info = Show.acquirePandaInfo(animal)
     const message =
       message_function(info.name, info._id, info.birthday, info.death)
@@ -794,10 +811,11 @@ export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], p
   const message = Message.memorialGroup(name_string, id_link_string)
   memorial_div.appendChild(message)
   // Group photos
+  // TODO ES6: NodeMedia works here?
   let photos = Pandas.searchPhotoTags([group], ["portrait"], "photos", "first")
   // Individual photos
   for (const id of id_list) {
-    const animal = Pandas.searchPandaId(id)[0]
+    const animal = Pandas.searchPandaId(id)[0] as NodePanda
     const individual_all =
       Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     const individual_sample = Pandas.randomChoice(individual_all, 2)
@@ -856,7 +874,7 @@ function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, cred
 }
 
 /** Format a panda credit photo into displayable content */
-function pandaPhotoCreditSingle(photo) {
+function pandaPhotoCreditSingle(photo: ResultPhoto) {
   const img_link = document.createElement('a')
   const id = photo._id
   // Link to the original instagram media
@@ -876,7 +894,7 @@ function pandaPhotoCreditSingle(photo) {
     const panda_route = entity["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
-    // TODO: handle non-panda photos
+    // TODO ES6: handle non-panda photos
     const animal = Pandas.searchPandaId(id)[0]
     const info = Show.acquirePandaInfo(animal)
     caption.innerText = info.name
@@ -891,7 +909,7 @@ function pandaPhotoCreditSingle(photo) {
 }
 
 /** Display a gallery of photos with a given tag. */
-export function tagPhotos(results, max_hits, add_emoji) {
+export function tagPhotos(results, max_hits: number, add_emoji: boolean) {
   const hit_count = results["hits"].length
   // Get the first page of content
   const paging_data = tagPhotosPage(0, results, max_hits, add_emoji)
@@ -907,7 +925,7 @@ export function tagPhotos(results, max_hits, add_emoji) {
  * Use a page counter to determine where in the results count to start showing
  * photos. If photos on this page < `max_hits`, hide the next page button
  */
-function tagPhotosPage(page, results, max_hits, add_emoji) {
+function tagPhotosPage(page, results, max_hits: number, add_emoji: boolean) {
   let content_divs = []
   const initial_max_hits = max_hits
   const starting_point = page * Env.paging.results_count
@@ -954,7 +972,7 @@ function tagPhotosPage(page, results, max_hits, add_emoji) {
  * Logic to determine which message to display inside the photo gallery of
  * tagged photos
  */
-function tagPhotoMessage(results, hit_count) {
+function tagPhotoMessage(results, hit_count: number) {
   let header = undefined
   if (hit_count == 0) {
     header = Show.emptyResult(Message.Text.no_subject_tag_result)
@@ -986,7 +1004,7 @@ function tagPhotoMessage(results, hit_count) {
 }
 
 /** Take a photo that matches a tag, and display it along with the tag emoji */
-function tagPhotoSingle(photo, add_emoji) {
+function tagPhotoSingle(photo: ResultPhoto, add_emoji: boolean) {
   const content_divs = []
   const node = Pandas.searchPandaId(photo._id)[0]   // animal or media
   const img_link = document.createElement('a')
@@ -1006,7 +1024,7 @@ function tagPhotoSingle(photo, add_emoji) {
     const panda_route = node["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
-    // TODO: other node types
+    // TODO ES6: other node types
     const info = Show.acquirePandaInfo(node)
     caption.innerText = info.name
     caption_link.href = `#panda/${node._id}/photo/${photo.index}`
@@ -1064,6 +1082,7 @@ export function updatedNewPhotoCredits(photo_count=7) {
       const panda_route = node["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
     } else {
+      // TODO ES6: do specific types
       const info = Show.acquirePandaInfo(node)
       updateName = info.name
     }
@@ -1096,7 +1115,7 @@ export function updatedNewPhotoCredits(photo_count=7) {
  * Enforce the photo ordering for photos in the updates list, and select not
  * the complete set of updates/pandas/zoos, but just a single photo for each.
  */
-function updatedPhotoOrdering(photo_count) {
+function updatedPhotoOrdering(photo_count: number) {
   // New zoo photos. Include only if there are current pandas at this zoo
   // that have at least one photo. Take no more zoo photos than we have
   // budgeted to show in this section
@@ -1260,11 +1279,11 @@ function updatedPhotoOrdering(photo_count) {
   return output_photos
 }
 
-function zooPhotoCreditSingle(photo) {
+function zooPhotoCreditSingle(photo: ResultPhoto) {
   const index = photo.index
   const img_link = document.createElement('a')
   const id = photo._id
-  const entity = Pandas.searchZooId(id)[0]
+  const entity = Pandas.searchZooId(id.toString())[0]
   const info = Show.acquireZooInfo(entity)
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
@@ -1311,11 +1330,12 @@ export function pumpkin(photo_count=5) {
     const name_caption_span = document.createElement('span')
     const animal = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
-    if (photo._id.indexOf("media.") == 0) {
+    if (photo.type == "media") {
       updateName = Pandas.groupMediaCaption(animal, photo)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
+      // TODO ES6: correctly support many types here
       const info = Show.acquirePandaInfo(animal)
       updateName = info.name
     }
@@ -1348,10 +1368,14 @@ export function pumpkin(photo_count=5) {
  * special message styles yet. Iterate on this until it can be a _front page
  * gallery_ generator for anything I might want.
  */
-export function taglist(photo_count=5, taglist, message_function) {
+export function taglist(
+  photo_count=5,
+  taglist: string[],
+  message_function: (...args: unknown[]) => string
+) {
   const div = document.createElement('div')
   const message = message_function()
-  div.appendChild(message)
+  div.appendChild(document.createTextNode(message))
   const animals_photos = Pandas.searchPandaAnyPhotoMedia()
   const photos =
     Pandas.searchPhotoTags(animals_photos, taglist, "intersect", "none")
@@ -1372,11 +1396,12 @@ export function taglist(photo_count=5, taglist, message_function) {
     const name_caption_span = document.createElement('span')
     const node = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
-    if (photo.type == "media") {
+    if (node.type == "media") {
       updateName = Pandas.groupMediaCaption(node, photo)
       const panda_route = node["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
+      // TODO ES6: correctly support many types here
       const info = Show.acquirePandaInfo(node)
       updateName = info.name
     }

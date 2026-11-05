@@ -479,7 +479,7 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   let final_animals = s2_ids.map(x => searchPandaId(x)[0])
   // Good enough for year sort
   final_animals = sortByName(final_animals, "birthday")
-  return final_animals
+  return final_animals as NodePanda[]
 }
 
 /** Find all pandas that died within a calendar year. */
@@ -528,7 +528,14 @@ export function searchLinks(idstr: string) {
     .run()
   // Instead of returning the nodes, return a dictionary 
   // corresponding to all the links in that file.
-  return nodes[0]
+  return nodes[0] as NodeLinks
+}
+
+export function searchMedia(idstr: string) {
+  const nodes = G.v()
+    .filter((vertex: GraphNode) => vertex._id == idstr && vertex.type == "media")
+    .run()
+  return nodes as NodeMedia[]
 }
 
 /** Find a panda's siblings, not including littermates. */
@@ -650,7 +657,7 @@ export function searchPandaDad(idnum: number) {
  */
 export function searchPandaId(idnum: number | string) {
   const node = G.v(idnum).run()
-  return node as NodePanda[]
+  return node as GraphNode[]
 }
 
 /** 
@@ -1484,7 +1491,7 @@ export function gender(animal: NodePanda) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity: NodeMedia, photo: Photo) {
+export function groupMediaCaption(entity: NodeMedia, photo: ResultPhoto) {
   const pandaTags = entity["panda.tags"]
   let output_string = Defaults.animal.name[Env.language]
   let animals = []
@@ -1586,7 +1593,7 @@ export function indeterminateParent(parent_id: number, child_id: number) {
  * If an animal has more than one possible parent, it can make it hard
  * to determine parent or sibling relationships.
  */
-export function indeterminateSiblings(animal_id, sibling_id) {
+export function indeterminateSiblings(animal_id: number, sibling_id: number) {
   const animal_moms = searchPandaMom(animal_id)
   const animal_dads = searchPandaDad(animal_id)
   const sibling_moms = searchPandaMom(sibling_id)
@@ -1684,11 +1691,12 @@ function locatorToPhoto(locator: string) {
   // Given the entity type, convert to the proper media/panda/zoo
   const entity_type = parts[0]
   let entity_id = undefined
-  let entity = undefined
+  let entity: NodeMedia | NodePanda | NodeWild | NodeZoo
+  // TODO: we don't do locators for wild photos on the front page but ideally
+  // this code should be able to handle that situation
   if (entity_type == "media") {
     entity_id = `${parts[0]}.${parts[1]}.${parts[2]}`
-    // TODO ES6: write searchMediaId
-    entity = searchPandaId(entity_id)[0]
+    entity = searchMedia(entity_id)[0]
   }
   else if (entity_type == "zoo") {
     entity_id = (parseInt(parts[1]) * -1).toString()
@@ -1847,6 +1855,7 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
       "locations": {},
       "reference": authorLink(Gui.contribute[Env.language], contributeLink),
       "tags": [],
+      "type": animal.type,
       "url": Defaults.photo.url
     }
   } else {
@@ -1858,6 +1867,7 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
       "locations": {},
       "reference": authorLink(choice.author, choice.source),
       "tags": [],
+      "type": animal.type,
       "url": imageUrl
     }
   }
