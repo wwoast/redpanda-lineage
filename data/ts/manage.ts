@@ -409,14 +409,14 @@ async function restoreAuthorToLineage(dataset: Dataset, author: string, commitis
             case "tags": {
               if (key.split(".").length > 3) {
                 // media photos have location tags
-                if (indexToPhoto[index].locations == undefined)
-                  indexToPhoto[index].locations = {}
+                if (indexToPhoto[index].coordinates == undefined)
+                  indexToPhoto[index].coordinates = {}
                 entity["panda.tags"].forEach((pandaId: string) => {
                   const field = `photo.${index}.tags.${pandaId}.location`
                   //@ts-ignore how to better guarantee this?
                   const coordinates = value.split(", ") as [number, number]
                   if (key == field)
-                    indexToPhoto[index].locations[pandaId] = coordinates
+                    indexToPhoto[index].coordinates[pandaId] = coordinates
                 })
               } else {
                 indexToPhoto[index].tags = value.split(", ")

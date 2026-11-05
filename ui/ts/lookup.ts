@@ -89,7 +89,7 @@ export const DateLocale: Record<string, Record<Language, string>> = {
 type UnknownPhoto = {
   author: Record<Language, string>,
   commitdate: string,
-  locations: Record<string, [number, number]>,
+  coordinates: Record<string, [number, number]>,
   source: string,
   tags: string[],
   url: string

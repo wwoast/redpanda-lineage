@@ -864,8 +864,8 @@ function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, cred
       photos.push({
         "_id": node._id,
         "author": photo.author,
+        "coordinates": photo.coordinates ?? {},
         "index": index + 1,   // Natural number index
-        "locations": photo.locations ?? {},
         "reference": Pandas.authorLink(photo.author, photo.source),
         "tags": [],
         "type": node.type,

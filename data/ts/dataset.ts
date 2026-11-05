@@ -1028,7 +1028,7 @@ export class Dataset {
         url: vertex[`${photoKey}`]
       }
       if (vertex.type == "media") {
-        photo.locations = Object.fromEntries(
+        photo.coordinates = Object.fromEntries(
           vertex["panda.tags"].map(pandaId => {
             const field = `${photoKey}.tags.${pandaId}.location`
             if (!vertex[field])
@@ -1105,8 +1105,8 @@ export class Dataset {
           working[`photo.${naturalIndex}.link`] = photo.source
         if (photo.tags)
           working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
-        if (photo.locations) {
-          Object.entries(photo.locations).map((entry: [string, [number, number]]) => {
+        if (photo.coordinates) {
+          Object.entries(photo.coordinates).map((entry: [string, [number, number]]) => {
             const [pandaId, coordinates] = entry
             working[`photo.${naturalIndex}.tags.${pandaId}.location`] = coordinates.join(', ')
           })

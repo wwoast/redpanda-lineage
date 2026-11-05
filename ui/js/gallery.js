@@ -836,8 +836,8 @@ function nodePhotoCredits(node, credit) {
       photos.push({
         "_id": node._id,
         "author": photo.author,
+        "coordinates": photo.coordinates ?? {},
         "index": index + 1,   // Natural number index
-        "locations": photo.locations ?? {},
         "reference": Pandas.authorLink(photo.author, photo.source),
         "type": node.type,
         "url": photo.url

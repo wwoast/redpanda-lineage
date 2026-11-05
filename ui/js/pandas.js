@@ -714,8 +714,8 @@ function searchPandaPhotoTagsIntersect(node, tags) {
       const bundle = {
         "_id": node._id,
         "author": photo.author,
+        "coordinates": photo.coordinates ?? {},
         "index": index + 1,   // Natural number index
-        "locations": photo.locations ?? {},
         "reference": authorLink(photo.author, photo.source),
         "tags": tags,   // Not the original tags, but the ones searched for
         "type": node.type,
@@ -748,8 +748,8 @@ function searchPandaPhotoTagsUnion(node, tags, mode) {
         const bundle = {
           "_id": node._id,
           "author": photo.author,
+          "coordinates": photo.coordinates ?? {},
           "index": index + 1,   // Natural number index
-          "locations": photo.locations ?? {},
           "reference": authorLink(photo.author, photo.source),
           "tags": tags,   // Not the original tags, but the ones searched for
           "type": node.type,
@@ -880,7 +880,7 @@ export function searchPandaZooBornLived(idnum, search_context=false) {
     nodes = nodes.filter(function(vertex) {
       const date_ranges = []
       let current_range = undefined
-      for (const locaiton of vertex.locations) {
+      for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
         if (location._id == compare_id) {
           current_range = [location.date]
@@ -1473,7 +1473,7 @@ export function groupMediaCaption(entity, photo) {
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
     const panda = searchPandaId(id)[0]
-    const [x, y] = photo.locations[id]
+    const [x, y] = photo.coordinates[id]
     const name = Language.fallback_name(panda)
     const info = {
       "name": name,
@@ -1683,13 +1683,13 @@ function locatorToPhoto(locator) {
   // Turn the natural number index to an array index
   const choice = entity.photos[photo_index - 1]
   const desired = {
-       "_id": entity._id,
-    "author": choice.author,
-     "index": photo_index,
- "locations": choice.locations,
- "reference": authorLink(choice.author, choice.source),
-      "type": entity_type,
-       "url": choice.url,
+        "_id": entity._id,
+     "author": choice.author,
+"coordinates": choice.coordinates,
+      "index": photo_index,
+  "reference": authorLink(choice.author, choice.source),
+       "type": entity_type,
+        "url": choice.url,
   }
   return desired
 }

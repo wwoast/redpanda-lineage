@@ -738,8 +738,8 @@ function searchPandaPhotoTagsIntersect(node: NodePanda, tags: string[]) {
       const bundle = <EnrichedPhoto>{
         "_id": node._id,
         "author": photo.author,
+        "coordinates": photo.coordinates ?? {},
         "index": index + 1,   // Natural number index
-        "locations": photo.locations ?? {},
         "reference": authorLink(photo.author, photo.source),
         "tags": tags,   // Not the original tags, but the ones searched for
         "type": node.type,
@@ -777,8 +777,8 @@ function searchPandaPhotoTagsUnion(
       const bundle = <EnrichedPhoto>{
         "_id": node._id,
         "author": photo.author,
+        "coordinates": photo.coordinates ?? {},
         "index": index + 1,   // Natural number index
-        "locations": photo.locations ?? {},
         "reference": authorLink(photo.author, photo.source),
         "tags": tags,   // Not the original tags, but the ones searched for
         "type": node.type,
@@ -907,10 +907,10 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
   })
   if (search_context == true) {
     // Inject valid date ranges for this animal at the given zoo
-    nodes = nodes.filter(function(vertex) {
+    nodes = nodes.filter((vertex: NodePanda) {
       const date_ranges = []
       let current_range = undefined
-      for (const locaiton of vertex.locations) {
+      for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
         if (location._id == compare_id) {
           current_range = [location.date]
@@ -1499,7 +1499,7 @@ export function groupMediaCaption(entity: NodeMedia, photo: EnrichedPhoto) {
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
     const panda = searchPandaId(parseInt(id))[0]
-    const [x, y] = photo.locations[id]
+    const [x, y] = photo.coordinates[id]
     const name = Language.fallback_name(panda)
     const info = {
       "name": name,
@@ -1711,14 +1711,14 @@ function locatorToPhoto(locator: string) {
   // Turn the natural number index to an array index
   const choice = entity.photos[photo_index - 1]
   const desired = <EnrichedPhoto>{
-       "_id": entity._id,
-    "author": choice.author,
-     "index": photo_index,
- "locations": choice.locations,
- "reference": authorLink(choice.author, choice.source),
-      "tags": [],
-      "type": entity_type,
-       "url": choice.url,
+         "_id": entity._id,
+      "author": choice.author,
+ "coordinates": choice.coordinates,
+       "index": photo_index,
+   "reference": authorLink(choice.author, choice.source),
+        "tags": [],
+        "type": entity_type,
+         "url": choice.url,
   }
   return desired
 }
@@ -1852,8 +1852,8 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
     return <EnrichedPhoto>{
       "_id": animal._id,
       "author": Gui.contribute[Env.language],
+      "coordinates": {},
       "index": 1,
-      "locations": {},
       "reference": authorLink(Gui.contribute[Env.language], contributeLink),
       "tags": [],
       "type": animal.type,
@@ -1864,8 +1864,8 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
     return <EnrichedPhoto>{
       "_id": animal._id,
       "author": choice.author,
+      "coordinates": {},
       "index": arrayIndex + 1,   // Natural number display index
-      "locations": {},
       "reference": authorLink(choice.author, choice.source),
       "tags": [],
       "type": animal.type,
