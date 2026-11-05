@@ -25,7 +25,7 @@ export function acquirePandaInfo(animal) {
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"
     : parseInt(Env.specific_photo)
-  const picture = Pandas.profilePhoto(animal, chosen_index, "animal")
+  const picture = Pandas.profilePhoto(animal, chosen_index)
   let bundle = {
             "_id": animal._id,
             "age": Pandas.age(animal),
@@ -100,7 +100,7 @@ export function acquireZooInfo(zoo) {
   const chosen_index = (Env.specific_photo == undefined)
     ? "random"
     : parseInt(Env.specific_photo)
-  const picture = Pandas.profilePhoto(zoo, chosen_index, "zoo")
+  const picture = Pandas.profilePhoto(zoo, chosen_index)
   const recorded = Pandas.searchPandaZooBornLived(zoo._id)
   let bundle = {
            "_id": zoo._id,

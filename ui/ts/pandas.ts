@@ -654,6 +654,7 @@ export function searchPandaDad(idnum: number) {
 /** 
  * Find a single panda by id number.
  * TODO ES6: make idnum a string / use endsWith to get the id
+ * TODO ES6: return only pandas!
  */
 export function searchPandaId(idnum: number | string) {
   const node = G.v(idnum).run()
@@ -1176,13 +1177,13 @@ export function searchPhotoTags(
  * Zoos are stored with negative numbers, but are tracked in the database by
  * their positive ID numbers. So convert the ID before searching
  */
-export function searchZooId(idnum: string) {
+export function searchZooId(idnum: number | string) {
   // Wild animals or other situations may have id == 0
-  if (parseInt(idnum) == 0) {
+  if (parseInt(idnum.toString()) == 0) {
     return [Defaults.wild]
   }
-  if (parseInt(idnum) > 0) {
-    idnum = (parseInt(idnum) * -1).toString()
+  if (parseInt(idnum.toString()) > 0) {
+    idnum = (parseInt(idnum.toString()) * -1).toString()
   }
   const nodes = G.v(idnum).run()
   return nodes as NodeZoo[]

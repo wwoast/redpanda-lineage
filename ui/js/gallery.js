@@ -233,7 +233,7 @@ export class Carousel {
     // Update displayed photo
     this.displayPhoto(photo, newChoice.url, carousel_id, this.index)
     // Update animal credit info and the photographer credit's apple points
-    const info = Pandas.profilePhoto(entity, new_index, this.carousel_type)
+    const info = Pandas.profilePhoto(entity, new_index)
     this.singlePhotoCredit(info, last_index, this.index)
     this.userApplePoints(info, last_index, this.index)
   }

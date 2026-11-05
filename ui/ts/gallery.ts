@@ -19,36 +19,35 @@ import * as Touch from './touch.ts'
  * with multiple pandas).
  */
 
-export interface Carousel {
-  carousel_type: "panda" | "zoo",
-  element_class: string,
-  fallback_url: string,
-  image: HTMLImageElement,
-  // TODO: make it a number
-  index: string,
-  info: ResultEntity,
-  unique: string
-}
 /** 
  * On the panda results card, a single photo is shown. On mobile, this photo
  * can be swiped left and right, and on computers, a dog ear appears when the
  * mouse pointer hovers on the photo. In this way, many hundreds of photos
  * are viewable, from within a single `<img>` frame on a single results card.
  */
-export class Carousel {
-  /** `animal` or `zoo`, used to set the `element_class` */
-  carousel_type: "panda" | "zoo" = "panda"
+export interface Carousel {
+  /** `panda` or `zoo`, used to set the `element_class` */
+  carousel_type: "panda" | "zoo",
   /** `pandaPhoto` or `zooPhoto` */
-  element_class = "pandaPhoto"
+  element_class: string,
   /** Default image to load for a photo in this gallery */
-  fallback_url = Defaults.photo.url
-  /** `<img>` element we load photos into */
-  image = document.createElement('img')
+  fallback_url: string,
+  /** `<img>` element the carousel loads photos into */
+  image: HTMLImageElement,
   /** photo index of the photo being shown */
-  index = "1"
+  index: number,
   /** information about the animal or zoo this gallery is for */
-  info: ResultEntity
+  info: ResultEntity,
   /** unique string to add to the gallery to make the widget unique */
+  unique: string
+}
+export class Carousel {
+  carousel_type: "panda" | "zoo" = "panda"
+  element_class = "pandaPhoto"
+  fallback_url = Defaults.photo.url
+  image = document.createElement('img')
+  index = 1
+  info: ResultEntity
   unique: string
 
   constructor(info: ResultEntity, carousel_type: "panda" | "zoo", fallback_url: string) {
@@ -63,7 +62,7 @@ export class Carousel {
     // default. Doesn't apply to zoo info, so we have a default standby value
     this.index = ("photo_index" in info)
       ? info.photo_index
-      : "1"
+      : 1
     // Galleries need unique IDs, in case somehow the same animal appears twice
     // in output results for a page.
     this.unique = Math.random().toString(36).slice(2)
@@ -104,7 +103,7 @@ export class Carousel {
       image.className = `${this.unique}_${id}/photo`
       url.process(image, photoUrl)
     }
-    image.onerror = `this.src='${this.fallback_url}'`
+    image.addEventListener("error", () => image.src = this.fallback_url)
   }
 
   /** The hover over or swipe menu for photo navigation */
@@ -124,12 +123,12 @@ export class Carousel {
           e.preventDefault()   // Prevent normal context menu from firing
         })
         span_link.addEventListener('auxclick', function(e) {   // Middle click event
-          if (e.which == 2) {
+          if (e.button == 1) {
             e.preventDefault()   // Prevent middle click opening a new tab
           }
         })
     } else {
-      span.innerText = this.index
+      span.innerText = `${this.index}`
       span_link.addEventListener('click', () => {  // Left click event
         this.photoNext(this.info._id)
         condenseDogEar(span)
@@ -142,7 +141,7 @@ export class Carousel {
         window.dispatchEvent(Page.profile.qr_update)
       })
       span_link.addEventListener('auxclick', (e) => {   // Middle click event
-        if (e.which == 2) {
+        if (e.button == 1) {
           e.preventDefault()   // Prevent middle click opening a new tab
           this.photoRandom(this.info._id)
           condenseDogEar(span)
@@ -169,13 +168,14 @@ export class Carousel {
   }
 
   /** Navigation input event -- load the next photo in the carousel */
-  photoNext = function(entity_id=this.info._id) {
+  photoNext(entity_id=this.info._id) {
     // HACK: from touch handlers, it has a carousel id
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${entity_id}`
       : entity_id
     const current_photo_element =
-      document.getElementsByClassName(`${carousel_id}/photo`)[0]
+      document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
+    if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1)
   }
@@ -187,7 +187,8 @@ export class Carousel {
       ? `${this.unique}_${entity_id}`
       : entity_id
     const current_photo_element =
-      document.getElementsByClassName(`${carousel_id}/photo`)[0]
+      document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
+    if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1)
   }
@@ -197,11 +198,12 @@ export class Carousel {
     // HACK: from touch handlers, it has a carousel id
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${entity_id}`
-      : entity_id
+      : `${entity_id}`
     if (entity_id.includes("_"))
       entity_id = carousel_id.split("_").pop()
     const current_photo_element =
-      document.getElementsByClassName(`${carousel_id}/photo`)[0]
+      document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
+    if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     // Randomly choose the next id
     const entity = Pandas.searchPandaId(entity_id)[0]
@@ -216,7 +218,7 @@ export class Carousel {
   }
 
   /** Switch the currently displayed photo to the next one in the list */
-  photoSwap(photo, desired_index) {
+  photoSwap(photo: HTMLImageElement, desired_index: number) {
     const span_link =
       photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1]
     const [carousel_id, _, last_index] = photo.id.split("/")
@@ -229,10 +231,10 @@ export class Carousel {
     else
       new_index = desired_index
     // Update the photo index we are tracking so other method calls DTRT
-    this.index = new_index.toString()
+    this.index = new_index
     // Replace the span navigation id if we have an actual carousel
     if (max_index > 1)
-      span_link.childNodes[0].innerText = this.index
+      span_link.childNodes[0].innerText = `${this.index}`
     else
       return  // No carousel, no need to actually swap photos
     // Grab the photo
@@ -243,9 +245,9 @@ export class Carousel {
     // Update displayed photo
     this.displayPhoto(photo, newChoice.url, carousel_id, this.index)
     // Update animal credit info and the photographer credit's apple points
-    const info = Pandas.profilePhoto(entity, new_index, this.carousel_type)
-    this.singlePhotoCredit(info, last_index, this.index)
-    this.userApplePoints(info, last_index, this.index)
+    const info = Pandas.profilePhoto(entity, new_index)
+    this.singlePhotoCredit(info, parseInt(last_index), this.index)
+    this.userApplePoints(info, parseInt(last_index), this.index)
   }
 
   /** Replace the photographer's credit info for a panda's photo */
@@ -415,7 +417,7 @@ export function creditPhotos(results, max_hits: number) {
  * TODO: `zooPhotoCredits` and `pandaPhotoCredits` shouldn't return divs yet,
  * to prevent loading the entire image set each time you only want `set/N`
  */
-function creditPhotosPage(page, results, max_hits: number) {
+function creditPhotosPage(page: number, results, max_hits: number) {
   let content_divs = []
   const initial_max_hits = max_hits
   // We must unspool the results because each entity we query here can have
@@ -856,7 +858,7 @@ export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], p
  * the photos in the website contributed by a single author.
  */
 function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, credit: string) {
-  const photos = []
+  const photos: ResultPhoto[] = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
       photos.push({
@@ -865,6 +867,7 @@ function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, cred
         "index": index + 1,   // Natural number index
         "locations": photo.locations ?? {},
         "reference": Pandas.authorLink(photo.author, photo.source),
+        "tags": [],
         "type": node.type,
         "url": photo.url
       })
