@@ -52,8 +52,11 @@ Subcommands:
 `
 
 interface PhotoAndPath extends Photo {
+  /** ID of the entity displayed in the photo */
   _id: number | string,
+  /** Natural number index for display */
   index: number,
+  /** Copy of the file path from the Vertex */
   path: string
 }
 

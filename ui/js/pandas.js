@@ -1662,7 +1662,7 @@ export function locatorsToPhotos(locators) {
 // corresponding animal photo.
 function locatorToPhoto(locator) {
   const parts = locator.split(".")
-  const photo_index = parts[parts.length - 1]
+  const photo_index = parseInt(parts[parts.length - 1])
   // Given the entity type, convert to the proper media/panda/zoo
   const entity_type = parts[0]
   let entity_id = undefined
@@ -1672,11 +1672,11 @@ function locatorToPhoto(locator) {
     entity = searchPandaId(entity_id)[0]
   }
   else if (entity_type == "zoo") {
-    entity_id = parseInt(parts[1] * -1).toString()
+    entity_id = (parseInt(parts[1]) * -1).toString()
     entity = searchZooId(entity_id)[0]
   }
   else {
-    entity_id = parts[1]
+    entity_id = parseInt(parts[1])
     entity = searchPandaId(entity_id)[0]
   }
   // Get the photo for this entity
@@ -1800,7 +1800,7 @@ function parseDate(date) {
 }
 
 /** Given an animal, choose a single photo to display as its profile photo. */
-export function profilePhoto(animal, naturalIndex, mode="animal") {
+export function profilePhoto(animal, naturalIndex) {
   let arrayIndex = parseInt(naturalIndex - 1)   // possibly NaN
   let choice = animal.photos[arrayIndex]   // possibly undefined
   let imageUrl = (choice) ? choice.url : Defaults.photo.url

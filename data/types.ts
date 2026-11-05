@@ -453,16 +453,21 @@ declare global {
 
   type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo
 
-  /** 
-   * For displaying a photo, collect information from the node and present it
-   * in a form suitable for consumption by the `Carousel` component or others.
-   */
-  interface ResultPhoto {
-    _id: string,
-    author: string,
+  interface ResultPhoto extends Omit<Photo, "commitdate" | "source"> {
+    /** The numeric or string ID this photo represents */
+    _id: number | string,
+    /** Natural number index for displaying in carousels */
     index: number,
+    /** 
+     * Transform the photo source (possibly an ig:// pseudo-URL) into a full
+     * web URL reference.
+     */
     reference: string,
-    url: string
+    /** 
+     * Unlike the `Photo` object which tracks tags on a photo, `ResultPhoto`
+     * tracks the tags _queried for_ in RPF that this photo matched.
+     */
+    tags: string[]
   }
 
   /** 

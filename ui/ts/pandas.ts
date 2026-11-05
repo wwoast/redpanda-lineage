@@ -578,25 +578,25 @@ function searchPandaNameFields(input: string, name_fields: string[] = []) {
     name_fields = ["name", "oldnames", "othernames"]
   }
   const nodes = G.v()
-    .filter((vertex: GraphNode) => vertex.type == "panda")
-    .filter((animal: NodePanda) => {
-      const languages = Defaults.languages
+    .filter((vertex: GraphNode) => {
+      if (vertex.type != "panda") return false   // Only pandas
       for (const field of name_fields) {
         for (const language of Defaults.languages) {
-          if (animal[field] && animal[field][language]) {
-            const nameOrList = animal[field][language]
+          if (vertex[field] && vertex[field][language]) {
+            const nameOrList = vertex[field][language]
             const name_list = (typeof nameOrList === "string")
               ? [nameOrList] : nameOrList
             for (let wanted of inputs) {
               if (name_list.includes(wanted)) {
-                return animal
+                return true
               }
             }
           }
         }
       }
+      return false
     }).run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /** Find a panda by either name or id */
@@ -611,19 +611,19 @@ export function searchPanda(input: string) {
 /** Find any panda entry with photos */
 export function searchPandaAnyPhoto() {
   const nodes = G.v()
-    .filter((vertex: GraphNode) => vertex.type == "panda")
-    .filter((vertex: NodePanda) => vertex.photos.length > 0)
+    .filter((vertex: GraphNode) =>
+      vertex.type == "panda" && vertex.photos.length > 0)
     .run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /** Find any panda or media entry with photos */
 export function searchPandaAnyPhotoMedia() {
   const nodes = G.v()
-    .filter((vertex: GraphNode) => ["media", "panda"].includes(vertex.type))
-    .filter((vertex: NodeMedia | NodePanda) => vertex.photos.length > 0)
+    .filter((vertex: GraphNode) =>
+      ["media", "panda"].includes(vertex.type) && vertex.photos.length > 0)
     .run()
-  return nodes
+  return nodes as NodePanda[] | NodeMedia[]
 }
 
 /** Find a panda's children */
@@ -632,7 +632,7 @@ export function searchPandaChildren(idnum: number) {
     .out("family")
     .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
     .run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /** Find a panda's dad or possible dads */
@@ -641,23 +641,23 @@ export function searchPandaDad(idnum: number) {
     .in("family")
     .filter((vertex: GraphNode) => vertex.gender == "Male")
     .run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /** 
  * Find a single panda by id number.
- * TODO ES6: how to cast this to a NodePanda?
+ * TODO ES6: make idnum a string / use endsWith to get the id
  */
-export function searchPandaId(idnum: number) {
+export function searchPandaId(idnum: number | string) {
   const node = G.v(idnum).run()
-  return node
+  return node as NodePanda[]
 }
 
 /** 
  * Find instances of a panda's ID in both the animal vertices and in the media
  * (group) photos. Optionally, only return group information for animals.
  */
-export function searchPandaMedia(query: string, only_media=false) {
+export function searchPandaMedia(query: string, only_media=false): (NodeMedia | NodePanda)[] {
   const animals = searchPanda(query)
   // Get an array of graph result arrays, and flatten them
   const media = [].concat.apply([],
@@ -693,7 +693,7 @@ export function searchPandaMediaIntersect(id_list: string[]) {
         return arrayContentsEqual(id_list, vertex["panda.tags"])
       }
     }).run()
-  return nodes
+  return nodes as NodeMedia[]
 }
 
 /** Find a panda's mother */
@@ -701,7 +701,7 @@ export function searchPandaMom(idnum: number) {
   const nodes = G.v(idnum).in("family")
     .filter((vertex: NodePanda) => vertex.gender == "Female")
     .run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /** Find a panda by any name field. */
@@ -717,17 +717,17 @@ export function searchPandaName(name: string) {
  * Given a panda, search for photos searched with ALL of a list of tags. Returns
  * photo info only.
  */
-function searchPandaPhotoTagsIntersect(node, tags) {
-  const output = []
+function searchPandaPhotoTagsIntersect(node: NodePanda, tags: string[]) {
   if (tags.length == 0)
-    return output
+    return []
+  const output = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.tags == undefined)
       continue
     // All search tags must be in the photo tags list
     const contains = (tags.every(tag => photo.tags.includes(tag)))
     if (contains == true) {
-      const bundle = {
+      const bundle = <ResultPhoto>{
         "_id": node._id,
         "author": photo.author,
         "index": index + 1,   // Natural number index
@@ -747,42 +747,41 @@ function searchPandaPhotoTagsIntersect(node, tags) {
  * Given a panda, search for photos tagged with any of a list of tags. May
  * return photo info only, or the entire animal.
  * TODO: usable for zoo entities too, fix
- * TODO: output types
+ * TODO: output types need to be simplified if using "animal" mode to find 
+ * animals with a photo matching the tag.
+ * TODO: up to "contains", this previously supported optionally returning a
+ * full Node rather than a ResultPhoto, but that code appeared to be unused.
  */
 function searchPandaPhotoTagsUnion(
   node: NodePanda | NodeZoo,
   tags: string[],
-  mode: "animal" | "singleton"
+  mode: PhotoTagMode
 ) {
-  const output = []
   if (tags.length == 0)
-    return output
+    return []
+  const output = []
   for (const [index, photo] of node.photos.entries()) {
-    if (photo.tags == undefined)
+    if (photo.tags == undefined || photo.tags.length == 0)
       continue
     // Any tag can match
     const contains = tags.some(tag => photo.tags.includes(tag))
     if (contains) {
-      if (mode == "animal") {
-        return [node]
-      } else {
-        const bundle = {
-          "_id": node._id,
-          "author": photo.author,
-          "index": index + 1,   // Natural number index
-          "locations": photo.locations ?? {},
-          "reference": authorLink(photo.author, photo.source),
-          "tags": tags,   // Not the original tags, but the ones searched for
-          "type": node.type,
-          "url": photo.url
-        }
-        output.push(bundle)
-        if (mode == "singleton") {
-          // Only want the first photo of each tag found
-          return output
-        }
+      const bundle = <ResultPhoto>{
+        "_id": node._id,
+        "author": photo.author,
+        "index": index + 1,   // Natural number index
+        "locations": photo.locations ?? {},
+        "reference": authorLink(photo.author, photo.source),
+        "tags": tags,   // Not the original tags, but the ones searched for
+        "type": node.type,
+        "url": photo.url
       }
-    }  
+      output.push(bundle)
+      if (mode == "singleton") {
+        // Only want the first photo of each tag found
+        return output
+      }
+    }
   }
   return output
 }
@@ -1087,7 +1086,7 @@ export function searchPhotoCredit(author: string, filter_ids: (number|string)[] 
 }
 
 /** Find profile photos for all animals listed */
-export function searchPhotoProfile(animal_list) {
+export function searchPhotoProfile(animal_list: NodePanda[]) {
   return searchPhotoTags(
     animal_list, ["profile"], "singleton", "first")
 }
@@ -1116,6 +1115,9 @@ export function searchPhotoProfileSiblings(idnum: number) {
   return searchPhotoProfile(siblings)
 }
 
+type PhotoTagMode = "animal" | "intersect" | "photos" | "singleton" | "union"
+type PhotoTagFallback = "first" | "none"
+
 /** 
  * Get all photos with a specific set of tags from a list of animals.
  * Useful modes here include:
@@ -1130,11 +1132,16 @@ export function searchPhotoProfileSiblings(idnum: number) {
  * 
  *   `first`: if no tag available, choose the first photo in the set
  */
-export function searchPhotoTags(animal_list, tags, mode, fallback) {
+export function searchPhotoTags(
+  animal_list: NodePanda[],
+  tags: string[],
+  mode: PhotoTagMode,
+  fallback: PhotoTagFallback
+) {
   // Iterate per animal
-  let output = []
+  let output: ResultPhoto[] = []
   for (const animal of animal_list) {
-    let set = []
+    let set: ResultPhoto[] = []
     if (mode == "photos" || mode == "union" || mode == "singleton") {
       set = searchPandaPhotoTagsUnion(animal, tags, mode)
     }
@@ -1156,22 +1163,6 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
     output = output.concat(set)
   }
   return output
-}
-
-/** 
- * Find a panda's siblings, defined as the intersection of children by the same
- * mother and father panda, but excluding the initial panda we started from.
- */
-function searchSiblings(idnum: number) {
-  const nodes = G.v(idnum)
-    .as("me")
-    .in("family")
-    .out("family")
-    .filter((vertex: GraphNode) => vertex.type == "panda")   // Not NodeNone
-    .unique()
-    .except("me")
-    .run()
-  return nodes
 }
 
 /**
@@ -1199,11 +1190,10 @@ export function searchZooName(zoo_name_str: string) {
     zoo_name_str = Language.capitalNames(zoo_name_str)
   }
   // Get the matches against any of the valid zoo strings we care about
-  const languages = Defaults.languages
   const searchFields = ["location", "name"]
   const location_nodes = G.v()
-    .filter((vertex: GraphNode) => vertex.type == "zoo")
-    .filter((vertex: NodeZoo) => {
+    .filter((vertex: GraphNode) => {
+      if (vertex.type != "zoo") return false
       // Match the input string against any of the possible zoo name or location fields
       for (const searchField of searchFields) {
         for (const language of Defaults.languages) {
@@ -1213,8 +1203,7 @@ export function searchZooName(zoo_name_str: string) {
         }
       }
       return false
-    })
-    .run()
+    }).run()
   return location_nodes
 }
 
@@ -1336,7 +1325,7 @@ export function sortPhotosByName(photo_list) {
   return output_list
 }
 
-export function sortOldestToYoungest(nodes) {
+export function sortOldestToYoungest(nodes: NodePanda[]) {
   return nodes.sort(function(a, b) {
     const time_a = parseInt(new Date(a.birthday).getTime())
     const time_b = parseInt(new Date(b.birthday).getTime())
@@ -1449,7 +1438,7 @@ export function date(animal: NodePanda, field: string) {
  * sightings, it tracks dates less granularly, since pandas are endangered and
  * we need to protect their whereabouts.
  */
-export function formatDate(date: string) {
+export function formatDate(date?: string) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   if ((date.split("/").length == 2) &&
@@ -1465,7 +1454,7 @@ export function formatDate(date: string) {
 }
 
 /** Given a date string with a year and a season, format that date */
-function formatSeason(date: string) {
+function formatSeason(date?: string) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   let [ year, season ] = date.split("/")
@@ -1477,7 +1466,7 @@ function formatSeason(date: string) {
 }
 
 /** Given a date string, return just the year */
-export function formatYear(date: string) {
+export function formatYear(date?: string) {
   if ((date == undefined) || (date == "unknown"))
     return Defaults.unknown[Env.language]
   const [ year ] = date.split("/")
@@ -1506,8 +1495,8 @@ export function groupMediaCaption(entity: NodeMedia, photo: Photo) {
     const name = Language.fallback_name(panda)
     const info = {
       "name": name,
-      "x": parseInt(x),
-      "y": parseInt(y)
+      "x": x,
+      "y": y
     }
     animals.push(info)
   }
@@ -1679,7 +1668,7 @@ function locationZoo(animal: NodePanda) {
 }
 
 /** Get a list of photos given a list of photo locators */
-export function locatorsToPhotos(locators) {
+export function locatorsToPhotos(locators: string[]) {
   const photos = []
   for (const locator of locators) {
     photos.push(locatorToPhoto(locator))
@@ -1689,34 +1678,36 @@ export function locatorsToPhotos(locators) {
 
 // Locators are of the form "entity.EID.photo.PID". Resolve these into the
 // corresponding animal photo.
-function locatorToPhoto(locator) {
+function locatorToPhoto(locator: string) {
   const parts = locator.split(".")
-  const photo_index = parts[parts.length - 1]
+  const photo_index = parseInt(parts[parts.length - 1])
   // Given the entity type, convert to the proper media/panda/zoo
   const entity_type = parts[0]
   let entity_id = undefined
   let entity = undefined
   if (entity_type == "media") {
     entity_id = `${parts[0]}.${parts[1]}.${parts[2]}`
+    // TODO ES6: write searchMediaId
     entity = searchPandaId(entity_id)[0]
   }
   else if (entity_type == "zoo") {
-    entity_id = parseInt(parts[1] * -1).toString()
+    entity_id = (parseInt(parts[1]) * -1).toString()
     entity = searchZooId(entity_id)[0]
   }
   else {
-    entity_id = parts[1]
+    entity_id = parseInt(parts[1])
     entity = searchPandaId(entity_id)[0]
   }
   // Get the photo for this entity
   // Turn the natural number index to an array index
   const choice = entity.photos[photo_index - 1]
-  const desired = {
+  const desired = <ResultPhoto>{
        "_id": entity._id,
     "author": choice.author,
      "index": photo_index,
  "locations": choice.locations,
  "reference": authorLink(choice.author, choice.source),
+      "tags": [],
       "type": entity_type,
        "url": choice.url,
   }
@@ -1829,7 +1820,7 @@ function parseDate(date: string): ParsedDate {
 }
 
 /** Given an animal, choose a single photo to display as its profile photo. */
-export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number | string, mode="animal") {
+export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number | string) {
   let arrayIndex = (typeof naturalIndex !== "number")
     ? 0
     : naturalIndex - 1
@@ -1849,20 +1840,24 @@ export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number |
   // listed, return the default for one.
   if (animal.photos.length === 0) {
     const contributeLink = Gui.contribute_link[Env.language] ?? Gui.contribute_link["en"]
-    return {
+    return <ResultPhoto>{
       "_id": animal._id,
       "author": Gui.contribute[Env.language],
       "index": 1,
+      "locations": {},
       "reference": authorLink(Gui.contribute[Env.language], contributeLink),
+      "tags": [],
       "url": Defaults.photo.url
     }
   } else {
-  // Return not just the chosen photo but the author and link as well
-    return {
+    // Return not just the chosen photo but the author and link as well
+    return <ResultPhoto>{
       "_id": animal._id,
       "author": choice.author,
       "index": arrayIndex + 1,   // Natural number display index
+      "locations": {},
       "reference": authorLink(choice.author, choice.source),
+      "tags": [],
       "url": imageUrl
     }
   }
