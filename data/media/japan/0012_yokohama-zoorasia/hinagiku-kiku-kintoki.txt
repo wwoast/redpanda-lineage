@@ -7,22 +7,22 @@ photo.1.author: minatomirai215
 photo.1.commitdate: 2023/6/10
 photo.1.link: https://www.instagram.com/minatomirai215/
 photo.1.tags: family, portrait, sample, siblings, twins
-photo.1.tags.127.location: 125, 245
-photo.1.tags.1374.location: 205, 280
-photo.1.tags.1375.location: 330, 145
+photo.1.tags.127.coordinates: 125, 245
+photo.1.tags.1374.coordinates: 205, 280
+photo.1.tags.1375.coordinates: 330, 145
 photo.2: ig://CtEP4VwvyuD/l
 photo.2.author: minatomirai215
 photo.2.commitdate: 2023/6/10
 photo.2.link: https://www.instagram.com/minatomirai215/
 photo.2.tags: family, portrait, siblings, twins
-photo.2.tags.127.location: 115, 345
-photo.2.tags.1374.location: 370, 280
-photo.2.tags.1375.location: 235, 320
+photo.2.tags.127.coordinates: 115, 345
+photo.2.tags.1374.coordinates: 370, 280
+photo.2.tags.1375.coordinates: 235, 320
 photo.3: ig://Cxl9EooBkVi/l
 photo.3.author: miis_98
 photo.3.commitdate: 2023/11/5
 photo.3.link: https://www.instagram.com/miis_98/
 photo.3.tags: family, portrait, siblings, twins
-photo.3.tags.127.location: 430, 175
-photo.3.tags.1374.location: 325, 245
-photo.3.tags.1375.location: 215, 360
+photo.3.tags.127.coordinates: 430, 175
+photo.3.tags.1374.coordinates: 325, 245
+photo.3.tags.1375.coordinates: 215, 360

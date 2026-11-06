@@ -7,26 +7,26 @@ photo.1.author: keeper_charlie_k
 photo.1.commitdate: 2024/4/11
 photo.1.link: ig://CkWccK5qppz
 photo.1.tags: kiss, mother's day, nose
-photo.1.tags.1164.location: 570, 205
-photo.1.tags.1393.location: 220, 200
+photo.1.tags.1164.coordinates: 570, 205
+photo.1.tags.1393.coordinates: 220, 200
 photo.2: cwdc://YQqgZaTADQC.jpg
 photo.2.author: keeper_charlie_k
 photo.2.commitdate: 2024/4/11
 photo.2.link: ig://CkWccK5qppy
 photo.2.tags: baby, mother's day
-photo.2.tags.1164.location: 260, 145
-photo.2.tags.1393.location: 510, 270
+photo.2.tags.1164.coordinates: 260, 145
+photo.2.tags.1393.coordinates: 510, 270
 photo.3: cwdc://YaEorsvADQA.jpg
 photo.3.author: paradisewildlifepark
 photo.3.commitdate: 2024/4/13
 photo.3.link: ig://CpDglUHvg_p?img_index=4
 photo.3.tags: mother's day, paws, portrait, standing, tongue, whiskers
-photo.3.tags.1164.location: 240, 600
-photo.3.tags.1393.location: 300, 70
+photo.3.tags.1164.coordinates: 240, 600
+photo.3.tags.1393.coordinates: 300, 70
 photo.4: cwdc://Y7NrIHIADQA.jpg
 photo.4.author: paradisewildlifepark
 photo.4.commitdate: 2024/4/13
 photo.4.link: ig://C5oBzhUJ-Fk
 photo.4.tags: kiss, nose, paws, portrait, sample
-photo.4.tags.1164.location: 225, 170
-photo.4.tags.1393.location: 520, 220
+photo.4.tags.1164.coordinates: 225, 170
+photo.4.tags.1393.coordinates: 520, 220

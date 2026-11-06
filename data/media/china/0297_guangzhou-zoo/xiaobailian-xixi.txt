@@ -7,33 +7,33 @@ photo.1.author: manmanko2
 photo.1.commitdate: 2021/12/6
 photo.1.link: ig://CKvENWkhaGh
 photo.1.tags: mother's day, portrait, sample, smile, tongue, whiskers
-photo.1.tags.1319.location: 155, 300
-photo.1.tags.1322.location: 480, 320
+photo.1.tags.1319.coordinates: 155, 300
+photo.1.tags.1322.coordinates: 480, 320
 photo.2: cwdc://XfrUHKQADQB.jpg
 photo.2.author: manmanko2
 photo.2.commitdate: 2021/12/6
 photo.2.link: ig://CL22TC4BB8S
 photo.2.tags: kiss, mother's day, tail
-photo.2.tags.1319.location: 270, 210
-photo.2.tags.1322.location: 210, 205
+photo.2.tags.1319.coordinates: 270, 210
+photo.2.tags.1322.coordinates: 210, 205
 photo.3: cwdc://XfrUHKQADQC.jpg
 photo.3.author: manmanko2
 photo.3.commitdate: 2024/5/11
 photo.3.link: ig://CL22TC4BB8T
 photo.3.tags: grooming, mother's day, paws
-photo.3.tags.1319.location: 450, 440
-photo.3.tags.1322.location: 480, 290
+photo.3.tags.1319.coordinates: 450, 440
+photo.3.tags.1322.coordinates: 480, 290
 photo.4: cwdc://X04YMh8ADQD.jpg
 photo.4.author: manmanko2
 photo.4.commitdate: 2021/12/6
 photo.4.link: ig://CWdYVuuJUSa
 photo.4.tags: paws, playing, toys
-photo.4.tags.1319.location: 210, 125
-photo.4.tags.1322.location: 300, 200
+photo.4.tags.1319.coordinates: 210, 125
+photo.4.tags.1322.coordinates: 300, 200
 photo.5: cwdc://X04YMh8ADQE.jpg
 photo.5.author: manmanko2
 photo.5.commitdate: 2024/5/11
 photo.5.link: ig://CWdYVuuJUSg
 photo.5.tags: laying down, mother's day, paws, playing, tail, toys
-photo.5.tags.1319.location: 365, 315
-photo.5.tags.1322.location: 560, 215
+photo.5.tags.1319.coordinates: 365, 315
+photo.5.tags.1322.coordinates: 560, 215

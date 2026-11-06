@@ -7,5 +7,5 @@ photo.1.author: tomo3700
 photo.1.commitdate: 2022/8/11
 photo.1.link: https://www.instagram.com/tomo3700/
 photo.1.tags: blink, couple, dish, paws, portrait, whiskers
-photo.1.tags.100.location: 120, 220
-photo.1.tags.116.location: 340, 215
+photo.1.tags.100.coordinates: 120, 220
+photo.1.tags.116.coordinates: 340, 215

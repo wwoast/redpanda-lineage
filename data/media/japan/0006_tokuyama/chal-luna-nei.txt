@@ -7,6 +7,6 @@ photo.1.author: craig_craig_craig
 photo.1.commitdate: 2020/2/17
 photo.1.link: ig://BtMdRyolqDB
 photo.1.tags: brothers, family, siblings, twins
-photo.1.tags.73.location: 220, 65
-photo.1.tags.376.location: 115, 115
-photo.1.tags.378.location: 195, 180
+photo.1.tags.73.coordinates: 220, 65
+photo.1.tags.376.coordinates: 115, 115
+photo.1.tags.378.coordinates: 195, 180

@@ -7,5 +7,5 @@ photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2023/3/23
 photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.1.tags: baby, bamboo, father's day, laying down, mofumofu, paws, playing, portrait, sample, tongue
-photo.1.tags.71.location: 290, 355
-photo.1.tags.1369.location: 170, 190
+photo.1.tags.71.coordinates: 290, 355
+photo.1.tags.1369.coordinates: 170, 190

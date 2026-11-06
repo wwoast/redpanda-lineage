@@ -7,68 +7,68 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2025/5/23
 photo.1.link: ig://BDvEE6-mufx
 photo.1.tags: bamboo, bite, couple, hammock
-photo.1.tags.32.location: 345, 690
-photo.1.tags.33.location: 545, 120
+photo.1.tags.32.coordinates: 345, 690
+photo.1.tags.33.coordinates: 545, 120
 photo.2: cwdc://Vsf1N3TADQB.jpg
 photo.2.author: love__mitarashi
 photo.2.commitdate: 2025/5/23
 photo.2.link: ig://BSRG2ZZhUDZ
 photo.2.tags: close-up, couple, peek, portrait, scale
-photo.2.tags.32.location: 570, 305
-photo.2.tags.33.location: 180, 360
+photo.2.tags.32.coordinates: 570, 305
+photo.2.tags.33.coordinates: 180, 360
 photo.3: cwdc://V0lkiZ3ADQC.jpg
 photo.3.author: love__mitarashi
 photo.3.commitdate: 2025/5/23
 photo.3.link: ig://BWT-gqrhNW_
 photo.3.tags: bamboo, couple, laying down
-photo.3.tags.32.location: 50, 605
-photo.3.tags.33.location: 670, 230
+photo.3.tags.32.coordinates: 50, 605
+photo.3.tags.33.coordinates: 670, 230
 photo.4: cwdc://W5U49zMADQB.jpg
 photo.4.author: chankunvv
 photo.4.commitdate: 2025/5/27
 photo.4.link: ig://B4rouXWBG8m
 photo.4.tags: bamboo, couple
-photo.4.tags.32.location: 545, 735
-photo.4.tags.33.location: 350, 165
+photo.4.tags.32.coordinates: 545, 735
+photo.4.tags.33.coordinates: 350, 165
 photo.5: cwdc://XM91jGOADQD.jpg
 photo.5.author: love__mitarashi
 photo.5.commitdate: 2025/5/23
 photo.5.link: ig://CCgHBA3BUTA
 photo.5.tags: couple, portrait, tail
-photo.5.tags.32.location: 45, 275
-photo.5.tags.33.location: 290, 65
+photo.5.tags.32.coordinates: 45, 275
+photo.5.tags.33.coordinates: 290, 65
 photo.6: cwdc://XnWGKO6ADQA.jpg
 photo.6.author: kisshan324
 photo.6.commitdate: 2025/5/27
 photo.6.link: ig://CPsPUlNBJ3t
 photo.6.tags: bridge, couple, distance
-photo.6.tags.32.location: 250, 325
-photo.6.tags.33.location: 610, 390
+photo.6.tags.32.coordinates: 250, 325
+photo.6.tags.33.coordinates: 610, 390
 photo.7: cwdc://XnWGKO6ADQB.jpg
 photo.7.author: kisshan324
 photo.7.commitdate: 2025/5/27
 photo.7.link: ig://CPsPUlNBJ3u
 photo.7.tags: bridge, couple, distance, tail
-photo.7.tags.32.location: 225, 350
-photo.7.tags.33.location: 545, 340
+photo.7.tags.32.coordinates: 225, 350
+photo.7.tags.33.coordinates: 545, 340
 photo.8: cwdc://XvKfHWZADQG.jpg
 photo.8.author: love__mitarashi
 photo.8.commitdate: 2021/9/22
 photo.8.link: ig://CTmbzI8lw1F
 photo.8.tags: couple, laying down
-photo.8.tags.32.location: 245, 415
-photo.8.tags.33.location: 290, 30
+photo.8.tags.32.coordinates: 245, 415
+photo.8.tags.33.coordinates: 290, 30
 photo.9: cwdc://YIHgswxADQE.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2025/5/23
 photo.9.link: ig://CgE8l2IrvuL
 photo.9.tags: couple, laying down, sleeping
-photo.9.tags.32.location: 440, 265
-photo.9.tags.33.location: 135, 340
+photo.9.tags.32.coordinates: 440, 265
+photo.9.tags.33.coordinates: 135, 340
 photo.10: cwdc://YMdA0X2ADQF.jpg
 photo.10.author: love__mitarashi
 photo.10.commitdate: 2025/5/23
 photo.10.link: ig://CiPspprADrJ
 photo.10.tags: couple, paws, smile, tail, tongue
-photo.10.tags.32.location: 510, 115
-photo.10.tags.33.location: 400, 620
+photo.10.tags.32.coordinates: 510, 115
+photo.10.tags.33.coordinates: 400, 620

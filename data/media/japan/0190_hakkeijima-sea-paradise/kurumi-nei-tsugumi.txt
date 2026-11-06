@@ -7,14 +7,14 @@ photo.1.author: rie_panda55
 photo.1.commitdate: 2023/2/24
 photo.1.link: ig://CoxC_TyvYgS
 photo.1.tags: family, keeper, portrait
-photo.1.tags.376.location: 375, 260
-photo.1.tags.1376.location: 485, 425
-photo.1.tags.1377.location: 260, 350
+photo.1.tags.376.coordinates: 375, 260
+photo.1.tags.1376.coordinates: 485, 425
+photo.1.tags.1377.coordinates: 260, 350
 photo.2: cwdc://Yr_zmMZADQA.jpg
 photo.2.author: gloryeui
 photo.2.commitdate: 2024/5/25
 photo.2.link: ig://CyBGCj8v1Lk
 photo.2.tags: apple time, bite, family, keeper, portrait
-photo.2.tags.376.location: 370, 255
-photo.2.tags.1376.location: 545, 220
-photo.2.tags.1377.location: 225, 235
+photo.2.tags.376.coordinates: 370, 255
+photo.2.tags.1376.coordinates: 545, 220
+photo.2.tags.1377.coordinates: 225, 235

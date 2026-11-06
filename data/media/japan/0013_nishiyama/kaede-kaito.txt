@@ -7,19 +7,19 @@ photo.1.author: resapanlove
 photo.1.commitdate: 2022/10/14
 photo.1.link: https://www.instagram.com/resapanlove/
 photo.1.tags: baby, mofumofu, portrait, siblings, twins
-photo.1.tags.1394.location: 275, 300
-photo.1.tags.1395.location: 395, 200
+photo.1.tags.1394.coordinates: 275, 300
+photo.1.tags.1395.coordinates: 395, 200
 photo.2: ig://CjS-NNrvn_X/l
 photo.2.author: nakacchi_desu
 photo.2.commitdate: 2022/10/14
 photo.2.link: https://www.instagram.com/nakacchi_desu/
 photo.2.tags: baby, mofumofu, siblings, tail, tree, twins
-photo.2.tags.1394.location: 80, 325
-photo.2.tags.1395.location: 325, 115
+photo.2.tags.1394.coordinates: 80, 325
+photo.2.tags.1395.coordinates: 325, 115
 photo.3: ig://CmQV0L2vfGK/l
 photo.3.author: hamiiiii831_
 photo.3.commitdate: 2023/3/11
 photo.3.link: https://www.instagram.com/hamiiiii831_/
 photo.3.tags: door, sample, siblings, tail, twins
-photo.3.tags.1394.location: 325, 180
-photo.3.tags.1395.location: 130, 250
+photo.3.tags.1394.coordinates: 325, 180
+photo.3.tags.1395.coordinates: 130, 250

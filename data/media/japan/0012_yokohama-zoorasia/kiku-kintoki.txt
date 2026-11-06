@@ -7,5 +7,5 @@ photo.1.author: mini_cochi
 photo.1.commitdate: 2023/3/23
 photo.1.link: https://www.instagram.com/mini_cochi/
 photo.1.tags: baby, keeper, portrait, whiskers
-photo.1.tags.127.location: 190, 290
-photo.1.tags.1374.location: 315, 300
+photo.1.tags.127.coordinates: 190, 290
+photo.1.tags.1374.coordinates: 315, 300

@@ -7,12 +7,12 @@ photo.1.author: aucklandzoo
 photo.1.commitdate: 2019/8/24
 photo.1.link: https://www.instagram.com/aucklandzoo/
 photo.1.tags: home, mother's day
-photo.1.tags.965.location: 180, 80
-photo.1.tags.974.location: 85, 220
+photo.1.tags.965.coordinates: 180, 80
+photo.1.tags.974.coordinates: 85, 220
 photo.2: ig://BxVkdWIAbdU/m
 photo.2.author: aucklandzoo
 photo.2.commitdate: 2019/8/24
 photo.2.link: https://www.instagram.com/aucklandzoo/
 photo.2.tags: front to back, mother's day
-photo.2.tags.965.location: 150, 55
-photo.2.tags.974.location: 170, 170
+photo.2.tags.965.coordinates: 150, 55
+photo.2.tags.974.coordinates: 170, 170

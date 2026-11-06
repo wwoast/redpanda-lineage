@@ -7,5 +7,5 @@ photo.1.author: rie_panda55
 photo.1.commitdate: 2022/4/26
 photo.1.link: ig://Cbe0nMRPjTe
 photo.1.tags: couple, portrait, toys, window
-photo.1.tags.236.location: 175, 145
-photo.1.tags.347.location: 535, 290
+photo.1.tags.236.coordinates: 175, 145
+photo.1.tags.347.coordinates: 535, 290

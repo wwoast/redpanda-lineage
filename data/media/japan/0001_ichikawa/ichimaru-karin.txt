@@ -7,19 +7,19 @@ photo.1.author: na.mo.pan
 photo.1.commitdate: 2024/10/23
 photo.1.link: ig://Bzf3_aahKmL
 photo.1.tags: couple, keeper, mofumofu, portrait, sample, tongue
-photo.1.tags.9.location: 185, 445
-photo.1.tags.10.location: 365, 365
+photo.1.tags.9.coordinates: 185, 445
+photo.1.tags.10.coordinates: 365, 365
 photo.2: cwdc://Wu9Xf5VADQF.jpg
 photo.2.author: na.mo.pan
 photo.2.commitdate: 2024/10/23
 photo.2.link: ig://Bzf3_aahKmM
 photo.2.tags: couple, mofumofu, paws, portrait, techitechi
-photo.2.tags.9.location: 420, 635
-photo.2.tags.10.location: 130, 290
+photo.2.tags.9.coordinates: 420, 635
+photo.2.tags.10.coordinates: 130, 290
 photo.3: cwdc://W8Omq4BADQG.jpg
 photo.3.author: _rifa_p
 photo.3.commitdate: 2025/1/24
 photo.3.link: ig://B6Ifk5whB2H
 photo.3.tags: bridge, couple, laying down, tail, tree
-photo.3.tags.9.location: 505, 275
-photo.3.tags.10.location: 245, 290
+photo.3.tags.9.coordinates: 505, 275
+photo.3.tags.10.coordinates: 245, 290

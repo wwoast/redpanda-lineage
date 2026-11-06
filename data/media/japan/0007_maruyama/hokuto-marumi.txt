@@ -7,5 +7,5 @@ photo.1.author: leonard_redmof
 photo.1.commitdate: 2021/3/21
 photo.1.link: https://www.instagram.com/p/BfdbgANBhN1
 photo.1.tags: lunch time, siblings
-photo.1.tags.18.location: 470, 180
-photo.1.tags.58.location: 125, 215
+photo.1.tags.18.coordinates: 470, 180
+photo.1.tags.58.coordinates: 125, 215

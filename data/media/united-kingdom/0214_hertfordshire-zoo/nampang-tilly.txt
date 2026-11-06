@@ -7,5 +7,5 @@ photo.1.author: jobrownphotography
 photo.1.commitdate: 2021/6/14
 photo.1.link: https://www.instagram.com/jobrownphotography/
 photo.1.tags: couple, laying down, paws, portrait, tree
-photo.1.tags.1015.location: 400, 135
-photo.1.tags.1164.location: 200, 135
+photo.1.tags.1015.coordinates: 400, 135
+photo.1.tags.1164.coordinates: 200, 135

@@ -7,22 +7,22 @@ photo.1.author: parcsaintecroix
 photo.1.commitdate: 2020/3/31
 photo.1.link: https://www.instagram.com/parcsaintecroix/
 photo.1.tags: bamboo, girls, portrait, pumpkin
-photo.1.tags.1148.location: 240, 140
-photo.1.tags.1149.location: 155, 125
-photo.1.tags.1150.location: 75, 150
+photo.1.tags.1148.coordinates: 240, 140
+photo.1.tags.1149.coordinates: 155, 125
+photo.1.tags.1150.coordinates: 75, 150
 photo.2: ig://-MYjA7jwY0/m
 photo.2.author: parcsaintecroix
 photo.2.commitdate: 2020/3/31
 photo.2.link: https://www.instagram.com/parcsaintecroix/
 photo.2.tags: girls
-photo.2.tags.1148.location: 245, 130
-photo.2.tags.1149.location: 180, 145
-photo.2.tags.1150.location: 85, 135
+photo.2.tags.1148.coordinates: 245, 130
+photo.2.tags.1149.coordinates: 180, 145
+photo.2.tags.1150.coordinates: 85, 135
 photo.3: ig://BMVwTa8gMDv/l
 photo.3.author: parcsaintecroix
 photo.3.commitdate: 2020/3/31
 photo.3.link: https://www.instagram.com/parcsaintecroix/
 photo.3.tags: girls, pumpkin
-photo.3.tags.1148.location: 785, 305
-photo.3.tags.1149.location: 585, 295
-photo.3.tags.1150.location: 350, 275
+photo.3.tags.1148.coordinates: 785, 305
+photo.3.tags.1149.coordinates: 585, 295
+photo.3.tags.1150.coordinates: 350, 275

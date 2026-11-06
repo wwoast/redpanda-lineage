@@ -7,12 +7,12 @@ photo.1.author: colette.jp
 photo.1.commitdate: 2019/5/14
 photo.1.link: https://www.instagram.com/colette.jp/
 photo.1.tags: mother's day
-photo.1.tags.111.location: 65, 115
-photo.1.tags.166.location: 210, 135
+photo.1.tags.111.coordinates: 65, 115
+photo.1.tags.166.coordinates: 210, 135
 photo.2: ig://CLeZhTMhI8v/m
 photo.2.author: tomo3700
 photo.2.commitdate: 2021/11/25
 photo.2.link: https://www.instagram.com/tomo3700/
 photo.2.tags: mother's day, peek
-photo.2.tags.111.location: 255, 155
-photo.2.tags.166.location: 55, 75
+photo.2.tags.111.coordinates: 255, 155
+photo.2.tags.166.coordinates: 55, 75

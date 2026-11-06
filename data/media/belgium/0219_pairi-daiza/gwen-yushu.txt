@@ -7,5 +7,5 @@ photo.1.author: pairidaizaofficial
 photo.1.commitdate: 2019/11/26
 photo.1.link: https://www.instagram.com/pairidaizaofficial/
 photo.1.tags: couple, lunch time
-photo.1.tags.1048.location: 120, 110
-photo.1.tags.1054.location: 235, 90
+photo.1.tags.1048.coordinates: 120, 110
+photo.1.tags.1054.coordinates: 235, 90

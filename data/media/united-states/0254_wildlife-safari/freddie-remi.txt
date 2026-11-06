@@ -7,5 +7,5 @@ photo.1.author: wildlife.safari
 photo.1.commitdate: 2023/10/4
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: apple time, bridge, brothers, siblings, snow, twins
-photo.1.tags.1173.location: 285, 205
-photo.1.tags.1174.location: 150, 175
+photo.1.tags.1173.coordinates: 285, 205
+photo.1.tags.1174.coordinates: 150, 175

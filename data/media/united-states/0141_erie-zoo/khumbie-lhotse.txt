@@ -7,5 +7,5 @@ photo.1.author: eriezoo
 photo.1.commitdate: 2020/9/12
 photo.1.link: https://www.instagram.com/eriezoo/
 photo.1.tags: baby, keeper, mofumofu, newborn, portrait
-photo.1.tags.545.location: 175, 150
-photo.1.tags.641.location: 415, 250
+photo.1.tags.545.coordinates: 175, 150
+photo.1.tags.641.coordinates: 415, 250

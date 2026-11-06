@@ -7,5 +7,5 @@ photo.1.author: rdpnzoo
 photo.1.commitdate: 2021/7/9
 photo.1.link: https://www.instagram.com/rdpnzoo/
 photo.1.tags: couple
-photo.1.tags.348.location: 290, 250
-photo.1.tags.349.location: 430, 360
+photo.1.tags.348.coordinates: 290, 250
+photo.1.tags.349.coordinates: 430, 360

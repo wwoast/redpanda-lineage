@@ -7,5 +7,5 @@ photo.1.author: phoenixzoo1971
 photo.1.commitdate: 2023/4/9
 photo.1.link: https://www.instagram.com/phoenixzoo1971/
 photo.1.tags: apple time, couple, portrait
-photo.1.tags.153.location: 285, 260
-photo.1.tags.301.location: 125, 210
+photo.1.tags.153.coordinates: 285, 260
+photo.1.tags.301.coordinates: 125, 210

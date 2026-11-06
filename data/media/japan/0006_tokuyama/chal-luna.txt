@@ -7,5 +7,5 @@ photo.1.author: animal_love_us
 photo.1.commitdate: 2020/2/16
 photo.1.link: ig://BpWewBslT1Y
 photo.1.tags: baby, bamboo, mother's day
-photo.1.tags.73.location: 190, 115
-photo.1.tags.378.location: 260, 220
+photo.1.tags.73.coordinates: 190, 115
+photo.1.tags.378.coordinates: 260, 220

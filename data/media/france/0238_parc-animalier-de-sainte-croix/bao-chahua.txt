@@ -7,5 +7,5 @@ photo.1.author: parcsaintecroix
 photo.1.commitdate: 2020/3/31
 photo.1.link: https://www.instagram.com/parcsaintecroix/
 photo.1.tags: bamboo, girls
-photo.1.tags.1149.location: 85, 180
-photo.1.tags.1150.location: 180, 100
+photo.1.tags.1149.coordinates: 85, 180
+photo.1.tags.1150.coordinates: 180, 100

@@ -7,5 +7,5 @@ photo.1.author: aimless_amos
 photo.1.commitdate: 2020/5/27
 photo.1.link: https://www.instagram.com/aimless_amos/
 photo.1.tags: bamboo, fighting
-photo.1.tags.616.location: 65, 100
-photo.1.tags.806.location: 225, 90
+photo.1.tags.616.coordinates: 65, 100
+photo.1.tags.806.coordinates: 225, 90

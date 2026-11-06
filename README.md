@@ -23,18 +23,21 @@ After each commit that changes panda or location data, running `deno task export
 
 ## Updates
 
-As of August 12, 2026, the `redpanda.json` format has seen significant changes.
+On August 12, 2026, the `redpanda.json` format was significantly changed, to simplify any code that consumes this file:
 
 * `.txt` fields with numeric suffixes become arrays of values
-  *  `location.X` => an array of `location` objects
-  *  `photo.X` and `photo.X.subfield` => array of `photo` objects 
+  *  `location.X` => an array of `PandaLocation` objects
+  *  `photo.X` and `photo.X.subfield` => array of `Photo` objects 
 * `.txt` fields with a language prefix become objects keyed by language values
   * `en.name` and `ja.name` => one `name` object with `en` and `ja` values
   * `en.othernames` and `ja.othernames` => one `othernames` object with `en` and `ja` lists
 * Nodes in the graph now have a `type` parameter for _type discrimination_
   * TypeScript can infer when code uses `NodePanda`, `NodeZoo`, or other node types
 
-The underlying `.txt` file format is unchanged, because that format is simple to hand-type and manually review. But the JSON file now has a much simpler structure, intended for processing into consistent objects by a strongly-typed language, such as TypeScript.
+The underlying `.txt` files are also seeing minor changes, to disambiguate features in the code that share the same name:
+
+* In the _data/media_ `.txt` files, the pixel locations for pandas have a new name:
+  * `photo.X.tags.ID.location` => `photo.X.tags.ID.coordinates`
 
 Currently TypeScript is only used for building the JSON file, but I intend to use it for the entire _redpandafinder_ codebase. I hope these changes improve the code quality and data consistency for anyone working with the _redpanda-lineage_ JSON data.
 

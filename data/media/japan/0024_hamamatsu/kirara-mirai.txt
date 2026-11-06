@@ -7,96 +7,96 @@ photo.1.author: taka__3428
 photo.1.commitdate: 2019/11/18
 photo.1.link: ig://B2sKPZtBYbb
 photo.1.tags: baby, mother's day
-photo.1.tags.65.location: 65, 105
-photo.1.tags.963.location: 205, 130
+photo.1.tags.65.coordinates: 65, 105
+photo.1.tags.963.coordinates: 205, 130
 photo.2: cwdc://W4NE8PRADQB.jpg
 photo.2.author: taka__3428
 photo.2.commitdate: 2019/11/18
 photo.2.link: ig://B4HutlYhWiC
 photo.2.tags: baby, mother's day, panda bowl, portrait, pumpkin
-photo.2.tags.65.location: 115, 215
-photo.2.tags.963.location: 240, 160
+photo.2.tags.65.coordinates: 115, 215
+photo.2.tags.963.coordinates: 240, 160
 photo.3: cwdc://W4aUBVDADQC.jpg
 photo.3.author: minatomirai215
 photo.3.commitdate: 2025/1/10
 photo.3.link: ig://B4OWQIRhWuY
 photo.3.tags: baby, mother's day, window
-photo.3.tags.65.location: 180, 530
-photo.3.tags.963.location: 450, 300
+photo.3.tags.65.coordinates: 180, 530
+photo.3.tags.963.coordinates: 450, 300
 photo.4: cwdc://W7gvL19ADQC.jpg
 photo.4.author: taka__3428
 photo.4.commitdate: 2019/12/16
 photo.4.link: ig://B5xj1YuhXkh
 photo.4.tags: apple time, mother's day, paws, tongue, window
-photo.4.tags.65.location: 290, 190
-photo.4.tags.963.location: 560, 340
+photo.4.tags.65.coordinates: 290, 190
+photo.4.tags.963.coordinates: 560, 340
 photo.5: cwdc://W8onVFCADQE.jpg
 photo.5.author: ayusuke56
 photo.5.commitdate: 2025/1/10
 photo.5.link: ig://B6Vf6ARB8XP
 photo.5.tags: bamboo, mother's day, paws, portrait
-photo.5.tags.65.location: 210, 230
-photo.5.tags.963.location: 580, 350
+photo.5.tags.65.coordinates: 210, 230
+photo.5.tags.963.coordinates: 580, 350
 photo.6: cwdc://W9J4aS9ADQE.jpg
 photo.6.author: ayusuke56
 photo.6.commitdate: 2025/1/10
 photo.6.link: ig://B6mIcnOh-_K
 photo.6.tags: bridge, mother's day, portrait, whiskers
-photo.6.tags.65.location: 175, 500
-photo.6.tags.963.location: 485, 415
+photo.6.tags.65.coordinates: 175, 500
+photo.6.tags.963.coordinates: 485, 415
 photo.7: cwdc://W-e8Hu8ADQF.jpg
 photo.7.author: taka__3428
 photo.7.commitdate: 2020/3/7
 photo.7.link: ig://B7QqTVOBHQi
 photo.7.tags: mother's day, smile
-photo.7.tags.65.location: 135, 140
-photo.7.tags.963.location: 85, 120
+photo.7.tags.65.coordinates: 135, 140
+photo.7.tags.963.coordinates: 85, 120
 photo.8: cwdc://W-zY-9LADQD.jpg
 photo.8.author: taka__3428
 photo.8.commitdate: 2020/3/7
 photo.8.link: ig://B7a4u8Vhbrt
 photo.8.tags: home, laying down, mother's day
-photo.8.tags.65.location: 185, 65
-photo.8.tags.963.location: 240, 180
+photo.8.tags.65.coordinates: 185, 65
+photo.8.tags.963.coordinates: 240, 180
 photo.9: cwdc://W_C86jpADQE.jpg
 photo.9.author: taka__3428
 photo.9.commitdate: 2020/3/7
 photo.9.link: ig://B7iqsvkhvKB
 photo.9.tags: bridge, mother's day, tail
-photo.9.tags.65.location: 165, 90
-photo.9.tags.963.location: 90, 55
+photo.9.tags.65.coordinates: 165, 90
+photo.9.tags.963.coordinates: 90, 55
 photo.10: cwdc://W_cvsrwADQG.jpg
 photo.10.author: taka__3428
 photo.10.commitdate: 2020/3/7
 photo.10.link: ig://B7vkFzoB-u9
 photo.10.tags: home, laying down, mother's day, white face
-photo.10.tags.65.location: 205, 125
-photo.10.tags.963.location: 80, 175
+photo.10.tags.65.coordinates: 205, 125
+photo.10.tags.963.coordinates: 80, 175
 photo.11: cwdc://XAAquqAADQH.jpg
 photo.11.author: taka__3428
 photo.11.commitdate: 2020/2/16
 photo.11.link: ig://B8BhmywBKnE
 photo.11.tags: laying down, mother's day, tongue
-photo.11.tags.65.location: 230, 80
-photo.11.tags.963.location: 75, 150
+photo.11.tags.65.coordinates: 230, 80
+photo.11.tags.963.coordinates: 75, 150
 photo.12: cwdc://XYEuCqqADQA.jpg
 photo.12.author: ayusuke56
 photo.12.commitdate: 2025/1/10
 photo.12.link: ig://CIDjQzFBayf
 photo.12.tags: mother's day, peek, sample, whiskers
-photo.12.tags.65.location: 360, 555
-photo.12.tags.963.location: 270, 160
+photo.12.tags.65.coordinates: 360, 555
+photo.12.tags.963.coordinates: 270, 160
 photo.13: cwdc://XwC6pesADQI.jpg
 photo.13.author: taka__3428
 photo.13.commitdate: 2025/1/10
 photo.13.link: ig://CUCpkNGBy7_
 photo.13.tags: mother's day, keeper, paws, standing
-photo.13.tags.65.location: 455, 180
-photo.13.tags.963.location: 230, 300
+photo.13.tags.65.coordinates: 455, 180
+photo.13.tags.963.coordinates: 230, 300
 photo.14: cwdc://XwC6pesADQJ.jpg
 photo.14.author: taka__3428
 photo.14.commitdate: 2025/1/10
 photo.14.link: ig://CUCpkNGBy8_
 photo.14.tags: mother's day, keeper, paws, standing
-photo.14.tags.65.location: 440, 160
-photo.14.tags.963.location: 190, 270
+photo.14.tags.65.coordinates: 440, 160
+photo.14.tags.963.coordinates: 190, 270

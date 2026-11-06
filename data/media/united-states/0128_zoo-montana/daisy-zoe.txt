@@ -7,5 +7,5 @@ photo.1.author: zoomontana
 photo.1.commitdate: 2020/8/25
 photo.1.link: https://www.instagram.com/zoomontana/
 photo.1.tags: laying down, playing, tail, upside-down
-photo.1.tags.899.location: 385, 305
-photo.1.tags.1133.location: 260, 215
+photo.1.tags.899.coordinates: 385, 305
+photo.1.tags.1133.coordinates: 260, 215

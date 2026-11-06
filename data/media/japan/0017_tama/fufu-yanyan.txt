@@ -7,19 +7,19 @@ photo.1.author: minatomirai215
 photo.1.commitdate: 2020/4/29
 photo.1.link: https://www.instagram.com/minatomirai215/
 photo.1.tags: apple time, brothers, paws, portrait, siblings, twins
-photo.1.tags.71.location: 80, 180
-photo.1.tags.164.location: 130, 115
+photo.1.tags.71.coordinates: 80, 180
+photo.1.tags.164.coordinates: 130, 115
 photo.2: ig://BBG_P2wKoA2/m
 photo.2.author: minatomirai215
 photo.2.commitdate: 2020/4/29
 photo.2.link: https://www.instagram.com/minatomirai215/
 photo.2.tags: apple time, brothers, paws, portrait, siblings, twins
-photo.2.tags.71.location: 210, 155
-photo.2.tags.164.location: 105, 150
+photo.2.tags.71.coordinates: 210, 155
+photo.2.tags.164.coordinates: 105, 150
 photo.3: ig://BVn30pPjAi1/m
 photo.3.author: minatomirai215
 photo.3.commitdate: 2020/4/29
 photo.3.link: https://www.instagram.com/minatomirai215/
 photo.3.tags: brothers, portrait, siblings, twins
-photo.3.tags.71.location: 195, 160
-photo.3.tags.164.location: 115, 180
+photo.3.tags.71.coordinates: 195, 160
+photo.3.tags.164.coordinates: 115, 180

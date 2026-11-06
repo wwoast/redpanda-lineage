@@ -7,5 +7,5 @@ photo.1.author: redpandanetwork
 photo.1.commitdate: 2023/3/26
 photo.1.link: https://www.instagram.com/redpandanetwork/
 photo.1.tags: baby, peek, portrait, sample, tree
-photo.1.tags.1365.location: 270, 230
-photo.1.tags.1366.location: 365, 420
+photo.1.tags.1365.coordinates: 270, 230
+photo.1.tags.1366.coordinates: 365, 420

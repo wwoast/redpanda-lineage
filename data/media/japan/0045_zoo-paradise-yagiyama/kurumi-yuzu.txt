@@ -7,5 +7,5 @@ photo.1.author: pink.b22
 photo.1.commitdate: 2020/2/16
 photo.1.link: https://www.instagram.com/pink.b22/
 photo.1.tags: home, mother's day, peek
-photo.1.tags.160.location: 170, 125
-photo.1.tags.244.location: 150, 195
+photo.1.tags.160.coordinates: 170, 125
+photo.1.tags.244.coordinates: 150, 195

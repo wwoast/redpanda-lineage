@@ -7,5 +7,5 @@ photo.1.author: mirellad03
 photo.1.commitdate: 2022/1/13
 photo.1.link: https://www.instagram.com/mirellad03/
 photo.1.tags: couple, peek
-photo.1.tags.1048.location: 450, 240
-photo.1.tags.1056.location: 300, 195
+photo.1.tags.1048.coordinates: 450, 240
+photo.1.tags.1056.coordinates: 300, 195

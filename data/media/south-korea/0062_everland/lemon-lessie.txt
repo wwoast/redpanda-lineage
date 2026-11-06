@@ -7,5 +7,5 @@ photo.1.author: witheverland
 photo.1.commitdate: 2021/5/21
 photo.1.link: https://www.instagram.com/witheverland/
 photo.1.tags: bamboo, couple
-photo.1.tags.114.location: 120, 110
-photo.1.tags.259.location: 360, 135
+photo.1.tags.114.coordinates: 120, 110
+photo.1.tags.259.coordinates: 360, 135

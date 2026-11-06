@@ -7,5 +7,5 @@ photo.1.author: manorwildlifepark
 photo.1.commitdate: 2023/7/4
 photo.1.link: https://www.instagram.com/manorwildlifepark/
 photo.1.tags: siblings, sisters
-photo.1.tags.1411.location: 500, 335
-photo.1.tags.1412.location: 200, 265
+photo.1.tags.1411.coordinates: 500, 335
+photo.1.tags.1412.coordinates: 200, 265

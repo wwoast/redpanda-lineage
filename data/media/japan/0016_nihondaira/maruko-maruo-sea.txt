@@ -7,6 +7,6 @@ photo.1.author: ayusuke56
 photo.1.commitdate: 2019/7/11
 photo.1.link: https://www.instagram.com/ayusuke56/
 photo.1.tags: family, mother's day, twins
-photo.1.tags.142.location: 655, 340
-photo.1.tags.248.location: 420, 440
-photo.1.tags.249.location: 290, 250
+photo.1.tags.142.coordinates: 655, 340
+photo.1.tags.248.coordinates: 420, 440
+photo.1.tags.249.coordinates: 290, 250

@@ -7,5 +7,5 @@ photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/20
 photo.1.link: https://www.instagram.com/yuredpanda/
 photo.1.tags: mother's day, nose
-photo.1.tags.1349.location: 110, 145
-photo.1.tags.1359.location: 380, 105
+photo.1.tags.1349.coordinates: 110, 145
+photo.1.tags.1359.coordinates: 380, 105

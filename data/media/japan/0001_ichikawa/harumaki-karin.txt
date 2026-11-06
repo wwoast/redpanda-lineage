@@ -7,12 +7,12 @@ photo.1.author: masa_polarbear
 photo.1.commitdate: 2020/5/27
 photo.1.link: ig://Bq_6prGlFBG
 photo.1.tags: apple time, bridge, keeper, mother's day
-photo.1.tags.1.location: 100, 175
-photo.1.tags.10.location: 75, 140
+photo.1.tags.1.coordinates: 100, 175
+photo.1.tags.10.coordinates: 75, 140
 photo.2: cwdc://Xk7wYXPADQA.jpg
 photo.2.author: na.mo.pan
 photo.2.commitdate: 2025/1/24
 photo.2.link: ig://COfEbpXh7pB
 photo.2.tags: dish, lunch time, mother's day, portrait
-photo.2.tags.1.location: 225, 500
-photo.2.tags.10.location: 160, 260
+photo.2.tags.1.coordinates: 225, 500
+photo.2.tags.10.coordinates: 160, 260

@@ -7,5 +7,5 @@ photo.1.author: kojikoji2011
 photo.1.commitdate: 2023/11/26
 photo.1.link: ig://CpkZr0RPjKy
 photo.1.tags: apple time, bite, couple
-photo.1.tags.176.location: 160, 215
-photo.1.tags.225.location: 380, 215
+photo.1.tags.176.coordinates: 160, 215
+photo.1.tags.225.coordinates: 380, 215

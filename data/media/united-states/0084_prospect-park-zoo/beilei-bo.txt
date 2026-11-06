@@ -7,5 +7,5 @@ photo.1.author: mariten1119
 photo.1.commitdate: 2020/7/2
 photo.1.link: https://www.instagram.com/mariten1119/
 photo.1.tags: mother's day, smile, tail
-photo.1.tags.401.location: 230, 130
-photo.1.tags.470.location: 180, 120
+photo.1.tags.401.coordinates: 230, 130
+photo.1.tags.470.coordinates: 180, 120

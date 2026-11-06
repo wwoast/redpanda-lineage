@@ -7,5 +7,5 @@ photo.1.author: fwkidszoo
 photo.1.commitdate: 2022/3/10
 photo.1.link: https://www.instagram.com/redpandanetwork/
 photo.1.tags: friends, laying down, tongue, yawn
-photo.1.tags.605.location: 130, 220
-photo.1.tags.820.location: 490, 215
+photo.1.tags.605.coordinates: 130, 220
+photo.1.tags.820.coordinates: 490, 215

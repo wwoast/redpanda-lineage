@@ -7,5 +7,5 @@ photo.1.author: panda.daisuki
 photo.1.commitdate: 2021/7/29
 photo.1.link: ig://CR6QDZqhW_e
 photo.1.tags: bamboo, mother's day, paws, portrait, sample, whiskers
-photo.1.tags.142.location: 520, 260
-photo.1.tags.158.location: 220, 275
+photo.1.tags.142.coordinates: 520, 260
+photo.1.tags.158.coordinates: 220, 275

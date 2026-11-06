@@ -7,5 +7,5 @@ photo.1.author: officialturtlebackzoo
 photo.1.commitdate: 2020/3/5
 photo.1.link: https://www.instagram.com/officialturtlebackzoo/
 photo.1.tags: couple, front-to-back
-photo.1.tags.672.location: 180, 55
-photo.1.tags.920.location: 75, 285
+photo.1.tags.672.coordinates: 180, 55
+photo.1.tags.920.coordinates: 75, 285

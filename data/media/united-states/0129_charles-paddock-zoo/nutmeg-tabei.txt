@@ -7,5 +7,5 @@ photo.1.author: charlespaddockzoo
 photo.1.commitdate: 2021/12/21
 photo.1.link: https://www.instagram.com/charlespaddockzoo/
 photo.1.tags: friends
-photo.1.tags.866.location: 245, 190
-photo.1.tags.912.location: 430, 215
+photo.1.tags.866.coordinates: 245, 190
+photo.1.tags.912.coordinates: 430, 215

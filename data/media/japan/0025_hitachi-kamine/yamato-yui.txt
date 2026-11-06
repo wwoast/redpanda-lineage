@@ -7,82 +7,82 @@ photo.1.author: craig_craig_craig
 photo.1.commitdate: 2025/2/21
 photo.1.link: ig://BoIB-8fFZtr
 photo.1.tags: bridge, couple, paws, portrait, tail
-photo.1.tags.47.location: 245, 300
-photo.1.tags.158.location: 570, 330
+photo.1.tags.47.coordinates: 245, 300
+photo.1.tags.158.coordinates: 570, 330
 photo.2: cwdc://W9me8WFADQA.jpg
 photo.2.author: takahisakaneuchi
 photo.2.commitdate: 2020/1/3
 photo.2.link: ig://B60btoyhbuY
 photo.2.tags: bamboo, couple, peek, whiskers
-photo.2.tags.47.location: 235, 215
-photo.2.tags.158.location: 185, 90
+photo.2.tags.47.coordinates: 235, 215
+photo.2.tags.158.coordinates: 185, 90
 photo.3: cwdc://Xq-_s3yADQA.jpg
 photo.3.author: rie_panda55
 photo.3.commitdate: 2021/11/4
 photo.3.link: ig://CRgsF5pBxzN
 photo.3.tags: bridge, couple
-photo.3.tags.47.location: 325, 35
-photo.3.tags.158.location: 120, 265
+photo.3.tags.47.coordinates: 325, 35
+photo.3.tags.158.coordinates: 120, 265
 photo.4: cwdc://Xq-_s3yADQB.jpg
 photo.4.author: rie_panda55
 photo.4.commitdate: 2025/2/21
 photo.4.link: ig://CRgsF5pBxzN?img_index=2
 photo.4.tags: bridge, couple
-photo.4.tags.47.location: 410, 90
-photo.4.tags.158.location: 450, 460
+photo.4.tags.47.coordinates: 410, 90
+photo.4.tags.158.coordinates: 450, 460
 photo.5: cwdc://Xq-_s3yADQC.jpg
 photo.5.author: rie_panda55
 photo.5.commitdate: 2025/2/21
 photo.5.link: ig://CRgsF5pBxzN?img_index=3
 photo.5.tags: bridge, couple, tail
-photo.5.tags.47.location: 430, 275
-photo.5.tags.158.location: 300, 240
+photo.5.tags.47.coordinates: 430, 275
+photo.5.tags.158.coordinates: 300, 240
 photo.6: cwdc://Xq-_s3yADQD.jpg
 photo.6.author: rie_panda55
 photo.6.commitdate: 2025/2/21
 photo.6.link: ig://CRgsF5pBxzN?img_index=4
 photo.6.tags: bridge, couple, tail
-photo.6.tags.47.location: 480, 290
-photo.6.tags.158.location: 280, 175
+photo.6.tags.47.coordinates: 480, 290
+photo.6.tags.158.coordinates: 280, 175
 photo.7: cwdc://Xq-_s3yADQE.jpg
 photo.7.author: rie_panda55
 photo.7.commitdate: 2025/2/21
 photo.7.link: ig://CRgsF5pBxzN?img_index=5
 photo.7.tags: bridge, couple
-photo.7.tags.47.location: 305, 210
-photo.7.tags.158.location: 490, 110
+photo.7.tags.47.coordinates: 305, 210
+photo.7.tags.158.coordinates: 490, 110
 photo.8: cwdc://Xq-_s3yADQF.jpg
 photo.8.author: rie_panda55
 photo.8.commitdate: 2025/2/21
 photo.8.link: ig://CRgsF5pBxzN?img_index=6
 photo.8.tags: bridge, couple, grooming, tail
-photo.8.tags.47.location: 545, 220
-photo.8.tags.158.location: 300, 275
+photo.8.tags.47.coordinates: 545, 220
+photo.8.tags.158.coordinates: 300, 275
 photo.9: cwdc://Xq-_s3yADQG.jpg
 photo.9.author: rie_panda55
 photo.9.commitdate: 2025/2/21
 photo.9.link: ig://CRgsF5pBxzN?img_index=7
 photo.9.tags: bridge, couple, grooming, laying down, tail
-photo.9.tags.47.location: 525, 200
-photo.9.tags.158.location: 280, 290
+photo.9.tags.47.coordinates: 525, 200
+photo.9.tags.158.coordinates: 280, 290
 photo.10: cwdc://Xq-_s3yADQH.jpg
 photo.10.author: rie_panda55
 photo.10.commitdate: 2025/2/21
 photo.10.link: ig://CRgsF5pBxzN?img_index=8
 photo.10.tags: bridge, grooming, laying down, tail, tongue
-photo.10.tags.47.location: 550, 180
-photo.10.tags.158.location: 260, 335
+photo.10.tags.47.coordinates: 550, 180
+photo.10.tags.158.coordinates: 260, 335
 photo.11: cwdc://XsjXQiMADQA.jpg
 photo.11.author: ssc6105
 photo.11.commitdate: 2022/1/12
 photo.11.link: ig://CSS33u2Bx8Y
 photo.11.tags: couple, peek
-photo.11.tags.47.location: 185, 580
-photo.11.tags.158.location: 465, 205
+photo.11.tags.47.coordinates: 185, 580
+photo.11.tags.158.coordinates: 465, 205
 photo.12: cwdc://Yofb82CADQA.jpg
 photo.12.author: ck.chie
 photo.12.commitdate: 2023/9/16
 photo.12.link: ig://CwQ6N4xB1E2
 photo.12.tags: bamboo, couple
-photo.12.tags.47.location: 230, 305
-photo.12.tags.158.location: 90, 130
+photo.12.tags.47.coordinates: 230, 305
+photo.12.tags.158.coordinates: 90, 130

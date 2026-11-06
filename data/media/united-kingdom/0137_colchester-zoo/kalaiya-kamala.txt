@@ -7,19 +7,19 @@ photo.1.author: colchester_zoo
 photo.1.commitdate: 2023/8/21
 photo.1.link: https://www.instagram.com/colchester_zoo/
 photo.1.tags: baby, portrait, sample, sisters, twins
-photo.1.tags.996.location: 190, 400
-photo.1.tags.997.location: 500, 265
+photo.1.tags.996.coordinates: 190, 400
+photo.1.tags.997.coordinates: 500, 265
 photo.2: cwdc://W4Dm_R-ADQA.jpg
 photo.2.author: wumpwoast
 photo.2.commitdate: 2019/10/25
 photo.2.link: ig://B4C_vGvBi0A
 photo.2.tags: baby, bamboo, sisters, twins
-photo.2.tags.996.location: 200, 245
-photo.2.tags.997.location: 120, 65
+photo.2.tags.996.coordinates: 200, 245
+photo.2.tags.997.coordinates: 120, 65
 photo.3: ig://B4xQkMtjbC2/l
 photo.3.author: colchester_zoo
 photo.3.commitdate: 2020/10/7
 photo.3.link: https://www.instagram.com/colchester_zoo/
 photo.3.tags: baby, portrait, sisters, twins
-photo.3.tags.996.location: 505, 430
-photo.3.tags.997.location: 260, 440
+photo.3.tags.996.coordinates: 505, 430
+photo.3.tags.997.coordinates: 260, 440

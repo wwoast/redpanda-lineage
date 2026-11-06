@@ -7,5 +7,5 @@ photo.1.author: komabazoophoto
 photo.1.commitdate: 2023/4/14
 photo.1.link: https://www.instagram.com/komabazoophoto/
 photo.1.tags: bridge, mother's day, peek, sleeping, tail
-photo.1.tags.227.location: 175, 195
-photo.1.tags.236.location: 420, 355
+photo.1.tags.227.coordinates: 175, 195
+photo.1.tags.236.coordinates: 420, 355

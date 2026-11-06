@@ -7,12 +7,12 @@ photo.1.author: pink.b22
 photo.1.commitdate: 2025/1/11
 photo.1.link: ig://CSP8I_RBRlB
 photo.1.tags: door, mother's day, portrait
-photo.1.tags.8.location: 140, 400
-photo.1.tags.1198.location: 300, 390
+photo.1.tags.8.coordinates: 140, 400
+photo.1.tags.1198.coordinates: 300, 390
 photo.2: cwdc://XwNSkIVADQA.jpg
 photo.2.author: kotata_513
 photo.2.commitdate: 2021/10/7
 photo.2.link: ig://CUH1hh6h2yT
 photo.2.tags: bamboo, mother's day, portrait
-photo.2.tags.8.location: 410, 315
-photo.2.tags.1198.location: 245, 195
+photo.2.tags.8.coordinates: 410, 315
+photo.2.tags.1198.coordinates: 245, 195

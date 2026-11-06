@@ -7,5 +7,5 @@ photo.1.author: kipekaila
 photo.1.commitdate: 2021/5/19
 photo.1.link: https://www.instagram.com/kipekaila/
 photo.1.tags: mother's day, snow
-photo.1.tags.227.location: 520, 210
-photo.1.tags.1190.location: 105, 190
+photo.1.tags.227.coordinates: 520, 210
+photo.1.tags.1190.coordinates: 105, 190

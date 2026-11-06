@@ -7,5 +7,5 @@ photo.1.author: milwaukeecozoo
 photo.1.commitdate: 2020/6/7
 photo.1.link: https://www.instagram.com/milwaukeecozoo/
 photo.1.tags: bridge, mother's day, portrait
-photo.1.tags.392.location: 895, 620
-photo.1.tags.998.location: 405, 410
+photo.1.tags.392.coordinates: 895, 620
+photo.1.tags.998.coordinates: 405, 410

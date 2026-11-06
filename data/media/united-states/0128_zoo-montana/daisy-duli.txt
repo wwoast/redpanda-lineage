@@ -7,5 +7,5 @@ photo.1.author: zoomontana
 photo.1.commitdate: 2020/8/25
 photo.1.link: https://www.instagram.com/zoomontana/
 photo.1.tags: couple
-photo.1.tags.526.location: 720, 625
-photo.1.tags.899.location: 310, 550
+photo.1.tags.526.coordinates: 720, 625
+photo.1.tags.899.coordinates: 310, 550

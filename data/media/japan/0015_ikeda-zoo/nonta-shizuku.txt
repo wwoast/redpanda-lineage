@@ -7,12 +7,12 @@ photo.1.author: itsuak
 photo.1.commitdate: 2019/7/7
 photo.1.link: https://www.instagram.com/itsuak/
 photo.1.tags: couple
-photo.1.tags.138.location: 270, 120
-photo.1.tags.140.location: 140, 110
+photo.1.tags.138.coordinates: 270, 120
+photo.1.tags.140.coordinates: 140, 110
 photo.2: ig://BzgxNR0hzb6/m
 photo.2.author: itsuak
 photo.2.commitdate: 2019/7/9
 photo.2.link: https://www.instagram.com/itsuak/
 photo.2.tags: couple
-photo.2.tags.138.location: 175, 135
-photo.2.tags.140.location: 220, 140
+photo.2.tags.138.coordinates: 175, 135
+photo.2.tags.140.coordinates: 220, 140

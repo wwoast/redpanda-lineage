@@ -7,6 +7,6 @@ photo.1.author: aucklandzoo
 photo.1.commitdate: 2019/8/24
 photo.1.link: https://www.instagram.com/aucklandzoo/
 photo.1.tags: family, tree
-photo.1.tags.965.location: 285, 365
-photo.1.tags.974.location: 75, 305
-photo.1.tags.975.location: 825, 255
+photo.1.tags.965.coordinates: 285, 365
+photo.1.tags.974.coordinates: 75, 305
+photo.1.tags.975.coordinates: 825, 255

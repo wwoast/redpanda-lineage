@@ -7,118 +7,118 @@ photo.1.author: tomo3700
 photo.1.commitdate: 2019/11/12
 photo.1.link: ig://B4qcci8hbNT
 photo.1.tags: family, mother's day, siblings, sisters, twins
-photo.1.tags.147.location: 190, 330
-photo.1.tags.955.location: 660, 675
-photo.1.tags.956.location: 355, 760
+photo.1.tags.147.coordinates: 190, 330
+photo.1.tags.955.coordinates: 660, 675
+photo.1.tags.956.coordinates: 355, 760
 photo.2: cwdc://W5VfHDXADQA.jpg
 photo.2.author: miltama_fam_sugarglider
 photo.2.commitdate: 2019/12/5
 photo.2.link: ig://B4r7y_bh5Ab
 photo.2.tags: door, family, peek, siblings, sisters, tail, twins
-photo.2.tags.147.location: 120, 285
-photo.2.tags.955.location: 865, 210
-photo.2.tags.956.location: 535, 415
+photo.2.tags.147.coordinates: 120, 285
+photo.2.tags.955.coordinates: 865, 210
+photo.2.tags.956.coordinates: 535, 415
 photo.3: cwdc://W6ZIcVwADQA.jpg
 photo.3.author: nakacchi_desu
 photo.3.commitdate: 2019/11/27
 photo.3.link: ig://B5NwdooBZ-P
 photo.3.tags: family, siblings, sisters, train, twins
-photo.3.tags.147.location: 275, 590
-photo.3.tags.955.location: 500, 370
-photo.3.tags.956.location: 630, 110
+photo.3.tags.147.coordinates: 275, 590
+photo.3.tags.955.coordinates: 500, 370
+photo.3.tags.956.coordinates: 630, 110
 photo.4: cwdc://W8_VUE8ADQA.jpg
 photo.4.author: tomo3700
 photo.4.commitdate: 2020/1/20
 photo.4.link: ig://B6g25gOB2w6
 photo.4.tags: autumn, baby, playing, siblings, sisters, twins
-photo.4.tags.147.location: 940, 475
-photo.4.tags.955.location: 505, 465
-photo.4.tags.956.location: 190, 585
+photo.4.tags.147.coordinates: 940, 475
+photo.4.tags.955.coordinates: 505, 465
+photo.4.tags.956.coordinates: 190, 585
 photo.5: cwdc://W8_VUE8ADQB.jpg
 photo.5.author: tomo3700
 photo.5.commitdate: 2025/7/20
 photo.5.link: ig://B6g25gOB2w7
 photo.5.tags: baby, mofumofu, mother's day, playing, sisters, twins
-photo.5.tags.147.location: 280, 410
-photo.5.tags.955.location: 685, 500
-photo.5.tags.956.location: 420, 385
+photo.5.tags.147.coordinates: 280, 410
+photo.5.tags.955.coordinates: 685, 500
+photo.5.tags.956.coordinates: 420, 385
 photo.6: cwdc://W_GGg4jADQA.jpg
 photo.6.author: makimaru18
 photo.6.commitdate: 2020/2/16
 photo.6.link: ig://B7kPf6BhM4J
 photo.6.tags: apple time, family, keeper, paws, standing
-photo.6.tags.147.location: 200, 60
-photo.6.tags.955.location: 110, 120
-photo.6.tags.956.location: 100, 45
+photo.6.tags.147.coordinates: 200, 60
+photo.6.tags.955.coordinates: 110, 120
+photo.6.tags.956.coordinates: 100, 45
 photo.7: cwdc://XG4wmspADQC.jpg
 photo.7.author: tomo3700
 photo.7.commitdate: 2020/5/3
 photo.7.link: ig://B_dki0EndjJ
 photo.7.tags: family, laying down, siblings, sisters, tongue, twins
-photo.7.tags.147.location: 155, 495
-photo.7.tags.955.location: 225, 300
-photo.7.tags.956.location: 115, 625
+photo.7.tags.147.coordinates: 155, 495
+photo.7.tags.955.coordinates: 225, 300
+photo.7.tags.956.coordinates: 115, 625
 photo.8: cwdc://XNAsQIbADQA.jpg
 photo.8.author: mochan8686
 photo.8.commitdate: 2020/7/16
 photo.8.link: ig://CChiXh9njQW
 photo.8.tags: family, laying down, playing, siblings, sisters, tail, twins
-photo.8.tags.147.location: 410, 195
-photo.8.tags.955.location: 200, 590
-photo.8.tags.956.location: 900, 850
+photo.8.tags.147.coordinates: 410, 195
+photo.8.tags.955.coordinates: 200, 590
+photo.8.tags.956.coordinates: 900, 850
 photo.9: cwdc://XStVQpHADQA.jpg
 photo.9.author: hamamatsu.chiita
 photo.9.commitdate: 2020/11/6
 photo.9.link: ig://CFX23yThYjG
 photo.9.tags: apple time, family, keeper, siblings, sisters, twins
-photo.9.tags.147.location: 110, 175
-photo.9.tags.955.location: 340, 170
-photo.9.tags.956.location: 210, 150
+photo.9.tags.147.coordinates: 110, 175
+photo.9.tags.955.coordinates: 340, 170
+photo.9.tags.956.coordinates: 210, 150
 photo.10: cwdc://XUhuvFeADQA.jpg
 photo.10.author: kotata_513
 photo.10.commitdate: 2021/5/30
 photo.10.link: ig://CGSDnAfBeCh
 photo.10.tags: bamboo, family, wet, white face
-photo.10.tags.147.location: 530, 240
-photo.10.tags.955.location: 275, 225
-photo.10.tags.956.location: 120, 190
+photo.10.tags.147.coordinates: 530, 240
+photo.10.tags.955.coordinates: 275, 225
+photo.10.tags.956.coordinates: 120, 190
 photo.11: cwdc://XYRBF1zADQA.jpg
 photo.11.author: rie_panda55
 photo.11.commitdate: 2021/5/30
 photo.11.link: ig://CIJsyYphBy_
 photo.11.tags: bridge, family, home, portrait, siblings, twins
-photo.11.tags.147.location: 530, 260
-photo.11.tags.955.location: 165, 330
-photo.11.tags.956.location: 365, 300
+photo.11.tags.147.coordinates: 530, 260
+photo.11.tags.955.coordinates: 165, 330
+photo.11.tags.956.coordinates: 365, 300
 photo.12: cwdc://XYcXg6OADQA.jpg
 photo.12.author: fetorus_mami
 photo.12.commitdate: 2021/5/30
 photo.12.link: ig://CIPX_63BW9x
 photo.12.tags: family, home, siblings, sisters, twins
-photo.12.tags.147.location: 270, 120
-photo.12.tags.955.location: 135, 105
-photo.12.tags.956.location: 405, 130
+photo.12.tags.147.coordinates: 270, 120
+photo.12.tags.955.coordinates: 135, 105
+photo.12.tags.956.coordinates: 405, 130
 photo.13: cwdc://XYcXg6OADQB.jpg
 photo.13.author: fetorus_mami
 photo.13.commitdate: 2025/7/20
 photo.13.link: ig://CIPX_63BW93
 photo.13.tags: bamboo, bite, family, paws
-photo.13.tags.147.location: 180, 310
-photo.13.tags.955.location: 430, 270
-photo.13.tags.956.location: 700, 135
+photo.13.tags.147.coordinates: 180, 310
+photo.13.tags.955.coordinates: 430, 270
+photo.13.tags.956.coordinates: 700, 135
 photo.14: cwdc://XdxbTfhADQA.jpg
 photo.14.author: minato.yokohama4416
 photo.14.commitdate: 2022/1/9
 photo.14.link: ig://CK555Nghnlr
 photo.14.tags: family, home, portrait, siblings, twins
-photo.14.tags.147.location: 90, 300
-photo.14.tags.955.location: 405, 205
-photo.14.tags.956.location: 560, 200
+photo.14.tags.147.coordinates: 90, 300
+photo.14.tags.955.coordinates: 405, 205
+photo.14.tags.956.coordinates: 560, 200
 photo.15: cwdc://XfOHAa9ADQA.jpg
 photo.15.author: kai.kuniko
 photo.15.commitdate: 2021/5/29
 photo.15.link: ig://CLoPvrOhLxt
 photo.15.tags: family, home, portrait, siblings, sisters, snow, twins
-photo.15.tags.147.location: 325, 325
-photo.15.tags.955.location: 190, 290
-photo.15.tags.956.location: 490, 335
+photo.15.tags.147.coordinates: 325, 325
+photo.15.tags.955.coordinates: 190, 290
+photo.15.tags.956.coordinates: 490, 335

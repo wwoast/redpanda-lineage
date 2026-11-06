@@ -7,46 +7,46 @@ photo.1.author: re_ichimaru
 photo.1.commitdate: 2024/12/28
 photo.1.link: ig://Bxa7oDeFvHc
 photo.1.tags: bridge, family
-photo.1.tags.190.location: 130, 270
-photo.1.tags.344.location: 625, 240
-photo.1.tags.345.location: 325, 325
+photo.1.tags.190.coordinates: 130, 270
+photo.1.tags.344.coordinates: 625, 240
+photo.1.tags.345.coordinates: 325, 325
 photo.2: cwdc://WwQCE6TADQA.jpg
 photo.2.author: panda.daisuki
 photo.2.commitdate: 2019/7/22
 photo.2.link: ig://B0JNR65hon3
 photo.2.tags: brothers, clockwise, family, siblings, twins
-photo.2.tags.190.location: 675, 355
-photo.2.tags.344.location: 565, 675
-photo.2.tags.345.location: 365, 475
+photo.2.tags.190.coordinates: 675, 355
+photo.2.tags.344.coordinates: 565, 675
+photo.2.tags.345.coordinates: 365, 475
 photo.3: cwdc://WxtMbd5ADQA.jpg
 photo.3.author: hamiiiii831_
 photo.3.commitdate: 2019/8/13
 photo.3.link: ig://B03ydMsh_M_
 photo.3.tags: brothers, family, siblings, twins
-photo.3.tags.190.location: 530, 325
-photo.3.tags.344.location: 920, 570
-photo.3.tags.345.location: 300, 305
+photo.3.tags.190.coordinates: 530, 325
+photo.3.tags.344.coordinates: 920, 570
+photo.3.tags.345.coordinates: 300, 305
 photo.4: cwdc://WzGCN6bADQC.jpg
 photo.4.author: rie_panda55
 photo.4.commitdate: 2024/12/28
 photo.4.link: ig://B1kNWa9hp6g
 photo.4.tags: brothers, family, siblings, twins
-photo.4.tags.190.location: 345, 270
-photo.4.tags.344.location: 435, 320
-photo.4.tags.345.location: 155, 255
+photo.4.tags.190.coordinates: 345, 270
+photo.4.tags.344.coordinates: 435, 320
+photo.4.tags.345.coordinates: 155, 255
 photo.5: cwdc://W3Moi4DADQB.jpg
 photo.5.author: panda.daisuki
 photo.5.commitdate: 2019/10/20
 photo.5.link: ig://B3ngg5xhjtO
 photo.5.tags: apple time, brothers, family, siblings, twins
-photo.5.tags.190.location: 160, 100
-photo.5.tags.344.location: 240, 155
-photo.5.tags.345.location: 90, 150
+photo.5.tags.190.coordinates: 160, 100
+photo.5.tags.344.coordinates: 240, 155
+photo.5.tags.345.coordinates: 90, 150
 photo.6: cwdc://XC6qsUxADQC.jpg
 photo.6.author: panda.daisuki
 photo.6.commitdate: 2020/4/1
 photo.6.link: ig://B9ehloIhb0-
 photo.6.tags: brothers, family, siblings, twins
-photo.6.tags.190.location: 490, 440
-photo.6.tags.344.location: 755, 280
-photo.6.tags.345.location: 245, 230
+photo.6.tags.190.coordinates: 490, 440
+photo.6.tags.344.coordinates: 755, 280
+photo.6.tags.345.coordinates: 245, 230

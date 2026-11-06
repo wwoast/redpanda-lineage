@@ -7,26 +7,26 @@ photo.1.author: alto0908
 photo.1.commitdate: 2020/3/6
 photo.1.link: ig://B8tds8JBjlc
 photo.1.tags: bamboo, couple, tail
-photo.1.tags.8.location: 280, 60
-photo.1.tags.101.location: 35, 140
+photo.1.tags.8.coordinates: 280, 60
+photo.1.tags.101.coordinates: 35, 140
 photo.2: cwdc://XDoIEyBADQB.jpg
 photo.2.author: alto0908
 photo.2.commitdate: 2020/3/21
 photo.2.link: ig://B91QR2whtig
 photo.2.tags: apple time, couple, portrait, sample, whiskers
-photo.2.tags.8.location: 110, 145
-photo.2.tags.101.location: 205, 115
+photo.2.tags.8.coordinates: 110, 145
+photo.2.tags.101.coordinates: 205, 115
 photo.3: cwdc://XD_gvwpADQC.jpg
 photo.3.author: alto0908
 photo.3.commitdate: 2020/3/25
 photo.3.link: ig://B-A8nWEhIjV
 photo.3.tags: couple, paws, portrait, tongue
-photo.3.tags.8.location: 195, 185
-photo.3.tags.101.location: 110, 95
+photo.3.tags.8.coordinates: 195, 185
+photo.3.tags.101.coordinates: 110, 95
 photo.4: cwdc://XGwd598ADQA.jpg
 photo.4.author: tamazoowalking
 photo.4.commitdate: 2023/1/13
 photo.4.link: ig://B_ZbMcuHUTE
 photo.4.tags: couple, portrait, whiskers
-photo.4.tags.8.location: 545, 470
-photo.4.tags.101.location: 200, 215
+photo.4.tags.8.coordinates: 545, 470
+photo.4.tags.101.coordinates: 200, 215

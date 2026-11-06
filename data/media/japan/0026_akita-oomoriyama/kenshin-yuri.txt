@@ -7,5 +7,5 @@ photo.1.author: fetorus_mami
 photo.1.commitdate: 2022/1/9
 photo.1.link: https://www.instagram.com/fetorus_mami/
 photo.1.tags: couple, door, nose, tail
-photo.1.tags.214.location: 295, 125
-photo.1.tags.215.location: 310, 80
+photo.1.tags.214.coordinates: 295, 125
+photo.1.tags.215.coordinates: 310, 80

@@ -7,5 +7,5 @@ photo.1.author: framereim
 photo.1.commitdate: 2020/2/16
 photo.1.link: https://www.instagram.com/p/B7bEB0VBrSu
 photo.1.tags: father's day
-photo.1.tags.62.location: 175, 45
-photo.1.tags.66.location: 155, 130
+photo.1.tags.62.coordinates: 175, 45
+photo.1.tags.66.coordinates: 155, 130

@@ -7,26 +7,26 @@ photo.1.author: panda.daisuki
 photo.1.commitdate: 2025/1/11
 photo.1.link: ig://BZ_J_AHACGB
 photo.1.tags: baby, family, home
-photo.1.tags.7.location: 405, 320
-photo.1.tags.8.location: 85, 405
+photo.1.tags.7.coordinates: 405, 320
+photo.1.tags.8.coordinates: 85, 405
 photo.2: cwdc://W-hmBZzADQA.jpg
 photo.2.author: masa_polarbear
 photo.2.commitdate: 2020/1/17
 photo.2.link: ig://B7R_QKphCLZ
 photo.2.tags: auntie, baby
-photo.2.tags.7.location: 710, 300
-photo.2.tags.8.location: 365, 350
+photo.2.tags.7.coordinates: 710, 300
+photo.2.tags.8.coordinates: 365, 350
 photo.3: cwdc://W-rjbHpADQA.jpg
 photo.3.author: _rifa_p
 photo.3.commitdate: 2020/1/17
 photo.3.link: ig://B7W99BkhjTz
 photo.3.tags: auntie, baby, home
-photo.3.tags.7.location: 880, 380
-photo.3.tags.8.location: 415, 370
+photo.3.tags.7.coordinates: 880, 380
+photo.3.tags.8.coordinates: 415, 370
 photo.4: cwdc://XAHxeGrADQC.jpg
 photo.4.author: rie_panda55
 photo.4.commitdate: 2025/1/11
 photo.4.link: ig://B8FE-hFhU1y
 photo.4.tags: auntie, baby, door, portrait
-photo.4.tags.7.location: 250, 355
-photo.4.tags.8.location: 475, 625
+photo.4.tags.7.coordinates: 250, 355
+photo.4.tags.8.coordinates: 475, 625

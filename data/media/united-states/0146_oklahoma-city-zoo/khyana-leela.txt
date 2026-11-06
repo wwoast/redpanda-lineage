@@ -7,5 +7,5 @@ photo.1.author: mandalaybay22
 photo.1.commitdate: 2020/5/23
 photo.1.link: https://www.instagram.com/mandalaybay22/
 photo.1.tags: bamboo, mother's day, smile
-photo.1.tags.847.location: 120, 60
-photo.1.tags.877.location: 260, 150
+photo.1.tags.847.coordinates: 120, 60
+photo.1.tags.877.coordinates: 260, 150

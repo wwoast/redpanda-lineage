@@ -7,12 +7,12 @@ photo.1.author: leonard_redmof
 photo.1.commitdate: 2021/3/21
 photo.1.link: https://www.instagram.com/p/BlF20t4FaiZ
 photo.1.tags: baby, lunch time, siblings
-photo.1.tags.22.location: 365, 155
-photo.1.tags.58.location: 220, 165
+photo.1.tags.22.coordinates: 365, 155
+photo.1.tags.58.coordinates: 220, 165
 photo.2: cwdc://YJto6zFADQA.jpg
 photo.2.author: cattail.sapporo
 photo.2.commitdate: 2022/8/5
 photo.2.link: https://www.instagram.com/p/Cg4As3SrW6g
 photo.2.tags: baby, bamboo, keeper, portrait, siblings, whiskers
-photo.2.tags.22.location: 460, 300
-photo.2.tags.58.location: 220, 340
+photo.2.tags.22.coordinates: 460, 300
+photo.2.tags.58.coordinates: 220, 340

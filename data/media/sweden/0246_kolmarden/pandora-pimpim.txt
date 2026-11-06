@@ -7,5 +7,5 @@ photo.1.author: kolmardensjurpark
 photo.1.commitdate: 2020/5/6
 photo.1.link: https://www.instagram.com/kolmardensdjurpark/
 photo.1.tags: baby, dish, mother's day, portrait, smile
-photo.1.tags.1156.location: 65, 100
-photo.1.tags.1160.location: 230, 165
+photo.1.tags.1156.coordinates: 65, 100
+photo.1.tags.1160.coordinates: 230, 165

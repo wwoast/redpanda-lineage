@@ -7,14 +7,14 @@ photo.1.author: love__mitarashi
 photo.1.commitdate: 2025/4/25
 photo.1.link: ig://BJGv6I_h7kh
 photo.1.tags: home, peek
-photo.1.tags.110.location: 235, 215
-photo.1.tags.141.location: 180, 165
-photo.1.tags.282.location: 620, 460
+photo.1.tags.110.coordinates: 235, 215
+photo.1.tags.141.coordinates: 180, 165
+photo.1.tags.282.coordinates: 620, 460
 photo.2: cwdc://X-iU3l0ADQA.jpg
 photo.2.author: tomo3700
 photo.2.commitdate: 2022/11/29
 photo.2.link: ig://CbSWrQqPxLl
 photo.2.tags: family, siblings, sisters, twins
-photo.2.tags.110.location: 370, 135
-photo.2.tags.141.location: 310, 375
-photo.2.tags.282.location: 255, 495
+photo.2.tags.110.coordinates: 370, 135
+photo.2.tags.141.coordinates: 310, 375
+photo.2.tags.282.coordinates: 255, 495

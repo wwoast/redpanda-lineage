@@ -7,5 +7,5 @@ photo.1.author: mariten1119
 photo.1.commitdate: 2020/12/8
 photo.1.link: https://www.instagram.com/mariten1119/
 photo.1.tags: bamboo, friends, paw-up
-photo.1.tags.164.location: 260, 125
-photo.1.tags.185.location: 355, 115
+photo.1.tags.164.coordinates: 260, 125
+photo.1.tags.185.coordinates: 355, 115

@@ -7,6 +7,6 @@ photo.1.author: tamazoowalking
 photo.1.commitdate: 2023/8/23
 photo.1.link: ig://CoWxteFvAZZ
 photo.1.tags: brothers, family, grooming, mother's day, siblings, twins
-photo.1.tags.8.location: 220, 265
-photo.1.tags.1383.location: 355, 300
-photo.1.tags.1384.location: 260, 445
+photo.1.tags.8.coordinates: 220, 265
+photo.1.tags.1383.coordinates: 355, 300
+photo.1.tags.1384.coordinates: 260, 445

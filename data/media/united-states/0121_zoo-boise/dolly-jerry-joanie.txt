@@ -7,6 +7,6 @@ photo.1.author: zooboise
 photo.1.commitdate: 2020/3/21
 photo.1.link: https://www.instagram.com/zooboise/
 photo.1.tags: family, siblings, twins
-photo.1.tags.819.location: 60, 375
-photo.1.tags.1138.location: 735, 290
-photo.1.tags.1139.location: 1045, 445
+photo.1.tags.819.coordinates: 60, 375
+photo.1.tags.1138.coordinates: 735, 290
+photo.1.tags.1139.coordinates: 1045, 445

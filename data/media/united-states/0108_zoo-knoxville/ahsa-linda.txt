@@ -7,5 +7,5 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2020/11/16
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: tongue, white face
-photo.1.tags.1075.location: 235, 305
-photo.1.tags.1076.location: 455, 375
+photo.1.tags.1075.coordinates: 235, 305
+photo.1.tags.1076.coordinates: 455, 375

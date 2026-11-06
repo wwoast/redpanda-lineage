@@ -7,7 +7,7 @@ photo.1.author: rossifari
 photo.1.commitdate: 2021/9/18
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: door, family, whiskers
-photo.1.tags.394.location: 330, 255
-photo.1.tags.999.location: 370, 130
-photo.1.tags.1185.location: 130, 300
-photo.1.tags.1186.location: 540, 265
+photo.1.tags.394.coordinates: 330, 255
+photo.1.tags.999.coordinates: 370, 130
+photo.1.tags.1185.coordinates: 130, 300
+photo.1.tags.1186.coordinates: 540, 265

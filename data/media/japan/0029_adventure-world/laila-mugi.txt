@@ -7,229 +7,229 @@ photo.1.author: adventureworld_official
 photo.1.commitdate: 2024/4/8
 photo.1.link: ig://BqMBnbxFUL1?img_index=3
 photo.1.tags: baby, mother's day, paws, portrait, sample, whiskers
-photo.1.tags.60.location: 365, 355
-photo.1.tags.305.location: 180, 380
+photo.1.tags.60.coordinates: 365, 355
+photo.1.tags.305.coordinates: 180, 380
 photo.2: cwdc://WdJ7E8NADQA.jpg
 photo.2.author: framereim
 photo.2.commitdate: 2019/5/14
 photo.2.link: ig://BqmJx72lQg7
 photo.2.tags: mother's day, muzzle, portrait, sample, whiskers
-photo.2.tags.60.location: 245, 135
-photo.2.tags.305.location: 175, 120
+photo.2.tags.60.coordinates: 245, 135
+photo.2.tags.305.coordinates: 175, 120
 photo.3: cwdc://WdJ7E8NADQB.jpg
 photo.3.author: framereim
 photo.3.commitdate: 2024/3/17
 photo.3.link: ig://BqmJx72lQg7
 photo.3.tags: baby, dish, mother's day, portrait, tail
-photo.3.tags.60.location: 330, 385
-photo.3.tags.305.location: 220, 435
+photo.3.tags.60.coordinates: 330, 385
+photo.3.tags.305.coordinates: 220, 435
 photo.4: cwdc://WewIcdcADQC.jpg
 photo.4.author: kipekaila
 photo.4.commitdate: 2019/5/14
 photo.4.link: ig://BrZQdseFUNI
 photo.4.tags: baby, blink, laying down, mother's day, paws, tail, whiskers
-photo.4.tags.60.location: 240, 130
-photo.4.tags.305.location: 100, 150
+photo.4.tags.60.coordinates: 240, 130
+photo.4.tags.305.coordinates: 100, 150
 photo.5: cwdc://Whq-I_tADQA.jpg
 photo.5.author: yakkooo24
 photo.5.commitdate: 2020/2/16
 photo.5.link: ig://Bs2rT9mljjh
 photo.5.tags: family, mother's day, paws, playing, portrait, sample
-photo.5.tags.60.location: 285, 210
-photo.5.tags.305.location: 135, 90
+photo.5.tags.60.coordinates: 285, 210
+photo.5.tags.305.coordinates: 135, 90
 photo.6: cwdc://Wh2I9dAADQB.jpg
 photo.6.author: yakkooo24
 photo.6.commitdate: 2020/2/16
 photo.6.link: ig://Bs8QuMQFmPI
 photo.6.tags: dish, family, lunch time, nose, portrait, sample, smile, tongue
-photo.6.tags.60.location: 200, 145
-photo.6.tags.305.location: 100, 170
+photo.6.tags.60.coordinates: 200, 145
+photo.6.tags.305.coordinates: 100, 170
 photo.7: cwdc://WifEct1ADQD.jpg
 photo.7.author: pon.bird
 photo.7.commitdate: 2024/4/8
 photo.7.link: ig://BtQud0qgHMh?img_index=6
 photo.7.tags: baby, climb, mofumofu, paws, upside-down
-photo.7.tags.60.location: 435, 305
-photo.7.tags.305.location: 175, 450
+photo.7.tags.60.coordinates: 435, 305
+photo.7.tags.305.coordinates: 175, 450
 photo.8: cwdc://WifEct1ADQE.jpg
 photo.8.author: pon.bird
 photo.8.commitdate: 2024/6/28
 photo.8.link: ig://BtQud0qgHMh?img_index=5
 photo.8.tags: mofumofu, mother's day, paws, playing, portrait, techitechi
-photo.8.tags.60.location: 255, 340
-photo.8.tags.305.location: 505, 345
+photo.8.tags.60.coordinates: 255, 340
+photo.8.tags.305.coordinates: 505, 345
 photo.9: cwdc://Wq_l2PoADQA.jpg
 photo.9.author: bubbles_octi
 photo.9.commitdate: 2019/5/18
 photo.9.link: ig://Bxg_KlkF2_3
 photo.9.tags: laying down, mother's day, peek, tail
-photo.9.tags.60.location: 70, 135
-photo.9.tags.305.location: 230, 80
+photo.9.tags.60.coordinates: 70, 135
+photo.9.tags.305.coordinates: 230, 80
 photo.10: cwdc://Wq_l2PoADQB.jpg
 photo.10.author: bubbles_octi
 photo.10.commitdate: 2024/4/8
 photo.10.link: ig://Bxg_KlkF2_4
 photo.10.tags: bridge, mother's day, peek, sample
-photo.10.tags.60.location: 90, 200
-photo.10.tags.305.location: 460, 260
+photo.10.tags.60.coordinates: 90, 200
+photo.10.tags.305.coordinates: 460, 260
 photo.11: cwdc://Wq_l2PoADQC.jpg
 photo.11.author: bubbles_octi
 photo.11.commitdate: 2024/4/8
 photo.11.link: ig://Bxg_KlkF2_5
 photo.11.tags: grooming, mother's day, paws
-photo.11.tags.60.location: 435, 265
-photo.11.tags.305.location: 645, 285
+photo.11.tags.60.coordinates: 435, 265
+photo.11.tags.305.coordinates: 645, 285
 photo.12: cwdc://WrN6LWiADQA.jpg
 photo.12.author: framereim
 photo.12.commitdate: 2024/4/8
 photo.12.link: ig://BxoJVJBFsSG
 photo.12.tags: mother's day, paws, whiskers
-photo.12.tags.60.location: 655, 355
-photo.12.tags.305.location: 310, 275
+photo.12.tags.60.coordinates: 655, 355
+photo.12.tags.305.coordinates: 310, 275
 photo.13: cwdc://WsEGOG_ADQA.jpg
 photo.13.author: redpanda_nippon_takashi
 photo.13.commitdate: 2019/5/31
 photo.13.link: ig://ByDPWhPhnsR
 photo.13.tags: mother's day, nose, portrait, sample, tongue, whiskers
-photo.13.tags.60.location: 205, 75
-photo.13.tags.305.location: 170, 235
+photo.13.tags.60.coordinates: 205, 75
+photo.13.tags.305.coordinates: 170, 235
 photo.14: cwdc://Wy-BnmzADQA.jpg
 photo.14.author: daniele.tokyo
 photo.14.commitdate: 2019/8/23
 photo.14.link: ig://B1gNDRJhBJ3
 photo.14.tags: apple time, keeper, mother's day
-photo.14.tags.60.location: 55, 80
-photo.14.tags.305.location: 195, 140
+photo.14.tags.60.coordinates: 55, 80
+photo.14.tags.305.coordinates: 195, 140
 photo.15: cwdc://Wy-BnmzADQB.jpg
 photo.15.author: daniele.tokyo
 photo.15.commitdate: 2024/4/8
 photo.15.link: ig://B1gNDRJhBJ3?img_index=2
 photo.15.tags: apple time, baby, dish, keeper, mother's day, paws, standing, tail
-photo.15.tags.60.location: 135, 175
-photo.15.tags.305.location: 505, 335
+photo.15.tags.60.coordinates: 135, 175
+photo.15.tags.305.coordinates: 505, 335
 photo.16: cwdc://W3n5b8TADQA.jpg
 photo.16.author: chankunvv
 photo.16.commitdate: 2019/10/28
 photo.16.link: ig://B31I9b5hVGy
 photo.16.tags: bridge, laying down, mother's day, paws, peek, tail
-photo.16.tags.60.location: 295, 225
-photo.16.tags.305.location: 75, 100
+photo.16.tags.60.coordinates: 295, 225
+photo.16.tags.305.coordinates: 75, 100
 photo.17: cwdc://W3n5b8TADQB.jpg
 photo.17.author: chankunvv
 photo.17.commitdate: 2024/3/17
 photo.17.link: ig://B31I9b5hVGy?img_index=4
 photo.17.tags: grooming, mother's day, paws, tail
-photo.17.tags.60.location: 590, 450
-photo.17.tags.305.location: 50, 345
+photo.17.tags.60.coordinates: 590, 450
+photo.17.tags.305.coordinates: 50, 345
 photo.18: cwdc://W4PxLc1ADQA.jpg
 photo.18.author: fetorus_mami
 photo.18.commitdate: 2019/10/29
 photo.18.link: ig://B4JE1MKhYUu
 photo.18.tags: bridge, mother's day, paws, sample, smile
-photo.18.tags.60.location: 250, 65
-photo.18.tags.305.location: 135, 75
+photo.18.tags.60.coordinates: 250, 65
+photo.18.tags.305.coordinates: 135, 75
 photo.19: cwdc://W4PxLc1ADQB.jpg
 photo.19.author: fetorus_mami
 photo.19.commitdate: 2024/3/17
 photo.19.link: ig://B4JE1MKhYUu
 photo.19.tags: bridge, mother's day, peek, sample
-photo.19.tags.60.location: 540, 200
-photo.19.tags.305.location: 340, 165
+photo.19.tags.60.coordinates: 540, 200
+photo.19.tags.305.coordinates: 340, 165
 photo.20: cwdc://W4PxLc1ADQC.jpg
 photo.20.author: fetorus_mami
 photo.20.commitdate: 2024/3/17
 photo.20.link: ig://B4JE1MKhYUu
 photo.20.tags: bridge, mother's day, sample, tail
-photo.20.tags.60.location: 730, 170
-photo.20.tags.305.location: 110, 155
+photo.20.tags.60.coordinates: 730, 170
+photo.20.tags.305.coordinates: 110, 155
 photo.21: cwdc://W4aH-wUADQD.jpg
 photo.21.author: fetorus_mami
 photo.21.commitdate: 2019/10/31
 photo.21.link: ig://B4OQO16BcFQ
 photo.21.tags: bridge, mother's day, paws, peek, techitechi, window
-photo.21.tags.60.location: 240, 65
-photo.21.tags.305.location: 50, 60
+photo.21.tags.60.coordinates: 240, 65
+photo.21.tags.305.coordinates: 50, 60
 photo.22: cwdc://W4w9IhJADQB.jpg
 photo.22.author: chankunvv
 photo.22.commitdate: 2024/4/8
 photo.22.link: ig://B4ZqzuUhhe6?img_index=6
 photo.22.tags: close-up, grooming, laying down, mofumofu, paws, tongue, window
-photo.22.tags.60.location: 100, 430
-photo.22.tags.305.location: 575, 435
+photo.22.tags.60.coordinates: 100, 430
+photo.22.tags.305.coordinates: 575, 435
 photo.23: cwdc://W6pzUlwADQA.jpg
 photo.23.author: s24.star_load
 photo.23.commitdate: 2019/11/29
 photo.23.link: ig://B5WF5woAeyj
 photo.23.tags: baby, mother's day, muzzle
-photo.23.tags.60.location: 235, 220
-photo.23.tags.305.location: 155, 95
+photo.23.tags.60.coordinates: 235, 220
+photo.23.tags.305.coordinates: 155, 95
 photo.24: cwdc://W_HyBmXADQA.jpg
 photo.24.author: nishicotolo
 photo.24.commitdate: 2020/2/16
 photo.24.link: ig://B7lFQQ7hB04
 photo.24.tags: bridge, mother's day, paws, tail
-photo.24.tags.60.location: 540, 200
-photo.24.tags.305.location: 105, 240
+photo.24.tags.60.coordinates: 540, 200
+photo.24.tags.305.coordinates: 105, 240
 photo.25: cwdc://W_R83KfADQC.jpg
 photo.25.author: daniele.tokyo
 photo.25.commitdate: 2020/2/16
 photo.25.link: ig://B7qKrC_h81E
 photo.25.tags: baby, family, keeper, mother's day, standing
-photo.25.tags.60.location: 85, 75
-photo.25.tags.305.location: 215, 135
+photo.25.tags.60.coordinates: 85, 75
+photo.25.tags.305.coordinates: 215, 135
 photo.26: cwdc://XBMDSRhADQA.jpg
 photo.26.author: adventureworld_official
 photo.26.commitdate: 2024/4/8
 photo.26.link: ig://B8nN4mghlom
 photo.26.tags: mother's day, portrait, sample, tail, window
-photo.26.tags.60.location: 710, 440
-photo.26.tags.305.location: 85, 340
+photo.26.tags.60.coordinates: 710, 440
+photo.26.tags.305.coordinates: 85, 340
 photo.27: cwdc://XDcuxs5ADQA.jpg
 photo.27.author: kipekaila
 photo.27.commitdate: 2020/3/17
 photo.27.link: ig://B9vjoUMh4gs
 photo.27.tags: laying down, mother's day, playing
-photo.27.tags.60.location: 225, 195
-photo.27.tags.305.location: 80, 175
+photo.27.tags.60.coordinates: 225, 195
+photo.27.tags.305.coordinates: 80, 175
 photo.28: cwdc://XDeXuzNADQB.jpg
 photo.28.author: kipekaila
 photo.28.commitdate: 2020/3/21
 photo.28.link: ig://B9wYG3WhHVm
 photo.28.tags: mother's day, sample, whiskers
-photo.28.tags.60.location: 490, 230
-photo.28.tags.305.location: 270, 315
+photo.28.tags.60.coordinates: 490, 230
+photo.28.tags.305.coordinates: 270, 315
 photo.29: cwdc://XFP8TMsADQA.jpg
 photo.29.author: craig_craig_craig
 photo.29.commitdate: 2020/4/15
 photo.29.link: ig://B-pKZEGB1Ub
 photo.29.tags: baby, mother's day, paws, portrait
-photo.29.tags.60.location: 150, 235
-photo.29.tags.305.location: 250, 180
+photo.29.tags.60.coordinates: 150, 235
+photo.29.tags.305.coordinates: 250, 180
 photo.30: cwdc://XGgZTL6ADQB.jpg
 photo.30.author: craig_craig_craig
 photo.30.commitdate: 2020/5/23
 photo.30.link: ig://B_RY5DtHNk-
 photo.30.tags: close-up, dish, lunch time, mother's day, portrait, sample, whiskers
-photo.30.tags.60.location: 225, 185
-photo.30.tags.305.location: 110, 100
+photo.30.tags.60.coordinates: 225, 185
+photo.30.tags.305.coordinates: 110, 100
 photo.31: cwdc://XH3iWVPADQA.jpg
 photo.31.author: mifko55
 photo.31.commitdate: 2020/7/3
 photo.31.link: ig://B_89aoXh0yy
 photo.31.tags: day, mothers, paws, playing
-photo.31.tags.60.location: 150, 160
-photo.31.tags.305.location: 65, 150
+photo.31.tags.60.coordinates: 150, 160
+photo.31.tags.305.coordinates: 65, 150
 photo.32: cwdc://Z_Nl4qGADQA.webp
 photo.32.author: fetorus_mami
 photo.32.commitdate: 2026/8/25
 photo.32.link: ig://Dbn_LyzE4V1
 photo.32.tags: mother's day, paws, sample
-photo.32.tags.60.location: 735, 195
-photo.32.tags.305.location: 430, 230
+photo.32.tags.60.coordinates: 735, 195
+photo.32.tags.305.coordinates: 430, 230
 photo.33: cwdc://Z_Nl4qGADQB.webp
 photo.33.author: fetorus_mami
 photo.33.commitdate: 2026/8/25
 photo.33.link: ig://Dbn_LyzE4V2
 photo.33.tags: mother's day, paws, sample, whiskers
-photo.33.tags.60.location: 460, 280
-photo.33.tags.305.location: 310, 235
+photo.33.tags.60.coordinates: 460, 280
+photo.33.tags.305.coordinates: 310, 235

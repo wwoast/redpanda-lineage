@@ -7,5 +7,5 @@ photo.1.author: takahisakaneuchi
 photo.1.commitdate: 2020/3/8
 photo.1.link: https://www.instagram.com/p/B9dTAcBhTO-
 photo.1.tags: friends
-photo.1.tags.156.location: 260, 145
-photo.1.tags.157.location: 65, 135
+photo.1.tags.156.coordinates: 260, 145
+photo.1.tags.157.coordinates: 65, 135

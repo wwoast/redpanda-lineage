@@ -7,38 +7,38 @@ photo.1.author: jwg13777
 photo.1.commitdate: 2019/6/6
 photo.1.link: ig://BwOmVIog1CK
 photo.1.tags: paws, sisters, standing
-photo.1.tags.6.location: 170, 155
-photo.1.tags.8.location: 270, 160
-photo.1.tags.247.location: 105, 140
+photo.1.tags.6.coordinates: 170, 155
+photo.1.tags.8.coordinates: 270, 160
+photo.1.tags.247.coordinates: 105, 140
 photo.2: cwdc://Wsf0EOmADQA.jpg
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/6/3
 photo.2.link: ig://ByRGRlDBaWb
 photo.2.tags: apple time, lunch time, sisters
-photo.2.tags.6.location: 85, 70
-photo.2.tags.8.location: 215, 50
-photo.2.tags.247.location: 150, 230
+photo.2.tags.6.coordinates: 85, 70
+photo.2.tags.8.coordinates: 215, 50
+photo.2.tags.247.coordinates: 150, 230
 photo.3: cwdc://Wsk90VGADQB.jpg
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2025/1/19
 photo.3.link: ig://ByTrJoTBMBN
 photo.3.tags: keeper, siblings, sisters
-photo.3.tags.6.location: 385, 460
-photo.3.tags.8.location: 625, 115
-photo.3.tags.247.location: 275, 50
+photo.3.tags.6.coordinates: 385, 460
+photo.3.tags.8.coordinates: 625, 115
+photo.3.tags.247.coordinates: 275, 50
 photo.4: cwdc://Wsk90VGADQC.jpg
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2025/1/19
 photo.4.link: ig://ByTrJoTBMBO
 photo.4.tags: keeper, siblings, sisters
-photo.4.tags.6.location: 420, 460
-photo.4.tags.8.location: 600, 105
-photo.4.tags.247.location: 255, 150
+photo.4.tags.6.coordinates: 420, 460
+photo.4.tags.8.coordinates: 600, 105
+photo.4.tags.247.coordinates: 255, 150
 photo.5: cwdc://XICxCFUADQA.jpg
 photo.5.author: na.mo.pan
 photo.5.commitdate: 2020/5/29
 photo.5.link: ig://CACkwgaBfCK
 photo.5.tags: apple time, dish, family, keeper, sisters
-photo.5.tags.6.location: 145, 115
-photo.5.tags.8.location: 200, 165
-photo.5.tags.247.location: 105, 30
+photo.5.tags.6.coordinates: 145, 115
+photo.5.tags.8.coordinates: 200, 165
+photo.5.tags.247.coordinates: 105, 30

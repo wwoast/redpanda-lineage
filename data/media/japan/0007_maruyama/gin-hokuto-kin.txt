@@ -7,6 +7,6 @@ photo.1.author: cattail.sapporo
 photo.1.commitdate: 2021/5/31
 photo.1.link: https://www.instagram.com/p/CNUn2d_gxIA
 photo.1.tags: siblings, snow
-photo.1.tags.17.location: 390, 300
-photo.1.tags.22.location: 125, 260
-photo.1.tags.58.location: 545, 185
+photo.1.tags.17.coordinates: 390, 300
+photo.1.tags.22.coordinates: 125, 260
+photo.1.tags.58.coordinates: 545, 185

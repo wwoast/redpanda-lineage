@@ -1030,7 +1030,7 @@ export class Dataset {
       if (vertex.type == "media") {
         photo.coordinates = Object.fromEntries(
           vertex["panda.tags"].map(pandaId => {
-            const field = `${photoKey}.tags.${pandaId}.location`
+            const field = `${photoKey}.tags.${pandaId}.coordinates`
             if (!vertex[field])
               throw new Error(`[build] ERR: ${vertex._id}: missing: ${field}`)
             return [pandaId, [
@@ -1108,7 +1108,7 @@ export class Dataset {
         if (photo.coordinates) {
           Object.entries(photo.coordinates).map((entry: [string, [number, number]]) => {
             const [pandaId, coordinates] = entry
-            working[`photo.${naturalIndex}.tags.${pandaId}.location`] = coordinates.join(', ')
+            working[`photo.${naturalIndex}.tags.${pandaId}.coordinates`] = coordinates.join(', ')
           })
         }
       })

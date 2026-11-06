@@ -7,6 +7,6 @@ photo.1.author: mirellad03
 photo.1.commitdate: 2022/8/22
 photo.1.link: https://www.instagram.com/mirellad03/
 photo.1.tags: autumn, baby, mother's day, peek, siblings, tail, twins
-photo.1.tags.1056.location: 390, 130
-photo.1.tags.1217.location: 310, 195
-photo.1.tags.1218.location: 255, 290
+photo.1.tags.1056.coordinates: 390, 130
+photo.1.tags.1217.coordinates: 310, 195
+photo.1.tags.1218.coordinates: 255, 290

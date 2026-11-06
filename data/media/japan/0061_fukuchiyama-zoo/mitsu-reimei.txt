@@ -7,187 +7,187 @@ photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2020/6/28
 photo.1.link: ig://CBvENb0BwtB
 photo.1.tags: brothers, grumpy, laying down, siblings
-photo.1.tags.286.location: 440, 245
-photo.1.tags.959.location: 660, 390
+photo.1.tags.286.coordinates: 440, 245
+photo.1.tags.959.coordinates: 660, 390
 photo.2: cwdc://XNBjRTGADQA.jpg
 photo.2.author: kisshan324
 photo.2.commitdate: 2020/8/5
 photo.2.link: ig://CCh94HTBEz8
 photo.2.tags: brothers, laying down, peek, siblings
-photo.2.tags.286.location: 555, 715
-photo.2.tags.959.location: 925, 595
+photo.2.tags.286.coordinates: 555, 715
+photo.2.tags.959.coordinates: 925, 595
 photo.3: cwdc://XPih6tQADQE.jpg
 photo.3.author: redpanda_nippon_takashi
 photo.3.commitdate: 2020/8/16
 photo.3.link: ig://CDydM0YBmU6
 photo.3.tags: brothers, siblings
-photo.3.tags.286.location: 425, 305
-photo.3.tags.959.location: 695, 305
+photo.3.tags.286.coordinates: 425, 305
+photo.3.tags.959.coordinates: 695, 305
 photo.4: cwdc://XPnyn18ADQB.jpg
 photo.4.author: redpanda_nippon_takashi
 photo.4.commitdate: 2024/3/27
 photo.4.link: ig://CD1FjYuBbvc
 photo.4.tags: brothers, close-up, siblings, whiskers
-photo.4.tags.286.location: 250, 250
-photo.4.tags.959.location: 500, 625
+photo.4.tags.286.coordinates: 250, 250
+photo.4.tags.959.coordinates: 500, 625
 photo.5: cwdc://XP23sdZADQC.jpg
 photo.5.author: redpanda_nippon_takashi
 photo.5.commitdate: 2021/6/11
 photo.5.link: ig://CD8oFschwqv
 photo.5.tags: brothers, mofumofu, portrait, sample, siblings
-photo.5.tags.286.location: 110, 130
-photo.5.tags.959.location: 215, 135
+photo.5.tags.286.coordinates: 110, 130
+photo.5.tags.959.coordinates: 215, 135
 photo.6: cwdc://XP23sdZADQD.jpg
 photo.6.author: redpanda_nippon_takashi
 photo.6.commitdate: 2024/3/27
 photo.6.link: ig://CD8oFschwqv
 photo.6.tags: brothers, mofumofu, portrait, siblings, tongue, whiskers
-photo.6.tags.286.location: 290, 330
-photo.6.tags.959.location: 505, 330
+photo.6.tags.286.coordinates: 290, 330
+photo.6.tags.959.coordinates: 505, 330
 photo.7: cwdc://XePQuT0ADQB.jpg
 photo.7.author: kisshan324
 photo.7.commitdate: 2021/2/16
 photo.7.link: ig://CLI0mnqB32S
 photo.7.tags: brothers, playing, siblings, tail
-photo.7.tags.286.location: 240, 95
-photo.7.tags.959.location: 190, 155
+photo.7.tags.286.coordinates: 240, 95
+photo.7.tags.959.coordinates: 190, 155
 photo.8: cwdc://Xoz6a8SADQB.jpg
 photo.8.author: love__mitarashi
 photo.8.commitdate: 2024/3/27
 photo.8.link: ig://CQbJc75BUUh
 photo.8.tags: brothers, grooming, mofumofu, siblings, videolink
-photo.8.tags.286.location: 240, 380
-photo.8.tags.959.location: 180, 465
+photo.8.tags.286.coordinates: 240, 380
+photo.8.tags.959.coordinates: 180, 465
 photo.9: cwdc://Xy8xbIJADQC.jpg
 photo.9.author: love__mitarashi
 photo.9.commitdate: 2024/3/27
 photo.9.link: ig://CVfk9B0phri
 photo.9.tags: brothers, door, paws, siblings, whiskers
-photo.9.tags.286.location: 470, 165
-photo.9.tags.959.location: 85, 440
+photo.9.tags.286.coordinates: 470, 165
+photo.9.tags.959.coordinates: 85, 440
 photo.10: cwdc://X0EcOH_ADQA.jpg
 photo.10.author: makimaru18
 photo.10.commitdate: 2022/1/13
 photo.10.link: ig://CWDaWhvhmWk
 photo.10.tags: brothers, paws, playing, siblings
-photo.10.tags.286.location: 265, 105
-photo.10.tags.959.location: 225, 270
+photo.10.tags.286.coordinates: 265, 105
+photo.10.tags.959.coordinates: 225, 270
 photo.11: cwdc://X0EcOH_ADQB.jpg
 photo.11.author: makimaru18
 photo.11.commitdate: 2024/3/27
 photo.11.link: ig://CWDaWhvhmWk
 photo.11.tags: brothers, paws, playing, siblings
-photo.11.tags.286.location: 180, 190
-photo.11.tags.959.location: 230, 580
+photo.11.tags.286.coordinates: 180, 190
+photo.11.tags.959.coordinates: 230, 580
 photo.12: cwdc://X0EcOH_ADQC.jpg
 photo.12.author: makimaru18
 photo.12.commitdate: 2024/3/27
 photo.12.link: ig://CWDaWhvhmWm
 photo.12.tags: brothers, paws, playing, portrait, siblings, surprise
-photo.12.tags.286.location: 140, 330
-photo.12.tags.959.location: 305, 400
+photo.12.tags.286.coordinates: 140, 330
+photo.12.tags.959.coordinates: 305, 400
 photo.13: cwdc://X16XeXXADQC.jpg
 photo.13.author: kisshan324
 photo.13.commitdate: 2022/3/24
 photo.13.link: ig://CW-X-pbh6S2
 photo.13.tags: brothers, playing, portrait, siblings, tail
-photo.13.tags.286.location: 415, 235
-photo.13.tags.959.location: 110, 295
+photo.13.tags.286.coordinates: 415, 235
+photo.13.tags.959.coordinates: 110, 295
 photo.14: cwdc://X16XeXXADQD.jpg
 photo.14.author: kisshan324
 photo.14.commitdate: 2024/3/27
 photo.14.link: ig://CW-X-pbh6S3
 photo.14.tags: brothers, climb, paws, playing, portrait, siblings, tail
-photo.14.tags.286.location: 590, 240
-photo.14.tags.959.location: 250, 680
+photo.14.tags.286.coordinates: 590, 240
+photo.14.tags.959.coordinates: 250, 680
 photo.15: cwdc://X77cJ8iADQE.jpg
 photo.15.author: kisshan324
 photo.15.commitdate: 2022/3/9
 photo.15.link: ig://CZ-6UcBPOGq
 photo.15.tags: brothers, playing, siblings, surprise
-photo.15.tags.286.location: 205, 110
-photo.15.tags.959.location: 115, 270
+photo.15.tags.286.coordinates: 205, 110
+photo.15.tags.959.coordinates: 115, 270
 photo.16: cwdc://X77cJ8iADQF.jpg
 photo.16.author: kisshan324
 photo.16.commitdate: 2024/3/27
 photo.16.link: ig://CZ-6UcBPOGq
 photo.16.tags: bamboo, brothers, laying down, paws, playing, portrait, siblings, tail
-photo.16.tags.286.location: 425, 145
-photo.16.tags.959.location: 180, 420
+photo.16.tags.286.coordinates: 425, 145
+photo.16.tags.959.coordinates: 180, 420
 photo.17: cwdc://YAsa4cxADQA.webp
 photo.17.author: kisshan324
 photo.17.commitdate: 2026/3/26
 photo.17.link: ig://CcXZrsIvIwp
 photo.17.tags: brothers, paws, playing, siblings, tail
-photo.17.tags.286.location: 230, 485
-photo.17.tags.959.location: 520, 305
+photo.17.tags.286.coordinates: 230, 485
+photo.17.tags.959.coordinates: 520, 305
 photo.18: cwdc://YAsa4cxADQB.webp
 photo.18.author: kisshan324
 photo.18.commitdate: 2026/3/26
 photo.18.link: ig://CcXZrsIvIwq
 photo.18.tags: brothers, paws, playing, siblings, standing, tongue, whiskers
-photo.18.tags.286.location: 380, 450
-photo.18.tags.959.location: 435, 310
+photo.18.tags.286.coordinates: 380, 450
+photo.18.tags.959.coordinates: 435, 310
 photo.19: cwdc://YAsa4cxADQC.webp
 photo.19.author: kisshan324
 photo.19.commitdate: 2026/3/26
 photo.19.link: ig://CcXZrsIvIwr
 photo.19.tags: brothers, laying down, playing, siblings, tail
-photo.19.tags.286.location: 165, 500
-photo.19.tags.959.location: 255, 375
+photo.19.tags.286.coordinates: 165, 500
+photo.19.tags.959.coordinates: 255, 375
 photo.20: cwdc://YAsa4cxADQD.webp
 photo.20.author: kisshan324
 photo.20.commitdate: 2026/3/26
 photo.20.link: ig://CcXZrsIvIws
 photo.20.tags: brothers, laying down, paws, playing, siblings, tail, whiskers
-photo.20.tags.286.location: 455, 315
-photo.20.tags.959.location: 280, 320
+photo.20.tags.286.coordinates: 455, 315
+photo.20.tags.959.coordinates: 280, 320
 photo.21: cwdc://YAsa4cxADQE.webp
 photo.21.author: kisshan324
 photo.21.commitdate: 2026/3/26
 photo.21.link: ig://CcXZrsIvIwt
 photo.21.tags: brothers, laying down, paws, playing, siblings, tail
-photo.21.tags.286.location: 330, 260
-photo.21.tags.959.location: 120, 475
+photo.21.tags.286.coordinates: 330, 260
+photo.21.tags.959.coordinates: 120, 475
 photo.22: cwdc://YAsa4cxADQF.webp
 photo.22.author: kisshan324
 photo.22.commitdate: 2026/3/26
 photo.22.link: ig://CcXZrsIvIww
 photo.22.tags: brothers, laying down, paws, playing, siblings, tail
-photo.22.tags.286.location: 540, 470
-photo.22.tags.959.location: 325, 485
+photo.22.tags.286.coordinates: 540, 470
+photo.22.tags.959.coordinates: 325, 485
 photo.23: cwdc://YD1w41eADQA.jpg
 photo.23.author: love__mitarashi
 photo.23.commitdate: 2024/3/27
 photo.23.link: ig://Cd8Er4fLxyC
 photo.23.tags: brothers, shedding, siblings, sample, tail
-photo.23.tags.286.location: 410, 240
-photo.23.tags.959.location: 535, 160
+photo.23.tags.286.coordinates: 410, 240
+photo.23.tags.959.coordinates: 535, 160
 photo.24: cwdc://Yfwst_6ADQA.jpg
 photo.24.author: jas_forever_love
 photo.24.commitdate: 2023/7/3
 photo.24.link: ig://Cr5imdtPrf9
 photo.24.tags: brothers, kiss, nose, portrait, shedding, siblings, twins
-photo.24.tags.286.location: 160, 230
-photo.24.tags.959.location: 320, 230
+photo.24.tags.286.coordinates: 160, 230
+photo.24.tags.959.coordinates: 320, 230
 photo.25: cwdc://Yfwst_6ADQB.jpg
 photo.25.author: jas_forever_love
 photo.25.commitdate: 2024/3/27
 photo.25.link: ig://Cr5imdtPrf9
 photo.25.tags: brothers, bridge, paws, playing, portrait, siblings
-photo.25.tags.286.location: 305, 145
-photo.25.tags.959.location: 540, 400
+photo.25.tags.286.coordinates: 305, 145
+photo.25.tags.959.coordinates: 540, 400
 photo.26: cwdc://YtmdNzCADQD.jpg
 photo.26.author: love__mitarashi
 photo.26.commitdate: 2024/3/27
 photo.26.link: ig://Cy0a2XRPWtz
 photo.26.tags: brothers, laying down, paws, siblings, tail
-photo.26.tags.286.location: 325, 325
-photo.26.tags.959.location: 590, 240
+photo.26.tags.286.coordinates: 325, 325
+photo.26.tags.959.coordinates: 590, 240
 photo.27: cwdc://ZKBPPQzADQB.jpg
 photo.27.author: sakikukeco
 photo.27.commitdate: 2025/6/4
 photo.27.link: ig://DBBz3GJyJsy
 photo.27.tags: brothers, paws, playing, portrait, tail
-photo.27.tags.286.location: 680, 550
-photo.27.tags.959.location: 230, 210
+photo.27.tags.286.coordinates: 680, 550
+photo.27.tags.959.coordinates: 230, 210

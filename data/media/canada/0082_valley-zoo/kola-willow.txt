@@ -7,5 +7,5 @@ photo.1.author: buildingourzoo
 photo.1.commitdate: 2020/9/24
 photo.1.link: https://www.instagram.com/buildingourzoo/
 photo.1.tags: hammock, portrait, siblings, twins
-photo.1.tags.434.location: 605, 310
-photo.1.tags.481.location: 260, 165
+photo.1.tags.434.coordinates: 605, 310
+photo.1.tags.481.coordinates: 260, 165

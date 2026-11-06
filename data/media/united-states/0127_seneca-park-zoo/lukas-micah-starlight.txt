@@ -7,14 +7,14 @@ photo.1.author: senecaparkzoo
 photo.1.commitdate: 2022/4/8
 photo.1.link: https://www.instagram.com/senecaparkzoo/
 photo.1.tags: bamboo, family, portrait, tail
-photo.1.tags.560.location: 85, 350
-photo.1.tags.1337.location: 370, 150
-photo.1.tags.1338.location: 185, 150
+photo.1.tags.560.coordinates: 85, 350
+photo.1.tags.1337.coordinates: 370, 150
+photo.1.tags.1338.coordinates: 185, 150
 photo.2: ig://CYhHsWZrOwd/l
 photo.2.author: senecaparkzoo
 photo.2.commitdate: 2022/4/8
 photo.2.link: https://www.instagram.com/senecaparkzoo/
 photo.2.tags: family, laying down, mofumofu
-photo.2.tags.560.location: 520, 180
-photo.2.tags.1337.location: 170, 170
-photo.2.tags.1338.location: 310, 185
+photo.2.tags.560.coordinates: 520, 180
+photo.2.tags.1337.coordinates: 170, 170
+photo.2.tags.1338.coordinates: 310, 185

@@ -7,6 +7,6 @@ photo.1.author: ssc6105
 photo.1.commitdate: 2020/8/5
 photo.1.link: https://www.instagram.com/ssc6105/
 photo.1.tags: bamboo, clockwise, family, laying down, sleeping
-photo.1.tags.26.location: 165, 860
-photo.1.tags.27.location: 1000, 400
-photo.1.tags.28.location: 300, 420
+photo.1.tags.26.coordinates: 165, 860
+photo.1.tags.27.coordinates: 1000, 400
+photo.1.tags.28.coordinates: 300, 420

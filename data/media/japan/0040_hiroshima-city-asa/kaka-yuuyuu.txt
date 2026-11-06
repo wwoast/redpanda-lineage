@@ -7,5 +7,5 @@ photo.1.author: kipekaila
 photo.1.commitdate: 2020/5/9
 photo.1.link: https://www.instagram.com/kipekaila/
 photo.1.tags: bamboo, mother's day, tongue
-photo.1.tags.224.location: 170, 245
-photo.1.tags.994.location: 700, 280
+photo.1.tags.224.coordinates: 170, 245
+photo.1.tags.994.coordinates: 700, 280

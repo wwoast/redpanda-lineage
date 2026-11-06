@@ -7,5 +7,5 @@ photo.1.author: craig_craig_craig
 photo.1.commitdate: 2020/4/25
 photo.1.link: https://www.instagram.com/craig_craig_craig/
 photo.1.tags: bridge, laying down, siblings, sisters, tail, tongue, twins
-photo.1.tags.181.location: 200, 410
-photo.1.tags.182.location: 810, 180
+photo.1.tags.181.coordinates: 200, 410
+photo.1.tags.182.coordinates: 810, 180

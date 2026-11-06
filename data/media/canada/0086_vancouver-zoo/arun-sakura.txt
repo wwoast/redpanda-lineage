@@ -7,26 +7,26 @@ photo.1.author: greatervancouverzoo
 photo.1.commitdate: 2021/4/3
 photo.1.link: ig://CMSbpIRF1zQ
 photo.1.tags: couple
-photo.1.tags.432.location: 345, 280
-photo.1.tags.445.location: 435, 240
+photo.1.tags.432.coordinates: 345, 280
+photo.1.tags.445.coordinates: 435, 240
 photo.2: cwdc://Xjx4odOADQA.jpg
 photo.2.author: westcoast_kathy
 photo.2.commitdate: 2021/5/19
 photo.2.link: ig://CN6IjsXAG8h
 photo.2.tags: bamboo, couple, paws, portrait
-photo.2.tags.432.location: 520, 215
-photo.2.tags.445.location: 155, 250
+photo.2.tags.432.coordinates: 520, 215
+photo.2.tags.445.coordinates: 155, 250
 photo.3: cwdc://Xut7KDRADQB.jpg
 photo.3.author: westcoast_kathy
 photo.3.commitdate: 2021/12/23
 photo.3.link: ig://CTYJ0fYv1Bv
 photo.3.tags: couple, paws, portrait
-photo.3.tags.432.location: 470, 160
-photo.3.tags.445.location: 235, 205
+photo.3.tags.432.coordinates: 470, 160
+photo.3.tags.445.coordinates: 235, 205
 photo.4: cwdc://X5vxrPRADQC.jpg
 photo.4.author: westcoast_kathy
 photo.4.commitdate: 2023/8/21
 photo.4.link: ig://CY5FFFYvG82
 photo.4.tags: couple, paws, portrait, sample
-photo.4.tags.432.location: 325, 370
-photo.4.tags.445.location: 490, 230
+photo.4.tags.432.coordinates: 325, 370
+photo.4.tags.445.coordinates: 490, 230

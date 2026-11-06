@@ -7,33 +7,33 @@ photo.1.author: asahiyamazoo1
 photo.1.commitdate: 2022/8/8
 photo.1.link: ig://Cf1RZNSvHkM
 photo.1.tags: baby, newborn, portrait, siblings, twins
-photo.1.tags.1370.location: 255, 155
-photo.1.tags.1371.location: 165, 285
+photo.1.tags.1370.coordinates: 255, 155
+photo.1.tags.1371.coordinates: 165, 285
 photo.2: cwdc://YJPLMUNADQC.jpg
 photo.2.author: asahiyamazoo1
 photo.2.commitdate: 2022/8/8
 photo.2.link: ig://Cgox1n2vA0z
 photo.2.tags: baby, keeper, mofumofu, newborn, siblings, twins
-photo.2.tags.1370.location: 465, 255
-photo.2.tags.1371.location: 130, 240
+photo.2.tags.1370.coordinates: 465, 255
+photo.2.tags.1371.coordinates: 130, 240
 photo.3: cwdc://YJuDs4pADQB.jpg
 photo.3.author: asahiyamazoo1
 photo.3.commitdate: 2022/8/8
 photo.3.link: ig://Cg4OF6EhlDz
 photo.3.tags: baby, bamboo, keeper, newborn, siblings, twins
-photo.3.tags.1370.location: 470, 250
-photo.3.tags.1371.location: 175, 255
+photo.3.tags.1370.coordinates: 470, 250
+photo.3.tags.1371.coordinates: 175, 255
 photo.4: cwdc://YQaeO2fADQA.jpg
 photo.4.author: nakacchi_desu
 photo.4.commitdate: 2022/11/4
 photo.4.link: ig://CkObW4_h8IH
 photo.4.tags: baby, climb, siblings, twins
-photo.4.tags.1370.location: 340, 155
-photo.4.tags.1371.location: 330, 390
+photo.4.tags.1370.coordinates: 340, 155
+photo.4.tags.1371.coordinates: 330, 390
 photo.5: ig://CmYu4jIv4YK/l
 photo.5.author: daniele.tokyo
 photo.5.commitdate: 2023/9/30
 photo.5.link: https://www.instagram.com/daniele.tokyo/
 photo.5.tags: baby, sibligs, snow, twins
-photo.5.tags.1370.location: 190, 530
-photo.5.tags.1371.location: 290, 250
+photo.5.tags.1370.coordinates: 190, 530
+photo.5.tags.1371.coordinates: 290, 250

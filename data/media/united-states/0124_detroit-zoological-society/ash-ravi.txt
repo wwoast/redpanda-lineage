@@ -7,5 +7,5 @@ photo.1.author: detroitzoo
 photo.1.commitdate: 2019/12/2
 photo.1.link: https://www.instagram.com/p/B3R_HA-HN6_
 photo.1.tags: bamboo, couple
-photo.1.tags.654.location: 435, 220
-photo.1.tags.854.location: 780, 390
+photo.1.tags.654.coordinates: 435, 220
+photo.1.tags.854.coordinates: 780, 390

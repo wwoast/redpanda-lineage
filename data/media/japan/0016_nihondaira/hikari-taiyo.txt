@@ -7,5 +7,5 @@ photo.1.author: minato.yokohama4416
 photo.1.commitdate: 2024/3/11
 photo.1.link: https://www.instagram.com/p/CtgQJc5vWSO
 photo.1.tags: couple, mofumofu, peek, portrait, sample, tail
-photo.1.tags.115.location: 495, 270
-photo.1.tags.117.location: 125, 265
+photo.1.tags.115.coordinates: 495, 270
+photo.1.tags.117.coordinates: 125, 265

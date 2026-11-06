@@ -7,5 +7,5 @@ photo.1.author: miis_98
 photo.1.commitdate: 2020/6/6
 photo.1.link: ig://B_7X6vNHh3j
 photo.1.tags: ear, laying down, mother's day, portrait, sample, whiskers, white face
-photo.1.tags.10.location: 80, 80
-photo.1.tags.27.location: 250, 180
+photo.1.tags.10.coordinates: 80, 80
+photo.1.tags.27.coordinates: 250, 180

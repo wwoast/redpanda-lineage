@@ -7,12 +7,12 @@ photo.1.author: garseeyaink
 photo.1.commitdate: 2020/2/15
 photo.1.link: ig://B6Uy_T3BlPq
 photo.1.tags: bamboo, mother's day
-photo.1.tags.445.location: 85, 125
-photo.1.tags.1081.location: 220, 130
+photo.1.tags.445.coordinates: 85, 125
+photo.1.tags.1081.coordinates: 220, 130
 photo.2: cwdc://W9D14g_ADQA.jpg
 photo.2.author: garseeyaink
 photo.2.commitdate: 2020/2/15
 photo.2.link: ig://B6jHLuPh9XJ
 photo.2.tags: bamboo, mother's day, smile
-photo.2.tags.445.location: 195, 200
-photo.2.tags.1081.location: 105, 95
+photo.2.tags.445.coordinates: 195, 200
+photo.2.tags.1081.coordinates: 105, 95

@@ -7,5 +7,5 @@ photo.1.author: nathalie.elliott
 photo.1.commitdate: 2021/12/21
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: baby, bamboo, mofumofu, mother's day, paws, portrait
-photo.1.tags.1058.location: 45, 290
-photo.1.tags.1312.location: 415, 340
+photo.1.tags.1058.coordinates: 45, 290
+photo.1.tags.1312.coordinates: 415, 340

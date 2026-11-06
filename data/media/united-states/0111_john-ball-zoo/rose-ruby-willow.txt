@@ -7,14 +7,14 @@ photo.1.author: johnballzoogr
 photo.1.commitdate: 2020/8/5
 photo.1.link: https://www.instagram.com/johnballzoogr/
 photo.1.tags: baby, newborn, siblings, sisters, triplets
-photo.1.tags.1199.location: 0, 0
-photo.1.tags.1200.location: 0, 0
-photo.1.tags.1201.location: 0, 0
+photo.1.tags.1199.coordinates: 0, 0
+photo.1.tags.1200.coordinates: 0, 0
+photo.1.tags.1201.coordinates: 0, 0
 photo.2: ig://CRrY4zLr9Td/l
 photo.2.author: johnballzoogr
 photo.2.commitdate: 2023/9/24
 photo.2.link: https://www.instagram.com/johnballzoogr/
 photo.2.tags: bridge, laying down, portrait, siblings, sisters, triplets, white face
-photo.2.tags.1199.location: 485, 370
-photo.2.tags.1200.location: 210, 390
-photo.2.tags.1201.location: 110, 380
+photo.2.tags.1199.coordinates: 485, 370
+photo.2.tags.1200.coordinates: 210, 390
+photo.2.tags.1201.coordinates: 110, 380

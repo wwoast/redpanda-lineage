@@ -7,5 +7,5 @@ photo.1.author: perie1027vivi
 photo.1.commitdate: 2025/5/10
 photo.1.link: ig://BuoK32gloGU
 photo.1.tags: bamboo, couple, paws, portrait
-photo.1.tags.87.location: 155, 435
-photo.1.tags.90.location: 500, 300
+photo.1.tags.87.coordinates: 155, 435
+photo.1.tags.90.coordinates: 500, 300

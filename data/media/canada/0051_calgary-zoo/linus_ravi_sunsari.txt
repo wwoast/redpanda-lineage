@@ -7,6 +7,6 @@ photo.1.author: thecalgaryzoo
 photo.1.commitdate: 2022/12/8
 photo.1.link: https://www.instagram.com/thecalgaryzoo/
 photo.1.tags: baby, father's day, portrait, siblings, tree, twins
-photo.1.tags.1000.location: 230, 190
-photo.1.tags.1396.location: 250, 320
-photo.1.tags.1397.location: 360, 455
+photo.1.tags.1000.coordinates: 230, 190
+photo.1.tags.1396.coordinates: 250, 320
+photo.1.tags.1397.coordinates: 360, 455

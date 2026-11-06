@@ -7,25 +7,25 @@ photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/7/2
 photo.1.link: https://www.instagram.com/apple_jasmine33/
 photo.1.tags: apple time, front-to-back
-photo.1.tags.176.location: 150, 135
-photo.1.tags.201.location: 65, 260
+photo.1.tags.176.coordinates: 150, 135
+photo.1.tags.201.coordinates: 65, 260
 photo.2: ig://BY9arfHDydX/m
 photo.2.author: resapanlove
 photo.2.commitdate: 2019/6/23
 photo.2.link: https://www.instagram.com/resapanlove/
 photo.2.tags: apple time, smile
-photo.2.tags.176.location: 190, 135
-photo.2.tags.201.location: 100, 140
+photo.2.tags.176.coordinates: 190, 135
+photo.2.tags.201.coordinates: 100, 140
 photo.3: ig://BZLixHPlymQ/m
 photo.3.author: motohin
 photo.3.commitdate: 2023/7/31
 photo.3.link: https://www.instagram.com/motohin/
-photo.3.tags.176.location: 285, 140
-photo.3.tags.201.location: 135, 235
+photo.3.tags.176.coordinates: 285, 140
+photo.3.tags.201.coordinates: 135, 235
 photo.4: ig://BZoLYwIh3mZ/m
 photo.4.author: apple_jasmine33
 photo.4.commitdate: 2020/7/2
 photo.4.link: https://www.instagram.com/apple_jasmine33/
 photo.4.tags: apple time, bite, close-up, whiskers
-photo.4.tags.176.location: 290, 135
-photo.4.tags.201.location: 135, 165
+photo.4.tags.176.coordinates: 290, 135
+photo.4.tags.201.coordinates: 135, 165

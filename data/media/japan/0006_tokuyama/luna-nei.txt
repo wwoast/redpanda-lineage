@@ -7,5 +7,5 @@ photo.1.author: fetorus_mami
 photo.1.commitdate: 2022/1/7
 photo.1.link: ig://BthRr0nliQx
 photo.1.tags: close-up, dish, mother's day
-photo.1.tags.73.location: 430, 460
-photo.1.tags.376.location: 200, 345
+photo.1.tags.73.coordinates: 430, 460
+photo.1.tags.376.coordinates: 200, 345

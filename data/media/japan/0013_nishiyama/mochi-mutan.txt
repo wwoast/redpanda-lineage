@@ -7,5 +7,5 @@ photo.1.author: yakkooo24
 photo.1.commitdate: 2019/6/9
 photo.1.link: https://www.instagram.com/yakkooo24/
 photo.1.tags: peek, window
-photo.1.tags.118.location: 145, 100
-photo.1.tags.119.location: 255, 85
+photo.1.tags.118.coordinates: 145, 100
+photo.1.tags.119.coordinates: 255, 85

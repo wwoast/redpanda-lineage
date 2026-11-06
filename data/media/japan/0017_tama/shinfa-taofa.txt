@@ -7,75 +7,75 @@ photo.1.author: roko_mm
 photo.1.commitdate: 2026/2/13
 photo.1.link: ig://B78LV7kho3b
 photo.1.tags: bamboo, mofumofu, mother's day, paws
-photo.1.tags.103.location: 355, 90
-photo.1.tags.948.location: 375, 430
+photo.1.tags.103.coordinates: 355, 90
+photo.1.tags.948.coordinates: 375, 430
 photo.2: cwdc://XCqV-cWADQA.jpg
 photo.2.author: pink.b22
 photo.2.commitdate: 2026/1/20
 photo.2.link: ig://B9WXOr7BlBA
 photo.2.tags: autumn, mother's day, paws, playing, portrait, tail
-photo.2.tags.103.location: 315, 380
-photo.2.tags.948.location: 340, 265
+photo.2.tags.103.coordinates: 315, 380
+photo.2.tags.948.coordinates: 340, 265
 photo.3: cwdc://XHcXKuEADQA.jpg
 photo.3.author: ssc6105
 photo.3.commitdate: 2026/2/13
 photo.3.link: ig://B_vX00yBxtz
 photo.3.tags: autumn, laying down, mother's day, portrait, tail
-photo.3.tags.103.location: 290, 300
-photo.3.tags.948.location: 380, 525
+photo.3.tags.103.coordinates: 290, 300
+photo.3.tags.948.coordinates: 380, 525
 photo.4: cwdc://XKecAOpADQA.jpg
 photo.4.author: osopanda551
 photo.4.commitdate: 2026/1/19
 photo.4.link: ig://CBQaPlEh4jt
 photo.4.tags: door, portrait, sample, whiskers
-photo.4.tags.103.location: 250, 440
-photo.4.tags.948.location: 540, 395
+photo.4.tags.103.coordinates: 250, 440
+photo.4.tags.948.coordinates: 540, 395
 photo.5: cwdc://XKecAOpADQB.jpg
 photo.5.author: osopanda551
 photo.5.commitdate: 2026/1/19
 photo.5.link: ig://CBQaPlEh4jv
 photo.5.tags: door, mother's day, paws, portrait, sample, whiskers
-photo.5.tags.103.location: 260, 295
-photo.5.tags.948.location: 640, 320
+photo.5.tags.103.coordinates: 260, 295
+photo.5.tags.948.coordinates: 640, 320
 photo.6: cwdc://XMPUCUmADQB.jpg
 photo.6.author: ssc6105
 photo.6.commitdate: 2026/2/13
 photo.6.link: ig://CCI2QoDBMHo
 photo.6.tags: bamboo, mother's day, sample, whiskers
-photo.6.tags.103.location: 170, 290
-photo.6.tags.948.location: 585, 410
+photo.6.tags.103.coordinates: 170, 290
+photo.6.tags.948.coordinates: 585, 410
 photo.7: cwdc://XNH7wWcADQC.jpg
 photo.7.author: osopanda551
 photo.7.commitdate: 2026/1/19
 photo.7.link: ig://CClKHo-BwBj
 photo.7.tags: mother's day, paws, playing, portrait
-photo.7.tags.103.location: 300, 230
-photo.7.tags.948.location: 610, 335
+photo.7.tags.103.coordinates: 300, 230
+photo.7.tags.948.coordinates: 610, 335
 photo.8: cwdc://XvSIHkEADQA.jpg
 photo.8.author: otenba_redpanda
 photo.8.commitdate: 2021/10/3
 photo.8.link: ig://CTqQTPyBqm0
 photo.8.tags: door, mother's day, paws, portrait, sample, whiskers
-photo.8.tags.103.location: 75, 160
-photo.8.tags.948.location: 200, 130
+photo.8.tags.103.coordinates: 75, 160
+photo.8.tags.948.coordinates: 200, 130
 photo.9: cwdc://X0_3djvADQA.jpg
 photo.9.author: tamazoowalking
 photo.9.commitdate: 2023/1/11
 photo.9.link: ig://CWhH-PnhT4l
 photo.9.tags: mother's day, sample, tail, tree, whiskers
-photo.9.tags.103.location: 415, 90
-photo.9.tags.948.location: 245, 125
+photo.9.tags.103.coordinates: 415, 90
+photo.9.tags.948.coordinates: 245, 125
 photo.10: cwdc://X72hwW6ADQ2.jpg
 photo.10.author: osopanda551
 photo.10.commitdate: 2026/1/19
 photo.10.link: ig://CZ8dHpNLYJn
 photo.10.tags: paws, playing, portrait, snow
-photo.10.tags.103.location: 545, 215
-photo.10.tags.948.location: 415, 380
+photo.10.tags.103.coordinates: 545, 215
+photo.10.tags.948.coordinates: 415, 380
 photo.11: cwdc://X9vPhkBADQA.jpg
 photo.11.author: mini_cochi
 photo.11.commitdate: 2026/1/20
 photo.11.link: ig://Ca40APwr7PW
 photo.11.tags: door, mother's day, paws, portrait, sample, whiskers
-photo.11.tags.103.location: 225, 340
-photo.11.tags.948.location: 665, 320
+photo.11.tags.103.coordinates: 225, 340
+photo.11.tags.948.coordinates: 665, 320

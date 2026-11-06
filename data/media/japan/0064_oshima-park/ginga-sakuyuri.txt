@@ -7,19 +7,19 @@ photo.1.author: grskus_tk
 photo.1.commitdate: 2021/12/17
 photo.1.link: https://www.instagram.com/grskus_tk/
 photo.1.tags: baby, bamboo, mofumofu, mother's day, peek, portrait
-photo.1.tags.293.location: 535, 235
-photo.1.tags.1292.location: 170, 255
+photo.1.tags.293.coordinates: 535, 235
+photo.1.tags.1292.coordinates: 170, 255
 photo.2: ig://CXMlADnhKGj/l
 photo.2.author: rie_panda55
 photo.2.commitdate: 2021/12/30
 photo.2.link: https://www.instagram.com/rie_panda55/
 photo.2.tags: baby, bamboo, mofumofu, mother's day, portrait, tail
-photo.2.tags.293.location: 95, 130
-photo.2.tags.1292.location: 340, 175
+photo.2.tags.293.coordinates: 95, 130
+photo.2.tags.1292.coordinates: 340, 175
 photo.3: ig://CqEbSzpBTuK/l
 photo.3.author: rie_panda55
 photo.3.commitdate: 2023/10/4
 photo.3.link: https://www.instagram.com/rie_panda55/
 photo.3.tags: laying down, mother's day, peek, sample
-photo.3.tags.293.location: 215, 220
-photo.3.tags.1292.location: 370, 330
+photo.3.tags.293.coordinates: 215, 220
+photo.3.tags.1292.coordinates: 370, 330

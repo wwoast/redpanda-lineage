@@ -7,19 +7,19 @@ photo.1.author: zoonewengland
 photo.1.commitdate: 2020/1/23
 photo.1.link: https://www.instagram.com/zoonewengland/
 photo.1.tags: baby, mother's day
-photo.1.tags.653.location: 195, 115
-photo.1.tags.936.location: 85, 85
+photo.1.tags.653.coordinates: 195, 115
+photo.1.tags.936.coordinates: 85, 85
 photo.2: ig://Bqz24KCAXAd/m
 photo.2.author: zoonewengland
 photo.2.commitdate: 2020/1/25
 photo.2.link: https://www.instagram.com/zoonewengland/
 photo.2.tags: baby, mother's day
-photo.2.tags.653.location: 65, 120
-photo.2.tags.936.location: 145, 235
+photo.2.tags.653.coordinates: 65, 120
+photo.2.tags.936.coordinates: 145, 235
 photo.3: ig://B0Mr495lRxM/m
 photo.3.author: toxicsoul666
 photo.3.commitdate: 2019/8/2
 photo.3.link: https://www.instagram.com/toxicsoul666/
 photo.3.tags: baby, home, mother's day, tail
-photo.3.tags.653.location: 170, 85
-photo.3.tags.936.location: 80, 230
+photo.3.tags.653.coordinates: 170, 85
+photo.3.tags.936.coordinates: 80, 230
