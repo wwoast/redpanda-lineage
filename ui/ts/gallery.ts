@@ -1374,11 +1374,11 @@ export function pumpkin(photo_count=5) {
 export function taglist(
   photo_count=5,
   taglist: string[],
-  message_function: (...args: unknown[]) => string
+  message_function: (...args: unknown[]) => HTMLDivElement
 ) {
   const div = document.createElement('div')
   const message = message_function()
-  div.appendChild(document.createTextNode(message))
+  div.appendChild(message)
   const animals_photos = Pandas.searchPandaAnyPhotoMedia()
   const photos =
     Pandas.searchPhotoTags(animals_photos, taglist, "intersect", "none")
