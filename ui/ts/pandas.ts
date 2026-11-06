@@ -133,7 +133,7 @@ export function distinct(list: any[]) {
  * 
  * TODO ES6: get rid of this
  */
-export function* linkGeneratorEntity(entity, index=0) {
+export function* linkGeneratorEntity(entity: NodeLinks, index=0) {
   if (entity == undefined)
     return
   while (index < index + 1) {
@@ -214,11 +214,11 @@ function seededPrng(input: number) {
    * Mulberry32 seeded PRNG for the random choice function. Call using
    * `seededPrng(seed)()`
    */
-  const seededPrngInner = s=>t=>
+  const seededPrngInner = (s: number) => (t?: number) =>
     (s=s+1831565813|0,t=Math.imul(s^s>>>15,1|s),t=t+Math.imul(t^t>>>7,61|t)^t,
     (t^t>>>14)>>>0)/2**32
   /** Burtleburtle hash that uniformly distributes bits in integer inputs */
-  const prngHash = n=>
+  const prngHash = (n: number)=>
     (n=61^n^n>>>16,n+=n<<3,n=Math.imul(n,668265261),n^=n>>>15)>>>0
   return seededPrngInner(prngHash(input))()
 }
@@ -249,7 +249,7 @@ export function shuffleWithSeed<T>(array: T[], seed_input: number | undefined) {
  */
 export function unique(array: Record<string, any>[], field: string) {
   array = shuffle(array)
-  const seen = {}
+  const seen: Record<string, boolean> = {}
   for (let i = 0; i < array.length; i++) {
     const value = array[i][field]
     if (value in seen) {
@@ -271,9 +271,9 @@ export function unique(array: Record<string, any>[], field: string) {
  * 
  * TODO: use Javascript sets instead?
  */
-export function values(input) {
-  let results = []
-  if (typeof input != "object") {
+export function values(input: string | Object) {
+  let results: string[] = []
+  if (typeof input !== "object") {
     results = results.concat(input)
   } else {
     Object.values(input).forEach(function(subinput) {
@@ -349,21 +349,23 @@ export function searchBirthdayList(input_date: string) {
  */
 export function searchBirthdayToday(keep_living=true, photo_count=20) {
   const today = new Date()
-  const nodes = G.v().filter(function(vertex) {
-    return vertex._id > 0   // Just animals
-  }).filter(function(vertex) {
-    const birthday = new Date(vertex.birthday)
-    return ((birthday.getDate() == today.getDate()) &&
-            (birthday.getMonth() == today.getMonth()))
-  }).filter(function(vertex) {
-    if (keep_living == true) {
-      return (vertex.death == undefined)
-    } else {
-      return true   // Get everyone
-    }
-  }).filter(function(vertex) {
-    return vertex.photos.length >= photo_count
-  }).run()
+  const nodes = G.v()
+    .filter((vertex: GraphNode) => {
+      if (vertex.type != "panda") return false   // Only pandas
+      const birthday = new Date(vertex.birthday)
+      // Matching month and day
+      return ((birthday.getDate() == today.getDate()) &&
+              (birthday.getMonth() == today.getMonth()))
+    })
+    .filter((vertex: NodePanda) => {
+      if (keep_living == true) {
+        return (vertex.death == undefined)
+      } else {
+        return true   // Get everyone
+      }
+    })
+    .filter((vertex: NodePanda) => vertex.photos.length >= photo_count)
+    .run()
   return sortOldestToYoungest(nodes)
 }
 
@@ -373,28 +375,35 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
  */
 function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
   const today = new Date()
-  const litter_ids = G.v().filter(function(vertex) {
-    return vertex._id > 0   // Just animals
-  }).filter(function(vertex) {
-    const birthday = new Date(vertex.birthday)
-    return ((birthday.getDate() == today.getDate()) &&
-            (birthday.getMonth() == today.getMonth()))
-  }).filter(function(vertex) {
-    return vertex.photos.length >= photo_count
-  }).in("litter").filter(function(vertex) {
-    // Litter mates for this search must have the exact same
-    // birthday as today. Sometimes they're born a day apart
-    const birthday = new Date(vertex.birthday)
-    return ((birthday.getDate() == today.getDate()) &&
-            (birthday.getMonth() == today.getMonth()))
-  }).filter(function(vertex) {
-    // Filter out any animals in litters are passed away
-    if (keep_living == true) {
-      return (vertex.death == undefined)
-    } else {
-      return true   // Get everyone
-    }        
-  }).run().map(x => x._id)
+  let litter_ids = G.v()
+    .filter((vertex: GraphNode) => {
+      if (vertex.type != "panda") return false   // Only pandas
+      const birthday = new Date(vertex.birthday)
+      // Matching month and day
+      return ((birthday.getDate() == today.getDate()) &&
+              (birthday.getMonth() == today.getMonth()))
+    })
+    .filter((vertex: NodePanda) => {
+      return vertex.photos.length >= photo_count
+    })
+    .in("litter")
+    .filter((vertex: NodePanda) => {
+      // Litter mates for this search must have the exact same
+      // birthday as today. Sometimes they're born a day apart
+      const birthday = new Date(vertex.birthday)
+      return ((birthday.getDate() == today.getDate()) &&
+              (birthday.getMonth() == today.getMonth()))
+    })
+    .filter((vertex: NodePanda) => {
+      // Filter out any animals in litters are passed away
+      if (keep_living == true) {
+        return (vertex.death == undefined)
+      } else {
+        return true   // Get everyone
+      }        
+    })
+    .run()
+    .map((x: NodePanda) => x._id)
   litter_ids = distinct(litter_ids)
   return litter_ids
 }
@@ -517,8 +526,11 @@ export function searchDiedList(input_date: string) {
  * the same (or close, within 48hrs) birthday
  */
 export function searchLitter(idnum: number) {
-  const nodes = G.v(idnum).in("litter").run()
-  return nodes
+  const nodes = G.v(idnum)
+    .in("litter")
+    .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
+    .run()
+  return nodes as NodePanda
 }
 
 /** Find all links stored in a single panda database `[links]` file */
@@ -808,10 +820,10 @@ export function searchPandaZooArrived(idnum: number, months=6) {
     .filter((vertex: NodePanda) => vertex.death == undefined)
     // If their arrival date was within six months, keep in the list
     .filter((vertex: NodePanda) => {
-      let last_location: string | null = null
+      let last_location: string = "0"
       for (const location of vertex.locations) {
         if (location._id != compare_id.toString()) {
-          last_location = location._id
+          last_location = location._id.toString()
           continue   // Ignore location values not at this zoo
         }
         // Compare all zoo node dates with current time.
@@ -825,7 +837,7 @@ export function searchPandaZooArrived(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "arrived",
-            "from": parseInt(last_location) * -1,
+            "from": parseInt(last_location.toString()) * -1,
             "move_date": location.date
           }
           return vertex
@@ -840,7 +852,7 @@ export function searchPandaZooArrived(idnum: number, months=6) {
           }
           return vertex   // Less than N months?
         }
-        last_location = location._id
+        last_location = location._id.toString()
       }
     }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
@@ -859,8 +871,8 @@ export function searchPandaZooBorn(idnum: number, months=6) {
     .filter((vertex: GraphNode) => {
       if (vertex.death != undefined) return false   // Gotta be alive
       // Compare all panda birthdays node dates with current time.
-      const current_time = new Date()
-      const birth_time = new Date(vertex["birthday"])
+      const current_time = new Date().getTime()
+      const birth_time = new Date(vertex.birthday).getTime()
       const ms_per_month = 1000 * 60 * 60 * 24 * 31
       const ms_in_period = months * ms_per_month
       if (ms_in_period == 0) {
@@ -888,26 +900,27 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
   if (idnum > 0)
     idnum = idnum * -1
   const compare_id = idnum * -1
-  const lives = G.v(idnum).in("zoo").run()
-  const born = G.v(idnum).in("birthplace").run()
+  const lives = G.v(idnum).in("zoo").run() as NodePanda[]
+  const born = G.v(idnum).in("birthplace").run() as NodePanda[]
   const was_here = G.v()
-    .filter(vertex => vertex.locations && vertex.locations.length > 0)
-    .filter(vertex => {
+    .filter((vertex: GraphNode) =>
+      vertex.type == "panda" && vertex.locations && vertex.locations.length > 0)
+    .filter((vertex: NodePanda) => {
       // Gets panda locations and finds zoo matches
       for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
         if (location._id == compare_id)
-          return vertex
+          return true
       }
       return false
     })
     .run()
-  let nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
-    return self.indexOf(value) === index  // Am I the first value in the array?
-  })
+    // Am I the first value in the array?  
+  let nodes = lives.concat(born).concat(was_here)
+    .filter((value, index, self) => self.indexOf(value) === index)
   if (search_context == true) {
     // Inject valid date ranges for this animal at the given zoo
-    nodes = nodes.filter((vertex: NodePanda) {
+    nodes = nodes.filter((vertex: NodePanda) => {
       const date_ranges = []
       let current_range = undefined
       for (const location of vertex.locations) {
@@ -919,7 +932,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
           date_ranges.push(current_range)
           current_range = undefined
         }
-      }
+      }                          
       // Catch a range going on until today
       if (current_range != undefined)
         date_ranges.push(current_range)
@@ -1107,7 +1120,7 @@ export function searchPhotoProfileChildren(idnum: number) {
 
 /** Find profile photos for an animal's family */
 export function searchPhotoProfileImmediateFamily(idnum: number) {
-  const me = searchPandaId(idnum)
+  const me = searchPandaId(idnum) as NodePanda[]
   const mom = searchPandaMom(idnum)
   const dad = searchPandaDad(idnum)
   const litter = searchLitter(idnum)
@@ -1224,10 +1237,10 @@ export function searchZooName(zoo_name_str: string) {
  * Sort Japanese panda names by determining the hiragana-equivalent name for
  * each animal in the dataset.
  */
-function sortByNameJapanese(nodes) {
-  function hiragana_generate(name) {
-    const hiragana = Defaults.ranges['ja'][1]   // Hiragana range regex
-    const katakana = Defaults.ranges['ja'][2]   // Katakana range regex
+function sortByNameJapanese(nodes: GraphNode[]) {
+  function hiragana_generate(name: string) {
+    const hiragana = (Defaults.ranges['ja'] as RegExp[])[1]  // Hiragana range regex
+    const katakana = (Defaults.ranges['ja'] as RegExp[])[2]  // Katakana range regex
     if (hiragana.test(name) == true) {
       return name
     }
@@ -1235,8 +1248,8 @@ function sortByNameJapanese(nodes) {
       return Language.katakanaToHiragana(name)
     }
   }
-  function build_name_list(node) {
-    let name_list = []
+  function build_name_list(node: GraphNode) {
+    let name_list: string[] = []
     if (node.name['ja'])
       name_list = name_list.concat(node.name['ja'])
     if (node.othernames['ja'])
@@ -1247,7 +1260,7 @@ function sortByNameJapanese(nodes) {
   nodes = nodes.map(function(node) {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
-    if (node._id.indexOf("media.") == 0) {
+    if (node.type == "media") {
       const panda_ids = node["panda.tags"]
       const animals = panda_ids.map(id => searchPandaId(id)[0])
       // Sort only by the first name in the photo
@@ -1273,10 +1286,11 @@ function sortByNameJapanese(nodes) {
 
 /** 
  * Sort a list of pandas by their desired "Lang.name" field. Works for
- * non-group entities (pandas and zoos).
+ * non-group entities (`NodePanda` and `NodeZoo`). `NodeMedia` must be enriched
+ * by using `sortByNameWithGroups` to get its own synthetic "name" field.
  */
-function sortByName(nodes, name_field: string) {
-  return nodes.sort(function(a, b) {
+function sortByName(nodes: GraphNode[], name_field: string) {
+  return nodes.sort((a, b) => {
     if (a[name_field] > b[name_field]) {
       return 1
     } else if (a[name_field] < b[name_field]) {
@@ -1292,8 +1306,8 @@ function sortByName(nodes, name_field: string) {
  * specific photos you're pulling out of the group file, because the group
  * name is based on the arrangement of pandas in the photo.
  */
-function sortByNameWithGroups(nodes, photo_list) {
-  nodes = nodes.map(function(node) {
+function sortByNameWithGroups(nodes: GraphNode[], photo_list: EnrichedPhoto[]) {
+  nodes = nodes.map(node => {
     if (node.type == "media") {
       // Media file. Get the group caption based on your desired photo in the list
       const desired_url = photo_list
@@ -1311,7 +1325,7 @@ function sortByNameWithGroups(nodes, photo_list) {
     return sortByName(nodes, "name")
 }
 
-export function sortByDate(nodes, field_name, mode="descending") {
+export function sortByDate(nodes: GraphNode[], field_name: string, mode="descending") {
   // sortByName lexicographic sort should work for numbers too,
   // but to get recent ordering, reverse the list
   if (mode == "descending") {
@@ -1325,18 +1339,19 @@ export function sortByDate(nodes, field_name, mode="descending") {
  * photo lists don't have names. So rebuild the animals list and then arrange
  * the set of items based on the animal list.
  */
-export function sortPhotosByName(photo_list) {
-  let animals = photo_list.map(photo => searchPandaId(photo._id)[0])
-  animals = sortByNameWithGroups(animals, photo_list)
-  const output_list = animals.map(animal =>
-    photo_list.filter(photo => photo._id == animal._id)[0])
+export function sortPhotosByName(photo_list: EnrichedPhoto[]) {
+  // TODO: be explicit 
+  let entities = photo_list.map(photo => searchPandaId(photo._id)[0]) as GraphNode[]
+  entities = sortByNameWithGroups(entities, photo_list)
+  const output_list = entities.map(entity =>
+    photo_list.filter(photo => photo._id == entity._id)[0])
   return output_list
 }
 
 export function sortOldestToYoungest(nodes: NodePanda[]) {
   return nodes.sort(function(a, b) {
-    const time_a = parseInt(new Date(a.birthday).getTime())
-    const time_b = parseInt(new Date(b.birthday).getTime())
+    const time_a = new Date(a.birthday).getTime()
+    const time_b = new Date(b.birthday).getTime()
     if (time_a > time_b) {
       return 1
     } else if (time_a < time_b) {
@@ -1349,8 +1364,8 @@ export function sortOldestToYoungest(nodes: NodePanda[]) {
 
 export function sortYoungestToOldest(nodes: NodePanda[]) {
   return nodes.sort(function(a, b) {
-    const time_a = parseInt(new Date(a.birthday).getTime())
-    const time_b = parseInt(new Date(b.birthday).getTime())
+    const time_a = new Date(a.birthday).getTime()
+    const time_b = new Date(b.birthday).getTime()
     if (time_a < time_b) {
       return 1
     } else if (time_a > time_b) {
@@ -1374,13 +1389,15 @@ export function age(animal: NodePanda) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
     return Defaults.unknown[Env.language]
-  const birthday = new Date(birth)
+  const birthday = new Date(birth).getTime()
   const death = animal['death']
   // If the animal's date of death is listed as "unknown", this means the animal
   // passed at an undetermined date, so its age is also unknown.
   if (death == "unknown")
     return Defaults.unknown[Env.language]
-  const endday = (death == undefined ? new Date() : new Date(death))
+  const endday = (death == undefined)
+    ? new Date().getTime()
+    : new Date(death).getTime()
   const ms_per_day = 1000 * 60 * 60 * 24
   const age_days = (endday - birthday)/ms_per_day
   const age_years = Math.floor(age_days / 365)
@@ -1405,7 +1422,7 @@ export function age(animal: NodePanda) {
     return "1" + spacing() + Defaults.age[Env.language]['year']
   } else if (age_days <= 730) {
     return "1" + spacing() + Defaults.age[Env.language]['year'] + " " +
-           (age_months - 12).toString() + spacing() + pluralize((age_months - 12).toString(), "month")
+           (age_months - 12).toString() + spacing() + pluralize(age_months - 12, "month")
   } else {
     return age_years.toString() + spacing() + Defaults.age[Env.language]['years']
   }
@@ -1416,8 +1433,8 @@ export function ageYears(animal: NodePanda) {
   const birth = animal['birthday']
   if ((birth == undefined) || (birth == "unknown"))
     return Defaults.unknown[Env.language]
-  const birthday = new Date(birth)
-  const endday = new Date()
+  const birthday = new Date(birth).getTime()
+  const endday = new Date().getTime()
   const ms_per_day = 1000 * 60 * 60 * 24
   const age_days = (endday - birthday)/ms_per_day
   const age_years = Math.floor(age_days / 365)
@@ -1492,7 +1509,7 @@ export function gender(animal: NodePanda) {
  * Given an animal from a media/file with tag info that indicates pixel
  * location in a photo, generate a string describing the pandas in the photo.
  */
-export function groupMediaCaption(entity: NodeMedia, photo: EnrichedPhoto) {
+export function groupMediaCaption(entity: NodeMedia, photo: Photo | EnrichedPhoto) {
   const pandaTags = entity["panda.tags"]
   let output_string = Defaults.animal.name[Env.language]
   let animals = []

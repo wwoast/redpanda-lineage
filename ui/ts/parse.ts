@@ -10,7 +10,7 @@ import P, { distinct, values } from './pandas.ts'
  */
 export function searchTag(search_tag: string) {
   // Lowercase any search terms in the latin character range
-  const ranges = Defaults.ranges['en']
+  const ranges = Defaults.ranges['en'] as RegExp[]
   const latin = ranges.some(range => range.test(search_tag))
   if (latin == true)
     search_tag = search_tag.toLowerCase()
@@ -311,6 +311,10 @@ const regex = {
   }
 }
 
+interface LexerList {
+  list: string[],
+  max_spaces: number
+}
 /**
  * Class that helps jsleri tokenize things properly, finding things
  * like panda names or keywords that have spaces in them.
@@ -323,8 +327,11 @@ const regex = {
  * 
  * TODO: build this during the RPF build step, and import as JSON
  */
+interface Lexer {
+  terms: Record<string, LexerList>
+}
 class Lexer {
-  terms = {
+  terms: Record<string, LexerList> = {
     names: {
       list: [],
       max_spaces: 0
@@ -346,7 +353,7 @@ class Lexer {
      * most spaces in it, so the lexer knows how many terms to grab
      * at once when it starts with its greediest matches
      */
-    const word_filter = (token, list_name) => {
+    const word_filter = (token: string, list_name: string) => {
       if (token.includes(' ')) {
         const space_count = token.replace(/\S/g, '').length
         if (space_count > this.terms[list_name].max_spaces) {
@@ -368,7 +375,7 @@ class Lexer {
    * ideographic spaces. If we need more, make a new function. The search bar
    * doesn't support newlines, so that's a natural delimiter to use here
    */
-  generate(input) {
+  generate(input: string) {
     // Validate we have built our wordlists to draw from. We can't do this in
     // a constructor because the class instantiates at module load time, and
     // `language.js` lookup tables may not be finished loading
@@ -391,7 +398,7 @@ class Lexer {
     return delimited_input
   }
 
-  possible_tokens(input, max_spaces, list_name) {
+  possible_tokens(input: string, max_spaces: number, list_name: string) {
     const tokenlist = []
     const input_split = this.split(input)
     for (let n = max_spaces; n > 0; n--) {
@@ -411,12 +418,12 @@ class Lexer {
    * them in a newline-separated way. Also convert Japanese ideographic (wide)
    * spaces. Prioritize panda names, then tag names, then keywords.
    */
-  process(input) {
+  process(input: string) {
     const ordering = ["names", "tags", "keywords"]
     const input_spaces = input.replace(/\S/g, '').length
     // Find all contiguous strings with max_spaces and see
     // if they're in one of the word lists
-    let found_tokens = []
+    let found_tokens: string[] = []
     for (const list_name of ordering) {
       let lexlist = this.terms[list_name].list
       // Count spaces in the input, so we can determine whether
@@ -437,7 +444,7 @@ class Lexer {
   }
 
   /** Split a string by spaces, assuming only one kind */
-  split(input) {
+  split(input: string) {
     // Japanese wide spaces (U+3000)
     if (input.includes('　'))
       return input.split('　')
@@ -539,7 +546,7 @@ class Tree {
     const Sequence = Jsleri.Sequence
     // Take a list of keywords/operators and turn it into a choice
     // NOTE: Choice.apply(Choice, keyword) == Choice(...keyword)
-    function Choices(keyword_list) {
+    function Choices(keyword_list: string[]) {
       return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw, true)))
     }
     // Take a sequence, and make it parse in either direction

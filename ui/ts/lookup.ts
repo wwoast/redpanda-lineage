@@ -292,7 +292,7 @@ export const Defaults: Defaults = {
   photo: {
     "author": unknownName,
     "commitdate": "1970/1/1",
-    "locations": {},
+    "coordinates": {},
     "source": "https://redpandafinder.com",
     "tags": [],
     "url": "images/no-panda-portrait.jpg"

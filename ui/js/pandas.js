@@ -365,7 +365,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
  */
 function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
   const today = new Date()
-  const litter_ids = G.v().filter(function(vertex) {
+  let litter_ids = G.v().filter(function(vertex) {
     return vertex._id > 0   // Just animals
   }).filter(function(vertex) {
     const birthday = new Date(vertex.birthday)
@@ -1309,8 +1309,8 @@ export function sortPhotosByName(photo_list) {
 
 export function sortOldestToYoungest(nodes) {
   return nodes.sort(function(a, b) {
-    const time_a = parseInt(new Date(a.birthday).getTime())
-    const time_b = parseInt(new Date(b.birthday).getTime())
+    const time_a = new Date(a.birthday).getTime()
+    const time_b = new Date(b.birthday).getTime()
     if (time_a > time_b) {
       return 1
     } else if (time_a < time_b) {
@@ -1323,8 +1323,8 @@ export function sortOldestToYoungest(nodes) {
 
 export function sortYoungestToOldest(nodes) {
   return nodes.sort(function(a, b) {
-    const time_a = parseInt(new Date(a.birthday).getTime())
-    const time_b = parseInt(new Date(b.birthday).getTime())
+    const time_a = new Date(a.birthday).getTime()
+    const time_b = new Date(b.birthday).getTime()
     if (time_a < time_b) {
       return 1
     } else if (time_a > time_b) {
@@ -1379,7 +1379,7 @@ export function age(animal) {
     return "1" + spacing() + Defaults.age[Env.language]['year']
   } else if (age_days <= 730) {
     return "1" + spacing() + Defaults.age[Env.language]['year'] + " " +
-           (age_months - 12).toString() + spacing() + pluralize((age_months - 12).toString(), "month")
+           (age_months - 12).toString() + spacing() + pluralize(age_months - 12, "month")
   } else {
     return age_years.toString() + spacing() + Defaults.age[Env.language]['years']
   }
