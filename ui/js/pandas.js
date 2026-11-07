@@ -233,17 +233,23 @@ export function shuffleWithSeed(array, seed_input) {
   return array
 }
 
-/** 
- * Enforce uniqueness on members of array-dicts, based on a field.
- * Force a shuffle before choosing unique values, to add variety
- * when displaying unique values
+/**
+ * Enforce uniqueness on members of array-dicts, based on a field. Force a
+ * shuffle before choosing unique values, to add variety when displaying unique
+ * values. Do not include null values for the field in the output array records.
+ * Support arbitrary object compare by serializing before check.
  */
-export function unique(array, field) {
+export function uniqueField(array, field) {
   array = shuffle(array)
-  const seen = {}
+  const seen = []
   for (let i = 0; i < array.length; i++) {
-    const value = array[i][field]
-    if (value in seen) {
+    if (!(field in array[i]) || (array[i][field] == null)) {
+      array.splice(i, 1)
+      i--
+      continue
+    }
+    const value = JSON.stringify(array[i][field])
+    if (seen.includes(value)) {
       array.splice(i, 1)
       i--
     } else {
@@ -1503,7 +1509,7 @@ export function groupMediaCaption(entity, photo) {
   }
   // Replace "baby, baby, baby" with group term
   if ((values(Polyglots["baby"]).includes(animals[0].name)) &&
-      (unique(animals, "name").length == 1)) {
+      (uniqueField(animals, "name").length == 1)) {
     output_string = Gui["babies"][Env.language]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"

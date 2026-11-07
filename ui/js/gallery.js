@@ -1094,7 +1094,7 @@ function updatedPhotoOrdering(photo_count) {
   // budgeted to show in this section
   const zoo_locators = P.db["_updates"].entities
     .filter(locator => locator.indexOf("zoo.") == 0)
-  const zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "_id")
+  const zoo_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(zoo_locators), "_id")
     .filter(function(photo) {
       const pandas = Pandas.searchPandaZoo(photo._id)
         .filter(panda => "photos" in panda)
@@ -1110,13 +1110,13 @@ function updatedPhotoOrdering(photo_count) {
     .filter(function(photo) {
       return (!Object.keys(Defaults.authors).includes(photo.author))
     })
-  const author_photos = Pandas.unique(author_photos_all, "_id")
+  const author_photos = Pandas.uniqueField(author_photos_all, "_id")
   let author_chosen = author_photos.slice()
   author_chosen = author_chosen.filter(photo => photo.type != "zoo")
   author_chosen = Pandas.randomChoice(author_chosen, photo_count)
   if (author_chosen.length > 3) {
     // If too many new people contributing photos, reduce down to one per contributor
-    author_chosen = Pandas.unique(author_chosen, "credit")
+    author_chosen = Pandas.uniqueField(author_chosen, "credit")
   }
   author_chosen = Pandas.sortPhotosByName(author_chosen)
   // Photos of newly introduced pandas
@@ -1124,7 +1124,7 @@ function updatedPhotoOrdering(photo_count) {
     .filter(locator => locator.indexOf("panda.") == 0)
     .filter(locator => (!author_locators.includes(locator)))
   const new_panda_photos = 
-    Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "_id")
+    Pandas.uniqueField(Pandas.locatorsToPhotos(new_panda_locators), "_id")
       .filter(function(photo) {
         return (!Object.keys(Defaults.authors).includes(photo.author))
       })
@@ -1133,7 +1133,7 @@ function updatedPhotoOrdering(photo_count) {
   // New pandas, or new panda group photos
   const panda_locators = P.db["_updates"].entities
     .filter(locator => (!zoo_locators.includes(locator)))
-  const panda_photos = Pandas.unique(Pandas.locatorsToPhotos(panda_locators), "_id")
+  const panda_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(panda_locators), "_id")
   // Remaining new photos for exisitng pandas. If any photo locators also describe 
   // a new author/new entity, only display those in their own section. Filter them out here.
   const update_locators = P.db["_updates"].photos
@@ -1141,7 +1141,7 @@ function updatedPhotoOrdering(photo_count) {
     .filter(locator => (!P.db["_updates"].authors.includes(locator)))
     .filter(locator => (!locator.includes("zoo.")))
   let update_photos =
-    Pandas.unique(Pandas.locatorsToPhotos(update_locators), "_id")
+    Pandas.uniqueField(Pandas.locatorsToPhotos(update_locators), "_id")
       .filter(function(photo) {
         return (!Object.keys(Defaults.authors).includes(photo.author))
       })
@@ -1180,7 +1180,7 @@ function updatedPhotoOrdering(photo_count) {
         const ms_per_week = 1000 * 60 * 60 * 24 * 7
         return (currenttime - commitdate > ms_per_week)
       })
-    zoo_pandas = Pandas.unique(zoo_pandas, "_id")
+    zoo_pandas = Pandas.uniqueField(zoo_pandas, "_id")
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas)
     for (const zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Emoji.profile   // heart_panel
