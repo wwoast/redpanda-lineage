@@ -878,6 +878,7 @@ export function searchPandaZooBorn(idnum: number, months=6) {
   const born = G.v(idnum)
     .in("birthplace")
     .filter((vertex: GraphNode) => {
+      if (vertex.type != "panda") return false   // Gotta be pandas
       if (vertex.death != undefined) return false   // Gotta be alive
       // Compare all panda birthdays node dates with current time.
       const current_time = new Date().getTime()
@@ -901,7 +902,7 @@ export function searchPandaZooBorn(idnum: number, months=6) {
         return false
       }
     }).run()
-  return born
+  return born as NodePanda[]
 }
 
 /** Find all pandas that were either born at, or lived at a given zoo */
@@ -1090,7 +1091,7 @@ export function searchPandaZooDied(idnum: number, months=6) {
       }
     }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /** 

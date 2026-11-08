@@ -50,7 +50,7 @@ export class Carousel {
   info: EnrichedEntity
   unique: string
 
-  constructor(info: EnrichedEntity, carousel_type: "panda" | "zoo", fallback_url: string) {
+  constructor(info: EnrichedEntity, carousel_type: "panda" | "zoo", fallback_url?: string) {
     this.info = info   // Old photo value == info.photo
     // Hacky way to determine the proper element class from whether this is an
     // animal photo carousel or a zoo photo carousel
@@ -472,7 +472,7 @@ export function familyProfilePhoto(
   animal: NodePanda,
   chosen_photo: EnrichedPhoto,
   relationship: string,
-  frame_class: string,
+  frame_class?: string,
   multiple=false
 ) {
   const info = Show.acquirePandaInfo(animal)

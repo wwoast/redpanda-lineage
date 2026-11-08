@@ -657,7 +657,7 @@ export function zooDivider(mode?: Divider) {
  * Construct a zoo link as per design docs. Example:
  *    `https://domain/index.html#zoo/1`
  */
-function zooLink(zoo: NodeZoo, link_text: string, icon=undefined) {
+function zooLink(zoo: NodeZoo, link_text: string, icon?: string) {
   // Don't print content if the input id is zero
   if (zoo._id == Defaults.zoo._id)
     return emptyLink(Defaults.zoo.name[Env.language] ?? Defaults.unknown[Env.language])
@@ -1082,7 +1082,7 @@ const refreshButton = {
   action: function() {
     location.reload(false)   // Reload from cache
   },
-  altAction: function(e) {
+  altAction: function(e: Event) {
     e.preventDefault()       // Prevent normal right-click menu from firing
     location.reload(true)    // Reload from server
   },
@@ -1103,9 +1103,10 @@ const searchButton = {
   action: function() {
     // Used on pages where the search bar normally doesn't appear
     const active = searchBar.toggle("bottomSearch")
-    if (active == true) {
-      window.scrollTo(0, document.getElementById("searchInput").offsetTop)
-      document.getElementById("searchInput").focus()
+    const searchInput = document.querySelector<HTMLInputElement>("#searchInput")
+    if (active == true && searchInput != null) {
+      window.scrollTo(0, searchInput.offsetTop)
+      searchInput.focus()
     }
   },
   render: function(class_name="profile") {
@@ -1386,9 +1387,9 @@ export const linksMenus = {
 /** The unrolled content inside a NodeLinks object */
 type LinkRender = {
   /** Prefix string before the link display text */
-  first: string
+  first: string,
   /** Link URL */
-  href: string
+  href: string,
   /** Suffix string after the link display text */
   last: string,
   /** Languages the page is supported in, by primacy/relevance */
@@ -1531,7 +1532,7 @@ const linksOrder = {
 
 /** Generate the links page, and subsections with different content + styles */
 export const linksPage = {
-  body: function(subpage) {
+  body: function(subpage: string) {
     // Draw a links page with menus and content based on the last
     // clicked version of a links menu button.
     const container = document.createElement('div')
@@ -1554,8 +1555,8 @@ export const linksPage = {
     href: string,
     text: string,
     suffix: string,
-    before=undefined,
-    after=undefined
+    before?: string,
+    after?: string
   ) {
     const container = document.createElement(element)
     const anchor = document.createElement('a')
@@ -1598,7 +1599,7 @@ export const linksPage = {
 }
 
 /** Rendering and sorting links on different sections of the _Links_ page */
-export const linksSections = {
+export const linksSections: Record<string, () => HTMLDivElement> = {
   instagramLinks: function() {
     const data = 'instagram'
     const links = linksOrder.languageAndAlphabet(Pandas.searchLinks(data))
@@ -1739,7 +1740,7 @@ export const profileMenus = {
   top: {
     buttons: [homeButton, languageButton, profileButton, mediaButton, treeButton],
     /** A red menu bar: Home, Language, Profile, Media, Timeline */
-    render: function(panda_id) {
+    render: function(panda_id: string) {
       const new_contents = document.createElement('div')
       new_contents.className = "shrinker"
       // Take the list of top-menu buttons and render them
@@ -1748,7 +1749,7 @@ export const profileMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      let menu = document.querySelector(".topMenu")
+      let menu = document.querySelector<HTMLDivElement>(".topMenu")
       menu = update(new_contents, menu, "topMenu", "pageTop")
       // Remove any previous menu class modifiers
       menu.classList.add("profile")
@@ -1761,8 +1762,8 @@ export const profileMenus = {
 /** Show functions used by the profile page for a single animal */
 export const profilePage = {
   /** Show a carousel of photos for this animal */
-  carousel: function(info) {
-    const carousel = new Gallery.Carousel(info, 'animal')
+  carousel: function(info: EnrichedPanda) {
+    const carousel = new Gallery.Carousel(info, 'panda')
     carousel.displayPhoto()
     const frame = document.createElement('div')
     frame.className = "pandaPhoto"
@@ -1775,7 +1776,7 @@ export const profilePage = {
     return frame
   },
   /** Display photos of the animal's children */
-  children: function(animal) {
+  children: function(animal: NodePanda) {
     const info = acquirePandaInfo(animal)
     const elements = []
     const photo_divs = []
@@ -1811,7 +1812,7 @@ export const profilePage = {
    * text related to the currently-displayed gallery on the profile page, and a
    * QR code for the panda being displayed.
    */
-  dossier: function(animal, info) {
+  dossier: function(animal: NodePanda, info: EnrichedPanda) {
     // Start with species information
     const species = this.species(animal)
     // Next, display birthday info. TODO: do better than list items
@@ -1884,7 +1885,7 @@ export const profilePage = {
     return dossier
   },
   /** Display photos of the animal's family */
-  family: function(animal) {
+  family: function(animal: NodePanda) {
     const info = acquirePandaInfo(animal)
     const elements = []
     const photo_divs = []
@@ -1944,7 +1945,7 @@ export const profilePage = {
    * Replace the _top_search_ bar with something that displays the animal's
    * name and gender
    */
-  nameBar: function(info) {
+  nameBar: function(info: EnrichedPanda) {
     const animalGender = gender(info, "profile")
     const name = document.createElement('div')
     name.className = "pandaName"
@@ -1961,11 +1962,12 @@ export const profilePage = {
     nameBar.appendChild(shrinker)
     const body = document.getElementsByTagName("body")[0]
     // Replace search or nameBar that might be there
-    const existing = document.getElementById("focalBar")
-    body.replaceChild(nameBar, existing)
+    const existing = document.querySelector<HTMLDivElement>("focalBar")
+    if (existing)
+      body.replaceChild(nameBar, existing)
   },
   /** Create a profile page for a single panda */
-  panda: function(animal) {
+  panda: function(animal: NodePanda) {
     const info = acquirePandaInfo(animal)
     // Replace the search bar with the name bar for this animal
     this.nameBar(info)
@@ -1980,12 +1982,14 @@ export const profilePage = {
   },
   /** Render the search bar at the bottom of the profile page */
   searchBar: function() {
-    const bottomMenu = document.querySelector(".bottomMenu")
-    const bottomSearchBar = searchBar.render("bottomSearch profile", "bottomSearch")
-    bottomMenu.appendChild(bottomSearchBar)
+    const bottomMenu = document.querySelector<HTMLDivElement>(".bottomMenu")
+    if (bottomMenu) {
+      const bottomSearchBar = searchBar.render("bottomSearch profile", "bottomSearch")
+      bottomMenu.appendChild(bottomSearchBar)
+    }
   },
   /** Display photos of the animal's siblings */
-  siblings: function(animal) {
+  siblings: function(animal: NodePanda) {
     const info = acquirePandaInfo(animal)
     const elements = []
     const photo_divs = []
@@ -2020,7 +2024,7 @@ export const profilePage = {
     return elements
   },
   /** Underneath a photo, display the subspecies info for the panda */
-  species: function(animal) {
+  species: function(animal: NodePanda) {
     const species_text = document.createTextNode(Pandas.species(animal))
     const italics = document.createElement('i')
     italics.appendChild(species_text)
@@ -2109,7 +2113,7 @@ export const resultsMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      let menu = document.querySelector(".bottomMenu")
+      let menu = document.querySelector<HTMLDivElement>(".bottomMenu")
       menu = update(new_contents, menu, "bottomMenu", "pageBottom")
       // Remove any previous menu class modifiers
       menu.classList.add("results")
@@ -2130,7 +2134,7 @@ export const resultsMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      let menu = document.querySelector(".topMenu")
+      let menu = document.querySelector<HTMLDivElement>(".topMenu")
       menu = update(new_contents, menu, "topMenu", "pageTop")
       // Remove any previous menu class modifiers
       menu.classList.add("results")
@@ -2171,7 +2175,7 @@ export const mediaPage = {
 /** Show functions used by the search results cards / pages */
 export const resultsPage = {
   /** Display panda children in the family section */
-  children: function(info) {
+  children: function(info: EnrichedPanda) {
     const heading = document.createElement('h4')
     heading.className = `childrenHeading ${Env.language}`
     heading.innerText = Gui.children[Env.language]
@@ -2201,7 +2205,7 @@ export const resultsPage = {
    * by birthday. This is the tan stripe at the bottom of a family dossier in
    * a search-result card.
    */
-  family: function(info) {
+  family: function(info: EnrichedPanda) {
     let family = document.createElement('div')
     family.className = "family"
     if ((info.dad.length == 0 && info.mom.length == 0) &&
@@ -2222,10 +2226,10 @@ export const resultsPage = {
       siblings = this.siblings(info)
     if (info.children.length > 0)
       children = this.children(info)
-    family = new Layout(family, info, parents, litter, siblings, children)
-    return family
+    const layout = new Layout(family, info, parents, litter, siblings, children)
+    return layout
   },
-  groupGallery: function(id_list) {
+  groupGallery: function(id_list: string[]) {
     const gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"]
     let results = []
     if (gallery.length < 1) {
@@ -2236,7 +2240,7 @@ export const resultsPage = {
     return results
   },
   /** Do the littermates info in the family section */
-  litter: function(info) {
+  litter: function(info: EnrichedPanda) {
     const heading = document.createElement('h4')
     heading.className = `litterHeading ${Env.language}`
     heading.classList.add(Env.language)
@@ -2262,9 +2266,9 @@ export const resultsPage = {
    * should not be displayed, but a few should be printed regardless 
    * (birthday / death)
    */
-  panda: function(animal) {
+  panda: function(animal: NodePanda) {
     const info = acquirePandaInfo(animal)
-    const carousel = new Gallery.Carousel(info, 'animal')
+    const carousel = new Gallery.Carousel(info, 'panda')
     carousel.displayPhoto()
     const frame = document.createElement('div')
     frame.className = "pandaPhoto"
@@ -2452,7 +2456,7 @@ export const resultsPage = {
    * Display the name and gender symbol for a single panda in the
    * results _title bar_
    * */
-  pandaName: function(info) {
+  pandaName: function(info: EnrichedPanda) {
     const pandaGender = gender(info)
     const name_div = document.createElement('div')
     name_div.className = 'pandaName'
@@ -2475,7 +2479,7 @@ export const resultsPage = {
     return a
   },
   /** Do mom and dad's info in the family section */
-  parents: function(info) {
+  parents: function(info: EnrichedPanda) {
     const heading = document.createElement('h4')
     heading.className = `parentsHeading ${Env.language}`
     heading.innerText = Gui.parents[Env.language]
@@ -2528,8 +2532,8 @@ export const resultsPage = {
   /** Leaving a profile page? Turn this into a search bar again */
   searchBar: function() {
     const body = document.getElementsByTagName("body")[0]
-    const focalBar = document.getElementById("focalBar")
-    if (focalBar.classList.contains("nameBar")) {
+    const focalBar = document.querySelector<HTMLDivElement>("#focalBar")
+    if (focalBar && focalBar.classList.contains("nameBar")) {
       // Replace the nameBar with a search bar
       const topSearchBar = searchBar.render("topSearch", "focalBar")
       body.replaceChild(topSearchBar, focalBar)
@@ -2537,7 +2541,7 @@ export const resultsPage = {
     }
   },
   /** Do the non-litter siblings info in the family section */ 
-  siblings: function(info) {
+  siblings: function(info: EnrichedPanda) {
     const heading = document.createElement('h4')
     heading.className = `siblingsHeading ${Env.language}`
     heading.innerText = Gui.siblings[Env.language]
@@ -2563,7 +2567,7 @@ export const resultsPage = {
     return siblings
   },
   /** Display information for a zoo relevant to the red pandas */
-  zoo: function(zoo) {
+  zoo: function(zoo: NodeZoo) {
     const info = acquireZooInfo(zoo)
     const carousel = new Gallery.Carousel(info, 'zoo', 'images/no-zoo.jpg')
     carousel.displayPhoto()
@@ -2601,8 +2605,8 @@ export const resultsPage = {
    *   -- order them oldest to youngest
    */
   zooAnimals: function(zoo: NodeZoo) {
-    const animals_to_divs = (animals) => {
-      const output_divs = []
+    const animals_to_divs = (animals: NodePanda[]) => {
+      const output_divs: HTMLDivElement[] = []
       // TODO ES6: this scope here
       animals.forEach(animal =>
         output_divs.push(this.panda(animal, Env.language)))
@@ -2625,33 +2629,33 @@ export const resultsPage = {
     residents = Pandas.sortOldestToYoungest(residents)
     // Deaths and departures are together
     const leaving = Pandas.sortByDate(
-      departures.concat(deaths), "sort_time", "descending")
+      departures.concat(deaths), "sort_time", "descending") as NodePanda[]
     // Births and arrivals are together
     let coming = Pandas.sortByDate(
-      arrivals.concat(born), "sort_time", "descending")
+      arrivals.concat(born), "sort_time", "descending") as NodePanda[]
     // If a recently born panda moves zoos, take it off the arrivals list
     coming = Pandas.removeElementsWithMatchingField(coming, leaving, "_id")
     // Define the per-section messages. There are modifications depending on
     // which of the input lists are non-empty
-    var headers = {
+    const headers = {
       "arrivals": Message.arrivals(zoo, born),
-      "departures": Message.departures(zoo, deaths, leaving)
+      "departures": Message.departures(zoo, deaths, leaving),
+      "residents": Message.residents(zoo)
     }
     // Spool it all out
-    let content_divs = []
+    let content_divs: HTMLDivElement[] = []
     if (coming.length > 0) {
-      content_divs = content_divs.concat(headers["arrivals"])
+      content_divs = content_divs.concat(headers.arrivals)
       content_divs = content_divs.concat(animals_to_divs(coming))
     }
     if (leaving.length > 0) {
-      content_divs = content_divs.concat(headers["departures"])
+      content_divs = content_divs.concat(headers.departures)
       content_divs = content_divs.concat(animals_to_divs(leaving))
     }
     // Residents get a message if there are other subsections 
     // in these lists of zoo animals
     if (residents.length > 0) {
       if ((leaving.length > 0 ) || (coming.length > 0)) {
-        headers["residents"] = Message.residents(zoo)
         content_divs = content_divs.concat(headers["residents"])
       }
       content_divs = content_divs.concat(animals_to_divs(residents))
@@ -2832,17 +2836,20 @@ export const resultsPage = {
 export const searchBar = {
   /** Set event listeners for the search bar */
   action: function() {
+    const form = document.forms.namedItem('searchForm')
     // Needs class scope, so listener uses arrow function
-    if (document.forms['searchForm'] != undefined)
-      document.forms['searchForm'].addEventListener("submit", () => this.submit())
+    if (form != null)
+      form.addEventListener("submit", () => this.submit())
     // Fix problems with Typesquare input box styling
-    if (document.getElementById('searchInput') != undefined)
-      document.getElementById('searchInput').style.fontFamily = "sans-serif"
+    const searchInput = document.querySelector<HTMLInputElement>('#searchInput')
+    if (searchInput != null)
+      searchInput.style.fontFamily = "sans-serif"
   },
   /** Unhide, enable, and set text cursor focus on the search bar if hidden */
   display: function() {
-    if (document.forms['searchForm'] != undefined) {
-      document.forms['searchForm'].display = "block"
+    const form = document.forms.namedItem('searchForm')
+    if (form != null) {
+      form.style.display = "block"
       this.enable()
     }
   },
@@ -2852,16 +2859,16 @@ export const searchBar = {
    * the searchbar, do nothing.
    */
   enable: function() {
-    if (document.forms['searchForm'] != undefined) {
-      document.forms['searchForm']['searchInput'].disabled = false
-      const placeholder = "➤ " + Gui.search[Env.language]
-      document.forms['searchForm']['searchInput'].placeholder = placeholder
+    const form = document.forms.namedItem('searchForm')
+    const searchInput = document.querySelector<HTMLInputElement>('#searchInput')
+    if (form != null && searchInput != null) {
+      searchInput.disabled = false
+      searchInput.placeholder = "➤ " + Gui.search[Env.language]
       this.action()
     }
     // Refocus text cursor once page loads, but only on non-touch devices
-    if (!("ontouchstart" in window))
-      setTimeout(() =>
-        document.getElementById('searchInput').focus({preventScroll: true}))
+    if (!("ontouchstart" in window) && searchInput != null)
+      setTimeout(() => searchInput.focus({preventScroll: true}))
   },
   /**
    * Remove the search bar when leaving profile mode. By default it will be the
@@ -2906,18 +2913,19 @@ export const searchBar = {
   },
   /** JS actions for submiting a search */
   submit: function() {
+    const searchInput = document.querySelector<HTMLInputElement>('#searchInput')
+    if (searchInput == null) return
     Env.current = Page.results.render
     // Make iOS keyboard disappear after submitting.
-    document.getElementById('searchInput').blur()
-    const query = (document.getElementById('searchInput').value).replace(/\s+$/, '')
+    searchInput.blur()
+    const query = searchInput.value.replace(/\s+$/, '')
     window.location.href = `#query/${query}`
     // When submitting from the bottomMenu search bar, destroy it and move the
     // focus and query output to the top search bar.
     this.remove("bottomSearch")
     // Refocus text cursor after a search is performed, but only on non-touch devices
     if (!("ontouchstart" in window))
-      setTimeout(() =>
-        document.getElementById('searchInput').focus({preventScroll: true}))
+      setTimeout(() => searchInput.focus({preventScroll: true}))
     languageButton.hide()   // If language menu open, hide it
     window.scrollTo(0, 0)   // Go to the top of the page
   },

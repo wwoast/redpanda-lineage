@@ -586,9 +586,9 @@ class LinksPage {
     Env.paging.display_button = false
     // Initialize submenus if necessary
     this.sectionMenuDefaults()
-    var chosen = window.sessionStorage.getItem("linksPageMenu")
+    const chosen = window.sessionStorage.getItem("linksPageMenu")
     this.content = Show.linksPage.body(chosen)
-    document.getElementById('contentFrame').replaceWith(this.content)
+    document.getElementById('contentFrame')?.replaceWith(this.content)
     // Add event listeners to the newly created Links page buttons
     this.sectionButtonEventHandlers()
     footer.redraw("results")

@@ -701,11 +701,12 @@ export function update() {
     Page.links.render()
   // Update the placeholder text for a search bar
   const form = document.forms.namedItem('searchForm')
-  if (form != null) {
+  const searchInput = document.querySelector<HTMLInputElement>('#searchInput')
+  if (form != null && searchInput != null) {
     if (P.db == undefined)
-      form['searchInput'].placeholder = Gui.loading[Env.language]
+      searchInput.placeholder = Gui.loading[Env.language]
     else
-      form['searchInput'].placeholder = "➤ " + Gui.search[Env.language]
+      searchInput.placeholder = "➤ " + Gui.search[Env.language]
   }
   // Change the page title
   document.title = Gui.title[Env.language]

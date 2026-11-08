@@ -641,7 +641,7 @@ export function zooDivider(mode="bear-bamboo") {
  * Construct a zoo link as per design docs. Example:
  *    `https://domain/index.html#zoo/1`
  */
-function zooLink(zoo, link_text, icon=undefined) {
+function zooLink(zoo, link_text, icon) {
   // Don't print content if the input id is zero
   if (zoo['_id'] == Defaults.zoo['_id'])
     return emptyLink(Defaults.zoo.name[Env.language])
@@ -1716,7 +1716,7 @@ export const profileMenus = {
 export const profilePage = {
   /** Show a carousel of photos for this animal */
   carousel: function(info) {
-    const carousel = new Gallery.Carousel(info, 'animal')
+    const carousel = new Gallery.Carousel(info, 'panda')
     carousel.displayPhoto()
     const frame = document.createElement('div')
     frame.className = "pandaPhoto"
@@ -2218,7 +2218,7 @@ export const resultsPage = {
    */
   panda: function(animal) {
     const info = acquirePandaInfo(animal)
-    const carousel = new Gallery.Carousel(info, 'animal')
+    const carousel = new Gallery.Carousel(info, 'panda')
     carousel.displayPhoto()
     const frame = document.createElement('div')
     frame.className = "pandaPhoto"
@@ -2482,8 +2482,8 @@ export const resultsPage = {
   /** Leaving a profile page? Turn this into a search bar again */
   searchBar: function() {
     const body = document.getElementsByTagName("body")[0]
-    const focalBar = document.getElementById("focalBar")
-    if (focalBar.classList.contains("nameBar")) {
+    const focalBar = document.querySelector("#focalBar")
+    if (focalBar && focalBar.classList.contains("nameBar")) {
       // Replace the nameBar with a search bar
       const topSearchBar = searchBar.render("topSearch", "focalBar")
       body.replaceChild(topSearchBar, focalBar)
@@ -2786,17 +2786,20 @@ export const resultsPage = {
 export const searchBar = {
   /** Set event listeners for the search bar */
   action: function() {
+    const form = document.forms.namedItem('searchForm')
     // Needs class scope, so listener uses arrow function
-    if (document.forms['searchForm'] != undefined)
-      document.forms['searchForm'].addEventListener("submit", () => this.submit())
+    if (form != null)
+      form.addEventListener("submit", () => this.submit())
     // Fix problems with Typesquare input box styling
-    if (document.getElementById('searchInput') != undefined)
-      document.getElementById('searchInput').style.fontFamily = "sans-serif"
+    const searchInput = document.querySelector('#searchInput')
+    if (searchInput != null)
+      searchInput.style.fontFamily = "sans-serif"
   },
   /** Unhide, enable, and set text cursor focus on the search bar if hidden */
   display: function() {
-    if (document.forms['searchForm'] != undefined) {
-      document.forms['searchForm'].display = "block"
+    const form = document.forms.namedItem('searchForm')
+    if (form != null) {
+      form.style.display = "block"
       this.enable()
     }
   },
