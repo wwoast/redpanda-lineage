@@ -608,11 +608,14 @@ function qrcodeSwap() {
 /**
  * Guarantee after calling this function that a menu, or a footer, exist in the
  * page where they should be.
- * 
- * TODO-UI: typescript can't reason about this shit
  */
-function update(new_contents, container=undefined, container_class, container_id) {
-  if (container == undefined) {
+function update(
+  new_contents: Element,
+  container: HTMLDivElement | null,
+  container_class: string,
+  container_id: string
+) {
+  if (!container) {
     container = document.createElement('div')
     container.appendChild(new_contents)
   } else {
@@ -1193,7 +1196,7 @@ export const aboutMenu = {
       new_contents.appendChild(button)
     }
     // Remove exisitng contents and replace with new
-    let menu = document.querySelector(".topMenu")
+    let menu = document.querySelector<HTMLDivElement>(".topMenu")
     menu = update(new_contents, menu, "topMenu", "pageTop")
     // Remove any previous menu class modifiers
     menu.classList.add("results")
@@ -1270,7 +1273,7 @@ export const landingMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      var menu = document.querySelector(".bottomMenu")
+      let menu = document.querySelector<HTMLDivElement>(".bottomMenu")
       menu = update(new_contents, menu, "bottomMenu", "pageBottom")
       // Remove any previous menu class modifiers
       menu.classList.add("results")
@@ -1288,7 +1291,7 @@ export const landingMenus = {
       shrinker.appendChild(button)
     }
     // Swap updated menu into the page when rendering
-    let menu = document.querySelector(".languageMenu")
+    let menu = document.querySelector<HTMLDivElement>(".languageMenu")
     menu = update(shrinker, menu, "languageMenu", "languageTop")
     menu.classList.remove("results", "profile")
     menu.classList.add(class_color)
@@ -1303,7 +1306,7 @@ export const landingMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      let menu = document.querySelector(".topMenu")
+      let menu = document.querySelector<HTMLDivElement>(".topMenu")
       menu = update(new_contents, menu, "topMenu", "pageTop")
       // Remove any previous menu class modifiers
       menu.classList.add("results")
@@ -1326,7 +1329,7 @@ export const linksMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      let menu = document.querySelector(".bottomMenu")
+      let menu = document.querySelector<HTMLDivElement>(".bottomMenu")
       menu = update(new_contents, menu, "bottomMenu", "pageBottom")
       // Remove any previous menu class modifiers
       menu.classList.add("results")
@@ -1370,7 +1373,7 @@ export const linksMenus = {
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
-      var menu = document.querySelector(".topMenu")
+      var menu = document.querySelector<HTMLDivElement>(".topMenu")
       menu = update(new_contents, menu, "topMenu", "pageTop")
       // Remove any previous menu class modifiers
       menu.classList.add("results")
@@ -1380,6 +1383,24 @@ export const linksMenus = {
   }
 }
 
+/** The unrolled content inside a NodeLinks object */
+type LinkRender = {
+  /** Prefix string before the link display text */
+  first: string
+  /** Link URL */
+  href: string
+  /** Suffix string after the link display text */
+  last: string,
+  /** Languages the page is supported in, by primacy/relevance */
+  order: Language[],
+  /** Actual link display text */
+  text: string
+}
+type LinksOutput = {
+  counts: Partial<Record<Language, number>>,
+  icon: string,
+  list: LinkRender[]
+}
 /** Methods for sorting links displayed in the Links pages */
 const linksOrder = {
   /** 
@@ -1387,20 +1408,19 @@ const linksOrder = {
    * to construct links in the page, along with any counts that will assist in
    * sorting, should sorting be necessary elsewhere.
    */
-  given: function(links) {
-    const output = {}
-    output.counts = {}
-    // Count the hits for each language that we support in the display modes
+  given: function(links: NodeLinks) {
+    // Count the hits for each language we support, and grab the links icon
+    const output = <LinksOutput>{
+      counts: {},
+      icon: links.icon,
+      list: []
+    }
     for (const language of Fallback.order)
       output.counts[language] = 0
-    // Grab the icon from the links values
-    output.icon = links.icon
-    // The list of links themselves
-    output.list = []
     const link_fields = Pandas.linkGeneratorEntity
     for (const field_name of link_fields(links)) {
       // Fallback language order
-      let language_order = links[`${field_name}.language.order`]
+      let language_order: Language[] = links[`${field_name}.language.order`]
       if (language_order == undefined)
         language_order = Fallback.order
       // Fallback name selection, if (like the instagram names) we don't
@@ -1425,7 +1445,7 @@ const linksOrder = {
         "text": link_name
       }
       for (const language of link.order)
-        output.counts[language] = output.counts[language] + 1
+        output.counts[language] = (output.counts[language] ?? 0) + 1
       output.list.push(link)
     }
     return output
@@ -1434,11 +1454,18 @@ const linksOrder = {
    * Display links in language order, and then order by which language has the
    * most recorded hits in the links.
    */
-  hits: function(links) {
+  hits: function(links: NodeLinks) {
     const output = this.given(links)
     output.list = output.list
       .sort(this.sortLinkTextWithoutUnderscores)
-      .sort(this.sortLinkByLanguagePrevalence)
+      .sort((a: LinkRender, b: LinkRender) => {
+        // Sort by language prevalence in the NodeLinks list
+        const aLangCount = output.counts[a.order[0]] ?? 0
+        const bLangCount = output.counts[b.order[0]] ?? 0
+        if (aLangCount > bLangCount) return -1
+        else if (aLangCount < bLangCount) return 1
+        else return 0
+      })
     return output
   },
   /** 
@@ -1448,7 +1475,7 @@ const linksOrder = {
    * which is generally done by how many animals that zoo is known for. Return
    * the links page content as an array with the desired ordering.
    */
-  language: function(links) {
+  language: function(links: NodeLinks) {
     const output = this.given(links)
     output.list = output.list
       .sort(this.sortLinkByCurrentLanguageAndOrder)
@@ -1462,7 +1489,7 @@ const linksOrder = {
    * language is a secondary value for the given link. Return the links page
    * content as an array with the desired ordering.
    */
-  languageAndAlphabet: function(links) {
+  languageAndAlphabet: function(links: NodeLinks) {
     const output = this.given(links)
     output.list = output.list
       .sort(this.sortLinkTextWithoutUnderscores)
@@ -1473,7 +1500,7 @@ const linksOrder = {
    * If the primary (zeroth) language for the link is the display language,
    * prioritize that.
    */
-  sortLinkByCurrentLanguageAndOrder: function(a, b) {
+  sortLinkByCurrentLanguageAndOrder: function(a: LinkRender, b: LinkRender) {
     const aHasLang = a.order.indexOf(Env.language)
     const bHasLang = b.order.indexOf(Env.language)
     if (aHasLang == bHasLang) {
@@ -1490,21 +1517,10 @@ const linksOrder = {
     }
   },
   /** 
-   * Do a pass of sorting by how prevalent any given language is in the
-   * list of links being reviewed.
-   */
-  sortLinkByLanguagePrevalence: function(a, b) {
-    const aLangCount = output.counts[a.order[0]]
-    const bLangCount = output.counts[b.order[0]]
-    if (aLangCount > bLangCount) return -1
-    else if (aLangCount < bLangCount) return 1
-    else return 0
-  },
-  /** 
    * Do a pass of alphabetical sorting by name, without underscores changing
    * the sort order.
    */
-  sortLinkTextWithoutUnderscores: function(a, b) {
+  sortLinkTextWithoutUnderscores: function(a: LinkRender, b: LinkRender) {
     const aText = a.text.replace("_", "")
     const bText = b.text.replace("_", "")
     if (aText > bText) return 1

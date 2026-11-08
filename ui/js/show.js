@@ -1370,15 +1370,14 @@ const linksOrder = {
    * sorting, should sorting be necessary elsewhere.
    */
   given: function(links) {
-    const output = {}
-    output.counts = {}
-    // Count the hits for each language that we support in the display modes
+    // Count the hits for each language we support, and grab the links icon
+    const output = {
+      counts: {},
+      icon: links.icon,
+      list: []
+    }
     for (const language of Fallback.order)
       output.counts[language] = 0
-    // Grab the icon from the links values
-    output.icon = links.icon
-    // The list of links themselves
-    output.list = []
     const link_fields = Pandas.linkGeneratorEntity
     for (const field_name of link_fields(links)) {
       // Fallback language order
@@ -1407,7 +1406,7 @@ const linksOrder = {
         "text": link_name
       }
       for (const language of link.order)
-        output.counts[language] = output.counts[language] + 1
+        output.counts[language] = (output.counts[language] ?? 0) + 1
       output.list.push(link)
     }
     return output
@@ -1420,7 +1419,14 @@ const linksOrder = {
     const output = this.given(links)
     output.list = output.list
       .sort(this.sortLinkTextWithoutUnderscores)
-      .sort(this.sortLinkByLanguagePrevalence)
+      .sort((a, b) => {
+        // Sort by language prevalence in the NodeLinks list
+        const aLangCount = output.counts[a.order[0]] ?? 0
+        const bLangCount = output.counts[b.order[0]] ?? 0
+        if (aLangCount > bLangCount) return -1
+        else if (aLangCount < bLangCount) return 1
+        else return 0
+      })
     return output
   },
   /** 
@@ -1470,17 +1476,6 @@ const linksOrder = {
     } else {
       return 1
     }
-  },
-  /** 
-   * Do a pass of sorting by how prevalent any given language is in the
-   * list of links being reviewed.
-   */
-  sortLinkByLanguagePrevalence: function(a, b) {
-    const aLangCount = output.counts[a.order[0]]
-    const bLangCount = output.counts[b.order[0]]
-    if (aLangCount > bLangCount) return -1
-    else if (aLangCount < bLangCount) return 1
-    else return 0
   },
   /** 
    * Do a pass of alphabetical sorting by name, without underscores changing
