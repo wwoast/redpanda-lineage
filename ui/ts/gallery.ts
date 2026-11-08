@@ -758,7 +758,7 @@ export function genericPhotoCredits(
 export function memorialPhotoCredits(
   id_list: string[], 
   photo_count=5, 
-  message_function: (...args: unknown[]) => string
+  message_function: (...args: any[]) => HTMLDivElement
 ) {
   const memorial_div = document.createElement('div')
   for (const id of id_list) {

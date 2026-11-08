@@ -1207,12 +1207,12 @@ export const aboutMenu = {
 }
 
 /** Generate the options page and its input-controls for changing settings */
-const optionsPage = {
-  body: function() {
+export const optionsPage = {
+  body: () => {
     const container = document.createElement('div')
     container.id = "contentFrame"
     container.className = "options"
-    container.appendChild(this.content.render())
+    container.appendChild(this.render())
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
     container.appendChild(shrinker)
@@ -1220,7 +1220,7 @@ const optionsPage = {
   },
   content: {
     deadPandas: {
-      action: function(e) {
+      action: (e) => {
         Options.update(data => data.hideDeadPandas = e.currentTarget.checked)
       },
       render: function() {
@@ -1250,7 +1250,7 @@ const optionsPage = {
     const container = document.createElement('div')
     container.className = 'shrinker'
     container.appendChild(this.header())
-    container.appendChild(this.deadPandas.render())
+    container.appendChild(this.content.deadPandas.render())
     return container
   }
 }

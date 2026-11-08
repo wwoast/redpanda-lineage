@@ -70,14 +70,15 @@ export function redraw(callback?: Function) {
  * content using an XHR. Like all objects representing page state, this is a
  * singleton object for the current browser tab.
  */
-class AboutPage {
+interface AboutPage {
   /** The page body to render or restore for the About page */
-  content = undefined
-
+  content: HTMLDivElement,
   /** Language the current page is displayed in */
-  language = undefined
-
+  language: Language,
   /** Event representing the About page was successfully fetched */
+  loaded: Event
+}
+class AboutPage {
   loaded = new Event('about_loaded')
 
   /** 
@@ -91,7 +92,8 @@ class AboutPage {
     request.responseType = 'document'
     request.send()
     request.onload = () => {
-      this.content = request.response.getElementById('contentFrame')
+      const response = request.response as Document
+      this.content = response.querySelector<HTMLDivElement>('contentFrame')
       this.language = Env.language   // Language the content was loaded in
       window.dispatchEvent(this.loaded)   // Report the data has loaded
     }
@@ -220,10 +222,7 @@ class AboutPage {
 
   /**
    * Use session storage (lost when browser closes) for menu state.
-   * Potential values are for the menus on the about and links page, so the
-   * chosen sub-page will reappear when theses pages are regenerated.
    *  "aboutPageMenu" can be set to (usage|pandas|contributions)
-   *   "linksPageMenu" can be set to (community|zoos|friends)
    */
   sectionMenuDefaults() {
     if (window.sessionStorage.getItem("aboutPageMenu") == null) {
@@ -237,23 +236,27 @@ class AboutPage {
    * where sections are id'ed `name` and the buttons that activate those
    * sections are id'ed `name_button`
    */
-  sectionShow(section_id: string) {
+  sectionShow(section_id: string | null) {
+    if (section_id == null) {
+      this.sectionMenuDefaults()
+      section_id = window.sessionStorage.getItem("aboutPageMenu") as string
+    }
     const desired = document.getElementById(section_id)
     const desired_button = document.getElementById(`${section_id}_button`)
     // Find currently shown section and hide it
     const sections = document.getElementsByClassName("section")
-    const shown = [].filter.call(sections, function(el) {
-      return el.classList.contains("hidden") == false
-    })[0]
+    const shown = Array.from(sections)
+      .filter(el => el.classList.contains("hidden") == false)
+      .shift()
     // Turn off the existing shown section, and "unselect" its button
     if (shown != undefined) {
       const shown_button = document.getElementById(`${shown.id}_button`)
       shown.classList.add("hidden")
-      shown_button.classList.remove("selected")
+      shown_button?.classList.remove("selected")
     }
     // Remove the hidden class on the desired section, and "select" its button
-    desired.classList.remove("hidden")
-    desired_button.classList.add("selected")
+    desired?.classList.remove("hidden")
+    desired_button?.classList.add("selected")
     // Fetch images from IG if necessary
     this.fetchImages()
   }
@@ -273,8 +276,8 @@ class AboutPage {
     const tagList = document.createElement('ul')
     tagList.classList.add("tagList")
     tagList.classList.add("multiColumn")
-    const tagKeys = Object.keys(Tags)
-    const primaryTags = {}
+    const tagKeys: (keyof TagSet)[] = Object.keys(Tags)
+    const primaryTags: Record<keyof TagSet, keyof TagSet> = {}
     for (const key of tagKeys) {
       const primaryTag = Tags[key][this.language][0]
       // Index by primaryTag, while the value is the key to the tagList
@@ -469,7 +472,7 @@ class HomePage {
       new_content.appendChild(nearby)
       const new_photos = Gallery.updatedNewPhotoCredits()
       new_content.appendChild(new_photos)
-      old_content.replaceWith(new_content)
+      old_content?.replaceWith(new_content)
       shrinkNames()
       footer.redraw("landing")
     } else {
@@ -477,7 +480,7 @@ class HomePage {
       new_content.src = "images/jiuzhaigou.jpg"
       new_content.className = "fullFrame"
       new_content.id = "contentFrame"
-      old_content.replaceWith(new_content)
+      old_content?.replaceWith(new_content)
       footer.remove()
     }
     Show.resultsPage.searchBar()   // Ensure the search bar comes back
@@ -562,11 +565,12 @@ class HomePage {
 /** Singleton class representing the Home / landing page for redpandafinder */
 export const home = new HomePage()
 
+interface LinksPage {
+  /** The page body to render or restore for the Links page */
+  content: HTMLDivElement
+}
 /** Logic related to the Links page. */
 class LinksPage {
-  /** The page body to render or restore for the Links page */
-  content = undefined
-
   /**
    * The links page hashchange results in needing to draw or fetch the links
    * page and initialize its menus, or at the very least, scroll to the top.
@@ -586,7 +590,7 @@ class LinksPage {
     Env.paging.display_button = false
     // Initialize submenus if necessary
     this.sectionMenuDefaults()
-    const chosen = window.sessionStorage.getItem("linksPageMenu")
+    const chosen = window.sessionStorage.getItem("linksPageMenu") as string
     this.content = Show.linksPage.body(chosen)
     document.getElementById('contentFrame')?.replaceWith(this.content)
     // Add event listeners to the newly created Links page buttons
@@ -622,20 +626,26 @@ class LinksPage {
     // related to the button's id. Example:
     //    redPandaCommunity_button => shows redPandaCommunity page
     buttons.forEach(button => button.addEventListener('click', () => {
-      const old_section = window.sessionStorage.getItem("linksPageMenu")
+      const old_section = window.sessionStorage.getItem("linksPageMenu") as string
       const show_section_id = button.id.split("_")[0]
       // Draw new links page content, and erase the old
       this.content = Show.linksSections[show_section_id]()
       const old_content = document.getElementById(old_section)
       // Erase the old content and bring the new content into the page
-      old_content.replaceWith(this.content)
-      window.sessionStorage.setItem("linksPageMenu", show_section_id)
-      const old_button = document.getElementById(`${old_section}_button`)
-      button.classList.add("selected")
-      old_button.classList.remove("selected")
+      if (old_content) {
+        old_content.replaceWith(this.content)
+        window.sessionStorage.setItem("linksPageMenu", show_section_id)
+        const old_button = document.getElementById(`${old_section}_button`)
+        button.classList.add("selected")
+        old_button?.classList.remove("selected")
+      }
     }))
   }
 
+  /**
+   * Use session storage (lost when browser closes) for menu state.
+   *   "linksPageMenu" can be set to (community|zoos|friends)
+   */
   sectionMenuDefaults() {
     if (window.sessionStorage.getItem("linksPageMenu") == null) {
       window.sessionStorage.setItem("linksPageMenu", "redPandaCommunity")
@@ -669,7 +679,7 @@ class MediaPage {
     new_content.id = "contentFrame"
     new_content.appendChild(gallery_div)
     // Swap the new content into the page
-    document.getElementById('contentFrame').replaceWith(new_content)
+    document.getElementById('contentFrame')?.replaceWith(new_content)
     shrinkNames()
     Show.mediaMenus.language()
     const result_id = results["hits"][0]._id
@@ -693,10 +703,11 @@ export const media = new MediaPage()
  * Logic related to the "Options" page. Like all objects representing page
  * state, they are singleton objects for the current browser tab.
  */
-class OptionsPage {
+interface OptionsPage {
   /** The page body to render or restore for the Options page */
-  content = undefined
-
+  content: HTMLDivElement
+}
+class OptionsPage {
   /** Call this in a `hashchange` handler to make the Options page appear */
   hashchange = () => {
     this.render()
@@ -704,16 +715,17 @@ class OptionsPage {
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
-  /** Render the options page, and replace the exisitng page content. By
+  /**
+   * Render the options page, and replace the exisitng page content. By
    * defining as an arrow function, we guarantee `this` is scoped to the
    * `OptionsPage` class if invoked as a callback.
    */
   render = () => {
     // Disable paging from another page rendering mode
     Env.paging.display_button = false
-    this.content = Show.options.body()
+    this.content = Show.optionsPage.body()
     // Replace existing content frame with the Options page
-    document.querySelector('#contentFrame').replaceWith(this.content)
+    document.querySelector('#contentFrame')?.replaceWith(this.content)
     // Add event listeners to the newly created Links page buttons
     footer.redraw("results")
     Show.resultsMenus.language()
@@ -763,7 +775,7 @@ class ProfilePage {
     new_content.id = "contentFrame"
     new_content.appendChild(shrinker)
     // Swap the new content into the page
-    document.getElementById('contentFrame').replaceWith(new_content)
+    document.getElementById('contentFrame')?.replaceWith(new_content)
     Show.profileMenus.language()
     const result_id = results.hits[0]._id
     // TODO TOWRITE: need to take id of panda for buttons

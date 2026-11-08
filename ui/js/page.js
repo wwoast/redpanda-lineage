@@ -680,9 +680,6 @@ export const media = new MediaPage()
  * state, they are singleton objects for the current browser tab.
  */
 class OptionsPage {
-  /** The page body to render or restore for the Options page */
-  content = undefined
-
   /** Call this in a `hashchange` handler to make the Options page appear */
   hashchange = () => {
     this.render()
@@ -690,14 +687,15 @@ class OptionsPage {
     window.scrollTo(0, 0)   // Go to the top of the page
   }
 
-  /** Render the options page, and replace the exisitng page content. By
+  /**
+   * Render the options page, and replace the exisitng page content. By
    * defining as an arrow function, we guarantee `this` is scoped to the
    * `OptionsPage` class if invoked as a callback.
    */
   render = () => {
     // Disable paging from another page rendering mode
     Env.paging.display_button = false
-    this.content = Show.options.body()
+    this.content = Show.optionsPage.body()
     // Replace existing content frame with the Options page
     document.querySelector('#contentFrame').replaceWith(this.content)
     // Add event listeners to the newly created Links page buttons
