@@ -1185,7 +1185,7 @@ export const aboutMenu = {
 }
 
 /** Generate the options page and its input-controls for changing settings */
-const optionsPage = {
+export const optionsPage = {
   body: function() {
     const container = document.createElement('div')
     container.id = "contentFrame"
