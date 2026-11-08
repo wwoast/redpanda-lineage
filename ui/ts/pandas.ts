@@ -536,7 +536,7 @@ export function searchLitter(idnum: number) {
     .in("litter")
     .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
     .run()
-  return nodes as NodePanda
+  return nodes as NodePanda[]
 }
 
 /** Find all links stored in a single panda database `[links]` file */
@@ -686,7 +686,7 @@ export function searchPandaId(idnum: number | string) {
 export function searchPandaMedia(query: string, only_media=false): (NodeMedia | NodePanda)[] {
   const animals = searchPanda(query)
   // Get an array of graph result arrays, and flatten them
-  const media = [].concat.apply([],
+  const media: NodeMedia[] = [].concat.apply([],
     animals.map(x => x._id).map(function(id) {
       // Search for graph nodes that have "panda.tags" values
       // that match the ids of any animal in the original 
@@ -743,7 +743,10 @@ export function searchPandaName(name: string) {
  * Given a panda, search for photos searched with ALL of a list of tags. Returns
  * photo info only.
  */
-function searchPandaPhotoTagsIntersect(node: NodePanda, tags: string[]) {
+function searchPandaPhotoTagsIntersect(
+  node: NodeMedia | NodePanda | NodeZoo,
+  tags: string[]
+) {
   if (tags.length == 0)
     return []
   const output = []
@@ -779,7 +782,7 @@ function searchPandaPhotoTagsIntersect(node: NodePanda, tags: string[]) {
  * full Node rather than a EnrichedPhoto, but that code appeared to be unused.
  */
 function searchPandaPhotoTagsUnion(
-  node: NodePanda | NodeZoo,
+  node: NodeMedia | NodePanda | NodeZoo,
   tags: string[],
   mode: PhotoTagMode
 ) {
@@ -1160,7 +1163,7 @@ type PhotoTagFallback = "first" | "none"
  *   `first`: if no tag available, choose the first photo in the set
  */
 export function searchPhotoTags(
-  animal_list: NodePanda[],
+  animal_list: (NodeMedia | NodePanda | NodeZoo)[],
   tags: string[],
   mode: PhotoTagMode,
   fallback: PhotoTagFallback
@@ -1852,7 +1855,10 @@ function parseDate(date: string): ParsedDate {
 }
 
 /** Given an animal, choose a single photo to display as its profile photo. */
-export function profilePhoto(animal: NodePanda | NodeZoo, naturalIndex: number | string) {
+export function profilePhoto(
+  animal: NodeMedia | NodePanda | NodeZoo,
+  naturalIndex: number | string
+) {
   let arrayIndex = (typeof naturalIndex !== "number")
     ? 0
     : naturalIndex - 1

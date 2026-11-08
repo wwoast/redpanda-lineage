@@ -677,7 +677,7 @@ class Tree {
   }
 
   /** Flatten results from something in a tree like form, to an array */
-  flatten(input) {
+  flatten(input: any[]) {
     const array = []
     while(input.length) {
       const value = input.shift()
@@ -718,7 +718,7 @@ class Tree {
    * Takes the result from parsing a grammar, and builds a parse tree with our
    * own node details and formatting, based on jsleri's
    */
-  generate(parse_input) {
+  generate(parse_input: string) {
     if (this.grammar == undefined)
       this.build_grammar()
     const result = this.grammar.parse(parse_input)

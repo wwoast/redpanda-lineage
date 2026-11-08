@@ -503,11 +503,11 @@ function qrcodeHashSafe(short=false) {
     sub_hash = "photo"
     photo_id = parts[3]
     if ((parseInt(panda_id) <= 0) || 
-        (parseInt(panda_id) > parseInt(P.db._totals.pandas))) {
+        (parseInt(panda_id) > (P.db._totals.pandas))) {
       panda_id = '1'
     }
     if ((parseInt(photo_id) <= 0) ||
-        (parseInt(photo_id) > parseInt(P.db._photo.entity_max))) {
+        (parseInt(photo_id) > P.db._photo.entity_max)) {
       photo_id = '1'
     }
     if (short == false)
@@ -521,7 +521,7 @@ function qrcodeHashSafe(short=false) {
     sub_hash = ''
     photo_id = ''
     if ((parseInt(panda_id) <= 0) || 
-        (parseInt(panda_id) > parseInt(P.db._totals.pandas))) {
+        (parseInt(panda_id) > P.db._totals.pandas)) {
       panda_id = '1'
     }
     out_hash = `${profile}/${panda_id}`
@@ -997,7 +997,7 @@ const profileButton = {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.profile.render
     const pandaIds =
-      P.db.vertices.filter(entity => entity._id > 0)
+      P.db.vertices.filter(entity => entity.type == "panda")
                    .filter(entity => entity.photos.length > 0)
                    .filter(entity => entity.death == undefined)
                    .map(entity => entity._id)
@@ -1029,17 +1029,16 @@ const randomButton = {
   action: function() {
     Env.current = Page.results.render
     const zooIds =
-      P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
-                   .filter(entity => entity._id < 0)
+      P.db.vertices.filter(entity => entity.type == "zoo")
                    .filter(entity => entity.photos && entity.photos.length > 0)
                    .map(entity => entity._id)
                    .filter(id => Pandas.searchPandaZooCurrent(id).length > 0)
+                   .map(id => id.toString())
     const pandaIds =
-      P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
-                   .filter(entity => entity._id > 0)
+      P.db.vertices.filter(entity => entity.type == "panda")
                    .filter(entity => entity.photos && entity.photos.length > 0)
                    .filter(entity => entity.death == undefined)
-                   .map(entity => entity._id)
+                   .map(entity => entity._id.toString())
     const groupIds =
       P.db.vertices.filter(entity => entity.type == "media")
                    .map(entity => entity["panda.tags"])
@@ -1052,7 +1051,7 @@ const randomButton = {
                       else
                         return true
                     })
-                    .join(" ")
+                    .map(pandaIds => pandaIds.join(" "))
     const randomChoices = pandaIds.concat(groupIds).concat(zooIds)
     window.location.href = 
       `#query/${randomChoices[Math.floor(Math.random() * randomChoices.length)]}`

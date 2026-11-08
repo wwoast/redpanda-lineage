@@ -744,6 +744,6 @@ declare global {
       photos: string[]
     },
     edges: DanglingEdge[],
-    vertices: Vertex[]
+    vertices: GraphNode[]
   }
 }
