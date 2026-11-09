@@ -305,7 +305,7 @@ const regex = {
     aa_bb_cc: '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n]?)',
     aa_bb_yyyy: '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)',
     // Unambiguous month and year
-    mm_yy: '(?:[0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)',
+    mm_yyyy: '(?:[0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)',
     // Unambiguous and standard date parsing
     yyyy_mm_dd: '(?:[0-9]{4}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n]?)'
   }

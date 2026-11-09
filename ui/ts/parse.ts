@@ -305,14 +305,16 @@ const regex = {
     aa_bb_cc: '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n]?)',
     aa_bb_yyyy: '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)',
     // Unambiguous month and year
-    mm_yy: '(?:[0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)',
+    mm_yyyy: '(?:[0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)',
     // Unambiguous and standard date parsing
     yyyy_mm_dd: '(?:[0-9]{4}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n]?)'
   }
 }
 
 interface LexerList {
+  /** List of Lexer tokens */
   list: string[],
+  /** Most spaces in a string that's still considered a single token */
   max_spaces: number
 }
 /**
@@ -472,10 +474,11 @@ export const lexer = new Lexer()
  * Pass separate children value in case we want to process not the 
  * original parse tree, but a derived tree of children.
  */
-class Tree {
+interface Tree {
   /** Instance of the jsleri grammar object */
-  grammar = undefined
-
+  grammar: Jsleri.Grammar
+}
+class Tree {
   keyword = [
     "keyword",
     "tag",
@@ -551,7 +554,7 @@ class Tree {
     }
     // Take a sequence, and make it parse in either direction
     // Example: "born 1999" or "2005 babies"
-    function Reversible(a, b) {
+    function Reversible(a: any, b: any) {
       return Choice(
         Sequence(a, b),
         Sequence(b, a)
