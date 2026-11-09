@@ -297,14 +297,14 @@ function langContext(node: Node): Language | "button" | null {
   // opted-in via class="langKey" (e.g. the About-page usage guide),
   // a language code when inside a picker entry (e.g. enLanguageFlag),
   // null elsewhere.
-  let p = node.parentNode
-  while (p != null && p.nodeType == Node.ELEMENT_NODE) {
+  let p = node.parentElement
+  while (p != null) {
     if (p.id == "languageButton") { return "button" }
     if (p.classList != null && p.classList.contains("langKey")) { return "button" }
     if (p.tagName == "BUTTON" && /LanguageFlag$/.test(p.id)) {
       return p.id.replace("LanguageFlag", "") as Language
     }
-    p = p.parentNode
+    p = p.parentElement
   }
   return null
 }
