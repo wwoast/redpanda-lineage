@@ -3,6 +3,10 @@ import { capitalNames } from './language.ts'
 import { Defaults, Polyglots, Tags } from './lookup.ts'
 import P, { distinct, values } from './pandas.ts'
 
+/**
+ * Extension of the un-exported Node type from Jsleri. Adds a "type" classifier
+ * used to describe how the query resolver should do its job.
+ */
 interface ParserNode {
   start: number,
   end: number,
@@ -722,6 +726,8 @@ class Tree {
   generate(parse_input: string) {
     if (this.grammar == undefined)
       this.build_grammar()
+    if (!this.grammar || this.grammar.parse == undefined)
+      return   // TODO: THROW
     const result = this.grammar.parse(parse_input)
     let start = result.tree
     if (result.tree.hasOwnProperty("children"))
@@ -737,7 +743,7 @@ class Tree {
   }
 
   /** Convert jsleri parse tree to our desired format, one child at a time */
-  get_children(children: ParserNode[]) {
+  get_children(children: ParserNode[]): ParserNode[] {
     return children.map((c: ParserNode) =>
       this.node_props(c, this.get_children(c.children)))
   }
@@ -751,7 +757,7 @@ class Tree {
   }
 
   /** Define our ideal tree node, using jsleri's as a base */
-  node_props(node: ParserNode, children: ParserNode[]) {
+  node_props(node: ParserNode, children: ParserNode[]): ParserNode {
     return <ParserNode>{
       'start': node.start,
       'end': node.end,
@@ -767,7 +773,7 @@ class Tree {
    */
   node_type(node: ParserNode, children: ParserNode[]) {
     if (children == undefined)
-      return   // No need to update anything
+      return node.type   // No need to update anything
     if (children.length != 0)
       return "composite"
     if (node.element.hasOwnProperty("keyword")) {
@@ -786,6 +792,7 @@ class Tree {
       if (Object.values(regex.date).indexOf(node.element.re) != -1)
         return "subject_date"
     }
+    return node.type   // Fallback, don't change anything
   }
 
   /** 
