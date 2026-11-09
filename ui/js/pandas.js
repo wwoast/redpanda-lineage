@@ -304,13 +304,14 @@ export function allAnimalsAndMedia() {
 
 /** Find all panda babies born within a calendar year. */
 export function searchBabies(year) {
-  // Default search is for the most recent year we recorded a birth in
-  let baby_year = P.db["_totals"]["last_born"]
-  // Process whatever comes in as a year value. If > 1970, call it a year
-  if (parseInt(year) > Defaults.earliest.year) {
-    baby_year = parseInt(year)
-  }
-  const nodes = G.v().filter(function(vertex) {
+  // Fallback search is for the most recent year we recorded a birth in
+  let baby_year = (year != undefined)
+    ? parseInt(year)
+    : P.db._totals.last_born
+  if (isNaN(baby_year) || baby_year < Defaults.earliest.year)
+    baby_year = P.db._totals.last_born
+  const nodes = G.v().filter(vertex => {
+    if (vertex.type != "panda") return false   // Just animals
     const their_date = new Date(vertex.birthday)
     const their_year = their_date.getFullYear()
     return their_year == baby_year
@@ -483,10 +484,12 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
 /** Find all pandas that died within a calendar year. */
 export function searchDead(year) {
   // Default search is for the most recent year we recorded a birth in
-  let died_year = P.db["_totals"]["last_died"]
+  let died_year = (year != undefined)
+    ? parseInt(year)
+    : P.db._totals.last_died
   // Process whatever comes in as a year value. If > 1970, call it a year
-  if (parseInt(year) > Defaults.earliest.year)
-    died_year = parseInt(year)
+  if (isNaN(died_year) || died_year < Defaults.earliest.year)
+    died_year = P.db._totals.last_died
   const nodes = G.v().filter(function(vertex) {
     if (vertex.type != "panda") return false
     if (!vertex.death) return false

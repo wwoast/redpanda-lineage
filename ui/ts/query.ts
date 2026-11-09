@@ -19,7 +19,7 @@ export function clear() {
 }
 
 /** Resolve the query string into something */
-export function result(input_string: string) {
+export function result(input_string: string): QueryResult {
   // Take the input string and lex it out into tokens
   const lexed_input = Parse.lexer.generate(input_string)
   // Parse the lexed input
@@ -42,11 +42,11 @@ export function result(input_string: string) {
   }
   // Unary search, or Keyword + Search Term, or Two Keywords
   if (set_nodes.length == 1 && singular_nodes.length == 2) {
-    return pair(set_nodes[0], singular_nodes);
+    return pair(set_nodes[0])
   }
   // Group search
   if (set_nodes.length == 1 && singular_nodes.length > 2) {
-    return group_one_set(set_nodes[0]);
+    return group_one_set(set_nodes[0])
   }
   // Filter search (set nodes inside another set)
   // Start processing based on the outer set. Decide the outer set based on
@@ -59,17 +59,22 @@ export function result(input_string: string) {
     )
     return filter_set(start_node)
   }
+  // Fallback result
+  return {
+    "hits": [],
+    "parsed": "no_results",
+    "query": input_string,
+  }
 }
 
 /**
  * The parse tree found multiple sets. For now, assume this is a filter set.
  * TODO: generalize
  */
-function filter_set(set_node) {
+function filter_set(set_node: ParserNode) {
   let hits = []
-  const keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
-  let search_word = undefined
-  let filter_word = undefined
+  let search_word: string
+  let filter_word: string | undefined
   let parsed = set_node.type
   if (set_node.type == "set_credit_photos_filtered") {
     const author_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_author)[0]
@@ -100,8 +105,8 @@ function filter_set(set_node) {
   }
 }
 /** The parse tree found a group with one set, and many nodes */
-function group_one_set(set_node) {
-  let hits = []
+function group_one_set(set_node: ParserNode) {
+  let hits: GraphNode[] | EnrichedPhoto[] = []
   const keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
   let search_word = undefined   // TODO: multi-subject search
   let tag = undefined
@@ -150,15 +155,14 @@ function group_one_set(set_node) {
   }
 }
 // The parse tree found a single set node, with a pair of nodes underneath it
-function pair(set_node) {
+function pair(set_node: ParserNode) {
   let hits = []
   const keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0]
   const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0]
-  let search_word = undefined
-  if (subject_node != undefined) {
-    search_word = subject_node.str   // Only set when a subject is given
-  }
-  let tag = undefined
+  if (keyword_node == undefined || subject_node == undefined)
+    throw new Error("TODO: pair set processing error")
+  const search_word = subject_node.str   // Only set when a subject is given
+  let tag: string
   if (set_node.type == "set_keyword_date") {
     if (Parse.group.born.includes(keyword_node.str)) {
       hits = Pandas.searchBirthdayList(search_word)
@@ -172,13 +176,13 @@ function pair(set_node) {
     // Subject may be ambiguous (number as either id or year) but is clarified by
     // the additional keyword that is provided
     if (Parse.group.born_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooBornRecords(search_word, true)
+      hits = Pandas.searchPandaZooBornRecords(parseInt(search_word), true)
     }
     if (Parse.group.died_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooDied(search_word, 0)
+      hits = Pandas.searchPandaZooDied(parseInt(search_word), 0)
     }
     if (Parse.group.lived_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooBornLived(search_word, true)
+      hits = Pandas.searchPandaZooBornLived(parseInt(search_word), true)
     }
     if (Parse.group.zoo.includes(keyword_node.str)) {
       hits = Pandas.searchZooName(search_word)
@@ -242,7 +246,7 @@ function pair(set_node) {
   }
 }
 // The parse tree found only a single term for searching
-function single(set_node, singular_node) {
+function single(set_node: ParserNode, singular_node: ParserNode) {
   let hits = []
   const search_word = singular_node.str
   if (set_node.type == "set_subject") {

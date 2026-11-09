@@ -746,4 +746,40 @@ declare global {
     edges: DanglingEdge[],
     vertices: GraphNode[]
   }
+
+  /**
+   * Extension of the un-exported Node type from Jsleri (unrelated to Dagoba
+   * Node/Vertex objects). Adds a "type" classifier used to describe how the
+   * query resolver should do its job.
+   */
+  interface ParserNode {
+    start: number,
+    end: number,
+    type: string
+    str: string,
+    children: ParserNode[]
+    element: any,
+    parent: ParserNode,
+    [k: string]: any
+  }
+
+  /**
+   * The query.ts#resolve function returns a result object that shows both the
+   * photos or animals the search found, as well as metadata for how the parser
+   * processed the search query.
+   */
+  interface QueryResult {
+    /** String considered a constraint on the given subject search */
+    filter?: string,
+    /** Entities or photos resolved from this query */
+    hits: GraphNode[] | EnrichedPhoto[],
+    /** The raw query string */
+    query: string,
+    /** Type of query that was parsed */
+    parsed: string,
+    /** Animal ids or names that were in the query */
+    subject?: string,
+    /** Comma-delimited string of all tags in the search query */
+    tag?: string
+  }
 }

@@ -4,21 +4,6 @@ import { Defaults, Polyglots, Tags } from './lookup.ts'
 import P, { distinct, values } from './pandas.ts'
 
 /**
- * Extension of the un-exported Node type from Jsleri. Adds a "type" classifier
- * used to describe how the query resolver should do its job.
- */
-interface ParserNode {
-  start: number,
-  end: number,
-  type: string
-  str: string,
-  children: ParserNode[]
-  element: any,
-  parent: ParserNode,
-  [k: string]: any
-}
-
-/**
  * Given a search tag, find the equivalent term for that tag that is
  * standardized on in the panda files, and return results for that tag.
  * Searches all language keywords for a tag.
@@ -41,7 +26,7 @@ export function searchTag(search_tag: string) {
     if (terms.includes(search_tag))
       return key
   }
-  return undefined
+  throw new Error("TODO: search tag not found")
 }
 
 /** 
@@ -727,7 +712,7 @@ class Tree {
     if (this.grammar == undefined)
       this.build_grammar()
     if (!this.grammar || this.grammar.parse == undefined)
-      return   // TODO: THROW
+      throw new Error("TODO: search grammar failure")
     const result = this.grammar.parse(parse_input)
     let start = result.tree
     if (result.tree.hasOwnProperty("children"))

@@ -26,7 +26,7 @@ export function searchTag(search_tag) {
     if (terms.includes(search_tag))
       return key
   }
-  return undefined
+  throw new Error("TODO: search tag not found")
 }
 
 /** 

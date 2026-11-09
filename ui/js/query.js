@@ -42,11 +42,11 @@ export function result(input_string) {
   }
   // Unary search, or Keyword + Search Term, or Two Keywords
   if (set_nodes.length == 1 && singular_nodes.length == 2) {
-    return pair(set_nodes[0], singular_nodes);
+    return pair(set_nodes[0])
   }
   // Group search
   if (set_nodes.length == 1 && singular_nodes.length > 2) {
-    return group_one_set(set_nodes[0]);
+    return group_one_set(set_nodes[0])
   }
   // Filter search (set nodes inside another set)
   // Start processing based on the outer set. Decide the outer set based on
@@ -59,6 +59,12 @@ export function result(input_string) {
     )
     return filter_set(start_node)
   }
+  // Fallback empty result
+  return {
+    "hits": [],
+    "parsed": "no_results",
+    "query": input_string,
+  }
 }
 
 /**
@@ -67,7 +73,6 @@ export function result(input_string) {
  */
 function filter_set(set_node) {
   let hits = []
-  const keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
   let search_word = undefined
   let filter_word = undefined
   let parsed = set_node.type
