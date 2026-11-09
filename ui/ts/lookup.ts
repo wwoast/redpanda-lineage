@@ -98,8 +98,9 @@ type Defaults = {
   age: Record<Language, Record<string, string>>,
   animal: NodePanda,
   authors: Record<string, Record<Language, string>>,
-  date: Record<Language | "earliest_year", string>,
-  date_season: Record<Language | "earliest_year", string>,
+  date: Record<Language, string>,
+  date_season: Record<Language, string>,
+  earliest: Record<string, number>,
   gender: Record<string, Record<Language, string>>,
   languages: Language[],
   no_name: Record<Language, string>,
@@ -240,7 +241,6 @@ export const Defaults: Defaults = {
     }
   },
   date: {
-    "earliest_year": "1970",
     "en": "MM/DD/YYYY",
     "es": "DD/MM/YYYY",
     "ja": "YYYY年MM月DD日",
@@ -250,7 +250,6 @@ export const Defaults: Defaults = {
     "zh": "YYYY-MM-DD"
   },
   date_season: {
-    "earliest_year": "1970",
     "en": "SEASON YYYY",
     "es": "SEASON YYYY",
     "ja": "SEASON YYYY",
@@ -258,6 +257,9 @@ export const Defaults: Defaults = {
     "ne": "SEASON YYYY",
     "pt": "SEASON YYYY",
     "zh": "SEASON YYYY"
+  },
+  earliest: {
+    "year": 1970
   },
   gender: {
     "Female": {

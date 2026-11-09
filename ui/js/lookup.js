@@ -164,7 +164,6 @@ export const Defaults = {
     }
   },
   date: {
-    "earliest_year": "1970",
     "en": "MM/DD/YYYY",
     "es": "DD/MM/YYYY",
     "ja": "YYYY年MM月DD日",
@@ -174,7 +173,6 @@ export const Defaults = {
     "zh": "YYYY-MM-DD"
   },
   date_season: {
-    "earliest_year": "1970",
     "en": "SEASON YYYY",
     "es": "SEASON YYYY",
     "ja": "SEASON YYYY",
@@ -182,6 +180,9 @@ export const Defaults = {
     "ne": "SEASON YYYY",
     "pt": "SEASON YYYY",
     "zh": "SEASON YYYY"
+  },
+  earliest: {
+    "year": 1970
   },
   gender: {
     "Female": {

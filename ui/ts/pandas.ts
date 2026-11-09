@@ -315,7 +315,7 @@ export function searchBabies(year: string) {
   // Default search is for the most recent year we recorded a birth in
   let baby_year = P.db["_totals"]["last_born"]
   // Process whatever comes in as a year value. If > 1970, call it a year
-  if (parseInt(year) > parseInt(Defaults.date.earliest_year)) {
+  if (parseInt(year) > Defaults.earliest.year) {
     baby_year = parseInt(year)
   }
   const nodes: NodePanda[] = G.v().filter((vertex: GraphNode) => {
@@ -500,11 +500,13 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
 /** Find all pandas that died within a calendar year. */
 export function searchDead(year: string) {
   // Default search is for the most recent year we recorded a birth in
-  let died_year = P.db["_totals"]["last_died"]
+  let died_year = P.db._totals.last_died
   // Process whatever comes in as a year value. If > 1970, call it a year
-  if (parseInt(year) > parseInt(Defaults.date.earliest_year))
+  if (parseInt(year) > Defaults.earliest.year)
     died_year = parseInt(year)
   const nodes = G.v().filter((vertex: GraphNode) => {
+    if (vertex.type != "panda") return false
+    if (!vertex.death) return false
     const their_date = new Date(vertex.death)
     const their_year = their_date.getFullYear()
     return their_year == died_year
@@ -519,7 +521,9 @@ export function searchDiedList(input_date: string) {
     died_date_ymd["year"] = died_date_ymd["year"] + 2000
   const nodes = G.v()
     .filter((vertex: GraphNode) => {
-      if (vertex.photos.length == 0) return false
+      if (vertex.type != "panda") return false
+      if (!vertex.death) return false
+      if (!vertex.photos || vertex.photos.length == 0) return false
       const their_date = new Date(vertex.death)
       const their_date_ymd = date_to_ymd(their_date)
       return date_ymd_compare(their_date_ymd, died_date_ymd)
