@@ -442,27 +442,27 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   // in case we don't have any litter birthdays
   let chosen_year = -1
   let chosen_id = -1
-  let chosen_litter_ids = []
+  let chosen_litter_ids: number[] = []
   if (has_litters.length > 0) {
     // TODO: ONLY ONE SET OF LITTERS IN THE BIRTHDAY FRONT PAGE. :/ Refactor.
     chosen_id = randomChoice(has_litters, 1)[0]
     const chosen_animal = searchPandaId(chosen_id)[0]
     chosen_litter_ids = searchLitter(chosen_id)
-      .filter(function(x) {
-        return x.birthday = chosen_animal.birthday
-      }).filter(function(vertex) {
+      .filter((vertex: NodePanda) => vertex.birthday == chosen_animal.birthday)
+      .filter((vertex: NodePanda) => {
         // Filter out any animals in litters are passed away
         if (keep_living == true) {
           return (vertex.death == undefined)
         } else {
           return true   // Get everyone
         }        
-      }).map(x => x._id)
+      })
+      .map(x => x._id)
     chosen_litter_ids.unshift(chosen_id)
     chosen_year = parseInt(chosen_animal.birthday.split("/")[0])
   }
   // Insert the litter mate into the list next to their sibling.
-  let s2_ids = []
+  let s2_ids: number[] = []
   const after_litter = []
   let remaining_count = max_count - chosen_litter_ids.length
   if (no_litters.length < remaining_count) {
@@ -964,7 +964,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       return vertex
     })
   }
-  nodes = sortByDate(nodes, "sort_time", "ascending")
+  nodes = sortByDate(nodes, "sort_time", "ascending") as NodePanda[]
   return nodes
 }
 

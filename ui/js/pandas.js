@@ -431,16 +431,16 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
     chosen_id = randomChoice(has_litters, 1)[0]
     const chosen_animal = searchPandaId(chosen_id)[0]
     chosen_litter_ids = searchLitter(chosen_id)
-      .filter(function(x) {
-        return x.birthday = chosen_animal.birthday
-      }).filter(function(vertex) {
+      .filter(vertex => vertex.birthday == chosen_animal.birthday)
+      .filter(vertex => {
         // Filter out any animals in litters are passed away
         if (keep_living == true) {
           return (vertex.death == undefined)
         } else {
           return true   // Get everyone
         }        
-      }).map(x => x._id)
+      })
+      .map(x => x._id)
     chosen_litter_ids.unshift(chosen_id)
     chosen_year = parseInt(chosen_animal.birthday.split("/")[0])
   }
