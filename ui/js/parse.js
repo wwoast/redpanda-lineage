@@ -588,9 +588,9 @@ class Tree {
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_id)
     // Groups of tags or keywords or unary items
     const c_k_group_ids = Repeat(r_id)
-    const c_k_group_tags = Repeat(Choices(group.tags, 2))
-    const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags, 2)), r_name)
-    const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags, 2)), r_id)
+    const c_k_group_tags = Repeat(Choices(group.tags), 2)
+    const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags), 2), r_name)
+    const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags), 2), r_id)
     // Binary keywords
     // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries

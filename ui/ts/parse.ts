@@ -3,6 +3,17 @@ import { capitalNames } from './language.ts'
 import { Defaults, Polyglots, Tags } from './lookup.ts'
 import P, { distinct, values } from './pandas.ts'
 
+interface ParserNode {
+  start: number,
+  end: number,
+  type: string
+  str: string,
+  children: ParserNode[]
+  element: any,
+  parent: ParserNode,
+  [k: string]: any
+}
+
 /**
  * Given a search tag, find the equivalent term for that tag that is
  * standardized on in the panda files, and return results for that tag.
@@ -598,9 +609,9 @@ class Tree {
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_id)
     // Groups of tags or keywords or unary items
     const c_k_group_ids = Repeat(r_id)
-    const c_k_group_tags = Repeat(Choices(group.tags, 2))
-    const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags, 2)), r_name)
-    const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags, 2)), r_id)
+    const c_k_group_tags = Repeat(Choices(group.tags), 2)
+    const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags), 2), r_name)
+    const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags), 2), r_id)
     // Binary keywords
     // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries
@@ -641,7 +652,7 @@ class Tree {
    * where the query resolution code should do graph searches and build sets of
    * results to display.
    */
-  classify(tree) {
+  classify(tree: ParserNode) {
     const subject_nodes = this.filter(tree, this.tests.subject)
     const keyword_nodes = this.filter(tree, this.tests.keyword)
     if (subject_nodes.length == 1 && keyword_nodes.length == 0) {
@@ -655,7 +666,7 @@ class Tree {
     }
   }
 
-  classify_keyword_only(keyword_node) {
+  classify_keyword_only(keyword_node: ParserNode) {
     if (keyword_node.type == "tag") {
       keyword_node.parent.type = "set_tag"
     } else {
@@ -663,11 +674,11 @@ class Tree {
     }
   }
 
-  classify_subject_only(subject_node) {
+  classify_subject_only(subject_node: ParserNode) {
     subject_node.parent.type = "set_subject"
   }
 
-  classify_plural(plural_nodes) {
+  classify_plural(plural_nodes: ParserNode[]) {
     // Get the container nodes, and classify those values
     const container_nodes = plural_nodes
       .map(n => this.walk_to_subject_container(n))
@@ -679,27 +690,14 @@ class Tree {
     }
   }
 
-  /** Flatten results from something in a tree like form, to an array */
-  flatten(input: any[]) {
-    const array = []
-    while(input.length) {
-      const value = input.shift()
-      if (Array.isArray(value))
-        input = value.concat(input)
-      else
-        array.push(value)
-    }
-    return array
-  }
-
   /**
    * Filter all nodes of a tree and return a list of nodes that match a given
    * condition that we care about. Tests are an array of dict, and each dict
    * has field names and values. If any one of the tests match, it's a node we
    * want.
    */
-  filter(node, tests) {
-    let results = []
+  filter(node: ParserNode, tests: Record<string, string>[]) {
+    let results: ParserNode[] = []
     outer: for (const test of tests) {
       for (const field in test) {
         if (node.hasOwnProperty(field)) {
@@ -712,9 +710,9 @@ class Tree {
       }
     }
     // Do my children match?
-    results = results.concat(node.children.map(c =>
+    results = results.concat(node.children.flatMap(c =>
       this.filter(c, tests)))
-    return this.flatten(results)
+    return results
   }
 
   /** 
@@ -739,22 +737,22 @@ class Tree {
   }
 
   /** Convert jsleri parse tree to our desired format, one child at a time */
-  get_children(children) {
-    return children.map(c =>
+  get_children(children: ParserNode[]) {
+    return children.map((c: ParserNode) =>
       this.node_props(c, this.get_children(c.children)))
   }
 
   /** 
    * Add parent node connectivity to the tree after the basic tree is generated
    */
-  link_parents(current) {
-    current.children.forEach(c => c['parent'] = current)
+  link_parents(current: ParserNode) {
+    current.children.forEach(c => c.parent = current)
     current.children.forEach(c => this.link_parents(c))
   }
 
   /** Define our ideal tree node, using jsleri's as a base */
-  node_props(node, children) {
-    return {
+  node_props(node: ParserNode, children: ParserNode[]) {
+    return <ParserNode>{
       'start': node.start,
       'end': node.end,
       'type': this.node_type(node, children),
@@ -767,7 +765,7 @@ class Tree {
    * Identify the nodes by simple types, for later processing into query sets.
    * This is the first-level of parse-tree node identification.
    */
-  node_type(node, children) {
+  node_type(node: ParserNode, children: ParserNode[]) {
     if (children == undefined)
       return   // No need to update anything
     if (children.length != 0)
@@ -795,7 +793,7 @@ class Tree {
    * their children. Figure out what a node is based on its composite types.
    * This is the second-level of parse-tree node identification.
    */
-  node_type_composite_ids(node) {
+  node_type_composite_ids(node: ParserNode) {
     const singulars = this.filter(node, this.tests.singular).map(n => n.type).sort()
     if (singulars.length == 1)
       return "contains"
@@ -843,7 +841,7 @@ class Tree {
    * is parsed as a type or a tag, disambiguating. This is the third-level of
    * parse-tree node identification.
    */
-  node_type_specific_ids(container_node, value_nodes) {
+  node_type_specific_ids(container_node: ParserNode, value_nodes: ParserNode[]) {
     if (container_node.type == "set_keywords") {
       const keywords = value_nodes.map(n => n.str)
       // Many keyword combinations will not have valid results, but we want to
@@ -932,7 +930,7 @@ class Tree {
    * parsed that subject in context of another keyword. Re-classify any nodes
    * you run into along the way.
    */
-  walk_to_subject_container(node) {
+  walk_to_subject_container(node: ParserNode): ParserNode {
     const parent_type = this.node_type_composite_ids(node.parent)
     node.parent.type = parent_type   // Set parent node types as we walk
     if (parent_type.indexOf("contains") == 0) {
