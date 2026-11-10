@@ -1709,9 +1709,12 @@ function locatorToPhoto(locator) {
 
 /** Given an animal and a chosen language, return details for a red panda. */
 export function myName(animal) {
-  return (!animal.name || animal.name[Env.language] == undefined)
-    ? Defaults.animal.name[Env.language]
-    : animal.name[Env.language]
+  if (!animal.name)
+    return Defaults.animal.name[Env.language]
+  else if (animal.name[Env.language] == undefined)
+    return Language.fallback_name(animal)
+  else
+    return animal.name[Env.language]
 }
 
 /** 

@@ -429,7 +429,7 @@ export function editDistance(a: string, b: string) {
  * to determine the most relevant available name for the animal shown, even if
  * it's not in the current display language.
  */
-export function fallback_name(entity: NodePanda): string {
+export function fallback_name(entity: PhotoGraphNode): string {
   const entity_order = entity["language.order"]
   const order = currentOrder(entity_order, Env.language)
   order.unshift(Env.language)   // Display language always comes first
@@ -440,7 +440,16 @@ export function fallback_name(entity: NodePanda): string {
   }
   // Fallback default name in the type system isn't guaranteed to exist, but
   // it is on the Default.animal.name object, so this should never coalesce.
-  return Defaults.animal.name[Env.language] ?? ""
+  switch (entity.type) {
+    case "panda":
+      return Defaults.animal.name[Env.language] ?? ""
+    case "wild":
+      return Defaults.wild.name[Env.language] ?? ""
+    case "zoo":
+      return Defaults.zoo.name[Env.language] ?? ""
+    default:
+      return Defaults.unknown[Env.language] ?? ""
+  }
 }
 
 /**

@@ -424,9 +424,18 @@ export function fallback_name(entity) {
     if (name != undefined)
       return name 
   }
-  // Fallback default name
-  return Defaults.animal.name[Env.language]
-}
+  // Fallback default name in the type system isn't guaranteed to exist, but
+  // it is on the Default.animal.name object, so this should never coalesce.
+  switch (entity.type) {
+    case "panda":
+      return Defaults.animal.name[Env.language] ?? ""
+    case "wild":
+      return Defaults.wild.name[Env.language] ?? ""
+    case "zoo":
+      return Defaults.zoo.name[Env.language] ?? ""
+    default:
+      return Defaults.unknown[Env.language] ?? ""
+  }}
 
 /**
  * For Japanese language searches, whenever a hiragana string is searched, we

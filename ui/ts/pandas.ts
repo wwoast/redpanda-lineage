@@ -1756,11 +1756,13 @@ function locatorToPhoto(locator: string) {
 }
 
 /** Given an animal and a chosen language, return details for a red panda. */
-export function myName(animal: NodePanda | NodeZoo | NodeWild) {
-  return (!animal.name || animal.name[Env.language] == undefined)
-    ? Defaults.animal.name[Env.language]
-    : animal.name[Env.language]
-}
+export function myName(entity: NodePanda | NodeZoo | NodeWild) {
+  if (!entity.name)
+    return Defaults.animal.name[Env.language]
+  else if (entity.name[Env.language] == undefined)
+    return Language.fallback_name(entity)
+  else
+    return entity.name[Env.language]}
 
 /** 
  * Given an animal and a field name, return wild location info. Though wild
