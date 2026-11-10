@@ -1108,11 +1108,10 @@ export function searchPhotoCredit(author: string, filter_ids: (number|string)[] 
   const photoTypes = ["media", "panda", "wild", "zoo"]
   const nodes = G.v()
     .filter((vertex: GraphNode) => photoTypes.includes(vertex.type))
-    .filter((vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) =>
-      vertex.photos.length > 0)
-    .filter((vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) =>
+    .filter((vertex: PhotoGraphNode) => vertex.photos.length > 0)
+    .filter((vertex: PhotoGraphNode) =>
       vertex.photos.some(photo => photo.author == author))
-    .filter((vertex: NodeMedia | NodePanda | NodeWild | NodeZoo) => {
+    .filter((vertex: PhotoGraphNode) => {
       if (filter_ids.length == 0)
         return true
       else
@@ -1527,11 +1526,11 @@ export function gender(animal: NodePanda) {
  */
 export function groupMediaCaption(entity: NodeMedia, photo: Photo | EnrichedPhoto) {
   const pandaTags = entity["panda.tags"]
-  let output_string = Defaults.animal.name[Env.language]
+  let output_string = Defaults.animal.name[Env.language] ?? ""
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
-    const panda = searchPandaId(parseInt(id))[0]
+    const panda = searchPandaId(parseInt(id))[0] as NodePanda
     const [x, y] = photo.coordinates[id]
     const name = Language.fallback_name(panda)
     const info = {
@@ -1562,7 +1561,7 @@ export function groupMediaCaption(entity: NodeMedia, photo: Photo | EnrichedPhot
   }
   // Replace "baby, baby, baby" with group term
   if ((values(Polyglots["baby"]).includes(animals[0].name)) &&
-      (unique(animals, "name").length == 1)) {
+      (uniqueField(animals, "name").length == 1)) {
     output_string = Gui["babies"][Env.language]
   }
   // TODO: replace "baby, baby & mom" with "babies & mom"
@@ -1725,7 +1724,7 @@ function locatorToPhoto(locator: string) {
   // Given the entity type, convert to the proper media/panda/zoo
   const entity_type = parts[0]
   let entity_id = undefined
-  let entity: NodeMedia | NodePanda | NodeWild | NodeZoo
+  let entity: PhotoGraphNode
   // TODO: we don't do locators for wild photos on the front page but ideally
   // this code should be able to handle that situation
   if (entity_type == "media") {
@@ -1738,7 +1737,7 @@ function locatorToPhoto(locator: string) {
   }
   else {
     entity_id = parseInt(parts[1])
-    entity = searchPandaId(entity_id)[0]
+    entity = searchPandaId(entity_id)[0] as NodePanda
   }
   // Get the photo for this entity
   // Turn the natural number index to an array index

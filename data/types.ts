@@ -451,7 +451,10 @@ declare global {
     "country.name": string
   }
 
+  /** Any item in our redpanda-lineage Dagoba graph */
   type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo
+
+  /** Any item with photos in the redpanda-lineage Dagoba graph */
   type PhotoGraphNode = Exclude<GraphNode, NodeLinks | NodeNone | NodePhoto>
 
   /**

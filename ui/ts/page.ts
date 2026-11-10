@@ -1033,7 +1033,7 @@ class Routes {
       query_string = `panda ${panda}`
     } else if ((input.indexOf("#group") == 0) &&
                (input.split("/").length >= 2) &&
-               (input.split("/").length <= P.db["_photo"]["group_max"] + 1)) {
+               (input.split("/").length <= P.db._photo.group_max + 1)) {
       // group display modes (just searching multiple ids for now)
       const id_list = input.slice(7).split("/")
       Env.output_mode = "group"

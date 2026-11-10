@@ -359,7 +359,7 @@ class Lexer {
       .filter(kw => word_filter(kw, "keywords")).sort()
     this.terms.tags.list = group.tags
       .filter(tag => word_filter(tag, "tags")).sort()
-    this.terms.names.list = P.db['_lexer'].names
+    this.terms.names.list = P.db._lexer.names
       .filter(name => word_filter(name, "names")).sort()
   }
 

@@ -283,10 +283,7 @@ export function toPandas(accumulator: NodePanda[], vertex: Vertex) {
   return accumulator
 }
 
-export function toPhotoEntities(
-  accumulator: (NodeMedia | NodePanda | NodeWild | NodeZoo)[],
-  vertex: Vertex
-) {
+export function toPhotoEntities(accumulator: PhotoGraphNode[], vertex: Vertex) {
   if (vertex.type == 'media')
     accumulator.push(vertex as NodeMedia)
   else if (vertex.type == 'panda')

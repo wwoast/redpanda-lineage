@@ -397,15 +397,15 @@ export function condenseDogEar(nav: HTMLSpanElement) {
 }
 
 /** `pandaPhotoCredits` and `zooPhotoCredits`, interleaved as results */
-export function creditPhotos(results, max_hits: number) {
+export function creditPhotos(results: QueryResult, max_hits: number) {
   const photo_results = creditPhotosPage(0, results, max_hits)
   const content_divs = photo_results["output"]
   const photo_count = photo_results["hit_count"]
   // Write some HTML with summary information for the user and the photo count
-  const header = (results["filter"] != undefined)
+  const header = (results.filter != undefined)
     ? Message.creditSingleFilter(
-        results["subject"], results["filter"], photo_count)
-    : Message.credit(results["subject"], photo_count)
+        results.subject, results.filter, photo_count)
+    : Message.credit(results.subject, photo_count)
   content_divs.unshift(header)
   return content_divs
 }
@@ -417,7 +417,7 @@ export function creditPhotos(results, max_hits: number) {
  * TODO: `zooPhotoCredits` and `pandaPhotoCredits` shouldn't return divs yet,
  * to prevent loading the entire image set each time you only want `set/N`
  */
-function creditPhotosPage(page: number, results, max_hits: number) {
+function creditPhotosPage(page: number, results: QueryResult, max_hits: number) {
   let content_divs: HTMLDivElement[] = []
   const initial_max_hits = max_hits
   // We must unspool the results because each entity we query here can have
@@ -857,7 +857,7 @@ export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], p
  * that match the username that was searched. Used for making reports of all
  * the photos in the website contributed by a single author.
  */
-function nodePhotoCredits(node: NodeMedia | NodePanda | NodeWild | NodeZoo, credit: string) {
+function nodePhotoCredits(node: PhotoGraphNode, credit: string) {
   const photos: EnrichedPhoto[] = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
@@ -892,13 +892,13 @@ function pandaPhotoCreditSingle(photo: EnrichedPhoto) {
   const caption = document.createElement('h5')
   caption.className = "caption pandaName"
   if (photo.type == "media") {
-    const entity = Pandas.searchPandaId(id)[0]
+    const entity = Pandas.searchPandaId(id)[0] as NodeMedia
     caption.innerText = Pandas.groupMediaCaption(entity, photo)
     const panda_route = entity["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
     // TODO ES6: handle non-panda photos
-    const animal = Pandas.searchPandaId(id)[0]
+    const animal = Pandas.searchPandaId(id)[0] as NodePanda
     const info = Show.acquirePandaInfo(animal)
     caption.innerText = info.name
     caption_link.href = `#panda/${id}/photo/${photo.index}`
@@ -966,10 +966,11 @@ function tagPhotosPage(
   // Redraw footer to update the paging button
   Page.footer.redraw("results")
   for (const photo of page_results) {
-    if (photo.index != "0")   // Not a null photo result
+    if (photo.index != 0)   // Not a null photo result
       content_divs = content_divs.concat(tagPhotoSingle(photo, add_emoji))
-    else
-      page_results.pop(page_results.indexOf(photo))
+    else {
+      page_results.splice(page_results.indexOf(photo), 1)
+    }
   }
   return {
     "output": content_divs
@@ -980,29 +981,29 @@ function tagPhotosPage(
  * Logic to determine which message to display inside the photo gallery of
  * tagged photos
  */
-function tagPhotoMessage(results, hit_count: number) {
+function tagPhotoMessage(results: QueryResult, hit_count: number) {
   let header = undefined
   if (hit_count == 0) {
     header = Show.emptyResult(Message.Text.no_subject_tag_result)
-  } else if ((results["parsed"] == "set_tag") ||
-             (results["parsed"] == "set_tag_subject")) {
-    const tag = results["tag"] != undefined ? results["tag"] : results["query"]
+  } else if ((results.parsed == "set_tag") ||
+             (results.parsed == "set_tag_subject")) {
+    const tag = results["tag"] != undefined ? results.tag : results.query
     const ctag = Language.tagPrimary(tag)
-    header = Message.tag_subject(hit_count, results["subject"],
+    header = Message.tag_subject(hit_count, results.subject,
                                  Tags[ctag]["emoji"], 
                                  ctag)
   } else if (results["parsed"] == "set_baby_subject") {
-    const tag = results["tag"] != undefined ? results["tag"] : results["query"]
+    const tag = results["tag"] != undefined ? results.tag : results.query
     const ctag = Language.tagPrimary(tag)
-    header = Message.tag_subject(hit_count, results["subject"],
+    header = Message.tag_subject(hit_count, results.subject,
                                  Polyglots[ctag]["emoji"], 
                                  ctag)
   } else if (results["parsed"] == "set_tag_intersection") {
-    const tag = results["tag"] != undefined ? results["tag"] : results["query"]
+    const tag = results["tag"] != undefined ? results.tag : results.query
     const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else if (results["parsed"] == "set_tag_intersection_subject") {
-    const tag = results["tag"] != undefined ? results["tag"] : results["query"]
+    const tag = results["tag"] != undefined ? results.tag : results.query
     const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else {
@@ -1014,7 +1015,7 @@ function tagPhotoMessage(results, hit_count: number) {
 /** Take a photo that matches a tag, and display it along with the tag emoji */
 function tagPhotoSingle(photo: EnrichedPhoto, add_emoji: boolean) {
   const content_divs = []
-  const node = Pandas.searchPandaId(photo._id)[0]   // animal or media
+  const node = Pandas.searchPandaId(photo._id)[0] as NodeMedia | NodePanda
   const img_link = document.createElement('a')
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
@@ -1083,7 +1084,7 @@ export function updatedNewPhotoCredits(photo_count=7) {
     if ("classes" in photo)
       for (let caption_class of photo.classes)
         caption.classList.add(caption_class)
-    const node = Pandas.searchPandaId(photo._id)[0]
+    const node = Pandas.searchPandaId(photo._id)[0] as NodeMedia | NodePanda
     let updateName = undefined
     if (photo.type == "media") {
       updateName = Pandas.groupMediaCaption(node, photo)
@@ -1127,7 +1128,7 @@ function updatedPhotoOrdering(photo_count: number) {
   // New zoo photos. Include only if there are current pandas at this zoo
   // that have at least one photo. Take no more zoo photos than we have
   // budgeted to show in this section
-  const zoo_locators = P.db["_updates"].entities
+  const zoo_locators = P.db._updates.entities
     .filter(locator => locator.indexOf("zoo.") == 0)
   const zoo_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(zoo_locators), "_id")
     .filter(function(photo) {
@@ -1140,7 +1141,7 @@ function updatedPhotoOrdering(photo_count: number) {
   let zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count)
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen)
   // Photos from new contributors just for pandas, not for zoos
-  const author_locators = P.db["_updates"].authors
+  const author_locators = P.db._updates.authors
   const author_photos_all = Pandas.locatorsToPhotos(author_locators)
     .filter(function(photo) {
       return (!Object.keys(Defaults.authors).includes(photo.author))
@@ -1155,7 +1156,7 @@ function updatedPhotoOrdering(photo_count: number) {
   }
   author_chosen = Pandas.sortPhotosByName(author_chosen)
   // Photos of newly introduced pandas
-  const new_panda_locators = P.db["_updates"].entities
+  const new_panda_locators = P.db._updates.entities
     .filter(locator => locator.indexOf("panda.") == 0)
     .filter(locator => (!author_locators.includes(locator)))
   const new_panda_photos = 
@@ -1166,14 +1167,14 @@ function updatedPhotoOrdering(photo_count: number) {
   let new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count)
   new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen)
   // New pandas, or new panda group photos
-  const panda_locators = P.db["_updates"].entities
+  const panda_locators = P.db._updates.entities
     .filter(locator => (!zoo_locators.includes(locator)))
   const panda_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(panda_locators), "_id")
   // Remaining new photos for exisitng pandas. If any photo locators also describe 
   // a new author/new entity, only display those in their own section. Filter them out here.
-  const update_locators = P.db["_updates"].photos
-    .filter(locator => (!P.db["_updates"].entities.includes(locator)))
-    .filter(locator => (!P.db["_updates"].authors.includes(locator)))
+  const update_locators = P.db._updates.photos
+    .filter(locator => (!P.db._updates.entities.includes(locator)))
+    .filter(locator => (!P.db._updates.authors.includes(locator)))
     .filter(locator => (!locator.includes("zoo.")))
   let update_photos =
     Pandas.uniqueField(Pandas.locatorsToPhotos(update_locators), "_id")

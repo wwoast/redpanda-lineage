@@ -1092,7 +1092,7 @@ function updatedPhotoOrdering(photo_count) {
   // New zoo photos. Include only if there are current pandas at this zoo
   // that have at least one photo. Take no more zoo photos than we have
   // budgeted to show in this section
-  const zoo_locators = P.db["_updates"].entities
+  const zoo_locators = P.db._updates.entities
     .filter(locator => locator.indexOf("zoo.") == 0)
   const zoo_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(zoo_locators), "_id")
     .filter(function(photo) {
@@ -1105,7 +1105,7 @@ function updatedPhotoOrdering(photo_count) {
   let zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count)
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen)
   // Photos from new contributors just for pandas, not for zoos
-  const author_locators = P.db["_updates"].authors
+  const author_locators = P.db._updates.authors
   const author_photos_all = Pandas.locatorsToPhotos(author_locators)
     .filter(function(photo) {
       return (!Object.keys(Defaults.authors).includes(photo.author))
@@ -1120,7 +1120,7 @@ function updatedPhotoOrdering(photo_count) {
   }
   author_chosen = Pandas.sortPhotosByName(author_chosen)
   // Photos of newly introduced pandas
-  const new_panda_locators = P.db["_updates"].entities
+  const new_panda_locators = P.db._updates.entities
     .filter(locator => locator.indexOf("panda.") == 0)
     .filter(locator => (!author_locators.includes(locator)))
   const new_panda_photos = 
@@ -1131,14 +1131,14 @@ function updatedPhotoOrdering(photo_count) {
   let new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count)
   new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen)
   // New pandas, or new panda group photos
-  const panda_locators = P.db["_updates"].entities
+  const panda_locators = P.db._updates.entities
     .filter(locator => (!zoo_locators.includes(locator)))
   const panda_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(panda_locators), "_id")
   // Remaining new photos for exisitng pandas. If any photo locators also describe 
   // a new author/new entity, only display those in their own section. Filter them out here.
-  const update_locators = P.db["_updates"].photos
-    .filter(locator => (!P.db["_updates"].entities.includes(locator)))
-    .filter(locator => (!P.db["_updates"].authors.includes(locator)))
+  const update_locators = P.db._updates.photos
+    .filter(locator => (!P.db._updates.entities.includes(locator)))
+    .filter(locator => (!P.db._updates.authors.includes(locator)))
     .filter(locator => (!locator.includes("zoo.")))
   let update_photos =
     Pandas.uniqueField(Pandas.locatorsToPhotos(update_locators), "_id")
