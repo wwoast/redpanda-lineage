@@ -324,7 +324,8 @@ class FooterComponent {
         ? Show.profileMenus.bottom.render()
         : Show.resultsMenus.bottom.render()
       // If bottom menu isn't there, add it
-      if (footer_test.previousElementSibling.id != "pageBottom")
+      if (footer_test.previousElementSibling &&
+          footer_test.previousElementSibling.id != "pageBottom")
         body.insertBefore(bottomMenu, footer_test)
       // Replace footer menu itself
       body.replaceChild(footer, footer_test)
@@ -683,7 +684,7 @@ class MediaPage {
     shrinkNames()
     Show.mediaMenus.language()
     const result_id = results["hits"][0]._id
-    Show.mediaMenus.top.render(result_id)
+    Show.mediaMenus.top.render(result_id.toString())
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -804,20 +805,20 @@ export const profile = new ProfilePage()
  */
 class ResultsPage {
   /** Given a search for pandas or zoos, output entity divs */
-  entities(results) {
-    let content_divs = []
+  entities(results: QueryResult) {
+    let content_divs: HTMLDivElement[] = []
     if (results["hits"].length == 0) {
       // No results? On desktop, bring up a sad panda
       content_divs.push(Show.emptyResult(Message.Text.no_result))
     }
-    results["hits"].forEach(function(entity) {
+    results["hits"].map(entity => entity as PhotoGraphNode).forEach(entity => {
       // Zoos get the Zoo div and pandas for this zoo
-      if (entity._id < 0) {
+      if (entity.type == "zoo") {
         content_divs.push(Show.resultsPage.zoo(entity))
         content_divs = content_divs.concat(
           Show.resultsPage.zooAnimals(entity))
         content_divs.push(Show.zooDivider("bear-bamboo"))
-      } else
+      } else if (entity.type == "panda")
         content_divs.push(Show.resultsPage.panda(entity))
     })
     // Remove the last element if it's a divider
@@ -834,8 +835,8 @@ class ResultsPage {
    * for names due to space/tokenizing and name resolution issues for duplicate
    * names... that will be much more work!
    */
-  group(results) {
-    let content_divs = []
+  group(results: QueryResult) {
+    let content_divs: HTMLDivElement[] = []
     if (results["hits"].length == 0) {
       // Push an error message
       content_divs.push(Show.emptyResult(Message.Text.no_group_media_result))
@@ -850,7 +851,7 @@ class ResultsPage {
     // Give a list of results for each individual animal
     const animal_results = []
     for (const id of animal_ids) {
-      const entity = Pandas.searchPandaId(id)[0]
+      const entity = Pandas.searchPandaId(id)[0] as NodePanda
       animal_results.push(Show.resultsPage.panda(entity))
     }
     // Let some photos appear first, unless we don't have very many photos

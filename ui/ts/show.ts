@@ -2381,7 +2381,7 @@ export const resultsPage = {
     if (info.zoo != undefined && search_context == "born_or_lived" ) {
       const zoo = document.createElement('p')
       const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
-      const target_date = Pandas.formatDate(info.search_context.move_date)
+      const target_date = Pandas.formatDate(info.search_context.move_date)   // TODO: ??
       let icon = Emoji.zoo
       const target_text = target_zoo.name[Env.language]
       const compare_text = info.zoo.name[Env.language]

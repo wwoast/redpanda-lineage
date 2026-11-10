@@ -671,10 +671,10 @@ function groupPhotoSingle(entityPhoto) {
   // Put it all in a frame
   const container = document.createElement('div')
   container.className = "photoSample"
-  if ((imgUrl.indexOf("/l") == imgUrl - 2) && 
+  if ((imgUrl.indexOf("/l") == imgUrl.length - 2) && 
       (imgUrl.indexOf("ig://") == 0)) {
     container.classList.add("halfPage")
-  } else if ((imgUrl.indexOf("/m") == imgUrl - 2) &&
+  } else if ((imgUrl.indexOf("/m") == imgUrl.length - 2) &&
              (imgUrl.indexOf("ig://") == 0)) {
     container.classList.add("quarterPage")
   } else if (imgUrl.indexOf("ig://") == -1) {
@@ -965,11 +965,11 @@ function tagPhotoMessage(results, hit_count) {
                                  ctag)
   } else if (results["parsed"] == "set_tag_intersection") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
-    const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
+    const emojis = tag.split(", ").flatMap(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     const tag = results["tag"] != undefined ? results["tag"] : results["query"]
-    const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
+    const emojis = tag.split(", ").flatMap(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else {
     header = Show.emptyResult(Message.Text.no_subject_tag_result)

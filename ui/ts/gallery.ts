@@ -93,7 +93,7 @@ export class Carousel {
     // Fill in details of the image we are displaying
     if (photoUrl == undefined) {
       image.src = this.fallback_url
-    } else if (id.includes("_")) {
+    } else if (id.toString().includes("_")) {   // TODO: all ids as string
       // HACK: passing carousel id from touch handlers
       image.id = `${id}/photo/${index}`
       image.className = `${id}/photo`
@@ -536,6 +536,11 @@ export function familyProfilePhoto(
   return container
 }
 
+type GroupPhoto = {
+  entity: NodeMedia | NodePanda,
+  photo: Photo
+}
+
 /**
  * Get media photos (of two or more animals), which include a particular
  * animal. Return a set of divs that includes both images and the titles
@@ -548,7 +553,7 @@ function groupPhotos(id_list: string[]) {
     for (const entity of entities) {
       const photos = entity.photos
       for (const photo of photos) {
-        photo_list.push({
+        photo_list.push(<GroupPhoto>{
           "entity": entity,
           "photo": photo
         })
@@ -563,7 +568,7 @@ function groupPhotos(id_list: string[]) {
  * in general, I figure this is OK to write in terms of the older groupPhotos
  * which parses all photos and writes name tags and such.
  */
-export function groupPhotosPage(page, id_list: string[], photo_count: number) {
+export function groupPhotosPage(page: number, id_list: string[], photo_count: number) {
   const initial_photo_count = photo_count
   if (page == 0 && Env.paging.shown_pages > 1) { 
     // Refresh, but show more than just the normal photo_count
@@ -622,7 +627,7 @@ function groupPhotosIntersect(id_list: string[]) {
  * the entire list of animals in the id_list. This is a callback that has to
  * conform to the other group*Page function arity.
  */
-export function groupPhotosIntersectPage(page, id_list: string[], photo_count: number) {
+export function groupPhotosIntersectPage(page: number, id_list: string[], photo_count: number) {
   const initial_photo_count = photo_count
   // Refresh, but show more than just the normal photo_count
   if (page == 0 && Env.paging.shown_pages > 1)
@@ -656,7 +661,7 @@ export function groupPhotosIntersectPage(page, id_list: string[], photo_count: n
   }
 }
 
-function groupPhotoSingle(entityPhoto: NodeMedia) {
+function groupPhotoSingle(entityPhoto: GroupPhoto) {
   // TOWRITE: image styles based on url being medium or large
   const imgUrl = entityPhoto.photo.url
   const img_link = document.createElement('a')
@@ -671,7 +676,7 @@ function groupPhotoSingle(entityPhoto: NodeMedia) {
   caption_names.className = "caption groupMediaName"
   const caption_names_span = document.createElement('span')
   caption_names_span.innerText =
-    Pandas.groupMediaCaption(entityPhoto.entity, entityPhoto.photo)
+    Pandas.groupMediaCaption(entityPhoto.entity as NodeMedia, entityPhoto.photo)
   caption_names.appendChild(caption_names_span)
   const caption_names_link = document.createElement('a')
   const panda_route = entityPhoto.entity["panda.tags"].join("/")
@@ -690,10 +695,10 @@ function groupPhotoSingle(entityPhoto: NodeMedia) {
   // Put it all in a frame
   const container = document.createElement('div')
   container.className = "photoSample"
-  if ((imgUrl.indexOf("/l") == imgUrl - 2) && 
+  if ((imgUrl.indexOf("/l") == imgUrl.length - 2) && 
       (imgUrl.indexOf("ig://") == 0)) {
     container.classList.add("halfPage")
-  } else if ((imgUrl.indexOf("/m") == imgUrl - 2) &&
+  } else if ((imgUrl.indexOf("/m") == imgUrl.length - 2) &&
              (imgUrl.indexOf("ig://") == 0)) {
     container.classList.add("quarterPage")
   } else if (imgUrl.indexOf("ig://") == -1) {
@@ -805,9 +810,9 @@ export function memorialPhotoCredits(
  */
 export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], photo_count=5) {
   const memorial_div = document.createElement('div')
-  const group = Pandas.searchPandaId(group_id)[0]
+  const group = Pandas.searchPandaId(group_id)[0] as NodeMedia
   const id_link_string = id_list.join("/")
-  const name_list = id_list.map(x => Pandas.searchPandaId(x)[0])
+  const name_list = id_list.map(x => Pandas.searchPandaId(x)[0] as NodePanda)
                            .map(x => Language.fallback_name(x))
   const name_string = Language.commaPhraseBare(name_list)
   const message = Message.memorialGroup(name_string, id_link_string)
@@ -1000,11 +1005,11 @@ function tagPhotoMessage(results: QueryResult, hit_count: number) {
                                  ctag)
   } else if (results["parsed"] == "set_tag_intersection") {
     const tag = results["tag"] != undefined ? results.tag : results.query
-    const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
+    const emojis = tag.split(", ").flatMap(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     const tag = results["tag"] != undefined ? results.tag : results.query
-    const emojis = tag.split(", ").map(tag => Tags[tag]["emoji"])
+    const emojis = tag.split(", ").flatMap(tag => Tags[tag]["emoji"])
     header = Message.tag_combo(hit_count, emojis)
   } else {
     header = Show.emptyResult(Message.Text.no_subject_tag_result)
@@ -1198,7 +1203,7 @@ function updatedPhotoOrdering(photo_count: number) {
       zoo_photo.credit_icon = Emoji.giftwrap   // new panda and author!
     }
     // Give it giftwrap if only one photo attributed to this author
-    if (P.db._photo.credit[zoo_photo.credit] == 1) {
+    if (P.db._photo.credit[zoo_photo.author] == 1) {
       zoo_photo.credit_icon = Emoji.giftwrap
     }
     const class_list = ["zoo", zoo_classes[zoo_class_index % zoo_classes.length]]
@@ -1211,8 +1216,8 @@ function updatedPhotoOrdering(photo_count: number) {
       .filter(function(panda) {
         // If the commitdate of the animal isn't recent, it's not new and
         // shouldn't be listed in the new zoo info, or with a heart panel
-        const currenttime = new Date()
-        const commitdate = Pandas.searchPandaId(panda._id)[0].commitdate
+        const currenttime = new Date().getTime()
+        const commitdate = Pandas.searchPandaId(panda._id)[0].commitdate   // TODO: fix
         const ms_per_week = 1000 * 60 * 60 * 24 * 7
         return (currenttime - commitdate > ms_per_week)
       })
@@ -1246,7 +1251,7 @@ function updatedPhotoOrdering(photo_count: number) {
     }
     // New panda added, so make sure it gets the heart icon
     if ((panda_photos.map(panda => panda._id).includes(author_photo._id)) &&
-        (!author_photo._id.includes("media"))) {
+        (!author_photo._id.toString().includes("media"))) {   // TODO: id stringify
       author_photo.name_icon = Emoji.profile
     }
     author_photo.credit_icon = Emoji.giftwrap

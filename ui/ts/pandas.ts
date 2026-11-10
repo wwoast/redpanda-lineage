@@ -1862,7 +1862,7 @@ function parseDate(date: string): ParsedDate {
 
 /** Given an animal, choose a single photo to display as its profile photo. */
 export function profilePhoto(
-  animal: NodeMedia | NodePanda | NodeZoo,
+  animal: PhotoGraphNode,
   naturalIndex: number | string
 ) {
   let arrayIndex = (typeof naturalIndex !== "number")

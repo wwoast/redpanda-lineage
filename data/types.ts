@@ -462,13 +462,19 @@ declare global {
    * metadata related to how they were found or how they will be displayed.
    */
   interface EnrichedPhoto extends Omit<Photo, "commitdate" | "source"> {
+    /** Optional display classes for rendering divs */
+    classes?: string[],
+    /** Optional icon appearing next to the photo author caption */
+    credit_icon?: string,
     /** The numeric or string ID this photo represents */
     _id: number | string,
     /** Natural number index for displaying in carousels */
     index: number,
+    /** Optional icon appearing next to the animal name caption */
+    name_icon?: string,
     /** 
-     * Transform the photo source (possibly an ig:// pseudo-URL) into a full
-     * web URL reference.
+     * Transform the photo source of the underlying `Photo` (possibly an ig://
+     * pseudo-URL) into a full web URL reference.
      */
     reference: string,
     /** What the origin of this photo is */
