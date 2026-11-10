@@ -30,12 +30,7 @@ type GeolocationState = {
   /** Has a successful lookup completed? */
   resolved: boolean,
   /** List of zoos that match our search criteria */
-  /** TODO-UI: RESULTSET TYPE DEFINITION */
-  results: {
-    "hits": any[],
-    "parsed": string,
-    "type": string
-  },
+  results: QueryResult,
   /** Default search radius (100km or 100mi) */
   radius: number,
   /** Units for the radius of the earth, either kilometers or miles */
@@ -54,7 +49,7 @@ export const state: GeolocationState = {
   results: {
     "hits": [],
     "parsed": "geolookup_in_progress",
-    "type": "nearby"
+    "query": "nearby",
   },
   radius: 100,
   units: "km"
@@ -113,7 +108,7 @@ function findClosest(maxDistance: number, maxResults: number) {
   state.results = {
     "hits": hitList,
     "parsed": "set_zoo_id",
-    "type": "nearby"
+    "query": "nearby"
   }
   window.dispatchEvent(geoEvents.foundZoos);  
 }

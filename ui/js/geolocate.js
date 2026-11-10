@@ -34,7 +34,7 @@ export const state = {
   results: {
     "hits": [],
     "parsed": "geolookup_in_progress",
-    "type": "nearby"
+    "query": "nearby"
   },
   /** Default search radius (100km or 100mi) */
   radius: 100,
@@ -86,7 +86,7 @@ function findClosest(maxDistance, maxResults) {
   state.results = {
     "hits": hitList,
     "parsed": "set_zoo_id",
-    "type": "nearby"
+    "query": "nearby"
   }
   window.dispatchEvent(geoEvents.foundZoos);  
 }

@@ -418,7 +418,7 @@ export function creditPhotos(results, max_hits: number) {
  * to prevent loading the entire image set each time you only want `set/N`
  */
 function creditPhotosPage(page: number, results, max_hits: number) {
-  let content_divs = []
+  let content_divs: HTMLDivElement[] = []
   const initial_max_hits = max_hits
   // We must unspool the results because each entity we query here can have
   // multiple results returned, and the paging must only return the first
@@ -912,11 +912,11 @@ function pandaPhotoCreditSingle(photo: EnrichedPhoto) {
 }
 
 /** Display a gallery of photos with a given tag. */
-export function tagPhotos(results, max_hits: number, add_emoji: boolean) {
+export function tagPhotos(results: QueryResult, max_hits: number, add_emoji: boolean) {
   const hit_count = results["hits"].length
   // Get the first page of content
   const paging_data = tagPhotosPage(0, results, max_hits, add_emoji)
-  const content_divs = paging_data["output"]
+  const content_divs = paging_data.output
   // Build a summary message based on which tag_photo parser mode we have,
   // and whether we have hits or not.
   const header = tagPhotoMessage(results, hit_count)
@@ -928,12 +928,17 @@ export function tagPhotos(results, max_hits: number, add_emoji: boolean) {
  * Use a page counter to determine where in the results count to start showing
  * photos. If photos on this page < `max_hits`, hide the next page button
  */
-function tagPhotosPage(page, results, max_hits: number, add_emoji: boolean) {
-  let content_divs = []
+function tagPhotosPage(
+  page: number,
+  results: QueryResult,
+  max_hits: number,
+  add_emoji: boolean
+) {
+  let content_divs: HTMLDivElement[] = []
   const initial_max_hits = max_hits
   const starting_point = page * Env.paging.results_count
   // Working copy of photo set, shuffled
-  let page_results = results["hits"].slice()
+  let page_results = results["hits"].slice() as EnrichedPhoto[]
   page_results = Pandas.shuffleWithSeed(page_results, Env.paging.seed)
   page_results = page_results.slice(starting_point)
   const hit_count = page_results.length

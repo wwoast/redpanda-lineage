@@ -866,18 +866,18 @@ class ResultsPage {
    * Given a search for nearest zoos, add zoo divs and the pandas that live there,
    * along with a header message of the zoos by proximity.
    */
-  nearby(results) {
-    let content_divs = []
+  nearby(results: QueryResult) {
+    let content_divs: HTMLDivElement[] = []
     if (results.parsed == "geolookup_in_progress") {
       // Stuck at the interstitial after a language transition
       content_divs.push(Message.geolocationStart())
       return content_divs
     }
-    // Zoo results
-    results["hits"].forEach(function(entity) {
+    // This query only gets zoo results
+    results["hits"].map(entity => entity as NodeZoo).forEach(entity => {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.resultsPage.zoo(entity))
-      animals = Pandas.sortOldestToYoungest(
+      const animals = Pandas.sortOldestToYoungest(
         Pandas.searchPandaZooCurrent(entity._id))
       animals.forEach(animal =>
         content_divs.push(Show.resultsPage.panda(animal)))
@@ -892,8 +892,8 @@ class ResultsPage {
     return content_divs
   }
   /** Photo results have a different structure from panda/zoo results */
-  photos(results) {
-    let content_divs = []
+  photos(results: QueryResult) {
+    let content_divs: HTMLDivElement[] = []
     const max_hits = Env.paging.results_count
     if ((results["parsed"] == "set_tag") || 
         (results["parsed"] == "set_tag_subject") ||
@@ -1070,7 +1070,7 @@ class Routes {
       query_string = `zoo ${zoo}`
     } else {
       // Don't know how to process the hashlink, so do nothing
-      return false
+      throw new Error("TODO: unrecognized route")
     }
     // Run the query through the parser and return results
     return Query.result(query_string)

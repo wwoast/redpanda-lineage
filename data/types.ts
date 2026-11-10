@@ -452,6 +452,7 @@ declare global {
   }
 
   type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo
+  type PhotoGraphNode = Exclude<GraphNode, NodeLinks | NodeNone | NodePhoto>
 
   /**
    * Photos rendered in carousels or returned in search results, need to track
@@ -775,7 +776,7 @@ declare global {
     hits: GraphNode[] | EnrichedPhoto[],
     /** The raw query string */
     query: string,
-    /** Type of query that was parsed */
+    /** The first node in the tree's type */
     parsed: string,
     /** Animal ids or names that were in the query */
     subject?: string,
