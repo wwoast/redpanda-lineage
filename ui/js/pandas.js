@@ -1714,7 +1714,7 @@ export function myName(entity) {
   else if (entity.name[Env.language] == undefined)
     return Language.fallback_name(entity)
   else
-    return animal.name[Env.language]
+    return entity.name[Env.language]
 }
 
 /** 
