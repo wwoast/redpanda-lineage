@@ -16,6 +16,14 @@ import P, * as Pandas from './pandas.ts'
  * composes in a much cleaner way.
  */
 
+/** Menu buttons correspond to this minimum interface */
+interface MenuButton {
+  action: (...args: any[]) => void,
+  altAction?: (e: Event) => void,
+  hide?: () => void,
+  render: (...args: any[]) => HTMLButtonElement,
+}
+
 /**
  * Given an animal and a language, obtain the immediate information that would
  * be displayed in an information card about the panda, including its zoo and
@@ -82,7 +90,7 @@ function getZooBundle(location: ProfileLocation) {
         "end_date": Pandas.formatDate(location["end_date"]),
   "language_order": Pandas.language_order(zoo),
         "location": Pandas.zooField(zoo, "location")[Env.language],
-            "name": Pandas.zooField(zoo, "name")[Env.language],
+            "name": Language.fallback_name(zoo),
       "start_date": Pandas.formatDate(location["start_date"])
     }
   }
@@ -117,7 +125,7 @@ export function acquireZooInfo(zoo: NodeZoo) {
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, "location")[Env.language],
            "map": Pandas.zooField(zoo, "map"),
-          "name": Pandas.zooField(zoo, "name")[Env.language],
+          "name": Language.fallback_name(zoo),
          "photo": picture.url,
   "photo_credit": picture.author,
    "photo_index": picture.index,
@@ -657,7 +665,7 @@ export function zooDivider(mode?: Divider) {
  * Construct a zoo link as per design docs. Example:
  *    `https://domain/index.html#zoo/1`
  */
-function zooLink(zoo: NodeZoo, link_text: string, icon?: string) {
+function zooLink(zoo: NodeZoo | NodeWild, link_text: string, icon?: string) {
   // Don't print content if the input id is zero
   if (zoo._id == Defaults.zoo._id)
     return emptyLink(Defaults.zoo.name[Env.language] ?? Defaults.unknown[Env.language])
@@ -842,7 +850,7 @@ const languageButton = {
       Geo.getNaiveLocation()
     Page.redraw(Env.current)
     // If language menu is open, hide it
-    languageButton.hide()
+    this.hide()
   },
   hide: function() {
     const language_menu = document.querySelector<HTMLDivElement>(".languageMenu")
@@ -942,7 +950,7 @@ const optionsButton = {
  * more content to look at. 
  */
 const pagingButton = {
-  action: function(callback, parameters, frame_id: string, class_name: string) {
+  action: function(callback: Function, parameters: any[], frame_id: string, class_name: string) {
     // If language menu is open, hide it
     languageButton.hide()
     const paging_data = callback.apply(null, parameters)
@@ -967,9 +975,9 @@ const pagingButton = {
       Gui.paging[Env.language],
       class_name)
     // Get callback function and arguments from Query.env
-    const callback = Env.paging.callback.function
-    const parameters = Env.paging.callback.arguments
-    const frame_id = Env.paging.callback.frame_id
+    const callback = Env.paging.callback.function ?? (() => {})
+    const parameters = Env.paging.callback.arguments ?? []
+    const frame_id = Env.paging.callback.frame_id ?? "contentFrame"
     button.addEventListener("click",
       () => this.action(callback, parameters, frame_id, class_name))
     // English and Japanese text is too wide
@@ -1187,7 +1195,7 @@ const treeButton = {
 
 /** The `About` page only has a top menu */
 export const aboutMenu = {
-  buttons: [homeButton, languageButton, randomButton, linksButton],
+  buttons: <MenuButton[]>[homeButton, languageButton, randomButton, linksButton],
   render: function() {
     const new_contents = document.createElement('div')
     new_contents.className = "shrinker"
@@ -1208,7 +1216,7 @@ export const aboutMenu = {
 
 /** Generate the options page and its input-controls for changing settings */
 export const optionsPage = {
-  body: () => {
+  body: function() {
     const container = document.createElement('div')
     container.id = "contentFrame"
     container.className = "options"
@@ -1263,7 +1271,7 @@ export const optionsPage = {
 */
 export const landingMenus = {
   bottom: {
-    buttons: [optionsButton],
+    buttons: <MenuButton[]>[optionsButton],
     render: function() {
       const new_contents = document.createElement('div')
       new_contents.className = "shrinker"
@@ -1298,7 +1306,7 @@ export const landingMenus = {
     menu.classList.add(class_color)
   },
   top: {
-    buttons: [refreshButton, languageButton, aboutButton, randomButton, linksButton],
+    buttons: <MenuButton[]>[refreshButton, languageButton, aboutButton, randomButton, linksButton],
     render: function() {
       const new_contents = document.createElement('div')
       new_contents.className = "shrinker"
@@ -1320,7 +1328,7 @@ export const landingMenus = {
 /** The button menus for each subsection in the links page */
 export const linksMenus = {
   bottom: {
-    buttons: [],
+    buttons: <MenuButton[]>[],
     /** Share the green color of the results page content for the links page */
     render: function() {
       const new_contents = document.createElement('div')
@@ -1344,7 +1352,7 @@ export const linksMenus = {
      * Draw the links page subsection menus, highlighting the button for the 
      * currently-displayed subpage
      */
-    render: function(subpage) {
+    render: function(subpage: string) {
       const menu = document.createElement('div')
       menu.id = "linksPageMenu"
       menu.className = "sectionMenu"
@@ -1363,7 +1371,7 @@ export const linksMenus = {
     }
   },
   top: {
-    buttons: [homeButton, languageButton, aboutButton, randomButton],
+    buttons: <MenuButton[]>[homeButton, languageButton, aboutButton, randomButton],
     render: function () {
       // Return to a green menu bar: Logo/Home, Language, About, Random, Links
       const new_contents = document.createElement('div')
@@ -1717,7 +1725,7 @@ export const linksSections: Record<string, () => HTMLDivElement> = {
  */
 export const profileMenus = {
   bottom: {
-    buttons: [pagingButton, randomButton, searchButton],
+    buttons: <MenuButton[]>[pagingButton, randomButton, searchButton],
     /** Offer red menu bar with a search function: Top, Home, Search */
     render: function() {
       const new_contents = document.createElement('div')
@@ -1738,7 +1746,7 @@ export const profileMenus = {
   },
   language: () => landingMenus.language("profile"),
   top: {
-    buttons: [homeButton, languageButton, profileButton, mediaButton, treeButton],
+    buttons: <MenuButton[]>[homeButton, languageButton, profileButton, mediaButton, treeButton],
     /** A red menu bar: Home, Language, Profile, Media, Timeline */
     render: function(panda_id: string) {
       const new_contents = document.createElement('div')
@@ -1876,7 +1884,7 @@ export const profilePage = {
     othernames_heading.className = "othernamesHeading"
     othernames_heading.classList.add(Env.language)
     othernames_heading.innerText = Gui.othernames[Env.language]
-    const dossierOthernames = othernames(animal, Env.language)
+    const dossierOthernames = othernames(animal)
     if (dossierOthernames.childNodes.length > 0) {
       othernames_container.appendChild(othernames_heading)
       othernames_container.appendChild(dossierOthernames)
@@ -2102,7 +2110,7 @@ export const profilePage = {
 /** Results page menu rendering */
 export const resultsMenus = {
   bottom: {
-    buttons: [pagingButton],
+    buttons: <MenuButton[]>[pagingButton],
     /** Return to a green menu bar: Paging, Home */
     render: function() {
       const new_contents = document.createElement('div')
@@ -2123,7 +2131,7 @@ export const resultsMenus = {
   },
   language: () => landingMenus.language("results"),
   top: {
-    buttons: [homeButton, languageButton, aboutButton, randomButton, linksButton],
+    buttons: <MenuButton[]>[homeButton, languageButton, aboutButton, randomButton, linksButton],
     /** Return to a green menu bar: Logo/Home, Language, About, Random, Links */
     render: function() {
       const new_contents = document.createElement('div')
@@ -2184,11 +2192,11 @@ export const resultsPage = {
     for (const index in Pandas.sortOldestToYoungest(info.children)) {
       const animal = info.children[index]
       // Check if animal has multiple possible moms/dads
-      const icon_list = ["child_icon", "live_icon"]
+      const icon_list: AnimalLinkOption[] = ["child_icon", "live_icon"]
       if (Pandas.indeterminateParent(info._id, animal._id) == true)
         icon_list.push("question_icon")
       const children_link = animalLink(
-        animal, animal.name[Env.language], icon_list)
+        animal, Language.fallback_name(animal), icon_list)
       const li = document.createElement('li')
       li.appendChild(children_link)
       ul.appendChild(li)
@@ -2295,7 +2303,7 @@ export const resultsPage = {
     return result
   },
   /** The purple results-page "dossier" information stripe for a panda. */
-  pandaDetails: function(info) {
+  pandaDetails: function(info: EnrichedPanda) {
     // Start the new Div
     const details = document.createElement('div')
     details.className = "pandaDetails"
@@ -2488,10 +2496,10 @@ export const resultsPage = {
     const mom_links = []
     if (info.mom.length > 0) {
       for (const mom of info.mom) {
-        const icon_list = ["mom_icon", "live_icon"]
+        const icon_list: AnimalLinkOption[] = ["mom_icon", "live_icon"]
         if (info.mom.length > 1)
           icon_list.push("question_icon")
-        const mom_link = animalLink(mom, mom.name[Env.language], icon_list)
+        const mom_link = animalLink(mom, Language.fallback_name(mom), icon_list)
         mom_links.push(mom_link)
       }
     } else {
@@ -2507,10 +2515,10 @@ export const resultsPage = {
     const dad_links = []
     if (info.dad.length > 0) {
       for (const dad of info.dad) {
-        const icon_list = ["dad_icon", "live_icon"]
+        const icon_list: AnimalLinkOption[] = ["dad_icon", "live_icon"]
         if (info.dad.length > 1)
           icon_list.push("question_icon")
-        var dad_link = animalLink(dad, dad.name[Env.language], icon_list)
+        var dad_link = animalLink(dad, Language.fallback_name(dad), icon_list)
         dad_links.push(dad_link)
       }
     } else {
@@ -2548,14 +2556,14 @@ export const resultsPage = {
     const ul = document.createElement('ul')
     ul.className = `pandaList ${Env.language}`
     for (const index in Pandas.sortOldestToYoungest(info.siblings)) {
-      const myself = Pandas.searchPandaId(info._id)[0]
+      const myself = Pandas.searchPandaId(info._id)[0] as NodePanda
       const animal = info.siblings[index]
-      const icon_list = ["child_icon", "live_icon"]
+      const icon_list: AnimalLinkOption[] = ["child_icon", "live_icon"]
       if (Pandas.halfSiblings(myself, animal))
         icon_list.push("half_icon")
       if (Pandas.indeterminateSiblings(info._id, animal._id) == true)
         icon_list.push("question_icon")
-      const siblings_link = animalLink(animal, animal.name[Env.language], icon_list)
+      const siblings_link = animalLink(animal, Language.fallback_name(animal), icon_list)
       const li = document.createElement('li')
       li.appendChild(siblings_link)
       ul.appendChild(li)
@@ -2609,7 +2617,7 @@ export const resultsPage = {
       const output_divs: HTMLDivElement[] = []
       // TODO ES6: this scope here
       animals.forEach(animal =>
-        output_divs.push(this.panda(animal, Env.language)))
+        output_divs.push(this.panda(animal)))
       return output_divs
     }
     const id = zoo._id

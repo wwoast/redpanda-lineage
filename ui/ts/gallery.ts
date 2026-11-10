@@ -1086,18 +1086,18 @@ export function updatedNewPhotoCredits(photo_count=7) {
     const caption = document.createElement('h5')
     caption.className = "caption updateName"
     // Color any zoo-related animals in the summary info
-    if ("classes" in photo)
+    if (photo.classes)
       for (let caption_class of photo.classes)
         caption.classList.add(caption_class)
     const node = Pandas.searchPandaId(photo._id)[0] as NodeMedia | NodePanda
     let updateName = undefined
     if (photo.type == "media") {
-      updateName = Pandas.groupMediaCaption(node, photo)
+      updateName = Pandas.groupMediaCaption(node as NodeMedia, photo)
       const panda_route = node["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
     } else {
       // TODO ES6: do specific types
-      const info = Show.acquirePandaInfo(node)
+      const info = Show.acquirePandaInfo(node as NodePanda)
       updateName = info.name
     }
     if ("name_icon" in photo)
@@ -1136,11 +1136,11 @@ function updatedPhotoOrdering(photo_count: number) {
   const zoo_locators = P.db._updates.entities
     .filter(locator => locator.indexOf("zoo.") == 0)
   const zoo_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(zoo_locators), "_id")
-    .filter(function(photo) {
-      const pandas = Pandas.searchPandaZoo(photo._id)
-        .filter(panda => "photos" in panda)
+    .filter(photo => {
+      const pandas = Pandas.searchPandaZoo(parseInt(photo._id.toString()))
+      .filter(panda => "photos" in panda)
       return pandas.length > 0
-    }).filter(function(photo) {
+    }).filter(photo => {
       return (!Object.keys(Defaults.authors).includes(photo.author))
     })
   let zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count)
@@ -1297,7 +1297,7 @@ function zooPhotoCreditSingle(photo: EnrichedPhoto) {
   const index = photo.index
   const img_link = document.createElement('a')
   const id = photo._id
-  const entity = Pandas.searchZooId(id.toString())[0]
+  const entity = Pandas.searchZooId(id.toString())[0] as NodeZoo
   const info = Show.acquireZooInfo(entity)
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
@@ -1345,12 +1345,12 @@ export function pumpkin(photo_count=5) {
     const animal = Pandas.searchPandaId(photo._id)[0]
     let updateName = undefined
     if (photo.type == "media") {
-      updateName = Pandas.groupMediaCaption(animal, photo)
+      updateName = Pandas.groupMediaCaption(animal as NodeMedia, photo)
       const panda_route = animal["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
       // TODO ES6: correctly support many types here
-      const info = Show.acquirePandaInfo(animal)
+      const info = Show.acquirePandaInfo(animal as NodePanda)
       updateName = info.name
     }
     name_caption_span.innerText = updateName
@@ -1416,7 +1416,7 @@ export function taglist(
       name_caption_link.href = `#group/${panda_route}`
     } else {
       // TODO ES6: correctly support many types here
-      const info = Show.acquirePandaInfo(node)
+      const info = Show.acquirePandaInfo(node as NodePanda)
       updateName = info.name
     }
     name_caption_span.innerText = updateName

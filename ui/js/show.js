@@ -76,7 +76,7 @@ function getZooBundle(location) {
         "end_date": Pandas.formatDate(location["end_date"]),
   "language_order": Pandas.language_order(zoo),
         "location": Pandas.zooField(zoo, "location")[Env.language],
-            "name": Pandas.zooField(zoo, "name")[Env.language],
+            "name": Language.fallback_name(zoo),
       "start_date": Pandas.formatDate(location["start_date"])
     }
   }
@@ -946,7 +946,7 @@ const pagingButton = {
     // Get callback function and arguments from Query.env
     const callback = Env.paging.callback.function
     const parameters = Env.paging.callback.arguments
-    const frame_id = Env.paging.callback.frame_id
+    const frame_id = Env.paging.callback.frame_id ?? "contentFrame"
     button.addEventListener("click",
       () => this.action(callback, parameters, frame_id, class_name))
     // English and Japanese text is too wide
@@ -2138,7 +2138,7 @@ export const resultsPage = {
       if (Pandas.indeterminateParent(info._id, animal._id) == true)
         icon_list.push("question_icon")
       const children_link = animalLink(
-        animal, animal.name[Env.language], icon_list)
+        animal, Language.fallback_name(animal), icon_list)
       const li = document.createElement('li')
       li.appendChild(children_link)
       ul.appendChild(li)
@@ -2200,7 +2200,7 @@ export const resultsPage = {
     for (const index in Pandas.sortOldestToYoungest(info.litter)) {
       const animal = info.litter[index]
       const litter_link = animalLink(
-        animal, animal.name[Env.language], ["child_icon", "live_icon"])
+        animal, Language.fallback_name(animal), ["child_icon", "live_icon"])
       const li = document.createElement('li')
       li.appendChild(litter_link)
       ul.appendChild(li)
@@ -2441,7 +2441,7 @@ export const resultsPage = {
         const icon_list = ["mom_icon", "live_icon"]
         if (info.mom.length > 1)
           icon_list.push("question_icon")
-        const mom_link = animalLink(mom, mom.name[Env.language], icon_list)
+        const mom_link = animalLink(mom, Language.fallback_name(mom), icon_list)
         mom_links.push(mom_link)
       }
     } else {
@@ -2460,7 +2460,7 @@ export const resultsPage = {
         const icon_list = ["dad_icon", "live_icon"]
         if (info.dad.length > 1)
           icon_list.push("question_icon")
-        var dad_link = animalLink(dad, dad.name[Env.language], icon_list)
+        var dad_link = animalLink(dad, Language.fallback_name(dad), icon_list)
         dad_links.push(dad_link)
       }
     } else {
@@ -2505,7 +2505,7 @@ export const resultsPage = {
         icon_list.push("half_icon")
       if (Pandas.indeterminateSiblings(info._id, animal._id) == true)
         icon_list.push("question_icon")
-      const siblings_link = animalLink(animal, animal.name[Env.language], icon_list)
+      const siblings_link = animalLink(animal, Language.fallback_name(animal), icon_list)
       const li = document.createElement('li')
       li.appendChild(siblings_link)
       ul.appendChild(li)
