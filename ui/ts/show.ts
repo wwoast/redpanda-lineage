@@ -1425,14 +1425,16 @@ const linksOrder = {
       list: []
     }
     node.links.forEach(link => {
+      const languageOrder = (link["language.order"])
+        ? Array.from(link["language.order"])
+        : Fallback.order
       // Fallback name selection, if (like the instagram names) we don't
       // have language-specific names. Start with a generic name field if
       // the links are actually generic.
       let linkName = link.name[Env.language]
       if (linkName == undefined) {
-        const checkLanguages =
-          Array.from(link["language.order"]).concat(Fallback.order)
-            .filter(l => l != Env.language)
+        const checkLanguages = languageOrder.concat(Fallback.order)
+          .filter(l => l != Env.language)
         for (let l of checkLanguages) {
           if (node.name[l]) {
             linkName = node.name[l]
@@ -1440,9 +1442,6 @@ const linksOrder = {
           }
         }
       }
-      const languageOrder = (link["language.order"])
-        ? Array.from(link["language.order"])
-        : Fallback.order
       const processed = <LinkRender>{
         "href": link.url,
         "order": languageOrder,
