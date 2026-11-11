@@ -977,7 +977,7 @@ export class Dataset {
       subKey: string
     ) {
       const langKeys = Object.keys(vertex)
-        .filter(key => key.match(linkKey) && key.endsWith(`.${subKey}`))
+        .filter(key => key.startsWith(`${linkKey}.`) && key.endsWith(`.${subKey}`))
       if (langKeys.length == 0) return   // Nothing to do
       langKeys.forEach(langKey => {
         const language = langKey.replace(`${linkKey}.`, "").replace(`.${subKey}`, "")
