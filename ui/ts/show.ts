@@ -1428,7 +1428,7 @@ const linksOrder = {
       // Fallback name selection, if (like the instagram names) we don't
       // have language-specific names. Start with a generic name field if
       // the links are actually generic.
-      let linkName = node.name[Env.language]
+      let linkName = link.name[Env.language]
       if (linkName == undefined) {
         const checkLanguages =
           Array.from(link["language.order"]).concat(Fallback.order)
