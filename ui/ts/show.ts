@@ -1431,7 +1431,8 @@ const linksOrder = {
       let linkName = node.name[Env.language]
       if (linkName == undefined) {
         const checkLanguages =
-          Array.from(link["language.order"]).filter(l => l != Env.language)
+          Array.from(link["language.order"]).concat(Fallback.order)
+            .filter(l => l != Env.language)
         for (let l of checkLanguages) {
           if (node.name[l]) {
             linkName = node.name[l]
