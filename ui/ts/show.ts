@@ -1433,7 +1433,7 @@ const linksOrder = {
       // the links are actually generic.
       let linkName = link.name[Env.language]
       if (linkName == undefined) {
-        const checkLanguages = languageOrder.concat(Fallback.order)
+        const checkLanguages = languageOrder.concat(Defaults.languages)
           .filter(l => l != Env.language)
         for (let l of checkLanguages) {
           if (node.name[l]) {
