@@ -60,13 +60,11 @@ export function init() {
  * the ordering may be inaccurate, use GPS location instead (if available).
  */
 function findClosest(maxDistance, maxResults) {
-  const zoos = {};     // k=distance, v=zoo. Sort by keys ascending
-  const hitList = [];   // Get max_results items
+  const zoos = {}     // k=distance, v=zoo. Sort by keys ascending
+  let hitList = []   // Get max_results items
   // Iterating across zoos is silly
   // TODO ES6
   for(let i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
-    // TODO ES6
-    // Compare distance with where you are
     const z = Pandas.searchZooId(i)[0]
     const d = haversine(state.latitude, state.longitude, 
                         parseFloat(z.latitude), parseFloat(z.longitude))
@@ -77,7 +75,8 @@ function findClosest(maxDistance, maxResults) {
     }
   }
   // Iterate through distances in ascending order
-  const closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)
+  const closest =
+    Object.keys(zoos).sort((a, b) => a < b ? -1 : 1).map(k => parseInt(k))
   for (let distance of closest) {
     hitList.push(zoos[distance])
   }

@@ -18,7 +18,11 @@ export function clear() {
   Env.specific_photo = undefined
 }
 
-/** Resolve the query string into something */
+/**
+ * Resolve the query string into a results object containing `hits` as well
+ * as the original `query` and the top-level description of how the
+ * input_string was `parsed`.
+ */
 export function result(input_string: string): QueryResult {
   // Take the input string and lex it out into tokens
   const lexed_input = Parse.lexer.generate(input_string)
@@ -60,10 +64,10 @@ export function result(input_string: string): QueryResult {
     return filter_set(start_node)
   }
   // Fallback result
-  return {
+  return <QueryResult>{
     "hits": [],
     "parsed": "no_results",
-    "query": input_string,
+    "query": input_string
   }
 }
 
@@ -73,7 +77,7 @@ export function result(input_string: string): QueryResult {
  */
 function filter_set(set_node: ParserNode) {
   let hits = []
-  let search_word: string
+  let search_word: string | undefined
   let filter_word: string | undefined
   let parsed = set_node.type
   if (set_node.type == "set_credit_photos_filtered") {
@@ -96,12 +100,12 @@ function filter_set(set_node: ParserNode) {
     }
     hits = Pandas.searchPhotoCredit(search_word, filter_ids)
   }
-  return {
+  return <QueryResult>{
     "filter": filter_word,
     "hits": hits,
     "parsed": parsed,
     "query": set_node.str.replace(/\n/g, " "),
-    "subject": search_word,
+    "subject": search_word
   }
 }
 /** The parse tree found a group with one set, and many nodes */
@@ -146,7 +150,7 @@ function group_one_set(set_node: ParserNode) {
       Env.paging.display_button = true
     }
   }
-  return {
+  return <QueryResult>{
     "hits": hits,
     "parsed": set_node.type,
     "query": set_node.str.replace(/\n/g, " "),
@@ -162,7 +166,7 @@ function pair(set_node: ParserNode) {
   if (keyword_node == undefined || subject_node == undefined)
     throw new Error("TODO: pair set processing error")
   const search_word = subject_node.str   // Only set when a subject is given
-  let tag: string
+  let tag: string | undefined
   if (set_node.type == "set_keyword_date") {
     if (Parse.group.born.includes(keyword_node.str)) {
       hits = Pandas.searchBirthdayList(search_word)
@@ -237,7 +241,7 @@ function pair(set_node: ParserNode) {
       Env.paging.display_button = true
     }
   }
-  return {
+  return <QueryResult>{
     "hits": hits,
     "parsed": set_node.type,
     "query": set_node.str.replace(/\n/g, " "),
@@ -295,7 +299,7 @@ function single(set_node: ParserNode, singular_node: ParserNode) {
       )
     }
   }
-  return {
+  return <QueryResult>{
     "hits": hits,
     "parsed": set_node.type,
     "query": set_node.str.replace(/\n/g, " ")

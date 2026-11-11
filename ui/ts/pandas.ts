@@ -634,7 +634,7 @@ function searchPandaNameFields(input: string, name_fields: string[] = []) {
 export function searchPanda(input: string) {
   const idnum = parseInt(input)
   if (checkId(idnum) == true)
-    return searchPandaId(idnum)
+    return searchPandaId(idnum) as NodePanda[]
   else
     return searchPandaName(input)
 }
