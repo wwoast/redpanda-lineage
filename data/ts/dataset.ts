@@ -1148,15 +1148,16 @@ export class Dataset {
     return working
   }
 
-  /** TODO: stricter typing on entity, oldnames in PandaNode */
-  renderMediaObject = (entity: Vertex) => {
-    const working = structuredClone(entity)
+  renderMediaObject = (entity: NodeMedia) => {
+    /** Get all the basic stringly-stuff */
+    const working: Vertex = structuredClone(entity)
+    /** And convert complicated things back to strings */
     if ("panda.tags" in working)
-      working['panda.tags'] = working['panda.tags'].join(', ')
+      working['panda.tags'] = entity['panda.tags'].join(', ')
     if ("language.order" in working)
-      working['language.order'] = working['language.order'].join(', ')
-    if ("photos" in working) {
-      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
+      working['language.order'] = entity['language.order'].join(', ')
+    if ("photos" in entity) {
+      entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
@@ -1165,12 +1166,10 @@ export class Dataset {
           working[`photo.${naturalIndex}.link`] = photo.source
         if (photo.tags)
           working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
-        if (photo.coordinates) {
-          Object.entries(photo.coordinates).map((entry: [string, [number, number]]) => {
-            const [pandaId, coordinates] = entry
-            working[`photo.${naturalIndex}.tags.${pandaId}.coordinates`] = coordinates.join(', ')
-          })
-        }
+        Object.entries(photo.coordinates).map((entry: [string, [number, number]]) => {
+          const [pandaId, coordinates] = entry
+          working[`photo.${naturalIndex}.tags.${pandaId}.coordinates`] = coordinates.join(', ')
+        })
       })
     }
     //@ts-ignore
@@ -1183,43 +1182,48 @@ export class Dataset {
     return working
   }
   
-  /** TODO: stricter typing on entity, oldnames in PandaNode */
-  renderPandaObject = (entity: Vertex, edges: Edge[]) => {
-    const working = structuredClone(entity)
+  renderPandaObject = (entity: NodePanda, edges: Edge[]) => {
+    const working: Vertex = structuredClone(entity)
     // Unknown gender is just elided in the JSON. Add it back
-    if ("gender" in working)
-      working.gender = (working.gender == "Female") ? "f" : "m"
+    if ("gender" in entity)
+      working.gender = (entity.gender == "Female") ? "f" : "m"
     else
       working.gender = "unknown"
-    if ("language.order" in working)
+    if ("language.order" in entity)
       working['language.order'] =
-        Array.from(working['language.order']).join(', ')
-    if ("locations" in working) {
-      working.locations.map((location: PandaLocation, index: number) => {
+        Array.from(entity['language.order']).join(', ')
+    if ("locations" in entity) {
+      entity.locations.map((location: PandaLocation, index: number) => {
         const naturalIndex = index + 1
         working[`location.${naturalIndex}`] = `${location._id}, ${location.date}`
       })
     }
-    if ("name" in working) {
-      Object.keys(working.name).map(language =>
-        working[`${language}.name`] = working.name[language])
+    if ("name" in entity) {
+      Object.keys(entity.name).map(language =>
+        working[`${language}.name`] = entity.name[language as Language])
     }
-    if ("nicknames" in working) {
-      Object.keys(working.nicknames).map(language =>
-        working[`${language}.nicknames`] = working.nicknames[language].join(", "))
+    if ("nicknames" in entity) {
+      Object.keys(entity.nicknames).map(language =>
+        working[`${language}.nicknames`] =
+          // @ts-ignore
+          entity.nicknames[language as Language].join(", "))
     }
-    if ("oldnames" in working) {
-      Object.keys(working.oldnames).map(language =>
-        working[`${language}.oldnames`] = working.oldnames[language].join(", "))
+    if ("oldnames" in entity) {
+      Object.keys(entity.oldnames).map(language =>
+        working[`${language}.oldnames`] =
+          // @ts-ignore
+          entity.oldnames[language as Language].join(", "))
     }
-    if ("othernames" in working) {
-      Object.keys(working.othernames).map(language =>
-        working[`${language}.othernames`] = working.othernames[language].join(", "))
+    if ("othernames" in entity) {
+      Object.keys(entity.othernames).map(language =>
+        working[`${language}.othernames`] =
+          // @ts-ignore
+          entity.othernames[language as Language].join(", "))
     }
     if ("photos" in working) {
       // Prior to adding the photos back to the dataset, sort them by either
       // their URL locators or by their commitdate
-      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
+      entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
@@ -1290,31 +1294,32 @@ export class Dataset {
     return working
   }
   
-  /** TODO: stricter typing on entity, oldnames in PandaNode */
-  renderZooObject = (entity: Vertex) => {
-    const working = structuredClone(entity)
-    if ((typeof working._id === "number") && (entity.type == "zoo"))
-      working._id = working._id * -1
-    if ("address" in working) {
-      Object.keys(working.address).map(language =>
-        working[`${language}.address`] = working.address[language])
+  renderZooObject = (entity: NodeZoo | NodeWild) => {
+    const working: Vertex = structuredClone(entity)
+    if ((typeof entity._id === "number") && (entity.type == "zoo"))
+      working._id = entity._id * -1
+    if ("address" in entity) {
+      Object.keys(entity.address).map(language =>
+        working[`${language}.address`] = entity.address[language as Language])
     }
-    if ("language.order" in working)
-      working['language.order'] = working['language.order'].join(', ')
-    if ("location" in working) {
-      Object.keys(working.location).map(language =>
-        working[`${language}.location`] = working.location[language])
+    if ("language.order" in entity)
+      working['language.order'] = Array.from(entity['language.order']).join(', ')
+    if ("location" in entity) {
+      Object.keys(entity.location).map(language =>
+        working[`${language}.location`] = entity.location[language as Language])
     }
-    if ("name" in working) {
-      Object.keys(working.name).map(language =>
-        working[`${language}.name`] = working.name[language])
+    if ("name" in entity) {
+      Object.keys(entity.name).map(language =>
+        working[`${language}.name`] = entity.name[language as Language])
     }
-    if ("othernames" in working) {
-      Object.keys(working.othernames).map(language =>
-        working[`${language}.othernames`] = working.othernames[language].join(", "))
+    if ("othernames" in entity) {
+      Object.keys(entity.othernames).map(language =>
+        working[`${language}.othernames`] =
+          // @ts-ignore
+          entity.othernames[language as Language].join(", "))
     }
-    if ("photos" in working) {
-      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
+    if ("photos" in entity) {
+      entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author

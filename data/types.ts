@@ -278,7 +278,12 @@ declare global {
      */
     nicknames: StringListByLanguage,
     /**
-     * Previous names, or commonly used names for this panda. These _are_
+     * Previous names used names for this panda. These are not searchable in the
+     * redpandafinder search form.
+     */
+    oldnames: StringListByLanguage,
+    /**
+     * Commonly used other names or name spellings for this panda. These _are_
      * searchable in the redpandafinder search form.
      */
     othernames: StringListByLanguage,
