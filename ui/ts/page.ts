@@ -373,7 +373,7 @@ class FooterComponent {
     })
     // Now reassemble the text with links inside. TODO: rewrite as JSX
     p.appendChild(document.createTextNode(
-      splitMessage[0].trim().replaceAll(/\s+/, " ")))
+      splitMessage[0].replaceAll(/\s+/, " ")))
     const rpn = document.createElement('a')
     rpn.href = rpn_url
     rpn.target = "_blank"   // Open link in a new tab
@@ -382,7 +382,7 @@ class FooterComponent {
     rpn.innerText = Gui.footerLink_rpn[language]
     p.appendChild(rpn)
     p.appendChild(document.createTextNode(
-      splitMessage[1].trim().replaceAll(/\s+/, " ")))
+      splitMessage[1].replaceAll(/\s+/, " ")))
     const rpf = document.createElement('a')
     rpf.href = "https://github.com/wwoast/redpanda-lineage"
     rpf.target = "_blank"   // Open link in a new tab
@@ -391,7 +391,7 @@ class FooterComponent {
     rpf.innerText = Gui.footerLink_rpf[language]
     p.appendChild(rpf)
     p.appendChild(document.createTextNode(
-      splitMessage[2].trim().replaceAll(/\s+/, " ")))
+      splitMessage[2].replaceAll(/\s+/, " ")))
     const washimumu = document.createElement('a')
     washimumu.href = `https://ressapanda.com/${Env.language}`
     washimumu.target = "_blank"
@@ -399,7 +399,7 @@ class FooterComponent {
     washimumu.innerText = Gui.footerLink_washimumu[language]
     p.appendChild(washimumu)
     p.appendChild(document.createTextNode(
-      splitMessage[3].trim().replaceAll(/\s+/, " ")))
+      splitMessage[3].replaceAll(/\s+/, " ")))
     const wumpwoast = document.createElement('a')
     wumpwoast.href = `https://www.instagram.com/wumpwoast`
     wumpwoast.target = "_blank"
@@ -408,7 +408,7 @@ class FooterComponent {
     p.appendChild(wumpwoast)
     if (splitMessage.length > 4)
       p.appendChild(document.createTextNode(
-        splitMessage[4].trim().replaceAll(/\s+/, " ")))
+        splitMessage[4].replaceAll(/\s+/, " ")))
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
     shrinker.appendChild(p)
