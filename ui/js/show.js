@@ -1389,7 +1389,7 @@ const linksOrder = {
           .filter(l => l != Env.language)
         for (let l of checkLanguages) {
           if (link.name[l]) {
-            linkName = node.name[l]
+            linkName = link.name[l]
             break
           }
         }
