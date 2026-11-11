@@ -80,7 +80,7 @@ function findClosest(maxDistance, maxResults) {
   for (let distance of closest) {
     hitList.push(zoos[distance])
   }
-  hitList = hitList.slice(0, maxResults);   // Only keep the desired results
+  hitList = hitList.slice(0, maxResults)  // Only keep the desired results
   // Return a dict similar to the results of the query parse responses
   state.results = {
     "hits": hitList,

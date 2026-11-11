@@ -93,7 +93,7 @@ class AboutPage {
     request.send()
     request.onload = () => {
       const response = request.response as Document
-      this.content = response.querySelector<HTMLDivElement>('contentFrame')
+      this.content = response.querySelector<HTMLDivElement>('#contentFrame')
       this.language = Env.language   // Language the content was loaded in
       window.dispatchEvent(this.loaded)   // Report the data has loaded
     }
@@ -357,51 +357,60 @@ class FooterComponent {
     rpn_logo.src = "images/rpn-logo.png"
     rpn_logo_link.appendChild(rpn_logo)
     p.appendChild(rpn_logo_link)
-    // TODO-UI: strip duplicate whitespace and newlines, and insert links into the
-    // places where there is <INSERT> subsitution text
-    for (const i in Message.Text.footer[language]) {
-      const field = Message.Text.footer[language][i];
-      if (field == "<INSERTLINK_RPF>") {
-        const rpf = document.createElement('a')
-        rpf.href = "https://github.com/wwoast/redpanda-lineage"
-        rpf.target = "_blank"   // Open link in a new tab
-        // Security best practice: prevent access to window.opener
-        rpf.rel = "noopener noreferrer"
-        rpf.innerText = Gui.footerLink_rpf[language]
-        p.appendChild(rpf)
-      } else if (field == "<INSERTLINK_RPN>") {
-        const rpn = document.createElement('a')
-        rpn.href = rpn_url
-        rpn.target = "_blank"   // Open link in a new tab
-        // Security best practice: prevent access to window.opener
-        rpn.rel = "noopener noreferrer"
-        rpn.innerText = Gui.footerLink_rpn[language]
-        p.appendChild(rpn)
-      } else if (field == "<INSERTLINK_WASHIMUMU>") {
-        const washimumu = document.createElement('a')
-        washimumu.href = `https://ressapanda.com/${Env.language}`
-        washimumu.target = "_blank"
-        washimumu.rel = "noopener noreferrer"
-        washimumu.innerText = Gui.footerLink_washimumu[language]
-        p.appendChild(washimumu)
-      } else if (field == "<INSERTLINK_WUMPWOAST>") {
-        const wumpwoast = document.createElement('a')
-        wumpwoast.href = `https://www.instagram.com/wumpwoast`
-        wumpwoast.target = "_blank"
-        wumpwoast.rel = "noopener noreferrer"
-        wumpwoast.innerText = Gui.footerLink_wumpwoast[language]
-        p.appendChild(wumpwoast) 
-      } else if (field === "") {
-        // If the field is an empty string, insert a line break in the footer
-        p.appendChild(document.createElement('br'))
-      } else {
-        // For normal text, add it as a text node
-        const msg = document.createTextNode(field)
-        p.appendChild(msg);
-      }
-    }
+    // TODO-UI: generalize how duplicate whitespace and newlines are stripped
+    let splitMessage = [Message.Text.footer[language]]
+    const splitTokens = [
+      '<INSERTLINK_RPN>',
+      '<INSERTLINK_RPF>',
+      '<INSERTLINK_WASHIMUMU>',
+      '<INSERTLINK_WUMPWOAST>'
+    ]
+    splitTokens.forEach((token: string, index: number) => {
+      const splitSection = splitMessage[index].split(token)
+      splitMessage = (index == 0)
+        ? splitSection
+        : splitMessage.slice(0, index).concat(splitSection)
+    })
+    // Now reassemble the text with links inside. TODO: rewrite as JSX
+    p.appendChild(document.createTextNode(
+      splitMessage[0].trim().replaceAll(/\s+/, " ")))
+    const rpn = document.createElement('a')
+    rpn.href = rpn_url
+    rpn.target = "_blank"   // Open link in a new tab
+    // Security best practice: prevent access to window.opener
+    rpn.rel = "noopener noreferrer"
+    rpn.innerText = Gui.footerLink_rpn[language]
+    p.appendChild(rpn)
+    p.appendChild(document.createTextNode(
+      splitMessage[1].trim().replaceAll(/\s+/, " ")))
+    const rpf = document.createElement('a')
+    rpf.href = "https://github.com/wwoast/redpanda-lineage"
+    rpf.target = "_blank"   // Open link in a new tab
+    // Security best practice: prevent access to window.opener
+    rpf.rel = "noopener noreferrer"
+    rpf.innerText = Gui.footerLink_rpf[language]
+    p.appendChild(rpf)
+    p.appendChild(document.createTextNode(
+      splitMessage[2].trim().replaceAll(/\s+/, " ")))
+    const washimumu = document.createElement('a')
+    washimumu.href = `https://ressapanda.com/${Env.language}`
+    washimumu.target = "_blank"
+    washimumu.rel = "noopener noreferrer"
+    washimumu.innerText = Gui.footerLink_washimumu[language]
+    p.appendChild(washimumu)
+    p.appendChild(document.createTextNode(
+      splitMessage[3].trim().replaceAll(/\s+/, " ")))
+    const wumpwoast = document.createElement('a')
+    wumpwoast.href = `https://www.instagram.com/wumpwoast`
+    wumpwoast.target = "_blank"
+    wumpwoast.rel = "noopener noreferrer"
+    wumpwoast.innerText = Gui.footerLink_wumpwoast[language]
+    p.appendChild(wumpwoast)
+    if (splitMessage.length > 4)
+      p.appendChild(document.createTextNode(
+        splitMessage[4].trim().replaceAll(/\s+/, " ")))
     const shrinker = document.createElement('div')
-    shrinker.className = "shrinker";
+    shrinker.className = "shrinker"
     shrinker.appendChild(p)
     const footer = document.createElement('div')
     footer.className = "footer"
@@ -674,7 +683,8 @@ class MediaPage {
     // TODO: count results and display a next page button if necessary
     Env.paging.display_button = true
     // Generate new content frames
-    const gallery_div = Show.mediaPage.gallery(results["hits"][0])
+    const pandaMedia = results.hits[0] as NodePanda
+    const gallery_div = Show.mediaPage.gallery(pandaMedia)
     const new_content = document.createElement('div')
     new_content.className = "profile"
     new_content.id = "contentFrame"
@@ -683,8 +693,8 @@ class MediaPage {
     document.getElementById('contentFrame')?.replaceWith(new_content)
     shrinkNames()
     Show.mediaMenus.language()
-    const result_id = results["hits"][0]._id
-    Show.mediaMenus.top.render(result_id.toString())
+    const result_id = pandaMedia._id.toString()
+    Show.mediaMenus.top.render(result_id)
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -757,11 +767,12 @@ class ProfilePage {
     Env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
-    const profile_div = Show.profilePage.panda(results["hits"][0])
-    const where_divs = Show.profilePage.where(results["hits"][0])
-    const family_divs = Show.profilePage.family(results["hits"][0])
-    const children_divs = Show.profilePage.children(results["hits"][0])
-    const siblings_divs = Show.profilePage.siblings(results["hits"][0])
+    const pandaProfile = results["hits"][0] as NodePanda
+    const profile_div = Show.profilePage.panda(pandaProfile)
+    const where_divs = Show.profilePage.where(pandaProfile)
+    const family_divs = Show.profilePage.family(pandaProfile)
+    const children_divs = Show.profilePage.children(pandaProfile)
+    const siblings_divs = Show.profilePage.siblings(pandaProfile)
     // Generate new content frames
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
@@ -778,7 +789,7 @@ class ProfilePage {
     // Swap the new content into the page
     document.getElementById('contentFrame')?.replaceWith(new_content)
     Show.profileMenus.language()
-    const result_id = results.hits[0]._id
+    const result_id = pandaProfile._id.toString()
     // TODO TOWRITE: need to take id of panda for buttons
     Show.profileMenus.top.render(result_id)
     footer.redraw("profile")
