@@ -1392,9 +1392,12 @@ const linksOrder = {
           }
         }
       }
+      const languageOrder = (link["language.order"])
+        ? Array.from(link["language.order"])
+        : Fallback.order
       const processed = {
         "href": link.url,
-        "order": Array.from(link["language.order"]) ?? Fallback.order,
+        "order": languageOrder,
         "text": linkName ?? Defaults.unknown[Env.language]
       }
       if (link.first)
