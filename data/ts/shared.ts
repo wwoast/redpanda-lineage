@@ -153,7 +153,7 @@ export function reviveNode(key: string, value: unknown, section?: string) {
       return reviveZooNode(key, value, section)
     default:
       console.debug(`[shared] can't revive: ${section}: ${key}: ${value}`)
-      throw new Error(`[manage] section ${section}: not a valid redpandafinder node`)
+      throw new Error(`[shared] section ${section}: not a valid redpandafinder node`)
   }
 }
 
@@ -165,7 +165,7 @@ function reviveLinksNode(key: string, value: unknown, section?: string): any {
   if (section != "links")
     return value   // Shouldn't happen
   switch (true) {
-    case (key.includes("language.order")):
+    case (key.endsWith("language.order")):
       return (value as string).split(", ") as Language[]
     default:
       return value
@@ -180,7 +180,7 @@ function reviveMediaNode(key: string, value: unknown, section?: string) {
   if (section != "media")
     return value   // Shouldn't happen
   switch (true) {
-    case (key.includes("location")):
+    case (key.endsWith("coordinates")):
     case (key.includes("tags")):
       return (value as string).split(", ")
     default:
@@ -196,12 +196,12 @@ function revivePandaNode(key: string, value: unknown, section?: string): any {
   if (section != "panda")
     return value   // Shouldn't happen
   switch (true) {
-    case (key.includes("children")):
-    case (key.includes("litter")):
+    case (key == "children"):
+    case (key == "litter"):
       return (value as string).split(", ")
     case (key == "language.order"):
       return (value as string).split(", ") as Language[]
-    case (key.includes("tags")):
+    case (key.endsWith("tags")):
       return (value as string).split(", ")
     default:
       return value
@@ -216,7 +216,7 @@ function revivePhotoNode(key: string, value: unknown, section?: string): any {
   if (section != "photo")
     return value   // Shouldn't happen
   switch (true) {
-    case (key.includes("tags")):
+    case (key.endsWith("tags")):
       return (value as string).split(", ")
     default:
       return value
@@ -249,11 +249,11 @@ function reviveZooNode(key: string, value: unknown, section?: string): any {
   if (section != "zoo")
     return value   // Shouldn't happen
   switch (true) {
-    case (key.includes("_id")):
+    case (key == "_id"):
       return (parseInt(value as string) * -1).toString()
     case (key == "language.order"):
       return (value as string).split(", ") as Language[]
-    case (key.includes("tags")):
+    case (key.endsWith("tags")):
       return (value as string).split(", ")
     default:
       return value

@@ -131,11 +131,22 @@ declare global {
 
   /** 
    * Collection of items related to a link displayed on the `Links` page in
-   * redpandafinder.
+   * redpandafinder. The `language` values in these objects can be any
+   * ISO-639-1 code, not necessarily a `Language` value supported by RPF.
    */
   type URLLink = {
-    names: Record<Language, string>,
-    "language.order": Set<Language>,
+    /** Prefix string before the link text*/
+    first?: Record<string, string>,
+    /** Suffix string after the link text */
+    last?: Record<string, string>,
+    /** Name strings, indexed by ISO-639-1 codes representing a language */
+    name: Record<string, string>,
+    /** 
+     * Set of ISO-639-1 codes representing a language, which redpandafinder
+     * will render as a set of flags after the link itself.
+     */
+    "language.order": Set<string>,
+    /** Destination of the link when clicked */
     url: string
   }
 
@@ -174,7 +185,11 @@ declare global {
   interface NodeLinks extends Vertex {
     /** Fixed string id prefixed with the word `links` */
     _id: string,
-    link: URLLink,
+    /** The emoji that replaces list bullets on the rendered Links pages */
+    icon: string,
+    /** List of links in the dataset file, processed into `URLLink` objects */
+    links: URLLink[],
+    /** Type discriminator to deduce this node from pandas or other items */
     type: "links"
   }
 

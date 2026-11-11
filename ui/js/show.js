@@ -1369,46 +1369,41 @@ const linksOrder = {
    * to construct links in the page, along with any counts that will assist in
    * sorting, should sorting be necessary elsewhere.
    */
-  given: function(links) {
+  given: function(node) {
     // Count the hits for each language we support, and grab the links icon
     const output = {
       counts: {},
-      icon: links.icon,
+      icon: node.icon,
       list: []
     }
-    for (const language of Fallback.order)
-      output.counts[language] = 0
-    const link_fields = Pandas.linkGeneratorEntity
-    for (const field_name of link_fields(links)) {
-      // Fallback language order
-      let language_order = links[`${field_name}.language.order`]
-      if (language_order == undefined)
-        language_order = Fallback.order
+    node.links.forEach(link => {
       // Fallback name selection, if (like the instagram names) we don't
       // have language-specific names. Start with a generic name field if
       // the links are actually generic.
-      let link_name = links[`${field_name}.name`]
-      if (link_name == undefined)
-        link_name = links[`${field_name}.${Env.language}.name`] 
-      if (link_name == undefined) {
-        const check_languages = language_order.filter(l => l != Env.language)
-        for (let l of check_languages) {
-          link_name = links[`${field_name}.${l}.name`]
-          if (link_name != undefined)
+      let linkName = node.name[Env.language]
+      if (linkName == undefined) {
+        const checkLanguages =
+          Array.from(link["language.order"]).filter(l => l != Env.language)
+        for (let l of checkLanguages) {
+          if (node.name[l]) {
+            linkName = node.name[l]
             break
+          }
         }
       }
-      const link = {
-        "first": links[`${field_name}.${Env.language}.first`],
-        "href": links[field_name],
-        "last": links[`${field_name}.${Env.language}.last`],
-        "order": language_order,
-        "text": link_name
+      const processed = {
+        "href": link.url,
+        "order": Array.from(link["language.order"]) ?? Fallback.order,
+        "text": linkName ?? Defaults.unknown[Env.language]
       }
-      for (const language of link.order)
+      if (link.first)
+        processed.first = link.first[Env.language] ?? ""
+      if (link.last)
+        processed.last = link.last[Env.language] ?? ""
+      for (const language of processed.order)
         output.counts[language] = (output.counts[language] ?? 0) + 1
-      output.list.push(link)
-    }
+      output.list.push(processed)
+    })
     return output
   },
   /**

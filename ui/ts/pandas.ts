@@ -128,23 +128,6 @@ export function distinct(list: any[]) {
 }
 
 /** 
- * Generates a valid index to a link for a link entity, up to the point that
- * said entity doesn't have a defined link in its data.
- * 
- * TODO ES6: get rid of this
- */
-export function* linkGeneratorEntity(entity: NodeLinks, index=0) {
-  if (entity == undefined)
-    return
-  while (index < index + 1) {
-    index++
-    if (entity["link." + index] == undefined)
-      return
-    yield "link." + index
-  }
-}
-
-/** 
  * If given no argument, return a random number. Otherwise return a repeatable
  * random value.
  */

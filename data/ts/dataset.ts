@@ -855,6 +855,9 @@ export class Dataset {
     this.processNodeLanguageKeys(vertex)
     // No processing for links nodes _shrug_
     switch(vertex.type) {
+      case "links":
+        this.processNodeLinks(vertex)
+        break
       case "media":
         this.processNodePhotos(vertex)
         break
@@ -961,6 +964,47 @@ export class Dataset {
     vertex[suffix] = {...vertex[suffix], ...nameList}
     // Once `nicknames[en] is written, delete `en.nicknames`
     delete vertex[`${language}.${suffix}`]
+  }
+
+  /** 
+   * For a `data/links/<file>.txt` file, take the fields and turn them into
+   * `LinksBundle` objects.
+   */
+  processNodeLinks = (vertex: NodeLinks) => {
+    function processLanguageString(
+      linkObject: URLLink,
+      linkKey: string,
+      subKey: string
+    ) {
+      const langKeys = Object.keys(vertex)
+        .filter(key => key.match(linkKey) && key.endsWith(`.${subKey}`))
+      if (langKeys.length == 0) return   // Nothing to do
+      langKeys.forEach(langKey => {
+        const language = langKey.replace(`${linkKey}.`, "").replace(`.${subKey}`, "")
+        // @ts-ignore
+        linkObject[subKey][language] = vertex[langKey]
+        delete vertex[langKey]
+      })
+    }
+    vertex.links = []
+    // Iterate on just the `links.X` fields
+    const linkKeys = Object.keys(vertex).filter(key => key.match(/link\.\d+$/))
+    linkKeys.forEach(linkKey => {
+      const linkObject = <URLLink>{
+        first: {},
+        last: {},
+        name: {},
+        "language.order": vertex[`${linkKey}.language.order`],
+        url: vertex[linkKey]
+      }
+      for (const subKey of ["first", "last", "name"])
+        processLanguageString(linkObject, linkKey, subKey)
+      vertex.links.push(linkObject)
+      // Once we've made objects out of the items on this vertex, delete the
+      // source keys that information originated from.
+      delete vertex[linkKey]
+      delete vertex[`${linkKey}.language.order`]
+    })
   }
 
   /** 
@@ -1079,12 +1123,22 @@ export class Dataset {
     }
   }
 
-  renderLinksObject = (entity: Vertex) => {
-    const working = structuredClone(entity)
-    Object.keys(working).map(key => {
-      if (key.includes("language.order"))
-        working[key] = working[key].join(", ")
-    })
+  /** Render the links object back into the longer keys of the `.txt` file */
+  renderLinksObject = (entity: NodeLinks) => {
+    /** Get all the basic stringly-stuff */
+    const working: Vertex = structuredClone(entity)
+    /** And convert complicated things back to strings */
+    if ("links" in entity) {
+      working.links.map((link: URLLink, index: number) => {
+        const naturalIndex = index + 1
+        working[`link.${naturalIndex}`] = link.url
+        working[`link.${naturalIndex}.language.order`] =
+          Array.from(link["language.order"]).join(", ")
+        Object.keys(working.names).forEach(langKey =>
+          working[`link.${naturalIndex}.${langKey}.name`] = working.name[langKey])
+      })
+    }
+    delete working.links
     return working
   }
 
@@ -1132,7 +1186,8 @@ export class Dataset {
     else
       working.gender = "unknown"
     if ("language.order" in working)
-      working['language.order'] = working['language.order'].join(', ')
+      working['language.order'] =
+        Array.from(working['language.order']).join(', ')
     if ("locations" in working) {
       working.locations.map((location: PandaLocation, index: number) => {
         const naturalIndex = index + 1
@@ -1203,7 +1258,7 @@ export class Dataset {
           console.log(`[dataset] unknown edge type: ${edge._label}`)
       }
     })
-    function arrayFromEdges(list: (number| string)[]) {
+    function arrayFromEdges(list: (number | string)[]) {
       if (list.length == 0)
         return "unknown"
       else if (list.length > 1)
