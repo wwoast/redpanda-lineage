@@ -1129,13 +1129,19 @@ export class Dataset {
     const working: Vertex = structuredClone(entity)
     /** And convert complicated things back to strings */
     if ("links" in entity) {
-      working.links.map((link: URLLink, index: number) => {
+      entity.links.map((link: URLLink, index: number) => {
         const naturalIndex = index + 1
         working[`link.${naturalIndex}`] = link.url
         working[`link.${naturalIndex}.language.order`] =
           Array.from(link["language.order"]).join(", ")
-        Object.keys(working.names).forEach(langKey =>
-          working[`link.${naturalIndex}.${langKey}.name`] = working.name[langKey])
+        Object.keys(link.name).forEach(langKey =>
+          working[`link.${naturalIndex}.${langKey}.name`] = link.name[langKey])
+        if (link.first)
+          Object.keys(link.first).forEach(langKey =>
+            working[`link.${naturalIndex}.${langKey}.first`] = link.first![langKey])
+        if (link.last)
+          Object.keys(link.last).forEach(langKey =>
+            working[`link.${naturalIndex}.${langKey}.last`] = link.last![langKey])
       })
     }
     delete working.links
