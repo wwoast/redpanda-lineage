@@ -250,7 +250,8 @@ function reviveZooNode(key: string, value: unknown, section?: string): any {
     return value   // Shouldn't happen
   switch (true) {
     case (key == "_id"):
-      return (parseInt(value as string) * -1).toString()
+      // TODO: zoos are negative in the files now
+      return (parseInt(value as string)).toString()
     case (key == "language.order"):
       return (value as string).split(", ") as Language[]
     case (key.endsWith("tags")):
