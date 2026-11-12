@@ -43,7 +43,7 @@ Subcommands:
         Restore all references to <author>'s removed photos, sorted by the
         "photo hash" of the photo file name. With [commitish], only restore
         <author>'s photos removed in that specific Git commit.
-  --sort-entities
+  --sort-all
         Sort image locators, and other keys, for any .txt file in the dataset.
         For images locators, use the "timestamp hash" in each photo URL and
         sort them in order of oldest-published to newest-published.
