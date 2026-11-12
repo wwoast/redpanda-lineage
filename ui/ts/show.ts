@@ -903,7 +903,7 @@ const mediaButton = {
     e.preventDefault()   // Prevent normal right-click menu from firing
     Env.current = Page.media.render
     let pandaIds = 
-      P.db.vertices.filter(entity => entity._id.toString().startsWith("media"))
+      P.db.vertices.filter(entity => entity.type == "media")
                    .filter(entity => entity.photos.length > 0)
                    .flatMap(entity => entity["panda.tags"])
     pandaIds = Pandas.distinct(pandaIds)

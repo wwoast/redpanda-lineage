@@ -121,9 +121,9 @@ function date_ymd_compare(birthday_ymd: ParsedDate, input_ymd: ParsedDate) {
  * Filter for distinct animals or zoos.
  * TODO: use unique instead from dagoba when dealing with graphs?
  */
-export function distinct(list: any[]) {
+export function distinct<T>(list: T[]) {
   const unique =
-    (value: any, index: number, self: any[]) => self.indexOf(value) === index
+    (value: T, index: number, self: T[]) => self.indexOf(value) === index
   return list.filter(unique)
 }
 
@@ -369,7 +369,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
  */
 function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
   const today = new Date()
-  let litter_ids = G.v()
+  let litter_ids: string[] = G.v()
     .filter((vertex: GraphNode) => {
       if (vertex.type != "panda") return false   // Only pandas
       const birthday = new Date(vertex.birthday)
@@ -429,8 +429,8 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   // this date, and include them all in the output. Have fallbacks
   // in case we don't have any litter birthdays
   let chosen_year = -1
-  let chosen_id = -1
-  let chosen_litter_ids: number[] = []
+  let chosen_id
+  let chosen_litter_ids: string[] = []
   if (has_litters.length > 0) {
     // TODO: ONLY ONE SET OF LITTERS IN THE BIRTHDAY FRONT PAGE. :/ Refactor.
     chosen_id = randomChoice(has_litters, 1)[0]
@@ -450,7 +450,7 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
     chosen_year = parseInt(chosen_animal.birthday.split("/")[0])
   }
   // Insert the litter mate into the list next to their sibling.
-  let s2_ids: number[] = []
+  let s2_ids: string[] = []
   const after_litter = []
   let remaining_count = max_count - chosen_litter_ids.length
   if (no_litters.length < remaining_count) {
@@ -466,7 +466,7 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
     if (current_year <= chosen_year) {
       s2_ids.unshift(current_id)
     } else if ((current_year == chosen_year) && 
-               (s2_ids.indexOf(chosen_id) == -1)) {
+               (!s2_ids.includes(chosen_id))) {
       s2_ids = s2_ids.concat(chosen_litter_ids)
       s2_ids.unshift(current_id)
     } else {
