@@ -281,7 +281,7 @@ export class Dataset {
   assertImportedAuthorLink = (path: string, link: string) => {
     const validLinkProtocols = ["http://", "https://", "ig://"]
     const match = validLinkProtocols.filter(
-      protocol => link.indexOf(protocol) == 0)
+      protocol => link.startsWith(protocol))
     if (match.length == 0)
       throw new Error(`[build] ERR: ${path}: ${link}: not a valid URL`)
   }
@@ -352,6 +352,8 @@ export class Dataset {
    * Checks the id value of a `location.X` field. Must be a positive integer
    * for a panda, negative integer for a zoo, `wild.X` for a wild location, or
    * `unknown` if we don't know.
+   * 
+   * TODO PREFIX-ID-VALIDATE
    */
   assertValidPandaOrZooId = (path: string, key: string, value: string) => {
     if (value == "unknown")
@@ -368,7 +370,7 @@ export class Dataset {
    */
   assertYoungPandaLocation = (vertex: NodePanda) => {
     if (!vertex.locations && vertex.birthplace != "unknown" && vertex.zoo)
-      if (vertex.birthplace != vertex.zoo)
+      if (vertex.birthplace != `zoo.${vertex.zoo}`)
         throw new Error(
           `[build] ERR: ${vertex.path}: for new pandas, birthplace and zoo must match`)
   }
@@ -459,14 +461,14 @@ export class Dataset {
    */
   edgesForPandaFamilies = (vertex: NodePanda) => {
     if (vertex.children) {
-      vertex.children.map((item: string) => {
-        if (item == "none") {
+      vertex.children.map(item => {
+        if (item === "none") {
           this.graph.addEdge({
             "_in": "none",
             "_label": "family",
             "_out": vertex._id
           })
-        } else if (item.includes("/")) {
+        } else if (typeof item === "string" && item.includes("/")) {
           const [childId, childPercent] = item.trim().split(" ")
           this.graph.addEdge({
             "_in": `panda.${childId}`,
@@ -484,8 +486,8 @@ export class Dataset {
       })
     }
     if (vertex.litter) {
-      vertex.litter.map((item: string) => {
-        if (item == "none") {
+      vertex.litter.map(item => {
+        if (item === "none") {
           this.graph.addEdge({
             "_in": "none",
             "_label": "litter",
@@ -508,35 +510,19 @@ export class Dataset {
    */
   edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
-      // Wild locations are string IDs
-      if ((typeof vertex.birthplace === "string") && 
-          (vertex.birthplace.indexOf("wild") == 0)) {
-        this.graph.addEdge({
-          "_in": vertex.birthplace,
-          "_label": "birthplace",
-          "_out": vertex._id
-        })
-      } else if (typeof vertex.birthplace === "string") {
-        this.graph.addEdge({
-          "_in": parseInt(vertex.birthplace) * -1,
-          "_label": "birthplace",
-          "_out": vertex._id
-        })         
-      // Zoo IDs are cast to negative numbers when added to the graph
-      } else if (typeof vertex.birthplace === "number") {
-        this.graph.addEdge({
-          "_in": vertex.birthplace * -1,
-          "_label": "birthplace",
-          "_out": vertex._id
-        })
-      }
+      // Zoo and wild locations are string IDs now
+      this.graph.addEdge({
+        "_in": vertex.birthplace,
+        "_label": "birthplace",
+        "_out": vertex._id
+      })
       // Now tracked as an edge, not a vertex property
       delete vertex.birthplace
     }
     // Zoo IDs are cast to negative numbers when added to the graph
     if (vertex.zoo) {
       this.graph.addEdge({
-        "_in": vertex.zoo * -1,
+        "_in": vertex.zoo.toString(),
         "_label": "zoo",
         "_out": vertex._id
       })
