@@ -330,7 +330,7 @@ declare global {
    */
   interface NodePhoto extends Vertex {
     /** Fixed identifier for either a media, panda, wild, or zoo node */
-    _id: number | string,
+    _id: string,
     /** Optional Instagram locator this photo represents */
     _ig_locator?: string,
     /** The single photo contributed by this fragment */

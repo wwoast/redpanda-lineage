@@ -192,10 +192,10 @@ export class Dataset {
     const litterEdges = this.graph.edges
       .filter(edge => edge._label == "litter")
       .filter(edge => edge._in._id != "none")
-    const seen_pairs: [number, number][] = []
+    const seen_pairs: [string, string][] = []
     litterEdges.map(edge => {
       // in the graph, edges point to vertexes
-      const pair: [number, number] = [
+      const pair: [string, string] = [
         (edge._in as NodePanda)._id,
         (edge._out as NodePanda)._id
       ]
@@ -219,7 +219,7 @@ export class Dataset {
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
     const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
-    const cycleCheck = (seen: Set<number>, panda: NodePanda): NodePanda[] => {
+    const cycleCheck = (seen: Set<string>, panda: NodePanda): NodePanda[] => {
       const parents = this.graph.v(panda).in("family").run() as NodePanda[]
       if (parents.length > 0) {
         // True if someone was their own parent
@@ -237,7 +237,7 @@ export class Dataset {
     }
     // TODO: this algorithm is broken because its running multiple checks at
     // once, when the seen logic only works for one animal tree check at a time
-    const seen = new Set<number>()
+    const seen = new Set<string>()
     const selfParents = pandas.flatMap(panda => {
       seen.add(panda._id)
       return cycleCheck(seen, panda)
@@ -469,15 +469,14 @@ export class Dataset {
         } else if (item.includes("/")) {
           const [childId, childPercent] = item.trim().split(" ")
           this.graph.addEdge({
-            "_in": parseInt(childId),
+            "_in": `panda.${childId}`,
             "_label": "family",
             "_out": vertex._id,
             "probability": childPercent
           })
         } else {
-          const childId = parseInt(item)
           this.graph.addEdge({
-            "_in": childId,
+            "_in": `panda.${item}`,
             "_label": "family",
             "_out": vertex._id
           })
@@ -493,9 +492,8 @@ export class Dataset {
             "_out": vertex._id
           })
         } else {
-          const litterId = parseInt(item)
           this.graph.addEdge({
-            "_in": litterId,
+            "_in": `panda.${item}`,
             "_label": "litter",
             "_out": vertex._id
           })
@@ -1300,8 +1298,6 @@ export class Dataset {
   
   renderZooObject = (entity: NodeZoo | NodeWild) => {
     const working: Vertex = structuredClone(entity)
-    if ((typeof entity._id === "number") && (entity.type == "zoo"))
-      working._id = entity._id * -1
     if ("address" in entity) {
       Object.keys(entity.address).map(language =>
         working[`${language}.address`] = entity.address[language as Language])

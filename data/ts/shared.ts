@@ -327,10 +327,10 @@ export function safeFilename(file: string) {
 
 /** Sort functions */
 
-/** Sort numeric IDs from lowest to highest */
-export function byIdAscending(v1: GraphNode, v2: GraphNode) {
-  const n1 = v1._id.split(".").pop()
-  const n2 = v2._id.split(".").pop()
+/** Sort numeric IDs from lowest to highest. All ids are `prefix.X` strings */
+export function byIdAscending(v1: PhotoGraphNode, v2: PhotoGraphNode) {
+  const n1 = v1._id.split(".")!.pop() as string
+  const n2 = v2._id.split(".")!.pop() as string
   return parseInt(n1) - parseInt(n2)
 }
 
