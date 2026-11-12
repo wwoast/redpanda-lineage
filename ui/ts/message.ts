@@ -630,7 +630,7 @@ export function arrivals(zoo: NodeZoo, born: NodePanda[]) {
   // If any animals were born, this message gets a baby icon suffix
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `arrivals/zoo/${zoo._id}`
+  const linkId = `arrivals/zoo/${Pandas.num(zoo._id)}`
   link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId)?.scrollIntoView(true)
@@ -756,7 +756,7 @@ export function departed_to_zoo(zooName: string, date: string) {
 export function departures(zoo: NodeZoo, deaths: NodePanda[], leaving: NodePanda[]) {
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `departures/zoo/${zoo._id}`
+  const linkId = `departures/zoo/${Pandas.num(zoo._id)}`
   link.id = linkId
   link.addEventListener("click",
     () => document.getElementById(linkId)?.scrollIntoView(true))
@@ -1016,7 +1016,7 @@ export function profile_where(name: string) {
 export function residents(zoo: NodeZoo) {
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `residents/zoo/${zoo._id}`
+  const linkId = `residents/zoo/${Pandas.num(zoo._id)}`
   link.id = linkId
   link.addEventListener("click",
     () => document.getElementById(linkId)?.scrollIntoView(true))

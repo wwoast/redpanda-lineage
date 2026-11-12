@@ -127,6 +127,11 @@ export function distinct(list: any[]) {
   return list.filter(unique)
 }
 
+/** Take a prefixed ID like `panda.100` and return 100 */
+export function num(prefixId: string) {
+  return parseInt(prefixId.split(".").pop() as string) as number
+}
+
 /** 
  * If given no argument, return a random number. Otherwise return a repeatable
  * random value.

@@ -173,7 +173,7 @@ export const Defaults: Defaults = {
     }
   },
   animal: {
-    "_id": 0,
+    "_id": "panda.0",
     "_in": [],
     "_out": [],
     "birthday": "1970/1/1",
@@ -202,6 +202,15 @@ export const Defaults: Defaults = {
       "ne": ["उपनामहरू फेला परेन"],
       "pt": ["Nenhum apelido registrado"],
       "zh": ["TOWRITE"],
+    },
+    "oldnames": {
+      "en": ["No Alternate Names Recorded"],
+      "es": ["No se registraron nombres alternativos"],
+      "ja": ["代わりのスペルは記録されていません"],
+      "ko": ["등록된 다른 이름이 없습니다"],
+      "ne": ["अरु नामहरु फेला परेन"],
+      "pt": ["Nenhum nome alternativo registrado"],
+      "zh": ["TOWRITE"]
     },
     "othernames": {
       "en": ["No Alternate Names Recorded"],
@@ -548,7 +557,7 @@ export const Defaults: Defaults = {
     "website": "https://www.worldwildlife.org/",
   },
   zoo: {
-    "_id": 0,
+    "_id": "zoo.0",
     "_in": [],
     "_out": [],
     "address": {

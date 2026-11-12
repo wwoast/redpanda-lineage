@@ -693,8 +693,8 @@ class MediaPage {
     document.getElementById('contentFrame')?.replaceWith(new_content)
     shrinkNames()
     Show.mediaMenus.language()
-    const result_id = pandaMedia._id.toString()
-    Show.mediaMenus.top.render(result_id)
+    const pandaNumericId = Pandas.num(pandaMedia._id)
+    Show.mediaMenus.top.render(pandaNumericId)
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -789,9 +789,9 @@ class ProfilePage {
     // Swap the new content into the page
     document.getElementById('contentFrame')?.replaceWith(new_content)
     Show.profileMenus.language()
-    const result_id = pandaProfile._id.toString()
+    const pandaNumericId = Pandas.num(pandaProfile._id)
     // TODO TOWRITE: need to take id of panda for buttons
-    Show.profileMenus.top.render(result_id)
+    Show.profileMenus.top.render(pandaNumericId)
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked

@@ -53,7 +53,7 @@ Subcommands:
 
 interface PhotoAndPath extends Photo {
   /** ID of the entity displayed in the photo */
-  _id: number | string,
+  _id: string,
   /** Natural number index for display */
   index: number,
   /** Copy of the file path from the Vertex */
@@ -134,11 +134,12 @@ async function findCommitWithMessage(repo: Git, message: string) {
 
 /** Remove all photos committed by a particular author */
 async function removeAuthorFromLineage(dataset: Dataset, author: string) {
-  // Only links entities are incapable of having photos
-  const entities = dataset.graph.vertices.filter(vertex => vertex.type != "links")
+  // Track only the entity types that can have photos
+  const entities = dataset.graph.vertices
+    .filter(vertex => ["media", "panda", "wild", "zoo"].includes(vertex.type))
   // Collect all photo URLs and record each .txt file path and photo index
   // where they are found
-  const idToPhotos: Record<string | number, PhotoAndPath[]> = {}
+  const idToPhotos: Record<string, PhotoAndPath[]> = {}
   entities
     .filter(vertex => vertex.photos && vertex.photos.length > 0)
     .flatMap(vertex => vertex.photos.map((photo: PhotoAndPath, index: number) => {
@@ -147,8 +148,8 @@ async function removeAuthorFromLineage(dataset: Dataset, author: string) {
       photo.path = vertex.path
       return photo
     }))
-    .filter(photo => photo.author == author)
-    .forEach(photo => {
+    .filter((photo: PhotoAndPath) => photo.author == author)
+    .forEach((photo: PhotoAndPath) => {
       if (!(photo._id in idToPhotos))
         idToPhotos[photo._id] = [photo]
       else
@@ -249,7 +250,7 @@ function removePhotosFromEntity(
 function resolveDuplicatePhotoUris(dataset: Dataset): number {
   let removedDuplicatesCount = 0
   const urlToPhotos: Record<string, PhotoAndPath[]> = {}
-  const idToVertex: Record<number | string, any> = {}
+  const idToVertex: Record<string, any> = {}
   // Only links entities are incapable of having photos
   const entities = dataset.graph.vertices.filter(vertex => vertex.type != "links")
   // Lookup list for vertexes by id, for writing these entities back to disk

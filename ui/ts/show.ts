@@ -98,7 +98,7 @@ function getZooBundle(location: ProfileLocation) {
 
 function getUnknownZooBundle(location: ProfileLocation) {
   return {
-    "_id": "0",
+    "_id": "zoo.0",
     "end_date": Pandas.formatDate(location["end_date"]),
     "language_order": [],
     "start_date": Pandas.formatDate(location["start_date"])
@@ -199,10 +199,10 @@ function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOpt
   a.append(trailing_text)
   if (options.indexOf("in_link") != -1) {
     // in_link: that finds a location on the displayed data
-    a.href = `#panda_${animal._id}`
+    a.href = `#panda_${Pandas.num(animal._id)}`
   } else {
     // go_link: creates a new results frame based on desired data
-    a.href = `#panda/${animal._id}`
+    a.href = `#panda/${Pandas.num(animal._id)}`
     // Force page to scroll to the top after a reload event
     a.addEventListener("click", topButton.action)
   }
@@ -216,7 +216,7 @@ function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOpt
 function appleLink(info: EnrichedEntity, container_element: string) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
-  credit_count_link.id = `${info._id}/counts/${info.photo_index}`   // Carousel
+  credit_count_link.id = `${Pandas.num(info._id)}/counts/${info.photo_index}`   // Carousel
   credit_count_link.href = `#credit/${info.photo_credit}`
   if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
     // Anonymous/uncredited photos get no apple link
@@ -267,7 +267,7 @@ function childIcon(gender: string) {
 /** Display a link to a photo credit on Instagram or elsewhere */
 function creditLink(info: EnrichedEntity, container_element: string) {
   const credit_link = document.createElement('a')
-  credit_link.id = `${info._id}/author/${info.photo_index}`   // Carousel
+  credit_link.id = `${Pandas.num(info._id)}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab
   credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link)
   if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
@@ -675,7 +675,7 @@ function zooLink(zoo: NodeZoo | NodeWild, link_text: string, icon?: string) {
   if (icon != undefined)
     inner_text = `${icon} ${inner_text}`
   a.innerText = inner_text
-  a.href = `#zoo/${zoo['_id']}`
+  a.href = `#zoo/${Pandas.num(zoo._id)}`
   // Force page to scroll to the top after a reload event
   a.addEventListener("click", topButton.action)
   return a
@@ -892,9 +892,9 @@ const linksButton = {
  * it shows group photos of a random animal, like a hidden _random_ button.
  */
 const mediaButton = {
-  action: function(panda_id: string) {
+  action: function(pandaNumericId: number) {
     Page.media.render()
-    window.location.href = `#media/${panda_id}`
+    window.location.href = `#media/${pandaNumericId}`
     // If language menu is open, hide it
     languageButton.hide()
     Env.current = Page.media.render
@@ -913,13 +913,13 @@ const mediaButton = {
     languageButton.hide()
     window.scrollTo(0, 0)   // Go to the top of the page
   },
-  render: function(class_name="profile", panda_id: string) {
+  render: function(class_name="profile", pandaNumericId: number) {
     const button = renderButton(
       "mediaButton",
       Emoji.media,
       Gui.media[Env.language],
       class_name)
-    button.addEventListener("click", () => this.action(panda_id))
+    button.addEventListener("click", () => this.action(pandaNumericId))
     button.addEventListener("contextmenu", this.altAction)
     return button
   }
@@ -1746,12 +1746,12 @@ export const profileMenus = {
   top: {
     buttons: <MenuButton[]>[homeButton, languageButton, profileButton, mediaButton, treeButton],
     /** A red menu bar: Home, Language, Profile, Media, Timeline */
-    render: function(panda_id: string) {
+    render: function(numericId: number) {
       const new_contents = document.createElement('div')
       new_contents.className = "shrinker"
       // Take the list of top-menu buttons and render them
       for (const buttonType of this.buttons) {
-        const button = buttonType.render("profile", panda_id)
+        const button = buttonType.render("profile", numericId)
         new_contents.appendChild(button)
       }
       // Remove exisitng contents and replace with new
@@ -2256,7 +2256,7 @@ export const resultsPage = {
     for (const index in Pandas.sortOldestToYoungest(info.litter)) {
       const animal = info.litter[index]
       const litter_link = animalLink(
-        animal, animal.name[Env.language], ["child_icon", "live_icon"])
+        animal, Language.fallback_name(animal), ["child_icon", "live_icon"])
       const li = document.createElement('li')
       li.appendChild(litter_link)
       ul.appendChild(li)
@@ -2291,7 +2291,7 @@ export const resultsPage = {
     dossier.className = "pandaDossier"
     dossier.appendChild(title)
     dossier.appendChild(details)
-    dossier.appendChild(family)
+    dossier.appendChild(family)   // TODO PREFIX-ID
     const result = document.createElement('div')
     result.className = "pandaResult"
     result.appendChild(frame)
