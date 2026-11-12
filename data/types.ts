@@ -183,7 +183,7 @@ declare global {
    * `links/<category>.txt` files with a `[links]` header.
    */
   interface NodeLinks extends Vertex {
-    /** Fixed string id prefixed with the word `links` */
+    /** Non-incrementing string id prefixed with `links.` */
     _id: string,
     /** The emoji that replaces list bullets on the rendered Links pages */
     icon: string,
@@ -199,8 +199,9 @@ declare global {
    */
   interface NodeMedia extends Vertex {
     /** 
-     * Fixed string id starting with `media.` and containing the zoo ID where
-     * the photo was taken, and two panda names (in English)
+     * Fixed `media.X.<name1>-<name2>` identifier where `X` is the zoo ID the
+     * photo was taken at, and <name1>-<name2> are the succession of panda
+     * names in the photo, in English alphabetical order.
      */
     _id: string,
     /**
@@ -238,8 +239,8 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodePanda extends Vertex {
-    /** Numeric fixed identifier that we increment each time a panda is added */
-    _id: number,
+    /** Fixed `panda.X` identifier that increments when adding new pandas */
+    _id: string,
     /** YYYY/MM/DD birthday string */
     birthday: string,
     /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
@@ -356,10 +357,7 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodeWild extends Vertex {
-    /** 
-     * Numeric fixed identifier that we increment for each place a wild panda
-     * has been documented by science.
-     */
+    /** Fixed `wild.X` identifier that increments when adding new locations */
     _id: string,
     /** A stub address to match what similar zoo addresses strings look like */
     address: StringPerLanguage
@@ -391,8 +389,8 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodeZoo extends Vertex {
-    /** Numeric fixed identifier that we increment each time a zoo is added */
-    _id: number,
+    /** Fixed `zoo.X` identifier that increments when adding new zoos */
+    _id: string,
     /** Street address string, represented in our supported languages */
     address: StringPerLanguage,
     /** When a zoo closes permanently, we record the date in YYYY/MM/DD format */
@@ -486,8 +484,8 @@ declare global {
     classes?: string[],
     /** Optional icon appearing next to the photo author caption */
     credit_icon?: string,
-    /** The numeric or string ID this photo represents */
-    _id: number | string,
+    /** The GraphNode ID this photo represents */
+    _id: string,
     /** Natural number index for displaying in carousels */
     index: number,
     /** Optional icon appearing next to the animal name caption */
@@ -511,8 +509,8 @@ declare global {
    * Dagobah graph.
    */
   interface EnrichedPanda {
-    /** The numeric string ID for the `EnrichedPanda` animal */
-    _id: number | string,
+    /** The `panda.X` string ID for the `EnrichedPanda` animal */
+    _id: string,
     /** 
      * String describing the panda's age. Birthdates are not more granular than
      * one day of accuracy, so the calculations track number of days. Prior to
@@ -598,8 +596,8 @@ declare global {
    * graph.
    */
   interface EnrichedZoo {
-    /** The numeric string ID for the `EnrichedZoo` zoo */
-    _id: number | string,
+    /** The `zoo.X` string ID for the `EnrichedZoo` zoo */
+    _id: string,
     /** The address of this zoo, translated into the current display language. */
     address: string,
     /** The number of animals currently living at this zoo */
