@@ -244,9 +244,9 @@ declare global {
     /** YYYY/MM/DD birthday string */
     birthday: string,
     /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
-    birthplace?: number | string,
-    /** Numeric string ids for any children of this animal */
-    children: string[],
+    birthplace: string,
+    /** Numeric ids for any children of this animal */
+    children: number[],
     /**
      * YYYY/MM/DD representing the day this panda was added to redpandafinder,
      * for the sake of showing newly-added pandas on the front page.
@@ -263,7 +263,7 @@ declare global {
      */
     "language.order": Set<Language>,
     /** Animals born in the same litter as this one, by numeric string ID */
-    litter: string[],
+    litter: number[],
     /** List from oldest to newest, of zoo locations the panda has lived at */
     locations: PandaLocation[], 
     /** 
@@ -305,11 +305,11 @@ declare global {
     /** Freetext describing possible accuracy errors for this animal */
     uncertainty?: string,
     /** 
-     * The wild identifier (a `wild.\d+` string ID) that indicates the region a
-     * wild red panda was witnessed at. Any given panda indicates its current
-     * location either with a single `wild` property or a single `zoo` property.
+     * The wild numeric ID that indicates the region a wild red panda was
+     * witnessed at. Any given panda indicates its current location either
+     * with a single `wild` property or a single `zoo` property.
      */
-    wild?: string
+    wild?: number
     /** The zoo numeric ID where the animal currently lives */
     zoo?: number
   }
