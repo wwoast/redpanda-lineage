@@ -1,5 +1,5 @@
 [panda]
-_id: 960
+_id: panda.960
 birthday: 1990/6/18
 birthplace: 17
 children: 961, 50, 472, 549, 171, 306

@@ -1,5 +1,5 @@
 [panda]
-_id: 34
+_id: panda.34
 birthday: 2003/7/5
 birthplace: 16
 children: 48, 72, 42, 85, 35, 46, 19, 199

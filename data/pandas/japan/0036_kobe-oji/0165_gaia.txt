@@ -1,5 +1,5 @@
 [panda]
-_id: 165
+_id: panda.165
 birthday: 2004/6/10
 birthplace: 12
 children: 120, 166, 167

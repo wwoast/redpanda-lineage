@@ -1,5 +1,5 @@
 [panda]
-_id: 405
+_id: panda.405
 birthday: 2005/5/10
 birthplace: 34
 children: 404, 406, 399, 402, 403, 461, 410

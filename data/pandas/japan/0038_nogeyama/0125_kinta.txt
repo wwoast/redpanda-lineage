@@ -1,5 +1,5 @@
 [panda]
-_id: 125
+_id: panda.125
 birthday: 2000/6/8
 birthplace: 39
 children: none

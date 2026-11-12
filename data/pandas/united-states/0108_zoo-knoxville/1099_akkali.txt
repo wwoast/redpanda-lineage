@@ -1,5 +1,5 @@
 [panda]
-_id: 1099
+_id: panda.1099
 birthday: 2002/12/24
 birthplace: 204
 children: 1097, 1098, 546, 618, 809

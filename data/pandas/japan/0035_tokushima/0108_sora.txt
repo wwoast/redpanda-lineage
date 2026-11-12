@@ -1,5 +1,5 @@
 [panda]
-_id: 108
+_id: panda.108
 birthday: 2008/6/16
 birthplace: 10
 children: 282, 285, 110, 141, 203, 204

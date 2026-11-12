@@ -1,5 +1,5 @@
 [panda]
-_id: 1203
+_id: panda.1203
 birthday: 2017/7/8
 birthplace: 211
 children: 1205, 1206, 1207, 1204

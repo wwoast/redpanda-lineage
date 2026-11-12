@@ -1,5 +1,5 @@
 [panda]
-_id: 978
+_id: panda.978
 birthday: 2000/6/26
 birthplace: 208
 children: 981, 979, 980, 975, 976, 977

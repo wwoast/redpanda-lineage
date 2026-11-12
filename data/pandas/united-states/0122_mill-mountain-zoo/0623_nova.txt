@@ -1,5 +1,5 @@
 [panda]
-_id: 623
+_id: panda.623
 birthday: 2006/6/27
 birthplace: 104
 children: 625, 626, 627, 628
