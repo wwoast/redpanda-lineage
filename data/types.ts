@@ -145,7 +145,7 @@ declare global {
      * Set of ISO-639-1 codes representing a language, which redpandafinder
      * will render as a set of flags after the link itself.
      */
-    "language.order": Set<string>,
+    "language.order"?: Set<string>,
     /** Destination of the link when clicked */
     url: string
   }

@@ -994,8 +994,12 @@ export class Dataset {
         first: {},
         last: {},
         name: {},
-        "language.order": vertex[`${linkKey}.language.order`],
         url: vertex[linkKey]
+      }
+      // language.order is optional
+      if (vertex[`${linkKey}.language.order`]) {
+        linkObject["language.order"] = vertex[`${linkKey}.language.order`]
+        delete vertex[`${linkKey}.language.order`]
       }
       for (const subKey of ["first", "last", "name"])
         processLanguageString(linkObject, linkKey, subKey)
@@ -1003,7 +1007,6 @@ export class Dataset {
       // Once we've made objects out of the items on this vertex, delete the
       // source keys that information originated from.
       delete vertex[linkKey]
-      delete vertex[`${linkKey}.language.order`]
     })
   }
 
@@ -1132,8 +1135,9 @@ export class Dataset {
       entity.links.map((link: URLLink, index: number) => {
         const naturalIndex = index + 1
         working[`link.${naturalIndex}`] = link.url
-        working[`link.${naturalIndex}.language.order`] =
-          Array.from(link["language.order"]).join(", ")
+        if (link["language.order"])
+          working[`link.${naturalIndex}.language.order`] =
+            Array.from(link["language.order"]).join(", ")
         Object.keys(link.name).forEach(langKey =>
           working[`link.${naturalIndex}.${langKey}.name`] = link.name[langKey])
         if (link.first)
