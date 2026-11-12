@@ -249,9 +249,6 @@ function reviveZooNode(key: string, value: unknown, section?: string): any {
   if (section != "zoo")
     return value   // Shouldn't happen
   switch (true) {
-    case (key == "_id"):
-      // TODO: zoos are negative in the files now
-      return (parseInt(value as string)).toString()
     case (key == "language.order"):
       return (value as string).split(", ") as Language[]
     case (key.endsWith("tags")):
@@ -331,8 +328,10 @@ export function safeFilename(file: string) {
 /** Sort functions */
 
 /** Sort numeric IDs from lowest to highest */
-export function byIdAscending(v1: Record<string, any>, v2: Record<string, any>) {
-  return v1._id - v2._id
+export function byIdAscending(v1: GraphNode, v2: GraphNode) {
+  const n1 = v1._id.split(".").pop()
+  const n2 = v2._id.split(".").pop()
+  return parseInt(n1) - parseInt(n2)
 }
 
 /** Sort lists of numbers highest to lowest */

@@ -56,7 +56,7 @@ export type Edge = {
  * edges. Extend this to add other kinds of typed fields.
  */
 export interface Vertex {
-  _id: number | string,
+  _id: string,
   _in: Edge[],
   _out: Edge[],
   [k: string]: any
@@ -64,7 +64,7 @@ export interface Vertex {
 
 /** Vertices submitted as arguments may not have ids, or edges defined yet. */
 export type CandidateVertex = {
-  _id?: number | string,
+  _id?: string,
   _in?: Edge[],
   _out?: Edge[],
   [k: string]: any
@@ -72,9 +72,9 @@ export type CandidateVertex = {
 
 /** Edges submitted as arguments may just have references to vertexes by id */
 export type DanglingEdge = {
-  _in: number | string,
+  _in: string,
   _label: string,
-  _out: number,
+  _out: string,
   [k: string]: any
 }
 
@@ -141,10 +141,8 @@ class Graph {
   /** accepts a vertex-like object, with properties */
   addVertex(vertex: CandidateVertex) {
     // ensure autoid doesn't overwrite
-    if (typeof vertex._id == 'number' && vertex._id >= this.autoid)
-      this.autoid = vertex._id + 1
     if (!vertex._id)
-      vertex._id = ++this.autoid
+      vertex._id = (++this.autoid).toString()
     else if (this.findVertexById(vertex._id))
       return error(`A vertex with id ${vertex._id} already exists`)
     // placeholders for edge pointers
@@ -168,22 +166,22 @@ class Graph {
     return vertex._out
   }
 
-  findVertexById(vertex_id: number | string) {
-    return this.vertexIndex[`${vertex_id}`]
+  findVertexById(vertex_id: string) {
+    return this.vertexIndex[vertex_id]
   }
 
   /** our general vertex finding function */
-  findVertices(args: Filter[] | number[]) {
+  findVertices(args: Filter[] | string[]) {
     if (typeof args[0] == 'object')
       return this.searchVertices(args[0])
     // OPT: slice is costly with lots of vertices
     else if (args.length == 0)
       return this.vertices.slice()
     else
-      return this.findVerticesByIds(args as number[])
+      return this.findVerticesByIds(args as string[])
   }
 
-  findVerticesByIds(ids: number[]) {
+  findVerticesByIds(ids: string[]) {
     if (ids.length == 1) {
       // maybe_vertex is either a vertex or undefined
       const maybe_vertex = this.findVertexById(ids[0])
