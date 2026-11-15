@@ -391,7 +391,7 @@ export default class Layout {
         cur_list.style.order = this.layout.boxOrder++
         this.section.family.append(cur_list)
         this.layout.distance++
-        if ((this.distance == 2) && (nobreak != true)) {
+        if ((this.layout.distance == 2) && (nobreak != true)) {
           const breaker = divider("onlyMobile")
           breaker.style.order = this.layout.boxOrder++
           this.section.family.append(breaker)

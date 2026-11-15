@@ -200,7 +200,7 @@ export class Carousel {
       ? `${this.unique}_${entity_id}`
       : `${entity_id}`
     if (entity_id.includes("_"))
-      entity_id = carousel_id.split("_").pop()
+      entity_id = carousel_id.split("_").pop() as string
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
     if (!current_photo_element) return

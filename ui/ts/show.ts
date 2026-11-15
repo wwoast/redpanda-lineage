@@ -2084,7 +2084,7 @@ export const profilePage = {
       const zoo_entry = document.createElement('ul')
       zoo_entry.className = "zooList"
       const zoo_name = document.createElement('li')
-      const zoo_link = zooLink(zoo_info, zoo_info.name[Env.language], zoo_icon)
+      const zoo_link = zooLink(zoo_info, Language.fallback_name(zoo_info), zoo_icon)
       const zoo_date = document.createElement('span')
       zoo_date.className = "detail"
       zoo_date.innerText = date_string
@@ -2233,7 +2233,7 @@ export const resultsPage = {
     if (info.children.length > 0)
       children = this.children(info)
     const layout = new Layout(family, info, parents, litter, siblings, children)
-    return layout
+    return layout.section.family
   },
   groupGallery: function(id_list: string[]) {
     const gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"]

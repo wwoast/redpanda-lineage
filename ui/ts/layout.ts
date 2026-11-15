@@ -13,6 +13,7 @@ import { Defaults } from './lookup.ts'
 
 /** Tells JS to do operations on either a mobile or desktop size window */
 export const mediaQuery = () => window.matchMedia("(max-width: 670px)")
+export const defaultHeight = "500px"
 
 /** 
  * Media-query height adjustment listeners, plus making sure the height
@@ -25,10 +26,11 @@ mediaQuery().addEventListener("change", recomputeHeight)
  * Create a divider. This is a horizontal rule element with 100% width. Works
  * great for breaking the flow of either a flex box or a multiColumn box
  */
-function divider(className) {
+function divider(className: string) {
   const breaker = document.createElement('hr')
   breaker.className = "divider"
-  breaker.classList.add(className)
+  if (!(["enabled", "disabled"].includes(className)))
+    breaker.classList.add(className)
   return breaker
 }
 
@@ -37,7 +39,7 @@ function divider(className) {
  * class, we need to add a line-break entity afterwards, and bump the flex box
  * display order of subsequent inserted divs.
  */
-function flatten(div, mode) {
+function flatten(div: HTMLDivElement, mode: DividerMode) {
   div.childNodes[1].classList.add("double")
   if (mode == "onlyMobile") {
     div.childNodes[1].classList.add("onlyMobile")
@@ -46,7 +48,7 @@ function flatten(div, mode) {
 }
 
 /** Take a div list, and apply a column-mode class to it. */
-function multiColumn(div, columnCount=2, extraStyle=undefined) {
+function multiColumn(div: HTMLDivElement, columnCount=2, extraStyle?: string) {
   if (columnCount == 2) {
     div.childNodes[1].classList.add("double")
     div.classList.add("double")
@@ -65,15 +67,16 @@ function multiColumn(div, columnCount=2, extraStyle=undefined) {
  * Create all permutations of an input array. This is used to determine the
  * arrangements of parents and children in the layout function
  */
-function permutations(input) {
-  const results = []
-  if (input.length == 1) {
-    return input
-  }
+function permutations<T>(input: T[]): T[][] {
+  const results: T[][] = []
+  if (input.length == 0)
+    return []
+  if (input.length == 1)
+    return [input]
   for (let i = 0; i < input.length; i++) {
     const firstVal = input[i]
     const valsLeft = input.slice(0, i).concat(input.slice(i + 1))
-    const innerPermutations = permutations(valsLeft)
+    const innerPermutations = permutations<T>(valsLeft) ?? []
     for (let j = 0; j < innerPermutations.length; j++) {
       results.push([firstVal].concat(innerPermutations[j]))
     }
@@ -86,8 +89,8 @@ function permutations(input) {
  * For now, these vertical flow details only exist in mobile mode, so we can
  * turn them off when setting height values outside mobile.
  */
-export function recomputeHeight(e) {
-  const families = document.getElementsByClassName("family")
+export function recomputeHeight(e: MediaQueryListEvent) {
+  const families = document.querySelectorAll<HTMLDivElement>(".family")
   if ((e.matches == false) || (e.type == "DOMContentLoaded")) {
     // Not in a mobile mode
     for (const family_div of families) {
@@ -96,7 +99,8 @@ export function recomputeHeight(e) {
         family_div.style.height = "";
       } else {
         // Recalculate height after media query change
-        family_div.style.height = family_div.dataset.height_desktop;
+        family_div.style.height =
+          family_div.dataset.height_desktop ?? defaultHeight
       }
     }
   } else {
@@ -107,26 +111,36 @@ export function recomputeHeight(e) {
         family_div.style.height = "";
       } else {
         // Recalculate height after media query change
-        family_div.style.height = family_div.dataset.height_mobile;
+        family_div.style.height = family_div.dataset.height_mobile!
       }
     }
   }
 }
 
+type WidthSelect = "outer" | "inner"
 /** 
  * Look for span elements that are children of links, in the family bars. Any
  * of these displayed in the page larger than 100px will get shrunk.
  */
 export function shrinkNames() {
-  const width_check = function(span, element, width_select) {
+  const width_check = function(
+    span: HTMLSpanElement,
+    element: HTMLElement,
+    width_select: WidthSelect
+  ) {
     let width = element.offsetWidth   // Default to outer width
     if (width_select == "inner") {
       width = span.offsetWidth;
     }
     return width; 
   }
-  const shrinker = function(element, nth, width_select, condensed_width) {
-    const span = element.childNodes[nth]
+  const shrinker = function(
+    element: HTMLElement,
+    nth: number,
+    width_select: WidthSelect,
+    condensed_width: number
+  ) {
+    const span = element.childNodes[nth] as HTMLSpanElement
     let width = width_check(span, element, width_select)
     if (width > condensed_width) {
       span.classList.add("condensed")
@@ -138,47 +152,53 @@ export function shrinkNames() {
         span.classList.remove("condensed")
       }
     }
-    // TODO: ES6
     // Fix the spacing for strings that have mixed character sets.
     // Fixes long mixed-range strings like "Erin Curry博士"
-    const latin = Defaults.ranges['en'].some(function(range) {
+    const latin = Defaults.ranges['en']!.some(function(range) {
       return range.test(span.innerText);
     });
-    const cjk = Defaults.ranges['ja'].some(function(range) {
+    const cjk = Defaults.ranges['ja']!.some(function(range) {
       return range.test(span.innerText);
     });
     if (latin && cjk) {
       span.classList.add("adjusted");
     }
   }
-  const expander = function(element, nth, _, __) {
-    const span = element.childNodes[nth]
+  const expander = function(element: HTMLElement, nth: number) {
+    const span = element.childNodes[nth] as HTMLSpanElement
     span.classList.remove("condensed")
     span.classList.remove("ultraCondensed")
     span.classList.remove("adjusted")
     // Still apply the condenser style to author nodes, so the updates page
     // doesn't have super long names in the author boxes
-    var author_nodes = document.getElementsByClassName("caption updateAuthor")
-    var more_author_nodes =
-      document.getElementsByClassName("caption updateAuthorCredit")
+    const author_nodes =
+      document.querySelectorAll<HTMLHeadingElement>(".caption.updateAuthor")
+    const more_author_nodes =
+      document.querySelectorAll<HTMLHeadingElement>(".caption.updateAuthorCredit")
     for (let caption of author_nodes) {
       // shrinker(caption, 0, "inner", caption.clientWidth - 10, caption.clientWidth)
-      shrinker(caption, 0, "inner", 160, 170)
+      shrinker(caption, 0, "inner", 160)
     }
     for (let caption of more_author_nodes) {
       // shrinker(caption, 0, "inner", caption.clientWidth - 10, caption.clientWidth)
-      shrinker(caption, 0, "inner", 160, 170)
+      shrinker(caption, 0, "inner", 160)
     }
   }
   let action = shrinker
   if (mediaQuery().matches == false)
     action = expander
-  const link_nodes = document.getElementsByClassName("geneaologyListName")
-  const birthday_nodes = document.getElementsByClassName("caption birthdayMessage")
-  const memorial_nodes = document.getElementsByClassName("caption memorialMessage")
-  const author_nodes = document.getElementsByClassName("caption updateAuthor")
-  const more_author_nodes = document.getElementsByClassName("caption updateAuthorCredit")
-  const media_author_nodes = document.getElementsByClassName("caption groupMediaAuthor")
+  const link_nodes =
+    document.querySelectorAll<HTMLAnchorElement>(".geneaologyListName")
+  const birthday_nodes =
+    document.querySelectorAll<HTMLHeadingElement>(".caption.birthdayMessage")
+  const memorial_nodes =
+    document.querySelectorAll<HTMLHeadingElement>(".caption.memorialMessage")
+  const author_nodes =
+    document.querySelectorAll<HTMLHeadingElement>(".caption.updateAuthor")
+  const more_author_nodes =
+    document.querySelectorAll<HTMLHeadingElement>(".caption.updateAuthorCredit")
+  const media_author_nodes =
+    document.querySelectorAll<HTMLHeadingElement>(".caption.groupMediaAuthor")
   for (const link of link_nodes)
     shrinker(link, 1, "outer", 125)
   for (const caption of birthday_nodes)
@@ -193,12 +213,30 @@ export function shrinkNames() {
     action(caption, 0, "inner", 130)
 }
 
+type SubSection = "children" | "litter" | "parents" | "siblings"
+type Section = SubSection | "family"
+type DisplayMode = "onlyMobile" | "onlyDesktop"
+type DividerMode = "disabled" | "enabled" | DisplayMode
+export interface Layout {
+  layout: {
+    boxOrder: number,
+    cutoffs: number[],
+    distance: number,
+    dividerMode: DividerMode,
+    height_desktop: string,
+    height_mobile: string,
+    list_default: SubSection[],
+    list_order: SubSection[],
+  }
+  num: Record<SubSection, number>,
+  section: Partial<Record<Section, HTMLDivElement>>
+}
 /**
  * Instance a Layout object for arranging the names of panda relatives in a
  * results card, to minimize the amount of vertical space the relative names
  * take up on the page.
  */
-export default class Layout {
+export class Layout {
   /**
    * All details of creating new content and arranging that content happens in
    * the `layout` namespace. This includes layout rules, list ordering, and the
@@ -222,39 +260,39 @@ export default class Layout {
     distance: 0,
     /**
      * Modal check to add a divider to the layout flow. May be `true`/`false`,
-     * or a `mobileOnly` setting
+     * `onlyMobile`, `onlyDesktop`, or `both` setting
      */
-    dividerMode: false,
+    dividerMode: "disabled" as DividerMode,
     /**
      * Height values to apply to the family box/DOM node when in vertical-flow
      * mode on desktop. This is required for the flex box to properly flow the
      * child elements. The default values here are arbitrary!
      */
-    height_desktop: "500px",
+    height_desktop: defaultHeight,
     /**
      * Height values to apply to the family box/DOM node when in vertical-flow
      * mode on mobile. This is required for the flex box to properly flow the
      * child elements. The default values here are arbitrary!
      */
-    height_mobile: "500px",
+    height_mobile: defaultHeight,
     /** 
      * The default order of parents/litter/siblings/children in the flow of
      * the family box/DOM node
      */
-    list_default: ["parents", "litter", "siblings", "children"],
+    list_default: ["parents", "litter", "siblings", "children"] as SubSection[],
     /** 
      * The modified or selected order of parents/litter/siblings/children in
      * the flow of the family box/DOM node, with items removed if no siblings
      * or litter or children are known/present.
      */
-    list_order: ["parents", "litter", "siblings", "children"],
+    list_order: ["parents", "litter", "siblings", "children"] as SubSection[],
   }
   /** 
    * Number of animals for laying out in each of the parent, litter, siblings,
    * and children columns. If one parent is unknown, we insert a "star-parent"
    * 👩‍🎤👨‍🎤 entry and count that towards the layout totals here.
    */
-  num = {
+  num: Record<SubSection, number> = {
     children: 0,
     litter: 0,
     parents: 0,
@@ -265,16 +303,17 @@ export default class Layout {
    * lists. They are all contained in the family DOM node once the layout code
    * has finished its job.
    */
-  section = {
-    children: undefined,
-    family: undefined,
-    litter: undefined,
-    parents: undefined,
-    siblings: undefined
-  }
+  section: Partial<Record<Section, HTMLDivElement>> = {}
 
   /** Set the initial layout state, and perform a layout computation */
-  constructor(family, info, parents, litter, siblings, children) {
+  constructor(
+    family: HTMLDivElement,
+    info: EnrichedPanda,
+    parents?: HTMLDivElement,
+    litter?: HTMLDivElement,
+    siblings?: HTMLDivElement,
+    children?: HTMLDivElement
+  ) {
     // The first case accounts for uncertainty (i.e. a panda has 2+ possible
     // moms or dads). The second case accounts for if a mom or dad is not
     // recorded, we fill in an unknown "star-mom 👩‍🎤" or "star-dad 👨‍🎤".
@@ -302,7 +341,7 @@ export default class Layout {
     const orders = permutations(this.layout.list_order)
     // Find the name of an arrangement function based on the list counts.
     // divn_parentcnt_littercnt_siblingcnt_childcnt => example: div6_2_1_3_0
-    let arrangeId = undefined;
+    let arrangeId = undefined
     for (const order of orders) {
       this.layout.list_order = order
       const test = `div${sum}_${order.map(list => this.num[list]).join("_")}`
@@ -318,7 +357,7 @@ export default class Layout {
     } else {
       this.arrange.default()
     }
-    return this.section.family
+    return this
   }
 
   /** Get the number of non-empty columns */
@@ -340,7 +379,7 @@ export default class Layout {
    * In other words, the cutoff column reads the number of list items underneath
    * which it should remain in n columns.
    */
-  multiColumnCount(list_len) {
+  multiColumnCount(list_len: number) {
     const cutoffs = this.layout.cutoffs
     return cutoffs.indexOf(cutoffs.filter(x => x >= list_len)[0]) - 1
   }
@@ -355,7 +394,7 @@ export default class Layout {
       this.layout.list_order = this.layout.list_default
     }
     this.layout.distance = 0
-    this.layout.dividerMode = false
+    this.layout.dividerMode = "disabled"
   }
 
   /** 
@@ -388,13 +427,13 @@ export default class Layout {
       // Add line breaks after every two columns, and add order values to every item
       for (let i = 0; i < lists.length; i++) {
         const cur_list = lists[i]
-        cur_list.style.order = this.layout.boxOrder++
-        this.section.family.append(cur_list)
+        cur_list.style.order = `${this.layout.boxOrder++}`
+        this.section.family!.append(cur_list)
         this.layout.distance++
-        if ((this.distance == 2) && (nobreak != true)) {
+        if ((this.layout.distance == 2) && (nobreak != true)) {
           const breaker = divider("onlyMobile")
-          breaker.style.order = this.layout.boxOrder++
-          this.section.family.append(breaker)
+          breaker.style.order = `${this.layout.boxOrder++}`
+          this.section.family!.append(breaker)
           this.resetCounters("breakers")
         }
       }
@@ -407,7 +446,11 @@ export default class Layout {
      * be "onlyMobile", "onlyDesktop", or "both".
      * TODO: have modes for both the breakers and the multicolumn classes
      */
-    oneMultiColumn: (columns=0, breaker_mode="both", column_mode="both") => {
+    oneMultiColumn: (
+      columns = 0,
+      breaker_mode: DividerMode = "enabled",
+      column_mode: DividerMode = "enabled"
+    ) => {
       // Decide which line breaker mode to use based on whether this comes after
       // a multicolumn, or just in the normal flow of adding columns
       let breaking_style = breaker_mode
@@ -421,7 +464,7 @@ export default class Layout {
       // Add line breaks after every two columns, and order-values to every item
       for (let i = 0; i < lists.length; i++) {
         const cur_list = lists[i]
-        cur_list.style.order = this.layout.boxOrder++
+        cur_list.style.order = `${this.layout.boxOrder++}`
         const list_name = order[i]
         const list_len = this.num[list_name]
         // What the multicolumn split should be
@@ -434,12 +477,12 @@ export default class Layout {
           this.layout.dividerMode = column_mode
           breaking_style = column_mode   // Will do an after-column-style break
         }
-        this.section.family.append(cur_list)
+        this.section.family!.append(cur_list)
         this.layout.distance++
-        if ((this.layout.distance == 2) || (this.layout.dividerMode != false)) {
+        if ((this.layout.distance == 2) || (this.layout.dividerMode != "disabled")) {
           const breaker = divider(breaking_style)
-          breaker.style.order = this.layout.boxOrder++
-          this.section.family.append(breaker)
+          breaker.style.order = `${this.layout.boxOrder++}`
+          this.section.family!.append(breaker)
           this.resetCounters("breakers")
           breaking_style = breaker_mode   // Revert to normal break style
         }
@@ -451,7 +494,11 @@ export default class Layout {
      * Turn all lists into multi-columns on mobile, while only doing the long
      * lists as multi-column on the desktop.
      */
-    allMultiColumns: (columns=0, breaker_mode="both", column_mode="both") => {
+    allMultiColumns: (
+      columns = 0,
+      breaker_mode: DividerMode = "enabled",
+      column_mode: DividerMode ="enabled"
+    ) => {
       // Decide which line breaker mode to use based on whether this comes after
       // a multicolumn, or just in the normal flow of adding columns
       let breaking_style = breaker_mode
@@ -465,7 +512,7 @@ export default class Layout {
       // Add line breaks after every two columns, and order-values to every item
       for (let i = 0; i < lists.length; i++) {
         const cur_list = lists[i]
-        cur_list.style.order = this.layout.boxOrder++;
+        cur_list.style.order = `${this.layout.boxOrder++}`
         const list_name = order[i]
         const list_len = this.num[list_name]
         // What the multicolumn split should be. Flatten two-item lists also
@@ -478,13 +525,13 @@ export default class Layout {
           multiColumn(cur_list, mc_count)
         }
         this.layout.dividerMode = column_mode   // Add a divider based on input mode
-        breaking_style = column_mode   //Will do an after-column-style break
-        this.section.family.append(cur_list)
+        breaking_style = column_mode   // Will do an after-column-style break
+        this.section.family!.append(cur_list)
         this.layout.distance++
-        if ((this.layout.distance == 2) || (this.layout.dividerMode != false)) {
-          var breaker = divider(breaking_style)
-          breaker.style.order = this.layout.boxOrder++
-          this.section.family.append(breaker)
+        if ((this.layout.distance == 2) || (this.layout.dividerMode != "disabled")) {
+          const breaker = divider(breaking_style)
+          breaker.style.order = `${this.layout.boxOrder++}`
+          this.section.family!.append(breaker)
           this.resetCounters("breakers")
           breaking_style = breaker_mode   // Revert to normal break style
         }
@@ -493,7 +540,7 @@ export default class Layout {
       this.resetCounters("all")
     },
     /** Flatten a single column (the first one) both on mobile and desktop */
-    flattenSimple: (mode="onlyMobile") => {
+    flattenSimple: (mode: DividerMode = "onlyMobile") => {
       // Specific list values that exist (this.section["parents"] = HTMLElement)
       const lists = this.layout.list_default
         .map(x => this.section[x])
@@ -501,18 +548,18 @@ export default class Layout {
       // Add line breaks after every two columns, and order-values to every item
       for (let i = 0; i < lists.length; i++) {
         const cur_list = lists[i]
-        cur_list.style.order = this.layout.boxOrder++
+        cur_list.style.order = `${this.layout.boxOrder++}`
         // Flatten the first list
         if (i == 0) {
           flatten(cur_list, mode)
           this.layout.dividerMode = mode
         }
-        this.section.family.append(cur_list)
-        this.distance++
-        if ((this.layout.distance == 2) || (this.layout.dividerMode != false)) {
+        this.section.family!.append(cur_list)
+        this.layout.distance++
+        if ((this.layout.distance == 2) || (this.layout.dividerMode != "disabled")) {
           const breaker = divider("onlyMobile")
-          breaker.style.order = this.boxOrder++
-          this.section.family.append(breaker)
+          breaker.style.order = `${this.layout.boxOrder++}`
+          this.section.family!.append(breaker)
           this.resetCounters("breakers")
         }
       }
@@ -525,7 +572,11 @@ export default class Layout {
      * TODO: need desktop or mobile modal flags for BOTH the flattening and the
      * multicolumn mode
      */
-    flattenPlusMultiColumn: (columns=0, breaker_mode="both", column_mode="both") => {
+    flattenPlusMultiColumn: (
+      columns = 0,
+      breaker_mode: DividerMode = "enabled",
+      column_mode: DividerMode = "enabled"
+    ) => {
       // Decide which line breaker mode to use based on whether this comes after
       // a multicolumn, or just in the normal flow of adding columns
       let breaking_style = breaker_mode
@@ -539,14 +590,14 @@ export default class Layout {
       // Add line breaks after every two columns, and order-values to every item
       for (let i = 0; i < lists.length; i++) {
         const cur_list = lists[i]
-        cur_list.style.order = this.layout.boxOrder++
+        cur_list.style.order = `${this.layout.boxOrder++}`
         const list_name = order[i]
         const list_len = this.num[list_name]
         // Flatten the first list, but only on mobile.
         if (i == 0)
           flatten(cur_list, "onlyMobile")
         // What the multicolumn split should be
-        let mc_count = columns;
+        let mc_count = columns
         if (mc_count == 0)
           mc_count = this.multiColumnCount(list_len)
         if (list_len == this.longestList()) {
@@ -555,14 +606,14 @@ export default class Layout {
           this.layout.dividerMode = column_mode
           breaking_style = column_mode   // Will do an after-column-style break
         }
-        this.section.family.append(cur_list)
+        this.section.family!.append(cur_list)
         this.layout.distance++
         // Add a divider unless we've just processed the final column
-        if (((this.layout.distance == 2) || (this.layout.dividerMode != false)) && 
+        if (((this.layout.distance == 2) || (this.layout.dividerMode != "disabled")) && 
             (i != lists.length - 1)) {
           const breaker = divider(breaking_style)
-          breaker.style.order = this.boxOrder++
-          this.section.family.append(breaker)
+          breaker.style.order = `${this.layout.boxOrder++}`
+          this.section.family!.append(breaker)
           this.resetCounters("breakers")
           breaking_style = breaker_mode   // Revert to normal break style
         }
@@ -593,7 +644,7 @@ export default class Layout {
       const lists = order.map(x => this.section[x]).filter(x => x != undefined)
       for (let i = 0; i < lists.length; i++) {
         const cur_list = lists[i]
-        cur_list.style.order = this.layout.boxOrder++
+        cur_list.style.order = `${this.layout.boxOrder++}`
         const list_name = order[i]
         const list_len = this.num[list_name]
         // If both the short columns are length 1, flatten the parents list
@@ -605,14 +656,14 @@ export default class Layout {
         if (list_len == this.longestList()) {
           multiColumn(cur_list, mc_count)
         }
-        this.section.family.append(cur_list)
+        this.section.family!.append(cur_list)
         this.layout.distance++
         // Add a divider unless we've just processed the final column
-        if (((this.layout.distance == 3) || (this.layout.dividerMode != false)) && 
+        if (((this.layout.distance == 3) || (this.layout.dividerMode != 'disabled')) && 
             (i != lists.length - 1)) {
           const breaker = divider("both")
-          breaker.style.order = this.layout.boxOrder++
-          this.section.family.append(breaker)
+          breaker.style.order = `${this.layout.boxOrder++}`
+          this.section.family!.append(breaker)
           this.resetCounters("breakers")
         }
       }
@@ -625,17 +676,19 @@ export default class Layout {
      * squeeze left, and the longer ones get flattened into 2-wide-multicols or
      * 3-wide-multicols.
      */
-    fourListTwoLong: (mode="onlyDesktop") => {
-      this.section.family.classList.add("vertical")
+    fourListTwoLong: (mode: DisplayMode = "onlyDesktop") => {
+      this.section.family!.classList.add("vertical")
       if (mode == "onlyDesktop") {
-        this.section.family.classList.add(mode)
+        this.section.family!.classList.add(mode)
       }
       // Balance columns modeled as single-column-lists
-      const split_point = this.balance.verticalTwoMultiColumns()
+      this.balance.verticalTwoMultiColumns()
       // Iterate through the list order
       for (let i = 0; i < this.layout.list_order.length ; i++) {
         const list_name = this.layout.list_order[i]
         const cur_list = this.section[list_name]
+        if (!cur_list)
+          continue
         const list_len = this.num[list_name]
         // Set a multicolumn if necessary
         if ((list_len >= 3) && (list_name != "litter")) {
@@ -644,15 +697,15 @@ export default class Layout {
         else if ((i == 3) && (list_len > 1)) {
           multiColumn(cur_list)
         }
-        cur_list.style.order = this.layout.boxOrder++;   // Force to show last
-        this.section.family.append(cur_list)
+        cur_list.style.order = `${this.layout.boxOrder++}`   // Force to show last
+        this.section.family!.append(cur_list)
       }
       // Set height of the container div based on balancing info.
       if (mediaQuery().matches == false) {
         // Use the desktop height in desktop mode
-        this.section.family.style.height = this.layout.height_desktop;
+        this.section.family!.style.height = this.layout.height_desktop
         // Store this value on the div for later use
-        this.section.family.dataset.height_desktop = this.layout.height_desktop
+        this.section.family!.dataset.height_desktop = this.layout.height_desktop
       }
       // Return distance/flexBreaker counters to default values
       this.resetCounters("all")
@@ -666,26 +719,28 @@ export default class Layout {
      * influence the final displayed flow. Also see the mediaQuery event
      * listeners in this module.
      */
-    longRun: (mode="onlyMobile") => {
-      this.section.family.classList.add("vertical")
+    longRun: (mode: DisplayMode = "onlyMobile") => {
+      this.section.family!.classList.add("vertical")
       if (mode == "onlyMobile") {
-        this.section.family.classList.add(mode)
+        this.section.family!.classList.add(mode)
       }
       // Balance columns modeled as single-column-lists
-      const split_point = this.balance.verticalMobile()
+      this.balance.verticalMobile()
       // Iterate through the list order
       for (let i = 0; i < this.layout.list_order.length ; i++) {
         const list_name = this.layout.list_order[i]
         const cur_list = this.section[list_name]
-        cur_list.style.order = this.boxOrder++
-        this.section.family.append(cur_list)
+        if (!cur_list)
+          continue
+        cur_list.style.order = `${this.layout.boxOrder++}`
+        this.section.family!.append(cur_list)
       }
       // Set height of the container div based on balancing info
       // Make sure it applies immediately
       if (mediaQuery().matches == true)
-        this.section.family.style.height = this.layout.height_mobile
+        this.section.family!.style.height = this.layout.height_mobile
       // Store this value on the div for later use
-      this.section.family.dataset.height_mobile = this.layout.height_mobile
+      this.section.family!.dataset.height_mobile = this.layout.height_mobile
       // Return distance/flexBreaker counters to default values
       this.resetCounters("all")
     },
@@ -697,34 +752,36 @@ export default class Layout {
      * lists might be. Assumes the multi-column list is only two-wide, since the
      * first column is already used by two short columns.
      */
-    threeListOneLong: (mode="onlyDesktop") => {
-      this.section.family.classList.add("vertical")
+    threeListOneLong: (mode: DisplayMode = "onlyDesktop") => {
+      this.section.family!.classList.add("vertical")
       if (mode == "onlyDesktop") {
-        this.section.family.classList.add(mode)
+        this.section.family!.classList.add(mode)
       }
       // Balance columns modeled as single-column-lists
-      const split_point = this.balance.verticalOneMultiColumn(2)
+      this.balance.verticalOneMultiColumn(2)
       // Iterate through the list order
       for (let i = 0; i < this.layout.list_order.length ; i++) {
         const list_name = this.layout.list_order[i]
         const cur_list = this.section[list_name]
+        if (!cur_list)
+          continue
         const list_len = this.num[list_name]
         // Set a multicolumn if necessary
         if (list_len == this.longestList()) {
           multiColumn(cur_list, 2)
           // Force to show last
-          cur_list.style.order = this.existingColumns()
+          cur_list.style.order = `${this.existingColumns()}`
         } else {
-          cur_list.style.order = this.boxOrder++
+          cur_list.style.order = `${this.layout.boxOrder++}`
         }
-        this.section.family.append(cur_list)
+        this.section.family!.append(cur_list)
       }
       // Set height of the container div based on balancing info
       // Make sure it applies immediately
       if (mediaQuery().matches == false)
-        this.section.family.style.height = this.layout.height_desktop
+        this.section.family!.style.height = this.layout.height_desktop
       // Store this value on the div for later use
-      this.section.family.dataset.height_desktop = this.layout.height_desktop
+      this.section.family!.dataset.height_desktop = this.layout.height_desktop
       // Return distance/flexBreaker counters to default values
       this.resetCounters("all")
     },
@@ -748,27 +805,28 @@ export default class Layout {
       // Heuristics based on column sizing. More specific to less specific 
       if ((this.longestList() > 4) && (this.existingColumns() == 1)) {
         // One really long column? Multi-column-split it based on available space. TEST: Pam
-        return this.arrange.oneMultiColumn();
+        return this.arrange.oneMultiColumn()
       } else if ((this.longestList() <= 6) && (this.existingColumns() == 3)) {
-        return this.arrange.longRun("onlyMobile");
+        return this.arrange.longRun("onlyMobile")
       } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) && 
                 (this.sum() - this.longestList() >= this.longestList())) {
-        return this.arrange.fourListTwoLong("onlyDesktop");
+        return this.arrange.fourListTwoLong("onlyDesktop")
       } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) &&
                 (this.sum() - this.longestList() <= 5)) {
         // TEST: Luna / Akiyoshidai
-        return this.arrange.fourListOneLong();
+        return this.arrange.fourListOneLong()
       } else if ((this.longestList() >= 8) && (this.existingColumns() == 3) && 
                  (this.sum() - this.longestList() >= this.longestList())) {
         // TEST: Koto
-        return this.arrange.longRun("onlyMobile");
+        return this.arrange.longRun("onlyMobile")
       } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
-        return this.arrange.longRun("onlyMobile");
+        return this.arrange.longRun("onlyMobile")
       } else if ((this.longestList() > 9) && (this.existingColumns() == 4)) {
         // TEST: Seita
-        return this.arrange.fourListTwoLong("onlyDesktop");
-      } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
-        return this.arrange.threeListOneLong("onlyDesktop");
+        return this.arrange.fourListTwoLong("onlyDesktop")
+      } else if ((this.longestList() > 5) && (this.existingColumns() == 3) &&
+                 (this.sum() - this.longestList() <= 4)) {
+        return this.arrange.threeListOneLong("onlyDesktop")
       } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && 
                 (this.sum() - this.longestList() - 2 >= 3)) {
         // TEST: Futa, Beilei 2010. 
@@ -781,7 +839,7 @@ export default class Layout {
         return this.arrange.flattenPlusMultiColumn(2)
       } else {
         // Fallback: just treat everything like a single column
-        return this.arrange.columns();
+        return this.arrange.columns()
       }
     }
   }
@@ -849,8 +907,8 @@ export default class Layout {
               : right_lists.length
             // Account for item line height, and the heading/gap height as well
             this.layout.height_mobile =
-              (longest * parseInt(line_height)) +
-              (longest_list_count * parseInt(list_count_height))
+              `${(longest * parseInt(line_height)) +
+                 (longest_list_count * parseInt(list_count_height))}px`
             return minimum_split
           } else if (difference < minimum_space) {
             // Otherwise, keep optimizing as best we can
@@ -863,8 +921,8 @@ export default class Layout {
               : right_lists.length
             // Account for item line height, and the heading/gap height as well
             this.layout.height_mobile =
-              (longest * parseInt(line_height)) +
-              (longest_list_count * parseInt(list_count_height))
+              `${(longest * parseInt(line_height)) +
+                 (longest_list_count * parseInt(list_count_height))}px`
           } else {
             continue
           }
@@ -874,7 +932,7 @@ export default class Layout {
       return minimum_split
     },
     /** Hacky calculation for vertical balance of multicolumn vertical flow */
-    verticalOneMultiColumn: (multi_cols) => {
+    verticalOneMultiColumn: (multi_cols: number) => {
       // How many lines worth of space do we count the gap between lists?
       // Two lines, since it's spacing and a column header
       const between_list_pad = 2
@@ -894,10 +952,10 @@ export default class Layout {
       const multi_column_cnt = Math.ceil(this.longestList() / multi_cols)
       const multi_column_height = multi_column_cnt * parseInt(line_height)
       if (multi_column_height > squeeze_height) {
-        this.layout.height_desktop = multi_column_height
+        this.layout.height_desktop = `${multi_column_height}px`
         return 2   // Split at the third column
       } else {
-        this.layout.height_desktop = squeeze_height;
+        this.layout.height_desktop = `${squeeze_height}px`
         return 0   // Split at the first column
       }
     },
@@ -912,16 +970,16 @@ export default class Layout {
       const between_list_pad = 3
       // Estimated height of our lines, based on 14pt and padding. Also, necessary
       // values to calculate the final box-height.
-      const line_height = "40px";
-      const list_count_height = "40px";
-      const sibling_col_cnt = 2;   // TODO: better calculate this
-      const children_col_cnt = 2;
-      const siblings_num = Math.ceil(this.num.siblings / sibling_col_cnt);
-      const children_num = Math.ceil(this.num.children / children_col_cnt);
-      const siblings_height = siblings_num * parseInt(line_height);
-      const children_height = children_num * parseInt(line_height);
-      const padding = between_list_pad * parseInt(list_count_height);
-      this.layout.height_desktop = siblings_height + children_height + padding;
+      const line_height = "40px"
+      const list_count_height = "40px"
+      const sibling_col_cnt = 2   // TODO: better calculate this
+      const children_col_cnt = 2
+      const siblings_num = Math.ceil(this.num.siblings / sibling_col_cnt)
+      const children_num = Math.ceil(this.num.children / children_col_cnt)
+      const siblings_height = siblings_num * parseInt(line_height)
+      const children_height = children_num * parseInt(line_height)
+      const padding = between_list_pad * parseInt(list_count_height)
+      this.layout.height_desktop = `${siblings_height + children_height + padding}px`
       return 2   // Split at the third column
     }
   }
@@ -930,11 +988,11 @@ export default class Layout {
    * The arrangement switchboard, a shortcut for specific arrangements that
    * are known to be good and working for specific panda result cards.
    */
-  switchboard = {
+  switchboard: Record<string, () => void> = {
     /** One list item? Simple column layout is fine. */
     div1_1_0_0_0: () => this.arrange.columns(),
     /** Two list items, flattened to save space. TEST: Harumaki (0001) */
-    div2_2_0_0_0: () => this.arrange.flattenSimple("both"),
+    div2_2_0_0_0: () => this.arrange.flattenSimple("enabled"),
     /** Two list items, in their own columns. */
     div2_1_1_0_0: () => this.arrange.columns(),
     /** Three list item arrangements all use column mode. */
@@ -1069,3 +1127,5 @@ export default class Layout {
     div12_2_1_9_0: () => this.arrange.threeListOneLong("onlyDesktop")
   }
 }
+
+export default Layout
