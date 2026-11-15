@@ -1,0 +1,16 @@
+[panda]
+_id: 1492
+birthday: 2024/6/10
+birthplace: 322
+children: unknown
+commitdate: 2026/11/15
+en.name: Maguli
+en.nicknames: unknown
+en.othernames: unknown
+gender: m
+language.order: en
+litter: none
+location.1: 322, 2024/6/10
+location.2: 244, 2025/4/11
+species: 3
+zoo: 244
