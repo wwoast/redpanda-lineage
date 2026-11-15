@@ -1,0 +1,18 @@
+[panda]
+_id: 1490
+birthday: 2018/6/18
+birthplace: 325
+children: 1491, 1492
+commitdate: 2026/11/15
+en.name: Muka
+en.nicknames: unknown
+en.oldnames: Mauka
+en.othernames: unknown
+gender: f
+language.order: en
+litter: unknown
+location.1: 325, 2018/6/18
+location.2: 322, 2019/12/4
+species: 3
+uncertainty: current presence at Ljubljana Zoo unverified; zoo's red panda page lists only Magu and Pyara (2026)
+zoo: 322

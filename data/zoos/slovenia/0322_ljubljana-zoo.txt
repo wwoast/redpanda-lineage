@@ -1,0 +1,14 @@
+[zoo]
+_id: 322
+commitdate: 2026/11/15
+en.address: Večna pot 70, 1000 Ljubljana, Slovenia
+en.location: Ljubljana, Slovenia
+en.name: Ljubljana Zoo
+flag: Slovenia
+language.order: sl, en
+latitude: 46.0525694
+longitude: 14.4722444
+map: https://maps.app.goo.gl/CGCBX71H6G6uE74F6
+opened: 1949/3/10
+sl.name: Živalski vrt Ljubljana
+website: https://www.zoo.si/
