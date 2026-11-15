@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 柔柔
 language.order: zh, en, ja
 litter: unknown
-location.1: 195, 2008/7/9
-location.2: 196, 2009/3/22
+location.1: zoo.195, 2008/7/9
+location.2: zoo.196, 2009/3/22
 photo.1: cwdc://WuyMcaGADQI.jpg
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2019/7/10

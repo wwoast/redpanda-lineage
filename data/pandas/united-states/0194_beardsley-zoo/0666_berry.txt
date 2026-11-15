@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 124, 2010/6/27
-location.2: 155, 2011/2/24
-location.3: 117, 2014/12/4
-location.4: 194, 2021/3/3
+location.1: zoo.124, 2010/6/27
+location.2: zoo.155, 2011/2/24
+location.3: zoo.117, 2014/12/4
+location.4: zoo.194, 2021/3/3
 photo.1: cwdc://UrgMBljADQA.jpg
 photo.1.author: trevorzoomillbrook
 photo.1.commitdate: 2019/3/22

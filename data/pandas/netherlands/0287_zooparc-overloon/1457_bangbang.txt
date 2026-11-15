@@ -8,7 +8,7 @@ en.name: Bangbang
 gender: m
 language.order: en
 litter: unknown
-location.1: 227, 2018/06/17
-location.2: 287, 2019/07/01
+location.1: zoo.227, 2018/06/17
+location.2: zoo.287, 2019/07/01
 species: 1
 zoo: 287

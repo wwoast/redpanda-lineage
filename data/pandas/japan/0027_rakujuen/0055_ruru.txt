@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 56
-location.1: 1, 2008/6/21
-location.2: 27, 2017/11/21
+location.1: zoo.1, 2008/6/21
+location.2: zoo.27, 2017/11/21
 photo.1: cwdc://VVKG2nkADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/6

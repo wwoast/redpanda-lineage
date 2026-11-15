@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 505
-location.1: 114, 2008/6/19
-location.2: 123, 2009/4/27
-location.3: 163, 2014/11/24
+location.1: zoo.114, 2008/6/19
+location.2: zoo.123, 2009/4/27
+location.3: zoo.163, 2014/11/24
 photo.1: cwdc://WGLcqFJADQA.jpg
 photo.1.author: snapcrackleangela
 photo.1.commitdate: 2021/8/17

@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 味噌
 language.order: en, ja
 litter: none
-location.1: 114, 2023/6/10
-location.2: 99, 2023/8/11
+location.1: zoo.114, 2023/6/10
+location.2: zoo.99, 2023/8/11
 photo.1: cwdc://Ynlahv6ADQU.jpg
 photo.1.author: rossifari
 photo.1.commitdate: 2025/8/16

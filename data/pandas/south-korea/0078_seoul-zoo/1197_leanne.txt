@@ -16,8 +16,8 @@ ko.nicknames: none
 ko.othernames: none
 language.order: ko, ja, en
 litter: 1198
-location.1: 17, 2020/7/20
-location.2: 78, 2023/11/27
+location.1: zoo.17, 2020/7/20
+location.2: zoo.78, 2023/11/27
 photo.1: cwdc://XWyGU9QADQA.jpg
 photo.1.author: tamazoowalking
 photo.1.commitdate: 2026/2/17

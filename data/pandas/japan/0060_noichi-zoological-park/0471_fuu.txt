@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: フウ, フウフウ
 language.order: ja, en
 litter: 612
-location.1: 29, 1998/7/4
-location.2: 60, 2002/1/9
+location.1: zoo.29, 1998/7/4
+location.2: zoo.60, 2002/1/9
 species: 2
 studbook.id: 98034
 zoo: 60

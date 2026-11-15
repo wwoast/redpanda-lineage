@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: ショウショウ
 language.order: ja, en
 litter: 234
-location.1: 37, 2017/7/15
-location.2: 235, 2020/1/30
-location.3: 16, 2023/1/9
+location.1: zoo.37, 2017/7/15
+location.2: zoo.235, 2020/1/30
+location.3: zoo.16, 2023/1/9
 photo.1: cwdc://V_jK5H_ADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23

@@ -10,7 +10,7 @@ en.othernames: none
 gender: f
 language.order: en
 litter: 1408
-location.1: 311, 2015/6/29
-location.2: 312, 2016/12/21
+location.1: zoo.311, 2015/6/29
+location.2: zoo.312, 2016/12/21
 species: 1
 zoo: 312

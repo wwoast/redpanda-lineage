@@ -8,7 +8,7 @@ en.name: Hop
 gender: m
 language.order: en
 litter: unknown
-location.1: 227, 2020/08/01
-location.2: 320, 2022/03/01
+location.1: zoo.227, 2020/08/01
+location.2: zoo.320, 2022/03/01
 species: 1
 zoo: 320

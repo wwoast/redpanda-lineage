@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: テンテン
 language.order: ja, en
 litter: none
-location.1: 46, 2005/7/12
-location.2: 54, 2007/1/29
-location.3: 22, 2012/3/29
+location.1: zoo.46, 2005/7/12
+location.2: zoo.54, 2007/1/29
+location.3: zoo.22, 2012/3/29
 photo.1: cwdc://ZfVQL7NADQB.webp
 photo.1.author: resapanlove
 photo.1.commitdate: 2025/7/16

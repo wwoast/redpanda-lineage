@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 線香花火
 language.order: en, ja
 litter: 1229
-location.1: 122, 1991/7/3
-location.2: 81, 1992/4/2
+location.1: zoo.122, 1991/7/3
+location.2: zoo.81, 1992/4/2
 species: 1
 studbook.id: 9146
 zoo: 81

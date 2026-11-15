@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 古都
 language.order: ja, en
 litter: none
-location.1: 6, 2009/7/9
-location.2: 2, 2011/3/16
+location.1: zoo.6, 2009/7/9
+location.2: zoo.2, 2011/3/16
 photo.1: cwdc://Votk-zUADQ2.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/24

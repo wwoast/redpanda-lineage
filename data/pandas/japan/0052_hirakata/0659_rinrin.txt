@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: リンリン
 language.order: ja, en
 litter: 660
-location.1: 10, 1992/6/21
-location.2: 52, 1994/3/4
+location.1: zoo.10, 1992/6/21
+location.2: zoo.52, 1994/3/4
 species: 2
 studbook.id: 9256
 zoo: 52

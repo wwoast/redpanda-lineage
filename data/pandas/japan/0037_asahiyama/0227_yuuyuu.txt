@@ -11,9 +11,9 @@ ja.name: 渝渝
 ja.othernames: ユーユー
 language.order: ja, en
 litter: none
-location.1: 5, 2011/5/28
-location.2: 2, 2013/3/30
-location.3: 37, 2013/7/10
+location.1: zoo.5, 2011/5/28
+location.2: zoo.2, 2013/3/30
+location.3: zoo.37, 2013/7/10
 photo.1: cwdc://VkQD1eFADQA.jpg
 photo.1.author: framereim
 photo.1.commitdate: 2018/11/19

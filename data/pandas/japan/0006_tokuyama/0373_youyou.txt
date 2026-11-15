@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ユウユウ
 language.order: ja, en
 litter: none
-location.1: 52, 1994/7/4
-location.2: 6, 2000/2/14
+location.1: zoo.52, 1994/7/4
+location.2: zoo.6, 2000/2/14
 species: 2
 studbook.id: 9486
 zoo: 6

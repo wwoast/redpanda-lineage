@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 275, 2016/7/23
-location.2: 276, 2017/8/2
-location.3: 274, 2018/6/18
+location.1: zoo.275, 2016/7/23
+location.2: zoo.276, 2017/8/2
+location.3: zoo.274, 2018/6/18
 photo.1: https://www.codaworry.com/images/rpf/mambo-1-birmingham.jpg
 photo.1.author: Birmingham Wildlife Conservation Park
 photo.1.commitdate: 2021/4/7

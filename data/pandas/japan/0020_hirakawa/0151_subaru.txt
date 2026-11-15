@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 10, 2010/6/26
-location.2: 20, 2013/3/13
+location.1: zoo.10, 2010/6/26
+location.2: zoo.20, 2013/3/13
 photo.1: cwdc://UQ3t6V3ADQA.jpg
 photo.1.author: honeyandyogurt
 photo.1.commitdate: 2018/12/30

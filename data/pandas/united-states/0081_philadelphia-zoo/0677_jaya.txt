@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 154, 2007/7/4
-location.2: 186, 2008/6/25
-location.3: 146, 2011/12/5
-location.4: 81, 2019/3/18
+location.1: zoo.154, 2007/7/4
+location.2: zoo.186, 2008/6/25
+location.3: zoo.146, 2011/12/5
+location.4: zoo.81, 2019/3/18
 photo.1: ig://ByPy-4CoNrm/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2020/1/23

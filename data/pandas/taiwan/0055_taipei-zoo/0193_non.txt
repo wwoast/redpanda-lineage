@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 17, 2003/7/25
-location.2: 69, 2004/3/10
-location.3: 17, 2010/11/22
-location.4: 55, 2014/1/17
+location.1: zoo.17, 2003/7/25
+location.2: zoo.69, 2004/3/10
+location.3: zoo.17, 2010/11/22
+location.4: zoo.55, 2014/1/17
 photo.1: cwdc://V0x4yAVADQA.jpg
 photo.1.author: rdpnzoo
 photo.1.commitdate: 2021/7/4

@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: ごう
 language.order: ja, en
 litter: none
-location.1: 29, 2000/6/19
-location.2: 11, 2004/4/8
-location.3: 69, 2012/3/4
+location.1: zoo.29, 2000/6/19
+location.2: zoo.11, 2004/4/8
+location.3: zoo.69, 2012/3/4
 photo.1: ig://BNUDGbxBS-4/m
 photo.1.author: take_421
 photo.1.commitdate: 2021/8/22

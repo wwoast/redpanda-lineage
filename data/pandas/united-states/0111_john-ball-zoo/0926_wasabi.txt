@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 146, 2016/7/3
-location.2: 178, 2018/2/27
-location.3: 111, 2019/4/1
+location.1: zoo.146, 2016/7/3
+location.2: zoo.178, 2018/2/27
+location.3: zoo.111, 2019/4/1
 photo.1: ig://BT-ZKslgOfx/m
 photo.1.author: esdeemphoto
 photo.1.commitdate: 2020/10/1

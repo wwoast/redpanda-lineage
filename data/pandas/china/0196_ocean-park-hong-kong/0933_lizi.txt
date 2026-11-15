@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 栗子
 language.order: zh, en, ja
 litter: unknown
-location.1: 195, unknown
-location.2: 196, 2009/3/22
+location.1: zoo.195, unknown
+location.2: zoo.196, 2009/3/22
 species: 3
 zh.name: 栗子
 zh.nicknames: none

@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 108, 2020/6/16
-location.2: 141, 2020/9/17
+location.1: zoo.108, 2020/6/16
+location.2: zoo.141, 2020/9/17
 photo.1: cwdc://XUPJNg4ADQA.jpg
 photo.1.author: pippin455
 photo.1.commitdate: 2021/1/30

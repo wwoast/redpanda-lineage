@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: りょ
 language.order: en, ja
 litter: 631
-location.1: 146, 2009/6/18
-location.2: 105, 2010/4/20
-location.3: 109, 2010/11/18
-location.4: 157, 2012/12/4
+location.1: zoo.146, 2009/6/18
+location.2: zoo.105, 2010/4/20
+location.3: zoo.109, 2010/11/18
+location.4: zoo.157, 2012/12/4
 species: 1
 studbook.id: 0923
 zoo: 157

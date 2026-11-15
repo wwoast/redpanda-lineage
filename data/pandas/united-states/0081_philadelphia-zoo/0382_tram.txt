@@ -14,10 +14,10 @@ ja.nicknames: ポーリン
 ja.othernames: none
 language.order: ja, en
 litter: 310
-location.1: 12, 2002/6/15
-location.2: 65, 2004/4/27
-location.3: 87, 2011/11/7
-location.4: 81, 2014/1/23
+location.1: zoo.12, 2002/6/15
+location.2: zoo.65, 2004/4/27
+location.3: zoo.87, 2011/11/7
+location.4: zoo.81, 2014/1/23
 photo.1: cwdc://VK_tzIaADQA.jpg
 photo.1.author: sketchpoet
 photo.1.commitdate: 2018/11/25

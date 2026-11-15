@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 999
-location.1: 65, 2018/6/23
-location.2: 51, 2019/9/1
+location.1: zoo.65, 2018/6/23
+location.2: zoo.51, 2019/9/1
 photo.1: cwdc://WiHmbWxADQA.jpg
 photo.1.author: _andersonchin
 photo.1.commitdate: 2019/10/25

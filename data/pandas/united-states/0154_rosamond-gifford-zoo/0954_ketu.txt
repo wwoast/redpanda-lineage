@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 201, 2011/12/9
-location.2: 154, 2013/11/19
+location.1: zoo.201, 2011/12/9
+location.2: zoo.154, 2013/11/19
 photo.1: cwdc://XSixR5eADQA.jpg
 photo.1.author: syracusezoo
 photo.1.commitdate: 2020/10/11

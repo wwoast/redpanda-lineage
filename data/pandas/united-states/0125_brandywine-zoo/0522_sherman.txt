@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 922
-location.1: 124, 2012/6/22
-location.2: 114, 2013/5/6
-location.3: 125, 2018/1/6
+location.1: zoo.124, 2012/6/22
+location.2: zoo.114, 2013/5/6
+location.3: zoo.125, 2018/1/6
 photo.1: cwdc://WQ9xWhhADQA.jpg
 photo.1.author: brandywinezoo
 photo.1.commitdate: 2019/5/7

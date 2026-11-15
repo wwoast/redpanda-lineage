@@ -13,12 +13,12 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 643, 644
-location.1: 104, 2010/6/27
-location.2: 95, 2011/4/27
-location.3: 116, 2014/12/16
-location.4: 164, 2017/11/4
-location.5: 165, 2018/3/12
-location.6: 156, 2021/6/12
+location.1: zoo.104, 2010/6/27
+location.2: zoo.95, 2011/4/27
+location.3: zoo.116, 2014/12/16
+location.4: zoo.164, 2017/11/4
+location.5: zoo.165, 2018/3/12
+location.6: zoo.156, 2021/6/12
 photo.1: ig://KtfpsCxEbA/m
 photo.1.author: sandiegozoo
 photo.1.commitdate: 2019/10/26

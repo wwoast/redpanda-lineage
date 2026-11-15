@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 692
-location.1: 108, 2004/7/15
-location.2: 121, 2006/12/18
-location.3: 180, 2014/5/1
+location.1: zoo.108, 2004/7/15
+location.2: zoo.121, 2006/12/18
+location.3: zoo.180, 2014/5/1
 photo.1: cwdc://VhBtXROADQA.jpg
 photo.1.author: sanfranciscozoo
 photo.1.commitdate: 2019/9/18

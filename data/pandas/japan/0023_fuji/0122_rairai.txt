@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 13, 2008/7/1
-location.2: 18, 2011/6/3
-location.3: 23, 2017/7/5
+location.1: zoo.13, 2008/7/1
+location.2: zoo.18, 2011/6/3
+location.3: zoo.23, 2017/7/5
 photo.1: cwdc://Upi3P7ZADQA.jpg
 photo.1.author: masa_polarbear
 photo.1.commitdate: 2020/5/2

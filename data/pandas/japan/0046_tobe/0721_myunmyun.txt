@@ -15,8 +15,8 @@ ja.othernames: none
 language.order: ja, en
 litter: unknown
 location.1: wild.3, unknown
-location.2: 8, 1989/5/20
-location.3: 46, 1990/1/8
+location.2: zoo.8, 1989/5/20
+location.3: zoo.46, 1990/1/8
 species: 2
 studbook.id: 8931
 zoo: 46

@@ -14,12 +14,12 @@ ja.nicknames: ノンレン
 ja.othernames: none
 language.order: en, ja
 litter: 387
-location.1: 65, 2006/6/7
-location.2: 159, 2007/6/28
-location.3: 96, 2008/11/12
-location.4: 82, 2012/11/21
-location.5: 76, 2013/9/11
-location.6: 82, 2014/5/25
+location.1: zoo.65, 2006/6/7
+location.2: zoo.159, 2007/6/28
+location.3: zoo.96, 2008/11/12
+location.4: zoo.82, 2012/11/21
+location.5: zoo.76, 2013/9/11
+location.6: zoo.82, 2014/5/25
 species: 2
 studbook.id: 0604
 zh.name: 农人

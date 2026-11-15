@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 41, 1990/6/21
-location.2: 35, 1998/7/23
+location.1: zoo.41, 1990/6/21
+location.2: zoo.35, 1998/7/23
 species: 2
 studbook.id: 9050
 zoo: 35

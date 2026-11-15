@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 473
-location.1: 76, 2005/5/16
-location.2: 43, 2006/10/31
-location.3: 65, 2011/10/31
+location.1: zoo.76, 2005/5/16
+location.2: zoo.43, 2006/10/31
+location.3: zoo.65, 2011/10/31
 photo.1: https://www.codaworry.com/images/rpf/rover-1-assiniboine.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/9

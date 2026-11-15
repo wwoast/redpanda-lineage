@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1004, 1005
-location.1: 114, 2009/6/29
-location.2: 187, 2010/4/22
-location.3: 178, 2017/11/20
+location.1: zoo.114, 2009/6/29
+location.2: zoo.187, 2010/4/22
+location.3: zoo.178, 2017/11/20
 photo.1: cwdc://U0BpBqKADQA.jpg
 photo.1.author: bhamzoo
 photo.1.commitdate: 2019/10/27

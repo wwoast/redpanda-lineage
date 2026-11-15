@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 784
-location.1: 6, 1991/6/16
-location.2: 15, 1993/11/9
+location.1: zoo.6, 1991/6/16
+location.2: zoo.15, 1993/11/9
 species: 2
 studbook.id: 9170
 zoo: 15

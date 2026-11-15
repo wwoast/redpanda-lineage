@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: くばいろ
 language.order: en, ja
 litter: 170
-location.1: 114, 2011/6/5
-location.2: 116, 2012/5/21
-location.3: 95, 2015/3/12
+location.1: zoo.114, 2011/6/5
+location.2: zoo.116, 2012/5/21
+location.3: zoo.95, 2015/3/12
 photo.1: https://www.codaworry.com/images/rpf/russet-1-sandiego.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/9

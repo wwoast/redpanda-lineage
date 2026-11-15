@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ちゃん
 language.order: ru, en, ja
 litter: none
-location.1: 151, 2014/6/14
-location.2: 149, 2015/9/30
+location.1: zoo.151, 2014/6/14
+location.2: zoo.149, 2015/9/30
 photo.1: cwdc://VlfObT0ADQB.jpg
 photo.1.author: moscow_zoo_official
 photo.1.commitdate: 2019/3/17

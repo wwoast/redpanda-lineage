@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 65, 2020/6/23
-location.2: 95, 2021/7/1
+location.1: zoo.65, 2020/6/23
+location.2: zoo.95, 2021/7/1
 photo.1: cwdc://XNu4sAiADQA.jpg
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2020/9/7

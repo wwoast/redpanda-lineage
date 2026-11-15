@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: ノンノン
 language.order: ja, en
 litter: 53, 220
-location.1: 10, 2003/6/16
-location.2: 17, 2005/3/30
-location.3: 55, 2005/12/15
+location.1: zoo.10, 2003/6/16
+location.2: zoo.17, 2005/3/30
+location.3: zoo.55, 2005/12/15
 species: 2
 studbook.id: 0360
 uncertainty: exact day of death (reported by RPF forms)

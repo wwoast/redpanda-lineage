@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 40, 2002/8/4
-location.2: 30, 2010/2/25
-location.3: 52, 2012/12/12
+location.1: zoo.40, 2002/8/4
+location.2: zoo.30, 2010/2/25
+location.3: zoo.52, 2012/12/12
 species: 2
 studbook.id: 0283
 zoo: 52

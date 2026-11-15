@@ -15,8 +15,8 @@ ja.othernames: none
 language.order: ja, en
 litter: none
 location.1: wild.3, unknown
-location.2: 11, 1988/6/25
-location.3: 16, 1997/2/5
+location.2: zoo.11, 1988/6/25
+location.3: zoo.16, 1997/2/5
 species: 2
 studbook.id: 8849
 zoo: 16

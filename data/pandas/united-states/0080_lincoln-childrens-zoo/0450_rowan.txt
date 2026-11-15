@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 451
-location.1: 89, 2017/6/11
-location.2: 90, 2019/5/7
-location.3: 80, 2023/3/2
+location.1: zoo.89, 2017/6/11
+location.2: zoo.90, 2019/5/7
+location.3: zoo.80, 2023/3/2
 photo.1: cwdc://V8XYDoLADQA.jpg
 photo.1.author: rossparkzoo
 photo.1.commitdate: 2018/11/25

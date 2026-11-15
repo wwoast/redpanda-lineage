@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 141, 2013/6/6
-location.2: 114, 2014/9/30
-location.3: 49, 2017/12/19
-location.4: 154, 2019/10/16
-location.5: 129, 2021/1/21
+location.1: zoo.141, 2013/6/6
+location.2: zoo.114, 2014/9/30
+location.3: zoo.49, 2017/12/19
+location.4: zoo.154, 2019/10/16
+location.5: zoo.129, 2021/1/21
 photo.1: ig://nbTVHUomVa/m
 photo.1.author: eriezoo
 photo.1.commitdate: 2019/9/21

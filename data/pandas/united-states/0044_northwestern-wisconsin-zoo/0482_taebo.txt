@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 65, 1998/6/27
-location.2: 105, 1999/6/17
-location.3: 90, 2002/7/9
-location.4: 44, 2003/5/28
+location.1: zoo.65, 1998/6/27
+location.2: zoo.105, 1999/6/17
+location.3: zoo.90, 2002/7/9
+location.4: zoo.44, 2003/5/28
 species: 2
 studbook.id: 9823
 zoo: 44

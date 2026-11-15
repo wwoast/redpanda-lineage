@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 95, 2002/6/20
-location.2: 154, 2002/10/24
+location.1: zoo.95, 2002/6/20
+location.2: zoo.154, 2002/10/24
 location.3: unknown, 2003/12/9
-location.4: 114, 2006/1/19
-location.5: 105, 2008/12/9
+location.4: zoo.114, 2006/1/19
+location.5: zoo.105, 2008/12/9
 species: 1
 zoo: 105

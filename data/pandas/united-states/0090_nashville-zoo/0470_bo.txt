@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 469
-location.1: 84, 2015/7/1
-location.2: 102, 2017/5/1
-location.3: 83, 2020/12/22
-location.4: 90, 2023/3/2
+location.1: zoo.84, 2015/7/1
+location.2: zoo.102, 2017/5/1
+location.3: zoo.83, 2020/12/22
+location.4: zoo.90, 2023/3/2
 photo.1: ig://BOc0AHOgyt9/m
 photo.1.author: florianschwarz83
 photo.1.commitdate: 2020/3/25

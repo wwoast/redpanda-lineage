@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: ばくちく
 language.order: en, ja
 litter: 789
-location.1: 116, 2006/6/30
-location.2: 105, 2009/2/19
-location.3: 118, 2009/11/23
-location.4: 107, 2016/12/1
+location.1: zoo.116, 2006/6/30
+location.2: zoo.105, 2009/2/19
+location.3: zoo.118, 2009/11/23
+location.4: zoo.107, 2016/12/1
 photo.1: ig://B74AyxkDA1R/m
 photo.1.author: greenvillezoo
 photo.1.commitdate: 2021/4/29

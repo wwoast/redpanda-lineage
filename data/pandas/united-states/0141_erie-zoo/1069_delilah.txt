@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 75, 2013/7/21
-location.2: 108, 2013/9/29
-location.3: 166, 2014/4/22
-location.4: 141, 2019/12/1
+location.1: zoo.75, 2013/7/21
+location.2: zoo.108, 2013/9/29
+location.3: zoo.166, 2014/4/22
+location.4: zoo.141, 2019/12/1
 photo.1: cwdc://WpRD-wJADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/30

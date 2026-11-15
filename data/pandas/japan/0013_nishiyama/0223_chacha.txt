@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 3, 1997/6/17
-location.2: 13, 1999/4/2
+location.1: zoo.3, 1997/6/17
+location.2: zoo.13, 1999/4/2
 species: 2
 studbook.id: 9788
 zoo: 13

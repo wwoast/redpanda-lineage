@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: 稲妻
 language.order: ja, en
 litter: 209
-location.1: 34, 2002/7/1
-location.2: 65, 2004/4/27
-location.3: 87, 2011/11/7
-location.4: 77, 2015/1/23
+location.1: zoo.34, 2002/7/1
+location.2: zoo.65, 2004/4/27
+location.3: zoo.87, 2011/11/7
+location.4: zoo.77, 2015/1/23
 photo.1: ig://BAF8lrEykAt/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24

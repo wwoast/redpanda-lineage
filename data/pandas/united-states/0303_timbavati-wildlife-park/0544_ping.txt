@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: ピンジン
 language.order: en, ja
 litter: 543
-location.1: 81, 2017/6/22
-location.2: 129, 2018/5/30
-location.3: 303, 2021/5/13
+location.1: zoo.81, 2017/6/22
+location.2: zoo.129, 2018/5/30
+location.3: zoo.303, 2021/5/13
 photo.1: cwdc://XCew7j2ADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/3/2

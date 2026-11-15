@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1362
-location.1: 247, 2011/6/26
-location.2: 305, 2012/6/14
+location.1: zoo.247, 2011/6/26
+location.2: zoo.305, 2012/6/14
 species: 1
 studbook.id: 1163
 zoo: 305

@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 362
-location.1: 12, 2000/6/23
-location.2: 52, 2003/6/5
-location.3: 50, 2011/3/18
+location.1: zoo.12, 2000/6/23
+location.2: zoo.52, 2003/6/5
+location.3: zoo.50, 2011/3/18
 photo.1: cwdc://VySSMc2ADQA.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/4

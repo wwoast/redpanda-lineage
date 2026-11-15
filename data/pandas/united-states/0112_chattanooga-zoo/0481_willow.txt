@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 434
-location.1: 82, 2015/8/24
-location.2: 84, 2016/9/22
-location.3: 88, 2022/12/1
-location.4: 112, 2026/6/21
+location.1: zoo.82, 2015/8/24
+location.2: zoo.84, 2016/9/22
+location.3: zoo.88, 2022/12/1
+location.4: zoo.112, 2026/6/21
 photo.1: ig://B2rF3YlgnMS/m
 photo.1.author: prospectparkzoo
 photo.1.commitdate: 2020/1/17

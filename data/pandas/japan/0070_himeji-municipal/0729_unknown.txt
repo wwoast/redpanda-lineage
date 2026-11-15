@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 728
-location.1: 11, 1995/7/4
-location.2: 13, 1996/11/15
-location.3: 70, 2007/12/3
+location.1: zoo.11, 1995/7/4
+location.2: zoo.13, 1996/11/15
+location.3: zoo.70, 2007/12/3
 species: 2
 studbook.id: 95105
 zoo: 70

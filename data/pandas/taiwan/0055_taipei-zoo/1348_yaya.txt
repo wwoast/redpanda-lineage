@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: zh, en, ja
 litter: unknown
-location.1: 291, 2010/6/26
-location.2: 55, 2014/6/6
+location.1: zoo.291, 2010/6/26
+location.2: zoo.55, 2014/6/6
 species: 2
 zh.name: 丫丫
 zh.nicknames: none

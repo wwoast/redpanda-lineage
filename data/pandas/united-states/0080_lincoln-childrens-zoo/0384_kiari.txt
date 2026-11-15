@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 411, 422
-location.1: 43, 2014/6/20
-location.2: 77, 2015/3/18
-location.3: 80, 2019/10/1
+location.1: zoo.43, 2014/6/20
+location.2: zoo.77, 2015/3/18
+location.3: zoo.80, 2019/10/1
 photo.1: https://www.codaworry.com/images/rpf/kiari-1-henryvilas.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/25

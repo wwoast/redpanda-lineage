@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: ヘンリーフォード
 language.order: en, ja
 litter: none
-location.1: 124, 2008/6/16
-location.2: 108, 2008/7/9
-location.3: 103, 2009/6/23
-location.4: 163, 2012/1/12
-location.5: 146, 2014/4/2
+location.1: zoo.124, 2008/6/16
+location.2: zoo.108, 2008/7/9
+location.3: zoo.103, 2009/6/23
+location.4: zoo.163, 2012/1/12
+location.5: zoo.146, 2014/4/2
 species: 1
 zoo: 146

@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 154, 2003/6/24
-location.2: 109, 2004/11/12
-location.3: 116, 2006/4/5
-location.4: 123, 2007/3/5
-location.5: 163, 2009/9/18
+location.1: zoo.154, 2003/6/24
+location.2: zoo.109, 2004/11/12
+location.3: zoo.116, 2006/4/5
+location.4: zoo.123, 2007/3/5
+location.5: zoo.163, 2009/9/18
 photo.1: ig://Bisk7LfHFUQ/m
 photo.1.author: emmalemma19
 photo.1.commitdate: 2019/7/15

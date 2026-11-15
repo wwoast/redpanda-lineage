@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 896
-location.1: 16, 2015/7/29
-location.2: 25, 2018/1/29
-location.3: 58, 2025/2/17
+location.1: zoo.16, 2015/7/29
+location.2: zoo.25, 2018/1/29
+location.3: zoo.58, 2025/2/17
 photo.1: cwdc://VJBMwAXADQA.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/3

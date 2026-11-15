@@ -11,7 +11,7 @@ en.othernames: none
 gender: m
 language.order: en
 litter: unknown
-location.1: 257, 2001/7/16
-location.2: 312, 2005/9/7
+location.1: zoo.257, 2001/7/16
+location.2: zoo.312, 2005/9/7
 species: 1
 zoo: 312

@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 311
-location.1: 80, 2014/7/1
-location.2: 130, 2015/5/18
-location.3: 129, 2018/1/24
-location.4: 112, 2019/5/1
+location.1: zoo.80, 2014/7/1
+location.2: zoo.130, 2015/5/18
+location.3: zoo.129, 2018/1/24
+location.4: zoo.112, 2019/5/1
 photo.1: cwdc://VMfl3r_ADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/3/7

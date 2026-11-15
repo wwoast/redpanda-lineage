@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 912
-location.1: 108, 2013/6/1
-location.2: 80, 2015/1/2
-location.3: 114, 2016/11/28
-location.4: 153, 2019/1/1
+location.1: zoo.108, 2013/6/1
+location.2: zoo.80, 2015/1/2
+location.3: zoo.114, 2016/11/28
+location.4: zoo.153, 2019/1/1
 photo.1: cwdc://V-mNvcYADQA.jpg
 photo.1.author: lincolnchildrenszoo
 photo.1.commitdate: 2019/3/17

@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 667
-location.1: 118, 2001/7/9
-location.2: 122, 2002/3/13
-location.3: 104, 2002/11/20
+location.1: zoo.118, 2001/7/9
+location.2: zoo.122, 2002/3/13
+location.3: zoo.104, 2002/11/20
 photo.1: ig://Bb0Avd4nT-D/m
 photo.1.author: potawatomizoo
 photo.1.commitdate: 2020/2/28

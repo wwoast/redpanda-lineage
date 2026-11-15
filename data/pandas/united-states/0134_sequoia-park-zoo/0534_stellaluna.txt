@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 104, 2005/6/24
-location.2: 114, 2006/11/27
-location.3: 120, 2010/12/16
-location.4: 134, 2013/1/15
+location.1: zoo.104, 2005/6/24
+location.2: zoo.114, 2006/11/27
+location.3: zoo.120, 2010/12/16
+location.4: zoo.134, 2013/1/15
 photo.1: https://www.codaworry.com/images/rpf/stellaluna-1-sequoia.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/9

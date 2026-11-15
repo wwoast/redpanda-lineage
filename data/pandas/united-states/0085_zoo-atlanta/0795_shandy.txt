@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 675, 794
-location.1: 108, 2000/6/9
-location.2: 185, 2001/3/30
-location.3: 113, 2005/12/29
-location.4: 85, 2008/10/23
+location.1: zoo.108, 2000/6/9
+location.2: zoo.185, 2001/3/30
+location.3: zoo.113, 2005/12/29
+location.4: zoo.85, 2008/10/23
 photo.1: https://www.codaworry.com/images/rpf/shandy-1-atlanta.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/13

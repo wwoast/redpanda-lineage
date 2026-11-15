@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 80, 2006/6/27
-location.2: 161, 2007/6/19
-location.3: 48, 2011/11/16
+location.1: zoo.80, 2006/6/27
+location.2: zoo.161, 2007/6/19
+location.3: zoo.48, 2011/11/16
 species: 1
 zoo: 48

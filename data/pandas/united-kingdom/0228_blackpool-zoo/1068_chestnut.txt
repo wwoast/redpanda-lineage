@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: 栗, クリ, マロン
 language.order: en, ja
 litter: 1067
-location.1: 135, 2005/6/25
-location.2: 228, 2007/12/6
+location.1: zoo.135, 2005/6/25
+location.2: zoo.228, 2007/12/6
 species: 1
 zoo: 228

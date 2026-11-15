@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1133
-location.1: 108, 2003/7/7
-location.2: 113, 2004/4/11
-location.3: 124, 2005/12/7
+location.1: zoo.108, 2003/7/7
+location.2: zoo.113, 2004/4/11
+location.3: zoo.124, 2005/12/7
 species: 1
 zoo: 124

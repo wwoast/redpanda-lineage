@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1078
-location.1: 65, 1997/6/23
-location.2: 84, 1998/2/26
-location.3: 43, 2003/9/25
+location.1: zoo.65, 1997/6/23
+location.2: zoo.84, 1998/2/26
+location.3: zoo.43, 2003/9/25
 photo.1: cwdc://W1Z6UhOADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/4

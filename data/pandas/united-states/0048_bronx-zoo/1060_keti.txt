@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: 
 language.order: en, ja
 litter: none
-location.1: 124, 2019/7/6
-location.2: 48, 2021/6/1
+location.1: zoo.124, 2019/7/6
+location.2: zoo.48, 2021/6/1
 photo.1: cwdc://W5lSGcKADQA.jpg
 photo.1.author: detroitzoo
 photo.1.commitdate: 2019/11/29

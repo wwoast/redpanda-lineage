@@ -14,12 +14,12 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 800
-location.1: 124, 1998/6/19
-location.2: 108, 1999/12/17
-location.3: 133, 2001/3/30
-location.4: 93, 2001/11/8
+location.1: zoo.124, 1998/6/19
+location.2: zoo.108, 1999/12/17
+location.3: zoo.133, 2001/3/30
+location.4: zoo.93, 2001/11/8
 location.5: unknown, 2003/1/20
-location.6: 131, 2007/11/28
+location.6: zoo.131, 2007/11/28
 photo.1: https://www.codaworry.com/images/rpf/heping-1-denver.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/12

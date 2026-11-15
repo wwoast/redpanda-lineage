@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: タイペイ
 language.order: en, ja
 litter: 1118
-location.1: 108, 1994/6/24
-location.2: 154, 1995/5/25
-location.3: 187, 2003/11/6
+location.1: zoo.108, 1994/6/24
+location.2: zoo.154, 1995/5/25
+location.3: zoo.187, 2003/11/6
 species: 1
 zh.name: 台北
 zh.nicknames: none

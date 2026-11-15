@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1139
-location.1: 121, 2019/6/20
-location.2: 75, 2020/12/1
+location.1: zoo.121, 2019/6/20
+location.2: zoo.75, 2020/12/1
 photo.1: cwdc://W8farDjADQA.jpg
 photo.1.author: zooboise
 photo.1.commitdate: 2020/3/21

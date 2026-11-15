@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 104, 2013/6/6
-location.2: 48, 2014/4/10
+location.1: zoo.104, 2013/6/6
+location.2: zoo.48, 2014/4/10
 photo.1: cwdc://WxPJT8mADQA.jpg
 photo.1.author: rossifari
 photo.1.commitdate: 2019/10/27

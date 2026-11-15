@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: unknown
-location.1: 270, 2012/7/12
-location.2: 219, 2013/10/16
+location.1: zoo.270, 2012/7/12
+location.2: zoo.219, 2013/10/16
 species: 1
 studbook.id: 1270
 zh.name: 天麦

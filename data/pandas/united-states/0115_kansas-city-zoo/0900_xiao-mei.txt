@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 506
-location.1: 114, 2005/6/10
-location.2: 49, 2006/10/2
-location.3: 115, 2007/12/18
+location.1: zoo.114, 2005/6/10
+location.2: zoo.49, 2006/10/2
+location.3: zoo.115, 2007/12/18
 species: 1
 studbook.id: 0522
 zoo: 115

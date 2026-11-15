@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 280, unknown
-location.2: 281, 2019/7/23
+location.1: zoo.280, unknown
+location.2: zoo.281, 2019/7/23
 species: 1
 zoo: 281

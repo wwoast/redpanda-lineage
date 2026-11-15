@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 531
-location.1: 131, 2008/6/29
-location.2: 75, 2009/3/18
-location.3: 84, 2016/10/24
-location.4: 75, 2017/1/4
-location.5: 132, 2017/3/29
+location.1: zoo.131, 2008/6/29
+location.2: zoo.75, 2009/3/18
+location.3: zoo.84, 2016/10/24
+location.4: zoo.75, 2017/1/4
+location.5: zoo.132, 2017/3/29
 photo.1: ig://BNH4JAYAwlY/m
 photo.1.author: florianschwarz83
 photo.1.commitdate: 2020/2/23

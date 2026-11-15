@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1185
-location.1: 43, 2020/6/13
-location.2: 77, 2022/6/8
+location.1: zoo.43, 2020/6/13
+location.2: zoo.77, 2022/6/8
 photo.1: cwdc://XXRbMnWADQA.jpg
 photo.1.author: rossifari
 photo.1.commitdate: 2020/11/20

@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 114, 2006/7/3
-location.2: 146, 2007/5/8
-location.3: 162, 2014/2/24
+location.1: zoo.114, 2006/7/3
+location.2: zoo.146, 2007/5/8
+location.3: zoo.162, 2014/2/24
 photo.1: ig://B6E2UdrAsi7/m
 photo.1.author: esdeemphoto
 photo.1.commitdate: 2020/3/3

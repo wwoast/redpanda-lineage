@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ムームー
 language.order: ja, en
 litter: 852
-location.1: 40, 1988/7/13
-location.2: 290, 1990/3/23
+location.1: zoo.40, 1988/7/13
+location.2: zoo.290, 1990/3/23
 species: 2
 studbook.id: 8845
 zoo: 290

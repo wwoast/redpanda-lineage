@@ -8,7 +8,7 @@ en.name: Tai-Jang
 gender: f
 language.order: en
 litter: unknown
-location.1: 296, 2012/6/12
-location.2: 227, 2014/1/1
+location.1: zoo.296, 2012/6/12
+location.2: zoo.227, 2014/1/1
 species: 1
 zoo: 227

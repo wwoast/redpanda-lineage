@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1055
-location.1: 222, 2005/6/24
-location.2: 223, 2006/5/12
-location.3: 219, 2016/1/22
+location.1: zoo.222, 2005/6/24
+location.2: zoo.223, 2006/5/12
+location.3: zoo.219, 2016/1/22
 photo.1: ig://BobT8agng7T/m
 photo.1.author: pairidaizaofficial
 photo.1.commitdate: 2019/11/23

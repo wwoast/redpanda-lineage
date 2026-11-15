@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 25
-location.1: 12, 2004/6/10
-location.2: 36, 2009/4/20
+location.1: zoo.12, 2004/6/10
+location.2: zoo.36, 2009/4/20
 photo.1: cwdc://VLXWOzTADQB.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/6/9

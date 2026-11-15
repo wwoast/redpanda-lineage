@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 302
-location.1: 42, 2012/8/2
-location.2: 16, 2014/7/18
-location.3: 82, 2015/1/13
+location.1: zoo.42, 2012/8/2
+location.2: zoo.16, 2014/7/18
+location.3: zoo.82, 2015/1/13
 photo.1: cwdc://V7AQAHoADQA.jpg
 photo.1.author: edmontonvalleyzoo
 photo.1.commitdate: 2018/12/8

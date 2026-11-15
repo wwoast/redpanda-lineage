@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 400
-location.1: 76, 2011/6/13
-location.2: 106, 2013/11/18
-location.3: 68, 2017/10/1
+location.1: zoo.76, 2011/6/13
+location.2: zoo.106, 2013/11/18
+location.3: zoo.68, 2017/10/1
 photo.1: cwdc://VqkWwXYADQA.jpg
 photo.1.author: derek.elvin
 photo.1.commitdate: 2018/11/24

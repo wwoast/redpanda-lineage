@@ -16,10 +16,10 @@ ja.oldnames: ラシャー
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 175, 2003/6/29
-location.2: 214, 2005/5/1
-location.3: 263, 2008/2/7
-location.4: 198, 2008/12/9
+location.1: zoo.175, 2003/6/29
+location.2: zoo.214, 2005/5/1
+location.3: zoo.263, 2008/2/7
+location.4: zoo.198, 2008/12/9
 photo.1: cwdc://WvBH6ibADQA.jpg
 photo.1.author: curraghswildlifepark
 photo.1.commitdate: 2020/8/19

@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 698
-location.1: 48, 2013/6/17
-location.2: 107, 2014/3/27
-location.3: 80, 2016/11/29
-location.4: 105, 2022/6/1
+location.1: zoo.48, 2013/6/17
+location.2: zoo.107, 2014/3/27
+location.3: zoo.80, 2016/11/29
+location.4: zoo.105, 2022/6/1
 species: 1
 studbook.id: 1324
 uncertainty: location.4 move date

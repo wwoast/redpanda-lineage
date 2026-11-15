@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1227
-location.1: 108, 2006/6/28
-location.2: 186, 2007/5/14
-location.3: 49, 2009/1/5
-location.4: 141, 2012/11/7
+location.1: zoo.108, 2006/6/28
+location.2: zoo.186, 2007/5/14
+location.3: zoo.49, 2009/1/5
+location.4: zoo.141, 2012/11/7
 photo.1: ig://CVtNojhLUwC/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2021/11/5

@@ -14,7 +14,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 114, 2009/7/10
-location.2: 107, 2009/10/6
+location.1: zoo.114, 2009/7/10
+location.2: zoo.107, 2009/10/6
 species: 1
 zoo: 107

@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 花花
 language.order: ja, en
 litter: 364
-location.1: 15, 1999/7/9
-location.2: 17, 2001/5/12
+location.1: zoo.15, 1999/7/9
+location.2: zoo.17, 2001/5/12
 photo.1: cwdc://VYTuJAfADQA.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/3

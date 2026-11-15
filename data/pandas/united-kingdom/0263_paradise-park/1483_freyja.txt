@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 221, 2025/7/5
-location.2: 263, 2026/8/4
+location.1: zoo.221, 2025/7/5
+location.2: zoo.263, 2026/8/4
 species: 1
 zoo: 263

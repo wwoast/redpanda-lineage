@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 144, 2018/6/30
-location.2: 133, 2019/10/16
-location.3: 186, 2021/11/17
+location.1: zoo.144, 2018/6/30
+location.2: zoo.133, 2019/10/16
+location.3: zoo.186, 2021/11/17
 photo.1: cwdc://WrHoBOVADQA.jpg
 photo.1.author: sunsetzoomhk
 photo.1.commitdate: 2020/5/11

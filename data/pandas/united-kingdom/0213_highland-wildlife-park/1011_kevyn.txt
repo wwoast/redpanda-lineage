@@ -10,8 +10,8 @@ en.othernames: none
 gender: m
 language.order: en
 litter: unknown
-location.1: 184, 2011/7/14
-location.2: 213, 2012/7/24
+location.1: zoo.184, 2011/7/14
+location.2: zoo.213, 2012/7/24
 photo.1: ig://BhYmQCAjZVD/m
 photo.1.author: jbhague
 photo.1.commitdate: 2019/11/2

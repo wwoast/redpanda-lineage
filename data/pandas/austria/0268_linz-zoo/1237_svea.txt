@@ -15,9 +15,9 @@ ja.oldnames: レア
 ja.othernames: none
 language.order: en
 litter: unknown
-location.1: 266, 2013/7/4
-location.2: 220, 2014/7/4
-location.3: 268, 2017/7/13
+location.1: zoo.266, 2013/7/4
+location.2: zoo.220, 2014/7/4
+location.3: zoo.268, 2017/7/13
 photo.1: https://jaszberenyzoo.hu/sites/default/files/images/6_1.jpg
 photo.1.author: unknown
 photo.1.commitdate: 2020/11/26

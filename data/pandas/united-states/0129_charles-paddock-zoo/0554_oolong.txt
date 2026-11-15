@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 105, 2018/6/29
-location.2: 123, 2019/7/3
-location.3: 129, 2021/10/28
+location.1: zoo.105, 2018/6/29
+location.2: zoo.123, 2019/7/3
+location.3: zoo.129, 2021/10/28
 photo.1: ig://BoMbEeGhcIL/m
 photo.1.author: binderparkzoo
 photo.1.commitdate: 2019/3/9

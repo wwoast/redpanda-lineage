@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 642, 643
-location.1: 104, 2010/6/27
-location.2: 166, 2011/5/12
-location.3: 121, 2021/1/1
+location.1: zoo.104, 2010/6/27
+location.2: zoo.166, 2011/5/12
+location.3: zoo.121, 2021/1/1
 photo.1: cwdc://X2RS2rRADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2021/12/26

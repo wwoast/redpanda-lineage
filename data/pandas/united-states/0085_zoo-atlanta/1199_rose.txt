@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1200, 1201
-location.1: 111, 2020/6/25
-location.2: 108, 2021/8/23
-location.3: 85, 2023/2/1
+location.1: zoo.111, 2020/6/25
+location.2: zoo.108, 2021/8/23
+location.3: zoo.85, 2023/2/1
 photo.1: ig://CHk5f5OD2zw/m
 photo.1.author: johnballzoogr
 photo.1.commitdate: 2020/11/23

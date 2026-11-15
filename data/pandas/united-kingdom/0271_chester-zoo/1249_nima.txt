@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ne, ja
 litter: unknown
-location.1: 150, 2012/7/4
-location.2: 271, 2013/4/24
+location.1: zoo.150, 2012/7/4
+location.2: zoo.271, 2013/4/24
 ne.name: निमा
 ne.nicknames: none
 ne.othernames: none

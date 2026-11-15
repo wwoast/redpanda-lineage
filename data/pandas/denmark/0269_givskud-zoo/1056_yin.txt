@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 225, 2016/6/17
-location.2: 219, 2017/2/12
-location.3: 269, 2022/7/1
+location.1: zoo.225, 2016/6/17
+location.2: zoo.219, 2017/2/12
+location.3: zoo.269, 2022/7/1
 photo.1: ig://BnWDp4Ynvtu/m
 photo.1.author: mirellad03
 photo.1.commitdate: 2021/7/30

@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 109, 2012/7/1
-location.2: 123, 2017/12/20
-location.3: 104, 2019/10/1
+location.1: zoo.109, 2012/7/1
+location.2: zoo.123, 2017/12/20
+location.3: zoo.104, 2019/10/1
 photo.1: ig://BnmNqgKD7AF/m
 photo.1.author: fwkidszoo
 photo.1.commitdate: 2019/4/7

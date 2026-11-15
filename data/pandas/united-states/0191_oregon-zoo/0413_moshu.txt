@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 414, 415
-location.1: 83, 2011/6/20
-location.2: 90, 2012/5/14
-location.3: 191, 2019/11/17
+location.1: zoo.83, 2011/6/20
+location.2: zoo.90, 2012/5/14
+location.3: zoo.191, 2019/11/17
 photo.1: cwdc://WIWyKVsADQA.jpg
 photo.1.author: nashvillezoo
 photo.1.commitdate: 2018/12/12
