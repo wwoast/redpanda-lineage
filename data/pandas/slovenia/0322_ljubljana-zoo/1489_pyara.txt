@@ -1,0 +1,16 @@
+[panda]
+_id: 1489
+birthday: 2025/7/4
+birthplace: 324
+children: unknown
+commitdate: 2026/11/15
+en.name: Pyara
+en.nicknames: unknown
+en.othernames: unknown
+gender: f
+language.order: en
+litter: unknown
+location.1: 324, 2025/7/4
+location.2: 322, 2026/9/26
+species: 1
+zoo: 322
