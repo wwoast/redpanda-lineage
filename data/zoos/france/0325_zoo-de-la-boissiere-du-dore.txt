@@ -1,0 +1,16 @@
+[zoo]
+_id: 325
+commitdate: 2026/11/15
+en.address: 2 La Châtaigneraie, 44430 La Boissière-du-Doré, France
+en.location: La Boissière-du-Doré, Loire-Atlantique, France
+en.name: Zoo de La Boissière-du-Doré
+flag: France
+fr.address: 2 La Châtaigneraie, 44430 La Boissière-du-Doré, France
+fr.location: La Boissière-du-Doré, Loire-Atlantique, France
+fr.name: Zoo de La Boissière-du-Doré
+language.order: fr, en
+latitude: 47.244492
+longitude: -1.198461
+map: https://maps.app.goo.gl/P1yVGXnWhT2yhyX27
+opened: 1984/7/1
+website: https://zoo-boissiere.com/
