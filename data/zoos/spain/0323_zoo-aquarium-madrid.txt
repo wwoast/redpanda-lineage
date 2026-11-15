@@ -1,0 +1,15 @@
+[zoo]
+_id: 323
+commitdate: 2026/11/15
+en.address: Casa de Campo, s/n, 28011 Madrid, Spain
+en.location: Madrid, Spain
+en.name: Zoo Aquarium Madrid
+es.address: Casa de Campo, s/n, 28011 Madrid, España
+es.location: Madrid, España
+es.name: Zoo Aquarium Madrid
+flag: Spain
+language.order: es, en
+latitude: 40.4091228
+longitude: -3.7609586
+map: https://maps.app.goo.gl/oaNZHGoJn9bwQd267
+website: https://www.zoomadrid.com/

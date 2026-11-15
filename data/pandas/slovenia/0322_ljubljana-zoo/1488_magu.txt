@@ -1,0 +1,16 @@
+[panda]
+_id: 1488
+birthday: 2012/6/6
+birthplace: 323
+children: unknown
+commitdate: 2026/11/15
+en.name: Magu
+en.nicknames: unknown
+en.othernames: unknown
+gender: m
+language.order: en
+litter: unknown
+location.1: 323, 2012/6/6
+location.2: 322, 2013/6/20
+species: 3
+zoo: 322
