@@ -1,0 +1,15 @@
+[zoo]
+_id: 324
+commitdate: 2026/11/15
+en.address: LDT Kerruisseau, 56620 Pont-Scorff, France
+en.location: Pont-Scorff, Morbihan, France
+en.name: Les Terres de Nataé
+flag: France
+fr.address: LDT Kerruisseau, 56620 Pont-Scorff, France
+fr.location: Pont-Scorff, Morbihan, France
+fr.name: Les Terres de Nataé
+language.order: fr, en
+latitude: 47.810278
+longitude: -3.406944
+map: https://maps.app.goo.gl/gfK1Jcpc8egz5b42A
+website: https://www.lesterresdenatae.fr/
