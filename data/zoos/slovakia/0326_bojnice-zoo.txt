@@ -1,0 +1,18 @@
+[zoo]
+_id: 326
+commitdate: 2026/11/15
+en.address: Zámok a okolie 6, 972 01 Bojnice, Slovakia
+en.location: Bojnice, Slovakia
+en.name: Bojnice Zoo
+en.othernames: National Zoological Garden Bojnice, Slovak National Zoological Garden
+flag: Slovakia
+language.order: sk, en
+latitude: 48.7811976
+longitude: 18.5774772
+map: https://maps.app.goo.gl/K9hA512Peao9XTS48
+opened: 1955/4/1
+sk.address: Zámok a okolie 6, 972 01 Bojnice, Slovakia
+sk.location: Bojnice, Trenčiansky kraj, Slovensko
+sk.name: Národná zoologická záhrada Bojnice
+sk.othernames: Národná zoo Bojnice
+website: https://zoobojnice.sk/
