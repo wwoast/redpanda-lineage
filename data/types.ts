@@ -243,8 +243,8 @@ declare global {
     _id: string,
     /** YYYY/MM/DD birthday string */
     birthday: string,
-    /** A numeric ID for a zoo, or if born in the wild, `unknown` */
-    birthplace?: string,
+    /** A zoo numeric ID, or if born in the wild, `unknown` */
+    birthplace?: number | "unknown",
     /** 
      * Numeric IDs for any children of this animal, a "ID and percentage"
      * string indicating probable parentage, or "none"

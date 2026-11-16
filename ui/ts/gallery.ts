@@ -1,3 +1,4 @@
+import { num } from '@redpanda-lineage/shared'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { Defaults, Emoji, Gui, Polyglots, Tags } from './lookup.ts'
@@ -346,7 +347,7 @@ export function birthdayPhotoCredits(photo_count=3, max_animals=5) {
     const info = Show.acquirePandaInfo(animal)
     const years_old = Pandas.ageYears(animal)
     // Post the birthday message (with age in years)
-    const message = Message.birthday(info.name, info._id, years_old)
+    const message = Message.birthday(info.name, num(info._id), years_old)
     birthday_div.appendChild(message)
     const photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
@@ -770,7 +771,7 @@ export function memorialPhotoCredits(
     const animal = Pandas.searchPandaId(id)[0] as NodePanda
     const info = Show.acquirePandaInfo(animal)
     const message =
-      message_function(info.name, info._id, info.birthday, info.death)
+      message_function(info.name, num(info._id), info.birthday, info.death)
     memorial_div.appendChild(message)
     const photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {

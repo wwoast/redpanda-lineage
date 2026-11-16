@@ -1639,10 +1639,10 @@ export function locationList(animal: NodePanda): ProfileLocation[] {
     const nextLocation = animal.locations[index + 1]
     const end_date = (nextLocation == undefined)
       ? animal["death"] ?? undefined
-      : (location._id == 0)
+      : (location._id == "zoo.0")
         ? Defaults.animal["birthday"]
         : nextLocation.date
-    const start_date = (location._id == 0)
+    const start_date = (location._id == "zoo.0")
       ? Defaults.animal["birthday"]
       : location.date
     locations.push({
