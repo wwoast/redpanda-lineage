@@ -36,7 +36,8 @@
 
     copyright dann toliver, 2015
     version 0.3.4
-    ported away from 'code golf' to es6 and classes/typescript by Justin Fairchild, 2026
+    ported away from 'code golf' to es6 and classes/typescript, with a couple
+    helper functions, by Justin Fairchild, 2026
 */
 
 /** 

@@ -510,9 +510,9 @@ export class Dataset {
    */
   edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
-      // Zoo and wild locations are string IDs now
+      // Zoo locations are string IDs
       this.graph.addEdge({
-        "_in": vertex.birthplace,
+        "_in": `zoo.${vertex.birthplace}`,
         "_label": "birthplace",
         "_out": vertex._id
       })
@@ -522,7 +522,7 @@ export class Dataset {
     // Zoo IDs are cast to negative numbers when added to the graph
     if (vertex.zoo) {
       this.graph.addEdge({
-        "_in": vertex.zoo.toString(),
+        "_in": `zoo.${vertex.zoo}`,
         "_label": "zoo",
         "_out": vertex._id
       })

@@ -12,6 +12,7 @@
   },
   "workspace": [
     "./data",
+    "./shared",
     "./ui"
   ]
 }

@@ -117,8 +117,8 @@ declare global {
    * this information is a "best guess".
    */
   type PandaLocation = {
-    /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
-    _id: number | string,
+    /** A Zoo string ID or Wild string ID, or possibly `unknown` */
+    _id: string,
     /** 
      * The arrival date for a panda at a particular zoo. For zoos, this is a
      * exact YYYY/MM/DD date, or sometimes, a best guess to the 1st of the month.
@@ -243,13 +243,13 @@ declare global {
     _id: string,
     /** YYYY/MM/DD birthday string */
     birthday: string,
-    /** A prefix ID for either a zoo or a wild location, or possibly `unknown` */
+    /** A numeric ID for a zoo, or if born in the wild, `unknown` */
     birthplace?: string,
     /** 
      * Numeric IDs for any children of this animal, a "ID and percentage"
      * string indicating probable parentage, or "none"
      */
-    children: number[] | string[] | ["none"],
+    children: number[] | string[],
     /**
      * YYYY/MM/DD representing the day this panda was added to redpandafinder,
      * for the sake of showing newly-added pandas on the front page.

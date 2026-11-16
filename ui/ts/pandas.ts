@@ -1,4 +1,5 @@
 import { Graph } from '@redpanda-lineage/data'
+import { num } from '@redpanda-lineage/shared'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'
@@ -125,11 +126,6 @@ export function distinct<T>(list: T[]) {
   const unique =
     (value: T, index: number, self: T[]) => self.indexOf(value) === index
   return list.filter(unique)
-}
-
-/** Take a prefixed ID like `panda.100` and return 100 */
-export function num(prefixId: string) {
-  return parseInt(prefixId.split(".").pop() as string) as number
 }
 
 /** 
@@ -993,12 +989,11 @@ export function searchPandaZooCurrent(idnum: number) {
  * Find all pandas that relocated away from a zoo in the last six months. Use
  * the locations value (animals without one haven't relocated)
  */
-export function searchPandaZooDeparted(idnum: number, months=6) {
-  const compare_id = idnum * -1
+export function searchPandaZooDeparted(compare_id: string, months=6) {
   let nodes = G.v()
     // Departed animals aren't at the desired zoo currently
     .filter((vertex: GraphNode) => vertex.locations && vertex.locations.length > 0)
-    .filter((vertex: NodePanda) => vertex.zoo != idnum)
+    .filter((vertex: NodePanda) => vertex.zoo != num(compare_id))
     .filter((vertex: NodePanda) => {
       // Gets panda locations. We want the date of the next zoo
       // the animal was based at. If that date is less than 6 months 
@@ -1022,7 +1017,7 @@ export function searchPandaZooDeparted(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(location._id) * -1,
+            "to": location._id,
             "move_date": location.date
           }
           return true
@@ -1032,7 +1027,7 @@ export function searchPandaZooDeparted(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(location._id) * -1,
+            "to": location._id,
             "move_date": location.date
           }
           return true   // Less than N months?
