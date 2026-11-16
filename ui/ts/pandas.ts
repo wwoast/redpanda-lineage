@@ -877,8 +877,8 @@ export function searchPandaZooArrived(idnum: number, months=6) {
  * Find all pandas born (and living) at a given zoo. For interleaving with
  * other results, make a date object from  their birthday for the `sort_time`
  */
-export function searchPandaZooBorn(idnum: number, months=6) {
-  const born = G.v(idnum)
+export function searchPandaZooBorn(zooId: string, months=6) {
+  const born = G.v(zooId)
     .in("birthplace")
     .filter((vertex: GraphNode) => {
       if (vertex.type != "panda") return false   // Gotta be pandas
@@ -898,7 +898,7 @@ export function searchPandaZooBorn(idnum: number, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "born",
-          "at": idnum
+          "at": zooId
         }
         return vertex
       } else {
@@ -968,15 +968,13 @@ export function searchPandaZooBornLived(zoo_id: string, search_context=false) {
  * Find all pandas born at a given zoo any time. Set search_context to `true`
  * if you want the results to add a "born" zoo listing
  */
-export function searchPandaZooBornRecords(idnum: number, search_context=false) {
-  if (idnum > 0) 
-    idnum = idnum * -1;   // HACK: zoo records
+export function searchPandaZooBornRecords(zooId: string, search_context=false) {
   // HACK: you can enrich nodes with filter
-  let nodes = G.v(idnum).in("birthplace").filter((vertex: GraphNode) => {
+  let nodes = G.v(zooId).in("birthplace").filter((vertex: GraphNode) => {
     if (search_context == true) {
       vertex["search_context"] = {
         "query": "born_at",
-        "at": idnum
+        "at": zooId
       }
     }
     return vertex
@@ -987,12 +985,13 @@ export function searchPandaZooBornRecords(idnum: number, search_context=false) {
 }
 
 /** Find all pandas at a given zoo that are still alive */
-export function searchPandaZooCurrent(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchPandaZooCurrent(zooId: string) {
+  const nodes = G.v(zooId)
     .in("zoo")
-    .filter((vertex: GraphNode) => vertex.death == undefined)
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.death == undefined)
     .run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /**
@@ -1002,7 +1001,8 @@ export function searchPandaZooCurrent(idnum: number) {
 export function searchPandaZooDeparted(compare_id: string, months=6) {
   let nodes = G.v()
     // Departed animals aren't at the desired zoo currently
-    .filter((vertex: GraphNode) => vertex.locations && vertex.locations.length > 0)
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.locations.length > 0)
     .filter((vertex: NodePanda) => vertex.zoo != num(compare_id))
     .filter((vertex: NodePanda) => {
       // Gets panda locations. We want the date of the next zoo
@@ -1053,14 +1053,13 @@ export function searchPandaZooDeparted(compare_id: string, months=6) {
     .run()
   nodes = sortByDate(nodes, "sort_time", "descending")
   // TODO: does this logic work with multiple arrival/returns?
-  return nodes
+  return nodes as NodePanda[]
 }
 
-export function searchPandaZooDied(idnum: number, months=6) {
-  if (idnum > 0)
-    idnum = idnum * -1;   // HACK: zoo records
-  let nodes = G.v(idnum)
+export function searchPandaZooDied(zooId: string, months=6) {
+  let nodes = G.v(zooId)
     .in("zoo")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
     .filter((vertex: NodePanda) => {
       // Gotta be dead
       if (vertex.death == undefined) return false
