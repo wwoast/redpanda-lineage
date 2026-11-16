@@ -10,5 +10,11 @@
 
 /** Take a prefixed ID like `panda.100` and return 100 */
 export function num(prefixId: string) {
-  return parseInt(prefixId.split(".").pop() as string) as number
+  const suffix = (prefixId.includes("."))
+    ? prefixId.split(".").pop() ?? ""
+    : prefixId
+  const numericId = parseInt(suffix)
+  if (isNaN(numericId))
+    throw new Error(`TODO: ${prefixId} value or suffix is not numeric`)
+  return numericId
 }

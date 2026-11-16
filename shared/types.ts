@@ -364,6 +364,12 @@ declare global {
     _id: string,
     /** A stub address to match what similar zoo addresses strings look like */
     address: StringPerLanguage
+    /**
+     * Language order for how to prioritize displaying names when the current
+     * display language doesn't have information for this animal. The insertion
+     * order into the set reflects the order of the `language.order` values
+     */
+    "language.order": Set<Language>,
     /** A stub location to match what similar zoo location strings look like */
     location: StringPerLanguage,
     /** Each wild sighting location has a single primary name per language */

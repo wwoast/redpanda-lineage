@@ -1624,7 +1624,7 @@ export function indeterminateSiblings(animal_id: number, sibling_id: number) {
 /** Return the array of languages prioritized for the given entity */
 export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
   const ordering = entity["language.order"]
-  if (ordering == undefined || ordering.length == 0) {
+  if (ordering == undefined || Array.from(ordering).length == 0) {
     return Fallback.order
   } else {
     return ordering
@@ -1672,7 +1672,7 @@ function locationWild(animal: NodePanda) {
   const locations = [{
     "zoo": myWild(animal, "wild"),
     "start_date": Defaults.date[Env.language],
-    "end_date": Defaults.date[Env.language]
+    "end_date": end_date ?? Defaults.date[Env.language]
   }]
   return locations
 }
