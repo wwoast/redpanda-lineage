@@ -1054,10 +1054,12 @@ const randomButton = {
     const groupIds =
       P.db.vertices.filter(entity => entity.type == "media")
                    .map(entity => entity["panda.tags"])
+                   .map(numericIds =>
+                      numericIds.map(numericId => `panda.${numericId}`))
                    .filter(pandaIds => {
                       // If all animals in a media node are dead, don't present
                       const alive = pandaIds.every(
-                        id => Pandas.searchPandaId(id).death != undefined)
+                        id => Pandas.graphId<NodePanda>(id).death != undefined)
                       if (alive)
                         return false
                       else
@@ -2555,7 +2557,7 @@ export const resultsPage = {
     const ul = document.createElement('ul')
     ul.className = `pandaList ${Env.language}`
     for (const index in Pandas.sortOldestToYoungest(info.siblings)) {
-      const myself = Pandas.searchPandaId(info._id)[0] as NodePanda
+      const myself = Pandas.graphId<NodePanda>(info._id)
       const animal = info.siblings[index]
       const icon_list: AnimalLinkOption[] = ["child_icon", "live_icon"]
       if (Pandas.halfSiblings(myself, animal))

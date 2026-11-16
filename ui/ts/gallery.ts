@@ -164,8 +164,8 @@ export class Carousel {
   /** Utility function to get the proper entity for photo counts */
   photoEntity(entity_id=this.info._id) {
     return (this.carousel_type == "zoo")
-      ? Pandas.searchZooId(entity_id)[0]
-      : Pandas.searchPandaId(entity_id)[0]
+      ? Pandas.graphId<NodeZoo>(entity_id)
+      : Pandas.graphId<NodePanda>(entity_id)
   }
 
   /** Navigation input event -- load the next photo in the carousel */
@@ -353,7 +353,7 @@ export function birthdayPhotoCredits(photo_count=3, max_animals=5) {
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
       // Link to the original instagram media
-      img_link.href = `#panda/${animal._id}/photo/${photo.index}`
+      img_link.href = `#panda/${num(animal._id)}/photo/${photo.index}`
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
@@ -723,14 +723,14 @@ export function genericPhotoCredits(
 ) {
   const generic_div = document.createElement('div')
   for (const id of id_list) {
-    const animal = Pandas.searchPandaId(id)[0] as NodePanda
+    const animal = Pandas.graphId<NodePanda>(id)
     const message = message_function.apply(null, message_params)
     generic_div.appendChild(document.createTextNode(message))
     const photos = Pandas.searchPhotoTags([animal], tag_list, "photos", "first")
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
       // Link to the original instagram media
-      img_link.href = `#panda/${animal._id}/photo/${photo.index}`
+      img_link.href = `#panda/${num(animal._id)}/photo/${photo.index}`
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
@@ -768,7 +768,7 @@ export function memorialPhotoCredits(
 ) {
   const memorial_div = document.createElement('div')
   for (const id of id_list) {
-    const animal = Pandas.searchPandaId(id)[0] as NodePanda
+    const animal = Pandas.graphId<NodePanda>(id)
     const info = Show.acquirePandaInfo(animal)
     const message =
       message_function(info.name, num(info._id), info.birthday, info.death)
@@ -777,7 +777,7 @@ export function memorialPhotoCredits(
     for (const photo of Pandas.randomChoice(photos, photo_count)) {
       const img_link = document.createElement('a')
       // Link to the original instagram media
-      img_link.href = `#panda/${animal._id}/photo/${photo.index}`
+      img_link.href = `#panda/${num(animal._id)}/photo/${photo.index}`
       const img = document.createElement('img')
       img.setAttribute("loading", "lazy")
       // Set the photo, even if it takes an extra XHR
@@ -811,10 +811,11 @@ export function memorialPhotoCredits(
  */
 export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], photo_count=5) {
   const memorial_div = document.createElement('div')
-  const group = Pandas.searchPandaId(group_id)[0] as NodeMedia
+  const group = Pandas.graphId<NodeMedia>(group_id)
   const id_link_string = id_list.join("/")
-  const name_list = id_list.map(x => Pandas.searchPandaId(x)[0] as NodePanda)
-                           .map(x => Language.fallback_name(x))
+  const name_list = id_list.map(numId => `panda.${numId}`)
+                           .map(prefixId => Pandas.graphId<NodePanda>(prefixId))
+                           .map(animal => Language.fallback_name(animal))
   const name_string = Language.commaPhraseBare(name_list)
   const message = Message.memorialGroup(name_string, id_link_string)
   memorial_div.appendChild(message)
@@ -823,7 +824,7 @@ export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], p
   let photos = Pandas.searchPhotoTags([group], ["portrait"], "photos", "first")
   // Individual photos
   for (const id of id_list) {
-    const animal = Pandas.searchPandaId(id)[0] as NodePanda
+    const animal = Pandas.graphId<NodePanda>(id)
     const individual_all =
       Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first")
     const individual_sample = Pandas.randomChoice(individual_all, 2)
@@ -898,16 +899,16 @@ function pandaPhotoCreditSingle(photo: EnrichedPhoto) {
   const caption = document.createElement('h5')
   caption.className = "caption pandaName"
   if (photo.type == "media") {
-    const entity = Pandas.searchPandaId(id)[0] as NodeMedia
+    const entity = Pandas.graphId<NodeMedia>(id)
     caption.innerText = Pandas.groupMediaCaption(entity, photo)
     const panda_route = entity["panda.tags"].join("/")
     caption_link.href = `#group/${panda_route}`
   } else {
     // TODO ES6: handle non-panda photos
-    const animal = Pandas.searchPandaId(id)[0] as NodePanda
+    const animal = Pandas.graphId<NodePanda>(id)
     const info = Show.acquirePandaInfo(animal)
     caption.innerText = info.name
-    caption_link.href = `#panda/${id}/photo/${photo.index}`
+    caption_link.href = `#panda/${num(id)}/photo/${photo.index}`
   }
   caption_link.appendChild(caption)
   const container = document.createElement('div')
@@ -1021,7 +1022,7 @@ function tagPhotoMessage(results: QueryResult, hit_count: number) {
 /** Take a photo that matches a tag, and display it along with the tag emoji */
 function tagPhotoSingle(photo: EnrichedPhoto, add_emoji: boolean) {
   const content_divs = []
-  const node = Pandas.searchPandaId(photo._id)[0] as NodeMedia | NodePanda
+  const node = Pandas.graphId<NodeMedia | NodePanda>(photo._id)
   const img_link = document.createElement('a')
   // Link to the original instagram media
   img_link.href = url.href(photo.url)
@@ -1042,7 +1043,7 @@ function tagPhotoSingle(photo: EnrichedPhoto, add_emoji: boolean) {
     // TODO ES6: other node types
     const info = Show.acquirePandaInfo(node)
     caption.innerText = info.name
-    caption_link.href = `#panda/${node._id}/photo/${photo.index}`
+    caption_link.href = `#panda/${num(node._id)}/photo/${photo.index}`
   }
   // Prefix caption with an emoji if we can get one
   const tag_lookup = Tags[photo.tags[0]]
@@ -1083,22 +1084,22 @@ export function updatedNewPhotoCredits(photo_count=7) {
     const caption_link = document.createElement('a')
     // TODO: better handling of group photos
     if (photo.type != "media")
-      caption_link.href = `#panda/${photo._id}/photo/${photo.index}`
+      caption_link.href = `#panda/${num(photo._id)}/photo/${photo.index}`
     const caption = document.createElement('h5')
     caption.className = "caption updateName"
     // Color any zoo-related animals in the summary info
     if (photo.classes)
       for (let caption_class of photo.classes)
         caption.classList.add(caption_class)
-    const node = Pandas.searchPandaId(photo._id)[0] as NodeMedia | NodePanda
+    const node = Pandas.graphId<NodeMedia | NodePanda>(photo._id)
     let updateName = undefined
-    if (photo.type == "media") {
-      updateName = Pandas.groupMediaCaption(node as NodeMedia, photo)
+    if (node.type == "media") {
+      updateName = Pandas.groupMediaCaption(node, photo)
       const panda_route = node["panda.tags"].join("/")
       caption_link.href = `#group/${panda_route}`
     } else {
       // TODO ES6: do specific types
-      const info = Show.acquirePandaInfo(node as NodePanda)
+      const info = Show.acquirePandaInfo(node)
       updateName = info.name
     }
     if ("name_icon" in photo)
@@ -1218,9 +1219,10 @@ function updatedPhotoOrdering(photo_count: number) {
         // If the commitdate of the animal isn't recent, it's not new and
         // shouldn't be listed in the new zoo info, or with a heart panel
         const currenttime = new Date().getTime()
-        const commitdate = Pandas.searchPandaId(panda._id)[0].commitdate   // TODO: fix
+        const commitdate = Pandas.graphId<NodePanda>(panda._id).commitdate   // TODO: fix
+        const committime = new Date(commitdate).getTime()
         const ms_per_week = 1000 * 60 * 60 * 24 * 7
-        return (currenttime - commitdate > ms_per_week)
+        return (currenttime - committime > ms_per_week)
       })
     zoo_pandas = Pandas.uniqueField(zoo_pandas, "_id")
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas)
@@ -1331,7 +1333,7 @@ export function pumpkin(photo_count=5) {
   for (const photo of Pandas.randomChoice(photos, photo_count)) {
     const img_link = document.createElement('a')
     // Link to the original instagram media
-    img_link.href = `#panda/${photo._id}/photo/${photo.index}`
+    img_link.href = `#panda/${num(photo._id)}/photo/${photo.index}`
     const img = document.createElement('img')
     img.setAttribute("loading", "lazy")
     // Set the photo, even if it takes an extra XHR
@@ -1339,19 +1341,19 @@ export function pumpkin(photo_count=5) {
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
-    name_caption_link.href = `#panda/${photo._id}/photo/${photo.index}`
+    name_caption_link.href = `#panda/${num(photo._id)}/photo/${photo.index}`
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName halloweenMessage"
     const name_caption_span = document.createElement('span')
-    const animal = Pandas.searchPandaId(photo._id)[0]
+    const node = Pandas.graphId<NodeMedia | NodePanda>(photo._id)
     let updateName = undefined
-    if (photo.type == "media") {
-      updateName = Pandas.groupMediaCaption(animal as NodeMedia, photo)
-      const panda_route = animal["panda.tags"].join("/")
+    if (node.type == "media") {
+      updateName = Pandas.groupMediaCaption(node, photo)
+      const panda_route = node["panda.tags"].join("/")
       name_caption_link.href = `#group/${panda_route}`
     } else {
       // TODO ES6: correctly support many types here
-      const info = Show.acquirePandaInfo(animal as NodePanda)
+      const info = Show.acquirePandaInfo(node)
       updateName = info.name
     }
     name_caption_span.innerText = updateName
@@ -1405,11 +1407,11 @@ export function taglist(
     img_link.appendChild(img)
     // Animal name
     const name_caption_link = document.createElement('a')
-    name_caption_link.href = `#panda/${photo._id}/photo/${photo.index}`
+    name_caption_link.href = `#panda/${num(photo._id)}/photo/${photo.index}`
     const name_caption = document.createElement('h5')
     name_caption.className = "caption updateName"
     const name_caption_span = document.createElement('span')
-    const node = Pandas.searchPandaId(photo._id)[0]
+    const node = Pandas.graphId<NodePanda | NodeMedia>(photo._id)
     let updateName = undefined
     if (node.type == "media") {
       updateName = Pandas.groupMediaCaption(node, photo)
