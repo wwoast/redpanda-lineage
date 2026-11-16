@@ -82,7 +82,7 @@ export function authorLink(author: string, link: string) {
 
 /** Valid panda IDs are numeric and non-zero */
 export function checkId(input: number) {
-  return (isFinite(input) && input != Defaults.animal._id)
+  return (isFinite(input) && input != num(Defaults.animal._id))
 }
 
 /** 
@@ -895,12 +895,9 @@ export function searchPandaZooBorn(idnum: number, months=6) {
 }
 
 /** Find all pandas that were either born at, or lived at a given zoo */
-export function searchPandaZooBornLived(idnum: number, search_context=false) {
-  if (idnum > 0)
-    idnum = idnum * -1
-  const compare_id = idnum * -1
-  const lives = G.v(idnum).in("zoo").run() as NodePanda[]
-  const born = G.v(idnum).in("birthplace").run() as NodePanda[]
+export function searchPandaZooBornLived(zoo_id: string, search_context=false) {
+  const lives = G.v(zoo_id).in("zoo").run() as NodePanda[]
+  const born = G.v(zoo_id).in("birthplace").run() as NodePanda[]
   const was_here = G.v()
     .filter((vertex: GraphNode) =>
       vertex.type == "panda" && vertex.locations && vertex.locations.length > 0)
@@ -908,7 +905,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       // Gets panda locations and finds zoo matches
       for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (location._id == compare_id)
+        if (location._id == zoo_id)
           return true
       }
       return false
@@ -924,7 +921,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       let current_range = undefined
       for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (location._id == compare_id) {
+        if (location._id == zoo_id) {
           current_range = [location.date]
         } else if (current_range != undefined) {
           current_range.push(location.date)
@@ -944,7 +941,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       vertex["search_context"] = {
         "query": "born_or_lived",
         "ranges": date_ranges,
-        "at": idnum
+        "at": zoo_id
       }
       return vertex
     })
@@ -1903,21 +1900,6 @@ export function species(animal: NodePanda) {
   }
   const idx = parseInt(animal.species) - 1
   return Defaults.species[Env.language][idx]
-}
-
-/** Given a wild location found with `location()`, return the location name. */
-export function wildName(wild: NodeWild) {
-  return wild.name[Env.language] == undefined
-    ? Defaults.wild.name[Env.language]
-    : wild.name[Env.language]
-}
-
-/**
- * Given a wild location found with `location()`, return an arbitrary field.
- * Useful for anything that's just a URI, like videos or photos.
- */
-export function wildField(wild: NodeWild, field: string) {
-  return wild[field] == undefined ? Defaults.wild[field] : wild[field]
 }
 
 /** Given a zoo found with `location()`, return the name of the zoo. */

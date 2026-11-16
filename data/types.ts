@@ -1,8 +1,8 @@
 /** 
  * Types in redpandafinder, organized in order from minor property types, to
- * larger principal objects that employ those property types. RPF types being
- * derived from Dagoba types, means the global types file should remain inside
- * the `@redpanda-data` project.
+ * larger objects that employ those property types. Since RPF types derive from
+ * Dagoba Vertex and Edge types, the import chain is simplest if we keep
+ * global types inside the `@redpanda-data` subproject.
  */
 import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
 
@@ -12,7 +12,7 @@ import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
  * the rest of this file work similarly to an ambient-types file.
  */
 declare global {
-  /** The `./contributions.conf` object after having been IniMap'ed */
+  /** The `./contributions.conf` object after having been `IniMap`'ed */
   type ExternalConfig = Record<string, Record<string, string>>
 
   enum SupportedLanguages {
