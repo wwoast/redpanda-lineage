@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/shared'
+import { num } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { Emoji, Polyglots, Tags } from './lookup.ts'

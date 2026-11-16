@@ -1,5 +1,4 @@
-import { Graph } from '@redpanda-lineage/data'
-import { num } from '@redpanda-lineage/shared'
+import { Graph, num } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'
@@ -1899,10 +1898,10 @@ export function species(animal: NodePanda) {
   // 0th value in `Defaults.species` is fulgens
   // 1th vlue in `Defaults.species` is styani
   // The panda files list the species as a number that is off by one from this
-  if (animal["species"] == undefined) {
+  if (animal.species == undefined) {
     return Defaults.unknown[Env.language]
   }
-  const idx = parseInt(animal["species"]) - 1
+  const idx = parseInt(animal.species) - 1
   return Defaults.species[Env.language][idx]
 }
 

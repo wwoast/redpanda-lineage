@@ -429,7 +429,7 @@ export function editDistance(a: string, b: string) {
  * to determine the most relevant available name for the animal shown, even if
  * it's not in the current display language.
  */
-export function fallback_name(entity: PhotoGraphNode): string {
+export function fallback_name(entity: Exclude<PhotoGraphNode, NodeMedia>): string {
   const entity_order = entity["language.order"]
   const order = currentOrder(entity_order, Env.language)
   order.unshift(Env.language)   // Display language always comes first

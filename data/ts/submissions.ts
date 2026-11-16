@@ -1,3 +1,4 @@
+import { num } from '@redpanda-lineage/data'
 import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from '@std/ini/ini-map'
@@ -331,8 +332,8 @@ function getImageLocators(
 /** For new pandas added to _redpanda-lineage_, write to this file path */
 function getLocationPathForNewPanda(dataset: Dataset, panda: NodePanda) {
   const locationLookupId = (panda.zoo)
-    ? panda.zoo * -1
-    : panda.wild
+    ? `zoo.${panda.zoo}`
+    : `wild.${panda.wild}`
   const locationEntity = dataset.graph.vertices
     .filter(vertex => vertex._id == locationLookupId)
     .shift()
@@ -361,7 +362,7 @@ function getLocationPathForNewZoo(dataset: Dataset, zoo: FragmentZoo) {
 function getNewIdWithLeadingZeroes(dataset: Dataset, type: "panda" | "zoo") {
   const newEntityId = dataset.graph.vertices
     .filter(vertex => vertex.type == type)
-    .map(vertex => Math.abs(vertex._id as number))
+    .map(vertex => num(vertex._id))
     .reduce((max: number, current: number) => {
       if (current > max) return current
       else return max

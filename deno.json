@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["./shared/types.ts"]
+    "types": ["./data/types.ts"]
   },
   "tasks": {
     "export": {
@@ -12,7 +12,6 @@
   },
   "workspace": [
     "./data",
-    "./shared",
     "./ui"
   ]
 }

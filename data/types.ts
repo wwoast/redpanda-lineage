@@ -1,9 +1,10 @@
-import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
-
 /** 
  * Types in redpandafinder, organized in order from minor property types, to
- * larger principal objects that employ those property types.
+ * larger principal objects that employ those property types. RPF types being
+ * derived from Dagoba types, means the global types file should remain inside
+ * the `@redpanda-data` project.
  */
+import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
 
 /** 
  * As soon as types are imported in your ambient types file, it just becomes a
@@ -293,6 +294,8 @@ declare global {
     othernames: StringListByLanguage,
     /** A panda likely has some set of photos and attributions */
     photos: Photo[],
+    /** A numeric value representing the species name for this red panda */
+    species: Species,
     /** 
      * Official zoo records often track animals by a studbook identifier. This
      * isn't necessarily surfaced in redpandafinder, but the recordkeeping tracks

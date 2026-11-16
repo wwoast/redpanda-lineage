@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/shared'
+import { num } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Gallery from './gallery.ts'
 import * as Geo from './geolocate.ts'
