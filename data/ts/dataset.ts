@@ -2,6 +2,12 @@ import { Git } from '@roka/git'
 import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
+import { toLinks,
+         toMedia,
+         toPandas,
+         toPhotoEntities,
+         toWilds,
+         toZoos } from './export.ts'
 import { PhotoEntry } from './photos.ts'
 import { DataPaths,
          Paths,
@@ -11,13 +17,7 @@ import { DataPaths,
          existsDirSync,
          existsFileSync,
          reviveNode,
-         supportedLanguages,
-         toLinks,
-         toMedia,
-         toPandas,
-         toPhotoEntities,
-         toWilds,
-         toZoos } from './shared.ts'
+         supportedLanguages } from './shared.ts'
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files

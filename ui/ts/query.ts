@@ -92,11 +92,9 @@ function filter_set(set_node: ParserNode) {
       // Fall back to normal credit photo search
       parsed = "set_credit_photos"
       filter_word = undefined
-    } else {
+    } else if (parseInt(filter_word) > 0) {
       // If idnum given, show name instead
-      if (parseInt(filter_word) > 0) {
-        filter_word = fallback_name(Pandas.searchPanda(filter_word)[0])
-      }
+      filter_word = fallback_name(Pandas.graphId<NodePanda>(filter_word))
     }
     hits = Pandas.searchPhotoCredit(search_word, filter_ids)
   }

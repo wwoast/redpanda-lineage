@@ -80,11 +80,6 @@ export function authorLink(author: string, link: string) {
   }
 }
 
-/** Valid panda IDs are numeric and non-zero */
-export function checkId(input: number) {
-  return (isFinite(input) && input != num(Defaults.animal._id))
-}
-
 /** 
  * For wildcard date values, we do some date checks by converting Date objects
  * to year-month-day dicts
@@ -352,7 +347,7 @@ export function searchBirthdayList(input_date: string) {
  */
 export function searchBirthdayToday(keep_living=true, photo_count=20) {
   const today = new Date()
-  const nodes = G.v()
+  const nodes: NodePanda[] = G.v()
     .filter((vertex: GraphNode) => {
       if (vertex.type != "panda") return false   // Only pandas
       const birthday = new Date(vertex.birthday)
@@ -425,28 +420,23 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   const initial_set = searchBirthdayToday(keep_living, photo_count)
   const initial_ids = shuffle(initial_set.map(x => x._id))
   const litter_ids = searchBirthdayLitterIds(keep_living, photo_count)
-  // Find all pandas we can remove from the random sample,
-  // for not having any litter mates
-  let has_litters = initial_ids.filter(function(x) {
-    return litter_ids.includes(x)
-  })
-  let no_litters = initial_ids.filter(function(x) {
-    return (!litter_ids.includes(x))
-  })
+  // Remove any pandas from the random sample that have no litter mates
+  let has_litters = initial_ids.filter(x => litter_ids.includes(x))
+  let no_litters = initial_ids.filter(x => !litter_ids.includes(x))
   has_litters = distinct(has_litters)
-  // Get the id of a single animal that has a litter born on
-  // this date, and include them all in the output. Have fallbacks
-  // in case we don't have any litter birthdays
+  // Get the id of a single animal that has a litter born on this date, and
+  // include them all in the output. Have fallbacks in case we don't have any
+  // litter birthdays
   let chosen_year = -1
   let chosen_id
   let chosen_litter_ids: string[] = []
   if (has_litters.length > 0) {
     // TODO: ONLY ONE SET OF LITTERS IN THE BIRTHDAY FRONT PAGE. :/ Refactor.
     chosen_id = randomChoice(has_litters, 1)[0]
-    const chosen_animal = searchPandaId(chosen_id)[0]
+    const chosen_animal = graphId<NodePanda>(chosen_id)
     chosen_litter_ids = searchLitter(chosen_id)
-      .filter((vertex: NodePanda) => vertex.birthday == chosen_animal.birthday)
-      .filter((vertex: NodePanda) => {
+      .filter(vertex => vertex.birthday == chosen_animal.birthday)
+      .filter(vertex => {
         // Filter out any animals in litters are passed away
         if (keep_living == true) {
           return (vertex.death == undefined)
@@ -488,10 +478,10 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   // Add back animals younger than the displayed litter
   if (after_litter.length > 0)
     s2_ids = s2_ids.concat(after_litter)
-  let final_animals = s2_ids.map(x => searchPandaId(x)[0])
+  let final_animals = s2_ids.map(x => graphId<NodePanda>(x))
   // Good enough for year sort
   final_animals = sortByName(final_animals, "birthday")
-  return final_animals as NodePanda[]
+  return final_animals
 }
 
 /** Find all pandas that died within a calendar year. */
@@ -526,7 +516,9 @@ export function searchDiedList(input_date: string) {
       const their_date = new Date(vertex.death)
       const their_date_ymd = date_to_ymd(their_date)
       return date_ymd_compare(their_date_ymd, died_date_ymd)
-    }).unique().run()
+    })
+    .unique()
+    .run()
   return sortYoungestToOldest(nodes)
 }
 
@@ -534,8 +526,8 @@ export function searchDiedList(input_date: string) {
  * Find a panda's littermates. Search for all pandas with the same parents and
  * the same (or close, within 48hrs) birthday
  */
-export function searchLitter(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchLitter(pandaId: string) {
+  const nodes = G.v(pandaId)
     .in("litter")
     .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
     .run()
@@ -552,18 +544,18 @@ export function searchLinks(idstr: string) {
   return nodes[0] as NodeLinks
 }
 
-export function searchMedia(idstr: string) {
+export function searchMedia(mediaId: string) {
   const nodes = G.v()
-    .filter((vertex: GraphNode) => vertex._id == idstr && vertex.type == "media")
+    .filter((vertex: GraphNode) => vertex._id == mediaId && vertex.type == "media")
     .run()
   return nodes as NodeMedia[]
 }
 
 /** Find a panda's siblings, not including littermates. */
-export function searchNonLitterSiblings(idnum: number) {
-  const birthday = G.v(idnum).run()[0].birthday
+export function searchNonLitterSiblings(pandaId: string) {
+  const birthday = graphId<NodePanda>(pandaId).birthday
   const nodes =
-    G.v(idnum)
+    G.v(pandaId)
       .as("me")
       .in("family")
       .out("family")
@@ -627,15 +619,6 @@ function searchPandaNameFields(input: string, name_fields: string[] = []) {
   return nodes as NodePanda[]
 }
 
-/** Find a panda by either name or id */
-export function searchPanda(input: string) {
-  const idnum = parseInt(input)
-  if (checkId(idnum) == true)
-    return searchPandaId(idnum) as NodePanda[]
-  else
-    return searchPandaName(input)
-}
-
 /** Find any panda entry with photos */
 export function searchPandaAnyPhoto() {
   const nodes = G.v()
@@ -655,8 +638,8 @@ export function searchPandaAnyPhotoMedia() {
 }
 
 /** Find a panda's children */
-export function searchPandaChildren(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchPandaChildren(pandaId: string) {
+  const nodes = G.v(pandaId)
     .out("family")
     .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
     .run()
@@ -664,10 +647,11 @@ export function searchPandaChildren(idnum: number) {
 }
 
 /** Find a panda's dad or possible dads */
-export function searchPandaDad(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchPandaDad(pandaId: string) {
+  const nodes = G.v(pandaId)
     .in("family")
-    .filter((vertex: GraphNode) => vertex.gender == "Male")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.gender == "Male")
     .run()
   return nodes as NodePanda[]
 }
@@ -725,9 +709,10 @@ export function searchPandaMediaIntersect(id_list: string[]) {
   return nodes as NodeMedia[]
 }
 
-/** Find a panda's mother */
-export function searchPandaMom(idnum: number) {
-  const nodes = G.v(idnum).in("family")
+/** Find a panda's mother (or list of probable moms) */
+export function searchPandaMom(pandaId: string) {
+  const nodes = G.v(pandaId).in("family")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
     .filter((vertex: NodePanda) => vertex.gender == "Female")
     .run()
   return nodes as NodePanda[]
@@ -970,16 +955,18 @@ export function searchPandaZooBornLived(zoo_id: string, search_context=false) {
  */
 export function searchPandaZooBornRecords(zooId: string, search_context=false) {
   // HACK: you can enrich nodes with filter
-  let nodes = G.v(zooId).in("birthplace").filter((vertex: GraphNode) => {
-    if (search_context == true) {
-      vertex["search_context"] = {
-        "query": "born_at",
-        "at": zooId
+  let nodes = G.v(zooId).in("birthplace")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => {
+      if (search_context == true) {
+        vertex["search_context"] = {
+          "query": "born_at",
+          "at": zooId
+        }
       }
-    }
-    return vertex
-  }).run()
-  // HACK: good enough for year sorting
+      return vertex
+    })
+    .run() as NodePanda[]
   nodes = sortByName(nodes, "birthday").reverse()
   return nodes
 }
@@ -1126,19 +1113,19 @@ export function searchPhotoProfileChildren(idnum: number) {
 }
 
 /** Find profile photos for an animal's family */
-export function searchPhotoProfileImmediateFamily(idnum: number) {
-  const me = searchPandaId(idnum) as NodePanda[]
-  const mom = searchPandaMom(idnum)
-  const dad = searchPandaDad(idnum)
-  const litter = searchLitter(idnum)
+export function searchPhotoProfileImmediateFamily(pandaId: string) {
+  const me = graphId<NodePanda>(pandaId)
+  const mom = searchPandaMom(pandaId)
+  const dad = searchPandaDad(pandaId)
+  const litter = searchLitter(pandaId)
   const family = me.concat(mom).concat(dad).concat(litter)
   return searchPhotoProfile(family)
 }
 
 /** Find profile photos for an animal's siblings */
-export function searchPhotoProfileSiblings(idnum: number) {
-  const nonLitterSiblings = searchNonLitterSiblings(idnum)
-  const litter = searchLitter(idnum)
+export function searchPhotoProfileSiblings(pandaId: string) {
+  const nonLitterSiblings = searchNonLitterSiblings(pandaId)
+  const litter = searchLitter(pandaId)
   const siblings = sortOldestToYoungest(nonLitterSiblings.concat(litter))
   return searchPhotoProfile(siblings)
 }
@@ -1264,7 +1251,7 @@ function sortByNameJapanese(nodes: GraphNode[]) {
     return name_list
   }
   const connector = Text["and"][Env.language]
-  nodes = nodes.map(function(node) {
+  nodes = nodes.map(node => {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
     if (node.type == "media") {
@@ -1292,11 +1279,11 @@ function sortByNameJapanese(nodes: GraphNode[]) {
 }
 
 /** 
- * Sort a list of pandas by their desired "Lang.name" field. Works for
- * non-group entities (`NodePanda` and `NodeZoo`). `NodeMedia` must be enriched
- * by using `sortByNameWithGroups` to get its own synthetic "name" field.
+ * Sort a list of pandas by their desired `name` field. Works for non-group
+ * entities (`NodePanda` and `NodeZoo`). `NodeMedia` do not have a name field
+ * by default and must be enriched using `sortByNameWithGroups`.
  */
-function sortByName(nodes: GraphNode[], name_field: string) {
+function sortByName<T extends GraphNode>(nodes: T[], name_field: string): T[] {
   return nodes.sort((a, b) => {
     if (a[name_field] > b[name_field]) {
       return 1
@@ -1315,13 +1302,13 @@ function sortByName(nodes: GraphNode[], name_field: string) {
  */
 function sortByNameWithGroups(nodes: GraphNode[], photo_list: EnrichedPhoto[]) {
   nodes = nodes.map(node => {
+    // Enrich media nodes with a synthetic naeme field / group caption
     if (node.type == "media") {
-      // Media file. Get the group caption based on your desired photo in the list
       const desired_url = photo_list
         .map(photo => photo.url)
         .filter(url => node.photos.map(photo => photo.url).includes(url))[0]
       const desired_photo = node.photos.filter(photo => photo.url == desired_url)[0]
-      node.name = {}   // Add synthetic name field to a media node
+      node.name = {}
       node.name[Env.language] = groupMediaCaption(node, desired_photo)
     }
     return node
@@ -1348,7 +1335,7 @@ export function sortByDate(nodes: GraphNode[], field_name: string, mode="descend
  */
 export function sortPhotosByName(photo_list: EnrichedPhoto[]) {
   // TODO: be explicit 
-  let entities = photo_list.map(photo => searchPandaId(photo._id)[0]) as GraphNode[]
+  let entities = photo_list.map(photo => graphId(photo._id)) as GraphNode[]
   entities = sortByNameWithGroups(entities, photo_list)
   const output_list = entities.map(entity =>
     photo_list.filter(photo => photo._id == entity._id)[0])
@@ -1605,8 +1592,8 @@ export function halfSiblings(animal: NodePanda, sibling: NodePanda) {
  * Check whether this animal's child has more than one parent of the same
  * gender listed.
  */
-export function indeterminateParent(parent_id: number, child_id: number) {
-  const parent_gender = searchPandaId(parent_id)[0].gender
+export function indeterminateParent(parent_id: string, child_id: string) {
+  const parent_gender = graphId<NodePanda>(parent_id).gender
   if (parent_gender == "m") {
     return searchPandaDad(child_id).length > 1
   } else {
@@ -1618,7 +1605,7 @@ export function indeterminateParent(parent_id: number, child_id: number) {
  * If an animal has more than one possible parent, it can make it hard
  * to determine parent or sibling relationships.
  */
-export function indeterminateSiblings(animal_id: number, sibling_id: number) {
+export function indeterminateSiblings(animal_id: string, sibling_id: string) {
   const animal_moms = searchPandaMom(animal_id)
   const animal_dads = searchPandaDad(animal_id)
   const sibling_moms = searchPandaMom(sibling_id)

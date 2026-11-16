@@ -235,7 +235,7 @@ interface Query {
   gremlins: Gremlin[],
   /** List of steps to take (pipeType names and function arguments) */
   program: Step[],
-  /** Our virtual machine for query processing */
+  /** Our virtual machine for graph query processing */
   run: () => (Vertex | Result)[],
   /** List of state values for each step in this query */
   state: State[],

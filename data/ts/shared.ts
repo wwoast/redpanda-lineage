@@ -1,5 +1,4 @@
 import { IniMap } from '@std/ini/ini-map'
-import type { Vertex } from './dagoba.ts'
 
 export const firstCommit = "832f3469e61901ebf9a38a6c2da1f427cf64e188"
 
@@ -256,55 +255,6 @@ function reviveZooNode(key: string, value: unknown, section?: string): any {
     default:
       return value
   }
-}
-
-/** Reducer functions for type narrowing of vertex lists */
-
-/** Take the input vertices and keep just links */
-export function toLinks(accumulator: NodeLinks[], vertex: Vertex) {
-  if (vertex.type == 'link')
-    accumulator.push(vertex as NodeLinks)
-  return accumulator
-}
-
-/** Take the input vertices and keep just media */
-export function toMedia(accumulator: NodeMedia[], vertex: Vertex) {
-  if (vertex.type == 'media')
-    accumulator.push(vertex as NodeMedia)
-  return accumulator
-}
-
-/** Take the input vertices and keep just pandas */
-export function toPandas(accumulator: NodePanda[], vertex: Vertex) {
-  if (vertex.type == 'panda')
-    accumulator.push(vertex as NodePanda)
-  return accumulator
-}
-
-export function toPhotoEntities(accumulator: PhotoGraphNode[], vertex: Vertex) {
-  if (vertex.type == 'media')
-    accumulator.push(vertex as NodeMedia)
-  else if (vertex.type == 'panda')
-    accumulator.push(vertex as NodePanda)
-  else if (vertex.type == 'wild')
-    accumulator.push(vertex as NodeWild)
-  else if (vertex.type == 'zoo')
-    accumulator.push(vertex as NodeZoo)
-  return accumulator
-}
-
-/** Take the input vertices and keep just wild locations */
-export function toWilds(accumulator: NodeWild[], vertex: Vertex) {
-  if (vertex.type == 'wild')
-    accumulator.push(vertex as NodeWild)
-  return accumulator
-}
-
-/** Take the input vertices and keep just media */
-export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
-  if (vertex.type == 'zoo')
-    accumulator.push(vertex as NodeZoo)
-  return accumulator
 }
 
 /** Filter functions */
