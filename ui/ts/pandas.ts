@@ -288,11 +288,14 @@ export function allAnimalsAndMedia() {
   return vertices as (NodePanda | NodeMedia)[]
 }
 
-
 /**
- * Search by string `prefixId` for exactly the panda or zoo node (and type)
- * you want from the Dagoba graph data. If your `prefixId` and the generic
- * type specifier don't agree, you're gonna have a bad time.
+ * Search by string `prefixId` for a specific the panda or zoo node you want
+ * from the Dagoba graph data. This is the type-safe version of the prior
+ * `searchPandaId` function, only it returns a single item rather than a list.
+ * 
+ * @param prefixId a string with a type and a numeric id, like `panda.100`.
+ * If your `prefixId` and the generic `<Type>` specifier don't agree, your
+ * downstream code is gonna be sad.
  */
 export function graphId<T>(prefixId: string) {
   const [type, _numId] = prefixId.split(".")
@@ -669,13 +672,13 @@ export function searchPandaMedia(
     : searchPandaName(query)
   // Get an array of graph result arrays, and flatten them
   const media: NodeMedia[] = [].concat.apply([],
-    animals.map(x => x._id).map(function(id) {
+    animals.map(x => x._id).map(id => {
       // Search for graph nodes that have "panda.tags" values
       // that match the ids of any animal in the original 
       // searchPanda list.
       const nodes = G.v().filter((vertex: GraphNode) => {
         if (Object.keys(vertex).includes("panda.tags")) {
-          return vertex["panda.tags"].includes(id)
+          return vertex["panda.tags"].includes(num(id).toString())
         }
       })
       .run()
@@ -685,7 +688,7 @@ export function searchPandaMedia(
   if (only_media == true)
     return media
   else
-    return animals.concat(media)
+    return [...animals, ...media]
 }
 
 /** 
