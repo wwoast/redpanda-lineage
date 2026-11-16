@@ -293,6 +293,20 @@ export function allAnimalsAndMedia() {
   return vertices as (NodePanda | NodeMedia)[]
 }
 
+
+/**
+ * Search by string `prefixId` for exactly the panda or zoo node (and type)
+ * you want from the Dagoba graph data. If your `prefixId` and the generic
+ * type specifier don't agree, you're gonna have a bad time.
+ */
+export function graphId<T>(prefixId: string) {
+  const [type, _numId] = prefixId.split(".")
+    return G.v(prefixId)
+      .filter((vertex: GraphNode) => vertex.type == type)
+      .run()
+      .shift() as T
+}
+
 /** Find all panda babies born within a calendar year. */
 export function searchBabies(year?: string) {
   // Fallback search is for the most recent year we recorded a birth in

@@ -863,7 +863,7 @@ class ResultsPage {
     // Give a list of results for each individual animal
     const animal_results = []
     for (const id of animal_ids) {
-      const entity = Pandas.searchPandaId(id)[0] as NodePanda
+      const entity = Pandas.graphId<NodePanda>(id)
       animal_results.push(Show.resultsPage.panda(entity))
     }
     // Let some photos appear first, unless we don't have very many photos

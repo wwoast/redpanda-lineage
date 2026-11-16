@@ -205,9 +205,9 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
     if (!current_photo_element) return
-    const current_photo_id = current_photo_element.id.split("/")[2]
+    const current_photo_id = parseInt(current_photo_element.id.split("/")[2])
     // Randomly choose the next id
-    const entity = Pandas.searchPandaId(entity_id)[0]
+    const entity = Pandas.graphId<NodePanda>(`panda.${entity_id}`)
     let next_id = current_photo_id
     if (entity.photos.length > 1)
       while (next_id == current_photo_id) {
@@ -215,7 +215,7 @@ export class Carousel {
         // Natural number index
         next_id = entity.photos.indexOf(nextPhoto) + 1
       }
-    this.photoSwap(current_photo_element, parseInt(next_id))
+    this.photoSwap(current_photo_element, next_id)
   }
 
   /** Switch the currently displayed photo to the next one in the list */
