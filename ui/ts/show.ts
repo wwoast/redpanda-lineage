@@ -1,3 +1,4 @@
+import { num } from '@redpanda-lineage/shared'
 import Env from './environment.ts'
 import * as Gallery from './gallery.ts'
 import * as Geo from './geolocate.ts'
@@ -199,10 +200,10 @@ function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOpt
   a.append(trailing_text)
   if (options.indexOf("in_link") != -1) {
     // in_link: that finds a location on the displayed data
-    a.href = `#panda_${Pandas.num(animal._id)}`
+    a.href = `#panda_${num(animal._id)}`
   } else {
     // go_link: creates a new results frame based on desired data
-    a.href = `#panda/${Pandas.num(animal._id)}`
+    a.href = `#panda/${num(animal._id)}`
     // Force page to scroll to the top after a reload event
     a.addEventListener("click", topButton.action)
   }
@@ -216,7 +217,7 @@ function animalLink(animal: NodePanda, link_text: string, options: AnimalLinkOpt
 function appleLink(info: EnrichedEntity, container_element: string) {
   const other_photos = document.createElement(container_element)
   const credit_count_link = document.createElement('a')
-  credit_count_link.id = `${Pandas.num(info._id)}/counts/${info.photo_index}`   // Carousel
+  credit_count_link.id = `${num(info._id)}/counts/${info.photo_index}`   // Carousel
   credit_count_link.href = `#credit/${info.photo_credit}`
   if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
     // Anonymous/uncredited photos get no apple link
@@ -267,7 +268,7 @@ function childIcon(gender: string) {
 /** Display a link to a photo credit on Instagram or elsewhere */
 function creditLink(info: EnrichedEntity, container_element: string) {
   const credit_link = document.createElement('a')
-  credit_link.id = `${Pandas.num(info._id)}/author/${info.photo_index}`   // Carousel
+  credit_link.id = `${num(info._id)}/author/${info.photo_index}`   // Carousel
   credit_link.target = "_blank"   // Open in new tab
   credit_link.href = Pandas.authorLink(info.photo_credit, info.photo_link)
   if (Object.keys(Defaults.authors).includes(info.photo_credit)) {
@@ -675,7 +676,7 @@ function zooLink(zoo: NodeZoo | NodeWild, link_text: string, icon?: string) {
   if (icon != undefined)
     inner_text = `${icon} ${inner_text}`
   a.innerText = inner_text
-  a.href = `#zoo/${Pandas.num(zoo._id)}`
+  a.href = `#zoo/${num(zoo._id)}`
   // Force page to scroll to the top after a reload event
   a.addEventListener("click", topButton.action)
   return a

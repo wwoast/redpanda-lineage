@@ -1,3 +1,4 @@
+import { num } from '@redpanda-lineage/shared'
 import Env from './environment.ts'
 import * as Gallery from './gallery.ts'
 import * as Geo from './geolocate.ts'
@@ -693,7 +694,7 @@ class MediaPage {
     document.getElementById('contentFrame')?.replaceWith(new_content)
     shrinkNames()
     Show.mediaMenus.language()
-    const pandaNumericId = Pandas.num(pandaMedia._id)
+    const pandaNumericId = num(pandaMedia._id)
     Show.mediaMenus.top.render(pandaNumericId)
     footer.redraw("profile")
     color("profile")
@@ -789,7 +790,7 @@ class ProfilePage {
     // Swap the new content into the page
     document.getElementById('contentFrame')?.replaceWith(new_content)
     Show.profileMenus.language()
-    const pandaNumericId = Pandas.num(pandaProfile._id)
+    const pandaNumericId = num(pandaProfile._id)
     // TODO TOWRITE: need to take id of panda for buttons
     Show.profileMenus.top.render(pandaNumericId)
     footer.redraw("profile")
