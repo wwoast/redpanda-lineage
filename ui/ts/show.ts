@@ -47,7 +47,7 @@ export function acquirePandaInfo(animal: NodePanda) {
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal._id),
             "mom": Pandas.searchPandaMom(animal._id),
-           "name": Pandas.myName(animal),
+           "name": Language.fallback_name(animal),
      "othernames": Pandas.othernames(animal),
           "photo": picture.url,
    "photo_credit": picture.author,
