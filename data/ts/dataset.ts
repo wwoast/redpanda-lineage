@@ -368,7 +368,7 @@ export class Dataset {
 
   /** 
    * Animals w/o location fields need birthplace and current zoo to match.
-   * Unknown birthplaces (-1) are omitted from this check.
+   * Unknown birthplaces are omitted from this check.
    */
   assertYoungPandaLocation = (vertex: NodePanda) => {
     if (!vertex.locations && vertex.birthplace != "unknown" && vertex.zoo)
@@ -512,9 +512,9 @@ export class Dataset {
    */
   edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
-      // Birthplace values are `zoo.<ID>` suffix numbers
+      // Birthplace values are `zoo.<ID>` or `wild.<ID>` suffix numbers
       this.graph.addEdge({
-        "_in": `zoo.${vertex.birthplace}`,
+        "_in": vertex.birthplace,
         "_label": "birthplace",
         "_out": vertex._id
       })
@@ -1240,9 +1240,7 @@ export class Dataset {
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
-          // TODO: string, support wild too
-          if (edge._in._id.startsWith("zoo"))
-            working.birthplace = num(edge._in._id)
+          working.birthplace = edge._in._id
           break
         case "family":
           if (edge.probability)

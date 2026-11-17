@@ -249,8 +249,10 @@ const empty_values: (string | undefined)[] = [
     if ((info.zoo != undefined) && (info.zoo != Defaults.zoo)) {
       bundle.zoo = fallbackEntity<NodeZoo>(info.zoo)
     }
-    if ((info.birthplace != undefined) && (info.birthplace != Defaults.zoo)) {
-      bundle.birthplace = fallbackEntity<NodeZoo>(info.birthplace)
+    if ((info.birthplace != undefined) && 
+        (info.birthplace != Defaults.zoo) && 
+        (info.birthplace != Defaults.wild)) {
+      bundle.birthplace = fallbackEntity<NodeZoo | NodeWild>(info.birthplace)
     }
     for (const index in info.mom) {
       if ((info.mom[index] != undefined) && 

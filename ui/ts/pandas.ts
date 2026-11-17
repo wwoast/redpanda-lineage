@@ -1716,7 +1716,7 @@ function locatorToPhoto(locator: string) {
  * `birthplace` or `wild`, but we cannot assume the birthplace of wild animals.
  */
 export function myWild(animal: NodePanda, field: string) {
-  const wild = G.v(animal['_id']).out(field).run()
+  const wild = G.v(animal._id).out(field).run()
   return (wild.length == 0) ? Defaults.wild : wild[0]
 }
 
@@ -1727,7 +1727,7 @@ export function myWild(animal: NodePanda, field: string) {
  * `zoo`.
  */
 export function myZoo(animal: NodePanda, field: string) {
-  const zoo = G.v(animal['_id']).out(field).run()
+  const zoo = G.v(animal._id).out(field).run()
   return (zoo.length == 0) ? Defaults.zoo : zoo[0]
 }
 

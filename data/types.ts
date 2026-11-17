@@ -244,8 +244,11 @@ declare global {
     _id: string,
     /** YYYY/MM/DD birthday string */
     birthday: string,
-    /** A zoo numeric ID, or if born in the wild, `unknown` */
-    birthplace?: number | "unknown",
+    /** 
+     * A zoo or wild prefix-ID. If wild-born, can be the location the animal
+     * was discovered, or preferably, just "unknown"
+     */
+    birthplace?: string,
     /** 
      * Numeric IDs for any children of this animal, a "ID and percentage"
      * string indicating probable parentage, or "none"
@@ -532,8 +535,8 @@ declare global {
      * _unknown_ default value.
      */
     birthday: string,
-    /** Resolve the birthplace numeric string ID to a full `NodeZoo` */
-    birthplace: NodeZoo,
+    /** Resolve the birthplace numeric string ID to a full location node */
+    birthplace: NodeZoo | NodeWild,
     /** Reoslve the children numeric string IDs to an `NodePanda` list */
     children: NodePanda[],
     /**
