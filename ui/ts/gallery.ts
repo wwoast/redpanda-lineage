@@ -180,7 +180,7 @@ export class Carousel {
   photoPrevious(entity_id=this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = (!entity_id.includes("_"))
-      ? `${this.unique}_${this.type}/${entity_id}`
+      ? `${this.unique}_${this.type}/${num(entity_id)}`
       : entity_id
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
@@ -248,12 +248,12 @@ export class Carousel {
 
   /** Replace the photographer's credit info for a panda's photo */
   singlePhotoCredit(info: EnrichedPhoto, last_index: number, current_index: number) {
-    const animal_id = info._id
+    const entity_id = info._id
     const credit_link =
       document.querySelector<HTMLAnchorElement>(
-        `#${this.type}/${num(animal_id)}/author/${last_index}`)
+        `#${this.type}/${num(entity_id)}/author/${last_index}`)
     if (!credit_link) return
-    credit_link.id = `${this.type}/${num(animal_id)}/author/${current_index}`
+    credit_link.id = `${this.type}/${num(entity_id)}/author/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author))
       credit_link.href = info.reference
     else
@@ -264,12 +264,12 @@ export class Carousel {
 
   /** Replace the photographer's apple points (number of photos on the site) */
   userApplePoints(info: EnrichedPhoto, last_index: number, current_index: number) {
-    const animal_id = info._id
+    const entity_id = info._id
     const apple_link =
       document.querySelector<HTMLAnchorElement>(
-        `#${this.type}/${animal_id}/counts/${last_index}`)
+        `#${this.type}/${num(entity_id)}/counts/${last_index}`)
     if (!apple_link) return
-    apple_link.id = `${this.type}/${animal_id}/counts/${current_index}`
+    apple_link.id = `${this.type}/${num(entity_id)}/counts/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author)) {
       const apple_count = P.db._photo.credit[info.author]
       apple_link.href = `#credit/${info.author}`
