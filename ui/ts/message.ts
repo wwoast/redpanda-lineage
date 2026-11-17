@@ -1,9 +1,10 @@
 import { num } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Language from './language.ts'
-import { Emoji, Polyglots, Tags } from './lookup.ts'
+import { Defaults, Emoji, Polyglots, Tags } from './lookup.ts'
 import P, * as Pandas from './pandas.ts'
 import * as Show from './show.ts'
+import env from "./environment.ts";
 
 /** make *text* italic and **text** bold with JSX foo
  * as well as process the newlines and extra spaces in long lones of text
@@ -709,7 +710,9 @@ export function closed(date: string) {
  * 
  * TODO-UI: once JSX is working, post-process for count (bold) and user (italics)
  */
-export function credit(credit: string, count: number) {
+export function credit(credit: string | undefined, count: number) {
+  if (credit == undefined)
+    credit = Defaults.unknown[Env.language]
   const p = document.createElement('p')
   const msg = document.createTextNode(
     Text.credit[Env.language]
@@ -729,7 +732,9 @@ export function credit(credit: string, count: number) {
  * 
  * TODO-UI: pass through post-processing for count (bold) and user (italics)
  */
-export function creditSingleFilter(credit: string, filter: string, count: number) {
+export function creditSingleFilter(credit: string | undefined, filter: string, count: number) {
+  if (credit == undefined)
+    credit = Defaults.unknown[Env.language]
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
   const msg = document.createTextNode(
@@ -1058,11 +1063,14 @@ export function tag_combo(num: number, emojis: string[]) {
  * If there was an id as part of a tagExpression, rewrite this message using
  * the panda's localized name instead.
  */
-export function tag_subject(num: number, name: string, emoji: string, tag: string) {
+export function tag_subject(num: number, name: string | undefined, emoji: string, tag: string) {
   if (name != undefined)
     name = Language.capitalNames(name)
-  if ((Env.language == "ja") && (name == undefined))
-    name = "枚"
+  if (name == undefined)
+    if (Env.language == "ja")
+      name = "枚"
+    else
+      name = Defaults.unknown[Env.language]
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
   // Need to look up "baby" info as well from the polyglot list of things

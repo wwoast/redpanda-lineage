@@ -558,6 +558,8 @@ export function tagPrimary(input: string) {
       }
     }
   }
+  // If tag is not found, we have a weird parsing problem
+  throw new Error(`TODO: primary tag for ${input} not found`)
 }
 
 type LanguageTest = "English" | "Hiragana" | "Katakana" | "Latin"

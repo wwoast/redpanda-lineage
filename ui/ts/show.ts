@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/data'
+import { distinct, num } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Gallery from './gallery.ts'
 import * as Geo from './geolocate.ts'
@@ -910,7 +910,7 @@ const mediaButton = {
       P.db.vertices.filter(entity => entity.type == "media")
                    .filter(entity => entity.photos.length > 0)
                    .flatMap(entity => entity["panda.tags"])
-    pandaIds = Pandas.distinct(pandaIds)
+    pandaIds = distinct(pandaIds)
     window.location.href =
       `#media/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
     // If language menu is open, hide it
@@ -2239,7 +2239,7 @@ export const resultsPage = {
     if (info.children.length > 0)
       children = this.children(info)
     const layout = new Layout(family, info, parents, litter, siblings, children)
-    return layout.section.family
+    return layout.section.family ?? family
   },
   groupGallery: function(id_list: string[]) {
     const gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"]
@@ -2769,11 +2769,10 @@ export const resultsPage = {
       // Find the first location marker matching the zoo for this animal
       // Get the year from this value.
       let earliest_year = -1
-      const compare_id = info._id * -1
       for (const animal of total_zoo) {
         for (const location of animal.locations) {
           const { _id: id, date } = location
-          if ((date != undefined) && (id == compare_id)) {
+          if ((date != undefined) && (id == info._id)) {
             const year = parseInt(date.split("/")[0])
             if ((earliest_year == -1) || (year < earliest_year)) {
               earliest_year = year

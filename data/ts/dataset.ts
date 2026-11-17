@@ -1233,7 +1233,6 @@ export class Dataset {
       })
     }
     // Add back the data from the edges
-    // TODO: differentiate between media, panda objects, wild objects, and zoo objects
     working.birthplace = "unknown"
     working.children = []
     working.litter = []

@@ -994,13 +994,13 @@ function tagPhotoMessage(results: QueryResult, hit_count: number) {
     const tag = results["tag"] != undefined ? results.tag : results.query
     const ctag = Language.tagPrimary(tag)
     header = Message.tag_subject(hit_count, results.subject,
-                                 Tags[ctag]["emoji"], 
+                                 Tags[ctag]["emoji"].join(""),
                                  ctag)
   } else if (results["parsed"] == "set_baby_subject") {
     const tag = results["tag"] != undefined ? results.tag : results.query
     const ctag = Language.tagPrimary(tag)
     header = Message.tag_subject(hit_count, results.subject,
-                                 Polyglots[ctag]["emoji"], 
+                                 Polyglots[ctag]["emoji"].join(""),
                                  ctag)
   } else if (results["parsed"] == "set_tag_intersection") {
     const tag = results["tag"] != undefined ? results.tag : results.query
