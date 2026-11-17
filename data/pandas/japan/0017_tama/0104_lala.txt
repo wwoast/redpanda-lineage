@@ -1,7 +1,7 @@
 [panda]
 _id: panda.104
 birthday: 2008/6/16
-birthplace: 10
+birthplace: zoo.10
 children: 185
 commitdate: 2018/6/23
 en.name: Lala

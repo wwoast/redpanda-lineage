@@ -1,7 +1,7 @@
 [panda]
 _id: panda.774
 birthday: 1987/7/26
-birthplace: 13
+birthplace: zoo.13
 children: 769, 772, 495, 598, 732, 733
 commitdate: 2019/3/31
 death: 2009/6/3

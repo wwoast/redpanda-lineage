@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1006
 birthday: 2013/5/30
-birthplace: 187
+birthplace: zoo.187
 children: none
 commitdate: 2019/10/27
 en.name: Fred

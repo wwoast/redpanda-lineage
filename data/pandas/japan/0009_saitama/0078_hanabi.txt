@@ -1,7 +1,7 @@
 [panda]
 _id: panda.78
 birthday: 2011/7/9
-birthplace: 9
+birthplace: zoo.9
 children: 80, 242, 957, 958
 commitdate: 2018/6/23
 en.name: Hanabi

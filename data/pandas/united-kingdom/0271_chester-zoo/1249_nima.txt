@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1249
 birthday: 2012/7/4
-birthplace: 150
+birthplace: zoo.150
 children: 1247, 1248
 commitdate: 2020/12/29
 en.name: Nima

@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1364
 birthday: 2019/6/26
-birthplace: 307
+birthplace: zoo.307
 children: 1365, 1366
 commitdate: 2022/6/1
 en.name: Tango

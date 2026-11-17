@@ -1,7 +1,7 @@
 [panda]
 _id: panda.497
 birthday: 2012/7/11
-birthplace: 80
+birthplace: zoo.80
 children: 499, 169
 commitdate: 2019/2/23
 en.name: Wayne

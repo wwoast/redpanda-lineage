@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1422
 birthday: 2023/5/26
-birthplace: 99
+birthplace: zoo.99
 children: none
 commitdate: 2023/8/15
 en.name: Zuko

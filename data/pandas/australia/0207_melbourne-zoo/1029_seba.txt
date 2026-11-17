@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1029
 birthday: 2010/12/6
-birthplace: 181
+birthplace: zoo.181
 children: 1161, 1162
 commitdate: 2019/11/9
 en.name: Seba

@@ -1,7 +1,7 @@
 [panda]
 _id: panda.432
 birthday: 2014/6/28
-birthplace: 76
+birthplace: zoo.76
 children: 1404, 1405, 1437, 1438
 commitdate: 2018/11/23
 en.name: Arun

@@ -1,7 +1,7 @@
 [panda]
 _id: panda.148
 birthday: 2017/6/23
-birthplace: 16
+birthplace: zoo.16
 children: 1305, 1424, 1425, 1451
 commitdate: 2018/6/28
 en.name: Nico

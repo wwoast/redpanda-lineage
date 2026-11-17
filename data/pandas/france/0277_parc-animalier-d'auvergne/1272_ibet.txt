@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1272
 birthday: 2007/6/26
-birthplace: 288
+birthplace: zoo.288
 children: 1268, 1270, 1271
 commitdate: 2021/4/10
 en.name: Ibet

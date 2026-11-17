@@ -1,7 +1,7 @@
 [panda]
 _id: panda.526
 birthday: 2011/7/5
-birthplace: 120
+birthplace: zoo.120
 children: 529, 311, 527
 commitdate: 2019/2/24
 en.name: Duli

@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1195
 birthday: 2020/6/29
-birthplace: 45
+birthplace: zoo.45
 children: 1469, 1470
 commitdate: 2020/7/20
 en.name: Akebi

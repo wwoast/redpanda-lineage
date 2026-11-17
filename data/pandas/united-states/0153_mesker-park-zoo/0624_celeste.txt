@@ -1,7 +1,7 @@
 [panda]
 _id: panda.624
 birthday: 2006/6/27
-birthplace: 104
+birthplace: zoo.104
 children: 630, 631, 632, 633, 634, 635, 636
 commitdate: 2019/3/19
 en.name: Celeste

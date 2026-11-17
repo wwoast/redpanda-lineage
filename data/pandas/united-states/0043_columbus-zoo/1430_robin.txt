@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1430
 birthday: 2023/6/25
-birthplace: 80
+birthplace: zoo.80
 children: none
 commitdate: 2023/10/24
 en.name: Robin

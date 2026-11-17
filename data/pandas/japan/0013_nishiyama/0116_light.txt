@@ -1,7 +1,7 @@
 [panda]
 _id: panda.116
 birthday: 2013/7/18
-birthplace: 13
+birthplace: zoo.13
 children: 1394, 1395, 1466, 1467
 commitdate: 2018/6/25
 en.name: Light

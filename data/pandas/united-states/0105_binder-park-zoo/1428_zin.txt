@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1428
 birthday: 2023/6/24
-birthplace: 105
+birthplace: zoo.105
 children: none
 commitdate: 2023/10/24
 en.name: Zin

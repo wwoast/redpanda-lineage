@@ -1,7 +1,7 @@
 [panda]
 _id: panda.926
 birthday: 2016/7/3
-birthplace: 146
+birthplace: zoo.146
 children: 1199, 1200, 1201
 commitdate: 2019/7/2
 en.name: Wasabi

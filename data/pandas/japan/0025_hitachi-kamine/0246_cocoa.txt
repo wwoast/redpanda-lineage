@@ -1,7 +1,7 @@
 [panda]
 _id: panda.246
 birthday: 2018/6/28
-birthplace: 1
+birthplace: zoo.1
 children: none
 commitdate: 2018/10/3
 en.name: Cocoa

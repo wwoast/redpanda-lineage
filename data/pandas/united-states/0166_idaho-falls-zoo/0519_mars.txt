@@ -1,7 +1,7 @@
 [panda]
 _id: panda.519
 birthday: 2013/6/15
-birthplace: 121
+birthplace: zoo.121
 children: 1463, 1464
 commitdate: 2019/2/24
 en.name: Mars

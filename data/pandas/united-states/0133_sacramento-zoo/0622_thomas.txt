@@ -1,7 +1,7 @@
 [panda]
 _id: panda.622
 birthday: 2013/6/20
-birthplace: 145
+birthplace: zoo.145
 children: 877, 878
 commitdate: 2019/3/19
 en.name: Thomas

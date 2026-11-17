@@ -1,7 +1,7 @@
 [panda]
 _id: panda.180
 birthday: 2011/7/12
-birthplace: 6
+birthplace: zoo.6
 children: 181, 182, 183, 73
 commitdate: 2018/7/13
 en.name: Ayame

@@ -1,7 +1,7 @@
 [panda]
 _id: panda.643
 birthday: 2010/6/27
-birthplace: 104
+birthplace: zoo.104
 children: 342, 616
 commitdate: 2019/3/19
 en.name: Basil

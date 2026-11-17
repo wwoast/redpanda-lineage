@@ -1,7 +1,7 @@
 [panda]
 _id: panda.145
 birthday: 2012/6/11
-birthplace: 65
+birthplace: zoo.65
 children: 395, 146, 148, 876
 commitdate: 2018/6/28
 en.name: Homer

@@ -1,7 +1,7 @@
 [panda]
 _id: panda.8
 birthday: 2017/7/13
-birthplace: 1
+birthplace: zoo.1
 children: 1197, 1198, 1383, 1384
 commitdate: 2018/6/10
 en.name: Himawari

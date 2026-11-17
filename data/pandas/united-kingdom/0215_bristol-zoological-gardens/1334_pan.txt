@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1334
 birthday: 2020/7/15
-birthplace: 275
+birthplace: zoo.275
 children: none
 commitdate: 2022/2/10
 en.name: Pan

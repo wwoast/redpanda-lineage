@@ -1,7 +1,7 @@
 [panda]
 _id: panda.289
 birthday: 2013/6/22
-birthplace: 64
+birthplace: zoo.64
 children: 946, 947
 commitdate: 2018/8/3
 en.name: Anko

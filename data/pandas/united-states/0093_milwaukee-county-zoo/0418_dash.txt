@@ -1,7 +1,7 @@
 [panda]
 _id: panda.418
 birthday: 2012/6/6
-birthplace: 94
+birthplace: zoo.94
 children: 419, 998, 1379
 commitdate: 2018/11/23
 en.name: Dash

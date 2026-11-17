@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1
 birthday: 2016/7/16
-birthplace: 1
+birthplace: zoo.1
 children: none
 commitdate: 2018/6/10
 en.name: Harumaki

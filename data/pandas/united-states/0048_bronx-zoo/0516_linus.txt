@@ -1,7 +1,7 @@
 [panda]
 _id: panda.516
 birthday: 2013/6/6
-birthplace: 104
+birthplace: zoo.104
 children: 517, 606
 commitdate: 2019/2/24
 en.name: Linus

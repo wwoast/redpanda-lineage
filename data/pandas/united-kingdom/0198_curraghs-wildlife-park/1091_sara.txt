@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1091
 birthday: 2017/7/27
-birthplace: 234
+birthplace: zoo.234
 children: 1219, 1220, 1320, 1321
 commitdate: 2020/1/14
 en.name: Sara

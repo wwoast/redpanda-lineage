@@ -1,7 +1,7 @@
 [panda]
 _id: panda.28
 birthday: 2015/6/16
-birthplace: 4
+birthplace: zoo.4
 children: none
 commitdate: 2018/6/15
 en.name: Keiko

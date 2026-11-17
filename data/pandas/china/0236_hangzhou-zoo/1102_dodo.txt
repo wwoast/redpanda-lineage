@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1102
 birthday: unknown
-birthplace: 236
+birthplace: zoo.236
 children: 1104, 1071
 commitdate: 2020/2/5
 en.name: Dodo

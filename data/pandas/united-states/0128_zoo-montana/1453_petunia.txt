@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1453
 birthday: 2025/6/25
-birthplace: 128
+birthplace: zoo.128
 children: none
 commitdate: 2025/8/5
 en.name: Petunia

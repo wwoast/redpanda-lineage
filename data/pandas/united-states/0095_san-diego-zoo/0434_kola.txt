@@ -1,7 +1,7 @@
 [panda]
 _id: panda.434
 birthday: 2015/8/24
-birthplace: 82
+birthplace: zoo.82
 children: 999, 1000, 1001, 1002
 commitdate: 2018/11/23
 en.name: Kola

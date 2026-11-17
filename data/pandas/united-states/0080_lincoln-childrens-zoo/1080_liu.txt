@@ -1,7 +1,7 @@
 [panda]
 _id: panda.1080
 birthday: 2019/6/28
-birthplace: 84
+birthplace: zoo.84
 children: 1385
 commitdate: 2019/12/29
 en.name: Liu

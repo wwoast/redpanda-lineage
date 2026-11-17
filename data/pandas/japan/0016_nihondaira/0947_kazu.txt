@@ -1,7 +1,7 @@
 [panda]
 _id: panda.947
 birthday: 2019/7/2
-birthplace: 63
+birthplace: zoo.63
 children: 1305, 1424, 1425, 1451
 commitdate: 2019/7/18
 en.name: Kazu

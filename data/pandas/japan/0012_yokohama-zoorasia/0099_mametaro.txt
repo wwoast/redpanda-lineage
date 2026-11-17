@@ -1,7 +1,7 @@
 [panda]
 _id: panda.99
 birthday: 2016/6/24
-birthplace: 17
+birthplace: zoo.17
 children: 1299, 1374, 1375, 1448, 1449
 commitdate: 2018/6/23
 en.name: Mametaro
