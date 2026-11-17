@@ -2,7 +2,8 @@ import { Git } from '@roka/git'
 import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
-import { toLinks,
+import { distinct,
+         toLinks,
          toMedia,
          toPandas,
          toPhotoEntities,
@@ -1131,7 +1132,7 @@ export class Dataset {
         working[`link.${naturalIndex}`] = link.url
         if (link["language.order"])
           working[`link.${naturalIndex}.language.order`] =
-            Array.from(link["language.order"]).join(", ")
+            distinct(link["language.order"]).join(", ")
         Object.keys(link.name).forEach(langKey =>
           working[`link.${naturalIndex}.${langKey}.name`] = link.name[langKey])
         if (link.first)
@@ -1152,8 +1153,6 @@ export class Dataset {
     /** And convert complicated things back to strings */
     if ("panda.tags" in working)
       working['panda.tags'] = entity['panda.tags'].join(', ')
-    if ("language.order" in working)
-      working['language.order'] = entity['language.order'].join(', ')
     if ("photos" in entity) {
       entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
@@ -1189,7 +1188,7 @@ export class Dataset {
       working.gender = "unknown"
     if ("language.order" in entity)
       working['language.order'] =
-        Array.from(entity['language.order']).join(', ')
+        distinct(entity['language.order']).join(', ')
     if ("locations" in entity) {
       entity.locations.map((location: PandaLocation, index: number) => {
         const naturalIndex = index + 1
@@ -1299,7 +1298,7 @@ export class Dataset {
         working[`${language}.address`] = entity.address[language as Language])
     }
     if ("language.order" in entity)
-      working['language.order'] = Array.from(entity['language.order']).join(', ')
+      working['language.order'] = distinct(entity['language.order']).join(', ')
     if ("location" in entity) {
       Object.keys(entity.location).map(language =>
         working[`${language}.location`] = entity.location[language as Language])

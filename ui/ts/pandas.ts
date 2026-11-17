@@ -1,4 +1,4 @@
-import { Graph, num } from '@redpanda-lineage/data'
+import { Graph, distinct, num } from '@redpanda-lineage/data'
 import Env from './environment.ts'
 import * as Language from './language.ts'
 import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'
@@ -110,16 +110,6 @@ function date_ymd_compare(birthday_ymd: ParsedDate, input_ymd: ParsedDate) {
   return ((date_ymd_compare_field(birthday_ymd, input_ymd, "day")) &&
           (date_ymd_compare_field(birthday_ymd, input_ymd, "month")) &&
           (date_ymd_compare_field(birthday_ymd, input_ymd, "year")))
-}
-
-/** 
- * Filter for distinct animals or zoos.
- * TODO: use unique instead from dagoba when dealing with graphs?
- */
-export function distinct<T>(list: T[]) {
-  const unique =
-    (value: T, index: number, self: T[]) => self.indexOf(value) === index
-  return list.filter(unique)
 }
 
 /** 
@@ -1606,7 +1596,7 @@ export function indeterminateSiblings(animal_id: string, sibling_id: string) {
 /** Return the array of languages prioritized for the given entity */
 export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
   const ordering = entity["language.order"]
-  if (ordering == undefined || Array.from(ordering).length == 0) {
+  if (ordering == undefined || ordering.length == 0) {
     return Fallback.order
   } else {
     return ordering

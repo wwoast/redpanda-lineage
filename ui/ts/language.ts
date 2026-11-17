@@ -378,7 +378,7 @@ export function commaPhraseBare(pieces: string[]) {
  * if a dataset doesn't include info for a language, we can overwrite that info
  * anyways!
  */
-function currentOrder(currentList: Set<Language>, currentLanguage: Language) {
+function currentOrder(currentList: Language[], currentLanguage: Language) {
   let currentBias = bias[currentLanguage]
   let fallbackLanguages: Language[] = []
   if (currentBias[0] == "latin") {

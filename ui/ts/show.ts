@@ -1432,7 +1432,7 @@ const linksOrder = {
     }
     node.links.forEach(link => {
       const languageOrder = (link["language.order"])
-        ? Array.from(link["language.order"])
+        ? link["language.order"]
         : Fallback.order
       // Fallback name selection, if (like the instagram names) we don't
       // have language-specific names. Start with a generic name field if

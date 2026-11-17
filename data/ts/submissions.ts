@@ -1,4 +1,3 @@
-import { num } from '@redpanda-lineage/data'
 import { git } from '@roka/git'
 import { parseArgs } from '@std/cli/parse-args'
 import { IniMap } from '@std/ini/ini-map'
@@ -6,6 +5,7 @@ import { basename, dirname, join, parse } from '@std/path'
 import sharp from 'sharp'
 import { buildDataset, getDataset } from './build.ts'
 import { Dataset } from './dataset.ts'
+import { distinct, num } from './export.ts'
 import { sortEntities } from './manage.ts'
 import { byFieldName,
          existsDirSync,
@@ -14,6 +14,7 @@ import { byFieldName,
          safeDirname,
          safeFilename,
          standardDate } from './shared.ts'
+
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
@@ -100,8 +101,7 @@ function convertJsonToPanda(
     species: entityJson.species,
     zoo: zooString
   }
-  output["language.order"] =
-    Array.from(new Set([entityJson.language, "en"]).keys()).join(", ")
+  output["language.order"] = distinct([entityJson.language, "en"]).join(", ")
   output[`${entityJson.language}.name`] = entityJson.name
   output[`${entityJson.language}.nicknames`] = "none"
   output[`${entityJson.language}.othernames`] = "none"
@@ -179,8 +179,7 @@ function convertJsonToZoo(
   }
   output["country.name"] = entityJson.country
   output["country.folder"] = entityJson.folder
-  output["language.order"] =
-    Array.from(new Set([entityJson.language, "en"]).keys()).join(", ")
+  output["language.order"] = distinct([entityJson.language, "en"]).join(", ")
   output[`${entityJson.language}.address`] = entityJson.address
   output[`${entityJson.language}.location`] = "<Locality-Name-State-and-Province>"
   output[`${entityJson.language}.name`] = entityJson.name

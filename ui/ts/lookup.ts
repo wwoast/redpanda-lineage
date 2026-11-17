@@ -182,7 +182,7 @@ export const Defaults: Defaults = {
     "commitdate": "1970/1/1",
     "death": "1970/1/1",
     "gender": "unknown",
-    "language.order": new Set(["en", "ja"]),
+    "language.order": ["en", "ja"],
     "litter": [],
     "locations": [],
     "name": {
@@ -532,7 +532,7 @@ export const Defaults: Defaults = {
       "zh": "TOWRITE",
     },
     "commitdate": "1970/1/1",
-    "language.order": new Set(["en", "ja"]),
+    "language.order": ["en", "ja"],
     "location": {
       "en": "No City, District, or State Info Listed",
       "es": "No Se Incluye Información de Ciudad, Distrito o Estado",
@@ -572,7 +572,7 @@ export const Defaults: Defaults = {
     "closed": "1970/1/1",
     "commitdate": "1970/1/1",
     "flag": Flags["Nepal"],
-    "language.order": new Set(["en", "ja"]),
+    "language.order": ["en", "ja"],
     "latitude": "0.0000",
     "location": {
       "en": "No City, District, or State Info Listed",

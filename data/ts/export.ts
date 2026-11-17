@@ -10,6 +10,15 @@ import type { Vertex } from './dagoba.ts'
  * have a useful place here as well.
  */
 
+/** 
+ * Filter for distinct animals or zoos. When dealing with Dagoba graphs,
+ * use its unique method instead.
+ */
+export function distinct<T>(list: T[]) {    
+  return list.filter(
+    (value: T, index: number, self: T[]) => self.indexOf(value) === index)
+}
+
 /** Take a prefixed ID like `panda.100` and return 100 */
 export function num(prefixId: string) {
   const suffix = (prefixId.includes("."))

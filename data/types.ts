@@ -146,7 +146,7 @@ declare global {
      * Set of ISO-639-1 codes representing a language, which redpandafinder
      * will render as a set of flags after the link itself.
      */
-    "language.order"?: Set<string>,
+    "language.order"?: Language[],
     /** Destination of the link when clicked */
     url: string
   }
@@ -262,10 +262,9 @@ declare global {
     gender?: Gender,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    "language.order": Set<Language>,
+    "language.order": Language[],
     /** Animals born in the same litter as this one, by numeric ID, or "none" */
     litter: number[] | ["none"],
     /** List from oldest to newest, of zoo locations the panda has lived at */
@@ -369,10 +368,9 @@ declare global {
     address: StringPerLanguage
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    "language.order": Set<Language>,
+    "language.order": Language[],
     /** A stub location to match what similar zoo location strings look like */
     location: StringPerLanguage,
     /** Each wild sighting location has a single primary name per language */
@@ -419,10 +417,9 @@ declare global {
     flag: string,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    "language.order": Set<Language>,
+    "language.order": Language[],
     /**
      * The latitude of the zoo, for determining whether a zoo is close to the
      * redpandafinder user with browser LocationServices.
@@ -551,10 +548,9 @@ declare global {
     gender: string,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    language_order: Set<Language>,
+    language_order: Language[],
     /** Resolve the litter mates' numeric IDs to a `NodePanda` list */
     litter: NodePanda[],
     /** Resolve potential mother's numeric IDs to a full `NodePanda` list */
@@ -623,10 +619,9 @@ declare global {
     closed: string,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this zoo. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this zoo.
      */
-    language_order: Set<Language>,
+    language_order: Language[],
     /** The city / state / province of this zoo, in the display language */
     location: string,
     /** URL representing this zoo in Google Maps */
