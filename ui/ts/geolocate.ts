@@ -78,18 +78,14 @@ export function init() {
  * be insufficient to tell you which zoo is the closest. If this is
  * the case and too many results were found in the current radius and
  * the ordering may be inaccurate, use GPS location instead (if available).
- * 
- * TODO-UI: refactor with types
  */
 function findClosest(maxDistance: number, maxResults: number) {
   const zoos: Record<number, NodeZoo> = {}     // k=distance, v=zoo. Sort by keys ascending
   let hitList = []   // Get max_results items
   // Iterating across zoos is silly
-  // TODO ES6
-  for(let i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
-    // TODO ES6
+  for(let i = 1; Pandas.graphId<NodeZoo>(`zoo.${i}`) != undefined; i++) {
     // Compare distance with where you are
-    const z = Pandas.searchZooId(i)[0] as NodeZoo
+    const z = Pandas.graphId<NodeZoo>(`zoo.${i}`)
     const d = haversine(state.latitude, state.longitude, 
                         parseFloat(z.latitude), parseFloat(z.longitude))
     if (d < maxDistance) {

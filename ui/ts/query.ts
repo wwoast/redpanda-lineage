@@ -200,7 +200,7 @@ function pair(set_node: ParserNode) {
     hits = [Pandas.graphId<NodePanda>(search_word)]
   }
   if (set_node.type == "set_zoo_id") {
-    hits = Pandas.searchZooId(search_word)
+    hits = [Pandas.graphId<NodeZoo>(search_word)]
   }
   if (set_node.type == "set_credit_photos") {
     Env.output_mode = "photos"

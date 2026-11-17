@@ -291,7 +291,8 @@ export function allAnimalsAndMedia() {
 /**
  * Search by string `prefixId` for a specific the panda or zoo node you want
  * from the Dagoba graph data. This is the type-safe version of the prior
- * `searchPandaId` function, only it returns a single item rather than a list.
+ * `searchPandaId` and `searchZooId` functions, only it returns a single item
+ * rather than a list.
  * 
  * @param prefixId a string with a type and a numeric id, like `panda.100`.
  * If your `prefixId` and the generic `<Type>` specifier don't agree, your
@@ -299,10 +300,10 @@ export function allAnimalsAndMedia() {
  */
 export function graphId<T>(prefixId: string) {
   const [type, _numId] = prefixId.split(".")
-    return G.v(prefixId)
-      .filter((vertex: GraphNode) => vertex.type == type)
-      .run()
-      .shift() as T
+  return G.v(prefixId)
+    .filter((vertex: GraphNode) => vertex.type == type)
+    .run()
+    .shift() as T
 }
 
 /** Find all panda babies born within a calendar year. */
@@ -1182,22 +1183,6 @@ export function searchPhotoTags(
 }
 
 /**
- * Zoos are stored with negative numbers, but are tracked in the database by
- * their positive ID numbers. So convert the ID before searching
- */
-export function searchZooId(idnum: number | string) {
-  // Wild animals or other situations may have id == 0
-  if (parseInt(idnum.toString()) == 0) {
-    return [Defaults.wild]
-  }
-  if (parseInt(idnum.toString()) > 0) {
-    idnum = (parseInt(idnum.toString()) * -1).toString()
-  }
-  const nodes = G.v(idnum).run()
-  return nodes as NodeZoo[]
-}
-
-/**
  * Search for a word in the Zoo's name or location, and return any nodes that
  * match one of the strings therein.
  */
@@ -1631,19 +1616,20 @@ export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
 /** Returns a list of locations valid for a zoo animal */
 export function locationList(animal: NodePanda): ProfileLocation[] {
   let locations: ProfileLocation[] = []
+  const defaultLocations = [Defaults.zoo._id, Defaults.wild._id]
   // Return not just the chosen photo but the author and link as well
   for (const [index, location] of animal.locations.entries()) {
     const nextLocation = animal.locations[index + 1]
     const end_date = (nextLocation == undefined)
       ? animal["death"] ?? undefined
-      : (location._id == "zoo.0")
+      : (defaultLocations.includes(location._id))
         ? Defaults.animal["birthday"]
         : nextLocation.date
-    const start_date = (location._id == "zoo.0")
+    const start_date = (defaultLocations.includes(location._id))
       ? Defaults.animal["birthday"]
       : location.date
     locations.push({
-             "zoo": location._id,
+              "id": location._id,
       "start_date": start_date,
         "end_date": end_date,
     })
@@ -1651,9 +1637,9 @@ export function locationList(animal: NodePanda): ProfileLocation[] {
   // If there were no location. fields, use the zoo field, birthday, and date
   // of death. If a wild animal, use a wild field instead of the zoo field
   if ((locations.length == 0) && (myWild(animal, "wild") != undefined))
-    locations = locationWild(animal)
+    locations = [locationWild(animal)]
   if ((locations.length == 0) && (myZoo(animal, "zoo") != undefined))
-    locations = locationZoo(animal)
+    locations = [locationZoo(animal)]
   return locations
 }
 
@@ -1661,30 +1647,28 @@ export function locationList(animal: NodePanda): ProfileLocation[] {
  * When a panda doesn't have a list of wild locations as `location.X` fields,
  * use the wild field, birthday, and date of death to fill in needed details
  */
-function locationWild(animal: NodePanda) {
+function locationWild(animal: NodePanda): ProfileLocation {
   let end_date = undefined
   if (animal["death"] != undefined) {
     end_date = animal["death"]
   }
-  const locations = [{
-    "zoo": myWild(animal, "wild"),
+  return {
+    "id": myWild(animal, "wild"),
     "start_date": Defaults.date[Env.language],
     "end_date": end_date ?? Defaults.date[Env.language]
-  }]
-  return locations
+  }
 }
 
 /** 
  * When a panda doesn't have a list of zoo locations as `location.X` fields,
  * use the zoo, birthday, and date of death to fill in needed details
  */
-function locationZoo(animal: NodePanda) {
-  const locations = [{
-    "zoo": myZoo(animal, "zoo"),
+function locationZoo(animal: NodePanda): ProfileLocation {
+  return {
+    "id": myZoo(animal, "zoo"),
     "start_date": animal["birthday"],
     "end_date": animal["death"]   // Fall back to undefined
-  }]
-  return locations
+  }
 }
 
 /** Get a list of photos given a list of photo locators */
@@ -1892,6 +1876,14 @@ export function species(animal: NodePanda) {
   }
   const idx = parseInt(animal.species) - 1
   return Defaults.species[Env.language][idx]
+}
+
+/** 
+ * Given a wild entity found with `location()`, return an arbitrary field.
+ * Useful for anything that's just a URI, like videos or photos.
+ */
+export function wildField(wild: NodeWild, field: string) {
+  return wild[field] == undefined ? Defaults.wild[field] : wild[field]
 }
 
 /** Given a zoo found with `location()`, return the name of the zoo. */

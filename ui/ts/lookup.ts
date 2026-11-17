@@ -177,7 +177,7 @@ export const Defaults: Defaults = {
     "_in": [],
     "_out": [],
     "birthday": "1970/1/1",
-    "birthplace": "0",
+    "birthplace": 0,
     "children": [],
     "commitdate": "1970/1/1",
     "death": "1970/1/1",

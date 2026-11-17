@@ -1297,7 +1297,7 @@ function zooPhotoCreditSingle(photo: EnrichedPhoto) {
   const index = photo.index
   const img_link = document.createElement('a')
   const id = photo._id
-  const entity = Pandas.searchZooId(id.toString())[0] as NodeZoo
+  const entity = Pandas.graphId<NodeZoo>(id)
   const info = Show.acquireZooInfo(entity)
   // Link to the original instagram media
   img_link.href = url.href(photo.url)

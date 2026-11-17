@@ -240,7 +240,7 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodePanda extends Vertex {
-    /** Fixed `panda.X` identifier that increments when adding new pandas */
+    /** Fixed `panda.X` prefix-ID that increments when adding new pandas */
     _id: string,
     /** YYYY/MM/DD birthday string */
     birthday: string,
@@ -666,7 +666,8 @@ declare global {
 
   /** For rendering the Location boxes on the Profile page */
   interface ProfileLocation {
-    zoo: number | string,
+    /** The `zoo.X` or `wild.X` prefix-ID */
+    id: string,
     start_date: string,
     end_date: string | undefined
   }

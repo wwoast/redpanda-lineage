@@ -74,32 +74,35 @@ export function acquirePandaInfo(animal: NodePanda) {
  */
 function acquireLocationList(animal: NodePanda) {
   const raw_locations = Pandas.locationList(animal)
-  const history = raw_locations.map(location => getZooBundle(location))
+  const history = raw_locations.map(location => getLocationBundle(location))
   return history
 }
 
-/** TODO-Types: type discriminate between zoo and wild locations */
-function getZooBundle(location: ProfileLocation) {
-  const zoos = Pandas.searchZooId(location.zoo.toString())
-  if (zoos.length === 0) {
-    return getUnknownZooBundle(location)
-  }
-  if (zoos.length > 0) {
-    const zoo = Language.fallbackEntity<NodeZoo | NodeWild>(zoos[0])   // Do language fallback strings
-    return {
-             "_id": Pandas.zooField(zoo, "_id"),
-        "end_date": Pandas.formatDate(location["end_date"]),
-  "language_order": Pandas.language_order(zoo),
-        "location": Pandas.zooField(zoo, "location")[Env.language],
-            "name": Language.fallback_name(zoo),
-      "start_date": Pandas.formatDate(location["start_date"])
-    }
+function getLocationBundle(location: ProfileLocation) {
+  const entity = Pandas.graphId<NodeWild | NodeZoo>(location.id)
+  if (entity == undefined)
+    return getUnknownLocationBundle(location)
+  // Do language fallback strings
+  const enriched = Language.fallbackEntity<NodeZoo | NodeWild>(entity)
+  const locationField = (entity.type == "zoo")
+    ? Pandas.zooField(entity, "location")[Env.language]
+    : Pandas.wildField(entity, "location")[Env.language]
+  return {
+            "_id": enriched._id,
+      "end_date": Pandas.formatDate(location["end_date"]),
+"language_order": Pandas.language_order(enriched),
+      "location": locationField,
+          "name": Language.fallback_name(enriched),
+    "start_date": Pandas.formatDate(location["start_date"])
   }
 }
 
-function getUnknownZooBundle(location: ProfileLocation) {
+function getUnknownLocationBundle(location: ProfileLocation) {
+  const defaultId = (location.id.startsWith("zoo"))
+    ? Defaults.zoo._id
+    : Defaults.wild._id
   return {
-    "_id": "zoo.0",
+    "_id": defaultId,
     "end_date": Pandas.formatDate(location["end_date"]),
     "language_order": [],
     "start_date": Pandas.formatDate(location["start_date"])
@@ -228,7 +231,7 @@ function appleLink(info: EnrichedEntity, container_element: string) {
     return other_photos
   } else {
     // Otherwise make an apple link with # of photos contributed
-    const apple_count = parseInt(P.db._photo.credit[info.photo_credit])
+    const apple_count = P.db._photo.credit[info.photo_credit]
     credit_count_link.innerText = `${Emoji.gift} ${apple_count}`
     if (apple_count >= 1000)
       credit_count_link.innerText = `${Emoji.megagift}  ${apple_count}`
@@ -2083,7 +2086,7 @@ export const profilePage = {
           (zoo_icon != Emoji.home)) {
         zoo_icon = Emoji.born_at
       }
-      const zoo_info = Pandas.searchZooId(zoo._id)[0]
+      const zoo_info = Pandas.graphId<NodeZoo>(zoo._id)
       const zoo_entry = document.createElement('ul')
       zoo_entry.className = "zooList"
       const zoo_name = document.createElement('li')
@@ -2326,12 +2329,12 @@ export const resultsPage = {
     // Arrivals have zoo information for where they came from
     if (info.zoo != undefined && search_context == "arrived") {
       const zoo = document.createElement('p')
-      const target_zoo = Pandas.searchZooId(info.search_context.from)[0]
+      const target_zoo = Pandas.graphId<NodeZoo>(info.search_context.from)
       const target_date = Pandas.formatDate(info.search_context.move_date)
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
-        Message.arrived_from_zoo(target_zoo.name[Env.language], target_date)
+        Message.arrived_from_zoo(Language.fallback_name(target_zoo), target_date)
       const zoo_link = zooLink(target_zoo, target_text, icon)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
@@ -2346,12 +2349,12 @@ export const resultsPage = {
     // Departures are for which zoo an animal just left for
     if (info.zoo != undefined && search_context == "departed") {
       const zoo = document.createElement('p')
-      const target_zoo = Pandas.searchZooId(info.search_context.to)[0]
+      const target_zoo = Pandas.graphId<NodeZoo>(info.search_context.to)
       const target_date = Pandas.formatDate(info.search_context.move_date)
       // Custom language templates for this
       const icon = Emoji.truck
       const target_text =
-        Message.departed_to_zoo(target_zoo.name[Env.language], target_date)
+        Message.departed_to_zoo(Language.fallback_name(target_zoo), target_date)
       const zoo_link = zooLink(target_zoo, target_text, icon)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
@@ -2365,10 +2368,10 @@ export const resultsPage = {
     }
     if (info.zoo != undefined && search_context == "born_at") {
       const zoo = document.createElement('p')
-      const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
+      const target_zoo = Pandas.graphId<NodeZoo>(info.search_context.at)
       const target_date = Pandas.formatDate(info.search_context.move_date)
       let icon = Emoji.born_at
-      const target_text = target_zoo.name[Env.language]
+      const target_text = Language.fallback_name(target_zoo)
       const compare_text = info.zoo.name[Env.language]
       if (target_text == compare_text && info.death == Defaults.unknown[Env.language]) {
         squelch_home_zoo = true
@@ -2389,10 +2392,10 @@ export const resultsPage = {
     // Ranges that an animal lived somewhere
     if (info.zoo != undefined && search_context == "born_or_lived" ) {
       const zoo = document.createElement('p')
-      const target_zoo = Pandas.searchZooId(info.search_context.at)[0]
+      const target_zoo = Pandas.graphId<NodeZoo>(info.search_context.at)
       const target_date = Pandas.formatDate(info.search_context.move_date)   // TODO: ??
       let icon = Emoji.zoo
-      const target_text = target_zoo.name[Env.language]
+      const target_text = Language.fallback_name(target_zoo)
       const compare_text = info.zoo.name[Env.language]
       if (target_text == compare_text) {
         squelch_home_zoo = true
@@ -2433,7 +2436,7 @@ export const resultsPage = {
     if (info.zoo != undefined && squelch_home_zoo == false) {
       const zoo = document.createElement('p')
       const zoo_link =
-        zooLink(info.zoo, info.zoo.name[Env.language], Emoji.home)
+        zooLink(info.zoo, Language.fallback_name(info.zoo), Emoji.home)
       zoo.appendChild(zoo_link)
       // Location shows a map icon and a flag icon, and links to
       // a Google Maps search for the "<language>.address" field
