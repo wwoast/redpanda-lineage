@@ -15,7 +15,6 @@ import { byFieldName,
          safeFilename,
          standardDate } from './shared.ts'
 
-
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
  * online hosting. Runtime dependencies for these workflows include:

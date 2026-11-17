@@ -16,7 +16,7 @@
   },
   "tasks": {
     "build": {
-      "command": "deno bundle -A ./ts/init.ts"
+      "command": "deno bundle ./ts/init.ts -o ./js/panda.js"
     }
   }
 }
