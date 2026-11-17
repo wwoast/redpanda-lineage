@@ -20,6 +20,7 @@ import * as Touch from './touch.ts'
  * with multiple pandas).
  */
 
+type CarouselType = "panda" | "wild" | "zoo"
 /** 
  * On the panda results card, a single photo is shown. On mobile, this photo
  * can be swiped left and right, and on computers, a dog ear appears when the
@@ -27,8 +28,8 @@ import * as Touch from './touch.ts'
  * are viewable, from within a single `<img>` frame on a single results card.
  */
 export interface Carousel {
-  /** `panda` or `zoo`, used to set the `element_class` */
-  carousel_type: "panda" | "zoo",
+  /** `panda` `zoo` or `wild`, used for `element_class` and node return types */
+  type: CarouselType,
   /** `pandaPhoto` or `zooPhoto` */
   element_class: string,
   /** Default image to load for a photo in this gallery */
@@ -43,7 +44,7 @@ export interface Carousel {
   unique: string
 }
 export class Carousel {
-  carousel_type: "panda" | "zoo" = "panda"
+  type: CarouselType = "panda"
   element_class = "pandaPhoto"
   fallback_url = Defaults.photo.url
   image = document.createElement('img')
@@ -51,14 +52,10 @@ export class Carousel {
   info: EnrichedEntity
   unique: string
 
-  constructor(info: EnrichedEntity, carousel_type: "panda" | "zoo", fallback_url?: string) {
+  constructor(info: EnrichedEntity, type: CarouselType, fallback_url?: string) {
     this.info = info   // Old photo value == info.photo
-    // Hacky way to determine the proper element class from whether this is an
-    // animal photo carousel or a zoo photo carousel
-    this.carousel_type = carousel_type
-    this.element_class = (carousel_type == "zoo")
-      ? "zooPhoto"
-      : "pandaPhoto"
+    this.type = type
+    this.element_class = `${this.type}Photo`
     // Define index value for which of an animal's photos we'll display by
     // default. Doesn't apply to zoo info, so we have a default standby value
     this.index = ("photo_index" in info)
@@ -94,14 +91,10 @@ export class Carousel {
     // Fill in details of the image we are displaying
     if (photoUrl == undefined) {
       image.src = this.fallback_url
-    } else if (id.toString().includes("_")) {   // TODO: all ids as string
-      // HACK: passing carousel id from touch handlers
-      image.id = `${id}/photo/${index}`
-      image.className = `${id}/photo`
-      url.process(image, photoUrl)
     } else {
-      image.id = `${this.unique}_${id}/photo/${index}`   // For carousel
-      image.className = `${this.unique}_${id}/photo`
+      // HACK: passing just the animal id from touch handlers
+      image.id = `${this.unique}_${this.type}/${num(id)}/photo/${index}`   // For carousel
+      image.className = `${this.unique}_${this.type}/${num(id)}/photo`
       url.process(image, photoUrl)
     }
     image.addEventListener("error", () => image.src = this.fallback_url)
@@ -111,22 +104,19 @@ export class Carousel {
   displayPhotoNavigation() {
     const span_link = document.createElement('a')
     span_link.className = "navigatorLink"
-    span_link.id = `${this.unique}_${this.info._id}/navigator`
+    span_link.id = `${this.unique}_${this.type}/${num(this.info._id)}/navigator`
     span_link.href = "javascript:;"
     const span = document.createElement('span')
     span.className = "navigator"
     // Clickable dogears when you have a carousel of more than one photo
     if (this.photoCount() < 2) {
         span.innerText = Emoji.no_more
-        // Consistent widget behavior on mouse clicks for non-functional
-        // navigators as well (disable normal right/middle click behavior)
-        span_link.addEventListener('contextmenu', function(e) {   // Right click event
-          e.preventDefault()   // Prevent normal context menu from firing
-        })
-        span_link.addEventListener('auxclick', function(e) {   // Middle click event
-          if (e.button == 1) {
-            e.preventDefault()   // Prevent middle click opening a new tab
-          }
+        // Disable default right-click behaviors (context menu)
+        span_link.addEventListener('contextmenu', (e) => e.preventDefault())
+        // Disable default middle-click behaviors (open new tab)
+        span_link.addEventListener('auxclick', (e) => {
+          if (e.button == 1)
+            e.preventDefault()
         })
     } else {
       span.innerText = `${this.index}`
@@ -163,16 +153,21 @@ export class Carousel {
 
   /** Utility function to get the proper entity for photo counts */
   photoEntity(entity_id=this.info._id) {
-    return (this.carousel_type == "zoo")
-      ? Pandas.graphId<NodeZoo>(entity_id)
-      : Pandas.graphId<NodePanda>(entity_id)
+    switch (this.type) {
+      case "panda":
+        return Pandas.graphId<NodePanda>(entity_id)
+      case "wild":
+        return Pandas.graphId<NodeWild>(entity_id)
+      case "zoo":
+        return Pandas.graphId<NodeZoo>(entity_id)
+    }
   }
 
   /** Navigation input event -- load the next photo in the carousel */
   photoNext(entity_id=this.info._id) {
-    // HACK: from touch handlers, it has a carousel id
+    // HACK: from touch handlers, add the unique identifiers
     const carousel_id = (!entity_id.includes("_"))
-      ? `${this.unique}_${entity_id}`
+      ? `${this.unique}_${this.type}/${num(entity_id)}`
       : entity_id
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
@@ -183,9 +178,9 @@ export class Carousel {
 
   /** Navigation input event -- load the previous photo in the carousel */
   photoPrevious(entity_id=this.info._id) {
-    // HACK: from touch handlers, it has a carousel id
+    // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = (!entity_id.includes("_"))
-      ? `${this.unique}_${entity_id}`
+      ? `${this.unique}_${this.type}/${entity_id}`
       : entity_id
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
@@ -196,10 +191,10 @@ export class Carousel {
 
   /** Navigation input event -- load a random-index photo of this animal */
   photoRandom(entity_id=this.info._id) {
-    // HACK: from touch handlers, it has a carousel id
+    // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = (!entity_id.includes("_"))
-      ? `${this.unique}_${entity_id}`
-      : `${entity_id}`
+      ? `${this.unique}_${this.type}/${num(entity_id)}`
+      : entity_id
     if (entity_id.includes("_"))
       entity_id = carousel_id.split("_").pop() as string
     const current_photo_element =
@@ -255,9 +250,10 @@ export class Carousel {
   singlePhotoCredit(info: EnrichedPhoto, last_index: number, current_index: number) {
     const animal_id = info._id
     const credit_link =
-      document.querySelector<HTMLAnchorElement>(`#${animal_id}/author/${last_index}`)
+      document.querySelector<HTMLAnchorElement>(
+        `#${this.type}/${num(animal_id)}/author/${last_index}`)
     if (!credit_link) return
-    credit_link.id = `${animal_id}/author/${current_index}`
+    credit_link.id = `${this.type}/${num(animal_id)}/author/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author))
       credit_link.href = info.reference
     else
@@ -270,9 +266,10 @@ export class Carousel {
   userApplePoints(info: EnrichedPhoto, last_index: number, current_index: number) {
     const animal_id = info._id
     const apple_link =
-      document.querySelector<HTMLAnchorElement>(`#${animal_id}/counts/${last_index}`)
+      document.querySelector<HTMLAnchorElement>(
+        `#${this.type}/${animal_id}/counts/${last_index}`)
     if (!apple_link) return
-    apple_link.id = `${animal_id}/counts/${current_index}`
+    apple_link.id = `${this.type}/${animal_id}/counts/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author)) {
       const apple_count = P.db._photo.credit[info.author]
       apple_link.href = `#credit/${info.author}`
@@ -1139,7 +1136,7 @@ function updatedPhotoOrdering(photo_count: number) {
     .filter(locator => locator.indexOf("zoo.") == 0)
   const zoo_photos = Pandas.uniqueField(Pandas.locatorsToPhotos(zoo_locators), "_id")
     .filter(photo => {
-      const pandas = Pandas.searchPandaZoo(parseInt(photo._id.toString()))
+      const pandas = Pandas.searchPandaZoo(photo._id)
       .filter(panda => "photos" in panda)
       return pandas.length > 0
     }).filter(photo => {
