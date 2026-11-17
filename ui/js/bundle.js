@@ -4277,7 +4277,8 @@ function allAnimalsAndMedia() {
 }
 function graphId(prefixId) {
   const [type, _numId] = prefixId.split(".");
-  return G.v(prefixId).filter((vertex) => vertex.type == type).run().shift();
+  const entity = G.v(prefixId).filter((vertex) => vertex.type == type).run().shift();
+  return entity;
 }
 function searchBabies(year) {
   let baby_year = year != void 0 ? parseInt(year) : P.db._totals.last_born;

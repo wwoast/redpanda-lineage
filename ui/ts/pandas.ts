@@ -290,10 +290,11 @@ export function allAnimalsAndMedia() {
  */
 export function graphId<T>(prefixId: string) {
   const [type, _numId] = prefixId.split(".")
-  return G.v(prefixId)
+  const entity = G.v(prefixId)
     .filter((vertex: GraphNode) => vertex.type == type)
     .run()
     .shift() as T
+  return entity
 }
 
 /** Find all panda babies born within a calendar year. */
