@@ -413,7 +413,8 @@ export function genderAnimal(animal: NodePanda, frame_class: string) {
 function locationLink(zoo: NodeZoo, mode="icons_only") {
   // Don't print content if the input id is zero
   if (zoo._id == Defaults.zoo._id)
-    return Defaults.zoo.location[Env.language]
+    return document.createTextNode(
+      Defaults.zoo.location[Env.language] ?? Defaults.unknown[Env.language])
   let link_text = Emoji.map
   if (mode != "icons_only")
     link_text += ` ${zoo.location[Env.language]}`
@@ -421,8 +422,8 @@ function locationLink(zoo: NodeZoo, mode="icons_only") {
     link_text += ` ${Flags[zoo.flag]}`
   }
   const a = document.createElement('a')
-  if (zoo['map']) {
-    a.href = zoo['map']
+  if (zoo.map) {
+    a.href = zoo.map
   }
   a.innerText = link_text
   a.target = "_blank"   // Open in new tab
@@ -2678,7 +2679,7 @@ export const resultsPage = {
   zooCounts: function(info: EnrichedZoo) {
     const ul = document.createElement('ul')
     ul.className = "zooCounts"
-    const li_items = {
+    const li_items: Record<string, HTMLLIElement> = {
       "living": document.createElement('li'),
       "born": document.createElement('li'),
       "departed": document.createElement('li'),
@@ -2687,22 +2688,12 @@ export const resultsPage = {
     // Animals living at this zoo today
     const at_zoo = Pandas.searchPandaZooCurrent(info._id).length
     if (at_zoo < 1) {
-      let output_text = ""
-      for (const i in Message.Text.zoo_details_no_pandas_live_here[Env.language]) {
-        const field = Message.Text.zoo_details_no_pandas_live_here[Env.language][i]
-        output_text = output_text.concat(field)
-      }
-      const text_node = document.createTextNode(output_text)
+      const text_node = document.createTextNode(
+        Message.Text.zoo_details_no_pandas_live_here[Env.language])
       li_items["living"].appendChild(text_node)
     } else {
-      let output_text = ""
-      for (const i in Message.Text.zoo_details_pandas_live_here[Env.language]) {
-        const field = Message.Text.zoo_details_pandas_live_here[Env.language][i]
-        if (field == "<INSERTNUM>")
-          output_text = output_text.concat(at_zoo)
-        else
-          output_text = output_text.concat(field)
-      }
+      let output_text = Message.Text.zoo_details_pandas_live_here[Env.language]
+        .replace("<INSERTNUM>", `${at_zoo}`)
       output_text = Language.unpluralize([output_text])[0]
       const text_node = document.createTextNode(output_text)
       li_items["living"].appendChild(text_node)
@@ -2719,16 +2710,9 @@ export const resultsPage = {
     if (born_known_count > 0) {
       const earliest_born_year =
         born_known_birthdays[born_known_count - 1]["birthday"].split("/")[0]
-      let output_text = ""
-      for (const i in Message.Text.zoo_details_babies[Env.language]) {
-        const field = Message.Text.zoo_details_babies[Env.language][i]
-        if (field == "<INSERTBABIES>")
-          output_text = output_text.concat(born_count)
-        else if (field == "<INSERTYEAR>")
-          output_text = output_text.concat(earliest_born_year)
-        else
-          output_text = output_text.concat(field)
-      }
+      let output_text = Message.Text.zoo_details_babies[Env.language]
+        .replace("<INSERTBABIES>", `${born_count}`)
+        .replace("<INSERTYEAR>", earliest_born_year)
       output_text = Language.unpluralize([output_text])[0]
       const text_node = document.createTextNode(output_text)
       born_link.appendChild(text_node)
@@ -2739,7 +2723,7 @@ export const resultsPage = {
     departed_link.href = "javascript:"
     const departed_link_id = `departures/zoo/${info._id}`
     departed_link.addEventListener("click", function() {
-      document.getElementById(departed_link_id).scrollIntoView(true)
+      document.getElementById(departed_link_id)?.scrollIntoView(true)
     })
     const departed_zoo = Pandas.searchPandaZooDeparted(info._id, 9)
     const died_at_zoo = Pandas.searchPandaZooDied(info._id, 9)
@@ -2747,14 +2731,8 @@ export const resultsPage = {
     const died_count = died_at_zoo.length
     const total_departed = departed_count + died_count
     if (total_departed > 0) {
-      let output_text = ""
-      for (const i in Message.Text.zoo_details_departures[Env.language]) {
-        const field = Message.Text.zoo_details_departures[Env.language][i]
-        if (field == "<INSERTNUM>")
-          output_text = output_text.concat(total_departed)
-        else
-          output_text = output_text.concat(field)
-      }
+      let output_text = Message.Text.zoo_details_departures[Env.language]
+        .replace("<INSERTNUM>", `${total_departed}`)
       if (died_count > 0)
         output_text = output_text.concat(" " + Emoji.died)
       output_text = Language.unpluralize([output_text])[0]
@@ -2783,23 +2761,16 @@ export const resultsPage = {
       // Now for the message
       const total_link = document.createElement('a')
       total_link.href = `#query/lived at ${info._id}`
-      let output_text = ""
-      for (const i in Message.Text.zoo_details_records[Env.language]) {
-        const field = Message.Text.zoo_details_records[Env.language][i]
-        if (field == "<INSERTNUM>")
-          output_text = output_text.concat(total_count)
-        else if (field == "<INSERTYEAR>")
-          output_text = output_text.concat(earliest_year)
-        else
-          output_text = output_text.concat(field)
-      }
+      let output_text = Message.Text.zoo_details_records[Env.language]
+        .replace("<INSERTNUM>", `${total_count}`)
+        .replace("<INSERTYEAR>", `${earliest_year}`)
       output_text = Language.unpluralize([output_text])[0]
       const text_node = document.createTextNode(output_text)
       total_link.appendChild(text_node)
       li_items["recorded"].appendChild(total_link)
     }
     // Finally, construct the set of info
-    for (const message of ["living", "born", "departed", "recorded"]) {
+    for (const message in li_items) {
       if (li_items[message].childNodes.length > 0) {
         ul.appendChild(li_items[message])
       }

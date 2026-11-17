@@ -421,8 +421,9 @@ function creditPhotosPage(page: number, results: QueryResult, max_hits: number) 
   // We must unspool the results because each entity we query here can have
   // multiple results returned, and the paging must only return the first
   // max_hits content.
-  const grab_photos = results["hits"].flatMap(entity => 
-    nodePhotoCredits(entity, results["subject"]))
+  const grab_photos = results.hits
+    .map(entity => entity as PhotoGraphNode)
+    .flatMap(entity => nodePhotoCredits(entity, results.subject))
   const starting_point = page * Env.paging.results_count
   // Working copy of photo set, starting at the nth page of photos
   let content_photos = grab_photos.slice(starting_point)
@@ -861,7 +862,8 @@ export function memorialPhotoCreditsGroup(group_id: string, id_list: string[], p
  * that match the username that was searched. Used for making reports of all
  * the photos in the website contributed by a single author.
  */
-function nodePhotoCredits(node: PhotoGraphNode, credit: string) {
+function nodePhotoCredits(node: PhotoGraphNode, credit: string | undefined) {
+  if (!credit) return []
   const photos: EnrichedPhoto[] = []
   for (const [index, photo] of node.photos.entries()) {
     if (photo.author == credit) {
@@ -917,7 +919,7 @@ function pandaPhotoCreditSingle(photo: EnrichedPhoto) {
 
 /** Display a gallery of photos with a given tag. */
 export function tagPhotos(results: QueryResult, max_hits: number, add_emoji: boolean) {
-  const hit_count = results["hits"].length
+  const hit_count = results.hits.length
   // Get the first page of content
   const paging_data = tagPhotosPage(0, results, max_hits, add_emoji)
   const content_divs = paging_data.output
@@ -942,7 +944,7 @@ function tagPhotosPage(
   const initial_max_hits = max_hits
   const starting_point = page * Env.paging.results_count
   // Working copy of photo set, shuffled
-  let page_results = results["hits"].slice() as EnrichedPhoto[]
+  let page_results = results.hits.slice() as EnrichedPhoto[]
   page_results = Pandas.shuffleWithSeed(page_results, Env.paging.seed)
   page_results = page_results.slice(starting_point)
   const hit_count = page_results.length
@@ -991,24 +993,24 @@ function tagPhotoMessage(results: QueryResult, hit_count: number) {
     header = Show.emptyResult(Message.Text.no_subject_tag_result)
   } else if ((results.parsed == "set_tag") ||
              (results.parsed == "set_tag_subject")) {
-    const tag = results["tag"] != undefined ? results.tag : results.query
+    const tag = results.tag != undefined ? results.tag : results.query
     const ctag = Language.tagPrimary(tag)
     header = Message.tag_subject(hit_count, results.subject,
-                                 Tags[ctag]["emoji"].join(""),
+                                 Tags[ctag].emoji.join(""),
                                  ctag)
-  } else if (results["parsed"] == "set_baby_subject") {
-    const tag = results["tag"] != undefined ? results.tag : results.query
+  } else if (results.parsed == "set_baby_subject") {
+    const tag = results.tag != undefined ? results.tag : results.query
     const ctag = Language.tagPrimary(tag)
     header = Message.tag_subject(hit_count, results.subject,
-                                 Polyglots[ctag]["emoji"].join(""),
+                                 Polyglots[ctag].emoji.join(""),
                                  ctag)
-  } else if (results["parsed"] == "set_tag_intersection") {
-    const tag = results["tag"] != undefined ? results.tag : results.query
-    const emojis = tag.split(", ").flatMap(tag => Tags[tag]["emoji"])
+  } else if (results.parsed == "set_tag_intersection") {
+    const tag = results.tag != undefined ? results.tag : results.query
+    const emojis = tag.split(", ").flatMap(tag => Tags[tag].emoji)
     header = Message.tag_combo(hit_count, emojis)
-  } else if (results["parsed"] == "set_tag_intersection_subject") {
-    const tag = results["tag"] != undefined ? results.tag : results.query
-    const emojis = tag.split(", ").flatMap(tag => Tags[tag]["emoji"])
+  } else if (results.parsed == "set_tag_intersection_subject") {
+    const tag = results.tag != undefined ? results.tag : results.query
+    const emojis = tag.split(", ").flatMap(tag => Tags[tag].emoji)
     header = Message.tag_combo(hit_count, emojis)
   } else {
     header = Show.emptyResult(Message.Text.no_subject_tag_result)

@@ -73,7 +73,7 @@ export function redraw(callback?: Function) {
  */
 interface AboutPage {
   /** The page body to render or restore for the About page */
-  content: HTMLDivElement,
+  content: HTMLDivElement | null,
   /** Language the current page is displayed in */
   language: Language,
   /** Event representing the About page was successfully fetched */
@@ -173,7 +173,8 @@ class AboutPage {
       this.fetch()
     else {
       this.sectionMenuDefaults()   // Initialize submenus if necessary
-      document.getElementById('contentFrame')?.replaceWith(this.content)
+      if (this.content)
+        document.getElementById('contentFrame')?.replaceWith(this.content)
       footer.redraw("results")
     }
     Show.resultsMenus.language()
@@ -768,7 +769,7 @@ class ProfilePage {
     Env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
-    const pandaProfile = results["hits"][0] as NodePanda
+    const pandaProfile = results.hits[0] as NodePanda
     const profile_div = Show.profilePage.panda(pandaProfile)
     const where_divs = Show.profilePage.where(pandaProfile)
     const family_divs = Show.profilePage.family(pandaProfile)
@@ -819,11 +820,11 @@ class ResultsPage {
   /** Given a search for pandas or zoos, output entity divs */
   entities(results: QueryResult) {
     let content_divs: HTMLDivElement[] = []
-    if (results["hits"].length == 0) {
+    if (results.hits.length == 0) {
       // No results? On desktop, bring up a sad panda
       content_divs.push(Show.emptyResult(Message.Text.no_result))
     }
-    results["hits"].map(entity => entity as PhotoGraphNode).forEach(entity => {
+    results.hits.map(entity => entity as PhotoGraphNode).forEach(entity => {
       // Zoos get the Zoo div and pandas for this zoo
       if (entity.type == "zoo") {
         content_divs.push(Show.resultsPage.zoo(entity))
@@ -849,16 +850,16 @@ class ResultsPage {
    */
   group(results: QueryResult) {
     let content_divs: HTMLDivElement[] = []
-    if (results["hits"].length == 0) {
+    if (results.hits.length == 0) {
       // Push an error message
       content_divs.push(Show.emptyResult(Message.Text.no_group_media_result))
       return content_divs
     }
     // Then, start displaying a list of group photos paged out
-    const animal_ids = results["query"].split(" ")
+    const animal_ids = results.query.split(" ")
     // Show all photos with these animals, along with a message.
     // No container div here so just concat.
-    if (results["hits"].length > 0)
+    if (results.hits.length > 0)
       content_divs = content_divs.concat(Show.resultsPage.groupGallery(animal_ids))
     // Give a list of results for each individual animal
     const animal_results = []
@@ -887,7 +888,7 @@ class ResultsPage {
       return content_divs
     }
     // This query only gets zoo results
-    results["hits"].map(entity => entity as NodeZoo).forEach(entity => {
+    results.hits.map(entity => entity as NodeZoo).forEach(entity => {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.resultsPage.zoo(entity))
       const animals = Pandas.sortOldestToYoungest(
@@ -908,16 +909,16 @@ class ResultsPage {
   photos(results: QueryResult) {
     let content_divs: HTMLDivElement[] = []
     const max_hits = Env.paging.results_count
-    if ((results["parsed"] == "set_tag") || 
-        (results["parsed"] == "set_tag_subject") ||
-        (results["parsed"] == "set_baby_subject")) {
+    if ((results.parsed == "set_tag") || 
+        (results.parsed == "set_tag_subject") ||
+        (results.parsed == "set_baby_subject")) {
       // Basic tag views with emoji in the name field
       content_divs = Gallery.tagPhotos(results, max_hits, true)
-    } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
+    } else if (results.parsed.includes("set_tag_intersection")) {
       // Combo tag views, no emoji in the name field
       content_divs = Gallery.tagPhotos(results, max_hits, false)
-    } else if ((results["parsed"] == "set_credit_photos") || 
-               (results["parsed"] == "set_credit_photos_filtered")) {
+    } else if ((results.parsed == "set_credit_photos") || 
+               (results.parsed == "set_credit_photos_filtered")) {
       content_divs = Gallery.creditPhotos(results, max_hits)
     }
     // HACK: revert to results mode
