@@ -90,9 +90,7 @@ function convertJsonToPanda(
   configPath: string,
   entityJson: SubmittedPanda
 ) {
-  const zooString = (entityJson.zoo)
-    ? (parseInt(entityJson.zoo) * -1).toString()
-    : "unknown"
+  const zooString = entityJson.zoo ?? "unknown"
   const output: Record<string, any> = {
     _notes: entityJson.notes,
     birthday: standardDate(entityJson.birthday),

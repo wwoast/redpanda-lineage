@@ -3,6 +3,7 @@ import { IniMap, ReviverFunction } from '@std/ini/ini-map'
 import { join } from '@std/path'
 import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
 import { distinct,
+         num,
          toLinks,
          toMedia,
          toPandas,
@@ -1239,27 +1240,22 @@ export class Dataset {
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
-          if (typeof edge._in._id === "string" && edge._in._id.includes("wild"))
-            working.birthplace = edge._in._id
-          else if (typeof edge._in._id === "string")
-            working.birthplace = parseInt(edge._in._id) * -1
-          else if (typeof edge._in._id === "number")
-            working.birthplace = edge._in._id * -1
+          // TODO: string, support wild too
+          if (edge._in._id.startsWith("zoo"))
+            working.birthplace = num(edge._in._id)
           break
         case "family":
           if (edge.probability)
-            working.children.push(`${edge._in._id} ${edge.probability}`)
+            working.children.push(`${num(edge._in._id)} ${edge.probability}`)
           else
-            working.children.push(edge._in._id)
+            working.children.push(`${num(edge._in._id)}`)
           break
         case "litter":
-          working.litter.push(edge._in._id)
+          working.litter.push(`${num(edge._in._id)}`)
           break
         case "zoo":
-          if (typeof edge._in._id === "string")
-            working.zoo = parseInt(edge._in._id) * -1
-          if (typeof edge._in._id === "number")
-            working.zoo = edge._in._id * -1
+          if (edge._in._id.startsWith("zoo"))
+            working.zoo = num(edge._in._id)
           break
         default:
           console.log(`[dataset] unknown edge type: ${edge._label}`)
