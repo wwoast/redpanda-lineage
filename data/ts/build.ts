@@ -1,6 +1,6 @@
-import { git } from '@roka/git'
-import { Dataset, Updates } from './dataset.ts'
-import { DataPaths, Paths } from './shared.ts'
+import { git } from '@dependencies/roka/git'
+import { Dataset, Updates } from '@redpanda-lineage/data/dataset'
+import { DataPaths, Paths } from '@redpanda-lineage/data/shared'
 
 /** 
  * Construct a new `../export/redpanda.json` file, calculate updates for all

@@ -1,8 +1,8 @@
 import { Graph, distinct, num } from '@redpanda-lineage/data'
-import Env from './environment.ts'
-import * as Language from './language.ts'
-import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'
-import { Text } from './message.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Language from '@redpanda-lineage/ui/language'
+import { DateLocale, Defaults, Fallback, Gui, Polyglots } from '@redpanda-lineage/ui/lookup'
+import { Text } from '@redpanda-lineage/ui/message'
 
 /** 
  * Logic for a Red Panda database search form.

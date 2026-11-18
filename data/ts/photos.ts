@@ -1,8 +1,8 @@
-import { IniMap } from '@std/ini/ini-map'
-import { basename } from '@std/path'
+import { IniMap } from '@dependencies/std/ini/ini-map'
+import { basename } from '@dependencies/std/path'
 import { Paths,
          entityTypeFromFileName,
-         existsFileSync } from './shared.ts'
+         existsFileSync } from '@redpanda-lineage/data/shared'
 
 /** 
  * Classes for working with photos stored in the raw redpandafinder `ini`

@@ -1,12 +1,11 @@
-import * as Gallery from './gallery.ts'
-import * as Page from './page.ts'
-import * as Show from './show.ts'
+import * as Gallery from '@redpanda-lineage/ui/gallery'
+import * as Page from '@redpanda-lineage/ui/page'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /** 
  * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
  * Heavily adapted from code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
  */
-
 interface TouchStats {
   /** Current X-coordinate of the finger */
   curX: number,
@@ -38,9 +37,9 @@ interface TouchStats {
   xTurn: number
 }
 
-const MinLength = 64   // the shortest distance the user may swipe
+/** The shortest distance the user may swipe */
+const MinLength = 64
 
-// The 4 Touch Event Handlers
 function start(event: TouchEvent, touch: TouchStats) {
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length

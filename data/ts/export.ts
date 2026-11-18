@@ -1,4 +1,4 @@
-import type { Vertex } from './dagoba.ts'
+import type { Vertex } from '@redpanda-lineage/data/dagoba'
 
 /**
  * Shared functions used by all the RPF projects. When moving to prefix-ids,

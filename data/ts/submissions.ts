@@ -1,19 +1,19 @@
-import { git } from '@roka/git'
-import { parseArgs } from '@std/cli/parse-args'
-import { IniMap } from '@std/ini/ini-map'
-import { basename, dirname, join, parse } from '@std/path'
-import sharp from 'sharp'
-import { buildDataset, getDataset } from './build.ts'
-import { Dataset } from './dataset.ts'
-import { distinct, num } from './export.ts'
-import { sortEntities } from './manage.ts'
+import { git } from '@dependencies/roka/git'
+import sharp from '@dependencies/sharp'
+import { parseArgs } from '@dependencies/std/cli/parse-args'
+import { IniMap } from '@dependencies/std/ini/ini-map'
+import { basename, dirname, join, parse } from '@dependencies/std/path'
+import { buildDataset, getDataset } from '@redpanda-lineage/data/build'
+import { Dataset } from '@redpanda-lineage/data/dataset'
+import { distinct, num } from '@redpanda-lineage/data/export'
+import { sortEntities } from '@redpanda-lineage/data/manage'
 import { byFieldName,
          existsDirSync,
          existsFileSync,
          readConfigForExternalSystems,
          safeDirname,
          safeFilename,
-         standardDate } from './shared.ts'
+         standardDate } from '@redpanda-lineage/data/shared'
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's

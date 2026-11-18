@@ -1,8 +1,8 @@
-import Env from './environment.ts'
-import * as Message from './message.ts'
-import * as Page from './page.ts'
-import * as Pandas from './pandas.ts'
-import * as Show from './show.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Message from '@redpanda-lineage/ui/message'
+import * as Page from '@redpanda-lineage/ui/page'
+import * as Pandas from '@redpanda-lineage/ui/pandas'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /**
  * Allows queries for nearby zoos, using the browser Geolocation API.

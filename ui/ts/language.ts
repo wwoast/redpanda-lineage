@@ -1,8 +1,8 @@
-import Env from './environment.ts'
-import { Defaults, Flags, Gui, LangNames, Polyglots, Tags } from './lookup.ts'
-import { Text } from './message.ts'
-import * as Page from './page.ts'
-import P, * as Pandas from './pandas.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import { Defaults, Flags, Gui, LangNames, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import { Text } from '@redpanda-lineage/ui/message'
+import * as Page from '@redpanda-lineage/ui/page'
+import P, * as Pandas from '@redpanda-lineage/ui/pandas'
 
 /** 
  * Construct tag lists with arbitrary capitalization. TODO: do this for other

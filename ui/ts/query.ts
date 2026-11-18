@@ -1,8 +1,8 @@
-import Env from './environment.ts'
-import * as Geo from './geolocate.ts'
-import { fallback_name } from './language.ts'
-import * as Pandas from './pandas.ts'
-import * as Parse from './parse.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Geo from '@redpanda-lineage/ui/geolocate'
+import { fallback_name } from '@redpanda-lineage/ui/language'
+import * as Pandas from '@redpanda-lineage/ui/pandas'
+import * as Parse from '@redpanda-lineage/ui/parse'
 
 /**
  * Query processing for the search box. Translates operators and parameters

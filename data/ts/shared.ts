@@ -1,4 +1,4 @@
-import { IniMap } from '@std/ini/ini-map'
+import { IniMap } from '@dependencies/std/ini/ini-map'
 
 export const firstCommit = "832f3469e61901ebf9a38a6c2da1f427cf64e188"
 

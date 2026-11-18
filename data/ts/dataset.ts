@@ -1,7 +1,7 @@
-import { Git } from '@roka/git'
-import { IniMap, ReviverFunction } from '@std/ini/ini-map'
-import { join } from '@std/path'
-import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
+import { Git } from '@dependencies/roka/git'
+import { IniMap, ReviverFunction } from '@dependencies/std/ini/ini-map'
+import { join } from '@dependencies/std/path'
+import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from '@redpanda-lineage/data/dagoba'
 import { distinct,
          num,
          toLinks,
@@ -9,8 +9,8 @@ import { distinct,
          toPandas,
          toPhotoEntities,
          toWilds,
-         toZoos } from './export.ts'
-import { PhotoEntry } from './photos.ts'
+         toZoos } from '@redpanda-lineage/data/export'
+import { PhotoEntry } from '@redpanda-lineage/data/photos'
 import { DataPaths,
          Paths,
          byIdAscending,
@@ -19,7 +19,7 @@ import { DataPaths,
          existsDirSync,
          existsFileSync,
          reviveNode,
-         supportedLanguages } from './shared.ts'
+         supportedLanguages } from '@redpanda-lineage/data/shared'
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files

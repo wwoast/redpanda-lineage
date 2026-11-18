@@ -4,7 +4,7 @@
  * Dagoba Vertex and Edge types, the import chain is simplest if we keep
  * global types inside the `@redpanda-data` subproject.
  */
-import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
+import type { DanglingEdge, Vertex } from '@redpanda-lineage/data/dagoba'
 
 /** 
  * As soon as types are imported in your ambient types file, it just becomes a

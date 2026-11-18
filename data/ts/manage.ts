@@ -1,16 +1,15 @@
-import { Git, git } from '@roka/git'
-import { parseArgs } from '@std/cli/parse-args'
-import { join } from '@std/path'
-import { buildDataset,
-         getDataset } from './build.ts'
-import { Dataset, Updates } from './dataset.ts'
+import { Git, git } from '@dependencies/roka/git'
+import { parseArgs } from '@dependencies/std/cli/parse-args'
+import { join } from '@dependencies/std/path'
+import { buildDataset, getDataset } from '@redpanda-lineage/data/build'
+import { Dataset, Updates } from '@redpanda-lineage/data/dataset'
 import { DataPaths,
          byNumericLowest,
          existsFileSync,
          firstCommit,
          readConfigForExternalSystems,
          safeFilename,
-         standardDate } from './shared.ts'
+         standardDate } from '@redpanda-lineage/data/shared'
 
 /** 
  * Tools to manage photos and key ordering in the `.txt` INI-format files in

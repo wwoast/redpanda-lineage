@@ -1,8 +1,8 @@
+import * as Jsleri from '@dependencies/jsleri'
 import { distinct } from '@redpanda-lineage/data'
-import * as Jsleri from '../js/jsleri-1.1.15.js'
-import { capitalNames } from './language.ts'
-import { Defaults, Polyglots, Tags } from './lookup.ts'
-import P, { values } from './pandas.ts'
+import { capitalNames } from '@redpanda-lineage/ui/language'
+import { Defaults, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import P, { values } from '@redpanda-lineage/ui/pandas'
 
 /**
  * Given a search tag, find the equivalent term for that tag that is

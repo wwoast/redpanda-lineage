@@ -2,12 +2,20 @@
   "name": "@redpanda-lineage/data",
   "version": "0.1.0",
   "imports": {
-    "sharp": "npm:sharp@^0.35.4",
-    "@roka/git": "jsr:@roka/git@^0.4.0",
-    "@std/cli": "jsr:@std/cli@^1.0.32",
-    "@std/fs": "jsr:@std/fs@^1.0.24",
-    "@std/ini": "jsr:@std/ini@^0.225.2",
-    "@std/path": "jsr:@std/path@^1.1.6"
+    "@dependencies/sharp": "npm:sharp@^0.35.4",
+    "@dependencies/roka/git": "jsr:@roka/git@^0.4.0",
+    "@dependencies/std/cli": "jsr:@std/cli@^1.0.32",
+    "@dependencies/std/fs": "jsr:@std/fs@^1.0.24",
+    "@dependencies/std/ini": "jsr:@std/ini@^0.225.2",
+    "@dependencies/std/path": "jsr:@std/path@^1.1.6",
+    "@redpanda-lineage/data/build": "ts/build.ts",
+    "@redpanda-lineage/data/dagoba": "ts/dagoba.ts",
+    "@redpanda-lineage/data/dataset": "ts/dataset.ts",
+    "@redpanda-lineage/data/export": "ts/export.ts",
+    "@redpanda-lineage/data/manage": "ts/manage.ts",
+    "@redpanda-lineage/data/photos": "ts/photos.ts",
+    "@redpanda-lineage/data/shared": "ts/shared.ts",
+    "@redpanda-lineage/data/submissions": "ts/submissions.ts"
   },
   "exports": {
     ".": "./mod.ts"

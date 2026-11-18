@@ -1,4 +1,4 @@
-import { Defaults } from './lookup.ts'
+import { Defaults } from '@redpanda-lineage/ui/lookup'
 
 /**
  * Layout calculation for optimizing the visual space taken by panda families

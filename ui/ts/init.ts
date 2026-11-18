@@ -1,13 +1,13 @@
-import Env from './environment.ts'
-import * as Geo from './geolocate.ts'
-import * as Icons from './icons.ts'
-import * as Language from './language.ts'
-import { mediaQuery, shrinkNames } from './layout.ts'
-import * as Options from './options.ts'
-import * as Page from './page.ts'
-import * as Pandas from './pandas.ts'
-import * as ScrollTop from './scrollTop.ts'
-import * as Show from './show.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Geo from '@redpanda-lineage/ui/geolocate'
+import * as Icons from '@redpanda-lineage/ui/icons'
+import * as Language from '@redpanda-lineage/ui/language'
+import { mediaQuery, shrinkNames } from '@redpanda-lineage/ui/layout'
+import * as Options from '@redpanda-lineage/ui/options'
+import * as Page from '@redpanda-lineage/ui/page'
+import * as Pandas from '@redpanda-lineage/ui/pandas'
+import * as ScrollTop from '@redpanda-lineage/ui/scrollTop'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /** Mobile meta-tag support for various phone/tablet font scales */
 (function() {

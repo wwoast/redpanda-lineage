@@ -1,10 +1,9 @@
 import { num } from '@redpanda-lineage/data'
-import Env from './environment.ts'
-import * as Language from './language.ts'
-import { Defaults, Emoji, Polyglots, Tags } from './lookup.ts'
-import P, * as Pandas from './pandas.ts'
-import * as Show from './show.ts'
-import env from "./environment.ts";
+import Env from '@redpanda-lineage/ui/environment'
+import * as Language from '@redpanda-lineage/ui/language'
+import { Defaults, Emoji, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import P from '@redpanda-lineage/ui/pandas'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /** make *text* italic and **text** bold with JSX foo
  * as well as process the newlines and extra spaces in long lones of text
