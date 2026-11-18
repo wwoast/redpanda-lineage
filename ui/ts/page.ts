@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/data'
+import { num } from '@redpanda-lineage/data/export'
 import Env from '@redpanda-lineage/ui/environment'
 import * as Gallery from '@redpanda-lineage/ui/gallery'
 import * as Geo from '@redpanda-lineage/ui/geolocate'

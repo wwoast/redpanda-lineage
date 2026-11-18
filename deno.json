@@ -3,7 +3,8 @@
     "types": ["./data/types.ts"]
   },
   "imports": {
-    "foo": "./data/ts/dagoba.ts"
+    "@redpanda-lineage/data/dagoba": "./data/ts/dagoba.ts",
+    "@redpanda-lineage/data/export": "./data/ts/export.ts"
   },
   "tasks": {
     "export": {

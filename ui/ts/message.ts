@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/data'
+import { num } from '@redpanda-lineage/data/export'
 import Env from '@redpanda-lineage/ui/environment'
 import * as Language from '@redpanda-lineage/ui/language'
 import { Defaults, Emoji, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'

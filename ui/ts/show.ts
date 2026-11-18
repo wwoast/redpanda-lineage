@@ -1,5 +1,5 @@
 import { showQRCode } from '@dependencies/html5-qrcode'
-import { distinct, num } from '@redpanda-lineage/data'
+import { distinct, num } from '@redpanda-lineage/data/export'
 import Env from '@redpanda-lineage/ui/environment'
 import * as Gallery from '@redpanda-lineage/ui/gallery'
 import * as Geo from '@redpanda-lineage/ui/geolocate'

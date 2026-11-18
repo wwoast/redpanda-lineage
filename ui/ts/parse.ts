@@ -1,5 +1,5 @@
 import * as Jsleri from '@dependencies/jsleri'
-import { distinct } from '@redpanda-lineage/data'
+import { distinct } from '@redpanda-lineage/data/export'
 import { capitalNames } from '@redpanda-lineage/ui/language'
 import { Defaults, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
 import P, { values } from '@redpanda-lineage/ui/pandas'
