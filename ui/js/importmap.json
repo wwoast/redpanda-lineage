@@ -1,0 +1,24 @@
+{
+  "imports": {
+    "@dependencies/html5-qrcode": "/ui/js/html5-qrcode.js",
+    "@dependencies/jsleri": "/ui/js/jsleri-1.1.15.js",
+    "@redpanda-lineage/data/dagoba": "/ui/js/dagoba.ts",
+    "@redpanda-lineage/data/export": "/ui/js/export.ts",
+    "@redpanda-lineage/ui/environment": "/ui/js/environment.js",
+    "@redpanda-lineage/ui/gallery": "/ui/js/gallery.js",
+    "@redpanda-lineage/ui/geolocate": "/ui/js/geolocate.js",
+    "@redpanda-lineage/ui/icons": "/ui/js/icons.js",
+    "@redpanda-lineage/ui/language": "/ui/js/language.js",
+    "@redpanda-lineage/ui/layout": "/ui/js/layout.js",
+    "@redpanda-lineage/ui/lookup": "/ui/js/lookup.js",
+    "@redpanda-lineage/ui/message": "/ui/js/message.js",
+    "@redpanda-lineage/ui/options": "/ui/js/options.js",
+    "@redpanda-lineage/ui/page": "/ui/js/page.js",
+    "@redpanda-lineage/ui/pandas": "/ui/js/pandas.js",
+    "@redpanda-lineage/ui/parse": "/ui/js/parse.js",
+    "@redpanda-lineage/ui/query": "/ui/js/query.js",
+    "@redpanda-lineage/ui/scrollTop": "/ui/js/scrollTop.js",
+    "@redpanda-lineage/ui/show": "/ui/js/show.ts",
+    "@redpanda-lineage/ui/touch": "/ui/js/touch.ts"
+  }  
+}
