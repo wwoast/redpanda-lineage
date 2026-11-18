@@ -1,4 +1,5 @@
-import { Graph, distinct, num } from '@redpanda-lineage/data'
+import { Graph } from "foo"
+import { distinct, num } from '@redpanda-lineage/data'
 import Env from '@redpanda-lineage/ui/environment'
 import * as Language from '@redpanda-lineage/ui/language'
 import { DateLocale, Defaults, Fallback, Gui, Polyglots } from '@redpanda-lineage/ui/lookup'

@@ -2,6 +2,9 @@
   "compilerOptions": {
     "types": ["./data/types.ts"]
   },
+  "imports": {
+    "foo": "./data/ts/dagoba.ts"
+  },
   "tasks": {
     "export": {
       "command": "deno task -f data build"
