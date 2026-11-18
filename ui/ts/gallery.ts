@@ -1,12 +1,12 @@
 import { num } from '@redpanda-lineage/data'
-import Env from './environment.ts'
-import * as Language from './language.ts'
-import { Defaults, Emoji, Gui, Polyglots, Tags } from './lookup.ts'
-import * as Message from './message.ts'
-import * as Page from './page.ts'
-import P, * as Pandas from './pandas.ts'
-import * as Show from './show.ts'
-import * as Touch from './touch.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Language from '@redpanda-lineage/ui/language'
+import { Defaults, Emoji, Gui, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import * as Message from '@redpanda-lineage/ui/message'
+import * as Page from '@redpanda-lineage/ui/page'
+import P, * as Pandas from '@redpanda-lineage/ui/pandas'
+import * as Show from '@redpanda-lineage/ui/show'
+import * as Touch from '@redpanda-lineage/ui/touch'
 
 /** 
  * Operations and state related to photo galleries.
@@ -38,9 +38,12 @@ export interface Carousel {
   image: HTMLImageElement,
   /** photo index of the photo being shown */
   index: number,
-  /** information about the animal or zoo this gallery is for */
+  /** 
+   * information about the animal or zoo this gallery is for, along with the
+   * currently displayed photo `info.photo`.
+   */
   info: EnrichedEntity,
-  /** unique string to add to the gallery to make the widget unique */
+  /** random string to guarantee events select the correct carousel by id */
   unique: string
 }
 export class Carousel {
