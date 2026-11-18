@@ -1,3 +1,8 @@
+/** 
+ * Settings for redpandafinder page rendering and search queries, in the
+ * current browser tab, acting as a readable and writable "global environment"
+ * for other modules.
+ */
 type EnvironmentUI = {
   /** 
    * Stores callback to the current page render function for redraws.
@@ -34,20 +39,20 @@ type EnvironmentUI = {
       function: Function | undefined,
       frame_id: string | undefined
     },
+    /** If a query has enough results for multiple pages, display the button */
     display_button: boolean,
     media_count: number,
     results_count: number,
+    /** Paging seed, set to when the page was last loaded */
     seed: number,
+    /** Shown counter, for page refreshes */
     shown_pages: number
   },
+  /** Credit for photos being shown */
   preserve_case: boolean,
+  /** If a URI indicates a specific photo, indicate which one here */
   specific_photo: string | undefined
 }
-/** 
- * Settings for redpandafinder page rendering and search queries, in the
- * current browser tab, acting as a readable and writable "global environment"
- * for other modules.
- */
 const env: EnvironmentUI = {
   current: undefined,
   language: "en",
@@ -59,18 +64,13 @@ const env: EnvironmentUI = {
       function: undefined,
       frame_id: undefined
     },
-    /** If a query has enough results for multiple pages, display the button */
     display_button: false,
     media_count: 10,
     results_count: 15,
-    /** Paging seed, set to when the page was last loaded */
     seed: Date.now(),
-    /** Shown counter, for page refreshes */
     shown_pages: 1
   },
-  /** Credit for photos being shown */
   preserve_case: false,
-  /** If a URI indicates a specific photo, indicate which one here */
   specific_photo: undefined,
 }
 
