@@ -61,7 +61,9 @@ export function redraw(callback?: Function) {
       (callback != links.render)) {
     callback()
   }
-  if ((window.location.hash.length == 0) && (callback == home.render)) {
+  if ((window.location.hash.length == 0) &&
+      (P.db != undefined) &&
+      (callback == home.render)) {
     callback()
   }
 }

@@ -46,7 +46,7 @@ export function redraw(callback) {
   if (window.location.hash.length > 0 && callback != results.render && callback != profile.render && callback != media.render && callback != links.render) {
     callback();
   }
-  if (window.location.hash.length == 0 && callback == home.render) {
+  if (window.location.hash.length == 0 && P.db != undefined && callback == home.render) {
     callback();
   }
 }
