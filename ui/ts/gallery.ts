@@ -223,7 +223,7 @@ export class Carousel {
   photoSwap(photo: HTMLImageElement, desired_index: number) {
     const span_link =
       photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1]
-    const [_, entity_num, _, last_index] = photo.id.split("/")
+    const [_rnt, entity_num, _, last_index] = photo.id.split("/")
     const max_index = this.photoCount()
     let new_index = 1   // Fallback value
     if (desired_index < 1)
