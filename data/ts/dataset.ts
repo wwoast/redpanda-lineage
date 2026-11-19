@@ -1033,7 +1033,7 @@ export class Dataset {
         if (vertex.wild && vertex.wild != "unknown" && location._id != vertex.wild)
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
-        if (vertex.zoo && location._id != `zoo.${vertex.zoo}`) {
+        if (vertex.zoo && location._id != "unknown" && location._id != `zoo.${vertex.zoo}`) {
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
         }
