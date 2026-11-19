@@ -447,7 +447,7 @@ class HomePage {
     Show.resultsMenus.language()
     Show.landingMenus.top.render()
     // Special homepage headers
-    if (P.db != undefined) {
+    if (isEmpty(P.db) == false) {
       const new_content = document.createElement('div')
       new_content.className = "results birthdayPandas"
       new_content.id = "contentFrame"
@@ -459,7 +459,7 @@ class HomePage {
       //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
-      const memorial_ids = ["6"]
+      const memorial_ids = ["26"]
       if (!Options.Data.hideDeadPandas) {
         const departed = Gallery.memorialPhotoCredits(memorial_ids, 3, Message.memorial)
         new_content.appendChild(departed)

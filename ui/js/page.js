@@ -370,7 +370,7 @@ export const footer = new FooterComponent();
     Show.resultsMenus.language();
     Show.landingMenus.top.render();
     // Special homepage headers
-    if (P.db != undefined) {
+    if (isEmpty(P.db) == false) {
       const new_content = document.createElement('div');
       new_content.className = "results birthdayPandas";
       new_content.id = "contentFrame";
@@ -383,7 +383,7 @@ export const footer = new FooterComponent();
       // new_content.appendChild(kingin)
       // Current memorials
       const memorial_ids = [
-        "6"
+        "26"
       ];
       if (!Options.Data.hideDeadPandas) {
         const departed = Gallery.memorialPhotoCredits(memorial_ids, 3, Message.memorial);

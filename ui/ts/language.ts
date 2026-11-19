@@ -712,7 +712,7 @@ export function update() {
     }
   }
   // On the Links page? Redraw it
-  if ((window.location.hash == "#links") && (P.db != undefined))
+  if ((window.location.hash == "#links") && (isEmpty(P.db) == false))
     Page.links.render()
   // Update the placeholder text for a search bar
   const form = document.forms.namedItem('searchForm')
