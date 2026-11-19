@@ -515,6 +515,7 @@ class Tree {
     "subject_author",
     "subject_date",
     "subject_id",
+    "subject_prefix_id",
     "subject_name",
     "subject_panda_id",
     "subject_year",
@@ -527,7 +528,7 @@ class Tree {
     keyword: this.keyword,
     subject: this.subject,
     subject_author: ["subject_author"],
-    subject_filter: ["subject_id", "subject_name"],
+    subject_filter: ["subject_id", "subject_prefix_id", "subject_name"],
     singular: this.keyword.concat(this.subject)
   }
 
@@ -776,7 +777,7 @@ class Tree {
       if (node.element.re == regex.id)
         return "subject_id"
       if (node.element.re == regex.prefixId)
-        return "subject_id"
+        return "subject_prefix_id"
       if (node.element.re == regex.name)
         return "subject_name"
       if (node.element.re == regex.year)
@@ -898,14 +899,16 @@ class Tree {
       }
       //  7) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
       else if ((group.nearby.includes(keyword_node.str)) &&
-               (subject_node.type == "subject_id")) {
+               ((subject_node.type == "subject_id") ||
+                (subject_node.type == "subject_prefix_id"))) {
         container_node.type = "set_nearby_zoo"
         subject_node.type = "subject_zoo_id"
       }
       //  8) (panda)+(year or id): keyword plus an id.
       //     Get the panda matching the id.
       else if ((group.panda.includes(keyword_node.str)) && 
-               ((subject_node.type == "subject_id") || 
+               ((subject_node.type == "subject_id") ||
+                (subject_node.type == "subject_prefix_id") ||
                 (subject_node.type == "subject_year"))) {
         container_node.type = "set_panda_id"
         keyword_node.type = "type"
@@ -914,7 +917,8 @@ class Tree {
       //  9) (zoo)+(year or id): keyword plus an id.
       //     Get the zoo matching the id.
       else if ((group.zoo.indexOf(keyword_node.str) != -1) && 
-               ((subject_node.type == "subject_id") || 
+               ((subject_node.type == "subject_id") ||
+                (subject_node.type == "subject_prefix_id") ||
                 (subject_node.type == "subject_year"))) {
         container_node.type = "set_zoo_id"
         keyword_node.type = "type"

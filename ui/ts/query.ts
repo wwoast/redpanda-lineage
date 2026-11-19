@@ -274,8 +274,12 @@ function single(set_node: ParserNode, singular_node: ParserNode) {
   let search_word = singular_node.str
   if (set_node.type == "set_subject") {
     // subject_id on its own should be a panda
-    if (singular_node.type == "subject_id")
+    if (singular_node.type == "subject_id") {
       search_word = coerceId(search_word)
+      hits = [Pandas.graphId<NodePanda>(search_word)]
+    }
+    // subject_prefix_id on its own should be a panda or zoo or wild
+    if (singular_node.type == "subject_prefix_id")
       hits = [Pandas.graphId<NodePanda>(search_word)]
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
