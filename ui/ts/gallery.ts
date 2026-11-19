@@ -172,8 +172,9 @@ export class Carousel {
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${this.type}/${num(entity_id)}`
       : entity_id
+    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`)
     const current_photo_element =
-      document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
+      document.querySelector<HTMLImageElement>(querySafeClassName)
     if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1)
@@ -185,8 +186,9 @@ export class Carousel {
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${this.type}/${num(entity_id)}`
       : entity_id
+    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`)
     const current_photo_element =
-      document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
+      document.querySelector<HTMLImageElement>(querySafeClassName)
     if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1)
@@ -200,8 +202,9 @@ export class Carousel {
       : entity_id
     if (entity_id.includes("_"))
       entity_id = carousel_id.split("_").pop() as string
+    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`)
     const current_photo_element =
-      document.querySelector<HTMLImageElement>(`.${carousel_id}/photo`)
+      document.querySelector<HTMLImageElement>(querySafeClassName)
     if (!current_photo_element) return
     const current_photo_id = parseInt(current_photo_element.id.split("/")[2])
     // Randomly choose the next id
@@ -252,9 +255,9 @@ export class Carousel {
   /** Replace the photographer's credit info for a panda's photo */
   singlePhotoCredit(info: EnrichedPhoto, last_index: number, current_index: number) {
     const entity_id = info._id
-    const credit_link =
-      document.querySelector<HTMLAnchorElement>(
-        `#${this.type}/${num(entity_id)}/author/${last_index}`)
+    const querySafeId =
+      CSS.escape(`#${this.type}/${num(entity_id)}/author/${last_index}`)
+    const credit_link = document.querySelector<HTMLAnchorElement>(querySafeId)
     if (!credit_link) return
     credit_link.id = `${this.type}/${num(entity_id)}/author/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author))
@@ -268,9 +271,9 @@ export class Carousel {
   /** Replace the photographer's apple points (number of photos on the site) */
   userApplePoints(info: EnrichedPhoto, last_index: number, current_index: number) {
     const entity_id = info._id
-    const apple_link =
-      document.querySelector<HTMLAnchorElement>(
-        `#${this.type}/${num(entity_id)}/counts/${last_index}`)
+    const querySafeId =
+      CSS.escape(`#${this.type}/${num(entity_id)}/counts/${last_index}`)
+    const apple_link = document.querySelector<HTMLAnchorElement>(querySafeId)
     if (!apple_link) return
     apple_link.id = `${this.type}/${num(entity_id)}/counts/${current_index}`
     if (!Object.keys(Defaults.authors).includes(info.author)) {

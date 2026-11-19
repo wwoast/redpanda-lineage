@@ -112,7 +112,8 @@ export class Carousel {
   /** Navigation input event -- load the next photo in the carousel */ photoNext(entity_id = this.info._id) {
     // HACK: from touch handlers, add the unique identifiers
     const carousel_id = !entity_id.includes("_") ? `${this.unique}_${this.type}/${num(entity_id)}` : entity_id;
-    const current_photo_element = document.querySelector(`.${carousel_id}/photo`);
+    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`);
+    const current_photo_element = document.querySelector(querySafeClassName);
     if (!current_photo_element) return;
     const current_photo_id = current_photo_element.id.split("/")[2];
     this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
@@ -120,7 +121,8 @@ export class Carousel {
   /** Navigation input event -- load the previous photo in the carousel */ photoPrevious(entity_id = this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = !entity_id.includes("_") ? `${this.unique}_${this.type}/${num(entity_id)}` : entity_id;
-    const current_photo_element = document.querySelector(`.${carousel_id}/photo`);
+    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`);
+    const current_photo_element = document.querySelector(querySafeClassName);
     if (!current_photo_element) return;
     const current_photo_id = current_photo_element.id.split("/")[2];
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
@@ -129,7 +131,8 @@ export class Carousel {
     // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = !entity_id.includes("_") ? `${this.unique}_${this.type}/${num(entity_id)}` : entity_id;
     if (entity_id.includes("_")) entity_id = carousel_id.split("_").pop();
-    const current_photo_element = document.querySelector(`.${carousel_id}/photo`);
+    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`);
+    const current_photo_element = document.querySelector(querySafeClassName);
     if (!current_photo_element) return;
     const current_photo_id = parseInt(current_photo_element.id.split("/")[2]);
     // Randomly choose the next id
@@ -170,7 +173,8 @@ export class Carousel {
   }
   /** Replace the photographer's credit info for a panda's photo */ singlePhotoCredit(info, last_index, current_index) {
     const entity_id = info._id;
-    const credit_link = document.querySelector(`#${this.type}/${num(entity_id)}/author/${last_index}`);
+    const querySafeId = CSS.escape(`#${this.type}/${num(entity_id)}/author/${last_index}`);
+    const credit_link = document.querySelector(querySafeId);
     if (!credit_link) return;
     credit_link.id = `${this.type}/${num(entity_id)}/author/${current_index}`;
     if (!Object.keys(Defaults.authors).includes(info.author)) credit_link.href = info.reference;
@@ -180,7 +184,8 @@ export class Carousel {
   }
   /** Replace the photographer's apple points (number of photos on the site) */ userApplePoints(info, last_index, current_index) {
     const entity_id = info._id;
-    const apple_link = document.querySelector(`#${this.type}/${num(entity_id)}/counts/${last_index}`);
+    const querySafeId = CSS.escape(`#${this.type}/${num(entity_id)}/counts/${last_index}`);
+    const apple_link = document.querySelector(querySafeId);
     if (!apple_link) return;
     apple_link.id = `${this.type}/${num(entity_id)}/counts/${current_index}`;
     if (!Object.keys(Defaults.authors).includes(info.author)) {
