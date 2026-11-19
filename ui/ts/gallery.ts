@@ -176,8 +176,8 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
-    const current_photo_id = current_photo_element.id.split("/")[2]
-    this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1)
+    const current_photo_index = current_photo_element.id.split("/")[1]
+    this.photoSwap(current_photo_element, parseInt(current_photo_index) + 1)
   }
 
   /** Navigation input event -- load the previous photo in the carousel */
@@ -190,8 +190,8 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
-    const current_photo_id = current_photo_element.id.split("/")[2]
-    this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1)
+    const current_photo_index = current_photo_element.id.split("/")[1]
+    this.photoSwap(current_photo_element, parseInt(current_photo_index) - 1)
   }
 
   /** Navigation input event -- load a random-index photo of this animal */
@@ -206,17 +206,17 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
-    const current_photo_id = parseInt(current_photo_element.id.split("/")[2])
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[1])
     // Randomly choose the next id
     const entity = Pandas.graphId<NodePanda>(`panda.${entity_id}`)
-    let next_id = current_photo_id
+    let next_index = current_photo_index
     if (entity.photos.length > 1)
-      while (next_id == current_photo_id) {
+      while (next_index == current_photo_index) {
         const nextPhoto = Pandas.randomChoice(entity.photos, 1)[0]
         // Natural number index
-        next_id = entity.photos.indexOf(nextPhoto) + 1
+        next_index = entity.photos.indexOf(nextPhoto) + 1
       }
-    this.photoSwap(current_photo_element, next_id)
+    this.photoSwap(current_photo_element, next_index)
   }
 
   /** Switch the currently displayed photo to the next one in the list */

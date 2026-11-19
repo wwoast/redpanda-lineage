@@ -115,8 +115,8 @@ export class Carousel {
     const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
     const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
-    const current_photo_id = current_photo_element.id.split("/")[2];
-    this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
+    const current_photo_index = current_photo_element.id.split("/")[1];
+    this.photoSwap(current_photo_element, parseInt(current_photo_index) + 1);
   }
   /** Navigation input event -- load the previous photo in the carousel */ photoPrevious(entity_id = this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
@@ -124,8 +124,8 @@ export class Carousel {
     const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
     const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
-    const current_photo_id = current_photo_element.id.split("/")[2];
-    this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
+    const current_photo_index = current_photo_element.id.split("/")[1];
+    this.photoSwap(current_photo_element, parseInt(current_photo_index) - 1);
   }
   /** Navigation input event -- load a random-index photo of this animal */ photoRandom(entity_id = this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
@@ -134,16 +134,16 @@ export class Carousel {
     const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
     const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
-    const current_photo_id = parseInt(current_photo_element.id.split("/")[2]);
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[1]);
     // Randomly choose the next id
     const entity = Pandas.graphId(`panda.${entity_id}`);
-    let next_id = current_photo_id;
-    if (entity.photos.length > 1) while(next_id == current_photo_id){
+    let next_index = current_photo_index;
+    if (entity.photos.length > 1) while(next_index == current_photo_index){
       const nextPhoto = Pandas.randomChoice(entity.photos, 1)[0];
       // Natural number index
-      next_id = entity.photos.indexOf(nextPhoto) + 1;
+      next_index = entity.photos.indexOf(nextPhoto) + 1;
     }
-    this.photoSwap(current_photo_element, next_id);
+    this.photoSwap(current_photo_element, next_index);
   }
   /** Switch the currently displayed photo to the next one in the list */ photoSwap(photo, desired_index) {
     const span_link = photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1];
