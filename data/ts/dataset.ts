@@ -354,16 +354,15 @@ export class Dataset {
    * Checks the id value of a `location.X` field. Must be a positive integer
    * for a panda, negative integer for a zoo, `wild.X` for a wild location, or
    * `unknown` if we don't know.
-   * 
-   * TODO PREFIX-ID-VALIDATE
    */
-  assertValidPandaOrZooId = (path: string, key: string, value: string) => {
+  assertValidPandaWildOrZooId = (path: string, key: string, value: string) => {
     if (value == "unknown")
       return   // We don't know what we don't know
-    if (value.indexOf("wild") == 0)
-      return   // Born in a wild place
-    if (isNaN(parseInt(value)))
-      throw new Error(`[build] ERR: ${path}: ${key}: non-numeric id: ${value}`)
+    const [prefix, idNumber] = value.split(".")
+    if (!["panda", "wild", "zoo"].includes(prefix))
+      throw new Error(`[build] ERR: ${path}: ${key}: unrecognized id prefix: ${value}`)
+    if (isNaN(parseInt(idNumber)))
+      throw new Error(`[build] ERR: ${path}: ${key}: non-numeric suffix: ${value}`)
   }
 
   /** 
@@ -1017,7 +1016,7 @@ export class Dataset {
     const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
     locationKeys.forEach(locationKey => {
       const [zoo, dateString] = vertex[locationKey].split(", ")
-      this.assertValidPandaOrZooId(vertex.path, locationKey, zoo)
+      this.assertValidPandaWildOrZooId(vertex.path, locationKey, zoo)
       this.assertDateExistsAndIsValid(vertex.path, locationKey, dateString)
       const location = {
         _id: zoo,
