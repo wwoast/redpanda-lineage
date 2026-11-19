@@ -19,7 +19,7 @@ import * as Parse from '@redpanda-lineage/ui/parse';
  * different kind of string (wihch requires no processing).
  */
 function coerceId(potential_id) {
-  if (!isNaN(parseInt(potential_id))) return parseInt(potential_id) > -1 ? `zoo.${potential_id}` : `panda.${potential_id}`;
+  if (!isNaN(parseInt(potential_id))) return parseInt(potential_id) < 0 ? `zoo.${potential_id}` : `panda.${potential_id}`;
   // Fail through, just pass the potential_id
   return potential_id;
 }

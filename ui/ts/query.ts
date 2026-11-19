@@ -24,7 +24,7 @@ export function clear() {
  */
 function coerceId(potential_id: string) {
   if (!isNaN(parseInt(potential_id)))
-    return (parseInt(potential_id) > -1)
+    return (parseInt(potential_id) < 0)
       ? `zoo.${potential_id}`
       : `panda.${potential_id}`
   // Fail through, just pass the potential_id
