@@ -293,8 +293,10 @@ export const group = {
 
 /** Namespace collecting types of strings we parse with regular expressions */
 const regex = {
-  /** Any number, positive or negative */
+  /** Any ID number, positive (pandas) or negative (zoos) */
   id: '(?:^[\-0-9][0-9]*)',
+  /** Any ID number for a known single entity */
+  prefixId: '(?:^(panda|wild|zoo)\.[0-9]+)',
   /** Any sequence of strings separated by spaces */
   name: '(?:^[^\n]+)',
   /** Any year matching 19XX or 2XXX */
@@ -563,6 +565,7 @@ class Tree {
     }
     // Regex matches
     const r_id = Regex(regex.id)
+    const r_prefix_id = Regex(regex.prefixId)
     const r_name = Regex(regex.name)
     const r_year = Regex(regex.year)
     // Date regexes
@@ -607,6 +610,7 @@ class Tree {
     // Start of the parsing logic, a list of prioritized forms of search queries
     const START = Prio(
       r_id,
+      r_prefix_id,
       r_date_yyyy_mm_dd,    // Search by exact dates
       r_date_aa_bb_yyyy,
       r_date_aa_bb_cc,      // Search by partial dates
@@ -770,6 +774,8 @@ class Tree {
     }
     if (node.element.hasOwnProperty("re")) {
       if (node.element.re == regex.id)
+        return "subject_id"
+      if (node.element.re == regex.prefixId)
         return "subject_id"
       if (node.element.re == regex.name)
         return "subject_name"

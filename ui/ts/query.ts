@@ -18,6 +18,19 @@ export function clear() {
   Env.specific_photo = undefined
 }
 
+/** 
+ * Coerce input prefixId to a panda/wild/zoo. May be a numeric string or a
+ * different kind of string (wihch requires no processing).
+ */
+function coerceId(potential_id: string) {
+  if (!isNaN(parseInt(potential_id)))
+    return (parseInt(potential_id) > -1)
+      ? `zoo.${potential_id}`
+      : `panda.${potential_id}`
+  // Fail through, just pass the potential_id
+  return potential_id
+}
+
 /**
  * Resolve the query string into a results object containing `hits` as well
  * as the original `query` and the top-level description of how the
@@ -114,7 +127,7 @@ function group_one_set(set_node: ParserNode) {
   let tag = undefined
   if (set_node.type == "set_tag_intersection_subject") {
     const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0]
-    search_word = subject_node.str
+    search_word = coerceId(subject_node.str)
     Env.output_mode = "photos"
     Env.paging.display_button = true
     const tags = keyword_nodes
@@ -142,7 +155,7 @@ function group_one_set(set_node: ParserNode) {
   }
   if (set_node.type == "set_only_subjects") {
     Env.output_mode = "group"
-    const ids = set_node.str.split("\n")
+    const ids = set_node.str.split("\n").map(id => coerceId(id))
     hits = Pandas.searchPandaMediaIntersect(ids)
     if (hits.length > 0) {
       Env.paging.display_button = true
@@ -163,7 +176,7 @@ function pair(set_node: ParserNode) {
   const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0]
   if (keyword_node == undefined || subject_node == undefined)
     throw new Error("TODO: pair set processing error")
-  const search_word = subject_node.str   // Only set when a subject is given
+  let search_word = subject_node.str   // Only set when a subject is given
   let tag: string | undefined
   if (set_node.type == "set_keyword_date") {
     if (Parse.group.born.includes(keyword_node.str)) {
@@ -178,18 +191,23 @@ function pair(set_node: ParserNode) {
     // Subject may be ambiguous (number as either id or year) but is clarified by
     // the additional keyword that is provided
     if (Parse.group.born_at.includes(keyword_node.str)) {
+      search_word = coerceId(search_word)
       hits = Pandas.searchPandaZooBornRecords(search_word, true)
     }
     if (Parse.group.died_at.includes(keyword_node.str)) {
+      search_word = coerceId(search_word)
       hits = Pandas.searchPandaZooDied(search_word, 0)
     }
     if (Parse.group.lived_at.includes(keyword_node.str)) {
+      search_word = coerceId(search_word)
       hits = Pandas.searchPandaZooBornLived(search_word, true)
     }
     if (Parse.group.zoo.includes(keyword_node.str)) {
+      search_word = coerceId(search_word)
       hits = Pandas.searchZooName(search_word)
     }
     if (Parse.group.panda.includes(keyword_node.str)) {
+      search_word = coerceId(search_word)
       hits = Pandas.searchPandaName(search_word)
     }
     if (Parse.group.dead.includes(keyword_node.str)) {
@@ -197,9 +215,11 @@ function pair(set_node: ParserNode) {
     }
   }
   if (set_node.type == "set_panda_id") {
+    search_word = coerceId(search_word)
     hits = [Pandas.graphId<NodePanda>(search_word)]
   }
   if (set_node.type == "set_zoo_id") {
+    search_word = coerceId(search_word)
     hits = [Pandas.graphId<NodeZoo>(search_word)]
   }
   if (set_node.type == "set_credit_photos") {
@@ -215,6 +235,7 @@ function pair(set_node: ParserNode) {
     Env.output_mode = "photos"
     Env.paging.display_button = true
     tag = Parse.searchTag(keyword_node.str)
+    search_word = coerceId(search_word)
     const animals = Pandas.searchPandaMedia(search_word)
     hits = Pandas.searchPhotoTags(animals, [tag], "photos", "none")
   }
@@ -233,7 +254,7 @@ function pair(set_node: ParserNode) {
   }
   if (set_node.type == "set_only_subjects") {
     Env.output_mode = "group"
-    const ids = set_node.str.split("\n")
+    const ids = set_node.str.split("\n").map(id => coerceId(id))
     hits = Pandas.searchPandaMediaIntersect(ids)
     if (hits.length > 0) {
       Env.paging.display_button = true
@@ -250,10 +271,11 @@ function pair(set_node: ParserNode) {
 // The parse tree found only a single term for searching
 function single(set_node: ParserNode, singular_node: ParserNode) {
   let hits = []
-  const search_word = singular_node.str
+  let search_word = singular_node.str
   if (set_node.type == "set_subject") {
     // subject_id on its own should be a panda
     if (singular_node.type == "subject_id")
+      search_word = coerceId(search_word)
       hits = [Pandas.graphId<NodePanda>(search_word)]
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
