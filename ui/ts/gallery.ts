@@ -208,7 +208,7 @@ export class Carousel {
     if (!current_photo_element) return
     const current_photo_index = parseInt(current_photo_element.id.split("/")[3])
     // Randomly choose the next id
-    const entity = Pandas.graphId<NodePanda>(`panda.${entity_id}`)
+    const entity = Pandas.graphId<PhotoGraphNode>(entity_id)
     let next_index = current_photo_index
     if (entity.photos.length > 1)
       while (next_index == current_photo_index) {
