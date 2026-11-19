@@ -147,7 +147,7 @@ export class Carousel {
   }
   /** Switch the currently displayed photo to the next one in the list */ photoSwap(photo, desired_index) {
     const span_link = photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1];
-    const [carousel_id, _, last_index] = photo.id.split("/");
+    const [_, entity_num, _, last_index] = photo.id.split("/");
     const max_index = this.photoCount();
     let new_index = 1 // Fallback value
     ;
@@ -160,12 +160,12 @@ export class Carousel {
     if (max_index > 1) span_link.childNodes[0].innerText = `${this.index}`;
     else return; // No carousel, no need to actually swap photos
     // Grab the photo
-    const entity_id = carousel_id.split("_").pop();
+    const entity_id = `${this.type}.${entity_num}`;
     const entity = this.photoEntity(entity_id);
     // Array index starts from zero
     const newChoice = entity.photos[new_index - 1];
     // Update displayed photo
-    this.displayPhoto(photo, newChoice.url, carousel_id, this.index);
+    this.displayPhoto(photo, newChoice.url, entity_id, this.index);
     // Update animal credit info and the photographer credit's apple points
     const info = Pandas.profilePhoto(entity, new_index);
     this.singlePhotoCredit(info, parseInt(last_index), this.index);
