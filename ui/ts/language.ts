@@ -1,3 +1,4 @@
+import { isEmpty } from '@redpanda-lineage/data/export'
 import Env from '@redpanda-lineage/ui/environment'
 import { Defaults, Flags, Gui, LangNames, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
 import { Text } from '@redpanda-lineage/ui/message'
@@ -717,7 +718,7 @@ export function update() {
   const form = document.forms.namedItem('searchForm')
   const searchInput = document.querySelector<HTMLInputElement>('#searchInput')
   if (form != null && searchInput != null) {
-    if (P.db == undefined)
+    if (isEmpty(P.db))
       searchInput.placeholder = Gui.loading[Env.language]
     else
       searchInput.placeholder = "➤ " + Gui.search[Env.language]

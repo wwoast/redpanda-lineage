@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/data/export';
+import { isEmpty, num } from '@redpanda-lineage/data/export';
 import Env from '@redpanda-lineage/ui/environment';
 import * as Gallery from '@redpanda-lineage/ui/gallery';
 import * as Geo from '@redpanda-lineage/ui/geolocate';
@@ -31,22 +31,22 @@ import * as Show from '@redpanda-lineage/ui/show';
  */
 export function redraw(callback) {
   if (callback == undefined) return;
-  if (window.location.hash.length > 0 && P.db != undefined && callback == results.render) {
+  if (window.location.hash.length > 0 && isEmpty(P.db) == false && callback == results.render) {
     callback();
   }
   // Redisplay profile info in the correct language, but only if the Pandas
   // content has already been loaded.
-  if (window.location.hash.length > 0 && P.db != undefined && callback == profile.render) {
+  if (window.location.hash.length > 0 && isEmpty(P.db) == false && callback == profile.render) {
     callback();
   }
-  if (window.location.hash.length > 0 && P.db != undefined && callback == media.render) {
+  if (window.location.hash.length > 0 && isEmpty(P.db) == false && callback == media.render) {
     callback();
   }
   // For non-panda-results page, don't worry if the database is there or not
   if (window.location.hash.length > 0 && callback != results.render && callback != profile.render && callback != media.render && callback != links.render) {
     callback();
   }
-  if (window.location.hash.length == 0 && P.db != undefined && callback == home.render) {
+  if (window.location.hash.length == 0 && isEmpty(P.db) == false && callback == home.render) {
     callback();
   }
 }

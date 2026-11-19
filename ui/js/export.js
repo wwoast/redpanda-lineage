@@ -13,6 +13,9 @@
  */ export function distinct(list) {
   return list.filter((value, index, self)=>self.indexOf(value) === index);
 }
+export function isEmpty(obj) {
+  return Object.keys(obj).length === 0;
+}
 /** Take a prefixed ID like `panda.100` and return 100 */ export function num(prefixId) {
   const suffix = prefixId.includes(".") ? prefixId.split(".").pop() ?? "" : prefixId;
   const numericId = parseInt(suffix);

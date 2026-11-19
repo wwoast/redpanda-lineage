@@ -1,4 +1,4 @@
-import { num } from '@redpanda-lineage/data/export'
+import { isEmpty, num } from '@redpanda-lineage/data/export'
 import Env from '@redpanda-lineage/ui/environment'
 import * as Gallery from '@redpanda-lineage/ui/gallery'
 import * as Geo from '@redpanda-lineage/ui/geolocate'
@@ -37,19 +37,19 @@ export function redraw(callback?: Function) {
   if (callback == undefined)
     return
   if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == results.render)) {
     callback()
   }
   // Redisplay profile info in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == profile.render)) {
     callback()
   }
   if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == media.render)) {
     callback()
   }
@@ -62,7 +62,7 @@ export function redraw(callback?: Function) {
     callback()
   }
   if ((window.location.hash.length == 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == home.render)) {
     callback()
   }

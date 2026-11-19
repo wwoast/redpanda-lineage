@@ -19,6 +19,10 @@ export function distinct<T>(list: T[]) {
     (value: T, index: number, self: T[]) => self.indexOf(value) === index)
 }
 
+export function isEmpty(obj: Object) {
+  return Object.keys(obj).length === 0
+}
+
 /** Take a prefixed ID like `panda.100` and return 100 */
 export function num(prefixId: string) {
   const suffix = (prefixId.includes("."))
