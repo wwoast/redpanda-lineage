@@ -456,7 +456,7 @@ class HomePage {
       // new_content.appendChild(halloween);
       // Kin Gin special
       // const kingin =
-      //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
+      //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["panda.22", "panda.17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
       const memorial_ids = ["panda.26"]
@@ -522,18 +522,18 @@ class HomePage {
   special_memorial() {
     const choice = Env.paging.seed
     if (choice % 7 == 0) {
-      const laila = Gallery.memorialPhotoCredits(["60"], 3, Message.missing_you)
+      const laila = Gallery.memorialPhotoCredits(["panda.60"], 3, Message.missing_you)
       return laila
     } else if (choice % 5 == 0) {
-      const kokin = Gallery.memorialPhotoCredits(["23"], 3, Message.missing_you)
+      const kokin = Gallery.memorialPhotoCredits(["panda.23"], 3, Message.missing_you)
       return kokin
     } else if (choice % 3 == 0) {
-      const hokuto = Gallery.memorialPhotoCredits(["58"], 3, Message.missing_you)
+      const hokuto = Gallery.memorialPhotoCredits(["panda.58"], 3, Message.missing_you)
       return hokuto
     } else {
       // Group memorial for Kin and Gin, temporarily Hokuto
       const kingin =
-        Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
+        Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["panda.22", "panda.17"], 3)
       return kingin
     }
   }
