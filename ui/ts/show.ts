@@ -2448,7 +2448,7 @@ export const resultsPage = {
       details.appendChild(location)
     }
     // Wild animals, don't do context things for
-    if (info.wild != undefined) {
+    if (info.wild != undefined && info.wild._id != Defaults.wild._id) {
       const wild = document.createElement('p')
       wild.innerText =
         Flags[info.wild["flag"]] + " " + info.wild.name[Env.language]
