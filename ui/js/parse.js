@@ -3,6 +3,18 @@ import { distinct } from '@redpanda-lineage/data/export';
 import { capitalNames } from '@redpanda-lineage/ui/language';
 import { Defaults, Polyglots, Tags } from '@redpanda-lineage/ui/lookup';
 import P, { values } from '@redpanda-lineage/ui/pandas';
+/**  Coerce input number-string to a panda/wild/zoo prefix-ID where needed. */ function coerceId(potential_id, type) {
+  if (isNaN(parseInt(potential_id))) return potential_id;
+  switch(type){
+    case "panda":
+      return `panda.${potential_id}`;
+    case "zoo":
+      return `zoo.${potential_id}`;
+    default:
+      // If positive number, its a panda
+      return parseInt(potential_id) < 0 ? `zoo.${potential_id}` : `panda.${potential_id}`;
+  }
+}
 /**
  * Given a search tag, find the equivalent term for that tag that is
  * standardized on in the panda files, and return results for that tag.
@@ -596,7 +608,8 @@ export const group = {
   ])
 };
 /** Namespace collecting types of strings we parse with regular expressions */ const regex = {
-  /** Any number, positive or negative */ id: '(?:^[\-0-9][0-9]*)',
+  /** Any ID number, positive (pandas) or negative (zoos) */ id: '(?:^[\-0-9][0-9]*)',
+  /** Any ID number for a known single entity */ prefixId: '(?:^(panda|wild|zoo)\.[0-9]+)',
   /** Any sequence of strings separated by spaces */ name: '(?:^[^\n]+)',
   /** Any year matching 19XX or 2XXX */ year: '(?:19[0-9]{2}|2[0-9]{3})',
   date: {
@@ -760,6 +773,7 @@ class Tree {
     "subject_author",
     "subject_date",
     "subject_id",
+    "subject_prefix_id",
     "subject_name",
     "subject_panda_id",
     "subject_year",
@@ -779,6 +793,7 @@ class Tree {
     ],
     subject_filter: [
       "subject_id",
+      "subject_prefix_id",
       "subject_name"
     ],
     singular: this.keyword.concat(this.subject)
@@ -826,6 +841,7 @@ class Tree {
     }
     // Regex matches
     const r_id = Regex(regex.id);
+    const r_prefix_id = Regex(regex.prefixId);
     const r_name = Regex(regex.name);
     const r_year = Regex(regex.year);
     // Date regexes
@@ -858,7 +874,7 @@ class Tree {
     // Binary keywords
     // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries
-    const START = Prio(r_id, r_date_yyyy_mm_dd, r_date_aa_bb_yyyy, r_date_aa_bb_cc, r_date_mm_yyyy, r_date_aa_bb, c_k_zeroary, c_k_group_tags, c_k_group_tags_name, c_k_group_tags_id, c_k_group_ids, c_k_unary_credit_author_and_name, c_k_unary_credit_author_and_id, c_k_unary_year, c_k_unary_number, c_k_unary_date_yyyy_mm_dd, c_k_unary_date_aa_bb_yyyy, c_k_unary_date_aa_bb_cc, c_k_unary_date_mm_yyyy, c_k_unary_date_aa_bb, c_k_unary_name, // TODO: don't have parse tree techniques to detect these
+    const START = Prio(r_id, r_prefix_id, r_date_yyyy_mm_dd, r_date_aa_bb_yyyy, r_date_aa_bb_cc, r_date_mm_yyyy, r_date_aa_bb, c_k_zeroary, c_k_group_tags, c_k_group_tags_name, c_k_group_tags_id, c_k_group_ids, c_k_unary_credit_author_and_name, c_k_unary_credit_author_and_id, c_k_unary_year, c_k_unary_number, c_k_unary_date_yyyy_mm_dd, c_k_unary_date_aa_bb_yyyy, c_k_unary_date_aa_bb_cc, c_k_unary_date_mm_yyyy, c_k_unary_date_aa_bb, c_k_unary_name, // TODO: don't have parse tree techniques to detect these
     // Sequence('(', THIS, ')'),   // Bracketed expressions
     // Sequence(THIS, c_k_binary_logical, THIS),
     r_name);
@@ -893,6 +909,7 @@ class Tree {
   }
   classify_subject_only(subject_node) {
     subject_node.parent.type = "set_subject";
+    subject_node.str = coerceId(subject_node.str);
   }
   classify_plural(plural_nodes) {
     // Get the container nodes, and classify those values
@@ -978,7 +995,7 @@ class Tree {
       ;
     }
     if (node.element.hasOwnProperty("re")) {
-      if (node.element.re == regex.id) return "subject_id";
+      if (node.element.re == regex.id || node.element.re == regex.prefixId) return "subject_id";
       if (node.element.re == regex.name) return "subject_name";
       if (node.element.re == regex.year) return "subject_year";
       if (Object.values(regex.date).includes(node.element.re)) return "subject_date";
@@ -1052,12 +1069,14 @@ class Tree {
       } else if (group.baby.includes(keyword_node.str) && subject_node.type == "subject_name") {
         container_node.type = "set_baby_subject";
         keyword_node.type = "tag";
+        subject_node.str = coerceId(subject_node.str, "panda");
       } else if (group.credit.includes(keyword_node.str)) {
         container_node.type = "set_credit_photos";
         subject_node.type = "subject_author";
       } else if (group.family.includes(keyword_node.str) && subject_node.type == "subject_year") {
         container_node.type = "set_family_list";
         subject_node.type = "subject_panda_id";
+        subject_node.str = coerceId(subject_node.str, "panda");
       } else if (group.takes_subject_year.includes(keyword_node.str) && subject_node.type == "subject_id") {
         container_node.type = "set_keyword_year";
         subject_node.type = "subject_year";
@@ -1067,14 +1086,17 @@ class Tree {
       } else if (group.nearby.includes(keyword_node.str) && subject_node.type == "subject_id") {
         container_node.type = "set_nearby_zoo";
         subject_node.type = "subject_zoo_id";
+        subject_node.str = coerceId(subject_node.str, "zoo");
       } else if (group.panda.includes(keyword_node.str) && (subject_node.type == "subject_id" || subject_node.type == "subject_year")) {
         container_node.type = "set_panda_id";
         keyword_node.type = "type";
         subject_node.type = "subject_panda_id";
+        subject_node.str = coerceId(subject_node.str, "panda");
       } else if (group.zoo.indexOf(keyword_node.str) != -1 && (subject_node.type == "subject_id" || subject_node.type == "subject_year")) {
         container_node.type = "set_zoo_id";
         keyword_node.type = "type";
         subject_node.type = "subject_zoo_id";
+        subject_node.str = coerceId(subject_node.str, "zoo");
       }
     }
   }

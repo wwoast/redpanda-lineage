@@ -14,15 +14,6 @@ import * as Parse from '@redpanda-lineage/ui/parse';
   Env.output_mode = "entities";
   Env.specific_photo = undefined;
 }
-/** 
- * Coerce input prefixId to a panda/wild/zoo. May be a numeric string or a
- * different kind of string (wihch requires no processing).
- */
-function coerceId(potential_id) {
-  if (!isNaN(parseInt(potential_id))) return parseInt(potential_id) < 0 ? `zoo.${potential_id}` : `panda.${potential_id}`;
-  // Fail through, just pass the potential_id
-  return potential_id;
-}
 /**
  * Resolve the query string into a results object containing `hits` as well
  * as the original `query` and the top-level description of how the
@@ -114,13 +105,12 @@ function filter_set(set_node) {
   let tag = undefined;
   if (set_node.type == "set_tag_intersection_subject") {
     const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
-    search_word = coerceId(subject_node.str);
     Env.output_mode = "photos";
     Env.paging.display_button = true;
     const tags = keyword_nodes.map((keyword_node)=>Parse.searchTag(keyword_node.str)) // All keywords
     ;
     tag = tags.join(", "); // For query output
-    hits = Pandas.searchPhotoTags(Pandas.searchPandaMedia(search_word), tags, "intersect", "none");
+    hits = Pandas.searchPhotoTags(Pandas.searchPandaMedia(subject_node.str), tags, "intersect", "none");
   }
   if (set_node.type == "set_tag_intersection") {
     Env.output_mode = "photos";
@@ -132,7 +122,7 @@ function filter_set(set_node) {
   }
   if (set_node.type == "set_only_subjects") {
     Env.output_mode = "group";
-    const ids = set_node.str.split("\n").map((id)=>coerceId(id));
+    const ids = set_node.str.split("\n");
     hits = Pandas.searchPandaMediaIntersect(ids);
     if (hits.length > 0) {
       Env.paging.display_button = true;
@@ -152,7 +142,7 @@ function pair(set_node) {
   const keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0];
   const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
   if (keyword_node == undefined || subject_node == undefined) throw new Error("TODO: pair set processing error");
-  let search_word = subject_node.str // Only set when a subject is given
+  const search_word = subject_node.str // Only set when a subject is given
   ;
   let tag;
   if (set_node.type == "set_keyword_date") {
@@ -168,23 +158,18 @@ function pair(set_node) {
     // Subject may be ambiguous (number as either id or year) but is clarified by
     // the additional keyword that is provided
     if (Parse.group.born_at.includes(keyword_node.str)) {
-      search_word = coerceId(search_word);
       hits = Pandas.searchPandaZooBornRecords(search_word, true);
     }
     if (Parse.group.died_at.includes(keyword_node.str)) {
-      search_word = coerceId(search_word);
       hits = Pandas.searchPandaZooDied(search_word, 0);
     }
     if (Parse.group.lived_at.includes(keyword_node.str)) {
-      search_word = coerceId(search_word);
       hits = Pandas.searchPandaZooBornLived(search_word, true);
     }
     if (Parse.group.zoo.includes(keyword_node.str)) {
-      search_word = coerceId(search_word);
       hits = Pandas.searchZooName(search_word);
     }
     if (Parse.group.panda.includes(keyword_node.str)) {
-      search_word = coerceId(search_word);
       hits = Pandas.searchPandaName(search_word);
     }
     if (Parse.group.dead.includes(keyword_node.str)) {
@@ -192,13 +177,11 @@ function pair(set_node) {
     }
   }
   if (set_node.type == "set_panda_id") {
-    search_word = coerceId(search_word);
     hits = [
       Pandas.graphId(search_word)
     ];
   }
   if (set_node.type == "set_zoo_id") {
-    search_word = coerceId(search_word);
     hits = [
       Pandas.graphId(search_word)
     ];
@@ -215,7 +198,6 @@ function pair(set_node) {
     Env.output_mode = "photos";
     Env.paging.display_button = true;
     tag = Parse.searchTag(keyword_node.str);
-    search_word = coerceId(search_word);
     const animals = Pandas.searchPandaMedia(search_word);
     hits = Pandas.searchPhotoTags(animals, [
       tag
@@ -231,7 +213,7 @@ function pair(set_node) {
   }
   if (set_node.type == "set_only_subjects") {
     Env.output_mode = "group";
-    const ids = set_node.str.split("\n").map((id)=>coerceId(id));
+    const ids = set_node.str.split("\n");
     hits = Pandas.searchPandaMediaIntersect(ids);
     if (hits.length > 0) {
       Env.paging.display_button = true;
@@ -248,19 +230,14 @@ function pair(set_node) {
 // The parse tree found only a single term for searching
 function single(set_node, singular_node) {
   let hits = [];
-  let search_word = singular_node.str;
+  const search_word = singular_node.str;
   if (set_node.type == "set_subject") {
     // subject_id on its own should be a panda
     if (singular_node.type == "subject_id") {
-      search_word = coerceId(search_word);
       hits = [
         Pandas.graphId(search_word)
       ];
     }
-    // subject_prefix_id on its own should be a panda or zoo or wild
-    if (singular_node.type == "subject_prefix_id") hits = [
-      Pandas.graphId(search_word)
-    ];
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
       const panda_hits = Pandas.searchPandaName(search_word);

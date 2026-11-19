@@ -4,6 +4,23 @@ import { capitalNames } from '@redpanda-lineage/ui/language'
 import { Defaults, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
 import P, { values } from '@redpanda-lineage/ui/pandas'
 
+/**  Coerce input number-string to a panda/wild/zoo prefix-ID where needed. */
+function coerceId(potential_id: string, type?: "panda" | "zoo") {
+  if (isNaN(parseInt(potential_id)))
+    return potential_id
+  switch (type) {
+    case "panda":
+      return `panda.${potential_id}`
+    case "zoo":
+      return `zoo.${potential_id}`
+    default:
+      // If positive number, its a panda
+      return (parseInt(potential_id) < 0)
+        ? `zoo.${potential_id}`
+        : `panda.${potential_id}`
+  }
+}
+
 /**
  * Given a search tag, find the equivalent term for that tag that is
  * standardized on in the panda files, and return results for that tag.
@@ -671,6 +688,7 @@ class Tree {
 
   classify_subject_only(subject_node: ParserNode) {
     subject_node.parent.type = "set_subject"
+    subject_node.str = coerceId(subject_node.str)
   }
 
   classify_plural(plural_nodes: ParserNode[]) {
@@ -774,10 +792,8 @@ class Tree {
         return "keyword"   // All other query logic in result gathering
     }
     if (node.element.hasOwnProperty("re")) {
-      if (node.element.re == regex.id)
+      if (node.element.re == regex.id || node.element.re == regex.prefixId)
         return "subject_id"
-      if (node.element.re == regex.prefixId)
-        return "subject_prefix_id"
       if (node.element.re == regex.name)
         return "subject_name"
       if (node.element.re == regex.year)
@@ -872,6 +888,7 @@ class Tree {
                (subject_node.type == "subject_name")) {
         container_node.type = "set_baby_subject"
         keyword_node.type = "tag"
+        subject_node.str = coerceId(subject_node.str, "panda")
       }
       //  3) (credit)+(any subject): subject is an author name. Author search
       else if (group.credit.includes(keyword_node.str)) {
@@ -884,6 +901,7 @@ class Tree {
                (subject_node.type == "subject_year")) {
         container_node.type = "set_family_list"
         subject_node.type = "subject_panda_id"
+        subject_node.str = coerceId(subject_node.str, "panda")
       }
       //  5) (group.year_subject)+(year or id): keyword plus a year
       else if ((group.takes_subject_year.includes(keyword_node.str)) &&
@@ -899,30 +917,30 @@ class Tree {
       }
       //  7) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
       else if ((group.nearby.includes(keyword_node.str)) &&
-               ((subject_node.type == "subject_id") ||
-                (subject_node.type == "subject_prefix_id"))) {
+               (subject_node.type == "subject_id")) {
         container_node.type = "set_nearby_zoo"
         subject_node.type = "subject_zoo_id"
+        subject_node.str = coerceId(subject_node.str, "zoo")
       }
       //  8) (panda)+(year or id): keyword plus an id.
       //     Get the panda matching the id.
       else if ((group.panda.includes(keyword_node.str)) && 
                ((subject_node.type == "subject_id") ||
-                (subject_node.type == "subject_prefix_id") ||
                 (subject_node.type == "subject_year"))) {
         container_node.type = "set_panda_id"
         keyword_node.type = "type"
         subject_node.type = "subject_panda_id"
+        subject_node.str = coerceId(subject_node.str, "panda")
       }
       //  9) (zoo)+(year or id): keyword plus an id.
       //     Get the zoo matching the id.
       else if ((group.zoo.indexOf(keyword_node.str) != -1) && 
                ((subject_node.type == "subject_id") ||
-                (subject_node.type == "subject_prefix_id") ||
                 (subject_node.type == "subject_year"))) {
         container_node.type = "set_zoo_id"
         keyword_node.type = "type"
         subject_node.type = "subject_zoo_id"
+        subject_node.str = coerceId(subject_node.str, "zoo")
       }
     }
   }
