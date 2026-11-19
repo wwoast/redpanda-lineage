@@ -115,8 +115,8 @@ export class Carousel {
     const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
     const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
-    const current_photo_index = current_photo_element.id.split("/")[1];
-    this.photoSwap(current_photo_element, parseInt(current_photo_index) + 1);
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[3]);
+    this.photoSwap(current_photo_element, current_photo_index + 1);
   }
   /** Navigation input event -- load the previous photo in the carousel */ photoPrevious(entity_id = this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
@@ -124,8 +124,8 @@ export class Carousel {
     const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
     const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
-    const current_photo_index = current_photo_element.id.split("/")[1];
-    this.photoSwap(current_photo_element, parseInt(current_photo_index) - 1);
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[3]);
+    this.photoSwap(current_photo_element, current_photo_index - 1);
   }
   /** Navigation input event -- load a random-index photo of this animal */ photoRandom(entity_id = this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
@@ -134,7 +134,7 @@ export class Carousel {
     const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
     const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
-    const current_photo_index = parseInt(current_photo_element.id.split("/")[1]);
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[3]);
     // Randomly choose the next id
     const entity = Pandas.graphId(`panda.${entity_id}`);
     let next_index = current_photo_index;

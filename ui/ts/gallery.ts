@@ -176,8 +176,8 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
-    const current_photo_index = current_photo_element.id.split("/")[1]
-    this.photoSwap(current_photo_element, parseInt(current_photo_index) + 1)
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[3])
+    this.photoSwap(current_photo_element, current_photo_index + 1)
   }
 
   /** Navigation input event -- load the previous photo in the carousel */
@@ -190,8 +190,8 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
-    const current_photo_index = current_photo_element.id.split("/")[1]
-    this.photoSwap(current_photo_element, parseInt(current_photo_index) - 1)
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[3])
+    this.photoSwap(current_photo_element, current_photo_index - 1)
   }
 
   /** Navigation input event -- load a random-index photo of this animal */
@@ -206,7 +206,7 @@ export class Carousel {
     const current_photo_element =
       document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
-    const current_photo_index = parseInt(current_photo_element.id.split("/")[1])
+    const current_photo_index = parseInt(current_photo_element.id.split("/")[3])
     // Randomly choose the next id
     const entity = Pandas.graphId<NodePanda>(`panda.${entity_id}`)
     let next_index = current_photo_index
