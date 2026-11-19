@@ -172,9 +172,9 @@ export class Carousel {
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${this.type}/${num(entity_id)}`
       : entity_id
-    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`)
+    const querySafeClassName = CSS.escape(`${carousel_id}/photo`)
     const current_photo_element =
-      document.querySelector<HTMLImageElement>(querySafeClassName)
+      document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1)
@@ -186,9 +186,9 @@ export class Carousel {
     const carousel_id = (!entity_id.includes("_"))
       ? `${this.unique}_${this.type}/${num(entity_id)}`
       : entity_id
-    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`)
+    const querySafeClassName = CSS.escape(`${carousel_id}/photo`)
     const current_photo_element =
-      document.querySelector<HTMLImageElement>(querySafeClassName)
+      document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
     const current_photo_id = current_photo_element.id.split("/")[2]
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1)
@@ -202,9 +202,9 @@ export class Carousel {
       : entity_id
     if (entity_id.includes("_"))
       entity_id = carousel_id.split("_").pop() as string
-    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`)
+    const querySafeClassName = CSS.escape(`${carousel_id}/photo`)
     const current_photo_element =
-      document.querySelector<HTMLImageElement>(querySafeClassName)
+      document.querySelector<HTMLImageElement>(`.${querySafeClassName}`)
     if (!current_photo_element) return
     const current_photo_id = parseInt(current_photo_element.id.split("/")[2])
     // Randomly choose the next id

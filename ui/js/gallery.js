@@ -112,8 +112,8 @@ export class Carousel {
   /** Navigation input event -- load the next photo in the carousel */ photoNext(entity_id = this.info._id) {
     // HACK: from touch handlers, add the unique identifiers
     const carousel_id = !entity_id.includes("_") ? `${this.unique}_${this.type}/${num(entity_id)}` : entity_id;
-    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`);
-    const current_photo_element = document.querySelector(querySafeClassName);
+    const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
+    const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
     const current_photo_id = current_photo_element.id.split("/")[2];
     this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
@@ -121,8 +121,8 @@ export class Carousel {
   /** Navigation input event -- load the previous photo in the carousel */ photoPrevious(entity_id = this.info._id) {
     // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = !entity_id.includes("_") ? `${this.unique}_${this.type}/${num(entity_id)}` : entity_id;
-    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`);
-    const current_photo_element = document.querySelector(querySafeClassName);
+    const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
+    const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
     const current_photo_id = current_photo_element.id.split("/")[2];
     this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
@@ -131,8 +131,8 @@ export class Carousel {
     // HACK: from touch handlers, it lacks the unique carousel id
     const carousel_id = !entity_id.includes("_") ? `${this.unique}_${this.type}/${num(entity_id)}` : entity_id;
     if (entity_id.includes("_")) entity_id = carousel_id.split("_").pop();
-    const querySafeClassName = CSS.escape(`.${carousel_id}/photo`);
-    const current_photo_element = document.querySelector(querySafeClassName);
+    const querySafeClassName = CSS.escape(`${carousel_id}/photo`);
+    const current_photo_element = document.querySelector(`.${querySafeClassName}`);
     if (!current_photo_element) return;
     const current_photo_id = parseInt(current_photo_element.id.split("/")[2]);
     // Randomly choose the next id
