@@ -459,7 +459,7 @@ class HomePage {
       //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
-      const memorial_ids = ["26"]
+      const memorial_ids = ["panda.26"]
       if (!Options.Data.hideDeadPandas) {
         const departed = Gallery.memorialPhotoCredits(memorial_ids, 3, Message.memorial)
         new_content.appendChild(departed)

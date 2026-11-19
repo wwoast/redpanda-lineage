@@ -383,7 +383,7 @@ export const footer = new FooterComponent();
       // new_content.appendChild(kingin)
       // Current memorials
       const memorial_ids = [
-        "26"
+        "panda.26"
       ];
       if (!Options.Data.hideDeadPandas) {
         const departed = Gallery.memorialPhotoCredits(memorial_ids, 3, Message.memorial);
