@@ -1,7 +1,7 @@
 [panda]
-_id: 160
+_id: panda.160
 birthday: 2011/7/18
-birthplace: 6
+birthplace: zoo.6
 children: 159, 162, 163, 244, 245
 commitdate: 2018/7/1
 en.name: Kurumi
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 253
-location.1: 6, 2011/7/18
-location.2: 45, 2012/12/21
+location.1: zoo.6, 2011/7/18
+location.2: zoo.45, 2012/12/21
 photo.1: ig://BT8WhiFAY5D/m
 photo.1.author: clam_chowder725
 photo.1.commitdate: 2018/7/26

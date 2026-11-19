@@ -1,7 +1,7 @@
 [panda]
-_id: 82
+_id: panda.82
 birthday: 2005/6/23
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2018/6/23
 death: 2021/2/16

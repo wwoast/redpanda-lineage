@@ -1,7 +1,7 @@
 [panda]
-_id: 1058
+_id: panda.1058
 birthday: 2019/6/10
-birthplace: 219
+birthplace: zoo.219
 children: 1312, 1313
 commitdate: 2019/11/23
 en.name: Himiko

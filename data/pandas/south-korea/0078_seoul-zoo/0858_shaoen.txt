@@ -1,7 +1,7 @@
 [panda]
-_id: 858
+_id: panda.858
 birthday: 2002/6/20
-birthplace: 34
+birthplace: zoo.34
 children: none
 commitdate: 2019/5/22
 death: 2008/12/31
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: シャオエン
 language.order: ja, en
 litter: 353
-location.1: 34, 2002/6/20
-location.2: 78, 2008/9/23
+location.1: zoo.34, 2002/6/20
+location.2: zoo.78, 2008/9/23
 species: 2
 studbook.id: 0258
 zoo: 78

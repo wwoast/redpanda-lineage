@@ -1,7 +1,7 @@
 [panda]
-_id: 697
+_id: panda.697
 birthday: 2013/6/1
-birthplace: 133
+birthplace: zoo.133
 children: none
 commitdate: 2019/3/25
 death: 2025/7/10
@@ -16,8 +16,8 @@ ja.oldnames: コダリ
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 133, 2013/6/1
-location.2: 180, 2014/3/24
+location.1: zoo.133, 2013/6/1
+location.2: zoo.180, 2014/3/24
 photo.1: cwdc://VgIhLtPADQG.jpg
 photo.1.author: sanfranciscozoo
 photo.1.commitdate: 2019/9/18

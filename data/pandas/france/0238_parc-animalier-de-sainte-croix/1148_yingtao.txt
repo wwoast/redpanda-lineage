@@ -1,7 +1,7 @@
 [panda]
-_id: 1148
+_id: panda.1148
 birthday: 2014/6/13
-birthplace: 239
+birthplace: zoo.239
 children: unknown
 commitdate: 2020/3/27
 en.name: Ying Tao
@@ -16,8 +16,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: fr, zh, en, ja
 litter: 1149
-location.1: 239, 2014/6/13
-location.2: 238, 2015/3/6
+location.1: zoo.239, 2014/6/13
+location.2: zoo.238, 2015/3/6
 photo.1: ig://6ahkjzDwfF/m
 photo.1.author: parcsaintecroix
 photo.1.commitdate: 2020/3/31

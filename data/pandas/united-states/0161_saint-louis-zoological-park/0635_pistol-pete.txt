@@ -1,7 +1,7 @@
 [panda]
-_id: 635
+_id: panda.635
 birthday: 2011/6/25
-birthplace: 146
+birthplace: zoo.146
 children: none
 commitdate: 2019/3/19
 en.name: Pistol Pete
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 634, 636
-location.1: 146, 2011/6/25
-location.2: 109, 2012/4/24
-location.3: 161, 2014/3/27
+location.1: zoo.146, 2011/6/25
+location.2: zoo.109, 2012/4/24
+location.3: zoo.161, 2014/3/27
 photo.1: cwdc://W075uX3ADQA.jpg
 photo.1.author: rossifari
 photo.1.commitdate: 2019/10/8

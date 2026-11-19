@@ -1,12 +1,11 @@
-import * as Gallery from './gallery.ts'
-import * as Page from './page.ts'
-import * as Show from './show.ts'
+import * as Gallery from '@redpanda-lineage/ui/gallery'
+import * as Page from '@redpanda-lineage/ui/page'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /** 
  * TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
  * Heavily adapted from code on PADILICIOUS.COM and MACOSXAUTOMATION.COM
  */
-
 interface TouchStats {
   /** Current X-coordinate of the finger */
   curX: number,
@@ -38,9 +37,9 @@ interface TouchStats {
   xTurn: number
 }
 
-const MinLength = 64   // the shortest distance the user may swipe
+/** The shortest distance the user may swipe */
+const MinLength = 64
 
-// The 4 Touch Event Handlers
 function start(event: TouchEvent, touch: TouchStats) {
   // get the total number of fingers touching the screen
   touch.fingerCount = event.touches.length
@@ -94,7 +93,7 @@ function move(event: TouchEvent, touch: TouchStats) {
 function end(
   event: TouchEvent,
   touch: TouchStats,
-  gallery,
+  gallery: Gallery.Carousel,
   elementId: string,
   callback: Function
 ) {
@@ -166,16 +165,17 @@ function determine(touch: TouchStats) {
 }
 
 /** Callback to change the photo based on where the touch event happened */
-export function processPhoto(touch: TouchStats, gallery, elementId: string) {
+export function processPhoto(touch: TouchStats, gallery: Gallery.Carousel, elementId: string) {
   const animalId = elementId.split('/')[0]
   const navigatorId = `${animalId}/navigator`
   const navigator = document.getElementById(navigatorId)
-  const span = navigator?.childNodes[0]
+  const span = navigator?.childNodes[0] as HTMLSpanElement
   if (((touch.diffHorz > 2*MinLength) && (touch.turnCount > 0)) &&
       ((touch.swipeDirection == 'right') || (touch.swipeDirection == 'left'))) {
     // TODO ES6
     // At least one direction turn, and a swipe twice as long as a normal
     // left-right directional swipe
+    // TODO ES6: allow down swipe through the images withoug disabling scroll
     gallery.photoRandom(animalId)
     Gallery.condenseDogEar(span)
     Show.fade(navigator)
@@ -198,7 +198,7 @@ export function processPhoto(touch: TouchStats, gallery, elementId: string) {
  * carousels, and defines a callback function for when the touch ends.
  */
 export function addSwipeHandler(
-  gallery,
+  gallery: Gallery.Carousel,
   inputElement: Element,
   callback: Function
 ) {
@@ -220,13 +220,13 @@ export function addSwipeHandler(
     xTurn: 0
   }
   inputElement.addEventListener('touchstart',
-    (event: Event) => start(event, touch),
+    (event: Event) => start(event as TouchEvent, touch),
     true)
   inputElement.addEventListener('touchend', 
-    (event: Event) => end(event, touch, gallery, inputElement.id, callback),
+    (event: Event) => end(event as TouchEvent, touch, gallery, inputElement.id, callback),
     true)
   inputElement.addEventListener('touchmove',
-    (event: Event) => move(event, touch),
+    (event: Event) => move(event as TouchEvent, touch),
     true)
   inputElement.addEventListener('touchcancel',
     () => cancel(touch),

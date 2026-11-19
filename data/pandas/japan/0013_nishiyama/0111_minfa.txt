@@ -1,7 +1,7 @@
 [panda]
-_id: 111
+_id: panda.111
 birthday: 2006/6/23
-birthplace: 1
+birthplace: zoo.1
 children: 26, 109, 124, 79, 114, 120, 166, 167
 commitdate: 2018/6/25
 death: 2026/5/21
@@ -13,10 +13,10 @@ ja.name: ミンファ
 ja.othernames: ミーンファ
 language.order: ja, en
 litter: 265
-location.1: 1, 2006/6/23
-location.2: 13, 2008/3/20
-location.3: 36, 2014/3/10
-location.4: 13, 2019/2/20
+location.1: zoo.1, 2006/6/23
+location.2: zoo.13, 2008/3/20
+location.3: zoo.36, 2014/3/10
+location.4: zoo.13, 2019/2/20
 photo.1: cwdc://VfIESOJADQL.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2026/1/27

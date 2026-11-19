@@ -1,7 +1,7 @@
 [panda]
-_id: 1372
+_id: panda.1372
 birthday: 2022/7/7
-birthplace: 117
+birthplace: zoo.117
 children: none
 commitdate: 2022/7/14
 en.name: Raj
@@ -15,8 +15,8 @@ ja.oldnames: サンデー
 ja.othernames: none
 language.order: en, ja
 litter: 1373
-location.1: 117, 2022/7/7
-location.2: 237, 2023/4/12
+location.1: zoo.117, 2022/7/7
+location.2: zoo.237, 2023/4/12
 photo.1: ig://Chxz6XVg9ky/m
 photo.1.author: trevorzoomillbrook
 photo.1.commitdate: 2022/9/11

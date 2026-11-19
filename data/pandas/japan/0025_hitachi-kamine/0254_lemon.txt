@@ -1,7 +1,7 @@
 [panda]
-_id: 254
+_id: panda.254
 birthday: 2014/7/13
-birthplace: 19
+birthplace: zoo.19
 children: none
 commitdate: 2018/7/28
 en.name: Lemon
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 41
-location.1: 19, 2014/7/13
-location.2: 58, 2018/9/28
-location.3: 25, 2025/2/17
+location.1: zoo.19, 2014/7/13
+location.2: zoo.58, 2018/9/28
+location.3: zoo.25, 2025/2/17
 photo.1: cwdc://WArftj2ADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/10/6

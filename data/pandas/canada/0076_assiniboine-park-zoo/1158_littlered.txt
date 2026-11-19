@@ -1,7 +1,7 @@
 [panda]
-_id: 1158
+_id: panda.1158
 birthday: 2020/7/8
-birthplace: 76
+birthplace: zoo.76
 children: none
 commitdate: 2020/8/6
 death: 2020/8/23

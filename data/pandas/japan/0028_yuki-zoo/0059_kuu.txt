@@ -1,7 +1,7 @@
 [panda]
-_id: 59
+_id: panda.59
 birthday: 2008/7/3
-birthplace: 16
+birthplace: zoo.16
 children: none
 commitdate: 2018/6/22
 death: 2021/2/20
@@ -14,8 +14,8 @@ ja.nicknames: クウ
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 16, 2008/7/3
-location.2: 28, 2009/4/8
+location.1: zoo.16, 2008/7/3
+location.2: zoo.28, 2009/4/8
 photo.1: ig://BFaMRmtKoGv/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/2

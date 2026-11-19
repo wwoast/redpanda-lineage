@@ -1,7 +1,7 @@
 [panda]
-_id: 349
+_id: panda.349
 birthday: 2001/6/19
-birthplace: 31
+birthplace: zoo.31
 children: none
 commitdate: 2018/10/9
 death: 2023/9/22
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: リンリン
 language.order: ja, en
 litter: 615
-location.1: 31, 2001/6/19
-location.2: 69, 2005/2/23
+location.1: zoo.31, 2001/6/19
+location.2: zoo.69, 2005/2/23
 photo.1: ig://BdjDGpgDoGO/m
 photo.1.author: _rifa_p
 photo.1.commitdate: 2018/10/9

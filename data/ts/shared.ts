@@ -1,5 +1,4 @@
-import { IniMap } from '@std/ini/ini-map'
-import type { Vertex } from './dagoba.ts'
+import { IniMap } from '@dependencies/std/ini/ini-map'
 
 export const firstCommit = "832f3469e61901ebf9a38a6c2da1f427cf64e188"
 
@@ -249,8 +248,6 @@ function reviveZooNode(key: string, value: unknown, section?: string): any {
   if (section != "zoo")
     return value   // Shouldn't happen
   switch (true) {
-    case (key == "_id"):
-      return (parseInt(value as string) * -1).toString()
     case (key == "language.order"):
       return (value as string).split(", ") as Language[]
     case (key.endsWith("tags")):
@@ -258,55 +255,6 @@ function reviveZooNode(key: string, value: unknown, section?: string): any {
     default:
       return value
   }
-}
-
-/** Reducer functions for type narrowing of vertex lists */
-
-/** Take the input vertices and keep just links */
-export function toLinks(accumulator: NodeLinks[], vertex: Vertex) {
-  if (vertex.type == 'link')
-    accumulator.push(vertex as NodeLinks)
-  return accumulator
-}
-
-/** Take the input vertices and keep just media */
-export function toMedia(accumulator: NodeMedia[], vertex: Vertex) {
-  if (vertex.type == 'media')
-    accumulator.push(vertex as NodeMedia)
-  return accumulator
-}
-
-/** Take the input vertices and keep just pandas */
-export function toPandas(accumulator: NodePanda[], vertex: Vertex) {
-  if (vertex.type == 'panda')
-    accumulator.push(vertex as NodePanda)
-  return accumulator
-}
-
-export function toPhotoEntities(accumulator: PhotoGraphNode[], vertex: Vertex) {
-  if (vertex.type == 'media')
-    accumulator.push(vertex as NodeMedia)
-  else if (vertex.type == 'panda')
-    accumulator.push(vertex as NodePanda)
-  else if (vertex.type == 'wild')
-    accumulator.push(vertex as NodeWild)
-  else if (vertex.type == 'zoo')
-    accumulator.push(vertex as NodeZoo)
-  return accumulator
-}
-
-/** Take the input vertices and keep just wild locations */
-export function toWilds(accumulator: NodeWild[], vertex: Vertex) {
-  if (vertex.type == 'wild')
-    accumulator.push(vertex as NodeWild)
-  return accumulator
-}
-
-/** Take the input vertices and keep just media */
-export function toZoos(accumulator: NodeZoo[], vertex: Vertex) {
-  if (vertex.type == 'zoo')
-    accumulator.push(vertex as NodeZoo)
-  return accumulator
 }
 
 /** Filter functions */
@@ -329,9 +277,11 @@ export function safeFilename(file: string) {
 
 /** Sort functions */
 
-/** Sort numeric IDs from lowest to highest */
-export function byIdAscending(v1: Record<string, any>, v2: Record<string, any>) {
-  return v1._id - v2._id
+/** Sort numeric IDs from lowest to highest. All ids are `prefix.X` strings */
+export function byIdAscending(v1: PhotoGraphNode, v2: PhotoGraphNode) {
+  const n1 = v1._id.split(".")!.pop() as string
+  const n2 = v2._id.split(".")!.pop() as string
+  return parseInt(n1) - parseInt(n2)
 }
 
 /** Sort lists of numbers highest to lowest */
@@ -378,7 +328,7 @@ export function byFieldName(v1: string, v2: string) {
     const n1 = parseInt(p1)
     const n2 = parseInt(p2)
     // Put "photo.1" before "photo.1.author"
-    if (n1 == n2)
+    if ((n1 == n2) && (v1s.length != v2s.length))
       return valueSort(v1s.length, v2s.length)
     // Put "photo.1" before "photo.2"
     else if (n1 != n2) 

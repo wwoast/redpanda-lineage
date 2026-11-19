@@ -1,7 +1,7 @@
 [panda]
-_id: 1268
+_id: panda.1268
 birthday: 2019/6/9
-birthplace: 277
+birthplace: zoo.277
 children: none
 commitdate: 2021/4/10
 en.name: Shifumi
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 277, 2019/6/9
-location.2: 215, 2021/8/1
+location.1: zoo.277, 2019/6/9
+location.2: zoo.215, 2021/8/1
 photo.1: ig://By5KLZSoBoE/m
 photo.1.author: parcanimalierdauvergne
 photo.1.commitdate: 2021/8/10

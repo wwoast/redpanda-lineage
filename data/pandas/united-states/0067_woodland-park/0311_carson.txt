@@ -1,7 +1,7 @@
 [panda]
-_id: 311
+_id: panda.311
 birthday: 2014/7/1
-birthplace: 80
+birthplace: zoo.80
 children: none
 commitdate: 2018/8/19
 en.name: Carson
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 527
-location.1: 80, 2014/7/1
-location.2: 67, 2016/2/17
+location.1: zoo.80, 2014/7/1
+location.2: zoo.67, 2016/2/17
 photo.1: ig://BJ-qFejBrDx/m
 photo.1.author: carsontheredpanda
 photo.1.commitdate: 2020/9/27

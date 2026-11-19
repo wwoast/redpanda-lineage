@@ -1,7 +1,7 @@
 [panda]
-_id: 430
+_id: panda.430
 birthday: 2013/7/1
-birthplace: 94
+birthplace: zoo.94
 children: 427, 428, 429
 commitdate: 2018/11/23
 en.name: Xia
@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 431, 445
-location.1: 94, 2013/7/1
-location.2: 76, 2014/10/15
-location.3: 94, 2017/11/21
-location.4: 86, 2021/10/1
+location.1: zoo.94, 2013/7/1
+location.2: zoo.76, 2014/10/15
+location.3: zoo.94, 2017/11/21
+location.4: zoo.86, 2021/10/1
 photo.1: ig://BlRbslyluSO/m
 photo.1.author: myrveilleuse.carpediem
 photo.1.commitdate: 2020/2/26

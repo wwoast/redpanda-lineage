@@ -1,7 +1,7 @@
 [panda]
-_id: 561
+_id: panda.561
 birthday: 2006/6/28
-birthplace: 52
+birthplace: zoo.52
 children: none
 commitdate: 2019/3/10
 death: 2012/4/5
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: もみじ
 language.order: ja, en
 litter: none
-location.1: 52, 2006/6/28
-location.2: 40, 2010/3/24
+location.1: zoo.52, 2006/6/28
+location.2: zoo.40, 2010/3/24
 species: 2
 studbook.id: 0666
 zoo: 40

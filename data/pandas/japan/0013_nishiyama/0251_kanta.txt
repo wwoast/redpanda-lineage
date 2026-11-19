@@ -1,7 +1,7 @@
 [panda]
-_id: 251
+_id: panda.251
 birthday: 2018/7/12
-birthplace: 26
+birthplace: zoo.26
 children: 1469, 1470
 commitdate: 2018/7/28
 en.name: Kanta
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 250
-location.1: 26, 2018/7/12
-location.2: 13, 2022/11/10
+location.1: zoo.26, 2018/7/12
+location.2: zoo.13, 2022/11/10
 photo.1: ig://BpMVPshF1Ml/m
 photo.1.author: daniele.tokyo
 photo.1.commitdate: 2018/11/15

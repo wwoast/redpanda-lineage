@@ -1,7 +1,7 @@
 [panda]
-_id: 291
+_id: panda.291
 birthday: 2006/6/20
-birthplace: 10
+birthplace: zoo.10
 children: 292, 289
 commitdate: 2018/8/3
 death: 2026/5/6
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 54, 487
-location.1: 10, 2006/6/20
-location.2: 64, 2007/7/18
+location.1: zoo.10, 2006/6/20
+location.2: zoo.64, 2007/7/18
 photo.1: cwdc://VxiuhkKADQA.jpg
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/1

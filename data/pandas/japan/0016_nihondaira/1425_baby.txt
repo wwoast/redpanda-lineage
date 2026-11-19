@@ -1,7 +1,7 @@
 [panda]
-_id: 1425
+_id: panda.1425
 birthday: 2023/7/9
-birthplace: 16
+birthplace: zoo.16
 children: none
 commitdate: 2023/8/22
 death: 2023/7/25

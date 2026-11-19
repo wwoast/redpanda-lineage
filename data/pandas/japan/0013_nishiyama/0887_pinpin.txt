@@ -1,7 +1,7 @@
 [panda]
-_id: 887
+_id: panda.887
 birthday: 1989/6/28
-birthplace: 6
+birthplace: zoo.6
 children: 891, 822, 885, 892, 893, 839, 840, 894
 commitdate: 2019/6/23
 death: 2008/1/5
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 6, 1989/6/28
-location.2: 13, 1990/11/29
+location.1: zoo.6, 1989/6/28
+location.2: zoo.13, 1990/11/29
 species: 2
 studbook.id: 8924
 zoo: 13

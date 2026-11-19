@@ -1,7 +1,7 @@
 [panda]
-_id: 864
+_id: panda.864
 birthday: 2012/6/6
-birthplace: 146
+birthplace: zoo.146
 children: 865
 commitdate: 2019/6/10
 death: 2017/9/28
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 146, 2012/6/6
-location.2: 177, 2013/4/24
+location.1: zoo.146, 2012/6/6
+location.2: zoo.177, 2013/4/24
 photo.1: ig://fQuiAComYc/m
 photo.1.author: mdmartinez77
 photo.1.commitdate: 2020/2/22

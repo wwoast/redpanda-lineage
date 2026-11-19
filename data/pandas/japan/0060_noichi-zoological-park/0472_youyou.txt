@@ -1,7 +1,7 @@
 [panda]
-_id: 472
+_id: panda.472
 birthday: 1997/6/20
-birthplace: 17
+birthplace: zoo.17
 children: 337, 218, 90, 280
 commitdate: 2018/12/4
 death: 2005/3/31
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ユウユウ
 language.order: ja, en
 litter: 50, 549
-location.1: 17, 1997/6/20
-location.2: 60, 1998/12/4
+location.1: zoo.17, 1997/6/20
+location.2: zoo.60, 1998/12/4
 species: 2
 studbook.id: 9792
 zoo: 60

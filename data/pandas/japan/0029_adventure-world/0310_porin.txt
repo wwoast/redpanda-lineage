@@ -1,7 +1,7 @@
 [panda]
-_id: 310
+_id: panda.310
 birthday: 2002/6/15
-birthplace: 12
+birthplace: zoo.12
 children: 129, 30, 20, 77, 313, 321, 314, 322
 commitdate: 2018/8/19
 death: 2016/8/24
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 382
-location.1: 12, 2002/6/15
-location.2: 9, 2003/11/21
-location.3: 29, 2009/12/21
+location.1: zoo.12, 2002/6/15
+location.2: zoo.9, 2003/11/21
+location.3: zoo.29, 2009/12/21
 photo.1: https://www.codaworry.com/images/rpf/porin-1-adventureworld.jpg
 photo.1.author: shin
 photo.1.commitdate: 2019/4/9

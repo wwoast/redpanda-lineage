@@ -1,7 +1,7 @@
 [panda]
-_id: 401
+_id: panda.401
 birthday: 2010/6/14
-birthplace: 76
+birthplace: zoo.76
 children: 394, 493, 469, 470
 commitdate: 2018/11/22
 en.name: Beilei
@@ -15,11 +15,11 @@ ja.oldnames: ロビー
 ja.othernames: none
 language.order: en, ja
 litter: 895
-location.1: 76, 2010/6/14
-location.2: 43, 2011/6/21
-location.3: 84, 2011/7/25
-location.4: 65, 2016/5/26
-location.5: 112, 2019/1/1
+location.1: zoo.76, 2010/6/14
+location.2: zoo.43, 2011/6/21
+location.3: zoo.84, 2011/7/25
+location.4: zoo.65, 2016/5/26
+location.5: zoo.112, 2019/1/1
 photo.1: ig://7YCs5blXPN/m
 photo.1.author: prospectparkzoo
 photo.1.commitdate: 2018/12/12

@@ -1,9 +1,10 @@
-import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
-
 /** 
  * Types in redpandafinder, organized in order from minor property types, to
- * larger principal objects that employ those property types.
+ * larger objects that employ those property types. Since RPF types derive from
+ * Dagoba Vertex and Edge types, the import chain is simplest if we keep
+ * global types inside the `@redpanda-data` subproject.
  */
+import type { DanglingEdge, Vertex } from '@redpanda-lineage/data/dagoba'
 
 /** 
  * As soon as types are imported in your ambient types file, it just becomes a
@@ -11,7 +12,7 @@ import type { DanglingEdge, Vertex } from './ts/dagoba.ts'
  * the rest of this file work similarly to an ambient-types file.
  */
 declare global {
-  /** The `./contributions.conf` object after having been IniMap'ed */
+  /** The `./contributions.conf` object after having been `IniMap`'ed */
   type ExternalConfig = Record<string, Record<string, string>>
 
   enum SupportedLanguages {
@@ -117,8 +118,8 @@ declare global {
    * this information is a "best guess".
    */
   type PandaLocation = {
-    /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
-    _id: number | string,
+    /** A Zoo string ID or Wild string ID, or possibly `unknown` */
+    _id: string,
     /** 
      * The arrival date for a panda at a particular zoo. For zoos, this is a
      * exact YYYY/MM/DD date, or sometimes, a best guess to the 1st of the month.
@@ -145,7 +146,7 @@ declare global {
      * Set of ISO-639-1 codes representing a language, which redpandafinder
      * will render as a set of flags after the link itself.
      */
-    "language.order": Set<string>,
+    "language.order"?: Language[],
     /** Destination of the link when clicked */
     url: string
   }
@@ -183,7 +184,7 @@ declare global {
    * `links/<category>.txt` files with a `[links]` header.
    */
   interface NodeLinks extends Vertex {
-    /** Fixed string id prefixed with the word `links` */
+    /** Non-incrementing string id prefixed with `links.` */
     _id: string,
     /** The emoji that replaces list bullets on the rendered Links pages */
     icon: string,
@@ -199,8 +200,9 @@ declare global {
    */
   interface NodeMedia extends Vertex {
     /** 
-     * Fixed string id starting with `media.` and containing the zoo ID where
-     * the photo was taken, and two panda names (in English)
+     * Fixed `media.X.<name1>-<name2>` identifier where `X` is the zoo ID the
+     * photo was taken at, and <name1>-<name2> are the succession of panda
+     * names in the photo, in English alphabetical order.
      */
     _id: string,
     /**
@@ -238,14 +240,20 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodePanda extends Vertex {
-    /** Numeric fixed identifier that we increment each time a panda is added */
-    _id: number,
+    /** Fixed `panda.X` prefix-ID that increments when adding new pandas */
+    _id: string,
     /** YYYY/MM/DD birthday string */
     birthday: string,
-    /** A Zoo numeric ID or Wild string ID, or possibly `unknown` */
-    birthplace?: number | string,
-    /** Numeric string ids for any children of this animal */
-    children: string[],
+    /** 
+     * A zoo or wild prefix-ID. If wild-born, can be the location the animal
+     * was discovered, or preferably, just "unknown"
+     */
+    birthplace?: string,
+    /** 
+     * Numeric IDs for any children of this animal, a "ID and percentage"
+     * string indicating probable parentage, or "none"
+     */
+    children: number[] | string[],
     /**
      * YYYY/MM/DD representing the day this panda was added to redpandafinder,
      * for the sake of showing newly-added pandas on the front page.
@@ -257,12 +265,11 @@ declare global {
     gender?: Gender,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    "language.order": Set<Language>,
-    /** Animals born in the same litter as this one, by numeric string ID */
-    litter: string[],
+    "language.order": Language[],
+    /** Animals born in the same litter as this one, by numeric ID, or "none" */
+    litter: number[] | ["none"],
     /** List from oldest to newest, of zoo locations the panda has lived at */
     locations: PandaLocation[], 
     /** 
@@ -278,12 +285,19 @@ declare global {
      */
     nicknames: StringListByLanguage,
     /**
-     * Previous names, or commonly used names for this panda. These _are_
+     * Previous names used names for this panda. These are not searchable in the
+     * redpandafinder search form.
+     */
+    oldnames: StringListByLanguage,
+    /**
+     * Commonly used other names or name spellings for this panda. These _are_
      * searchable in the redpandafinder search form.
      */
     othernames: StringListByLanguage,
     /** A panda likely has some set of photos and attributions */
     photos: Photo[],
+    /** A numeric value representing the species name for this red panda */
+    species: Species,
     /** 
      * Official zoo records often track animals by a studbook identifier. This
      * isn't necessarily surfaced in redpandafinder, but the recordkeeping tracks
@@ -299,13 +313,13 @@ declare global {
     /** Freetext describing possible accuracy errors for this animal */
     uncertainty?: string,
     /** 
-     * The wild identifier (a `wild.\d+` string ID) that indicates the region a
-     * wild red panda was witnessed at. Any given panda indicates its current
-     * location either with a single `wild` property or a single `zoo` property.
+     * The wild numeric ID that indicates the region a wild red panda was
+     * witnessed at. Any given panda indicates its current location either
+     * with a single `wild` property or a single `zoo` property.
      */
-    wild?: string
+    wild?: number | "unknown"
     /** The zoo numeric ID where the animal currently lives */
-    zoo?: number
+    zoo?: number | "unknown"
   }
 
   /**
@@ -324,7 +338,7 @@ declare global {
    */
   interface NodePhoto extends Vertex {
     /** Fixed identifier for either a media, panda, wild, or zoo node */
-    _id: number | string,
+    _id: string,
     /** Optional Instagram locator this photo represents */
     _ig_locator?: string,
     /** The single photo contributed by this fragment */
@@ -351,13 +365,15 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodeWild extends Vertex {
-    /** 
-     * Numeric fixed identifier that we increment for each place a wild panda
-     * has been documented by science.
-     */
+    /** Fixed `wild.X` identifier that increments when adding new locations */
     _id: string,
     /** A stub address to match what similar zoo addresses strings look like */
     address: StringPerLanguage
+    /**
+     * Language order for how to prioritize displaying names when the current
+     * display language doesn't have information for this animal.
+     */
+    "language.order": Language[],
     /** A stub location to match what similar zoo location strings look like */
     location: StringPerLanguage,
     /** Each wild sighting location has a single primary name per language */
@@ -386,8 +402,8 @@ declare global {
    * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
    */
   interface NodeZoo extends Vertex {
-    /** Numeric fixed identifier that we increment each time a zoo is added */
-    _id: number,
+    /** Fixed `zoo.X` identifier that increments when adding new zoos */
+    _id: string,
     /** Street address string, represented in our supported languages */
     address: StringPerLanguage,
     /** When a zoo closes permanently, we record the date in YYYY/MM/DD format */
@@ -404,10 +420,9 @@ declare global {
     flag: string,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    "language.order": Set<Language>,
+    "language.order": Language[],
     /**
      * The latitude of the zoo, for determining whether a zoo is close to the
      * redpandafinder user with browser LocationServices.
@@ -481,8 +496,8 @@ declare global {
     classes?: string[],
     /** Optional icon appearing next to the photo author caption */
     credit_icon?: string,
-    /** The numeric or string ID this photo represents */
-    _id: number | string,
+    /** The GraphNode ID this photo represents */
+    _id: string,
     /** Natural number index for displaying in carousels */
     index: number,
     /** Optional icon appearing next to the animal name caption */
@@ -506,8 +521,8 @@ declare global {
    * Dagobah graph.
    */
   interface EnrichedPanda {
-    /** The numeric string ID for the `EnrichedPanda` animal */
-    _id: number | string,
+    /** The `panda.X` string ID for the `EnrichedPanda` animal */
+    _id: string,
     /** 
      * String describing the panda's age. Birthdates are not more granular than
      * one day of accuracy, so the calculations track number of days. Prior to
@@ -520,8 +535,8 @@ declare global {
      * _unknown_ default value.
      */
     birthday: string,
-    /** Resolve the birthplace numeric string ID to a full `NodeZoo` */
-    birthplace: NodeZoo,
+    /** Resolve the birthplace numeric string ID to a full location node */
+    birthplace: NodeZoo | NodeWild,
     /** Reoslve the children numeric string IDs to an `NodePanda` list */
     children: NodePanda[],
     /**
@@ -536,10 +551,9 @@ declare global {
     gender: string,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this animal. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this animal.
      */
-    language_order: Set<Language>,
+    language_order: Language[],
     /** Resolve the litter mates' numeric IDs to a `NodePanda` list */
     litter: NodePanda[],
     /** Resolve potential mother's numeric IDs to a full `NodePanda` list */
@@ -593,8 +607,8 @@ declare global {
    * graph.
    */
   interface EnrichedZoo {
-    /** The numeric string ID for the `EnrichedZoo` zoo */
-    _id: number | string,
+    /** The `zoo.X` string ID for the `EnrichedZoo` zoo */
+    _id: string,
     /** The address of this zoo, translated into the current display language. */
     address: string,
     /** The number of animals currently living at this zoo */
@@ -608,10 +622,9 @@ declare global {
     closed: string,
     /**
      * Language order for how to prioritize displaying names when the current
-     * display language doesn't have information for this zoo. The insertion
-     * order into the set reflects the order of the `language.order` values
+     * display language doesn't have information for this zoo.
      */
-    language_order: Set<Language>,
+    language_order: Language[],
     /** The city / state / province of this zoo, in the display language */
     location: string,
     /** URL representing this zoo in Google Maps */
@@ -651,7 +664,8 @@ declare global {
 
   /** For rendering the Location boxes on the Profile page */
   interface ProfileLocation {
-    zoo: number | string,
+    /** The `zoo.X` or `wild.X` prefix-ID */
+    id: string,
     start_date: string,
     end_date: string | undefined
   }

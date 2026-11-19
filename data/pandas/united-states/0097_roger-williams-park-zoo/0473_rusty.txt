@@ -1,7 +1,7 @@
 [panda]
-_id: 473
+_id: panda.473
 birthday: 2005/5/16
-birthplace: 76
+birthplace: zoo.76
 children: 413, 414, 415
 commitdate: 2018/12/4
 death: 2023/6/9
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 590
-location.1: 76, 2005/5/16
-location.2: 83, 2006/10/31
-location.3: 97, 2014/12/11
+location.1: zoo.76, 2005/5/16
+location.2: zoo.83, 2006/10/31
+location.3: zoo.97, 2014/12/11
 photo.1: ig://B6Lfd6NHnkL/m
 photo.1.author: rwpzoo
 photo.1.commitdate: 2020/1/18

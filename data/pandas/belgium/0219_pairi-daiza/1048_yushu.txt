@@ -1,7 +1,7 @@
 [panda]
-_id: 1048
+_id: panda.1048
 birthday: 2012/6/19
-birthplace: 59
+birthplace: zoo.59
 children: 1339, 1052, 1053, 1217, 1218
 commitdate: 2019/11/13
 death: 2022/2/12
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1049
-location.1: 59, 2012/6/19
-location.2: 219, 2014/6/11
+location.1: zoo.59, 2012/6/19
+location.2: zoo.219, 2014/6/11
 photo.1: ig://Babax8ogtQu/m
 photo.1.author: pairidaizaofficial
 photo.1.commitdate: 2019/11/21

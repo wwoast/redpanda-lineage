@@ -1,8 +1,9 @@
-import { Graph } from '@redpanda-lineage/data'
-import Env from './environment.ts'
-import * as Language from './language.ts'
-import { DateLocale, Defaults, Fallback, Gui, Polyglots } from './lookup.ts'
-import { Text } from './message.ts'
+import Graph from "@redpanda-lineage/data/dagoba"
+import { distinct, num } from '@redpanda-lineage/data/export'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Language from '@redpanda-lineage/ui/language'
+import { DateLocale, Defaults, Fallback, Gui, Polyglots } from '@redpanda-lineage/ui/lookup'
+import { Text } from '@redpanda-lineage/ui/message'
 
 /** 
  * Logic for a Red Panda database search form.
@@ -80,11 +81,6 @@ export function authorLink(author: string, link: string) {
   }
 }
 
-/** Valid panda IDs are numeric and non-zero */
-export function checkId(input: number) {
-  return (isFinite(input) && input != Defaults.animal._id)
-}
-
 /** 
  * For wildcard date values, we do some date checks by converting Date objects
  * to year-month-day dicts
@@ -115,16 +111,6 @@ function date_ymd_compare(birthday_ymd: ParsedDate, input_ymd: ParsedDate) {
   return ((date_ymd_compare_field(birthday_ymd, input_ymd, "day")) &&
           (date_ymd_compare_field(birthday_ymd, input_ymd, "month")) &&
           (date_ymd_compare_field(birthday_ymd, input_ymd, "year")))
-}
-
-/** 
- * Filter for distinct animals or zoos.
- * TODO: use unique instead from dagoba when dealing with graphs?
- */
-export function distinct(list: any[]) {
-  const unique =
-    (value: any, index: number, self: any[]) => self.indexOf(value) === index
-  return list.filter(unique)
 }
 
 /** 
@@ -293,6 +279,24 @@ export function allAnimalsAndMedia() {
   return vertices as (NodePanda | NodeMedia)[]
 }
 
+/**
+ * Search by string `prefixId` for a specific the panda or zoo node you want
+ * from the Dagoba graph data. This is the type-safe version of the prior
+ * `searchPandaId` and `searchZooId` functions, only it returns a single item
+ * rather than a list.
+ * 
+ * @param prefixId a string with a type and a numeric id, like `panda.100`.
+ * If your `prefixId` and the generic `<Type>` specifier don't agree, your
+ * downstream code is gonna be sad.
+ */
+export function graphId<T>(prefixId: string) {
+  const [type, _numId] = prefixId.split(".")
+  return G.v(prefixId)
+    .filter((vertex: GraphNode) => vertex.type == type)
+    .run()
+    .shift() as T
+}
+
 /** Find all panda babies born within a calendar year. */
 export function searchBabies(year?: string) {
   // Fallback search is for the most recent year we recorded a birth in
@@ -338,7 +342,7 @@ export function searchBirthdayList(input_date: string) {
  */
 export function searchBirthdayToday(keep_living=true, photo_count=20) {
   const today = new Date()
-  const nodes = G.v()
+  const nodes: NodePanda[] = G.v()
     .filter((vertex: GraphNode) => {
       if (vertex.type != "panda") return false   // Only pandas
       const birthday = new Date(vertex.birthday)
@@ -364,7 +368,7 @@ export function searchBirthdayToday(keep_living=true, photo_count=20) {
  */
 function searchBirthdayLitterIds(keep_living=true, photo_count=20) {
   const today = new Date()
-  let litter_ids = G.v()
+  let litter_ids: string[] = G.v()
     .filter((vertex: GraphNode) => {
       if (vertex.type != "panda") return false   // Only pandas
       const birthday = new Date(vertex.birthday)
@@ -411,28 +415,23 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   const initial_set = searchBirthdayToday(keep_living, photo_count)
   const initial_ids = shuffle(initial_set.map(x => x._id))
   const litter_ids = searchBirthdayLitterIds(keep_living, photo_count)
-  // Find all pandas we can remove from the random sample,
-  // for not having any litter mates
-  let has_litters = initial_ids.filter(function(x) {
-    return litter_ids.includes(x)
-  })
-  let no_litters = initial_ids.filter(function(x) {
-    return (!litter_ids.includes(x))
-  })
+  // Remove any pandas from the random sample that have no litter mates
+  let has_litters = initial_ids.filter(x => litter_ids.includes(x))
+  let no_litters = initial_ids.filter(x => !litter_ids.includes(x))
   has_litters = distinct(has_litters)
-  // Get the id of a single animal that has a litter born on
-  // this date, and include them all in the output. Have fallbacks
-  // in case we don't have any litter birthdays
+  // Get the id of a single animal that has a litter born on this date, and
+  // include them all in the output. Have fallbacks in case we don't have any
+  // litter birthdays
   let chosen_year = -1
-  let chosen_id = -1
-  let chosen_litter_ids: number[] = []
+  let chosen_id = "none"
+  let chosen_litter_ids: string[] = []
   if (has_litters.length > 0) {
     // TODO: ONLY ONE SET OF LITTERS IN THE BIRTHDAY FRONT PAGE. :/ Refactor.
     chosen_id = randomChoice(has_litters, 1)[0]
-    const chosen_animal = searchPandaId(chosen_id)[0]
+    const chosen_animal = graphId<NodePanda>(chosen_id)
     chosen_litter_ids = searchLitter(chosen_id)
-      .filter((vertex: NodePanda) => vertex.birthday == chosen_animal.birthday)
-      .filter((vertex: NodePanda) => {
+      .filter(vertex => vertex.birthday == chosen_animal.birthday)
+      .filter(vertex => {
         // Filter out any animals in litters are passed away
         if (keep_living == true) {
           return (vertex.death == undefined)
@@ -445,7 +444,7 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
     chosen_year = parseInt(chosen_animal.birthday.split("/")[0])
   }
   // Insert the litter mate into the list next to their sibling.
-  let s2_ids: number[] = []
+  let s2_ids: string[] = []
   const after_litter = []
   let remaining_count = max_count - chosen_litter_ids.length
   if (no_litters.length < remaining_count) {
@@ -457,11 +456,11 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   // Add animals from the no-litter list
   for (let i = 0; i < remaining_count; i++) {
     const current_id = no_litters[i]
-    const current_year = parseInt(searchPandaId(current_id)[0].birthday.split("/")[0])
+    const current_year = parseInt(graphId<NodePanda>(current_id).birthday.split("/")[0])
     if (current_year <= chosen_year) {
       s2_ids.unshift(current_id)
-    } else if ((current_year == chosen_year) && 
-               (s2_ids.indexOf(chosen_id) == -1)) {
+    } else if ((current_year == chosen_year) &&
+               (!s2_ids.includes(chosen_id))) {
       s2_ids = s2_ids.concat(chosen_litter_ids)
       s2_ids.unshift(current_id)
     } else {
@@ -474,10 +473,10 @@ export function searchBirthdayLitterBias(keep_living=true, photo_count=20, max_c
   // Add back animals younger than the displayed litter
   if (after_litter.length > 0)
     s2_ids = s2_ids.concat(after_litter)
-  let final_animals = s2_ids.map(x => searchPandaId(x)[0])
+  let final_animals = s2_ids.map(x => graphId<NodePanda>(x))
   // Good enough for year sort
   final_animals = sortByName(final_animals, "birthday")
-  return final_animals as NodePanda[]
+  return final_animals
 }
 
 /** Find all pandas that died within a calendar year. */
@@ -512,7 +511,9 @@ export function searchDiedList(input_date: string) {
       const their_date = new Date(vertex.death)
       const their_date_ymd = date_to_ymd(their_date)
       return date_ymd_compare(their_date_ymd, died_date_ymd)
-    }).unique().run()
+    })
+    .unique()
+    .run()
   return sortYoungestToOldest(nodes)
 }
 
@@ -520,8 +521,8 @@ export function searchDiedList(input_date: string) {
  * Find a panda's littermates. Search for all pandas with the same parents and
  * the same (or close, within 48hrs) birthday
  */
-export function searchLitter(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchLitter(pandaId: string) {
+  const nodes = G.v(pandaId)
     .in("litter")
     .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
     .run()
@@ -538,18 +539,18 @@ export function searchLinks(idstr: string) {
   return nodes[0] as NodeLinks
 }
 
-export function searchMedia(idstr: string) {
+export function searchMedia(mediaId: string) {
   const nodes = G.v()
-    .filter((vertex: GraphNode) => vertex._id == idstr && vertex.type == "media")
+    .filter((vertex: GraphNode) => vertex._id == mediaId && vertex.type == "media")
     .run()
   return nodes as NodeMedia[]
 }
 
 /** Find a panda's siblings, not including littermates. */
-export function searchNonLitterSiblings(idnum: number) {
-  const birthday = G.v(idnum).run()[0].birthday
+export function searchNonLitterSiblings(pandaId: string) {
+  const birthday = graphId<NodePanda>(pandaId).birthday
   const nodes =
-    G.v(idnum)
+    G.v(pandaId)
       .as("me")
       .in("family")
       .out("family")
@@ -613,15 +614,6 @@ function searchPandaNameFields(input: string, name_fields: string[] = []) {
   return nodes as NodePanda[]
 }
 
-/** Find a panda by either name or id */
-export function searchPanda(input: string) {
-  const idnum = parseInt(input)
-  if (checkId(idnum) == true)
-    return searchPandaId(idnum) as NodePanda[]
-  else
-    return searchPandaName(input)
-}
-
 /** Find any panda entry with photos */
 export function searchPandaAnyPhoto() {
   const nodes = G.v()
@@ -641,8 +633,8 @@ export function searchPandaAnyPhotoMedia() {
 }
 
 /** Find a panda's children */
-export function searchPandaChildren(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchPandaChildren(pandaId: string) {
+  const nodes = G.v(pandaId)
     .out("family")
     .filter((vertex: GraphNode) => vertex.type == "panda")   // No NodeNone
     .run()
@@ -650,48 +642,45 @@ export function searchPandaChildren(idnum: number) {
 }
 
 /** Find a panda's dad or possible dads */
-export function searchPandaDad(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchPandaDad(pandaId: string) {
+  const nodes = G.v(pandaId)
     .in("family")
-    .filter((vertex: GraphNode) => vertex.gender == "Male")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.gender == "Male")
     .run()
   return nodes as NodePanda[]
-}
-
-/** 
- * Find a single panda by id number.
- * TODO ES6: make idnum a string / use endsWith to get the id
- * TODO ES6: return only pandas!
- */
-export function searchPandaId(idnum: number | string) {
-  const node = G.v(idnum).run()
-  return node as GraphNode[]
 }
 
 /** 
  * Find instances of a panda's ID in both the animal vertices and in the media
  * (group) photos. Optionally, only return group information for animals.
  */
-export function searchPandaMedia(query: string, only_media=false): (NodeMedia | NodePanda)[] {
-  const animals = searchPanda(query)
+export function searchPandaMedia(
+  query: string,
+  only_media=false
+): (NodeMedia | NodePanda)[] {
+  const animals = (!isNaN(parseInt(query)))
+    ? [graphId<NodePanda>(query)]
+    : searchPandaName(query)
   // Get an array of graph result arrays, and flatten them
   const media: NodeMedia[] = [].concat.apply([],
-    animals.map(x => x._id).map(function(id) {
+    animals.map(x => x._id).map(id => {
       // Search for graph nodes that have "panda.tags" values
       // that match the ids of any animal in the original 
       // searchPanda list.
       const nodes = G.v().filter((vertex: GraphNode) => {
         if (Object.keys(vertex).includes("panda.tags")) {
-          return vertex["panda.tags"].includes(id)
+          return vertex["panda.tags"].includes(num(id).toString())
         }
-      }).run()
+      })
+      .run()
       return nodes
     })
   )
   if (only_media == true)
     return media
   else
-    return animals.concat(media)
+    return [...animals, ...media]
 }
 
 /** 
@@ -711,9 +700,10 @@ export function searchPandaMediaIntersect(id_list: string[]) {
   return nodes as NodeMedia[]
 }
 
-/** Find a panda's mother */
-export function searchPandaMom(idnum: number) {
-  const nodes = G.v(idnum).in("family")
+/** Find a panda's mother (or list of probable moms) */
+export function searchPandaMom(pandaId: string) {
+  const nodes = G.v(pandaId).in("family")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
     .filter((vertex: NodePanda) => vertex.gender == "Female")
     .run()
   return nodes as NodePanda[]
@@ -804,24 +794,26 @@ function searchPandaPhotoTagsUnion(
   return output
 }
 
-/** Find all pandas at a given zoo. Zoo IDs are negative numbers */
-export function searchPandaZoo(idnum: number) {
-  const nodes = G.v(idnum).in("zoo").run() as NodePanda[]
+/** Find all pandas at a given zoo, given a `zoo.X` zooId */
+export function searchPandaZoo(zooId: string) {
+  const nodes = G.v(zooId)
+    .in("zoo")
+    .run() as NodePanda[]
   return nodes
 }
 
 /** Find all pandas at a given zoo that are alive, and arrived recently */
-export function searchPandaZooArrived(idnum: number, months=6) {
-  const compare_id = idnum * -1
-  let nodes = G.v(idnum).in("zoo")
+export function searchPandaZooArrived(zooId: string, months=6) {
+  let nodes = G.v(zooId).in("zoo")
     // Gotta be alive
+    .filter((vertex: GraphNode) => vertex.type == "panda")
     .filter((vertex: NodePanda) => vertex.death == undefined)
     // If their arrival date was within six months, keep in the list
     .filter((vertex: NodePanda) => {
       let last_location: string = "0"
       for (const location of vertex.locations) {
-        if (location._id != compare_id.toString()) {
-          last_location = location._id.toString()
+        if (location._id != zooId) {
+          last_location = location._id
           continue   // Ignore location values not at this zoo
         }
         // Compare all zoo node dates with current time.
@@ -835,7 +827,7 @@ export function searchPandaZooArrived(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "arrived",
-            "from": parseInt(last_location.toString()) * -1,
+            "from": last_location,
             "move_date": location.date
           }
           return vertex
@@ -845,12 +837,12 @@ export function searchPandaZooArrived(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "arrived",
-            "from": parseInt(last_location) * -1,
+            "from": last_location,
             "move_date": location.date
           }
           return vertex   // Less than N months?
         }
-        last_location = location._id.toString()
+        last_location = location._id
       }
     }).run()
   nodes = sortByDate(nodes, "sort_time", "descending")
@@ -863,8 +855,8 @@ export function searchPandaZooArrived(idnum: number, months=6) {
  * Find all pandas born (and living) at a given zoo. For interleaving with
  * other results, make a date object from  their birthday for the `sort_time`
  */
-export function searchPandaZooBorn(idnum: number, months=6) {
-  const born = G.v(idnum)
+export function searchPandaZooBorn(zooId: string, months=6) {
+  const born = G.v(zooId)
     .in("birthplace")
     .filter((vertex: GraphNode) => {
       if (vertex.type != "panda") return false   // Gotta be pandas
@@ -884,7 +876,7 @@ export function searchPandaZooBorn(idnum: number, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "born",
-          "at": idnum
+          "at": zooId
         }
         return vertex
       } else {
@@ -895,12 +887,9 @@ export function searchPandaZooBorn(idnum: number, months=6) {
 }
 
 /** Find all pandas that were either born at, or lived at a given zoo */
-export function searchPandaZooBornLived(idnum: number, search_context=false) {
-  if (idnum > 0)
-    idnum = idnum * -1
-  const compare_id = idnum * -1
-  const lives = G.v(idnum).in("zoo").run() as NodePanda[]
-  const born = G.v(idnum).in("birthplace").run() as NodePanda[]
+export function searchPandaZooBornLived(zoo_id: string, search_context=false) {
+  const lives = G.v(zoo_id).in("zoo").run() as NodePanda[]
+  const born = G.v(zoo_id).in("birthplace").run() as NodePanda[]
   const was_here = G.v()
     .filter((vertex: GraphNode) =>
       vertex.type == "panda" && vertex.locations && vertex.locations.length > 0)
@@ -908,7 +897,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       // Gets panda locations and finds zoo matches
       for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (location._id == compare_id)
+        if (location._id == zoo_id)
           return true
       }
       return false
@@ -924,7 +913,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       let current_range = undefined
       for (const location of vertex.locations) {
         // Matching zoo values will be positive ids in location fields
-        if (location._id == compare_id) {
+        if (location._id == zoo_id) {
           current_range = [location.date]
         } else if (current_range != undefined) {
           current_range.push(location.date)
@@ -944,7 +933,7 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
       vertex["search_context"] = {
         "query": "born_or_lived",
         "ranges": date_ranges,
-        "at": idnum
+        "at": zoo_id
       }
       return vertex
     })
@@ -957,43 +946,44 @@ export function searchPandaZooBornLived(idnum: number, search_context=false) {
  * Find all pandas born at a given zoo any time. Set search_context to `true`
  * if you want the results to add a "born" zoo listing
  */
-export function searchPandaZooBornRecords(idnum: number, search_context=false) {
-  if (idnum > 0) 
-    idnum = idnum * -1;   // HACK: zoo records
+export function searchPandaZooBornRecords(zooId: string, search_context=false) {
   // HACK: you can enrich nodes with filter
-  let nodes = G.v(idnum).in("birthplace").filter((vertex: GraphNode) => {
-    if (search_context == true) {
-      vertex["search_context"] = {
-        "query": "born_at",
-        "at": idnum
+  let nodes = G.v(zooId).in("birthplace")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => {
+      if (search_context == true) {
+        vertex["search_context"] = {
+          "query": "born_at",
+          "at": zooId
+        }
       }
-    }
-    return vertex
-  }).run()
-  // HACK: good enough for year sorting
+      return vertex
+    })
+    .run() as NodePanda[]
   nodes = sortByName(nodes, "birthday").reverse()
   return nodes
 }
 
 /** Find all pandas at a given zoo that are still alive */
-export function searchPandaZooCurrent(idnum: number) {
-  const nodes = G.v(idnum)
+export function searchPandaZooCurrent(zooId: string) {
+  const nodes = G.v(zooId)
     .in("zoo")
-    .filter((vertex: GraphNode) => vertex.death == undefined)
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.death == undefined)
     .run()
-  return nodes
+  return nodes as NodePanda[]
 }
 
 /**
  * Find all pandas that relocated away from a zoo in the last six months. Use
  * the locations value (animals without one haven't relocated)
  */
-export function searchPandaZooDeparted(idnum: number, months=6) {
-  const compare_id = idnum * -1
+export function searchPandaZooDeparted(compare_id: string, months=6) {
   let nodes = G.v()
     // Departed animals aren't at the desired zoo currently
-    .filter((vertex: GraphNode) => vertex.locations && vertex.locations.length > 0)
-    .filter((vertex: NodePanda) => vertex.zoo != idnum)
+    .filter((vertex: GraphNode) => vertex.type == "panda")
+    .filter((vertex: NodePanda) => vertex.locations.length > 0)
+    .filter((vertex: NodePanda) => vertex.zoo != num(compare_id))
     .filter((vertex: NodePanda) => {
       // Gets panda locations. We want the date of the next zoo
       // the animal was based at. If that date is less than 6 months 
@@ -1017,7 +1007,7 @@ export function searchPandaZooDeparted(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(location._id) * -1,
+            "to": location._id,
             "move_date": location.date
           }
           return true
@@ -1027,7 +1017,7 @@ export function searchPandaZooDeparted(idnum: number, months=6) {
           // Info about why this animal appeared in results
           vertex["search_context"] = {
             "query": "departed",
-            "to": parseInt(location._id) * -1,
+            "to": location._id,
             "move_date": location.date
           }
           return true   // Less than N months?
@@ -1043,14 +1033,13 @@ export function searchPandaZooDeparted(idnum: number, months=6) {
     .run()
   nodes = sortByDate(nodes, "sort_time", "descending")
   // TODO: does this logic work with multiple arrival/returns?
-  return nodes
+  return nodes as NodePanda[]
 }
 
-export function searchPandaZooDied(idnum: number, months=6) {
-  if (idnum > 0)
-    idnum = idnum * -1;   // HACK: zoo records
-  let nodes = G.v(idnum)
+export function searchPandaZooDied(zooId: string, months=6) {
+  let nodes = G.v(zooId)
     .in("zoo")
+    .filter((vertex: GraphNode) => vertex.type == "panda")
     .filter((vertex: NodePanda) => {
       // Gotta be dead
       if (vertex.death == undefined) return false
@@ -1111,25 +1100,25 @@ export function searchPhotoProfile(animal_list: NodePanda[]) {
 }
 
 /** Find profile photos for an animal's children */
-export function searchPhotoProfileChildren(idnum: number) {
-  const children = sortOldestToYoungest(searchPandaChildren(idnum))
+export function searchPhotoProfileChildren(pandaId: string) {
+  const children = sortOldestToYoungest(searchPandaChildren(pandaId))
   return searchPhotoProfile(children)
 }
 
 /** Find profile photos for an animal's family */
-export function searchPhotoProfileImmediateFamily(idnum: number) {
-  const me = searchPandaId(idnum) as NodePanda[]
-  const mom = searchPandaMom(idnum)
-  const dad = searchPandaDad(idnum)
-  const litter = searchLitter(idnum)
+export function searchPhotoProfileImmediateFamily(pandaId: string) {
+  const me = graphId<NodePanda>(pandaId)
+  const mom = searchPandaMom(pandaId)
+  const dad = searchPandaDad(pandaId)
+  const litter = searchLitter(pandaId)
   const family = me.concat(mom).concat(dad).concat(litter)
   return searchPhotoProfile(family)
 }
 
 /** Find profile photos for an animal's siblings */
-export function searchPhotoProfileSiblings(idnum: number) {
-  const nonLitterSiblings = searchNonLitterSiblings(idnum)
-  const litter = searchLitter(idnum)
+export function searchPhotoProfileSiblings(pandaId: string) {
+  const nonLitterSiblings = searchNonLitterSiblings(pandaId)
+  const litter = searchLitter(pandaId)
   const siblings = sortOldestToYoungest(nonLitterSiblings.concat(litter))
   return searchPhotoProfile(siblings)
 }
@@ -1182,22 +1171,6 @@ export function searchPhotoTags(
     output = output.concat(set)
   }
   return output
-}
-
-/**
- * Zoos are stored with negative numbers, but are tracked in the database by
- * their positive ID numbers. So convert the ID before searching
- */
-export function searchZooId(idnum: number | string) {
-  // Wild animals or other situations may have id == 0
-  if (parseInt(idnum.toString()) == 0) {
-    return [Defaults.wild]
-  }
-  if (parseInt(idnum.toString()) > 0) {
-    idnum = (parseInt(idnum.toString()) * -1).toString()
-  }
-  const nodes = G.v(idnum).run()
-  return nodes as NodeZoo[]
 }
 
 /**
@@ -1255,12 +1228,12 @@ function sortByNameJapanese(nodes: GraphNode[]) {
     return name_list
   }
   const connector = Text["and"][Env.language]
-  nodes = nodes.map(function(node) {
+  nodes = nodes.map(node => {
     // Determine which panda is first in the photo, and sort by
     // its hiragana name in the "othernames" list if necessary
     if (node.type == "media") {
       const panda_ids = node["panda.tags"]
-      const animals = panda_ids.map(id => searchPandaId(id)[0])
+      const animals = panda_ids.map(id => graphId<NodePanda>(`panda.${id}`))
       // Sort only by the first name in the photo
       const first_group_name = node.name['ja'].split(connector)[0]
       const animal = animals.filter(
@@ -1283,11 +1256,11 @@ function sortByNameJapanese(nodes: GraphNode[]) {
 }
 
 /** 
- * Sort a list of pandas by their desired "Lang.name" field. Works for
- * non-group entities (`NodePanda` and `NodeZoo`). `NodeMedia` must be enriched
- * by using `sortByNameWithGroups` to get its own synthetic "name" field.
+ * Sort a list of pandas by their desired `name` field. Works for non-group
+ * entities (`NodePanda` and `NodeZoo`). `NodeMedia` do not have a name field
+ * by default and must be enriched using `sortByNameWithGroups`.
  */
-function sortByName(nodes: GraphNode[], name_field: string) {
+function sortByName<T extends GraphNode>(nodes: T[], name_field: string): T[] {
   return nodes.sort((a, b) => {
     if (a[name_field] > b[name_field]) {
       return 1
@@ -1306,13 +1279,13 @@ function sortByName(nodes: GraphNode[], name_field: string) {
  */
 function sortByNameWithGroups(nodes: GraphNode[], photo_list: EnrichedPhoto[]) {
   nodes = nodes.map(node => {
+    // Enrich media nodes with a synthetic naeme field / group caption
     if (node.type == "media") {
-      // Media file. Get the group caption based on your desired photo in the list
       const desired_url = photo_list
         .map(photo => photo.url)
         .filter(url => node.photos.map(photo => photo.url).includes(url))[0]
       const desired_photo = node.photos.filter(photo => photo.url == desired_url)[0]
-      node.name = {}   // Add synthetic name field to a media node
+      node.name = {}
       node.name[Env.language] = groupMediaCaption(node, desired_photo)
     }
     return node
@@ -1339,7 +1312,7 @@ export function sortByDate(nodes: GraphNode[], field_name: string, mode="descend
  */
 export function sortPhotosByName(photo_list: EnrichedPhoto[]) {
   // TODO: be explicit 
-  let entities = photo_list.map(photo => searchPandaId(photo._id)[0]) as GraphNode[]
+  let entities = photo_list.map(photo => graphId(photo._id)) as GraphNode[]
   entities = sortByNameWithGroups(entities, photo_list)
   const output_list = entities.map(entity =>
     photo_list.filter(photo => photo._id == entity._id)[0])
@@ -1513,7 +1486,7 @@ export function groupMediaCaption(entity: NodeMedia, photo: Photo | EnrichedPhot
   let animals = []
   for (const id of pandaTags) {
     // Must be a numeric non-negative panda ID
-    const panda = searchPandaId(parseInt(id))[0] as NodePanda
+    const panda = graphId<NodePanda>(`panda.${id}`)
     const [x, y] = photo.coordinates[id]
     const name = Language.fallback_name(panda)
     const info = {
@@ -1596,8 +1569,8 @@ export function halfSiblings(animal: NodePanda, sibling: NodePanda) {
  * Check whether this animal's child has more than one parent of the same
  * gender listed.
  */
-export function indeterminateParent(parent_id: number, child_id: number) {
-  const parent_gender = searchPandaId(parent_id)[0].gender
+export function indeterminateParent(parent_id: string, child_id: string) {
+  const parent_gender = graphId<NodePanda>(parent_id).gender
   if (parent_gender == "m") {
     return searchPandaDad(child_id).length > 1
   } else {
@@ -1609,7 +1582,7 @@ export function indeterminateParent(parent_id: number, child_id: number) {
  * If an animal has more than one possible parent, it can make it hard
  * to determine parent or sibling relationships.
  */
-export function indeterminateSiblings(animal_id: number, sibling_id: number) {
+export function indeterminateSiblings(animal_id: string, sibling_id: string) {
   const animal_moms = searchPandaMom(animal_id)
   const animal_dads = searchPandaDad(animal_id)
   const sibling_moms = searchPandaMom(sibling_id)
@@ -1634,19 +1607,20 @@ export function language_order(entity: NodePanda | NodeWild | NodeZoo) {
 /** Returns a list of locations valid for a zoo animal */
 export function locationList(animal: NodePanda): ProfileLocation[] {
   let locations: ProfileLocation[] = []
+  const defaultLocations = [Defaults.zoo._id, Defaults.wild._id]
   // Return not just the chosen photo but the author and link as well
   for (const [index, location] of animal.locations.entries()) {
     const nextLocation = animal.locations[index + 1]
     const end_date = (nextLocation == undefined)
       ? animal["death"] ?? undefined
-      : (location._id == 0)
+      : (defaultLocations.includes(location._id))
         ? Defaults.animal["birthday"]
         : nextLocation.date
-    const start_date = (location._id == 0)
+    const start_date = (defaultLocations.includes(location._id))
       ? Defaults.animal["birthday"]
       : location.date
     locations.push({
-             "zoo": location._id,
+              "id": location._id,
       "start_date": start_date,
         "end_date": end_date,
     })
@@ -1654,9 +1628,9 @@ export function locationList(animal: NodePanda): ProfileLocation[] {
   // If there were no location. fields, use the zoo field, birthday, and date
   // of death. If a wild animal, use a wild field instead of the zoo field
   if ((locations.length == 0) && (myWild(animal, "wild") != undefined))
-    locations = locationWild(animal)
+    locations = [locationWild(animal)]
   if ((locations.length == 0) && (myZoo(animal, "zoo") != undefined))
-    locations = locationZoo(animal)
+    locations = [locationZoo(animal)]
   return locations
 }
 
@@ -1664,30 +1638,28 @@ export function locationList(animal: NodePanda): ProfileLocation[] {
  * When a panda doesn't have a list of wild locations as `location.X` fields,
  * use the wild field, birthday, and date of death to fill in needed details
  */
-function locationWild(animal: NodePanda) {
+function locationWild(animal: NodePanda): ProfileLocation {
   let end_date = undefined
   if (animal["death"] != undefined) {
     end_date = animal["death"]
   }
-  const locations = [{
-    "zoo": myWild(animal, "wild"),
+  return {
+    "id": myWild(animal, "wild"),
     "start_date": Defaults.date[Env.language],
-    "end_date": Defaults.date[Env.language]
-  }]
-  return locations
+    "end_date": end_date ?? Defaults.date[Env.language]
+  }
 }
 
 /** 
  * When a panda doesn't have a list of zoo locations as `location.X` fields,
  * use the zoo, birthday, and date of death to fill in needed details
  */
-function locationZoo(animal: NodePanda) {
-  const locations = [{
-    "zoo": myZoo(animal, "zoo"),
+function locationZoo(animal: NodePanda): ProfileLocation {
+  return {
+    "id": myZoo(animal, "zoo"),
     "start_date": animal["birthday"],
     "end_date": animal["death"]   // Fall back to undefined
-  }]
-  return locations
+  }
 }
 
 /** Get a list of photos given a list of photo locators */
@@ -1715,12 +1687,12 @@ function locatorToPhoto(locator: string) {
     entity = searchMedia(entity_id)[0]
   }
   else if (entity_type == "zoo") {
-    entity_id = (parseInt(parts[1]) * -1).toString()
-    entity = searchZooId(entity_id)[0]
+    entity_id = `zoo.${parts[1]}`
+    entity = graphId<NodeZoo>(entity_id)
   }
   else {
-    entity_id = parseInt(parts[1])
-    entity = searchPandaId(entity_id)[0] as NodePanda
+    entity_id = `panda.${parts[1]}`
+    entity = graphId<NodePanda>(entity_id)
   }
   // Get the photo for this entity
   // Turn the natural number index to an array index
@@ -1738,15 +1710,6 @@ function locatorToPhoto(locator: string) {
   return desired
 }
 
-/** Given an animal and a chosen language, return details for a red panda. */
-export function myName(entity: NodePanda | NodeZoo | NodeWild) {
-  if (!entity.name)
-    return Defaults.animal.name[Env.language]
-  else if (entity.name[Env.language] == undefined)
-    return Language.fallback_name(entity)
-  else
-    return entity.name[Env.language]}
-
 /** 
  * Given an animal and a field name, return wild location info. Though wild
  * locations are stored in the text files related to an animal, when moved into
@@ -1754,7 +1717,7 @@ export function myName(entity: NodePanda | NodeZoo | NodeWild) {
  * `birthplace` or `wild`, but we cannot assume the birthplace of wild animals.
  */
 export function myWild(animal: NodePanda, field: string) {
-  const wild = G.v(animal['_id']).out(field).run()
+  const wild = G.v(animal._id).out(field).run()
   return (wild.length == 0) ? Defaults.wild : wild[0]
 }
 
@@ -1765,7 +1728,7 @@ export function myWild(animal: NodePanda, field: string) {
  * `zoo`.
  */
 export function myZoo(animal: NodePanda, field: string) {
-  const zoo = G.v(animal['_id']).out(field).run()
+  const zoo = G.v(animal._id).out(field).run()
   return (zoo.length == 0) ? Defaults.zoo : zoo[0]
 }
 
@@ -1899,22 +1862,15 @@ export function species(animal: NodePanda) {
   // 0th value in `Defaults.species` is fulgens
   // 1th vlue in `Defaults.species` is styani
   // The panda files list the species as a number that is off by one from this
-  if (animal["species"] == undefined) {
+  if (animal.species == undefined) {
     return Defaults.unknown[Env.language]
   }
-  const idx = parseInt(animal["species"]) - 1
+  const idx = parseInt(animal.species) - 1
   return Defaults.species[Env.language][idx]
 }
 
-/** Given a wild location found with `location()`, return the location name. */
-export function wildName(wild: NodeWild) {
-  return wild.name[Env.language] == undefined
-    ? Defaults.wild.name[Env.language]
-    : wild.name[Env.language]
-}
-
-/**
- * Given a wild location found with `location()`, return an arbitrary field.
+/** 
+ * Given a wild entity found with `location()`, return an arbitrary field.
  * Useful for anything that's just a URI, like videos or photos.
  */
 export function wildField(wild: NodeWild, field: string) {

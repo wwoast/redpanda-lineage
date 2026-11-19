@@ -1,7 +1,7 @@
 [panda]
-_id: 1238
+_id: panda.1238
 birthday: 2018/6/25
-birthplace: 220
+birthplace: zoo.220
 children: unknown
 commitdate: 2020/11/26
 death: 2020/7/1
@@ -17,8 +17,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: hu, en
 litter: 1318
-location.1: 220, 2018/6/25
-location.2: 269, 2019/4/15
+location.1: zoo.220, 2018/6/25
+location.2: zoo.269, 2019/4/15
 photo.1: ig://BwWFIvzFnyt/m
 photo.1.author: givskudzoo
 photo.1.commitdate: 2020/11/26

@@ -1,13 +1,13 @@
 [panda]
-_id: 1461
+_id: panda.1461
 birthday: 2021/6/01
-birthplace: 287
+birthplace: zoo.287
 children: unknown
 commitdate: 2025/09/18
 en.name: Billy
 gender: m
 language.order: en
 litter: 1462
-location.1: 287, 2021/6/01
+location.1: zoo.287, 2021/6/01
 species: 1
 zoo: 287

@@ -1,7 +1,7 @@
 [panda]
-_id: 51
+_id: panda.51
 birthday: 2013/7/10
-birthplace: 9
+birthplace: zoo.9
 children: none
 commitdate: 2018/6/19
 death: 2025/3/31
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 284
-location.1: 9, 2013/7/10
-location.2: 22, 2015/4/21
+location.1: zoo.9, 2013/7/10
+location.2: zoo.22, 2015/4/21
 photo.1: cwdc://VLnBMmTADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/15

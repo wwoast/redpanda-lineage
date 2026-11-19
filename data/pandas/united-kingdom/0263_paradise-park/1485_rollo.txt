@@ -1,7 +1,7 @@
 [panda]
-_id: 1485
+_id: panda.1485
 birthday: 2025/6/20
-birthplace: 170
+birthplace: zoo.170
 children: none
 commitdate: 2026/10/18
 en.name: Rollo
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 170, 2025/6/20
-location.2: 263, 2026/9/9
+location.1: zoo.170, 2025/6/20
+location.2: zoo.263, 2026/9/9
 species: 1
 zoo: 263

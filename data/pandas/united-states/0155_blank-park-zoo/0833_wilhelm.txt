@@ -1,7 +1,7 @@
 [panda]
-_id: 833
+_id: panda.833
 birthday: 2017/6/20
-birthplace: 107
+birthplace: zoo.107
 children: none
 commitdate: 2019/4/8
 en.name: Wilhelm
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 581
-location.1: 107, 2017/6/20
-location.2: 155, 2018/4/26
+location.1: zoo.107, 2017/6/20
+location.2: zoo.155, 2018/4/26
 species: 1
 studbook.id: 1719
 zoo: 155

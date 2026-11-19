@@ -1,7 +1,7 @@
 [panda]
-_id: 1121
+_id: panda.1121
 birthday: 1998/6/15
-birthplace: 118
+birthplace: zoo.118
 children: none
 commitdate: 2020/3/8
 death: 2011/7/15
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1122
-location.1: 118, 1998/6/15
-location.2: 85, 2000/2/27
-location.3: 163, 2005/12/19
+location.1: zoo.118, 1998/6/15
+location.2: zoo.85, 2000/2/27
+location.3: zoo.163, 2005/12/19
 species: 1
 zoo: 163

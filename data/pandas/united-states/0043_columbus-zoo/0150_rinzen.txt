@@ -1,7 +1,7 @@
 [panda]
-_id: 150
+_id: panda.150
 birthday: 2011/6/12
-birthplace: 44
+birthplace: zoo.44
 children: 384, 411, 422, 395, 146
 commitdate: 2018/6/28
 death: 2022/4/7
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 44, 2011/6/12
-location.2: 43, 2012/6/10
+location.1: zoo.44, 2011/6/12
+location.2: zoo.43, 2012/6/10
 photo.1: ig://tEZGsvykP3/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/6/28

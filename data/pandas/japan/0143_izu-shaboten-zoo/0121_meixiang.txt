@@ -1,7 +1,7 @@
 [panda]
-_id: 121
+_id: panda.121
 birthday: 2017/6/29
-birthplace: 13
+birthplace: zoo.13
 children: none
 commitdate: 2018/6/26
 en.name: Meixiang
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: 梅香
 language.order: ja, en
 litter: none
-location.1: 13, 2017/6/29
-location.2: 143, 2020/1/16
+location.1: zoo.13, 2017/6/29
+location.2: zoo.143, 2020/1/16
 photo.1: ig://Bi3y7lGgf0s/m
 photo.1.author: minato.yokohama4416
 photo.1.commitdate: 2018/7/20

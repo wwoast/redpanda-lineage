@@ -1,7 +1,7 @@
 [panda]
-_id: 1084
+_id: panda.1084
 birthday: 2007/7/4
-birthplace: 230
+birthplace: zoo.230
 children: 540, 686
 commitdate: 2019/12/31
 en.name: Randy
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 230, 2007/7/4
-location.2: 139, 2008/9/2
+location.1: zoo.230, 2007/7/4
+location.2: zoo.139, 2008/9/2
 photo.1: ig://BrfJSTLjW4u/m
 photo.1.author: paigntonzoo
 photo.1.commitdate: 2019/12/31

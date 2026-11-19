@@ -1,7 +1,7 @@
 [panda]
-_id: 1218
+_id: panda.1218
 birthday: 2020/7/10
-birthplace: 219
+birthplace: zoo.219
 children: 1386, 1387
 commitdate: 2020/9/6
 en.name: Miyuko
@@ -16,8 +16,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: fr, en, ja
 litter: 1217
-location.1: 219, 2020/7/10
-location.2: 72, 2022/1/1
+location.1: zoo.219, 2020/7/10
+location.2: zoo.72, 2022/1/1
 photo.1: ig://CF1vLXeg7YF/m
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11

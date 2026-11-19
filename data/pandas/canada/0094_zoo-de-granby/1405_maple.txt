@@ -1,7 +1,7 @@
 [panda]
-_id: 1405
+_id: panda.1405
 birthday: 2022/6/1
-birthplace: 86
+birthplace: zoo.86
 children: none
 commitdate: 2023/2/26
 en.name: Maple
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1404
-location.1: 86, 2022/6/1
-location.2: 94, 2024/1/29
+location.1: zoo.86, 2022/6/1
+location.2: zoo.94, 2024/1/29
 photo.1: ig://CiRTFFFrehq/m
 photo.1.author: westcoast_kathy
 photo.1.commitdate: 2023/2/26

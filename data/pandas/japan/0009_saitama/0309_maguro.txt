@@ -1,7 +1,7 @@
 [panda]
-_id: 309
+_id: panda.309
 birthday: 2002/7/2
-birthplace: 17
+birthplace: zoo.17
 children: 129, 30, 20, 77, 313, 321, 314, 322
 commitdate: 2018/8/19
 death: 2007/8/5
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 303
-location.1: 17, 2002/7/2
-location.2: 9, 2003/11/17
+location.1: zoo.17, 2002/7/2
+location.2: zoo.9, 2003/11/17
 photo.1: https://www.codaworry.com/images/rpf/maguro-1-saitama.jpg
 photo.1.author: redpandamaniax
 photo.1.commitdate: 2019/4/9

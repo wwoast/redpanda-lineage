@@ -1,7 +1,7 @@
 [panda]
-_id: 652
+_id: panda.652
 birthday: 2013/7/20
-birthplace: 126
+birthplace: zoo.126
 children: 579, 687, 688, 689
 commitdate: 2019/3/19
 en.name: Hamlet
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 525
-location.1: 126, 2013/7/20
-location.2: 131, 2015/2/14
-location.3: 163, 2018/5/3
+location.1: zoo.126, 2013/7/20
+location.2: zoo.131, 2015/2/14
+location.3: zoo.163, 2018/5/3
 photo.1: cwdc://UuTg0KPADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/5/7

@@ -1,7 +1,7 @@
 [panda]
-_id: 8
+_id: panda.8
 birthday: 2017/7/13
-birthplace: 1
+birthplace: zoo.1
 children: 1197, 1198, 1383, 1384
 commitdate: 2018/6/10
 en.name: Himawari
@@ -13,8 +13,8 @@ ja.nicknames: コムギ
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 1, 2017/7/13
-location.2: 17, 2020/2/3
+location.1: zoo.1, 2017/7/13
+location.2: zoo.17, 2020/2/3
 photo.1: cwdc://V777fEuADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/5/27

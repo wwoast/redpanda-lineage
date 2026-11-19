@@ -1,7 +1,7 @@
 [panda]
-_id: 92
+_id: panda.92
 birthday: 2013/6/21
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2018/6/23
 en.name: Taiyo
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 93
-location.1: 10, 2013/6/21
-location.2: 8, 2021/5/19
+location.1: zoo.10, 2013/6/21
+location.2: zoo.8, 2021/5/19
 photo.1: ig://BFxLJicvi2t/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/5/3

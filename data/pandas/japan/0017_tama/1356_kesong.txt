@@ -1,7 +1,7 @@
 [panda]
-_id: 1356
+_id: panda.1356
 birthday: 2017/6/11
-birthplace: 55
+birthplace: zoo.55
 children: none
 commitdate: 2022/4/19
 death: 2025/10/2
@@ -15,8 +15,8 @@ ja.oldnames: クロワッサン
 ja.othernames: none
 language.order: zh, ja, en
 litter: 1355
-location.1: 55, 2017/6/11
-location.2: 17, 2024/4/19
+location.1: zoo.55, 2017/6/11
+location.2: zoo.17, 2024/4/19
 photo.1: cwdc://XGhJz0hADQA.jpg
 photo.1.author: lovetaipeizoo
 photo.1.commitdate: 2024/4/19

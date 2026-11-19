@@ -1,7 +1,7 @@
 [panda]
-_id: 1256
+_id: panda.1256
 birthday: unknown
-birthplace: 273
+birthplace: zoo.273
 children: none
 commitdate: 2021/4/7
 en.name: Ruaridh
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 273, unknown
-location.2: 274, 2020/12/19
+location.1: zoo.273, unknown
+location.2: zoo.274, 2020/12/19
 photo.1: ig://B2lpERPgz-_/m
 photo.1.author: Edinburgh Zoo
 photo.1.commitdate: 2021/4/7

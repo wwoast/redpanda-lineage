@@ -1,7 +1,7 @@
 [panda]
-_id: 474
+_id: panda.474
 birthday: 2003/6/18
-birthplace: 65
+birthplace: zoo.65
 children: none
 commitdate: 2018/12/4
 death: 2020/1/1
@@ -14,13 +14,13 @@ ja.nicknames: none
 ja.othernames: 蜂蜜
 language.order: en, ja
 litter: none
-location.1: 65, 2003/6/18
-location.2: 109, 2004/6/2
-location.3: 43, 2007/11/20
-location.4: 65, 2009/9/11
-location.5: 103, 2011/11/15
-location.6: 90, 2013/5/2
-location.7: 95, 2013/12/17
+location.1: zoo.65, 2003/6/18
+location.2: zoo.109, 2004/6/2
+location.3: zoo.43, 2007/11/20
+location.4: zoo.65, 2009/9/11
+location.5: zoo.103, 2011/11/15
+location.6: zoo.90, 2013/5/2
+location.7: zoo.95, 2013/12/17
 photo.1: ig://_PftGyxETt/m
 photo.1.author: sandiegozoo
 photo.1.commitdate: 2019/10/26

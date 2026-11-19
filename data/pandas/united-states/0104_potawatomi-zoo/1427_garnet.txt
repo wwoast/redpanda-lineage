@@ -1,7 +1,7 @@
 [panda]
-_id: 1427
+_id: panda.1427
 birthday: 2021/7/4
-birthplace: 113
+birthplace: zoo.113
 children: none
 commitdate: 2023/9/24
 en.name: Garnet
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1426
-location.1: 113, 2021/7/4
-location.2: 104, 2023/7/4
+location.1: zoo.113, 2021/7/4
+location.2: zoo.104, 2023/7/4
 species: 1
 studbook.id: unknown
 uncertainty: location.2 move date, prior to 9/2023

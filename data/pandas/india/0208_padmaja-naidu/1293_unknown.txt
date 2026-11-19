@@ -1,5 +1,5 @@
 [panda]
-_id: 1293
+_id: panda.1293
 birthday: unknown
 birthplace: unknown
 children: 1294
@@ -14,7 +14,7 @@ ja.othernames: none
 language.order: en, ja
 litter: unknown
 location.1: unknown, unknown
-location.2: 208, unknown
+location.2: zoo.208, unknown
 species: 2
 video.1: https://twitter.com/ANI/status/1401223907730853888
 video.1.author: ANI

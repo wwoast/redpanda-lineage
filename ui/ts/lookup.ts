@@ -173,16 +173,16 @@ export const Defaults: Defaults = {
     }
   },
   animal: {
-    "_id": 0,
+    "_id": "panda.0",
     "_in": [],
     "_out": [],
     "birthday": "1970/1/1",
-    "birthplace": "0",
+    "birthplace": "zoo.0",
     "children": [],
     "commitdate": "1970/1/1",
     "death": "1970/1/1",
     "gender": "unknown",
-    "language.order": new Set(["en", "ja"]),
+    "language.order": ["en", "ja"],
     "litter": [],
     "locations": [],
     "name": {
@@ -202,6 +202,15 @@ export const Defaults: Defaults = {
       "ne": ["उपनामहरू फेला परेन"],
       "pt": ["Nenhum apelido registrado"],
       "zh": ["TOWRITE"],
+    },
+    "oldnames": {
+      "en": ["No Alternate Names Recorded"],
+      "es": ["No se registraron nombres alternativos"],
+      "ja": ["代わりのスペルは記録されていません"],
+      "ko": ["등록된 다른 이름이 없습니다"],
+      "ne": ["अरु नामहरु फेला परेन"],
+      "pt": ["Nenhum nome alternativo registrado"],
+      "zh": ["TOWRITE"]
     },
     "othernames": {
       "en": ["No Alternate Names Recorded"],
@@ -523,7 +532,7 @@ export const Defaults: Defaults = {
       "zh": "TOWRITE",
     },
     "commitdate": "1970/1/1",
-    "language.order": new Set(["en", "ja"]),
+    "language.order": ["en", "ja"],
     "location": {
       "en": "No City, District, or State Info Listed",
       "es": "No Se Incluye Información de Ciudad, Distrito o Estado",
@@ -548,7 +557,7 @@ export const Defaults: Defaults = {
     "website": "https://www.worldwildlife.org/",
   },
   zoo: {
-    "_id": 0,
+    "_id": "zoo.0",
     "_in": [],
     "_out": [],
     "address": {
@@ -563,7 +572,7 @@ export const Defaults: Defaults = {
     "closed": "1970/1/1",
     "commitdate": "1970/1/1",
     "flag": Flags["Nepal"],
-    "language.order": new Set(["en", "ja"]),
+    "language.order": ["en", "ja"],
     "latitude": "0.0000",
     "location": {
       "en": "No City, District, or State Info Listed",

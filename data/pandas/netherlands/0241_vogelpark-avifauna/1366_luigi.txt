@@ -1,7 +1,7 @@
 [panda]
-_id: 1366
+_id: panda.1366
 birthday: 2021/6/25
-birthplace: 257
+birthplace: zoo.257
 children: 1484
 commitdate: 2025/6/25
 en.name: Luigi
@@ -15,8 +15,8 @@ ja.oldnames: シフ
 ja.othernames: none
 language.order: en, ja
 litter: 1365
-location.1: 257, 2021/6/25
-location.2: 241, 2022/4/13
+location.1: zoo.257, 2021/6/25
+location.2: zoo.241, 2022/4/13
 photo.1: ig://CY49xpNKPap/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/6/1

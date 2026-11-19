@@ -1,7 +1,7 @@
 [panda]
-_id: 80
+_id: panda.80
 birthday: 2017/6/25
-birthplace: 9
+birthplace: zoo.9
 children: none
 commitdate: 2018/6/23
 death: 2022/10/2
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 雅
 language.order: ja, en
 litter: none
-location.1: 9, 2017/6/25
-location.2: 56, 2022/6/12
+location.1: zoo.9, 2017/6/25
+location.2: zoo.56, 2022/6/12
 photo.1: cwdc://V8a2sFYADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23

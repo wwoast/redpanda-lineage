@@ -1,7 +1,7 @@
 [panda]
-_id: 1365
+_id: panda.1365
 birthday: 2021/6/25
-birthplace: 257
+birthplace: zoo.257
 children: none
 commitdate: 2022/6/1
 en.name: Shanti
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1366
-location.1: 257, 2021/6/25
-location.2: 308, 2022/6/30
+location.1: zoo.257, 2021/6/25
+location.2: zoo.308, 2022/6/30
 photo.1: ig://CVzC17zqLiK/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/6/1

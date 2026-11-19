@@ -1,7 +1,7 @@
 [panda]
-_id: 736
+_id: panda.736
 birthday: 1991/6/20
-birthplace: 15
+birthplace: zoo.15
 children: 107, 364, 734, 735
 commitdate: 2019/3/27
 death: 2004/6/25

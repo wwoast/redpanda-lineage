@@ -1,7 +1,7 @@
 [panda]
-_id: 195
+_id: panda.195
 birthday: 2013/8/15
-birthplace: 42
+birthplace: zoo.42
 children: 194, 1433, 1465
 commitdate: 2018/7/14
 en.name: Aru
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 201
-location.1: 42, 2013/8/15
-location.2: 50, 2015/12/1
-location.3: 69, 2020/2/17
+location.1: zoo.42, 2013/8/15
+location.2: zoo.50, 2015/12/1
+location.3: zoo.69, 2020/2/17
 photo.1: ig://BVKUFWKBSGM/m
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/8/23

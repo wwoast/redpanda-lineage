@@ -1,7 +1,7 @@
 [panda]
-_id: 1301
+_id: panda.1301
 birthday: 2021/7/1
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2021/7/18
 en.name: Anko
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1300
-location.1: 10, 2021/7/1
-location.2: 190, 2026/3/31
+location.1: zoo.10, 2021/7/1
+location.2: zoo.190, 2026/3/31
 photo.1: ig://CS_XmG7rU-G/m
 photo.1.author: chausuyamazoo
 photo.1.commitdate: 2021/10/9

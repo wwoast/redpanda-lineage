@@ -1,7 +1,7 @@
 [panda]
-_id: 72
+_id: panda.72
 birthday: 2006/6/2
-birthplace: 8
+birthplace: zoo.8
 children: 377, 180, 144, 130, 69
 commitdate: 2018/6/22
 en.name: Fuuka
@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: フウカ
 language.order: ja, en
 litter: 48
-location.1: 8, 2006/6/2
-location.2: 6, 2008/6/30
-location.3: 41, 2014/4/9
-location.4: 6, 2015/11/17
+location.1: zoo.8, 2006/6/2
+location.2: zoo.6, 2008/6/30
+location.3: zoo.41, 2014/4/9
+location.4: zoo.6, 2015/11/17
 photo.1: ig://Bi_r9TilMax/m
 photo.1.author: re_ichimaru
 photo.1.commitdate: 2018/7/19

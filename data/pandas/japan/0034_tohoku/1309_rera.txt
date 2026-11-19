@@ -1,7 +1,7 @@
 [panda]
-_id: 1309
+_id: panda.1309
 birthday: 2021/7/31
-birthplace: 11
+birthplace: zoo.11
 children: none
 commitdate: 2021/8/30
 en.name: Réra
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1308
-location.1: 11, 2021/7/31
-location.2: 34, 2026/10/15
+location.1: zoo.11, 2021/7/31
+location.2: zoo.34, 2026/10/15
 photo.1: cwdc://X16hlDnADQA.jpg
 photo.1.author: sasapan34
 photo.1.commitdate: 2021/12/22

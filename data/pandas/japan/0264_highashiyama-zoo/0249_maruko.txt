@@ -1,7 +1,7 @@
 [panda]
-_id: 249
+_id: panda.249
 birthday: 2018/7/11
-birthplace: 16
+birthplace: zoo.16
 children: 1471
 commitdate: 2018/10/24
 en.name: Maruko
@@ -15,8 +15,8 @@ ja.oldnames: まつ子
 ja.othernames: none
 language.order: ja, en
 litter: 248
-location.1: 16, 2018/7/11
-location.2: 264, 2020/12/7
+location.1: zoo.16, 2018/7/11
+location.2: zoo.264, 2020/12/7
 photo.1: ig://Bo36382l8fm/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/6

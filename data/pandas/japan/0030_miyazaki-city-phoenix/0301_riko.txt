@@ -1,7 +1,7 @@
 [panda]
-_id: 301
+_id: panda.301
 birthday: 2013/6/25
-birthplace: 6
+birthplace: zoo.6
 children: none
 commitdate: 2018/8/3
 en.name: Riko
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 6, 2013/6/25
-location.2: 30, 2015/1/15
+location.1: zoo.6, 2013/6/25
+location.2: zoo.30, 2015/1/15
 photo.1: ig://BTDwxn5gi70/m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2018/8/23

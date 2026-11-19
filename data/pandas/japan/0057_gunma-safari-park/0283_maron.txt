@@ -1,7 +1,7 @@
 [panda]
-_id: 283
+_id: panda.283
 birthday: 2017/7/17
-birthplace: 60
+birthplace: zoo.60
 children: none
 commitdate: 2018/7/29
 death: 2023/5/8
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 60, 2017/7/17
-location.2: 57, 2022/2/16
+location.1: zoo.60, 2017/7/17
+location.2: zoo.57, 2022/2/16
 photo.1: cwdc://V_9hqd6ADQO.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2025/5/16

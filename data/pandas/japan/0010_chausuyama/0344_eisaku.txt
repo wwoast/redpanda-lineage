@@ -1,7 +1,7 @@
 [panda]
-_id: 344
+_id: panda.344
 birthday: 2018/7/15
-birthplace: 53
+birthplace: zoo.53
 children: none
 commitdate: 2018/11/15
 en.name: Eisaku
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: エイサク
 language.order: ja, en
 litter: 345
-location.1: 53, 2018/7/15
-location.2: 52, 2021/10/25
-location.3: 10, 2025/3/16
+location.1: zoo.53, 2018/7/15
+location.2: zoo.52, 2021/10/25
+location.3: zoo.10, 2025/3/16
 photo.1: cwdc://WZ6GyXqADQA.jpg
 photo.1.author: resapanlove
 photo.1.commitdate: 2018/11/15

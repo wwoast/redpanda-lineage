@@ -1,7 +1,7 @@
 [panda]
-_id: 862
+_id: panda.862
 birthday: 2018/6/25
-birthplace: 177
+birthplace: zoo.177
 children: none
 commitdate: 2019/6/9
 en.name: Lucy
@@ -15,9 +15,9 @@ ja.oldnames: ロジ
 ja.othernames: none
 language.order: en, ja
 litter: 861
-location.1: 177, 2018/6/25
-location.2: 81, 2021/6/4
-location.3: 117, 2024/11/1
+location.1: zoo.177, 2018/6/25
+location.2: zoo.81, 2021/6/4
+location.3: zoo.117, 2024/11/1
 photo.1: ig://CTFOnhYsCLp/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2022/5/5

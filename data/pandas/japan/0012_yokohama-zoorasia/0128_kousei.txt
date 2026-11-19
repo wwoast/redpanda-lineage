@@ -1,7 +1,7 @@
 [panda]
-_id: 128
+_id: panda.128
 birthday: 2000/6/27
-birthplace: 13
+birthplace: zoo.13
 children: none
 commitdate: 2018/6/27
 death: 2018/4/3
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 341
-location.1: 13, 2000/6/27
-location.2: 12, 2003/12/26
+location.1: zoo.13, 2000/6/27
+location.2: zoo.12, 2003/12/26
 photo.1: ig://BD-gLg8KoAM/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/4/19

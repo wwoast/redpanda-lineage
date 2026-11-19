@@ -1,7 +1,7 @@
 [panda]
-_id: 1404
+_id: panda.1404
 birthday: 2022/6/1
-birthplace: 86
+birthplace: zoo.86
 children: none
 commitdate: 2023/2/26
 en.name: Mei-Mei

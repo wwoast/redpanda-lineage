@@ -1,7 +1,7 @@
 [panda]
-_id: 797
+_id: panda.797
 birthday: 2001/6/16
-birthplace: 133
+birthplace: zoo.133
 children: none
 commitdate: 2019/4/3
 death: 2013/1/31
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 796
-location.1: 133, 2001/6/16
-location.2: 92, 2002/11/6
+location.1: zoo.133, 2001/6/16
+location.2: zoo.92, 2002/11/6
 species: 1
 studbook.id: 0110
 zoo: 92

@@ -1,7 +1,7 @@
 [panda]
-_id: 1
+_id: panda.1
 birthday: 2016/7/16
-birthplace: 1
+birthplace: zoo.1
 children: none
 commitdate: 2018/6/10
 en.name: Harumaki
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 1, 2016/7/16
-location.2: 32, 2020/1/6
+location.1: zoo.1, 2016/7/16
+location.2: zoo.32, 2020/1/6
 photo.1: cwdc://Vlnl7nSADQA.jpg
 photo.1.author: rdpnzoo
 photo.1.commitdate: 2021/7/29

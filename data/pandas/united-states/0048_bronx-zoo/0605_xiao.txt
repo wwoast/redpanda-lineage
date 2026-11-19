@@ -1,7 +1,7 @@
 [panda]
-_id: 605
+_id: panda.605
 birthday: 2009/6/28
-birthplace: 107
+birthplace: zoo.107
 children: 520
 commitdate: 2019/3/19
 en.name: Xiao
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 498, 910
-location.1: 107, 2009/6/28
-location.2: 123, 2010/7/15
-location.3: 48, 2019/6/1
+location.1: zoo.107, 2009/6/28
+location.2: zoo.123, 2010/7/15
+location.3: zoo.48, 2019/6/1
 photo.1: ig://BZBoXpdD1gb/m
 photo.1.author: fwkidszoo
 photo.1.commitdate: 2019/4/7

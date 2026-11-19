@@ -1,7 +1,7 @@
 [panda]
-_id: 687
+_id: panda.687
 birthday: 2016/6/6
-birthplace: 131
+birthplace: zoo.131
 children: 861, 862
 commitdate: 2019/3/25
 death: 2023/8/12
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 579
-location.1: 131, 2016/6/6
-location.2: 177, 2017/4/19
+location.1: zoo.131, 2016/6/6
+location.2: zoo.177, 2017/4/19
 photo.1: cwdc://WWIpiT-ADQA.jpg
 photo.1.author: campergirl98
 photo.1.commitdate: 2019/12/7

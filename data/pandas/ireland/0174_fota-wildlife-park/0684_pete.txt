@@ -1,7 +1,7 @@
 [panda]
-_id: 684
+_id: panda.684
 birthday: 2009/6/6
-birthplace: 138
+birthplace: zoo.138
 children: unknown
 commitdate: 2019/3/24
 death: 2018/8/10
@@ -16,8 +16,8 @@ ja.oldnames: ドンダップ
 ja.othernames: none
 language.order: en, ja
 litter: 538
-location.1: 138, 2009/6/6
-location.2: 174, 2010/10/20
+location.1: zoo.138, 2009/6/6
+location.2: zoo.174, 2010/10/20
 species: 2
 studbook.id: 0940
 zoo: 174

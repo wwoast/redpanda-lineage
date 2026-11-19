@@ -1,7 +1,7 @@
 [panda]
-_id: 1075
+_id: panda.1075
 birthday: 2019/6/20
-birthplace: 107
+birthplace: zoo.107
 children: none
 commitdate: 2019/12/3
 en.name: Ahsa
@@ -15,10 +15,10 @@ ja.oldnames: アサ, アシャ
 ja.othernames: none
 language.order: en, ja
 litter: 1074
-location.1: 107, 2019/6/20
-location.2: 108, 2019/8/21
-location.3: 141, 2022/1/1
-location.4: 118, 2023/1/1
+location.1: zoo.107, 2019/6/20
+location.2: zoo.108, 2019/8/21
+location.3: zoo.141, 2022/1/1
+location.4: zoo.118, 2023/1/1
 photo.1: ig://B3x459ahabu/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/3

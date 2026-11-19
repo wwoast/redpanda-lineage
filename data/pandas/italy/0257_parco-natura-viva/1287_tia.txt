@@ -1,7 +1,7 @@
 [panda]
-_id: 1287
+_id: panda.1287
 birthday: 2019/7/2
-birthplace: 282
+birthplace: zoo.282
 children: 1367
 commitdate: 2021/4/11
 death: 2023/7/19
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 282, 2019/7/2
-location.2: 257, 2020/8/31
+location.1: zoo.282, 2019/7/2
+location.2: zoo.257, 2020/8/31
 photo.1: ig://CUhQdTNqx_k/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2023/8/1

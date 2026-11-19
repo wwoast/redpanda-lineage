@@ -1,7 +1,7 @@
 [panda]
-_id: 596
+_id: panda.596
 birthday: 2001/7/21
-birthplace: 6
+birthplace: zoo.6
 children: 597
 commitdate: 2019/3/19
 death: 2008/2/4
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 221
-location.1: 6, 2001/7/21
-location.2: 15, 2004/5/20
+location.1: zoo.6, 2001/7/21
+location.2: zoo.15, 2004/5/20
 species: 2
 studbook.id: 01111
 zoo: 15

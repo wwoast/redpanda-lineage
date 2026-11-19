@@ -1,7 +1,7 @@
 [panda]
-_id: 41
+_id: panda.41
 birthday: 2014/7/13
-birthplace: 19
+birthplace: zoo.19
 children: none
 commitdate: 2018/6/18
 en.name: Lime
@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 254
-location.1: 19, 2014/7/13
-location.2: 8, 2017/11/7
-location.3: 289, 2022/2/28
-location.4: 143, 2026/5/27
+location.1: zoo.19, 2014/7/13
+location.2: zoo.8, 2017/11/7
+location.3: zoo.289, 2022/2/28
+location.4: zoo.143, 2026/5/27
 photo.1: ig://BdEtWryAHrE/m
 photo.1.author: peek_a_boo00
 photo.1.commitdate: 2020/5/12

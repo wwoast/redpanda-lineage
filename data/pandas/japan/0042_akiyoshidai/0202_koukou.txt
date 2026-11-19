@@ -1,7 +1,7 @@
 [panda]
-_id: 202
+_id: panda.202
 birthday: 2003/7/15
-birthplace: 6
+birthplace: zoo.6
 children: 257, 258, 302, 483, 195, 201, 259, 260
 commitdate: 2018/7/22
 death: 2025/3/16
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: コウコウ
 language.order: ja, en
 litter: 452, 801
-location.1: 6, 2003/7/15
-location.2: 42, 2009/1/19
+location.1: zoo.6, 2003/7/15
+location.2: zoo.42, 2009/1/19
 photo.1: cwdc://V3rGqnGADQA.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/7

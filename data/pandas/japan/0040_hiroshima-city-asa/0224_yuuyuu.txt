@@ -1,7 +1,7 @@
 [panda]
-_id: 224
+_id: panda.224
 birthday: 2014/7/27
-birthplace: 37
+birthplace: zoo.37
 children: 994, 995, 1434
 commitdate: 2018/7/27
 en.name: Yuu-Yuu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: ユーユー
 language.order: ja, en
 litter: none
-location.1: 37, 2014/7/27
-location.2: 40, 2018/2/15
+location.1: zoo.37, 2014/7/27
+location.2: zoo.40, 2018/2/15
 photo.1: ig://BXFvX6agwDQ/m
 photo.1.author: mifko55
 photo.1.commitdate: 2020/5/9

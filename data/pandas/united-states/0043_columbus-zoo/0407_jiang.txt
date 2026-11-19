@@ -1,7 +1,7 @@
 [panda]
-_id: 407
+_id: panda.407
 birthday: 2002/6/26
-birthplace: 83
+birthplace: zoo.83
 children: none
 commitdate: 2018/11/23
 death: 2021/8/1
@@ -14,12 +14,12 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 385
-location.1: 83, 2002/6/26
-location.2: 103, 2003/6/11
-location.3: 43, 2003/9/26
-location.4: 97, 2008/4/3
-location.5: 89, 2014/11/21
-location.6: 43, 2016/6/29
+location.1: zoo.83, 2002/6/26
+location.2: zoo.103, 2003/6/11
+location.3: zoo.43, 2003/9/26
+location.4: zoo.97, 2008/4/3
+location.5: zoo.89, 2014/11/21
+location.6: zoo.43, 2016/6/29
 photo.1: ig://BnB-9cijn9r/m
 photo.1.author: columbuszoo
 photo.1.commitdate: 2018/11/23

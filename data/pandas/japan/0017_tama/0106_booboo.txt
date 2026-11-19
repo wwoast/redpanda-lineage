@@ -1,7 +1,7 @@
 [panda]
-_id: 106
+_id: panda.106
 birthday: 1997/7/13
-birthplace: 52
+birthplace: zoo.52
 children: 216, 308, 13, 229, 193, 74, 187, 102
 commitdate: 2018/7/14
 death: 2019/11/24
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 52, 1997/7/13
-location.2: 17, 2001/2/16
+location.1: zoo.52, 1997/7/13
+location.2: zoo.17, 2001/2/16
 photo.1: cwdc://VYTtU5vADQB.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/3

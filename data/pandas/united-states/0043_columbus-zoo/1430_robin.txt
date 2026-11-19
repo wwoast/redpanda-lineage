@@ -1,7 +1,7 @@
 [panda]
-_id: 1430
+_id: panda.1430
 birthday: 2023/6/25
-birthplace: 80
+birthplace: zoo.80
 children: none
 commitdate: 2023/10/24
 en.name: Robin
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1429
-location.1: 80, 2023/6/25
-location.2: 43, 2024/5/9
+location.1: zoo.80, 2023/6/25
+location.2: zoo.43, 2024/5/9
 photo.1: ig://CwSpio4sUgx/m
 photo.1.author: lincolnchildrenszoo
 photo.1.commitdate: 2023/10/24

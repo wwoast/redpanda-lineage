@@ -1,8 +1,16 @@
-import { Git } from '@roka/git'
-import { IniMap, ReviverFunction } from '@std/ini/ini-map'
-import { join } from '@std/path'
-import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from './dagoba.ts'
-import { PhotoEntry } from './photos.ts'
+import { Git } from '@dependencies/roka/git'
+import { IniMap, ReviverFunction } from '@dependencies/std/ini/ini-map'
+import { join } from '@dependencies/std/path'
+import Graph, { Vertex, Edge, cleanEdge, cleanVertex } from '@redpanda-lineage/data/dagoba'
+import { distinct,
+         num,
+         toLinks,
+         toMedia,
+         toPandas,
+         toPhotoEntities,
+         toWilds,
+         toZoos } from '@redpanda-lineage/data/export'
+import { PhotoEntry } from '@redpanda-lineage/data/photos'
 import { DataPaths,
          Paths,
          byIdAscending,
@@ -11,13 +19,7 @@ import { DataPaths,
          existsDirSync,
          existsFileSync,
          reviveNode,
-         supportedLanguages,
-         toLinks,
-         toMedia,
-         toPandas,
-         toPhotoEntities,
-         toWilds,
-         toZoos } from './shared.ts'
+         supportedLanguages } from '@redpanda-lineage/data/shared'
 
 /**
  * Build a JSON file that is a consolidated summary of all the text files
@@ -192,10 +194,10 @@ export class Dataset {
     const litterEdges = this.graph.edges
       .filter(edge => edge._label == "litter")
       .filter(edge => edge._in._id != "none")
-    const seen_pairs: [number, number][] = []
+    const seen_pairs: [string, string][] = []
     litterEdges.map(edge => {
       // in the graph, edges point to vertexes
-      const pair: [number, number] = [
+      const pair: [string, string] = [
         (edge._in as NodePanda)._id,
         (edge._out as NodePanda)._id
       ]
@@ -219,7 +221,7 @@ export class Dataset {
     // Family _out edges indicate pandas have a child. Family _in edges
     // indicate that the panda is someone else's child.
     const pandas = this.graph.vertices.reduce(toPandas, []).sort(byIdAscending)
-    const cycleCheck = (seen: Set<number>, panda: NodePanda): NodePanda[] => {
+    const cycleCheck = (seen: Set<string>, panda: NodePanda): NodePanda[] => {
       const parents = this.graph.v(panda).in("family").run() as NodePanda[]
       if (parents.length > 0) {
         // True if someone was their own parent
@@ -237,7 +239,7 @@ export class Dataset {
     }
     // TODO: this algorithm is broken because its running multiple checks at
     // once, when the seen logic only works for one animal tree check at a time
-    const seen = new Set<number>()
+    const seen = new Set<string>()
     const selfParents = pandas.flatMap(panda => {
       seen.add(panda._id)
       return cycleCheck(seen, panda)
@@ -281,7 +283,7 @@ export class Dataset {
   assertImportedAuthorLink = (path: string, link: string) => {
     const validLinkProtocols = ["http://", "https://", "ig://"]
     const match = validLinkProtocols.filter(
-      protocol => link.indexOf(protocol) == 0)
+      protocol => link.startsWith(protocol))
     if (match.length == 0)
       throw new Error(`[build] ERR: ${path}: ${link}: not a valid URL`)
   }
@@ -353,18 +355,19 @@ export class Dataset {
    * for a panda, negative integer for a zoo, `wild.X` for a wild location, or
    * `unknown` if we don't know.
    */
-  assertValidPandaOrZooId = (path: string, key: string, value: string) => {
+  assertValidPandaWildOrZooId = (path: string, key: string, value: string) => {
     if (value == "unknown")
       return   // We don't know what we don't know
-    if (value.indexOf("wild") == 0)
-      return   // Born in a wild place
-    if (isNaN(parseInt(value)))
-      throw new Error(`[build] ERR: ${path}: ${key}: non-numeric id: ${value}`)
+    const [prefix, idNumber] = value.split(".")
+    if (!["panda", "wild", "zoo"].includes(prefix))
+      throw new Error(`[build] ERR: ${path}: ${key}: unrecognized id prefix: ${value}`)
+    if (isNaN(parseInt(idNumber)))
+      throw new Error(`[build] ERR: ${path}: ${key}: non-numeric suffix: ${value}`)
   }
 
   /** 
    * Animals w/o location fields need birthplace and current zoo to match.
-   * Unknown birthplaces (-1) are omitted from this check.
+   * Unknown birthplaces are omitted from this check.
    */
   assertYoungPandaLocation = (vertex: NodePanda) => {
     if (!vertex.locations && vertex.birthplace != "unknown" && vertex.zoo)
@@ -459,25 +462,24 @@ export class Dataset {
    */
   edgesForPandaFamilies = (vertex: NodePanda) => {
     if (vertex.children) {
-      vertex.children.map((item: string) => {
-        if (item == "none") {
+      vertex.children.map(item => {
+        if (item === "none") {
           this.graph.addEdge({
             "_in": "none",
             "_label": "family",
             "_out": vertex._id
           })
-        } else if (item.includes("/")) {
+        } else if (typeof item === "string" && item.includes("/")) {
           const [childId, childPercent] = item.trim().split(" ")
           this.graph.addEdge({
-            "_in": parseInt(childId),
+            "_in": `panda.${childId}`,
             "_label": "family",
             "_out": vertex._id,
             "probability": childPercent
           })
         } else {
-          const childId = parseInt(item)
           this.graph.addEdge({
-            "_in": childId,
+            "_in": `panda.${item}`,
             "_label": "family",
             "_out": vertex._id
           })
@@ -485,17 +487,16 @@ export class Dataset {
       })
     }
     if (vertex.litter) {
-      vertex.litter.map((item: string) => {
-        if (item == "none") {
+      vertex.litter.map(item => {
+        if (item === "none") {
           this.graph.addEdge({
             "_in": "none",
             "_label": "litter",
             "_out": vertex._id
           })
         } else {
-          const litterId = parseInt(item)
           this.graph.addEdge({
-            "_in": litterId,
+            "_in": `panda.${item}`,
             "_label": "litter",
             "_out": vertex._id
           })
@@ -510,35 +511,29 @@ export class Dataset {
    */
   edgesForPandaLocations = (vertex: NodePanda) => {
     if (vertex.birthplace) {
-      // Wild locations are string IDs
-      if ((typeof vertex.birthplace === "string") && 
-          (vertex.birthplace.indexOf("wild") == 0)) {
-        this.graph.addEdge({
-          "_in": vertex.birthplace,
-          "_label": "birthplace",
-          "_out": vertex._id
-        })
-      } else if (typeof vertex.birthplace === "string") {
-        this.graph.addEdge({
-          "_in": parseInt(vertex.birthplace) * -1,
-          "_label": "birthplace",
-          "_out": vertex._id
-        })         
-      // Zoo IDs are cast to negative numbers when added to the graph
-      } else if (typeof vertex.birthplace === "number") {
-        this.graph.addEdge({
-          "_in": vertex.birthplace * -1,
-          "_label": "birthplace",
-          "_out": vertex._id
-        })
-      }
+      // Birthplace values are `zoo.<ID>` or `wild.<ID>` suffix numbers
+      this.graph.addEdge({
+        "_in": vertex.birthplace,
+        "_label": "birthplace",
+        "_out": vertex._id
+      })
       // Now tracked as an edge, not a vertex property
       delete vertex.birthplace
     }
-    // Zoo IDs are cast to negative numbers when added to the graph
-    if (vertex.zoo) {
+    if (vertex.wild) {
+      // Wild values are `wild.<ID>` suffix numbers
       this.graph.addEdge({
-        "_in": vertex.zoo * -1,
+        "_in": `wild.${vertex.wild}`,
+        "_label": "wild",
+        "_out": vertex._id
+      })
+      // Now tracked as an edge, not a vertex property
+      delete vertex.wild
+    }
+    if (vertex.zoo) {
+      // Zoo values are `zoo.<ID>` suffix numbers
+      this.graph.addEdge({
+        "_in": `zoo.${vertex.zoo}`,
         "_label": "zoo",
         "_out": vertex._id
       })
@@ -994,8 +989,12 @@ export class Dataset {
         first: {},
         last: {},
         name: {},
-        "language.order": vertex[`${linkKey}.language.order`],
         url: vertex[linkKey]
+      }
+      // language.order is optional
+      if (vertex[`${linkKey}.language.order`]) {
+        linkObject["language.order"] = vertex[`${linkKey}.language.order`]
+        delete vertex[`${linkKey}.language.order`]
       }
       for (const subKey of ["first", "last", "name"])
         processLanguageString(linkObject, linkKey, subKey)
@@ -1003,7 +1002,6 @@ export class Dataset {
       // Once we've made objects out of the items on this vertex, delete the
       // source keys that information originated from.
       delete vertex[linkKey]
-      delete vertex[`${linkKey}.language.order`]
     })
   }
 
@@ -1018,7 +1016,7 @@ export class Dataset {
     const locationKeys = Object.keys(vertex).filter(key => key.match(/location\.\d+$/))
     locationKeys.forEach(locationKey => {
       const [zoo, dateString] = vertex[locationKey].split(", ")
-      this.assertValidPandaOrZooId(vertex.path, locationKey, zoo)
+      this.assertValidPandaWildOrZooId(vertex.path, locationKey, zoo)
       this.assertDateExistsAndIsValid(vertex.path, locationKey, dateString)
       const location = {
         _id: zoo,
@@ -1035,7 +1033,7 @@ export class Dataset {
         if (vertex.wild && vertex.wild != "unknown" && location._id != vertex.wild)
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match wild ${vertex.wild}`)
-        if (vertex.zoo && location._id != vertex.zoo) {
+        if (vertex.zoo && location._id != "unknown" && location._id != `zoo.${vertex.zoo}`) {
           throw new Error(
             `[build] ERR: ${vertex.path}: ${locationKey}: doesn't match zoo ${vertex.zoo}`)
         }
@@ -1129,28 +1127,34 @@ export class Dataset {
     const working: Vertex = structuredClone(entity)
     /** And convert complicated things back to strings */
     if ("links" in entity) {
-      working.links.map((link: URLLink, index: number) => {
+      entity.links.map((link: URLLink, index: number) => {
         const naturalIndex = index + 1
         working[`link.${naturalIndex}`] = link.url
-        working[`link.${naturalIndex}.language.order`] =
-          Array.from(link["language.order"]).join(", ")
-        Object.keys(working.names).forEach(langKey =>
-          working[`link.${naturalIndex}.${langKey}.name`] = working.name[langKey])
+        if (link["language.order"])
+          working[`link.${naturalIndex}.language.order`] =
+            distinct(link["language.order"]).join(", ")
+        Object.keys(link.name).forEach(langKey =>
+          working[`link.${naturalIndex}.${langKey}.name`] = link.name[langKey])
+        if (link.first)
+          Object.keys(link.first).forEach(langKey =>
+            working[`link.${naturalIndex}.${langKey}.first`] = link.first![langKey])
+        if (link.last)
+          Object.keys(link.last).forEach(langKey =>
+            working[`link.${naturalIndex}.${langKey}.last`] = link.last![langKey])
       })
     }
     delete working.links
     return working
   }
 
-  /** TODO: stricter typing on entity, oldnames in PandaNode */
-  renderMediaObject = (entity: Vertex) => {
-    const working = structuredClone(entity)
+  renderMediaObject = (entity: NodeMedia) => {
+    /** Get all the basic stringly-stuff */
+    const working: Vertex = structuredClone(entity)
+    /** And convert complicated things back to strings */
     if ("panda.tags" in working)
-      working['panda.tags'] = working['panda.tags'].join(', ')
-    if ("language.order" in working)
-      working['language.order'] = working['language.order'].join(', ')
-    if ("photos" in working) {
-      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
+      working['panda.tags'] = entity['panda.tags'].join(', ')
+    if ("photos" in entity) {
+      entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
@@ -1159,12 +1163,10 @@ export class Dataset {
           working[`photo.${naturalIndex}.link`] = photo.source
         if (photo.tags)
           working[`photo.${naturalIndex}.tags`] = photo.tags.join(', ')
-        if (photo.coordinates) {
-          Object.entries(photo.coordinates).map((entry: [string, [number, number]]) => {
-            const [pandaId, coordinates] = entry
-            working[`photo.${naturalIndex}.tags.${pandaId}.coordinates`] = coordinates.join(', ')
-          })
-        }
+        Object.entries(photo.coordinates).map((entry: [string, [number, number]]) => {
+          const [pandaId, coordinates] = entry
+          working[`photo.${naturalIndex}.tags.${pandaId}.coordinates`] = coordinates.join(', ')
+        })
       })
     }
     //@ts-ignore
@@ -1177,43 +1179,48 @@ export class Dataset {
     return working
   }
   
-  /** TODO: stricter typing on entity, oldnames in PandaNode */
-  renderPandaObject = (entity: Vertex, edges: Edge[]) => {
-    const working = structuredClone(entity)
+  renderPandaObject = (entity: NodePanda, edges: Edge[]) => {
+    const working: Vertex = structuredClone(entity)
     // Unknown gender is just elided in the JSON. Add it back
-    if ("gender" in working)
-      working.gender = (working.gender == "Female") ? "f" : "m"
+    if ("gender" in entity)
+      working.gender = (entity.gender == "Female") ? "f" : "m"
     else
       working.gender = "unknown"
-    if ("language.order" in working)
+    if ("language.order" in entity)
       working['language.order'] =
-        Array.from(working['language.order']).join(', ')
-    if ("locations" in working) {
-      working.locations.map((location: PandaLocation, index: number) => {
+        distinct(entity['language.order']).join(', ')
+    if ("locations" in entity) {
+      entity.locations.map((location: PandaLocation, index: number) => {
         const naturalIndex = index + 1
         working[`location.${naturalIndex}`] = `${location._id}, ${location.date}`
       })
     }
-    if ("name" in working) {
-      Object.keys(working.name).map(language =>
-        working[`${language}.name`] = working.name[language])
+    if ("name" in entity) {
+      Object.keys(entity.name).map(language =>
+        working[`${language}.name`] = entity.name[language as Language])
     }
-    if ("nicknames" in working) {
-      Object.keys(working.nicknames).map(language =>
-        working[`${language}.nicknames`] = working.nicknames[language].join(", "))
+    if ("nicknames" in entity) {
+      Object.keys(entity.nicknames).map(language =>
+        working[`${language}.nicknames`] =
+          // @ts-ignore
+          entity.nicknames[language as Language].join(", "))
     }
-    if ("oldnames" in working) {
-      Object.keys(working.oldnames).map(language =>
-        working[`${language}.oldnames`] = working.oldnames[language].join(", "))
+    if ("oldnames" in entity) {
+      Object.keys(entity.oldnames).map(language =>
+        working[`${language}.oldnames`] =
+          // @ts-ignore
+          entity.oldnames[language as Language].join(", "))
     }
-    if ("othernames" in working) {
-      Object.keys(working.othernames).map(language =>
-        working[`${language}.othernames`] = working.othernames[language].join(", "))
+    if ("othernames" in entity) {
+      Object.keys(entity.othernames).map(language =>
+        working[`${language}.othernames`] =
+          // @ts-ignore
+          entity.othernames[language as Language].join(", "))
     }
     if ("photos" in working) {
       // Prior to adding the photos back to the dataset, sort them by either
       // their URL locators or by their commitdate
-      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
+      entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author
@@ -1225,34 +1232,26 @@ export class Dataset {
       })
     }
     // Add back the data from the edges
-    // TODO: differentiate between media, panda objects, wild objects, and zoo objects
     working.birthplace = "unknown"
     working.children = []
     working.litter = []
     edges.map(edge => {
       switch (edge._label) {
         case "birthplace":
-          if (typeof edge._in._id === "string" && edge._in._id.includes("wild"))
-            working.birthplace = edge._in._id
-          else if (typeof edge._in._id === "string")
-            working.birthplace = parseInt(edge._in._id) * -1
-          else if (typeof edge._in._id === "number")
-            working.birthplace = edge._in._id * -1
+          working.birthplace = edge._in._id
           break
         case "family":
           if (edge.probability)
-            working.children.push(`${edge._in._id} ${edge.probability}`)
+            working.children.push(`${num(edge._in._id)} ${edge.probability}`)
           else
-            working.children.push(edge._in._id)
+            working.children.push(`${num(edge._in._id)}`)
           break
         case "litter":
-          working.litter.push(edge._in._id)
+          working.litter.push(`${num(edge._in._id)}`)
           break
         case "zoo":
-          if (typeof edge._in._id === "string")
-            working.zoo = parseInt(edge._in._id) * -1
-          if (typeof edge._in._id === "number")
-            working.zoo = edge._in._id * -1
+          if (edge._in._id.startsWith("zoo"))
+            working.zoo = num(edge._in._id)
           break
         default:
           console.log(`[dataset] unknown edge type: ${edge._label}`)
@@ -1284,31 +1283,30 @@ export class Dataset {
     return working
   }
   
-  /** TODO: stricter typing on entity, oldnames in PandaNode */
-  renderZooObject = (entity: Vertex) => {
-    const working = structuredClone(entity)
-    if ((typeof working._id === "number") && (entity.type == "zoo"))
-      working._id = working._id * -1
-    if ("address" in working) {
-      Object.keys(working.address).map(language =>
-        working[`${language}.address`] = working.address[language])
+  renderZooObject = (entity: NodeZoo | NodeWild) => {
+    const working: Vertex = structuredClone(entity)
+    if ("address" in entity) {
+      Object.keys(entity.address).map(language =>
+        working[`${language}.address`] = entity.address[language as Language])
     }
-    if ("language.order" in working)
-      working['language.order'] = working['language.order'].join(', ')
-    if ("location" in working) {
-      Object.keys(working.location).map(language =>
-        working[`${language}.location`] = working.location[language])
+    if ("language.order" in entity)
+      working['language.order'] = distinct(entity['language.order']).join(', ')
+    if ("location" in entity) {
+      Object.keys(entity.location).map(language =>
+        working[`${language}.location`] = entity.location[language as Language])
     }
-    if ("name" in working) {
-      Object.keys(working.name).map(language =>
-        working[`${language}.name`] = working.name[language])
+    if ("name" in entity) {
+      Object.keys(entity.name).map(language =>
+        working[`${language}.name`] = entity.name[language as Language])
     }
-    if ("othernames" in working) {
-      Object.keys(working.othernames).map(language =>
-        working[`${language}.othernames`] = working.othernames[language].join(", "))
+    if ("othernames" in entity) {
+      Object.keys(entity.othernames).map(language =>
+        working[`${language}.othernames`] =
+          // @ts-ignore
+          entity.othernames[language as Language].join(", "))
     }
-    if ("photos" in working) {
-      working.photos.sort(byPhotoUri).map((photo: Photo, index: number) => {
+    if ("photos" in entity) {
+      entity.photos.sort(byPhotoUri).map((photo, index) => {
         const naturalIndex = index + 1
         working[`photo.${naturalIndex}`] = photo.url
         working[`photo.${naturalIndex}.author`] = photo.author

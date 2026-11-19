@@ -1,7 +1,7 @@
 [panda]
-_id: 325
+_id: panda.325
 birthday: 2018/6/19
-birthplace: 67
+birthplace: zoo.67
 children: none
 commitdate: 2018/8/31
 en.name: Zeya
@@ -14,8 +14,8 @@ ja.oldnames: none
 ja.othernames: none
 language.order: en, ja
 litter: 324
-location.1: 67, 2018/6/19
-location.2: 44, 2019/4/14
+location.1: zoo.67, 2018/6/19
+location.2: zoo.44, 2019/4/14
 photo.1: ig://BltrMMnnf4m/m
 photo.1.author: woodlandparkzoo
 photo.1.commitdate: 2020/6/6

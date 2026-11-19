@@ -1,7 +1,7 @@
 [panda]
-_id: 419
+_id: panda.419
 birthday: 2018/6/6
-birthplace: 93
+birthplace: zoo.93
 children: none
 commitdate: 2018/11/23
 en.name: Dr. Lily
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 93, 2018/6/6
-location.2: 90, 2019/4/1
+location.1: zoo.93, 2018/6/6
+location.2: zoo.90, 2019/4/1
 photo.1: ig://BoNSTAMAfeo/m
 photo.1.author: dmwarnman
 photo.1.commitdate: 2018/11/23

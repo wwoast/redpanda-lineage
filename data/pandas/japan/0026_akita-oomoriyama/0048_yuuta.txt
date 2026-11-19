@@ -1,7 +1,7 @@
 [panda]
-_id: 48
+_id: panda.48
 birthday: 2006/6/2
-birthplace: 8
+birthplace: zoo.8
 children: 214
 commitdate: 2018/6/19
 death: 2022/5/23
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 72
-location.1: 8, 2006/6/2
-location.2: 26, 2008/10/18
+location.1: zoo.8, 2006/6/2
+location.2: zoo.26, 2008/10/18
 photo.1: cwdc://WH0cAgiADQA.jpg
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/1

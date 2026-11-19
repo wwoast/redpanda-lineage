@@ -1,7 +1,7 @@
 [panda]
-_id: 329
+_id: panda.329
 birthday: 2006/8/1
-birthplace: 40
+birthplace: zoo.40
 children: none
 commitdate: 2018/9/8
 death: 2026/1/4
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 330
-location.1: 40, 2006/8/1
-location.2: 3, 2009/11/19
+location.1: zoo.40, 2006/8/1
+location.2: zoo.3, 2009/11/19
 photo.1: cwdc://UXRWMcIADQA.jpg
 photo.1.author: neco_lion
 photo.1.commitdate: 2018/12/26

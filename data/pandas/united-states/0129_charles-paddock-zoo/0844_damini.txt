@@ -1,7 +1,7 @@
 [panda]
-_id: 844
+_id: panda.844
 birthday: 2011/6/17
-birthplace: 49
+birthplace: zoo.49
 children: 845, 846, 553, 847
 commitdate: 2019/4/15
 death: 2016/11/14
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 843
-location.1: 49, 2011/6/17
-location.2: 129, 2012/4/11
+location.1: zoo.49, 2011/6/17
+location.2: zoo.129, 2012/4/11
 photo.1: ig://bXVot7ykLB/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/9/28

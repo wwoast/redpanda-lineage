@@ -1,7 +1,7 @@
 [panda]
-_id: 695
+_id: panda.695
 birthday: 2005/6/12
-birthplace: 109
+birthplace: zoo.109
 children: 820
 commitdate: 2019/9/18
 death: 2025/1/1
@@ -16,9 +16,9 @@ ja.oldnames: ペレ
 ja.othernames: none
 language.order: en, ja
 litter: 696
-location.1: 109, 2005/6/12
-location.2: 144, 2012/11/28
-location.3: 180, 2014/12/4
+location.1: zoo.109, 2005/6/12
+location.2: zoo.144, 2012/11/28
+location.3: zoo.180, 2014/12/4
 photo.1: cwdc://UDzi3HpADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/5/11

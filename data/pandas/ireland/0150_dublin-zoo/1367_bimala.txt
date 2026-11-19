@@ -1,7 +1,7 @@
 [panda]
-_id: 1367
+_id: panda.1367
 birthday: 2021/6/1
-birthplace: 257
+birthplace: zoo.257
 children: none
 commitdate: 2022/7/1
 en.name: Bimala
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 257, 2021/6/1
-location.2: 150, 2022/6/29
+location.1: zoo.257, 2021/6/1
+location.2: zoo.150, 2022/6/29
 photo.1: ig://CdyDpReMd9z/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/7/1

@@ -1,7 +1,7 @@
 [panda]
-_id: 870
+_id: panda.870
 birthday: 2011/7/5
-birthplace: 120
+birthplace: zoo.120
 children: 868, 869
 commitdate: 2019/6/10
 death: 2018/12/6
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: ヤンファ
 language.order: en, ja
 litter: 526
-location.1: 120, 2011/7/5
-location.2: 114, 2012/5/17
-location.3: 160, 2015/12/8
+location.1: zoo.120, 2011/7/5
+location.2: zoo.114, 2012/5/17
+location.3: zoo.160, 2015/12/8
 photo.1: ig://Bq3nDp6HXWz/m
 photo.1.author: keepermerlo
 photo.1.commitdate: 2020/1/23

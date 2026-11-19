@@ -1,14 +1,14 @@
 [panda]
-_id: 1455
+_id: panda.1455
 birthday: 2012/6/12
-birthplace: 296
+birthplace: zoo.296
 children: 1456, 1457, 1458, 1459
 commitdate: 2025/09/18
 en.name: Tai-Jang
 gender: f
 language.order: en
 litter: unknown
-location.1: 296, 2012/6/12
-location.2: 227, 2014/1/1
+location.1: zoo.296, 2012/6/12
+location.2: zoo.227, 2014/1/1
 species: 1
 zoo: 227

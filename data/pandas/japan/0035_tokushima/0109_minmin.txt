@@ -1,7 +1,7 @@
 [panda]
-_id: 109
+_id: panda.109
 birthday: 2010/6/28
-birthplace: 13
+birthplace: zoo.13
 children: 282, 285, 110, 141, 203, 204
 commitdate: 2018/6/24
 death: 2024/4/10
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 26
-location.1: 13, 2010/6/28
-location.2: 35, 2012/4/23
+location.1: zoo.13, 2010/6/28
+location.2: zoo.35, 2012/4/23
 photo.1: cwdc://VOoYq0YADQU.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/4/9

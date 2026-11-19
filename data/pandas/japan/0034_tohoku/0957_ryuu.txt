@@ -1,7 +1,7 @@
 [panda]
-_id: 957
+_id: panda.957
 birthday: 2019/7/2
-birthplace: 9
+birthplace: zoo.9
 children: none
 commitdate: 2019/8/14
 en.name: Ryuu
@@ -13,8 +13,8 @@ ja.nicknames: 歌舞伎
 ja.othernames: none
 language.order: ja, en
 litter: 958
-location.1: 9, 2019/7/2
-location.2: 34, 2023/4/10
+location.1: zoo.9, 2019/7/2
+location.2: zoo.34, 2023/4/10
 photo.1: cwdc://WTUH3rPADQA.jpg
 photo.1.author: saitamazoo
 photo.1.commitdate: 2019/10/21

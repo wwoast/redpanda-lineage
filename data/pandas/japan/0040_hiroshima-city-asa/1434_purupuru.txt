@@ -1,7 +1,7 @@
 [panda]
-_id: 1434
+_id: panda.1434
 birthday: 2024/6/24
-birthplace: 40
+birthplace: zoo.40
 children: none
 commitdate: 2024/7/15
 en.name: Puru-Puru

@@ -1,7 +1,7 @@
 [panda]
-_id: 46
+_id: panda.46
 birthday: 2008/6/27
-birthplace: 8
+birthplace: zoo.8
 children: 962, 963
 commitdate: 2018/6/18
 en.name: Chiita
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 35
-location.1: 8, 2008/6/27
-location.2: 24, 2010/9/16
+location.1: zoo.8, 2008/6/27
+location.2: zoo.24, 2010/9/16
 photo.1: cwdc://VGFynh-ADQA.jpg
 photo.1.author: tama080707
 photo.1.commitdate: 2018/11/18

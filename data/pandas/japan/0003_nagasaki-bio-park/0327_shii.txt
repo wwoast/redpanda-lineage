@@ -1,5 +1,5 @@
 [panda]
-_id: 327
+_id: panda.327
 birthday: 2000/7/13
 birthplace: unknown
 children: 3
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: シイ
 language.order: ja, en
 litter: 585
-location.1: 40, 2000/7/13
-location.2: 3, 2004/1/7
+location.1: zoo.40, 2000/7/13
+location.2: zoo.3, 2004/1/7
 photo.1: cwdc://VprpKFVADQA.jpg
 photo.1.author: gogomakoto
 photo.1.commitdate: 2018/12/26

@@ -1,7 +1,7 @@
 [panda]
-_id: 7
+_id: panda.7
 birthday: 2013/6/20
-birthplace: 1
+birthplace: zoo.1
 children: none
 commitdate: 2018/6/10
 en.name: Rifa

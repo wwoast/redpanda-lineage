@@ -1,7 +1,7 @@
 [panda]
-_id: 378
+_id: panda.378
 birthday: 2018/7/18
-birthplace: 6
+birthplace: zoo.6
 children: none
 commitdate: 2018/10/28
 death: 2025/5/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 376
-location.1: 6, 2018/7/18
-location.2: 292, 2021/7/17
+location.1: zoo.6, 2018/7/18
+location.2: zoo.292, 2021/7/17
 photo.1: cwdc://WacAQbPADQA.jpg
 photo.1.author: animal_love_us
 photo.1.commitdate: 2025/5/10

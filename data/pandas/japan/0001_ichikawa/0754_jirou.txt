@@ -1,7 +1,7 @@
 [panda]
-_id: 754
+_id: panda.754
 birthday: 1990/7/6
-birthplace: 10
+birthplace: zoo.10
 children: 758, 757, 320
 commitdate: 2019/3/29
 death: 2007/8/17
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ジロウ
 language.order: ja, en
 litter: none
-location.1: 10, 1990/7/6
-location.2: 1, 1991/10/18
+location.1: zoo.10, 1990/7/6
+location.2: zoo.1, 1991/10/18
 species: 2
 studbook.id: 9059
 zoo: 1

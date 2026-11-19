@@ -1,7 +1,7 @@
 [panda]
-_id: 45
+_id: panda.45
 birthday: 2012/7/3
-birthplace: 8
+birthplace: zoo.8
 children: none
 commitdate: 2018/8/12
 en.name: Fuuna
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: フウナ
 language.order: ja, en
 litter: 37
-location.1: 8, 2012/7/3
-location.2: 23, 2014/6/3
+location.1: zoo.8, 2012/7/3
+location.2: zoo.23, 2014/6/3
 photo.1: cwdc://VJmoTXVADQF.jpg
 photo.1.author: fuji_safari
 photo.1.commitdate: 2020/1/18

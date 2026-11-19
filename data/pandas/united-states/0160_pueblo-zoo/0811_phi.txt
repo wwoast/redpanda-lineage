@@ -1,7 +1,7 @@
 [panda]
-_id: 811
+_id: panda.811
 birthday: 2014/6/6
-birthplace: 121
+birthplace: zoo.121
 children: none
 commitdate: 2019/4/7
 death: 2018/4/25
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 810
-location.1: 121, 2014/6/6
-location.2: 160, 2015/4/14
+location.1: zoo.121, 2014/6/6
+location.2: zoo.160, 2015/4/14
 photo.1: cwdc://WYr0O2bADQA.jpg
 photo.1.author: keepermerlo
 photo.1.commitdate: 2020/1/23

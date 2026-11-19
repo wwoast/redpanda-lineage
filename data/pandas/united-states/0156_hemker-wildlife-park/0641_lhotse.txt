@@ -1,7 +1,7 @@
 [panda]
-_id: 641
+_id: panda.641
 birthday: 2014/6/14
-birthplace: 141
+birthplace: zoo.141
 children: 926
 commitdate: 2019/3/19
 en.name: Lhotse
@@ -13,11 +13,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 545
-location.1: 141, 2014/6/14
-location.2: 146, 2015/11/23
-location.3: 164, 2017/12/13
-location.4: 165, 2018/3/12
-location.5: 156, 2021/5/12
+location.1: zoo.141, 2014/6/14
+location.2: zoo.146, 2015/11/23
+location.3: zoo.164, 2017/12/13
+location.4: zoo.165, 2018/3/12
+location.5: zoo.156, 2021/5/12
 photo.1: ig://BAYHHKDtuLc/m
 photo.1.author: okczoo
 photo.1.commitdate: 2020/10/13

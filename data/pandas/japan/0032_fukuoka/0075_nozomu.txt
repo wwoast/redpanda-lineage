@@ -1,7 +1,7 @@
 [panda]
-_id: 75
+_id: panda.75
 birthday: 2012/7/5
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2018/6/22
 en.name: Nozomu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 91
-location.1: 10, 2012/7/5
-location.2: 32, 2016/4/10
+location.1: zoo.10, 2012/7/5
+location.2: zoo.32, 2016/4/10
 photo.1: ig://BPperkoArWx/m
 photo.1.author: motohin
 photo.1.commitdate: 2023/11/5

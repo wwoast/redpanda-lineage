@@ -1,149 +1,132 @@
-import Env from './environment.js'
-import * as Geo from './geolocate.js'
-import { fallback_name } from './language.js'
-import * as Pandas from './pandas.js'
-import * as Parse from './parse.js'
-
+import Env from '@redpanda-lineage/ui/environment';
+import * as Geo from '@redpanda-lineage/ui/geolocate';
+import { fallback_name } from '@redpanda-lineage/ui/language';
+import * as Pandas from '@redpanda-lineage/ui/pandas';
+import * as Parse from '@redpanda-lineage/ui/parse';
 /**
  * Query processing for the search box. Translates operators and parameters
  * into a graph search.
  */
-
 // TODO: clear more, like paging stuff? Or manage in localStorage for
 // browser history work?
-/** Reset query environment to defaults, typically after a search is run */
-export function clear() {
-  Env.preserve_case = false
-  Env.output_mode = "entities"
-  Env.specific_photo = undefined
+/** Reset query environment to defaults, typically after a search is run */ export function clear() {
+  Env.preserve_case = false;
+  Env.output_mode = "entities";
+  Env.specific_photo = undefined;
 }
-
-/** Resolve the query string into something */
+/**
+ * Resolve the query string into a results object containing `hits` as well
+ * as the original `query` and the top-level description of how the
+ * input_string was `parsed`.
+ */
 export function result(input_string) {
   // Take the input string and lex it out into tokens
-  const lexed_input = Parse.lexer.generate(input_string)
+  const lexed_input = Parse.lexer.generate(input_string);
   // Parse the lexed input
-  const parse_tree = Parse.tree.generate(lexed_input)
+  const parse_tree = Parse.tree.generate(lexed_input);
   // Build result sets. For now, this should just be very simple result sets
   // based on one of the available search sets
-  const set_nodes = Parse.tree.filter(parse_tree, Parse.tree.tests.sets)
+  const set_nodes = Parse.tree.filter(parse_tree, Parse.tree.tests.sets);
   // Nothing parsed looks like a search set to return results for
   if (set_nodes.length == 0) {
     return {
       "hits": [],
       "parsed": "no_results",
-      "query": input_string,
-    }
+      "query": input_string
+    };
   }
   // Zeroary search, or Single subject search
   const singular_nodes = Parse.tree.filter(set_nodes[0], Parse.tree.tests.singular);
   if (set_nodes.length == 1 && singular_nodes.length == 1) {
-    return single(set_nodes[0], singular_nodes[0])
+    return single(set_nodes[0], singular_nodes[0]);
   }
   // Unary search, or Keyword + Search Term, or Two Keywords
   if (set_nodes.length == 1 && singular_nodes.length == 2) {
-    return pair(set_nodes[0])
+    return pair(set_nodes[0]);
   }
   // Group search
   if (set_nodes.length == 1 && singular_nodes.length > 2) {
-    return group_one_set(set_nodes[0])
+    return group_one_set(set_nodes[0]);
   }
   // Filter search (set nodes inside another set)
   // Start processing based on the outer set. Decide the outer set based on
   // which "set node" is based on a larger portion of the input string
   if (set_nodes.length == 2 && singular_nodes.length > 2) {
-    const start_node = set_nodes.reduce((prev, current) =>
-      (prev.end - prev.start > current.end - current.start) 
-        ? prev
-        : current
-    )
-    return filter_set(start_node)
+    const start_node = set_nodes.reduce((prev, current)=>prev.end - prev.start > current.end - current.start ? prev : current);
+    return filter_set(start_node);
   }
-  // Fallback empty result
+  // Fallback result
   return {
     "hits": [],
     "parsed": "no_results",
-    "query": input_string,
-  }
+    "query": input_string
+  };
 }
-
 /**
  * The parse tree found multiple sets. For now, assume this is a filter set.
  * TODO: generalize
  */
 function filter_set(set_node) {
-  let hits = []
-  let search_word = undefined
-  let filter_word = undefined
-  let parsed = set_node.type
+  let hits = [];
+  let search_word;
+  let filter_word;
+  let parsed = set_node.type;
   if (set_node.type == "set_credit_photos_filtered") {
-    const author_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_author)[0]
-    const filter_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_filter)[0]
-    search_word = author_node.str
-    filter_word = filter_node.str
-    Env.output_mode = "photos"
-    Env.paging.display_button = true
-    const filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n._id)
+    const author_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_author)[0];
+    const filter_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_filter)[0];
+    search_word = author_node.str;
+    filter_word = filter_node.str;
+    Env.output_mode = "photos";
+    Env.paging.display_button = true;
+    const filter_ids = Pandas.searchPandaMedia(filter_word).map((n)=>n._id);
     if (filter_ids.length == 0) {
       // Fall back to normal credit photo search
-      parsed = "set_credit_photos"
-      filter_word = undefined
-    } else {
+      parsed = "set_credit_photos";
+      filter_word = undefined;
+    } else if (parseInt(filter_word) > 0) {
       // If idnum given, show name instead
-      if (parseInt(filter_word) > 0) {
-        filter_word = fallback_name(Pandas.searchPanda(filter_word)[0])
-      }
+      filter_word = fallback_name(Pandas.graphId(filter_word));
     }
-    hits = Pandas.searchPhotoCredit(search_word, filter_ids)
+    hits = Pandas.searchPhotoCredit(search_word, filter_ids);
   }
   return {
     "filter": filter_word,
     "hits": hits,
     "parsed": parsed,
     "query": set_node.str.replace(/\n/g, " "),
-    "subject": search_word,
-  }
+    "subject": search_word
+  };
 }
-/** The parse tree found a group with one set, and many nodes */
-function group_one_set(set_node) {
-  let hits = []
-  const keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
-  let search_word = undefined   // TODO: multi-subject search
-  let tag = undefined
+/** The parse tree found a group with one set, and many nodes */ function group_one_set(set_node) {
+  let hits = [];
+  const keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword);
+  let search_word = undefined // TODO: multi-subject search
+  ;
+  let tag = undefined;
   if (set_node.type == "set_tag_intersection_subject") {
-    const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0]
-    search_word = subject_node.str
-    Env.output_mode = "photos"
-    Env.paging.display_button = true
-    const tags = keyword_nodes
-      .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
-    tag = tags.join(", ")   // For query output
-    hits = Pandas.searchPhotoTags(
-      Pandas.searchPandaMedia(search_word), 
-      tags,
-      "intersect",
-      "none"
-    )
+    const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
+    search_word = subject_node.str;
+    Env.output_mode = "photos";
+    Env.paging.display_button = true;
+    const tags = keyword_nodes.map((keyword_node)=>Parse.searchTag(keyword_node.str)) // All keywords
+    ;
+    tag = tags.join(", "); // For query output
+    hits = Pandas.searchPhotoTags(Pandas.searchPandaMedia(search_word), tags, "intersect", "none");
   }
   if (set_node.type == "set_tag_intersection") {
-    Env.output_mode = "photos"
-    Env.paging.display_button = true
-    const tags = keyword_nodes
-      .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
-    tag = tags.join(", ")   // For query output
-    hits = Pandas.searchPhotoTags(
-      Pandas.allAnimalsAndMedia(), 
-      tags,
-      "intersect",
-      "none"
-    )
+    Env.output_mode = "photos";
+    Env.paging.display_button = true;
+    const tags = keyword_nodes.map((keyword_node)=>Parse.searchTag(keyword_node.str)) // All keywords
+    ;
+    tag = tags.join(", "); // For query output
+    hits = Pandas.searchPhotoTags(Pandas.allAnimalsAndMedia(), tags, "intersect", "none");
   }
   if (set_node.type == "set_only_subjects") {
-    Env.output_mode = "group"
-    const ids = set_node.str.split("\n")
-    hits = Pandas.searchPandaMediaIntersect(ids)
+    Env.output_mode = "group";
+    const ids = set_node.str.split("\n");
+    hits = Pandas.searchPandaMediaIntersect(ids);
     if (hits.length > 0) {
-      Env.paging.display_button = true
+      Env.paging.display_button = true;
     }
   }
   return {
@@ -152,24 +135,23 @@ function group_one_set(set_node) {
     "query": set_node.str.replace(/\n/g, " "),
     "subject": search_word,
     "tag": tag
-  }
+  };
 }
 // The parse tree found a single set node, with a pair of nodes underneath it
 function pair(set_node) {
-  let hits = []
-  const keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0]
-  const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0]
-  let search_word = undefined
-  if (subject_node != undefined) {
-    search_word = subject_node.str   // Only set when a subject is given
-  }
-  let tag = undefined
+  let hits = [];
+  const keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0];
+  const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
+  if (keyword_node == undefined || subject_node == undefined) throw new Error("TODO: pair set processing error");
+  const search_word = subject_node.str // Only set when a subject is given
+  ;
+  let tag;
   if (set_node.type == "set_keyword_date") {
     if (Parse.group.born.includes(keyword_node.str)) {
-      hits = Pandas.searchBirthdayList(search_word)
+      hits = Pandas.searchBirthdayList(search_word);
     }
     if (Parse.group.dead.includes(keyword_node.str)) {
-      hits = Pandas.searchDiedList(search_word)
+      hits = Pandas.searchDiedList(search_word);
     }
   }
   if (set_node.type == "set_keyword_subject") {
@@ -177,65 +159,65 @@ function pair(set_node) {
     // Subject may be ambiguous (number as either id or year) but is clarified by
     // the additional keyword that is provided
     if (Parse.group.born_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooBornRecords(search_word, true)
+      hits = Pandas.searchPandaZooBornRecords(search_word, true);
     }
     if (Parse.group.died_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooDied(search_word, 0)
+      hits = Pandas.searchPandaZooDied(search_word, 0);
     }
     if (Parse.group.lived_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooBornLived(search_word, true)
+      hits = Pandas.searchPandaZooBornLived(search_word, true);
     }
     if (Parse.group.zoo.includes(keyword_node.str)) {
-      hits = Pandas.searchZooName(search_word)
+      hits = Pandas.searchZooName(search_word);
     }
     if (Parse.group.panda.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaName(search_word)
+      hits = Pandas.searchPandaName(search_word);
     }
     if (Parse.group.dead.includes(keyword_node.str)) {
-      hits = Pandas.searchDead(search_word)
+      hits = Pandas.searchDead(search_word);
     }
   }
   if (set_node.type == "set_panda_id") {
-    hits = Pandas.searchPandaId(search_word)
+    hits = [
+      Pandas.graphId(search_word)
+    ];
   }
   if (set_node.type == "set_zoo_id") {
-    hits = Pandas.searchZooId(search_word)
+    hits = [
+      Pandas.graphId(search_word)
+    ];
   }
   if (set_node.type == "set_credit_photos") {
-    Env.output_mode = "photos"
-    Env.paging.display_button = true
-    hits = Pandas.searchPhotoCredit(search_word)
+    Env.output_mode = "photos";
+    Env.paging.display_button = true;
+    hits = Pandas.searchPhotoCredit(search_word);
   }
   if (set_node.type == "set_babies_year_list") {
-    hits = Pandas.searchBabies(search_word)
+    hits = Pandas.searchBabies(search_word);
   }
-  if ((set_node.type == "set_tag_subject") ||
-      (set_node.type == "set_baby_subject")) {
-    Env.output_mode = "photos"
-    Env.paging.display_button = true
-    tag = Parse.searchTag(keyword_node.str)
-    const animals = Pandas.searchPandaMedia(search_word)
-    hits = Pandas.searchPhotoTags(animals, [tag], "photos", "none")
+  if (set_node.type == "set_tag_subject" || set_node.type == "set_baby_subject") {
+    Env.output_mode = "photos";
+    Env.paging.display_button = true;
+    tag = Parse.searchTag(keyword_node.str);
+    const animals = Pandas.searchPandaMedia(search_word);
+    hits = Pandas.searchPhotoTags(animals, [
+      tag
+    ], "photos", "none");
   }
   if (set_node.type == "set_tag_intersection") {
-    Env.output_mode = "photos"
-    Env.paging.display_button = true
-    const tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
-      .map(keyword_node => Parse.searchTag(keyword_node.str))   // All keywords
-    tag = tags.join(", ")   // For query output
-    hits = Pandas.searchPhotoTags(
-      Pandas.allAnimalsAndMedia(), 
-      tags,
-      "intersect",
-      "none"
-    )
+    Env.output_mode = "photos";
+    Env.paging.display_button = true;
+    const tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword).map((keyword_node)=>Parse.searchTag(keyword_node.str)) // All keywords
+    ;
+    tag = tags.join(", "); // For query output
+    hits = Pandas.searchPhotoTags(Pandas.allAnimalsAndMedia(), tags, "intersect", "none");
   }
   if (set_node.type == "set_only_subjects") {
-    Env.output_mode = "group"
-    const ids = set_node.str.split("\n")
-    hits = Pandas.searchPandaMediaIntersect(ids)
+    Env.output_mode = "group";
+    const ids = set_node.str.split("\n");
+    hits = Pandas.searchPandaMediaIntersect(ids);
     if (hits.length > 0) {
-      Env.paging.display_button = true
+      Env.paging.display_button = true;
     }
   }
   return {
@@ -244,61 +226,53 @@ function pair(set_node) {
     "query": set_node.str.replace(/\n/g, " "),
     "subject": search_word,
     "tag": tag
-  }
+  };
 }
 // The parse tree found only a single term for searching
 function single(set_node, singular_node) {
-  let hits = []
-  const search_word = singular_node.str
+  let hits = [];
+  const search_word = singular_node.str;
   if (set_node.type == "set_subject") {
     // subject_id on its own should be a panda
-    if (singular_node.type == "subject_id")
-      hits = Pandas.searchPandaId(search_word)
+    if (singular_node.type == "subject_id") hits = [
+      Pandas.graphId(search_word)
+    ];
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
-      const panda_hits = Pandas.searchPandaName(search_word)
-      const zoo_hits = Pandas.searchZooName(search_word)
-      hits = (panda_hits.length >= zoo_hits.length)
-                ? panda_hits
-                : zoo_hits;
+      const panda_hits = Pandas.searchPandaName(search_word);
+      const zoo_hits = Pandas.searchZooName(search_word);
+      hits = panda_hits.length >= zoo_hits.length ? panda_hits : zoo_hits;
     }
     // subject_date is treated like a birthday on its own
-    if (singular_node.type == "subject_date")
-      hits = Pandas.searchBirthdayList(search_word)
-    // subject_year isn't valid on its own
+    if (singular_node.type == "subject_date") hits = Pandas.searchBirthdayList(search_word);
+  // subject_year isn't valid on its own
   }
   if (set_node.type == "set_keyword") {
-    if (Parse.group.baby.includes(search_word))
-      hits = Pandas.searchBabies()
+    if (Parse.group.baby.includes(search_word)) hits = Pandas.searchBabies();
     if (Parse.group.nearby.includes(search_word)) {
-      Env.output_mode = "nearby"
-      if (Geo.state.resolved == false)
-        Geo.getNaiveLocation()
-      // If we're still on a query page and another action hasn't occurred,
-      // display the zoo results when we're done.
+      Env.output_mode = "nearby";
+      if (Geo.state.resolved == false) Geo.getNaiveLocation();
+    // If we're still on a query page and another action hasn't occurred,
+    // display the zoo results when we're done.
     }
-    if (Parse.group.dead.includes(search_word))
-      hits = Pandas.searchDead()
+    if (Parse.group.dead.includes(search_word)) hits = Pandas.searchDead();
   }
   if (set_node.type == "set_tag") {
     if (Parse.group.tags.includes(search_word)) {
-      Env.output_mode = "photos"
-      Env.paging.display_button = true
+      Env.output_mode = "photos";
+      Env.paging.display_button = true;
       // Find the canonical tag to do the searching by
-      const tag = Parse.searchTag(search_word)
+      const tag = Parse.searchTag(search_word);
       // TODO: search media photos for all the animals by id, and include
       // in the searchPhotoTags animals set
-      hits = Pandas.searchPhotoTags(
-        Pandas.allAnimalsAndMedia(), 
-        [tag],
-        "photos",
-        "none"
-      )
+      hits = Pandas.searchPhotoTags(Pandas.allAnimalsAndMedia(), [
+        tag
+      ], "photos", "none");
     }
   }
   return {
     "hits": hits,
     "parsed": set_node.type,
     "query": set_node.str.replace(/\n/g, " ")
-  }
+  };
 }

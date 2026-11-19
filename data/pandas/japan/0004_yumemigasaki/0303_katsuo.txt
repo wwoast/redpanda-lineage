@@ -1,7 +1,7 @@
 [panda]
-_id: 303
+_id: panda.303
 birthday: 2002/7/2
-birthplace: 17
+birthplace: zoo.17
 children: 11, 111, 265, 55, 56
 commitdate: 2018/8/12
 death: 2010/11/30
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 309
-location.1: 17, 2002/7/2
-location.2: 1, 2003/6/18
-location.3: 4, 2009/1/26
+location.1: zoo.17, 2002/7/2
+location.2: zoo.1, 2003/6/18
+location.3: zoo.4, 2009/1/26
 photo.1: https://www.codaworry.com/images/rpf/katsuo-1-ichikawa.jpg
 photo.1.author: simasima_sippo
 photo.1.commitdate: 2020/12/13

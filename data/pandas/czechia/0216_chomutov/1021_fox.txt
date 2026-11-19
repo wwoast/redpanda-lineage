@@ -1,7 +1,7 @@
 [panda]
-_id: 1021
+_id: panda.1021
 birthday: 2012/7/28
-birthplace: 184
+birthplace: zoo.184
 children: unknown
 commitdate: 2019/11/7
 en.name: Fox
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: きつね
 language.order: en, ja
 litter: 701
-location.1: 184, 2012/7/28
-location.2: 216, 2013/10/17
+location.1: zoo.184, 2012/7/28
+location.2: zoo.216, 2013/10/17
 photo.1: ig://BajqZTMAqj1/m
 photo.1.author: drownedcz
 photo.1.commitdate: 2019/11/10

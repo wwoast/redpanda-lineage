@@ -1,7 +1,7 @@
 [panda]
-_id: 132
+_id: panda.132
 birthday: 2007/6/21
-birthplace: 37
+birthplace: zoo.37
 children: 131, 134
 commitdate: 2018/6/27
 en.name: Rin-Rin
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: りんりん, リンリン
 language.order: ja, en
 litter: unknown
-location.1: 37, 2007/6/21
-location.2: 41, 2010/4/9
+location.1: zoo.37, 2007/6/21
+location.2: zoo.41, 2010/4/9
 photo.1: ig://BJaczxMAYh1/m
 photo.1.author: sbskyy
 photo.1.commitdate: 2018/7/25

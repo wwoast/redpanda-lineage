@@ -1,7 +1,7 @@
 [panda]
-_id: 1284
+_id: panda.1284
 birthday: 2016/6/22
-birthplace: 259
+birthplace: zoo.259
 children: 1283, 1287, 1288
 commitdate: 2021/4/11
 en.name: Justin
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 259, 2016/6/22
-location.2: 282, 2017/3/7
+location.1: zoo.259, 2016/6/22
+location.2: zoo.282, 2017/3/7
 species: 1
 zoo: 282

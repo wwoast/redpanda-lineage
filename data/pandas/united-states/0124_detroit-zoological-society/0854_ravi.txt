@@ -1,7 +1,7 @@
 [panda]
-_id: 854
+_id: panda.854
 birthday: 2016/6/27
-birthplace: 154
+birthplace: zoo.154
 children: 1060, 1231
 commitdate: 2019/5/16
 en.name: Ravi
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 855
-location.1: 154, 2016/6/27
-location.2: 124, 2017/8/11
+location.1: zoo.154, 2016/6/27
+location.2: zoo.124, 2017/8/11
 photo.1: cwdc://WhB9S2oADQB.jpg
 photo.1.author: detroitzoo
 photo.1.commitdate: 2020/9/24

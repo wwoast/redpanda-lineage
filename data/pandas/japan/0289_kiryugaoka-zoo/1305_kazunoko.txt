@@ -1,7 +1,7 @@
 [panda]
-_id: 1305
+_id: panda.1305
 birthday: 2021/8/4
-birthplace: 16
+birthplace: zoo.16
 children: 1472, 1473
 commitdate: 2021/8/18
 en.name: Kazunoko
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 16, 2021/8/4
-location.2: 289, 2024/4/16
+location.1: zoo.16, 2021/8/4
+location.2: zoo.289, 2024/4/16
 photo.1: cwdc://Xu5R8EzADQH.jpg
 photo.1.author: lesserpanda_shizuokacity_cp
 photo.1.commitdate: 2021/9/7

@@ -1,7 +1,7 @@
 [panda]
-_id: 375
+_id: panda.375
 birthday: 2004/7/10
-birthplace: 32
+birthplace: zoo.32
 children: none
 commitdate: 2018/10/27
 death: 2014/8/5
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 32, 2004/7/10
-location.2: 45, 2006/2/1
+location.1: zoo.32, 2004/7/10
+location.2: zoo.45, 2006/2/1
 photo.1: cwdc://WawQfDUADQA.jpg
 photo.1.author: fetorus_mami
 photo.1.commitdate: 2018/10/27

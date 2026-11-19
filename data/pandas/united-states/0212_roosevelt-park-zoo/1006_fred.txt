@@ -1,7 +1,7 @@
 [panda]
-_id: 1006
+_id: panda.1006
 birthday: 2013/5/30
-birthplace: 187
+birthplace: zoo.187
 children: none
 commitdate: 2019/10/27
 en.name: Fred
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1007
-location.1: 187, 2013/5/30
-location.2: 212, 2014/10/14
+location.1: zoo.187, 2013/5/30
+location.2: zoo.212, 2014/10/14
 photo.1: ig://BydAF2zhood/m
 photo.1.author: rpzoominot
 photo.1.commitdate: 2019/10/28

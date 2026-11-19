@@ -1,7 +1,7 @@
 [panda]
-_id: 234
+_id: panda.234
 birthday: 2017/7/15
-birthplace: 37
+birthplace: zoo.37
 children: none
 commitdate: 2018/7/27
 en.name: Mii-Mii
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: ミーミー, ミイミイ, 🧵
 language.order: ja, en
 litter: 233
-location.1: 37, 2017/7/15
-location.2: 2, 2020/3/6
+location.1: zoo.37, 2017/7/15
+location.2: zoo.2, 2020/3/6
 photo.1: cwdc://V_jKKkcADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23

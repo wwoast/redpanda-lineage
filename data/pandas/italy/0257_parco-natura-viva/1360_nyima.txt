@@ -1,7 +1,7 @@
 [panda]
-_id: 1360
+_id: panda.1360
 birthday: 2013/6/25
-birthplace: 263
+birthplace: zoo.263
 children: 1367
 commitdate: 2022/5/22
 en.name: Nyi'ma
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1361
-location.1: 263, 2013/6/25
-location.2: 257, 2014/5/23
+location.1: zoo.263, 2013/6/25
+location.2: zoo.257, 2014/5/23
 photo.1: ig://CUA9GsxKlzI/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/5/22

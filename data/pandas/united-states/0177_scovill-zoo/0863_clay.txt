@@ -1,7 +1,7 @@
 [panda]
-_id: 863
+_id: panda.863
 birthday: 2008/6/28
-birthplace: 141
+birthplace: zoo.141
 children: 865
 commitdate: 2019/6/9
 death: 2016/8/23
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 817
-location.1: 141, 2008/6/28
-location.2: 177, 2009/5/3
+location.1: zoo.141, 2008/6/28
+location.2: zoo.177, 2009/5/3
 photo.1: cwdc://T80CQMfADQA.jpg
 photo.1.author: hughmsullivan
 photo.1.commitdate: 2019/6/9

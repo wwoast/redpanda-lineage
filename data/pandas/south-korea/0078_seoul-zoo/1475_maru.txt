@@ -1,7 +1,7 @@
 [panda]
-_id: 1475
+_id: panda.1475
 birthday: 2026/6/21
-birthplace: 78
+birthplace: zoo.78
 children: none
 commitdate: 2026/8/12
 en.name: Maru

@@ -1,7 +1,7 @@
 [panda]
-_id: 260
+_id: panda.260
 birthday: 2014/8/18
-birthplace: 42
+birthplace: zoo.42
 children: none
 commitdate: 2018/7/28
 en.name: Ichiha
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 259
-location.1: 42, 2014/8/18
-location.2: 147, 2020/3/9
+location.1: zoo.42, 2014/8/18
+location.2: zoo.147, 2020/3/9
 photo.1: ig://BZJDksChCWN/m
 photo.1.author: miis_98
 photo.1.commitdate: 2019/6/23

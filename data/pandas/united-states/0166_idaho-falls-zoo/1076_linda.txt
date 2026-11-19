@@ -1,7 +1,7 @@
 [panda]
-_id: 1076
+_id: panda.1076
 birthday: 2019/6/14
-birthplace: 108
+birthplace: zoo.108
 children: 1306, 1307, 1463, 1464
 commitdate: 2019/12/3
 en.name: Linda
@@ -15,8 +15,8 @@ ja.oldnames: ティア
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 108, 2019/6/14
-location.2: 166, 2021/3/23
+location.1: zoo.108, 2019/6/14
+location.2: zoo.166, 2021/3/23
 photo.1: ig://B0waQJEAvul/m
 photo.1.author: tennesseetrailsphotography
 photo.1.commitdate: 2019/12/5

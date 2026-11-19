@@ -1,7 +1,7 @@
 [panda]
-_id: 487
+_id: panda.487
 birthday: 2006/6/20
-birthplace: 10
+birthplace: zoo.10
 children: 133, 32, 366
 commitdate: 2018/12/11
 death: 2010/4/19
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 54, 291
-location.1: 10, 2006/6/20
-location.2: 15, 2009/1/30
+location.1: zoo.10, 2006/6/20
+location.2: zoo.15, 2009/1/30
 photo.1: https://www.codaworry.com/images/rpf/tsubasa-1-ikeda.jpg
 photo.1.author: gachon_kudo
 photo.1.commitdate: 2019/4/9

@@ -1,7 +1,7 @@
 [panda]
-_id: 135
+_id: panda.135
 birthday: 2004/6/28
-birthplace: 46
+birthplace: zoo.46
 children: 32, 366, 257, 258, 302, 483, 195, 201, 259, 260
 commitdate: 2018/6/27
 death: 2022/1/18
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 477
-location.1: 46, 2004/6/28
-location.2: 15, 2005/4/18
-location.3: 42, 2010/12/22
+location.1: zoo.46, 2004/6/28
+location.2: zoo.15, 2005/4/18
+location.3: zoo.42, 2010/12/22
 photo.1: cwdc://WMb4t_QADQA.jpg
 photo.1.author: yossi929
 photo.1.commitdate: 2018/7/19

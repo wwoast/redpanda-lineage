@@ -1,5 +1,5 @@
 [panda]
-_id: 1150
+_id: panda.1150
 birthday: 2014/6/21
 birthplace: unknown
 children: unknown
@@ -17,7 +17,7 @@ ja.othernames: none
 language.order: fr, zh, en, ja
 litter: unknown
 location.1: unknown, 2014/6/21
-location.2: 238, 2015/3/6
+location.2: zoo.238, 2015/3/6
 photo.1: ig://5WWaAoDwRS/m
 photo.1.author: parcsaintecroix
 photo.1.commitdate: 2020/3/31

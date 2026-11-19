@@ -1,7 +1,7 @@
 [panda]
-_id: 1165
+_id: panda.1165
 birthday: 2002/6/29
-birthplace: 226
+birthplace: zoo.226
 children: 1166, 1167, 1153, 1154
 commitdate: 2020/5/17
 death: 2017/12/12
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 226, 2002/6/29
-location.2: 197, 2003/5/8
-location.3: 214, 2008/3/14
+location.1: zoo.226, 2002/6/29
+location.2: zoo.197, 2003/5/8
+location.3: zoo.214, 2008/3/14
 photo.1: ig://BE_EW_xStd1/m
 photo.1.author: paradisewildlifepark
 photo.1.commitdate: 2020/5/17

@@ -1,7 +1,7 @@
 [panda]
-_id: 558
+_id: panda.558
 birthday: 2014/6/23
-birthplace: 108
+birthplace: zoo.108
 children: 1221, 1222, 1223, 1406, 1407
 commitdate: 2019/3/10
 en.name: Randy
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 914
-location.1: 108, 2014/6/23
-location.2: 115, 2016/2/5
+location.1: zoo.108, 2014/6/23
+location.2: zoo.115, 2016/2/5
 photo.1: ig://BgJj0ktD3hp/m
 photo.1.author: kansascityzoo
 photo.1.commitdate: 2019/12/5

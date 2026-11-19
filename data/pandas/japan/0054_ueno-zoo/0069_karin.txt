@@ -1,7 +1,7 @@
 [panda]
-_id: 69
+_id: panda.69
 birthday: 2012/7/28
-birthplace: 6
+birthplace: zoo.6
 children: 194
 commitdate: 2018/7/30
 en.name: Karin
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 130
-location.1: 6, 2012/7/28
-location.2: 50, 2015/12/1
-location.3: 54, 2020/5/1
+location.1: zoo.6, 2012/7/28
+location.2: zoo.50, 2015/12/1
+location.3: zoo.54, 2020/5/1
 photo.1: cwdc://WN3EUHsADQA.jpg
 photo.1.author: makimaru18
 photo.1.commitdate: 2018/7/26

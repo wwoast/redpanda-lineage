@@ -1,7 +1,7 @@
 [panda]
-_id: 31
+_id: panda.31
 birthday: 2005/6/23
-birthplace: 10
+birthplace: zoo.10
 children: 113, 239
 commitdate: 2018/6/18
 death: 2016/2/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 21, 82
-location.1: 10, 2005/6/23
-location.2: 14, 2006/11/29
+location.1: zoo.10, 2005/6/23
+location.2: zoo.14, 2006/11/29
 photo.1: https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/33/92/07/650x_33920761.jpg?updated_at=1403353864
 photo.1.author: jilllucaさん
 photo.1.commitdate: 2018/8/31

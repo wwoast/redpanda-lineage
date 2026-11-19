@@ -1,7 +1,7 @@
 [panda]
-_id: 1063
+_id: panda.1063
 birthday: 2012/6/14
-birthplace: 226
+birthplace: zoo.226
 children: 1456, 1457, 1458, 1459
 commitdate: 2019/11/29
 en.name: Bai-Jiao
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: バイジャオ, 白角
 language.order: ja, en
 litter: 1062
-location.1: 226, 2012/6/14
-location.2: 227, 2013/7/2
+location.1: zoo.226, 2012/6/14
+location.2: zoo.227, 2013/7/2
 species: 1
 zh.name: 白角
 zh.nicknames: none

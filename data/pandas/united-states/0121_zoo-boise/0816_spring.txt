@@ -1,7 +1,7 @@
 [panda]
-_id: 816
+_id: panda.816
 birthday: unknown
-birthplace: 121
+birthplace: zoo.121
 children: none
 commitdate: 2019/4/7
 en.name: Spring

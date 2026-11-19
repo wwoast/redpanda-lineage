@@ -1,7 +1,7 @@
 [panda]
-_id: 632
+_id: panda.632
 birthday: 2010/6/24
-birthplace: 146
+birthplace: zoo.146
 children: 1069, 1184
 commitdate: 2020/3/15
 death: 2019/5/16
@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 633
-location.1: 146, 2010/6/24
-location.2: 75, 2011/4/12
-location.3: 154, 2016/6/22
-location.4: 159, 2016/10/25
-location.5: 186, 2018/11/1
+location.1: zoo.146, 2010/6/24
+location.2: zoo.75, 2011/4/12
+location.3: zoo.154, 2016/6/22
+location.4: zoo.159, 2016/10/25
+location.5: zoo.186, 2018/11/1
 photo.1: ig://BaJ-9ScAXD9/m
 photo.1.author: clevbuck86
 photo.1.commitdate: 2020/3/15

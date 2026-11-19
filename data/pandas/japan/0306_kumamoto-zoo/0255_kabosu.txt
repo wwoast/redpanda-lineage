@@ -1,7 +1,7 @@
 [panda]
-_id: 255
+_id: panda.255
 birthday: 2018/6/28
-birthplace: 19
+birthplace: zoo.19
 children: 1415, 1468
 commitdate: 2019/3/18
 en.name: Kabosu
@@ -15,8 +15,8 @@ ja.oldnames: こみかん
 ja.othernames: かぼす
 language.order: ja, en
 litter: none
-location.1: 19, 2018/6/28
-location.2: 306, 2022/3/13
+location.1: zoo.19, 2018/6/28
+location.2: zoo.306, 2022/3/13
 photo.1: ig://BogDVgwlBm0/m
 photo.1.author: yossi929
 photo.1.commitdate: 2018/10/4

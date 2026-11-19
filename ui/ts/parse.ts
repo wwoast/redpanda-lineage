@@ -1,7 +1,8 @@
-import * as Jsleri from '../js/jsleri-1.1.15.js'
-import { capitalNames } from './language.ts'
-import { Defaults, Polyglots, Tags } from './lookup.ts'
-import P, { distinct, values } from './pandas.ts'
+import * as Jsleri from '@dependencies/jsleri'
+import { distinct } from '@redpanda-lineage/data/export'
+import { capitalNames } from '@redpanda-lineage/ui/language'
+import { Defaults, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import P, { values } from '@redpanda-lineage/ui/pandas'
 
 /**
  * Given a search tag, find the equivalent term for that tag that is
@@ -774,7 +775,7 @@ class Tree {
         return "subject_name"
       if (node.element.re == regex.year)
         return "subject_year"
-      if (Object.values(regex.date).indexOf(node.element.re) != -1)
+      if (Object.values(regex.date).includes(node.element.re))
         return "subject_date"
     }
     return node.type   // Fallback, don't change anything
@@ -795,19 +796,19 @@ class Tree {
         return "set_keywords"
       if (singulars[0].indexOf("subject") == 0 && singulars[1] == "tag")
         return "set_tag_subject"
-      if (singulars[0] == "keyword" && singulars[1].indexOf("subject") == 0)
+      if (singulars[0] == "keyword" && singulars[1].startsWith("subject"))
         return "set_keyword_subject"
       if (singulars[0] == "tag" && singulars[1] == "tag")
         return "set_tag_intersection"
-      if (singulars[0].indexOf("subject") == 0 && singulars[1].indexOf("subject") == 0)
+      if (singulars[0].startsWith("subject") && singulars[1].startsWith("subject"))
         return "set_only_subjects"
     }
     // Handle the credit <author> <panda-name-or-id-filter> form
     // TODO: if we have more of this "filter style form" change this logic
     if (singulars.length == 3) {
       if (singulars[0] == "keyword" &&
-          singulars[1].indexOf("subject") == 0 &&
-          singulars[2].indexOf("subject") == 0) {
+          singulars[1].startsWith("subject") &&
+          singulars[2].startsWith("subject")) {
         return "set_credit_photos_filtered"
       }
     }
@@ -816,11 +817,11 @@ class Tree {
       if (distinct(singulars).length == 1 && singulars[0] == "tag")
         return "set_tag_intersection"
       if (distinct(singulars).length == 2 && 
-          singulars[0].indexOf("subject") == 0 &&
+          singulars[0].startsWith("subject") &&
           singulars[1] == "tag") {
         return "set_tag_intersection_subject"
       }
-      if (distinct(singulars).length == 1 && singulars[0].indexOf("subject") == 0)
+      if (distinct(singulars).length == 1 && singulars[0].startsWith("subject"))
         return "set_only_subjects"
     }
     // Fallback for things we don't recognize
@@ -925,7 +926,7 @@ class Tree {
   walk_to_subject_container(node: ParserNode): ParserNode {
     const parent_type = this.node_type_composite_ids(node.parent)
     node.parent.type = parent_type   // Set parent node types as we walk
-    if (parent_type.indexOf("contains") == 0) {
+    if (parent_type.startsWith("contains")) {
       return this.walk_to_subject_container(node.parent)
     } else {
       return node.parent

@@ -1,7 +1,7 @@
 [panda]
-_id: 1349
+_id: panda.1349
 birthday: 2008/7/22
-birthplace: 291
+birthplace: zoo.291
 children: 1351, 1352, 1355, 1356, 1358, 1359
 commitdate: 2022/4/18
 death: 2024/5/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: zh, en, ja
 litter: unknown
-location.1: 291, 2008/7/22
-location.2: 55, 2014/6/6
+location.1: zoo.291, 2008/7/22
+location.2: zoo.55, 2014/6/6
 photo.1: cwdc://X7cDSY3ADQA.jpg
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/20

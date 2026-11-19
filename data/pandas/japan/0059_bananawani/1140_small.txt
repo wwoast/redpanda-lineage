@@ -1,7 +1,7 @@
 [panda]
-_id: 1140
+_id: panda.1140
 birthday: 1997/12/11
-birthplace: 217
+birthplace: zoo.217
 children: 350, 610, 1142, 1143, 1144, 1145, 271, 1146, 1046, 1047, 273, 272
 commitdate: 2020/3/25
 death: 2014/3/17
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1141
-location.1: 217, 1997/12/11
-location.2: 210, 1998/9/8
-location.3: 59, 1998/11/20
+location.1: zoo.217, 1997/12/11
+location.2: zoo.210, 1998/9/8
+location.3: zoo.59, 1998/11/20
 species: 1
 zoo: 59

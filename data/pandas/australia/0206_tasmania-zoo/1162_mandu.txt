@@ -1,7 +1,7 @@
 [panda]
-_id: 1162
+_id: panda.1162
 birthday: 2015/12/10
-birthplace: 207
+birthplace: zoo.207
 children: unknown
 commitdate: 2020/5/11
 en.name: Mandu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ne, ja
 litter: 1161
-location.1: 207, 2015/12/10
-location.2: 206, 2017/7/4
+location.1: zoo.207, 2015/12/10
+location.2: zoo.206, 2017/7/4
 ne.name: माण्डु
 ne.nicknames: none
 ne.othernames: none

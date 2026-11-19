@@ -1,7 +1,7 @@
 [panda]
-_id: 1236
+_id: panda.1236
 birthday: 2011/6/24
-birthplace: 267
+birthplace: zoo.267
 children: 1240
 commitdate: 2020/11/26
 death: 2017/7/12
@@ -17,8 +17,8 @@ ja.nicknames: none
 ja.othernames: カイ
 language.order: hu, en, zh
 litter: unknown
-location.1: 267, 2011/6/24
-location.2: 265, 2012/11/7
+location.1: zoo.267, 2011/6/24
+location.2: zoo.265, 2012/11/7
 photo.1: ig://CEmf1BkJVlq/m
 photo.1.author: balathruin
 photo.1.commitdate: 2020/11/26

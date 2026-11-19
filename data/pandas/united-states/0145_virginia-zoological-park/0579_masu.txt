@@ -1,7 +1,7 @@
 [panda]
-_id: 579
+_id: panda.579
 birthday: 2016/6/6
-birthplace: 131
+birthplace: zoo.131
 children: 1173, 1174, 1175, 1176, 1177
 commitdate: 2019/3/12
 en.name: Masu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 687
-location.1: 131, 2016/6/6
-location.2: 145, 2017/4/19
+location.1: zoo.131, 2016/6/6
+location.2: zoo.145, 2017/4/19
 species: 1
 studbook.id: 1605
 zoo: 145

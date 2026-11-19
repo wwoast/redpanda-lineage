@@ -1,7 +1,7 @@
 [panda]
-_id: 333
+_id: panda.333
 birthday: 2002/6/29
-birthplace: 13
+birthplace: zoo.13
 children: none
 commitdate: 2018/9/8
 death: 2013/4/23
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 13, 2002/6/29
-location.2: 52, 2004/6/4
+location.1: zoo.13, 2002/6/29
+location.2: zoo.52, 2004/6/4
 species: 2
 studbook.id: 0270
 zoo: 52

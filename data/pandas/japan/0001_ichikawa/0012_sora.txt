@@ -1,7 +1,7 @@
 [panda]
-_id: 12
+_id: panda.12
 birthday: 2008/6/16
-birthplace: 1
+birthplace: zoo.1
 children: none
 commitdate: 2018/6/10
 en.name: Sora

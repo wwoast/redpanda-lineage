@@ -1,7 +1,7 @@
 [panda]
-_id: 1289
+_id: panda.1289
 birthday: unknown
-birthplace: 284
+birthplace: zoo.284
 children: unknown
 commitdate: 2021/4/11
 death: 2016/7/25
@@ -14,7 +14,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 284, unknown
-location.2: 282, unknown
+location.1: zoo.284, unknown
+location.2: zoo.282, unknown
 species: 1
 zoo: 282

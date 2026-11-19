@@ -1,7 +1,7 @@
 [panda]
-_id: 810
+_id: panda.810
 birthday: 2014/6/6
-birthplace: 121
+birthplace: zoo.121
 children: 552, 1059
 commitdate: 2019/4/7
 en.name: Sami
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 811
-location.1: 121, 2014/6/6
-location.2: 144, 2015/4/15
+location.1: zoo.121, 2014/6/6
+location.2: zoo.144, 2015/4/15
 photo.1: ig://BHstFV6ga0s/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/5/11

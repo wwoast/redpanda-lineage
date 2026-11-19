@@ -1,7 +1,7 @@
 [panda]
-_id: 285
+_id: panda.285
 birthday: 2013/6/25
-birthplace: 35
+birthplace: zoo.35
 children: 184, 286, 959
 commitdate: 2018/7/29
 death: 2026/8/14
@@ -14,8 +14,8 @@ ja.nicknames: 明智
 ja.othernames: none
 language.order: ja, en
 litter: 282
-location.1: 35, 2013/6/25
-location.2: 61, 2015/2/16
+location.1: zoo.35, 2013/6/25
+location.2: zoo.61, 2015/2/16
 photo.1: cwdc://VPLW-JOADQL.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/3/29

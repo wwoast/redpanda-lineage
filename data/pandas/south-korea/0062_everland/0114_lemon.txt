@@ -1,7 +1,7 @@
 [panda]
-_id: 114
+_id: panda.114
 birthday: 2013/7/7
-birthplace: 13
+birthplace: zoo.13
 children: none
 commitdate: 2018/6/25
 death: 2026/3/21
@@ -18,9 +18,9 @@ ko.oldnames: 미루키, 밀키
 ko.othernames: none
 language.order: ko, ja, en
 litter: none
-location.1: 13, 2013/7/7
-location.2: 29, 2020/2/26
-location.3: 62, 2020/12/1
+location.1: zoo.13, 2013/7/7
+location.2: zoo.29, 2020/2/26
+location.3: zoo.62, 2020/12/1
 photo.1: cwdc://V8P9mvnADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/11

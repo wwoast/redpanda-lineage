@@ -1,7 +1,7 @@
 [panda]
-_id: 5
+_id: panda.5
 birthday: 2015/7/13
-birthplace: 2
+birthplace: zoo.2
 children: 8, 246, 247
 commitdate: 2018/6/10
 death: 2025/7/31
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 2, 2015/7/13
-location.2: 1, 2016/9/5
+location.1: zoo.2, 2015/7/13
+location.2: zoo.1, 2016/9/5
 photo.1: cwdc://VRGo2B9ADQI.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/7/13

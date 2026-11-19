@@ -1,7 +1,7 @@
 [panda]
-_id: 288
+_id: panda.288
 birthday: 2015/6/25
-birthplace: 2
+birthplace: zoo.2
 children: 946, 947
 commitdate: 2018/8/3
 death: 2026/8/20
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 六堡
 language.order: ja, en
 litter: 96
-location.1: 2, 2015/6/25
-location.2: 63, 2016/6/22
+location.1: zoo.2, 2015/6/25
+location.2: zoo.63, 2016/6/22
 photo.1: cwdc://VeqLBcPADQS.jpg
 photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/4

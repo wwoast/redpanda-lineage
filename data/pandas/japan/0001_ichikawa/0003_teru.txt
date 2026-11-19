@@ -1,7 +1,7 @@
 [panda]
-_id: 3
+_id: panda.3
 birthday: 2010/7/10
-birthplace: 3
+birthplace: zoo.3
 children: none
 commitdate: 2018/6/10
 en.name: Teru
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 3, 2010/7/10
-location.2: 24, 2011/11/2
-location.3: 1, 2018/2/27
+location.1: zoo.3, 2010/7/10
+location.2: zoo.24, 2011/11/2
+location.3: zoo.1, 2018/2/27
 photo.1: cwdc://TWB-OT9ADQA.jpg
 photo.1.author: uni_san
 photo.1.commitdate: 2018/11/18

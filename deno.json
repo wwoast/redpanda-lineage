@@ -2,6 +2,10 @@
   "compilerOptions": {
     "types": ["./data/types.ts"]
   },
+  "imports": {
+    "@redpanda-lineage/data/dagoba": "./data/ts/dagoba.ts",
+    "@redpanda-lineage/data/export": "./data/ts/export.ts"
+  },
   "tasks": {
     "export": {
       "command": "deno task -f data build"

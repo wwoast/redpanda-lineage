@@ -1,7 +1,7 @@
 [panda]
-_id: 446
+_id: panda.446
 birthday: 2007/6/11
-birthplace: 51
+birthplace: zoo.51
 children: 418, 430, 431, 445, 433, 444
 commitdate: 2018/11/24
 en.name: Kayah
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 51, 2007/6/11
-location.2: 96, 2008/9/25
-location.3: 94, 2010/2/5
+location.1: zoo.51, 2007/6/11
+location.2: zoo.96, 2008/9/25
+location.3: zoo.94, 2010/2/5
 photo.1: cwdc://WV-6-Q8ADQA.jpg
 photo.1.author: couple.voyageur
 photo.1.commitdate: 2020/2/25

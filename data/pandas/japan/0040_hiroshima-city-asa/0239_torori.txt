@@ -1,7 +1,7 @@
 [panda]
-_id: 239
+_id: panda.239
 birthday: 2011/6/27
-birthplace: 14
+birthplace: zoo.14
 children: 127, 237, 994, 995, 1434
 commitdate: 2018/7/27
 en.name: Torori
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 113
-location.1: 14, 2011/6/27
-location.2: 40, 2013/6/25
+location.1: zoo.14, 2011/6/27
+location.2: zoo.40, 2013/6/25
 photo.1: ig://BSK1URfg7rj/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2018/7/28

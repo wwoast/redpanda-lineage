@@ -1,7 +1,7 @@
 [panda]
-_id: 1229
+_id: panda.1229
 birthday: 1991/7/3
-birthplace: 122
+birthplace: zoo.122
 children: unknown
 commitdate: 2020/9/25
 death: 2014/11/18
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: ばくちく
 language.order: en, ja
 litter: 1230
-location.1: 122, 1991/7/3
-location.2: 81, 1992/4/2
-location.3: 114, 1992/11/18
-location.4: 126, 2000/5/11
+location.1: zoo.122, 1991/7/3
+location.2: zoo.81, 1992/4/2
+location.3: zoo.114, 1992/11/18
+location.4: zoo.126, 2000/5/11
 photo.1: ig://VCt6KqykC-/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/9/24

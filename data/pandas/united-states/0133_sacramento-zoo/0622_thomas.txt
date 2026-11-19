@@ -1,7 +1,7 @@
 [panda]
-_id: 622
+_id: panda.622
 birthday: 2013/6/20
-birthplace: 145
+birthplace: zoo.145
 children: 877, 878
 commitdate: 2019/3/19
 en.name: Thomas
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 621
-location.1: 145, 2013/6/20
-location.2: 146, 2017/12/12
-location.3: 133, 2021/11/10
+location.1: zoo.145, 2013/6/20
+location.2: zoo.146, 2017/12/12
+location.3: zoo.133, 2021/11/10
 photo.1: ig://Bf8udB6lKfS/m
 photo.1.author: esdeemphoto
 photo.1.commitdate: 2022/2/18

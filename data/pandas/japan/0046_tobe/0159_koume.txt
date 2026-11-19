@@ -1,7 +1,7 @@
 [panda]
-_id: 159
+_id: panda.159
 birthday: 2014/7/6
-birthplace: 45
+birthplace: zoo.45
 children: none
 commitdate: 2018/7/1
 en.name: Koume
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 162
-location.1: 45, 2014/7/6
-location.2: 46, 2016/2/29
+location.1: zoo.45, 2014/7/6
+location.2: zoo.46, 2016/2/29
 photo.1: ig://BityXSil6t3/m
 photo.1.author: nakacchi_desu
 photo.1.commitdate: 2018/7/26

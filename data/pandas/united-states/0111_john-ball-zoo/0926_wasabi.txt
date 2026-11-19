@@ -1,7 +1,7 @@
 [panda]
-_id: 926
+_id: panda.926
 birthday: 2016/7/3
-birthplace: 146
+birthplace: zoo.146
 children: 1199, 1200, 1201
 commitdate: 2019/7/2
 en.name: Wasabi
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 146, 2016/7/3
-location.2: 178, 2018/2/27
-location.3: 111, 2019/4/1
+location.1: zoo.146, 2016/7/3
+location.2: zoo.178, 2018/2/27
+location.3: zoo.111, 2019/4/1
 photo.1: ig://BT-ZKslgOfx/m
 photo.1.author: esdeemphoto
 photo.1.commitdate: 2020/10/1

@@ -1,7 +1,7 @@
 [panda]
-_id: 1153
+_id: panda.1153
 birthday: 2014/7/16
-birthplace: 214
+birthplace: zoo.214
 children: unknown
 commitdate: 2020/5/3
 en.name: Kuschbuh
@@ -16,8 +16,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: fr, en, ja
 litter: 1154
-location.1: 214, 2014/7/16
-location.2: 244, 2015/10/2
+location.1: zoo.214, 2014/7/16
+location.2: zoo.244, 2015/10/2
 photo.1: ig://B9FNJhKHscK/m
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/5/3

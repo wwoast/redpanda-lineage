@@ -1,7 +1,7 @@
 [panda]
-_id: 371
+_id: panda.371
 birthday: 1992/8/7
-birthplace: 15
+birthplace: zoo.15
 children: 475, 595, 802, 81, 476, 76, 328, 126
 commitdate: 2018/10/27
 death: 2006/11/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 547
-location.1: 15, 1992/8/7
-location.2: 6, 1993/11/10
+location.1: zoo.15, 1992/8/7
+location.2: zoo.6, 1993/11/10
 species: 2
 studbook.id: 9280
 zoo: 6

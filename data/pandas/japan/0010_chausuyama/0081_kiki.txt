@@ -1,7 +1,7 @@
 [panda]
-_id: 81
+_id: panda.81
 birthday: 2000/7/4
-birthplace: 6
+birthplace: zoo.6
 children: 1245, 1242, 1243, 1244, 21, 31, 82, 54, 291, 487, 104, 108, 86, 87, 186, 1246, 88
 commitdate: 2018/6/23
 death: 2019/6/25
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 476
-location.1: 6, 2000/7/4
-location.2: 10, 2002/1/15
+location.1: zoo.6, 2000/7/4
+location.2: zoo.10, 2002/1/15
 photo.1: cwdc://WL0k_pyADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2024/3/14

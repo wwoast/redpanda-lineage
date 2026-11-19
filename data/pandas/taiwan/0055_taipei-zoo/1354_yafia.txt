@@ -1,7 +1,7 @@
 [panda]
-_id: 1354
+_id: panda.1354
 birthday: 2015/6/22
-birthplace: 55
+birthplace: zoo.55
 children: unknown
 commitdate: 2022/4/19
 en.name: Yafia

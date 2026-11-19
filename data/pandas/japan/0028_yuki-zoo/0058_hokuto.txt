@@ -1,7 +1,7 @@
 [panda]
-_id: 58
+_id: panda.58
 birthday: 2014/7/11
-birthplace: 7
+birthplace: zoo.7
 children: none
 commitdate: 2018/6/22
 death: 2021/4/2
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 北斗
 language.order: ja, en
 litter: none
-location.1: 7, 2014/7/11
-location.2: 28, 2018/3/19
+location.1: zoo.7, 2014/7/11
+location.2: zoo.28, 2018/3/19
 photo.1: cwdc://VVvAhp1ADQP.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/4/18

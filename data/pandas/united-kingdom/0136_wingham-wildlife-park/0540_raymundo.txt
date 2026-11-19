@@ -1,7 +1,7 @@
 [panda]
-_id: 540
+_id: panda.540
 birthday: 2010/6/22
-birthplace: 139
+birthplace: zoo.139
 children: none
 commitdate: 2019/3/2
 death: 2017/7/28
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 686
-location.1: 139, 2010/6/22
-location.2: 140, 2011/3/22
-location.3: 136, 2015/5/22
+location.1: zoo.139, 2010/6/22
+location.2: zoo.140, 2011/3/22
+location.3: zoo.136, 2015/5/22
 photo.1: cwdc://V0_FU2MADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/7/12

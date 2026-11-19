@@ -1,7 +1,7 @@
 [panda]
-_id: 198
+_id: panda.198
 birthday: 2010/7/10
-birthplace: 7
+birthplace: zoo.7
 children: 51, 284, 200
 commitdate: 2018/7/22
 death: 2018/6/1
@@ -17,9 +17,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, es, en
 litter: 60
-location.1: 7, 2010/7/10
-location.2: 9, 2012/4/23
-location.3: 56, 2015/5/1
+location.1: zoo.7, 2010/7/10
+location.2: zoo.9, 2012/4/23
+location.3: zoo.56, 2015/5/1
 photo.1: cwdc://UjgiJnuADQA.jpg
 photo.1.author: kota795
 photo.1.commitdate: 2018/12/26

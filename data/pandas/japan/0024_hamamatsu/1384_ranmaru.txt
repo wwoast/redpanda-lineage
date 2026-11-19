@@ -1,7 +1,7 @@
 [panda]
-_id: 1384
+_id: panda.1384
 birthday: 2022/7/27
-birthplace: 17
+birthplace: zoo.17
 children: none
 commitdate: 2022/8/15
 en.name: Ranmaru
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1383
-location.1: 17, 2022/7/27
-location.2: 24, 2025/3/13
+location.1: zoo.17, 2022/7/27
+location.2: zoo.24, 2025/3/13
 photo.1: cwdc://TN_K7xTADQA.jpg
 photo.1.author: osopanda551
 photo.1.commitdate: 2026/1/16

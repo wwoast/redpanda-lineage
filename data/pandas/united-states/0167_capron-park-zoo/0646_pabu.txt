@@ -1,7 +1,7 @@
 [panda]
-_id: 646
+_id: panda.646
 birthday: 2016/7/2
-birthplace: 113
+birthplace: zoo.113
 children: none
 commitdate: 2019/3/19
 en.name: Pabu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 645
-location.1: 113, 2016/7/2
-location.2: 167, 2017/5/10
+location.1: zoo.113, 2016/7/2
+location.2: zoo.167, 2017/5/10
 photo.1: cwdc://W48SpLAADQA.jpg
 photo.1.author: capronparkzoo
 photo.1.commitdate: 2019/11/7

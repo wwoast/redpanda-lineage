@@ -1,7 +1,7 @@
 [panda]
-_id: 86
+_id: panda.86
 birthday: 2009/6/19
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2018/6/23
 en.name: Sara

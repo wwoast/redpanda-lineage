@@ -1,7 +1,7 @@
 [panda]
-_id: 528
+_id: panda.528
 birthday: 2002/6/20
-birthplace: 108
+birthplace: zoo.108
 children: 530, 531, 532, 533, 798, 799, 497, 523, 529, 311, 527
 commitdate: 2019/2/24
 death: 2019/10/1
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 690
-location.1: 108, 2002/6/20
-location.2: 122, 2003/4/29
-location.3: 131, 2007/12/13
-location.4: 80, 2011/11/16
+location.1: zoo.108, 2002/6/20
+location.2: zoo.122, 2003/4/29
+location.3: zoo.131, 2007/12/13
+location.4: zoo.80, 2011/11/16
 photo.1: ig://BJOFWzPAv-W/m
 photo.1.author: lincolnchildrenszoo
 photo.1.commitdate: 2019/3/17

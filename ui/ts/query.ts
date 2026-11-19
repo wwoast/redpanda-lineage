@@ -1,8 +1,8 @@
-import Env from './environment.ts'
-import * as Geo from './geolocate.ts'
-import { fallback_name } from './language.ts'
-import * as Pandas from './pandas.ts'
-import * as Parse from './parse.ts'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Geo from '@redpanda-lineage/ui/geolocate'
+import { fallback_name } from '@redpanda-lineage/ui/language'
+import * as Pandas from '@redpanda-lineage/ui/pandas'
+import * as Parse from '@redpanda-lineage/ui/parse'
 
 /**
  * Query processing for the search box. Translates operators and parameters
@@ -92,11 +92,9 @@ function filter_set(set_node: ParserNode) {
       // Fall back to normal credit photo search
       parsed = "set_credit_photos"
       filter_word = undefined
-    } else {
+    } else if (parseInt(filter_word) > 0) {
       // If idnum given, show name instead
-      if (parseInt(filter_word) > 0) {
-        filter_word = fallback_name(Pandas.searchPanda(filter_word)[0])
-      }
+      filter_word = fallback_name(Pandas.graphId<NodePanda>(filter_word))
     }
     hits = Pandas.searchPhotoCredit(search_word, filter_ids)
   }
@@ -180,13 +178,13 @@ function pair(set_node: ParserNode) {
     // Subject may be ambiguous (number as either id or year) but is clarified by
     // the additional keyword that is provided
     if (Parse.group.born_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooBornRecords(parseInt(search_word), true)
+      hits = Pandas.searchPandaZooBornRecords(search_word, true)
     }
     if (Parse.group.died_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooDied(parseInt(search_word), 0)
+      hits = Pandas.searchPandaZooDied(search_word, 0)
     }
     if (Parse.group.lived_at.includes(keyword_node.str)) {
-      hits = Pandas.searchPandaZooBornLived(parseInt(search_word), true)
+      hits = Pandas.searchPandaZooBornLived(search_word, true)
     }
     if (Parse.group.zoo.includes(keyword_node.str)) {
       hits = Pandas.searchZooName(search_word)
@@ -199,10 +197,10 @@ function pair(set_node: ParserNode) {
     }
   }
   if (set_node.type == "set_panda_id") {
-    hits = Pandas.searchPandaId(search_word)
+    hits = [Pandas.graphId<NodePanda>(search_word)]
   }
   if (set_node.type == "set_zoo_id") {
-    hits = Pandas.searchZooId(search_word)
+    hits = [Pandas.graphId<NodeZoo>(search_word)]
   }
   if (set_node.type == "set_credit_photos") {
     Env.output_mode = "photos"
@@ -256,7 +254,7 @@ function single(set_node: ParserNode, singular_node: ParserNode) {
   if (set_node.type == "set_subject") {
     // subject_id on its own should be a panda
     if (singular_node.type == "subject_id")
-      hits = Pandas.searchPandaId(search_word)
+      hits = [Pandas.graphId<NodePanda>(search_word)]
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
       const panda_hits = Pandas.searchPandaName(search_word)

@@ -1,7 +1,7 @@
 [panda]
-_id: 1065
+_id: panda.1065
 birthday: 2017/6/12
-birthplace: 72
+birthplace: zoo.72
 children: unknown
 commitdate: 2019/11/29
 en.name: Ines
@@ -16,7 +16,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: fr, en, ja
 litter: 1066
-location.1: 72, 2017/6/12
-location.2: 199, 2018/3/26
+location.1: zoo.72, 2017/6/12
+location.2: zoo.199, 2018/3/26
 species: 1
 zoo: 199

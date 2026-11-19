@@ -1,7 +1,7 @@
 [panda]
-_id: 683
+_id: panda.683
 birthday: 2013/6/23
-birthplace: 173
+birthplace: zoo.173
 children: 1314
 commitdate: 2019/3/24
 en.name: Ting-Ting
@@ -16,8 +16,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: hu, sk, en, ja
 litter: none
-location.1: 173, 2013/6/23
-location.2: 172, 2014/5/30
+location.1: zoo.173, 2013/6/23
+location.2: zoo.172, 2014/5/30
 sk.name: Ting-Ting
 sk.nicknames: none
 sk.othernames: none

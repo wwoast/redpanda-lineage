@@ -1,7 +1,7 @@
 [panda]
-_id: 986
+_id: panda.986
 birthday: 1999/12/6
-birthplace: 207
+birthplace: zoo.207
 children: 987
 commitdate: 2019/8/24
 death: 2015/3/9
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 207, 1999/12/6
-location.2: 204, 2006/6/10
+location.1: zoo.207, 1999/12/6
+location.2: zoo.204, 2006/6/10
 photo.1: cwdc://U9oS3WNADQA.jpg
 photo.1.author: vvoodsia
 photo.1.commitdate: 2019/8/24

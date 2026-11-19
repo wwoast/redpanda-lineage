@@ -1,7 +1,7 @@
 [panda]
-_id: 1198
+_id: panda.1198
 birthday: 2020/7/20
-birthplace: 17
+birthplace: zoo.17
 children: 1472, 1473
 commitdate: 2020/7/29
 en.name: Fran
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1197
-location.1: 17, 2020/7/20
-location.2: 289, 2022/2/28
+location.1: zoo.17, 2020/7/20
+location.2: zoo.289, 2022/2/28
 photo.1: cwdc://XWyGU9QADQD.jpg
 photo.1.author: tamazoowalking
 photo.1.commitdate: 2026/2/16

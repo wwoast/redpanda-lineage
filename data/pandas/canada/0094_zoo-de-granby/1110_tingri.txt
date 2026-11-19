@@ -1,7 +1,7 @@
 [panda]
-_id: 1110
+_id: panda.1110
 birthday: 1995/7/14
-birthplace: 96
+birthplace: zoo.96
 children: none
 commitdate: 2020/2/29
 death: 2007/12/8
@@ -14,7 +14,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1109
-location.1: 96, 1995/7/14
-location.2: 94, 2002/10/27
+location.1: zoo.96, 1995/7/14
+location.2: zoo.94, 2002/10/27
 species: 1
 zoo: 94

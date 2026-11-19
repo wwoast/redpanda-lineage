@@ -1,7 +1,7 @@
 [panda]
-_id: 90
+_id: panda.90
 birthday: 2005/7/1
-birthplace: 60
+birthplace: zoo.60
 children: none
 commitdate: 2018/6/23
 death: 2025/4/30
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 280
-location.1: 60, 2005/7/1
-location.2: 22, 2008/3/24
-location.3: 10, 2012/5/23
+location.1: zoo.60, 2005/7/1
+location.2: zoo.22, 2008/3/24
+location.3: zoo.10, 2012/5/23
 photo.1: cwdc://ValXtgrADQA.jpg
 photo.1.author: mariten1119
 photo.1.commitdate: 2018/7/29

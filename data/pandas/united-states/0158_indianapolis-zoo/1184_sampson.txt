@@ -1,7 +1,7 @@
 [panda]
-_id: 1184
+_id: panda.1184
 birthday: 2014/7/11
-birthplace: 75
+birthplace: zoo.75
 children: none
 commitdate: 2020/6/28
 en.name: Sampson
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 75, 2014/7/11
-location.2: 122, 2014/11/8
-location.3: 158, 2015/11/6
+location.1: zoo.75, 2014/7/11
+location.2: zoo.122, 2014/11/8
+location.3: zoo.158, 2015/11/6
 photo.1: ig://BLy3X7Rl6xN/m
 photo.1.author: indianapoliszoo
 photo.1.commitdate: 2020/7/1

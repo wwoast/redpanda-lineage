@@ -1,4 +1,7 @@
-/** All available options / default values */
+/**
+ * All available options / default values. All imported content is read-only,
+ * but parameters of imports can be written.
+ */
 export let Data = {
   hideDeadPandas: false
 }

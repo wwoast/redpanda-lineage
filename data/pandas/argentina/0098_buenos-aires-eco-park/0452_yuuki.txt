@@ -1,7 +1,7 @@
 [panda]
-_id: 452
+_id: panda.452
 birthday: 2003/7/15
-birthplace: 6
+birthplace: zoo.6
 children: none
 commitdate: 2018/11/26
 death: 2019/7/1
@@ -17,8 +17,8 @@ ja.nicknames: none
 ja.othernames: 優貴
 language.order: es, en, ja
 litter: 202, 801
-location.1: 6, 2003/7/15
-location.2: 98, 2005/7/8
+location.1: zoo.6, 2003/7/15
+location.2: zoo.98, 2005/7/8
 photo.1: https://www.codaworry.com/images/rpf/yuuki-1-buenos-aires.jpg
 photo.1.author: Tomás Francisco Cuesta
 photo.1.commitdate: 2019/5/7

@@ -1,7 +1,7 @@
 [panda]
-_id: 297
+_id: panda.297
 birthday: 2017/7/11
-birthplace: 64
+birthplace: zoo.64
 children: none
 commitdate: 2018/8/22
 en.name: Tsubaki
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 296
-location.1: 64, 2017/7/11
-location.2: 22, 2021/3/22
+location.1: zoo.64, 2017/7/11
+location.2: zoo.22, 2021/3/22
 photo.1: ig://BfNKVHRBO6G/m
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/3

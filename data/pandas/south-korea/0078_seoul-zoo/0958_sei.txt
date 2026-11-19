@@ -1,7 +1,7 @@
 [panda]
-_id: 958
+_id: panda.958
 birthday: 2019/7/2
-birthplace: 9
+birthplace: zoo.9
 children: none
 commitdate: 2019/8/14
 en.name: Sei
@@ -16,8 +16,8 @@ ko.nicknames: none
 ko.othernames: none
 language.order: ko, ja, en
 litter: 957
-location.1: 9, 2019/7/2
-location.2: 78, 2023/11/23
+location.1: zoo.9, 2019/7/2
+location.2: zoo.78, 2023/11/23
 photo.1: cwdc://W3jxA44ADQD.jpg
 photo.1.author: motohin
 photo.1.commitdate: 2025/7/2

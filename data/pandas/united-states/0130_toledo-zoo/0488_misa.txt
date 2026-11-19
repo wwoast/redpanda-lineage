@@ -1,7 +1,7 @@
 [panda]
-_id: 488
+_id: panda.488
 birthday: 2017/6/16
-birthplace: 90
+birthplace: zoo.90
 children: none
 commitdate: 2018/12/12
 en.name: Misa
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 489
-location.1: 90, 2017/6/16
-location.2: 130, 2018/9/19
+location.1: zoo.90, 2017/6/16
+location.2: zoo.130, 2018/9/19
 photo.1: ig://BsmJhFlBjup/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/3/3

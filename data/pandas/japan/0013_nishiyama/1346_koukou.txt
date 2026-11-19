@@ -1,7 +1,7 @@
 [panda]
-_id: 1346
+_id: panda.1346
 birthday: 1988/6/22
-birthplace: 290
+birthplace: zoo.290
 children: none
 commitdate: 2022/2/22
 death: 2008/1/22
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: コウコウ
 language.order: ja, en
 litter: 1345
-location.1: 290, 1988/6/22
-location.2: 40, 1990/3/22
-location.3: 13, 1993/2/18
+location.1: zoo.290, 1988/6/22
+location.2: zoo.40, 1990/3/22
+location.3: zoo.13, 1993/2/18
 species: 2
 studbook.id: 8842
 zoo: 13

@@ -1,7 +1,7 @@
 [panda]
-_id: 1225
+_id: panda.1225
 birthday: 2018/6/21
-birthplace: 154
+birthplace: zoo.154
 children: none
 commitdate: 2020/9/16
 en.name: Loofah
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1224
-location.1: 154, 2018/6/21
-location.2: 144, 2019/10/21
+location.1: zoo.154, 2018/6/21
+location.2: zoo.144, 2019/10/21
 photo.1: ig://BumMr92ANb4/m
 photo.1.author: raven__creative
 photo.1.commitdate: 2022/12/10

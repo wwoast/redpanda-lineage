@@ -1,7 +1,7 @@
 [panda]
-_id: 37
+_id: panda.37
 birthday: 2012/7/3
-birthplace: 8
+birthplace: zoo.8
 children: none
 commitdate: 2018/6/18
 en.name: Genta
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: ゲンタ, 源
 language.order: ja, en
 litter: 45
-location.1: 8, 2012/7/3
-location.2: 18, 2017/10/31
+location.1: zoo.8, 2012/7/3
+location.2: zoo.18, 2017/10/31
 photo.1: cwdc://VPx6ERIADQB.jpg
 photo.1.author: take_421
 photo.1.commitdate: 2021/9/22
