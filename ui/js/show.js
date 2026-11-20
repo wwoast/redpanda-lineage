@@ -1682,7 +1682,7 @@ export const profileMenus = {
     nameBar.appendChild(shrinker);
     const body = document.getElementsByTagName("body")[0];
     // Replace search or nameBar that might be there
-    const existing = document.querySelector("focalBar");
+    const existing = document.querySelector("#focalBar");
     if (existing) body.replaceChild(nameBar, existing);
   },
   /** Create a profile page for a single panda */ panda: function(animal) {
