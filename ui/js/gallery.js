@@ -1231,7 +1231,7 @@ export function taglist(photo_count = 5, taglist1, message_function) {
     name_caption.className = "caption updateName";
     const name_caption_span = document.createElement('span');
     const node = Pandas.graphId(photo._id);
-    let updateName = undefined;
+    let updateName;
     if (node.type == "media") {
       updateName = Pandas.groupMediaCaption(node, photo);
       const panda_route = node["panda.tags"].join("/");
