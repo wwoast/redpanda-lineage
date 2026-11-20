@@ -939,15 +939,15 @@ class Routes {
       const [panda, _, photo_id] = uri_items.split("/");
       Env.output_mode = "entities";
       Env.specific_photo = photo_id;
-      query_string = `panda ${panda}`;
+      query_string = `panda.${panda}`;
     } else if (input.indexOf("#panda/") == 0 && input.split("/").length == 2) {
       // link for a single panda result.
       const panda = input.slice(7);
       Env.output_mode = "entities";
-      query_string = `panda ${panda}`;
+      query_string = `panda.${panda}`;
     } else if (input.indexOf("#group") == 0 && input.split("/").length >= 2 && input.split("/").length <= P.db._photo.group_max + 1) {
       // group display modes (just searching multiple ids for now)
-      const id_list = input.slice(7).split("/");
+      const id_list = input.slice(7).split("/").map((id)=>`panda.${id}`);
       Env.output_mode = "group";
       query_string = id_list.join(" ");
     } else if (input.indexOf("#profile/") == 0 && input.split("/").length == 4) {
@@ -955,14 +955,14 @@ class Routes {
       const uri_items = input.slice(9);
       const [panda, _, photo_id] = uri_items.split("/");
       Env.specific_photo = photo_id;
-      query_string = `panda ${panda}`;
+      query_string = `panda.${panda}`;
     } else if (input.indexOf("#profile/") == 0 && input.split("/").length == 2) {
       // link for a single panda profile result.
       const panda = input.slice(9);
-      query_string = `panda ${panda}`;
+      query_string = `panda.${panda}`;
     } else if (input.indexOf("#media/") == 0 && input.split("/").length == 2) {
       const panda = input.slice(7);
-      query_string = `panda ${panda}`;
+      query_string = `panda.${panda}`;
     } else if (input.indexOf("#query/") == 0) {
       // process a query.
       query_string = input.slice(7);
@@ -974,12 +974,12 @@ class Routes {
       const [zoo, _, zoo_id] = uri_items.split("/");
       Env.output_mode = "entities";
       Env.specific_photo = zoo_id;
-      query_string = `zoo ${zoo}`;
+      query_string = `zoo.${zoo}`;
     } else if (input.indexOf("#zoo/") == 0 && input.split("/").length == 2) {
       // link for a single zoo result.
       const zoo = input.slice(5);
       Env.output_mode = "entities";
-      query_string = `zoo ${zoo}`;
+      query_string = `zoo.${zoo}`;
     } else {
       // Don't know how to process the hashlink, so do nothing
       throw new Error("TODO: unrecognized route");
