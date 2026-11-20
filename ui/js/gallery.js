@@ -674,8 +674,9 @@ export function memorialPhotoCredits(id_list, photo_count = 5, message_function)
 export function memorialPhotoCreditsGroup(group_id, id_list, photo_count = 5) {
   const memorial_div = document.createElement('div');
   const group = Pandas.graphId(group_id);
+  // id_list is already prefix-IDs
   const id_link_string = id_list.join("/");
-  const name_list = id_list.map((numId)=>`panda.${numId}`).map((prefixId)=>Pandas.graphId(prefixId)).map((animal)=>Language.fallback_name(animal));
+  const name_list = id_list.map((prefixId)=>Pandas.graphId(prefixId)).map((animal)=>Language.fallback_name(animal));
   const name_string = Language.commaPhraseBare(name_list);
   const message = Message.memorialGroup(name_string, id_link_string);
   memorial_div.appendChild(message);
