@@ -2483,7 +2483,7 @@ export const resultsPage = {
       name_div.innerText = info.name
     }
     const a = document.createElement('a')
-    a.href = `#profile/${info._id}`
+    a.href = `#profile/${num(info._id)}`
     const title_div = document.createElement('div')
     title_div.className = "pandaTitle"
     title_div.appendChild(pandaGender)
@@ -2721,7 +2721,7 @@ export const resultsPage = {
     // How many pandas have recently departed this zoo
     const departed_link = document.createElement('a')
     departed_link.href = "javascript:"
-    const departed_link_id = `departures/zoo/${info._id}`
+    const departed_link_id = `departures/zoo/${num(info._id)}`
     departed_link.addEventListener("click", function() {
       document.getElementById(departed_link_id)?.scrollIntoView(true)
     })
