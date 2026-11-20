@@ -1627,10 +1627,14 @@ export function locationList(animal: NodePanda): ProfileLocation[] {
   }
   // If the locations list is empty, use the zoo field, birthday, and date
   // of death. If a wild animal, use a wild field instead of the zoo field
-  if ((locations.length == 0) && (animal.wild != undefined))
-    locations = [locationWild(animal)]
-  if ((locations.length == 0) && (animal.zoo != undefined))
-    locations = [locationZoo(animal)]
+  if (locations.length == 0) {
+    const zoo = myZoo(animal, "zoo")
+    const wild = myWild(animal, "wild")
+    if (wild._id != Defaults.wild._id)
+      locations = [locationWild(animal)]
+    if (zoo._id != Defaults.zoo._id)
+      locations = [locationZoo(animal)]
+  }
   return locations
 }
 
