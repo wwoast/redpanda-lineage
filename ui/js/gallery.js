@@ -1227,7 +1227,6 @@ export function taglist(photo_count = 5, taglist1, message_function) {
     img_link.appendChild(img);
     // Animal name
     const name_caption_link = document.createElement('a');
-    name_caption_link.href = `#panda/${num(photo._id)}/photo/${photo.index}`;
     const name_caption = document.createElement('h5');
     name_caption.className = "caption updateName";
     const name_caption_span = document.createElement('span');
@@ -1238,9 +1237,9 @@ export function taglist(photo_count = 5, taglist1, message_function) {
       const panda_route = node["panda.tags"].join("/");
       name_caption_link.href = `#group/${panda_route}`;
     } else {
-      // TODO ES6: correctly support many types here
       const info = Show.acquirePandaInfo(node);
       updateName = info.name;
+      name_caption_link.href = `#panda/${num(photo._id)}/photo/${photo.index}`;
     }
     name_caption_span.innerText = updateName;
     name_caption.appendChild(name_caption_span);
