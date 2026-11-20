@@ -1111,7 +1111,7 @@ export function searchPhotoProfileImmediateFamily(pandaId: string) {
   const mom = searchPandaMom(pandaId)
   const dad = searchPandaDad(pandaId)
   const litter = searchLitter(pandaId)
-  const family = me.concat(mom).concat(dad).concat(litter)
+  const family = [me, ...mom, ...dad, ...litter]
   return searchPhotoProfile(family)
 }
 

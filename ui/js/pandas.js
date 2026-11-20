@@ -914,7 +914,12 @@ export function searchPhotoCredit(author, filter_ids = []) {
   const mom = searchPandaMom(pandaId);
   const dad = searchPandaDad(pandaId);
   const litter = searchLitter(pandaId);
-  const family = me.concat(mom).concat(dad).concat(litter);
+  const family = [
+    me,
+    ...mom,
+    ...dad,
+    ...litter
+  ];
   return searchPhotoProfile(family);
 }
 /** Find profile photos for an animal's siblings */ export function searchPhotoProfileSiblings(pandaId) {
