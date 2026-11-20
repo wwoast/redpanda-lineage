@@ -1372,7 +1372,7 @@ function locationWild(animal) {
     end_date = animal["death"];
   }
   return {
-    "id": myWild(animal, "wild"),
+    "id": myWild(animal, "wild")._id,
     "start_date": Defaults.date[Env.language],
     "end_date": end_date ?? Defaults.date[Env.language]
   };
@@ -1383,7 +1383,7 @@ function locationWild(animal) {
  */
 function locationZoo(animal) {
   return {
-    "id": myZoo(animal, "zoo"),
+    "id": myZoo(animal, "zoo")._id,
     "start_date": animal["birthday"],
     "end_date": animal["death"] // Fall back to undefined
   };
