@@ -675,13 +675,13 @@ export function memorialPhotoCreditsGroup(group_id, id_list, photo_count = 5) {
   const memorial_div = document.createElement('div');
   const group = Pandas.graphId(group_id);
   // id_list is already prefix-IDs
-  const id_link_string = id_list.join("/");
   const name_list = id_list.map((prefixId)=>Pandas.graphId(prefixId)).map((animal)=>Language.fallback_name(animal));
   const name_string = Language.commaPhraseBare(name_list);
-  const message = Message.memorialGroup(name_string, id_link_string);
+  // Urls need a numeric id list, not prefix-ids
+  const numIdListString = id_list.map((id)=>num(id)).join("/");
+  const message = Message.memorialGroup(name_string, numIdListString);
   memorial_div.appendChild(message);
   // Group photos
-  // TODO ES6: NodeMedia works here?
   let photos = Pandas.searchPhotoTags([
     group
   ], [
@@ -701,7 +701,7 @@ export function memorialPhotoCreditsGroup(group_id, id_list, photo_count = 5) {
   photos = Pandas.shuffle(photos);
   for (const photo of Pandas.randomChoice(photos, photo_count)){
     const img_link = document.createElement('a');
-    img_link.href = `#group/${id_link_string}`;
+    img_link.href = `#group/${numIdListString}`;
     const img = document.createElement('img');
     img.setAttribute("loading", "lazy");
     // Set the photo, even if it takes an extra XHR

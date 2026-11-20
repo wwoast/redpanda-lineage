@@ -842,9 +842,9 @@ export function memorial(name: string, animalId: number, birth: string, death: s
   return shrinkBoxMessage("memorialSummary", link)
 }
 
- export function memorialGroup(nameString: string, idString: string) {
+ export function memorialGroup(nameString: string, numIdListString: string) {
   const link = document.createElement('a')
-  link.href = `#group/${idString}`
+  link.href = `#group/${numIdListString}`
   const p = document.createElement('p')
   const msg = document.createTextNode(
     Text.remembering_you_together[Env.language].replace('<INSERTNAMES>', nameString))
