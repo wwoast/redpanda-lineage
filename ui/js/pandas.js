@@ -1347,12 +1347,12 @@ export function indeterminateSiblings(animal_id, sibling_id) {
       "end_date": end_date
     });
   }
-  // If there were no location. fields, use the zoo field, birthday, and date
+  // If the locations list is empty, use the zoo field, birthday, and date
   // of death. If a wild animal, use a wild field instead of the zoo field
-  if (locations.length == 0 && myWild(animal, "wild") != undefined) locations = [
+  if (locations.length == 0 && animal.wild != undefined) locations = [
     locationWild(animal)
   ];
-  if (locations.length == 0 && myZoo(animal, "zoo") != undefined) locations = [
+  if (locations.length == 0 && animal.zoo != undefined) locations = [
     locationZoo(animal)
   ];
   return locations;
