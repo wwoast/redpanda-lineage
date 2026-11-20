@@ -1975,7 +1975,7 @@ export const profilePage = {
     nameBar.appendChild(shrinker)
     const body = document.getElementsByTagName("body")[0]
     // Replace search or nameBar that might be there
-    const existing = document.querySelector<HTMLDivElement>("focalBar")
+    const existing = document.querySelector<HTMLDivElement>("#focalBar")
     if (existing)
       body.replaceChild(nameBar, existing)
   },
