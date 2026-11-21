@@ -1017,6 +1017,7 @@ const profileButton = {
                    .filter(entity => entity.photos.length > 0)
                    .filter(entity => entity.death == undefined)
                    .map(entity => entity._id)
+                   .map(prefixId => num(prefixId))
     window.location.href =
       `#profile/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`
     languageButton.hide()   // If language menu open, hide it

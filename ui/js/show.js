@@ -831,7 +831,7 @@ const profileButton = {
   altAction: function(e) {
     e.preventDefault(); // Prevent normal right-click menu from firing
     Env.current = Page.profile.render;
-    const pandaIds = P.db.vertices.filter((entity)=>entity.type == "panda").filter((entity)=>entity.photos.length > 0).filter((entity)=>entity.death == undefined).map((entity)=>entity._id);
+    const pandaIds = P.db.vertices.filter((entity)=>entity.type == "panda").filter((entity)=>entity.photos.length > 0).filter((entity)=>entity.death == undefined).map((entity)=>entity._id).map((prefixId)=>num(prefixId));
     window.location.href = `#profile/${pandaIds[Math.floor(Math.random() * pandaIds.length)]}`;
     languageButton.hide(); // If language menu open, hide it
     window.scrollTo(0, 0); // Go to the top of the page
