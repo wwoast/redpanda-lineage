@@ -347,7 +347,6 @@ export function fallbackEntity(entity) {
  * info block
  */
 export function fallbackInfo(info, original) {
-  const bundle = structuredClone(info);
   const order = currentOrder(info.language_order, Env.language);
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Defaults.animal, order);
@@ -372,19 +371,19 @@ export function fallbackInfo(info, original) {
         if (language == Env.language) continue; // Don't take replacement values from current language
         if (!empty_values.includes(original[key][language])) {
           // Put this language's value in the displayed output
-          bundle[key] = original[key][language];
+          info[key] = original[key][language];
           break;
         }
       } // If no available non-empty strings in other languages, do nothing
     }
   }
   // Replace nested zoo or birthplace text for panda entities similarly
-  if (info.type == "panda" && bundle.type == "panda") {
+  if (info.type == "panda") {
     if (info.zoo != undefined && info.zoo != Defaults.zoo) {
-      bundle.zoo = fallbackEntity(info.zoo);
+      info.zoo = fallbackEntity(info.zoo);
     }
     if (info.birthplace != undefined && info.birthplace != Defaults.zoo && info.birthplace != Defaults.wild) {
-      bundle.birthplace = fallbackEntity(info.birthplace);
+      info.birthplace = fallbackEntity(info.birthplace);
     }
     for(const index in info.mom){
       if (info.mom[index] != undefined && info.mom[index] != Defaults.animal) {
@@ -412,7 +411,7 @@ export function fallbackInfo(info, original) {
       }
     }
   }
-  return bundle;
+  return info;
 }
 /** 
  * For names stored in Roman characters, they often start with a capital
