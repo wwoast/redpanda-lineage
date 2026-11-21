@@ -1,3 +1,4 @@
+import { num } from '@redpanda-lineage/data/export'
 import Env from '@redpanda-lineage/ui/environment'
 import * as Geo from '@redpanda-lineage/ui/geolocate'
 import { fallback_name } from '@redpanda-lineage/ui/language'
@@ -141,7 +142,7 @@ function group_one_set(set_node: ParserNode) {
   }
   if (set_node.type == "set_only_subjects") {
     Env.output_mode = "group"
-    const ids = set_node.str.split("\n")
+    const ids = set_node.str.split("\n").map(id => `${num(id)}`)
     hits = Pandas.searchPandaMediaIntersect(ids)
     if (hits.length > 0) {
       Env.paging.display_button = true
@@ -232,7 +233,7 @@ function pair(set_node: ParserNode) {
   }
   if (set_node.type == "set_only_subjects") {
     Env.output_mode = "group"
-    const ids = set_node.str.split("\n")
+    const ids = set_node.str.split("\n").map(id => `${num(id)}`)
     hits = Pandas.searchPandaMediaIntersect(ids)
     if (hits.length > 0) {
       Env.paging.display_button = true

@@ -757,7 +757,7 @@ class ResultsPage {
       return content_divs;
     }
     // Then, start displaying a list of group photos paged out
-    const animal_ids = results.query.split(" ");
+    const animal_ids = results.query.split(" ").map((id)=>`${num(id)}`);
     // Show all photos with these animals, along with a message.
     // No container div here so just concat.
     if (results.hits.length > 0) content_divs = content_divs.concat(Show.resultsPage.groupGallery(animal_ids));
