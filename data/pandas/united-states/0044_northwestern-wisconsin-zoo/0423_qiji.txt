@@ -1,7 +1,7 @@
 [panda]
-_id: 423
+_id: panda.423
 birthday: 2011/8/1
-birthplace: 96
+birthplace: zoo.96
 children: 412
 commitdate: 2018/11/23
 en.name: Qiji
@@ -13,9 +13,9 @@ ja.nicknames: キーゲー
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 96, 2011/8/1
-location.2: 90, 2012/5/31
-location.3: 44, 2015/11/19
+location.1: zoo.96, 2011/8/1
+location.2: zoo.90, 2012/5/31
+location.3: zoo.44, 2015/11/19
 photo.1: cwdc://W06YZnqADQA.jpg
 photo.1.author: newzoogb
 photo.1.commitdate: 2019/12/7

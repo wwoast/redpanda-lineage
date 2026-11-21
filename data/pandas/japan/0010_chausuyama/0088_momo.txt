@@ -1,7 +1,7 @@
 [panda]
-_id: 88
+_id: panda.88
 birthday: 2011/6/24
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2018/6/23
 en.name: Momo

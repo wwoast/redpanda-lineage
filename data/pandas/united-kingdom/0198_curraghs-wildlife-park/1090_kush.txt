@@ -1,7 +1,7 @@
 [panda]
-_id: 1090
+_id: panda.1090
 birthday: 2013/6/6
-birthplace: 213
+birthplace: zoo.213
 children: 1219, 1220, 1320, 1321
 commitdate: 2020/1/14
 death: 2021/12/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 213, 2013/6/6
-location.2: 198, 2014/6/22
+location.1: zoo.213, 2013/6/6
+location.2: zoo.198, 2014/6/22
 photo.1: ig://BaWh9bphNKM/m
 photo.1.author: curraghswildlifepark
 photo.1.commitdate: 2020/1/14

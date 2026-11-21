@@ -1,7 +1,7 @@
 [panda]
-_id: 467
+_id: panda.467
 birthday: 2004/6/27
-birthplace: 65
+birthplace: zoo.65
 children: none
 commitdate: 2018/11/28
 death: 2018/4/30
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 65, 2004/6/27
-location.2: 94, 2005/11/4
-location.3: 96, 2009/1/29
-location.4: 101, 2013/3/14
+location.1: zoo.65, 2004/6/27
+location.2: zoo.94, 2005/11/4
+location.3: zoo.96, 2009/1/29
+location.4: zoo.101, 2013/3/14
 photo.1: ig://Bgv7HqvnnsX/m
 photo.1.author: mnzoo
 photo.1.commitdate: 2018/11/28

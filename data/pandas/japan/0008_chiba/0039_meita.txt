@@ -1,7 +1,7 @@
 [panda]
-_id: 39
+_id: panda.39
 birthday: 2014/6/28
-birthplace: 8
+birthplace: zoo.8
 children: none
 commitdate: 2018/6/18
 en.name: Meita

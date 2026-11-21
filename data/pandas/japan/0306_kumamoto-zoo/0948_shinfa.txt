@@ -1,7 +1,7 @@
 [panda]
-_id: 948
+_id: panda.948
 birthday: 2019/6/19
-birthplace: 17
+birthplace: zoo.17
 children: 1415, 1468
 commitdate: 2019/7/18
 en.name: Shin-Fa
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: シンファ
 language.order: ja, en
 litter: 949
-location.1: 17, 2019/6/19
-location.2: 306, 2022/3/11
+location.1: zoo.17, 2019/6/19
+location.2: zoo.306, 2022/3/11
 photo.1: cwdc://W2reAX3ADQA.jpg
 photo.1.author: ifumoto88
 photo.1.commitdate: 2019/10/17

@@ -1,7 +1,7 @@
 [panda]
-_id: 13
+_id: panda.13
 birthday: 2002/7/15
-birthplace: 17
+birthplace: zoo.17
 children: 4, 264, 12, 281, 179
 commitdate: 2018/6/10
 death: 2023/9/4
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 229
-location.1: 17, 2002/7/15
-location.2: 1, 2003/4/9
+location.1: zoo.17, 2002/7/15
+location.2: zoo.1, 2003/4/9
 photo.1: cwdc://V7XIGydADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2022/10/6

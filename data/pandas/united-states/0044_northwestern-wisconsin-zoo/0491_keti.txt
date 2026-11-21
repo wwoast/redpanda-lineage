@@ -1,7 +1,7 @@
 [panda]
-_id: 491
+_id: panda.491
 birthday: 2009/6/4
-birthplace: 51
+birthplace: zoo.51
 children: none
 commitdate: 2018/12/16
 death: 2014/10/20
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 51, 2009/6/4
-location.2: 88, 2011/5/4
-location.3: 44, 2013/11/21
+location.1: zoo.51, 2009/6/4
+location.2: zoo.88, 2011/5/4
+location.3: zoo.44, 2013/11/21
 species: 2
 studbook.id: 0929
 zoo: 44

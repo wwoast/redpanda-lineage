@@ -1,7 +1,7 @@
 [panda]
-_id: 380
+_id: panda.380
 birthday: 2000/6/4
-birthplace: 43
+birthplace: zoo.43
 children: 381
 commitdate: 2018/11/13
 death: 2019/10/1
@@ -14,11 +14,11 @@ ja.nicknames: ルーム
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 43, 2000/6/4
-location.2: 107, 2001/10/17
-location.3: 84, 2002/12/12
-location.4: 65, 2007/12/5
-location.5: 77, 2011/11/7
+location.1: zoo.43, 2000/6/4
+location.2: zoo.107, 2001/10/17
+location.3: zoo.84, 2002/12/12
+location.4: zoo.65, 2007/12/5
+location.5: zoo.77, 2011/11/7
 photo.1: https://www.codaworry.com/images/rpf/lum-1-henryvilas.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/9

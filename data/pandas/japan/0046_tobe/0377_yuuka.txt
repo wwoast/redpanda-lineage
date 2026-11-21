@@ -1,7 +1,7 @@
 [panda]
-_id: 377
+_id: panda.377
 birthday: 2010/6/20
-birthplace: 6
+birthplace: zoo.6
 children: 175, 174, 173
 commitdate: 2018/10/28
 death: 2016/8/16
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ユウカ
 language.order: ja, en
 litter: none
-location.1: 6, 2010/6/20
-location.2: 46, 2012/3/23
+location.1: zoo.6, 2010/6/20
+location.2: zoo.46, 2012/3/23
 photo.1: https://www.codaworry.com/images/rpf/yuuka-tobe.jpg
 photo.1.author: gachon_kudo
 photo.1.commitdate: 2019/4/9

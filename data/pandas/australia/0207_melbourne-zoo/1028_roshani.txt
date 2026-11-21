@@ -1,7 +1,7 @@
 [panda]
-_id: 1028
+_id: panda.1028
 birthday: 2007/12/21
-birthplace: 217
+birthplace: zoo.217
 children: 1161, 1162
 commitdate: 2019/11/9
 en.name: Roshani
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 217, 2007/12/21
-location.2: 207, 2009/4/24
+location.1: zoo.217, 2007/12/21
+location.2: zoo.207, 2009/4/24
 species: 1
 zoo: 207

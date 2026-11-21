@@ -1,7 +1,7 @@
 [panda]
-_id: 667
+_id: panda.667
 birthday: 2001/7/9
-birthplace: 118
+birthplace: zoo.118
 children: 676, 677, 678, 679, 541, 680
 commitdate: 2019/3/22
 death: 2021/2/24
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 518
-location.1: 118, 2001/7/9
-location.2: 122, 2002/3/13
-location.3: 154, 2003/11/4
-location.4: 117, 2011/10/31
+location.1: zoo.118, 2001/7/9
+location.2: zoo.122, 2002/3/13
+location.3: zoo.154, 2003/11/4
+location.4: zoo.117, 2011/10/31
 photo.1: ig://tqvKnXykBd/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/3/22

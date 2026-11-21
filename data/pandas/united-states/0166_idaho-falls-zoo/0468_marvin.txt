@@ -1,7 +1,7 @@
 [panda]
-_id: 468
+_id: panda.468
 birthday: 2019/6/29
-birthplace: 166
+birthplace: zoo.166
 children: 1306, 1307
 commitdate: 2019/11/30
 death: 2021/12/28
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 166, 2019/6/29
-location.2: 108, 2019/8/23
-location.3: 166, 2021/3/23
+location.1: zoo.166, 2019/6/29
+location.2: zoo.108, 2019/8/23
+location.3: zoo.166, 2021/3/23
 photo.1: ig://B4yKRzWBJMU/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/3

@@ -1,7 +1,7 @@
 [panda]
-_id: 130
+_id: panda.130
 birthday: 2012/7/28
-birthplace: 6
+birthplace: zoo.6
 children: none
 commitdate: 2018/6/27
 en.name: Ichigo
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 69
-location.1: 6, 2012/7/28
-location.2: 12, 2015/12/17
-location.3: 38, 2020/12/8
+location.1: zoo.6, 2012/7/28
+location.2: zoo.12, 2015/12/17
+location.3: zoo.38, 2020/12/8
 photo.1: ig://BN1XY65DkMD/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/11/28

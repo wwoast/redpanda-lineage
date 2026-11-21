@@ -1,7 +1,7 @@
 [panda]
-_id: 499
+_id: panda.499
 birthday: 2014/7/24
-birthplace: 48
+birthplace: zoo.48
 children: none
 commitdate: 2019/2/23
 en.name: Winnie
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 48, 2014/7/24
-location.2: 161, 2022/1/28
+location.1: zoo.48, 2014/7/24
+location.2: zoo.161, 2022/1/28
 photo.1: ig://BCQ5yg_r4ck/m
 photo.1.author: bronxzoo
 photo.1.commitdate: 2019/4/8

@@ -1,7 +1,7 @@
 [panda]
-_id: 485
+_id: panda.485
 birthday: 2017/7/23
-birthplace: 82
+birthplace: zoo.82
 children: 1311
 commitdate: 2018/12/8
 en.name: Pepper
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 486
-location.1: 82, 2017/7/23
-location.2: 83, 2019/3/29
+location.1: zoo.82, 2017/7/23
+location.2: zoo.83, 2019/3/29
 photo.1: ig://BgWazXyhgba/m
 photo.1.author: edmontonvalleyzoo
 photo.1.commitdate: 2020/1/13

@@ -1,7 +1,7 @@
 [panda]
-_id: 1095
+_id: panda.1095
 birthday: 2013/6/16
-birthplace: 134
+birthplace: zoo.134
 children: none
 commitdate: 2020/1/25
 en.name: Móhú
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 134, 2013/6/16
-location.2: 155, 2014/5/16
-location.3: 125, 2018/4/12
+location.1: zoo.134, 2013/6/16
+location.2: zoo.155, 2014/5/16
+location.3: zoo.125, 2018/4/12
 photo.1: cwdc://WcVu2ZwADQA.jpg
 photo.1.author: rossifari
 photo.1.commitdate: 2020/8/17

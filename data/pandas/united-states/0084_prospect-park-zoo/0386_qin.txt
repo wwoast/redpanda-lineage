@@ -1,7 +1,7 @@
 [panda]
-_id: 386
+_id: panda.386
 birthday: 2005/6/23
-birthplace: 65
+birthplace: zoo.65
 children: 394, 493, 469, 470, 484, 1079, 1080
 commitdate: 2018/11/13
 death: 2019/4/15
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 65, 2005/6/23
-location.2: 83, 2007/4/20
-location.3: 84, 2008/11/6
+location.1: zoo.65, 2005/6/23
+location.2: zoo.83, 2007/4/20
+location.3: zoo.84, 2008/11/6
 photo.1: ig://70Zg2TlXNM/m
 photo.1.author: prospectparkzoo
 photo.1.commitdate: 2018/11/24

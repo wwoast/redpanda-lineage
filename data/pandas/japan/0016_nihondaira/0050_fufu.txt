@@ -1,7 +1,7 @@
 [panda]
-_id: 50
+_id: panda.50
 birthday: 1997/6/20
-birthplace: 17
+birthplace: zoo.17
 children: 34
 commitdate: 2018/6/19
 death: 2003/6/12
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: フーフー, フウフウ, 風風
 language.order: ja, en
 litter: 472, 549
-location.1: 17, 1997/6/20
-location.2: 16, 2002/3/23
+location.1: zoo.17, 1997/6/20
+location.2: zoo.16, 2002/3/23
 species: 2
 studbook.id: 9794
 zoo: 16

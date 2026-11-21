@@ -1,7 +1,7 @@
 [panda]
-_id: 1014
+_id: panda.1014
 birthday: 2018/7/15
-birthplace: 213
+birthplace: zoo.213
 children: unknown
 commitdate: 2019/11/1
 en.name: Shimla
@@ -10,7 +10,7 @@ en.othernames: none
 gender: m
 language.order: en
 litter: 1013
-location.1: 213, 2018/7/15
+location.1: zoo.213, 2018/7/15
 location.2: unknown, unknown
 photo.1: ig://ByGpI1UHvVQ/m
 photo.1.author: jessicahazen_

@@ -1,18 +1,19 @@
-import { git } from '@roka/git'
-import { parseArgs } from '@std/cli/parse-args'
-import { IniMap } from '@std/ini/ini-map'
-import { basename, dirname, join, parse } from '@std/path'
-import sharp from 'sharp'
-import { buildDataset, getDataset } from './build.ts'
-import { Dataset } from './dataset.ts'
-import { sortEntities } from './manage.ts'
+import { git } from '@dependencies/roka/git'
+import sharp from '@dependencies/sharp'
+import { parseArgs } from '@dependencies/std/cli/parse-args'
+import { IniMap } from '@dependencies/std/ini/ini-map'
+import { basename, dirname, join, parse } from '@dependencies/std/path'
+import { buildDataset, getDataset } from '@redpanda-lineage/data/build'
+import { Dataset } from '@redpanda-lineage/data/dataset'
+import { distinct, num } from '@redpanda-lineage/data/export'
+import { sortEntities } from '@redpanda-lineage/data/manage'
 import { byFieldName,
          existsDirSync,
          existsFileSync,
          readConfigForExternalSystems,
          safeDirname,
          safeFilename,
-         standardDate } from './shared.ts'
+         standardDate } from '@redpanda-lineage/data/shared'
 
 /** 
  * Tools to manage local photos, or uploading of photos to redpandafinder's
@@ -88,9 +89,7 @@ function convertJsonToPanda(
   configPath: string,
   entityJson: SubmittedPanda
 ) {
-  const zooString = (entityJson.zoo)
-    ? (parseInt(entityJson.zoo) * -1).toString()
-    : "unknown"
+  const zooString = entityJson.zoo ?? "unknown"
   const output: Record<string, any> = {
     _notes: entityJson.notes,
     birthday: standardDate(entityJson.birthday),
@@ -99,8 +98,7 @@ function convertJsonToPanda(
     species: entityJson.species,
     zoo: zooString
   }
-  output["language.order"] =
-    Array.from(new Set([entityJson.language, "en"]).keys()).join(", ")
+  output["language.order"] = distinct([entityJson.language, "en"]).join(", ")
   output[`${entityJson.language}.name`] = entityJson.name
   output[`${entityJson.language}.nicknames`] = "none"
   output[`${entityJson.language}.othernames`] = "none"
@@ -178,8 +176,7 @@ function convertJsonToZoo(
   }
   output["country.name"] = entityJson.country
   output["country.folder"] = entityJson.folder
-  output["language.order"] =
-    Array.from(new Set([entityJson.language, "en"]).keys()).join(", ")
+  output["language.order"] = distinct([entityJson.language, "en"]).join(", ")
   output[`${entityJson.language}.address`] = entityJson.address
   output[`${entityJson.language}.location`] = "<Locality-Name-State-and-Province>"
   output[`${entityJson.language}.name`] = entityJson.name
@@ -331,8 +328,8 @@ function getImageLocators(
 /** For new pandas added to _redpanda-lineage_, write to this file path */
 function getLocationPathForNewPanda(dataset: Dataset, panda: NodePanda) {
   const locationLookupId = (panda.zoo)
-    ? panda.zoo * -1
-    : panda.wild
+    ? `zoo.${panda.zoo}`
+    : `wild.${panda.wild}`
   const locationEntity = dataset.graph.vertices
     .filter(vertex => vertex._id == locationLookupId)
     .shift()
@@ -361,7 +358,7 @@ function getLocationPathForNewZoo(dataset: Dataset, zoo: FragmentZoo) {
 function getNewIdWithLeadingZeroes(dataset: Dataset, type: "panda" | "zoo") {
   const newEntityId = dataset.graph.vertices
     .filter(vertex => vertex.type == type)
-    .map(vertex => Math.abs(vertex._id as number))
+    .map(vertex => num(vertex._id))
     .reduce((max: number, current: number) => {
       if (current > max) return current
       else return max

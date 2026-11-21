@@ -1,7 +1,7 @@
 [panda]
-_id: 226
+_id: panda.226
 birthday: 2016/6/28
-birthplace: 37
+birthplace: zoo.37
 children: none
 commitdate: 2018/7/27
 en.name: Yun-Yun
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: ユンユン, ウンウン
 language.order: ja, en
 litter: 225
-location.1: 37, 2016/6/28
-location.2: 29, 2019/10/28
+location.1: zoo.37, 2016/6/28
+location.2: zoo.29, 2019/10/28
 photo.1: cwdc://Vkal02cADQA.jpg
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2018/11/15

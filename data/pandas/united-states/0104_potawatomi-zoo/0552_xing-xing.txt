@@ -1,7 +1,7 @@
 [panda]
-_id: 552
+_id: panda.552
 birthday: 2017/6/20
-birthplace: 144
+birthplace: zoo.144
 children: none
 commitdate: 2019/3/9
 death: 2019/1/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 144, 2017/6/20
-location.2: 104, 2018/5/18
+location.1: zoo.144, 2017/6/20
+location.2: zoo.104, 2018/5/18
 photo.1: ig://BllEZ23FAA9/m
 photo.1.author: potawatomizoo
 photo.1.commitdate: 2020/2/28

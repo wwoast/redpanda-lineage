@@ -1,7 +1,7 @@
 [panda]
-_id: 936
+_id: panda.936
 birthday: 2018/6/29
-birthplace: 120
+birthplace: zoo.120
 children: 1420
 commitdate: 2019/7/14
 death: 2023/12/2
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 120, 2018/6/29
-location.2: 160, 2019/6/6
-location.3: 165, 2022/5/12
+location.1: zoo.120, 2018/6/29
+location.2: zoo.160, 2019/6/6
+location.3: zoo.165, 2022/5/12
 photo.1: ig://BomlkzWhC3Y/m
 photo.1.author: toxicsoul666
 photo.1.commitdate: 2019/8/2

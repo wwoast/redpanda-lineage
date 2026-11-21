@@ -1,7 +1,7 @@
 [panda]
-_id: 134
+_id: panda.134
 birthday: 2017/7/31
-birthplace: 41
+birthplace: zoo.41
 children: none
 commitdate: 2018/6/27
 en.name: Nohana
@@ -15,8 +15,8 @@ ja.oldnames: ノリン
 ja.othernames: ノハナ
 language.order: ja, en
 litter: none
-location.1: 41, 2017/7/31
-location.2: 36, 2019/5/22
+location.1: zoo.41, 2017/7/31
+location.2: zoo.36, 2019/5/22
 photo.1: ig://BcM3yhghY4H/m
 photo.1.author: furukawatatsuki
 photo.1.commitdate: 2018/7/25

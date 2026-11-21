@@ -1,7 +1,7 @@
 [panda]
-_id: 162
+_id: panda.162
 birthday: 2014/7/6
-birthplace: 45
+birthplace: zoo.45
 children: 1195, 1196
 commitdate: 2018/7/1
 en.name: Sumomo

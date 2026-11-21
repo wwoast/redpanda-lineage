@@ -1,0 +1,24 @@
+{
+  "imports": {
+    "@dependencies/html5-qrcode": "./html5-qrcode.js",
+    "@dependencies/jsleri": "./jsleri-1.1.15.js",
+    "@redpanda-lineage/data/dagoba": "./dagoba.ts",
+    "@redpanda-lineage/data/export": "./export.ts",
+    "@redpanda-lineage/ui/environment": "./environment.js",
+    "@redpanda-lineage/ui/gallery": "./gallery.js",
+    "@redpanda-lineage/ui/geolocate": "./geolocate.js",
+    "@redpanda-lineage/ui/icons": "./icons.js",
+    "@redpanda-lineage/ui/language": "./language.js",
+    "@redpanda-lineage/ui/layout": "./layout.js",
+    "@redpanda-lineage/ui/lookup": "./lookup.js",
+    "@redpanda-lineage/ui/message": "./message.js",
+    "@redpanda-lineage/ui/options": "./options.js",
+    "@redpanda-lineage/ui/page": "./page.js",
+    "@redpanda-lineage/ui/pandas": "./pandas.js",
+    "@redpanda-lineage/ui/parse": "./parse.js",
+    "@redpanda-lineage/ui/query": "./query.js",
+    "@redpanda-lineage/ui/scrollTop": "./scrollTop.js",
+    "@redpanda-lineage/ui/show": "./show.ts",
+    "@redpanda-lineage/ui/touch": "./touch.ts"
+  }  
+}

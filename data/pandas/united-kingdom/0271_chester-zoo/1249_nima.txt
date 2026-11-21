@@ -1,7 +1,7 @@
 [panda]
-_id: 1249
+_id: panda.1249
 birthday: 2012/7/4
-birthplace: 150
+birthplace: zoo.150
 children: 1247, 1248
 commitdate: 2020/12/29
 en.name: Nima
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ne, ja
 litter: unknown
-location.1: 150, 2012/7/4
-location.2: 271, 2013/4/24
+location.1: zoo.150, 2012/7/4
+location.2: zoo.271, 2013/4/24
 ne.name: निमा
 ne.nicknames: none
 ne.othernames: none

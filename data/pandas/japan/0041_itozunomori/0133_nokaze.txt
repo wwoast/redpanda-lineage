@@ -1,7 +1,7 @@
 [panda]
-_id: 133
+_id: panda.133
 birthday: 2009/6/25
-birthplace: 15
+birthplace: zoo.15
 children: 131, 134
 commitdate: 2018/6/27
 en.name: Nokaze
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: ノカゼ
 language.order: ja, en
 litter: none
-location.1: 15, 2009/6/25
-location.2: 41, 2010/12/14
+location.1: zoo.15, 2009/6/25
+location.2: zoo.41, 2010/12/14
 photo.1: ig://Bchk6_rHsuR/m
 photo.1.author: yossi929
 photo.1.commitdate: 2020/5/17

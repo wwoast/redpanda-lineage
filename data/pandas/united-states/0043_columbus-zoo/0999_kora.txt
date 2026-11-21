@@ -1,7 +1,7 @@
 [panda]
-_id: 999
+_id: panda.999
 birthday: 2018/6/23
-birthplace: 65
+birthplace: zoo.65
 children: 1185, 1186
 commitdate: 2019/10/24
 en.name: Kora
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1000
-location.1: 65, 2018/6/23
-location.2: 43, 2019/10/21
+location.1: zoo.65, 2018/6/23
+location.2: zoo.43, 2019/10/21
 photo.1: cwdc://WuYYRg0ADQA.jpg
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2019/7/2

@@ -1,7 +1,25 @@
-import * as Jsleri from '../js/jsleri-1.1.15.js'
-import { capitalNames } from './language.ts'
-import { Defaults, Polyglots, Tags } from './lookup.ts'
-import P, { distinct, values } from './pandas.ts'
+import * as Jsleri from '@dependencies/jsleri'
+import { distinct } from '@redpanda-lineage/data/export'
+import { capitalNames } from '@redpanda-lineage/ui/language'
+import { Defaults, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import P, { values } from '@redpanda-lineage/ui/pandas'
+
+/**  Coerce input number-string to a panda/wild/zoo prefix-ID where needed. */
+function coerceId(potential_id: string, type?: "panda" | "zoo") {
+  if (isNaN(parseInt(potential_id)))
+    return potential_id
+  switch (type) {
+    case "panda":
+      return `panda.${potential_id}`
+    case "zoo":
+      return `zoo.${potential_id}`
+    default:
+      // If positive number, its a panda
+      return (parseInt(potential_id) < 0)
+        ? `zoo.${potential_id}`
+        : `panda.${potential_id}`
+  }
+}
 
 /**
  * Given a search tag, find the equivalent term for that tag that is
@@ -292,8 +310,10 @@ export const group = {
 
 /** Namespace collecting types of strings we parse with regular expressions */
 const regex = {
-  /** Any number, positive or negative */
+  /** Any ID number, positive (pandas) or negative (zoos) */
   id: '(?:^[\-0-9][0-9]*)',
+  /** Any ID number for a known single entity */
+  prefixId: '(?:^(panda|wild|zoo)\.[0-9]+)',
   /** Any sequence of strings separated by spaces */
   name: '(?:^[^\n]+)',
   /** Any year matching 19XX or 2XXX */
@@ -512,6 +532,7 @@ class Tree {
     "subject_author",
     "subject_date",
     "subject_id",
+    "subject_prefix_id",
     "subject_name",
     "subject_panda_id",
     "subject_year",
@@ -524,7 +545,7 @@ class Tree {
     keyword: this.keyword,
     subject: this.subject,
     subject_author: ["subject_author"],
-    subject_filter: ["subject_id", "subject_name"],
+    subject_filter: ["subject_id", "subject_prefix_id", "subject_name"],
     singular: this.keyword.concat(this.subject)
   }
 
@@ -562,6 +583,7 @@ class Tree {
     }
     // Regex matches
     const r_id = Regex(regex.id)
+    const r_prefix_id = Regex(regex.prefixId)
     const r_name = Regex(regex.name)
     const r_year = Regex(regex.year)
     // Date regexes
@@ -578,6 +600,8 @@ class Tree {
       Reversible(Choices(group.takes_subject_name), r_name)
     const c_k_unary_number =
       Reversible(Choices(group.takes_subject_number), r_id)
+    const c_k_unary_prefix_id =
+      Reversible(Choices(group.takes_subject_number), r_prefix_id)  
     const c_k_unary_year =
       Reversible(Choices(group.takes_subject_year), r_year)
     const c_k_unary_date_aa_bb =
@@ -596,39 +620,49 @@ class Tree {
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_name)
     const c_k_unary_credit_author_and_id =
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_id)
+    const c_k_unary_credit_author_and_prefix_id =
+      Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_prefix_id)
     // Groups of tags or keywords or unary items
     const c_k_group_ids = Repeat(r_id)
+    const c_k_group_prefix_ids = Repeat(r_prefix_id)
     const c_k_group_tags = Repeat(Choices(group.tags), 2)
     const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags), 2), r_name)
     const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags), 2), r_id)
+    const c_k_group_tags_prefix_id =
+      Reversible(Repeat(Choices(group.tags), 2), r_prefix_id)
     // Binary keywords
     // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries
     const START = Prio(
       r_id,
-      r_date_yyyy_mm_dd,    // Search by exact dates
+      r_date_yyyy_mm_dd,      // Search by exact dates
       r_date_aa_bb_yyyy,
-      r_date_aa_bb_cc,      // Search by partial dates
+      r_date_aa_bb_cc,        // Search by partial dates
       r_date_mm_yyyy,
       r_date_aa_bb,
       c_k_zeroary,
-      c_k_group_tags,       // Search for many tags at once
-      c_k_group_tags_name,  // Tags followed by a name-string
-      c_k_group_tags_id,    // Tags followed by id-number
-      c_k_group_ids,        // Sequence of panda IDs
+      c_k_group_tags,         // Search for many tags at once
+      c_k_group_tags_prefix_id,
+      c_k_group_tags_name,    // Tags followed by a name-string
+      c_k_group_tags_id,      // Tags followed by id-number
+      c_k_group_ids,          // Sequence of entity numeric IDs
+      c_k_group_prefix_ids,   // Sequence of entity prefix-IDs
+      c_k_unary_credit_author_and_prefix_id,
       c_k_unary_credit_author_and_name,   // credit <author> <panda-name>
       c_k_unary_credit_author_and_id,     // credit <author> <panda-id>
-      c_k_unary_year,       // Unary keywords followed by year-number
-      c_k_unary_number,     // Unary keywords followed by id-number
+      c_k_unary_year,       // Unary keyword followed by year-number
+      c_k_unary_number,     // Unary keyword followed by id-number
       c_k_unary_date_yyyy_mm_dd,    // Unary keywords followed by an exact date
       c_k_unary_date_aa_bb_yyyy,
       c_k_unary_date_aa_bb_cc,      // Unary keywords followed by a partial date
       c_k_unary_date_mm_yyyy,
       c_k_unary_date_aa_bb,
-      c_k_unary_name,       // Unary keywords followed by a name-string
+      c_k_unary_prefix_id,   // Unary keyword followed by Prefix-IDs string
+      c_k_unary_name,       // Unary keyword followed by arbitrary string
       // TODO: don't have parse tree techniques to detect these
       // Sequence('(', THIS, ')'),   // Bracketed expressions
       // Sequence(THIS, c_k_binary_logical, THIS),
+      r_prefix_id,
       r_name
     )
     // Keywords are newline separated
@@ -665,6 +699,7 @@ class Tree {
 
   classify_subject_only(subject_node: ParserNode) {
     subject_node.parent.type = "set_subject"
+    subject_node.str = coerceId(subject_node.str)
   }
 
   classify_plural(plural_nodes: ParserNode[]) {
@@ -768,13 +803,13 @@ class Tree {
         return "keyword"   // All other query logic in result gathering
     }
     if (node.element.hasOwnProperty("re")) {
-      if (node.element.re == regex.id)
+      if (node.element.re == regex.id || node.element.re == regex.prefixId)
         return "subject_id"
       if (node.element.re == regex.name)
         return "subject_name"
       if (node.element.re == regex.year)
         return "subject_year"
-      if (Object.values(regex.date).indexOf(node.element.re) != -1)
+      if (Object.values(regex.date).includes(node.element.re))
         return "subject_date"
     }
     return node.type   // Fallback, don't change anything
@@ -795,19 +830,19 @@ class Tree {
         return "set_keywords"
       if (singulars[0].indexOf("subject") == 0 && singulars[1] == "tag")
         return "set_tag_subject"
-      if (singulars[0] == "keyword" && singulars[1].indexOf("subject") == 0)
+      if (singulars[0] == "keyword" && singulars[1].startsWith("subject"))
         return "set_keyword_subject"
       if (singulars[0] == "tag" && singulars[1] == "tag")
         return "set_tag_intersection"
-      if (singulars[0].indexOf("subject") == 0 && singulars[1].indexOf("subject") == 0)
+      if (singulars[0].startsWith("subject") && singulars[1].startsWith("subject"))
         return "set_only_subjects"
     }
     // Handle the credit <author> <panda-name-or-id-filter> form
     // TODO: if we have more of this "filter style form" change this logic
     if (singulars.length == 3) {
       if (singulars[0] == "keyword" &&
-          singulars[1].indexOf("subject") == 0 &&
-          singulars[2].indexOf("subject") == 0) {
+          singulars[1].startsWith("subject") &&
+          singulars[2].startsWith("subject")) {
         return "set_credit_photos_filtered"
       }
     }
@@ -816,11 +851,11 @@ class Tree {
       if (distinct(singulars).length == 1 && singulars[0] == "tag")
         return "set_tag_intersection"
       if (distinct(singulars).length == 2 && 
-          singulars[0].indexOf("subject") == 0 &&
+          singulars[0].startsWith("subject") &&
           singulars[1] == "tag") {
         return "set_tag_intersection_subject"
       }
-      if (distinct(singulars).length == 1 && singulars[0].indexOf("subject") == 0)
+      if (distinct(singulars).length == 1 && singulars[0].startsWith("subject"))
         return "set_only_subjects"
     }
     // Fallback for things we don't recognize
@@ -864,6 +899,7 @@ class Tree {
                (subject_node.type == "subject_name")) {
         container_node.type = "set_baby_subject"
         keyword_node.type = "tag"
+        subject_node.str = coerceId(subject_node.str, "panda")
       }
       //  3) (credit)+(any subject): subject is an author name. Author search
       else if (group.credit.includes(keyword_node.str)) {
@@ -876,6 +912,7 @@ class Tree {
                (subject_node.type == "subject_year")) {
         container_node.type = "set_family_list"
         subject_node.type = "subject_panda_id"
+        subject_node.str = coerceId(subject_node.str, "panda")
       }
       //  5) (group.year_subject)+(year or id): keyword plus a year
       else if ((group.takes_subject_year.includes(keyword_node.str)) &&
@@ -894,24 +931,27 @@ class Tree {
                (subject_node.type == "subject_id")) {
         container_node.type = "set_nearby_zoo"
         subject_node.type = "subject_zoo_id"
+        subject_node.str = coerceId(subject_node.str, "zoo")
       }
       //  8) (panda)+(year or id): keyword plus an id.
       //     Get the panda matching the id.
       else if ((group.panda.includes(keyword_node.str)) && 
-               ((subject_node.type == "subject_id") || 
+               ((subject_node.type == "subject_id") ||
                 (subject_node.type == "subject_year"))) {
         container_node.type = "set_panda_id"
         keyword_node.type = "type"
         subject_node.type = "subject_panda_id"
+        subject_node.str = coerceId(subject_node.str, "panda")
       }
       //  9) (zoo)+(year or id): keyword plus an id.
       //     Get the zoo matching the id.
       else if ((group.zoo.indexOf(keyword_node.str) != -1) && 
-               ((subject_node.type == "subject_id") || 
+               ((subject_node.type == "subject_id") ||
                 (subject_node.type == "subject_year"))) {
         container_node.type = "set_zoo_id"
         keyword_node.type = "type"
         subject_node.type = "subject_zoo_id"
+        subject_node.str = coerceId(subject_node.str, "zoo")
       }
     }
   }
@@ -925,7 +965,7 @@ class Tree {
   walk_to_subject_container(node: ParserNode): ParserNode {
     const parent_type = this.node_type_composite_ids(node.parent)
     node.parent.type = parent_type   // Set parent node types as we walk
-    if (parent_type.indexOf("contains") == 0) {
+    if (parent_type.startsWith("contains")) {
       return this.walk_to_subject_container(node.parent)
     } else {
       return node.parent

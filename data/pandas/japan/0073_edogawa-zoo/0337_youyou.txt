@@ -1,7 +1,7 @@
 [panda]
-_id: 337
+_id: panda.337
 birthday: 2002/6/21
-birthplace: 60
+birthplace: zoo.60
 children: 290, 155
 commitdate: 2018/9/8
 death: 2022/8/17
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ユウユウ
 language.order: ja, en
 litter: none
-location.1: 60, 2002/6/21
-location.2: 73, 2003/6/11
+location.1: zoo.60, 2002/6/21
+location.2: zoo.73, 2003/6/11
 photo.1: ig://9YbzlGvi2T/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/15

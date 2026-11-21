@@ -1,7 +1,7 @@
 [panda]
-_id: 1465
+_id: panda.1465
 birthday: 2026/6/28
-birthplace: 69
+birthplace: zoo.69
 children: none
 commitdate: 2026/7/13
 en.name: Kinoko

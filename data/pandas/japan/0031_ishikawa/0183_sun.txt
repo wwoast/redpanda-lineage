@@ -1,7 +1,7 @@
 [panda]
-_id: 183
+_id: panda.183
 birthday: 2015/8/23
-birthplace: 31
+birthplace: zoo.31
 children: 1291
 commitdate: 2018/7/24
 en.name: Sun

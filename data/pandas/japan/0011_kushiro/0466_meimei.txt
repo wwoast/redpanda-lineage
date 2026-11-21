@@ -1,7 +1,7 @@
 [panda]
-_id: 466
+_id: panda.466
 birthday: 1999/6/27
-birthplace: 37
+birthplace: zoo.37
 children: none
 commitdate: 2018/11/28
 death: 2017/1/4
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: メイメイ
 language.order: ja, en
 litter: 588
-location.1: 37, 1999/6/27
-location.2: 69, 2004/3/3
-location.3: 11, 2012/3/4
+location.1: zoo.37, 1999/6/27
+location.2: zoo.69, 2004/3/3
+location.3: zoo.11, 2012/3/4
 species: 2
 studbook.id: 9979
 zoo: 11

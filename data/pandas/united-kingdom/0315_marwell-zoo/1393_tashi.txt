@@ -1,7 +1,7 @@
 [panda]
-_id: 1393
+_id: panda.1393
 birthday: 2022/7/16
-birthplace: 214
+birthplace: zoo.214
 children: none
 commitdate: 2022/9/14
 en.name: Tashi
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 214, 2022/7/16
-location.2: 315, 2023/6/29
+location.1: zoo.214, 2022/7/16
+location.2: zoo.315, 2023/6/29
 photo.1: cwdc://YKlvhtGADQE.jpg
 photo.1.author: paradisewildlifepark
 photo.1.commitdate: 2022/9/14

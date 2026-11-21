@@ -1,7 +1,7 @@
 [panda]
-_id: 140
+_id: panda.140
 birthday: 2012/6/27
-birthplace: 6
+birthplace: zoo.6
 children: none
 commitdate: 2018/6/27
 death: 2022/10/10
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 6, 2012/6/27
-location.2: 15, 2015/1/30
-location.3: 143, 2019/7/2
+location.1: zoo.6, 2012/6/27
+location.2: zoo.15, 2015/1/30
+location.3: zoo.143, 2019/7/2
 photo.1: cwdc://VPvC5qdADQA.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2026/1/27

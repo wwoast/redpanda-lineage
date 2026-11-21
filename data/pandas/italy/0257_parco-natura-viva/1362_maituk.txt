@@ -1,7 +1,7 @@
 [panda]
-_id: 1362
+_id: panda.1362
 birthday: 2011/6/26
-birthplace: 247
+birthplace: zoo.247
 children: 1365, 1366
 commitdate: 2022/5/22
 en.name: Maitük
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1363
-location.1: 247, 2011/6/26
-location.2: 257, 2012/6/20
+location.1: zoo.247, 2011/6/26
+location.2: zoo.257, 2012/6/20
 photo.1: ig://CVSqx4As76p/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/5/30

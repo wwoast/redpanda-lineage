@@ -1,7 +1,7 @@
 [panda]
-_id: 1083
+_id: panda.1083
 birthday: 2019/7/6
-birthplace: 92
+birthplace: zoo.92
 children: none
 commitdate: 2019/12/29
 en.name: Mei-Lin
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1082
-location.1: 92, 2019/7/6
-location.2: 87, 2021/5/1
-location.3: 92, 2022/5/1
+location.1: zoo.92, 2019/7/6
+location.2: zoo.87, 2021/5/1
+location.3: zoo.92, 2022/5/1
 photo.1: ig://B7tOmffHsn9/m
 photo.1.author: uticazoo
 photo.1.commitdate: 2020/2/23

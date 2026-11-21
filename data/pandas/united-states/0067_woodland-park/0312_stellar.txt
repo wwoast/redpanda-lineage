@@ -1,7 +1,7 @@
 [panda]
-_id: 312
+_id: panda.312
 birthday: 2007/6/26
-birthplace: 82
+birthplace: zoo.82
 children: none
 commitdate: 2018/8/19
 death: 2017/7/11
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 442
-location.1: 82, 2007/6/26
-location.2: 67, 2008/12/11
+location.1: zoo.82, 2007/6/26
+location.2: zoo.67, 2008/12/11
 photo.1: cwdc://VoEwFgtADQA.jpg
 photo.1.author: carsontheredpanda
 photo.1.commitdate: 2018/8/21

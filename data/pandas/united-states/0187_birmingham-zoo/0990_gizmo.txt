@@ -1,7 +1,7 @@
 [panda]
-_id: 990
+_id: panda.990
 birthday: 2019/6/7
-birthplace: 133
+birthplace: zoo.133
 children: none
 commitdate: 2019/9/16
 en.name: Gizmo
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 133, 2019/6/7
-location.2: 187, 2020/12/2
+location.1: zoo.133, 2019/6/7
+location.2: zoo.187, 2020/12/2
 photo.1: ig://B0jC2f2Hv5R/m
 photo.1.author: sacramentozoo
 photo.1.commitdate: 2019/9/16

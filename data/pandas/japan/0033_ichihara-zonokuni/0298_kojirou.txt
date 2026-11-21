@@ -1,7 +1,7 @@
 [panda]
-_id: 298
+_id: panda.298
 birthday: 2010/7/14
-birthplace: 6
+birthplace: zoo.6
 children: 300, 587
 commitdate: 2018/8/3
 death: 2019/1/1
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 6, 2010/7/14
-location.2: 33, 2012/3/15
+location.1: zoo.6, 2010/7/14
+location.2: zoo.33, 2012/3/15
 photo.1: cwdc://V4oV_FRADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23

@@ -1,7 +1,7 @@
 [panda]
-_id: 634
+_id: panda.634
 birthday: 2011/6/25
-birthplace: 146
+birthplace: zoo.146
 children: unknown
 commitdate: 2019/3/19
 death: 2021/7/14
@@ -16,8 +16,8 @@ ja.oldnames: チャチャ
 ja.othernames: none
 language.order: en, ja
 litter: 635, 636
-location.1: 146, 2011/6/25
-location.2: 101, 2012/4/24
+location.1: zoo.146, 2011/6/25
+location.2: zoo.101, 2012/4/24
 photo.1: ig://BnwGDvUF69R/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/1/17

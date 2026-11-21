@@ -1,7 +1,7 @@
 [panda]
-_id: 434
+_id: panda.434
 birthday: 2015/8/24
-birthplace: 82
+birthplace: zoo.82
 children: 999, 1000, 1001, 1002
 commitdate: 2018/11/23
 en.name: Kola
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 481
-location.1: 82, 2015/8/24
-location.2: 65, 2016/10/27
-location.3: 95, 2019/5/1
+location.1: zoo.82, 2015/8/24
+location.2: zoo.65, 2016/10/27
+location.3: zoo.95, 2019/5/1
 photo.1: cwdc://V7DmNjZADQE.jpg
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2020/1/2

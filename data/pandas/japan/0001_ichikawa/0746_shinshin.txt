@@ -1,5 +1,5 @@
 [panda]
-_id: 746
+_id: panda.746
 birthday: unknown
 birthplace: wild.3
 children: 748, 749, 657, 658, 752, 753, 702
@@ -15,7 +15,7 @@ ja.othernames: シンシン
 language.order: ja, en
 litter: unknown
 location.1: wild.3, unknown
-location.2: 1, 1986/11/1
+location.2: zoo.1, 1986/11/1
 species: 2
 studbook.id: 8639
 zoo: 1

@@ -1,7 +1,7 @@
 [panda]
-_id: 352
+_id: panda.352
 birthday: 1997/6/18
-birthplace: 10
+birthplace: zoo.10
 children: 353, 858, 354, 209, 355, 356, 405, 207, 172, 206
 commitdate: 2018/10/18
 death: 2016/7/21
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: テンテン
 language.order: ja, en
 litter: 351
-location.1: 10, 1997/6/18
-location.2: 34, 1999/12/28
+location.1: zoo.10, 1997/6/18
+location.2: zoo.34, 1999/12/28
 species: 2
 studbook.id: 9791
 zoo: 34

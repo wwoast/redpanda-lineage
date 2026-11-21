@@ -1,7 +1,7 @@
 [panda]
-_id: 24
+_id: panda.24
 birthday: 2011/6/18
-birthplace: 10
+birthplace: zoo.10
 children: 23, 1308, 1309
 commitdate: 2018/6/14
 en.name: Shingen
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: unknown
-location.1: 10, 2011/6/18
-location.2: 11, 2014/11/13
+location.1: zoo.10, 2011/6/18
+location.2: zoo.11, 2014/11/13
 photo.1: ig://BN4Dc6_g7fk/m
 photo.1.author: choco401
 photo.1.commitdate: 2022/5/27

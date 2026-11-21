@@ -1,7 +1,7 @@
 [panda]
-_id: 95
+_id: panda.95
 birthday: 2014/7/1
-birthplace: 10
+birthplace: zoo.10
 children: 1016
 commitdate: 2018/6/23
 death: 2025/11/9
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: 佳佳
 language.order: ja, en
 litter: 94
-location.1: 10, 2014/7/1
-location.2: 14, 2016/5/19
+location.1: zoo.10, 2014/7/1
+location.2: zoo.14, 2016/5/19
 photo.1: cwdc://U2f3MHWADQA.jpg
 photo.1.author: tama080707
 photo.1.commitdate: 2019/4/2

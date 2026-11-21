@@ -1,7 +1,7 @@
 [panda]
-_id: 400
+_id: panda.400
 birthday: 2011/6/13
-birthplace: 76
+birthplace: zoo.76
 children: 420, 421, 416, 417
 commitdate: 2018/11/22
 en.name: Phoenix
@@ -13,11 +13,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 448
-location.1: 76, 2011/6/13
-location.2: 95, 2012/10/30
-location.3: 88, 2013/11/20
-location.4: 87, 2014/12/22
-location.5: 193, 2019/5/1
+location.1: zoo.76, 2011/6/13
+location.2: zoo.95, 2012/10/30
+location.3: zoo.88, 2013/11/20
+location.4: zoo.87, 2014/12/22
+location.5: zoo.193, 2019/5/1
 photo.1: cwdc://VIJinTlADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24

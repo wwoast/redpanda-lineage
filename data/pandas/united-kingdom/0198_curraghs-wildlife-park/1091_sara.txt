@@ -1,7 +1,7 @@
 [panda]
-_id: 1091
+_id: panda.1091
 birthday: 2017/7/27
-birthplace: 234
+birthplace: zoo.234
 children: 1219, 1220, 1320, 1321
 commitdate: 2020/1/14
 en.name: Sara
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 234, 2017/7/27
-location.2: 198, 2014/6/22
+location.1: zoo.234, 2017/7/27
+location.2: zoo.198, 2014/6/22
 photo.1: cwdc://WhiUHZHADQA.jpg
 photo.1.author: curraghswildlifepark
 photo.1.commitdate: 2020/1/14

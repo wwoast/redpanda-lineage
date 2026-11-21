@@ -1,7 +1,7 @@
 [panda]
-_id: 759
+_id: panda.759
 birthday: 1991/6/24
-birthplace: 13
+birthplace: zoo.13
 children: none
 commitdate: 2019/3/29
 death: 2015/7/15
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: 笑, くす
 language.order: ja, en
 litter: none
-location.1: 13, 1991/6/24
-location.2: 40, 1993/2/16
-location.3: 41, 1998/2/23
+location.1: zoo.13, 1991/6/24
+location.2: zoo.40, 1993/2/16
+location.3: zoo.41, 1998/2/23
 species: 2
 studbook.id: 9177
 zoo: 41

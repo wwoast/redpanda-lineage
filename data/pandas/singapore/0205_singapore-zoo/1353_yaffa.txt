@@ -1,7 +1,7 @@
 [panda]
-_id: 1353
+_id: panda.1353
 birthday: 2015/6/22
-birthplace: 55
+birthplace: zoo.55
 children: unknown
 commitdate: 2022/4/19
 en.name: Yaffa
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: キキ, チィチィ
 language.order: zh, en, ja
 litter: 1354
-location.1: 55, 2015/6/22
-location.2: 205, 2026/6/11
+location.1: zoo.55, 2015/6/22
+location.2: zoo.205, 2026/6/11
 photo.1: cwdc://WzC8goPADQA.jpg
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2022/4/18

@@ -1,7 +1,7 @@
 [panda]
-_id: 670
+_id: panda.670
 birthday: 1999/7/7
-birthplace: 52
+birthplace: zoo.52
 children: none
 commitdate: 2019/3/24
 death: 2014/12/23
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: フウフウ
 language.order: ja, en
 litter: 669
-location.1: 52, 1999/7/7
-location.2: 50, 2003/3/5
+location.1: zoo.52, 1999/7/7
+location.2: zoo.50, 2003/3/5
 species: 2
 studbook.id: 9987
 zoo: 50

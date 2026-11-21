@@ -1,7 +1,7 @@
 [panda]
-_id: 247
+_id: panda.247
 birthday: 2018/6/28
-birthplace: 1
+birthplace: zoo.1
 children: 1300, 1301, 1454
 commitdate: 2018/10/3
 en.name: Milk
@@ -15,8 +15,8 @@ ja.oldnames: シロ, 米花, ミーファ
 ja.othernames: none
 language.order: ja, en
 litter: 246
-location.1: 1, 2018/6/28
-location.2: 10, 2020/3/31
+location.1: zoo.1, 2018/6/28
+location.2: zoo.10, 2020/3/31
 photo.1: cwdc://WY6xsu2ADQE.jpg
 photo.1.author: na.mo.pan
 photo.1.commitdate: 2018/10/3

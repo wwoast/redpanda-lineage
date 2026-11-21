@@ -1,7 +1,7 @@
 [panda]
-_id: 920
+_id: panda.920
 birthday: 2002/7/9
-birthplace: 118
+birthplace: zoo.118
 children: none
 commitdate: 2019/7/2
 death: 2020/5/9
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 118, 2002/7/9
-location.2: 114, 2003/3/24
-location.3: 108, 2006/11/29
-location.4: 157, 2009/12/23
+location.1: zoo.118, 2002/7/9
+location.2: zoo.114, 2003/3/24
+location.3: zoo.108, 2006/11/29
+location.4: zoo.157, 2009/12/23
 photo.1: cwdc://WXAG3m7ADQA.jpg
 photo.1.author: officialturtlebackzoo
 photo.1.commitdate: 2020/3/3

@@ -1,7 +1,7 @@
 [panda]
-_id: 699
+_id: panda.699
 birthday: 2016/11/20
-birthplace: 181
+birthplace: zoo.181
 children: unknown
 commitdate: 2019/3/25
 en.name: Maiya

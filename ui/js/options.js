@@ -1,31 +1,26 @@
-/** All available options / default values */
+/**
+ * All available options / default values. All imported content is read-only,
+ * but parameters of imports can be written.
+ */
 export let Data = {
   hideDeadPandas: false
+};
+/** On page refresh, load the options settings from `LocalStorage` */ export function init() {
+  load();
 }
-
-/** On page refresh, load the options settings from `LocalStorage` */
-export function init() {
-  load()
-}
-
-/** Call a function to update the options */
-export function update(func) {
+/** Call a function to update the options */ export function update(func) {
   // Run the given function to update the data
-  func(Data)
-  save()
+  func(Data);
+  save();
   // Report options have been updated
-  window.dispatchEvent(new Event('options_updated'))
+  window.dispatchEvent(new Event('options_updated'));
 }
-
-/** Save current option values to local storage */ 
-function save() {
-  window.localStorage.setItem('options', JSON.stringify(Data))
-} 
-
-/** Load option values from local storage */
-function load() {
-  const localSavedOptions = window.localStorage.getItem('options')
+/** Save current option values to local storage */ function save() {
+  window.localStorage.setItem('options', JSON.stringify(Data));
+}
+/** Load option values from local storage */ function load() {
+  const localSavedOptions = window.localStorage.getItem('options');
   if (localSavedOptions !== null) {
-    Data = JSON.parse(localSavedOptions)
+    Data = JSON.parse(localSavedOptions);
   }
 }

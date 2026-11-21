@@ -1,7 +1,7 @@
 [panda]
-_id: 205
+_id: panda.205
 birthday: 2013/6/20
-birthplace: 34
+birthplace: zoo.34
 children: 230, 950
 commitdate: 2018/7/26
 en.name: Rii-Rii

@@ -1,7 +1,7 @@
 [panda]
-_id: 84
+_id: panda.84
 birthday: 2006/7/6
-birthplace: 13
+birthplace: zoo.13
 children: 151, 24, 215, 346, 75, 91, 92, 93, 94, 95, 97, 98
 commitdate: 2018/6/23
 death: 2023/2/18
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 13, 2006/7/6
-location.2: 10, 2009/1/23
+location.1: zoo.13, 2006/7/6
+location.2: zoo.10, 2009/1/23
 photo.1: cwdc://VfZpGANADQA.jpg
 photo.1.author: no_life_no_zoo
 photo.1.commitdate: 2018/7/29

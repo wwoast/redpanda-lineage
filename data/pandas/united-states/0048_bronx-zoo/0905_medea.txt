@@ -1,7 +1,7 @@
 [panda]
-_id: 905
+_id: panda.905
 birthday: 1997/6/3
-birthplace: 95
+birthplace: zoo.95
 children: none
 commitdate: 2019/7/2
 death: 2000/8/13
@@ -14,7 +14,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 904
-location.1: 95, 1997/6/3
-location.2: 48, 1998/5/19
+location.1: zoo.95, 1997/6/3
+location.2: zoo.48, 1998/5/19
 species: 1
 zoo: 48

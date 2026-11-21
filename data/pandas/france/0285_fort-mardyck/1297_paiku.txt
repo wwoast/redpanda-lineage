@@ -1,5 +1,5 @@
 [panda]
-_id: 1297
+_id: panda.1297
 birthday: unknown
 birthplace: unknown
 children: 1431, 1432
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 258, 2021/5/5
-location.2: 285, unknown
+location.1: zoo.258, 2021/5/5
+location.2: zoo.285, unknown
 species: unknown
 zoo: 285

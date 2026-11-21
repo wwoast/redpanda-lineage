@@ -1,8 +1,9 @@
-import Env from './environment.ts'
-import { Defaults, Flags, Gui, LangNames, Polyglots, Tags } from './lookup.ts'
-import { Text } from './message.ts'
-import * as Page from './page.ts'
-import P, * as Pandas from './pandas.ts'
+import { isEmpty } from '@redpanda-lineage/data/export'
+import Env from '@redpanda-lineage/ui/environment'
+import { Defaults, Flags, Gui, LangNames, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import { Text } from '@redpanda-lineage/ui/message'
+import * as Page from '@redpanda-lineage/ui/page'
+import P, * as Pandas from '@redpanda-lineage/ui/pandas'
 
 /** 
  * Construct tag lists with arbitrary capitalization. TODO: do this for other
@@ -213,12 +214,11 @@ export function fallbackInfo<T extends EnrichedEntity>(
   info: T,
   original: NodePanda | NodeZoo
 ): T {
-  const bundle = structuredClone(info)
   const order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Defaults.animal, order)
   const default_zoo = saveEntityKeys(Defaults.zoo, order)
-const empty_values: (string | undefined)[] = [
+  const empty_values: (string | undefined)[] = [
     ...[undefined],
     ...Object.values(Defaults.unknown), 
     ...Object.values(default_animal),
@@ -238,19 +238,21 @@ const empty_values: (string | undefined)[] = [
           continue  // Don't take replacement values from current language
         if (!empty_values.includes(original[key][language])) {
           // Put this language's value in the displayed output
-          bundle[key] = original[key][language]
+          info[key] = original[key][language]
           break
         }
       } // If no available non-empty strings in other languages, do nothing
     }
   }
   // Replace nested zoo or birthplace text for panda entities similarly
-  if (info.type == "panda" && bundle.type == "panda") {
+  if (info.type == "panda") {
     if ((info.zoo != undefined) && (info.zoo != Defaults.zoo)) {
-      bundle.zoo = fallbackEntity<NodeZoo>(info.zoo)
+      info.zoo = fallbackEntity<NodeZoo>(info.zoo)
     }
-    if ((info.birthplace != undefined) && (info.birthplace != Defaults.zoo)) {
-      bundle.birthplace = fallbackEntity<NodeZoo>(info.birthplace)
+    if ((info.birthplace != undefined) && 
+        (info.birthplace != Defaults.zoo) && 
+        (info.birthplace != Defaults.wild)) {
+      info.birthplace = fallbackEntity<NodeZoo | NodeWild>(info.birthplace)
     }
     for (const index in info.mom) {
       if ((info.mom[index] != undefined) && 
@@ -283,7 +285,7 @@ const empty_values: (string | undefined)[] = [
       }
     }
   }
-  return bundle
+  return info
 }
 
 /** 
@@ -378,7 +380,7 @@ export function commaPhraseBare(pieces: string[]) {
  * if a dataset doesn't include info for a language, we can overwrite that info
  * anyways!
  */
-function currentOrder(currentList: Set<Language>, currentLanguage: Language) {
+function currentOrder(currentList: Language[], currentLanguage: Language) {
   let currentBias = bias[currentLanguage]
   let fallbackLanguages: Language[] = []
   if (currentBias[0] == "latin") {
@@ -429,7 +431,7 @@ export function editDistance(a: string, b: string) {
  * to determine the most relevant available name for the animal shown, even if
  * it's not in the current display language.
  */
-export function fallback_name(entity: PhotoGraphNode): string {
+export function fallback_name(entity: Exclude<PhotoGraphNode, NodeMedia>): string {
   const entity_order = entity["language.order"]
   const order = currentOrder(entity_order, Env.language)
   order.unshift(Env.language)   // Display language always comes first
@@ -556,6 +558,8 @@ export function tagPrimary(input: string) {
       }
     }
   }
+  // If tag is not found, we have a weird parsing problem
+  throw new Error(`TODO: primary tag for ${input} not found`)
 }
 
 type LanguageTest = "English" | "Hiragana" | "Katakana" | "Latin"
@@ -707,13 +711,13 @@ export function update() {
     }
   }
   // On the Links page? Redraw it
-  if ((window.location.hash == "#links") && (P.db != undefined))
+  if ((window.location.hash == "#links") && (isEmpty(P.db) == false))
     Page.links.render()
   // Update the placeholder text for a search bar
   const form = document.forms.namedItem('searchForm')
   const searchInput = document.querySelector<HTMLInputElement>('#searchInput')
   if (form != null && searchInput != null) {
-    if (P.db == undefined)
+    if (isEmpty(P.db))
       searchInput.placeholder = Gui.loading[Env.language]
     else
       searchInput.placeholder = "➤ " + Gui.search[Env.language]

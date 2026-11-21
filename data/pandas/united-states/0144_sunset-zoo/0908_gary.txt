@@ -1,7 +1,7 @@
 [panda]
-_id: 908
+_id: panda.908
 birthday: 2007/6/19
-birthplace: 107
+birthplace: zoo.107
 children: 552, 1059
 commitdate: 2019/7/2
 death: 2018/7/14
@@ -16,8 +16,8 @@ ja.oldnames: ティエン・トン, 天通
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 107, 2007/6/19
-location.2: 144, 2008/7/25
+location.1: zoo.107, 2007/6/19
+location.2: zoo.144, 2008/7/25
 photo.1: cwdc://UDzjjY_ADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2020/5/11

@@ -1,7 +1,7 @@
 [panda]
-_id: 1187
+_id: panda.1187
 birthday: 2020/6/4
-birthplace: 148
+birthplace: zoo.148
 children: none
 commitdate: 2020/6/30
 en.name: Kodo
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 148, 2020/6/4
-location.2: 187, 2022/5/17
+location.1: zoo.148, 2020/6/4
+location.2: zoo.187, 2022/5/17
 photo.1: ig://CCEeAm_jEWb/m
 photo.1.author: buttonwoodparkzoo
 photo.1.commitdate: 2020/7/1

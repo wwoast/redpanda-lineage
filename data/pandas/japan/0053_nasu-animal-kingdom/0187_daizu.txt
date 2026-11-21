@@ -1,7 +1,7 @@
 [panda]
-_id: 187
+_id: panda.187
 birthday: 2010/6/14
-birthplace: 17
+birthplace: zoo.17
 children: 188, 189, 261, 262, 263
 commitdate: 2018/7/14
 en.name: Daizu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 102
-location.1: 17, 2010/6/14
-location.2: 53, 2012/4/2
+location.1: zoo.17, 2010/6/14
+location.2: zoo.53, 2012/4/2
 photo.1: ig://BLDsc9_gaXr/m
 photo.1.author: rnrirhrh
 photo.1.commitdate: 2019/10/20

@@ -1,7 +1,7 @@
 [panda]
-_id: 343
+_id: panda.343
 birthday: 2015/6/25
-birthplace: 154
+birthplace: zoo.154
 children: none
 commitdate: 2018/10/7
 death: 2022/10/3
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 617
-location.1: 154, 2015/6/25
-location.2: 75, 2016/6/22
+location.1: zoo.154, 2015/6/25
+location.2: zoo.75, 2016/6/22
 photo.1: ig://BOVPeqCAV1U/m
 photo.1.author: florianschwarz83
 photo.1.commitdate: 2020/3/25

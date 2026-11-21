@@ -1,7 +1,7 @@
 [panda]
-_id: 197
+_id: panda.197
 birthday: 2014/6/12
-birthplace: 20
+birthplace: zoo.20
 children: none
 commitdate: 2018/7/21
 en.name: Kira
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 315
-location.1: 20, 2014/6/12
-location.2: 40, 2017/5/19
+location.1: zoo.20, 2014/6/12
+location.2: zoo.40, 2017/5/19
 photo.1: ig://BHtzs7wDEM1/m
 photo.1.author: mito_photo
 photo.1.commitdate: 2018/7/21

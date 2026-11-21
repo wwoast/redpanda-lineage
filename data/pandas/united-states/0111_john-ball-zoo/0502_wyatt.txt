@@ -1,7 +1,7 @@
 [panda]
-_id: 502
+_id: panda.502
 birthday: 2012/6/21
-birthplace: 48
+birthplace: zoo.48
 children: 573, 574, 1199, 1200, 1201
 commitdate: 2019/2/23
 en.name: Wyatt
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 501
-location.1: 48, 2012/6/21
-location.2: 112, 2013/5/7
-location.3: 111, 2017/6/28
+location.1: zoo.48, 2012/6/21
+location.2: zoo.112, 2013/5/7
+location.3: zoo.111, 2017/6/28
 photo.1: ig://Bnv2c2aDGrd/m
 photo.1.author: johnballzoogr
 photo.1.commitdate: 2019/3/12

@@ -1,7 +1,7 @@
 [panda]
-_id: 388
+_id: panda.388
 birthday: 2000/6/28
-birthplace: 83
+birthplace: zoo.83
 children: none
 commitdate: 2018/11/18
 death: 2017/8/10
@@ -14,11 +14,11 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 83, 2000/6/28
-location.2: 104, 2002/2/8
-location.3: 43, 2002/10/28
-location.4: 105, 2003/10/23
-location.5: 65, 2007/10/24
+location.1: zoo.83, 2000/6/28
+location.2: zoo.104, 2002/2/8
+location.3: zoo.43, 2002/10/28
+location.4: zoo.105, 2003/10/23
+location.5: zoo.65, 2007/10/24
 photo.1: cwdc://VJBxYz8ADQA.jpg
 photo.1.author: ericatlady
 photo.1.commitdate: 2018/11/18

@@ -1,7 +1,7 @@
 [panda]
-_id: 480
+_id: panda.480
 birthday: 2012/6/7
-birthplace: 44
+birthplace: zoo.44
 children: 435, 434, 481, 485, 486
 commitdate: 2018/12/4
 en.name: Kalden
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 44, 2012/6/7
-location.2: 82, 2013/7/11
-location.3: 96, 2024/11/1
+location.1: zoo.44, 2012/6/7
+location.2: zoo.82, 2013/7/11
+location.3: zoo.96, 2024/11/1
 photo.1: ig://BWvMsg_AsU0/m
 photo.1.author: buildingourzoo
 photo.1.commitdate: 2020/9/24

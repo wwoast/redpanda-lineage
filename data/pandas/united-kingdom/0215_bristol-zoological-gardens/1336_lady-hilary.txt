@@ -1,7 +1,7 @@
 [panda]
-_id: 1336
+_id: panda.1336
 birthday: 2007/12/27
-birthplace: 204
+birthplace: zoo.204
 children: 1265
 commitdate: 2022/2/11
 death: 2019/9/9
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 204, 2007/12/27
-location.2: 215, 2011/6/14
+location.1: zoo.204, 2007/12/27
+location.2: zoo.215, 2011/6/14
 photo.1: cwdc://WY_dpREADQA.jpg
 photo.1.author: bristolzoo
 photo.1.commitdate: 2022/2/11

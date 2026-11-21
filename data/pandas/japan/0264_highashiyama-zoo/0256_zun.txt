@@ -1,7 +1,7 @@
 [panda]
-_id: 256
+_id: panda.256
 birthday: 2018/7/13
-birthplace: 17
+birthplace: zoo.17
 children: none
 commitdate: 2018/11/8
 en.name: Zun
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 17, 2018/7/13
-location.2: 264, 2020/12/8
+location.1: zoo.17, 2018/7/13
+location.2: zoo.264, 2020/12/8
 photo.1: cwdc://WbynPkBADQM.jpg
 photo.1.author: kotata_513
 photo.1.commitdate: 2018/11/8

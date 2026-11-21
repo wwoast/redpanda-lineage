@@ -1,7 +1,7 @@
 [panda]
-_id: 1061
+_id: panda.1061
 birthday: 2019/6/16
-birthplace: 76
+birthplace: zoo.76
 children: none
 commitdate: 2019/11/29
 en.name: Crimson
@@ -13,8 +13,8 @@ ja.nicknames: 真紅
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 76, 2019/6/16
-location.2: 94, 2020/12/1
+location.1: zoo.76, 2019/6/16
+location.2: zoo.94, 2020/12/1
 photo.1: ig://B2FReGAjQBe/m
 photo.1.author: assiniboineparkzoo
 photo.1.commitdate: 2019/11/29

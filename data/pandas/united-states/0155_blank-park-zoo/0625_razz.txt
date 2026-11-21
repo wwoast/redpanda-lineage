@@ -1,7 +1,7 @@
 [panda]
-_id: 625
+_id: panda.625
 birthday: 2011/6/14
-birthplace: 122
+birthplace: zoo.122
 children: none
 commitdate: 2019/10/20
 death: 2025/8/8
@@ -16,10 +16,10 @@ ja.oldnames: ダト
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 122, 2011/6/14
-location.2: 155, 2012/9/6
-location.3: 156, 2017/4/27
-location.4: 155, 2021/5/18
+location.1: zoo.122, 2011/6/14
+location.2: zoo.155, 2012/9/6
+location.3: zoo.156, 2017/4/27
+location.4: zoo.155, 2021/5/18
 photo.1: cwdc://VvBUSJAADQF.jpg
 photo.1.author: hemkerzoo
 photo.1.commitdate: 2019/10/20

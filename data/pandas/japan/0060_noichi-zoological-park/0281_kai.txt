@@ -1,7 +1,7 @@
 [panda]
-_id: 281
+_id: panda.281
 birthday: 2008/6/16
-birthplace: 1
+birthplace: zoo.1
 children: 283
 commitdate: 2018/7/29
 en.name: Kai
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 12
-location.1: 1, 2008/6/16
-location.2: 60, 2013/3/23
+location.1: zoo.1, 2008/6/16
+location.2: zoo.60, 2013/3/23
 photo.1: cwdc://Vlz65xYADQR.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2024/5/25

@@ -1,7 +1,7 @@
 [panda]
-_id: 393
+_id: panda.393
 birthday: 2012/6/30
-birthplace: 76
+birthplace: zoo.76
 children: 384, 411, 422
 commitdate: 2018/11/20
 en.name: Kiah
@@ -14,9 +14,9 @@ ja.oldnames: キア
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 76, 2012/6/30
-location.2: 43, 2013/6/28
-location.3: 130, 2017/11/30
+location.1: zoo.76, 2012/6/30
+location.2: zoo.43, 2013/6/28
+location.3: zoo.130, 2017/11/30
 photo.1: ig://BCGiQwTykH-/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24

@@ -1,7 +1,7 @@
 [panda]
-_id: 53
+_id: panda.53
 birthday: 2003/6/16
-birthplace: 10
+birthplace: zoo.10
 children: 48, 72, 42, 85, 35, 46, 19, 199
 commitdate: 2018/6/19
 death: 2015/7/18
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 220, 374
-location.1: 10, 2003/6/16
-location.2: 8, 2005/3/7
+location.1: zoo.10, 2003/6/16
+location.2: zoo.8, 2005/3/7
 photo.1: ig://xBCRTBQfDd/m
 photo.1.author: jwg13777
 photo.1.commitdate: 2018/7/19

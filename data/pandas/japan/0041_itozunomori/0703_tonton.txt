@@ -1,5 +1,5 @@
 [panda]
-_id: 703
+_id: panda.703
 birthday: unknown
 birthplace: wild.3
 children: none
@@ -15,8 +15,8 @@ ja.othernames: none
 language.order: ja, en
 litter: unknown
 location.1: wild.3, unknown
-location.2: 21, 1997/12/18
-location.3: 41, 2002/2/10
+location.2: zoo.21, 1997/12/18
+location.3: zoo.41, 2002/2/10
 species: 2
 studbook.id: 94102
 zoo: 41

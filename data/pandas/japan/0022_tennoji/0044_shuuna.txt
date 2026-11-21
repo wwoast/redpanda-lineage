@@ -1,7 +1,7 @@
 [panda]
-_id: 44
+_id: panda.44
 birthday: 2006/7/4
-birthplace: 16
+birthplace: zoo.16
 children: none
 commitdate: 2018/6/18
 en.name: Shuuna
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: unknown
-location.1: 16, 2006/7/4
-location.2: 22, 2007/4/2
+location.1: zoo.16, 2006/7/4
+location.2: zoo.22, 2007/4/2
 photo.1: ig://BB0t12WPi7_/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2019/7/7

@@ -1,7 +1,7 @@
 [panda]
-_id: 26
+_id: panda.26
 birthday: 2010/6/28
-birthplace: 13
+birthplace: zoo.13
 children: 10, 293, 28, 29
 commitdate: 2018/6/15
 death: 2026/11/9
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 109
-location.1: 13, 2010/6/28
-location.2: 4, 2012/2/18
+location.1: zoo.13, 2010/6/28
+location.2: zoo.4, 2012/2/18
 photo.1: cwdc://VInLv1VADQA.jpg
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/6

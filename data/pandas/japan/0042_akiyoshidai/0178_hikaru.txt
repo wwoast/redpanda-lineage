@@ -1,7 +1,7 @@
 [panda]
-_id: 178
+_id: panda.178
 birthday: 2017/7/14
-birthplace: 42
+birthplace: zoo.42
 children: none
 commitdate: 2018/7/13
 en.name: Hikaru

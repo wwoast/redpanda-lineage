@@ -1,7 +1,7 @@
 [panda]
-_id: 993
+_id: panda.993
 birthday: 2018/6/12
-birthplace: 118
+birthplace: zoo.118
 children: none
 commitdate: 2019/10/12
 en.name: Frank
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 991, 992
-location.1: 118, 2018/6/12
-location.2: 122, 2022/3/29
+location.1: zoo.118, 2018/6/12
+location.2: zoo.122, 2022/3/29
 photo.1: ig://BxsUQtiFqtk/m
 photo.1.author: greenvilleaazk
 photo.1.commitdate: 2019/10/20

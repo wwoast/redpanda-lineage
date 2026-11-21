@@ -1,7 +1,7 @@
 [panda]
-_id: 516
+_id: panda.516
 birthday: 2013/6/6
-birthplace: 104
+birthplace: zoo.104
 children: 517, 606
 commitdate: 2019/2/24
 en.name: Linus
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 104, 2013/6/6
-location.2: 48, 2014/4/10
+location.1: zoo.104, 2013/6/6
+location.2: zoo.48, 2014/4/10
 photo.1: cwdc://WxPJT8mADQA.jpg
 photo.1.author: rossifari
 photo.1.commitdate: 2019/10/27

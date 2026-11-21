@@ -1,7 +1,7 @@
 [panda]
-_id: 995
+_id: panda.995
 birthday: 2019/6/29
-birthplace: 40
+birthplace: zoo.40
 children: none
 commitdate: 2019/10/13
 en.name: Pu-Pu
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 994
-location.1: 40, 2019/6/29
-location.2: 3, 2023/6/13
+location.1: zoo.40, 2019/6/29
+location.2: zoo.3, 2023/6/13
 photo.1: ig://B39FedbhqYn/m
 photo.1.author: kmasahon
 photo.1.commitdate: 2019/10/23

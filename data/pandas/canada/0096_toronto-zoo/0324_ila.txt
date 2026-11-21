@@ -1,7 +1,7 @@
 [panda]
-_id: 324
+_id: panda.324
 birthday: 2018/6/19
-birthplace: 67
+birthplace: zoo.67
 children: 1193, 1194
 commitdate: 2018/8/31
 death: 2020/11/10
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 325
-location.1: 67, 2018/6/19
-location.2: 96, 2019/9/18
+location.1: zoo.67, 2018/6/19
+location.2: zoo.96, 2019/9/18
 photo.1: ig://BqiLfzll7HB/m
 photo.1.author: carsontheredpanda
 photo.1.commitdate: 2020/12/2

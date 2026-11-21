@@ -1,7 +1,7 @@
 [panda]
-_id: 989
+_id: panda.989
 birthday: 2005/12/15
-birthplace: 207
+birthplace: zoo.207
 children: unknown
 commitdate: 2019/8/29
 en.name: Indira
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 207, 2005/12/15
-location.2: 210, 2008/6/4
-location.3: 209, 2012/6/19
+location.1: zoo.207, 2005/12/15
+location.2: zoo.210, 2008/6/4
+location.3: zoo.209, 2012/6/19
 photo.1: ig://-LivDAFhff/m
 photo.1.author: symbiowildlifepark
 photo.1.commitdate: 2019/8/29

@@ -1,13 +1,14 @@
-import Env from './environment.ts'
-import * as Gallery from './gallery.ts'
-import * as Geo from './geolocate.ts'
-import { mediaQuery, shrinkNames } from './layout.ts'
-import { Gui, Tags } from './lookup.ts'
-import * as Message from './message.ts'
-import * as Options from './options.ts'
-import P, * as Pandas from './pandas.ts'
-import * as Query from './query.ts'
-import * as Show from './show.ts'
+import { isEmpty, num } from '@redpanda-lineage/data/export'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Gallery from '@redpanda-lineage/ui/gallery'
+import * as Geo from '@redpanda-lineage/ui/geolocate'
+import { mediaQuery, shrinkNames } from '@redpanda-lineage/ui/layout'
+import { Gui, Tags } from '@redpanda-lineage/ui/lookup'
+import * as Message from '@redpanda-lineage/ui/message'
+import * as Options from '@redpanda-lineage/ui/options'
+import P, * as Pandas from '@redpanda-lineage/ui/pandas'
+import * as Query from '@redpanda-lineage/ui/query'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /** 
  * Module for rendering all sectional pages of redpandafinder, some of which
@@ -36,19 +37,19 @@ export function redraw(callback?: Function) {
   if (callback == undefined)
     return
   if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == results.render)) {
     callback()
   }
   // Redisplay profile info in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == profile.render)) {
     callback()
   }
   if ((window.location.hash.length > 0) &&
-      (P.db != undefined) &&
+      (isEmpty(P.db) == false) &&
       (callback == media.render)) {
     callback()
   }
@@ -60,7 +61,9 @@ export function redraw(callback?: Function) {
       (callback != links.render)) {
     callback()
   }
-  if ((window.location.hash.length == 0) && (callback == home.render)) {
+  if ((window.location.hash.length == 0) &&
+      (isEmpty(P.db) == false) &&
+      (callback == home.render)) {
     callback()
   }
 }
@@ -72,7 +75,7 @@ export function redraw(callback?: Function) {
  */
 interface AboutPage {
   /** The page body to render or restore for the About page */
-  content: HTMLDivElement,
+  content: HTMLDivElement | null,
   /** Language the current page is displayed in */
   language: Language,
   /** Event representing the About page was successfully fetched */
@@ -172,7 +175,8 @@ class AboutPage {
       this.fetch()
     else {
       this.sectionMenuDefaults()   // Initialize submenus if necessary
-      document.getElementById('contentFrame')?.replaceWith(this.content)
+      if (this.content)
+        document.getElementById('contentFrame')?.replaceWith(this.content)
       footer.redraw("results")
     }
     Show.resultsMenus.language()
@@ -373,7 +377,7 @@ class FooterComponent {
     })
     // Now reassemble the text with links inside. TODO: rewrite as JSX
     p.appendChild(document.createTextNode(
-      splitMessage[0].replaceAll(/\s+/, " ")))
+      splitMessage[0].replaceAll(/\s+/g, " ")))
     const rpn = document.createElement('a')
     rpn.href = rpn_url
     rpn.target = "_blank"   // Open link in a new tab
@@ -382,7 +386,7 @@ class FooterComponent {
     rpn.innerText = Gui.footerLink_rpn[language]
     p.appendChild(rpn)
     p.appendChild(document.createTextNode(
-      splitMessage[1].replaceAll(/\s+/, " ")))
+      splitMessage[1].replaceAll(/\s+/g, " ")))
     const rpf = document.createElement('a')
     rpf.href = "https://github.com/wwoast/redpanda-lineage"
     rpf.target = "_blank"   // Open link in a new tab
@@ -391,7 +395,7 @@ class FooterComponent {
     rpf.innerText = Gui.footerLink_rpf[language]
     p.appendChild(rpf)
     p.appendChild(document.createTextNode(
-      splitMessage[2].replaceAll(/\s+/, " ")))
+      splitMessage[2].replaceAll(/\s+/g, " ")))
     const washimumu = document.createElement('a')
     washimumu.href = `https://ressapanda.com/${Env.language}`
     washimumu.target = "_blank"
@@ -399,7 +403,7 @@ class FooterComponent {
     washimumu.innerText = Gui.footerLink_washimumu[language]
     p.appendChild(washimumu)
     p.appendChild(document.createTextNode(
-      splitMessage[3].replaceAll(/\s+/, " ")))
+      splitMessage[3].replaceAll(/\s+/g, " ")))
     const wumpwoast = document.createElement('a')
     wumpwoast.href = `https://www.instagram.com/wumpwoast`
     wumpwoast.target = "_blank"
@@ -408,7 +412,7 @@ class FooterComponent {
     p.appendChild(wumpwoast)
     if (splitMessage.length > 4)
       p.appendChild(document.createTextNode(
-        splitMessage[4].replaceAll(/\s+/, " ")))
+        splitMessage[4].replaceAll(/\s+/g, " ")))
     const shrinker = document.createElement('div')
     shrinker.className = "shrinker"
     shrinker.appendChild(p)
@@ -443,7 +447,7 @@ class HomePage {
     Show.resultsMenus.language()
     Show.landingMenus.top.render()
     // Special homepage headers
-    if (P.db != undefined) {
+    if (isEmpty(P.db) == false) {
       const new_content = document.createElement('div')
       new_content.className = "results birthdayPandas"
       new_content.id = "contentFrame"
@@ -452,10 +456,10 @@ class HomePage {
       // new_content.appendChild(halloween);
       // Kin Gin special
       // const kingin =
-      //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
+      //   Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["panda.22", "panda.17"], 3)
       // new_content.appendChild(kingin)
       // Current memorials
-      const memorial_ids = ["6"]
+      const memorial_ids = ["panda.26"]
       if (!Options.Data.hideDeadPandas) {
         const departed = Gallery.memorialPhotoCredits(memorial_ids, 3, Message.memorial)
         new_content.appendChild(departed)
@@ -518,18 +522,18 @@ class HomePage {
   special_memorial() {
     const choice = Env.paging.seed
     if (choice % 7 == 0) {
-      const laila = Gallery.memorialPhotoCredits(["60"], 3, Message.missing_you)
+      const laila = Gallery.memorialPhotoCredits(["panda.60"], 3, Message.missing_you)
       return laila
     } else if (choice % 5 == 0) {
-      const kokin = Gallery.memorialPhotoCredits(["23"], 3, Message.missing_you)
+      const kokin = Gallery.memorialPhotoCredits(["panda.23"], 3, Message.missing_you)
       return kokin
     } else if (choice % 3 == 0) {
-      const hokuto = Gallery.memorialPhotoCredits(["58"], 3, Message.missing_you)
+      const hokuto = Gallery.memorialPhotoCredits(["panda.58"], 3, Message.missing_you)
       return hokuto
     } else {
       // Group memorial for Kin and Gin, temporarily Hokuto
       const kingin =
-        Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["22", "17"], 3)
+        Gallery.memorialPhotoCreditsGroup("media.7.gin-kin", ["panda.22", "panda.17"], 3)
       return kingin
     }
   }
@@ -693,8 +697,7 @@ class MediaPage {
     document.getElementById('contentFrame')?.replaceWith(new_content)
     shrinkNames()
     Show.mediaMenus.language()
-    const result_id = pandaMedia._id.toString()
-    Show.mediaMenus.top.render(result_id)
+    Show.mediaMenus.top.render(num(pandaMedia._id))
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -767,7 +770,7 @@ class ProfilePage {
     Env.paging.display_button = false
     // Start by just displaying info for one panda by id search
     const results = routes.behavior(input)
-    const pandaProfile = results["hits"][0] as NodePanda
+    const pandaProfile = results.hits[0] as NodePanda
     const profile_div = Show.profilePage.panda(pandaProfile)
     const where_divs = Show.profilePage.where(pandaProfile)
     const family_divs = Show.profilePage.family(pandaProfile)
@@ -789,9 +792,8 @@ class ProfilePage {
     // Swap the new content into the page
     document.getElementById('contentFrame')?.replaceWith(new_content)
     Show.profileMenus.language()
-    const result_id = pandaProfile._id.toString()
     // TODO TOWRITE: need to take id of panda for buttons
-    Show.profileMenus.top.render(result_id)
+    Show.profileMenus.top.render(num(pandaProfile._id))
     footer.redraw("profile")
     color("profile")
     // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -818,11 +820,11 @@ class ResultsPage {
   /** Given a search for pandas or zoos, output entity divs */
   entities(results: QueryResult) {
     let content_divs: HTMLDivElement[] = []
-    if (results["hits"].length == 0) {
+    if (results.hits.length == 0) {
       // No results? On desktop, bring up a sad panda
       content_divs.push(Show.emptyResult(Message.Text.no_result))
     }
-    results["hits"].map(entity => entity as PhotoGraphNode).forEach(entity => {
+    results.hits.map(entity => entity as PhotoGraphNode).forEach(entity => {
       // Zoos get the Zoo div and pandas for this zoo
       if (entity.type == "zoo") {
         content_divs.push(Show.resultsPage.zoo(entity))
@@ -833,9 +835,11 @@ class ResultsPage {
         content_divs.push(Show.resultsPage.panda(entity))
     })
     // Remove the last element if it's a divider
-    const last_element = content_divs[content_divs.length - 1]
-    if (last_element.className == 'zooDivider') {
-      content_divs.pop()
+    if (content_divs.length > 0) {
+      const last_element = content_divs[content_divs.length - 1]
+      if (last_element.className == 'zooDivider') {
+        content_divs.pop()
+      }
     }
     return content_divs
   }
@@ -848,21 +852,23 @@ class ResultsPage {
    */
   group(results: QueryResult) {
     let content_divs: HTMLDivElement[] = []
-    if (results["hits"].length == 0) {
+    if (results.hits.length == 0) {
       // Push an error message
       content_divs.push(Show.emptyResult(Message.Text.no_group_media_result))
       return content_divs
     }
-    // Then, start displaying a list of group photos paged out
-    const animal_ids = results["query"].split(" ")
-    // Show all photos with these animals, along with a message.
+    // Then, start displaying a list of group photos paged out. Use the query
+    // itself to build the list of animals to get results cards for, because
+    // the group entity will resolve to a media object.
     // No container div here so just concat.
-    if (results["hits"].length > 0)
-      content_divs = content_divs.concat(Show.resultsPage.groupGallery(animal_ids))
+    const numIdList = results.query.split(" ").map(id => `${num(id)}`)
+    if (results.hits.length > 0) {
+      content_divs = content_divs.concat(Show.resultsPage.groupGallery(numIdList))
+    }
     // Give a list of results for each individual animal
     const animal_results = []
-    for (const id of animal_ids) {
-      const entity = Pandas.searchPandaId(id)[0] as NodePanda
+    for (const id of numIdList) {
+      const entity = Pandas.graphId<NodePanda>(`panda.${id}`)
       animal_results.push(Show.resultsPage.panda(entity))
     }
     // Let some photos appear first, unless we don't have very many photos
@@ -886,7 +892,7 @@ class ResultsPage {
       return content_divs
     }
     // This query only gets zoo results
-    results["hits"].map(entity => entity as NodeZoo).forEach(entity => {
+    results.hits.map(entity => entity as NodeZoo).forEach(entity => {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.resultsPage.zoo(entity))
       const animals = Pandas.sortOldestToYoungest(
@@ -907,16 +913,16 @@ class ResultsPage {
   photos(results: QueryResult) {
     let content_divs: HTMLDivElement[] = []
     const max_hits = Env.paging.results_count
-    if ((results["parsed"] == "set_tag") || 
-        (results["parsed"] == "set_tag_subject") ||
-        (results["parsed"] == "set_baby_subject")) {
+    if ((results.parsed == "set_tag") || 
+        (results.parsed == "set_tag_subject") ||
+        (results.parsed == "set_baby_subject")) {
       // Basic tag views with emoji in the name field
       content_divs = Gallery.tagPhotos(results, max_hits, true)
-    } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
+    } else if (results.parsed.includes("set_tag_intersection")) {
       // Combo tag views, no emoji in the name field
       content_divs = Gallery.tagPhotos(results, max_hits, false)
-    } else if ((results["parsed"] == "set_credit_photos") || 
-               (results["parsed"] == "set_credit_photos_filtered")) {
+    } else if ((results.parsed == "set_credit_photos") || 
+               (results.parsed == "set_credit_photos_filtered")) {
       content_divs = Gallery.creditPhotos(results, max_hits)
     }
     // HACK: revert to results mode
@@ -1037,17 +1043,17 @@ class Routes {
       const [ panda, _, photo_id ] = uri_items.split("/")
       Env.output_mode = "entities"
       Env.specific_photo = photo_id
-      query_string = `panda ${panda}`
+      query_string = `panda.${panda}`
     } else if ((input.indexOf("#panda/") == 0) && (input.split("/").length == 2)) {
       // link for a single panda result.
       const panda = input.slice(7)
       Env.output_mode = "entities"
-      query_string = `panda ${panda}`
+      query_string = `panda.${panda}`
     } else if ((input.indexOf("#group") == 0) &&
                (input.split("/").length >= 2) &&
                (input.split("/").length <= P.db._photo.group_max + 1)) {
       // group display modes (just searching multiple ids for now)
-      const id_list = input.slice(7).split("/")
+      const id_list = input.slice(7).split("/").map(id => `panda.${id}`)
       Env.output_mode = "group"
       query_string = id_list.join(" ")
     } else if ((input.indexOf("#profile/") == 0) && (input.split("/").length == 4)) {
@@ -1055,14 +1061,14 @@ class Routes {
       const uri_items = input.slice(9)
       const [ panda, _, photo_id ] = uri_items.split("/")
       Env.specific_photo = photo_id
-      query_string = `panda ${panda}`
+      query_string = `panda.${panda}`
     } else if ((input.indexOf("#profile/") == 0) && (input.split("/").length == 2)) {
       // link for a single panda profile result.
       const panda = input.slice(9)
-      query_string = `panda ${panda}`
+      query_string = `panda.${panda}`
     } else if ((input.indexOf("#media/") == 0) && (input.split("/").length == 2)) {
       const panda = input.slice(7)
-      query_string = `panda ${panda}`
+      query_string = `panda.${panda}`
     } else if (input.indexOf("#query/") == 0) {
       // process a query.
       query_string = input.slice(7)
@@ -1074,12 +1080,12 @@ class Routes {
       const [ zoo, _, zoo_id ] = uri_items.split("/")
       Env.output_mode = "entities"
       Env.specific_photo = zoo_id
-      query_string = `zoo ${zoo}`
+      query_string = `zoo.${zoo}`
     } else if ((input.indexOf("#zoo/") == 0) && (input.split("/").length == 2)) {
       // link for a single zoo result.
       const zoo = input.slice(5)
       Env.output_mode = "entities"
-      query_string = `zoo ${zoo}`
+      query_string = `zoo.${zoo}`
     } else {
       // Don't know how to process the hashlink, so do nothing
       throw new Error("TODO: unrecognized route")

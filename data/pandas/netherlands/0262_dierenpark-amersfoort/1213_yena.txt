@@ -1,7 +1,7 @@
 [panda]
-_id: 1213
+_id: panda.1213
 birthday: 2017/6/19
-birthplace: 239
+birthplace: zoo.239
 children: unknown
 commitdate: 2020/8/19
 en.name: Yena
@@ -19,8 +19,8 @@ ja.oldnames: none
 ja.othernames: none
 language.order: nl, fr, en, ja
 litter: none
-location.1: 239, 2017/6/19
-location.2: 262, 2018/11/9
+location.1: zoo.239, 2017/6/19
+location.2: zoo.262, 2018/11/9
 nl.name: Yena
 nl.nicknames: none
 nl.oldnames: none

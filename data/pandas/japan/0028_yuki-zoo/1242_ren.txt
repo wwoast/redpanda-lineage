@@ -1,7 +1,7 @@
 [panda]
-_id: 1242
+_id: panda.1242
 birthday: 2004/6/17
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2020/12/13
 death: 2016/5/14
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: レン
 language.order: ja, en
 litter: 1243, 1244
-location.1: 10, 2004/6/17
-location.2: 60, 2006/12/6
-location.3: 12, 2010/3/9
-location.4: 28, 2014/10/27
+location.1: zoo.10, 2004/6/17
+location.2: zoo.60, 2006/12/6
+location.3: zoo.12, 2010/3/9
+location.4: zoo.28, 2014/10/27
 species: 2
 studbook.id: 0461
 zoo: 28

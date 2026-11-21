@@ -1,7 +1,7 @@
 [panda]
-_id: 1196
+_id: panda.1196
 birthday: 2020/6/29
-birthplace: 45
+birthplace: zoo.45
 children: 1450
 commitdate: 2020/7/20
 en.name: Gumi
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 1195
-location.1: 45, 2020/6/29
-location.2: 53, 2023/4/12
+location.1: zoo.45, 2020/6/29
+location.2: zoo.53, 2023/4/12
 photo.1: ig://CG1VJq2hIXM/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/11/1

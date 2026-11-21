@@ -1,7 +1,7 @@
 [panda]
-_id: 519
+_id: panda.519
 birthday: 2013/6/15
-birthplace: 121
+birthplace: zoo.121
 children: 1463, 1464
 commitdate: 2019/2/24
 en.name: Mars
@@ -13,10 +13,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 121, 2013/6/15
-location.2: 123, 2014/11/5
-location.3: 109, 2017/12/20
-location.4: 166, 2023/11/23
+location.1: zoo.121, 2013/6/15
+location.2: zoo.123, 2014/11/5
+location.3: zoo.109, 2017/12/20
+location.4: zoo.166, 2023/11/23
 photo.1: cwdc://WfW18koADQB.jpg
 photo.1.author: memphiszoo
 photo.1.commitdate: 2019/3/12

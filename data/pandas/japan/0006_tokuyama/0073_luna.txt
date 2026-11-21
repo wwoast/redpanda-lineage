@@ -1,7 +1,7 @@
 [panda]
-_id: 73
+_id: panda.73
 birthday: 2015/8/23
-birthplace: 31
+birthplace: zoo.31
 children: 376, 378, 1368, 1369
 commitdate: 2018/6/22
 en.name: Luna
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 183
-location.1: 31, 2015/8/23
-location.2: 6, 2017/6/17
+location.1: zoo.31, 2015/8/23
+location.2: zoo.6, 2017/6/17
 photo.1: ig://BTIhhKzhvHx/m
 photo.1.author: perie1027vivi
 photo.1.commitdate: 2018/7/24

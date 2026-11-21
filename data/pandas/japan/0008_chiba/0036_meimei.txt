@@ -1,7 +1,7 @@
 [panda]
-_id: 36
+_id: panda.36
 birthday: 2007/6/28
-birthplace: 17
+birthplace: zoo.17
 children: 102, 187, 37, 45, 38, 43, 39, 40, 47
 commitdate: 2018/6/18
 en.name: Mei-Mei
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 105
-location.1: 17, 2007/6/28
-location.2: 8, 2011/2/28
+location.1: zoo.17, 2007/6/28
+location.2: zoo.8, 2011/2/28
 photo.1: ig://39HtpXPi2T/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/6/24

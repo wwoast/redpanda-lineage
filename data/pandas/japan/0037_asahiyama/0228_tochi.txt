@@ -1,7 +1,7 @@
 [panda]
-_id: 228
+_id: panda.228
 birthday: 2001/7/4
-birthplace: 40
+birthplace: zoo.40
 children: 16, 298, 160, 253, 190, 224
 commitdate: 2018/7/27
 death: 2019/4/5
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: トチ
 language.order: ja, en
 litter: none
-location.1: 40, 2001/7/4
-location.2: 3, 2003/4/23
-location.3: 6, 2007/1/31
-location.4: 37, 2012/3/8
+location.1: zoo.40, 2001/7/4
+location.2: zoo.3, 2003/4/23
+location.3: zoo.6, 2007/1/31
+location.4: zoo.37, 2012/3/8
 photo.1: cwdc://V_o6i1iADQA.jpg
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23

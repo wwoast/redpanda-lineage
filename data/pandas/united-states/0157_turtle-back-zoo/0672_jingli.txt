@@ -1,7 +1,7 @@
 [panda]
-_id: 672
+_id: panda.672
 birthday: 2006/6/21
-birthplace: 115
+birthplace: zoo.115
 children: none
 commitdate: 2019/3/24
 en.name: Jing-Li
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 115, 2006/6/21
-location.2: 81, 2007/11/27
-location.3: 157, 2013/11/13
+location.1: zoo.115, 2006/6/21
+location.2: zoo.81, 2007/11/27
+location.3: zoo.157, 2013/11/13
 photo.1: ig://0qk5dWq0Ti/m
 photo.1.author: officialturtlebackzoo
 photo.1.commitdate: 2020/3/3

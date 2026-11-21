@@ -1,7 +1,7 @@
 [panda]
-_id: 1361
+_id: panda.1361
 birthday: 2013/6/25
-birthplace: 263
+birthplace: zoo.263
 children: unknown
 commitdate: 2022/5/22
 en.name: Kamala
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1360
-location.1: 263, 2013/6/25
-location.2: 304, 2014/5/23
+location.1: zoo.263, 2013/6/25
+location.2: zoo.304, 2014/5/23
 species: 1
 studbook.id: 13130
 zoo: 304

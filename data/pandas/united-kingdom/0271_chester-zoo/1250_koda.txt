@@ -1,7 +1,7 @@
 [panda]
-_id: 1250
+_id: panda.1250
 birthday: 2016/7/11
-birthplace: 263
+birthplace: zoo.263
 children: 1247, 1248
 commitdate: 2020/12/29
 en.name: Koda
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: unknown
-location.1: 263, 2016/7/11
-location.2: 271, 2018/6/6
+location.1: zoo.263, 2016/7/11
+location.2: zoo.271, 2018/6/6
 photo.1: cwdc://WQ3lsHaADQA.jpg
 photo.1.author: chesterzoo
 photo.1.commitdate: 2020/12/29

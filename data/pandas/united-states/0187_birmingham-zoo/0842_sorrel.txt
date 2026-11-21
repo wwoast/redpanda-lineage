@@ -1,7 +1,7 @@
 [panda]
-_id: 842
+_id: panda.842
 birthday: 2010/6/12
-birthplace: 105
+birthplace: zoo.105
 children: 1006, 1007
 commitdate: 2019/4/15
 death: 2020/11/25
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: くりいろ
 language.order: en, ja
 litter: 841
-location.1: 105, 2010/6/12
-location.2: 187, 2011/4/28
+location.1: zoo.105, 2010/6/12
+location.2: zoo.187, 2011/4/28
 photo.1: cwdc://UpU78KnADQA.jpg
 photo.1.author: bhamzoo
 photo.1.commitdate: 2019/11/2

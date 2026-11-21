@@ -1,7 +1,7 @@
 [panda]
-_id: 155
+_id: panda.155
 birthday: 2006/7/10
-birthplace: 73
+birthplace: zoo.73
 children: none
 commitdate: 2018/6/29
 death: 2026/2/9
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 73, 2006/7/10
-location.2: 36, 2009/3/26
-location.3: 15, 2014/1/30
-location.4: 23, 2017/7/4
+location.1: zoo.73, 2006/7/10
+location.2: zoo.36, 2009/3/26
+location.3: zoo.15, 2014/1/30
+location.4: zoo.23, 2017/7/4
 photo.1: cwdc://Vj9_r9qADQA.jpg
 photo.1.author: love__mitarashi
 photo.1.commitdate: 2026/5/14

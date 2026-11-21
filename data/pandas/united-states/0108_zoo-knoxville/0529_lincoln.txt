@@ -1,7 +1,7 @@
 [panda]
-_id: 529
+_id: panda.529
 birthday: 2013/7/26
-birthplace: 80
+birthplace: zoo.80
 children: none
 commitdate: 2019/2/24
 en.name: Lincoln
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 80, 2013/7/26
-location.2: 108, 2014/1/24
+location.1: zoo.80, 2013/7/26
+location.2: zoo.108, 2014/1/24
 photo.1: ig://Boki4r3gpXA/m
 photo.1.author: sketchpoet
 photo.1.commitdate: 2019/12/5

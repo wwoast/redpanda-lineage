@@ -1,7 +1,7 @@
 [panda]
-_id: 421
+_id: panda.421
 birthday: 2015/6/26
-birthplace: 87
+birthplace: zoo.87
 children: none
 commitdate: 2018/11/23
 en.name: Addison
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 420
-location.1: 87, 2015/6/26
-location.2: 44, 2016/3/17
-location.3: 102, 2019/11/9
+location.1: zoo.87, 2015/6/26
+location.2: zoo.44, 2016/3/17
+location.3: zoo.102, 2019/11/9
 photo.1: ig://BcPqAUogukf/m
 photo.1.author: newzoogb
 photo.1.commitdate: 2018/11/30

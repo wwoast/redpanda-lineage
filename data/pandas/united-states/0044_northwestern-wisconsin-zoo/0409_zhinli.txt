@@ -1,7 +1,7 @@
 [panda]
-_id: 409
+_id: panda.409
 birthday: 2013/6/18
-birthplace: 89
+birthplace: zoo.89
 children: none
 commitdate: 2018/11/23
 death: 2016/1/20
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: none
-location.1: 89, 2013/6/18
-location.2: 44, 2014/11/12
+location.1: zoo.89, 2013/6/18
+location.2: zoo.44, 2014/11/12
 photo.1: https://www.codaworry.com/images/rpf/zhin-li-binghamton.jpg
 photo.1.author: rossparkzoo
 photo.1.commitdate: 2019/4/9

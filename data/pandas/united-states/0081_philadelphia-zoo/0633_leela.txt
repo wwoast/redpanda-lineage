@@ -1,7 +1,7 @@
 [panda]
-_id: 633
+_id: panda.633
 birthday: 2010/6/24
-birthplace: 146
+birthplace: zoo.146
 children: none
 commitdate: 2019/3/19
 death: 2021/4/20
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 632
-location.1: 146, 2010/6/24
-location.2: 158, 2011/4/12
-location.3: 160, 2013/3/5
-location.4: 81, 2019/3/18
+location.1: zoo.146, 2010/6/24
+location.2: zoo.158, 2011/4/12
+location.3: zoo.160, 2013/3/5
+location.4: zoo.81, 2019/3/18
 photo.1: ig://Bvh1GRPD3Og/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/3/3

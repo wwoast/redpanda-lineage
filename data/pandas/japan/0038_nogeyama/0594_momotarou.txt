@@ -1,7 +1,7 @@
 [panda]
-_id: 594
+_id: panda.594
 birthday: 1997/7/17
-birthplace: 14
+birthplace: zoo.14
 children: none
 commitdate: 2019/3/19
 death: 2007/10/14
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: モモタロウ
 language.order: ja, en
 litter: 152
-location.1: 14, 1997/7/17
-location.2: 38, 1999/10/18
+location.1: zoo.14, 1997/7/17
+location.2: zoo.38, 1999/10/18
 species: 2
 studbook.id: 97112
 zoo: 38

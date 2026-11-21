@@ -1,7 +1,7 @@
 [panda]
-_id: 54
+_id: panda.54
 birthday: 2006/6/20
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2018/6/20
 death: 2021/6/14
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 291, 487
-location.1: 10, 2006/6/20
-location.2: 27, 2014/1/7
+location.1: zoo.10, 2006/6/20
+location.2: zoo.27, 2014/1/7
 photo.1: ig://BQFtRODD0Nl/m
 photo.1.author: rdpnzoo
 photo.1.commitdate: 2018/10/20

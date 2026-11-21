@@ -1,7 +1,7 @@
 [panda]
-_id: 1424
+_id: panda.1424
 birthday: 2023/7/9
-birthplace: 16
+birthplace: zoo.16
 children: none
 commitdate: 2023/8/22
 en.name: Emi

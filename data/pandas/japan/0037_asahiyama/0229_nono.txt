@@ -1,7 +1,7 @@
 [panda]
-_id: 229
+_id: panda.229
 birthday: 2002/7/15
-birthplace: 17
+birthplace: zoo.17
 children: 132, 190, 224
 commitdate: 2018/7/27
 death: 2017/5/8
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 13
-location.1: 17, 2002/7/15
-location.2: 37, 2004/2/13
+location.1: zoo.17, 2002/7/15
+location.2: zoo.37, 2004/2/13
 photo.1: https://www.codaworry.com/images/rpf/nono-1-asahiyama.jpg
 photo.1.author: asahiyamazoo1
 photo.1.commitdate: 2019/4/9

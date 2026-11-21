@@ -1,7 +1,7 @@
 [panda]
-_id: 546
+_id: panda.546
 birthday: 2010/6/14
-birthplace: 108
+birthplace: zoo.108
 children: 515, 342, 616, 543, 544, 1416
 commitdate: 2019/3/2
 death: 2021/8/3
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 618
-location.1: 108, 2010/6/14
-location.2: 107, 2011/8/5
-location.3: 81, 2013/12/5
-location.4: 105, 2018/10/1
+location.1: zoo.108, 2010/6/14
+location.2: zoo.107, 2011/8/5
+location.3: zoo.81, 2013/12/5
+location.4: zoo.105, 2018/10/1
 photo.1: ig://BN6wRckjqz3/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2019/4/7

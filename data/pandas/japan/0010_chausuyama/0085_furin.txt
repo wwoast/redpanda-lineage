@@ -1,7 +1,7 @@
 [panda]
-_id: 85
+_id: panda.85
 birthday: 2007/7/11
-birthplace: 8
+birthplace: zoo.8
 children: none
 commitdate: 2018/6/23
 en.name: Furin
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: フウリン
 language.order: ja, en
 litter: 42
-location.1: 8, 2007/7/11
-location.2: 10, 2008/6/30
+location.1: zoo.8, 2007/7/11
+location.2: zoo.10, 2008/6/30
 photo.1: cwdc://VBbUv6tADQA.jpg
 photo.1.author: miyukitchen38
 photo.1.commitdate: 2018/7/29

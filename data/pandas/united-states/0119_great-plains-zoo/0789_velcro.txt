@@ -1,7 +1,7 @@
 [panda]
-_id: 789
+_id: panda.789
 birthday: 2006/6/30
-birthplace: 116
+birthplace: zoo.116
 children: none
 commitdate: 2019/4/3
 death: 2009/2/8
@@ -14,8 +14,8 @@ ja.nicknames: マジックテープ
 ja.othernames: none
 language.order: en, ja
 litter: 790
-location.1: 116, 2006/6/30
-location.2: 119, 2008/12/17
+location.1: zoo.116, 2006/6/30
+location.2: zoo.119, 2008/12/17
 species: 1
 studbook.id: 0623
 zoo: 119

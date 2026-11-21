@@ -1,7 +1,7 @@
 [panda]
-_id: 454
+_id: panda.454
 birthday: 1994/6/19
-birthplace: 57
+birthplace: zoo.57
 children: 478, 453
 commitdate: 2018/11/26
 death: 2012/6/11
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 456
-location.1: 57, 1994/6/19
-location.2: 34, 1995/12/26
+location.1: zoo.57, 1994/6/19
+location.2: zoo.34, 1995/12/26
 species: 2
 studbook.id: 9444
 zoo: 34

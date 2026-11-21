@@ -1,7 +1,7 @@
 [panda]
-_id: 1133
+_id: panda.1133
 birthday: 2003/7/7
-birthplace: 108
+birthplace: zoo.108
 children: none
 commitdate: 2020/3/20
 death: 2020/3/22
@@ -14,9 +14,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1134
-location.1: 108, 2003/7/7
-location.2: 112, 2004/4/14
-location.3: 128, 2008/11/14
+location.1: zoo.108, 2003/7/7
+location.2: zoo.112, 2004/4/14
+location.3: zoo.128, 2008/11/14
 photo.1: ig://BxXVWMbFpso/m
 photo.1.author: zoomontana
 photo.1.commitdate: 2020/3/21

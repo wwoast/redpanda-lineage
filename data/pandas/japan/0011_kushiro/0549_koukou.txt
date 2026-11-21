@@ -1,7 +1,7 @@
 [panda]
-_id: 549
+_id: panda.549
 birthday: 1997/6/20
-birthplace: 17
+birthplace: zoo.17
 children: none
 commitdate: 2019/3/2
 death: 2000/1/28
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 50, 472
-location.1: 17, 1997/6/20
-location.2: 11, 1999/12/3
+location.1: zoo.17, 1997/6/20
+location.2: zoo.11, 1999/12/3
 species: 2
 studbook.id: 9793
 zoo: 11

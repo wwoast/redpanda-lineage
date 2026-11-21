@@ -1,7 +1,7 @@
 [panda]
-_id: 137
+_id: panda.137
 birthday: 2009/6/20
-birthplace: 18
+birthplace: zoo.18
 children: 138, 117, 219
 commitdate: 2018/6/27
 death: 2022/12/6
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: 567
-location.1: 18, 2009/6/20
-location.2: 15, 2011/4/16
+location.1: zoo.18, 2009/6/20
+location.2: zoo.15, 2011/4/16
 photo.1: ig://BZQASnQhKG0/m
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/1

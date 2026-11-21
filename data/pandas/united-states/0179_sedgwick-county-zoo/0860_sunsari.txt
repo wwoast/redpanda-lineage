@@ -1,7 +1,7 @@
 [panda]
-_id: 860
+_id: panda.860
 birthday: 2016/6/7
-birthplace: 114
+birthplace: zoo.114
 children: none
 commitdate: 2019/6/9
 en.name: Sunsari
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 859
-location.1: 114, 2016/6/7
-location.2: 179, 2017/5/10
+location.1: zoo.114, 2016/6/7
+location.2: zoo.179, 2017/5/10
 photo.1: ig://B_Ai2mLJ-ks/m
 photo.1.author: sedgwickcountyzoo
 photo.1.commitdate: 2020/6/3

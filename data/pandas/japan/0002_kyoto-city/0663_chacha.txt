@@ -1,7 +1,7 @@
 [panda]
-_id: 663
+_id: panda.663
 birthday: 1993/6/27
-birthplace: 10
+birthplace: zoo.10
 children: none
 commitdate: 2019/3/20
 death: 2016/2/17
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: チャチャ
 language.order: ja, en
 litter: 664
-location.1: 10, 1993/6/27
-location.2: 2, 1995/6/17
+location.1: zoo.10, 1993/6/27
+location.2: zoo.2, 1995/6/17
 photo.1: https://www.codaworry.com/images/rpf/chacha-1-kyoto.jpg
 photo.1.author: kinkurohajiro
 photo.1.commitdate: 2019/4/9

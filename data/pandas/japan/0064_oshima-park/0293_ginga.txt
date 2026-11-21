@@ -1,7 +1,7 @@
 [panda]
-_id: 293
+_id: panda.293
 birthday: 2013/7/1
-birthplace: 4
+birthplace: zoo.4
 children: 294, 295, 296, 297, 1292
 commitdate: 2018/8/3
 en.name: Ginga
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 4, 2013/7/1
-location.2: 64, 2015/2/18
+location.1: zoo.4, 2013/7/1
+location.2: zoo.64, 2015/2/18
 photo.1: ig://BR0FDo5jv2z/m
 photo.1.author: huku.mum
 photo.1.commitdate: 2018/10/19

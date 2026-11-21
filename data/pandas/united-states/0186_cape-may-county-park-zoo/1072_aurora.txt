@@ -1,7 +1,7 @@
 [panda]
-_id: 1072
+_id: panda.1072
 birthday: 2019/6/16
-birthplace: 153
+birthplace: zoo.153
 children: none
 commitdate: 2019/12/2
 en.name: Aurora
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1073
-location.1: 153, 2019/6/16
-location.2: 123, 2021/6/1
-location.3: 186, 2024/5/18
+location.1: zoo.153, 2019/6/16
+location.2: zoo.123, 2021/6/1
+location.3: zoo.186, 2024/5/18
 photo.1: cwdc://W63IkgsADQA.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/2

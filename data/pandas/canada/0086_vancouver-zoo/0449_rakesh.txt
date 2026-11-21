@@ -1,7 +1,7 @@
 [panda]
-_id: 449
+_id: panda.449
 birthday: 2014/6/28
-birthplace: 76
+birthplace: zoo.76
 children: none
 commitdate: 2018/11/25
 death: 2015/8/17
@@ -14,7 +14,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 432
-location.1: 76, 2014/6/28
-location.2: 86, 2015/5/28
+location.1: zoo.76, 2014/6/28
+location.2: zoo.86, 2015/5/28
 species: 2
 zoo: 86

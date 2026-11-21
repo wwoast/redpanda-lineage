@@ -1,7 +1,7 @@
 [panda]
-_id: 972
+_id: panda.972
 birthday: 2015/1/1
-birthplace: 201
+birthplace: zoo.201
 children: none
 commitdate: 2019/8/16
 en.name: Tenzing
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 971
-location.1: 201, 2015/1/1
-location.2: 206, 2019/3/1
+location.1: zoo.201, 2015/1/1
+location.2: zoo.206, 2019/3/1
 photo.1: cwdc://WmKyAMUADQA.jpg
 photo.1.author: tasmania_zoo
 photo.1.commitdate: 2020/7/3

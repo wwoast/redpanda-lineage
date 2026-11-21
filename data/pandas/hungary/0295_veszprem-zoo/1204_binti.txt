@@ -1,7 +1,7 @@
 [panda]
-_id: 1204
+_id: panda.1204
 birthday: 2020/7/1
-birthplace: 259
+birthplace: zoo.259
 children: none
 commitdate: 2020/8/5
 en.name: Binti
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: nl, en, ja
 litter: none
-location.1: 259, 2020/7/1
-location.2: 295, 2021/4/9
+location.1: zoo.259, 2020/7/1
+location.2: zoo.295, 2021/4/9
 nl.name: Binti
 nl.nicknames: none
 nl.othernames: none

@@ -1,7 +1,7 @@
 [panda]
-_id: 1151
+_id: panda.1151
 birthday: 2010/6/21
-birthplace: 230
+birthplace: zoo.230
 children: unknown
 commitdate: 2020/5/3
 de.name: Lolita
@@ -19,9 +19,9 @@ ja.nicknames: none
 ja.othernames: none
 language.order: fr, de, en, ja
 litter: 1152
-location.1: 230, 2010/6/21
-location.2: 234, 2011/10/12
-location.3: 244, 2015/3/20
+location.1: zoo.230, 2010/6/21
+location.2: zoo.234, 2011/10/12
+location.3: zoo.244, 2015/3/20
 photo.1: cwdc://W5XXAKFADQA.jpg
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/5/3

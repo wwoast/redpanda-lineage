@@ -1,7 +1,7 @@
 [panda]
-_id: 124
+_id: panda.124
 birthday: 2011/7/17
-birthplace: 13
+birthplace: zoo.13
 children: 149, 225, 226, 233, 234, 235, 236
 commitdate: 2018/6/26
 death: 2021/8/22
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 13, 2011/7/17
-location.2: 37, 2014/2/3
+location.1: zoo.13, 2011/7/17
+location.2: zoo.37, 2014/2/3
 photo.1: cwdc://V5DNaUeADQA.jpg
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/2

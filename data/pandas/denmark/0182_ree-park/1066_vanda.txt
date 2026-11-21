@@ -1,7 +1,7 @@
 [panda]
-_id: 1066
+_id: panda.1066
 birthday: 2017/6/12
-birthplace: 72
+birthplace: zoo.72
 children: unknown
 commitdate: 2019/11/29
 en.name: Vanda
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1065
-location.1: 72, 2017/6/12
-location.2: 182, 2018/4/8
+location.1: zoo.72, 2017/6/12
+location.2: zoo.182, 2018/4/8
 species: 1
 zoo: 182

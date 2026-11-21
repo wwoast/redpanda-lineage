@@ -1,7 +1,7 @@
 [panda]
-_id: 543
+_id: panda.543
 birthday: 2017/6/22
-birthplace: 81
+birthplace: zoo.81
 children: none
 commitdate: 2019/3/2
 en.name: Puck
@@ -13,9 +13,9 @@ ja.nicknames: none
 ja.othernames: イエレン
 language.order: en, ja
 litter: 544
-location.1: 81, 2017/6/22
-location.2: 129, 2018/5/30
-location.3: 303, 2021/5/13
+location.1: zoo.81, 2017/6/22
+location.2: zoo.129, 2018/5/30
+location.3: zoo.303, 2021/5/13
 photo.1: cwdc://XCby2bqADQA.jpg
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/3/2

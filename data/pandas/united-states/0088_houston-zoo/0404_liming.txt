@@ -1,7 +1,7 @@
 [panda]
-_id: 404
+_id: panda.404
 birthday: 2008/6/10
-birthplace: 83
+birthplace: zoo.83
 children: none
 commitdate: 2018/11/23
 death: 2022/5/27
@@ -14,10 +14,10 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 406
-location.1: 83, 2008/6/10
-location.2: 108, 2011/11/10
-location.3: 43, 2013/6/24
-location.4: 88, 2015/11/6
+location.1: zoo.83, 2008/6/10
+location.2: zoo.108, 2011/11/10
+location.3: zoo.43, 2013/6/24
+location.4: zoo.88, 2015/11/6
 photo.1: ig://BosTFSvBUE-/m
 photo.1.author: naters627
 photo.1.commitdate: 2018/12/6

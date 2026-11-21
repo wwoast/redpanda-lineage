@@ -1,8 +1,9 @@
-import Env from './environment.ts'
-import * as Language from './language.ts'
-import { Emoji, Polyglots, Tags } from './lookup.ts'
-import P, * as Pandas from './pandas.ts'
-import * as Show from './show.ts'
+import { num } from '@redpanda-lineage/data/export'
+import Env from '@redpanda-lineage/ui/environment'
+import * as Language from '@redpanda-lineage/ui/language'
+import { Defaults, Emoji, Polyglots, Tags } from '@redpanda-lineage/ui/lookup'
+import P from '@redpanda-lineage/ui/pandas'
+import * as Show from '@redpanda-lineage/ui/show'
 
 /** make *text* italic and **text** bold with JSX foo
  * as well as process the newlines and extra spaces in long lones of text
@@ -630,7 +631,7 @@ export function arrivals(zoo: NodeZoo, born: NodePanda[]) {
   // If any animals were born, this message gets a baby icon suffix
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `arrivals/zoo/${zoo._id}`
+  const linkId = `arrivals/zoo/${num(zoo._id)}`
   link.id = linkId
   link.addEventListener("click", function() {
     document.getElementById(linkId)?.scrollIntoView(true)
@@ -708,7 +709,9 @@ export function closed(date: string) {
  * 
  * TODO-UI: once JSX is working, post-process for count (bold) and user (italics)
  */
-export function credit(credit: string, count: number) {
+export function credit(credit: string | undefined, count: number) {
+  if (credit == undefined)
+    credit = Defaults.unknown[Env.language]
   const p = document.createElement('p')
   const msg = document.createTextNode(
     Text.credit[Env.language]
@@ -728,7 +731,9 @@ export function credit(credit: string, count: number) {
  * 
  * TODO-UI: pass through post-processing for count (bold) and user (italics)
  */
-export function creditSingleFilter(credit: string, filter: string, count: number) {
+export function creditSingleFilter(credit: string | undefined, filter: string, count: number) {
+  if (credit == undefined)
+    credit = Defaults.unknown[Env.language]
   filter = Language.capitalNames(filter)
   const p = document.createElement('p')
   const msg = document.createTextNode(
@@ -756,7 +761,7 @@ export function departed_to_zoo(zooName: string, date: string) {
 export function departures(zoo: NodeZoo, deaths: NodePanda[], leaving: NodePanda[]) {
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `departures/zoo/${zoo._id}`
+  const linkId = `departures/zoo/${num(zoo._id)}`
   link.id = linkId
   link.addEventListener("click",
     () => document.getElementById(linkId)?.scrollIntoView(true))
@@ -837,9 +842,9 @@ export function memorial(name: string, animalId: number, birth: string, death: s
   return shrinkBoxMessage("memorialSummary", link)
 }
 
- export function memorialGroup(nameString: string, idString: string) {
+ export function memorialGroup(nameString: string, numIdListString: string) {
   const link = document.createElement('a')
-  link.href = `#group/${idString}`
+  link.href = `#group/${numIdListString}`
   const p = document.createElement('p')
   const msg = document.createTextNode(
     Text.remembering_you_together[Env.language].replace('<INSERTNAMES>', nameString))
@@ -1016,7 +1021,7 @@ export function profile_where(name: string) {
 export function residents(zoo: NodeZoo) {
   const link = document.createElement('a')
   link.href = "javascript:"
-  const linkId = `residents/zoo/${zoo._id}`
+  const linkId = `residents/zoo/${num(zoo._id)}`
   link.id = linkId
   link.addEventListener("click",
     () => document.getElementById(linkId)?.scrollIntoView(true))
@@ -1057,13 +1062,14 @@ export function tag_combo(num: number, emojis: string[]) {
  * If there was an id as part of a tagExpression, rewrite this message using
  * the panda's localized name instead.
  */
-export function tag_subject(num: number, name: string, emoji: string, tag: string) {
-  if (Pandas.checkId(num) == true)
-    name = Pandas.searchPandaId(num)[0].name[Env.language]
+export function tag_subject(num: number, name: string | undefined, emoji: string, tag: string) {
   if (name != undefined)
     name = Language.capitalNames(name)
-  if ((Env.language == "ja") && (name == undefined))
-    name = "枚"
+  if (name == undefined)
+    if (Env.language == "ja")
+      name = "枚"
+    else
+      name = Defaults.unknown[Env.language]
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
   // Need to look up "baby" info as well from the polyglot list of things

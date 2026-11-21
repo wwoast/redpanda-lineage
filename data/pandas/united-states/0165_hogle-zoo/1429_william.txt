@@ -1,7 +1,7 @@
 [panda]
-_id: 1429
+_id: panda.1429
 birthday: 2023/6/25
-birthplace: 80
+birthplace: zoo.80
 children: none
 commitdate: 2023/10/24
 en.name: William
@@ -13,7 +13,7 @@ ja.nicknames: none
 ja.othernames: none
 language.order: en, ja
 litter: 1430
-location.1: 80, 2023/6/25
-location.2: 165, 2024/5/24
+location.1: zoo.80, 2023/6/25
+location.2: zoo.165, 2024/5/24
 species: 2
 zoo: 165

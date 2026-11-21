@@ -1,7 +1,7 @@
 [panda]
-_id: 600
+_id: panda.600
 birthday: 2001/7/9
-birthplace: 37
+birthplace: zoo.37
 children: 132
 commitdate: 2019/3/19
 death: 2013/8/20
@@ -14,8 +14,8 @@ ja.nicknames: none
 ja.othernames: ニャンニャン
 language.order: ja, en
 litter: none
-location.1: 37, 2001/7/9
-location.2: 1, 2012/11/28
+location.1: zoo.37, 2001/7/9
+location.2: zoo.1, 2012/11/28
 photo.1: https://www.codaworry.com/images/rpf/nyannyan-1-ichikawa.jpg
 photo.1.author: dai4i
 photo.1.commitdate: 2019/4/9

@@ -1,7 +1,7 @@
 [panda]
-_id: 287
+_id: panda.287
 birthday: 2005/6/21
-birthplace: 17
+birthplace: zoo.17
 children: none
 commitdate: 2018/8/3
 death: 2023/2/23
@@ -16,8 +16,8 @@ ja.oldnames: ヒマワリ
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 17, 2005/6/21
-location.2: 63, 2007/4/24
+location.1: zoo.17, 2005/6/21
+location.2: zoo.63, 2007/4/24
 photo.1: ig://BjrntuzglWv/m
 photo.1.author: aami__kaa
 photo.1.commitdate: 2018/9/2

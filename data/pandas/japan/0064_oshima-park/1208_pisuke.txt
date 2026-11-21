@@ -1,7 +1,7 @@
 [panda]
-_id: 1208
+_id: panda.1208
 birthday: 2020/6/27
-birthplace: 13
+birthplace: zoo.13
 children: none
 commitdate: 2020/8/12
 en.name: Piisuke
@@ -13,8 +13,8 @@ ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
 litter: none
-location.1: 13, 2020/6/27
-location.2: 64, 2022/11/10
+location.1: zoo.13, 2020/6/27
+location.2: zoo.64, 2022/11/10
 photo.1: ig://CFwSobSh-6g/m
 photo.1.author: minato.yokohama4416
 photo.1.commitdate: 2020/10/2
