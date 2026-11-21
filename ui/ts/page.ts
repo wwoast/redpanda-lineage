@@ -835,9 +835,11 @@ class ResultsPage {
         content_divs.push(Show.resultsPage.panda(entity))
     })
     // Remove the last element if it's a divider
-    const last_element = content_divs[content_divs.length - 1]
-    if (last_element.className == 'zooDivider') {
-      content_divs.pop()
+    if (content_divs.length > 0) {
+      const last_element = content_divs[content_divs.length - 1]
+      if (last_element.className == 'zooDivider') {
+        content_divs.pop()
+      }
     }
     return content_divs
   }
