@@ -600,6 +600,8 @@ class Tree {
       Reversible(Choices(group.takes_subject_name), r_name)
     const c_k_unary_number =
       Reversible(Choices(group.takes_subject_number), r_id)
+    const c_k_unary_prefix_id =
+      Reversible(Choices(group.takes_subject_number), r_prefix_id)  
     const c_k_unary_year =
       Reversible(Choices(group.takes_subject_year), r_year)
     const c_k_unary_date_aa_bb =
@@ -618,18 +620,21 @@ class Tree {
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_name)
     const c_k_unary_credit_author_and_id =
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_id)
+    const c_k_unary_credit_author_and_prefix_id =
+      Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_prefix_id)
     // Groups of tags or keywords or unary items
     const c_k_group_ids = Repeat(r_id)
     const c_k_group_prefix_ids = Repeat(r_prefix_id)
     const c_k_group_tags = Repeat(Choices(group.tags), 2)
     const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags), 2), r_name)
     const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags), 2), r_id)
+    const c_k_group_tags_prefix_id =
+      Reversible(Repeat(Choices(group.tags), 2), r_prefix_id)
     // Binary keywords
     // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries
     const START = Prio(
       r_id,
-      r_prefix_id,
       r_date_yyyy_mm_dd,      // Search by exact dates
       r_date_aa_bb_yyyy,
       r_date_aa_bb_cc,        // Search by partial dates
@@ -637,23 +642,27 @@ class Tree {
       r_date_aa_bb,
       c_k_zeroary,
       c_k_group_tags,         // Search for many tags at once
+      c_k_group_tags_prefix_id,
       c_k_group_tags_name,    // Tags followed by a name-string
       c_k_group_tags_id,      // Tags followed by id-number
       c_k_group_ids,          // Sequence of entity numeric IDs
       c_k_group_prefix_ids,   // Sequence of entity prefix-IDs
+      c_k_unary_credit_author_and_prefix_id,
       c_k_unary_credit_author_and_name,   // credit <author> <panda-name>
       c_k_unary_credit_author_and_id,     // credit <author> <panda-id>
-      c_k_unary_year,       // Unary keywords followed by year-number
-      c_k_unary_number,     // Unary keywords followed by id-number
+      c_k_unary_year,       // Unary keyword followed by year-number
+      c_k_unary_number,     // Unary keyword followed by id-number
       c_k_unary_date_yyyy_mm_dd,    // Unary keywords followed by an exact date
       c_k_unary_date_aa_bb_yyyy,
       c_k_unary_date_aa_bb_cc,      // Unary keywords followed by a partial date
       c_k_unary_date_mm_yyyy,
       c_k_unary_date_aa_bb,
-      c_k_unary_name,       // Unary keywords followed by a name-string
+      c_k_unary_prefix_id,   // Unary keyword followed by Prefix-IDs string
+      c_k_unary_name,       // Unary keyword followed by arbitrary string
       // TODO: don't have parse tree techniques to detect these
       // Sequence('(', THIS, ')'),   // Bracketed expressions
       // Sequence(THIS, c_k_binary_logical, THIS),
+      r_prefix_id,
       r_name
     )
     // Keywords are newline separated
