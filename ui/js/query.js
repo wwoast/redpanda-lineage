@@ -141,9 +141,8 @@ function pair(set_node) {
   let hits = [];
   const keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0];
   const subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
-  if (keyword_node == undefined && subject_node == undefined) throw new Error("TODO: pair set processing error");
-  const search_word = subject_node.str // Only set when a subject is given
-  ;
+  const search_word = subject_node ? subject_node.str // Only set when a subject is given
+   : undefined;
   let tag;
   if (set_node.type == "set_keyword_date") {
     if (Parse.group.born.includes(keyword_node.str)) {

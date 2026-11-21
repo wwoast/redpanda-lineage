@@ -289,7 +289,9 @@ export function allAnimalsAndMedia() {
  * If your `prefixId` and the generic `<Type>` specifier don't agree, your
  * downstream code is gonna be sad.
  */
-export function graphId<T>(prefixId: string) {
+export function graphId<T>(prefixId?: string) {
+  if (typeof prefixId !== "string")
+    throw new Error("TODO: bad prefix-ID string input")
   const [type, _numId] = prefixId.split(".")
   return G.v(prefixId)
     .filter((vertex: GraphNode) => vertex.type == type)
@@ -318,7 +320,8 @@ export function searchBabies(year?: string) {
  * Find all pandas that have a certain birthday. Used for date searches, unlike
  * other functions which are for showing birthday pandas on the front page.
  */
-export function searchBirthdayList(input_date: string) {
+export function searchBirthdayList(input_date?: string) {
+  if (typeof input_date !== "string") return []
   const input_ymd = parseDate(input_date)
   // Make sure we're using a 4-digit year, assume > 2000
   if (typeof input_ymd.year === "number" && input_ymd.year < 2000) {
@@ -498,7 +501,8 @@ export function searchDead(year?: string) {
   return sortYoungestToOldest(nodes)
 }
 
-export function searchDiedList(input_date: string) {
+export function searchDiedList(input_date?: string) {
+  if (typeof input_date !== "string") return []
   let died_date_ymd = parseDate(input_date)
   // Make sure we're using a 4-digit year, assume > 2000
   if (typeof died_date_ymd.year === "number" && died_date_ymd.year < 2000)
@@ -656,9 +660,10 @@ export function searchPandaDad(pandaId: string) {
  * (group) photos. Optionally, only return group information for animals.
  */
 export function searchPandaMedia(
-  query: string,
+  query: string | undefined,
   only_media=false
 ): (NodeMedia | NodePanda)[] {
+  if (typeof query !== "string") return []
   const animals = (!isNaN(parseInt(query)))
     ? [graphId<NodePanda>(query)]
     : searchPandaName(query)
@@ -710,7 +715,8 @@ export function searchPandaMom(pandaId: string) {
 }
 
 /** Find a panda by any name field. */
-export function searchPandaName(name: string) {
+export function searchPandaName(name?: string) {
+  if (typeof name !== "string") return []
   let nodes = searchPandaNameFields(name)
   nodes = nodes.filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
@@ -887,7 +893,8 @@ export function searchPandaZooBorn(zooId: string, months=6) {
 }
 
 /** Find all pandas that were either born at, or lived at a given zoo */
-export function searchPandaZooBornLived(zoo_id: string, search_context=false) {
+export function searchPandaZooBornLived(zoo_id: string | undefined, search_context=false) {
+  if (typeof zoo_id !== "string") return []
   const lives = G.v(zoo_id).in("zoo").run() as NodePanda[]
   const born = G.v(zoo_id).in("birthplace").run() as NodePanda[]
   const was_here = G.v()
@@ -946,7 +953,8 @@ export function searchPandaZooBornLived(zoo_id: string, search_context=false) {
  * Find all pandas born at a given zoo any time. Set search_context to `true`
  * if you want the results to add a "born" zoo listing
  */
-export function searchPandaZooBornRecords(zooId: string, search_context=false) {
+export function searchPandaZooBornRecords(zooId: string | undefined, search_context=false) {
+  if (typeof zooId !== "string") return []
   // HACK: you can enrich nodes with filter
   let nodes = G.v(zooId).in("birthplace")
     .filter((vertex: GraphNode) => vertex.type == "panda")
@@ -1036,7 +1044,8 @@ export function searchPandaZooDeparted(compare_id: string, months=6) {
   return nodes as NodePanda[]
 }
 
-export function searchPandaZooDied(zooId: string, months=6) {
+export function searchPandaZooDied(zooId: string | undefined, months=6) {
+  if (typeof zooId !== "string") return []
   let nodes = G.v(zooId)
     .in("zoo")
     .filter((vertex: GraphNode) => vertex.type == "panda")
@@ -1076,7 +1085,8 @@ export function searchPandaZooDied(zooId: string, months=6) {
  * Find all nodes with a particular photo credit. Optionally, filter by a list
  * of panda ids.
  */
-export function searchPhotoCredit(author: string, filter_ids: (number|string)[] = []) {
+export function searchPhotoCredit(author: string | undefined, filter_ids: string[] = []) {
+  if (typeof author !== "string") return []
   const photoTypes = ["media", "panda", "wild", "zoo"]
   const nodes = G.v()
     .filter((vertex: GraphNode) => photoTypes.includes(vertex.type))
@@ -1177,7 +1187,8 @@ export function searchPhotoTags(
  * Search for a word in the Zoo's name or location, and return any nodes that
  * match one of the strings therein.
  */
-export function searchZooName(zoo_name_str: string) {
+export function searchZooName(zoo_name_str?: string) {
+  if (typeof zoo_name_str !== "string") return []
   if (Language.testString(zoo_name_str, "Latin") == true) {
     zoo_name_str = Language.capitalNames(zoo_name_str)
   }

@@ -238,6 +238,7 @@ export function allAnimalsAndMedia() {
  * downstream code is gonna be sad.
  */
 export function graphId(prefixId) {
+  if (typeof prefixId !== "string") throw new Error("TODO: bad prefix-ID string input");
   const [type, _numId] = prefixId.split(".");
   return G.v(prefixId).filter((vertex)=>vertex.type == type).run().shift();
 }
@@ -259,6 +260,7 @@ export function graphId(prefixId) {
  * other functions which are for showing birthday pandas on the front page.
  */
 export function searchBirthdayList(input_date) {
+  if (typeof input_date !== "string") return [];
   const input_ymd = parseDate(input_date);
   // Make sure we're using a 4-digit year, assume > 2000
   if (typeof input_ymd.year === "number" && input_ymd.year < 2000) {
@@ -416,6 +418,7 @@ export function searchBirthdayLitterBias(keep_living = true, photo_count = 20, m
   return sortYoungestToOldest(nodes);
 }
 export function searchDiedList(input_date) {
+  if (typeof input_date !== "string") return [];
   let died_date_ymd = parseDate(input_date);
   // Make sure we're using a 4-digit year, assume > 2000
   if (typeof died_date_ymd.year === "number" && died_date_ymd.year < 2000) died_date_ymd["year"] = died_date_ymd["year"] + 2000;
@@ -531,6 +534,7 @@ function searchPandaNameFields(input, name_fields = []) {
  * (group) photos. Optionally, only return group information for animals.
  */
 export function searchPandaMedia(query, only_media = false) {
+  if (typeof query !== "string") return [];
   const animals = !isNaN(parseInt(query)) ? [
     graphId(query)
   ] : searchPandaName(query);
@@ -572,6 +576,7 @@ export function searchPandaMediaIntersect(id_list) {
   return nodes;
 }
 /** Find a panda by any name field. */ export function searchPandaName(name) {
+  if (typeof name !== "string") return [];
   let nodes = searchPandaNameFields(name);
   nodes = nodes.filter(function(value, index, self) {
     return self.indexOf(value) === index; // Am I the first value in the array?
@@ -725,6 +730,7 @@ export function searchPandaZooBorn(zooId, months = 6) {
   return born;
 }
 /** Find all pandas that were either born at, or lived at a given zoo */ export function searchPandaZooBornLived(zoo_id, search_context = false) {
+  if (typeof zoo_id !== "string") return [];
   const lives = G.v(zoo_id).in("zoo").run();
   const born = G.v(zoo_id).in("birthplace").run();
   const was_here = G.v().filter((vertex)=>vertex.type == "panda" && vertex.locations && vertex.locations.length > 0).filter((vertex)=>{
@@ -778,6 +784,7 @@ export function searchPandaZooBorn(zooId, months = 6) {
  * if you want the results to add a "born" zoo listing
  */
 export function searchPandaZooBornRecords(zooId, search_context = false) {
+  if (typeof zooId !== "string") return [];
   // HACK: you can enrich nodes with filter
   let nodes = G.v(zooId).in("birthplace").filter((vertex)=>vertex.type == "panda").filter((vertex)=>{
     if (search_context == true) {
@@ -852,6 +859,7 @@ export function searchPandaZooDeparted(compare_id, months = 6) {
   return nodes;
 }
 export function searchPandaZooDied(zooId, months = 6) {
+  if (typeof zooId !== "string") return [];
   let nodes = G.v(zooId).in("zoo").filter((vertex)=>vertex.type == "panda").filter((vertex)=>{
     // Gotta be dead
     if (vertex.death == undefined) return false;
@@ -888,6 +896,7 @@ export function searchPandaZooDied(zooId, months = 6) {
  * of panda ids.
  */
 export function searchPhotoCredit(author, filter_ids = []) {
+  if (typeof author !== "string") return [];
   const photoTypes = [
     "media",
     "panda",
@@ -974,6 +983,7 @@ export function searchPhotoTags(animal_list, tags, mode, fallback) {
  * match one of the strings therein.
  */
 export function searchZooName(zoo_name_str) {
+  if (typeof zoo_name_str !== "string") return [];
   if (Language.testString(zoo_name_str, "Latin") == true) {
     zoo_name_str = Language.capitalNames(zoo_name_str);
   }
