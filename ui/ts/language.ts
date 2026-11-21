@@ -214,12 +214,11 @@ export function fallbackInfo<T extends EnrichedEntity>(
   info: T,
   original: NodePanda | NodeZoo
 ): T {
-  const bundle = structuredClone(info)
   const order = currentOrder(info.language_order, Env.language)
   // Default values that we want to ignore if we can
   const default_animal = saveEntityKeys(Defaults.animal, order)
   const default_zoo = saveEntityKeys(Defaults.zoo, order)
-const empty_values: (string | undefined)[] = [
+  const empty_values: (string | undefined)[] = [
     ...[undefined],
     ...Object.values(Defaults.unknown), 
     ...Object.values(default_animal),
@@ -239,21 +238,21 @@ const empty_values: (string | undefined)[] = [
           continue  // Don't take replacement values from current language
         if (!empty_values.includes(original[key][language])) {
           // Put this language's value in the displayed output
-          bundle[key] = original[key][language]
+          info[key] = original[key][language]
           break
         }
       } // If no available non-empty strings in other languages, do nothing
     }
   }
   // Replace nested zoo or birthplace text for panda entities similarly
-  if (info.type == "panda" && bundle.type == "panda") {
+  if (info.type == "panda") {
     if ((info.zoo != undefined) && (info.zoo != Defaults.zoo)) {
-      bundle.zoo = fallbackEntity<NodeZoo>(info.zoo)
+      info.zoo = fallbackEntity<NodeZoo>(info.zoo)
     }
     if ((info.birthplace != undefined) && 
         (info.birthplace != Defaults.zoo) && 
         (info.birthplace != Defaults.wild)) {
-      bundle.birthplace = fallbackEntity<NodeZoo | NodeWild>(info.birthplace)
+      info.birthplace = fallbackEntity<NodeZoo | NodeWild>(info.birthplace)
     }
     for (const index in info.mom) {
       if ((info.mom[index] != undefined) && 
@@ -286,7 +285,7 @@ const empty_values: (string | undefined)[] = [
       }
     }
   }
-  return bundle
+  return info
 }
 
 /** 
