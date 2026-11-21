@@ -512,11 +512,11 @@ function qrcodeImage(animal_index = null, photo_index = null) {
  * pages with multiple galleries there is no sensible way to support this.
  */
 function qrcodeSwap() {
-  const old_qrcode = document.getElementsByClassName('qrcodeFrame')[0];
-  if (old_qrcode == undefined) return;
-  const gallery = document.getElementsByClassName('pandaPhoto')[0];
+  const old_qrcode = document.querySelector('.qrcodeFrame');
+  const gallery = document.querySelector('.pandaPhoto');
+  if (old_qrcode == undefined || gallery == undefined) return;
   const gallery_id = gallery.childNodes[0].id;
-  const animal_id = gallery_id.split("/photo/")[0].split("_")[1];
+  const animal_id = gallery_id.split("_")[1].split("/")[1];
   const photo_index = gallery_id.split("/photo/").pop();
   const new_qrcode = qrcodeImage(animal_id, photo_index);
   old_qrcode.replaceWith(new_qrcode);
