@@ -756,13 +756,16 @@ class ResultsPage {
       content_divs.push(Show.emptyResult(Message.Text.no_group_media_result));
       return content_divs;
     }
-    // Then, start displaying a list of group photos paged out
-    const animal_ids = results.query.split(" ").map((id)=>`${num(id)}`);
+    // Then, start displaying a list of group photos paged out.
     // Show all photos with these animals, along with a message.
     // No container div here so just concat.
-    if (results.hits.length > 0) content_divs = content_divs.concat(Show.resultsPage.groupGallery(animal_ids));
+    if (results.hits.length > 0) {
+      const numIdList = results.query.split(" ").map((id)=>`${num(id)}`);
+      content_divs = content_divs.concat(Show.resultsPage.groupGallery(numIdList));
+    }
     // Give a list of results for each individual animal
     const animal_results = [];
+    const animal_ids = results.hits.map((entity)=>entity._id);
     for (const id of animal_ids){
       const entity = Pandas.graphId(id);
       animal_results.push(Show.resultsPage.panda(entity));
