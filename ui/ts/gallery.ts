@@ -502,7 +502,7 @@ export function familyProfilePhoto(
   container.appendChild(clickable_photo)
   // Family name caption
   const animal_name = document.createElement('a')
-  animal_name.href = `#profile/${animal._id}`
+  animal_name.href = `#profile/${num(animal._id)}`
   const animal_text = document.createElement('h5')
   animal_text.className = "caption familyName"
   animal_text.innerText = info.name
@@ -512,7 +512,7 @@ export function familyProfilePhoto(
   // Family title caption.
   if (relationship != undefined) {
     const animal_relation = document.createElement('a')
-    animal_relation.href = `#profile/${animal._id}`
+    animal_relation.href = `#profile/${num(animal._id)}`
     const relation_text = document.createElement('h5')
     relation_text.className = "caption familyTitle"
     const gender = Show.genderAnimal(animal, "caption gender")

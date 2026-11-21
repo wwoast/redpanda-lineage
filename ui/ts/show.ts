@@ -1003,9 +1003,9 @@ const pagingButton = {
  * view the profile of a random animal, similar to a hidden _random_ button.
  */
 const profileButton = {
-  action: function(panda_id: string) {
+  action: function(numPandaId: string) {
     Page.profile.render()
-    window.location.href = `#profile/${panda_id}`
+    window.location.href = `#profile/${numPandaId}`
     languageButton.hide()   // If language menu is open, hide it
     Env.current = Page.profile.render
   },
