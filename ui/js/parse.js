@@ -868,13 +868,14 @@ class Tree {
     const c_k_unary_credit_author_and_id = Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_id);
     // Groups of tags or keywords or unary items
     const c_k_group_ids = Repeat(r_id);
+    const c_k_group_prefix_ids = Repeat(r_prefix_id);
     const c_k_group_tags = Repeat(Choices(group.tags), 2);
     const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags), 2), r_name);
     const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags), 2), r_id);
     // Binary keywords
     // var c_k_binary_logical = Choices(group.binary_logic)
     // Start of the parsing logic, a list of prioritized forms of search queries
-    const START = Prio(r_id, r_prefix_id, r_date_yyyy_mm_dd, r_date_aa_bb_yyyy, r_date_aa_bb_cc, r_date_mm_yyyy, r_date_aa_bb, c_k_zeroary, c_k_group_tags, c_k_group_tags_name, c_k_group_tags_id, c_k_group_ids, c_k_unary_credit_author_and_name, c_k_unary_credit_author_and_id, c_k_unary_year, c_k_unary_number, c_k_unary_date_yyyy_mm_dd, c_k_unary_date_aa_bb_yyyy, c_k_unary_date_aa_bb_cc, c_k_unary_date_mm_yyyy, c_k_unary_date_aa_bb, c_k_unary_name, // TODO: don't have parse tree techniques to detect these
+    const START = Prio(r_id, r_prefix_id, r_date_yyyy_mm_dd, r_date_aa_bb_yyyy, r_date_aa_bb_cc, r_date_mm_yyyy, r_date_aa_bb, c_k_zeroary, c_k_group_tags, c_k_group_tags_name, c_k_group_tags_id, c_k_group_ids, c_k_group_prefix_ids, c_k_unary_credit_author_and_name, c_k_unary_credit_author_and_id, c_k_unary_year, c_k_unary_number, c_k_unary_date_yyyy_mm_dd, c_k_unary_date_aa_bb_yyyy, c_k_unary_date_aa_bb_cc, c_k_unary_date_mm_yyyy, c_k_unary_date_aa_bb, c_k_unary_name, // TODO: don't have parse tree techniques to detect these
     // Sequence('(', THIS, ')'),   // Bracketed expressions
     // Sequence(THIS, c_k_binary_logical, THIS),
     r_name);

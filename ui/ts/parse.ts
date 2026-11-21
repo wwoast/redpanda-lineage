@@ -620,6 +620,7 @@ class Tree {
       Reversible(Sequence(Choices(group.takes_subject_author), r_name), r_id)
     // Groups of tags or keywords or unary items
     const c_k_group_ids = Repeat(r_id)
+    const c_k_group_prefix_ids = Repeat(r_prefix_id)
     const c_k_group_tags = Repeat(Choices(group.tags), 2)
     const c_k_group_tags_name = Reversible(Repeat(Choices(group.tags), 2), r_name)
     const c_k_group_tags_id = Reversible(Repeat(Choices(group.tags), 2), r_id)
@@ -629,16 +630,17 @@ class Tree {
     const START = Prio(
       r_id,
       r_prefix_id,
-      r_date_yyyy_mm_dd,    // Search by exact dates
+      r_date_yyyy_mm_dd,      // Search by exact dates
       r_date_aa_bb_yyyy,
-      r_date_aa_bb_cc,      // Search by partial dates
+      r_date_aa_bb_cc,        // Search by partial dates
       r_date_mm_yyyy,
       r_date_aa_bb,
       c_k_zeroary,
-      c_k_group_tags,       // Search for many tags at once
-      c_k_group_tags_name,  // Tags followed by a name-string
-      c_k_group_tags_id,    // Tags followed by id-number
-      c_k_group_ids,        // Sequence of panda IDs
+      c_k_group_tags,         // Search for many tags at once
+      c_k_group_tags_name,    // Tags followed by a name-string
+      c_k_group_tags_id,      // Tags followed by id-number
+      c_k_group_ids,          // Sequence of entity numeric IDs
+      c_k_group_prefix_ids,   // Sequence of entity prefix-IDs
       c_k_unary_credit_author_and_name,   // credit <author> <panda-name>
       c_k_unary_credit_author_and_id,     // credit <author> <panda-id>
       c_k_unary_year,       // Unary keywords followed by year-number
