@@ -980,8 +980,7 @@ export function tag_combo(num, emojis) {
  */
 export function tag_subject(num, name, emoji, tag) {
   if (name != undefined) name = Language.capitalNames(name);
-  if (name == undefined) if (Env.language == "ja") name = "枚";
-  else name = Defaults.unknown[Env.language];
+  if (name == undefined && Env.language == "ja") name = "枚";
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
   // Need to look up "baby" info as well from the polyglot list of things
