@@ -139,8 +139,8 @@ export const Text: Record<string, Record<Language, string>> = {
   },
   "footer": {
     "en": `If you love red pandas, please support <INSERTLINK_RPN>, as well as your local zoos. 
-           Lineage data courtesy of the <INSERTLINK_RPF> project, but linked media remains property 
-           of its creators. Design ©\xa02026 <INSERTLINK_WASHIMUMU> & <INSERTLINK_WUMPWOAST>.`,
+           Lineage data courtesy of the <INSERTLINK_RPF> project, but media remains property of its
+           creators. Design ©\xa02026 <INSERTLINK_WASHIMUMU> & <INSERTLINK_WUMPWOAST>.`,
     "es": `Si te encantan los pandas rojos, apoya a <INSERTLINK_RPN> y a los zoológicos locales. 
            Los datos sobre el linaje son cortesía del proyecto <INSERTLINK_RPF> pero los medios ,
            vinculados siguen siendo propiedad de sus creadores. Diseño ©\xa02026 
