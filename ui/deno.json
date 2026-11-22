@@ -34,7 +34,7 @@
   },
   "tasks": {
     "build": {
-      "command": "deno bundle ./ts/init.ts -o ./js/bundle.js"
+      "command": "make"
     }
   }
 }
