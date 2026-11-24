@@ -11,6 +11,9 @@
     "export": {
       "command": "deno task -f data build"
     },
+    "transpile": {
+      "command": "cd ui && make"
+    },
     "view": {
       "command": "jq '.' ./export/redpanda.json"
     }
