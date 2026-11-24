@@ -32,6 +32,7 @@
     "@redpanda-lineage/ui/show": "ts/show.ts",
     "@redpanda-lineage/ui/touch": "ts/touch.ts"
   },
+  "exports": {},
   "tasks": {
     "build": {
       "command": "make"

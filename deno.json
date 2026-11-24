@@ -6,6 +6,7 @@
     "@redpanda-lineage/data/dagoba": "./data/ts/dagoba.ts",
     "@redpanda-lineage/data/export": "./data/ts/export.ts"
   },
+  "exports": {},
   "tasks": {
     "export": {
       "command": "deno task -f data build"

@@ -15,9 +15,7 @@
     "@redpanda-lineage/data/shared": "ts/shared.ts",
     "@redpanda-lineage/data/submissions": "ts/submissions.ts"
   },
-  "exports": {
-    ".": "./mod.ts"
-  },
+  "exports": {},
   "tasks": {
     "build": {
       "command": "deno run -A ./ts/build.ts"
