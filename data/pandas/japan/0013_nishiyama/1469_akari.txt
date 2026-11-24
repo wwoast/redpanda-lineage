@@ -1,18 +1,18 @@
 [panda]
-_id: panda.1470
+_id: panda.1469
 birthday: 2026/7/8
 birthplace: zoo.13
 children: none
 commitdate: 2026/8/12
-en.name: Baby
+en.name: Akari
 en.nicknames: none
 en.othernames: none
 gender: f
-ja.name: 赤ちゃん
+ja.name: あかり
 ja.nicknames: none
 ja.othernames: none
 language.order: ja, en
-litter: 1469
+litter: 1470
 species: 2
 studbook.id: unknown
 zoo: 13
