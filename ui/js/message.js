@@ -1,30 +1,12 @@
+import { render } from '@dependencies/nanojsx';
+import { FormatText } from '@redpanda-lineage/ui/components/shared';
 import { num } from '@redpanda-lineage/data/export';
 import Env from '@redpanda-lineage/ui/environment';
 import * as Language from '@redpanda-lineage/ui/language';
 import { Defaults, Emoji, Polyglots, Tags } from '@redpanda-lineage/ui/lookup';
 import P from '@redpanda-lineage/ui/pandas';
 import * as Show from '@redpanda-lineage/ui/show';
-/** make *text* italic and **text** bold with JSX foo
- * as well as process the newlines and extra spaces in long lones of text
- * definitions. For JA and ZH, consciously remove spaces and new lines. For
- * others, just crunch multiple spaces to a single space.
-function formatText(text) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
-  return parts.map((part, index) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={index}>{part.slice(2, -2)}</strong>;
-    }
-    if (part.startsWith('*') && part.endsWith('*')) {
-      return <em key={index}>{part.slice(1, -1)}</em>;
-    }
-    return part;
-  });
-}
-*/
-/** 
- * TODO-UI: standardize on Record<Language, string>, where <REPLACEME> values
- * map to the rendering function's argument names
- */ /** String representations of all messages we might render in functions */ export const Text = {
+/** String representations of all messages we might render in functions */ export const Text = {
   "and": {
     "en": " & ",
     "es": " y ",
@@ -689,9 +671,13 @@ export function closed(date) {
 export function credit(credit, count) {
   if (credit == undefined) credit = Defaults.unknown[Env.language];
   const p = document.createElement('p');
-  const msg = document.createTextNode(Text.credit[Env.language].replace('<INSERTUSER>', credit).replace('<INSERTNUMBER>', count.toString()).replace(Emoji.gift, ()=>{
+  const text = Text.credit[Env.language].replace('<INSERTUSER>', credit).replace('<INSERTNUMBER>', count.toString()).replace(Emoji.gift, ()=>{
     if (count >= 1000) return Emoji.megagift;
     else return Emoji.gift;
+  });
+  // Post-process bold and italics in the text
+  const msg = render(FormatText({
+    "text": text
   }));
   p.appendChild(msg);
   return shrinkBoxMessage("creditSummary", p);
