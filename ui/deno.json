@@ -14,7 +14,7 @@
   "imports": {
     "@dependencies/html5-qrcode": "js/html5-qrcode.js",
     "@dependencies/jsleri": "js/jsleri-1.1.15.js",
-    "@dependencies/nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts",
+    "@dependencies/nanojsx": "npm:nano-jsx@0.2.1",
     "@redpanda-lineage/ui/environment": "ts/environment.ts",
     "@redpanda-lineage/ui/gallery": "ts/gallery.ts",
     "@redpanda-lineage/ui/geolocate": "ts/geolocate.ts",
