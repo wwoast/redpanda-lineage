@@ -23,7 +23,7 @@ export const FormatText = (props: FormatTextProps) => {
       )
     } else {
       return (
-        <>part</>
+        <>{part}</>
       )
     }
   })
