@@ -1,0 +1,817 @@
+/** 
+ * Types in redpandafinder, organized in order from minor property types, to
+ * larger objects that employ those property types. The various `GraphNode`
+ * types redpandafinder uses derive from the Dagoba types, defined separately.
+ * This implicit dependency is why I keep all the types files inside the
+ * `redpanda-lineage/data` subproject.
+ */
+
+/** The `./contributions.conf` object after having been `IniMap`'ed */
+type ExternalConfig = Record<string, Record<string, string>>
+
+declare enum SupportedLanguages {
+  en,
+  es,
+  ja,
+  ko,
+  ne,
+  pt,
+  zh
+}
+
+type Language = keyof typeof SupportedLanguages
+
+/** Gender values in the underlying `[panda]` `.ini` text files */
+type Gender = "f" | "m" | "unknown" | "Female" | "Male"
+
+/** 
+ * Species values from the underlying `[panda]` `.ini` text files:
+ * 
+ * -1 is _unknown_ / just Ailurus fulgens
+ *
+ *  1 is Ailurus fulgens fulgens
+ *
+ *  2 is Ailurus fulgens styani
+ */
+type Species = "-1" | "1" | "2"
+
+/** 
+ * All pandas record a single primary name per langage. Zoos record their
+ * street address, and their general city/state/province/country summary,
+ * in each supported language
+ */
+type StringPerLanguage = {
+  [L in Language]?: string
+}
+
+/** 
+ * Nicknames, othernames, or oldnames for pandas or zoos, in each of our
+ * supported languages
+ */
+type StringListByLanguage = {
+  [L in Language]?: string[]
+}
+
+/** 
+ * A dictionary of year/month/day values that that supports optional "any"
+ * values for year and day. This is intended for shorthand date formatting
+ * that might just be MM/DD or YYYY/MM.
+ */
+type ParsedDate = {
+  year: number | "any",
+  month: number,
+  day: number | "any"
+}
+
+/**
+ * Photos in the entity files start with `photo.\d+` and the URL of the photo,
+ * but other fields exist with that field name as a prefix.
+ */
+type Photo = {
+  /** 
+   * The `photo.\d+\.author` field in the text files. Typically the Instagram
+   * username of the original photographer, but it can be a full name as well.
+   */
+  author: string,
+  /**
+   * YYYY/MM/DD representing the day this photo was added to redpandafinder,
+   * for the sake of showing the most recent photos on the front page.
+   */
+  commitdate: string,
+  /** 
+   * For media/group photos, identify with a pixel where in the photo each
+   * animal can be found
+   */
+  coordinates: Record<string, [number, number]>
+  /**
+   * When clicking the author's name in redpandafinder, we attempt to link
+   * to the original social media post this photo was sourced from. This can be
+   * any http URL but is typically a pseudo-URL such as `ig://<locator>`.
+   */
+  source: string,
+  /** Classification tags to make this photo easier to search for later */
+  tags: string[],
+  /** 
+   * The photo URL is either a direct http link, a cwdc link representing
+   * self-hosted photo thumbnails, or (legacy/broken) an Instagram locator
+   * pointing at a URL that serves a small image thumbnail.
+   */
+  url: string
+}
+
+/** 
+ * Use Browser canvas features to introspect on the size of particular images,
+ * and then adjust how panda or zoo information is displayed.
+ */
+type PhotoOrientation = "landscape" | "portrait" | "square"
+
+/**
+ * The `location.\d+` fields in `pandas/<country>/<zoo>/<id_name.txt>` files.
+ * These are notated as comma-separated pairs with a numeric string zoo ID,
+ * and the arrival date for the animal at that particular zoo. Occasionally
+ * this information is a "best guess".
+ */
+type PandaLocation = {
+  /** A Zoo string ID or Wild string ID, or possibly `unknown` */
+  _id: string,
+  /** 
+   * The arrival date for a panda at a particular zoo. For zoos, this is a
+   * exact YYYY/MM/DD date, or sometimes, a best guess to the 1st of the month.
+   * For wild animals, this string is made more vague, down to YYYY/Season.
+   * Wild-captured zoo animals will have a mix of wild arrival dates and zoo
+   * arrival dates.
+   */
+  date: string
+}
+
+/** 
+ * Collection of items related to a link displayed on the `Links` page in
+ * redpandafinder. The `language` values in these objects can be any
+ * ISO-639-1 code, not necessarily a `Language` value supported by RPF.
+ */
+type URLLink = {
+  /** Prefix string before the link text*/
+  first?: Record<string, string>,
+  /** Suffix string after the link text */
+  last?: Record<string, string>,
+  /** Name strings, indexed by ISO-639-1 codes representing a language */
+  name: Record<string, string>,
+  /** 
+   * Set of ISO-639-1 codes representing a language, which redpandafinder
+   * will render as a set of flags after the link itself.
+   */
+  "language.order"?: Language[],
+  /** Destination of the link when clicked */
+  url: string
+}
+
+/**
+ * The nodes in the redpandafinder graph are a handful of `NodeObject`
+ * interfaces, such as `NodePanda` and `NodeZoo`.
+ * 
+ * The main commonalities these objects share, are unique `_id` values for the
+ * graph, fields such as _name_ that are keyed by language, and a _type_ field
+ * that lets us discriminate between these different entities in TypeScript.
+ * Most objects point to photo URLs to render in redpandafinder.
+ *
+ * The `links` type refers to URLs on the links page in redpandafinder, not to
+ * the _edges_ that connect nodes in the Dagobah graph. These don't have photos
+ * but they have language-keyed items similar enough to other entities, so they
+ * are shluffed into the graph.
+ *
+ * The `media` type refers to entities containing a list of photos for multiple
+ * animals at a specific zoo.
+ * 
+ * The `none` type is a special vertex for things to refer to when you have
+ * no children, or no litter mates. This lets us treat any non-unknown value
+ * in "children" as an edge in the graph. Otherwise, when doing serde back
+ * and forth from JSON, we can't tell "none" values from "unknown" ones
+ * 
+ * The `photo` type is also a special vertex. It should never appear in the
+ * dataset itself, but it does represent a configuration fragment for a photo
+ * intended for merging into one of the other vertex types.
+ */
+type NodeType = "links" | "media" | "none" | "panda" | "photo" | "wild" | "zoo"
+
+/** 
+ * The typescript representation of the text contents of
+ * `links/<category>.txt` files with a `[links]` header.
+ */
+interface NodeLinks extends Vertex {
+  /** Non-incrementing string id prefixed with `links.` */
+  _id: string,
+  /** The emoji that replaces list bullets on the rendered Links pages */
+  icon: string,
+  /** List of links in the dataset file, processed into `URLLink` objects */
+  links: URLLink[],
+  /** Type discriminator to deduce this node from pandas or other items */
+  type: "links"
+}
+
+/** 
+ * The typescript representation of the text contents of
+ * `media/<country>/<zoo>/<name1-name2.txt>` files with a `[media]` header.
+ */
+interface NodeMedia extends Vertex {
+  /** 
+   * Fixed `media.X.<name1>-<name2>` identifier where `X` is the zoo ID the
+   * photo was taken at, and <name1>-<name2> are the succession of panda
+   * names in the photo, in English alphabetical order.
+   */
+  _id: string,
+  /**
+   * YYYY/MM/DD representing the day this panda was added to redpandafinder,
+   * for the sake of showing newly-added pandas on the front page.
+   */
+  commitdate: string,
+  /** Comma-separated list of numeric fixed identifiers for animals in the photo */
+  "panda.tags": string[],
+  /** A set of photos of multiple animals */
+  photos: Photo[]
+  /** Type discriminator to quickly deduce what kind of photo-containing object */
+  type: "media"
+}
+
+/** 
+ * Special node to represent the vertex connecting to edges that represent a
+ * "none" relationship. When round-trip serde operations happen between .txt
+ * and JSON and back, its important to distinguish "none" from "unknown"
+ */
+interface NodeNone extends Vertex {
+  _id: "none",
+  type: "none"
+}
+
+/**
+ * The typescript representation of the text contents of 
+ * `pandas/<country>/<zoo>/<id_name.txt>` files with a `[panda]` header.
+ * 
+ * On disk these are text files in the `.ini` format, intended to be easily
+ * written or modified manually, in a text editor.
+ * 
+ * In converting to Typescript, we use the language values as keys rather than
+ * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
+ * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
+ */
+interface NodePanda extends Vertex {
+  /** Fixed `panda.X` prefix-ID that increments when adding new pandas */
+  _id: string,
+  /** YYYY/MM/DD birthday string */
+  birthday: string,
+  /** 
+   * A zoo or wild prefix-ID. If wild-born, can be the location the animal
+   * was discovered, or preferably, just "unknown"
+   */
+  birthplace?: string,
+  /** 
+   * Numeric IDs for any children of this animal, a "ID and percentage"
+   * string indicating probable parentage, or "none"
+   */
+  children: number[] | string[],
+  /**
+   * YYYY/MM/DD representing the day this panda was added to redpandafinder,
+   * for the sake of showing newly-added pandas on the front page.
+   */
+  commitdate: string,
+  /** YYYY/MM/DD date of the animal's passing */
+  death?: string,
+  /** Gender of the panda, omitted from the graph node if it is unknown */
+  gender?: Gender,
+  /**
+   * Language order for how to prioritize displaying names when the current
+   * display language doesn't have information for this animal.
+   */
+  "language.order": Language[],
+  /** Animals born in the same litter as this one, by numeric ID, or "none" */
+  litter: number[] | ["none"],
+  /** List from oldest to newest, of zoo locations the panda has lived at */
+  locations: PandaLocation[], 
+  /** 
+   * Primary name for this animal, in each language. These tend to be direct
+   * translations, but occasionally animals are renamed when they change zoos.
+   * In this case, we try and use the primary name people in each language
+   * community would know the animal by.
+   */
+  name: StringPerLanguage,
+  /** 
+   * Cute nicknames that fans might know this animal by. You cannot search for
+   * these names in the redpandafinder search form.
+   */
+  nicknames: StringListByLanguage,
+  /**
+   * Previous names used names for this panda. These are not searchable in the
+   * redpandafinder search form.
+   */
+  oldnames: StringListByLanguage,
+  /**
+   * Commonly used other names or name spellings for this panda. These _are_
+   * searchable in the redpandafinder search form.
+   */
+  othernames: StringListByLanguage,
+  /** A panda likely has some set of photos and attributions */
+  photos: Photo[],
+  /** A numeric value representing the species name for this red panda */
+  species: Species,
+  /** 
+   * Official zoo records often track animals by a studbook identifier. This
+   * isn't necessarily surfaced in redpandafinder, but the recordkeeping tracks
+   * it in the event data ingestion is better automated at some point.
+   */
+  "studbook.id": string,
+  /**
+   * A type discriminator so that we can reason about whether this is an
+   * entity that represents a panda living in a zoo, a zoo, or a wild-seen
+   * location. This corresponds to an .ini file's first `[header]` line.
+   */
+  type: "panda",
+  /** Freetext describing possible accuracy errors for this animal */
+  uncertainty?: string,
+  /** 
+   * The wild numeric ID that indicates the region a wild red panda was
+   * witnessed at. Any given panda indicates its current location either
+   * with a single `wild` property or a single `zoo` property.
+   */
+  wild?: number | "unknown"
+  /** The zoo numeric ID where the animal currently lives */
+  zoo?: number | "unknown"
+}
+
+/**
+ * Panda configuration fragments contain some temporary values that get
+ * rewritten when the NodePanda vertex is written to disk.
+ */
+interface FragmentPanda extends NodePanda {
+  /** Free-form instructions from the submitter to RPFS about this panda */
+  _notes: string
+}
+
+/**
+ * The typescript representation of a configuration fragment from the
+ * _redpanda-submission_ server for a single photo upload, converted into a
+ * form intended for merging into an existing media, panda, or zoo node.
+ */
+interface NodePhoto extends Vertex {
+  /** Fixed identifier for either a media, panda, wild, or zoo node */
+  _id: string,
+  /** Optional Instagram locator this photo represents */
+  _ig_locator?: string,
+  /** The single photo contributed by this fragment */
+  photos: Photo[],
+  /**
+   * For code that processes different types of nodes, we use the type
+   * discriminator to ensure the rest of the input node conforms to the
+   * particular Node type.
+   */
+  type: "photo"
+}
+
+/**
+ * The typescript representation of the text contents of 
+ * `wild/<country>/<id_name.txt>` files, with a `[wild]` header. In the
+ * redpandafinder interface, these are required to have similar information
+ * as a zoo location.
+ * 
+ * On disk these are text files in the `.ini` format, intended to be easily
+ * written or modified manually, in a text editor.
+ * 
+ * In converting to Typescript, we use the language values as keys rather than
+ * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
+ * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
+ */
+interface NodeWild extends Vertex {
+  /** Fixed `wild.X` identifier that increments when adding new locations */
+  _id: string,
+  /** A stub address to match what similar zoo addresses strings look like */
+  address: StringPerLanguage
+  /**
+   * Language order for how to prioritize displaying names when the current
+   * display language doesn't have information for this animal.
+   */
+  "language.order": Language[],
+  /** A stub location to match what similar zoo location strings look like */
+  location: StringPerLanguage,
+  /** Each wild sighting location has a single primary name per language */
+  name: StringPerLanguage,
+  /** A wild location likely has some set of photos and attributions */
+  photos: Photo[],
+  /** 
+   * A type discriminator so that we can reason about whether this is an
+   * entity that represents a panda living in a zoo, a zoo, or a wild-seen
+   * location. This corresponds to an .ini file's first `[header]` line.
+   */
+  type: "wild",
+  /** Website representing the location this animal was seen */
+  website: string,
+}
+
+/**
+ * The typescript representation of the text contents of 
+ * `zoos/<country>/<id_name.txt>` files, with a `[zoo]` header.
+ * 
+ * On disk these are text files in the `.ini` format, intended to be easily
+ * written or modified manually, in a text editor.
+ * 
+ * In converting to Typescript, we use the language values as keys rather than
+ * as prefixes. So when reading the file, `en.name` and `ja.name` get processed
+ * into a `PandaNames` object, indexed by SupportedLanguages _en_ and _ja_.
+ */
+interface NodeZoo extends Vertex {
+  /** Fixed `zoo.X` identifier that increments when adding new zoos */
+  _id: string,
+  /** Street address string, represented in our supported languages */
+  address: StringPerLanguage,
+  /** When a zoo closes permanently, we record the date in YYYY/MM/DD format */
+  closed: string,
+  /**
+   * YYYY/MM/DD representing the day this zoo was added to redpandafinder,
+   * for the sake of showing newly-added zoos on the front page.
+   */
+  commitdate: string,
+  /** 
+   * Country or locality for this zoo, which keys into a possible flag
+   * value in `language.js#Language.L.flags.
+   */
+  flag: string,
+  /**
+   * Language order for how to prioritize displaying names when the current
+   * display language doesn't have information for this animal.
+   */
+  "language.order": Language[],
+  /**
+   * The latitude of the zoo, for determining whether a zoo is close to the
+   * redpandafinder user with browser LocationServices.
+   */
+  latitude: string,
+  /** 
+   * A short string summarizing what city / state / province / country a
+   * zoo is located in, in our supported languages.
+   */
+  location: StringPerLanguage,
+  /**
+   * The longitude of the zoo, for determining whether a zoo is close to the
+   * redpandafinder user with browser LocationServices.
+   */
+  longitude: string,
+  /** URL representing this zoo in Google Maps */
+  map: string,
+  /** Each zoo has a single primary name per supported language */
+  name: StringPerLanguage,
+  /**
+   * Previous names, or commonly used names for this zoo. These _are_
+   * searchable in the redpandafinder search form.
+   */
+  othernames: StringListByLanguage,
+  /** A zoo likely has some set of photos and attributions */
+  photos: Photo[],
+  /** 
+   * A type discriminator so that we can reason about whether this is an
+   * entity that represents a panda living in a zoo, a zoo, or a wild-seen
+   * location. This corresponds to an .ini file's first `[header]` line.
+   */
+  type: "zoo",
+  /** URL to the website for this zoo */
+  website: string,
+}
+
+/**
+ * Zoo configuration fragments contain some temporary values that get
+ * rewritten when the NodeZoo vertex is written to disk.
+ */
+interface FragmentZoo extends NodeZoo {
+  /**
+   * A field that appears in fragments that will become Zoo Vertexes, a string
+   * that represents the filename a new zoo entry will get in the database.
+   */
+  _zoofilename: string,
+  /** 
+   * The subfolder under `zoos/` which a new Zoo Entity will be written to,
+   * which are all lowercase.
+   */
+  "country.folder": string,
+  /** 
+   * The name of the country which this zoo is at, which becomes the `flag`
+   * value in the final zoo entity.
+   */
+  "country.name": string
+}
+
+/** Any item in our redpanda-lineage Dagoba graph */
+type GraphNode = NodeLinks | NodeMedia | NodeNone | NodePanda | NodePhoto | NodeWild | NodeZoo
+
+/** Any item with photos in the redpanda-lineage Dagoba graph */
+type PhotoGraphNode = Exclude<GraphNode, NodeLinks | NodeNone | NodePhoto>
+
+/**
+ * Photos rendered in carousels or returned in search results, need to track
+ * metadata related to how they were found or how they will be displayed.
+ */
+interface EnrichedPhoto extends Omit<Photo, "commitdate" | "source"> {
+  /** Optional display classes for rendering divs */
+  classes?: string[],
+  /** Optional icon appearing next to the photo author caption */
+  credit_icon?: string,
+  /** The GraphNode ID this photo represents */
+  _id: string,
+  /** Natural number index for displaying in carousels */
+  index: number,
+  /** Optional icon appearing next to the animal name caption */
+  name_icon?: string,
+  /** 
+   * Transform the photo source of the underlying `Photo` (possibly an ig://
+   * pseudo-URL) into a full web URL reference.
+   */
+  reference: string,
+  /** What the origin of this photo is */
+  type: "media" | "panda" | "wild" | "zoo"
+  /** 
+   * Unlike the `Photo` object which tracks tags on a photo, `EnrichedPhoto`
+   * tracks the tags _queried for_ in RPF that this photo matched.
+   */
+  tags: string[]
+}
+
+/** 
+ * Panda results are an enrichment of the panda entity info tracked in the
+ * Dagobah graph.
+ */
+interface EnrichedPanda {
+  /** The `panda.X` string ID for the `EnrichedPanda` animal */
+  _id: string,
+  /** 
+   * String describing the panda's age. Birthdates are not more granular than
+   * one day of accuracy, so the calculations track number of days. Prior to
+   * two years old, the age also tracks number of months as well. 
+   */
+  age: string,
+  /**
+   * Birthday string with years, months, and days, formatted to a locale based
+   * on the `Pandas.def.date` value in `pandas.js`, and falling back to an
+   * _unknown_ default value.
+   */
+  birthday: string,
+  /** Resolve the birthplace numeric string ID to a full location node */
+  birthplace: NodeZoo | NodeWild,
+  /** Reoslve the children numeric string IDs to an `NodePanda` list */
+  children: NodePanda[],
+  /**
+   * Death string with years, months, and days, formatted to a locale based
+   * on the `Pandas.def.date` value in `pandas.js`, and falling back to an
+   * _unknown_ default value.
+   */
+  death: string,
+  /** Resolve potential father's numeric IDs to a full `NodePanda` list */
+  dad: NodePanda[],
+  /** Translated string for the animal's gender (or unknown) */
+  gender: string,
+  /**
+   * Language order for how to prioritize displaying names when the current
+   * display language doesn't have information for this animal.
+   */
+  language_order: Language[],
+  /** Resolve the litter mates' numeric IDs to a `NodePanda` list */
+  litter: NodePanda[],
+  /** Resolve potential mother's numeric IDs to a full `NodePanda` list */
+  mom: NodePanda[],
+  /** The panda's primary name, in the current display language */
+  name: string,
+  /** The panda's other names, in the current display language */
+  othernames: string[],
+  /** The URL of the photo being displayed in this panda's result card */
+  photo: string,
+  /** The author (Instagram username or full name) of the photo */
+  photo_credit: string,
+  /** The numeric index for this photo in the list of the animal's photos */
+  photo_index: number,
+  /** The link to the original source of this photo */
+  photo_link: string,
+  /** 
+   * A manifest of all possible photo URLs for this animal, indexed by the
+   * string `photo.\d+` similar to the underlying panda `.ini` text files.
+   */
+  photos: Photo[],
+  /** 
+   * Some panda searches enrich the result vertexes with info about the
+   * original search condition that discovered that vertex. TODO: there isn't
+   * a consistent format for these objects.
+   */
+  search_context: Record<string, any>
+  /** 
+   * Resolve the numeric string IDs of all siblings of this animal who are not
+   * immediate litter-mates, into a set of `NodePanda` organized from oldest
+   * to youngest. This will include half-siblings.
+   */
+  siblings: NodePanda[],
+  /** The language-translated species name for this red panda */
+  species: string,
+  /** Used to type-narrow for `EnrichedPanda` objects */
+  type: "panda",
+  /** 
+   * If the panda lives in the wild, resolve its current location into an
+   * `NodeWild` object.
+   */
+  wild: NodeWild,
+  /** If the panda lives at a zoo, resolve its location into an `NodeZoo` */
+  zoo: NodeZoo
+  /** For fallback translation and further enrichment, allow string keys */
+  [key: string]: any
+}
+
+/** 
+ * Zoo results are an enrichment of the zoo entity info tracked in the Dagobah
+ * graph.
+ */
+interface EnrichedZoo {
+  /** The `zoo.X` string ID for the `EnrichedZoo` zoo */
+  _id: string,
+  /** The address of this zoo, translated into the current display language. */
+  address: string,
+  /** The number of animals currently living at this zoo */
+  animal_count: number,
+  /** 
+   * The list of all pandas resolved from their numeric string entity ID,
+   * that currently live at this zoo.
+   */
+  animals: NodePanda[],
+  /** The YYYY/MM/DD string for when this zoo closed. TODO: locale */
+  closed: string,
+  /**
+   * Language order for how to prioritize displaying names when the current
+   * display language doesn't have information for this zoo.
+   */
+  language_order: Language[],
+  /** The city / state / province of this zoo, in the display language */
+  location: string,
+  /** URL representing this zoo in Google Maps */
+  map: string,
+  /** The primary name of this facility, in the current display language */
+  name: string,
+  /** The URL of the photo being displayed in this zoo's result card */
+  photo: string,
+  /** The author (Instagram username or full name) of the photo */
+  photo_credit: string,
+  /** The numeric index for this photo in the list of the zoo's photos */
+  photo_index: number,
+  /** The link to the original source of this photo */
+  photo_link: string,
+  /** 
+   * A manifest of all possible photo URLs for this zoo, indexed by the
+   * string `photo.\d+` similar to the underlying zoo `.ini` text files.
+   */
+  photos: Photo[],
+  /**
+   * The list of all pandas resolved to have lived at this zoo either
+   * currently, or at some point in the past.
+   */
+  recorded: NodePanda[],
+  /** The total tally of red pandas that have ever lived at this zoo */
+  recorded_count: number,
+  /** Used to type-narrow for `EnrichedZoo` objects */
+  type: "zoo",
+  /** The URL of the zoo's website */
+  website: string,
+  /** For fallback translation and further enrichment, allow string keys */
+  [key: string]: any
+}
+
+/** TODO: enriched wild as well? */
+type EnrichedEntity = EnrichedPanda | EnrichedZoo
+
+/** For rendering the Location boxes on the Profile page */
+interface ProfileLocation {
+  /** The `zoo.X` or `wild.X` prefix-ID */
+  id: string,
+  start_date: string,
+  end_date: string | undefined
+}
+
+/**
+ * Information about a panda not known to redpandafinder. Track which language
+ * the user submitted the data in, as well as any photos submitted.
+ *
+ * When writing the panda data to a JSON file on disk, we use the index number
+ * to guarantee there aren't collisions with previously added zoos or pandas.
+ */
+type SubmittedPanda = {
+  author: string,
+  birthday: number,
+  gender: Gender,
+  index: number,
+  language: Language,
+  name: string,
+  notes: string | null
+  photo_locators: string[],
+  species: Species,
+  type: "panda",
+  zoo: string | null
+}
+
+/** 
+ * Metadata per photo, for tracking provenance, and duplicates in the larger
+ * redpanda dataset. For photos of animals known to redpandafinder, the _id is
+ * a positive number. For photos of zoos known to redpandafinder, the _id is a
+ * negative number. Finally, for new animals or zoos, the _id is set to zero.
+ */
+type SubmittedPhoto = {
+  _id: string,
+  author: string,
+  file_mtime: number,
+  file_name: string,
+  hash: string,
+  ig_locator: string | null,
+  index: number,
+  orientation: string | null,
+  tags: string[],
+  taken_date: number | null,
+  type: "photo"
+}
+
+/**
+ * Information about a zoo not known to redpandafinder. Track which language
+ * the user submitted the data in, as well as any photos submitted. In RPF if
+ * you share your location data from the browser, the latitude and longitude
+ * info per zoo will show you which zoos with red pandas are nearby.
+ * 
+ * When writing the zoo data to a JSON file on disk, we use the index number
+ * to guarantee there aren't collisions with previously added zoos or pandas.
+ * 
+ * The folder parameter is here because the submissions forms and proper
+ * redpandafinder don't share any lookup tables. It's easier to just define
+ * the folder lookup here, and the Python ingest script will just use what
+ * we tell it to.
+ */
+type SubmittedZoo = {
+  address: string | null,
+  author: string,
+  country: string,
+  folder: string,
+  index: number,
+  latitude: number,
+  language: Language,
+  longitude: number,
+  name: string,
+  photo_locators: string[],
+  type: "zoo",
+  website: string | null
+}
+
+/** Types for dealing with sets of tags */
+type TagSetKey = "emoji" | keyof typeof SupportedLanguages
+type TagSet = Record<string, Record<TagSetKey, string[]>>
+
+
+/**
+ * A type for the outputted redpanda.json file, which is a superset of the
+ * Dagoba graph data.
+ */
+type ExportJson = {
+  _commit: string,
+  _lexer: {
+    names: string[],
+  },
+  _photo: {
+    credit: Record<string, number>,
+    entity_max: number,
+    group_max: number
+  },
+  _totals: {
+    credit: number,
+    last_born: number,
+    last_died: number,
+    locations: number,
+    media: number,
+    pandas: number,
+    photos: number,
+    updates: {
+      authors: number,
+      entities: number,
+      pandas: number,
+      photos: number,
+      zoos: number
+    },
+    wilds: number,
+    zoos: number
+  },
+  _updates: {
+    authors: string[],
+    entities: string[],
+    photos: string[]
+  },
+  edges: DanglingEdge[],
+  vertices: GraphNode[]
+}
+
+/**
+ * Extension of the un-exported Node type from Jsleri (unrelated to Dagoba
+ * Node/Vertex objects). Adds a "type" classifier used to describe how the
+ * query resolver should do its job.
+ */
+interface ParserNode {
+  start: number,
+  end: number,
+  type: string
+  str: string,
+  children: ParserNode[]
+  element: any,
+  parent: ParserNode,
+  [k: string]: any
+}
+
+/**
+ * The query.ts#resolve function returns a result object that shows both the
+ * photos or animals the search found, as well as metadata for how the parser
+ * processed the search query.
+ */
+interface QueryResult {
+  /** String considered a constraint on the given subject search */
+  filter?: string,
+  /** Entities or photos resolved from this query */
+  hits: GraphNode[] | EnrichedPhoto[],
+  /** The raw query string */
+  query: string,
+  /** The first node in the tree's type */
+  parsed: string,
+  /** Animal ids or names that were in the query */
+  subject?: string,
+  /** Comma-delimited string of all tags in the search query */
+  tag?: string
+}
