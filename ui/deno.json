@@ -38,7 +38,11 @@
   "exports": {},
   "tasks": {
     "build": {
-      "command": "make"
+      "command": "make",
+      "dependencies": ["bundle_nanojsx"]
+    },
+    "bundle_nanojsx": {
+      "command": "deno bundle --platform=browser --minify npm:nano-jsx@0.2.1 -o js/nanojsx-0.2.1.js"
     }
   }
 }
