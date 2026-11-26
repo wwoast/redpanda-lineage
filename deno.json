@@ -1,7 +1,4 @@
 {
-  "compilerOptions": {
-    "types": ["./data/types/*.d.ts"]
-  },
   "imports": {
     "@redpanda-lineage/data/dagoba": "./data/ts/dagoba.ts",
     "@redpanda-lineage/data/export": "./data/ts/export.ts"
