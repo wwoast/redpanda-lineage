@@ -1,9 +1,6 @@
 {
   "name": "@redpanda-lineage/data",
   "version": "0.1.0",
-  "compilerOptions": {
-     "types": ["./types/*.d.ts"]
-  },
   "imports": {
     "@dependencies/sharp": "npm:sharp@^0.35.4",
     "@dependencies/roka/git": "jsr:@roka/git@^0.4.0",

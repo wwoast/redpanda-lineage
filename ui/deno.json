@@ -11,7 +11,6 @@
     "jsx": "react",
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment",
-    "types": ["../data/types/*.d.ts"]
   },
   "imports": {
     "@dependencies/html5-qrcode": "./js/html5-qrcode.js",
