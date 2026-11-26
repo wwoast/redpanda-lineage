@@ -704,7 +704,14 @@ export function credit(credit: string | undefined, count: number) {
   const content = render(FormatText({
     "text": text
   }))
-  content.forEach((element: Element) => p.appendChild(element))
+  // The rendering step makes strings out of JSX Fragments, so I need to make
+  // them nodes so that appendChild even makes sense. 
+  content.forEach((element: string | Element) => {
+    if (typeof element === "string")
+      p.appendChild(document.createTextNode(element))
+    else
+      p.appendChild(element)
+  })
   return shrinkBoxMessage("creditSummary", p)
 }
 
