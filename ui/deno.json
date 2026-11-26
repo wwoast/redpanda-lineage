@@ -8,13 +8,16 @@
       "dom.asynciterable",
       "deno.ns"
     ],
+    "jsx": "react",
     "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
     "types": ["../data/types.ts"]
   },
   "imports": {
     "@dependencies/html5-qrcode": "js/html5-qrcode.js",
     "@dependencies/jsleri": "js/jsleri-1.1.15.js",
-    "@dependencies/nanojsx": "https://deno.land/x/nano_jsx@v0.2.1/mod.ts",
+    "@dependencies/nanojsx": "npm:nano-jsx@0.2.1",
+    "@redpanda-lineage/ui/components/shared": "ts/components/shared.tsx",
     "@redpanda-lineage/ui/environment": "ts/environment.ts",
     "@redpanda-lineage/ui/gallery": "ts/gallery.ts",
     "@redpanda-lineage/ui/geolocate": "ts/geolocate.ts",
@@ -35,7 +38,11 @@
   "exports": {},
   "tasks": {
     "build": {
-      "command": "make"
+      "command": "make",
+      "dependencies": ["bundle_nanojsx"]
+    },
+    "bundle_nanojsx": {
+      "command": "esbuild ~/.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/index.js --bundle --format=esm --platform=browser --outfile=./js/nanojsx-0.2.1.js"
     }
   }
 }
