@@ -687,7 +687,8 @@ export function closed(date: string) {
  * language setting, with the name in italics and the photo count in boldface.
  * If someone has contributed a lot of photos, they get a special emoji header.
  * 
- * TODO-UI: once JSX is working, post-process for count (bold) and user (italics)
+ * TODO-JSX: make this only return text and use the contents of these messages
+ * inside the JSX components.
  */
 export function credit(credit: string | undefined, count: number) {
   if (credit == undefined)
