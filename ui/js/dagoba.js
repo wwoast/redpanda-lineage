@@ -39,10 +39,7 @@
     ported away from 'code golf' to es6 and classes/typescript, with a couple
     helper functions, by Justin Fairchild, 2026
 */
-/** 
- * Real edges in the graph have one in-vertex, one out-vertex, one label, and
- * any other string-keyed properties you want.
- */ class Graph {
+class Graph {
   autoid = 1;
   edges = [];
   vertices = [];
@@ -340,6 +337,7 @@ addPipetype('merge', function(_graph, args, gremlin, state) {
   const vertex = state.vertices.pop();
   return makeGremlin(vertex, gremlin.state);
 });
+// TRANSFORMER FUNCTIONS (to optimize queries)
 const Transformers = [];
 export function addTransformer(fun, priority) {
   if (typeof fun != 'function') return error('Invalid transformer function');
