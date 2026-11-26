@@ -8,12 +8,12 @@
     "@dependencies/std/fs": "jsr:@std/fs@^1.0.24",
     "@dependencies/std/ini": "jsr:@std/ini@^0.225.2",
     "@dependencies/std/path": "jsr:@std/path@^1.1.6",
-    "@redpanda-lineage/data/build": "ts/build.ts",
-    "@redpanda-lineage/data/dataset": "ts/dataset.ts",
-    "@redpanda-lineage/data/manage": "ts/manage.ts",
-    "@redpanda-lineage/data/photos": "ts/photos.ts",
-    "@redpanda-lineage/data/shared": "ts/shared.ts",
-    "@redpanda-lineage/data/submissions": "ts/submissions.ts"
+    "@redpanda-lineage/data/build": "./ts/build.ts",
+    "@redpanda-lineage/data/dataset": "./ts/dataset.ts",
+    "@redpanda-lineage/data/manage": "./ts/manage.ts",
+    "@redpanda-lineage/data/photos": "./ts/photos.ts",
+    "@redpanda-lineage/data/shared": "./ts/shared.ts",
+    "@redpanda-lineage/data/submissions": "./ts/submissions.ts"
   },
   "exports": {},
   "tasks": {
