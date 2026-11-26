@@ -4,7 +4,7 @@ var __export = (target, all) => {
     __defProp(target, name, { get: all[name], enumerable: true });
 };
 
-// core.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/core.js
 var isSSR = () => typeof _nano !== "undefined" && _nano.isSSR === true;
 var tick = Promise.prototype.then.bind(Promise.resolve());
 var removeAllChildNodes = (parent) => {
@@ -218,10 +218,10 @@ var h = (tagNameOrComponent, props = {}, ...children) => {
   return element;
 };
 
-// version.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/version.js
 var VERSION = "0.2.1";
 
-// helpers.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/helpers.js
 var task = (task2) => setTimeout(task2, 0);
 var nodeToString = (node) => {
   const tmpNode = document.createElement("div");
@@ -266,10 +266,10 @@ var printVersion = () => {
   console.log(`%c %c %c %c %c ${info} %c http://nanojsx.io`, "background: #ff0000", "background: #ffff00", "background: #00ff00", "background: #00ffff", "color: #fff; background: #000000;", "background: none");
 };
 
-// state.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/state.js
 var _state = /* @__PURE__ */ new Map();
 
-// component.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/component.js
 var Component = class {
   constructor(props) {
     this._elements = [];
@@ -386,7 +386,7 @@ var Component = class {
   }
 };
 
-// components/helmet.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/components/helmet.js
 var Attributes = class extends Map {
   toString() {
     let string = "";
@@ -505,7 +505,7 @@ var Helmet = class extends Component {
   }
 };
 
-// components/img.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/components/img.js
 var Img = class extends Component {
   constructor(props) {
     super(props);
@@ -563,12 +563,12 @@ var Img = class extends Component {
   }
 };
 
-// fragment.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/fragment.js
 var Fragment = (props) => {
   return props.children;
 };
 
-// components/link.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/components/link.js
 var Link = class extends Component {
   prefetchOnHover() {
     this.elements[0].addEventListener("mouseover", () => this.addPrefetch(), { once: true });
@@ -639,7 +639,7 @@ var Link = class extends Component {
   }
 };
 
-// components/router.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/components/router.js
 var router_exports = {};
 __export(router_exports, {
   Link: () => Link2,
@@ -840,7 +840,7 @@ var parseParamsFromPath = (path) => {
   return params;
 };
 
-// components/suspense.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/components/suspense.js
 var Suspense = class extends Component {
   constructor(props) {
     super(props);
@@ -909,7 +909,7 @@ var Suspense = class extends Component {
   }
 };
 
-// components/visible.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/components/visible.js
 var Visible = class extends Component {
   constructor() {
     super(...arguments);
@@ -938,7 +938,7 @@ var Visible = class extends Component {
   }
 };
 
-// regexDom.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/regexDom.js
 var HTMLElementSSR = class {
   constructor(tag) {
     this.isSelfClosing = false;
@@ -1062,7 +1062,7 @@ var documentSSR = () => {
   return new DocumentSSR();
 };
 
-// ssr.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/ssr.js
 var ssrTricks = {
   isWebComponent: (tagNameOrComponent) => {
     return typeof tagNameOrComponent === "string" && tagNameOrComponent.includes("-") && _nano.customElements.has(tagNameOrComponent);
@@ -1107,10 +1107,10 @@ var renderSSR = (component, options = {}) => {
     return Array.from(tmp).join("");
 };
 
-// htm/constants.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/htm/constants.js
 var MINI = false;
 
-// htm/build.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/htm/build.js
 var MODE_SLASH = 0;
 var MODE_TEXT = 1;
 var MODE_WHITESPACE = 2;
@@ -1289,7 +1289,7 @@ var build = function(statics, ...rest) {
   return current;
 };
 
-// htm/index.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/htm/index.js
 var CACHES = /* @__PURE__ */ new Map();
 var regular = function(statics) {
   let tmp = CACHES.get(this);
@@ -1302,19 +1302,19 @@ var regular = function(statics) {
 };
 var htm_default = MINI ? build : regular;
 
-// htm.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/htm.js
 var htm_default2 = htm_default;
 
-// jsx.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/jsx.js
 var jsx = htm_default2.bind(h);
 
-// lazy.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/lazy.js
 var hydrateLazy = (component, parent = null, removeChildNodes = true) => {
   const c = h(Visible, null, component);
   return hydrate(c, parent, removeChildNodes);
 };
 
-// store.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/store.js
 var Store = class {
   /**
    * Create your own Store.
@@ -1387,7 +1387,7 @@ var Store = class {
   }
 };
 
-// context.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/context.js
 var createContext = (ctx) => {
   let _ctx = ctx;
   return {
@@ -1410,7 +1410,7 @@ var useContext = (ctx) => {
   }
 };
 
-// withStyles.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/withStyles.js
 var withStyles = (...styles) => (WrappedComponent) => {
   return class extends Component {
     render() {
@@ -1438,7 +1438,7 @@ var withStyles = (...styles) => (WrappedComponent) => {
   };
 };
 
-// customElementsMode.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/customElementsMode.js
 var defineAsCustomElementsSSR = (component, componentName, _publicProps = [], _options = {}) => {
   if (!/^[a-zA-Z0-9]+-[a-zA-Z0-9]+$/.test(componentName))
     console.log(`Error: WebComponent name "${componentName}" is invalid.`);
@@ -1519,7 +1519,7 @@ var defineAsCustomElements = function(component, componentName, publicProps, sha
   });
 };
 
-// index.js
+// ../../../.cache/deno/npm/registry.npmjs.org/nano-jsx/0.2.1/esm/index.js
 var index_default = { h, render, hydrate, renderSSR, isSSR };
 export {
   Component,
