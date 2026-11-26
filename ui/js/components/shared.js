@@ -19,7 +19,7 @@ export const FormatText = (props)=>{
         key: index
       }, part.slice(1, -1));
     } else {
-      return /*#__PURE__*/ h(Fragment, null, "part");
+      return /*#__PURE__*/ h(Fragment, null, part);
     }
   });
 };
