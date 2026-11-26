@@ -676,9 +676,10 @@ export function credit(credit, count) {
     else return Emoji.gift;
   });
   // Post-process bold and italics in the text
-  const msg = render(FormatText({
+  const element = FormatText({
     "text": text
-  }));
+  });
+  const msg = render(element);
   p.appendChild(msg);
   return shrinkBoxMessage("creditSummary", p);
 }
